@@ -1,6 +1,6 @@
 ---
 title: ThemeColor
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定文档主题的主题颜色。
 type: docs
 weight: 574
@@ -20,7 +20,7 @@ public class ThemeColor
 指定的主题颜色是对位于文档的主题部分中的预定义主题颜色之一的引用，它允许在文档中集中设置颜色信息。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [ACCENT_1](#ACCENT-1) | 强调色 1。 |
 | [ACCENT_2](#ACCENT-2) | 强调色 2。 |
@@ -46,7 +46,7 @@ public class ThemeColor
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String themeColorName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int themeColor)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -229,16 +229,16 @@ public static int fromName(String themeColorName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int themeColor) {#getName-int-}
 ```
 public static String getName(int themeColor)

@@ -1,6 +1,6 @@
 ---
 title: FootnotePosition
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 定义脚注位置。
 type: docs
 weight: 294
@@ -16,7 +16,7 @@ public class FootnotePosition
 定义脚注位置。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BENEATH_TEXT](#BENEATH-TEXT) | 脚注在每页的文本下方输出。 |
 | [BOTTOM_OF_PAGE](#BOTTOM-OF-PAGE) | 脚注输出在每页的底部。 |
@@ -27,7 +27,7 @@ public class FootnotePosition
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String footnotePositionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int footnotePosition)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -90,16 +90,16 @@ public static int fromName(String footnotePositionName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int footnotePosition) {#getName-int-}
 ```
 public static String getName(int footnotePosition)

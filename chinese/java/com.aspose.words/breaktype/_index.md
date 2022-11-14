@@ -1,6 +1,6 @@
 ---
-title: Break类型
-second_title: Aspose.Words for Java API Reference
+title: BreakType
+second_title: Aspose.Words for Java API 参考
 description: 指定文档中的中断类型。
 type: docs
 weight: 39
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/breaktype/
 **遗产:**
 java.lang.Object
 ```
-public class Break类型
+public class BreakType
 ```
 
-指定文档中的中断类型。
+指定文档内的中断类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [COLUMN_BREAK](#COLUMN-BREAK) | 显式分栏。 |
 | [LINE_BREAK](#LINE-BREAK) | 显式换行。 |
@@ -33,15 +33,15 @@ public class Break类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String break类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int break类型)](#getName-int-) |  |
+| [fromName(String breakTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int breakType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int break类型)](#toString-int-) |  |
+| [toString(int breakType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -138,9 +138,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String break类型Name) {#fromName-java.lang.String-}
+### fromName(String breakTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String break类型Name)
+public static int fromName(String breakTypeName)
 ```
 
 
@@ -149,23 +149,23 @@ public static int fromName(String break类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| break类型Name | java.lang.String |  |
+| breakTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int break类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int breakType) {#getName-int-}
 ```
-public static String getName(int break类型)
+public static String getName(int breakType)
 ```
 
 
@@ -174,7 +174,7 @@ public static String getName(int break类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| break类型 | int |  |
+| breakType | int |  |
 
 **退货:**
 java.lang.String
@@ -224,9 +224,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int break类型) {#toString-int-}
+### toString(int breakType) {#toString-int-}
 ```
-public static String toString(int break类型)
+public static String toString(int breakType)
 ```
 
 
@@ -235,7 +235,7 @@ public static String toString(int break类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| break类型 | int |  |
+| breakType | int |  |
 
 **退货:**
 java.lang.String

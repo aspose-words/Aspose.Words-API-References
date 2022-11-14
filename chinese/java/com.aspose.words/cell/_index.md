@@ -1,6 +1,6 @@
 ---
 title: Cell
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示表格单元格。
 type: docs
 weight: 48
@@ -40,13 +40,13 @@ public class Cell extends CompositeNode
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchCellAttr(int key)](#fetchCellAttr-int-) |  |
 | [fetchInheritedCellAttr(int key)](#fetchInheritedCellAttr-int-) |  |
-| [getAncestor(int ancestor类型)](#getAncestor-int-) |  |
-| [getAncestor(班级 ancestor类型)](#getAncestor-java.lang.班级-) | 获取指定对象类型的第一个祖先。 |
+| [getAncestor(int ancestorType)](#getAncestor-int-) |  |
+| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class-) | 获取指定对象类型的第一个祖先。 |
 | [getCellFormat()](#getCellFormat--) | 提供对单元格格式属性的访问。 |
-| [getChild(int node类型, int index, boolean isDeep)](#getChild-int-int-boolean-) |  |
+| [getChild(int nodeType, int index, boolean isDeep)](#getChild-int-int-boolean-) |  |
 | [getChildNodes()](#getChildNodes--) | 获取此节点的所有直接子节点。 |
-| [getChildNodes(int node类型, boolean isDeep)](#getChildNodes-int-boolean-) |  |
-| [get班级()](#get班级--) |  |
+| [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean-) |  |
+| [getClass()](#getClass--) |  |
 | [getContainer()](#getContainer--) |  |
 | [getCount()](#getCount--) | 获取此节点的直接子节点数。 |
 | [getCurrentNode()](#getCurrentNode--) |  |
@@ -59,7 +59,7 @@ public class Cell extends CompositeNode
 | [getLastParagraph()](#getLastParagraph--) | 获取直接子级中的最后一段。 |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node-) |  |
 | [getNextSibling()](#getNextSibling--) | 获取紧跟此节点的节点。 |
-| [getNode类型()](#getNode类型--) | 退货**Node类型.Cell**. |
+| [getNodeType()](#getNodeType--) | 退货**NodeType.Cell**. |
 | [getParagraphs()](#getParagraphs--) | 获取作为单元格的直接子级的段落的集合。 |
 | [getParentNode()](#getParentNode--) | 获取此节点的直接父节点。 |
 | [getParentRow()](#getParentRow--) | 返回单元格的父行。 |
@@ -70,21 +70,21 @@ public class Cell extends CompositeNode
 | [hasChildNodes()](#hasChildNodes--) | 如果此节点有任何子节点，则返回 true。 |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(Node child)](#indexOf-com.aspose.words.Node-) | 返回子节点数组中指定子节点的索引。 |
-| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的参考节点之后立即插入指定的节点。 |
-| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的参考节点之前插入指定的节点。 |
+| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的引用节点之后立即插入指定的节点。 |
+| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node-) | 将指定节点插入到紧靠指定引用节点之前。 |
 | [isComposite()](#isComposite--) | 返回 true，因为此节点可以有子节点。 |
 | [isFirstCell()](#isFirstCell--) | 如果这是一行中的第一个单元格，则为真；否则为假。 |
 | [isLastCell()](#isLastCell--) | 如果这是一行中的最后一个单元格，则为真；否则为假。 |
-| [iterator()](#iterator--) | 为在此节点的子节点上的每个样式迭代提供支持。 |
+| [iterator()](#iterator--) | 为该节点的子节点上的每个样式迭代提供支持。 |
 | [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取下一个节点。 |
-| [node类型ToString(int node类型)](#node类型ToString-int-) |  |
+| [nodeTypeToString(int nodeType)](#nodeTypeToString-int-) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [prependChild(Node newChild)](#prependChild-com.aspose.words.Node-) | 将指定节点添加到此节点的子节点列表的开头。 |
 | [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取上一个节点。 |
 | [remove()](#remove--) | 从父级中移除自身。 |
 | [removeAllChildren()](#removeAllChildren--) | 移除当前节点的所有子节点。 |
-| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node-) | 移除指定的子节点。 |
+| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node-) | 删除指定的子节点。 |
 | [removeMoveRevisions()](#removeMoveRevisions--) |  |
 | [removeSmartTags()](#removeSmartTags--) | 删除所有[SmartTag](../../com.aspose.words/smarttag)当前节点的后代节点。 |
 | [selectNodes(String xpath)](#selectNodes-java.lang.String-) | 选择与 XPath 表达式匹配的节点列表。 |
@@ -240,9 +240,9 @@ public Object fetchInheritedCellAttr(int key)
 
 **退货:**
 java.lang.Object
-### getAncestor(int ancestor类型) {#getAncestor-int-}
+### getAncestor(int ancestorType) {#getAncestor-int-}
 ```
-public CompositeNode getAncestor(int ancestor类型)
+public CompositeNode getAncestor(int ancestorType)
 ```
 
 
@@ -251,13 +251,13 @@ public CompositeNode getAncestor(int ancestor类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ancestor类型 | int |  |
+| ancestorType | int |  |
 
 **退货:**
 [CompositeNode](../../com.aspose.words/compositenode)
-### getAncestor(班级 ancestor类型) {#getAncestor-java.lang.班级-}
+### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
 ```
-public CompositeNode getAncestor(班级 ancestor类型)
+public CompositeNode getAncestor(Class ancestorType)
 ```
 
 
@@ -266,7 +266,7 @@ public CompositeNode getAncestor(班级 ancestor类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ancestor类型 | java.lang.班级 | 要检索的祖先的对象类型。 |
+| ancestorType | java.lang.Class | 要检索的祖先的对象类型。 |
 
 **退货:**
 [CompositeNode](../../com.aspose.words/compositenode) - 指定类型的祖先，如果没有找到该类型的祖先，则返回 null。
@@ -282,9 +282,9 @@ public CellFormat getCellFormat()
 
 **退货:**
 [CellFormat](../../com.aspose.words/cellformat) - 相应的[CellFormat](../../com.aspose.words/cellformat)价值。
-### getChild(int node类型, int index, boolean isDeep) {#getChild-int-int-boolean-}
+### getChild(int nodeType, int index, boolean isDeep) {#getChild-int-int-boolean-}
 ```
-public Node getChild(int node类型, int index, boolean isDeep)
+public Node getChild(int nodeType, int index, boolean isDeep)
 ```
 
 
@@ -293,7 +293,7 @@ public Node getChild(int node类型, int index, boolean isDeep)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 | index | int |  |
 | isDeep | boolean |  |
 
@@ -307,15 +307,15 @@ public NodeCollection getChildNodes()
 
 获取此节点的所有直接子节点。
 
-笔记，[getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes--)相当于调用 GetChildNodes(Node类型.Any, false) 并在每次访问时创建并返回一个新集合。
+笔记，[getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes--)相当于调用 GetChildNodes(NodeType.Any, false) 并在每次访问时创建并返回一个新集合。
 
 如果没有子节点，则此属性返回一个空集合。
 
 **退货:**
 [NodeCollection](../../com.aspose.words/nodecollection) - 该节点的所有直接子节点。
-### getChildNodes(int node类型, boolean isDeep) {#getChildNodes-int-boolean-}
+### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean-}
 ```
-public NodeCollection getChildNodes(int node类型, boolean isDeep)
+public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 ```
 
 
@@ -324,21 +324,21 @@ public NodeCollection getChildNodes(int node类型, boolean isDeep)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 | isDeep | boolean |  |
 
 **退货:**
 [NodeCollection](../../com.aspose.words/nodecollection)
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getContainer() {#getContainer--}
 ```
 public CompositeNode getContainer()
@@ -473,20 +473,20 @@ public Node getNextSibling()
 ```
 
 
-获取紧跟此节点的节点。如果没有下一个节点，则返回 null。
+获取紧跟在该节点之后的节点。如果没有下一个节点，则返回 null。
 
 **退货:**
-[Node](../../com.aspose.words/node) - 紧跟该节点的节点。
-### getNode类型() {#getNode类型--}
+[Node](../../com.aspose.words/node) - 紧接此节点之后的节点。
+### getNodeType() {#getNodeType--}
 ```
-public int getNode类型()
+public int getNodeType()
 ```
 
 
-退货**Node类型.Cell**.
+退货**NodeType.Cell**.
 
 **退货:**
-诠释 -**Node类型.Cell** .返回值是以下之一[Node类型](../../com.aspose.words/nodetype)常数。
+整数 -**NodeType.Cell** .返回值是其中之一[NodeType](../../com.aspose.words/nodetype)常数。
 ### getParagraphs() {#getParagraphs--}
 ```
 public ParagraphCollection getParagraphs()
@@ -505,10 +505,10 @@ public CompositeNode getParentNode()
 
 获取此节点的直接父节点。
 
-如果一个节点刚刚创建但尚未添加到树中，或者它已从树中删除，则父节点为空。
+如果一个节点刚刚被创建并且还没有被添加到树中，或者如果它已经被从树中移除，则父节点为空。
 
 **退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 该节点的直接父节点。
+[CompositeNode](../../com.aspose.words/compositenode) - 此节点的直接父节点。
 ### getParentRow() {#getParentRow--}
 ```
 public Row getParentRow()
@@ -525,10 +525,10 @@ public Node getPreviousSibling()
 ```
 
 
-获取紧接在此节点之前的节点。如果没有前面的节点，则返回 null。
+获取紧接在该节点之前的节点。如果前面没有节点，则返回 null。
 
 **退货:**
-[Node](../../com.aspose.words/node) - 紧接在此节点之前的节点。
+[Node](../../com.aspose.words/node) - 紧接在该节点之前的节点。
 ### getRange() {#getRange--}
 ```
 public Range getRange()
@@ -602,7 +602,7 @@ public Node insertAfter(Node newChild, Node refChild)
 ```
 
 
-在指定的参考节点之后立即插入指定的节点。
+在指定的引用节点之后立即插入指定的节点。
 
 如果 refChild 为 null，则在子节点列表的开头插入 newChild。
 
@@ -624,7 +624,7 @@ public Node insertBefore(Node newChild, Node refChild)
 ```
 
 
-在指定的参考节点之前插入指定的节点。
+将指定节点插入到紧靠指定引用节点之前。
 
 如果 refChild 为 null，则在子节点列表的末尾插入 newChild。
 
@@ -676,7 +676,7 @@ public Iterator iterator()
 ```
 
 
-为在此节点的子节点上的每个样式迭代提供支持。
+为该节点的子节点上的每个样式迭代提供支持。
 
 **退货:**
 java.util.Iterator
@@ -695,9 +695,9 @@ public Node nextPreOrder(Node rootNode)
 
 **退货:**
 [Node](../../com.aspose.words/node) - 预购订单中的下一个节点。如果到达 rootNode，则为 Null。
-### node类型ToString(int node类型) {#node类型ToString-int-}
+### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
 ```
-public static String node类型ToString(int node类型)
+public static String nodeTypeToString(int nodeType)
 ```
 
 
@@ -706,7 +706,7 @@ public static String node类型ToString(int node类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 
 **退货:**
 java.lang.String
@@ -782,7 +782,7 @@ public Node removeChild(Node oldChild)
 ```
 
 
-移除指定的子节点。
+删除指定的子节点。
 
 删除节点后，oldChild 的父级设置为 null。
 

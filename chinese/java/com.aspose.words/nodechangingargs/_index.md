@@ -1,6 +1,6 @@
 ---
 title: NodeChangingArgs
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 为接口的方法提供数据。
 type: docs
 weight: 403
@@ -20,7 +20,7 @@ public class NodeChangingArgs
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAction()](#getAction--) | 获取一个值，该值指示正在发生什么类型的节点更改事件。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getNewParent()](#getNewParent--) | 获取将在操作完成后设置的节点的父节点。 |
 | [getNode()](#getNode--) | 获取[getNode()](../../com.aspose.words/nodechangingargs\#getNode--)正在添加或删除。 |
 | [getOldParent()](#getOldParent--) | 在操作开始之前获取节点的父节点。 |
@@ -56,16 +56,16 @@ public int getAction()
 
 **退货:**
  int - 指示正在发生什么类型的节点更改事件的值。返回值是以下之一[NodeChangingAction](../../com.aspose.words/nodechangingaction)常数。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getNewParent() {#getNewParent--}
 ```
 public Node getNewParent()

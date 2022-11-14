@@ -1,6 +1,6 @@
 ---
 title: DataRelationCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示 this 的对象集合。
 type: docs
 weight: 19
@@ -32,7 +32,7 @@ public class DataRelationCollection implements Iterable
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 获取[DataRelation](../../com.aspose.words.net.system.data/datarelation)指定索引处的对象。 |
 | [get(String name)](#get-java.lang.String-) | 获取[DataRelation](../../com.aspose.words.net.system.data/datarelation)由名称指定的对象。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) |  |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(System.Data.DataRelation relation)](#indexOf-com.aspose.words.net.System.Data.DataRelation-) | 获取指定的索引[DataRelation](../../com.aspose.words.net.system.data/datarelation)目的。 |
@@ -77,15 +77,15 @@ public void add(System.Data.DataTable parentTable, System.Data.DataTable childTa
 ```
 
 
-向集合添加关系。不检查重复等。
+向集合添加关系。不对重复等进行检查。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | parentTable | [DataTable](../../com.aspose.words.net.system.data/datatable) | 关系的父表。 |
 | childTable | [DataTable](../../com.aspose.words.net.system.data/datatable) | 关系的子表。 |
-| parentColumnName | java.lang.String | 关系的父列的名称。 |
-| childColumnName | java.lang.String | 关系的子列的名称。 |
+| parentColumnName | java.lang.String | 关系的父列名称。 |
+| childColumnName | java.lang.String | 关系的子列名称。 |
 
 ### add(System.Data.DataTable parentTable, System.Data.DataTable childTable, String[] parentColumnNames, String[] childColumnNames) {#add-com.aspose.words.net.System.Data.DataTable-com.aspose.words.net.System.Data.DataTable-java.lang.String---java.lang.String---}
 ```
@@ -93,15 +93,15 @@ public void add(System.Data.DataTable parentTable, System.Data.DataTable childTa
 ```
 
 
-向集合添加关系。不检查重复等。
+向集合添加关系。不对重复等进行检查。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | parentTable | [DataTable](../../com.aspose.words.net.system.data/datatable) | 关系的父表。 |
 | childTable | [DataTable](../../com.aspose.words.net.system.data/datatable) | 关系的子表。 |
-| parentColumnNames | java.lang.String[] | 关系的父列名称数组。 |
-| childColumnNames | java.lang.String[] | 关系的子列名称数组。 |
+| parentColumnNames | java.lang.String[] | 关系的父列名称的数组。 |
+| childColumnNames | java.lang.String[] | 关系的子列名称的数组。 |
 
 ### add(String name, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn) {#add-java.lang.String-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-}
 ```
@@ -186,7 +186,7 @@ public System.Data.DataRelation get(int index)
 | index | int | 要查找的从零开始的索引。 |
 
 **退货:**
-[DataRelation](../../com.aspose.words.net.system.data/datarelation) - 这[DataRelation](../../com.aspose.words.net.system.data/datarelation) , 或者如果指定了 null 值[DataRelation](../../com.aspose.words.net.system.data/datarelation)不存在。
+[DataRelation](../../com.aspose.words.net.system.data/datarelation) - 这[DataRelation](../../com.aspose.words.net.system.data/datarelation) ，或者一个空值，如果指定[DataRelation](../../com.aspose.words.net.system.data/datarelation)不存在。
 ### get(String name) {#get-java.lang.String-}
 ```
 public System.Data.DataRelation get(String name)
@@ -201,17 +201,17 @@ public System.Data.DataRelation get(String name)
 | name | java.lang.String | 要查找的关系的名称。 |
 
 **退货:**
-[DataRelation](../../com.aspose.words.net.system.data/datarelation) 被命名的[DataRelation](../../com.aspose.words.net.system.data/datarelation) , 或者如果指定了 null 值[DataRelation](../../com.aspose.words.net.system.data/datarelation)不存在。
-### get班级() {#get班级--}
+[DataRelation](../../com.aspose.words.net.system.data/datarelation) 命名的[DataRelation](../../com.aspose.words.net.system.data/datarelation) ，或者一个空值，如果指定[DataRelation](../../com.aspose.words.net.system.data/datarelation)不存在。
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -221,7 +221,7 @@ public int getCount()
 
 
 **退货:**
-int - 集合中的元素总数
+int - 集合中元素的总数
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -246,7 +246,7 @@ public int indexOf(System.Data.DataRelation relation)
 | relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation) | 要搜索的关系。 |
 
 **退货:**
-int - 关系的从 0 开始的索引，如果在集合中找不到关系，则为 -1。
+int - 关系的从 0 开始的索引，如果在集合中找不到关系则为 -1。
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()

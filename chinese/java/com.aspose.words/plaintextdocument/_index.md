@@ -1,6 +1,6 @@
 ---
 title: PlainTextDocument
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许提取文档内容的纯文本表示。
 type: docs
 weight: 465
@@ -30,7 +30,7 @@ public class PlainTextDocument
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties--) | 获取[getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument\#getBuiltInDocumentProperties--)的文件。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCustomDocumentProperties()](#getCustomDocumentProperties--) | 获取[getCustomDocumentProperties()](../../com.aspose.words/plaintextdocument\#getCustomDocumentProperties--)的文件。 |
 | [getText()](#getText--) | 获取连接为字符串的文档的文本内容。 |
 | [hashCode()](#hashCode--) |  |
@@ -119,16 +119,16 @@ public BuiltInDocumentProperties getBuiltInDocumentProperties()
 
 **退货:**
 [BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties) -\{[getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument\#getBuiltInDocumentProperties--)的文件。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCustomDocumentProperties() {#getCustomDocumentProperties--}
 ```
 public CustomDocumentProperties getCustomDocumentProperties()

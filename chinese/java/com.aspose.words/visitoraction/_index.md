@@ -1,6 +1,6 @@
 ---
 title: VisitorAction
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许访问者控制节点的枚举。
 type: docs
 weight: 603
@@ -16,7 +16,7 @@ public class VisitorAction
 允许访问者控制节点的枚举。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CONTINUE](#CONTINUE) | 访问者请求枚举继续。 |
 | [SKIP_THIS_NODE](#SKIP-THIS-NODE) | 访问者请求跳过当前节点并继续枚举。 |
@@ -28,7 +28,7 @@ public class VisitorAction
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String visitorActionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int visitorAction)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -99,16 +99,16 @@ public static int fromName(String visitorActionName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int visitorAction) {#getName-int-}
 ```
 public static String getName(int visitorAction)

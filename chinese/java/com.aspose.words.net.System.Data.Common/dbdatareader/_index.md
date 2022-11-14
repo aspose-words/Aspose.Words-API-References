@@ -1,7 +1,7 @@
 ---
 title: DbDataReader
-second_title: Aspose.Words for Java API Reference
-description: 从数据源读取只进的行流。
+second_title: Aspose.Words for Java API 参考
+description: 从数据源读取只进行流。
 type: docs
 weight: 10
 url: /zh/java/com.aspose.words.net.system.data.common/dbdatareader/
@@ -16,7 +16,7 @@ java.lang.Object
 public abstract class DbDataReader implements System.Data.IDataReader, System.Data.IDataRecord, Iterable
 ```
 
-从数据源读取只进的行流。
+从数据源读取只进行流。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -28,7 +28,7 @@ public abstract class DbDataReader implements System.Data.IDataReader, System.Da
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(String columnName)](#get-java.lang.String-) | 此方法属于 .NET 中的 IDataRecord |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -72,16 +72,16 @@ public abstract Object get(String columnName)
 
 **退货:**
 java.lang.Object
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

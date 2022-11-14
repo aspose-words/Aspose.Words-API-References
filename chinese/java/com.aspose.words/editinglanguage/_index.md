@@ -1,6 +1,6 @@
 ---
 title: EditingLanguage
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定编辑语言。
 type: docs
 weight: 139
@@ -16,7 +16,7 @@ public class EditingLanguage
 指定编辑语言。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [AFRIKAANS](#AFRIKAANS) |  |
 | [ALBANIAN](#ALBANIAN) |  |
@@ -252,7 +252,7 @@ public class EditingLanguage
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String editingLanguageName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int editingLanguage)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -1661,16 +1661,16 @@ public static int fromName(String editingLanguageName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int editingLanguage) {#getName-int-}
 ```
 public static String getName(int editingLanguage)

@@ -1,6 +1,6 @@
 ---
 title: IChartDataPoint
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 包含图表上单个数据点的属性。
 type: docs
 weight: 633

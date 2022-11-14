@@ -1,6 +1,6 @@
 ---
 title: OverflowException
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 当检查上下文中的算术转换或转换操作导致溢出时引发的异常。
 type: docs
 weight: 10
@@ -29,7 +29,7 @@ public class OverflowException extends ArithmeticException
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
 | [getMessage()](#getMessage--) |  |
 | [getStackTrace()](#getStackTrace--) |  |
@@ -129,16 +129,16 @@ public synchronized Throwable getCause()
 
 **退货:**
 java.lang.Throwable
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getLocalizedMessage() {#getLocalizedMessage--}
 ```
 public String getLocalizedMessage()

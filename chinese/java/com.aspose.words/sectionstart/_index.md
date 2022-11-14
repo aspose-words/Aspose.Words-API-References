@@ -1,6 +1,6 @@
 ---
 title: SectionStart
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 节开头的中断类型。
 type: docs
 weight: 512
@@ -16,13 +16,13 @@ public class SectionStart
 节开头的中断类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CONTINUOUS](#CONTINUOUS) | 新部分与上一部分在同一页面上开始。 |
 | [EVEN_PAGE](#EVEN-PAGE) | 该部分从一个新的偶数页开始。 |
 | [NEW_COLUMN](#NEW-COLUMN) | 该部分从一个新列开始。 |
-| [NEW_PAGE](#NEW-PAGE) | 该部分从新页面开始。 |
-| [ODD_PAGE](#ODD-PAGE) | 该部分从一个新的奇数页开始。 |
+| [NEW_PAGE](#NEW-PAGE) | 该部分从一个新页面开始。 |
+| [ODD_PAGE](#ODD-PAGE) | 该部分从新的奇数页开始。 |
 | [length](#length) |  |
 ## 方法
 
@@ -30,7 +30,7 @@ public class SectionStart
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String sectionStartName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int sectionStart)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -71,7 +71,7 @@ public static int NEW_PAGE
 ```
 
 
-该部分从新页面开始。
+该部分从一个新页面开始。
 
 ### ODD_PAGE {#ODD-PAGE}
 ```
@@ -79,7 +79,7 @@ public static int ODD_PAGE
 ```
 
 
-该部分从一个新的奇数页开始。
+该部分从新的奇数页开始。
 
 ### length {#length}
 ```
@@ -117,16 +117,16 @@ public static int fromName(String sectionStartName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int sectionStart) {#getName-int-}
 ```
 public static String getName(int sectionStart)

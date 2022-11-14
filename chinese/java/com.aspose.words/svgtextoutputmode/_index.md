@@ -1,6 +1,6 @@
 ---
 title: SvgTextOutputMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 
 type: docs
 weight: 542
@@ -14,7 +14,7 @@ public class SvgTextOutputMode
 ```
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [USE_PLACED_GLYPHS](#USE-PLACED-GLYPHS) | 使用曲线渲染文本。 |
 | [USE_SVG_FONTS](#USE-SVG-FONTS) | SVG 字体用于渲染文本。 |
@@ -26,7 +26,7 @@ public class SvgTextOutputMode
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String svgTextOutputModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int svgTextOutputMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -59,7 +59,7 @@ public static int USE_TARGET_MACHINE_FONTS
 ```
 
 
-安装在目标机器上的字体用于渲染文本。请注意，如果文档中使用的某些字体在目标计算机上不可用，则文档的外观可能会有所不同。
+目标机器上安装的字体用于呈现文本。请注意，如果文档中使用的某些字体在目标机器上不可用，则文档看起来可能会有所不同。
 
 ### length {#length}
 ```
@@ -97,16 +97,16 @@ public static int fromName(String svgTextOutputModeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int svgTextOutputMode) {#getName-int-}
 ```
 public static String getName(int svgTextOutputMode)

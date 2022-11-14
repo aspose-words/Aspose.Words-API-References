@@ -1,6 +1,6 @@
 ---
 title: ListFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许控制应用于段落的列表格式。
 type: docs
 weight: 370
@@ -23,21 +23,21 @@ Microsoft Word 文档中的段落可以使用项目符号或编号。当段落�
 
 [ListFormat](../../com.aspose.words/listformat)一个[Paragraph](../../com.aspose.words/paragraph)指定应用于该特定段落的列表格式和列表级别。
 
-[ListFormat](../../com.aspose.words/listformat)一个[Style](../../com.aspose.words/style) （仅适用于段落样式）允许指定应用于该特定样式的所有段落的列表格式和列表级别。
+[ListFormat](../../com.aspose.words/listformat)一个[Style](../../com.aspose.words/style) （仅适用于段落样式）允许指定将何种列表格式和列表级别应用于该特定样式的所有段落。
 
 [ListFormat](../../com.aspose.words/listformat)一个[DocumentBuilder](../../com.aspose.words/documentbuilder)提供对当前光标位置的列表格式的访问[DocumentBuilder](../../com.aspose.words/documentbuilder).
 
-列表格式本身存储在一个[List](../../com.aspose.words/list)与段落分开存储的对象。列表对象存储在一个[ListCollection](../../com.aspose.words/listcollection)收藏。有一个单[ListCollection](../../com.aspose.words/listcollection)收集每[Document](../../com.aspose.words/document).
+列表格式本身存储在[List](../../com.aspose.words/list)与段落分开存储的对象。列表对象存储在一个[ListCollection](../../com.aspose.words/listcollection)收藏。有一个[ListCollection](../../com.aspose.words/listcollection)收集每[Document](../../com.aspose.words/document).
 
-这些段落实际上不属于列表。这些段落只是通过[getList()](../../com.aspose.words/listformat\#getList--) / [setList(com.aspose.words.List)](../../com.aspose.words/listformat\#setList-com.aspose.words.List-)属性和列表中的特定级别通过[getListLevelNumber()](../../com.aspose.words/listformat\#getListLevelNumber--) / [setListLevelNumber(int)](../../com.aspose.words/listformat\#setListLevelNumber-int-)财产。通过设置这两个属性，您可以控制将哪些项目符号和编号应用于段落。
+这些段落实际上不属于列表。这些段落只是通过[getList()](../../com.aspose.words/listformat\#getList--) / [setList(com.aspose.words.List)](../../com.aspose.words/listformat\#setList-com.aspose.words.List-)通过列表中的属性和特定级别[getListLevelNumber()](../../com.aspose.words/listformat\#getListLevelNumber--) / [setListLevelNumber(int)](../../com.aspose.words/listformat\#setListLevelNumber-int-)财产。通过设置这两个属性，您可以控制将哪些项目符号和编号应用于段落。
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [applyBulletDefault()](#applyBulletDefault--) | 开始一个新的默认项目符号列表并将其应用于段落。 |
-| [applyNumberDefault()](#applyNumberDefault--) | 开始一个新的默认编号列表并将其应用于段落。 |
+| [applyBulletDefault()](#applyBulletDefault--) | 启动一个新的默认项目符号列表并将其应用于段落。 |
+| [applyNumberDefault()](#applyNumberDefault--) | 启动一个新的默认编号列表并将其应用于段落。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getList()](#getList--) | 获取此段落所属的列表。 |
 | [getListLevel()](#getListLevel--) | 返回列表级别格式以及应用于当前段落的任何格式覆盖。 |
 | [getListLevelNumber()](#getListLevelNumber--) | 获取段落的列表级别编号（0 到 8）。 |
@@ -60,7 +60,7 @@ public void applyBulletDefault()
 ```
 
 
-开始一个新的默认项目符号列表并将其应用于段落。
+启动一个新的默认项目符号列表并将其应用于段落。
 
 这是一种使用默认项目符号模板创建新列表、将其应用于段落并选择第一个列表级别的快捷方法。
 
@@ -70,7 +70,7 @@ public void applyNumberDefault()
 ```
 
 
-开始一个新的默认编号列表并将其应用于段落。
+启动一个新的默认编号列表并将其应用于段落。
 
 这是一种使用默认编号模板创建新列表、将其应用于段落并选择第一个列表级别的快捷方法。
 
@@ -89,16 +89,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getList() {#getList--}
 ```
 public List getList()
@@ -207,7 +207,7 @@ public void removeNumbers()
 
 从当前段落中删除数字或项目符号并将列表级别设置为零。
 
-调用该方法相当于设置[getList()](../../com.aspose.words/listformat\#getList--) / [setList(com.aspose.words.List)](../../com.aspose.words/listformat\#setList-com.aspose.words.List-)属性为空。
+调用此方法等同于设置[getList()](../../com.aspose.words/listformat\#getList--) / [setList(com.aspose.words.List)](../../com.aspose.words/listformat\#setList-com.aspose.words.List-)属性为空。
 
 ### setList(List value) {#setList-com.aspose.words.List-}
 ```
@@ -226,7 +226,7 @@ public void setList(List value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [List](../../com.aspose.words/list) | 本段是该列表的成员。 |
+| value | [List](../../com.aspose.words/list) | 此段落所属的列表。 |
 
 ### setListLevelNumber(int value) {#setListLevelNumber-int-}
 ```

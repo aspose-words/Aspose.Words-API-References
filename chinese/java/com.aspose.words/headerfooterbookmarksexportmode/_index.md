@@ -1,6 +1,6 @@
 ---
 title: HeaderFooterBookmarksExportMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定如何导出页眉/页脚中的书签。
 type: docs
 weight: 316
@@ -16,7 +16,7 @@ public class HeaderFooterBookmarksExportMode
 指定如何导出页眉/页脚中的书签。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [ALL](#ALL) | 导出所有页眉/页脚中的书签。 |
 | [FIRST](#FIRST) | 仅导出该部分的第一个页眉/页脚中的书签。 |
@@ -28,7 +28,7 @@ public class HeaderFooterBookmarksExportMode
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String headerFooterBookmarksExportModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int headerFooterBookmarksExportMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -99,16 +99,16 @@ public static int fromName(String headerFooterBookmarksExportModeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int headerFooterBookmarksExportMode) {#getName-int-}
 ```
 public static String getName(int headerFooterBookmarksExportMode)

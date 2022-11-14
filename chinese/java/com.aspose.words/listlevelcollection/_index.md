@@ -1,6 +1,6 @@
 ---
 title: ListLevelCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 列表中每个级别的列表格式集合。
 type: docs
 weight: 374
@@ -25,7 +25,7 @@ public class ListLevelCollection implements Cloneable, Iterable
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 按索引获取列表级别。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取此列表中的级别数。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 获取将枚举此列表中的级别的枚举器对象。 |
@@ -66,16 +66,16 @@ public ListLevel get(int index)
 
 **退货:**
 [ListLevel](../../com.aspose.words/listlevel) - 按索引列出的列表级别。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

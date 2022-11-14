@@ -1,6 +1,6 @@
 ---
 title: BuiltInDocumentProperties
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 内置文档属性的集合。
 type: docs
 weight: 46
@@ -17,9 +17,9 @@ public class BuiltInDocumentProperties extends DocumentPropertyCollection
 
 要了解更多信息，请访问**Work with Document Properties**文档文章。
 
-提供访问[DocumentProperty](../../com.aspose.words/documentproperty)对象的名称（使用索引器）和一组类型化的属性，这些属性返回适当类型的值。
+提供访问[DocumentProperty](../../com.aspose.words/documentproperty)通过对象的名称（使用索引器）和一组返回适当类型值的类型化属性。
 
-属性名称不区分大小写。
+属性的名称不区分大小写。
 
 集合中的属性按名称的字母顺序排序。
 ## 方法
@@ -36,11 +36,11 @@ public class BuiltInDocumentProperties extends DocumentPropertyCollection
 | [getCategory()](#getCategory--) | 获取文档的类别。 |
 | [getCharacters()](#getCharacters--) | 表示文档中字符数的估计值。 |
 | [getCharactersWithSpaces()](#getCharactersWithSpaces--) | 表示文档中字符数（包括空格）的估计值。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getComments()](#getComments--) | 获取文档注释。 |
 | [getCompany()](#getCompany--) | 获取公司属性。 |
 | [getContentStatus()](#getContentStatus--) | 获取文档的 ContentStatus。 |
-| [getContent类型()](#getContent类型--) | 获取文档的 ContentStatus。 |
+| [getContentType()](#getContentType--) | 获取文档的 ContentStatus。 |
 | [getCount()](#getCount--) | 获取集合中的项目数。 |
 | [getCreatedTime()](#getCreatedTime--) | 获取 UTC 格式的文档创建日期。 |
 | [getHeadingPairs()](#getHeadingPairs--) | 指定文档标题及其名称。 |
@@ -80,14 +80,14 @@ public class BuiltInDocumentProperties extends DocumentPropertyCollection
 | [setComments(String value)](#setComments-java.lang.String-) | 设置文档注释。 |
 | [setCompany(String value)](#setCompany-java.lang.String-) | 设置公司属性。 |
 | [setContentStatus(String value)](#setContentStatus-java.lang.String-) | 设置文档的 ContentStatus。 |
-| [setContent类型(String value)](#setContent类型-java.lang.String-) | 设置文档的 ContentStatus。 |
-| [setCreatedTime(Date value)](#setCreatedTime-java.util.Date-) | 以 UTC 设置文档创建日期。 |
+| [setContentType(String value)](#setContentType-java.lang.String-) | 设置文档的 ContentStatus。 |
+| [setCreatedTime(Date value)](#setCreatedTime-java.util.Date-) | 以 UTC 格式设置文档创建日期。 |
 | [setHeadingPairs(Object[] value)](#setHeadingPairs-java.lang.Object---) | 指定文档标题及其名称。 |
 | [setHyperlinkBase(String value)](#setHyperlinkBase-java.lang.String-) | 指定用于评估本文档中的相对超链接的基本字符串。 |
 | [setKeywords(String value)](#setKeywords-java.lang.String-) | 设置文档关键字。 |
-| [setLastPrinted(Date value)](#setLastPrinted-java.util.Date-) | 设置文档最后一次打印的日期，采用 UTC。 |
+| [setLastPrinted(Date value)](#setLastPrinted-java.util.Date-) | 设置上次以 UTC 格式打印文档的日期。 |
 | [setLastSavedBy(String value)](#setLastSavedBy-java.lang.String-) | 设置最后一位作者的姓名。 |
-| [setLastSavedTime(Date value)](#setLastSavedTime-java.util.Date-) | 以 UTC 设置上次保存的时间。 |
+| [setLastSavedTime(Date value)](#setLastSavedTime-java.util.Date-) | 设置上次保存的 UTC 时间。 |
 | [setLines(int value)](#setLines-int-) | 表示文档中行数的估计值。 |
 | [setLinksUpToDate(boolean value)](#setLinksUpToDate-boolean-) | 指示文档中的超链接是否是最新的。 |
 | [setManager(String value)](#setManager-java.lang.String-) | 设置管理器属性。 |
@@ -127,10 +127,10 @@ public boolean contains(String name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | 不区分大小写的属性名称。 |
+| name | java.lang.String | 属性的不区分大小写的名称。 |
 
 **退货:**
-boolean - 如果属性存在于集合中，则为真；否则为假。
+boolean - 如果该属性存在于集合中则为真；否则为假。
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -154,12 +154,12 @@ public DocumentProperty get(int index)
 
 返回一个[DocumentProperty](../../com.aspose.words/documentproperty)按索引的对象。
 
-**Note:**在 Java 中，这种方法很慢，因为它会遍历所有节点。
+**Note:**在 Java 中，此方法很慢，因为遍历所有节点。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | 的从零开始的索引[DocumentProperty](../../com.aspose.words/documentproperty)检索。 |
+| index | int | 零基指数[DocumentProperty](../../com.aspose.words/documentproperty)检索。 |
 
 **退货:**
 [DocumentProperty](../../com.aspose.words/documentproperty) - 一个[DocumentProperty](../../com.aspose.words/documentproperty)按索引的对象。
@@ -242,16 +242,16 @@ public int getCharactersWithSpaces()
 
 **退货:**
 int - 对应的 int 值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getComments() {#getComments--}
 ```
 public String getComments()
@@ -282,9 +282,9 @@ public String getContentStatus()
 
 **退货:**
 java.lang.String - 文档的 ContentStatus。
-### getContent类型() {#getContent类型--}
+### getContentType() {#getContentType--}
 ```
-public String getContent类型()
+public String getContentType()
 ```
 
 
@@ -488,7 +488,7 @@ public int getSecurity()
 
 将此属性仅用于提供信息，因为 Microsoft Word 并不总是设置此属性。此属性仅在 DOC 和 OOXML 文档中可用。
 
-要保护或取消保护文档，请使用**M:Aspose.Words.Document.Protect(Aspose.Words.Protection类型,System.String)**和[Document.unprotect()](../../com.aspose.words/document\#unprotect--)方法。
+要保护或取消保护文档，请使用**M:Aspose.Words.Document.Protect(Aspose.Words.ProtectionType,System.String)**和[Document.unprotect()](../../com.aspose.words/document\#unprotect--)方法。
 
 Aspose.Words 在保存文档之前将此属性更新为正确的值。
 
@@ -576,7 +576,7 @@ public int getVersion()
 
 表示创建文档的应用程序的版本号。
 
-当文档由 Microsoft Word 创建时，高 16 位代表主要版本，低 16 位代表内部版本号。
+Microsoft Word 创建文档时，高 16 位代表主版本，低 16 位代表内部版本号。
 
 **退货:**
 int - 对应的 int 值。
@@ -610,12 +610,12 @@ public int indexOf(String name)
 
 按名称获取属性的索引。
 
-**Note:**在 Java 中，这种方法很慢，因为它会遍历所有节点。
+**Note:**在 Java 中，此方法很慢，因为遍历所有节点。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | 不区分大小写的属性名称。 |
+| name | java.lang.String | 属性的不区分大小写的名称。 |
 
 **退货:**
 int - 从零开始的索引。如果未找到，则为负值。
@@ -656,7 +656,7 @@ public void remove(String name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | 不区分大小写的属性名称。 |
+| name | java.lang.String | 属性的不区分大小写的名称。 |
 
 ### removeAt(int index) {#removeAt-int-}
 ```
@@ -666,7 +666,7 @@ public void removeAt(int index)
 
 删除指定索引处的属性。
 
-**Note:**在 Java 中，这种方法很慢，因为它会遍历所有节点。
+**Note:**在 Java 中，此方法很慢，因为遍历所有节点。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -757,7 +757,7 @@ public void setComments(String value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 文件评论。 |
+| value | java.lang.String | 文档注释。 |
 
 ### setCompany(String value) {#setCompany-java.lang.String-}
 ```
@@ -785,9 +785,9 @@ public void setContentStatus(String value)
 | --- | --- | --- |
 | value | java.lang.String | 文档的 ContentStatus。 |
 
-### setContent类型(String value) {#setContent类型-java.lang.String-}
+### setContentType(String value) {#setContentType-java.lang.String-}
 ```
-public void setContent类型(String value)
+public void setContentType(String value)
 ```
 
 
@@ -804,7 +804,7 @@ public void setCreatedTime(Date value)
 ```
 
 
-以 UTC 设置文档创建日期。
+以 UTC 格式设置文档创建日期。
 
 对于源自 RTF 格式的文档，此属性返回创建文档时作者机器的本地时间。
 
@@ -813,7 +813,7 @@ Aspose.Words 不会更新此属性。
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.Date | UTC 格式的文档创建日期。 |
+| value | java.util.Date | 以 UTC 格式创建文档的日期。 |
 
 ### setHeadingPairs(Object[] value) {#setHeadingPairs-java.lang.Object---}
 ```
@@ -834,7 +834,7 @@ Aspose.Words 不会更新此属性。
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Object[] | 对应的 java.lang.Object[] 价值。 |
+| value | java.lang.Object[] | 对应的java.lang.Object[] 价值。 |
 
 ### setHyperlinkBase(String value) {#setHyperlinkBase-java.lang.String-}
 ```
@@ -870,7 +870,7 @@ public void setLastPrinted(Date value)
 ```
 
 
-设置文档最后一次打印的日期，采用 UTC。
+设置上次以 UTC 格式打印文档的日期。
 
 对于源自 RTF 格式的文档，此属性返回上次打印操作的本地时间。
 
@@ -881,7 +881,7 @@ Aspose.Words 不会更新此属性。
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.Date | 上次以 UTC 打印文档的日期。 |
+| value | java.util.Date | 上次以 UTC 格式打印文档的日期。 |
 
 ### setLastSavedBy(String value) {#setLastSavedBy-java.lang.String-}
 ```
@@ -904,7 +904,7 @@ public void setLastSavedTime(Date value)
 ```
 
 
-以 UTC 设置上次保存的时间。
+设置上次保存的 UTC 时间。
 
 对于源自 RTF 格式的文档，此属性返回上次保存操作的本地时间。
 
@@ -913,7 +913,7 @@ Aspose.Words 不会更新此属性。
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.Date | 最后一次保存的时间，以 UTC 表示。 |
+| value | java.util.Date | UTC 中最后一次保存的时间。 |
 
 ### setLines(int value) {#setLines-int-}
 ```
@@ -1026,14 +1026,14 @@ public void setSecurity(int value)
 
 将此属性仅用于提供信息，因为 Microsoft Word 并不总是设置此属性。此属性仅在 DOC 和 OOXML 文档中可用。
 
-要保护或取消保护文档，请使用**M:Aspose.Words.Document.Protect(Aspose.Words.Protection类型,System.String)**和[Document.unprotect()](../../com.aspose.words/document\#unprotect--)方法。
+要保护或取消保护文档，请使用**M:Aspose.Words.Document.Protect(Aspose.Words.ProtectionType,System.String)**和[Document.unprotect()](../../com.aspose.words/document\#unprotect--)方法。
 
 Aspose.Words 在保存文档之前将此属性更新为正确的值。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是按位组合[DocumentSecurity](../../com.aspose.words/documentsecurity)常数。 |
+| value | int | 对应的int值。该值必须是按位组合的[DocumentSecurity](../../com.aspose.words/documentsecurity)常数。 |
 
 ### setSubject(String value) {#setSubject-java.lang.String-}
 ```
@@ -1084,7 +1084,7 @@ public void setThumbnail(byte[] value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] | 对应的字节[] 价值。 |
+| value | byte[] | 对应字节[] 价值。 |
 
 ### setTitle(String value) {#setTitle-java.lang.String-}
 ```
@@ -1112,7 +1112,7 @@ Aspose.Words 不会更新此属性。
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String[] | 对应的 java.lang.String[] 价值。 |
+| value | java.lang.String[] | 对应的java.lang.String[] 价值。 |
 
 ### setTotalEditingTime(int value) {#setTotalEditingTime-int-}
 ```
@@ -1135,7 +1135,7 @@ public void setVersion(int value)
 
 表示创建文档的应用程序的版本号。
 
-当文档由 Microsoft Word 创建时，高 16 位代表主要版本，低 16 位代表内部版本号。
+Microsoft Word 创建文档时，高 16 位代表主版本，低 16 位代表内部版本号。
 
 **参数:**
 | 范围 | 类型 | 描述 |

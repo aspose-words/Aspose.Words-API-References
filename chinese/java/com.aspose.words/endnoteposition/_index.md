@@ -1,6 +1,6 @@
 ---
 title: EndnotePosition
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 定义尾注位置。
 type: docs
 weight: 147
@@ -16,7 +16,7 @@ public class EndnotePosition
 定义尾注位置。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [END_OF_DOCUMENT](#END-OF-DOCUMENT) | 尾注在文档末尾输出。 |
 | [END_OF_SECTION](#END-OF-SECTION) | 尾注在该部分的末尾输出。 |
@@ -27,7 +27,7 @@ public class EndnotePosition
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String endnotePositionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int endnotePosition)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -90,16 +90,16 @@ public static int fromName(String endnotePositionName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int endnotePosition) {#getName-int-}
 ```
 public static String getName(int endnotePosition)

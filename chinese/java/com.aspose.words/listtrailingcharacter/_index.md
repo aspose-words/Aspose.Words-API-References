@@ -1,6 +1,6 @@
 ---
 title: ListTrailingCharacter
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定将列表标签与段落文本分开的字符。
 type: docs
 weight: 376
@@ -18,11 +18,11 @@ public class ListTrailingCharacter
 用作[ListLevel.getTrailingCharacter()](../../com.aspose.words/listlevel\#getTrailingCharacter--) / [ListLevel.setTrailingCharacter(int)](../../com.aspose.words/listlevel\#setTrailingCharacter-int-)财产。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [NOTHING](#NOTHING) | 列表标签和段落文本之间没有分隔符。 |
-| [SPACE](#SPACE) | 在列表标签和段落文本之间放置一个空格字符。 |
-| [TAB](#TAB) | 在列表标签和段落文本之间放置一个制表符。 |
+| [SPACE](#SPACE) | 空格字符放置在列表标签和段落文本之间。 |
+| [TAB](#TAB) | 制表符位于列表标签和段落文本之间。 |
 | [length](#length) |  |
 ## 方法
 
@@ -30,7 +30,7 @@ public class ListTrailingCharacter
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String listTrailingCharacterName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int listTrailingCharacter)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -55,7 +55,7 @@ public static int SPACE
 ```
 
 
-在列表标签和段落文本之间放置一个空格字符。
+空格字符放置在列表标签和段落文本之间。
 
 ### TAB {#TAB}
 ```
@@ -63,7 +63,7 @@ public static int TAB
 ```
 
 
-在列表标签和段落文本之间放置一个制表符。
+制表符位于列表标签和段落文本之间。
 
 ### length {#length}
 ```
@@ -101,16 +101,16 @@ public static int fromName(String listTrailingCharacterName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int listTrailingCharacter) {#getName-int-}
 ```
 public static String getName(int listTrailingCharacter)

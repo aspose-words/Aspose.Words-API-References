@@ -1,6 +1,6 @@
 ---
 title: PdfFontEmbeddingMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定 Aspose.Words 应该如何嵌入字体。
 type: docs
 weight: 455
@@ -16,7 +16,7 @@ public class PdfFontEmbeddingMode
 指定 Aspose.Words 应该如何嵌入字体。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [EMBED_ALL](#EMBED-ALL) | Aspose.Words 嵌入所有字体。 |
 | [EMBED_NONE](#EMBED-NONE) | Aspose.Words 不嵌入任何字体。 |
@@ -28,7 +28,7 @@ public class PdfFontEmbeddingMode
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pdfFontEmbeddingModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int pdfFontEmbeddingMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -99,16 +99,16 @@ public static int fromName(String pdfFontEmbeddingModeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int pdfFontEmbeddingMode) {#getName-int-}
 ```
 public static String getName(int pdfFontEmbeddingMode)

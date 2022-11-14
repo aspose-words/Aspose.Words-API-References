@@ -1,7 +1,7 @@
 ---
 title: PaperSize
-second_title: Aspose.Words for Java API Reference
-description: 指定纸张尺寸。
+second_title: Aspose.Words for Java API 参考
+description: 指定纸张大小。
 type: docs
 weight: 442
 url: /zh/java/com.aspose.words/papersize/
@@ -13,10 +13,10 @@ java.lang.Object
 public class PaperSize
 ```
 
-指定纸张尺寸。
+指定纸张大小。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [A3](#A3) | 297 x 420 毫米。 |
 | [A4](#A4) | 210 x 297 毫米。 |
@@ -43,7 +43,7 @@ public class PaperSize
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String paperSizeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int paperSize)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -234,16 +234,16 @@ public static int fromName(String paperSizeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int paperSize) {#getName-int-}
 ```
 public static String getName(int paperSize)

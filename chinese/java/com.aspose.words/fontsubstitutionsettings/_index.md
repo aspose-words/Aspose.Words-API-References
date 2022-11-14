@@ -1,6 +1,6 @@
 ---
 title: FontSubstitutionSettings
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定字体替换机制设置。
 type: docs
 weight: 290
@@ -29,7 +29,7 @@ public class FontSubstitutionSettings
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDefaultFontSubstitution()](#getDefaultFontSubstitution--) | 与默认字体替换规则相关的设置。 |
 | [getFontConfigSubstitution()](#getFontConfigSubstitution--) | 与字体配置替换规则相关的设置。 |
 | [getFontInfoSubstitution()](#getFontInfoSubstitution--) | 与字体信息替换规则相关的设置。 |
@@ -57,16 +57,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDefaultFontSubstitution() {#getDefaultFontSubstitution--}
 ```
 public DefaultFontSubstitutionRule getDefaultFontSubstitution()

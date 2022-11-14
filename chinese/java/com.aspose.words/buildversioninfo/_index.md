@@ -1,6 +1,6 @@
 ---
 title: BuildVersionInfo
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 提供有关当前产品名称和版本的信息。
 type: docs
 weight: 40
@@ -21,7 +21,7 @@ public class BuildVersionInfo
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getProduct()](#getProduct--) | 获取产品的全名。 |
 | [getVersion()](#getVersion--) | 获取产品版本。 |
 | [hashCode()](#hashCode--) |  |
@@ -46,16 +46,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getProduct() {#getProduct--}
 ```
 public static String getProduct()
@@ -74,7 +74,7 @@ public static String getVersion()
 
 获取产品版本。
 
-产品版本采用“Major.Minor.Hotfix.0”格式。
+产品版本为“Major.Minor.Hotfix.0”格式。
 
 **退货:**
 java.lang.String - 产品版本。

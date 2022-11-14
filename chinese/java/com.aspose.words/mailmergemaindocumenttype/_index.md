@@ -1,6 +1,6 @@
 ---
-title: MailMergeMainDocument类型
-second_title: Aspose.Words for Java API Reference
+title: MailMergeMainDocumentType
+second_title: Aspose.Words for Java API 参考
 description: 指定邮件合并源文档的可能类型。
 type: docs
 weight: 384
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/mailmergemaindocumenttype/
 **遗产:**
 java.lang.Object
 ```
-public class MailMergeMainDocument类型
+public class MailMergeMainDocumentType
 ```
 
 指定邮件合并源文档的可能类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CATALOG](#CATALOG) | 指定邮件合并源文档是目录类型。 |
 | [DEFAULT](#DEFAULT) | 等于[NOT\_A\_MERGE\_DOCUMENT](../../com.aspose.words/mailmergemaindocumenttype\#NOT-A-MERGE-DOCUMENT) |
@@ -32,15 +32,15 @@ public class MailMergeMainDocument类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String mailMergeMainDocument类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int mailMergeMainDocument类型)](#getName-int-) |  |
+| [fromName(String mailMergeMainDocumentTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int mailMergeMainDocumentType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int mailMergeMainDocument类型)](#toString-int-) |  |
+| [toString(int mailMergeMainDocumentType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -129,9 +129,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String mailMergeMainDocument类型Name) {#fromName-java.lang.String-}
+### fromName(String mailMergeMainDocumentTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String mailMergeMainDocument类型Name)
+public static int fromName(String mailMergeMainDocumentTypeName)
 ```
 
 
@@ -140,23 +140,23 @@ public static int fromName(String mailMergeMainDocument类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mailMergeMainDocument类型Name | java.lang.String |  |
+| mailMergeMainDocumentTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int mailMergeMainDocument类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int mailMergeMainDocumentType) {#getName-int-}
 ```
-public static String getName(int mailMergeMainDocument类型)
+public static String getName(int mailMergeMainDocumentType)
 ```
 
 
@@ -165,7 +165,7 @@ public static String getName(int mailMergeMainDocument类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mailMergeMainDocument类型 | int |  |
+| mailMergeMainDocumentType | int |  |
 
 **退货:**
 java.lang.String
@@ -215,9 +215,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int mailMergeMainDocument类型) {#toString-int-}
+### toString(int mailMergeMainDocumentType) {#toString-int-}
 ```
-public static String toString(int mailMergeMainDocument类型)
+public static String toString(int mailMergeMainDocumentType)
 ```
 
 
@@ -226,7 +226,7 @@ public static String toString(int mailMergeMainDocument类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mailMergeMainDocument类型 | int |  |
+| mailMergeMainDocumentType | int |  |
 
 **退货:**
 java.lang.String

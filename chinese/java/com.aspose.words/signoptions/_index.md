@@ -1,6 +1,6 @@
 ---
 title: SignOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许指定文档签名的选项。
 type: docs
 weight: 523
@@ -21,7 +21,7 @@ public class SignOptions
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getComments()](#getComments--) | 指定对数字签名的注释。 |
 | [getDecryptionPassword()](#getDecryptionPassword--) | 解密源文档的密码。 |
 | [getProviderId()](#getProviderId--) | 指定签名提供者的类 ID。 |
@@ -56,16 +56,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getComments() {#getComments--}
 ```
 public String getComments()
@@ -82,7 +82,7 @@ public String getDecryptionPassword()
 ```
 
 
-解密源文档的密码。默认值为**empty string**.如果 OOXML 文档是加密的，您应该提供解密密码来解密源文档，然后才能对其进行签名。对于二进制 DOC 格式的文档，这不是必需的。
+解密源文档的密码。默认值为**empty string**.如果 OOXML 文档是加密的，您应该在签名之前提供解密密码来解密源文档。二进制 DOC 格式的文档不需要这样做。
 
 **退货:**
 java.lang.String - 对应的 java.lang.String 值。
@@ -94,14 +94,14 @@ public UUID getProviderId()
 
 指定签名提供者的类 ID。默认值为**Empty (all zeroes) Guid**.
 
-加密服务提供者 (CSP) 是一个独立的软件模块，它实际上执行用于身份验证、编码和加密的加密算法。 MS Office 保留的价值\{00000000-0000-0000-0000-000000000000\为其默认签名提供者。
+密码服务提供程序 (CSP) 是一个独立的软件模块，它实际执行用于身份验证、编码和加密的密码算法。 MS Office 保留的价值\{00000000-0000-0000-0000-000000000000\为其默认签名提供程序。
 
 额外安装的提供程序的 GUID 应从提供程序随附的文档中获取。
 
-此外，所有已安装的加密提供程序都在 Windows 注册表中枚举。可以在以下路径中找到：HKLM\\软件\\微软\\密码学\\默认值\\提供者。有一个密钥名称“CP Service UUID”，它对应于签名提供者的 GUID。
+此外，Windows 注册表中列举了所有已安装的加密提供程序。可以在以下路径找到：HKLM\\软件\\微软\\密码学\\默认值\\供应商。有一个密钥名称“CP Service UUID”，它对应于签名提供者的 GUID。
 
 **退货:**
-java.util.UUID - 对应的 java.util.UUID 值。
+java.util.UUID - 相应的 java.util.UUID 值。
 ### getSignTime() {#getSignTime--}
 ```
 public Date getSignTime()
@@ -111,17 +111,17 @@ public Date getSignTime()
 签署日期。默认值为**current time**.
 
 **退货:**
-java.util.Date - 对应的 java.util.Date 值。
+java.util.Date - 相应的 java.util.Date 值。
 ### getSignatureLineId() {#getSignatureLineId--}
 ```
 public UUID getSignatureLineId()
 ```
 
 
-签名行标识符。默认值为**Empty (all zeroes) Guid**.设置后，它关联[SignatureLine](../../com.aspose.words/signatureline)与相应的[DigitalSignature](../../com.aspose.words/digitalsignature).
+签名行标识符。默认值为**Empty (all zeroes) Guid**.设置时，它关联[SignatureLine](../../com.aspose.words/signatureline)与相应的[DigitalSignature](../../com.aspose.words/digitalsignature).
 
 **退货:**
-java.util.UUID - 对应的 java.util.UUID 值。
+java.util.UUID - 相应的 java.util.UUID 值。
 ### getSignatureLineImage() {#getSignatureLineImage--}
 ```
 public byte[] getSignatureLineImage()
@@ -177,7 +177,7 @@ public void setDecryptionPassword(String value)
 ```
 
 
-解密源文档的密码。默认值为**empty string**.如果 OOXML 文档是加密的，您应该提供解密密码来解密源文档，然后才能对其进行签名。对于二进制 DOC 格式的文档，这不是必需的。
+解密源文档的密码。默认值为**empty string**.如果 OOXML 文档是加密的，您应该在签名之前提供解密密码来解密源文档。二进制 DOC 格式的文档不需要这样做。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -192,11 +192,11 @@ public void setProviderId(UUID value)
 
 指定签名提供者的类 ID。默认值为**Empty (all zeroes) Guid**.
 
-加密服务提供者 (CSP) 是一个独立的软件模块，它实际上执行用于身份验证、编码和加密的加密算法。 MS Office 保留的价值\{00000000-0000-0000-0000-000000000000\为其默认签名提供者。
+密码服务提供程序 (CSP) 是一个独立的软件模块，它实际执行用于身份验证、编码和加密的密码算法。 MS Office 保留的价值\{00000000-0000-0000-0000-000000000000\为其默认签名提供程序。
 
 额外安装的提供程序的 GUID 应从提供程序随附的文档中获取。
 
-此外，所有已安装的加密提供程序都在 Windows 注册表中枚举。可以在以下路径中找到：HKLM\\软件\\微软\\密码学\\默认值\\提供者。有一个密钥名称“CP Service UUID”，它对应于签名提供者的 GUID。
+此外，Windows 注册表中列举了所有已安装的加密提供程序。可以在以下路径找到：HKLM\\软件\\微软\\密码学\\默认值\\供应商。有一个密钥名称“CP Service UUID”，它对应于签名提供者的 GUID。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -222,7 +222,7 @@ public void setSignatureLineId(UUID value)
 ```
 
 
-签名行标识符。默认值为**Empty (all zeroes) Guid**.设置后，它关联[SignatureLine](../../com.aspose.words/signatureline)与相应的[DigitalSignature](../../com.aspose.words/digitalsignature).
+签名行标识符。默认值为**Empty (all zeroes) Guid**.设置时，它关联[SignatureLine](../../com.aspose.words/signatureline)与相应的[DigitalSignature](../../com.aspose.words/digitalsignature).
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -240,7 +240,7 @@ public void setSignatureLineImage(byte[] value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] | 对应的字节[] 价值。 |
+| value | byte[] | 对应字节[] 价值。 |
 
 ### toString() {#toString--}
 ```

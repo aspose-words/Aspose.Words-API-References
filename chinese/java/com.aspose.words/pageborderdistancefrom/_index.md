@@ -1,7 +1,7 @@
 ---
 title: PageBorderDistanceFrom
-second_title: Aspose.Words for Java API Reference
-description: 指定页面边框相对于页边距的位置。
+second_title: Aspose.Words for Java API 参考
+description: 指定页面边框相对于页边距的定位。
 type: docs
 weight: 433
 url: /zh/java/com.aspose.words/pageborderdistancefrom/
@@ -13,13 +13,13 @@ java.lang.Object
 public class PageBorderDistanceFrom
 ```
 
-指定页面边框相对于页边距的位置。
+指定页面边框相对于页边距的定位。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
-| [PAGE_EDGE](#PAGE-EDGE) | 边框位置从页面边缘开始测量。 |
-| [TEXT](#TEXT) | 边框位置从页边距开始测量。 |
+| [PAGE_EDGE](#PAGE-EDGE) | 边框位置是从页面边缘开始测量的。 |
+| [TEXT](#TEXT) | 边框位置是从页边距开始测量的。 |
 | [length](#length) |  |
 ## 方法
 
@@ -27,7 +27,7 @@ public class PageBorderDistanceFrom
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pageBorderDistanceFromName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int pageBorderDistanceFrom)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int PAGE_EDGE
 ```
 
 
-边框位置从页面边缘开始测量。
+边框位置是从页面边缘开始测量的。
 
 ### TEXT {#TEXT}
 ```
@@ -52,7 +52,7 @@ public static int TEXT
 ```
 
 
-边框位置从页边距开始测量。
+边框位置是从页边距开始测量的。
 
 ### length {#length}
 ```
@@ -90,16 +90,16 @@ public static int fromName(String pageBorderDistanceFromName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int pageBorderDistanceFrom) {#getName-int-}
 ```
 public static String getName(int pageBorderDistanceFrom)

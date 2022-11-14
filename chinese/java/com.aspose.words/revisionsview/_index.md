@@ -1,6 +1,6 @@
 ---
 title: RevisionsView
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许指定是使用文档的原始版本还是修订版本。
 type: docs
 weight: 491
@@ -16,7 +16,7 @@ public class RevisionsView
 允许指定是使用文档的原始版本还是修订版本。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [FINAL](#FINAL) | 指定文档的修订版本。 |
 | [ORIGINAL](#ORIGINAL) | 指定文档的原始版本。 |
@@ -27,7 +27,7 @@ public class RevisionsView
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String revisionsViewName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int revisionsView)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -90,16 +90,16 @@ public static int fromName(String revisionsViewName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int revisionsView) {#getName-int-}
 ```
 public static String getName(int revisionsView)

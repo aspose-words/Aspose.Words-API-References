@@ -1,6 +1,6 @@
 ---
 title: LanguagePreferences
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许设置语言首选项。
 type: docs
 weight: 357
@@ -25,7 +25,7 @@ public class LanguagePreferences
 | [addEditingLanguage(int language)](#addEditingLanguage-int-) |  |
 | [addEditingLanguages(int[] languages)](#addEditingLanguages-int---) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDefaultEditingLanguage()](#getDefaultEditingLanguage--) | 获取或设置默认编辑语言。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -76,16 +76,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDefaultEditingLanguage() {#getDefaultEditingLanguage--}
 ```
 public int getDefaultEditingLanguage()

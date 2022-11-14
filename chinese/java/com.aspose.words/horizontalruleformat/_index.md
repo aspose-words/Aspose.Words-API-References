@@ -1,6 +1,6 @@
 ---
 title: HorizontalRuleFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示水平规则格式。
 type: docs
 weight: 322
@@ -22,7 +22,7 @@ public class HorizontalRuleFormat
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAlignment()](#getAlignment--) | 获取水平线的对齐方式。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | 获取填充水平线的画笔颜色。 |
 | [getHeight()](#getHeight--) | 获取水平线的高度。 |
 | [getNoShade()](#getNoShade--) | 表示存在水平线的 3D 阴影。 |
@@ -66,16 +66,16 @@ public int getAlignment()
 
 **退货:**
  int - 水平线的对齐方式。返回值是以下之一[HorizontalRuleAlignment](../../com.aspose.words/horizontalrulealignment)常数。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getColor() {#getColor--}
 ```
 public Color getColor()
@@ -84,7 +84,7 @@ public Color getColor()
 
 获取填充水平线的画笔颜色。
 
-这是一个快捷方式[Fill.getColor()](../../com.aspose.words/fill\#getColor--) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill\#setColor-java.awt.Color-)财产。
+这是一个捷径[Fill.getColor()](../../com.aspose.words/fill\#getColor--) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill\#setColor-java.awt.Color-)财产。
 
 默认值为 。
 
@@ -98,7 +98,7 @@ public double getHeight()
 
 获取水平线的高度。
 
-这是一个快捷方式[ShapeBase.getHeight()](../../com.aspose.words/shapebase\#getHeight--) / [ShapeBase.setHeight(double)](../../com.aspose.words/shapebase\#setHeight-double-)财产。
+这是一个捷径[ShapeBase.getHeight()](../../com.aspose.words/shapebase\#getHeight--) / [ShapeBase.setHeight(double)](../../com.aspose.words/shapebase\#setHeight-double-)财产。
 
 有效值\\u200b\\u200brange 从 0 到 1584（含）。
 
@@ -112,7 +112,7 @@ public boolean getNoShade()
 ```
 
 
-表示存在水平线的 3D 阴影。如果为 true，则水平规则不使用 3D 阴影并使用纯色。
+指示水平线是否存在 3D 阴影。如果为 true，则水平线没有 3D 阴影并使用纯色。
 
 默认值为假。
 
@@ -126,7 +126,7 @@ public double getWidthPercent()
 
 获取以窗口宽度百分比表示的指定水平线的长度。
 
-有效值\\u200b\\u200b 范围从 1 到 100（含）。
+有效值\\u200b\\u200br 范围从 1 到 100（含）。
 
 默认值为 100。
 
@@ -171,7 +171,7 @@ public void setAlignment(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 水平线的对齐方式。该值必须是以下之一[HorizontalRuleAlignment](../../com.aspose.words/horizontalrulealignment)常数。 |
+| value | int | 水平线的对齐方式。该值必须是其中之一[HorizontalRuleAlignment](../../com.aspose.words/horizontalrulealignment)常数。 |
 
 ### setColor(Color value) {#setColor-java.awt.Color-}
 ```
@@ -181,7 +181,7 @@ public void setColor(Color value)
 
 设置填充水平线的画笔颜色。
 
-这是一个快捷方式[Fill.getColor()](../../com.aspose.words/fill\#getColor--) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill\#setColor-java.awt.Color-)财产。
+这是一个捷径[Fill.getColor()](../../com.aspose.words/fill\#getColor--) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill\#setColor-java.awt.Color-)财产。
 
 默认值为 。
 
@@ -198,7 +198,7 @@ public void setHeight(double value)
 
 设置水平线的高度。
 
-这是一个快捷方式[ShapeBase.getHeight()](../../com.aspose.words/shapebase\#getHeight--) / [ShapeBase.setHeight(double)](../../com.aspose.words/shapebase\#setHeight-double-)财产。
+这是一个捷径[ShapeBase.getHeight()](../../com.aspose.words/shapebase\#getHeight--) / [ShapeBase.setHeight(double)](../../com.aspose.words/shapebase\#setHeight-double-)财产。
 
 有效值\\u200b\\u200brange 从 0 到 1584（含）。
 
@@ -207,7 +207,7 @@ public void setHeight(double value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 水平尺的高度。 |
+| value | double | 水平线的高度。 |
 
 ### setNoShade(boolean value) {#setNoShade-boolean-}
 ```
@@ -215,7 +215,7 @@ public void setNoShade(boolean value)
 ```
 
 
-表示存在水平线的 3D 阴影。如果为 true，则水平规则不使用 3D 阴影并使用纯色。
+指示水平线是否存在 3D 阴影。如果为 true，则水平线没有 3D 阴影并使用纯色。
 
 默认值为假。
 
@@ -232,14 +232,14 @@ public void setWidthPercent(double value)
 
 设置指定水平线的长度，以窗口宽度的百分比表示。
 
-有效值\\u200b\\u200b 范围从 1 到 100（含）。
+有效值\\u200b\\u200br 范围从 1 到 100（含）。
 
 默认值为 100。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 以窗口宽度百分比表示的指定水平线的长度。 |
+| value | double | 指定水平线的长度，以窗口宽度的百分比表示。 |
 
 ### toString() {#toString--}
 ```

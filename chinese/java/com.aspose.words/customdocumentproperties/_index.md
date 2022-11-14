@@ -1,6 +1,6 @@
 ---
 title: CustomDocumentProperties
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 自定义文档属性的集合。
 type: docs
 weight: 101
@@ -19,25 +19,25 @@ public class CustomDocumentProperties extends DocumentPropertyCollection
 
 每个[DocumentProperty](../../com.aspose.words/documentproperty)object 表示容器文档的自定义属性。
 
-属性名称不区分大小写。
+属性的名称不区分大小写。
 
 集合中的属性按名称的字母顺序排序。
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [add(String name, boolean value)](#add-java.lang.String-boolean-) | 创建一个新的自定义文档属性**Property类型.Boolean**数据类型。 |
-| [add(String name, double value)](#add-java.lang.String-double-) | 创建一个新的自定义文档属性**Property类型.Float**数据类型。 |
-| [add(String name, int value)](#add-java.lang.String-int-) | 创建一个新的自定义文档属性**Property类型.Number**数据类型。 |
+| [add(String name, boolean value)](#add-java.lang.String-boolean-) | 创建一个新的自定义文档属性**PropertyType.Boolean**数据类型。 |
+| [add(String name, double value)](#add-java.lang.String-double-) | 创建一个新的自定义文档属性**PropertyType.Float**数据类型。 |
+| [add(String name, int value)](#add-java.lang.String-int-) | 创建一个新的自定义文档属性**PropertyType.Number**数据类型。 |
 | [add(String name, String value)](#add-java.lang.String-java.lang.String-) | 创建一个新的自定义文档属性。 |
-| [add(String name, Date value)](#add-java.lang.String-java.util.Date-) | 创建一个新的自定义文档属性**Property类型.DateTime**数据类型。 |
+| [add(String name, Date value)](#add-java.lang.String-java.util.Date-) | 创建一个新的自定义文档属性**PropertyType.DateTime**数据类型。 |
 | [addLinkToContent(String name, String linkSource)](#addLinkToContent-java.lang.String-java.lang.String-) | 创建一个新的链接到内容自定义文档属性。 |
 | [clear()](#clear--) | 从集合中删除所有属性。 |
 | [contains(String name)](#contains-java.lang.String-) | 如果集合中存在具有指定名称的属性，则返回 true。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 返回一个[DocumentProperty](../../com.aspose.words/documentproperty)按索引的对象。 |
 | [get(String name)](#get-java.lang.String-) | 提供对集合项目的访问。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中的项目数。 |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(String name)](#indexOf-java.lang.String-) | 按名称获取属性的索引。 |
@@ -56,7 +56,7 @@ public DocumentProperty add(String name, boolean value)
 ```
 
 
-创建一个新的自定义文档属性**Property类型.Boolean**数据类型。
+创建一个新的自定义文档属性**PropertyType.Boolean**数据类型。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -72,7 +72,7 @@ public DocumentProperty add(String name, double value)
 ```
 
 
-创建一个新的自定义文档属性**Property类型.Float**数据类型。
+创建一个新的自定义文档属性**PropertyType.Float**数据类型。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -88,7 +88,7 @@ public DocumentProperty add(String name, int value)
 ```
 
 
-创建一个新的自定义文档属性**Property类型.Number**数据类型。
+创建一个新的自定义文档属性**PropertyType.Number**数据类型。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -104,7 +104,7 @@ public DocumentProperty add(String name, String value)
 ```
 
 
-创建一个新的自定义文档属性。创建一个新的自定义文档属性**Property类型.String**数据类型。
+创建一个新的自定义文档属性。创建一个新的自定义文档属性**PropertyType.String**数据类型。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -120,7 +120,7 @@ public DocumentProperty add(String name, Date value)
 ```
 
 
-创建一个新的自定义文档属性**Property类型.DateTime**数据类型。
+创建一个新的自定义文档属性**PropertyType.DateTime**数据类型。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -165,10 +165,10 @@ public boolean contains(String name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | 不区分大小写的属性名称。 |
+| name | java.lang.String | 属性的不区分大小写的名称。 |
 
 **退货:**
-boolean - 如果属性存在于集合中，则为真；否则为假。
+boolean - 如果该属性存在于集合中则为真；否则为假。
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -192,12 +192,12 @@ public DocumentProperty get(int index)
 
 返回一个[DocumentProperty](../../com.aspose.words/documentproperty)按索引的对象。
 
-**Note:**在 Java 中，这种方法很慢，因为它会遍历所有节点。
+**Note:**在 Java 中，此方法很慢，因为遍历所有节点。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | 的从零开始的索引[DocumentProperty](../../com.aspose.words/documentproperty)检索。 |
+| index | int | 零基指数[DocumentProperty](../../com.aspose.words/documentproperty)检索。 |
 
 **退货:**
 [DocumentProperty](../../com.aspose.words/documentproperty) - 一个[DocumentProperty](../../com.aspose.words/documentproperty)按索引的对象。
@@ -218,16 +218,16 @@ public DocumentProperty get(String name)
 
 **退货:**
 [DocumentProperty](../../com.aspose.words/documentproperty) - 相应的[DocumentProperty](../../com.aspose.words/documentproperty)价值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -256,12 +256,12 @@ public int indexOf(String name)
 
 按名称获取属性的索引。
 
-**Note:**在 Java 中，这种方法很慢，因为它会遍历所有节点。
+**Note:**在 Java 中，此方法很慢，因为遍历所有节点。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | 不区分大小写的属性名称。 |
+| name | java.lang.String | 属性的不区分大小写的名称。 |
 
 **退货:**
 int - 从零开始的索引。如果未找到，则为负值。
@@ -302,7 +302,7 @@ public void remove(String name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | 不区分大小写的属性名称。 |
+| name | java.lang.String | 属性的不区分大小写的名称。 |
 
 ### removeAt(int index) {#removeAt-int-}
 ```
@@ -312,7 +312,7 @@ public void removeAt(int index)
 
 删除指定索引处的属性。
 
-**Note:**在 Java 中，这种方法很慢，因为它会遍历所有节点。
+**Note:**在 Java 中，此方法很慢，因为遍历所有节点。
 
 **参数:**
 | 范围 | 类型 | 描述 |

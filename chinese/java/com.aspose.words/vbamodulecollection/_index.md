@@ -1,6 +1,6 @@
 ---
 title: VbaModuleCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示对象的集合。
 type: docs
 weight: 594
@@ -27,7 +27,7 @@ public class VbaModuleCollection implements Iterable
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 检索一个[VbaModule](../../com.aspose.words/vbamodule)按索引的对象。 |
 | [get(String name)](#get-java.lang.String-) | 检索一个[VbaModule](../../com.aspose.words/vbamodule)按名称显示对象，如果未找到，则返回 Null。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 返回集合中 VBA 模块的数量。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) |  |
@@ -96,16 +96,16 @@ public VbaModule get(String name)
 
 **退货:**
 [VbaModule](../../com.aspose.words/vbamodule) - 相应的[VbaModule](../../com.aspose.words/vbamodule)价值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

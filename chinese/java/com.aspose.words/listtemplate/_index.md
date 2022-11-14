@@ -1,6 +1,6 @@
 ---
 title: ListTemplate
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定 Microsoft Word 中可用的预定义列表格式之一。
 type: docs
 weight: 375
@@ -17,18 +17,18 @@ public class ListTemplate
 
 列表模板值用作参数**M:Aspose.Words.Lists.ListCollection.Add(Aspose.Words.Lists.ListTemplate)**方法。
 
-Aspose.Words 列表模板对应于 Microsoft Word 2003 中的“项目符号和编号”对话框中的 21 个列表模板。
+Aspose.Words 列表模板对应于 Microsoft Word 2003 项目符号和编号对话框中可用的 21 个列表模板。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
-| [BULLET_ARROW_HEAD](#BULLET-ARROW-HEAD) | 第一关的子弹是箭头永定字。 |
+| [BULLET_ARROW_HEAD](#BULLET-ARROW-HEAD) | 第一关的子弹是一个箭头形的翼鼎字。 |
 | [BULLET_CIRCLE](#BULLET-CIRCLE) | 第一级的子弹是一个圆圈。 |
 | [BULLET_DEFAULT](#BULLET-DEFAULT) | 具有 9 个级别的默认项目符号列表。 |
-| [BULLET_DIAMONDS](#BULLET-DIAMONDS) | 第一关的子弹是一个4钻的Wingding角色。 |
+| [BULLET_DIAMONDS](#BULLET-DIAMONDS) | 第一级的子弹是一个4钻翼丁角色。 |
 | [BULLET_DISK](#BULLET-DISK) | 与 BulletDefault 相同。 |
 | [BULLET_SQUARE](#BULLET-SQUARE) | 第一级的子弹是一个正方形。 |
-| [BULLET_TICK](#BULLET-TICK) | 第一级的子弹是一个打勾的Wingding 字符。 |
+| [BULLET_TICK](#BULLET-TICK) | 第一关的子弹是一个滴答翼丁字。 |
 | [NUMBER_ARABIC_DOT](#NUMBER-ARABIC-DOT) | 与 NumberDefault 相同。 |
 | [NUMBER_ARABIC_PARENTHESIS](#NUMBER-ARABIC-PARENTHESIS) | 第一级的数字是“1)”。 |
 | [NUMBER_DEFAULT](#NUMBER-DEFAULT) | 具有 9 个级别的默认编号列表。 |
@@ -51,7 +51,7 @@ Aspose.Words 列表模板对应于 Microsoft Word 2003 中的“项目符号和�
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String listTemplateName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int listTemplate)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -152,7 +152,7 @@ public static int NUMBER_ARABIC_PARENTHESIS
 
 第一级的数字是“1)”。其余级别与 NumberDefault 中的相同。
 
-对应于 Microsoft Word 中的项目符号和编号对话框中的第二个编号列表模板。
+对应于 Microsoft Word 中项目符号和编号对话框中的第二个编号列表模板。
 
 ### NUMBER_DEFAULT {#NUMBER-DEFAULT}
 ```
@@ -160,7 +160,7 @@ public static int NUMBER_DEFAULT
 ```
 
 
-具有 9 个级别的默认编号列表。第一级为阿拉伯编号（1., 2., 3., ...），第二级为小写字母编号（a., b., c., ...），小写罗马编号（i., ii., iii., ...) 用于第三级。然后对其余级别重复格式化。
+具有 9 个级别的默认编号列表。一级为阿拉伯文编号（1., 2., 3., ...），二级为小写字母编号（a., b., c., ...），小写罗马文编号（i., ii., iii., ...) 为第三级。然后对剩余级别重复格式化。
 
 每个级别相对于前一个级别向右缩进 0.25"。
 
@@ -174,7 +174,7 @@ public static int NUMBER_LOWERCASE_LETTER_DOT
 
 第一级的数字是“a.”。其余级别与 NumberDefault 中的相同。
 
-对应于 Microsoft Word 中的“项目符号和编号”对话框中的第 6 个编号列表模板。
+对应于 Microsoft Word 中“项目符号和编号”对话框中的第 6 个编号列表模板。
 
 ### NUMBER_LOWERCASE_LETTER_PARENTHESIS {#NUMBER-LOWERCASE-LETTER-PARENTHESIS}
 ```
@@ -264,7 +264,7 @@ public static int OUTLINE_HEADINGS_NUMBERS
 
 具有链接到标题样式的级别的大纲列表。
 
-对应于 Microsoft Word 中的项目符号和编号对话框中的第 6 个大纲列表模板。
+对应于 Microsoft Word 中“项目符号和编号”对话框中的第 6 个大纲列表模板。
 
 ### OUTLINE_LEGAL {#OUTLINE-LEGAL}
 ```
@@ -274,7 +274,7 @@ public static int OUTLINE_LEGAL
 
 具有级别的大纲列表编号为“1., 1.1., 1.1.1, ...”。
 
-对应于 Microsoft Word 中的项目符号和编号对话框中的第二个大纲列表模板。
+对应于 Microsoft Word 中“项目符号和编号”对话框中的第 2 个大纲列表模板。
 
 ### OUTLINE_NUMBERS {#OUTLINE-NUMBERS}
 ```
@@ -284,7 +284,7 @@ public static int OUTLINE_NUMBERS
 
 一个大纲列表，其级别编号为“1)、a)、i)、(1)、(a)、(i)、1.、a.、i.”。
 
-对应于 Microsoft Word 中的项目符号和编号对话框中的第一个大纲列表模板。
+对应于 Microsoft Word 中“项目符号和编号”对话框中的第一个大纲列表模板。
 
 ### length {#length}
 ```
@@ -322,16 +322,16 @@ public static int fromName(String listTemplateName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int listTemplate) {#getName-int-}
 ```
 public static String getName(int listTemplate)

@@ -1,6 +1,6 @@
 ---
-title: 字段UpdateCultureSource
-second_title: Aspose.Words for Java API Reference
+title: FieldUpdateCultureSource
+second_title: Aspose.Words for Java API 参考
 description: 指示在字段更新期间要使用的区域性。
 type: docs
 weight: 258
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/fieldupdateculturesource/
 **遗产:**
 java.lang.Object
 ```
-public class 字段UpdateCultureSource
+public class FieldUpdateCultureSource
 ```
 
 指示在字段更新期间要使用的区域性。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CURRENT_THREAD](#CURRENT-THREAD) | 当前执行线程的文化用于更新字段。 |
 | [FIELD_CODE](#FIELD-CODE) | 使用通过语言设置在字段格式属性中指定的文化。 |
@@ -27,7 +27,7 @@ public class 字段UpdateCultureSource
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String fieldUpdateCultureSourceName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int fieldUpdateCultureSource)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -52,7 +52,7 @@ public static int FIELD_CODE
 ```
 
 
-使用通过语言设置在字段格式属性中指定的文化。确切地说，Aspose.Words 通过使用为域代码的第一个字符设置的语言来模仿 MS Word。
+使用通过语言设置在字段格式属性中指定的文化。确切地说，Aspose.Words 通过使用为字段代码的第一个字符设置的语言来模仿 MS Word。
 
 ### length {#length}
 ```
@@ -90,16 +90,16 @@ public static int fromName(String fieldUpdateCultureSourceName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int fieldUpdateCultureSource) {#getName-int-}
 ```
 public static String getName(int fieldUpdateCultureSource)

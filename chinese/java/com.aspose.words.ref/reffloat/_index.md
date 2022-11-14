@@ -1,6 +1,6 @@
 ---
 title: RefFloat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示 Float 原始类型的 Out/Ref 构造
 type: docs
 weight: 14
@@ -25,7 +25,7 @@ public class RefFloat
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get()](#get--) | 获取 Out/Ref 参数值 应在调用具有 Out/Ref 构造的方法后使用 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -72,16 +72,16 @@ public float get()
 
 **退货:**
 漂浮
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

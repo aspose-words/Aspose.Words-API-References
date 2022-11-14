@@ -1,6 +1,6 @@
 ---
 title: ReplacingArgs
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 为自定义替换操作提供数据。
 type: docs
 weight: 476
@@ -21,7 +21,7 @@ public class ReplacingArgs
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getGroupIndex()](#getGroupIndex--) | 通过索引标识在[getMatch()](../../com.aspose.words/replacingargs\#getMatch--)那将被替换为[getReplacement()](../../com.aspose.words/replacingargs\#getReplacement--) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs\#setReplacement-java.lang.String-)细绳。 |
 | [getMatch()](#getMatch--) |  java.util.regex.Matcher 由单个正则表达式匹配产生**Replace**. |
 | [getMatchNode()](#getMatchNode--) | 获取包含匹配开始的节点。 |
@@ -51,16 +51,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getGroupIndex() {#getGroupIndex--}
 ```
 public int getGroupIndex()
@@ -84,7 +84,7 @@ public Matcher getMatch()
 Matcher.start() 从查找和替换范围的开头获取匹配的从零开始的起始位置。
 
 **退货:**
-java.util.regex.Matcher - 对应的 java.util.regex.Matcher 值。
+java.util.regex.Matcher - 相应的 java.util.regex.Matcher 值。
 ### getMatchNode() {#getMatchNode--}
 ```
 public Node getMatchNode()
@@ -104,7 +104,7 @@ public int getMatchOffset()
 从包含匹配开头的节点的开头获取匹配的从零开始的起始位置。
 
 **退货:**
-int - 从包含匹配开始的节点开始的匹配的从零开始的位置。
+int - 从包含匹配开始的节点开始的匹配从零开始的起始位置。
 ### getReplacement() {#getReplacement--}
 ```
 public String getReplacement()

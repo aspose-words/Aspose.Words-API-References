@@ -1,6 +1,6 @@
 ---
 title: SectionLayoutMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定允许定义文档网格行为的部分的布局模式。
 type: docs
 weight: 511
@@ -16,7 +16,7 @@ public class SectionLayoutMode
 指定允许定义文档网格行为的部分的布局模式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [DEFAULT](#DEFAULT) | 指定不应将文档网格应用于文档中相应部分的内容。 |
 | [GRID](#GRID) | 指定相应部分应将附加行间距和字符间距添加到每一行和其中的字符，以保持每页的特定行数和每行的字符数。 |
@@ -29,7 +29,7 @@ public class SectionLayoutMode
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String sectionLayoutModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int sectionLayoutMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -108,16 +108,16 @@ public static int fromName(String sectionLayoutModeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int sectionLayoutMode) {#getName-int-}
 ```
 public static String getName(int sectionLayoutMode)

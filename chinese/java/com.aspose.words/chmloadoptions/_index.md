@@ -1,6 +1,6 @@
 ---
 title: ChmLoadOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许在将 CHM 文档加载到对象时指定其他选项。
 type: docs
 weight: 72
@@ -27,7 +27,7 @@ public class ChmLoadOptions extends LoadOptions
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBaseUri()](#getBaseUri--) | 获取将用于在需要时将在文档中找到的相对 URI 解析为绝对 URI 的字符串。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getConvertMetafilesToPng()](#getConvertMetafilesToPng--) | 获取是否转换元文件（**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。 |
 | [getConvertShapeToOfficeMath()](#getConvertShapeToOfficeMath--) | 获取是否将带有 EquationXML 的形状转换为 Office Math 对象。 |
 | [getEncoding()](#getEncoding--) | 如果未在文档中指定编码，则获取将用于加载 HTML、TXT 或 CHM 文档的编码。 |
@@ -37,7 +37,7 @@ public class ChmLoadOptions extends LoadOptions
 | [getMswVersion()](#getMswVersion--) | 允许指定文档加载过程应匹配特定的 MS Word 版本。 |
 | [getOriginalFileName()](#getOriginalFileName--) | CHM 文件的名称。 |
 | [getPassword()](#getPassword--) | 获取打开加密文档的密码。 |
-| [getPreserveIncludePicture字段()](#getPreserveIncludePicture字段--) | 获取读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。 |
+| [getPreserveIncludePictureField()](#getPreserveIncludePictureField--) | 获取读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。 |
 | [getProgressCallback()](#getProgressCallback--) | 在加载文档期间调用并接受有关加载进度的数据。 |
 | [getResourceLoadingCallback()](#getResourceLoadingCallback--) | 允许控制从 HTML、MHTML 导入文档时如何加载外部资源（图像、样式表）。 |
 | [getTempFolder()](#getTempFolder--) | 允许在阅读文档时使用临时文件。 |
@@ -49,13 +49,13 @@ public class ChmLoadOptions extends LoadOptions
 | [setBaseUri(String value)](#setBaseUri-java.lang.String-) | 将用于在需要时将文档中的相对 URI 解析为绝对 URI 的字符串。 |
 | [setConvertMetafilesToPng(boolean value)](#setConvertMetafilesToPng-boolean-) | 设置是否转换元文件（**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。 |
 | [setConvertShapeToOfficeMath(boolean value)](#setConvertShapeToOfficeMath-boolean-) | 设置是否将带有 EquationXML 的形状转换为 Office Math 对象。 |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | 如果未在文档中指定编码，则设置将用于加载 HTML、TXT 或 CHM 文档的编码。 |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | 如果文档中未指定编码，则设置将用于加载 HTML、TXT 或 CHM 文档的编码。 |
 | [setFontSettings(FontSettings value)](#setFontSettings-com.aspose.words.FontSettings-) | 允许指定文档字体设置。 |
 | [setLoadFormat(int value)](#setLoadFormat-int-) | 指定要加载的文档的格式。 |
 | [setMswVersion(int value)](#setMswVersion-int-) | 允许指定文档加载过程应匹配特定的 MS Word 版本。 |
 | [setOriginalFileName(String value)](#setOriginalFileName-java.lang.String-) | CHM 文件的名称。 |
 | [setPassword(String value)](#setPassword-java.lang.String-) | 设置打开加密文档的密码。 |
-| [setPreserveIncludePicture字段(boolean value)](#setPreserveIncludePicture字段-boolean-) | 设置读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。 |
+| [setPreserveIncludePictureField(boolean value)](#setPreserveIncludePictureField-boolean-) | 设置在阅读 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。 |
 | [setProgressCallback(IDocumentLoadingCallback value)](#setProgressCallback-com.aspose.words.IDocumentLoadingCallback-) | 在加载文档期间调用并接受有关加载进度的数据。 |
 | [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback-) | 允许控制从 HTML、MHTML 导入文档时如何加载外部资源（图像、样式表）。 |
 | [setTempFolder(String value)](#setTempFolder-java.lang.String-) | 允许在阅读文档时使用临时文件。 |
@@ -94,32 +94,32 @@ public String getBaseUri()
 ```
 
 
-获取将用于在需要时将在文档中找到的相对 URI 解析为绝对 URI 的字符串。可以是 null 或空字符串。默认为空。
+获取将用于在需要时将文档中找到的相对 URI 解析为绝对 URI 的字符串。可以为 null 或空字符串。默认为空。
 
-在以下情况下，此属性用于将相对 URI 解析为绝对：
+在以下情况下，此属性用于将相对 URI 解析为绝对 URI：
 
-1.  从流中加载 HTML 文档并且该文档包含具有相对 URI 的图像并且没有在 BASE HTML 元素中指定的基本 URI。
-2.  将文档保存为 PDF 和其他格式时，检索使用相对 URI 链接的图像，以便将图像保存到输出文档中。
-
-**退货:**
-java.lang.String - 需要时用于将文档中的相对 URI 解析为绝对 URI 的字符串。
-### get班级() {#get班级--}
-```
-public final native 班级<?> get班级()
-```
-
-
-
+1.  从流中加载 HTML 文档时，该文档包含具有相对 URI 的图像，并且没有在 BASE HTML 元素中指定的基本 URI。
+2.  将文档保存为 PDF 和其他格式时，检索使用相对 URI 链接的图像，以便可以将图像保存到输出文档中。
 
 **退货:**
-java.lang.班级<?>
+java.lang.String - 将用于在需要时将文档中找到的相对 URI 解析为绝对 URI 的字符串。
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**退货:**
+java.lang.Class<?>
 ### getConvertMetafilesToPng() {#getConvertMetafilesToPng--}
 ```
 public boolean getConvertMetafilesToPng()
 ```
 
 
-获取是否转换元文件（**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。元文件 (**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 是一种未压缩的图像格式，有时需要大量 RAM 来保存和处理文档。此选项允许将所有元文件图像转换为**F:Aspose.FileFormat.Png**关于文件加载。请注意 - 将矢量图形转换为光栅会降低图像质量。
+获取是否转换元文件（**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。图元文件 (**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 是一种未压缩的图像格式，有时需要大量 RAM 来保存和处理文档。此选项允许将所有图元文件图像转换为**F:Aspose.FileFormat.Png**关于文档加载。请注意 - 将矢量图形转换为光栅会降低图像质量。
 
 **退货:**
  boolean - 是否转换图元文件 (**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。
@@ -132,18 +132,18 @@ public boolean getConvertShapeToOfficeMath()
 获取是否将带有 EquationXML 的形状转换为 Office Math 对象。
 
 **退货:**
-boolean - 是否将带有 EquationXML 的形状转换为 Office Math 对象。
+布尔值 - 是否将带有 EquationXML 的形状转换为 Office Math 对象。
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
 ```
 
 
-如果未在文档中指定编码，则获取将用于加载 HTML、TXT 或 CHM 文档的编码。可以为空。默认为空。
+如果文档中未指定编码，则获取将用于加载 HTML、TXT 或 CHM 文档的编码。可以为空。默认为空。
 
 此属性仅在加载 HTML、TXT 或 CHM 文档时使用。
 
-如果文档中没有指定编码并且该属性为 null ，那么系统将尝试自动检测编码。
+如果文档中未指定编码且此属性为 null ，则系统将尝试自动检测编码。
 
 **退货:**
 java.nio.charset.Charset - 如果文档中未指定编码，则将用于加载 HTML、TXT 或 CHM 文档的编码。
@@ -203,9 +203,9 @@ public String getOriginalFileName()
 
 CHM 文件的名称。默认值为 null 。
 
- CHM 文档可能包含按文件名引用同一文档的链接。 Aspose.Words 支持此类链接并通常使用[Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName--)检查链接引用的文件是否是正在加载的文件。如果从流中加载文档，则应通过此属性显式指定其原始文件名，因为它无法自动确定。
+ CHM 文档可能包含按文件名引用同一文档的链接。 Aspose.Words 支持此类链接并通常使用[Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName--)检查链接引用的文件是否是正在加载的文件。如果从流中加载文档，则应通过此属性明确指定其原始文件名，因为它无法自动确定。
 
-如果从文件加载 CHM 文档并为此属性指定了非空值，则该值将优先于存储在[Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName--).
+如果从文件加载 CHM 文档并为此属性指定了非空值，则该值将优先于存储在文件中的实际名称[Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName--).
 
 **退货:**
 java.lang.String - 对应的 java.lang.String 值。
@@ -215,19 +215,19 @@ public String getPassword()
 ```
 
 
-获取打开加密文档的密码。可以是 null 或空字符串。默认为空。
+获取打开加密文档的密码。可以为 null 或空字符串。默认为空。
 
-您需要知道打开加密文档的密码。如果文档未加密，请将其设置为 null 或空字符串。
+您需要知道密码才能打开加密文档。如果文档未加密，请将其设置为 null 或空字符串。
 
 **退货:**
 java.lang.String - 打开加密文档的密码。
-### getPreserveIncludePicture字段() {#getPreserveIncludePicture字段--}
+### getPreserveIncludePictureField() {#getPreserveIncludePictureField--}
 ```
-public boolean getPreserveIncludePicture字段()
+public boolean getPreserveIncludePictureField()
 ```
 
 
-获取读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。默认值为假。
+获取在阅读 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。默认值为假。
 
 默认情况下，INCLUDEPICTURE 字段转换为形状对象。如果您需要保留该字段，例如，如果您希望以编程方式更新它，您可以覆盖它。但是请注意，这种方法在 Aspose.Words 中并不常见。自行承担使用风险。
 
@@ -325,10 +325,10 @@ public void setBaseUri(String value)
 
 将用于在需要时将文档中的相对 URI 解析为绝对 URI 的字符串。可以是 null 或空字符串。默认为空。
 
-在以下情况下，此属性用于将相对 URI 解析为绝对：
+在以下情况下，此属性用于将相对 URI 解析为绝对 URI：
 
-1.  从流中加载 HTML 文档并且该文档包含具有相对 URI 的图像并且没有在 BASE HTML 元素中指定的基本 URI。
-2.  将文档保存为 PDF 和其他格式时，检索使用相对 URI 链接的图像，以便将图像保存到输出文档中。
+1.  从流中加载 HTML 文档时，该文档包含具有相对 URI 的图像，并且没有在 BASE HTML 元素中指定的基本 URI。
+2.  将文档保存为 PDF 和其他格式时，检索使用相对 URI 链接的图像，以便可以将图像保存到输出文档中。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -341,7 +341,7 @@ public void setConvertMetafilesToPng(boolean value)
 ```
 
 
-设置是否转换元文件（**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。元文件 (**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 是一种未压缩的图像格式，有时需要大量 RAM 来保存和处理文档。此选项允许将所有元文件图像转换为**F:Aspose.FileFormat.Png**关于文件加载。请注意 - 将矢量图形转换为光栅会降低图像质量。
+设置是否转换元文件（**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。图元文件 (**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 是一种未压缩的图像格式，有时需要大量 RAM 来保存和处理文档。此选项允许将所有图元文件图像转换为**F:Aspose.FileFormat.Png**关于文档加载。请注意 - 将矢量图形转换为光栅会降低图像质量。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -371,7 +371,7 @@ public void setEncoding(Charset value)
 
 此属性仅在加载 HTML、TXT 或 CHM 文档时使用。
 
-如果文档中没有指定编码并且该属性为 null ，那么系统将尝试自动检测编码。
+如果文档中未指定编码且此属性为 null ，则系统将尝试自动检测编码。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -433,9 +433,9 @@ public void setOriginalFileName(String value)
 
 CHM 文件的名称。默认值为 null 。
 
- CHM 文档可能包含按文件名引用同一文档的链接。 Aspose.Words 支持此类链接并通常使用[Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName--)检查链接引用的文件是否是正在加载的文件。如果从流中加载文档，则应通过此属性显式指定其原始文件名，因为它无法自动确定。
+ CHM 文档可能包含按文件名引用同一文档的链接。 Aspose.Words 支持此类链接并通常使用[Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName--)检查链接引用的文件是否是正在加载的文件。如果从流中加载文档，则应通过此属性明确指定其原始文件名，因为它无法自动确定。
 
-如果从文件加载 CHM 文档并为此属性指定了非空值，则该值将优先于存储在[Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName--).
+如果从文件加载 CHM 文档并为此属性指定了非空值，则该值将优先于存储在文件中的实际名称[Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName--).
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -450,16 +450,16 @@ public void setPassword(String value)
 
 设置打开加密文档的密码。可以是 null 或空字符串。默认为空。
 
-您需要知道打开加密文档的密码。如果文档未加密，请将其设置为 null 或空字符串。
+您需要知道密码才能打开加密文档。如果文档未加密，请将其设置为 null 或空字符串。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | 打开加密文档的密码。 |
 
-### setPreserveIncludePicture字段(boolean value) {#setPreserveIncludePicture字段-boolean-}
+### setPreserveIncludePictureField(boolean value) {#setPreserveIncludePictureField-boolean-}
 ```
-public void setPreserveIncludePicture字段(boolean value)
+public void setPreserveIncludePictureField(boolean value)
 ```
 
 

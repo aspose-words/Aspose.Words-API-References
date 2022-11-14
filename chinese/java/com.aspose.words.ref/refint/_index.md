@@ -1,6 +1,6 @@
 ---
 title: RefInt
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示 Integer 基本类型的 Out/Ref 构造
 type: docs
 weight: 15
@@ -26,7 +26,7 @@ public class RefInt
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get()](#get--) | 设置 Out/Ref 参数值 应在具有 Out/Ref 结构的方法内部使用 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -87,16 +87,16 @@ public int get()
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

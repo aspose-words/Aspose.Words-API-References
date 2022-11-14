@@ -1,6 +1,6 @@
 ---
 title: BaseWebExtensionCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 和集合的基类。
 type: docs
 weight: 27
@@ -16,7 +16,7 @@ java.lang.Iterable
 public abstract class BaseWebExtensionCollection implements Iterable
 ```
 
-基类[TaskPaneCollection](../../com.aspose.words/taskpanecollection), [WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection), [WebExtensionPropertyCollection](../../com.aspose.words/webextensionpropertycollection)和[WebExtensionReferenceCollection](../../com.aspose.words/webextensionreferencecollection)收藏品。
+基类为[TaskPaneCollection](../../com.aspose.words/taskpanecollection), [WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection), [WebExtensionPropertyCollection](../../com.aspose.words/webextensionpropertycollection)和[WebExtensionReferenceCollection](../../com.aspose.words/webextensionreferencecollection)收藏品。
 
 要了解更多信息，请访问**Work with Office Add-ins**文档文章。
 ## 构造函数
@@ -31,7 +31,7 @@ public abstract class BaseWebExtensionCollection implements Iterable
 | [clear()](#clear--) | 从集合中移除所有元素。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 获取指定索引处的项目。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中包含的元素数。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 返回一个可以遍历集合的枚举器。 |
@@ -86,16 +86,16 @@ public Object get(int index)
 
 **退货:**
 java.lang.Object - 指定索引处的项目。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

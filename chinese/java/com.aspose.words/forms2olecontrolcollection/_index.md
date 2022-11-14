@@ -1,6 +1,6 @@
 ---
 title: Forms2OleControlCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示对象的集合。
 type: docs
 weight: 299
@@ -22,7 +22,7 @@ public class Forms2OleControlCollection
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 获取[Forms2OleControl](../../com.aspose.words/forms2olecontrol)指定索引处的对象。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中对象的计数。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -61,16 +61,16 @@ public Forms2OleControl get(int index)
 
 **退货:**
 [Forms2OleControl](../../com.aspose.words/forms2olecontrol) -\{[Forms2OleControl](../../com.aspose.words/forms2olecontrol)指定索引处的对象。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -80,7 +80,7 @@ public int getCount()
 获取集合中对象的计数。
 
 **退货:**
-int - 集合中的对象计数。
+int - 集合中对象的计数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

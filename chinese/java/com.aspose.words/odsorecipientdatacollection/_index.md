@@ -1,6 +1,6 @@
 ---
 title: OdsoRecipientDataCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 类型化的集合
 type: docs
 weight: 417
@@ -24,17 +24,17 @@ public class OdsoRecipientDataCollection implements Iterable
 | 方法 | 描述 |
 | --- | --- |
 | [add(OdsoRecipientData value)](#add-com.aspose.words.OdsoRecipientData-) | 将对象添加到此集合的末尾。 |
-| [clear()](#clear--) | 从此集合中删除所有元素。 |
+| [clear()](#clear--) | 从此集合中移除所有元素。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 获取此集合中的项目。 |
-| [get班级()](#get班级--) |  |
+| [get(int index)](#get-int-) | 获取此集合中的一项。 |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中包含的元素数。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | 移除指定索引处的元素。 |
-| [set(int index, OdsoRecipientData value)](#set-int-com.aspose.words.OdsoRecipientData-) | 设置此集合中的项目。 |
+| [removeAt(int index)](#removeAt-int-) | 删除指定索引处的元素。 |
+| [set(int index, OdsoRecipientData value)](#set-int-com.aspose.words.OdsoRecipientData-) | 在此集合中设置一个项目。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -60,7 +60,7 @@ public void clear()
 ```
 
 
-从此集合中删除所有元素。
+从此集合中移除所有元素。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -83,7 +83,7 @@ public OdsoRecipientData get(int index)
 ```
 
 
-获取此集合中的项目。
+获取此集合中的一项。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -91,17 +91,17 @@ public OdsoRecipientData get(int index)
 | index | int |  |
 
 **退货:**
-[OdsoRecipientData](../../com.aspose.words/odsorecipientdata) - 此集合中的一个项目。
-### get班级() {#get班级--}
+[OdsoRecipientData](../../com.aspose.words/odsorecipientdata) - 此系列中的一个项目。
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -154,7 +154,7 @@ public void removeAt(int index)
 ```
 
 
-移除指定索引处的元素。
+删除指定索引处的元素。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -167,7 +167,7 @@ public void set(int index, OdsoRecipientData value)
 ```
 
 
-设置此集合中的项目。
+在此集合中设置一个项目。
 
 **参数:**
 | 范围 | 类型 | 描述 |

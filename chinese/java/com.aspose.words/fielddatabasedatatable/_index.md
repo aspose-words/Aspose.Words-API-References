@@ -1,6 +1,6 @@
 ---
-title: 字段DatabaseDataTable
-second_title: Aspose.Words for Java API Reference
+title: FieldDatabaseDataTable
+second_title: Aspose.Words for Java API 参考
 description: 为字段结果提供数据。
 type: docs
 weight: 176
@@ -10,24 +10,24 @@ url: /zh/java/com.aspose.words/fielddatabasedatatable/
 **遗产:**
 java.lang.Object
 ```
-public class 字段DatabaseDataTable
+public class FieldDatabaseDataTable
 ```
 
-提供数据为[字段Database](../../com.aspose.words/fielddatabase)场结果。
+提供数据为[FieldDatabase](../../com.aspose.words/fielddatabase)场结果。
 
 要了解更多信息，请访问**Working with 字段**文档文章。
 ## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [字段DatabaseDataTable(String[] columnNames)](#字段DatabaseDataTable-java.lang.String...-) | 初始化一个新的实例[字段DatabaseDataTable](../../com.aspose.words/fielddatabasedatatable)班级。 |
+| [FieldDatabaseDataTable(String[] columnNames)](#FieldDatabaseDataTable-java.lang.String...-) | 初始化一个新的实例[FieldDatabaseDataTable](../../com.aspose.words/fielddatabasedatatable)班级。 |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [createFrom(System.Data.DataTable dataTable)](#createFrom-com.aspose.words.net.System.Data.DataTable-) | 初始化一个新的实例[字段DatabaseDataTable](../../com.aspose.words/fielddatabasedatatable)类从[DataTable](../../com.aspose.words.net.system.data/datatable)实例。 |
+| [createFrom(System.Data.DataTable dataTable)](#createFrom-com.aspose.words.net.System.Data.DataTable-) | 初始化一个新的实例[FieldDatabaseDataTable](../../com.aspose.words/fielddatabasedatatable)类从[DataTable](../../com.aspose.words.net.system.data/datatable)实例。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getColumnNames()](#getColumnNames--) | 获取属于该表的列。 |
 | [getRows()](#getRows--) | 获取属于该表的行。 |
 | [hashCode()](#hashCode--) |  |
@@ -37,13 +37,13 @@ public class 字段DatabaseDataTable
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### 字段DatabaseDataTable(String[] columnNames) {#字段DatabaseDataTable-java.lang.String...-}
+### FieldDatabaseDataTable(String[] columnNames) {#FieldDatabaseDataTable-java.lang.String...-}
 ```
-public 字段DatabaseDataTable(String[] columnNames)
+public FieldDatabaseDataTable(String[] columnNames)
 ```
 
 
-初始化一个新的实例[字段DatabaseDataTable](../../com.aspose.words/fielddatabasedatatable)班级。
+初始化一个新的实例[FieldDatabaseDataTable](../../com.aspose.words/fielddatabasedatatable)班级。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -52,11 +52,11 @@ public 字段DatabaseDataTable(String[] columnNames)
 
 ### createFrom(System.Data.DataTable dataTable) {#createFrom-com.aspose.words.net.System.Data.DataTable-}
 ```
-public static 字段DatabaseDataTable createFrom(System.Data.DataTable dataTable)
+public static FieldDatabaseDataTable createFrom(System.Data.DataTable dataTable)
 ```
 
 
-初始化一个新的实例[字段DatabaseDataTable](../../com.aspose.words/fielddatabasedatatable)类从[DataTable](../../com.aspose.words.net.system.data/datatable)实例。
+初始化一个新的实例[FieldDatabaseDataTable](../../com.aspose.words/fielddatabasedatatable)类从[DataTable](../../com.aspose.words.net.system.data/datatable)实例。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -64,7 +64,7 @@ public static 字段DatabaseDataTable createFrom(System.Data.DataTable dataTable
 | dataTable | [DataTable](../../com.aspose.words.net.system.data/datatable) |  |
 
 **退货:**
-[字段DatabaseDataTable](../../com.aspose.words/fielddatabasedatatable)
+[FieldDatabaseDataTable](../../com.aspose.words/fielddatabasedatatable)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -80,16 +80,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getColumnNames() {#getColumnNames--}
 ```
 public String[] getColumnNames()

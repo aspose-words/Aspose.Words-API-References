@@ -1,7 +1,7 @@
 ---
 title: TabStopCollection
-second_title: Aspose.Words for Java API Reference
-description: 代表段落或样式的自定义选项卡的对象集合。
+second_title: Aspose.Words for Java API 参考
+description: 表示段落或样式的自定义选项卡的对象集合。
 type: docs
 weight: 547
 url: /zh/java/com.aspose.words/tabstopcollection/
@@ -16,13 +16,13 @@ java.lang.Cloneable
 public class TabStopCollection extends InternableComplexAttr implements Cloneable
 ```
 
-一个集合[TabStop](../../com.aspose.words/tabstop)代表段落或样式的自定义选项卡的对象。
+的集合[TabStop](../../com.aspose.words/tabstop)代表段落或样式的自定义选项卡的对象。
 
 要了解更多信息，请访问**Aspose.Words Document Object Model (DOM)**文档文章。
 
-在 Microsoft Word 文档中，可以在段落样式的属性中或直接在段落的属性中定义制表位。一种风格可以基于另一种风格。因此，给定对象的完整制表位集是直接在该对象上定义的制表位和从父样式继承的制表位的组合。
+在 Microsoft Word 文档中，可以在段落样式的属性中或直接在段落的属性中定义制表位。一种风格可以基于另一种风格。因此，给定对象的完整制表位集是直接在此对象上定义的制表位和从父样式继承的制表位的组合。
 
-在 Aspose.Words 中，当您获得**TabStops**段落或样式的集合，它仅包含直接为此段落或样式定义的自定义制表位。该集合不包括在父样式中定义的制表位或默认制表位。
+在 Aspose.Words 中，当你获得一个**TabStops**段落或样式的集合，它仅包含直接为此段落或样式定义的自定义制表位。该集合不包括在父样式中定义的制表位或默认制表位。
 ## 方法
 
 | 方法 | 描述 |
@@ -36,7 +36,7 @@ public class TabStopCollection extends InternableComplexAttr implements Cloneabl
 | [equals(Object obj)](#equals-java.lang.Object-) | 确定指定对象的值是否与当前对象相等。 |
 | [get(double position)](#get-double-) | 获取指定位置的制表位。 |
 | [get(int index)](#get-int-) | 从集合中检索制表位。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中的制表位数。 |
 | [getIndexByPosition(double position)](#getIndexByPosition-double-) | 获取具有指定位置的制表位的索引（以磅为单位）。 |
 | [getPositionByIndex(int index)](#getPositionByIndex-int-) | 获取指定索引处制表位的位置（以磅为单位）。 |
@@ -182,16 +182,16 @@ public TabStop get(int index)
 
 **退货:**
 [TabStop](../../com.aspose.words/tabstop) - 相应的[TabStop](../../com.aspose.words/tabstop)价值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

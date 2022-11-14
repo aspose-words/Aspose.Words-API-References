@@ -1,6 +1,6 @@
 ---
 title: ChapterPageSeparator
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 定义出现在章节和页码之间的分隔符。
 type: docs
 weight: 54
@@ -16,7 +16,7 @@ public class ChapterPageSeparator
 定义出现在章节和页码之间的分隔符。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [COLON](#COLON) | 一个冒号。 |
 | [EM_DASH](#EM-DASH) | 强调的破折号。 |
@@ -30,7 +30,7 @@ public class ChapterPageSeparator
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String chapterPageSeparatorName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int chapterPageSeparator)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -117,16 +117,16 @@ public static int fromName(String chapterPageSeparatorName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int chapterPageSeparator) {#getName-int-}
 ```
 public static String getName(int chapterPageSeparator)

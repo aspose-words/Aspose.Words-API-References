@@ -1,7 +1,7 @@
 ---
 title: EmfPlusDualRenderingMode
-second_title: Aspose.Words for Java API Reference
-description: 指定 Aspose.Words 应如何呈现 EMF Dual 元文件。
+second_title: Aspose.Words for Java API 参考
+description: 指定 Aspose.Words 应如何呈现 EMF Dual 图元文件。
 type: docs
 weight: 143
 url: /zh/java/com.aspose.words/emfplusdualrenderingmode/
@@ -16,10 +16,10 @@ public class EmfPlusDualRenderingMode
 指定 Aspose.Words 应如何呈现 EMF+ Dual 元文件。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [EMF](#EMF) | Aspose.Words 呈现 EMF+ Dual 图元文件的 EMF 部分。 |
-| [EMF_PLUS](#EMF-PLUS) | Aspose.Words 呈现 EMF+ 双元文件的 EMF+ 部分。 |
+| [EMF_PLUS](#EMF-PLUS) | Aspose.Words 呈现 EMF+ EMF+ Dual 图元文件的一部分。 |
 | [EMF_PLUS_WITH_FALLBACK](#EMF-PLUS-WITH-FALLBACK) | Aspose.Words 尝试渲染 EMF+ Dual 图元文件的 EMF+ 部分。 |
 | [length](#length) |  |
 ## 方法
@@ -28,7 +28,7 @@ public class EmfPlusDualRenderingMode
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String emfPlusDualRenderingModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int emfPlusDualRenderingMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -53,7 +53,7 @@ public static int EMF_PLUS
 ```
 
 
-Aspose.Words 呈现 EMF+ 双元文件的 EMF+ 部分。
+Aspose.Words 呈现 EMF+ EMF+ Dual 图元文件的一部分。
 
 ### EMF_PLUS_WITH_FALLBACK {#EMF-PLUS-WITH-FALLBACK}
 ```
@@ -61,7 +61,7 @@ public static int EMF_PLUS_WITH_FALLBACK
 ```
 
 
-Aspose.Words 尝试渲染 EMF+ Dual 图元文件的 EMF+ 部分。如果不支持某些 EMF+ 记录，那么 Aspose.Words 会呈现 EMF+ Dual 图元文件的 EMF 部分。
+Aspose.Words 尝试渲染 EMF+ Dual 图元文件的 EMF+ 部分。如果不支持某些 EMF+ 记录，则 Aspose.Words 会呈现 EMF+ Dual 图元文件的 EMF 部分。
 
 ### length {#length}
 ```
@@ -99,16 +99,16 @@ public static int fromName(String emfPlusDualRenderingModeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int emfPlusDualRenderingMode) {#getName-int-}
 ```
 public static String getName(int emfPlusDualRenderingMode)

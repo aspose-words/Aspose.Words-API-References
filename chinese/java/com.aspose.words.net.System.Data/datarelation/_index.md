@@ -1,6 +1,6 @@
 ---
 title: DataRelation
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示两个对象之间的父/子关系。
 type: docs
 weight: 18
@@ -33,7 +33,7 @@ public class DataRelation
 | [getChildKeyConstraint()](#getChildKeyConstraint--) | 获取[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint)为关系。 |
 | [getChildTable()](#getChildTable--) | 获取此关系的子表。 |
 | [getChildTableName()](#getChildTableName--) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDataSet()](#getDataSet--) | 获取[DataSet](../../com.aspose.words.net.system.data/dataset)对哪个[DataRelation](../../com.aspose.words.net.system.data/datarelation)属于。 |
 | [getParentColumnNames()](#getParentColumnNames--) |  |
 | [getParentColumns()](#getParentColumns--) | 获取一个数组[DataColumn](../../com.aspose.words.net.system.data/datacolumn)作为 this 的父列的对象[DataRelation](../../com.aspose.words.net.system.data/datarelation). |
@@ -191,16 +191,16 @@ public String getChildTableName()
 
 **退货:**
 java.lang.String - 此 DataRelation 的子 DataTable 的名称。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDataSet() {#getDataSet--}
 ```
 public System.Data.DataSet getDataSet()

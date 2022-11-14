@@ -1,6 +1,6 @@
 ---
 title: AxisDisplayUnit
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 提供对数值轴显示单位的缩放选项的访问。
 type: docs
 weight: 20
@@ -24,7 +24,7 @@ public class AxisDisplayUnit implements Cloneable
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCustomUnit()](#getCustomUnit--) | 获取用户定义的除数以缩放值轴上的显示单位。 |
 | [getDocument()](#getDocument--) | 返回标题持有者所属的文档。 |
 | [getTitle()](#getTitle--) |  |
@@ -58,16 +58,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCustomUnit() {#getCustomUnit--}
 ```
 public double getCustomUnit()
@@ -78,10 +78,10 @@ public double getCustomUnit()
 
 MS Office 2016 新图表不支持该属性。默认值为 1。
 
-设置此属性会设置[getUnit()](../../com.aspose.words/axisdisplayunit\#getUnit--) / [setUnit(int)](../../com.aspose.words/axisdisplayunit\#setUnit-int-)财产[AxisBuiltInUnit.CUSTOM](../../com.aspose.words/axisbuiltinunit\#CUSTOM).
+设置此属性设置[getUnit()](../../com.aspose.words/axisdisplayunit\#getUnit--) / [setUnit(int)](../../com.aspose.words/axisdisplayunit\#setUnit-int-)财产给[AxisBuiltInUnit.CUSTOM](../../com.aspose.words/axisbuiltinunit\#CUSTOM).
 
 **退货:**
-double - 用户定义的除数，用于在值轴上缩放显示单位。
+double - 用户定义的除数，用于缩放值轴上的显示单位。
 ### getDocument() {#getDocument--}
 ```
 public DocumentBase getDocument()
@@ -131,7 +131,7 @@ public int getUnit()
 获取显示单位的缩放值作为预定义值之一。默认值为[AxisBuiltInUnit.NONE](../../com.aspose.words/axisbuiltinunit\#NONE).这[AxisBuiltInUnit.CUSTOM](../../com.aspose.words/axisbuiltinunit\#CUSTOM)和[AxisBuiltInUnit.PERCENTAGE](../../com.aspose.words/axisbuiltinunit\#PERCENTAGE)值在某些图表类型中不可用；看[AxisBuiltInUnit](../../com.aspose.words/axisbuiltinunit)了解更多信息。
 
 **退货:**
- int - 作为预定义值之一的显示单位的缩放值。返回值是以下之一[AxisBuiltInUnit](../../com.aspose.words/axisbuiltinunit)常数。
+ int - 作为预定义值之一的显示单位的缩放值。返回值是其中之一[AxisBuiltInUnit](../../com.aspose.words/axisbuiltinunit)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -178,7 +178,7 @@ public void setCustomUnit(double value)
 
 MS Office 2016 新图表不支持该属性。默认值为 1。
 
-设置此属性会设置[getUnit()](../../com.aspose.words/axisdisplayunit\#getUnit--) / [setUnit(int)](../../com.aspose.words/axisdisplayunit\#setUnit-int-)财产[AxisBuiltInUnit.CUSTOM](../../com.aspose.words/axisbuiltinunit\#CUSTOM).
+设置此属性设置[getUnit()](../../com.aspose.words/axisdisplayunit\#getUnit--) / [setUnit(int)](../../com.aspose.words/axisdisplayunit\#setUnit-int-)财产给[AxisBuiltInUnit.CUSTOM](../../com.aspose.words/axisbuiltinunit\#CUSTOM).
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -217,12 +217,12 @@ public void setUnit(int value)
 ```
 
 
-将显示单位的缩放值设置为预定义值之一。默认值为[AxisBuiltInUnit.NONE](../../com.aspose.words/axisbuiltinunit\#NONE).这[AxisBuiltInUnit.CUSTOM](../../com.aspose.words/axisbuiltinunit\#CUSTOM)和[AxisBuiltInUnit.PERCENTAGE](../../com.aspose.words/axisbuiltinunit\#PERCENTAGE)值在某些图表类型中不可用；看[AxisBuiltInUnit](../../com.aspose.words/axisbuiltinunit)了解更多信息。
+将显示单位的比例值设置为预定义值之一。默认值为[AxisBuiltInUnit.NONE](../../com.aspose.words/axisbuiltinunit\#NONE).这[AxisBuiltInUnit.CUSTOM](../../com.aspose.words/axisbuiltinunit\#CUSTOM)和[AxisBuiltInUnit.PERCENTAGE](../../com.aspose.words/axisbuiltinunit\#PERCENTAGE)值在某些图表类型中不可用；看[AxisBuiltInUnit](../../com.aspose.words/axisbuiltinunit)了解更多信息。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 显示单元的缩放值作为预定义值之一。该值必须是以下之一[AxisBuiltInUnit](../../com.aspose.words/axisbuiltinunit)常数。 |
+| value | int | 显示单位的缩放值作为预定义值之一。该值必须是其中之一[AxisBuiltInUnit](../../com.aspose.words/axisbuiltinunit)常数。 |
 
 ### toString() {#toString--}
 ```

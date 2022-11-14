@@ -1,7 +1,7 @@
 ---
 title: StyleCollection
-second_title: Aspose.Words for Java API Reference
-description: Style 对象的集合，表示文档中的内置样式和用户定义的样式。
+second_title: Aspose.Words for Java API 参考
+description: Style 对象的集合，表示文档中的内置样式和用户定义样式。
 type: docs
 weight: 537
 url: /zh/java/com.aspose.words/stylecollection/
@@ -16,7 +16,7 @@ java.lang.Cloneable, java.lang.Iterable
 public class StyleCollection implements Cloneable, Iterable
 ```
 
-Style 对象的集合，表示文档中的内置样式和用户定义的样式。
+Style 对象的集合，表示文档中的内置样式和用户定义样式。
 
 要了解更多信息，请访问**Working with Styles and Themes**文档文章。
 ## 方法
@@ -30,7 +30,7 @@ Style 对象的集合，表示文档中的内置样式和用户定义的样式�
 | [get(int index)](#get-int-) | 按索引获取样式。 |
 | [get(String name)](#get-java.lang.String-) | 从集合中检索样式。 |
 | [getByStyleIdentifier(int sti)](#getByStyleIdentifier-int-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中的样式数。 |
 | [getDefaultFont()](#getDefaultFont--) | 获取文档默认文本格式。 |
 | [getDefaultParagraphFormat()](#getDefaultParagraphFormat--) | 获取文档默认段落格式。 |
@@ -73,7 +73,7 @@ public Style addCopy(Style style)
 | style | [Style](../../com.aspose.words/style) | 要复制的样式。 |
 
 **退货:**
-[Style](../../com.aspose.words/style) - 复制样式可供使用。
+[Style](../../com.aspose.words/style) - 复制的样式可供使用。
 
 要复制的样式可以属于同一个文档，也可以属于不同的文档。
 
@@ -81,7 +81,7 @@ public Style addCopy(Style style)
 
 此方法不会复制基本样式。
 
-如果集合已经包含同名的样式，则通过添加“自动生成新名称”\_number”后缀，从 0 开始，例如“Normal”\_0", "标题 1\ _1" 等。使用[Style.getName()](../../com.aspose.words/style\#getName--) / [Style.setName(java.lang.String)](../../com.aspose.words/style\#setName-java.lang.String-)setter 用于更改导入样式的名称。
+如果集合已包含同名样式，则通过添加“自动生成新名称\_number" 后缀从 0 开始，例如 "Normal\_0", "标题 1\ _1" 等。使用[Style.getName()](../../com.aspose.words/style\#getName--) / [Style.setName(java.lang.String)](../../com.aspose.words/style\#setName-java.lang.String-)用于更改导入样式名称的设置器。
 ### clearQuickStyleGallery() {#clearQuickStyleGallery--}
 ```
 public void clearQuickStyleGallery()
@@ -119,7 +119,7 @@ public Style get(int index)
 | index | int |  |
 
 **退货:**
-[Style](../../com.aspose.words/style) - 按索引的样式。
+[Style](../../com.aspose.words/style) - 索引样式。
 ### get(String name) {#get-java.lang.String-}
 ```
 public Style get(String name)
@@ -130,7 +130,7 @@ public Style get(String name)
 
 区分大小写，如果未找到具有给定名称的样式，则返回 null。
 
-如果这是一个尚不存在的内置样式的英文名称，则自动创建它。
+如果这是尚不存在的内置样式的英文名称，则会自动创建它。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -154,16 +154,16 @@ public Style getByStyleIdentifier(int sti)
 
 **退货:**
 [Style](../../com.aspose.words/style)
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -207,7 +207,7 @@ public DocumentBase getDocument()
 获取所有者文档。
 
 **退货:**
-[DocumentBase](../../com.aspose.words/documentbase) - 所有者文件。
+[DocumentBase](../../com.aspose.words/documentbase) - 所有者文档。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

@@ -1,6 +1,6 @@
 ---
-title: 字段IndexFormat
-second_title: Aspose.Words for Java API Reference
+title: FieldIndexFormat
+second_title: Aspose.Words for Java API 参考
 description: 指定文档中字段的格式。
 type: docs
 weight: 207
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/fieldindexformat/
 **遗产:**
 java.lang.Object
 ```
-public class 字段IndexFormat
+public class FieldIndexFormat
 ```
 
-指定格式[字段Index](../../com.aspose.words/fieldindex)文档中的字段。
+指定格式[FieldIndex](../../com.aspose.words/fieldindex)文档中的字段。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BULLETED](#BULLETED) | 子弹头。 |
 | [CLASSIC](#CLASSIC) | 经典的。 |
@@ -32,7 +32,7 @@ public class 字段IndexFormat
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String fieldIndexFormatName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int fieldIndexFormat)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -135,16 +135,16 @@ public static int fromName(String fieldIndexFormatName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int fieldIndexFormat) {#getName-int-}
 ```
 public static String getName(int fieldIndexFormat)

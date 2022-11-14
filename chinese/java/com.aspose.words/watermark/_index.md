@@ -1,6 +1,6 @@
 ---
 title: Watermark
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示使用文档水印的类。
 type: docs
 weight: 608
@@ -21,8 +21,8 @@ public class Watermark
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [get类型()](#get类型--) | 获取水印类型。 |
+| [getClass()](#getClass--) |  |
+| [getType()](#getType--) | 获取水印类型。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -51,26 +51,26 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### get类型() {#get类型--}
+java.lang.Class<?>
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
 获取水印类型。
 
 **退货:**
- int - 水印类型。返回值是以下之一[Watermark类型](../../com.aspose.words/watermarktype)常数。
+ int - 水印类型。返回值是以下之一[WatermarkType](../../com.aspose.words/watermarktype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

@@ -1,6 +1,6 @@
 ---
 title: ImageWatermarkOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 包含在添加带有图像的水印时可以指定的选项。
 type: docs
 weight: 344
@@ -21,7 +21,7 @@ public class ImageWatermarkOptions
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getScale()](#getScale--) | 获取表示为图像分数的比例因子。 |
 | [hashCode()](#hashCode--) |  |
 | [isWashout()](#isWashout--) | 获取一个布尔值，该值负责水印的冲刷效果。 |
@@ -48,16 +48,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getScale() {#getScale--}
 ```
 public double getScale()

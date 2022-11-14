@@ -1,7 +1,7 @@
 ---
 title: ReportingEngine
-second_title: Aspose.Words for Java API Reference
-description: 提供例程来使用数据填充模板文档和一组设置来控制这些例程。
+second_title: Aspose.Words for Java API 参考
+description: 提供用数据填充模板文档的例程和一组控制这些例程的设置。
 type: docs
 weight: 478
 url: /zh/java/com.aspose.words/reportingengine/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ReportingEngine
 ```
 
-提供例程来使用数据填充模板文档和一组设置来控制这些例程。
+提供用数据填充模板文档的例程和一组控制这些例程的设置。
 
 要了解更多信息，请访问**LINQ Reporting Engine**文档文章。
 ## 构造函数
@@ -25,19 +25,19 @@ public class ReportingEngine
 
 | 方法 | 描述 |
 | --- | --- |
-| [buildReport(Document document, Object dataSource)](#buildReport-com.aspose.words.Document-java.lang.Object-) | 使用来自指定源的数据填充指定的模板文档，使其成为准备好的报告。 |
-| [buildReport(Document document, Object dataSource, String dataSourceName)](#buildReport-com.aspose.words.Document-java.lang.Object-java.lang.String-) | 使用来自指定源的数据填充指定的模板文档，使其成为准备好的报告。 |
-| [buildReport(Document document, Object[] dataSources, String[] dataSourceNames)](#buildReport-com.aspose.words.Document-java.lang.Object---java.lang.String---) | 使用来自指定来源的数据填充指定的模板文档，使其成为准备好的报告。 |
+| [buildReport(Document document, Object dataSource)](#buildReport-com.aspose.words.Document-java.lang.Object-) | 使用来自指定源的数据填充指定的模板文档，使其成为现成的报告。 |
+| [buildReport(Document document, Object dataSource, String dataSourceName)](#buildReport-com.aspose.words.Document-java.lang.Object-java.lang.String-) | 使用来自指定源的数据填充指定的模板文档，使其成为现成的报告。 |
+| [buildReport(Document document, Object[] dataSources, String[] dataSourceNames)](#buildReport-com.aspose.words.Document-java.lang.Object---java.lang.String---) | 使用来自指定源的数据填充指定的模板文档，使其成为现成的报告。 |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getKnown类型s()](#getKnown类型s--) | 获取一个无序集（即 |
+| [getClass()](#getClass--) |  |
+| [getKnownTypes()](#getKnownTypes--) | 获取无序集（即 |
 | [getOptions()](#getOptions--) | 获取一组控制此行为的标志[ReportingEngine](../../com.aspose.words/reportingengine)构建报告时的实例。 |
 | [getUseReflectionOptimization()](#getUseReflectionOptimization--) | 获取一个值，该值指示通过反射 API 执行的自定义类型成员的调用是否使用动态类生成进行了优化。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setOptions(int value)](#setOptions-int-) | 设置一组控制此行为的标志[ReportingEngine](../../com.aspose.words/reportingengine)构建报告时的实例。 |
-| [setUseReflectionOptimization(boolean value)](#setUseReflectionOptimization-boolean-) | 设置一个值，该值指示通过反射 API 执行的自定义类型成员的调用是否使用动态类生成进行了优化。 |
+| [setUseReflectionOptimization(boolean value)](#setUseReflectionOptimization-boolean-) | 设置一个值，指示是否使用动态类生成优化通过反射 API 执行的自定义类型成员的调用。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -56,7 +56,7 @@ public boolean buildReport(Document document, Object dataSource)
 ```
 
 
-使用来自指定源的数据填充指定的模板文档，使其成为准备好的报告。
+使用来自指定源的数据填充指定的模板文档，使其成为现成的报告。
 
 使用此重载，您可以在模板文档中引用数据源的成员，但不能引用数据源对象本身。你应该使用[buildReport(com.aspose.words.Document, java.lang.Object, java.lang.String)](../../com.aspose.words/reportingengine\#buildReport-com.aspose.words.Document--java.lang.Object--java.lang.String-)超载来实现这一点。
 
@@ -90,7 +90,7 @@ public boolean buildReport(Document document, Object dataSource, String dataSour
 ```
 
 
-使用来自指定源的数据填充指定的模板文档，使其成为准备好的报告。
+使用来自指定源的数据填充指定的模板文档，使其成为现成的报告。
 
 使用此重载，您可以在模板中引用数据源的成员和数据源对象本身。如果您不打算引用数据源对象本身，则可以省略传递 null 的 dataSourceName 或使用[buildReport(com.aspose.words.Document, java.lang.Object)](../../com.aspose.words/reportingengine\#buildReport-com.aspose.words.Document--java.lang.Object-)超载。
 
@@ -125,7 +125,7 @@ public boolean buildReport(Document document, Object[] dataSources, String[] dat
 ```
 
 
-使用来自指定来源的数据填充指定的模板文档，使其成为准备好的报告。
+使用来自指定源的数据填充指定的模板文档，使其成为现成的报告。
 
 使用此重载，您可以在模板中引用多个数据源对象及其成员。如果您要引用数据源的成员而不是数据源对象本身，则可以省略第一个数据源的名称（即为空字符串或 null）。其他数据源的名称必须指定且唯一。
 
@@ -171,26 +171,26 @@ public boolean equals(Object obj)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getKnown类型s() {#getKnown类型s--}
+java.lang.Class<?>
+### getKnownTypes() {#getKnownTypes--}
 ```
-public Known类型Set getKnown类型s()
+public KnownTypeSet getKnownTypes()
 ```
 
 
-获取包含 java.lang.班级 对象的无序集（即唯一项的集合），这些对象的完全或部分限定名称可在此引擎实例处理的报告模板中使用，以调用相应类型的静态成员、执行类型转换等.
+获取包含 java.lang.Class 对象的无序集（即唯一项的集合），这些对象的完全或部分限定名称可在此引擎实例处理的报告模板中使用，以调用相应类型的静态成员、执行类型转换等.
 
 **退货:**
-[Known类型Set](../../com.aspose.words/knowntypeset) - 一个无序集（即
+[KnownTypeSet](../../com.aspose.words/knowntypeset) - 一个无序集（即
 ### getOptions() {#getOptions--}
 ```
 public int getOptions()
@@ -207,7 +207,7 @@ public static boolean getUseReflectionOptimization()
 ```
 
 
-获取一个值，该值指示通过反射 API 执行的自定义类型成员的调用是否使用动态类生成进行了优化。默认值是true。在某些情况下，最好禁用此优化。例如，如果您一直在处理小型数据项集合，那么动态类生成的开销可能比直接反射 API 调用的开销更明显。该选项在 iOS 上运行且不使用反射优化时无效。
+获取一个值，该值指示通过反射 API 执行的自定义类型成员的调用是否使用动态类生成进行了优化。默认值是true。在某些情况下，最好禁用此优化。例如，如果您一直在处理小型数据项集合，那么动态类生成的开销可能比直接反射 API 调用的开销更明显。在 iOS 上运行且未使用反射优化时，该选项无效。
 
 **退货:**
 boolean - 一个值，指示通过反射 API 执行的自定义类型成员的调用是否使用动态类生成进行了优化。
@@ -248,7 +248,7 @@ public void setOptions(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 一组控制此行为的标志[ReportingEngine](../../com.aspose.words/reportingengine)构建报告时的实例。该值必须是按位组合[ReportBuildOptions](../../com.aspose.words/reportbuildoptions)常数。 |
+| value | int | 一组控制此行为的标志[ReportingEngine](../../com.aspose.words/reportingengine)构建报告时的实例。该值必须是按位组合的[ReportBuildOptions](../../com.aspose.words/reportbuildoptions)常数。 |
 
 ### setUseReflectionOptimization(boolean value) {#setUseReflectionOptimization-boolean-}
 ```

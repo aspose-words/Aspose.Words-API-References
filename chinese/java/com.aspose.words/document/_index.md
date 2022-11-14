@@ -1,6 +1,6 @@
 ---
 title: Document
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示 Word 文档。
 type: docs
 weight: 120
@@ -17,9 +17,9 @@ public class Document extends DocumentBase
 
 要了解更多信息，请访问**Working with Document**文档文章。
 
-这**Document**是 Aspose.Words 库中的中心对象。
+这**Document**是 Aspose.Words 库中的核心对象。
 
-将现有文档加载到任何[LoadFormat](../../com.aspose.words/loadformat)格式，将文件名或流传递到其中一个**Document**构造函数。要创建空白文档，请调用不带参数的构造函数。
+以任何方式加载现有文档[LoadFormat](../../com.aspose.words/loadformat)格式，将文件名或流传递到其中一个**Document**构造函数。要创建空白文档，请调用不带参数的构造函数。
 
 使用 Save 方法重载之一将文档保存在任何[SaveFormat](../../com.aspose.words/saveformat)格式。
 
@@ -34,7 +34,7 @@ public class Document extends DocumentBase
 这**Document**是包含文档所有其他节点的树的根节点。树是一种复合设计模式，在许多方面类似于 XmlDocument。可以通过编程方式自由操作文档的内容：
 
  *  可以通过类型化集合访问文档的节点，例如[getSections()](../../com.aspose.words/document\#getSections--), [ParagraphCollection](../../com.aspose.words/paragraphcollection)等等
- *  文档的节点可以使用它们的节点类型来选择**M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.Node类型,System.Boolean)**或使用 XPath 查询[CompositeNode.selectNodes(java.lang.String)](../../com.aspose.words/compositenode\#selectNodes-java.lang.String-)或者[CompositeNode.selectSingleNode(java.lang.String)](../../com.aspose.words/compositenode\#selectSingleNode-java.lang.String-).
+ *  文档的节点可以使用它们的节点类型来选择**M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)**或使用 XPath 查询[CompositeNode.selectNodes(java.lang.String)](../../com.aspose.words/compositenode\#selectNodes-java.lang.String-)或者[CompositeNode.selectSingleNode(java.lang.String)](../../com.aspose.words/compositenode\#selectSingleNode-java.lang.String-).
  *  可以使用在文档中的任何位置添加或删除内容节点[CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertBefore-com.aspose.words.Node--com.aspose.words.Node-), [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertAfter-com.aspose.words.Node--com.aspose.words.Node-), [CompositeNode.removeChild(com.aspose.words.Node)](../../com.aspose.words/compositenode\#removeChild-com.aspose.words.Node-)以及基类提供的其他方法[CompositeNode](../../com.aspose.words/compositenode).
  *  每个节点的格式属性可以通过该节点的属性进行更改。
 
@@ -72,29 +72,29 @@ public class Document extends DocumentBase
 | [dd()](#dd--) |  |
 | [deepClone()](#deepClone--) | 执行深拷贝[Document](../../com.aspose.words/document). |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | 创建节点的副本。 |
-| [ensureMinimum()](#ensureMinimum--) | 如果文档不包含任何部分，则创建一个包含一个段落的部分。 |
+| [ensureMinimum()](#ensureMinimum--) | 如果文档不包含节，则创建一个节和一个段落。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [expandTableStylesToDirectFormatting()](#expandTableStylesToDirectFormatting--) | 将表格样式中指定的格式转换为文档中表格的直接格式。 |
 | [extractPages(int index, int count)](#extractPages-int-int-) | 返回[Document](../../com.aspose.words/document)表示指定页面范围的对象。 |
 | [fetchInheritedSectionAttr(int key)](#fetchInheritedSectionAttr-int-) |  |
 | [fetchSectionAttr(int key)](#fetchSectionAttr-int-) |  |
 | [get()](#get--) |  |
-| [getAncestor(int ancestor类型)](#getAncestor-int-) |  |
-| [getAncestor(班级 ancestor类型)](#getAncestor-java.lang.班级-) | 获取指定对象类型的第一个祖先。 |
+| [getAncestor(int ancestorType)](#getAncestor-int-) |  |
+| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class-) | 获取指定对象类型的第一个祖先。 |
 | [getAttachedTemplate()](#getAttachedTemplate--) | 获取附加到文档的模板的完整路径。 |
-| [getAutomaticallyUpdateStyles()](#getAutomaticallyUpdateStyles--) | 获取一个标志，指示每次在 MS Word 中打开文档时是否更新文档中的样式以匹配附加模板中的样式。 |
+| [getAutomaticallyUpdateStyles()](#getAutomaticallyUpdateStyles--) | 获取一个标志，指示每次在 MS Word 中打开文档时，文档中的样式是否更新以匹配附加模板中的样式。 |
 | [getBackgroundShape()](#getBackgroundShape--) | 获取文档的背景形状。 |
 | [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties--) | 返回一个集合，该集合表示文档的所有内置文档属性。 |
-| [getChild(int node类型, int index, boolean isDeep)](#getChild-int-int-boolean-) |  |
+| [getChild(int nodeType, int index, boolean isDeep)](#getChild-int-int-boolean-) |  |
 | [getChildNodes()](#getChildNodes--) | 获取此节点的所有直接子节点。 |
-| [getChildNodes(int node类型, boolean isDeep)](#getChildNodes-int-boolean-) |  |
-| [get班级()](#get班级--) |  |
+| [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean-) |  |
+| [getClass()](#getClass--) |  |
 | [getCompatibilityOptions()](#getCompatibilityOptions--) | 提供对文档兼容性选项的访问（即，在**Compatibility**的选项卡**Options**Word 中的对话框）。 |
 | [getCompliance()](#getCompliance--) | 获取根据加载的文档内容确定的 OOXML 合规性版本。 |
 | [getContainer()](#getContainer--) |  |
 | [getCount()](#getCount--) | 获取此节点的直接子节点数。 |
 | [getCurrentNode()](#getCurrentNode--) |  |
-| [getCustomDocumentProperties()](#getCustomDocumentProperties--) | 返回一个集合，该集合表示文档的所有自定义文档属性。 |
+| [getCustomDocumentProperties()](#getCustomDocumentProperties--) | 返回表示文档的所有自定义文档属性的集合。 |
 | [getCustomNodeId()](#getCustomNodeId--) | 指定自定义节点标识符。 |
 | [getCustomXmlParts()](#getCustomXmlParts--) | 获取自定义 XML 数据存储部件的集合。 |
 | [getDefaultTabStop()](#getDefaultTabStop--) | 获取默认制表位之间的间隔（以磅为单位）。 |
@@ -102,53 +102,53 @@ public class Document extends DocumentBase
 | [getDirectSectionAttr(int key)](#getDirectSectionAttr-int-) |  |
 | [getDocument()](#getDocument--) |  |
 | [getEndnoteOptions()](#getEndnoteOptions--) | 提供控制本文档中尾注编号和位置的选项。 |
-| [get字段Options()](#get字段Options--) | 得到一个**字段Options**表示用于控制文档中的字段处理的选项的对象。 |
+| [getFieldOptions()](#getFieldOptions--) | 得到一个**FieldOptions**表示控制文档中字段处理的选项的对象。 |
 | [getFirstChild()](#getFirstChild--) | 获取节点的第一个子节点。 |
 | [getFirstSection()](#getFirstSection--) | 获取文档中的第一部分。 |
 | [getFontInfos()](#getFontInfos--) | 提供对本文档中使用的字体属性的访问。 |
 | [getFontSettings()](#getFontSettings--) | 获取文档字体设置。 |
-| [getFootnoteOptions()](#getFootnoteOptions--) | 提供控制本文档中脚注的编号和位置的选项。 |
-| [getFrameset()](#getFrameset--) | 返回一个[getFrameset()](../../com.aspose.words/document\#getFrameset--)例如，如果此文档表示一个框架页面。 |
+| [getFootnoteOptions()](#getFootnoteOptions--) | 提供控制本文档中脚注编号和位置的选项。 |
+| [getFrameset()](#getFrameset--) | 返回一个[getFrameset()](../../com.aspose.words/document\#getFrameset--)例如，如果此文档代表一个框架页面。 |
 | [getGlossaryDocument()](#getGlossaryDocument--) | 获取此文档或模板中的词汇表文档。 |
 | [getGrammarChecked()](#getGrammarChecked--) | 退货**true**如果文档已经过语法检查。 |
 | [getHyphenationOptions()](#getHyphenationOptions--) | 提供对文档断字选项的访问。 |
 | [getLastChild()](#getLastChild--) | 获取节点的最后一个子节点。 |
-| [getLastSection()](#getLastSection--) | 获取文档中的最后一部分。 |
-| [getLayoutOptions()](#getLayoutOptions--) | 得到一个**LayoutOptions**表示用于控制此文档的布局过程的选项的对象。 |
+| [getLastSection()](#getLastSection--) | 获取文档中的最后一节。 |
+| [getLayoutOptions()](#getLayoutOptions--) | 得到一个**LayoutOptions**表示控制此文档布局过程的选项的对象。 |
 | [getLists()](#getLists--) | 提供对文档中使用的列表格式的访问。 |
 | [getMailMerge()](#getMailMerge--) | 返回一个**MailMerge**表示文档的邮件合并功能的对象。 |
 | [getMailMergeSettings()](#getMailMergeSettings--) | 获取包含文档的所有邮件合并信息的对象。 |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node-) |  |
 | [getNextSibling()](#getNextSibling--) | 获取紧跟此节点的节点。 |
 | [getNodeChangingCallback()](#getNodeChangingCallback--) | 在文档中插入或删除节点时调用。 |
-| [getNode类型()](#getNode类型--) | 退货**Node类型.Document**. |
+| [getNodeType()](#getNodeType--) | 退货**NodeType.Document**. |
 | [getOriginalFileName()](#getOriginalFileName--) | 获取文档的原始文件名。 |
 | [getOriginalLoadFormat()](#getOriginalLoadFormat--) | 获取加载到此对象中的原始文档的格式。 |
-| [get包裹CustomParts()](#get包裹CustomParts--) | 获取使用“未知关系”链接到 OOXML 包的自定义部件（任意内容）的集合。 |
+| [getPackageCustomParts()](#getPackageCustomParts--) | 获取使用“未知关系”链接到 OOXML 包的自定义部件（任意内容）的集合。 |
 | [getPageColor()](#getPageColor--) | 获取文档的页面颜色。 |
 | [getPageCount()](#getPageCount--) | 获取由最近的页面布局操作计算的文档中的页数。 |
 | [getPageInfo(int pageIndex)](#getPageInfo-int-) | 获取可能对打印或呈现有用的页面的页面大小、方向和其他信息。 |
 | [getParentNode()](#getParentNode--) | 获取此节点的直接父节点。 |
 | [getPreviousSibling()](#getPreviousSibling--) | 获取紧接在此节点之前的节点。 |
-| [getProtection类型()](#getProtection类型--) | 获取当前活动的文档保护类型。 |
+| [getProtectionType()](#getProtectionType--) | 获取当前活动的文档保护类型。 |
 | [getRange()](#getRange--) | 返回一个**Range**表示包含在此节点中的文档部分的对象。 |
 | [getRemovePersonalInformation()](#getRemovePersonalInformation--) | 获取一个标志，表明 Microsoft Word 将在保存文档时从注释、修订和文档属性中删除所有用户信息。 |
-| [getResourceLoadingCallback()](#getResourceLoadingCallback--) | 允许控制如何加载外部资源。 |
-| [getRevisions()](#getRevisions--) | 获取此文档中存在的修订（跟踪的更改）的集合。 |
+| [getResourceLoadingCallback()](#getResourceLoadingCallback--) | 允许控制外部资源的加载方式。 |
+| [getRevisions()](#getRevisions--) | 获取此文档中存在的修订（跟踪更改）的集合。 |
 | [getRevisionsView()](#getRevisionsView--) | 获取一个值，该值指示是使用文档的原始版本还是修订版本。 |
 | [getSections()](#getSections--) | 返回代表文档中所有部分的集合。 |
-| [getShadeFormData()](#getShadeFormData--) | 指定是否打开表单域的灰色阴影。 |
+| [getShadeFormData()](#getShadeFormData--) | 指定是否打开表单域的灰色底纹。 |
 | [getShowGrammaticalErrors()](#getShowGrammaticalErrors--) | 指定是否在此文档中显示语法错误。 |
 | [getShowSpellingErrors()](#getShowSpellingErrors--) | 指定是否在此文档中显示拼写错误。 |
 | [getSpellingChecked()](#getSpellingChecked--) | 退货**true**如果文档已经过拼写检查。 |
 | [getStyles()](#getStyles--) | 返回文档中定义的样式集合。 |
 | [getText()](#getText--) | 获取此节点及其所有子节点的文本。 |
 | [getTheme()](#getTheme--) | 获取[getTheme()](../../com.aspose.words/document\#getTheme--)本文档的对象。 |
-| [getTrackRevisions()](#getTrackRevisions--) | **True**如果在 Microsoft Word 中编辑此文档时跟踪更改。 |
+| [getTrackRevisions()](#getTrackRevisions--) | **True**在 Microsoft Word 中编辑此文档时是否跟踪更改。 |
 | [getVariables()](#getVariables--) | 返回添加到文档或模板的变量集合。 |
 | [getVbaProject()](#getVbaProject--) | 得到一个[getVbaProject()](../../com.aspose.words/document\#getVbaProject--) / [setVbaProject(com.aspose.words.VbaProject)](../../com.aspose.words/document\#setVbaProject-com.aspose.words.VbaProject-). |
 | [getVersionsCount()](#getVersionsCount--) | 获取存储在 DOC 文档中的文档版本数。 |
-| [getViewOptions()](#getViewOptions--) | 提供用于控制文档在 Microsoft Word 中的显示方式的选项。 |
+| [getViewOptions()](#getViewOptions--) | 提供选项以控制文档在 Microsoft Word 中的显示方式。 |
 | [getWarningCallback()](#getWarningCallback--) | 当检测到可能导致数据或格式保真度丢失的问题时，在各种文档处理过程中调用。 |
 | [getWatermark()](#getWatermark--) | 提供对文档水印的访问。 |
 | [getWebExtensionTaskPanes()](#getWebExtensionTaskPanes--) | 返回表示任务窗格加载项列表的集合。 |
@@ -160,14 +160,14 @@ public class Document extends DocumentBase
 | [importNode(Node srcNode, boolean isImportChildren)](#importNode-com.aspose.words.Node-boolean-) | 将节点从另一个文档导入到当前文档。 |
 | [importNode(Node srcNode, boolean isImportChildren, int importFormatMode)](#importNode-com.aspose.words.Node-boolean-int-) |  |
 | [indexOf(Node child)](#indexOf-com.aspose.words.Node-) | 返回子节点数组中指定子节点的索引。 |
-| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的参考节点之后立即插入指定的节点。 |
-| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的参考节点之前插入指定的节点。 |
+| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的引用节点之后立即插入指定的节点。 |
+| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node-) | 将指定节点插入到紧靠指定引用节点之前。 |
 | [isComposite()](#isComposite--) | 返回 true，因为此节点可以有子节点。 |
-| [iterator()](#iterator--) | 为在此节点的子节点上的每个样式迭代提供支持。 |
+| [iterator()](#iterator--) | 为该节点的子节点上的每个样式迭代提供支持。 |
 | [joinRunsWithSameFormatting()](#joinRunsWithSameFormatting--) | 连接在文档的所有段落中以相同的格式运行。 |
 | [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取下一个节点。 |
-| [node类型ToString(int node类型)](#node类型ToString-int-) |  |
-| [normalize字段类型s()](#normalize字段类型s--) | 更改字段类型值[字段Char.get字段类型()](../../com.aspose.words/fieldchar\#get字段类型--)的[字段Start](../../com.aspose.words/fieldstart), [字段Separator](../../com.aspose.words/fieldseparator), [字段End](../../com.aspose.words/fieldend)在整个文档中，以便它们对应于域代码中包含的域类型。 |
+| [nodeTypeToString(int nodeType)](#nodeTypeToString-int-) |  |
+| [normalizeFieldTypes()](#normalizeFieldTypes--) | 更改字段类型值[FieldChar.getFieldType()](../../com.aspose.words/fieldchar\#getFieldType--)的[FieldStart](../../com.aspose.words/fieldstart), [FieldSeparator](../../com.aspose.words/fieldseparator), [FieldEnd](../../com.aspose.words/fieldend)在整个文档中，以便它们对应于域代码中包含的域类型。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [prependChild(Node newChild)](#prependChild-com.aspose.words.Node-) | 将指定节点添加到此节点的子节点列表的开头。 |
@@ -175,26 +175,26 @@ public class Document extends DocumentBase
 | [print()](#print--) | 打印文档而不显示任何用户界面表单。 |
 | [print(String printerName)](#print-java.lang.String-) | 使用标准（无用户界面）打印控制器将整个文档打印到指定的打印机。 |
 | [print(AttributeSet printerSettings)](#print-javax.print.attribute.AttributeSet-) | 根据指定的打印机设置，使用标准（无用户界面）打印控制器打印文档。 |
-| [print(AttributeSet printerSettings, String documentName)](#print-javax.print.attribute.AttributeSet-java.lang.String-) | 根据指定的打印机设置，使用标准（无用户界面）打印控制器和文档名称打印文档。 |
+| [print(AttributeSet printerSettings, String documentName)](#print-javax.print.attribute.AttributeSet-java.lang.String-) | 根据指定的打印机设置打印文档，使用标准（无用户界面）打印控制器和文档名称。 |
 | [protect(int type)](#protect-int-) |  |
 | [protect(int type, String password)](#protect-int-java.lang.String-) |  |
 | [remove()](#remove--) |  |
 | [removeAllChildren()](#removeAllChildren--) | 移除当前节点的所有子节点。 |
-| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node-) | 移除指定的子节点。 |
-| [removeExternalSchemaReferences()](#removeExternalSchemaReferences--) | 从此文档中删除外部 XML 模式引用。 |
-| [removeMacros()](#removeMacros--) | 从文档中删除所有宏（VBA 项目）以及工具栏和命令自定义。 |
+| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node-) | 删除指定的子节点。 |
+| [removeExternalSchemaReferences()](#removeExternalSchemaReferences--) | 从此文档中删除外部 XML 架构引用。 |
+| [removeMacros()](#removeMacros--) | 从文档中删除所有宏（VBA 项目）以及工具栏和命令自定义项。 |
 | [removeSmartTags()](#removeSmartTags--) | 删除所有[SmartTag](../../com.aspose.words/smarttag)当前节点的后代节点。 |
-| [renderToScale(int pageIndex, Graphics2D graphics, float x, float y, float scale)](#renderToScale-int-java.awt.Graphics2D-float-float-float-) | 将文档页面渲染为指定比例的对象。 |
+| [renderToScale(int pageIndex, Graphics2D graphics, float x, float y, float scale)](#renderToScale-int-java.awt.Graphics2D-float-float-float-) | 将文档页面呈现为指定比例的对象。 |
 | [renderToSize(int pageIndex, Graphics2D graphics, float x, float y, float width, float height)](#renderToSize-int-java.awt.Graphics2D-float-float-float-float-) | 将文档页面呈现为指定大小的对象。 |
 | [save(OutputStream stream, SaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.words.SaveOptions-) |  |
 | [save(OutputStream stream, int saveFormat)](#save-java.io.OutputStream-int-) |  |
 | [save(String fileName)](#save-java.lang.String-) | 保存文档。 |
-| [save(String fileName, SaveOptions saveOptions)](#save-java.lang.String-com.aspose.words.SaveOptions-) | 使用指定的保存选项将文档保存到文件中。 |
+| [save(String fileName, SaveOptions saveOptions)](#save-java.lang.String-com.aspose.words.SaveOptions-) | 使用指定的保存选项将文档保存到文件。 |
 | [save(String fileName, int saveFormat)](#save-java.lang.String-int-) |  |
 | [selectNodes(String xpath)](#selectNodes-java.lang.String-) | 选择与 XPath 表达式匹配的节点列表。 |
 | [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String-) | 选择与 XPath 表达式匹配的第一个节点。 |
 | [setAttachedTemplate(String value)](#setAttachedTemplate-java.lang.String-) | 设置附加到文档的模板的完整路径。 |
-| [setAutomaticallyUpdateStyles(boolean value)](#setAutomaticallyUpdateStyles-boolean-) | 设置一个标志，指示每次在 MS Word 中打开文档时是否更新文档中的样式以匹配附加模板中的样式。 |
+| [setAutomaticallyUpdateStyles(boolean value)](#setAutomaticallyUpdateStyles-boolean-) | 设置一个标志，指示每次在 MS Word 中打开文档时，文档中的样式是否更新以匹配附加模板中的样式。 |
 | [setBackgroundShape(Shape value)](#setBackgroundShape-com.aspose.words.Shape-) | 设置文档的背景形状。 |
 | [setCustomNodeId(int value)](#setCustomNodeId-int-) | 指定自定义节点标识符。 |
 | [setCustomXmlParts(CustomXmlPartCollection value)](#setCustomXmlParts-com.aspose.words.CustomXmlPartCollection-) | 设置自定义 XML 数据存储部件的集合。 |
@@ -204,17 +204,17 @@ public class Document extends DocumentBase
 | [setGrammarChecked(boolean value)](#setGrammarChecked-boolean-) | 退货**true**如果文档已经过语法检查。 |
 | [setMailMergeSettings(MailMergeSettings value)](#setMailMergeSettings-com.aspose.words.MailMergeSettings-) | 设置包含文档的所有邮件合并信息的对象。 |
 | [setNodeChangingCallback(INodeChangingCallback value)](#setNodeChangingCallback-com.aspose.words.INodeChangingCallback-) | 在文档中插入或删除节点时调用。 |
-| [set包裹CustomParts(CustomPartCollection value)](#set包裹CustomParts-com.aspose.words.CustomPartCollection-) | 设置使用“未知关系”链接到 OOXML 包的自定义部分（任意内容）的集合。 |
+| [setPackageCustomParts(CustomPartCollection value)](#setPackageCustomParts-com.aspose.words.CustomPartCollection-) | 设置使用“未知关系”链接到 OOXML 包的自定义部分（任意内容）的集合。 |
 | [setPageColor(Color value)](#setPageColor-java.awt.Color-) | 设置文档的页面颜色。 |
 | [setRemovePersonalInformation(boolean value)](#setRemovePersonalInformation-boolean-) | 设置一个标志，表明 Microsoft Word 将在保存文档时从注释、修订和文档属性中删除所有用户信息。 |
-| [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback-) | 允许控制如何加载外部资源。 |
+| [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback-) | 允许控制外部资源的加载方式。 |
 | [setRevisionsView(int value)](#setRevisionsView-int-) | 设置一个值，该值指示是使用文档的原始版本还是修订版本。 |
 | [setSectionAttr(int key, Object value)](#setSectionAttr-int-java.lang.Object-) |  |
-| [setShadeFormData(boolean value)](#setShadeFormData-boolean-) | 指定是否打开表单域的灰色阴影。 |
+| [setShadeFormData(boolean value)](#setShadeFormData-boolean-) | 指定是否打开表单域的灰色底纹。 |
 | [setShowGrammaticalErrors(boolean value)](#setShowGrammaticalErrors-boolean-) | 指定是否在此文档中显示语法错误。 |
 | [setShowSpellingErrors(boolean value)](#setShowSpellingErrors-boolean-) | 指定是否在此文档中显示拼写错误。 |
 | [setSpellingChecked(boolean value)](#setSpellingChecked-boolean-) | 退货**true**如果文档已经过拼写检查。 |
-| [setTrackRevisions(boolean value)](#setTrackRevisions-boolean-) | **True**如果在 Microsoft Word 中编辑此文档时跟踪更改。 |
+| [setTrackRevisions(boolean value)](#setTrackRevisions-boolean-) | **True**在 Microsoft Word 中编辑此文档时是否跟踪更改。 |
 | [setVbaProject(VbaProject value)](#setVbaProject-com.aspose.words.VbaProject-) | 设置一个[getVbaProject()](../../com.aspose.words/document\#getVbaProject--) / [setVbaProject(com.aspose.words.VbaProject)](../../com.aspose.words/document\#setVbaProject-com.aspose.words.VbaProject-). |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | 当检测到可能导致数据或格式保真度丢失的问题时，在各种文档处理过程中调用。 |
 | [startTrackRevisions(String author)](#startTrackRevisions-java.lang.String-) | 开始自动将您以编程方式对文档所做的所有进一步更改标记为修订更改。 |
@@ -321,7 +321,7 @@ public boolean accept(DocumentVisitor visitor)
 | visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | 将访问节点的访问者。 |
 
 **退货:**
-boolean - 如果所有节点都被访问，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。调用 DocumentVisitor.VisitDocumentStart，然后为文档的所有子节点调用 Accept，最后调用 DocumentVisitor.VisitDocumentEnd。
+boolean - 如果访问了所有节点则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则为 false。调用 DocumentVisitor.VisitDocumentStart，然后为文档的所有子节点调用 Accept，最后调用 DocumentVisitor.VisitDocumentEnd。
 ### acceptAllRevisions() {#acceptAllRevisions--}
 ```
 public void acceptAllRevisions()
@@ -525,7 +525,7 @@ public void ensureMinimum()
 ```
 
 
-如果文档不包含任何部分，则创建一个包含一个段落的部分。
+如果文档不包含节，则创建一个节和一个段落。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -550,13 +550,13 @@ public void expandTableStylesToDirectFormatting()
 
 将表格样式中指定的格式转换为文档中表格的直接格式。
 
-存在此方法是因为此版本的 Aspose.Words 仅提供对表格样式的有限支持（见下文）。当您加载包含使用表格样式格式化的表格的 DOCX 或 WordprocessingML 文档并且您需要查询表格、单元格、段落或文本的格式时，此方法可能很有用。
+这个方法存在是因为这个版本的 Aspose.Words 只提供对表格样式的有限支持（见下文）。当您加载包含使用表格样式格式化的表格的 DOCX 或 WordprocessingML 文档并且您需要查询表格、单元格、段落或文本的格式时，此方法可能很有用。
 
-这个版本的 Aspose.Words 对表格样式提供了有限的支持，如下所示：
+此版本的 Aspose.Words 对表格样式提供有限支持，如下所示：
 
- *  在将文档另存为 DOCX 或 WordprocessingML 时，DOCX 或 WordprocessingML 文档中定义的表格样式将保留为表格样式。
- *  在将文档保存为任何其他格式、呈现或打印时，DOCX 或 WordprocessingML 文档中定义的表格样式会自动转换为表格上的直接格式。
- *  仅将文档另存为 DOC 时，DOC 文档中定义的表格样式将保留为表格样式。
+ *  在将文档另存为 DOCX 或 WordprocessingML 时，在 DOCX 或 WordprocessingML 文档中定义的表格样式将保留为表格样式。
+ *  在将文档保存为任何其他格式、渲染或打印时，DOCX 或 WordprocessingML 文档中定义的表格样式会自动转换为表格的直接格式。
+ *  当仅将文档另存为 DOC 时，DOC 文档中定义的表格样式将保留为表格样式。
 
 ### extractPages(int index, int count) {#extractPages-int-int-}
 ```
@@ -564,7 +564,7 @@ public Document extractPages(int index, int count)
 ```
 
 
-返回[Document](../../com.aspose.words/document)表示指定页面范围的对象。生成的文档应该看起来像 MS Word 中的文档，就好像我们执行了“打印特定页面”一样\\u2013 编号、页眉/页脚和交叉表布局将被保留。但是由于大量的细微差别，在减少页面数量的同时出现，布局的完全匹配是一项需要大量努力的安静复杂的任务。根据文档的复杂性，生成的文档内容布局与源文档相比可能略有不同。任何反馈将不胜感激。
+返回[Document](../../com.aspose.words/document)表示指定页面范围的对象。生成的文档应该看起来像 MS Word 中的文档，就像我们执行了“打印特定页面”一样\\u2013 编号、页眉/页脚和交叉表布局将被保留。但是由于大量的细微差别，在减少页数的同时出现，完全匹配版面是一项安静复杂的工作，需要付出很多努力。根据文档的复杂性，与源文档相比，生成的文档内容布局可能会略有不同。任何反馈将不胜感激。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -614,9 +614,9 @@ public Shape get()
 
 **退货:**
 [Shape](../../com.aspose.words/shape)
-### getAncestor(int ancestor类型) {#getAncestor-int-}
+### getAncestor(int ancestorType) {#getAncestor-int-}
 ```
-public CompositeNode getAncestor(int ancestor类型)
+public CompositeNode getAncestor(int ancestorType)
 ```
 
 
@@ -625,13 +625,13 @@ public CompositeNode getAncestor(int ancestor类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ancestor类型 | int |  |
+| ancestorType | int |  |
 
 **退货:**
 [CompositeNode](../../com.aspose.words/compositenode)
-### getAncestor(班级 ancestor类型) {#getAncestor-java.lang.班级-}
+### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
 ```
-public CompositeNode getAncestor(班级 ancestor类型)
+public CompositeNode getAncestor(Class ancestorType)
 ```
 
 
@@ -640,7 +640,7 @@ public CompositeNode getAncestor(班级 ancestor类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ancestor类型 | java.lang.班级 | 要检索的祖先的对象类型。 |
+| ancestorType | java.lang.Class | 要检索的祖先的对象类型。 |
 
 **退货:**
 [CompositeNode](../../com.aspose.words/compositenode) - 指定类型的祖先，如果没有找到该类型的祖先，则返回 null。
@@ -664,10 +664,10 @@ public boolean getAutomaticallyUpdateStyles()
 ```
 
 
-获取一个标志，指示每次在 MS Word 中打开文档时是否更新文档中的样式以匹配附加模板中的样式。
+获取一个标志，指示每次在 MS Word 中打开文档时，文档中的样式是否更新以匹配附加模板中的样式。
 
 **退货:**
-boolean - 一个标志，指示每次在 MS Word 中打开文档时是否更新文档中的样式以匹配附加模板中的样式。
+布尔值 - 指示每次在 MS Word 中打开文档时文档中的样式是否更新以匹配附加模板中的样式的标志。
 ### getBackgroundShape() {#getBackgroundShape--}
 ```
 public Shape getBackgroundShape()
@@ -676,7 +676,7 @@ public Shape getBackgroundShape()
 
 获取文档的背景形状。可以为空。
 
-Microsoft Word 只允许具有其[ShapeBase.getShape类型()](../../com.aspose.words/shapebase\#getShape类型--)属性等于[Shape类型.RECTANGLE](../../com.aspose.words/shapetype\#RECTANGLE)用作文档的背景形状。
+Microsoft Word 只允许具有其[ShapeBase.getShapeType()](../../com.aspose.words/shapebase\#getShapeType--)属性等于[ShapeType.RECTANGLE](../../com.aspose.words/shapetype\#RECTANGLE)用作文档的背景形状。
 
 Microsoft Word 仅支持背景形状的填充属性。所有其他属性都被忽略。
 
@@ -694,9 +694,9 @@ public BuiltInDocumentProperties getBuiltInDocumentProperties()
 
 **退货:**
 [BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties) - 表示文档的所有内置文档属性的集合。
-### getChild(int node类型, int index, boolean isDeep) {#getChild-int-int-boolean-}
+### getChild(int nodeType, int index, boolean isDeep) {#getChild-int-int-boolean-}
 ```
-public Node getChild(int node类型, int index, boolean isDeep)
+public Node getChild(int nodeType, int index, boolean isDeep)
 ```
 
 
@@ -705,7 +705,7 @@ public Node getChild(int node类型, int index, boolean isDeep)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 | index | int |  |
 | isDeep | boolean |  |
 
@@ -719,15 +719,15 @@ public NodeCollection getChildNodes()
 
 获取此节点的所有直接子节点。
 
-笔记，[getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes--)相当于调用 GetChildNodes(Node类型.Any, false) 并在每次访问时创建并返回一个新集合。
+笔记，[getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes--)相当于调用 GetChildNodes(NodeType.Any, false) 并在每次访问时创建并返回一个新集合。
 
 如果没有子节点，则此属性返回一个空集合。
 
 **退货:**
 [NodeCollection](../../com.aspose.words/nodecollection) - 该节点的所有直接子节点。
-### getChildNodes(int node类型, boolean isDeep) {#getChildNodes-int-boolean-}
+### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean-}
 ```
-public NodeCollection getChildNodes(int node类型, boolean isDeep)
+public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 ```
 
 
@@ -736,21 +736,21 @@ public NodeCollection getChildNodes(int node类型, boolean isDeep)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 | isDeep | boolean |  |
 
 **退货:**
 [NodeCollection](../../com.aspose.words/nodecollection)
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCompatibilityOptions() {#getCompatibilityOptions--}
 ```
 public CompatibilityOptions getCompatibilityOptions()
@@ -809,7 +809,7 @@ public CustomDocumentProperties getCustomDocumentProperties()
 ```
 
 
-返回一个集合，该集合表示文档的所有自定义文档属性。
+返回表示文档的所有自定义文档属性的集合。
 
 **退货:**
 [CustomDocumentProperties](../../com.aspose.words/customdocumentproperties) 表示文档的所有自定义文档属性的集合。
@@ -904,16 +904,16 @@ public EndnoteOptions getEndnoteOptions()
 
 **退货:**
 [EndnoteOptions](../../com.aspose.words/endnoteoptions) - 相应的[EndnoteOptions](../../com.aspose.words/endnoteoptions)价值。
-### get字段Options() {#get字段Options--}
+### getFieldOptions() {#getFieldOptions--}
 ```
-public 字段Options get字段Options()
+public FieldOptions getFieldOptions()
 ```
 
 
-得到一个**字段Options**表示用于控制文档中的字段处理的选项的对象。
+得到一个**FieldOptions**表示控制文档中字段处理的选项的对象。
 
 **退货:**
-[字段Options](../../com.aspose.words/fieldoptions) - 一个**字段Options**表示用于控制文档中的字段处理的选项的对象。
+[FieldOptions](../../com.aspose.words/fieldoptions) - 一个**FieldOptions**表示控制文档中字段处理的选项的对象。
 ### getFirstChild() {#getFirstChild--}
 ```
 public Node getFirstChild()
@@ -956,7 +956,7 @@ public FontSettings getFontSettings()
 
 获取文档字体设置。
 
-此属性允许指定每个文档的字体设置。如果设置为 null，则默认静态字体设置[FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance--)将会被使用。
+此属性允许为每个文档指定字体设置。如果设置为空，默认静态字体设置[FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance--)将会被使用。
 
 默认值为空。
 
@@ -968,7 +968,7 @@ public FootnoteOptions getFootnoteOptions()
 ```
 
 
-提供控制本文档中脚注的编号和位置的选项。
+提供控制本文档中脚注编号和位置的选项。
 
 **退货:**
 [FootnoteOptions](../../com.aspose.words/footnoteoptions) - 相应的[FootnoteOptions](../../com.aspose.words/footnoteoptions)价值。
@@ -978,10 +978,10 @@ public Frameset getFrameset()
 ```
 
 
-返回一个[getFrameset()](../../com.aspose.words/document\#getFrameset--)例如，如果此文档表示一个框架页面。如果文件没有装裱，则该物业有**null**价值。
+返回一个[getFrameset()](../../com.aspose.words/document\#getFrameset--)例如，如果此文档代表一个框架页面。如果文档未加框，则该属性具有**null**价值。
 
 **退货:**
-[Frameset](../../com.aspose.words/frameset) - 一个[getFrameset()](../../com.aspose.words/document\#getFrameset--)例如，如果此文档表示一个框架页面。
+[Frameset](../../com.aspose.words/frameset) - 一个[getFrameset()](../../com.aspose.words/document\#getFrameset--)例如，如果此文档代表一个框架页面。
 ### getGlossaryDocument() {#getGlossaryDocument--}
 ```
 public GlossaryDocument getGlossaryDocument()
@@ -992,7 +992,7 @@ public GlossaryDocument getGlossaryDocument()
 
 如果文档没有词汇表文档，则此属性返回 null。
 
-您可以通过创建[GlossaryDocument](../../com.aspose.words/glossarydocument)对象并分配给此属性。
+您可以通过创建[GlossaryDocument](../../com.aspose.words/glossarydocument)对象并分配给该属性。
 
 **退货:**
 [GlossaryDocument](../../com.aspose.words/glossarydocument) - 本文档或模板中的词汇表文档。
@@ -1042,10 +1042,10 @@ public LayoutOptions getLayoutOptions()
 ```
 
 
-得到一个**LayoutOptions**表示用于控制此文档的布局过程的选项的对象。
+得到一个**LayoutOptions**表示控制此文档布局过程的选项的对象。
 
 **退货:**
-[LayoutOptions](../../com.aspose.words/layoutoptions) - 一个**LayoutOptions**表示用于控制此文档的布局过程的选项的对象。
+[LayoutOptions](../../com.aspose.words/layoutoptions) - 一个**LayoutOptions**表示控制此文档布局过程的选项的对象。
 ### getLists() {#getLists--}
 ```
 public ListCollection getLists()
@@ -1103,10 +1103,10 @@ public Node getNextSibling()
 ```
 
 
-获取紧跟此节点的节点。如果没有下一个节点，则返回 null。
+获取紧跟在该节点之后的节点。如果没有下一个节点，则返回 null。
 
 **退货:**
-[Node](../../com.aspose.words/node) - 紧跟该节点的节点。
+[Node](../../com.aspose.words/node) - 紧接此节点之后的节点。
 ### getNodeChangingCallback() {#getNodeChangingCallback--}
 ```
 public INodeChangingCallback getNodeChangingCallback()
@@ -1117,16 +1117,16 @@ public INodeChangingCallback getNodeChangingCallback()
 
 **退货:**
 [INodeChangingCallback](../../com.aspose.words/inodechangingcallback) - 相应的[INodeChangingCallback](../../com.aspose.words/inodechangingcallback)价值。
-### getNode类型() {#getNode类型--}
+### getNodeType() {#getNodeType--}
 ```
-public int getNode类型()
+public int getNodeType()
 ```
 
 
-退货**Node类型.Document**.
+退货**NodeType.Document**.
 
 **退货:**
-诠释 -**Node类型.Document** .返回值是以下之一[Node类型](../../com.aspose.words/nodetype)常数。
+整数 -**NodeType.Document** .返回值是其中之一[NodeType](../../com.aspose.words/nodetype)常数。
 ### getOriginalFileName() {#getOriginalFileName--}
 ```
 public String getOriginalFileName()
@@ -1151,9 +1151,9 @@ public int getOriginalLoadFormat()
 
 **退货:**
 int - 加载到此对象中的原始文档的格式。返回值是以下之一[LoadFormat](../../com.aspose.words/loadformat)常数。
-### get包裹CustomParts() {#get包裹CustomParts--}
+### getPackageCustomParts() {#getPackageCustomParts--}
 ```
-public CustomPartCollection get包裹CustomParts()
+public CustomPartCollection getPackageCustomParts()
 ```
 
 
@@ -1216,38 +1216,38 @@ public CompositeNode getParentNode()
 
 获取此节点的直接父节点。
 
-如果一个节点刚刚创建但尚未添加到树中，或者它已从树中删除，则父节点为空。
+如果一个节点刚刚被创建并且还没有被添加到树中，或者如果它已经被从树中移除，则父节点为空。
 
 **退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 该节点的直接父节点。
+[CompositeNode](../../com.aspose.words/compositenode) - 此节点的直接父节点。
 ### getPreviousSibling() {#getPreviousSibling--}
 ```
 public Node getPreviousSibling()
 ```
 
 
-获取紧接在此节点之前的节点。如果没有前面的节点，则返回 null。
+获取紧接在该节点之前的节点。如果前面没有节点，则返回 null。
 
 **退货:**
-[Node](../../com.aspose.words/node) - 紧接在此节点之前的节点。
-### getProtection类型() {#getProtection类型--}
+[Node](../../com.aspose.words/node) - 紧接在该节点之前的节点。
+### getProtectionType() {#getProtectionType--}
 ```
-public int getProtection类型()
+public int getProtectionType()
 ```
 
 
 获取当前活动的文档保护类型。
 
-此属性允许检索当前设置的文档保护类型。要更改文档保护类型，请使用**M:Aspose.Words.Document.Protect(Aspose.Words.Protection类型,System.String)**和[unprotect()](../../com.aspose.words/document\#unprotect--)方法。
+此属性允许检索当前设置的文档保护类型。要更改文档保护类型，请使用**M:Aspose.Words.Document.Protect(Aspose.Words.ProtectionType,System.String)**和[unprotect()](../../com.aspose.words/document\#unprotect--)方法。
 
 当文档受到保护时，用户只能进行有限的更改，例如添加注释、进行修订或填写表格。
 
 请注意，文档保护不同于写保护。写保护是使用指定[getWriteProtection()](../../com.aspose.words/document\#getWriteProtection--)
 
-**M:Aspose.Words.Document.Protect(Aspose.Words.Protection类型,System.String)**
+**M:Aspose.Words.Document.Protect(Aspose.Words.ProtectionType,System.String)**
 
 **退货:**
-int - 当前活动的文档保护类型。返回值是以下之一[Protection类型](../../com.aspose.words/protectiontype)常数。
+int - 当前活动的文档保护类型。返回值是以下之一[ProtectionType](../../com.aspose.words/protectiontype)常数。
 ### getRange() {#getRange--}
 ```
 public Range getRange()
@@ -1274,7 +1274,7 @@ public IResourceLoadingCallback getResourceLoadingCallback()
 ```
 
 
-允许控制如何加载外部资源。
+允许控制外部资源的加载方式。
 
 **退货:**
 [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) - 相应的[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback)价值。
@@ -1284,7 +1284,7 @@ public RevisionCollection getRevisions()
 ```
 
 
-获取此文档中存在的修订（跟踪的更改）的集合。
+获取此文档中存在的修订（跟踪更改）的集合。
 
 返回的集合是一个“实时”集合，这意味着如果您删除包含修订的文档部分，删除的修订将自动从该集合中消失。
 
@@ -1316,7 +1316,7 @@ public boolean getShadeFormData()
 ```
 
 
-指定是否打开表单域的灰色阴影。
+指定是否打开表单域的灰色底纹。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -1390,9 +1390,9 @@ public boolean getTrackRevisions()
 ```
 
 
-**True**如果在 Microsoft Word 中编辑此文档时跟踪更改。
+**True**在 Microsoft Word 中编辑此文档时是否跟踪更改。
 
-设置此选项仅指示 Microsoft Word 是打开还是关闭轨道更改。此属性对您通过 Aspose.Words 以编程方式对文档所做的更改没有影响。
+设置此选项仅指示 Microsoft Word 是否打开或关闭修订。此属性对您通过 Aspose.Words 以编程方式对文档所做的更改没有影响。
 
 如果您想自动跟踪 Aspose.Words 以编程方式对本文档所做的更改，请使用[startTrackRevisions(java.lang.String, java.util.Date)](../../com.aspose.words/document\#startTrackRevisions-java.lang.String--java.util.Date-)方法。
 
@@ -1438,7 +1438,7 @@ public ViewOptions getViewOptions()
 ```
 
 
-提供用于控制文档在 Microsoft Word 中的显示方式的选项。
+提供选项以控制文档在 Microsoft Word 中的显示方式。
 
 **退货:**
 [ViewOptions](../../com.aspose.words/viewoptions) - 相应的[ViewOptions](../../com.aspose.words/viewoptions)价值。
@@ -1586,7 +1586,7 @@ public Node insertAfter(Node newChild, Node refChild)
 ```
 
 
-在指定的参考节点之后立即插入指定的节点。
+在指定的引用节点之后立即插入指定的节点。
 
 如果 refChild 为 null，则在子节点列表的开头插入 newChild。
 
@@ -1608,7 +1608,7 @@ public Node insertBefore(Node newChild, Node refChild)
 ```
 
 
-在指定的参考节点之前插入指定的节点。
+将指定节点插入到紧靠指定引用节点之前。
 
 如果 refChild 为 null，则在子节点列表的末尾插入 newChild。
 
@@ -1640,7 +1640,7 @@ public Iterator iterator()
 ```
 
 
-为在此节点的子节点上的每个样式迭代提供支持。
+为该节点的子节点上的每个样式迭代提供支持。
 
 **退货:**
 java.util.Iterator
@@ -1652,12 +1652,12 @@ public int joinRunsWithSameFormatting()
 
 连接在文档的所有段落中以相同的格式运行。
 
-这是一种优化方法。一些文档包含具有相同格式的相邻运行。如果文档是手动密集编辑的，通常会发生这种情况。您可以通过加入这些运行来减小文档大小并加快进一步处理。
+这是一种优化方法。一些文档包含具有相同格式的相邻运行。如果手动对文档进行大量编辑，通常会发生这种情况。您可以通过加入这些运行来减小文档大小并加快进一步处理。
 
-操作检查每个[Paragraph](../../com.aspose.words/paragraph)相邻文档中的节点[Run](../../com.aspose.words/run)具有相同属性的节点。它忽略了用于跟踪运行创建和修改的编辑会话的唯一标识符。每个连接序列中的第一次运行会累积所有文本。剩余的运行将从文档中删除。
+该操作检查每个[Paragraph](../../com.aspose.words/paragraph)相邻文档中的节点[Run](../../com.aspose.words/run)具有相同属性的节点。它忽略了用于跟踪运行创建和修改的编辑会话的唯一标识符。在每个连接序列中首次运行会累积所有文本。剩余的运行将从文档中删除。
 
 **退货:**
- int - 执行的连接数。什么时候**N**相邻的运行正在被加入，它们算作**N - 1**加入。
+ int - 执行的连接数。什么时候**N**相邻的跑步被加入他们算作**N - 1**加入。
 ### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node-}
 ```
 public Node nextPreOrder(Node rootNode)
@@ -1673,9 +1673,9 @@ public Node nextPreOrder(Node rootNode)
 
 **退货:**
 [Node](../../com.aspose.words/node) - 预购订单中的下一个节点。如果到达 rootNode，则为 Null。
-### node类型ToString(int node类型) {#node类型ToString-int-}
+### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
 ```
-public static String node类型ToString(int node类型)
+public static String nodeTypeToString(int nodeType)
 ```
 
 
@@ -1684,21 +1684,21 @@ public static String node类型ToString(int node类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 
 **退货:**
 java.lang.String
-### normalize字段类型s() {#normalize字段类型s--}
+### normalizeFieldTypes() {#normalizeFieldTypes--}
 ```
-public void normalize字段类型s()
+public void normalizeFieldTypes()
 ```
 
 
-更改字段类型值[字段Char.get字段类型()](../../com.aspose.words/fieldchar\#get字段类型--)的[字段Start](../../com.aspose.words/fieldstart), [字段Separator](../../com.aspose.words/fieldseparator), [字段End](../../com.aspose.words/fieldend)在整个文档中，以便它们对应于域代码中包含的域类型。
+更改字段类型值[FieldChar.getFieldType()](../../com.aspose.words/fieldchar\#getFieldType--)的[FieldStart](../../com.aspose.words/fieldstart), [FieldSeparator](../../com.aspose.words/fieldseparator), [FieldEnd](../../com.aspose.words/fieldend)在整个文档中，以便它们对应于域代码中包含的域类型。
 
 在影响字段类型的文档更改后使用此方法。
 
-要更改文档特定部分中的字段类型值，请使用[Range.normalize字段类型s()](../../com.aspose.words/range\#normalize字段类型s--).
+要更改文档特定部分中的字段类型值，请使用[Range.normalizeFieldTypes()](../../com.aspose.words/range\#normalizeFieldTypes--).
 
 ### notify() {#notify--}
 ```
@@ -1794,7 +1794,7 @@ public void print(AttributeSet printerSettings, String documentName)
 ```
 
 
-根据指定的打印机设置，使用标准（无用户界面）打印控制器和文档名称打印文档。
+根据指定的打印机设置打印文档，使用标准（无用户界面）打印控制器和文档名称。
 
 该对象允许您指定要打印的打印机、要打印的页面范围和其他选项。
 
@@ -1855,7 +1855,7 @@ public Node removeChild(Node oldChild)
 ```
 
 
-移除指定的子节点。
+删除指定的子节点。
 
 删除节点后，oldChild 的父级设置为 null。
 
@@ -1872,7 +1872,7 @@ public void removeExternalSchemaReferences()
 ```
 
 
-从此文档中删除外部 XML 模式引用。
+从此文档中删除外部 XML 架构引用。
 
 ### removeMacros() {#removeMacros--}
 ```
@@ -1880,7 +1880,7 @@ public void removeMacros()
 ```
 
 
-从文档中删除所有宏（VBA 项目）以及工具栏和命令自定义。
+从文档中删除所有宏（VBA 项目）以及工具栏和命令自定义项。
 
 通过从文档中删除所有宏，您可以确保文档不包含宏病毒。
 
@@ -1898,7 +1898,7 @@ public Point2D.Float renderToScale(int pageIndex, Graphics2D graphics, float x, 
 ```
 
 
-将文档页面渲染为指定比例的对象。
+将文档页面呈现为指定比例的对象。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1984,7 +1984,7 @@ public SaveOutput参数 save(String fileName, SaveOptions saveOptions)
 ```
 
 
-使用指定的保存选项将文档保存到文件中。
+使用指定的保存选项将文档保存到文件。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -2065,7 +2065,7 @@ public void setAutomaticallyUpdateStyles(boolean value)
 ```
 
 
-设置一个标志，指示每次在 MS Word 中打开文档时是否更新文档中的样式以匹配附加模板中的样式。
+设置一个标志，指示每次在 MS Word 中打开文档时，文档中的样式是否更新以匹配附加模板中的样式。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -2080,7 +2080,7 @@ public void setBackgroundShape(Shape value)
 
 设置文档的背景形状。可以为空。
 
-Microsoft Word 只允许具有其[ShapeBase.getShape类型()](../../com.aspose.words/shapebase\#getShape类型--)属性等于[Shape类型.RECTANGLE](../../com.aspose.words/shapetype\#RECTANGLE)用作文档的背景形状。
+Microsoft Word 只允许具有其[ShapeBase.getShapeType()](../../com.aspose.words/shapebase\#getShapeType--)属性等于[ShapeType.RECTANGLE](../../com.aspose.words/shapetype\#RECTANGLE)用作文档的背景形状。
 
 Microsoft Word 仅支持背景形状的填充属性。所有其他属性都被忽略。
 
@@ -2148,7 +2148,7 @@ public void setFontSettings(FontSettings value)
 
 设置文档字体设置。
 
-此属性允许指定每个文档的字体设置。如果设置为 null，则默认静态字体设置[FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance--)将会被使用。
+此属性允许为每个文档指定字体设置。如果设置为空，默认静态字体设置[FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance--)将会被使用。
 
 默认值为空。
 
@@ -2167,7 +2167,7 @@ public void setGlossaryDocument(GlossaryDocument value)
 
 如果文档没有词汇表文档，则此属性返回 null。
 
-您可以通过创建[GlossaryDocument](../../com.aspose.words/glossarydocument)对象并分配给此属性。
+您可以通过创建[GlossaryDocument](../../com.aspose.words/glossarydocument)对象并分配给该属性。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -2217,9 +2217,9 @@ public void setNodeChangingCallback(INodeChangingCallback value)
 | --- | --- | --- |
 | value | [INodeChangingCallback](../../com.aspose.words/inodechangingcallback) | 相应的[INodeChangingCallback](../../com.aspose.words/inodechangingcallback)价值。 |
 
-### set包裹CustomParts(CustomPartCollection value) {#set包裹CustomParts-com.aspose.words.CustomPartCollection-}
+### setPackageCustomParts(CustomPartCollection value) {#setPackageCustomParts-com.aspose.words.CustomPartCollection-}
 ```
-public void set包裹CustomParts(CustomPartCollection value)
+public void setPackageCustomParts(CustomPartCollection value)
 ```
 
 
@@ -2266,7 +2266,7 @@ public void setRemovePersonalInformation(boolean value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 一个标志，表示 Microsoft Word 将在保存文档时从注释、修订和文档属性中删除所有用户信息。 |
+| value | boolean | 一个标志，表明 Microsoft Word 将在保存文档时从注释、修订和文档属性中删除所有用户信息。 |
 
 ### setResourceLoadingCallback(IResourceLoadingCallback value) {#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback-}
 ```
@@ -2274,7 +2274,7 @@ public void setResourceLoadingCallback(IResourceLoadingCallback value)
 ```
 
 
-允许控制如何加载外部资源。
+允许控制外部资源的加载方式。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -2314,7 +2314,7 @@ public void setShadeFormData(boolean value)
 ```
 
 
-指定是否打开表单域的灰色阴影。
+指定是否打开表单域的灰色底纹。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -2366,9 +2366,9 @@ public void setTrackRevisions(boolean value)
 ```
 
 
-**True**如果在 Microsoft Word 中编辑此文档时跟踪更改。
+**True**在 Microsoft Word 中编辑此文档时是否跟踪更改。
 
-设置此选项仅指示 Microsoft Word 是打开还是关闭轨道更改。此属性对您通过 Aspose.Words 以编程方式对文档所做的更改没有影响。
+设置此选项仅指示 Microsoft Word 是否打开或关闭修订。此属性对您通过 Aspose.Words 以编程方式对文档所做的更改没有影响。
 
 如果您想自动跟踪 Aspose.Words 以编程方式对本文档所做的更改，请使用[startTrackRevisions(java.lang.String, java.util.Date)](../../com.aspose.words/document\#startTrackRevisions-java.lang.String--java.util.Date-)方法。
 
@@ -2553,7 +2553,7 @@ public void update字段()
 
 此方法不会更新与页面布局算法相关的字段（例如 PAGE、PAGES、PAGEREF）。渲染文档或调用时更新页面布局相关字段[updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--).
 
-使用[normalize字段类型s()](../../com.aspose.words/document\#normalize字段类型s--)如果存在影响字段类型的文档更改，则字段更新之前的方法。
+使用[normalizeFieldTypes()](../../com.aspose.words/document\#normalizeFieldTypes--)如果存在影响字段类型的文档更改，则字段更新之前的方法。
 
 要更新文档特定部分中的字段，请使用[Range.update字段()](../../com.aspose.words/range\#update字段--).
 

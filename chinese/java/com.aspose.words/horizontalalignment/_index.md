@@ -1,6 +1,6 @@
 ---
 title: HorizontalAlignment
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定浮动形状文本框架或浮动表格的水平对齐方式。
 type: docs
 weight: 320
@@ -16,7 +16,7 @@ public class HorizontalAlignment
 指定浮动形状、文本框或浮动表格的水平对齐方式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CENTER](#CENTER) | 指定对象应相对于水平对齐基准居中。 |
 | [DEFAULT](#DEFAULT) | 如同[NONE](../../com.aspose.words/horizontalalignment\#NONE). |
@@ -32,7 +32,7 @@ public class HorizontalAlignment
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String horizontalAlignmentName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int horizontalAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -135,16 +135,16 @@ public static int fromName(String horizontalAlignmentName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int horizontalAlignment) {#getName-int-}
 ```
 public static String getName(int horizontalAlignment)

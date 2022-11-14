@@ -1,6 +1,6 @@
 ---
 title: ShadowFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示对象的阴影格式。
 type: docs
 weight: 514
@@ -22,13 +22,13 @@ public class ShadowFormat
 | --- | --- |
 | [clear()](#clear--) | 清除阴影格式。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [get类型()](#get类型--) | 获取指定的[Shadow类型](../../com.aspose.words/shadowtype)对于影子格式。 |
+| [getClass()](#getClass--) |  |
+| [getType()](#getType--) | 获取指定的[ShadowType](../../com.aspose.words/shadowtype)对于影子格式。 |
 | [getVisible()](#getVisible--) | 如果应用于此实例的格式可见，则返回 true。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [set类型(int value)](#set类型-int-) | 设置指定的[Shadow类型](../../com.aspose.words/shadowtype)对于影子格式。 |
+| [setType(int value)](#setType-int-) | 设置指定的[ShadowType](../../com.aspose.words/shadowtype)对于影子格式。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -56,26 +56,26 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### get类型() {#get类型--}
+java.lang.Class<?>
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
-获取指定的[Shadow类型](../../com.aspose.words/shadowtype)对于影子格式。
+获取指定的[ShadowType](../../com.aspose.words/shadowtype)对于影子格式。
 
 **退货:**
-int - 指定的[Shadow类型](../../com.aspose.words/shadowtype)对于影子格式。返回值是以下之一[Shadow类型](../../com.aspose.words/shadowtype)常数。
+int - 指定的[ShadowType](../../com.aspose.words/shadowtype)对于影子格式。返回值是以下之一[ShadowType](../../com.aspose.words/shadowtype)常数。
 ### getVisible() {#getVisible--}
 ```
 public boolean getVisible()
@@ -112,18 +112,18 @@ public final native void notifyAll()
 
 
 
-### set类型(int value) {#set类型-int-}
+### setType(int value) {#setType-int-}
 ```
-public void set类型(int value)
+public void setType(int value)
 ```
 
 
-设置指定的[Shadow类型](../../com.aspose.words/shadowtype)对于影子格式。
+设置指定的[ShadowType](../../com.aspose.words/shadowtype)对于影子格式。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 指定的[Shadow类型](../../com.aspose.words/shadowtype)对于影子格式。该值必须是以下之一[Shadow类型](../../com.aspose.words/shadowtype)常数。 |
+| value | int | 指定的[ShadowType](../../com.aspose.words/shadowtype)对于影子格式。该值必须是其中之一[ShadowType](../../com.aspose.words/shadowtype)常数。 |
 
 ### toString() {#toString--}
 ```

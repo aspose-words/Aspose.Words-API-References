@@ -1,6 +1,6 @@
 ---
-title: 字段IfComparisonResult
-second_title: Aspose.Words for Java API Reference
+title: FieldIfComparisonResult
+second_title: Aspose.Words for Java API 参考
 description: 指定 IF 字段条件评估的结果。
 type: docs
 weight: 201
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/fieldifcomparisonresult/
 **遗产:**
 java.lang.Object
 ```
-public class 字段IfComparisonResult
+public class FieldIfComparisonResult
 ```
 
 指定 IF 字段条件评估的结果。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [ERROR](#ERROR) | 条件有误。 |
 | [FALSE](#FALSE) | 条件为假。 |
@@ -28,7 +28,7 @@ public class 字段IfComparisonResult
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String fieldIfComparisonResultName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int fieldIfComparisonResult)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -99,16 +99,16 @@ public static int fromName(String fieldIfComparisonResultName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int fieldIfComparisonResult) {#getName-int-}
 ```
 public static String getName(int fieldIfComparisonResult)

@@ -1,6 +1,6 @@
 ---
 title: PhysicalFontInfo
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定有关 Aspose.Words 字体引擎可用的物理字体的信息。
 type: docs
 weight: 464
@@ -21,7 +21,7 @@ public class PhysicalFontInfo
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getFilePath()](#getFilePath--) | 字体文件的路径（如果有）。 |
 | [getFontFamilyName()](#getFontFamilyName--) | 字体的家族名称。 |
 | [getFullFontName()](#getFullFontName--) | 字体的全名。 |
@@ -48,16 +48,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getFilePath() {#getFilePath--}
 ```
 public String getFilePath()

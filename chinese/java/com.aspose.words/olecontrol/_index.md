@@ -1,6 +1,6 @@
 ---
 title: OleControl
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示 OLE ActiveX 控件。
 type: docs
 weight: 424
@@ -21,10 +21,10 @@ public class OleControl
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName()](#getName--) | 获取 ActiveX 控件的名称。 |
 | [hashCode()](#hashCode--) |  |
-| [isForms2OleControl()](#isForms2OleControl--) | 如果控件是[Forms2OleControl](../../com.aspose.words/forms2olecontrol). |
+| [isForms2OleControl()](#isForms2OleControl--) | 如果控件是一个则返回真[Forms2OleControl](../../com.aspose.words/forms2olecontrol). |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -46,16 +46,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName() {#getName--}
 ```
 public String getName()
@@ -82,7 +82,7 @@ public boolean isForms2OleControl()
 ```
 
 
-如果控件是[Forms2OleControl](../../com.aspose.words/forms2olecontrol).
+如果控件是一个则返回真[Forms2OleControl](../../com.aspose.words/forms2olecontrol).
 
 **退货:**
  boolean - 如果控件是[Forms2OleControl](../../com.aspose.words/forms2olecontrol).

@@ -1,6 +1,6 @@
 ---
 title: UserInformation
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定有关用户的信息。
 type: docs
 weight: 591
@@ -22,7 +22,7 @@ public class UserInformation
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAddress()](#getAddress--) | 获取用户的邮寄地址。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDefaultUser()](#getDefaultUser--) | 默认用户信息。 |
 | [getInitials()](#getInitials--) | 获取用户的姓名首字母。 |
 | [getName()](#getName--) | 获取用户名。 |
@@ -61,23 +61,23 @@ public String getAddress()
 
 **退货:**
 java.lang.String - 用户的邮寄地址。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDefaultUser() {#getDefaultUser--}
 ```
 public static UserInformation getDefaultUser()
 ```
 
 
-默认用户信息。使用[字段Options.getCurrentUser()](../../com.aspose.words/fieldoptions\#getCurrentUser--) / [字段Options.setCurrentUser(com.aspose.words.UserInformation)](../../com.aspose.words/fieldoptions\#setCurrentUser-com.aspose.words.UserInformation-)属性来指定单个文档的用户信息。
+默认用户信息。使用[FieldOptions.getCurrentUser()](../../com.aspose.words/fieldoptions\#getCurrentUser--) / [FieldOptions.setCurrentUser(com.aspose.words.UserInformation)](../../com.aspose.words/fieldoptions\#setCurrentUser-com.aspose.words.UserInformation-)属性来指定单个文档的用户信息。
 
 **退货:**
 [UserInformation](../../com.aspose.words/userinformation) - 相应的[UserInformation](../../com.aspose.words/userinformation)价值。

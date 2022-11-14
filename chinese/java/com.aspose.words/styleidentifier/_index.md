@@ -1,7 +1,7 @@
 ---
 title: StyleIdentifier
-second_title: Aspose.Words for Java API Reference
-description: 独立于语言环境的样式标识符。
+second_title: Aspose.Words for Java API 参考
+description: 与语言环境无关的样式标识符。
 type: docs
 weight: 538
 url: /zh/java/com.aspose.words/styleidentifier/
@@ -13,14 +13,14 @@ java.lang.Object
 public class StyleIdentifier
 ```
 
-独立于语言环境的样式标识符。
+与语言环境无关的样式标识符。
 
 MS Word 中内置样式的名称已针对不同语言进行了本地化。使用样式标识符，无论文档语言如何，您都可以找到正确的样式。
 
 所有用户定义的样式都分配有 StyleIdentifier.User 值。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BALLOON_TEXT](#BALLOON-TEXT) |  |
 | [BIBLIOGRAPHY](#BIBLIOGRAPHY) |  |
@@ -407,7 +407,7 @@ MS Word 中内置样式的名称已针对不同语言进行了本地化。使用
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String styleIdentifierName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int styleIdentifier)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -3478,16 +3478,16 @@ public static int fromName(String styleIdentifierName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int styleIdentifier) {#getName-int-}
 ```
 public static String getName(int styleIdentifier)

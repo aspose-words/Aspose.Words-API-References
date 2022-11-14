@@ -1,6 +1,6 @@
 ---
 title: DigitalSignatureCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 提供附加到文档的数字签名的只读集合。
 type: docs
 weight: 112
@@ -27,7 +27,7 @@ public class DigitalSignatureCollection implements Iterable
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 获取指定索引处的文档签名。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中包含的元素数。 |
 | [hashCode()](#hashCode--) |  |
 | [isValid()](#isValid--) | 如果此集合中的所有数字签名都有效并且文档未被篡改，则返回 true 如果没有数字签名，则返回 true。 |
@@ -68,16 +68,16 @@ public DigitalSignature get(int index)
 
 **退货:**
 [DigitalSignature](../../com.aspose.words/digitalsignature) - 指定索引处的文档签名。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

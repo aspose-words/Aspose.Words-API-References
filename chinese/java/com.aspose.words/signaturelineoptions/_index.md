@@ -1,6 +1,6 @@
 ---
 title: SignatureLineOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许为插入的签名行指定选项。
 type: docs
 weight: 525
@@ -22,7 +22,7 @@ public class SignatureLineOptions
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAllowComments()](#getAllowComments--) | 获取一个值，该值指示签名者可以在“签名”对话框中添加注释。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDefaultInstructions()](#getDefaultInstructions--) | 获取一个值，该值指示默认指令显示在“签名”对话框中。 |
 | [getEmail()](#getEmail--) | 获取建议的签名者的电子邮件地址。 |
 | [getInstructions()](#getInstructions--) | 获取在签署签名行时显示的对签名者的说明。 |
@@ -68,16 +68,16 @@ public boolean getAllowComments()
 
 **退货:**
 boolean - 指示签名者可以在“签名”对话框中添加注释的值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDefaultInstructions() {#getDefaultInstructions--}
 ```
 public boolean getDefaultInstructions()
@@ -117,7 +117,7 @@ public boolean getShowDate()
 获取一个值，该值指示签名日期显示在签名行中。此属性的默认值为**true**.
 
 **退货:**
-boolean - 指示签名日期显示在签名行中的值。
+布尔值 - 指示签名行中显示的签名日期的值。
 ### getSigner() {#getSigner--}
 ```
 public String getSigner()
@@ -175,7 +175,7 @@ public void setAllowComments(boolean value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 指示签名者可以在“签名”对话框中添加注释的值。 |
+| value | boolean | 一个值，指示签名者可以在“签名”对话框中添加评论。 |
 
 ### setDefaultInstructions(boolean value) {#setDefaultInstructions-boolean-}
 ```

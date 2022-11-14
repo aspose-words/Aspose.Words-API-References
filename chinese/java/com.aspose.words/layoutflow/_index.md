@@ -1,6 +1,6 @@
 ---
 title: LayoutFlow
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 确定文本框中文本布局的流向。
 type: docs
 weight: 361
@@ -16,7 +16,7 @@ public class LayoutFlow
 确定文本框中文本布局的流向。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BOTTOM_TO_TOP](#BOTTOM-TO-TOP) | 文本垂直显示。 |
 | [HORIZONTAL](#HORIZONTAL) | 文本水平显示。 |
@@ -31,7 +31,7 @@ public class LayoutFlow
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String layoutFlowName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int layoutFlow)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -126,16 +126,16 @@ public static int fromName(String layoutFlowName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int layoutFlow) {#getName-int-}
 ```
 public static String getName(int layoutFlow)

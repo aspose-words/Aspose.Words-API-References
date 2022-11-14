@@ -1,6 +1,6 @@
 ---
 title: IDocumentPartSavingCallback
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 如果您想接收通知并控制 Aspose.Words 在将文档导出为或格式化时如何保存文档部分，请实施此接口。
 type: docs
 weight: 637

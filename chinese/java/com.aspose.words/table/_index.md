@@ -1,6 +1,6 @@
 ---
 title: Table
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示 Word 文档中的表格。
 type: docs
 weight: 548
@@ -47,41 +47,41 @@ public class Table extends CompositeNode
 | [getAllowAutoFit()](#getAllowAutoFit--) | 允许 Microsoft Word 和 Aspose.Words 自动调整表格中单元格的大小以适应其内容。 |
 | [getAllowCellSpacing()](#getAllowCellSpacing--) | 获取“允许单元格之间的间距”选项。 |
 | [getAllowOverlap()](#getAllowOverlap--) | 获取浮动表是否应允许文档中的其他浮动对象在显示时与其范围重叠。 |
-| [getAncestor(int ancestor类型)](#getAncestor-int-) |  |
-| [getAncestor(班级 ancestor类型)](#getAncestor-java.lang.班级-) | 获取指定对象类型的第一个祖先。 |
+| [getAncestor(int ancestorType)](#getAncestor-int-) |  |
+| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class-) | 获取指定对象类型的第一个祖先。 |
 | [getBidi()](#getBidi--) | 获取这是否是从右到左的表。 |
 | [getBottomPadding()](#getBottomPadding--) | 获取要添加到单元格内容下方的空间量（以磅为单位）。 |
 | [getCellSpacing()](#getCellSpacing--) | 获取单元格之间的空间量（以磅为单位）。 |
-| [getChild(int node类型, int index, boolean isDeep)](#getChild-int-int-boolean-) |  |
+| [getChild(int nodeType, int index, boolean isDeep)](#getChild-int-int-boolean-) |  |
 | [getChildNodes()](#getChildNodes--) | 获取此节点的所有直接子节点。 |
-| [getChildNodes(int node类型, boolean isDeep)](#getChildNodes-int-boolean-) |  |
-| [get班级()](#get班级--) |  |
+| [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean-) |  |
+| [getClass()](#getClass--) |  |
 | [getContainer()](#getContainer--) |  |
 | [getCount()](#getCount--) | 获取此节点的直接子节点数。 |
 | [getCurrentNode()](#getCurrentNode--) |  |
 | [getCustomNodeId()](#getCustomNodeId--) | 指定自定义节点标识符。 |
-| [get描述()](#get描述--) | 获取此表的描述。 |
+| [getDescription()](#getDescription--) | 获取此表的说明。 |
 | [getDistanceBottom()](#getDistanceBottom--) | 获取表格底部和周围文本之间的距离，以磅为单位。 |
 | [getDistanceLeft()](#getDistanceLeft--) | 获取表格左侧与周围文本之间的距离，以磅为单位。 |
-| [getDistanceRight()](#getDistanceRight--) | 获取表格右侧和周围文本之间的距离，以磅为单位。 |
-| [getDistanceTop()](#getDistanceTop--) | 获取桌面和周围文本之间的距离，以磅为单位。 |
+| [getDistanceRight()](#getDistanceRight--) | 获取表格右边和周围文本之间的距离，以磅为单位。 |
+| [getDistanceTop()](#getDistanceTop--) | 获取桌面与周围文本之间的距离，以磅为单位。 |
 | [getDocument()](#getDocument--) | 获取该节点所属的文档。 |
 | [getFirstChild()](#getFirstChild--) | 获取节点的第一个子节点。 |
 | [getFirstRow()](#getFirstRow--) | 返回第一个**Row**表中的节点。 |
-| [getHorizontalAnchor()](#getHorizontalAnchor--) | 获取应计算浮动表水平定位的基础对象。 |
+| [getHorizontalAnchor()](#getHorizontalAnchor--) | 获取应根据其计算浮动表的水平定位的基础对象。 |
 | [getLastChild()](#getLastChild--) | 获取节点的最后一个子节点。 |
 | [getLastRow()](#getLastRow--) | 返回最后一个**Row**表中的节点。 |
-| [getLeftIndent()](#getLeftIndent--) | 获取表示表格左缩进的值。 |
+| [getLeftIndent()](#getLeftIndent--) | 获取表示表的左缩进的值。 |
 | [getLeftPadding()](#getLeftPadding--) | 获取要添加到单元格内容左侧的空间量（以磅为单位）。 |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node-) |  |
 | [getNextSibling()](#getNextSibling--) | 获取紧跟此节点的节点。 |
-| [getNode类型()](#getNode类型--) | 退货**Node类型.Table**. |
+| [getNodeType()](#getNodeType--) | 退货**NodeType.Table**. |
 | [getParentNode()](#getParentNode--) | 获取此节点的直接父节点。 |
 | [getPreferredWidth()](#getPreferredWidth--) | 获取表格的首选宽度。 |
 | [getPreviousSibling()](#getPreviousSibling--) | 获取紧接在此节点之前的节点。 |
 | [getRange()](#getRange--) | 返回一个**Range**表示包含在此节点中的文档部分的对象。 |
-| [getRelativeHorizontalAlignment()](#getRelativeHorizontalAlignment--) | 获取浮动表的相对水平对齐方式。 |
-| [getRelativeVerticalAlignment()](#getRelativeVerticalAlignment--) | 获取浮动表相对垂直对齐方式。 |
+| [getRelativeHorizontalAlignment()](#getRelativeHorizontalAlignment--) | 获取浮动表格的相对水平对齐方式。 |
+| [getRelativeVerticalAlignment()](#getRelativeVerticalAlignment--) | 获取浮动表格的相对垂直对齐方式。 |
 | [getRightPadding()](#getRightPadding--) | 获取要添加到单元格内容右侧的空间量（以磅为单位）。 |
 | [getRows()](#getRows--) | 提供对表行的类型化访问。 |
 | [getStyle()](#getStyle--) | 获取应用于此表格的表格样式。 |
@@ -96,19 +96,19 @@ public class Table extends CompositeNode
 | [hasChildNodes()](#hasChildNodes--) | 如果此节点有任何子节点，则返回 true。 |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(Node child)](#indexOf-com.aspose.words.Node-) | 返回子节点数组中指定子节点的索引。 |
-| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的参考节点之后立即插入指定的节点。 |
-| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的参考节点之前插入指定的节点。 |
+| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的引用节点之后立即插入指定的节点。 |
+| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node-) | 将指定节点插入到紧靠指定引用节点之前。 |
 | [isComposite()](#isComposite--) | 返回 true，因为此节点可以有子节点。 |
-| [iterator()](#iterator--) | 为在此节点的子节点上的每个样式迭代提供支持。 |
+| [iterator()](#iterator--) | 为该节点的子节点上的每个样式迭代提供支持。 |
 | [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取下一个节点。 |
-| [node类型ToString(int node类型)](#node类型ToString-int-) |  |
+| [nodeTypeToString(int nodeType)](#nodeTypeToString-int-) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [prependChild(Node newChild)](#prependChild-com.aspose.words.Node-) | 将指定节点添加到此节点的子节点列表的开头。 |
 | [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取上一个节点。 |
 | [remove()](#remove--) | 从父级中移除自身。 |
 | [removeAllChildren()](#removeAllChildren--) | 移除当前节点的所有子节点。 |
-| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node-) | 移除指定的子节点。 |
+| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node-) | 删除指定的子节点。 |
 | [removeSmartTags()](#removeSmartTags--) | 删除所有[SmartTag](../../com.aspose.words/smarttag)当前节点的后代节点。 |
 | [selectNodes(String xpath)](#selectNodes-java.lang.String-) | 选择与 XPath 表达式匹配的节点列表。 |
 | [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String-) | 选择与 XPath 表达式匹配的第一个节点。 |
@@ -118,13 +118,13 @@ public class Table extends CompositeNode
 | [setAllowAutoFit(boolean value)](#setAllowAutoFit-boolean-) | 允许 Microsoft Word 和 Aspose.Words 自动调整表格中单元格的大小以适应其内容。 |
 | [setAllowCellSpacing(boolean value)](#setAllowCellSpacing-boolean-) | 设置“允许单元格之间的间距”选项。 |
 | [setBidi(boolean value)](#setBidi-boolean-) | 设置这是否是从右到左的表格。 |
-| [setBorder(int border类型, int lineStyle, double lineWidth, Color color, boolean isOverrideCellBorders)](#setBorder-int-int-double-java.awt.Color-boolean-) |  |
+| [setBorder(int borderType, int lineStyle, double lineWidth, Color color, boolean isOverrideCellBorders)](#setBorder-int-int-double-java.awt.Color-boolean-) |  |
 | [setBorders(int lineStyle, double lineWidth, Color color)](#setBorders-int-double-java.awt.Color-) |  |
 | [setBottomPadding(double value)](#setBottomPadding-double-) | 设置要在单元格内容下方添加的空间量（以磅为单位）。 |
 | [setCellSpacing(double value)](#setCellSpacing-double-) | 设置单元格之间的空间量（以磅为单位）。 |
 | [setCustomNodeId(int value)](#setCustomNodeId-int-) | 指定自定义节点标识符。 |
-| [set描述(String value)](#set描述-java.lang.String-) | 设置此表的描述。 |
-| [setHorizontalAnchor(int value)](#setHorizontalAnchor-int-) | 获取应计算浮动表水平定位的基础对象。 |
+| [setDescription(String value)](#setDescription-java.lang.String-) | 设置此表的描述。 |
+| [setHorizontalAnchor(int value)](#setHorizontalAnchor-int-) | 获取应根据其计算浮动表的水平定位的基础对象。 |
 | [setLeftIndent(double value)](#setLeftIndent-double-) | 设置表示表格左缩进的值。 |
 | [setLeftPadding(double value)](#setLeftPadding-double-) | 设置要添加到单元格内容左侧的空间量（以磅为单位）。 |
 | [setPreferredWidth(PreferredWidth value)](#setPreferredWidth-com.aspose.words.PreferredWidth-) | 设置表格首选宽度。 |
@@ -313,7 +313,7 @@ public double getAbsoluteVerticalDistance()
 获取表格属性指定的绝对垂直浮动表格位置，以磅为单位。默认值为 0。
 
 **退货:**
-double - 表格属性指定的绝对垂直浮动表格位置，以磅为单位。
+double - 表属性指定的绝对垂直浮动表位置，以磅为单位。
 ### getAlignment() {#getAlignment--}
 ```
 public int getAlignment()
@@ -349,20 +349,20 @@ public boolean getAllowCellSpacing()
 获取“允许单元格之间的间距”选项。
 
 **退货:**
-boolean - “允许单元格之间的间距”选项。
+布尔值 - “允许单元格之间的间距”选项。
 ### getAllowOverlap() {#getAllowOverlap--}
 ```
 public boolean getAllowOverlap()
 ```
 
 
-获取浮动表是否应允许文档中的其他浮动对象在显示时与其范围重叠。默认值为 true 。
+获取浮动表格是否允许文档中的其他浮动对象在显示时与其范围重叠。默认值为 true 。
 
 **退货:**
 boolean - 浮动表格是否允许文档中的其他浮动对象在显示时与其范围重叠。
-### getAncestor(int ancestor类型) {#getAncestor-int-}
+### getAncestor(int ancestorType) {#getAncestor-int-}
 ```
-public CompositeNode getAncestor(int ancestor类型)
+public CompositeNode getAncestor(int ancestorType)
 ```
 
 
@@ -371,13 +371,13 @@ public CompositeNode getAncestor(int ancestor类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ancestor类型 | int |  |
+| ancestorType | int |  |
 
 **退货:**
 [CompositeNode](../../com.aspose.words/compositenode)
-### getAncestor(班级 ancestor类型) {#getAncestor-java.lang.班级-}
+### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
 ```
-public CompositeNode getAncestor(班级 ancestor类型)
+public CompositeNode getAncestor(Class ancestorType)
 ```
 
 
@@ -386,7 +386,7 @@ public CompositeNode getAncestor(班级 ancestor类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ancestor类型 | java.lang.班级 | 要检索的祖先的对象类型。 |
+| ancestorType | java.lang.Class | 要检索的祖先的对象类型。 |
 
 **退货:**
 [CompositeNode](../../com.aspose.words/compositenode) - 指定类型的祖先，如果没有找到该类型的祖先，则返回 null。
@@ -400,12 +400,12 @@ public boolean getBidi()
 
 获取这是否是从右到左的表。
 
-当为 true 时，此行中的单元格从右到左排列。
+为 true 时，此行中的单元格从右到左排列。
 
 默认值为 false 。
 
 **退货:**
-boolean - 这是否是一个从右到左的表。
+boolean - 这是否是一个从右到左的表格。
 ### getBottomPadding() {#getBottomPadding--}
 ```
 public double getBottomPadding()
@@ -426,9 +426,9 @@ public double getCellSpacing()
 
 **退货:**
 double - 单元格之间的空间量（以磅为单位）。
-### getChild(int node类型, int index, boolean isDeep) {#getChild-int-int-boolean-}
+### getChild(int nodeType, int index, boolean isDeep) {#getChild-int-int-boolean-}
 ```
-public Node getChild(int node类型, int index, boolean isDeep)
+public Node getChild(int nodeType, int index, boolean isDeep)
 ```
 
 
@@ -437,7 +437,7 @@ public Node getChild(int node类型, int index, boolean isDeep)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 | index | int |  |
 | isDeep | boolean |  |
 
@@ -451,15 +451,15 @@ public NodeCollection getChildNodes()
 
 获取此节点的所有直接子节点。
 
-笔记，[getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes--)相当于调用 GetChildNodes(Node类型.Any, false) 并在每次访问时创建并返回一个新集合。
+笔记，[getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes--)相当于调用 GetChildNodes(NodeType.Any, false) 并在每次访问时创建并返回一个新集合。
 
 如果没有子节点，则此属性返回一个空集合。
 
 **退货:**
 [NodeCollection](../../com.aspose.words/nodecollection) - 该节点的所有直接子节点。
-### getChildNodes(int node类型, boolean isDeep) {#getChildNodes-int-boolean-}
+### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean-}
 ```
-public NodeCollection getChildNodes(int node类型, boolean isDeep)
+public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 ```
 
 
@@ -468,21 +468,21 @@ public NodeCollection getChildNodes(int node类型, boolean isDeep)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 | isDeep | boolean |  |
 
 **退货:**
 [NodeCollection](../../com.aspose.words/nodecollection)
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getContainer() {#getContainer--}
 ```
 public CompositeNode getContainer()
@@ -529,17 +529,17 @@ public int getCustomNodeId()
 
 **退货:**
 int - 对应的 int 值。
-### get描述() {#get描述--}
+### getDescription() {#getDescription--}
 ```
-public String get描述()
+public String getDescription()
 ```
 
 
-获取此表的描述。它提供表中包含的信息的替代文本表示。
+获取此表的说明。它提供表中包含的信息的替代文本表示。
 
 默认值为空字符串。
 
-此属性对符合 ISO/IEC 29500 的 DOCX 文档有意义（[OoxmlCompliance](../../com.aspose.words/ooxmlcompliance)）。当保存为 pre-ISO/IEC 29500 格式时，该属性将被忽略。
+此属性对符合 ISO/IEC 29500 的 DOCX 文档有意义（[OoxmlCompliance](../../com.aspose.words/ooxmlcompliance)）。当保存为 ISO/IEC 29500 之前的格式时，该属性将被忽略。
 
 **退货:**
 java.lang.String - 此表的描述。
@@ -569,7 +569,7 @@ public double getDistanceRight()
 ```
 
 
-获取表格右侧和周围文本之间的距离，以磅为单位。
+获取表格右边和周围文本之间的距离，以磅为单位。
 
 **退货:**
 double - 表格右侧和周围文本之间的距离，以磅为单位。
@@ -579,7 +579,7 @@ public double getDistanceTop()
 ```
 
 
-获取桌面和周围文本之间的距离，以磅为单位。
+获取桌面与周围文本之间的距离，以磅为单位。
 
 **退货:**
 double - 桌面与周围文本之间的距离，以磅为单位。
@@ -651,7 +651,7 @@ public double getLeftIndent()
 ```
 
 
-获取表示表格左缩进的值。
+获取表示表的左缩进的值。
 
 **退货:**
 double - 表示表格左缩进的值。
@@ -686,20 +686,20 @@ public Node getNextSibling()
 ```
 
 
-获取紧跟此节点的节点。如果没有下一个节点，则返回 null。
+获取紧跟在该节点之后的节点。如果没有下一个节点，则返回 null。
 
 **退货:**
-[Node](../../com.aspose.words/node) - 紧跟该节点的节点。
-### getNode类型() {#getNode类型--}
+[Node](../../com.aspose.words/node) - 紧接此节点之后的节点。
+### getNodeType() {#getNodeType--}
 ```
-public int getNode类型()
+public int getNodeType()
 ```
 
 
-退货**Node类型.Table**.
+退货**NodeType.Table**.
 
 **退货:**
-诠释 -**Node类型.Table** .返回值是以下之一[Node类型](../../com.aspose.words/nodetype)常数。
+整数 -**NodeType.Table** .返回值是其中之一[NodeType](../../com.aspose.words/nodetype)常数。
 ### getParentNode() {#getParentNode--}
 ```
 public CompositeNode getParentNode()
@@ -708,10 +708,10 @@ public CompositeNode getParentNode()
 
 获取此节点的直接父节点。
 
-如果一个节点刚刚创建但尚未添加到树中，或者它已从树中删除，则父节点为空。
+如果一个节点刚刚被创建并且还没有被添加到树中，或者如果它已经被从树中移除，则父节点为空。
 
 **退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 该节点的直接父节点。
+[CompositeNode](../../com.aspose.words/compositenode) - 此节点的直接父节点。
 ### getPreferredWidth() {#getPreferredWidth--}
 ```
 public PreferredWidth getPreferredWidth()
@@ -730,10 +730,10 @@ public Node getPreviousSibling()
 ```
 
 
-获取紧接在此节点之前的节点。如果没有前面的节点，则返回 null。
+获取紧接在该节点之前的节点。如果前面没有节点，则返回 null。
 
 **退货:**
-[Node](../../com.aspose.words/node) - 紧接在此节点之前的节点。
+[Node](../../com.aspose.words/node) - 紧接在该节点之前的节点。
 ### getRange() {#getRange--}
 ```
 public Range getRange()
@@ -750,7 +750,7 @@ public int getRelativeHorizontalAlignment()
 ```
 
 
-获取浮动表的相对水平对齐方式。
+获取浮动表格的相对水平对齐方式。
 
 **退货:**
  int - 浮动表相对水平对齐。返回值是以下之一[HorizontalAlignment](../../com.aspose.words/horizontalalignment)常数。
@@ -760,7 +760,7 @@ public int getRelativeVerticalAlignment()
 ```
 
 
-获取浮动表相对垂直对齐方式。
+获取浮动表格的相对垂直对齐方式。
 
 **退货:**
 int - 浮动表相对垂直对齐。返回值是以下之一[VerticalAlignment](../../com.aspose.words/verticalalignment)常数。
@@ -803,7 +803,7 @@ public int getStyleIdentifier()
 获取应用于此表的表样式的与区域无关的样式标识符。
 
 **退货:**
- int - 应用于此表的表样式的区域设置独立样式标识符。返回值是以下之一[StyleIdentifier](../../com.aspose.words/styleidentifier)常数。
+ int - 应用于此表的表样式的区域独立样式标识符。返回值是以下之一[StyleIdentifier](../../com.aspose.words/styleidentifier)常数。
 ### getStyleName() {#getStyleName--}
 ```
 public String getStyleName()
@@ -813,7 +813,7 @@ public String getStyleName()
 获取应用于此表的表样式的名称。
 
 **退货:**
-java.lang.String - 应用于此表的表样式的名称。
+java.lang.String - 应用于此表格的表格样式的名称。
 ### getStyleOptions() {#getStyleOptions--}
 ```
 public int getStyleOptions()
@@ -823,7 +823,7 @@ public int getStyleOptions()
 获取指定如何将表格样式应用于此表格的位标志。
 
 **退货:**
- int - 指定如何将表格样式应用于此表格的位标志。返回值是按位组合[TableStyleOptions](../../com.aspose.words/tablestyleoptions)常数。
+ int - 指定表格样式如何应用于此表格的位标志。返回值是按位组合[TableStyleOptions](../../com.aspose.words/tablestyleoptions)常数。
 ### getText() {#getText--}
 ```
 public String getText()
@@ -845,7 +845,7 @@ public int getTextWrapping()
 获取[getTextWrapping()](../../com.aspose.words/table\#getTextWrapping--) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int-)为表。
 
 **退货:**
-诠释 -\{[getTextWrapping()](../../com.aspose.words/table\#getTextWrapping--) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int-)为表。返回值是以下之一[TextWrapping](../../com.aspose.words/textwrapping)常数。
+整数 -\{[getTextWrapping()](../../com.aspose.words/table\#getTextWrapping--) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int-)表。返回值是以下之一[TextWrapping](../../com.aspose.words/textwrapping)常数。
 ### getTitle() {#getTitle--}
 ```
 public String getTitle()
@@ -856,7 +856,7 @@ public String getTitle()
 
 默认值为空字符串。
 
-此属性对符合 ISO/IEC 29500 的 DOCX 文档有意义（[OoxmlCompliance](../../com.aspose.words/ooxmlcompliance)）。当保存为 pre-ISO/IEC 29500 格式时，该属性将被忽略。
+此属性对符合 ISO/IEC 29500 的 DOCX 文档有意义（[OoxmlCompliance](../../com.aspose.words/ooxmlcompliance)）。当保存为 ISO/IEC 29500 之前的格式时，该属性将被忽略。
 
 **退货:**
 java.lang.String - 此表的标题。
@@ -869,17 +869,17 @@ public double getTopPadding()
 获取要添加到单元格内容上方的空间量（以磅为单位）。
 
 **退货:**
-double - 添加到单元格内容上方的空间量（以磅为单位）。
+double - 在单元格内容上方添加的空间量（以磅为单位）。
 ### getVerticalAnchor() {#getVerticalAnchor--}
 ```
 public int getVerticalAnchor()
 ```
 
 
-获取应计算浮动表垂直定位的基础对象。默认值为[RelativeVerticalPosition.MARGIN](../../com.aspose.words/relativeverticalposition\#MARGIN).
+获取应该从中计算浮动表的垂直定位的基础对象。默认值为[RelativeVerticalPosition.MARGIN](../../com.aspose.words/relativeverticalposition\#MARGIN).
 
 **退货:**
-int - 计算浮动表垂直定位的基础对象。返回值是以下之一[RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition)常数。
+int - 应该从中计算浮动表的垂直定位的基础对象。返回值是以下之一[RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition)常数。
 ### hasChildNodes() {#hasChildNodes--}
 ```
 public boolean hasChildNodes()
@@ -921,7 +921,7 @@ public Node insertAfter(Node newChild, Node refChild)
 ```
 
 
-在指定的参考节点之后立即插入指定的节点。
+在指定的引用节点之后立即插入指定的节点。
 
 如果 refChild 为 null，则在子节点列表的开头插入 newChild。
 
@@ -943,7 +943,7 @@ public Node insertBefore(Node newChild, Node refChild)
 ```
 
 
-在指定的参考节点之前插入指定的节点。
+将指定节点插入到紧靠指定引用节点之前。
 
 如果 refChild 为 null，则在子节点列表的末尾插入 newChild。
 
@@ -975,7 +975,7 @@ public Iterator iterator()
 ```
 
 
-为在此节点的子节点上的每个样式迭代提供支持。
+为该节点的子节点上的每个样式迭代提供支持。
 
 **退货:**
 java.util.Iterator
@@ -994,9 +994,9 @@ public Node nextPreOrder(Node rootNode)
 
 **退货:**
 [Node](../../com.aspose.words/node) - 预购订单中的下一个节点。如果到达 rootNode，则为 Null。
-### node类型ToString(int node类型) {#node类型ToString-int-}
+### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
 ```
-public static String node类型ToString(int node类型)
+public static String nodeTypeToString(int nodeType)
 ```
 
 
@@ -1005,7 +1005,7 @@ public static String node类型ToString(int node类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 
 **退货:**
 java.lang.String
@@ -1081,7 +1081,7 @@ public Node removeChild(Node oldChild)
 ```
 
 
-移除指定的子节点。
+删除指定的子节点。
 
 删除节点后，oldChild 的父级设置为 null。
 
@@ -1213,7 +1213,7 @@ public void setBidi(boolean value)
 
 设置这是否是从右到左的表格。
 
-当为 true 时，此行中的单元格从右到左排列。
+为 true 时，此行中的单元格从右到左排列。
 
 默认值为 false 。
 
@@ -1222,9 +1222,9 @@ public void setBidi(boolean value)
 | --- | --- | --- |
 | value | boolean | 这是否是从右到左的表。 |
 
-### setBorder(int border类型, int lineStyle, double lineWidth, Color color, boolean isOverrideCellBorders) {#setBorder-int-int-double-java.awt.Color-boolean-}
+### setBorder(int borderType, int lineStyle, double lineWidth, Color color, boolean isOverrideCellBorders) {#setBorder-int-int-double-java.awt.Color-boolean-}
 ```
-public void setBorder(int border类型, int lineStyle, double lineWidth, Color color, boolean isOverrideCellBorders)
+public void setBorder(int borderType, int lineStyle, double lineWidth, Color color, boolean isOverrideCellBorders)
 ```
 
 
@@ -1233,7 +1233,7 @@ public void setBorder(int border类型, int lineStyle, double lineWidth, Color c
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| border类型 | int |  |
+| borderType | int |  |
 | lineStyle | int |  |
 | lineWidth | double |  |
 | color | java.awt.Color |  |
@@ -1299,9 +1299,9 @@ public void setCustomNodeId(int value)
 | --- | --- | --- |
 | value | int | 对应的 int 值。 |
 
-### set描述(String value) {#set描述-java.lang.String-}
+### setDescription(String value) {#setDescription-java.lang.String-}
 ```
-public void set描述(String value)
+public void setDescription(String value)
 ```
 
 
@@ -1309,7 +1309,7 @@ public void set描述(String value)
 
 默认值为空字符串。
 
-此属性对符合 ISO/IEC 29500 的 DOCX 文档有意义（[OoxmlCompliance](../../com.aspose.words/ooxmlcompliance)）。当保存为 pre-ISO/IEC 29500 格式时，该属性将被忽略。
+此属性对符合 ISO/IEC 29500 的 DOCX 文档有意义（[OoxmlCompliance](../../com.aspose.words/ooxmlcompliance)）。当保存为 ISO/IEC 29500 之前的格式时，该属性将被忽略。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1327,7 +1327,7 @@ public void setHorizontalAnchor(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 计算浮动表水平定位的基础对象。该值必须是以下之一[RelativeHorizontalPosition](../../com.aspose.words/relativehorizontalposition)常数。 |
+| value | int | 计算浮动表水平定位的基础对象。该值必须是其中之一[RelativeHorizontalPosition](../../com.aspose.words/relativehorizontalposition)常数。 |
 
 ### setLeftIndent(double value) {#setLeftIndent-double-}
 ```
@@ -1368,7 +1368,7 @@ public void setPreferredWidth(PreferredWidth value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [PreferredWidth](../../com.aspose.words/preferredwidth) | 表格首选宽度。 |
+| value | [PreferredWidth](../../com.aspose.words/preferredwidth) | 表格的首选宽度。 |
 
 ### setRelativeHorizontalAlignment(int value) {#setRelativeHorizontalAlignment-int-}
 ```
@@ -1381,7 +1381,7 @@ public void setRelativeHorizontalAlignment(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 浮动表相对水平对齐。该值必须是以下之一[HorizontalAlignment](../../com.aspose.words/horizontalalignment)常数。 |
+| value | int | 浮动表相对水平对齐。该值必须是其中之一[HorizontalAlignment](../../com.aspose.words/horizontalalignment)常数。 |
 
 ### setRelativeVerticalAlignment(int value) {#setRelativeVerticalAlignment-int-}
 ```
@@ -1394,7 +1394,7 @@ public void setRelativeVerticalAlignment(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 浮动表相对垂直对齐。该值必须是以下之一[VerticalAlignment](../../com.aspose.words/verticalalignment)常数。 |
+| value | int | 浮动表相对垂直对齐。该值必须是其中之一[VerticalAlignment](../../com.aspose.words/verticalalignment)常数。 |
 
 ### setRightPadding(double value) {#setRightPadding-double-}
 ```
@@ -1448,7 +1448,7 @@ public void setStyleIdentifier(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 应用于此表的表样式的区域设置独立样式标识符。该值必须是以下之一[StyleIdentifier](../../com.aspose.words/styleidentifier)常数。 |
+| value | int | 应用于此表的表样式的区域设置独立样式标识符。该值必须是其中之一[StyleIdentifier](../../com.aspose.words/styleidentifier)常数。 |
 
 ### setStyleName(String value) {#setStyleName-java.lang.String-}
 ```
@@ -1474,7 +1474,7 @@ public void setStyleOptions(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 指定如何将表格样式应用于此表格的位标志。该值必须是按位组合[TableStyleOptions](../../com.aspose.words/tablestyleoptions)常数。 |
+| value | int | 指定表格样式如何应用于此表格的位标志。该值必须是按位组合的[TableStyleOptions](../../com.aspose.words/tablestyleoptions)常数。 |
 
 ### setTextWrapping(int value) {#setTextWrapping-int-}
 ```
@@ -1487,7 +1487,7 @@ public void setTextWrapping(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | \{[getTextWrapping()](../../com.aspose.words/table\#getTextWrapping--) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int-)为表。该值必须是以下之一[TextWrapping](../../com.aspose.words/textwrapping)常数。 |
+| value | int | \{[getTextWrapping()](../../com.aspose.words/table\#getTextWrapping--) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int-)表。该值必须是其中之一[TextWrapping](../../com.aspose.words/textwrapping)常数。 |
 
 ### setTitle(String value) {#setTitle-java.lang.String-}
 ```
@@ -1499,7 +1499,7 @@ public void setTitle(String value)
 
 默认值为空字符串。
 
-此属性对符合 ISO/IEC 29500 的 DOCX 文档有意义（[OoxmlCompliance](../../com.aspose.words/ooxmlcompliance)）。当保存为 pre-ISO/IEC 29500 格式时，该属性将被忽略。
+此属性对符合 ISO/IEC 29500 的 DOCX 文档有意义（[OoxmlCompliance](../../com.aspose.words/ooxmlcompliance)）。当保存为 ISO/IEC 29500 之前的格式时，该属性将被忽略。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1525,12 +1525,12 @@ public void setVerticalAnchor(int value)
 ```
 
 
-获取应计算浮动表垂直定位的基础对象。默认值为[RelativeVerticalPosition.MARGIN](../../com.aspose.words/relativeverticalposition\#MARGIN).
+获取应该从中计算浮动表的垂直定位的基础对象。默认值为[RelativeVerticalPosition.MARGIN](../../com.aspose.words/relativeverticalposition\#MARGIN).
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 计算浮动表垂直定位的基础对象。该值必须是以下之一[RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition)常数。 |
+| value | int | 应该从中计算浮动表的垂直定位的基础对象。该值必须是其中之一[RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition)常数。 |
 
 ### toString() {#toString--}
 ```

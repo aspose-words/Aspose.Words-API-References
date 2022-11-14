@@ -1,6 +1,6 @@
 ---
 title: PdfCustomPropertiesExport
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定导出为 PDF 文件的方式。
 type: docs
 weight: 450
@@ -16,7 +16,7 @@ public class PdfCustomPropertiesExport
 指定方式[Document.getCustomDocumentProperties()](../../com.aspose.words/document\#getCustomDocumentProperties--)导出为 PDF 文件。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [METADATA](#METADATA) | 自定义属性是元数据。 |
 | [NONE](#NONE) | 不导出自定义属性。 |
@@ -28,7 +28,7 @@ public class PdfCustomPropertiesExport
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pdfCustomPropertiesExportName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int pdfCustomPropertiesExport)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -47,7 +47,7 @@ public static int METADATA
 
 自定义属性是元数据。
 
-XMP 数据包中导出属性的命名空间是“custprops”。每个属性都有一个关联的 xml 元素“custprops:Property1”、“custprops:Property2”等等。属性元素中有“rdf:描述”元素。 description 元素有两个元素“custprops:Name”，包含自定义属性的名称作为此 xml 元素的值，以及“custprops:Value”，包含自定义属性的值作为此 xml 元素的值。
+XMP 数据包中导出属性的命名空间是“custprops”。每个属性都有一个关联的 xml 元素“custprops:Property1”、“custprops:Property2”等等。属性元素中有“rdf:Description”元素。 description 元素有两个元素“custprops:Name”，包含自定义属性的名称作为此 xml 元素的值，以及“custprops:Value”，包含自定义属性的值作为此 xml 元素的值。
 
 ### NONE {#NONE}
 ```
@@ -103,16 +103,16 @@ public static int fromName(String pdfCustomPropertiesExportName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int pdfCustomPropertiesExport) {#getName-int-}
 ```
 public static String getName(int pdfCustomPropertiesExport)

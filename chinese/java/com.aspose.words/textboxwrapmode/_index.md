@@ -1,6 +1,6 @@
 ---
 title: TextBoxWrapMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定文本在形状内的换行方式。
 type: docs
 weight: 560
@@ -16,10 +16,10 @@ public class TextBoxWrapMode
 指定文本在形状内的换行方式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
-| [NONE](#NONE) | 文本不会在形状内换行。 |
-| [SQUARE](#SQUARE) | 文本在形状内换行。 |
+| [NONE](#NONE) | 文本不环绕在形状内。 |
+| [SQUARE](#SQUARE) | 文本环绕在形状内。 |
 | [length](#length) |  |
 ## 方法
 
@@ -27,7 +27,7 @@ public class TextBoxWrapMode
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String textBoxWrapModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int textBoxWrapMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int NONE
 ```
 
 
-文本不会在形状内换行。
+文本不环绕在形状内。
 
 ### SQUARE {#SQUARE}
 ```
@@ -52,7 +52,7 @@ public static int SQUARE
 ```
 
 
-文本在形状内换行。
+文本环绕在形状内。
 
 ### length {#length}
 ```
@@ -90,16 +90,16 @@ public static int fromName(String textBoxWrapModeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int textBoxWrapMode) {#getName-int-}
 ```
 public static String getName(int textBoxWrapMode)

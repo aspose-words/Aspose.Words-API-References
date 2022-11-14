@@ -1,7 +1,7 @@
 ---
 title: ReplaceAction
-second_title: Aspose.Words for Java API Reference
-description: 允许用户指定在替换操作期间当前匹配发生的情况。
+second_title: Aspose.Words for Java API 参考
+description: 允许用户指定在替换操作期间对当前匹配项发生的情况。
 type: docs
 weight: 475
 url: /zh/java/com.aspose.words/replaceaction/
@@ -13,10 +13,10 @@ java.lang.Object
 public class ReplaceAction
 ```
 
-允许用户指定在替换操作期间当前匹配发生的情况。
+允许用户指定在替换操作期间对当前匹配项发生的情况。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [REPLACE](#REPLACE) | 替换当前匹配。 |
 | [SKIP](#SKIP) | 跳过当前比赛。 |
@@ -28,7 +28,7 @@ public class ReplaceAction
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String replaceActionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int replaceAction)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -99,16 +99,16 @@ public static int fromName(String replaceActionName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int replaceAction) {#getName-int-}
 ```
 public static String getName(int replaceAction)

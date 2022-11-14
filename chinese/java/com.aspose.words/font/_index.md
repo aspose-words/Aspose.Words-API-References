@@ -1,6 +1,6 @@
 ---
 title: Font
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 包含对象的字体属性字体名称字体大小颜色等。
 type: docs
 weight: 275
@@ -31,17 +31,17 @@ public class Font
 | [getBidi()](#getBidi--) | 指定此运行的内容是否应具有从右到左的特征。 |
 | [getBold()](#getBold--) | 如果字体格式为粗体，则为真。 |
 | [getBoldBi()](#getBoldBi--) | 如果从右到左的文本格式设置为粗体，则为真。 |
-| [getBorder()](#getBorder--) | 返回一个 Border 对象，该对象指定字体的边框。 |
-| [get班级()](#get班级--) |  |
+| [getBorder()](#getBorder--) | 返回指定字体边框的 Border 对象。 |
+| [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | 获取字体的颜色。 |
-| [getComplexScript()](#getComplexScript--) | 指定在确定此运行的格式时，是否应将此运行的内容视为复杂脚本文本，而不管其 Unicode 字符值如何。 |
+| [getComplexScript()](#getComplexScript--) | 指定在确定此运行的格式时，是否应将此运行的内容视为复杂的脚本文本，而不考虑其 Unicode 字符值。 |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int-) |  |
 | [getDoubleStrikeThrough()](#getDoubleStrikeThrough--) | 如果字体格式为双删除线文本，则为真。 |
-| [getEmboss()](#getEmboss--) | 如果字体被格式化为浮雕，则为真。 |
+| [getEmboss()](#getEmboss--) | 如果字体格式为浮雕，则为真。 |
 | [getEmphasisMark()](#getEmphasisMark--) | 获取应用于此格式的强调标记。 |
 | [getEngrave()](#getEngrave--) | 如果字体格式为雕刻，则为真。 |
 | [getFill()](#getFill--) | 获取字体的填充格式。 |
-| [getFill类型()](#getFill类型--) |  |
+| [getFillType()](#getFillType--) |  |
 | [getFillableBackColor()](#getFillableBackColor--) |  |
 | [getFillableForeColor()](#getFillableForeColor--) |  |
 | [getFillableImageBytes()](#getFillableImageBytes--) |  |
@@ -55,8 +55,8 @@ public class Font
 | [getHidden()](#getHidden--) | 如果字体被格式化为隐藏文本，则为真。 |
 | [getHighlightColor()](#getHighlightColor--) | 获取高亮（标记）颜色。 |
 | [getItalic()](#getItalic--) | 如果字体格式为斜体，则为真。 |
-| [getItalicBi()](#getItalicBi--) | 如果从右到左的文本格式为斜体，则为真。 |
-| [getKerning()](#getKerning--) | 获取字距调整开始的字体大小。 |
+| [getItalicBi()](#getItalicBi--) | 如果从右到左的文本格式设置为斜体，则为真。 |
+| [getKerning()](#getKerning--) | 获取字距调整开始时的字体大小。 |
 | [getLineSpacing()](#getLineSpacing--) | 返回此字体的行距（以磅为单位）。 |
 | [getLocaleId()](#getLocaleId--) | 获取格式化字符的区域设置标识符（语言）。 |
 | [getLocaleIdBi()](#getLocaleIdBi--) | 获取格式化的从右到左字符的区域设置标识符（语言）。 |
@@ -70,7 +70,7 @@ public class Font
 | [getOn()](#getOn--) |  |
 | [getOpacity()](#getOpacity--) |  |
 | [getOutline()](#getOutline--) | 如果字体被格式化为轮廓，则为真。 |
-| [getPattern类型()](#getPattern类型--) |  |
+| [getPatternType()](#getPatternType--) |  |
 | [getPosition()](#getPosition--) | 获取文本相对于基线的位置（以磅为单位）。 |
 | [getPresetTexture()](#getPresetTexture--) |  |
 | [getRotateWithObject()](#getRotateWithObject--) |  |
@@ -95,16 +95,16 @@ public class Font
 | [getThemeFontAscii()](#getThemeFontAscii--) | 获取与此 Font 对象关联的应用字体方案中用于拉丁文本（字符代码从 0（零）到 127 的字符）的主题字体。 |
 | [getThemeFontBi()](#getThemeFontBi--) | 在从右到左的语言文档中获取与此 Font 对象关联的应用字体方案中的主题字体。 |
 | [getThemeFontFarEast()](#getThemeFontFarEast--) | 获取与此 Font 对象关联的应用字体方案中的东亚主题字体。 |
-| [getThemeFontOther()](#getThemeFontOther--) | 获取与此 Font 对象关联的应用字体方案中字符代码从 128 到 255 的字符使用的主题字体。 |
+| [getThemeFontOther()](#getThemeFontOther--) | 获取与此 Font 对象关联的应用字体方案中字符代码为 128 到 255 的字符所使用的主题字体。 |
 | [getTintAndShade()](#getTintAndShade--) | 获取使颜色变亮或变暗的双精度值。 |
 | [getUnderline()](#getUnderline--) | 获取应用于字体的下划线类型。 |
 | [getUnderlineColor()](#getUnderlineColor--) | 获取应用于字体的下划线颜色。 |
-| [hasDmlEffect(int dmlEffect类型)](#hasDmlEffect-int-) |  |
+| [hasDmlEffect(int dmlEffectType)](#hasDmlEffect-int-) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [oneColorGradient(int style, int variant, double degree)](#oneColorGradient-int-int-double-) |  |
-| [patterned(int pattern类型)](#patterned-int-) |  |
+| [patterned(int patternType)](#patterned-int-) |  |
 | [presetTextured(int presetTexture)](#presetTextured-int-) |  |
 | [setAllCaps(boolean value)](#setAllCaps-boolean-) | 如果字体格式全部为大写字母，则为真。 |
 | [setBidi(boolean value)](#setBidi-boolean-) | 指定此运行的内容是否应具有从右到左的特征。 |
@@ -112,9 +112,9 @@ public class Font
 | [setBoldBi(boolean value)](#setBoldBi-boolean-) | 如果从右到左的文本格式设置为粗体，则为真。 |
 | [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object-) |  |
 | [setColor(Color value)](#setColor-java.awt.Color-) | 设置字体的颜色。 |
-| [setComplexScript(boolean value)](#setComplexScript-boolean-) | 指定在确定此运行的格式时，是否应将此运行的内容视为复杂脚本文本，而不管其 Unicode 字符值如何。 |
+| [setComplexScript(boolean value)](#setComplexScript-boolean-) | 指定在确定此运行的格式时，是否应将此运行的内容视为复杂的脚本文本，而不考虑其 Unicode 字符值。 |
 | [setDoubleStrikeThrough(boolean value)](#setDoubleStrikeThrough-boolean-) | 如果字体格式为双删除线文本，则为真。 |
-| [setEmboss(boolean value)](#setEmboss-boolean-) | 如果字体被格式化为浮雕，则为真。 |
+| [setEmboss(boolean value)](#setEmboss-boolean-) | 如果字体格式为浮雕，则为真。 |
 | [setEmphasisMark(int value)](#setEmphasisMark-int-) | 设置应用于此格式的强调标记。 |
 | [setEngrave(boolean value)](#setEngrave-boolean-) | 如果字体格式为雕刻，则为真。 |
 | [setFillableBackColor(Color value)](#setFillableBackColor-java.awt.Color-) |  |
@@ -124,11 +124,11 @@ public class Font
 | [setFilledColor(Color value)](#setFilledColor-java.awt.Color-) |  |
 | [setGradientAngle(double value)](#setGradientAngle-double-) |  |
 | [setHidden(boolean value)](#setHidden-boolean-) | 如果字体被格式化为隐藏文本，则为真。 |
-| [setHighlightColor(Color value)](#setHighlightColor-java.awt.Color-) | 设置高亮（标记）颜色。 |
+| [setHighlightColor(Color value)](#setHighlightColor-java.awt.Color-) | 设置突出显示（标记）颜色。 |
 | [setImage(byte[] imageBytes)](#setImage-byte---) |  |
 | [setItalic(boolean value)](#setItalic-boolean-) | 如果字体格式为斜体，则为真。 |
-| [setItalicBi(boolean value)](#setItalicBi-boolean-) | 如果从右到左的文本格式为斜体，则为真。 |
-| [setKerning(double value)](#setKerning-double-) | 设置字距调整开始的字体大小。 |
+| [setItalicBi(boolean value)](#setItalicBi-boolean-) | 如果从右到左的文本格式设置为斜体，则为真。 |
+| [setKerning(double value)](#setKerning-double-) | 设置字距调整开始时的字体大小。 |
 | [setLocaleId(int value)](#setLocaleId-int-) | 设置格式化字符的区域设置标识符（语言）。 |
 | [setLocaleIdBi(int value)](#setLocaleIdBi-int-) | 设置格式化的从右到左字符的区域设置标识符（语言）。 |
 | [setLocaleIdFarEast(int value)](#setLocaleIdFarEast-int-) | 设置格式化亚洲字符的区域设置标识符（语言）。 |
@@ -260,9 +260,9 @@ public boolean getBidi()
 
 此属性在打开时不应与从左到右的文本一起使用。在这种情况下的任何行为都是未指定的。此属性在关闭时不应与从右到左的强文本一起使用。在这种情况下的任何行为都是未指定的。
 
-当显示本次运行的内容时，出于格式化目的，所有字符都应被视为复杂的脚本字符。这意味着[getBoldBi()](../../com.aspose.words/font\#getBoldBi--) / [setBoldBi(boolean)](../../com.aspose.words/font\#setBoldBi-boolean-), [getItalicBi()](../../com.aspose.words/font\#getItalicBi--) / [setItalicBi(boolean)](../../com.aspose.words/font\#setItalicBi-boolean-), [getSizeBi()](../../com.aspose.words/font\#getSizeBi--) / [setSizeBi(double)](../../com.aspose.words/font\#setSizeBi-double-)并且在渲染此运行时将使用相应的字体名称。
+当显示此运行的内容时，出于格式化目的，所有字符都应视为复杂脚本字符。这意味着[getBoldBi()](../../com.aspose.words/font\#getBoldBi--) / [setBoldBi(boolean)](../../com.aspose.words/font\#setBoldBi-boolean-), [getItalicBi()](../../com.aspose.words/font\#getItalicBi--) / [setItalicBi(boolean)](../../com.aspose.words/font\#setItalicBi-boolean-), [getSizeBi()](../../com.aspose.words/font\#getSizeBi--) / [setSizeBi(double)](../../com.aspose.words/font\#setSizeBi-double-)并在渲染此运行时使用相应的字体名称。
 
-此外，当显示此运行的内容时，此属性充当从右到左的覆盖，用于分类为“弱类型”和“中性类型”的字符。
+此外，当显示此运行的内容时，此属性充当分类为“弱类型”和“中性类型”的字符的从右到左的覆盖。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -292,20 +292,20 @@ public Border getBorder()
 ```
 
 
-返回一个 Border 对象，该对象指定字体的边框。
+返回指定字体边框的 Border 对象。
 
 **退货:**
-[Border](../../com.aspose.words/border) - 为字体指定边框的 Border 对象。
-### get班级() {#get班级--}
+[Border](../../com.aspose.words/border) - 指定字体边框的 Border 对象。
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getColor() {#getColor--}
 ```
 public Color getColor()
@@ -322,7 +322,7 @@ public boolean getComplexScript()
 ```
 
 
-指定在确定此运行的格式时，是否应将此运行的内容视为复杂脚本文本，而不管其 Unicode 字符值如何。
+指定在确定此运行的格式时，是否应将此运行的内容视为复杂的脚本文本，而不考虑其 Unicode 字符值。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -357,7 +357,7 @@ public boolean getEmboss()
 ```
 
 
-如果字体被格式化为浮雕，则为真。
+如果字体格式为浮雕，则为真。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -390,10 +390,10 @@ public Fill getFill()
 获取字体的填充格式。
 
 **退货:**
-[Fill](../../com.aspose.words/fill) 填写字体格式。
-### getFill类型() {#getFill类型--}
+[Fill](../../com.aspose.words/fill) 填充字体格式。
+### getFillType() {#getFillType--}
 ```
-public int getFill类型()
+public int getFillType()
 ```
 
 
@@ -537,7 +537,7 @@ public boolean getItalicBi()
 ```
 
 
-如果从右到左的文本格式为斜体，则为真。
+如果从右到左的文本格式设置为斜体，则为真。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -547,10 +547,10 @@ public double getKerning()
 ```
 
 
-获取字距调整开始的字体大小。
+获取字距调整开始时的字体大小。
 
 **退货:**
-double - 字距调整开始的字体大小。
+double - 字距调整开始时的字体大小。
 ### getLineSpacing() {#getLineSpacing--}
 ```
 public double getLineSpacing()
@@ -567,7 +567,7 @@ public int getLocaleId()
 ```
 
 
-获取格式化字符的区域设置标识符（语言）。有关区域设置标识符的列表，请参见 https://msdn.microsoft.com/en-us/library/cc233965.aspx
+获取格式化字符的区域设置标识符（语言）。有关区域设置标识符的列表，请参阅 https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
 **退货:**
 int - 格式化字符的区域设置标识符（语言）。
@@ -577,7 +577,7 @@ public int getLocaleIdBi()
 ```
 
 
-获取格式化的从右到左字符的区域设置标识符（语言）。有关区域设置标识符的列表，请参见 https://msdn.microsoft.com/en-us/library/cc233965.aspx
+获取格式化的从右到左字符的区域设置标识符（语言）。有关区域设置标识符的列表，请参阅 https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
 **退货:**
 int - 格式化的从右到左字符的区域设置标识符（语言）。
@@ -587,7 +587,7 @@ public int getLocaleIdFarEast()
 ```
 
 
-获取格式化亚洲字符的区域设置标识符（语言）。有关区域设置标识符的列表，请参见 https://msdn.microsoft.com/en-us/library/cc233965.aspx
+获取格式化亚洲字符的区域设置标识符（语言）。有关区域设置标识符的列表，请参阅 https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
 **退货:**
 int - 格式化亚洲字符的区域设置标识符（语言）。
@@ -601,7 +601,7 @@ public String getName()
 
 获取时返回[getNameAscii()](../../com.aspose.words/font\#getNameAscii--) / [setNameAscii(java.lang.String)](../../com.aspose.words/font\#setNameAscii-java.lang.String-).
 
-设置时，设置[getNameAscii()](../../com.aspose.words/font\#getNameAscii--) / [setNameAscii(java.lang.String)](../../com.aspose.words/font\#setNameAscii-java.lang.String-), [getNameBi()](../../com.aspose.words/font\#getNameBi--) / [setNameBi(java.lang.String)](../../com.aspose.words/font\#setNameBi-java.lang.String-), [getNameFarEast()](../../com.aspose.words/font\#getNameFarEast--) / [setNameFarEast(java.lang.String)](../../com.aspose.words/font\#setNameFarEast-java.lang.String-)和[getNameOther()](../../com.aspose.words/font\#getNameOther--) / [setNameOther(java.lang.String)](../../com.aspose.words/font\#setNameOther-java.lang.String-)到指定的值。
+设置时，设置[getNameAscii()](../../com.aspose.words/font\#getNameAscii--) / [setNameAscii(java.lang.String)](../../com.aspose.words/font\#setNameAscii-java.lang.String-), [getNameBi()](../../com.aspose.words/font\#getNameBi--) / [setNameBi(java.lang.String)](../../com.aspose.words/font\#setNameBi-java.lang.String-), [getNameFarEast()](../../com.aspose.words/font\#getNameFarEast--) / [setNameFarEast(java.lang.String)](../../com.aspose.words/font\#setNameFarEast-java.lang.String-)和[getNameOther()](../../com.aspose.words/font\#getNameOther--) / [setNameOther(java.lang.String)](../../com.aspose.words/font\#setNameOther-java.lang.String-)到指定值。
 
 **退货:**
 java.lang.String - 字体的名称。
@@ -685,9 +685,9 @@ public boolean getOutline()
 
 **退货:**
 boolean - 对应的布尔值。
-### getPattern类型() {#getPattern类型--}
+### getPatternType() {#getPatternType--}
 ```
-public int getPattern类型()
+public int getPatternType()
 ```
 
 
@@ -894,7 +894,7 @@ public int getThemeColor()
 获取与此 Font 对象关联的已应用配色方案中的主题颜色。
 
 **退货:**
-int - 应用的配色方案中与此 Font 对象关联的主题颜色。返回值是以下之一[ThemeColor](../../com.aspose.words/themecolor)常数。
+int - 与此 Font 对象关联的应用配色方案中的主题颜色。返回值是以下之一[ThemeColor](../../com.aspose.words/themecolor)常数。
 ### getThemeFont() {#getThemeFont--}
 ```
 public int getThemeFont()
@@ -914,7 +914,7 @@ public int getThemeFontAscii()
 获取与此 Font 对象关联的应用字体方案中用于拉丁文本（字符代码从 0（零）到 127 的字符）的主题字体。
 
 **退货:**
-int - 在与此 Font 对象关联的应用字体方案中用于拉丁文本（字符代码从 0（零）到 127 的字符）的主题字体。返回值是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。
+int - 与此 Font 对象关联的应用字体方案中用于拉丁文本（字符代码从 0（零）到 127 的字符）的主题字体。返回值是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。
 ### getThemeFontBi() {#getThemeFontBi--}
 ```
 public int getThemeFontBi()
@@ -941,7 +941,7 @@ public int getThemeFontOther()
 ```
 
 
-获取与此 Font 对象关联的应用字体方案中字符代码从 128 到 255 的字符使用的主题字体。
+获取与此 Font 对象关联的应用字体方案中字符代码为 128 到 255 的字符所使用的主题字体。
 
 **退货:**
 int - 在与此 Font 对象关联的应用字体方案中，用于字符代码从 128 到 255 的字符的主题字体。返回值是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。
@@ -979,9 +979,9 @@ public Color getUnderlineColor()
 
 **退货:**
 java.awt.Color - 应用于字体的下划线颜色。
-### hasDmlEffect(int dmlEffect类型) {#hasDmlEffect-int-}
+### hasDmlEffect(int dmlEffectType) {#hasDmlEffect-int-}
 ```
-public boolean hasDmlEffect(int dmlEffect类型)
+public boolean hasDmlEffect(int dmlEffectType)
 ```
 
 
@@ -990,7 +990,7 @@ public boolean hasDmlEffect(int dmlEffect类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dmlEffect类型 | int |  |
+| dmlEffectType | int |  |
 
 **退货:**
 布尔值
@@ -1035,9 +1035,9 @@ public void oneColorGradient(int style, int variant, double degree)
 | variant | int |  |
 | degree | double |  |
 
-### patterned(int pattern类型) {#patterned-int-}
+### patterned(int patternType) {#patterned-int-}
 ```
-public void patterned(int pattern类型)
+public void patterned(int patternType)
 ```
 
 
@@ -1046,7 +1046,7 @@ public void patterned(int pattern类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pattern类型 | int |  |
+| patternType | int |  |
 
 ### presetTextured(int presetTexture) {#presetTextured-int-}
 ```
@@ -1084,9 +1084,9 @@ public void setBidi(boolean value)
 
 此属性在打开时不应与从左到右的文本一起使用。在这种情况下的任何行为都是未指定的。此属性在关闭时不应与从右到左的强文本一起使用。在这种情况下的任何行为都是未指定的。
 
-当显示本次运行的内容时，出于格式化目的，所有字符都应被视为复杂的脚本字符。这意味着[getBoldBi()](../../com.aspose.words/font\#getBoldBi--) / [setBoldBi(boolean)](../../com.aspose.words/font\#setBoldBi-boolean-), [getItalicBi()](../../com.aspose.words/font\#getItalicBi--) / [setItalicBi(boolean)](../../com.aspose.words/font\#setItalicBi-boolean-), [getSizeBi()](../../com.aspose.words/font\#getSizeBi--) / [setSizeBi(double)](../../com.aspose.words/font\#setSizeBi-double-)并且在渲染此运行时将使用相应的字体名称。
+当显示此运行的内容时，出于格式化目的，所有字符都应视为复杂脚本字符。这意味着[getBoldBi()](../../com.aspose.words/font\#getBoldBi--) / [setBoldBi(boolean)](../../com.aspose.words/font\#setBoldBi-boolean-), [getItalicBi()](../../com.aspose.words/font\#getItalicBi--) / [setItalicBi(boolean)](../../com.aspose.words/font\#setItalicBi-boolean-), [getSizeBi()](../../com.aspose.words/font\#getSizeBi--) / [setSizeBi(double)](../../com.aspose.words/font\#setSizeBi-double-)并在渲染此运行时使用相应的字体名称。
 
-此外，当显示此运行的内容时，此属性充当从右到左的覆盖，用于分类为“弱类型”和“中性类型”的字符。
+此外，当显示此运行的内容时，此属性充当分类为“弱类型”和“中性类型”的字符的从右到左的覆盖。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1152,7 +1152,7 @@ public void setComplexScript(boolean value)
 ```
 
 
-指定在确定此运行的格式时，是否应将此运行的内容视为复杂脚本文本，而不管其 Unicode 字符值如何。
+指定在确定此运行的格式时，是否应将此运行的内容视为复杂的脚本文本，而不考虑其 Unicode 字符值。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1178,7 +1178,7 @@ public void setEmboss(boolean value)
 ```
 
 
-如果字体被格式化为浮雕，则为真。
+如果字体格式为浮雕，则为真。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1196,7 +1196,7 @@ public void setEmphasisMark(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 应用于此格式的强调标记。该值必须是以下之一[EmphasisMark](../../com.aspose.words/emphasismark)常数。 |
+| value | int | 应用于此格式的强调标记。该值必须是其中之一[EmphasisMark](../../com.aspose.words/emphasismark)常数。 |
 
 ### setEngrave(boolean value) {#setEngrave-boolean-}
 ```
@@ -1308,7 +1308,7 @@ public void setHighlightColor(Color value)
 ```
 
 
-设置高亮（标记）颜色。
+设置突出显示（标记）颜色。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1347,7 +1347,7 @@ public void setItalicBi(boolean value)
 ```
 
 
-如果从右到左的文本格式为斜体，则为真。
+如果从右到左的文本格式设置为斜体，则为真。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1360,7 +1360,7 @@ public void setKerning(double value)
 ```
 
 
-设置字距调整开始的字体大小。
+设置字距调整开始时的字体大小。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1416,7 +1416,7 @@ public void setName(String value)
 
 获取时返回[getNameAscii()](../../com.aspose.words/font\#getNameAscii--) / [setNameAscii(java.lang.String)](../../com.aspose.words/font\#setNameAscii-java.lang.String-).
 
-设置时，设置[getNameAscii()](../../com.aspose.words/font\#getNameAscii--) / [setNameAscii(java.lang.String)](../../com.aspose.words/font\#setNameAscii-java.lang.String-), [getNameBi()](../../com.aspose.words/font\#getNameBi--) / [setNameBi(java.lang.String)](../../com.aspose.words/font\#setNameBi-java.lang.String-), [getNameFarEast()](../../com.aspose.words/font\#getNameFarEast--) / [setNameFarEast(java.lang.String)](../../com.aspose.words/font\#setNameFarEast-java.lang.String-)和[getNameOther()](../../com.aspose.words/font\#getNameOther--) / [setNameOther(java.lang.String)](../../com.aspose.words/font\#setNameOther-java.lang.String-)到指定的值。
+设置时，设置[getNameAscii()](../../com.aspose.words/font\#getNameAscii--) / [setNameAscii(java.lang.String)](../../com.aspose.words/font\#setNameAscii-java.lang.String-), [getNameBi()](../../com.aspose.words/font\#getNameBi--) / [setNameBi(java.lang.String)](../../com.aspose.words/font\#setNameBi-java.lang.String-), [getNameFarEast()](../../com.aspose.words/font\#getNameFarEast--) / [setNameFarEast(java.lang.String)](../../com.aspose.words/font\#setNameFarEast-java.lang.String-)和[getNameOther()](../../com.aspose.words/font\#getNameOther--) / [setNameOther(java.lang.String)](../../com.aspose.words/font\#setNameOther-java.lang.String-)到指定值。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1681,7 +1681,7 @@ public void setStyleIdentifier(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 应用于此格式的字符样式的区域设置独立样式标识符。该值必须是以下之一[StyleIdentifier](../../com.aspose.words/styleidentifier)常数。 |
+| value | int | 应用于此格式的字符样式的区域设置独立样式标识符。该值必须是其中之一[StyleIdentifier](../../com.aspose.words/styleidentifier)常数。 |
 
 ### setStyleName(String value) {#setStyleName-java.lang.String-}
 ```
@@ -1733,7 +1733,7 @@ public void setTextEffect(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 字体动画效果。该值必须是以下之一[TextEffect](../../com.aspose.words/texteffect)常数。 |
+| value | int | 字体动画效果。该值必须是其中之一[TextEffect](../../com.aspose.words/texteffect)常数。 |
 
 ### setTextureAlignment(int value) {#setTextureAlignment-int-}
 ```
@@ -1759,7 +1759,7 @@ public void setThemeColor(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 与此 Font 对象关联的应用配色方案中的主题颜色。该值必须是以下之一[ThemeColor](../../com.aspose.words/themecolor)常数。 |
+| value | int | 与此 Font 对象关联的应用配色方案中的主题颜色。该值必须是其中之一[ThemeColor](../../com.aspose.words/themecolor)常数。 |
 
 ### setThemeFont(int value) {#setThemeFont-int-}
 ```
@@ -1772,7 +1772,7 @@ public void setThemeFont(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 与此 Font 对象关联的应用字体方案中的主题字体。该值必须是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。 |
+| value | int | 与此 Font 对象关联的应用字体方案中的主题字体。该值必须是其中之一[ThemeFont](../../com.aspose.words/themefont)常数。 |
 
 ### setThemeFontAscii(int value) {#setThemeFontAscii-int-}
 ```
@@ -1785,7 +1785,7 @@ public void setThemeFontAscii(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 与此 Font 对象关联的应用字体方案中用于拉丁文本（字符代码从 0（零）到 127 的字符）的主题字体。该值必须是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。 |
+| value | int | 与此 Font 对象关联的应用字体方案中用于拉丁文本（字符代码从 0（零）到 127 的字符）的主题字体。该值必须是其中之一[ThemeFont](../../com.aspose.words/themefont)常数。 |
 
 ### setThemeFontBi(int value) {#setThemeFontBi-int-}
 ```
@@ -1798,7 +1798,7 @@ public void setThemeFontBi(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 在从右到左的语言文档中，与此 Font 对象关联的应用字体方案中的主题字体。该值必须是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。 |
+| value | int | 在从右到左的语言文档中，与此 Font 对象关联的应用字体方案中的主题字体。该值必须是其中之一[ThemeFont](../../com.aspose.words/themefont)常数。 |
 
 ### setThemeFontFarEast(int value) {#setThemeFontFarEast-int-}
 ```
@@ -1811,7 +1811,7 @@ public void setThemeFontFarEast(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 与此 Font 对象关联的应用字体方案中的东亚主题字体。该值必须是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。 |
+| value | int | 与此 Font 对象关联的应用字体方案中的东亚主题字体。该值必须是其中之一[ThemeFont](../../com.aspose.words/themefont)常数。 |
 
 ### setThemeFontOther(int value) {#setThemeFontOther-int-}
 ```
@@ -1824,7 +1824,7 @@ public void setThemeFontOther(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 在与此 Font 对象关联的应用字体方案中，用于字符代码从 128 到 255 的字符的主题字体。该值必须是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。 |
+| value | int | 在与此 Font 对象关联的应用字体方案中，用于字符代码从 128 到 255 的字符的主题字体。该值必须是其中之一[ThemeFont](../../com.aspose.words/themefont)常数。 |
 
 ### setTintAndShade(double value) {#setTintAndShade-double-}
 ```
@@ -1854,7 +1854,7 @@ public void setUnderline(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 应用于字体的下划线类型。该值必须是以下之一[Underline](../../com.aspose.words/underline)常数。 |
+| value | int | 应用于字体的下划线类型。该值必须是其中之一[Underline](../../com.aspose.words/underline)常数。 |
 
 ### setUnderlineColor(Color value) {#setUnderlineColor-java.awt.Color-}
 ```

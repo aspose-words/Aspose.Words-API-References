@@ -1,6 +1,6 @@
 ---
 title: ImageData
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 定义形状的图像。
 type: docs
 weight: 337
@@ -17,51 +17,51 @@ public class ImageData
 
 要了解更多信息，请访问**Working with Images**文档文章。
 
-使用[Shape.getImageData()](../../com.aspose.words/shape\#getImageData--)属性来访问和修改形状内的图像。您不创建的实例[ImageData](../../com.aspose.words/imagedata)直接上课。
+使用[Shape.getImageData()](../../com.aspose.words/shape\#getImageData--)属性访问和修改形状内的图像。您不创建的实例[ImageData](../../com.aspose.words/imagedata)直接上课。
 
 图像可以存储在形状内，链接到外部文件或两者（链接并存储在文档中）。
 
-无论图像是存储在形状内还是链接在一起，您始终可以使用[toByteArray()](../../com.aspose.words/imagedata\#toByteArray--), [toImage()](../../com.aspose.words/imagedata\#toImage--)或者[save(java.lang.String)](../../com.aspose.words/imagedata\#save-java.lang.String-)方法。如果图像存储在形状内，您也可以使用[getImageBytes()](../../com.aspose.words/imagedata\#getImageBytes--) / [setImageBytes(byte[])](../../com.aspose.words/imagedata\#setImageBytes-byte---)财产。
+无论图像是存储在形状内还是链接在一起，您始终可以使用[toByteArray()](../../com.aspose.words/imagedata\#toByteArray--), [toImage()](../../com.aspose.words/imagedata\#toImage--)或者[save(java.lang.String)](../../com.aspose.words/imagedata\#save-java.lang.String-)方法。如果图像存储在形状内部，您也可以使用[getImageBytes()](../../com.aspose.words/imagedata\#getImageBytes--) / [setImageBytes(byte[])](../../com.aspose.words/imagedata\#setImageBytes-byte---)财产。
 
-要将图像存储在形状中，请使用[setImage(java.lang.String)](../../com.aspose.words/imagedata\#setImage-java.lang.String-)方法。要将图像链接到形状，请将[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)财产。
+要将图像存储在形状内，请使用[setImage(java.lang.String)](../../com.aspose.words/imagedata\#setImage-java.lang.String-)方法。要将图像链接到形状，请设置[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)财产。
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int-) |  |
-| [getBiLevel()](#getBiLevel--) | 确定图像是否以黑白显示。 |
-| [getBorders()](#getBorders--) | 获取图像边框的集合。 |
+| [getBiLevel()](#getBiLevel--) | 确定图像是否将以黑白显示。 |
+| [getBorders()](#getBorders--) | 获取图片的边框集合。 |
 | [getBrightness()](#getBrightness--) | 获取图片的亮度。 |
 | [getChromaKey()](#getChromaKey--) | 定义将被视为透明的图像的颜色值。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getContrast()](#getContrast--) | 获取指定图片的对比度。 |
 | [getCropBottom()](#getCropBottom--) | 定义从底部移除图片的比例。 |
-| [getCropLeft()](#getCropLeft--) | 定义从左侧删除图片的比例。 |
+| [getCropLeft()](#getCropLeft--) | 定义从左侧移除图片的比例。 |
 | [getCropRight()](#getCropRight--) | 定义从右侧移除图片的比例。 |
 | [getCropTop()](#getCropTop--) | 定义从顶部移除图片的比例。 |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int-) |  |
 | [getGrayScale()](#getGrayScale--) | 确定图片是否以灰度模式显示。 |
 | [getImageBytes()](#getImageBytes--) | 获取存储在形状中的图像的原始字节。 |
 | [getImageSize()](#getImageSize--) | 获取有关图像大小和分辨率的信息。 |
-| [getImage类型()](#getImage类型--) | 获取图像的类型。 |
+| [getImageType()](#getImageType--) | 获取图像的类型。 |
 | [getSourceFullName()](#getSourceFullName--) | 获取链接图像的源文件的路径和名称。 |
 | [getTitle()](#getTitle--) | 定义图像的标题。 |
-| [hasImage()](#hasImage--) | 如果形状具有图像字节或链接图像，则返回 true。 |
+| [hasImage()](#hasImage--) | 如果形状有图像字节或链接图像，则返回 true。 |
 | [hashCode()](#hashCode--) |  |
-| [isLink()](#isLink--) | 如果图像链接到形状，则返回 true（当[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)已指定）。 |
+| [isLink()](#isLink--) | 如果图像链接到形状（当[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)指定）。 |
 | [isLinkOnly()](#isLinkOnly--) | 如果图像已链接且未存储在文档中，则返回 true。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [save(OutputStream stream)](#save-java.io.OutputStream-) |  |
 | [save(String fileName)](#save-java.lang.String-) | 将图像保存到文件中。 |
-| [setBiLevel(boolean value)](#setBiLevel-boolean-) | 确定图像是否以黑白显示。 |
+| [setBiLevel(boolean value)](#setBiLevel-boolean-) | 确定图像是否将以黑白显示。 |
 | [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object-) |  |
-| [setBrightness(double value)](#setBrightness-double-) | 设置图像的亮度。 |
+| [setBrightness(double value)](#setBrightness-double-) | 设置图片的亮度。 |
 | [setChromaKey(Color value)](#setChromaKey-java.awt.Color-) | 定义将被视为透明的图像的颜色值。 |
 | [setContrast(double value)](#setContrast-double-) | 设置指定图片的对比度。 |
 | [setCropBottom(double value)](#setCropBottom-double-) | 定义从底部移除图片的比例。 |
-| [setCropLeft(double value)](#setCropLeft-double-) | 定义从左侧删除图片的比例。 |
+| [setCropLeft(double value)](#setCropLeft-double-) | 定义从左侧移除图片的比例。 |
 | [setCropRight(double value)](#setCropRight-double-) | 定义从右侧移除图片的比例。 |
 | [setCropTop(double value)](#setCropTop-double-) | 定义从顶部移除图片的比例。 |
 | [setGrayScale(boolean value)](#setGrayScale-boolean-) | 确定图片是否以灰度模式显示。 |
@@ -114,7 +114,7 @@ public boolean getBiLevel()
 ```
 
 
-确定图像是否以黑白显示。
+确定图像是否将以黑白显示。
 
 默认值为**false**.
 
@@ -126,17 +126,17 @@ public BorderCollection getBorders()
 ```
 
 
-获取图像边框的集合。边框仅对内联图像有效。
+获取图片的边框集合。边框仅对内联图像有效。
 
 **退货:**
-[BorderCollection](../../com.aspose.words/bordercollection) - 图像边框的集合。
+[BorderCollection](../../com.aspose.words/bordercollection) - 图像边界的集合。
 ### getBrightness() {#getBrightness--}
 ```
 public double getBrightness()
 ```
 
 
-获取图片的亮度。此属性的值必须是从 0.0（最暗）到 1.0（最亮）的数字。
+获取图片的亮度。此属性的值必须是 0.0（最暗）到 1.0（最亮）之间的数字。
 
 默认值为 0.5。
 
@@ -154,16 +154,16 @@ public Color getChromaKey()
 
 **退货:**
 java.awt.Color - 对应的 java.awt.Color 值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getContrast() {#getContrast--}
 ```
 public double getContrast()
@@ -196,7 +196,7 @@ public double getCropLeft()
 ```
 
 
-定义从左侧删除图片的比例。
+定义从左侧移除图片的比例。
 
 裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将根本不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白空间将被形状的填充颜色填充）。小于 1 的正值将导致剩余的图片被拉伸以适应形状。
 
@@ -285,16 +285,16 @@ public ImageSize getImageSize()
 
 **退货:**
 [ImageSize](../../com.aspose.words/imagesize) - 有关图像大小和分辨率的信息。
-### getImage类型() {#getImage类型--}
+### getImageType() {#getImageType--}
 ```
-public int getImage类型()
+public int getImageType()
 ```
 
 
 获取图像的类型。 (4671,6)
 
 **退货:**
- int - 图像的类型。返回值是以下之一[Image类型](../../com.aspose.words/imagetype)常数。
+ int - 图像的类型。返回值是以下之一[ImageType](../../com.aspose.words/imagetype)常数。
 ### getSourceFullName() {#getSourceFullName--}
 ```
 public String getSourceFullName()
@@ -347,10 +347,10 @@ public boolean isLink()
 ```
 
 
-如果图像链接到形状，则返回 true（当[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)已指定）。 (4678,6)
+如果图像链接到形状（当[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)已指定）。 (4678,6)
 
 **退货:**
- boolean - 如果图像链接到形状则为真（当[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)已指定）。
+ boolean - 如果图像链接到形状则为真（当[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)指定）。
 ### isLinkOnly() {#isLinkOnly--}
 ```
 public boolean isLinkOnly()
@@ -409,7 +409,7 @@ public void setBiLevel(boolean value)
 ```
 
 
-确定图像是否以黑白显示。
+确定图像是否将以黑白显示。
 
 默认值为**false**.
 
@@ -500,7 +500,7 @@ public void setCropLeft(double value)
 ```
 
 
-定义从左侧删除图片的比例。
+定义从左侧移除图片的比例。
 
 裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将根本不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白空间将被形状的填充颜色填充）。小于 1 的正值将导致剩余的图片被拉伸以适应形状。
 
@@ -680,13 +680,13 @@ public InputStream toStream()
 
 如果图像字节存储在形状中，则创建并返回一个对象。
 
-如果图像被链接并存储在文件中，则打开文件并返回一个对象。
+如果图像已链接并存储在文件中，则打开该文件并返回一个对象。
 
-如果图像被链接并存储在外部 URL 中，则打开 URL 并返回一个对象。
+如果图像链接并存储在外部 URL 中，则打开该 URL 并返回一个对象。
 
-调用者是否有责任处置流对象。
+调用者有责任处置流对象。
 
-这还没有移植到Java。
+这还没有移植到 Java。
 
 **退货:**
 java.io.InputStream

@@ -1,7 +1,7 @@
 ---
-title: Form字段Collection
-second_title: Aspose.Words for Java API Reference
-description: 代表范围内所有表单字段的 Form字段 对象的集合。
+title: FormFieldCollection
+second_title: Aspose.Words for Java API 参考
+description: 代表范围内所有表单字段的 FormField 对象的集合。
 type: docs
 weight: 297
 url: /zh/java/com.aspose.words/formfieldcollection/
@@ -13,10 +13,10 @@ java.lang.Object
 **所有实现的接口:**
 java.lang.Iterable
 ```
-public class Form字段Collection implements Iterable
+public class FormFieldCollection implements Iterable
 ```
 
-一个集合**Form字段**表示范围内所有表单域的对象。
+的集合**FormField**表示范围内所有表单域的对象。
 
 要了解更多信息，请访问**Working with Form 字段**文档文章。
 ## 方法
@@ -27,13 +27,13 @@ public class Form字段Collection implements Iterable
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 返回指定索引处的表单字段。 |
 | [get(String bookmarkName)](#get-java.lang.String-) | 按书签名称返回表单字段。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 返回集合中表单域的数量。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 返回一个枚举器对象。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(String form字段)](#remove-java.lang.String-) | 删除具有指定名称的表单域。 |
+| [remove(String formField)](#remove-java.lang.String-) | 删除具有指定名称的表单域。 |
 | [removeAt(int index)](#removeAt-int-) | 删除指定索引处的表单域。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -64,19 +64,19 @@ public boolean equals(Object arg0)
 布尔值
 ### get(int index) {#get-int-}
 ```
-public Form字段 get(int index)
+public FormField get(int index)
 ```
 
 
 返回指定索引处的表单字段。
 
-该索引从零开始。
+该指数是从零开始的。
 
-允许使用负索引并指示从集合的背面进行访问。例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
+允许使用负索引，表示从集合的后面访问。例如 -1 表示最后一项，-2 表示倒数第二项，依此类推。
 
-如果 index 大于或等于列表中的项目数，则返回空引用。
+如果索引大于或等于列表中的项目数，则返回空引用。
 
-如果 index 为负且其绝对值大于列表中的项目数，则返回空引用。
+如果索引为负且其绝对值大于列表中的项目数，则返回空引用。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -84,10 +84,10 @@ public Form字段 get(int index)
 | index | int | 集合中的索引。 |
 
 **退货:**
-[Form字段](../../com.aspose.words/formfield) - 指定索引处的表单域。
+[FormField](../../com.aspose.words/formfield) - 指定索引处的表单域。
 ### get(String bookmarkName) {#get-java.lang.String-}
 ```
-public Form字段 get(String bookmarkName)
+public FormField get(String bookmarkName)
 ```
 
 
@@ -99,17 +99,17 @@ public Form字段 get(String bookmarkName)
 | bookmarkName | java.lang.String | 不区分大小写的书签名称。 |
 
 **退货:**
-[Form字段](../../com.aspose.words/formfield) - 书签名称的表单字段。
-### get班级() {#get班级--}
+[FormField](../../com.aspose.words/formfield) - 书签名称的表单字段。
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -156,9 +156,9 @@ public final native void notifyAll()
 
 
 
-### remove(String form字段) {#remove-java.lang.String-}
+### remove(String formField) {#remove-java.lang.String-}
 ```
-public void remove(String form字段)
+public void remove(String formField)
 ```
 
 
@@ -167,7 +167,7 @@ public void remove(String form字段)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| form字段 | java.lang.String | 要删除的表单字段的不区分大小写的名称。 |
+| formField | java.lang.String | 要删除的表单字段的不区分大小写的名称。 |
 
 ### removeAt(int index) {#removeAt-int-}
 ```

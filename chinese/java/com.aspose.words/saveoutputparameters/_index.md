@@ -1,6 +1,6 @@
 ---
 title: SaveOutput参数
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 此对象在保存文档后返回给调用者，并包含在保存操作期间生成或计算的附加信息。
 type: docs
 weight: 501
@@ -21,8 +21,8 @@ public class SaveOutput参数
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getContent类型()](#getContent类型--) | 返回标识已保存文档类型的 Content-类型 字符串（Internet 媒体类型）。 |
+| [getClass()](#getClass--) |  |
+| [getContentType()](#getContentType--) | 返回标识已保存文档类型的 Content-Type 字符串（Internet 媒体类型）。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -45,26 +45,26 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getContent类型() {#getContent类型--}
+java.lang.Class<?>
+### getContentType() {#getContentType--}
 ```
-public String getContent类型()
+public String getContentType()
 ```
 
 
-返回标识已保存文档类型的 Content-类型 字符串（Internet 媒体类型）。
+返回标识已保存文档类型的 Content-Type 字符串（Internet 媒体类型）。
 
 **退货:**
-java.lang.String - 标识已保存文档类型的 Content-类型 字符串（Internet 媒体类型）。
+java.lang.String - 标识已保存文档类型的 Content-Type 字符串（Internet 媒体类型）。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

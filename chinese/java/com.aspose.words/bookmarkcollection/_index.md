@@ -1,7 +1,7 @@
 ---
 title: BookmarkCollection
-second_title: Aspose.Words for Java API Reference
-description: 表示指定范围内的书签的对象集合。
+second_title: Aspose.Words for Java API 参考
+description: 表示指定范围内书签的对象集合。
 type: docs
 weight: 32
 url: /zh/java/com.aspose.words/bookmarkcollection/
@@ -16,7 +16,7 @@ java.lang.Iterable
 public class BookmarkCollection implements Iterable
 ```
 
-一个集合[Bookmark](../../com.aspose.words/bookmark)表示指定范围内的书签的对象。
+的集合[Bookmark](../../com.aspose.words/bookmark)表示指定范围内书签的对象。
 
 要了解更多信息，请访问**Working with Bookmarks**文档文章。
 ## 方法
@@ -27,8 +27,8 @@ public class BookmarkCollection implements Iterable
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 返回指定索引处的书签。 |
 | [get(String bookmarkName)](#get-java.lang.String-) | 按名称返回书签。 |
-| [get班级()](#get班级--) |  |
-| [getCount()](#getCount--) | 返回集合中的书签数。 |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | 返回集合中书签的数量。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 返回一个枚举器对象。 |
 | [notify()](#notify--) |  |
@@ -71,13 +71,13 @@ public Bookmark get(int index)
 
 返回指定索引处的书签。
 
-该索引从零开始。
+该指数是从零开始的。
 
-允许使用负索引并指示从集合的背面进行访问。例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
+允许使用负索引，表示从集合的后面访问。例如 -1 表示最后一项，-2 表示倒数第二项，依此类推。
 
-如果 index 大于或等于列表中的项目数，则返回空引用。
+如果索引大于或等于列表中的项目数，则返回空引用。
 
-如果 index 为负且其绝对值大于列表中的项目数，则返回空引用。
+如果索引为负且其绝对值大于列表中的项目数，则返回空引用。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -99,30 +99,30 @@ public Bookmark get(String bookmarkName)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| bookmarkName | java.lang.String | 不区分大小写的书签名称。 |
+| bookmarkName | java.lang.String | 书签名称不区分大小写。 |
 
 **退货:**
-[Bookmark](../../com.aspose.words/bookmark) - 按名称的书签。
-### get班级() {#get班级--}
+[Bookmark](../../com.aspose.words/bookmark) - 书签名称。
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-返回集合中的书签数。
+返回集合中书签的数量。
 
 **退货:**
-int - 集合中的书签数。
+int - 集合中书签的数量。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -183,7 +183,7 @@ public void remove(String bookmarkName)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| bookmarkName | java.lang.String | 要删除的书签的不区分大小写的名称。 |
+| bookmarkName | java.lang.String | 要删除的书签的名称不区分大小写。 |
 
 ### removeAt(int index) {#removeAt-int-}
 ```

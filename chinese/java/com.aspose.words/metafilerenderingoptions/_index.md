@@ -1,6 +1,6 @@
 ---
 title: MetafileRenderingOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许指定额外的元文件渲染选项。
 type: docs
 weight: 397
@@ -21,7 +21,7 @@ public class MetafileRenderingOptions
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getEmfPlusDualRenderingMode()](#getEmfPlusDualRenderingMode--) | 获取一个值，该值确定应如何呈现 EMF+ Dual 图元文件。 |
 | [getEmulateRasterOperations()](#getEmulateRasterOperations--) | 获取一个值，该值确定是否应模拟光栅操作。 |
 | [getRenderingMode()](#getRenderingMode--) | 获取一个值，该值确定应如何呈现图元文件图像。 |
@@ -54,16 +54,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getEmfPlusDualRenderingMode() {#getEmfPlusDualRenderingMode--}
 ```
 public int getEmfPlusDualRenderingMode()
@@ -90,16 +90,16 @@ public boolean getEmulateRasterOperations()
 
 可以在元文件中使用特定的光栅操作。它们不能直接渲染为矢量图形。模拟光栅操作需要对结果矢量图形进行部分光栅化，这可能会影响图元文件的渲染性能。
 
-当此值设置为 true 时，Aspose.Words 模拟光栅操作。生成的输出可能会部分光栅化并且性能可能会变慢。
+当此值设置为 true 时，Aspose.Words 模拟光栅操作。生成的输出可能会部分光栅化，性能可能会降低。
 
-当此值设置为 false 时，Aspose.Words 不会模拟光栅操作。当 Aspose.Words 在元文件中遇到光栅操作时，它会回退到使用操作系统将元文件渲染为位图。
+当此值设置为 false 时，Aspose.Words 不会模拟光栅操作。当 Aspose.Words 在图元文件中遇到光栅操作时，它会回退到使用操作系统将图元文件渲染成位图。
 
-此选项仅在元文件呈现为矢量图形时使用。
+仅当图元文件呈现为矢量图形时才使用此选项。
 
 默认值是true 。
 
 **退货:**
-boolean - 确定是否应模拟光栅操作的值。
+布尔值 - 确定是否应模拟光栅操作的值。
 ### getRenderingMode() {#getRenderingMode--}
 ```
 public int getRenderingMode()
@@ -111,7 +111,7 @@ public int getRenderingMode()
 默认值取决于保存格式。对于图像它是[MetafileRenderingMode.BITMAP](../../com.aspose.words/metafilerenderingmode\#BITMAP).对于其他格式，它是[MetafileRenderingMode.VECTOR\_WITH\_FALLBACK](../../com.aspose.words/metafilerenderingmode\#VECTOR-WITH-FALLBACK).
 
 **退货:**
-int - 确定应如何呈现元文件图像的值。返回值是以下之一[MetafileRenderingMode](../../com.aspose.words/metafilerenderingmode)常数。
+int - 决定图元文件图像应如何呈现的值。返回值是以下之一[MetafileRenderingMode](../../com.aspose.words/metafilerenderingmode)常数。
 ### getScaleWmfFontsToMetafileSize() {#getScaleWmfFontsToMetafileSize--}
 ```
 public boolean getScaleWmfFontsToMetafileSize()
@@ -122,11 +122,11 @@ public boolean getScaleWmfFontsToMetafileSize()
 
 当 WMF 图元文件在 MS Word 中显示时，字体可能会根据页面上的实际图元文件大小进行缩放。
 
-当此值设置为 true 时，Aspose.Words 根据页面上的图元文件大小模拟字体缩放。
+当此值设置为 true 时，Aspose.Words 会根据页面上的图元文件大小模拟字体缩放。
 
 当此值设置为 false 时，Aspose.Words 会在元文件呈现为其默认大小时显示字体。
 
-此选项仅在元文件呈现为矢量图形时使用。
+仅当图元文件呈现为矢量图形时才使用此选项。
 
 默认值是true 。
 
@@ -195,7 +195,7 @@ EMF+ 双元文件包含 EMF+ 和 EMF 部分。 MS Word 和 GDI+ 总是呈现 EMF
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 决定如何呈现 EMF+ Dual 图元文件的值。该值必须是以下之一[EmfPlusDualRenderingMode](../../com.aspose.words/emfplusdualrenderingmode)常数。 |
+| value | int | 决定如何呈现 EMF+ Dual 图元文件的值。该值必须是其中之一[EmfPlusDualRenderingMode](../../com.aspose.words/emfplusdualrenderingmode)常数。 |
 
 ### setEmulateRasterOperations(boolean value) {#setEmulateRasterOperations-boolean-}
 ```
@@ -207,11 +207,11 @@ public void setEmulateRasterOperations(boolean value)
 
 可以在元文件中使用特定的光栅操作。它们不能直接渲染为矢量图形。模拟光栅操作需要对结果矢量图形进行部分光栅化，这可能会影响图元文件的渲染性能。
 
-当此值设置为 true 时，Aspose.Words 模拟光栅操作。生成的输出可能会部分光栅化并且性能可能会变慢。
+当此值设置为 true 时，Aspose.Words 模拟光栅操作。生成的输出可能会部分光栅化，性能可能会降低。
 
-当此值设置为 false 时，Aspose.Words 不会模拟光栅操作。当 Aspose.Words 在元文件中遇到光栅操作时，它会回退到使用操作系统将元文件渲染为位图。
+当此值设置为 false 时，Aspose.Words 不会模拟光栅操作。当 Aspose.Words 在图元文件中遇到光栅操作时，它会回退到使用操作系统将图元文件渲染成位图。
 
-此选项仅在元文件呈现为矢量图形时使用。
+仅当图元文件呈现为矢量图形时才使用此选项。
 
 默认值是true 。
 
@@ -233,7 +233,7 @@ public void setRenderingMode(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 确定应如何呈现元文件图像的值。该值必须是以下之一[MetafileRenderingMode](../../com.aspose.words/metafilerenderingmode)常数。 |
+| value | int | 确定应如何呈现图元文件图像的值。该值必须是其中之一[MetafileRenderingMode](../../com.aspose.words/metafilerenderingmode)常数。 |
 
 ### setScaleWmfFontsToMetafileSize(boolean value) {#setScaleWmfFontsToMetafileSize-boolean-}
 ```
@@ -245,18 +245,18 @@ public void setScaleWmfFontsToMetafileSize(boolean value)
 
 当 WMF 图元文件在 MS Word 中显示时，字体可能会根据页面上的实际图元文件大小进行缩放。
 
-当此值设置为 true 时，Aspose.Words 根据页面上的图元文件大小模拟字体缩放。
+当此值设置为 true 时，Aspose.Words 会根据页面上的图元文件大小模拟字体缩放。
 
 当此值设置为 false 时，Aspose.Words 会在元文件呈现为其默认大小时显示字体。
 
-此选项仅在元文件呈现为矢量图形时使用。
+仅当图元文件呈现为矢量图形时才使用此选项。
 
 默认值是true 。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 确定是否根据页面上的图元文件大小缩放 WMF 图元文件中的字体的值。 |
+| value | boolean | 一个值，确定是否根据页面上的图元文件大小缩放 WMF 图元文件中的字体。 |
 
 ### setUseEmfEmbeddedToWmf(boolean value) {#setUseEmfEmbeddedToWmf-boolean-}
 ```

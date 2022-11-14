@@ -1,7 +1,7 @@
 ---
 title: OdtSaveMeasureUnit
-second_title: Aspose.Words for Java API Reference
-description: 在保存期间应用于可测量的文档内容（例如形状宽度和其他）的指定测量单位。
+second_title: Aspose.Words for Java API 参考
+description: 在保存期间应用于可测量文档内容（例如形状宽度和其他）的指定测量单位。
 type: docs
 weight: 418
 url: /zh/java/com.aspose.words/odtsavemeasureunit/
@@ -16,10 +16,10 @@ public class OdtSaveMeasureUnit
 指定的度量单位，以在保存期间应用于可测量的文档内容，例如形状、宽度和其他。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
-| [CENTIMETERS](#CENTIMETERS) | 指定使用厘米保存文档内容。 |
-| [INCHES](#INCHES) | 指定使用英寸保存文档内容。 |
+| [CENTIMETERS](#CENTIMETERS) | 指定文档内容以厘米为单位保存。 |
+| [INCHES](#INCHES) | 指定文档内容使用英寸保存。 |
 | [length](#length) |  |
 ## 方法
 
@@ -27,7 +27,7 @@ public class OdtSaveMeasureUnit
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String odtSaveMeasureUnitName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int odtSaveMeasureUnit)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int CENTIMETERS
 ```
 
 
-指定使用厘米保存文档内容。
+指定文档内容以厘米为单位保存。
 
 ### INCHES {#INCHES}
 ```
@@ -52,7 +52,7 @@ public static int INCHES
 ```
 
 
-指定使用英寸保存文档内容。
+指定文档内容使用英寸保存。
 
 ### length {#length}
 ```
@@ -90,16 +90,16 @@ public static int fromName(String odtSaveMeasureUnitName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int odtSaveMeasureUnit) {#getName-int-}
 ```
 public static String getName(int odtSaveMeasureUnit)

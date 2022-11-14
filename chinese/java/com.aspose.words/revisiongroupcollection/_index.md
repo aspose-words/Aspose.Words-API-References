@@ -1,7 +1,7 @@
 ---
 title: RevisionGroupCollection
-second_title: Aspose.Words for Java API Reference
-description: 代表文档中修订组的对象集合。
+second_title: Aspose.Words for Java API 参考
+description: 表示文档中修订组的对象集合。
 type: docs
 weight: 487
 url: /zh/java/com.aspose.words/revisiongroupcollection/
@@ -16,18 +16,18 @@ java.lang.Iterable
 public class RevisionGroupCollection implements Iterable
 ```
 
-一个集合[RevisionGroup](../../com.aspose.words/revisiongroup)表示文档中修订组的对象。
+的集合[RevisionGroup](../../com.aspose.words/revisiongroup)表示文档中修订组的对象。
 
 要了解更多信息，请访问**Track Changes in a Document**文档文章。
 
-您不直接创建此类的实例。使用[RevisionCollection.getGroups()](../../com.aspose.words/revisioncollection\#getGroups--)属性来获取文档中存在的修订组。
+您不直接创建此类的实例。使用[RevisionCollection.getGroups()](../../com.aspose.words/revisioncollection\#getGroups--)属性以获取文档中存在的修订组。
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 返回指定索引处的修订组。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 返回集合中修订组的数量。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 返回一个枚举器对象。 |
@@ -67,16 +67,16 @@ public RevisionGroup get(int index)
 
 **退货:**
 [RevisionGroup](../../com.aspose.words/revisiongroup) - 指定索引处的修订组。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -86,7 +86,7 @@ public int getCount()
 返回集合中修订组的数量。
 
 **退货:**
-int - 集合中的修订组数。
+int - 集合中修订组的数量。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

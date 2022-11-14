@@ -1,6 +1,6 @@
 ---
 title: XmlMapping
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定用于在父结构化文档标记和存储在文档的自定义 XML 数据部分中的 XML 元素之间建立映射的信息。
 type: docs
 weight: 629
@@ -25,7 +25,7 @@ public class XmlMapping implements Cloneable
 | --- | --- |
 | [delete()](#delete--) | 删除父结构化文档到 XML 数据的映射。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCustomXmlPart()](#getCustomXmlPart--) | 返回父结构化文档标记映射到的自定义 XML 数据部分。 |
 | [getPrefixMappings()](#getPrefixMappings--) | 返回 XML 命名空间前缀映射以评估[getXPath()](../../com.aspose.words/xmlmapping\#getXPath--). |
 | [getStoreItemId()](#getStoreItemId--) | 为自定义 XML 数据部分指定自定义 XML 数据标识符，用于评估[getXPath()](../../com.aspose.words/xmlmapping\#getXPath--)表达。 |
@@ -62,16 +62,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCustomXmlPart() {#getCustomXmlPart--}
 ```
 public CustomXmlPart getCustomXmlPart()

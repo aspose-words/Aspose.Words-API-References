@@ -1,7 +1,7 @@
 ---
-title: PreferredWidth类型
-second_title: Aspose.Words for Java API Reference
-description: 指定表格或单元格的首选宽度的测量单位。
+title: PreferredWidthType
+second_title: Aspose.Words for Java API 参考
+description: 指定表格或单元格的首选宽度的度量单位。
 type: docs
 weight: 467
 url: /zh/java/com.aspose.words/preferredwidthtype/
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/preferredwidthtype/
 **遗产:**
 java.lang.Object
 ```
-public class PreferredWidth类型
+public class PreferredWidthType
 ```
 
-指定表格或单元格的首选宽度的测量单位。
+指定表格或单元格的首选宽度的度量单位。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [AUTO](#AUTO) | 未指定首选宽度。 |
 | [PERCENT](#PERCENT) | 使用指定百分比测量当前项目宽度。 |
@@ -27,15 +27,15 @@ public class PreferredWidth类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String preferredWidth类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int preferredWidth类型)](#getName-int-) |  |
+| [fromName(String preferredWidthTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int preferredWidthType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int preferredWidth类型)](#toString-int-) |  |
+| [toString(int preferredWidthType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -84,9 +84,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String preferredWidth类型Name) {#fromName-java.lang.String-}
+### fromName(String preferredWidthTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String preferredWidth类型Name)
+public static int fromName(String preferredWidthTypeName)
 ```
 
 
@@ -95,23 +95,23 @@ public static int fromName(String preferredWidth类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| preferredWidth类型Name | java.lang.String |  |
+| preferredWidthTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int preferredWidth类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int preferredWidthType) {#getName-int-}
 ```
-public static String getName(int preferredWidth类型)
+public static String getName(int preferredWidthType)
 ```
 
 
@@ -120,7 +120,7 @@ public static String getName(int preferredWidth类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| preferredWidth类型 | int |  |
+| preferredWidthType | int |  |
 
 **退货:**
 java.lang.String
@@ -170,9 +170,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int preferredWidth类型) {#toString-int-}
+### toString(int preferredWidthType) {#toString-int-}
 ```
-public static String toString(int preferredWidth类型)
+public static String toString(int preferredWidthType)
 ```
 
 
@@ -181,7 +181,7 @@ public static String toString(int preferredWidth类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| preferredWidth类型 | int |  |
+| preferredWidthType | int |  |
 
 **退货:**
 java.lang.String

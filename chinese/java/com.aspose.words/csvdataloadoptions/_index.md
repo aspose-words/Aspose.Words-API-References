@@ -1,7 +1,7 @@
 ---
 title: CsvDataLoadOptions
-second_title: Aspose.Words for Java API Reference
-description: 表示用于解析 CSV 数据的选项。
+second_title: Aspose.Words for Java API 参考
+description: 表示解析 CSV 数据的选项。
 type: docs
 weight: 98
 url: /zh/java/com.aspose.words/csvdataloadoptions/
@@ -17,7 +17,7 @@ public class CsvDataLoadOptions
 
 要了解更多信息，请访问**LINQ Reporting Engine**文档文章。
 
-此类的实例可以传递给[CsvDataSource](../../com.aspose.words/csvdatasource).
+此类的实例可以传递给的构造函数[CsvDataSource](../../com.aspose.words/csvdatasource).
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -29,12 +29,12 @@ public class CsvDataLoadOptions
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCommentChar()](#getCommentChar--) | 获取用于注释 CSV 数据行的字符。 |
-| [getDelimiter()](#getDelimiter--) | 获取要用作列分隔符的字符。 |
+| [getDelimiter()](#getDelimiter--) | 获取要用作列定界符的字符。 |
 | [getQuoteChar()](#getQuoteChar--) | 获取用于引用字段值的字符。 |
 | [hasHeaders()](#hasHeaders--) | 获取一个值，该值指示 CSV 数据的第一条记录是否包含列名。 |
-| [hasHeaders(boolean value)](#hasHeaders-boolean-) | 设置一个值，该值指示 CSV 数据的第一条记录是否包含列名。 |
+| [hasHeaders(boolean value)](#hasHeaders-boolean-) | 设置一个值，指示 CSV 数据的第一条记录是否包含列名。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -81,16 +81,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCommentChar() {#getCommentChar--}
 ```
 public char getCommentChar()

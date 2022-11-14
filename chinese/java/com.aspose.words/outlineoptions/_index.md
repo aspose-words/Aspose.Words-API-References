@@ -1,6 +1,6 @@
 ---
 title: OutlineOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许指定大纲选项。
 type: docs
 weight: 431
@@ -22,7 +22,7 @@ public class OutlineOptions
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBookmarksOutlineLevels()](#getBookmarksOutlineLevels--) | 允许指定单个书签大纲级别。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCreateMissingOutlineLevels()](#getCreateMissingOutlineLevels--) | 获取或设置一个值，该值确定在导出文档时是否创建缺少的大纲级别。 |
 | [getCreateOutlinesForHeadingsInTables()](#getCreateOutlinesForHeadingsInTables--) | 指定是否为表格内的标题（使用标题样式格式化的段落）创建大纲。 |
 | [getDefaultBookmarksOutlineLevel()](#getDefaultBookmarksOutlineLevel--) | 指定文档大纲中显示 Word 书签的默认级别。 |
@@ -67,16 +67,16 @@ public BookmarksOutlineLevelCollection getBookmarksOutlineLevels()
 
 **退货:**
 [BookmarksOutlineLevelCollection](../../com.aspose.words/bookmarksoutlinelevelcollection) - 相应的[BookmarksOutlineLevelCollection](../../com.aspose.words/bookmarksoutlinelevelcollection)价值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCreateMissingOutlineLevels() {#getCreateMissingOutlineLevels--}
 ```
 public boolean getCreateMissingOutlineLevels()

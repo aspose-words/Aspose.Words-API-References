@@ -1,6 +1,6 @@
 ---
 title: TableStyleOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定如何将表格样式应用于表格。
 type: docs
 weight: 553
@@ -16,17 +16,17 @@ public class TableStyleOptions
 指定如何将表格样式应用于表格。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
-| [COLUMN_BANDS](#COLUMN-BANDS) | 应用列带条件格式。 |
-| [DEFAULT](#DEFAULT) | 这是 Microsoft Word 默认设置。 |
-| [DEFAULT_2003](#DEFAULT-2003) | 应用行和列带区。 |
+| [COLUMN_BANDS](#COLUMN-BANDS) | 应用列条带条件格式。 |
+| [DEFAULT](#DEFAULT) | 这是 Microsoft Word 的默认值。 |
+| [DEFAULT_2003](#DEFAULT-2003) | 应用行和列条带。 |
 | [FIRST_COLUMN](#FIRST-COLUMN) | 应用 1 个第一列条件格式。 |
 | [FIRST_ROW](#FIRST-ROW) | 应用第一行条件格式。 |
 | [LAST_COLUMN](#LAST-COLUMN) | 应用最后一列条件格式。 |
 | [LAST_ROW](#LAST-ROW) | 应用最后一行条件格式。 |
 | [NONE](#NONE) | 不应用表格样式格式。 |
-| [ROW_BANDS](#ROW-BANDS) | 应用行带条件格式。 |
+| [ROW_BANDS](#ROW-BANDS) | 应用行条带条件格式。 |
 | [length](#length) |  |
 ## 方法
 
@@ -35,7 +35,7 @@ public class TableStyleOptions
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String tableStyleOptionsName)](#fromName-java.lang.String-) |  |
 | [fromNames(Set tableStyleOptionsNames)](#fromNames-java.util.Set-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int tableStyleOptions)](#getName-int-) |  |
 | [getNames(int tableStyleOptions)](#getNames-int-) |  |
 | [getValues()](#getValues--) |  |
@@ -54,7 +54,7 @@ public static int COLUMN_BANDS
 ```
 
 
-应用列带条件格式。
+应用列条带条件格式。
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -62,7 +62,7 @@ public static int DEFAULT
 ```
 
 
-这是 Microsoft Word 默认设置。
+这是 Microsoft Word 的默认值。
 
 ### DEFAULT_2003 {#DEFAULT-2003}
 ```
@@ -70,7 +70,7 @@ public static int DEFAULT_2003
 ```
 
 
-应用行和列带区。这是旧格式（如 DOC、WML 和 RTF）的 Microsoft Word 默认设置。
+应用行和列条带。这是 Microsoft Word 对 DOC、WML 和 RTF 等旧格式的默认设置。
 
 ### FIRST_COLUMN {#FIRST-COLUMN}
 ```
@@ -118,7 +118,7 @@ public static int ROW_BANDS
 ```
 
 
-应用行带条件格式。
+应用行条带条件格式。
 
 ### length {#length}
 ```
@@ -171,16 +171,16 @@ public static int fromNames(Set tableStyleOptionsNames)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int tableStyleOptions) {#getName-int-}
 ```
 public static String getName(int tableStyleOptions)

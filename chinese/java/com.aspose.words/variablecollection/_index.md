@@ -1,6 +1,6 @@
 ---
 title: VariableCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 文档变量的集合。
 type: docs
 weight: 592
@@ -33,7 +33,7 @@ public class VariableCollection implements Iterable
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 获取指定索引处的文档变量。 |
 | [get(String name)](#get-java.lang.String-) | 提供对集合项目的访问。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中包含的元素数。 |
 | [hashCode()](#hashCode--) |  |
 | [indexOfKey(String name)](#indexOfKey-java.lang.String-) | 返回集合中指定文档变量的从零开始的索引。 |
@@ -121,7 +121,7 @@ public String get(String name)
 ```
 
 
-提供对集合项目的访问。通过不区分大小写的名称获取或设置文档变量。 null 值不允许作为赋值的右侧，将被空字符串替换。
+提供对集合项目的访问。通过不区分大小写的名称获取或设置文档变量。空值不允许作为赋值的右侧，将被空字符串替换。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -130,16 +130,16 @@ public String get(String name)
 
 **退货:**
 java.lang.String - 对应的 java.lang.String 值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -171,7 +171,7 @@ public int indexOfKey(String name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | 变量的不区分大小写的名称。 |
+| name | java.lang.String | 变量的名称不区分大小写。 |
 
 **退货:**
 int - 从零开始的索引。如果未找到，则为负值。
@@ -212,7 +212,7 @@ public void remove(String name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | 变量的不区分大小写的名称。 |
+| name | java.lang.String | 变量的名称不区分大小写。 |
 
 ### removeAt(int index) {#removeAt-int-}
 ```
@@ -233,7 +233,7 @@ public void set(int index, String value)
 ```
 
 
-在指定索引处设置文档变量。 null 值不允许作为赋值的右侧，将被空字符串替换。
+在指定索引处设置文档变量。空值不允许作为赋值的右侧，将被空字符串替换。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -247,7 +247,7 @@ public void set(String name, String value)
 ```
 
 
-提供对集合项目的访问。通过不区分大小写的名称获取或设置文档变量。 null 值不允许作为赋值的右侧，将被空字符串替换。
+提供对集合项目的访问。通过不区分大小写的名称获取或设置文档变量。空值不允许作为赋值的右侧，将被空字符串替换。
 
 **参数:**
 | 范围 | 类型 | 描述 |

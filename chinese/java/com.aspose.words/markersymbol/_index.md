@@ -1,6 +1,6 @@
 ---
 title: MarkerSymbol
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定标记符号样式。
 type: docs
 weight: 389
@@ -16,7 +16,7 @@ public class MarkerSymbol
 指定标记符号样式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CIRCLE](#CIRCLE) | 指定应在每个数据点绘制一个圆圈。 |
 | [DASH](#DASH) | 指定应在每个数据点绘制一个破折号。 |
@@ -37,7 +37,7 @@ public class MarkerSymbol
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String markerSymbolName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int markerSymbol)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -180,16 +180,16 @@ public static int fromName(String markerSymbolName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int markerSymbol) {#getName-int-}
 ```
 public static String getName(int markerSymbol)

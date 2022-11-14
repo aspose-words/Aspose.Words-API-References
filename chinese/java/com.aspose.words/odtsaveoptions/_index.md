@@ -1,7 +1,7 @@
 ---
 title: OdtSaveOptions
-second_title: Aspose.Words for Java API Reference
-description: 可用于在将文档保存为 or 格式时指定其他选项。
+second_title: Aspose.Words for Java API 参考
+description: 将文档保存为 or 格式时，可用于指定其他选项。
 type: docs
 weight: 419
 url: /zh/java/com.aspose.words/odtsaveoptions/
@@ -23,7 +23,7 @@ public class OdtSaveOptions extends SaveOptions
 | 构造函数 | 描述 |
 | --- | --- |
 | [OdtSaveOptions()](#OdtSaveOptions--) | 初始化此类的新实例，该实例可用于将文档保存在[SaveFormat.ODT](../../com.aspose.words/saveformat\#ODT)格式。 |
-| [OdtSaveOptions(String password)](#OdtSaveOptions-java.lang.String-) | 初始化此类的新实例，该实例可用于将文档保存在[SaveFormat.ODT](../../com.aspose.words/saveformat\#ODT)用密码加密的格式。 |
+| [OdtSaveOptions(String password)](#OdtSaveOptions-java.lang.String-) | 初始化此类的新实例，该实例可用于将文档保存在[SaveFormat.ODT](../../com.aspose.words/saveformat\#ODT)使用密码加密的格式。 |
 | [OdtSaveOptions(int saveFormat)](#OdtSaveOptions-int-) | 初始化此类的新实例。 |
 ## 方法
 
@@ -32,18 +32,18 @@ public class OdtSaveOptions extends SaveOptions
 | [createSaveOptions(int saveFormat)](#createSaveOptions-int-) |  |
 | [createSaveOptions(String fileName)](#createSaveOptions-java.lang.String-) | 创建适合给定文件名中指定的文件扩展名的类的保存选项对象。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts--) | 获取一个布尔值，该值指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
-| [get班级()](#get班级--) |  |
+| [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts--) | 获取一个布尔值，指示在保存文档时在文档中嵌入 TrueType 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
+| [getClass()](#getClass--) |  |
 | [getDefaultTemplate()](#getDefaultTemplate--) | 获取默认模板的路径（包括文件名）。 |
-| [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode--) | 获取确定如何渲染 3D 效果的值。 |
-| [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode--) | 获取一个值，该值确定如何呈现 DrawingML 效果。 |
-| [getDmlRenderingMode()](#getDmlRenderingMode--) | 获取一个值，该值确定如何呈现 DrawingML 形状。 |
-| [getExportGeneratorName()](#getExportGeneratorName--) | 如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。 |
-| [getImlRenderingMode()](#getImlRenderingMode--) | 获取一个值，该值确定如何呈现墨迹 (InkML) 对象。 |
+| [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode--) | 获取确定如何呈现 3D 效果的值。 |
+| [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode--) | 获取确定如何呈现 DrawingML 效果的值。 |
+| [getDmlRenderingMode()](#getDmlRenderingMode--) | 获取确定如何呈现 DrawingML 形状的值。 |
+| [getExportGeneratorName()](#getExportGeneratorName--) | 当为真时，导致 Aspose.Words 的名称和版本被嵌入到生成的文件中。 |
+| [getImlRenderingMode()](#getImlRenderingMode--) | 获取确定如何呈现墨迹 (InkML) 对象的值。 |
 | [getMeasureUnit()](#getMeasureUnit--) | 允许指定应用于文档内容的度量单位。 |
-| [getMemoryOptimization()](#getMemoryOptimization--) | 获取确定是否应在保存文档之前执行内存优化的值。 |
-| [getPassword()](#getPassword--) | 获取密码以加密文档。 |
-| [getPrettyFormat()](#getPrettyFormat--) | 如果为 true ，则在适用的情况下输出漂亮的格式。 |
+| [getMemoryOptimization()](#getMemoryOptimization--) | 获取确定在保存文档之前是否应执行内存优化的值。 |
+| [getPassword()](#getPassword--) | 获取加密文档的密码。 |
+| [getPrettyFormat()](#getPrettyFormat--) | 当 true 时，漂亮的格式输出适用。 |
 | [getProgressCallback()](#getProgressCallback--) | 在保存文档期间调用并接受有关保存进度的数据。 |
 | [getSaveFormat()](#getSaveFormat--) | 如果使用此保存选项对象，则指定保存文档的格式。 |
 | [getTempFolder()](#getTempFolder--) | 指定保存到 DOC 或 DOCX 文件时使用的临时文件的文件夹。 |
@@ -55,21 +55,21 @@ public class OdtSaveOptions extends SaveOptions
 | [getUseAntiAliasing()](#getUseAntiAliasing--) | 获取一个值，该值确定是否使用抗锯齿进行渲染。 |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering--) | 获取确定是否使用高质量的值（即 |
 | [hashCode()](#hashCode--) |  |
-| [isStrictSchema11()](#isStrictSchema11--) | 指定导出是否应严格符合 ODT 规范 1.1。 |
-| [isStrictSchema11(boolean value)](#isStrictSchema11-boolean-) | 指定导出是否应严格符合 ODT 规范 1.1。 |
+| [isStrictSchema11()](#isStrictSchema11--) | 指定导出是否应严格对应 ODT 规范 1.1。 |
+| [isStrictSchema11(boolean value)](#isStrictSchema11-boolean-) | 指定导出是否应严格对应 ODT 规范 1.1。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean-) | 设置一个布尔值，指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
+| [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean-) | 设置一个布尔值，指示在保存文档时在文档中嵌入 TrueType 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
 | [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String-) | 设置默认模板的路径（包括文件名）。 |
 | [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int-) | 设置确定如何渲染 3D 效果的值。 |
 | [setDmlEffectsRenderingMode(int value)](#setDmlEffectsRenderingMode-int-) | 设置一个值，确定如何呈现 DrawingML 效果。 |
 | [setDmlRenderingMode(int value)](#setDmlRenderingMode-int-) | 设置一个值，确定如何呈现 DrawingML 形状。 |
-| [setExportGeneratorName(boolean value)](#setExportGeneratorName-boolean-) | 如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。 |
+| [setExportGeneratorName(boolean value)](#setExportGeneratorName-boolean-) | 当为真时，导致 Aspose.Words 的名称和版本被嵌入到生成的文件中。 |
 | [setImlRenderingMode(int value)](#setImlRenderingMode-int-) | 设置一个值，确定如何呈现墨水 (InkML) 对象。 |
 | [setMeasureUnit(int value)](#setMeasureUnit-int-) | 允许指定应用于文档内容的度量单位。 |
 | [setMemoryOptimization(boolean value)](#setMemoryOptimization-boolean-) | 设置值确定是否应在保存文档之前执行内存优化。 |
 | [setPassword(String value)](#setPassword-java.lang.String-) | 设置密码以加密文档。 |
-| [setPrettyFormat(boolean value)](#setPrettyFormat-boolean-) | 如果为 true ，则在适用的情况下输出漂亮的格式。 |
+| [setPrettyFormat(boolean value)](#setPrettyFormat-boolean-) | 当 true 时，漂亮的格式输出适用。 |
 | [setProgressCallback(IDocumentSavingCallback value)](#setProgressCallback-com.aspose.words.IDocumentSavingCallback-) | 在保存文档期间调用并接受有关保存进度的数据。 |
 | [setSaveFormat(int value)](#setSaveFormat-int-) | 如果使用此保存选项对象，则指定保存文档的格式。 |
 | [setTempFolder(String value)](#setTempFolder-java.lang.String-) | 指定保存到 DOC 或 DOCX 文件时使用的临时文件的文件夹。 |
@@ -98,7 +98,7 @@ public OdtSaveOptions(String password)
 ```
 
 
-初始化此类的新实例，该实例可用于将文档保存在[SaveFormat.ODT](../../com.aspose.words/saveformat\#ODT)用密码加密的格式。
+初始化此类的新实例，该实例可用于将文档保存在[SaveFormat.ODT](../../com.aspose.words/saveformat\#ODT)使用密码加密的格式。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -169,24 +169,24 @@ public boolean getAllowEmbeddingPostScriptFonts()
 ```
 
 
-获取一个布尔值，该值指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。默认值为**false**.
+获取一个布尔值，指示在保存文档时在文档中嵌入 TrueType 字体时是否允许嵌入带有 PostScript 轮廓的字体。默认值为**false**.
 
-请注意，Word 不嵌入 PostScript 字体，但可以打开嵌入了这种类型字体的文档。
+请注意，Word 不嵌入 PostScript 字体，但可以打开带有此类嵌入字体的文档。
 
-此选项仅在以下情况下有效[FontInfoCollection.getEmbedTrue类型Fonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrue类型Fonts--) / [FontInfoCollection.setEmbedTrue类型Fonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrue类型Fonts-boolean-)的[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--)属性设置为 true 。
-
-**退货:**
-boolean - 一个布尔值，指示在保存文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。
-### get班级() {#get班级--}
-```
-public final native 班级<?> get班级()
-```
-
-
-
+此选项仅在[FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-)的[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--)属性设置为 true 。
 
 **退货:**
-java.lang.班级<?>
+boolean - 一个布尔值，指示在保存文档时是否允许在文档中嵌入 TrueType 字体时嵌入具有 PostScript 轮廓的字体。
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**退货:**
+java.lang.Class<?>
 ### getDefaultTemplate() {#getDefaultTemplate--}
 ```
 public String getDefaultTemplate()
@@ -203,41 +203,41 @@ public int getDml3DEffectsRenderingMode()
 ```
 
 
-获取确定如何渲染 3D 效果的值。默认值为[Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC).
+获取确定如何呈现 3D 效果的值。默认值为[Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC).
 
 **退货:**
-int - 确定如何渲染 3D 效果的值。返回值是以下之一[Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode)常数。
+int - 决定如何呈现 3D 效果的值。返回值是其中之一[Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode)常数。
 ### getDmlEffectsRenderingMode() {#getDmlEffectsRenderingMode--}
 ```
 public int getDmlEffectsRenderingMode()
 ```
 
 
-获取一个值，该值确定如何呈现 DrawingML 效果。默认值为[DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED).
+获取确定如何呈现 DrawingML 效果的值。默认值为[DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED).
 
 当文档导出为固定页面格式时使用此属性。
 
 **退货:**
- int - 确定如何呈现 DrawingML 效果的值。返回值是以下之一[DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode)常数。
+ int - 确定如何呈现 DrawingML 效果的值。返回值是其中之一[DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode)常数。
 ### getDmlRenderingMode() {#getDmlRenderingMode--}
 ```
 public int getDmlRenderingMode()
 ```
 
 
-获取一个值，该值确定如何呈现 DrawingML 形状。默认值为[DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode\#FALLBACK).
+获取确定如何呈现 DrawingML 形状的值。默认值为[DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode\#FALLBACK).
 
 当文档导出为固定页面格式时使用此属性。
 
 **退货:**
-int - 确定如何呈现 DrawingML 形状的值。返回值是以下之一[DmlRenderingMode](../../com.aspose.words/dmlrenderingmode)常数。
+int - 确定 DrawingML 形状如何呈现的值。返回值是其中之一[DmlRenderingMode](../../com.aspose.words/dmlrenderingmode)常数。
 ### getExportGeneratorName() {#getExportGeneratorName--}
 ```
 public boolean getExportGeneratorName()
 ```
 
 
-如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。默认值为**true**.
+当为真时，导致 Aspose.Words 的名称和版本被嵌入到生成的文件中。默认值为**true**.
 
 **退货:**
 boolean - 对应的布尔值。
@@ -247,12 +247,12 @@ public int getImlRenderingMode()
 ```
 
 
-获取一个值，该值确定如何呈现墨迹 (InkML) 对象。默认值为[ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
+获取确定如何呈现墨迹 (InkML) 对象的值。默认值为[ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
 
 当文档导出为固定页面格式时使用此属性。
 
 **退货:**
-int - 确定如何呈现墨水 (InkML) 对象的值。返回值是以下之一[ImlRenderingMode](../../com.aspose.words/imlrenderingmode)常数。
+int - 确定如何呈现墨迹 (InkML) 对象的值。返回值是其中之一[ImlRenderingMode](../../com.aspose.words/imlrenderingmode)常数。
 ### getMeasureUnit() {#getMeasureUnit--}
 ```
 public int getMeasureUnit()
@@ -279,7 +279,7 @@ public String getPassword()
 ```
 
 
-获取密码以加密文档。
+获取加密文档的密码。
 
 为了在不加密的情况下保存文档，此属性应为 null 或空字符串。
 
@@ -400,19 +400,19 @@ public boolean getUseAntiAliasing()
 当文档导出为以下格式时使用此属性：[SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF) .当文档导出到[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB)和[SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3)格式 此选项用于光栅图像。
 
 **退货:**
-boolean - 确定是否使用抗锯齿进行渲染的值。
+布尔值 - 确定是否使用抗锯齿进行渲染的值。
 ### getUseHighQualityRendering() {#getUseHighQualityRendering--}
 ```
 public boolean getUseHighQualityRendering()
 ```
 
 
-获取确定是否使用高质量（即慢速）渲染算法的值。默认值为 false 。
+获取一个值，该值确定是否使用高质量（即慢速）渲染算法。默认值为 false 。
 
 当文档导出为图像格式时使用此属性：[SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF).
 
 **退货:**
-boolean - 确定是否使用高质量的值（即
+布尔值 - 确定是否使用高质量的值（即
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -468,16 +468,16 @@ public void setAllowEmbeddingPostScriptFonts(boolean value)
 ```
 
 
-设置一个布尔值，指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。默认值为**false**.
+设置一个布尔值，指示在保存文档时在文档中嵌入 TrueType 字体时是否允许嵌入带有 PostScript 轮廓的字体。默认值为**false**.
 
-请注意，Word 不嵌入 PostScript 字体，但可以打开嵌入了这种类型字体的文档。
+请注意，Word 不嵌入 PostScript 字体，但可以打开带有此类嵌入字体的文档。
 
-此选项仅在以下情况下有效[FontInfoCollection.getEmbedTrue类型Fonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrue类型Fonts--) / [FontInfoCollection.setEmbedTrue类型Fonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrue类型Fonts-boolean-)的[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--)属性设置为 true 。
+此选项仅在[FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-)的[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--)属性设置为 true 。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 一个布尔值，指示当在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
+| value | boolean | 保存一个布尔值，指示在文档中嵌入 TrueType 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
 
 ### setDefaultTemplate(String value) {#setDefaultTemplate-java.lang.String-}
 ```
@@ -485,7 +485,7 @@ public void setDefaultTemplate(String value)
 ```
 
 
-设置默认模板的路径（包括文件名）。此属性的默认值为**empty string**.如果指定，此路径用于加载模板时[Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles--) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean-)是真的，但是[Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-)是空的。
+将路径设置为默认模板（包括文件名）。此属性的默认值为**empty string**.如果指定，此路径用于加载模板时[Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles--) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean-)是真的，但是[Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-)是空的。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -503,7 +503,7 @@ public void setDml3DEffectsRenderingMode(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 确定如何渲染 3D 效果的值。该值必须是以下之一[Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode)常数。 |
+| value | int | 确定如何渲染 3D 效果的值。该值必须是其中之一[Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode)常数。 |
 
 ### setDmlEffectsRenderingMode(int value) {#setDmlEffectsRenderingMode-int-}
 ```
@@ -518,7 +518,7 @@ public void setDmlEffectsRenderingMode(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 确定如何呈现 DrawingML 效果的值。该值必须是以下之一[DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode)常数。 |
+| value | int | 确定如何呈现 DrawingML 效果的值。该值必须是其中之一[DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode)常数。 |
 
 ### setDmlRenderingMode(int value) {#setDmlRenderingMode-int-}
 ```
@@ -533,7 +533,7 @@ public void setDmlRenderingMode(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 确定如何呈现 DrawingML 形状的值。该值必须是以下之一[DmlRenderingMode](../../com.aspose.words/dmlrenderingmode)常数。 |
+| value | int | 确定如何呈现 DrawingML 形状的值。该值必须是其中之一[DmlRenderingMode](../../com.aspose.words/dmlrenderingmode)常数。 |
 
 ### setExportGeneratorName(boolean value) {#setExportGeneratorName-boolean-}
 ```
@@ -541,7 +541,7 @@ public void setExportGeneratorName(boolean value)
 ```
 
 
-如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。默认值为**true**.
+当为真时，导致 Aspose.Words 的名称和版本被嵌入到生成的文件中。默认值为**true**.
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -561,7 +561,7 @@ public void setImlRenderingMode(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 确定如何呈现墨水 (InkML) 对象的值。该值必须是以下之一[ImlRenderingMode](../../com.aspose.words/imlrenderingmode)常数。 |
+| value | int | 确定如何呈现墨水 (InkML) 对象的值。该值必须是其中之一[ImlRenderingMode](../../com.aspose.words/imlrenderingmode)常数。 |
 
 ### setMeasureUnit(int value) {#setMeasureUnit-int-}
 ```
@@ -731,7 +731,7 @@ public void setUpdateSdtContent(boolean value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 价值决定内容是否[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。 |
+| value | boolean | 值决定是否内容[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。 |
 
 ### setUseAntiAliasing(boolean value) {#setUseAntiAliasing-boolean-}
 ```
@@ -756,14 +756,14 @@ public void setUseHighQualityRendering(boolean value)
 ```
 
 
-设置一个值来确定是否使用高质量（即慢速）渲染算法。默认值为 false 。
+设置一个值以确定是否使用高质量（即慢速）渲染算法。默认值为 false 。
 
 当文档导出为图像格式时使用此属性：[SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF).
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 决定是否使用高质量的值（即 |
+| value | boolean | 确定是否使用高质量的值（即 |
 
 ### toString() {#toString--}
 ```

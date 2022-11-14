@@ -1,6 +1,6 @@
 ---
-title: Mapping类型
-second_title: Aspose.Words for Java API Reference
+title: MappingType
+second_title: Aspose.Words for Java API 参考
 description: 指定如何映射 a。
 type: docs
 weight: 31
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words.net.system.data/mappingtype/
 **遗产:**
 java.lang.Object
 ```
-public class Mapping类型
+public class MappingType
 ```
 
 指定如何[DataColumn](../../com.aspose.words.net.system.data/datacolumn)被映射。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [ATTRIBUTE](#ATTRIBUTE) | 该列映射到 XML 属性。 |
 | [ELEMENT](#ELEMENT) | 该列被映射到一个 XML 元素。 |
@@ -27,7 +27,7 @@ public class Mapping类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -82,16 +82,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

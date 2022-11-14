@@ -1,6 +1,6 @@
 ---
 title: Underline
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指示应用于字体的下划线类型。
 type: docs
 weight: 588
@@ -16,7 +16,7 @@ public class Underline
 指示应用于字体的下划线类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [DASH](#DASH) |  |
 | [DASH_HEAVY](#DASH-HEAVY) |  |
@@ -43,7 +43,7 @@ public class Underline
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String underlineName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int underline)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -234,16 +234,16 @@ public static int fromName(String underlineName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int underline) {#getName-int-}
 ```
 public static String getName(int underline)

@@ -1,6 +1,6 @@
 ---
 title: OfficeMathJustification
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定等式的对正。
 type: docs
 weight: 422
@@ -16,7 +16,7 @@ public class OfficeMathJustification
 指定等式的对正。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CENTER](#CENTER) | 相对于边距将每个数学文本实例单独居中。 |
 | [CENTER_GROUP](#CENTER-GROUP) | 将数学文本实例相对于左侧对齐，并将数学文本组（数学段落）相对于页面居中。 |
@@ -31,7 +31,7 @@ public class OfficeMathJustification
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String officeMathJustificationName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int officeMathJustification)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -126,16 +126,16 @@ public static int fromName(String officeMathJustificationName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int officeMathJustification) {#getName-int-}
 ```
 public static String getName(int officeMathJustification)

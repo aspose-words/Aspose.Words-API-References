@@ -1,6 +1,6 @@
 ---
 title: TextBoxAnchor
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定用于形状文本垂直对齐的值。
 type: docs
 weight: 559
@@ -16,7 +16,7 @@ public class TextBoxAnchor
 指定用于形状文本垂直对齐的值。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BOTTOM](#BOTTOM) | 文本与文本框的底部对齐。 |
 | [BOTTOM_BASELINE](#BOTTOM-BASELINE) | 文本与文本框的底部基线对齐。 |
@@ -35,7 +35,7 @@ public class TextBoxAnchor
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String textBoxAnchorName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int textBoxAnchor)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -162,16 +162,16 @@ public static int fromName(String textBoxAnchorName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int textBoxAnchor) {#getName-int-}
 ```
 public static String getName(int textBoxAnchor)

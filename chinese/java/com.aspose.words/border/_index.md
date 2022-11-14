@@ -1,6 +1,6 @@
 ---
 title: Border
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示对象的边框。
 type: docs
 weight: 36
@@ -28,7 +28,7 @@ public class Border extends InternableComplexAttr implements Cloneable
 | [clearFormatting()](#clearFormatting--) | 将边框属性重置为默认值。 |
 | [equals(Border rhs)](#equals-com.aspose.words.Border-) | 确定指定边框的值是否与当前边框相等。 |
 | [equals(Object obj)](#equals-java.lang.Object-) | 确定指定对象的值是否与当前对象相等。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | 获取边框颜色。 |
 | [getDistanceFromText()](#getDistanceFromText--) | 获取边框与文本或页面边缘的距离（以磅为单位）。 |
 | [getLineStyle()](#getLineStyle--) | 获取边框样式。 |
@@ -54,7 +54,7 @@ public void clearFormatting()
 ```
 
 
-将边框属性重置为默认值。当边框属性重置为默认值时，边框是不可见的。
+将边框属性重置为默认值。当边框属性重置为默认值时，边框不可见。
 
 ### equals(Border rhs) {#equals-com.aspose.words.Border-}
 ```
@@ -86,16 +86,16 @@ public boolean equals(Object obj)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getColor() {#getColor--}
 ```
 public Color getColor()
@@ -112,7 +112,7 @@ public double getDistanceFromText()
 ```
 
 
-获取边框与文本或页面边缘的距离（以磅为单位）。没有效果，表格单元格的边框将自动重置为零。
+获取边框与文本或页面边缘的距离（以磅为单位）。没有任何效果，表格单元格的边框将自动重置为零。
 
 **退货:**
 double - 边框与文本或页面边缘的距离（以磅为单位）。
@@ -124,10 +124,10 @@ public int getLineStyle()
 
 获取边框样式。
 
-如果将线型设置为无，则线宽会自动更改为零。
+如果将线条样式设置为无，则线条宽度会自动更改为零。
 
 **退货:**
- int - 边框样式。返回值是以下之一[LineStyle](../../com.aspose.words/linestyle)常数。
+ int - 边框样式。返回值是其中之一[LineStyle](../../com.aspose.words/linestyle)常数。
 ### getLineWidth() {#getLineWidth--}
 ```
 public double getLineWidth()
@@ -136,7 +136,7 @@ public double getLineWidth()
 
 以磅为单位获取边框宽度。
 
-线型为无时，如果设置线宽大于零，线型自动变为单线。
+如果在线型为无时将线宽设置为大于零，则线型会自动更改为单线。
 
 **退货:**
 double - 以磅为单位的边框宽度。
@@ -148,7 +148,7 @@ public boolean getShadow()
 
 获取一个值，该值指示边框是否有阴影。
 
-在 Microsoft Word 中，要使边框具有阴影，所有四个边（左、上、右和下）的边框都应具有相同的类型、宽度、颜色，并且都应将 Shadow 属性设置为 true。
+在 Microsoft Word 中，要使边框具有阴影，所有四个边（左、上、右和下）的边框都应具有相同的类型、宽度和颜色，并且都应将 Shadow 属性设置为 true。
 
 **退货:**
 boolean - 指示边框是否有阴影的值。
@@ -181,7 +181,7 @@ public boolean isVisible()
 如果 LineStyle 不是 LineStyle.None，则返回 true。
 
 **退货:**
-boolean - 如果 LineStyle 不是 LineStyle.None，则为真。
+boolean - 如果 LineStyle 不是 LineStyle.None，则为 True。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -217,7 +217,7 @@ public void setDistanceFromText(double value)
 ```
 
 
-以点为单位设置边框与文本或页面边缘的距离。没有效果，表格单元格的边框将自动重置为零。
+设置边框与文本或页面边缘的距离（以磅为单位）。没有任何效果，表格单元格的边框将自动重置为零。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -232,12 +232,12 @@ public void setLineStyle(int value)
 
 设置边框样式。
 
-如果将线型设置为无，则线宽会自动更改为零。
+如果将线条样式设置为无，则线条宽度会自动更改为零。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 边框样式。该值必须是以下之一[LineStyle](../../com.aspose.words/linestyle)常数。 |
+| value | int | 边框样式。该值必须是其中之一[LineStyle](../../com.aspose.words/linestyle)常数。 |
 
 ### setLineWidth(double value) {#setLineWidth-double-}
 ```
@@ -247,7 +247,7 @@ public void setLineWidth(double value)
 
 以磅为单位设置边框宽度。
 
-线型为无时，如果设置线宽大于零，线型自动变为单线。
+如果在线型为无时将线宽设置为大于零，则线型会自动更改为单线。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -262,7 +262,7 @@ public void setShadow(boolean value)
 
 设置一个值，指示边框是否有阴影。
 
-在 Microsoft Word 中，要使边框具有阴影，所有四个边（左、上、右和下）的边框都应具有相同的类型、宽度、颜色，并且都应将 Shadow 属性设置为 true。
+在 Microsoft Word 中，要使边框具有阴影，所有四个边（左、上、右和下）的边框都应具有相同的类型、宽度和颜色，并且都应将 Shadow 属性设置为 true。
 
 **参数:**
 | 范围 | 类型 | 描述 |

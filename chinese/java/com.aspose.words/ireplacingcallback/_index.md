@@ -1,6 +1,6 @@
 ---
 title: IReplacingCallback
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 如果您希望在查找和替换操作期间调用您自己的自定义方法，请实现此接口。
 type: docs
 weight: 655
@@ -30,4 +30,4 @@ public abstract int replacing(ReplacingArgs args)
 | args | [ReplacingArgs](../../com.aspose.words/replacingargs) |  |
 
 **退货:**
-诠释 - A[ReplaceAction](../../com.aspose.words/replaceaction)指定要为当前匹配采取的操作的值。返回值是以下之一[ReplaceAction](../../com.aspose.words/replaceaction)常数。
+整数-A[ReplaceAction](../../com.aspose.words/replaceaction)指定要对当前匹配项采取的操作的值。返回值是以下之一[ReplaceAction](../../com.aspose.words/replaceaction)常数。

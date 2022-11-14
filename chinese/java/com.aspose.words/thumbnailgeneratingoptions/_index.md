@@ -1,6 +1,6 @@
 ---
 title: ThumbnailGeneratingOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 可用于在为文档生成缩略图时指定其他选项。
 type: docs
 weight: 578
@@ -19,7 +19,7 @@ public class ThumbnailGeneratingOptions
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getGenerateFromFirstPage()](#getGenerateFromFirstPage--) | 指定是从文档的第一页还是从第一张图像生成缩略图。 |
 | [getThumbnailSize()](#getThumbnailSize--) | 生成的缩略图的大小（以像素为单位）。 |
 | [hashCode()](#hashCode--) |  |
@@ -46,16 +46,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getGenerateFromFirstPage() {#getGenerateFromFirstPage--}
 ```
 public boolean getGenerateFromFirstPage()
@@ -75,7 +75,7 @@ public Dimension getThumbnailSize()
 生成的缩略图的大小（以像素为单位）。默认为 600x900。
 
 **退货:**
-java.awt.Dimension - 对应的 java.awt.Dimension 值。
+java.awt.Dimension - 相应的 java.awt.Dimension 值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -126,7 +126,7 @@ public void setThumbnailSize(Dimension value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.awt.Dimension | 对应的 java.awt.Dimension 值。 |
+| value | java.awt.Dimension | 对应的java.awt.Dimension值。 |
 
 ### toString() {#toString--}
 ```

@@ -1,6 +1,6 @@
 ---
 title: TextOrientation
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定表格单元格或文本框架中页面上的文本方向。
 type: docs
 weight: 566
@@ -13,10 +13,10 @@ java.lang.Object
 public class TextOrientation
 ```
 
-指定页面、表格单元格或文本框架中文本的方向。
+指定页面上、表格单元格或文本框中文本的方向。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [DOWNWARD](#DOWNWARD) | 文本向右旋转 90 度以从上到下显示 (tb-rl)。 |
 | [HORIZONTAL](#HORIZONTAL) | 文本水平排列 (lr-tb)。 |
@@ -31,7 +31,7 @@ public class TextOrientation
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String textOrientationName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int textOrientation)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -126,16 +126,16 @@ public static int fromName(String textOrientationName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int textOrientation) {#getName-int-}
 ```
 public static String getName(int textOrientation)

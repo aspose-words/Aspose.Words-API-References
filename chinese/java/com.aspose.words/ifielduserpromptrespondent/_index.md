@@ -1,28 +1,28 @@
 ---
-title: I字段UserPromptRespondent
-second_title: Aspose.Words for Java API Reference
-description: 代表字段更新期间用户提示的响应者。
+title: IFieldUserPromptRespondent
+second_title: Aspose.Words for Java API 参考
+description: 表示字段更新期间用户提示的响应者。
 type: docs
 weight: 645
 url: /zh/java/com.aspose.words/ifielduserpromptrespondent/
 ---
 ```
-public interface I字段UserPromptRespondent
+public interface IFieldUserPromptRespondent
 ```
 
-代表字段更新期间用户提示的响应者。 ASK 和 FILLIN 字段是提示用户做出某些响应的字段示例。实现此接口并将其分配给[字段Options.getUserPromptRespondent()](../../com.aspose.words/fieldoptions\#getUserPromptRespondent--) / [字段Options.setUserPromptRespondent(com.aspose.words.I字段UserPromptRespondent)](../../com.aspose.words/fieldoptions\#setUserPromptRespondent-com.aspose.words.I字段UserPromptRespondent-)属性来建立字段更新和用户之间的交互。
+表示字段更新期间用户提示的响应者。 ASK 和 FILLIN 字段是提示用户进行某些响应的字段示例。实现此接口并将其分配给[FieldOptions.getUserPromptRespondent()](../../com.aspose.words/fieldoptions\#getUserPromptRespondent--) / [FieldOptions.setUserPromptRespondent(com.aspose.words.IFieldUserPromptRespondent)](../../com.aspose.words/fieldoptions\#setUserPromptRespondent-com.aspose.words.IFieldUserPromptRespondent-)属性来建立字段更新和用户之间的交互。
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [respond(String promptText, String defaultResponse)](#respond-java.lang.String-java.lang.String-) | 实施后，在提示时返回用户的响应。 |
+| [respond(String promptText, String defaultResponse)](#respond-java.lang.String-java.lang.String-) | 实现后，返回用户对提示的响应。 |
 ### respond(String promptText, String defaultResponse) {#respond-java.lang.String-java.lang.String-}
 ```
 public abstract String respond(String promptText, String defaultResponse)
 ```
 
 
-实施后，在提示时返回用户的响应。你的实现应该返回**null**表示用户没有响应提示（即用户在提示窗口中按下了取消按钮）。
+实现后，返回用户对提示的响应。您的实施应该返回**null**表示用户没有响应提示（即用户在提示窗口中按下了取消按钮）。
 
 **参数:**
 | 范围 | 类型 | 描述 |

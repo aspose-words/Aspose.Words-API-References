@@ -1,6 +1,6 @@
 ---
 title: MailMergeRegionInfo
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 包含有关邮件合并区域的信息。
 type: docs
 weight: 385
@@ -21,14 +21,14 @@ public class MailMergeRegionInfo
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getEnd字段()](#getEnd字段--) | 返回区域的结束字段。 |
+| [getClass()](#getClass--) |  |
+| [getEndField()](#getEndField--) | 返回区域的结束字段。 |
 | [get字段()](#get字段--) | 返回子字段的列表。 |
 | [getLevel()](#getLevel--) | 返回区域的嵌套级别。 |
 | [getName()](#getName--) | 返回区域的名称。 |
 | [getParentRegion()](#getParentRegion--) | 返回父区域信息（顶级区域为 null）。 |
 | [getRegions()](#getRegions--) | 返回子区域的列表。 |
-| [getStart字段()](#getStart字段--) | 返回区域的起始字段。 |
+| [getStartField()](#getStartField--) | 返回区域的起始字段。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -51,26 +51,26 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getEnd字段() {#getEnd字段--}
+java.lang.Class<?>
+### getEndField() {#getEndField--}
 ```
-public 字段Merge字段 getEnd字段()
+public FieldMergeField getEndField()
 ```
 
 
 返回区域的结束字段。
 
 **退货:**
-[字段Merge字段](../../com.aspose.words/fieldmergefield) - 区域的结束字段。
+[FieldMergeField](../../com.aspose.words/fieldmergefield) - 区域的结束字段。
 ### get字段() {#get字段--}
 ```
 public ArrayList get字段()
@@ -121,16 +121,16 @@ public ArrayList getRegions()
 
 **退货:**
 java.util.ArrayList - 子区域列表。
-### getStart字段() {#getStart字段--}
+### getStartField() {#getStartField--}
 ```
-public 字段Merge字段 getStart字段()
+public FieldMergeField getStartField()
 ```
 
 
 返回区域的起始字段。
 
 **退货:**
-[字段Merge字段](../../com.aspose.words/fieldmergefield) - 区域的起始字段。
+[FieldMergeField](../../com.aspose.words/fieldmergefield) - 区域的起始字段。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

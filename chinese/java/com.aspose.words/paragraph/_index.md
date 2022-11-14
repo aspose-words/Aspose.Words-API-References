@@ -1,6 +1,6 @@
 ---
 title: Paragraph
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 代表一段文字。
 type: docs
 weight: 443
@@ -21,11 +21,11 @@ public class Paragraph extends CompositeNode
 
 [Paragraph](../../com.aspose.words/paragraph)可以包含任意数量的内联级节点和书签。
 
-段落中可能出现的子节点的完整列表包括[BookmarkStart](../../com.aspose.words/bookmarkstart), [BookmarkEnd](../../com.aspose.words/bookmarkend), [字段Start](../../com.aspose.words/fieldstart), [字段Separator](../../com.aspose.words/fieldseparator), [字段End](../../com.aspose.words/fieldend), [Form字段](../../com.aspose.words/formfield), [Comment](../../com.aspose.words/comment), [Footnote](../../com.aspose.words/footnote), [Run](../../com.aspose.words/run), [SpecialChar](../../com.aspose.words/specialchar), [Shape](../../com.aspose.words/shape), [GroupShape](../../com.aspose.words/groupshape), [SmartTag](../../com.aspose.words/smarttag).
+段落中可能出现的子节点的完整列表包括[BookmarkStart](../../com.aspose.words/bookmarkstart), [BookmarkEnd](../../com.aspose.words/bookmarkend), [FieldStart](../../com.aspose.words/fieldstart), [FieldSeparator](../../com.aspose.words/fieldseparator), [FieldEnd](../../com.aspose.words/fieldend), [FormField](../../com.aspose.words/formfield), [Comment](../../com.aspose.words/comment), [Footnote](../../com.aspose.words/footnote), [Run](../../com.aspose.words/run), [SpecialChar](../../com.aspose.words/specialchar), [Shape](../../com.aspose.words/shape), [GroupShape](../../com.aspose.words/groupshape), [SmartTag](../../com.aspose.words/smarttag).
 
-Microsoft Word 中的有效段落始终以段落分隔符结尾，最小有效段落仅包含段落分隔符。这**Paragraph**类自动在末尾附加适当的分节符，并且该字符不是子节点的一部分**Paragraph**，因此一个**Paragraph**可以为空。
+Microsoft Word 中的有效段落始终以段落分隔符结尾，最小有效段落仅由段落分隔符组成。这**Paragraph**类自动在末尾附加适当的段落分隔符，并且该字符不是子节点的一部分**Paragraph** 因此**Paragraph**可以为空。
 
-不包括段落结尾[ControlChar.PARAGRAPH\_BREAK](../../com.aspose.words/controlchar\#PARAGRAPH-BREAK)或单元格结尾[ControlChar.CELL](../../com.aspose.words/controlchar\#CELL)段落文本中的字符，因为在 Microsoft Word 中打开文档时，这可能会使段落无效。
+不包含段落结尾[ControlChar.PARAGRAPH\_BREAK](../../com.aspose.words/controlchar\#PARAGRAPH-BREAK)或单元格结尾[ControlChar.CELL](../../com.aspose.words/controlchar\#CELL)段落文本中的字符，因为在 Microsoft Word 中打开文档时，这可能会使段落无效。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -37,9 +37,9 @@ Microsoft Word 中的有效段落始终以段落分隔符结尾，最小有效�
 | --- | --- |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | 接受访客。 |
 | [appendChild(Node newChild)](#appendChild-com.aspose.words.Node-) | 将指定节点添加到此节点的子节点列表的末尾。 |
-| [append字段(int field类型, boolean update字段)](#append字段-int-boolean-) |  |
-| [append字段(String fieldCode)](#append字段-java.lang.String-) | 将 Word 字段附加到此段落。 |
-| [append字段(String fieldCode, String fieldValue)](#append字段-java.lang.String-java.lang.String-) | 将 Word 字段附加到此段落。 |
+| [appendField(int fieldType, boolean updateField)](#appendField-int-boolean-) |  |
+| [appendField(String fieldCode)](#appendField-java.lang.String-) | 将 Word 字段附加到此段落。 |
+| [appendField(String fieldCode, String fieldValue)](#appendField-java.lang.String-java.lang.String-) | 将 Word 字段附加到此段落。 |
 | [clearParaAttrs()](#clearParaAttrs--) |  |
 | [clearRunAttrs()](#clearRunAttrs--) |  |
 | [dd()](#dd--) |  |
@@ -48,13 +48,13 @@ Microsoft Word 中的有效段落始终以段落分隔符结尾，最小有效�
 | [fetchInheritedParaAttr(int key)](#fetchInheritedParaAttr-int-) |  |
 | [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
 | [fetchParaAttr(int key)](#fetchParaAttr-int-) |  |
-| [getAncestor(int ancestor类型)](#getAncestor-int-) |  |
-| [getAncestor(班级 ancestor类型)](#getAncestor-java.lang.班级-) | 获取指定对象类型的第一个祖先。 |
+| [getAncestor(int ancestorType)](#getAncestor-int-) |  |
+| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class-) | 获取指定对象类型的第一个祖先。 |
 | [getBreakIsStyleSeparator()](#getBreakIsStyleSeparator--) | 如果此段落分隔符是样式分隔符，则为真。 |
-| [getChild(int node类型, int index, boolean isDeep)](#getChild-int-int-boolean-) |  |
+| [getChild(int nodeType, int index, boolean isDeep)](#getChild-int-int-boolean-) |  |
 | [getChildNodes()](#getChildNodes--) | 获取此节点的所有直接子节点。 |
-| [getChildNodes(int node类型, boolean isDeep)](#getChildNodes-int-boolean-) |  |
-| [get班级()](#get班级--) |  |
+| [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean-) |  |
+| [getClass()](#getClass--) |  |
 | [getContainer()](#getContainer--) |  |
 | [getCount()](#getCount--) | 获取此节点的直接子节点数。 |
 | [getCurrentNode()](#getCurrentNode--) |  |
@@ -68,10 +68,10 @@ Microsoft Word 中的有效段落始终以段落分隔符结尾，最小有效�
 | [getFrameFormat()](#getFrameFormat--) | 提供对段落格式属性的访问。 |
 | [getLastChild()](#getLastChild--) | 获取节点的最后一个子节点。 |
 | [getListFormat()](#getListFormat--) | 提供对段落的列表格式属性的访问。 |
-| [getListLabel()](#getListLabel--) | 得到一个[getListLabel()](../../com.aspose.words/paragraph\#getListLabel--)提供对该段落的列表编号值和格式的访问的对象。 |
+| [getListLabel()](#getListLabel--) | 得到一个[getListLabel()](../../com.aspose.words/paragraph\#getListLabel--)提供对本段列表编号值和格式的访问的对象。 |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node-) |  |
 | [getNextSibling()](#getNextSibling--) | 获取紧跟此节点的节点。 |
-| [getNode类型()](#getNode类型--) | 退货**Node类型.Paragraph**. |
+| [getNodeType()](#getNodeType--) | 退货**NodeType.Paragraph**. |
 | [getParagraphBreakFont()](#getParagraphBreakFont--) | 提供对分段符的字体格式的访问。 |
 | [getParagraphFormat()](#getParagraphFormat--) | 提供对段落格式属性的访问。 |
 | [getParentNode()](#getParentNode--) | 获取此节点的直接父节点。 |
@@ -84,11 +84,11 @@ Microsoft Word 中的有效段落始终以段落分隔符结尾，最小有效�
 | [hasChildNodes()](#hasChildNodes--) | 如果此节点有任何子节点，则返回 true。 |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(Node child)](#indexOf-com.aspose.words.Node-) | 返回子节点数组中指定子节点的索引。 |
-| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的参考节点之后立即插入指定的节点。 |
-| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的参考节点之前插入指定的节点。 |
-| [insert字段(int field类型, boolean update字段, Node refNode, boolean isAfter)](#insert字段-int-boolean-com.aspose.words.Node-boolean-) |  |
-| [insert字段(String fieldCode, Node refNode, boolean isAfter)](#insert字段-java.lang.String-com.aspose.words.Node-boolean-) | 在此段落中插入一个 Word 字段。 |
-| [insert字段(String fieldCode, String fieldValue, Node refNode, boolean isAfter)](#insert字段-java.lang.String-java.lang.String-com.aspose.words.Node-boolean-) | 在此段落中插入一个 Word 字段。 |
+| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的引用节点之后立即插入指定的节点。 |
+| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node-) | 将指定节点插入到紧靠指定引用节点之前。 |
+| [insertField(int fieldType, boolean updateField, Node refNode, boolean isAfter)](#insertField-int-boolean-com.aspose.words.Node-boolean-) |  |
+| [insertField(String fieldCode, Node refNode, boolean isAfter)](#insertField-java.lang.String-com.aspose.words.Node-boolean-) | 在此段落中插入一个 Word 字段。 |
+| [insertField(String fieldCode, String fieldValue, Node refNode, boolean isAfter)](#insertField-java.lang.String-java.lang.String-com.aspose.words.Node-boolean-) | 在此段落中插入一个 Word 字段。 |
 | [isComposite()](#isComposite--) | 返回 true，因为此节点可以有子节点。 |
 | [isDeleteRevision()](#isDeleteRevision--) | 如果在启用更改跟踪时在 Microsoft Word 中删除了此对象，则返回 true。 |
 | [isEndOfCell()](#isEndOfCell--) | 如果本段是最后一段，则为真[Cell](../../com.aspose.words/cell);否则为假。 |
@@ -101,17 +101,17 @@ Microsoft Word 中的有效段落始终以段落分隔符结尾，最小有效�
 | [isListItem()](#isListItem--) | 当段落是原始修订中的项目符号或编号列表中的项目时为真。 |
 | [isMoveFromRevision()](#isMoveFromRevision--) | 退货**true**如果启用更改跟踪时此对象在 Microsoft Word 中被移动（删除）。 |
 | [isMoveToRevision()](#isMoveToRevision--) | 退货**true**如果启用更改跟踪时在 Microsoft Word 中移动（插入）此对象。 |
-| [iterator()](#iterator--) | 为在此节点的子节点上的每个样式迭代提供支持。 |
+| [iterator()](#iterator--) | 为该节点的子节点上的每个样式迭代提供支持。 |
 | [joinRunsWithSameFormatting()](#joinRunsWithSameFormatting--) | 连接在段落中以相同的格式运行。 |
 | [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取下一个节点。 |
-| [node类型ToString(int node类型)](#node类型ToString-int-) |  |
+| [nodeTypeToString(int nodeType)](#nodeTypeToString-int-) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [prependChild(Node newChild)](#prependChild-com.aspose.words.Node-) | 将指定节点添加到此节点的子节点列表的开头。 |
 | [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取上一个节点。 |
 | [remove()](#remove--) | 从父级中移除自身。 |
 | [removeAllChildren()](#removeAllChildren--) | 移除当前节点的所有子节点。 |
-| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node-) | 移除指定的子节点。 |
+| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node-) | 删除指定的子节点。 |
 | [removeMoveRevisions()](#removeMoveRevisions--) |  |
 | [removeParaAttr(int key)](#removeParaAttr-int-) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int-) |  |
@@ -182,9 +182,9 @@ public Node appendChild(Node newChild)
 
 **退货:**
 [Node](../../com.aspose.words/node) - 添加的节点。
-### append字段(int field类型, boolean update字段) {#append字段-int-boolean-}
+### appendField(int fieldType, boolean updateField) {#appendField-int-boolean-}
 ```
-public 字段 append字段(int field类型, boolean update字段)
+public Field appendField(int fieldType, boolean updateField)
 ```
 
 
@@ -193,42 +193,42 @@ public 字段 append字段(int field类型, boolean update字段)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| field类型 | int |  |
-| update字段 | boolean |  |
+| fieldType | int |  |
+| updateField | boolean |  |
 
 **退货:**
-[字段](../../com.aspose.words/field)
-### append字段(String fieldCode) {#append字段-java.lang.String-}
+[Field](../../com.aspose.words/field)
+### appendField(String fieldCode) {#appendField-java.lang.String-}
 ```
-public 字段 append字段(String fieldCode)
+public Field appendField(String fieldCode)
 ```
 
 
-将 Word 字段附加到此段落。将一个字段附加到此段落。
+将 Word 字段附加到此段落。向该段落附加一个字段。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldCode | java.lang.String | 要附加的域代码（不带花括号）。 |
+| fieldCode | java.lang.String | 要追加的字段代码（不带花括号）。 |
 
 **退货:**
-[字段](../../com.aspose.words/field) - 一个[字段](../../com.aspose.words/field)表示附加字段的对象。
-### append字段(String fieldCode, String fieldValue) {#append字段-java.lang.String-java.lang.String-}
+[Field](../../com.aspose.words/field) - 一个[Field](../../com.aspose.words/field)表示附加字段的对象。
+### appendField(String fieldCode, String fieldValue) {#appendField-java.lang.String-java.lang.String-}
 ```
-public 字段 append字段(String fieldCode, String fieldValue)
+public Field appendField(String fieldCode, String fieldValue)
 ```
 
 
-将 Word 字段附加到此段落。将一个字段附加到此段落。
+将 Word 字段附加到此段落。向该段落附加一个字段。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldCode | java.lang.String | 要附加的域代码（不带花括号）。 |
+| fieldCode | java.lang.String | 要追加的字段代码（不带花括号）。 |
 | fieldValue | java.lang.String | 要附加的字段值。为没有值的字段传递 null。 |
 
 **退货:**
-[字段](../../com.aspose.words/field) - 一个[字段](../../com.aspose.words/field)表示附加字段的对象。
+[Field](../../com.aspose.words/field) - 一个[Field](../../com.aspose.words/field)表示附加字段的对象。
 ### clearParaAttrs() {#clearParaAttrs--}
 ```
 public void clearParaAttrs()
@@ -332,9 +332,9 @@ public Object fetchParaAttr(int key)
 
 **退货:**
 java.lang.Object
-### getAncestor(int ancestor类型) {#getAncestor-int-}
+### getAncestor(int ancestorType) {#getAncestor-int-}
 ```
-public CompositeNode getAncestor(int ancestor类型)
+public CompositeNode getAncestor(int ancestorType)
 ```
 
 
@@ -343,13 +343,13 @@ public CompositeNode getAncestor(int ancestor类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ancestor类型 | int |  |
+| ancestorType | int |  |
 
 **退货:**
 [CompositeNode](../../com.aspose.words/compositenode)
-### getAncestor(班级 ancestor类型) {#getAncestor-java.lang.班级-}
+### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
 ```
-public CompositeNode getAncestor(班级 ancestor类型)
+public CompositeNode getAncestor(Class ancestorType)
 ```
 
 
@@ -358,7 +358,7 @@ public CompositeNode getAncestor(班级 ancestor类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ancestor类型 | java.lang.班级 | 要检索的祖先的对象类型。 |
+| ancestorType | java.lang.Class | 要检索的祖先的对象类型。 |
 
 **退货:**
 [CompositeNode](../../com.aspose.words/compositenode) - 指定类型的祖先，如果没有找到该类型的祖先，则返回 null。
@@ -374,9 +374,9 @@ public boolean getBreakIsStyleSeparator()
 
 **退货:**
 boolean - 对应的布尔值。
-### getChild(int node类型, int index, boolean isDeep) {#getChild-int-int-boolean-}
+### getChild(int nodeType, int index, boolean isDeep) {#getChild-int-int-boolean-}
 ```
-public Node getChild(int node类型, int index, boolean isDeep)
+public Node getChild(int nodeType, int index, boolean isDeep)
 ```
 
 
@@ -385,7 +385,7 @@ public Node getChild(int node类型, int index, boolean isDeep)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 | index | int |  |
 | isDeep | boolean |  |
 
@@ -399,15 +399,15 @@ public NodeCollection getChildNodes()
 
 获取此节点的所有直接子节点。
 
-笔记，[getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes--)相当于调用 GetChildNodes(Node类型.Any, false) 并在每次访问时创建并返回一个新集合。
+笔记，[getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes--)相当于调用 GetChildNodes(NodeType.Any, false) 并在每次访问时创建并返回一个新集合。
 
 如果没有子节点，则此属性返回一个空集合。
 
 **退货:**
 [NodeCollection](../../com.aspose.words/nodecollection) - 该节点的所有直接子节点。
-### getChildNodes(int node类型, boolean isDeep) {#getChildNodes-int-boolean-}
+### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean-}
 ```
-public NodeCollection getChildNodes(int node类型, boolean isDeep)
+public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 ```
 
 
@@ -416,21 +416,21 @@ public NodeCollection getChildNodes(int node类型, boolean isDeep)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 | isDeep | boolean |  |
 
 **退货:**
 [NodeCollection](../../com.aspose.words/nodecollection)
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getContainer() {#getContainer--}
 ```
 public CompositeNode getContainer()
@@ -591,10 +591,10 @@ public ListLabel getListLabel()
 ```
 
 
-得到一个[getListLabel()](../../com.aspose.words/paragraph\#getListLabel--)提供对该段落的列表编号值和格式的访问的对象。
+得到一个[getListLabel()](../../com.aspose.words/paragraph\#getListLabel--)提供对本段列表编号值和格式的访问的对象。
 
 **退货:**
-[ListLabel](../../com.aspose.words/listlabel) - 一个[getListLabel()](../../com.aspose.words/paragraph\#getListLabel--)提供对该段落的列表编号值和格式的访问的对象。
+[ListLabel](../../com.aspose.words/listlabel) - 一个[getListLabel()](../../com.aspose.words/paragraph\#getListLabel--)提供对本段列表编号值和格式的访问的对象。
 ### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node-}
 ```
 public Node getNextMatchingNode(Node curNode)
@@ -616,20 +616,20 @@ public Node getNextSibling()
 ```
 
 
-获取紧跟此节点的节点。如果没有下一个节点，则返回 null。
+获取紧跟在该节点之后的节点。如果没有下一个节点，则返回 null。
 
 **退货:**
-[Node](../../com.aspose.words/node) - 紧跟该节点的节点。
-### getNode类型() {#getNode类型--}
+[Node](../../com.aspose.words/node) - 紧接此节点之后的节点。
+### getNodeType() {#getNodeType--}
 ```
-public int getNode类型()
+public int getNodeType()
 ```
 
 
-退货**Node类型.Paragraph**.
+退货**NodeType.Paragraph**.
 
 **退货:**
-诠释 -**Node类型.Paragraph** .返回值是以下之一[Node类型](../../com.aspose.words/nodetype)常数。
+整数 -**NodeType.Paragraph** .返回值是其中之一[NodeType](../../com.aspose.words/nodetype)常数。
 ### getParagraphBreakFont() {#getParagraphBreakFont--}
 ```
 public Font getParagraphBreakFont()
@@ -658,10 +658,10 @@ public CompositeNode getParentNode()
 
 获取此节点的直接父节点。
 
-如果一个节点刚刚创建但尚未添加到树中，或者它已从树中删除，则父节点为空。
+如果一个节点刚刚被创建并且还没有被添加到树中，或者如果它已经被从树中移除，则父节点为空。
 
 **退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 该节点的直接父节点。
+[CompositeNode](../../com.aspose.words/compositenode) - 此节点的直接父节点。
 ### getParentSection() {#getParentSection--}
 ```
 public Section getParentSection()
@@ -688,10 +688,10 @@ public Node getPreviousSibling()
 ```
 
 
-获取紧接在此节点之前的节点。如果没有前面的节点，则返回 null。
+获取紧接在该节点之前的节点。如果前面没有节点，则返回 null。
 
 **退货:**
-[Node](../../com.aspose.words/node) - 紧接在此节点之前的节点。
+[Node](../../com.aspose.words/node) - 紧接在该节点之前的节点。
 ### getRange() {#getRange--}
 ```
 public Range getRange()
@@ -720,10 +720,10 @@ public String getText()
 
 获取此段落的文本，包括段落结尾字符。
 
-连接所有子节点的文本，并附加段落结尾字符，如下所示：
+连接所有子节点的文本并附加段落字符的结尾，如下所示：
 
- *  如果段落是最后一段[Body](../../com.aspose.words/body)， 然后[ControlChar.SECTION\_BREAK](../../com.aspose.words/controlchar\#SECTION-BREAK)(\\x000c) 被附加。
- *  如果段落是最后一段[Cell](../../com.aspose.words/cell)， 然后[ControlChar.CELL](../../com.aspose.words/controlchar\#CELL)(\\x0007) 被附加。
+ *  如果该段是最后一段[Body](../../com.aspose.words/body)， 然后[ControlChar.SECTION\_BREAK](../../com.aspose.words/controlchar\#SECTION-BREAK)(\\x000c) 被附加。
+ *  如果该段是最后一段[Cell](../../com.aspose.words/cell)， 然后[ControlChar.CELL](../../com.aspose.words/controlchar\#CELL)(\\x0007) 被附加。
  *  对于所有其他段落[ControlChar.PARAGRAPH\_BREAK](../../com.aspose.words/controlchar\#PARAGRAPH-BREAK)(\\r) 被附加。
 
 返回的字符串包括所有控制和特殊字符，如[ControlChar](../../com.aspose.words/controlchar).
@@ -771,7 +771,7 @@ public Node insertAfter(Node newChild, Node refChild)
 ```
 
 
-在指定的参考节点之后立即插入指定的节点。
+在指定的引用节点之后立即插入指定的节点。
 
 如果 refChild 为 null，则在子节点列表的开头插入 newChild。
 
@@ -793,7 +793,7 @@ public Node insertBefore(Node newChild, Node refChild)
 ```
 
 
-在指定的参考节点之前插入指定的节点。
+将指定节点插入到紧靠指定引用节点之前。
 
 如果 refChild 为 null，则在子节点列表的末尾插入 newChild。
 
@@ -809,9 +809,9 @@ public Node insertBefore(Node newChild, Node refChild)
 
 **退货:**
 [Node](../../com.aspose.words/node) - 插入的节点。
-### insert字段(int field类型, boolean update字段, Node refNode, boolean isAfter) {#insert字段-int-boolean-com.aspose.words.Node-boolean-}
+### insertField(int fieldType, boolean updateField, Node refNode, boolean isAfter) {#insertField-int-boolean-com.aspose.words.Node-boolean-}
 ```
-public 字段 insert字段(int field类型, boolean update字段, Node refNode, boolean isAfter)
+public Field insertField(int fieldType, boolean updateField, Node refNode, boolean isAfter)
 ```
 
 
@@ -820,16 +820,16 @@ public 字段 insert字段(int field类型, boolean update字段, Node refNode, 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| field类型 | int |  |
-| update字段 | boolean |  |
+| fieldType | int |  |
+| updateField | boolean |  |
 | refNode | [Node](../../com.aspose.words/node) |  |
 | isAfter | boolean |  |
 
 **退货:**
-[字段](../../com.aspose.words/field)
-### insert字段(String fieldCode, Node refNode, boolean isAfter) {#insert字段-java.lang.String-com.aspose.words.Node-boolean-}
+[Field](../../com.aspose.words/field)
+### insertField(String fieldCode, Node refNode, boolean isAfter) {#insertField-java.lang.String-com.aspose.words.Node-boolean-}
 ```
-public 字段 insert字段(String fieldCode, Node refNode, boolean isAfter)
+public Field insertField(String fieldCode, Node refNode, boolean isAfter)
 ```
 
 
@@ -843,10 +843,10 @@ public 字段 insert字段(String fieldCode, Node refNode, boolean isAfter)
 | isAfter | boolean | 是在引用节点之后还是之前插入字段。 |
 
 **退货:**
-[字段](../../com.aspose.words/field) - 一个[字段](../../com.aspose.words/field)表示插入字段的对象。
-### insert字段(String fieldCode, String fieldValue, Node refNode, boolean isAfter) {#insert字段-java.lang.String-java.lang.String-com.aspose.words.Node-boolean-}
+[Field](../../com.aspose.words/field) - 一个[Field](../../com.aspose.words/field)表示插入字段的对象。
+### insertField(String fieldCode, String fieldValue, Node refNode, boolean isAfter) {#insertField-java.lang.String-java.lang.String-com.aspose.words.Node-boolean-}
 ```
-public 字段 insert字段(String fieldCode, String fieldValue, Node refNode, boolean isAfter)
+public Field insertField(String fieldCode, String fieldValue, Node refNode, boolean isAfter)
 ```
 
 
@@ -861,7 +861,7 @@ public 字段 insert字段(String fieldCode, String fieldValue, Node refNode, bo
 | isAfter | boolean | 是在引用节点之后还是之前插入字段。 |
 
 **退货:**
-[字段](../../com.aspose.words/field) - 一个[字段](../../com.aspose.words/field)表示插入字段的对象。
+[Field](../../com.aspose.words/field) - 一个[Field](../../com.aspose.words/field)表示插入字段的对象。
 ### isComposite() {#isComposite--}
 ```
 public boolean isComposite()
@@ -881,7 +881,7 @@ public boolean isDeleteRevision()
 如果在启用更改跟踪时在 Microsoft Word 中删除了此对象，则返回 true。
 
 **退货:**
-boolean - 如果在启用更改跟踪时在 Microsoft Word 中删除了此对象，则为 True。
+布尔值 - 如果在启用更改跟踪的情况下在 Microsoft Word 中删除了此对象，则为 True。
 ### isEndOfCell() {#isEndOfCell--}
 ```
 public boolean isEndOfCell()
@@ -931,7 +931,7 @@ public boolean isFormatRevision()
 如果启用更改跟踪时在 Microsoft Word 中更改了对象的格式，则返回 true。
 
 **退货:**
-boolean - 如果启用更改跟踪时在 Microsoft Word 中更改了对象的格式，则为真。
+布尔值 - 如果在启用更改跟踪的情况下在 Microsoft Word 中更改了对象的格式，则为 True。
 ### isInCell() {#isInCell--}
 ```
 public boolean isInCell()
@@ -988,7 +988,7 @@ public Iterator iterator()
 ```
 
 
-为在此节点的子节点上的每个样式迭代提供支持。
+为该节点的子节点上的每个样式迭代提供支持。
 
 **退货:**
 java.util.Iterator
@@ -1001,7 +1001,7 @@ public int joinRunsWithSameFormatting()
 连接在段落中以相同的格式运行。
 
 **退货:**
- int - 执行的连接数。什么时候**N**相邻的运行正在被加入，它们算作**N - 1**加入。
+ int - 执行的连接数。什么时候**N**相邻的跑步被加入他们算作**N - 1**加入。
 ### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node-}
 ```
 public Node nextPreOrder(Node rootNode)
@@ -1017,9 +1017,9 @@ public Node nextPreOrder(Node rootNode)
 
 **退货:**
 [Node](../../com.aspose.words/node) - 预购订单中的下一个节点。如果到达 rootNode，则为 Null。
-### node类型ToString(int node类型) {#node类型ToString-int-}
+### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
 ```
-public static String node类型ToString(int node类型)
+public static String nodeTypeToString(int nodeType)
 ```
 
 
@@ -1028,7 +1028,7 @@ public static String node类型ToString(int node类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 
 **退货:**
 java.lang.String
@@ -1104,7 +1104,7 @@ public Node removeChild(Node oldChild)
 ```
 
 
-移除指定的子节点。
+删除指定的子节点。
 
 删除节点后，oldChild 的父级设置为 null。
 

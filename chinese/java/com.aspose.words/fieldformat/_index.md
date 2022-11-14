@@ -1,6 +1,6 @@
 ---
-title: 字段Format
-second_title: Aspose.Words for Java API Reference
+title: FieldFormat
+second_title: Aspose.Words for Java API 参考
 description: 提供对字段数字日期和时间以及一般格式的键入访问。
 type: docs
 weight: 194
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/fieldformat/
 **遗产:**
 java.lang.Object
 ```
-public class 字段Format
+public class FieldFormat
 ```
 
 提供对字段的数字、日期和时间以及一般格式的键入访问。
@@ -21,7 +21,7 @@ public class 字段Format
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDateTimeFormat()](#getDateTimeFormat--) | 获取应用于日期和时间字段结果的格式。 |
 | [getGeneralFormats()](#getGeneralFormats--) | 获取应用于数字、文本或任何字段结果的通用格式的集合。 |
 | [getNumericFormat()](#getNumericFormat--) | 获取应用于数值字段结果的格式。 |
@@ -49,16 +49,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDateTimeFormat() {#getDateTimeFormat--}
 ```
 public String getDateTimeFormat()

@@ -1,6 +1,6 @@
 ---
 title: DigitalSignatureUtil
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 提供签署文件的方法。
 type: docs
 weight: 114
@@ -25,7 +25,7 @@ public class DigitalSignatureUtil
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [loadSignatures(InputStream stream)](#loadSignatures-java.io.InputStream-) |  |
 | [loadSignatures(String fileName)](#loadSignatures-java.lang.String-) | 从文档加载数字签名。 |
@@ -56,16 +56,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

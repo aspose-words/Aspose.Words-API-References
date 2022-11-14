@@ -1,6 +1,6 @@
 ---
 title: MsWordVersion
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许 Aspose.Wods 模仿特定于 MS Word 版本的应用程序行为。
 type: docs
 weight: 399
@@ -16,7 +16,7 @@ public class MsWordVersion
 允许 Aspose.Wods 模仿特定于 MS Word 版本的应用程序行为。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [WORD_2000](#WORD-2000) | 优化 Aspose.Words 行为以匹配 MS Word 2000 版本。 |
 | [WORD_2002](#WORD-2002) | 优化 Aspose.Words 行为以匹配 MS Word 2002 版本。 |
@@ -33,7 +33,7 @@ public class MsWordVersion
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String msWordVersionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int msWordVersion)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -144,16 +144,16 @@ public static int fromName(String msWordVersionName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int msWordVersion) {#getName-int-}
 ```
 public static String getName(int msWordVersion)

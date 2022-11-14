@@ -1,6 +1,6 @@
 ---
-title: Fill类型
-second_title: Aspose.Words for Java API Reference
+title: FillType
+second_title: Aspose.Words for Java API 参考
 description: 指定可填充对象的填充类型。
 type: docs
 weight: 268
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/filltype/
 **遗产:**
 java.lang.Object
 ```
-public class Fill类型
+public class FillType
 ```
 
 指定可填充对象的填充类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BACKGROUND](#BACKGROUND) | 填充与背景相同。 |
 | [GRADIENT](#GRADIENT) | 渐变填充。 |
@@ -30,15 +30,15 @@ public class Fill类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String fill类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int fill类型)](#getName-int-) |  |
+| [fromName(String fillTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int fillType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int fill类型)](#toString-int-) |  |
+| [toString(int fillType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -111,9 +111,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String fill类型Name) {#fromName-java.lang.String-}
+### fromName(String fillTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String fill类型Name)
+public static int fromName(String fillTypeName)
 ```
 
 
@@ -122,23 +122,23 @@ public static int fromName(String fill类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fill类型Name | java.lang.String |  |
+| fillTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int fill类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int fillType) {#getName-int-}
 ```
-public static String getName(int fill类型)
+public static String getName(int fillType)
 ```
 
 
@@ -147,7 +147,7 @@ public static String getName(int fill类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fill类型 | int |  |
+| fillType | int |  |
 
 **退货:**
 java.lang.String
@@ -197,9 +197,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int fill类型) {#toString-int-}
+### toString(int fillType) {#toString-int-}
 ```
-public static String toString(int fill类型)
+public static String toString(int fillType)
 ```
 
 
@@ -208,7 +208,7 @@ public static String toString(int fill类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fill类型 | int |  |
+| fillType | int |  |
 
 **退货:**
 java.lang.String

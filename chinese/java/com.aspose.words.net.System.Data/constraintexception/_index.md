@@ -1,6 +1,6 @@
 ---
 title: ConstraintException
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示尝试违反约束的操作时引发的异常。
 type: docs
 weight: 12
@@ -27,7 +27,7 @@ public class ConstraintException extends IllegalStateException
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
 | [getMessage()](#getMessage--) |  |
 | [getStackTrace()](#getStackTrace--) |  |
@@ -105,16 +105,16 @@ public synchronized Throwable getCause()
 
 **退货:**
 java.lang.Throwable
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getLocalizedMessage() {#getLocalizedMessage--}
 ```
 public String getLocalizedMessage()

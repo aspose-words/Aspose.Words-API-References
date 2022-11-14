@@ -1,6 +1,6 @@
 ---
 title: ITextShaperFactory
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 
 type: docs
 weight: 660

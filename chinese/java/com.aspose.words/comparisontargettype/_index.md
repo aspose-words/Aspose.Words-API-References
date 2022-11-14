@@ -1,6 +1,6 @@
 ---
-title: ComparisonTarget类型
-second_title: Aspose.Words for Java API Reference
+title: ComparisonTargetType
+second_title: Aspose.Words for Java API 参考
 description: 允许指定将在比较期间使用的基本文档。
 type: docs
 weight: 84
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/comparisontargettype/
 **遗产:**
 java.lang.Object
 ```
-public class ComparisonTarget类型
+public class ComparisonTargetType
 ```
 
 允许指定将在比较期间使用的基本文档。默认值为[CURRENT](../../com.aspose.words/comparisontargettype\#CURRENT).与“比较文档”对话框中的 Microsoft Word“显示更改”选项相关。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CURRENT](#CURRENT) | 本文件用作比较时的基础。 |
 | [NEW](#NEW) | 比较时以其他文件为基准。 |
@@ -26,15 +26,15 @@ public class ComparisonTarget类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String comparisonTarget类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int comparisonTarget类型)](#getName-int-) |  |
+| [fromName(String comparisonTargetTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int comparisonTargetType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int comparisonTarget类型)](#toString-int-) |  |
+| [toString(int comparisonTargetType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -75,9 +75,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String comparisonTarget类型Name) {#fromName-java.lang.String-}
+### fromName(String comparisonTargetTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String comparisonTarget类型Name)
+public static int fromName(String comparisonTargetTypeName)
 ```
 
 
@@ -86,23 +86,23 @@ public static int fromName(String comparisonTarget类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| comparisonTarget类型Name | java.lang.String |  |
+| comparisonTargetTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int comparisonTarget类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int comparisonTargetType) {#getName-int-}
 ```
-public static String getName(int comparisonTarget类型)
+public static String getName(int comparisonTargetType)
 ```
 
 
@@ -111,7 +111,7 @@ public static String getName(int comparisonTarget类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| comparisonTarget类型 | int |  |
+| comparisonTargetType | int |  |
 
 **退货:**
 java.lang.String
@@ -161,9 +161,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int comparisonTarget类型) {#toString-int-}
+### toString(int comparisonTargetType) {#toString-int-}
 ```
-public static String toString(int comparisonTarget类型)
+public static String toString(int comparisonTargetType)
 ```
 
 
@@ -172,7 +172,7 @@ public static String toString(int comparisonTarget类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| comparisonTarget类型 | int |  |
+| comparisonTargetType | int |  |
 
 **退货:**
 java.lang.String

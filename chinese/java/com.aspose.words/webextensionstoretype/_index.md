@@ -1,6 +1,6 @@
 ---
-title: WebExtensionStore类型
-second_title: Aspose.Words for Java API Reference
+title: WebExtensionStoreType
+second_title: Aspose.Words for Java API 参考
 description: 枚举 Web 扩展商店的可用类型。
 type: docs
 weight: 619
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/webextensionstoretype/
 **遗产:**
 java.lang.Object
 ```
-public class WebExtensionStore类型
+public class WebExtensionStoreType
 ```
 
 枚举 Web 扩展商店的可用类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [DEFAULT](#DEFAULT) | 默认值。 |
 | [EXCHANGE](#EXCHANGE) | 指定存储类型是 Exchange 服务器。 |
@@ -32,15 +32,15 @@ public class WebExtensionStore类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String webExtensionStore类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int webExtensionStore类型)](#getName-int-) |  |
+| [fromName(String webExtensionStoreTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int webExtensionStoreType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int webExtensionStore类型)](#toString-int-) |  |
+| [toString(int webExtensionStoreType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -125,9 +125,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String webExtensionStore类型Name) {#fromName-java.lang.String-}
+### fromName(String webExtensionStoreTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String webExtensionStore类型Name)
+public static int fromName(String webExtensionStoreTypeName)
 ```
 
 
@@ -136,23 +136,23 @@ public static int fromName(String webExtensionStore类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| webExtensionStore类型Name | java.lang.String |  |
+| webExtensionStoreTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int webExtensionStore类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int webExtensionStoreType) {#getName-int-}
 ```
-public static String getName(int webExtensionStore类型)
+public static String getName(int webExtensionStoreType)
 ```
 
 
@@ -161,7 +161,7 @@ public static String getName(int webExtensionStore类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| webExtensionStore类型 | int |  |
+| webExtensionStoreType | int |  |
 
 **退货:**
 java.lang.String
@@ -211,9 +211,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int webExtensionStore类型) {#toString-int-}
+### toString(int webExtensionStoreType) {#toString-int-}
 ```
-public static String toString(int webExtensionStore类型)
+public static String toString(int webExtensionStoreType)
 ```
 
 
@@ -222,7 +222,7 @@ public static String toString(int webExtensionStore类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| webExtensionStore类型 | int |  |
+| webExtensionStoreType | int |  |
 
 **退货:**
 java.lang.String

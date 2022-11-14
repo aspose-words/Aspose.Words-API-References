@@ -1,6 +1,6 @@
 ---
 title: PdfDigitalSignatureTimestampSettings
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 包含数字签名时间戳的设置。
 type: docs
 weight: 453
@@ -20,15 +20,15 @@ public class PdfDigitalSignatureTimestampSettings
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [PdfDigitalSignatureTimestampSettings()](#PdfDigitalSignatureTimestampSettings--) | 初始化此类的一个实例。 |
-| [PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password)](#PdfDigitalSignatureTimestampSettings-java.lang.String-java.lang.String-java.lang.String-) | 初始化此类的一个实例。 |
-| [PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password, long timeout)](#PdfDigitalSignatureTimestampSettings-java.lang.String-java.lang.String-java.lang.String-long-) | 初始化此类的一个实例。 |
+| [PdfDigitalSignatureTimestampSettings()](#PdfDigitalSignatureTimestampSettings--) | 初始化此类的实例。 |
+| [PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password)](#PdfDigitalSignatureTimestampSettings-java.lang.String-java.lang.String-java.lang.String-) | 初始化此类的实例。 |
+| [PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password, long timeout)](#PdfDigitalSignatureTimestampSettings-java.lang.String-java.lang.String-java.lang.String-long-) | 初始化此类的实例。 |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getPassword()](#getPassword--) | 时间戳服务器密码。 |
 | [getServerUrl()](#getServerUrl--) | 时间戳服务器 URL。 |
 | [getTimeout()](#getTimeout--) | 访问时间戳服务器的超时值（以毫秒为单位）。 |
@@ -50,7 +50,7 @@ public PdfDigitalSignatureTimestampSettings()
 ```
 
 
-初始化此类的一个实例。
+初始化此类的实例。
 
 ### PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password) {#PdfDigitalSignatureTimestampSettings-java.lang.String-java.lang.String-java.lang.String-}
 ```
@@ -58,7 +58,7 @@ public PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, S
 ```
 
 
-初始化此类的一个实例。
+初始化此类的实例。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -73,7 +73,7 @@ public PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, S
 ```
 
 
-初始化此类的一个实例。
+初始化此类的实例。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -98,16 +98,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getPassword() {#getPassword--}
 ```
 public String getPassword()
@@ -124,7 +124,7 @@ public String getServerUrl()
 ```
 
 
-时间戳服务器 URL。默认值为空。如果为空，则数字签名将不加时间戳。
+时间戳服务器 URL。默认值为空。如果为空，则数字签名将不带有时间戳。
 
 **退货:**
 java.lang.String - 对应的 java.lang.String 值。
@@ -137,7 +137,7 @@ public long getTimeout()
 访问时间戳服务器的超时值（以毫秒为单位）。默认值为 100 秒。
 
 **退货:**
-long - 对应的 long 值。
+long - 相应的 long 值。
 ### getUserName() {#getUserName--}
 ```
 public String getUserName()
@@ -193,7 +193,7 @@ public void setServerUrl(String value)
 ```
 
 
-时间戳服务器 URL。默认值为空。如果为空，则数字签名将不加时间戳。
+时间戳服务器 URL。默认值为空。如果为空，则数字签名将不带有时间戳。
 
 **参数:**
 | 范围 | 类型 | 描述 |

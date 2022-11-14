@@ -1,7 +1,7 @@
 ---
 title: DataRowCollection
-second_title: Aspose.Words for Java API Reference
-description: 表示 a 的行集合。
+second_title: Aspose.Words for Java API 参考
+description: 表示 的行集合。
 type: docs
 weight: 21
 url: /zh/java/com.aspose.words.net.system.data/datarowcollection/
@@ -22,21 +22,21 @@ public class DataRowCollection implements Iterable
 | 方法 | 描述 |
 | --- | --- |
 | [add(System.Data.DataRow row)](#add-com.aspose.words.net.System.Data.DataRow-) | 添加指定的[DataRow](../../com.aspose.words.net.system.data/datarow)到[DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection)目的。 |
-| [add(Object[] values)](#add-java.lang.Object...-) | 使用指定值创建一行并将其添加到[DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection). |
+| [add(Object[] values)](#add-java.lang.Object...-) | 使用指定的值创建一行并将其添加到[DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection). |
 | [clear()](#clear--) | 清除所有行的集合。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [find(Object[] keys)](#find-java.lang.Object---) | 获取包含指定主键值的行。 |
-| [find(String primaryKeyValue)](#find-java.lang.String-) | 获取主键值指定的行。 |
+| [find(String primaryKeyValue)](#find-java.lang.String-) | 获取由主键值指定的行。 |
 | [get(int index)](#get-int-) | 获取指定索引处的行。 |
 | [get(Object[] values)](#get-java.lang.Object---) | 获取包含指定值的行。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取总数[DataRow](../../com.aspose.words.net.system.data/datarow)此集合中的对象。 |
 | [hashCode()](#hashCode--) |  |
-| [insertAt(System.Data.DataRow row, int pos)](#insertAt-com.aspose.words.net.System.Data.DataRow-int-) | 在指定位置向集合中插入新行。 |
+| [insertAt(System.Data.DataRow row, int pos)](#insertAt-com.aspose.words.net.System.Data.DataRow-int-) | 在集合中的指定位置插入一个新行。 |
 | [iterator()](#iterator--) | 获取此集合的 java.util.Iterator。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | 从集合中删除指定索引处的行。 |
+| [removeAt(int index)](#removeAt-int-) | 从集合中移除指定索引处的行。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -60,7 +60,7 @@ public void add(Object[] values)
 ```
 
 
-使用指定值创建一行并将其添加到[DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection).
+使用指定的值创建一行并将其添加到[DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection).
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -101,17 +101,17 @@ public System.Data.DataRow find(Object[] keys)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| keys | java.lang.Object[] | 要查找的主键值数组。数组的类型是 Object。 |
+| keys | java.lang.Object[] | 要查找的主键值数组。数组的类型是Object。 |
 
 **退货:**
-[DataRow](../../com.aspose.words.net.system.data/datarow) - 一个[DataRow](../../com.aspose.words.net.system.data/datarow)包含指定主键值的对象；如果主键值不存在于[DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection).
+[DataRow](../../com.aspose.words.net.system.data/datarow) - 一个[DataRow](../../com.aspose.words.net.system.data/datarow)包含指定主键值的对象；否则如果主键值不存在则为空值[DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection).
 ### find(String primaryKeyValue) {#find-java.lang.String-}
 ```
 public System.Data.DataRow find(String primaryKeyValue)
 ```
 
 
-获取主键值指定的行。
+获取由主键值指定的行。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -119,7 +119,7 @@ public System.Data.DataRow find(String primaryKeyValue)
 | primaryKeyValue | java.lang.String | 要查找的 DataRow 的主键值。 |
 
 **退货:**
-[DataRow](../../com.aspose.words.net.system.data/datarow) - 包含指定主键值的 DataRow；如果 DataRowCollection 中不存在主键值，则返回 null 值。
+[DataRow](../../com.aspose.words.net.system.data/datarow) - 包含指定主键值的 DataRow；如果 DataRowCollection 中不存在主键值，则为空值。
 ### get(int index) {#get-int-}
 ```
 public System.Data.DataRow get(int index)
@@ -141,7 +141,7 @@ public System.Data.DataRow get(Object[] values)
 ```
 
 
-获取包含指定值的行。如果存在主键的列，则将使用索引。如果没有索引，则使用简单的线性扫描。请谨慎处理，因为这可能需要大量时间。
+获取包含指定值的行。如果存在主键的列，则将使用索引。如果没有索引，则使用简单的线性扫描。请小心处理，因为这可能会花费大量时间。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -150,16 +150,16 @@ public System.Data.DataRow get(Object[] values)
 
 **退货:**
 [DataRow](../../com.aspose.words.net.system.data/datarow) 找到行或`null`
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -169,7 +169,7 @@ public int getCount()
 获取总数[DataRow](../../com.aspose.words.net.system.data/datarow)此集合中的对象。
 
 **退货:**
-int - 的总数[DataRow](../../com.aspose.words.net.system.data/datarow)此集合中的对象。
+int - 总数[DataRow](../../com.aspose.words.net.system.data/datarow)此集合中的对象。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -186,13 +186,13 @@ public void insertAt(System.Data.DataRow row, int pos)
 ```
 
 
-在指定位置向集合中插入新行。
+在集合中的指定位置插入一个新行。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | row | [DataRow](../../com.aspose.words.net.system.data/datarow) | 这[DataRow](../../com.aspose.words.net.system.data/datarow)添加。 |
-| pos | int | 集合中要添加 DataRow 的（从零开始的）位置。 |
+| pos | int | 集合中要添加 DataRow 的位置（从零开始）。 |
 
 ### iterator() {#iterator--}
 ```
@@ -226,7 +226,7 @@ public void removeAt(int index)
 ```
 
 
-从集合中删除指定索引处的行。
+从集合中移除指定索引处的行。
 
 **参数:**
 | 范围 | 类型 | 描述 |

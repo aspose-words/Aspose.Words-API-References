@@ -1,6 +1,6 @@
 ---
 title: ExportFontFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指示在呈现为 HTML 固定格式时用于导出字体的格式。
 type: docs
 weight: 148
@@ -16,9 +16,9 @@ public class ExportFontFormat
 指示在呈现为 HTML 固定格式时用于导出字体的格式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
-| [TTF](#TTF) | TTF（True类型 字体格式）。 |
+| [TTF](#TTF) | TTF（TrueType 字体格式）。 |
 | [WOFF](#WOFF) | WOFF（Web 开放字体格式）。 |
 | [length](#length) |  |
 ## 方法
@@ -27,7 +27,7 @@ public class ExportFontFormat
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String exportFontFormatName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int exportFontFormat)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int TTF
 ```
 
 
-TTF（True类型 字体格式）。
+TTF（TrueType 字体格式）。
 
 ### WOFF {#WOFF}
 ```
@@ -90,16 +90,16 @@ public static int fromName(String exportFontFormatName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int exportFontFormat) {#getName-int-}
 ```
 public static String getName(int exportFontFormat)

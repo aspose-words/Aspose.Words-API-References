@@ -1,7 +1,7 @@
 ---
 title: TextWatermarkOptions
-second_title: Aspose.Words for Java API Reference
-description: 包含在添加带文本的水印时可以指定的选项。
+second_title: Aspose.Words for Java API 参考
+description: 包含在添加带有文本的水印时可以指定的选项。
 type: docs
 weight: 569
 url: /zh/java/com.aspose.words/textwatermarkoptions/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TextWatermarkOptions
 ```
 
-包含在添加带文本的水印时可以指定的选项。
+包含在添加带有文本的水印时可以指定的选项。
 
 要了解更多信息，请访问**Working with Watermark**文档文章。
 ## 方法
@@ -21,7 +21,7 @@ public class TextWatermarkOptions
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | 获取字体颜色。 |
 | [getFontFamily()](#getFontFamily--) | 获取字体系列名称。 |
 | [getFontSize()](#getFontSize--) | 获取字体大小。 |
@@ -54,16 +54,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getColor() {#getColor--}
 ```
 public Color getColor()
@@ -211,7 +211,7 @@ public void setLayout(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 水印的布局。该值必须是以下之一[WatermarkLayout](../../com.aspose.words/watermarklayout)常数。 |
+| value | int | 水印的布局。该值必须是其中之一[WatermarkLayout](../../com.aspose.words/watermarklayout)常数。 |
 
 ### toString() {#toString--}
 ```

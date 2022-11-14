@@ -1,6 +1,6 @@
 ---
 title: HtmlLoadOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许在将 HTML 文档加载到对象时指定其他选项。
 type: docs
 weight: 328
@@ -30,7 +30,7 @@ public class HtmlLoadOptions extends LoadOptions
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBaseUri()](#getBaseUri--) | 获取将用于在需要时将在文档中找到的相对 URI 解析为绝对 URI 的字符串。 |
 | [getBlockImportMode()](#getBlockImportMode--) | 获取一个值，该值指定如何导入块级元素的属性。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getConvertMetafilesToPng()](#getConvertMetafilesToPng--) | 获取是否转换元文件（**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。 |
 | [getConvertShapeToOfficeMath()](#getConvertShapeToOfficeMath--) | 获取是否将带有 EquationXML 的形状转换为 Office Math 对象。 |
 | [getConvertSvgToEmf()](#getConvertSvgToEmf--) | 获取一个值，该值指示是否将加载的 SVG 图像转换为 EMF 格式。 |
@@ -41,8 +41,8 @@ public class HtmlLoadOptions extends LoadOptions
 | [getLoadFormat()](#getLoadFormat--) | 指定要加载的文档的格式。 |
 | [getMswVersion()](#getMswVersion--) | 允许指定文档加载过程应匹配特定的 MS Word 版本。 |
 | [getPassword()](#getPassword--) | 获取打开加密文档的密码。 |
-| [getPreferredControl类型()](#getPreferredControl类型--) | 获取将表示导入和元素的首选文档节点类型。 |
-| [getPreserveIncludePicture字段()](#getPreserveIncludePicture字段--) | 获取读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。 |
+| [getPreferredControlType()](#getPreferredControlType--) | 获取将表示导入和元素的首选文档节点类型。 |
+| [getPreserveIncludePictureField()](#getPreserveIncludePictureField--) | 获取读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。 |
 | [getProgressCallback()](#getProgressCallback--) | 在加载文档期间调用并接受有关加载进度的数据。 |
 | [getResourceLoadingCallback()](#getResourceLoadingCallback--) | 允许控制从 HTML、MHTML 导入文档时如何加载外部资源（图像、样式表）。 |
 | [getSupportVml()](#getSupportVml--) | 获取一个值，该值指示是否支持 VML 图像。 |
@@ -58,14 +58,14 @@ public class HtmlLoadOptions extends LoadOptions
 | [setConvertMetafilesToPng(boolean value)](#setConvertMetafilesToPng-boolean-) | 设置是否转换元文件（**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。 |
 | [setConvertShapeToOfficeMath(boolean value)](#setConvertShapeToOfficeMath-boolean-) | 设置是否将带有 EquationXML 的形状转换为 Office Math 对象。 |
 | [setConvertSvgToEmf(boolean value)](#setConvertSvgToEmf-boolean-) | 设置一个值，指示是否将加载的 SVG 图像转换为 EMF 格式。 |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | 如果未在文档中指定编码，则设置将用于加载 HTML、TXT 或 CHM 文档的编码。 |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | 如果文档中未指定编码，则设置将用于加载 HTML、TXT 或 CHM 文档的编码。 |
 | [setFontSettings(FontSettings value)](#setFontSettings-com.aspose.words.FontSettings-) | 允许指定文档字体设置。 |
 | [setIgnoreNoscriptElements(boolean value)](#setIgnoreNoscriptElements-boolean-) | 设置一个值，指示是否忽略 HTML 元素。 |
 | [setLoadFormat(int value)](#setLoadFormat-int-) | 指定要加载的文档的格式。 |
 | [setMswVersion(int value)](#setMswVersion-int-) | 允许指定文档加载过程应匹配特定的 MS Word 版本。 |
 | [setPassword(String value)](#setPassword-java.lang.String-) | 设置打开加密文档的密码。 |
-| [setPreferredControl类型(int value)](#setPreferredControl类型-int-) | 设置将表示导入和元素的文档节点的首选类型。 |
-| [setPreserveIncludePicture字段(boolean value)](#setPreserveIncludePicture字段-boolean-) | 设置读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。 |
+| [setPreferredControlType(int value)](#setPreferredControlType-int-) | 设置将表示导入和元素的文档节点的首选类型。 |
+| [setPreserveIncludePictureField(boolean value)](#setPreserveIncludePictureField-boolean-) | 设置在阅读 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。 |
 | [setProgressCallback(IDocumentLoadingCallback value)](#setProgressCallback-com.aspose.words.IDocumentLoadingCallback-) | 在加载文档期间调用并接受有关加载进度的数据。 |
 | [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback-) | 允许控制从 HTML、MHTML 导入文档时如何加载外部资源（图像、样式表）。 |
 | [setSupportVml(boolean value)](#setSupportVml-boolean-) | 设置一个值，指示是否支持 VML 图像。 |
@@ -96,7 +96,7 @@ public HtmlLoadOptions(String password)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| password | java.lang.String | 打开加密文档的密码。可以是 null 或空字符串。 |
+| password | java.lang.String | 打开加密文档的密码。可以为 null 或空字符串。 |
 
 ### HtmlLoadOptions(int loadFormat, String password, String baseUri) {#HtmlLoadOptions-int-java.lang.String-java.lang.String-}
 ```
@@ -134,15 +134,15 @@ public String getBaseUri()
 ```
 
 
-获取将用于在需要时将在文档中找到的相对 URI 解析为绝对 URI 的字符串。可以是 null 或空字符串。默认为空。
+获取将用于在需要时将文档中找到的相对 URI 解析为绝对 URI 的字符串。可以为 null 或空字符串。默认为空。
 
-在以下情况下，此属性用于将相对 URI 解析为绝对：
+在以下情况下，此属性用于将相对 URI 解析为绝对 URI：
 
-1.  从流中加载 HTML 文档并且该文档包含具有相对 URI 的图像并且没有在 BASE HTML 元素中指定的基本 URI。
-2.  将文档保存为 PDF 和其他格式时，检索使用相对 URI 链接的图像，以便将图像保存到输出文档中。
+1.  从流中加载 HTML 文档时，该文档包含具有相对 URI 的图像，并且没有在 BASE HTML 元素中指定的基本 URI。
+2.  将文档保存为 PDF 和其他格式时，检索使用相对 URI 链接的图像，以便可以将图像保存到输出文档中。
 
 **退货:**
-java.lang.String - 需要时用于将文档中的相对 URI 解析为绝对 URI 的字符串。
+java.lang.String - 将用于在需要时将文档中找到的相对 URI 解析为绝对 URI 的字符串。
 ### getBlockImportMode() {#getBlockImportMode--}
 ```
 public int getBlockImportMode()
@@ -152,24 +152,24 @@ public int getBlockImportMode()
 获取一个值，该值指定如何导入块级元素的属性。默认值为[BlockImportMode.MERGE](../../com.aspose.words/blockimportmode\#MERGE).
 
 **退货:**
-int - 一个值，指定如何导入块级元素的属性。返回值是以下之一[BlockImportMode](../../com.aspose.words/blockimportmode)常数。
-### get班级() {#get班级--}
+int - 指定如何导入块级元素的属性的值。返回值是以下之一[BlockImportMode](../../com.aspose.words/blockimportmode)常数。
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getConvertMetafilesToPng() {#getConvertMetafilesToPng--}
 ```
 public boolean getConvertMetafilesToPng()
 ```
 
 
-获取是否转换元文件（**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。元文件 (**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 是一种未压缩的图像格式，有时需要大量 RAM 来保存和处理文档。此选项允许将所有元文件图像转换为**F:Aspose.FileFormat.Png**关于文件加载。请注意 - 将矢量图形转换为光栅会降低图像质量。
+获取是否转换元文件（**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。图元文件 (**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 是一种未压缩的图像格式，有时需要大量 RAM 来保存和处理文档。此选项允许将所有图元文件图像转换为**F:Aspose.FileFormat.Png**关于文档加载。请注意 - 将矢量图形转换为光栅会降低图像质量。
 
 **退货:**
  boolean - 是否转换图元文件 (**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。
@@ -182,18 +182,18 @@ public boolean getConvertShapeToOfficeMath()
 获取是否将带有 EquationXML 的形状转换为 Office Math 对象。
 
 **退货:**
-boolean - 是否将带有 EquationXML 的形状转换为 Office Math 对象。
+布尔值 - 是否将带有 EquationXML 的形状转换为 Office Math 对象。
 ### getConvertSvgToEmf() {#getConvertSvgToEmf--}
 ```
 public boolean getConvertSvgToEmf()
 ```
 
 
-获取一个值，该值指示是否将加载的 SVG 图像转换为 EMF 格式。默认值为 false ，如果可能，加载的 SVG 图像将按原样存储而无需转换。
+获取一个值，该值指示是否将加载的 SVG 图像转换为 EMF 格式。默认值为 false，如果可能，加载的 SVG 图像将按原样存储而不进行转换。
 
-较新版本的 MS Word 原生支持 SVG 图像。如果加载选项中指定的 MS Word 版本支持 SVG，Aspose.Words 将按原样存储 SVG 图像而不进行转换。如果不支持 SVG，加载的 SVG 图像将被转换为 EMF 格式。
+较新版本的 MS Word 本机支持 SVG 图像。如果加载选项中指定的 MS Word 版本支持 SVG，Aspose.Words 将按原样存储 SVG 图像而不进行转换。如果不支持 SVG，加载的 SVG 图像将被转换为 EMF 格式。
 
-但是，如果此选项设置为 true ，即使指定版本的 MS Word 支持 SVG 图像，Aspose.Words 也会将加载的 SVG 图像转换为 EMF。
+但是，如果此选项设置为 true ，Aspose.Words 会将加载的 SVG 图像转换为 EMF，即使指定版本的 MS Word 支持 SVG 图像。
 
 **退货:**
 boolean - 一个值，指示是否将加载的 SVG 图像转换为 EMF 格式。
@@ -203,11 +203,11 @@ public Charset getEncoding()
 ```
 
 
-如果未在文档中指定编码，则获取将用于加载 HTML、TXT 或 CHM 文档的编码。可以为空。默认为空。
+如果文档中未指定编码，则获取将用于加载 HTML、TXT 或 CHM 文档的编码。可以为空。默认为空。
 
 此属性仅在加载 HTML、TXT 或 CHM 文档时使用。
 
-如果文档中没有指定编码并且该属性为 null ，那么系统将尝试自动检测编码。
+如果文档中未指定编码且此属性为 null ，则系统将尝试自动检测编码。
 
 **退货:**
 java.nio.charset.Charset - 如果文档中未指定编码，则将用于加载 HTML、TXT 或 CHM 文档的编码。
@@ -233,10 +233,10 @@ public boolean getIgnoreNoscriptElements()
 ```
 
 
-获取一个值，该值指示是否忽略 HTML 元素。默认值为 false 。与 MS Word 一样，Aspose.Words 不支持脚本，默认情况下会将元素内容加载到生成的文档中。然而，在大多数浏览器中，脚本是受支持的，并且其中的内容是不可见的。将此属性设置为 true 会强制 Aspose.Words 忽略所有元素，并有助于生成看起来更接近浏览器中所见内容的文档。
+获取一个值，该值指示是否忽略 HTML 元素。默认值为 false 。与 MS Word 一样，Aspose.Words 不支持脚本，默认情况下将元素内容加载到生成的文档中。但是，在大多数浏览器中，都支持脚本，并且来自的内容不可见。将此属性设置为 true 会强制 Aspose.Words 忽略所有元素并帮助生成看起来更接近浏览器中所见内容的文档。
 
 **退货:**
-boolean - 一个指示是否忽略 HTML 元素的值。
+boolean - 指示是否忽略 HTML 元素的值。
 ### getLanguagePreferences() {#getLanguagePreferences--}
 ```
 public LanguagePreferences getLanguagePreferences()
@@ -275,29 +275,29 @@ public String getPassword()
 ```
 
 
-获取打开加密文档的密码。可以是 null 或空字符串。默认为空。
+获取打开加密文档的密码。可以为 null 或空字符串。默认为空。
 
-您需要知道打开加密文档的密码。如果文档未加密，请将其设置为 null 或空字符串。
+您需要知道密码才能打开加密文档。如果文档未加密，请将其设置为 null 或空字符串。
 
 **退货:**
 java.lang.String - 打开加密文档的密码。
-### getPreferredControl类型() {#getPreferredControl类型--}
+### getPreferredControlType() {#getPreferredControlType--}
 ```
-public int getPreferredControl类型()
+public int getPreferredControlType()
 ```
 
 
-获取将表示导入和元素的首选文档节点类型。默认值为[HtmlControl类型.FORM\_FIELD](../../com.aspose.words/htmlcontroltype\#FORM-FIELD).请注意，设置此属性并不能保证所有导入的控件都是指定的类型。如果 HTML 控件不能用首选类型的文档节点表示，Aspose.Words 将使用兼容的[HtmlControl类型](../../com.aspose.words/htmlcontroltype)对于那个控制。
+获取将表示导入和元素的首选类型的文档节点。默认值为[HtmlControlType.FORM\_FIELD](../../com.aspose.words/htmlcontroltype\#FORM-FIELD).请注意，设置此属性并不能保证所有导入的控件都是指定的类型。如果 HTML 控件不能用首选类型的文档节点表示，Aspose.Words 将使用兼容的[HtmlControlType](../../com.aspose.words/htmlcontroltype)对于那个控制。
 
 **退货:**
- int - 表示导入和元素的首选文档节点类型。返回值是以下之一[HtmlControl类型](../../com.aspose.words/htmlcontroltype)常数。
-### getPreserveIncludePicture字段() {#getPreserveIncludePicture字段--}
+ int - 表示导入和元素的首选文档节点类型。返回值是以下之一[HtmlControlType](../../com.aspose.words/htmlcontroltype)常数。
+### getPreserveIncludePictureField() {#getPreserveIncludePictureField--}
 ```
-public boolean getPreserveIncludePicture字段()
+public boolean getPreserveIncludePictureField()
 ```
 
 
-获取读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。默认值为假。
+获取在阅读 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。默认值为假。
 
 默认情况下，INCLUDEPICTURE 字段转换为形状对象。如果您需要保留该字段，例如，如果您希望以编程方式更新它，您可以覆盖它。但是请注意，这种方法在 Aspose.Words 中并不常见。自行承担使用风险。
 
@@ -415,10 +415,10 @@ public void setBaseUri(String value)
 
 将用于在需要时将文档中的相对 URI 解析为绝对 URI 的字符串。可以是 null 或空字符串。默认为空。
 
-在以下情况下，此属性用于将相对 URI 解析为绝对：
+在以下情况下，此属性用于将相对 URI 解析为绝对 URI：
 
-1.  从流中加载 HTML 文档并且该文档包含具有相对 URI 的图像并且没有在 BASE HTML 元素中指定的基本 URI。
-2.  将文档保存为 PDF 和其他格式时，检索使用相对 URI 链接的图像，以便将图像保存到输出文档中。
+1.  从流中加载 HTML 文档时，该文档包含具有相对 URI 的图像，并且没有在 BASE HTML 元素中指定的基本 URI。
+2.  将文档保存为 PDF 和其他格式时，检索使用相对 URI 链接的图像，以便可以将图像保存到输出文档中。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -436,7 +436,7 @@ public void setBlockImportMode(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 一个值，指定如何导入块级元素的属性。该值必须是以下之一[BlockImportMode](../../com.aspose.words/blockimportmode)常数。 |
+| value | int | 一个值，指定如何导入块级元素的属性。该值必须是其中之一[BlockImportMode](../../com.aspose.words/blockimportmode)常数。 |
 
 ### setConvertMetafilesToPng(boolean value) {#setConvertMetafilesToPng-boolean-}
 ```
@@ -444,7 +444,7 @@ public void setConvertMetafilesToPng(boolean value)
 ```
 
 
-设置是否转换元文件（**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。元文件 (**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 是一种未压缩的图像格式，有时需要大量 RAM 来保存和处理文档。此选项允许将所有元文件图像转换为**F:Aspose.FileFormat.Png**关于文件加载。请注意 - 将矢量图形转换为光栅会降低图像质量。
+设置是否转换元文件（**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。图元文件 (**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 是一种未压缩的图像格式，有时需要大量 RAM 来保存和处理文档。此选项允许将所有图元文件图像转换为**F:Aspose.FileFormat.Png**关于文档加载。请注意 - 将矢量图形转换为光栅会降低图像质量。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -472,9 +472,9 @@ public void setConvertSvgToEmf(boolean value)
 
 设置一个值，指示是否将加载的 SVG 图像转换为 EMF 格式。默认值为 false ，如果可能，加载的 SVG 图像将按原样存储而无需转换。
 
-较新版本的 MS Word 原生支持 SVG 图像。如果加载选项中指定的 MS Word 版本支持 SVG，Aspose.Words 将按原样存储 SVG 图像而不进行转换。如果不支持 SVG，加载的 SVG 图像将被转换为 EMF 格式。
+较新版本的 MS Word 本机支持 SVG 图像。如果加载选项中指定的 MS Word 版本支持 SVG，Aspose.Words 将按原样存储 SVG 图像而不进行转换。如果不支持 SVG，加载的 SVG 图像将被转换为 EMF 格式。
 
-但是，如果此选项设置为 true ，即使指定版本的 MS Word 支持 SVG 图像，Aspose.Words 也会将加载的 SVG 图像转换为 EMF。
+但是，如果此选项设置为 true ，Aspose.Words 会将加载的 SVG 图像转换为 EMF，即使指定版本的 MS Word 支持 SVG 图像。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -491,7 +491,7 @@ public void setEncoding(Charset value)
 
 此属性仅在加载 HTML、TXT 或 CHM 文档时使用。
 
-如果文档中没有指定编码并且该属性为 null ，那么系统将尝试自动检测编码。
+如果文档中未指定编码且此属性为 null ，则系统将尝试自动检测编码。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -566,29 +566,29 @@ public void setPassword(String value)
 
 设置打开加密文档的密码。可以是 null 或空字符串。默认为空。
 
-您需要知道打开加密文档的密码。如果文档未加密，请将其设置为 null 或空字符串。
+您需要知道密码才能打开加密文档。如果文档未加密，请将其设置为 null 或空字符串。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | 打开加密文档的密码。 |
 
-### setPreferredControl类型(int value) {#setPreferredControl类型-int-}
+### setPreferredControlType(int value) {#setPreferredControlType-int-}
 ```
-public void setPreferredControl类型(int value)
+public void setPreferredControlType(int value)
 ```
 
 
-设置将表示导入和元素的文档节点的首选类型。默认值为[HtmlControl类型.FORM\_FIELD](../../com.aspose.words/htmlcontroltype\#FORM-FIELD).请注意，设置此属性并不能保证所有导入的控件都是指定的类型。如果 HTML 控件不能用首选类型的文档节点表示，Aspose.Words 将使用兼容的[HtmlControl类型](../../com.aspose.words/htmlcontroltype)对于那个控制。
+设置将表示导入和元素的文档节点的首选类型。默认值为[HtmlControlType.FORM\_FIELD](../../com.aspose.words/htmlcontroltype\#FORM-FIELD).请注意，设置此属性并不能保证所有导入的控件都是指定的类型。如果 HTML 控件不能用首选类型的文档节点表示，Aspose.Words 将使用兼容的[HtmlControlType](../../com.aspose.words/htmlcontroltype)对于那个控制。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 表示导入和元素的首选文档节点类型。该值必须是以下之一[HtmlControl类型](../../com.aspose.words/htmlcontroltype)常数。 |
+| value | int | 表示导入和元素的首选文档节点类型。该值必须是其中之一[HtmlControlType](../../com.aspose.words/htmlcontroltype)常数。 |
 
-### setPreserveIncludePicture字段(boolean value) {#setPreserveIncludePicture字段-boolean-}
+### setPreserveIncludePictureField(boolean value) {#setPreserveIncludePictureField-boolean-}
 ```
-public void setPreserveIncludePicture字段(boolean value)
+public void setPreserveIncludePictureField(boolean value)
 ```
 
 

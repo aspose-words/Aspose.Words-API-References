@@ -1,6 +1,6 @@
 ---
 title: OutlineLevel
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定文档中段落的大纲级别。
 type: docs
 weight: 430
@@ -16,10 +16,10 @@ public class OutlineLevel
 指定文档中段落的大纲级别。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
-| [BODY_TEXT](#BODY-TEXT) | 该段落位于正文的级别。 |
-| [LEVEL_1](#LEVEL-1) | 该段落位于大纲级别 1（最顶层）。 |
+| [BODY_TEXT](#BODY-TEXT) | 该段落位于正文级别。 |
+| [LEVEL_1](#LEVEL-1) | 该段落位于大纲级别 1（最高级别）。 |
 | [LEVEL_2](#LEVEL-2) | 该段落处于大纲级别 2。 |
 | [LEVEL_3](#LEVEL-3) | 该段落处于大纲级别 3。 |
 | [LEVEL_4](#LEVEL-4) | 该段落处于大纲级别 4。 |
@@ -35,7 +35,7 @@ public class OutlineLevel
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String outlineLevelName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int outlineLevel)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -52,7 +52,7 @@ public static int BODY_TEXT
 ```
 
 
-该段落位于正文的级别。
+该段落位于正文级别。
 
 ### LEVEL_1 {#LEVEL-1}
 ```
@@ -60,7 +60,7 @@ public static int LEVEL_1
 ```
 
 
-该段落位于大纲级别 1（最顶层）。
+该段落位于大纲级别 1（最高级别）。
 
 ### LEVEL_2 {#LEVEL-2}
 ```
@@ -162,16 +162,16 @@ public static int fromName(String outlineLevelName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int outlineLevel) {#getName-int-}
 ```
 public static String getName(int outlineLevel)

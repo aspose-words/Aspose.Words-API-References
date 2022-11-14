@@ -1,6 +1,6 @@
 ---
 title: TaskPane
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示加载项任务窗格对象。
 type: docs
 weight: 555
@@ -21,20 +21,20 @@ public class TaskPane
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDockState()](#getDockState--) | 指定此任务窗格对象的最后停靠位置。 |
-| [getRow()](#getRow--) | 在停靠在相同默认位置的其他持久任务窗格中，指定此任务窗格的索引，从外到内枚举。 |
+| [getRow()](#getRow--) | 指定此任务窗格的索引，从外到内枚举，以及停靠在同一默认位置的其他持久任务窗格。 |
 | [getWebExtension()](#getWebExtension--) | 表示一个 Web 扩展对象。 |
 | [getWidth()](#getWidth--) | 指定此任务窗格实例的默认宽度值。 |
 | [hashCode()](#hashCode--) |  |
 | [isLocked()](#isLocked--) | 指定任务窗格是否锁定到 UI 中的文档并且不能由用户关闭。 |
 | [isLocked(boolean value)](#isLocked-boolean-) | 指定任务窗格是否锁定到 UI 中的文档并且不能由用户关闭。 |
-| [isVisible()](#isVisible--) | 指定当文档打开时任务窗格是否默认显示为可见。 |
-| [isVisible(boolean value)](#isVisible-boolean-) | 指定当文档打开时任务窗格是否默认显示为可见。 |
+| [isVisible()](#isVisible--) | 指定任务窗格在文档打开时是否默认显示为可见。 |
+| [isVisible(boolean value)](#isVisible-boolean-) | 指定任务窗格在文档打开时是否默认显示为可见。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setDockState(int value)](#setDockState-int-) | 指定此任务窗格对象的最后停靠位置。 |
-| [setRow(int value)](#setRow-int-) | 在停靠在相同默认位置的其他持久任务窗格中，指定此任务窗格的索引，从外到内枚举。 |
+| [setRow(int value)](#setRow-int-) | 指定此任务窗格的索引，从外到内枚举，以及停靠在同一默认位置的其他持久任务窗格。 |
 | [setWidth(double value)](#setWidth-double-) | 指定此任务窗格实例的默认宽度值。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -55,16 +55,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDockState() {#getDockState--}
 ```
 public int getDockState()
@@ -81,7 +81,7 @@ public int getRow()
 ```
 
 
-在停靠在相同默认位置的其他持久任务窗格中，指定此任务窗格的索引，从外到内枚举。
+指定此任务窗格的索引，从外到内枚举，以及停靠在同一默认位置的其他持久任务窗格。
 
 **退货:**
 int - 对应的 int 值。
@@ -144,7 +144,7 @@ public boolean isVisible()
 ```
 
 
-指定当文档打开时任务窗格是否默认显示为可见。
+指定任务窗格在文档打开时是否默认显示为可见。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -154,7 +154,7 @@ public void isVisible(boolean value)
 ```
 
 
-指定当文档打开时任务窗格是否默认显示为可见。
+指定任务窗格在文档打开时是否默认显示为可见。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -196,7 +196,7 @@ public void setRow(int value)
 ```
 
 
-在停靠在相同默认位置的其他持久任务窗格中，指定此任务窗格的索引，从外到内枚举。
+指定此任务窗格的索引，从外到内枚举，以及停靠在同一默认位置的其他持久任务窗格。
 
 **参数:**
 | 范围 | 类型 | 描述 |

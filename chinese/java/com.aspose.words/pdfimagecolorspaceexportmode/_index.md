@@ -1,6 +1,6 @@
 ---
 title: PdfImageColorSpaceExportMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定如何为 PDF 文档中的图像选择色彩空间。
 type: docs
 weight: 456
@@ -16,7 +16,7 @@ public class PdfImageColorSpaceExportMode
 指定如何为 PDF 文档中的图像选择色彩空间。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [AUTO](#AUTO) | Aspose.Words 自动为每个图像选择最合适的色彩空间。 |
 | [SIMPLE_CMYK](#SIMPLE-CMYK) | Aspose.Words 使用简单的公式将 RGB 图像转换为 CMYK 颜色空间。 |
@@ -27,7 +27,7 @@ public class PdfImageColorSpaceExportMode
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pdfImageColorSpaceExportModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int pdfImageColorSpaceExportMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -58,7 +58,7 @@ public static int SIMPLE_CMYK
 
 Aspose.Words 使用简单的公式将 RGB 图像转换为 CMYK 颜色空间。
 
-使用公式将 RGB 颜色空间中的图像转换为 CMYK：黑色 = 最小值（1-红色，1-绿色，1-蓝色）。青色 = (1-红-黑)/(1-黑)。洋红色 = (1-绿色-黑色)/(1-黑色)。黄色 = (1-蓝-黑)/(1-黑)。 RGB 值已标准化 - 它们介于 0 和 1.0 之间。
+RGB 颜色空间中的图像使用以下公式转换为 CMYK：Black = minimum(1-Red,1-Green,1-Blue)。青色 = (1-红-黑)/(1-黑)。洋红色 = (1-绿色-黑色)/(1-黑色)。黄色 = (1-蓝色-黑色)/(1-黑色)。 RGB 值已标准化 - 它们介于 0 和 1.0 之间。
 
 ### length {#length}
 ```
@@ -96,16 +96,16 @@ public static int fromName(String pdfImageColorSpaceExportModeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int pdfImageColorSpaceExportMode) {#getName-int-}
 ```
 public static String getName(int pdfImageColorSpaceExportMode)

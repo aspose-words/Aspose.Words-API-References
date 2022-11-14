@@ -1,6 +1,6 @@
 ---
 title: VerticalAlignment
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定浮动形状文本框或浮动表格的垂直对齐方式。
 type: docs
 weight: 600
@@ -16,7 +16,7 @@ public class VerticalAlignment
 指定浮动形状、文本框架或浮动表格的垂直对齐方式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BOTTOM](#BOTTOM) | 指定对象应位于垂直对齐基础的底部。 |
 | [CENTER](#CENTER) | 指定对象应相对于垂直对齐基准居中。 |
@@ -33,7 +33,7 @@ public class VerticalAlignment
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String verticalAlignmentName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int verticalAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -144,16 +144,16 @@ public static int fromName(String verticalAlignmentName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int verticalAlignment) {#getName-int-}
 ```
 public static String getName(int verticalAlignment)

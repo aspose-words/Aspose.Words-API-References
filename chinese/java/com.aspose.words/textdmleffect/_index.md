@@ -1,6 +1,6 @@
 ---
 title: TextDmlEffect
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 文本运行的 Dml 文本效果。
 type: docs
 weight: 563
@@ -16,7 +16,7 @@ public class TextDmlEffect
 文本运行的 Dml 文本效果。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [EFFECT_3_D](#EFFECT-3-D) | 3D效果。 |
 | [FILL](#FILL) | 填充叠加效果。 |
@@ -31,7 +31,7 @@ public class TextDmlEffect
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String textDmlEffectName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int textDmlEffect)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -126,16 +126,16 @@ public static int fromName(String textDmlEffectName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int textDmlEffect) {#getName-int-}
 ```
 public static String getName(int textDmlEffect)

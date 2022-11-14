@@ -1,6 +1,6 @@
 ---
 title: DocumentSplitCriteria
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定在保存到或格式化时如何将文档拆分为多个部分。
 type: docs
 weight: 131
@@ -20,13 +20,13 @@ public class DocumentSplitCriteria
 不同的标准可以部分重叠。例如，**Heading 1**风格经常被赋予[ParagraphFormat.getPageBreakBefore()](../../com.aspose.words/paragraphformat\#getPageBreakBefore--) / [ParagraphFormat.setPageBreakBefore(boolean)](../../com.aspose.words/paragraphformat\#setPageBreakBefore-boolean-)财产，因此它符合两个标准：[PAGE\_BREAK](../../com.aspose.words/documentsplitcriteria\#PAGE-BREAK)和[HEADING\_PARAGRAPH](../../com.aspose.words/documentsplitcriteria\#HEADING-PARAGRAPH).某些分节符可能会导致分页符等。在典型情况下，仅指定一个标志是最实用的选项。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [COLUMN_BREAK](#COLUMN-BREAK) | 文档在分栏符处分成几部分。 |
 | [HEADING_PARAGRAPH](#HEADING-PARAGRAPH) | 文档在使用标题样式格式化的段落中分成几部分**Heading 1**, **Heading 2**等等 |
 | [NONE](#NONE) | 文档未拆分。 |
-| [PAGE_BREAK](#PAGE-BREAK) | 文档在显式分页符处分成几部分。 |
-| [SECTION_BREAK](#SECTION-BREAK) | 文档在任何类型的分节符处拆分为多个部分。 |
+| [PAGE_BREAK](#PAGE-BREAK) | 该文档在明确的分页符处被分成几部分。 |
+| [SECTION_BREAK](#SECTION-BREAK) | 该文档在任何类型的分节符处被分成多个部分。 |
 | [length](#length) |  |
 ## 方法
 
@@ -35,7 +35,7 @@ public class DocumentSplitCriteria
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String documentSplitCriteriaName)](#fromName-java.lang.String-) |  |
 | [fromNames(Set documentSplitCriteriaNames)](#fromNames-java.util.Set-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int documentSplitCriteria)](#getName-int-) |  |
 | [getNames(int documentSplitCriteria)](#getNames-int-) |  |
 | [getValues()](#getValues--) |  |
@@ -54,7 +54,7 @@ public static int COLUMN_BREAK
 ```
 
 
-文档在分栏符处分成几部分。分栏符可以由[ControlChar.COLUMN\_BREAK](../../com.aspose.words/controlchar\#COLUMN-BREAK)字符或分节符指定新列中新节的开始。
+文档在分栏符处被分成几部分。分栏符可以由[ControlChar.COLUMN\_BREAK](../../com.aspose.words/controlchar\#COLUMN-BREAK)字符或分节符指定新列中新节的开始。
 
 ### HEADING_PARAGRAPH {#HEADING-PARAGRAPH}
 ```
@@ -78,7 +78,7 @@ public static int PAGE_BREAK
 ```
 
 
-文档在显式分页符处分成几部分。分页符可以由[ControlChar.PAGE\_BREAK](../../com.aspose.words/controlchar\#PAGE-BREAK)字符，分节符，指定新页面上新节的开始，或具有其[ParagraphFormat.getPageBreakBefore()](../../com.aspose.words/paragraphformat\#getPageBreakBefore--) / [ParagraphFormat.setPageBreakBefore(boolean)](../../com.aspose.words/paragraphformat\#setPageBreakBefore-boolean-)属性设置为 true 。
+该文档在明确的分页符处被分成几部分。分页符可以由[ControlChar.PAGE\_BREAK](../../com.aspose.words/controlchar\#PAGE-BREAK)字符、指定新页面上新部分开始的分节符，或具有其[ParagraphFormat.getPageBreakBefore()](../../com.aspose.words/paragraphformat\#getPageBreakBefore--) / [ParagraphFormat.setPageBreakBefore(boolean)](../../com.aspose.words/paragraphformat\#setPageBreakBefore-boolean-)属性设置为 true 。
 
 ### SECTION_BREAK {#SECTION-BREAK}
 ```
@@ -86,7 +86,7 @@ public static int SECTION_BREAK
 ```
 
 
-文档在任何类型的分节符处拆分为多个部分。
+该文档在任何类型的分节符处被分成多个部分。
 
 ### length {#length}
 ```
@@ -139,16 +139,16 @@ public static int fromNames(Set documentSplitCriteriaNames)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int documentSplitCriteria) {#getName-int-}
 ```
 public static String getName(int documentSplitCriteria)

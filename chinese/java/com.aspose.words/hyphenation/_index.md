@@ -1,6 +1,6 @@
 ---
 title: Hyphenation
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 提供使用连字字典的方法。
 type: docs
 weight: 333
@@ -22,7 +22,7 @@ public class Hyphenation
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCallback()](#getCallback--) | 获取构建文档页面布局时用于请求字典的回调接口。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getWarningCallback()](#getWarningCallback--) | 在加载断字模式期间调用，当检测到可能导致格式保真度丢失的问题时。 |
 | [hashCode()](#hashCode--) |  |
 | [isDictionaryRegistered(String language)](#isDictionaryRegistered-java.lang.String-) | 如果指定的语言没有注册字典或注册为 Null 字典，则返回 False，否则返回 True。 |
@@ -62,16 +62,16 @@ public static IHyphenationCallback getCallback()
 
 **退货:**
 [IHyphenationCallback](../../com.aspose.words/ihyphenationcallback) - 构建文档页面布局时用于请求字典的回调接口。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getWarningCallback() {#getWarningCallback--}
 ```
 public static IWarningCallback getWarningCallback()

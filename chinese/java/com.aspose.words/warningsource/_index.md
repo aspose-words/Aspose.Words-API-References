@@ -1,6 +1,6 @@
 ---
 title: WarningSource
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定在文档加载或保存期间产生警告的模块。
 type: docs
 weight: 606
@@ -16,32 +16,32 @@ public class WarningSource
 指定在文档加载或保存期间产生警告的模块。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CHM](#CHM) | 读取 CHM 文件的模块。 |
-| [DOC](#DOC) | 读取/写入二进制 DOC 文件的模块。 |
-| [DOCX](#DOCX) | 读取/写入 DOCX 文件的模块。 |
+| [DOC](#DOC) | 读/写二进制 DOC 文件的模块。 |
+| [DOCX](#DOCX) | 读/写 DOCX 文件的模块。 |
 | [DRAWING_ML](#DRAWING-ML) | 呈现 DrawingML 形状的模块。 |
-| [EPUB](#EPUB) | 读取/写入 EPUB 文件的模块。 |
+| [EPUB](#EPUB) | 读/写 EPUB 文件的模块。 |
 | [FONT](#FONT) | 读取字体文件的模块。 |
-| [HTML](#HTML) | 读取/写入 HTML/MHTML 文件的模块。 |
+| [HTML](#HTML) | 读/写 HTML/MHTML 文件的模块。 |
 | [IMAGE](#IMAGE) | 渲染图像的模块。 |
 | [LAYOUT](#LAYOUT) | 构建文档布局的模块。 |
-| [MARKDOWN](#MARKDOWN) | 读取/写入 Markdown 文件的模块。 |
+| [MARKDOWN](#MARKDOWN) | 读/写 Markdown 文件的模块。 |
 | [MATH_ML](#MATH-ML) | 读取 W3C MathML 文件的模块。 |
-| [METAFILE](#METAFILE) | 呈现元文件的模块。 |
-| [NRX](#NRX) | 在 DOCX/WML 读取器/写入器模块之间共享的通用模块。 |
-| [ODT](#ODT) | 读取/写入 ODT 文件的模块。 |
+| [METAFILE](#METAFILE) | 呈现图元文件的模块。 |
+| [NRX](#NRX) | DOCX/WML 读取器/写入器模块之间共享的通用模块。 |
+| [ODT](#ODT) | 读/写 ODT 文件的模块。 |
 | [OFFICE_MATH](#OFFICE-MATH) | 呈现 OfficeMath 的模块。 |
 | [PDF](#PDF) | 呈现 PDF 的模块。 |
-| [RTF](#RTF) | 读取/写入 RTF 文件的模块。 |
+| [RTF](#RTF) | 读/写 RTF 文件的模块。 |
 | [SHAPES](#SHAPES) | 渲染普通形状的模块。 |
 | [SVG](#SVG) | 读取 SVG 文件的模块。 |
 | [SVM](#SVM) | 读取 Svm 文件的模块。 |
-| [TEXT](#TEXT) | 读取/写入纯文本文件的模块。 |
+| [TEXT](#TEXT) | 读/写明文文件的模块。 |
 | [UNKNOWN](#UNKNOWN) | 未指定警告源。 |
 | [VALIDATOR](#VALIDATOR) | 验证模型一致性和有效性的模块。 |
-| [WORD_ML](#WORD-ML) | 读取/写入 WML 文件的模块。 |
+| [WORD_ML](#WORD-ML) | 读/写 WML 文件的模块。 |
 | [XAML](#XAML) | 读取/写入 Xaml 文件的模块。 |
 | [XPS](#XPS) | 呈现 XPS 的模块。 |
 | [length](#length) |  |
@@ -51,7 +51,7 @@ public class WarningSource
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String warningSourceName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int warningSource)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -76,7 +76,7 @@ public static int DOC
 ```
 
 
-读取/写入二进制 DOC 文件的模块。
+读/写二进制 DOC 文件的模块。
 
 ### DOCX {#DOCX}
 ```
@@ -84,7 +84,7 @@ public static int DOCX
 ```
 
 
-读取/写入 DOCX 文件的模块。
+读/写 DOCX 文件的模块。
 
 ### DRAWING_ML {#DRAWING-ML}
 ```
@@ -100,7 +100,7 @@ public static int EPUB
 ```
 
 
-读取/写入 EPUB 文件的模块。
+读/写 EPUB 文件的模块。
 
 ### FONT {#FONT}
 ```
@@ -116,7 +116,7 @@ public static int HTML
 ```
 
 
-读取/写入 HTML/MHTML 文件的模块。
+读/写 HTML/MHTML 文件的模块。
 
 ### IMAGE {#IMAGE}
 ```
@@ -140,7 +140,7 @@ public static int MARKDOWN
 ```
 
 
-读取/写入 Markdown 文件的模块。
+读/写 Markdown 文件的模块。
 
 ### MATH_ML {#MATH-ML}
 ```
@@ -156,7 +156,7 @@ public static int METAFILE
 ```
 
 
-呈现元文件的模块。
+呈现图元文件的模块。
 
 ### NRX {#NRX}
 ```
@@ -164,7 +164,7 @@ public static int NRX
 ```
 
 
-在 DOCX/WML 读取器/写入器模块之间共享的通用模块。
+DOCX/WML 读取器/写入器模块之间共享的通用模块。
 
 ### ODT {#ODT}
 ```
@@ -172,7 +172,7 @@ public static int ODT
 ```
 
 
-读取/写入 ODT 文件的模块。
+读/写 ODT 文件的模块。
 
 ### OFFICE_MATH {#OFFICE-MATH}
 ```
@@ -196,7 +196,7 @@ public static int RTF
 ```
 
 
-读取/写入 RTF 文件的模块。
+读/写 RTF 文件的模块。
 
 ### SHAPES {#SHAPES}
 ```
@@ -228,7 +228,7 @@ public static int TEXT
 ```
 
 
-读取/写入纯文本文件的模块。
+读/写明文文件的模块。
 
 ### UNKNOWN {#UNKNOWN}
 ```
@@ -252,7 +252,7 @@ public static int WORD_ML
 ```
 
 
-读取/写入 WML 文件的模块。
+读/写 WML 文件的模块。
 
 ### XAML {#XAML}
 ```
@@ -306,16 +306,16 @@ public static int fromName(String warningSourceName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int warningSource) {#getName-int-}
 ```
 public static String getName(int warningSource)

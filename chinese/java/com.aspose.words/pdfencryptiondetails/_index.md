@@ -1,6 +1,6 @@
 ---
 title: PdfEncryptionDetails
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 包含 PDF 文档的加密和访问权限的详细信息。
 type: docs
 weight: 454
@@ -20,13 +20,13 @@ public class PdfEncryptionDetails
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [PdfEncryptionDetails(String userPassword, String ownerPassword)](#PdfEncryptionDetails-java.lang.String-java.lang.String-) | 初始化此类的一个实例。 |
+| [PdfEncryptionDetails(String userPassword, String ownerPassword)](#PdfEncryptionDetails-java.lang.String-java.lang.String-) | 初始化此类的实例。 |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getOwnerPassword()](#getOwnerPassword--) | 指定加密 PDF 文档的所有者密码。 |
 | [getPermissions()](#getPermissions--) | 指定允许用户对加密的 PDF 文档进行的操作。 |
 | [getUserPassword()](#getUserPassword--) | 指定打开加密 PDF 文档所需的用户密码。 |
@@ -46,7 +46,7 @@ public PdfEncryptionDetails(String userPassword, String ownerPassword)
 ```
 
 
-初始化此类的一个实例。
+初始化此类的实例。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -69,16 +69,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getOwnerPassword() {#getOwnerPassword--}
 ```
 public String getOwnerPassword()
@@ -171,7 +171,7 @@ public void setPermissions(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是按位组合[PdfPermissions](../../com.aspose.words/pdfpermissions)常数。 |
+| value | int | 对应的int值。该值必须是按位组合的[PdfPermissions](../../com.aspose.words/pdfpermissions)常数。 |
 
 ### setUserPassword(String value) {#setUserPassword-java.lang.String-}
 ```

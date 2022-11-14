@@ -1,6 +1,6 @@
 ---
 title: WatermarkLayout
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 定义相对于水印中心的水印布局。
 type: docs
 weight: 609
@@ -16,7 +16,7 @@ public class WatermarkLayout
 定义相对于水印中心的水印布局。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [DIAGONAL](#DIAGONAL) | 对角线水印布局。 |
 | [HORIZONTAL](#HORIZONTAL) | 水平水印布局。 |
@@ -27,7 +27,7 @@ public class WatermarkLayout
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String watermarkLayoutName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int watermarkLayout)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -90,16 +90,16 @@ public static int fromName(String watermarkLayoutName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int watermarkLayout) {#getName-int-}
 ```
 public static String getName(int watermarkLayout)

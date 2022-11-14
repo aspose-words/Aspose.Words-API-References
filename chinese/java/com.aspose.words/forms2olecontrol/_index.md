@@ -1,6 +1,6 @@
 ---
 title: Forms2OleControl
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示 Microsoft Forms 2.0 OLE 控件。
 type: docs
 weight: 298
@@ -28,10 +28,10 @@ public abstract class Forms2OleControl extends OleControl
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCaption()](#getCaption--) | 获取控件的 Caption 属性。 |
 | [getChildNodes()](#getChildNodes--) | 获取直接子控件的集合。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getEnabled()](#getEnabled--) | 如果控件处于启用状态，则返回 true。 |
 | [getName()](#getName--) | 获取 ActiveX 控件的名称。 |
-| [get类型()](#get类型--) | 获取 Forms 2.0 控件的类型。 |
+| [getType()](#getType--) | 获取 Forms 2.0 控件的类型。 |
 | [getValue()](#getValue--) | 获取通常表示控件状态的基础 Value 属性。 |
 | [hashCode()](#hashCode--) |  |
 | [isForms2OleControl()](#isForms2OleControl--) |  |
@@ -68,10 +68,10 @@ public String getCaption()
 ```
 
 
-获取控件的 Caption 属性。默认值为空字符串。
+获取控件的标题属性。默认值为空字符串。
 
 **退货:**
-java.lang.String - 控件的 Caption 属性。
+java.lang.String - 控件的标题属性。
 ### getChildNodes() {#getChildNodes--}
 ```
 public Forms2OleControlCollection getChildNodes()
@@ -82,16 +82,16 @@ public Forms2OleControlCollection getChildNodes()
 
 **退货:**
 [Forms2OleControlCollection](../../com.aspose.words/forms2olecontrolcollection) - 直接子控件的集合。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getEnabled() {#getEnabled--}
 ```
 public boolean getEnabled()
@@ -101,7 +101,7 @@ public boolean getEnabled()
 如果控件处于启用状态，则返回 true。
 
 **退货:**
-boolean - 如果控件处于启用状态，则为真。
+boolean - 如果控件处于启用状态则为真。
 ### getName() {#getName--}
 ```
 public String getName()
@@ -112,26 +112,26 @@ public String getName()
 
 **退货:**
 java.lang.String - ActiveX 控件的名称。
-### get类型() {#get类型--}
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
 获取 Forms 2.0 控件的类型。
 
 **退货:**
- int - Forms 2.0 控件的类型。返回值是以下之一[Forms2OleControl类型](../../com.aspose.words/forms2olecontroltype)常数。
+ int - Forms 2.0 控件的类型。返回值是以下之一[Forms2OleControlType](../../com.aspose.words/forms2olecontroltype)常数。
 ### getValue() {#getValue--}
 ```
 public String getValue()
 ```
 
 
-获取通常表示控件状态的基础 Value 属性。例如，选中选项按钮的值为“1”，而未选中的选项按钮值为“0”。默认值为空字符串。
+获取通常表示控件状态的基础 Value 属性。例如，选中的选项按钮的值为“1”，而未选中的值为“0”。默认值为空字符串。
 
 **退货:**
-java.lang.String - 通常表示控件状态的基础值属性。
+java.lang.String - 通常表示控件状态的底层值属性。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -148,7 +148,7 @@ public boolean isForms2OleControl()
 ```
 
 
-如果控件是[Forms2OleControl](../../com.aspose.words/forms2olecontrol).
+如果控件是一个则返回真[Forms2OleControl](../../com.aspose.words/forms2olecontrol).
 
 **退货:**
 布尔值

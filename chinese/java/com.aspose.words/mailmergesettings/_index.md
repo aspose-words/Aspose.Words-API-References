@@ -1,6 +1,6 @@
 ---
 title: MailMergeSettings
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定文档的所有邮件合并信息。
 type: docs
 weight: 386
@@ -24,9 +24,9 @@ public class MailMergeSettings implements Cloneable
 
 您通常不需要直接创建此类的对象，因为文档的邮件合并设置始终可以通过[Document.getMailMergeSettings()](../../com.aspose.words/document\#getMailMergeSettings--) / [Document.setMailMergeSettings(com.aspose.words.MailMergeSettings)](../../com.aspose.words/document\#setMailMergeSettings-com.aspose.words.MailMergeSettings-)财产。
 
-要检测此文档是否为邮件合并主文档，请检查[getMainDocument类型()](../../com.aspose.words/mailmergesettings\#getMainDocument类型--) / [setMainDocument类型(int)](../../com.aspose.words/mailmergesettings\#setMainDocument类型-int-)财产。
+要检测此文档是否为邮件合并主文档，请检查[getMainDocumentType()](../../com.aspose.words/mailmergesettings\#getMainDocumentType--) / [setMainDocumentType(int)](../../com.aspose.words/mailmergesettings\#setMainDocumentType-int-)财产。
 
-要从文档中删除邮件合并设置和数据源信息，您可以使用[clear()](../../com.aspose.words/mailmergesettings\#clear--)方法。 Aspose.Words 不会将邮件合并设置写入文档，如果[getMainDocument类型()](../../com.aspose.words/mailmergesettings\#getMainDocument类型--) / [setMainDocument类型(int)](../../com.aspose.words/mailmergesettings\#setMainDocument类型-int-)属性设置为[MailMergeMainDocument类型.NOT\_A\_MERGE\_DOCUMENT](../../com.aspose.words/mailmergemaindocumenttype\#NOT-A-MERGE-DOCUMENT)或者[getData类型()](../../com.aspose.words/mailmergesettings\#getData类型--) / [setData类型(int)](../../com.aspose.words/mailmergesettings\#setData类型-int-)属性设置为[MailMergeData类型.NONE](../../com.aspose.words/mailmergedatatype\#NONE).
+要从文档中删除邮件合并设置和数据源信息，您可以使用[clear()](../../com.aspose.words/mailmergesettings\#clear--)方法。 Aspose.Words 不会将邮件合并设置写入文档，如果[getMainDocumentType()](../../com.aspose.words/mailmergesettings\#getMainDocumentType--) / [setMainDocumentType(int)](../../com.aspose.words/mailmergesettings\#setMainDocumentType-int-)属性设置为[MailMergeMainDocumentType.NOT\_A\_MERGE\_DOCUMENT](../../com.aspose.words/mailmergemaindocumenttype\#NOT-A-MERGE-DOCUMENT)或者[getDataType()](../../com.aspose.words/mailmergesettings\#getDataType--) / [setDataType(int)](../../com.aspose.words/mailmergesettings\#setDataType-int-)属性设置为[MailMergeDataType.NONE](../../com.aspose.words/mailmergedatatype\#NONE).
 
 学习如何使用该对象的属性的最佳方法是在 Microsoft Word 中手动创建一个包含所需数据源的文档，然后使用 Aspose.Words 打开该文档并检查该对象的属性[Document.getMailMergeSettings()](../../com.aspose.words/document\#getMailMergeSettings--) / [Document.setMailMergeSettings(com.aspose.words.MailMergeSettings)](../../com.aspose.words/document\#setMailMergeSettings-com.aspose.words.MailMergeSettings-)和[getOdso()](../../com.aspose.words/mailmergesettings\#getOdso--) / [setOdso(com.aspose.words.Odso)](../../com.aspose.words/mailmergesettings\#setOdso-com.aspose.words.Odso-)对象。例如，如果您想学习如何以编程方式配置数据源，这是一个很好的方法。
 
@@ -39,19 +39,19 @@ public class MailMergeSettings implements Cloneable
 | [deepClone()](#deepClone--) | 返回此对象的深层克隆。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getActiveRecord()](#getActiveRecord--) | 指定应在 Microsoft Word 中显示的数据源记录的从 1 开始的索引。 |
-| [getAddress字段Name()](#getAddress字段Name--) | 指定数据源中包含电子邮件地址的列。 |
+| [getAddressFieldName()](#getAddressFieldName--) | 指定数据源中包含电子邮件地址的列。 |
 | [getCheckErrors()](#getCheckErrors--) | 指定执行邮件合并时应由 Microsoft Word 执行的错误报告类型。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getConnectString()](#getConnectString--) | 指定用于连接到外部数据源的连接字符串。 |
 | [getDataSource()](#getDataSource--) | 指定邮件合并数据源的路径。 |
-| [getData类型()](#getData类型--) | 指定邮件合并数据源的类型和数据访问方法。 |
+| [getDataType()](#getDataType--) | 指定邮件合并数据源的类型和数据访问方法。 |
 | [getDestination()](#getDestination--) | 指定 Microsoft Word 将如何输出邮件合并的结果。 |
 | [getDoNotSupressBlankLines()](#getDoNotSupressBlankLines--) | 指定执行邮件合并的应用程序应如何处理由邮件合并产生的合并文档中的空白行。 |
 | [getHeaderSource()](#getHeaderSource--) | 指定邮件合并标头源的路径。 |
 | [getLinkToQuery()](#getLinkToQuery--) | 不确定这个。 |
 | [getMailAsAttachment()](#getMailAsAttachment--) | 指定在邮件合并操作期间生成的文档应作为附件而不是实际电子邮件的正文通过电子邮件发送。 |
 | [getMailSubject()](#getMailSubject--) | 指定应出现在邮件合并期间产生的电子邮件或传真的主题行中的文本。 |
-| [getMainDocument类型()](#getMainDocument类型--) | 指定邮件合并主文档类型。 |
+| [getMainDocumentType()](#getMainDocumentType--) | 指定邮件合并主文档类型。 |
 | [getOdso()](#getOdso--) | 获取指定 Office 数据源对象 (ODSO) 设置的对象。 |
 | [getQuery()](#getQuery--) | 包含结构化查询语言字符串，该字符串应针对指定的外部数据源运行，以返回在执行邮件合并操作时应导入文档的记录集。 |
 | [getViewMergedData()](#getViewMergedData--) | 指定 Microsoft Word 应显示来自已插入合并字段的指定外部数据源的数据（例如 |
@@ -59,18 +59,18 @@ public class MailMergeSettings implements Cloneable
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setActiveRecord(int value)](#setActiveRecord-int-) | 指定应在 Microsoft Word 中显示的数据源记录的从 1 开始的索引。 |
-| [setAddress字段Name(String value)](#setAddress字段Name-java.lang.String-) | 指定数据源中包含电子邮件地址的列。 |
+| [setAddressFieldName(String value)](#setAddressFieldName-java.lang.String-) | 指定数据源中包含电子邮件地址的列。 |
 | [setCheckErrors(int value)](#setCheckErrors-int-) | 指定执行邮件合并时应由 Microsoft Word 执行的错误报告类型。 |
 | [setConnectString(String value)](#setConnectString-java.lang.String-) | 指定用于连接到外部数据源的连接字符串。 |
 | [setDataSource(String value)](#setDataSource-java.lang.String-) | 指定邮件合并数据源的路径。 |
-| [setData类型(int value)](#setData类型-int-) | 指定邮件合并数据源的类型和数据访问方法。 |
+| [setDataType(int value)](#setDataType-int-) | 指定邮件合并数据源的类型和数据访问方法。 |
 | [setDestination(int value)](#setDestination-int-) | 指定 Microsoft Word 将如何输出邮件合并的结果。 |
 | [setDoNotSupressBlankLines(boolean value)](#setDoNotSupressBlankLines-boolean-) | 指定执行邮件合并的应用程序应如何处理由邮件合并产生的合并文档中的空白行。 |
 | [setHeaderSource(String value)](#setHeaderSource-java.lang.String-) | 指定邮件合并标头源的路径。 |
 | [setLinkToQuery(boolean value)](#setLinkToQuery-boolean-) | 不确定这个。 |
 | [setMailAsAttachment(boolean value)](#setMailAsAttachment-boolean-) | 指定在邮件合并操作期间生成的文档应作为附件而不是实际电子邮件的正文通过电子邮件发送。 |
 | [setMailSubject(String value)](#setMailSubject-java.lang.String-) | 指定应出现在邮件合并期间产生的电子邮件或传真的主题行中的文本。 |
-| [setMainDocument类型(int value)](#setMainDocument类型-int-) | 指定邮件合并主文档类型。 |
+| [setMainDocumentType(int value)](#setMainDocumentType-int-) | 指定邮件合并主文档类型。 |
 | [setOdso(Odso value)](#setOdso-com.aspose.words.Odso-) | 设置指定 Office 数据源对象 (ODSO) 设置的对象。 |
 | [setQuery(String value)](#setQuery-java.lang.String-) | 包含结构化查询语言字符串，该字符串应针对指定的外部数据源运行，以返回在执行邮件合并操作时应导入文档的记录集。 |
 | [setViewMergedData(boolean value)](#setViewMergedData-boolean-) | 指定 Microsoft Word 应显示来自已插入合并字段的指定外部数据源的数据（例如 |
@@ -117,13 +117,13 @@ public int getActiveRecord()
 ```
 
 
-指定应在 Microsoft Word 中显示的数据源记录的从 1 开始的索引。默认值为 1。
+指定应在 Microsoft Word 中显示的数据源记录的从一开始的索引。默认值为 1。
 
 **退货:**
 int - 对应的 int 值。
-### getAddress字段Name() {#getAddress字段Name--}
+### getAddressFieldName() {#getAddressFieldName--}
 ```
-public String getAddress字段Name()
+public String getAddressFieldName()
 ```
 
 
@@ -137,20 +137,20 @@ public int getCheckErrors()
 ```
 
 
-指定执行邮件合并时应由 Microsoft Word 执行的错误报告类型。默认值为[MailMergeCheckErrors.DEFAULT](../../com.aspose.words/mailmergecheckerrors\#DEFAULT).
+指定在执行邮件合并时应由 Microsoft Word 执行的错误报告类型。默认值为[MailMergeCheckErrors.DEFAULT](../../com.aspose.words/mailmergecheckerrors\#DEFAULT).
 
 **退货:**
 int - 对应的 int 值。返回值是以下之一[MailMergeCheckErrors](../../com.aspose.words/mailmergecheckerrors)常数。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getConnectString() {#getConnectString--}
 ```
 public String getConnectString()
@@ -171,23 +171,23 @@ public String getDataSource()
 
 **退货:**
 java.lang.String - 对应的 java.lang.String 值。
-### getData类型() {#getData类型--}
+### getDataType() {#getDataType--}
 ```
-public int getData类型()
+public int getDataType()
 ```
 
 
-指定邮件合并数据源的类型和数据访问方法。默认值为[MailMergeData类型.DEFAULT](../../com.aspose.words/mailmergedatatype\#DEFAULT).
+指定邮件合并数据源的类型和数据访问方法。默认值为[MailMergeDataType.DEFAULT](../../com.aspose.words/mailmergedatatype\#DEFAULT).
 
 **退货:**
-int - 对应的 int 值。返回值是以下之一[MailMergeData类型](../../com.aspose.words/mailmergedatatype)常数。
+int - 对应的 int 值。返回值是以下之一[MailMergeDataType](../../com.aspose.words/mailmergedatatype)常数。
 ### getDestination() {#getDestination--}
 ```
 public int getDestination()
 ```
 
 
-指定 Microsoft Word 将如何输出邮件合并的结果。默认值为[MailMergeDestination.DEFAULT](../../com.aspose.words/mailmergedestination\#DEFAULT).
+指定 Microsoft Word 如何输出邮件合并的结果。默认值为[MailMergeDestination.DEFAULT](../../com.aspose.words/mailmergedestination\#DEFAULT).
 
 **退货:**
 int - 对应的 int 值。返回值是以下之一[MailMergeDestination](../../com.aspose.words/mailmergedestination)常数。
@@ -197,7 +197,7 @@ public boolean getDoNotSupressBlankLines()
 ```
 
 
-指定执行邮件合并的应用程序应如何处理由邮件合并产生的合并文档中的空白行。默认值为 false 。
+指定执行邮件合并的应用程序应如何处理邮件合并产生的合并文档中的空行。默认值为 false 。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -217,7 +217,7 @@ public boolean getLinkToQuery()
 ```
 
 
-不确定这个。 Microsoft Word 自动化参考建议这指定每次在 Microsoft Word 中打开文档时都会执行查询。但是 OOXML 规范建议这指定查询包含对包含实际查询的外部查询文件的引用。默认值为 false 。
+不确定这个。 Microsoft Word Automation Reference 建议这指定每次在 Microsoft Word 中打开文档时执行查询。但是 OOXML 规范建议这指定查询包含对包含实际查询的外部查询文件的引用。默认值为 false 。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -241,18 +241,18 @@ public String getMailSubject()
 
 **退货:**
 java.lang.String - 对应的 java.lang.String 值。
-### getMainDocument类型() {#getMainDocument类型--}
+### getMainDocumentType() {#getMainDocumentType--}
 ```
-public int getMainDocument类型()
+public int getMainDocumentType()
 ```
 
 
-指定邮件合并主文档类型。默认值为[MailMergeMainDocument类型.DEFAULT](../../com.aspose.words/mailmergemaindocumenttype\#DEFAULT).
+指定邮件合并主文档类型。默认值为[MailMergeMainDocumentType.DEFAULT](../../com.aspose.words/mailmergemaindocumenttype\#DEFAULT).
 
 主文档是包含对于合并文档的每个版本都相同的信息的文档。
 
 **退货:**
-int - 对应的 int 值。返回值是以下之一[MailMergeMainDocument类型](../../com.aspose.words/mailmergemaindocumenttype)常数。
+int - 对应的 int 值。返回值是以下之一[MailMergeMainDocumentType](../../com.aspose.words/mailmergemaindocumenttype)常数。
 ### getOdso() {#getOdso--}
 ```
 public Odso getOdso()
@@ -317,16 +317,16 @@ public void setActiveRecord(int value)
 ```
 
 
-指定应在 Microsoft Word 中显示的数据源记录的从 1 开始的索引。默认值为 1。
+指定应在 Microsoft Word 中显示的数据源记录的从一开始的索引。默认值为 1。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 对应的 int 值。 |
 
-### setAddress字段Name(String value) {#setAddress字段Name-java.lang.String-}
+### setAddressFieldName(String value) {#setAddressFieldName-java.lang.String-}
 ```
-public void setAddress字段Name(String value)
+public void setAddressFieldName(String value)
 ```
 
 
@@ -343,7 +343,7 @@ public void setCheckErrors(int value)
 ```
 
 
-指定执行邮件合并时应由 Microsoft Word 执行的错误报告类型。默认值为[MailMergeCheckErrors.DEFAULT](../../com.aspose.words/mailmergecheckerrors\#DEFAULT).
+指定在执行邮件合并时应由 Microsoft Word 执行的错误报告类型。默认值为[MailMergeCheckErrors.DEFAULT](../../com.aspose.words/mailmergecheckerrors\#DEFAULT).
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -376,18 +376,18 @@ public void setDataSource(String value)
 | --- | --- | --- |
 | value | java.lang.String | 对应的 java.lang.String 值。 |
 
-### setData类型(int value) {#setData类型-int-}
+### setDataType(int value) {#setDataType-int-}
 ```
-public void setData类型(int value)
+public void setDataType(int value)
 ```
 
 
-指定邮件合并数据源的类型和数据访问方法。默认值为[MailMergeData类型.DEFAULT](../../com.aspose.words/mailmergedatatype\#DEFAULT).
+指定邮件合并数据源的类型和数据访问方法。默认值为[MailMergeDataType.DEFAULT](../../com.aspose.words/mailmergedatatype\#DEFAULT).
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[MailMergeData类型](../../com.aspose.words/mailmergedatatype)常数。 |
+| value | int | 对应的 int 值。该值必须是以下之一[MailMergeDataType](../../com.aspose.words/mailmergedatatype)常数。 |
 
 ### setDestination(int value) {#setDestination-int-}
 ```
@@ -395,7 +395,7 @@ public void setDestination(int value)
 ```
 
 
-指定 Microsoft Word 将如何输出邮件合并的结果。默认值为[MailMergeDestination.DEFAULT](../../com.aspose.words/mailmergedestination\#DEFAULT).
+指定 Microsoft Word 如何输出邮件合并的结果。默认值为[MailMergeDestination.DEFAULT](../../com.aspose.words/mailmergedestination\#DEFAULT).
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -408,7 +408,7 @@ public void setDoNotSupressBlankLines(boolean value)
 ```
 
 
-指定执行邮件合并的应用程序应如何处理由邮件合并产生的合并文档中的空白行。默认值为 false 。
+指定执行邮件合并的应用程序应如何处理邮件合并产生的合并文档中的空行。默认值为 false 。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -434,7 +434,7 @@ public void setLinkToQuery(boolean value)
 ```
 
 
-不确定这个。 Microsoft Word 自动化参考建议这指定每次在 Microsoft Word 中打开文档时都会执行查询。但是 OOXML 规范建议这指定查询包含对包含实际查询的外部查询文件的引用。默认值为 false 。
+不确定这个。 Microsoft Word Automation Reference 建议这指定每次在 Microsoft Word 中打开文档时执行查询。但是 OOXML 规范建议这指定查询包含对包含实际查询的外部查询文件的引用。默认值为 false 。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -467,20 +467,20 @@ public void setMailSubject(String value)
 | --- | --- | --- |
 | value | java.lang.String | 对应的 java.lang.String 值。 |
 
-### setMainDocument类型(int value) {#setMainDocument类型-int-}
+### setMainDocumentType(int value) {#setMainDocumentType-int-}
 ```
-public void setMainDocument类型(int value)
+public void setMainDocumentType(int value)
 ```
 
 
-指定邮件合并主文档类型。默认值为[MailMergeMainDocument类型.DEFAULT](../../com.aspose.words/mailmergemaindocumenttype\#DEFAULT).
+指定邮件合并主文档类型。默认值为[MailMergeMainDocumentType.DEFAULT](../../com.aspose.words/mailmergemaindocumenttype\#DEFAULT).
 
 主文档是包含对于合并文档的每个版本都相同的信息的文档。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[MailMergeMainDocument类型](../../com.aspose.words/mailmergemaindocumenttype)常数。 |
+| value | int | 对应的 int 值。该值必须是以下之一[MailMergeMainDocumentType](../../com.aspose.words/mailmergemaindocumenttype)常数。 |
 
 ### setOdso(Odso value) {#setOdso-com.aspose.words.Odso-}
 ```

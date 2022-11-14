@@ -1,6 +1,6 @@
 ---
-title: 字段Merge字段
-second_title: Aspose.Words for Java API Reference
+title: FieldMergeField
+second_title: Aspose.Words for Java API 参考
 description: 实现 MERGEFIELD 字段。
 type: docs
 weight: 215
@@ -8,9 +8,9 @@ url: /zh/java/com.aspose.words/fieldmergefield/
 ---
 
 **遗产:**
-java.lang.Object, [com.aspose.words.字段](../../com.aspose.words/field)
+java.lang.Object, [com.aspose.words.Field](../../com.aspose.words/field)
 ```
-public class 字段Merge字段 extends 字段
+public class FieldMergeField extends Field
 ```
 
 实现 MERGEFIELD 字段。
@@ -23,22 +23,22 @@ public class 字段Merge字段 extends 字段
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDisplayResult()](#getDisplayResult--) | 获取表示显示的字段结果的文本。 |
 | [getEnd()](#getEnd--) | 获取表示字段结束的节点。 |
-| [get字段Code()](#get字段Code--) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [get字段Code(boolean includeChild字段Codes)](#get字段Code-boolean-) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [get字段Name()](#get字段Name--) | 获取数据字段的名称。 |
-| [get字段NameNoPrefix()](#get字段NameNoPrefix--) | 仅返回数据字段的名称。 |
-| [getFormat()](#getFormat--) | 得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。 |
+| [getFieldCode()](#getFieldCode--) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean-) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [getFieldName()](#getFieldName--) | 获取数据字段的名称。 |
+| [getFieldNameNoPrefix()](#getFieldNameNoPrefix--) | 仅返回数据字段的名称。 |
+| [getFormat()](#getFormat--) | 得到一个[FieldFormat](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。 |
 | [getLocaleId()](#getLocaleId--) | 获取字段的 LCID。 |
 | [getResult()](#getResult--) | 获取字段分隔符和字段结尾之间的文本。 |
 | [getSeparator()](#getSeparator--) | 获取表示字段分隔符的节点。 |
 | [getStart()](#getStart--) | 获取表示字段开始的节点。 |
-| [getSwitch类型(String switchName)](#getSwitch类型-java.lang.String-) |  |
+| [getSwitchType(String switchName)](#getSwitchType-java.lang.String-) |  |
 | [getTextAfter()](#getTextAfter--) | 如果字段不为空，则获取要在字段之后插入的文本。 |
 | [getTextBefore()](#getTextBefore--) | 如果字段不为空，则获取要在字段之前插入的文本。 |
-| [get类型()](#get类型--) | 获取 Microsoft Word 字段类型。 |
+| [getType()](#getType--) | 获取 Microsoft Word 字段类型。 |
 | [hashCode()](#hashCode--) |  |
 | [isDirty()](#isDirty--) | 获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。 |
 | [isDirty(boolean value)](#isDirty-boolean-) | 设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
@@ -51,7 +51,7 @@ public class 字段Merge字段 extends 字段
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [remove()](#remove--) | 从文档中删除字段。 |
-| [set字段Name(String value)](#set字段Name-java.lang.String-) | 设置数据字段的名称。 |
+| [setFieldName(String value)](#setFieldName-java.lang.String-) | 设置数据字段的名称。 |
 | [setLocaleId(int value)](#setLocaleId-int-) | 设置字段的 LCID。 |
 | [setResult(String value)](#setResult-java.lang.String-) | 设置字段分隔符和字段结尾之间的文本。 |
 | [setTextAfter(String value)](#setTextAfter-java.lang.String-) | 如果字段不为空，则设置要在字段之后插入的文本。 |
@@ -78,39 +78,39 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDisplayResult() {#getDisplayResult--}
 ```
 public String getDisplayResult()
 ```
 
 
-获取表示显示的字段结果的文本。这[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--)必须调用方法才能获得正确的值[字段ListNum](../../com.aspose.words/fieldlistnum), [字段AutoNum](../../com.aspose.words/fieldautonum), [字段AutoNumOut](../../com.aspose.words/fieldautonumout)和[字段AutoNumLgl](../../com.aspose.words/fieldautonumlgl)字段。
+获取表示显示的字段结果的文本。这[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--)必须调用方法才能获得正确的值[FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout)和[FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl)字段。
 
 **退货:**
 java.lang.String - 表示显示的字段结果的文本。
 ### getEnd() {#getEnd--}
 ```
-public 字段End getEnd()
+public FieldEnd getEnd()
 ```
 
 
 获取表示字段结束的节点。
 
 **退货:**
-[字段End](../../com.aspose.words/fieldend) - 代表字段结束的节点。
-### get字段Code() {#get字段Code--}
+[FieldEnd](../../com.aspose.words/fieldend) - 代表字段结束的节点。
+### getFieldCode() {#getFieldCode--}
 ```
-public String get字段Code()
+public String getFieldCode()
 ```
 
 
@@ -118,9 +118,9 @@ public String get字段Code()
 
 **退货:**
 java.lang.String
-### get字段Code(boolean includeChild字段Codes) {#get字段Code-boolean-}
+### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean-}
 ```
-public String get字段Code(boolean includeChild字段Codes)
+public String getFieldCode(boolean includeChildFieldCodes)
 ```
 
 
@@ -129,13 +129,13 @@ public String get字段Code(boolean includeChild字段Codes)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| includeChild字段Codes | boolean | \{ 如果应包含子域代码，则为真。 |
+| includeChildFieldCodes | boolean | \{ 如果应包含子域代码，则为真。 |
 
 **退货:**
 java.lang.String
-### get字段Name() {#get字段Name--}
+### getFieldName() {#getFieldName--}
 ```
-public String get字段Name()
+public String getFieldName()
 ```
 
 
@@ -143,9 +143,9 @@ public String get字段Name()
 
 **退货:**
 java.lang.String - 数据字段的名称。
-### get字段NameNoPrefix() {#get字段NameNoPrefix--}
+### getFieldNameNoPrefix() {#getFieldNameNoPrefix--}
 ```
-public String get字段NameNoPrefix()
+public String getFieldNameNoPrefix()
 ```
 
 
@@ -155,14 +155,14 @@ public String get字段NameNoPrefix()
 java.lang.String - 只是数据字段的名称。
 ### getFormat() {#getFormat--}
 ```
-public 字段Format getFormat()
+public FieldFormat getFormat()
 ```
 
 
-得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
+得到一个[FieldFormat](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
 
 **退货:**
-[字段Format](../../com.aspose.words/fieldformat) - 一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
+[FieldFormat](../../com.aspose.words/fieldformat) - 一个[FieldFormat](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
 ### getLocaleId() {#getLocaleId--}
 ```
 public int getLocaleId()
@@ -185,27 +185,27 @@ public String getResult()
 java.lang.String - 字段分隔符和字段结尾之间的文本。
 ### getSeparator() {#getSeparator--}
 ```
-public 字段Separator getSeparator()
+public FieldSeparator getSeparator()
 ```
 
 
 获取表示字段分隔符的节点。可以为空。
 
 **退货:**
-[字段Separator](../../com.aspose.words/fieldseparator) - 表示字段分隔符的节点。
+[FieldSeparator](../../com.aspose.words/fieldseparator) - 表示字段分隔符的节点。
 ### getStart() {#getStart--}
 ```
-public 字段Start getStart()
+public FieldStart getStart()
 ```
 
 
 获取表示字段开始的节点。
 
 **退货:**
-[字段Start](../../com.aspose.words/fieldstart) - 表示字段开始的节点。
-### getSwitch类型(String switchName) {#getSwitch类型-java.lang.String-}
+[FieldStart](../../com.aspose.words/fieldstart) - 表示字段开始的节点。
+### getSwitchType(String switchName) {#getSwitchType-java.lang.String-}
 ```
-public int getSwitch类型(String switchName)
+public int getSwitchType(String switchName)
 ```
 
 
@@ -227,7 +227,7 @@ public String getTextAfter()
 如果字段不为空，则获取要在字段之后插入的文本。
 
 **退货:**
-java.lang.String - 如果字段不为空，则在字段之后插入的文本。
+java.lang.String - 如果字段不为空，则在字段后插入的文本。
 ### getTextBefore() {#getTextBefore--}
 ```
 public String getTextBefore()
@@ -238,16 +238,16 @@ public String getTextBefore()
 
 **退货:**
 java.lang.String - 如果字段不为空，则在字段之前插入的文本。
-### get类型() {#get类型--}
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
 获取 Microsoft Word 字段类型。
 
 **退货:**
- int - Microsoft Word 字段类型。返回值是以下之一[字段类型](../../com.aspose.words/fieldtype)常数。
+ int - Microsoft Word 字段类型。返回值是以下之一[FieldType](../../com.aspose.words/fieldtype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -325,7 +325,7 @@ public void isMapped(boolean value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 此字段是否为映射字段。 |
+| value | boolean | 该字段是否为映射字段。 |
 
 ### isVerticalFormatting() {#isVerticalFormatting--}
 ```
@@ -376,9 +376,9 @@ public Node remove()
 
 **退货:**
 [Node](../../com.aspose.words/node)
-### set字段Name(String value) {#set字段Name-java.lang.String-}
+### setFieldName(String value) {#setFieldName-java.lang.String-}
 ```
-public void set字段Name(String value)
+public void setFieldName(String value)
 ```
 
 
@@ -426,7 +426,7 @@ public void setTextAfter(String value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 如果字段不为空，则在字段之后插入的文本。 |
+| value | java.lang.String | 如果字段不为空，则在字段后插入的文本。 |
 
 ### setTextBefore(String value) {#setTextBefore-java.lang.String-}
 ```
@@ -439,7 +439,7 @@ public void setTextBefore(String value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 如果字段不为空，则要在字段之前插入的文本。 |
+| value | java.lang.String | 如果字段不为空，则在字段之前插入的文本。 |
 
 ### toString() {#toString--}
 ```
@@ -459,19 +459,19 @@ public boolean unlink()
 
 执行字段取消链接。
 
-用其最新结果替换该字段。
+将字段替换为其最新结果。
 
 某些字段，例如 XE（索引条目）字段和 SEQ（序列）字段，无法取消链接。
 
 **退货:**
-布尔值 -\{ 如果字段已取消链接，则为真，否则为假。
+布尔值 -\{ 如果该字段已取消链接则为真，否则为假。
 ### update() {#update--}
 ```
 public void update()
 ```
 
 
-执行字段更新。如果该字段已被更新，则抛出。
+执行字段更新。如果该字段已经被更新则抛出。
 
 ### update(boolean ignoreMergeFormat) {#update-boolean-}
 ```
@@ -479,12 +479,12 @@ public void update(boolean ignoreMergeFormat)
 ```
 
 
-执行字段更新。如果该字段已被更新，则抛出。
+执行字段更新。如果该字段已经被更新则抛出。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ignoreMergeFormat | boolean | 如果为 true，则放弃直接字段结果格式化，无论 MERGEFORMAT 开关如何，否则执行正常更新。 |
+| ignoreMergeFormat | boolean | 如果为真，则放弃直接字段结果格式，不管 MERGEFORMAT 开关如何，否则执行正常更新。 |
 
 ### wait() {#wait--}
 ```

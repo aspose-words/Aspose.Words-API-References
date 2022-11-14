@@ -1,6 +1,6 @@
 ---
 title: AxisCrosses
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定轴的可能交叉点。
 type: docs
 weight: 19
@@ -16,7 +16,7 @@ public class AxisCrosses
 指定轴的可能交叉点。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [AUTOMATIC](#AUTOMATIC) | 类别轴在值轴的零点处交叉（如果可能），或者如果最小值大于零，则在最小值处相交，或者如果最大值小于零，则在最大值处相交。 |
 | [CUSTOM](#CUSTOM) | 垂直轴与轴的指定值相交。 |
@@ -29,7 +29,7 @@ public class AxisCrosses
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String axisCrossesName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int axisCrosses)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -108,16 +108,16 @@ public static int fromName(String axisCrossesName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int axisCrosses) {#getName-int-}
 ```
 public static String getName(int axisCrosses)

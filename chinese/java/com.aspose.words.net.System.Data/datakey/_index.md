@@ -1,6 +1,6 @@
 ---
 title: DataKey
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 
 type: docs
 weight: 17
@@ -17,7 +17,7 @@ public class DataKey
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getKeyValues(System.Data.DataRow dataRow)](#getKeyValues-com.aspose.words.net.System.Data.DataRow-) |  |
 | [getTable()](#getTable--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -42,16 +42,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getKeyValues(System.Data.DataRow dataRow) {#getKeyValues-com.aspose.words.net.System.Data.DataRow-}
 ```
 public Object[] getKeyValues(System.Data.DataRow dataRow)

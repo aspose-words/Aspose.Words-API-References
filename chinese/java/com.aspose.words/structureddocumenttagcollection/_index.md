@@ -1,6 +1,6 @@
 ---
 title: StructuredDocumentTagCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示指定范围内的结构化文档标签的实例集合。
 type: docs
 weight: 533
@@ -16,7 +16,7 @@ java.lang.Iterable
 public class StructuredDocumentTagCollection implements Iterable
 ```
 
-一个集合[IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag)表示指定范围内的结构化文档标签的实例。
+的集合[IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag)表示指定范围内的结构化文档标签的实例。
 
 要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
 ## 方法
@@ -28,7 +28,7 @@ public class StructuredDocumentTagCollection implements Iterable
 | [getById(int id)](#getById-int-) | 按标识符返回结构化文档标签。 |
 | [getByTag(String tag)](#getByTag-java.lang.String-) | 返回集合中遇到的第一个带有指定标签的结构化文档标签。 |
 | [getByTitle(String title)](#getByTitle-java.lang.String-) | 返回集合中遇到的具有指定标题的第一个结构化文档标记。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 返回集合中结构化文档标签的数量。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 返回一个枚举器对象。 |
@@ -121,16 +121,16 @@ public IStructuredDocumentTag getByTitle(String title)
 
 **退货:**
 [IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag)
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

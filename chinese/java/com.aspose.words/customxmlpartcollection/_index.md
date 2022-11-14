@@ -1,6 +1,6 @@
 ---
 title: CustomXmlPartCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示自定义 XML 部件的集合。
 type: docs
 weight: 105
@@ -16,7 +16,7 @@ java.lang.Iterable
 public class CustomXmlPartCollection implements Iterable
 ```
 
-表示自定义 XML 部件的集合。项目是[CustomXmlPart](../../com.aspose.words/customxmlpart)对象。
+表示自定义 XML 部件的集合。这些项目是[CustomXmlPart](../../com.aspose.words/customxmlpart)对象。
 
 要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
 
@@ -32,7 +32,7 @@ public class CustomXmlPartCollection implements Iterable
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 获取指定索引处的项目。 |
 | [getById(String id)](#getById-java.lang.String-) | 按标识符查找并返回自定义 XML 部件。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中包含的元素数。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。 |
@@ -136,16 +136,16 @@ public CustomXmlPart getById(String id)
 
 **退货:**
 [CustomXmlPart](../../com.aspose.words/customxmlpart) - 如果未找到具有指定标识符的自定义 XML 部分，则返回 null。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

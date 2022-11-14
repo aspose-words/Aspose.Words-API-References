@@ -1,6 +1,6 @@
 ---
 title: MarkupLevel
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定文档树中特定可能出现的级别。
 type: docs
 weight: 390
@@ -16,7 +16,7 @@ public class MarkupLevel
 指定文档树中的特定级别[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)可以发生。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BLOCK](#BLOCK) | 元素出现在块级别（例如 |
 | [CELL](#CELL) | 该元素出现在一行的单元格中。 |
@@ -30,7 +30,7 @@ public class MarkupLevel
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String markupLevelName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int markupLevel)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -47,7 +47,7 @@ public static int BLOCK
 ```
 
 
-元素出现在块级别（例如，在表格和段落之间）。
+该元素出现在块级别（例如在表格和段落之间）。
 
 ### CELL {#CELL}
 ```
@@ -63,7 +63,7 @@ public static int INLINE
 ```
 
 
-元素出现在内联级别（例如，作为文本运行）。
+该元素出现在行内级别（例如，在文本运行中）。
 
 ### ROW {#ROW}
 ```
@@ -117,16 +117,16 @@ public static int fromName(String markupLevelName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int markupLevel) {#getName-int-}
 ```
 public static String getName(int markupLevel)

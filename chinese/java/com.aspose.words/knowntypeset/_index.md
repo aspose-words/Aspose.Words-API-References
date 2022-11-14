@@ -1,6 +1,6 @@
 ---
-title: Known类型Set
-second_title: Aspose.Words for Java API Reference
+title: KnownTypeSet
+second_title: Aspose.Words for Java API 参考
 description: 表示一个无序集，即
 type: docs
 weight: 356
@@ -13,37 +13,37 @@ java.lang.Object
 **所有实现的接口:**
 java.lang.Iterable
 ```
-public class Known类型Set implements Iterable
+public class KnownTypeSet implements Iterable
 ```
 
-表示包含 java.lang.班级 对象的无序集（即唯一项的集合），这些对象的完全或部分限定名称可在报告模板中用于调用相应类型的静态成员、执行类型转换等。
+表示包含 java.lang.Class 对象的无序集（即唯一项的集合），这些对象的完全或部分限定名称可在报告模板中用于调用相应类型的静态成员、执行类型转换等。
 
 要了解更多信息，请访问**LINQ Reporting Engine**文档文章。
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [add(班级 type)](#add-java.lang.班级-) | 将指定的 java.lang.班级 对象添加到集合中。 |
+| [add(Class type)](#add-java.lang.Class-) | 将指定的 java.lang.Class 对象添加到集合中。 |
 | [clear()](#clear--) | 从集合中移除所有项目。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中项目的计数。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 返回 一个 java.util.Iterator 对象，用于迭代集合中的项目。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(班级 type)](#remove-java.lang.班级-) | 从集合中移除指定的 java.lang.班级 对象。 |
+| [remove(Class type)](#remove-java.lang.Class-) | 从集合中移除指定的 java.lang.Class 对象。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(班级 type) {#add-java.lang.班级-}
+### add(Class type) {#add-java.lang.Class-}
 ```
-public void add(班级 type)
+public void add(Class type)
 ```
 
 
-将指定的 java.lang.班级 对象添加到集合中。在以下情况下抛出 java.lang.IllegalArgumentException：
+将指定的 java.lang.Class 对象添加到集合中。在以下情况下抛出 java.lang.IllegalArgumentException：
 
 \- 类型为空。
 
@@ -58,7 +58,7 @@ public void add(班级 type)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| type | java.lang.班级 | 要添加的 java.lang.班级 对象。 |
+| type | java.lang.Class | 要添加的 java.lang.Class 对象。 |
 
 ### clear() {#clear--}
 ```
@@ -83,16 +83,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -139,18 +139,18 @@ public final native void notifyAll()
 
 
 
-### remove(班级 type) {#remove-java.lang.班级-}
+### remove(Class type) {#remove-java.lang.Class-}
 ```
-public void remove(班级 type)
+public void remove(Class type)
 ```
 
 
-从集合中移除指定的 java.lang.班级 对象。如果 type 为 null，则抛出 java.lang.IllegalArgumentException。
+从集合中移除指定的 java.lang.Class 对象。如果 type 为 null，则抛出 java.lang.IllegalArgumentException。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| type | java.lang.班级 | 要删除的 java.lang.班级 对象。 |
+| type | java.lang.Class | 要删除的 java.lang.Class 对象。 |
 
 ### toString() {#toString--}
 ```

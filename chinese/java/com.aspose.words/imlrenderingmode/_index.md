@@ -1,6 +1,6 @@
 ---
 title: ImlRenderingMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定如何将墨迹 InkML 对象呈现为固定页面格式。
 type: docs
 weight: 345
@@ -16,7 +16,7 @@ public class ImlRenderingMode
 指定如何将墨迹 (InkML) 对象呈现为固定页面格式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [FALLBACK](#FALLBACK) | 如果后备形状可用于墨水 (InkML) 对象，Aspose.Words 会呈现后备形状而不是 InkML。 |
 | [INK_ML](#INK-ML) | Aspose.Words 忽略墨迹 (InkML) 对象的后备形状并呈现 InkML 本身。 |
@@ -27,7 +27,7 @@ public class ImlRenderingMode
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String imlRenderingModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int imlRenderingMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int FALLBACK
 ```
 
 
-如果后备形状可用于墨水 (InkML) 对象，Aspose.Words 会呈现后备形状而不是 InkML。请注意，在使用回退呈现模式将文档保存为固定页面格式后，AW 文档模型中的 InkML 对象将永久替换为其回退对应对象。因此，即使 ImlRenderingMode 设置为 InkML，再次保存同一个文档将始终使用回退形状。
+如果后备形状可用于墨水 (InkML) 对象，Aspose.Words 渲染后备形状而不是 InkML。请注意，在将文档保存为具有回退渲染模式的固定页面格式后，AW 文档模型中的 InkML 对象将永久替换为其回退对应物。因此，即使 ImlRenderingMode 设置为 InkML，再次保存同一个文档将始终使用回退形状。
 
 ### INK_ML {#INK-ML}
 ```
@@ -52,7 +52,7 @@ public static int INK_ML
 ```
 
 
-Aspose.Words 忽略墨迹 (InkML) 对象的后备形状并呈现 InkML 本身。这是默认模式。
+Aspose.Words 忽略墨水 (InkML) 对象的回退形状并呈现 InkML 本身。这是默认模式。
 
 ### length {#length}
 ```
@@ -90,16 +90,16 @@ public static int fromName(String imlRenderingModeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int imlRenderingMode) {#getName-int-}
 ```
 public static String getName(int imlRenderingMode)

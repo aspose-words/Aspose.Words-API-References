@@ -1,6 +1,6 @@
 ---
 title: TableStyle
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示表格样式。
 type: docs
 weight: 552
@@ -24,7 +24,7 @@ public class TableStyle extends Style
 | [clearParaAttrs()](#clearParaAttrs--) |  |
 | [clearRowAttrs()](#clearRowAttrs--) |  |
 | [clearRunAttrs()](#clearRunAttrs--) |  |
-| [equals(Style style)](#equals-com.aspose.words.Style-) | 与指定的样式进行比较。 |
+| [equals(Style style)](#equals-com.aspose.words.Style-) | 与指定样式进行比较。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchCellAttr(int key)](#fetchCellAttr-int-) |  |
 | [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int-) |  |
@@ -44,7 +44,7 @@ public class TableStyle extends Style
 | [getBottomPadding()](#getBottomPadding--) | 获取要添加到表格单元格内容下方的空间量（以磅为单位）。 |
 | [getBuiltIn()](#getBuiltIn--) | 如果此样式是 MS Word 中的内置样式之一，则为真。 |
 | [getCellSpacing()](#getCellSpacing--) | 获取单元格之间的空间量（以磅为单位）。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getColumnStripe()](#getColumnStripe--) | 当样式指定奇数/偶数列分段时，获取要包含在分段中的列数。 |
 | [getConditionalStyles()](#getConditionalStyles--) | 可以为此表格样式定义的条件样式的集合。 |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int-) |  |
@@ -57,19 +57,19 @@ public class TableStyle extends Style
 | [getFont()](#getFont--) | 获取样式的字符格式。 |
 | [getLeftIndent()](#getLeftIndent--) | 获取表示表格左缩进的值。 |
 | [getLeftPadding()](#getLeftPadding--) | 获取要添加到表格单元格内容左侧的空间量（以磅为单位）。 |
-| [getLinkedStyleName()](#getLinkedStyleName--) | 获取链接到这个样式的名称。 |
+| [getLinkedStyleName()](#getLinkedStyleName--) | 获取链接到此样式的样式的名称。 |
 | [getList()](#getList--) | 获取定义此列表样式格式的列表。 |
 | [getListFormat()](#getListFormat--) | 提供对段落样式的列表格式属性的访问。 |
 | [getName()](#getName--) | 获取样式的名称。 |
-| [getNextParagraphStyleName()](#getNextParagraphStyleName--) | 获取/设置样式的名称，该样式的名称将自动应用于插入到以指定样式格式化的段落之后的新段落。 |
+| [getNextParagraphStyleName()](#getNextParagraphStyleName--) | 获取/设置要自动应用于在使用指定样式格式化的段落之后插入的新段落的样式的名称。 |
 | [getParagraphFormat()](#getParagraphFormat--) | 获取样式的段落格式。 |
 | [getRightPadding()](#getRightPadding--) | 获取要添加到表格单元格内容右侧的空间量（以磅为单位）。 |
 | [getRowStripe()](#getRowStripe--) | 当样式指定奇数/偶数行分段时，获取要包含在分段中的行数。 |
 | [getShading()](#getShading--) | 得到一个[Shading](../../com.aspose.words/shading)引用表格单元格的阴影格式的对象。 |
-| [getStyleIdentifier()](#getStyleIdentifier--) | 获取内置样式的独立于语言环境的样式标识符。 |
-| [getStyles()](#getStyles--) | 获取该样式所属的样式集合。 |
+| [getStyleIdentifier()](#getStyleIdentifier--) | 获取内置样式的区域独立样式标识符。 |
+| [getStyles()](#getStyles--) | 获取此样式所属的样式集合。 |
 | [getTopPadding()](#getTopPadding--) | 获取要添加到表格单元格内容上方的空间量（以磅为单位）。 |
-| [get类型()](#get类型--) | 获取样式类型（段落或字符）。 |
+| [getType()](#getType--) | 获取样式类型（段落或字符）。 |
 | [getVerticalAlignment()](#getVerticalAlignment--) | 指定单元格的垂直对齐方式。 |
 | [hashCode()](#hashCode--) |  |
 | [isHeading()](#isHeading--) | 当样式是内置标题样式之一时为真。 |
@@ -93,11 +93,11 @@ public class TableStyle extends Style
 | [setLeftIndent(double value)](#setLeftIndent-double-) | 设置表示表格左缩进的值。 |
 | [setLeftPadding(double value)](#setLeftPadding-double-) | 设置要添加到表格单元格内容左侧的空间量（以磅为单位）。 |
 | [setName(String value)](#setName-java.lang.String-) | 设置样式的名称。 |
-| [setNextParagraphStyleName(String value)](#setNextParagraphStyleName-java.lang.String-) | 获取/设置样式的名称，该样式的名称将自动应用于插入到以指定样式格式化的段落之后的新段落。 |
+| [setNextParagraphStyleName(String value)](#setNextParagraphStyleName-java.lang.String-) | 获取/设置要自动应用于在使用指定样式格式化的段落之后插入的新段落的样式的名称。 |
 | [setParaAttr(int key, Object value)](#setParaAttr-int-java.lang.Object-) |  |
 | [setRightPadding(double value)](#setRightPadding-double-) | 设置要添加到表格单元格内容右侧的空间量（以磅为单位）。 |
 | [setRowAttr(int key, Object value)](#setRowAttr-int-java.lang.Object-) |  |
-| [setRowStripe(int value)](#setRowStripe-int-) | 当样式指定奇数/偶数行分段时，设置要包含在分段中的行数。 |
+| [setRowStripe(int value)](#setRowStripe-int-) | 当样式指定奇数/偶数行条带时，设置要包含在条带中的行数。 |
 | [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
 | [setTopPadding(double value)](#setTopPadding-double-) | 设置要在表格单元格内容上方添加的空间量（以磅为单位）。 |
 | [setVerticalAlignment(int value)](#setVerticalAlignment-int-) | 指定单元格的垂直对齐方式。 |
@@ -328,10 +328,10 @@ public boolean getAllowBreakAcrossPages()
 ```
 
 
-获取一个标志，该标志指示是否允许跨分页符拆分表格行中的文本。默认值为**true**.
+获取一个标志，该标志指示是否允许表行中的文本跨分页符拆分。默认值为**true**.
 
 **退货:**
-boolean - 指示表格行中的文本是否允许跨分页符拆分的标志。
+boolean - 一个标志，指示表格行中的文本是否允许跨分页符拆分。
 ### getBaseStyleName() {#getBaseStyleName--}
 ```
 public String getBaseStyleName()
@@ -365,7 +365,7 @@ public BorderCollection getBorders()
 获取样式的默认单元格边框的集合。
 
 **退货:**
-[BorderCollection](../../com.aspose.words/bordercollection) - 样式的默认单元格边框的集合。
+[BorderCollection](../../com.aspose.words/bordercollection) - 样式的默认单元格边框集合。
 ### getBottomPadding() {#getBottomPadding--}
 ```
 public double getBottomPadding()
@@ -396,16 +396,16 @@ public double getCellSpacing()
 
 **退货:**
 double - 单元格之间的空间量（以磅为单位）。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getColumnStripe() {#getColumnStripe--}
 ```
 public int getColumnStripe()
@@ -415,7 +415,7 @@ public int getColumnStripe()
 当样式指定奇数/偶数列分段时，获取要包含在分段中的列数。
 
 **退货:**
-int - 当样式指定奇数/偶数列带时，要包含在带中的列数。
+int - 当样式指定奇数/偶数列条带时要包含在条带中的列数。
 ### getConditionalStyles() {#getConditionalStyles--}
 ```
 public ConditionalStyleCollection getConditionalStyles()
@@ -526,7 +526,7 @@ public DocumentBase getDocument()
 获取所有者文档。
 
 **退货:**
-[DocumentBase](../../com.aspose.words/documentbase) - 所有者文件。
+[DocumentBase](../../com.aspose.words/documentbase) - 所有者文档。
 ### getFont() {#getFont--}
 ```
 public Font getFont()
@@ -568,7 +568,7 @@ public String getLinkedStyleName()
 获取链接到这个样式的名称。如果没有链接样式，则返回空字符串。
 
 **退货:**
-java.lang.String - 链接到这个样式的名称。
+java.lang.String - 链接到此样式的样式的名称。
 ### getList() {#getList--}
 ```
 public List getList()
@@ -603,7 +603,7 @@ public String getName()
 
 不能为空字符串。
 
-如果集合中已经存在具有此类名称的样式，则此样式将覆盖它。所有受影响的节点都将引用新样式。
+如果集合中已经存在同名的样式，则该样式将覆盖它。所有受影响的节点都将引用新样式。
 
 **退货:**
 java.lang.String - 样式的名称。
@@ -613,7 +613,7 @@ public String getNextParagraphStyleName()
 ```
 
 
-获取/设置样式的名称，该样式的名称将自动应用于插入到以指定样式格式化的段落之后的新段落。 Aspose.Words 不使用此属性。只有当您在 MS Word 中编辑文档时，才会自动应用下一个段落样式。
+获取/设置要自动应用于在使用指定样式格式化的段落之后插入的新段落的样式的名称。 Aspose.Words 不使用该属性。仅当您在 MS Word 中编辑文档时，才会自动应用下一段样式。
 
 **退货:**
 java.lang.String - 对应的 java.lang.String 值。
@@ -648,7 +648,7 @@ public int getRowStripe()
 当样式指定奇数/偶数行分段时，获取要包含在分段中的行数。
 
 **退货:**
-int - 当样式指定奇数/偶数行分带时要包含在分带中的行数。
+int - 当样式指定奇数/偶数行条带时要包含在条带中的行数。
 ### getShading() {#getShading--}
 ```
 public Shading getShading()
@@ -665,7 +665,7 @@ public int getStyleIdentifier()
 ```
 
 
-获取内置样式的独立于语言环境的样式标识符。
+获取内置样式的区域独立样式标识符。
 
 对于用户定义（自定义）样式，此属性返回[StyleIdentifier.USER](../../com.aspose.words/styleidentifier\#USER).
 
@@ -677,7 +677,7 @@ public StyleCollection getStyles()
 ```
 
 
-获取该样式所属的样式集合。
+获取此样式所属的样式集合。
 
 **退货:**
 [StyleCollection](../../com.aspose.words/stylecollection) 此样式所属的样式集合。
@@ -690,17 +690,17 @@ public double getTopPadding()
 获取要添加到表格单元格内容上方的空间量（以磅为单位）。
 
 **退货:**
-double - 在表格单元格内容上方添加的空间量（以磅为单位）。
-### get类型() {#get类型--}
+double - 添加到表格单元格内容上方的空间量（以磅为单位）。
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
 获取样式类型（段落或字符）。
 
 **退货:**
- int - 样式类型（段落或字符）。返回值是以下之一[Style类型](../../com.aspose.words/styletype)常数。
+ int - 样式类型（段落或字符）。返回值是以下之一[StyleType](../../com.aspose.words/styletype)常数。
 ### getVerticalAlignment() {#getVerticalAlignment--}
 ```
 public int getVerticalAlignment()
@@ -835,12 +835,12 @@ public void setAllowBreakAcrossPages(boolean value)
 ```
 
 
-设置一个标志，指示是否允许表格行中的文本跨分页符进行拆分。默认值为**true**.
+设置一个标志，指示是否允许表格行中的文本跨分页符拆分。默认值为**true**.
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 指示是否允许表格行中的文本跨分页符拆分的标志。 |
+| value | boolean | 指示表格行中的文本是否允许跨分页符拆分的标志。 |
 
 ### setBaseStyleName(String value) {#setBaseStyleName-java.lang.String-}
 ```
@@ -975,7 +975,7 @@ public void setName(String value)
 
 不能为空字符串。
 
-如果集合中已经存在具有此类名称的样式，则此样式将覆盖它。所有受影响的节点都将引用新样式。
+如果集合中已经存在同名的样式，则该样式将覆盖它。所有受影响的节点都将引用新样式。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -988,7 +988,7 @@ public void setNextParagraphStyleName(String value)
 ```
 
 
-获取/设置样式的名称，该样式的名称将自动应用于插入到以指定样式格式化的段落之后的新段落。 Aspose.Words 不使用此属性。只有当您在 MS Word 中编辑文档时，才会自动应用下一个段落样式。
+获取/设置要自动应用于在使用指定样式格式化的段落之后插入的新段落的样式的名称。 Aspose.Words 不使用该属性。仅当您在 MS Word 中编辑文档时，才会自动应用下一段样式。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1042,12 +1042,12 @@ public void setRowStripe(int value)
 ```
 
 
-当样式指定奇数/偶数行分段时，设置要包含在分段中的行数。
+当样式指定奇数/偶数行条带时，设置要包含在条带中的行数。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 当样式指定奇数/偶数行分带时要包含在分带中的行数。 |
+| value | int | 当样式指定奇数/偶数行条带时要包含在条带中的行数。 |
 
 ### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object-}
 ```
@@ -1074,7 +1074,7 @@ public void setTopPadding(double value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 在表格单元格内容上方添加的空间量（以磅为单位）。 |
+| value | double | 添加到表格单元格内容上方的空间量（以磅为单位）。 |
 
 ### setVerticalAlignment(int value) {#setVerticalAlignment-int-}
 ```

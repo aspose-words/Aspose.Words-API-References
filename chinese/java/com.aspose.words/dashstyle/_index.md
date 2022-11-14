@@ -1,6 +1,6 @@
 ---
 title: DashStyle
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 虚线样式。
 type: docs
 weight: 109
@@ -16,13 +16,13 @@ public class DashStyle
 虚线样式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [DASH](#DASH) | 破折号风格。 |
 | [DASH_DOT](#DASH-DOT) | 短划线。 |
 | [DEFAULT](#DEFAULT) | 如同[SOLID](../../com.aspose.words/dashstyle\#SOLID). |
 | [DOT](#DOT) | 方点样式。 |
-| [LONG_DASH](#LONG-DASH) | 长破折号样式。 |
+| [LONG_DASH](#LONG-DASH) | 长破折号风格。 |
 | [LONG_DASH_DOT](#LONG-DASH-DOT) | 长破折号短破折号。 |
 | [LONG_DASH_DOT_DOT](#LONG-DASH-DOT-DOT) | 长破折号短破折号短破折号。 |
 | [SHORT_DASH](#SHORT-DASH) | 系统破折号样式。 |
@@ -37,7 +37,7 @@ public class DashStyle
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String dashStyleName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int dashStyle)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -86,7 +86,7 @@ public static int LONG_DASH
 ```
 
 
-长破折号样式。
+长破折号风格。
 
 ### LONG_DASH_DOT {#LONG-DASH-DOT}
 ```
@@ -180,16 +180,16 @@ public static int fromName(String dashStyleName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int dashStyle) {#getName-int-}
 ```
 public static String getName(int dashStyle)

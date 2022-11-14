@@ -1,6 +1,6 @@
 ---
 title: CompatibilityOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 包含兼容性选项，即在 Microsoft Word 中选项对话框的兼容性选项卡上输入的用户首选项。
 type: docs
 weight: 86
@@ -24,41 +24,41 @@ public class CompatibilityOptions implements Cloneable
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAdjustLineHeightInTable()](#getAdjustLineHeightInTable--) | 将文档网格线间距添加到表格单元格中的线。 |
-| [getAlignTablesRowByRow()](#getAlignTablesRowByRow--) | 独立对齐表格行。 |
+| [getAdjustLineHeightInTable()](#getAdjustLineHeightInTable--) | 将文档网格线间距添加到表格单元格中的行。 |
+| [getAlignTablesRowByRow()](#getAlignTablesRowByRow--) | 独立对齐表行。 |
 | [getAllowSpaceOfSameStyleInTable()](#getAllowSpaceOfSameStyleInTable--) | 允许表格中段落的上下文间距。 |
 | [getApplyBreakingRules()](#getApplyBreakingRules--) | 使用传统的埃塞俄比亚语和阿姆哈拉语换行规则。 |
 | [getAutoSpaceLikeWord95()](#getAutoSpaceLikeWord95--) | 模拟 Word 95 全角字符间距。 |
 | [getAutofitToFirstFixedWidthCell()](#getAutofitToFirstFixedWidthCell--) | 允许表格列超过组成单元格的首选宽度。 |
 | [getBalanceSingleByteDoubleByteWidth()](#getBalanceSingleByteDoubleByteWidth--) | 平衡单字节和双字节字符。 |
 | [getCachedColBalance()](#getCachedColBalance--) | 使用缓存的段落信息进行列平衡。 |
-| [get班级()](#get班级--) |  |
-| [getConvMailMergeEsc()](#getConvMailMergeEsc--) | 将反斜杠引号分隔符视为两个引号。 |
-| [getDisableOpen类型FontFormattingFeatures()](#getDisableOpen类型FontFormattingFeatures--) |  |
-| [getDisplayHangulFixedWidth()](#getDisplayHangulFixedWidth--) | 始终为韩文字符使用固定宽度。 |
-| [getDoNotAutofitConstrainedTables()](#getDoNotAutofitConstrainedTables--) | 不要自动调整表格以适合包裹的对象。 |
-| [getDoNotBreakConstrainedForcedTable()](#getDoNotBreakConstrainedForcedTable--) | 不要打破浮动表周围的表行。 |
-| [getDoNotBreakWrappedTables()](#getDoNotBreakWrappedTables--) | 不允许浮动表格跨越页面。 |
-| [getDoNotExpandShiftReturn()](#getDoNotExpandShiftReturn--) | 不要证明以软换行符结尾的行。 |
+| [getClass()](#getClass--) |  |
+| [getConvMailMergeEsc()](#getConvMailMergeEsc--) | 将反斜杠引号定界符视为两个引号。 |
+| [getDisableOpenTypeFontFormattingFeatures()](#getDisableOpenTypeFontFormattingFeatures--) |  |
+| [getDisplayHangulFixedWidth()](#getDisplayHangulFixedWidth--) | 始终对 Hangul 字符使用固定宽度。 |
+| [getDoNotAutofitConstrainedTables()](#getDoNotAutofitConstrainedTables--) | 不要自动调整表格以适应包裹对象的旁边。 |
+| [getDoNotBreakConstrainedForcedTable()](#getDoNotBreakConstrainedForcedTable--) | 不要打破浮动表格周围的表格行。 |
+| [getDoNotBreakWrappedTables()](#getDoNotBreakWrappedTables--) | 不要让浮动表格跨页中断。 |
+| [getDoNotExpandShiftReturn()](#getDoNotExpandShiftReturn--) | 不要对齐以软换行结尾的行。 |
 | [getDoNotLeaveBackslashAlone()](#getDoNotLeaveBackslashAlone--) | 输入时将反斜杠转换为日元符号。 |
-| [getDoNotSnapToGridInCell()](#getDoNotSnapToGridInCell--) | 不要在包含对象的表格单元格中对齐文档网格。 |
+| [getDoNotSnapToGridInCell()](#getDoNotSnapToGridInCell--) | 不要对齐包含对象的表格单元格中的文档网格。 |
 | [getDoNotSuppressIndentation()](#getDoNotSuppressIndentation--) | 计算段落缩进时不要忽略浮动对象。 |
 | [getDoNotSuppressParagraphBorders()](#getDoNotSuppressParagraphBorders--) | 不要抑制框架旁边的段落边框。 |
 | [getDoNotUseEastAsianBreakRules()](#getDoNotUseEastAsianBreakRules--) | 使用文档网格时不要压缩可压缩字符。 |
-| [getDoNotUseHTMLParagraphAutoSpacing()](#getDoNotUseHTMLParagraphAutoSpacing--) | 为 HTML 自动设置使用固定段落间距。 |
-| [getDoNotUseIndentAsNumberingTabStop()](#getDoNotUseIndentAsNumberingTabStop--) | 编号后创建制表位时忽略悬挂缩进。 |
+| [getDoNotUseHTMLParagraphAutoSpacing()](#getDoNotUseHTMLParagraphAutoSpacing--) | 使用固定段落间距进行 HTML 自动设置。 |
+| [getDoNotUseIndentAsNumberingTabStop()](#getDoNotUseIndentAsNumberingTabStop--) | 在编号后创建制表位时忽略悬挂缩进。 |
 | [getDoNotVertAlignCellWithSp()](#getDoNotVertAlignCellWithSp--) | 不要垂直对齐包含浮动对象的单元格。 |
 | [getDoNotVertAlignInTxbx()](#getDoNotVertAlignInTxbx--) | 忽略文本框中的垂直对齐。 |
-| [getDoNotWrapTextWithPunct()](#getDoNotWrapTextWithPunct--) | 不允许使用字符网格悬挂标点。 |
+| [getDoNotWrapTextWithPunct()](#getDoNotWrapTextWithPunct--) | 不允许使用字符网格悬挂标点符号。 |
 | [getFootnoteLayoutLikeWW8()](#getFootnoteLayoutLikeWW8--) | 模拟 Word 6.x/95/97 脚注放置。 |
 | [getForgetLastTabAlignment()](#getForgetLastTabAlignment--) | 如果段落未左对齐，则在对齐段落时忽略最后一个制表位的宽度。 |
-| [getGrowAutofit()](#getGrowAutofit--) | 允许表格自动适应页边距。 |
-| [getLayoutRawTableWidth()](#getLayoutRawTableWidth--) | 在决定表是否应该包裹浮动对象时忽略表前的空格。 |
-| [getLayoutTableRowsApart()](#getLayoutTableRowsApart--) | 允许表格行独立包装内联对象。 |
-| [getLineWrapLikeWord6()](#getLineWrapLikeWord6--) | 为东亚文本模拟 Word 6.0 换行。 |
-| [getMWSmallCaps()](#getMWSmallCaps--) | 模拟 Macintosh Small Caps 格式的 Word 5.x。 |
-| [getNoColumnBalance()](#getNoColumnBalance--) | 不要平衡节内的文本列。 |
-| [getNoExtraLineSpacing()](#getNoExtraLineSpacing--) | 不要在具有精确行高的行上居中内容。 |
+| [getGrowAutofit()](#getGrowAutofit--) | 允许表格自动调整到页边距。 |
+| [getLayoutRawTableWidth()](#getLayoutRawTableWidth--) | 在决定表格是否应该包裹浮动对象时忽略表格前的空间。 |
+| [getLayoutTableRowsApart()](#getLayoutTableRowsApart--) | 允许表行独立包装内联对象。 |
+| [getLineWrapLikeWord6()](#getLineWrapLikeWord6--) | 模拟东亚文本的 Word 6.0 换行。 |
+| [getMWSmallCaps()](#getMWSmallCaps--) | 为 Macintosh 小型大写字母格式模拟 Word 5.x。 |
+| [getNoColumnBalance()](#getNoColumnBalance--) | 不要平衡一个部分中的文本列。 |
+| [getNoExtraLineSpacing()](#getNoExtraLineSpacing--) | 不要以精确的行高使内容居中。 |
 | [getNoLeading()](#getNoLeading--) | 不要在文本行之间添加前导。 |
 | [getNoSpaceRaiseLower()](#getNoSpaceRaiseLower--) | 不要增加凸起/降低文本的行高。 |
 | [getNoTabHangInd()](#getNoTabHangInd--) | 不要为悬挂缩进创建自定义制表位。 |
@@ -100,40 +100,40 @@ public class CompatibilityOptions implements Cloneable
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [optimizeFor(int version)](#optimizeFor-int-) |  |
-| [setAdjustLineHeightInTable(boolean value)](#setAdjustLineHeightInTable-boolean-) | 将文档网格线间距添加到表格单元格中的线。 |
-| [setAlignTablesRowByRow(boolean value)](#setAlignTablesRowByRow-boolean-) | 独立对齐表格行。 |
+| [setAdjustLineHeightInTable(boolean value)](#setAdjustLineHeightInTable-boolean-) | 将文档网格线间距添加到表格单元格中的行。 |
+| [setAlignTablesRowByRow(boolean value)](#setAlignTablesRowByRow-boolean-) | 独立对齐表行。 |
 | [setAllowSpaceOfSameStyleInTable(boolean value)](#setAllowSpaceOfSameStyleInTable-boolean-) | 允许表格中段落的上下文间距。 |
 | [setApplyBreakingRules(boolean value)](#setApplyBreakingRules-boolean-) | 使用传统的埃塞俄比亚语和阿姆哈拉语换行规则。 |
 | [setAutoSpaceLikeWord95(boolean value)](#setAutoSpaceLikeWord95-boolean-) | 模拟 Word 95 全角字符间距。 |
 | [setAutofitToFirstFixedWidthCell(boolean value)](#setAutofitToFirstFixedWidthCell-boolean-) | 允许表格列超过组成单元格的首选宽度。 |
 | [setBalanceSingleByteDoubleByteWidth(boolean value)](#setBalanceSingleByteDoubleByteWidth-boolean-) | 平衡单字节和双字节字符。 |
 | [setCachedColBalance(boolean value)](#setCachedColBalance-boolean-) | 使用缓存的段落信息进行列平衡。 |
-| [setConvMailMergeEsc(boolean value)](#setConvMailMergeEsc-boolean-) | 将反斜杠引号分隔符视为两个引号。 |
-| [setDisableOpen类型FontFormattingFeatures(boolean value)](#setDisableOpen类型FontFormattingFeatures-boolean-) |  |
-| [setDisplayHangulFixedWidth(boolean value)](#setDisplayHangulFixedWidth-boolean-) | 始终为韩文字符使用固定宽度。 |
-| [setDoNotAutofitConstrainedTables(boolean value)](#setDoNotAutofitConstrainedTables-boolean-) | 不要自动调整表格以适合包裹的对象。 |
-| [setDoNotBreakConstrainedForcedTable(boolean value)](#setDoNotBreakConstrainedForcedTable-boolean-) | 不要打破浮动表周围的表行。 |
-| [setDoNotBreakWrappedTables(boolean value)](#setDoNotBreakWrappedTables-boolean-) | 不允许浮动表格跨越页面。 |
-| [setDoNotExpandShiftReturn(boolean value)](#setDoNotExpandShiftReturn-boolean-) | 不要证明以软换行符结尾的行。 |
+| [setConvMailMergeEsc(boolean value)](#setConvMailMergeEsc-boolean-) | 将反斜杠引号定界符视为两个引号。 |
+| [setDisableOpenTypeFontFormattingFeatures(boolean value)](#setDisableOpenTypeFontFormattingFeatures-boolean-) |  |
+| [setDisplayHangulFixedWidth(boolean value)](#setDisplayHangulFixedWidth-boolean-) | 始终对 Hangul 字符使用固定宽度。 |
+| [setDoNotAutofitConstrainedTables(boolean value)](#setDoNotAutofitConstrainedTables-boolean-) | 不要自动调整表格以适应包裹对象的旁边。 |
+| [setDoNotBreakConstrainedForcedTable(boolean value)](#setDoNotBreakConstrainedForcedTable-boolean-) | 不要打破浮动表格周围的表格行。 |
+| [setDoNotBreakWrappedTables(boolean value)](#setDoNotBreakWrappedTables-boolean-) | 不要让浮动表格跨页中断。 |
+| [setDoNotExpandShiftReturn(boolean value)](#setDoNotExpandShiftReturn-boolean-) | 不要对齐以软换行结尾的行。 |
 | [setDoNotLeaveBackslashAlone(boolean value)](#setDoNotLeaveBackslashAlone-boolean-) | 输入时将反斜杠转换为日元符号。 |
-| [setDoNotSnapToGridInCell(boolean value)](#setDoNotSnapToGridInCell-boolean-) | 不要在包含对象的表格单元格中对齐文档网格。 |
+| [setDoNotSnapToGridInCell(boolean value)](#setDoNotSnapToGridInCell-boolean-) | 不要对齐包含对象的表格单元格中的文档网格。 |
 | [setDoNotSuppressIndentation(boolean value)](#setDoNotSuppressIndentation-boolean-) | 计算段落缩进时不要忽略浮动对象。 |
 | [setDoNotSuppressParagraphBorders(boolean value)](#setDoNotSuppressParagraphBorders-boolean-) | 不要抑制框架旁边的段落边框。 |
 | [setDoNotUseEastAsianBreakRules(boolean value)](#setDoNotUseEastAsianBreakRules-boolean-) | 使用文档网格时不要压缩可压缩字符。 |
-| [setDoNotUseHTMLParagraphAutoSpacing(boolean value)](#setDoNotUseHTMLParagraphAutoSpacing-boolean-) | 为 HTML 自动设置使用固定段落间距。 |
-| [setDoNotUseIndentAsNumberingTabStop(boolean value)](#setDoNotUseIndentAsNumberingTabStop-boolean-) | 编号后创建制表位时忽略悬挂缩进。 |
+| [setDoNotUseHTMLParagraphAutoSpacing(boolean value)](#setDoNotUseHTMLParagraphAutoSpacing-boolean-) | 使用固定段落间距进行 HTML 自动设置。 |
+| [setDoNotUseIndentAsNumberingTabStop(boolean value)](#setDoNotUseIndentAsNumberingTabStop-boolean-) | 在编号后创建制表位时忽略悬挂缩进。 |
 | [setDoNotVertAlignCellWithSp(boolean value)](#setDoNotVertAlignCellWithSp-boolean-) | 不要垂直对齐包含浮动对象的单元格。 |
 | [setDoNotVertAlignInTxbx(boolean value)](#setDoNotVertAlignInTxbx-boolean-) | 忽略文本框中的垂直对齐。 |
-| [setDoNotWrapTextWithPunct(boolean value)](#setDoNotWrapTextWithPunct-boolean-) | 不允许使用字符网格悬挂标点。 |
+| [setDoNotWrapTextWithPunct(boolean value)](#setDoNotWrapTextWithPunct-boolean-) | 不允许使用字符网格悬挂标点符号。 |
 | [setFootnoteLayoutLikeWW8(boolean value)](#setFootnoteLayoutLikeWW8-boolean-) | 模拟 Word 6.x/95/97 脚注放置。 |
 | [setForgetLastTabAlignment(boolean value)](#setForgetLastTabAlignment-boolean-) | 如果段落未左对齐，则在对齐段落时忽略最后一个制表位的宽度。 |
-| [setGrowAutofit(boolean value)](#setGrowAutofit-boolean-) | 允许表格自动适应页边距。 |
-| [setLayoutRawTableWidth(boolean value)](#setLayoutRawTableWidth-boolean-) | 在决定表是否应该包裹浮动对象时忽略表前的空格。 |
-| [setLayoutTableRowsApart(boolean value)](#setLayoutTableRowsApart-boolean-) | 允许表格行独立包装内联对象。 |
-| [setLineWrapLikeWord6(boolean value)](#setLineWrapLikeWord6-boolean-) | 为东亚文本模拟 Word 6.0 换行。 |
-| [setMWSmallCaps(boolean value)](#setMWSmallCaps-boolean-) | 模拟 Macintosh Small Caps 格式的 Word 5.x。 |
-| [setNoColumnBalance(boolean value)](#setNoColumnBalance-boolean-) | 不要平衡节内的文本列。 |
-| [setNoExtraLineSpacing(boolean value)](#setNoExtraLineSpacing-boolean-) | 不要在具有精确行高的行上居中内容。 |
+| [setGrowAutofit(boolean value)](#setGrowAutofit-boolean-) | 允许表格自动调整到页边距。 |
+| [setLayoutRawTableWidth(boolean value)](#setLayoutRawTableWidth-boolean-) | 在决定表格是否应该包裹浮动对象时忽略表格前的空间。 |
+| [setLayoutTableRowsApart(boolean value)](#setLayoutTableRowsApart-boolean-) | 允许表行独立包装内联对象。 |
+| [setLineWrapLikeWord6(boolean value)](#setLineWrapLikeWord6-boolean-) | 模拟东亚文本的 Word 6.0 换行。 |
+| [setMWSmallCaps(boolean value)](#setMWSmallCaps-boolean-) | 为 Macintosh 小型大写字母格式模拟 Word 5.x。 |
+| [setNoColumnBalance(boolean value)](#setNoColumnBalance-boolean-) | 不要平衡一个部分中的文本列。 |
+| [setNoExtraLineSpacing(boolean value)](#setNoExtraLineSpacing-boolean-) | 不要以精确的行高使内容居中。 |
 | [setNoLeading(boolean value)](#setNoLeading-boolean-) | 不要在文本行之间添加前导。 |
 | [setNoSpaceRaiseLower(boolean value)](#setNoSpaceRaiseLower-boolean-) | 不要增加凸起/降低文本的行高。 |
 | [setNoTabHangInd(boolean value)](#setNoTabHangInd-boolean-) | 不要为悬挂缩进创建自定义制表位。 |
@@ -196,7 +196,7 @@ public boolean getAdjustLineHeightInTable()
 ```
 
 
-将文档网格线间距添加到表格单元格中的线。
+将文档网格线间距添加到表格单元格中的行。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -206,7 +206,7 @@ public boolean getAlignTablesRowByRow()
 ```
 
 
-独立对齐表格行。
+独立对齐表行。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -270,29 +270,29 @@ public boolean getCachedColBalance()
 
 **退货:**
 boolean - 对应的布尔值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getConvMailMergeEsc() {#getConvMailMergeEsc--}
 ```
 public boolean getConvMailMergeEsc()
 ```
 
 
-将反斜杠引号分隔符视为两个引号。
+将反斜杠引号定界符视为两个引号。
 
 **退货:**
 boolean - 对应的布尔值。
-### getDisableOpen类型FontFormattingFeatures() {#getDisableOpen类型FontFormattingFeatures--}
+### getDisableOpenTypeFontFormattingFeatures() {#getDisableOpenTypeFontFormattingFeatures--}
 ```
-public boolean getDisableOpen类型FontFormattingFeatures()
+public boolean getDisableOpenTypeFontFormattingFeatures()
 ```
 
 
@@ -306,7 +306,7 @@ public boolean getDisplayHangulFixedWidth()
 ```
 
 
-始终为韩文字符使用固定宽度。
+始终对 Hangul 字符使用固定宽度。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -316,7 +316,7 @@ public boolean getDoNotAutofitConstrainedTables()
 ```
 
 
-不要自动调整表格以适合包裹的对象。
+不要自动调整表格以适应包裹对象的旁边。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -326,7 +326,7 @@ public boolean getDoNotBreakConstrainedForcedTable()
 ```
 
 
-不要打破浮动表周围的表行。
+不要打破浮动表格周围的表格行。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -336,7 +336,7 @@ public boolean getDoNotBreakWrappedTables()
 ```
 
 
-不允许浮动表格跨越页面。
+不要让浮动表格跨页中断。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -346,7 +346,7 @@ public boolean getDoNotExpandShiftReturn()
 ```
 
 
-不要证明以软换行符结尾的行。
+不要对齐以软换行结尾的行。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -366,7 +366,7 @@ public boolean getDoNotSnapToGridInCell()
 ```
 
 
-不要在包含对象的表格单元格中对齐文档网格。
+不要对齐包含对象的表格单元格中的文档网格。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -406,7 +406,7 @@ public boolean getDoNotUseHTMLParagraphAutoSpacing()
 ```
 
 
-为 HTML 自动设置使用固定段落间距。
+使用固定段落间距进行 HTML 自动设置。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -416,7 +416,7 @@ public boolean getDoNotUseIndentAsNumberingTabStop()
 ```
 
 
-编号后创建制表位时忽略悬挂缩进。
+在编号后创建制表位时忽略悬挂缩进。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -446,7 +446,7 @@ public boolean getDoNotWrapTextWithPunct()
 ```
 
 
-不允许使用字符网格悬挂标点。
+不允许使用字符网格悬挂标点符号。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -476,7 +476,7 @@ public boolean getGrowAutofit()
 ```
 
 
-允许表格自动适应页边距。
+允许表格自动调整到页边距。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -486,7 +486,7 @@ public boolean getLayoutRawTableWidth()
 ```
 
 
-在决定表是否应该包裹浮动对象时忽略表前的空格。
+在决定表格是否应该包裹浮动对象时忽略表格前的空间。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -496,7 +496,7 @@ public boolean getLayoutTableRowsApart()
 ```
 
 
-允许表格行独立包装内联对象。
+允许表行独立包装内联对象。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -506,7 +506,7 @@ public boolean getLineWrapLikeWord6()
 ```
 
 
-为东亚文本模拟 Word 6.0 换行。
+模拟东亚文本的 Word 6.0 换行。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -516,7 +516,7 @@ public boolean getMWSmallCaps()
 ```
 
 
-模拟 Macintosh Small Caps 格式的 Word 5.x。
+为 Macintosh 小型大写字母格式模拟 Word 5.x。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -526,7 +526,7 @@ public boolean getNoColumnBalance()
 ```
 
 
-不要平衡节内的文本列。
+不要平衡一个部分中的文本列。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -536,7 +536,7 @@ public boolean getNoExtraLineSpacing()
 ```
 
 
-不要在具有精确行高的行上居中内容。
+不要以精确的行高使内容居中。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -836,7 +836,7 @@ public boolean getUsePrinterMetrics()
 ```
 
 
-使用打印机度量来显示文档。打印机指标可能因使用的驱动程序而异。例如，Windows“Microsoft OpenXPS 班级 Driver 2”和“Microsoft Print to PDF”提供的指标略有不同。因此，如果启用此选项，最终文档的布局可能会发生变化。
+使用打印机度量来显示文档。打印机指标可能因使用的驱动程序而异。例如，Windows“Microsoft OpenXPS Class Driver 2”和“Microsoft Print to PDF”提供的指标略有不同。因此，如果启用此选项，最终文档的布局可能会发生变化。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -955,7 +955,7 @@ public void setAdjustLineHeightInTable(boolean value)
 ```
 
 
-将文档网格线间距添加到表格单元格中的线。
+将文档网格线间距添加到表格单元格中的行。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -968,7 +968,7 @@ public void setAlignTablesRowByRow(boolean value)
 ```
 
 
-独立对齐表格行。
+独立对齐表行。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1059,16 +1059,16 @@ public void setConvMailMergeEsc(boolean value)
 ```
 
 
-将反斜杠引号分隔符视为两个引号。
+将反斜杠引号定界符视为两个引号。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
 
-### setDisableOpen类型FontFormattingFeatures(boolean value) {#setDisableOpen类型FontFormattingFeatures-boolean-}
+### setDisableOpenTypeFontFormattingFeatures(boolean value) {#setDisableOpenTypeFontFormattingFeatures-boolean-}
 ```
-public void setDisableOpen类型FontFormattingFeatures(boolean value)
+public void setDisableOpenTypeFontFormattingFeatures(boolean value)
 ```
 
 
@@ -1085,7 +1085,7 @@ public void setDisplayHangulFixedWidth(boolean value)
 ```
 
 
-始终为韩文字符使用固定宽度。
+始终对 Hangul 字符使用固定宽度。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1098,7 +1098,7 @@ public void setDoNotAutofitConstrainedTables(boolean value)
 ```
 
 
-不要自动调整表格以适合包裹的对象。
+不要自动调整表格以适应包裹对象的旁边。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1111,7 +1111,7 @@ public void setDoNotBreakConstrainedForcedTable(boolean value)
 ```
 
 
-不要打破浮动表周围的表行。
+不要打破浮动表格周围的表格行。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1124,7 +1124,7 @@ public void setDoNotBreakWrappedTables(boolean value)
 ```
 
 
-不允许浮动表格跨越页面。
+不要让浮动表格跨页中断。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1137,7 +1137,7 @@ public void setDoNotExpandShiftReturn(boolean value)
 ```
 
 
-不要证明以软换行符结尾的行。
+不要对齐以软换行结尾的行。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1163,7 +1163,7 @@ public void setDoNotSnapToGridInCell(boolean value)
 ```
 
 
-不要在包含对象的表格单元格中对齐文档网格。
+不要对齐包含对象的表格单元格中的文档网格。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1215,7 +1215,7 @@ public void setDoNotUseHTMLParagraphAutoSpacing(boolean value)
 ```
 
 
-为 HTML 自动设置使用固定段落间距。
+使用固定段落间距进行 HTML 自动设置。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1228,7 +1228,7 @@ public void setDoNotUseIndentAsNumberingTabStop(boolean value)
 ```
 
 
-编号后创建制表位时忽略悬挂缩进。
+在编号后创建制表位时忽略悬挂缩进。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1267,7 +1267,7 @@ public void setDoNotWrapTextWithPunct(boolean value)
 ```
 
 
-不允许使用字符网格悬挂标点。
+不允许使用字符网格悬挂标点符号。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1306,7 +1306,7 @@ public void setGrowAutofit(boolean value)
 ```
 
 
-允许表格自动适应页边距。
+允许表格自动调整到页边距。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1319,7 +1319,7 @@ public void setLayoutRawTableWidth(boolean value)
 ```
 
 
-在决定表是否应该包裹浮动对象时忽略表前的空格。
+在决定表格是否应该包裹浮动对象时忽略表格前的空间。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1332,7 +1332,7 @@ public void setLayoutTableRowsApart(boolean value)
 ```
 
 
-允许表格行独立包装内联对象。
+允许表行独立包装内联对象。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1345,7 +1345,7 @@ public void setLineWrapLikeWord6(boolean value)
 ```
 
 
-为东亚文本模拟 Word 6.0 换行。
+模拟东亚文本的 Word 6.0 换行。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1358,7 +1358,7 @@ public void setMWSmallCaps(boolean value)
 ```
 
 
-模拟 Macintosh Small Caps 格式的 Word 5.x。
+为 Macintosh 小型大写字母格式模拟 Word 5.x。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1371,7 +1371,7 @@ public void setNoColumnBalance(boolean value)
 ```
 
 
-不要平衡节内的文本列。
+不要平衡一个部分中的文本列。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1384,7 +1384,7 @@ public void setNoExtraLineSpacing(boolean value)
 ```
 
 
-不要在具有精确行高的行上居中内容。
+不要以精确的行高使内容居中。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1774,7 +1774,7 @@ public void setUsePrinterMetrics(boolean value)
 ```
 
 
-使用打印机度量来显示文档。打印机指标可能因使用的驱动程序而异。例如，Windows“Microsoft OpenXPS 班级 Driver 2”和“Microsoft Print to PDF”提供的指标略有不同。因此，如果启用此选项，最终文档的布局可能会发生变化。
+使用打印机度量来显示文档。打印机指标可能因使用的驱动程序而异。例如，Windows“Microsoft OpenXPS Class Driver 2”和“Microsoft Print to PDF”提供的指标略有不同。因此，如果启用此选项，最终文档的布局可能会发生变化。
 
 **参数:**
 | 范围 | 类型 | 描述 |

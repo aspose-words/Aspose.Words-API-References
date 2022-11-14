@@ -1,6 +1,6 @@
 ---
 title: TxtLeadingSpacesOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定从文件导入期间用于前导空间处理的可用选项。
 type: docs
 weight: 582
@@ -16,7 +16,7 @@ public class TxtLeadingSpacesOptions
 指定导入期间前导空间处理的可用选项[LoadFormat.TEXT](../../com.aspose.words/loadformat\#TEXT)文件。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CONVERT_TO_INDENT](#CONVERT-TO-INDENT) |  |
 | [PRESERVE](#PRESERVE) |  |
@@ -28,7 +28,7 @@ public class TxtLeadingSpacesOptions
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String txtLeadingSpacesOptionsName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int txtLeadingSpacesOptions)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -93,16 +93,16 @@ public static int fromName(String txtLeadingSpacesOptionsName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int txtLeadingSpacesOptions) {#getName-int-}
 ```
 public static String getName(int txtLeadingSpacesOptions)

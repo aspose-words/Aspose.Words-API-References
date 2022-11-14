@@ -1,7 +1,7 @@
 ---
 title: DropDownItemCollection
-second_title: Aspose.Words for Java API Reference
-description: 表示下拉表单字段中所有项目的字符串集合。
+second_title: Aspose.Words for Java API 参考
+description: 代表下拉表单字段中所有项目的字符串集合。
 type: docs
 weight: 135
 url: /zh/java/com.aspose.words/dropdownitemcollection/
@@ -25,14 +25,14 @@ public class DropDownItemCollection implements Iterable
 | --- | --- |
 | [add(String value)](#add-java.lang.String-) |  |
 | [clear()](#clear--) | 从集合中移除所有元素。 |
-| [contains(String value)](#contains-java.lang.String-) | 确定集合是否包含指定的值。 |
+| [contains(String value)](#contains-java.lang.String-) | 确定集合是否包含指定值。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 获取指定索引处的元素。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中包含的元素数。 |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(String value)](#indexOf-java.lang.String-) | 返回集合中指定值的从零开始的索引。 |
-| [insert(int index, String value)](#insert-int-java.lang.String-) | 在指定索引处将字符串插入集合中。 |
+| [insert(int index, String value)](#insert-int-java.lang.String-) | 将字符串插入到指定索引处的集合中。 |
 | [isInheritedComplexAttr()](#isInheritedComplexAttr--) |  |
 | [iterator()](#iterator--) | 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。 |
 | [notify()](#notify--) |  |
@@ -73,7 +73,7 @@ public boolean contains(String value)
 ```
 
 
-确定集合是否包含指定的值。
+确定集合是否包含指定值。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -112,16 +112,16 @@ public String get(int index)
 
 **退货:**
 java.lang.String - 指定索引处的元素。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -163,7 +163,7 @@ public void insert(int index, String value)
 ```
 
 
-在指定索引处将字符串插入集合中。
+将字符串插入到指定索引处的集合中。
 
 **参数:**
 | 范围 | 类型 | 描述 |

@@ -1,6 +1,6 @@
 ---
 title: CustomXmlSchemaCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示与自定义 XML 部件关联的 XML 模式的字符串集合。
 type: docs
 weight: 108
@@ -30,7 +30,7 @@ public class CustomXmlSchemaCollection implements Iterable
 | [deepClone()](#deepClone--) | 对该对象进行深度克隆。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 获取指定索引处的元素。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中包含的元素数。 |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(String value)](#indexOf-java.lang.String-) | 返回集合中指定值的从零开始的索引。 |
@@ -105,16 +105,16 @@ public String get(int index)
 
 **退货:**
 java.lang.String - 指定索引处的元素。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

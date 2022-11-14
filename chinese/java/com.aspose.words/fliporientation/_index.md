@@ -1,6 +1,6 @@
 ---
 title: FlipOrientation
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 形状方向的可能值。
 type: docs
 weight: 273
@@ -16,11 +16,11 @@ public class FlipOrientation
 形状方向的可能值。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BOTH](#BOTH) | 沿 y 轴和 x 轴翻转。 |
 | [HORIZONTAL](#HORIZONTAL) | 沿 y 轴翻转，反转 x 坐标。 |
-| [NONE](#NONE) | 坐标不翻转。 |
+| [NONE](#NONE) | 坐标不会翻转。 |
 | [VERTICAL](#VERTICAL) | 沿 x 轴翻转，反转 y 坐标。 |
 | [length](#length) |  |
 ## 方法
@@ -30,7 +30,7 @@ public class FlipOrientation
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String flipOrientationName)](#fromName-java.lang.String-) |  |
 | [fromNames(Set flipOrientationNames)](#fromNames-java.util.Set-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int flipOrientation)](#getName-int-) |  |
 | [getNames(int flipOrientation)](#getNames-int-) |  |
 | [getValues()](#getValues--) |  |
@@ -65,7 +65,7 @@ public static int NONE
 ```
 
 
-坐标不翻转。
+坐标不会翻转。
 
 ### VERTICAL {#VERTICAL}
 ```
@@ -126,16 +126,16 @@ public static int fromNames(Set flipOrientationNames)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int flipOrientation) {#getName-int-}
 ```
 public static String getName(int flipOrientation)

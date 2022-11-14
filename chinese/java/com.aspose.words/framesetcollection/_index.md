@@ -1,6 +1,6 @@
 ---
 title: FramesetCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 
 type: docs
 weight: 303
@@ -21,7 +21,7 @@ public class FramesetCollection implements Iterable
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) |  |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) |  |
@@ -61,16 +61,16 @@ public Frameset get(int index)
 
 **退货:**
 [Frameset](../../com.aspose.words/frameset)
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

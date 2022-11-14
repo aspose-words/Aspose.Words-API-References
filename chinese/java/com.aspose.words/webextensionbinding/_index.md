@@ -1,6 +1,6 @@
 ---
 title: WebExtensionBinding
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定 Web 扩展和文档中的数据之间的绑定关系。
 type: docs
 weight: 612
@@ -20,29 +20,29 @@ public class WebExtensionBinding
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [WebExtensionBinding(String id, int binding类型, String appRef)](#WebExtensionBinding-java.lang.String-int-java.lang.String-) | 初始化此类的新实例。 |
+| [WebExtensionBinding(String id, int bindingType, String appRef)](#WebExtensionBinding-java.lang.String-int-java.lang.String-) | 初始化此类的新实例。 |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAppRef()](#getAppRef--) | 指定用于将此列表中的绑定条目与文档中的绑定数据映射的绑定键。 |
-| [getBinding类型()](#getBinding类型--) | 指定绑定类型。 |
-| [get班级()](#get班级--) |  |
+| [getBindingType()](#getBindingType--) | 指定绑定类型。 |
+| [getClass()](#getClass--) |  |
 | [getId()](#getId--) | 指定绑定标识符。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAppRef(String value)](#setAppRef-java.lang.String-) | 指定用于将此列表中的绑定条目与文档中的绑定数据映射的绑定键。 |
-| [setBinding类型(int value)](#setBinding类型-int-) | 指定绑定类型。 |
+| [setBindingType(int value)](#setBindingType-int-) | 指定绑定类型。 |
 | [setId(String value)](#setId-java.lang.String-) | 指定绑定标识符。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### WebExtensionBinding(String id, int binding类型, String appRef) {#WebExtensionBinding-java.lang.String-int-java.lang.String-}
+### WebExtensionBinding(String id, int bindingType, String appRef) {#WebExtensionBinding-java.lang.String-int-java.lang.String-}
 ```
-public WebExtensionBinding(String id, int binding类型, String appRef)
+public WebExtensionBinding(String id, int bindingType, String appRef)
 ```
 
 
@@ -52,7 +52,7 @@ public WebExtensionBinding(String id, int binding类型, String appRef)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | id | java.lang.String |  |
-| binding类型 | int |  |
+| bindingType | int |  |
 | appRef | java.lang.String |  |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
@@ -80,26 +80,26 @@ public String getAppRef()
 
 **退货:**
 java.lang.String - 对应的 java.lang.String 值。
-### getBinding类型() {#getBinding类型--}
+### getBindingType() {#getBindingType--}
 ```
-public int getBinding类型()
+public int getBindingType()
 ```
 
 
 指定绑定类型。
 
 **退货:**
-int - 对应的 int 值。返回值是以下之一[WebExtensionBinding类型](../../com.aspose.words/webextensionbindingtype)常数。
-### get班级() {#get班级--}
+int - 对应的 int 值。返回值是以下之一[WebExtensionBindingType](../../com.aspose.words/webextensionbindingtype)常数。
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getId() {#getId--}
 ```
 public String getId()
@@ -149,9 +149,9 @@ public void setAppRef(String value)
 | --- | --- | --- |
 | value | java.lang.String | 对应的 java.lang.String 值。 |
 
-### setBinding类型(int value) {#setBinding类型-int-}
+### setBindingType(int value) {#setBindingType-int-}
 ```
-public void setBinding类型(int value)
+public void setBindingType(int value)
 ```
 
 
@@ -160,7 +160,7 @@ public void setBinding类型(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[WebExtensionBinding类型](../../com.aspose.words/webextensionbindingtype)常数。 |
+| value | int | 对应的 int 值。该值必须是以下之一[WebExtensionBindingType](../../com.aspose.words/webextensionbindingtype)常数。 |
 
 ### setId(String value) {#setId-java.lang.String-}
 ```

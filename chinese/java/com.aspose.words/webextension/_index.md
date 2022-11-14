@@ -1,6 +1,6 @@
 ---
 title: WebExtension
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示一个 Web 扩展对象。
 type: docs
 weight: 611
@@ -23,7 +23,7 @@ public class WebExtension
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAlternateReferences()](#getAlternateReferences--) | 指定对 Web 扩展的替代引用。 |
 | [getBindings()](#getBindings--) | 指定 Web 扩展绑定列表。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getId()](#getId--) | 唯一标识当前文档中的 Web 扩展实例。 |
 | [getProperties()](#getProperties--) | 表示一组 Web 扩展自定义属性。 |
 | [getReference()](#getReference--) | 指定对 Web 扩展的主要引用。 |
@@ -72,16 +72,16 @@ public WebExtensionBindingCollection getBindings()
 
 **退货:**
 [WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection) - 相应的[WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection)价值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getId() {#getId--}
 ```
 public String getId()

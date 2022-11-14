@@ -1,7 +1,7 @@
 ---
 title: RevisionCollection
-second_title: Aspose.Words for Java API Reference
-description: 代表文档中修订的对象集合。
+second_title: Aspose.Words for Java API 参考
+description: 表示文档修订的对象集合。
 type: docs
 weight: 484
 url: /zh/java/com.aspose.words/revisioncollection/
@@ -16,11 +16,11 @@ java.lang.Iterable
 public class RevisionCollection implements Iterable
 ```
 
-一个集合[Revision](../../com.aspose.words/revision)表示文档中的修订的对象。
+的集合[Revision](../../com.aspose.words/revision)表示文档中的修订的对象。
 
 要了解更多信息，请访问**Track Changes in a Document**文档文章。
 
-您不直接创建此类的实例。使用[Document.getRevisions()](../../com.aspose.words/document\#getRevisions--)属性来获取文档中存在的修订。
+您不直接创建此类的实例。使用[Document.getRevisions()](../../com.aspose.words/document\#getRevisions--)属性以获取文档中存在的修订。
 ## 方法
 
 | 方法 | 描述 |
@@ -28,7 +28,7 @@ public class RevisionCollection implements Iterable
 | [acceptAll()](#acceptAll--) | 接受此集合中的所有修订。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 返回指定索引处的修订。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 返回集合中的修订数。 |
 | [getGroups()](#getGroups--) | 修订组的集合。 |
 | [hashCode()](#hashCode--) |  |
@@ -71,13 +71,13 @@ public Revision get(int index)
 
 返回指定索引处的修订。
 
-该索引从零开始。
+该指数是从零开始的。
 
-允许使用负索引并指示从集合的背面进行访问。例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
+允许使用负索引，表示从集合的后面访问。例如 -1 表示最后一项，-2 表示倒数第二项，依此类推。
 
-如果 index 大于或等于列表中的项目数，则返回空引用。
+如果索引大于或等于列表中的项目数，则返回空引用。
 
-如果 index 为负且其绝对值大于列表中的项目数，则返回空引用。
+如果索引为负且其绝对值大于列表中的项目数，则返回空引用。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -86,16 +86,16 @@ public Revision get(int index)
 
 **退货:**
 [Revision](../../com.aspose.words/revision) - 指定索引处的修订。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

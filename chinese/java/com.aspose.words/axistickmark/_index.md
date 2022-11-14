@@ -1,6 +1,6 @@
 ---
 title: AxisTickMark
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定刻度线的可能位置。
 type: docs
 weight: 24
@@ -16,7 +16,7 @@ public class AxisTickMark
 指定刻度线的可能位置。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CROSS](#CROSS) | 指定刻度线应穿过轴。 |
 | [INSIDE](#INSIDE) | 指定刻度线应位于绘图区域内。 |
@@ -29,7 +29,7 @@ public class AxisTickMark
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String axisTickMarkName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int axisTickMark)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -108,16 +108,16 @@ public static int fromName(String axisTickMarkName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int axisTickMark) {#getName-int-}
 ```
 public static String getName(int axisTickMark)

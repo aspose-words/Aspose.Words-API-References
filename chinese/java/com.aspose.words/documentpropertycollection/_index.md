@@ -1,6 +1,6 @@
 ---
 title: DocumentPropertyCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 和集合的基类。
 type: docs
 weight: 127
@@ -16,11 +16,11 @@ java.lang.Iterable
 public abstract class DocumentPropertyCollection implements Iterable
 ```
 
-基类[BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties)和[CustomDocumentProperties](../../com.aspose.words/customdocumentproperties)收藏品。
+基类为[BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties)和[CustomDocumentProperties](../../com.aspose.words/customdocumentproperties)收藏品。
 
 要了解更多信息，请访问**Work with Document Properties**文档文章。
 
-属性名称不区分大小写。
+属性的名称不区分大小写。
 
 集合中的属性按名称的字母顺序排序。
 ## 构造函数
@@ -37,7 +37,7 @@ public abstract class DocumentPropertyCollection implements Iterable
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 返回一个[DocumentProperty](../../com.aspose.words/documentproperty)按索引的对象。 |
 | [get(String name)](#get-java.lang.String-) | 提供对集合项目的访问。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中的项目数。 |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(String name)](#indexOf-java.lang.String-) | 按名称获取属性的索引。 |
@@ -75,10 +75,10 @@ public boolean contains(String name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | 不区分大小写的属性名称。 |
+| name | java.lang.String | 属性的不区分大小写的名称。 |
 
 **退货:**
-boolean - 如果属性存在于集合中，则为真；否则为假。
+boolean - 如果该属性存在于集合中则为真；否则为假。
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -102,12 +102,12 @@ public DocumentProperty get(int index)
 
 返回一个[DocumentProperty](../../com.aspose.words/documentproperty)按索引的对象。
 
-**Note:**在 Java 中，这种方法很慢，因为它会遍历所有节点。
+**Note:**在 Java 中，此方法很慢，因为遍历所有节点。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | 的从零开始的索引[DocumentProperty](../../com.aspose.words/documentproperty)检索。 |
+| index | int | 零基指数[DocumentProperty](../../com.aspose.words/documentproperty)检索。 |
 
 **退货:**
 [DocumentProperty](../../com.aspose.words/documentproperty) - 一个[DocumentProperty](../../com.aspose.words/documentproperty)按索引的对象。
@@ -128,16 +128,16 @@ public DocumentProperty get(String name)
 
 **退货:**
 [DocumentProperty](../../com.aspose.words/documentproperty) - 相应的[DocumentProperty](../../com.aspose.words/documentproperty)价值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -166,12 +166,12 @@ public int indexOf(String name)
 
 按名称获取属性的索引。
 
-**Note:**在 Java 中，这种方法很慢，因为它会遍历所有节点。
+**Note:**在 Java 中，此方法很慢，因为遍历所有节点。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | 不区分大小写的属性名称。 |
+| name | java.lang.String | 属性的不区分大小写的名称。 |
 
 **退货:**
 int - 从零开始的索引。如果未找到，则为负值。
@@ -212,7 +212,7 @@ public void remove(String name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | 不区分大小写的属性名称。 |
+| name | java.lang.String | 属性的不区分大小写的名称。 |
 
 ### removeAt(int index) {#removeAt-int-}
 ```
@@ -222,7 +222,7 @@ public void removeAt(int index)
 
 删除指定索引处的属性。
 
-**Note:**在 Java 中，这种方法很慢，因为它会遍历所有节点。
+**Note:**在 Java 中，此方法很慢，因为遍历所有节点。
 
 **参数:**
 | 范围 | 类型 | 描述 |

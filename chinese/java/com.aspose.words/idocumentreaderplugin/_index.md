@@ -1,6 +1,6 @@
 ---
 title: IDocumentReaderPlugin
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 为可以将文件读入文档的外部阅读器插件定义接口。
 type: docs
 weight: 638

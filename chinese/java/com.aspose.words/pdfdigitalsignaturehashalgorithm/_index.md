@@ -1,6 +1,6 @@
 ---
 title: PdfDigitalSignatureHashAlgorithm
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定数字签名使用的数字哈希算法。
 type: docs
 weight: 452
@@ -16,7 +16,7 @@ public class PdfDigitalSignatureHashAlgorithm
 指定数字签名使用的数字哈希算法。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [RIPE_MD_160](#RIPE-MD-160) | RIPEMD-160 哈希算法。 |
 | [SHA_256](#SHA-256) | SHA-256 哈希算法。 |
@@ -29,7 +29,7 @@ public class PdfDigitalSignatureHashAlgorithm
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pdfDigitalSignatureHashAlgorithmName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int pdfDigitalSignatureHashAlgorithm)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -108,16 +108,16 @@ public static int fromName(String pdfDigitalSignatureHashAlgorithmName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int pdfDigitalSignatureHashAlgorithm) {#getName-int-}
 ```
 public static String getName(int pdfDigitalSignatureHashAlgorithm)

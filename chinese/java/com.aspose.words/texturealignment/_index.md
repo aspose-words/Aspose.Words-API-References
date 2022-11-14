@@ -1,6 +1,6 @@
 ---
 title: TextureAlignment
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定纹理填充平铺的对齐方式。
 type: docs
 weight: 571
@@ -16,7 +16,7 @@ public class TextureAlignment
 指定纹理填充平铺的对齐方式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BOTTOM](#BOTTOM) | 底部纹理对齐。 |
 | [BOTTOM_LEFT](#BOTTOM-LEFT) | 左下纹理对齐。 |
@@ -24,10 +24,10 @@ public class TextureAlignment
 | [CENTER](#CENTER) | 中心纹理对齐。 |
 | [LEFT](#LEFT) | 左纹理对齐。 |
 | [NONE](#NONE) | 无纹理对齐。 |
-| [RIGHT](#RIGHT) | 右纹理对齐。 |
+| [RIGHT](#RIGHT) | 正确的纹理对齐。 |
 | [TOP](#TOP) | 顶部纹理对齐。 |
 | [TOP_LEFT](#TOP-LEFT) | 左上纹理对齐。 |
-| [TOP_RIGHT](#TOP-RIGHT) | 右上角纹理对齐。 |
+| [TOP_RIGHT](#TOP-RIGHT) | 右上纹理对齐。 |
 | [length](#length) |  |
 ## 方法
 
@@ -35,7 +35,7 @@ public class TextureAlignment
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String textureAlignmentName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int textureAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -100,7 +100,7 @@ public static int RIGHT
 ```
 
 
-右纹理对齐。
+正确的纹理对齐。
 
 ### TOP {#TOP}
 ```
@@ -124,7 +124,7 @@ public static int TOP_RIGHT
 ```
 
 
-右上角纹理对齐。
+右上纹理对齐。
 
 ### length {#length}
 ```
@@ -162,16 +162,16 @@ public static int fromName(String textureAlignmentName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int textureAlignment) {#getName-int-}
 ```
 public static String getName(int textureAlignment)

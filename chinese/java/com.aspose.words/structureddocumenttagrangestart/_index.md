@@ -1,6 +1,6 @@
 ---
 title: StructuredDocumentTagRangeStart
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示接受多节内容的范围结构化文档标签的开始。
 type: docs
 weight: 535
@@ -16,7 +16,7 @@ java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node)
 public class StructuredDocumentTagRangeStart extends Node implements IStructuredDocumentTag, Iterable
 ```
 
-代表一个开始**ranged**接受多节内容的结构化文档标签。也可以看看[StructuredDocumentTagRangeEnd](../../com.aspose.words/structureddocumenttagrangeend).
+代表开始**ranged**接受多节内容的结构化文档标签。也可以看看[StructuredDocumentTagRangeEnd](../../com.aspose.words/structureddocumenttagrangeend).
 
 要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
 
@@ -35,31 +35,31 @@ public class StructuredDocumentTagRangeStart extends Node implements IStructured
 | [dd()](#dd--) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | 创建节点的副本。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAncestor(int ancestor类型)](#getAncestor-int-) |  |
-| [getAncestor(班级 ancestor类型)](#getAncestor-java.lang.班级-) | 获取指定对象类型的第一个祖先。 |
+| [getAncestor(int ancestorType)](#getAncestor-int-) |  |
+| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class-) | 获取指定对象类型的第一个祖先。 |
 | [getChildNodes()](#getChildNodes--) | 获取此范围开始节点和范围结束节点之间的所有节点。 |
-| [getChildNodes(int node类型, boolean isDeep)](#getChildNodes-int-boolean-) |  |
-| [get班级()](#get班级--) |  |
+| [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean-) |  |
+| [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | 获取结构化文档标签的颜色。 |
 | [getCustomNodeId()](#getCustomNodeId--) | 指定自定义节点标识符。 |
 | [getDocument()](#getDocument--) | 获取该节点所属的文档。 |
 | [getId()](#getId--) | 为此结构化文档标签指定一个唯一的只读持久数字 ID。 |
 | [getLastChild()](#getLastChild--) | 获取 stdContent 范围中的最后一个子项。 |
 | [getLevel()](#getLevel--) | 获取此结构化文档标记范围开始出现在文档树中的级别。 |
-| [getLockContentControl()](#getLockContentControl--) | 当设置为 true 时，此属性将禁止用户删除此结构化文档标记。 |
-| [getLockContents()](#getLockContents--) | 当设置为 true 时，此属性将禁止用户编辑此结构化文档标记的内容。 |
+| [getLockContentControl()](#getLockContentControl--) | 当设置为 true 时，此属性将禁止用户删除此结构化文档标签。 |
+| [getLockContents()](#getLockContents--) | 当设置为 true 时，此属性将禁止用户编辑此结构化文档标签的内容。 |
 | [getNextSibling()](#getNextSibling--) | 获取紧跟此节点的节点。 |
-| [getNode类型()](#getNode类型--) |  |
+| [getNodeType()](#getNodeType--) |  |
 | [getParentNode()](#getParentNode--) | 获取此节点的直接父节点。 |
-| [getPlaceholder()](#getPlaceholder--) | 获取[BuildingBlock](../../com.aspose.words/buildingblock)包含应在此结构化文档标记运行内容为空时显示的占位符文本，关联的映射 XML 元素为空，如通过[getXmlMapping()](../../com.aspose.words/structureddocumenttagrangestart\#getXmlMapping--)元素或[isShowingPlaceholderText()](../../com.aspose.words/structureddocumenttagrangestart\#isShowingPlaceholderText--) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/structureddocumenttagrangestart\#isShowingPlaceholderText-boolean-)元素为真。 |
+| [getPlaceholder()](#getPlaceholder--) | 获取[BuildingBlock](../../com.aspose.words/buildingblock)包含当此结构化文档标签运行内容为空时应显示的占位符文本，关联的映射 XML 元素为空，如通过[getXmlMapping()](../../com.aspose.words/structureddocumenttagrangestart\#getXmlMapping--)元素或[isShowingPlaceholderText()](../../com.aspose.words/structureddocumenttagrangestart\#isShowingPlaceholderText--) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/structureddocumenttagrangestart\#isShowingPlaceholderText-boolean-)元素为真。 |
 | [getPlaceholderName()](#getPlaceholderName--) | 获取或设置名称[BuildingBlock](../../com.aspose.words/buildingblock)包含占位符文本。 |
 | [getPreviousSibling()](#getPreviousSibling--) | 获取紧接在此节点之前的节点。 |
 | [getRange()](#getRange--) | 返回一个**Range**表示包含在此节点中的文档部分的对象。 |
-| [getRangeEnd()](#getRangeEnd--) | 如果 StructuredDocumentTag 是范围结构化文档标记，则指定范围结束。 |
-| [getSdt类型()](#getSdt类型--) | 获取此结构化文档标签的类型。 |
+| [getRangeEnd()](#getRangeEnd--) | 如果 StructuredDocumentTag 是范围结构化文档标签，则指定范围结束。 |
+| [getSdtType()](#getSdtType--) | 获取此结构化文档标签的类型。 |
 | [getTag()](#getTag--) | 指定与当前结构化文档标签节点关联的标签。 |
 | [getText()](#getText--) | 获取此节点及其所有子节点的文本。 |
-| [getTitle()](#getTitle--) | 指定与此结构化文档标记关联的友好名称。 |
+| [getTitle()](#getTitle--) | 指定与此结构化文档标签关联的友好名称。 |
 | [getWordOpenXML()](#getWordOpenXML--) | 获取一个字符串，该字符串表示包含在[SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC)格式。 |
 | [getXmlMapping()](#getXmlMapping--) | 获取一个对象，该对象表示此结构化文档标记范围到当前文档的自定义 XML 部分中的 XML 数据的映射。 |
 | [hashCode()](#hashCode--) |  |
@@ -67,9 +67,9 @@ public class StructuredDocumentTagRangeStart extends Node implements IStructured
 | [isRanged()](#isRanged--) |  |
 | [isShowingPlaceholderText()](#isShowingPlaceholderText--) | 指定是否应将此结构化文档标签的内容解释为包含占位符文本（与结构化文档标签内的常规文本内容相反）。 |
 | [isShowingPlaceholderText(boolean value)](#isShowingPlaceholderText-boolean-) | 指定是否应将此结构化文档标签的内容解释为包含占位符文本（与结构化文档标签内的常规文本内容相反）。 |
-| [iterator()](#iterator--) | 为在此节点的子节点上的每个样式迭代提供支持。 |
+| [iterator()](#iterator--) | 为该节点的子节点上的每个样式迭代提供支持。 |
 | [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取下一个节点。 |
-| [node类型ToString(int node类型)](#node类型ToString-int-) |  |
+| [nodeTypeToString(int nodeType)](#nodeTypeToString-int-) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取上一个节点。 |
@@ -78,11 +78,11 @@ public class StructuredDocumentTagRangeStart extends Node implements IStructured
 | [removeSelfOnly()](#removeSelfOnly--) | 删除结构化文档标记的此范围开始和适当范围结束节点，但将其内容保留在文档树内。 |
 | [setColor(Color value)](#setColor-java.awt.Color-) | 设置结构化文档标签的颜色。 |
 | [setCustomNodeId(int value)](#setCustomNodeId-int-) | 指定自定义节点标识符。 |
-| [setLockContentControl(boolean value)](#setLockContentControl-boolean-) | 当设置为 true 时，此属性将禁止用户删除此结构化文档标记。 |
-| [setLockContents(boolean value)](#setLockContents-boolean-) | 当设置为 true 时，此属性将禁止用户编辑此结构化文档标记的内容。 |
+| [setLockContentControl(boolean value)](#setLockContentControl-boolean-) | 当设置为 true 时，此属性将禁止用户删除此结构化文档标签。 |
+| [setLockContents(boolean value)](#setLockContents-boolean-) | 当设置为 true 时，此属性将禁止用户编辑此结构化文档标签的内容。 |
 | [setPlaceholderName(String value)](#setPlaceholderName-java.lang.String-) | 获取或设置名称[BuildingBlock](../../com.aspose.words/buildingblock)包含占位符文本。 |
 | [setTag(String value)](#setTag-java.lang.String-) | 指定与当前结构化文档标签节点关联的标签。 |
-| [setTitle(String value)](#setTitle-java.lang.String-) | 指定与此结构化文档标记关联的友好名称。 |
+| [setTitle(String value)](#setTitle-java.lang.String-) | 指定与此结构化文档标签关联的友好名称。 |
 | [structuredDocumentTagNode()](#structuredDocumentTagNode--) |  |
 | [toString()](#toString--) |  |
 | [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions-) | 使用指定的保存选项将节点的内容导出为字符串。 |
@@ -180,9 +180,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### getAncestor(int ancestor类型) {#getAncestor-int-}
+### getAncestor(int ancestorType) {#getAncestor-int-}
 ```
-public CompositeNode getAncestor(int ancestor类型)
+public CompositeNode getAncestor(int ancestorType)
 ```
 
 
@@ -191,13 +191,13 @@ public CompositeNode getAncestor(int ancestor类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ancestor类型 | int |  |
+| ancestorType | int |  |
 
 **退货:**
 [CompositeNode](../../com.aspose.words/compositenode)
-### getAncestor(班级 ancestor类型) {#getAncestor-java.lang.班级-}
+### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
 ```
-public CompositeNode getAncestor(班级 ancestor类型)
+public CompositeNode getAncestor(Class ancestorType)
 ```
 
 
@@ -206,7 +206,7 @@ public CompositeNode getAncestor(班级 ancestor类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ancestor类型 | java.lang.班级 | 要检索的祖先的对象类型。 |
+| ancestorType | java.lang.Class | 要检索的祖先的对象类型。 |
 
 **退货:**
 [CompositeNode](../../com.aspose.words/compositenode) - 指定类型的祖先，如果没有找到该类型的祖先，则返回 null。
@@ -222,9 +222,9 @@ public NodeCollection getChildNodes()
 
 **退货:**
 [NodeCollection](../../com.aspose.words/nodecollection) - 此范围开始节点和范围结束节点之间的所有节点。
-### getChildNodes(int node类型, boolean isDeep) {#getChildNodes-int-boolean-}
+### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean-}
 ```
-public NodeCollection getChildNodes(int node类型, boolean isDeep)
+public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 ```
 
 
@@ -233,21 +233,21 @@ public NodeCollection getChildNodes(int node类型, boolean isDeep)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 | isDeep | boolean |  |
 
 **退货:**
 [NodeCollection](../../com.aspose.words/nodecollection)
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getColor() {#getColor--}
 ```
 public Color getColor()
@@ -330,7 +330,7 @@ public boolean getLockContentControl()
 ```
 
 
-当设置为 true 时，此属性将禁止用户删除此结构化文档标记。
+当设置为 true 时，此属性将禁止用户删除此结构化文档标签。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -340,7 +340,7 @@ public boolean getLockContents()
 ```
 
 
-当设置为 true 时，此属性将禁止用户编辑此结构化文档标记的内容。
+当设置为 true 时，此属性将禁止用户编辑此结构化文档标签的内容。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -350,13 +350,13 @@ public Node getNextSibling()
 ```
 
 
-获取紧跟此节点的节点。如果没有下一个节点，则返回 null。
+获取紧跟在该节点之后的节点。如果没有下一个节点，则返回 null。
 
 **退货:**
-[Node](../../com.aspose.words/node) - 紧跟该节点的节点。
-### getNode类型() {#getNode类型--}
+[Node](../../com.aspose.words/node) - 紧接此节点之后的节点。
+### getNodeType() {#getNodeType--}
 ```
-public int getNode类型()
+public int getNodeType()
 ```
 
 
@@ -372,20 +372,20 @@ public CompositeNode getParentNode()
 
 获取此节点的直接父节点。
 
-如果一个节点刚刚创建但尚未添加到树中，或者它已从树中删除，则父节点为空。
+如果一个节点刚刚被创建并且还没有被添加到树中，或者如果它已经被从树中移除，则父节点为空。
 
 **退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 该节点的直接父节点。
+[CompositeNode](../../com.aspose.words/compositenode) - 此节点的直接父节点。
 ### getPlaceholder() {#getPlaceholder--}
 ```
 public BuildingBlock getPlaceholder()
 ```
 
 
-获取[BuildingBlock](../../com.aspose.words/buildingblock)包含应在此结构化文档标记运行内容为空时显示的占位符文本，关联的映射 XML 元素为空，如通过[getXmlMapping()](../../com.aspose.words/structureddocumenttagrangestart\#getXmlMapping--)元素或[isShowingPlaceholderText()](../../com.aspose.words/structureddocumenttagrangestart\#isShowingPlaceholderText--) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/structureddocumenttagrangestart\#isShowingPlaceholderText-boolean-)元素为真。可以为 null，表示占位符不适用于此结构化文档标签。
+获取[BuildingBlock](../../com.aspose.words/buildingblock)包含当此结构化文档标签运行内容为空时应显示的占位符文本，关联的映射 XML 元素为空，如通过[getXmlMapping()](../../com.aspose.words/structureddocumenttagrangestart\#getXmlMapping--)元素或[isShowingPlaceholderText()](../../com.aspose.words/structureddocumenttagrangestart\#isShowingPlaceholderText--) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/structureddocumenttagrangestart\#isShowingPlaceholderText-boolean-)元素为真。可以为 null，表示占位符不适用于此结构化文档标签。
 
 **退货:**
-[BuildingBlock](../../com.aspose.words/buildingblock) - 这[BuildingBlock](../../com.aspose.words/buildingblock)包含应在此结构化文档标记运行内容为空时显示的占位符文本，关联的映射 XML 元素为空，如通过[getXmlMapping()](../../com.aspose.words/structureddocumenttagrangestart\#getXmlMapping--)元素或[isShowingPlaceholderText()](../../com.aspose.words/structureddocumenttagrangestart\#isShowingPlaceholderText--) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/structureddocumenttagrangestart\#isShowingPlaceholderText-boolean-)元素为真。
+[BuildingBlock](../../com.aspose.words/buildingblock) - 这[BuildingBlock](../../com.aspose.words/buildingblock)包含当此结构化文档标签运行内容为空时应显示的占位符文本，关联的映射 XML 元素为空，如通过[getXmlMapping()](../../com.aspose.words/structureddocumenttagrangestart\#getXmlMapping--)元素或[isShowingPlaceholderText()](../../com.aspose.words/structureddocumenttagrangestart\#isShowingPlaceholderText--) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/structureddocumenttagrangestart\#isShowingPlaceholderText-boolean-)元素为真。
 ### getPlaceholderName() {#getPlaceholderName--}
 ```
 public String getPlaceholderName()
@@ -404,10 +404,10 @@ public Node getPreviousSibling()
 ```
 
 
-获取紧接在此节点之前的节点。如果没有前面的节点，则返回 null。
+获取紧接在该节点之前的节点。如果前面没有节点，则返回 null。
 
 **退货:**
-[Node](../../com.aspose.words/node) - 紧接在此节点之前的节点。
+[Node](../../com.aspose.words/node) - 紧接在该节点之前的节点。
 ### getRange() {#getRange--}
 ```
 public Range getRange()
@@ -428,16 +428,16 @@ public StructuredDocumentTagRangeEnd getRangeEnd()
 
 **退货:**
 [StructuredDocumentTagRangeEnd](../../com.aspose.words/structureddocumenttagrangeend) - 相应的[StructuredDocumentTagRangeEnd](../../com.aspose.words/structureddocumenttagrangeend)价值。
-### getSdt类型() {#getSdt类型--}
+### getSdtType() {#getSdtType--}
 ```
-public int getSdt类型()
+public int getSdtType()
 ```
 
 
 获取此结构化文档标签的类型。
 
 **退货:**
- int - 此结构化文档标签的类型。返回值是以下之一[Sdt类型](../../com.aspose.words/sdttype)常数。
+ int - 此结构化文档标签的类型。返回值是以下之一[SdtType](../../com.aspose.words/sdttype)常数。
 ### getTag() {#getTag--}
 ```
 public String getTag()
@@ -509,14 +509,14 @@ public boolean isComposite()
 如果此节点可以包含其他节点，则返回 true。 (31110,6)
 
 **退货:**
-boolean - 如果此节点可以包含其他节点，则为真。
+boolean - 如果此节点可以包含其他节点则为真。
 ### isRanged() {#isRanged--}
 ```
 public boolean isRanged()
 ```
 
 
-如果此实例是范围结构化文档标记，则返回 true。
+如果此实例是范围结构化文档标签，则返回 true。
 
 **退货:**
 布尔值
@@ -553,7 +553,7 @@ public Iterator iterator()
 ```
 
 
-为在此节点的子节点上的每个样式迭代提供支持。
+为该节点的子节点上的每个样式迭代提供支持。
 
 **退货:**
 java.util.Iterator
@@ -572,9 +572,9 @@ public Node nextPreOrder(Node rootNode)
 
 **退货:**
 [Node](../../com.aspose.words/node) - 预购订单中的下一个节点。如果到达 rootNode，则为 Null。
-### node类型ToString(int node类型) {#node类型ToString-int-}
+### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
 ```
-public static String node类型ToString(int node类型)
+public static String nodeTypeToString(int nodeType)
 ```
 
 
@@ -583,7 +583,7 @@ public static String node类型ToString(int node类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 
 **退货:**
 java.lang.String
@@ -680,7 +680,7 @@ public void setLockContentControl(boolean value)
 ```
 
 
-当设置为 true 时，此属性将禁止用户删除此结构化文档标记。
+当设置为 true 时，此属性将禁止用户删除此结构化文档标签。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -693,7 +693,7 @@ public void setLockContents(boolean value)
 ```
 
 
-当设置为 true 时，此属性将禁止用户编辑此结构化文档标记的内容。
+当设置为 true 时，此属性将禁止用户编辑此结构化文档标签的内容。
 
 **参数:**
 | 范围 | 类型 | 描述 |

@@ -1,6 +1,6 @@
 ---
 title: FontPitch
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示字体间距。
 type: docs
 weight: 284
@@ -16,11 +16,11 @@ public class FontPitch
 表示字体间距。间距指示字体是固定间距、按比例间隔还是依赖于默认设置。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
-| [DEFAULT](#DEFAULT) | 指定没有关于字体间距的信息。 |
-| [FIXED](#FIXED) | 指定这是一个固定宽度的字体。 |
-| [VARIABLE](#VARIABLE) | 指定这是一个比例宽度字体。 |
+| [DEFAULT](#DEFAULT) | 指定没有关于字体间距的信息可用。 |
+| [FIXED](#FIXED) | 指定这是固定宽度的字体。 |
+| [VARIABLE](#VARIABLE) | 指定这是比例宽度字体。 |
 | [length](#length) |  |
 ## 方法
 
@@ -28,7 +28,7 @@ public class FontPitch
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String fontPitchName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int fontPitch)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int DEFAULT
 ```
 
 
-指定没有关于字体间距的信息。
+指定没有关于字体间距的信息可用。
 
 ### FIXED {#FIXED}
 ```
@@ -53,7 +53,7 @@ public static int FIXED
 ```
 
 
-指定这是一个固定宽度的字体。
+指定这是固定宽度的字体。
 
 ### VARIABLE {#VARIABLE}
 ```
@@ -61,7 +61,7 @@ public static int VARIABLE
 ```
 
 
-指定这是一个比例宽度字体。
+指定这是比例宽度字体。
 
 ### length {#length}
 ```
@@ -99,16 +99,16 @@ public static int fromName(String fontPitchName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int fontPitch) {#getName-int-}
 ```
 public static String getName(int fontPitch)

@@ -1,6 +1,6 @@
 ---
 title: ChartAxis
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示图表的轴选项。
 type: docs
 weight: 56
@@ -26,8 +26,8 @@ public class ChartAxis implements Cloneable
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAxisBetweenCategories()](#getAxisBetweenCategories--) | 获取一个标志，该标志指示值轴是否与类别之间的类别轴相交。 |
 | [getBaseTimeUnit()](#getBaseTimeUnit--) | 获取时间类别轴上表示的最小时间单位。 |
-| [getCategory类型()](#getCategory类型--) | 获取类别轴的类型。 |
-| [get班级()](#get班级--) |  |
+| [getCategoryType()](#getCategoryType--) | 获取类别轴的类型。 |
+| [getClass()](#getClass--) |  |
 | [getCrosses()](#getCrosses--) | 指定此轴如何与垂直轴相交。 |
 | [getCrossesAt()](#getCrossesAt--) | 指定轴在垂直轴上的交叉位置。 |
 | [getDisplayUnit()](#getDisplayUnit--) | 指定数值轴的显示单位的缩放值。 |
@@ -53,7 +53,7 @@ public class ChartAxis implements Cloneable
 | [getTitle()](#getTitle--) |  |
 | [getTitleDeleted()](#getTitleDeleted--) |  |
 | [getTitlePosition()](#getTitlePosition--) |  |
-| [get类型()](#get类型--) | 返回轴的类型。 |
+| [getType()](#getType--) | 返回轴的类型。 |
 | [hashCode()](#hashCode--) |  |
 | [isInherited()](#isInherited--) |  |
 | [isVisible()](#isVisible--) |  |
@@ -61,7 +61,7 @@ public class ChartAxis implements Cloneable
 | [notifyAll()](#notifyAll--) |  |
 | [setAxisBetweenCategories(boolean value)](#setAxisBetweenCategories-boolean-) | 设置一个标志，指示值轴是否与类别之间的类别轴相交。 |
 | [setBaseTimeUnit(int value)](#setBaseTimeUnit-int-) | 设置时间类别轴上表示的最小时间单位。 |
-| [setCategory类型(int value)](#setCategory类型-int-) | 设置类别轴的类型。 |
+| [setCategoryType(int value)](#setCategoryType-int-) | 设置类别轴的类型。 |
 | [setCrosses(int value)](#setCrosses-int-) | 指定此轴如何与垂直轴相交。 |
 | [setCrossesAt(double value)](#setCrossesAt-double-) | 指定轴在垂直轴上的交叉位置。 |
 | [setHidden(boolean value)](#setHidden-boolean-) | 设置一个标志，指示此轴是否隐藏。 |
@@ -121,26 +121,26 @@ public int getBaseTimeUnit()
 
 **退货:**
  int - 时间类别轴上表示的最小时间单位。返回值是以下之一[AxisTimeUnit](../../com.aspose.words/axistimeunit)常数。
-### getCategory类型() {#getCategory类型--}
+### getCategoryType() {#getCategoryType--}
 ```
-public int getCategory类型()
+public int getCategoryType()
 ```
 
 
-获取类别轴的类型。仅文本类别 ([AxisCategory类型.CATEGORY](../../com.aspose.words/axiscategorytype\#CATEGORY)) 在 MS Office 2016 新图表中是允许的。
+获取类别轴的类型。仅文本类别 ([AxisCategoryType.CATEGORY](../../com.aspose.words/axiscategorytype\#CATEGORY)) 在 MS Office 2016 新图表中是允许的。
 
 **退货:**
- int - 类别轴的类型。返回值是以下之一[AxisCategory类型](../../com.aspose.words/axiscategorytype)常数。
-### get班级() {#get班级--}
+ int - 类别轴的类型。返回值是以下之一[AxisCategoryType](../../com.aspose.words/axiscategorytype)常数。
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCrosses() {#getCrosses--}
 ```
 public int getCrosses()
@@ -219,7 +219,7 @@ public double getMajorUnit()
 
 值的有效范围大于零。该属性对时间类别和值轴有影响。
 
-设置此属性会设置[getMajorUnitIsAuto()](../../com.aspose.words/chartaxis\#getMajorUnitIsAuto--) / [setMajorUnitIsAuto(boolean)](../../com.aspose.words/chartaxis\#setMajorUnitIsAuto-boolean-)财产**false**.
+设置此属性设置[getMajorUnitIsAuto()](../../com.aspose.words/chartaxis\#getMajorUnitIsAuto--) / [setMajorUnitIsAuto(boolean)](../../com.aspose.words/chartaxis\#setMajorUnitIsAuto-boolean-)财产给**false**.
 
 **退货:**
 double - 主要刻度线之间的距离。
@@ -229,7 +229,7 @@ public boolean getMajorUnitIsAuto()
 ```
 
 
-获取一个标志，该标志指示是否应使用主要刻度线之间的默认距离。该属性对时间类别和值轴有影响。
+获取一个标志，指示是否应使用主要刻度线之间的默认距离。该属性对时间类别和值轴有影响。
 
 **退货:**
 boolean - 一个标志，指示是否应使用主要刻度线之间的默认距离。
@@ -242,7 +242,7 @@ public int getMajorUnitScale()
 获取时间类别轴上主要刻度线的刻度值。该属性仅对时间类别轴有效。
 
 **退货:**
- int - 时间类别轴上主要刻度线的刻度值。返回值是以下之一[AxisTimeUnit](../../com.aspose.words/axistimeunit)常数。
+ int - 时间类别轴上主要刻度线的刻度值。返回值是其中之一[AxisTimeUnit](../../com.aspose.words/axistimeunit)常数。
 ### getMinorTickMark() {#getMinorTickMark--}
 ```
 public int getMinorTickMark()
@@ -252,7 +252,7 @@ public int getMinorTickMark()
 获取轴的次要刻度线。
 
 **退货:**
-int - 轴的次要刻度线。返回值是以下之一[AxisTickMark](../../com.aspose.words/axistickmark)常数。
+int - 轴的次刻度线。返回值是其中之一[AxisTickMark](../../com.aspose.words/axistickmark)常数。
 ### getMinorUnit() {#getMinorUnit--}
 ```
 public double getMinorUnit()
@@ -263,7 +263,7 @@ public double getMinorUnit()
 
 值的有效范围大于零。该属性对时间类别和值轴有影响。
 
-设置此属性会设置[getMinorUnitIsAuto()](../../com.aspose.words/chartaxis\#getMinorUnitIsAuto--) / [setMinorUnitIsAuto(boolean)](../../com.aspose.words/chartaxis\#setMinorUnitIsAuto-boolean-)财产**false**.
+设置此属性设置[getMinorUnitIsAuto()](../../com.aspose.words/chartaxis\#getMinorUnitIsAuto--) / [setMinorUnitIsAuto(boolean)](../../com.aspose.words/chartaxis\#setMinorUnitIsAuto-boolean-)财产给**false**.
 
 **退货:**
 double - 次要刻度线之间的距离。
@@ -273,10 +273,10 @@ public boolean getMinorUnitIsAuto()
 ```
 
 
-获取一个标志，该标志指示是否应使用次刻度线之间的默认距离。该属性对时间类别和值轴有影响。
+获取一个标志，指示是否应使用次要刻度线之间的默认距离。该属性对时间类别和值轴有影响。
 
 **退货:**
-boolean - 指示是否应使用次刻度标记之间的默认距离的标志。
+boolean - 一个标志，指示是否应使用次要刻度线之间的默认距离。
 ### getMinorUnitScale() {#getMinorUnitScale--}
 ```
 public int getMinorUnitScale()
@@ -286,7 +286,7 @@ public int getMinorUnitScale()
 获取时间类别轴上次要刻度线的刻度值。该属性仅对时间类别轴有效。
 
 **退货:**
-int - 时间类别轴上的次要刻度线的刻度值。返回值是以下之一[AxisTimeUnit](../../com.aspose.words/axistimeunit)常数。
+int - 时间类别轴上次要刻度线的刻度值。返回值是其中之一[AxisTimeUnit](../../com.aspose.words/axistimeunit)常数。
 ### getNumberFormat() {#getNumberFormat--}
 ```
 public ChartNumberFormat getNumberFormat()
@@ -303,10 +303,10 @@ public boolean getReverseOrder()
 ```
 
 
-获取一个标志，该标志指示轴的值是否应以相反的顺序显示，即从最大值到最小值。 MS Office 2016 新图表不支持该属性。默认值为**false**.
+获取一个标志，指示轴的值是否应按相反顺序显示，即从最大值到最小值。 MS Office 2016 新图表不支持该属性。默认值为**false**.
 
 **退货:**
-boolean - 指示轴的值是否应以相反顺序显示的标志，即
+boolean - 指示轴值是否应以相反顺序显示的标志，即
 ### getScaling() {#getScaling--}
 ```
 public AxisScaling getScaling()
@@ -332,7 +332,7 @@ public int getTickLabelAlignment()
 .
 
 **退货:**
- int - 轴刻度标签的文本对齐方式。返回值是以下之一[ParagraphAlignment](../../com.aspose.words/paragraphalignment)常数。
+ int - 轴刻度标签的文本对齐方式。返回值是其中之一[ParagraphAlignment](../../com.aspose.words/paragraphalignment)常数。
 ### getTickLabelOffset() {#getTickLabelOffset--}
 ```
 public int getTickLabelOffset()
@@ -341,14 +341,14 @@ public int getTickLabelOffset()
 
 获取标签与轴的距离。
 
-该属性表示默认标签偏移的百分比。
+该属性表示默认标签偏移量的百分比。
 
-有效范围为 0 到 1000%（含）。默认值为 100%。
+有效范围是 0 到 1000%（含）。默认值为 100%。
 
-该属性仅对类别轴有效。 MS Office 2016 新图表不支持它。
+该属性仅对类别轴有效。它不受 MS Office 2016 新图表的支持。
 
 **退货:**
-int - 标签到轴的距离。
+int - 标签与轴的距离。
 ### getTickLabelPosition() {#getTickLabelPosition--}
 ```
 public int getTickLabelPosition()
@@ -358,7 +358,7 @@ public int getTickLabelPosition()
 获取刻度标签在轴上的位置。 MS Office 2016 新图表不支持该属性。
 
 **退货:**
-int - 刻度标签在轴上的位置。返回值是以下之一[AxisTickLabelPosition](../../com.aspose.words/axisticklabelposition)常数。
+int - 刻度标签在轴上的位置。返回值是其中之一[AxisTickLabelPosition](../../com.aspose.words/axisticklabelposition)常数。
 ### getTickLabelSpacing() {#getTickLabelSpacing--}
 ```
 public int getTickLabelSpacing()
@@ -367,12 +367,12 @@ public int getTickLabelSpacing()
 
 获取绘制刻度标签的间隔。
 
-该属性对文本类别和系列轴有效。 MS Office 2016 新图表不支持它。值的有效范围大于或等于 1。
+该属性对文本类别和系列轴有影响。它不受 MS Office 2016 新图表的支持。值的有效范围大于或等于 1。
 
-设置此属性会设置[getTickLabelSpacingIsAuto()](../../com.aspose.words/chartaxis\#getTickLabelSpacingIsAuto--) / [setTickLabelSpacingIsAuto(boolean)](../../com.aspose.words/chartaxis\#setTickLabelSpacingIsAuto-boolean-)财产**false**.
+设置此属性设置[getTickLabelSpacingIsAuto()](../../com.aspose.words/chartaxis\#getTickLabelSpacingIsAuto--) / [setTickLabelSpacingIsAuto(boolean)](../../com.aspose.words/chartaxis\#setTickLabelSpacingIsAuto-boolean-)财产给**false**.
 
 **退货:**
-int - 绘制刻度标签的时间间隔。
+int - 绘制刻度标签的间隔。
 ### getTickLabelSpacingIsAuto() {#getTickLabelSpacingIsAuto--}
 ```
 public boolean getTickLabelSpacingIsAuto()
@@ -383,10 +383,10 @@ public boolean getTickLabelSpacingIsAuto()
 
 默认值为**true**.
 
-该属性对文本类别和系列轴有效。 MS Office 2016 新图表不支持它。
+该属性对文本类别和系列轴有影响。它不受 MS Office 2016 新图表的支持。
 
 **退货:**
-boolean - 指示是否应使用绘图刻度标签的自动间隔的标志。
+boolean - 一个标志，指示是否应使用绘图刻度标签的自动间隔。
 ### getTickMarkSpacing() {#getTickMarkSpacing--}
 ```
 public int getTickMarkSpacing()
@@ -395,12 +395,12 @@ public int getTickMarkSpacing()
 
 获取绘制刻度线的间隔。
 
-该属性对文本类别和系列轴有效。 MS Office 2016 新图表不支持它。
+该属性对文本类别和系列轴有影响。它不受 MS Office 2016 新图表的支持。
 
 值的有效范围大于或等于 1。
 
 **退货:**
-int - 绘制刻度线的时间间隔。
+int - 绘制刻度线的间隔。
 ### getTitle() {#getTitle--}
 ```
 public ChartTitle getTitle()
@@ -431,16 +431,16 @@ public int getTitlePosition()
 
 **退货:**
 整数
-### get类型() {#get类型--}
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
 返回轴的类型。
 
 **退货:**
- int - 轴的类型。返回值是以下之一[ChartAxis类型](../../com.aspose.words/chartaxistype)常数。
+ int - 轴的类型。返回值是其中之一[ChartAxisType](../../com.aspose.words/chartaxistype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -493,12 +493,12 @@ public void setAxisBetweenCategories(boolean value)
 ```
 
 
-设置一个标志，指示值轴是否与类别之间的类别轴相交。该属性仅对值轴有效。 MS Office 2016 新图表不支持它。
+设置一个标志，指示值轴是否与类别之间的类别轴交叉。该属性仅对值轴有效。它不受 MS Office 2016 新图表的支持。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 指示值轴是否与类别之间的类别轴相交的标志。 |
+| value | boolean | 指示值轴是否与类别之间的类别轴交叉的标志。 |
 
 ### setBaseTimeUnit(int value) {#setBaseTimeUnit-int-}
 ```
@@ -511,20 +511,20 @@ public void setBaseTimeUnit(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 时间类别轴上表示的最小时间单位。该值必须是以下之一[AxisTimeUnit](../../com.aspose.words/axistimeunit)常数。 |
+| value | int | 在时间类别轴上表示的最小时间单位。该值必须是其中之一[AxisTimeUnit](../../com.aspose.words/axistimeunit)常数。 |
 
-### setCategory类型(int value) {#setCategory类型-int-}
+### setCategoryType(int value) {#setCategoryType-int-}
 ```
-public void setCategory类型(int value)
+public void setCategoryType(int value)
 ```
 
 
-设置类别轴的类型。仅文本类别 ([AxisCategory类型.CATEGORY](../../com.aspose.words/axiscategorytype\#CATEGORY)) 在 MS Office 2016 新图表中是允许的。
+设置类别轴的类型。仅文本类别 ([AxisCategoryType.CATEGORY](../../com.aspose.words/axiscategorytype\#CATEGORY)) 在 MS Office 2016 新图表中是允许的。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 类别轴的类型。该值必须是以下之一[AxisCategory类型](../../com.aspose.words/axiscategorytype)常数。 |
+| value | int | 类别轴的类型。该值必须是其中之一[AxisCategoryType](../../com.aspose.words/axiscategorytype)常数。 |
 
 ### setCrosses(int value) {#setCrosses-int-}
 ```
@@ -566,7 +566,7 @@ public void setHidden(boolean value)
 ```
 
 
-设置一个标志，指示此轴是否隐藏。默认值为**false**.
+设置一个标志，指示该轴是否隐藏。默认值为**false**.
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -584,7 +584,7 @@ public void setMajorTickMark(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 主要的刻度线。该值必须是以下之一[AxisTickMark](../../com.aspose.words/axistickmark)常数。 |
+| value | int | 主要刻度线。该值必须是其中之一[AxisTickMark](../../com.aspose.words/axistickmark)常数。 |
 
 ### setMajorUnit(double value) {#setMajorUnit-double-}
 ```
@@ -596,7 +596,7 @@ public void setMajorUnit(double value)
 
 值的有效范围大于零。该属性对时间类别和值轴有影响。
 
-设置此属性会设置[getMajorUnitIsAuto()](../../com.aspose.words/chartaxis\#getMajorUnitIsAuto--) / [setMajorUnitIsAuto(boolean)](../../com.aspose.words/chartaxis\#setMajorUnitIsAuto-boolean-)财产**false**.
+设置此属性设置[getMajorUnitIsAuto()](../../com.aspose.words/chartaxis\#getMajorUnitIsAuto--) / [setMajorUnitIsAuto(boolean)](../../com.aspose.words/chartaxis\#setMajorUnitIsAuto-boolean-)财产给**false**.
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -627,7 +627,7 @@ public void setMajorUnitScale(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 时间类别轴上主要刻度线的刻度值。该值必须是以下之一[AxisTimeUnit](../../com.aspose.words/axistimeunit)常数。 |
+| value | int | 时间类别轴上主要刻度线的刻度值。该值必须是其中之一[AxisTimeUnit](../../com.aspose.words/axistimeunit)常数。 |
 
 ### setMinorTickMark(int value) {#setMinorTickMark-int-}
 ```
@@ -640,7 +640,7 @@ public void setMinorTickMark(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 轴的次要刻度线。该值必须是以下之一[AxisTickMark](../../com.aspose.words/axistickmark)常数。 |
+| value | int | 轴的次要刻度线。该值必须是其中之一[AxisTickMark](../../com.aspose.words/axistickmark)常数。 |
 
 ### setMinorUnit(double value) {#setMinorUnit-double-}
 ```
@@ -652,12 +652,12 @@ public void setMinorUnit(double value)
 
 值的有效范围大于零。该属性对时间类别和值轴有影响。
 
-设置此属性会设置[getMinorUnitIsAuto()](../../com.aspose.words/chartaxis\#getMinorUnitIsAuto--) / [setMinorUnitIsAuto(boolean)](../../com.aspose.words/chartaxis\#setMinorUnitIsAuto-boolean-)财产**false**.
+设置此属性设置[getMinorUnitIsAuto()](../../com.aspose.words/chartaxis\#getMinorUnitIsAuto--) / [setMinorUnitIsAuto(boolean)](../../com.aspose.words/chartaxis\#setMinorUnitIsAuto-boolean-)财产给**false**.
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 次要刻度线之间的距离。 |
+| value | double | 小刻度线之间的距离。 |
 
 ### setMinorUnitIsAuto(boolean value) {#setMinorUnitIsAuto-boolean-}
 ```
@@ -665,7 +665,7 @@ public void setMinorUnitIsAuto(boolean value)
 ```
 
 
-设置一个标志，指示是否应使用小刻度线之间的默认距离。该属性对时间类别和值轴有影响。
+设置一个标志，指示是否应使用次要刻度线之间的默认距离。该属性对时间类别和值轴有影响。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -683,7 +683,7 @@ public void setMinorUnitScale(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 时间类别轴上次要刻度线的刻度值。该值必须是以下之一[AxisTimeUnit](../../com.aspose.words/axistimeunit)常数。 |
+| value | int | 时间类别轴上次要刻度线的刻度值。该值必须是其中之一[AxisTimeUnit](../../com.aspose.words/axistimeunit)常数。 |
 
 ### setReverseOrder(boolean value) {#setReverseOrder-boolean-}
 ```
@@ -691,12 +691,12 @@ public void setReverseOrder(boolean value)
 ```
 
 
-设置一个标志，指示轴的值是否应该以相反的顺序显示，即从最大值到最小值。 MS Office 2016 新图表不支持该属性。默认值为**false**.
+设置一个标志，指示轴的值是否应以相反的顺序显示，即从最大值到最小值。 MS Office 2016 新图表不支持该属性。默认值为**false**.
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 指示轴的值是否应以相反顺序显示的标志，即 |
+| value | boolean | 指示轴值是否应以相反顺序显示的标志，即 |
 
 ### setTickLabelAlignment(int value) {#setTickLabelAlignment-int-}
 ```
@@ -715,7 +715,7 @@ public void setTickLabelAlignment(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 轴刻度标签的文本对齐方式。该值必须是以下之一[ParagraphAlignment](../../com.aspose.words/paragraphalignment)常数。 |
+| value | int | 轴刻度标签的文本对齐方式。该值必须是其中之一[ParagraphAlignment](../../com.aspose.words/paragraphalignment)常数。 |
 
 ### setTickLabelOffset(int value) {#setTickLabelOffset-int-}
 ```
@@ -725,11 +725,11 @@ public void setTickLabelOffset(int value)
 
 设置标签与轴的距离。
 
-该属性表示默认标签偏移的百分比。
+该属性表示默认标签偏移量的百分比。
 
-有效范围为 0 到 1000%（含）。默认值为 100%。
+有效范围是 0 到 1000%（含）。默认值为 100%。
 
-该属性仅对类别轴有效。 MS Office 2016 新图表不支持它。
+该属性仅对类别轴有效。它不受 MS Office 2016 新图表的支持。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -757,9 +757,9 @@ public void setTickLabelSpacing(int value)
 
 设置绘制刻度标签的时间间隔。
 
-该属性对文本类别和系列轴有效。 MS Office 2016 新图表不支持它。值的有效范围大于或等于 1。
+该属性对文本类别和系列轴有影响。它不受 MS Office 2016 新图表的支持。值的有效范围大于或等于 1。
 
-设置此属性会设置[getTickLabelSpacingIsAuto()](../../com.aspose.words/chartaxis\#getTickLabelSpacingIsAuto--) / [setTickLabelSpacingIsAuto(boolean)](../../com.aspose.words/chartaxis\#setTickLabelSpacingIsAuto-boolean-)财产**false**.
+设置此属性设置[getTickLabelSpacingIsAuto()](../../com.aspose.words/chartaxis\#getTickLabelSpacingIsAuto--) / [setTickLabelSpacingIsAuto(boolean)](../../com.aspose.words/chartaxis\#setTickLabelSpacingIsAuto-boolean-)财产给**false**.
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -776,7 +776,7 @@ public void setTickLabelSpacingIsAuto(boolean value)
 
 默认值为**true**.
 
-该属性对文本类别和系列轴有效。 MS Office 2016 新图表不支持它。
+该属性对文本类别和系列轴有影响。它不受 MS Office 2016 新图表的支持。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -791,7 +791,7 @@ public void setTickMarkSpacing(int value)
 
 设置绘制刻度线的间隔。
 
-该属性对文本类别和系列轴有效。 MS Office 2016 新图表不支持它。
+该属性对文本类别和系列轴有影响。它不受 MS Office 2016 新图表的支持。
 
 值的有效范围大于或等于 1。
 

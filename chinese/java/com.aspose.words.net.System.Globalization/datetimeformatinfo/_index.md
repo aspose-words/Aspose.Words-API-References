@@ -1,6 +1,6 @@
 ---
 title: DateTimeFormatInfo
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: .Nets System.Globalization.DateTimeFormatInfo 的映射。
 type: docs
 weight: 12
@@ -22,7 +22,7 @@ public class DateTimeFormatInfo
 | [getAMDesignator()](#getAMDesignator--) |  |
 | [getAbbreviatedDayNames()](#getAbbreviatedDayNames--) |  |
 | [getAbbreviatedMonthNames()](#getAbbreviatedMonthNames--) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDayNames()](#getDayNames--) |  |
 | [getLongDatePattern()](#getLongDatePattern--) |  |
 | [getLongTimePattern()](#getLongTimePattern--) |  |
@@ -96,16 +96,16 @@ public String[] getAbbreviatedMonthNames()
 
 **退货:**
 java.lang.String[]
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDayNames() {#getDayNames--}
 ```
 public String[] getDayNames()

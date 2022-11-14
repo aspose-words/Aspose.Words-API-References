@@ -1,6 +1,6 @@
 ---
 title: SubDocument
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示 SubDocument - 它是对外部存储文档的引用。
 type: docs
 weight: 540
@@ -28,13 +28,13 @@ public class SubDocument extends Node
 | [dd()](#dd--) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | 创建节点的副本。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAncestor(int ancestor类型)](#getAncestor-int-) |  |
-| [getAncestor(班级 ancestor类型)](#getAncestor-java.lang.班级-) | 获取指定对象类型的第一个祖先。 |
-| [get班级()](#get班级--) |  |
+| [getAncestor(int ancestorType)](#getAncestor-int-) |  |
+| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class-) | 获取指定对象类型的第一个祖先。 |
+| [getClass()](#getClass--) |  |
 | [getCustomNodeId()](#getCustomNodeId--) | 指定自定义节点标识符。 |
 | [getDocument()](#getDocument--) | 获取该节点所属的文档。 |
 | [getNextSibling()](#getNextSibling--) | 获取紧跟此节点的节点。 |
-| [getNode类型()](#getNode类型--) | 退货**Node类型.SubDocument** |
+| [getNodeType()](#getNodeType--) | 退货**NodeType.SubDocument** |
 | [getParentNode()](#getParentNode--) | 获取此节点的直接父节点。 |
 | [getPreviousSibling()](#getPreviousSibling--) | 获取紧接在此节点之前的节点。 |
 | [getRange()](#getRange--) | 返回一个**Range**表示包含在此节点中的文档部分的对象。 |
@@ -42,7 +42,7 @@ public class SubDocument extends Node
 | [hashCode()](#hashCode--) |  |
 | [isComposite()](#isComposite--) | 如果此节点可以包含其他节点，则返回 true。 |
 | [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取下一个节点。 |
-| [node类型ToString(int node类型)](#node类型ToString-int-) |  |
+| [nodeTypeToString(int nodeType)](#nodeTypeToString-int-) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取上一个节点。 |
@@ -72,7 +72,7 @@ public boolean accept(DocumentVisitor visitor)
 | visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | 将访问节点的访问者。 |
 
 **退货:**
-boolean - 如果所有节点都被访问，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。
+boolean - 如果访问了所有节点则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则为 false。
 ### dd() {#dd--}
 ```
 public void dd()
@@ -115,9 +115,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### getAncestor(int ancestor类型) {#getAncestor-int-}
+### getAncestor(int ancestorType) {#getAncestor-int-}
 ```
-public CompositeNode getAncestor(int ancestor类型)
+public CompositeNode getAncestor(int ancestorType)
 ```
 
 
@@ -126,13 +126,13 @@ public CompositeNode getAncestor(int ancestor类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ancestor类型 | int |  |
+| ancestorType | int |  |
 
 **退货:**
 [CompositeNode](../../com.aspose.words/compositenode)
-### getAncestor(班级 ancestor类型) {#getAncestor-java.lang.班级-}
+### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
 ```
-public CompositeNode getAncestor(班级 ancestor类型)
+public CompositeNode getAncestor(Class ancestorType)
 ```
 
 
@@ -141,22 +141,22 @@ public CompositeNode getAncestor(班级 ancestor类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ancestor类型 | java.lang.班级 | 要检索的祖先的对象类型。 |
+| ancestorType | java.lang.Class | 要检索的祖先的对象类型。 |
 
 **退货:**
 [CompositeNode](../../com.aspose.words/compositenode) - 指定类型的祖先，如果没有找到该类型的祖先，则返回 null。
 
 如果祖先类型等于祖先类型或从祖先类型派生，则祖先类型匹配。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCustomNodeId() {#getCustomNodeId--}
 ```
 public int getCustomNodeId()
@@ -191,20 +191,20 @@ public Node getNextSibling()
 ```
 
 
-获取紧跟此节点的节点。如果没有下一个节点，则返回 null。
+获取紧跟在该节点之后的节点。如果没有下一个节点，则返回 null。
 
 **退货:**
-[Node](../../com.aspose.words/node) - 紧跟该节点的节点。
-### getNode类型() {#getNode类型--}
+[Node](../../com.aspose.words/node) - 紧接此节点之后的节点。
+### getNodeType() {#getNodeType--}
 ```
-public int getNode类型()
+public int getNodeType()
 ```
 
 
-退货**Node类型.SubDocument**
+退货**NodeType.SubDocument**
 
 **退货:**
-诠释 -**Node类型.SubDocument**返回值是以下之一[Node类型](../../com.aspose.words/nodetype)常数。
+整数 -**NodeType.SubDocument**返回值是以下之一[NodeType](../../com.aspose.words/nodetype)常数。
 ### getParentNode() {#getParentNode--}
 ```
 public CompositeNode getParentNode()
@@ -213,20 +213,20 @@ public CompositeNode getParentNode()
 
 获取此节点的直接父节点。
 
-如果一个节点刚刚创建但尚未添加到树中，或者它已从树中删除，则父节点为空。
+如果一个节点刚刚被创建并且还没有被添加到树中，或者如果它已经被从树中移除，则父节点为空。
 
 **退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 该节点的直接父节点。
+[CompositeNode](../../com.aspose.words/compositenode) - 此节点的直接父节点。
 ### getPreviousSibling() {#getPreviousSibling--}
 ```
 public Node getPreviousSibling()
 ```
 
 
-获取紧接在此节点之前的节点。如果没有前面的节点，则返回 null。
+获取紧接在该节点之前的节点。如果前面没有节点，则返回 null。
 
 **退货:**
-[Node](../../com.aspose.words/node) - 紧接在此节点之前的节点。
+[Node](../../com.aspose.words/node) - 紧接在该节点之前的节点。
 ### getRange() {#getRange--}
 ```
 public Range getRange()
@@ -268,7 +268,7 @@ public boolean isComposite()
 如果此节点可以包含其他节点，则返回 true。 (31110,6)
 
 **退货:**
-boolean - 如果此节点可以包含其他节点，则为真。
+boolean - 如果此节点可以包含其他节点则为真。
 ### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node-}
 ```
 public Node nextPreOrder(Node rootNode)
@@ -284,9 +284,9 @@ public Node nextPreOrder(Node rootNode)
 
 **退货:**
 [Node](../../com.aspose.words/node) - 预购订单中的下一个节点。如果到达 rootNode，则为 Null。
-### node类型ToString(int node类型) {#node类型ToString-int-}
+### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
 ```
-public static String node类型ToString(int node类型)
+public static String nodeTypeToString(int nodeType)
 ```
 
 
@@ -295,7 +295,7 @@ public static String node类型ToString(int node类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 
 **退货:**
 java.lang.String

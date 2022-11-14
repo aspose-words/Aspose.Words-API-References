@@ -1,6 +1,6 @@
 ---
 title: RevisionTextEffect
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许为文档文本的修订指定装饰效果。
 type: docs
 weight: 489
@@ -16,7 +16,7 @@ public class RevisionTextEffect
 允许为文档文本的修订指定装饰效果。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BOLD](#BOLD) | 修改后的内容以粗体和彩色显示。 |
 | [COLOR](#COLOR) | 修改后的内容仅用颜色突出显示。 |
@@ -34,7 +34,7 @@ public class RevisionTextEffect
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String revisionTextEffectName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int revisionTextEffect)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -67,7 +67,7 @@ public static int DOUBLE_STRIKE_THROUGH
 ```
 
 
-修改后的内容是双划线和彩色的。仅适用于[Revision类型.DELETION](../../com.aspose.words/revisiontype\#DELETION), [Revision类型.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE)和[Revision类型.MOVING](../../com.aspose.words/revisiontype\#MOVING)（'移动'类型）。
+修改后的内容是双划线和彩色的。仅适用于[RevisionType.DELETION](../../com.aspose.words/revisiontype\#DELETION), [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE)和[RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING)（'移动'类型）。
 
 ### DOUBLE_UNDERLINE {#DOUBLE-UNDERLINE}
 ```
@@ -83,7 +83,7 @@ public static int HIDDEN
 ```
 
 
-修改后的内容被隐藏。仅适用于[Revision类型.DELETION](../../com.aspose.words/revisiontype\#DELETION)和[Revision类型.MOVING](../../com.aspose.words/revisiontype\#MOVING)（'移动'类型）。
+修改后的内容被隐藏。仅适用于[RevisionType.DELETION](../../com.aspose.words/revisiontype\#DELETION)和[RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING)（'移动'类型）。
 
 ### ITALIC {#ITALIC}
 ```
@@ -153,16 +153,16 @@ public static int fromName(String revisionTextEffectName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int revisionTextEffect) {#getName-int-}
 ```
 public static String getName(int revisionTextEffect)

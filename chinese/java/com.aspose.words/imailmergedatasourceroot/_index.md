@@ -1,6 +1,6 @@
 ---
 title: IMailMergeDataSourceRoot
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 实现此接口以允许来自自定义数据源的邮件与主从数据合并。
 type: docs
 weight: 651

@@ -1,6 +1,6 @@
 ---
 title: MailMergeCleanupOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定确定在邮件合并期间删除哪些项目的选项。
 type: docs
 weight: 381
@@ -16,7 +16,7 @@ public class MailMergeCleanupOptions
 指定确定在邮件合并期间删除哪些项目的选项。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [NONE](#NONE) | 指定默认值。 |
 | [REMOVE_CONTAINING_FIELDS](#REMOVE-CONTAINING-FIELDS) | 指定在删除嵌套合并字段时是否应从文档中删除包含合并字段（例如，IF）的字段。 |
@@ -33,7 +33,7 @@ public class MailMergeCleanupOptions
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String mailMergeCleanupOptionsName)](#fromName-java.lang.String-) |  |
 | [fromNames(Set mailMergeCleanupOptionsNames)](#fromNames-java.util.Set-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int mailMergeCleanupOptions)](#getName-int-) |  |
 | [getNames(int mailMergeCleanupOptions)](#getNames-int-) |  |
 | [getValues()](#getValues--) |  |
@@ -84,41 +84,41 @@ public static int REMOVE_STATIC_FIELDS
 ```
 
 
-指定是否应从文档中删除静态字段。静态字段是字段，其结果在任何文档更改时保持不变。字段，它们不会将结果存储在文档中，而是动态计算的（例如[字段类型.FIELD\_LIST\_NUM](../../com.aspose.words/fieldtype\#FIELD-LIST-NUM), [字段类型.FIELD\_SYMBOL](../../com.aspose.words/fieldtype\#FIELD-SYMBOL)等）不被认为是静态的。以下是字段类型的完整列表，它们不被认为是静态的：
+指定是否应从文档中删除静态字段。静态字段是字段，其结果在任何文档更改时保持不变。字段，它们不会将结果存储在文档中，而是动态计算的（例如[FieldType.FIELD\_LIST\_NUM](../../com.aspose.words/fieldtype\#FIELD-LIST-NUM), [FieldType.FIELD\_SYMBOL](../../com.aspose.words/fieldtype\#FIELD-SYMBOL)等）不被认为是静态的。以下是字段类型的完整列表，它们不被认为是静态的：
 
- *  [字段类型.FIELD\_ADVANCE](../../com.aspose.words/fieldtype\#FIELD-ADVANCE)
- *  [字段类型.FIELD\_AUTO\_NUM](../../com.aspose.words/fieldtype\#FIELD-AUTO-NUM)
- *  [字段类型.FIELD\_AUTO\_NUM\_LEGAL](../../com.aspose.words/fieldtype\#FIELD-AUTO-NUM-LEGAL)
- *  [字段类型.FIELD\_AUTO\_NUM\_OUTLINE](../../com.aspose.words/fieldtype\#FIELD-AUTO-NUM-OUTLINE)
- *  [字段类型.FIELD\_BARCODE](../../com.aspose.words/fieldtype\#FIELD-BARCODE)
- *  [字段类型.FIELD\_BIDI\_OUTLINE](../../com.aspose.words/fieldtype\#FIELD-BIDI-OUTLINE)
- *  [字段类型.FIELD\_DATE](../../com.aspose.words/fieldtype\#FIELD-DATE)
- *  [字段类型.FIELD\_DISPLAY\_BARCODE](../../com.aspose.words/fieldtype\#FIELD-DISPLAY-BARCODE)
- *  [字段类型.FIELD\_MERGE\_BARCODE](../../com.aspose.words/fieldtype\#FIELD-MERGE-BARCODE)
- *  [字段类型.FIELD\_FORM\_CHECK\_BOX](../../com.aspose.words/fieldtype\#FIELD-FORM-CHECK-BOX)
- *  [字段类型.FIELD\_FORM\_DROP\_DOWN](../../com.aspose.words/fieldtype\#FIELD-FORM-DROP-DOWN)
- *  [字段类型.FIELD\_FORMULA](../../com.aspose.words/fieldtype\#FIELD-FORMULA)
- *  [字段类型.FIELD\_GO\_TO\_BUTTON](../../com.aspose.words/fieldtype\#FIELD-GO-TO-BUTTON)
- *  [字段类型.FIELD\_HYPERLINK](../../com.aspose.words/fieldtype\#FIELD-HYPERLINK)
- *  [字段类型.FIELD\_INCLUDE\_TEXT](../../com.aspose.words/fieldtype\#FIELD-INCLUDE-TEXT)
- *  [字段类型.FIELD\_INDEX\_ENTRY](../../com.aspose.words/fieldtype\#FIELD-INDEX-ENTRY)
- *  [字段类型.FIELD\_LINK](../../com.aspose.words/fieldtype\#FIELD-LINK)
- *  [字段类型.FIELD\_LIST\_NUM](../../com.aspose.words/fieldtype\#FIELD-LIST-NUM)
- *  [字段类型.FIELD\_MACRO\_BUTTON](../../com.aspose.words/fieldtype\#FIELD-MACRO-BUTTON)
- *  [字段类型.FIELD\_NOTE\_REF](../../com.aspose.words/fieldtype\#FIELD-NOTE-REF)
- *  [字段类型.FIELD\_NUM\_PAGES](../../com.aspose.words/fieldtype\#FIELD-NUM-PAGES)
- *  [字段类型.FIELD\_PAGE](../../com.aspose.words/fieldtype\#FIELD-PAGE)
- *  [字段类型.FIELD\_PAGE\_REF](../../com.aspose.words/fieldtype\#FIELD-PAGE-REF)
- *  [字段类型.FIELD\_PRINT](../../com.aspose.words/fieldtype\#FIELD-PRINT)
- *  [字段类型.FIELD\_PRINT\_DATE](../../com.aspose.words/fieldtype\#FIELD-PRINT-DATE)
- *  [字段类型.FIELD\_PRIVATE](../../com.aspose.words/fieldtype\#FIELD-PRIVATE)
- *  [字段类型.FIELD\_REF\_DOC](../../com.aspose.words/fieldtype\#FIELD-REF-DOC)
- *  [字段类型.FIELD\_SECTION](../../com.aspose.words/fieldtype\#FIELD-SECTION)
- *  [字段类型.FIELD\_SECTION\_PAGES](../../com.aspose.words/fieldtype\#FIELD-SECTION-PAGES)
- *  [字段类型.FIELD\_SYMBOL](../../com.aspose.words/fieldtype\#FIELD-SYMBOL)
- *  [字段类型.FIELD\_TIME](../../com.aspose.words/fieldtype\#FIELD-TIME)
- *  [字段类型.FIELD\_TOA\_ENTRY](../../com.aspose.words/fieldtype\#FIELD-TOA-ENTRY)
- *  [字段类型.FIELD\_TOC\_ENTRY](../../com.aspose.words/fieldtype\#FIELD-TOC-ENTRY)
+ *  [FieldType.FIELD\_ADVANCE](../../com.aspose.words/fieldtype\#FIELD-ADVANCE)
+ *  [FieldType.FIELD\_AUTO\_NUM](../../com.aspose.words/fieldtype\#FIELD-AUTO-NUM)
+ *  [FieldType.FIELD\_AUTO\_NUM\_LEGAL](../../com.aspose.words/fieldtype\#FIELD-AUTO-NUM-LEGAL)
+ *  [FieldType.FIELD\_AUTO\_NUM\_OUTLINE](../../com.aspose.words/fieldtype\#FIELD-AUTO-NUM-OUTLINE)
+ *  [FieldType.FIELD\_BARCODE](../../com.aspose.words/fieldtype\#FIELD-BARCODE)
+ *  [FieldType.FIELD\_BIDI\_OUTLINE](../../com.aspose.words/fieldtype\#FIELD-BIDI-OUTLINE)
+ *  [FieldType.FIELD\_DATE](../../com.aspose.words/fieldtype\#FIELD-DATE)
+ *  [FieldType.FIELD\_DISPLAY\_BARCODE](../../com.aspose.words/fieldtype\#FIELD-DISPLAY-BARCODE)
+ *  [FieldType.FIELD\_MERGE\_BARCODE](../../com.aspose.words/fieldtype\#FIELD-MERGE-BARCODE)
+ *  [FieldType.FIELD\_FORM\_CHECK\_BOX](../../com.aspose.words/fieldtype\#FIELD-FORM-CHECK-BOX)
+ *  [FieldType.FIELD\_FORM\_DROP\_DOWN](../../com.aspose.words/fieldtype\#FIELD-FORM-DROP-DOWN)
+ *  [FieldType.FIELD\_FORMULA](../../com.aspose.words/fieldtype\#FIELD-FORMULA)
+ *  [FieldType.FIELD\_GO\_TO\_BUTTON](../../com.aspose.words/fieldtype\#FIELD-GO-TO-BUTTON)
+ *  [FieldType.FIELD\_HYPERLINK](../../com.aspose.words/fieldtype\#FIELD-HYPERLINK)
+ *  [FieldType.FIELD\_INCLUDE\_TEXT](../../com.aspose.words/fieldtype\#FIELD-INCLUDE-TEXT)
+ *  [FieldType.FIELD\_INDEX\_ENTRY](../../com.aspose.words/fieldtype\#FIELD-INDEX-ENTRY)
+ *  [FieldType.FIELD\_LINK](../../com.aspose.words/fieldtype\#FIELD-LINK)
+ *  [FieldType.FIELD\_LIST\_NUM](../../com.aspose.words/fieldtype\#FIELD-LIST-NUM)
+ *  [FieldType.FIELD\_MACRO\_BUTTON](../../com.aspose.words/fieldtype\#FIELD-MACRO-BUTTON)
+ *  [FieldType.FIELD\_NOTE\_REF](../../com.aspose.words/fieldtype\#FIELD-NOTE-REF)
+ *  [FieldType.FIELD\_NUM\_PAGES](../../com.aspose.words/fieldtype\#FIELD-NUM-PAGES)
+ *  [FieldType.FIELD\_PAGE](../../com.aspose.words/fieldtype\#FIELD-PAGE)
+ *  [FieldType.FIELD\_PAGE\_REF](../../com.aspose.words/fieldtype\#FIELD-PAGE-REF)
+ *  [FieldType.FIELD\_PRINT](../../com.aspose.words/fieldtype\#FIELD-PRINT)
+ *  [FieldType.FIELD\_PRINT\_DATE](../../com.aspose.words/fieldtype\#FIELD-PRINT-DATE)
+ *  [FieldType.FIELD\_PRIVATE](../../com.aspose.words/fieldtype\#FIELD-PRIVATE)
+ *  [FieldType.FIELD\_REF\_DOC](../../com.aspose.words/fieldtype\#FIELD-REF-DOC)
+ *  [FieldType.FIELD\_SECTION](../../com.aspose.words/fieldtype\#FIELD-SECTION)
+ *  [FieldType.FIELD\_SECTION\_PAGES](../../com.aspose.words/fieldtype\#FIELD-SECTION-PAGES)
+ *  [FieldType.FIELD\_SYMBOL](../../com.aspose.words/fieldtype\#FIELD-SYMBOL)
+ *  [FieldType.FIELD\_TIME](../../com.aspose.words/fieldtype\#FIELD-TIME)
+ *  [FieldType.FIELD\_TOA\_ENTRY](../../com.aspose.words/fieldtype\#FIELD-TOA-ENTRY)
+ *  [FieldType.FIELD\_TOC\_ENTRY](../../com.aspose.words/fieldtype\#FIELD-TOC-ENTRY)
 
 ### REMOVE_UNUSED_FIELDS {#REMOVE-UNUSED-FIELDS}
 ```
@@ -187,16 +187,16 @@ public static int fromNames(Set mailMergeCleanupOptionsNames)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int mailMergeCleanupOptions) {#getName-int-}
 ```
 public static String getName(int mailMergeCleanupOptions)

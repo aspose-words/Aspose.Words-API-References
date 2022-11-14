@@ -1,6 +1,6 @@
 ---
-title: SdtCalendar类型
-second_title: Aspose.Words for Java API Reference
+title: SdtCalendarType
+second_title: Aspose.Words for Java API 参考
 description: 指定可用于在 Office Open XML 文档中指定 / 的可能类型的日历。
 type: docs
 weight: 504
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/sdtcalendartype/
 **遗产:**
 java.lang.Object
 ```
-public class SdtCalendar类型
+public class SdtCalendarType
 ```
 
-指定可用于指定的可能的日历类型[StructuredDocumentTag.getCalendar类型()](../../com.aspose.words/structureddocumenttag\#getCalendar类型--) / [StructuredDocumentTag.setCalendar类型(int)](../../com.aspose.words/structureddocumenttag\#setCalendar类型-int-)在 Office Open XML 文档中。
+指定可用于指定的可能的日历类型[StructuredDocumentTag.getCalendarType()](../../com.aspose.words/structureddocumenttag\#getCalendarType--) / [StructuredDocumentTag.setCalendarType(int)](../../com.aspose.words/structureddocumenttag\#setCalendarType-int-)在 Office Open XML 文档中。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [DEFAULT](#DEFAULT) | 在 OOXML 中用作默认值。 |
 | [GREGORIAN](#GREGORIAN) | 指定应使用 ISO 8601 中定义的公历。 |
@@ -39,15 +39,15 @@ public class SdtCalendar类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String sdtCalendar类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int sdtCalendar类型)](#getName-int-) |  |
+| [fromName(String sdtCalendarTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int sdtCalendarType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int sdtCalendar类型)](#toString-int-) |  |
+| [toString(int sdtCalendarType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -192,9 +192,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String sdtCalendar类型Name) {#fromName-java.lang.String-}
+### fromName(String sdtCalendarTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String sdtCalendar类型Name)
+public static int fromName(String sdtCalendarTypeName)
 ```
 
 
@@ -203,23 +203,23 @@ public static int fromName(String sdtCalendar类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sdtCalendar类型Name | java.lang.String |  |
+| sdtCalendarTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int sdtCalendar类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int sdtCalendarType) {#getName-int-}
 ```
-public static String getName(int sdtCalendar类型)
+public static String getName(int sdtCalendarType)
 ```
 
 
@@ -228,7 +228,7 @@ public static String getName(int sdtCalendar类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sdtCalendar类型 | int |  |
+| sdtCalendarType | int |  |
 
 **退货:**
 java.lang.String
@@ -278,9 +278,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int sdtCalendar类型) {#toString-int-}
+### toString(int sdtCalendarType) {#toString-int-}
 ```
-public static String toString(int sdtCalendar类型)
+public static String toString(int sdtCalendarType)
 ```
 
 
@@ -289,7 +289,7 @@ public static String toString(int sdtCalendar类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sdtCalendar类型 | int |  |
+| sdtCalendarType | int |  |
 
 **退货:**
 java.lang.String

@@ -1,6 +1,6 @@
 ---
 title: ListCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 存储和管理文档中使用的项目符号和编号列表的格式。
 type: docs
 weight: 369
@@ -32,11 +32,11 @@ public class ListCollection implements Cloneable, Iterable
 
 要从段落中删除列表格式，请使用[ListFormat.removeNumbers()](../../com.aspose.words/listformat\#removeNumbers--)方法。
 
-如果您对 WordprocessingML 有所了解，那么您可能知道它为“列表”和“列表定义”定义了不同的概念。这与列表格式在低级别 Microsoft Word 文档中的存储方式完全一致。列表定义就像一个“模式”，列表就像一个列表定义的实例。
+如果您对 WordprocessingML 有所了解，那么您可能知道它为“列表”和“列表定义”定义了不同的概念。这与列表格式在低级别的 Microsoft Word 文档中的存储方式完全一致。列表定义就像一个“模式”，而列表就像一个列表定义的实例。
 
-为了简化编程模型，Aspose.Words 隐藏了列表和列表定义之间的区别，就像 Microsoft Word 在其用户界面中隐藏它一样。这使您可以更专注于您希望文档的外观，而不是构建低级对象以满足 Microsoft Word 文件格式的要求。
+为了简化编程模型，Aspose.Words 隐藏了列表和列表定义之间的区别，就像 Microsoft Word 在其用户界面中隐藏这一点一样。这使您可以更多地关注文档的外观，而不是构建低级对象来满足 Microsoft Word 文件格式的要求。
 
-一旦在当前版本的 Aspose.Words 中创建列表，就无法删除它们。这类似于 Microsoft Word，其中用户没有对列表定义的显式控制。
+一旦在当前版本的 Aspose.Words 中创建了列表，就不可能删除它们。这类似于 Microsoft Word，其中用户无法明确控制列表定义。
 ## 方法
 
 | 方法 | 描述 |
@@ -46,7 +46,7 @@ public class ListCollection implements Cloneable, Iterable
 | [addCopy(List srcList)](#addCopy-com.aspose.words.List-) | 通过复制指定列表并将其添加到文档中的列表集合来创建一个新列表。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 按索引获取列表。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取文档中编号和项目符号列表的计数。 |
 | [getDocument()](#getDocument--) | 获取所有者文档。 |
 | [getListByListId(int listId)](#getListByListId-int-) | 通过列表标识符获取列表。 |
@@ -139,16 +139,16 @@ public List get(int index)
 
 **退货:**
 [List](../../com.aspose.words/list) - 按索引列出。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -168,7 +168,7 @@ public DocumentBase getDocument()
 获取所有者文档。
 
 **退货:**
-[DocumentBase](../../com.aspose.words/documentbase) - 所有者文件。
+[DocumentBase](../../com.aspose.words/documentbase) - 所有者文档。
 ### getListByListId(int listId) {#getListByListId-int-}
 ```
 public List getListByListId(int listId)

@@ -1,6 +1,6 @@
 ---
 title: Rule
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指示执行 a 时发生的操作。
 type: docs
 weight: 36
@@ -13,10 +13,10 @@ java.lang.Object, java.lang.Enum
 public enum Rule extends Enum<System.Data.Rule>
 ```
 
-表示当一个[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint)被强制执行。
+指示发生时发生的动作[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint)被强制执行。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CASCADE](#CASCADE) | 删除或更新相关行。 |
 | [NONE](#NONE) | 未对相关行执行任何操作。 |
@@ -26,11 +26,11 @@ public enum Rule extends Enum<System.Data.Rule>
 
 | 方法 | 描述 |
 | --- | --- |
-| [<T>valueOf(班级<T> arg0, String arg1)](#-T-valueOf-java.lang.班级-T--java.lang.String-) |  |
+| [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getDeclaring班级()](#getDeclaring班级--) |  |
+| [getClass()](#getClass--) |  |
+| [getDeclaringClass()](#getDeclaringClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [name()](#name--) |  |
 | [notify()](#notify--) |  |
@@ -74,9 +74,9 @@ public static final System.Data.Rule SET_NULL
 
 将相关行中的值设置为 DBNull。
 
-### <T>valueOf(班级<T> arg0, String arg1) {#-T-valueOf-java.lang.班级-T--java.lang.String-}
+### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
-public static T <T>valueOf(班级<T> arg0, String arg1)
+public static T <T>valueOf(Class<T> arg0, String arg1)
 ```
 
 
@@ -85,7 +85,7 @@ public static T <T>valueOf(班级<T> arg0, String arg1)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| arg0 | java.lang.班级<T> |  |
+| arg0 | java.lang.Class<T> |  |
 | arg1 | java.lang.String |  |
 
 **退货:**
@@ -120,19 +120,19 @@ public final boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getDeclaring班级() {#getDeclaring班级--}
+java.lang.Class<?>
+### getDeclaringClass() {#getDeclaringClass--}
 ```
-public final 班级<E> getDeclaring班级()
+public final Class<E> getDeclaringClass()
 ```
 
 

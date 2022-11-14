@@ -1,6 +1,6 @@
 ---
-title: 字段
-second_title: Aspose.Words for Java API Reference
+title: Field
+second_title: Aspose.Words for Java API 参考
 description: 表示 Microsoft Word 文档字段。
 type: docs
 weight: 151
@@ -10,14 +10,14 @@ url: /zh/java/com.aspose.words/field/
 **遗产:**
 java.lang.Object
 ```
-public class 字段
+public class Field
 ```
 
 表示 Microsoft Word 文档字段。
 
 要了解更多信息，请访问[ Working with 字段 ][Working with 字段]文档文章。
 
- Word文档中的字段是一个复杂的结构，由多个节点组成，包括字段开始、字段代码、字段分隔符、字段结果和字段结束。字段可以嵌套，包含丰富的内容并跨越文档中的多个段落或部分。这[字段](../../com.aspose.words/field)class 是一个“外观”对象，它提供允许将字段作为单个对象使用的属性和方法。
+ Word文档中的字段是一个复杂的结构，由多个节点组成，包括字段开始、字段代码、字段分隔符、字段结果和字段结束。字段可以嵌套，包含丰富的内容并跨越文档中的多个段落或部分。这[Field](../../com.aspose.words/field)class 是一个“外观”对象，它提供允许将字段作为单个对象使用的属性和方法。
 
 这[getStart()](../../com.aspose.words/field\#getStart--), [getSeparator()](../../com.aspose.words/field\#getSeparator--)和[getEnd()](../../com.aspose.words/field\#getEnd--)属性分别指向字段的开始、分隔和结束节点。
 
@@ -25,9 +25,9 @@ public class 字段
 
 计算字段结果的过程称为字段更新。 Aspose.Words 可以更新大多数字段类型的字段结果，其方式与 Microsoft Word 完全相同。最值得注意的是，Aspose.Words 甚至可以计算最复杂的公式字段的结果。要计算单个字段的字段结果，请使用[update()](../../com.aspose.words/field\#update--)方法。要更新整个文档中的字段，请使用[Document.update字段()](../../com.aspose.words/document\#update字段--).
 
-您可以使用以下方式获取字段代码的纯文本版本[get字段Code(boolean)](../../com.aspose.words/field\#get字段Code-boolean-)方法。您可以使用以下方法获取和设置字段结果的纯文本版本[getResult()](../../com.aspose.words/field\#getResult--) / [setResult(java.lang.String)](../../com.aspose.words/field\#setResult-java.lang.String-)财产。字段代码和字段结果都可以包含复杂的内容，例如嵌套字段、段落、形状、表格，在这种情况下，如果您需要更多控制，您可能希望直接使用字段节点。
+您可以使用以下方式获取字段代码的纯文本版本[getFieldCode(boolean)](../../com.aspose.words/field\#getFieldCode-boolean-)方法。您可以使用以下方法获取和设置字段结果的纯文本版本[getResult()](../../com.aspose.words/field\#getResult--) / [setResult(java.lang.String)](../../com.aspose.words/field\#setResult-java.lang.String-)财产。字段代码和字段结果都可以包含复杂的内容，例如嵌套字段、段落、形状、表格，在这种情况下，如果您需要更多控制，您可能希望直接使用字段节点。
 
-您不创建的实例[字段](../../com.aspose.words/field)直接上课。要创建一个新字段，请使用[DocumentBuilder.insert字段(java.lang.String)](../../com.aspose.words/documentbuilder\#insert字段-java.lang.String-)方法。
+您不创建的实例[Field](../../com.aspose.words/field)直接上课。要创建一个新字段，请使用[DocumentBuilder.insertField(java.lang.String)](../../com.aspose.words/documentbuilder\#insertField-java.lang.String-)方法。
 
 
 [Working with 字段]: https://docs.aspose.com/words/java/working-with-fields/
@@ -36,17 +36,17 @@ public class 字段
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDisplayResult()](#getDisplayResult--) | 获取表示显示的字段结果的文本。 |
 | [getEnd()](#getEnd--) | 获取表示字段结束的节点。 |
-| [get字段Code()](#get字段Code--) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [get字段Code(boolean includeChild字段Codes)](#get字段Code-boolean-) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [getFormat()](#getFormat--) | 得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。 |
+| [getFieldCode()](#getFieldCode--) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean-) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [getFormat()](#getFormat--) | 得到一个[FieldFormat](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。 |
 | [getLocaleId()](#getLocaleId--) | 获取字段的 LCID。 |
 | [getResult()](#getResult--) | 获取字段分隔符和字段结尾之间的文本。 |
 | [getSeparator()](#getSeparator--) | 获取表示字段分隔符的节点。 |
 | [getStart()](#getStart--) | 获取表示字段开始的节点。 |
-| [get类型()](#get类型--) | 获取 Microsoft Word 字段类型。 |
+| [getType()](#getType--) | 获取 Microsoft Word 字段类型。 |
 | [hashCode()](#hashCode--) |  |
 | [isDirty()](#isDirty--) | 获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。 |
 | [isDirty(boolean value)](#isDirty-boolean-) | 设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
@@ -79,39 +79,39 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDisplayResult() {#getDisplayResult--}
 ```
 public String getDisplayResult()
 ```
 
 
-获取表示显示的字段结果的文本。这[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--)必须调用方法才能获得正确的值[字段ListNum](../../com.aspose.words/fieldlistnum), [字段AutoNum](../../com.aspose.words/fieldautonum), [字段AutoNumOut](../../com.aspose.words/fieldautonumout)和[字段AutoNumLgl](../../com.aspose.words/fieldautonumlgl)字段。
+获取表示显示的字段结果的文本。这[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--)必须调用方法才能获得正确的值[FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout)和[FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl)字段。
 
 **退货:**
 java.lang.String - 表示显示的字段结果的文本。
 ### getEnd() {#getEnd--}
 ```
-public 字段End getEnd()
+public FieldEnd getEnd()
 ```
 
 
 获取表示字段结束的节点。
 
 **退货:**
-[字段End](../../com.aspose.words/fieldend) - 代表字段结束的节点。
-### get字段Code() {#get字段Code--}
+[FieldEnd](../../com.aspose.words/fieldend) - 代表字段结束的节点。
+### getFieldCode() {#getFieldCode--}
 ```
-public String get字段Code()
+public String getFieldCode()
 ```
 
 
@@ -119,9 +119,9 @@ public String get字段Code()
 
 **退货:**
 java.lang.String
-### get字段Code(boolean includeChild字段Codes) {#get字段Code-boolean-}
+### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean-}
 ```
-public String get字段Code(boolean includeChild字段Codes)
+public String getFieldCode(boolean includeChildFieldCodes)
 ```
 
 
@@ -130,20 +130,20 @@ public String get字段Code(boolean includeChild字段Codes)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| includeChild字段Codes | boolean | \{ 如果应包含子域代码，则为真。 |
+| includeChildFieldCodes | boolean | \{ 如果应包含子域代码，则为真。 |
 
 **退货:**
 java.lang.String
 ### getFormat() {#getFormat--}
 ```
-public 字段Format getFormat()
+public FieldFormat getFormat()
 ```
 
 
-得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
+得到一个[FieldFormat](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
 
 **退货:**
-[字段Format](../../com.aspose.words/fieldformat) - 一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
+[FieldFormat](../../com.aspose.words/fieldformat) - 一个[FieldFormat](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
 ### getLocaleId() {#getLocaleId--}
 ```
 public int getLocaleId()
@@ -166,34 +166,34 @@ public String getResult()
 java.lang.String - 字段分隔符和字段结尾之间的文本。
 ### getSeparator() {#getSeparator--}
 ```
-public 字段Separator getSeparator()
+public FieldSeparator getSeparator()
 ```
 
 
 获取表示字段分隔符的节点。可以为空。
 
 **退货:**
-[字段Separator](../../com.aspose.words/fieldseparator) - 表示字段分隔符的节点。
+[FieldSeparator](../../com.aspose.words/fieldseparator) - 表示字段分隔符的节点。
 ### getStart() {#getStart--}
 ```
-public 字段Start getStart()
+public FieldStart getStart()
 ```
 
 
 获取表示字段开始的节点。
 
 **退货:**
-[字段Start](../../com.aspose.words/fieldstart) - 表示字段开始的节点。
-### get类型() {#get类型--}
+[FieldStart](../../com.aspose.words/fieldstart) - 表示字段开始的节点。
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
 获取 Microsoft Word 字段类型。
 
 **退货:**
- int - Microsoft Word 字段类型。返回值是以下之一[字段类型](../../com.aspose.words/fieldtype)常数。
+ int - Microsoft Word 字段类型。返回值是以下之一[FieldType](../../com.aspose.words/fieldtype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -320,19 +320,19 @@ public boolean unlink()
 
 执行字段取消链接。
 
-用其最新结果替换该字段。
+将字段替换为其最新结果。
 
 某些字段，例如 XE（索引条目）字段和 SEQ（序列）字段，无法取消链接。
 
 **退货:**
-布尔值 -\{ 如果字段已取消链接，则为真，否则为假。
+布尔值 -\{ 如果该字段已取消链接则为真，否则为假。
 ### update() {#update--}
 ```
 public void update()
 ```
 
 
-执行字段更新。如果该字段已被更新，则抛出。
+执行字段更新。如果该字段已经被更新则抛出。
 
 ### update(boolean ignoreMergeFormat) {#update-boolean-}
 ```
@@ -340,12 +340,12 @@ public void update(boolean ignoreMergeFormat)
 ```
 
 
-执行字段更新。如果该字段已被更新，则抛出。
+执行字段更新。如果该字段已经被更新则抛出。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ignoreMergeFormat | boolean | 如果为 true，则放弃直接字段结果格式化，无论 MERGEFORMAT 开关如何，否则执行正常更新。 |
+| ignoreMergeFormat | boolean | 如果为真，则放弃直接字段结果格式，不管 MERGEFORMAT 开关如何，否则执行正常更新。 |
 
 ### wait() {#wait--}
 ```

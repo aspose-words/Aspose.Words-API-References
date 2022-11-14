@@ -1,6 +1,6 @@
 ---
-title: 字段Dde
-second_title: Aspose.Words for Java API Reference
+title: FieldDde
+second_title: Aspose.Words for Java API 参考
 description: 实现 DDE 字段。
 type: docs
 weight: 178
@@ -8,9 +8,9 @@ url: /zh/java/com.aspose.words/fielddde/
 ---
 
 **遗产:**
-java.lang.Object, [com.aspose.words.字段](../../com.aspose.words/field)
+java.lang.Object, [com.aspose.words.Field](../../com.aspose.words/field)
 ```
-public class 字段Dde extends 字段
+public class FieldDde extends Field
 ```
 
 实现 DDE 字段。
@@ -24,16 +24,16 @@ public class 字段Dde extends 字段
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutoUpdate()](#getAutoUpdate--) | 获取是否自动更新该字段。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDisplayResult()](#getDisplayResult--) | 获取表示显示的字段结果的文本。 |
 | [getEnd()](#getEnd--) | 获取表示字段结束的节点。 |
-| [get字段Code()](#get字段Code--) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [get字段Code(boolean includeChild字段Codes)](#get字段Code-boolean-) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [getFormat()](#getFormat--) | 得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。 |
+| [getFieldCode()](#getFieldCode--) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean-) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [getFormat()](#getFormat--) | 得到一个[FieldFormat](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。 |
 | [getInsertAsBitmap()](#getInsertAsBitmap--) | 获取是否将链接对象作为位图插入。 |
 | [getInsertAsHtml()](#getInsertAsHtml--) | 获取是否将链接对象作为 HTML 格式文本插入。 |
 | [getInsertAsPicture()](#getInsertAsPicture--) | 获取是否将链接对象作为图片插入。 |
-| [getInsertAsRtf()](#getInsertAsRtf--) | 获取是否以 RTF 格式 (RTF) 插入链接对象。 |
+| [getInsertAsRtf()](#getInsertAsRtf--) | 获取是否以富文本格式 (RTF) 插入链接对象。 |
 | [getInsertAsText()](#getInsertAsText--) | 获取是否以纯文本格式插入链接对象。 |
 | [getInsertAsUnicode()](#getInsertAsUnicode--) | 获取是否将链接对象作为 Unicode 文本插入。 |
 | [getLocaleId()](#getLocaleId--) | 获取字段的 LCID。 |
@@ -43,13 +43,13 @@ public class 字段Dde extends 字段
 | [getSourceFullName()](#getSourceFullName--) | 获取源文件的名称和位置。 |
 | [getSourceItem()](#getSourceItem--) | 获取正在链接的源文件部分。 |
 | [getStart()](#getStart--) | 获取表示字段开始的节点。 |
-| [getSwitch类型(String switchName)](#getSwitch类型-java.lang.String-) |  |
-| [get类型()](#get类型--) | 获取 Microsoft Word 字段类型。 |
+| [getSwitchType(String switchName)](#getSwitchType-java.lang.String-) |  |
+| [getType()](#getType--) | 获取 Microsoft Word 字段类型。 |
 | [hashCode()](#hashCode--) |  |
 | [isDirty()](#isDirty--) | 获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。 |
 | [isDirty(boolean value)](#isDirty-boolean-) | 设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
-| [isLinked()](#isLinked--) | 获取是否通过不随文档存储图形数据来减小文件大小。 |
-| [isLinked(boolean value)](#isLinked-boolean-) | 设置是否通过不在文档中存储图形数据来减小文件大小。 |
+| [isLinked()](#isLinked--) | 获取是否通过不将图形数据与文档一起存储来减小文件大小。 |
+| [isLinked(boolean value)](#isLinked-boolean-) | 设置是否通过不将图形数据与文档一起存储来减小文件大小。 |
 | [isLocked()](#isLocked--) | 获取字段是否被锁定（不应重新计算其结果）。 |
 | [isLocked(boolean value)](#isLocked-boolean-) | 设置字段是否被锁定（不应重新计算其结果）。 |
 | [notify()](#notify--) |  |
@@ -59,14 +59,14 @@ public class 字段Dde extends 字段
 | [setInsertAsBitmap(boolean value)](#setInsertAsBitmap-boolean-) | 设置是否将链接对象作为位图插入。 |
 | [setInsertAsHtml(boolean value)](#setInsertAsHtml-boolean-) | 设置是否将链接对象作为 HTML 格式文本插入。 |
 | [setInsertAsPicture(boolean value)](#setInsertAsPicture-boolean-) | 设置是否将链接对象作为图片插入。 |
-| [setInsertAsRtf(boolean value)](#setInsertAsRtf-boolean-) | 设置是否以 RTF 格式插入链接对象。 |
+| [setInsertAsRtf(boolean value)](#setInsertAsRtf-boolean-) | 设置是否以富文本格式 (RTF) 插入链接对象。 |
 | [setInsertAsText(boolean value)](#setInsertAsText-boolean-) | 设置是否以纯文本格式插入链接对象。 |
 | [setInsertAsUnicode(boolean value)](#setInsertAsUnicode-boolean-) | 设置是否将链接对象作为 Unicode 文本插入。 |
 | [setLocaleId(int value)](#setLocaleId-int-) | 设置字段的 LCID。 |
 | [setProgId(String value)](#setProgId-java.lang.String-) | 设置链接信息的应用类型。 |
 | [setResult(String value)](#setResult-java.lang.String-) | 设置字段分隔符和字段结尾之间的文本。 |
 | [setSourceFullName(String value)](#setSourceFullName-java.lang.String-) | 设置源文件的名称和位置。 |
-| [setSourceItem(String value)](#setSourceItem-java.lang.String-) | 设置正在链接的源文件部分。 |
+| [setSourceItem(String value)](#setSourceItem-java.lang.String-) | 设置被链接的源文件部分。 |
 | [toString()](#toString--) |  |
 | [unlink()](#unlink--) | 执行字段取消链接。 |
 | [update()](#update--) | 执行字段更新。 |
@@ -98,40 +98,40 @@ public boolean getAutoUpdate()
 获取是否自动更新该字段。
 
 **退货:**
-boolean - 是否自动更新此字段。
-### get班级() {#get班级--}
+boolean - 是否自动更新这个字段。
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDisplayResult() {#getDisplayResult--}
 ```
 public String getDisplayResult()
 ```
 
 
-获取表示显示的字段结果的文本。这[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--)必须调用方法才能获得正确的值[字段ListNum](../../com.aspose.words/fieldlistnum), [字段AutoNum](../../com.aspose.words/fieldautonum), [字段AutoNumOut](../../com.aspose.words/fieldautonumout)和[字段AutoNumLgl](../../com.aspose.words/fieldautonumlgl)字段。
+获取表示显示的字段结果的文本。这[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--)必须调用方法才能获得正确的值[FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout)和[FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl)字段。
 
 **退货:**
 java.lang.String - 表示显示的字段结果的文本。
 ### getEnd() {#getEnd--}
 ```
-public 字段End getEnd()
+public FieldEnd getEnd()
 ```
 
 
 获取表示字段结束的节点。
 
 **退货:**
-[字段End](../../com.aspose.words/fieldend) - 代表字段结束的节点。
-### get字段Code() {#get字段Code--}
+[FieldEnd](../../com.aspose.words/fieldend) - 代表字段结束的节点。
+### getFieldCode() {#getFieldCode--}
 ```
-public String get字段Code()
+public String getFieldCode()
 ```
 
 
@@ -139,9 +139,9 @@ public String get字段Code()
 
 **退货:**
 java.lang.String
-### get字段Code(boolean includeChild字段Codes) {#get字段Code-boolean-}
+### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean-}
 ```
-public String get字段Code(boolean includeChild字段Codes)
+public String getFieldCode(boolean includeChildFieldCodes)
 ```
 
 
@@ -150,20 +150,20 @@ public String get字段Code(boolean includeChild字段Codes)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| includeChild字段Codes | boolean | \{ 如果应包含子域代码，则为真。 |
+| includeChildFieldCodes | boolean | \{ 如果应包含子域代码，则为真。 |
 
 **退货:**
 java.lang.String
 ### getFormat() {#getFormat--}
 ```
-public 字段Format getFormat()
+public FieldFormat getFormat()
 ```
 
 
-得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
+得到一个[FieldFormat](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
 
 **退货:**
-[字段Format](../../com.aspose.words/fieldformat) - 一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
+[FieldFormat](../../com.aspose.words/fieldformat) - 一个[FieldFormat](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
 ### getInsertAsBitmap() {#getInsertAsBitmap--}
 ```
 public boolean getInsertAsBitmap()
@@ -200,7 +200,7 @@ public boolean getInsertAsRtf()
 ```
 
 
-获取是否以 RTF 格式 (RTF) 插入链接对象。
+获取是否以富文本格式 (RTF) 插入链接对象。
 
 **退货:**
 boolean - 是否以富文本格式 (RTF) 插入链接对象。
@@ -256,14 +256,14 @@ public String getResult()
 java.lang.String - 字段分隔符和字段结尾之间的文本。
 ### getSeparator() {#getSeparator--}
 ```
-public 字段Separator getSeparator()
+public FieldSeparator getSeparator()
 ```
 
 
 获取表示字段分隔符的节点。可以为空。
 
 **退货:**
-[字段Separator](../../com.aspose.words/fieldseparator) - 表示字段分隔符的节点。
+[FieldSeparator](../../com.aspose.words/fieldseparator) - 表示字段分隔符的节点。
 ### getSourceFullName() {#getSourceFullName--}
 ```
 public String getSourceFullName()
@@ -286,17 +286,17 @@ public String getSourceItem()
 java.lang.String - 被链接的源文件部分。
 ### getStart() {#getStart--}
 ```
-public 字段Start getStart()
+public FieldStart getStart()
 ```
 
 
 获取表示字段开始的节点。
 
 **退货:**
-[字段Start](../../com.aspose.words/fieldstart) - 表示字段开始的节点。
-### getSwitch类型(String switchName) {#getSwitch类型-java.lang.String-}
+[FieldStart](../../com.aspose.words/fieldstart) - 表示字段开始的节点。
+### getSwitchType(String switchName) {#getSwitchType-java.lang.String-}
 ```
-public int getSwitch类型(String switchName)
+public int getSwitchType(String switchName)
 ```
 
 
@@ -309,16 +309,16 @@ public int getSwitch类型(String switchName)
 
 **退货:**
 整数
-### get类型() {#get类型--}
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
 获取 Microsoft Word 字段类型。
 
 **退货:**
- int - Microsoft Word 字段类型。返回值是以下之一[字段类型](../../com.aspose.words/fieldtype)常数。
+ int - Microsoft Word 字段类型。返回值是以下之一[FieldType](../../com.aspose.words/fieldtype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -358,22 +358,22 @@ public boolean isLinked()
 ```
 
 
-获取是否通过不随文档存储图形数据来减小文件大小。
+获取是否通过不将图形数据与文档一起存储来减小文件大小。
 
 **退货:**
-boolean - 是否通过不在文档中存储图形数据来减小文件大小。
+boolean - 是否通过不将图形数据与文档一起存储来减小文件大小。
 ### isLinked(boolean value) {#isLinked-boolean-}
 ```
 public void isLinked(boolean value)
 ```
 
 
-设置是否通过不在文档中存储图形数据来减小文件大小。
+设置是否通过不将图形数据与文档一起存储来减小文件大小。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 是否通过不在文档中存储图形数据来减小文件大小。 |
+| value | boolean | 是否通过不将图形数据与文档一起存储来减小文件大小。 |
 
 ### isLocked() {#isLocked--}
 ```
@@ -482,12 +482,12 @@ public void setInsertAsRtf(boolean value)
 ```
 
 
-设置是否以 RTF 格式插入链接对象。
+设置是否以富文本格式 (RTF) 插入链接对象。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 是否以 RTF 格式插入链接对象。 |
+| value | boolean | 是否以富文本格式 (RTF) 插入链接对象。 |
 
 ### setInsertAsText(boolean value) {#setInsertAsText-boolean-}
 ```
@@ -573,12 +573,12 @@ public void setSourceItem(String value)
 ```
 
 
-设置正在链接的源文件部分。
+设置被链接的源文件部分。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 正在链接的源文件部分。 |
+| value | java.lang.String | 被链接的源文件部分。 |
 
 ### toString() {#toString--}
 ```
@@ -598,19 +598,19 @@ public boolean unlink()
 
 执行字段取消链接。
 
-用其最新结果替换该字段。
+将字段替换为其最新结果。
 
 某些字段，例如 XE（索引条目）字段和 SEQ（序列）字段，无法取消链接。
 
 **退货:**
-布尔值 -\{ 如果字段已取消链接，则为真，否则为假。
+布尔值 -\{ 如果该字段已取消链接则为真，否则为假。
 ### update() {#update--}
 ```
 public void update()
 ```
 
 
-执行字段更新。如果该字段已被更新，则抛出。
+执行字段更新。如果该字段已经被更新则抛出。
 
 ### update(boolean ignoreMergeFormat) {#update-boolean-}
 ```
@@ -618,12 +618,12 @@ public void update(boolean ignoreMergeFormat)
 ```
 
 
-执行字段更新。如果该字段已被更新，则抛出。
+执行字段更新。如果该字段已经被更新则抛出。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ignoreMergeFormat | boolean | 如果为 true，则放弃直接字段结果格式化，无论 MERGEFORMAT 开关如何，否则执行正常更新。 |
+| ignoreMergeFormat | boolean | 如果为真，则放弃直接字段结果格式，不管 MERGEFORMAT 开关如何，否则执行正常更新。 |
 
 ### wait() {#wait--}
 ```

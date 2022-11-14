@@ -1,6 +1,6 @@
 ---
 title: ChartDataLabelCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示 的集合。
 type: docs
 weight: 59
@@ -26,7 +26,7 @@ public class ChartDataLabelCollection implements Iterable
 | [clearFormat()](#clearFormat--) | 清除所有格式[ChartDataLabel](../../com.aspose.words/chartdatalabel)在这个集合中。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 退货[ChartDataLabel](../../com.aspose.words/chartdatalabel)对于指定的索引。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 返回数量[ChartDataLabel](../../com.aspose.words/chartdatalabel)在这个集合中。 |
 | [getNumberFormat()](#getNumberFormat--) | 得到一个[ChartNumberFormat](../../com.aspose.words/chartnumberformat)实例允许为整个系列的数据标签设置数字格式。 |
 | [getSeparator()](#getSeparator--) | 获取用于整个系列数据标签的字符串分隔符。 |
@@ -94,16 +94,16 @@ public ChartDataLabel get(int index)
 
 **退货:**
 [ChartDataLabel](../../com.aspose.words/chartdatalabel) -\{[ChartDataLabel](../../com.aspose.words/chartdatalabel)对于指定的索引。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -214,7 +214,7 @@ public boolean getShowValue()
 ```
 
 
-允许指定值是否显示在整个系列的数据标签中。默认值为**false**.为该属性定义的值可以使用[ChartDataLabel.getShowValue()](../../com.aspose.words/chartdatalabel\#getShowValue--) / [ChartDataLabel.setShowValue(boolean)](../../com.aspose.words/chartdatalabel\#setShowValue-boolean-)财产。
+允许指定值是否要显示在整个系列的数据标签中。默认值为**false**.为该属性定义的值可以使用[ChartDataLabel.getShowValue()](../../com.aspose.words/chartdatalabel\#getShowValue--) / [ChartDataLabel.setShowValue(boolean)](../../com.aspose.words/chartdatalabel\#setShowValue-boolean-)财产。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -270,12 +270,12 @@ public void setSeparator(String value)
 ```
 
 
-设置用于整个系列的数据标签的字符串分隔符。默认是逗号，除了只显示类别名称和百分比的饼图，此时应使用换行符。为该属性定义的值可以使用[ChartDataLabel.getSeparator()](../../com.aspose.words/chartdatalabel\#getSeparator--) / [ChartDataLabel.setSeparator(java.lang.String)](../../com.aspose.words/chartdatalabel\#setSeparator-java.lang.String-)财产。
+设置用于整个系列数据标签的字符串分隔符。默认为逗号，但仅显示类别名称和百分比的饼图除外，此时应使用换行符。可以使用为单个数据标签覆盖为此属性定义的值[ChartDataLabel.getSeparator()](../../com.aspose.words/chartdatalabel\#getSeparator--) / [ChartDataLabel.setSeparator(java.lang.String)](../../com.aspose.words/chartdatalabel\#setSeparator-java.lang.String-)财产。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 用于整个系列的数据标签的字符串分隔符。 |
+| value | java.lang.String | 用于整个系列数据标签的字符串分隔符。 |
 
 ### setShowBubbleSize(boolean value) {#setShowBubbleSize-boolean-}
 ```
@@ -365,7 +365,7 @@ public void setShowSeriesName(boolean value)
 ```
 
 
-设置一个布尔值来指示整个系列的数据标签的系列名称显示行为。**True**显示系列名称。**False**隐藏。默认**false**.为该属性定义的值可以使用[ChartDataLabel.getShowSeriesName()](../../com.aspose.words/chartdatalabel\#getShowSeriesName--) / [ChartDataLabel.setShowSeriesName(boolean)](../../com.aspose.words/chartdatalabel\#setShowSeriesName-boolean-)财产。
+设置一个布尔值以指示整个系列的数据标签的系列名称显示行为。**True**显示系列名称。**False**隐藏。默认**false**.为该属性定义的值可以使用[ChartDataLabel.getShowSeriesName()](../../com.aspose.words/chartdatalabel\#getShowSeriesName--) / [ChartDataLabel.setShowSeriesName(boolean)](../../com.aspose.words/chartdatalabel\#setShowSeriesName-boolean-)财产。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -378,7 +378,7 @@ public void setShowValue(boolean value)
 ```
 
 
-允许指定值是否显示在整个系列的数据标签中。默认值为**false**.为该属性定义的值可以使用[ChartDataLabel.getShowValue()](../../com.aspose.words/chartdatalabel\#getShowValue--) / [ChartDataLabel.setShowValue(boolean)](../../com.aspose.words/chartdatalabel\#setShowValue-boolean-)财产。
+允许指定值是否要显示在整个系列的数据标签中。默认值为**false**.为该属性定义的值可以使用[ChartDataLabel.getShowValue()](../../com.aspose.words/chartdatalabel\#getShowValue--) / [ChartDataLabel.setShowValue(boolean)](../../com.aspose.words/chartdatalabel\#setShowValue-boolean-)财产。
 
 **参数:**
 | 范围 | 类型 | 描述 |

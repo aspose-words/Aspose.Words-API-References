@@ -1,6 +1,6 @@
 ---
 title: SdtDateStorageFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定当 SDT 绑定到文档数据存储中的 XML 节点时如何存储/检索日期 SDT 的日期。
 type: docs
 weight: 505
@@ -16,7 +16,7 @@ public class SdtDateStorageFormat
 指定当 SDT 绑定到文档数据存储中的 XML 节点时如何存储/检索日期 SDT 的日期。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [DATE](#DATE) | 日期 SDT 的日期值以标准 XML Schema Date 格式存储为日期。 |
 | [DATE_TIME](#DATE-TIME) | 日期 SDT 的日期值以标准 XML Schema DateTime 格式存储为日期。 |
@@ -29,7 +29,7 @@ public class SdtDateStorageFormat
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String sdtDateStorageFormatName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int sdtDateStorageFormat)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -108,16 +108,16 @@ public static int fromName(String sdtDateStorageFormatName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int sdtDateStorageFormat) {#getName-int-}
 ```
 public static String getName(int sdtDateStorageFormat)

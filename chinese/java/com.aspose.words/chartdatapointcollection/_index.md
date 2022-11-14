@@ -1,6 +1,6 @@
 ---
 title: ChartDataPointCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示 a 的集合。
 type: docs
 weight: 61
@@ -26,7 +26,7 @@ public class ChartDataPointCollection implements Iterable
 | [clearFormat()](#clearFormat--) | 清除所有格式[ChartDataPoint](../../com.aspose.words/chartdatapoint)在这个集合中。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 退货[ChartDataPoint](../../com.aspose.words/chartdatapoint)对于指定的索引。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 返回数量[ChartDataPoint](../../com.aspose.words/chartdatapoint)在这个集合中。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 返回一个枚举器对象。 |
@@ -74,16 +74,16 @@ public ChartDataPoint get(int index)
 
 **退货:**
 [ChartDataPoint](../../com.aspose.words/chartdatapoint) -\{[ChartDataPoint](../../com.aspose.words/chartdatapoint)对于指定的索引。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

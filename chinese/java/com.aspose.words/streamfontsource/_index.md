@@ -1,7 +1,7 @@
 ---
 title: StreamFontSource
-second_title: Aspose.Words for Java API Reference
-description: 用户定义流字体源的基类。
+second_title: Aspose.Words for Java API 参考
+description: 用户定义的流字体源的基类。
 type: docs
 weight: 530
 url: /zh/java/com.aspose.words/streamfontsource/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.words.FontSourceBase](../../com.aspose.words/fonts
 public abstract class StreamFontSource extends FontSourceBase
 ```
 
-用户定义流字体源的基类。
+用户定义的流字体源的基类。
 
 要了解更多信息，请访问**Working with Fonts**文档文章。
 
@@ -30,19 +30,19 @@ public abstract class StreamFontSource extends FontSourceBase
 | [getAvailableFonts()](#getAvailableFonts--) | 返回通过此源可用的字体列表。 |
 | [getCacheKey()](#getCacheKey--) | 此源在缓存中的键。 |
 | [getCacheKeyInternal()](#getCacheKeyInternal--) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getFilePath()](#getFilePath--) |  |
 | [getFontDataInternal()](#getFontDataInternal--) |  |
 | [getPriority()](#getPriority--) | 返回字体源优先级。 |
 | [getPriorityInternal()](#getPriorityInternal--) |  |
 | [getSize()](#getSize--) |  |
-| [get类型()](#get类型--) | 返回字体源的类型。 |
-| [getWarningCallback()](#getWarningCallback--) | 当检测到可能导致格式保真度丢失的问题时，在处理字体源期间调用。 |
+| [getType()](#getType--) | 返回字体源的类型。 |
+| [getWarningCallback()](#getWarningCallback--) | 当检测到可能导致格式保真度损失的问题时，在处理字体源期间调用。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [openFontDataStream()](#openFontDataStream--) | 此方法应按需打开带有字体数据的流。 |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | 当检测到可能导致格式保真度丢失的问题时，在处理字体源期间调用。 |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | 当检测到可能导致格式保真度损失的问题时，在处理字体源期间调用。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -78,7 +78,7 @@ public String getCacheKey()
 ```
 
 
-此源在缓存中的键。此键用于在使用 和 方法保存/加载字体搜索缓存时识别缓存项。
+此源在缓存中的键。当使用 和 方法保存/加载字体搜索缓存时，此键用于识别缓存项。
 
 **退货:**
 java.lang.String - 对应的 java.lang.String 值。
@@ -92,16 +92,16 @@ public String getCacheKeyInternal()
 
 **退货:**
 java.lang.String
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getFilePath() {#getFilePath--}
 ```
 public String getFilePath()
@@ -130,7 +130,7 @@ public int getPriority()
 
 返回字体源优先级。
 
-当不同字体源中存在具有相同系列名称和样式的字体时使用此值。在这种情况下，Aspose.Words 从源中选择具有较高优先级值的字体。
+当不同字体源中存在具有相同家族名称和样式的字体时，使用此值。在这种情况下，Aspose.Words 从具有更高优先级值的源中选择字体。
 
 默认值为 0。
 
@@ -156,23 +156,23 @@ public int getSize()
 
 **退货:**
 整数
-### get类型() {#get类型--}
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
 返回字体源的类型。
 
 **退货:**
- int - 字体源的类型。返回值是以下之一[FontSource类型](../../com.aspose.words/fontsourcetype)常数。
+ int - 字体源的类型。返回值是以下之一[FontSourceType](../../com.aspose.words/fontsourcetype)常数。
 ### getWarningCallback() {#getWarningCallback--}
 ```
 public IWarningCallback getWarningCallback()
 ```
 
 
-当检测到可能导致格式保真度丢失的问题时，在处理字体源期间调用。
+当检测到可能导致格式保真度损失的问题时，在处理字体源期间调用。
 
 **退货:**
 [IWarningCallback](../../com.aspose.words/iwarningcallback) - 相应的[IWarningCallback](../../com.aspose.words/iwarningcallback)价值。
@@ -218,7 +218,7 @@ public void setWarningCallback(IWarningCallback value)
 ```
 
 
-当检测到可能导致格式保真度丢失的问题时，在处理字体源期间调用。
+当检测到可能导致格式保真度损失的问题时，在处理字体源期间调用。
 
 **参数:**
 | 范围 | 类型 | 描述 |

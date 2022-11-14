@@ -1,6 +1,6 @@
 ---
 title: AxisBuiltInUnit
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定轴的显示单位。
 type: docs
 weight: 17
@@ -16,7 +16,7 @@ public class AxisBuiltInUnit
 指定轴的显示单位。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BILLIONS](#BILLIONS) | 指定图表上的值应除以 1,000,000,000。 |
 | [CUSTOM](#CUSTOM) | 指定图表上的值应除以用户定义的除数。 |
@@ -37,7 +37,7 @@ public class AxisBuiltInUnit
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String axisBuiltInUnitName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int axisBuiltInUnit)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -180,16 +180,16 @@ public static int fromName(String axisBuiltInUnitName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int axisBuiltInUnit) {#getName-int-}
 ```
 public static String getName(int axisBuiltInUnit)

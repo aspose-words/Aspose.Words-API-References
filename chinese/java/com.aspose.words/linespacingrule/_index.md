@@ -1,6 +1,6 @@
 ---
 title: LineSpacingRule
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定段落的行距值。
 type: docs
 weight: 366
@@ -16,7 +16,7 @@ public class LineSpacingRule
 指定段落的行距值。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [AT_LEAST](#AT-LEAST) | 行距可以大于或等于但不能小于[ParagraphFormat.getLineSpacing()](../../com.aspose.words/paragraphformat\#getLineSpacing--) / [ParagraphFormat.setLineSpacing(double)](../../com.aspose.words/paragraphformat\#setLineSpacing-double-)财产。 |
 | [EXACTLY](#EXACTLY) | 行距永远不会从[ParagraphFormat.getLineSpacing()](../../com.aspose.words/paragraphformat\#getLineSpacing--) / [ParagraphFormat.setLineSpacing(double)](../../com.aspose.words/paragraphformat\#setLineSpacing-double-)属性，即使段落中使用了较大的字体。 |
@@ -28,7 +28,7 @@ public class LineSpacingRule
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String lineSpacingRuleName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int lineSpacingRule)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -99,16 +99,16 @@ public static int fromName(String lineSpacingRuleName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int lineSpacingRule) {#getName-int-}
 ```
 public static String getName(int lineSpacingRule)

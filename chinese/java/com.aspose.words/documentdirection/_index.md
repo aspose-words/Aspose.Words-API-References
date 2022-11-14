@@ -1,6 +1,6 @@
 ---
 title: DocumentDirection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许指定文档中文本的流动方向。
 type: docs
 weight: 123
@@ -16,7 +16,7 @@ public class DocumentDirection
 允许指定文档中文本的流动方向。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [AUTO](#AUTO) | 自动检测方向。 |
 | [LEFT_TO_RIGHT](#LEFT-TO-RIGHT) | 从左到右的方向。 |
@@ -28,7 +28,7 @@ public class DocumentDirection
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String documentDirectionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int documentDirection)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -99,16 +99,16 @@ public static int fromName(String documentDirectionName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int documentDirection) {#getName-int-}
 ```
 public static String getName(int documentDirection)

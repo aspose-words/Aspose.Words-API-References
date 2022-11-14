@@ -1,6 +1,6 @@
 ---
 title: TableAlignment
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定内联表的对齐方式。
 type: docs
 weight: 549
@@ -16,11 +16,11 @@ public class TableAlignment
 指定内联表的对齐方式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CENTER](#CENTER) | 表格居中。 |
 | [LEFT](#LEFT) | 表格向左对齐。 |
-| [RIGHT](#RIGHT) | 表格向右对齐。 |
+| [RIGHT](#RIGHT) | 表格右对齐。 |
 | [length](#length) |  |
 ## 方法
 
@@ -28,7 +28,7 @@ public class TableAlignment
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String tableAlignmentName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int tableAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -61,7 +61,7 @@ public static int RIGHT
 ```
 
 
-表格向右对齐。
+表格右对齐。
 
 ### length {#length}
 ```
@@ -99,16 +99,16 @@ public static int fromName(String tableAlignmentName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int tableAlignment) {#getName-int-}
 ```
 public static String getName(int tableAlignment)

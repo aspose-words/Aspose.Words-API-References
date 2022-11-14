@@ -1,6 +1,6 @@
 ---
 title: ConstraintCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示 a 的一组约束。
 type: docs
 weight: 11
@@ -26,7 +26,7 @@ public class ConstraintCollection implements Iterable
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 获取[Constraint](../../com.aspose.words.net.system.data/constraint)来自指定索引处的集合。 |
 | [get(String name)](#get-java.lang.String-) | 获取[Constraint](../../com.aspose.words.net.system.data/constraint)从具有指定名称的集合中。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中元素的总数。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) |  |
@@ -94,7 +94,7 @@ public System.Data.Constraint get(int index)
 | index | int | 要返回的约束的索引。 |
 
 **退货:**
-[Constraint](../../com.aspose.words.net.system.data/constraint) - 这[Constraint](../../com.aspose.words.net.system.data/constraint)在指定索引处。
+[Constraint](../../com.aspose.words.net.system.data/constraint) - 这[Constraint](../../com.aspose.words.net.system.data/constraint)在指定的索引处。
 ### get(String name) {#get-java.lang.String-}
 ```
 public System.Data.Constraint get(String name)
@@ -110,16 +110,16 @@ public System.Data.Constraint get(String name)
 
 **退货:**
 [Constraint](../../com.aspose.words.net.system.data/constraint) - 这[Constraint](../../com.aspose.words.net.system.data/constraint)具有指定名称；否则为空值，如果[Constraint](../../com.aspose.words.net.system.data/constraint)不存在。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

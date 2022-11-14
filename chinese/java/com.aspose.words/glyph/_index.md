@@ -1,6 +1,6 @@
 ---
 title: Glyph
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 
 type: docs
 weight: 307
@@ -26,7 +26,7 @@ public class Glyph
 | [getAdvance()](#getAdvance--) |  |
 | [getAdvanceOffset()](#getAdvanceOffset--) |  |
 | [getAscenderOffset()](#getAscenderOffset--) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getGlyphIndex()](#getGlyphIndex--) |  |
 | [getWidth(int em, float fontSize)](#getWidth-int-float-) |  |
 | [hashCode()](#hashCode--) |  |
@@ -108,16 +108,16 @@ public short getAscenderOffset()
 
 **退货:**
 短的
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getGlyphIndex() {#getGlyphIndex--}
 ```
 public int getGlyphIndex()

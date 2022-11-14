@@ -1,6 +1,6 @@
 ---
 title: PdfZoomBehavior
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定在 PDF 查看器中打开 PDF 文档时应用到的缩放类型。
 type: docs
 weight: 463
@@ -16,7 +16,7 @@ public class PdfZoomBehavior
 指定在 PDF 查看器中打开 PDF 文档时应用到的缩放类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [FIT_BOX](#FIT-BOX) | 适合边界框（包含页面上所有可见元素的矩形）。 |
 | [FIT_HEIGHT](#FIT-HEIGHT) | 适合页面的高度。 |
@@ -31,7 +31,7 @@ public class PdfZoomBehavior
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pdfZoomBehaviorName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int pdfZoomBehavior)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -126,16 +126,16 @@ public static int fromName(String pdfZoomBehaviorName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int pdfZoomBehavior) {#getName-int-}
 ```
 public static String getName(int pdfZoomBehavior)

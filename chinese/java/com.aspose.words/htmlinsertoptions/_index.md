@@ -1,6 +1,6 @@
 ---
 title: HtmlInsertOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定 MAspose.Words.DocumentBuilder.InsertHtmlSystem.StringAspose.Words.HtmlInsertOptions 方法的选项。
 type: docs
 weight: 327
@@ -16,7 +16,7 @@ public class HtmlInsertOptions
 指定选项**M:Aspose.Words.DocumentBuilder.InsertHtml(System.String,Aspose.Words.HtmlInsertOptions)**方法。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [NONE](#NONE) | 插入 HTML 时使用默认选项。 |
 | [PRESERVE_BLOCKS](#PRESERVE-BLOCKS) | 保留块级元素的属性。 |
@@ -30,7 +30,7 @@ public class HtmlInsertOptions
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String htmlInsertOptionsName)](#fromName-java.lang.String-) |  |
 | [fromNames(Set htmlInsertOptionsNames)](#fromNames-java.util.Set-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int htmlInsertOptions)](#getName-int-) |  |
 | [getNames(int htmlInsertOptions)](#getNames-int-) |  |
 | [getValues()](#getValues--) |  |
@@ -136,16 +136,16 @@ public static int fromNames(Set htmlInsertOptionsNames)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int htmlInsertOptions) {#getName-int-}
 ```
 public static String getName(int htmlInsertOptions)

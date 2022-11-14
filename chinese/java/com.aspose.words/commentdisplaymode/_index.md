@@ -1,6 +1,6 @@
 ---
 title: CommentDisplayMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定文档注释的呈现模式。
 type: docs
 weight: 78
@@ -16,7 +16,7 @@ public class CommentDisplayMode
 指定文档注释的呈现模式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [HIDE](#HIDE) | 不呈现文档注释。 |
 | [SHOW_IN_ANNOTATIONS](#SHOW-IN-ANNOTATIONS) | 在注释中呈现文档注释。 |
@@ -28,7 +28,7 @@ public class CommentDisplayMode
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String commentDisplayModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int commentDisplayMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -99,16 +99,16 @@ public static int fromName(String commentDisplayModeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int commentDisplayMode) {#getName-int-}
 ```
 public static String getName(int commentDisplayMode)

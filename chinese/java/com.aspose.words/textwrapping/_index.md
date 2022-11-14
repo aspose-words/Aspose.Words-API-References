@@ -1,7 +1,7 @@
 ---
 title: TextWrapping
-second_title: Aspose.Words for Java API Reference
-description: 指定文本如何环绕表格。
+second_title: Aspose.Words for Java API 参考
+description: 指定文本环绕表格的方式。
 type: docs
 weight: 570
 url: /zh/java/com.aspose.words/textwrapping/
@@ -13,10 +13,10 @@ java.lang.Object
 public class TextWrapping
 ```
 
-指定文本如何环绕表格。
+指定文本环绕表格的方式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [AROUND](#AROUND) | 文本环绕在表格周围，占用可用的侧面空间。 |
 | [DEFAULT](#DEFAULT) | 默认值。 |
@@ -28,7 +28,7 @@ public class TextWrapping
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String textWrappingName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int textWrapping)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -99,16 +99,16 @@ public static int fromName(String textWrappingName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int textWrapping) {#getName-int-}
 ```
 public static String getName(int textWrapping)

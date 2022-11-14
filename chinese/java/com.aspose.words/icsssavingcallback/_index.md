@@ -1,6 +1,6 @@
 ---
 title: ICssSavingCallback
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 如果您想控制 Aspose.Words 在将文档保存为 HTML 时如何保存 CSS 层叠样式表，请实现此接口。
 type: docs
 weight: 635

@@ -1,6 +1,6 @@
 ---
 title: ExportHeadersFootersMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定页眉和页脚如何导出到 HTML MHTML 或 EPUB。
 type: docs
 weight: 149
@@ -16,7 +16,7 @@ public class ExportHeadersFootersMode
 指定页眉和页脚如何导出为 HTML、MHTML 或 EPUB。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [FIRST_PAGE_HEADER_FOOTER_PER_SECTION](#FIRST-PAGE-HEADER-FOOTER-PER-SECTION) | 第一页页眉和页脚在每个部分的开头和结尾处导出。 |
 | [FIRST_SECTION_HEADER_LAST_SECTION_FOOTER](#FIRST-SECTION-HEADER-LAST-SECTION-FOOTER) | 第一部分的主页眉在文档开头导出，主页脚在末尾。 |
@@ -29,7 +29,7 @@ public class ExportHeadersFootersMode
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String exportHeadersFootersModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int exportHeadersFootersMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -108,16 +108,16 @@ public static int fromName(String exportHeadersFootersModeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int exportHeadersFootersMode) {#getName-int-}
 ```
 public static String getName(int exportHeadersFootersMode)

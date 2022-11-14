@@ -1,6 +1,6 @@
 ---
-title: WebExtensionBinding类型
-second_title: Aspose.Words for Java API Reference
+title: WebExtensionBindingType
+second_title: Aspose.Words for Java API 参考
 description: 枚举 Web 扩展和文档中数据之间的可用绑定类型。
 type: docs
 weight: 614
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/webextensionbindingtype/
 **遗产:**
 java.lang.Object
 ```
-public class WebExtensionBinding类型
+public class WebExtensionBindingType
 ```
 
 枚举 Web 扩展和文档中数据之间的可用绑定类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [DEFAULT](#DEFAULT) |  |
 | [MATRIX](#MATRIX) | 没有标题行的表格数据。 |
@@ -28,15 +28,15 @@ public class WebExtensionBinding类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String webExtensionBinding类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int webExtensionBinding类型)](#getName-int-) |  |
+| [fromName(String webExtensionBindingTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int webExtensionBindingType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int webExtensionBinding类型)](#toString-int-) |  |
+| [toString(int webExtensionBindingType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -91,9 +91,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String webExtensionBinding类型Name) {#fromName-java.lang.String-}
+### fromName(String webExtensionBindingTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String webExtensionBinding类型Name)
+public static int fromName(String webExtensionBindingTypeName)
 ```
 
 
@@ -102,23 +102,23 @@ public static int fromName(String webExtensionBinding类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| webExtensionBinding类型Name | java.lang.String |  |
+| webExtensionBindingTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int webExtensionBinding类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int webExtensionBindingType) {#getName-int-}
 ```
-public static String getName(int webExtensionBinding类型)
+public static String getName(int webExtensionBindingType)
 ```
 
 
@@ -127,7 +127,7 @@ public static String getName(int webExtensionBinding类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| webExtensionBinding类型 | int |  |
+| webExtensionBindingType | int |  |
 
 **退货:**
 java.lang.String
@@ -177,9 +177,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int webExtensionBinding类型) {#toString-int-}
+### toString(int webExtensionBindingType) {#toString-int-}
 ```
-public static String toString(int webExtensionBinding类型)
+public static String toString(int webExtensionBindingType)
 ```
 
 
@@ -188,7 +188,7 @@ public static String toString(int webExtensionBinding类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| webExtensionBinding类型 | int |  |
+| webExtensionBindingType | int |  |
 
 **退货:**
 java.lang.String

@@ -1,6 +1,6 @@
 ---
 title: EmbeddedFontStyle
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定对象内嵌入字体的样式。
 type: docs
 weight: 142
@@ -16,10 +16,10 @@ public class EmbeddedFontStyle
 指定嵌入字体的样式[FontInfo](../../com.aspose.words/fontinfo)目的。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BOLD](#BOLD) | 指定粗体嵌入字体。 |
-| [BOLD_ITALIC](#BOLD-ITALIC) | 指定粗斜体嵌入字体。 |
+| [BOLD_ITALIC](#BOLD-ITALIC) | 指定 Bold-Italic 嵌入字体。 |
 | [ITALIC](#ITALIC) | 指定斜体嵌入字体。 |
 | [REGULAR](#REGULAR) | 指定常规嵌入字体。 |
 | [length](#length) |  |
@@ -30,7 +30,7 @@ public class EmbeddedFontStyle
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String embeddedFontStyleName)](#fromName-java.lang.String-) |  |
 | [fromNames(Set embeddedFontStyleNames)](#fromNames-java.util.Set-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int embeddedFontStyle)](#getName-int-) |  |
 | [getNames(int embeddedFontStyle)](#getNames-int-) |  |
 | [getValues()](#getValues--) |  |
@@ -57,7 +57,7 @@ public static int BOLD_ITALIC
 ```
 
 
-指定粗斜体嵌入字体。
+指定 Bold-Italic 嵌入字体。
 
 ### ITALIC {#ITALIC}
 ```
@@ -126,16 +126,16 @@ public static int fromNames(Set embeddedFontStyleNames)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int embeddedFontStyle) {#getName-int-}
 ```
 public static String getName(int embeddedFontStyle)

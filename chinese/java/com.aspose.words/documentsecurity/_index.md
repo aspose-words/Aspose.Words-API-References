@@ -1,6 +1,6 @@
 ---
 title: DocumentSecurity
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 用作 / 属性的值。
 type: docs
 weight: 130
@@ -16,7 +16,7 @@ public class DocumentSecurity
 用作[BuiltInDocumentProperties.getSecurity()](../../com.aspose.words/builtindocumentproperties\#getSecurity--) / [BuiltInDocumentProperties.setSecurity(int)](../../com.aspose.words/builtindocumentproperties\#setSecurity-int-)财产。将文档的安全级别指定为数值。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [NONE](#NONE) | 该属性没有指定安全状态。 |
 | [PASSWORD_PROTECTED](#PASSWORD-PROTECTED) | 该文档受密码保护。 |
@@ -31,7 +31,7 @@ public class DocumentSecurity
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String documentSecurityName)](#fromName-java.lang.String-) |  |
 | [fromNames(Set documentSecurityNames)](#fromNames-java.util.Set-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int documentSecurity)](#getName-int-) |  |
 | [getNames(int documentSecurity)](#getNames-int-) |  |
 | [getValues()](#getValues--) |  |
@@ -135,16 +135,16 @@ public static int fromNames(Set documentSecurityNames)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int documentSecurity) {#getName-int-}
 ```
 public static String getName(int documentSecurity)

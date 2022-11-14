@@ -1,6 +1,6 @@
 ---
 title: ChartMarker
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示图表数据标记。
 type: docs
 weight: 66
@@ -24,7 +24,7 @@ public class ChartMarker implements Cloneable
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getFormat()](#getFormat--) | 提供对此标记的填充和线条格式的访问。 |
 | [getSize()](#getSize--) | 获取图表标记大小。 |
 | [getSymbol()](#getSymbol--) | 获取图表标记符号。 |
@@ -53,16 +53,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getFormat() {#getFormat--}
 ```
 public ChartFormat getFormat()
@@ -151,7 +151,7 @@ public void setSymbol(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 图表标记符号。该值必须是以下之一[MarkerSymbol](../../com.aspose.words/markersymbol)常数。 |
+| value | int | 图表标记符号。该值必须是其中之一[MarkerSymbol](../../com.aspose.words/markersymbol)常数。 |
 
 ### toString() {#toString--}
 ```

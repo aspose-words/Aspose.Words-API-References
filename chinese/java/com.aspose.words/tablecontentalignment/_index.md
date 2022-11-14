@@ -1,6 +1,6 @@
 ---
 title: TableContentAlignment
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许指定导出为 Markdown 格式时要使用的表格内容的对齐方式。
 type: docs
 weight: 551
@@ -16,9 +16,9 @@ public class TableContentAlignment
 允许指定导出为 Markdown 格式时要使用的表格内容的对齐方式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
-| [AUTO](#AUTO) | 对齐将取自相应表格列中的第一段。 |
+| [AUTO](#AUTO) | 对齐将从相应表格列中的第一段获取。 |
 | [CENTER](#CENTER) | 表格的内容将与中心对齐。 |
 | [LEFT](#LEFT) | 表格的内容将左对齐。 |
 | [RIGHT](#RIGHT) | 表格的内容将向右对齐。 |
@@ -29,7 +29,7 @@ public class TableContentAlignment
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String tableContentAlignmentName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int tableContentAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -46,7 +46,7 @@ public static int AUTO
 ```
 
 
-对齐将取自相应表格列中的第一段。
+对齐将从相应表格列中的第一段获取。
 
 ### CENTER {#CENTER}
 ```
@@ -108,16 +108,16 @@ public static int fromName(String tableContentAlignmentName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int tableContentAlignment) {#getName-int-}
 ```
 public static String getName(int tableContentAlignment)

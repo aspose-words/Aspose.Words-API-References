@@ -1,6 +1,6 @@
 ---
 title: PageVerticalAlignment
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定每页上文本的垂直对齐方式。
 type: docs
 weight: 441
@@ -16,7 +16,7 @@ public class PageVerticalAlignment
 指定每页上文本的垂直对齐方式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BOTTOM](#BOTTOM) | 文本在页面底部对齐。 |
 | [CENTER](#CENTER) | 文本在页面中间对齐。 |
@@ -29,7 +29,7 @@ public class PageVerticalAlignment
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pageVerticalAlignmentName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int pageVerticalAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -108,16 +108,16 @@ public static int fromName(String pageVerticalAlignmentName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int pageVerticalAlignment) {#getName-int-}
 ```
 public static String getName(int pageVerticalAlignment)

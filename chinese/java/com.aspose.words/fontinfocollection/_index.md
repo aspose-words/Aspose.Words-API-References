@@ -1,6 +1,6 @@
 ---
 title: FontInfoCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示文档中使用的字体集合。
 type: docs
 weight: 281
@@ -22,7 +22,7 @@ public class FontInfoCollection implements Iterable
 
 项目是[FontInfo](../../com.aspose.words/fontinfo)对象。
 
-您不直接创建此类的实例。使用[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--)属性来访问文档中定义的字体集合。
+您不直接创建此类的实例。使用[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--)属性以访问文档中定义的字体集合。
 ## 方法
 
 | 方法 | 描述 |
@@ -31,18 +31,18 @@ public class FontInfoCollection implements Iterable
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 获取指定索引处的字体。 |
 | [get(String name)](#get-java.lang.String-) | 提供对集合项目的访问。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中包含的元素数。 |
 | [getEmbedSystemFonts()](#getEmbedSystemFonts--) | 指定是否将系统字体嵌入到文档中。 |
-| [getEmbedTrue类型Fonts()](#getEmbedTrue类型Fonts--) | 指定保存时是否在文档中嵌入 True类型 字体。 |
-| [getSaveSubsetFonts()](#getSaveSubsetFonts--) | 指定是否将嵌入的 True类型 字体的子集与文档一起保存。 |
+| [getEmbedTrueTypeFonts()](#getEmbedTrueTypeFonts--) | 指定保存时是否在文档中嵌入 TrueType 字体。 |
+| [getSaveSubsetFonts()](#getSaveSubsetFonts--) | 指定是否将嵌入的 TrueType 字体的子集与文档一起保存。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setEmbedSystemFonts(boolean value)](#setEmbedSystemFonts-boolean-) | 指定是否将系统字体嵌入到文档中。 |
-| [setEmbedTrue类型Fonts(boolean value)](#setEmbedTrue类型Fonts-boolean-) | 指定保存时是否在文档中嵌入 True类型 字体。 |
-| [setSaveSubsetFonts(boolean value)](#setSaveSubsetFonts-boolean-) | 指定是否将嵌入的 True类型 字体的子集与文档一起保存。 |
+| [setEmbedTrueTypeFonts(boolean value)](#setEmbedTrueTypeFonts-boolean-) | 指定保存时是否在文档中嵌入 TrueType 字体。 |
+| [setSaveSubsetFonts(boolean value)](#setSaveSubsetFonts-boolean-) | 指定是否将嵌入的 TrueType 字体的子集与文档一起保存。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -107,16 +107,16 @@ public FontInfo get(String name)
 
 **退货:**
 [FontInfo](../../com.aspose.words/fontinfo) - 相应的[FontInfo](../../com.aspose.words/fontinfo)价值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -135,7 +135,7 @@ public boolean getEmbedSystemFonts()
 
 指定是否将系统字体嵌入到文档中。此属性的默认值为**false**.
 
-此选项仅在以下情况下有效[getEmbedTrue类型Fonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrue类型Fonts--) / [setEmbedTrue类型Fonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrue类型Fonts-boolean-)选项设置为**true**.
+此选项仅在以下情况下有效[getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-)选项设置为**true**.
 
 如果用户在东亚系统上并且想要创建一个可供系统上没有该语言字体的其他人可读的文档，则将此属性设置为 True 很有用。例如，日文系统上的用户可以选择将字体嵌入文档中，以便日文文档在所有系统上都可以阅读。
 
@@ -143,15 +143,15 @@ public boolean getEmbedSystemFonts()
 
 **退货:**
 boolean - 对应的布尔值。
-### getEmbedTrue类型Fonts() {#getEmbedTrue类型Fonts--}
+### getEmbedTrueTypeFonts() {#getEmbedTrueTypeFonts--}
 ```
-public boolean getEmbedTrue类型Fonts()
+public boolean getEmbedTrueTypeFonts()
 ```
 
 
-指定保存时是否在文档中嵌入 True类型 字体。此属性的默认值为**false**.
+指定保存时是否在文档中嵌入 TrueType 字体。此属性的默认值为**false**.
 
-嵌入 True类型 字体允许其他人使用创建它时使用的相同字体查看文档，但可能会大大增加文档大小。
+嵌入 TrueType 字体允许其他人使用创建它时使用的相同字体查看文档，但可能会大大增加文档大小。
 
 此选项仅适用于 DOC、DOCX 和 RTF 格式。
 
@@ -163,9 +163,9 @@ public boolean getSaveSubsetFonts()
 ```
 
 
-指定是否将嵌入的 True类型 字体的子集与文档一起保存。此属性的默认值为**false**.
+指定是否将嵌入的 TrueType 字体的子集与文档一起保存。此属性的默认值为**false**.
 
-此选项仅在以下情况下有效[getEmbedTrue类型Fonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrue类型Fonts--) / [setEmbedTrue类型Fonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrue类型Fonts-boolean-)属性设置为**true**.
+此选项仅在以下情况下有效[getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-)属性设置为**true**.
 
 此选项仅适用于 DOC、DOCX 和 RTF 格式。
 
@@ -215,7 +215,7 @@ public void setEmbedSystemFonts(boolean value)
 
 指定是否将系统字体嵌入到文档中。此属性的默认值为**false**.
 
-此选项仅在以下情况下有效[getEmbedTrue类型Fonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrue类型Fonts--) / [setEmbedTrue类型Fonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrue类型Fonts-boolean-)选项设置为**true**.
+此选项仅在以下情况下有效[getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-)选项设置为**true**.
 
 如果用户在东亚系统上并且想要创建一个可供系统上没有该语言字体的其他人可读的文档，则将此属性设置为 True 很有用。例如，日文系统上的用户可以选择将字体嵌入文档中，以便日文文档在所有系统上都可以阅读。
 
@@ -226,15 +226,15 @@ public void setEmbedSystemFonts(boolean value)
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
 
-### setEmbedTrue类型Fonts(boolean value) {#setEmbedTrue类型Fonts-boolean-}
+### setEmbedTrueTypeFonts(boolean value) {#setEmbedTrueTypeFonts-boolean-}
 ```
-public void setEmbedTrue类型Fonts(boolean value)
+public void setEmbedTrueTypeFonts(boolean value)
 ```
 
 
-指定保存时是否在文档中嵌入 True类型 字体。此属性的默认值为**false**.
+指定保存时是否在文档中嵌入 TrueType 字体。此属性的默认值为**false**.
 
-嵌入 True类型 字体允许其他人使用创建它时使用的相同字体查看文档，但可能会大大增加文档大小。
+嵌入 TrueType 字体允许其他人使用创建它时使用的相同字体查看文档，但可能会大大增加文档大小。
 
 此选项仅适用于 DOC、DOCX 和 RTF 格式。
 
@@ -249,9 +249,9 @@ public void setSaveSubsetFonts(boolean value)
 ```
 
 
-指定是否将嵌入的 True类型 字体的子集与文档一起保存。此属性的默认值为**false**.
+指定是否将嵌入的 TrueType 字体的子集与文档一起保存。此属性的默认值为**false**.
 
-此选项仅在以下情况下有效[getEmbedTrue类型Fonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrue类型Fonts--) / [setEmbedTrue类型Fonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrue类型Fonts-boolean-)属性设置为**true**.
+此选项仅在以下情况下有效[getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-)属性设置为**true**.
 
 此选项仅适用于 DOC、DOCX 和 RTF 格式。
 

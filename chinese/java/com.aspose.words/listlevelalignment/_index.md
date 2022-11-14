@@ -1,6 +1,6 @@
 ---
 title: ListLevelAlignment
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定列表编号或项目符号的对齐方式。
 type: docs
 weight: 373
@@ -18,7 +18,7 @@ public class ListLevelAlignment
 用作[ListLevel.getAlignment()](../../com.aspose.words/listlevel\#getAlignment--) / [ListLevel.setAlignment(int)](../../com.aspose.words/listlevel\#setAlignment-int-)财产。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CENTER](#CENTER) | 列表标签以数字位置为中心。 |
 | [LEFT](#LEFT) | 列表标签与编号位置的左侧对齐。 |
@@ -30,7 +30,7 @@ public class ListLevelAlignment
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String listLevelAlignmentName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int listLevelAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -101,16 +101,16 @@ public static int fromName(String listLevelAlignmentName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int listLevelAlignment) {#getName-int-}
 ```
 public static String getName(int listLevelAlignment)

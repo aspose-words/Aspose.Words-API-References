@@ -1,6 +1,6 @@
 ---
 title: FontSubstitutionRule
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 这是字体替换规则的抽象基类。
 type: docs
 weight: 289
@@ -26,7 +26,7 @@ public abstract class FontSubstitutionRule
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getEnabled()](#getEnabled--) | 指定是否启用规则。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -57,16 +57,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getEnabled() {#getEnabled--}
 ```
 public boolean getEnabled()

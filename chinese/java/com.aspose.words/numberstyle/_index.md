@@ -1,6 +1,6 @@
 ---
 title: NumberStyle
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定列表脚注和尾注页码的编号样式。
 type: docs
 weight: 409
@@ -16,7 +16,7 @@ public class NumberStyle
 指定列表、脚注和尾注、页码的编号样式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [AIUEO](#AIUEO) | Aiueo 全宽 |
 | [AIUEO_HALF_WIDTH](#AIUEO-HALF-WIDTH) | 爱尤奥 |
@@ -87,7 +87,7 @@ public class NumberStyle
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String numberStyleName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int numberStyle)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -630,16 +630,16 @@ public static int fromName(String numberStyleName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int numberStyle) {#getName-int-}
 ```
 public static String getName(int numberStyle)

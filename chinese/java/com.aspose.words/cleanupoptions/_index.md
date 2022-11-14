@@ -1,6 +1,6 @@
 ---
 title: CleanupOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许指定文档清理选项。
 type: docs
 weight: 73
@@ -21,7 +21,7 @@ public class CleanupOptions
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDuplicateStyle()](#getDuplicateStyle--) | 获取/设置一个标志，指示是否应从文档中删除重复样式。 |
 | [getUnusedBuiltinStyles()](#getUnusedBuiltinStyles--) | 指定未使用的[Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn--)样式应从文档中删除。 |
 | [getUnusedLists()](#getUnusedLists--) | 指定是否应从文档中删除未使用的列表和列表定义。 |
@@ -52,16 +52,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDuplicateStyle() {#getDuplicateStyle--}
 ```
 public boolean getDuplicateStyle()

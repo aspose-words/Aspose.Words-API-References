@@ -1,6 +1,6 @@
 ---
 title: ContinuousSectionRestart
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示在重新开始页码的连续部分中计算页码时的不同行为。
 type: docs
 weight: 93
@@ -16,10 +16,10 @@ public class ContinuousSectionRestart
 表示在重新开始页码的连续部分中计算页码时的不同行为。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
-| [ALWAYS](#ALWAYS) | 无论内容流如何，页码总是会重新开始。 |
-| [FROM_NEW_PAGE_ONLY](#FROM-NEW-PAGE-ONLY) | 仅当节开始的页面上的节之前没有其他内容时，页码才会重新开始。 |
+| [ALWAYS](#ALWAYS) | 无论内容流如何，页码总是重新开始。 |
+| [FROM_NEW_PAGE_ONLY](#FROM-NEW-PAGE-ONLY) | 仅当该部分开始的页面上的部分之前没有其他内容时，页码才会重新开始。 |
 | [length](#length) |  |
 ## 方法
 
@@ -27,7 +27,7 @@ public class ContinuousSectionRestart
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String continuousSectionRestartName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int continuousSectionRestart)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int ALWAYS
 ```
 
 
-无论内容流如何，页码总是会重新开始。除 Word 2016 外，所有 MS Word 版本均显示此行为。
+无论内容流如何，页码总是重新开始。除 Word 2016 外，所有 MS Word 版本均展示了此行为。
 
 ### FROM_NEW_PAGE_ONLY {#FROM-NEW-PAGE-ONLY}
 ```
@@ -52,7 +52,7 @@ public static int FROM_NEW_PAGE_ONLY
 ```
 
 
-仅当节开始的页面上的节之前没有其他内容时，页码才会重新开始。 MS Word 2016 演示了该行为。
+仅当该部分开始的页面上的部分之前没有其他内容时，页码才会重新开始。该行为由 MS Word 2016 演示。
 
 ### length {#length}
 ```
@@ -90,16 +90,16 @@ public static int fromName(String continuousSectionRestartName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int continuousSectionRestart) {#getName-int-}
 ```
 public static String getName(int continuousSectionRestart)

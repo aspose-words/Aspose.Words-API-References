@@ -1,6 +1,6 @@
 ---
 title: ArrowLength
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 行尾箭头的长度。
 type: docs
 weight: 11
@@ -16,7 +16,7 @@ public class ArrowLength
 行尾箭头的长度。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [DEFAULT](#DEFAULT) | 如同[SHORT](../../com.aspose.words/arrowlength\#SHORT). |
 | [LONG](#LONG) |  |
@@ -29,7 +29,7 @@ public class ArrowLength
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String arrowLengthName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int arrowLength)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -108,16 +108,16 @@ public static int fromName(String arrowLengthName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int arrowLength) {#getName-int-}
 ```
 public static String getName(int arrowLength)

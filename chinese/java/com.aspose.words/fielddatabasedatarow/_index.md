@@ -1,6 +1,6 @@
 ---
-title: 字段DatabaseDataRow
-second_title: Aspose.Words for Java API Reference
+title: FieldDatabaseDataRow
+second_title: Aspose.Words for Java API 参考
 description: 为字段结果提供数据。
 type: docs
 weight: 175
@@ -10,24 +10,24 @@ url: /zh/java/com.aspose.words/fielddatabasedatarow/
 **遗产:**
 java.lang.Object
 ```
-public class 字段DatabaseDataRow
+public class FieldDatabaseDataRow
 ```
 
-提供数据为[字段Database](../../com.aspose.words/fielddatabase)场结果。
+提供数据为[FieldDatabase](../../com.aspose.words/fielddatabase)场结果。
 
 要了解更多信息，请访问**Working with 字段**文档文章。
 ## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [字段DatabaseDataRow(String[] values)](#字段DatabaseDataRow-java.lang.String...-) | 初始化一个新的实例[字段DatabaseDataRow](../../com.aspose.words/fielddatabasedatarow)班级。 |
+| [FieldDatabaseDataRow(String[] values)](#FieldDatabaseDataRow-java.lang.String...-) | 初始化一个新的实例[FieldDatabaseDataRow](../../com.aspose.words/fielddatabasedatarow)班级。 |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [createFrom(System.Data.DataRow dataRow)](#createFrom-com.aspose.words.net.System.Data.DataRow-) | 初始化一个新的实例[字段DatabaseDataRow](../../com.aspose.words/fielddatabasedatarow)类从[DataRow](../../com.aspose.words.net.system.data/datarow)实例。 |
+| [createFrom(System.Data.DataRow dataRow)](#createFrom-com.aspose.words.net.System.Data.DataRow-) | 初始化一个新的实例[FieldDatabaseDataRow](../../com.aspose.words/fielddatabasedatarow)类从[DataRow](../../com.aspose.words.net.system.data/datarow)实例。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getValues()](#getValues--) | 获取属于该行的值。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -36,13 +36,13 @@ public class 字段DatabaseDataRow
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### 字段DatabaseDataRow(String[] values) {#字段DatabaseDataRow-java.lang.String...-}
+### FieldDatabaseDataRow(String[] values) {#FieldDatabaseDataRow-java.lang.String...-}
 ```
-public 字段DatabaseDataRow(String[] values)
+public FieldDatabaseDataRow(String[] values)
 ```
 
 
-初始化一个新的实例[字段DatabaseDataRow](../../com.aspose.words/fielddatabasedatarow)班级。
+初始化一个新的实例[FieldDatabaseDataRow](../../com.aspose.words/fielddatabasedatarow)班级。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -51,11 +51,11 @@ public 字段DatabaseDataRow(String[] values)
 
 ### createFrom(System.Data.DataRow dataRow) {#createFrom-com.aspose.words.net.System.Data.DataRow-}
 ```
-public static 字段DatabaseDataRow createFrom(System.Data.DataRow dataRow)
+public static FieldDatabaseDataRow createFrom(System.Data.DataRow dataRow)
 ```
 
 
-初始化一个新的实例[字段DatabaseDataRow](../../com.aspose.words/fielddatabasedatarow)类从[DataRow](../../com.aspose.words.net.system.data/datarow)实例。
+初始化一个新的实例[FieldDatabaseDataRow](../../com.aspose.words/fielddatabasedatarow)类从[DataRow](../../com.aspose.words.net.system.data/datarow)实例。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -63,7 +63,7 @@ public static 字段DatabaseDataRow createFrom(System.Data.DataRow dataRow)
 | dataRow | [DataRow](../../com.aspose.words.net.system.data/datarow) |  |
 
 **退货:**
-[字段DatabaseDataRow](../../com.aspose.words/fielddatabasedatarow)
+[FieldDatabaseDataRow](../../com.aspose.words/fielddatabasedatarow)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -79,16 +79,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getValues() {#getValues--}
 ```
 public String[] getValues()

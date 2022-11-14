@@ -1,7 +1,7 @@
 ---
 title: PageBorderAppliesTo
-second_title: Aspose.Words for Java API Reference
-description: 指定打印页面边框的页面。
+second_title: Aspose.Words for Java API 参考
+description: 指定在哪些页面上打印页面边框。
 type: docs
 weight: 432
 url: /zh/java/com.aspose.words/pageborderappliesto/
@@ -13,14 +13,14 @@ java.lang.Object
 public class PageBorderAppliesTo
 ```
 
-指定打印页面边框的页面。
+指定在哪些页面上打印页面边框。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [ALL_PAGES](#ALL-PAGES) | 页面边框显示在该部分的所有页面上。 |
 | [FIRST_PAGE](#FIRST-PAGE) | 页面边框仅显示在该部分的第一页上。 |
-| [OTHER_PAGES](#OTHER-PAGES) | 页面边框显示在除该部分的第一页之外的所有页面上。 |
+| [OTHER_PAGES](#OTHER-PAGES) | 除该部分的第一页外，所有页面都显示页面边框。 |
 | [length](#length) |  |
 ## 方法
 
@@ -28,7 +28,7 @@ public class PageBorderAppliesTo
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pageBorderAppliesToName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int pageBorderAppliesTo)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -61,7 +61,7 @@ public static int OTHER_PAGES
 ```
 
 
-页面边框显示在除该部分的第一页之外的所有页面上。
+除该部分的第一页外，所有页面都显示页面边框。
 
 ### length {#length}
 ```
@@ -99,16 +99,16 @@ public static int fromName(String pageBorderAppliesToName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int pageBorderAppliesTo) {#getName-int-}
 ```
 public static String getName(int pageBorderAppliesTo)

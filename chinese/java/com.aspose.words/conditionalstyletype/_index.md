@@ -1,6 +1,6 @@
 ---
-title: ConditionalStyle类型
-second_title: Aspose.Words for Java API Reference
+title: ConditionalStyleType
+second_title: Aspose.Words for Java API 参考
 description: 表示可以在表格样式中定义条件格式的可能表格区域。
 type: docs
 weight: 91
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/conditionalstyletype/
 **遗产:**
 java.lang.Object
 ```
-public class ConditionalStyle类型
+public class ConditionalStyleType
 ```
 
 表示可以在表格样式中定义条件格式的可能表格区域。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BOTTOM_LEFT_CELL](#BOTTOM-LEFT-CELL) | 指定表格左下角单元格的格式。 |
 | [BOTTOM_RIGHT_CELL](#BOTTOM-RIGHT-CELL) | 指定表格右下角单元格的格式。 |
@@ -36,15 +36,15 @@ public class ConditionalStyle类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String conditionalStyle类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int conditionalStyle类型)](#getName-int-) |  |
+| [fromName(String conditionalStyleTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int conditionalStyleType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int conditionalStyle类型)](#toString-int-) |  |
+| [toString(int conditionalStyleType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -165,9 +165,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String conditionalStyle类型Name) {#fromName-java.lang.String-}
+### fromName(String conditionalStyleTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String conditionalStyle类型Name)
+public static int fromName(String conditionalStyleTypeName)
 ```
 
 
@@ -176,23 +176,23 @@ public static int fromName(String conditionalStyle类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| conditionalStyle类型Name | java.lang.String |  |
+| conditionalStyleTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int conditionalStyle类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int conditionalStyleType) {#getName-int-}
 ```
-public static String getName(int conditionalStyle类型)
+public static String getName(int conditionalStyleType)
 ```
 
 
@@ -201,7 +201,7 @@ public static String getName(int conditionalStyle类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| conditionalStyle类型 | int |  |
+| conditionalStyleType | int |  |
 
 **退货:**
 java.lang.String
@@ -251,9 +251,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int conditionalStyle类型) {#toString-int-}
+### toString(int conditionalStyleType) {#toString-int-}
 ```
-public static String toString(int conditionalStyle类型)
+public static String toString(int conditionalStyleType)
 ```
 
 
@@ -262,7 +262,7 @@ public static String toString(int conditionalStyle类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| conditionalStyle类型 | int |  |
+| conditionalStyleType | int |  |
 
 **退货:**
 java.lang.String

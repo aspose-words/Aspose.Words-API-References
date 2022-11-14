@@ -1,6 +1,6 @@
 ---
 title: NodeList
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示与使用该方法执行的 XPath 查询匹配的节点集合。
 type: docs
 weight: 406
@@ -24,14 +24,14 @@ public class NodeList implements Iterable
 
 **NodeList**支持索引访问和迭代。
 
-对待**NodeList**集合作为“快照”集合。**NodeList**以“实时”集合开始，因为在运行 XPath 查询时实际上并未检索到节点。节点仅在访问时被检索，此时节点和它之前的所有节点都被缓存，形成一个“快照”集合。
+对待**NodeList**集合作为“快照”集合。**NodeList**作为“实时”集合开始，因为在运行 XPath 查询时实际上并未检索节点。仅在访问时检索节点，此时节点和它之前的所有节点都被缓存起来，形成一个“快照”集合。
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 检索给定索引处的节点。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取列表中的节点数。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 在节点集合上提供简单的“foreach”样式迭代。 |
@@ -65,13 +65,13 @@ public Node get(int index)
 
 检索给定索引处的节点。
 
-该索引从零开始。
+该指数是从零开始的。
 
-允许使用负索引并指示从集合的背面进行访问。例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
+允许使用负索引，表示从集合的后面访问。例如 -1 表示最后一项，-2 表示倒数第二项，依此类推。
 
-如果 index 大于或等于列表中的项目数，则返回空引用。
+如果索引大于或等于列表中的项目数，则返回空引用。
 
-如果 index 为负且其绝对值大于列表中的项目数，则返回空引用。
+如果索引为负且其绝对值大于列表中的项目数，则返回空引用。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -80,16 +80,16 @@ public Node get(int index)
 
 **退货:**
 [Node](../../com.aspose.words/node) - 相应的[Node](../../com.aspose.words/node)价值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

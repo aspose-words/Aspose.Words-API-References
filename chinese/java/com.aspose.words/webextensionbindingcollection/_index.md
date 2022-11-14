@@ -1,6 +1,6 @@
 ---
 title: WebExtensionBindingCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定 Web 扩展绑定列表。
 type: docs
 weight: 613
@@ -23,7 +23,7 @@ public class WebExtensionBindingCollection extends BaseWebExtensionCollection
 | [clear()](#clear--) | 从集合中移除所有元素。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 获取指定索引处的项目。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中包含的元素数。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 返回一个可以遍历集合的枚举器。 |
@@ -72,16 +72,16 @@ public Object get(int index)
 
 **退货:**
 java.lang.Object - 指定索引处的项目。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

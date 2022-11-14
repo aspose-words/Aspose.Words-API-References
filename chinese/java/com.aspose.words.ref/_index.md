@@ -1,6 +1,6 @@
 ---
 title: com.aspose.words.ref
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 提供模仿 Java 中的 .NET Out/Ref 语言构造。
 type: docs
 weight: 15

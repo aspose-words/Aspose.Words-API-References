@@ -1,6 +1,6 @@
 ---
 title: EditableRange
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示单个可编辑范围。
 type: docs
 weight: 136
@@ -23,18 +23,18 @@ public class EditableRange
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getEditableRangeEnd()](#getEditableRangeEnd--) | 获取表示可编辑范围结束的节点。 |
-| [getEditableRangeStart()](#getEditableRangeStart--) | 获取表示可编辑范围开始的节点。 |
-| [getEditorGroup()](#getEditorGroup--) | 获取别名（或编辑组），用于确定是否允许当前用户编辑此可编辑范围。 |
+| [getEditableRangeStart()](#getEditableRangeStart--) | 获取表示可编辑范围起点的节点。 |
+| [getEditorGroup()](#getEditorGroup--) | 获取一个别名（或编辑组），该别名将用于确定是否允许当前用户编辑此可编辑范围。 |
 | [getId()](#getId--) | 获取可编辑范围标识符。 |
 | [getSingleUser()](#getSingleUser--) | 获取可编辑范围的单个用户。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [remove()](#remove--) | 从文档中删除可编辑范围。 |
-| [setEditorGroup(int value)](#setEditorGroup-int-) | 设置别名（或编辑组），用于确定是否允许当前用户编辑此可编辑范围。 |
-| [setSingleUser(String value)](#setSingleUser-java.lang.String-) | 为可编辑范围设置单个用户。 |
+| [setEditorGroup(int value)](#setEditorGroup-int-) | 设置一个别名（或编辑组），用于确定是否允许当前用户编辑此可编辑范围。 |
+| [setSingleUser(String value)](#setSingleUser-java.lang.String-) | 设置可编辑范围的单个用户。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -54,16 +54,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getEditableRangeEnd() {#getEditableRangeEnd--}
 ```
 public EditableRangeEnd getEditableRangeEnd()
@@ -80,7 +80,7 @@ public EditableRangeStart getEditableRangeStart()
 ```
 
 
-获取表示可编辑范围开始的节点。
+获取表示可编辑范围起点的节点。
 
 **退货:**
 [EditableRangeStart](../../com.aspose.words/editablerangestart) - 表示可编辑范围开始的节点。
@@ -90,12 +90,12 @@ public int getEditorGroup()
 ```
 
 
-获取别名（或编辑组），用于确定是否允许当前用户编辑此可编辑范围。
+获取一个别名（或编辑组），该别名将用于确定是否允许当前用户编辑此可编辑范围。
 
-特定可编辑范围不能同时设置单个用户和编辑组，如果设置了一个，另一个将被清除。
+具体可编辑范围不能同时设置单个用户和编辑组，如果设置了一个，另一个将被清除。
 
 **退货:**
-int - 一个别名（或编辑组），用于确定是否允许当前用户编辑此可编辑范围。返回值是以下之一[Editor类型](../../com.aspose.words/editortype)常数。
+int - 一个别名（或编辑组），用于确定是否允许当前用户编辑此可编辑范围。返回值是以下之一[EditorType](../../com.aspose.words/editortype)常数。
 ### getId() {#getId--}
 ```
 public int getId()
@@ -126,7 +126,7 @@ user@domain.com - 用于访问应使用用户的电子邮件地址作为凭据�
 
 user - 用于访问应使用当前用户的机器凭据进行身份验证的用户。
 
-特定可编辑范围不能同时设置单个用户和编辑组，如果设置了一个，另一个将被清除。
+具体可编辑范围不能同时设置单个用户和编辑组，如果设置了一个，另一个将被清除。
 
 **退货:**
 java.lang.String - 可编辑范围的单个用户。
@@ -170,14 +170,14 @@ public void setEditorGroup(int value)
 ```
 
 
-设置别名（或编辑组），用于确定是否允许当前用户编辑此可编辑范围。
+设置一个别名（或编辑组），用于确定是否允许当前用户编辑此可编辑范围。
 
-特定可编辑范围不能同时设置单个用户和编辑组，如果设置了一个，另一个将被清除。
+具体可编辑范围不能同时设置单个用户和编辑组，如果设置了一个，另一个将被清除。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 别名（或编辑组），用于确定是否允许当前用户编辑此可编辑范围。该值必须是以下之一[Editor类型](../../com.aspose.words/editortype)常数。 |
+| value | int | 一个别名（或编辑组），用于确定是否允许当前用户编辑此可编辑范围。该值必须是以下之一[EditorType](../../com.aspose.words/editortype)常数。 |
 
 ### setSingleUser(String value) {#setSingleUser-java.lang.String-}
 ```
@@ -185,7 +185,7 @@ public void setSingleUser(String value)
 ```
 
 
-为可编辑范围设置单个用户。
+设置可编辑范围的单个用户。
 
 此编辑器可以以下列形式之一存储：
 
@@ -195,7 +195,7 @@ user@domain.com - 用于访问应使用用户的电子邮件地址作为凭据�
 
 user - 用于访问应使用当前用户的机器凭据进行身份验证的用户。
 
-特定可编辑范围不能同时设置单个用户和编辑组，如果设置了一个，另一个将被清除。
+具体可编辑范围不能同时设置单个用户和编辑组，如果设置了一个，另一个将被清除。
 
 **参数:**
 | 范围 | 类型 | 描述 |

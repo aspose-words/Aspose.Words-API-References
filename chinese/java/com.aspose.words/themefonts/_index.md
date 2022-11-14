@@ -1,6 +1,6 @@
 ---
 title: ThemeFonts
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示字体方案中的字体集合，允许为不同的语言 / / 和 / 指定不同的字体。
 type: docs
 weight: 577
@@ -24,7 +24,7 @@ public class ThemeFonts implements Cloneable
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getComplexScript()](#getComplexScript--) | 指定 ComplexScript 字符的字体名称。 |
 | [getEastAsian()](#getEastAsian--) | 指定东亚字符的字体名称。 |
 | [getLatin()](#getLatin--) | 指定拉丁字符的字体名称。 |
@@ -53,16 +53,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getComplexScript() {#getComplexScript--}
 ```
 public String getComplexScript()

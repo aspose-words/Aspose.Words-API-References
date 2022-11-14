@@ -1,6 +1,6 @@
 ---
 title: CellFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示表格单元格的所有格式。
 type: docs
 weight: 50
@@ -26,7 +26,7 @@ public class CellFormat
 | [fetchInheritedShadingAttr(int key)](#fetchInheritedShadingAttr-int-) |  |
 | [getBorders()](#getBorders--) | 获取单元格边框的集合。 |
 | [getBottomPadding()](#getBottomPadding--) | 获取要添加到单元格内容下方的空间量（以磅为单位）。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int-) |  |
 | [getFitText()](#getFitText--) | 如果为 true，则适合单元格中的文本，将每个段落压缩到单元格的宽度。 |
 | [getHorizontalMerge()](#getHorizontalMerge--) | 指定单元格如何与行中的其他单元格水平合并。 |
@@ -134,16 +134,16 @@ public double getBottomPadding()
 
 **退货:**
 double - 在单元格内容下方添加的空间量（以磅为单位）。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDirectBorderAttr(int key) {#getDirectBorderAttr-int-}
 ```
 public Object getDirectBorderAttr(int key)
@@ -207,9 +207,9 @@ public PreferredWidth getPreferredWidth()
 
 获取单元格的首选宽度。
 
-首选宽度（连同表格的自动调整选项）决定了表格布局算法如何计算单元格的实际宽度。表格布局可以在保存文档时由 Aspose.Words 执行，或者在显示文档时由 Microsoft Word 执行。
+首选宽度（连同表格的自动调整选项）决定了表格布局算法如何计算单元格的实际宽度。表格布局可以在保存文档时由 Aspose.Words 执行，也可以在显示文档时由 Microsoft Word 执行。
 
-首选宽度可以以磅或百分比指定。首选宽度也可以指定为“auto”，这意味着没有指定首选宽度。
+可以以点或百分比指定首选宽度。首选宽度也可以指定为“自动”，这意味着没有指定首选宽度。
 
 默认值为[PreferredWidth.AUTO](../../com.aspose.words/preferredwidth\#AUTO).
 
@@ -234,7 +234,7 @@ public Shading getShading()
 返回一个 Shading 对象，该对象引用单元格的着色格式。
 
 **退货:**
-[Shading](../../com.aspose.words/shading) - 引用单元格的阴影格式的 Shading 对象。
+[Shading](../../com.aspose.words/shading) - 一个 Shading 对象，它引用单元格的阴影格式。
 ### getTopPadding() {#getTopPadding--}
 ```
 public double getTopPadding()
@@ -254,7 +254,7 @@ public int getVerticalAlignment()
 获取单元格中文本的垂直对齐方式。
 
 **退货:**
- int - 单元格中文本的垂直对齐方式。返回值是以下之一[CellVerticalAlignment](../../com.aspose.words/cellverticalalignment)常数。
+ int - 单元格中文本的垂直对齐方式。返回值是其中之一[CellVerticalAlignment](../../com.aspose.words/cellverticalalignment)常数。
 ### getVerticalMerge() {#getVerticalMerge--}
 ```
 public int getVerticalMerge()
@@ -263,7 +263,7 @@ public int getVerticalMerge()
 
 指定单元格如何与其他单元格垂直合并。
 
-只有左右边界相同的单元格才能垂直合并。
+如果单元格的左右边界相同，则只能垂直合并单元格。
 
 垂直合并单元格时，合并单元格的显示区域合并。合并区域用于显示第一个垂直合并单元格的内容，其他所有垂直合并单元格必须为空。
 
@@ -422,9 +422,9 @@ public void setPreferredWidth(PreferredWidth value)
 
 设置单元格的首选宽度。
 
-首选宽度（连同表格的自动调整选项）决定了表格布局算法如何计算单元格的实际宽度。表格布局可以在保存文档时由 Aspose.Words 执行，或者在显示文档时由 Microsoft Word 执行。
+首选宽度（连同表格的自动调整选项）决定了表格布局算法如何计算单元格的实际宽度。表格布局可以在保存文档时由 Aspose.Words 执行，也可以在显示文档时由 Microsoft Word 执行。
 
-首选宽度可以以磅或百分比指定。首选宽度也可以指定为“auto”，这意味着没有指定首选宽度。
+可以以点或百分比指定首选宽度。首选宽度也可以指定为“自动”，这意味着没有指定首选宽度。
 
 默认值为[PreferredWidth.AUTO](../../com.aspose.words/preferredwidth\#AUTO).
 
@@ -480,7 +480,7 @@ public void setVerticalMerge(int value)
 
 指定单元格如何与其他单元格垂直合并。
 
-只有左右边界相同的单元格才能垂直合并。
+如果单元格的左右边界相同，则只能垂直合并单元格。
 
 垂直合并单元格时，合并单元格的显示区域合并。合并区域用于显示第一个垂直合并单元格的内容，其他所有垂直合并单元格必须为空。
 

@@ -1,6 +1,6 @@
 ---
 title: MetafileRenderingMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定 Aspose.Words 应如何呈现 WMF 和 EMF 元文件。
 type: docs
 weight: 396
@@ -16,7 +16,7 @@ public class MetafileRenderingMode
 指定 Aspose.Words 应如何呈现 WMF 和 EMF 元文件。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BITMAP](#BITMAP) | Aspose.Words 调用 GDI+ 将元文件呈现为位图，然后将位图保存到输出文档。 |
 | [VECTOR](#VECTOR) | Aspose.Words 将元文件呈现为矢量图形。 |
@@ -28,7 +28,7 @@ public class MetafileRenderingMode
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String metafileRenderingModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int metafileRenderingMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -99,16 +99,16 @@ public static int fromName(String metafileRenderingModeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int metafileRenderingMode) {#getName-int-}
 ```
 public static String getName(int metafileRenderingMode)

@@ -1,6 +1,6 @@
 ---
 title: ThemeFont
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定文档主题的主题字体名称类型。
 type: docs
 weight: 576
@@ -16,7 +16,7 @@ public class ThemeFont
 指定文档主题的主题字体名称类型。指定可以在父对象属性中作为主题字体引用的主题字体类型。此主题字体是对位于文档的主题部分中的预定义主题字体之一的引用，它允许在文档中集中设置字体信息。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [MAJOR](#MAJOR) | 主要主题字体。 |
 | [MINOR](#MINOR) | 次要主题字体。 |
@@ -28,7 +28,7 @@ public class ThemeFont
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String themeFontName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int themeFont)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -99,16 +99,16 @@ public static int fromName(String themeFontName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int themeFont) {#getName-int-}
 ```
 public static String getName(int themeFont)

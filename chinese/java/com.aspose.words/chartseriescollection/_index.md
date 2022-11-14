@@ -1,6 +1,6 @@
 ---
 title: ChartSeriesCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示 a 的集合。
 type: docs
 weight: 69
@@ -29,14 +29,14 @@ public class ChartSeriesCollection implements Iterable
 | [add(String seriesName, Date[] dates, double[] values)](#add-java.lang.String-java.util.Date---double---) | 添加新的[ChartSeries](../../com.aspose.words/chartseries)到这个集合。 |
 | [clear()](#clear--) | 删除所有[ChartSeries](../../com.aspose.words/chartseries)从这个集合。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 返回一个[ChartSeries](../../com.aspose.words/chartseries)在指定索引处。 |
-| [get班级()](#get班级--) |  |
+| [get(int index)](#get-int-) | 返回一个[ChartSeries](../../com.aspose.words/chartseries)在指定的索引处。 |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 返回数量[ChartSeries](../../com.aspose.words/chartseries)在这个集合中。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 返回一个枚举器对象。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | 删除一个[ChartSeries](../../com.aspose.words/chartseries)在指定索引处。 |
+| [removeAt(int index)](#removeAt-int-) | 删除一个[ChartSeries](../../com.aspose.words/chartseries)在指定的索引处。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -47,7 +47,7 @@ public ChartSeries add(String seriesName, double[] xValues, double[] yValues)
 ```
 
 
-添加新的[ChartSeries](../../com.aspose.words/chartseries)到这个集合。使用此方法将系列添加到任何类型的散点图。
+添加新的[ChartSeries](../../com.aspose.words/chartseries)到这个集合。使用此方法将系列添加到任何类型的散点图中。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -64,7 +64,7 @@ public ChartSeries add(String seriesName, double[] xValues, double[] yValues, do
 ```
 
 
-添加新的[ChartSeries](../../com.aspose.words/chartseries)到这个集合。使用此方法将系列添加到任何类型的气泡图。
+添加新的[ChartSeries](../../com.aspose.words/chartseries)到这个集合。使用此方法将系列添加到任何类型的气泡图中。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -82,7 +82,7 @@ public ChartSeries add(String seriesName, String[] categories, double[] values)
 ```
 
 
-添加新的[ChartSeries](../../com.aspose.words/chartseries)到这个集合。使用此方法可将系列添加到任何类型的条形图、柱形图、折线图和曲面图。
+添加新的[ChartSeries](../../com.aspose.words/chartseries)到这个集合。使用此方法将系列添加到任何类型的条形图、柱形图、折线图和曲面图。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -99,7 +99,7 @@ public ChartSeries add(String seriesName, Date[] dates, double[] values)
 ```
 
 
-添加新的[ChartSeries](../../com.aspose.words/chartseries)到这个集合。使用此方法将系列添加到任何类型的区域、雷达和股票图表。
+添加新的[ChartSeries](../../com.aspose.words/chartseries)到这个集合。使用此方法将系列添加到任何类型的面积图、雷达图和股票图。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -139,15 +139,15 @@ public ChartSeries get(int index)
 ```
 
 
-返回一个[ChartSeries](../../com.aspose.words/chartseries)在指定索引处。
+返回一个[ChartSeries](../../com.aspose.words/chartseries)在指定的索引处。
 
-该索引从零开始。
+该指数是从零开始的。
 
-允许使用负索引并指示从集合的背面进行访问。例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
+允许使用负索引，表示从集合的后面访问。例如 -1 表示最后一项，-2 表示倒数第二项，依此类推。
 
-如果 index 大于或等于列表中的项目数，则返回空引用。
+如果索引大于或等于列表中的项目数，则返回空引用。
 
-如果 index 为负且其绝对值大于列表中的项目数，则返回空引用。
+如果索引为负且其绝对值大于列表中的项目数，则返回空引用。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -155,17 +155,17 @@ public ChartSeries get(int index)
 | index | int | 集合中的索引。 |
 
 **退货:**
-[ChartSeries](../../com.aspose.words/chartseries) - 一个[ChartSeries](../../com.aspose.words/chartseries)在指定索引处。
-### get班级() {#get班级--}
+[ChartSeries](../../com.aspose.words/chartseries) - 一个[ChartSeries](../../com.aspose.words/chartseries)在指定的索引处。
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -218,7 +218,7 @@ public void removeAt(int index)
 ```
 
 
-删除一个[ChartSeries](../../com.aspose.words/chartseries)在指定索引处。
+删除一个[ChartSeries](../../com.aspose.words/chartseries)在指定的索引处。
 
 **参数:**
 | 范围 | 类型 | 描述 |

@@ -1,7 +1,7 @@
 ---
 title: ReportBuildOptions
-second_title: Aspose.Words for Java API Reference
-description: 指定在构建报告时控制行为的选项。
+second_title: Aspose.Words for Java API 参考
+description: 指定构建报告时控制行为的选项。
 type: docs
 weight: 477
 url: /zh/java/com.aspose.words/reportbuildoptions/
@@ -16,13 +16,13 @@ public class ReportBuildOptions
 指定控制行为的选项[ReportingEngine](../../com.aspose.words/reportingengine)在构建报告时。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [ALLOW_MISSING_MEMBERS](#ALLOW-MISSING-MEMBERS) | 指定缺少的对象成员应被引擎视为空文字。 |
 | [INLINE_ERROR_MESSAGES](#INLINE-ERROR-MESSAGES) | 指定引擎应将模板语法错误消息内联到输出文档中。 |
 | [NONE](#NONE) | 指定默认选项。 |
-| [REMOVE_EMPTY_PARAGRAPHS](#REMOVE-EMPTY-PARAGRAPHS) | 指定在模板语法标签被删除或替换为空值后引擎应删除变为空的段落。 |
-| [RESPECT_JPEG_EXIF_ORIENTATION](#RESPECT-JPEG-EXIF-ORIENTATION) | 指定引擎应该使用 EXIF\\u200b\\u200bimage 方向值以适当地旋转插入的 JPEG 图像。 |
+| [REMOVE_EMPTY_PARAGRAPHS](#REMOVE-EMPTY-PARAGRAPHS) | 指定引擎应删除在模板语法标记被删除或替换为空值后变为空的段落。 |
+| [RESPECT_JPEG_EXIF_ORIENTATION](#RESPECT-JPEG-EXIF-ORIENTATION) | 指定引擎应使用 EXIF\\u200b\\u200bimage 方向值以适当地旋转插入的 JPEG 图像。 |
 | [USE_LEGACY_HEADER_FOOTER_VISITING](#USE-LEGACY-HEADER-FOOTER-VISITING) | 指定引擎应该按照与 Aspose.Words 21.9 之前的版本兼容的顺序访问部分子节点（页眉、页脚、正文）。 |
 | [length](#length) |  |
 ## 方法
@@ -32,7 +32,7 @@ public class ReportBuildOptions
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String reportBuildOptionsName)](#fromName-java.lang.String-) |  |
 | [fromNames(Set reportBuildOptionsNames)](#fromNames-java.util.Set-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int reportBuildOptions)](#getName-int-) |  |
 | [getNames(int reportBuildOptions)](#getNames-int-) |  |
 | [getValues()](#getValues--) |  |
@@ -75,7 +75,7 @@ public static int REMOVE_EMPTY_PARAGRAPHS
 ```
 
 
-指定在模板语法标签被删除或替换为空值后引擎应删除变为空的段落。
+指定引擎应删除在模板语法标记被删除或替换为空值后变为空的段落。
 
 ### RESPECT_JPEG_EXIF_ORIENTATION {#RESPECT-JPEG-EXIF-ORIENTATION}
 ```
@@ -83,7 +83,7 @@ public static int RESPECT_JPEG_EXIF_ORIENTATION
 ```
 
 
-指定引擎应该使用 EXIF\\u200b\\u200bimage 方向值以适当地旋转插入的 JPEG 图像。
+指定引擎应使用 EXIF\\u200b\\u200bimage 方向值以适当地旋转插入的 JPEG 图像。
 
 ### USE_LEGACY_HEADER_FOOTER_VISITING {#USE-LEGACY-HEADER-FOOTER-VISITING}
 ```
@@ -93,9 +93,9 @@ public static int USE_LEGACY_HEADER_FOOTER_VISITING
 
 指定引擎应该按照与 Aspose.Words 21.9 之前的版本兼容的顺序访问部分子节点（页眉、页脚、正文）。
 
-默认情况下，引擎将页眉和页脚视为链接到分节符。也就是说，当访问section子节点时，首先访问body，然后才访问header和footer。这与 Microsoft Word 在复制粘贴或删除多节内容时的行为一致，并在大多数情况下产生更正确的结果。
+默认情况下，引擎将页眉和页脚视为链接到分节符。也就是说，当访问 section 子节点时，首先访问 body，然后才访问页眉和页脚。这与 Microsoft Word 在复制粘贴或删除多节内容时的行为一致，并在大多数情况下产生更正确的结果。
 
-在 Aspose.Words 21.9 之前，引擎使用另一种访问顺序：按照它们在文档中出现的顺序访问部分子节点。将此值应用于[ReportingEngine.getOptions()](../../com.aspose.words/reportingengine\#getOptions--) / [ReportingEngine.setOptions(int)](../../com.aspose.words/reportingengine\#setOptions-int-)如果需要与旧版本的 Aspose.Words 兼容。
+在 Aspose.Words 21.9 之前，引擎使用另一种访问顺序：Section 子节点按照它们在文档中出现的顺序被访问。将此值应用于[ReportingEngine.getOptions()](../../com.aspose.words/reportingengine\#getOptions--) / [ReportingEngine.setOptions(int)](../../com.aspose.words/reportingengine\#setOptions-int-)如果需要与旧版本的 Aspose.Words 兼容。
 
 ### length {#length}
 ```
@@ -148,16 +148,16 @@ public static int fromNames(Set reportBuildOptionsNames)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int reportBuildOptions) {#getName-int-}
 ```
 public static String getName(int reportBuildOptions)

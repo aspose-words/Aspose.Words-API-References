@@ -1,6 +1,6 @@
 ---
 title: ExportListLabels
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定如何将列表标签导出为 HTML MHTML 和 EPUB。
 type: docs
 weight: 150
@@ -16,7 +16,7 @@ public class ExportListLabels
 指定如何将列表标签导出为 HTML、MHTML 和 EPUB。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [AS_INLINE_TEXT](#AS-INLINE-TEXT) | 将所有列表标签输出为内联文本。 |
 | [AUTO](#AUTO) | 在自动模式下输出列表标签。 |
@@ -28,7 +28,7 @@ public class ExportListLabels
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String exportListLabelsName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int exportListLabels)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -107,16 +107,16 @@ public static int fromName(String exportListLabelsName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int exportListLabels) {#getName-int-}
 ```
 public static String getName(int exportListLabels)

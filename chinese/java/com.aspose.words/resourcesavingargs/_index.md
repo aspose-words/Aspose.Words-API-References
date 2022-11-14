@@ -1,6 +1,6 @@
 ---
 title: ResourceSavingArgs
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 为事件提供数据。
 type: docs
 weight: 481
@@ -29,18 +29,18 @@ public class ResourceSavingArgs
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDocument()](#getDocument--) | 获取当前正在保存的文档对象。 |
-| [getKeepResourceStreamOpen()](#getKeepResourceStreamOpen--) | 指定 Aspose.Words 应该在保存资源后保持流打开还是关闭它。 |
+| [getKeepResourceStreamOpen()](#getKeepResourceStreamOpen--) | 指定 Aspose.Words 是否应该在保存资源后保持流打开或关闭它。 |
 | [getResourceFileName()](#getResourceFileName--) | 获取资源将保存到的文件名（不带路径）。 |
 | [getResourceFileUri()](#getResourceFileUri--) | 获取用于从文档中引用资源文件的统一资源标识符 (URI)。 |
 | [getResourceStream()](#getResourceStream--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setKeepResourceStreamOpen(boolean value)](#setKeepResourceStreamOpen-boolean-) | 指定 Aspose.Words 应该在保存资源后保持流打开还是关闭它。 |
-| [setResourceFileName(String value)](#setResourceFileName-java.lang.String-) | 设置将保存资源的文件名（不带路径）。 |
-| [setResourceFileUri(String value)](#setResourceFileUri-java.lang.String-) | 设置用于从文档中引用资源文件的统一资源标识符 (URI)。 |
+| [setKeepResourceStreamOpen(boolean value)](#setKeepResourceStreamOpen-boolean-) | 指定 Aspose.Words 是否应该在保存资源后保持流打开或关闭它。 |
+| [setResourceFileName(String value)](#setResourceFileName-java.lang.String-) | 设置资源将保存到的文件名（不带路径）。 |
+| [setResourceFileUri(String value)](#setResourceFileUri-java.lang.String-) | 设置用于从文档引用资源文件的统一资源标识符 (URI)。 |
 | [setResourceStream(OutputStream value)](#setResourceStream-java.io.OutputStream-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -61,16 +61,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDocument() {#getDocument--}
 ```
 public Document getDocument()
@@ -87,9 +87,9 @@ public boolean getKeepResourceStreamOpen()
 ```
 
 
-指定 Aspose.Words 应该在保存资源后保持流打开还是关闭它。
+指定 Aspose.Words 是否应该在保存资源后保持流打开或关闭它。
 
-默认为 false 并且 Aspose.Words 将关闭您在**P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream**将资源写入其中后的属性。指定 true 以保持流打开。
+默认为 false，Aspose.Words 将关闭您在**P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream**将资源写入其中后的属性。指定 true 以保持流打开。
 
 **P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream**
 
@@ -105,7 +105,7 @@ public String getResourceFileName()
 
 此属性允许您重新定义在导出到固定页面 HTML 或 SVG 期间如何生成资源文件名。
 
-触发事件时，此属性包含由 Aspose.Words 生成的文件名。您可以更改此属性的值以将资源保存到不同的文件中。请注意，文件名必须是唯一的。
+当事件被触发时，该属性包含由 Aspose.Words 生成的文件名。您可以更改此属性的值以将资源保存到不同的文件中。请注意，文件名必须是唯一的。
 
 当导出为固定页面 HTML 或 SVG 格式时，Aspose.Words 会自动为每个资源生成一个唯一的文件名。资源文件名的生成方式取决于您是将文档保存到文件还是流中。
 
@@ -132,14 +132,14 @@ public String getResourceFileUri()
 
 此属性允许您更改导出到固定页面 HTML 或 SVG 文档的资源文件的 URI。
 
-在导出到固定页面 HTML 或 SVG 格式期间，Aspose.Words 会自动为每个资源文件生成一个 URI。生成的 URI 引用 Aspose.Words 保存的资源文件。但是，如果要将资源文件移动到其他位置或将资源文件保存到流中，则 URI 可能不正确。此属性允许在这些情况下更正 URI。
+Aspose.Words 在导出到固定页面 HTML 或 SVG 格式期间自动为每个资源文件生成一个 URI。生成的 URI 引用 Aspose.Words 保存的资源文件。但是，如果要将资源文件移动到其他位置或将资源文件保存到流中，则 URI 可能不正确。在这些情况下，此属性允许更正 URI。
 
-触发事件时，此属性包含由 Aspose.Words 生成的 URI。您可以更改此属性的值以提供资源文件的自定义 URI。
+触发事件时，此属性包含由 Aspose.Words 生成的 URI。您可以更改此属性的值以为资源文件提供自定义 URI。
 
 [HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-) [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions\#getResourcesFolder--) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolder-java.lang.String-) [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias--) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String-) [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions\#getResourcesFolderAlias--) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolderAlias-java.lang.String-)
 
 **退货:**
-java.lang.String - 用于从文档中引用资源文件的统一资源标识符 (URI)。
+java.lang.String - 用于从文档引用资源文件的统一资源标识符 (URI)。
 ### getResourceStream() {#getResourceStream--}
 ```
 public OutputStream getResourceStream()
@@ -182,9 +182,9 @@ public void setKeepResourceStreamOpen(boolean value)
 ```
 
 
-指定 Aspose.Words 应该在保存资源后保持流打开还是关闭它。
+指定 Aspose.Words 是否应该在保存资源后保持流打开或关闭它。
 
-默认为 false 并且 Aspose.Words 将关闭您在**P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream**将资源写入其中后的属性。指定 true 以保持流打开。
+默认为 false，Aspose.Words 将关闭您在**P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream**将资源写入其中后的属性。指定 true 以保持流打开。
 
 **P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream**
 
@@ -199,11 +199,11 @@ public void setResourceFileName(String value)
 ```
 
 
-设置将保存资源的文件名（不带路径）。
+设置资源将保存到的文件名（不带路径）。
 
 此属性允许您重新定义在导出到固定页面 HTML 或 SVG 期间如何生成资源文件名。
 
-触发事件时，此属性包含由 Aspose.Words 生成的文件名。您可以更改此属性的值以将资源保存到不同的文件中。请注意，文件名必须是唯一的。
+当事件被触发时，该属性包含由 Aspose.Words 生成的文件名。您可以更改此属性的值以将资源保存到不同的文件中。请注意，文件名必须是唯一的。
 
 当导出为固定页面 HTML 或 SVG 格式时，Aspose.Words 会自动为每个资源生成一个唯一的文件名。资源文件名的生成方式取决于您是将文档保存到文件还是流中。
 
@@ -221,7 +221,7 @@ public void setResourceFileName(String value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 将保存资源的文件名（不带路径）。 |
+| value | java.lang.String | 资源将保存到的文件名（不带路径）。 |
 
 ### setResourceFileUri(String value) {#setResourceFileUri-java.lang.String-}
 ```
@@ -229,13 +229,13 @@ public void setResourceFileUri(String value)
 ```
 
 
-设置用于从文档中引用资源文件的统一资源标识符 (URI)。
+设置用于从文档引用资源文件的统一资源标识符 (URI)。
 
 此属性允许您更改导出到固定页面 HTML 或 SVG 文档的资源文件的 URI。
 
-在导出到固定页面 HTML 或 SVG 格式期间，Aspose.Words 会自动为每个资源文件生成一个 URI。生成的 URI 引用 Aspose.Words 保存的资源文件。但是，如果要将资源文件移动到其他位置或将资源文件保存到流中，则 URI 可能不正确。此属性允许在这些情况下更正 URI。
+Aspose.Words 在导出到固定页面 HTML 或 SVG 格式期间自动为每个资源文件生成一个 URI。生成的 URI 引用 Aspose.Words 保存的资源文件。但是，如果要将资源文件移动到其他位置或将资源文件保存到流中，则 URI 可能不正确。在这些情况下，此属性允许更正 URI。
 
-触发事件时，此属性包含由 Aspose.Words 生成的 URI。您可以更改此属性的值以提供资源文件的自定义 URI。
+触发事件时，此属性包含由 Aspose.Words 生成的 URI。您可以更改此属性的值以为资源文件提供自定义 URI。
 
 [HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-) [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions\#getResourcesFolder--) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolder-java.lang.String-) [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias--) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String-) [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions\#getResourcesFolderAlias--) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolderAlias-java.lang.String-)
 

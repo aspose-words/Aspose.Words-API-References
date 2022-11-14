@@ -1,6 +1,6 @@
 ---
 title: EmbeddedFontFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定对象内特定嵌入字体的格式。
 type: docs
 weight: 141
@@ -15,13 +15,13 @@ public class EmbeddedFontFormat
 
 指定内部特定嵌入字体的格式[FontInfo](../../com.aspose.words/fontinfo)目的。
 
-将文档保存到文件时，只记下相应格式的嵌入字体。
+将文档保存到文件时，只记录相应格式的嵌入字体。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
-| [EMBEDDED_OPEN_TYPE](#EMBEDDED-OPEN-TYPE) | 指定嵌入式 Open类型 (EOT) 文件格式。 |
-| [OPEN_TYPE](#OPEN-TYPE) | 指定字体，嵌入为 Open类型 (True类型) 字体文件的纯副本。 |
+| [EMBEDDED_OPEN_TYPE](#EMBEDDED-OPEN-TYPE) | 指定嵌入式 OpenType (EOT) 文件格式。 |
+| [OPEN_TYPE](#OPEN-TYPE) | 指定字体，嵌入为 OpenType (TrueType) 字体文件的普通副本。 |
 | [length](#length) |  |
 ## 方法
 
@@ -29,7 +29,7 @@ public class EmbeddedFontFormat
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String embeddedFontFormatName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int embeddedFontFormat)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -46,11 +46,11 @@ public static int EMBEDDED_OPEN_TYPE
 ```
 
 
-指定嵌入式 Open类型 (EOT) 文件格式。
+指定嵌入式 OpenType (EOT) 文件格式。
 
-这种格式的嵌入字体在 DOC 文件中使用。
+DOC 文件中使用的这种嵌入字体格式。
 
-有关格式的说明，请参见 http://www.w3.org/Submission/EOT。
+有关格式的说明，请参阅 http://www.w3.org/Submission/EOT。
 
 ### OPEN_TYPE {#OPEN-TYPE}
 ```
@@ -58,9 +58,9 @@ public static int OPEN_TYPE
 ```
 
 
-指定字体，嵌入为 Open类型 (True类型) 字体文件的纯副本。
+指定字体，嵌入为 OpenType (TrueType) 字体文件的普通副本。
 
-这种嵌入字体格式用于 Open Office XML 格式，包括 DOCX 文件。
+这种嵌入字体的格式用于 Open Office XML 格式，包括 DOCX 文件。
 
 ### length {#length}
 ```
@@ -98,16 +98,16 @@ public static int fromName(String embeddedFontFormatName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int embeddedFontFormat) {#getName-int-}
 ```
 public static String getName(int embeddedFontFormat)

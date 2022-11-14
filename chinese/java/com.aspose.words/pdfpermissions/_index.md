@@ -1,6 +1,6 @@
 ---
 title: PdfPermissions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定允许用户对加密的 PDF 文档进行的操作。
 type: docs
 weight: 460
@@ -16,7 +16,7 @@ public class PdfPermissions
 指定允许用户对加密的 PDF 文档进行的操作。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [ALLOW_ALL](#ALLOW-ALL) | 允许对 PDF 文档进行所有操作。 |
 | [CONTENT_COPY](#CONTENT-COPY) | 通过非受控者控制的操作复制或以其他方式从文档中提取文本和图形[CONTENT\_COPY\_FOR\_ACCESSIBILITY](../../com.aspose.words/pdfpermissions\#CONTENT-COPY-FOR-ACCESSIBILITY). |
@@ -36,7 +36,7 @@ public class PdfPermissions
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pdfPermissionsName)](#fromName-java.lang.String-) |  |
 | [fromNames(Set pdfPermissionsNames)](#fromNames-java.util.Set-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int pdfPermissions)](#getName-int-) |  |
 | [getNames(int pdfPermissions)](#getNames-int-) |  |
 | [getValues()](#getValues--) |  |
@@ -103,7 +103,7 @@ public static int HIGH_RESOLUTION_PRINTING
 ```
 
 
-根据实现相关的算法，将文档打印为可以生成 PDF 内容的忠实数字副本的表示形式。当这个标志被清除时（并且[PRINTING](../../com.aspose.words/pdfpermissions\#PRINTING)已设置），打印应限于外观的低级表示，可能质量下降。
+根据依赖于实现的算法，将文档打印为可以生成 PDF 内容的忠实数字副本的表示。当这个标志是明确的（和[PRINTING](../../com.aspose.words/pdfpermissions\#PRINTING)已设置），打印应限于外观的低级表示，可能质量下降。
 
 ### MODIFY_ANNOTATIONS {#MODIFY-ANNOTATIONS}
 ```
@@ -180,16 +180,16 @@ public static int fromNames(Set pdfPermissionsNames)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int pdfPermissions) {#getName-int-}
 ```
 public static String getName(int pdfPermissions)

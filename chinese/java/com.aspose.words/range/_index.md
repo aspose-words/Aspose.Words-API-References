@@ -1,7 +1,7 @@
 ---
 title: Range
-second_title: Aspose.Words for Java API Reference
-description: 表示文档中的一个连续区域。
+second_title: Aspose.Words for Java API 参考
+description: 表示文档中的连续区域。
 type: docs
 weight: 472
 url: /zh/java/com.aspose.words/range/
@@ -13,13 +13,13 @@ java.lang.Object
 public class Range
 ```
 
-表示文档中的一个连续区域。
+表示文档中的连续区域。
 
 要了解更多信息，请访问**Working with Ranges**文档文章。
 
-文档由节点树表示，节点提供与树一起使用的操作，但如果将文档视为连续的文本序列，则某些操作更容易执行。
+文档由节点树表示，节点提供操作树的操作，但如果将文档视为连续的文本序列，则某些操作更容易执行。
 
-**Range**是一个“外观”接口，它提供将文档或文档部分视为“平面”文本的方法，而不管文档节点是否存储在树状对象模型中。
+**Range**是一个“外观”接口，它提供将文档或文档的一部分视为“平面”文本的方法，而不管文档节点存储在树状对象模型中的事实。
 
 **Range**不包含任何文本或节点，它只是文档片段上的视图或“窗口”。
 ## 方法
@@ -28,21 +28,21 @@ public class Range
 | --- | --- |
 | [delete()](#delete--) | 删除范围内的所有字符。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBookmarks()](#getBookmarks--) | 返回一个[getBookmarks()](../../com.aspose.words/range\#getBookmarks--)表示范围内所有书签的集合。 |
-| [get班级()](#get班级--) |  |
+| [getBookmarks()](#getBookmarks--) | 返回一个[getBookmarks()](../../com.aspose.words/range\#getBookmarks--)代表范围内所有书签的集合。 |
+| [getClass()](#getClass--) |  |
 | [get字段()](#get字段--) | 返回一个[get字段()](../../com.aspose.words/range\#get字段--)表示范围内所有字段的集合。 |
 | [getForm字段()](#getForm字段--) | 返回一个[getForm字段()](../../com.aspose.words/range\#getForm字段--)表示范围内所有表单字段的集合。 |
 | [getStructuredDocumentTags()](#getStructuredDocumentTags--) | 返回一个[getStructuredDocumentTags()](../../com.aspose.words/range\#getStructuredDocumentTags--)表示范围内所有结构化文档标签的集合。 |
 | [getText()](#getText--) | 获取范围的文本。 |
 | [hashCode()](#hashCode--) |  |
-| [normalize字段类型s()](#normalize字段类型s--) | 更改字段类型值[字段Char.get字段类型()](../../com.aspose.words/fieldchar\#get字段类型--)的[字段Start](../../com.aspose.words/fieldstart), [字段Separator](../../com.aspose.words/fieldseparator), [字段End](../../com.aspose.words/fieldend)在此范围内，以便它们对应于域代码中包含的域类型。 |
+| [normalizeFieldTypes()](#normalizeFieldTypes--) | 更改字段类型值[FieldChar.getFieldType()](../../com.aspose.words/fieldchar\#getFieldType--)的[FieldStart](../../com.aspose.words/fieldstart), [FieldSeparator](../../com.aspose.words/fieldseparator), [FieldEnd](../../com.aspose.words/fieldend)在此范围内，以便它们对应于字段代码中包含的字段类型。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [replace(String pattern, String replacement)](#replace-java.lang.String-java.lang.String-) | 用替换字符串替换所有出现的指定字符串模式。 |
 | [replace(String pattern, String replacement, FindReplaceOptions options)](#replace-java.lang.String-java.lang.String-com.aspose.words.FindReplaceOptions-) | 用替换字符串替换所有出现的指定字符串模式。 |
-| [replace(Pattern pattern, String replacement)](#replace-java.util.regex.Pattern-java.lang.String-) | 用另一个字符串替换所有出现的由正则表达式指定的字符模式。 |
-| [replace(Pattern pattern, String replacement, FindReplaceOptions options)](#replace-java.util.regex.Pattern-java.lang.String-com.aspose.words.FindReplaceOptions-) | 用另一个字符串替换所有出现的由正则表达式指定的字符模式。 |
-| [toDocument()](#toDocument--) | 构造一个包含范围的新完整文档。 |
+| [replace(Pattern pattern, String replacement)](#replace-java.util.regex.Pattern-java.lang.String-) | 用另一个字符串替换由正则表达式指定的字符模式的所有匹配项。 |
+| [replace(Pattern pattern, String replacement, FindReplaceOptions options)](#replace-java.util.regex.Pattern-java.lang.String-com.aspose.words.FindReplaceOptions-) | 用另一个字符串替换由正则表达式指定的字符模式的所有匹配项。 |
+| [toDocument()](#toDocument--) | 构造一个包含范围的新的完全形成的文档。 |
 | [toString()](#toString--) |  |
 | [unlink字段()](#unlink字段--) | 取消链接此范围内的字段。 |
 | [update字段()](#update字段--) | 更新此范围内文档字段的值。 |
@@ -78,40 +78,40 @@ public BookmarkCollection getBookmarks()
 ```
 
 
-返回一个[getBookmarks()](../../com.aspose.words/range\#getBookmarks--)表示范围内所有书签的集合。
+返回一个[getBookmarks()](../../com.aspose.words/range\#getBookmarks--)代表范围内所有书签的集合。
 
 **退货:**
-[BookmarkCollection](../../com.aspose.words/bookmarkcollection) - 一个[getBookmarks()](../../com.aspose.words/range\#getBookmarks--)表示范围内所有书签的集合。
-### get班级() {#get班级--}
+[BookmarkCollection](../../com.aspose.words/bookmarkcollection) - 一个[getBookmarks()](../../com.aspose.words/range\#getBookmarks--)代表范围内所有书签的集合。
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### get字段() {#get字段--}
 ```
-public 字段Collection get字段()
+public FieldCollection get字段()
 ```
 
 
 返回一个[get字段()](../../com.aspose.words/range\#get字段--)表示范围内所有字段的集合。
 
 **退货:**
-[字段Collection](../../com.aspose.words/fieldcollection) - 一个[get字段()](../../com.aspose.words/range\#get字段--)表示范围内所有字段的集合。
+[FieldCollection](../../com.aspose.words/fieldcollection) - 一个[get字段()](../../com.aspose.words/range\#get字段--)表示范围内所有字段的集合。
 ### getForm字段() {#getForm字段--}
 ```
-public Form字段Collection getForm字段()
+public FormFieldCollection getForm字段()
 ```
 
 
 返回一个[getForm字段()](../../com.aspose.words/range\#getForm字段--)表示范围内所有表单字段的集合。
 
 **退货:**
-[Form字段Collection](../../com.aspose.words/formfieldcollection) - 一个[getForm字段()](../../com.aspose.words/range\#getForm字段--)表示范围内所有表单字段的集合。
+[FormFieldCollection](../../com.aspose.words/formfieldcollection) - 一个[getForm字段()](../../com.aspose.words/range\#getForm字段--)表示范围内所有表单字段的集合。
 ### getStructuredDocumentTags() {#getStructuredDocumentTags--}
 ```
 public StructuredDocumentTagCollection getStructuredDocumentTags()
@@ -144,17 +144,17 @@ public native int hashCode()
 
 **退货:**
 整数
-### normalize字段类型s() {#normalize字段类型s--}
+### normalizeFieldTypes() {#normalizeFieldTypes--}
 ```
-public void normalize字段类型s()
+public void normalizeFieldTypes()
 ```
 
 
-更改字段类型值[字段Char.get字段类型()](../../com.aspose.words/fieldchar\#get字段类型--)的[字段Start](../../com.aspose.words/fieldstart), [字段Separator](../../com.aspose.words/fieldseparator), [字段End](../../com.aspose.words/fieldend)在此范围内，以便它们对应于域代码中包含的域类型。
+更改字段类型值[FieldChar.getFieldType()](../../com.aspose.words/fieldchar\#getFieldType--)的[FieldStart](../../com.aspose.words/fieldstart), [FieldSeparator](../../com.aspose.words/fieldseparator), [FieldEnd](../../com.aspose.words/fieldend)在此范围内，以便它们对应于字段代码中包含的字段类型。
 
 在影响字段类型的文档更改后使用此方法。
 
-要更改整个文档中的字段类型值，请使用[Document.normalize字段类型s()](../../com.aspose.words/document\#normalize字段类型s--).
+要更改整个文档中的字段类型值，请使用[Document.normalizeFieldTypes()](../../com.aspose.words/document\#normalizeFieldTypes--).
 
 ### notify() {#notify--}
 ```
@@ -186,20 +186,20 @@ public int replace(String pattern, String replacement)
 
 方法能够处理模式和替换字符串中的中断。
 
-如果您需要使用中断，您应该使用特殊的元字符：
+如果你需要使用中断，你应该使用特殊的元字符：
 
  *  **&p** \- 段落中断
  *  **&b** \分节符
  *  **&m** \分页符
  *  **&l** \手动换行
 
-使用方法[replace(java.lang.String, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range\#replace-java.lang.String--java.lang.String--com.aspose.words.FindReplaceOptions-)进行更灵活的定制。
+使用方法[replace(java.lang.String, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range\#replace-java.lang.String--java.lang.String--com.aspose.words.FindReplaceOptions-)有更灵活的定制。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pattern | java.lang.String | 要替换的字符串。 |
-| replacement | java.lang.String | 替换所有出现的模式的字符串。 |
+| replacement | java.lang.String | 用于替换所有出现的模式的字符串。 |
 
 **退货:**
 int - 替换的次数。
@@ -226,7 +226,7 @@ public int replace(String pattern, String replacement, FindReplaceOptions option
 
 方法能够处理模式和替换字符串中的中断。
 
-如果您需要使用中断，您应该使用特殊的元字符：
+如果你需要使用中断，你应该使用特殊的元字符：
 
  *  **&p** \- 段落中断
  *  **&b** \分节符
@@ -238,8 +238,8 @@ public int replace(String pattern, String replacement, FindReplaceOptions option
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pattern | java.lang.String | 要替换的字符串。 |
-| replacement | java.lang.String | 替换所有出现的模式的字符串。 |
-| options | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions) | \{[FindReplaceOptions](../../com.aspose.words/findreplaceoptions)对象以指定其他选项。 |
+| replacement | java.lang.String | 用于替换所有出现的模式的字符串。 |
+| options | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions) | \{[FindReplaceOptions](../../com.aspose.words/findreplaceoptions)对象指定附加选项。 |
 
 **退货:**
 int - 替换的次数。
@@ -260,26 +260,26 @@ public int replace(Pattern pattern, String replacement)
 ```
 
 
-用另一个字符串替换所有出现的由正则表达式指定的字符模式。
+用另一个字符串替换由正则表达式指定的字符模式的所有匹配项。
 
 替换正则表达式捕获的整个匹配项。
 
 方法能够处理模式和替换字符串中的中断。
 
-如果您需要使用中断，您应该使用特殊的元字符：
+如果你需要使用中断，你应该使用特殊的元字符：
 
  *  **&p** \- 段落中断
  *  **&b** \分节符
  *  **&m** \分页符
  *  **&l** \手动换行
 
-使用方法[replace(java.util.regex.Pattern, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range\#replace-java.util.regex.Pattern--java.lang.String--com.aspose.words.FindReplaceOptions-)进行更灵活的定制。
+使用方法[replace(java.util.regex.Pattern, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range\#replace-java.util.regex.Pattern--java.lang.String--com.aspose.words.FindReplaceOptions-)有更灵活的定制。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pattern | java.util.regex.Pattern | 用于查找匹配项的正则表达式模式。 |
-| replacement | java.lang.String | 替换所有出现的模式的字符串。 |
+| replacement | java.lang.String | 用于替换所有出现的模式的字符串。 |
 
 **退货:**
 int - 替换的次数。
@@ -300,13 +300,13 @@ public int replace(Pattern pattern, String replacement, FindReplaceOptions optio
 ```
 
 
-用另一个字符串替换所有出现的由正则表达式指定的字符模式。
+用另一个字符串替换由正则表达式指定的字符模式的所有匹配项。
 
 替换正则表达式捕获的整个匹配项。
 
 方法能够处理模式和替换字符串中的中断。
 
-如果您需要使用中断，您应该使用特殊的元字符：
+如果你需要使用中断，你应该使用特殊的元字符：
 
  *  **&p** \- 段落中断
  *  **&b** \分节符
@@ -318,8 +318,8 @@ public int replace(Pattern pattern, String replacement, FindReplaceOptions optio
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pattern | java.util.regex.Pattern | 用于查找匹配项的正则表达式模式。 |
-| replacement | java.lang.String | 替换所有出现的模式的字符串。 |
-| options | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions) | \{[FindReplaceOptions](../../com.aspose.words/findreplaceoptions)对象以指定其他选项。 |
+| replacement | java.lang.String | 用于替换所有出现的模式的字符串。 |
+| options | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions) | \{[FindReplaceOptions](../../com.aspose.words/findreplaceoptions)对象指定附加选项。 |
 
 **退货:**
 int - 替换的次数。
@@ -340,7 +340,7 @@ public Document toDocument()
 ```
 
 
-构造一个包含范围的新完整文档。
+构造一个包含范围的新的完全形成的文档。
 
 **退货:**
 [Document](../../com.aspose.words/document)
@@ -362,7 +362,7 @@ public void unlink字段()
 
 取消链接此范围内的字段。
 
-将此范围内的所有字段替换为其最近的结果。
+将此范围内的所有字段替换为其最新结果。
 
 要取消链接整个文档中的字段，请使用[unlink字段()](../../com.aspose.words/range\#unlink字段--).
 

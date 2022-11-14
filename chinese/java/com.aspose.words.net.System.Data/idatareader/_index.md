@@ -1,7 +1,7 @@
 ---
 title: IDataReader
-second_title: Aspose.Words for Java API Reference
-description: 提供一种读取一个或多个只进的结果集流的方法，该流是通过在数据源处执行命令获得的，由访问关系数据库的 .NET Framework 数据提供程序实现。
+second_title: Aspose.Words for Java API 参考
+description: 提供一种读取一个或多个只进结果集流的方法，该结果集是通过在数据源上执行命令而获得的，由访问关系数据库的 .NET Framework 数据提供程序实现。
 type: docs
 weight: 34
 url: /zh/java/com.aspose.words.net.system.data/idatareader/
@@ -13,7 +13,7 @@ url: /zh/java/com.aspose.words.net.system.data/idatareader/
 public interface IDataReader extends System.Data.IDataRecord
 ```
 
-提供一种读取通过在数据源处执行命令获得的一个或多个只进结果集流的方法，由访问关系数据库的 .NET Framework 数据提供程序实现。
+提供一种读取通过在数据源执行命令获得的一个或多个只进结果集流的方法，由访问关系数据库的 .NET Framework 数据提供程序实现。
 ## 方法
 
 | 方法 | 描述 |

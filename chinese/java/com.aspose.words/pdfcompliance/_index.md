@@ -1,6 +1,6 @@
 ---
 title: PdfCompliance
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定 PDF 标准合规级别。
 type: docs
 weight: 449
@@ -16,7 +16,7 @@ public class PdfCompliance
 指定 PDF 标准合规级别。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [PDF_17](#PDF-17) | 输出文件将符合 PDF 1.7 (ISO 32000-1) 标准。 |
 | [PDF_20](#PDF-20) | 输出文件将符合 PDF 2.0 (ISO 32000-2) 标准。 |
@@ -33,7 +33,7 @@ public class PdfCompliance
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pdfComplianceName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int pdfCompliance)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -144,16 +144,16 @@ public static int fromName(String pdfComplianceName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int pdfCompliance) {#getName-int-}
 ```
 public static String getName(int pdfCompliance)

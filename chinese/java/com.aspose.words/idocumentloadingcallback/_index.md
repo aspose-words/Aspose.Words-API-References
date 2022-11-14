@@ -1,6 +1,6 @@
 ---
 title: IDocumentLoadingCallback
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 如果您想在加载文档期间调用自己的自定义方法，请实现此接口。
 type: docs
 weight: 636

@@ -1,6 +1,6 @@
 ---
 title: SdtListItemCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 提供对结构化文档标签元素的访问。
 type: docs
 weight: 507
@@ -27,7 +27,7 @@ public class SdtListItemCollection implements Cloneable, Iterable
 | [clear()](#clear--) | 清除此集合中的所有项目。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 返回一个[SdtListItem](../../com.aspose.words/sdtlistitem)给定集合中从零开始的索引的对象。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中的项目数。 |
 | [getSelectedValue()](#getSelectedValue--) | 指定此列表中当前选定的值。 |
 | [hashCode()](#hashCode--) |  |
@@ -91,16 +91,16 @@ public SdtListItem get(int index)
 
 **退货:**
 [SdtListItem](../../com.aspose.words/sdtlistitem) - 一个[SdtListItem](../../com.aspose.words/sdtlistitem)给定集合中从零开始的索引的对象。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

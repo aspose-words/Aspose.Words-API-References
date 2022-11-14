@@ -1,6 +1,6 @@
 ---
 title: MeasurementUnits
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定测量单位。
 type: docs
 weight: 392
@@ -16,7 +16,7 @@ public class MeasurementUnits
 指定测量单位。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CENTIMETERS](#CENTIMETERS) | 厘米。 |
 | [INCHES](#INCHES) | 英寸。 |
@@ -30,7 +30,7 @@ public class MeasurementUnits
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String measurementUnitsName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int measurementUnits)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -117,16 +117,16 @@ public static int fromName(String measurementUnitsName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int measurementUnits) {#getName-int-}
 ```
 public static String getName(int measurementUnits)

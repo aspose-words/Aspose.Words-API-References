@@ -1,6 +1,6 @@
 ---
 title: LoadFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指示要加载的文档的格式。
 type: docs
 weight: 377
@@ -16,11 +16,11 @@ public class LoadFormat
 指示要加载的文档的格式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [AUTO](#AUTO) | 指示 Aspose.Words 自动识别格式。 |
 | [AZW_3](#AZW-3) | AZW3 格式。 |
-| [CHM](#CHM) | CHM（已编译的 HTML 帮助）格式。 |
+| [CHM](#CHM) | CHM（编译的 HTML 帮助）格式。 |
 | [DOC](#DOC) | Microsoft Word 95 或 Word 97 - 2003 文档。 |
 | [DOCM](#DOCM) | Office Open XML WordprocessingML 启用宏的文档。 |
 | [DOCX](#DOCX) | Office Open XML WordprocessingML 文档（无宏）。 |
@@ -52,7 +52,7 @@ public class LoadFormat
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String loadFormatName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int loadFormat)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -85,7 +85,7 @@ public static int CHM
 ```
 
 
-CHM（已编译的 HTML 帮助）格式。
+CHM（编译的 HTML 帮助）格式。
 
 ### DOC {#DOC}
 ```
@@ -315,16 +315,16 @@ public static int fromName(String loadFormatName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int loadFormat) {#getName-int-}
 ```
 public static String getName(int loadFormat)

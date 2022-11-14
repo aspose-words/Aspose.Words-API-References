@@ -1,29 +1,29 @@
 ---
-title: 字段Separator
-second_title: Aspose.Words for Java API Reference
-description: 表示将域代码与域结果分开的 Word 域分隔符。
+title: FieldSeparator
+second_title: Aspose.Words for Java API 参考
+description: 表示将域代码与域结果分隔开的 Word 域分隔符。
 type: docs
 weight: 240
 url: /zh/java/com.aspose.words/fieldseparator/
 ---
 
 **遗产:**
-java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.Inline](../../com.aspose.words/inline), [com.aspose.words.SpecialChar](../../com.aspose.words/specialchar), [com.aspose.words.字段Char](../../com.aspose.words/fieldchar)
+java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.Inline](../../com.aspose.words/inline), [com.aspose.words.SpecialChar](../../com.aspose.words/specialchar), [com.aspose.words.FieldChar](../../com.aspose.words/fieldchar)
 ```
-public class 字段Separator extends 字段Char
+public class FieldSeparator extends FieldChar
 ```
 
-表示将域代码与域结果分开的 Word 域分隔符。
+表示将域代码与域结果分隔开的 Word 域分隔符。
 
 要了解更多信息，请访问**Working with 字段**文档文章。
 
-[字段Separator](../../com.aspose.words/fieldseparator)是一个内联级节点，由[ControlChar.FIELD\_SEPARATOR\_CHAR](../../com.aspose.words/controlchar\#FIELD-SEPARATOR-CHAR)文档中的控制字符。
+[FieldSeparator](../../com.aspose.words/fieldseparator)是一个内联级节点，由[ControlChar.FIELD\_SEPARATOR\_CHAR](../../com.aspose.words/controlchar\#FIELD-SEPARATOR-CHAR)文档中的控制字符。
 
-[字段Separator](../../com.aspose.words/fieldseparator)只能是[Paragraph](../../com.aspose.words/paragraph).
+[FieldSeparator](../../com.aspose.words/fieldseparator)只能是[Paragraph](../../com.aspose.words/paragraph).
 
 Microsoft Word 文档中的完整字段是由字段起始字符、字段代码、字段分隔符、字段结果和字段结束字符组成的复杂结构。有些字段只有字段开始、字段代码和字段结束。
 
-要轻松地将新字段插入到文档中，请使用[DocumentBuilder.insert字段(java.lang.String)](../../com.aspose.words/documentbuilder\#insert字段-java.lang.String-)方法。
+要轻松地将新字段插入到文档中，请使用[DocumentBuilder.insertField(java.lang.String)](../../com.aspose.words/documentbuilder\#insertField-java.lang.String-)方法。
 ## 方法
 
 | 方法 | 描述 |
@@ -34,18 +34,18 @@ Microsoft Word 文档中的完整字段是由字段起始字符、字段代码�
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | 创建节点的副本。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchInheritedRunAttr(int fontAttr)](#fetchInheritedRunAttr-int-) |  |
-| [getAncestor(int ancestor类型)](#getAncestor-int-) |  |
-| [getAncestor(班级 ancestor类型)](#getAncestor-java.lang.班级-) | 获取指定对象类型的第一个祖先。 |
-| [get班级()](#get班级--) |  |
+| [getAncestor(int ancestorType)](#getAncestor-int-) |  |
+| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class-) | 获取指定对象类型的第一个祖先。 |
+| [getClass()](#getClass--) |  |
 | [getCustomNodeId()](#getCustomNodeId--) | 指定自定义节点标识符。 |
 | [getDirectRunAttr(int fontAttr)](#getDirectRunAttr-int-) |  |
 | [getDocument()](#getDocument--) | 获取该节点所属的文档。 |
 | [getDocument_IInline()](#getDocument-IInline--) |  |
-| [get字段()](#get字段--) | 返回字段 char 的字段。 |
-| [get字段类型()](#get字段类型--) | 返回字段的类型。 |
+| [getField()](#getField--) | 返回字段 char 的字段。 |
+| [getFieldType()](#getFieldType--) | 返回字段的类型。 |
 | [getFont()](#getFont--) | 提供对此对象的字体格式的访问。 |
 | [getNextSibling()](#getNextSibling--) | 获取紧跟此节点的节点。 |
-| [getNode类型()](#getNode类型--) | 退货[Node类型.FIELD\_SEPARATOR](../../com.aspose.words/nodetype\#FIELD-SEPARATOR). |
+| [getNodeType()](#getNodeType--) | 退货[NodeType.FIELD\_SEPARATOR](../../com.aspose.words/nodetype\#FIELD-SEPARATOR). |
 | [getParentNode()](#getParentNode--) | 获取此节点的直接父节点。 |
 | [getParentParagraph()](#getParentParagraph--) | 检索父级[Paragraph](../../com.aspose.words/paragraph)这个节点的。 |
 | [getParentParagraph_IInline()](#getParentParagraph-IInline--) |  |
@@ -64,7 +64,7 @@ Microsoft Word 文档中的完整字段是由字段起始字符、字段代码�
 | [isMoveFromRevision()](#isMoveFromRevision--) | 退货**true**如果启用更改跟踪时此对象在 Microsoft Word 中被移动（删除）。 |
 | [isMoveToRevision()](#isMoveToRevision--) | 退货**true**如果启用更改跟踪时在 Microsoft Word 中移动（插入）此对象。 |
 | [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取下一个节点。 |
-| [node类型ToString(int node类型)](#node类型ToString-int-) |  |
+| [nodeTypeToString(int nodeType)](#nodeTypeToString-int-) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取上一个节点。 |
@@ -87,7 +87,7 @@ public boolean accept(DocumentVisitor visitor)
 
 接受访客。
 
-来电[DocumentVisitor.visit字段Separator(com.aspose.words.字段Separator)](../../com.aspose.words/documentvisitor\#visit字段Separator-com.aspose.words.字段Separator-).
+来电[DocumentVisitor.visitFieldSeparator(com.aspose.words.FieldSeparator)](../../com.aspose.words/documentvisitor\#visitFieldSeparator-com.aspose.words.FieldSeparator-).
 
 有关更多信息，请参阅访问者设计模式。
 
@@ -163,9 +163,9 @@ public Object fetchInheritedRunAttr(int fontAttr)
 
 **退货:**
 java.lang.Object
-### getAncestor(int ancestor类型) {#getAncestor-int-}
+### getAncestor(int ancestorType) {#getAncestor-int-}
 ```
-public CompositeNode getAncestor(int ancestor类型)
+public CompositeNode getAncestor(int ancestorType)
 ```
 
 
@@ -174,13 +174,13 @@ public CompositeNode getAncestor(int ancestor类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ancestor类型 | int |  |
+| ancestorType | int |  |
 
 **退货:**
 [CompositeNode](../../com.aspose.words/compositenode)
-### getAncestor(班级 ancestor类型) {#getAncestor-java.lang.班级-}
+### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
 ```
-public CompositeNode getAncestor(班级 ancestor类型)
+public CompositeNode getAncestor(Class ancestorType)
 ```
 
 
@@ -189,22 +189,22 @@ public CompositeNode getAncestor(班级 ancestor类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ancestor类型 | java.lang.班级 | 要检索的祖先的对象类型。 |
+| ancestorType | java.lang.Class | 要检索的祖先的对象类型。 |
 
 **退货:**
 [CompositeNode](../../com.aspose.words/compositenode) - 指定类型的祖先，如果没有找到该类型的祖先，则返回 null。
 
 如果祖先类型等于祖先类型或从祖先类型派生，则祖先类型匹配。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCustomNodeId() {#getCustomNodeId--}
 ```
 public int getCustomNodeId()
@@ -258,26 +258,26 @@ public DocumentBase getDocument_IInline()
 
 **退货:**
 [DocumentBase](../../com.aspose.words/documentbase)
-### get字段() {#get字段--}
+### getField() {#getField--}
 ```
-public 字段 get字段()
+public Field getField()
 ```
 
 
-返回字段 char 的字段。一个新的[字段](../../com.aspose.words/field)每次调用该方法时都会创建对象。
+返回字段 char 的字段。一个新的[Field](../../com.aspose.words/field)每次调用该方法时都会创建对象。
 
 **退货:**
-[字段](../../com.aspose.words/field) - 字段字符的字段。
-### get字段类型() {#get字段类型--}
+[Field](../../com.aspose.words/field) - 字段字符的字段。
+### getFieldType() {#getFieldType--}
 ```
-public int get字段类型()
+public int getFieldType()
 ```
 
 
 返回字段的类型。
 
 **退货:**
- int - 字段的类型。返回值是以下之一[字段类型](../../com.aspose.words/fieldtype)常数。
+ int - 字段的类型。返回值是以下之一[FieldType](../../com.aspose.words/fieldtype)常数。
 ### getFont() {#getFont--}
 ```
 public Font getFont()
@@ -294,20 +294,20 @@ public Node getNextSibling()
 ```
 
 
-获取紧跟此节点的节点。如果没有下一个节点，则返回 null。
+获取紧跟在该节点之后的节点。如果没有下一个节点，则返回 null。
 
 **退货:**
-[Node](../../com.aspose.words/node) - 紧跟该节点的节点。
-### getNode类型() {#getNode类型--}
+[Node](../../com.aspose.words/node) - 紧接此节点之后的节点。
+### getNodeType() {#getNodeType--}
 ```
-public int getNode类型()
+public int getNodeType()
 ```
 
 
-退货[Node类型.FIELD\_SEPARATOR](../../com.aspose.words/nodetype\#FIELD-SEPARATOR).
+退货[NodeType.FIELD\_SEPARATOR](../../com.aspose.words/nodetype\#FIELD-SEPARATOR).
 
 **退货:**
-诠释 -\{[Node类型.FIELD\_SEPARATOR](../../com.aspose.words/nodetype\#FIELD-SEPARATOR) .返回值是以下之一[Node类型](../../com.aspose.words/nodetype)常数。
+整数 -\{[NodeType.FIELD\_SEPARATOR](../../com.aspose.words/nodetype\#FIELD-SEPARATOR) .返回值是其中之一[NodeType](../../com.aspose.words/nodetype)常数。
 ### getParentNode() {#getParentNode--}
 ```
 public CompositeNode getParentNode()
@@ -316,10 +316,10 @@ public CompositeNode getParentNode()
 
 获取此节点的直接父节点。
 
-如果一个节点刚刚创建但尚未添加到树中，或者它已从树中删除，则父节点为空。
+如果一个节点刚刚被创建并且还没有被添加到树中，或者如果它已经被从树中移除，则父节点为空。
 
 **退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 该节点的直接父节点。
+[CompositeNode](../../com.aspose.words/compositenode) - 此节点的直接父节点。
 ### getParentParagraph() {#getParentParagraph--}
 ```
 public Paragraph getParentParagraph()
@@ -346,10 +346,10 @@ public Node getPreviousSibling()
 ```
 
 
-获取紧接在此节点之前的节点。如果没有前面的节点，则返回 null。
+获取紧接在该节点之前的节点。如果前面没有节点，则返回 null。
 
 **退货:**
-[Node](../../com.aspose.words/node) - 紧接在此节点之前的节点。
+[Node](../../com.aspose.words/node) - 紧接在该节点之前的节点。
 ### getRange() {#getRange--}
 ```
 public Range getRange()
@@ -389,7 +389,7 @@ public boolean isComposite()
 如果此节点可以包含其他节点，则返回 true。 (31110,6)
 
 **退货:**
-boolean - 如果此节点可以包含其他节点，则为真。
+boolean - 如果此节点可以包含其他节点则为真。
 ### isDeleteRevision() {#isDeleteRevision--}
 ```
 public boolean isDeleteRevision()
@@ -399,7 +399,7 @@ public boolean isDeleteRevision()
 如果在启用更改跟踪时在 Microsoft Word 中删除了此对象，则返回 true。
 
 **退货:**
-boolean - 如果在启用更改跟踪时在 Microsoft Word 中删除了此对象，则为 True。
+布尔值 - 如果在启用更改跟踪的情况下在 Microsoft Word 中删除了此对象，则为 True。
 ### isDirty() {#isDirty--}
 ```
 public boolean isDirty()
@@ -432,7 +432,7 @@ public boolean isFormatRevision()
 如果启用更改跟踪时在 Microsoft Word 中更改了对象的格式，则返回 true。
 
 **退货:**
-boolean - 如果启用更改跟踪时在 Microsoft Word 中更改了对象的格式，则为真。
+布尔值 - 如果在启用更改跟踪的情况下在 Microsoft Word 中更改了对象的格式，则为 True。
 ### isInsertRevision() {#isInsertRevision--}
 ```
 public boolean isInsertRevision()
@@ -501,9 +501,9 @@ public Node nextPreOrder(Node rootNode)
 
 **退货:**
 [Node](../../com.aspose.words/node) - 预购订单中的下一个节点。如果到达 rootNode，则为 Null。
-### node类型ToString(int node类型) {#node类型ToString-int-}
+### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
 ```
-public static String node类型ToString(int node类型)
+public static String nodeTypeToString(int nodeType)
 ```
 
 
@@ -512,7 +512,7 @@ public static String node类型ToString(int node类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 
 **退货:**
 java.lang.String

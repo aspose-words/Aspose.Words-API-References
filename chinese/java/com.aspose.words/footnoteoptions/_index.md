@@ -1,6 +1,6 @@
 ---
 title: FootnoteOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示文档或部分的脚注编号选项。
 type: docs
 weight: 293
@@ -21,7 +21,7 @@ public class FootnoteOptions
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getColumns()](#getColumns--) | 指定用于格式化脚注区域的列数。 |
 | [getLocation()](#getLocation--) |  |
 | [getNumberStyle()](#getNumberStyle--) | 指定自动编号脚注的数字格式。 |
@@ -56,16 +56,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getColumns() {#getColumns--}
 ```
 public int getColumns()
@@ -94,7 +94,7 @@ public int getNumberStyle()
 
 指定自动编号脚注的数字格式。
 
-并非所有数字样式都适用于此属性。有关适用编号样式的列表，请参见 Microsoft Word 中的插入脚注或尾注对话框。如果您选择不适用的数字样式，Microsoft Word 将恢复为默认值。
+并非所有数字样式都适用于此属性。有关适用编号样式的列表，请参阅 Microsoft Word 中的“插入脚注”或“尾注”对话框。如果您选择了不适用的数字样式，Microsoft Word 将恢复为默认值。
 
 **退货:**
 int - 对应的 int 值。返回值是以下之一[NumberStyle](../../com.aspose.words/numberstyle)常数。
@@ -190,7 +190,7 @@ public void setNumberStyle(int value)
 
 指定自动编号脚注的数字格式。
 
-并非所有数字样式都适用于此属性。有关适用编号样式的列表，请参见 Microsoft Word 中的插入脚注或尾注对话框。如果您选择不适用的数字样式，Microsoft Word 将恢复为默认值。
+并非所有数字样式都适用于此属性。有关适用编号样式的列表，请参阅 Microsoft Word 中的“插入脚注”或“尾注”对话框。如果您选择了不适用的数字样式，Microsoft Word 将恢复为默认值。
 
 **参数:**
 | 范围 | 类型 | 描述 |

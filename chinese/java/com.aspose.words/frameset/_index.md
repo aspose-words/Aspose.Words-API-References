@@ -1,6 +1,6 @@
 ---
 title: Frameset
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 
 type: docs
 weight: 302
@@ -18,7 +18,7 @@ public class Frameset
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getChildFramesets()](#getChildFramesets--) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getFrameDefaultUrl()](#getFrameDefaultUrl--) |  |
 | [hashCode()](#hashCode--) |  |
 | [isFrameLinkToFile()](#isFrameLinkToFile--) |  |
@@ -55,16 +55,16 @@ public FramesetCollection getChildFramesets()
 
 **退货:**
 [FramesetCollection](../../com.aspose.words/framesetcollection)
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getFrameDefaultUrl() {#getFrameDefaultUrl--}
 ```
 public String getFrameDefaultUrl()

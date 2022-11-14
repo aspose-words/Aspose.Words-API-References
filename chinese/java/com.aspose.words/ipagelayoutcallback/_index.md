@@ -1,6 +1,6 @@
 ---
 title: IPageLayoutCallback
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 如果您希望在构建和呈现页面布局模型期间调用自己的自定义方法，请实现此接口。
 type: docs
 weight: 653

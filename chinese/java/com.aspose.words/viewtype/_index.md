@@ -1,6 +1,6 @@
 ---
-title: View类型
-second_title: Aspose.Words for Java API Reference
+title: ViewType
+second_title: Aspose.Words for Java API 参考
 description: Microsoft Word 中视图模式的可能值。
 type: docs
 weight: 602
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/viewtype/
 **遗产:**
 java.lang.Object
 ```
-public class View类型
+public class ViewType
 ```
 
 Microsoft Word 中视图模式的可能值。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [NONE](#NONE) | 该文档应在应用程序的默认视图中呈现。 |
 | [NORMAL](#NORMAL) | 文档应在为概述或创建长文档而优化的视图中呈现。 |
@@ -30,15 +30,15 @@ Microsoft Word 中视图模式的可能值。
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String view类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int view类型)](#getName-int-) |  |
+| [fromName(String viewTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int viewType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int view类型)](#toString-int-) |  |
+| [toString(int viewType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -111,9 +111,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String view类型Name) {#fromName-java.lang.String-}
+### fromName(String viewTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String view类型Name)
+public static int fromName(String viewTypeName)
 ```
 
 
@@ -122,23 +122,23 @@ public static int fromName(String view类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| view类型Name | java.lang.String |  |
+| viewTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int view类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int viewType) {#getName-int-}
 ```
-public static String getName(int view类型)
+public static String getName(int viewType)
 ```
 
 
@@ -147,7 +147,7 @@ public static String getName(int view类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| view类型 | int |  |
+| viewType | int |  |
 
 **退货:**
 java.lang.String
@@ -197,9 +197,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int view类型) {#toString-int-}
+### toString(int viewType) {#toString-int-}
 ```
-public static String toString(int view类型)
+public static String toString(int viewType)
 ```
 
 
@@ -208,7 +208,7 @@ public static String toString(int view类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| view类型 | int |  |
+| viewType | int |  |
 
 **退货:**
 java.lang.String

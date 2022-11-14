@@ -1,6 +1,6 @@
 ---
 title: ShapeMarkupLanguage
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定用于形状的标记语言。
 type: docs
 weight: 519
@@ -16,7 +16,7 @@ public class ShapeMarkupLanguage
 指定用于形状的标记语言。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [DML](#DML) | 绘图标记语言用于定义形状。 |
 | [VML](#VML) | 矢量标记语言用于定义形状。 |
@@ -27,7 +27,7 @@ public class ShapeMarkupLanguage
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String shapeMarkupLanguageName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(byte shapeMarkupLanguage)](#getName-byte-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -90,16 +90,16 @@ public static byte fromName(String shapeMarkupLanguageName)
 
 **退货:**
 字节
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(byte shapeMarkupLanguage) {#getName-byte-}
 ```
 public static String getName(byte shapeMarkupLanguage)

@@ -1,6 +1,6 @@
 ---
 title: TableCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 提供对节点集合的类型化访问。
 type: docs
 weight: 550
@@ -25,7 +25,7 @@ public class TableCollection extends NodeCollection
 | [contains(Node node)](#contains-com.aspose.words.Node-) | 确定节点是否在集合中。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 检索一个**Table**在给定的索引处。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getContainer()](#getContainer--) |  |
 | [getCount()](#getCount--) | 获取集合中的节点数。 |
 | [getCurrentNode()](#getCurrentNode--) |  |
@@ -38,7 +38,7 @@ public class TableCollection extends NodeCollection
 | [notifyAll()](#notifyAll--) |  |
 | [remove(Node node)](#remove-com.aspose.words.Node-) | 从集合和文档中删除节点。 |
 | [removeAt(int index)](#removeAt-int-) | 从集合和文档中删除指定索引处的节点。 |
-| [toArray()](#toArray--) | 将集合中的所有表复制到新的表数组中。 |
+| [toArray()](#toArray--) | 将集合中的所有表复制到新的表数组。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -110,13 +110,13 @@ public Node get(int index)
 
 检索一个**Table**在给定的索引处。
 
-该索引从零开始。
+该指数是从零开始的。
 
-允许使用负索引并指示从集合的背面进行访问。例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
+允许使用负索引，表示从集合的后面访问。例如 -1 表示最后一项，-2 表示倒数第二项，依此类推。
 
-如果 index 大于或等于列表中的项目数，则返回空引用。
+如果索引大于或等于列表中的项目数，则返回空引用。
 
-如果 index 为负且其绝对值大于列表中的项目数，则返回空引用。
+如果索引为负且其绝对值大于列表中的项目数，则返回空引用。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -125,16 +125,16 @@ public Node get(int index)
 
 **退货:**
 [Node](../../com.aspose.words/node) - 相应的[Table](../../com.aspose.words/table)价值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getContainer() {#getContainer--}
 ```
 public CompositeNode getContainer()
@@ -289,10 +289,10 @@ public Node[] toArray()
 ```
 
 
-将集合中的所有表复制到新的表数组中。
+将集合中的所有表复制到新的表数组。
 
 **退货:**
-com.aspose.words.Node[] - 一组表。
+com.aspose.words.Node[] - 表格数组。
 ### toString() {#toString--}
 ```
 public String toString()

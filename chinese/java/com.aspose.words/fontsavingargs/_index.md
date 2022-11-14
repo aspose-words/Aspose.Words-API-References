@@ -1,6 +1,6 @@
 ---
 title: FontSavingArgs
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 为事件提供数据。
 type: docs
 weight: 285
@@ -21,7 +21,7 @@ public class FontSavingArgs
 
 [FontSavingArgs](../../com.aspose.words/fontsavingargs)控制是否应导出特定字体资源以及如何导出。
 
-[FontSavingArgs](../../com.aspose.words/fontsavingargs)还允许重新定义如何生成字体文件名或通过提供您自己的流对象来完全避免将字体保存到文件中。
+[FontSavingArgs](../../com.aspose.words/fontsavingargs)还允许重新定义字体文件名的生成方式，或者通过提供您自己的流对象来完全避免将字体保存到文件中。
 
 要决定是否保存特定字体资源，请使用[isExportNeeded()](../../com.aspose.words/fontsavingargs\#isExportNeeded--) / [isExportNeeded(boolean)](../../com.aspose.words/fontsavingargs\#isExportNeeded-boolean-)财产。
 
@@ -32,25 +32,25 @@ public class FontSavingArgs
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBold()](#getBold--) | 指示当前字体是否为粗体。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDocument()](#getDocument--) | 获取正在保存的文档对象。 |
 | [getFontFamilyName()](#getFontFamilyName--) | 指示当前字体系列名称。 |
-| [getFontFileName()](#getFontFileName--) | 获取将保存字体的文件名（无路径）。 |
+| [getFontFileName()](#getFontFileName--) | 获取字体将保存到的文件名（不带路径）。 |
 | [getFontStream()](#getFontStream--) |  |
 | [getItalic()](#getItalic--) | 指示当前字体是否为斜体。 |
-| [getKeepFontStreamOpen()](#getKeepFontStreamOpen--) | 指定 Aspose.Words 应该在保存字体后保持流打开还是关闭它。 |
+| [getKeepFontStreamOpen()](#getKeepFontStreamOpen--) | 指定 Aspose.Words 是否应该在保存字体后保持流打开或关闭它。 |
 | [getOriginalFileName()](#getOriginalFileName--) | 获取带有扩展名的原始字体文件名。 |
 | [getOriginalFileSize()](#getOriginalFileSize--) | 获取原始字体文件大小。 |
 | [hashCode()](#hashCode--) |  |
 | [isExportNeeded()](#isExportNeeded--) | 允许指定是否将当前字体导出为字体资源。 |
 | [isExportNeeded(boolean value)](#isExportNeeded-boolean-) | 允许指定是否将当前字体导出为字体资源。 |
-| [isSubsettingNeeded()](#isSubsettingNeeded--) | 允许指定当前字体是否在导出为字体资源之前进行子集化。 |
-| [isSubsettingNeeded(boolean value)](#isSubsettingNeeded-boolean-) | 允许指定当前字体是否在导出为字体资源之前进行子集化。 |
+| [isSubsettingNeeded()](#isSubsettingNeeded--) | 允许指定在导出为字体资源之前是否对当前字体进行子集化。 |
+| [isSubsettingNeeded(boolean value)](#isSubsettingNeeded-boolean-) | 允许指定在导出为字体资源之前是否对当前字体进行子集化。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFontFileName(String value)](#setFontFileName-java.lang.String-) | 设置将保存字体的文件名（不带路径）。 |
+| [setFontFileName(String value)](#setFontFileName-java.lang.String-) | 设置保存字体的文件名（不带路径）。 |
 | [setFontStream(OutputStream value)](#setFontStream-java.io.OutputStream-) |  |
-| [setKeepFontStreamOpen(boolean value)](#setKeepFontStreamOpen-boolean-) | 指定 Aspose.Words 应该在保存字体后保持流打开还是关闭它。 |
+| [setKeepFontStreamOpen(boolean value)](#setKeepFontStreamOpen-boolean-) | 指定 Aspose.Words 是否应该在保存字体后保持流打开或关闭它。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -80,16 +80,16 @@ public boolean getBold()
 
 **退货:**
 boolean - 对应的布尔值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDocument() {#getDocument--}
 ```
 public Document getDocument()
@@ -116,13 +116,13 @@ public String getFontFileName()
 ```
 
 
-获取将保存字体的文件名（无路径）。
+获取字体将保存到的文件名（不带路径）。
 
 此属性允许您重新定义在导出到 HTML 期间如何生成字体文件名。
 
-触发事件时，此属性包含由 Aspose.Words 生成的文件名。您可以更改此属性的值以将字体保存到不同的文件中。请注意，文件名必须是唯一的。
+当事件被触发时，该属性包含由 Aspose.Words 生成的文件名。您可以更改此属性的值以将字体保存到不同的文件中。请注意，文件名必须是唯一的。
 
-当导出为 HTML 格式时，Aspose.Words 会自动为每个嵌入字体生成一个唯一的文件名。字体文件名的生成方式取决于您是将文档保存到文件还是流中。
+当导出为 HTML 格式时，Aspose.Words 会自动为每个嵌入的字体生成一个唯一的文件名。字体文件名的生成方式取决于您是将文档保存到文件还是流。
 
 将文档保存到文件时，生成的字体文件名如下所示*..*.
 
@@ -160,9 +160,9 @@ public boolean getKeepFontStreamOpen()
 ```
 
 
-指定 Aspose.Words 应该在保存字体后保持流打开还是关闭它。
+指定 Aspose.Words 是否应该在保存字体后保持流打开或关闭它。
 
-默认为 false 并且 Aspose.Words 将关闭您在**P:Aspose.Words.Saving.FontSavingArgs.FontStream**将字体写入其中后的属性。指定 true 以保持流打开。
+默认为 false，Aspose.Words 将关闭您在**P:Aspose.Words.Saving.FontSavingArgs.FontStream**将字体写入其中后的属性。指定 true 以保持流打开。
 
 **P:Aspose.Words.Saving.FontSavingArgs.FontStream**
 
@@ -231,7 +231,7 @@ public boolean isSubsettingNeeded()
 ```
 
 
-允许指定当前字体是否在导出为字体资源之前进行子集化。
+允许指定在导出为字体资源之前是否对当前字体进行子集化。
 
 字体可以导出为完整的原始字体文件或子集以仅包含文档中使用的字符。子集允许减少生成的字体资源大小。
 
@@ -245,7 +245,7 @@ public void isSubsettingNeeded(boolean value)
 ```
 
 
-允许指定当前字体是否在导出为字体资源之前进行子集化。
+允许指定在导出为字体资源之前是否对当前字体进行子集化。
 
 字体可以导出为完整的原始字体文件或子集以仅包含文档中使用的字符。子集允许减少生成的字体资源大小。
 
@@ -278,13 +278,13 @@ public void setFontFileName(String value)
 ```
 
 
-设置将保存字体的文件名（不带路径）。
+设置保存字体的文件名（不带路径）。
 
 此属性允许您重新定义在导出到 HTML 期间如何生成字体文件名。
 
-触发事件时，此属性包含由 Aspose.Words 生成的文件名。您可以更改此属性的值以将字体保存到不同的文件中。请注意，文件名必须是唯一的。
+当事件被触发时，该属性包含由 Aspose.Words 生成的文件名。您可以更改此属性的值以将字体保存到不同的文件中。请注意，文件名必须是唯一的。
 
-当导出为 HTML 格式时，Aspose.Words 会自动为每个嵌入字体生成一个唯一的文件名。字体文件名的生成方式取决于您是将文档保存到文件还是流中。
+当导出为 HTML 格式时，Aspose.Words 会自动为每个嵌入的字体生成一个唯一的文件名。字体文件名的生成方式取决于您是将文档保存到文件还是流。
 
 将文档保存到文件时，生成的字体文件名如下所示*..*.
 
@@ -318,9 +318,9 @@ public void setKeepFontStreamOpen(boolean value)
 ```
 
 
-指定 Aspose.Words 应该在保存字体后保持流打开还是关闭它。
+指定 Aspose.Words 是否应该在保存字体后保持流打开或关闭它。
 
-默认为 false 并且 Aspose.Words 将关闭您在**P:Aspose.Words.Saving.FontSavingArgs.FontStream**将字体写入其中后的属性。指定 true 以保持流打开。
+默认为 false，Aspose.Words 将关闭您在**P:Aspose.Words.Saving.FontSavingArgs.FontStream**将字体写入其中后的属性。指定 true 以保持流打开。
 
 **P:Aspose.Words.Saving.FontSavingArgs.FontStream**
 

@@ -1,6 +1,6 @@
 ---
 title: FileFormatInfo
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 包含文档格式检测方法返回的数据。
 type: docs
 weight: 265
@@ -13,17 +13,17 @@ java.lang.Object
 public class FileFormatInfo
 ```
 
-包含由返回的数据[FileFormatUtil](../../com.aspose.words/fileformatutil)文档格式检测方法。
+包含返回的数据[FileFormatUtil](../../com.aspose.words/fileformatutil)文档格式检测方法。
 
 要了解更多信息，请访问**Detect File Format and Check Format Compatibility**文档文章。
 
-您不直接创建此类的实例。此类的对象由以下方式返回**M:Aspose.Words.FileFormatUtil.DetectFileFormat(System.IO.Stream)**方法。
+您不直接创建此类的实例。此类的对象由**M:Aspose.Words.FileFormatUtil.DetectFileFormat(System.IO.Stream)**方法。
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getEncoding()](#getEncoding--) | 如果适用于当前文档格式，则获取检测到的编码。 |
 | [getLoadFormat()](#getLoadFormat--) | 获取检测到的文档格式。 |
 | [hasDigitalSignature()](#hasDigitalSignature--) | 如果此文档包含数字签名，则返回 true。 |
@@ -50,16 +50,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
@@ -115,7 +115,7 @@ public boolean isEncrypted()
 此属性的存在是为了帮助您对已加密的文档和未加密的文档进行排序。如果您尝试使用 Aspose.Words 加载加密文档而不提供密码，则会引发异常。您可以使用此属性来检测文档是否需要密码并在加载文档之前执行一些操作，例如提示用户输入密码。
 
 **退货:**
-boolean - 如果文档已加密并且需要密码才能打开，则为真。
+boolean - 如果文档已加密且需要密码才能打开，则为 True。
 ### notify() {#notify--}
 ```
 public final native void notify()

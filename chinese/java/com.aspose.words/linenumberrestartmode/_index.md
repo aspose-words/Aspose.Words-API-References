@@ -1,6 +1,6 @@
 ---
 title: LineNumberRestartMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 确定何时重新开始自动行编号。
 type: docs
 weight: 365
@@ -16,7 +16,7 @@ public class LineNumberRestartMode
 确定何时重新开始自动行编号。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CONTINUOUS](#CONTINUOUS) | 行号与上一节连续。 |
 | [RESTART_PAGE](#RESTART-PAGE) | 行号在每一页的开头重新开始。 |
@@ -28,7 +28,7 @@ public class LineNumberRestartMode
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String lineNumberRestartModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int lineNumberRestartMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -99,16 +99,16 @@ public static int fromName(String lineNumberRestartModeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int lineNumberRestartMode) {#getName-int-}
 ```
 public static String getName(int lineNumberRestartMode)

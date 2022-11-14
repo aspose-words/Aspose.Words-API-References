@@ -1,6 +1,6 @@
 ---
 title: ListLabel
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 定义特定于列表标签的属性。
 type: docs
 weight: 371
@@ -23,7 +23,7 @@ public class ListLabel
 | [clearRunAttrs()](#clearRunAttrs--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
 | [getFont()](#getFont--) | 获取列表标签字体。 |
 | [getLabelString()](#getLabelString--) | 获取列表标签的字符串表示形式。 |
@@ -75,16 +75,16 @@ public Object fetchInheritedRunAttr(int key)
 
 **退货:**
 java.lang.Object
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
 ```
 public Object getDirectRunAttr(int key)
@@ -126,7 +126,7 @@ public int getLabelValue()
 ```
 
 
-获取此标签的数值。使用[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--)方法来更新此属性的值。
+获取此标签的数值。使用[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--)方法更新此属性的值。
 
 **退货:**
 int - 此标签的数值。

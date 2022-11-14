@@ -1,6 +1,6 @@
 ---
 title: ComparisonEvaluationResult
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 比较评价结果。
 type: docs
 weight: 82
@@ -27,7 +27,7 @@ public class ComparisonEvaluationResult
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getErrorMessage()](#getErrorMessage--) | 获取失败的比较评估结果的错误信息。 |
 | [getResult()](#getResult--) | 获取比较评估结果。 |
 | [hashCode()](#hashCode--) |  |
@@ -78,16 +78,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getErrorMessage() {#getErrorMessage--}
 ```
 public String getErrorMessage()

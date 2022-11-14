@@ -1,6 +1,6 @@
 ---
 title: ImageColorMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定生成的文档页面图像的颜色模式。
 type: docs
 weight: 336
@@ -16,11 +16,11 @@ public class ImageColorMode
 指定生成的文档页面图像的颜色模式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BLACK_AND_WHITE](#BLACK-AND-WHITE) | 文档的页面将呈现为黑白图像。 |
 | [GRAYSCALE](#GRAYSCALE) | 文档的页面将呈现为灰度图像。 |
-| [NONE](#NONE) | 文档页面将呈现为彩色图像。 |
+| [NONE](#NONE) | 文档的页面将呈现为彩色图像。 |
 | [length](#length) |  |
 ## 方法
 
@@ -28,7 +28,7 @@ public class ImageColorMode
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String imageColorModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int imageColorMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -61,7 +61,7 @@ public static int NONE
 ```
 
 
-文档页面将呈现为彩色图像。
+文档的页面将呈现为彩色图像。
 
 ### length {#length}
 ```
@@ -99,16 +99,16 @@ public static int fromName(String imageColorModeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int imageColorMode) {#getName-int-}
 ```
 public static String getName(int imageColorMode)

@@ -1,6 +1,6 @@
 ---
 title: MailMergeCheckErrors
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定 Microsoft Word 如何报告在邮件合并期间检测到的错误。
 type: docs
 weight: 380
@@ -16,7 +16,7 @@ public class MailMergeCheckErrors
 指定 Microsoft Word 如何报告在邮件合并期间检测到的错误。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [COLLECT_ERRORS](#COLLECT-ERRORS) | 在新文档中完成合并并报告错误。 |
 | [DEFAULT](#DEFAULT) | 等于[PAUSE\_ON\_ERROR](../../com.aspose.words/mailmergecheckerrors\#PAUSE-ON-ERROR)价值。 |
@@ -29,7 +29,7 @@ public class MailMergeCheckErrors
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String mailMergeCheckErrorsName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int mailMergeCheckErrors)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -108,16 +108,16 @@ public static int fromName(String mailMergeCheckErrorsName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int mailMergeCheckErrors) {#getName-int-}
 ```
 public static String getName(int mailMergeCheckErrors)

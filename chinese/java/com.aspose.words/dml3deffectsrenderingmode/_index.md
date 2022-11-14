@@ -1,6 +1,6 @@
 ---
 title: Dml3DEffectsRenderingMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定如何渲染 3D 形状效果。
 type: docs
 weight: 116
@@ -16,7 +16,7 @@ public class Dml3DEffectsRenderingMode
 指定如何渲染 3D 形状效果。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [ADVANCED](#ADVANCED) | 渲染扩展的特殊效果列表，包括高级 3D 效果，例如斜面、照明和材质。 |
 | [BASIC](#BASIC) | 轻量级且稳定的渲染，基于内部引擎，但在使用此模式时不显示高级效果，如照明、材质和其他附加效果。 |
@@ -27,7 +27,7 @@ public class Dml3DEffectsRenderingMode
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String dml3DEffectsRenderingModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int dml3DEffectsRenderingMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -90,16 +90,16 @@ public static int fromName(String dml3DEffectsRenderingModeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int dml3DEffectsRenderingMode) {#getName-int-}
 ```
 public static String getName(int dml3DEffectsRenderingMode)

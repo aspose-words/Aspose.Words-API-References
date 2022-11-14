@@ -1,6 +1,6 @@
 ---
 title: JsonSimpleValueParseMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定在加载 JSON 时解析 JSON 简单值 null 布尔数字整数和字符串的模式。
 type: docs
 weight: 355
@@ -16,7 +16,7 @@ public class JsonSimpleValueParseMode
 指定在加载 JSON 时解析 JSON 简单值（null、布尔值、数字、整数和字符串）的模式。这种模式不会影响日期时间值的解析。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [LOOSE](#LOOSE) | 指定在解析其字符串表示时确定 JSON 简单值类型的模式。 |
 | [STRICT](#STRICT) | 指定从 JSON 表示法本身确定 JSON 简单值类型的模式。 |
@@ -27,7 +27,7 @@ public class JsonSimpleValueParseMode
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String jsonSimpleValueParseModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int jsonSimpleValueParseMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -90,16 +90,16 @@ public static int fromName(String jsonSimpleValueParseModeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int jsonSimpleValueParseMode) {#getName-int-}
 ```
 public static String getName(int jsonSimpleValueParseMode)

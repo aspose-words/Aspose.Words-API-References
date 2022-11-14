@@ -1,6 +1,6 @@
 ---
 title: Chart
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 提供对图表形状属性的访问。
 type: docs
 weight: 55
@@ -24,7 +24,7 @@ public class Chart
 | [getAxisX()](#getAxisX--) | 提供对图表 X 轴属性的访问。 |
 | [getAxisY()](#getAxisY--) | 提供对图表 Y 轴属性的访问。 |
 | [getAxisZ()](#getAxisZ--) | 提供对图表 Z 轴属性的访问。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getLegend()](#getLegend--) | 提供对图表图例属性的访问。 |
 | [getSeries()](#getSeries--) | 提供对系列集合的访问。 |
 | [getSourceFullName()](#getSourceFullName--) | 获取此图表链接到的 xls/xlsx 文件的路径和名称。 |
@@ -82,16 +82,16 @@ public ChartAxis getAxisZ()
 
 **退货:**
 [ChartAxis](../../com.aspose.words/chartaxis) - 相应的[ChartAxis](../../com.aspose.words/chartaxis)价值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getLegend() {#getLegend--}
 ```
 public ChartLegend getLegend()

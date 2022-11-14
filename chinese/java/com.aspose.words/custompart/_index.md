@@ -1,6 +1,6 @@
 ---
 title: CustomPart
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示 ISO/IEC 29500 标准未定义的自定义任意内容部分。
 type: docs
 weight: 102
@@ -33,20 +33,20 @@ Microsoft Word 在打开/保存周期中保留自定义部分。可以在此处�
 | --- | --- |
 | [deepClone()](#deepClone--) | 制作对象的“足够深”的副本。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getContent类型()](#getContent类型--) | 指定此自定义部件的内容类型。 |
-| [getData()](#getData--) | 包含此自定义零件的数据。 |
+| [getClass()](#getClass--) |  |
+| [getContentType()](#getContentType--) | 指定此自定义部件的内容类型。 |
+| [getData()](#getData--) | 包含此自定义部件的数据。 |
 | [getName()](#getName--) | 获取此部分在 OOXML 包或目标 URL 中的绝对名称。 |
-| [getRelationship类型()](#getRelationship类型--) | 获取从父部件到此自定义部件的关系类型。 |
+| [getRelationshipType()](#getRelationshipType--) | 获取从父部件到此自定义部件的关系类型。 |
 | [hashCode()](#hashCode--) |  |
-| [isExternal()](#isExternal--) | \{ 如果此自定义部件存储在 OOXML 包中，则为 False。 |
-| [isExternal(boolean value)](#isExternal-boolean-) | \{ 如果此自定义部件存储在 OOXML 包中，则为 False。 |
+| [isExternal()](#isExternal--) | \{ 如果此自定义部分存储在 OOXML 包中，则为 False。 |
+| [isExternal(boolean value)](#isExternal-boolean-) | \{ 如果此自定义部分存储在 OOXML 包中，则为 False。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setContent类型(String value)](#setContent类型-java.lang.String-) | 指定此自定义部件的内容类型。 |
-| [setData(byte[] value)](#setData-byte---) | 包含此自定义零件的数据。 |
-| [setName(String value)](#setName-java.lang.String-) | 在 OOXML 包或目标 URL 中设置此部件的绝对名称。 |
-| [setRelationship类型(String value)](#setRelationship类型-java.lang.String-) | 设置从父零件到此自定义零件的关系类型。 |
+| [setContentType(String value)](#setContentType-java.lang.String-) | 指定此自定义部件的内容类型。 |
+| [setData(byte[] value)](#setData-byte---) | 包含此自定义部件的数据。 |
+| [setName(String value)](#setName-java.lang.String-) | 在 OOXML 包或目标 URL 中设置此部分的绝对名称。 |
+| [setRelationshipType(String value)](#setRelationshipType-java.lang.String-) | 设置从父部件到此自定义部件的关系类型。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -76,19 +76,19 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getContent类型() {#getContent类型--}
+java.lang.Class<?>
+### getContentType() {#getContentType--}
 ```
-public String getContent类型()
+public String getContentType()
 ```
 
 
@@ -106,7 +106,7 @@ public byte[] getData()
 ```
 
 
-包含此自定义零件的数据。
+包含此自定义部件的数据。
 
 此属性仅适用于[isExternal()](../../com.aspose.words/custompart\#isExternal--) / [isExternal(boolean)](../../com.aspose.words/custompart\#isExternal-boolean-)是假的。
 
@@ -128,9 +128,9 @@ public String getName()
 
 **退货:**
 java.lang.String - 此部分在 OOXML 包或目标 URL 中的绝对名称。
-### getRelationship类型() {#getRelationship类型--}
+### getRelationshipType() {#getRelationshipType--}
 ```
-public String getRelationship类型()
+public String getRelationshipType()
 ```
 
 
@@ -195,9 +195,9 @@ public final native void notifyAll()
 
 
 
-### setContent类型(String value) {#setContent类型-java.lang.String-}
+### setContentType(String value) {#setContentType-java.lang.String-}
 ```
-public void setContent类型(String value)
+public void setContentType(String value)
 ```
 
 
@@ -218,7 +218,7 @@ public void setData(byte[] value)
 ```
 
 
-包含此自定义零件的数据。
+包含此自定义部件的数据。
 
 此属性仅适用于[isExternal()](../../com.aspose.words/custompart\#isExternal--) / [isExternal(boolean)](../../com.aspose.words/custompart\#isExternal-boolean-)是假的。
 
@@ -227,7 +227,7 @@ public void setData(byte[] value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] | 对应的字节[] 价值。 |
+| value | byte[] | 对应字节[] 价值。 |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -235,7 +235,7 @@ public void setName(String value)
 ```
 
 
-在 OOXML 包或目标 URL 中设置此部件的绝对名称。
+在 OOXML 包或目标 URL 中设置此部分的绝对名称。
 
 如果关系目标是内部的，则此属性是包内的绝对部件名称。如果关系目标是外部的，则此属性是目标 URL。
 
@@ -246,13 +246,13 @@ public void setName(String value)
 | --- | --- | --- |
 | value | java.lang.String | 此部分在 OOXML 包或目标 URL 中的绝对名称。 |
 
-### setRelationship类型(String value) {#setRelationship类型-java.lang.String-}
+### setRelationshipType(String value) {#setRelationshipType-java.lang.String-}
 ```
-public void setRelationship类型(String value)
+public void setRelationshipType(String value)
 ```
 
 
-设置从父零件到此自定义零件的关系类型。
+设置从父部件到此自定义部件的关系类型。
 
 自定义部件的关系类型必须是“未知的”，例如自定义关系类型，而不是 ISO/IEC 29500 中定义的关系类型之一。
 

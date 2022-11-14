@@ -1,6 +1,6 @@
 ---
 title: HtmlElementSizeOutputMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定 Aspose.Words 如何将元素宽度和高度导出到 HTML MHTML 和 EPUB。
 type: docs
 weight: 324
@@ -16,11 +16,11 @@ public class HtmlElementSizeOutputMode
 指定 Aspose.Words 如何将元素宽度和高度导出到 HTML、MHTML 和 EPUB。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [ALL](#ALL) | 导出文档中指定的所有元素大小，包括绝对单位和相对单位。 |
-| [NONE](#NONE) | 不导出元素大小。 |
-| [RELATIVE_ONLY](#RELATIVE-ONLY) | 只有在文档中以相对单位指定元素大小时，才会导出元素大小。 |
+| [NONE](#NONE) | 不导出单元尺寸。 |
+| [RELATIVE_ONLY](#RELATIVE-ONLY) | 仅当元素大小在文档中以相对单位指定时才会导出。 |
 | [length](#length) |  |
 ## 方法
 
@@ -28,7 +28,7 @@ public class HtmlElementSizeOutputMode
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String htmlElementSizeOutputModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int htmlElementSizeOutputMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -53,7 +53,7 @@ public static int NONE
 ```
 
 
-不导出元素大小。视觉代理会根据元素之间的关系自动构建布局。
+不导出单元尺寸。视觉代理将根据元素之间的关系自动构建布局。
 
 ### RELATIVE_ONLY {#RELATIVE-ONLY}
 ```
@@ -61,7 +61,7 @@ public static int RELATIVE_ONLY
 ```
 
 
-只有在文档中以相对单位指定元素大小时，才会导出元素大小。在此模式下不导出固定尺寸。视觉代理将计算缺失的尺寸以使文档布局更自然。
+仅当元素大小在文档中以相对单位指定时才会导出。在此模式下不导出固定尺寸。视觉代理将计算缺失的尺寸以使文档布局更自然。
 
 ### length {#length}
 ```
@@ -99,16 +99,16 @@ public static int fromName(String htmlElementSizeOutputModeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int htmlElementSizeOutputMode) {#getName-int-}
 ```
 public static String getName(int htmlElementSizeOutputMode)

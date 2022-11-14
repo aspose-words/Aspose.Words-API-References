@@ -1,6 +1,6 @@
 ---
 title: OleFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 提供对 OLE 对象或 ActiveX 控件的数据的访问。
 type: docs
 weight: 425
@@ -24,23 +24,23 @@ public class OleFormat
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutoUpdate()](#getAutoUpdate--) | 指定到 OLE 对象的链接是否在 Microsoft Word 中自动更新。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getClsid()](#getClsid--) | 获取 OLE 对象的 CLSID。 |
 | [getIconCaption()](#getIconCaption--) | 获取 OLE 对象的图标标题。 |
 | [getOleControl()](#getOleControl--) | 获取[getOleControl()](../../com.aspose.words/oleformat\#getOleControl--)如果此 OLE 对象是 ActiveX 控件，则为对象。 |
 | [getOleEntry(String oleEntryName)](#getOleEntry-java.lang.String-) |  |
 | [getOleIcon()](#getOleIcon--) | 获取 OLE 对象的绘制方面。 |
-| [getOle包裹()](#getOle包裹--) | 提供访问权限[Ole包裹](../../com.aspose.words/olepackage)如果 OLE 对象是 OLE 包。 |
+| [getOlePackage()](#getOlePackage--) | 提供访问权限[OlePackage](../../com.aspose.words/olepackage)如果 OLE 对象是 OLE 包。 |
 | [getProgId()](#getProgId--) | 获取 OLE 对象的 ProgID。 |
 | [getRawData()](#getRawData--) | 获取 OLE 对象原始数据。 |
 | [getSourceFullName()](#getSourceFullName--) | 获取链接的 OLE 对象的源文件的路径和名称。 |
-| [getSourceItem()](#getSourceItem--) | 获取用于标识正在链接的源文件部分的字符串。 |
-| [getSuggestedExtension()](#getSuggestedExtension--) | 如果要将当前嵌入对象保存到文件中，则获取为当前嵌入对象建议的文件扩展名。 |
-| [getSuggestedFileName()](#getSuggestedFileName--) | 如果要将当前嵌入对象保存到文件中，则获取为当前嵌入对象建议的文件名。 |
+| [getSourceItem()](#getSourceItem--) | 获取一个字符串，该字符串用于标识正在链接的源文件部分。 |
+| [getSuggestedExtension()](#getSuggestedExtension--) | 如果要将当前嵌入对象保存到文件中，则获取建议的文件扩展名。 |
+| [getSuggestedFileName()](#getSuggestedFileName--) | 如果要将当前嵌入对象保存到文件中，则获取建议的文件名。 |
 | [hashCode()](#hashCode--) |  |
-| [isLink()](#isLink--) | 如果 OLE 对象已链接（当[getSourceFullName()](../../com.aspose.words/oleformat\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat\#setSourceFullName-java.lang.String-)已指定）。 |
-| [isLocked()](#isLocked--) | 指定是否锁定到 OLE 对象的链接以防更新。 |
-| [isLocked(boolean value)](#isLocked-boolean-) | 指定是否锁定到 OLE 对象的链接以防更新。 |
+| [isLink()](#isLink--) | 如果 OLE 对象已链接（当[getSourceFullName()](../../com.aspose.words/oleformat\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat\#setSourceFullName-java.lang.String-)指定）。 |
+| [isLocked()](#isLocked--) | 指定是否锁定到 OLE 对象的链接以防止更新。 |
+| [isLocked(boolean value)](#isLocked-boolean-) | 指定是否锁定到 OLE 对象的链接以防止更新。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [save(OutputStream stream)](#save-java.io.OutputStream-) |  |
@@ -80,16 +80,16 @@ public boolean getAutoUpdate()
 
 **退货:**
 boolean - 对应的布尔值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getClsid() {#getClsid--}
 ```
 public UUID getClsid()
@@ -149,16 +149,16 @@ Aspose.Words 不允许设置此属性以避免混淆。如果您能够在 Aspose
 
 **退货:**
 boolean - OLE 对象的绘制方面。
-### getOle包裹() {#getOle包裹--}
+### getOlePackage() {#getOlePackage--}
 ```
-public Ole包裹 getOle包裹()
+public OlePackage getOlePackage()
 ```
 
 
-提供访问权限[Ole包裹](../../com.aspose.words/olepackage)如果 OLE 对象是 OLE 包。否则返回 null。 OLE 包是一项遗留技术，它允许将 Windows 系统的 OLE 注册表中不存在的任何文件格式包装到通用包中，从而允许将几乎任何内容嵌入到文档中。看[Ole包裹](../../com.aspose.words/olepackage)键入以获取更多信息。
+提供访问权限[OlePackage](../../com.aspose.words/olepackage)如果 OLE 对象是 OLE 包。否则返回 null。 OLE 包是一项遗留技术，它允许将 Windows 系统的 OLE 注册表中不存在的任何文件格式包装到通用包中，从而允许将几乎任何内容嵌入到文档中。看[OlePackage](../../com.aspose.words/olepackage)键入以获取更多信息。
 
 **退货:**
-[Ole包裹](../../com.aspose.words/olepackage) - 相应的[Ole包裹](../../com.aspose.words/olepackage)价值。
+[OlePackage](../../com.aspose.words/olepackage) - 相应的[OlePackage](../../com.aspose.words/olepackage)价值。
 ### getProgId() {#getProgId--}
 ```
 public String getProgId()
@@ -205,7 +205,7 @@ public String getSourceItem()
 ```
 
 
-获取用于标识正在链接的源文件部分的字符串。
+获取一个字符串，该字符串用于标识正在链接的源文件部分。
 
 默认值为空字符串。
 
@@ -219,7 +219,7 @@ public String getSuggestedExtension()
 ```
 
 
-如果要将当前嵌入对象保存到文件中，则获取为当前嵌入对象建议的文件扩展名。
+如果要将当前嵌入对象保存到文件中，则获取建议的文件扩展名。
 
 **退货:**
 java.lang.String - 如果要将当前嵌入对象保存到文件中，建议的文件扩展名。
@@ -229,7 +229,7 @@ public String getSuggestedFileName()
 ```
 
 
-如果要将当前嵌入对象保存到文件中，则获取为当前嵌入对象建议的文件名。
+如果要将当前嵌入对象保存到文件中，则获取建议的文件名。
 
 **退货:**
 java.lang.String - 如果要将当前嵌入对象保存到文件中，建议的文件名。
@@ -249,17 +249,17 @@ public boolean isLink()
 ```
 
 
-如果 OLE 对象已链接（当[getSourceFullName()](../../com.aspose.words/oleformat\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat\#setSourceFullName-java.lang.String-)已指定）。
+如果 OLE 对象已链接（当[getSourceFullName()](../../com.aspose.words/oleformat\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat\#setSourceFullName-java.lang.String-)指定）。
 
 **退货:**
- boolean - 如果 OLE 对象已链接，则为真（当[getSourceFullName()](../../com.aspose.words/oleformat\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat\#setSourceFullName-java.lang.String-)已指定）。
+ boolean - 如果 OLE 对象已链接，则为真（当[getSourceFullName()](../../com.aspose.words/oleformat\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat\#setSourceFullName-java.lang.String-)指定）。
 ### isLocked() {#isLocked--}
 ```
 public boolean isLocked()
 ```
 
 
-指定是否锁定到 OLE 对象的链接以防更新。
+指定是否锁定到 OLE 对象的链接以防止更新。
 
 默认值为**false**.
 
@@ -271,7 +271,7 @@ public void isLocked(boolean value)
 ```
 
 
-指定是否锁定到 OLE 对象的链接以防更新。
+指定是否锁定到 OLE 对象的链接以防止更新。
 
 默认值为**false**.
 

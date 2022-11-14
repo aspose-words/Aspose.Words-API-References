@@ -1,7 +1,7 @@
 ---
 title: ShapeLineStyle
-second_title: Aspose.Words for Java API Reference
-description: 指定 a 的复合线型。
+second_title: Aspose.Words for Java API 参考
+description: 指定 的复合线型。
 type: docs
 weight: 518
 url: /zh/java/com.aspose.words/shapelinestyle/
@@ -16,14 +16,14 @@ public class ShapeLineStyle
 指定 a 的复合线型[Shape](../../com.aspose.words/shape).
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [DEFAULT](#DEFAULT) | 默认值为[SINGLE](../../com.aspose.words/shapelinestyle\#SINGLE). |
-| [DOUBLE](#DOUBLE) | 等宽的双线。 |
+| [DOUBLE](#DOUBLE) | 双线等宽。 |
 | [SINGLE](#SINGLE) | 单线。 |
-| [THICK_THIN](#THICK-THIN) | 双线，一粗，一细。 |
-| [THIN_THICK](#THIN-THICK) | 双线，一细，一粗。 |
-| [TRIPLE](#TRIPLE) | 三行，细、粗、细。 |
+| [THICK_THIN](#THICK-THIN) | 双线，一粗一细。 |
+| [THIN_THICK](#THIN-THICK) | 双线，一细一粗。 |
+| [TRIPLE](#TRIPLE) | 三行，细，粗，细。 |
 | [length](#length) |  |
 ## 方法
 
@@ -31,7 +31,7 @@ public class ShapeLineStyle
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String shapeLineStyleName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int shapeLineStyle)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -56,7 +56,7 @@ public static int DOUBLE
 ```
 
 
-等宽的双线。
+双线等宽。
 
 ### SINGLE {#SINGLE}
 ```
@@ -72,7 +72,7 @@ public static int THICK_THIN
 ```
 
 
-双线，一粗，一细。
+双线，一粗一细。
 
 ### THIN_THICK {#THIN-THICK}
 ```
@@ -80,7 +80,7 @@ public static int THIN_THICK
 ```
 
 
-双线，一细，一粗。
+双线，一细一粗。
 
 ### TRIPLE {#TRIPLE}
 ```
@@ -88,7 +88,7 @@ public static int TRIPLE
 ```
 
 
-三行，细、粗、细。
+三行，细，粗，细。
 
 ### length {#length}
 ```
@@ -126,16 +126,16 @@ public static int fromName(String shapeLineStyleName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int shapeLineStyle) {#getName-int-}
 ```
 public static String getName(int shapeLineStyle)

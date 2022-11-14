@@ -1,6 +1,6 @@
 ---
 title: INodeChangingCallback
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 如果您想在文档中插入或删除节点时接收通知，请实现此接口。
 type: docs
 weight: 652

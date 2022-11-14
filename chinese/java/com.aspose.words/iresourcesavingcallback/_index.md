@@ -1,7 +1,7 @@
 ---
 title: IResourceSavingCallback
-second_title: Aspose.Words for Java API Reference
-description: 如果您想控制 Aspose.Words 在将文档保存到固定页面 HTML 或 SVG 时如何保存外部资源图像字体和 css，请实现此接口。
+second_title: Aspose.Words for Java API 参考
+description: 如果你想控制Aspose.Words在保存文档到固定页面HTML或SVG时如何保存外部资源图像字体和css，实现这个接口。
 type: docs
 weight: 657
 url: /zh/java/com.aspose.words/iresourcesavingcallback/

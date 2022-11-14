@@ -1,6 +1,6 @@
 ---
 title: ConditionalStyleCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示对象的集合。
 type: docs
 weight: 90
@@ -20,7 +20,7 @@ public class ConditionalStyleCollection implements Iterable
 
 要了解更多信息，请访问**Working with Tables**文档文章。
 
-无法在此集合中添加或删除项目。它包含一组永久的项目：一个项目的每个值[ConditionalStyle类型](../../com.aspose.words/conditionalstyletype)枚举类型。
+无法在此集合中添加或删除项目。它包含一组永久项目：每个值对应一个项目[ConditionalStyleType](../../com.aspose.words/conditionalstyletype)枚举类型。
 ## 方法
 
 | 方法 | 描述 |
@@ -28,10 +28,10 @@ public class ConditionalStyleCollection implements Iterable
 | [clearFormatting()](#clearFormatting--) | 清除表格样式的所有条件样式。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 检索一个[ConditionalStyle](../../com.aspose.words/conditionalstyle)按索引的对象。 |
-| [getBottomLeftCell()](#getBottomLeftCell--) | 获取左下角的单元格样式。 |
+| [getBottomLeftCell()](#getBottomLeftCell--) | 获取左下方的单元格样式。 |
 | [getBottomRightCell()](#getBottomRightCell--) | 获取右下角的单元格样式。 |
-| [getByConditionalStyle类型(int conditionalStyle类型)](#getByConditionalStyle类型-int-) |  |
-| [get班级()](#get班级--) |  |
+| [getByConditionalStyleType(int conditionalStyleType)](#getByConditionalStyleType-int-) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中条件样式的数量。 |
 | [getEvenColumnBanding()](#getEvenColumnBanding--) | 获取偶数列条带样式。 |
 | [getEvenRowBanding()](#getEvenRowBanding--) | 获取偶数行条带样式。 |
@@ -95,7 +95,7 @@ public ConditionalStyle getBottomLeftCell()
 ```
 
 
-获取左下角的单元格样式。
+获取左下方的单元格样式。
 
 **退货:**
 [ConditionalStyle](../../com.aspose.words/conditionalstyle) - 左下角单元格样式。
@@ -109,9 +109,9 @@ public ConditionalStyle getBottomRightCell()
 
 **退货:**
 [ConditionalStyle](../../com.aspose.words/conditionalstyle) - 右下角的单元格样式。
-### getByConditionalStyle类型(int conditionalStyle类型) {#getByConditionalStyle类型-int-}
+### getByConditionalStyleType(int conditionalStyleType) {#getByConditionalStyleType-int-}
 ```
-public ConditionalStyle getByConditionalStyle类型(int conditionalStyle类型)
+public ConditionalStyle getByConditionalStyleType(int conditionalStyleType)
 ```
 
 
@@ -120,20 +120,20 @@ public ConditionalStyle getByConditionalStyle类型(int conditionalStyle类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| conditionalStyle类型 | int |  |
+| conditionalStyleType | int |  |
 
 **退货:**
 [ConditionalStyle](../../com.aspose.words/conditionalstyle)
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

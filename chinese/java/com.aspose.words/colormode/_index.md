@@ -1,6 +1,6 @@
 ---
 title: ColorMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定如何呈现颜色。
 type: docs
 weight: 75
@@ -16,7 +16,7 @@ public class ColorMode
 指定如何呈现颜色。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [GRAYSCALE](#GRAYSCALE) | 使用从白色到黑色的一系列灰色阴影进行渲染。 |
 | [NORMAL](#NORMAL) | 使用未修改的颜色进行渲染。 |
@@ -27,7 +27,7 @@ public class ColorMode
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String colorModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int colorMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -90,16 +90,16 @@ public static int fromName(String colorModeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int colorMode) {#getName-int-}
 ```
 public static String getName(int colorMode)

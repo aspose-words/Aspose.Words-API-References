@@ -1,6 +1,6 @@
 ---
 title: WebExtensionReference
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示对 Web 扩展的引用。
 type: docs
 weight: 617
@@ -13,7 +13,7 @@ java.lang.Object
 public class WebExtensionReference
 ```
 
-表示对 Web 扩展的引用。该引用用于标识提供程序的位置和扩展的版本。
+表示对 Web 扩展的引用。该引用用于标识提供者位置和扩展的版本。
 
 要了解更多信息，请访问**Work with Office Add-ins**文档文章。
 ## 方法
@@ -21,17 +21,17 @@ public class WebExtensionReference
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getId()](#getId--) | 与目录提供程序中的 Web 扩展关联的标识符。 |
 | [getStore()](#getStore--) | 指定存储 Web 扩展的市场实例。 |
-| [getStore类型()](#getStore类型--) | 指定市场的类型。 |
+| [getStoreType()](#getStoreType--) | 指定市场类型。 |
 | [getVersion()](#getVersion--) | 指定 Web 扩展的版本。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setId(String value)](#setId-java.lang.String-) | 与目录提供程序中的 Web 扩展关联的标识符。 |
 | [setStore(String value)](#setStore-java.lang.String-) | 指定存储 Web 扩展的市场实例。 |
-| [setStore类型(int value)](#setStore类型-int-) | 指定市场的类型。 |
+| [setStoreType(int value)](#setStoreType-int-) | 指定市场类型。 |
 | [setVersion(String value)](#setVersion-java.lang.String-) | 指定 Web 扩展的版本。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -52,16 +52,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getId() {#getId--}
 ```
 public String getId()
@@ -82,16 +82,16 @@ public String getStore()
 
 **退货:**
 java.lang.String - 对应的 java.lang.String 值。
-### getStore类型() {#getStore类型--}
+### getStoreType() {#getStoreType--}
 ```
-public int getStore类型()
+public int getStoreType()
 ```
 
 
-指定市场的类型。
+指定市场类型。
 
 **退货:**
-int - 对应的 int 值。返回值是以下之一[WebExtensionStore类型](../../com.aspose.words/webextensionstoretype)常数。
+int - 对应的 int 值。返回值是以下之一[WebExtensionStoreType](../../com.aspose.words/webextensionstoretype)常数。
 ### getVersion() {#getVersion--}
 ```
 public String getVersion()
@@ -154,18 +154,18 @@ public void setStore(String value)
 | --- | --- | --- |
 | value | java.lang.String | 对应的 java.lang.String 值。 |
 
-### setStore类型(int value) {#setStore类型-int-}
+### setStoreType(int value) {#setStoreType-int-}
 ```
-public void setStore类型(int value)
+public void setStoreType(int value)
 ```
 
 
-指定市场的类型。
+指定市场类型。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[WebExtensionStore类型](../../com.aspose.words/webextensionstoretype)常数。 |
+| value | int | 对应的 int 值。该值必须是以下之一[WebExtensionStoreType](../../com.aspose.words/webextensionstoretype)常数。 |
 
 ### setVersion(String value) {#setVersion-java.lang.String-}
 ```

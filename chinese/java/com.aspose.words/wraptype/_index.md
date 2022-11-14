@@ -1,6 +1,6 @@
 ---
-title: Wrap类型
-second_title: Aspose.Words for Java API Reference
+title: WrapType
+second_title: Aspose.Words for Java API 参考
 description: 指定文本如何环绕形状或图片。
 type: docs
 weight: 622
@@ -10,35 +10,35 @@ url: /zh/java/com.aspose.words/wraptype/
 **遗产:**
 java.lang.Object
 ```
-public class Wrap类型
+public class WrapType
 ```
 
 指定文本如何环绕形状或图片。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [INLINE](#INLINE) | 形状与文本保持在同一图层上并被视为字符。 |
 | [NONE](#NONE) | 形状周围没有环绕文字。 |
 | [SQUARE](#SQUARE) | 将文本环绕在形状的方形边界框的所有边上。 |
 | [THROUGH](#THROUGH) | 与 Tight 相同，但包裹在打开的形状的任何部分内。 |
 | [TIGHT](#TIGHT) | 紧紧围绕形状的边缘，而不是围绕边界框。 |
-| [TOP_BOTTOM](#TOP-BOTTOM) | 文本在形状顶部停止并在形状下方的行上重新开始。 |
+| [TOP_BOTTOM](#TOP-BOTTOM) | 文本停在形状的顶部并在形状下方的线上重新开始。 |
 | [length](#length) |  |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String wrap类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int wrap类型)](#getName-int-) |  |
+| [fromName(String wrapTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int wrapType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int wrap类型)](#toString-int-) |  |
+| [toString(int wrapType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -56,7 +56,7 @@ public static int NONE
 ```
 
 
-形状周围没有环绕文字。形状位于文本的后面或前面。
+没有文字环绕形状。形状放在文本的后面或前面。
 
 ### SQUARE {#SQUARE}
 ```
@@ -88,7 +88,7 @@ public static int TOP_BOTTOM
 ```
 
 
-文本在形状顶部停止并在形状下方的行上重新开始。
+文本停在形状的顶部并在形状下方的线上重新开始。
 
 ### length {#length}
 ```
@@ -111,9 +111,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String wrap类型Name) {#fromName-java.lang.String-}
+### fromName(String wrapTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String wrap类型Name)
+public static int fromName(String wrapTypeName)
 ```
 
 
@@ -122,23 +122,23 @@ public static int fromName(String wrap类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| wrap类型Name | java.lang.String |  |
+| wrapTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int wrap类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int wrapType) {#getName-int-}
 ```
-public static String getName(int wrap类型)
+public static String getName(int wrapType)
 ```
 
 
@@ -147,7 +147,7 @@ public static String getName(int wrap类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| wrap类型 | int |  |
+| wrapType | int |  |
 
 **退货:**
 java.lang.String
@@ -197,9 +197,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int wrap类型) {#toString-int-}
+### toString(int wrapType) {#toString-int-}
 ```
-public static String toString(int wrap类型)
+public static String toString(int wrapType)
 ```
 
 
@@ -208,7 +208,7 @@ public static String toString(int wrap类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| wrap类型 | int |  |
+| wrapType | int |  |
 
 **退货:**
 java.lang.String

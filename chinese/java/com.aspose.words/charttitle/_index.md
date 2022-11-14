@@ -1,6 +1,6 @@
 ---
 title: ChartTitle
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 提供对图表标题属性的访问。
 type: docs
 weight: 70
@@ -26,7 +26,7 @@ public class ChartTitle implements Cloneable
 | [clearRunAttrs()](#clearRunAttrs--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
 | [getOverlay()](#getOverlay--) | 确定是否允许其他图表元素与标题重叠。 |
 | [getShow()](#getShow--) | 确定是否应为此图表显示标题。 |
@@ -81,16 +81,16 @@ public Object fetchInheritedRunAttr(int key)
 
 **退货:**
 java.lang.Object
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
 ```
 public Object getDirectRunAttr(int key)
@@ -112,7 +112,7 @@ public boolean getOverlay()
 ```
 
 
-确定是否允许其他图表元素与标题重叠。默认情况下，覆盖是假的。
+确定是否允许其他图表元素与标题重叠。默认情况下叠加是错误的。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -181,7 +181,7 @@ public void setOverlay(boolean value)
 ```
 
 
-确定是否允许其他图表元素与标题重叠。默认情况下，覆盖是假的。
+确定是否允许其他图表元素与标题重叠。默认情况下叠加是错误的。
 
 **参数:**
 | 范围 | 类型 | 描述 |

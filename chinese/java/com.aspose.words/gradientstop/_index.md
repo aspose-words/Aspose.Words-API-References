@@ -1,6 +1,6 @@
 ---
 title: GradientStop
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 代表一个梯度停止。
 type: docs
 weight: 308
@@ -27,17 +27,17 @@ public class GradientStop
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getColor()](#getColor--) | 获取一个表示渐变色标颜色的值。 |
-| [getPosition()](#getPosition--) | 获取一个值，该值表示渐变中停靠点的位置，以 0.0 到 1.0 范围内的百分比表示。 |
-| [getTransparency()](#getTransparency--) | 获取一个值，该值表示渐变填充的透明度，以 0.0 到 1.0 范围内的百分比表示。 |
+| [getClass()](#getClass--) |  |
+| [getColor()](#getColor--) | 获取表示渐变色标颜色的值。 |
+| [getPosition()](#getPosition--) | 获取一个值，该值表示渐变内停止点的位置，以 0.0 到 1.0 范围内的百分比表示。 |
+| [getTransparency()](#getTransparency--) | 获取表示渐变填充透明度的值，以 0.0 到 1.0 范围内的百分比表示。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove()](#remove--) | 从父级移除渐变色标[GradientStopCollection](../../com.aspose.words/gradientstopcollection). |
-| [setColor(Color value)](#setColor-java.awt.Color-) | 设置一个表示渐变色标颜色的值。 |
-| [setPosition(double value)](#setPosition-double-) | 设置一个值，该值表示渐变内的停止位置，以 0.0 到 1.0 范围内的百分比表示。 |
-| [setTransparency(double value)](#setTransparency-double-) | 设置一个值，该值表示渐变填充的透明度，以 0.0 到 1.0 范围内的百分比表示。 |
+| [remove()](#remove--) | 从父项中删除梯度停止[GradientStopCollection](../../com.aspose.words/gradientstopcollection). |
+| [setColor(Color value)](#setColor-java.awt.Color-) | 设置表示渐变色标颜色的值。 |
+| [setPosition(double value)](#setPosition-double-) | 设置一个值，该值表示渐变内停止点的位置，以 0.0 到 1.0 范围内的百分比表示。 |
+| [setTransparency(double value)](#setTransparency-double-) | 设置一个表示渐变填充透明度的值，以 0.0 到 1.0 范围内的百分比表示。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -53,8 +53,8 @@ public GradientStop(Color color, double position)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| color | java.awt.Color | 表示渐变色标的颜色。 |
-| position | double | 表示渐变中停止的位置，以 0.0 到 1.0 范围内的百分比表示。 |
+| color | java.awt.Color | 表示渐变停止的颜色。 |
+| position | double | 表示渐变内停止点的位置，以 0.0 到 1.0 范围内的百分比表示。 |
 
 ### GradientStop(Color color, double position, double transparency) {#GradientStop-java.awt.Color-double-double-}
 ```
@@ -67,9 +67,9 @@ public GradientStop(Color color, double position, double transparency)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| color | java.awt.Color | 表示渐变色标的颜色。 |
-| position | double | 表示渐变中停止的位置，以 0.0 到 1.0 范围内的百分比表示。 |
-| transparency | double | 表示渐变中停止点的透明度，以 0.0 到 1.0 范围内的百分比表示。 |
+| color | java.awt.Color | 表示渐变停止的颜色。 |
+| position | double | 表示渐变内停止点的位置，以 0.0 到 1.0 范围内的百分比表示。 |
+| transparency | double | 表示渐变内停止点的透明度，以 0.0 到 1.0 范围内的百分比表示。 |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -86,46 +86,46 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getColor() {#getColor--}
 ```
 public Color getColor()
 ```
 
 
-获取一个表示渐变色标颜色的值。
+获取表示渐变色标颜色的值。
 
 **退货:**
-java.awt.Color - 一个表示渐变色标的值。
+java.awt.Color - 表示渐变色标颜色的值。
 ### getPosition() {#getPosition--}
 ```
 public double getPosition()
 ```
 
 
-获取一个值，该值表示渐变中停靠点的位置，以 0.0 到 1.0 范围内的百分比表示。
+获取一个值，该值表示渐变内停止点的位置，以 0.0 到 1.0 范围内的百分比表示。
 
 **退货:**
-double - 表示渐变中停止位置的值，以 0.0 到 1.0 范围内的百分比表示。
+double - 表示渐变内停止位置的值，表示为 0.0 到 1.0 范围内的百分比。
 ### getTransparency() {#getTransparency--}
 ```
 public double getTransparency()
 ```
 
 
-获取一个值，该值表示渐变填充的透明度，以 0.0 到 1.0 范围内的百分比表示。
+获取表示渐变填充透明度的值，以 0.0 到 1.0 范围内的百分比表示。
 
 **退货:**
-double - 表示渐变填充透明度的值，以 0.0 到 1.0 范围内的百分比表示。
+double - 表示渐变填充透明度的值，表示为 0.0 到 1.0 范围内的百分比。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -158,7 +158,7 @@ public void remove()
 ```
 
 
-从父级移除渐变色标[GradientStopCollection](../../com.aspose.words/gradientstopcollection).
+从父项中删除梯度停止[GradientStopCollection](../../com.aspose.words/gradientstopcollection).
 
 ### setColor(Color value) {#setColor-java.awt.Color-}
 ```
@@ -166,12 +166,12 @@ public void setColor(Color value)
 ```
 
 
-设置一个表示渐变色标颜色的值。
+设置表示渐变色标颜色的值。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.awt.Color | 表示渐变色标颜色的值。 |
+| value | java.awt.Color | 表示渐变停止颜色的值。 |
 
 ### setPosition(double value) {#setPosition-double-}
 ```
@@ -179,12 +179,12 @@ public void setPosition(double value)
 ```
 
 
-设置一个值，该值表示渐变内的停止位置，以 0.0 到 1.0 范围内的百分比表示。
+设置一个值，该值表示渐变内停止点的位置，以 0.0 到 1.0 范围内的百分比表示。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 表示渐变中停止位置的值，以 0.0 到 1.0 范围内的百分比表示。 |
+| value | double | 表示渐变内停止位置的值，表示为 0.0 到 1.0 范围内的百分比。 |
 
 ### setTransparency(double value) {#setTransparency-double-}
 ```
@@ -192,7 +192,7 @@ public void setTransparency(double value)
 ```
 
 
-设置一个值，该值表示渐变填充的透明度，以 0.0 到 1.0 范围内的百分比表示。
+设置一个表示渐变填充透明度的值，以 0.0 到 1.0 范围内的百分比表示。
 
 **参数:**
 | 范围 | 类型 | 描述 |

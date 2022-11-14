@@ -1,6 +1,6 @@
 ---
 title: DmlRenderingMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定如何将 DrawingML 形状呈现为固定页面格式。
 type: docs
 weight: 118
@@ -16,7 +16,7 @@ public class DmlRenderingMode
 指定如何将 DrawingML 形状呈现为固定页面格式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [DRAWING_ML](#DRAWING-ML) | Aspose.Words 忽略 DrawingML 的后备形状并呈现 DrawingML 本身。 |
 | [FALLBACK](#FALLBACK) | 如果回退形状可用于 DrawingML，Aspose.Words 会呈现回退形状而不是 DrawingML。 |
@@ -27,7 +27,7 @@ public class DmlRenderingMode
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String dmlRenderingModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int dmlRenderingMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -90,16 +90,16 @@ public static int fromName(String dmlRenderingModeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int dmlRenderingMode) {#getName-int-}
 ```
 public static String getName(int dmlRenderingMode)

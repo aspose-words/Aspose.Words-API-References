@@ -1,6 +1,6 @@
 ---
 title: CultureInfo
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: .Nets System.Globalization.CultureInfo 的地图。
 type: docs
 weight: 10
@@ -26,7 +26,7 @@ public class CultureInfo
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDateTimeFormat()](#getDateTimeFormat--) | 获取 .Net 样式的 DateTimeFormatInfo |
 | [getLocale(System.Globalization.CultureInfo cultureInfo)](#getLocale-com.aspose.words.net.System.Globalization.CultureInfo-) | 从 .Net 风格的 CultureInfo 获取 java 语言环境 |
 | [hashCode()](#hashCode--) |  |
@@ -91,16 +91,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDateTimeFormat() {#getDateTimeFormat--}
 ```
 public System.Globalization.DateTimeFormatInfo getDateTimeFormat()

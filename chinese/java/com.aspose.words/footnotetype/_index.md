@@ -1,6 +1,6 @@
 ---
-title: Footnote类型
-second_title: Aspose.Words for Java API Reference
+title: FootnoteType
+second_title: Aspose.Words for Java API 参考
 description: 指定这是脚注还是尾注。
 type: docs
 weight: 295
@@ -10,15 +10,15 @@ url: /zh/java/com.aspose.words/footnotetype/
 **遗产:**
 java.lang.Object
 ```
-public class Footnote类型
+public class FootnoteType
 ```
 
 指定这是脚注还是尾注。
 
-脚注和尾注都由对象表示[FOOTNOTE](../../com.aspose.words/footnotetype\#FOOTNOTE)班级。利用[Footnote.getFootnote类型()](../../com.aspose.words/footnote\#getFootnote类型--)区分脚注和尾注。
+脚注和尾注都由对象表示[FOOTNOTE](../../com.aspose.words/footnotetype\#FOOTNOTE)班级。利用[Footnote.getFootnoteType()](../../com.aspose.words/footnote\#getFootnoteType--)区分脚注和尾注。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [ENDNOTE](#ENDNOTE) | 对象是尾注。 |
 | [FOOTNOTE](#FOOTNOTE) | 对象是脚注。 |
@@ -28,15 +28,15 @@ public class Footnote类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String footnote类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int footnote类型)](#getName-int-) |  |
+| [fromName(String footnoteTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int footnoteType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int footnote类型)](#toString-int-) |  |
+| [toString(int footnoteType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -77,9 +77,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String footnote类型Name) {#fromName-java.lang.String-}
+### fromName(String footnoteTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String footnote类型Name)
+public static int fromName(String footnoteTypeName)
 ```
 
 
@@ -88,23 +88,23 @@ public static int fromName(String footnote类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| footnote类型Name | java.lang.String |  |
+| footnoteTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int footnote类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int footnoteType) {#getName-int-}
 ```
-public static String getName(int footnote类型)
+public static String getName(int footnoteType)
 ```
 
 
@@ -113,7 +113,7 @@ public static String getName(int footnote类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| footnote类型 | int |  |
+| footnoteType | int |  |
 
 **退货:**
 java.lang.String
@@ -163,9 +163,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int footnote类型) {#toString-int-}
+### toString(int footnoteType) {#toString-int-}
 ```
-public static String toString(int footnote类型)
+public static String toString(int footnoteType)
 ```
 
 
@@ -174,7 +174,7 @@ public static String toString(int footnote类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| footnote类型 | int |  |
+| footnoteType | int |  |
 
 **退货:**
 java.lang.String

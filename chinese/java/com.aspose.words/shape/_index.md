@@ -1,6 +1,6 @@
 ---
 title: Shape
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示绘图层中的对象，例如自选图形文本框自由格式 OLE 对象 ActiveX 控件或图片。
 type: docs
 weight: 516
@@ -19,14 +19,14 @@ public class Shape extends ShapeBase
 
 使用[Shape](../../com.aspose.words/shape)类，您可以在 Microsoft Word 文档中创建或修改形状。
 
-形状的一个重要属性是它的[ShapeBase.getShape类型()](../../com.aspose.words/shapebase\#getShape类型--).不同类型的形状在 Word 文档中可以具有不同的功能。例如，只有图像和 OLE 形状可以在其中包含图像。大多数形状都可以有文本，但不是全部。
+形状的一个重要属性是它的[ShapeBase.getShapeType()](../../com.aspose.words/shapebase\#getShapeType--).不同类型的形状在 Word 文档中可以具有不同的功能。例如，只有图像和 OLE 形状可以在其中包含图像。大多数形状都可以有文本，但不是全部。
 
-可以有文本的形状，可以包含[Paragraph](../../com.aspose.words/paragraph)和[Table](../../com.aspose.words/table)节点作为子节点。
+可以有文本的形状，可以包含[Paragraph](../../com.aspose.words/paragraph)和[Table](../../com.aspose.words/table)节点作为孩子。
 ## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [Shape(DocumentBase doc, int shape类型)](#Shape-com.aspose.words.DocumentBase-int-) | 初始化此类的新实例。 |
+| [Shape(DocumentBase doc, int shapeType)](#Shape-com.aspose.words.DocumentBase-int-) | 初始化此类的新实例。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -44,8 +44,8 @@ public class Shape extends ShapeBase
 | [fetchShapeAttr(int key)](#fetchShapeAttr-int-) | 保留供系统使用。 |
 | [getAllowOverlap()](#getAllowOverlap--) | 获取一个值，该值指定此形状是否可以与其他形状重叠。 |
 | [getAlternativeText()](#getAlternativeText--) | 定义要显示的替代文本而不是图形。 |
-| [getAncestor(int ancestor类型)](#getAncestor-int-) |  |
-| [getAncestor(班级 ancestor类型)](#getAncestor-java.lang.班级-) | 获取指定对象类型的第一个祖先。 |
+| [getAncestor(int ancestorType)](#getAncestor-int-) |  |
+| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class-) | 获取指定对象类型的第一个祖先。 |
 | [getAnchorLocked()](#getAnchorLocked--) | 指定形状的锚点是否被锁定。 |
 | [getAspectRatioLocked()](#getAspectRatioLocked--) | 指定形状的纵横比是否被锁定。 |
 | [getBehindText()](#getBehindText--) | 指定形状是低于还是高于文本。 |
@@ -54,10 +54,10 @@ public class Shape extends ShapeBase
 | [getBoundsInPoints()](#getBoundsInPoints--) | 获取形状包含块的位置和大小，以点为单位，相对于最顶部形状的锚点。 |
 | [getBoundsWithEffects()](#getBoundsWithEffects--) | 获取此形状对象在应用绘图效果后的最终范围。 |
 | [getChart()](#getChart--) | 如果此形状具有图表，则提供对图表属性的访问。 |
-| [getChild(int node类型, int index, boolean isDeep)](#getChild-int-int-boolean-) |  |
+| [getChild(int nodeType, int index, boolean isDeep)](#getChild-int-int-boolean-) |  |
 | [getChildNodes()](#getChildNodes--) | 获取此节点的所有直接子节点。 |
-| [getChildNodes(int node类型, boolean isDeep)](#getChildNodes-int-boolean-) |  |
-| [get班级()](#get班级--) |  |
+| [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean-) |  |
+| [getClass()](#getClass--) |  |
 | [getContainer()](#getContainer--) |  |
 | [getCoordOrigin()](#getCoordOrigin--) | 此形状的包含块左上角的坐标。 |
 | [getCoordSize()](#getCoordSize--) | 此形状的包含块内的坐标空间的宽度和高度。 |
@@ -74,13 +74,13 @@ public class Shape extends ShapeBase
 | [getDocument()](#getDocument--) | 获取该节点所属的文档。 |
 | [getDocument_IInline()](#getDocument-IInline--) |  |
 | [getEndArrowLength()](#getEndArrowLength--) |  |
-| [getEndArrow类型()](#getEndArrow类型--) |  |
+| [getEndArrowType()](#getEndArrowType--) |  |
 | [getEndArrowWidth()](#getEndArrowWidth--) |  |
 | [getEndCap()](#getEndCap--) |  |
 | [getExtrusionEnabled()](#getExtrusionEnabled--) | 如果启用了挤压效果，则返回 true。 |
 | [getFill()](#getFill--) | 获取形状的填充格式。 |
 | [getFillColor()](#getFillColor--) | 定义填充形状闭合路径的画笔颜色。 |
-| [getFill类型()](#getFill类型--) |  |
+| [getFillType()](#getFillType--) |  |
 | [getFillableBackColor()](#getFillableBackColor--) |  |
 | [getFillableForeColor()](#getFillableForeColor--) |  |
 | [getFillableImageBytes()](#getFillableImageBytes--) |  |
@@ -106,21 +106,21 @@ public class Shape extends ShapeBase
 | [getLastChild()](#getLastChild--) | 获取节点的最后一个子节点。 |
 | [getLastParagraph()](#getLastParagraph--) | 获取形状中的最后一段。 |
 | [getLeft()](#getLeft--) | 获取形状包含块的左边缘的位置。 |
-| [getLineFill类型()](#getLineFill类型--) |  |
+| [getLineFillType()](#getLineFillType--) |  |
 | [getLineStyle()](#getLineStyle--) |  |
 | [getMarkupLanguage()](#getMarkupLanguage--) | 获取用于此图形对象的 MarkupLanguage。 |
 | [getMarkupLanguage_ITextBox()](#getMarkupLanguage-ITextBox--) |  |
 | [getName()](#getName--) | 获取可选的形状名称。 |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node-) |  |
 | [getNextSibling()](#getNextSibling--) | 获取紧跟此节点的节点。 |
-| [getNode类型()](#getNode类型--) | 退货[Node类型.SHAPE](../../com.aspose.words/nodetype\#SHAPE). |
+| [getNodeType()](#getNodeType--) | 退货[NodeType.SHAPE](../../com.aspose.words/nodetype\#SHAPE). |
 | [getOleFormat()](#getOleFormat--) | 提供对形状的 OLE 数据的访问。 |
 | [getOn()](#getOn--) |  |
 | [getOpacity()](#getOpacity--) |  |
 | [getParentNode()](#getParentNode--) | 获取此节点的直接父节点。 |
 | [getParentParagraph()](#getParentParagraph--) | 返回直接父段落。 |
 | [getParentParagraph_IInline()](#getParentParagraph-IInline--) |  |
-| [getPattern类型()](#getPattern类型--) |  |
+| [getPatternType()](#getPatternType--) |  |
 | [getPresetTexture()](#getPresetTexture--) |  |
 | [getPreviousSibling()](#getPreviousSibling--) | 获取紧接在此节点之前的节点。 |
 | [getRange()](#getRange--) | 返回一个**Range**表示包含在此节点中的文档部分的对象。 |
@@ -133,14 +133,14 @@ public class Shape extends ShapeBase
 | [getShadowEnabled()](#getShadowEnabled--) | 如果启用了阴影效果，则返回 true。 |
 | [getShadowFormat()](#getShadowFormat--) | 获取形状的阴影格式。 |
 | [getShapeRenderer()](#getShapeRenderer--) | 创建并返回可用于将此形状渲染为图像的对象。 |
-| [getShape类型()](#getShape类型--) | 获取形状类型。 |
+| [getShapeType()](#getShapeType--) | 获取形状类型。 |
 | [getSignatureLine()](#getSignatureLine--) | 获取[getSignatureLine()](../../com.aspose.words/shape\#getSignatureLine--)如果形状是签名线，则对象。 |
 | [getSizeInPoints()](#getSizeInPoints--) | 以点为单位获取形状的大小。 |
 | [getStartArrowLength()](#getStartArrowLength--) |  |
-| [getStartArrow类型()](#getStartArrow类型--) |  |
+| [getStartArrowType()](#getStartArrowType--) |  |
 | [getStartArrowWidth()](#getStartArrowWidth--) |  |
-| [getStory类型()](#getStory类型--) | 退货[Story类型.TEXTBOX](../../com.aspose.words/storytype\#TEXTBOX). |
-| [getStroke()](#getStroke--) | 定义形状的笔触。 |
+| [getStoryType()](#getStoryType--) | 退货[StoryType.TEXTBOX](../../com.aspose.words/storytype\#TEXTBOX). |
+| [getStroke()](#getStroke--) | 定义形状的描边。 |
 | [getStrokeColor()](#getStrokeColor--) | 定义描边的颜色。 |
 | [getStrokeImageBytes()](#getStrokeImageBytes--) |  |
 | [getStrokeTransparency()](#getStrokeTransparency--) |  |
@@ -160,18 +160,18 @@ public class Shape extends ShapeBase
 | [getWeight()](#getWeight--) |  |
 | [getWidth()](#getWidth--) | 获取形状包含块的宽度。 |
 | [getWrapSide()](#getWrapSide--) | 指定文本如何环绕形状。 |
-| [getWrap类型()](#getWrap类型--) | 定义形状是内联的还是浮动的。 |
+| [getWrapType()](#getWrapType--) | 定义形状是内联的还是浮动的。 |
 | [getZOrder()](#getZOrder--) | 确定重叠形状的显示顺序。 |
 | [getZOrder_IShape()](#getZOrder-IShape--) |  |
 | [hasChart()](#hasChart--) | 如果此 Shape 有一个[getChart()](../../com.aspose.words/shape\#getChart--). |
 | [hasChildNodes()](#hasChildNodes--) | 如果此节点有任何子节点，则返回 true。 |
-| [hasImage()](#hasImage--) | 如果形状具有图像字节或链接图像，则返回 true。 |
+| [hasImage()](#hasImage--) | 如果形状有图像字节或链接图像，则返回 true。 |
 | [hasSmartArt()](#hasSmartArt--) | 如果此 Shape 具有 SmartArt 对象，则返回 true。 |
 | [hasVerticalTextFlow_ITextBox()](#hasVerticalTextFlow-ITextBox--) |  |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(Node child)](#indexOf-com.aspose.words.Node-) | 返回子节点数组中指定子节点的索引。 |
-| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的参考节点之后立即插入指定的节点。 |
-| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的参考节点之前插入指定的节点。 |
+| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的引用节点之后立即插入指定的节点。 |
+| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node-) | 将指定节点插入到紧靠指定引用节点之前。 |
 | [isComposite()](#isComposite--) | 返回 true，因为此节点可以有子节点。 |
 | [isDecorative()](#isDecorative--) | 获取指定形状在文档中是否具有装饰性的标志。 |
 | [isDecorative(boolean value)](#isDecorative-boolean-) | 设置指定形状在文档中是否具有装饰性的标志。 |
@@ -188,20 +188,20 @@ public class Shape extends ShapeBase
 | [isSignatureLine()](#isSignatureLine--) | 指示该形状是 SignatureLine。 |
 | [isTopLevel()](#isTopLevel--) | 如果此形状不是组形状的子形状，则返回 true。 |
 | [isWordArt()](#isWordArt--) | 如果此形状是艺术字对象，则返回 true。 |
-| [iterator()](#iterator--) | 为在此节点的子节点上的每个样式迭代提供支持。 |
+| [iterator()](#iterator--) | 为该节点的子节点上的每个样式迭代提供支持。 |
 | [localToParent(Point2D.Float value)](#localToParent-java.awt.geom.Point2D.Float-) | 将本地坐标空间中的值转换为父形状的坐标空间。 |
 | [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取下一个节点。 |
-| [node类型ToString(int node类型)](#node类型ToString-int-) |  |
+| [nodeTypeToString(int nodeType)](#nodeTypeToString-int-) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [oneColorGradient(int style, int variant, double degree)](#oneColorGradient-int-int-double-) |  |
-| [patterned(int pattern类型)](#patterned-int-) |  |
+| [patterned(int patternType)](#patterned-int-) |  |
 | [prependChild(Node newChild)](#prependChild-com.aspose.words.Node-) | 将指定节点添加到此节点的子节点列表的开头。 |
 | [presetTextured(int presetTexture)](#presetTextured-int-) |  |
 | [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取上一个节点。 |
 | [remove()](#remove--) | 从父级中移除自身。 |
 | [removeAllChildren()](#removeAllChildren--) | 移除当前节点的所有子节点。 |
-| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node-) | 移除指定的子节点。 |
+| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node-) | 删除指定的子节点。 |
 | [removeMoveRevisions()](#removeMoveRevisions--) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int-) |  |
 | [removeShapeAttr(int key)](#removeShapeAttr-int-) | 保留供系统使用。 |
@@ -223,7 +223,7 @@ public class Shape extends ShapeBase
 | [setDistanceRight(double value)](#setDistanceRight-double-) | 设置文档文本和形状右边缘之间的距离（以磅为单位）。 |
 | [setDistanceTop(double value)](#setDistanceTop-double-) | 设置文档文本和形状上边缘之间的距离（以磅为单位）。 |
 | [setEndArrowLength(int value)](#setEndArrowLength-int-) |  |
-| [setEndArrow类型(int value)](#setEndArrow类型-int-) |  |
+| [setEndArrowType(int value)](#setEndArrowType-int-) |  |
 | [setEndArrowWidth(int value)](#setEndArrowWidth-int-) |  |
 | [setEndCap(int value)](#setEndCap-int-) |  |
 | [setFillColor(Color value)](#setFillColor-java.awt.Color-) | 定义填充形状闭合路径的画笔颜色。 |
@@ -241,7 +241,7 @@ public class Shape extends ShapeBase
 | [setImage(byte[] imageBytes)](#setImage-byte---) |  |
 | [setJoinStyle(int value)](#setJoinStyle-int-) |  |
 | [setLeft(double value)](#setLeft-double-) | 设置形状包含块的左边缘的位置。 |
-| [setLineFill类型(int value)](#setLineFill类型-int-) |  |
+| [setLineFillType(int value)](#setLineFillType-int-) |  |
 | [setLineStyle(int value)](#setLineStyle-int-) |  |
 | [setName(String value)](#setName-java.lang.String-) | 设置可选的形状名称。 |
 | [setOn(boolean value)](#setOn-boolean-) |  |
@@ -254,7 +254,7 @@ public class Shape extends ShapeBase
 | [setScreenTip(String value)](#setScreenTip-java.lang.String-) | 定义当鼠标指针移到形状上时显示的文本。 |
 | [setShapeAttr(int key, Object value)](#setShapeAttr-int-java.lang.Object-) | 保留供系统使用。 |
 | [setStartArrowLength(int value)](#setStartArrowLength-int-) |  |
-| [setStartArrow类型(int value)](#setStartArrow类型-int-) |  |
+| [setStartArrowType(int value)](#setStartArrowType-int-) |  |
 | [setStartArrowWidth(int value)](#setStartArrowWidth-int-) |  |
 | [setStrokeColor(Color value)](#setStrokeColor-java.awt.Color-) | 定义描边的颜色。 |
 | [setStrokeTransparency(double value)](#setStrokeTransparency-double-) |  |
@@ -269,7 +269,7 @@ public class Shape extends ShapeBase
 | [setWeight(double value)](#setWeight-double-) |  |
 | [setWidth(double value)](#setWidth-double-) | 设置形状包含块的宽度。 |
 | [setWrapSide(int value)](#setWrapSide-int-) | 指定文本如何环绕形状。 |
-| [setWrap类型(int value)](#setWrap类型-int-) | 定义形状是内联的还是浮动的。 |
+| [setWrapType(int value)](#setWrapType-int-) | 定义形状是内联的还是浮动的。 |
 | [setZOrder(int value)](#setZOrder-int-) | 确定重叠形状的显示顺序。 |
 | [setZOrder_IShape(int value)](#setZOrder-IShape-int-) |  |
 | [solid()](#solid--) |  |
@@ -281,9 +281,9 @@ public class Shape extends ShapeBase
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### Shape(DocumentBase doc, int shape类型) {#Shape-com.aspose.words.DocumentBase-int-}
+### Shape(DocumentBase doc, int shapeType) {#Shape-com.aspose.words.DocumentBase-int-}
 ```
-public Shape(DocumentBase doc, int shape类型)
+public Shape(DocumentBase doc, int shapeType)
 ```
 
 
@@ -293,7 +293,7 @@ public Shape(DocumentBase doc, int shape类型)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | doc | [DocumentBase](../../com.aspose.words/documentbase) |  |
-| shape类型 | int |  |
+| shapeType | int |  |
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor-}
 ```
@@ -313,7 +313,7 @@ public boolean accept(DocumentVisitor visitor)
 | visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | 将访问节点的访问者。 |
 
 **退货:**
- boolean - 如果所有节点都被访问，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。来电[DocumentVisitor.visitShapeStart(com.aspose.words.Shape)](../../com.aspose.words/documentvisitor\#visitShapeStart-com.aspose.words.Shape-) ，然后调用[Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node\#accept-com.aspose.words.DocumentVisitor-)对于形状和调用的所有子节点[DocumentVisitor.visitShapeEnd(com.aspose.words.Shape)](../../com.aspose.words/documentvisitor\#visitShapeEnd-com.aspose.words.Shape-)在最后。
+ boolean - 如果所有节点都被访问，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。来电[DocumentVisitor.visitShapeStart(com.aspose.words.Shape)](../../com.aspose.words/documentvisitor\#visitShapeStart-com.aspose.words.Shape-) , 然后调用[Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node\#accept-com.aspose.words.DocumentVisitor-)对于形状和调用的所有子节点[DocumentVisitor.visitShapeEnd(com.aspose.words.Shape)](../../com.aspose.words/documentvisitor\#visitShapeEnd-com.aspose.words.Shape-)在最后。
 ### adjustWithEffects(Rectangle2D.Float source) {#adjustWithEffects-java.awt.geom.Rectangle2D.Float-}
 ```
 public Rectangle2D.Float adjustWithEffects(Rectangle2D.Float source)
@@ -483,9 +483,9 @@ public String getAlternativeText()
 
 **退货:**
 java.lang.String - 对应的 java.lang.String 值。
-### getAncestor(int ancestor类型) {#getAncestor-int-}
+### getAncestor(int ancestorType) {#getAncestor-int-}
 ```
-public CompositeNode getAncestor(int ancestor类型)
+public CompositeNode getAncestor(int ancestorType)
 ```
 
 
@@ -494,13 +494,13 @@ public CompositeNode getAncestor(int ancestor类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ancestor类型 | int |  |
+| ancestorType | int |  |
 
 **退货:**
 [CompositeNode](../../com.aspose.words/compositenode)
-### getAncestor(班级 ancestor类型) {#getAncestor-java.lang.班级-}
+### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
 ```
-public CompositeNode getAncestor(班级 ancestor类型)
+public CompositeNode getAncestor(Class ancestorType)
 ```
 
 
@@ -509,7 +509,7 @@ public CompositeNode getAncestor(班级 ancestor类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ancestor类型 | java.lang.班级 | 要检索的祖先的对象类型。 |
+| ancestorType | java.lang.Class | 要检索的祖先的对象类型。 |
 
 **退货:**
 [CompositeNode](../../com.aspose.words/compositenode) - 指定类型的祖先，如果没有找到该类型的祖先，则返回 null。
@@ -539,7 +539,7 @@ public boolean getAspectRatioLocked()
 
 指定形状的纵横比是否被锁定。
 
-默认值取决于[getShape类型()](../../com.aspose.words/shapebase\#getShape类型--) 对于 Shape类型.Image 它是**true**但对于其他形状类型，它是**false**.
+默认值取决于[getShapeType()](../../com.aspose.words/shapebase\#getShapeType--) 对于 ShapeType.Image 它是**true**但对于其他形状类型，它是**false**.
 
 仅对顶级形状有效。
 
@@ -617,9 +617,9 @@ public Chart getChart()
 
 **退货:**
 [Chart](../../com.aspose.words/chart) - 相应的[Chart](../../com.aspose.words/chart)价值。
-### getChild(int node类型, int index, boolean isDeep) {#getChild-int-int-boolean-}
+### getChild(int nodeType, int index, boolean isDeep) {#getChild-int-int-boolean-}
 ```
-public Node getChild(int node类型, int index, boolean isDeep)
+public Node getChild(int nodeType, int index, boolean isDeep)
 ```
 
 
@@ -628,7 +628,7 @@ public Node getChild(int node类型, int index, boolean isDeep)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 | index | int |  |
 | isDeep | boolean |  |
 
@@ -642,15 +642,15 @@ public NodeCollection getChildNodes()
 
 获取此节点的所有直接子节点。
 
-笔记，[getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes--)相当于调用 GetChildNodes(Node类型.Any, false) 并在每次访问时创建并返回一个新集合。
+笔记，[getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes--)相当于调用 GetChildNodes(NodeType.Any, false) 并在每次访问时创建并返回一个新集合。
 
 如果没有子节点，则此属性返回一个空集合。
 
 **退货:**
 [NodeCollection](../../com.aspose.words/nodecollection) - 该节点的所有直接子节点。
-### getChildNodes(int node类型, boolean isDeep) {#getChildNodes-int-boolean-}
+### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean-}
 ```
-public NodeCollection getChildNodes(int node类型, boolean isDeep)
+public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 ```
 
 
@@ -659,21 +659,21 @@ public NodeCollection getChildNodes(int node类型, boolean isDeep)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 | isDeep | boolean |  |
 
 **退货:**
 [NodeCollection](../../com.aspose.words/nodecollection)
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getContainer() {#getContainer--}
 ```
 public CompositeNode getContainer()
@@ -707,7 +707,7 @@ public Dimension getCoordSize()
 默认值为 (1000, 1000)。
 
 **退货:**
-java.awt.Dimension - 对应的 java.awt.Dimension 值。
+java.awt.Dimension - 相应的 java.awt.Dimension 值。
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -811,7 +811,7 @@ public double getDistanceLeft()
 仅对顶级形状有效。
 
 **退货:**
-double - 文档文本与形状左边缘之间的距离（以磅为单位）。
+double - 文档文本和形状左边缘之间的距离（以磅为单位）。
 ### getDistanceRight() {#getDistanceRight--}
 ```
 public double getDistanceRight()
@@ -825,7 +825,7 @@ public double getDistanceRight()
 仅对顶级形状有效。
 
 **退货:**
-double - 文档文本与形状右边缘之间的距离（以磅为单位）。
+double - 文档文本和形状右边缘之间的距离（以磅为单位）。
 ### getDistanceTop() {#getDistanceTop--}
 ```
 public double getDistanceTop()
@@ -872,9 +872,9 @@ public int getEndArrowLength()
 
 **退货:**
 整数
-### getEndArrow类型() {#getEndArrow类型--}
+### getEndArrowType() {#getEndArrowType--}
 ```
-public int getEndArrow类型()
+public int getEndArrowType()
 ```
 
 
@@ -930,15 +930,15 @@ public Color getFillColor()
 
 定义填充形状闭合路径的画笔颜色。
 
-这是一个快捷方式[Fill.getColor()](../../com.aspose.words/fill\#getColor--) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill\#setColor-java.awt.Color-)财产。
+这是一个捷径[Fill.getColor()](../../com.aspose.words/fill\#getColor--) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill\#setColor-java.awt.Color-)财产。
 
 默认值为 。
 
 **退货:**
 java.awt.Color - 对应的 java.awt.Color 值。
-### getFill类型() {#getFill类型--}
+### getFillType() {#getFillType--}
 ```
-public int getFill类型()
+public int getFillType()
 ```
 
 
@@ -1004,7 +1004,7 @@ public boolean getFilled()
 
 确定是否填充形状的闭合路径。
 
-这是一个快捷方式[Fill.getOn()](../../com.aspose.words/fill\#getOn--) / [Fill.setOn(boolean)](../../com.aspose.words/fill\#setOn-boolean-)财产。
+这是一个捷径[Fill.getOn()](../../com.aspose.words/fill\#getOn--) / [Fill.setOn(boolean)](../../com.aspose.words/fill\#setOn-boolean-)财产。
 
 默认值为**true**.
 
@@ -1114,15 +1114,15 @@ public String getHRef()
 
 以下是此属性的有效值示例：
 
-完整的 URI： https://www.aspose.com/ 。
+完整 URI：https://www.aspose.com/。
 
-文件全名：C:\\\\我的文件\\\\销售报告.doc 。
+完整文件名：C:\\\\我的文件\\\\销售报告.doc 。
 
 相对 URI：../../../resource.txt 
 
 相对文件名：..\\\\我的文件\\\\销售报告.doc 。
 
-在另一个文档中添加书签：https://www.aspose.com/Products/Default.aspx\#套房 
+另一个文档中的书签：https://www.aspose.com/Products/Default.aspx\#套房 
 
 本文档中的书签：\#BookmakName 。
 
@@ -1235,10 +1235,10 @@ public double getLeft()
 仅对浮动形状有效。
 
 **退货:**
-double - 形状包含块的左边缘的位置。
-### getLineFill类型() {#getLineFill类型--}
+double - 形状包含块左边缘的位置。
+### getLineFillType() {#getLineFillType--}
 ```
-public int getLineFill类型()
+public int getLineFillType()
 ```
 
 
@@ -1286,7 +1286,7 @@ public String getName()
 
 默认为空字符串。
 
-不能为空，但可以是空字符串。
+不能为 null，但可以为空字符串。
 
 **退货:**
 java.lang.String - 可选的形状名称。
@@ -1311,20 +1311,20 @@ public Node getNextSibling()
 ```
 
 
-获取紧跟此节点的节点。如果没有下一个节点，则返回 null。
+获取紧跟在该节点之后的节点。如果没有下一个节点，则返回 null。
 
 **退货:**
-[Node](../../com.aspose.words/node) - 紧跟该节点的节点。
-### getNode类型() {#getNode类型--}
+[Node](../../com.aspose.words/node) - 紧接此节点之后的节点。
+### getNodeType() {#getNodeType--}
 ```
-public int getNode类型()
+public int getNodeType()
 ```
 
 
-退货[Node类型.SHAPE](../../com.aspose.words/nodetype\#SHAPE).
+退货[NodeType.SHAPE](../../com.aspose.words/nodetype\#SHAPE).
 
 **退货:**
-诠释 -\{[Node类型.SHAPE](../../com.aspose.words/nodetype\#SHAPE) .返回值是以下之一[Node类型](../../com.aspose.words/nodetype)常数。
+整数 -\{[NodeType.SHAPE](../../com.aspose.words/nodetype\#SHAPE) .返回值是其中之一[NodeType](../../com.aspose.words/nodetype)常数。
 ### getOleFormat() {#getOleFormat--}
 ```
 public OleFormat getOleFormat()
@@ -1363,10 +1363,10 @@ public CompositeNode getParentNode()
 
 获取此节点的直接父节点。
 
-如果一个节点刚刚创建但尚未添加到树中，或者它已从树中删除，则父节点为空。
+如果一个节点刚刚被创建并且还没有被添加到树中，或者如果它已经被从树中移除，则父节点为空。
 
 **退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 该节点的直接父节点。
+[CompositeNode](../../com.aspose.words/compositenode) - 此节点的直接父节点。
 ### getParentParagraph() {#getParentParagraph--}
 ```
 public Paragraph getParentParagraph()
@@ -1387,9 +1387,9 @@ public Paragraph getParentParagraph_IInline()
 
 **退货:**
 [Paragraph](../../com.aspose.words/paragraph)
-### getPattern类型() {#getPattern类型--}
+### getPatternType() {#getPatternType--}
 ```
-public int getPattern类型()
+public int getPatternType()
 ```
 
 
@@ -1413,10 +1413,10 @@ public Node getPreviousSibling()
 ```
 
 
-获取紧接在此节点之前的节点。如果没有前面的节点，则返回 null。
+获取紧接在该节点之前的节点。如果前面没有节点，则返回 null。
 
 **退货:**
-[Node](../../com.aspose.words/node) - 紧接在此节点之前的节点。
+[Node](../../com.aspose.words/node) - 紧接在该节点之前的节点。
 ### getRange() {#getRange--}
 ```
 public Range getRange()
@@ -1468,7 +1468,7 @@ public double getRight()
 对于组中的形状，该值位于父组的坐标空间和单位中。
 
 **退货:**
-double - 形状包含块的右边缘的位置。
+double - 形状包含块右边缘的位置。
 ### getRotateWithObject() {#getRotateWithObject--}
 ```
 public boolean getRotateWithObject()
@@ -1535,23 +1535,23 @@ public ShapeRenderer getShapeRenderer()
 
 **退货:**
 [ShapeRenderer](../../com.aspose.words/shaperenderer) - 此形状的渲染器对象。
-### getShape类型() {#getShape类型--}
+### getShapeType() {#getShapeType--}
 ```
-public int getShape类型()
+public int getShapeType()
 ```
 
 
 获取形状类型。
 
 **退货:**
- int - 形状类型。返回值是以下之一[Shape类型](../../com.aspose.words/shapetype)常数。
+ int - 形状类型。返回值是以下之一[ShapeType](../../com.aspose.words/shapetype)常数。
 ### getSignatureLine() {#getSignatureLine--}
 ```
 public SignatureLine getSignatureLine()
 ```
 
 
-获取[getSignatureLine()](../../com.aspose.words/shape\#getSignatureLine--)如果形状是签名线，则对象。退货**null**否则。您可以使用将新的 SignatureLines 插入到文档中[DocumentBuilder.insertSignatureLine(com.aspose.words.SignatureLineOptions)](../../com.aspose.words/documentbuilder\#insertSignatureLine-com.aspose.words.SignatureLineOptions-)和**M:Aspose.Words.DocumentBuilder.InsertSignatureLine(Aspose.Words.SignatureLineOptions,Aspose.Words.Drawing.RelativeHorizontalPosition,System.Double,Aspose.Words.Drawing.RelativeVerticalPosition,System.Double,Aspose.Words.Drawing.Wrap类型)**
+获取[getSignatureLine()](../../com.aspose.words/shape\#getSignatureLine--)如果形状是签名线，则对象。退货**null**否则。您可以使用将新的 SignatureLines 插入到文档中[DocumentBuilder.insertSignatureLine(com.aspose.words.SignatureLineOptions)](../../com.aspose.words/documentbuilder\#insertSignatureLine-com.aspose.words.SignatureLineOptions-)和**M:Aspose.Words.DocumentBuilder.InsertSignatureLine(Aspose.Words.SignatureLineOptions,Aspose.Words.Drawing.RelativeHorizontalPosition,System.Double,Aspose.Words.Drawing.RelativeVerticalPosition,System.Double,Aspose.Words.Drawing.WrapType)**
 
 **退货:**
 [SignatureLine](../../com.aspose.words/signatureline) -\{[getSignatureLine()](../../com.aspose.words/shape\#getSignatureLine--)如果形状是签名线，则对象。
@@ -1561,12 +1561,12 @@ public Point2D.Float getSizeInPoints()
 ```
 
 
-以点为单位获取形状的大小。以点为单位获取形状的大小。
+获取形状的大小（以磅为单位）。获取形状的大小（以磅为单位）。
 
- Point2D.Float 用作返回类型，因为我们在这里需要浮点尺寸值。应该假设 Point2D 的*x == width*和*y == height*.
+ Point2D.Float 用作返回类型，因为我们需要此处的浮点维度值。人们应该假设 Point2D 的*x == width*和*y == height*.
 
 **退货:**
-java.awt.geom.Point2D.Float - 形状的大小（以磅为单位）。
+java.awt.geom.Point2D.Float - 以磅为单位的形状大小。
 ### getStartArrowLength() {#getStartArrowLength--}
 ```
 public int getStartArrowLength()
@@ -1577,9 +1577,9 @@ public int getStartArrowLength()
 
 **退货:**
 整数
-### getStartArrow类型() {#getStartArrow类型--}
+### getStartArrowType() {#getStartArrowType--}
 ```
-public int getStartArrow类型()
+public int getStartArrowType()
 ```
 
 
@@ -1597,23 +1597,23 @@ public int getStartArrowWidth()
 
 **退货:**
 整数
-### getStory类型() {#getStory类型--}
+### getStoryType() {#getStoryType--}
 ```
-public int getStory类型()
+public int getStoryType()
 ```
 
 
-退货[Story类型.TEXTBOX](../../com.aspose.words/storytype\#TEXTBOX).
+退货[StoryType.TEXTBOX](../../com.aspose.words/storytype\#TEXTBOX).
 
 **退货:**
-诠释 -\{[Story类型.TEXTBOX](../../com.aspose.words/storytype\#TEXTBOX) .返回值是以下之一[Story类型](../../com.aspose.words/storytype)常数。
+整数 -\{[StoryType.TEXTBOX](../../com.aspose.words/storytype\#TEXTBOX) .返回值是其中之一[StoryType](../../com.aspose.words/storytype)常数。
 ### getStroke() {#getStroke--}
 ```
 public Stroke getStroke()
 ```
 
 
-定义形状的笔触。
+定义形状的描边。
 
 **退货:**
 [Stroke](../../com.aspose.words/stroke) - 相应的[Stroke](../../com.aspose.words/stroke)价值。
@@ -1625,7 +1625,7 @@ public Color getStrokeColor()
 
 定义描边的颜色。
 
-这是一个快捷方式[Stroke.getColor()](../../com.aspose.words/stroke\#getColor--) / [Stroke.setColor(java.awt.Color)](../../com.aspose.words/stroke\#setColor-java.awt.Color-)财产。
+这是一个捷径[Stroke.getColor()](../../com.aspose.words/stroke\#getColor--) / [Stroke.setColor(java.awt.Color)](../../com.aspose.words/stroke\#setColor-java.awt.Color-)财产。
 
 默认值为 。
 
@@ -1669,7 +1669,7 @@ public double getStrokeWeight()
 
 以点为单位定义描边形状路径的画笔厚度。
 
-这是一个快捷方式[Stroke.getWeight()](../../com.aspose.words/stroke\#getWeight--) / [Stroke.setWeight(double)](../../com.aspose.words/stroke\#setWeight-double-)财产。
+这是一个捷径[Stroke.getWeight()](../../com.aspose.words/stroke\#getWeight--) / [Stroke.setWeight(double)](../../com.aspose.words/stroke\#setWeight-double-)财产。
 
 默认值为 0.75。
 
@@ -1683,7 +1683,7 @@ public boolean getStroked()
 
 定义是否将描边路径。
 
-这是一个快捷方式[Stroke.getOn()](../../com.aspose.words/stroke\#getOn--) / [Stroke.setOn(boolean)](../../com.aspose.words/stroke\#setOn-boolean-)财产。
+这是一个捷径[Stroke.getOn()](../../com.aspose.words/stroke\#getOn--) / [Stroke.setOn(boolean)](../../com.aspose.words/stroke\#setOn-boolean-)财产。
 
 默认值为**true**.
 
@@ -1773,7 +1773,7 @@ public String getTitle()
 
 默认为空字符串。
 
-不能为空，但可以是空字符串。
+不能为 null，但可以为空字符串。
 
 **退货:**
 java.lang.String - 当前形状对象的标题（标题）。
@@ -1794,7 +1794,7 @@ public double getTop()
 仅对浮动形状有效。
 
 **退货:**
-double - 形状包含块的顶部边缘的位置。
+double - 形状包含块的上边缘位置。
 ### getVerticalAlignment() {#getVerticalAlignment--}
 ```
 public int getVerticalAlignment()
@@ -1849,20 +1849,20 @@ public int getWrapSide()
 
 **退货:**
 int - 对应的 int 值。返回值是以下之一[WrapSide](../../com.aspose.words/wrapside)常数。
-### getWrap类型() {#getWrap类型--}
+### getWrapType() {#getWrapType--}
 ```
-public int getWrap类型()
+public int getWrapType()
 ```
 
 
-定义形状是内联的还是浮动的。对于浮动形状，定义形状周围文本的环绕模式。
+定义形状是内嵌的还是浮动的。对于浮动形状，定义形状周围文本的环绕模式。
 
-默认值为[Wrap类型.NONE](../../com.aspose.words/wraptype\#NONE).
+默认值为[WrapType.NONE](../../com.aspose.words/wraptype\#NONE).
 
 仅对顶级形状有效。
 
 **退货:**
-int - 对应的 int 值。返回值是以下之一[Wrap类型](../../com.aspose.words/wraptype)常数。
+int - 对应的 int 值。返回值是以下之一[WrapType](../../com.aspose.words/wraptype)常数。
 ### getZOrder() {#getZOrder--}
 ```
 public int getZOrder()
@@ -1875,11 +1875,11 @@ public int getZOrder()
 
 默认值为 0。
 
-数字代表堆叠优先级。数字较大的形状将显示为与数字较小的形状重叠（在“前面”）。
+数字代表堆叠优先级。编号较大的形状将显示为与编号较小的形状重叠（在其“前面”）。
 
-重叠形状的顺序与页眉和文档正文中的形状无关。
+重叠形状的顺序对于标题和文档正文中的形状是独立的。
 
-组形状中子形状的显示顺序由它们在组形状中的顺序决定。
+组形状中子形状的显示顺序由它们在组形状内的顺序决定。
 
 **退货:**
 int - 对应的 int 值。
@@ -1919,7 +1919,7 @@ public boolean hasImage()
 ```
 
 
-如果形状具有图像字节或链接图像，则返回 true。
+如果形状有图像字节或链接图像，则返回 true。
 
 **退货:**
 boolean - 如果形状具有图像字节或链接图像，则为真。
@@ -1974,7 +1974,7 @@ public Node insertAfter(Node newChild, Node refChild)
 ```
 
 
-在指定的参考节点之后立即插入指定的节点。
+在指定的引用节点之后立即插入指定的节点。
 
 如果 refChild 为 null，则在子节点列表的开头插入 newChild。
 
@@ -1996,7 +1996,7 @@ public Node insertBefore(Node newChild, Node refChild)
 ```
 
 
-在指定的参考节点之前插入指定的节点。
+将指定节点插入到紧靠指定引用节点之前。
 
 如果 refChild 为 null，则在子节点列表的末尾插入 newChild。
 
@@ -2028,17 +2028,17 @@ public boolean isDecorative()
 ```
 
 
-获取指定形状在文档中是否具有装饰性的标志。请注意，形状不为空[getAlternativeText()](../../com.aspose.words/shapebase\#getAlternativeText--) / [setAlternativeText(java.lang.String)](../../com.aspose.words/shapebase\#setAlternativeText-java.lang.String-)不能装饰。
+获取指定形状在文档中是否为装饰性的标志。请注意，形状不为空[getAlternativeText()](../../com.aspose.words/shapebase\#getAlternativeText--) / [setAlternativeText(java.lang.String)](../../com.aspose.words/shapebase\#setAlternativeText-java.lang.String-)不能装饰。
 
 **退货:**
-boolean - 指定形状在文档中是否具有装饰性的标志。
+boolean - 指定形状在文档中是否为装饰性的标志。
 ### isDecorative(boolean value) {#isDecorative-boolean-}
 ```
 public void isDecorative(boolean value)
 ```
 
 
-设置指定形状在文档中是否具有装饰性的标志。请注意，形状不为空[getAlternativeText()](../../com.aspose.words/shapebase\#getAlternativeText--) / [setAlternativeText(java.lang.String)](../../com.aspose.words/shapebase\#setAlternativeText-java.lang.String-)不能装饰。
+设置指定形状在文档中是否为装饰性的标志。请注意，形状不为空[getAlternativeText()](../../com.aspose.words/shapebase\#getAlternativeText--) / [setAlternativeText(java.lang.String)](../../com.aspose.words/shapebase\#setAlternativeText-java.lang.String-)不能装饰。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -2054,7 +2054,7 @@ public boolean isDeleteRevision()
 如果在启用更改跟踪时在 Microsoft Word 中删除了此对象，则返回 true。
 
 **退货:**
-boolean - 如果在启用更改跟踪时在 Microsoft Word 中删除了此对象，则为 True。
+布尔值 - 如果在启用更改跟踪的情况下在 Microsoft Word 中删除了此对象，则为 True。
 ### isGroup() {#isGroup--}
 ```
 public boolean isGroup()
@@ -2064,7 +2064,7 @@ public boolean isGroup()
 如果这是一个组形状，则返回 true。
 
 **退货:**
-boolean - 如果这是一个组形状，则为真。
+boolean - 如果这是一个组形状则为真。
 ### isHorizontalRule() {#isHorizontalRule--}
 ```
 public boolean isHorizontalRule()
@@ -2074,7 +2074,7 @@ public boolean isHorizontalRule()
 如果此形状是水平规则，则返回 true。
 
 **退货:**
-boolean - 如果此形状是水平规则，则为真。
+boolean - 如果这个形状是一条水平线则为真。
 ### isImage() {#isImage--}
 ```
 public boolean isImage()
@@ -2084,7 +2084,7 @@ public boolean isImage()
 如果此形状是图像形状，则返回 true。
 
 **退货:**
-boolean - 如果此形状是图像形状，则为真。
+boolean - 如果此形状是图像形状则为真。
 ### isInline() {#isInline--}
 ```
 public boolean isInline()
@@ -2117,7 +2117,7 @@ public boolean isLayoutInCell()
 
 默认值为**true**.
 
-仅对顶层形状有效，属性[getWrap类型()](../../com.aspose.words/shapebase\#getWrap类型--) / [setWrap类型(int)](../../com.aspose.words/shapebase\#setWrap类型-int-)其中设置为除[Inline](../../com.aspose.words/inline).
+仅对顶级形状有效，该属性[getWrapType()](../../com.aspose.words/shapebase\#getWrapType--) / [setWrapType(int)](../../com.aspose.words/shapebase\#setWrapType-int-)其中的值设置为除[Inline](../../com.aspose.words/inline).
 
 **退货:**
 boolean - 指示形状是显示在表格内部还是表格外部的标志。
@@ -2131,7 +2131,7 @@ public void isLayoutInCell(boolean value)
 
 默认值为**true**.
 
-仅对顶层形状有效，属性[getWrap类型()](../../com.aspose.words/shapebase\#getWrap类型--) / [setWrap类型(int)](../../com.aspose.words/shapebase\#setWrap类型-int-)其中设置为除[Inline](../../com.aspose.words/inline).
+仅对顶级形状有效，该属性[getWrapType()](../../com.aspose.words/shapebase\#getWrapType--) / [setWrapType(int)](../../com.aspose.words/shapebase\#setWrapType-int-)其中的值设置为除[Inline](../../com.aspose.words/inline).
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -2177,24 +2177,24 @@ public boolean isTopLevel()
 如果此形状不是组形状的子形状，则返回 true。
 
 **退货:**
-boolean - 如果此形状不是组形状的子形状，则为真。
+boolean - 如果此形状不是组形状的子项，则为 True。
 ### isWordArt() {#isWordArt--}
 ```
 public boolean isWordArt()
 ```
 
 
-如果此形状是艺术字对象，则返回 true。工作到 2007 兼容模式。在 2010 和更高的兼容模式中，艺术字只是一个带有精美字体的文本框。
+如果此形状是艺术字对象，则返回 true。工作到 2007 兼容模式。在 2010 和更高版本的兼容模式下，艺术字只是一个带有精美字体的文本框。
 
 **退货:**
-布尔值 - 如果此形状是艺术字对象，则为真。
+boolean - 如果此形状是艺术字对象，则为 True。
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-为在此节点的子节点上的每个样式迭代提供支持。
+为该节点的子节点上的每个样式迭代提供支持。
 
 **退货:**
 java.util.Iterator
@@ -2228,9 +2228,9 @@ public Node nextPreOrder(Node rootNode)
 
 **退货:**
 [Node](../../com.aspose.words/node) - 预购订单中的下一个节点。如果到达 rootNode，则为 Null。
-### node类型ToString(int node类型) {#node类型ToString-int-}
+### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
 ```
-public static String node类型ToString(int node类型)
+public static String nodeTypeToString(int nodeType)
 ```
 
 
@@ -2239,7 +2239,7 @@ public static String node类型ToString(int node类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 
 **退货:**
 java.lang.String
@@ -2274,9 +2274,9 @@ public void oneColorGradient(int style, int variant, double degree)
 | variant | int |  |
 | degree | double |  |
 
-### patterned(int pattern类型) {#patterned-int-}
+### patterned(int patternType) {#patterned-int-}
 ```
-public void patterned(int pattern类型)
+public void patterned(int patternType)
 ```
 
 
@@ -2285,7 +2285,7 @@ public void patterned(int pattern类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pattern类型 | int |  |
+| patternType | int |  |
 
 ### prependChild(Node newChild) {#prependChild-com.aspose.words.Node-}
 ```
@@ -2356,7 +2356,7 @@ public Node removeChild(Node oldChild)
 ```
 
 
-移除指定的子节点。
+删除指定的子节点。
 
 删除节点后，oldChild 的父级设置为 null。
 
@@ -2460,7 +2460,7 @@ public void setAllowOverlap(boolean value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 一个值，指定此形状是否可以与其他形状重叠。 |
+| value | boolean | 指定此形状是否可以与其他形状重叠的值。 |
 
 ### setAlternativeText(String value) {#setAlternativeText-java.lang.String-}
 ```
@@ -2504,7 +2504,7 @@ public void setAspectRatioLocked(boolean value)
 
 指定形状的纵横比是否被锁定。
 
-默认值取决于[getShape类型()](../../com.aspose.words/shapebase\#getShape类型--) 对于 Shape类型.Image 它是**true**但对于其他形状类型，它是**false**.
+默认值取决于[getShapeType()](../../com.aspose.words/shapebase\#getShapeType--) 对于 ShapeType.Image 它是**true**但对于其他形状类型，它是**false**.
 
 仅对顶级形状有效。
 
@@ -2545,7 +2545,7 @@ public void setBounds(Rectangle2D.Float value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.awt.geom.Rectangle2D.Float | 形状的包含块的位置和大小。 |
+| value | java.awt.geom.Rectangle2D.Float | 形状包含块的位置和大小。 |
 
 ### setCoordOrigin(Point value) {#setCoordOrigin-java.awt.Point-}
 ```
@@ -2560,7 +2560,7 @@ public void setCoordOrigin(Point value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.awt.Point | 对应的 java.awt.Point 值。 |
+| value | java.awt.Point | 对应的java.awt.Point值。 |
 
 ### setCoordSize(Dimension value) {#setCoordSize-java.awt.Dimension-}
 ```
@@ -2575,7 +2575,7 @@ public void setCoordSize(Dimension value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.awt.Dimension | 对应的 java.awt.Dimension 值。 |
+| value | java.awt.Dimension | 对应的java.awt.Dimension值。 |
 
 ### setCustomNodeId(int value) {#setCustomNodeId-int-}
 ```
@@ -2690,9 +2690,9 @@ public void setEndArrowLength(int value)
 | --- | --- | --- |
 | value | int |  |
 
-### setEndArrow类型(int value) {#setEndArrow类型-int-}
+### setEndArrowType(int value) {#setEndArrowType-int-}
 ```
-public void setEndArrow类型(int value)
+public void setEndArrowType(int value)
 ```
 
 
@@ -2737,7 +2737,7 @@ public void setFillColor(Color value)
 
 定义填充形状闭合路径的画笔颜色。
 
-这是一个快捷方式[Fill.getColor()](../../com.aspose.words/fill\#getColor--) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill\#setColor-java.awt.Color-)财产。
+这是一个捷径[Fill.getColor()](../../com.aspose.words/fill\#getColor--) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill\#setColor-java.awt.Color-)财产。
 
 默认值为 。
 
@@ -2806,7 +2806,7 @@ public void setFilled(boolean value)
 
 确定是否填充形状的闭合路径。
 
-这是一个快捷方式[Fill.getOn()](../../com.aspose.words/fill\#getOn--) / [Fill.setOn(boolean)](../../com.aspose.words/fill\#setOn-boolean-)财产。
+这是一个捷径[Fill.getOn()](../../com.aspose.words/fill\#getOn--) / [Fill.setOn(boolean)](../../com.aspose.words/fill\#setOn-boolean-)财产。
 
 默认值为**true**.
 
@@ -2841,7 +2841,7 @@ public void setFlipOrientation(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是按位组合[FlipOrientation](../../com.aspose.words/fliporientation)常数。 |
+| value | int | 对应的int值。该值必须是按位组合的[FlipOrientation](../../com.aspose.words/fliporientation)常数。 |
 
 ### setGradientAngle(double value) {#setGradientAngle-double-}
 ```
@@ -2868,15 +2868,15 @@ public void setHRef(String value)
 
 以下是此属性的有效值示例：
 
-完整的 URI： https://www.aspose.com/ 。
+完整 URI：https://www.aspose.com/。
 
-文件全名：C:\\\\我的文件\\\\销售报告.doc 。
+完整文件名：C:\\\\我的文件\\\\销售报告.doc 。
 
 相对 URI：../../../resource.txt 
 
 相对文件名：..\\\\我的文件\\\\销售报告.doc 。
 
-在另一个文档中添加书签：https://www.aspose.com/Products/Default.aspx\#套房 
+另一个文档中的书签：https://www.aspose.com/Products/Default.aspx\#套房 
 
 本文档中的书签：\#BookmakName 。
 
@@ -2968,9 +2968,9 @@ public void setLeft(double value)
 | --- | --- | --- |
 | value | double | 形状的包含块的左边缘的位置。 |
 
-### setLineFill类型(int value) {#setLineFill类型-int-}
+### setLineFillType(int value) {#setLineFillType-int-}
 ```
-public void setLineFill类型(int value)
+public void setLineFillType(int value)
 ```
 
 
@@ -3004,7 +3004,7 @@ public void setName(String value)
 
 默认为空字符串。
 
-不能为空，但可以是空字符串。
+不能为 null，但可以为空字符串。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -3155,9 +3155,9 @@ public void setStartArrowLength(int value)
 | --- | --- | --- |
 | value | int |  |
 
-### setStartArrow类型(int value) {#setStartArrow类型-int-}
+### setStartArrowType(int value) {#setStartArrowType-int-}
 ```
-public void setStartArrow类型(int value)
+public void setStartArrowType(int value)
 ```
 
 
@@ -3189,7 +3189,7 @@ public void setStrokeColor(Color value)
 
 定义描边的颜色。
 
-这是一个快捷方式[Stroke.getColor()](../../com.aspose.words/stroke\#getColor--) / [Stroke.setColor(java.awt.Color)](../../com.aspose.words/stroke\#setColor-java.awt.Color-)财产。
+这是一个捷径[Stroke.getColor()](../../com.aspose.words/stroke\#getColor--) / [Stroke.setColor(java.awt.Color)](../../com.aspose.words/stroke\#setColor-java.awt.Color-)财产。
 
 默认值为 。
 
@@ -3232,7 +3232,7 @@ public void setStrokeWeight(double value)
 
 以点为单位定义描边形状路径的画笔厚度。
 
-这是一个快捷方式[Stroke.getWeight()](../../com.aspose.words/stroke\#getWeight--) / [Stroke.setWeight(double)](../../com.aspose.words/stroke\#setWeight-double-)财产。
+这是一个捷径[Stroke.getWeight()](../../com.aspose.words/stroke\#getWeight--) / [Stroke.setWeight(double)](../../com.aspose.words/stroke\#setWeight-double-)财产。
 
 默认值为 0.75。
 
@@ -3249,7 +3249,7 @@ public void setStroked(boolean value)
 
 定义是否将描边路径。
 
-这是一个快捷方式[Stroke.getOn()](../../com.aspose.words/stroke\#getOn--) / [Stroke.setOn(boolean)](../../com.aspose.words/stroke\#setOn-boolean-)财产。
+这是一个捷径[Stroke.getOn()](../../com.aspose.words/stroke\#getOn--) / [Stroke.setOn(boolean)](../../com.aspose.words/stroke\#setOn-boolean-)财产。
 
 默认值为**true**.
 
@@ -3296,7 +3296,7 @@ public void setTitle(String value)
 
 默认为空字符串。
 
-不能为空，但可以是空字符串。
+不能为 null，但可以为空字符串。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -3390,22 +3390,22 @@ public void setWrapSide(int value)
 | --- | --- | --- |
 | value | int | 对应的 int 值。该值必须是以下之一[WrapSide](../../com.aspose.words/wrapside)常数。 |
 
-### setWrap类型(int value) {#setWrap类型-int-}
+### setWrapType(int value) {#setWrapType-int-}
 ```
-public void setWrap类型(int value)
+public void setWrapType(int value)
 ```
 
 
-定义形状是内联的还是浮动的。对于浮动形状，定义形状周围文本的环绕模式。
+定义形状是内嵌的还是浮动的。对于浮动形状，定义形状周围文本的环绕模式。
 
-默认值为[Wrap类型.NONE](../../com.aspose.words/wraptype\#NONE).
+默认值为[WrapType.NONE](../../com.aspose.words/wraptype\#NONE).
 
 仅对顶级形状有效。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[Wrap类型](../../com.aspose.words/wraptype)常数。 |
+| value | int | 对应的 int 值。该值必须是以下之一[WrapType](../../com.aspose.words/wraptype)常数。 |
 
 ### setZOrder(int value) {#setZOrder-int-}
 ```
@@ -3419,11 +3419,11 @@ public void setZOrder(int value)
 
 默认值为 0。
 
-数字代表堆叠优先级。数字较大的形状将显示为与数字较小的形状重叠（在“前面”）。
+数字代表堆叠优先级。编号较大的形状将显示为与编号较小的形状重叠（在其“前面”）。
 
-重叠形状的顺序与页眉和文档正文中的形状无关。
+重叠形状的顺序对于标题和文档正文中的形状是独立的。
 
-组形状中子形状的显示顺序由它们在组形状中的顺序决定。
+组形状中子形状的显示顺序由它们在组形状内的顺序决定。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -3511,7 +3511,7 @@ public void updateSmartArtDrawing()
 ```
 
 
-使用 Aspose.Words 的 SmartArt 冷渲染引擎更新 SmartArt 预渲染绘图。 Microsoft Word 生成并保存预渲染的绘图以及 SmartArt 对象。但是，如果文档是由其他应用程序保存的，则预渲染的 SmartArt 绘图可能会丢失或不正确。如果预渲染绘图可用，则 Aspose.Words 使用它来渲染 SmartArt 对象。如果缺少预渲染绘图，则 Aspose.Words 使用其自己的 SmartArt 冷渲染引擎来渲染 SmartArt 对象。如果预渲染的绘图不正确，则需要调用该方法来调用 SmartArt 冷渲染引擎。
+使用 Aspose.Words 的 SmartArt 冷渲染引擎更新 SmartArt 预渲染绘图。 Microsoft Word 生成预渲染绘图并将其与 SmartArt 对象一起保存。但是，如果文档是由其他应用程序保存的，则预渲染的 SmartArt 绘图可能会丢失或不正确。如果预渲染绘图可用，则 Aspose.Words 使用它来渲染 SmartArt 对象。如果预渲染的绘图丢失，那么 Aspose.Words 会使用它自己的 SmartArt 冷渲染引擎来渲染 SmartArt 对象。如果预渲染图不正确，则需要调用该方法调用SmartArt冷渲染引擎。
 
 ### wait() {#wait--}
 ```

@@ -1,6 +1,6 @@
 ---
 title: BookmarksOutlineLevelCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 单个书签大纲级别的集合。
 type: docs
 weight: 35
@@ -20,9 +20,9 @@ public class BookmarksOutlineLevelCollection implements Iterable
 
 要了解更多信息，请访问**Working with Bookmarks**文档文章。
 
-Key 是不区分大小写的字符串书签名称。值是一个 int 书签大纲级别。
+Key 是一个不区分大小写的字符串书签名称。值为 int 书签大纲级别。
 
-书签大纲级别可以是 0 到 9 之间的值。指定 0 并且 Word 书签将不会显示在文档大纲中。指定 1，Word 书签将显示在第 1 级的文档大纲中； 2 表示 2 级，依此类推。
+书签大纲级别可以是从 0 到 9 的值。指定 0 并且 Word 书签将不会显示在文档大纲中。指定1，Word书签将显示在第1级的文档大纲中； 2 表示 2 级，依此类推。
 ## 方法
 
 | 方法 | 描述 |
@@ -33,7 +33,7 @@ Key 是不区分大小写的字符串书签名称。值是一个 int 书签大�
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 获取指定索引处的书签大纲级别。 |
 | [get(String name)](#get-java.lang.String-) | 提供对集合项目的访问。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中包含的元素数。 |
 | [hashCode()](#hashCode--) |  |
 | [indexOfKey(String name)](#indexOfKey-java.lang.String-) | 返回集合中指定书签的从零开始的索引。 |
@@ -126,20 +126,20 @@ public int get(String name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | 不区分大小写的书签名称。 |
+| name | java.lang.String | 书签名称不区分大小写。 |
 
 **退货:**
 int - 书签的大纲级别。有效范围是 0 到 9。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -252,7 +252,7 @@ public void set(String name, int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | 不区分大小写的书签名称。 |
+| name | java.lang.String | 书签名称不区分大小写。 |
 | value | int | 书签的大纲级别。有效范围是 0 到 9。 |
 
 ### toString() {#toString--}

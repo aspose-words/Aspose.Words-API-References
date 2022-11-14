@@ -1,6 +1,6 @@
 ---
 title: CustomPartCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示对象的集合。
 type: docs
 weight: 103
@@ -20,7 +20,7 @@ public class CustomPartCollection implements Iterable
 
 要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
 
-您通常不需要创建此类的实例。您可以通过以下方式访问与 OOXML 包相关的自定义部件[Document.get包裹CustomParts()](../../com.aspose.words/document\#get包裹CustomParts--) / [Document.set包裹CustomParts(com.aspose.words.CustomPartCollection)](../../com.aspose.words/document\#set包裹CustomParts-com.aspose.words.CustomPartCollection-)财产。
+您通常不需要创建此类的实例。您可以通过以下方式访问与 OOXML 包相关的自定义部件[Document.getPackageCustomParts()](../../com.aspose.words/document\#getPackageCustomParts--) / [Document.setPackageCustomParts(com.aspose.words.CustomPartCollection)](../../com.aspose.words/document\#setPackageCustomParts-com.aspose.words.CustomPartCollection-)财产。
 ## 方法
 
 | 方法 | 描述 |
@@ -30,7 +30,7 @@ public class CustomPartCollection implements Iterable
 | [deepClone()](#deepClone--) | 制作此集合及其项目的深层副本。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 获取指定索引处的项目。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中包含的元素数。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。 |
@@ -103,16 +103,16 @@ public CustomPart get(int index)
 
 **退货:**
 [CustomPart](../../com.aspose.words/custompart) - 指定索引处的项目。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

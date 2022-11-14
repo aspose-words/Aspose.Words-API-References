@@ -1,6 +1,6 @@
 ---
 title: DmlEffectsRenderingMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定如何将 DrawingML 效果呈现为固定页面格式。
 type: docs
 weight: 117
@@ -16,7 +16,7 @@ public class DmlEffectsRenderingMode
 指定如何将 DrawingML 效果呈现为固定页面格式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [FINE](#FINE) | DrawingML 效果以精细模式呈现，其中涉及高级处理。 |
 | [NONE](#NONE) | 不渲染 DrawingML 效果。 |
@@ -28,7 +28,7 @@ public class DmlEffectsRenderingMode
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String dmlEffectsRenderingModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int dmlEffectsRenderingMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -99,16 +99,16 @@ public static int fromName(String dmlEffectsRenderingModeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int dmlEffectsRenderingMode) {#getName-int-}
 ```
 public static String getName(int dmlEffectsRenderingMode)

@@ -1,6 +1,6 @@
 ---
 title: ResourceLoadingArgs
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 为方法提供数据。
 type: docs
 weight: 480
@@ -19,9 +19,9 @@ public class ResourceLoadingArgs
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getOriginalUri()](#getOriginalUri--) | 导入文档中指定的资源的原始 URI。 |
-| [getResource类型()](#getResource类型--) | 资源类型。 |
+| [getResourceType()](#getResourceType--) | 资源类型。 |
 | [getUri()](#getUri--) | 用于下载的资源的 URI if[IResourceLoadingCallback.resourceLoading(com.aspose.words.ResourceLoadingArgs)](../../com.aspose.words/iresourceloadingcallback\#resourceLoading-com.aspose.words.ResourceLoadingArgs-)返回[ResourceLoadingAction.DEFAULT](../../com.aspose.words/resourceloadingaction\#DEFAULT). |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -47,16 +47,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getOriginalUri() {#getOriginalUri--}
 ```
 public String getOriginalUri()
@@ -67,16 +67,16 @@ public String getOriginalUri()
 
 **退货:**
 java.lang.String - 对应的 java.lang.String 值。
-### getResource类型() {#getResource类型--}
+### getResourceType() {#getResourceType--}
 ```
-public int getResource类型()
+public int getResourceType()
 ```
 
 
 资源类型。
 
 **退货:**
-int - 对应的 int 值。返回值是以下之一[Resource类型](../../com.aspose.words/resourcetype)常数。
+int - 对应的 int 值。返回值是以下之一[ResourceType](../../com.aspose.words/resourcetype)常数。
 ### getUri() {#getUri--}
 ```
 public String getUri()

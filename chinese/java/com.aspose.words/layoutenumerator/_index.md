@@ -1,6 +1,6 @@
 ---
 title: LayoutEnumerator
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 枚举文档的页面布局实体。
 type: docs
 weight: 360
@@ -27,23 +27,23 @@ public class LayoutEnumerator
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(String key)](#get-java.lang.String-) | 获取实体的命名属性。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCurrent()](#getCurrent--) | 获取页面布局模型中的当前位置。 |
 | [getDocument()](#getDocument--) | 获取此实例枚举的文档。 |
 | [getKind()](#getKind--) | 获取当前实体的种类。 |
 | [getPageIndex()](#getPageIndex--) | 获取包含当前实体的页面的从 1 开始的索引。 |
 | [getRectangle()](#getRectangle--) | 返回当前实体相对于页面左上角的边界矩形（以磅为单位）。 |
-| [getText()](#getText--) | 获取当前 span 实体的文本。 |
-| [get类型()](#get类型--) | 获取当前实体的类型。 |
+| [getText()](#getText--) | 获取当前跨度实体的文本。 |
+| [getType()](#getType--) | 获取当前实体的类型。 |
 | [hashCode()](#hashCode--) |  |
 | [moveFirstChild()](#moveFirstChild--) | 移动到第一个子实体。 |
 | [moveLastChild()](#moveLastChild--) | 移动到最后一个子实体。 |
-| [moveNext()](#moveNext--) | 按视觉顺序移动到下一个兄弟实体。 |
+| [moveNext()](#moveNext--) | 按视觉顺序移动到下一个同级实体。 |
 | [moveNextLogical()](#moveNextLogical--) | 按逻辑顺序移动到下一个兄弟实体。 |
 | [moveParent()](#moveParent--) | 移动到父实体。 |
 | [moveParent(int types)](#moveParent-int-) |  |
-| [movePrevious()](#movePrevious--) | 移动到上一个兄弟实体。 |
-| [movePreviousLogical()](#movePreviousLogical--) | 按逻辑顺序移动到上一个兄弟实体。 |
+| [movePrevious()](#movePrevious--) | 移动到上一个同级实体。 |
+| [movePreviousLogical()](#movePreviousLogical--) | 按逻辑顺序移动到上一个同级实体。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [reset()](#reset--) | 将枚举器移动到文档的第一页。 |
@@ -65,7 +65,7 @@ public LayoutEnumerator(Document document)
 | --- | --- | --- |
 | document | [Document](../../com.aspose.words/document) | 要枚举其页面布局模型的文档。
 
-如果尚未建立文档的页面布局模型，则枚举器调用[Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--)建造它。
+如果尚未构建文档的页面布局模型，则枚举器调用[Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--)建造它。
 
 每当更新文档并创建新的页面布局模型时，都必须使用新的枚举器来访问它。|
 
@@ -99,16 +99,16 @@ public Object get(String key)
 
 **退货:**
 java.lang.Object - 如果属性不可用，则为 Null，否则为属性值。这目前用于获取跨度的字体属性。看[Font](../../com.aspose.words/font)可能的属性名称的类。并非所有属性都受支持。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCurrent() {#getCurrent--}
 ```
 public Object getCurrent()
@@ -135,7 +135,7 @@ public String getKind()
 ```
 
 
-获取当前实体的种类。这可以是一个空字符串，但绝不是 null。这是当前实体的更具体类型，例如书签跨度有[LayoutEntity类型.SPAN](../../com.aspose.words/layoutentitytype\#SPAN)type 并且可以有 BOOKMARKSTART 或 BOOKMARKEND 类型。
+获取当前实体的种类。这可以是一个空字符串，但绝不是 null。这是当前实体的更具体类型，例如书签跨度有[LayoutEntityType.SPAN](../../com.aspose.words/layoutentitytype\#SPAN)type 并且可以有 BOOKMARKSTART 或 BOOKMARKEND 类型。
 
 **退货:**
 java.lang.String - 当前实体的种类。
@@ -165,20 +165,20 @@ public String getText()
 ```
 
 
-获取当前 span 实体的文本。引发其他实体类型。
+获取当前跨度实体的文本。抛出其他实体类型。
 
 **退货:**
 java.lang.String - 当前跨度实体的文本。
-### get类型() {#get类型--}
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
 获取当前实体的类型。
 
 **退货:**
- int - 当前实体的类型。返回值是按位组合[LayoutEntity类型](../../com.aspose.words/layoutentitytype)常数。
+ int - 当前实体的类型。返回值是按位组合[LayoutEntityType](../../com.aspose.words/layoutentitytype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -215,7 +215,7 @@ public boolean moveNext()
 ```
 
 
-按视觉顺序移动到下一个兄弟实体。当迭代跨页中断的段落行时，此方法不会移动到下一页，而是移动到同一页上的下一个实体。
+按视觉顺序移动到下一个同级实体。当跨页迭代段落的行时，此方法不会移动到下一页，而是移动到同一页上的下一个实体。
 
 **退货:**
 布尔值
@@ -225,7 +225,7 @@ public boolean moveNextLogical()
 ```
 
 
-按逻辑顺序移动到下一个兄弟实体。当迭代跨页中断的段落行时，此方法将移至下一行，即使它位于另一页上。请注意，所有[LayoutEntity类型.SPAN](../../com.aspose.words/layoutentitytype\#SPAN)实体被链接在一起，因此如果[getCurrent()](../../com.aspose.words/layoutenumerator\#getCurrent--) / [setCurrent(java.lang.Object)](../../com.aspose.words/layoutenumerator\#setCurrent-java.lang.Object-)entity is span 重复调用此方法将迭代文档的完整故事。
+按逻辑顺序移动到下一个兄弟实体。当跨页迭代段落的行时，即使它驻留在另一页上，此方法也会移动到下一行。请注意，所有[LayoutEntityType.SPAN](../../com.aspose.words/layoutentitytype\#SPAN)实体链接在一起，因此如果[getCurrent()](../../com.aspose.words/layoutenumerator\#getCurrent--) / [setCurrent(java.lang.Object)](../../com.aspose.words/layoutenumerator\#setCurrent-java.lang.Object-)entity is span 重复调用此方法将迭代文档的完整故事。
 
 **退货:**
 布尔值
@@ -260,7 +260,7 @@ public boolean movePrevious()
 ```
 
 
-移动到上一个兄弟实体。
+移动到上一个同级实体。
 
 **退货:**
 布尔值
@@ -270,7 +270,7 @@ public boolean movePreviousLogical()
 ```
 
 
-按逻辑顺序移动到上一个兄弟实体。当迭代跨页中断的段落行时，此方法将移至上一行，即使它位于另一页上。请注意，所有[LayoutEntity类型.SPAN](../../com.aspose.words/layoutentitytype\#SPAN)实体被链接在一起，因此如果[getCurrent()](../../com.aspose.words/layoutenumerator\#getCurrent--) / [setCurrent(java.lang.Object)](../../com.aspose.words/layoutenumerator\#setCurrent-java.lang.Object-)entity is span 重复调用此方法将迭代文档的完整故事。
+按逻辑顺序移动到上一个同级实体。当跨页迭代段落的行时，即使它位于另一页上，此方法也会移动到上一行。请注意，所有[LayoutEntityType.SPAN](../../com.aspose.words/layoutentitytype\#SPAN)实体链接在一起，因此如果[getCurrent()](../../com.aspose.words/layoutenumerator\#getCurrent--) / [setCurrent(java.lang.Object)](../../com.aspose.words/layoutenumerator\#setCurrent-java.lang.Object-)entity is span 重复调用此方法将迭代文档的完整故事。
 
 **退货:**
 布尔值

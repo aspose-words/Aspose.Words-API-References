@@ -1,6 +1,6 @@
 ---
 title: JsonDataSource
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 提供对要在报告中使用的 JSON 文件或流的数据的访问。
 type: docs
 weight: 354
@@ -21,7 +21,7 @@ public class JsonDataSource
 
 在模板文档中，如果顶级 JSON 元素是数组，则[JsonDataSource](../../com.aspose.words/jsondatasource)实例的处理方式应与它是[DataTable](../../com.aspose.words.net.system.data/datatable)实例。如果顶级 JSON 元素是对象，则[JsonDataSource](../../com.aspose.words/jsondatasource)实例的处理方式应与它是[DataRow](../../com.aspose.words.net.system.data/datarow)实例。有关详细信息，请参阅模板语法参考 (https://docs.aspose.com/display/wordsjava/Template+Syntax)。
 
-在模板文档中，您可以使用 JSON 元素的类型值。为方便起见，引擎将一组 JSON 简单类型替换为以下类型：
+在模板文档中，您可以使用 JSON 元素的类型化值。为方便起见，引擎将一组 JSON 简单类型替换为以下类型：
 
  *  
  *  
@@ -29,7 +29,7 @@ public class JsonDataSource
  *  
  *  
 
-引擎会根据 JSON 表示形式自动识别额外类型的值。
+引擎根据 JSON 表示自动识别额外类型的值。
 
 要覆盖 JSON 数据加载的默认行为，初始化并传递一个[JsonDataLoadOptions](../../com.aspose.words/jsondataloadoptions)实例到此类的构造函数。
 ## 构造函数
@@ -45,7 +45,7 @@ public class JsonDataSource
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -122,16 +122,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

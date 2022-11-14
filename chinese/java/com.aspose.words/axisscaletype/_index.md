@@ -1,7 +1,7 @@
 ---
-title: AxisScale类型
-second_title: Aspose.Words for Java API Reference
-description: 指定轴的可能比例类型。
+title: AxisScaleType
+second_title: Aspose.Words for Java API 参考
+description: 指定轴的可能刻度类型。
 type: docs
 weight: 21
 url: /zh/java/com.aspose.words/axisscaletype/
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/axisscaletype/
 **遗产:**
 java.lang.Object
 ```
-public class AxisScale类型
+public class AxisScaleType
 ```
 
 指定轴的可能比例类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [LINEAR](#LINEAR) | 线性缩放。 |
 | [LOGARITHMIC](#LOGARITHMIC) | 对数缩放。 |
@@ -26,15 +26,15 @@ public class AxisScale类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String axisScale类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int axisScale类型)](#getName-int-) |  |
+| [fromName(String axisScaleTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int axisScaleType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int axisScale类型)](#toString-int-) |  |
+| [toString(int axisScaleType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -75,9 +75,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String axisScale类型Name) {#fromName-java.lang.String-}
+### fromName(String axisScaleTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String axisScale类型Name)
+public static int fromName(String axisScaleTypeName)
 ```
 
 
@@ -86,23 +86,23 @@ public static int fromName(String axisScale类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| axisScale类型Name | java.lang.String |  |
+| axisScaleTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int axisScale类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int axisScaleType) {#getName-int-}
 ```
-public static String getName(int axisScale类型)
+public static String getName(int axisScaleType)
 ```
 
 
@@ -111,7 +111,7 @@ public static String getName(int axisScale类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| axisScale类型 | int |  |
+| axisScaleType | int |  |
 
 **退货:**
 java.lang.String
@@ -161,9 +161,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int axisScale类型) {#toString-int-}
+### toString(int axisScaleType) {#toString-int-}
 ```
-public static String toString(int axisScale类型)
+public static String toString(int axisScaleType)
 ```
 
 
@@ -172,7 +172,7 @@ public static String toString(int axisScale类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| axisScale类型 | int |  |
+| axisScaleType | int |  |
 
 **退货:**
 java.lang.String

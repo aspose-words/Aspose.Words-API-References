@@ -1,6 +1,6 @@
 ---
 title: UnicodeScript
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 
 type: docs
 weight: 589
@@ -14,7 +14,7 @@ public class UnicodeScript
 ```
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [ADLAM](#ADLAM) |  |
 | [AHOM](#AHOM) |  |
@@ -181,7 +181,7 @@ public class UnicodeScript
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String unicodeScriptName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int unicodeScript)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -1176,16 +1176,16 @@ public static int fromName(String unicodeScriptName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int unicodeScript) {#getName-int-}
 ```
 public static String getName(int unicodeScript)

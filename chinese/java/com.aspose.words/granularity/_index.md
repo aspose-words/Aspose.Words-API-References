@@ -1,7 +1,7 @@
 ---
 title: Granularity
-second_title: Aspose.Words for Java API Reference
-description: 指定比较两个文档时要跟踪的更改的粒度。
+second_title: Aspose.Words for Java API 参考
+description: 指定比较两个文档时要跟踪的更改粒度。
 type: docs
 weight: 312
 url: /zh/java/com.aspose.words/granularity/
@@ -13,10 +13,10 @@ java.lang.Object
 public class Granularity
 ```
 
-指定比较两个文档时要跟踪的更改的粒度。
+指定比较两个文档时要跟踪的更改粒度。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CHAR_LEVEL](#CHAR-LEVEL) |  |
 | [WORD_LEVEL](#WORD-LEVEL) |  |
@@ -27,7 +27,7 @@ public class Granularity
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String granularityName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int granularity)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -86,16 +86,16 @@ public static int fromName(String granularityName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int granularity) {#getName-int-}
 ```
 public static String getName(int granularity)

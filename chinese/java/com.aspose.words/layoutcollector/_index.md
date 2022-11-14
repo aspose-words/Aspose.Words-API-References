@@ -1,6 +1,6 @@
 ---
 title: LayoutCollector
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 此类允许计算文档节点的页码。
 type: docs
 weight: 358
@@ -26,17 +26,17 @@ public class LayoutCollector
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [LayoutCollector(Document doc)](#LayoutCollector-com.aspose.words.Document-) | 初始化此类的一个实例。 |
+| [LayoutCollector(Document doc)](#LayoutCollector-com.aspose.words.Document-) | 初始化此类的实例。 |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [clear()](#clear--) | 清除所有收集的布局数据。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDocument()](#getDocument--) | 获取此收集器实例附加到的文档。 |
 | [getEndPageIndex(Node node)](#getEndPageIndex-com.aspose.words.Node-) | 获取节点结束的页面的从 1 开始的索引。 |
-| [getEntity(Node node)](#getEntity-com.aspose.words.Node-) | 返回一个不透明的位置[LayoutEnumerator](../../com.aspose.words/layoutenumerator)它对应于指定的节点。 |
+| [getEntity(Node node)](#getEntity-com.aspose.words.Node-) | 返回一个不透明的位置[LayoutEnumerator](../../com.aspose.words/layoutenumerator)对应于指定的节点。 |
 | [getNumPagesSpanned(Node node)](#getNumPagesSpanned-com.aspose.words.Node-) | 获取指定节点跨越的页数。 |
 | [getStartPageIndex(Node node)](#getStartPageIndex-com.aspose.words.Node-) | 获取节点开始的页面的从 1 开始的索引。 |
 | [hashCode()](#hashCode--) |  |
@@ -53,7 +53,7 @@ public LayoutCollector(Document doc)
 ```
 
 
-初始化此类的一个实例。
+初始化此类的实例。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -66,7 +66,7 @@ public void clear()
 ```
 
 
-清除所有收集的布局数据。在手动更新文档或重新构建布局后调用此方法。
+清除所有收集的布局数据。在手动更新文档或重建布局后调用此方法。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -83,23 +83,23 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDocument() {#getDocument--}
 ```
 public Document getDocument()
 ```
 
 
-获取此收集器实例附加到的文档。如果您需要访问文档节点的页面索引，则需要在构建文档的页面布局之前将此属性设置为指向文档实例。最好在之后将此属性设置为 null，否则收集器会继续从文档页面布局的后续重建中积累信息。
+获取此收集器实例附加到的文档。如果您需要访问文档节点的页面索引，则需要在构建文档的页面布局之前将此属性设置为指向文档实例。最好随后将此属性设置为 null，否则收集器会继续从文档页面布局的后续重建中积累信息。
 
 **退货:**
 [Document](../../com.aspose.words/document) - 此收集器实例附加到的文档。
@@ -124,15 +124,15 @@ public Object getEntity(Node node)
 ```
 
 
-返回一个不透明的位置[LayoutEnumerator](../../com.aspose.words/layoutenumerator)它对应于指定的节点。您可以使用返回值作为参数[LayoutEnumerator.getCurrent()](../../com.aspose.words/layoutenumerator\#getCurrent--) / [LayoutEnumerator.setCurrent(java.lang.Object)](../../com.aspose.words/layoutenumerator\#setCurrent-java.lang.Object-)给定被枚举的文档和节点的文档是相同的。
+返回一个不透明的位置[LayoutEnumerator](../../com.aspose.words/layoutenumerator)对应于指定的节点。您可以使用返回值作为参数[LayoutEnumerator.getCurrent()](../../com.aspose.words/layoutenumerator\#getCurrent--) / [LayoutEnumerator.setCurrent(java.lang.Object)](../../com.aspose.words/layoutenumerator\#setCurrent-java.lang.Object-)给定被枚举的文档和节点的文档是相同的。
 
 此方法仅适用于[Paragraph](../../com.aspose.words/paragraph)节点，以及不可分割的内联节点，例如[BookmarkStart](../../com.aspose.words/bookmarkstart)或者[Shape](../../com.aspose.words/shape).它不适用于[Run](../../com.aspose.words/run), [Cell](../../com.aspose.words/cell) [Row](../../com.aspose.words/row)或者[Table](../../com.aspose.words/table)节点，以及页眉/页脚中的节点。
 
-请注意，为 a 返回的实体[Paragraph](../../com.aspose.words/paragraph)节点是一个分段跨度。使用适当的方法提升到父行
+请注意，返回的实体[Paragraph](../../com.aspose.words/paragraph)节点是一个段落分隔跨度。使用适当的方法提升到父行
 
 如果您需要导航到[Run](../../com.aspose.words/run)文本然后您可以在它之前插入书签，然后导航到书签。
 
-如果您需要导航到[Cell](../../com.aspose.words/cell)节点然后你可以移动到一个[Paragraph](../../com.aspose.words/paragraph)此单元格中的节点，然后上升到父实体。相同的方法可用于[Row](../../com.aspose.words/row)和[Table](../../com.aspose.words/table)节点。
+如果您需要导航到[Cell](../../com.aspose.words/cell)节点然后你可以移动到一个[Paragraph](../../com.aspose.words/paragraph)此单元格中的节点，然后上升到父实体。同样的方法可以用于[Row](../../com.aspose.words/row)和[Table](../../com.aspose.words/table)节点。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -147,7 +147,7 @@ public int getNumPagesSpanned(Node node)
 ```
 
 
-获取指定节点跨越的页数。如果节点在单个页面内，则为 0。这与[getEndPageIndex(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getEndPageIndex-com.aspose.words.Node-) -[getStartPageIndex(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getStartPageIndex-com.aspose.words.Node-).
+获取指定节点跨越的页数。如果节点在单个页面内则为 0。这与[getEndPageIndex(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getEndPageIndex-com.aspose.words.Node-) -[getStartPageIndex(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getStartPageIndex-com.aspose.words.Node-).
 
 **参数:**
 | 范围 | 类型 | 描述 |

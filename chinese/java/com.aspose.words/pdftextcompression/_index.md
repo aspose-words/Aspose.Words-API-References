@@ -1,6 +1,6 @@
 ---
 title: PdfTextCompression
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定应用于 PDF 文件中除图像之外的所有内容的压缩类型。
 type: docs
 weight: 462
@@ -16,7 +16,7 @@ public class PdfTextCompression
 指定应用于 PDF 文件中除图像之外的所有内容的压缩类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [FLATE](#FLATE) | Flate (ZIP) 压缩。 |
 | [NONE](#NONE) | 没有压缩。 |
@@ -27,7 +27,7 @@ public class PdfTextCompression
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pdfTextCompressionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int pdfTextCompression)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -90,16 +90,16 @@ public static int fromName(String pdfTextCompressionName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int pdfTextCompression) {#getName-int-}
 ```
 public static String getName(int pdfTextCompression)

@@ -1,6 +1,6 @@
 ---
 title: Shading
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 包含对象的着色属性。
 type: docs
 weight: 513
@@ -24,10 +24,10 @@ public class Shading extends InternableComplexAttr implements Cloneable
 | 方法 | 描述 |
 | --- | --- |
 | [clearFormatting()](#clearFormatting--) | 移除对象的阴影。 |
-| [equals(Shading rhs)](#equals-com.aspose.words.Shading-) | 确定指定 Shading 的值是否与当前 Shading 相等。 |
+| [equals(Shading rhs)](#equals-com.aspose.words.Shading-) | 确定指定的 Shading 值是否等于当前 Shading。 |
 | [equals(Object obj)](#equals-java.lang.Object-) | 确定指定对象的值是否与当前对象相等。 |
 | [getBackgroundPatternColor()](#getBackgroundPatternColor--) | 获取应用于 Shading 对象背景的颜色。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getForegroundPatternColor()](#getForegroundPatternColor--) | 获取应用于 Shading 对象前景的颜色。 |
 | [getTexture()](#getTexture--) | 获取着色纹理。 |
 | [hashCode()](#hashCode--) |  |
@@ -55,7 +55,7 @@ public boolean equals(Shading rhs)
 ```
 
 
-确定指定 Shading 的值是否与当前 Shading 相等。
+确定指定的 Shading 值是否等于当前 Shading。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -89,16 +89,16 @@ public Color getBackgroundPatternColor()
 
 **退货:**
 java.awt.Color - 应用于 Shading 对象背景的颜色。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getForegroundPatternColor() {#getForegroundPatternColor--}
 ```
 public Color getForegroundPatternColor()
@@ -192,7 +192,7 @@ public void setTexture(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 阴影纹理。该值必须是以下之一[TextureIndex](../../com.aspose.words/textureindex)常数。 |
+| value | int | 阴影纹理。该值必须是其中之一[TextureIndex](../../com.aspose.words/textureindex)常数。 |
 
 ### toString() {#toString--}
 ```

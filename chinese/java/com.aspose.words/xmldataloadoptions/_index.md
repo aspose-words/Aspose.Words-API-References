@@ -1,6 +1,6 @@
 ---
 title: XmlDataLoadOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示 XML 数据加载的选项。
 type: docs
 weight: 627
@@ -17,7 +17,7 @@ public class XmlDataLoadOptions
 
 要了解更多信息，请访问**LINQ Reporting Engine**文档文章。
 
-此类的实例可以传递给[XmlDataSource](../../com.aspose.words/xmldatasource).
+此类的实例可以传递给的构造函数[XmlDataSource](../../com.aspose.words/xmldatasource).
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -29,7 +29,7 @@ public class XmlDataLoadOptions
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAlwaysGenerateRootObject()](#getAlwaysGenerateRootObject--) | 获取一个标志，该标志指示生成的数据源是否将始终包含 XML 根元素的对象。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -71,16 +71,16 @@ public boolean getAlwaysGenerateRootObject()
 
 **退货:**
 boolean - 一个标志，指示生成的数据源是否将始终包含 XML 根元素的对象。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

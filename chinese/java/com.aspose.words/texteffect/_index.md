@@ -1,6 +1,6 @@
 ---
 title: TextEffect
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 文本运行的动画效果。
 type: docs
 weight: 564
@@ -16,7 +16,7 @@ public class TextEffect
 文本运行的动画效果。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BLINKING_BACKGROUND](#BLINKING-BACKGROUND) |  |
 | [LAS_VEGAS_LIGHTS](#LAS-VEGAS-LIGHTS) |  |
@@ -32,7 +32,7 @@ public class TextEffect
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String textEffectName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int textEffect)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -135,16 +135,16 @@ public static int fromName(String textEffectName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int textEffect) {#getName-int-}
 ```
 public static String getName(int textEffect)

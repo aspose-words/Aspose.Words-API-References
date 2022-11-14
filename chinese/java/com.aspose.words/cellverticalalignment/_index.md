@@ -1,6 +1,6 @@
 ---
 title: CellVerticalAlignment
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定表格单元格内文本的垂直对齐方式。
 type: docs
 weight: 52
@@ -16,7 +16,7 @@ public class CellVerticalAlignment
 指定表格单元格内文本的垂直对齐方式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BOTTOM](#BOTTOM) | 文本在单元格底部对齐。 |
 | [CENTER](#CENTER) | 文本在单元格的中间对齐。 |
@@ -28,7 +28,7 @@ public class CellVerticalAlignment
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String cellVerticalAlignmentName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int cellVerticalAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -99,16 +99,16 @@ public static int fromName(String cellVerticalAlignmentName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int cellVerticalAlignment) {#getName-int-}
 ```
 public static String getName(int cellVerticalAlignment)

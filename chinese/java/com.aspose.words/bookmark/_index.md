@@ -1,6 +1,6 @@
 ---
 title: Bookmark
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示单个书签。
 type: docs
 weight: 31
@@ -13,7 +13,7 @@ java.lang.Object
 public class Bookmark
 ```
 
-表示单个书签。
+代表单个书签。
 
 要了解更多信息，请访问**Working with Bookmarks**文档文章。
 
@@ -25,7 +25,7 @@ public class Bookmark
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBookmarkEnd()](#getBookmarkEnd--) | 获取表示书签结束的节点。 |
 | [getBookmarkStart()](#getBookmarkStart--) | 获取表示书签开始的节点。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getFirstColumn()](#getFirstColumn--) | 获取与书签关联的表列范围的第一列的从零开始的索引。 |
 | [getLastColumn()](#getLastColumn--) | 获取与书签关联的表列范围的最后一列的从零开始的索引。 |
 | [getName()](#getName--) | 获取书签的名称。 |
@@ -76,16 +76,16 @@ public BookmarkStart getBookmarkStart()
 
 **退货:**
 [BookmarkStart](../../com.aspose.words/bookmarkstart) - 表示书签开始的节点。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getFirstColumn() {#getFirstColumn--}
 ```
 public int getFirstColumn()
@@ -112,10 +112,10 @@ public String getName()
 ```
 
 
-获取书签的名称。请注意，如果您将书签的名称更改为文档中已存在的名称，则不会出现错误，并且在保存文档时只会存储第一个书签。
+获取书签名称。请注意，如果将书签的名称更改为文档中已存在的名称，则不会报错，并且在保存文档时只会存储第一个书签。
 
 **退货:**
-java.lang.String - 书签的名称。
+java.lang.String - 书签名称。
 ### getText() {#getText--}
 ```
 public String getText()
@@ -125,7 +125,7 @@ public String getText()
 获取书签中包含的文本。
 
 **退货:**
-java.lang.String - 包含在书签中的文本。
+java.lang.String - 书签中包含的文本。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -176,12 +176,12 @@ public void setName(String value)
 ```
 
 
-设置书签的名称。请注意，如果您将书签的名称更改为文档中已存在的名称，则不会出现错误，并且在保存文档时只会存储第一个书签。
+设置书签名称。请注意，如果将书签的名称更改为文档中已存在的名称，则不会报错，并且在保存文档时只会存储第一个书签。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 书签的名称。 |
+| value | java.lang.String | 书签名称。 |
 
 ### setText(String value) {#setText-java.lang.String-}
 ```

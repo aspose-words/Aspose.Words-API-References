@@ -1,6 +1,6 @@
 ---
 title: ChartLegend
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示图表图例属性。
 type: docs
 weight: 63
@@ -29,7 +29,7 @@ public class ChartLegend implements Cloneable
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getLegendEntries()](#getLegendEntries--) | 返回父图表的所有系列和趋势线的图例条目集合。 |
 | [getOverlay()](#getOverlay--) | 确定是否允许其他图表元素与图例重叠。 |
 | [getPosition()](#getPosition--) | 指定图例在图表上的位置。 |
@@ -65,16 +65,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getLegendEntries() {#getLegendEntries--}
 ```
 public ChartLegendEntryCollection getLegendEntries()

@@ -1,6 +1,6 @@
 ---
 title: UnsupportedFileFormatException
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 当 Aspose.Words 无法识别或不支持文档格式时，在文档加载期间引发。
 type: docs
 weight: 590
@@ -24,7 +24,7 @@ public class UnsupportedFileFormatException extends Exception
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
 | [getMessage()](#getMessage--) |  |
 | [getStackTrace()](#getStackTrace--) |  |
@@ -89,16 +89,16 @@ public synchronized Throwable getCause()
 
 **退货:**
 java.lang.Throwable
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getLocalizedMessage() {#getLocalizedMessage--}
 ```
 public String getLocalizedMessage()

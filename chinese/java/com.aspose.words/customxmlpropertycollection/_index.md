@@ -1,6 +1,6 @@
 ---
 title: CustomXmlPropertyCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示自定义 XML 属性或智能标记属性的集合。
 type: docs
 weight: 107
@@ -31,7 +31,7 @@ public class CustomXmlPropertyCollection implements Iterable
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 获取指定索引处的属性。 |
 | [get(String name)](#get-java.lang.String-) | 提供对集合项目的访问。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中包含的元素数。 |
 | [hashCode()](#hashCode--) |  |
 | [indexOfKey(String name)](#indexOfKey-java.lang.String-) | 返回集合中指定属性的从零开始的索引。 |
@@ -125,16 +125,16 @@ public CustomXmlProperty get(String name)
 
 **退货:**
 [CustomXmlProperty](../../com.aspose.words/customxmlproperty) - 相应的[CustomXmlProperty](../../com.aspose.words/customxmlproperty)价值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

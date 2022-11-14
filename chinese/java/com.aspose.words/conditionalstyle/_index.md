@@ -1,6 +1,6 @@
 ---
 title: ConditionalStyle
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示应用于具有指定表格样式的表格的某些区域的特殊格式。
 type: docs
 weight: 89
@@ -34,7 +34,7 @@ public class ConditionalStyle implements Cloneable
 | [fetchParaAttr(int key)](#fetchParaAttr-int-) |  |
 | [getBorders()](#getBorders--) | 获取条件样式的默认单元格边框的集合。 |
 | [getBottomPadding()](#getBottomPadding--) | 获取要添加到表格单元格内容下方的空间量（以磅为单位）。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int-) |  |
 | [getDirectParaAttr(int key)](#getDirectParaAttr-int-) |  |
 | [getDirectParaAttr(int key, int revisionsView)](#getDirectParaAttr-int-int-) |  |
@@ -45,7 +45,7 @@ public class ConditionalStyle implements Cloneable
 | [getRightPadding()](#getRightPadding--) | 获取要添加到表格单元格内容右侧的空间量（以磅为单位）。 |
 | [getShading()](#getShading--) | 得到一个[Shading](../../com.aspose.words/shading)引用此条件样式的阴影格式的对象。 |
 | [getTopPadding()](#getTopPadding--) | 获取要添加到表格单元格内容上方的空间量（以磅为单位）。 |
-| [get类型()](#get类型--) | 获取与此条件样式相关的表格区域。 |
+| [getType()](#getType--) | 获取与此条件样式相关的表格区域。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -196,16 +196,16 @@ public double getBottomPadding()
 
 **退货:**
 double - 在表格单元格内容下方添加的空间量（以磅为单位）。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDirectBorderAttr(int key) {#getDirectBorderAttr-int-}
 ```
 public Object getDirectBorderAttr(int key)
@@ -326,17 +326,17 @@ public double getTopPadding()
 获取要添加到表格单元格内容上方的空间量（以磅为单位）。
 
 **退货:**
-double - 在表格单元格内容上方添加的空间量（以磅为单位）。
-### get类型() {#get类型--}
+double - 添加到表格单元格内容上方的空间量（以磅为单位）。
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
 获取与此条件样式相关的表格区域。
 
 **退货:**
- int - 与此条件样式相关的表格区域。返回值是以下之一[ConditionalStyle类型](../../com.aspose.words/conditionalstyletype)常数。
+ int - 此条件样式相关的表区域。返回值是以下之一[ConditionalStyleType](../../com.aspose.words/conditionalstyletype)常数。
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -481,7 +481,7 @@ public void setTopPadding(double value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 在表格单元格内容上方添加的空间量（以磅为单位）。 |
+| value | double | 添加到表格单元格内容上方的空间量（以磅为单位）。 |
 
 ### toString() {#toString--}
 ```

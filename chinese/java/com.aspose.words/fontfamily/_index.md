@@ -1,7 +1,7 @@
 ---
 title: FontFamily
-second_title: Aspose.Words for Java API Reference
-description: 表示字体系列。
+second_title: Aspose.Words for Java API 参考
+description: 代表字体系列。
 type: docs
 weight: 278
 url: /zh/java/com.aspose.words/fontfamily/
@@ -13,19 +13,19 @@ java.lang.Object
 public class FontFamily
 ```
 
-表示字体系列。
+代表字体系列。
 
-字体系列是一组具有共同笔画宽度和衬线特征的字体。
+字体系列是一组具有共同笔划宽度和衬线特征的字体。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
-| [AUTO](#AUTO) | 指定通用家族名称。 |
-| [DECORATIVE](#DECORATIVE) | 指定新奇字体。 |
+| [AUTO](#AUTO) | 指定通用系列名称。 |
+| [DECORATIVE](#DECORATIVE) | 指定新颖的字体。 |
 | [MODERN](#MODERN) | 指定带或不带衬线的等宽字体。 |
 | [ROMAN](#ROMAN) | 指定带衬线的比例字体。 |
-| [SCRIPT](#SCRIPT) | 指定一种设计为看起来像手写的字体；示例包括脚本和草书。 |
-| [SWISS](#SWISS) | 指定不带衬线的比例字体。 |
+| [SCRIPT](#SCRIPT) | 指定一种看起来像手写体的字体；示例包括 Script 和 Cursive。 |
+| [SWISS](#SWISS) | 指定没有衬线的比例字体。 |
 | [length](#length) |  |
 ## 方法
 
@@ -33,7 +33,7 @@ public class FontFamily
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String fontFamilyName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int fontFamily)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -50,7 +50,7 @@ public static int AUTO
 ```
 
 
-指定通用家族名称。当有关字体的信息不存在或无关紧要时使用此名称。使用默认字体。
+指定通用系列名称。当有关字体的信息不存在或无关紧要时，将使用此名称。使用默认字体。
 
 ### DECORATIVE {#DECORATIVE}
 ```
@@ -58,7 +58,7 @@ public static int DECORATIVE
 ```
 
 
-指定新奇字体。一个例子是古英语。
+指定新颖的字体。一个例子是古英语。
 
 ### MODERN {#MODERN}
 ```
@@ -74,7 +74,7 @@ public static int ROMAN
 ```
 
 
-指定带衬线的比例字体。一个例子是Times New Roman。
+指定带衬线的比例字体。一个例子是 Times New Roman。
 
 ### SCRIPT {#SCRIPT}
 ```
@@ -82,7 +82,7 @@ public static int SCRIPT
 ```
 
 
-指定一种设计为看起来像手写的字体；示例包括脚本和草书。
+指定一种看起来像手写体的字体；示例包括 Script 和 Cursive。
 
 ### SWISS {#SWISS}
 ```
@@ -90,7 +90,7 @@ public static int SWISS
 ```
 
 
-指定不带衬线的比例字体。一个例子是 Arial。
+指定没有衬线的比例字体。一个例子是 Arial。
 
 ### length {#length}
 ```
@@ -128,16 +128,16 @@ public static int fromName(String fontFamilyName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int fontFamily) {#getName-int-}
 ```
 public static String getName(int fontFamily)

@@ -1,6 +1,6 @@
 ---
 title: DropCapPosition
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定首字下沉文本的位置。
 type: docs
 weight: 134
@@ -16,7 +16,7 @@ public class DropCapPosition
 指定首字下沉文本的位置。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [MARGIN](#MARGIN) | 首字下沉位于锚段落的文本边距之外。 |
 | [NONE](#NONE) | 该段落没有首字下沉。 |
@@ -28,7 +28,7 @@ public class DropCapPosition
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String dropCapPositionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int dropCapPosition)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -99,16 +99,16 @@ public static int fromName(String dropCapPositionName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int dropCapPosition) {#getName-int-}
 ```
 public static String getName(int dropCapPosition)

@@ -1,6 +1,6 @@
 ---
 title: HtmlVersion
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指示将文档保存为和格式时使用的 HTML 版本。
 type: docs
 weight: 332
@@ -16,7 +16,7 @@ public class HtmlVersion
 表示将文档保存到时使用的 HTML 版本[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML)和[SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML)格式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [HTML_5](#HTML-5) | 按照 HTML 5 标准保存文档。 |
 | [XHTML](#XHTML) | 按照 XHTML 1.0 过渡标准保存文档。 |
@@ -27,7 +27,7 @@ public class HtmlVersion
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String htmlVersionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int htmlVersion)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -92,16 +92,16 @@ public static int fromName(String htmlVersionName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int htmlVersion) {#getName-int-}
 ```
 public static String getName(int htmlVersion)

@@ -1,6 +1,6 @@
 ---
 title: RevisionGroup
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示一组顺序对象。
 type: docs
 weight: 486
@@ -22,8 +22,8 @@ public class RevisionGroup
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAuthor()](#getAuthor--) | 获取此修订组的作者。 |
-| [get班级()](#get班级--) |  |
-| [getRevision类型()](#getRevision类型--) | 获取该组中包含的修订类型。 |
+| [getClass()](#getClass--) |  |
+| [getRevisionType()](#getRevisionType--) | 获取包含在该组中的修订类型。 |
 | [getText()](#getText--) | 返回插入/删除/移动的文本或格式更改的描述。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -57,26 +57,26 @@ public String getAuthor()
 
 **退货:**
 java.lang.String - 此修订组的作者。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getRevision类型() {#getRevision类型--}
+java.lang.Class<?>
+### getRevisionType() {#getRevisionType--}
 ```
-public int getRevision类型()
+public int getRevisionType()
 ```
 
 
-获取该组中包含的修订类型。
+获取包含在该组中的修订类型。
 
 **退货:**
- int - 此组中包含的修订类型。返回值是以下之一[Revision类型](../../com.aspose.words/revisiontype)常数。
+ int - 该组中包含的修订类型。返回值是以下之一[RevisionType](../../com.aspose.words/revisiontype)常数。
 ### getText() {#getText--}
 ```
 public String getText()

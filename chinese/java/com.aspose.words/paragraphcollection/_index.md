@@ -1,6 +1,6 @@
 ---
 title: ParagraphCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 提供对节点集合的类型化访问。
 type: docs
 weight: 445
@@ -25,7 +25,7 @@ public class ParagraphCollection extends NodeCollection
 | [contains(Node node)](#contains-com.aspose.words.Node-) | 确定节点是否在集合中。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 检索一个**Paragraph**在给定的索引处。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getContainer()](#getContainer--) |  |
 | [getCount()](#getCount--) | 获取集合中的节点数。 |
 | [getCurrentNode()](#getCurrentNode--) |  |
@@ -110,13 +110,13 @@ public Node get(int index)
 
 检索一个**Paragraph**在给定的索引处。
 
-该索引从零开始。
+该指数是从零开始的。
 
-允许使用负索引并指示从集合的背面进行访问。例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
+允许使用负索引，表示从集合的后面访问。例如 -1 表示最后一项，-2 表示倒数第二项，依此类推。
 
-如果 index 大于或等于列表中的项目数，则返回空引用。
+如果索引大于或等于列表中的项目数，则返回空引用。
 
-如果 index 为负且其绝对值大于列表中的项目数，则返回空引用。
+如果索引为负且其绝对值大于列表中的项目数，则返回空引用。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -125,16 +125,16 @@ public Node get(int index)
 
 **退货:**
 [Node](../../com.aspose.words/node) - 相应的[Paragraph](../../com.aspose.words/paragraph)价值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getContainer() {#getContainer--}
 ```
 public CompositeNode getContainer()
@@ -292,7 +292,7 @@ public Node[] toArray()
 将集合中的所有段落复制到新的段落数组中。
 
 **退货:**
-com.aspose.words.Node[- 一个段落数组。
+com.aspose.words.Node[- 段落数组。
 ### toString() {#toString--}
 ```
 public String toString()

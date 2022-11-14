@@ -1,6 +1,6 @@
 ---
-title: 字段Builder
-second_title: Aspose.Words for Java API Reference
+title: FieldBuilder
+second_title: Aspose.Words for Java API 参考
 description: 从字段代码标记参数和开关构建一个字段。
 type: docs
 weight: 166
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/fieldbuilder/
 **遗产:**
 java.lang.Object
 ```
-public class 字段Builder
+public class FieldBuilder
 ```
 
 从域代码标记（参数和开关）构建一个域。
@@ -20,13 +20,13 @@ public class 字段Builder
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [字段Builder(int field类型)](#字段Builder-int-) | 初始化此类的新实例。 |
+| [FieldBuilder(int fieldType)](#FieldBuilder-int-) | 初始化此类的新实例。 |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [addArgument(字段ArgumentBuilder argument)](#addArgument-com.aspose.words.字段ArgumentBuilder-) | 添加一个字段的参数，由[字段ArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)到字段的代码。 |
-| [addArgument(字段Builder argument)](#addArgument-com.aspose.words.字段Builder-) | 添加另一个表示的子字段[字段Builder](../../com.aspose.words/fieldbuilder)到字段的代码。 |
+| [addArgument(FieldArgumentBuilder argument)](#addArgument-com.aspose.words.FieldArgumentBuilder-) | 添加一个字段的参数，由[FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)到字段的代码。 |
+| [addArgument(FieldBuilder argument)](#addArgument-com.aspose.words.FieldBuilder-) | 添加另一个表示的子字段[FieldBuilder](../../com.aspose.words/fieldbuilder)到字段的代码。 |
 | [addArgument(double argument)](#addArgument-double-) | 添加字段的参数。 |
 | [addArgument(int argument)](#addArgument-int-) | 添加字段的参数。 |
 | [addArgument(String argument)](#addArgument-java.lang.String-) | 添加字段的参数。 |
@@ -38,7 +38,7 @@ public class 字段Builder
 | [buildAndInsert(Paragraph refNode)](#buildAndInsert-com.aspose.words.Paragraph-) | 在文档中构建并插入一个字段到指定段落的末尾。 |
 | [buildBlock(DocumentBuilder documentBuilder)](#buildBlock-com.aspose.words.DocumentBuilder-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -46,9 +46,9 @@ public class 字段Builder
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### 字段Builder(int field类型) {#字段Builder-int-}
+### FieldBuilder(int fieldType) {#FieldBuilder-int-}
 ```
-public 字段Builder(int field类型)
+public FieldBuilder(int fieldType)
 ```
 
 
@@ -57,41 +57,41 @@ public 字段Builder(int field类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| field类型 | int |  |
+| fieldType | int |  |
 
-### addArgument(字段ArgumentBuilder argument) {#addArgument-com.aspose.words.字段ArgumentBuilder-}
+### addArgument(FieldArgumentBuilder argument) {#addArgument-com.aspose.words.FieldArgumentBuilder-}
 ```
-public 字段Builder addArgument(字段ArgumentBuilder argument)
+public FieldBuilder addArgument(FieldArgumentBuilder argument)
 ```
 
 
-添加一个字段的参数，由[字段ArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)到字段的代码。当参数包含不同部分（例如子字段、节点和纯文本）的混合时，将使用此重载。
+添加一个字段的参数，由[FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)到字段的代码。当参数包含不同部分（例如子字段、节点和纯文本）的混合时，将使用此重载。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| argument | [字段ArgumentBuilder](../../com.aspose.words/fieldargumentbuilder) |  |
+| argument | [FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder) |  |
 
 **退货:**
-[字段Builder](../../com.aspose.words/fieldbuilder)
-### addArgument(字段Builder argument) {#addArgument-com.aspose.words.字段Builder-}
+[FieldBuilder](../../com.aspose.words/fieldbuilder)
+### addArgument(FieldBuilder argument) {#addArgument-com.aspose.words.FieldBuilder-}
 ```
-public 字段Builder addArgument(字段Builder argument)
+public FieldBuilder addArgument(FieldBuilder argument)
 ```
 
 
-添加另一个表示的子字段[字段Builder](../../com.aspose.words/fieldbuilder)到字段的代码。当参数由单个子字段组成时使用此重载。
+添加另一个表示的子字段[FieldBuilder](../../com.aspose.words/fieldbuilder)到字段的代码。当参数由单个子字段组成时使用此重载。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| argument | [字段Builder](../../com.aspose.words/fieldbuilder) |  |
+| argument | [FieldBuilder](../../com.aspose.words/fieldbuilder) |  |
 
 **退货:**
-[字段Builder](../../com.aspose.words/fieldbuilder)
+[FieldBuilder](../../com.aspose.words/fieldbuilder)
 ### addArgument(double argument) {#addArgument-double-}
 ```
-public 字段Builder addArgument(double argument)
+public FieldBuilder addArgument(double argument)
 ```
 
 
@@ -103,10 +103,10 @@ public 字段Builder addArgument(double argument)
 | argument | double | 参数值。 |
 
 **退货:**
-[字段Builder](../../com.aspose.words/fieldbuilder)
+[FieldBuilder](../../com.aspose.words/fieldbuilder)
 ### addArgument(int argument) {#addArgument-int-}
 ```
-public 字段Builder addArgument(int argument)
+public FieldBuilder addArgument(int argument)
 ```
 
 
@@ -118,10 +118,10 @@ public 字段Builder addArgument(int argument)
 | argument | int | 参数值。 |
 
 **退货:**
-[字段Builder](../../com.aspose.words/fieldbuilder)
+[FieldBuilder](../../com.aspose.words/fieldbuilder)
 ### addArgument(String argument) {#addArgument-java.lang.String-}
 ```
-public 字段Builder addArgument(String argument)
+public FieldBuilder addArgument(String argument)
 ```
 
 
@@ -133,10 +133,10 @@ public 字段Builder addArgument(String argument)
 | argument | java.lang.String | 参数值。 |
 
 **退货:**
-[字段Builder](../../com.aspose.words/fieldbuilder)
+[FieldBuilder](../../com.aspose.words/fieldbuilder)
 ### addSwitch(String switchName) {#addSwitch-java.lang.String-}
 ```
-public 字段Builder addSwitch(String switchName)
+public FieldBuilder addSwitch(String switchName)
 ```
 
 
@@ -148,10 +148,10 @@ public 字段Builder addSwitch(String switchName)
 | switchName | java.lang.String | 交换机名称。 |
 
 **退货:**
-[字段Builder](../../com.aspose.words/fieldbuilder)
+[FieldBuilder](../../com.aspose.words/fieldbuilder)
 ### addSwitch(String switchName, double switchArgument) {#addSwitch-java.lang.String-double-}
 ```
-public 字段Builder addSwitch(String switchName, double switchArgument)
+public FieldBuilder addSwitch(String switchName, double switchArgument)
 ```
 
 
@@ -164,10 +164,10 @@ public 字段Builder addSwitch(String switchName, double switchArgument)
 | switchArgument | double | 开关值。 |
 
 **退货:**
-[字段Builder](../../com.aspose.words/fieldbuilder)
+[FieldBuilder](../../com.aspose.words/fieldbuilder)
 ### addSwitch(String switchName, int switchArgument) {#addSwitch-java.lang.String-int-}
 ```
-public 字段Builder addSwitch(String switchName, int switchArgument)
+public FieldBuilder addSwitch(String switchName, int switchArgument)
 ```
 
 
@@ -180,10 +180,10 @@ public 字段Builder addSwitch(String switchName, int switchArgument)
 | switchArgument | int | 开关值。 |
 
 **退货:**
-[字段Builder](../../com.aspose.words/fieldbuilder)
+[FieldBuilder](../../com.aspose.words/fieldbuilder)
 ### addSwitch(String switchName, String switchArgument) {#addSwitch-java.lang.String-java.lang.String-}
 ```
-public 字段Builder addSwitch(String switchName, String switchArgument)
+public FieldBuilder addSwitch(String switchName, String switchArgument)
 ```
 
 
@@ -196,10 +196,10 @@ public 字段Builder addSwitch(String switchName, String switchArgument)
 | switchArgument | java.lang.String | 开关值。 |
 
 **退货:**
-[字段Builder](../../com.aspose.words/fieldbuilder)
+[FieldBuilder](../../com.aspose.words/fieldbuilder)
 ### buildAndInsert(Inline refNode) {#buildAndInsert-com.aspose.words.Inline-}
 ```
-public 字段 buildAndInsert(Inline refNode)
+public Field buildAndInsert(Inline refNode)
 ```
 
 
@@ -211,10 +211,10 @@ public 字段 buildAndInsert(Inline refNode)
 | refNode | [Inline](../../com.aspose.words/inline) |  |
 
 **退货:**
-[字段](../../com.aspose.words/field) - 一个[字段](../../com.aspose.words/field)表示插入字段的对象。
+[Field](../../com.aspose.words/field) - 一个[Field](../../com.aspose.words/field)表示插入字段的对象。
 ### buildAndInsert(Paragraph refNode) {#buildAndInsert-com.aspose.words.Paragraph-}
 ```
-public 字段 buildAndInsert(Paragraph refNode)
+public Field buildAndInsert(Paragraph refNode)
 ```
 
 
@@ -226,7 +226,7 @@ public 字段 buildAndInsert(Paragraph refNode)
 | refNode | [Paragraph](../../com.aspose.words/paragraph) |  |
 
 **退货:**
-[字段](../../com.aspose.words/field) - 一个[字段](../../com.aspose.words/field)表示插入字段的对象。
+[Field](../../com.aspose.words/field) - 一个[Field](../../com.aspose.words/field)表示插入字段的对象。
 ### buildBlock(DocumentBuilder documentBuilder) {#buildBlock-com.aspose.words.DocumentBuilder-}
 ```
 public void buildBlock(DocumentBuilder documentBuilder)
@@ -255,16 +255,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

@@ -1,7 +1,7 @@
 ---
 title: DataRow
-second_title: Aspose.Words for Java API Reference
-description: 表示 a 中的一行数据。
+second_title: Aspose.Words for Java API 参考
+description: 表示一个中的一行数据。
 type: docs
 weight: 20
 url: /zh/java/com.aspose.words.net.system.data/datarow/
@@ -24,7 +24,7 @@ public class DataRow
 | [get(int columnIndex)](#get-int-) | 获取存储在索引指定的列中的数据。 |
 | [get(String columnName)](#get-java.lang.String-) | 获取存储在 name 指定的列中的数据。 |
 | [getChildRows(System.Data.DataRelation relation)](#getChildRows-com.aspose.words.net.System.Data.DataRelation-) | 获取 this 的子行[DataRow](../../com.aspose.words.net.system.data/datarow)使用指定的[DataRelation](../../com.aspose.words.net.system.data/datarelation). |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getItemArray()](#getItemArray--) | 通过数组获取该行的所有值。 |
 | [getKeyValues(System.Data.DataKey childKey)](#getKeyValues-com.aspose.words.net.System.Data.DataKey-) |  |
 | [getOriginalValue(String columnName)](#getOriginalValue-java.lang.String-) |  |
@@ -130,16 +130,16 @@ public System.Data.DataRow[] getChildRows(System.Data.DataRelation relation)
 
 **退货:**
 com.aspose.words.net.System.Data.DataRow[ ] - 一个数组[DataRow](../../com.aspose.words.net.system.data/datarow)对象或长度为零的数组。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getItemArray() {#getItemArray--}
 ```
 public Object[] getItemArray()
@@ -219,7 +219,7 @@ public int getRowState()
 获取行的当前状态与它的关系[DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection).
 
 **退货:**
-int - 其中之一[DataRowState](../../com.aspose.words.net.system.data/datarowstate)价值观。返回值是按位组合[DataRowState](../../com.aspose.words.net.system.data/datarowstate)常数。
+int - 其中之一[DataRowState](../../com.aspose.words.net.system.data/datarowstate)值。返回值是按位组合[DataRowState](../../com.aspose.words.net.system.data/datarowstate)常数。
 ### getTable() {#getTable--}
 ```
 public System.Data.DataTable getTable()
@@ -229,7 +229,7 @@ public System.Data.DataTable getTable()
 获取[DataTable](../../com.aspose.words.net.system.data/datatable)此行有一个架构。
 
 **退货:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) - 这[DataTable](../../com.aspose.words.net.system.data/datatable)该行所属的。
+[DataTable](../../com.aspose.words.net.system.data/datatable) - 这[DataTable](../../com.aspose.words.net.system.data/datatable)此行所属的。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -267,10 +267,10 @@ public boolean readFrom(ResultSet resultSet)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| resultSet | java.sql.ResultSet | 要读取的存储 |
+| resultSet | java.sql.ResultSet | 存储读取 |
 
 **退货:**
-boolean - 如果没有发生读取错误，则为 true
+boolean - 如果没有发生读取错误则为 true
 ### remove(int index) {#remove-int-}
 ```
 public void remove(int index)

@@ -1,6 +1,6 @@
 ---
 title: CssSavingArgs
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 为事件提供数据。
 type: docs
 weight: 96
@@ -29,13 +29,13 @@ public class CssSavingArgs
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCssStream()](#getCssStream--) |  |
 | [getDocument()](#getDocument--) | 获取当前正在保存的文档对象。 |
 | [getKeepCssStreamOpen()](#getKeepCssStreamOpen--) | 指定 Aspose.Words 应该在保存 CSS 信息后保持流打开还是关闭它。 |
 | [hashCode()](#hashCode--) |  |
-| [isExportNeeded()](#isExportNeeded--) | 允许指定是否将 CSS 导出到文件并嵌入到 HTML 文档中。 |
-| [isExportNeeded(boolean value)](#isExportNeeded-boolean-) | 允许指定是否将 CSS 导出到文件并嵌入到 HTML 文档中。 |
+| [isExportNeeded()](#isExportNeeded--) | 允许指定 CSS 是否将导出到文件并嵌入到 HTML 文档中。 |
+| [isExportNeeded(boolean value)](#isExportNeeded-boolean-) | 允许指定 CSS 是否将导出到文件并嵌入到 HTML 文档中。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCssStream(OutputStream value)](#setCssStream-java.io.OutputStream-) |  |
@@ -59,16 +59,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCssStream() {#getCssStream--}
 ```
 public OutputStream getCssStream()
@@ -97,7 +97,7 @@ public boolean getKeepCssStreamOpen()
 
 指定 Aspose.Words 应该在保存 CSS 信息后保持流打开还是关闭它。
 
-默认为 false 并且 Aspose.Words 将关闭您在**P:Aspose.Words.Saving.CssSavingArgs.CssStream**将 CSS 信息写入其中后的属性。指定 true 以保持流打开。
+默认为 false，Aspose.Words 将关闭您在**P:Aspose.Words.Saving.CssSavingArgs.CssStream**写入 CSS 信息后的属性。指定 true 以保持流打开。
 
 **P:Aspose.Words.Saving.CssSavingArgs.CssStream**
 
@@ -119,7 +119,7 @@ public boolean isExportNeeded()
 ```
 
 
-允许指定是否将 CSS 导出到文件并嵌入到 HTML 文档中。默认为 true 。当此属性为 false 时，CSS 信息不会保存到 CSS 文件中，也不会嵌入到 HTML 文档中。
+允许指定 CSS 是否将导出到文件并嵌入到 HTML 文档中。默认为 true 。当此属性为 false 时，CSS 信息将不会保存到 CSS 文件中，也不会嵌入到 HTML 文档中。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -129,7 +129,7 @@ public void isExportNeeded(boolean value)
 ```
 
 
-允许指定是否将 CSS 导出到文件并嵌入到 HTML 文档中。默认为 true 。当此属性为 false 时，CSS 信息不会保存到 CSS 文件中，也不会嵌入到 HTML 文档中。
+允许指定 CSS 是否将导出到文件并嵌入到 HTML 文档中。默认为 true 。当此属性为 false 时，CSS 信息将不会保存到 CSS 文件中，也不会嵌入到 HTML 文档中。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -173,7 +173,7 @@ public void setKeepCssStreamOpen(boolean value)
 
 指定 Aspose.Words 应该在保存 CSS 信息后保持流打开还是关闭它。
 
-默认为 false 并且 Aspose.Words 将关闭您在**P:Aspose.Words.Saving.CssSavingArgs.CssStream**将 CSS 信息写入其中后的属性。指定 true 以保持流打开。
+默认为 false，Aspose.Words 将关闭您在**P:Aspose.Words.Saving.CssSavingArgs.CssStream**写入 CSS 信息后的属性。指定 true 以保持流打开。
 
 **P:Aspose.Words.Saving.CssSavingArgs.CssStream**
 

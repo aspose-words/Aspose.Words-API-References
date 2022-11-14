@@ -1,7 +1,7 @@
 ---
 title: BuildingBlockGallery
-second_title: Aspose.Words for Java API Reference
-description: 指定构建块分类到的预定义库。
+second_title: Aspose.Words for Java API 参考
+description: 指定构建基块所属的预定义图库。
 type: docs
 weight: 44
 url: /zh/java/com.aspose.words/buildingblockgallery/
@@ -18,9 +18,9 @@ public class BuildingBlockGallery
 对应于**ST\_DocPartGallery**输入 OOXML。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
-| [ALL](#ALL) | 指定此词汇表文档条目应与所有可能的画廊分类值相关联。 |
+| [ALL](#ALL) | 指定此词汇表文档条目应与所有可能的图库分类值相关联。 |
 | [AUTO_TEXT](#AUTO-TEXT) |  |
 | [BIBLIOGRAPHY](#BIBLIOGRAPHY) |  |
 | [COVER_PAGE](#COVER-PAGE) |  |
@@ -66,7 +66,7 @@ public class BuildingBlockGallery
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String buildingBlockGalleryName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int buildingBlockGallery)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -83,7 +83,7 @@ public static int ALL
 ```
 
 
-指定此词汇表文档条目应与所有可能的画廊分类值相关联。
+指定此词汇表文档条目应与所有可能的图库分类值相关联。
 
 ### AUTO_TEXT {#AUTO-TEXT}
 ```
@@ -425,16 +425,16 @@ public static int fromName(String buildingBlockGalleryName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int buildingBlockGallery) {#getName-int-}
 ```
 public static String getName(int buildingBlockGallery)

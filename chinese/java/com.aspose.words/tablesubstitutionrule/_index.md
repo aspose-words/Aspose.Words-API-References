@@ -1,6 +1,6 @@
 ---
 title: TableSubstitutionRule
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表格字体替换规则。
 type: docs
 weight: 554
@@ -24,7 +24,7 @@ public class TableSubstitutionRule extends FontSubstitutionRule
 | --- | --- |
 | [addSubstitutes(String originalFontName, String[] substituteFontNames)](#addSubstitutes-java.lang.String-java.lang.String...-) | 为给定的原始字体名称添加替代字体名称。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getEnabled()](#getEnabled--) | 指定是否启用规则。 |
 | [getSubstitutes(String originalFontName)](#getSubstitutes-java.lang.String-) | 返回包含指定原始字体名称的替代字体名称的数组。 |
 | [hashCode()](#hashCode--) |  |
@@ -55,7 +55,7 @@ public void addSubstitutes(String originalFontName, String[] substituteFontNames
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | originalFontName | java.lang.String | 原始字体名称。 |
-| substituteFontNames | java.lang.String[] | 替代字体名称列表。 |
+| substituteFontNames | java.lang.String[] | 备选字体名称列表。 |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -72,16 +72,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getEnabled() {#getEnabled--}
 ```
 public boolean getEnabled()
@@ -106,7 +106,7 @@ public Iterable getSubstitutes(String originalFontName)
 | originalFontName | java.lang.String | 原始字体名称。 |
 
 **退货:**
-java.lang.Iterable - 替代字体名称列表。
+java.lang.Iterable - 备选字体名称列表。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -234,7 +234,7 @@ public void setSubstitutes(String originalFontName, String[] substituteFontNames
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | originalFontName | java.lang.String | 原始字体名称。 |
-| substituteFontNames | java.lang.String[] | 替代字体名称列表。 |
+| substituteFontNames | java.lang.String[] | 备选字体名称列表。 |
 
 ### toString() {#toString--}
 ```

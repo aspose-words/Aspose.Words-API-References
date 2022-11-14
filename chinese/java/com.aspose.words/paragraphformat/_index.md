@@ -1,6 +1,6 @@
 ---
 title: ParagraphFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示段落的所有格式。
 type: docs
 weight: 446
@@ -25,41 +25,41 @@ public class ParagraphFormat
 | [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int-) |  |
 | [fetchInheritedShadingAttr(int key)](#fetchInheritedShadingAttr-int-) |  |
 | [getAddSpaceBetweenFarEastAndAlpha()](#getAddSpaceBetweenFarEastAndAlpha--) | 获取一个标志，该标志指示是否在当前段落中的拉丁文本区域和东亚文本区域之间自动调整字符间距。 |
-| [getAddSpaceBetweenFarEastAndDigit()](#getAddSpaceBetweenFarEastAndDigit--) | 获取一个标志，该标志指示是否在当前段落中的数字区域和东亚文本区域之间自动调整字符间距。 |
+| [getAddSpaceBetweenFarEastAndDigit()](#getAddSpaceBetweenFarEastAndDigit--) | 获取一个标志，指示是否在当前段落中的数字区域和东亚文本区域之间自动调整字符间距。 |
 | [getAlignment()](#getAlignment--) | 获取段落的文本对齐方式。 |
 | [getBidi()](#getBidi--) | 获取这是否是从右到左的段落。 |
 | [getBorders()](#getBorders--) | 获取段落边框的集合。 |
 | [getCharacterUnitFirstLineIndent()](#getCharacterUnitFirstLineIndent--) | 获取第一行或悬挂缩进的值（以字符为单位）。 |
 | [getCharacterUnitLeftIndent()](#getCharacterUnitLeftIndent--) | 获取指定段落的左缩进值（以字符为单位）。 |
 | [getCharacterUnitRightIndent()](#getCharacterUnitRightIndent--) | 获取指定段落的正确缩进值（以字符为单位）。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int-) |  |
 | [getDropCapPosition()](#getDropCapPosition--) | 获取首字下沉文本的位置。 |
-| [getFarEastLineBreakControl()](#getFarEastLineBreakControl--) | 获取一个标志，该标志指示是否将东亚换行规则应用于当前段落。 |
+| [getFarEastLineBreakControl()](#getFarEastLineBreakControl--) | 获取一个标志，指示是否将东亚换行规则应用于当前段落。 |
 | [getFirstLineIndent()](#getFirstLineIndent--) | 获取第一行或悬挂缩进的值（以磅为单位）。 |
-| [getHangingPunctuation()](#getHangingPunctuation--) | 获取一个标志，该标志指示是否为当前段落启用了悬挂标点符号。 |
-| [getKeepTogether()](#getKeepTogether--) | 如果段落中的所有行都保留在同一页面上，则为真。 |
-| [getKeepWithNext()](#getKeepWithNext--) | 如果段落要与其后面的段落保持在同一页上，则为真。 |
+| [getHangingPunctuation()](#getHangingPunctuation--) | 获取一个标志，该标志指示是否为当前段落启用悬挂标点符号。 |
+| [getKeepTogether()](#getKeepTogether--) | 如果段落中的所有行都保留在同一页上，则为真。 |
+| [getKeepWithNext()](#getKeepWithNext--) | 如果该段落要与其后的段落保持在同一页面上，则为真。 |
 | [getLeftIndent()](#getLeftIndent--) | 获取表示段落左缩进的值（以磅为单位）。 |
 | [getLineSpacing()](#getLineSpacing--) | 获取段落的行距（以磅为单位）。 |
-| [getLineSpacingRule()](#getLineSpacingRule--) | 获取段落的行距。 |
-| [getLineUnitAfter()](#getLineUnitAfter--) | 获取段落后的间距量（以网格线为单位）。 |
-| [getLineUnitBefore()](#getLineUnitBefore--) | 获取段落前的间距量（以网格线为单位）。 |
+| [getLineSpacingRule()](#getLineSpacingRule--) | 获取段落的行间距。 |
+| [getLineUnitAfter()](#getLineUnitAfter--) | 获取段落后的间距量（以网格线表示）。 |
+| [getLineUnitBefore()](#getLineUnitBefore--) | 获取段落前的间距量（以网格线表示）。 |
 | [getLinesToDrop()](#getLinesToDrop--) | 获取用于计算首字下沉高度的段落文本的行数。 |
-| [getNoSpaceBetweenParagraphsOfSameStyle()](#getNoSpaceBetweenParagraphsOfSameStyle--) | 真实时，[getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-)和[getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-)将在相同样式的段落之间被忽略。 |
+| [getNoSpaceBetweenParagraphsOfSameStyle()](#getNoSpaceBetweenParagraphsOfSameStyle--) | 当为真时，[getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-)和[getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-)相同样式的段落之间将被忽略。 |
 | [getOutlineLevel()](#getOutlineLevel--) | 指定文档中段落的大纲级别。 |
-| [getPageBreakBefore()](#getPageBreakBefore--) | 如果在段落之前强制分页符，则为真。 |
+| [getPageBreakBefore()](#getPageBreakBefore--) | 如果在段落前强制分页，则为真。 |
 | [getRightIndent()](#getRightIndent--) | 获取表示段落正确缩进的值（以磅为单位）。 |
 | [getShading()](#getShading--) | 返回一个 Shading 对象，该对象引用段落的底纹格式。 |
-| [getSnapToGrid()](#getSnapToGrid--) | 指定当前段落在布局段落中的内容时是否应使用每页文档网格线设置。 |
+| [getSnapToGrid()](#getSnapToGrid--) | 指定在布置段落中的内容时，当前段落是否应使用每页设置的文档网格线。 |
 | [getSpaceAfter()](#getSpaceAfter--) | 获取段落后的间距量（以磅为单位）。 |
-| [getSpaceAfterAuto()](#getSpaceAfterAuto--) | 如果段落后的间距量是自动设置的，则为真。 |
+| [getSpaceAfterAuto()](#getSpaceAfterAuto--) | 如果自动设置段落后的间距量，则为真。 |
 | [getSpaceBefore()](#getSpaceBefore--) | 获取段落前的间距量（以磅为单位）。 |
-| [getSpaceBeforeAuto()](#getSpaceBeforeAuto--) | 如果段落前的间距量是自动设置的，则为真。 |
+| [getSpaceBeforeAuto()](#getSpaceBeforeAuto--) | 如果自动设置段落前的间距量，则为真。 |
 | [getStyle()](#getStyle--) | 获取应用于此格式的段落样式。 |
 | [getStyleIdentifier()](#getStyleIdentifier--) | 获取应用于此格式的段落样式的与区域设置无关的样式标识符。 |
 | [getStyleName()](#getStyleName--) | 获取应用于此格式的段落样式的名称。 |
-| [getSuppressAutoHyphens()](#getSuppressAutoHyphens--) | 指定当前段落是否应免除在文档设置中应用的任何连字符。 |
+| [getSuppressAutoHyphens()](#getSuppressAutoHyphens--) | 指定当前段落是否应免除文档设置中应用的任何断字。 |
 | [getSuppressLineNumbers()](#getSuppressLineNumbers--) | 指定当前段落的行是否应免除在父节中应用的行编号。 |
 | [getTabStops()](#getTabStops--) | 获取为此对象定义的自定义制表位的集合。 |
 | [getWidowControl()](#getWidowControl--) | 如果段落中的第一行和最后一行要与段落的其余部分保持在同一页上，则为真。 |
@@ -81,27 +81,27 @@ public class ParagraphFormat
 | [setFarEastLineBreakControl(boolean value)](#setFarEastLineBreakControl-boolean-) | 设置一个标志，指示是否将东亚换行规则应用于当前段落。 |
 | [setFirstLineIndent(double value)](#setFirstLineIndent-double-) | 设置第一行或悬挂缩进的值（以磅为单位）。 |
 | [setHangingPunctuation(boolean value)](#setHangingPunctuation-boolean-) | 设置一个标志，指示是否为当前段落启用悬挂标点符号。 |
-| [setKeepTogether(boolean value)](#setKeepTogether-boolean-) | 如果段落中的所有行都保留在同一页面上，则为真。 |
-| [setKeepWithNext(boolean value)](#setKeepWithNext-boolean-) | 如果段落要与其后面的段落保持在同一页上，则为真。 |
+| [setKeepTogether(boolean value)](#setKeepTogether-boolean-) | 如果段落中的所有行都保留在同一页上，则为真。 |
+| [setKeepWithNext(boolean value)](#setKeepWithNext-boolean-) | 如果该段落要与其后的段落保持在同一页面上，则为真。 |
 | [setLeftIndent(double value)](#setLeftIndent-double-) | 设置代表段落左缩进的值（以磅为单位）。 |
 | [setLineSpacing(double value)](#setLineSpacing-double-) | 设置段落的行距（以磅为单位）。 |
 | [setLineSpacingRule(int value)](#setLineSpacingRule-int-) | 设置段落的行距。 |
 | [setLineUnitAfter(double value)](#setLineUnitAfter-double-) | 设置段落后的间距量（以网格线为单位）。 |
 | [setLineUnitBefore(double value)](#setLineUnitBefore-double-) | 设置段落前的间距量（以网格线为单位）。 |
 | [setLinesToDrop(int value)](#setLinesToDrop-int-) | 设置用于计算首字下沉高度的段落文本的行数。 |
-| [setNoSpaceBetweenParagraphsOfSameStyle(boolean value)](#setNoSpaceBetweenParagraphsOfSameStyle-boolean-) | 真实时，[getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-)和[getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-)将在相同样式的段落之间被忽略。 |
+| [setNoSpaceBetweenParagraphsOfSameStyle(boolean value)](#setNoSpaceBetweenParagraphsOfSameStyle-boolean-) | 当为真时，[getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-)和[getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-)相同样式的段落之间将被忽略。 |
 | [setOutlineLevel(int value)](#setOutlineLevel-int-) | 指定文档中段落的大纲级别。 |
-| [setPageBreakBefore(boolean value)](#setPageBreakBefore-boolean-) | 如果在段落之前强制分页符，则为真。 |
+| [setPageBreakBefore(boolean value)](#setPageBreakBefore-boolean-) | 如果在段落前强制分页，则为真。 |
 | [setRightIndent(double value)](#setRightIndent-double-) | 设置代表段落右缩进的值（以磅为单位）。 |
-| [setSnapToGrid(boolean value)](#setSnapToGrid-boolean-) | 指定当前段落在布局段落中的内容时是否应使用每页文档网格线设置。 |
+| [setSnapToGrid(boolean value)](#setSnapToGrid-boolean-) | 指定在布置段落中的内容时，当前段落是否应使用每页设置的文档网格线。 |
 | [setSpaceAfter(double value)](#setSpaceAfter-double-) | 设置段落后的间距量（以磅为单位）。 |
-| [setSpaceAfterAuto(boolean value)](#setSpaceAfterAuto-boolean-) | 如果段落后的间距量是自动设置的，则为真。 |
+| [setSpaceAfterAuto(boolean value)](#setSpaceAfterAuto-boolean-) | 如果自动设置段落后的间距量，则为真。 |
 | [setSpaceBefore(double value)](#setSpaceBefore-double-) | 设置段落前的间距量（以磅为单位）。 |
-| [setSpaceBeforeAuto(boolean value)](#setSpaceBeforeAuto-boolean-) | 如果段落前的间距量是自动设置的，则为真。 |
+| [setSpaceBeforeAuto(boolean value)](#setSpaceBeforeAuto-boolean-) | 如果自动设置段落前的间距量，则为真。 |
 | [setStyle(Style value)](#setStyle-com.aspose.words.Style-) | 设置应用于此格式的段落样式。 |
 | [setStyleIdentifier(int value)](#setStyleIdentifier-int-) | 设置应用于此格式的段落样式的独立于区域设置的样式标识符。 |
 | [setStyleName(String value)](#setStyleName-java.lang.String-) | 设置应用于此格式的段落样式的名称。 |
-| [setSuppressAutoHyphens(boolean value)](#setSuppressAutoHyphens-boolean-) | 指定当前段落是否应免除在文档设置中应用的任何连字符。 |
+| [setSuppressAutoHyphens(boolean value)](#setSuppressAutoHyphens-boolean-) | 指定当前段落是否应免除文档设置中应用的任何断字。 |
 | [setSuppressLineNumbers(boolean value)](#setSuppressLineNumbers-boolean-) | 指定当前段落的行是否应免除在父节中应用的行编号。 |
 | [setWidowControl(boolean value)](#setWidowControl-boolean-) | 如果段落中的第一行和最后一行要与段落的其余部分保持在同一页上，则为真。 |
 | [setWordWrap(boolean value)](#setWordWrap-boolean-) | 如果这个属性是**false**单词中间的拉丁文字可以为当前段落换行。 |
@@ -178,7 +178,7 @@ public boolean getAddSpaceBetweenFarEastAndDigit()
 ```
 
 
-获取一个标志，该标志指示是否在当前段落中的数字区域和东亚文本区域之间自动调整字符间距。
+获取一个标志，指示是否在当前段落中的数字区域和东亚文本区域之间自动调整字符间距。
 
 **退货:**
 boolean - 一个标志，指示是否在当前段落中的数字区域和东亚文本区域之间自动调整字符间距。
@@ -200,7 +200,7 @@ public boolean getBidi()
 
 获取这是否是从右到左的段落。
 
-如果为 true，则本段中的运行和其他内联对象从右到左排列。
+如果为 true，则本段中的运行和其他内联对象从右到左布局。
 
 **退货:**
 boolean - 这是否是从右到左的段落。
@@ -246,16 +246,16 @@ public double getCharacterUnitRightIndent()
 
 **退货:**
 double - 指定段落的右缩进值（以字符为单位）。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDirectBorderAttr(int key) {#getDirectBorderAttr-int-}
 ```
 public Object getDirectBorderAttr(int key)
@@ -287,10 +287,10 @@ public boolean getFarEastLineBreakControl()
 ```
 
 
-获取一个标志，该标志指示是否将东亚换行规则应用于当前段落。
+获取一个标志，指示是否将东亚换行规则应用于当前段落。
 
 **退货:**
-boolean - 指示东亚换行规则是否应用于当前段落的标志。
+boolean - 指示是否将东亚换行规则应用于当前段落的标志。
 ### getFirstLineIndent() {#getFirstLineIndent--}
 ```
 public double getFirstLineIndent()
@@ -309,17 +309,17 @@ public boolean getHangingPunctuation()
 ```
 
 
-获取一个标志，该标志指示是否为当前段落启用了悬挂标点符号。
+获取一个标志，该标志指示是否为当前段落启用悬挂标点符号。
 
 **退货:**
-boolean - 指示是否为当前段落启用悬挂标点的标志。
+boolean - 指示是否为当前段落启用悬挂标点符号的标志。
 ### getKeepTogether() {#getKeepTogether--}
 ```
 public boolean getKeepTogether()
 ```
 
 
-如果段落中的所有行都保留在同一页面上，则为真。
+如果段落中的所有行都保留在同一页上，则为真。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -329,7 +329,7 @@ public boolean getKeepWithNext()
 ```
 
 
-如果段落要与其后面的段落保持在同一页上，则为真。
+如果该段落要与其后的段落保持在同一页面上，则为真。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -363,7 +363,7 @@ public int getLineSpacingRule()
 ```
 
 
-获取段落的行距。
+获取段落的行间距。
 
 **退货:**
  int - 段落的行距。返回值是以下之一[LineSpacingRule](../../com.aspose.words/linespacingrule)常数。
@@ -373,7 +373,7 @@ public double getLineUnitAfter()
 ```
 
 
-获取段落后的间距量（以网格线为单位）。
+获取段落后的间距量（以网格线表示）。
 
 **退货:**
 double - 段落后的间距（以网格线为单位）。
@@ -383,7 +383,7 @@ public double getLineUnitBefore()
 ```
 
 
-获取段落前的间距量（以网格线为单位）。
+获取段落前的间距量（以网格线表示）。
 
 **退货:**
 double - 段落前的间距（以网格线为单位）。
@@ -403,7 +403,7 @@ public boolean getNoSpaceBetweenParagraphsOfSameStyle()
 ```
 
 
-真实时，[getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-)和[getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-)将在相同样式的段落之间被忽略。
+当为真时，[getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-)和[getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-)相同样式的段落之间将被忽略。
 
 此设置仅在应用于段落样式时生效。如果直接应用于段落，则没有效果。
 
@@ -425,7 +425,7 @@ public boolean getPageBreakBefore()
 ```
 
 
-如果在段落之前强制分页符，则为真。
+如果在段落前强制分页，则为真。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -448,14 +448,14 @@ public Shading getShading()
 返回一个 Shading 对象，该对象引用段落的底纹格式。
 
 **退货:**
-[Shading](../../com.aspose.words/shading) 一个 Shading 对象，它引用段落的阴影格式。
+[Shading](../../com.aspose.words/shading) 引用段落的阴影格式的 Shading 对象。
 ### getSnapToGrid() {#getSnapToGrid--}
 ```
 public boolean getSnapToGrid()
 ```
 
 
-指定当前段落在布局段落中的内容时是否应使用每页文档网格线设置。
+指定在布置段落中的内容时，当前段落是否应使用每页设置的文档网格线。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -467,7 +467,7 @@ public double getSpaceAfter()
 
 获取段落后的间距量（以磅为单位）。
 
-什么时候没有效果[getSpaceAfterAuto()](../../com.aspose.words/paragraphformat\#getSpaceAfterAuto--) / [setSpaceAfterAuto(boolean)](../../com.aspose.words/paragraphformat\#setSpaceAfterAuto-boolean-)是真的。
+时无效[getSpaceAfterAuto()](../../com.aspose.words/paragraphformat\#getSpaceAfterAuto--) / [setSpaceAfterAuto(boolean)](../../com.aspose.words/paragraphformat\#setSpaceAfterAuto-boolean-)是真的。
 
 有效值\\u200b\\u200brange 从 0 到 1584（含）。
 
@@ -479,17 +479,17 @@ public boolean getSpaceAfterAuto()
 ```
 
 
-如果段落后的间距量是自动设置的，则为真。
+如果自动设置段落后的间距量，则为真。
 
-当设置为 true 时，覆盖[getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-).
+当设置为 true 时，覆盖的效果[getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-).
 
 当您将段落前间距和后间距设置为自动时，Microsoft Word 会根据以下规则自动在段落之间添加 14 磅间距：
 
  *  通常，在所有段落之后添加间距。
  *  在项目符号列表或编号列表中，仅在列表中的最后一项之后添加间距。列表项之间不添加间距。
- *  在嵌套的项目符号或编号列表中，不添加间距。
- *  间距通常在表格之后添加。
- *  如果表格是表格单元格中的最后一个块，则不会在表格之后添加间距。
+ *  在嵌套的项目符号列表或编号列表中不添加间距。
+ *  通常在表格后添加间距。
+ *  如果表格是表格单元格中的最后一个块，则不会在表格后添加间距。
  *  在表格单元格的最后一段之后不添加间距。
 
 **退货:**
@@ -502,7 +502,7 @@ public double getSpaceBefore()
 
 获取段落前的间距量（以磅为单位）。
 
-什么时候没有效果[getSpaceBeforeAuto()](../../com.aspose.words/paragraphformat\#getSpaceBeforeAuto--) / [setSpaceBeforeAuto(boolean)](../../com.aspose.words/paragraphformat\#setSpaceBeforeAuto-boolean-)是真的。
+时无效[getSpaceBeforeAuto()](../../com.aspose.words/paragraphformat\#getSpaceBeforeAuto--) / [setSpaceBeforeAuto(boolean)](../../com.aspose.words/paragraphformat\#setSpaceBeforeAuto-boolean-)是真的。
 
 有效值范围从 0 到 1584（含）。
 
@@ -514,17 +514,17 @@ public boolean getSpaceBeforeAuto()
 ```
 
 
-如果段落前的间距量是自动设置的，则为真。
+如果自动设置段落前的间距量，则为真。
 
-当设置为 true 时，覆盖[getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-).
+当设置为 true 时，覆盖的效果[getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-).
 
 当您将段落前间距和后间距设置为自动时，Microsoft Word 会根据以下规则自动在段落之间添加 14 磅间距：
 
  *  通常，在所有段落之后添加间距。
  *  在项目符号列表或编号列表中，仅在列表中的最后一项之后添加间距。列表项之间不添加间距。
- *  在嵌套的项目符号或编号列表中，不添加间距。
- *  间距通常在表格之后添加。
- *  如果表格是表格单元格中的最后一个块，则不会在表格之后添加间距。
+ *  在嵌套的项目符号列表或编号列表中不添加间距。
+ *  通常在表格后添加间距。
+ *  如果表格是表格单元格中的最后一个块，则不会在表格后添加间距。
  *  在表格单元格的最后一段之后不添加间距。
 
 **退货:**
@@ -548,7 +548,7 @@ public int getStyleIdentifier()
 获取应用于此格式的段落样式的与区域设置无关的样式标识符。
 
 **退货:**
- int - 应用于此格式的段落样式的区域设置独立样式标识符。返回值是以下之一[StyleIdentifier](../../com.aspose.words/styleidentifier)常数。
+ int - 应用于此格式的段落样式的区域独立样式标识符。返回值是以下之一[StyleIdentifier](../../com.aspose.words/styleidentifier)常数。
 ### getStyleName() {#getStyleName--}
 ```
 public String getStyleName()
@@ -565,7 +565,7 @@ public boolean getSuppressAutoHyphens()
 ```
 
 
-指定当前段落是否应免除在文档设置中应用的任何连字符。
+指定当前段落是否应免除文档设置中应用的任何断字。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -588,7 +588,7 @@ public TabStopCollection getTabStops()
 获取为此对象定义的自定义制表位的集合。
 
 **退货:**
-[TabStopCollection](../../com.aspose.words/tabstopcollection) - 为此对象定义的自定义制表位的集合。
+[TabStopCollection](../../com.aspose.words/tabstopcollection) - 为此对象定义的自定义制表位集合。
 ### getWidowControl() {#getWidowControl--}
 ```
 public boolean getWidowControl()
@@ -605,7 +605,7 @@ public boolean getWordWrap()
 ```
 
 
-如果这个属性是**false**, 单词中间的拉丁文字可以为当前段落换行。否则，拉丁文本会被整个单词包裹。
+如果这个属性是**false**, 单词中间的拉丁文本可以换行为当前段落。否则，拉丁文本将被整个单词包裹。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -679,7 +679,7 @@ public void setAddSpaceBetweenFarEastAndDigit(boolean value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 一个标志，指示是否在当前段落中的数字区域和东亚文本区域之间自动调整字符间距。 |
+| value | boolean | 指示是否在当前段落中的数字区域和东亚文本区域之间自动调整字符间距的标志。 |
 
 ### setAlignment(int value) {#setAlignment-int-}
 ```
@@ -692,7 +692,7 @@ public void setAlignment(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 段落的文本对齐方式。该值必须是以下之一[ParagraphAlignment](../../com.aspose.words/paragraphalignment)常数。 |
+| value | int | 段落的文本对齐方式。该值必须是其中之一[ParagraphAlignment](../../com.aspose.words/paragraphalignment)常数。 |
 
 ### setBidi(boolean value) {#setBidi-boolean-}
 ```
@@ -702,7 +702,7 @@ public void setBidi(boolean value)
 
 设置这是否是从右到左的段落。
 
-如果为 true，则本段中的运行和其他内联对象从右到左排列。
+如果为 true，则本段中的运行和其他内联对象从右到左布局。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -775,7 +775,7 @@ public void setDropCapPosition(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 首字下沉文本的位置。该值必须是以下之一[DropCapPosition](../../com.aspose.words/dropcapposition)常数。 |
+| value | int | 首字下沉文本的位置。该值必须是其中之一[DropCapPosition](../../com.aspose.words/dropcapposition)常数。 |
 
 ### setFarEastLineBreakControl(boolean value) {#setFarEastLineBreakControl-boolean-}
 ```
@@ -824,7 +824,7 @@ public void setKeepTogether(boolean value)
 ```
 
 
-如果段落中的所有行都保留在同一页面上，则为真。
+如果段落中的所有行都保留在同一页上，则为真。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -837,7 +837,7 @@ public void setKeepWithNext(boolean value)
 ```
 
 
-如果段落要与其后面的段落保持在同一页上，则为真。
+如果该段落要与其后的段落保持在同一页面上，则为真。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -885,7 +885,7 @@ public void setLineSpacingRule(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 段落的行距。该值必须是以下之一[LineSpacingRule](../../com.aspose.words/linespacingrule)常数。 |
+| value | int | 段落的行距。该值必须是其中之一[LineSpacingRule](../../com.aspose.words/linespacingrule)常数。 |
 
 ### setLineUnitAfter(double value) {#setLineUnitAfter-double-}
 ```
@@ -932,7 +932,7 @@ public void setNoSpaceBetweenParagraphsOfSameStyle(boolean value)
 ```
 
 
-真实时，[getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-)和[getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-)将在相同样式的段落之间被忽略。
+当为真时，[getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-)和[getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-)相同样式的段落之间将被忽略。
 
 此设置仅在应用于段落样式时生效。如果直接应用于段落，则没有效果。
 
@@ -960,7 +960,7 @@ public void setPageBreakBefore(boolean value)
 ```
 
 
-如果在段落之前强制分页符，则为真。
+如果在段落前强制分页，则为真。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -986,7 +986,7 @@ public void setSnapToGrid(boolean value)
 ```
 
 
-指定当前段落在布局段落中的内容时是否应使用每页文档网格线设置。
+指定在布置段落中的内容时，当前段落是否应使用每页设置的文档网格线。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1001,7 +1001,7 @@ public void setSpaceAfter(double value)
 
 设置段落后的间距量（以磅为单位）。
 
-什么时候没有效果[getSpaceAfterAuto()](../../com.aspose.words/paragraphformat\#getSpaceAfterAuto--) / [setSpaceAfterAuto(boolean)](../../com.aspose.words/paragraphformat\#setSpaceAfterAuto-boolean-)是真的。
+时无效[getSpaceAfterAuto()](../../com.aspose.words/paragraphformat\#getSpaceAfterAuto--) / [setSpaceAfterAuto(boolean)](../../com.aspose.words/paragraphformat\#setSpaceAfterAuto-boolean-)是真的。
 
 有效值\\u200b\\u200brange 从 0 到 1584（含）。
 
@@ -1016,17 +1016,17 @@ public void setSpaceAfterAuto(boolean value)
 ```
 
 
-如果段落后的间距量是自动设置的，则为真。
+如果自动设置段落后的间距量，则为真。
 
-当设置为 true 时，覆盖[getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-).
+当设置为 true 时，覆盖的效果[getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-).
 
 当您将段落前间距和后间距设置为自动时，Microsoft Word 会根据以下规则自动在段落之间添加 14 磅间距：
 
  *  通常，在所有段落之后添加间距。
  *  在项目符号列表或编号列表中，仅在列表中的最后一项之后添加间距。列表项之间不添加间距。
- *  在嵌套的项目符号或编号列表中，不添加间距。
- *  间距通常在表格之后添加。
- *  如果表格是表格单元格中的最后一个块，则不会在表格之后添加间距。
+ *  在嵌套的项目符号列表或编号列表中不添加间距。
+ *  通常在表格后添加间距。
+ *  如果表格是表格单元格中的最后一个块，则不会在表格后添加间距。
  *  在表格单元格的最后一段之后不添加间距。
 
 **参数:**
@@ -1042,7 +1042,7 @@ public void setSpaceBefore(double value)
 
 设置段落前的间距量（以磅为单位）。
 
-什么时候没有效果[getSpaceBeforeAuto()](../../com.aspose.words/paragraphformat\#getSpaceBeforeAuto--) / [setSpaceBeforeAuto(boolean)](../../com.aspose.words/paragraphformat\#setSpaceBeforeAuto-boolean-)是真的。
+时无效[getSpaceBeforeAuto()](../../com.aspose.words/paragraphformat\#getSpaceBeforeAuto--) / [setSpaceBeforeAuto(boolean)](../../com.aspose.words/paragraphformat\#setSpaceBeforeAuto-boolean-)是真的。
 
 有效值范围从 0 到 1584（含）。
 
@@ -1057,17 +1057,17 @@ public void setSpaceBeforeAuto(boolean value)
 ```
 
 
-如果段落前的间距量是自动设置的，则为真。
+如果自动设置段落前的间距量，则为真。
 
-当设置为 true 时，覆盖[getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-).
+当设置为 true 时，覆盖的效果[getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-).
 
 当您将段落前间距和后间距设置为自动时，Microsoft Word 会根据以下规则自动在段落之间添加 14 磅间距：
 
  *  通常，在所有段落之后添加间距。
  *  在项目符号列表或编号列表中，仅在列表中的最后一项之后添加间距。列表项之间不添加间距。
- *  在嵌套的项目符号或编号列表中，不添加间距。
- *  间距通常在表格之后添加。
- *  如果表格是表格单元格中的最后一个块，则不会在表格之后添加间距。
+ *  在嵌套的项目符号列表或编号列表中不添加间距。
+ *  通常在表格后添加间距。
+ *  如果表格是表格单元格中的最后一个块，则不会在表格后添加间距。
  *  在表格单元格的最后一段之后不添加间距。
 
 **参数:**
@@ -1099,7 +1099,7 @@ public void setStyleIdentifier(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 应用于此格式的段落样式的区域设置独立样式标识符。该值必须是以下之一[StyleIdentifier](../../com.aspose.words/styleidentifier)常数。 |
+| value | int | 应用于此格式的段落样式的区域设置独立样式标识符。该值必须是其中之一[StyleIdentifier](../../com.aspose.words/styleidentifier)常数。 |
 
 ### setStyleName(String value) {#setStyleName-java.lang.String-}
 ```
@@ -1120,7 +1120,7 @@ public void setSuppressAutoHyphens(boolean value)
 ```
 
 
-指定当前段落是否应免除在文档设置中应用的任何连字符。
+指定当前段落是否应免除文档设置中应用的任何断字。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1159,7 +1159,7 @@ public void setWordWrap(boolean value)
 ```
 
 
-如果这个属性是**false**, 单词中间的拉丁文字可以为当前段落换行。否则，拉丁文本会被整个单词包裹。
+如果这个属性是**false**, 单词中间的拉丁文本可以换行为当前段落。否则，拉丁文本将被整个单词包裹。
 
 **参数:**
 | 范围 | 类型 | 描述 |

@@ -1,6 +1,6 @@
 ---
-title: ImageBinarization方法
-second_title: Aspose.Words for Java API Reference
+title: ImageBinarizationMethod
+second_title: Aspose.Words for Java API 参考
 description: 指定用于二值化图像的方法。
 type: docs
 weight: 335
@@ -10,15 +10,15 @@ url: /zh/java/com.aspose.words/imagebinarizationmethod/
 **遗产:**
 java.lang.Object
 ```
-public class ImageBinarization方法
+public class ImageBinarizationMethod
 ```
 
 指定用于二值化图像的方法。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
-| [FLOYD_STEINBERG_DITHERING](#FLOYD-STEINBERG-DITHERING) | 使用 Floyd-Steinberg 误差扩散方法指定抖动。 |
+| [FLOYD_STEINBERG_DITHERING](#FLOYD-STEINBERG-DITHERING) | 指定使用 Floyd-Steinberg 误差扩散方法的抖动。 |
 | [THRESHOLD](#THRESHOLD) | 指定阈值方法。 |
 | [length](#length) |  |
 ## 方法
@@ -26,15 +26,15 @@ public class ImageBinarization方法
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String imageBinarization方法Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int imageBinarization方法)](#getName-int-) |  |
+| [fromName(String imageBinarizationMethodName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int imageBinarizationMethod)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int imageBinarization方法)](#toString-int-) |  |
+| [toString(int imageBinarizationMethod)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -44,7 +44,7 @@ public static int FLOYD_STEINBERG_DITHERING
 ```
 
 
-使用 Floyd-Steinberg 误差扩散方法指定抖动。
+指定使用 Floyd-Steinberg 误差扩散方法的抖动。
 
 ### THRESHOLD {#THRESHOLD}
 ```
@@ -75,9 +75,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String imageBinarization方法Name) {#fromName-java.lang.String-}
+### fromName(String imageBinarizationMethodName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String imageBinarization方法Name)
+public static int fromName(String imageBinarizationMethodName)
 ```
 
 
@@ -86,23 +86,23 @@ public static int fromName(String imageBinarization方法Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| imageBinarization方法Name | java.lang.String |  |
+| imageBinarizationMethodName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int imageBinarization方法) {#getName-int-}
+java.lang.Class<?>
+### getName(int imageBinarizationMethod) {#getName-int-}
 ```
-public static String getName(int imageBinarization方法)
+public static String getName(int imageBinarizationMethod)
 ```
 
 
@@ -111,7 +111,7 @@ public static String getName(int imageBinarization方法)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| imageBinarization方法 | int |  |
+| imageBinarizationMethod | int |  |
 
 **退货:**
 java.lang.String
@@ -161,9 +161,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int imageBinarization方法) {#toString-int-}
+### toString(int imageBinarizationMethod) {#toString-int-}
 ```
-public static String toString(int imageBinarization方法)
+public static String toString(int imageBinarizationMethod)
 ```
 
 
@@ -172,7 +172,7 @@ public static String toString(int imageBinarization方法)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| imageBinarization方法 | int |  |
+| imageBinarizationMethod | int |  |
 
 **退货:**
 java.lang.String

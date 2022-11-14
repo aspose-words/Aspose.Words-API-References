@@ -1,6 +1,6 @@
 ---
 title: DocumentPartSavingArgs
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 为回调提供数据。
 type: docs
 weight: 125
@@ -27,7 +27,7 @@ public class DocumentPartSavingArgs
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDocument()](#getDocument--) | 获取正在保存的文档对象。 |
 | [getDocumentPartFileName()](#getDocumentPartFileName--) | 获取文档部分将保存到的文件名（不带路径）。 |
 | [getDocumentPartStream()](#getDocumentPartStream--) |  |
@@ -57,16 +57,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDocument() {#getDocument--}
 ```
 public Document getDocument()
@@ -113,7 +113,7 @@ public boolean getKeepDocumentPartStreamOpen()
 
 指定 Aspose.Words 应该在保存文档部分后保持流打开还是关闭它。
 
-默认为 false 并且 Aspose.Words 将关闭您在**P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**将文档部分写入其中后的属性。指定 true 以保持流打开。请注意，调用中提供的主要输出流**M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.SaveFormat)**或者**M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.Saving.SaveOptions)**永远不会被 Aspose.Words 关闭，即使[getKeepDocumentPartStreamOpen()](../../com.aspose.words/documentpartsavingargs\#getKeepDocumentPartStreamOpen--) / [setKeepDocumentPartStreamOpen(boolean)](../../com.aspose.words/documentpartsavingargs\#setKeepDocumentPartStreamOpen-boolean-)设置为 false 。
+默认为 false，Aspose.Words 将关闭您在**P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**将文档部分写入其中后的属性。指定 true 以保持流打开。请注意，调用中提供的主要输出流**M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.SaveFormat)**或者**M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.Saving.SaveOptions)**永远不会被 Aspose.Words 关闭，即使[getKeepDocumentPartStreamOpen()](../../com.aspose.words/documentpartsavingargs\#getKeepDocumentPartStreamOpen--) / [setKeepDocumentPartStreamOpen(boolean)](../../com.aspose.words/documentpartsavingargs\#setKeepDocumentPartStreamOpen-boolean-)设置为 false 。
 
 **P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**
 
@@ -187,7 +187,7 @@ public void setKeepDocumentPartStreamOpen(boolean value)
 
 指定 Aspose.Words 应该在保存文档部分后保持流打开还是关闭它。
 
-默认为 false 并且 Aspose.Words 将关闭您在**P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**将文档部分写入其中后的属性。指定 true 以保持流打开。请注意，调用中提供的主要输出流**M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.SaveFormat)**或者**M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.Saving.SaveOptions)**永远不会被 Aspose.Words 关闭，即使[getKeepDocumentPartStreamOpen()](../../com.aspose.words/documentpartsavingargs\#getKeepDocumentPartStreamOpen--) / [setKeepDocumentPartStreamOpen(boolean)](../../com.aspose.words/documentpartsavingargs\#setKeepDocumentPartStreamOpen-boolean-)设置为 false 。
+默认为 false，Aspose.Words 将关闭您在**P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**将文档部分写入其中后的属性。指定 true 以保持流打开。请注意，调用中提供的主要输出流**M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.SaveFormat)**或者**M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.Saving.SaveOptions)**永远不会被 Aspose.Words 关闭，即使[getKeepDocumentPartStreamOpen()](../../com.aspose.words/documentpartsavingargs\#getKeepDocumentPartStreamOpen--) / [setKeepDocumentPartStreamOpen(boolean)](../../com.aspose.words/documentpartsavingargs\#setKeepDocumentPartStreamOpen-boolean-)设置为 false 。
 
 **P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**
 

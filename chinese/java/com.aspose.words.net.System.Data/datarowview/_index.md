@@ -1,6 +1,6 @@
 ---
 title: DataRowView
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示一个自定义视图。
 type: docs
 weight: 23
@@ -24,7 +24,7 @@ public class DataRowView
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getRow()](#getRow--) | 获取[DataRow](../../com.aspose.words.net.system.data/datarow)被查看。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -62,16 +62,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getRow() {#getRow--}
 ```
 public System.Data.DataRow getRow()

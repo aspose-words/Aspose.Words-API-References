@@ -1,6 +1,6 @@
 ---
 title: ParagraphAlignment
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定段落中的文本对齐方式。
 type: docs
 weight: 444
@@ -16,7 +16,7 @@ public class ParagraphAlignment
 指定段落中的文本对齐方式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [ARABIC_HIGH_KASHIDA](#ARABIC-HIGH-KASHIDA) | 仅限阿拉伯语。 |
 | [ARABIC_LOW_KASHIDA](#ARABIC-LOW-KASHIDA) | 仅限阿拉伯语。 |
@@ -35,7 +35,7 @@ public class ParagraphAlignment
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String paragraphAlignmentName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int paragraphAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -162,16 +162,16 @@ public static int fromName(String paragraphAlignmentName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int paragraphAlignment) {#getName-int-}
 ```
 public static String getName(int paragraphAlignment)

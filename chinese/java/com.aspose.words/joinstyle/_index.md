@@ -1,6 +1,6 @@
 ---
 title: JoinStyle
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 线连接样式。
 type: docs
 weight: 352
@@ -16,10 +16,10 @@ public class JoinStyle
 线连接样式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
-| [BEVEL](#BEVEL) | 通过直线连接边缘。 |
-| [MITER](#MITER) | 延伸边缘直到它们连接。 |
+| [BEVEL](#BEVEL) | 用直线连接边缘。 |
+| [MITER](#MITER) | 延伸边缘直到它们连接起来。 |
 | [ROUND](#ROUND) | 在两条边之间画一条弧线。 |
 | [length](#length) |  |
 ## 方法
@@ -28,7 +28,7 @@ public class JoinStyle
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String joinStyleName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int joinStyle)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int BEVEL
 ```
 
 
-通过直线连接边缘。
+用直线连接边缘。
 
 ### MITER {#MITER}
 ```
@@ -53,7 +53,7 @@ public static int MITER
 ```
 
 
-延伸边缘直到它们连接。
+延伸边缘直到它们连接起来。
 
 ### ROUND {#ROUND}
 ```
@@ -99,16 +99,16 @@ public static int fromName(String joinStyleName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int joinStyle) {#getName-int-}
 ```
 public static String getName(int joinStyle)

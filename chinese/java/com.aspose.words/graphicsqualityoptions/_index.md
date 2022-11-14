@@ -1,6 +1,6 @@
 ---
 title: GraphicsQualityOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许指定额外的 .
 type: docs
 weight: 313
@@ -23,7 +23,7 @@ public class GraphicsQualityOptions
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getRenderingHints()](#getRenderingHints--) |  |
 | [getUseTileFlipMode()](#getUseTileFlipMode--) | 获取一个标志，该标志指示 WrapMode 是否为 TileFlipXY。 |
 | [hashCode()](#hashCode--) |  |
@@ -50,16 +50,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getRenderingHints() {#getRenderingHints--}
 ```
 public RenderingHints getRenderingHints()
@@ -78,11 +78,11 @@ public boolean getUseTileFlipMode()
 
 获取一个标志，该标志指示 WrapMode 是否为 TileFlipXY。
 
-WrapMode 指定当纹理或渐变小于填充区域时如何平铺。
+WrapMode 指定当纹理或渐变小于要填充的区域时如何平铺。
 
-默认使用 WrapMode\#TILE.TILE（指定平铺而不翻转）。这会导致缩放图像（高分辨率）的渲染不准确。
+默认使用 WrapMode\#TILE.TILE（指定不翻转的平铺）。这会导致缩放图像（具有高分辨率）的渲染不准确。
 
-此属性允许将 WrapMode 切换到 WrapMode\＃瓦\_翻动\_XY.TILE\_翻动\_XY（指定当您沿行移动时，平铺水平翻转，并在您沿列移动时垂直翻转）。
+此属性允许将 WrapMode 切换为 WrapMode\＃瓦\_翻动\_XY.TILE\_翻动\_XY（指定平铺在您沿行移动时水平翻转，并在您沿列移动时垂直翻转）。
 
 **退货:**
 boolean - 指示 WrapMode 是否为 TileFlipXY 的标志。
@@ -133,11 +133,11 @@ public void setUseTileFlipMode(boolean value)
 
 设置一个标志，指示 WrapMode 是否为 TileFlipXY。
 
-WrapMode 指定当纹理或渐变小于填充区域时如何平铺。
+WrapMode 指定当纹理或渐变小于要填充的区域时如何平铺。
 
-默认使用 WrapMode\#TILE.TILE（指定平铺而不翻转）。这会导致缩放图像（高分辨率）的渲染不准确。
+默认使用 WrapMode\#TILE.TILE（指定不翻转的平铺）。这会导致缩放图像（具有高分辨率）的渲染不准确。
 
-此属性允许将 WrapMode 切换到 WrapMode\＃瓦\_翻动\_XY.TILE\_翻动\_XY（指定当您沿行移动时，平铺水平翻转，并在您沿列移动时垂直翻转）。
+此属性允许将 WrapMode 切换为 WrapMode\＃瓦\_翻动\_XY.TILE\_翻动\_XY（指定平铺在您沿行移动时水平翻转，并在您沿列移动时垂直翻转）。
 
 **参数:**
 | 范围 | 类型 | 描述 |

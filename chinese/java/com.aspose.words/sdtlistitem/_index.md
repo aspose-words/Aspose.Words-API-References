@@ -1,6 +1,6 @@
 ---
 title: SdtListItem
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 此元素指定父或结构化文档标记中的单个列表项。
 type: docs
 weight: 506
@@ -16,7 +16,7 @@ java.lang.Cloneable
 public class SdtListItem implements Cloneable
 ```
 
-此元素指定父项中的单个列表项[Sdt类型.COMBO\_BOX](../../com.aspose.words/sdttype\#COMBO-BOX)或者[Sdt类型.DROP\_DOWN\_LIST](../../com.aspose.words/sdttype\#DROP-DOWN-LIST)结构化文档标签。
+此元素指定父项中的单个列表项[SdtType.COMBO\_BOX](../../com.aspose.words/sdttype\#COMBO-BOX)或者[SdtType.DROP\_DOWN\_LIST](../../com.aspose.words/sdttype\#DROP-DOWN-LIST)结构化文档标签。
 
 要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
 ## 构造函数
@@ -30,7 +30,7 @@ public class SdtListItem implements Cloneable
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDisplayText()](#getDisplayText--) | 获取要在运行内容中显示的文本以代替[getValue()](../../com.aspose.words/sdtlistitem\#getValue--)此列表项的属性内容。 |
 | [getValue()](#getValue--) | 获取此列表项的值。 |
 | [hashCode()](#hashCode--) |  |
@@ -82,16 +82,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDisplayText() {#getDisplayText--}
 ```
 public String getDisplayText()

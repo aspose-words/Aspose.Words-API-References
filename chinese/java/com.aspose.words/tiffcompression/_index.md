@@ -1,6 +1,6 @@
 ---
 title: TiffCompression
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定将页面图像保存到 TIFF 文件时应用的压缩类型。
 type: docs
 weight: 579
@@ -16,7 +16,7 @@ public class TiffCompression
 指定将页面图像保存到 TIFF 文件时应用的压缩类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CCITT_3](#CCITT-3) | 指定 CCITT3 压缩方案。 |
 | [CCITT_4](#CCITT-4) | 指定 CCITT4 压缩方案。 |
@@ -30,7 +30,7 @@ public class TiffCompression
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String tiffCompressionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int tiffCompression)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -117,16 +117,16 @@ public static int fromName(String tiffCompressionName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int tiffCompression) {#getName-int-}
 ```
 public static String getName(int tiffCompression)

@@ -1,6 +1,6 @@
 ---
 title: WarningInfo
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 包含有关 Aspose.Words 在文档加载或保存期间发出的警告的信息。
 type: docs
 weight: 604
@@ -23,10 +23,10 @@ public class WarningInfo
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [get描述()](#get描述--) | 返回警告的描述。 |
+| [getClass()](#getClass--) |  |
+| [getDescription()](#getDescription--) | 返回警告的描述。 |
 | [getSource()](#getSource--) | 返回警告的来源。 |
-| [getWarning类型()](#getWarning类型--) | 返回警告的类型。 |
+| [getWarningType()](#getWarningType--) | 返回警告的类型。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -49,19 +49,19 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### get描述() {#get描述--}
+java.lang.Class<?>
+### getDescription() {#getDescription--}
 ```
-public String get描述()
+public String getDescription()
 ```
 
 
@@ -79,16 +79,16 @@ public int getSource()
 
 **退货:**
  int - 警告的来源。返回值是以下之一[WarningSource](../../com.aspose.words/warningsource)常数。
-### getWarning类型() {#getWarning类型--}
+### getWarningType() {#getWarningType--}
 ```
-public int getWarning类型()
+public int getWarningType()
 ```
 
 
 返回警告的类型。
 
 **退货:**
-int - 警告的类型。返回值是按位组合[Warning类型](../../com.aspose.words/warningtype)常数。
+int - 警告的类型。返回值是按位组合[WarningType](../../com.aspose.words/warningtype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

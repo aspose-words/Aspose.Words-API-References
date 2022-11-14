@@ -1,6 +1,6 @@
 ---
 title: List
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示列表的格式。
 type: docs
 weight: 368
@@ -36,7 +36,7 @@ Microsoft Word 文档中的列表是一组列表格式属性。每个列表最�
 | [compareTo(List other)](#compareTo-com.aspose.words.List-) | 将指定列表与当前列表进行比较。 |
 | [equals(List list)](#equals-com.aspose.words.List-) | 与指定的列表进行比较。 |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDocument()](#getDocument--) | 获取所有者文档。 |
 | [getListId()](#getListId--) | 获取列表的唯一标识符。 |
 | [getListLevels()](#getListLevels--) | 获取此列表的列表级别的集合。 |
@@ -99,16 +99,16 @@ public boolean equals(Object obj)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDocument() {#getDocument--}
 ```
 public DocumentBase getDocument()
@@ -120,7 +120,7 @@ public DocumentBase getDocument()
 列表始终具有父文档，并且仅在该文档的上下文中有效。
 
 **退货:**
-[DocumentBase](../../com.aspose.words/documentbase) - 所有者文件。
+[DocumentBase](../../com.aspose.words/documentbase) - 所有者文档。
 ### getListId() {#getListId--}
 ```
 public int getListId()
@@ -129,7 +129,7 @@ public int getListId()
 
 获取列表的唯一标识符。
 
-您通常不需要使用此属性。但是如果你使用它，你通常会与[ListCollection.getListByListId(int)](../../com.aspose.words/listcollection\#getListByListId-int-)通过标识符查找列表的方法。
+您通常不需要使用此属性。但是如果你使用它，你通常会结合[ListCollection.getListByListId(int)](../../com.aspose.words/listcollection\#getListByListId-int-)通过标识符查找列表的方法。
 
 **退货:**
 int - 列表的唯一标识符。
@@ -141,10 +141,10 @@ public ListLevelCollection getListLevels()
 
 获取此列表的列表级别的集合。
 
-使用此属性可以访问和修改每个列表级别的单独格式。
+使用此属性可以访问和修改列表中每个级别的格式。
 
 **退货:**
-[ListLevelCollection](../../com.aspose.words/listlevelcollection) - 此列表的列表级别的集合。
+[ListLevelCollection](../../com.aspose.words/listlevelcollection) - 此列表的列表级别集合。
 ### getStyle() {#getStyle--}
 ```
 public Style getStyle()
@@ -153,11 +153,11 @@ public Style getStyle()
 
 获取此列表引用或定义的列表样式。
 
-如果此列表未与列表样式关联，则该属性将返回 null。
+如果此列表未与列表样式相关联，则该属性将返回 null。
 
-列表可以是对列表样式的引用，在这种情况下[isListStyleReference()](../../com.aspose.words/list\#isListStyleReference--)将是真的。
+列表可以是对列表样式的引用，在这种情况下[isListStyleReference()](../../com.aspose.words/list\#isListStyleReference--)将是真实的。
 
-列表可以是列表样式的定义，在这种情况下[isListStyleDefinition()](../../com.aspose.words/list\#isListStyleDefinition--)将是真的。这样的列表不能直接应用于文档中的段落。
+列表可以是列表样式的定义，在这种情况下[isListStyleDefinition()](../../com.aspose.words/list\#isListStyleDefinition--)将是真实的。这样的列表不能直接应用于文档中的段落。
 
 **退货:**
 [Style](../../com.aspose.words/style) - 此列表引用或定义的列表样式。
@@ -194,11 +194,11 @@ public boolean isListStyleDefinition()
 
 如果此列表是列表样式的定义，则返回 true。
 
-当该属性为真时，[getStyle()](../../com.aspose.words/list\#getStyle--)属性返回此列表定义的列表样式。
+当此属性为真时，[getStyle()](../../com.aspose.words/list\#getStyle--)属性返回此列表定义的列表样式。
 
-通过修改定义列表样式的列表属性，您可以修改列表样式的属性。
+通过修改定义列表样式的列表的属性，您可以修改列表样式的属性。
 
-作为列表样式定义的列表不能直接应用于段落以使它们编号。
+作为列表样式定义的列表不能直接应用于段落以使其编号。
 
 **退货:**
 boolean - 如果此列表是列表样式的定义，则为真。
@@ -210,10 +210,10 @@ public boolean isListStyleReference()
 
 如果此列表是对列表样式的引用，则返回 true。
 
-请注意，修改引用列表样式的列表的属性无效。列表样式本身中指定的列表格式始终优先。
+请注意，修改引用列表样式的列表属性无效。列表样式本身中指定的列表格式始终优先。
 
 **退货:**
-boolean - 如果此列表是对列表样式的引用，则为真。
+boolean - 如果此列表是对列表样式的引用，则为 True。
 ### isMultiLevel() {#isMultiLevel--}
 ```
 public boolean isMultiLevel()
@@ -222,9 +222,9 @@ public boolean isMultiLevel()
 
 当列表包含 9 个级别时返回 true； 1 级时为假。
 
-您使用 Aspose.Words 创建的列表始终是多级列表，包含 9 个级别。
+您使用 Aspose.Words 创建的列表始终是多级列表并包含 9 个级别。
 
-Microsoft Word 2003 及更高版本始终创建具有 9 个级别的多级列表。但在某些使用早期版本的 Microsoft Word 创建的文档中，您可能会遇到只有 1 级的列表。
+Microsoft Word 2003 及更高版本始终创建具有 9 级的多级列表。但在某些使用早期版本的 Microsoft Word 创建的文档中，您可能会遇到只有 1 级的列表。
 
 **退货:**
 boolean - 当列表包含 9 个级别时为真； 1 级时为假。

@@ -1,6 +1,6 @@
 ---
 title: Constraint
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示可以对一个或多个对象实施的约束。
 type: docs
 weight: 10
@@ -24,7 +24,7 @@ public abstract class Constraint
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getConstraintName()](#getConstraintName--) | 约束中的名称[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -55,16 +55,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getConstraintName() {#getConstraintName--}
 ```
 public String getConstraintName()

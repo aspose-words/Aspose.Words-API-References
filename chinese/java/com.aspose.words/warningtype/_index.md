@@ -1,6 +1,6 @@
 ---
-title: Warning类型
-second_title: Aspose.Words for Java API Reference
+title: WarningType
+second_title: Aspose.Words for Java API 参考
 description: 指定在文档加载或保存期间由 Aspose.Words 发出的警告的类型。
 type: docs
 weight: 607
@@ -10,24 +10,24 @@ url: /zh/java/com.aspose.words/warningtype/
 **遗产:**
 java.lang.Object
 ```
-public class Warning类型
+public class WarningType
 ```
 
 指定在文档加载或保存期间由 Aspose.Words 发出的警告的类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
-| [DATA_LOSS](#DATA-LOSS) | 通用数据丢失，没有特定代码。 |
-| [DATA_LOSS_CATEGORY](#DATA-LOSS-CATEGORY) | 加载后的文档树或保存后创建的文档中将丢失一些文本/字符/图像或其他数据。 |
-| [FONT_EMBEDDING](#FONT-EMBEDDING) | 文档保存期间嵌入的字体信息丢失。 |
+| [DATA_LOSS](#DATA-LOSS) | 通用数据丢失，没有具体代码。 |
+| [DATA_LOSS_CATEGORY](#DATA-LOSS-CATEGORY) | 加载后的文档树或保存后创建的文档中的某些文本/字符/图像或其他数据将丢失。 |
+| [FONT_EMBEDDING](#FONT-EMBEDDING) | 文档保存期间嵌入字体信息丢失。 |
 | [FONT_SUBSTITUTION](#FONT-SUBSTITUTION) | 字体已被替换。 |
-| [HINT](#HINT) | 就潜在问题提出建议或提出改进建议。 |
-| [MAJOR_FORMATTING_LOSS](#MAJOR-FORMATTING-LOSS) | 通用主要格式丢失，没有特定代码。 |
-| [MAJOR_FORMATTING_LOSS_CATEGORY](#MAJOR-FORMATTING-LOSS-CATEGORY) | 与原始文档相比，生成的文档或其中的特定位置可能看起来大不相同。 |
-| [MINOR_FORMATTING_LOSS](#MINOR-FORMATTING-LOSS) | 通用的次要格式丢失，没有特定的代码。 |
+| [HINT](#HINT) | 就潜在问题提出建议或建议改进。 |
+| [MAJOR_FORMATTING_LOSS](#MAJOR-FORMATTING-LOSS) | 通用主要格式丢失，没有具体代码。 |
+| [MAJOR_FORMATTING_LOSS_CATEGORY](#MAJOR-FORMATTING-LOSS-CATEGORY) | 与原始文档相比，生成的文档或其中的特定位置可能看起来有很大不同。 |
+| [MINOR_FORMATTING_LOSS](#MINOR-FORMATTING-LOSS) | 一般轻微格式丢失，没有具体代码。 |
 | [MINOR_FORMATTING_LOSS_CATEGORY](#MINOR-FORMATTING-LOSS-CATEGORY) | 与原始文档相比，生成的文档或其中的特定位置可能看起来有些不同。 |
-| [UNEXPECTED_CONTENT](#UNEXPECTED-CONTENT) | 通用的意外内容，没有特定的代码。 |
+| [UNEXPECTED_CONTENT](#UNEXPECTED-CONTENT) | 通用的意外内容，没有具体的代码。 |
 | [UNEXPECTED_CONTENT_CATEGORY](#UNEXPECTED-CONTENT-CATEGORY) | 无法识别源文档中的某些内容（即 |
 | [length](#length) |  |
 ## 方法
@@ -35,17 +35,17 @@ public class Warning类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String warning类型Name)](#fromName-java.lang.String-) |  |
-| [fromNames(Set warning类型Names)](#fromNames-java.util.Set-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int warning类型)](#getName-int-) |  |
-| [getNames(int warning类型)](#getNames-int-) |  |
+| [fromName(String warningTypeName)](#fromName-java.lang.String-) |  |
+| [fromNames(Set warningTypeNames)](#fromNames-java.util.Set-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int warningType)](#getName-int-) |  |
+| [getNames(int warningType)](#getNames-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int warning类型)](#toString-int-) |  |
+| [toString(int warningType)](#toString-int-) |  |
 | [toStringSet(int attr)](#toStringSet-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -56,7 +56,7 @@ public static int DATA_LOSS
 ```
 
 
-通用数据丢失，没有特定代码。
+通用数据丢失，没有具体代码。
 
 ### DATA_LOSS_CATEGORY {#DATA-LOSS-CATEGORY}
 ```
@@ -64,7 +64,7 @@ public static int DATA_LOSS_CATEGORY
 ```
 
 
-加载后的文档树或保存后创建的文档中将丢失一些文本/字符/图像或其他数据。
+加载后的文档树或保存后创建的文档中的某些文本/字符/图像或其他数据将丢失。
 
 ### FONT_EMBEDDING {#FONT-EMBEDDING}
 ```
@@ -72,7 +72,7 @@ public static int FONT_EMBEDDING
 ```
 
 
-文档保存期间嵌入的字体信息丢失。
+文档保存期间嵌入字体信息丢失。
 
 ### FONT_SUBSTITUTION {#FONT-SUBSTITUTION}
 ```
@@ -88,7 +88,7 @@ public static int HINT
 ```
 
 
-就潜在问题提出建议或提出改进建议。
+就潜在问题提出建议或建议改进。
 
 ### MAJOR_FORMATTING_LOSS {#MAJOR-FORMATTING-LOSS}
 ```
@@ -96,7 +96,7 @@ public static int MAJOR_FORMATTING_LOSS
 ```
 
 
-通用主要格式丢失，没有特定代码。
+通用主要格式丢失，没有具体代码。
 
 ### MAJOR_FORMATTING_LOSS_CATEGORY {#MAJOR-FORMATTING-LOSS-CATEGORY}
 ```
@@ -104,7 +104,7 @@ public static int MAJOR_FORMATTING_LOSS_CATEGORY
 ```
 
 
-与原始文档相比，生成的文档或其中的特定位置可能看起来大不相同。
+与原始文档相比，生成的文档或其中的特定位置可能看起来有很大不同。
 
 ### MINOR_FORMATTING_LOSS {#MINOR-FORMATTING-LOSS}
 ```
@@ -112,7 +112,7 @@ public static int MINOR_FORMATTING_LOSS
 ```
 
 
-通用的次要格式丢失，没有特定的代码。
+一般轻微格式丢失，没有具体代码。
 
 ### MINOR_FORMATTING_LOSS_CATEGORY {#MINOR-FORMATTING-LOSS-CATEGORY}
 ```
@@ -128,7 +128,7 @@ public static int UNEXPECTED_CONTENT
 ```
 
 
-通用的意外内容，没有特定的代码。
+通用的意外内容，没有具体的代码。
 
 ### UNEXPECTED_CONTENT_CATEGORY {#UNEXPECTED-CONTENT-CATEGORY}
 ```
@@ -159,9 +159,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String warning类型Name) {#fromName-java.lang.String-}
+### fromName(String warningTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String warning类型Name)
+public static int fromName(String warningTypeName)
 ```
 
 
@@ -170,13 +170,13 @@ public static int fromName(String warning类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| warning类型Name | java.lang.String |  |
+| warningTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### fromNames(Set warning类型Names) {#fromNames-java.util.Set-}
+### fromNames(Set warningTypeNames) {#fromNames-java.util.Set-}
 ```
-public static int fromNames(Set warning类型Names)
+public static int fromNames(Set warningTypeNames)
 ```
 
 
@@ -185,23 +185,23 @@ public static int fromNames(Set warning类型Names)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| warning类型Names | java.util.Set |  |
+| warningTypeNames | java.util.Set |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int warning类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int warningType) {#getName-int-}
 ```
-public static String getName(int warning类型)
+public static String getName(int warningType)
 ```
 
 
@@ -210,13 +210,13 @@ public static String getName(int warning类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| warning类型 | int |  |
+| warningType | int |  |
 
 **退货:**
 java.lang.String
-### getNames(int warning类型) {#getNames-int-}
+### getNames(int warningType) {#getNames-int-}
 ```
-public static Set getNames(int warning类型)
+public static Set getNames(int warningType)
 ```
 
 
@@ -225,7 +225,7 @@ public static Set getNames(int warning类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| warning类型 | int |  |
+| warningType | int |  |
 
 **退货:**
 java.util.Set
@@ -275,9 +275,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int warning类型) {#toString-int-}
+### toString(int warningType) {#toString-int-}
 ```
-public static String toString(int warning类型)
+public static String toString(int warningType)
 ```
 
 
@@ -286,7 +286,7 @@ public static String toString(int warning类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| warning类型 | int |  |
+| warningType | int |  |
 
 **退货:**
 java.lang.String

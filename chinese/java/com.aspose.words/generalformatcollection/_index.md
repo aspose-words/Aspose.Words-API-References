@@ -1,7 +1,7 @@
 ---
 title: GeneralFormatCollection
-second_title: Aspose.Words for Java API Reference
-description: 表示一般格式的类型化集合。
+second_title: Aspose.Words for Java API 参考
+description: 表示通用格式的类型化集合。
 type: docs
 weight: 305
 url: /zh/java/com.aspose.words/generalformatcollection/
@@ -16,7 +16,7 @@ java.lang.Iterable
 public class GeneralFormatCollection implements Iterable
 ```
 
-表示一般格式的类型化集合。
+表示通用格式的类型化集合。
 
 要了解更多信息，请访问**Working with 字段**文档文章。
 ## 方法
@@ -26,7 +26,7 @@ public class GeneralFormatCollection implements Iterable
 | [add(int item)](#add-int-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 获取指定索引处的一般格式。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中项目的总数。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 返回一个枚举器对象。 |
@@ -81,16 +81,16 @@ public int get(int index)
 
 **退货:**
  int - 一种通用格式。返回值是以下之一[GeneralFormat](../../com.aspose.words/generalformat)常数。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

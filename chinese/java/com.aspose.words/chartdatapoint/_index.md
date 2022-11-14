@@ -1,6 +1,6 @@
 ---
 title: ChartDataPoint
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许指定图表上单个数据点的格式。
 type: docs
 weight: 60
@@ -11,7 +11,7 @@ url: /zh/java/com.aspose.words/chartdatapoint/
 java.lang.Object
 
 **所有实现的接口:**
-[com.aspose.words.IChartDataPoint](../../com.aspose.words/ichartdatapoint), java.lang.Cloneable
+[com.aspose.words.IChartDataPoint](../../com.aspose.words/ichartdatapoint), java.lang.可克隆
 ```
 public class ChartDataPoint implements IChartDataPoint, Cloneable
 ```
@@ -28,10 +28,10 @@ public class ChartDataPoint implements IChartDataPoint, Cloneable
 | [clearFormat()](#clearFormat--) | 清除此数据点的格式。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBubble3D()](#getBubble3D--) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getExplosion()](#getExplosion--) |  |
 | [getFormat()](#getFormat--) | 提供对此数据点的填充和线条格式的访问。 |
-| [getIndex()](#getIndex--) | 此对象对其应用格式设置的数据点的索引。 |
+| [getIndex()](#getIndex--) | 此对象应用格式的数据点的索引。 |
 | [getInvertIfNegative()](#getInvertIfNegative--) |  |
 | [getMarker()](#getMarker--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -78,16 +78,16 @@ public boolean getBubble3D()
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getExplosion() {#getExplosion--}
 ```
 public int getExplosion()
@@ -114,7 +114,7 @@ public int getIndex()
 ```
 
 
-此对象对其应用格式设置的数据点的索引。
+此对象应用格式的数据点的索引。
 
 **退货:**
 int - 对应的 int 值。

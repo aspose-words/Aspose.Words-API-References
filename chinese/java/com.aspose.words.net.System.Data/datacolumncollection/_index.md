@@ -1,6 +1,6 @@
 ---
 title: DataColumnCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示 a 的对象集合。
 type: docs
 weight: 15
@@ -23,14 +23,14 @@ public class DataColumnCollection implements Iterable
 | --- | --- |
 | [add(System.Data.DataColumn column)](#add-com.aspose.words.net.System.Data.DataColumn-) | 创建并添加指定的[DataColumn](../../com.aspose.words.net.system.data/datacolumn)反对[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection). |
 | [add(String columnName)](#add-java.lang.String-) | 创建并添加一个[DataColumn](../../com.aspose.words.net.system.data/datacolumn)具有指定名称的对象[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection). |
-| [add(String columnName, 班级 type)](#add-java.lang.String-java.lang.班级-) | 创建并添加一个[DataColumn](../../com.aspose.words.net.system.data/datacolumn)具有指定名称和类型的对象[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection). |
-| [add(String columnName, 班级 type, int columnMapping, boolean allowAutoIncrement, boolean allowDBNull)](#add-java.lang.String-java.lang.班级-int-boolean-boolean-) | 创建并添加一个[DataColumn](../../com.aspose.words.net.system.data/datacolumn)具有指定名称、类型和特定值的列集合。 |
+| [add(String columnName, Class type)](#add-java.lang.String-java.lang.Class-) | 创建并添加一个[DataColumn](../../com.aspose.words.net.system.data/datacolumn)具有指定名称和类型的对象[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection). |
+| [add(String columnName, Class type, int columnMapping, boolean allowAutoIncrement, boolean allowDBNull)](#add-java.lang.String-java.lang.Class-int-boolean-boolean-) | 创建并添加一个[DataColumn](../../com.aspose.words.net.system.data/datacolumn)具有指定名称、类型和特定值的列集合。 |
 | [clear()](#clear--) | 清除任何列的集合。 |
 | [contains(String name)](#contains-java.lang.String-) | 检查集合是否包含具有指定名称的列。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 获取[DataColumn](../../com.aspose.words.net.system.data/datacolumn)来自指定索引处的集合。 |
 | [get(String name)](#get-java.lang.String-) | 获取[DataColumn](../../com.aspose.words.net.system.data/datacolumn)从具有指定名称的集合中。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) |  |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(System.Data.DataColumn column)](#indexOf-com.aspose.words.net.System.Data.DataColumn-) | 获取由名称指定的列的索引。 |
@@ -70,9 +70,9 @@ public void add(String columnName)
 | --- | --- | --- |
 | columnName | java.lang.String | 列的名称。 |
 
-### add(String columnName, 班级 type) {#add-java.lang.String-java.lang.班级-}
+### add(String columnName, Class type) {#add-java.lang.String-java.lang.Class-}
 ```
-public System.Data.DataColumn add(String columnName, 班级 type)
+public System.Data.DataColumn add(String columnName, Class type)
 ```
 
 
@@ -82,13 +82,13 @@ public System.Data.DataColumn add(String columnName, 班级 type)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | columnName | java.lang.String | 这[DataColumn.getColumnName()](../../com.aspose.words.net.system.data/datacolumn\#getColumnName--) / [DataColumn.setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn\#setColumnName-java.lang.String-)在创建列时使用。 |
-| type | java.lang.班级 | 这[DataColumn.getData类型()](../../com.aspose.words.net.system.data/datacolumn\#getData类型--) / [DataColumn.setData类型(java.lang.班级)](../../com.aspose.words.net.system.data/datacolumn\#setData类型-java.lang.班级-)的新列。 |
+| type | java.lang.Class | 这[DataColumn.getDataType()](../../com.aspose.words.net.system.data/datacolumn\#getDataType--) / [DataColumn.setDataType(java.lang.Class)](../../com.aspose.words.net.system.data/datacolumn\#setDataType-java.lang.Class-)的新列。 |
 
 **退货:**
 [DataColumn](../../com.aspose.words.net.system.data/datacolumn) - 新创建的[DataColumn](../../com.aspose.words.net.system.data/datacolumn).
-### add(String columnName, 班级 type, int columnMapping, boolean allowAutoIncrement, boolean allowDBNull) {#add-java.lang.String-java.lang.班级-int-boolean-boolean-}
+### add(String columnName, Class type, int columnMapping, boolean allowAutoIncrement, boolean allowDBNull) {#add-java.lang.String-java.lang.Class-int-boolean-boolean-}
 ```
-public System.Data.DataColumn add(String columnName, 班级 type, int columnMapping, boolean allowAutoIncrement, boolean allowDBNull)
+public System.Data.DataColumn add(String columnName, Class type, int columnMapping, boolean allowAutoIncrement, boolean allowDBNull)
 ```
 
 
@@ -98,7 +98,7 @@ public System.Data.DataColumn add(String columnName, 班级 type, int columnMapp
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | columnName | java.lang.String | 姓名 |
-| type | java.lang.班级 | 数据类型 |
+| type | java.lang.Class | 数据类型 |
 | columnMapping | int | 列映射类型 |
 | allowAutoIncrement | boolean | 是否允许自动递增 |
 | allowDBNull | boolean | 是否允许 DBNull 值 |
@@ -157,7 +157,7 @@ public System.Data.DataColumn get(int index)
 | index | int | 要返回的列的从零开始的索引。 |
 
 **退货:**
-[DataColumn](../../com.aspose.words.net.system.data/datacolumn) - 这[DataColumn](../../com.aspose.words.net.system.data/datacolumn)在指定索引处。
+[DataColumn](../../com.aspose.words.net.system.data/datacolumn) - 这[DataColumn](../../com.aspose.words.net.system.data/datacolumn)在指定的索引处。
 ### get(String name) {#get-java.lang.String-}
 ```
 public System.Data.DataColumn get(String name)
@@ -173,16 +173,16 @@ public System.Data.DataColumn get(String name)
 
 **退货:**
 [DataColumn](../../com.aspose.words.net.system.data/datacolumn) - 这[DataColumn](../../com.aspose.words.net.system.data/datacolumn)在具有指定的集合中[DataColumn.getColumnName()](../../com.aspose.words.net.system.data/datacolumn\#getColumnName--) / [DataColumn.setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn\#setColumnName-java.lang.String-);否则为空值，如果[DataColumn](../../com.aspose.words.net.system.data/datacolumn)不存在。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

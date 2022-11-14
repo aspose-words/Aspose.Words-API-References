@@ -1,6 +1,6 @@
 ---
 title: PageLayoutCallbackArgs
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 传入的参数
 type: docs
 weight: 435
@@ -21,7 +21,7 @@ public class PageLayoutCallbackArgs
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDocument()](#getDocument--) | 获取文档。 |
 | [getEvent()](#getEvent--) | 获取事件。 |
 | [getPageIndex()](#getPageIndex--) | 获取与此事件相关的文档中页面的从 0 开始的索引。 |
@@ -47,16 +47,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDocument() {#getDocument--}
 ```
 public Document getDocument()

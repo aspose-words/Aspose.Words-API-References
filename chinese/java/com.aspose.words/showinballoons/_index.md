@@ -1,6 +1,6 @@
 ---
 title: ShowInBalloons
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定在气球中呈现哪些修订。
 type: docs
 weight: 522
@@ -16,7 +16,7 @@ public class ShowInBalloons
 指定在气球中呈现哪些修订。请注意，修订不会在气球中呈现[CommentDisplayMode.SHOW\_IN\_ANNOTATIONS](../../com.aspose.words/commentdisplaymode\#SHOW-IN-ANNOTATIONS).
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [FORMAT](#FORMAT) | 呈现插入和删除内联修订，在气球中格式化修订。 |
 | [FORMAT_AND_DELETE](#FORMAT-AND-DELETE) | 渲染在气球中插入修订、删除和格式化修订。 |
@@ -28,7 +28,7 @@ public class ShowInBalloons
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String showInBalloonsName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int showInBalloons)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -99,16 +99,16 @@ public static int fromName(String showInBalloonsName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int showInBalloons) {#getName-int-}
 ```
 public static String getName(int showInBalloons)

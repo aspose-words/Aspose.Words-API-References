@@ -1,6 +1,6 @@
 ---
 title: TxtListIndentation
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定文档导出为格式时列表级别的缩进方式。
 type: docs
 weight: 583
@@ -22,7 +22,7 @@ public class TxtListIndentation
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCharacter()](#getCharacter--) | 获取用于缩进列表级别的字符。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 得到多少[getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-)用作每个列表级别的缩进。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -58,16 +58,16 @@ public char getCharacter()
 
 **退货:**
 char - 用于缩进列表级别的字符。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

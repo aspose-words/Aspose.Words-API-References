@@ -1,6 +1,6 @@
 ---
-title: Node类型
-second_title: Aspose.Words for Java API Reference
+title: NodeType
+second_title: Aspose.Words for Java API 参考
 description: 指定 Word 文档节点的类型。
 type: docs
 weight: 408
@@ -10,28 +10,28 @@ url: /zh/java/com.aspose.words/nodetype/
 **遗产:**
 java.lang.Object
 ```
-public class Node类型
+public class NodeType
 ```
 
 指定 Word 文档节点的类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
-| [ANY](#ANY) | 表示所有节点类型。 |
-| [BODY](#BODY) | 一个[Body](../../com.aspose.words/body)包含部分正文（正文故事）的对象。 |
-| [BOOKMARK_END](#BOOKMARK-END) | 书签标记的结束。 |
-| [BOOKMARK_START](#BOOKMARK-START) | 书签标记的开头。 |
+| [ANY](#ANY) | 指示所有节点类型。 |
+| [BODY](#BODY) | 一个[Body](../../com.aspose.words/body)包含部分正文的对象（正文故事）。 |
+| [BOOKMARK_END](#BOOKMARK-END) | 书签标记的结尾。 |
+| [BOOKMARK_START](#BOOKMARK-START) | 书签标记的开始。 |
 | [BUILDING_BLOCK](#BUILDING-BLOCK) | 词汇表文档中的构建块（例如 |
-| [CELL](#CELL) | 表格行的单元格。 |
-| [COMMENT](#COMMENT) | Word 文档中的注释。 |
+| [CELL](#CELL) | 表行的一个单元格。 |
+| [COMMENT](#COMMENT) | Word 文档中的评论。 |
 | [COMMENT_RANGE_END](#COMMENT-RANGE-END) | 表示注释范围结束的标记节点。 |
 | [COMMENT_RANGE_START](#COMMENT-RANGE-START) | 表示注释范围开始的标记节点。 |
 | [DOCUMENT](#DOCUMENT) | 一个[Document](../../com.aspose.words/document)对象，作为文档树的根，提供对整个 Word 文档的访问。 |
-| [EDITABLE_RANGE_END](#EDITABLE-RANGE-END) | 可编辑范围的结束。 |
+| [EDITABLE_RANGE_END](#EDITABLE-RANGE-END) | 可编辑范围的末端。 |
 | [EDITABLE_RANGE_START](#EDITABLE-RANGE-START) | 可编辑范围的开始。 |
-| [FIELD_END](#FIELD-END) | 一个特殊字符，用于指定 Word 字段的结尾。 |
-| [FIELD_SEPARATOR](#FIELD-SEPARATOR) | 将域代码与域结果分开的特殊字符。 |
+| [FIELD_END](#FIELD-END) | 指定 Word 字段结尾的特殊字符。 |
+| [FIELD_SEPARATOR](#FIELD-SEPARATOR) | 将域代码与域结果分隔开的特殊字符。 |
 | [FIELD_START](#FIELD-START) | 一个特殊字符，用于指定 Word 字段的开头。 |
 | [FOOTNOTE](#FOOTNOTE) | Word 文档中的脚注或尾注。 |
 | [FORM_FIELD](#FORM-FIELD) | 一个表单域。 |
@@ -63,15 +63,15 @@ public class Node类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String node类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int node类型)](#getName-int-) |  |
+| [fromName(String nodeTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int nodeType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int node类型)](#toString-int-) |  |
+| [toString(int nodeType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -89,7 +89,7 @@ public static int BODY
 ```
 
 
-一个[Body](../../com.aspose.words/body)包含部分正文（正文故事）的对象。
+一个[Body](../../com.aspose.words/body)包含部分正文的对象（正文故事）。
 
 一个[Body](../../com.aspose.words/body)节点可以有[Paragraph](../../com.aspose.words/paragraph)和[Table](../../com.aspose.words/table)节点。
 
@@ -99,7 +99,7 @@ public static int BOOKMARK_END
 ```
 
 
-书签标记的结束。
+书签标记的结尾。
 
 ### BOOKMARK_START {#BOOKMARK-START}
 ```
@@ -107,7 +107,7 @@ public static int BOOKMARK_START
 ```
 
 
-书签标记的开头。
+书签标记的开始。
 
 ### BUILDING_BLOCK {#BUILDING-BLOCK}
 ```
@@ -123,7 +123,7 @@ public static int CELL
 ```
 
 
-表格行的单元格。
+表行的一个单元格。
 
 一个[Cell](../../com.aspose.words/cell)节点可以有[Paragraph](../../com.aspose.words/paragraph)和[Table](../../com.aspose.words/table)节点。
 
@@ -133,7 +133,7 @@ public static int COMMENT
 ```
 
 
-Word 文档中的注释。
+Word 文档中的评论。
 
 一个[Comment](../../com.aspose.words/comment)节点可以有[Paragraph](../../com.aspose.words/paragraph)和[Table](../../com.aspose.words/table)节点。
 
@@ -169,7 +169,7 @@ public static int EDITABLE_RANGE_END
 ```
 
 
-可编辑范围的结束。
+可编辑范围的末端。
 
 ### EDITABLE_RANGE_START {#EDITABLE-RANGE-START}
 ```
@@ -185,7 +185,7 @@ public static int FIELD_END
 ```
 
 
-一个特殊字符，用于指定 Word 字段的结尾。
+指定 Word 字段结尾的特殊字符。
 
 ### FIELD_SEPARATOR {#FIELD-SEPARATOR}
 ```
@@ -193,7 +193,7 @@ public static int FIELD_SEPARATOR
 ```
 
 
-将域代码与域结果分开的特殊字符。
+将域代码与域结果分隔开的特殊字符。
 
 ### FIELD_START {#FIELD-START}
 ```
@@ -305,7 +305,7 @@ public static int PARAGRAPH
 
 一段文字。
 
-一个[Paragraph](../../com.aspose.words/paragraph) node 是内联级元素的容器[Run](../../com.aspose.words/run), [字段Start](../../com.aspose.words/fieldstart), [字段Separator](../../com.aspose.words/fieldseparator), [字段End](../../com.aspose.words/fieldend), [Form字段](../../com.aspose.words/formfield), [Shape](../../com.aspose.words/shape), [GroupShape](../../com.aspose.words/groupshape), [Footnote](../../com.aspose.words/footnote), [Comment](../../com.aspose.words/comment), [SpecialChar](../../com.aspose.words/specialchar)， 也[BookmarkStart](../../com.aspose.words/bookmarkstart)和[BookmarkEnd](../../com.aspose.words/bookmarkend).
+一个[Paragraph](../../com.aspose.words/paragraph) node 是内联级元素的容器[Run](../../com.aspose.words/run), [FieldStart](../../com.aspose.words/fieldstart), [FieldSeparator](../../com.aspose.words/fieldseparator), [FieldEnd](../../com.aspose.words/fieldend), [FormField](../../com.aspose.words/formfield), [Shape](../../com.aspose.words/shape), [GroupShape](../../com.aspose.words/groupshape), [Footnote](../../com.aspose.words/footnote), [Comment](../../com.aspose.words/comment), [SpecialChar](../../com.aspose.words/specialchar)， 也[BookmarkStart](../../com.aspose.words/bookmarkstart)和[BookmarkEnd](../../com.aspose.words/bookmarkend).
 
 ### ROW {#ROW}
 ```
@@ -432,9 +432,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String node类型Name) {#fromName-java.lang.String-}
+### fromName(String nodeTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String node类型Name)
+public static int fromName(String nodeTypeName)
 ```
 
 
@@ -443,23 +443,23 @@ public static int fromName(String node类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node类型Name | java.lang.String |  |
+| nodeTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int node类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int nodeType) {#getName-int-}
 ```
-public static String getName(int node类型)
+public static String getName(int nodeType)
 ```
 
 
@@ -468,7 +468,7 @@ public static String getName(int node类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 
 **退货:**
 java.lang.String
@@ -518,9 +518,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int node类型) {#toString-int-}
+### toString(int nodeType) {#toString-int-}
 ```
-public static String toString(int node类型)
+public static String toString(int nodeType)
 ```
 
 
@@ -529,7 +529,7 @@ public static String toString(int node类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 
 **退货:**
 java.lang.String

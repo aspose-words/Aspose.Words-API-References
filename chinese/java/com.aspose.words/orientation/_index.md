@@ -1,6 +1,6 @@
 ---
 title: Orientation
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定页面方向。
 type: docs
 weight: 429
@@ -16,7 +16,7 @@ public class Orientation
 指定页面方向。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [LANDSCAPE](#LANDSCAPE) | 横向页面方向（宽和短）。 |
 | [PORTRAIT](#PORTRAIT) | 纵向页面方向（窄和高）。 |
@@ -27,7 +27,7 @@ public class Orientation
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String orientationName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int orientation)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -90,16 +90,16 @@ public static int fromName(String orientationName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int orientation) {#getName-int-}
 ```
 public static String getName(int orientation)

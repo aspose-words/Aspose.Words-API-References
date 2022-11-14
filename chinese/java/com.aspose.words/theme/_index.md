@@ -1,6 +1,6 @@
 ---
 title: Theme
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 代表文档主题并提供对主要主题部分的访问，包括和
 type: docs
 weight: 573
@@ -24,7 +24,7 @@ public class Theme implements Cloneable
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getColors()](#getColors--) | 允许为文档指定一组主题颜色。 |
 | [getFontName(int themeFont)](#getFontName-int-) |  |
 | [getMajorFonts()](#getMajorFonts--) | 允许指定不同语言的主要字体集。 |
@@ -52,16 +52,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getColors() {#getColors--}
 ```
 public ThemeColors getColors()

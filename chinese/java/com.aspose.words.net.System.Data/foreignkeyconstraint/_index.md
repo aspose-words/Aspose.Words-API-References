@@ -1,6 +1,6 @@
 ---
 title: ForeignKeyConstraint
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示在删除或更新值或行时对主键/外键关系中的一组列实施的操作限制。
 type: docs
 weight: 29
@@ -26,7 +26,7 @@ public class ForeignKeyConstraint extends System.Data.Constraint
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object key)](#equals-java.lang.Object-) | 获取一个值，该值指示当前是否[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint)与指定的对象相同。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getColumns()](#getColumns--) | 获取此约束的子列。 |
 | [getConstraintName()](#getConstraintName--) | 约束中的名称[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
 | [getDeleteRule()](#getDeleteRule--) | 获取删除行时跨此约束发生的操作。 |
@@ -97,20 +97,20 @@ public boolean equals(Object key)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| key | java.lang.Object | 这个对象[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint)进行比较。二[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint)如果它们约束相同的列，则它们是相等的。 |
+| key | java.lang.Object | 这个对象[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint)被比较。二[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint)如果它们约束相同的列，则它们是相等的。 |
 
 **退货:**
-boolean - 如果对象相同，则为 true；否则为假。
-### get班级() {#get班级--}
+boolean - 如果对象相同则为真；否则为假。
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getColumns() {#getColumns--}
 ```
 public System.Data.DataColumn[] getColumns()
@@ -140,7 +140,7 @@ public System.Data.Rule getDeleteRule()
 获取删除行时跨此约束发生的操作。
 
 **退货:**
-[Rule](../../com.aspose.words.net.system.data/rule) - 中的一个[Rule](../../com.aspose.words.net.system.data/rule)价值观。默认值为级联。返回值是以下之一[Rule](../../com.aspose.words.net.system.data/rule)常数。
+[Rule](../../com.aspose.words.net.system.data/rule) - 中的一个[Rule](../../com.aspose.words.net.system.data/rule)值。默认是级联。返回值是以下之一[Rule](../../com.aspose.words.net.system.data/rule)常数。
 ### getRelatedColumns() {#getRelatedColumns--}
 ```
 public System.Data.DataColumn[] getRelatedColumns()
@@ -160,7 +160,7 @@ public System.Data.DataTable getRelatedTable()
 获取此约束的父表。
 
 **退货:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) - 父母[DataTable](../../com.aspose.words.net.system.data/datatable)的这个约束。
+[DataTable](../../com.aspose.words.net.system.data/datatable) - 父母[DataTable](../../com.aspose.words.net.system.data/datatable)这种约束。
 ### getTable() {#getTable--}
 ```
 public System.Data.DataTable getTable()
@@ -180,7 +180,7 @@ public System.Data.Rule getUpdateRule()
 获取在更新行时跨此约束发生的操作。
 
 **退货:**
-[Rule](../../com.aspose.words.net.system.data/rule) - 中的一个[Rule](../../com.aspose.words.net.system.data/rule)价值观。默认值为级联。返回值是以下之一[Rule](../../com.aspose.words.net.system.data/rule)常数。
+[Rule](../../com.aspose.words.net.system.data/rule) - 中的一个[Rule](../../com.aspose.words.net.system.data/rule)值。默认是级联。返回值是以下之一[Rule](../../com.aspose.words.net.system.data/rule)常数。
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

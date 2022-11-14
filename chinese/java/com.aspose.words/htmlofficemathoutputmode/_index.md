@@ -1,6 +1,6 @@
 ---
 title: HtmlOfficeMathOutputMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定 Aspose.Words 如何将 OfficeMath 导出为 HTML MHTML 和 EPUB。
 type: docs
 weight: 330
@@ -16,7 +16,7 @@ public class HtmlOfficeMathOutputMode
 指定 Aspose.Words 如何将 OfficeMath 导出为 HTML、MHTML 和 EPUB。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [IMAGE](#IMAGE) |  OfficeMath 被转换为 HTML 作为指定的图像![Image 1][]标签。
 
@@ -31,7 +31,7 @@ public class HtmlOfficeMathOutputMode
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String htmlOfficeMathOutputModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int htmlOfficeMathOutputMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -51,7 +51,7 @@ public static int IMAGE
  OfficeMath 被转换为 HTML 作为指定的图像![Image 1][]标签。
 
 
-[Image 1]： 
+[Image 1]: 
 
 ### MATH_ML {#MATH-ML}
 ```
@@ -105,16 +105,16 @@ public static int fromName(String htmlOfficeMathOutputModeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int htmlOfficeMathOutputMode) {#getName-int-}
 ```
 public static String getName(int htmlOfficeMathOutputMode)

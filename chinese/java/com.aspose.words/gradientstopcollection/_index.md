@@ -1,6 +1,6 @@
 ---
 title: GradientStopCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 包含对象的集合。
 type: docs
 weight: 309
@@ -28,7 +28,7 @@ public class GradientStopCollection implements Iterable
 | [add(GradientStop gradientStop)](#add-com.aspose.words.GradientStop-) | 添加指定的[GradientStop](../../com.aspose.words/gradientstop)到一个渐变。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 得到一个[GradientStop](../../com.aspose.words/gradientstop)集合中的对象。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取一个整数值，该值指示集合中的项目数。 |
 | [hashCode()](#hashCode--) |  |
 | [insert(int index, GradientStop gradientStop)](#insert-int-com.aspose.words.GradientStop-) | 插入一个[GradientStop](../../com.aspose.words/gradientstop)到指定索引处的集合。 |
@@ -87,16 +87,16 @@ public GradientStop get(int index)
 
 **退货:**
 [GradientStop](../../com.aspose.words/gradientstop) - 一个[GradientStop](../../com.aspose.words/gradientstop)集合中的对象。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

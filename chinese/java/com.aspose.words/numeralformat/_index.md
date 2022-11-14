@@ -1,6 +1,6 @@
 ---
 title: NumeralFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指示在呈现为固定页面格式时用于表示数字的符号集。
 type: docs
 weight: 410
@@ -16,10 +16,10 @@ public class NumeralFormat
 指示在呈现为固定页面格式时用于表示数字的符号集。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [ARABIC_INDIC](#ARABIC-INDIC) | 阿拉伯语中使用的数字：\\u0660\\u0661\\u0662\\u0663\\u0664\\u0665\\u0666\\u0667\\u0668\\u0669。 |
-| [CONTEXT](#CONTEXT) | 符号集由上下文（语言环境和 RTL 属性）决定。 |
+| [CONTEXT](#CONTEXT) | 符号集由上下文决定（语言环境和 RTL 属性）。 |
 | [EASTERN_ARABIC_INDIC](#EASTERN-ARABIC-INDIC) | 波斯语和乌尔都语中使用的数字：\\u06f0\\u06f1\\u06f2\\u06f3\\u06f4\\u06f5\\u06f6\\u06f7\\u06f8\\u06f9。 |
 | [EUROPEAN](#EUROPEAN) | 欧洲数字：0123456789。 |
 | [SYSTEM](#SYSTEM) | 不支持此选项。 |
@@ -30,7 +30,7 @@ public class NumeralFormat
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String numeralFormatName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int numeralFormat)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -47,7 +47,7 @@ public static int ARABIC_INDIC
 ```
 
 
-阿拉伯语中使用的数字：\\u0660\\u0661\\u0662\\u0663\\u0664\\u0665\\u0666\\u0667\\u0668\\u0669。 Unicode 范围 U+0660 - u+0669。
+阿拉伯语中使用的数字：\\u0660\\u0661\\u0662\\u0663\\u0664\\u0665\\u0666\\u0667\\u0668\\u0669. Unicode 范围 U+0660 - u+0669。
 
 ### CONTEXT {#CONTEXT}
 ```
@@ -55,7 +55,7 @@ public static int CONTEXT
 ```
 
 
-符号集由上下文（语言环境和 RTL 属性）决定。
+符号集由上下文决定（语言环境和 RTL 属性）。
 
 ### EASTERN_ARABIC_INDIC {#EASTERN-ARABIC-INDIC}
 ```
@@ -117,16 +117,16 @@ public static int fromName(String numeralFormatName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int numeralFormat) {#getName-int-}
 ```
 public static String getName(int numeralFormat)

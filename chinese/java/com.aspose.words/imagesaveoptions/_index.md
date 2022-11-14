@@ -1,6 +1,6 @@
 ---
 title: ImageSaveOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许在将文档页面或形状渲染为图像时指定其他选项。
 type: docs
 weight: 340
@@ -30,81 +30,81 @@ public class ImageSaveOptions extends FixedPageSaveOptions implements Cloneable
 | --- | --- |
 | [createSaveOptions(int saveFormat)](#createSaveOptions-int-) |  |
 | [createSaveOptions(String fileName)](#createSaveOptions-java.lang.String-) | 创建适合给定文件名中指定的文件扩展名的类的保存选项对象。 |
-| [deepClone()](#deepClone--) | 创建此对象的深层克隆。 |
+| [deepClone()](#deepClone--) | 创建此对象的深度克隆。 |
 | [equals(Object obj)](#equals-java.lang.Object-) | 确定指定对象的值是否与当前对象相等。 |
-| [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts--) | 获取一个布尔值，该值指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
-| [get班级()](#get班级--) |  |
+| [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts--) | 获取一个布尔值，指示在保存文档时在文档中嵌入 TrueType 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
+| [getClass()](#getClass--) |  |
 | [getColorMode()](#getColorMode--) | 获取一个值，该值确定如何呈现颜色。 |
 | [getDefaultTemplate()](#getDefaultTemplate--) | 获取默认模板的路径（包括文件名）。 |
-| [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode--) | 获取确定如何渲染 3D 效果的值。 |
-| [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode--) | 获取一个值，该值确定如何呈现 DrawingML 效果。 |
-| [getDmlRenderingMode()](#getDmlRenderingMode--) | 获取一个值，该值确定如何呈现 DrawingML 形状。 |
-| [getExportGeneratorName()](#getExportGeneratorName--) | 如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。 |
+| [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode--) | 获取确定如何呈现 3D 效果的值。 |
+| [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode--) | 获取确定如何呈现 DrawingML 效果的值。 |
+| [getDmlRenderingMode()](#getDmlRenderingMode--) | 获取确定如何呈现 DrawingML 形状的值。 |
+| [getExportGeneratorName()](#getExportGeneratorName--) | 当为真时，导致 Aspose.Words 的名称和版本被嵌入到生成的文件中。 |
 | [getGraphicsQualityOptions()](#getGraphicsQualityOptions--) | 允许为 java.awt.Graphics2D 对象指定渲染模式和质量。 |
 | [getHorizontalResolution()](#getHorizontalResolution--) | 获取生成图像的水平分辨率，以每英寸点数为单位。 |
 | [getImageBrightness()](#getImageBrightness--) | 获取生成图像的亮度。 |
 | [getImageColorMode()](#getImageColorMode--) | 获取生成图像的颜色模式。 |
 | [getImageContrast()](#getImageContrast--) | 获取生成图像的对比度。 |
-| [getImlRenderingMode()](#getImlRenderingMode--) | 获取一个值，该值确定如何呈现墨迹 (InkML) 对象。 |
+| [getImlRenderingMode()](#getImlRenderingMode--) | 获取确定如何呈现墨迹 (InkML) 对象的值。 |
 | [getJpegQuality()](#getJpegQuality--) | 获取确定生成的 JPEG 图像质量的值。 |
-| [getMemoryOptimization()](#getMemoryOptimization--) | 获取确定是否应在保存文档之前执行内存优化的值。 |
-| [getMetafileRenderingOptions()](#getMetafileRenderingOptions--) | 允许指定如何在渲染输出中处理元文件。 |
+| [getMemoryOptimization()](#getMemoryOptimization--) | 获取确定在保存文档之前是否应执行内存优化的值。 |
+| [getMetafileRenderingOptions()](#getMetafileRenderingOptions--) | 允许指定在渲染输出中如何处理图元文件。 |
 | [getNumeralFormat()](#getNumeralFormat--) | 获取[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。 |
 | [getOptimizeOutput()](#getOptimizeOutput--) | Flag 表示是否需要优化输出。 |
-| [getPageSavingCallback()](#getPageSavingCallback--) | 允许控制将文档导出为固定页面格式时如何保存单独的页面。 |
+| [getPageSavingCallback()](#getPageSavingCallback--) | 允许控制在将文档导出为固定页面格式时如何保存单独的页面。 |
 | [getPageSet()](#getPageSet--) | 获取要呈现的页面。 |
 | [getPaperColor()](#getPaperColor--) | 获取生成图像的背景（纸张）颜色。 |
 | [getPixelFormat()](#getPixelFormat--) | 获取生成图像的像素格式。 |
-| [getPrettyFormat()](#getPrettyFormat--) | 如果为 true ，则在适用的情况下输出漂亮的格式。 |
+| [getPrettyFormat()](#getPrettyFormat--) | 当 true 时，漂亮的格式输出适用。 |
 | [getProgressCallback()](#getProgressCallback--) | 在保存文档期间调用并接受有关保存进度的数据。 |
-| [getSaveFormat()](#getSaveFormat--) | 如果使用此保存选项对象，则指定保存呈现的文档页面或形状的格式。 |
-| [getScale()](#getScale--) | 获取生成图像的缩放系数。 |
+| [getSaveFormat()](#getSaveFormat--) | 如果使用此保存选项对象，指定保存呈现的文档页面或形状的格式。 |
+| [getScale()](#getScale--) | 获取生成图像的缩放因子。 |
 | [getTempFolder()](#getTempFolder--) | 指定保存到 DOC 或 DOCX 文件时使用的临时文件的文件夹。 |
 | [getThresholdForFloydSteinbergDithering()](#getThresholdForFloydSteinbergDithering--) | 获取确定 Floyd-Steinberg 方法中二值化误差值的阈值。 |
-| [getTiffBinarization方法()](#getTiffBinarization方法--) | 获取将图像转换为 1 bpp 格式时使用的方法[getSaveFormat()](../../com.aspose.words/imagesaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions\#setSaveFormat-int-)是 SaveFormat.Tiff 和[getTiffCompression()](../../com.aspose.words/imagesaveoptions\#getTiffCompression--) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions\#setTiffCompression-int-)等于 TiffCompression.Ccitt3 或 TiffCompression.Ccitt4。 |
-| [getTiffCompression()](#getTiffCompression--) | 获取将生成的图像保存为 TIFF 格式时应用的压缩类型。 |
+| [getTiffBinarizationMethod()](#getTiffBinarizationMethod--) | 获取将图像转换为 1 bpp 格式时使用的方法[getSaveFormat()](../../com.aspose.words/imagesaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions\#setSaveFormat-int-)是 SaveFormat.Tiff 和[getTiffCompression()](../../com.aspose.words/imagesaveoptions\#getTiffCompression--) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions\#setTiffCompression-int-)等于 TiffCompression.Ccitt3 或 TiffCompression.Ccitt4。 |
+| [getTiffCompression()](#getTiffCompression--) | 获取将生成的图像保存为 TIFF 格式时要应用的压缩类型。 |
 | [getUpdateCreatedTimeProperty()](#getUpdateCreatedTimeProperty--) | 获取一个值，确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。 |
 | [getUpdate字段()](#getUpdate字段--) | 获取一个值，该值确定在将文档保存为固定页面格式之前是否应更新某些类型的字段。 |
 | [getUpdateLastPrintedProperty()](#getUpdateLastPrintedProperty--) | 获取一个值，确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。 |
 | [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty--) | 获取一个值，确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。 |
 | [getUpdateSdtContent()](#getUpdateSdtContent--) | 获取确定内容是否为[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。 |
 | [getUseAntiAliasing()](#getUseAntiAliasing--) | 获取一个值，该值确定是否使用抗锯齿进行渲染。 |
-| [getUseGdiEmfRenderer()](#getUseGdiEmfRenderer--) | 获取一个值，用于确定在保存到 EMF 时是使用 GDI+ 还是 Aspose.Words 图元文件渲染器。 |
+| [getUseGdiEmfRenderer()](#getUseGdiEmfRenderer--) | 获取一个值，确定在保存到 EMF 时是使用 GDI+ 还是 Aspose.Words 图元文件渲染器。 |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering--) | 获取确定是否使用高质量的值（即 |
 | [getVerticalResolution()](#getVerticalResolution--) | 获取生成图像的垂直分辨率，以每英寸点数为单位。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean-) | 设置一个布尔值，指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
-| [setColorMode(int value)](#setColorMode-int-) | 设置一个值来确定如何呈现颜色。 |
+| [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean-) | 设置一个布尔值，指示在保存文档时在文档中嵌入 TrueType 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
+| [setColorMode(int value)](#setColorMode-int-) | 设置确定颜色呈现方式的值。 |
 | [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String-) | 设置默认模板的路径（包括文件名）。 |
 | [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int-) | 设置确定如何渲染 3D 效果的值。 |
 | [setDmlEffectsRenderingMode(int value)](#setDmlEffectsRenderingMode-int-) | 设置一个值，确定如何呈现 DrawingML 效果。 |
 | [setDmlRenderingMode(int value)](#setDmlRenderingMode-int-) | 设置一个值，确定如何呈现 DrawingML 形状。 |
-| [setExportGeneratorName(boolean value)](#setExportGeneratorName-boolean-) | 如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。 |
+| [setExportGeneratorName(boolean value)](#setExportGeneratorName-boolean-) | 当为真时，导致 Aspose.Words 的名称和版本被嵌入到生成的文件中。 |
 | [setGraphicsQualityOptions(GraphicsQualityOptions value)](#setGraphicsQualityOptions-com.aspose.words.GraphicsQualityOptions-) | 允许为 java.awt.Graphics2D 对象指定渲染模式和质量。 |
 | [setHorizontalResolution(float value)](#setHorizontalResolution-float-) | 设置生成图像的水平分辨率，以每英寸点数为单位。 |
 | [setImageBrightness(float value)](#setImageBrightness-float-) | 设置生成图像的亮度。 |
-| [setImageColorMode(int value)](#setImageColorMode-int-) | 设置生成图像的颜色模式。 |
+| [setImageColorMode(int value)](#setImageColorMode-int-) | 为生成的图像设置颜色模式。 |
 | [setImageContrast(float value)](#setImageContrast-float-) | 设置生成图像的对比度。 |
 | [setImlRenderingMode(int value)](#setImlRenderingMode-int-) | 设置一个值，确定如何呈现墨水 (InkML) 对象。 |
 | [setJpegQuality(int value)](#setJpegQuality-int-) | 设置确定生成的 JPEG 图像质量的值。 |
 | [setMemoryOptimization(boolean value)](#setMemoryOptimization-boolean-) | 设置值确定是否应在保存文档之前执行内存优化。 |
-| [setMetafileRenderingOptions(MetafileRenderingOptions value)](#setMetafileRenderingOptions-com.aspose.words.MetafileRenderingOptions-) | 允许指定元文件渲染选项。 |
+| [setMetafileRenderingOptions(MetafileRenderingOptions value)](#setMetafileRenderingOptions-com.aspose.words.MetafileRenderingOptions-) | 允许指定图元文件渲染选项。 |
 | [setNumeralFormat(int value)](#setNumeralFormat-int-) | 套[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。 |
 | [setOptimizeOutput(boolean value)](#setOptimizeOutput-boolean-) | Flag 表示是否需要优化输出。 |
-| [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.words.IPageSavingCallback-) | 允许控制将文档导出为固定页面格式时如何保存单独的页面。 |
+| [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.words.IPageSavingCallback-) | 允许控制在将文档导出为固定页面格式时如何保存单独的页面。 |
 | [setPageSet(PageSet value)](#setPageSet-com.aspose.words.PageSet-) | 设置要呈现的页面。 |
 | [setPaperColor(Color value)](#setPaperColor-java.awt.Color-) | 为生成的图像设置背景（纸张）颜色。 |
 | [setPixelFormat(int value)](#setPixelFormat-int-) | 设置生成图像的像素格式。 |
-| [setPrettyFormat(boolean value)](#setPrettyFormat-boolean-) | 如果为 true ，则在适用的情况下输出漂亮的格式。 |
+| [setPrettyFormat(boolean value)](#setPrettyFormat-boolean-) | 当 true 时，漂亮的格式输出适用。 |
 | [setProgressCallback(IDocumentSavingCallback value)](#setProgressCallback-com.aspose.words.IDocumentSavingCallback-) | 在保存文档期间调用并接受有关保存进度的数据。 |
 | [setResolution(float value)](#setResolution-float-) | 为生成的图像设置水平和垂直分辨率，以每英寸点数为单位。 |
-| [setSaveFormat(int value)](#setSaveFormat-int-) | 如果使用此保存选项对象，则指定保存呈现的文档页面或形状的格式。 |
+| [setSaveFormat(int value)](#setSaveFormat-int-) | 如果使用此保存选项对象，指定保存呈现的文档页面或形状的格式。 |
 | [setScale(float value)](#setScale-float-) | 设置生成图像的缩放系数。 |
 | [setTempFolder(String value)](#setTempFolder-java.lang.String-) | 指定保存到 DOC 或 DOCX 文件时使用的临时文件的文件夹。 |
 | [setThresholdForFloydSteinbergDithering(byte value)](#setThresholdForFloydSteinbergDithering-byte-) | 设置确定 Floyd-Steinberg 方法中二值化误差值的阈值。 |
-| [setTiffBinarization方法(int value)](#setTiffBinarization方法-int-) | 设置将图像转换为 1 bpp 格式时使用的方法[getSaveFormat()](../../com.aspose.words/imagesaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions\#setSaveFormat-int-)是 SaveFormat.Tiff 和[getTiffCompression()](../../com.aspose.words/imagesaveoptions\#getTiffCompression--) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions\#setTiffCompression-int-)等于 TiffCompression.Ccitt3 或 TiffCompression.Ccitt4。 |
+| [setTiffBinarizationMethod(int value)](#setTiffBinarizationMethod-int-) | 设置将图像转换为 1 bpp 格式时使用的方法[getSaveFormat()](../../com.aspose.words/imagesaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions\#setSaveFormat-int-)是 SaveFormat.Tiff 和[getTiffCompression()](../../com.aspose.words/imagesaveoptions\#getTiffCompression--) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions\#setTiffCompression-int-)等于 TiffCompression.Ccitt3 或 TiffCompression.Ccitt4。 |
 | [setTiffCompression(int value)](#setTiffCompression-int-) | 设置将生成的图像保存为 TIFF 格式时应用的压缩类型。 |
 | [setUpdateCreatedTimeProperty(boolean value)](#setUpdateCreatedTimeProperty-boolean-) | 设置一个值，确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。 |
 | [setUpdate字段(boolean value)](#setUpdate字段-boolean-) | 设置一个值，确定在将文档保存为固定页面格式之前是否应更新某些类型的字段。 |
@@ -168,7 +168,7 @@ public ImageSaveOptions deepClone()
 ```
 
 
-创建此对象的深层克隆。
+创建此对象的深度克隆。
 
 **退货:**
 [ImageSaveOptions](../../com.aspose.words/imagesaveoptions)
@@ -193,34 +193,34 @@ public boolean getAllowEmbeddingPostScriptFonts()
 ```
 
 
-获取一个布尔值，该值指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。默认值为**false**.
+获取一个布尔值，指示在保存文档时在文档中嵌入 TrueType 字体时是否允许嵌入带有 PostScript 轮廓的字体。默认值为**false**.
 
-请注意，Word 不嵌入 PostScript 字体，但可以打开嵌入了这种类型字体的文档。
+请注意，Word 不嵌入 PostScript 字体，但可以打开带有此类嵌入字体的文档。
 
-此选项仅在以下情况下有效[FontInfoCollection.getEmbedTrue类型Fonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrue类型Fonts--) / [FontInfoCollection.setEmbedTrue类型Fonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrue类型Fonts-boolean-)的[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--)属性设置为 true 。
-
-**退货:**
-boolean - 一个布尔值，指示在保存文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。
-### get班级() {#get班级--}
-```
-public final native 班级<?> get班级()
-```
-
-
-
+此选项仅在[FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-)的[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--)属性设置为 true 。
 
 **退货:**
-java.lang.班级<?>
+boolean - 一个布尔值，指示在保存文档时是否允许在文档中嵌入 TrueType 字体时嵌入具有 PostScript 轮廓的字体。
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**退货:**
+java.lang.Class<?>
 ### getColorMode() {#getColorMode--}
 ```
 public int getColorMode()
 ```
 
 
-获取一个值，该值确定如何呈现颜色。默认值为[ColorMode.NORMAL](../../com.aspose.words/colormode\#NORMAL).
+获取确定颜色呈现方式的值。默认值为[ColorMode.NORMAL](../../com.aspose.words/colormode\#NORMAL).
 
 **退货:**
-int - 确定颜色如何呈现的值。返回值是以下之一[ColorMode](../../com.aspose.words/colormode)常数。
+int - 确定颜色呈现方式的值。返回值是以下之一[ColorMode](../../com.aspose.words/colormode)常数。
 ### getDefaultTemplate() {#getDefaultTemplate--}
 ```
 public String getDefaultTemplate()
@@ -237,41 +237,41 @@ public int getDml3DEffectsRenderingMode()
 ```
 
 
-获取确定如何渲染 3D 效果的值。默认值为[Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC).
+获取确定如何呈现 3D 效果的值。默认值为[Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC).
 
 **退货:**
-int - 确定如何渲染 3D 效果的值。返回值是以下之一[Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode)常数。
+int - 决定如何呈现 3D 效果的值。返回值是其中之一[Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode)常数。
 ### getDmlEffectsRenderingMode() {#getDmlEffectsRenderingMode--}
 ```
 public int getDmlEffectsRenderingMode()
 ```
 
 
-获取一个值，该值确定如何呈现 DrawingML 效果。默认值为[DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED).
+获取确定如何呈现 DrawingML 效果的值。默认值为[DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED).
 
 当文档导出为固定页面格式时使用此属性。
 
 **退货:**
- int - 确定如何呈现 DrawingML 效果的值。返回值是以下之一[DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode)常数。
+ int - 确定如何呈现 DrawingML 效果的值。返回值是其中之一[DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode)常数。
 ### getDmlRenderingMode() {#getDmlRenderingMode--}
 ```
 public int getDmlRenderingMode()
 ```
 
 
-获取一个值，该值确定如何呈现 DrawingML 形状。默认值为[DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode\#FALLBACK).
+获取确定如何呈现 DrawingML 形状的值。默认值为[DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode\#FALLBACK).
 
 当文档导出为固定页面格式时使用此属性。
 
 **退货:**
-int - 确定如何呈现 DrawingML 形状的值。返回值是以下之一[DmlRenderingMode](../../com.aspose.words/dmlrenderingmode)常数。
+int - 确定 DrawingML 形状如何呈现的值。返回值是其中之一[DmlRenderingMode](../../com.aspose.words/dmlrenderingmode)常数。
 ### getExportGeneratorName() {#getExportGeneratorName--}
 ```
 public boolean getExportGeneratorName()
 ```
 
 
-如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。默认值为**true**.
+当为真时，导致 Aspose.Words 的名称和版本被嵌入到生成的文件中。默认值为**true**.
 
 **退货:**
 boolean - 对应的布尔值。
@@ -351,12 +351,12 @@ public int getImlRenderingMode()
 ```
 
 
-获取一个值，该值确定如何呈现墨迹 (InkML) 对象。默认值为[ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
+获取确定如何呈现墨迹 (InkML) 对象的值。默认值为[ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
 
 当文档导出为固定页面格式时使用此属性。
 
 **退货:**
-int - 确定如何呈现墨水 (InkML) 对象的值。返回值是以下之一[ImlRenderingMode](../../com.aspose.words/imlrenderingmode)常数。
+int - 确定如何呈现墨迹 (InkML) 对象的值。返回值是其中之一[ImlRenderingMode](../../com.aspose.words/imlrenderingmode)常数。
 ### getJpegQuality() {#getJpegQuality--}
 ```
 public int getJpegQuality()
@@ -389,7 +389,7 @@ public MetafileRenderingOptions getMetafileRenderingOptions()
 ```
 
 
-允许指定如何在渲染输出中处理元文件。
+允许指定在渲染输出中如何处理图元文件。
 
 什么时候[MetafileRenderingMode.VECTOR](../../com.aspose.words/metafilerenderingmode\#VECTOR)指定时，Aspose.Words 先使用自己的图元文件渲染引擎将图元文件渲染为矢量图形，然后再将矢量图形渲染为图像。
 
@@ -410,7 +410,7 @@ public int getNumeralFormat()
 获取[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。默认使用欧洲数字。如果此属性的值已更改且页面布局已构建，则[Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--)自动调用以更新任何更改。
 
 **退货:**
-诠释 -\{[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。返回值是以下之一[NumeralFormat](../../com.aspose.words/numeralformat)常数。
+整数 -\{[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。返回值是以下之一[NumeralFormat](../../com.aspose.words/numeralformat)常数。
 ### getOptimizeOutput() {#getOptimizeOutput--}
 ```
 public boolean getOptimizeOutput()
@@ -427,7 +427,7 @@ public IPageSavingCallback getPageSavingCallback()
 ```
 
 
-允许控制将文档导出为固定页面格式时如何保存单独的页面。
+允许控制在将文档导出为固定页面格式时如何保存单独的页面。
 
 **退货:**
 [IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) - 相应的[IPageSavingCallback](../../com.aspose.words/ipagesavingcallback)价值。
@@ -545,33 +545,33 @@ public byte getThresholdForFloydSteinbergDithering()
 ```
 
 
-获取确定 Floyd-Steinberg 方法中二值化误差值的阈值。什么时候[ImageBinarization方法](../../com.aspose.words/imagebinarizationmethod)是 ImageBinarization方法.FloydSteinbergDithering。
+获取确定 Floyd-Steinberg 方法中二值化误差值的阈值。什么时候[ImageBinarizationMethod](../../com.aspose.words/imagebinarizationmethod)是 ImageBinarizationMethod.FloydSteinbergDithering。
 
 默认值为 128。
 
 **退货:**
 byte - 确定 Floyd-Steinberg 方法中二值化误差值的阈值。
-### getTiffBinarization方法() {#getTiffBinarization方法--}
+### getTiffBinarizationMethod() {#getTiffBinarizationMethod--}
 ```
-public int getTiffBinarization方法()
+public int getTiffBinarizationMethod()
 ```
 
 
 获取将图像转换为 1 bpp 格式时使用的方法[getSaveFormat()](../../com.aspose.words/imagesaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions\#setSaveFormat-int-)是 SaveFormat.Tiff 和[getTiffCompression()](../../com.aspose.words/imagesaveoptions\#getTiffCompression--) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions\#setTiffCompression-int-)等于 TiffCompression.Ccitt3 或 TiffCompression.Ccitt4。
 
-默认值为 ImageBinarization方法.Threshold。
+默认值为 ImageBinarizationMethod.Threshold。
 
 **退货:**
-int - 将图像转换为 1 bpp 格式时使用的方法[getSaveFormat()](../../com.aspose.words/imagesaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions\#setSaveFormat-int-)是 SaveFormat.Tiff 和[getTiffCompression()](../../com.aspose.words/imagesaveoptions\#getTiffCompression--) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions\#setTiffCompression-int-)等于 TiffCompression.Ccitt3 或 TiffCompression.Ccitt4。返回值是以下之一[ImageBinarization方法](../../com.aspose.words/imagebinarizationmethod)常数。
+int - 将图像转换为 1 bpp 格式时使用的方法[getSaveFormat()](../../com.aspose.words/imagesaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions\#setSaveFormat-int-)是 SaveFormat.Tiff 和[getTiffCompression()](../../com.aspose.words/imagesaveoptions\#getTiffCompression--) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions\#setTiffCompression-int-)等于 TiffCompression.Ccitt3 或 TiffCompression.Ccitt4。返回值是以下之一[ImageBinarizationMethod](../../com.aspose.words/imagebinarizationmethod)常数。
 ### getTiffCompression() {#getTiffCompression--}
 ```
 public int getTiffCompression()
 ```
 
 
-获取将生成的图像保存为 TIFF 格式时应用的压缩类型。
+获取将生成的图像保存为 TIFF 格式时要应用的压缩类型。
 
-仅在保存到 TIFF 时有效。
+仅在保存为 TIFF 时有效。
 
 默认值为[TiffCompression.CCITT\_4](../../com.aspose.words/tiffcompression\#CCITT-4).
 
@@ -640,39 +640,39 @@ public boolean getUseAntiAliasing()
 当文档导出为以下格式时使用此属性：[SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF) .当文档导出到[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB)和[SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3)格式 此选项用于光栅图像。
 
 **退货:**
-boolean - 确定是否使用抗锯齿进行渲染的值。
+布尔值 - 确定是否使用抗锯齿进行渲染的值。
 ### getUseGdiEmfRenderer() {#getUseGdiEmfRenderer--}
 ```
 public boolean getUseGdiEmfRenderer()
 ```
 
 
-获取一个值，用于确定在保存到 EMF 时是使用 GDI+ 还是 Aspose.Words 图元文件渲染器。
+获取一个值，确定在保存到 EMF 时是使用 GDI+ 还是 Aspose.Words 图元文件渲染器。
 
-如果设置为 true，则使用 GDI+ 图元文件渲染器。即内容写入 GDI+ 图形对象并保存到元文件。
+如果设置为真，则使用 GDI+ 图元文件渲染器。即内容写入 GDI+ 图形对象并保存到图元文件。
 
-如果设置为 false，则使用 Aspose.Words 图元文件渲染器。即内容使用Aspose.Words 直接写入元文件格式。
+如果设置为 false，则使用 Aspose.Words 图元文件渲染器。即内容直接写入元文件格式与Aspose.Words。
 
-仅在保存到 EMF 时有效。
+仅在保存为 EMF 时有效。
 
 GDI+ 保存仅适用于 .NET。
 
 默认值是true 。
 
 **退货:**
-boolean - 一个值，用于确定在保存到 EMF 时是否使用 GDI+ 或 Aspose.Words 图元文件渲染器。
+boolean - 一个值，决定在保存到 EMF 时是使用 GDI+ 还是 Aspose.Words 图元文件渲染器。
 ### getUseHighQualityRendering() {#getUseHighQualityRendering--}
 ```
 public boolean getUseHighQualityRendering()
 ```
 
 
-获取确定是否使用高质量（即慢速）渲染算法的值。默认值为 false 。
+获取一个值，该值确定是否使用高质量（即慢速）渲染算法。默认值为 false 。
 
 当文档导出为图像格式时使用此属性：[SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF).
 
 **退货:**
-boolean - 确定是否使用高质量的值（即
+布尔值 - 确定是否使用高质量的值（即
 ### getVerticalResolution() {#getVerticalResolution--}
 ```
 public float getVerticalResolution()
@@ -719,16 +719,16 @@ public void setAllowEmbeddingPostScriptFonts(boolean value)
 ```
 
 
-设置一个布尔值，指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。默认值为**false**.
+设置一个布尔值，指示在保存文档时在文档中嵌入 TrueType 字体时是否允许嵌入带有 PostScript 轮廓的字体。默认值为**false**.
 
-请注意，Word 不嵌入 PostScript 字体，但可以打开嵌入了这种类型字体的文档。
+请注意，Word 不嵌入 PostScript 字体，但可以打开带有此类嵌入字体的文档。
 
-此选项仅在以下情况下有效[FontInfoCollection.getEmbedTrue类型Fonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrue类型Fonts--) / [FontInfoCollection.setEmbedTrue类型Fonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrue类型Fonts-boolean-)的[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--)属性设置为 true 。
+此选项仅在[FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-)的[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--)属性设置为 true 。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 一个布尔值，指示当在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
+| value | boolean | 保存一个布尔值，指示在文档中嵌入 TrueType 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
 
 ### setColorMode(int value) {#setColorMode-int-}
 ```
@@ -741,7 +741,7 @@ public void setColorMode(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 确定如何呈现颜色的值。该值必须是以下之一[ColorMode](../../com.aspose.words/colormode)常数。 |
+| value | int | 确定如何呈现颜色的值。该值必须是其中之一[ColorMode](../../com.aspose.words/colormode)常数。 |
 
 ### setDefaultTemplate(String value) {#setDefaultTemplate-java.lang.String-}
 ```
@@ -749,7 +749,7 @@ public void setDefaultTemplate(String value)
 ```
 
 
-设置默认模板的路径（包括文件名）。此属性的默认值为**empty string**.如果指定，此路径用于加载模板时[Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles--) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean-)是真的，但是[Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-)是空的。
+将路径设置为默认模板（包括文件名）。此属性的默认值为**empty string**.如果指定，此路径用于加载模板时[Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles--) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean-)是真的，但是[Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-)是空的。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -767,7 +767,7 @@ public void setDml3DEffectsRenderingMode(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 确定如何渲染 3D 效果的值。该值必须是以下之一[Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode)常数。 |
+| value | int | 确定如何渲染 3D 效果的值。该值必须是其中之一[Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode)常数。 |
 
 ### setDmlEffectsRenderingMode(int value) {#setDmlEffectsRenderingMode-int-}
 ```
@@ -782,7 +782,7 @@ public void setDmlEffectsRenderingMode(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 确定如何呈现 DrawingML 效果的值。该值必须是以下之一[DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode)常数。 |
+| value | int | 确定如何呈现 DrawingML 效果的值。该值必须是其中之一[DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode)常数。 |
 
 ### setDmlRenderingMode(int value) {#setDmlRenderingMode-int-}
 ```
@@ -797,7 +797,7 @@ public void setDmlRenderingMode(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 确定如何呈现 DrawingML 形状的值。该值必须是以下之一[DmlRenderingMode](../../com.aspose.words/dmlrenderingmode)常数。 |
+| value | int | 确定如何呈现 DrawingML 形状的值。该值必须是其中之一[DmlRenderingMode](../../com.aspose.words/dmlrenderingmode)常数。 |
 
 ### setExportGeneratorName(boolean value) {#setExportGeneratorName-boolean-}
 ```
@@ -805,7 +805,7 @@ public void setExportGeneratorName(boolean value)
 ```
 
 
-如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。默认值为**true**.
+当为真时，导致 Aspose.Words 的名称和版本被嵌入到生成的文件中。默认值为**true**.
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -869,7 +869,7 @@ public void setImageColorMode(int value)
 ```
 
 
-设置生成图像的颜色模式。
+为生成的图像设置颜色模式。
 
 此属性仅在保存为光栅图像格式时有效。
 
@@ -878,7 +878,7 @@ public void setImageColorMode(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 生成图像的颜色模式。该值必须是以下之一[ImageColorMode](../../com.aspose.words/imagecolormode)常数。 |
+| value | int | 生成图像的颜色模式。该值必须是其中之一[ImageColorMode](../../com.aspose.words/imagecolormode)常数。 |
 
 ### setImageContrast(float value) {#setImageContrast-float-}
 ```
@@ -910,7 +910,7 @@ public void setImlRenderingMode(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 确定如何呈现墨水 (InkML) 对象的值。该值必须是以下之一[ImlRenderingMode](../../com.aspose.words/imlrenderingmode)常数。 |
+| value | int | 确定如何呈现墨水 (InkML) 对象的值。该值必须是其中之一[ImlRenderingMode](../../com.aspose.words/imlrenderingmode)常数。 |
 
 ### setJpegQuality(int value) {#setJpegQuality-int-}
 ```
@@ -950,7 +950,7 @@ public void setMetafileRenderingOptions(MetafileRenderingOptions value)
 ```
 
 
-允许指定元文件渲染选项。
+允许指定图元文件渲染选项。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -968,7 +968,7 @@ public void setNumeralFormat(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | \{[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。该值必须是以下之一[NumeralFormat](../../com.aspose.words/numeralformat)常数。 |
+| value | int | \{[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。该值必须是其中之一[NumeralFormat](../../com.aspose.words/numeralformat)常数。 |
 
 ### setOptimizeOutput(boolean value) {#setOptimizeOutput-boolean-}
 ```
@@ -989,7 +989,7 @@ public void setPageSavingCallback(IPageSavingCallback value)
 ```
 
 
-允许控制将文档导出为固定页面格式时如何保存单独的页面。
+允许控制在将文档导出为固定页面格式时如何保存单独的页面。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -1045,7 +1045,7 @@ public void setPixelFormat(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 生成图像的像素格式。该值必须是以下之一[ImagePixelFormat](../../com.aspose.words/imagepixelformat)常数。 |
+| value | int | 生成图像的像素格式。该值必须是其中之一[ImagePixelFormat](../../com.aspose.words/imagepixelformat)常数。 |
 
 ### setPrettyFormat(boolean value) {#setPrettyFormat-boolean-}
 ```
@@ -1149,7 +1149,7 @@ public void setThresholdForFloydSteinbergDithering(byte value)
 ```
 
 
-设置确定 Floyd-Steinberg 方法中二值化误差值的阈值。什么时候[ImageBinarization方法](../../com.aspose.words/imagebinarizationmethod)是 ImageBinarization方法.FloydSteinbergDithering。
+设置确定 Floyd-Steinberg 方法中二值化误差值的阈值。什么时候[ImageBinarizationMethod](../../com.aspose.words/imagebinarizationmethod)是 ImageBinarizationMethod.FloydSteinbergDithering。
 
 默认值为 128。
 
@@ -1158,20 +1158,20 @@ public void setThresholdForFloydSteinbergDithering(byte value)
 | --- | --- | --- |
 | value | byte | 确定 Floyd-Steinberg 方法中二值化误差值的阈值。 |
 
-### setTiffBinarization方法(int value) {#setTiffBinarization方法-int-}
+### setTiffBinarizationMethod(int value) {#setTiffBinarizationMethod-int-}
 ```
-public void setTiffBinarization方法(int value)
+public void setTiffBinarizationMethod(int value)
 ```
 
 
 设置将图像转换为 1 bpp 格式时使用的方法[getSaveFormat()](../../com.aspose.words/imagesaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions\#setSaveFormat-int-)是 SaveFormat.Tiff 和[getTiffCompression()](../../com.aspose.words/imagesaveoptions\#getTiffCompression--) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions\#setTiffCompression-int-)等于 TiffCompression.Ccitt3 或 TiffCompression.Ccitt4。
 
-默认值为 ImageBinarization方法.Threshold。
+默认值为 ImageBinarizationMethod.Threshold。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 将图像转换为 1 bpp 格式时使用的方法[getSaveFormat()](../../com.aspose.words/imagesaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions\#setSaveFormat-int-)是 SaveFormat.Tiff 和[getTiffCompression()](../../com.aspose.words/imagesaveoptions\#getTiffCompression--) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions\#setTiffCompression-int-)等于 TiffCompression.Ccitt3 或 TiffCompression.Ccitt4。该值必须是以下之一[ImageBinarization方法](../../com.aspose.words/imagebinarizationmethod)常数。 |
+| value | int | 将图像转换为 1 bpp 格式时使用的方法[getSaveFormat()](../../com.aspose.words/imagesaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions\#setSaveFormat-int-)是 SaveFormat.Tiff 和[getTiffCompression()](../../com.aspose.words/imagesaveoptions\#getTiffCompression--) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions\#setTiffCompression-int-)等于 TiffCompression.Ccitt3 或 TiffCompression.Ccitt4。该值必须是其中之一[ImageBinarizationMethod](../../com.aspose.words/imagebinarizationmethod)常数。 |
 
 ### setTiffCompression(int value) {#setTiffCompression-int-}
 ```
@@ -1181,14 +1181,14 @@ public void setTiffCompression(int value)
 
 设置将生成的图像保存为 TIFF 格式时应用的压缩类型。
 
-仅在保存到 TIFF 时有效。
+仅在保存为 TIFF 时有效。
 
 默认值为[TiffCompression.CCITT\_4](../../com.aspose.words/tiffcompression\#CCITT-4).
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 将生成的图像保存为 TIFF 格式时应用的压缩类型。该值必须是以下之一[TiffCompression](../../com.aspose.words/tiffcompression)常数。 |
+| value | int | 将生成的图像保存为 TIFF 格式时应用的压缩类型。该值必须是其中之一[TiffCompression](../../com.aspose.words/tiffcompression)常数。 |
 
 ### setUpdateCreatedTimeProperty(boolean value) {#setUpdateCreatedTimeProperty-boolean-}
 ```
@@ -1253,7 +1253,7 @@ public void setUpdateSdtContent(boolean value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 价值决定内容是否[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。 |
+| value | boolean | 值决定是否内容[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。 |
 
 ### setUseAntiAliasing(boolean value) {#setUseAntiAliasing-boolean-}
 ```
@@ -1280,11 +1280,11 @@ public void setUseGdiEmfRenderer(boolean value)
 
 设置一个值，确定在保存到 EMF 时是否使用 GDI+ 或 Aspose.Words 图元文件渲染器。
 
-如果设置为 true，则使用 GDI+ 图元文件渲染器。即内容写入 GDI+ 图形对象并保存到元文件。
+如果设置为真，则使用 GDI+ 图元文件渲染器。即内容写入 GDI+ 图形对象并保存到图元文件。
 
-如果设置为 false，则使用 Aspose.Words 图元文件渲染器。即内容使用Aspose.Words 直接写入元文件格式。
+如果设置为 false，则使用 Aspose.Words 图元文件渲染器。即内容直接写入元文件格式与Aspose.Words。
 
-仅在保存到 EMF 时有效。
+仅在保存为 EMF 时有效。
 
 GDI+ 保存仅适用于 .NET。
 
@@ -1301,14 +1301,14 @@ public void setUseHighQualityRendering(boolean value)
 ```
 
 
-设置一个值来确定是否使用高质量（即慢速）渲染算法。默认值为 false 。
+设置一个值以确定是否使用高质量（即慢速）渲染算法。默认值为 false 。
 
 当文档导出为图像格式时使用此属性：[SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF).
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 决定是否使用高质量的值（即 |
+| value | boolean | 确定是否使用高质量的值（即 |
 
 ### setVerticalResolution(float value) {#setVerticalResolution-float-}
 ```

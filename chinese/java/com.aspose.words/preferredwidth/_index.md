@@ -1,6 +1,6 @@
 ---
 title: PreferredWidth
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示一个值及其度量单位，用于指定表格或单元格的首选宽度。
 type: docs
 weight: 466
@@ -22,7 +22,7 @@ public class PreferredWidth
 这个类的实例是不可变的。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [AUTO](#AUTO) | 返回一个表示“未指定首选宽度”值的实例。 |
 ## 方法
@@ -33,8 +33,8 @@ public class PreferredWidth
 | [equals(Object obj)](#equals-java.lang.Object-) | 确定指定对象的值是否与当前对象相等。 |
 | [fromPercent(double percent)](#fromPercent-double-) | 一种创建方法，它返回一个新实例，该实例表示以百分比指定的首选宽度。 |
 | [fromPoints(double points)](#fromPoints-double-) | 一种创建方法，它返回一个新实例，该实例表示使用多个点指定的首选宽度。 |
-| [get班级()](#get班级--) |  |
-| [get类型()](#get类型--) | 获取用于此首选宽度值的度量单位。 |
+| [getClass()](#getClass--) |  |
+| [getType()](#getType--) | 获取用于此首选宽度值的度量单位。 |
 | [getValue()](#getValue--) | 获取首选宽度值。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -111,33 +111,33 @@ public static PreferredWidth fromPoints(double points)
 
 **退货:**
 [PreferredWidth](../../com.aspose.words/preferredwidth)
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### get类型() {#get类型--}
+java.lang.Class<?>
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
 获取用于此首选宽度值的度量单位。
 
 **退货:**
- int - 用于此首选宽度值的度量单位。返回值是以下之一[PreferredWidth类型](../../com.aspose.words/preferredwidthtype)常数。
+ int - 用于此首选宽度值的度量单位。返回值是以下之一[PreferredWidthType](../../com.aspose.words/preferredwidthtype)常数。
 ### getValue() {#getValue--}
 ```
 public double getValue()
 ```
 
 
-获取首选宽度值。计量单位在[get类型()](../../com.aspose.words/preferredwidth\#get类型--)财产。
+获取首选宽度值。计量单位在[getType()](../../com.aspose.words/preferredwidth\#getType--)财产。
 
 **退货:**
 double - 首选宽度值。

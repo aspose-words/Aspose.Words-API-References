@@ -1,6 +1,6 @@
 ---
 title: LegendPosition
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定图表图例的可能位置。
 type: docs
 weight: 363
@@ -16,7 +16,7 @@ public class LegendPosition
 指定图表图例的可能位置。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BOTTOM](#BOTTOM) | 指定应在图表底部绘制图例。 |
 | [LEFT](#LEFT) | 指定图例应绘制在图表的左侧。 |
@@ -31,7 +31,7 @@ public class LegendPosition
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String legendPositionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int legendPosition)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -126,16 +126,16 @@ public static int fromName(String legendPositionName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int legendPosition) {#getName-int-}
 ```
 public static String getName(int legendPosition)

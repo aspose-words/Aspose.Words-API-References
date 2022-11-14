@@ -1,6 +1,6 @@
 ---
 title: MailMerge
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示邮件合并功能。
 type: docs
 weight: 379
@@ -46,13 +46,13 @@ public class MailMerge
 | [executeWithRegions(System.Data.DataTable dataTable)](#executeWithRegions-com.aspose.words.net.System.Data.DataTable-) | 执行从 DataTable 到具有邮件合并区域的文档的邮件合并。 |
 | [executeWithRegions(System.Data.DataView dataView)](#executeWithRegions-com.aspose.words.net.System.Data.DataView-) | 执行从 DataView 到具有邮件合并区域的文档的邮件合并。 |
 | [executeWithRegions(System.Data.IDataReader dataReader, String tableName)](#executeWithRegions-com.aspose.words.net.System.Data.IDataReader-java.lang.String-) | 执行从 IDataReader 到具有邮件合并区域的文档的邮件合并。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCleanupOptions()](#getCleanupOptions--) | 获取一组标志，这些标志指定在邮件合并期间应删除哪些项目。 |
 | [getCleanupParagraphsWithPunctuationMarks()](#getCleanupParagraphsWithPunctuationMarks--) | 获取一个值，该值指示带有标点符号的段落是否被视为空，如果[MailMergeCleanupOptions.REMOVE\_EMPTY\_PARAGRAPHS](../../com.aspose.words/mailmergecleanupoptions\#REMOVE-EMPTY-PARAGRAPHS)选项被指定。 |
-| [get字段MergingCallback()](#get字段MergingCallback--) | 当在文档中遇到邮件合并字段时，在邮件合并期间发生。 |
-| [get字段Names()](#get字段Names--) | 返回文档中可用的邮件合并字段名称的集合。 |
-| [get字段NamesForRegion(String regionName)](#get字段NamesForRegion-java.lang.String-) | 从区域获取邮件合并字段名称。 |
-| [get字段NamesForRegion(String regionName, int regionIndex)](#get字段NamesForRegion-java.lang.String-int-) | 返回区域中可用的邮件合并字段名称的集合。 |
+| [getFieldMergingCallback()](#getFieldMergingCallback--) | 当在文档中遇到邮件合并字段时，在邮件合并期间发生。 |
+| [getFieldNames()](#getFieldNames--) | 返回文档中可用的邮件合并字段名称的集合。 |
+| [getFieldNamesForRegion(String regionName)](#getFieldNamesForRegion-java.lang.String-) | 从区域获取邮件合并字段名称。 |
+| [getFieldNamesForRegion(String regionName, int regionIndex)](#getFieldNamesForRegion-java.lang.String-int-) | 返回区域中可用的邮件合并字段名称的集合。 |
 | [getMailMergeCallback()](#getMailMergeCallback--) | 允许在邮件合并期间处理特定事件。 |
 | [getMappedData字段()](#getMappedData字段--) | 返回一个集合，该集合表示邮件合并操作的映射数据字段。 |
 | [getMergeDuplicateRegions()](#getMergeDuplicateRegions--) | 获取一个值，该值指示在针对数据源执行与区域的邮件合并时，是否应合并具有数据源名称的所有文档邮件合并区域，还是仅合并第一个。 |
@@ -73,7 +73,7 @@ public class MailMerge
 | [notifyAll()](#notifyAll--) |  |
 | [setCleanupOptions(int value)](#setCleanupOptions-int-) | 设置一组标志，指定在邮件合并期间应删除哪些项目。 |
 | [setCleanupParagraphsWithPunctuationMarks(boolean value)](#setCleanupParagraphsWithPunctuationMarks-boolean-) | 设置一个值，指示带有标点符号的段落是否被视为空，如果[MailMergeCleanupOptions.REMOVE\_EMPTY\_PARAGRAPHS](../../com.aspose.words/mailmergecleanupoptions\#REMOVE-EMPTY-PARAGRAPHS)选项被指定。 |
-| [set字段MergingCallback(I字段MergingCallback value)](#set字段MergingCallback-com.aspose.words.I字段MergingCallback-) | 当在文档中遇到邮件合并字段时，在邮件合并期间发生。 |
+| [setFieldMergingCallback(IFieldMergingCallback value)](#setFieldMergingCallback-com.aspose.words.IFieldMergingCallback-) | 当在文档中遇到邮件合并字段时，在邮件合并期间发生。 |
 | [setMailMergeCallback(IMailMergeCallback value)](#setMailMergeCallback-com.aspose.words.IMailMergeCallback-) | 允许在邮件合并期间处理特定事件。 |
 | [setMergeDuplicateRegions(boolean value)](#setMergeDuplicateRegions-boolean-) | 设置一个值，该值指示在针对数据源执行与区域的邮件合并时，是否应合并具有数据源名称的所有文档邮件合并区域，还是仅合并第一个。 |
 | [setMergeWholeDocument(boolean value)](#setMergeWholeDocument-boolean-) | 设置一个值，该值指示在执行与区域的邮件合并时是否更新整个文档中的字段。 |
@@ -85,7 +85,7 @@ public class MailMerge
 | [setTrimWhitespaces(boolean value)](#setTrimWhitespaces-boolean-) | 设置一个值，该值指示是否从邮件合并值中修剪尾随和前导空格。 |
 | [setUnconditionalMerge字段AndRegions(boolean value)](#setUnconditionalMerge字段AndRegions-boolean-) | 设置一个值，该值指示是否合并合并字段和合并区域，而不管父 IF 字段的条件如何。 |
 | [setUseNonMerge字段(boolean value)](#setUseNonMerge字段-boolean-) | 当为 true 时，指定除了 MERGEFIELD 字段之外，邮件合并执行到一些其他类型的字段中，也执行到“\{\{字段名\}\}”标签。 |
-| [setUseWholeParagraphAsRegion(boolean value)](#setUseWholeParagraphAsRegion-boolean-) | 设置一个值，该值指示是否应将具有 TableStart 或 TableEnd 字段的整个段落或 TableStart 和 TableEnd 字段之间的特定范围包含到邮件合并区域中。 |
+| [setUseWholeParagraphAsRegion(boolean value)](#setUseWholeParagraphAsRegion-boolean-) | 设置一个值，指示是否应将具有 TableStart 或 TableEnd 字段的整个段落或 TableStart 和 TableEnd 字段之间的特定范围包含到邮件合并区域中。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -127,9 +127,9 @@ public void execute(IMailMergeDataSource dataSource)
 
 使用此方法可以使用来自任何数据源（例如列表或哈希表或对象）的值填充文档中的邮件合并字段。您需要编写自己的类来实现[IMailMergeDataSource](../../com.aspose.words/imailmergedatasource)界面。
 
-您只能在以下情况下使用此方法[字段Options.isBidiTextSupportedOnUpdate()](../../com.aspose.words/fieldoptions\#isBidiTextSupportedOnUpdate--) / [字段Options.isBidiTextSupportedOnUpdate(boolean)](../../com.aspose.words/fieldoptions\#isBidiTextSupportedOnUpdate-boolean-)为假，即您不需要从右到左的语言（如阿拉伯语或希伯来语）兼容性。
+您只能在以下情况下使用此方法[FieldOptions.isBidiTextSupportedOnUpdate()](../../com.aspose.words/fieldoptions\#isBidiTextSupportedOnUpdate--) / [FieldOptions.isBidiTextSupportedOnUpdate(boolean)](../../com.aspose.words/fieldoptions\#isBidiTextSupportedOnUpdate-boolean-)是假的，也就是说你不需要从右到左的语言（如阿拉伯语或希伯来语）兼容性。
 
-此方法忽略[MailMergeCleanupOptions.REMOVE\_UNUSED\_REGIONS](../../com.aspose.words/mailmergecleanupoptions\#REMOVE-UNUSED-REGIONS)选项。
+该方法忽略了[MailMergeCleanupOptions.REMOVE\_UNUSED\_REGIONS](../../com.aspose.words/mailmergecleanupoptions\#REMOVE-UNUSED-REGIONS)选项。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -144,9 +144,9 @@ public void execute(System.Data.DataRow row)
 
 执行从 DataRow 到文档的邮件合并。
 
-使用此方法在文档中的邮件合并字段中填充来自**DataRow**.
+使用此方法用来自 a 的值填充文档中的邮件合并字段**DataRow**.
 
-此方法忽略[MailMergeCleanupOptions.REMOVE\_UNUSED\_REGIONS](../../com.aspose.words/mailmergecleanupoptions\#REMOVE-UNUSED-REGIONS)选项。
+该方法忽略了[MailMergeCleanupOptions.REMOVE\_UNUSED\_REGIONS](../../com.aspose.words/mailmergecleanupoptions\#REMOVE-UNUSED-REGIONS)选项。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -161,7 +161,7 @@ public void execute(System.Data.DataTable table)
 
 将 com.aspose.words.net.System.Data.DataTable 中的邮件合并到文档中。
 
-使用此方法在文档中的邮件合并字段中填充来自**DataTable**.
+使用此方法用来自 a 的值填充文档中的邮件合并字段**DataTable**.
 
 表中的所有记录都合并到文档中。
 
@@ -169,7 +169,7 @@ public void execute(System.Data.DataTable table)
 
 什么时候**MailMerge**对象到达主文档的末尾，并且在**DataTable**，它会复制主文档的全部内容，并使用分节符作为分隔符将其附加到目标文档的末尾。
 
-此方法忽略[MailMergeCleanupOptions.REMOVE\_UNUSED\_REGIONS](../../com.aspose.words/mailmergecleanupoptions\#REMOVE-UNUSED-REGIONS)选项。
+该方法忽略了[MailMergeCleanupOptions.REMOVE\_UNUSED\_REGIONS](../../com.aspose.words/mailmergecleanupoptions\#REMOVE-UNUSED-REGIONS)选项。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -188,7 +188,7 @@ public void execute(System.Data.DataView dataView)
 
 请注意，此方法不使用邮件合并区域，并且对于多个记录，文档将通过重复整个文档来增长。
 
-此方法忽略[MailMergeCleanupOptions.REMOVE\_UNUSED\_REGIONS](../../com.aspose.words/mailmergecleanupoptions\#REMOVE-UNUSED-REGIONS)选项。
+该方法忽略了[MailMergeCleanupOptions.REMOVE\_UNUSED\_REGIONS](../../com.aspose.words/mailmergecleanupoptions\#REMOVE-UNUSED-REGIONS)选项。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -203,11 +203,11 @@ public void execute(System.Data.IDataReader dataReader)
 
 执行从 IDataReader 到文档的邮件合并。
 
-你可以通过**SqlDataReader**或者**OleDbDataReader**对象作为参数传入此方法，因为它们都实现了**IDataReader**界面。
+你可以通过**SqlDataReader**或者**OleDbDataReader**对象作为参数进入此方法，因为它们都实现了**IDataReader**界面。
 
 请注意，此方法不使用邮件合并区域，并且对于多个记录，文档将通过重复整个文档来增长。
 
-此方法忽略[MailMergeCleanupOptions.REMOVE\_UNUSED\_REGIONS](../../com.aspose.words/mailmergecleanupoptions\#REMOVE-UNUSED-REGIONS)选项。
+该方法忽略了[MailMergeCleanupOptions.REMOVE\_UNUSED\_REGIONS](../../com.aspose.words/mailmergecleanupoptions\#REMOVE-UNUSED-REGIONS)选项。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -222,18 +222,18 @@ public void execute(String[] fieldNames, Object[] values)
 
 执行邮件合并操作。对单个记录执行邮件合并操作。
 
-使用此方法可使用对象数组中的值填充文档中的邮件合并字段。
+使用此方法用对象数组中的值填充文档中的邮件合并字段。
 
 此方法仅合并一条记录的数据。字段名称数组和值数组表示单个记录的数据。
 
 此方法不使用邮件合并区域。
 
-此方法忽略[MailMergeCleanupOptions.REMOVE\_UNUSED\_REGIONS](../../com.aspose.words/mailmergecleanupoptions\#REMOVE-UNUSED-REGIONS)选项。
+该方法忽略了[MailMergeCleanupOptions.REMOVE\_UNUSED\_REGIONS](../../com.aspose.words/mailmergecleanupoptions\#REMOVE-UNUSED-REGIONS)选项。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldNames | java.lang.String[] | 合并字段名称的数组。字段名称不区分大小写。如果遇到在文档中未找到的字段名称，则将其忽略。 |
+| fieldNames | java.lang.String[] | 合并字段名称数组。字段名称不区分大小写。如果遇到在文档中找不到的字段名，则忽略它。 |
 | values | java.lang.Object[] | 要插入到合并字段中的值数组。此数组中的元素数必须与 fieldNames 中的元素数相同。 |
 
 ### executeWithRegions(IMailMergeDataSource dataSource) {#executeWithRegions-com.aspose.words.IMailMergeDataSource-}
@@ -246,7 +246,7 @@ public void executeWithRegions(IMailMergeDataSource dataSource)
 
 使用此方法可以使用来自任何自定义数据源（例如 XML 文件或业务对象集合）的值填充文档中的邮件合并字段。您需要编写自己的类来实现[IMailMergeDataSource](../../com.aspose.words/imailmergedatasource)界面。
 
-您只能在以下情况下使用此方法[字段Options.isBidiTextSupportedOnUpdate()](../../com.aspose.words/fieldoptions\#isBidiTextSupportedOnUpdate--) / [字段Options.isBidiTextSupportedOnUpdate(boolean)](../../com.aspose.words/fieldoptions\#isBidiTextSupportedOnUpdate-boolean-)为假，即您不需要从右到左的语言（如阿拉伯语或希伯来语）兼容性。
+您只能在以下情况下使用此方法[FieldOptions.isBidiTextSupportedOnUpdate()](../../com.aspose.words/fieldoptions\#isBidiTextSupportedOnUpdate--) / [FieldOptions.isBidiTextSupportedOnUpdate(boolean)](../../com.aspose.words/fieldoptions\#isBidiTextSupportedOnUpdate-boolean-)是假的，也就是说你不需要从右到左的语言（如阿拉伯语或希伯来语）兼容性。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -263,7 +263,7 @@ public void executeWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 
 使用此方法可以使用来自任何自定义数据源（例如 XML 文件或业务对象集合）的值填充文档中的邮件合并字段。您需要编写自己的类来实现[IMailMergeDataSourceRoot](../../com.aspose.words/imailmergedatasourceroot)和[IMailMergeDataSource](../../com.aspose.words/imailmergedatasource)接口。
 
-您只能在以下情况下使用此方法[字段Options.isBidiTextSupportedOnUpdate()](../../com.aspose.words/fieldoptions\#isBidiTextSupportedOnUpdate--) / [字段Options.isBidiTextSupportedOnUpdate(boolean)](../../com.aspose.words/fieldoptions\#isBidiTextSupportedOnUpdate-boolean-)为假，即您不需要从右到左的语言（如阿拉伯语或希伯来语）兼容性。
+您只能在以下情况下使用此方法[FieldOptions.isBidiTextSupportedOnUpdate()](../../com.aspose.words/fieldoptions\#isBidiTextSupportedOnUpdate--) / [FieldOptions.isBidiTextSupportedOnUpdate(boolean)](../../com.aspose.words/fieldoptions\#isBidiTextSupportedOnUpdate-boolean-)是假的，也就是说你不需要从右到左的语言（如阿拉伯语或希伯来语）兼容性。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -276,27 +276,27 @@ public void executeWithRegions(System.Data.DataSet dataSet)
 ```
 
 
-对具有邮件合并区域的文档执行邮件合并操作。支持父子（主从）数据源和嵌套邮件合并区域。将数据集的邮件合并到具有邮件合并区域的文档中。
+对具有邮件合并区域的文档执行邮件合并操作。支持父子（主从）数据源和嵌套邮件合并区域。执行从 DataSet 到具有邮件合并区域的文档的邮件合并。
 
-使用此方法将邮件从一个或多个表合并到文档中可重复的邮件合并区域。文档内的邮件合并区域将动态增长以容纳相应表中的记录。
+使用此方法将一个或多个表的邮件合并到文档中的可重复邮件合并区域。文档内的邮件合并区域将动态增长以容纳相应表中的记录。
 
-文档必须具有使用引用数据集中表的名称定义的邮件合并区域。
+该文档必须具有使用引用数据集中表的名称定义的邮件合并区域。
 
-要在文档中指定邮件合并区域，您需要插入两个邮件合并字段来标记邮件合并区域的开始和结束。
+要在文档中指定邮件合并区域，您需要插入两个邮件合并字段以标记邮件合并区域的开始和结束。
 
-包含在邮件合并区域内的所有文档内容将针对 DataTable 中的每条记录自动重复。
+对于 DataTable 中的每条记录，邮件合并区域内包含的所有文档内容都将自动重复。
 
-要标记邮件合并区域的开始，请插入名称为 TableStart:MyTable 的 MERGEFIELD，其中 MyTable 对应于 DataSet 中的表名之一。
+要标记邮件合并区域的开始，请插入名称为 TableStart:MyTable 的 MERGEFIELD，其中 MyTable 对应于数据集中的表名之一。
 
-要标记邮件合并区域的结束，请插入另一个名称为 TableEnd:MyTable 的 MERGEFIELD。
+要标记邮件合并区域的结尾，请插入另一个名为 TableEnd:MyTable 的 MERGEFIELD。
 
-要在 Word 中插入 MERGEFIELD，请使用 Insert/字段 命令并选择 Merge字段，然后键入字段名称。
+要在 Word 中插入 MERGEFIELD，请使用插入/字段命令并选择 MergeField，然后键入字段名称。
 
-TableStart 和 TableEnd 字段必须在文档的同一部分内。
+TableStart 和 TableEnd 字段必须位于文档的同一部分内。
 
-如果在表格内使用，TableStart 和 TableEnd 必须在表格的同一行内。
+如果在表内使用，TableStart 和 TableEnd 必须在表的同一行内。
 
-文档中的邮件合并区域应该格式正确（总是需要有一对匹配的 TableStart 和 TableEnd 合并字段具有相同的表名）。
+文档中的邮件合并区域应该格式正确（始终需要一对具有相同表名的匹配 TableStart 和 TableEnd 合并字段）。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -311,12 +311,12 @@ public void executeWithRegions(System.Data.DataTable dataTable)
 
 执行从 DataTable 到具有邮件合并区域的文档的邮件合并。
 
-如果在文档中定义了其他邮件合并区域，它们将保持不变。这允许执行多个邮件合并操作。
+如果文档中定义了其他邮件合并区域，它们将保持原样。这允许执行多个邮件合并操作。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dataTable | [DataTable](../../com.aspose.words.net.system.data/datatable) | 邮件合并操作的数据源。表必须有它的**TableName**属性集。 |
+| dataTable | [DataTable](../../com.aspose.words.net.system.data/datatable) | 邮件合并操作的数据源。该表必须有其**TableName**属性集。 |
 
 ### executeWithRegions(System.Data.DataView dataView) {#executeWithRegions-com.aspose.words.net.System.Data.DataView-}
 ```
@@ -328,9 +328,9 @@ public void executeWithRegions(System.Data.DataView dataView)
 
 如果您将数据检索到**DataTable**但随后需要在邮件合并之前应用过滤器或排序。
 
-文档必须具有定义的邮件合并区域，其名称匹配**DataView.Table.TableName**.
+该文档必须具有一个邮件合并区域，该区域定义的名称匹配**DataView.Table.TableName**.
 
-如果在文档中定义了其他邮件合并区域，它们将保持不变。这允许执行多个邮件合并操作。
+如果文档中定义了其他邮件合并区域，它们将保持原样。这允许执行多个邮件合并操作。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -345,24 +345,24 @@ public void executeWithRegions(System.Data.IDataReader dataReader, String tableN
 
 执行从 IDataReader 到具有邮件合并区域的文档的邮件合并。
 
-你可以通过**SqlDataReader**或者**OleDbDataReader**对象作为参数传入此方法，因为它们都实现了**IDataReader**界面。
+你可以通过**SqlDataReader**或者**OleDbDataReader**对象作为参数进入此方法，因为它们都实现了**IDataReader**界面。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | dataReader | [IDataReader](../../com.aspose.words.net.system.data/idatareader) | 邮件合并的数据记录来源，例如 OleDbDataReader 或 SqlDataReader。 |
-| tableName | java.lang.String | 要填充的文档中邮件合并区域的名称。 |
+| tableName | java.lang.String | 文档中要填充的邮件合并区域的名称。 |
 
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCleanupOptions() {#getCleanupOptions--}
 ```
 public int getCleanupOptions()
@@ -379,54 +379,54 @@ public boolean getCleanupParagraphsWithPunctuationMarks()
 ```
 
 
-获取一个值，该值指示带有标点符号的段落是否被视为空，如果[MailMergeCleanupOptions.REMOVE\_EMPTY\_PARAGRAPHS](../../com.aspose.words/mailmergecleanupoptions\#REMOVE-EMPTY-PARAGRAPHS)选项被指定。默认值是true 。以下是可清洁标点符号的完整列表：
+获取一个值，该值指示带有标点符号的段落是否被视为空，如果[MailMergeCleanupOptions.REMOVE\_EMPTY\_PARAGRAPHS](../../com.aspose.words/mailmergecleanupoptions\#REMOVE-EMPTY-PARAGRAPHS)指定选项。默认值是true 。以下是可清除标点符号的完整列表：
 
  *  ！
  *  ,
  *  .
- *  ：
+ *  :
  *  ;
  *  ?
- *  Ø
- *  Ø
+ *  �
+ *  �
 
 **退货:**
- boolean - 一个值，指示带有标点符号的段落是否被视为空，如果[MailMergeCleanupOptions.REMOVE\_EMPTY\_PARAGRAPHS](../../com.aspose.words/mailmergecleanupoptions\#REMOVE-EMPTY-PARAGRAPHS)选项被指定。
-### get字段MergingCallback() {#get字段MergingCallback--}
+ boolean - 一个值，指示带有标点符号的段落是否被视为空的，如果[MailMergeCleanupOptions.REMOVE\_EMPTY\_PARAGRAPHS](../../com.aspose.words/mailmergecleanupoptions\#REMOVE-EMPTY-PARAGRAPHS)选项被指定。
+### getFieldMergingCallback() {#getFieldMergingCallback--}
 ```
-public I字段MergingCallback get字段MergingCallback()
+public IFieldMergingCallback getFieldMergingCallback()
 ```
 
 
 当在文档中遇到邮件合并字段时，在邮件合并期间发生。
 
 **退货:**
-[I字段MergingCallback](../../com.aspose.words/ifieldmergingcallback) - 相应的[I字段MergingCallback](../../com.aspose.words/ifieldmergingcallback)价值。
-### get字段Names() {#get字段Names--}
+[IFieldMergingCallback](../../com.aspose.words/ifieldmergingcallback) - 相应的[IFieldMergingCallback](../../com.aspose.words/ifieldmergingcallback)价值。
+### getFieldNames() {#getFieldNames--}
 ```
-public String[] get字段Names()
+public String[] getFieldNames()
 ```
 
 
 返回文档中可用的邮件合并字段名称的集合。
 
-返回包含可选前缀的完整合并字段名称。不会消除重复的字段名称。
+返回完整的合并字段名称，包括可选前缀。不消除重复的字段名称。
 
-一个新的字符串[数组在每次调用时创建。
+一个新字符串[数组在每次调用时创建。
 
-包括“mustache”字段名称，如果[getUseNonMerge字段()](../../com.aspose.words/mailmerge\#getUseNonMerge字段--) / [setUseNonMerge字段(boolean)](../../com.aspose.words/mailmerge\#setUseNonMerge字段-boolean-)是**true**.
+包括“小胡子”字段名称，如果[getUseNonMerge字段()](../../com.aspose.words/mailmerge\#getUseNonMerge字段--) / [setUseNonMerge字段(boolean)](../../com.aspose.words/mailmerge\#setUseNonMerge字段-boolean-)是**true**.
 
 **退货:**
 java.lang.String[]
-### get字段NamesForRegion(String regionName) {#get字段NamesForRegion-java.lang.String-}
+### getFieldNamesForRegion(String regionName) {#getFieldNamesForRegion-java.lang.String-}
 ```
-public String[] get字段NamesForRegion(String regionName)
+public String[] getFieldNamesForRegion(String regionName)
 ```
 
 
-从区域获取邮件合并字段名称。返回区域中可用的邮件合并字段名称的集合。
+从区域中获取邮件合并字段名称。返回区域中可用的邮件合并字段名称的集合。
 
-返回包含可选前缀的完整合并字段名称。不会消除重复的字段名称。
+返回完整的合并字段名称，包括可选前缀。不消除重复的字段名称。
 
 如果文档包含多个同名区域，则处理第一个区域。
 
@@ -439,15 +439,15 @@ public String[] get字段NamesForRegion(String regionName)
 
 **退货:**
 java.lang.String[]
-### get字段NamesForRegion(String regionName, int regionIndex) {#get字段NamesForRegion-java.lang.String-int-}
+### getFieldNamesForRegion(String regionName, int regionIndex) {#getFieldNamesForRegion-java.lang.String-int-}
 ```
-public String[] get字段NamesForRegion(String regionName, int regionIndex)
+public String[] getFieldNamesForRegion(String regionName, int regionIndex)
 ```
 
 
 返回区域中可用的邮件合并字段名称的集合。
 
-返回包含可选前缀的完整合并字段名称。不会消除重复的字段名称。
+返回完整的合并字段名称，包括可选前缀。不消除重复的字段名称。
 
 如果文档包含多个同名区域，则处理第 N 个区域（从零开始）。
 
@@ -473,36 +473,36 @@ public IMailMergeCallback getMailMergeCallback()
 [IMailMergeCallback](../../com.aspose.words/imailmergecallback) - 相应的[IMailMergeCallback](../../com.aspose.words/imailmergecallback)价值。
 ### getMappedData字段() {#getMappedData字段--}
 ```
-public MappedData字段Collection getMappedData字段()
+public MappedDataFieldCollection getMappedData字段()
 ```
 
 
 返回一个集合，该集合表示邮件合并操作的映射数据字段。
 
-映射数据字段允许在数据源中的字段名称和文档中邮件合并字段的名称之间自动映射。
+映射数据字段允许在数据源中的字段名称和文档中的邮件合并字段名称之间自动映射。
 
 **退货:**
-[MappedData字段Collection](../../com.aspose.words/mappeddatafieldcollection) - 表示邮件合并操作的映射数据字段的集合。
+[MappedDataFieldCollection](../../com.aspose.words/mappeddatafieldcollection) - 表示邮件合并操作的映射数据字段的集合。
 ### getMergeDuplicateRegions() {#getMergeDuplicateRegions--}
 ```
 public boolean getMergeDuplicateRegions()
 ```
 
 
-获取一个值，该值指示在针对数据源执行与区域的邮件合并时，是否应合并具有数据源名称的所有文档邮件合并区域，还是仅合并第一个。默认值为**false**.
+获取一个值，该值指示在针对数据源或仅第一个区域执行邮件合并时，是否应合并所有具有数据源名称的文档邮件合并区域。默认值为**false**.
 
 **退货:**
-boolean - 一个值，指示在针对数据源执行与区域的邮件合并时，是否应合并具有数据源名称的所有文档邮件合并区域，还是仅合并第一个。
+布尔值 - 一个值，指示在针对数据源或仅第一个区域执行邮件合并时，是否应合并所有具有数据源名称的文档邮件合并区域。
 ### getMergeWholeDocument() {#getMergeWholeDocument--}
 ```
 public boolean getMergeWholeDocument()
 ```
 
 
-获取一个值，该值指示在执行与区域的邮件合并时是否更新整个文档中的字段。默认值为**false**.
+获取一个值，该值指示在执行区域邮件合并时是否更新整个文档中的字段。默认值为**false**.
 
 **退货:**
-boolean - 一个值，指示在执行与区域的邮件合并时是否更新整个文档中的字段。
+布尔值 - 一个值，指示在执行与区域的邮件合并时是否更新整个文档中的字段。
 ### getPreserveUnusedTags() {#getPreserveUnusedTags--}
 ```
 public boolean getPreserveUnusedTags()
@@ -669,7 +669,7 @@ public void setCleanupOptions(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 一组标志，指定在邮件合并期间应删除哪些项目。该值必须是按位组合[MailMergeCleanupOptions](../../com.aspose.words/mailmergecleanupoptions)常数。 |
+| value | int | 一组标志，指定在邮件合并期间应删除哪些项目。该值必须是按位组合的[MailMergeCleanupOptions](../../com.aspose.words/mailmergecleanupoptions)常数。 |
 
 ### setCleanupParagraphsWithPunctuationMarks(boolean value) {#setCleanupParagraphsWithPunctuationMarks-boolean-}
 ```
@@ -677,25 +677,25 @@ public void setCleanupParagraphsWithPunctuationMarks(boolean value)
 ```
 
 
-设置一个值，指示带有标点符号的段落是否被视为空，如果[MailMergeCleanupOptions.REMOVE\_EMPTY\_PARAGRAPHS](../../com.aspose.words/mailmergecleanupoptions\#REMOVE-EMPTY-PARAGRAPHS)选项被指定。默认值是true 。以下是可清洁标点符号的完整列表：
+设置一个值，指示带有标点符号的段落是否被视为空，如果[MailMergeCleanupOptions.REMOVE\_EMPTY\_PARAGRAPHS](../../com.aspose.words/mailmergecleanupoptions\#REMOVE-EMPTY-PARAGRAPHS)指定选项。默认值是true 。以下是可清除标点符号的完整列表：
 
  *  ！
  *  ,
  *  .
- *  ：
+ *  :
  *  ;
  *  ?
- *  Ø
- *  Ø
+ *  �
+ *  �
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 一个值，指示带有标点符号的段落是否被认为是空的，如果[MailMergeCleanupOptions.REMOVE\_EMPTY\_PARAGRAPHS](../../com.aspose.words/mailmergecleanupoptions\#REMOVE-EMPTY-PARAGRAPHS)选项被指定。 |
 
-### set字段MergingCallback(I字段MergingCallback value) {#set字段MergingCallback-com.aspose.words.I字段MergingCallback-}
+### setFieldMergingCallback(IFieldMergingCallback value) {#setFieldMergingCallback-com.aspose.words.IFieldMergingCallback-}
 ```
-public void set字段MergingCallback(I字段MergingCallback value)
+public void setFieldMergingCallback(IFieldMergingCallback value)
 ```
 
 
@@ -704,7 +704,7 @@ public void set字段MergingCallback(I字段MergingCallback value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [I字段MergingCallback](../../com.aspose.words/ifieldmergingcallback) | 相应的[I字段MergingCallback](../../com.aspose.words/ifieldmergingcallback)价值。 |
+| value | [IFieldMergingCallback](../../com.aspose.words/ifieldmergingcallback) | 相应的[IFieldMergingCallback](../../com.aspose.words/ifieldmergingcallback)价值。 |
 
 ### setMailMergeCallback(IMailMergeCallback value) {#setMailMergeCallback-com.aspose.words.IMailMergeCallback-}
 ```

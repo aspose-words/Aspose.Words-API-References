@@ -1,6 +1,6 @@
 ---
 title: HorizontalRuleAlignment
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示指定水平线的对齐方式。
 type: docs
 weight: 321
@@ -16,7 +16,7 @@ public class HorizontalRuleAlignment
 表示指定水平线的对齐方式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CENTER](#CENTER) | 与中心对齐。 |
 | [LEFT](#LEFT) | 与左侧对齐。 |
@@ -28,7 +28,7 @@ public class HorizontalRuleAlignment
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String horizontalRuleAlignmentName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int horizontalRuleAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -99,16 +99,16 @@ public static int fromName(String horizontalRuleAlignmentName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int horizontalRuleAlignment) {#getName-int-}
 ```
 public static String getName(int horizontalRuleAlignment)

@@ -1,6 +1,6 @@
 ---
 title: Metered
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 提供设置计量键的方法。
 type: docs
 weight: 398
@@ -17,7 +17,7 @@ public class Metered
 
 要了解更多信息，请访问**Licensing and Subscription**文档文章。
 
-在此示例中，将尝试为组件 jar 文件设置计量的公钥和私钥：
+在此示例中，将尝试在组件 jar 文件中设置计量公钥和私钥：
 
 ```
 
@@ -35,13 +35,13 @@ public class Metered
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getConsumptionCredit()](#getConsumptionCredit--) | 获得消费积分 |
+| [getClass()](#getClass--) |  |
+| [getConsumptionCredit()](#getConsumptionCredit--) | 获得消费信用 |
 | [getConsumptionQuantity()](#getConsumptionQuantity--) | 获取消费文件大小 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | 设置计量的公钥和私钥。 |
+| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | 设置计量公钥和私钥。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -69,23 +69,23 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getConsumptionCredit() {#getConsumptionCredit--}
 ```
 public static BigDecimal getConsumptionCredit()
 ```
 
 
-获得消费积分
+获得消费信用
 
 **退货:**
 java.math.BigDecimal - 消费数量
@@ -131,7 +131,7 @@ public void setMeteredKey(String publicKey, String privateKey)
 ```
 
 
-设置计量的公钥和私钥。如果您购买的是计量许可证，在启动应用程序时，应该调用此 API，正常情况下，这就足够了。但是，如果总是无法上传消费数据，超过24小时，License会被设置为评估状态，为避免这种情况，您应该定期检查License状态，如果是评估状态，再次调用该API。
+设置计量公钥和私钥。如果你购买了 metered license，在启动应用程序时，应该调用这个 API，通常，这就足够了。但是，如果总是上传消费数据失败，超过24小时，License会被设置为评估状态，为避免这种情况，您应该定期查看License状态，如果是评估状态，请重新调用该接口。
 
 **参数:**
 | 范围 | 类型 | 描述 |

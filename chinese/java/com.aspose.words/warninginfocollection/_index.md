@@ -1,6 +1,6 @@
 ---
 title: WarningInfoCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示对象的类型化集合。
 type: docs
 weight: 605
@@ -28,7 +28,7 @@ public class WarningInfoCollection implements IWarningCallback, Iterable
 | [clear()](#clear--) | 从集合中移除所有元素。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 获取指定索引处的项目。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中包含的元素数。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。 |
@@ -77,16 +77,16 @@ public WarningInfo get(int index)
 
 **退货:**
 [WarningInfo](../../com.aspose.words/warninginfo) - 指定索引处的项目。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

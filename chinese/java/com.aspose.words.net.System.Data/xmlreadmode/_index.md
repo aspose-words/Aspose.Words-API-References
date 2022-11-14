@@ -1,6 +1,6 @@
 ---
 title: XmlReadMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定如何将 XML 数据和关系模式读入 .
 type: docs
 weight: 37
@@ -16,10 +16,10 @@ public enum XmlReadMode extends Enum<System.Data.XmlReadMode>
 指定如何将 XML 数据和关系模式读入[DataSet](../../com.aspose.words.net.system.data/dataset).
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [AUTO](#AUTO) | 默认。 |
-| [DIFF_GRAM](#DIFF-GRAM) | 读取 DiffGram，将 DiffGram 中的更改应用到[DataSet](../../com.aspose.words.net.system.data/dataset)并保存[DataRow.getRowState()](../../com.aspose.words.net.system.data/datarow\#getRowState--)价值观。 |
+| [DIFF_GRAM](#DIFF-GRAM) | 读取 DiffGram，将 DiffGram 中的更改应用到[DataSet](../../com.aspose.words.net.system.data/dataset)并保存[DataRow.getRowState()](../../com.aspose.words.net.system.data/datarow\#getRowState--)值。 |
 | [FRAGMENT](#FRAGMENT) | 针对 SQL Server 实例读取 XML 片段，例如通过执行 FOR XML 查询生成的片段。 |
 | [IGNORE_SCHEMA](#IGNORE-SCHEMA) | 忽略任何内联模式并将数据读入现有的[DataSet](../../com.aspose.words.net.system.data/dataset)架构。 |
 | [INFER_SCHEMA](#INFER-SCHEMA) | 忽略任何内联模式，从数据中推断模式并加载数据。 |
@@ -29,11 +29,11 @@ public enum XmlReadMode extends Enum<System.Data.XmlReadMode>
 
 | 方法 | 描述 |
 | --- | --- |
-| [<T>valueOf(班级<T> arg0, String arg1)](#-T-valueOf-java.lang.班级-T--java.lang.String-) |  |
+| [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getDeclaring班级()](#getDeclaring班级--) |  |
+| [getClass()](#getClass--) |  |
+| [getDeclaringClass()](#getDeclaringClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [name()](#name--) |  |
 | [notify()](#notify--) |  |
@@ -59,7 +59,7 @@ public static final System.Data.XmlReadMode DIFF_GRAM
 ```
 
 
-读取 DiffGram，将 DiffGram 中的更改应用到[DataSet](../../com.aspose.words.net.system.data/dataset)并保存[DataRow.getRowState()](../../com.aspose.words.net.system.data/datarow\#getRowState--)价值观。
+读取 DiffGram，将 DiffGram 中的更改应用到[DataSet](../../com.aspose.words.net.system.data/dataset)并保存[DataRow.getRowState()](../../com.aspose.words.net.system.data/datarow\#getRowState--)值。
 
 ### FRAGMENT {#FRAGMENT}
 ```
@@ -101,9 +101,9 @@ public static final System.Data.XmlReadMode READ_SCHEMA
 
 读取任何内联模式并加载数据。如果[DataSet](../../com.aspose.words.net.system.data/dataset)已经包含模式，可以将新表添加到模式中，但是如果内联模式中的任何表已经存在于[DataSet](../../com.aspose.words.net.system.data/dataset).
 
-### <T>valueOf(班级<T> arg0, String arg1) {#-T-valueOf-java.lang.班级-T--java.lang.String-}
+### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
-public static T <T>valueOf(班级<T> arg0, String arg1)
+public static T <T>valueOf(Class<T> arg0, String arg1)
 ```
 
 
@@ -112,7 +112,7 @@ public static T <T>valueOf(班级<T> arg0, String arg1)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| arg0 | java.lang.班级<T> |  |
+| arg0 | java.lang.Class<T> |  |
 | arg1 | java.lang.String |  |
 
 **退货:**
@@ -147,19 +147,19 @@ public final boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getDeclaring班级() {#getDeclaring班级--}
+java.lang.Class<?>
+### getDeclaringClass() {#getDeclaringClass--}
 ```
-public final 班级<E> getDeclaring班级()
+public final Class<E> getDeclaringClass()
 ```
 
 

@@ -1,6 +1,6 @@
 ---
 title: NodeImporter
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许有效地将节点从一个文档重复导入到另一个文档。
 type: docs
 weight: 405
@@ -17,13 +17,13 @@ public class NodeImporter
 
 要了解更多信息，请访问**Aspose.Words Document Object Model (DOM)**文档文章。
 
-Aspose.Words 提供了在 Microsoft Word 文档之间轻松复制和移动片段的功能。这称为“导入节点”。在将一个文档中的片段插入另一个文档之前，您需要“导入”它。导入会创建原始节点的深层克隆，准备好插入到目标文档中。
+Aspose.Words 提供了在 Microsoft Word 文档之间轻松复制和移动片段的功能。这被称为“导入节点”。在将一个文档的片段插入另一个文档之前，您需要“导入”它。导入创建原始节点的深层克隆，准备插入到目标文档中。
 
-导入节点最简单的方法是使用[DocumentBase.importNode(com.aspose.words.Node, boolean)](../../com.aspose.words/documentbase\#importNode-com.aspose.words.Node--boolean-)提供的方法[DocumentBase](../../com.aspose.words/documentbase)目的。
+导入节点的最简单方法是使用[DocumentBase.importNode(com.aspose.words.Node, boolean)](../../com.aspose.words/documentbase\#importNode-com.aspose.words.Node--boolean-)提供的方法[DocumentBase](../../com.aspose.words/documentbase)目的。
 
-但是，当您需要多次将节点从一个文档导入到另一个文档时，最好使用[NodeImporter](../../com.aspose.words/nodeimporter)班级。这[NodeImporter](../../com.aspose.words/nodeimporter)类允许最小化在目标文档中创建的样式和列表的数量。
+但是，当您需要多次将节点从一个文档导入另一个文档时，最好使用[NodeImporter](../../com.aspose.words/nodeimporter)班级。这[NodeImporter](../../com.aspose.words/nodeimporter)class 允许最小化在目标文档中创建的样式和列表的数量。
 
-将片段从一个 Microsoft Word 文档复制或移动到另一个文档给 Aspose.Words 带来了许多技术挑战。在 Word 文档中，样式和列表格式集中存储，与文档文本分开。文本的段落和运行仅通过内部唯一标识符引用样式。
+将片段从一个 Microsoft Word 文档复制或移动到另一个文档对 Aspose.Words 提出了许多技术挑战。在 Word 文档中，样式和列表格式集中存储，与文档的文本分开。段落和文本运行仅通过内部唯一标识符引用样式。
 
 挑战来自不同文档中的样式和列表不同的事实。例如，要将使用 Heading 1 样式格式化的段落从一个文档复制到另一个文档，必须考虑一些事情：决定是否将 Heading 1 样式从源文档复制到目标文档，克隆段落，更新克隆的段落，使其引用目标文档中正确的标题 1 样式。如果必须复制样式，则应分析它引用的所有样式（基于样式和下一段样式）并可能也复制等等。复制项目符号或编号段落时也存在类似问题，因为 Microsoft Word 将列表定义与文本分开存储。
 
@@ -39,7 +39,7 @@ Aspose.Words 提供了在 Microsoft Word 文档之间轻松复制和移动片段
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [importNode(Node srcNode, boolean isImportChildren)](#importNode-com.aspose.words.Node-boolean-) | 将节点从一个文档导入到另一个文档。 |
 | [notify()](#notify--) |  |
@@ -94,16 +94,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -135,7 +135,7 @@ public Node importNode(Node srcNode, boolean isImportChildren)
 | isImportChildren | boolean | True 递归导入所有子节点；否则为假。 |
 
 **退货:**
-[Node](../../com.aspose.words/node) 克隆的、导入的节点。该节点属于目标文档，但没有父节点。
+[Node](../../com.aspose.words/node) 克隆的导入节点。该节点属于目标文档，但没有父节点。
 ### notify() {#notify--}
 ```
 public final native void notify()

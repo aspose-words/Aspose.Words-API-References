@@ -1,6 +1,6 @@
 ---
 title: VbaReferenceCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示对象的集合。
 type: docs
 weight: 598
@@ -25,14 +25,14 @@ public class VbaReferenceCollection implements Iterable
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 获取[VbaReference](../../com.aspose.words/vbareference)指定索引处的对象。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 返回集合中 VBA 引用的数量。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(VbaReference item)](#remove-com.aspose.words.VbaReference-) | 从集合中移除指定 VbaReference 项的第一个匹配项。 |
-| [removeAt(int index)](#removeAt-int-) | 移除集合的指定索引处的 VbaReference 元素。 |
+| [remove(VbaReference item)](#remove-com.aspose.words.VbaReference-) | 从集合中移除第一次出现的指定 VbaReference 项。 |
+| [removeAt(int index)](#removeAt-int-) | 移除集合指定索引处的 VbaReference 元素。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -67,16 +67,16 @@ public VbaReference get(int index)
 
 **退货:**
 [VbaReference](../../com.aspose.words/vbareference) -\{[VbaReference](../../com.aspose.words/vbareference)指定索引处的对象。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -86,7 +86,7 @@ public int getCount()
 返回集合中 VBA 引用的数量。
 
 **退货:**
-int - 集合中的 VBA 引用数。
+int - 集合中 VBA 引用的数量。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -129,7 +129,7 @@ public void remove(VbaReference item)
 ```
 
 
-从集合中移除指定 VbaReference 项的第一个匹配项。
+从集合中移除第一次出现的指定 VbaReference 项。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -142,7 +142,7 @@ public void removeAt(int index)
 ```
 
 
-移除集合的指定索引处的 VbaReference 元素。
+移除集合指定索引处的 VbaReference 元素。
 
 **参数:**
 | 范围 | 类型 | 描述 |

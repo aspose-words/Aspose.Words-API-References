@@ -1,6 +1,6 @@
 ---
 title: PdfDigitalSignatureDetails
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 包含使用数字签名签署 PDF 文档的详细信息。
 type: docs
 weight: 451
@@ -24,15 +24,15 @@ Aspose.Words 创建一个 PKCS\#7 对整个 PDF 文档进行签名，并在创�
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [PdfDigitalSignatureDetails()](#PdfDigitalSignatureDetails--) | 初始化此类的一个实例。 |
-| [PdfDigitalSignatureDetails(CertificateHolder certificateHolder, String reason, String location, Date signatureDate)](#PdfDigitalSignatureDetails-com.aspose.words.CertificateHolder-java.lang.String-java.lang.String-java.util.Date-) | 初始化此类的一个实例。 |
+| [PdfDigitalSignatureDetails()](#PdfDigitalSignatureDetails--) | 初始化此类的实例。 |
+| [PdfDigitalSignatureDetails(CertificateHolder certificateHolder, String reason, String location, Date signatureDate)](#PdfDigitalSignatureDetails-com.aspose.words.CertificateHolder-java.lang.String-java.lang.String-java.util.Date-) | 初始化此类的实例。 |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCertificateHolder()](#getCertificateHolder--) | 返回包含用于签署文档的证书的证书持有者对象。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getHashAlgorithm()](#getHashAlgorithm--) | 获取哈希算法。 |
 | [getLocation()](#getLocation--) | 获取签名的位置。 |
 | [getReason()](#getReason--) | 获取签名的原因。 |
@@ -57,7 +57,7 @@ public PdfDigitalSignatureDetails()
 ```
 
 
-初始化此类的一个实例。
+初始化此类的实例。
 
 ### PdfDigitalSignatureDetails(CertificateHolder certificateHolder, String reason, String location, Date signatureDate) {#PdfDigitalSignatureDetails-com.aspose.words.CertificateHolder-java.lang.String-java.lang.String-java.util.Date-}
 ```
@@ -65,7 +65,7 @@ public PdfDigitalSignatureDetails(CertificateHolder certificateHolder, String re
 ```
 
 
-初始化此类的一个实例。
+初始化此类的实例。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -100,16 +100,16 @@ public CertificateHolder getCertificateHolder()
 
 **退货:**
 [CertificateHolder](../../com.aspose.words/certificateholder) - 包含证书的证书持有者对象用于签署文档。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getHashAlgorithm() {#getHashAlgorithm--}
 ```
 public int getHashAlgorithm()
@@ -216,7 +216,7 @@ public void setHashAlgorithm(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 哈希算法。该值必须是以下之一[PdfDigitalSignatureHashAlgorithm](../../com.aspose.words/pdfdigitalsignaturehashalgorithm)常数。 |
+| value | int | 哈希算法。该值必须是其中之一[PdfDigitalSignatureHashAlgorithm](../../com.aspose.words/pdfdigitalsignaturehashalgorithm)常数。 |
 
 ### setLocation(String value) {#setLocation-java.lang.String-}
 ```
@@ -229,7 +229,7 @@ public void setLocation(String value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 签约地点。 |
+| value | java.lang.String | 签到地点。 |
 
 ### setReason(String value) {#setReason-java.lang.String-}
 ```

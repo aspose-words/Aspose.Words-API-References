@@ -1,6 +1,6 @@
 ---
 title: TaskPaneDockState
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 枚举任务窗格对象的可用位置。
 type: docs
 weight: 557
@@ -16,7 +16,7 @@ public class TaskPaneDockState
 枚举任务窗格对象的可用位置。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [LEFT](#LEFT) | 将任务窗格停靠在文档窗口的左侧。 |
 | [RIGHT](#RIGHT) | 将任务窗格停靠在文档窗口的右侧。 |
@@ -27,7 +27,7 @@ public class TaskPaneDockState
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String taskPaneDockStateName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int taskPaneDockState)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -90,16 +90,16 @@ public static int fromName(String taskPaneDockStateName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int taskPaneDockState) {#getName-int-}
 ```
 public static String getName(int taskPaneDockState)

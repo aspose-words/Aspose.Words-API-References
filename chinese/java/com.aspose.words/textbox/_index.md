@@ -1,6 +1,6 @@
 ---
 title: TextBox
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 定义指定文本如何在形状内显示的属性。
 type: docs
 weight: 558
@@ -17,14 +17,14 @@ public class TextBox
 
 要了解更多信息，请访问**Working with Shapes**文档文章。
 
-使用[Shape.getTextBox()](../../com.aspose.words/shape\#getTextBox--)属性来访问形状的文本属性。您不创建的实例[TextBox](../../com.aspose.words/textbox)直接上课。
+使用[Shape.getTextBox()](../../com.aspose.words/shape\#getTextBox--)属性访问形状的文本属性。您不创建的实例[TextBox](../../com.aspose.words/textbox)直接上课。
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [breakForwardLink()](#breakForwardLink--) | 断开到下一个文本框的链接。 |
+| [breakForwardLink()](#breakForwardLink--) | 断开到下一个 TextBox 的链接。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getFitShapeToText()](#getFitShapeToText--) | 确定 Microsoft Word 是否会增大形状以适合文本。 |
 | [getInternalMarginBottom()](#getInternalMarginBottom--) | 以磅为单位指定形状的内底边距。 |
 | [getInternalMarginLeft()](#getInternalMarginLeft--) | 以磅为单位指定形状的内部左边距。 |
@@ -76,16 +76,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getFitShapeToText() {#getFitShapeToText--}
 ```
 public boolean getFitShapeToText()

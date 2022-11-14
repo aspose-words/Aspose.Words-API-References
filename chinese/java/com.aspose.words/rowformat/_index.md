@@ -1,6 +1,6 @@
 ---
 title: RowFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示表格行的所有格式。
 type: docs
 weight: 494
@@ -25,9 +25,9 @@ public class RowFormat
 | [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int-) |  |
 | [getAllowBreakAcrossPages()](#getAllowBreakAcrossPages--) | 如果允许表格行中的文本跨分页符拆分，则为真。 |
 | [getBorders()](#getBorders--) | 获取行的默认单元格边框的集合。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int-) |  |
-| [getHeadingFormat()](#getHeadingFormat--) | 当表格跨越一页以上时，如果该行在每一页上重复作为表格标题，则为真。 |
+| [getHeadingFormat()](#getHeadingFormat--) | 当表格跨越多个页面时，如果该行在每一页上重复作为表格标题，则为真。 |
 | [getHeight()](#getHeight--) | 获取表格行的高度（以磅为单位）。 |
 | [getHeightRule()](#getHeightRule--) | 获取确定表格行高的规则。 |
 | [hashCode()](#hashCode--) |  |
@@ -35,9 +35,9 @@ public class RowFormat
 | [notifyAll()](#notifyAll--) |  |
 | [setAllowBreakAcrossPages(boolean value)](#setAllowBreakAcrossPages-boolean-) | 如果允许表格行中的文本跨分页符拆分，则为真。 |
 | [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object-) |  |
-| [setHeadingFormat(boolean value)](#setHeadingFormat-boolean-) | 当表格跨越一页以上时，如果该行在每一页上重复作为表格标题，则为真。 |
+| [setHeadingFormat(boolean value)](#setHeadingFormat-boolean-) | 当表格跨越多个页面时，如果该行在每一页上重复作为表格标题，则为真。 |
 | [setHeight(double value)](#setHeight-double-) | 以磅为单位设置表格行的高度。 |
-| [setHeightRule(int value)](#setHeightRule-int-) | 设置确定表格行高度的规则。 |
+| [setHeightRule(int value)](#setHeightRule-int-) | 设置确定表格行高的规则。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -99,17 +99,17 @@ public BorderCollection getBorders()
 获取行的默认单元格边框的集合。
 
 **退货:**
-[BorderCollection](../../com.aspose.words/bordercollection) - 行的默认单元格边框的集合。
-### get班级() {#get班级--}
+[BorderCollection](../../com.aspose.words/bordercollection) - 行的默认单元格边框集合。
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDirectBorderAttr(int key) {#getDirectBorderAttr-int-}
 ```
 public Object getDirectBorderAttr(int key)
@@ -131,7 +131,7 @@ public boolean getHeadingFormat()
 ```
 
 
-当表格跨越一页以上时，如果该行在每一页上重复作为表格标题，则为真。
+当表格跨越多个页面时，如果该行在每一页上重复作为表格标题，则为真。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -154,7 +154,7 @@ public int getHeightRule()
 获取确定表格行高的规则。
 
 **退货:**
- int - 确定表格行高度的规则。返回值是以下之一[HeightRule](../../com.aspose.words/heightrule)常数。
+ int - 确定表格行高的规则。返回值是以下之一[HeightRule](../../com.aspose.words/heightrule)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -214,7 +214,7 @@ public void setHeadingFormat(boolean value)
 ```
 
 
-当表格跨越一页以上时，如果该行在每一页上重复作为表格标题，则为真。
+当表格跨越多个页面时，如果该行在每一页上重复作为表格标题，则为真。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -240,12 +240,12 @@ public void setHeightRule(int value)
 ```
 
 
-设置确定表格行高度的规则。
+设置确定表格行高的规则。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 确定表格行高的规则。该值必须是以下之一[HeightRule](../../com.aspose.words/heightrule)常数。 |
+| value | int | 确定表格行高的规则。该值必须是其中之一[HeightRule](../../com.aspose.words/heightrule)常数。 |
 
 ### toString() {#toString--}
 ```

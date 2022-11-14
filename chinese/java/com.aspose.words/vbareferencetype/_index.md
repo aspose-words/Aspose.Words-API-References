@@ -1,6 +1,6 @@
 ---
-title: VbaReference类型
-second_title: Aspose.Words for Java API Reference
+title: VbaReferenceType
+second_title: Aspose.Words for Java API 参考
 description: 允许指定对象的类型。
 type: docs
 weight: 599
@@ -10,15 +10,15 @@ url: /zh/java/com.aspose.words/vbareferencetype/
 **遗产:**
 java.lang.Object
 ```
-public class VbaReference类型
+public class VbaReferenceType
 ```
 
 允许指定类型[VbaReference](../../com.aspose.words/vbareference)目的。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
-| [CONTROL](#CONTROL) | 指定一个旋转类型库引用类型。 |
+| [CONTROL](#CONTROL) | 指定旋转类型库引用类型。 |
 | [ORIGINAL](#ORIGINAL) | 指定原始自动化类型库引用类型。 |
 | [PROJECT](#PROJECT) | 指定了外部 VBA 项目引用类型。 |
 | [REGISTERED](#REGISTERED) | 指定自动化类型库引用类型。 |
@@ -28,15 +28,15 @@ public class VbaReference类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String vbaReference类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int vbaReference类型)](#getName-int-) |  |
+| [fromName(String vbaReferenceTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int vbaReferenceType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int vbaReference类型)](#toString-int-) |  |
+| [toString(int vbaReferenceType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -46,7 +46,7 @@ public static int CONTROL
 ```
 
 
-指定一个旋转类型库引用类型。该类型对应于 2.3.4.2.2.3 REFERENCECONTROL 的记录[MS-OVBA]：https://docs.microsoft.com/en-us/openspecs/office\_文件\_formats/ms-ovba/d64485fa-8562-4726-9c5e-11e8f01a81c0
+指定旋转类型库引用类型。该类型对应于 2.3.4.2.2.3 REFERENCECONTROL 的记录[MS-OVBA]：https://docs.microsoft.com/en-us/openspecs/office\_文件\_格式/ms-ovba/d64485fa-8562-4726-9c5e-11e8f01a81c0
 
 ### ORIGINAL {#ORIGINAL}
 ```
@@ -54,7 +54,7 @@ public static int ORIGINAL
 ```
 
 
-指定原始自动化类型库引用类型。此类型对应于 2.3.4.2.2.4 REFERENCEORIGINAL 记录[MS-OVBA]：https://docs.microsoft.com/en-us/openspecs/office\_文件\_formats/ms-ovba/3ba66994-8c7a-4634-b2da-f9331ace6686
+指定原始自动化类型库引用类型。该类型对应于 2.3.4.2.2.4 REFERENCEORIGINAL Record of[MS-OVBA]：https://docs.microsoft.com/en-us/openspecs/office\_文件\_格式/ms-ovba/3ba66994-8c7a-4634-b2da-f9331ace6686
 
 ### PROJECT {#PROJECT}
 ```
@@ -93,9 +93,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String vbaReference类型Name) {#fromName-java.lang.String-}
+### fromName(String vbaReferenceTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String vbaReference类型Name)
+public static int fromName(String vbaReferenceTypeName)
 ```
 
 
@@ -104,23 +104,23 @@ public static int fromName(String vbaReference类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| vbaReference类型Name | java.lang.String |  |
+| vbaReferenceTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int vbaReference类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int vbaReferenceType) {#getName-int-}
 ```
-public static String getName(int vbaReference类型)
+public static String getName(int vbaReferenceType)
 ```
 
 
@@ -129,7 +129,7 @@ public static String getName(int vbaReference类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| vbaReference类型 | int |  |
+| vbaReferenceType | int |  |
 
 **退货:**
 java.lang.String
@@ -179,9 +179,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int vbaReference类型) {#toString-int-}
+### toString(int vbaReferenceType) {#toString-int-}
 ```
-public static String toString(int vbaReference类型)
+public static String toString(int vbaReferenceType)
 ```
 
 
@@ -190,7 +190,7 @@ public static String toString(int vbaReference类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| vbaReference类型 | int |  |
+| vbaReferenceType | int |  |
 
 **退货:**
 java.lang.String

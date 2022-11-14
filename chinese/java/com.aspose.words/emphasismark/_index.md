@@ -1,6 +1,6 @@
 ---
 title: EmphasisMark
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定可能的强调标记类型。
 type: docs
 weight: 144
@@ -16,12 +16,12 @@ public class EmphasisMark
 指定可能的强调标记类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [NONE](#NONE) | 没有强调标记。 |
 | [OVER_COMMA](#OVER-COMMA) | 强调标记是显示在文本上方的逗号字符。 |
 | [OVER_SOLID_CIRCLE](#OVER-SOLID-CIRCLE) | 强调标记是显示在文本上方的实心黑色圆圈。 |
-| [OVER_WHITE_CIRCLE](#OVER-WHITE-CIRCLE) | 强调标记是显示在文本上方的空白圆圈。 |
+| [OVER_WHITE_CIRCLE](#OVER-WHITE-CIRCLE) | 强调标记是显示在文本上方的空白白色圆圈。 |
 | [UNDER_SOLID_CIRCLE](#UNDER-SOLID-CIRCLE) | 强调标记是显示在文本下方的实心黑色圆圈。 |
 | [length](#length) |  |
 ## 方法
@@ -30,7 +30,7 @@ public class EmphasisMark
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String emphasisMarkName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int emphasisMark)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -71,7 +71,7 @@ public static int OVER_WHITE_CIRCLE
 ```
 
 
-强调标记是显示在文本上方的空白圆圈。
+强调标记是显示在文本上方的空白白色圆圈。
 
 ### UNDER_SOLID_CIRCLE {#UNDER-SOLID-CIRCLE}
 ```
@@ -117,16 +117,16 @@ public static int fromName(String emphasisMarkName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int emphasisMark) {#getName-int-}
 ```
 public static String getName(int emphasisMark)

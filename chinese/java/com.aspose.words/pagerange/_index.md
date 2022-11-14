@@ -1,6 +1,6 @@
 ---
 title: PageRange
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示连续范围的页面。
 type: docs
 weight: 437
@@ -26,7 +26,7 @@ public class PageRange
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -46,7 +46,7 @@ public PageRange(int from, int to)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | from | int | 起始页从零开始的索引。 |
-| to | int | 结束页从零开始的索引。如果它超过文档中最后一页的索引，则在呈现时将其截断以适合文档。表示文档中的最后一页。 |
+| to | int | 结束页从零开始的索引。如果它超过文档中最后一页的索引，它会被截断以适应呈现的文档。表示文档中的最后一页。 |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -63,16 +63,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

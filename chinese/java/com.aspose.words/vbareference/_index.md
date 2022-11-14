@@ -1,6 +1,6 @@
 ---
 title: VbaReference
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 实现对自动化类型库或 VBA 项目的引用。
 type: docs
 weight: 597
@@ -29,9 +29,9 @@ public abstract class VbaReference implements Cloneable
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getLibId()](#getLibId--) | 获取一个包含自动化类型库标识符的字符串值。 |
-| [get类型()](#get类型--) | 获取[VbaReference类型](../../com.aspose.words/vbareferencetype)指示 VbaReference 对象表示的引用类型的对象。 |
+| [getType()](#getType--) | 获取[VbaReferenceType](../../com.aspose.words/vbareferencetype)指示 VbaReference 对象表示的引用类型的对象。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -60,16 +60,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getLibId() {#getLibId--}
 ```
 public abstract String getLibId()
@@ -83,16 +83,16 @@ public abstract String getLibId()
 
 **退货:**
 java.lang.String - 一个包含自动化类型库标识符的字符串值。
-### get类型() {#get类型--}
+### getType() {#getType--}
 ```
-public abstract int get类型()
+public abstract int getType()
 ```
 
 
-获取[VbaReference类型](../../com.aspose.words/vbareferencetype)指示 VbaReference 对象表示的引用类型的对象。
+获取[VbaReferenceType](../../com.aspose.words/vbareferencetype)指示 VbaReference 对象表示的引用类型的对象。
 
 **退货:**
-诠释 -\{[VbaReference类型](../../com.aspose.words/vbareferencetype)指示 VbaReference 对象表示的引用类型的对象。返回值是以下之一[VbaReference类型](../../com.aspose.words/vbareferencetype)常数。
+整数 -\{[VbaReferenceType](../../com.aspose.words/vbareferencetype)指示 VbaReference 对象表示的引用类型的对象。返回值是以下之一[VbaReferenceType](../../com.aspose.words/vbareferencetype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

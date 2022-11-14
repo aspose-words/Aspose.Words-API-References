@@ -1,6 +1,6 @@
 ---
-title: ChartAxis类型
-second_title: Aspose.Words for Java API Reference
+title: ChartAxisType
+second_title: Aspose.Words for Java API 参考
 description: 指定图表轴的类型。
 type: docs
 weight: 57
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/chartaxistype/
 **遗产:**
 java.lang.Object
 ```
-public class ChartAxis类型
+public class ChartAxisType
 ```
 
 指定图表轴的类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CATEGORY](#CATEGORY) | 图表的类别轴。 |
 | [SERIES](#SERIES) | 图表的系列轴。 |
@@ -27,15 +27,15 @@ public class ChartAxis类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String chartAxis类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int chartAxis类型)](#getName-int-) |  |
+| [fromName(String chartAxisTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int chartAxisType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int chartAxis类型)](#toString-int-) |  |
+| [toString(int chartAxisType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -84,9 +84,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String chartAxis类型Name) {#fromName-java.lang.String-}
+### fromName(String chartAxisTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String chartAxis类型Name)
+public static int fromName(String chartAxisTypeName)
 ```
 
 
@@ -95,23 +95,23 @@ public static int fromName(String chartAxis类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| chartAxis类型Name | java.lang.String |  |
+| chartAxisTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int chartAxis类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int chartAxisType) {#getName-int-}
 ```
-public static String getName(int chartAxis类型)
+public static String getName(int chartAxisType)
 ```
 
 
@@ -120,7 +120,7 @@ public static String getName(int chartAxis类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| chartAxis类型 | int |  |
+| chartAxisType | int |  |
 
 **退货:**
 java.lang.String
@@ -170,9 +170,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int chartAxis类型) {#toString-int-}
+### toString(int chartAxisType) {#toString-int-}
 ```
-public static String toString(int chartAxis类型)
+public static String toString(int chartAxisType)
 ```
 
 
@@ -181,7 +181,7 @@ public static String toString(int chartAxis类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| chartAxis类型 | int |  |
+| chartAxisType | int |  |
 
 **退货:**
 java.lang.String

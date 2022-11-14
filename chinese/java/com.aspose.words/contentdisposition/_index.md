@@ -1,6 +1,6 @@
 ---
 title: ContentDisposition
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 枚举在客户端浏览器上呈现文档的不同方式。
 type: docs
 weight: 92
@@ -13,15 +13,15 @@ java.lang.Object
 public class ContentDisposition
 ```
 
-枚举在客户端浏览器上呈现文档的不同方式。
+枚举在客户端浏览器中呈现文档的不同方式。
 
 请注意，客户端浏览器上的实际行为可能会受到浏览器安全配置的影响。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
-| [ATTACHMENT](#ATTACHMENT) | 将文档发送到浏览器并提供将文档保存到磁盘或在与文档扩展名关联的应用程序中打开的选项。 |
-| [INLINE](#INLINE) | 将文档发送到浏览器并提供将文档保存到磁盘或在浏览器中打开的选项。 |
+| [ATTACHMENT](#ATTACHMENT) | 将文档发送到浏览器并显示将文档保存到磁盘或在与文档扩展名关联的应用程序中打开的选项。 |
+| [INLINE](#INLINE) | 将文档发送到浏览器并显示将文档保存到磁盘或在浏览器中打开的选项。 |
 | [length](#length) |  |
 ## 方法
 
@@ -29,7 +29,7 @@ public class ContentDisposition
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String contentDispositionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int contentDisposition)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -46,7 +46,7 @@ public static int ATTACHMENT
 ```
 
 
-将文档发送到浏览器并提供将文档保存到磁盘或在与文档扩展名关联的应用程序中打开的选项。
+将文档发送到浏览器并显示将文档保存到磁盘或在与文档扩展名关联的应用程序中打开的选项。
 
 ### INLINE {#INLINE}
 ```
@@ -54,7 +54,7 @@ public static int INLINE
 ```
 
 
-将文档发送到浏览器并提供将文档保存到磁盘或在浏览器中打开的选项。
+将文档发送到浏览器并显示将文档保存到磁盘或在浏览器中打开的选项。
 
 ### length {#length}
 ```
@@ -92,16 +92,16 @@ public static int fromName(String contentDispositionName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int contentDisposition) {#getName-int-}
 ```
 public static String getName(int contentDisposition)

@@ -1,6 +1,6 @@
 ---
 title: AxisBound
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示轴值的最小或最大界限。
 type: docs
 weight: 16
@@ -32,7 +32,7 @@ Bound 可以指定为数字、日期时间或特殊的“自动”值。
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) | 确定指定对象的值是否与当前对象相等。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getValue()](#getValue--) | 返回轴边界的数值。 |
 | [getValueAsDate()](#getValueAsDate--) | 返回表示为日期时间的轴边界值。 |
 | [hashCode()](#hashCode--) |  |
@@ -92,16 +92,16 @@ public boolean equals(Object obj)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getValue() {#getValue--}
 ```
 public double getValue()

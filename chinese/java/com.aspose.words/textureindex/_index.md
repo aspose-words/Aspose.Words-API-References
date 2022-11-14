@@ -1,6 +1,6 @@
 ---
 title: TextureIndex
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定着色纹理。
 type: docs
 weight: 572
@@ -16,7 +16,7 @@ public class TextureIndex
 指定着色纹理。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [TEXTURE_10_PERCENT](#TEXTURE-10-PERCENT) |  |
 | [TEXTURE_12_PT_5_PERCENT](#TEXTURE-12-PT-5-PERCENT) |  |
@@ -79,7 +79,7 @@ public class TextureIndex
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String textureIndexName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int textureIndex)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -496,7 +496,7 @@ public static int TEXTURE_NIL
 ```
 
 
-指定当前阴影区域不应使用任何图案（即图案应为背景颜色的完整填充）。
+指定当前阴影区域不应使用任何图案（即图案应完全填充背景色）。
 
 ### TEXTURE_NONE {#TEXTURE-NONE}
 ```
@@ -558,16 +558,16 @@ public static int fromName(String textureIndexName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int textureIndex) {#getName-int-}
 ```
 public static String getName(int textureIndex)

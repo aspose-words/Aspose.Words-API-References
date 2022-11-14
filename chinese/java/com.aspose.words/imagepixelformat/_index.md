@@ -1,6 +1,6 @@
 ---
 title: ImagePixelFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定生成的文档页面图像的像素格式。
 type: docs
 weight: 339
@@ -16,7 +16,7 @@ public class ImagePixelFormat
 指定生成的文档页面图像的像素格式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [FORMAT_16_BPP_ARGB_1555](#FORMAT-16-BPP-ARGB-1555) | 每像素 16 位，ARGB。 |
 | [FORMAT_16_BPP_RGB_555](#FORMAT-16-BPP-RGB-555) | 每像素 16 位，RGB。 |
@@ -36,7 +36,7 @@ public class ImagePixelFormat
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String imagePixelFormatName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int imagePixelFormat)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -171,16 +171,16 @@ public static int fromName(String imagePixelFormatName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int imagePixelFormat) {#getName-int-}
 ```
 public static String getName(int imagePixelFormat)

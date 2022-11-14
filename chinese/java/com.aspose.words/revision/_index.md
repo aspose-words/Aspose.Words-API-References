@@ -1,6 +1,6 @@
 ---
 title: Revision
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示文档节点或样式中的修订跟踪更改。
 type: docs
 weight: 483
@@ -13,7 +13,7 @@ java.lang.Object
 public class Revision
 ```
 
-表示文档节点或样式中的修订（跟踪更改）。利用[getRevision类型()](../../com.aspose.words/revision\#getRevision类型--)检查此修订的类型。
+表示文档节点或样式中的修订（跟踪更改）。利用[getRevisionType()](../../com.aspose.words/revision\#getRevisionType--)检查此修订的类型。
 
 要了解更多信息，请访问**Track Changes in a Document**文档文章。
 ## 方法
@@ -23,12 +23,12 @@ public class Revision
 | [accept()](#accept--) | 接受此修订。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAuthor()](#getAuthor--) | 获取此修订的作者。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDateTime()](#getDateTime--) | 获取此修订的日期/时间。 |
 | [getGroup()](#getGroup--) | 获取修订组。 |
 | [getParentNode()](#getParentNode--) | 获取此修订的直接父节点（所有者）。 |
 | [getParentStyle()](#getParentStyle--) | 获取此修订的直接父样式（所有者）。 |
-| [getRevision类型()](#getRevision类型--) | 获取此修订的类型。 |
+| [getRevisionType()](#getRevisionType--) | 获取此修订的类型。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -72,16 +72,16 @@ public String getAuthor()
 
 **退货:**
 java.lang.String - 此版本的作者。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDateTime() {#getDateTime--}
 ```
 public Date getDateTime()
@@ -98,7 +98,7 @@ public RevisionGroup getGroup()
 ```
 
 
-获取修订组。如果修订不属于任何组，则返回 null。如果修订类型为 Revision类型.StyleDefinitionChange 或如果修订不再存在于文档上下文中（接受/拒绝），则修订没有组。
+获取修订组。如果修订不属于任何组，则返回 null。如果修订类型为 RevisionType.StyleDefinitionChange 或如果修订不再存在于文档上下文中（接受/拒绝），则修订没有组。
 
 **退货:**
 [RevisionGroup](../../com.aspose.words/revisiongroup) - 修订组。
@@ -108,7 +108,7 @@ public Node getParentNode()
 ```
 
 
-获取此修订的直接父节点（所有者）。此属性适用于除[Revision类型.STYLE\_DEFINITION\_CHANGE](../../com.aspose.words/revisiontype\#STYLE-DEFINITION-CHANGE).如果此修订涉及样式格式的更改，请使用[getParentStyle()](../../com.aspose.words/revision\#getParentStyle--)反而。
+获取此修订的直接父节点（所有者）。此属性将适用于除[RevisionType.STYLE\_DEFINITION\_CHANGE](../../com.aspose.words/revisiontype\#STYLE-DEFINITION-CHANGE).如果此修订涉及样式格式的更改，请使用[getParentStyle()](../../com.aspose.words/revision\#getParentStyle--)反而。
 
 **退货:**
 [Node](../../com.aspose.words/node) - 此修订的直接父节点（所有者）。
@@ -118,20 +118,20 @@ public Style getParentStyle()
 ```
 
 
-获取此修订的直接父样式（所有者）。此属性仅适用于[Revision类型.STYLE\_DEFINITION\_CHANGE](../../com.aspose.words/revisiontype\#STYLE-DEFINITION-CHANGE)修订类型。如果此修订涉及文档节点上的更改，请使用[getParentNode()](../../com.aspose.words/revision\#getParentNode--)反而。
+获取此修订的直接父样式（所有者）。此属性仅适用于[RevisionType.STYLE\_DEFINITION\_CHANGE](../../com.aspose.words/revisiontype\#STYLE-DEFINITION-CHANGE)修订类型。如果此修订涉及文档节点的更改，请使用[getParentNode()](../../com.aspose.words/revision\#getParentNode--)反而。
 
 **退货:**
 [Style](../../com.aspose.words/style) 此修订的直接父样式（所有者）。
-### getRevision类型() {#getRevision类型--}
+### getRevisionType() {#getRevisionType--}
 ```
-public int getRevision类型()
+public int getRevisionType()
 ```
 
 
 获取此修订的类型。
 
 **退货:**
- int - 此修订的类型。返回值是以下之一[Revision类型](../../com.aspose.words/revisiontype)常数。
+ int - 此修订的类型。返回值是以下之一[RevisionType](../../com.aspose.words/revisiontype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -190,7 +190,7 @@ public void setDateTime(Date value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.Date | 本次修订的日期/时间。 |
+| value | java.util.Date | 此修订的日期/时间。 |
 
 ### toString() {#toString--}
 ```

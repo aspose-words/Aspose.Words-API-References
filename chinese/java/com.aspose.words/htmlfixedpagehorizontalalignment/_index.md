@@ -1,6 +1,6 @@
 ---
 title: HtmlFixedPageHorizontalAlignment
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定输出 HTML 文档中页面的水平对齐方式。
 type: docs
 weight: 325
@@ -16,11 +16,11 @@ public class HtmlFixedPageHorizontalAlignment
 指定输出 HTML 文档中页面的水平对齐方式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CENTER](#CENTER) | 中心页面。 |
-| [LEFT](#LEFT) | 将页面向左对齐。 |
-| [RIGHT](#RIGHT) | 将页面向右对齐。 |
+| [LEFT](#LEFT) | 将页面左对齐。 |
+| [RIGHT](#RIGHT) | 将页面右对齐。 |
 | [length](#length) |  |
 ## 方法
 
@@ -28,7 +28,7 @@ public class HtmlFixedPageHorizontalAlignment
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String htmlFixedPageHorizontalAlignmentName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int htmlFixedPageHorizontalAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -53,7 +53,7 @@ public static int LEFT
 ```
 
 
-将页面向左对齐。
+将页面左对齐。
 
 ### RIGHT {#RIGHT}
 ```
@@ -61,7 +61,7 @@ public static int RIGHT
 ```
 
 
-将页面向右对齐。
+将页面右对齐。
 
 ### length {#length}
 ```
@@ -99,16 +99,16 @@ public static int fromName(String htmlFixedPageHorizontalAlignmentName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int htmlFixedPageHorizontalAlignment) {#getName-int-}
 ```
 public static String getName(int htmlFixedPageHorizontalAlignment)

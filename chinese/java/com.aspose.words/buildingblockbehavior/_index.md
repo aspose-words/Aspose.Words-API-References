@@ -1,6 +1,6 @@
 ---
 title: BuildingBlockBehavior
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定在将构建块插入主文档时应应用于构建块内容的行为。
 type: docs
 weight: 42
@@ -18,7 +18,7 @@ public class BuildingBlockBehavior
 对应于**ST\_DocPartBehavior**输入 OOXML。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CONTENT](#CONTENT) | 指定构建块应作为内联内容插入。 |
 | [DEFAULT](#DEFAULT) | 如同[CONTENT](../../com.aspose.words/buildingblockbehavior\#CONTENT). |
@@ -31,7 +31,7 @@ public class BuildingBlockBehavior
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String buildingBlockBehaviorName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int buildingBlockBehavior)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -110,16 +110,16 @@ public static int fromName(String buildingBlockBehaviorName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int buildingBlockBehavior) {#getName-int-}
 ```
 public static String getName(int buildingBlockBehavior)

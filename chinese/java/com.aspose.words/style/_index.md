@@ -1,6 +1,6 @@
 ---
 title: Style
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示单个内置或用户定义的样式。
 type: docs
 weight: 536
@@ -25,7 +25,7 @@ public class Style implements Cloneable
 | --- | --- |
 | [clearParaAttrs()](#clearParaAttrs--) |  |
 | [clearRunAttrs()](#clearRunAttrs--) |  |
-| [equals(Style style)](#equals-com.aspose.words.Style-) | 与指定的样式进行比较。 |
+| [equals(Style style)](#equals-com.aspose.words.Style-) | 与指定样式进行比较。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchInheritedParaAttr(int key)](#fetchInheritedParaAttr-int-) |  |
 | [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
@@ -33,21 +33,21 @@ public class Style implements Cloneable
 | [getAliases()](#getAliases--) | 获取此样式的所有别名。 |
 | [getBaseStyleName()](#getBaseStyleName--) | 获取/设置此样式所基于的样式的名称。 |
 | [getBuiltIn()](#getBuiltIn--) | 如果此样式是 MS Word 中的内置样式之一，则为真。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDirectParaAttr(int key)](#getDirectParaAttr-int-) |  |
 | [getDirectParaAttr(int key, int revisionsView)](#getDirectParaAttr-int-int-) |  |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
 | [getDocument()](#getDocument--) | 获取所有者文档。 |
 | [getFont()](#getFont--) | 获取样式的字符格式。 |
-| [getLinkedStyleName()](#getLinkedStyleName--) | 获取链接到这个样式的名称。 |
+| [getLinkedStyleName()](#getLinkedStyleName--) | 获取链接到此样式的样式的名称。 |
 | [getList()](#getList--) | 获取定义此列表样式格式的列表。 |
 | [getListFormat()](#getListFormat--) | 提供对段落样式的列表格式属性的访问。 |
 | [getName()](#getName--) | 获取样式的名称。 |
-| [getNextParagraphStyleName()](#getNextParagraphStyleName--) | 获取/设置样式的名称，该样式的名称将自动应用于插入到以指定样式格式化的段落之后的新段落。 |
+| [getNextParagraphStyleName()](#getNextParagraphStyleName--) | 获取/设置要自动应用于在使用指定样式格式化的段落之后插入的新段落的样式的名称。 |
 | [getParagraphFormat()](#getParagraphFormat--) | 获取样式的段落格式。 |
-| [getStyleIdentifier()](#getStyleIdentifier--) | 获取内置样式的独立于语言环境的样式标识符。 |
-| [getStyles()](#getStyles--) | 获取该样式所属的样式集合。 |
-| [get类型()](#get类型--) | 获取样式类型（段落或字符）。 |
+| [getStyleIdentifier()](#getStyleIdentifier--) | 获取内置样式的区域独立样式标识符。 |
+| [getStyles()](#getStyles--) | 获取此样式所属的样式集合。 |
+| [getType()](#getType--) | 获取样式类型（段落或字符）。 |
 | [hashCode()](#hashCode--) |  |
 | [isHeading()](#isHeading--) | 当样式是内置标题样式之一时为真。 |
 | [isQuickStyle()](#isQuickStyle--) | 指定此样式是否显示在 MS Word UI 内的快速样式库中。 |
@@ -59,7 +59,7 @@ public class Style implements Cloneable
 | [removeRunAttr(int key)](#removeRunAttr-int-) |  |
 | [setBaseStyleName(String value)](#setBaseStyleName-java.lang.String-) | 获取/设置此样式所基于的样式的名称。 |
 | [setName(String value)](#setName-java.lang.String-) | 设置样式的名称。 |
-| [setNextParagraphStyleName(String value)](#setNextParagraphStyleName-java.lang.String-) | 获取/设置样式的名称，该样式的名称将自动应用于插入到以指定样式格式化的段落之后的新段落。 |
+| [setNextParagraphStyleName(String value)](#setNextParagraphStyleName-java.lang.String-) | 获取/设置要自动应用于在使用指定样式格式化的段落之后插入的新段落的样式的名称。 |
 | [setParaAttr(int key, Object value)](#setParaAttr-int-java.lang.Object-) |  |
 | [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
 | [toString()](#toString--) |  |
@@ -187,16 +187,16 @@ public boolean getBuiltIn()
 
 **退货:**
 boolean - 对应的布尔值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDirectParaAttr(int key) {#getDirectParaAttr-int-}
 ```
 public Object getDirectParaAttr(int key)
@@ -252,7 +252,7 @@ public DocumentBase getDocument()
 获取所有者文档。
 
 **退货:**
-[DocumentBase](../../com.aspose.words/documentbase) - 所有者文件。
+[DocumentBase](../../com.aspose.words/documentbase) - 所有者文档。
 ### getFont() {#getFont--}
 ```
 public Font getFont()
@@ -274,7 +274,7 @@ public String getLinkedStyleName()
 获取链接到这个样式的名称。如果没有链接样式，则返回空字符串。
 
 **退货:**
-java.lang.String - 链接到这个样式的名称。
+java.lang.String - 链接到此样式的样式的名称。
 ### getList() {#getList--}
 ```
 public List getList()
@@ -309,7 +309,7 @@ public String getName()
 
 不能为空字符串。
 
-如果集合中已经存在具有此类名称的样式，则此样式将覆盖它。所有受影响的节点都将引用新样式。
+如果集合中已经存在同名的样式，则该样式将覆盖它。所有受影响的节点都将引用新样式。
 
 **退货:**
 java.lang.String - 样式的名称。
@@ -319,7 +319,7 @@ public String getNextParagraphStyleName()
 ```
 
 
-获取/设置样式的名称，该样式的名称将自动应用于插入到以指定样式格式化的段落之后的新段落。 Aspose.Words 不使用此属性。只有当您在 MS Word 中编辑文档时，才会自动应用下一个段落样式。
+获取/设置要自动应用于在使用指定样式格式化的段落之后插入的新段落的样式的名称。 Aspose.Words 不使用该属性。仅当您在 MS Word 中编辑文档时，才会自动应用下一段样式。
 
 **退货:**
 java.lang.String - 对应的 java.lang.String 值。
@@ -341,7 +341,7 @@ public int getStyleIdentifier()
 ```
 
 
-获取内置样式的独立于语言环境的样式标识符。
+获取内置样式的区域独立样式标识符。
 
 对于用户定义（自定义）样式，此属性返回[StyleIdentifier.USER](../../com.aspose.words/styleidentifier\#USER).
 
@@ -353,20 +353,20 @@ public StyleCollection getStyles()
 ```
 
 
-获取该样式所属的样式集合。
+获取此样式所属的样式集合。
 
 **退货:**
 [StyleCollection](../../com.aspose.words/stylecollection) 此样式所属的样式集合。
-### get类型() {#get类型--}
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
 获取样式类型（段落或字符）。
 
 **退货:**
- int - 样式类型（段落或字符）。返回值是以下之一[Style类型](../../com.aspose.words/styletype)常数。
+ int - 样式类型（段落或字符）。返回值是以下之一[StyleType](../../com.aspose.words/styletype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -487,7 +487,7 @@ public void setName(String value)
 
 不能为空字符串。
 
-如果集合中已经存在具有此类名称的样式，则此样式将覆盖它。所有受影响的节点都将引用新样式。
+如果集合中已经存在同名的样式，则该样式将覆盖它。所有受影响的节点都将引用新样式。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -500,7 +500,7 @@ public void setNextParagraphStyleName(String value)
 ```
 
 
-获取/设置样式的名称，该样式的名称将自动应用于插入到以指定样式格式化的段落之后的新段落。 Aspose.Words 不使用此属性。只有当您在 MS Word 中编辑文档时，才会自动应用下一个段落样式。
+获取/设置要自动应用于在使用指定样式格式化的段落之后插入的新段落的样式的名称。 Aspose.Words 不使用该属性。仅当您在 MS Word 中编辑文档时，才会自动应用下一段样式。
 
 **参数:**
 | 范围 | 类型 | 描述 |

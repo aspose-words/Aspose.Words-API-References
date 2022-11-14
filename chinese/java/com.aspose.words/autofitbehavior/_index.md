@@ -1,7 +1,7 @@
 ---
 title: AutoFitBehavior
-second_title: Aspose.Words for Java API Reference
-description: 确定调用 MAspose.Words.Tables.Table.AutoFitAspose.Words.Tables.AutoFitBehavior 方法时 Aspose.Words 如何调整表格大小。
+second_title: Aspose.Words for Java API 参考
+description: 确定当您调用 MAspose.Words.Tables.Table.AutoFitAspose.Words.Tables.AutoFitBehavior 方法时 Aspose.Words 如何调整表格的大小。
 type: docs
 weight: 15
 url: /zh/java/com.aspose.words/autofitbehavior/
@@ -16,7 +16,7 @@ public class AutoFitBehavior
 确定 Aspose.Words 在您调用**M:Aspose.Words.Tables.Table.AutoFit(Aspose.Words.Tables.AutoFitBehavior)**方法。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [AUTO_FIT_TO_CONTENTS](#AUTO-FIT-TO-CONTENTS) | Aspose.Words 启用 AutoFit 选项，从表格和所有单元格中删除首选宽度，然后更新表格布局。 |
 | [AUTO_FIT_TO_WINDOW](#AUTO-FIT-TO-WINDOW) | 当您使用此值时，Aspose.Words 启用 AutoFit 选项，将表格的首选宽度设置为 100%，从所有单元格中删除首选宽度，然后更新表格布局。 |
@@ -28,7 +28,7 @@ public class AutoFitBehavior
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String autoFitBehaviorName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int autoFitBehavior)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -105,16 +105,16 @@ public static int fromName(String autoFitBehaviorName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int autoFitBehavior) {#getName-int-}
 ```
 public static String getName(int autoFitBehavior)

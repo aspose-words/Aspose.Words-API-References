@@ -1,6 +1,6 @@
 ---
 title: DownsampleOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许指定下采样选项。
 type: docs
 weight: 133
@@ -21,7 +21,7 @@ public class DownsampleOptions
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDownsampleImages()](#getDownsampleImages--) | 指定是否应该对图像进行下采样。 |
 | [getResolution()](#getResolution--) | 指定图像应该被下采样到的分辨率（以每英寸像素为单位）。 |
 | [getResolutionThreshold()](#getResolutionThreshold--) | 以每英寸像素数指定阈值分辨率。 |
@@ -50,16 +50,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDownsampleImages() {#getDownsampleImages--}
 ```
 public boolean getDownsampleImages()
@@ -86,7 +86,7 @@ public int getResolutionThreshold()
 ```
 
 
-以每英寸像素数指定阈值分辨率。如果文档中图像的分辨率小于阈值，则不会应用下采样算法。值 0 表示不使用阈值检查，并且对所有可以缩小尺寸的图像进行下采样。默认值为 0。
+以每英寸像素数指定阈值分辨率。如果文档中图像的分辨率小于阈值，则不会应用下采样算法。值为 0 表示不使用阈值检查，并且对所有可以缩小尺寸的图像进行下采样。默认值为 0。
 
 **退货:**
 int - 对应的 int 值。
@@ -148,7 +148,7 @@ public void setResolutionThreshold(int value)
 ```
 
 
-以每英寸像素数指定阈值分辨率。如果文档中图像的分辨率小于阈值，则不会应用下采样算法。值 0 表示不使用阈值检查，并且对所有可以缩小尺寸的图像进行下采样。默认值为 0。
+以每英寸像素数指定阈值分辨率。如果文档中图像的分辨率小于阈值，则不会应用下采样算法。值为 0 表示不使用阈值检查，并且对所有可以缩小尺寸的图像进行下采样。默认值为 0。
 
 **参数:**
 | 范围 | 类型 | 描述 |

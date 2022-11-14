@@ -1,7 +1,7 @@
 ---
 title: Barcode参数
-second_title: Aspose.Words for Java API Reference
-description: 用于将条码参数传递给 BarcodeGenerator 的容器类。
+second_title: Aspose.Words for Java API 参考
+description: 用于传递给 BarcodeGenerator 的条形码参数的容器类。
 type: docs
 weight: 26
 url: /zh/java/com.aspose.words/barcodeparameters/
@@ -13,11 +13,11 @@ java.lang.Object
 public class Barcode参数
 ```
 
-用于将条码参数传递给 BarcodeGenerator 的容器类。
+用于传递给 BarcodeGenerator 的条形码参数的容器类。
 
 要了解更多信息，请访问**Working with 字段**文档文章。
 
-参数集根据 DISPLAYBARCODE 字段选项而定。详细列表见[ ][Link 1]
+参数集根据 DISPLAYBARCODE 字段选项。请参阅确切的列表[ ][Link 1]
 
 
 [Link 1]: https://msdn.microsoft.com/en-us/library/hh745901%28v=office.12%29.aspx
@@ -26,15 +26,15 @@ public class Barcode参数
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAddStartStopChar()](#getAddStartStopChar--) | 是否为条码类型 NW7 和 CODE39 添加开始/停止字符。 |
-| [getBackgroundColor()](#getBackgroundColor--) | 条码背景颜色 (0x000000 - 0xFFFFFF) |
-| [getBarcode类型()](#getBarcode类型--) | 条码类型。 |
+| [getAddStartStopChar()](#getAddStartStopChar--) | 是否为条码类型 NW7 和 CODE39 添加起始/终止字符。 |
+| [getBackgroundColor()](#getBackgroundColor--) | 条形码背景颜色（0x000000 - 0xFFFFFF） |
+| [getBarcodeType()](#getBarcodeType--) | 条形码类型。 |
 | [getBarcodeValue()](#getBarcodeValue--) | 要编码的数据。 |
-| [getCaseCodeStyle()](#getCaseCodeStyle--) | 条码类型 ITF14 的案例代码样式。 |
-| [get班级()](#get班级--) |  |
+| [getCaseCodeStyle()](#getCaseCodeStyle--) | 条形码类型 ITF14 的案例代码样式。 |
+| [getClass()](#getClass--) |  |
 | [getDisplayText()](#getDisplayText--) | 是否与图像一起显示条形码数据（文本）。 |
-| [getErrorCorrectionLevel()](#getErrorCorrectionLevel--) | QR码的纠错级别。 |
-| [getFacingIdentificationMark()](#getFacingIdentificationMark--) | 正面识别标记 (FIM) 的类型。 |
+| [getErrorCorrectionLevel()](#getErrorCorrectionLevel--) | QR 码纠错级别。 |
+| [getFacingIdentificationMark()](#getFacingIdentificationMark--) | 表面识别标记 (FIM) 的类型。 |
 | [getFixCheckDigit()](#getFixCheckDigit--) | 是否固定校验位\\u2019s 无效。 |
 | [getForegroundColor()](#getForegroundColor--) | 条码前景色 (0x000000 - 0xFFFFFF) |
 | [getPosCodeStyle()](#getPosCodeStyle--) | 销售点条形码的样式（条形码类型 UPCA|UPCE|EAN13|EAN8). |
@@ -49,14 +49,14 @@ public class Barcode参数
 | [isUSPostalAddress(boolean value)](#isUSPostalAddress-boolean-) | 无论[getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress--) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String-)是美国 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAddStartStopChar(boolean value)](#setAddStartStopChar-boolean-) | 是否为条码类型 NW7 和 CODE39 添加开始/停止字符。 |
-| [setBackgroundColor(String value)](#setBackgroundColor-java.lang.String-) | 条码背景颜色 (0x000000 - 0xFFFFFF) |
-| [setBarcode类型(String value)](#setBarcode类型-java.lang.String-) | 条码类型。 |
+| [setAddStartStopChar(boolean value)](#setAddStartStopChar-boolean-) | 是否为条码类型 NW7 和 CODE39 添加起始/终止字符。 |
+| [setBackgroundColor(String value)](#setBackgroundColor-java.lang.String-) | 条形码背景颜色（0x000000 - 0xFFFFFF） |
+| [setBarcodeType(String value)](#setBarcodeType-java.lang.String-) | 条形码类型。 |
 | [setBarcodeValue(String value)](#setBarcodeValue-java.lang.String-) | 要编码的数据。 |
-| [setCaseCodeStyle(String value)](#setCaseCodeStyle-java.lang.String-) | 条码类型 ITF14 的案例代码样式。 |
+| [setCaseCodeStyle(String value)](#setCaseCodeStyle-java.lang.String-) | 条形码类型 ITF14 的案例代码样式。 |
 | [setDisplayText(boolean value)](#setDisplayText-boolean-) | 是否与图像一起显示条形码数据（文本）。 |
-| [setErrorCorrectionLevel(String value)](#setErrorCorrectionLevel-java.lang.String-) | QR码的纠错级别。 |
-| [setFacingIdentificationMark(String value)](#setFacingIdentificationMark-java.lang.String-) | 正面识别标记 (FIM) 的类型。 |
+| [setErrorCorrectionLevel(String value)](#setErrorCorrectionLevel-java.lang.String-) | QR 码纠错级别。 |
+| [setFacingIdentificationMark(String value)](#setFacingIdentificationMark-java.lang.String-) | 表面识别标记 (FIM) 的类型。 |
 | [setFixCheckDigit(boolean value)](#setFixCheckDigit-boolean-) | 是否固定校验位\\u2019s 无效。 |
 | [setForegroundColor(String value)](#setForegroundColor-java.lang.String-) | 条码前景色 (0x000000 - 0xFFFFFF) |
 | [setPosCodeStyle(String value)](#setPosCodeStyle-java.lang.String-) | 销售点条形码的样式（条形码类型 UPCA|UPCE|EAN13|EAN8). |
@@ -89,7 +89,7 @@ public boolean getAddStartStopChar()
 ```
 
 
-是否为条码类型 NW7 和 CODE39 添加开始/停止字符。
+是否为条码类型 NW7 和 CODE39 添加起始/终止字符。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -99,17 +99,17 @@ public String getBackgroundColor()
 ```
 
 
-条码背景颜色 (0x000000 - 0xFFFFFF)
+条形码背景颜色（0x000000 - 0xFFFFFF）
 
 **退货:**
 java.lang.String - 对应的 java.lang.String 值。
-### getBarcode类型() {#getBarcode类型--}
+### getBarcodeType() {#getBarcodeType--}
 ```
-public String getBarcode类型()
+public String getBarcodeType()
 ```
 
 
-条码类型。
+条形码类型。
 
 **退货:**
 java.lang.String - 对应的 java.lang.String 值。
@@ -133,16 +133,16 @@ public String getCaseCodeStyle()
 
 **退货:**
 java.lang.String - 对应的 java.lang.String 值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDisplayText() {#getDisplayText--}
 ```
 public boolean getDisplayText()
@@ -169,7 +169,7 @@ public String getFacingIdentificationMark()
 ```
 
 
-正面识别标记 (FIM) 的类型。
+表面识别标记 (FIM) 的类型。
 
 **退货:**
 java.lang.String - 对应的 java.lang.String 值。
@@ -321,7 +321,7 @@ public void setAddStartStopChar(boolean value)
 ```
 
 
-是否为条码类型 NW7 和 CODE39 添加开始/停止字符。
+是否为条码类型 NW7 和 CODE39 添加起始/终止字符。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -334,20 +334,20 @@ public void setBackgroundColor(String value)
 ```
 
 
-条码背景颜色 (0x000000 - 0xFFFFFF)
+条形码背景颜色（0x000000 - 0xFFFFFF）
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | 对应的 java.lang.String 值。 |
 
-### setBarcode类型(String value) {#setBarcode类型-java.lang.String-}
+### setBarcodeType(String value) {#setBarcodeType-java.lang.String-}
 ```
-public void setBarcode类型(String value)
+public void setBarcodeType(String value)
 ```
 
 
-条码类型。
+条形码类型。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -412,7 +412,7 @@ public void setFacingIdentificationMark(String value)
 ```
 
 
-正面识别标记 (FIM) 的类型。
+表面识别标记 (FIM) 的类型。
 
 **参数:**
 | 范围 | 类型 | 描述 |

@@ -1,6 +1,6 @@
 ---
-title: Sdt类型
-second_title: Aspose.Words for Java API Reference
+title: SdtType
+second_title: Aspose.Words for Java API 参考
 description: 指定结构化文档标签 SDT 节点的类型。
 type: docs
 weight: 508
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/sdttype/
 **遗产:**
 java.lang.Object
 ```
-public class Sdt类型
+public class SdtType
 ```
 
 指定结构化文档标签 (SDT) 节点的类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BIBLIOGRAPHY](#BIBLIOGRAPHY) | SDT 代表一个书目条目。 |
 | [BUILDING_BLOCK_GALLERY](#BUILDING-BLOCK-GALLERY) | SDT 表示构建块库类型。 |
@@ -34,22 +34,22 @@ public class Sdt类型
 | [PLAIN_TEXT](#PLAIN-TEXT) | SDT 在文档中显示时表示纯文本框。 |
 | [REPEATING_SECTION](#REPEATING-SECTION) | SDT 表示在文档中显示时的重复部分类型。 |
 | [REPEATING_SECTION_ITEM](#REPEATING-SECTION-ITEM) | SDT 代表重复部分项目。 |
-| [RICH_TEXT](#RICH-TEXT) | SDT 在文档中显示时表示富文本框。 |
+| [RICH_TEXT](#RICH-TEXT) | SDT 在文档中显示时表示一个富文本框。 |
 | [length](#length) |  |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String sdt类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int sdt类型)](#getName-int-) |  |
+| [fromName(String sdtTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int sdtType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int sdt类型)](#toString-int-) |  |
+| [toString(int sdtType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -75,7 +75,7 @@ public static int CHECKBOX
 ```
 
 
-SDT 在文档中显示时代表一个复选框。这是自 Office 2010 起提供的特定于 MS 的功能，不受 ISO/IEC 29500 OOXML 标准的支持。
+SDT 在文档中显示时表示一个复选框。这是自 Office 2010 以来可用的特定于 MS 的功能，并且不受 ISO/IEC 29500 OOXML 标准支持。
 
 ### CITATION {#CITATION}
 ```
@@ -123,7 +123,7 @@ public static int ENTITY_PICKER
 ```
 
 
-SDT 表示允许用户选择外部内容类型的实例的实体选择器。这是自 Office 2010 起提供的特定于 MS 的功能，不受 ISO/IEC 29500 OOXML 标准的支持。
+SDT 表示允许用户选择外部内容类型实例的实体选择器。这是自 Office 2010 以来可用的特定于 MS 的功能，并且不受 ISO/IEC 29500 OOXML 标准支持。
 
 ### EQUATION {#EQUATION}
 ```
@@ -171,7 +171,7 @@ public static int REPEATING_SECTION
 ```
 
 
-SDT 表示在文档中显示时的重复部分类型。这是自 Office 2013 起提供的特定于 MS 的功能，不受 ISO/IEC 29500 OOXML 标准的支持。
+SDT 表示在文档中显示时的重复节类型。这是自 Office 2013 以来可用的特定于 MS 的功能，并且不受 ISO/IEC 29500 OOXML 标准支持。
 
 ### REPEATING_SECTION_ITEM {#REPEATING-SECTION-ITEM}
 ```
@@ -179,7 +179,7 @@ public static int REPEATING_SECTION_ITEM
 ```
 
 
-SDT 代表重复部分项目。这是自 Office 2013 起提供的特定于 MS 的功能，不受 ISO/IEC 29500 OOXML 标准的支持。
+SDT 表示重复节项目。这是自 Office 2013 以来可用的特定于 MS 的功能，并且不受 ISO/IEC 29500 OOXML 标准支持。
 
 ### RICH_TEXT {#RICH-TEXT}
 ```
@@ -187,7 +187,7 @@ public static int RICH_TEXT
 ```
 
 
-SDT 在文档中显示时表示富文本框。
+SDT 在文档中显示时表示一个富文本框。
 
 ### length {#length}
 ```
@@ -210,9 +210,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String sdt类型Name) {#fromName-java.lang.String-}
+### fromName(String sdtTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String sdt类型Name)
+public static int fromName(String sdtTypeName)
 ```
 
 
@@ -221,23 +221,23 @@ public static int fromName(String sdt类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sdt类型Name | java.lang.String |  |
+| sdtTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int sdt类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int sdtType) {#getName-int-}
 ```
-public static String getName(int sdt类型)
+public static String getName(int sdtType)
 ```
 
 
@@ -246,7 +246,7 @@ public static String getName(int sdt类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sdt类型 | int |  |
+| sdtType | int |  |
 
 **退货:**
 java.lang.String
@@ -296,9 +296,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int sdt类型) {#toString-int-}
+### toString(int sdtType) {#toString-int-}
 ```
-public static String toString(int sdt类型)
+public static String toString(int sdtType)
 ```
 
 
@@ -307,7 +307,7 @@ public static String toString(int sdt类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sdt类型 | int |  |
+| sdtType | int |  |
 
 **退货:**
 java.lang.String

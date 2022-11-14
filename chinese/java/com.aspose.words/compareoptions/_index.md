@@ -1,6 +1,6 @@
 ---
 title: CompareOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许选择文档比较操作的高级选项。
 type: docs
 weight: 81
@@ -21,7 +21,7 @@ public class CompareOptions
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getGranularity()](#getGranularity--) | 指定是按字符还是按单词跟踪更改。 |
 | [getIgnoreCaseChanges()](#getIgnoreCaseChanges--) | True 表示文档比较不区分大小写。 |
 | [getIgnoreComments()](#getIgnoreComments--) | 指定是否比较注释中的差异。 |
@@ -66,16 +66,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getGranularity() {#getGranularity--}
 ```
 public int getGranularity()
@@ -122,7 +122,7 @@ public boolean getIgnore字段()
 ```
 
 
-指定是否比较字段的差异。默认情况下，不会忽略字段。
+指定是否比较字段中的差异。默认情况下，字段不会被忽略。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -132,7 +132,7 @@ public boolean getIgnoreFootnotes()
 ```
 
 
-指定是否比较脚注和尾注的差异。默认情况下不会忽略脚注。
+指定是否比较脚注和尾注的差异。默认情况下，脚注不会被忽略。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -142,7 +142,7 @@ public boolean getIgnoreFormatting()
 ```
 
 
-True 表示忽略格式。默认情况下，不会忽略文档格式。
+True 表示格式被忽略。默认情况下，文档格式不会被忽略。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -152,7 +152,7 @@ public boolean getIgnoreHeadersAndFooters()
 ```
 
 
-True 表示忽略页眉和页脚内容。默认情况下，不会忽略页眉和页脚。
+True 表示忽略页眉和页脚内容。默认情况下不会忽略页眉和页脚。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -162,7 +162,7 @@ public boolean getIgnoreTables()
 ```
 
 
-指定是否比较表中包含的数据的差异。默认情况下，不会忽略表。
+指定是否比较表中包含的数据的差异。默认情况下，表不会被忽略。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -185,7 +185,7 @@ public int getTarget()
 指定在比较期间应将哪个文档用作目标。
 
 **退货:**
-int - 对应的 int 值。返回值是以下之一[ComparisonTarget类型](../../com.aspose.words/comparisontargettype)常数。
+int - 对应的 int 值。返回值是以下之一[ComparisonTargetType](../../com.aspose.words/comparisontargettype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -270,7 +270,7 @@ public void setIgnore字段(boolean value)
 ```
 
 
-指定是否比较字段的差异。默认情况下，不会忽略字段。
+指定是否比较字段中的差异。默认情况下，字段不会被忽略。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -283,7 +283,7 @@ public void setIgnoreFootnotes(boolean value)
 ```
 
 
-指定是否比较脚注和尾注的差异。默认情况下不会忽略脚注。
+指定是否比较脚注和尾注的差异。默认情况下，脚注不会被忽略。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -296,7 +296,7 @@ public void setIgnoreFormatting(boolean value)
 ```
 
 
-True 表示忽略格式。默认情况下，不会忽略文档格式。
+True 表示格式被忽略。默认情况下，文档格式不会被忽略。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -309,7 +309,7 @@ public void setIgnoreHeadersAndFooters(boolean value)
 ```
 
 
-True 表示忽略页眉和页脚内容。默认情况下，不会忽略页眉和页脚。
+True 表示忽略页眉和页脚内容。默认情况下不会忽略页眉和页脚。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -322,7 +322,7 @@ public void setIgnoreTables(boolean value)
 ```
 
 
-指定是否比较表中包含的数据的差异。默认情况下，不会忽略表。
+指定是否比较表中包含的数据的差异。默认情况下，表不会被忽略。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -353,7 +353,7 @@ public void setTarget(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[ComparisonTarget类型](../../com.aspose.words/comparisontargettype)常数。 |
+| value | int | 对应的 int 值。该值必须是以下之一[ComparisonTargetType](../../com.aspose.words/comparisontargettype)常数。 |
 
 ### toString() {#toString--}
 ```

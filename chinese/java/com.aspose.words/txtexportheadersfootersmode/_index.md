@@ -1,6 +1,6 @@
 ---
 title: TxtExportHeadersFootersMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定将页眉和页脚导出为纯文本格式的方式。
 type: docs
 weight: 581
@@ -16,7 +16,7 @@ public class TxtExportHeadersFootersMode
 指定将页眉和页脚导出为纯文本格式的方式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [ALL_AT_END](#ALL-AT-END) | 所有页眉和页脚都放在文档末尾的所有节正文之后。 |
 | [NONE](#NONE) | 不导出页眉和页脚。 |
@@ -28,7 +28,7 @@ public class TxtExportHeadersFootersMode
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String txtExportHeadersFootersModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int txtExportHeadersFootersMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -103,16 +103,16 @@ public static int fromName(String txtExportHeadersFootersModeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int txtExportHeadersFootersMode) {#getName-int-}
 ```
 public static String getName(int txtExportHeadersFootersMode)

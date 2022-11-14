@@ -1,6 +1,6 @@
 ---
 title: CellMerge
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定表格中的单元格如何与其他单元格合并。
 type: docs
 weight: 51
@@ -16,7 +16,7 @@ public class CellMerge
 指定表格中的单元格如何与其他单元格合并。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [FIRST](#FIRST) | 该单元格是合并单元格范围中的第一个单元格。 |
 | [NONE](#NONE) | 单元格未合并。 |
@@ -28,7 +28,7 @@ public class CellMerge
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String cellMergeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int cellMerge)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -99,16 +99,16 @@ public static int fromName(String cellMergeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int cellMerge) {#getName-int-}
 ```
 public static String getName(int cellMerge)

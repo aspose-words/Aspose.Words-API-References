@@ -1,6 +1,6 @@
 ---
-title: 字段Toc
-second_title: Aspose.Words for Java API Reference
+title: FieldToc
+second_title: Aspose.Words for Java API 参考
 description: 实现 TOC 字段。
 type: docs
 weight: 255
@@ -8,9 +8,9 @@ url: /zh/java/com.aspose.words/fieldtoc/
 ---
 
 **遗产:**
-java.lang.Object, [com.aspose.words.字段](../../com.aspose.words/field)
+java.lang.Object, [com.aspose.words.Field](../../com.aspose.words/field)
 ```
-public class 字段Toc extends 字段
+public class FieldToc extends Field
 ```
 
 实现 TOC 字段。
@@ -24,19 +24,19 @@ public class 字段Toc extends 字段
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAreCustomStylesSpecified()](#getAreCustomStylesSpecified--) |  |
-| [getBookmarkName()](#getBookmarkName--) | 获取标记用于构建表的文档部分的书签的名称。 |
+| [getBookmarkName()](#getBookmarkName--) | 获取标记文档中用于构建表的部分的书签的名称。 |
 | [getCaptionlessTableOfFiguresLabel()](#getCaptionlessTableOfFiguresLabel--) | 获取在构建不包括标题标签和数字的图形表时使用的序列标识符的名称。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCustomStyles()](#getCustomStyles--) | 获取要包含在目录中的除内置标题样式之外的样式列表。 |
 | [getDisplayResult()](#getDisplayResult--) | 获取表示显示的字段结果的文本。 |
 | [getEnd()](#getEnd--) | 获取表示字段结束的节点。 |
 | [getEntryIdentifier()](#getEntryIdentifier--) | 获取一个字符串，该字符串应与包含的 TC 字段的类型标识符匹配。 |
 | [getEntryLevelRange()](#getEntryLevelRange--) | 获取要包含的目录条目的一系列级别。 |
 | [getEntrySeparator()](#getEntrySeparator--) | 获取分隔条目及其页码的字符序列。 |
-| [getEntry类型Core()](#getEntry类型Core--) |  |
-| [get字段Code()](#get字段Code--) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [get字段Code(boolean includeChild字段Codes)](#get字段Code-boolean-) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [getFormat()](#getFormat--) | 得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。 |
+| [getEntryTypeCore()](#getEntryTypeCore--) |  |
+| [getFieldCode()](#getFieldCode--) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean-) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [getFormat()](#getFormat--) | 得到一个[FieldFormat](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。 |
 | [getHeadingLevelRange()](#getHeadingLevelRange--) | 获取要包含的一系列标题级别。 |
 | [getHideInWebLayout()](#getHideInWebLayout--) | 获取是否在 Web 布局视图中隐藏选项卡前导和页码。 |
 | [getIncludeRefDoc字段()](#getIncludeRefDoc字段--) |  |
@@ -54,9 +54,9 @@ public class 字段Toc extends 字段
 | [getSequenceSeparator()](#getSequenceSeparator--) | 获取用于分隔序号和页码的字符序列。 |
 | [getSkipTables()](#getSkipTables--) |  |
 | [getStart()](#getStart--) | 获取表示字段开始的节点。 |
-| [getSwitch类型(String switchName)](#getSwitch类型-java.lang.String-) |  |
+| [getSwitchType(String switchName)](#getSwitchType-java.lang.String-) |  |
 | [getTableOfFiguresLabel()](#getTableOfFiguresLabel--) | 获取构建图形表时使用的序列标识符的名称。 |
-| [get类型()](#get类型--) | 获取 Microsoft Word 字段类型。 |
+| [getType()](#getType--) | 获取 Microsoft Word 字段类型。 |
 | [getUseParagraphOutlineLevel()](#getUseParagraphOutlineLevel--) | 获取是否使用应用的段落大纲级别。 |
 | [hashCode()](#hashCode--) |  |
 | [isBookmarkRangeSpecified()](#isBookmarkRangeSpecified--) |  |
@@ -70,7 +70,7 @@ public class 字段Toc extends 字段
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [remove()](#remove--) | 从文档中删除字段。 |
-| [setBookmarkName(String value)](#setBookmarkName-java.lang.String-) | 设置标记用于构建表格的文档部分的书签的名称。 |
+| [setBookmarkName(String value)](#setBookmarkName-java.lang.String-) | 设置标记用于构建表的文档部分的书签的名称。 |
 | [setCaptionlessTableOfFiguresLabel(String value)](#setCaptionlessTableOfFiguresLabel-java.lang.String-) | 设置在构建不包括标题标签和数字的图形表时使用的序列标识符的名称。 |
 | [setCustomStyles(String value)](#setCustomStyles-java.lang.String-) | 设置包含在目录中的内置标题样式以外的样式列表。 |
 | [setEntryIdentifier(String value)](#setEntryIdentifier-java.lang.String-) | 设置一个字符串，该字符串应与包含的 TC 字段的类型标识符匹配。 |
@@ -78,16 +78,16 @@ public class 字段Toc extends 字段
 | [setEntrySeparator(String value)](#setEntrySeparator-java.lang.String-) | 设置分隔条目及其页码的字符序列。 |
 | [setHeadingLevelRange(String value)](#setHeadingLevelRange-java.lang.String-) | 设置要包括的标题级别范围。 |
 | [setHideInWebLayout(boolean value)](#setHideInWebLayout-boolean-) | 设置是否在 Web 布局视图中隐藏选项卡前导和页码。 |
-| [setInsertHyperlinks(boolean value)](#setInsertHyperlinks-boolean-) | 设置是否使目录条目超链接。 |
+| [setInsertHyperlinks(boolean value)](#setInsertHyperlinks-boolean-) | 设置是否使目录条目成为超链接。 |
 | [setLocaleId(int value)](#setLocaleId-int-) | 设置字段的 LCID。 |
 | [setPageNumberOmittingLevelRange(String value)](#setPageNumberOmittingLevelRange-java.lang.String-) | 设置目录条目的级别范围，从中省略页码。 |
-| [setPrefixedSequenceIdentifier(String value)](#setPrefixedSequenceIdentifier-java.lang.String-) | 设置序列的标识符，为其添加前缀到条目的页码。 |
-| [setPreserveLineBreaks(boolean value)](#setPreserveLineBreaks-boolean-) | 设置是否在表格条目中保留换行符。 |
+| [setPrefixedSequenceIdentifier(String value)](#setPrefixedSequenceIdentifier-java.lang.String-) | 设置应为其添加前缀到条目页码的序列的标识符。 |
+| [setPreserveLineBreaks(boolean value)](#setPreserveLineBreaks-boolean-) | 设置是否在表条目中保留换行符。 |
 | [setPreserveTabs(boolean value)](#setPreserveTabs-boolean-) | 设置是否在表格条目中保留选项卡条目。 |
 | [setResult(String value)](#setResult-java.lang.String-) | 设置字段分隔符和字段结尾之间的文本。 |
 | [setSequenceSeparator(String value)](#setSequenceSeparator-java.lang.String-) | 设置用于分隔序号和页码的字符序列。 |
-| [setTableOfFiguresLabel(String value)](#setTableOfFiguresLabel-java.lang.String-) | 设置构建图形表时使用的序列标识符的名称。 |
-| [setUseParagraphOutlineLevel(boolean value)](#setUseParagraphOutlineLevel-boolean-) | 设置是否使用应用的段落大纲级别。 |
+| [setTableOfFiguresLabel(String value)](#setTableOfFiguresLabel-java.lang.String-) | 设置构建图表时使用的序列标识符的名称。 |
+| [setUseParagraphOutlineLevel(boolean value)](#setUseParagraphOutlineLevel-boolean-) | 设置是否使用应用的段落轮廓级别。 |
 | [toString()](#toString--) |  |
 | [unlink()](#unlink--) | 执行字段取消链接。 |
 | [update()](#update--) | 执行字段更新。 |
@@ -127,10 +127,10 @@ public String getBookmarkName()
 ```
 
 
-获取标记用于构建表的文档部分的书签的名称。
+获取标记文档中用于构建表的部分的书签的名称。
 
 **退货:**
-java.lang.String - 标记用于构建表的文档部分的书签的名称。
+java.lang.String - 标记用于构建表的文档部分的书签名称。
 ### getCaptionlessTableOfFiguresLabel() {#getCaptionlessTableOfFiguresLabel--}
 ```
 public String getCaptionlessTableOfFiguresLabel()
@@ -140,17 +140,17 @@ public String getCaptionlessTableOfFiguresLabel()
 获取在构建不包括标题标签和数字的图形表时使用的序列标识符的名称。
 
 **退货:**
-java.lang.String - 构建不包括标题标签和数字的图表时使用的序列标识符的名称。
-### get班级() {#get班级--}
+java.lang.String - 构建不包括标题标签和编号的图表时使用的序列标识符的名称。
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCustomStyles() {#getCustomStyles--}
 ```
 public String getCustomStyles()
@@ -160,27 +160,27 @@ public String getCustomStyles()
 获取要包含在目录中的除内置标题样式之外的样式列表。
 
 **退货:**
-java.lang.String - 包含在目录中的内置标题样式以外的样式列表。
+java.lang.String - 要包含在目录中的内置标题样式以外的样式列表。
 ### getDisplayResult() {#getDisplayResult--}
 ```
 public String getDisplayResult()
 ```
 
 
-获取表示显示的字段结果的文本。这[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--)必须调用方法才能获得正确的值[字段ListNum](../../com.aspose.words/fieldlistnum), [字段AutoNum](../../com.aspose.words/fieldautonum), [字段AutoNumOut](../../com.aspose.words/fieldautonumout)和[字段AutoNumLgl](../../com.aspose.words/fieldautonumlgl)字段。
+获取表示显示的字段结果的文本。这[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--)必须调用方法才能获得正确的值[FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout)和[FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl)字段。
 
 **退货:**
 java.lang.String - 表示显示的字段结果的文本。
 ### getEnd() {#getEnd--}
 ```
-public 字段End getEnd()
+public FieldEnd getEnd()
 ```
 
 
 获取表示字段结束的节点。
 
 **退货:**
-[字段End](../../com.aspose.words/fieldend) - 代表字段结束的节点。
+[FieldEnd](../../com.aspose.words/fieldend) - 代表字段结束的节点。
 ### getEntryIdentifier() {#getEntryIdentifier--}
 ```
 public String getEntryIdentifier()
@@ -190,7 +190,7 @@ public String getEntryIdentifier()
 获取一个字符串，该字符串应与包含的 TC 字段的类型标识符匹配。
 
 **退货:**
-java.lang.String - 应该匹配包含的 TC 字段的类型标识符的字符串。
+java.lang.String - 应与包含的 TC 字段的类型标识符相匹配的字符串。
 ### getEntryLevelRange() {#getEntryLevelRange--}
 ```
 public String getEntryLevelRange()
@@ -211,9 +211,9 @@ public String getEntrySeparator()
 
 **退货:**
 java.lang.String - 分隔条目及其页码的字符序列。
-### getEntry类型Core() {#getEntry类型Core--}
+### getEntryTypeCore() {#getEntryTypeCore--}
 ```
-public int getEntry类型Core()
+public int getEntryTypeCore()
 ```
 
 
@@ -221,9 +221,9 @@ public int getEntry类型Core()
 
 **退货:**
 整数
-### get字段Code() {#get字段Code--}
+### getFieldCode() {#getFieldCode--}
 ```
-public String get字段Code()
+public String getFieldCode()
 ```
 
 
@@ -231,9 +231,9 @@ public String get字段Code()
 
 **退货:**
 java.lang.String
-### get字段Code(boolean includeChild字段Codes) {#get字段Code-boolean-}
+### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean-}
 ```
-public String get字段Code(boolean includeChild字段Codes)
+public String getFieldCode(boolean includeChildFieldCodes)
 ```
 
 
@@ -242,20 +242,20 @@ public String get字段Code(boolean includeChild字段Codes)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| includeChild字段Codes | boolean | \{ 如果应包含子域代码，则为真。 |
+| includeChildFieldCodes | boolean | \{ 如果应包含子域代码，则为真。 |
 
 **退货:**
 java.lang.String
 ### getFormat() {#getFormat--}
 ```
-public 字段Format getFormat()
+public FieldFormat getFormat()
 ```
 
 
-得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
+得到一个[FieldFormat](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
 
 **退货:**
-[字段Format](../../com.aspose.words/fieldformat) - 一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
+[FieldFormat](../../com.aspose.words/fieldformat) - 一个[FieldFormat](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
 ### getHeadingLevelRange() {#getHeadingLevelRange--}
 ```
 public String getHeadingLevelRange()
@@ -275,7 +275,7 @@ public boolean getHideInWebLayout()
 获取是否在 Web 布局视图中隐藏选项卡前导和页码。
 
 **退货:**
-boolean - 是否在 Web 布局视图中隐藏选项卡前导和页码。
+boolean - 是否在 Web 布局视图中隐藏制表符前导符和页码。
 ### getIncludeRefDoc字段() {#getIncludeRefDoc字段--}
 ```
 public boolean getIncludeRefDoc字段()
@@ -305,7 +305,7 @@ public boolean getInsertHyperlinks()
 获取是否使目录条目超链接。
 
 **退货:**
-boolean - 是否使目录条目超链接。
+boolean - 是否制作目录条目超链接。
 ### getLevelForCustomStyle(Paragraph paragraph, Style style) {#getLevelForCustomStyle-com.aspose.words.Paragraph-com.aspose.words.Style-}
 ```
 public int getLevelForCustomStyle(Paragraph paragraph, Style style)
@@ -341,7 +341,7 @@ public String getPageNumberOmittingLevelRange()
 获取要从中省略页码的目录条目的级别范围。
 
 **退货:**
-java.lang.String - 目录条目的一系列级别，从中省略页码。
+java.lang.String - 目录条目的级别范围，从中省略页码。
 ### getPrefixedSequenceIdentifier() {#getPrefixedSequenceIdentifier--}
 ```
 public String getPrefixedSequenceIdentifier()
@@ -351,7 +351,7 @@ public String getPrefixedSequenceIdentifier()
 获取应将前缀添加到条目页码的序列的标识符。
 
 **退货:**
-java.lang.String - 序列的标识符，应为其添加前缀到条目的页码。
+java.lang.String - 应将前缀添加到条目页码的序列标识符。
 ### getPreserveLineBreaks() {#getPreserveLineBreaks--}
 ```
 public boolean getPreserveLineBreaks()
@@ -371,7 +371,7 @@ public boolean getPreserveTabs()
 获取是否在表条目中保留选项卡条目。
 
 **退货:**
-boolean - 是否在表条目中保留选项卡条目。
+boolean - 是否在表格条目中保留选项卡条目。
 ### getRangeBookmark() {#getRangeBookmark--}
 ```
 public Bookmark getRangeBookmark()
@@ -394,14 +394,14 @@ public String getResult()
 java.lang.String - 字段分隔符和字段结尾之间的文本。
 ### getSeparator() {#getSeparator--}
 ```
-public 字段Separator getSeparator()
+public FieldSeparator getSeparator()
 ```
 
 
 获取表示字段分隔符的节点。可以为空。
 
 **退货:**
-[字段Separator](../../com.aspose.words/fieldseparator) - 表示字段分隔符的节点。
+[FieldSeparator](../../com.aspose.words/fieldseparator) - 表示字段分隔符的节点。
 ### getSequenceSeparator() {#getSequenceSeparator--}
 ```
 public String getSequenceSeparator()
@@ -424,17 +424,17 @@ public boolean getSkipTables()
 布尔值
 ### getStart() {#getStart--}
 ```
-public 字段Start getStart()
+public FieldStart getStart()
 ```
 
 
 获取表示字段开始的节点。
 
 **退货:**
-[字段Start](../../com.aspose.words/fieldstart) - 表示字段开始的节点。
-### getSwitch类型(String switchName) {#getSwitch类型-java.lang.String-}
+[FieldStart](../../com.aspose.words/fieldstart) - 表示字段开始的节点。
+### getSwitchType(String switchName) {#getSwitchType-java.lang.String-}
 ```
-public int getSwitch类型(String switchName)
+public int getSwitchType(String switchName)
 ```
 
 
@@ -457,16 +457,16 @@ public String getTableOfFiguresLabel()
 
 **退货:**
 java.lang.String - 构建图表时使用的序列标识符的名称。
-### get类型() {#get类型--}
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
 获取 Microsoft Word 字段类型。
 
 **退货:**
- int - Microsoft Word 字段类型。返回值是以下之一[字段类型](../../com.aspose.words/fieldtype)常数。
+ int - Microsoft Word 字段类型。返回值是以下之一[FieldType](../../com.aspose.words/fieldtype)常数。
 ### getUseParagraphOutlineLevel() {#getUseParagraphOutlineLevel--}
 ```
 public boolean getUseParagraphOutlineLevel()
@@ -476,7 +476,7 @@ public boolean getUseParagraphOutlineLevel()
 获取是否使用应用的段落大纲级别。
 
 **退货:**
-boolean - 是否使用应用的段落大纲级别。
+boolean - 是否使用应用的段落轮廓级别。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -605,7 +605,7 @@ public void setBookmarkName(String value)
 ```
 
 
-设置标记用于构建表格的文档部分的书签的名称。
+设置标记用于构建表的文档部分的书签的名称。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -709,7 +709,7 @@ public void setInsertHyperlinks(boolean value)
 ```
 
 
-设置是否使目录条目超链接。
+设置是否使目录条目成为超链接。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -748,7 +748,7 @@ public void setPrefixedSequenceIdentifier(String value)
 ```
 
 
-设置序列的标识符，为其添加前缀到条目的页码。
+设置应为其添加前缀到条目页码的序列的标识符。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -761,7 +761,7 @@ public void setPreserveLineBreaks(boolean value)
 ```
 
 
-设置是否在表格条目中保留换行符。
+设置是否在表条目中保留换行符。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -813,7 +813,7 @@ public void setTableOfFiguresLabel(String value)
 ```
 
 
-设置构建图形表时使用的序列标识符的名称。
+设置构建图表时使用的序列标识符的名称。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -826,12 +826,12 @@ public void setUseParagraphOutlineLevel(boolean value)
 ```
 
 
-设置是否使用应用的段落大纲级别。
+设置是否使用应用的段落轮廓级别。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 是否使用应用的段落大纲级别。 |
+| value | boolean | 是否使用应用的段落轮廓级别。 |
 
 ### toString() {#toString--}
 ```
@@ -851,19 +851,19 @@ public boolean unlink()
 
 执行字段取消链接。
 
-用其最新结果替换该字段。
+将字段替换为其最新结果。
 
 某些字段，例如 XE（索引条目）字段和 SEQ（序列）字段，无法取消链接。
 
 **退货:**
-布尔值 -\{ 如果字段已取消链接，则为真，否则为假。
+布尔值 -\{ 如果该字段已取消链接则为真，否则为假。
 ### update() {#update--}
 ```
 public void update()
 ```
 
 
-执行字段更新。如果该字段已被更新，则抛出。
+执行字段更新。如果该字段已经被更新则抛出。
 
 ### update(boolean ignoreMergeFormat) {#update-boolean-}
 ```
@@ -871,12 +871,12 @@ public void update(boolean ignoreMergeFormat)
 ```
 
 
-执行字段更新。如果该字段已被更新，则抛出。
+执行字段更新。如果该字段已经被更新则抛出。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ignoreMergeFormat | boolean | 如果为 true，则放弃直接字段结果格式化，无论 MERGEFORMAT 开关如何，否则执行正常更新。 |
+| ignoreMergeFormat | boolean | 如果为真，则放弃直接字段结果格式，不管 MERGEFORMAT 开关如何，否则执行正常更新。 |
 
 ### updatePageNumbers() {#updatePageNumbers--}
 ```
@@ -887,7 +887,7 @@ public boolean updatePageNumbers()
 更新此目录中项目的页码。
 
 **退货:**
-boolean - 如果操作成功则为真。如果删除了任何相关的 TOC 书签，则将返回 false。
+boolean - 如果操作成功则为真。如果删除了任何相关的 TOC 书签，将返回 false。
 ### wait() {#wait--}
 ```
 public final void wait()

@@ -1,6 +1,6 @@
 ---
 title: SaveFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指示文档的保存格式。
 type: docs
 weight: 499
@@ -16,17 +16,17 @@ public class SaveFormat
 指示文档的保存格式。**M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.SaveFormat)**
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [AZW_3](#AZW-3) | 以 AZW3 格式保存文档。 |
-| [BMP](#BMP) | 渲染文档页面并将其保存为 BMP 文件。 |
+| [BMP](#BMP) | 呈现文档的一页并将其另存为 BMP 文件。 |
 | [DOC](#DOC) | 以 Microsoft Word 97 - 2007 文档格式保存文档。 |
 | [DOCM](#DOCM) | 将文档另存为 Office Open XML WordprocessingML 启用宏的文档。 |
 | [DOCX](#DOCX) | 将文档另存为 Office Open XML WordprocessingML 文档（无宏）。 |
 | [DOT](#DOT) | 以 Microsoft Word 97 - 2007 模板格式保存文档。 |
 | [DOTM](#DOTM) | 将文档另存为 Office Open XML WordprocessingML 启用宏的模板。 |
 | [DOTX](#DOTX) | 将文档另存为 Office Open XML WordprocessingML 模板（无宏）。 |
-| [EMF](#EMF) | 渲染文档页面并将其保存为矢量 EMF（增强元文件）文件。 |
+| [EMF](#EMF) | 呈现文档的一页并将其保存为矢量 EMF（增强型元文件）文件。 |
 | [EPUB](#EPUB) | 以 EPUB 格式保存文档。 |
 | [FLAT_OPC](#FLAT-OPC) | 将文档另存为存储在平面 XML 文件而不是 ZIP 包中的 Office Open XML WordprocessingML。 |
 | [FLAT_OPC_MACRO_ENABLED](#FLAT-OPC-MACRO-ENABLED) | 将文档另存为 Office Open XML WordprocessingML 启用宏的文档，存储在平面 XML 文件而不是 ZIP 包中。 |
@@ -42,17 +42,17 @@ public class SaveFormat
 | [OPEN_XPS](#OPEN-XPS) | 以 OpenXPS (Ecma-388) 格式保存文档。 |
 | [OTT](#OTT) | 将文档另存为 ODF 文本文档模板。 |
 | [PCL](#PCL) | 以 PCL（打印机控制语言）格式保存文档。 |
-| [PDF](#PDF) | 将文档另存为 PDF（Adobe 便携式文档）格式。 |
-| [PNG](#PNG) | 呈现文档页面并将其保存为 PNG 文件。 |
+| [PDF](#PDF) | 将文档另存为 PDF (Adobe Portable Document) 格式。 |
+| [PNG](#PNG) | 呈现文档的页面并将其另存为 PNG 文件。 |
 | [PS](#PS) | 以 PS (PostScript) 格式保存文档。 |
 | [RTF](#RTF) | 以 RTF 格式保存文档。 |
 | [SVG](#SVG) | 以 Svg（可缩放矢量图形）格式保存文档。 |
 | [TEXT](#TEXT) | 以纯文本格式保存文档。 |
-| [TIFF](#TIFF) | 渲染文档的一页或多页并将它们保存到单页或多页 TIFF 文件中。 |
-| [UNKNOWN](#UNKNOWN) | 文件格式的默认值无效。 |
+| [TIFF](#TIFF) | 呈现文档的一页或多页并将它们保存到单个或多页 TIFF 文件中。 |
+| [UNKNOWN](#UNKNOWN) | 文件格式的默认、无效值。 |
 | [WORD_ML](#WORD-ML) | 以 Microsoft Word 2003 WordprocessingML 格式保存文档。 |
 | [XAML_FIXED](#XAML-FIXED) | 将可扩展应用程序标记语言 (XAML) 格式的文档另存为固定文档。 |
-| [XAML_FLOW](#XAML-FLOW) | **Beta.**以可扩展应用程序标记语言 (XAML) 格式将文档另存为流文档。 |
+| [XAML_FLOW](#XAML-FLOW) | **Beta.**将可扩展应用程序标记语言 (XAML) 格式的文档另存为流文档。 |
 | [XAML_FLOW_PACK](#XAML-FLOW-PACK) | **Beta.**以可扩展应用程序标记语言 (XAML) 包格式将文档另存为流文档。 |
 | [XPS](#XPS) | 以 XPS（XML 纸张规范）格式保存文档。 |
 | [length](#length) |  |
@@ -62,7 +62,7 @@ public class SaveFormat
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String saveFormatName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int saveFormat)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -87,7 +87,7 @@ public static int BMP
 ```
 
 
-渲染文档页面并将其保存为 BMP 文件。
+呈现文档的一页并将其另存为 BMP 文件。
 
 ### DOC {#DOC}
 ```
@@ -143,7 +143,7 @@ public static int EMF
 ```
 
 
-渲染文档页面并将其保存为矢量 EMF（增强元文件）文件。
+呈现文档的一页并将其保存为矢量 EMF（增强型元文件）文件。
 
 ### EPUB {#EPUB}
 ```
@@ -271,7 +271,7 @@ public static int PDF
 ```
 
 
-将文档另存为 PDF（Adobe 便携式文档）格式。
+将文档另存为 PDF (Adobe Portable Document) 格式。
 
 ### PNG {#PNG}
 ```
@@ -279,7 +279,7 @@ public static int PNG
 ```
 
 
-呈现文档页面并将其保存为 PNG 文件。
+呈现文档的页面并将其另存为 PNG 文件。
 
 ### PS {#PS}
 ```
@@ -319,7 +319,7 @@ public static int TIFF
 ```
 
 
-渲染文档的一页或多页并将它们保存到单页或多页 TIFF 文件中。
+呈现文档的一页或多页并将它们保存到单个或多页 TIFF 文件中。
 
 ### UNKNOWN {#UNKNOWN}
 ```
@@ -327,7 +327,7 @@ public static int UNKNOWN
 ```
 
 
-文件格式的默认值无效。
+文件格式的默认、无效值。
 
 ### WORD_ML {#WORD-ML}
 ```
@@ -351,7 +351,7 @@ public static int XAML_FLOW
 ```
 
 
-**Beta.**以可扩展应用程序标记语言 (XAML) 格式将文档另存为流文档。
+**Beta.**将可扩展应用程序标记语言 (XAML) 格式的文档另存为流文档。
 
 ### XAML_FLOW_PACK {#XAML-FLOW-PACK}
 ```
@@ -405,16 +405,16 @@ public static int fromName(String saveFormatName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int saveFormat) {#getName-int-}
 ```
 public static String getName(int saveFormat)

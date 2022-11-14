@@ -1,6 +1,6 @@
 ---
 title: ComparisonExpression
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 比较表达式。
 type: docs
 weight: 83
@@ -21,7 +21,7 @@ public class ComparisonExpression
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getComparisonOperator()](#getComparisonOperator--) | 获取比较运算符。 |
 | [getLeftExpression()](#getLeftExpression--) | 获取左侧表达式。 |
 | [getRightExpression()](#getRightExpression--) | 得到正确的表达。 |
@@ -47,16 +47,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getComparisonOperator() {#getComparisonOperator--}
 ```
 public String getComparisonOperator()

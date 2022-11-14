@@ -1,6 +1,6 @@
 ---
 title: LayoutOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 包含允许控制文档布局过程的选项。
 type: docs
 weight: 362
@@ -29,7 +29,7 @@ public class LayoutOptions implements Cloneable
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCallback()](#getCallback--) | 获取[IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback)页面布局模型使用的实现。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCommentDisplayMode()](#getCommentDisplayMode--) | 获取评论的呈现方式。 |
 | [getContinuousSectionPageNumberingRestart()](#getContinuousSectionPageNumberingRestart--) | 获取连续部分重新开始页码编号时计算页码的行为模式。 |
 | [getIgnorePrinterMetrics()](#getIgnorePrinterMetrics--) | 获取是否忽略“使用打印机指标布局文档”兼容性选项的指示。 |
@@ -76,16 +76,16 @@ public IPageLayoutCallback getCallback()
 
 **退货:**
 [IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback) -\{[IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback)页面布局模型使用的实现。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCommentDisplayMode() {#getCommentDisplayMode--}
 ```
 public int getCommentDisplayMode()
@@ -102,7 +102,7 @@ public int getContinuousSectionPageNumberingRestart()
 ```
 
 
-获取连续部分重新开始页码编号时计算页码的行为模式。默认值为[ContinuousSectionRestart.ALWAYS](../../com.aspose.words/continuoussectionrestart\#ALWAYS).它与引入该选项时的最新版本 MS Word 2019 的行为相匹配。 MS Word 2016 演示的旧页码逻辑可通过此选项获得。请[ContinuousSectionRestart](../../com.aspose.words/continuoussectionrestart)用于行为描述。
+获取当连续部分重新开始页码编号时计算页码的行为模式。默认值为[ContinuousSectionRestart.ALWAYS](../../com.aspose.words/continuoussectionrestart\#ALWAYS).它与 MS Word 2019 的行为相匹配，MS Word 2019 是引入该选项时的最新版本。通过此选项可以使用 MS Word 2016 演示的旧页码逻辑。请[ContinuousSectionRestart](../../com.aspose.words/continuoussectionrestart)对于行为描述。
 
 **退货:**
  int - 当连续部分重新开始页码时计算页码的行为模式。返回值是以下之一[ContinuousSectionRestart](../../com.aspose.words/continuoussectionrestart)常数。
@@ -112,10 +112,10 @@ public boolean getIgnorePrinterMetrics()
 ```
 
 
-获取是否忽略“使用打印机指标布局文档”兼容性选项的指示。默认为真。
+获取是否忽略“使用打印机指标来布置文档”兼容性选项的指示。默认为真。
 
 **退货:**
-boolean - 指示是否忽略“使用打印机指标布局文档”兼容性选项。
+布尔值 - 指示是否忽略“使用打印机指标来布置文档”兼容性选项。
 ### getRevisionOptions() {#getRevisionOptions--}
 ```
 public RevisionOptions getRevisionOptions()
@@ -132,7 +132,7 @@ public boolean getShowHiddenText()
 ```
 
 
-获取是否呈现文档中隐藏文本的指示。默认为假。此属性影响所有隐藏内容，而不仅仅是文本。
+获取是否呈现文档中的隐藏文本的指示。默认为假。此属性影响所有隐藏的内容，而不仅仅是文本。
 
 **退货:**
 boolean - 指示是否呈现文档中的隐藏文本。
@@ -206,7 +206,7 @@ public void setCommentDisplayMode(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 评论的呈现方式。该值必须是以下之一[CommentDisplayMode](../../com.aspose.words/commentdisplaymode)常数。 |
+| value | int | 评论的呈现方式。该值必须是其中之一[CommentDisplayMode](../../com.aspose.words/commentdisplaymode)常数。 |
 
 ### setContinuousSectionPageNumberingRestart(int value) {#setContinuousSectionPageNumberingRestart-int-}
 ```
@@ -214,12 +214,12 @@ public void setContinuousSectionPageNumberingRestart(int value)
 ```
 
 
-设置当连续部分重新开始页码时计算页码的行为模式。默认值为[ContinuousSectionRestart.ALWAYS](../../com.aspose.words/continuoussectionrestart\#ALWAYS).它与引入该选项时的最新版本 MS Word 2019 的行为相匹配。 MS Word 2016 演示的旧页码逻辑可通过此选项获得。请[ContinuousSectionRestart](../../com.aspose.words/continuoussectionrestart)用于行为描述。
+设置当连续部分重新开始页码时计算页码的行为模式。默认值为[ContinuousSectionRestart.ALWAYS](../../com.aspose.words/continuoussectionrestart\#ALWAYS).它与 MS Word 2019 的行为相匹配，MS Word 2019 是引入该选项时的最新版本。通过此选项可以使用 MS Word 2016 演示的旧页码逻辑。请[ContinuousSectionRestart](../../com.aspose.words/continuoussectionrestart)对于行为描述。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 当连续部分重新开始页码时计算页码的行为模式。该值必须是以下之一[ContinuousSectionRestart](../../com.aspose.words/continuoussectionrestart)常数。 |
+| value | int | 当连续部分重新开始页码时计算页码的行为模式。该值必须是其中之一[ContinuousSectionRestart](../../com.aspose.words/continuoussectionrestart)常数。 |
 
 ### setIgnorePrinterMetrics(boolean value) {#setIgnorePrinterMetrics-boolean-}
 ```

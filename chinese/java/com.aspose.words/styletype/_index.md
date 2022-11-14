@@ -1,6 +1,6 @@
 ---
-title: Style类型
-second_title: Aspose.Words for Java API Reference
+title: StyleType
+second_title: Aspose.Words for Java API 参考
 description: 表示样式的类型。
 type: docs
 weight: 539
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/styletype/
 **遗产:**
 java.lang.Object
 ```
-public class Style类型
+public class StyleType
 ```
 
 表示样式的类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CHARACTER](#CHARACTER) | 样式是字符样式。 |
 | [LIST](#LIST) | 样式是列表样式。 |
@@ -28,15 +28,15 @@ public class Style类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String style类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int style类型)](#getName-int-) |  |
+| [fromName(String styleTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int styleType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int style类型)](#toString-int-) |  |
+| [toString(int styleType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -93,9 +93,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String style类型Name) {#fromName-java.lang.String-}
+### fromName(String styleTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String style类型Name)
+public static int fromName(String styleTypeName)
 ```
 
 
@@ -104,23 +104,23 @@ public static int fromName(String style类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| style类型Name | java.lang.String |  |
+| styleTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int style类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int styleType) {#getName-int-}
 ```
-public static String getName(int style类型)
+public static String getName(int styleType)
 ```
 
 
@@ -129,7 +129,7 @@ public static String getName(int style类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| style类型 | int |  |
+| styleType | int |  |
 
 **退货:**
 java.lang.String
@@ -179,9 +179,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int style类型) {#toString-int-}
+### toString(int styleType) {#toString-int-}
 ```
-public static String toString(int style类型)
+public static String toString(int styleType)
 ```
 
 
@@ -190,7 +190,7 @@ public static String toString(int style类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| style类型 | int |  |
+| styleType | int |  |
 
 **退货:**
 java.lang.String

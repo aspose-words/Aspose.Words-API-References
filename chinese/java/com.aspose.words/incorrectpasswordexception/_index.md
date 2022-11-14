@@ -1,6 +1,6 @@
 ---
 title: IncorrectPasswordException
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 如果文档使用密码加密并且打开文档时指定的密码不正确或丢失，则抛出此错误。
 type: docs
 weight: 348
@@ -24,7 +24,7 @@ public class IncorrectPasswordException extends Exception
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
 | [getMessage()](#getMessage--) |  |
 | [getStackTrace()](#getStackTrace--) |  |
@@ -89,16 +89,16 @@ public synchronized Throwable getCause()
 
 **退货:**
 java.lang.Throwable
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getLocalizedMessage() {#getLocalizedMessage--}
 ```
 public String getLocalizedMessage()

@@ -1,7 +1,7 @@
 ---
-title: CssStyleSheet类型
-second_title: Aspose.Words for Java API Reference
-description: 指定如何将 CSS 层叠样式表样式导出为 HTML。
+title: CssStyleSheetType
+second_title: Aspose.Words for Java API 参考
+description: 指定如何将 CSS 级联样式表样式导出到 HTML。
 type: docs
 weight: 97
 url: /zh/java/com.aspose.words/cssstylesheettype/
@@ -10,16 +10,16 @@ url: /zh/java/com.aspose.words/cssstylesheettype/
 **遗产:**
 java.lang.Object
 ```
-public class CssStyleSheet类型
+public class CssStyleSheetType
 ```
 
 指定如何将 CSS（层叠样式表）样式导出为 HTML。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [EMBEDDED](#EMBEDDED) | CSS 样式与嵌入在 HTML 文件中的样式表中的内容分开编写。 |
-| [EXTERNAL](#EXTERNAL) | CSS 样式与外部文件的样式表中的内容分开编写。 |
+| [EXTERNAL](#EXTERNAL) | CSS 样式与外部文件中样式表的内容分开编写。 |
 | [INLINE](#INLINE) |  CSS 样式是内联编写的（作为**style**每个元素的属性）。 |
 | [length](#length) |  |
 ## 方法
@@ -27,15 +27,15 @@ public class CssStyleSheet类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String cssStyleSheet类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int cssStyleSheet类型)](#getName-int-) |  |
+| [fromName(String cssStyleSheetTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int cssStyleSheetType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int cssStyleSheet类型)](#toString-int-) |  |
+| [toString(int cssStyleSheetType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -53,7 +53,7 @@ public static int EXTERNAL
 ```
 
 
-CSS 样式与外部文件的样式表中的内容分开编写。 HTML 文件链接样式表。
+CSS 样式与外部文件中样式表的内容分开编写。 HTML 文件链接样式表。
 
 ### INLINE {#INLINE}
 ```
@@ -84,9 +84,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String cssStyleSheet类型Name) {#fromName-java.lang.String-}
+### fromName(String cssStyleSheetTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String cssStyleSheet类型Name)
+public static int fromName(String cssStyleSheetTypeName)
 ```
 
 
@@ -95,23 +95,23 @@ public static int fromName(String cssStyleSheet类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cssStyleSheet类型Name | java.lang.String |  |
+| cssStyleSheetTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int cssStyleSheet类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int cssStyleSheetType) {#getName-int-}
 ```
-public static String getName(int cssStyleSheet类型)
+public static String getName(int cssStyleSheetType)
 ```
 
 
@@ -120,7 +120,7 @@ public static String getName(int cssStyleSheet类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cssStyleSheet类型 | int |  |
+| cssStyleSheetType | int |  |
 
 **退货:**
 java.lang.String
@@ -170,9 +170,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int cssStyleSheet类型) {#toString-int-}
+### toString(int cssStyleSheetType) {#toString-int-}
 ```
-public static String toString(int cssStyleSheet类型)
+public static String toString(int cssStyleSheetType)
 ```
 
 
@@ -181,7 +181,7 @@ public static String toString(int cssStyleSheet类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cssStyleSheet类型 | int |  |
+| cssStyleSheetType | int |  |
 
 **退货:**
 java.lang.String

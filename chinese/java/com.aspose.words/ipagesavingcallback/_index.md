@@ -1,6 +1,6 @@
 ---
 title: IPageSavingCallback
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 如果您想控制 Aspose.Words 在将文档保存为固定页面格式时如何保存单独的页面，请实现此接口。
 type: docs
 weight: 654

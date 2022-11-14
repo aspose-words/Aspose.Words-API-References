@@ -1,6 +1,6 @@
 ---
 title: SdtAppearance
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定结构化文档标签的外观。
 type: docs
 weight: 503
@@ -16,7 +16,7 @@ public class SdtAppearance
 指定结构化文档标签的外观。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BOUNDING_BOX](#BOUNDING-BOX) | 表示显示为阴影矩形或边界框的结构化文档标签。 |
 | [DEFAULT](#DEFAULT) | 默认为[BOUNDING\_BOX](../../com.aspose.words/sdtappearance\#BOUNDING-BOX). |
@@ -29,7 +29,7 @@ public class SdtAppearance
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String sdtAppearanceName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int sdtAppearance)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -108,16 +108,16 @@ public static int fromName(String sdtAppearanceName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int sdtAppearance) {#getName-int-}
 ```
 public static String getName(int sdtAppearance)

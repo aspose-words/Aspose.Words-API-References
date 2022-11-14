@@ -1,6 +1,6 @@
 ---
 title: SignatureLine
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 提供对签名行属性的访问。
 type: docs
 weight: 524
@@ -22,7 +22,7 @@ public class SignatureLine
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAllowComments()](#getAllowComments--) | 获取一个值，该值指示签名者可以在“签名”对话框中添加注释。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDefaultInstructions()](#getDefaultInstructions--) | 获取一个值，该值指示默认指令显示在“签名”对话框中。 |
 | [getEmail()](#getEmail--) | 获取建议的签名者的电子邮件地址。 |
 | [getId()](#getId--) | 获取此签名行的标识符。 |
@@ -74,16 +74,16 @@ public boolean getAllowComments()
 
 **退货:**
 boolean - 指示签名者可以在“签名”对话框中添加注释的值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDefaultInstructions() {#getDefaultInstructions--}
 ```
 public boolean getDefaultInstructions()
@@ -132,16 +132,16 @@ public UUID getProviderId()
 ```
 
 
-获取此签名行的签名提供者标识符。默认值为“\{00000000-0000-0000-0000-000000000000\}”。
+获取此签名行的签名提供程序标识符。默认值为“\{00000000-0000-0000-0000-000000000000\}”。
 
-加密服务提供者 (CSP) 是一个独立的软件模块，它实际上执行用于身份验证、编码和加密的加密算法。 MS Office 保留的价值\{00000000-0000-0000-0000-000000000000\为其默认签名提供者。
+密码服务提供程序 (CSP) 是一个独立的软件模块，它实际执行用于身份验证、编码和加密的密码算法。 MS Office 保留的价值\{00000000-0000-0000-0000-000000000000\为其默认签名提供程序。
 
 额外安装的提供程序的 GUID 应从提供程序随附的文档中获取。
 
-此外，所有已安装的加密提供程序都在 Windows 注册表中枚举。可以在以下路径中找到：HKLM\\软件\\微软\\密码学\\默认值\\提供者。有一个密钥名称“CP Service UUID”，它对应于签名提供者的 GUID。
+此外，Windows 注册表中列举了所有已安装的加密提供程序。可以在以下路径找到：HKLM\\软件\\微软\\密码学\\默认值\\供应商。有一个密钥名称“CP Service UUID”，它对应于签名提供者的 GUID。
 
 **退货:**
-java.util.UUID - 此签名行的签名提供者标识符。
+java.util.UUID - 此签名行的签名提供程序标识符。
 ### getShowDate() {#getShowDate--}
 ```
 public boolean getShowDate()
@@ -151,7 +151,7 @@ public boolean getShowDate()
 获取一个值，该值指示签名日期显示在签名行中。此属性的默认值为**true**.
 
 **退货:**
-boolean - 指示签名日期显示在签名行中的值。
+布尔值 - 指示签名行中显示的签名日期的值。
 ### getSigner() {#getSigner--}
 ```
 public String getSigner()
@@ -171,7 +171,7 @@ public String getSignerTitle()
 获取建议的签名者的头衔（例如，经理）。此属性的默认值为**empty string**.
 
 **退货:**
-java.lang.String - 建议的签名者头衔（例如，经理）。
+java.lang.String - 建议的签名者职位（例如，经理）。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -229,7 +229,7 @@ public void setAllowComments(boolean value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 指示签名者可以在“签名”对话框中添加注释的值。 |
+| value | boolean | 一个值，指示签名者可以在“签名”对话框中添加评论。 |
 
 ### setDefaultInstructions(boolean value) {#setDefaultInstructions-boolean-}
 ```
@@ -293,11 +293,11 @@ public void setProviderId(UUID value)
 
 设置此签名行的签名提供者标识符。默认值为“\{00000000-0000-0000-0000-000000000000\}”。
 
-加密服务提供者 (CSP) 是一个独立的软件模块，它实际上执行用于身份验证、编码和加密的加密算法。 MS Office 保留的价值\{00000000-0000-0000-0000-000000000000\为其默认签名提供者。
+密码服务提供程序 (CSP) 是一个独立的软件模块，它实际执行用于身份验证、编码和加密的密码算法。 MS Office 保留的价值\{00000000-0000-0000-0000-000000000000\为其默认签名提供程序。
 
 额外安装的提供程序的 GUID 应从提供程序随附的文档中获取。
 
-此外，所有已安装的加密提供程序都在 Windows 注册表中枚举。可以在以下路径中找到：HKLM\\软件\\微软\\密码学\\默认值\\提供者。有一个密钥名称“CP Service UUID”，它对应于签名提供者的 GUID。
+此外，Windows 注册表中列举了所有已安装的加密提供程序。可以在以下路径找到：HKLM\\软件\\微软\\密码学\\默认值\\供应商。有一个密钥名称“CP Service UUID”，它对应于签名提供者的 GUID。
 
 **参数:**
 | 范围 | 类型 | 描述 |

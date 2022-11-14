@@ -1,6 +1,6 @@
 ---
-title: Border类型
-second_title: Aspose.Words for Java API Reference
+title: BorderType
+second_title: Aspose.Words for Java API 参考
 description: 指定边框的边。
 type: docs
 weight: 38
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/bordertype/
 **遗产:**
 java.lang.Object
 ```
-public class Border类型
+public class BorderType
 ```
 
 指定边框的边。
@@ -18,7 +18,7 @@ public class Border类型
 要了解更多信息，请访问**Programming with Documents**文档文章。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BOTTOM](#BOTTOM) | 指定段落或表格单元格的底部边框。 |
 | [DIAGONAL_DOWN](#DIAGONAL-DOWN) | 指定表格单元格中的对角线边框。 |
@@ -35,15 +35,15 @@ public class Border类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String border类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int border类型)](#getName-int-) |  |
+| [fromName(String borderTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int borderType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int border类型)](#toString-int-) |  |
+| [toString(int borderType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -140,9 +140,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String border类型Name) {#fromName-java.lang.String-}
+### fromName(String borderTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String border类型Name)
+public static int fromName(String borderTypeName)
 ```
 
 
@@ -151,23 +151,23 @@ public static int fromName(String border类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| border类型Name | java.lang.String |  |
+| borderTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int border类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int borderType) {#getName-int-}
 ```
-public static String getName(int border类型)
+public static String getName(int borderType)
 ```
 
 
@@ -176,7 +176,7 @@ public static String getName(int border类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| border类型 | int |  |
+| borderType | int |  |
 
 **退货:**
 java.lang.String
@@ -226,9 +226,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int border类型) {#toString-int-}
+### toString(int borderType) {#toString-int-}
 ```
-public static String toString(int border类型)
+public static String toString(int borderType)
 ```
 
 
@@ -237,7 +237,7 @@ public static String toString(int border类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| border类型 | int |  |
+| borderType | int |  |
 
 **退货:**
 java.lang.String

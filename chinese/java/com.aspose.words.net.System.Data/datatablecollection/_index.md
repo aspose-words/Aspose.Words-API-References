@@ -1,6 +1,6 @@
 ---
 title: DataTableCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示 的表的集合。
 type: docs
 weight: 26
@@ -28,7 +28,7 @@ public class DataTableCollection implements Iterable
 | [get(int index)](#get-int-) | 获取[DataTable](../../com.aspose.words.net.system.data/datatable)指定索引处的对象。 |
 | [get(String name)](#get-java.lang.String-) | 获取[DataTable](../../com.aspose.words.net.system.data/datatable)具有指定名称的对象。 |
 | [get(String name, String tableNamespace)](#get-java.lang.String-java.lang.String-) | 获取[DataTable](../../com.aspose.words.net.system.data/datatable)指定命名空间中具有指定名称的对象。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) |  |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) |  |
@@ -142,16 +142,16 @@ public System.Data.DataTable get(String name, String tableNamespace)
 
 **退货:**
 [DataTable](../../com.aspose.words.net.system.data/datatable) - 一个[DataTable](../../com.aspose.words.net.system.data/datatable)具有指定名称；如果[DataTable](../../com.aspose.words.net.system.data/datatable)不存在。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

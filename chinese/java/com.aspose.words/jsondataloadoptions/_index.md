@@ -1,6 +1,6 @@
 ---
 title: JsonDataLoadOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示解析 JSON 数据的选项。
 type: docs
 weight: 353
@@ -17,7 +17,7 @@ public class JsonDataLoadOptions
 
 要了解更多信息，请访问**LINQ Reporting Engine**文档文章。
 
-此类的实例可以传递给[JsonDataSource](../../com.aspose.words/jsondatasource).
+此类的实例可以传递给的构造函数[JsonDataSource](../../com.aspose.words/jsondatasource).
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -28,10 +28,10 @@ public class JsonDataLoadOptions
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAlwaysGenerateRootObject()](#getAlwaysGenerateRootObject--) | 获取一个标志，该标志指示生成的数据源是否将始终包含 JSON 根元素的对象。 |
-| [get班级()](#get班级--) |  |
+| [getAlwaysGenerateRootObject()](#getAlwaysGenerateRootObject--) | 获取一个标志，该标志指示生成的数据源是否始终包含 JSON 根元素的对象。 |
+| [getClass()](#getClass--) |  |
 | [getExactDateTimeParseFormat()](#getExactDateTimeParseFormat--) | 获取在加载 JSON 时解析 JSON 日期时间值的准确格式。 |
-| [getExactDateTimeParseFormats()](#getExactDateTimeParseFormats--) | 获取在加载 JSON 时解析 JSON 日期时间值的确切格式。 |
+| [getExactDateTimeParseFormats()](#getExactDateTimeParseFormats--) | 获取在加载 JSON 时解析 JSON 日期时间值的准确格式。 |
 | [getSimpleValueParseMode()](#getSimpleValueParseMode--) | 获取在加载 JSON 时解析 JSON 简单值（null、布尔值、数字、整数和字符串）的模式。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -77,16 +77,16 @@ public boolean getAlwaysGenerateRootObject()
 
 **退货:**
 boolean - 一个标志，指示生成的数据源是否将始终包含 JSON 根元素的对象。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getExactDateTimeParseFormat() {#getExactDateTimeParseFormat--}
 ```
 public String getExactDateTimeParseFormat()
@@ -118,17 +118,17 @@ public Iterable getExactDateTimeParseFormats()
  *  什么时候[getExactDateTimeParseFormats()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormats--) / [setExactDateTimeParseFormats(java.lang.Iterable)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormats-java.lang.Iterable-)为空，不使用额外的日期时间格式。
 
 **退货:**
-java.lang.Iterable - 加载 JSON 时解析 JSON 日期时间值的精确格式。
+java.lang.Iterable - 在加载 JSON 时解析 JSON 日期时间值的精确格式。
 ### getSimpleValueParseMode() {#getSimpleValueParseMode--}
 ```
 public int getSimpleValueParseMode()
 ```
 
 
-获取在加载 JSON 时解析 JSON 简单值（null、布尔值、数字、整数和字符串）的模式。这种模式不会影响日期时间值的解析。默认是[JsonSimpleValueParseMode.LOOSE](../../com.aspose.words/jsonsimplevalueparsemode\#LOOSE).
+获取在加载 JSON 时解析 JSON 简单值（空值、布尔值、数字、整数和字符串）的模式。这种模式不会影响日期时间值的解析。默认是[JsonSimpleValueParseMode.LOOSE](../../com.aspose.words/jsonsimplevalueparsemode\#LOOSE).
 
 **退货:**
-int - 一种在加载 JSON 时解析 JSON 简单值（null、布尔值、数字、整数和字符串）的模式。返回值是以下之一[JsonSimpleValueParseMode](../../com.aspose.words/jsonsimplevalueparsemode)常数。
+int - 一种在加载 JSON 时解析 JSON 简单值（空值、布尔值、数字、整数和字符串）的模式。返回值是以下之一[JsonSimpleValueParseMode](../../com.aspose.words/jsonsimplevalueparsemode)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -161,12 +161,12 @@ public void setAlwaysGenerateRootObject(boolean value)
 ```
 
 
-设置一个标志，指示生成的数据源是否将始终包含 JSON 根元素的对象。如果 JSON 根元素包含单个复杂属性，则默认情况下不会创建此类对象。默认值为**false**.
+设置一个标志，指示生成的数据源是否始终包含 JSON 根元素的对象。如果 JSON 根元素包含单个复杂属性，则默认情况下不会创建此类对象。默认值为**false**.
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 一个标志，指示生成的数据源是否将始终包含 JSON 根元素的对象。 |
+| value | boolean | 指示生成的数据源是否始终包含 JSON 根元素的对象的标志。 |
 
 ### setExactDateTimeParseFormat(String value) {#setExactDateTimeParseFormat-java.lang.String-}
 ```
@@ -174,7 +174,7 @@ public void setExactDateTimeParseFormat(String value)
 ```
 
 
-设置在加载 JSON 时解析 JSON 日期时间值的精确格式。默认是**null**.
+设置在加载 JSON 时解析 JSON 日期时间值的确切格式。默认是**null**.
 
 使用 Microsoft JSON 日期时间格式编码的字符串（例如，“/Date(1224043200000)/”）始终被识别为日期时间值，无论此属性的值如何。该属性定义了在以下列方式解析字符串中的日期时间值时要使用的其他格式：
 
@@ -193,7 +193,7 @@ public void setExactDateTimeParseFormats(Iterable value)
 ```
 
 
-设置在加载 JSON 时解析 JSON 日期时间值的确切格式。默认是**null**.
+设置加载 JSON 时解析 JSON 日期时间值的确切格式。默认是**null**.
 
 使用 Microsoft JSON 日期时间格式编码的字符串（例如，“/Date(1224043200000)/”）始终被识别为日期时间值，无论此属性的值如何。该属性定义了在以下列方式解析字符串中的日期时间值时要使用的其他格式：
 
@@ -204,7 +204,7 @@ public void setExactDateTimeParseFormats(Iterable value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Iterable | 加载 JSON 时解析 JSON 日期时间值的确切格式。 |
+| value | java.lang.Iterable | 加载 JSON 时解析 JSON 日期时间值的精确格式。 |
 
 ### setSimpleValueParseMode(int value) {#setSimpleValueParseMode-int-}
 ```
@@ -212,12 +212,12 @@ public void setSimpleValueParseMode(int value)
 ```
 
 
-设置在加载 JSON 时解析 JSON 简单值（null、布尔值、数字、整数和字符串）的模式。这种模式不会影响日期时间值的解析。默认是[JsonSimpleValueParseMode.LOOSE](../../com.aspose.words/jsonsimplevalueparsemode\#LOOSE).
+设置在加载 JSON 时解析 JSON 简单值（空值、布尔值、数字、整数和字符串）的模式。这种模式不会影响日期时间值的解析。默认是[JsonSimpleValueParseMode.LOOSE](../../com.aspose.words/jsonsimplevalueparsemode\#LOOSE).
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 一种在加载 JSON 时解析 JSON 简单值（null、布尔值、数字、整数和字符串）的模式。该值必须是以下之一[JsonSimpleValueParseMode](../../com.aspose.words/jsonsimplevalueparsemode)常数。 |
+| value | int | 一种在加载 JSON 时解析 JSON 简单值（空值、布尔值、数字、整数和字符串）的模式。该值必须是其中之一[JsonSimpleValueParseMode](../../com.aspose.words/jsonsimplevalueparsemode)常数。 |
 
 ### toString() {#toString--}
 ```

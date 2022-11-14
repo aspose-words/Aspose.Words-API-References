@@ -1,6 +1,6 @@
 ---
-title: FontSource类型
-second_title: Aspose.Words for Java API Reference
+title: FontSourceType
+second_title: Aspose.Words for Java API 参考
 description: 指定字体源的类型。
 type: docs
 weight: 288
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/fontsourcetype/
 **遗产:**
 java.lang.Object
 ```
-public class FontSource类型
+public class FontSourceType
 ```
 
 指定字体源的类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [FONTS_FOLDER](#FONTS-FOLDER) | 一个[FolderFontSource](../../com.aspose.words/folderfontsource)表示带有字体文件的文件夹的对象。 |
 | [FONT_FILE](#FONT-FILE) | 一个[FileFontSource](../../com.aspose.words/filefontsource)表示单个字体文件的对象。 |
@@ -29,15 +29,15 @@ public class FontSource类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String fontSource类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int fontSource类型)](#getName-int-) |  |
+| [fromName(String fontSourceTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int fontSourceType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int fontSource类型)](#toString-int-) |  |
+| [toString(int fontSourceType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -102,9 +102,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String fontSource类型Name) {#fromName-java.lang.String-}
+### fromName(String fontSourceTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String fontSource类型Name)
+public static int fromName(String fontSourceTypeName)
 ```
 
 
@@ -113,23 +113,23 @@ public static int fromName(String fontSource类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fontSource类型Name | java.lang.String |  |
+| fontSourceTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int fontSource类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int fontSourceType) {#getName-int-}
 ```
-public static String getName(int fontSource类型)
+public static String getName(int fontSourceType)
 ```
 
 
@@ -138,7 +138,7 @@ public static String getName(int fontSource类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fontSource类型 | int |  |
+| fontSourceType | int |  |
 
 **退货:**
 java.lang.String
@@ -188,9 +188,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int fontSource类型) {#toString-int-}
+### toString(int fontSourceType) {#toString-int-}
 ```
-public static String toString(int fontSource类型)
+public static String toString(int fontSourceType)
 ```
 
 
@@ -199,7 +199,7 @@ public static String toString(int fontSource类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fontSource类型 | int |  |
+| fontSourceType | int |  |
 
 **退货:**
 java.lang.String

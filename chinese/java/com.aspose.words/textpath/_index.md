@@ -1,6 +1,6 @@
 ---
 title: TextPath
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 定义艺术字对象的文本路径的文本和格式。
 type: docs
 weight: 567
@@ -13,7 +13,7 @@ java.lang.Object
 public class TextPath
 ```
 
-定义文本路径（艺术字对象）的文本和格式。
+定义（艺术字对象的）文本路径的文本和格式。
 
 要了解更多信息，请访问**Working with Shapes**文档文章。
 
@@ -24,7 +24,7 @@ public class TextPath
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBold()](#getBold--) | 如果字体格式为粗体，则为真。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getFitPath()](#getFitPath--) | 定义文本是否适合形状的路径。 |
 | [getFitShape()](#getFitShape--) | 定义文本是否适合形状的边界框。 |
 | [getFontFamily()](#getFontFamily--) | 定义 textpath 字体的系列。 |
@@ -98,16 +98,16 @@ public boolean getBold()
 
 **退货:**
 boolean - 对应的布尔值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getFitPath() {#getFitPath--}
 ```
 public boolean getFitPath()

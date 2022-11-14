@@ -1,7 +1,7 @@
 ---
 title: WrapSide
-second_title: Aspose.Words for Java API Reference
-description: 指定文本环绕的形状或图片的哪一侧。
+second_title: Aspose.Words for Java API 参考
+description: 指定文本围绕形状或图片的哪一侧。
 type: docs
 weight: 621
 url: /zh/java/com.aspose.words/wrapside/
@@ -16,7 +16,7 @@ public class WrapSide
 指定文本环绕的形状或图片的哪一侧。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BOTH](#BOTH) | 文档文本环绕在形状的两侧。 |
 | [DEFAULT](#DEFAULT) | 默认值为[BOTH](../../com.aspose.words/wrapside\#BOTH). |
@@ -30,7 +30,7 @@ public class WrapSide
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String wrapSideName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int wrapSide)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -117,16 +117,16 @@ public static int fromName(String wrapSideName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int wrapSide) {#getName-int-}
 ```
 public static String getName(int wrapSide)

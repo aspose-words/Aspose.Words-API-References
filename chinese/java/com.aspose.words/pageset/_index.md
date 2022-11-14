@@ -1,7 +1,7 @@
 ---
 title: PageSet
-second_title: Aspose.Words for Java API Reference
-description: 描述一组随机的页面。
+second_title: Aspose.Words for Java API 参考
+description: 描述一组随机页面。
 type: docs
 weight: 439
 url: /zh/java/com.aspose.words/pageset/
@@ -13,7 +13,7 @@ java.lang.Object
 public class PageSet
 ```
 
-描述一组随机的页面。
+描述一组随机页面。
 
 要了解更多信息，请访问**Programming with Documents**文档文章。
 ## 构造函数
@@ -28,10 +28,10 @@ public class PageSet
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAll()](#getAll--) | 以原始顺序获取文档所有页面的集合。 |
-| [get班级()](#get班级--) |  |
-| [getEven()](#getEven--) | 获取文档中所有偶数页按原始顺序排列的集合。 |
-| [getOdd()](#getOdd--) | 获取一个集合，其中包含文档中所有奇数页的原始顺序。 |
+| [getAll()](#getAll--) | 获取文档所有页面按原始顺序排列的集合。 |
+| [getClass()](#getClass--) |  |
+| [getEven()](#getEven--) | 获取文档的所有偶数页按其原始顺序排列的集合。 |
+| [getOdd()](#getOdd--) | 获取文档的所有奇数页按其原始顺序排列的集合。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -50,7 +50,7 @@ public PageSet(int page)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| page | int | 页面的从零开始的索引。如果遇到不在文档中的页面，在渲染过程中会抛出异常。表示文档中的最后一页。 |
+| page | int | 页面的从零开始的索引。如果遇到不在文档中的页面，渲染时会抛出异常。表示文档中的最后一页。 |
 
 ### PageSet(int[] pages) {#PageSet-int...-}
 ```
@@ -63,7 +63,7 @@ public PageSet(int[] pages)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pages | int[] | 从零开始的页面索引。如果遇到不在文档中的页面，在渲染过程中会抛出异常。表示文档中的最后一页。 |
+| pages | int[] | 从零开始的页面索引。如果遇到不在文档中的页面，渲染时会抛出异常。表示文档中的最后一页。 |
 
 ### PageSet(PageRange[] ranges) {#PageSet-com.aspose.words.PageRange...-}
 ```
@@ -99,20 +99,20 @@ public static PageSet getAll()
 ```
 
 
-以原始顺序获取文档所有页面的集合。
+获取文档所有页面按原始顺序排列的集合。
 
 **退货:**
 [PageSet](../../com.aspose.words/pageset) - 一组文档的所有页面都按原始顺序排列。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getEven() {#getEven--}
 ```
 public static PageSet getEven()

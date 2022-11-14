@@ -1,6 +1,6 @@
 ---
-title: 字段类型
-second_title: Aspose.Words for Java API Reference
+title: FieldType
+second_title: Aspose.Words for Java API 参考
 description: 指定 Microsoft Word 字段类型。
 type: docs
 weight: 256
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/fieldtype/
 **遗产:**
 java.lang.Object
 ```
-public class 字段类型
+public class FieldType
 ```
 
 指定 Microsoft Word 字段类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [FIELD_ADDIN](#FIELD-ADDIN) | 指定 ADDIN 字段。 |
 | [FIELD_ADDRESS_BLOCK](#FIELD-ADDRESS-BLOCK) | 指定 ADDRESSBLOCK 字段。 |
@@ -26,17 +26,17 @@ public class 字段类型
 | [FIELD_AUTO_NUM](#FIELD-AUTO-NUM) | 指定 AUTONUM 字段。 |
 | [FIELD_AUTO_NUM_LEGAL](#FIELD-AUTO-NUM-LEGAL) | 指定 AUTONUMLGL 字段。 |
 | [FIELD_AUTO_NUM_OUTLINE](#FIELD-AUTO-NUM-OUTLINE) | 指定 AUTONUMOUT 字段。 |
-| [FIELD_AUTO_TEXT](#FIELD-AUTO-TEXT) | 指定自动文本字段。 |
+| [FIELD_AUTO_TEXT](#FIELD-AUTO-TEXT) | 指定 AUTOTEXT 字段。 |
 | [FIELD_AUTO_TEXT_LIST](#FIELD-AUTO-TEXT-LIST) | 指定 AUTOTEXTLIST 字段。 |
 | [FIELD_BARCODE](#FIELD-BARCODE) | 指定条形码字段。 |
-| [FIELD_BIBLIOGRAPHY](#FIELD-BIBLIOGRAPHY) | 指定书目字段。 |
+| [FIELD_BIBLIOGRAPHY](#FIELD-BIBLIOGRAPHY) | 指定 BIBLIOGRAPHY 字段。 |
 | [FIELD_BIDI_OUTLINE](#FIELD-BIDI-OUTLINE) | 指定 BIDIOUTLINE 字段。 |
 | [FIELD_CANNOT_PARSE](#FIELD-CANNOT-PARSE) | 指定无法解析该字段。 |
 | [FIELD_CITATION](#FIELD-CITATION) | 指定引文字段。 |
 | [FIELD_COMMENTS](#FIELD-COMMENTS) | 指定 COMMENTS 字段。 |
 | [FIELD_COMPARE](#FIELD-COMPARE) | 指定比较字段。 |
 | [FIELD_CREATE_DATE](#FIELD-CREATE-DATE) | 指定 CREATEDATE 字段。 |
-| [FIELD_DATA](#FIELD-DATA) | 指定 DATA 字段。 |
+| [FIELD_DATA](#FIELD-DATA) | 指定数据字段。 |
 | [FIELD_DATABASE](#FIELD-DATABASE) | 指定数据库字段。 |
 | [FIELD_DATE](#FIELD-DATE) | 指定日期字段。 |
 | [FIELD_DDE](#FIELD-DDE) | 指定 DDE 字段。 |
@@ -121,15 +121,15 @@ public class 字段类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String field类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int field类型)](#getName-int-) |  |
+| [fromName(String fieldTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int fieldType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int field类型)](#toString-int-) |  |
+| [toString(int fieldType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -203,7 +203,7 @@ public static int FIELD_AUTO_TEXT
 ```
 
 
-指定自动文本字段。
+指定 AUTOTEXT 字段。
 
 ### FIELD_AUTO_TEXT_LIST {#FIELD-AUTO-TEXT-LIST}
 ```
@@ -227,7 +227,7 @@ public static int FIELD_BIBLIOGRAPHY
 ```
 
 
-指定书目字段。
+指定 BIBLIOGRAPHY 字段。
 
 ### FIELD_BIDI_OUTLINE {#FIELD-BIDI-OUTLINE}
 ```
@@ -283,7 +283,7 @@ public static int FIELD_DATA
 ```
 
 
-指定 DATA 字段。
+指定数据字段。
 
 ### FIELD_DATABASE {#FIELD-DATABASE}
 ```
@@ -932,9 +932,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String field类型Name) {#fromName-java.lang.String-}
+### fromName(String fieldTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String field类型Name)
+public static int fromName(String fieldTypeName)
 ```
 
 
@@ -943,23 +943,23 @@ public static int fromName(String field类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| field类型Name | java.lang.String |  |
+| fieldTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int field类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int fieldType) {#getName-int-}
 ```
-public static String getName(int field类型)
+public static String getName(int fieldType)
 ```
 
 
@@ -968,7 +968,7 @@ public static String getName(int field类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| field类型 | int |  |
+| fieldType | int |  |
 
 **退货:**
 java.lang.String
@@ -1018,9 +1018,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int field类型) {#toString-int-}
+### toString(int fieldType) {#toString-int-}
 ```
-public static String toString(int field类型)
+public static String toString(int fieldType)
 ```
 
 
@@ -1029,7 +1029,7 @@ public static String toString(int field类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| field类型 | int |  |
+| fieldType | int |  |
 
 **退货:**
 java.lang.String

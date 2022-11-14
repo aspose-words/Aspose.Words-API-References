@@ -1,6 +1,6 @@
 ---
-title: Odso字段Mapping类型
-second_title: Aspose.Words for Java API Reference
+title: OdsoFieldMappingType
+second_title: Aspose.Words for Java API 参考
 description: 指定用于指示给定邮件合并字段是否已映射到给定外部数据源中的列的可能类型。
 type: docs
 weight: 415
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/odsofieldmappingtype/
 **遗产:**
 java.lang.Object
 ```
-public class Odso字段Mapping类型
+public class OdsoFieldMappingType
 ```
 
 指定用于指示给定邮件合并字段是否已映射到给定外部数据源中的列的可能类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [COLUMN](#COLUMN) | 指定邮件合并字段已映射到给定外部数据源中的列。 |
 | [DEFAULT](#DEFAULT) | 等于[NULL](../../com.aspose.words/odsofieldmappingtype\#NULL). |
@@ -27,15 +27,15 @@ public class Odso字段Mapping类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String odso字段Mapping类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int odso字段Mapping类型)](#getName-int-) |  |
+| [fromName(String odsoFieldMappingTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int odsoFieldMappingType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int odso字段Mapping类型)](#toString-int-) |  |
+| [toString(int odsoFieldMappingType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -84,9 +84,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String odso字段Mapping类型Name) {#fromName-java.lang.String-}
+### fromName(String odsoFieldMappingTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String odso字段Mapping类型Name)
+public static int fromName(String odsoFieldMappingTypeName)
 ```
 
 
@@ -95,23 +95,23 @@ public static int fromName(String odso字段Mapping类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| odso字段Mapping类型Name | java.lang.String |  |
+| odsoFieldMappingTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int odso字段Mapping类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int odsoFieldMappingType) {#getName-int-}
 ```
-public static String getName(int odso字段Mapping类型)
+public static String getName(int odsoFieldMappingType)
 ```
 
 
@@ -120,7 +120,7 @@ public static String getName(int odso字段Mapping类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| odso字段Mapping类型 | int |  |
+| odsoFieldMappingType | int |  |
 
 **退货:**
 java.lang.String
@@ -170,9 +170,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int odso字段Mapping类型) {#toString-int-}
+### toString(int odsoFieldMappingType) {#toString-int-}
 ```
-public static String toString(int odso字段Mapping类型)
+public static String toString(int odsoFieldMappingType)
 ```
 
 
@@ -181,7 +181,7 @@ public static String toString(int odso字段Mapping类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| odso字段Mapping类型 | int |  |
+| odsoFieldMappingType | int |  |
 
 **退货:**
 java.lang.String

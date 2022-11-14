@@ -1,6 +1,6 @@
 ---
-title: Odso字段MapDataCollection
-second_title: Aspose.Words for Java API Reference
+title: OdsoFieldMapDataCollection
+second_title: Aspose.Words for Java API 参考
 description: 对象的类型化集合。
 type: docs
 weight: 414
@@ -13,35 +13,35 @@ java.lang.Object
 **所有实现的接口:**
 java.lang.Iterable
 ```
-public class Odso字段MapDataCollection implements Iterable
+public class OdsoFieldMapDataCollection implements Iterable
 ```
 
-的类型化集合[Odso字段MapData](../../com.aspose.words/odsofieldmapdata)对象。
+的类型化集合[OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata)对象。
 
 要了解更多信息，请访问**Mail Merge and Reporting**文档文章。
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [add(Odso字段MapData value)](#add-com.aspose.words.Odso字段MapData-) | 将对象添加到此集合的末尾。 |
-| [clear()](#clear--) | 从此集合中删除所有元素。 |
+| [add(OdsoFieldMapData value)](#add-com.aspose.words.OdsoFieldMapData-) | 将对象添加到此集合的末尾。 |
+| [clear()](#clear--) | 从此集合中移除所有元素。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 获取此集合中的项目。 |
-| [get班级()](#get班级--) |  |
+| [get(int index)](#get-int-) | 获取此集合中的一项。 |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中包含的元素数。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | 移除指定索引处的元素。 |
-| [set(int index, Odso字段MapData value)](#set-int-com.aspose.words.Odso字段MapData-) | 设置此集合中的项目。 |
+| [removeAt(int index)](#removeAt-int-) | 删除指定索引处的元素。 |
+| [set(int index, OdsoFieldMapData value)](#set-int-com.aspose.words.OdsoFieldMapData-) | 在此集合中设置一个项目。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(Odso字段MapData value) {#add-com.aspose.words.Odso字段MapData-}
+### add(OdsoFieldMapData value) {#add-com.aspose.words.OdsoFieldMapData-}
 ```
-public int add(Odso字段MapData value)
+public int add(OdsoFieldMapData value)
 ```
 
 
@@ -50,7 +50,7 @@ public int add(Odso字段MapData value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [Odso字段MapData](../../com.aspose.words/odsofieldmapdata) | 要添加的对象。不能为空。 |
+| value | [OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata) | 要添加的对象。不能为空。 |
 
 **退货:**
 整数
@@ -60,7 +60,7 @@ public void clear()
 ```
 
 
-从此集合中删除所有元素。
+从此集合中移除所有元素。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -79,11 +79,11 @@ public boolean equals(Object arg0)
 布尔值
 ### get(int index) {#get-int-}
 ```
-public Odso字段MapData get(int index)
+public OdsoFieldMapData get(int index)
 ```
 
 
-获取此集合中的项目。
+获取此集合中的一项。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -91,17 +91,17 @@ public Odso字段MapData get(int index)
 | index | int |  |
 
 **退货:**
-[Odso字段MapData](../../com.aspose.words/odsofieldmapdata) - 此集合中的一个项目。
-### get班级() {#get班级--}
+[OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata) - 此系列中的一个项目。
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -154,26 +154,26 @@ public void removeAt(int index)
 ```
 
 
-移除指定索引处的元素。
+删除指定索引处的元素。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int | 元素的从零开始的索引。 |
 
-### set(int index, Odso字段MapData value) {#set-int-com.aspose.words.Odso字段MapData-}
+### set(int index, OdsoFieldMapData value) {#set-int-com.aspose.words.OdsoFieldMapData-}
 ```
-public void set(int index, Odso字段MapData value)
+public void set(int index, OdsoFieldMapData value)
 ```
 
 
-设置此集合中的项目。
+在此集合中设置一个项目。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int |  |
-| value | [Odso字段MapData](../../com.aspose.words/odsofieldmapdata) | 此集合中的一个项目。 |
+| value | [OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata) | 此集合中的一个项目。 |
 
 ### toString() {#toString--}
 ```

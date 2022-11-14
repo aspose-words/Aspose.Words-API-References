@@ -1,7 +1,7 @@
 ---
 title: ControlChar
-second_title: Aspose.Words for Java API Reference
-description: 控制字符在文档中经常遇到。
+second_title: Aspose.Words for Java API 参考
+description: 文档中经常遇到的控制字符。
 type: docs
 weight: 94
 url: /zh/java/com.aspose.words/controlchar/
@@ -13,14 +13,14 @@ java.lang.Object
 public class ControlChar
 ```
 
-控制字符在文档中经常遇到。
+文档中经常遇到的控制字符。
 
 要了解更多信息，请访问**Working With Control Characters**文档文章。
 
 提供相同常量的字符和字符串版本。例如：字符串 ControlChar.LineBreak 和 char ControlChar.LineBreakChar 具有相同的值。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CELL](#CELL) | 表格单元格结束或表格行结束字符："\\x0007" 或 "\\一个”。 |
 | [CELL_CHAR](#CELL-CHAR) | 表格单元格结尾或表格行结尾字符：(char)7 或 "\\一个”。 |
@@ -55,7 +55,7 @@ public class ControlChar
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -133,7 +133,7 @@ public static char FIELD_SEPARATOR_CHAR
 ```
 
 
-字段分隔符将字段代码与字段值分开。在某些领域是可选的。值：（字符）20。
+字段分隔符将字段代码与字段值分开。在某些领域可选。值：（字符）20。
 
 ### FIELD_START_CHAR {#FIELD-START-CHAR}
 ```
@@ -149,7 +149,7 @@ public static String LF
 ```
 
 
-换行符："\\x000a" 或 "\ \n"。同[LINE\_FEED](../../com.aspose.words/controlchar\#LINE-FEED).
+换行符："\\x000a" 或 "\ \n". 与[LINE\_FEED](../../com.aspose.words/controlchar\#LINE-FEED).
 
 ### LINE_BREAK {#LINE-BREAK}
 ```
@@ -173,7 +173,7 @@ public static String LINE_FEED
 ```
 
 
-换行符："\\x000a" 或 "\ \n"。同[LF](../../com.aspose.words/controlchar\#LF).
+换行符："\\x000a" 或 "\ \n". 与[LF](../../com.aspose.words/controlchar\#LF).
 
 ### LINE_FEED_CHAR {#LINE-FEED-CHAR}
 ```
@@ -193,7 +193,7 @@ Microsoft Word 中的不间断连字符是 (char)30。
 
 Microsoft Word 中的不间断连字符不对应于 Unicode 字符 U+2011 不间断连字符，而是表示告诉 Microsoft Word 显示连字符而不是换行的内部信息。
 
-有用信息：http://www.cs.tut.fi/~jkorpela/dashes.html\#换行符。
+有用信息：http://www.cs.tut.fi/~jkorpela/dashes.html\#linebreaks。
 
 ### NON_BREAKING_SPACE {#NON-BREAKING-SPACE}
 ```
@@ -219,7 +219,7 @@ public static char OPTIONAL_HYPHEN_CHAR
 
 Microsoft Word 中的可选连字符是 (char)31。
 
-Microsoft Word 中的可选连字符与 Unicode 字符 U+00AD 软连字符不对应。相反，它会插入告诉 Word 可能的断字点的内部信息。
+Microsoft Word 中的可选连字符与 Unicode 字符 U+00AD 软连字符不对应。相反，它会插入内部信息，告诉 Word 关于可能的断字点。
 
 ### PAGE_BREAK {#PAGE-BREAK}
 ```
@@ -308,16 +308,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

@@ -1,6 +1,6 @@
 ---
 title: CertificateHolder
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示 X509Certificate2 实例的持有者。
 type: docs
 weight: 53
@@ -17,17 +17,17 @@ public class CertificateHolder
 
 要了解更多信息，请访问**Work with Digital Signatures**文档文章。
 
-**CertificateHolder**只能由静态工厂方法创建。它包含一个实例**X509Certificate2**用于将私钥、公钥和证书链引入系统。该类应用于[DigitalSignatureUtil](../../com.aspose.words/digitalsignatureutil)和[PdfDigitalSignatureDetails](../../com.aspose.words/pdfdigitalsignaturedetails)而不是过时的方法**X509Certificate2**作为参数。
+**CertificateHolder**只能通过静态工厂方法创建。它包含一个实例**X509Certificate2**用于将私钥、公钥和证书链引入系统。这个类应用在[DigitalSignatureUtil](../../com.aspose.words/digitalsignatureutil)和[PdfDigitalSignatureDetails](../../com.aspose.words/pdfdigitalsignaturedetails)而不是过时的方法**X509Certificate2**作为参数。
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [create(byte[] certBytes, String password)](#create-byte---java.lang.String-) | 使用 PKCS12 存储的字节数组及其密码创建 CertificateHolder 对象。 |
-| [create(String fileName, String password)](#create-java.lang.String-java.lang.String-) | 使用 PKCS12 存储的路径及其密码创建 CertificateHolder 对象。 |
-| [create(String fileName, String password, String alias)](#create-java.lang.String-java.lang.String-java.lang.String-) | 使用 PKCS12 存储的路径、其密码和别名创建 CertificateHolder 对象，使用该对象将找到私钥和证书。 |
+| [create(String fileName, String password)](#create-java.lang.String-java.lang.String-) | 使用 PKCS12 存储路径及其密码创建 CertificateHolder 对象。 |
+| [create(String fileName, String password, String alias)](#create-java.lang.String-java.lang.String-java.lang.String-) | 使用 PKCS12 存储的路径、其密码和别名创建 CertificateHolder 对象，通过使用它可以找到私钥和证书。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCertificate()](#getCertificate--) | 返回的实例**X509Certificate2Wrapper**持有**X509Certificate2**它拥有私钥、公钥和证书链。 |
-| [get班级()](#get班级--) |  |
+| [getCertificate()](#getCertificate--) | 返回实例**X509Certificate2Wrapper**持有**X509Certificate2**其中包含私钥、公钥和证书链。 |
+| [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -50,14 +50,14 @@ public static CertificateHolder create(byte[] certBytes, String password)
 | password | java.lang.String | 访问 X.509 证书数据所需的密码。 |
 
 **退货:**
-[CertificateHolder](../../com.aspose.words/certificateholder) - CertificateHolder 的一个实例**T:Org.BouncyCastle.Security.Invalid范围Exception**抛出如果**certBytes**一片空白**T:Org.BouncyCastle.Security.Invalid范围Exception**抛出如果**password**一片空白
+[CertificateHolder](../../com.aspose.words/certificateholder) - CertificateHolder 的实例**T:Org.BouncyCastle.Security.InvalidParameterException**如果抛出**certBytes**一片空白**T:Org.BouncyCastle.Security.InvalidParameterException**如果抛出**password**一片空白
 ### create(String fileName, String password) {#create-java.lang.String-java.lang.String-}
 ```
 public static CertificateHolder create(String fileName, String password)
 ```
 
 
-使用 PKCS12 存储的路径及其密码创建 CertificateHolder 对象。
+使用 PKCS12 存储路径及其密码创建 CertificateHolder 对象。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -66,14 +66,14 @@ public static CertificateHolder create(String fileName, String password)
 | password | java.lang.String | 访问 X.509 证书数据所需的密码。 |
 
 **退货:**
-[CertificateHolder](../../com.aspose.words/certificateholder) - CertificateHolder 的一个实例**T:Org.BouncyCastle.Security.Invalid范围Exception**抛出如果**fileName**一片空白**T:Org.BouncyCastle.Security.Invalid范围Exception**抛出如果**password**一片空白
+[CertificateHolder](../../com.aspose.words/certificateholder) - CertificateHolder 的实例**T:Org.BouncyCastle.Security.InvalidParameterException**如果抛出**fileName**一片空白**T:Org.BouncyCastle.Security.InvalidParameterException**如果抛出**password**一片空白
 ### create(String fileName, String password, String alias) {#create-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public static CertificateHolder create(String fileName, String password, String alias)
 ```
 
 
-使用 PKCS12 存储的路径、其密码和别名创建 CertificateHolder 对象，使用该对象将找到私钥和证书。
+使用 PKCS12 存储的路径、其密码和别名创建 CertificateHolder 对象，通过使用它可以找到私钥和证书。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -83,7 +83,7 @@ public static CertificateHolder create(String fileName, String password, String 
 | alias | java.lang.String | 证书及其私钥的关联别名 |
 
 **退货:**
-[CertificateHolder](../../com.aspose.words/certificateholder) - CertificateHolder 的一个实例**T:Org.BouncyCastle.Security.Invalid范围Exception**抛出如果**fileName**一片空白**T:Org.BouncyCastle.Security.Invalid范围Exception**抛出如果**password**一片空白
+[CertificateHolder](../../com.aspose.words/certificateholder) - CertificateHolder 的实例**T:Org.BouncyCastle.Security.InvalidParameterException**如果抛出**fileName**一片空白**T:Org.BouncyCastle.Security.InvalidParameterException**如果抛出**password**一片空白
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -105,20 +105,20 @@ public X509Certificate2Wrapper getCertificate()
 ```
 
 
-返回的实例**X509Certificate2Wrapper**持有**X509Certificate2**它拥有私钥、公钥和证书链。
+返回实例**X509Certificate2Wrapper**持有**X509Certificate2**其中包含私钥、公钥和证书链。
 
 **退货:**
 [X509Certificate2Wrapper](../../com.aspose.words/x509certificate2wrapper) 实例
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

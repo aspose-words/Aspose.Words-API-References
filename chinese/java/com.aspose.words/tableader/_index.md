@@ -1,6 +1,6 @@
 ---
 title: TabLeader
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定制表符下显示的引线的类型。
 type: docs
 weight: 545
@@ -16,9 +16,9 @@ public class TabLeader
 指定制表符下显示的引线的类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
-| [DASHES](#DASHES) | 引导线由虚线组成。 |
+| [DASHES](#DASHES) | 引导线由破折号组成。 |
 | [DOTS](#DOTS) | 引导线由点组成。 |
 | [HEAVY](#HEAVY) | 引导线是一条粗线。 |
 | [LINE](#LINE) | 引导线是单线。 |
@@ -31,7 +31,7 @@ public class TabLeader
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String tabLeaderName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int tabLeader)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -48,7 +48,7 @@ public static int DASHES
 ```
 
 
-引导线由虚线组成。
+引导线由破折号组成。
 
 ### DOTS {#DOTS}
 ```
@@ -126,16 +126,16 @@ public static int fromName(String tabLeaderName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int tabLeader) {#getName-int-}
 ```
 public static String getName(int tabLeader)

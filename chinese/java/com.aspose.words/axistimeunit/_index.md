@@ -1,6 +1,6 @@
 ---
 title: AxisTimeUnit
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定轴的时间单位。
 type: docs
 weight: 25
@@ -16,12 +16,12 @@ public class AxisTimeUnit
 指定轴的时间单位。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [AUTOMATIC](#AUTOMATIC) | 指定未明确设置单位，应使用默认值。 |
 | [DAYS](#DAYS) | 指定图表数据应以天为单位显示。 |
-| [MONTHS](#MONTHS) | 指定图表数据应以月显示。 |
-| [YEARS](#YEARS) | 指定图表数据应以年显示。 |
+| [MONTHS](#MONTHS) | 指定图表数据应以月为单位显示。 |
+| [YEARS](#YEARS) | 指定图表数据应以年为单位显示。 |
 | [length](#length) |  |
 ## 方法
 
@@ -29,7 +29,7 @@ public class AxisTimeUnit
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String axisTimeUnitName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int axisTimeUnit)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -62,7 +62,7 @@ public static int MONTHS
 ```
 
 
-指定图表数据应以月显示。
+指定图表数据应以月为单位显示。
 
 ### YEARS {#YEARS}
 ```
@@ -70,7 +70,7 @@ public static int YEARS
 ```
 
 
-指定图表数据应以年显示。
+指定图表数据应以年为单位显示。
 
 ### length {#length}
 ```
@@ -108,16 +108,16 @@ public static int fromName(String axisTimeUnitName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int axisTimeUnit) {#getName-int-}
 ```
 public static String getName(int axisTimeUnit)

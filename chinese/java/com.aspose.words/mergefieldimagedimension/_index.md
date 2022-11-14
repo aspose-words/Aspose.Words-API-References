@@ -1,6 +1,6 @@
 ---
-title: Merge字段ImageDimension
-second_title: Aspose.Words for Java API Reference
+title: MergeFieldImageDimension
+second_title: Aspose.Words for Java API 参考
 description: 表示图像尺寸，即
 type: docs
 weight: 394
@@ -13,7 +13,7 @@ java.lang.Object
 **所有实现的接口:**
 java.lang.Cloneable
 ```
-public class Merge字段ImageDimension implements Cloneable
+public class MergeFieldImageDimension implements Cloneable
 ```
 
 表示在邮件合并过程中使用的图像尺寸（即宽度或高度）。
@@ -25,14 +25,14 @@ public class Merge字段ImageDimension implements Cloneable
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [Merge字段ImageDimension(double value)](#Merge字段ImageDimension-double-) | 使用给定的点值创建图像尺寸实例。 |
-| [Merge字段ImageDimension(double value, int unit)](#Merge字段ImageDimension-double-int-) | 初始化此类的新实例。 |
+| [MergeFieldImageDimension(double value)](#MergeFieldImageDimension-double-) | 使用给定的点值创建图像尺寸实例。 |
+| [MergeFieldImageDimension(double value, int unit)](#MergeFieldImageDimension-double-int-) | 初始化此类的新实例。 |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getUnit()](#getUnit--) | 那个单位。 |
 | [getValue()](#getValue--) | 价值。 |
 | [hashCode()](#hashCode--) |  |
@@ -44,9 +44,9 @@ public class Merge字段ImageDimension implements Cloneable
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### Merge字段ImageDimension(double value) {#Merge字段ImageDimension-double-}
+### MergeFieldImageDimension(double value) {#MergeFieldImageDimension-double-}
 ```
-public Merge字段ImageDimension(double value)
+public MergeFieldImageDimension(double value)
 ```
 
 
@@ -57,9 +57,9 @@ public Merge字段ImageDimension(double value)
 | --- | --- | --- |
 | value | double | 价值。 |
 
-### Merge字段ImageDimension(double value, int unit) {#Merge字段ImageDimension-double-int-}
+### MergeFieldImageDimension(double value, int unit) {#MergeFieldImageDimension-double-int-}
 ```
-public Merge字段ImageDimension(double value, int unit)
+public MergeFieldImageDimension(double value, int unit)
 ```
 
 
@@ -86,16 +86,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getUnit() {#getUnit--}
 ```
 public int getUnit()
@@ -105,7 +105,7 @@ public int getUnit()
 那个单位。
 
 **退货:**
-int - 对应的 int 值。返回值是以下之一[Merge字段ImageDimensionUnit](../../com.aspose.words/mergefieldimagedimensionunit)常数。
+int - 对应的 int 值。返回值是以下之一[MergeFieldImageDimensionUnit](../../com.aspose.words/mergefieldimagedimensionunit)常数。
 ### getValue() {#getValue--}
 ```
 public double getValue()
@@ -153,7 +153,7 @@ public void setUnit(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[Merge字段ImageDimensionUnit](../../com.aspose.words/mergefieldimagedimensionunit)常数。 |
+| value | int | 对应的 int 值。该值必须是以下之一[MergeFieldImageDimensionUnit](../../com.aspose.words/mergefieldimagedimensionunit)常数。 |
 
 ### setValue(double value) {#setValue-double-}
 ```

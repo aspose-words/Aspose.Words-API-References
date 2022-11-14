@@ -1,6 +1,6 @@
 ---
 title: TxtTrailingSpacesOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定从文件导入期间尾随空格处理的可用选项。
 type: docs
 weight: 587
@@ -16,7 +16,7 @@ public class TxtTrailingSpacesOptions
 指定在从导入期间处理尾随空格的可用选项[LoadFormat.TEXT](../../com.aspose.words/loadformat\#TEXT)文件。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [PRESERVE](#PRESERVE) |  |
 | [TRIM](#TRIM) |  |
@@ -27,7 +27,7 @@ public class TxtTrailingSpacesOptions
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String txtTrailingSpacesOptionsName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int txtTrailingSpacesOptions)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -86,16 +86,16 @@ public static int fromName(String txtTrailingSpacesOptionsName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int txtTrailingSpacesOptions) {#getName-int-}
 ```
 public static String getName(int txtTrailingSpacesOptions)

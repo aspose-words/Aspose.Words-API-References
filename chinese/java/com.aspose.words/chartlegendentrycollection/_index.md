@@ -1,6 +1,6 @@
 ---
 title: ChartLegendEntryCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示图表图例条目的集合。
 type: docs
 weight: 65
@@ -25,7 +25,7 @@ public class ChartLegendEntryCollection implements Iterable
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 退货[ChartLegendEntry](../../com.aspose.words/chartlegendentry)对于指定的索引。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 返回数量[ChartLegendEntry](../../com.aspose.words/chartlegendentry)在这个集合中。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 返回一个枚举器对象。 |
@@ -65,16 +65,16 @@ public ChartLegendEntry get(int index)
 
 **退货:**
 [ChartLegendEntry](../../com.aspose.words/chartlegendentry) -\{[ChartLegendEntry](../../com.aspose.words/chartlegendentry)对于指定的索引。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

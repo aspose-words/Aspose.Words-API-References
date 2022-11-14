@@ -1,6 +1,6 @@
 ---
 title: UniqueConstraint
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示对一组列的限制，其中所有值都必须是唯一的。
 type: docs
 weight: 32
@@ -21,13 +21,13 @@ public class UniqueConstraint extends System.Data.Constraint
 | [UniqueConstraint(String name, System.Data.DataColumn[] columns, boolean isPrimaryKey)](#UniqueConstraint-java.lang.String-com.aspose.words.net.System.Data.DataColumn---boolean-) | 初始化一个新的实例[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint)具有指定名称的类，一个数组[DataColumn](../../com.aspose.words.net.system.data/datacolumn)要约束的对象，以及指定约束是否是主键的值。 |
 | [UniqueConstraint(System.Data.DataColumn[] columns, boolean isPrimaryKey)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn---boolean-) | 初始化一个新的实例[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint)具有数组的类[DataColumn](../../com.aspose.words.net.system.data/datacolumn)要约束的对象，以及指定约束是否是主键的值。 |
 | [UniqueConstraint(System.Data.DataColumn[] columns)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn---) | 初始化一个新的实例[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint)具有给定数组的类[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象。 |
-| [UniqueConstraint(System.Data.DataColumn column)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn-) | 初始化一个新的实例[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint)具有指定的类[DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
+| [UniqueConstraint(System.Data.DataColumn column)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn-) | 初始化一个新的实例[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint)类与指定[DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object key2)](#equals-java.lang.Object-) | 将此约束与一秒进行比较以确定两者是否相同。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getColumns()](#getColumns--) | 获取此约束影响的列数组。 |
 | [getConstraintName()](#getConstraintName--) | 约束中的名称[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
 | [getTable()](#getTable--) | 获取此约束所属的表。 |
@@ -80,7 +80,7 @@ public UniqueConstraint(System.Data.DataColumn[] columns)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| columns | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) | 数组[DataColumn](../../com.aspose.words.net.system.data/datacolumn)要约束的对象。 |
+| columns | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) | 的数组[DataColumn](../../com.aspose.words.net.system.data/datacolumn)要约束的对象。 |
 
 ### UniqueConstraint(System.Data.DataColumn column) {#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn-}
 ```
@@ -88,7 +88,7 @@ public UniqueConstraint(System.Data.DataColumn column)
 ```
 
 
-初始化一个新的实例[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint)具有指定的类[DataColumn](../../com.aspose.words.net.system.data/datacolumn).
+初始化一个新的实例[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint)类与指定[DataColumn](../../com.aspose.words.net.system.data/datacolumn).
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -110,16 +110,16 @@ public boolean equals(Object key2)
 
 **退货:**
 boolean - 如果约束相等，则为 true；否则为假。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getColumns() {#getColumns--}
 ```
 public System.Data.DataColumn[] getColumns()

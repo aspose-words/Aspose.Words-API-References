@@ -1,7 +1,7 @@
 ---
 title: ResourceLoadingAction
-second_title: Aspose.Words for Java API Reference
-description: 指定资源加载的模式。
+second_title: Aspose.Words for Java API 参考
+description: 指定资源加载的方式。
 type: docs
 weight: 479
 url: /zh/java/com.aspose.words/resourceloadingaction/
@@ -13,12 +13,12 @@ java.lang.Object
 public class ResourceLoadingAction
 ```
 
-指定资源加载的模式。
+指定资源加载的方式。
 
 要了解更多信息，请访问**Specify Load Options**文档文章。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [DEFAULT](#DEFAULT) | Aspose.Words 会像往常一样加载这个资源。 |
 | [SKIP](#SKIP) | Aspose.Words 将跳过此资源的加载。 |
@@ -30,7 +30,7 @@ public class ResourceLoadingAction
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String resourceLoadingActionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int resourceLoadingAction)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -101,16 +101,16 @@ public static int fromName(String resourceLoadingActionName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int resourceLoadingAction) {#getName-int-}
 ```
 public static String getName(int resourceLoadingAction)

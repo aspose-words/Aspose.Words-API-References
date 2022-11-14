@@ -1,6 +1,6 @@
 ---
 title: DocumentProperty
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示自定义或内置文档属性。
 type: docs
 weight: 126
@@ -24,22 +24,22 @@ public class DocumentProperty implements Cloneable
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getLinkSource()](#getLinkSource--) | 获取链接的自定义文档属性的来源。 |
 | [getName()](#getName--) | 返回属性的名称。 |
-| [get类型()](#get类型--) | 获取属性的数据类型。 |
+| [getType()](#getType--) | 获取属性的数据类型。 |
 | [getValue()](#getValue--) | 获取属性的值。 |
 | [hashCode()](#hashCode--) |  |
 | [isLinkToContent()](#isLinkToContent--) | 显示此属性是否链接到内容。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setValue(Object value)](#setValue-java.lang.Object-) | 设置属性的值。 |
-| [toBool()](#toBool--) | 将属性值返回为布尔值。 |
-| [toByteArray()](#toByteArray--) | 以字节数组的形式返回属性值。 |
-| [toDateTime()](#toDateTime--) | 以 UTC 格式将属性值返回为 DateTime。 |
-| [toDouble()](#toDouble--) | 以 double 形式返回属性值。 |
+| [toBool()](#toBool--) | 以 bool 形式返回属性值。 |
+| [toByteArray()](#toByteArray--) | 以字节数组形式返回属性值。 |
+| [toDateTime()](#toDateTime--) | 将属性值返回为 UTC 中的 DateTime。 |
+| [toDouble()](#toDouble--) | 将属性值返回为双精度值。 |
 | [toInt()](#toInt--) | 以整数形式返回属性值。 |
-| [toString()](#toString--) | 将属性值作为根据当前语言环境格式化的字符串返回。 |
+| [toString()](#toString--) | 将属性值作为根据当前区域设置格式化的字符串返回。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -58,16 +58,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getLinkSource() {#getLinkSource--}
 ```
 public String getLinkSource()
@@ -90,16 +90,16 @@ public String getName()
 
 **退货:**
 java.lang.String - 属性的名称。
-### get类型() {#get类型--}
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
 获取属性的数据类型。
 
 **退货:**
- int - 属性的数据类型。返回值是以下之一[Property类型](../../com.aspose.words/propertytype)常数。
+ int - 属性的数据类型。返回值是以下之一[PropertyType](../../com.aspose.words/propertytype)常数。
 ### getValue() {#getValue--}
 ```
 public Object getValue()
@@ -169,9 +169,9 @@ public boolean toBool()
 ```
 
 
-将属性值返回为布尔值。
+以 bool 形式返回属性值。
 
-如果属性类型不是，则引发异常[Property类型.BOOLEAN](../../com.aspose.words/propertytype\#BOOLEAN).
+如果属性类型不是，则引发异常[PropertyType.BOOLEAN](../../com.aspose.words/propertytype\#BOOLEAN).
 
 **退货:**
 布尔值
@@ -181,9 +181,9 @@ public byte[] toByteArray()
 ```
 
 
-以字节数组的形式返回属性值。
+以字节数组形式返回属性值。
 
-如果属性类型不是，则引发异常[Property类型.BYTE\_ARRAY](../../com.aspose.words/propertytype\#BYTE-ARRAY).
+如果属性类型不是，则引发异常[PropertyType.BYTE\_ARRAY](../../com.aspose.words/propertytype\#BYTE-ARRAY).
 
 **退货:**
 字节[]
@@ -193,9 +193,9 @@ public Date toDateTime()
 ```
 
 
-以 UTC 格式将属性值返回为 DateTime。
+将属性值返回为 UTC 中的 DateTime。
 
-如果属性类型不是，则引发异常[Property类型.DATE\_TIME](../../com.aspose.words/propertytype\#DATE-TIME).
+如果属性类型不是，则引发异常[PropertyType.DATE\_TIME](../../com.aspose.words/propertytype\#DATE-TIME).
 
 Microsoft Word 仅存储自定义日期属性的日期部分（无时间）。
 
@@ -207,7 +207,7 @@ public double toDouble()
 ```
 
 
-以 double 形式返回属性值。如果属性类型不是，则引发异常[Property类型.NUMBER](../../com.aspose.words/propertytype\#NUMBER).
+以 double 形式返回属性值。如果属性类型不是，则引发异常[PropertyType.NUMBER](../../com.aspose.words/propertytype\#NUMBER).
 
 **退货:**
 双倍的
@@ -217,7 +217,7 @@ public int toInt()
 ```
 
 
-以整数形式返回属性值。如果属性类型不是，则引发异常[Property类型.NUMBER](../../com.aspose.words/propertytype\#NUMBER).
+以整数形式返回属性值。如果属性类型不是，则引发异常[PropertyType.NUMBER](../../com.aspose.words/propertytype\#NUMBER).
 
 **退货:**
 整数
@@ -227,7 +227,7 @@ public String toString()
 ```
 
 
-将属性值作为根据当前语言环境格式化的字符串返回。
+将属性值作为根据当前区域设置格式化的字符串返回。
 
 将布尔属性转换为“Y”或“N”。将日期属性转换为短日期字符串。对于所有其他类型，使用 Object.ToString() 转换属性。
 

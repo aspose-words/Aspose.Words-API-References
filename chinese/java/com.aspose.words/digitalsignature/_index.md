@@ -1,6 +1,6 @@
 ---
 title: DigitalSignature
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示文档上的数字签名及其验证结果。
 type: docs
 weight: 111
@@ -22,11 +22,11 @@ public class DigitalSignature
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCertificateHolder()](#getCertificateHolder--) | 返回包含用于签署文档的证书的证书持有者对象。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getComments()](#getComments--) | 获取签名目的注释。 |
 | [getIssuerName()](#getIssuerName--) | 返回证书颁发者的主题专有名称。 |
 | [getSignTime()](#getSignTime--) | 获取文档签署的时间。 |
-| [getSignature类型()](#getSignature类型--) | 获取数字签名的类型。 |
+| [getSignatureType()](#getSignatureType--) | 获取数字签名的类型。 |
 | [getSubjectName()](#getSubjectName--) | 返回用于签署文档的证书的主题专有名称。 |
 | [hashCode()](#hashCode--) |  |
 | [isValid()](#isValid--) | 如果此数字签名有效且文档未被篡改，则返回 true。 |
@@ -61,16 +61,16 @@ public CertificateHolder getCertificateHolder()
 
 **退货:**
 [CertificateHolder](../../com.aspose.words/certificateholder) - 包含证书的证书持有者对象用于签署文档。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getComments() {#getComments--}
 ```
 public String getComments()
@@ -101,16 +101,16 @@ public Date getSignTime()
 
 **退货:**
 java.util.Date - 签署文件的时间。
-### getSignature类型() {#getSignature类型--}
+### getSignatureType() {#getSignatureType--}
 ```
-public int getSignature类型()
+public int getSignatureType()
 ```
 
 
 获取数字签名的类型。
 
 **退货:**
- int - 数字签名的类型。返回值是以下之一[DigitalSignature类型](../../com.aspose.words/digitalsignaturetype)常数。
+ int - 数字签名的类型。返回值是其中之一[DigitalSignatureType](../../com.aspose.words/digitalsignaturetype)常数。
 ### getSubjectName() {#getSubjectName--}
 ```
 public String getSubjectName()

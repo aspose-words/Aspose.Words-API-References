@@ -1,6 +1,6 @@
 ---
 title: NodeCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示特定类型的节点的集合。
 type: docs
 weight: 404
@@ -26,7 +26,7 @@ public class NodeCollection implements Iterable
 
 这**NodeCollection**集合是“实时的”，即对创建它的节点对象的子对象的更改会立即反映在由**NodeCollection**属性和方法。
 
-**NodeCollection**由返回**M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.Node类型,System.Boolean)**并且还用作类型化节点集合的基类，例如[SectionCollection](../../com.aspose.words/sectioncollection), [ParagraphCollection](../../com.aspose.words/paragraphcollection)等等
+**NodeCollection**由返回**M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)**并且还用作类型化节点集合的基类，例如[SectionCollection](../../com.aspose.words/sectioncollection), [ParagraphCollection](../../com.aspose.words/paragraphcollection)等等
 
 **NodeCollection**可以是“平面的”并且只包含创建它的节点的直接子节点，或者它可以是“深的”并且包含所有后代子节点。
 ## 方法
@@ -38,7 +38,7 @@ public class NodeCollection implements Iterable
 | [contains(Node node)](#contains-com.aspose.words.Node-) | 确定节点是否在集合中。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 检索给定索引处的节点。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getContainer()](#getContainer--) |  |
 | [getCount()](#getCount--) | 获取集合中的节点数。 |
 | [getCurrentNode()](#getCurrentNode--) |  |
@@ -128,26 +128,26 @@ public Node get(int index)
 | --- | --- | --- |
 | index | int | 节点集合的索引。
 
-该索引从零开始。
+该指数是从零开始的。
 
-允许使用负索引并指示从集合的背面进行访问。例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
+允许使用负索引，表示从集合的后面访问。例如 -1 表示最后一项，-2 表示倒数第二项，依此类推。
 
-如果 index 大于或等于列表中的项目数，则返回空引用。
+如果索引大于或等于列表中的项目数，则返回空引用。
 
-如果 index 为负且其绝对值大于列表中的项目数，则返回空引用。|
+如果索引为负且其绝对值大于列表中的项目数，则返回空引用。|
 
 **退货:**
 [Node](../../com.aspose.words/node) - 相应的[Node](../../com.aspose.words/node)价值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getContainer() {#getContainer--}
 ```
 public CompositeNode getContainer()

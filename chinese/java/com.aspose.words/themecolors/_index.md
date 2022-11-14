@@ -1,7 +1,7 @@
 ---
 title: ThemeColors
-second_title: Aspose.Words for Java API Reference
-description: 表示包含十二种颜色的文档主题的配色方案。
+second_title: Aspose.Words for Java API 参考
+description: 表示文档主题的配色方案，包含十二种颜色。
 type: docs
 weight: 575
 url: /zh/java/com.aspose.words/themecolors/
@@ -16,7 +16,7 @@ java.lang.Cloneable
 public class ThemeColors implements Cloneable
 ```
 
-表示包含十二种颜色的文档主题的配色方案。
+表示文档主题的配色方案，包含十二种颜色。
 
 ThemeColors 对象包含六种强调色、两种深色、两种浅色和一种颜色，分别用于一个超链接和后续超链接。
 ## 方法
@@ -30,7 +30,7 @@ ThemeColors 对象包含六种强调色、两种深色、两种浅色和一种�
 | [getAccent4()](#getAccent4--) | 指定颜色口音 4。 |
 | [getAccent5()](#getAccent5--) | 指定颜色口音 5。 |
 | [getAccent6()](#getAccent6--) | 指定颜色口音 6。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDark1()](#getDark1--) | 指定颜色深 1。 |
 | [getDark2()](#getDark2--) | 指定颜色深 2。 |
 | [getFollowedHyperlink()](#getFollowedHyperlink--) | 指定单击的超链接的颜色。 |
@@ -131,16 +131,16 @@ public Color getAccent6()
 
 **退货:**
 java.awt.Color - 对应的 java.awt.Color 值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDark1() {#getDark1--}
 ```
 public Color getDark1()

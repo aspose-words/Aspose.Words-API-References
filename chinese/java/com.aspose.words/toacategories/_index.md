@@ -1,6 +1,6 @@
 ---
 title: ToaCategories
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示权限类别表。
 type: docs
 weight: 580
@@ -27,7 +27,7 @@ public class ToaCategories
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int number)](#get-int-) | 按类别编号获取类别标题。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDefaultCategories()](#getDefaultCategories--) | 获取权限类别的默认表。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -75,23 +75,23 @@ public String get(int number)
 
 **退货:**
 java.lang.String - 按类别编号的类别标题。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDefaultCategories() {#getDefaultCategories--}
 ```
 public static ToaCategories getDefaultCategories()
 ```
 
 
-获取权限类别的默认表。使用[字段Options.getToaCategories()](../../com.aspose.words/fieldoptions\#getToaCategories--) / [字段Options.setToaCategories(com.aspose.words.ToaCategories)](../../com.aspose.words/fieldoptions\#setToaCategories-com.aspose.words.ToaCategories-)属性来指定单个文档的权限类别表。
+获取权限类别的默认表。使用[FieldOptions.getToaCategories()](../../com.aspose.words/fieldoptions\#getToaCategories--) / [FieldOptions.setToaCategories(com.aspose.words.ToaCategories)](../../com.aspose.words/fieldoptions\#setToaCategories-com.aspose.words.ToaCategories-)属性来指定单个文档的权限类别表。
 
 **退货:**
 [ToaCategories](../../com.aspose.words/toacategories) - 权限类别的默认表。

@@ -1,6 +1,6 @@
 ---
 title: PdfPageMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定 PDF 文档在 PDF 阅读器中打开时的显示方式。
 type: docs
 weight: 459
@@ -16,7 +16,7 @@ public class PdfPageMode
 指定 PDF 文档在 PDF 阅读器中打开时的显示方式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [FULL_SCREEN](#FULL-SCREEN) | 全屏模式，没有菜单栏、窗口控件或任何其他可见的窗口。 |
 | [USE_ATTACHMENTS](#USE-ATTACHMENTS) | 附件面板可见。 |
@@ -31,7 +31,7 @@ public class PdfPageMode
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pdfPageModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int pdfPageMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -126,16 +126,16 @@ public static int fromName(String pdfPageModeName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int pdfPageMode) {#getName-int-}
 ```
 public static String getName(int pdfPageMode)

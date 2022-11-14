@@ -1,7 +1,7 @@
 ---
 title: TextColumnCollection
-second_title: Aspose.Words for Java API Reference
-description: 表示文档部分中所有文本列的对象集合。
+second_title: Aspose.Words for Java API 参考
+description: 表示文档的一部分中所有文本列的对象集合。
 type: docs
 weight: 562
 url: /zh/java/com.aspose.words/textcolumncollection/
@@ -13,24 +13,24 @@ java.lang.Object
 public class TextColumnCollection
 ```
 
-一个集合[TextColumn](../../com.aspose.words/textcolumn)表示文档部分中所有文本列的对象。
+的集合[TextColumn](../../com.aspose.words/textcolumn)表示文档部分中所有文本列的对象。
 
 要了解更多信息，请访问**Working with Sections**文档文章。
 
-利用[setCount(int)](../../com.aspose.words/textcolumncollection\#setCount-int-)设置文本列的数量。
+利用[setCount(int)](../../com.aspose.words/textcolumncollection\#setCount-int-)设置文本列数。
 
-要使所有列的宽度相等且间距均匀，请设置[getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced--) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean-)至**true**并指定列之间的空间量[getSpacing()](../../com.aspose.words/textcolumncollection\#getSpacing--) / [setSpacing(double)](../../com.aspose.words/textcolumncollection\#setSpacing-double-)MS Word 将自动计算列宽。
+要使所有列的宽度相等且间距均匀，请设置[getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced--) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean-)至**true**并指定列之间的空间量[getSpacing()](../../com.aspose.words/textcolumncollection\#getSpacing--) / [setSpacing(double)](../../com.aspose.words/textcolumncollection\#setSpacing-double-)MS Word 会自动计算列宽。
 
-如果你有**EvenlySpaced**调成**false**，您需要单独指定每列的宽度和间距。使用索引器访问个人[TextColumn](../../com.aspose.words/textcolumn)对象。
+如果你有**EvenlySpaced**调成**false**，您需要分别为每一列指定宽度和间距。使用索引器访问个人[TextColumn](../../com.aspose.words/textcolumn)对象。
 
-使用自定义列宽时，请确保所有列宽和它们之间的间距之和等于页宽减去左右页边距。
+使用自定义列宽时，请确保所有列宽和它们之间的间距之和等于页面宽度减去左右页边距。
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 返回指定索引处的文本列。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取文档部分中的列数。 |
 | [getEvenlySpaced()](#getEvenlySpaced--) | **True**如果文本列的宽度相等且间距均匀。 |
 | [getLineBetween()](#getLineBetween--) | 什么时候**true**, 在列之间添加一条垂直线。 |
@@ -77,16 +77,16 @@ public TextColumn get(int index)
 
 **退货:**
 [TextColumn](../../com.aspose.words/textcolumn) - 指定索引处的文本列。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()

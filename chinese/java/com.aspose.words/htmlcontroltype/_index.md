@@ -1,6 +1,6 @@
 ---
-title: HtmlControl类型
-second_title: Aspose.Words for Java API Reference
+title: HtmlControlType
+second_title: Aspose.Words for Java API 参考
 description: 表示从 HTML 导入的元素的文档节点类型。
 type: docs
 weight: 323
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/htmlcontroltype/
 **遗产:**
 java.lang.Object
 ```
-public class HtmlControl类型
+public class HtmlControlType
 ```
 
 表示从 HTML 导入的元素的文档节点类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [FORM_FIELD](#FORM-FIELD) |  |
 | [STRUCTURED_DOCUMENT_TAG](#STRUCTURED-DOCUMENT-TAG) |  |
@@ -26,15 +26,15 @@ public class HtmlControl类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String htmlControl类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int htmlControl类型)](#getName-int-) |  |
+| [fromName(String htmlControlTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int htmlControlType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int htmlControl类型)](#toString-int-) |  |
+| [toString(int htmlControlType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -71,9 +71,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String htmlControl类型Name) {#fromName-java.lang.String-}
+### fromName(String htmlControlTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String htmlControl类型Name)
+public static int fromName(String htmlControlTypeName)
 ```
 
 
@@ -82,23 +82,23 @@ public static int fromName(String htmlControl类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| htmlControl类型Name | java.lang.String |  |
+| htmlControlTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int htmlControl类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int htmlControlType) {#getName-int-}
 ```
-public static String getName(int htmlControl类型)
+public static String getName(int htmlControlType)
 ```
 
 
@@ -107,7 +107,7 @@ public static String getName(int htmlControl类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| htmlControl类型 | int |  |
+| htmlControlType | int |  |
 
 **退货:**
 java.lang.String
@@ -157,9 +157,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int htmlControl类型) {#toString-int-}
+### toString(int htmlControlType) {#toString-int-}
 ```
-public static String toString(int htmlControl类型)
+public static String toString(int htmlControlType)
 ```
 
 
@@ -168,7 +168,7 @@ public static String toString(int htmlControl类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| htmlControl类型 | int |  |
+| htmlControlType | int |  |
 
 **退货:**
 java.lang.String

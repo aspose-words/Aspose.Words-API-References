@@ -1,6 +1,6 @@
 ---
 title: CustomXmlPart
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示包中的自定义 XML 数据存储部件自定义 XML 数据。
 type: docs
 weight: 104
@@ -27,7 +27,7 @@ public class CustomXmlPart implements Cloneable
 | --- | --- |
 | [deepClone()](#deepClone--) | 制作对象的“足够深”的副本。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getData()](#getData--) | 获取此自定义 XML 数据存储部件的 XML 内容。 |
 | [getDataChecksum()](#getDataChecksum--) | 指定循环冗余校验 (CRC) 校验和[getData()](../../com.aspose.words/customxmlpart\#getData--) / [setData(byte[])](../../com.aspose.words/customxmlpart\#setData-byte---)内容。 |
 | [getId()](#getId--) | 获取在 OOXML 文档中标识此自定义 XML 部件的字符串。 |
@@ -66,16 +66,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getData() {#getData--}
 ```
 public byte[] getData()
@@ -87,7 +87,7 @@ public byte[] getData()
 默认值为空字节数组。该值不能为 null 。
 
 **退货:**
-字节[- 此自定义 XML 数据存储部件的 XML 内容。
+字节[- 此自定义 XML 数据存储部分的 XML 内容。
 ### getDataChecksum() {#getDataChecksum--}
 ```
 public long getDataChecksum()
@@ -97,7 +97,7 @@ public long getDataChecksum()
 指定循环冗余校验 (CRC) 校验和[getData()](../../com.aspose.words/customxmlpart\#getData--) / [setData(byte[])](../../com.aspose.words/customxmlpart\#setData-byte---)内容。
 
 **退货:**
-long - 对应的 long 值。
+long - 相应的 long 值。
 ### getId() {#getId--}
 ```
 public String getId()
@@ -106,9 +106,9 @@ public String getId()
 
 获取在 OOXML 文档中标识此自定义 XML 部件的字符串。
 
-ISO/IEC 29500 指定此值为 GUID，但旧版本的 Microsoft Word 允许此处的任何字符串。 Aspose.Words 对 ECMA-376 格式执行相同的操作。但请注意，Microsoft Word Online 无法打开使用非 GUID 值创建的文档。因此，GUID 是此属性的首选值。
+ISO/IEC 29500 指定此值是一个 GUID，但旧版本的 Microsoft Word 允许此处为任何字符串。 Aspose.Words 对 ECMA-376 格式做同样的事情。但请注意，Microsoft Word Online 无法打开使用非 GUID 值创建的文档。因此，GUID 是此属性的首选值。
 
-有效值必须是在本文档的所有自定义 XML 数据部分中唯一的标识符。
+有效值必须是在本文档中所有自定义 XML 数据部分中唯一的标识符。
 
 默认值为空字符串。该值不能为 null 。
 
@@ -173,16 +173,16 @@ public void setId(String value)
 
 设置在 OOXML 文档中标识此自定义 XML 部件的字符串。
 
-ISO/IEC 29500 指定此值为 GUID，但旧版本的 Microsoft Word 允许此处的任何字符串。 Aspose.Words 对 ECMA-376 格式执行相同的操作。但请注意，Microsoft Word Online 无法打开使用非 GUID 值创建的文档。因此，GUID 是此属性的首选值。
+ISO/IEC 29500 指定此值是一个 GUID，但旧版本的 Microsoft Word 允许此处为任何字符串。 Aspose.Words 对 ECMA-376 格式做同样的事情。但请注意，Microsoft Word Online 无法打开使用非 GUID 值创建的文档。因此，GUID 是此属性的首选值。
 
-有效值必须是在本文档的所有自定义 XML 数据部分中唯一的标识符。
+有效值必须是在本文档中所有自定义 XML 数据部分中唯一的标识符。
 
 默认值为空字符串。该值不能为 null 。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 在 OOXML 文档中标识此自定义 XML 部件的字符串。 |
+| value | java.lang.String | 在 OOXML 文档中标识此自定义 XML 部分的字符串。 |
 
 ### toString() {#toString--}
 ```

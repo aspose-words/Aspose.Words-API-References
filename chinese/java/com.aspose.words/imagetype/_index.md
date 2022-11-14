@@ -1,6 +1,6 @@
 ---
-title: Image类型
-second_title: Aspose.Words for Java API Reference
+title: ImageType
+second_title: Aspose.Words for Java API 参考
 description: 指定 Microsoft Word 文档中图像的类型格式。
 type: docs
 weight: 343
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/imagetype/
 **遗产:**
 java.lang.Object
 ```
-public class Image类型
+public class ImageType
 ```
 
 指定 Microsoft Word 文档中图像的类型（格式）。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BMP](#BMP) | Windows 位图。 |
 | [EMF](#EMF) | Windows 增强型元文件。 |
@@ -32,15 +32,15 @@ public class Image类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String image类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int image类型)](#getName-int-) |  |
+| [fromName(String imageTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int imageType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int image类型)](#toString-int-) |  |
+| [toString(int imageType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -129,9 +129,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String image类型Name) {#fromName-java.lang.String-}
+### fromName(String imageTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String image类型Name)
+public static int fromName(String imageTypeName)
 ```
 
 
@@ -140,23 +140,23 @@ public static int fromName(String image类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| image类型Name | java.lang.String |  |
+| imageTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int image类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int imageType) {#getName-int-}
 ```
-public static String getName(int image类型)
+public static String getName(int imageType)
 ```
 
 
@@ -165,7 +165,7 @@ public static String getName(int image类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| image类型 | int |  |
+| imageType | int |  |
 
 **退货:**
 java.lang.String
@@ -215,9 +215,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int image类型) {#toString-int-}
+### toString(int imageType) {#toString-int-}
 ```
-public static String toString(int image类型)
+public static String toString(int imageType)
 ```
 
 
@@ -226,7 +226,7 @@ public static String toString(int image类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| image类型 | int |  |
+| imageType | int |  |
 
 **退货:**
 java.lang.String

@@ -1,6 +1,6 @@
 ---
 title: GradientStyle
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定渐变填充的样式。
 type: docs
 weight: 310
@@ -16,7 +16,7 @@ public class GradientStyle
 指定渐变填充的样式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [DIAGONAL_DOWN](#DIAGONAL-DOWN) | 从顶角向下移动到对角的对角梯度。 |
 | [DIAGONAL_UP](#DIAGONAL-UP) | 从底角向上移动到对角的对角梯度。 |
@@ -32,7 +32,7 @@ public class GradientStyle
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String gradientStyleName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int gradientStyle)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -135,16 +135,16 @@ public static int fromName(String gradientStyleName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int gradientStyle) {#getName-int-}
 ```
 public static String getName(int gradientStyle)

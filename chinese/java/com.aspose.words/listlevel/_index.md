@@ -1,6 +1,6 @@
 ---
 title: ListLevel
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 定义列表级别的格式。
 type: docs
 weight: 372
@@ -20,9 +20,9 @@ public class ListLevel implements Cloneable
 
 要了解更多信息，请访问**Working with Lists**文档文章。
 
-您不创建此类的对象。创建列表时会自动创建列表级对象。您访问[ListLevel](../../com.aspose.words/listlevel)对象通过[ListLevelCollection](../../com.aspose.words/listlevelcollection)收藏。
+您不创建此类的对象。创建列表时会自动创建列表级对象。您访问[ListLevel](../../com.aspose.words/listlevel)通过对象[ListLevelCollection](../../com.aspose.words/listlevelcollection)收藏。
 
-使用的属性[ListLevel](../../com.aspose.words/listlevel)为各个列表级别指定列表格式。
+使用属性[ListLevel](../../com.aspose.words/listlevel)为单个列表级别指定列表格式。
 ## 方法
 
 | 方法 | 描述 |
@@ -34,7 +34,7 @@ public class ListLevel implements Cloneable
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
 | [getAlignment()](#getAlignment--) | 获取列表项的实际数量的对齐方式。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCustomNumberStyleFormat()](#getCustomNumberStyleFormat--) | 获取此列表级别的自定义数字样式格式。 |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
 | [getEffectiveValue(int index, int numberStyle, String customNumberStyleFormat)](#getEffectiveValue-int-int-java.lang.String-) |  |
@@ -151,16 +151,16 @@ public int getAlignment()
 
 **退货:**
 int - 列表项的实际数量的理由。返回值是以下之一[ListLevelAlignment](../../com.aspose.words/listlevelalignment)常数。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getCustomNumberStyleFormat() {#getCustomNumberStyleFormat--}
 ```
 public String getCustomNumberStyleFormat()
@@ -243,11 +243,11 @@ public String getNumberFormat()
 
 获取列表级别的数字格式。
 
-在普通文本字符中，字符串可以包含占位符字符\\x0000 到\\x0008 表示来自相应列表级别的数字。
+在普通文本字符中，字符串可以包含占位符\\x0000 至\\x0008 表示相应列表级别的数字。
 
-例如，字符串“\\x0000。\\x0001)" 将生成一个类似于 "1.5)" 的列表标签。数字 "1" 是第一级列表的当前数字，数字 "5" 是第二级列表的当前数字。
+例如，字符串“\\x0000。\\x0001)”将生成一个类似于“1.5)”的列表标签。数字“1”是第一级列表中的当前编号，数字“5”是第二级列表中的当前编号。
 
-不允许为 Null，但表示没有数字的空字符串是有效的。
+不允许为空，但空字符串表示没有数字有效。
 
 **退货:**
 java.lang.String - 列表级别的数字格式。
@@ -281,7 +281,7 @@ public int getRestartAfterLevel()
 
 获取在指定列表级别重新开始编号之前必须出现的列表级别。
 
--1 的值表示将继续编号。
+-1 的值表示编号将继续。
 
 **退货:**
 int - 在指定列表级别重新开始编号之前必须出现的列表级别。
@@ -406,7 +406,7 @@ public void setAlignment(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 列表项的实际数量的理由。该值必须是以下之一[ListLevelAlignment](../../com.aspose.words/listlevelalignment)常数。 |
+| value | int | 列表项的实际数量的理由。该值必须是其中之一[ListLevelAlignment](../../com.aspose.words/listlevelalignment)常数。 |
 
 ### setLinkedStyle(Style value) {#setLinkedStyle-com.aspose.words.Style-}
 ```
@@ -431,11 +431,11 @@ public void setNumberFormat(String value)
 
 设置列表级别的数字格式。
 
-在普通文本字符中，字符串可以包含占位符字符\\x0000 到\\x0008 表示来自相应列表级别的数字。
+在普通文本字符中，字符串可以包含占位符\\x0000 至\\x0008 表示相应列表级别的数字。
 
-例如，字符串“\\x0000。\\x0001)" 将生成一个类似于 "1.5)" 的列表标签。数字 "1" 是第一级列表的当前数字，数字 "5" 是第二级列表的当前数字。
+例如，字符串“\\x0000。\\x0001)”将生成一个类似于“1.5)”的列表标签。数字“1”是第一级列表中的当前编号，数字“5”是第二级列表中的当前编号。
 
-不允许为 Null，但表示没有数字的空字符串是有效的。
+不允许为空，但空字符串表示没有数字有效。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -468,7 +468,7 @@ public void setNumberStyle(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 此列表级别的编号样式。该值必须是以下之一[NumberStyle](../../com.aspose.words/numberstyle)常数。 |
+| value | int | 此列表级别的编号样式。该值必须是其中之一[NumberStyle](../../com.aspose.words/numberstyle)常数。 |
 
 ### setRestartAfterLevel(int value) {#setRestartAfterLevel-int-}
 ```
@@ -478,7 +478,7 @@ public void setRestartAfterLevel(int value)
 
 设置在指定列表级别重新开始编号之前必须出现的列表级别。
 
--1 的值表示将继续编号。
+-1 的值表示编号将继续。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -555,7 +555,7 @@ public void setTrailingCharacter(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 在列表级别的数字之后插入的字符。该值必须是以下之一[ListTrailingCharacter](../../com.aspose.words/listtrailingcharacter)常数。 |
+| value | int | 在列表级别的数字之后插入的字符。该值必须是其中之一[ListTrailingCharacter](../../com.aspose.words/listtrailingcharacter)常数。 |
 
 ### toString() {#toString--}
 ```

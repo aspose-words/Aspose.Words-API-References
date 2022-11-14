@@ -1,6 +1,6 @@
 ---
 title: VbaModule
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 提供对 VBA 项目模块的访问。
 type: docs
 weight: 593
@@ -30,16 +30,16 @@ public class VbaModule implements Cloneable
 | --- | --- |
 | [deepClone()](#deepClone--) | 执行副本[VbaModule](../../com.aspose.words/vbamodule). |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName()](#getName--) | 获取 VBA 项目模块名称。 |
 | [getSourceCode()](#getSourceCode--) | 获取 VBA 项目模块源代码。 |
-| [get类型()](#get类型--) | 指定模块是过程模块、文档模块、类模块还是设计器模块。 |
+| [getType()](#getType--) | 指定模块是过程模块、文档模块、类模块还是设计器模块。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setName(String value)](#setName-java.lang.String-) | 设置 VBA 项目模块名称。 |
 | [setSourceCode(String value)](#setSourceCode-java.lang.String-) | 设置 VBA 项目模块源代码。 |
-| [set类型(int value)](#set类型-int-) | 指定模块是过程模块、文档模块、类模块还是设计器模块。 |
+| [setType(int value)](#setType-int-) | 指定模块是过程模块、文档模块、类模块还是设计器模块。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -77,16 +77,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName() {#getName--}
 ```
 public String getName()
@@ -107,16 +107,16 @@ public String getSourceCode()
 
 **退货:**
 java.lang.String - VBA 项目模块源代码。
-### get类型() {#get类型--}
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
 指定模块是过程模块、文档模块、类模块还是设计器模块。
 
 **退货:**
-int - 对应的 int 值。返回值是以下之一[VbaModule类型](../../com.aspose.words/vbamoduletype)常数。
+int - 对应的 int 值。返回值是以下之一[VbaModuleType](../../com.aspose.words/vbamoduletype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -169,9 +169,9 @@ public void setSourceCode(String value)
 | --- | --- | --- |
 | value | java.lang.String | VBA项目模块源代码。 |
 
-### set类型(int value) {#set类型-int-}
+### setType(int value) {#setType-int-}
 ```
-public void set类型(int value)
+public void setType(int value)
 ```
 
 
@@ -180,7 +180,7 @@ public void set类型(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[VbaModule类型](../../com.aspose.words/vbamoduletype)常数。 |
+| value | int | 对应的 int 值。该值必须是以下之一[VbaModuleType](../../com.aspose.words/vbamoduletype)常数。 |
 
 ### toString() {#toString--}
 ```

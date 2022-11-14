@@ -1,6 +1,6 @@
 ---
 title: ChartLegendEntry
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示图表图例条目。
 type: docs
 weight: 64
@@ -30,7 +30,7 @@ public class ChartLegendEntry implements Cloneable
 | [clearRunAttrs()](#clearRunAttrs--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
 | [getFont()](#getFont--) | 提供对此图例条目的字体格式的访问。 |
 | [hashCode()](#hashCode--) |  |
@@ -82,16 +82,16 @@ public Object fetchInheritedRunAttr(int key)
 
 **退货:**
 java.lang.Object
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
 ```
 public Object getDirectRunAttr(int key)

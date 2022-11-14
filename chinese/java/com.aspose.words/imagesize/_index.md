@@ -1,6 +1,6 @@
 ---
 title: ImageSize
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 包含有关图像大小和分辨率的信息。
 type: docs
 weight: 342
@@ -27,7 +27,7 @@ public class ImageSize
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getHeightPixels()](#getHeightPixels--) | 获取图像的高度（以像素为单位）。 |
 | [getHeightPoints()](#getHeightPoints--) | 获取图像的高度（以磅为单位）。 |
 | [getHorizontalResolution()](#getHorizontalResolution--) | 获取以 DPI 为单位的水平分辨率。 |
@@ -86,16 +86,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getHeightPixels() {#getHeightPixels--}
 ```
 public int getHeightPixels()

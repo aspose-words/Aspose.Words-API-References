@@ -1,7 +1,7 @@
 ---
 title: RelativeVerticalPosition
-second_title: Aspose.Words for Java API Reference
-description: 指定形状或文本框的垂直位置是相对的。
+second_title: Aspose.Words for Java API 参考
+description: 指定形状或文本框的垂直位置相对于什么。
 type: docs
 weight: 474
 url: /zh/java/com.aspose.words/relativeverticalposition/
@@ -13,12 +13,12 @@ java.lang.Object
 public class RelativeVerticalPosition
 ```
 
-指定形状或文本框的垂直位置是相对的。
+指定形状或文本框的垂直位置相对于什么。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
-| [BOTTOM_MARGIN](#BOTTOM-MARGIN) | 指定垂直定位应相对于当前页面的下边距。 |
+| [BOTTOM_MARGIN](#BOTTOM-MARGIN) | 指定垂直定位应相对于当前页面的底部边距。 |
 | [INSIDE_MARGIN](#INSIDE-MARGIN) | 指定垂直定位应相对于当前页面的内边距。 |
 | [LINE](#LINE) | 无证。 |
 | [MARGIN](#MARGIN) | 指定垂直定位应相对于页边距。 |
@@ -35,7 +35,7 @@ public class RelativeVerticalPosition
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String relativeVerticalPositionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int relativeVerticalPosition)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -52,7 +52,7 @@ public static int BOTTOM_MARGIN
 ```
 
 
-指定垂直定位应相对于当前页面的下边距。
+指定垂直定位应相对于当前页面的底部边距。
 
 ### INSIDE_MARGIN {#INSIDE-MARGIN}
 ```
@@ -162,16 +162,16 @@ public static int fromName(String relativeVerticalPositionName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int relativeVerticalPosition) {#getName-int-}
 ```
 public static String getName(int relativeVerticalPosition)

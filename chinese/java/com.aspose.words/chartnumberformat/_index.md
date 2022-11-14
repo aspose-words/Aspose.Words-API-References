@@ -1,6 +1,6 @@
 ---
 title: ChartNumberFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示父元素的数字格式。
 type: docs
 weight: 67
@@ -21,7 +21,7 @@ public class ChartNumberFormat
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getFormatCode()](#getFormatCode--) | 获取应用于数据标签的格式代码。 |
 | [hashCode()](#hashCode--) |  |
 | [isLinkedToSource()](#isLinkedToSource--) | 指定格式代码是否链接到源单元格。 |
@@ -48,16 +48,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getFormatCode() {#getFormatCode--}
 ```
 public String getFormatCode()
@@ -76,15 +76,15 @@ public String getFormatCode()
 
 百分比 - “0.00%”
 
-分数 - ”\# ?/?”
+分数 - ”\＃？/？
 
-科学——“0.00E+00”
+科学 - “0.00E+00”
 
 文本 - ”@”
 
-会计——”\_-\\"$\\"\ *\#,\#\#0.00\_-;-\\"$\\"\ *\#,\#\#0.00\_-;\_-\\"$\\"\ *\\"-\\"??\_-;\_-@\_-”
+会计-》\_-\\"$\\"\ *\#,\#\#0.00\_-;-\\"$\\"\ *\#,\#\#0.00\_-;\_-\\"$\\"\ *\\"-\\”？？\_-;\_-@\_-”
 
-自定义颜色-”[红色的]-\#,\#\#0.0"
+自定义颜色 - ”[红色的]-\#,\#\#0.0"
 
 **退货:**
 java.lang.String - 应用于数据标签的格式代码。
@@ -155,15 +155,15 @@ public void setFormatCode(String value)
 
 百分比 - “0.00%”
 
-分数 - ”\# ?/?”
+分数 - ”\＃？/？
 
-科学——“0.00E+00”
+科学 - “0.00E+00”
 
 文本 - ”@”
 
-会计——”\_-\\"$\\"\ *\#,\#\#0.00\_-;-\\"$\\"\ *\#,\#\#0.00\_-;\_-\\"$\\"\ *\\"-\\"??\_-;\_-@\_-”
+会计-》\_-\\"$\\"\ *\#,\#\#0.00\_-;-\\"$\\"\ *\#,\#\#0.00\_-;\_-\\"$\\"\ *\\"-\\”？？\_-;\_-@\_-”
 
-自定义颜色-”[红色的]-\#,\#\#0.0"
+自定义颜色 - ”[红色的]-\#,\#\#0.0"
 
 **参数:**
 | 范围 | 类型 | 描述 |

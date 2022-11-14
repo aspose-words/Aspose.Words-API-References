@@ -1,7 +1,7 @@
 ---
 title: ConvertUtil
-second_title: Aspose.Words for Java API Reference
-description: 提供帮助函数以在各种测量单位之间进行转换。
+second_title: Aspose.Words for Java API 参考
+description: 提供辅助函数以在各种测量单位之间进行转换。
 type: docs
 weight: 95
 url: /zh/java/com.aspose.words/convertutil/
@@ -21,15 +21,15 @@ public class ConvertUtil
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [inchToPoint(double inches)](#inchToPoint-double-) | 将英寸转换为磅。 |
-| [millimeterToPoint(double millimeters)](#millimeterToPoint-double-) | 将毫米转换为磅。 |
+| [inchToPoint(double inches)](#inchToPoint-double-) | 将英寸转换为点。 |
+| [millimeterToPoint(double millimeters)](#millimeterToPoint-double-) | 将毫米转换为点。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [pixelToNewDpi(double pixels, double oldDpi, double newDpi)](#pixelToNewDpi-double-double-double-) | 将像素从一种分辨率转换为另一种分辨率。 |
 | [pixelToPoint(double pixels)](#pixelToPoint-double-) | 将像素转换为点。 |
-| [pixelToPoint(double pixels, double resolution)](#pixelToPoint-double-double-) | 将像素转换为指定像素分辨率的点。 |
+| [pixelToPoint(double pixels, double resolution)](#pixelToPoint-double-double-) | 将像素转换为具有指定像素分辨率的点。 |
 | [pointToInch(double points)](#pointToInch-double-) | 将点转换为英寸。 |
 | [pointToPixel(double points)](#pointToPixel-double-) | 将点转换为像素。 |
 | [pointToPixel(double points, double resolution)](#pointToPixel-double-double-) | 将点转换为指定像素分辨率的像素。 |
@@ -52,16 +52,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -78,7 +78,7 @@ public static double inchToPoint(double inches)
 ```
 
 
-将英寸转换为磅。
+将英寸转换为点。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -93,7 +93,7 @@ public static double millimeterToPoint(double millimeters)
 ```
 
 
-将毫米转换为磅。
+将毫米转换为点。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -156,7 +156,7 @@ public static double pixelToPoint(double pixels, double resolution)
 ```
 
 
-将像素转换为指定像素分辨率的点。
+将像素转换为具有指定像素分辨率的点。
 
 **参数:**
 | 范围 | 类型 | 描述 |

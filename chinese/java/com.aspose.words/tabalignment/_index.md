@@ -1,6 +1,6 @@
 ---
 title: TabAlignment
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定制表位的对齐方式/类型。
 type: docs
 weight: 544
@@ -16,15 +16,15 @@ public class TabAlignment
 指定制表位的对齐方式/类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [BAR](#BAR) | 在制表位位置绘制竖线。 |
 | [CENTER](#CENTER) | 使文本围绕制表位居中。 |
 | [CLEAR](#CLEAR) | 清除此位置的任何制表位。 |
 | [DECIMAL](#DECIMAL) | 在小数点处对齐文本。 |
-| [LEFT](#LEFT) | 将制表位后的文本左对齐。 |
+| [LEFT](#LEFT) | 在制表位后左对齐文本。 |
 | [LIST](#LIST) | 制表符是列表项中数字/项目符号和文本之间的分隔符。 |
-| [RIGHT](#RIGHT) | 右对齐制表位处的文本。 |
+| [RIGHT](#RIGHT) | 在制表位右对齐文本。 |
 | [length](#length) |  |
 ## 方法
 
@@ -32,7 +32,7 @@ public class TabAlignment
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String tabAlignmentName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int tabAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -81,7 +81,7 @@ public static int LEFT
 ```
 
 
-将制表位后的文本左对齐。
+在制表位后左对齐文本。
 
 ### LIST {#LIST}
 ```
@@ -97,7 +97,7 @@ public static int RIGHT
 ```
 
 
-右对齐制表位处的文本。
+在制表位右对齐文本。
 
 ### length {#length}
 ```
@@ -135,16 +135,16 @@ public static int fromName(String tabAlignmentName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int tabAlignment) {#getName-int-}
 ```
 public static String getName(int tabAlignment)

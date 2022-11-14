@@ -1,6 +1,6 @@
 ---
 title: FontSourceBase
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 这是允许用户指定各种字体源的类的抽象基类。
 type: docs
 weight: 287
@@ -22,16 +22,16 @@ public abstract class FontSourceBase
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAvailableFonts()](#getAvailableFonts--) | 返回通过此源可用的字体列表。 |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getFontDataInternal()](#getFontDataInternal--) |  |
 | [getPriority()](#getPriority--) | 返回字体源优先级。 |
 | [getPriorityInternal()](#getPriorityInternal--) |  |
-| [get类型()](#get类型--) | 返回字体源的类型。 |
-| [getWarningCallback()](#getWarningCallback--) | 当检测到可能导致格式保真度丢失的问题时，在处理字体源期间调用。 |
+| [getType()](#getType--) | 返回字体源的类型。 |
+| [getWarningCallback()](#getWarningCallback--) | 当检测到可能导致格式保真度损失的问题时，在处理字体源期间调用。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | 当检测到可能导致格式保真度丢失的问题时，在处理字体源期间调用。 |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | 当检测到可能导致格式保真度损失的问题时，在处理字体源期间调用。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -61,16 +61,16 @@ public ArrayList getAvailableFonts()
 
 **退货:**
 java.util.ArrayList
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getFontDataInternal() {#getFontDataInternal--}
 ```
 public Iterable getFontDataInternal()
@@ -89,7 +89,7 @@ public int getPriority()
 
 返回字体源优先级。
 
-当不同字体源中存在具有相同系列名称和样式的字体时使用此值。在这种情况下，Aspose.Words 从源中选择具有较高优先级值的字体。
+当不同字体源中存在具有相同家族名称和样式的字体时，使用此值。在这种情况下，Aspose.Words 从具有更高优先级值的源中选择字体。
 
 默认值为 0。
 
@@ -105,23 +105,23 @@ public int getPriorityInternal()
 
 **退货:**
 整数
-### get类型() {#get类型--}
+### getType() {#getType--}
 ```
-public abstract int get类型()
+public abstract int getType()
 ```
 
 
 返回字体源的类型。
 
 **退货:**
- int - 字体源的类型。返回值是以下之一[FontSource类型](../../com.aspose.words/fontsourcetype)常数。
+ int - 字体源的类型。返回值是以下之一[FontSourceType](../../com.aspose.words/fontsourcetype)常数。
 ### getWarningCallback() {#getWarningCallback--}
 ```
 public IWarningCallback getWarningCallback()
 ```
 
 
-当检测到可能导致格式保真度丢失的问题时，在处理字体源期间调用。
+当检测到可能导致格式保真度损失的问题时，在处理字体源期间调用。
 
 **退货:**
 [IWarningCallback](../../com.aspose.words/iwarningcallback) - 相应的[IWarningCallback](../../com.aspose.words/iwarningcallback)价值。
@@ -157,7 +157,7 @@ public void setWarningCallback(IWarningCallback value)
 ```
 
 
-当检测到可能导致格式保真度丢失的问题时，在处理字体源期间调用。
+当检测到可能导致格式保真度损失的问题时，在处理字体源期间调用。
 
 **参数:**
 | 范围 | 类型 | 描述 |

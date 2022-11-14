@@ -1,6 +1,6 @@
 ---
 title: OoxmlCompliance
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 允许指定以 DOCX 格式保存时将使用的 OOXML 规范。
 type: docs
 weight: 427
@@ -16,10 +16,10 @@ public class OoxmlCompliance
 允许指定以 DOCX 格式保存时将使用的 OOXML 规范。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
-| [ECMA_376_2006](#ECMA-376-2006) | ECMA-376 第 1 版，2006 年。 |
-| [ISO_29500_2008_STRICT](#ISO-29500-2008-STRICT) | ISO/IEC 29500:2008 严格的合规级别。 |
+| [ECMA_376_2006](#ECMA-376-2006) | ECMA-376 第一版，2006 年。 |
+| [ISO_29500_2008_STRICT](#ISO-29500-2008-STRICT) | ISO/IEC 29500:2008 严格合规级别。 |
 | [ISO_29500_2008_TRANSITIONAL](#ISO-29500-2008-TRANSITIONAL) | ISO/IEC 29500:2008 过渡合规级别。 |
 | [length](#length) |  |
 ## 方法
@@ -28,7 +28,7 @@ public class OoxmlCompliance
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String ooxmlComplianceName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int ooxmlCompliance)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int ECMA_376_2006
 ```
 
 
-ECMA-376 第 1 版，2006 年。
+ECMA-376 第一版，2006 年。
 
 ### ISO_29500_2008_STRICT {#ISO-29500-2008-STRICT}
 ```
@@ -53,7 +53,7 @@ public static int ISO_29500_2008_STRICT
 ```
 
 
-ISO/IEC 29500:2008 严格的合规级别。
+ISO/IEC 29500:2008 严格合规级别。
 
 ### ISO_29500_2008_TRANSITIONAL {#ISO-29500-2008-TRANSITIONAL}
 ```
@@ -99,16 +99,16 @@ public static int fromName(String ooxmlComplianceName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int ooxmlCompliance) {#getName-int-}
 ```
 public static String getName(int ooxmlCompliance)

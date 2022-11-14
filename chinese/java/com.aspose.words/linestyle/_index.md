@@ -1,6 +1,6 @@
 ---
 title: LineStyle
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定 .
 type: docs
 weight: 367
@@ -16,7 +16,7 @@ public class LineStyle
 指定 a 的线型[Border](../../com.aspose.words/border).
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [DASH_DOT_STROKER](#DASH-DOT-STROKER) |  |
 | [DASH_LARGE_GAP](#DASH-LARGE-GAP) |  |
@@ -52,7 +52,7 @@ public class LineStyle
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String lineStyleName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int lineStyle)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -315,16 +315,16 @@ public static int fromName(String lineStyleName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int lineStyle) {#getName-int-}
 ```
 public static String getName(int lineStyle)

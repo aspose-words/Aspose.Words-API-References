@@ -1,6 +1,6 @@
 ---
 title: OdsoRecipientData
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示有关要从邮件合并中排除的外部数据源中的单个记录的信息。
 type: docs
 weight: 416
@@ -20,22 +20,22 @@ public class OdsoRecipientData implements Cloneable
 
 要了解更多信息，请访问**Mail Merge and Reporting**文档文章。
 
-如果将记录合并到合并文档中，则不需要有关该记录的信息。但是，如果给定记录不应合并到合并文档中，则该记录的唯一键值应存储在[getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag--) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte---)此对象的属性以指示此排除。
+如果记录应合并到合并文档中，则不需要有关该记录的信息。但是，如果给定的记录不应合并到合并的文档中，则该记录的唯一键的值应存储在[getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag--) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte---)此对象的属性以指示此排除。
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [deepClone()](#deepClone--) | 返回此对象的深层克隆。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getActive()](#getActive--) | 指定在执行邮件合并时是否应将来自数据源的记录导入到文档中。 |
-| [get班级()](#get班级--) |  |
+| [getActive()](#getActive--) | 指定在执行邮件合并时是否将来自数据源的记录导入到文档中。 |
+| [getClass()](#getClass--) |  |
 | [getColumn()](#getColumn--) | 指定数据源中包含当前记录的唯一数据的列。 |
 | [getHash()](#getHash--) | 表示此记录的哈希码。 |
 | [getUniqueTag()](#getUniqueTag--) | 指定包含唯一数据的列中给定记录的内容。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setActive(boolean value)](#setActive-boolean-) | 指定在执行邮件合并时是否应将来自数据源的记录导入到文档中。 |
+| [setActive(boolean value)](#setActive-boolean-) | 指定在执行邮件合并时是否将来自数据源的记录导入到文档中。 |
 | [setColumn(int value)](#setColumn-int-) | 指定数据源中包含当前记录的唯一数据的列。 |
 | [setHash(int value)](#setHash-int-) | 表示此记录的哈希码。 |
 | [setUniqueTag(byte[] value)](#setUniqueTag-byte---) | 指定包含唯一数据的列中给定记录的内容。 |
@@ -74,20 +74,20 @@ public boolean getActive()
 ```
 
 
-指定在执行邮件合并时是否应将来自数据源的记录导入到文档中。默认值是true 。
+指定在执行邮件合并时是否将来自数据源的记录导入到文档中。默认值是true 。
 
 **退货:**
 boolean - 对应的布尔值。
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getColumn() {#getColumn--}
 ```
 public int getColumn()
@@ -104,7 +104,7 @@ public int getHash()
 ```
 
 
-表示此记录的哈希码。有时 Microsoft Word 使用[getHash()](../../com.aspose.words/odsorecipientdata\#getHash--) / [setHash(int)](../../com.aspose.words/odsorecipientdata\#setHash-int-)整条记录而不是[getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag--) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte---)价值。默认值为 0。
+表示此记录的哈希码。有时 Microsoft Word 使用[getHash()](../../com.aspose.words/odsorecipientdata\#getHash--) / [setHash(int)](../../com.aspose.words/odsorecipientdata\#setHash-int-)整个记录而不是[getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag--) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte---)价值。默认值为 0。
 
 **退货:**
 int - 对应的 int 值。
@@ -114,7 +114,7 @@ public byte[] getUniqueTag()
 ```
 
 
-指定包含唯一数据的列中给定记录的内容。默认值为 null 。
+指定包含唯一数据的列中给定记录的内容。默认值为空。
 
 **退货:**
 字节[- 对应的字节[] 价值。
@@ -150,7 +150,7 @@ public void setActive(boolean value)
 ```
 
 
-指定在执行邮件合并时是否应将来自数据源的记录导入到文档中。默认值是true 。
+指定在执行邮件合并时是否将来自数据源的记录导入到文档中。默认值是true 。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -176,7 +176,7 @@ public void setHash(int value)
 ```
 
 
-表示此记录的哈希码。有时 Microsoft Word 使用[getHash()](../../com.aspose.words/odsorecipientdata\#getHash--) / [setHash(int)](../../com.aspose.words/odsorecipientdata\#setHash-int-)整条记录而不是[getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag--) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte---)价值。默认值为 0。
+表示此记录的哈希码。有时 Microsoft Word 使用[getHash()](../../com.aspose.words/odsorecipientdata\#getHash--) / [setHash(int)](../../com.aspose.words/odsorecipientdata\#setHash-int-)整个记录而不是[getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag--) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte---)价值。默认值为 0。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -189,12 +189,12 @@ public void setUniqueTag(byte[] value)
 ```
 
 
-指定包含唯一数据的列中给定记录的内容。默认值为 null 。
+指定包含唯一数据的列中给定记录的内容。默认值为空。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] | 对应的字节[] 价值。 |
+| value | byte[] | 对应字节[] 价值。 |
 
 ### toString() {#toString--}
 ```

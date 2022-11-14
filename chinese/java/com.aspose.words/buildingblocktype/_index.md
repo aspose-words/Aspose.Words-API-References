@@ -1,7 +1,7 @@
 ---
-title: BuildingBlock类型
-second_title: Aspose.Words for Java API Reference
-description: 指定构建块类型。
+title: BuildingBlockType
+second_title: Aspose.Words for Java API 参考
+description: 指定构建基块类型。
 type: docs
 weight: 45
 url: /zh/java/com.aspose.words/buildingblocktype/
@@ -10,40 +10,40 @@ url: /zh/java/com.aspose.words/buildingblocktype/
 **遗产:**
 java.lang.Object
 ```
-public class BuildingBlock类型
+public class BuildingBlockType
 ```
 
-指定构建块类型。该类型可能会影响 Microsoft Word 中构建基块的可见性和行为。
+指定构建基块类型。该类型可能会影响构建基块在 Microsoft Word 中的可见性和行为。
 
-对应于**ST\_DocPart类型**输入 OOXML。
+对应于**ST\_DocPartType**输入 OOXML。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [ALL](#ALL) | 构建块与所有类型相关联。 |
-| [AUTOMATICALLY_REPLACE_NAME_WITH_CONTENT](#AUTOMATICALLY-REPLACE-NAME-WITH-CONTENT) | 每当在应用程序中输入其名称时，允许将构建块自动插入到文档中。 |
+| [AUTOMATICALLY_REPLACE_NAME_WITH_CONTENT](#AUTOMATICALLY-REPLACE-NAME-WITH-CONTENT) | 允许将构建块的名称输入应用程序时自动插入到文档中。 |
 | [AUTO_CORRECT](#AUTO-CORRECT) | 构建块与拼写和语法工具相关联。 |
-| [AUTO_TEXT](#AUTO-TEXT) | 构建块是自动图文集条目。 |
+| [AUTO_TEXT](#AUTO-TEXT) | 构建基块是一个自动图文集词条。 |
 | [DEFAULT](#DEFAULT) | 另存为[NONE](../../com.aspose.words/buildingblocktype\#NONE). |
-| [FORM_FIELD_HELP_TEXT](#FORM-FIELD-HELP-TEXT) | 构建块是表单字段帮助文本。 |
+| [FORM_FIELD_HELP_TEXT](#FORM-FIELD-HELP-TEXT) | 构建块是一个表单字段帮助文本。 |
 | [NONE](#NONE) | 没有为构建块指定类型信息。 |
-| [NORMAL](#NORMAL) | 构建块是正常的（即 |
-| [STRUCTURED_DOCUMENT_TAG_PLACEHOLDER_TEXT](#STRUCTURED-DOCUMENT-TAG-PLACEHOLDER-TEXT) | 构建块是结构化的文档标签占位符文本。 |
+| [NORMAL](#NORMAL) | 积木是正常的（即 |
+| [STRUCTURED_DOCUMENT_TAG_PLACEHOLDER_TEXT](#STRUCTURED-DOCUMENT-TAG-PLACEHOLDER-TEXT) | 构建块是结构化文档标记占位符文本。 |
 | [length](#length) |  |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String buildingBlock类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int buildingBlock类型)](#getName-int-) |  |
+| [fromName(String buildingBlockTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int buildingBlockType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int buildingBlock类型)](#toString-int-) |  |
+| [toString(int buildingBlockType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -61,7 +61,7 @@ public static int AUTOMATICALLY_REPLACE_NAME_WITH_CONTENT
 ```
 
 
-每当在应用程序中输入其名称时，允许将构建块自动插入到文档中。
+允许将构建块的名称输入应用程序时自动插入到文档中。
 
 ### AUTO_CORRECT {#AUTO-CORRECT}
 ```
@@ -77,7 +77,7 @@ public static int AUTO_TEXT
 ```
 
 
-构建块是自动图文集条目。
+构建基块是一个自动图文集词条。
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -93,7 +93,7 @@ public static int FORM_FIELD_HELP_TEXT
 ```
 
 
-构建块是表单字段帮助文本。
+构建块是一个表单字段帮助文本。
 
 ### NONE {#NONE}
 ```
@@ -109,7 +109,7 @@ public static int NORMAL
 ```
 
 
-构建块是一个正常的（即常规的）词汇表文档条目。
+构建块是一个普通的（即常规的）词汇表文档条目。
 
 ### STRUCTURED_DOCUMENT_TAG_PLACEHOLDER_TEXT {#STRUCTURED-DOCUMENT-TAG-PLACEHOLDER-TEXT}
 ```
@@ -117,7 +117,7 @@ public static int STRUCTURED_DOCUMENT_TAG_PLACEHOLDER_TEXT
 ```
 
 
-构建块是结构化的文档标签占位符文本。
+构建块是结构化文档标记占位符文本。
 
 ### length {#length}
 ```
@@ -140,9 +140,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String buildingBlock类型Name) {#fromName-java.lang.String-}
+### fromName(String buildingBlockTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String buildingBlock类型Name)
+public static int fromName(String buildingBlockTypeName)
 ```
 
 
@@ -151,23 +151,23 @@ public static int fromName(String buildingBlock类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| buildingBlock类型Name | java.lang.String |  |
+| buildingBlockTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int buildingBlock类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int buildingBlockType) {#getName-int-}
 ```
-public static String getName(int buildingBlock类型)
+public static String getName(int buildingBlockType)
 ```
 
 
@@ -176,7 +176,7 @@ public static String getName(int buildingBlock类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| buildingBlock类型 | int |  |
+| buildingBlockType | int |  |
 
 **退货:**
 java.lang.String
@@ -226,9 +226,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int buildingBlock类型) {#toString-int-}
+### toString(int buildingBlockType) {#toString-int-}
 ```
-public static String toString(int buildingBlock类型)
+public static String toString(int buildingBlockType)
 ```
 
 
@@ -237,7 +237,7 @@ public static String toString(int buildingBlock类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| buildingBlock类型 | int |  |
+| buildingBlockType | int |  |
 
 **退货:**
 java.lang.String

@@ -1,6 +1,6 @@
 ---
 title: GeneralFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定应用于数字文本或任何字段结果的通用格式。
 type: docs
 weight: 304
@@ -16,7 +16,7 @@ public class GeneralFormat
 指定应用于数字、文本或任何字段结果的通用格式。一个字段可能有通用格式的组合。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [AIUEO](#AIUEO) | 数字格式。 |
 | [ARABIC](#ARABIC) | 数字格式。 |
@@ -81,7 +81,7 @@ public class GeneralFormat
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String generalFormatName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int generalFormat)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -178,7 +178,7 @@ public static int CHINESE_NUM_2
 ```
 
 
-数字格式。使用来自适当合法格式的序列号格式化数字结果。
+数字格式。使用适当合法格式的序号格式化数字结果。
 
 ### CHINESE_NUM_3 {#CHINESE-NUM-3}
 ```
@@ -186,7 +186,7 @@ public static int CHINESE_NUM_3
 ```
 
 
-数字格式。使用来自适当的计数千系统的序列号格式化数字结果。
+数字格式。使用适当的千位系统中的序号格式化数字结果。
 
 ### CHOSUNG {#CHOSUNG}
 ```
@@ -194,7 +194,7 @@ public static int CHOSUNG
 ```
 
 
-数字格式。使用韩国 Chosung 格式的序列号格式化数字结果。
+数字格式。使用朝鲜语 Chosung 格式的序号格式化数字结果。
 
 ### CIRCLE_NUM {#CIRCLE-NUM}
 ```
@@ -202,7 +202,7 @@ public static int CIRCLE_NUM
 ```
 
 
-数字格式。使用包围在圆圈中的十进制编号格式化数字结果，对范围 1 中的数字使用封闭的字母数字字形字符\\u201320。
+数字格式。使用圆圈中包含的十进制数字对数字结果进行格式化，对范围 1 中的数字使用包含的字母数字字形字符\\u201320。
 
 ### DB_CHAR {#DB-CHAR}
 ```
@@ -240,7 +240,7 @@ public static int DOLLAR_TEXT
 ```
 
 
-数字格式。美元文本（一、二、三、... + AND 55/100）。
+数字格式。美元文本（一、二、三、... + 和 55/100）。
 
 ### FIRST_CAP {#FIRST-CAP}
 ```
@@ -256,7 +256,7 @@ public static int GANADA
 ```
 
 
-数字格式。使用韩国 Ganada 格式的序列号格式化数字结果。
+数字格式。使用韩语 Ganada 格式的序号格式化数字结果。
 
 ### GB_1 {#GB-1}
 ```
@@ -564,16 +564,16 @@ public static int fromName(String generalFormatName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int generalFormat) {#getName-int-}
 ```
 public static String getName(int generalFormat)

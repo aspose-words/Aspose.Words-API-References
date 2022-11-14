@@ -1,6 +1,6 @@
 ---
 title: CompressionLevel
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: OOXML 文件的压缩级别。
 type: docs
 weight: 88
@@ -20,7 +20,7 @@ OOXML 文件的压缩级别。
 请注意，FlatOpc 文件不是 ZIP 存档，因此，此属性不会影响 FlatOpc 文件。）
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [FAST](#FAST) | 快速压缩级别。 |
 | [MAXIMUM](#MAXIMUM) | 最大压缩级别。 |
@@ -33,7 +33,7 @@ OOXML 文件的压缩级别。
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String compressionLevelName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int compressionLevel)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -112,16 +112,16 @@ public static int fromName(String compressionLevelName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int compressionLevel) {#getName-int-}
 ```
 public static String getName(int compressionLevel)

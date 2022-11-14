@@ -1,6 +1,6 @@
 ---
-title: LayoutEntity类型
-second_title: Aspose.Words for Java API Reference
+title: LayoutEntityType
+second_title: Aspose.Words for Java API 参考
 description: 布局实体的类型。
 type: docs
 weight: 359
@@ -10,13 +10,13 @@ url: /zh/java/com.aspose.words/layoutentitytype/
 **遗产:**
 java.lang.Object
 ```
-public class LayoutEntity类型
+public class LayoutEntityType
 ```
 
 布局实体的类型。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CELL](#CELL) | 表示表格单元格。 |
 | [COLUMN](#COLUMN) | 表示页面上的一列文本。 |
@@ -38,17 +38,17 @@ public class LayoutEntity类型
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String layoutEntity类型Name)](#fromName-java.lang.String-) |  |
-| [fromNames(Set layoutEntity类型Names)](#fromNames-java.util.Set-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int layoutEntity类型)](#getName-int-) |  |
-| [getNames(int layoutEntity类型)](#getNames-int-) |  |
+| [fromName(String layoutEntityTypeName)](#fromName-java.lang.String-) |  |
+| [fromNames(Set layoutEntityTypeNames)](#fromNames-java.util.Set-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int layoutEntityType)](#getName-int-) |  |
+| [getNames(int layoutEntityType)](#getNames-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int layoutEntity类型)](#toString-int-) |  |
+| [toString(int layoutEntityType)](#toString-int-) |  |
 | [toStringSet(int attr)](#toStringSet-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -186,9 +186,9 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### fromName(String layoutEntity类型Name) {#fromName-java.lang.String-}
+### fromName(String layoutEntityTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String layoutEntity类型Name)
+public static int fromName(String layoutEntityTypeName)
 ```
 
 
@@ -197,13 +197,13 @@ public static int fromName(String layoutEntity类型Name)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| layoutEntity类型Name | java.lang.String |  |
+| layoutEntityTypeName | java.lang.String |  |
 
 **退货:**
 整数
-### fromNames(Set layoutEntity类型Names) {#fromNames-java.util.Set-}
+### fromNames(Set layoutEntityTypeNames) {#fromNames-java.util.Set-}
 ```
-public static int fromNames(Set layoutEntity类型Names)
+public static int fromNames(Set layoutEntityTypeNames)
 ```
 
 
@@ -212,23 +212,23 @@ public static int fromNames(Set layoutEntity类型Names)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| layoutEntity类型Names | java.util.Set |  |
+| layoutEntityTypeNames | java.util.Set |  |
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
-### getName(int layoutEntity类型) {#getName-int-}
+java.lang.Class<?>
+### getName(int layoutEntityType) {#getName-int-}
 ```
-public static String getName(int layoutEntity类型)
+public static String getName(int layoutEntityType)
 ```
 
 
@@ -237,13 +237,13 @@ public static String getName(int layoutEntity类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| layoutEntity类型 | int |  |
+| layoutEntityType | int |  |
 
 **退货:**
 java.lang.String
-### getNames(int layoutEntity类型) {#getNames-int-}
+### getNames(int layoutEntityType) {#getNames-int-}
 ```
-public static Set getNames(int layoutEntity类型)
+public static Set getNames(int layoutEntityType)
 ```
 
 
@@ -252,7 +252,7 @@ public static Set getNames(int layoutEntity类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| layoutEntity类型 | int |  |
+| layoutEntityType | int |  |
 
 **退货:**
 java.util.Set
@@ -302,9 +302,9 @@ public String toString()
 
 **退货:**
 java.lang.String
-### toString(int layoutEntity类型) {#toString-int-}
+### toString(int layoutEntityType) {#toString-int-}
 ```
-public static String toString(int layoutEntity类型)
+public static String toString(int layoutEntityType)
 ```
 
 
@@ -313,7 +313,7 @@ public static String toString(int layoutEntity类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| layoutEntity类型 | int |  |
+| layoutEntityType | int |  |
 
 **退货:**
 java.lang.String

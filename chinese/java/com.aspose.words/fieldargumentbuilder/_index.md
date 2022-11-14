@@ -1,6 +1,6 @@
 ---
-title: 字段ArgumentBuilder
-second_title: Aspose.Words for Java API Reference
+title: FieldArgumentBuilder
+second_title: Aspose.Words for Java API 参考
 description: 构建一个由字段节点和纯文本组成的复杂字段参数。
 type: docs
 weight: 155
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/fieldargumentbuilder/
 **遗产:**
 java.lang.Object
 ```
-public class 字段ArgumentBuilder
+public class FieldArgumentBuilder
 ```
 
 构建由字段、节点和纯文本组成的复杂字段参数。
@@ -20,17 +20,17 @@ public class 字段ArgumentBuilder
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [字段ArgumentBuilder()](#字段ArgumentBuilder--) | 初始化一个实例[字段ArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)班级。 |
+| [FieldArgumentBuilder()](#FieldArgumentBuilder--) | 初始化一个实例[FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)班级。 |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [add字段(字段Builder fieldBuilder)](#add字段-com.aspose.words.字段Builder-) | 添加一个由 a 表示的字段[字段Builder](../../com.aspose.words/fieldbuilder)到论点。 |
+| [addField(FieldBuilder fieldBuilder)](#addField-com.aspose.words.FieldBuilder-) | 添加一个由 a 表示的字段[FieldBuilder](../../com.aspose.words/fieldbuilder)到论点。 |
 | [addNode(Inline node)](#addNode-com.aspose.words.Inline-) | 向参数添加一个节点。 |
 | [addText(String text)](#addText-java.lang.String-) | 向参数添加纯文本。 |
 | [buildBlock(DocumentBuilder documentBuilder)](#buildBlock-com.aspose.words.DocumentBuilder-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -38,32 +38,32 @@ public class 字段ArgumentBuilder
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### 字段ArgumentBuilder() {#字段ArgumentBuilder--}
+### FieldArgumentBuilder() {#FieldArgumentBuilder--}
 ```
-public 字段ArgumentBuilder()
-```
-
-
-初始化一个实例[字段ArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)班级。
-
-### add字段(字段Builder fieldBuilder) {#add字段-com.aspose.words.字段Builder-}
-```
-public 字段ArgumentBuilder add字段(字段Builder fieldBuilder)
+public FieldArgumentBuilder()
 ```
 
 
-添加一个由 a 表示的字段[字段Builder](../../com.aspose.words/fieldbuilder)到论点。
+初始化一个实例[FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)班级。
+
+### addField(FieldBuilder fieldBuilder) {#addField-com.aspose.words.FieldBuilder-}
+```
+public FieldArgumentBuilder addField(FieldBuilder fieldBuilder)
+```
+
+
+添加一个由 a 表示的字段[FieldBuilder](../../com.aspose.words/fieldbuilder)到论点。
 
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldBuilder | [字段Builder](../../com.aspose.words/fieldbuilder) |  |
+| fieldBuilder | [FieldBuilder](../../com.aspose.words/fieldbuilder) |  |
 
 **退货:**
-[字段ArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)
+[FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)
 ### addNode(Inline node) {#addNode-com.aspose.words.Inline-}
 ```
-public 字段ArgumentBuilder addNode(Inline node)
+public FieldArgumentBuilder addNode(Inline node)
 ```
 
 
@@ -75,10 +75,10 @@ public 字段ArgumentBuilder addNode(Inline node)
 | node | [Inline](../../com.aspose.words/inline) |  |
 
 **退货:**
-[字段ArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)
+[FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)
 ### addText(String text) {#addText-java.lang.String-}
 ```
-public 字段ArgumentBuilder addText(String text)
+public FieldArgumentBuilder addText(String text)
 ```
 
 
@@ -90,7 +90,7 @@ public 字段ArgumentBuilder addText(String text)
 | text | java.lang.String |  |
 
 **退货:**
-[字段ArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)
+[FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)
 ### buildBlock(DocumentBuilder documentBuilder) {#buildBlock-com.aspose.words.DocumentBuilder-}
 ```
 public void buildBlock(DocumentBuilder documentBuilder)
@@ -119,16 +119,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

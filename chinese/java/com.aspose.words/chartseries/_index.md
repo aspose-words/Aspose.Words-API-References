@@ -1,6 +1,6 @@
 ---
 title: ChartSeries
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示图表系列属性。
 type: docs
 weight: 68
@@ -11,7 +11,7 @@ url: /zh/java/com.aspose.words/chartseries/
 java.lang.Object
 
 **所有实现的接口:**
-[com.aspose.words.IChartDataPoint](../../com.aspose.words/ichartdatapoint), java.lang.Cloneable
+[com.aspose.words.IChartDataPoint](../../com.aspose.words/ichartdatapoint), java.lang.可克隆
 ```
 public class ChartSeries implements IChartDataPoint, Cloneable
 ```
@@ -25,7 +25,7 @@ public class ChartSeries implements IChartDataPoint, Cloneable
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBubble3D()](#getBubble3D--) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDataLabels()](#getDataLabels--) | 指定整个系列的数据标签设置。 |
 | [getDataPoints()](#getDataPoints--) | 返回此系列中所有数据点的格式化对象的集合。 |
 | [getExplosion()](#getExplosion--) |  |
@@ -74,16 +74,16 @@ public boolean getBubble3D()
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDataLabels() {#getDataLabels--}
 ```
 public ChartDataLabelCollection getDataLabels()

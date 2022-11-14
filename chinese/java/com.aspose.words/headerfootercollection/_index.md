@@ -1,6 +1,6 @@
 ---
 title: HeaderFooterCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 提供对 Section 节点的类型化访问。
 type: docs
 weight: 317
@@ -13,13 +13,13 @@ java.lang.Object, [com.aspose.words.NodeCollection](../../com.aspose.words/nodec
 public class HeaderFooterCollection extends NodeCollection
 ```
 
-提供键入访问[HeaderFooter](../../com.aspose.words/headerfooter)a的节点**Section**.
+提供类型访问[HeaderFooter](../../com.aspose.words/headerfooter)的节点**Section**.
 
 要了解更多信息，请访问**Working with Headers and Footers**文档文章。
 
 最多可以有一个**HeaderFooter**
 
-每个[HeaderFooter类型](../../com.aspose.words/headerfootertype)每**Section**.
+每个[HeaderFooterType](../../com.aspose.words/headerfootertype)每**Section**.
 
 **HeaderFooter**对象可以在集合中以任何顺序出现。
 ## 方法
@@ -31,8 +31,8 @@ public class HeaderFooterCollection extends NodeCollection
 | [contains(Node node)](#contains-com.aspose.words.Node-) | 确定节点是否在集合中。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 检索一个**HeaderFooter**在给定的索引处。 |
-| [getByHeaderFooter类型(int headerFooter类型)](#getByHeaderFooter类型-int-) |  |
-| [get班级()](#get班级--) |  |
+| [getByHeaderFooterType(int headerFooterType)](#getByHeaderFooterType-int-) |  |
+| [getClass()](#getClass--) |  |
 | [getContainer()](#getContainer--) |  |
 | [getCount()](#getCount--) | 获取集合中的节点数。 |
 | [getCurrentNode()](#getCurrentNode--) |  |
@@ -42,7 +42,7 @@ public class HeaderFooterCollection extends NodeCollection
 | [insert(int index, Node node)](#insert-int-com.aspose.words.Node-) | 将节点插入到集合中指定索引处。 |
 | [iterator()](#iterator--) | 在节点集合上提供简单的“foreach”样式迭代。 |
 | [linkToPrevious(boolean isLinkToPrevious)](#linkToPrevious-boolean-) | 将所有页眉和页脚链接或取消链接到上一节中的相应页眉和页脚。 |
-| [linkToPrevious(int headerFooter类型, boolean isLinkToPrevious)](#linkToPrevious-int-boolean-) |  |
+| [linkToPrevious(int headerFooterType, boolean isLinkToPrevious)](#linkToPrevious-int-boolean-) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [remove(Node node)](#remove-com.aspose.words.Node-) | 从集合和文档中删除节点。 |
@@ -119,13 +119,13 @@ public Node get(int index)
 
 检索一个**HeaderFooter**在给定的索引处。
 
-该索引从零开始。
+该指数是从零开始的。
 
-允许使用负索引并指示从集合的背面进行访问。例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
+允许使用负索引，表示从集合的后面访问。例如 -1 表示最后一项，-2 表示倒数第二项，依此类推。
 
-如果 index 大于或等于列表中的项目数，则返回空引用。
+如果索引大于或等于列表中的项目数，则返回空引用。
 
-如果 index 为负且其绝对值大于列表中的项目数，则返回空引用。
+如果索引为负且其绝对值大于列表中的项目数，则返回空引用。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -134,9 +134,9 @@ public Node get(int index)
 
 **退货:**
 [Node](../../com.aspose.words/node) - 相应的[HeaderFooter](../../com.aspose.words/headerfooter)价值。
-### getByHeaderFooter类型(int headerFooter类型) {#getByHeaderFooter类型-int-}
+### getByHeaderFooterType(int headerFooterType) {#getByHeaderFooterType-int-}
 ```
-public HeaderFooter getByHeaderFooter类型(int headerFooter类型)
+public HeaderFooter getByHeaderFooterType(int headerFooterType)
 ```
 
 
@@ -145,20 +145,20 @@ public HeaderFooter getByHeaderFooter类型(int headerFooter类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| headerFooter类型 | int |  |
+| headerFooterType | int |  |
 
 **退货:**
 [HeaderFooter](../../com.aspose.words/headerfooter)
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getContainer() {#getContainer--}
 ```
 public CompositeNode getContainer()
@@ -280,9 +280,9 @@ public void linkToPrevious(boolean isLinkToPrevious)
 | --- | --- | --- |
 | isLinkToPrevious | boolean | True 将页眉和页脚链接到上一节； false 取消链接。 |
 
-### linkToPrevious(int headerFooter类型, boolean isLinkToPrevious) {#linkToPrevious-int-boolean-}
+### linkToPrevious(int headerFooterType, boolean isLinkToPrevious) {#linkToPrevious-int-boolean-}
 ```
-public void linkToPrevious(int headerFooter类型, boolean isLinkToPrevious)
+public void linkToPrevious(int headerFooterType, boolean isLinkToPrevious)
 ```
 
 
@@ -291,7 +291,7 @@ public void linkToPrevious(int headerFooter类型, boolean isLinkToPrevious)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| headerFooter类型 | int |  |
+| headerFooterType | int |  |
 | isLinkToPrevious | boolean |  |
 
 ### notify() {#notify--}

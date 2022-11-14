@@ -1,6 +1,6 @@
 ---
 title: FootnoteNumberingRule
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 确定自动脚注或尾注编号何时重新开始。
 type: docs
 weight: 292
@@ -16,7 +16,7 @@ public class FootnoteNumberingRule
 确定自动脚注或尾注编号何时重新开始。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [CONTINUOUS](#CONTINUOUS) | 在整个文档中连续编号。 |
 | [DEFAULT](#DEFAULT) | 等于[CONTINUOUS](../../com.aspose.words/footnotenumberingrule\#CONTINUOUS). |
@@ -29,7 +29,7 @@ public class FootnoteNumberingRule
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String footnoteNumberingRuleName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int footnoteNumberingRule)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -108,16 +108,16 @@ public static int fromName(String footnoteNumberingRuleName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int footnoteNumberingRule) {#getName-int-}
 ```
 public static String getName(int footnoteNumberingRule)

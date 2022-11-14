@@ -1,6 +1,6 @@
 ---
 title: MailMergeDestination
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指定对文档执行邮件合并时可能生成的结果。
 type: docs
 weight: 383
@@ -16,7 +16,7 @@ public class MailMergeDestination
 指定对文档执行邮件合并时可能生成的结果。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [DEFAULT](#DEFAULT) | 等于[NEW\_DOCUMENT](../../com.aspose.words/mailmergedestination\#NEW-DOCUMENT)价值。 |
 | [EMAIL](#EMAIL) | 指定符合要求的托管应用程序应使用通过使用来自指定外部数据源的数据填充给定文档中的字段而产生的文档生成电子邮件。 |
@@ -30,7 +30,7 @@ public class MailMergeDestination
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String mailMergeDestinationName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int mailMergeDestination)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -117,16 +117,16 @@ public static int fromName(String mailMergeDestinationName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int mailMergeDestination) {#getName-int-}
 ```
 public static String getName(int mailMergeDestination)

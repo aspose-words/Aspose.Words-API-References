@@ -1,7 +1,7 @@
 ---
 title: BorderCollection
-second_title: Aspose.Words for Java API Reference
-description: 边框对象的集合。
+second_title: Aspose.Words for Java API 参考
+description: Border 对象的集合。
 type: docs
 weight: 37
 url: /zh/java/com.aspose.words/bordercollection/
@@ -16,11 +16,11 @@ java.lang.Iterable
 public class BorderCollection implements Iterable
 ```
 
-边框对象的集合。
+Border 对象的集合。
 
 要了解更多信息，请访问**Programming with Documents**文档文章。
 
-不同的文档元素有不同的边界。例如，ParagraphFormat 具有底部、左侧、右侧和顶部边框。您可以为每个边框单独指定不同的格式，或者枚举所有边框并应用相同的格式。
+不同的文档元素有不同的边框。例如，ParagraphFormat 有 Bottom、Left、Right 和 Top 边框。您可以单独为每个边框指定不同的格式，或者枚举所有边框并应用相同的格式。
 ## 方法
 
 | 方法 | 描述 |
@@ -30,8 +30,8 @@ public class BorderCollection implements Iterable
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 按索引检索 Border 对象。 |
 | [getBottom()](#getBottom--) | 获取底部边框。 |
-| [getByBorder类型(int border类型)](#getByBorder类型-int-) |  |
-| [get班级()](#get班级--) |  |
+| [getByBorderType(int borderType)](#getByBorderType-int-) |  |
+| [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | 获取边框颜色。 |
 | [getCount()](#getCount--) | 获取集合中的边框数。 |
 | [getDistanceFromText()](#getDistanceFromText--) | 以点为单位获取边框与文本的距离。 |
@@ -119,9 +119,9 @@ public Border getBottom()
 
 **退货:**
 [Border](../../com.aspose.words/border) - 底部边框。
-### getByBorder类型(int border类型) {#getByBorder类型-int-}
+### getByBorderType(int borderType) {#getByBorderType-int-}
 ```
-public Border getByBorder类型(int border类型)
+public Border getByBorderType(int borderType)
 ```
 
 
@@ -130,20 +130,20 @@ public Border getByBorder类型(int border类型)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| border类型 | int |  |
+| borderType | int |  |
 
 **退货:**
 [Border](../../com.aspose.words/border)
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getColor() {#getColor--}
 ```
 public Color getColor()
@@ -217,7 +217,7 @@ public int getLineStyle()
 设置集合中所有边框的样式，不包括对角线边框。
 
 **退货:**
- int - 边框样式。返回值是以下之一[LineStyle](../../com.aspose.words/linestyle)常数。
+ int - 边框样式。返回值是其中之一[LineStyle](../../com.aspose.words/linestyle)常数。
 ### getLineWidth() {#getLineWidth--}
 ```
 public double getLineWidth()
@@ -363,7 +363,7 @@ public void setLineStyle(int value)
 **参数:**
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 边框样式。该值必须是以下之一[LineStyle](../../com.aspose.words/linestyle)常数。 |
+| value | int | 边框样式。该值必须是其中之一[LineStyle](../../com.aspose.words/linestyle)常数。 |
 
 ### setLineWidth(double value) {#setLineWidth-double-}
 ```

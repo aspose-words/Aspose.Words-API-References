@@ -1,6 +1,6 @@
 ---
 title: DataSet
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示数据的内存缓存。
 type: docs
 weight: 24
@@ -30,10 +30,10 @@ public class DataSet
 | [clear()](#clear--) | 清除[DataSet](../../com.aspose.words.net.system.data/dataset)通过删除所有表中的所有行来删除任何数据。 |
 | [close()](#close--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDataSetName()](#getDataSetName--) | 获取当前名称[DataSet](../../com.aspose.words.net.system.data/dataset). |
 | [getEnforceConstraints()](#getEnforceConstraints--) | 获取一个值，该值指示在尝试任何更新操作时是否遵循约束规则。 |
-| [getNamespace()](#getNamespace--) | 获取命名空间[DataSet](../../com.aspose.words.net.system.data/dataset). |
+| [getNamespace()](#getNamespace--) | 获取的命名空间[DataSet](../../com.aspose.words.net.system.data/dataset). |
 | [getRelations()](#getRelations--) | 获取链接表并允许从父表导航到子表的关系集合。 |
 | [getTables()](#getTables--) | 获取包含在[DataSet](../../com.aspose.words.net.system.data/dataset). |
 | [hashCode()](#hashCode--) |  |
@@ -43,12 +43,12 @@ public class DataSet
 | [readXml(InputStream stream)](#readXml-java.io.InputStream-) | 将 XML 模式和数据读入[DataSet](../../com.aspose.words.net.system.data/dataset)使用指定的 java.io.InputStream。 |
 | [readXml(InputStream xmlStream, System.Data.XmlReadMode mode)](#readXml-java.io.InputStream-com.aspose.words.net.System.Data.XmlReadMode-) | 使用指定的 java.io.InputStream 和[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode). |
 | [readXml(String fileName)](#readXml-java.lang.String-) | 将 XML 模式和数据读入[DataSet](../../com.aspose.words.net.system.data/dataset)使用指定的文件。 |
-| [readXml(String xmlPath, System.Data.XmlReadMode readMode)](#readXml-java.lang.String-com.aspose.words.net.System.Data.XmlReadMode-) | 使用指定的文件将 XML 模式和数据读入 DataSet 并[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode). |
+| [readXml(String xmlPath, System.Data.XmlReadMode readMode)](#readXml-java.lang.String-com.aspose.words.net.System.Data.XmlReadMode-) | 使用指定的文件将 XML 模式和数据读入数据集中[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode). |
 | [readXmlSchema(InputStream stream)](#readXmlSchema-java.io.InputStream-) | 从指定的 java.io.InputStream 读取 XML 模式到[DataSet](../../com.aspose.words.net.system.data/dataset). |
 | [readXmlSchema(String fileName)](#readXmlSchema-java.lang.String-) | 将指定文件中的 XML 模式读入[DataSet](../../com.aspose.words.net.system.data/dataset). |
-| [reset()](#reset--) | 重置[DataSet](../../com.aspose.words.net.system.data/dataset)回到原来的状态。 |
-| [setDataSetName(String value)](#setDataSetName-java.lang.String-) | 设置当前名称[DataSet](../../com.aspose.words.net.system.data/dataset). |
-| [setEnforceConstraints(boolean value)](#setEnforceConstraints-boolean-) | 设置一个值，该值指示在尝试任何更新操作时是否遵循约束规则。 |
+| [reset()](#reset--) | 重置[DataSet](../../com.aspose.words.net.system.data/dataset)到原来的状态。 |
+| [setDataSetName(String value)](#setDataSetName-java.lang.String-) | 设置当前的名称[DataSet](../../com.aspose.words.net.system.data/dataset). |
+| [setEnforceConstraints(boolean value)](#setEnforceConstraints-boolean-) | 设置一个值，指示在尝试任何更新操作时是否遵循约束规则。 |
 | [setLocale(Locale locale)](#setLocale-java.util.Locale-) | 设置用于比较表中字符串的语言环境信息。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -70,7 +70,7 @@ public DataSet(Connection connection)
 
 使用从 Connection 获取的数据初始化 DataSet 类的新实例。表、关系、约束和索引将被复制到数据集中。
 
-默认情况下，不会使用架构名称。
+默认情况下不会使用模式名称。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -119,7 +119,7 @@ public boolean IsSchemaWasRead()
 
 
 **退货:**
-boolean - 如果模式被读取，则为 true
+boolean - 如果模式被读取则为真
 ### clear() {#clear--}
 ```
 public void clear()
@@ -151,16 +151,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getDataSetName() {#getDataSetName--}
 ```
 public String getDataSetName()
@@ -180,14 +180,14 @@ public boolean getEnforceConstraints()
 获取一个值，该值指示在尝试任何更新操作时是否遵循约束规则。
 
 **退货:**
-boolean - 如果规则被强制执行，则为 true；否则为假。默认值为真。
+布尔值 - 如果强制执行规则则为真；否则为假。默认为真。
 ### getNamespace() {#getNamespace--}
 ```
 public String getNamespace()
 ```
 
 
-获取命名空间[DataSet](../../com.aspose.words.net.system.data/dataset).
+获取的命名空间[DataSet](../../com.aspose.words.net.system.data/dataset).
 
 **退货:**
  java.lang.String - 的命名空间[DataSet](../../com.aspose.words.net.system.data/dataset).
@@ -200,7 +200,7 @@ public System.Data.DataRelationCollection getRelations()
 获取链接表并允许从父表导航到子表的关系集合。
 
 **退货:**
-[DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection) - 一个[DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection)包含一个集合[DataRelation](../../com.aspose.words.net.system.data/datarelation)对象。如果没有，则返回一个空集合[DataRelation](../../com.aspose.words.net.system.data/datarelation)对象存在。
+[DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection) - 一个[DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection)包含的集合[DataRelation](../../com.aspose.words.net.system.data/datarelation)对象。如果没有，则返回一个空集合[DataRelation](../../com.aspose.words.net.system.data/datarelation)对象存在。
 ### getTables() {#getTables--}
 ```
 public System.Data.DataTableCollection getTables()
@@ -274,7 +274,7 @@ public System.Data.XmlReadMode readXml(InputStream xmlStream, System.Data.XmlRea
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | xmlStream | java.io.InputStream | 要从中读取的 Stream。 |
-| mode | [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) | 中的一个[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode)价值观。 |
+| mode | [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) | 中的一个[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode)值。 |
 
 **退货:**
 [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) - 用于读取数据的 XmlReadMode。
@@ -299,7 +299,7 @@ public System.Data.XmlReadMode readXml(String xmlPath, System.Data.XmlReadMode r
 ```
 
 
-使用指定的文件将 XML 模式和数据读入 DataSet 并[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode).
+使用指定的文件将 XML 模式和数据读入数据集中[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode).
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -341,7 +341,7 @@ public void reset()
 ```
 
 
-重置[DataSet](../../com.aspose.words.net.system.data/dataset)回到原来的状态。子类应该覆盖[reset()](../../com.aspose.words.net.system.data/dataset\#reset--)恢复一个[DataSet](../../com.aspose.words.net.system.data/dataset)回到原来的状态。
+重置[DataSet](../../com.aspose.words.net.system.data/dataset)回到原来的状态。子类应该覆盖[reset()](../../com.aspose.words.net.system.data/dataset\#reset--)恢复一个[DataSet](../../com.aspose.words.net.system.data/dataset)到原来的状态。
 
 ### setDataSetName(String value) {#setDataSetName-java.lang.String-}
 ```
@@ -349,7 +349,7 @@ public void setDataSetName(String value)
 ```
 
 
-设置当前名称[DataSet](../../com.aspose.words.net.system.data/dataset).
+设置当前的名称[DataSet](../../com.aspose.words.net.system.data/dataset).
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -362,7 +362,7 @@ public void setEnforceConstraints(boolean value)
 ```
 
 
-设置一个值，该值指示在尝试任何更新操作时是否遵循约束规则。
+设置一个值，指示在尝试任何更新操作时是否遵循约束规则。
 
 **参数:**
 | 范围 | 类型 | 描述 |

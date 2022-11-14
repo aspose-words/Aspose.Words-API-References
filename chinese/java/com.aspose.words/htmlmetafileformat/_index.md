@@ -1,6 +1,6 @@
 ---
 title: HtmlMetafileFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 指示元文件保存到 HTML 文档的格式。
 type: docs
 weight: 329
@@ -16,7 +16,7 @@ public class HtmlMetafileFormat
 指示元文件保存到 HTML 文档的格式。
 ## 字段
 
-| 字段 | 描述 |
+| 场地 | 描述 |
 | --- | --- |
 | [EMF_OR_WMF](#EMF-OR-WMF) | 元文件按原样保存，无需转换。 |
 | [PNG](#PNG) | 元文件被渲染为光栅 PNG 图像。 |
@@ -28,7 +28,7 @@ public class HtmlMetafileFormat
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String htmlMetafileFormatName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int htmlMetafileFormat)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -99,16 +99,16 @@ public static int fromName(String htmlMetafileFormatName)
 
 **退货:**
 整数
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getName(int htmlMetafileFormat) {#getName-int-}
 ```
 public static String getName(int htmlMetafileFormat)

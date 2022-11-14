@@ -1,6 +1,6 @@
 ---
 title: PageInfo
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 表示有关特定文档页面的信息。
 type: docs
 weight: 434
@@ -23,14 +23,14 @@ public class PageInfo
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getHeightInPoints()](#getHeightInPoints--) | 获取页面的高度（以磅为单位）。 |
-| [getLandscape()](#getLandscape--) | 如果在文档中为此页面指定的页面方向为横向，则返回 true。 |
+| [getLandscape()](#getLandscape--) | 如果文档中为此页面指定的页面方向为横向，则返回 true。 |
 | [getPaperSize()](#getPaperSize--) | 获取纸张大小作为枚举。 |
-| [getPaperTray()](#getPaperTray--) | 获取文档中指定的此页面的纸盒（纸盒）。 |
-| [getSizeInPixels(float scale, float dpi)](#getSizeInPixels-float-float-) | 计算指定缩放因子和分辨率的页面大小（以像素为单位）。 |
-| [getSizeInPixels(float scale, float horizontalDpi, float verticalDpi)](#getSizeInPixels-float-float-float-) | 计算指定缩放因子和分辨率的页面大小（以像素为单位）。 |
-| [getSizeInPoints()](#getSizeInPoints--) | 以磅为单位获取页面大小。 |
+| [getPaperTray()](#getPaperTray--) | 获取文档中指定的此页面的纸盘（bin）。 |
+| [getSizeInPixels(float scale, float dpi)](#getSizeInPixels-float-float-) | 计算指定缩放系数和分辨率的页面大小（以像素为单位）。 |
+| [getSizeInPixels(float scale, float horizontalDpi, float verticalDpi)](#getSizeInPixels-float-float-float-) | 计算指定缩放系数和分辨率的页面大小（以像素为单位）。 |
+| [getSizeInPoints()](#getSizeInPoints--) | 获取以磅为单位的页面大小。 |
 | [getWidthInPoints()](#getWidthInPoints--) | 获取页面的宽度（以磅为单位）。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -54,16 +54,16 @@ public boolean equals(Object arg0)
 
 **退货:**
 布尔值
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
 **退货:**
-java.lang.班级<?>
+java.lang.Class<?>
 ### getHeightInPoints() {#getHeightInPoints--}
 ```
 public float getHeightInPoints()
@@ -80,7 +80,7 @@ public boolean getLandscape()
 ```
 
 
-如果在文档中为此页面指定的页面方向为横向，则返回 true。
+如果文档中为此页面指定的页面方向为横向，则返回 true。
 
 **退货:**
 boolean - 如果在文档中为此页面指定的页面方向为横向，则为真。
@@ -110,7 +110,7 @@ public Dimension getSizeInPixels(float scale, float dpi)
 ```
 
 
-计算指定缩放因子和分辨率的页面大小（以像素为单位）。
+计算指定缩放系数和分辨率的页面大小（以像素为单位）。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -126,7 +126,7 @@ public Dimension getSizeInPixels(float scale, float horizontalDpi, float vertica
 ```
 
 
-计算指定缩放因子和分辨率的页面大小（以像素为单位）。
+计算指定缩放系数和分辨率的页面大小（以像素为单位）。
 
 **参数:**
 | 范围 | 类型 | 描述 |
@@ -143,7 +143,7 @@ public Point2D.Float getSizeInPoints()
 ```
 
 
-以磅为单位获取页面大小。
+获取以磅为单位的页面大小。
 
 **退货:**
 java.awt.geom.Point2D.Float - 以磅为单位的页面大小。
