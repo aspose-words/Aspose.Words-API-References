@@ -33,7 +33,7 @@ Aspose.Words for Java 是一个类库，使您的应用程序能够执行各种�
 
 这些是一些有用资源的链接：
 
-- [Aspose.Words for Java API 参考](/words/java/)
+- [Aspose.Words for Java API 参考](/words/zh/java/)
 
 
 ## Aspose.Words for C++
