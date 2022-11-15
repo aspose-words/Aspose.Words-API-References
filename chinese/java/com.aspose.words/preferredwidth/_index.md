@@ -7,7 +7,7 @@ weight: 466
 url: /zh/java/com.aspose.words/preferredwidth/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class PreferredWidth
@@ -59,12 +59,13 @@ public boolean equals(PreferredWidth other)
 
 确定指定的 PreferredWidth 值是否等于当前 PreferredWidth。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | other | [PreferredWidth](../../com.aspose.words/preferredwidth) |  |
 
-**退货:**
+**退货：**
 布尔值
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
@@ -74,12 +75,13 @@ public boolean equals(Object obj)
 
 确定指定对象的值是否与当前对象相等。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | obj | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromPercent(double percent) {#fromPercent-double-}
 ```
@@ -89,12 +91,13 @@ public static PreferredWidth fromPercent(double percent)
 
 一种创建方法，它返回一个新实例，该实例表示以百分比指定的首选宽度。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | percent | double | 该值必须介于 0 到 100 之间。 |
 
-**退货:**
+**退货：**
 [PreferredWidth](../../com.aspose.words/preferredwidth)
 ### fromPoints(double points) {#fromPoints-double-}
 ```
@@ -104,12 +107,13 @@ public static PreferredWidth fromPoints(double points)
 
 一种创建方法，它返回一个新实例，该实例表示使用多个点指定的首选宽度。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | points | double | 该值必须介于 0 到 22 英寸（22\* 72 分）。 |
 
-**退货:**
+**退货：**
 [PreferredWidth](../../com.aspose.words/preferredwidth)
 ### getClass() {#getClass--}
 ```
@@ -119,7 +123,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getType() {#getType--}
 ```
@@ -129,8 +133,8 @@ public int getType()
 
 获取用于此首选宽度值的度量单位。
 
-**退货:**
- int - 用于此首选宽度值的度量单位。返回值是以下之一[PreferredWidthType](../../com.aspose.words/preferredwidthtype)常数。
+**退货：**
+ int - 用于此首选宽度值的度量单位。返回值是其中之一[PreferredWidthType](../../com.aspose.words/preferredwidthtype)常数。
 ### getValue() {#getValue--}
 ```
 public double getValue()
@@ -139,7 +143,7 @@ public double getValue()
 
 获取首选宽度值。计量单位在[getType()](../../com.aspose.words/preferredwidth\#getType--)财产。
 
-**退货:**
+**退货：**
 double - 首选宽度值。
 ### hashCode() {#hashCode--}
 ```
@@ -149,7 +153,7 @@ public int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -175,8 +179,8 @@ public String toString()
 
 返回显示此对象值的用户友好字符串。
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -193,7 +197,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -206,7 +211,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

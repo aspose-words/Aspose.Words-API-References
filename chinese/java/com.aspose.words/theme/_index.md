@@ -1,16 +1,16 @@
 ---
 title: Theme
 second_title: Aspose.Words for Java API 参考
-description: 代表文档主题并提供对主要主题部分的访问，包括和
+description: 表示文档主题并提供对主要主题部分的访问，包括和
 type: docs
 weight: 573
 url: /zh/java/com.aspose.words/theme/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Cloneable
 ```
 public class Theme implements Cloneable
@@ -27,8 +27,8 @@ public class Theme implements Cloneable
 | [getClass()](#getClass--) |  |
 | [getColors()](#getColors--) | 允许为文档指定一组主题颜色。 |
 | [getFontName(int themeFont)](#getFontName-int-) |  |
-| [getMajorFonts()](#getMajorFonts--) | 允许指定不同语言的主要字体集。 |
-| [getMinorFonts()](#getMinorFonts--) | 允许指定不同语言的次要字体集。 |
+| [getMajorFonts()](#getMajorFonts--) | 允许为不同语言指定一组主要字体。 |
+| [getMinorFonts()](#getMinorFonts--) | 允许为不同语言指定一组次要字体。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -45,12 +45,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -60,7 +61,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getColors() {#getColors--}
 ```
@@ -70,7 +71,7 @@ public ThemeColors getColors()
 
 允许为文档指定一组主题颜色。
 
-**退货:**
+**退货：**
 [ThemeColors](../../com.aspose.words/themecolors) - 相应的[ThemeColors](../../com.aspose.words/themecolors)价值。
 ### getFontName(int themeFont) {#getFontName-int-}
 ```
@@ -80,22 +81,23 @@ public String getFontName(int themeFont)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | themeFont | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getMajorFonts() {#getMajorFonts--}
 ```
 public ThemeFonts getMajorFonts()
 ```
 
 
-允许指定不同语言的主要字体集。
+允许为不同语言指定一组主要字体。
 
-**退货:**
+**退货：**
 [ThemeFonts](../../com.aspose.words/themefonts) - 相应的[ThemeFonts](../../com.aspose.words/themefonts)价值。
 ### getMinorFonts() {#getMinorFonts--}
 ```
@@ -103,9 +105,9 @@ public ThemeFonts getMinorFonts()
 ```
 
 
-允许指定不同语言的次要字体集。
+允许为不同语言指定一组次要字体。
 
-**退货:**
+**退货：**
 [ThemeFonts](../../com.aspose.words/themefonts) - 相应的[ThemeFonts](../../com.aspose.words/themefonts)价值。
 ### hashCode() {#hashCode--}
 ```
@@ -115,7 +117,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -149,8 +151,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -167,7 +169,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -180,7 +183,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

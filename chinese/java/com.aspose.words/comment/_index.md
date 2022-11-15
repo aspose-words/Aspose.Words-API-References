@@ -1,19 +1,19 @@
 ---
 title: Comment
 second_title: Aspose.Words for Java API 参考
-description: 表示注释文本的容器。
+description: 表示评论文本的容器。
 type: docs
 weight: 76
 url: /zh/java/com.aspose.words/comment/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode), [com.aspose.words.InlineStory](../../com.aspose.words/inlinestory)
 ```
 public class Comment extends InlineStory
 ```
 
-表示注释文本的容器。
+表示评论文本的容器。
 
 要了解更多信息，请访问**Working with Comments**文档文章。
 
@@ -26,7 +26,7 @@ public class Comment extends InlineStory
 [Comment](../../com.aspose.words/comment)是一个内联级节点，只能是[Paragraph](../../com.aspose.words/paragraph).
 
 [Comment](../../com.aspose.words/comment)可以包含[Paragraph](../../com.aspose.words/paragraph)和[Table](../../com.aspose.words/table)子节点。
-## 构造函数
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -36,7 +36,7 @@ public class Comment extends InlineStory
 
 | 方法 | 描述 |
 | --- | --- |
-| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | 接受访客。 |
+| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | 接待来访者。 |
 | [addReply(String author, String initial, Date dateTime, String text)](#addReply-java.lang.String-java.lang.String-java.util.Date-java.lang.String-) | 添加对此评论的回复。 |
 | [appendChild(Node newChild)](#appendChild-com.aspose.words.Node-) | 将指定节点添加到此节点的子节点列表的末尾。 |
 | [clearRunAttrs()](#clearRunAttrs--) |  |
@@ -59,7 +59,7 @@ public class Comment extends InlineStory
 | [getCustomNodeId()](#getCustomNodeId--) | 指定自定义节点标识符。 |
 | [getDateTime()](#getDateTime--) | 获取发表评论的日期和时间。 |
 | [getDirectRunAttr(int fontAttr)](#getDirectRunAttr-int-) |  |
-| [getDocument()](#getDocument--) | 获取该节点所属的文档。 |
+| [getDocument()](#getDocument--) | 获取此节点所属的文档。 |
 | [getDocument_IInline()](#getDocument-IInline--) |  |
 | [getDone()](#getDone--) | 获取指示评论已被标记为完成的标志。 |
 | [getFirstChild()](#getFirstChild--) | 获取节点的第一个子节点。 |
@@ -71,15 +71,15 @@ public class Comment extends InlineStory
 | [getLastChild()](#getLastChild--) | 获取节点的最后一个子节点。 |
 | [getLastParagraph()](#getLastParagraph--) | 获取故事的最后一段。 |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node-) |  |
-| [getNextSibling()](#getNextSibling--) | 获取紧跟此节点的节点。 |
+| [getNextSibling()](#getNextSibling--) | 获取紧跟在该节点之后的节点。 |
 | [getNodeType()](#getNodeType--) | 退货**NodeType.Comment**. |
-| [getParagraphs()](#getParagraphs--) | 获取作为故事的直接子级的段落的集合。 |
+| [getParagraphs()](#getParagraphs--) | 获取作为故事的直接子级的段落集合。 |
 | [getParentIdInternal()](#getParentIdInternal--) |  |
-| [getParentNode()](#getParentNode--) | 获取此节点的直接父节点。 |
+| [getParentNode()](#getParentNode--) | 获取此节点的直接父级。 |
 | [getParentParagraph()](#getParentParagraph--) | 检索父级[Paragraph](../../com.aspose.words/paragraph)这个节点的。 |
 | [getParentParagraph_IInline()](#getParentParagraph-IInline--) |  |
-| [getPreviousSibling()](#getPreviousSibling--) | 获取紧接在此节点之前的节点。 |
-| [getRange()](#getRange--) | 返回一个**Range**表示包含在此节点中的文档部分的对象。 |
+| [getPreviousSibling()](#getPreviousSibling--) | 获取紧接在该节点之前的节点。 |
+| [getRange()](#getRange--) | 返回一个**Range**表示包含在该节点中的文档部分的对象。 |
 | [getReplies()](#getReplies--) | 返回一个集合[Comment](../../com.aspose.words/comment)作为指定注释的直接子级的对象。 |
 | [getStoryType()](#getStoryType--) | 退货**StoryType.Comments**. |
 | [getTables()](#getTables--) | 获取作为故事的直接子项的表的集合。 |
@@ -90,7 +90,7 @@ public class Comment extends InlineStory
 | [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的引用节点之后立即插入指定的节点。 |
 | [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node-) | 将指定节点插入到紧靠指定引用节点之前。 |
 | [isComposite()](#isComposite--) | 返回 true，因为此节点可以有子节点。 |
-| [isDeleteRevision()](#isDeleteRevision--) | 如果在启用更改跟踪时在 Microsoft Word 中删除了此对象，则返回 true。 |
+| [isDeleteRevision()](#isDeleteRevision--) | 如果启用更改跟踪时此对象在 Microsoft Word 中被删除，则返回 true。 |
 | [isInsertRevision()](#isInsertRevision--) | 如果在启用更改跟踪时将此对象插入 Microsoft Word，则返回 true。 |
 | [isMoveFromRevision()](#isMoveFromRevision--) | 退货**true**如果启用更改跟踪时此对象在 Microsoft Word 中被移动（删除）。 |
 | [isMoveToRevision()](#isMoveToRevision--) | 退货**true**如果启用更改跟踪时在 Microsoft Word 中移动（插入）此对象。 |
@@ -134,13 +134,14 @@ public Comment(DocumentBase doc)
 
 初始化一个新的实例**Comment**班级。
 
-什么时候**Comment**已创建，它属于指定的文档，但还不是文档的一部分，并且**ParentNode**一片空白。
+什么时候**Comment**已创建，它属于指定文档，但还不是文档的一部分，并且**ParentNode**一片空白。
 
 追加**Comment**在要插入注释的段落上使用 InsertAfter 或 InsertBefore 到文档。
 
 创建评论后，不要忘记设置它[getAuthor()](../../com.aspose.words/comment\#getAuthor--) / [setAuthor(java.lang.String)](../../com.aspose.words/comment\#setAuthor-java.lang.String-), [getInitial()](../../com.aspose.words/comment\#getInitial--) / [setInitial(java.lang.String)](../../com.aspose.words/comment\#setInitial-java.lang.String-)和[getDateTime()](../../com.aspose.words/comment\#getDateTime--) / [setDateTime(java.util.Date)](../../com.aspose.words/comment\#setDateTime-java.util.Date-)特性。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | doc | [DocumentBase](../../com.aspose.words/documentbase) | 所有者文件。 |
@@ -153,7 +154,8 @@ public Comment(DocumentBase doc, String author, String initial, Date dateTime)
 
 初始化一个新的实例**Comment**班级。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | doc | [DocumentBase](../../com.aspose.words/documentbase) | 所有者文件。 |
@@ -167,18 +169,19 @@ public boolean accept(DocumentVisitor visitor)
 ```
 
 
-接受访客。
+接待来访者。
 
 枚举此节点及其所有子节点。每个节点调用 DocumentVisitor 上的相应方法。
 
 有关更多信息，请参阅访问者设计模式。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | 将访问节点的访问者。 |
 
-**退货:**
+**退货：**
  boolean - 如果所有节点都被访问，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。来电[DocumentVisitor.visitCommentStart(com.aspose.words.Comment)](../../com.aspose.words/documentvisitor\#visitCommentStart-com.aspose.words.Comment-) , 然后调用[Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node\#accept-com.aspose.words.DocumentVisitor-)对于评论和调用的所有子节点[DocumentVisitor.visitCommentEnd(com.aspose.words.Comment)](../../com.aspose.words/documentvisitor\#visitCommentEnd-com.aspose.words.Comment-)在最后。
 ### addReply(String author, String initial, Date dateTime, String text) {#addReply-java.lang.String-java.lang.String-java.util.Date-java.lang.String-}
 ```
@@ -188,7 +191,8 @@ public Comment addReply(String author, String initial, Date dateTime, String tex
 
 添加对此评论的回复。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | author | java.lang.String | 回复的作者姓名。 |
@@ -196,7 +200,7 @@ public Comment addReply(String author, String initial, Date dateTime, String tex
 | dateTime | java.util.Date | 回复的日期和时间。 |
 | text | java.lang.String | 回复文字。 |
 
-**退货:**
+**退货：**
 [Comment](../../com.aspose.words/comment) 创建的[Comment](../../com.aspose.words/comment)回复的节点。由于现有的 MS Office 限制，文档中只允许 1 级回复。如果在现有的回复注释上调用此方法，则会引发 java.lang.IllegalStateException 类型的异常。
 ### appendChild(Node newChild) {#appendChild-com.aspose.words.Node-}
 ```
@@ -206,16 +210,17 @@ public Node appendChild(Node newChild)
 
 将指定节点添加到此节点的子节点列表的末尾。
 
-如果 newChild 已经在树中，则首先将其移除。
+如果 newChild 已经在树中，则首先将其删除。
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+如果被插入的节点是从另一个文档创建的，你应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | newChild | [Node](../../com.aspose.words/node) | 要添加的节点。 |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 添加的节点。
 ### clearRunAttrs() {#clearRunAttrs--}
 ```
@@ -245,13 +250,14 @@ public Node deepClone(boolean isCloneChildren)
 
 此方法始终执行节点的深层复制。这*isCloneChildren*参数指定是否也执行复制所有子节点。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | isCloneChildren | boolean | True 递归克隆指定节点下的子树； false 仅克隆节点本身。 |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 克隆的节点。
+**退货：**
+[Node](../../com.aspose.words/node) - 克隆节点。
 ### ensureMinimum() {#ensureMinimum--}
 ```
 public void ensureMinimum()
@@ -268,12 +274,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fetchInheritedRunAttr(int fontAttr) {#fetchInheritedRunAttr-int-}
 ```
@@ -283,12 +290,13 @@ public Object fetchInheritedRunAttr(int fontAttr)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontAttr | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### getAncestor() {#getAncestor--}
 ```
@@ -298,7 +306,7 @@ public Comment getAncestor()
 
 返回父评论对象。为顶级注释返回 null。
 
-**退货:**
+**退货：**
 [Comment](../../com.aspose.words/comment) - 父评论对象。
 ### getAncestor(int ancestorType) {#getAncestor-int-}
 ```
@@ -308,12 +316,13 @@ public CompositeNode getAncestor(int ancestorType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | ancestorType | int |  |
 
-**退货:**
+**退货：**
 [CompositeNode](../../com.aspose.words/compositenode)
 ### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
 ```
@@ -323,15 +332,16 @@ public CompositeNode getAncestor(Class ancestorType)
 
 获取指定对象类型的第一个祖先。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | ancestorType | java.lang.Class | 要检索的祖先的对象类型。 |
 
-**退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 指定类型的祖先，如果没有找到该类型的祖先，则返回 null。
+**退货：**
+[CompositeNode](../../com.aspose.words/compositenode) - 指定类型的祖先，如果未找到此类型的祖先，则为 null。
 
-如果祖先类型等于祖先类型或从祖先类型派生，则祖先类型匹配。
+如果祖先类型等于 ancestorType 或派生自 ancestorType，则祖先类型匹配。
 ### getAuthor() {#getAuthor--}
 ```
 public String getAuthor()
@@ -344,7 +354,7 @@ public String getAuthor()
 
 默认为空字符串。
 
-**退货:**
+**退货：**
 java.lang.String - 评论的作者姓名。
 ### getChild(int nodeType, int index, boolean isDeep) {#getChild-int-int-boolean-}
 ```
@@ -354,14 +364,15 @@ public Node getChild(int nodeType, int index, boolean isDeep)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | nodeType | int |  |
 | index | int |  |
 | isDeep | boolean |  |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node)
 ### getChildNodes() {#getChildNodes--}
 ```
@@ -375,7 +386,7 @@ public NodeCollection getChildNodes()
 
 如果没有子节点，则此属性返回一个空集合。
 
-**退货:**
+**退货：**
 [NodeCollection](../../com.aspose.words/nodecollection) - 该节点的所有直接子节点。
 ### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean-}
 ```
@@ -385,13 +396,14 @@ public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | nodeType | int |  |
 | isDeep | boolean |  |
 
-**退货:**
+**退货：**
 [NodeCollection](../../com.aspose.words/nodecollection)
 ### getClass() {#getClass--}
 ```
@@ -401,7 +413,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getContainer() {#getContainer--}
 ```
@@ -411,7 +423,7 @@ public CompositeNode getContainer()
 
 
 
-**退货:**
+**退货：**
 [CompositeNode](../../com.aspose.words/compositenode)
 ### getCount() {#getCount--}
 ```
@@ -421,7 +433,7 @@ public int getCount()
 
 获取此节点的直接子节点数。
 
-**退货:**
+**退货：**
 int - 此节点的直接子节点数。
 ### getCurrentNode() {#getCurrentNode--}
 ```
@@ -431,7 +443,7 @@ public Node getCurrentNode()
 
 
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node)
 ### getCustomNodeId() {#getCustomNodeId--}
 ```
@@ -443,12 +455,12 @@ public int getCustomNodeId()
 
 默认为零。
 
-这个标识符可以任意设置和使用。例如，作为获取外部数据的键。
+这个标识符可以任意设置和使用。例如，作为获取外部数据的密钥。
 
 重要说明，指定的值不会保存到输出文件中，并且仅在节点生命周期内存在。
 
-**退货:**
-int - 对应的 int 值。
+**退货：**
+int - 相应的 int 值。
 ### getDateTime() {#getDateTime--}
 ```
 public Date getDateTime()
@@ -459,7 +471,7 @@ public Date getDateTime()
 
 默认值为 03.01.0001。
 
-**退货:**
+**退货：**
 java.util.Date - 发表评论的日期和时间。
 ### getDirectRunAttr(int fontAttr) {#getDirectRunAttr-int-}
 ```
@@ -469,12 +481,13 @@ public Object getDirectRunAttr(int fontAttr)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontAttr | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### getDocument() {#getDocument--}
 ```
@@ -482,11 +495,11 @@ public DocumentBase getDocument()
 ```
 
 
-获取该节点所属的文档。
+获取此节点所属的文档。
 
-该节点始终属于一个文档，即使它刚刚创建但尚未添加到树中，或者已从树中删除。
+该节点始终属于一个文档，即使它刚刚创建并且尚未添加到树中，或者如果它已从树中删除也是如此。
 
-**退货:**
+**退货：**
 [DocumentBase](../../com.aspose.words/documentbase) - 该节点所属的文档。
 ### getDocument_IInline() {#getDocument-IInline--}
 ```
@@ -496,7 +509,7 @@ public DocumentBase getDocument_IInline()
 
 
 
-**退货:**
+**退货：**
 [DocumentBase](../../com.aspose.words/documentbase)
 ### getDone() {#getDone--}
 ```
@@ -506,7 +519,7 @@ public boolean getDone()
 
 获取指示评论已被标记为完成的标志。
 
-**退货:**
+**退货：**
 boolean - 指示评论已被标记为完成的标志。
 ### getFirstChild() {#getFirstChild--}
 ```
@@ -516,8 +529,8 @@ public Node getFirstChild()
 
 获取节点的第一个子节点。如果没有第一个子节点，则返回 null。
 
-**退货:**
-[Node](../../com.aspose.words/node) - 节点的第一个子节点。
+**退货：**
+[Node](../../com.aspose.words/node) - 节点的第一个孩子。
 ### getFirstParagraph() {#getFirstParagraph--}
 ```
 public Paragraph getFirstParagraph()
@@ -526,7 +539,7 @@ public Paragraph getFirstParagraph()
 
 获取故事的第一段。
 
-**退货:**
+**退货：**
 [Paragraph](../../com.aspose.words/paragraph) - 故事的第一段。
 ### getFont() {#getFont--}
 ```
@@ -536,7 +549,7 @@ public Font getFont()
 
 提供对此对象的锚字符的字体格式的访问。
 
-**退货:**
+**退货：**
 [Font](../../com.aspose.words/font) - 相应的[Font](../../com.aspose.words/font)价值。
 ### getId() {#getId--}
 ```
@@ -550,10 +563,10 @@ public int getId()
 
 在查找[CommentRangeStart](../../com.aspose.words/commentrangestart)和[CommentRangeEnd](../../com.aspose.words/commentrangeend)链接到此评论的节点。
 
-注释标识符在整个文档中应该是唯一的，并且 Aspose.Words 在加载、保存和组合文档时会自动维护注释标识符。
+评论标识符应该在整个文档中是唯一的，Aspose.Words 在加载、保存和合并文档时自动维护评论标识符。
 
-**退货:**
-int - 评论标识符。
+**退货：**
+int - 注释标识符。
 ### getIdInternal() {#getIdInternal--}
 ```
 public int getIdInternal()
@@ -562,7 +575,7 @@ public int getIdInternal()
 
 
 
-**退货:**
+**退货：**
 整数
 ### getInitial() {#getInitial--}
 ```
@@ -576,8 +589,8 @@ public String getInitial()
 
 默认为空字符串。
 
-**退货:**
-java.lang.String - 与特定评论相关联的用户姓名首字母。
+**退货：**
+java.lang.String - 与特定评论关联的用户的姓名首字母。
 ### getLastChild() {#getLastChild--}
 ```
 public Node getLastChild()
@@ -586,8 +599,8 @@ public Node getLastChild()
 
 获取节点的最后一个子节点。如果没有最后一个子节点，则返回 null。
 
-**退货:**
-[Node](../../com.aspose.words/node) - 节点的最后一个子节点。
+**退货：**
+[Node](../../com.aspose.words/node) - 节点的最后一个孩子。
 ### getLastParagraph() {#getLastParagraph--}
 ```
 public Paragraph getLastParagraph()
@@ -596,7 +609,7 @@ public Paragraph getLastParagraph()
 
 获取故事的最后一段。
 
-**退货:**
+**退货：**
 [Paragraph](../../com.aspose.words/paragraph) - 故事的最后一段。
 ### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node-}
 ```
@@ -606,12 +619,13 @@ public Node getNextMatchingNode(Node curNode)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | curNode | [Node](../../com.aspose.words/node) |  |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node)
 ### getNextSibling() {#getNextSibling--}
 ```
@@ -621,7 +635,7 @@ public Node getNextSibling()
 
 获取紧跟在该节点之后的节点。如果没有下一个节点，则返回 null。
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 紧接此节点之后的节点。
 ### getNodeType() {#getNodeType--}
 ```
@@ -631,7 +645,7 @@ public int getNodeType()
 
 退货**NodeType.Comment**.
 
-**退货:**
+**退货：**
 整数 -**NodeType.Comment** .返回值是其中之一[NodeType](../../com.aspose.words/nodetype)常数。
 ### getParagraphs() {#getParagraphs--}
 ```
@@ -639,10 +653,10 @@ public ParagraphCollection getParagraphs()
 ```
 
 
-获取作为故事的直接子级的段落的集合。
+获取作为故事的直接子级的段落集合。
 
-**退货:**
-[ParagraphCollection](../../com.aspose.words/paragraphcollection) - 作为故事直接子级的段落集合。
+**退货：**
+[ParagraphCollection](../../com.aspose.words/paragraphcollection) - 故事的直接子段落的集合。
 ### getParentIdInternal() {#getParentIdInternal--}
 ```
 public int getParentIdInternal()
@@ -651,7 +665,7 @@ public int getParentIdInternal()
 
 
 
-**退货:**
+**退货：**
 整数
 ### getParentNode() {#getParentNode--}
 ```
@@ -659,11 +673,11 @@ public CompositeNode getParentNode()
 ```
 
 
-获取此节点的直接父节点。
+获取此节点的直接父级。
 
 如果一个节点刚刚被创建并且还没有被添加到树中，或者如果它已经被从树中移除，则父节点为空。
 
-**退货:**
+**退货：**
 [CompositeNode](../../com.aspose.words/compositenode) - 此节点的直接父节点。
 ### getParentParagraph() {#getParentParagraph--}
 ```
@@ -673,7 +687,7 @@ public Paragraph getParentParagraph()
 
 检索父级[Paragraph](../../com.aspose.words/paragraph)这个节点的。
 
-**退货:**
+**退货：**
 [Paragraph](../../com.aspose.words/paragraph) - 相应的[Paragraph](../../com.aspose.words/paragraph)价值。
 ### getParentParagraph_IInline() {#getParentParagraph-IInline--}
 ```
@@ -683,7 +697,7 @@ public Paragraph getParentParagraph_IInline()
 
 
 
-**退货:**
+**退货：**
 [Paragraph](../../com.aspose.words/paragraph)
 ### getPreviousSibling() {#getPreviousSibling--}
 ```
@@ -693,7 +707,7 @@ public Node getPreviousSibling()
 
 获取紧接在该节点之前的节点。如果前面没有节点，则返回 null。
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 紧接在该节点之前的节点。
 ### getRange() {#getRange--}
 ```
@@ -701,10 +715,10 @@ public Range getRange()
 ```
 
 
-返回一个**Range**表示包含在此节点中的文档部分的对象。
+返回一个**Range**表示包含在该节点中的文档部分的对象。
 
-**退货:**
-[Range](../../com.aspose.words/range) - 一个**Range**表示包含在此节点中的文档部分的对象。
+**退货：**
+[Range](../../com.aspose.words/range) - 一个**Range**表示包含在该节点中的文档部分的对象。
 ### getReplies() {#getReplies--}
 ```
 public CommentCollection getReplies()
@@ -713,8 +727,8 @@ public CommentCollection getReplies()
 
 返回一个集合[Comment](../../com.aspose.words/comment)作为指定注释的直接子级的对象。
 
-**退货:**
-[CommentCollection](../../com.aspose.words/commentcollection) - 集合[Comment](../../com.aspose.words/comment)作为指定注释的直接子级的对象。
+**退货：**
+[CommentCollection](../../com.aspose.words/commentcollection) - 一个集合[Comment](../../com.aspose.words/comment)作为指定注释的直接子级的对象。
 ### getStoryType() {#getStoryType--}
 ```
 public int getStoryType()
@@ -723,7 +737,7 @@ public int getStoryType()
 
 退货**StoryType.Comments**.
 
-**退货:**
+**退货：**
 整数 -**StoryType.Comments** .返回值是其中之一[StoryType](../../com.aspose.words/storytype)常数。
 ### getTables() {#getTables--}
 ```
@@ -733,8 +747,8 @@ public TableCollection getTables()
 
 获取作为故事的直接子项的表的集合。
 
-**退货:**
-[TableCollection](../../com.aspose.words/tablecollection) 作为故事直接子级的表格集合。
+**退货：**
+[TableCollection](../../com.aspose.words/tablecollection) 作为故事的直接子项的表的集合。
 ### getText() {#getText--}
 ```
 public String getText()
@@ -743,10 +757,10 @@ public String getText()
 
 获取此节点及其所有子节点的文本。
 
-返回的字符串包括所有控制和特殊字符，如[ControlChar](../../com.aspose.words/controlchar).
+返回的字符串包括所有控制字符和特殊字符，如[ControlChar](../../com.aspose.words/controlchar).
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### hasChildNodes() {#hasChildNodes--}
 ```
 public boolean hasChildNodes()
@@ -755,8 +769,8 @@ public boolean hasChildNodes()
 
 如果此节点有任何子节点，则返回 true。
 
-**退货:**
-boolean - 如果此节点有任何子节点，则为真。
+**退货：**
+boolean - 如果此节点有任何子节点则为真。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -765,7 +779,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### indexOf(Node child) {#indexOf-com.aspose.words.Node-}
 ```
@@ -773,14 +787,15 @@ public int indexOf(Node child)
 ```
 
 
-返回子节点数组中指定子节点的索引。如果在子节点中未找到该节点，则返回 -1。
+返回子节点数组中指定子节点的索引。如果在子节点中找不到该节点，则返回 -1。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | child | [Node](../../com.aspose.words/node) |  |
 
-**退货:**
+**退货：**
 整数
 ### insertAfter(Node newChild, Node refChild) {#insertAfter-com.aspose.words.Node-com.aspose.words.Node-}
 ```
@@ -792,17 +807,18 @@ public Node insertAfter(Node newChild, Node refChild)
 
 如果 refChild 为 null，则在子节点列表的开头插入 newChild。
 
-如果 newChild 已经在树中，则首先将其移除。
+如果 newChild 已经在树中，则首先将其删除。
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+如果被插入的节点是从另一个文档创建的，你应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | newChild | [Node](../../com.aspose.words/node) | 要插入的节点。 |
-| refChild | [Node](../../com.aspose.words/node) | 作为参考节点的节点。 newNode 放在 refNode 之后。 |
+| refChild | [Node](../../com.aspose.words/node) | 作为参考节点的节点。 newNode 放置在 refNode 之后。 |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 插入的节点。
 ### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node-}
 ```
@@ -814,17 +830,18 @@ public Node insertBefore(Node newChild, Node refChild)
 
 如果 refChild 为 null，则在子节点列表的末尾插入 newChild。
 
-如果 newChild 已经在树中，则首先将其移除。
+如果 newChild 已经在树中，则首先将其删除。
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+如果被插入的节点是从另一个文档创建的，你应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | newChild | [Node](../../com.aspose.words/node) | 要插入的节点。 |
 | refChild | [Node](../../com.aspose.words/node) | 作为参考节点的节点。 newChild 放置在此节点之前。 |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 插入的节点。
 ### isComposite() {#isComposite--}
 ```
@@ -834,7 +851,7 @@ public boolean isComposite()
 
 返回 true，因为此节点可以有子节点。
 
-**退货:**
+**退货：**
 boolean - True 因为这个节点可以有子节点。
 ### isDeleteRevision() {#isDeleteRevision--}
 ```
@@ -842,9 +859,9 @@ public boolean isDeleteRevision()
 ```
 
 
-如果在启用更改跟踪时在 Microsoft Word 中删除了此对象，则返回 true。
+如果启用更改跟踪时此对象在 Microsoft Word 中被删除，则返回 true。
 
-**退货:**
+**退货：**
 布尔值 - 如果在启用更改跟踪的情况下在 Microsoft Word 中删除了此对象，则为 True。
 ### isInsertRevision() {#isInsertRevision--}
 ```
@@ -854,8 +871,8 @@ public boolean isInsertRevision()
 
 如果在启用更改跟踪时将此对象插入 Microsoft Word，则返回 true。
 
-**退货:**
-boolean - 如果在启用更改跟踪时将此对象插入 Microsoft Word，则为真。
+**退货：**
+布尔值 - 如果在启用更改跟踪的情况下将此对象插入到 Microsoft Word 中，则为 True。
 ### isMoveFromRevision() {#isMoveFromRevision--}
 ```
 public boolean isMoveFromRevision()
@@ -864,7 +881,7 @@ public boolean isMoveFromRevision()
 
 退货**true**如果启用更改跟踪时此对象在 Microsoft Word 中被移动（删除）。
 
-**退货:**
+**退货：**
 布尔值 -**true**如果启用更改跟踪时此对象在 Microsoft Word 中被移动（删除）。
 ### isMoveToRevision() {#isMoveToRevision--}
 ```
@@ -874,7 +891,7 @@ public boolean isMoveToRevision()
 
 退货**true**如果启用更改跟踪时在 Microsoft Word 中移动（插入）此对象。
 
-**退货:**
+**退货：**
 布尔值 -**true**如果启用更改跟踪时在 Microsoft Word 中移动（插入）此对象。
 ### iterator() {#iterator--}
 ```
@@ -884,8 +901,8 @@ public Iterator iterator()
 
 为该节点的子节点上的每个样式迭代提供支持。
 
-**退货:**
-java.util.Iterator
+**退货：**
+java.util.迭代器
 ### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node-}
 ```
 public Node nextPreOrder(Node rootNode)
@@ -894,13 +911,14 @@ public Node nextPreOrder(Node rootNode)
 
 根据前序树遍历算法获取下一个节点。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶部节点（极限）。 |
+| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶端节点（极限）。 |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 预购订单中的下一个节点。如果到达 rootNode，则为 Null。
+**退货：**
+[Node](../../com.aspose.words/node) - 预定顺序中的下一个节点。如果到达根节点则为空。
 ### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
 ```
 public static String nodeTypeToString(int nodeType)
@@ -909,13 +927,14 @@ public static String nodeTypeToString(int nodeType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | nodeType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -940,16 +959,17 @@ public Node prependChild(Node newChild)
 
 将指定节点添加到此节点的子节点列表的开头。
 
-如果 newChild 已经在树中，则首先将其移除。
+如果 newChild 已经在树中，则首先将其删除。
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+如果被插入的节点是从另一个文档创建的，你应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | newChild | [Node](../../com.aspose.words/node) | 要添加的节点。 |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 添加的节点。
 ### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node-}
 ```
@@ -959,13 +979,14 @@ public Node previousPreOrder(Node rootNode)
 
 根据前序树遍历算法获取上一个节点。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶部节点（极限）。 |
+| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶端节点（极限）。 |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 预购订单中的上一个节点。如果到达 rootNode，则为 Null。
+**退货：**
+[Node](../../com.aspose.words/node) 预购顺序中的前一个节点。如果到达根节点则为空。
 ### remove() {#remove--}
 ```
 public void remove()
@@ -1000,12 +1021,13 @@ public Node removeChild(Node oldChild)
 
 删除节点后，oldChild 的父级设置为 null。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| oldChild | [Node](../../com.aspose.words/node) | 要移除的节点。 |
+| oldChild | [Node](../../com.aspose.words/node) | 要删除的节点。 |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 删除的节点。
 ### removeMoveRevisions() {#removeMoveRevisions--}
 ```
@@ -1023,7 +1045,8 @@ public void removeReply(Comment reply)
 
 删除对此评论的指定回复。回复的所有组成节点将从文档中删除。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | reply | [Comment](../../com.aspose.words/comment) | 删除回复的评论节点。 |
@@ -1036,7 +1059,8 @@ public void removeRunAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
@@ -1059,13 +1083,14 @@ public NodeList selectNodes(String xpath)
 
 目前仅支持带有元素名称的表达式。不支持使用属性名称的表达式。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | xpath | java.lang.String | XPath 表达式。 |
 
-**退货:**
-[NodeList](../../com.aspose.words/nodelist) - 与 XPath 查询匹配的节点列表。
+**退货：**
+[NodeList](../../com.aspose.words/nodelist) - 匹配 XPath 查询的节点列表。
 ### selectSingleNode(String xpath) {#selectSingleNode-java.lang.String-}
 ```
 public Node selectSingleNode(String xpath)
@@ -1076,12 +1101,13 @@ public Node selectSingleNode(String xpath)
 
 目前仅支持带有元素名称的表达式。不支持使用属性名称的表达式。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | xpath | java.lang.String | XPath 表达式。 |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 与 XPath 查询匹配的第一个节点，如果未找到匹配节点，则为 null。
 ### setAuthor(String value) {#setAuthor-java.lang.String-}
 ```
@@ -1095,7 +1121,8 @@ public void setAuthor(String value)
 
 默认为空字符串。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | 评论的作者姓名。 |
@@ -1110,14 +1137,15 @@ public void setCustomNodeId(int value)
 
 默认为零。
 
-这个标识符可以任意设置和使用。例如，作为获取外部数据的键。
+这个标识符可以任意设置和使用。例如，作为获取外部数据的密钥。
 
 重要说明，指定的值不会保存到输出文件中，并且仅在节点生命周期内存在。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | 对应的int值。 |
 
 ### setDateTime(Date value) {#setDateTime-java.util.Date-}
 ```
@@ -1129,7 +1157,8 @@ public void setDateTime(Date value)
 
 默认值为 03.01.0001。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.util.Date | 发表评论的日期和时间。 |
@@ -1142,10 +1171,11 @@ public void setDone(boolean value)
 
 设置标志，指示评论已被标记为完成。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 指示评论已被标记为完成的标志。 |
+| value | boolean | 指示评论已标记为完成的标志。 |
 
 ### setIdInternal(int value) {#setIdInternal-int-}
 ```
@@ -1155,7 +1185,8 @@ public void setIdInternal(int value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int |  |
@@ -1172,10 +1203,11 @@ public void setInitial(String value)
 
 默认为空字符串。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 与特定评论相关联的用户姓名缩写。 |
+| value | java.lang.String | 与特定评论关联的用户的姓名首字母。 |
 
 ### setParentIdInternal(int value) {#setParentIdInternal-int-}
 ```
@@ -1185,7 +1217,8 @@ public void setParentIdInternal(int value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int |  |
@@ -1198,7 +1231,8 @@ public void setRunAttr(int fontAttr, Object value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontAttr | int |  |
@@ -1212,9 +1246,10 @@ public void setText(String text)
 
 这是一种方便的方法，可以轻松设置评论的文本。
 
-此方法允许从字符串中快速设置注释文本。字符串可以包含分段符，这将在评论中相应地创建文本段落。如果您想在评论中插入更复杂的元素，例如书签或表格或应用丰富的格式，那么您需要使用适当的节点类来构建评论文本。
+此方法允许从字符串快速设置评论文本。该字符串可以包含分段符，这将相应地在评论中创建文本段落。如果您想在评论中插入更复杂的元素，例如书签或表格或应用丰富的格式，那么您需要使用适当的节点类来构建评论文本。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | text | java.lang.String | 评论的新文本。 |
@@ -1227,8 +1262,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(SaveOptions saveOptions) {#toString-com.aspose.words.SaveOptions-}
 ```
 public String toString(SaveOptions saveOptions)
@@ -1237,12 +1272,13 @@ public String toString(SaveOptions saveOptions)
 
 使用指定的保存选项将节点的内容导出为字符串。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | 指定控制节点保存方式的选项。 |
 
-**退货:**
+**退货：**
 java.lang.String - 指定格式的节点内容。
 ### toString(int saveFormat) {#toString-int-}
 ```
@@ -1252,13 +1288,14 @@ public String toString(int saveFormat)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -1275,7 +1312,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -1288,7 +1326,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

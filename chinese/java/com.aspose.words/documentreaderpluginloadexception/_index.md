@@ -7,13 +7,13 @@ weight: 128
 url: /zh/java/com.aspose.words/documentreaderpluginloadexception/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object, java.lang.Throwable, java.lang.Exception
 ```
 public class DocumentReaderPluginLoadException extends Exception
 ```
 
-在文档加载过程中，无法加载读取文档格式所需的插件时抛出。
+文档加载时，无法加载读取文档格式所需的插件时抛出。
 ## 方法
 
 | 方法 | 描述 |
@@ -47,7 +47,8 @@ public final synchronized void addSuppressed(Throwable arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Throwable |  |
@@ -60,12 +61,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fillInStackTrace() {#fillInStackTrace--}
 ```
@@ -75,7 +77,7 @@ public synchronized Throwable fillInStackTrace()
 
 
 
-**退货:**
+**退货：**
 java.lang.Throwable
 ### getCause() {#getCause--}
 ```
@@ -85,7 +87,7 @@ public synchronized Throwable getCause()
 
 
 
-**退货:**
+**退货：**
 java.lang.Throwable
 ### getClass() {#getClass--}
 ```
@@ -95,7 +97,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getLocalizedMessage() {#getLocalizedMessage--}
 ```
@@ -105,8 +107,8 @@ public String getLocalizedMessage()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getMessage() {#getMessage--}
 ```
 public String getMessage()
@@ -115,8 +117,8 @@ public String getMessage()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getStackTrace() {#getStackTrace--}
 ```
 public StackTraceElement[] getStackTrace()
@@ -125,7 +127,7 @@ public StackTraceElement[] getStackTrace()
 
 
 
-**退货:**
+**退货：**
 java.lang.StackTraceElement[]
 ### getSuppressed() {#getSuppressed--}
 ```
@@ -135,7 +137,7 @@ public final synchronized Throwable[] getSuppressed()
 
 
 
-**退货:**
+**退货：**
 java.lang.Throwable[]
 ### hashCode() {#hashCode--}
 ```
@@ -145,7 +147,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### initCause(Throwable arg0) {#initCause-java.lang.Throwable-}
 ```
@@ -155,12 +157,13 @@ public synchronized Throwable initCause(Throwable arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Throwable |  |
 
-**退货:**
+**退货：**
 java.lang.Throwable
 ### notify() {#notify--}
 ```
@@ -194,7 +197,8 @@ public void printStackTrace(PrintStream arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.io.PrintStream |  |
@@ -207,7 +211,8 @@ public void printStackTrace(PrintWriter arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.io.PrintWriter |  |
@@ -220,7 +225,8 @@ public void setStackTrace(StackTraceElement[] arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.StackTraceElement[] |  |
@@ -233,8 +239,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -251,7 +257,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -264,7 +271,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

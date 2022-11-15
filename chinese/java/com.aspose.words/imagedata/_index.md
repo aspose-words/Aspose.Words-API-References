@@ -7,7 +7,7 @@ weight: 337
 url: /zh/java/com.aspose.words/imagedata/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class ImageData
@@ -17,13 +17,13 @@ public class ImageData
 
 要了解更多信息，请访问**Working with Images**文档文章。
 
-使用[Shape.getImageData()](../../com.aspose.words/shape\#getImageData--)属性访问和修改形状内的图像。您不创建的实例[ImageData](../../com.aspose.words/imagedata)直接上课。
+使用[Shape.getImageData()](../../com.aspose.words/shape\#getImageData--)属性来访问和修改形状内的图像。您不创建的实例[ImageData](../../com.aspose.words/imagedata)直接上课。
 
 图像可以存储在形状内，链接到外部文件或两者（链接并存储在文档中）。
 
-无论图像是存储在形状内还是链接在一起，您始终可以使用[toByteArray()](../../com.aspose.words/imagedata\#toByteArray--), [toImage()](../../com.aspose.words/imagedata\#toImage--)或者[save(java.lang.String)](../../com.aspose.words/imagedata\#save-java.lang.String-)方法。如果图像存储在形状内部，您也可以使用[getImageBytes()](../../com.aspose.words/imagedata\#getImageBytes--) / [setImageBytes(byte[])](../../com.aspose.words/imagedata\#setImageBytes-byte---)财产。
+无论图像是存储在形状内还是链接在一起，您始终可以使用[toByteArray()](../../com.aspose.words/imagedata\#toByteArray--), [toImage()](../../com.aspose.words/imagedata\#toImage--)或者[save(java.lang.String)](../../com.aspose.words/imagedata\#save-java.lang.String-)方法。如果图像存储在形状内，您也可以使用[getImageBytes()](../../com.aspose.words/imagedata\#getImageBytes--) / [setImageBytes(byte[])](../../com.aspose.words/imagedata\#setImageBytes-byte---)财产。
 
-要将图像存储在形状内，请使用[setImage(java.lang.String)](../../com.aspose.words/imagedata\#setImage-java.lang.String-)方法。要将图像链接到形状，请设置[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)财产。
+要将图像存储在形状中，请使用[setImage(java.lang.String)](../../com.aspose.words/imagedata\#setImage-java.lang.String-)方法。要将图像链接到形状，请将[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)财产。
 ## 方法
 
 | 方法 | 描述 |
@@ -49,7 +49,7 @@ public class ImageData
 | [getTitle()](#getTitle--) | 定义图像的标题。 |
 | [hasImage()](#hasImage--) | 如果形状有图像字节或链接图像，则返回 true。 |
 | [hashCode()](#hashCode--) |  |
-| [isLink()](#isLink--) | 如果图像链接到形状（当[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)指定）。 |
+| [isLink()](#isLink--) | 如果图像链接到形状（当[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)已指定）。 |
 | [isLinkOnly()](#isLinkOnly--) | 如果图像已链接且未存储在文档中，则返回 true。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -57,7 +57,7 @@ public class ImageData
 | [save(String fileName)](#save-java.lang.String-) | 将图像保存到文件中。 |
 | [setBiLevel(boolean value)](#setBiLevel-boolean-) | 确定图像是否将以黑白显示。 |
 | [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object-) |  |
-| [setBrightness(double value)](#setBrightness-double-) | 设置图片的亮度。 |
+| [setBrightness(double value)](#setBrightness-double-) | 设置图像的亮度。 |
 | [setChromaKey(Color value)](#setChromaKey-java.awt.Color-) | 定义将被视为透明的图像的颜色值。 |
 | [setContrast(double value)](#setContrast-double-) | 设置指定图片的对比度。 |
 | [setCropBottom(double value)](#setCropBottom-double-) | 定义从底部移除图片的比例。 |
@@ -86,12 +86,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int-}
 ```
@@ -101,12 +102,13 @@ public Object fetchInheritedBorderAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### getBiLevel() {#getBiLevel--}
 ```
@@ -118,8 +120,8 @@ public boolean getBiLevel()
 
 默认值为**false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getBorders() {#getBorders--}
 ```
 public BorderCollection getBorders()
@@ -128,19 +130,19 @@ public BorderCollection getBorders()
 
 获取图片的边框集合。边框仅对内联图像有效。
 
-**退货:**
-[BorderCollection](../../com.aspose.words/bordercollection) - 图像边界的集合。
+**退货：**
+[BorderCollection](../../com.aspose.words/bordercollection) - 图像边框的集合。
 ### getBrightness() {#getBrightness--}
 ```
 public double getBrightness()
 ```
 
 
-获取图片的亮度。此属性的值必须是 0.0（最暗）到 1.0（最亮）之间的数字。
+获取图片的亮度。此属性的值必须是从 0.0（最暗）到 1.0（最亮）的数字。
 
 默认值为 0.5。
 
-**退货:**
+**退货：**
 double - 图片的亮度。
 ### getChromaKey() {#getChromaKey--}
 ```
@@ -152,8 +154,8 @@ public Color getChromaKey()
 
 默认值为 0。
 
-**退货:**
-java.awt.Color - 对应的 java.awt.Color 值。
+**退货：**
+java.awt.Color - 相应的 java.awt.Color 值。
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -162,7 +164,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getContrast() {#getContrast--}
 ```
@@ -170,11 +172,11 @@ public double getContrast()
 ```
 
 
-获取指定图片的对比度。此属性的值必须是从 0.0（最小对比度）到 1.0（最大对比度）的数字。
+获取指定图片的对比度。此属性的值必须是 0.0（最小对比度）到 1.0（最大对比度）之间的数字。
 
 默认值为 0.5。
 
-**退货:**
+**退货：**
 double - 指定图片的对比度。
 ### getCropBottom() {#getCropBottom--}
 ```
@@ -184,12 +186,12 @@ public double getCropBottom()
 
 定义从底部移除图片的比例。
 
-裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将根本不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白空间将被形状的填充颜色填充）。小于 1 的正值将导致剩余的图片被拉伸以适应形状。
+裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将完全不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白区域将由形状的填充颜色填充）。小于 1 的正值将导致剩余图片被拉伸以适合形状。
 
 默认值为 0。
 
-**退货:**
-double - 对应的双精度值。
+**退货：**
+double - 相应的双精度值。
 ### getCropLeft() {#getCropLeft--}
 ```
 public double getCropLeft()
@@ -198,12 +200,12 @@ public double getCropLeft()
 
 定义从左侧移除图片的比例。
 
-裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将根本不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白空间将被形状的填充颜色填充）。小于 1 的正值将导致剩余的图片被拉伸以适应形状。
+裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将完全不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白区域将由形状的填充颜色填充）。小于 1 的正值将导致剩余图片被拉伸以适合形状。
 
 默认值为 0。
 
-**退货:**
-double - 对应的双精度值。
+**退货：**
+double - 相应的双精度值。
 ### getCropRight() {#getCropRight--}
 ```
 public double getCropRight()
@@ -212,12 +214,12 @@ public double getCropRight()
 
 定义从右侧移除图片的比例。
 
-裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将根本不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白空间将被形状的填充颜色填充）。小于 1 的正值将导致剩余的图片被拉伸以适应形状。
+裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将完全不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白区域将由形状的填充颜色填充）。小于 1 的正值将导致剩余图片被拉伸以适合形状。
 
 默认值为 0。
 
-**退货:**
-double - 对应的双精度值。
+**退货：**
+double - 相应的双精度值。
 ### getCropTop() {#getCropTop--}
 ```
 public double getCropTop()
@@ -226,12 +228,12 @@ public double getCropTop()
 
 定义从顶部移除图片的比例。
 
-裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将根本不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白空间将被形状的填充颜色填充）。小于 1 的正值将导致剩余的图片被拉伸以适应形状。
+裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将完全不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白区域将由形状的填充颜色填充）。小于 1 的正值将导致剩余图片被拉伸以适合形状。
 
 默认值为 0。
 
-**退货:**
-double - 对应的双精度值。
+**退货：**
+double - 相应的双精度值。
 ### getDirectBorderAttr(int key) {#getDirectBorderAttr-int-}
 ```
 public Object getDirectBorderAttr(int key)
@@ -240,12 +242,13 @@ public Object getDirectBorderAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### getGrayScale() {#getGrayScale--}
 ```
@@ -257,8 +260,8 @@ public boolean getGrayScale()
 
 默认值为**false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getImageBytes() {#getImageBytes--}
 ```
 public byte[] getImageBytes()
@@ -269,9 +272,9 @@ public byte[] getImageBytes()
 
 将值设置为 null 或空数组将从形状中删除图像。
 
-如果图像未存储在文档中，则返回 null（例如，在这种情况下，图像可能是链接的）。
+如果图像未存储在文档中（例如，在这种情况下图像可能已链接），则返回 null。
 
-**退货:**
+**退货：**
 字节[] - 存储在形状中的图像的原始字节。
 ### getImageSize() {#getImageSize--}
 ```
@@ -283,7 +286,7 @@ public ImageSize getImageSize()
 
 如果图像仅链接而不存储在文档中，则返回零大小。
 
-**退货:**
+**退货：**
 [ImageSize](../../com.aspose.words/imagesize) - 有关图像大小和分辨率的信息。
 ### getImageType() {#getImageType--}
 ```
@@ -293,8 +296,8 @@ public int getImageType()
 
 获取图像的类型。 (4671,6)
 
-**退货:**
- int - 图像的类型。返回值是以下之一[ImageType](../../com.aspose.words/imagetype)常数。
+**退货：**
+ int - 图像的类型。返回值是其中之一[ImageType](../../com.aspose.words/imagetype)常数。
 ### getSourceFullName() {#getSourceFullName--}
 ```
 public String getSourceFullName()
@@ -307,7 +310,7 @@ public String getSourceFullName()
 
 如果[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)不是空字符串，图像是链接的。
 
-**退货:**
+**退货：**
 java.lang.String - 链接图像的源文件的路径和名称。
 ### getTitle() {#getTitle--}
 ```
@@ -319,17 +322,17 @@ public String getTitle()
 
 默认值为空字符串。
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**退货：**
+java.lang.String - 相应的 java.lang.String 值。
 ### hasImage() {#hasImage--}
 ```
 public boolean hasImage()
 ```
 
 
-如果形状具有图像字节或链接图像，则返回 true。 (4654,6)
+如果形状有图像字节或链接图像，则返回 true。 (4654,6)
 
-**退货:**
+**退货：**
 boolean - 如果形状具有图像字节或链接图像，则为真。
 ### hashCode() {#hashCode--}
 ```
@@ -339,7 +342,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### isLink() {#isLink--}
 ```
@@ -349,8 +352,8 @@ public boolean isLink()
 
 如果图像链接到形状（当[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)已指定）。 (4678,6)
 
-**退货:**
- boolean - 如果图像链接到形状则为真（当[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)指定）。
+**退货：**
+ boolean - 如果图像链接到形状则为真（当[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)已指定）。
 ### isLinkOnly() {#isLinkOnly--}
 ```
 public boolean isLinkOnly()
@@ -359,7 +362,7 @@ public boolean isLinkOnly()
 
 如果图像已链接且未存储在文档中，则返回 true。 (4685,6)
 
-**退货:**
+**退货：**
 boolean - 如果图像已链接且未存储在文档中，则为真。
 ### notify() {#notify--}
 ```
@@ -385,7 +388,8 @@ public void save(OutputStream stream)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | java.io.OutputStream |  |
@@ -398,7 +402,8 @@ public void save(String fileName)
 
 将图像保存到文件中。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | java.lang.String | 保存图像的文件名。 |
@@ -413,7 +418,8 @@ public void setBiLevel(boolean value)
 
 默认值为**false**.
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -426,7 +432,8 @@ public void setBorderAttr(int key, Object value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
@@ -442,7 +449,8 @@ public void setBrightness(double value)
 
 默认值为 0.5。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 图片的亮度。 |
@@ -457,7 +465,8 @@ public void setChromaKey(Color value)
 
 默认值为 0。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.awt.Color | 对应的 java.awt.Color 值。 |
@@ -468,11 +477,12 @@ public void setContrast(double value)
 ```
 
 
-设置指定图片的对比度。此属性的值必须是从 0.0（最小对比度）到 1.0（最大对比度）的数字。
+设置指定图片的对比度。此属性的值必须是 0.0（最小对比度）到 1.0（最大对比度）之间的数字。
 
 默认值为 0.5。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 指定图片的对比度。 |
@@ -485,11 +495,12 @@ public void setCropBottom(double value)
 
 定义从底部移除图片的比例。
 
-裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将根本不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白空间将被形状的填充颜色填充）。小于 1 的正值将导致剩余的图片被拉伸以适应形状。
+裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将完全不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白区域将由形状的填充颜色填充）。小于 1 的正值将导致剩余图片被拉伸以适合形状。
 
 默认值为 0。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 对应的双精度值。 |
@@ -502,11 +513,12 @@ public void setCropLeft(double value)
 
 定义从左侧移除图片的比例。
 
-裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将根本不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白空间将被形状的填充颜色填充）。小于 1 的正值将导致剩余的图片被拉伸以适应形状。
+裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将完全不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白区域将由形状的填充颜色填充）。小于 1 的正值将导致剩余图片被拉伸以适合形状。
 
 默认值为 0。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 对应的双精度值。 |
@@ -519,11 +531,12 @@ public void setCropRight(double value)
 
 定义从右侧移除图片的比例。
 
-裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将根本不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白空间将被形状的填充颜色填充）。小于 1 的正值将导致剩余的图片被拉伸以适应形状。
+裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将完全不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白区域将由形状的填充颜色填充）。小于 1 的正值将导致剩余图片被拉伸以适合形状。
 
 默认值为 0。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 对应的双精度值。 |
@@ -536,11 +549,12 @@ public void setCropTop(double value)
 
 定义从顶部移除图片的比例。
 
-裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将根本不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白空间将被形状的填充颜色填充）。小于 1 的正值将导致剩余的图片被拉伸以适应形状。
+裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将完全不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白区域将由形状的填充颜色填充）。小于 1 的正值将导致剩余图片被拉伸以适合形状。
 
 默认值为 0。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 对应的双精度值。 |
@@ -555,7 +569,8 @@ public void setGrayScale(boolean value)
 
 默认值为**false**.
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -568,7 +583,8 @@ public void setImage(BufferedImage image)
 
 设置形状显示的图像。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | image | java.awt.image.BufferedImage | 图像对象。 |
@@ -581,7 +597,8 @@ public void setImage(InputStream stream)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
@@ -594,7 +611,8 @@ public void setImage(String fileName)
 
 设置形状显示的图像。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | java.lang.String | 图像文件。可以是文件名或 URL。 |
@@ -609,9 +627,10 @@ public void setImageBytes(byte[] value)
 
 将值设置为 null 或空数组将从形状中删除图像。
 
-如果图像未存储在文档中，则返回 null（例如，在这种情况下，图像可能是链接的）。
+如果图像未存储在文档中（例如，在这种情况下图像可能已链接），则返回 null。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | byte[] | 存储在形状中的图像的原始字节。 |
@@ -628,7 +647,8 @@ public void setSourceFullName(String value)
 
 如果[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)不是空字符串，图像是链接的。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | 链接图像的源文件的路径和名称。 |
@@ -643,10 +663,11 @@ public void setTitle(String value)
 
 默认值为空字符串。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | 对应的java.lang.String值。 |
 
 ### toByteArray() {#toByteArray--}
 ```
@@ -656,7 +677,7 @@ public byte[] toByteArray()
 
 返回任何图像的图像字节，无论图像是存储还是链接。
 
-**退货:**
+**退货：**
 字节[] - 如果图像已链接，则每次调用时都会下载图像。
 ### toImage() {#toImage--}
 ```
@@ -666,7 +687,7 @@ public BufferedImage toImage()
 
 获取作为 java BufferedImage 对象存储在形状中的图像。
 
-**退货:**
+**退货：**
 java.awt.image.BufferedImage - 每次调用此方法时尝试从图像字节创建一个新的 java.awt.image.BufferedImage 对象。如果 javax.imageio.ImageReader 无法读取图像字节（emf、wmf、tiff 等），则该方法返回 null。
 
 调用者负责处理图像对象。
@@ -688,7 +709,7 @@ public InputStream toStream()
 
 这还没有移植到 Java。
 
-**退货:**
+**退货：**
 java.io.InputStream
 ### toString() {#toString--}
 ```
@@ -698,8 +719,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -716,7 +737,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -729,7 +751,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

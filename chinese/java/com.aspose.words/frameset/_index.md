@@ -7,7 +7,7 @@ weight: 302
 url: /zh/java/com.aspose.words/frameset/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class Frameset
@@ -38,12 +38,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getChildFramesets() {#getChildFramesets--}
 ```
@@ -53,7 +54,7 @@ public FramesetCollection getChildFramesets()
 
 
 
-**退货:**
+**退货：**
 [FramesetCollection](../../com.aspose.words/framesetcollection)
 ### getClass() {#getClass--}
 ```
@@ -63,7 +64,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getFrameDefaultUrl() {#getFrameDefaultUrl--}
 ```
@@ -73,8 +74,8 @@ public String getFrameDefaultUrl()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -83,7 +84,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### isFrameLinkToFile() {#isFrameLinkToFile--}
 ```
@@ -93,7 +94,7 @@ public boolean isFrameLinkToFile()
 
 
 
-**退货:**
+**退货：**
 布尔值
 ### isFrameLinkToFile(boolean value) {#isFrameLinkToFile-boolean-}
 ```
@@ -103,7 +104,8 @@ public void isFrameLinkToFile(boolean value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
@@ -132,7 +134,8 @@ public void setFrameDefaultUrl(String value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String |  |
@@ -145,8 +148,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -163,7 +166,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -176,7 +180,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

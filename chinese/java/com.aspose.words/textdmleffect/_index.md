@@ -7,7 +7,7 @@ weight: 563
 url: /zh/java/com.aspose.words/textdmleffect/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class TextDmlEffect
@@ -20,8 +20,8 @@ public class TextDmlEffect
 | --- | --- |
 | [EFFECT_3_D](#EFFECT-3-D) | 3D效果。 |
 | [FILL](#FILL) | 填充叠加效果。 |
-| [GLOW](#GLOW) | 发光效果，其中在对象边缘之外添加颜色模糊的轮廓。 |
-| [OUTLINE](#OUTLINE) | 轮廓效果。 |
+| [GLOW](#GLOW) | 发光效果，其中在对象边缘之外添加了颜色模糊的轮廓。 |
+| [OUTLINE](#OUTLINE) | 大纲效果。 |
 | [REFLECTION](#REFLECTION) | 反射效果。 |
 | [SHADOW](#SHADOW) | 阴影效果。 |
 | [length](#length) |  |
@@ -64,7 +64,7 @@ public static int GLOW
 ```
 
 
-发光效果，其中在对象边缘之外添加颜色模糊的轮廓。
+发光效果，其中在对象边缘之外添加了颜色模糊的轮廓。
 
 ### OUTLINE {#OUTLINE}
 ```
@@ -72,7 +72,7 @@ public static int OUTLINE
 ```
 
 
-轮廓效果。
+大纲效果。
 
 ### REFLECTION {#REFLECTION}
 ```
@@ -104,12 +104,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String textDmlEffectName) {#fromName-java.lang.String-}
 ```
@@ -119,12 +120,13 @@ public static int fromName(String textDmlEffectName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textDmlEffectName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -134,7 +136,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int textDmlEffect) {#getName-int-}
 ```
@@ -144,13 +146,14 @@ public static String getName(int textDmlEffect)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textDmlEffect | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -159,7 +162,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -169,7 +172,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -195,8 +198,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int textDmlEffect) {#toString-int-}
 ```
 public static String toString(int textDmlEffect)
@@ -205,13 +208,14 @@ public static String toString(int textDmlEffect)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textDmlEffect | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -228,7 +232,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -241,7 +246,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

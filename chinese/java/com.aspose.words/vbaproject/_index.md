@@ -7,10 +7,10 @@ weight: 596
 url: /zh/java/com.aspose.words/vbaproject/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Cloneable
 ```
 public class VbaProject implements Cloneable
@@ -19,7 +19,7 @@ public class VbaProject implements Cloneable
 提供对 VBA 项目信息的访问。文档中的 VBA 项目定义为 VBA 模块的集合。
 
 要了解更多信息，请访问**Working with VBA Macros**文档文章。
-## 构造函数
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -60,7 +60,7 @@ public VbaProject deepClone()
 
 执行副本[VbaProject](../../com.aspose.words/vbaproject).
 
-**退货:**
+**退货：**
 [VbaProject](../../com.aspose.words/vbaproject) - 克隆的 VbaProject。
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -70,12 +70,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -85,7 +86,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getCodePage() {#getCodePage--}
 ```
@@ -95,7 +96,7 @@ public int getCodePage()
 
 返回 VBA 项目\\u2019s 代码页。
 
-**退货:**
+**退货：**
 int - VBA 项目\\u2019s 代码页。
 ### getModules() {#getModules--}
 ```
@@ -105,7 +106,7 @@ public VbaModuleCollection getModules()
 
 返回 VBA 项目模块的集合。
 
-**退货:**
+**退货：**
 [VbaModuleCollection](../../com.aspose.words/vbamodulecollection) VBA 项目模块的集合。
 ### getName() {#getName--}
 ```
@@ -115,7 +116,7 @@ public String getName()
 
 获取 VBA 项目名称。
 
-**退货:**
+**退货：**
 java.lang.String - VBA 项目名称。
 ### getReferences() {#getReferences--}
 ```
@@ -125,7 +126,7 @@ public VbaReferenceCollection getReferences()
 
 获取 VBA 项目引用的集合。
 
-**退货:**
+**退货：**
 [VbaReferenceCollection](../../com.aspose.words/vbareferencecollection) - VBA 项目参考的集合。
 ### hashCode() {#hashCode--}
 ```
@@ -135,7 +136,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### isSigned() {#isSigned--}
 ```
@@ -145,8 +146,8 @@ public boolean isSigned()
 
 显示 VbaProject 是否已签名。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -171,7 +172,8 @@ public void setName(String value)
 
 设置 VBA 项目名称。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | VBA 项目名称。 |
@@ -184,8 +186,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -202,7 +204,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -215,7 +218,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

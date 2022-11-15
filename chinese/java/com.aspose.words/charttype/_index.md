@@ -7,7 +7,7 @@ weight: 71
 url: /zh/java/com.aspose.words/charttype/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class ChartType
@@ -26,15 +26,15 @@ public class ChartType
 | [AREA_STACKED](#AREA-STACKED) | 堆积面积图。 |
 | [BAR](#BAR) | 条形图。 |
 | [BAR_3_D](#BAR-3-D) | 3D 条形图。 |
-| [BAR_3_D_PERCENT_STACKED](#BAR-3-D-PERCENT-STACKED) | 3D 100% 堆积条形图。 |
-| [BAR_3_D_STACKED](#BAR-3-D-STACKED) | 3D 堆积条形图。 |
+| [BAR_3_D_PERCENT_STACKED](#BAR-3-D-PERCENT-STACKED) | 3D 100% 堆叠条形图。 |
+| [BAR_3_D_STACKED](#BAR-3-D-STACKED) | 3D 堆叠条形图。 |
 | [BAR_PERCENT_STACKED](#BAR-PERCENT-STACKED) | 100% 堆积条形图。 |
 | [BAR_STACKED](#BAR-STACKED) | 堆积条形图。 |
 | [BUBBLE](#BUBBLE) | 气泡图。 |
 | [BUBBLE_3_D](#BUBBLE-3-D) | 3D 气泡图。 |
 | [COLUMN](#COLUMN) | 柱形图。 |
 | [COLUMN_3_D](#COLUMN-3-D) | 3D 柱形图。 |
-| [COLUMN_3_D_CLUSTERED](#COLUMN-3-D-CLUSTERED) | 3D 聚集柱形图。 |
+| [COLUMN_3_D_CLUSTERED](#COLUMN-3-D-CLUSTERED) | 3D 簇状柱形图。 |
 | [COLUMN_3_D_PERCENT_STACKED](#COLUMN-3-D-PERCENT-STACKED) | 3D 100% 堆积柱形图。 |
 | [COLUMN_3_D_STACKED](#COLUMN-3-D-STACKED) | 3D 堆积柱形图。 |
 | [COLUMN_PERCENT_STACKED](#COLUMN-PERCENT-STACKED) | 100% 堆积柱形图。 |
@@ -43,7 +43,7 @@ public class ChartType
 | [LINE](#LINE) | 折线图。 |
 | [LINE_3_D](#LINE-3-D) | 3D 折线图。 |
 | [LINE_PERCENT_STACKED](#LINE-PERCENT-STACKED) | 100% 堆积折线图。 |
-| [LINE_STACKED](#LINE-STACKED) | 堆积折线图。 |
+| [LINE_STACKED](#LINE-STACKED) | 堆叠折线图。 |
 | [PIE](#PIE) | 饼形图。 |
 | [PIE_3_D](#PIE-3-D) | 3D 饼图。 |
 | [PIE_OF_BAR](#PIE-OF-BAR) | 条形图饼图。 |
@@ -141,7 +141,7 @@ public static int BAR_3_D_PERCENT_STACKED
 ```
 
 
-3D 100% 堆积条形图。
+3D 100% 堆叠条形图。
 
 ### BAR_3_D_STACKED {#BAR-3-D-STACKED}
 ```
@@ -149,7 +149,7 @@ public static int BAR_3_D_STACKED
 ```
 
 
-3D 堆积条形图。
+3D 堆叠条形图。
 
 ### BAR_PERCENT_STACKED {#BAR-PERCENT-STACKED}
 ```
@@ -205,7 +205,7 @@ public static int COLUMN_3_D_CLUSTERED
 ```
 
 
-3D 聚集柱形图。
+3D 簇状柱形图。
 
 ### COLUMN_3_D_PERCENT_STACKED {#COLUMN-3-D-PERCENT-STACKED}
 ```
@@ -277,7 +277,7 @@ public static int LINE_STACKED
 ```
 
 
-堆积折线图。
+堆叠折线图。
 
 ### PIE {#PIE}
 ```
@@ -365,12 +365,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String chartTypeName) {#fromName-java.lang.String-}
 ```
@@ -380,12 +381,13 @@ public static int fromName(String chartTypeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | chartTypeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -395,7 +397,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int chartType) {#getName-int-}
 ```
@@ -405,13 +407,14 @@ public static String getName(int chartType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | chartType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -420,7 +423,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -430,7 +433,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -456,8 +459,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int chartType) {#toString-int-}
 ```
 public static String toString(int chartType)
@@ -466,13 +469,14 @@ public static String toString(int chartType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | chartType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -489,7 +493,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -502,7 +507,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

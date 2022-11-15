@@ -7,7 +7,7 @@ weight: 522
 url: /zh/java/com.aspose.words/showinballoons/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class ShowInBalloons
@@ -18,9 +18,9 @@ public class ShowInBalloons
 
 | 场地 | 描述 |
 | --- | --- |
-| [FORMAT](#FORMAT) | 呈现插入和删除内联修订，在气球中格式化修订。 |
-| [FORMAT_AND_DELETE](#FORMAT-AND-DELETE) | 渲染在气球中插入修订、删除和格式化修订。 |
-| [NONE](#NONE) | 呈现插入、删除和格式化内联修订。 |
+| [FORMAT](#FORMAT) | 呈现内联插入和删除修订，在气球中格式化修订。 |
+| [FORMAT_AND_DELETE](#FORMAT-AND-DELETE) | 呈现内联插入修订、删除和格式化气球中的修订。 |
+| [NONE](#NONE) | 呈现内联插入、删除和格式化修订。 |
 | [length](#length) |  |
 ## 方法
 
@@ -45,7 +45,7 @@ public static int FORMAT
 ```
 
 
-呈现插入和删除内联修订，在气球中格式化修订。
+呈现内联插入和删除修订，在气球中格式化修订。
 
 ### FORMAT_AND_DELETE {#FORMAT-AND-DELETE}
 ```
@@ -53,7 +53,7 @@ public static int FORMAT_AND_DELETE
 ```
 
 
-渲染在气球中插入修订、删除和格式化修订。
+呈现内联插入修订、删除和格式化气球中的修订。
 
 ### NONE {#NONE}
 ```
@@ -61,7 +61,7 @@ public static int NONE
 ```
 
 
-呈现插入、删除和格式化内联修订。
+呈现内联插入、删除和格式化修订。
 
 ### length {#length}
 ```
@@ -77,12 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String showInBalloonsName) {#fromName-java.lang.String-}
 ```
@@ -92,12 +93,13 @@ public static int fromName(String showInBalloonsName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | showInBalloonsName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -107,7 +109,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int showInBalloons) {#getName-int-}
 ```
@@ -117,13 +119,14 @@ public static String getName(int showInBalloons)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | showInBalloons | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -132,7 +135,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -142,7 +145,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -168,8 +171,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int showInBalloons) {#toString-int-}
 ```
 public static String toString(int showInBalloons)
@@ -178,13 +181,14 @@ public static String toString(int showInBalloons)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | showInBalloons | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -201,7 +205,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -214,7 +219,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

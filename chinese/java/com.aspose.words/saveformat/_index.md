@@ -7,7 +7,7 @@ weight: 499
 url: /zh/java/com.aspose.words/saveformat/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class SaveFormat
@@ -19,23 +19,23 @@ public class SaveFormat
 | 场地 | 描述 |
 | --- | --- |
 | [AZW_3](#AZW-3) | 以 AZW3 格式保存文档。 |
-| [BMP](#BMP) | 呈现文档的一页并将其另存为 BMP 文件。 |
+| [BMP](#BMP) | 渲染文档页面并将其保存为 BMP 文件。 |
 | [DOC](#DOC) | 以 Microsoft Word 97 - 2007 文档格式保存文档。 |
 | [DOCM](#DOCM) | 将文档另存为 Office Open XML WordprocessingML 启用宏的文档。 |
 | [DOCX](#DOCX) | 将文档另存为 Office Open XML WordprocessingML 文档（无宏）。 |
 | [DOT](#DOT) | 以 Microsoft Word 97 - 2007 模板格式保存文档。 |
 | [DOTM](#DOTM) | 将文档另存为 Office Open XML WordprocessingML 启用宏的模板。 |
 | [DOTX](#DOTX) | 将文档另存为 Office Open XML WordprocessingML 模板（无宏）。 |
-| [EMF](#EMF) | 呈现文档的一页并将其保存为矢量 EMF（增强型元文件）文件。 |
+| [EMF](#EMF) | 渲染文档页面并将其保存为矢量 EMF（增强元文件）文件。 |
 | [EPUB](#EPUB) | 以 EPUB 格式保存文档。 |
-| [FLAT_OPC](#FLAT-OPC) | 将文档另存为存储在平面 XML 文件而不是 ZIP 包中的 Office Open XML WordprocessingML。 |
+| [FLAT_OPC](#FLAT-OPC) | 将文档另存为 Office Open XML WordprocessingML，存储在平面 XML 文件而不是 ZIP 包中。 |
 | [FLAT_OPC_MACRO_ENABLED](#FLAT-OPC-MACRO-ENABLED) | 将文档另存为 Office Open XML WordprocessingML 启用宏的文档，存储在平面 XML 文件而不是 ZIP 包中。 |
-| [FLAT_OPC_TEMPLATE](#FLAT-OPC-TEMPLATE) | 将文档另存为存储在平面 XML 文件而不是 ZIP 包中的 Office Open XML WordprocessingML 模板（无宏）。 |
+| [FLAT_OPC_TEMPLATE](#FLAT-OPC-TEMPLATE) | 将文档另存为 Office Open XML WordprocessingML 模板（无宏），存储在平面 XML 文件而不是 ZIP 包中。 |
 | [FLAT_OPC_TEMPLATE_MACRO_ENABLED](#FLAT-OPC-TEMPLATE-MACRO-ENABLED) | 将文档另存为 Office Open XML WordprocessingML 启用宏的模板，存储在平面 XML 文件而不是 ZIP 包中。 |
 | [GIF](#GIF) | 呈现文档页面并将其保存为 GIF 文件。 |
 | [HTML](#HTML) | 以 HTML 格式保存文档。 |
 | [HTML_FIXED](#HTML-FIXED) | 使用绝对定位元素以 HTML 格式保存文档 |
-| [JPEG](#JPEG) | 渲染文档页面并将其保存为 JPEG 文件。 |
+| [JPEG](#JPEG) | 呈现文档页面并将其另存为 JPEG 文件。 |
 | [MARKDOWN](#MARKDOWN) | 以 Markdown 格式保存文档。 |
 | [MHTML](#MHTML) | 以 MHTML（Web 存档）格式保存文档。 |
 | [ODT](#ODT) | 将文档另存为 ODF 文本文档。 |
@@ -87,7 +87,7 @@ public static int BMP
 ```
 
 
-呈现文档的一页并将其另存为 BMP 文件。
+渲染文档页面并将其保存为 BMP 文件。
 
 ### DOC {#DOC}
 ```
@@ -143,7 +143,7 @@ public static int EMF
 ```
 
 
-呈现文档的一页并将其保存为矢量 EMF（增强型元文件）文件。
+渲染文档页面并将其保存为矢量 EMF（增强元文件）文件。
 
 ### EPUB {#EPUB}
 ```
@@ -159,7 +159,7 @@ public static int FLAT_OPC
 ```
 
 
-将文档另存为存储在平面 XML 文件而不是 ZIP 包中的 Office Open XML WordprocessingML。
+将文档另存为 Office Open XML WordprocessingML，存储在平面 XML 文件而不是 ZIP 包中。
 
 ### FLAT_OPC_MACRO_ENABLED {#FLAT-OPC-MACRO-ENABLED}
 ```
@@ -175,7 +175,7 @@ public static int FLAT_OPC_TEMPLATE
 ```
 
 
-将文档另存为存储在平面 XML 文件而不是 ZIP 包中的 Office Open XML WordprocessingML 模板（无宏）。
+将文档另存为 Office Open XML WordprocessingML 模板（无宏），存储在平面 XML 文件而不是 ZIP 包中。
 
 ### FLAT_OPC_TEMPLATE_MACRO_ENABLED {#FLAT-OPC-TEMPLATE-MACRO-ENABLED}
 ```
@@ -215,7 +215,7 @@ public static int JPEG
 ```
 
 
-渲染文档页面并将其保存为 JPEG 文件。
+呈现文档页面并将其另存为 JPEG 文件。
 
 ### MARKDOWN {#MARKDOWN}
 ```
@@ -383,12 +383,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String saveFormatName) {#fromName-java.lang.String-}
 ```
@@ -398,12 +399,13 @@ public static int fromName(String saveFormatName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | saveFormatName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -413,7 +415,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int saveFormat) {#getName-int-}
 ```
@@ -423,13 +425,14 @@ public static String getName(int saveFormat)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -438,7 +441,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -448,7 +451,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -474,8 +477,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int saveFormat) {#toString-int-}
 ```
 public static String toString(int saveFormat)
@@ -484,13 +487,14 @@ public static String toString(int saveFormat)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -507,7 +511,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -520,7 +525,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

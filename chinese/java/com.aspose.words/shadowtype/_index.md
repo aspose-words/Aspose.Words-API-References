@@ -7,19 +7,19 @@ weight: 515
 url: /zh/java/com.aspose.words/shadowtype/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class ShadowType
 ```
 
-指定形状阴影的类型。 ShadowType 不是一个简单的属性，而是一个预设，它同时设置了几个属性，这些属性形成了阴影外观。
+指定形状阴影的类型。 ShadowType 不是一个简单的属性，而是一个预设，可以同时设置几个构成阴影外观的属性。
 ## 字段
 
 | 场地 | 描述 |
 | --- | --- |
 | [SHADOW_1](#SHADOW-1) | 第一种阴影类型。 |
-| [SHADOW_10](#SHADOW-10) | 第十阴影类型。 |
+| [SHADOW_10](#SHADOW-10) | 第十种阴影类型。 |
 | [SHADOW_11](#SHADOW-11) | 第十一影型。 |
 | [SHADOW_12](#SHADOW-12) | 第十二种阴影类型。 |
 | [SHADOW_13](#SHADOW-13) | 第十三种阴影类型。 |
@@ -94,7 +94,7 @@ public static int SHADOW_10
 ```
 
 
-第十阴影类型。
+第十种阴影类型。
 
 ### SHADOW_11 {#SHADOW-11}
 ```
@@ -446,12 +446,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String shadowTypeName) {#fromName-java.lang.String-}
 ```
@@ -461,12 +462,13 @@ public static int fromName(String shadowTypeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | shadowTypeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -476,7 +478,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int shadowType) {#getName-int-}
 ```
@@ -486,13 +488,14 @@ public static String getName(int shadowType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | shadowType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -501,7 +504,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -511,7 +514,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -537,8 +540,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int shadowType) {#toString-int-}
 ```
 public static String toString(int shadowType)
@@ -547,13 +550,14 @@ public static String toString(int shadowType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | shadowType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -570,7 +574,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -583,7 +588,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

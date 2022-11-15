@@ -1,26 +1,26 @@
 ---
 title: LineNumberRestartMode
 second_title: Aspose.Words for Java API 参考
-description: 确定何时重新开始自动行编号。
+description: 确定自动行编号何时重新启动。
 type: docs
 weight: 365
 url: /zh/java/com.aspose.words/linenumberrestartmode/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class LineNumberRestartMode
 ```
 
-确定何时重新开始自动行编号。
+确定自动行编号何时重新启动。
 ## 字段
 
 | 场地 | 描述 |
 | --- | --- |
-| [CONTINUOUS](#CONTINUOUS) | 行号与上一节连续。 |
+| [CONTINUOUS](#CONTINUOUS) | 行号从上一节连续。 |
 | [RESTART_PAGE](#RESTART-PAGE) | 行号在每一页的开头重新开始。 |
-| [RESTART_SECTION](#RESTART-SECTION) | 行号在节开始处重新开始。 |
+| [RESTART_SECTION](#RESTART-SECTION) | 行号从节开始处重新开始。 |
 | [length](#length) |  |
 ## 方法
 
@@ -45,7 +45,7 @@ public static int CONTINUOUS
 ```
 
 
-行号与上一节连续。
+行号从上一节连续。
 
 ### RESTART_PAGE {#RESTART-PAGE}
 ```
@@ -61,7 +61,7 @@ public static int RESTART_SECTION
 ```
 
 
-行号在节开始处重新开始。
+行号从节开始处重新开始。
 
 ### length {#length}
 ```
@@ -77,12 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String lineNumberRestartModeName) {#fromName-java.lang.String-}
 ```
@@ -92,12 +93,13 @@ public static int fromName(String lineNumberRestartModeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | lineNumberRestartModeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -107,7 +109,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int lineNumberRestartMode) {#getName-int-}
 ```
@@ -117,13 +119,14 @@ public static String getName(int lineNumberRestartMode)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | lineNumberRestartMode | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -132,7 +135,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -142,7 +145,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -168,8 +171,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int lineNumberRestartMode) {#toString-int-}
 ```
 public static String toString(int lineNumberRestartMode)
@@ -178,13 +181,14 @@ public static String toString(int lineNumberRestartMode)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | lineNumberRestartMode | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -201,7 +205,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -214,7 +219,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

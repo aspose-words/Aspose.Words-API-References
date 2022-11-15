@@ -7,7 +7,7 @@ weight: 335
 url: /zh/java/com.aspose.words/imagebinarizationmethod/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class ImageBinarizationMethod
@@ -18,7 +18,7 @@ public class ImageBinarizationMethod
 
 | 场地 | 描述 |
 | --- | --- |
-| [FLOYD_STEINBERG_DITHERING](#FLOYD-STEINBERG-DITHERING) | 指定使用 Floyd-Steinberg 误差扩散方法的抖动。 |
+| [FLOYD_STEINBERG_DITHERING](#FLOYD-STEINBERG-DITHERING) | 使用 Floyd-Steinberg 误差扩散方法指定抖动。 |
 | [THRESHOLD](#THRESHOLD) | 指定阈值方法。 |
 | [length](#length) |  |
 ## 方法
@@ -44,7 +44,7 @@ public static int FLOYD_STEINBERG_DITHERING
 ```
 
 
-指定使用 Floyd-Steinberg 误差扩散方法的抖动。
+使用 Floyd-Steinberg 误差扩散方法指定抖动。
 
 ### THRESHOLD {#THRESHOLD}
 ```
@@ -68,12 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String imageBinarizationMethodName) {#fromName-java.lang.String-}
 ```
@@ -83,12 +84,13 @@ public static int fromName(String imageBinarizationMethodName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | imageBinarizationMethodName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -98,7 +100,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int imageBinarizationMethod) {#getName-int-}
 ```
@@ -108,13 +110,14 @@ public static String getName(int imageBinarizationMethod)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | imageBinarizationMethod | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -123,7 +126,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -133,7 +136,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -159,8 +162,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int imageBinarizationMethod) {#toString-int-}
 ```
 public static String toString(int imageBinarizationMethod)
@@ -169,13 +172,14 @@ public static String toString(int imageBinarizationMethod)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | imageBinarizationMethod | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -192,7 +196,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -205,7 +210,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

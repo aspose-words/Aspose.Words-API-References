@@ -15,18 +15,19 @@ public interface IDocumentLoadingCallback
 
 | 方法 | 描述 |
 | --- | --- |
-| [notify(DocumentLoadingArgs args)](#notify-com.aspose.words.DocumentLoadingArgs-) | 调用它来通知文档加载进度。 |
+| [notify(DocumentLoadingArgs args)](#notify-com.aspose.words.DocumentLoadingArgs-) | 这被调用以通知文档加载进度。 |
 ### notify(DocumentLoadingArgs args) {#notify-com.aspose.words.DocumentLoadingArgs-}
 ```
 public abstract void notify(DocumentLoadingArgs args)
 ```
 
 
-调用它来通知文档加载进度。
+这被调用以通知文档加载进度。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| args | [DocumentLoadingArgs](../../com.aspose.words/documentloadingargs) | 事件的论据。此接口的主要用途是允许应用程序代码获取进度状态并中止加载过程。
+| args | [DocumentLoadingArgs](../../com.aspose.words/documentloadingargs) | 事件的一个参数。此接口的主要用途是允许应用程序代码获取进度状态和中止加载过程。
 
-应该从进度回调中抛出异常以进行中止，并且应该在消费者代码中捕获该异常。|
+异常应该从堕胎的进度回调中抛出，并且应该在消费者代码中捕获。|

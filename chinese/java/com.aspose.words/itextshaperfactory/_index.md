@@ -23,14 +23,15 @@ public abstract ITextShaper getTextShaper(String fontId, byte[] fontBlob, int fa
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontId | java.lang.String |  |
 | fontBlob | byte[] |  |
 | faceIndex | int |  |
 
-**退货:**
+**退货：**
 [ITextShaper](../../com.aspose.words/itextshaper)
 ### getTextShaper(String fontPath, int faceIndex) {#getTextShaper-java.lang.String-int-}
 ```
@@ -40,11 +41,12 @@ public abstract ITextShaper getTextShaper(String fontPath, int faceIndex)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontPath | java.lang.String |  |
 | faceIndex | int |  |
 
-**退货:**
+**退货：**
 [ITextShaper](../../com.aspose.words/itextshaper)

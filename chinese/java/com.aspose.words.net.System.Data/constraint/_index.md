@@ -7,14 +7,14 @@ weight: 10
 url: /zh/java/com.aspose.words.net.system.data/constraint/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public abstract class Constraint
 ```
 
 表示可以对一个或多个强制执行的约束[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象。
-## 构造函数
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -48,12 +48,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -63,7 +64,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getConstraintName() {#getConstraintName--}
 ```
@@ -73,7 +74,7 @@ public String getConstraintName()
 
 约束中的名称[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection).
 
-**退货:**
+**退货：**
 java.lang.String - 的名称[Constraint](../../com.aspose.words.net.system.data/constraint).
 ### hashCode() {#hashCode--}
 ```
@@ -83,7 +84,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -109,7 +110,8 @@ public void setConstraintName(String value)
 
 约束中的名称[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection).
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | 的名称[Constraint](../../com.aspose.words.net.system.data/constraint). |
@@ -122,8 +124,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -140,7 +142,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -153,7 +156,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

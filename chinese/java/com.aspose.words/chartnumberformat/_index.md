@@ -7,7 +7,7 @@ weight: 67
 url: /zh/java/com.aspose.words/chartnumberformat/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class ChartNumberFormat
@@ -41,12 +41,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -56,7 +57,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getFormatCode() {#getFormatCode--}
 ```
@@ -86,7 +87,7 @@ public String getFormatCode()
 
 自定义颜色 - ”[红色的]-\#,\#\#0.0"
 
-**退货:**
+**退货：**
 java.lang.String - 应用于数据标签的格式代码。
 ### hashCode() {#hashCode--}
 ```
@@ -96,7 +97,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### isLinkedToSource() {#isLinkedToSource--}
 ```
@@ -106,8 +107,8 @@ public boolean isLinkedToSource()
 
 指定格式代码是否链接到源单元格。默认为真。如果格式代码链接到源，NumberFormat 将被重置为一般。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### isLinkedToSource(boolean value) {#isLinkedToSource-boolean-}
 ```
 public void isLinkedToSource(boolean value)
@@ -116,7 +117,8 @@ public void isLinkedToSource(boolean value)
 
 指定格式代码是否链接到源单元格。默认为真。如果格式代码链接到源，NumberFormat 将被重置为一般。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -165,7 +167,8 @@ public void setFormatCode(String value)
 
 自定义颜色 - ”[红色的]-\#,\#\#0.0"
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | 应用于数据标签的格式代码。 |
@@ -178,8 +181,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -196,7 +199,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -209,7 +213,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

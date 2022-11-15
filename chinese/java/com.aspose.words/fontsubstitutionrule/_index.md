@@ -7,7 +7,7 @@ weight: 289
 url: /zh/java/com.aspose.words/fontsubstitutionrule/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public abstract class FontSubstitutionRule
@@ -16,7 +16,7 @@ public abstract class FontSubstitutionRule
 这是字体替换规则的抽象基类。
 
 要了解更多信息，请访问**Working with Fonts**文档文章。
-## 构造函数
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -50,12 +50,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -65,7 +66,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getEnabled() {#getEnabled--}
 ```
@@ -75,8 +76,8 @@ public boolean getEnabled()
 
 指定是否启用规则。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -85,7 +86,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -111,7 +112,8 @@ public void setEnabled(boolean value)
 
 指定是否启用规则。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -124,8 +126,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -142,7 +144,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -155,7 +158,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

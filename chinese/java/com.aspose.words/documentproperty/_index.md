@@ -7,10 +7,10 @@ weight: 126
 url: /zh/java/com.aspose.words/documentproperty/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Cloneable
 ```
 public class DocumentProperty implements Cloneable
@@ -51,12 +51,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -66,7 +67,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getLinkSource() {#getLinkSource--}
 ```
@@ -76,7 +77,7 @@ public String getLinkSource()
 
 获取链接的自定义文档属性的来源。
 
-**退货:**
+**退货：**
 java.lang.String - 链接的自定义文档属性的来源。
 ### getName() {#getName--}
 ```
@@ -86,9 +87,9 @@ public String getName()
 
 返回属性的名称。
 
-不能为 null，也不能为空字符串。
+不能为空且不能为空字符串。
 
-**退货:**
+**退货：**
 java.lang.String - 属性的名称。
 ### getType() {#getType--}
 ```
@@ -98,8 +99,8 @@ public int getType()
 
 获取属性的数据类型。
 
-**退货:**
- int - 属性的数据类型。返回值是以下之一[PropertyType](../../com.aspose.words/propertytype)常数。
+**退货：**
+ int - 属性的数据类型。返回值是其中之一[PropertyType](../../com.aspose.words/propertytype)常数。
 ### getValue() {#getValue--}
 ```
 public Object getValue()
@@ -110,7 +111,7 @@ public Object getValue()
 
 不能为空。
 
-**退货:**
+**退货：**
 java.lang.Object - 属性的值。
 ### hashCode() {#hashCode--}
 ```
@@ -120,7 +121,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### isLinkToContent() {#isLinkToContent--}
 ```
@@ -130,8 +131,8 @@ public boolean isLinkToContent()
 
 显示此属性是否链接到内容。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -158,7 +159,8 @@ public void setValue(Object value)
 
 不能为空。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.Object | 财产的价值。 |
@@ -173,7 +175,7 @@ public boolean toBool()
 
 如果属性类型不是，则引发异常[PropertyType.BOOLEAN](../../com.aspose.words/propertytype\#BOOLEAN).
 
-**退货:**
+**退货：**
 布尔值
 ### toByteArray() {#toByteArray--}
 ```
@@ -185,7 +187,7 @@ public byte[] toByteArray()
 
 如果属性类型不是，则引发异常[PropertyType.BYTE\_ARRAY](../../com.aspose.words/propertytype\#BYTE-ARRAY).
 
-**退货:**
+**退货：**
 字节[]
 ### toDateTime() {#toDateTime--}
 ```
@@ -199,7 +201,7 @@ public Date toDateTime()
 
 Microsoft Word 仅存储自定义日期属性的日期部分（无时间）。
 
-**退货:**
+**退货：**
 java.util.日期
 ### toDouble() {#toDouble--}
 ```
@@ -207,9 +209,9 @@ public double toDouble()
 ```
 
 
-以 double 形式返回属性值。如果属性类型不是，则引发异常[PropertyType.NUMBER](../../com.aspose.words/propertytype\#NUMBER).
+将属性值返回为双精度值。如果属性类型不是，则引发异常[PropertyType.NUMBER](../../com.aspose.words/propertytype\#NUMBER).
 
-**退货:**
+**退货：**
 双倍的
 ### toInt() {#toInt--}
 ```
@@ -219,7 +221,7 @@ public int toInt()
 
 以整数形式返回属性值。如果属性类型不是，则引发异常[PropertyType.NUMBER](../../com.aspose.words/propertytype\#NUMBER).
 
-**退货:**
+**退货：**
 整数
 ### toString() {#toString--}
 ```
@@ -231,8 +233,8 @@ public String toString()
 
 将布尔属性转换为“Y”或“N”。将日期属性转换为短日期字符串。对于所有其他类型，使用 Object.ToString() 转换属性。
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -249,7 +251,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -262,7 +265,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

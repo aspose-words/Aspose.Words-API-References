@@ -7,7 +7,7 @@ weight: 509
 url: /zh/java/com.aspose.words/section/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode)
 ```
 public class Section extends CompositeNode
@@ -21,14 +21,14 @@ public class Section extends CompositeNode
 
 一个最小的有效部分需要有**Body**与一个**Paragraph**.
 
-每个部分都有自己的一组属性，用于指定页面大小、方向、边距等。
+每个部分都有自己的一组属性，用于指定页面大小、方向、页边距等。
 
 您可以使用创建部分的副本[Node.deepClone(boolean)](../../com.aspose.words/node\#deepClone-boolean-).副本可以插入到相同或不同的文档中。
 
 要添加、插入或删除整个部分，包括分节符和部分属性，请使用**Sections**目的。
 
 要仅复制和插入节的内容，不包括分节符和节属性，请使用**AppendContent**和**PrependContent**方法。
-## 构造函数
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -37,17 +37,17 @@ public class Section extends CompositeNode
 
 | 方法 | 描述 |
 | --- | --- |
-| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | 接受访客。 |
+| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | 接待来访者。 |
 | [appendChild(Node newChild)](#appendChild-com.aspose.words.Node-) | 将指定节点添加到此节点的子节点列表的末尾。 |
-| [appendContent(Section sourceSection)](#appendContent-com.aspose.words.Section-) | 在本节末尾插入源节内容的副本。 |
+| [appendContent(Section sourceSection)](#appendContent-com.aspose.words.Section-) | 在此部分末尾插入源部分内容的副本。 |
 | [clearContent()](#clearContent--) | 清除该部分。 |
 | [clearHeadersFooters()](#clearHeadersFooters--) | 清除此部分的页眉和页脚。 |
 | [clearSectionAttrs()](#clearSectionAttrs--) |  |
 | [dd()](#dd--) |  |
 | [deepClone()](#deepClone--) | 创建此部分的副本。 |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | 创建节点的副本。 |
-| [deleteHeaderFooterShapes()](#deleteHeaderFooterShapes--) | 从本节的页眉和页脚中删除所有形状（绘图对象）。 |
-| [ensureMinimum()](#ensureMinimum--) | 确保该部分具有带有一个段落的正文。 |
+| [deleteHeaderFooterShapes()](#deleteHeaderFooterShapes--) | 从该部分的页眉和页脚中删除所有形状（绘图对象）。 |
+| [ensureMinimum()](#ensureMinimum--) | 确保该部分包含一个段落的正文。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchInheritedSectionAttr(int key)](#fetchInheritedSectionAttr-int-) |  |
 | [fetchSectionAttr(int key)](#fetchSectionAttr-int-) |  |
@@ -63,18 +63,18 @@ public class Section extends CompositeNode
 | [getCurrentNode()](#getCurrentNode--) |  |
 | [getCustomNodeId()](#getCustomNodeId--) | 指定自定义节点标识符。 |
 | [getDirectSectionAttr(int key)](#getDirectSectionAttr-int-) |  |
-| [getDocument()](#getDocument--) | 获取该节点所属的文档。 |
+| [getDocument()](#getDocument--) | 获取此节点所属的文档。 |
 | [getFirstChild()](#getFirstChild--) | 获取节点的第一个子节点。 |
 | [getHeadersFooters()](#getHeadersFooters--) | 提供对节的页眉和页脚节点的访问。 |
 | [getLastChild()](#getLastChild--) | 获取节点的最后一个子节点。 |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node-) |  |
-| [getNextSibling()](#getNextSibling--) | 获取紧跟此节点的节点。 |
+| [getNextSibling()](#getNextSibling--) | 获取紧跟在该节点之后的节点。 |
 | [getNodeType()](#getNodeType--) | 退货**NodeType.Section**. |
-| [getPageSetup()](#getPageSetup--) | 返回一个表示页面设置和部分属性的对象。 |
-| [getParentNode()](#getParentNode--) | 获取此节点的直接父节点。 |
-| [getPreviousSibling()](#getPreviousSibling--) | 获取紧接在此节点之前的节点。 |
+| [getPageSetup()](#getPageSetup--) | 返回表示页面设置和部分属性的对象。 |
+| [getParentNode()](#getParentNode--) | 获取此节点的直接父级。 |
+| [getPreviousSibling()](#getPreviousSibling--) | 获取紧接在该节点之前的节点。 |
 | [getProtectedForForms()](#getProtectedForForms--) | 如果该部分受表单保护，则为真。 |
-| [getRange()](#getRange--) | 返回一个**Range**表示包含在此节点中的文档部分的对象。 |
+| [getRange()](#getRange--) | 返回一个**Range**表示包含在该节点中的文档部分的对象。 |
 | [getText()](#getText--) | 获取此节点及其所有子节点的文本。 |
 | [hasChildNodes()](#hasChildNodes--) | 如果此节点有任何子节点，则返回 true。 |
 | [hashCode()](#hashCode--) |  |
@@ -113,11 +113,12 @@ public Section(DocumentBase doc)
 
 初始化 Section 类的新实例。
 
-创建该部分时，它属于指定的文档，但还不是文档的一部分，并且**ParentNode**一片空白。
+创建该部分时，它属于指定的文档，但还不是文档的一部分并且**ParentNode**一片空白。
 
 要将 Section 包含到文档中，请使用 Document.InsertAfter、Document.InsertBefore 或 Sections.Add 和 Section.Insert 方法。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | doc | [DocumentBase](../../com.aspose.words/documentbase) | 所有者文件。 |
@@ -128,18 +129,19 @@ public boolean accept(DocumentVisitor visitor)
 ```
 
 
-接受访客。
+接待来访者。
 
 枚举此节点及其所有子节点。每个节点调用 DocumentVisitor 上的相应方法。
 
 有关更多信息，请参阅访问者设计模式。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | 将访问节点的访问者。 |
 
-**退货:**
+**退货：**
 boolean - 如果所有节点都被访问，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。调用 DocumentVisitor.VisitSectionStart，然后为该部分的所有子节点调用 Accept，最后调用 DocumentVisitor.VisitSectionEnd。
 ### appendChild(Node newChild) {#appendChild-com.aspose.words.Node-}
 ```
@@ -149,16 +151,17 @@ public Node appendChild(Node newChild)
 
 将指定节点添加到此节点的子节点列表的末尾。
 
-如果 newChild 已经在树中，则首先将其移除。
+如果 newChild 已经在树中，则首先将其删除。
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+如果被插入的节点是从另一个文档创建的，你应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | newChild | [Node](../../com.aspose.words/node) | 要添加的节点。 |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 添加的节点。
 ### appendContent(Section sourceSection) {#appendContent-com.aspose.words.Section-}
 ```
@@ -166,15 +169,16 @@ public void appendContent(Section sourceSection)
 ```
 
 
-在本节末尾插入源节内容的副本。
+在此部分末尾插入源部分内容的副本。
 
-只有内容[getBody()](../../com.aspose.words/section\#getBody--)复制源部分，不复制页面设置、页眉和页脚。
+仅内容[getBody()](../../com.aspose.words/section\#getBody--)复制源部分的部分，不复制页面设置、页眉和页脚。
 
 如果源部分属于不同的文档，则会自动导入节点。
 
-没有在目标文档中创建新节。
+目标文档中没有创建新节。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sourceSection | [Section](../../com.aspose.words/section) | 要从中复制内容的部分。 |
@@ -187,9 +191,9 @@ public void clearContent()
 
 清除该部分。
 
-的文本[getBody()](../../com.aspose.words/section\#getBody--)被清除，只剩下一个代表分节符的空段落。
+的文本[getBody()](../../com.aspose.words/section\#getBody--)被清除后，只留下一个代表分节符的空段落。
 
-所有页眉和页脚的文本都被清除，但[HeaderFooter](../../com.aspose.words/headerfooter)对象本身不会被移除。
+所有页眉和页脚的文本被清除，但是[HeaderFooter](../../com.aspose.words/headerfooter)对象本身不会被删除。
 
 ### clearHeadersFooters() {#clearHeadersFooters--}
 ```
@@ -199,7 +203,7 @@ public void clearHeadersFooters()
 
 清除此部分的页眉和页脚。
 
-所有页眉和页脚的文本都被清除，但[HeaderFooter](../../com.aspose.words/headerfooter)对象本身不会被移除。
+所有页眉和页脚的文本被清除，但是[HeaderFooter](../../com.aspose.words/headerfooter)对象本身不会被删除。
 
 这使得本节的页眉和页脚链接到上一节的页眉和页脚。
 
@@ -227,7 +231,7 @@ public Section deepClone()
 
 创建此部分的副本。
 
-**退货:**
+**退货：**
 [Section](../../com.aspose.words/section)
 ### deepClone(boolean isCloneChildren) {#deepClone-boolean-}
 ```
@@ -241,20 +245,21 @@ public Node deepClone(boolean isCloneChildren)
 
 此方法始终执行节点的深层复制。这*isCloneChildren*参数指定是否也执行复制所有子节点。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | isCloneChildren | boolean | True 递归克隆指定节点下的子树； false 仅克隆节点本身。 |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 克隆的节点。
+**退货：**
+[Node](../../com.aspose.words/node) - 克隆节点。
 ### deleteHeaderFooterShapes() {#deleteHeaderFooterShapes--}
 ```
 public void deleteHeaderFooterShapes()
 ```
 
 
-从本节的页眉和页脚中删除所有形状（绘图对象）。
+从该部分的页眉和页脚中删除所有形状（绘图对象）。
 
 ### ensureMinimum() {#ensureMinimum--}
 ```
@@ -262,7 +267,7 @@ public void ensureMinimum()
 ```
 
 
-确保该部分具有带有一个段落的正文。
+确保该部分包含一个段落的正文。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -272,12 +277,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fetchInheritedSectionAttr(int key) {#fetchInheritedSectionAttr-int-}
 ```
@@ -287,12 +293,13 @@ public Object fetchInheritedSectionAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### fetchSectionAttr(int key) {#fetchSectionAttr-int-}
 ```
@@ -302,12 +309,13 @@ public Object fetchSectionAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### getAncestor(int ancestorType) {#getAncestor-int-}
 ```
@@ -317,12 +325,13 @@ public CompositeNode getAncestor(int ancestorType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | ancestorType | int |  |
 
-**退货:**
+**退货：**
 [CompositeNode](../../com.aspose.words/compositenode)
 ### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
 ```
@@ -332,15 +341,16 @@ public CompositeNode getAncestor(Class ancestorType)
 
 获取指定对象类型的第一个祖先。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | ancestorType | java.lang.Class | 要检索的祖先的对象类型。 |
 
-**退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 指定类型的祖先，如果没有找到该类型的祖先，则返回 null。
+**退货：**
+[CompositeNode](../../com.aspose.words/compositenode) - 指定类型的祖先，如果未找到此类型的祖先，则为 null。
 
-如果祖先类型等于祖先类型或从祖先类型派生，则祖先类型匹配。
+如果祖先类型等于 ancestorType 或派生自 ancestorType，则祖先类型匹配。
 ### getBody() {#getBody--}
 ```
 public Body getBody()
@@ -351,9 +361,9 @@ public Body getBody()
 
 **Body**包含该部分的主要文本。
 
-如果该部分没有 a，则返回 null**Body**其子节点中的节点。
+如果该部分没有一个，则返回 null**Body**它的孩子之间的节点。
 
-**退货:**
+**退货：**
 [Body](../../com.aspose.words/body) - 这**Body**节的子节点。
 ### getChild(int nodeType, int index, boolean isDeep) {#getChild-int-int-boolean-}
 ```
@@ -363,14 +373,15 @@ public Node getChild(int nodeType, int index, boolean isDeep)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | nodeType | int |  |
 | index | int |  |
 | isDeep | boolean |  |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node)
 ### getChildNodes() {#getChildNodes--}
 ```
@@ -384,7 +395,7 @@ public NodeCollection getChildNodes()
 
 如果没有子节点，则此属性返回一个空集合。
 
-**退货:**
+**退货：**
 [NodeCollection](../../com.aspose.words/nodecollection) - 该节点的所有直接子节点。
 ### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean-}
 ```
@@ -394,13 +405,14 @@ public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | nodeType | int |  |
 | isDeep | boolean |  |
 
-**退货:**
+**退货：**
 [NodeCollection](../../com.aspose.words/nodecollection)
 ### getClass() {#getClass--}
 ```
@@ -410,7 +422,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getContainer() {#getContainer--}
 ```
@@ -420,7 +432,7 @@ public CompositeNode getContainer()
 
 
 
-**退货:**
+**退货：**
 [CompositeNode](../../com.aspose.words/compositenode)
 ### getCount() {#getCount--}
 ```
@@ -430,7 +442,7 @@ public int getCount()
 
 获取此节点的直接子节点数。
 
-**退货:**
+**退货：**
 int - 此节点的直接子节点数。
 ### getCurrentNode() {#getCurrentNode--}
 ```
@@ -440,7 +452,7 @@ public Node getCurrentNode()
 
 
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node)
 ### getCustomNodeId() {#getCustomNodeId--}
 ```
@@ -452,12 +464,12 @@ public int getCustomNodeId()
 
 默认为零。
 
-这个标识符可以任意设置和使用。例如，作为获取外部数据的键。
+这个标识符可以任意设置和使用。例如，作为获取外部数据的密钥。
 
 重要说明，指定的值不会保存到输出文件中，并且仅在节点生命周期内存在。
 
-**退货:**
-int - 对应的 int 值。
+**退货：**
+int - 相应的 int 值。
 ### getDirectSectionAttr(int key) {#getDirectSectionAttr-int-}
 ```
 public Object getDirectSectionAttr(int key)
@@ -466,12 +478,13 @@ public Object getDirectSectionAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### getDocument() {#getDocument--}
 ```
@@ -479,11 +492,11 @@ public DocumentBase getDocument()
 ```
 
 
-获取该节点所属的文档。
+获取此节点所属的文档。
 
-该节点始终属于一个文档，即使它刚刚创建但尚未添加到树中，或者已从树中删除。
+该节点始终属于一个文档，即使它刚刚创建并且尚未添加到树中，或者如果它已从树中删除也是如此。
 
-**退货:**
+**退货：**
 [DocumentBase](../../com.aspose.words/documentbase) - 该节点所属的文档。
 ### getFirstChild() {#getFirstChild--}
 ```
@@ -493,8 +506,8 @@ public Node getFirstChild()
 
 获取节点的第一个子节点。如果没有第一个子节点，则返回 null。
 
-**退货:**
-[Node](../../com.aspose.words/node) - 节点的第一个子节点。
+**退货：**
+[Node](../../com.aspose.words/node) - 节点的第一个孩子。
 ### getHeadersFooters() {#getHeadersFooters--}
 ```
 public HeaderFooterCollection getHeadersFooters()
@@ -503,7 +516,7 @@ public HeaderFooterCollection getHeadersFooters()
 
 提供对节的页眉和页脚节点的访问。
 
-**退货:**
+**退货：**
 [HeaderFooterCollection](../../com.aspose.words/headerfootercollection) - 相应的[HeaderFooterCollection](../../com.aspose.words/headerfootercollection)价值。
 ### getLastChild() {#getLastChild--}
 ```
@@ -513,8 +526,8 @@ public Node getLastChild()
 
 获取节点的最后一个子节点。如果没有最后一个子节点，则返回 null。
 
-**退货:**
-[Node](../../com.aspose.words/node) - 节点的最后一个子节点。
+**退货：**
+[Node](../../com.aspose.words/node) - 节点的最后一个孩子。
 ### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node-}
 ```
 public Node getNextMatchingNode(Node curNode)
@@ -523,12 +536,13 @@ public Node getNextMatchingNode(Node curNode)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | curNode | [Node](../../com.aspose.words/node) |  |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node)
 ### getNextSibling() {#getNextSibling--}
 ```
@@ -538,7 +552,7 @@ public Node getNextSibling()
 
 获取紧跟在该节点之后的节点。如果没有下一个节点，则返回 null。
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 紧接此节点之后的节点。
 ### getNodeType() {#getNodeType--}
 ```
@@ -548,7 +562,7 @@ public int getNodeType()
 
 退货**NodeType.Section**.
 
-**退货:**
+**退货：**
 整数 -**NodeType.Section** .返回值是其中之一[NodeType](../../com.aspose.words/nodetype)常数。
 ### getPageSetup() {#getPageSetup--}
 ```
@@ -556,9 +570,9 @@ public PageSetup getPageSetup()
 ```
 
 
-返回一个表示页面设置和部分属性的对象。
+返回表示页面设置和部分属性的对象。
 
-**退货:**
+**退货：**
 [PageSetup](../../com.aspose.words/pagesetup) - 表示页面设置和部分属性的对象。
 ### getParentNode() {#getParentNode--}
 ```
@@ -566,11 +580,11 @@ public CompositeNode getParentNode()
 ```
 
 
-获取此节点的直接父节点。
+获取此节点的直接父级。
 
 如果一个节点刚刚被创建并且还没有被添加到树中，或者如果它已经被从树中移除，则父节点为空。
 
-**退货:**
+**退货：**
 [CompositeNode](../../com.aspose.words/compositenode) - 此节点的直接父节点。
 ### getPreviousSibling() {#getPreviousSibling--}
 ```
@@ -580,7 +594,7 @@ public Node getPreviousSibling()
 
 获取紧接在该节点之前的节点。如果前面没有节点，则返回 null。
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 紧接在该节点之前的节点。
 ### getProtectedForForms() {#getProtectedForForms--}
 ```
@@ -590,18 +604,18 @@ public boolean getProtectedForForms()
 
 如果该部分受表单保护，则为真。当某个部分受表单保护时，用户只能在 Microsoft Word 的表单域中选择和修改文本。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getRange() {#getRange--}
 ```
 public Range getRange()
 ```
 
 
-返回一个**Range**表示包含在此节点中的文档部分的对象。
+返回一个**Range**表示包含在该节点中的文档部分的对象。
 
-**退货:**
-[Range](../../com.aspose.words/range) - 一个**Range**表示包含在此节点中的文档部分的对象。
+**退货：**
+[Range](../../com.aspose.words/range) - 一个**Range**表示包含在该节点中的文档部分的对象。
 ### getText() {#getText--}
 ```
 public String getText()
@@ -610,10 +624,10 @@ public String getText()
 
 获取此节点及其所有子节点的文本。
 
-返回的字符串包括所有控制和特殊字符，如[ControlChar](../../com.aspose.words/controlchar).
+返回的字符串包括所有控制字符和特殊字符，如[ControlChar](../../com.aspose.words/controlchar).
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### hasChildNodes() {#hasChildNodes--}
 ```
 public boolean hasChildNodes()
@@ -622,8 +636,8 @@ public boolean hasChildNodes()
 
 如果此节点有任何子节点，则返回 true。
 
-**退货:**
-boolean - 如果此节点有任何子节点，则为真。
+**退货：**
+boolean - 如果此节点有任何子节点则为真。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -632,7 +646,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### indexOf(Node child) {#indexOf-com.aspose.words.Node-}
 ```
@@ -640,14 +654,15 @@ public int indexOf(Node child)
 ```
 
 
-返回子节点数组中指定子节点的索引。如果在子节点中未找到该节点，则返回 -1。
+返回子节点数组中指定子节点的索引。如果在子节点中找不到该节点，则返回 -1。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | child | [Node](../../com.aspose.words/node) |  |
 
-**退货:**
+**退货：**
 整数
 ### insertAfter(Node newChild, Node refChild) {#insertAfter-com.aspose.words.Node-com.aspose.words.Node-}
 ```
@@ -659,17 +674,18 @@ public Node insertAfter(Node newChild, Node refChild)
 
 如果 refChild 为 null，则在子节点列表的开头插入 newChild。
 
-如果 newChild 已经在树中，则首先将其移除。
+如果 newChild 已经在树中，则首先将其删除。
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+如果被插入的节点是从另一个文档创建的，你应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | newChild | [Node](../../com.aspose.words/node) | 要插入的节点。 |
-| refChild | [Node](../../com.aspose.words/node) | 作为参考节点的节点。 newNode 放在 refNode 之后。 |
+| refChild | [Node](../../com.aspose.words/node) | 作为参考节点的节点。 newNode 放置在 refNode 之后。 |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 插入的节点。
 ### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node-}
 ```
@@ -681,17 +697,18 @@ public Node insertBefore(Node newChild, Node refChild)
 
 如果 refChild 为 null，则在子节点列表的末尾插入 newChild。
 
-如果 newChild 已经在树中，则首先将其移除。
+如果 newChild 已经在树中，则首先将其删除。
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+如果被插入的节点是从另一个文档创建的，你应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | newChild | [Node](../../com.aspose.words/node) | 要插入的节点。 |
 | refChild | [Node](../../com.aspose.words/node) | 作为参考节点的节点。 newChild 放置在此节点之前。 |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 插入的节点。
 ### isComposite() {#isComposite--}
 ```
@@ -701,7 +718,7 @@ public boolean isComposite()
 
 返回 true，因为此节点可以有子节点。
 
-**退货:**
+**退货：**
 boolean - True 因为这个节点可以有子节点。
 ### iterator() {#iterator--}
 ```
@@ -711,8 +728,8 @@ public Iterator iterator()
 
 为该节点的子节点上的每个样式迭代提供支持。
 
-**退货:**
-java.util.Iterator
+**退货：**
+java.util.迭代器
 ### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node-}
 ```
 public Node nextPreOrder(Node rootNode)
@@ -721,13 +738,14 @@ public Node nextPreOrder(Node rootNode)
 
 根据前序树遍历算法获取下一个节点。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶部节点（极限）。 |
+| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶端节点（极限）。 |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 预购订单中的下一个节点。如果到达 rootNode，则为 Null。
+**退货：**
+[Node](../../com.aspose.words/node) - 预定顺序中的下一个节点。如果到达根节点则为空。
 ### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
 ```
 public static String nodeTypeToString(int nodeType)
@@ -736,13 +754,14 @@ public static String nodeTypeToString(int nodeType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | nodeType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -767,16 +786,17 @@ public Node prependChild(Node newChild)
 
 将指定节点添加到此节点的子节点列表的开头。
 
-如果 newChild 已经在树中，则首先将其移除。
+如果 newChild 已经在树中，则首先将其删除。
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+如果被插入的节点是从另一个文档创建的，你应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | newChild | [Node](../../com.aspose.words/node) | 要添加的节点。 |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 添加的节点。
 ### prependContent(Section sourceSection) {#prependContent-com.aspose.words.Section-}
 ```
@@ -786,13 +806,14 @@ public void prependContent(Section sourceSection)
 
 在此部分的开头插入源部分内容的副本。
 
-只有内容[getBody()](../../com.aspose.words/section\#getBody--)复制源部分，不复制页面设置、页眉和页脚。
+仅内容[getBody()](../../com.aspose.words/section\#getBody--)复制源部分的部分，不复制页面设置、页眉和页脚。
 
 如果源部分属于不同的文档，则会自动导入节点。
 
-没有在目标文档中创建新节。
+目标文档中没有创建新节。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sourceSection | [Section](../../com.aspose.words/section) | 要从中复制内容的部分。 |
@@ -805,13 +826,14 @@ public Node previousPreOrder(Node rootNode)
 
 根据前序树遍历算法获取上一个节点。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶部节点（极限）。 |
+| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶端节点（极限）。 |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 预购订单中的上一个节点。如果到达 rootNode，则为 Null。
+**退货：**
+[Node](../../com.aspose.words/node) 预购顺序中的前一个节点。如果到达根节点则为空。
 ### remove() {#remove--}
 ```
 public void remove()
@@ -838,12 +860,13 @@ public Node removeChild(Node oldChild)
 
 删除节点后，oldChild 的父级设置为 null。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| oldChild | [Node](../../com.aspose.words/node) | 要移除的节点。 |
+| oldChild | [Node](../../com.aspose.words/node) | 要删除的节点。 |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 删除的节点。
 ### removeSmartTags() {#removeSmartTags--}
 ```
@@ -863,13 +886,14 @@ public NodeList selectNodes(String xpath)
 
 目前仅支持带有元素名称的表达式。不支持使用属性名称的表达式。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | xpath | java.lang.String | XPath 表达式。 |
 
-**退货:**
-[NodeList](../../com.aspose.words/nodelist) - 与 XPath 查询匹配的节点列表。
+**退货：**
+[NodeList](../../com.aspose.words/nodelist) - 匹配 XPath 查询的节点列表。
 ### selectSingleNode(String xpath) {#selectSingleNode-java.lang.String-}
 ```
 public Node selectSingleNode(String xpath)
@@ -880,12 +904,13 @@ public Node selectSingleNode(String xpath)
 
 目前仅支持带有元素名称的表达式。不支持使用属性名称的表达式。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | xpath | java.lang.String | XPath 表达式。 |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 与 XPath 查询匹配的第一个节点，如果未找到匹配节点，则为 null。
 ### setCustomNodeId(int value) {#setCustomNodeId-int-}
 ```
@@ -897,14 +922,15 @@ public void setCustomNodeId(int value)
 
 默认为零。
 
-这个标识符可以任意设置和使用。例如，作为获取外部数据的键。
+这个标识符可以任意设置和使用。例如，作为获取外部数据的密钥。
 
 重要说明，指定的值不会保存到输出文件中，并且仅在节点生命周期内存在。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | 对应的int值。 |
 
 ### setProtectedForForms(boolean value) {#setProtectedForForms-boolean-}
 ```
@@ -914,7 +940,8 @@ public void setProtectedForForms(boolean value)
 
 如果该部分受表单保护，则为真。当某个部分受表单保护时，用户只能在 Microsoft Word 的表单域中选择和修改文本。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -927,7 +954,8 @@ public void setSectionAttr(int key, Object value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
@@ -941,8 +969,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(SaveOptions saveOptions) {#toString-com.aspose.words.SaveOptions-}
 ```
 public String toString(SaveOptions saveOptions)
@@ -951,12 +979,13 @@ public String toString(SaveOptions saveOptions)
 
 使用指定的保存选项将节点的内容导出为字符串。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | 指定控制节点保存方式的选项。 |
 
-**退货:**
+**退货：**
 java.lang.String - 指定格式的节点内容。
 ### toString(int saveFormat) {#toString-int-}
 ```
@@ -966,13 +995,14 @@ public String toString(int saveFormat)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -989,7 +1019,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -1002,7 +1033,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

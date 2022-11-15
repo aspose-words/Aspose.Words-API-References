@@ -7,7 +7,7 @@ weight: 364
 url: /zh/java/com.aspose.words/license/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class License
@@ -16,7 +16,7 @@ public class License
 提供许可组件的方法。
 
 要了解更多信息，请访问**Licensing and Subscription**文档文章。
-## 构造函数
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -52,12 +52,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -67,7 +68,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
@@ -77,7 +78,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -103,7 +104,8 @@ public void setLicense(InputStream stream)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
@@ -124,10 +126,11 @@ public void setLicense(String licenseName)
 
 3. 包含客户端调用 JAR 文件的文件夹。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| licenseName | java.lang.String | 可以是完整或短文件名。使用空字符串切换到评估模式。 |
+| licenseName | java.lang.String | 可以是完整的或短的文件名。使用空字符串切换到评估模式。 |
 
 ### toString() {#toString--}
 ```
@@ -137,8 +140,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -155,7 +158,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -168,7 +172,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

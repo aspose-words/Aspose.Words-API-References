@@ -7,7 +7,7 @@ weight: 343
 url: /zh/java/com.aspose.words/imagetype/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class ImageType
@@ -22,10 +22,10 @@ public class ImageType
 | [EMF](#EMF) | Windows 增强型元文件。 |
 | [JPEG](#JPEG) | JPEG JFIF。 |
 | [NO_IMAGE](#NO-IMAGE) | 没有图像数据。 |
-| [PICT](#PICT) | 麦金塔 PICT。 |
+| [PICT](#PICT) | Macintosh 图片。 |
 | [PNG](#PNG) | 便携式网络图形。 |
-| [UNKNOWN](#UNKNOWN) | 无法直接存储在 Microsoft Word 文档中的未知图像类型或图像类型。 |
-| [WMF](#WMF) | Windows 元文件。 |
+| [UNKNOWN](#UNKNOWN) | 未知图像类型或无法直接存储在 Microsoft Word 文档中的图像类型。 |
+| [WMF](#WMF) | Windows 图元文件。 |
 | [length](#length) |  |
 ## 方法
 
@@ -82,7 +82,7 @@ public static int PICT
 ```
 
 
-麦金塔 PICT。现有图像将保留在文档中，但不支持将新 PICT 图像插入文档。
+Macintosh 图片。现有图像将保留在文档中，但不支持将新的 PICT 图像插入到文档中。
 
 ### PNG {#PNG}
 ```
@@ -98,7 +98,7 @@ public static int UNKNOWN
 ```
 
 
-无法直接存储在 Microsoft Word 文档中的未知图像类型或图像类型。
+未知图像类型或无法直接存储在 Microsoft Word 文档中的图像类型。
 
 ### WMF {#WMF}
 ```
@@ -106,7 +106,7 @@ public static int WMF
 ```
 
 
-Windows 元文件。
+Windows 图元文件。
 
 ### length {#length}
 ```
@@ -122,12 +122,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String imageTypeName) {#fromName-java.lang.String-}
 ```
@@ -137,12 +138,13 @@ public static int fromName(String imageTypeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | imageTypeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -152,7 +154,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int imageType) {#getName-int-}
 ```
@@ -162,13 +164,14 @@ public static String getName(int imageType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | imageType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -177,7 +180,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -187,7 +190,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -213,8 +216,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int imageType) {#toString-int-}
 ```
 public static String toString(int imageType)
@@ -223,13 +226,14 @@ public static String toString(int imageType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | imageType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -246,7 +250,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -259,7 +264,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

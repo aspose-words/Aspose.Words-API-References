@@ -7,7 +7,7 @@ weight: 118
 url: /zh/java/com.aspose.words/dmlrenderingmode/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class DmlRenderingMode
@@ -19,7 +19,7 @@ public class DmlRenderingMode
 | 场地 | 描述 |
 | --- | --- |
 | [DRAWING_ML](#DRAWING-ML) | Aspose.Words 忽略 DrawingML 的后备形状并呈现 DrawingML 本身。 |
-| [FALLBACK](#FALLBACK) | 如果回退形状可用于 DrawingML，Aspose.Words 会呈现回退形状而不是 DrawingML。 |
+| [FALLBACK](#FALLBACK) | 如果回退形状可用于 DrawingML，Aspose.Words 渲染回退形状而不是 DrawingML。 |
 | [length](#length) |  |
 ## 方法
 
@@ -52,7 +52,7 @@ public static int FALLBACK
 ```
 
 
-如果回退形状可用于 DrawingML，Aspose.Words 会呈现回退形状而不是 DrawingML。请注意，在使用后备 DML 呈现模式将文档保存为固定页面格式后，AW 文档模型中的 DML 形状将永久替换为其后备对应物。因此，即使 DmlRenderingMode 设置为 DrawingML，再次保存同一个文档将始终使用回退形状。
+如果回退形状可用于 DrawingML，Aspose.Words 渲染回退形状而不是 DrawingML。请注意，在使用回退 DML 呈现模式将文档保存为固定页面格式后，AW 文档模型中的 DML 形状将永久替换为其回退对应物。因此，即使 DmlRenderingMode 设置为 DrawingML，再次保存同一个文档将始终使用后备形状。
 
 ### length {#length}
 ```
@@ -68,12 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String dmlRenderingModeName) {#fromName-java.lang.String-}
 ```
@@ -83,12 +84,13 @@ public static int fromName(String dmlRenderingModeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | dmlRenderingModeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -98,7 +100,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int dmlRenderingMode) {#getName-int-}
 ```
@@ -108,13 +110,14 @@ public static String getName(int dmlRenderingMode)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | dmlRenderingMode | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -123,7 +126,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -133,7 +136,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -159,8 +162,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int dmlRenderingMode) {#toString-int-}
 ```
 public static String toString(int dmlRenderingMode)
@@ -169,13 +172,14 @@ public static String toString(int dmlRenderingMode)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | dmlRenderingMode | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -192,7 +196,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -205,7 +210,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

@@ -7,7 +7,7 @@ weight: 580
 url: /zh/java/com.aspose.words/toacategories/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class ToaCategories
@@ -15,8 +15,8 @@ public class ToaCategories
 
 表示权限类别表。
 
-要了解更多信息，请访问**Working with 字段**文档文章。
-## 构造函数
+要了解更多信息，请访问**Working with Fields**文档文章。
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -28,7 +28,7 @@ public class ToaCategories
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int number)](#get-int-) | 按类别编号获取类别标题。 |
 | [getClass()](#getClass--) |  |
-| [getDefaultCategories()](#getDefaultCategories--) | 获取权限类别的默认表。 |
+| [getDefaultCategories()](#getDefaultCategories--) | 获取默认的权限类别表。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -53,12 +53,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### get(int number) {#get-int-}
 ```
@@ -68,13 +69,14 @@ public String get(int number)
 
 按类别编号获取类别标题。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | number | int |  |
 
-**退货:**
-java.lang.String - 按类别编号的类别标题。
+**退货：**
+java.lang.String - 类别编号的类别标题。
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -83,7 +85,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getDefaultCategories() {#getDefaultCategories--}
 ```
@@ -91,9 +93,9 @@ public static ToaCategories getDefaultCategories()
 ```
 
 
-获取权限类别的默认表。使用[FieldOptions.getToaCategories()](../../com.aspose.words/fieldoptions\#getToaCategories--) / [FieldOptions.setToaCategories(com.aspose.words.ToaCategories)](../../com.aspose.words/fieldoptions\#setToaCategories-com.aspose.words.ToaCategories-)属性来指定单个文档的权限类别表。
+获取默认的权限类别表。使用[FieldOptions.getToaCategories()](../../com.aspose.words/fieldoptions\#getToaCategories--) / [FieldOptions.setToaCategories(com.aspose.words.ToaCategories)](../../com.aspose.words/fieldoptions\#setToaCategories-com.aspose.words.ToaCategories-)用于指定单个文档的目录类别的属性。
 
-**退货:**
+**退货：**
 [ToaCategories](../../com.aspose.words/toacategories) - 权限类别的默认表。
 ### hashCode() {#hashCode--}
 ```
@@ -103,7 +105,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -129,7 +131,8 @@ public void set(int number, String value)
 
 按类别编号设置类别标题。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | number | int |  |
@@ -143,8 +146,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -161,7 +164,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -174,7 +178,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

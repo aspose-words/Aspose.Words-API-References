@@ -1,24 +1,24 @@
 ---
 title: TextWrapping
 second_title: Aspose.Words for Java API 参考
-description: 指定文本环绕表格的方式。
+description: 指定文本如何环绕表格。
 type: docs
 weight: 570
 url: /zh/java/com.aspose.words/textwrapping/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class TextWrapping
 ```
 
-指定文本环绕表格的方式。
+指定文本如何环绕表格。
 ## 字段
 
 | 场地 | 描述 |
 | --- | --- |
-| [AROUND](#AROUND) | 文本环绕在表格周围，占用可用的侧面空间。 |
+| [AROUND](#AROUND) | 文本环绕在表格周围，占据可用的侧面空间。 |
 | [DEFAULT](#DEFAULT) | 默认值。 |
 | [NONE](#NONE) | 文本和表格按照它们在文档中出现的顺序显示。 |
 | [length](#length) |  |
@@ -45,7 +45,7 @@ public static int AROUND
 ```
 
 
-文本环绕在表格周围，占用可用的侧面空间。
+文本环绕在表格周围，占据可用的侧面空间。
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -77,12 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String textWrappingName) {#fromName-java.lang.String-}
 ```
@@ -92,12 +93,13 @@ public static int fromName(String textWrappingName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textWrappingName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -107,7 +109,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int textWrapping) {#getName-int-}
 ```
@@ -117,13 +119,14 @@ public static String getName(int textWrapping)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textWrapping | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -132,7 +135,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -142,7 +145,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -168,8 +171,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int textWrapping) {#toString-int-}
 ```
 public static String toString(int textWrapping)
@@ -178,13 +181,14 @@ public static String toString(int textWrapping)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textWrapping | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -201,7 +205,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -214,7 +219,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

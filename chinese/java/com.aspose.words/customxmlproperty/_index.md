@@ -7,10 +7,10 @@ weight: 106
 url: /zh/java/com.aspose.words/customxmlproperty/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Cloneable
 ```
 public class CustomXmlProperty implements Cloneable
@@ -21,7 +21,7 @@ public class CustomXmlProperty implements Cloneable
 要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
 
 作为一个项目使用[CustomXmlPropertyCollection](../../com.aspose.words/customxmlpropertycollection)收藏。
-## 构造函数
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -52,11 +52,12 @@ public CustomXmlProperty(String name, String uri, String value)
 
 初始化此类的新实例。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | java.lang.String | 属性的名称。不能为空。 |
-| uri | java.lang.String | 属性的命名空间 URI。不能为空。 |
+| uri | java.lang.String | 属性的名称空间 URI。不能为空。 |
 | value | java.lang.String | 财产的价值。不能为空。 |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
@@ -67,12 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -82,7 +84,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName() {#getName--}
 ```
@@ -96,8 +98,8 @@ public String getName()
 
 默认为空字符串。
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**退货：**
+java.lang.String - 相应的 java.lang.String 值。
 ### getUri() {#getUri--}
 ```
 public String getUri()
@@ -110,7 +112,7 @@ public String getUri()
 
 默认为空字符串。
 
-**退货:**
+**退货：**
 java.lang.String - 自定义 XML 属性或智能标记属性的命名空间 URI。
 ### getValue() {#getValue--}
 ```
@@ -124,7 +126,7 @@ public String getValue()
 
 默认为空字符串。
 
-**退货:**
+**退货：**
 java.lang.String - 自定义 XML 属性或智能标记属性的值。
 ### hashCode() {#hashCode--}
 ```
@@ -134,7 +136,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -164,10 +166,11 @@ public void setUri(String value)
 
 默认为空字符串。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 自定义 XML 属性或智能标记属性的命名空间 URI。 |
+| value | java.lang.String | 自定义 XML 属性或智能标记属性的名称空间 URI。 |
 
 ### setValue(String value) {#setValue-java.lang.String-}
 ```
@@ -181,7 +184,8 @@ public void setValue(String value)
 
 默认为空字符串。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | 自定义 XML 属性或智能标记属性的值。 |
@@ -194,8 +198,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -212,7 +216,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -225,7 +230,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

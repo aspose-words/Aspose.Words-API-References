@@ -7,7 +7,7 @@ weight: 426
 url: /zh/java/com.aspose.words/olepackage/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class OlePackage
@@ -43,12 +43,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -58,7 +59,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getDisplayName() {#getDisplayName--}
 ```
@@ -68,7 +69,7 @@ public String getDisplayName()
 
 获取 OLE 包显示名称。
 
-**退货:**
+**退货：**
 java.lang.String - OLE 包显示名称。
 ### getFileName() {#getFileName--}
 ```
@@ -78,7 +79,7 @@ public String getFileName()
 
 获取 OLE 包文件名。
 
-**退货:**
+**退货：**
 java.lang.String - OLE 包文件名。
 ### hashCode() {#hashCode--}
 ```
@@ -88,7 +89,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -114,7 +115,8 @@ public void setDisplayName(String value)
 
 设置 OLE 包显示名称。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | OLE 包显示名称。 |
@@ -127,7 +129,8 @@ public void setFileName(String value)
 
 设置 OLE 包文件名。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | OLE 包文件名。 |
@@ -140,8 +143,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -158,7 +161,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -171,7 +175,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

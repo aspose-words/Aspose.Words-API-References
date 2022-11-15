@@ -15,17 +15,18 @@ public interface IFieldMergingCallback
 
 | 方法 | 描述 |
 | --- | --- |
-| [fieldMerging(FieldMergingArgs args)](#fieldMerging-com.aspose.words.FieldMergingArgs-) | 当 Aspose.Words 邮件合并引擎即将将数据插入文档中的合并字段时调用。 |
-| [imageFieldMerging(ImageFieldMergingArgs args)](#imageFieldMerging-com.aspose.words.ImageFieldMergingArgs-) | 当 Aspose.Words 邮件合并引擎将图像插入合并字段时调用。 |
+| [fieldMerging(FieldMergingArgs args)](#fieldMerging-com.aspose.words.FieldMergingArgs-) | 当 Aspose.Words 邮件合并引擎即将向文档中的合并字段插入数据时调用。 |
+| [imageFieldMerging(ImageFieldMergingArgs args)](#imageFieldMerging-com.aspose.words.ImageFieldMergingArgs-) | 当 Aspose.Words 邮件合并引擎准备将图像插入合并字段时调用。 |
 ### fieldMerging(FieldMergingArgs args) {#fieldMerging-com.aspose.words.FieldMergingArgs-}
 ```
 public abstract void fieldMerging(FieldMergingArgs args)
 ```
 
 
-当 Aspose.Words 邮件合并引擎即将将数据插入文档中的合并字段时调用。
+当 Aspose.Words 邮件合并引擎即将向文档中的合并字段插入数据时调用。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | args | [FieldMergingArgs](../../com.aspose.words/fieldmergingargs) |  |
@@ -36,9 +37,10 @@ public abstract void imageFieldMerging(ImageFieldMergingArgs args)
 ```
 
 
-当 Aspose.Words 邮件合并引擎将图像插入合并字段时调用。
+当 Aspose.Words 邮件合并引擎准备将图像插入合并字段时调用。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | args | [ImageFieldMergingArgs](../../com.aspose.words/imagefieldmergingargs) |  |

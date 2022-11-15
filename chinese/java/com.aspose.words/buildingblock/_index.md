@@ -1,13 +1,13 @@
 ---
 title: BuildingBlock
 second_title: Aspose.Words for Java API 参考
-description: 表示词汇表文档条目，例如 Building Block 自动图文集或自动更正条目。
+description: 表示词汇表文档条目，例如构建基块自动图文集或自动更正条目。
 type: docs
 weight: 41
 url: /zh/java/com.aspose.words/buildingblock/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode)
 ```
 public class BuildingBlock extends CompositeNode
@@ -19,12 +19,12 @@ public class BuildingBlock extends CompositeNode
 
 [BuildingBlock](../../com.aspose.words/buildingblock)只能包含[Section](../../com.aspose.words/section)节点。
 
-[BuildingBlock](../../com.aspose.words/buildingblock)只能是[GlossaryDocument](../../com.aspose.words/glossarydocument).
+[BuildingBlock](../../com.aspose.words/buildingblock)只能是孩子[GlossaryDocument](../../com.aspose.words/glossarydocument).
 
-您可以创建新的构建块并将它们插入到词汇表文档中。您可以修改或删除现有的构建块。您可以在文档之间复制或移动构建基块。您可以将构建块的内容插入到文档中。
+您可以创建新的构建块并将它们插入到词汇表文档中。您可以修改或删除现有的构建基块。您可以在文档之间复制或移动构建块。您可以将构建块的内容插入到文档中。
 
 对应于**docPart**, **docPartPr**和**docPartBody**OOXML 中的元素。
-## 构造函数
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -33,7 +33,7 @@ public class BuildingBlock extends CompositeNode
 
 | 方法 | 描述 |
 | --- | --- |
-| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | 接受访客。 |
+| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | 接待来访者。 |
 | [appendChild(Node newChild)](#appendChild-com.aspose.words.Node-) | 将指定节点添加到此节点的子节点列表的末尾。 |
 | [dd()](#dd--) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | 创建节点的副本。 |
@@ -41,7 +41,7 @@ public class BuildingBlock extends CompositeNode
 | [getAncestor(int ancestorType)](#getAncestor-int-) |  |
 | [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class-) | 获取指定对象类型的第一个祖先。 |
 | [getBehavior()](#getBehavior--) | 指定将构建块的内容插入主文档时应应用的行为。 |
-| [getCategory()](#getCategory--) | 指定构建块的二级分类。 |
+| [getCategory()](#getCategory--) | 指定构建基块的二级分类。 |
 | [getChild(int nodeType, int index, boolean isDeep)](#getChild-int-int-boolean-) |  |
 | [getChildNodes()](#getChildNodes--) | 获取此节点的所有直接子节点。 |
 | [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean-) |  |
@@ -50,21 +50,21 @@ public class BuildingBlock extends CompositeNode
 | [getCount()](#getCount--) | 获取此节点的直接子节点数。 |
 | [getCurrentNode()](#getCurrentNode--) |  |
 | [getCustomNodeId()](#getCustomNodeId--) | 指定自定义节点标识符。 |
-| [getDescription()](#getDescription--) | 获取与此构建块关联的描述。 |
-| [getDocument()](#getDocument--) | 获取该节点所属的文档。 |
+| [getDescription()](#getDescription--) | 获取与此构建基块关联的说明。 |
+| [getDocument()](#getDocument--) | 获取此节点所属的文档。 |
 | [getFirstChild()](#getFirstChild--) | 获取节点的第一个子节点。 |
-| [getFirstSection()](#getFirstSection--) | 获取构建块中的第一部分。 |
-| [getGallery()](#getGallery--) | 为分类或用户界面排序指定构建块的第一级分类。 |
+| [getFirstSection()](#getFirstSection--) | 获取构建块中的第一个部分。 |
+| [getGallery()](#getGallery--) | 为分类或用户界面排序指定构建基块的一级分类。 |
 | [getGuid()](#getGuid--) | 获取唯一标识此构建块的标识符（128 位 GUID）。 |
 | [getLastChild()](#getLastChild--) | 获取节点的最后一个子节点。 |
 | [getLastSection()](#getLastSection--) | 获取构建块中的最后一部分。 |
 | [getName()](#getName--) | 获取此构建块的名称。 |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node-) |  |
-| [getNextSibling()](#getNextSibling--) | 获取紧跟此节点的节点。 |
+| [getNextSibling()](#getNextSibling--) | 获取紧跟在该节点之后的节点。 |
 | [getNodeType()](#getNodeType--) | 返回[NodeType.BUILDING\_BLOCK](../../com.aspose.words/nodetype\#BUILDING-BLOCK)价值。 |
-| [getParentNode()](#getParentNode--) | 获取此节点的直接父节点。 |
-| [getPreviousSibling()](#getPreviousSibling--) | 获取紧接在此节点之前的节点。 |
-| [getRange()](#getRange--) | 返回一个**Range**表示包含在此节点中的文档部分的对象。 |
+| [getParentNode()](#getParentNode--) | 获取此节点的直接父级。 |
+| [getPreviousSibling()](#getPreviousSibling--) | 获取紧接在该节点之前的节点。 |
+| [getRange()](#getRange--) | 返回一个**Range**表示包含在该节点中的文档部分的对象。 |
 | [getSections()](#getSections--) | 返回代表构建块中所有部分的集合。 |
 | [getText()](#getText--) | 获取此节点及其所有子节点的文本。 |
 | [getType()](#getType--) | 指定构建块类型。 |
@@ -88,10 +88,10 @@ public class BuildingBlock extends CompositeNode
 | [selectNodes(String xpath)](#selectNodes-java.lang.String-) | 选择与 XPath 表达式匹配的节点列表。 |
 | [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String-) | 选择与 XPath 表达式匹配的第一个节点。 |
 | [setBehavior(int value)](#setBehavior-int-) | 指定将构建块的内容插入主文档时应应用的行为。 |
-| [setCategory(String value)](#setCategory-java.lang.String-) | 指定构建块的二级分类。 |
+| [setCategory(String value)](#setCategory-java.lang.String-) | 指定构建基块的二级分类。 |
 | [setCustomNodeId(int value)](#setCustomNodeId-int-) | 指定自定义节点标识符。 |
 | [setDescription(String value)](#setDescription-java.lang.String-) | 设置与此构建块关联的描述。 |
-| [setGallery(int value)](#setGallery-int-) | 为分类或用户界面排序指定构建块的第一级分类。 |
+| [setGallery(int value)](#setGallery-int-) | 为分类或用户界面排序指定构建基块的一级分类。 |
 | [setGuid(UUID value)](#setGuid-java.util.UUID-) | 设置唯一标识此构建块的标识符（128 位 GUID）。 |
 | [setName(String value)](#setName-java.lang.String-) | 设置此构建块的名称。 |
 | [setType(int value)](#setType-int-) | 指定构建块类型。 |
@@ -113,7 +113,8 @@ public BuildingBlock(GlossaryDocument glossaryDoc)
 
 追加[BuildingBlock](../../com.aspose.words/buildingblock)到一个[GlossaryDocument](../../com.aspose.words/glossarydocument)利用[CompositeNode.appendChild(com.aspose.words.Node)](../../com.aspose.words/compositenode\#appendChild-com.aspose.words.Node-).
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | glossaryDoc | [GlossaryDocument](../../com.aspose.words/glossarydocument) | 所有者文件。 |
@@ -124,19 +125,20 @@ public boolean accept(DocumentVisitor visitor)
 ```
 
 
-接受访客。
+接待来访者。
 
 枚举此节点及其所有子节点。每个节点调用 DocumentVisitor 上的相应方法。
 
 有关更多信息，请参阅访问者设计模式。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | 将访问节点的访问者。 |
 
-**退货:**
-boolean - 如果访问了所有节点则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则为 false。
+**退货：**
+boolean - 如果所有节点都被访问，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。
 
 来电[DocumentVisitor.visitBuildingBlockStart(com.aspose.words.BuildingBlock)](../../com.aspose.words/documentvisitor\#visitBuildingBlockStart-com.aspose.words.BuildingBlock-) , 然后调用[Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node\#accept-com.aspose.words.DocumentVisitor-)对于这个构建块的所有子节点，然后调用[DocumentVisitor.visitBuildingBlockEnd(com.aspose.words.BuildingBlock)](../../com.aspose.words/documentvisitor\#visitBuildingBlockEnd-com.aspose.words.BuildingBlock-).
 
@@ -149,16 +151,17 @@ public Node appendChild(Node newChild)
 
 将指定节点添加到此节点的子节点列表的末尾。
 
-如果 newChild 已经在树中，则首先将其移除。
+如果 newChild 已经在树中，则首先将其删除。
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+如果被插入的节点是从另一个文档创建的，你应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | newChild | [Node](../../com.aspose.words/node) | 要添加的节点。 |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 添加的节点。
 ### dd() {#dd--}
 ```
@@ -180,13 +183,14 @@ public Node deepClone(boolean isCloneChildren)
 
 此方法始终执行节点的深层复制。这*isCloneChildren*参数指定是否也执行复制所有子节点。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | isCloneChildren | boolean | True 递归克隆指定节点下的子树； false 仅克隆节点本身。 |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 克隆的节点。
+**退货：**
+[Node](../../com.aspose.words/node) - 克隆节点。
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -195,12 +199,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getAncestor(int ancestorType) {#getAncestor-int-}
 ```
@@ -210,12 +215,13 @@ public CompositeNode getAncestor(int ancestorType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | ancestorType | int |  |
 
-**退货:**
+**退货：**
 [CompositeNode](../../com.aspose.words/compositenode)
 ### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
 ```
@@ -225,15 +231,16 @@ public CompositeNode getAncestor(Class ancestorType)
 
 获取指定对象类型的第一个祖先。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | ancestorType | java.lang.Class | 要检索的祖先的对象类型。 |
 
-**退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 指定类型的祖先，如果没有找到该类型的祖先，则返回 null。
+**退货：**
+[CompositeNode](../../com.aspose.words/compositenode) - 指定类型的祖先，如果未找到此类型的祖先，则为 null。
 
-如果祖先类型等于祖先类型或从祖先类型派生，则祖先类型匹配。
+如果祖先类型等于 ancestorType 或派生自 ancestorType，则祖先类型匹配。
 ### getBehavior() {#getBehavior--}
 ```
 public int getBehavior()
@@ -242,24 +249,24 @@ public int getBehavior()
 
 指定将构建块的内容插入主文档时应应用的行为。
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[BuildingBlockBehavior](../../com.aspose.words/buildingblockbehavior)常数。
+**退货：**
+int - 相应的 int 值。返回值是其中之一[BuildingBlockBehavior](../../com.aspose.words/buildingblockbehavior)常数。
 ### getCategory() {#getCategory--}
 ```
 public String getCategory()
 ```
 
 
-指定构建块的二级分类。
+指定构建基块的二级分类。
 
-Microsoft Word 用户界面中的构建块被排列成画廊。每个[getGallery()](../../com.aspose.words/buildingblock\#getGallery--) / [setGallery(int)](../../com.aspose.words/buildingblock\#setGallery-int-)可以有多个类别。一个内的每个块[getCategory()](../../com.aspose.words/buildingblock\#getCategory--) / [setCategory(java.lang.String)](../../com.aspose.words/buildingblock\#setCategory-java.lang.String-)有个[getName()](../../com.aspose.words/buildingblock\#getName--) / [setName(java.lang.String)](../../com.aspose.words/buildingblock\#setName-java.lang.String-).
+Microsoft Word 用户界面中的构建块被安排到画廊中。每个[getGallery()](../../com.aspose.words/buildingblock\#getGallery--) / [setGallery(int)](../../com.aspose.words/buildingblock\#setGallery-int-)可以有多个类别。一个内的每个块[getCategory()](../../com.aspose.words/buildingblock\#getCategory--) / [setCategory(java.lang.String)](../../com.aspose.words/buildingblock\#setCategory-java.lang.String-)有个[getName()](../../com.aspose.words/buildingblock\#getName--) / [setName(java.lang.String)](../../com.aspose.words/buildingblock\#setName-java.lang.String-).
 
-不能为 null，也不能为空字符串。
+不能为空且不能为空字符串。
 
 对应于**docPartPr.category.name** OOXML 中的元素。
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**退货：**
+java.lang.String - 相应的 java.lang.String 值。
 ### getChild(int nodeType, int index, boolean isDeep) {#getChild-int-int-boolean-}
 ```
 public Node getChild(int nodeType, int index, boolean isDeep)
@@ -268,14 +275,15 @@ public Node getChild(int nodeType, int index, boolean isDeep)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | nodeType | int |  |
 | index | int |  |
 | isDeep | boolean |  |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node)
 ### getChildNodes() {#getChildNodes--}
 ```
@@ -289,7 +297,7 @@ public NodeCollection getChildNodes()
 
 如果没有子节点，则此属性返回一个空集合。
 
-**退货:**
+**退货：**
 [NodeCollection](../../com.aspose.words/nodecollection) - 该节点的所有直接子节点。
 ### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean-}
 ```
@@ -299,13 +307,14 @@ public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | nodeType | int |  |
 | isDeep | boolean |  |
 
-**退货:**
+**退货：**
 [NodeCollection](../../com.aspose.words/nodecollection)
 ### getClass() {#getClass--}
 ```
@@ -315,7 +324,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getContainer() {#getContainer--}
 ```
@@ -325,7 +334,7 @@ public CompositeNode getContainer()
 
 
 
-**退货:**
+**退货：**
 [CompositeNode](../../com.aspose.words/compositenode)
 ### getCount() {#getCount--}
 ```
@@ -335,7 +344,7 @@ public int getCount()
 
 获取此节点的直接子节点数。
 
-**退货:**
+**退货：**
 int - 此节点的直接子节点数。
 ### getCurrentNode() {#getCurrentNode--}
 ```
@@ -345,7 +354,7 @@ public Node getCurrentNode()
 
 
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node)
 ### getCustomNodeId() {#getCustomNodeId--}
 ```
@@ -357,27 +366,27 @@ public int getCustomNodeId()
 
 默认为零。
 
-这个标识符可以任意设置和使用。例如，作为获取外部数据的键。
+这个标识符可以任意设置和使用。例如，作为获取外部数据的密钥。
 
 重要说明，指定的值不会保存到输出文件中，并且仅在节点生命周期内存在。
 
-**退货:**
-int - 对应的 int 值。
+**退货：**
+int - 相应的 int 值。
 ### getDescription() {#getDescription--}
 ```
 public String getDescription()
 ```
 
 
-获取与此构建块关联的描述。
+获取与此构建基块关联的说明。
 
 描述可能包含任何字符串内容，通常是附加信息。
 
-不能为 null ，但可以为空字符串。
+不能为 null ，但可以是空字符串。
 
 对应于**docPartPr.description** OOXML 中的元素。
 
-**退货:**
+**退货：**
 java.lang.String - 与此构建块关联的描述。
 ### getDocument() {#getDocument--}
 ```
@@ -385,11 +394,11 @@ public DocumentBase getDocument()
 ```
 
 
-获取该节点所属的文档。
+获取此节点所属的文档。
 
-该节点始终属于一个文档，即使它刚刚创建但尚未添加到树中，或者已从树中删除。
+该节点始终属于一个文档，即使它刚刚创建并且尚未添加到树中，或者如果它已从树中删除也是如此。
 
-**退货:**
+**退货：**
 [DocumentBase](../../com.aspose.words/documentbase) - 该节点所属的文档。
 ### getFirstChild() {#getFirstChild--}
 ```
@@ -399,32 +408,32 @@ public Node getFirstChild()
 
 获取节点的第一个子节点。如果没有第一个子节点，则返回 null。
 
-**退货:**
-[Node](../../com.aspose.words/node) - 节点的第一个子节点。
+**退货：**
+[Node](../../com.aspose.words/node) - 节点的第一个孩子。
 ### getFirstSection() {#getFirstSection--}
 ```
 public Section getFirstSection()
 ```
 
 
-获取构建块中的第一部分。如果没有节，则返回 null。
+获取构建块中的第一个部分。如果没有部分，则返回 null。
 
-**退货:**
-[Section](../../com.aspose.words/section) - 构建块的第一部分。
+**退货：**
+[Section](../../com.aspose.words/section) - 积木中的第一部分。
 ### getGallery() {#getGallery--}
 ```
 public int getGallery()
 ```
 
 
-为分类或用户界面排序指定构建块的第一级分类。
+为分类或用户界面排序指定构建基块的一级分类。
 
-Microsoft Word 用户界面中的构建块被排列成画廊。每个[getGallery()](../../com.aspose.words/buildingblock\#getGallery--) / [setGallery(int)](../../com.aspose.words/buildingblock\#setGallery-int-)可以有多个类别。一个内的每个块[getCategory()](../../com.aspose.words/buildingblock\#getCategory--) / [setCategory(java.lang.String)](../../com.aspose.words/buildingblock\#setCategory-java.lang.String-)有个[getName()](../../com.aspose.words/buildingblock\#getName--) / [setName(java.lang.String)](../../com.aspose.words/buildingblock\#setName-java.lang.String-).
+Microsoft Word 用户界面中的构建块被安排到画廊中。每个[getGallery()](../../com.aspose.words/buildingblock\#getGallery--) / [setGallery(int)](../../com.aspose.words/buildingblock\#setGallery-int-)可以有多个类别。一个内的每个块[getCategory()](../../com.aspose.words/buildingblock\#getCategory--) / [setCategory(java.lang.String)](../../com.aspose.words/buildingblock\#setCategory-java.lang.String-)有个[getName()](../../com.aspose.words/buildingblock\#getName--) / [setName(java.lang.String)](../../com.aspose.words/buildingblock\#setName-java.lang.String-).
 
 对应于**docPartPr.category.gallery** OOXML 中的元素。
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[BuildingBlockGallery](../../com.aspose.words/buildingblockgallery)常数。
+**退货：**
+int - 相应的 int 值。返回值是其中之一[BuildingBlockGallery](../../com.aspose.words/buildingblockgallery)常数。
 ### getGuid() {#getGuid--}
 ```
 public UUID getGuid()
@@ -437,7 +446,7 @@ public UUID getGuid()
 
 对应于**docPartPr.guid** OOXML 中的元素。
 
-**退货:**
+**退货：**
 java.util.UUID - 唯一标识此构建块的标识符（128 位 GUID）。
 ### getLastChild() {#getLastChild--}
 ```
@@ -447,18 +456,18 @@ public Node getLastChild()
 
 获取节点的最后一个子节点。如果没有最后一个子节点，则返回 null。
 
-**退货:**
-[Node](../../com.aspose.words/node) - 节点的最后一个子节点。
+**退货：**
+[Node](../../com.aspose.words/node) - 节点的最后一个孩子。
 ### getLastSection() {#getLastSection--}
 ```
 public Section getLastSection()
 ```
 
 
-获取构建块中的最后一个部分。如果没有节，则返回 null。
+获取构建块中的最后一部分。如果没有部分，则返回 null。
 
-**退货:**
-[Section](../../com.aspose.words/section) 构建块的最后一部分。
+**退货：**
+[Section](../../com.aspose.words/section) - 构建块的最后一部分。
 ### getName() {#getName--}
 ```
 public String getName()
@@ -469,11 +478,11 @@ public String getName()
 
 名称可以包含任何字符串内容，通常是友好的标识符。多个构建块可以具有相同的名称。
 
-不能为 null，也不能为空字符串。
+不能为空且不能为空字符串。
 
 对应于**docPartPr.name** OOXML 中的元素。
 
-**退货:**
+**退货：**
 java.lang.String - 此构建块的名称。
 ### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node-}
 ```
@@ -483,12 +492,13 @@ public Node getNextMatchingNode(Node curNode)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | curNode | [Node](../../com.aspose.words/node) |  |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node)
 ### getNextSibling() {#getNextSibling--}
 ```
@@ -498,7 +508,7 @@ public Node getNextSibling()
 
 获取紧跟在该节点之后的节点。如果没有下一个节点，则返回 null。
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 紧接此节点之后的节点。
 ### getNodeType() {#getNodeType--}
 ```
@@ -508,19 +518,19 @@ public int getNodeType()
 
 返回[NodeType.BUILDING\_BLOCK](../../com.aspose.words/nodetype\#BUILDING-BLOCK)价值。
 
-**退货:**
-诠释 - 的[NodeType.BUILDING\_BLOCK](../../com.aspose.words/nodetype\#BUILDING-BLOCK)价值。返回值是以下之一[NodeType](../../com.aspose.words/nodetype)常数。
+**退货：**
+诠释 - 的[NodeType.BUILDING\_BLOCK](../../com.aspose.words/nodetype\#BUILDING-BLOCK)价值。返回值是其中之一[NodeType](../../com.aspose.words/nodetype)常数。
 ### getParentNode() {#getParentNode--}
 ```
 public CompositeNode getParentNode()
 ```
 
 
-获取此节点的直接父节点。
+获取此节点的直接父级。
 
 如果一个节点刚刚被创建并且还没有被添加到树中，或者如果它已经被从树中移除，则父节点为空。
 
-**退货:**
+**退货：**
 [CompositeNode](../../com.aspose.words/compositenode) - 此节点的直接父节点。
 ### getPreviousSibling() {#getPreviousSibling--}
 ```
@@ -530,7 +540,7 @@ public Node getPreviousSibling()
 
 获取紧接在该节点之前的节点。如果前面没有节点，则返回 null。
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 紧接在该节点之前的节点。
 ### getRange() {#getRange--}
 ```
@@ -538,10 +548,10 @@ public Range getRange()
 ```
 
 
-返回一个**Range**表示包含在此节点中的文档部分的对象。
+返回一个**Range**表示包含在该节点中的文档部分的对象。
 
-**退货:**
-[Range](../../com.aspose.words/range) - 一个**Range**表示包含在此节点中的文档部分的对象。
+**退货：**
+[Range](../../com.aspose.words/range) - 一个**Range**表示包含在该节点中的文档部分的对象。
 ### getSections() {#getSections--}
 ```
 public SectionCollection getSections()
@@ -550,7 +560,7 @@ public SectionCollection getSections()
 
 返回代表构建块中所有部分的集合。
 
-**退货:**
+**退货：**
 [SectionCollection](../../com.aspose.words/sectioncollection) 代表构建块中所有部分的集合。
 ### getText() {#getText--}
 ```
@@ -560,10 +570,10 @@ public String getText()
 
 获取此节点及其所有子节点的文本。
 
-返回的字符串包括所有控制和特殊字符，如[ControlChar](../../com.aspose.words/controlchar).
+返回的字符串包括所有控制字符和特殊字符，如[ControlChar](../../com.aspose.words/controlchar).
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getType() {#getType--}
 ```
 public int getType()
@@ -576,8 +586,8 @@ public int getType()
 
 对应于**docPartPr.types** OOXML 中的元素。
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[BuildingBlockType](../../com.aspose.words/buildingblocktype)常数。
+**退货：**
+int - 相应的 int 值。返回值是其中之一[BuildingBlockType](../../com.aspose.words/buildingblocktype)常数。
 ### hasChildNodes() {#hasChildNodes--}
 ```
 public boolean hasChildNodes()
@@ -586,8 +596,8 @@ public boolean hasChildNodes()
 
 如果此节点有任何子节点，则返回 true。
 
-**退货:**
-boolean - 如果此节点有任何子节点，则为真。
+**退货：**
+boolean - 如果此节点有任何子节点则为真。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -596,7 +606,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### indexOf(Node child) {#indexOf-com.aspose.words.Node-}
 ```
@@ -604,14 +614,15 @@ public int indexOf(Node child)
 ```
 
 
-返回子节点数组中指定子节点的索引。如果在子节点中未找到该节点，则返回 -1。
+返回子节点数组中指定子节点的索引。如果在子节点中找不到该节点，则返回 -1。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | child | [Node](../../com.aspose.words/node) |  |
 
-**退货:**
+**退货：**
 整数
 ### insertAfter(Node newChild, Node refChild) {#insertAfter-com.aspose.words.Node-com.aspose.words.Node-}
 ```
@@ -623,17 +634,18 @@ public Node insertAfter(Node newChild, Node refChild)
 
 如果 refChild 为 null，则在子节点列表的开头插入 newChild。
 
-如果 newChild 已经在树中，则首先将其移除。
+如果 newChild 已经在树中，则首先将其删除。
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+如果被插入的节点是从另一个文档创建的，你应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | newChild | [Node](../../com.aspose.words/node) | 要插入的节点。 |
-| refChild | [Node](../../com.aspose.words/node) | 作为参考节点的节点。 newNode 放在 refNode 之后。 |
+| refChild | [Node](../../com.aspose.words/node) | 作为参考节点的节点。 newNode 放置在 refNode 之后。 |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 插入的节点。
 ### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node-}
 ```
@@ -645,17 +657,18 @@ public Node insertBefore(Node newChild, Node refChild)
 
 如果 refChild 为 null，则在子节点列表的末尾插入 newChild。
 
-如果 newChild 已经在树中，则首先将其移除。
+如果 newChild 已经在树中，则首先将其删除。
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+如果被插入的节点是从另一个文档创建的，你应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | newChild | [Node](../../com.aspose.words/node) | 要插入的节点。 |
 | refChild | [Node](../../com.aspose.words/node) | 作为参考节点的节点。 newChild 放置在此节点之前。 |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 插入的节点。
 ### isComposite() {#isComposite--}
 ```
@@ -665,7 +678,7 @@ public boolean isComposite()
 
 返回 true，因为此节点可以有子节点。
 
-**退货:**
+**退货：**
 boolean - True 因为这个节点可以有子节点。
 ### iterator() {#iterator--}
 ```
@@ -675,8 +688,8 @@ public Iterator iterator()
 
 为该节点的子节点上的每个样式迭代提供支持。
 
-**退货:**
-java.util.Iterator
+**退货：**
+java.util.迭代器
 ### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node-}
 ```
 public Node nextPreOrder(Node rootNode)
@@ -685,13 +698,14 @@ public Node nextPreOrder(Node rootNode)
 
 根据前序树遍历算法获取下一个节点。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶部节点（极限）。 |
+| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶端节点（极限）。 |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 预购订单中的下一个节点。如果到达 rootNode，则为 Null。
+**退货：**
+[Node](../../com.aspose.words/node) - 预定顺序中的下一个节点。如果到达根节点则为空。
 ### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
 ```
 public static String nodeTypeToString(int nodeType)
@@ -700,13 +714,14 @@ public static String nodeTypeToString(int nodeType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | nodeType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -731,16 +746,17 @@ public Node prependChild(Node newChild)
 
 将指定节点添加到此节点的子节点列表的开头。
 
-如果 newChild 已经在树中，则首先将其移除。
+如果 newChild 已经在树中，则首先将其删除。
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+如果被插入的节点是从另一个文档创建的，你应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | newChild | [Node](../../com.aspose.words/node) | 要添加的节点。 |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 添加的节点。
 ### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node-}
 ```
@@ -750,13 +766,14 @@ public Node previousPreOrder(Node rootNode)
 
 根据前序树遍历算法获取上一个节点。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶部节点（极限）。 |
+| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶端节点（极限）。 |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 预购订单中的上一个节点。如果到达 rootNode，则为 Null。
+**退货：**
+[Node](../../com.aspose.words/node) 预购顺序中的前一个节点。如果到达根节点则为空。
 ### remove() {#remove--}
 ```
 public void remove()
@@ -783,12 +800,13 @@ public Node removeChild(Node oldChild)
 
 删除节点后，oldChild 的父级设置为 null。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| oldChild | [Node](../../com.aspose.words/node) | 要移除的节点。 |
+| oldChild | [Node](../../com.aspose.words/node) | 要删除的节点。 |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 删除的节点。
 ### removeSmartTags() {#removeSmartTags--}
 ```
@@ -808,13 +826,14 @@ public NodeList selectNodes(String xpath)
 
 目前仅支持带有元素名称的表达式。不支持使用属性名称的表达式。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | xpath | java.lang.String | XPath 表达式。 |
 
-**退货:**
-[NodeList](../../com.aspose.words/nodelist) - 与 XPath 查询匹配的节点列表。
+**退货：**
+[NodeList](../../com.aspose.words/nodelist) - 匹配 XPath 查询的节点列表。
 ### selectSingleNode(String xpath) {#selectSingleNode-java.lang.String-}
 ```
 public Node selectSingleNode(String xpath)
@@ -825,12 +844,13 @@ public Node selectSingleNode(String xpath)
 
 目前仅支持带有元素名称的表达式。不支持使用属性名称的表达式。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | xpath | java.lang.String | XPath 表达式。 |
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 与 XPath 查询匹配的第一个节点，如果未找到匹配节点，则为 null。
 ### setBehavior(int value) {#setBehavior-int-}
 ```
@@ -840,10 +860,11 @@ public void setBehavior(int value)
 
 指定将构建块的内容插入主文档时应应用的行为。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[BuildingBlockBehavior](../../com.aspose.words/buildingblockbehavior)常数。 |
+| value | int | 对应的int值。该值必须是其中之一[BuildingBlockBehavior](../../com.aspose.words/buildingblockbehavior)常数。 |
 
 ### setCategory(String value) {#setCategory-java.lang.String-}
 ```
@@ -851,18 +872,19 @@ public void setCategory(String value)
 ```
 
 
-指定构建块的二级分类。
+指定构建基块的二级分类。
 
-Microsoft Word 用户界面中的构建块被排列成画廊。每个[getGallery()](../../com.aspose.words/buildingblock\#getGallery--) / [setGallery(int)](../../com.aspose.words/buildingblock\#setGallery-int-)可以有多个类别。一个内的每个块[getCategory()](../../com.aspose.words/buildingblock\#getCategory--) / [setCategory(java.lang.String)](../../com.aspose.words/buildingblock\#setCategory-java.lang.String-)有个[getName()](../../com.aspose.words/buildingblock\#getName--) / [setName(java.lang.String)](../../com.aspose.words/buildingblock\#setName-java.lang.String-).
+Microsoft Word 用户界面中的构建块被安排到画廊中。每个[getGallery()](../../com.aspose.words/buildingblock\#getGallery--) / [setGallery(int)](../../com.aspose.words/buildingblock\#setGallery-int-)可以有多个类别。一个内的每个块[getCategory()](../../com.aspose.words/buildingblock\#getCategory--) / [setCategory(java.lang.String)](../../com.aspose.words/buildingblock\#setCategory-java.lang.String-)有个[getName()](../../com.aspose.words/buildingblock\#getName--) / [setName(java.lang.String)](../../com.aspose.words/buildingblock\#setName-java.lang.String-).
 
-不能为 null，也不能为空字符串。
+不能为空且不能为空字符串。
 
 对应于**docPartPr.category.name** OOXML 中的元素。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | 对应的java.lang.String值。 |
 
 ### setCustomNodeId(int value) {#setCustomNodeId-int-}
 ```
@@ -874,14 +896,15 @@ public void setCustomNodeId(int value)
 
 默认为零。
 
-这个标识符可以任意设置和使用。例如，作为获取外部数据的键。
+这个标识符可以任意设置和使用。例如，作为获取外部数据的密钥。
 
 重要说明，指定的值不会保存到输出文件中，并且仅在节点生命周期内存在。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | 对应的int值。 |
 
 ### setDescription(String value) {#setDescription-java.lang.String-}
 ```
@@ -893,11 +916,12 @@ public void setDescription(String value)
 
 描述可能包含任何字符串内容，通常是附加信息。
 
-不能为 null ，但可以为空字符串。
+不能为 null ，但可以是空字符串。
 
 对应于**docPartPr.description** OOXML 中的元素。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | 与此构建块关联的描述。 |
@@ -908,16 +932,17 @@ public void setGallery(int value)
 ```
 
 
-为分类或用户界面排序指定构建块的第一级分类。
+为分类或用户界面排序指定构建基块的一级分类。
 
-Microsoft Word 用户界面中的构建块被排列成画廊。每个[getGallery()](../../com.aspose.words/buildingblock\#getGallery--) / [setGallery(int)](../../com.aspose.words/buildingblock\#setGallery-int-)可以有多个类别。一个内的每个块[getCategory()](../../com.aspose.words/buildingblock\#getCategory--) / [setCategory(java.lang.String)](../../com.aspose.words/buildingblock\#setCategory-java.lang.String-)有个[getName()](../../com.aspose.words/buildingblock\#getName--) / [setName(java.lang.String)](../../com.aspose.words/buildingblock\#setName-java.lang.String-).
+Microsoft Word 用户界面中的构建块被安排到画廊中。每个[getGallery()](../../com.aspose.words/buildingblock\#getGallery--) / [setGallery(int)](../../com.aspose.words/buildingblock\#setGallery-int-)可以有多个类别。一个内的每个块[getCategory()](../../com.aspose.words/buildingblock\#getCategory--) / [setCategory(java.lang.String)](../../com.aspose.words/buildingblock\#setCategory-java.lang.String-)有个[getName()](../../com.aspose.words/buildingblock\#getName--) / [setName(java.lang.String)](../../com.aspose.words/buildingblock\#setName-java.lang.String-).
 
 对应于**docPartPr.category.gallery** OOXML 中的元素。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[BuildingBlockGallery](../../com.aspose.words/buildingblockgallery)常数。 |
+| value | int | 对应的int值。该值必须是其中之一[BuildingBlockGallery](../../com.aspose.words/buildingblockgallery)常数。 |
 
 ### setGuid(UUID value) {#setGuid-java.util.UUID-}
 ```
@@ -931,7 +956,8 @@ public void setGuid(UUID value)
 
 对应于**docPartPr.guid** OOXML 中的元素。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.util.UUID | 唯一标识此构建块的标识符（128 位 GUID）。 |
@@ -946,11 +972,12 @@ public void setName(String value)
 
 名称可以包含任何字符串内容，通常是友好的标识符。多个构建块可以具有相同的名称。
 
-不能为 null，也不能为空字符串。
+不能为空且不能为空字符串。
 
 对应于**docPartPr.name** OOXML 中的元素。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | 此构建块的名称。 |
@@ -967,10 +994,11 @@ public void setType(int value)
 
 对应于**docPartPr.types** OOXML 中的元素。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[BuildingBlockType](../../com.aspose.words/buildingblocktype)常数。 |
+| value | int | 对应的int值。该值必须是其中之一[BuildingBlockType](../../com.aspose.words/buildingblocktype)常数。 |
 
 ### toString() {#toString--}
 ```
@@ -980,8 +1008,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(SaveOptions saveOptions) {#toString-com.aspose.words.SaveOptions-}
 ```
 public String toString(SaveOptions saveOptions)
@@ -990,12 +1018,13 @@ public String toString(SaveOptions saveOptions)
 
 使用指定的保存选项将节点的内容导出为字符串。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | 指定控制节点保存方式的选项。 |
 
-**退货:**
+**退货：**
 java.lang.String - 指定格式的节点内容。
 ### toString(int saveFormat) {#toString-int-}
 ```
@@ -1005,13 +1034,14 @@ public String toString(int saveFormat)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -1028,7 +1058,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -1041,7 +1072,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

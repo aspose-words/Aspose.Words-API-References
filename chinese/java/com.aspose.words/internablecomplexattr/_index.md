@@ -7,16 +7,16 @@ weight: 351
 url: /zh/java/com.aspose.words/internablecomplexattr/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public abstract class InternableComplexAttr
 ```
 
-可内部复杂属性的基类。可交互的复杂属性应在更改时通知父集合。
+可内部复杂属性的基类。 Internable 复杂属性应在更改时通知父集合。
 
 要了解更多信息，请访问**Aspose.Words Document Object Model (DOM)**文档文章。
-## 构造函数
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -48,12 +48,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -63,7 +64,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
@@ -73,7 +74,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -99,8 +100,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -117,7 +118,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -130,7 +132,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

@@ -7,7 +7,7 @@ weight: 554
 url: /zh/java/com.aspose.words/tablesubstitutionrule/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object, [com.aspose.words.FontSubstitutionRule](../../com.aspose.words/fontsubstitutionrule)
 ```
 public class TableSubstitutionRule extends FontSubstitutionRule
@@ -51,11 +51,12 @@ public void addSubstitutes(String originalFontName, String[] substituteFontNames
 
 为给定的原始字体名称添加替代字体名称。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | originalFontName | java.lang.String | 原始字体名称。 |
-| substituteFontNames | java.lang.String[] | 备选字体名称列表。 |
+| substituteFontNames | java.lang.String[] | 替代字体名称列表。 |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -65,12 +66,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -80,7 +82,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getEnabled() {#getEnabled--}
 ```
@@ -90,8 +92,8 @@ public boolean getEnabled()
 
 指定是否启用规则。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getSubstitutes(String originalFontName) {#getSubstitutes-java.lang.String-}
 ```
 public Iterable getSubstitutes(String originalFontName)
@@ -100,13 +102,14 @@ public Iterable getSubstitutes(String originalFontName)
 
 返回包含指定原始字体名称的替代字体名称的数组。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | originalFontName | java.lang.String | 原始字体名称。 |
 
-**退货:**
-java.lang.Iterable - 备选字体名称列表。
+**退货：**
+java.lang.Iterable - 替代字体名称列表。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -115,7 +118,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### load(InputStream stream) {#load-java.io.InputStream-}
 ```
@@ -125,7 +128,8 @@ public void load(InputStream stream)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
@@ -138,7 +142,8 @@ public void load(String fileName)
 
 从 XML 文件加载表替换设置。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | java.lang.String | 输入文件名。 |
@@ -191,7 +196,8 @@ public void save(OutputStream outputStream)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | outputStream | java.io.OutputStream |  |
@@ -204,7 +210,8 @@ public void save(String fileName)
 
 将当前表替换设置保存到文件。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | java.lang.String | 输出文件名。 |
@@ -217,7 +224,8 @@ public void setEnabled(boolean value)
 
 指定是否启用规则。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -230,11 +238,12 @@ public void setSubstitutes(String originalFontName, String[] substituteFontNames
 
 覆盖给定原始字体名称的替代字体名称。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | originalFontName | java.lang.String | 原始字体名称。 |
-| substituteFontNames | java.lang.String[] | 备选字体名称列表。 |
+| substituteFontNames | java.lang.String[] | 替代字体名称列表。 |
 
 ### toString() {#toString--}
 ```
@@ -244,8 +253,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -262,7 +271,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -275,7 +285,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

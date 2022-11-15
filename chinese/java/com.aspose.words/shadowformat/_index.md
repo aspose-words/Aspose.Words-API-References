@@ -7,7 +7,7 @@ weight: 514
 url: /zh/java/com.aspose.words/shadowformat/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class ShadowFormat
@@ -23,12 +23,12 @@ public class ShadowFormat
 | [clear()](#clear--) | 清除阴影格式。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getType()](#getType--) | 获取指定的[ShadowType](../../com.aspose.words/shadowtype)对于影子格式。 |
+| [getType()](#getType--) | 获取指定的[ShadowType](../../com.aspose.words/shadowtype)对于 ShadowFormat。 |
 | [getVisible()](#getVisible--) | 如果应用于此实例的格式可见，则返回 true。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setType(int value)](#setType-int-) | 设置指定的[ShadowType](../../com.aspose.words/shadowtype)对于影子格式。 |
+| [setType(int value)](#setType-int-) | 设置指定的[ShadowType](../../com.aspose.words/shadowtype)对于 ShadowFormat。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -49,12 +49,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -64,7 +65,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getType() {#getType--}
 ```
@@ -72,20 +73,20 @@ public int getType()
 ```
 
 
-获取指定的[ShadowType](../../com.aspose.words/shadowtype)对于影子格式。
+获取指定的[ShadowType](../../com.aspose.words/shadowtype)对于 ShadowFormat。
 
-**退货:**
-int - 指定的[ShadowType](../../com.aspose.words/shadowtype)对于影子格式。返回值是以下之一[ShadowType](../../com.aspose.words/shadowtype)常数。
+**退货：**
+int - 指定的[ShadowType](../../com.aspose.words/shadowtype)对于 ShadowFormat。返回值是其中之一[ShadowType](../../com.aspose.words/shadowtype)常数。
 ### getVisible() {#getVisible--}
 ```
 public boolean getVisible()
 ```
 
 
-如果应用于此实例的格式可见，则返回 true。不像[clear()](../../com.aspose.words/shadowformat\#clear--)，将 false 分配给 Visible 不会清除格式，它只会隐藏形状效果。
+如果应用于此实例的格式可见，则返回 true。不像[clear()](../../com.aspose.words/shadowformat\#clear--)将 false 分配给 Visible 不会清除格式，它只会隐藏形状效果。
 
-**退货:**
-布尔值 -\{ 如果应用于此实例的格式可见，则为 true。
+**退货：**
+布尔值 -\{ 如果应用于此实例的格式可见，则为真。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -94,7 +95,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -118,12 +119,13 @@ public void setType(int value)
 ```
 
 
-设置指定的[ShadowType](../../com.aspose.words/shadowtype)对于影子格式。
+设置指定的[ShadowType](../../com.aspose.words/shadowtype)对于 ShadowFormat。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 指定的[ShadowType](../../com.aspose.words/shadowtype)对于影子格式。该值必须是其中之一[ShadowType](../../com.aspose.words/shadowtype)常数。 |
+| value | int | 指定的[ShadowType](../../com.aspose.words/shadowtype)对于 ShadowFormat。该值必须是其中之一[ShadowType](../../com.aspose.words/shadowtype)常数。 |
 
 ### toString() {#toString--}
 ```
@@ -133,8 +135,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -151,7 +153,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -164,7 +167,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

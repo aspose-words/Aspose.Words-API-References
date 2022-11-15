@@ -1,16 +1,16 @@
 ---
 title: BookmarkCollection
 second_title: Aspose.Words for Java API 参考
-description: 表示指定范围内书签的对象集合。
+description: 表示指定范围内的书签的对象集合。
 type: docs
 weight: 32
 url: /zh/java/com.aspose.words/bookmarkcollection/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Iterable
 ```
 public class BookmarkCollection implements Iterable
@@ -28,7 +28,7 @@ public class BookmarkCollection implements Iterable
 | [get(int index)](#get-int-) | 返回指定索引处的书签。 |
 | [get(String bookmarkName)](#get-java.lang.String-) | 按名称返回书签。 |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | 返回集合中书签的数量。 |
+| [getCount()](#getCount--) | 返回集合中的书签数。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 返回一个枚举器对象。 |
 | [notify()](#notify--) |  |
@@ -56,12 +56,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### get(int index) {#get-int-}
 ```
@@ -79,13 +80,14 @@ public Bookmark get(int index)
 
 如果索引为负且其绝对值大于列表中的项目数，则返回空引用。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int | 集合中的索引。 |
 
-**退货:**
-[Bookmark](../../com.aspose.words/bookmark) - 指定索引处的书签。
+**退货：**
+[Bookmark](../../com.aspose.words/bookmark) 指定索引处的书签。
 ### get(String bookmarkName) {#get-java.lang.String-}
 ```
 public Bookmark get(String bookmarkName)
@@ -96,12 +98,13 @@ public Bookmark get(String bookmarkName)
 
 如果找不到具有指定名称的书签，则返回 null。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | bookmarkName | java.lang.String | 书签名称不区分大小写。 |
 
-**退货:**
+**退货：**
 [Bookmark](../../com.aspose.words/bookmark) - 书签名称。
 ### getClass() {#getClass--}
 ```
@@ -111,7 +114,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
@@ -119,9 +122,9 @@ public int getCount()
 ```
 
 
-返回集合中书签的数量。
+返回集合中的书签数。
 
-**退货:**
+**退货：**
 int - 集合中书签的数量。
 ### hashCode() {#hashCode--}
 ```
@@ -131,7 +134,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### iterator() {#iterator--}
 ```
@@ -141,8 +144,8 @@ public Iterator iterator()
 
 返回一个枚举器对象。
 
-**退货:**
-java.util.Iterator
+**退货：**
+java.util.迭代器
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -167,7 +170,8 @@ public void remove(Bookmark bookmark)
 
 从文档中删除指定的书签。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | bookmark | [Bookmark](../../com.aspose.words/bookmark) | 要删除的书签。 |
@@ -180,7 +184,8 @@ public void remove(String bookmarkName)
 
 删除具有指定名称的书签。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | bookmarkName | java.lang.String | 要删除的书签的名称不区分大小写。 |
@@ -193,7 +198,8 @@ public void removeAt(int index)
 
 删除指定索引处的书签。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int | 要删除的书签的从零开始的索引。 |
@@ -206,8 +212,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -224,7 +230,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -237,7 +244,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

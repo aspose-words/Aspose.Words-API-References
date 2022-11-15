@@ -7,20 +7,20 @@ weight: 102
 url: /zh/java/com.aspose.words/custompart/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Cloneable
 ```
 public class CustomPart implements Cloneable
 ```
 
-表示 ISO/IEC 29500 标准未定义的自定义（任意内容）部分。
+表示自定义（任意内容）部分，未由 ISO/IEC 29500 标准定义。
 
 要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
 
-此类表示作为“未知关系”目标的 OOXML 部分。 ISO/IEC 29500 中未定义的所有关系都被视为“未知关系”。未知关系在 Office Open XML 文档中是允许的，前提是它们符合关系标记准则。
+此类表示作为“未知关系”目标的 OOXML 部分。 ISO/IEC 29500 中未定义的所有关系都被视为“未知关系”。 Office Open XML 文档中允许存在未知关系，前提是它们符合关系标记准则。
 
 Microsoft Word 在打开/保存周期中保留自定义部分。可以在此处找到一些其他信息 http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
 
@@ -59,7 +59,7 @@ public CustomPart deepClone()
 
 制作对象的“足够深”的副本。不重复的字节[getData()](../../com.aspose.words/custompart\#getData--) / [setData(byte[])](../../com.aspose.words/custompart\#setData-byte---)价值。
 
-**退货:**
+**退货：**
 [CustomPart](../../com.aspose.words/custompart)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -69,12 +69,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -84,7 +85,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getContentType() {#getContentType--}
 ```
@@ -98,8 +99,8 @@ public String getContentType()
 
 默认值为空字符串。有效值必须是非空字符串。
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**退货：**
+java.lang.String - 相应的 java.lang.String 值。
 ### getData() {#getData--}
 ```
 public byte[] getData()
@@ -112,7 +113,7 @@ public byte[] getData()
 
 默认值为空字节数组。该值不能为 null 。
 
-**退货:**
+**退货：**
 字节[- 对应的字节[] 价值。
 ### getName() {#getName--}
 ```
@@ -126,8 +127,8 @@ public String getName()
 
 默认值为空字符串。有效值必须是非空字符串。
 
-**退货:**
-java.lang.String - 此部分在 OOXML 包或目标 URL 中的绝对名称。
+**退货：**
+java.lang.String - 这部分在 OOXML 包或目标 URL 中的绝对名称。
 ### getRelationshipType() {#getRelationshipType--}
 ```
 public String getRelationshipType()
@@ -136,11 +137,11 @@ public String getRelationshipType()
 
 获取从父部件到此自定义部件的关系类型。
 
-自定义部件的关系类型必须是“未知的”，例如自定义关系类型，而不是 ISO/IEC 29500 中定义的关系类型之一。
+自定义部件的关系类型必须是“未知”的，例如自定义关系类型，而不是 ISO/IEC 29500 中定义的关系类型之一。
 
 默认值为空字符串。有效值必须是非空字符串。
 
-**退货:**
+**退货：**
 java.lang.String - 从父部件到此自定义部件的关系类型。
 ### hashCode() {#hashCode--}
 ```
@@ -150,7 +151,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### isExternal() {#isExternal--}
 ```
@@ -158,23 +159,24 @@ public boolean isExternal()
 ```
 
 
-\{ 如果此自定义部件存储在 OOXML 包中，则为 False。如果此自定义部件是外部目标，则为真。
+\{ 如果此自定义部分存储在 OOXML 包中，则为 False。如果此自定义部件是外部目标，则为真。
 
 默认值为 false 。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### isExternal(boolean value) {#isExternal-boolean-}
 ```
 public void isExternal(boolean value)
 ```
 
 
-\{ 如果此自定义部件存储在 OOXML 包中，则为 False。如果此自定义部件是外部目标，则为真。
+\{ 如果此自定义部分存储在 OOXML 包中，则为 False。如果此自定义部件是外部目标，则为真。
 
 默认值为 false 。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -207,10 +209,11 @@ public void setContentType(String value)
 
 默认值为空字符串。有效值必须是非空字符串。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | 对应的java.lang.String值。 |
 
 ### setData(byte[] value) {#setData-byte---}
 ```
@@ -224,10 +227,11 @@ public void setData(byte[] value)
 
 默认值为空字节数组。该值不能为 null 。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] | 对应字节[] 价值。 |
+| value | byte[] | 对应的字节[] 价值。 |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -241,7 +245,8 @@ public void setName(String value)
 
 默认值为空字符串。有效值必须是非空字符串。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | 此部分在 OOXML 包或目标 URL 中的绝对名称。 |
@@ -254,11 +259,12 @@ public void setRelationshipType(String value)
 
 设置从父部件到此自定义部件的关系类型。
 
-自定义部件的关系类型必须是“未知的”，例如自定义关系类型，而不是 ISO/IEC 29500 中定义的关系类型之一。
+自定义部件的关系类型必须是“未知”的，例如自定义关系类型，而不是 ISO/IEC 29500 中定义的关系类型之一。
 
 默认值为空字符串。有效值必须是非空字符串。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | 从父部件到此自定义部件的关系类型。 |
@@ -271,8 +277,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -289,7 +295,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -302,7 +309,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

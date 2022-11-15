@@ -7,10 +7,10 @@ weight: 605
 url: /zh/java/com.aspose.words/warninginfocollection/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 [com.aspose.words.IWarningCallback](../../com.aspose.words/iwarningcallback), java.lang.Iterable
 ```
 public class WarningInfoCollection implements IWarningCallback, Iterable
@@ -55,12 +55,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### get(int index) {#get-int-}
 ```
@@ -70,12 +71,13 @@ public WarningInfo get(int index)
 
 获取指定索引处的项目。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int | 项目的从零开始的索引。 |
 
-**退货:**
+**退货：**
 [WarningInfo](../../com.aspose.words/warninginfo) - 指定索引处的项目。
 ### getClass() {#getClass--}
 ```
@@ -85,7 +87,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
@@ -95,7 +97,7 @@ public int getCount()
 
 获取集合中包含的元素数。
 
-**退货:**
+**退货：**
 int - 集合中包含的元素数。
 ### hashCode() {#hashCode--}
 ```
@@ -105,7 +107,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### iterator() {#iterator--}
 ```
@@ -115,8 +117,8 @@ public Iterator iterator()
 
 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。
 
-**退货:**
-java.util.Iterator
+**退货：**
+java.util.迭代器
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -141,8 +143,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -159,7 +161,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -172,7 +175,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -186,7 +190,8 @@ public void warning(WarningInfo info)
 
 实施[IWarningCallback](../../com.aspose.words/iwarningcallback)界面。向此集合添加警告。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | info | [WarningInfo](../../com.aspose.words/warninginfo) |  |

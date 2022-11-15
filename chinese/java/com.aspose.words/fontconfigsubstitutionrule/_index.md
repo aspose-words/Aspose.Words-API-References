@@ -7,7 +7,7 @@ weight: 276
 url: /zh/java/com.aspose.words/fontconfigsubstitutionrule/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object, [com.aspose.words.FontSubstitutionRule](../../com.aspose.words/fontsubstitutionrule)
 ```
 public class FontConfigSubstitutionRule extends FontSubstitutionRule
@@ -45,12 +45,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -60,7 +61,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getEnabled() {#getEnabled--}
 ```
@@ -70,8 +71,8 @@ public boolean getEnabled()
 
 指定是否启用规则。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -80,7 +81,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### isFontConfigAvailable() {#isFontConfigAvailable--}
 ```
@@ -90,7 +91,7 @@ public boolean isFontConfigAvailable()
 
 检查 fontconfig 实用程序是否可用。
 
-**退货:**
+**退货：**
 布尔值
 ### notify() {#notify--}
 ```
@@ -124,7 +125,8 @@ public void setEnabled(boolean value)
 
 指定是否启用规则。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -137,8 +139,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -155,7 +157,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -168,7 +171,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

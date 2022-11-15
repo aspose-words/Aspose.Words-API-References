@@ -7,7 +7,7 @@ weight: 559
 url: /zh/java/com.aspose.words/textboxanchor/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class TextBoxAnchor
@@ -20,10 +20,10 @@ public class TextBoxAnchor
 | --- | --- |
 | [BOTTOM](#BOTTOM) | 文本与文本框的底部对齐。 |
 | [BOTTOM_BASELINE](#BOTTOM-BASELINE) | 文本与文本框的底部基线对齐。 |
-| [BOTTOM_CENTERED](#BOTTOM-CENTERED) | 文本与文本框底部居中对齐。 |
-| [BOTTOM_CENTERED_BASELINE](#BOTTOM-CENTERED-BASELINE) | 文本与文本框底部居中的基线对齐。 |
+| [BOTTOM_CENTERED](#BOTTOM-CENTERED) | 文本与文本框的底部居中对齐。 |
+| [BOTTOM_CENTERED_BASELINE](#BOTTOM-CENTERED-BASELINE) | 文本与文本框的底部居中基线对齐。 |
 | [MIDDLE](#MIDDLE) | 文本与文本框的中间对齐。 |
-| [MIDDLE_CENTERED](#MIDDLE-CENTERED) | 文本与文本框的中间对齐。 |
+| [MIDDLE_CENTERED](#MIDDLE-CENTERED) | 文本与文本框的中间居中对齐。 |
 | [TOP](#TOP) | 文本与文本框的顶部对齐。 |
 | [TOP_BASELINE](#TOP-BASELINE) | 文本与文本框的顶部基线对齐。 |
 | [TOP_CENTERED](#TOP-CENTERED) | 文本与文本框的顶部居中对齐。 |
@@ -68,7 +68,7 @@ public static int BOTTOM_CENTERED
 ```
 
 
-文本与文本框底部居中对齐。
+文本与文本框的底部居中对齐。
 
 ### BOTTOM_CENTERED_BASELINE {#BOTTOM-CENTERED-BASELINE}
 ```
@@ -76,7 +76,7 @@ public static int BOTTOM_CENTERED_BASELINE
 ```
 
 
-文本与文本框底部居中的基线对齐。
+文本与文本框的底部居中基线对齐。
 
 ### MIDDLE {#MIDDLE}
 ```
@@ -92,7 +92,7 @@ public static int MIDDLE_CENTERED
 ```
 
 
-文本与文本框的中间对齐。
+文本与文本框的中间居中对齐。
 
 ### TOP {#TOP}
 ```
@@ -140,12 +140,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String textBoxAnchorName) {#fromName-java.lang.String-}
 ```
@@ -155,12 +156,13 @@ public static int fromName(String textBoxAnchorName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textBoxAnchorName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -170,7 +172,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int textBoxAnchor) {#getName-int-}
 ```
@@ -180,13 +182,14 @@ public static String getName(int textBoxAnchor)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textBoxAnchor | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -195,7 +198,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -205,7 +208,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -231,8 +234,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int textBoxAnchor) {#toString-int-}
 ```
 public static String toString(int textBoxAnchor)
@@ -241,13 +244,14 @@ public static String toString(int textBoxAnchor)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textBoxAnchor | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -264,7 +268,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -277,7 +282,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

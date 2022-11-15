@@ -7,7 +7,7 @@ weight: 542
 url: /zh/java/com.aspose.words/svgtextoutputmode/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class SvgTextOutputMode
@@ -16,9 +16,9 @@ public class SvgTextOutputMode
 
 | 场地 | 描述 |
 | --- | --- |
-| [USE_PLACED_GLYPHS](#USE-PLACED-GLYPHS) | 使用曲线渲染文本。 |
-| [USE_SVG_FONTS](#USE-SVG-FONTS) | SVG 字体用于渲染文本。 |
-| [USE_TARGET_MACHINE_FONTS](#USE-TARGET-MACHINE-FONTS) | 安装在目标机器上的字体用于渲染文本。 |
+| [USE_PLACED_GLYPHS](#USE-PLACED-GLYPHS) | 使用曲线呈现文本。 |
+| [USE_SVG_FONTS](#USE-SVG-FONTS) | SVG 字体用于呈现文本。 |
+| [USE_TARGET_MACHINE_FONTS](#USE-TARGET-MACHINE-FONTS) | 目标机器上安装的字体用于呈现文本。 |
 | [length](#length) |  |
 ## 方法
 
@@ -43,7 +43,7 @@ public static int USE_PLACED_GLYPHS
 ```
 
 
-使用曲线渲染文本。请注意，如果您使用此选项，文本选择将不起作用。
+使用曲线呈现文本。请注意，如果您使用此选项，文本选择将不起作用。
 
 ### USE_SVG_FONTS {#USE-SVG-FONTS}
 ```
@@ -51,7 +51,7 @@ public static int USE_SVG_FONTS
 ```
 
 
-SVG 字体用于渲染文本。请注意，并非所有浏览器都支持 SVG 字体。
+SVG 字体用于呈现文本。请注意，并非所有浏览器都支持 SVG 字体。
 
 ### USE_TARGET_MACHINE_FONTS {#USE-TARGET-MACHINE-FONTS}
 ```
@@ -59,7 +59,7 @@ public static int USE_TARGET_MACHINE_FONTS
 ```
 
 
-目标机器上安装的字体用于呈现文本。请注意，如果文档中使用的某些字体在目标机器上不可用，则文档看起来可能会有所不同。
+目标机器上安装的字体用于呈现文本。请注意，如果文档中使用的某些字体在目标计算机上不可用，则文档的外观可能会有所不同。
 
 ### length {#length}
 ```
@@ -75,12 +75,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String svgTextOutputModeName) {#fromName-java.lang.String-}
 ```
@@ -90,12 +91,13 @@ public static int fromName(String svgTextOutputModeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | svgTextOutputModeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -105,7 +107,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int svgTextOutputMode) {#getName-int-}
 ```
@@ -115,13 +117,14 @@ public static String getName(int svgTextOutputMode)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | svgTextOutputMode | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -130,7 +133,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -140,7 +143,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -166,8 +169,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int svgTextOutputMode) {#toString-int-}
 ```
 public static String toString(int svgTextOutputMode)
@@ -176,13 +179,14 @@ public static String toString(int svgTextOutputMode)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | svgTextOutputMode | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -199,7 +203,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -212,7 +217,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

@@ -7,7 +7,7 @@ weight: 155
 url: /zh/java/com.aspose.words/fieldargumentbuilder/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class FieldArgumentBuilder
@@ -15,8 +15,8 @@ public class FieldArgumentBuilder
 
 构建由字段、节点和纯文本组成的复杂字段参数。
 
-要了解更多信息，请访问**Working with 字段**文档文章。
-## 构造函数
+要了解更多信息，请访问**Working with Fields**文档文章。
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -54,12 +54,13 @@ public FieldArgumentBuilder addField(FieldBuilder fieldBuilder)
 
 添加一个由 a 表示的字段[FieldBuilder](../../com.aspose.words/fieldbuilder)到论点。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fieldBuilder | [FieldBuilder](../../com.aspose.words/fieldbuilder) |  |
 
-**退货:**
+**退货：**
 [FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)
 ### addNode(Inline node) {#addNode-com.aspose.words.Inline-}
 ```
@@ -69,12 +70,13 @@ public FieldArgumentBuilder addNode(Inline node)
 
 向参数添加一个节点。目前仅支持文本级节点。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | node | [Inline](../../com.aspose.words/inline) |  |
 
-**退货:**
+**退货：**
 [FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)
 ### addText(String text) {#addText-java.lang.String-}
 ```
@@ -84,12 +86,13 @@ public FieldArgumentBuilder addText(String text)
 
 向参数添加纯文本。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | text | java.lang.String |  |
 
-**退货:**
+**退货：**
 [FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)
 ### buildBlock(DocumentBuilder documentBuilder) {#buildBlock-com.aspose.words.DocumentBuilder-}
 ```
@@ -99,7 +102,8 @@ public void buildBlock(DocumentBuilder documentBuilder)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | documentBuilder | [DocumentBuilder](../../com.aspose.words/documentbuilder) |  |
@@ -112,12 +116,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -127,7 +132,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
@@ -137,7 +142,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -163,8 +168,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -181,7 +186,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -194,7 +200,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

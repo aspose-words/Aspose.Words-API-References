@@ -7,10 +7,10 @@ weight: 70
 url: /zh/java/com.aspose.words/charttitle/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Cloneable
 ```
 public class ChartTitle implements Cloneable
@@ -59,12 +59,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
 ```
@@ -74,12 +75,13 @@ public Object fetchInheritedRunAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### getClass() {#getClass--}
 ```
@@ -89,7 +91,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
 ```
@@ -99,12 +101,13 @@ public Object getDirectRunAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### getOverlay() {#getOverlay--}
 ```
@@ -114,8 +117,8 @@ public boolean getOverlay()
 
 确定是否允许其他图表元素与标题重叠。默认情况下叠加是错误的。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getShow() {#getShow--}
 ```
 public boolean getShow()
@@ -124,8 +127,8 @@ public boolean getShow()
 
 确定是否应为此图表显示标题。默认值为真。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getText() {#getText--}
 ```
 public String getText()
@@ -134,7 +137,7 @@ public String getText()
 
 获取图表标题的文本。如果指定 null 或空值，将显示自动生成的标题。利用[getShow()](../../com.aspose.words/charttitle\#getShow--) / [setShow(boolean)](../../com.aspose.words/charttitle\#setShow-boolean-)如果您需要隐藏标题，请选择此选项。
 
-**退货:**
+**退货：**
 java.lang.String - 图表标题的文本。
 ### hashCode() {#hashCode--}
 ```
@@ -144,7 +147,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -170,7 +173,8 @@ public void removeRunAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
@@ -183,7 +187,8 @@ public void setOverlay(boolean value)
 
 确定是否允许其他图表元素与标题重叠。默认情况下叠加是错误的。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -196,7 +201,8 @@ public void setRunAttr(int key, Object value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
@@ -210,7 +216,8 @@ public void setShow(boolean value)
 
 确定是否应为此图表显示标题。默认值为真。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -223,7 +230,8 @@ public void setText(String value)
 
 设置图表标题的文本。如果指定 null 或空值，将显示自动生成的标题。利用[getShow()](../../com.aspose.words/charttitle\#getShow--) / [setShow(boolean)](../../com.aspose.words/charttitle\#setShow-boolean-)如果您需要隐藏标题，请选择此选项。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | 图表标题的文本。 |
@@ -236,8 +244,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -254,7 +262,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -267,7 +276,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

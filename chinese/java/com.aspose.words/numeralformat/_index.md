@@ -7,7 +7,7 @@ weight: 410
 url: /zh/java/com.aspose.words/numeralformat/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class NumeralFormat
@@ -18,7 +18,7 @@ public class NumeralFormat
 
 | 场地 | 描述 |
 | --- | --- |
-| [ARABIC_INDIC](#ARABIC-INDIC) | 阿拉伯语中使用的数字：\\u0660\\u0661\\u0662\\u0663\\u0664\\u0665\\u0666\\u0667\\u0668\\u0669。 |
+| [ARABIC_INDIC](#ARABIC-INDIC) | 阿拉伯语中使用的数字：\\u0660\\u0661\\u0662\\u0663\\u0664\\u0665\\u0666\\u0667\\u0668\\u0669. |
 | [CONTEXT](#CONTEXT) | 符号集由上下文决定（语言环境和 RTL 属性）。 |
 | [EASTERN_ARABIC_INDIC](#EASTERN-ARABIC-INDIC) | 波斯语和乌尔都语中使用的数字：\\u06f0\\u06f1\\u06f2\\u06f3\\u06f4\\u06f5\\u06f6\\u06f7\\u06f8\\u06f9。 |
 | [EUROPEAN](#EUROPEAN) | 欧洲数字：0123456789。 |
@@ -95,12 +95,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String numeralFormatName) {#fromName-java.lang.String-}
 ```
@@ -110,12 +111,13 @@ public static int fromName(String numeralFormatName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | numeralFormatName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -125,7 +127,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int numeralFormat) {#getName-int-}
 ```
@@ -135,13 +137,14 @@ public static String getName(int numeralFormat)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | numeralFormat | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -150,7 +153,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -160,7 +163,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -186,8 +189,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int numeralFormat) {#toString-int-}
 ```
 public static String toString(int numeralFormat)
@@ -196,13 +199,14 @@ public static String toString(int numeralFormat)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | numeralFormat | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -219,7 +223,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -232,7 +237,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

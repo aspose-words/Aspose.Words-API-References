@@ -7,7 +7,7 @@ weight: 256
 url: /zh/java/com.aspose.words/fieldtype/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class FieldType
@@ -45,7 +45,7 @@ public class FieldType
 | [FIELD_DOC_PROPERTY](#FIELD-DOC-PROPERTY) | 指定 DOCPROPERTY 字段。 |
 | [FIELD_DOC_VARIABLE](#FIELD-DOC-VARIABLE) | 指定 DOCVARIABLE 字段。 |
 | [FIELD_EDIT_TIME](#FIELD-EDIT-TIME) | 指定 EDITTIME 字段。 |
-| [FIELD_EMBED](#FIELD-EMBED) | 指定嵌入字段。 |
+| [FIELD_EMBED](#FIELD-EMBED) | 指定 EMBED 字段。 |
 | [FIELD_EQUATION](#FIELD-EQUATION) | 指定 EQ 字段。 |
 | [FIELD_FILE_NAME](#FIELD-FILE-NAME) | 指定文件名字段。 |
 | [FIELD_FILE_SIZE](#FIELD-FILE-SIZE) | 指定文件大小字段。 |
@@ -57,17 +57,17 @@ public class FieldType
 | [FIELD_FORM_TEXT_INPUT](#FIELD-FORM-TEXT-INPUT) | 指定 FORMTEXT 字段。 |
 | [FIELD_GLOSSARY](#FIELD-GLOSSARY) | 指定 GLOSSARY 字段。 |
 | [FIELD_GO_TO_BUTTON](#FIELD-GO-TO-BUTTON) | 指定 GOTOBUTTON 字段。 |
-| [FIELD_GREETING_LINE](#FIELD-GREETING-LINE) | 指定GREETINGLINE 字段。 |
+| [FIELD_GREETING_LINE](#FIELD-GREETING-LINE) | 指定 GREETINGLINE 字段。 |
 | [FIELD_HTML_ACTIVE_X](#FIELD-HTML-ACTIVE-X) | 指定表示 HTML 控件的字段。 |
 | [FIELD_HYPERLINK](#FIELD-HYPERLINK) | 指定 HYPERLINK 字段。 |
 | [FIELD_IF](#FIELD-IF) | 指定 IF 字段。 |
-| [FIELD_IMPORT](#FIELD-IMPORT) | 指定导入字段。 |
+| [FIELD_IMPORT](#FIELD-IMPORT) | 指定 IMPORT 字段。 |
 | [FIELD_INCLUDE](#FIELD-INCLUDE) | 指定 INCLUDE 字段。 |
 | [FIELD_INCLUDE_PICTURE](#FIELD-INCLUDE-PICTURE) | 指定 INCLUDEPICTURE 字段。 |
 | [FIELD_INCLUDE_TEXT](#FIELD-INCLUDE-TEXT) | 指定 INCLUDETEXT 字段。 |
 | [FIELD_INDEX](#FIELD-INDEX) | 指定索引字段。 |
 | [FIELD_INDEX_ENTRY](#FIELD-INDEX-ENTRY) | 指定 XE 字段。 |
-| [FIELD_INFO](#FIELD-INFO) | 指定 INFO 字段。 |
+| [FIELD_INFO](#FIELD-INFO) | 指定信息字段。 |
 | [FIELD_KEYWORD](#FIELD-KEYWORD) | 指定关键字字段。 |
 | [FIELD_LAST_SAVED_BY](#FIELD-LAST-SAVED-BY) | 指定 LASTSAVEDBY 字段。 |
 | [FIELD_LINK](#FIELD-LINK) | 指定 LINK 字段。 |
@@ -87,32 +87,32 @@ public class FieldType
 | [FIELD_OCX](#FIELD-OCX) | 指定 OCX 字段。 |
 | [FIELD_PAGE](#FIELD-PAGE) | 指定 PAGE 字段。 |
 | [FIELD_PAGE_REF](#FIELD-PAGE-REF) | 指定 PAGEREF 字段。 |
-| [FIELD_PRINT](#FIELD-PRINT) | 指定打印字段。 |
+| [FIELD_PRINT](#FIELD-PRINT) | 指定 PRINT 字段。 |
 | [FIELD_PRINT_DATE](#FIELD-PRINT-DATE) | 指定 PRINTDATE 字段。 |
 | [FIELD_PRIVATE](#FIELD-PRIVATE) | 指定 PRIVATE 字段。 |
-| [FIELD_QUOTE](#FIELD-QUOTE) | 指定 QUOTE 字段。 |
+| [FIELD_QUOTE](#FIELD-QUOTE) | 指定引用字段。 |
 | [FIELD_REF](#FIELD-REF) | 指定 REF 字段。 |
 | [FIELD_REF_DOC](#FIELD-REF-DOC) | 指定 RD 字段。 |
-| [FIELD_REF_NO_KEYWORD](#FIELD-REF-NO-KEYWORD) | 指定该字段表示已省略关键字的 REF 字段。 |
+| [FIELD_REF_NO_KEYWORD](#FIELD-REF-NO-KEYWORD) | 指定该字段表示省略了关键字的 REF 字段。 |
 | [FIELD_REVISION_NUM](#FIELD-REVISION-NUM) | 指定 REVNUM 字段。 |
 | [FIELD_SAVE_DATE](#FIELD-SAVE-DATE) | 指定 SAVEDATE 字段。 |
 | [FIELD_SECTION](#FIELD-SECTION) | 指定 SECTION 字段。 |
 | [FIELD_SECTION_PAGES](#FIELD-SECTION-PAGES) | 指定 SECTIONPAGES 字段。 |
 | [FIELD_SEQUENCE](#FIELD-SEQUENCE) | 指定 SEQ 字段。 |
 | [FIELD_SET](#FIELD-SET) | 指定 SET 字段。 |
-| [FIELD_SHAPE](#FIELD-SHAPE) | 指定形状字段。 |
+| [FIELD_SHAPE](#FIELD-SHAPE) | 指定 SHAPE 字段。 |
 | [FIELD_SKIP_IF](#FIELD-SKIP-IF) | 指定 SKIPIF 字段。 |
 | [FIELD_STYLE_REF](#FIELD-STYLE-REF) | 指定 STYLEREF 字段。 |
 | [FIELD_SUBJECT](#FIELD-SUBJECT) | 指定主题字段。 |
-| [FIELD_SYMBOL](#FIELD-SYMBOL) | 指定符号字段。 |
+| [FIELD_SYMBOL](#FIELD-SYMBOL) | 指定 SYMBOL 字段。 |
 | [FIELD_TEMPLATE](#FIELD-TEMPLATE) | 指定模板字段。 |
 | [FIELD_TIME](#FIELD-TIME) | 指定时间字段。 |
-| [FIELD_TITLE](#FIELD-TITLE) | 指定 TITLE 字段。 |
+| [FIELD_TITLE](#FIELD-TITLE) | 指定标题字段。 |
 | [FIELD_TOA](#FIELD-TOA) | 指定 TOA 字段。 |
 | [FIELD_TOA_ENTRY](#FIELD-TOA-ENTRY) | 指定 TA 字段。 |
 | [FIELD_TOC](#FIELD-TOC) | 指定目录字段。 |
 | [FIELD_TOC_ENTRY](#FIELD-TOC-ENTRY) | 指定 TC 字段。 |
-| [FIELD_USER_ADDRESS](#FIELD-USER-ADDRESS) | 指定用户地址字段。 |
+| [FIELD_USER_ADDRESS](#FIELD-USER-ADDRESS) | 指定 USERADDRESS 字段。 |
 | [FIELD_USER_INITIALS](#FIELD-USER-INITIALS) | 指定 USERINITIALS 字段。 |
 | [FIELD_USER_NAME](#FIELD-USER-NAME) | 指定用户名字段。 |
 | [length](#length) |  |
@@ -355,7 +355,7 @@ public static int FIELD_EMBED
 ```
 
 
-指定嵌入字段。
+指定 EMBED 字段。
 
 ### FIELD_EQUATION {#FIELD-EQUATION}
 ```
@@ -451,7 +451,7 @@ public static int FIELD_GREETING_LINE
 ```
 
 
-指定GREETINGLINE 字段。
+指定 GREETINGLINE 字段。
 
 ### FIELD_HTML_ACTIVE_X {#FIELD-HTML-ACTIVE-X}
 ```
@@ -483,7 +483,7 @@ public static int FIELD_IMPORT
 ```
 
 
-指定导入字段。
+指定 IMPORT 字段。
 
 ### FIELD_INCLUDE {#FIELD-INCLUDE}
 ```
@@ -531,7 +531,7 @@ public static int FIELD_INFO
 ```
 
 
-指定 INFO 字段。
+指定信息字段。
 
 ### FIELD_KEYWORD {#FIELD-KEYWORD}
 ```
@@ -669,7 +669,7 @@ public static int FIELD_OCX
 
 指定 OCX 字段。
 
-通常，Aspose.Words 将 ActiveX 控件表示为[Shape](../../com.aspose.words/shape)对象，但对于某些文档，控件没有数据和/或似乎无效，它将表示为字段。
+通常，Aspose.Words 将 ActiveX 控件表示为[Shape](../../com.aspose.words/shape)对象，但对于某些文档，控件没有数据和/或似乎无效，它将被表示为一个字段。
 
 ### FIELD_PAGE {#FIELD-PAGE}
 ```
@@ -693,7 +693,7 @@ public static int FIELD_PRINT
 ```
 
 
-指定打印字段。
+指定 PRINT 字段。
 
 ### FIELD_PRINT_DATE {#FIELD-PRINT-DATE}
 ```
@@ -717,7 +717,7 @@ public static int FIELD_QUOTE
 ```
 
 
-指定 QUOTE 字段。
+指定引用字段。
 
 ### FIELD_REF {#FIELD-REF}
 ```
@@ -741,7 +741,7 @@ public static int FIELD_REF_NO_KEYWORD
 ```
 
 
-指定该字段表示已省略关键字的 REF 字段。
+指定该字段表示省略了关键字的 REF 字段。
 
 ### FIELD_REVISION_NUM {#FIELD-REVISION-NUM}
 ```
@@ -797,7 +797,7 @@ public static int FIELD_SHAPE
 ```
 
 
-指定形状字段。
+指定 SHAPE 字段。
 
 ### FIELD_SKIP_IF {#FIELD-SKIP-IF}
 ```
@@ -829,7 +829,7 @@ public static int FIELD_SYMBOL
 ```
 
 
-指定符号字段。
+指定 SYMBOL 字段。
 
 ### FIELD_TEMPLATE {#FIELD-TEMPLATE}
 ```
@@ -853,7 +853,7 @@ public static int FIELD_TITLE
 ```
 
 
-指定 TITLE 字段。
+指定标题字段。
 
 ### FIELD_TOA {#FIELD-TOA}
 ```
@@ -893,7 +893,7 @@ public static int FIELD_USER_ADDRESS
 ```
 
 
-指定用户地址字段。
+指定 USERADDRESS 字段。
 
 ### FIELD_USER_INITIALS {#FIELD-USER-INITIALS}
 ```
@@ -925,12 +925,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String fieldTypeName) {#fromName-java.lang.String-}
 ```
@@ -940,12 +941,13 @@ public static int fromName(String fieldTypeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fieldTypeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -955,7 +957,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int fieldType) {#getName-int-}
 ```
@@ -965,13 +967,14 @@ public static String getName(int fieldType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fieldType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -980,7 +983,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -990,7 +993,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -1016,8 +1019,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int fieldType) {#toString-int-}
 ```
 public static String toString(int fieldType)
@@ -1026,13 +1029,14 @@ public static String toString(int fieldType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fieldType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -1049,7 +1053,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -1062,7 +1067,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

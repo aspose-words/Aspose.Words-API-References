@@ -7,7 +7,7 @@ weight: 114
 url: /zh/java/com.aspose.words/digitalsignatureutil/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class DigitalSignatureUtil
@@ -19,7 +19,7 @@ public class DigitalSignatureUtil
 
 由于数字签名适用于文件内容而不是文档对象模型，因此这些方法被放入一个单独的类中。
 
-支持的格式是[LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC)和[LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX).
+支持的格式有[LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC)和[LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX).
 ## 方法
 
 | 方法 | 描述 |
@@ -35,8 +35,8 @@ public class DigitalSignatureUtil
 | [removeAllSignatures(String srcFileName, String dstFileName)](#removeAllSignatures-java.lang.String-java.lang.String-) | 从源文件中删除所有数字签名并将未签名的文件写入目标文件。 |
 | [sign(InputStream srcStream, OutputStream dstStream, CertificateHolder certHolder)](#sign-java.io.InputStream-java.io.OutputStream-com.aspose.words.CertificateHolder-) |  |
 | [sign(InputStream srcStream, OutputStream dstStream, CertificateHolder certHolder, SignOptions signOptions)](#sign-java.io.InputStream-java.io.OutputStream-com.aspose.words.CertificateHolder-com.aspose.words.SignOptions-) |  |
-| [sign(String srcFileName, String dstFileName, CertificateHolder certHolder)](#sign-java.lang.String-java.lang.String-com.aspose.words.CertificateHolder-) | 使用给定的标志源文档[CertificateHolder](../../com.aspose.words/certificateholder)带有数字签名并将签名的文档写入目标文件。 |
-| [sign(String srcFileName, String dstFileName, CertificateHolder certHolder, SignOptions signOptions)](#sign-java.lang.String-java.lang.String-com.aspose.words.CertificateHolder-com.aspose.words.SignOptions-) | 使用给定的标志源文档[CertificateHolder](../../com.aspose.words/certificateholder)和[SignOptions](../../com.aspose.words/signoptions)带有数字签名并将签名的文档写入目标文件。 |
+| [sign(String srcFileName, String dstFileName, CertificateHolder certHolder)](#sign-java.lang.String-java.lang.String-com.aspose.words.CertificateHolder-) | 使用 given 签署源文档[CertificateHolder](../../com.aspose.words/certificateholder)带有数字签名并将签名的文档写入目标文件。 |
+| [sign(String srcFileName, String dstFileName, CertificateHolder certHolder, SignOptions signOptions)](#sign-java.lang.String-java.lang.String-com.aspose.words.CertificateHolder-com.aspose.words.SignOptions-) | 使用 given 签署源文档[CertificateHolder](../../com.aspose.words/certificateholder)和[SignOptions](../../com.aspose.words/signoptions)带有数字签名并将签名的文档写入目标文件。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -49,12 +49,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -64,7 +65,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
@@ -74,7 +75,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### loadSignatures(InputStream stream) {#loadSignatures-java.io.InputStream-}
 ```
@@ -84,12 +85,13 @@ public static DigitalSignatureCollection loadSignatures(InputStream stream)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
 
-**退货:**
+**退货：**
 [DigitalSignatureCollection](../../com.aspose.words/digitalsignaturecollection)
 ### loadSignatures(String fileName) {#loadSignatures-java.lang.String-}
 ```
@@ -99,12 +101,13 @@ public static DigitalSignatureCollection loadSignatures(String fileName)
 
 从文档加载数字签名。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | java.lang.String | 文档的路径。 |
 
-**退货:**
+**退货：**
 [DigitalSignatureCollection](../../com.aspose.words/digitalsignaturecollection) - 收集数字签名。如果文件未签名，则返回空集合。
 ### notify() {#notify--}
 ```
@@ -130,7 +133,8 @@ public static void removeAllSignatures(InputStream srcStream, OutputStream dstSt
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | srcStream | java.io.InputStream |  |
@@ -144,7 +148,8 @@ public static void removeAllSignatures(String srcFileName, String dstFileName)
 
 从源文件中删除所有数字签名并将未签名的文件写入目标文件。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | srcFileName | java.lang.String |  |
@@ -158,7 +163,8 @@ public static void sign(InputStream srcStream, OutputStream dstStream, Certifica
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | srcStream | java.io.InputStream |  |
@@ -173,7 +179,8 @@ public static void sign(InputStream srcStream, OutputStream dstStream, Certifica
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | srcStream | java.io.InputStream |  |
@@ -187,11 +194,12 @@ public static void sign(String srcFileName, String dstFileName, CertificateHolde
 ```
 
 
-使用给定的标志源文档[CertificateHolder](../../com.aspose.words/certificateholder)带有数字签名并将签名的文档写入目标文件。
+使用 given 签署源文档[CertificateHolder](../../com.aspose.words/certificateholder)带有数字签名并将签名的文档写入目标文件。
 
 文件应该是[LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC)或者[LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX).
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | srcFileName | java.lang.String | 要签名的文档的文件名。 |
@@ -204,11 +212,12 @@ public static void sign(String srcFileName, String dstFileName, CertificateHolde
 ```
 
 
-使用给定的标志源文档[CertificateHolder](../../com.aspose.words/certificateholder)和[SignOptions](../../com.aspose.words/signoptions)带有数字签名并将签名的文档写入目标文件。
+使用 given 签署源文档[CertificateHolder](../../com.aspose.words/certificateholder)和[SignOptions](../../com.aspose.words/signoptions)带有数字签名并将签名的文档写入目标文件。
 
 文件应该是[LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC)或者[LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX).
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | srcFileName | java.lang.String | 要签名的文档的文件名。 |
@@ -224,8 +233,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -242,7 +251,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -255,7 +265,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

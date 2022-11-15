@@ -24,11 +24,12 @@ public abstract String respond(String promptText, String defaultResponse)
 
 实现后，返回用户对提示的响应。您的实施应该返回**null**表示用户没有响应提示（即用户在提示窗口中按下了取消按钮）。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | promptText | java.lang.String | 提示文本（即提示窗口的标题）。 |
 | defaultResponse | java.lang.String | 默认用户响应（即提示窗口中包含的初始值）。 |
 
-**退货:**
+**退货：**
 java.lang.String - 用户响应（即提示窗口中包含的确认值）。

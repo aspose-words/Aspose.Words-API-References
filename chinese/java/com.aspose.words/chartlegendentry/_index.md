@@ -7,10 +7,10 @@ weight: 64
 url: /zh/java/com.aspose.words/chartlegendentry/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Cloneable
 ```
 public class ChartLegendEntry implements Cloneable
@@ -22,7 +22,7 @@ public class ChartLegendEntry implements Cloneable
 
 图例条目对应于特定的图表系列或趋势线。
 
-条目的文本是系列或趋势线的名称。无法更改文本。
+条目的文本是系列或趋势线的名称。文本无法更改。
 ## 方法
 
 | 方法 | 描述 |
@@ -34,7 +34,7 @@ public class ChartLegendEntry implements Cloneable
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
 | [getFont()](#getFont--) | 提供对此图例条目的字体格式的访问。 |
 | [hashCode()](#hashCode--) |  |
-| [isHidden()](#isHidden--) | 获取一个值，该值指示此条目是否隐藏在图表图例中。 |
+| [isHidden()](#isHidden--) | 获取一个值，该值指示此项是否隐藏在图表图例中。 |
 | [isHidden(boolean value)](#isHidden-boolean-) | 设置一个值，指示此条目是否隐藏在图表图例中。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -60,12 +60,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
 ```
@@ -75,12 +76,13 @@ public Object fetchInheritedRunAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### getClass() {#getClass--}
 ```
@@ -90,7 +92,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
 ```
@@ -100,12 +102,13 @@ public Object getDirectRunAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### getFont() {#getFont--}
 ```
@@ -115,7 +118,7 @@ public Font getFont()
 
 提供对此图例条目的字体格式的访问。
 
-**退货:**
+**退货：**
 [Font](../../com.aspose.words/font) - 相应的[Font](../../com.aspose.words/font)价值。
 ### hashCode() {#hashCode--}
 ```
@@ -125,7 +128,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### isHidden() {#isHidden--}
 ```
@@ -133,19 +136,20 @@ public boolean isHidden()
 ```
 
 
-获取一个值，该值指示此条目是否隐藏在图表图例中。默认值为**false**.当图表图例条目被隐藏时，它不会影响仍显示在图表上的相应图表系列或趋势线。
+获取一个值，该值指示此项是否隐藏在图表图例中。默认值为**false**.当图表图例条目被隐藏时，它不会影响仍然显示在图表上的相应图表系列或趋势线。
 
-**退货:**
-boolean - 指示此条目是否隐藏在图表图例中的值。
+**退货：**
+布尔值 - 指示此条目是否隐藏在图表图例中的值。
 ### isHidden(boolean value) {#isHidden-boolean-}
 ```
 public void isHidden(boolean value)
 ```
 
 
-设置一个值，指示此条目是否隐藏在图表图例中。默认值为**false**.当图表图例条目被隐藏时，它不会影响仍显示在图表上的相应图表系列或趋势线。
+设置一个值，指示此条目是否隐藏在图表图例中。默认值为**false**.当图表图例条目被隐藏时，它不会影响仍然显示在图表上的相应图表系列或趋势线。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 指示此条目是否隐藏在图表图例中的值。 |
@@ -174,7 +178,8 @@ public void removeRunAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
@@ -187,7 +192,8 @@ public void setRunAttr(int key, Object value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
@@ -201,8 +207,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -219,7 +225,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -232,7 +239,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

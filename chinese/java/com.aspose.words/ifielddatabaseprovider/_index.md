@@ -24,13 +24,14 @@ public abstract FieldDatabaseDataTable getQueryResult(String fileName, String co
 
 返回查询结果。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | java.lang.String | 中指定的数据库的完整路径和文件名\\d 字段切换。 |
-| connection | java.lang.String | 与指定数据的连接\\c 字段切换。 |
-| query | java.lang.String | 查询数据库中指定的 SQL 指令集\\s 字段切换。 |
+| fileName | java.lang.String | 中指定的数据库的完整路径和文件名\\d 字段开关。 |
+| connection | java.lang.String | 与指定的数据的连接\\c 字段开关。 |
+| query | java.lang.String | 查询指定数据库的 SQL 指令集\\s 字段开关。 |
 | field | [FieldDatabase](../../com.aspose.words/fielddatabase) | 正在更新的字段。 |
 
-**退货:**
-[FieldDatabaseDataTable](../../com.aspose.words/fielddatabasedatatable) - 这[FieldDatabaseDataTable](../../com.aspose.words/fielddatabasedatatable)应该用于字段更新的实例。
+**退货：**
+[FieldDatabaseDataTable](../../com.aspose.words/fielddatabasedatatable) - 这[FieldDatabaseDataTable](../../com.aspose.words/fielddatabasedatatable)应用于字段更新的实例。

@@ -7,7 +7,7 @@ weight: 36
 url: /zh/java/com.aspose.words.net.system.data/rule/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object, java.lang.Enum
 ```
 public enum Rule extends Enum<System.Data.Rule>
@@ -48,7 +48,7 @@ public static final System.Data.Rule CASCADE
 ```
 
 
-删除或更新相关行。这是默认设置。
+删除或更新相关行。这是默认值。
 
 ### NONE {#NONE}
 ```
@@ -82,13 +82,14 @@ public static T <T>valueOf(Class<T> arg0, String arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Class<T> |  |
 | arg1 | java.lang.String |  |
 
-**退货:**
+**退货：**
 吨
 ### compareTo(E arg0) {#compareTo-E-}
 ```
@@ -98,12 +99,13 @@ public final int compareTo(E arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | E |  |
 
-**退货:**
+**退货：**
 整数
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -113,12 +115,13 @@ public final boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -128,7 +131,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getDeclaringClass() {#getDeclaringClass--}
 ```
@@ -138,7 +141,7 @@ public final Class<E> getDeclaringClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.类<E>
 ### hashCode() {#hashCode--}
 ```
@@ -148,7 +151,7 @@ public final int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### name() {#name--}
 ```
@@ -158,8 +161,8 @@ public final String name()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -184,7 +187,7 @@ public final int ordinal()
 
 
 
-**退货:**
+**退货：**
 整数
 ### toString() {#toString--}
 ```
@@ -194,8 +197,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### valueOf(String name) {#valueOf-java.lang.String-}
 ```
 public static System.Data.Rule valueOf(String name)
@@ -204,12 +207,13 @@ public static System.Data.Rule valueOf(String name)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | java.lang.String |  |
 
-**退货:**
+**退货：**
 [Rule](../../com.aspose.words.net.system.data/rule)
 ### values() {#values--}
 ```
@@ -219,7 +223,7 @@ public static System.Data.Rule[] values()
 
 
 
-**退货:**
+**退货：**
 com.aspose.words.net.System.Data.Rule[]
 ### wait() {#wait--}
 ```
@@ -237,7 +241,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -250,7 +255,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

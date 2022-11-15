@@ -7,7 +7,7 @@ weight: 38
 url: /zh/java/com.aspose.words/bordertype/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class BorderType
@@ -23,7 +23,7 @@ public class BorderType
 | [BOTTOM](#BOTTOM) | 指定段落或表格单元格的底部边框。 |
 | [DIAGONAL_DOWN](#DIAGONAL-DOWN) | 指定表格单元格中的对角线边框。 |
 | [DIAGONAL_UP](#DIAGONAL-UP) | 指定表格单元格中的对角线边框。 |
-| [HORIZONTAL](#HORIZONTAL) | 指定表格中单元格之间或符合段落之间的水平边界。 |
+| [HORIZONTAL](#HORIZONTAL) | 指定表格中单元格之间或一致段落之间的水平边框。 |
 | [LEFT](#LEFT) | 指定段落或表格单元格的左边框。 |
 | [NONE](#NONE) | 默认值。 |
 | [RIGHT](#RIGHT) | 指定段落或表格单元格的右边框。 |
@@ -77,7 +77,7 @@ public static int HORIZONTAL
 ```
 
 
-指定表格中单元格之间或符合段落之间的水平边界。
+指定表格中单元格之间或一致段落之间的水平边框。
 
 ### LEFT {#LEFT}
 ```
@@ -133,12 +133,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String borderTypeName) {#fromName-java.lang.String-}
 ```
@@ -148,12 +149,13 @@ public static int fromName(String borderTypeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | borderTypeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -163,7 +165,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int borderType) {#getName-int-}
 ```
@@ -173,13 +175,14 @@ public static String getName(int borderType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | borderType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -188,7 +191,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -198,7 +201,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -224,8 +227,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int borderType) {#toString-int-}
 ```
 public static String toString(int borderType)
@@ -234,13 +237,14 @@ public static String toString(int borderType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | borderType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -257,7 +261,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -270,7 +275,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

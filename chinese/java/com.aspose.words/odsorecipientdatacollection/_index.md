@@ -7,10 +7,10 @@ weight: 417
 url: /zh/java/com.aspose.words/odsorecipientdatacollection/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Iterable
 ```
 public class OdsoRecipientDataCollection implements Iterable
@@ -47,12 +47,13 @@ public int add(OdsoRecipientData value)
 
 将对象添加到此集合的末尾。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | [OdsoRecipientData](../../com.aspose.words/odsorecipientdata) | 要添加的对象。不能为空。 |
 
-**退货:**
+**退货：**
 整数
 ### clear() {#clear--}
 ```
@@ -70,12 +71,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### get(int index) {#get-int-}
 ```
@@ -85,12 +87,13 @@ public OdsoRecipientData get(int index)
 
 获取此集合中的一项。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int |  |
 
-**退货:**
+**退货：**
 [OdsoRecipientData](../../com.aspose.words/odsorecipientdata) - 此系列中的一个项目。
 ### getClass() {#getClass--}
 ```
@@ -100,7 +103,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
@@ -110,7 +113,7 @@ public int getCount()
 
 获取集合中包含的元素数。
 
-**退货:**
+**退货：**
 int - 集合中包含的元素数。
 ### hashCode() {#hashCode--}
 ```
@@ -120,7 +123,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### iterator() {#iterator--}
 ```
@@ -130,8 +133,8 @@ public Iterator iterator()
 
 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。
 
-**退货:**
-java.util.Iterator
+**退货：**
+java.util.迭代器
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -156,7 +159,8 @@ public void removeAt(int index)
 
 删除指定索引处的元素。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int | 元素的从零开始的索引。 |
@@ -169,7 +173,8 @@ public void set(int index, OdsoRecipientData value)
 
 在此集合中设置一个项目。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int |  |
@@ -183,8 +188,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -201,7 +206,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -214,7 +220,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

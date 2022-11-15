@@ -15,11 +15,11 @@ public interface IMailMergeCallback
 
 | 方法 | 描述 |
 | --- | --- |
-| [tagsReplaced()](#tagsReplaced--) | 当“mustache”文本标签被 MERGEFIELD 字段替换时调用。 |
+| [tagsReplaced()](#tagsReplaced--) | 当“小胡子”文本标签被 MERGEFIELD 字段替换时调用。 |
 ### tagsReplaced() {#tagsReplaced--}
 ```
 public abstract void tagsReplaced()
 ```
 
 
-当“mustache”文本标签被 MERGEFIELD 字段替换时调用。
+当“小胡子”文本标签被 MERGEFIELD 字段替换时调用。

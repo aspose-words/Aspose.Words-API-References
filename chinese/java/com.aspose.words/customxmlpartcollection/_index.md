@@ -7,10 +7,10 @@ weight: 105
 url: /zh/java/com.aspose.words/customxmlpartcollection/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Iterable
 ```
 public class CustomXmlPartCollection implements Iterable
@@ -39,7 +39,7 @@ public class CustomXmlPartCollection implements Iterable
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | 删除指定索引处的项目。 |
-| [set(int index, CustomXmlPart value)](#set-int-com.aspose.words.CustomXmlPart-) | 在指定索引处设置项目。 |
+| [set(int index, CustomXmlPart value)](#set-int-com.aspose.words.CustomXmlPart-) | 在指定的索引处设置一个项目。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -52,7 +52,8 @@ public void add(CustomXmlPart part)
 
 将项目添加到集合中。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | part | [CustomXmlPart](../../com.aspose.words/customxmlpart) | 要添加的自定义 XML 部分。 |
@@ -65,13 +66,14 @@ public CustomXmlPart add(String id, String xml)
 
 使用指定的 XML 创建一个新的 XML 部件并将其添加到集合中。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | id | java.lang.String | 新的自定义 XML 部件的标识符。 |
 | xml | java.lang.String | 零件的 XML 数据。 |
 
-**退货:**
+**退货：**
 [CustomXmlPart](../../com.aspose.words/customxmlpart) - 创建自定义 XML 部分。
 ### clear() {#clear--}
 ```
@@ -89,7 +91,7 @@ public CustomXmlPartCollection deepClone()
 
 制作此集合及其项目的深层副本。
 
-**退货:**
+**退货：**
 [CustomXmlPartCollection](../../com.aspose.words/customxmlpartcollection)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -99,12 +101,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### get(int index) {#get-int-}
 ```
@@ -114,12 +117,13 @@ public CustomXmlPart get(int index)
 
 获取指定索引处的项目。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int | 项目的从零开始的索引。 |
 
-**退货:**
+**退货：**
 [CustomXmlPart](../../com.aspose.words/customxmlpart) - 指定索引处的项目。
 ### getById(String id) {#getById-java.lang.String-}
 ```
@@ -129,12 +133,13 @@ public CustomXmlPart getById(String id)
 
 按标识符查找并返回自定义 XML 部件。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | id | java.lang.String | 标识自定义 XML 部分的区分大小写的字符串。 |
 
-**退货:**
+**退货：**
 [CustomXmlPart](../../com.aspose.words/customxmlpart) - 如果未找到具有指定标识符的自定义 XML 部分，则返回 null。
 ### getClass() {#getClass--}
 ```
@@ -144,7 +149,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
@@ -154,7 +159,7 @@ public int getCount()
 
 获取集合中包含的元素数。
 
-**退货:**
+**退货：**
 int - 集合中包含的元素数。
 ### hashCode() {#hashCode--}
 ```
@@ -164,7 +169,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### iterator() {#iterator--}
 ```
@@ -174,8 +179,8 @@ public Iterator iterator()
 
 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。
 
-**退货:**
-java.util.Iterator
+**退货：**
+java.util.迭代器
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -200,7 +205,8 @@ public void removeAt(int index)
 
 删除指定索引处的项目。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int | 从零开始的索引。 |
@@ -211,9 +217,10 @@ public void set(int index, CustomXmlPart value)
 ```
 
 
-在指定索引处设置项目。
+在指定的索引处设置一个项目。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int | 项目的从零开始的索引。 |
@@ -227,8 +234,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -245,7 +252,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -258,7 +266,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

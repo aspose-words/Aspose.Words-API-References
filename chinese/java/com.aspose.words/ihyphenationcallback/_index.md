@@ -28,7 +28,8 @@ public abstract void requestDictionary(String language)
 
 如果字典对于指定的语言实现不可用，可以使用[Hyphenation.registerDictionary(java.lang.String, java.lang.String)](../../com.aspose.words/hyphenation\#registerDictionary-java.lang.String--java.lang.String-)具有空值。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | language | java.lang.String | 语言名称，例如“en-US”。有关详细信息，请参阅“区域性名称”的 .NET 文档和 RFC 4646。此方法抛出的异常将中止页面布局过程的执行。 |

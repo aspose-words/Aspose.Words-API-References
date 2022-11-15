@@ -7,10 +7,10 @@ weight: 334
 url: /zh/java/com.aspose.words/hyphenationoptions/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Cloneable
 ```
 public class HyphenationOptions implements Cloneable
@@ -27,8 +27,8 @@ public class HyphenationOptions implements Cloneable
 | [getAutoHyphenation()](#getAutoHyphenation--) | 获取确定是否为文档打开自动断字的值。 |
 | [getClass()](#getClass--) |  |
 | [getConsecutiveHyphenLimit()](#getConsecutiveHyphenLimit--) | 获取可以以连字符结尾的最大连续行数。 |
-| [getHyphenateCaps()](#getHyphenateCaps--) | 获取确定以所有大写字母书写的单词是否被连字符的值。 |
-| [getHyphenationZone()](#getHyphenationZone--) | 获取距离右边距 1/20 个点的距离，您不想在该距离内对单词进行断字。 |
+| [getHyphenateCaps()](#getHyphenateCaps--) | 获取确定以大写字母书写的单词是否带有连字符的值。 |
+| [getHyphenationZone()](#getHyphenationZone--) | 获取距您不想连字的单词的右边距的 1/20 点的距离。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -48,12 +48,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getAutoHyphenation() {#getAutoHyphenation--}
 ```
@@ -63,8 +64,8 @@ public boolean getAutoHyphenation()
 
 获取确定是否为文档打开自动断字的值。此属性的默认值为**false**.
 
-**退货:**
-布尔值 - 确定是否为文档打开自动断字的值。
+**退货：**
+boolean - 确定是否为文档打开自动断字的值。
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -73,7 +74,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getConsecutiveHyphenLimit() {#getConsecutiveHyphenLimit--}
 ```
@@ -87,7 +88,7 @@ public int getConsecutiveHyphenLimit()
 
 保存为固定页面格式（例如 PDF）时，该属性无效。
 
-**退货:**
+**退货：**
 int - 可以以连字符结尾的最大连续行数。
 ### getHyphenateCaps() {#getHyphenateCaps--}
 ```
@@ -97,7 +98,7 @@ public boolean getHyphenateCaps()
 
 获取确定以大写字母书写的单词是否带有连字符的值。此属性的默认值为**true**.
 
-**退货:**
+**退货：**
 boolean - 确定以大写字母书写的单词是否带有连字符的值。
 ### getHyphenationZone() {#getHyphenationZone--}
 ```
@@ -107,7 +108,7 @@ public int getHyphenationZone()
 
 获取距您不想连字的单词的右边距的 1/20 点的距离。此属性的默认值为 360（0.25 英寸）。
 
-**退货:**
+**退货：**
 int - 距右边距的 1/20 点的距离，在该距离内您不想连字。
 ### hashCode() {#hashCode--}
 ```
@@ -117,7 +118,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -143,7 +144,8 @@ public void setAutoHyphenation(boolean value)
 
 设置确定是否为文档打开自动断字的值。此属性的默认值为**false**.
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 确定是否为文档打开自动断字的值。 |
@@ -160,7 +162,8 @@ public void setConsecutiveHyphenLimit(int value)
 
 保存为固定页面格式（例如 PDF）时，该属性无效。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 可以以连字符结尾的最大连续行数。 |
@@ -171,12 +174,13 @@ public void setHyphenateCaps(boolean value)
 ```
 
 
-设置确定所有大写字母的单词是否连字符。此属性的默认值为**true**.
+设置值以确定是否用所有大写字母书写的单词都用连字符连接。此属性的默认值为**true**.
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 确定以大写字母书写的单词是否带有连字符的值。 |
+| value | boolean | 确定以所有大写字母书写的单词是否用连字符连接的值。 |
 
 ### setHyphenationZone(int value) {#setHyphenationZone-int-}
 ```
@@ -184,12 +188,13 @@ public void setHyphenationZone(int value)
 ```
 
 
-以 1/20 为单位设置距您不想连字的单词的右边距的距离。此属性的默认值为 360（0.25 英寸）。
+设置距右边距一个点的 1/20 的距离，您不想在该距离内对单词进行断字。此属性的默认值为 360（0.25 英寸）。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 距离右边距 1/20 点的距离，在该距离内您不想连字。 |
+| value | int | 距右边距 1/20 点的距离，您不想在该距离内对单词进行断字。 |
 
 ### toString() {#toString--}
 ```
@@ -199,8 +204,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -217,7 +222,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -230,7 +236,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

@@ -24,7 +24,8 @@ public abstract void imageSaving(ImageSavingArgs args)
 
 当 Aspose.Words 将图像保存为 HTML 时调用。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | args | [ImageSavingArgs](../../com.aspose.words/imagesavingargs) |  |

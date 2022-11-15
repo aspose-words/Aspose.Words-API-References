@@ -7,7 +7,7 @@ weight: 468
 url: /zh/java/com.aspose.words/presettexture/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class PresetTexture
@@ -18,12 +18,12 @@ public class PresetTexture
 
 | 场地 | 描述 |
 | --- | --- |
-| [BLUE_TISSUE_PAPER](#BLUE-TISSUE-PAPER) | 蓝色薄纸纹理。 |
-| [BOUQUET](#BOUQUET) | 花束质地。 |
-| [BROWN_MARBLE](#BROWN-MARBLE) | 棕色大理石质地。 |
+| [BLUE_TISSUE_PAPER](#BLUE-TISSUE-PAPER) | 蓝色薄纸质地。 |
+| [BOUQUET](#BOUQUET) | 花束纹理。 |
+| [BROWN_MARBLE](#BROWN-MARBLE) | 棕色大理石纹理。 |
 | [CANVAS](#CANVAS) | 画布纹理。 |
-| [CORK](#CORK) | 软木质地。 |
-| [DENIM](#DENIM) | 牛仔布质地。 |
+| [CORK](#CORK) | 软木纹理。 |
+| [DENIM](#DENIM) | 牛仔质地。 |
 | [FISH_FOSSIL](#FISH-FOSSIL) | 鱼化石质地。 |
 | [GRANITE](#GRANITE) | 花岗岩质地。 |
 | [GREEN_MARBLE](#GREEN-MARBLE) | 绿色大理石纹理。 |
@@ -32,17 +32,17 @@ public class PresetTexture
 | [NONE](#NONE) | 没有纹理。 |
 | [OAK](#OAK) | 橡木纹理。 |
 | [PAPER_BAG](#PAPER-BAG) | 纸袋质地。 |
-| [PAPYRUS](#PAPYRUS) | 纸莎草纸纹理。 |
+| [PAPYRUS](#PAPYRUS) | 纸莎草纸质地。 |
 | [PARCHMENT](#PARCHMENT) | 羊皮纸质地。 |
-| [PINK_TISSUE_PAPER](#PINK-TISSUE-PAPER) | 粉红色的薄纸质地。 |
+| [PINK_TISSUE_PAPER](#PINK-TISSUE-PAPER) | 粉色薄纸质地。 |
 | [PURPLE_MESH](#PURPLE-MESH) | 紫色网状纹理。 |
 | [RECYCLED_PAPER](#RECYCLED-PAPER) | 再生纸质地。 |
-| [SAND](#SAND) | 砂质感。 |
-| [STATIONERY](#STATIONERY) | 文具纹理。 |
+| [SAND](#SAND) | 砂质地。 |
+| [STATIONERY](#STATIONERY) | 文具质地。 |
 | [WALNUT](#WALNUT) | 核桃质地。 |
 | [WATER_DROPLETS](#WATER-DROPLETS) | 水滴纹理。 |
 | [WHITE_MARBLE](#WHITE-MARBLE) | 白色大理石纹理。 |
-| [WOVEN_MAT](#WOVEN-MAT) | 编织垫质地。 |
+| [WOVEN_MAT](#WOVEN-MAT) | 编织垫纹理。 |
 | [length](#length) |  |
 ## 方法
 
@@ -67,7 +67,7 @@ public static int BLUE_TISSUE_PAPER
 ```
 
 
-蓝色薄纸纹理。
+蓝色薄纸质地。
 
 ### BOUQUET {#BOUQUET}
 ```
@@ -75,7 +75,7 @@ public static int BOUQUET
 ```
 
 
-花束质地。
+花束纹理。
 
 ### BROWN_MARBLE {#BROWN-MARBLE}
 ```
@@ -83,7 +83,7 @@ public static int BROWN_MARBLE
 ```
 
 
-棕色大理石质地。
+棕色大理石纹理。
 
 ### CANVAS {#CANVAS}
 ```
@@ -99,7 +99,7 @@ public static int CORK
 ```
 
 
-软木质地。
+软木纹理。
 
 ### DENIM {#DENIM}
 ```
@@ -107,7 +107,7 @@ public static int DENIM
 ```
 
 
-牛仔布质地。
+牛仔质地。
 
 ### FISH_FOSSIL {#FISH-FOSSIL}
 ```
@@ -179,7 +179,7 @@ public static int PAPYRUS
 ```
 
 
-纸莎草纸纹理。
+纸莎草纸质地。
 
 ### PARCHMENT {#PARCHMENT}
 ```
@@ -195,7 +195,7 @@ public static int PINK_TISSUE_PAPER
 ```
 
 
-粉红色的薄纸质地。
+粉色薄纸质地。
 
 ### PURPLE_MESH {#PURPLE-MESH}
 ```
@@ -219,7 +219,7 @@ public static int SAND
 ```
 
 
-砂质感。
+砂质地。
 
 ### STATIONERY {#STATIONERY}
 ```
@@ -227,7 +227,7 @@ public static int STATIONERY
 ```
 
 
-文具纹理。
+文具质地。
 
 ### WALNUT {#WALNUT}
 ```
@@ -259,7 +259,7 @@ public static int WOVEN_MAT
 ```
 
 
-编织垫质地。
+编织垫纹理。
 
 ### length {#length}
 ```
@@ -275,12 +275,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String presetTextureName) {#fromName-java.lang.String-}
 ```
@@ -290,12 +291,13 @@ public static int fromName(String presetTextureName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | presetTextureName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -305,7 +307,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int presetTexture) {#getName-int-}
 ```
@@ -315,13 +317,14 @@ public static String getName(int presetTexture)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | presetTexture | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -330,7 +333,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -340,7 +343,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -366,8 +369,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int presetTexture) {#toString-int-}
 ```
 public static String toString(int presetTexture)
@@ -376,13 +379,14 @@ public static String toString(int presetTexture)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | presetTexture | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -399,7 +403,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -412,7 +417,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

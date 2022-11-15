@@ -7,7 +7,7 @@ weight: 628
 url: /zh/java/com.aspose.words/xmldatasource/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class XmlDataSource
@@ -21,9 +21,9 @@ public class XmlDataSource
 
 在模板文档中，如果顶级 XML 元素仅包含相同类型的元素列表，则[XmlDataSource](../../com.aspose.words/xmldatasource)实例的处理方式应与它是[DataTable](../../com.aspose.words.net.system.data/datatable)实例。否则，一个[XmlDataSource](../../com.aspose.words/xmldatasource)实例的处理方式应与它是[DataRow](../../com.aspose.words.net.system.data/datarow)实例。有关详细信息，请参阅模板语法参考 (https://docs.aspose.com/display/wordsjava/Template+Syntax)。
 
-当 XML Schema Definition 被传递给该类的构造函数时，简单 XML 元素和属性的值的数据类型是根据该模式确定的。因此，在模板文档中，您可以使用类型化的值而不仅仅是字符串。
+当 XML 架构定义传递给此类的构造函数时，简单 XML 元素和属性的值的数据类型将根据架构确定。因此在模板文档中，您可以使用类型化的值而不仅仅是字符串。
 
-当 XML Schema Definition 不传递给此类的构造函数时，简单 XML 元素和属性的值的数据类型将根据其字符串表示形式自动确定。因此，在模板文档中，您也可以在这种情况下使用键入的值。该引擎能够自动识别以下类型的值：
+当 XML 架构定义未传递给此类的构造函数时，简单 XML 元素和属性的值的数据类型将根据它们的字符串表示形式自动确定。因此，在模板文档中，您也可以在这种情况下使用类型化值。引擎能够自动识别以下类型的值：
 
  *  
  *  
@@ -31,20 +31,20 @@ public class XmlDataSource
  *  
  *  
 
-请注意，为了使数据类型的自动识别起作用，简单 XML 元素和属性值的字符串表示应该使用不变的文化设置形成。
+请注意，要使数据类型自动识别起作用，简单 XML 元素和属性的值的字符串表示形式应该使用不变的区域性设置来形成。
 
-要覆盖 XML 数据加载的默认行为，请初始化并传递[XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions)实例到此类的构造函数。
-## 构造函数
+要覆盖 XML 数据加载的默认行为，初始化并传递一个[XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions)实例到此类的构造函数。
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [XmlDataSource(String xmlPath)](#XmlDataSource-java.lang.String-) | 使用 XML 数据加载的默认选项使用 XML 文件中的数据创建新数据源。 |
+| [XmlDataSource(String xmlPath)](#XmlDataSource-java.lang.String-) | 使用 XML 数据加载的默认选项，使用来自 XML 文件的数据创建新数据源。 |
 | [XmlDataSource(InputStream xmlStream)](#XmlDataSource-java.io.InputStream-) | 初始化此类的新实例。 |
-| [XmlDataSource(String xmlPath, String xmlSchemaPath)](#XmlDataSource-java.lang.String-java.lang.String-) | 使用 XML 架构定义文件使用 XML 文件中的数据创建新数据源。 |
+| [XmlDataSource(String xmlPath, String xmlSchemaPath)](#XmlDataSource-java.lang.String-java.lang.String-) | 使用 XML 架构定义文件使用来自 XML 文件的数据创建新数据源。 |
 | [XmlDataSource(InputStream xmlStream, InputStream xmlSchemaStream)](#XmlDataSource-java.io.InputStream-java.io.InputStream-) | 初始化此类的新实例。 |
-| [XmlDataSource(String xmlPath, XmlDataLoadOptions options)](#XmlDataSource-java.lang.String-com.aspose.words.XmlDataLoadOptions-) | 使用 XML 数据加载的指定选项，使用来自 XML 文件的数据创建新数据源。 |
+| [XmlDataSource(String xmlPath, XmlDataLoadOptions options)](#XmlDataSource-java.lang.String-com.aspose.words.XmlDataLoadOptions-) | 使用指定的 XML 数据加载选项，使用来自 XML 文件的数据创建新数据源。 |
 | [XmlDataSource(InputStream xmlStream, XmlDataLoadOptions options)](#XmlDataSource-java.io.InputStream-com.aspose.words.XmlDataLoadOptions-) | 初始化此类的新实例。 |
-| [XmlDataSource(String xmlPath, String xmlSchemaPath, XmlDataLoadOptions options)](#XmlDataSource-java.lang.String-java.lang.String-com.aspose.words.XmlDataLoadOptions-) | 使用 XML 架构定义文件使用 XML 文件中的数据创建新数据源。 |
+| [XmlDataSource(String xmlPath, String xmlSchemaPath, XmlDataLoadOptions options)](#XmlDataSource-java.lang.String-java.lang.String-com.aspose.words.XmlDataLoadOptions-) | 使用 XML 架构定义文件使用来自 XML 文件的数据创建新数据源。 |
 | [XmlDataSource(InputStream xmlStream, InputStream xmlSchemaStream, XmlDataLoadOptions options)](#XmlDataSource-java.io.InputStream-java.io.InputStream-com.aspose.words.XmlDataLoadOptions-) | 初始化此类的新实例。 |
 ## 方法
 
@@ -65,12 +65,13 @@ public XmlDataSource(String xmlPath)
 ```
 
 
-使用 XML 数据加载的默认选项使用 XML 文件中的数据创建新数据源。
+使用 XML 数据加载的默认选项，使用来自 XML 文件的数据创建新数据源。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| xmlPath | java.lang.String | 要用作数据源的 XML 文件的路径。 |
+| xmlPath | java.lang.String | 用作数据源的 XML 文件的路径。 |
 
 ### XmlDataSource(InputStream xmlStream) {#XmlDataSource-java.io.InputStream-}
 ```
@@ -80,7 +81,8 @@ public XmlDataSource(InputStream xmlStream)
 
 初始化此类的新实例。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | xmlStream | java.io.InputStream |  |
@@ -91,12 +93,13 @@ public XmlDataSource(String xmlPath, String xmlSchemaPath)
 ```
 
 
-使用 XML 架构定义文件使用 XML 文件中的数据创建新数据源。默认选项用于 XML 数据加载。
+使用 XML 架构定义文件使用来自 XML 文件的数据创建新数据源。默认选项用于 XML 数据加载。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| xmlPath | java.lang.String | 要用作数据源的 XML 文件的路径。 |
+| xmlPath | java.lang.String | 用作数据源的 XML 文件的路径。 |
 | xmlSchemaPath | java.lang.String | 为 XML 文件提供架构的 XML 架构定义文件的路径。 |
 
 ### XmlDataSource(InputStream xmlStream, InputStream xmlSchemaStream) {#XmlDataSource-java.io.InputStream-java.io.InputStream-}
@@ -107,7 +110,8 @@ public XmlDataSource(InputStream xmlStream, InputStream xmlSchemaStream)
 
 初始化此类的新实例。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | xmlStream | java.io.InputStream |  |
@@ -119,13 +123,14 @@ public XmlDataSource(String xmlPath, XmlDataLoadOptions options)
 ```
 
 
-使用 XML 数据加载的指定选项，使用来自 XML 文件的数据创建新数据源。
+使用指定的 XML 数据加载选项，使用来自 XML 文件的数据创建新数据源。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| xmlPath | java.lang.String | 要用作数据源的 XML 文件的路径。 |
-| options | [XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions) | XML 数据加载的选项。 |
+| xmlPath | java.lang.String | 用作数据源的 XML 文件的路径。 |
+| options | [XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions) | XML 数据加载选项。 |
 
 ### XmlDataSource(InputStream xmlStream, XmlDataLoadOptions options) {#XmlDataSource-java.io.InputStream-com.aspose.words.XmlDataLoadOptions-}
 ```
@@ -135,7 +140,8 @@ public XmlDataSource(InputStream xmlStream, XmlDataLoadOptions options)
 
 初始化此类的新实例。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | xmlStream | java.io.InputStream |  |
@@ -147,14 +153,15 @@ public XmlDataSource(String xmlPath, String xmlSchemaPath, XmlDataLoadOptions op
 ```
 
 
-使用 XML 架构定义文件使用 XML 文件中的数据创建新数据源。指定的选项用于 XML 数据加载。
+使用 XML 架构定义文件使用来自 XML 文件的数据创建新数据源。指定的选项用于 XML 数据加载。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| xmlPath | java.lang.String | 要用作数据源的 XML 文件的路径。 |
+| xmlPath | java.lang.String | 用作数据源的 XML 文件的路径。 |
 | xmlSchemaPath | java.lang.String | 为 XML 文件提供架构的 XML 架构定义文件的路径。 |
-| options | [XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions) | XML 数据加载的选项。 |
+| options | [XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions) | XML 数据加载选项。 |
 
 ### XmlDataSource(InputStream xmlStream, InputStream xmlSchemaStream, XmlDataLoadOptions options) {#XmlDataSource-java.io.InputStream-java.io.InputStream-com.aspose.words.XmlDataLoadOptions-}
 ```
@@ -164,7 +171,8 @@ public XmlDataSource(InputStream xmlStream, InputStream xmlSchemaStream, XmlData
 
 初始化此类的新实例。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | xmlStream | java.io.InputStream |  |
@@ -179,12 +187,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -194,7 +203,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
@@ -204,7 +213,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -230,8 +239,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -248,7 +257,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -261,7 +271,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

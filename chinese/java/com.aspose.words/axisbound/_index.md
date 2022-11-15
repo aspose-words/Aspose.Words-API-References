@@ -7,7 +7,7 @@ weight: 16
 url: /zh/java/com.aspose.words/axisbound/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class AxisBound
@@ -20,13 +20,13 @@ public class AxisBound
 Bound 可以指定为数字、日期时间或特殊的“自动”值。
 
 这个类的实例是不可变的。
-## 构造函数
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [AxisBound()](#AxisBound--) | 创建一个新实例，指示轴边界应由文字处理应用程序自动确定。 |
 | [AxisBound(double value)](#AxisBound-double-) | 创建一个以数字表示的轴边界。 |
-| [AxisBound(Date datetime)](#AxisBound-java.util.Date-) | 创建表示为日期时间值的轴边界。 |
+| [AxisBound(Date datetime)](#AxisBound-java.util.Date-) | 创建一个表示为日期时间值的轴边界。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -34,7 +34,7 @@ Bound 可以指定为数字、日期时间或特殊的“自动”值。
 | [equals(Object obj)](#equals-java.lang.Object-) | 确定指定对象的值是否与当前对象相等。 |
 | [getClass()](#getClass--) |  |
 | [getValue()](#getValue--) | 返回轴边界的数值。 |
-| [getValueAsDate()](#getValueAsDate--) | 返回表示为日期时间的轴边界值。 |
+| [getValueAsDate()](#getValueAsDate--) | 返回以日期时间表示的轴边界值。 |
 | [hashCode()](#hashCode--) |  |
 | [isAuto()](#isAuto--) | 返回一个标志，指示应自动确定轴边界。 |
 | [notify()](#notify--) |  |
@@ -59,7 +59,8 @@ public AxisBound(double value)
 
 创建一个以数字表示的轴边界。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double |  |
@@ -70,9 +71,10 @@ public AxisBound(Date datetime)
 ```
 
 
-创建表示为日期时间值的轴边界。
+创建一个表示为日期时间值的轴边界。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | datetime | java.util.Date |  |
@@ -85,12 +87,13 @@ public boolean equals(Object obj)
 
 确定指定对象的值是否与当前对象相等。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | obj | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -100,7 +103,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getValue() {#getValue--}
 ```
@@ -110,7 +113,7 @@ public double getValue()
 
 返回轴边界的数值。
 
-**退货:**
+**退货：**
 double - 轴边界的数值。
 ### getValueAsDate() {#getValueAsDate--}
 ```
@@ -118,10 +121,10 @@ public Date getValueAsDate()
 ```
 
 
-返回表示为日期时间的轴边界值。
+返回以日期时间表示的轴边界值。
 
-**退货:**
-java.util.Date - 表示为日期时间的轴边界值。
+**退货：**
+java.util.Date - 以日期时间表示的轴边界值。
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -130,7 +133,7 @@ public int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### isAuto() {#isAuto--}
 ```
@@ -140,8 +143,8 @@ public boolean isAuto()
 
 返回一个标志，指示应自动确定轴边界。
 
-**退货:**
-boolean - 一个标志，表示应该自动确定轴边界。
+**退货：**
+boolean - 指示应自动确定轴边界的标志。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -166,8 +169,8 @@ public String toString()
 
 返回显示此对象值的用户友好字符串。
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -184,7 +187,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -197,7 +201,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

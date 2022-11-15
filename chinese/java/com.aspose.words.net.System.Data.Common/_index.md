@@ -11,7 +11,7 @@ url: /zh/java/com.aspose.words.net.system.data.common/
 提供模仿 .NET 类型的类型`System.Data.Common`Java 中的命名空间。
 
 
-## 课程
+## 班级
 
 | 班级 | 描述 |
 | --- | --- |

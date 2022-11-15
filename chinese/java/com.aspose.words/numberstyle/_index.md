@@ -7,7 +7,7 @@ weight: 409
 url: /zh/java/com.aspose.words/numberstyle/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class NumberStyle
@@ -19,45 +19,45 @@ public class NumberStyle
 | 场地 | 描述 |
 | --- | --- |
 | [AIUEO](#AIUEO) | Aiueo 全宽 |
-| [AIUEO_HALF_WIDTH](#AIUEO-HALF-WIDTH) | 爱尤奥 |
+| [AIUEO_HALF_WIDTH](#AIUEO-HALF-WIDTH) | 爱友 |
 | [ARABIC](#ARABIC) | 阿拉伯数字 (1, 2, 3, ...) |
-| [ARABIC_1](#ARABIC-1) | 阿拉伯语字母 |
-| [ARABIC_2](#ARABIC-2) | 阿拉伯语阿贾德 |
+| [ARABIC_1](#ARABIC-1) | 阿拉伯字母 |
+| [ARABIC_2](#ARABIC-2) | 阿拉伯文 |
 | [ARABIC_FULL_WIDTH](#ARABIC-FULL-WIDTH) | 全角阿拉伯语：1、2、3、4 |
 | [ARABIC_HALF_WIDTH](#ARABIC-HALF-WIDTH) | 半角阿拉伯语：1、2、3、4 |
 | [BULLET](#BULLET) | 项目符号（检查文本中的字符代码） |
 | [CHICAGO_MANUAL](#CHICAGO-MANUAL) | 芝加哥风格手册：\ *,\ \u2020,\\u2020 |
 | [CHOSUNG](#CHOSUNG) | 韩国朝鲜 |
 | [CUSTOM](#CUSTOM) | 自定义数字格式。 |
-| [DECIMAL_FULL_WIDTH](#DECIMAL-FULL-WIDTH) | 十进制全宽：1、2、3、4 |
+| [DECIMAL_FULL_WIDTH](#DECIMAL-FULL-WIDTH) | 十进制全角：1、2、3、4 |
 | [GANADA](#GANADA) | 韩国加纳达 |
 | [GB_1](#GB-1) | 封闭句号 |
-| [GB_2](#GB-2) | 带括号 |
-| [GB_3](#GB-3) | 封闭的圆圈中文 |
-| [GB_4](#GB-4) | 象形文字封闭的圆圈 |
+| [GB_2](#GB-2) | 括号内 |
+| [GB_3](#GB-3) | 封闭圆中文 |
+| [GB_4](#GB-4) | 表意文字封闭的圆圈 |
 | [HANGUL](#HANGUL) | 韩国法律 |
-| [HANJA](#HANJA) | 韩国数码2 |
+| [HANJA](#HANJA) | 韩国digital2 |
 | [HANJA_READ](#HANJA-READ) | 韩国数码 |
-| [HANJA_READ_DIGIT](#HANJA-READ-DIGIT) | 韩语计数 |
-| [HEBREW_1](#HEBREW-1) | 希伯来语-1 |
-| [HEBREW_2](#HEBREW-2) | 希伯来语-2 |
+| [HANJA_READ_DIGIT](#HANJA-READ-DIGIT) | 韩国计数 |
+| [HEBREW_1](#HEBREW-1) | 希伯来语 1 |
+| [HEBREW_2](#HEBREW-2) | 希伯来语 2 |
 | [HEX](#HEX) | 十六进制：8、9、A、B、C、D、E、F、10、11、12 |
 | [HINDI_ARABIC](#HINDI-ARABIC) | 印地语数字 |
 | [HINDI_CARDINAL_TEXT](#HINDI-CARDINAL-TEXT) | 印地语描述（红衣主教） |
 | [HINDI_LETTER_1](#HINDI-LETTER-1) | 印地语元音 |
 | [HINDI_LETTER_2](#HINDI-LETTER-2) | 印地语辅音 |
-| [IROHA](#IROHA) | 伊吕波全幅 |
-| [IROHA_HALF_WIDTH](#IROHA-HALF-WIDTH) | 伊吕波 |
-| [KANJI](#KANJI) | 象形文字-数字 |
-| [KANJI_DIGIT](#KANJI-DIGIT) | 日语计数 |
+| [IROHA](#IROHA) | 伊吕波全宽 |
+| [IROHA_HALF_WIDTH](#IROHA-HALF-WIDTH) | 彩叶 |
+| [KANJI](#KANJI) | 表意数字 |
+| [KANJI_DIGIT](#KANJI-DIGIT) | 日本计数 |
 | [KANJI_TRADITIONAL](#KANJI-TRADITIONAL) | 日本法律 |
-| [KANJI_TRADITIONAL_2](#KANJI-TRADITIONAL-2) | 日本数码万 |
+| [KANJI_TRADITIONAL_2](#KANJI-TRADITIONAL-2) | 日本数字万 |
 | [LEADING_ZERO](#LEADING-ZERO) | 前导零（01、02、...、09、10、11、...、99、100、101、...） |
 | [LOWERCASE_LETTER](#LOWERCASE-LETTER) | 小写字母（a、b、c、...） |
-| [LOWERCASE_ROMAN](#LOWERCASE-ROMAN) | 小写罗马字母 (i, ii, iii, ...) |
-| [LOWERCASE_RUSSIAN](#LOWERCASE-RUSSIAN) | 小写俄语字母 |
+| [LOWERCASE_ROMAN](#LOWERCASE-ROMAN) | 小写罗马字 (i, ii, iii, ...) |
+| [LOWERCASE_RUSSIAN](#LOWERCASE-RUSSIAN) | 小写俄语字母表 |
 | [NONE](#NONE) | 没有项目符号或编号。 |
-| [NUMBER](#NUMBER) | 编号（一、二、三、...） |
+| [NUMBER](#NUMBER) | 编号（一，二，三，...） |
 | [NUMBER_IN_CIRCLE](#NUMBER-IN-CIRCLE) | 封闭的圆圈 |
 | [NUMBER_IN_DASH](#NUMBER-IN-DASH) | 页码格式：-1-、-2-、-3-、-4- |
 | [ORDINAL](#ORDINAL) | 序数（第 1、第 2、第 3、...） |
@@ -112,7 +112,7 @@ public static int AIUEO_HALF_WIDTH
 ```
 
 
-爱尤奥
+爱友
 
 ### ARABIC {#ARABIC}
 ```
@@ -128,7 +128,7 @@ public static int ARABIC_1
 ```
 
 
-阿拉伯语字母
+阿拉伯字母
 
 ### ARABIC_2 {#ARABIC-2}
 ```
@@ -136,7 +136,7 @@ public static int ARABIC_2
 ```
 
 
-阿拉伯语阿贾德
+阿拉伯文
 
 ### ARABIC_FULL_WIDTH {#ARABIC-FULL-WIDTH}
 ```
@@ -192,7 +192,7 @@ public static int DECIMAL_FULL_WIDTH
 ```
 
 
-十进制全宽：1、2、3、4
+十进制全角：1、2、3、4
 
 ### GANADA {#GANADA}
 ```
@@ -216,7 +216,7 @@ public static int GB_2
 ```
 
 
-带括号
+括号内
 
 ### GB_3 {#GB-3}
 ```
@@ -224,7 +224,7 @@ public static int GB_3
 ```
 
 
-封闭的圆圈中文
+封闭圆中文
 
 ### GB_4 {#GB-4}
 ```
@@ -232,7 +232,7 @@ public static int GB_4
 ```
 
 
-象形文字封闭的圆圈
+表意文字封闭的圆圈
 
 ### HANGUL {#HANGUL}
 ```
@@ -248,7 +248,7 @@ public static int HANJA
 ```
 
 
-韩国数码2
+韩国digital2
 
 ### HANJA_READ {#HANJA-READ}
 ```
@@ -264,7 +264,7 @@ public static int HANJA_READ_DIGIT
 ```
 
 
-韩语计数
+韩国计数
 
 ### HEBREW_1 {#HEBREW-1}
 ```
@@ -272,7 +272,7 @@ public static int HEBREW_1
 ```
 
 
-希伯来语-1
+希伯来语 1
 
 ### HEBREW_2 {#HEBREW-2}
 ```
@@ -280,7 +280,7 @@ public static int HEBREW_2
 ```
 
 
-希伯来语-2
+希伯来语 2
 
 ### HEX {#HEX}
 ```
@@ -328,7 +328,7 @@ public static int IROHA
 ```
 
 
-伊吕波全幅
+伊吕波全宽
 
 ### IROHA_HALF_WIDTH {#IROHA-HALF-WIDTH}
 ```
@@ -336,7 +336,7 @@ public static int IROHA_HALF_WIDTH
 ```
 
 
-伊吕波
+彩叶
 
 ### KANJI {#KANJI}
 ```
@@ -344,7 +344,7 @@ public static int KANJI
 ```
 
 
-象形文字-数字
+表意数字
 
 ### KANJI_DIGIT {#KANJI-DIGIT}
 ```
@@ -352,7 +352,7 @@ public static int KANJI_DIGIT
 ```
 
 
-日语计数
+日本计数
 
 ### KANJI_TRADITIONAL {#KANJI-TRADITIONAL}
 ```
@@ -368,7 +368,7 @@ public static int KANJI_TRADITIONAL_2
 ```
 
 
-日本数码万
+日本数字万
 
 ### LEADING_ZERO {#LEADING-ZERO}
 ```
@@ -392,7 +392,7 @@ public static int LOWERCASE_ROMAN
 ```
 
 
-小写罗马字母 (i, ii, iii, ...)
+小写罗马字 (i, ii, iii, ...)
 
 ### LOWERCASE_RUSSIAN {#LOWERCASE-RUSSIAN}
 ```
@@ -400,7 +400,7 @@ public static int LOWERCASE_RUSSIAN
 ```
 
 
-小写俄语字母
+小写俄语字母表
 
 ### NONE {#NONE}
 ```
@@ -416,7 +416,7 @@ public static int NUMBER
 ```
 
 
-编号（一、二、三、...）
+编号（一，二，三，...）
 
 ### NUMBER_IN_CIRCLE {#NUMBER-IN-CIRCLE}
 ```
@@ -608,12 +608,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String numberStyleName) {#fromName-java.lang.String-}
 ```
@@ -623,12 +624,13 @@ public static int fromName(String numberStyleName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | numberStyleName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -638,7 +640,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int numberStyle) {#getName-int-}
 ```
@@ -648,13 +650,14 @@ public static String getName(int numberStyle)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | numberStyle | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -663,7 +666,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -673,7 +676,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -699,8 +702,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int numberStyle) {#toString-int-}
 ```
 public static String toString(int numberStyle)
@@ -709,13 +712,14 @@ public static String toString(int numberStyle)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | numberStyle | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -732,7 +736,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -745,7 +750,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

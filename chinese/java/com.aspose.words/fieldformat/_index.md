@@ -7,7 +7,7 @@ weight: 194
 url: /zh/java/com.aspose.words/fieldformat/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class FieldFormat
@@ -15,7 +15,7 @@ public class FieldFormat
 
 提供对字段的数字、日期和时间以及一般格式的键入访问。
 
-要了解更多信息，请访问**Working with 字段**文档文章。
+要了解更多信息，请访问**Working with Fields**文档文章。
 ## 方法
 
 | 方法 | 描述 |
@@ -24,12 +24,12 @@ public class FieldFormat
 | [getClass()](#getClass--) |  |
 | [getDateTimeFormat()](#getDateTimeFormat--) | 获取应用于日期和时间字段结果的格式。 |
 | [getGeneralFormats()](#getGeneralFormats--) | 获取应用于数字、文本或任何字段结果的通用格式的集合。 |
-| [getNumericFormat()](#getNumericFormat--) | 获取应用于数值字段结果的格式。 |
+| [getNumericFormat()](#getNumericFormat--) | 获取应用于数字字段结果的格式。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setDateTimeFormat(String value)](#setDateTimeFormat-java.lang.String-) | 设置应用于日期和时间字段结果的格式。 |
-| [setNumericFormat(String value)](#setNumericFormat-java.lang.String-) | 设置应用于数值字段结果的格式。 |
+| [setNumericFormat(String value)](#setNumericFormat-java.lang.String-) | 设置应用于数字字段结果的格式。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -42,12 +42,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -57,7 +58,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getDateTimeFormat() {#getDateTimeFormat--}
 ```
@@ -67,7 +68,7 @@ public String getDateTimeFormat()
 
 获取应用于日期和时间字段结果的格式。对应于\\@ 转变。
 
-**退货:**
+**退货：**
 java.lang.String - 应用于日期和时间字段结果的格式。
 ### getGeneralFormats() {#getGeneralFormats--}
 ```
@@ -75,9 +76,9 @@ public GeneralFormatCollection getGeneralFormats()
 ```
 
 
-获取应用于数字、文本或任何字段结果的通用格式的集合。对应于\\\* 开关。
+获取应用于数字、文本或任何字段结果的通用格式的集合。对应于\\\*开关。
 
-**退货:**
+**退货：**
 [GeneralFormatCollection](../../com.aspose.words/generalformatcollection) - 应用于数字、文本或任何字段结果的通用格式的集合。
 ### getNumericFormat() {#getNumericFormat--}
 ```
@@ -85,10 +86,10 @@ public String getNumericFormat()
 ```
 
 
-获取应用于数值字段结果的格式。对应于\\\＃ 转变。
+获取应用于数字字段结果的格式。对应于\\\＃ 转变。
 
-**退货:**
-java.lang.String - 应用于数值字段结果的格式。
+**退货：**
+java.lang.String - 应用于数字字段结果的格式。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -97,7 +98,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -123,7 +124,8 @@ public void setDateTimeFormat(String value)
 
 设置应用于日期和时间字段结果的格式。对应于\\@ 转变。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | 应用于日期和时间字段结果的格式。 |
@@ -134,12 +136,13 @@ public void setNumericFormat(String value)
 ```
 
 
-设置应用于数值字段结果的格式。对应于\\\＃ 转变。
+设置应用于数字字段结果的格式。对应于\\\＃ 转变。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 应用于数值字段结果的格式。 |
+| value | java.lang.String | 应用于数字字段结果的格式。 |
 
 ### toString() {#toString--}
 ```
@@ -149,8 +152,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -167,7 +170,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -180,7 +184,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

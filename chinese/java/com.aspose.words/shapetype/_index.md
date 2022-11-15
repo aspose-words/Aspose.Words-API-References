@@ -7,7 +7,7 @@ weight: 521
 url: /zh/java/com.aspose.words/shapetype/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class ShapeType
@@ -60,9 +60,9 @@ public class ShapeType
 | [CALLOUT_3](#CALLOUT-3) |  |
 | [CALLOUT_90](#CALLOUT-90) |  |
 | [CAN](#CAN) |  |
-| [CHART_PLUS](#CHART-PLUS) | 图表加。 |
-| [CHART_STAR](#CHART-STAR) | 图表星。 |
-| [CHART_X](#CHART-X) | 图十。 |
+| [CHART_PLUS](#CHART-PLUS) | 图加。 |
+| [CHART_STAR](#CHART-STAR) | 图星。 |
+| [CHART_X](#CHART-X) | 图 X。 |
 | [CHEVRON](#CHEVRON) |  |
 | [CHORD](#CHORD) | 弦。 |
 | [CIRCULAR_ARROW](#CIRCULAR-ARROW) |  |
@@ -79,11 +79,11 @@ public class ShapeType
 | [CURVED_LEFT_ARROW](#CURVED-LEFT-ARROW) |  |
 | [CURVED_RIGHT_ARROW](#CURVED-RIGHT-ARROW) |  |
 | [CURVED_UP_ARROW](#CURVED-UP-ARROW) |  |
-| [CUSTOM_SHAPE](#CUSTOM-SHAPE) | 此形状类型似乎是为不属于 Microsoft Word 中自动形状标准集的形状设置的。 |
+| [CUSTOM_SHAPE](#CUSTOM-SHAPE) | 此形状类型似乎是为不属于 Microsoft Word 自动形状标准集的形状设置的。 |
 | [DECAGON](#DECAGON) | 十边形。 |
 | [DIAGONAL_CORNERS_ROUNDED](#DIAGONAL-CORNERS-ROUNDED) | 圆形对角矩形。 |
-| [DIAGONAL_CORNERS_SNIPPED](#DIAGONAL-CORNERS-SNIPPED) | 剪断对角矩形。 |
-| [DIAGONAL_STRIPE](#DIAGONAL-STRIPE) | 对角条纹。 |
+| [DIAGONAL_CORNERS_SNIPPED](#DIAGONAL-CORNERS-SNIPPED) | 剪切对角线角矩形。 |
+| [DIAGONAL_STRIPE](#DIAGONAL-STRIPE) | 斜条纹。 |
 | [DIAMOND](#DIAMOND) |  |
 | [DODECAGON](#DODECAGON) | 十二边形。 |
 | [DONUT](#DONUT) |  |
@@ -127,7 +127,7 @@ public class ShapeType
 | [FUNNEL](#FUNNEL) | 漏斗。 |
 | [GEAR_6](#GEAR-6) | 六齿齿轮。 |
 | [GEAR_9](#GEAR-9) | 九齿齿轮。 |
-| [GROUP](#GROUP) | 形状是组形状。 |
+| [GROUP](#GROUP) | 形状是一组形状。 |
 | [HALF_FRAME](#HALF-FRAME) | 半帧。 |
 | [HEART](#HEART) |  |
 | [HEPTAGON](#HEPTAGON) | 七边形。 |
@@ -135,42 +135,42 @@ public class ShapeType
 | [HOME_PLATE](#HOME-PLATE) |  |
 | [HORIZONTAL_SCROLL](#HORIZONTAL-SCROLL) |  |
 | [IMAGE](#IMAGE) | 形状是图像。 |
-| [INVERSE_LINE](#INVERSE-LINE) | 逆线。 |
+| [INVERSE_LINE](#INVERSE-LINE) | 反线。 |
 | [IRREGULAR_SEAL_1](#IRREGULAR-SEAL-1) |  |
 | [IRREGULAR_SEAL_2](#IRREGULAR-SEAL-2) |  |
 | [LEFT_ARROW](#LEFT-ARROW) |  |
 | [LEFT_ARROW_CALLOUT](#LEFT-ARROW-CALLOUT) |  |
 | [LEFT_BRACE](#LEFT-BRACE) |  |
 | [LEFT_BRACKET](#LEFT-BRACKET) |  |
-| [LEFT_CIRCULAR_ARROW](#LEFT-CIRCULAR-ARROW) | 左圆形箭头。 |
+| [LEFT_CIRCULAR_ARROW](#LEFT-CIRCULAR-ARROW) | 向左的圆形箭头。 |
 | [LEFT_RIGHT_ARROW](#LEFT-RIGHT-ARROW) |  |
 | [LEFT_RIGHT_ARROW_CALLOUT](#LEFT-RIGHT-ARROW-CALLOUT) |  |
 | [LEFT_RIGHT_CIRCULAR_ARROW](#LEFT-RIGHT-CIRCULAR-ARROW) | 左右圆形箭头。 |
-| [LEFT_RIGHT_RIBBON](#LEFT-RIGHT-RIBBON) | 左右丝带。 |
+| [LEFT_RIGHT_RIBBON](#LEFT-RIGHT-RIBBON) | 左右色带。 |
 | [LEFT_RIGHT_UP_ARROW](#LEFT-RIGHT-UP-ARROW) |  |
 | [LEFT_UP_ARROW](#LEFT-UP-ARROW) |  |
 | [LIGHTNING_BOLT](#LIGHTNING-BOLT) |  |
 | [LINE](#LINE) |  |
-| [MATH_DIVIDE](#MATH-DIVIDE) | 数学划分。 |
+| [MATH_DIVIDE](#MATH-DIVIDE) | 数学分。 |
 | [MATH_EQUAL](#MATH-EQUAL) | 数学相等。 |
-| [MATH_MINUS](#MATH-MINUS) | 数学减。 |
+| [MATH_MINUS](#MATH-MINUS) | 数学负号。 |
 | [MATH_MULTIPLY](#MATH-MULTIPLY) | 数学乘法。 |
 | [MATH_NOT_EQUAL](#MATH-NOT-EQUAL) | 数学不相等。 |
 | [MATH_PLUS](#MATH-PLUS) | 数学加。 |
-| [MIN_VALUE](#MIN-VALUE) | 保留供系统使用。 |
+| [MIN_VALUE](#MIN-VALUE) | 保留给系统使用。 |
 | [MOON](#MOON) |  |
 | [NON_ISOSCELES_TRAPEZOID](#NON-ISOSCELES-TRAPEZOID) | 非等腰梯形。 |
-| [NON_PRIMITIVE](#NON-PRIMITIVE) | 由用户绘制并由多个段和/或顶点（曲线、自由形式或涂鸦）组成的形状。 |
+| [NON_PRIMITIVE](#NON-PRIMITIVE) | 用户绘制的形状，由多个线段和/或顶点组成（曲线、自由形式或涂鸦）。 |
 | [NOTCHED_RIGHT_ARROW](#NOTCHED-RIGHT-ARROW) |  |
 | [NO_SMOKING](#NO-SMOKING) |  |
 | [OCTAGON](#OCTAGON) |  |
 | [OLE_CONTROL](#OLE-CONTROL) | 该形状是一个 ActiveX 控件。 |
-| [OLE_OBJECT](#OLE-OBJECT) | 该形状是一个 OLE 对象。 |
+| [OLE_OBJECT](#OLE-OBJECT) | 形状是一个 OLE 对象。 |
 | [PARALLELOGRAM](#PARALLELOGRAM) |  |
 | [PENTAGON](#PENTAGON) |  |
 | [PIE](#PIE) | 馅饼。 |
 | [PLAQUE](#PLAQUE) |  |
-| [PLAQUE_TABS](#PLAQUE-TABS) | 牌匾标签。 |
+| [PLAQUE_TABS](#PLAQUE-TABS) | 牙菌斑标签。 |
 | [PLUS](#PLUS) |  |
 | [QUAD_ARROW](#QUAD-ARROW) |  |
 | [QUAD_ARROW_CALLOUT](#QUAD-ARROW-CALLOUT) |  |
@@ -190,7 +190,7 @@ public class ShapeType
 | [SEAL_32](#SEAL-32) |  |
 | [SEAL_4](#SEAL-4) |  |
 | [SEAL_6](#SEAL-6) | 六角星。 |
-| [SEAL_7](#SEAL-7) | 七角星。 |
+| [SEAL_7](#SEAL-7) | 七芒星。 |
 | [SEAL_8](#SEAL-8) |  |
 | [SINGLE_CORNER_ROUNDED](#SINGLE-CORNER-ROUNDED) | 圆形单角矩形。 |
 | [SINGLE_CORNER_SNIPPED](#SINGLE-CORNER-SNIPPED) | 剪断单个角矩形对象。 |
@@ -252,9 +252,9 @@ public class ShapeType
 | [TEXT_WAVE_3](#TEXT-WAVE-3) | 艺术字对象。 |
 | [TEXT_WAVE_4](#TEXT-WAVE-4) | 艺术字对象。 |
 | [THICK_ARROW](#THICK-ARROW) |  |
-| [TOP_CORNERS_ONE_ROUNDED_ONE_SNIPPED](#TOP-CORNERS-ONE-ROUNDED-ONE-SNIPPED) | 剪断并圆化单角矩形。 |
-| [TOP_CORNERS_ROUNDED](#TOP-CORNERS-ROUNDED) | 圆形相同的边角矩形。 |
-| [TOP_CORNERS_SNIPPED](#TOP-CORNERS-SNIPPED) | 剪下相同的边角矩形。 |
+| [TOP_CORNERS_ONE_ROUNDED_ONE_SNIPPED](#TOP-CORNERS-ONE-ROUNDED-ONE-SNIPPED) | 剪圆单角矩形。 |
+| [TOP_CORNERS_ROUNDED](#TOP-CORNERS-ROUNDED) | 圆形同边角矩形。 |
+| [TOP_CORNERS_SNIPPED](#TOP-CORNERS-SNIPPED) | 剪下同侧角矩形。 |
 | [TRAPEZOID](#TRAPEZOID) |  |
 | [TRIANGLE](#TRIANGLE) |  |
 | [UP_ARROW](#UP-ARROW) |  |
@@ -628,7 +628,7 @@ public static int CHART_PLUS
 ```
 
 
-图表加。仅适用于 DML 形状。
+图加。仅适用于 DML 形状。
 
 ### CHART_STAR {#CHART-STAR}
 ```
@@ -636,7 +636,7 @@ public static int CHART_STAR
 ```
 
 
-图表星。仅适用于 DML 形状。
+图星。仅适用于 DML 形状。
 
 ### CHART_X {#CHART-X}
 ```
@@ -780,7 +780,7 @@ public static int CUSTOM_SHAPE
 ```
 
 
-此形状类型似乎是为不属于 Microsoft Word 中自动形状标准集的形状设置的。例如，如果您从剪贴画插入一个新的自动形状。
+此形状类型似乎是为不属于 Microsoft Word 自动形状标准集的形状设置的。例如，如果您从 ClipArt 插入一个新的自动形状。
 
 您不能在文档中创建这种类型的形状。
 
@@ -806,7 +806,7 @@ public static int DIAGONAL_CORNERS_SNIPPED
 ```
 
 
-剪断对角矩形。仅适用于 DML 形状。
+剪切对角线角矩形。仅适用于 DML 形状。
 
 ### DIAGONAL_STRIPE {#DIAGONAL-STRIPE}
 ```
@@ -814,7 +814,7 @@ public static int DIAGONAL_STRIPE
 ```
 
 
-对角条纹。仅适用于 DML 形状。
+斜条纹。仅适用于 DML 形状。
 
 ### DIAMOND {#DIAMOND}
 ```
@@ -1166,7 +1166,7 @@ public static int GROUP
 ```
 
 
-形状是组形状。
+形状是一组形状。
 
 ### HALF_FRAME {#HALF-FRAME}
 ```
@@ -1230,7 +1230,7 @@ public static int INVERSE_LINE
 ```
 
 
-逆线。仅适用于 DML 形状。
+反线。仅适用于 DML 形状。
 
 ### IRREGULAR_SEAL_1 {#IRREGULAR-SEAL-1}
 ```
@@ -1286,7 +1286,7 @@ public static int LEFT_CIRCULAR_ARROW
 ```
 
 
-左圆形箭头。仅适用于 DML 形状。
+向左的圆形箭头。仅适用于 DML 形状。
 
 ### LEFT_RIGHT_ARROW {#LEFT-RIGHT-ARROW}
 ```
@@ -1318,7 +1318,7 @@ public static int LEFT_RIGHT_RIBBON
 ```
 
 
-左右丝带。仅适用于 DML 形状。
+左右色带。仅适用于 DML 形状。
 
 ### LEFT_RIGHT_UP_ARROW {#LEFT-RIGHT-UP-ARROW}
 ```
@@ -1358,7 +1358,7 @@ public static int MATH_DIVIDE
 ```
 
 
-数学划分。仅适用于 DML 形状。
+数学分。仅适用于 DML 形状。
 
 ### MATH_EQUAL {#MATH-EQUAL}
 ```
@@ -1374,7 +1374,7 @@ public static int MATH_MINUS
 ```
 
 
-数学减。仅适用于 DML 形状。
+数学负号。仅适用于 DML 形状。
 
 ### MATH_MULTIPLY {#MATH-MULTIPLY}
 ```
@@ -1406,7 +1406,7 @@ public static int MIN_VALUE
 ```
 
 
-保留供系统使用。
+保留给系统使用。
 
 ### MOON {#MOON}
 ```
@@ -1430,7 +1430,7 @@ public static int NON_PRIMITIVE
 ```
 
 
-由用户绘制并由多个段和/或顶点（曲线、自由形式或涂鸦）组成的形状。
+用户绘制的形状，由多个线段和/或顶点组成（曲线、自由形式或涂鸦）。
 
 您不能在文档中创建这种类型的形状。
 
@@ -1474,7 +1474,7 @@ public static int OLE_OBJECT
 ```
 
 
-该形状是一个 OLE 对象。
+形状是一个 OLE 对象。
 
 您不能在文档中创建这种类型的形状。
 
@@ -1516,7 +1516,7 @@ public static int PLAQUE_TABS
 ```
 
 
-牌匾标签。仅适用于 DML 形状。
+牙菌斑标签。仅适用于 DML 形状。
 
 ### PLUS {#PLUS}
 ```
@@ -1676,7 +1676,7 @@ public static int SEAL_7
 ```
 
 
-七角星。仅适用于 DML 形状。
+七芒星。仅适用于 DML 形状。
 
 ### SEAL_8 {#SEAL-8}
 ```
@@ -2172,7 +2172,7 @@ public static int TOP_CORNERS_ONE_ROUNDED_ONE_SNIPPED
 ```
 
 
-剪断并圆化单角矩形。仅适用于 DML 形状。
+剪圆单角矩形。仅适用于 DML 形状。
 
 ### TOP_CORNERS_ROUNDED {#TOP-CORNERS-ROUNDED}
 ```
@@ -2180,7 +2180,7 @@ public static int TOP_CORNERS_ROUNDED
 ```
 
 
-圆形相同的边角矩形。仅适用于 DML 形状。
+圆形同边角矩形。仅适用于 DML 形状。
 
 ### TOP_CORNERS_SNIPPED {#TOP-CORNERS-SNIPPED}
 ```
@@ -2188,7 +2188,7 @@ public static int TOP_CORNERS_SNIPPED
 ```
 
 
-剪下相同的边角矩形。仅适用于 DML 形状。
+剪下同侧角矩形。仅适用于 DML 形状。
 
 ### TRAPEZOID {#TRAPEZOID}
 ```
@@ -2308,12 +2308,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String shapeTypeName) {#fromName-java.lang.String-}
 ```
@@ -2323,12 +2324,13 @@ public static int fromName(String shapeTypeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | shapeTypeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -2338,7 +2340,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int shapeType) {#getName-int-}
 ```
@@ -2348,13 +2350,14 @@ public static String getName(int shapeType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | shapeType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -2363,7 +2366,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -2373,7 +2376,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -2399,8 +2402,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int shapeType) {#toString-int-}
 ```
 public static String toString(int shapeType)
@@ -2409,13 +2412,14 @@ public static String toString(int shapeType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | shapeType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -2432,7 +2436,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -2445,7 +2450,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

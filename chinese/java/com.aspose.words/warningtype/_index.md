@@ -7,7 +7,7 @@ weight: 607
 url: /zh/java/com.aspose.words/warningtype/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class WarningType
@@ -152,12 +152,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String warningTypeName) {#fromName-java.lang.String-}
 ```
@@ -167,12 +168,13 @@ public static int fromName(String warningTypeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | warningTypeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### fromNames(Set warningTypeNames) {#fromNames-java.util.Set-}
 ```
@@ -182,12 +184,13 @@ public static int fromNames(Set warningTypeNames)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | warningTypeNames | java.util.Set |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -197,7 +200,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int warningType) {#getName-int-}
 ```
@@ -207,13 +210,14 @@ public static String getName(int warningType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | warningType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getNames(int warningType) {#getNames-int-}
 ```
 public static Set getNames(int warningType)
@@ -222,12 +226,13 @@ public static Set getNames(int warningType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | warningType | int |  |
 
-**退货:**
+**退货：**
 java.util.Set
 ### getValues() {#getValues--}
 ```
@@ -237,7 +242,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -247,7 +252,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -273,8 +278,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int warningType) {#toString-int-}
 ```
 public static String toString(int warningType)
@@ -283,13 +288,14 @@ public static String toString(int warningType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | warningType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toStringSet(int attr) {#toStringSet-int-}
 ```
 public static String toStringSet(int attr)
@@ -298,13 +304,14 @@ public static String toStringSet(int attr)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | attr | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -321,7 +328,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -334,7 +342,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

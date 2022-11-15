@@ -7,29 +7,29 @@ weight: 529
 url: /zh/java/com.aspose.words/storytype/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class StoryType
 ```
 
- Word 文档的文本存储在故事中。**StoryType**标识一个故事。
+ Word 文档的文本存储在故事中。**StoryType**确定一个故事。
 ## 字段
 
 | 场地 | 描述 |
 | --- | --- |
-| [COMMENTS](#COMMENTS) | 包含文档注释（annotations），由[Comment](../../com.aspose.words/comment). |
+| [COMMENTS](#COMMENTS) | 包含文档注释（注解），由[Comment](../../com.aspose.words/comment). |
 | [ENDNOTES](#ENDNOTES) | 包含尾注文本，由[Footnote](../../com.aspose.words/footnote). |
-| [ENDNOTE_CONTINUATION_NOTICE](#ENDNOTE-CONTINUATION-NOTICE) | 包含尾注继续通知分隔符的文本，由**T:Aspose.Words.Notes.FootnoteSeparator**. |
-| [ENDNOTE_CONTINUATION_SEPARATOR](#ENDNOTE-CONTINUATION-SEPARATOR) | 包含尾注延续分隔符的文本，由**T:Aspose.Words.Notes.FootnoteSeparator**. |
+| [ENDNOTE_CONTINUATION_NOTICE](#ENDNOTE-CONTINUATION-NOTICE) | 包含尾注继续通知分隔符的文本，表示为**T:Aspose.Words.Notes.FootnoteSeparator**. |
+| [ENDNOTE_CONTINUATION_SEPARATOR](#ENDNOTE-CONTINUATION-SEPARATOR) | 包含尾注继续分隔符的文本，表示为**T:Aspose.Words.Notes.FootnoteSeparator**. |
 | [ENDNOTE_SEPARATOR](#ENDNOTE-SEPARATOR) | 包含尾注分隔符的文本，由**T:Aspose.Words.Notes.FootnoteSeparator**. |
 | [EVEN_PAGES_FOOTER](#EVEN-PAGES-FOOTER) | 包含偶数页页脚的文本，由[HeaderFooter](../../com.aspose.words/headerfooter). |
 | [EVEN_PAGES_HEADER](#EVEN-PAGES-HEADER) | 包含偶数页标题的文本，由[HeaderFooter](../../com.aspose.words/headerfooter). |
 | [FIRST_PAGE_FOOTER](#FIRST-PAGE-FOOTER) | 包含第一页页脚的文本，由[HeaderFooter](../../com.aspose.words/headerfooter). |
 | [FIRST_PAGE_HEADER](#FIRST-PAGE-HEADER) | 包含第一页标题的文本，由[HeaderFooter](../../com.aspose.words/headerfooter). |
 | [FOOTNOTES](#FOOTNOTES) | 包含脚注文本，由[Footnote](../../com.aspose.words/footnote). |
-| [FOOTNOTE_CONTINUATION_NOTICE](#FOOTNOTE-CONTINUATION-NOTICE) | 包含脚注继续通知分隔符的文本，由**T:Aspose.Words.Notes.FootnoteSeparator**. |
-| [FOOTNOTE_CONTINUATION_SEPARATOR](#FOOTNOTE-CONTINUATION-SEPARATOR) | 包含脚注延续分隔符的文本，由**T:Aspose.Words.Notes.FootnoteSeparator**. |
+| [FOOTNOTE_CONTINUATION_NOTICE](#FOOTNOTE-CONTINUATION-NOTICE) | 包含脚注继续通知分隔符的文本，表示为**T:Aspose.Words.Notes.FootnoteSeparator**. |
+| [FOOTNOTE_CONTINUATION_SEPARATOR](#FOOTNOTE-CONTINUATION-SEPARATOR) | 包含脚注延续分隔符的文本，表示为**T:Aspose.Words.Notes.FootnoteSeparator**. |
 | [FOOTNOTE_SEPARATOR](#FOOTNOTE-SEPARATOR) | 包含脚注分隔符的文本，由**T:Aspose.Words.Notes.FootnoteSeparator**. |
 | [MAIN_TEXT](#MAIN-TEXT) | 包含文档的主要文本，由[Body](../../com.aspose.words/body). |
 | [NONE](#NONE) | 默认值。 |
@@ -60,7 +60,7 @@ public static int COMMENTS
 ```
 
 
-包含文档注释（annotations），由[Comment](../../com.aspose.words/comment).
+包含文档注释（注解），由[Comment](../../com.aspose.words/comment).
 
 ### ENDNOTES {#ENDNOTES}
 ```
@@ -76,7 +76,7 @@ public static int ENDNOTE_CONTINUATION_NOTICE
 ```
 
 
-包含尾注继续通知分隔符的文本，由**T:Aspose.Words.Notes.FootnoteSeparator**.
+包含尾注继续通知分隔符的文本，表示为**T:Aspose.Words.Notes.FootnoteSeparator**.
 
 ### ENDNOTE_CONTINUATION_SEPARATOR {#ENDNOTE-CONTINUATION-SEPARATOR}
 ```
@@ -84,7 +84,7 @@ public static int ENDNOTE_CONTINUATION_SEPARATOR
 ```
 
 
-包含尾注延续分隔符的文本，由**T:Aspose.Words.Notes.FootnoteSeparator**.
+包含尾注继续分隔符的文本，表示为**T:Aspose.Words.Notes.FootnoteSeparator**.
 
 ### ENDNOTE_SEPARATOR {#ENDNOTE-SEPARATOR}
 ```
@@ -140,7 +140,7 @@ public static int FOOTNOTE_CONTINUATION_NOTICE
 ```
 
 
-包含脚注继续通知分隔符的文本，由**T:Aspose.Words.Notes.FootnoteSeparator**.
+包含脚注继续通知分隔符的文本，表示为**T:Aspose.Words.Notes.FootnoteSeparator**.
 
 ### FOOTNOTE_CONTINUATION_SEPARATOR {#FOOTNOTE-CONTINUATION-SEPARATOR}
 ```
@@ -148,7 +148,7 @@ public static int FOOTNOTE_CONTINUATION_SEPARATOR
 ```
 
 
-包含脚注延续分隔符的文本，由**T:Aspose.Words.Notes.FootnoteSeparator**.
+包含脚注延续分隔符的文本，表示为**T:Aspose.Words.Notes.FootnoteSeparator**.
 
 ### FOOTNOTE_SEPARATOR {#FOOTNOTE-SEPARATOR}
 ```
@@ -188,7 +188,7 @@ public static int PRIMARY_HEADER
 ```
 
 
-包含主标题的文本。当奇数页和偶数页的页眉不同时，包含奇数页页眉的文本。代表人[HeaderFooter](../../com.aspose.words/headerfooter).
+包含主标题的文本。当奇数页和偶数页的标题不同时，包含奇数页标题的文本。代表人[HeaderFooter](../../com.aspose.words/headerfooter).
 
 ### TEXTBOX {#TEXTBOX}
 ```
@@ -212,12 +212,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String storyTypeName) {#fromName-java.lang.String-}
 ```
@@ -227,12 +228,13 @@ public static int fromName(String storyTypeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | storyTypeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -242,7 +244,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int storyType) {#getName-int-}
 ```
@@ -252,13 +254,14 @@ public static String getName(int storyType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | storyType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -267,7 +270,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -277,7 +280,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -303,8 +306,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int storyType) {#toString-int-}
 ```
 public static String toString(int storyType)
@@ -313,13 +316,14 @@ public static String toString(int storyType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | storyType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -336,7 +340,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -349,7 +354,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

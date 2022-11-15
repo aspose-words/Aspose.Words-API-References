@@ -7,7 +7,7 @@ weight: 100
 url: /zh/java/com.aspose.words/currentthreadsettings/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class CurrentThreadSettings
@@ -40,12 +40,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -55,7 +56,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getLocale() {#getLocale--}
 ```
@@ -65,7 +66,7 @@ public static Locale getLocale()
 
 返回当前 Aspose.Words 线程使用的 java.util.Locale。
 
-**退货:**
+**退货：**
 java.util.Locale
 ### getTimeZone() {#getTimeZone--}
 ```
@@ -75,7 +76,7 @@ public static TimeZone getTimeZone()
 
 返回当前 Aspose.Words 线程使用的 java.util.TimeZone。
 
-**退货:**
+**退货：**
 java.util.TimeZone
 ### hashCode() {#hashCode--}
 ```
@@ -85,7 +86,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -111,7 +112,8 @@ public static void setLocale(String localeName)
 
 使用语言环境名称为当前 Aspose.Words 线程设置 java.util.Locale。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | localeName | java.lang.String |  |
@@ -124,7 +126,8 @@ public static void setLocale(Locale locale)
 
 为当前 Aspose.Words 线程设置 java.util.Locale。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | locale | java.util.Locale |  |
@@ -137,7 +140,8 @@ public static void setTimeZone(TimeZone timeZone)
 
 为当前 Aspose.Words 线程设置 java.util.TimeZone。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | timeZone | java.util.TimeZone |  |
@@ -150,8 +154,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -168,7 +172,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -181,7 +186,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

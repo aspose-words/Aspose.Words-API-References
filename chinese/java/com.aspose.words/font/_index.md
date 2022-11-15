@@ -7,7 +7,7 @@ weight: 275
 url: /zh/java/com.aspose.words/font/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class Font
@@ -57,40 +57,40 @@ public class Font
 | [getItalic()](#getItalic--) | 如果字体格式为斜体，则为真。 |
 | [getItalicBi()](#getItalicBi--) | 如果从右到左的文本格式设置为斜体，则为真。 |
 | [getKerning()](#getKerning--) | 获取字距调整开始时的字体大小。 |
-| [getLineSpacing()](#getLineSpacing--) | 返回此字体的行距（以磅为单位）。 |
+| [getLineSpacing()](#getLineSpacing--) | 返回此字体的行间距（以磅为单位）。 |
 | [getLocaleId()](#getLocaleId--) | 获取格式化字符的区域设置标识符（语言）。 |
 | [getLocaleIdBi()](#getLocaleIdBi--) | 获取格式化的从右到左字符的区域设置标识符（语言）。 |
 | [getLocaleIdFarEast()](#getLocaleIdFarEast--) | 获取格式化亚洲字符的区域设置标识符（语言）。 |
 | [getName()](#getName--) | 获取字体的名称。 |
-| [getNameAscii()](#getNameAscii--) | 获取用于拉丁文本的字体（字符代码从 0（零）到 127 的字符）。 |
+| [getNameAscii()](#getNameAscii--) | 获取用于拉丁文本（字符代码从 0（零）到 127 的字符）的字体。 |
 | [getNameBi()](#getNameBi--) | 获取从右到左的语言文档中的字体名称。 |
 | [getNameFarEast()](#getNameFarEast--) | 获取东亚字体名称。 |
 | [getNameOther()](#getNameOther--) | 获取用于字符代码从 128 到 255 的字符的字体。 |
 | [getNoProofing()](#getNoProofing--) | 当格式化字符不进行拼写检查时为真。 |
 | [getOn()](#getOn--) |  |
 | [getOpacity()](#getOpacity--) |  |
-| [getOutline()](#getOutline--) | 如果字体被格式化为轮廓，则为真。 |
+| [getOutline()](#getOutline--) | 如果字体格式为轮廓，则为真。 |
 | [getPatternType()](#getPatternType--) |  |
 | [getPosition()](#getPosition--) | 获取文本相对于基线的位置（以磅为单位）。 |
 | [getPresetTexture()](#getPresetTexture--) |  |
 | [getRotateWithObject()](#getRotateWithObject--) |  |
-| [getScaling()](#getScaling--) | 获取字符宽度缩放百分比。 |
-| [getShading()](#getShading--) | 返回一个 Shading 对象，该对象引用字体的着色格式。 |
-| [getShadow()](#getShadow--) | 如果字体被格式化为阴影，则为真。 |
+| [getScaling()](#getScaling--) | 获取以百分比表示的字符宽度缩放比例。 |
+| [getShading()](#getShading--) | 返回一个 Shading 对象，该对象引用字体的阴影格式。 |
+| [getShadow()](#getShadow--) | 如果字体格式为阴影，则为真。 |
 | [getSize()](#getSize--) | 获取以磅为单位的字体大小。 |
-| [getSizeBi()](#getSizeBi--) | 获取从右到左文档中使用的字体大小（以磅为单位）。 |
+| [getSizeBi()](#getSizeBi--) | 获取从右到左文档中使用的以磅为单位的字体大小。 |
 | [getSmallCaps()](#getSmallCaps--) | 如果字体格式为小写大写字母，则为真。 |
 | [getSnapToGrid()](#getSnapToGrid--) | 指定当前字体在布局时是否应使用每行设置的文档网格字符。 |
 | [getSpacing()](#getSpacing--) | 获取字符之间的间距（以磅为单位）。 |
-| [getStrikeThrough()](#getStrikeThrough--) | 如果字体格式设置为删除线文本，则为真。 |
+| [getStrikeThrough()](#getStrikeThrough--) | 如果字体格式为删除线文本，则为真。 |
 | [getStyle()](#getStyle--) | 获取应用于此格式的字符样式。 |
 | [getStyleIdentifier()](#getStyleIdentifier--) | 获取应用于此格式的字符样式的与区域设置无关的样式标识符。 |
 | [getStyleName()](#getStyleName--) | 获取应用于此格式的字符样式的名称。 |
-| [getSubscript()](#getSubscript--) | 如果字体被格式化为下标，则为真。 |
+| [getSubscript()](#getSubscript--) | 如果字体格式为下标，则为真。 |
 | [getSuperscript()](#getSuperscript--) | 如果字体格式为上标，则为真。 |
 | [getTextEffect()](#getTextEffect--) | 获取字体动画效果。 |
 | [getTextureAlignment()](#getTextureAlignment--) |  |
-| [getThemeColor()](#getThemeColor--) | 获取与此 Font 对象关联的已应用配色方案中的主题颜色。 |
+| [getThemeColor()](#getThemeColor--) | 获取与此 Font 对象关联的应用配色方案中的主题颜色。 |
 | [getThemeFont()](#getThemeFont--) | 获取与此 Font 对象关联的应用字体方案中的主题字体。 |
 | [getThemeFontAscii()](#getThemeFontAscii--) | 获取与此 Font 对象关联的应用字体方案中用于拉丁文本（字符代码从 0（零）到 127 的字符）的主题字体。 |
 | [getThemeFontBi()](#getThemeFontBi--) | 在从右到左的语言文档中获取与此 Font 对象关联的应用字体方案中的主题字体。 |
@@ -133,32 +133,32 @@ public class Font
 | [setLocaleIdBi(int value)](#setLocaleIdBi-int-) | 设置格式化的从右到左字符的区域设置标识符（语言）。 |
 | [setLocaleIdFarEast(int value)](#setLocaleIdFarEast-int-) | 设置格式化亚洲字符的区域设置标识符（语言）。 |
 | [setName(String value)](#setName-java.lang.String-) | 设置字体的名称。 |
-| [setNameAscii(String value)](#setNameAscii-java.lang.String-) | 设置用于拉丁文本的字体（字符代码从 0（零）到 127 的字符）。 |
-| [setNameBi(String value)](#setNameBi-java.lang.String-) | 在从右到左的语言文档中设置字体的名称。 |
+| [setNameAscii(String value)](#setNameAscii-java.lang.String-) | 设置用于拉丁文本（字符代码从 0（零）到 127 的字符）的字体。 |
+| [setNameBi(String value)](#setNameBi-java.lang.String-) | 在从右到左的语言文档中设置字体名称。 |
 | [setNameFarEast(String value)](#setNameFarEast-java.lang.String-) | 设置东亚字体名称。 |
 | [setNameOther(String value)](#setNameOther-java.lang.String-) | 设置用于字符代码从 128 到 255 的字符的字体。 |
 | [setNoProofing(boolean value)](#setNoProofing-boolean-) | 当格式化字符不进行拼写检查时为真。 |
 | [setOn(boolean value)](#setOn-boolean-) |  |
 | [setOpacity(double value)](#setOpacity-double-) |  |
-| [setOutline(boolean value)](#setOutline-boolean-) | 如果字体被格式化为轮廓，则为真。 |
+| [setOutline(boolean value)](#setOutline-boolean-) | 如果字体格式为轮廓，则为真。 |
 | [setPosition(double value)](#setPosition-double-) | 设置文本相对于基线的位置（以磅为单位）。 |
 | [setRotateWithObject(boolean value)](#setRotateWithObject-boolean-) |  |
-| [setScaling(int value)](#setScaling-int-) | 以百分比设置字符宽度缩放。 |
-| [setShadow(boolean value)](#setShadow-boolean-) | 如果字体被格式化为阴影，则为真。 |
+| [setScaling(int value)](#setScaling-int-) | 以百分比设置字符宽度缩放比例。 |
+| [setShadow(boolean value)](#setShadow-boolean-) | 如果字体格式为阴影，则为真。 |
 | [setSize(double value)](#setSize-double-) | 以磅为单位设置字体大小。 |
 | [setSizeBi(double value)](#setSizeBi-double-) | 设置从右到左文档中使用的字体大小（以磅为单位）。 |
 | [setSmallCaps(boolean value)](#setSmallCaps-boolean-) | 如果字体格式为小写大写字母，则为真。 |
 | [setSnapToGrid(boolean value)](#setSnapToGrid-boolean-) | 指定当前字体在布局时是否应使用每行设置的文档网格字符。 |
 | [setSpacing(double value)](#setSpacing-double-) | 设置字符之间的间距（以磅为单位）。 |
-| [setStrikeThrough(boolean value)](#setStrikeThrough-boolean-) | 如果字体格式设置为删除线文本，则为真。 |
+| [setStrikeThrough(boolean value)](#setStrikeThrough-boolean-) | 如果字体格式为删除线文本，则为真。 |
 | [setStyle(Style value)](#setStyle-com.aspose.words.Style-) | 设置应用于此格式的字符样式。 |
-| [setStyleIdentifier(int value)](#setStyleIdentifier-int-) | 设置应用于此格式的字符样式的与区域设置无关的样式标识符。 |
+| [setStyleIdentifier(int value)](#setStyleIdentifier-int-) | 设置应用于此格式的字符样式的区域设置独立样式标识符。 |
 | [setStyleName(String value)](#setStyleName-java.lang.String-) | 设置应用于此格式的字符样式的名称。 |
-| [setSubscript(boolean value)](#setSubscript-boolean-) | 如果字体被格式化为下标，则为真。 |
+| [setSubscript(boolean value)](#setSubscript-boolean-) | 如果字体格式为下标，则为真。 |
 | [setSuperscript(boolean value)](#setSuperscript-boolean-) | 如果字体格式为上标，则为真。 |
 | [setTextEffect(int value)](#setTextEffect-int-) | 设置字体动画效果。 |
 | [setTextureAlignment(int value)](#setTextureAlignment-int-) |  |
-| [setThemeColor(int value)](#setThemeColor-int-) | 在与此 Font 对象关联的应用颜色方案中设置主题颜色。 |
+| [setThemeColor(int value)](#setThemeColor-int-) | 设置与此 Font 对象关联的应用配色方案中的主题颜色。 |
 | [setThemeFont(int value)](#setThemeFont-int-) | 在与此 Font 对象关联的应用字体方案中设置主题字体。 |
 | [setThemeFontAscii(int value)](#setThemeFontAscii-int-) | 在与此 Font 对象关联的应用字体方案中设置用于拉丁文本（字符代码从 0（零）到 127 的字符）的主题字体。 |
 | [setThemeFontBi(int value)](#setThemeFontBi-int-) | 在从右到左的语言文档中设置与此 Font 对象关联的应用字体方案中的主题字体。 |
@@ -191,12 +191,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int-}
 ```
@@ -206,12 +207,13 @@ public Object fetchInheritedBorderAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### fetchInheritedShadingAttr(int key) {#fetchInheritedShadingAttr-int-}
 ```
@@ -221,12 +223,13 @@ public Object fetchInheritedShadingAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### getAllCaps() {#getAllCaps--}
 ```
@@ -236,8 +239,8 @@ public boolean getAllCaps()
 
 如果字体格式全部为大写字母，则为真。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getAutoColor() {#getAutoColor--}
 ```
 public Color getAutoColor()
@@ -248,7 +251,7 @@ public Color getAutoColor()
 
 当文本具有“自动颜色”时，会自动计算文本的实际颜色，使其在背景颜色下可读。当您更改背景颜色时，文本颜色将在 MS Word 中自动切换为黑色或白色，以最大限度地提高可读性。
 
-**退货:**
+**退货：**
 java.awt.Color - 用于“自动颜色”的文本的当前计算颜色（黑色或白色）。
 ### getBidi() {#getBidi--}
 ```
@@ -264,8 +267,8 @@ public boolean getBidi()
 
 此外，当显示此运行的内容时，此属性充当分类为“弱类型”和“中性类型”的字符的从右到左的覆盖。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getBold() {#getBold--}
 ```
 public boolean getBold()
@@ -274,8 +277,8 @@ public boolean getBold()
 
 如果字体格式为粗体，则为真。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getBoldBi() {#getBoldBi--}
 ```
 public boolean getBoldBi()
@@ -284,8 +287,8 @@ public boolean getBoldBi()
 
 如果从右到左的文本格式设置为粗体，则为真。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getBorder() {#getBorder--}
 ```
 public Border getBorder()
@@ -294,7 +297,7 @@ public Border getBorder()
 
 返回指定字体边框的 Border 对象。
 
-**退货:**
+**退货：**
 [Border](../../com.aspose.words/border) - 指定字体边框的 Border 对象。
 ### getClass() {#getClass--}
 ```
@@ -304,7 +307,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getColor() {#getColor--}
 ```
@@ -314,7 +317,7 @@ public Color getColor()
 
 获取字体的颜色。
 
-**退货:**
+**退货：**
 java.awt.Color - 字体的颜色。
 ### getComplexScript() {#getComplexScript--}
 ```
@@ -324,8 +327,8 @@ public boolean getComplexScript()
 
 指定在确定此运行的格式时，是否应将此运行的内容视为复杂的脚本文本，而不考虑其 Unicode 字符值。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getDirectBorderAttr(int key) {#getDirectBorderAttr-int-}
 ```
 public Object getDirectBorderAttr(int key)
@@ -334,12 +337,13 @@ public Object getDirectBorderAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### getDoubleStrikeThrough() {#getDoubleStrikeThrough--}
 ```
@@ -349,8 +353,8 @@ public boolean getDoubleStrikeThrough()
 
 如果字体格式为双删除线文本，则为真。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getEmboss() {#getEmboss--}
 ```
 public boolean getEmboss()
@@ -359,8 +363,8 @@ public boolean getEmboss()
 
 如果字体格式为浮雕，则为真。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getEmphasisMark() {#getEmphasisMark--}
 ```
 public int getEmphasisMark()
@@ -369,8 +373,8 @@ public int getEmphasisMark()
 
 获取应用于此格式的强调标记。
 
-**退货:**
- int - 应用于此格式的强调标记。返回值是以下之一[EmphasisMark](../../com.aspose.words/emphasismark)常数。
+**退货：**
+ int - 应用于此格式的强调标记。返回值是其中之一[EmphasisMark](../../com.aspose.words/emphasismark)常数。
 ### getEngrave() {#getEngrave--}
 ```
 public boolean getEngrave()
@@ -379,8 +383,8 @@ public boolean getEngrave()
 
 如果字体格式为雕刻，则为真。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getFill() {#getFill--}
 ```
 public Fill getFill()
@@ -389,7 +393,7 @@ public Fill getFill()
 
 获取字体的填充格式。
 
-**退货:**
+**退货：**
 [Fill](../../com.aspose.words/fill) 填充字体格式。
 ### getFillType() {#getFillType--}
 ```
@@ -399,7 +403,7 @@ public int getFillType()
 
 
 
-**退货:**
+**退货：**
 整数
 ### getFillableBackColor() {#getFillableBackColor--}
 ```
@@ -409,7 +413,7 @@ public Color getFillableBackColor()
 
 
 
-**退货:**
+**退货：**
 java.awt.颜色
 ### getFillableForeColor() {#getFillableForeColor--}
 ```
@@ -419,7 +423,7 @@ public Color getFillableForeColor()
 
 
 
-**退货:**
+**退货：**
 java.awt.颜色
 ### getFillableImageBytes() {#getFillableImageBytes--}
 ```
@@ -429,7 +433,7 @@ public byte[] getFillableImageBytes()
 
 
 
-**退货:**
+**退货：**
 字节[]
 ### getFillableTransparency() {#getFillableTransparency--}
 ```
@@ -439,7 +443,7 @@ public double getFillableTransparency()
 
 
 
-**退货:**
+**退货：**
 双倍的
 ### getFillableVisible() {#getFillableVisible--}
 ```
@@ -449,7 +453,7 @@ public boolean getFillableVisible()
 
 
 
-**退货:**
+**退货：**
 布尔值
 ### getFilledColor() {#getFilledColor--}
 ```
@@ -459,7 +463,7 @@ public Color getFilledColor()
 
 
 
-**退货:**
+**退货：**
 java.awt.颜色
 ### getGradientAngle() {#getGradientAngle--}
 ```
@@ -469,7 +473,7 @@ public double getGradientAngle()
 
 
 
-**退货:**
+**退货：**
 双倍的
 ### getGradientStops() {#getGradientStops--}
 ```
@@ -479,7 +483,7 @@ public GradientStopCollection getGradientStops()
 
 
 
-**退货:**
+**退货：**
 [GradientStopCollection](../../com.aspose.words/gradientstopcollection)
 ### getGradientStyle() {#getGradientStyle--}
 ```
@@ -489,7 +493,7 @@ public int getGradientStyle()
 
 
 
-**退货:**
+**退货：**
 整数
 ### getGradientVariant() {#getGradientVariant--}
 ```
@@ -499,7 +503,7 @@ public int getGradientVariant()
 
 
 
-**退货:**
+**退货：**
 整数
 ### getHidden() {#getHidden--}
 ```
@@ -509,8 +513,8 @@ public boolean getHidden()
 
 如果字体被格式化为隐藏文本，则为真。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getHighlightColor() {#getHighlightColor--}
 ```
 public Color getHighlightColor()
@@ -519,7 +523,7 @@ public Color getHighlightColor()
 
 获取高亮（标记）颜色。
 
-**退货:**
+**退货：**
 java.awt.Color - 高亮（标记）颜色。
 ### getItalic() {#getItalic--}
 ```
@@ -529,8 +533,8 @@ public boolean getItalic()
 
 如果字体格式为斜体，则为真。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getItalicBi() {#getItalicBi--}
 ```
 public boolean getItalicBi()
@@ -539,8 +543,8 @@ public boolean getItalicBi()
 
 如果从右到左的文本格式设置为斜体，则为真。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getKerning() {#getKerning--}
 ```
 public double getKerning()
@@ -549,7 +553,7 @@ public double getKerning()
 
 获取字距调整开始时的字体大小。
 
-**退货:**
+**退货：**
 double - 字距调整开始时的字体大小。
 ### getLineSpacing() {#getLineSpacing--}
 ```
@@ -557,9 +561,9 @@ public double getLineSpacing()
 ```
 
 
-返回此字体的行距（以磅为单位）。
+返回此字体的行间距（以磅为单位）。
 
-**退货:**
+**退货：**
 double - 此字体的行距（以磅为单位）。
 ### getLocaleId() {#getLocaleId--}
 ```
@@ -569,7 +573,7 @@ public int getLocaleId()
 
 获取格式化字符的区域设置标识符（语言）。有关区域设置标识符的列表，请参阅 https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-**退货:**
+**退货：**
 int - 格式化字符的区域设置标识符（语言）。
 ### getLocaleIdBi() {#getLocaleIdBi--}
 ```
@@ -579,7 +583,7 @@ public int getLocaleIdBi()
 
 获取格式化的从右到左字符的区域设置标识符（语言）。有关区域设置标识符的列表，请参阅 https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-**退货:**
+**退货：**
 int - 格式化的从右到左字符的区域设置标识符（语言）。
 ### getLocaleIdFarEast() {#getLocaleIdFarEast--}
 ```
@@ -589,7 +593,7 @@ public int getLocaleIdFarEast()
 
 获取格式化亚洲字符的区域设置标识符（语言）。有关区域设置标识符的列表，请参阅 https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-**退货:**
+**退货：**
 int - 格式化亚洲字符的区域设置标识符（语言）。
 ### getName() {#getName--}
 ```
@@ -603,7 +607,7 @@ public String getName()
 
 设置时，设置[getNameAscii()](../../com.aspose.words/font\#getNameAscii--) / [setNameAscii(java.lang.String)](../../com.aspose.words/font\#setNameAscii-java.lang.String-), [getNameBi()](../../com.aspose.words/font\#getNameBi--) / [setNameBi(java.lang.String)](../../com.aspose.words/font\#setNameBi-java.lang.String-), [getNameFarEast()](../../com.aspose.words/font\#getNameFarEast--) / [setNameFarEast(java.lang.String)](../../com.aspose.words/font\#setNameFarEast-java.lang.String-)和[getNameOther()](../../com.aspose.words/font\#getNameOther--) / [setNameOther(java.lang.String)](../../com.aspose.words/font\#setNameOther-java.lang.String-)到指定值。
 
-**退货:**
+**退货：**
 java.lang.String - 字体的名称。
 ### getNameAscii() {#getNameAscii--}
 ```
@@ -611,9 +615,9 @@ public String getNameAscii()
 ```
 
 
-获取用于拉丁文本的字体（字符代码从 0（零）到 127 的字符）。
+获取用于拉丁文本（字符代码从 0（零）到 127 的字符）的字体。
 
-**退货:**
+**退货：**
 java.lang.String - 用于拉丁文本的字体（字符代码从 0（零）到 127 的字符）。
 ### getNameBi() {#getNameBi--}
 ```
@@ -623,7 +627,7 @@ public String getNameBi()
 
 获取从右到左的语言文档中的字体名称。
 
-**退货:**
+**退货：**
 java.lang.String - 从右到左的语言文档中的字体名称。
 ### getNameFarEast() {#getNameFarEast--}
 ```
@@ -633,7 +637,7 @@ public String getNameFarEast()
 
 获取东亚字体名称。
 
-**退货:**
+**退货：**
 java.lang.String - 东亚字体名称。
 ### getNameOther() {#getNameOther--}
 ```
@@ -643,7 +647,7 @@ public String getNameOther()
 
 获取用于字符代码从 128 到 255 的字符的字体。
 
-**退货:**
+**退货：**
 java.lang.String - 用于字符代码从 128 到 255 的字符的字体。
 ### getNoProofing() {#getNoProofing--}
 ```
@@ -653,8 +657,8 @@ public boolean getNoProofing()
 
 当格式化字符不进行拼写检查时为真。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getOn() {#getOn--}
 ```
 public boolean getOn()
@@ -663,7 +667,7 @@ public boolean getOn()
 
 
 
-**退货:**
+**退货：**
 布尔值
 ### getOpacity() {#getOpacity--}
 ```
@@ -673,7 +677,7 @@ public double getOpacity()
 
 
 
-**退货:**
+**退货：**
 双倍的
 ### getOutline() {#getOutline--}
 ```
@@ -681,10 +685,10 @@ public boolean getOutline()
 ```
 
 
-如果字体被格式化为轮廓，则为真。
+如果字体格式为轮廓，则为真。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getPatternType() {#getPatternType--}
 ```
 public int getPatternType()
@@ -693,7 +697,7 @@ public int getPatternType()
 
 
 
-**退货:**
+**退货：**
 整数
 ### getPosition() {#getPosition--}
 ```
@@ -703,7 +707,7 @@ public double getPosition()
 
 获取文本相对于基线的位置（以磅为单位）。正数提高文本，负数降低文本。
 
-**退货:**
+**退货：**
 double - 文本相对于基线的位置（以磅为单位）。
 ### getPresetTexture() {#getPresetTexture--}
 ```
@@ -713,7 +717,7 @@ public int getPresetTexture()
 
 
 
-**退货:**
+**退货：**
 整数
 ### getRotateWithObject() {#getRotateWithObject--}
 ```
@@ -723,7 +727,7 @@ public boolean getRotateWithObject()
 
 
 
-**退货:**
+**退货：**
 布尔值
 ### getScaling() {#getScaling--}
 ```
@@ -731,9 +735,9 @@ public int getScaling()
 ```
 
 
-获取字符宽度缩放百分比。
+获取以百分比表示的字符宽度缩放比例。
 
-**退货:**
+**退货：**
 int - 字符宽度缩放百分比。
 ### getShading() {#getShading--}
 ```
@@ -741,9 +745,9 @@ public Shading getShading()
 ```
 
 
-返回一个 Shading 对象，该对象引用字体的着色格式。
+返回一个 Shading 对象，该对象引用字体的阴影格式。
 
-**退货:**
+**退货：**
 [Shading](../../com.aspose.words/shading) - 一个 Shading 对象，它指的是字体的着色格式。
 ### getShadow() {#getShadow--}
 ```
@@ -751,10 +755,10 @@ public boolean getShadow()
 ```
 
 
-如果字体被格式化为阴影，则为真。
+如果字体格式为阴影，则为真。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getSize() {#getSize--}
 ```
 public double getSize()
@@ -763,7 +767,7 @@ public double getSize()
 
 获取以磅为单位的字体大小。
 
-**退货:**
+**退货：**
 double - 以磅为单位的字体大小。
 ### getSizeBi() {#getSizeBi--}
 ```
@@ -771,9 +775,9 @@ public double getSizeBi()
 ```
 
 
-获取从右到左文档中使用的字体大小（以磅为单位）。
+获取从右到左文档中使用的以磅为单位的字体大小。
 
-**退货:**
+**退货：**
 double - 在从右到左的文档中使用的字体大小（以磅为单位）。
 ### getSmallCaps() {#getSmallCaps--}
 ```
@@ -783,8 +787,8 @@ public boolean getSmallCaps()
 
 如果字体格式为小写大写字母，则为真。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getSnapToGrid() {#getSnapToGrid--}
 ```
 public boolean getSnapToGrid()
@@ -793,8 +797,8 @@ public boolean getSnapToGrid()
 
 指定当前字体在布局时是否应使用每行设置的文档网格字符。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getSpacing() {#getSpacing--}
 ```
 public double getSpacing()
@@ -803,7 +807,7 @@ public double getSpacing()
 
 获取字符之间的间距（以磅为单位）。
 
-**退货:**
+**退货：**
 double - 字符之间的间距（以磅为单位）。
 ### getStrikeThrough() {#getStrikeThrough--}
 ```
@@ -811,10 +815,10 @@ public boolean getStrikeThrough()
 ```
 
 
-如果字体格式设置为删除线文本，则为真。
+如果字体格式为删除线文本，则为真。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getStyle() {#getStyle--}
 ```
 public Style getStyle()
@@ -823,7 +827,7 @@ public Style getStyle()
 
 获取应用于此格式的字符样式。
 
-**退货:**
+**退货：**
 [Style](../../com.aspose.words/style) - 应用于此格式的字符样式。
 ### getStyleIdentifier() {#getStyleIdentifier--}
 ```
@@ -833,8 +837,8 @@ public int getStyleIdentifier()
 
 获取应用于此格式的字符样式的与区域设置无关的样式标识符。
 
-**退货:**
- int - 应用于此格式的字符样式的区域设置独立样式标识符。返回值是以下之一[StyleIdentifier](../../com.aspose.words/styleidentifier)常数。
+**退货：**
+ int - 应用于此格式的字符样式的区域设置独立样式标识符。返回值是其中之一[StyleIdentifier](../../com.aspose.words/styleidentifier)常数。
 ### getStyleName() {#getStyleName--}
 ```
 public String getStyleName()
@@ -843,7 +847,7 @@ public String getStyleName()
 
 获取应用于此格式的字符样式的名称。
 
-**退货:**
+**退货：**
 java.lang.String - 应用于此格式的字符样式的名称。
 ### getSubscript() {#getSubscript--}
 ```
@@ -851,10 +855,10 @@ public boolean getSubscript()
 ```
 
 
-如果字体被格式化为下标，则为真。
+如果字体格式为下标，则为真。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getSuperscript() {#getSuperscript--}
 ```
 public boolean getSuperscript()
@@ -863,8 +867,8 @@ public boolean getSuperscript()
 
 如果字体格式为上标，则为真。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getTextEffect() {#getTextEffect--}
 ```
 public int getTextEffect()
@@ -873,8 +877,8 @@ public int getTextEffect()
 
 获取字体动画效果。
 
-**退货:**
- int - 字体动画效果。返回值是以下之一[TextEffect](../../com.aspose.words/texteffect)常数。
+**退货：**
+ int - 字体动画效果。返回值是其中之一[TextEffect](../../com.aspose.words/texteffect)常数。
 ### getTextureAlignment() {#getTextureAlignment--}
 ```
 public int getTextureAlignment()
@@ -883,7 +887,7 @@ public int getTextureAlignment()
 
 
 
-**退货:**
+**退货：**
 整数
 ### getThemeColor() {#getThemeColor--}
 ```
@@ -891,10 +895,10 @@ public int getThemeColor()
 ```
 
 
-获取与此 Font 对象关联的已应用配色方案中的主题颜色。
+获取与此 Font 对象关联的应用配色方案中的主题颜色。
 
-**退货:**
-int - 与此 Font 对象关联的应用配色方案中的主题颜色。返回值是以下之一[ThemeColor](../../com.aspose.words/themecolor)常数。
+**退货：**
+int - 与此 Font 对象关联的应用配色方案中的主题颜色。返回值是其中之一[ThemeColor](../../com.aspose.words/themecolor)常数。
 ### getThemeFont() {#getThemeFont--}
 ```
 public int getThemeFont()
@@ -903,8 +907,8 @@ public int getThemeFont()
 
 获取与此 Font 对象关联的应用字体方案中的主题字体。
 
-**退货:**
-int - 与此 Font 对象关联的应用字体方案中的主题字体。返回值是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。
+**退货：**
+int - 与此 Font 对象关联的应用字体方案中的主题字体。返回值是其中之一[ThemeFont](../../com.aspose.words/themefont)常数。
 ### getThemeFontAscii() {#getThemeFontAscii--}
 ```
 public int getThemeFontAscii()
@@ -913,8 +917,8 @@ public int getThemeFontAscii()
 
 获取与此 Font 对象关联的应用字体方案中用于拉丁文本（字符代码从 0（零）到 127 的字符）的主题字体。
 
-**退货:**
-int - 与此 Font 对象关联的应用字体方案中用于拉丁文本（字符代码从 0（零）到 127 的字符）的主题字体。返回值是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。
+**退货：**
+int - 与此 Font 对象关联的应用字体方案中用于拉丁文本（字符代码从 0（零）到 127 的字符）的主题字体。返回值是其中之一[ThemeFont](../../com.aspose.words/themefont)常数。
 ### getThemeFontBi() {#getThemeFontBi--}
 ```
 public int getThemeFontBi()
@@ -923,8 +927,8 @@ public int getThemeFontBi()
 
 在从右到左的语言文档中获取与此 Font 对象关联的应用字体方案中的主题字体。
 
-**退货:**
-int - 在从右到左的语言文档中与此 Font 对象关联的应用字体方案中的主题字体。返回值是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。
+**退货：**
+int - 在从右到左的语言文档中与此 Font 对象关联的应用字体方案中的主题字体。返回值是其中之一[ThemeFont](../../com.aspose.words/themefont)常数。
 ### getThemeFontFarEast() {#getThemeFontFarEast--}
 ```
 public int getThemeFontFarEast()
@@ -933,8 +937,8 @@ public int getThemeFontFarEast()
 
 获取与此 Font 对象关联的应用字体方案中的东亚主题字体。
 
-**退货:**
-int - 与此 Font 对象关联的应用字体方案中的东亚主题字体。返回值是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。
+**退货：**
+int - 与此 Font 对象关联的应用字体方案中的东亚主题字体。返回值是其中之一[ThemeFont](../../com.aspose.words/themefont)常数。
 ### getThemeFontOther() {#getThemeFontOther--}
 ```
 public int getThemeFontOther()
@@ -943,8 +947,8 @@ public int getThemeFontOther()
 
 获取与此 Font 对象关联的应用字体方案中字符代码为 128 到 255 的字符所使用的主题字体。
 
-**退货:**
-int - 在与此 Font 对象关联的应用字体方案中，用于字符代码从 128 到 255 的字符的主题字体。返回值是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。
+**退货：**
+int - 在与此 Font 对象关联的应用字体方案中，用于字符代码从 128 到 255 的字符的主题字体。返回值是其中之一[ThemeFont](../../com.aspose.words/themefont)常数。
 ### getTintAndShade() {#getTintAndShade--}
 ```
 public double getTintAndShade()
@@ -955,10 +959,10 @@ public double getTintAndShade()
 
 此属性的允许值范围为 -1（最暗）到 1（最亮）。零 (0) 是中性的。尝试将此属性设置为小于 -1 或大于 1 的值会导致 java.lang.IllegalArgumentException。
 
-为具有非主题颜色的 Font 对象设置此属性会导致 java.lang.IllegalStateException。
+为具有非主题颜色的字体对象设置此属性会导致 java.lang.IllegalStateException。
 
-**退货:**
-double - 使颜色变亮或变暗的 double 值。
+**退货：**
+double - 使颜色变亮或变暗的双精度值。
 ### getUnderline() {#getUnderline--}
 ```
 public int getUnderline()
@@ -967,8 +971,8 @@ public int getUnderline()
 
 获取应用于字体的下划线类型。
 
-**退货:**
- int - 应用于字体的下划线类型。返回值是以下之一[Underline](../../com.aspose.words/underline)常数。
+**退货：**
+ int - 应用于字体的下划线类型。返回值是其中之一[Underline](../../com.aspose.words/underline)常数。
 ### getUnderlineColor() {#getUnderlineColor--}
 ```
 public Color getUnderlineColor()
@@ -977,7 +981,7 @@ public Color getUnderlineColor()
 
 获取应用于字体的下划线颜色。
 
-**退货:**
+**退货：**
 java.awt.Color - 应用于字体的下划线颜色。
 ### hasDmlEffect(int dmlEffectType) {#hasDmlEffect-int-}
 ```
@@ -987,12 +991,13 @@ public boolean hasDmlEffect(int dmlEffectType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | dmlEffectType | int |  |
 
-**退货:**
+**退货：**
 布尔值
 ### hashCode() {#hashCode--}
 ```
@@ -1002,7 +1007,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -1028,7 +1033,8 @@ public void oneColorGradient(int style, int variant, double degree)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | style | int |  |
@@ -1043,7 +1049,8 @@ public void patterned(int patternType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | patternType | int |  |
@@ -1056,7 +1063,8 @@ public void presetTextured(int presetTexture)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | presetTexture | int |  |
@@ -1069,7 +1077,8 @@ public void setAllCaps(boolean value)
 
 如果字体格式全部为大写字母，则为真。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1088,7 +1097,8 @@ public void setBidi(boolean value)
 
 此外，当显示此运行的内容时，此属性充当分类为“弱类型”和“中性类型”的字符的从右到左的覆盖。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1101,7 +1111,8 @@ public void setBold(boolean value)
 
 如果字体格式为粗体，则为真。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1114,7 +1125,8 @@ public void setBoldBi(boolean value)
 
 如果从右到左的文本格式设置为粗体，则为真。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1127,7 +1139,8 @@ public void setBorderAttr(int key, Object value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
@@ -1141,7 +1154,8 @@ public void setColor(Color value)
 
 设置字体的颜色。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.awt.Color | 字体的颜色。 |
@@ -1154,7 +1168,8 @@ public void setComplexScript(boolean value)
 
 指定在确定此运行的格式时，是否应将此运行的内容视为复杂的脚本文本，而不考虑其 Unicode 字符值。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1167,7 +1182,8 @@ public void setDoubleStrikeThrough(boolean value)
 
 如果字体格式为双删除线文本，则为真。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1180,7 +1196,8 @@ public void setEmboss(boolean value)
 
 如果字体格式为浮雕，则为真。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1193,7 +1210,8 @@ public void setEmphasisMark(int value)
 
 设置应用于此格式的强调标记。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 应用于此格式的强调标记。该值必须是其中之一[EmphasisMark](../../com.aspose.words/emphasismark)常数。 |
@@ -1206,7 +1224,8 @@ public void setEngrave(boolean value)
 
 如果字体格式为雕刻，则为真。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1219,7 +1238,8 @@ public void setFillableBackColor(Color value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.awt.Color |  |
@@ -1232,7 +1252,8 @@ public void setFillableForeColor(Color value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.awt.Color |  |
@@ -1245,7 +1266,8 @@ public void setFillableTransparency(double value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double |  |
@@ -1258,7 +1280,8 @@ public void setFillableVisible(boolean value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
@@ -1271,7 +1294,8 @@ public void setFilledColor(Color value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.awt.Color |  |
@@ -1284,7 +1308,8 @@ public void setGradientAngle(double value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double |  |
@@ -1297,7 +1322,8 @@ public void setHidden(boolean value)
 
 如果字体被格式化为隐藏文本，则为真。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1310,7 +1336,8 @@ public void setHighlightColor(Color value)
 
 设置突出显示（标记）颜色。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.awt.Color | 突出显示（标记）颜色。 |
@@ -1323,7 +1350,8 @@ public void setImage(byte[] imageBytes)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | imageBytes | byte[] |  |
@@ -1336,7 +1364,8 @@ public void setItalic(boolean value)
 
 如果字体格式为斜体，则为真。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1349,7 +1378,8 @@ public void setItalicBi(boolean value)
 
 如果从右到左的文本格式设置为斜体，则为真。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1362,10 +1392,11 @@ public void setKerning(double value)
 
 设置字距调整开始时的字体大小。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 字距调整开始的字体大小。 |
+| value | double | 字距调整开始时的字体大小。 |
 
 ### setLocaleId(int value) {#setLocaleId-int-}
 ```
@@ -1373,9 +1404,10 @@ public void setLocaleId(int value)
 ```
 
 
-设置格式化字符的区域设置标识符（语言）。有关区域设置标识符的列表，请参见 https://msdn.microsoft.com/en-us/library/cc233965.aspx
+设置格式化字符的区域设置标识符（语言）。有关区域设置标识符的列表，请参阅 https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 格式化字符的区域设置标识符（语言）。 |
@@ -1386,9 +1418,10 @@ public void setLocaleIdBi(int value)
 ```
 
 
-设置格式化的从右到左字符的区域设置标识符（语言）。有关区域设置标识符的列表，请参见 https://msdn.microsoft.com/en-us/library/cc233965.aspx
+设置格式化的从右到左字符的区域设置标识符（语言）。有关区域设置标识符的列表，请参阅 https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 格式化的从右到左字符的区域设置标识符（语言）。 |
@@ -1399,9 +1432,10 @@ public void setLocaleIdFarEast(int value)
 ```
 
 
-设置格式化亚洲字符的区域设置标识符（语言）。有关区域设置标识符的列表，请参见 https://msdn.microsoft.com/en-us/library/cc233965.aspx
+设置格式化亚洲字符的区域设置标识符（语言）。有关区域设置标识符的列表，请参阅 https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 格式化亚洲字符的区域设置标识符（语言）。 |
@@ -1418,7 +1452,8 @@ public void setName(String value)
 
 设置时，设置[getNameAscii()](../../com.aspose.words/font\#getNameAscii--) / [setNameAscii(java.lang.String)](../../com.aspose.words/font\#setNameAscii-java.lang.String-), [getNameBi()](../../com.aspose.words/font\#getNameBi--) / [setNameBi(java.lang.String)](../../com.aspose.words/font\#setNameBi-java.lang.String-), [getNameFarEast()](../../com.aspose.words/font\#getNameFarEast--) / [setNameFarEast(java.lang.String)](../../com.aspose.words/font\#setNameFarEast-java.lang.String-)和[getNameOther()](../../com.aspose.words/font\#getNameOther--) / [setNameOther(java.lang.String)](../../com.aspose.words/font\#setNameOther-java.lang.String-)到指定值。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | 字体的名称。 |
@@ -1429,9 +1464,10 @@ public void setNameAscii(String value)
 ```
 
 
-设置用于拉丁文本的字体（字符代码从 0（零）到 127 的字符）。
+设置用于拉丁文本（字符代码从 0（零）到 127 的字符）的字体。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | 用于拉丁文本的字体（字符代码从 0（零）到 127 的字符）。 |
@@ -1442,9 +1478,10 @@ public void setNameBi(String value)
 ```
 
 
-在从右到左的语言文档中设置字体的名称。
+在从右到左的语言文档中设置字体名称。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | 从右到左的语言文档中的字体名称。 |
@@ -1457,7 +1494,8 @@ public void setNameFarEast(String value)
 
 设置东亚字体名称。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | 东亚字体名称。 |
@@ -1470,7 +1508,8 @@ public void setNameOther(String value)
 
 设置用于字符代码从 128 到 255 的字符的字体。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | 用于字符代码从 128 到 255 的字符的字体。 |
@@ -1483,7 +1522,8 @@ public void setNoProofing(boolean value)
 
 当格式化字符不进行拼写检查时为真。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1496,7 +1536,8 @@ public void setOn(boolean value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
@@ -1509,7 +1550,8 @@ public void setOpacity(double value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double |  |
@@ -1520,9 +1562,10 @@ public void setOutline(boolean value)
 ```
 
 
-如果字体被格式化为轮廓，则为真。
+如果字体格式为轮廓，则为真。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1535,7 +1578,8 @@ public void setPosition(double value)
 
 设置文本相对于基线的位置（以磅为单位）。正数提高文本，负数降低文本。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 文本相对于基线的位置（以磅为单位）。 |
@@ -1548,7 +1592,8 @@ public void setRotateWithObject(boolean value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
@@ -1559,12 +1604,13 @@ public void setScaling(int value)
 ```
 
 
-以百分比设置字符宽度缩放。
+以百分比设置字符宽度缩放比例。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 字符宽度缩放百分比。 |
+| value | int | 以百分比表示的字符宽度缩放。 |
 
 ### setShadow(boolean value) {#setShadow-boolean-}
 ```
@@ -1572,9 +1618,10 @@ public void setShadow(boolean value)
 ```
 
 
-如果字体被格式化为阴影，则为真。
+如果字体格式为阴影，则为真。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1587,7 +1634,8 @@ public void setSize(double value)
 
 以磅为单位设置字体大小。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 以磅为单位的字体大小。 |
@@ -1600,10 +1648,11 @@ public void setSizeBi(double value)
 
 设置从右到左文档中使用的字体大小（以磅为单位）。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 在从右到左的文档中使用的字体大小（以磅为单位）。 |
+| value | double | 从右到左文档中使用的字体大小（以磅为单位）。 |
 
 ### setSmallCaps(boolean value) {#setSmallCaps-boolean-}
 ```
@@ -1613,7 +1662,8 @@ public void setSmallCaps(boolean value)
 
 如果字体格式为小写大写字母，则为真。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1626,7 +1676,8 @@ public void setSnapToGrid(boolean value)
 
 指定当前字体在布局时是否应使用每行设置的文档网格字符。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1639,7 +1690,8 @@ public void setSpacing(double value)
 
 设置字符之间的间距（以磅为单位）。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 字符之间的间距（以磅为单位）。 |
@@ -1650,9 +1702,10 @@ public void setStrikeThrough(boolean value)
 ```
 
 
-如果字体格式设置为删除线文本，则为真。
+如果字体格式为删除线文本，则为真。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1665,7 +1718,8 @@ public void setStyle(Style value)
 
 设置应用于此格式的字符样式。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | [Style](../../com.aspose.words/style) | 应用于此格式的字符样式。 |
@@ -1676,9 +1730,10 @@ public void setStyleIdentifier(int value)
 ```
 
 
-设置应用于此格式的字符样式的与区域设置无关的样式标识符。
+设置应用于此格式的字符样式的区域设置独立样式标识符。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 应用于此格式的字符样式的区域设置独立样式标识符。该值必须是其中之一[StyleIdentifier](../../com.aspose.words/styleidentifier)常数。 |
@@ -1691,7 +1746,8 @@ public void setStyleName(String value)
 
 设置应用于此格式的字符样式的名称。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | 应用于此格式的字符样式的名称。 |
@@ -1702,9 +1758,10 @@ public void setSubscript(boolean value)
 ```
 
 
-如果字体被格式化为下标，则为真。
+如果字体格式为下标，则为真。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1717,7 +1774,8 @@ public void setSuperscript(boolean value)
 
 如果字体格式为上标，则为真。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1730,7 +1788,8 @@ public void setTextEffect(int value)
 
 设置字体动画效果。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 字体动画效果。该值必须是其中之一[TextEffect](../../com.aspose.words/texteffect)常数。 |
@@ -1743,7 +1802,8 @@ public void setTextureAlignment(int value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int |  |
@@ -1754,9 +1814,10 @@ public void setThemeColor(int value)
 ```
 
 
-在与此 Font 对象关联的应用颜色方案中设置主题颜色。
+设置与此 Font 对象关联的应用配色方案中的主题颜色。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 与此 Font 对象关联的应用配色方案中的主题颜色。该值必须是其中之一[ThemeColor](../../com.aspose.words/themecolor)常数。 |
@@ -1769,7 +1830,8 @@ public void setThemeFont(int value)
 
 在与此 Font 对象关联的应用字体方案中设置主题字体。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 与此 Font 对象关联的应用字体方案中的主题字体。该值必须是其中之一[ThemeFont](../../com.aspose.words/themefont)常数。 |
@@ -1782,7 +1844,8 @@ public void setThemeFontAscii(int value)
 
 在与此 Font 对象关联的应用字体方案中设置用于拉丁文本（字符代码从 0（零）到 127 的字符）的主题字体。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 与此 Font 对象关联的应用字体方案中用于拉丁文本（字符代码从 0（零）到 127 的字符）的主题字体。该值必须是其中之一[ThemeFont](../../com.aspose.words/themefont)常数。 |
@@ -1795,7 +1858,8 @@ public void setThemeFontBi(int value)
 
 在从右到左的语言文档中设置与此 Font 对象关联的应用字体方案中的主题字体。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 在从右到左的语言文档中，与此 Font 对象关联的应用字体方案中的主题字体。该值必须是其中之一[ThemeFont](../../com.aspose.words/themefont)常数。 |
@@ -1808,7 +1872,8 @@ public void setThemeFontFarEast(int value)
 
 在与此 Font 对象关联的应用字体方案中设置东亚主题字体。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 与此 Font 对象关联的应用字体方案中的东亚主题字体。该值必须是其中之一[ThemeFont](../../com.aspose.words/themefont)常数。 |
@@ -1821,7 +1886,8 @@ public void setThemeFontOther(int value)
 
 在与此 Font 对象关联的应用字体方案中，设置用于字符代码从 128 到 255 的字符的主题字体。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 在与此 Font 对象关联的应用字体方案中，用于字符代码从 128 到 255 的字符的主题字体。该值必须是其中之一[ThemeFont](../../com.aspose.words/themefont)常数。 |
@@ -1836,9 +1902,10 @@ public void setTintAndShade(double value)
 
 此属性的允许值范围为 -1（最暗）到 1（最亮）。零 (0) 是中性的。尝试将此属性设置为小于 -1 或大于 1 的值会导致 java.lang.IllegalArgumentException。
 
-为具有非主题颜色的 Font 对象设置此属性会导致 java.lang.IllegalStateException。
+为具有非主题颜色的字体对象设置此属性会导致 java.lang.IllegalStateException。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 使颜色变亮或变暗的双精度值。 |
@@ -1851,7 +1918,8 @@ public void setUnderline(int value)
 
 设置应用于字体的下划线类型。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 应用于字体的下划线类型。该值必须是其中之一[Underline](../../com.aspose.words/underline)常数。 |
@@ -1864,7 +1932,8 @@ public void setUnderlineColor(Color value)
 
 设置应用于字体的下划线颜色。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.awt.Color | 应用于字体的下划线颜色。 |
@@ -1885,8 +1954,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### twoColorGradient(int style, int variant) {#twoColorGradient-int-int-}
 ```
 public void twoColorGradient(int style, int variant)
@@ -1895,7 +1964,8 @@ public void twoColorGradient(int style, int variant)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | style | int |  |
@@ -1917,7 +1987,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -1930,7 +2001,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

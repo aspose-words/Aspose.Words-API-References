@@ -7,7 +7,7 @@ weight: 304
 url: /zh/java/com.aspose.words/generalformat/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class GeneralFormat
@@ -360,7 +360,7 @@ public static int KANJI_NUM_1
 ```
 
 
-数字格式。使用适当的计数系统使用日式样式格式化数字结果。
+数字格式。使用适当的计数系统使用日本风格格式化数字结果。
 
 ### KANJI_NUM_2 {#KANJI-NUM-2}
 ```
@@ -384,7 +384,7 @@ public static int LOWER
 ```
 
 
-文本格式。所有字母都是小写的。
+文本格式。所有字母均为小写。
 
 ### LOWERCASE_ALPHABETIC {#LOWERCASE-ALPHABETIC}
 ```
@@ -392,7 +392,7 @@ public static int LOWERCASE_ALPHABETIC
 ```
 
 
-数字格式。将数值结果格式化为一个或多个小写字母拉丁字符。
+数字格式。将数字结果格式化为一个或多个小写字母拉丁字符。
 
 ### LOWERCASE_ROMAN {#LOWERCASE-ROMAN}
 ```
@@ -400,7 +400,7 @@ public static int LOWERCASE_ROMAN
 ```
 
 
-数字格式。小写罗马字母 (i, ii, iii, ...)。
+数字格式。小写罗马字 (i, ii, iii, ...)。
 
 ### MERGE_FORMAT {#MERGE-FORMAT}
 ```
@@ -432,7 +432,7 @@ public static int ORDINAL
 ```
 
 
-数字格式。序数（第 1、第 2、第 3、...）。
+数字格式。序数（第一，第二，第三，......）。
 
 ### ORD_TEXT {#ORD-TEXT}
 ```
@@ -440,7 +440,7 @@ public static int ORD_TEXT
 ```
 
 
-数字格式。序数文本（第一，第二，第三，...）。
+数字格式。序号文本（第一、第二、第三……）。
 
 ### SB_CHAR {#SB-CHAR}
 ```
@@ -454,7 +454,7 @@ public static int THAI_ARABIC
 ```
 
 
-数字格式。使用泰语数字格式化数字结果。
+数字格式。使用泰国数字格式化数字结果。
 
 ### THAI_CARD_TEXT {#THAI-CARD-TEXT}
 ```
@@ -462,7 +462,7 @@ public static int THAI_CARD_TEXT
 ```
 
 
-数字格式。使用泰语计数系统中的序列号格式化数字结果。
+数字格式。使用泰国计数系统中的序号格式化数字结果。
 
 ### THAI_LETTER {#THAI-LETTER}
 ```
@@ -470,7 +470,7 @@ public static int THAI_LETTER
 ```
 
 
-数字格式。使用泰语字母格式化数字结果。
+数字格式。使用泰文字母格式化数字结果。
 
 ### UPPER {#UPPER}
 ```
@@ -478,7 +478,7 @@ public static int UPPER
 ```
 
 
-文本格式。所有字母都是大写的。
+文本格式。所有字母均为大写。
 
 ### UPPERCASE_ALPHABETIC {#UPPERCASE-ALPHABETIC}
 ```
@@ -486,7 +486,7 @@ public static int UPPERCASE_ALPHABETIC
 ```
 
 
-数字格式。将数值结果格式化为一次或多次出现的大写拉丁字母字符。
+数字格式。将数字结果格式化为一个或多个大写字母拉丁字符。
 
 ### UPPERCASE_ROMAN {#UPPERCASE-ROMAN}
 ```
@@ -494,7 +494,7 @@ public static int UPPERCASE_ROMAN
 ```
 
 
-数字格式。大写罗马字母 (I, II, III, ...)。
+数字格式。大写罗马字（I、II、III、...）。
 
 ### VIET_CARD_TEXT {#VIET-CARD-TEXT}
 ```
@@ -518,7 +518,7 @@ public static int ZODIAC_2
 ```
 
 
-数字格式。使用顺序生肖象形文字格式化数字结果。
+数字格式。使用连续的生肖表意文字格式化数字结果。
 
 ### ZODIAC_3 {#ZODIAC-3}
 ```
@@ -542,12 +542,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String generalFormatName) {#fromName-java.lang.String-}
 ```
@@ -557,12 +558,13 @@ public static int fromName(String generalFormatName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | generalFormatName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -572,7 +574,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int generalFormat) {#getName-int-}
 ```
@@ -582,13 +584,14 @@ public static String getName(int generalFormat)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | generalFormat | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -597,7 +600,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -607,7 +610,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -633,8 +636,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int generalFormat) {#toString-int-}
 ```
 public static String toString(int generalFormat)
@@ -643,13 +646,14 @@ public static String toString(int generalFormat)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | generalFormat | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -666,7 +670,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -679,7 +684,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

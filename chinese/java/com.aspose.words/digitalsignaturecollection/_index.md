@@ -7,10 +7,10 @@ weight: 112
 url: /zh/java/com.aspose.words/digitalsignaturecollection/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Iterable
 ```
 public class DigitalSignatureCollection implements Iterable
@@ -30,8 +30,8 @@ public class DigitalSignatureCollection implements Iterable
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中包含的元素数。 |
 | [hashCode()](#hashCode--) |  |
-| [isValid()](#isValid--) | 如果此集合中的所有数字签名都有效并且文档未被篡改，则返回 true 如果没有数字签名，则返回 true。 |
-| [iterator()](#iterator--) | 返回一个字典迭代器对象，该对象可用于迭代集合中的所有项目。 |
+| [isValid()](#isValid--) | 如果此集合中的所有数字签名均有效且文档未被篡改，则返回 true 如果没有数字签名，则返回 true。 |
+| [iterator()](#iterator--) | 返回一个字典迭代器对象，可用于迭代集合中的所有项目。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -46,12 +46,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### get(int index) {#get-int-}
 ```
@@ -61,12 +62,13 @@ public DigitalSignature get(int index)
 
 获取指定索引处的文档签名。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int | 签名的从零开始的索引。 |
 
-**退货:**
+**退货：**
 [DigitalSignature](../../com.aspose.words/digitalsignature) - 指定索引处的文档签名。
 ### getClass() {#getClass--}
 ```
@@ -76,7 +78,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
@@ -86,7 +88,7 @@ public int getCount()
 
 获取集合中包含的元素数。
 
-**退货:**
+**退货：**
 int - 集合中包含的元素数。
 ### hashCode() {#hashCode--}
 ```
@@ -96,7 +98,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### isValid() {#isValid--}
 ```
@@ -104,20 +106,20 @@ public boolean isValid()
 ```
 
 
-如果此集合中的所有数字签名都有效并且文档未被篡改，则返回 true 如果没有数字签名，则返回 true。如果至少一个数字签名无效，则返回 false。
+如果此集合中的所有数字签名均有效且文档未被篡改，则返回 true 如果没有数字签名，则返回 true。如果至少有一个数字签名无效，则返回 false。
 
-**退货:**
-布尔值 -\{ 如果此集合中的所有数字签名均有效且文档未被篡改，则返回 true 如果没有数字签名，则返回 true。
+**退货：**
+布尔值 -\{ 如果此集合中的所有数字签名均有效且文档未被篡改，则返回 true 如果没有数字签名，则也返回 true。
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-返回一个字典迭代器对象，该对象可用于迭代集合中的所有项目。
+返回一个字典迭代器对象，可用于迭代集合中的所有项目。
 
-**退货:**
-java.util.Iterator
+**退货：**
+java.util.迭代器
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -142,8 +144,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -160,7 +162,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -173,7 +176,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

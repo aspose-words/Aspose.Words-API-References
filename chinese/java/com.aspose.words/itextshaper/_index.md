@@ -22,7 +22,8 @@ public abstract Cluster[][] shapeText(String[] runs, int direction, int script, 
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | runs | java.lang.String[] |  |
@@ -30,5 +31,5 @@ public abstract Cluster[][] shapeText(String[] runs, int direction, int script, 
 | script | int |  |
 | fontFeatures | int[] |  |
 
-**退货:**
+**退货：**
 com.aspose.words.Cluster[][]

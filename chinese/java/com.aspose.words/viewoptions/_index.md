@@ -7,10 +7,10 @@ weight: 601
 url: /zh/java/com.aspose.words/viewoptions/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Cloneable
 ```
 public class ViewOptions implements Cloneable
@@ -52,12 +52,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -67,7 +68,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getDisplayBackgroundShape() {#getDisplayBackgroundShape--}
 ```
@@ -77,8 +78,8 @@ public boolean getDisplayBackgroundShape()
 
 控制打印布局视图中背景形状的显示。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getDoNotDisplayPageBoundaries() {#getDoNotDisplayPageBoundaries--}
 ```
 public boolean getDoNotDisplayPageBoundaries()
@@ -87,8 +88,8 @@ public boolean getDoNotDisplayPageBoundaries()
 
 关闭显示文本顶部和页面顶部边缘之间的空间。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getFormsDesign() {#getFormsDesign--}
 ```
 public boolean getFormsDesign()
@@ -99,8 +100,8 @@ public boolean getFormsDesign()
 
 目前仅适用于 WordML 格式的文档。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getViewType() {#getViewType--}
 ```
 public int getViewType()
@@ -111,8 +112,8 @@ public int getViewType()
 
 虽然 Aspose.Words 能够读写这个选项，但它的用法是特定于应用程序的。例如 MS Word 2013 不遵守此选项的值。
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[ViewType](../../com.aspose.words/viewtype)常数。
+**退货：**
+int - 相应的 int 值。返回值是其中之一[ViewType](../../com.aspose.words/viewtype)常数。
 ### getZoomPercent() {#getZoomPercent--}
 ```
 public int getZoomPercent()
@@ -125,7 +126,7 @@ public int getZoomPercent()
 
 虽然 Aspose.Words 能够读写这个选项，但它的用法是特定于应用程序的。例如 MS Word 2013 不遵守此选项的值。
 
-**退货:**
+**退货：**
 int - 您希望查看文档的百分比（介于 10 和 500 之间）。
 ### getZoomType() {#getZoomType--}
 ```
@@ -135,8 +136,8 @@ public int getZoomType()
 
 获取基于窗口大小的缩放值。
 
-**退货:**
-int - 基于窗口大小的缩放值。返回值是以下之一[ZoomType](../../com.aspose.words/zoomtype)常数。
+**退货：**
+int - 基于窗口大小的缩放值。返回值是其中之一[ZoomType](../../com.aspose.words/zoomtype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -145,7 +146,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -171,7 +172,8 @@ public void setDisplayBackgroundShape(boolean value)
 
 控制打印布局视图中背景形状的显示。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -184,7 +186,8 @@ public void setDoNotDisplayPageBoundaries(boolean value)
 
 关闭显示文本顶部和页面顶部边缘之间的空间。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -199,7 +202,8 @@ public void setFormsDesign(boolean value)
 
 目前仅适用于 WordML 格式的文档。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -214,10 +218,11 @@ public void setViewType(int value)
 
 虽然 Aspose.Words 能够读写这个选项，但它的用法是特定于应用程序的。例如 MS Word 2013 不遵守此选项的值。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[ViewType](../../com.aspose.words/viewtype)常数。 |
+| value | int | 对应的int值。该值必须是其中之一[ViewType](../../com.aspose.words/viewtype)常数。 |
 
 ### setZoomPercent(int value) {#setZoomPercent-int-}
 ```
@@ -231,7 +236,8 @@ public void setZoomPercent(int value)
 
 虽然 Aspose.Words 能够读写这个选项，但它的用法是特定于应用程序的。例如 MS Word 2013 不遵守此选项的值。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 您希望查看文档的百分比（10 到 500 之间）。 |
@@ -244,7 +250,8 @@ public void setZoomType(int value)
 
 根据窗口大小设置缩放值。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 基于窗口大小的缩放值。该值必须是其中之一[ZoomType](../../com.aspose.words/zoomtype)常数。 |
@@ -257,8 +264,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -275,7 +282,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -288,7 +296,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

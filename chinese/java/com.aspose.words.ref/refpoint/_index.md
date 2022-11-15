@@ -7,14 +7,14 @@ weight: 17
 url: /zh/java/com.aspose.words.ref/refpoint/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class RefPoint
 ```
 
 表示 Point 结构的 Out/Ref 结构
-## 构造函数
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -24,12 +24,12 @@ public class RefPoint
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get()](#get--) | 获取 Out/Ref 参数值 应在调用具有 Out/Ref 构造的方法后使用 |
+| [get()](#get--) | 获取 Out/Ref 参数值 应在调用带有 Out/Ref 结构的方法后使用 |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [set(long anotherValue)](#set-long-) | 设置 Out/Ref 参数值 应在具有 Out/Ref 结构的方法内部使用 |
+| [set(long anotherValue)](#set-long-) | 设置 Out/Ref 参数值应该在具有 Out/Ref 构造的方法内部使用 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -40,9 +40,10 @@ public RefPoint(long value)
 ```
 
 
-使用给定值模拟 Out/Ref 参数初始化。应该在调用具有 Out/Ref 结构的方法之前使用
+使用给定值模拟 Out/Ref 参数初始化。应在使用 Out/Ref 构造调用方法之前使用
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | long |  |
@@ -55,12 +56,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### get() {#get--}
 ```
@@ -68,9 +70,9 @@ public long get()
 ```
 
 
-获取 Out/Ref 参数值 应在调用具有 Out/Ref 构造的方法后使用
+获取 Out/Ref 参数值 应在调用带有 Out/Ref 结构的方法后使用
 
-**退货:**
+**退货：**
 长
 ### getClass() {#getClass--}
 ```
@@ -80,7 +82,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
@@ -90,7 +92,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -114,14 +116,15 @@ public long set(long anotherValue)
 ```
 
 
-设置 Out/Ref 参数值 应在具有 Out/Ref 结构的方法内部使用
+设置 Out/Ref 参数值应该在具有 Out/Ref 构造的方法内部使用
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | anotherValue | long |  |
 
-**退货:**
+**退货：**
 长
 ### toString() {#toString--}
 ```
@@ -131,8 +134,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -149,7 +152,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -162,7 +166,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

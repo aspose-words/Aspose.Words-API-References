@@ -7,7 +7,7 @@ weight: 603
 url: /zh/java/com.aspose.words/visitoraction/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class VisitorAction
@@ -19,8 +19,8 @@ public class VisitorAction
 | 场地 | 描述 |
 | --- | --- |
 | [CONTINUE](#CONTINUE) | 访问者请求枚举继续。 |
-| [SKIP_THIS_NODE](#SKIP-THIS-NODE) | 访问者请求跳过当前节点并继续枚举。 |
-| [STOP](#STOP) | 访问者请求停止枚举节点。 |
+| [SKIP_THIS_NODE](#SKIP-THIS-NODE) | 访问者请求跳过当前节点继续枚举。 |
+| [STOP](#STOP) | 访问者请求节点枚举停止。 |
 | [length](#length) |  |
 ## 方法
 
@@ -53,7 +53,7 @@ public static int SKIP_THIS_NODE
 ```
 
 
-访问者请求跳过当前节点并继续枚举。
+访问者请求跳过当前节点继续枚举。
 
 ### STOP {#STOP}
 ```
@@ -61,7 +61,7 @@ public static int STOP
 ```
 
 
-访问者请求停止枚举节点。
+访问者请求节点枚举停止。
 
 ### length {#length}
 ```
@@ -77,12 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String visitorActionName) {#fromName-java.lang.String-}
 ```
@@ -92,12 +93,13 @@ public static int fromName(String visitorActionName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | visitorActionName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -107,7 +109,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int visitorAction) {#getName-int-}
 ```
@@ -117,13 +119,14 @@ public static String getName(int visitorAction)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | visitorAction | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -132,7 +135,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -142,7 +145,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -168,8 +171,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int visitorAction) {#toString-int-}
 ```
 public static String toString(int visitorAction)
@@ -178,13 +181,14 @@ public static String toString(int visitorAction)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | visitorAction | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -201,7 +205,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -214,7 +219,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

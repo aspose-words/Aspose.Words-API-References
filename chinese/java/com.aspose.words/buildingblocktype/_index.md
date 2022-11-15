@@ -7,7 +7,7 @@ weight: 45
 url: /zh/java/com.aspose.words/buildingblocktype/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class BuildingBlockType
@@ -28,7 +28,7 @@ public class BuildingBlockType
 | [FORM_FIELD_HELP_TEXT](#FORM-FIELD-HELP-TEXT) | 构建块是一个表单字段帮助文本。 |
 | [NONE](#NONE) | 没有为构建块指定类型信息。 |
 | [NORMAL](#NORMAL) | 积木是正常的（即 |
-| [STRUCTURED_DOCUMENT_TAG_PLACEHOLDER_TEXT](#STRUCTURED-DOCUMENT-TAG-PLACEHOLDER-TEXT) | 构建块是结构化文档标记占位符文本。 |
+| [STRUCTURED_DOCUMENT_TAG_PLACEHOLDER_TEXT](#STRUCTURED-DOCUMENT-TAG-PLACEHOLDER-TEXT) | 构建块是结构化的文档标签占位符文本。 |
 | [length](#length) |  |
 ## 方法
 
@@ -109,7 +109,7 @@ public static int NORMAL
 ```
 
 
-构建块是一个普通的（即常规的）词汇表文档条目。
+构建块是一个正常的（即常规的）词汇表文档条目。
 
 ### STRUCTURED_DOCUMENT_TAG_PLACEHOLDER_TEXT {#STRUCTURED-DOCUMENT-TAG-PLACEHOLDER-TEXT}
 ```
@@ -117,7 +117,7 @@ public static int STRUCTURED_DOCUMENT_TAG_PLACEHOLDER_TEXT
 ```
 
 
-构建块是结构化文档标记占位符文本。
+构建块是结构化的文档标签占位符文本。
 
 ### length {#length}
 ```
@@ -133,12 +133,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String buildingBlockTypeName) {#fromName-java.lang.String-}
 ```
@@ -148,12 +149,13 @@ public static int fromName(String buildingBlockTypeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | buildingBlockTypeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -163,7 +165,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int buildingBlockType) {#getName-int-}
 ```
@@ -173,13 +175,14 @@ public static String getName(int buildingBlockType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | buildingBlockType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -188,7 +191,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -198,7 +201,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -224,8 +227,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int buildingBlockType) {#toString-int-}
 ```
 public static String toString(int buildingBlockType)
@@ -234,13 +237,14 @@ public static String toString(int buildingBlockType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | buildingBlockType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -257,7 +261,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -270,7 +275,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

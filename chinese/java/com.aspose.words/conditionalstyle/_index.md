@@ -7,10 +7,10 @@ weight: 89
 url: /zh/java/com.aspose.words/conditionalstyle/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Cloneable
 ```
 public class ConditionalStyle implements Cloneable
@@ -32,7 +32,7 @@ public class ConditionalStyle implements Cloneable
 | [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
 | [fetchInheritedShadingAttr(int key)](#fetchInheritedShadingAttr-int-) |  |
 | [fetchParaAttr(int key)](#fetchParaAttr-int-) |  |
-| [getBorders()](#getBorders--) | 获取条件样式的默认单元格边框的集合。 |
+| [getBorders()](#getBorders--) | 获取条件样式的默认单元格边框集合。 |
 | [getBottomPadding()](#getBottomPadding--) | 获取要添加到表格单元格内容下方的空间量（以磅为单位）。 |
 | [getClass()](#getClass--) |  |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int-) |  |
@@ -45,7 +45,7 @@ public class ConditionalStyle implements Cloneable
 | [getRightPadding()](#getRightPadding--) | 获取要添加到表格单元格内容右侧的空间量（以磅为单位）。 |
 | [getShading()](#getShading--) | 得到一个[Shading](../../com.aspose.words/shading)引用此条件样式的阴影格式的对象。 |
 | [getTopPadding()](#getTopPadding--) | 获取要添加到表格单元格内容上方的空间量（以磅为单位）。 |
-| [getType()](#getType--) | 获取与此条件样式相关的表格区域。 |
+| [getType()](#getType--) | 获取与此条件样式相关的表区域。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -94,12 +94,13 @@ public boolean equals(Object obj)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | obj | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int-}
 ```
@@ -109,12 +110,13 @@ public Object fetchInheritedBorderAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### fetchInheritedParaAttr(int key) {#fetchInheritedParaAttr-int-}
 ```
@@ -124,12 +126,13 @@ public Object fetchInheritedParaAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
 ```
@@ -139,12 +142,13 @@ public Object fetchInheritedRunAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### fetchInheritedShadingAttr(int key) {#fetchInheritedShadingAttr-int-}
 ```
@@ -154,12 +158,13 @@ public Object fetchInheritedShadingAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### fetchParaAttr(int key) {#fetchParaAttr-int-}
 ```
@@ -169,12 +174,13 @@ public Object fetchParaAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### getBorders() {#getBorders--}
 ```
@@ -182,10 +188,10 @@ public BorderCollection getBorders()
 ```
 
 
-获取条件样式的默认单元格边框的集合。
+获取条件样式的默认单元格边框集合。
 
-**退货:**
-[BorderCollection](../../com.aspose.words/bordercollection) - 条件样式的默认单元格边框的集合。
+**退货：**
+[BorderCollection](../../com.aspose.words/bordercollection) - 条件样式的默认单元格边框集合。
 ### getBottomPadding() {#getBottomPadding--}
 ```
 public double getBottomPadding()
@@ -194,7 +200,7 @@ public double getBottomPadding()
 
 获取要添加到表格单元格内容下方的空间量（以磅为单位）。
 
-**退货:**
+**退货：**
 double - 在表格单元格内容下方添加的空间量（以磅为单位）。
 ### getClass() {#getClass--}
 ```
@@ -204,7 +210,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getDirectBorderAttr(int key) {#getDirectBorderAttr-int-}
 ```
@@ -214,12 +220,13 @@ public Object getDirectBorderAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### getDirectParaAttr(int key) {#getDirectParaAttr-int-}
 ```
@@ -229,12 +236,13 @@ public Object getDirectParaAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### getDirectParaAttr(int key, int revisionsView) {#getDirectParaAttr-int-int-}
 ```
@@ -244,13 +252,14 @@ public Object getDirectParaAttr(int key, int revisionsView)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 | revisionsView | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
 ```
@@ -260,12 +269,13 @@ public Object getDirectRunAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### getFont() {#getFont--}
 ```
@@ -275,7 +285,7 @@ public Font getFont()
 
 获取条件样式的字符格式。
 
-**退货:**
+**退货：**
 [Font](../../com.aspose.words/font) - 条件样式的字符格式。
 ### getLeftPadding() {#getLeftPadding--}
 ```
@@ -285,7 +295,7 @@ public double getLeftPadding()
 
 获取要添加到表格单元格内容左侧的空间量（以磅为单位）。
 
-**退货:**
+**退货：**
 double - 添加到表格单元格内容左侧的空间量（以磅为单位）。
 ### getParagraphFormat() {#getParagraphFormat--}
 ```
@@ -295,7 +305,7 @@ public ParagraphFormat getParagraphFormat()
 
 获取条件样式的段落格式。
 
-**退货:**
+**退货：**
 [ParagraphFormat](../../com.aspose.words/paragraphformat) - 条件样式的段落格式。
 ### getRightPadding() {#getRightPadding--}
 ```
@@ -305,7 +315,7 @@ public double getRightPadding()
 
 获取要添加到表格单元格内容右侧的空间量（以磅为单位）。
 
-**退货:**
+**退货：**
 double - 添加到表格单元格内容右侧的空间量（以磅为单位）。
 ### getShading() {#getShading--}
 ```
@@ -315,7 +325,7 @@ public Shading getShading()
 
 得到一个[Shading](../../com.aspose.words/shading)引用此条件样式的阴影格式的对象。
 
-**退货:**
+**退货：**
 [Shading](../../com.aspose.words/shading) - 一个[Shading](../../com.aspose.words/shading)引用此条件样式的阴影格式的对象。
 ### getTopPadding() {#getTopPadding--}
 ```
@@ -325,7 +335,7 @@ public double getTopPadding()
 
 获取要添加到表格单元格内容上方的空间量（以磅为单位）。
 
-**退货:**
+**退货：**
 double - 添加到表格单元格内容上方的空间量（以磅为单位）。
 ### getType() {#getType--}
 ```
@@ -333,10 +343,10 @@ public int getType()
 ```
 
 
-获取与此条件样式相关的表格区域。
+获取与此条件样式相关的表区域。
 
-**退货:**
- int - 此条件样式相关的表区域。返回值是以下之一[ConditionalStyleType](../../com.aspose.words/conditionalstyletype)常数。
+**退货：**
+ int - 此条件样式相关的表区域。返回值是其中之一[ConditionalStyleType](../../com.aspose.words/conditionalstyletype)常数。
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -345,7 +355,7 @@ public int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -371,7 +381,8 @@ public void removeParaAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
@@ -384,7 +395,8 @@ public void removeRunAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
@@ -397,7 +409,8 @@ public void setBorderAttr(int key, Object value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
@@ -411,7 +424,8 @@ public void setBottomPadding(double value)
 
 设置要在表格单元格内容下方添加的空间量（以磅为单位）。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 在表格单元格内容下方添加的空间量（以磅为单位）。 |
@@ -424,7 +438,8 @@ public void setLeftPadding(double value)
 
 设置要添加到表格单元格内容左侧的空间量（以磅为单位）。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 添加到表格单元格内容左侧的空间量（以磅为单位）。 |
@@ -437,7 +452,8 @@ public void setParaAttr(int key, Object value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
@@ -451,7 +467,8 @@ public void setRightPadding(double value)
 
 设置要添加到表格单元格内容右侧的空间量（以磅为单位）。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 添加到表格单元格内容右侧的空间量（以磅为单位）。 |
@@ -464,7 +481,8 @@ public void setRunAttr(int key, Object value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
@@ -478,7 +496,8 @@ public void setTopPadding(double value)
 
 设置要在表格单元格内容上方添加的空间量（以磅为单位）。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 添加到表格单元格内容上方的空间量（以磅为单位）。 |
@@ -491,8 +510,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -509,7 +528,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -522,7 +542,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

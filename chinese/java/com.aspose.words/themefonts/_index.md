@@ -1,16 +1,16 @@
 ---
 title: ThemeFonts
 second_title: Aspose.Words for Java API 参考
-description: 表示字体方案中的字体集合，允许为不同的语言 / / 和 / 指定不同的字体。
+description: 表示字体方案中的字体集合，允许为不同的语言指定不同的字体 / / 和 /。
 type: docs
 weight: 577
 url: /zh/java/com.aspose.words/themefonts/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Cloneable
 ```
 public class ThemeFonts implements Cloneable
@@ -46,12 +46,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -61,7 +62,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getComplexScript() {#getComplexScript--}
 ```
@@ -71,8 +72,8 @@ public String getComplexScript()
 
 指定 ComplexScript 字符的字体名称。
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**退货：**
+java.lang.String - 相应的 java.lang.String 值。
 ### getEastAsian() {#getEastAsian--}
 ```
 public String getEastAsian()
@@ -81,8 +82,8 @@ public String getEastAsian()
 
 指定东亚字符的字体名称。
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**退货：**
+java.lang.String - 相应的 java.lang.String 值。
 ### getLatin() {#getLatin--}
 ```
 public String getLatin()
@@ -91,8 +92,8 @@ public String getLatin()
 
 指定拉丁字符的字体名称。
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**退货：**
+java.lang.String - 相应的 java.lang.String 值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -101,7 +102,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -127,10 +128,11 @@ public void setComplexScript(String value)
 
 指定 ComplexScript 字符的字体名称。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | 对应的java.lang.String值。 |
 
 ### setEastAsian(String value) {#setEastAsian-java.lang.String-}
 ```
@@ -140,10 +142,11 @@ public void setEastAsian(String value)
 
 指定东亚字符的字体名称。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | 对应的java.lang.String值。 |
 
 ### setLatin(String value) {#setLatin-java.lang.String-}
 ```
@@ -153,10 +156,11 @@ public void setLatin(String value)
 
 指定拉丁字符的字体名称。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | 对应的java.lang.String值。 |
 
 ### toString() {#toString--}
 ```
@@ -166,8 +170,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -184,7 +188,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -197,7 +202,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

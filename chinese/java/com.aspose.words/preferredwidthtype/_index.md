@@ -1,26 +1,26 @@
 ---
 title: PreferredWidthType
 second_title: Aspose.Words for Java API 参考
-description: 指定表格或单元格的首选宽度的度量单位。
+description: 指定表格或单元格的首选宽度的测量单位。
 type: docs
 weight: 467
 url: /zh/java/com.aspose.words/preferredwidthtype/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class PreferredWidthType
 ```
 
-指定表格或单元格的首选宽度的度量单位。
+指定表格或单元格的首选宽度的测量单位。
 ## 字段
 
 | 场地 | 描述 |
 | --- | --- |
 | [AUTO](#AUTO) | 未指定首选宽度。 |
-| [PERCENT](#PERCENT) | 使用指定百分比测量当前项目宽度。 |
-| [POINTS](#POINTS) | 使用指定的点数（1/72 英寸）测量当前项目的宽度。 |
+| [PERCENT](#PERCENT) | 使用指定的百分比测量当前项目宽度。 |
+| [POINTS](#POINTS) | 使用指定数量的点（1/72 英寸）测量当前项目宽度。 |
 | [length](#length) |  |
 ## 方法
 
@@ -53,7 +53,7 @@ public static int PERCENT
 ```
 
 
-使用指定百分比测量当前项目宽度。
+使用指定的百分比测量当前项目宽度。
 
 ### POINTS {#POINTS}
 ```
@@ -61,7 +61,7 @@ public static int POINTS
 ```
 
 
-使用指定的点数（1/72 英寸）测量当前项目的宽度。
+使用指定数量的点（1/72 英寸）测量当前项目宽度。
 
 ### length {#length}
 ```
@@ -77,12 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String preferredWidthTypeName) {#fromName-java.lang.String-}
 ```
@@ -92,12 +93,13 @@ public static int fromName(String preferredWidthTypeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | preferredWidthTypeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -107,7 +109,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int preferredWidthType) {#getName-int-}
 ```
@@ -117,13 +119,14 @@ public static String getName(int preferredWidthType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | preferredWidthType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -132,7 +135,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -142,7 +145,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -168,8 +171,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int preferredWidthType) {#toString-int-}
 ```
 public static String toString(int preferredWidthType)
@@ -178,13 +181,14 @@ public static String toString(int preferredWidthType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | preferredWidthType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -201,7 +205,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -214,7 +219,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

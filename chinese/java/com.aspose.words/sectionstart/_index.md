@@ -7,7 +7,7 @@ weight: 512
 url: /zh/java/com.aspose.words/sectionstart/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class SectionStart
@@ -21,8 +21,8 @@ public class SectionStart
 | [CONTINUOUS](#CONTINUOUS) | 新部分与上一部分在同一页面上开始。 |
 | [EVEN_PAGE](#EVEN-PAGE) | 该部分从一个新的偶数页开始。 |
 | [NEW_COLUMN](#NEW-COLUMN) | 该部分从一个新列开始。 |
-| [NEW_PAGE](#NEW-PAGE) | 该部分从一个新页面开始。 |
-| [ODD_PAGE](#ODD-PAGE) | 该部分从新的奇数页开始。 |
+| [NEW_PAGE](#NEW-PAGE) | 该部分从新页面开始。 |
+| [ODD_PAGE](#ODD-PAGE) | 该部分从一个新的奇数页开始。 |
 | [length](#length) |  |
 ## 方法
 
@@ -71,7 +71,7 @@ public static int NEW_PAGE
 ```
 
 
-该部分从一个新页面开始。
+该部分从新页面开始。
 
 ### ODD_PAGE {#ODD-PAGE}
 ```
@@ -79,7 +79,7 @@ public static int ODD_PAGE
 ```
 
 
-该部分从新的奇数页开始。
+该部分从一个新的奇数页开始。
 
 ### length {#length}
 ```
@@ -95,12 +95,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String sectionStartName) {#fromName-java.lang.String-}
 ```
@@ -110,12 +111,13 @@ public static int fromName(String sectionStartName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sectionStartName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -125,7 +127,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int sectionStart) {#getName-int-}
 ```
@@ -135,13 +137,14 @@ public static String getName(int sectionStart)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sectionStart | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -150,7 +153,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -160,7 +163,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -186,8 +189,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int sectionStart) {#toString-int-}
 ```
 public static String toString(int sectionStart)
@@ -196,13 +199,14 @@ public static String toString(int sectionStart)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sectionStart | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -219,7 +223,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -232,7 +237,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

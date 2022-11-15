@@ -1,16 +1,16 @@
 ---
 title: CompatibilityOptions
 second_title: Aspose.Words for Java API 参考
-description: 包含兼容性选项，即在 Microsoft Word 中选项对话框的兼容性选项卡上输入的用户首选项。
+description: 包含兼容性选项，即在 Microsoft Word 的“选项”对话框的“兼容性”选项卡上输入的用户首选项。
 type: docs
 weight: 86
 url: /zh/java/com.aspose.words/compatibilityoptions/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Cloneable
 ```
 public class CompatibilityOptions implements Cloneable
@@ -24,8 +24,8 @@ public class CompatibilityOptions implements Cloneable
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAdjustLineHeightInTable()](#getAdjustLineHeightInTable--) | 将文档网格线间距添加到表格单元格中的行。 |
-| [getAlignTablesRowByRow()](#getAlignTablesRowByRow--) | 独立对齐表行。 |
+| [getAdjustLineHeightInTable()](#getAdjustLineHeightInTable--) | 将文档网格线间距添加到表格单元格中的线。 |
+| [getAlignTablesRowByRow()](#getAlignTablesRowByRow--) | 独立对齐表格行。 |
 | [getAllowSpaceOfSameStyleInTable()](#getAllowSpaceOfSameStyleInTable--) | 允许表格中段落的上下文间距。 |
 | [getApplyBreakingRules()](#getApplyBreakingRules--) | 使用传统的埃塞俄比亚语和阿姆哈拉语换行规则。 |
 | [getAutoSpaceLikeWord95()](#getAutoSpaceLikeWord95--) | 模拟 Word 95 全角字符间距。 |
@@ -33,15 +33,15 @@ public class CompatibilityOptions implements Cloneable
 | [getBalanceSingleByteDoubleByteWidth()](#getBalanceSingleByteDoubleByteWidth--) | 平衡单字节和双字节字符。 |
 | [getCachedColBalance()](#getCachedColBalance--) | 使用缓存的段落信息进行列平衡。 |
 | [getClass()](#getClass--) |  |
-| [getConvMailMergeEsc()](#getConvMailMergeEsc--) | 将反斜杠引号定界符视为两个引号。 |
+| [getConvMailMergeEsc()](#getConvMailMergeEsc--) | 将反斜杠引号分隔符视为两个引号。 |
 | [getDisableOpenTypeFontFormattingFeatures()](#getDisableOpenTypeFontFormattingFeatures--) |  |
-| [getDisplayHangulFixedWidth()](#getDisplayHangulFixedWidth--) | 始终对 Hangul 字符使用固定宽度。 |
-| [getDoNotAutofitConstrainedTables()](#getDoNotAutofitConstrainedTables--) | 不要自动调整表格以适应包裹对象的旁边。 |
-| [getDoNotBreakConstrainedForcedTable()](#getDoNotBreakConstrainedForcedTable--) | 不要打破浮动表格周围的表格行。 |
-| [getDoNotBreakWrappedTables()](#getDoNotBreakWrappedTables--) | 不要让浮动表格跨页中断。 |
-| [getDoNotExpandShiftReturn()](#getDoNotExpandShiftReturn--) | 不要对齐以软换行结尾的行。 |
+| [getDisplayHangulFixedWidth()](#getDisplayHangulFixedWidth--) | 始终为韩文字符使用固定宽度。 |
+| [getDoNotAutofitConstrainedTables()](#getDoNotAutofitConstrainedTables--) | 不要自动调整表格以适合包裹的对象。 |
+| [getDoNotBreakConstrainedForcedTable()](#getDoNotBreakConstrainedForcedTable--) | 不要打破浮动表周围的表行。 |
+| [getDoNotBreakWrappedTables()](#getDoNotBreakWrappedTables--) | 不允许浮动表格跨越页面。 |
+| [getDoNotExpandShiftReturn()](#getDoNotExpandShiftReturn--) | 不要证明以软换行符结尾的行。 |
 | [getDoNotLeaveBackslashAlone()](#getDoNotLeaveBackslashAlone--) | 输入时将反斜杠转换为日元符号。 |
-| [getDoNotSnapToGridInCell()](#getDoNotSnapToGridInCell--) | 不要对齐包含对象的表格单元格中的文档网格。 |
+| [getDoNotSnapToGridInCell()](#getDoNotSnapToGridInCell--) | 不要在包含对象的表格单元格中对齐文档网格。 |
 | [getDoNotSuppressIndentation()](#getDoNotSuppressIndentation--) | 计算段落缩进时不要忽略浮动对象。 |
 | [getDoNotSuppressParagraphBorders()](#getDoNotSuppressParagraphBorders--) | 不要抑制框架旁边的段落边框。 |
 | [getDoNotUseEastAsianBreakRules()](#getDoNotUseEastAsianBreakRules--) | 使用文档网格时不要压缩可压缩字符。 |
@@ -83,16 +83,16 @@ public class CompatibilityOptions implements Cloneable
 | [getTruncateFontHeightsLikeWP6()](#getTruncateFontHeightsLikeWP6--) | 模拟 WordPerfect 6.x 字体高度计算。 |
 | [getUICompat97To2003()](#getUICompat97To2003--) | **True**禁用与 Word97-2003 不兼容的 UI 功能。 |
 | [getUlTrailSpace()](#getUlTrailSpace--) | 在所有尾随空格下划线。 |
-| [getUnderlineTabInNumList()](#getUnderlineTabInNumList--) | 在编号后的字符后加下划线。 |
-| [getUseAltKinsokuLineBreakRules()](#getUseAltKinsokuLineBreakRules--) | 使用另一种东亚断线规则。 |
-| [getUseAnsiKerningPairs()](#getUseAnsiKerningPairs--) | 使用字体中的 ANSI Kerning Pairs。 |
+| [getUnderlineTabInNumList()](#getUnderlineTabInNumList--) | 在编号后的字符后划线。 |
+| [getUseAltKinsokuLineBreakRules()](#getUseAltKinsokuLineBreakRules--) | 使用备用的东亚换行规则集。 |
+| [getUseAnsiKerningPairs()](#getUseAnsiKerningPairs--) | 使用字体中的 ANSI 字距调整对。 |
 | [getUseFELayout()](#getUseFELayout--) | 不要绕过东亚/复杂脚本布局代码。 |
 | [getUseNormalStyleForList()](#getUseNormalStyleForList--) | 不要自动将列表段落样式应用于项目符号/编号文本。 |
-| [getUsePrinterMetrics()](#getUsePrinterMetrics--) | 使用打印机度量来显示文档。 |
-| [getUseSingleBorderforContiguousCells()](#getUseSingleBorderforContiguousCells--) | 对表格边界冲突使用简化规则。 |
+| [getUsePrinterMetrics()](#getUsePrinterMetrics--) | 使用打印机指标显示文档。 |
+| [getUseSingleBorderforContiguousCells()](#getUseSingleBorderforContiguousCells--) | 使用表格边界冲突的简化规则。 |
 | [getUseWord2002TableStyleRules()](#getUseWord2002TableStyleRules--) | 模拟 Word 2002 表格样式规则。 |
 | [getUseWord2010TableStyleRules()](#getUseWord2010TableStyleRules--) |  |
-| [getUseWord97LineBreakRules()](#getUseWord97LineBreakRules--) | 模拟 Word 97 东亚换行。 |
+| [getUseWord97LineBreakRules()](#getUseWord97LineBreakRules--) | 模拟 Word 97 东亚换行符。 |
 | [getWPJustification()](#getWPJustification--) | 模拟 WordPerfect 6.x 段落对齐。 |
 | [getWPSpaceWidth()](#getWPSpaceWidth--) | 指定是否像在 WordPerfect 5.x 中那样设置空格的宽度。 |
 | [getWrapTrailSpaces()](#getWrapTrailSpaces--) | 换行尾随空格。 |
@@ -100,23 +100,23 @@ public class CompatibilityOptions implements Cloneable
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [optimizeFor(int version)](#optimizeFor-int-) |  |
-| [setAdjustLineHeightInTable(boolean value)](#setAdjustLineHeightInTable-boolean-) | 将文档网格线间距添加到表格单元格中的行。 |
-| [setAlignTablesRowByRow(boolean value)](#setAlignTablesRowByRow-boolean-) | 独立对齐表行。 |
+| [setAdjustLineHeightInTable(boolean value)](#setAdjustLineHeightInTable-boolean-) | 将文档网格线间距添加到表格单元格中的线。 |
+| [setAlignTablesRowByRow(boolean value)](#setAlignTablesRowByRow-boolean-) | 独立对齐表格行。 |
 | [setAllowSpaceOfSameStyleInTable(boolean value)](#setAllowSpaceOfSameStyleInTable-boolean-) | 允许表格中段落的上下文间距。 |
 | [setApplyBreakingRules(boolean value)](#setApplyBreakingRules-boolean-) | 使用传统的埃塞俄比亚语和阿姆哈拉语换行规则。 |
 | [setAutoSpaceLikeWord95(boolean value)](#setAutoSpaceLikeWord95-boolean-) | 模拟 Word 95 全角字符间距。 |
 | [setAutofitToFirstFixedWidthCell(boolean value)](#setAutofitToFirstFixedWidthCell-boolean-) | 允许表格列超过组成单元格的首选宽度。 |
 | [setBalanceSingleByteDoubleByteWidth(boolean value)](#setBalanceSingleByteDoubleByteWidth-boolean-) | 平衡单字节和双字节字符。 |
 | [setCachedColBalance(boolean value)](#setCachedColBalance-boolean-) | 使用缓存的段落信息进行列平衡。 |
-| [setConvMailMergeEsc(boolean value)](#setConvMailMergeEsc-boolean-) | 将反斜杠引号定界符视为两个引号。 |
+| [setConvMailMergeEsc(boolean value)](#setConvMailMergeEsc-boolean-) | 将反斜杠引号分隔符视为两个引号。 |
 | [setDisableOpenTypeFontFormattingFeatures(boolean value)](#setDisableOpenTypeFontFormattingFeatures-boolean-) |  |
-| [setDisplayHangulFixedWidth(boolean value)](#setDisplayHangulFixedWidth-boolean-) | 始终对 Hangul 字符使用固定宽度。 |
-| [setDoNotAutofitConstrainedTables(boolean value)](#setDoNotAutofitConstrainedTables-boolean-) | 不要自动调整表格以适应包裹对象的旁边。 |
-| [setDoNotBreakConstrainedForcedTable(boolean value)](#setDoNotBreakConstrainedForcedTable-boolean-) | 不要打破浮动表格周围的表格行。 |
-| [setDoNotBreakWrappedTables(boolean value)](#setDoNotBreakWrappedTables-boolean-) | 不要让浮动表格跨页中断。 |
-| [setDoNotExpandShiftReturn(boolean value)](#setDoNotExpandShiftReturn-boolean-) | 不要对齐以软换行结尾的行。 |
+| [setDisplayHangulFixedWidth(boolean value)](#setDisplayHangulFixedWidth-boolean-) | 始终为韩文字符使用固定宽度。 |
+| [setDoNotAutofitConstrainedTables(boolean value)](#setDoNotAutofitConstrainedTables-boolean-) | 不要自动调整表格以适合包裹的对象。 |
+| [setDoNotBreakConstrainedForcedTable(boolean value)](#setDoNotBreakConstrainedForcedTable-boolean-) | 不要打破浮动表周围的表行。 |
+| [setDoNotBreakWrappedTables(boolean value)](#setDoNotBreakWrappedTables-boolean-) | 不允许浮动表格跨越页面。 |
+| [setDoNotExpandShiftReturn(boolean value)](#setDoNotExpandShiftReturn-boolean-) | 不要证明以软换行符结尾的行。 |
 | [setDoNotLeaveBackslashAlone(boolean value)](#setDoNotLeaveBackslashAlone-boolean-) | 输入时将反斜杠转换为日元符号。 |
-| [setDoNotSnapToGridInCell(boolean value)](#setDoNotSnapToGridInCell-boolean-) | 不要对齐包含对象的表格单元格中的文档网格。 |
+| [setDoNotSnapToGridInCell(boolean value)](#setDoNotSnapToGridInCell-boolean-) | 不要在包含对象的表格单元格中对齐文档网格。 |
 | [setDoNotSuppressIndentation(boolean value)](#setDoNotSuppressIndentation-boolean-) | 计算段落缩进时不要忽略浮动对象。 |
 | [setDoNotSuppressParagraphBorders(boolean value)](#setDoNotSuppressParagraphBorders-boolean-) | 不要抑制框架旁边的段落边框。 |
 | [setDoNotUseEastAsianBreakRules(boolean value)](#setDoNotUseEastAsianBreakRules-boolean-) | 使用文档网格时不要压缩可压缩字符。 |
@@ -158,16 +158,16 @@ public class CompatibilityOptions implements Cloneable
 | [setTruncateFontHeightsLikeWP6(boolean value)](#setTruncateFontHeightsLikeWP6-boolean-) | 模拟 WordPerfect 6.x 字体高度计算。 |
 | [setUICompat97To2003(boolean value)](#setUICompat97To2003-boolean-) | **True**禁用与 Word97-2003 不兼容的 UI 功能。 |
 | [setUlTrailSpace(boolean value)](#setUlTrailSpace-boolean-) | 在所有尾随空格下划线。 |
-| [setUnderlineTabInNumList(boolean value)](#setUnderlineTabInNumList-boolean-) | 在编号后的字符后加下划线。 |
-| [setUseAltKinsokuLineBreakRules(boolean value)](#setUseAltKinsokuLineBreakRules-boolean-) | 使用另一种东亚断线规则。 |
-| [setUseAnsiKerningPairs(boolean value)](#setUseAnsiKerningPairs-boolean-) | 使用字体中的 ANSI Kerning Pairs。 |
+| [setUnderlineTabInNumList(boolean value)](#setUnderlineTabInNumList-boolean-) | 在编号后的字符后划线。 |
+| [setUseAltKinsokuLineBreakRules(boolean value)](#setUseAltKinsokuLineBreakRules-boolean-) | 使用备用的东亚换行规则集。 |
+| [setUseAnsiKerningPairs(boolean value)](#setUseAnsiKerningPairs-boolean-) | 使用字体中的 ANSI 字距调整对。 |
 | [setUseFELayout(boolean value)](#setUseFELayout-boolean-) | 不要绕过东亚/复杂脚本布局代码。 |
 | [setUseNormalStyleForList(boolean value)](#setUseNormalStyleForList-boolean-) | 不要自动将列表段落样式应用于项目符号/编号文本。 |
-| [setUsePrinterMetrics(boolean value)](#setUsePrinterMetrics-boolean-) | 使用打印机度量来显示文档。 |
-| [setUseSingleBorderforContiguousCells(boolean value)](#setUseSingleBorderforContiguousCells-boolean-) | 对表格边界冲突使用简化规则。 |
+| [setUsePrinterMetrics(boolean value)](#setUsePrinterMetrics-boolean-) | 使用打印机指标显示文档。 |
+| [setUseSingleBorderforContiguousCells(boolean value)](#setUseSingleBorderforContiguousCells-boolean-) | 使用表格边界冲突的简化规则。 |
 | [setUseWord2002TableStyleRules(boolean value)](#setUseWord2002TableStyleRules-boolean-) | 模拟 Word 2002 表格样式规则。 |
 | [setUseWord2010TableStyleRules(boolean value)](#setUseWord2010TableStyleRules-boolean-) |  |
-| [setUseWord97LineBreakRules(boolean value)](#setUseWord97LineBreakRules-boolean-) | 模拟 Word 97 东亚换行。 |
+| [setUseWord97LineBreakRules(boolean value)](#setUseWord97LineBreakRules-boolean-) | 模拟 Word 97 东亚换行符。 |
 | [setWPJustification(boolean value)](#setWPJustification-boolean-) | 模拟 WordPerfect 6.x 段落对齐。 |
 | [setWPSpaceWidth(boolean value)](#setWPSpaceWidth-boolean-) | 指定是否像在 WordPerfect 5.x 中那样设置空格的宽度。 |
 | [setWrapTrailSpaces(boolean value)](#setWrapTrailSpaces-boolean-) | 换行尾随空格。 |
@@ -183,12 +183,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getAdjustLineHeightInTable() {#getAdjustLineHeightInTable--}
 ```
@@ -196,20 +197,20 @@ public boolean getAdjustLineHeightInTable()
 ```
 
 
-将文档网格线间距添加到表格单元格中的行。
+将文档网格线间距添加到表格单元格中的线。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getAlignTablesRowByRow() {#getAlignTablesRowByRow--}
 ```
 public boolean getAlignTablesRowByRow()
 ```
 
 
-独立对齐表行。
+独立对齐表格行。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getAllowSpaceOfSameStyleInTable() {#getAllowSpaceOfSameStyleInTable--}
 ```
 public boolean getAllowSpaceOfSameStyleInTable()
@@ -218,8 +219,8 @@ public boolean getAllowSpaceOfSameStyleInTable()
 
 允许表格中段落的上下文间距。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getApplyBreakingRules() {#getApplyBreakingRules--}
 ```
 public boolean getApplyBreakingRules()
@@ -228,8 +229,8 @@ public boolean getApplyBreakingRules()
 
 使用传统的埃塞俄比亚语和阿姆哈拉语换行规则。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getAutoSpaceLikeWord95() {#getAutoSpaceLikeWord95--}
 ```
 public boolean getAutoSpaceLikeWord95()
@@ -238,8 +239,8 @@ public boolean getAutoSpaceLikeWord95()
 
 模拟 Word 95 全角字符间距。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getAutofitToFirstFixedWidthCell() {#getAutofitToFirstFixedWidthCell--}
 ```
 public boolean getAutofitToFirstFixedWidthCell()
@@ -248,8 +249,8 @@ public boolean getAutofitToFirstFixedWidthCell()
 
 允许表格列超过组成单元格的首选宽度。该选项在 MS Word 2013 用户界面中称为“使用 Word 2003 表格自动调整规则”。它实际上也会影响固定布局表的网格计算方式（在某些情况下）。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getBalanceSingleByteDoubleByteWidth() {#getBalanceSingleByteDoubleByteWidth--}
 ```
 public boolean getBalanceSingleByteDoubleByteWidth()
@@ -258,8 +259,8 @@ public boolean getBalanceSingleByteDoubleByteWidth()
 
 平衡单字节和双字节字符。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getCachedColBalance() {#getCachedColBalance--}
 ```
 public boolean getCachedColBalance()
@@ -268,8 +269,8 @@ public boolean getCachedColBalance()
 
 使用缓存的段落信息进行列平衡。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -278,7 +279,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getConvMailMergeEsc() {#getConvMailMergeEsc--}
 ```
@@ -286,10 +287,10 @@ public boolean getConvMailMergeEsc()
 ```
 
 
-将反斜杠引号定界符视为两个引号。
+将反斜杠引号分隔符视为两个引号。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getDisableOpenTypeFontFormattingFeatures() {#getDisableOpenTypeFontFormattingFeatures--}
 ```
 public boolean getDisableOpenTypeFontFormattingFeatures()
@@ -298,7 +299,7 @@ public boolean getDisableOpenTypeFontFormattingFeatures()
 
 
 
-**退货:**
+**退货：**
 布尔值
 ### getDisplayHangulFixedWidth() {#getDisplayHangulFixedWidth--}
 ```
@@ -306,50 +307,50 @@ public boolean getDisplayHangulFixedWidth()
 ```
 
 
-始终对 Hangul 字符使用固定宽度。
+始终为韩文字符使用固定宽度。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getDoNotAutofitConstrainedTables() {#getDoNotAutofitConstrainedTables--}
 ```
 public boolean getDoNotAutofitConstrainedTables()
 ```
 
 
-不要自动调整表格以适应包裹对象的旁边。
+不要自动调整表格以适合包裹的对象。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getDoNotBreakConstrainedForcedTable() {#getDoNotBreakConstrainedForcedTable--}
 ```
 public boolean getDoNotBreakConstrainedForcedTable()
 ```
 
 
-不要打破浮动表格周围的表格行。
+不要打破浮动表周围的表行。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getDoNotBreakWrappedTables() {#getDoNotBreakWrappedTables--}
 ```
 public boolean getDoNotBreakWrappedTables()
 ```
 
 
-不要让浮动表格跨页中断。
+不允许浮动表格跨越页面。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getDoNotExpandShiftReturn() {#getDoNotExpandShiftReturn--}
 ```
 public boolean getDoNotExpandShiftReturn()
 ```
 
 
-不要对齐以软换行结尾的行。
+不要证明以软换行符结尾的行。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getDoNotLeaveBackslashAlone() {#getDoNotLeaveBackslashAlone--}
 ```
 public boolean getDoNotLeaveBackslashAlone()
@@ -358,18 +359,18 @@ public boolean getDoNotLeaveBackslashAlone()
 
 输入时将反斜杠转换为日元符号。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getDoNotSnapToGridInCell() {#getDoNotSnapToGridInCell--}
 ```
 public boolean getDoNotSnapToGridInCell()
 ```
 
 
-不要对齐包含对象的表格单元格中的文档网格。
+不要在包含对象的表格单元格中对齐文档网格。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getDoNotSuppressIndentation() {#getDoNotSuppressIndentation--}
 ```
 public boolean getDoNotSuppressIndentation()
@@ -378,8 +379,8 @@ public boolean getDoNotSuppressIndentation()
 
 计算段落缩进时不要忽略浮动对象。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getDoNotSuppressParagraphBorders() {#getDoNotSuppressParagraphBorders--}
 ```
 public boolean getDoNotSuppressParagraphBorders()
@@ -388,8 +389,8 @@ public boolean getDoNotSuppressParagraphBorders()
 
 不要抑制框架旁边的段落边框。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getDoNotUseEastAsianBreakRules() {#getDoNotUseEastAsianBreakRules--}
 ```
 public boolean getDoNotUseEastAsianBreakRules()
@@ -398,8 +399,8 @@ public boolean getDoNotUseEastAsianBreakRules()
 
 使用文档网格时不要压缩可压缩字符。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getDoNotUseHTMLParagraphAutoSpacing() {#getDoNotUseHTMLParagraphAutoSpacing--}
 ```
 public boolean getDoNotUseHTMLParagraphAutoSpacing()
@@ -408,8 +409,8 @@ public boolean getDoNotUseHTMLParagraphAutoSpacing()
 
 使用固定段落间距进行 HTML 自动设置。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getDoNotUseIndentAsNumberingTabStop() {#getDoNotUseIndentAsNumberingTabStop--}
 ```
 public boolean getDoNotUseIndentAsNumberingTabStop()
@@ -418,8 +419,8 @@ public boolean getDoNotUseIndentAsNumberingTabStop()
 
 在编号后创建制表位时忽略悬挂缩进。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getDoNotVertAlignCellWithSp() {#getDoNotVertAlignCellWithSp--}
 ```
 public boolean getDoNotVertAlignCellWithSp()
@@ -428,8 +429,8 @@ public boolean getDoNotVertAlignCellWithSp()
 
 不要垂直对齐包含浮动对象的单元格。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getDoNotVertAlignInTxbx() {#getDoNotVertAlignInTxbx--}
 ```
 public boolean getDoNotVertAlignInTxbx()
@@ -438,8 +439,8 @@ public boolean getDoNotVertAlignInTxbx()
 
 忽略文本框中的垂直对齐。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getDoNotWrapTextWithPunct() {#getDoNotWrapTextWithPunct--}
 ```
 public boolean getDoNotWrapTextWithPunct()
@@ -448,8 +449,8 @@ public boolean getDoNotWrapTextWithPunct()
 
 不允许使用字符网格悬挂标点符号。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getFootnoteLayoutLikeWW8() {#getFootnoteLayoutLikeWW8--}
 ```
 public boolean getFootnoteLayoutLikeWW8()
@@ -458,8 +459,8 @@ public boolean getFootnoteLayoutLikeWW8()
 
 模拟 Word 6.x/95/97 脚注放置。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getForgetLastTabAlignment() {#getForgetLastTabAlignment--}
 ```
 public boolean getForgetLastTabAlignment()
@@ -468,8 +469,8 @@ public boolean getForgetLastTabAlignment()
 
 如果段落未左对齐，则在对齐段落时忽略最后一个制表位的宽度。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getGrowAutofit() {#getGrowAutofit--}
 ```
 public boolean getGrowAutofit()
@@ -478,8 +479,8 @@ public boolean getGrowAutofit()
 
 允许表格自动调整到页边距。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getLayoutRawTableWidth() {#getLayoutRawTableWidth--}
 ```
 public boolean getLayoutRawTableWidth()
@@ -488,8 +489,8 @@ public boolean getLayoutRawTableWidth()
 
 在决定表格是否应该包裹浮动对象时忽略表格前的空间。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getLayoutTableRowsApart() {#getLayoutTableRowsApart--}
 ```
 public boolean getLayoutTableRowsApart()
@@ -498,8 +499,8 @@ public boolean getLayoutTableRowsApart()
 
 允许表行独立包装内联对象。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getLineWrapLikeWord6() {#getLineWrapLikeWord6--}
 ```
 public boolean getLineWrapLikeWord6()
@@ -508,8 +509,8 @@ public boolean getLineWrapLikeWord6()
 
 模拟东亚文本的 Word 6.0 换行。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getMWSmallCaps() {#getMWSmallCaps--}
 ```
 public boolean getMWSmallCaps()
@@ -518,8 +519,8 @@ public boolean getMWSmallCaps()
 
 为 Macintosh 小型大写字母格式模拟 Word 5.x。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getNoColumnBalance() {#getNoColumnBalance--}
 ```
 public boolean getNoColumnBalance()
@@ -528,8 +529,8 @@ public boolean getNoColumnBalance()
 
 不要平衡一个部分中的文本列。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getNoExtraLineSpacing() {#getNoExtraLineSpacing--}
 ```
 public boolean getNoExtraLineSpacing()
@@ -538,8 +539,8 @@ public boolean getNoExtraLineSpacing()
 
 不要以精确的行高使内容居中。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getNoLeading() {#getNoLeading--}
 ```
 public boolean getNoLeading()
@@ -548,8 +549,8 @@ public boolean getNoLeading()
 
 不要在文本行之间添加前导。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getNoSpaceRaiseLower() {#getNoSpaceRaiseLower--}
 ```
 public boolean getNoSpaceRaiseLower()
@@ -558,8 +559,8 @@ public boolean getNoSpaceRaiseLower()
 
 不要增加凸起/降低文本的行高。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getNoTabHangInd() {#getNoTabHangInd--}
 ```
 public boolean getNoTabHangInd()
@@ -568,8 +569,8 @@ public boolean getNoTabHangInd()
 
 不要为悬挂缩进创建自定义制表位。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getOverrideTableStyleFontSizeAndJustification() {#getOverrideTableStyleFontSizeAndJustification--}
 ```
 public boolean getOverrideTableStyleFontSizeAndJustification()
@@ -578,8 +579,8 @@ public boolean getOverrideTableStyleFontSizeAndJustification()
 
 指定如何评估文档的样式层次结构。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getPrintBodyTextBeforeHeader() {#getPrintBodyTextBeforeHeader--}
 ```
 public boolean getPrintBodyTextBeforeHeader()
@@ -588,8 +589,8 @@ public boolean getPrintBodyTextBeforeHeader()
 
 在页眉/页脚内容之前打印正文文本。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getPrintColBlack() {#getPrintColBlack--}
 ```
 public boolean getPrintColBlack()
@@ -598,8 +599,8 @@ public boolean getPrintColBlack()
 
 将颜色打印为黑色和白色，无需抖动。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getSelectFldWithFirstOrLastChar() {#getSelectFldWithFirstOrLastChar--}
 ```
 public boolean getSelectFldWithFirstOrLastChar()
@@ -608,8 +609,8 @@ public boolean getSelectFldWithFirstOrLastChar()
 
 选择第一个或最后一个字符时选择字段。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getShapeLayoutLikeWW8() {#getShapeLayoutLikeWW8--}
 ```
 public boolean getShapeLayoutLikeWW8()
@@ -618,8 +619,8 @@ public boolean getShapeLayoutLikeWW8()
 
 模拟环绕浮动对象的 Word 97 文本。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getShowBreaksInFrames() {#getShowBreaksInFrames--}
 ```
 public boolean getShowBreaksInFrames()
@@ -628,8 +629,8 @@ public boolean getShowBreaksInFrames()
 
 显示帧中存在的分页符/分栏符。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getSpaceForUL() {#getSpaceForUL--}
 ```
 public boolean getSpaceForUL()
@@ -638,8 +639,8 @@ public boolean getSpaceForUL()
 
 在基线下方为带下划线的东亚文本添加额外的空间。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getSpacingInWholePoints() {#getSpacingInWholePoints--}
 ```
 public boolean getSpacingInWholePoints()
@@ -648,8 +649,8 @@ public boolean getSpacingInWholePoints()
 
 仅按整点扩展/压缩文本。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getSplitPgBreakAndParaMark() {#getSplitPgBreakAndParaMark--}
 ```
 public boolean getSplitPgBreakAndParaMark()
@@ -658,8 +659,8 @@ public boolean getSplitPgBreakAndParaMark()
 
 总是在分页后将段落标记移动到页面。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getSubFontBySize() {#getSubFontBySize--}
 ```
 public boolean getSubFontBySize()
@@ -668,8 +669,8 @@ public boolean getSubFontBySize()
 
 在字体替换期间增加字体大小的优先级。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getSuppressBottomSpacing() {#getSuppressBottomSpacing--}
 ```
 public boolean getSuppressBottomSpacing()
@@ -678,8 +679,8 @@ public boolean getSuppressBottomSpacing()
 
 忽略页面上最后一行的确切行高。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getSuppressSpBfAfterPgBrk() {#getSuppressSpBfAfterPgBrk--}
 ```
 public boolean getSuppressSpBfAfterPgBrk()
@@ -688,8 +689,8 @@ public boolean getSuppressSpBfAfterPgBrk()
 
 不要在分页后的第一行之前使用空格。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getSuppressSpacingAtTopOfPage() {#getSuppressSpacingAtTopOfPage--}
 ```
 public boolean getSuppressSpacingAtTopOfPage()
@@ -698,8 +699,8 @@ public boolean getSuppressSpacingAtTopOfPage()
 
 忽略页面上第一行的最小行高。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getSuppressTopSpacing() {#getSuppressTopSpacing--}
 ```
 public boolean getSuppressTopSpacing()
@@ -708,8 +709,8 @@ public boolean getSuppressTopSpacing()
 
 忽略页面上第一行的最小和精确行高。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getSuppressTopSpacingWP() {#getSuppressTopSpacingWP--}
 ```
 public boolean getSuppressTopSpacingWP()
@@ -718,8 +719,8 @@ public boolean getSuppressTopSpacingWP()
 
 模拟 WordPerfect 5.x 行间距。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getSwapBordersFacingPgs() {#getSwapBordersFacingPgs--}
 ```
 public boolean getSwapBordersFacingPgs()
@@ -728,8 +729,8 @@ public boolean getSwapBordersFacingPgs()
 
 在奇数页上交换段落边框。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getSwapInsideAndOutsideForMirrorIndentsAndRelativePositioning() {#getSwapInsideAndOutsideForMirrorIndentsAndRelativePositioning--}
 ```
 public boolean getSwapInsideAndOutsideForMirrorIndentsAndRelativePositioning()
@@ -738,7 +739,7 @@ public boolean getSwapInsideAndOutsideForMirrorIndentsAndRelativePositioning()
 
 
 
-**退货:**
+**退货：**
 布尔值
 ### getTransparentMetafiles() {#getTransparentMetafiles--}
 ```
@@ -748,8 +749,8 @@ public boolean getTransparentMetafiles()
 
 指定不空白图元文件图片后面的区域。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getTruncateFontHeightsLikeWP6() {#getTruncateFontHeightsLikeWP6--}
 ```
 public boolean getTruncateFontHeightsLikeWP6()
@@ -758,8 +759,8 @@ public boolean getTruncateFontHeightsLikeWP6()
 
 模拟 WordPerfect 6.x 字体高度计算。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getUICompat97To2003() {#getUICompat97To2003--}
 ```
 public boolean getUICompat97To2003()
@@ -768,8 +769,8 @@ public boolean getUICompat97To2003()
 
 **True**禁用与 Word97-2003 不兼容的 UI 功能。默认值为**false**.控制禁用与 Word97-2003 不兼容的 UI 功能的 Word97-2003 兼容性设置。什么时候**true**'w:uiCompat97To2003' XML 元素被写入 '\\单词\\settings.xml' 文档包部分。默认值为**false**.当设置为**false**这个元素没有写。从技术上讲，此属性不是兼容性选项的一部分，但我们将其放在这里是为了 API 方便。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getUlTrailSpace() {#getUlTrailSpace--}
 ```
 public boolean getUlTrailSpace()
@@ -778,38 +779,38 @@ public boolean getUlTrailSpace()
 
 在所有尾随空格下划线。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getUnderlineTabInNumList() {#getUnderlineTabInNumList--}
 ```
 public boolean getUnderlineTabInNumList()
 ```
 
 
-在编号后的字符后加下划线。
+在编号后的字符后划线。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getUseAltKinsokuLineBreakRules() {#getUseAltKinsokuLineBreakRules--}
 ```
 public boolean getUseAltKinsokuLineBreakRules()
 ```
 
 
-使用另一种东亚断线规则。
+使用备用的东亚换行规则集。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getUseAnsiKerningPairs() {#getUseAnsiKerningPairs--}
 ```
 public boolean getUseAnsiKerningPairs()
 ```
 
 
-使用字体中的 ANSI Kerning Pairs。
+使用字体中的 ANSI 字距调整对。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getUseFELayout() {#getUseFELayout--}
 ```
 public boolean getUseFELayout()
@@ -818,8 +819,8 @@ public boolean getUseFELayout()
 
 不要绕过东亚/复杂脚本布局代码。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getUseNormalStyleForList() {#getUseNormalStyleForList--}
 ```
 public boolean getUseNormalStyleForList()
@@ -828,28 +829,28 @@ public boolean getUseNormalStyleForList()
 
 不要自动将列表段落样式应用于项目符号/编号文本。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getUsePrinterMetrics() {#getUsePrinterMetrics--}
 ```
 public boolean getUsePrinterMetrics()
 ```
 
 
-使用打印机度量来显示文档。打印机指标可能因使用的驱动程序而异。例如，Windows“Microsoft OpenXPS Class Driver 2”和“Microsoft Print to PDF”提供的指标略有不同。因此，如果启用此选项，最终文档的布局可能会发生变化。
+使用打印机指标显示文档。打印机指标可能因使用的驱动程序而异。例如，Windows“Microsoft OpenXPS Class Driver 2”和“Microsoft Print to PDF”提供的指标略有不同。因此，如果启用此选项，最终文档的布局可能会发生变化。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getUseSingleBorderforContiguousCells() {#getUseSingleBorderforContiguousCells--}
 ```
 public boolean getUseSingleBorderforContiguousCells()
 ```
 
 
-对表格边界冲突使用简化规则。
+使用表格边界冲突的简化规则。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getUseWord2002TableStyleRules() {#getUseWord2002TableStyleRules--}
 ```
 public boolean getUseWord2002TableStyleRules()
@@ -858,8 +859,8 @@ public boolean getUseWord2002TableStyleRules()
 
 模拟 Word 2002 表格样式规则。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getUseWord2010TableStyleRules() {#getUseWord2010TableStyleRules--}
 ```
 public boolean getUseWord2010TableStyleRules()
@@ -868,7 +869,7 @@ public boolean getUseWord2010TableStyleRules()
 
 
 
-**退货:**
+**退货：**
 布尔值
 ### getUseWord97LineBreakRules() {#getUseWord97LineBreakRules--}
 ```
@@ -876,10 +877,10 @@ public boolean getUseWord97LineBreakRules()
 ```
 
 
-模拟 Word 97 东亚换行。
+模拟 Word 97 东亚换行符。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getWPJustification() {#getWPJustification--}
 ```
 public boolean getWPJustification()
@@ -888,8 +889,8 @@ public boolean getWPJustification()
 
 模拟 WordPerfect 6.x 段落对齐。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getWPSpaceWidth() {#getWPSpaceWidth--}
 ```
 public boolean getWPSpaceWidth()
@@ -898,8 +899,8 @@ public boolean getWPSpaceWidth()
 
 指定是否像在 WordPerfect 5.x 中那样设置空格的宽度。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getWrapTrailSpaces() {#getWrapTrailSpaces--}
 ```
 public boolean getWrapTrailSpaces()
@@ -908,8 +909,8 @@ public boolean getWrapTrailSpaces()
 
 换行尾随空格。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -918,7 +919,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -944,7 +945,8 @@ public void optimizeFor(int version)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | version | int |  |
@@ -955,9 +957,10 @@ public void setAdjustLineHeightInTable(boolean value)
 ```
 
 
-将文档网格线间距添加到表格单元格中的行。
+将文档网格线间距添加到表格单元格中的线。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -968,9 +971,10 @@ public void setAlignTablesRowByRow(boolean value)
 ```
 
 
-独立对齐表行。
+独立对齐表格行。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -983,7 +987,8 @@ public void setAllowSpaceOfSameStyleInTable(boolean value)
 
 允许表格中段落的上下文间距。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -996,7 +1001,8 @@ public void setApplyBreakingRules(boolean value)
 
 使用传统的埃塞俄比亚语和阿姆哈拉语换行规则。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1009,7 +1015,8 @@ public void setAutoSpaceLikeWord95(boolean value)
 
 模拟 Word 95 全角字符间距。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1022,7 +1029,8 @@ public void setAutofitToFirstFixedWidthCell(boolean value)
 
 允许表格列超过组成单元格的首选宽度。该选项在 MS Word 2013 用户界面中称为“使用 Word 2003 表格自动调整规则”。它实际上也会影响固定布局表的网格计算方式（在某些情况下）。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1035,7 +1043,8 @@ public void setBalanceSingleByteDoubleByteWidth(boolean value)
 
 平衡单字节和双字节字符。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1048,7 +1057,8 @@ public void setCachedColBalance(boolean value)
 
 使用缓存的段落信息进行列平衡。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1059,9 +1069,10 @@ public void setConvMailMergeEsc(boolean value)
 ```
 
 
-将反斜杠引号定界符视为两个引号。
+将反斜杠引号分隔符视为两个引号。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1074,7 +1085,8 @@ public void setDisableOpenTypeFontFormattingFeatures(boolean value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
@@ -1085,9 +1097,10 @@ public void setDisplayHangulFixedWidth(boolean value)
 ```
 
 
-始终对 Hangul 字符使用固定宽度。
+始终为韩文字符使用固定宽度。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1098,9 +1111,10 @@ public void setDoNotAutofitConstrainedTables(boolean value)
 ```
 
 
-不要自动调整表格以适应包裹对象的旁边。
+不要自动调整表格以适合包裹的对象。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1111,9 +1125,10 @@ public void setDoNotBreakConstrainedForcedTable(boolean value)
 ```
 
 
-不要打破浮动表格周围的表格行。
+不要打破浮动表周围的表行。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1124,9 +1139,10 @@ public void setDoNotBreakWrappedTables(boolean value)
 ```
 
 
-不要让浮动表格跨页中断。
+不允许浮动表格跨越页面。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1137,9 +1153,10 @@ public void setDoNotExpandShiftReturn(boolean value)
 ```
 
 
-不要对齐以软换行结尾的行。
+不要证明以软换行符结尾的行。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1152,7 +1169,8 @@ public void setDoNotLeaveBackslashAlone(boolean value)
 
 输入时将反斜杠转换为日元符号。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1163,9 +1181,10 @@ public void setDoNotSnapToGridInCell(boolean value)
 ```
 
 
-不要对齐包含对象的表格单元格中的文档网格。
+不要在包含对象的表格单元格中对齐文档网格。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1178,7 +1197,8 @@ public void setDoNotSuppressIndentation(boolean value)
 
 计算段落缩进时不要忽略浮动对象。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1191,7 +1211,8 @@ public void setDoNotSuppressParagraphBorders(boolean value)
 
 不要抑制框架旁边的段落边框。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1204,7 +1225,8 @@ public void setDoNotUseEastAsianBreakRules(boolean value)
 
 使用文档网格时不要压缩可压缩字符。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1217,7 +1239,8 @@ public void setDoNotUseHTMLParagraphAutoSpacing(boolean value)
 
 使用固定段落间距进行 HTML 自动设置。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1230,7 +1253,8 @@ public void setDoNotUseIndentAsNumberingTabStop(boolean value)
 
 在编号后创建制表位时忽略悬挂缩进。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1243,7 +1267,8 @@ public void setDoNotVertAlignCellWithSp(boolean value)
 
 不要垂直对齐包含浮动对象的单元格。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1256,7 +1281,8 @@ public void setDoNotVertAlignInTxbx(boolean value)
 
 忽略文本框中的垂直对齐。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1269,7 +1295,8 @@ public void setDoNotWrapTextWithPunct(boolean value)
 
 不允许使用字符网格悬挂标点符号。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1282,7 +1309,8 @@ public void setFootnoteLayoutLikeWW8(boolean value)
 
 模拟 Word 6.x/95/97 脚注放置。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1295,7 +1323,8 @@ public void setForgetLastTabAlignment(boolean value)
 
 如果段落未左对齐，则在对齐段落时忽略最后一个制表位的宽度。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1308,7 +1337,8 @@ public void setGrowAutofit(boolean value)
 
 允许表格自动调整到页边距。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1321,7 +1351,8 @@ public void setLayoutRawTableWidth(boolean value)
 
 在决定表格是否应该包裹浮动对象时忽略表格前的空间。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1334,7 +1365,8 @@ public void setLayoutTableRowsApart(boolean value)
 
 允许表行独立包装内联对象。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1347,7 +1379,8 @@ public void setLineWrapLikeWord6(boolean value)
 
 模拟东亚文本的 Word 6.0 换行。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1360,7 +1393,8 @@ public void setMWSmallCaps(boolean value)
 
 为 Macintosh 小型大写字母格式模拟 Word 5.x。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1373,7 +1407,8 @@ public void setNoColumnBalance(boolean value)
 
 不要平衡一个部分中的文本列。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1386,7 +1421,8 @@ public void setNoExtraLineSpacing(boolean value)
 
 不要以精确的行高使内容居中。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1399,7 +1435,8 @@ public void setNoLeading(boolean value)
 
 不要在文本行之间添加前导。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1412,7 +1449,8 @@ public void setNoSpaceRaiseLower(boolean value)
 
 不要增加凸起/降低文本的行高。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1425,7 +1463,8 @@ public void setNoTabHangInd(boolean value)
 
 不要为悬挂缩进创建自定义制表位。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1438,7 +1477,8 @@ public void setOverrideTableStyleFontSizeAndJustification(boolean value)
 
 指定如何评估文档的样式层次结构。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1451,7 +1491,8 @@ public void setPrintBodyTextBeforeHeader(boolean value)
 
 在页眉/页脚内容之前打印正文文本。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1464,7 +1505,8 @@ public void setPrintColBlack(boolean value)
 
 将颜色打印为黑色和白色，无需抖动。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1477,7 +1519,8 @@ public void setSelectFldWithFirstOrLastChar(boolean value)
 
 选择第一个或最后一个字符时选择字段。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1490,7 +1533,8 @@ public void setShapeLayoutLikeWW8(boolean value)
 
 模拟环绕浮动对象的 Word 97 文本。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1503,7 +1547,8 @@ public void setShowBreaksInFrames(boolean value)
 
 显示帧中存在的分页符/分栏符。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1516,7 +1561,8 @@ public void setSpaceForUL(boolean value)
 
 在基线下方为带下划线的东亚文本添加额外的空间。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1529,7 +1575,8 @@ public void setSpacingInWholePoints(boolean value)
 
 仅按整点扩展/压缩文本。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1542,7 +1589,8 @@ public void setSplitPgBreakAndParaMark(boolean value)
 
 总是在分页后将段落标记移动到页面。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1555,7 +1603,8 @@ public void setSubFontBySize(boolean value)
 
 在字体替换期间增加字体大小的优先级。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1568,7 +1617,8 @@ public void setSuppressBottomSpacing(boolean value)
 
 忽略页面上最后一行的确切行高。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1581,7 +1631,8 @@ public void setSuppressSpBfAfterPgBrk(boolean value)
 
 不要在分页后的第一行之前使用空格。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1594,7 +1645,8 @@ public void setSuppressSpacingAtTopOfPage(boolean value)
 
 忽略页面上第一行的最小行高。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1607,7 +1659,8 @@ public void setSuppressTopSpacing(boolean value)
 
 忽略页面上第一行的最小和精确行高。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1620,7 +1673,8 @@ public void setSuppressTopSpacingWP(boolean value)
 
 模拟 WordPerfect 5.x 行间距。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1633,7 +1687,8 @@ public void setSwapBordersFacingPgs(boolean value)
 
 在奇数页上交换段落边框。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1646,7 +1701,8 @@ public void setSwapInsideAndOutsideForMirrorIndentsAndRelativePositioning(boolea
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
@@ -1659,7 +1715,8 @@ public void setTransparentMetafiles(boolean value)
 
 指定不空白图元文件图片后面的区域。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1672,7 +1729,8 @@ public void setTruncateFontHeightsLikeWP6(boolean value)
 
 模拟 WordPerfect 6.x 字体高度计算。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1685,7 +1743,8 @@ public void setUICompat97To2003(boolean value)
 
 **True**禁用与 Word97-2003 不兼容的 UI 功能。默认值为**false**.控制禁用与 Word97-2003 不兼容的 UI 功能的 Word97-2003 兼容性设置。什么时候**true**'w:uiCompat97To2003' XML 元素被写入 '\\单词\\settings.xml' 文档包部分。默认值为**false**.当设置为**false**这个元素没有写。从技术上讲，此属性不是兼容性选项的一部分，但我们将其放在这里是为了 API 方便。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1698,7 +1757,8 @@ public void setUlTrailSpace(boolean value)
 
 在所有尾随空格下划线。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1709,9 +1769,10 @@ public void setUnderlineTabInNumList(boolean value)
 ```
 
 
-在编号后的字符后加下划线。
+在编号后的字符后划线。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1722,9 +1783,10 @@ public void setUseAltKinsokuLineBreakRules(boolean value)
 ```
 
 
-使用另一种东亚断线规则。
+使用备用的东亚换行规则集。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1735,9 +1797,10 @@ public void setUseAnsiKerningPairs(boolean value)
 ```
 
 
-使用字体中的 ANSI Kerning Pairs。
+使用字体中的 ANSI 字距调整对。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1750,7 +1813,8 @@ public void setUseFELayout(boolean value)
 
 不要绕过东亚/复杂脚本布局代码。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1763,7 +1827,8 @@ public void setUseNormalStyleForList(boolean value)
 
 不要自动将列表段落样式应用于项目符号/编号文本。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1774,9 +1839,10 @@ public void setUsePrinterMetrics(boolean value)
 ```
 
 
-使用打印机度量来显示文档。打印机指标可能因使用的驱动程序而异。例如，Windows“Microsoft OpenXPS Class Driver 2”和“Microsoft Print to PDF”提供的指标略有不同。因此，如果启用此选项，最终文档的布局可能会发生变化。
+使用打印机指标显示文档。打印机指标可能因使用的驱动程序而异。例如，Windows“Microsoft OpenXPS Class Driver 2”和“Microsoft Print to PDF”提供的指标略有不同。因此，如果启用此选项，最终文档的布局可能会发生变化。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1787,9 +1853,10 @@ public void setUseSingleBorderforContiguousCells(boolean value)
 ```
 
 
-对表格边界冲突使用简化规则。
+使用表格边界冲突的简化规则。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1802,7 +1869,8 @@ public void setUseWord2002TableStyleRules(boolean value)
 
 模拟 Word 2002 表格样式规则。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1815,7 +1883,8 @@ public void setUseWord2010TableStyleRules(boolean value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
@@ -1826,9 +1895,10 @@ public void setUseWord97LineBreakRules(boolean value)
 ```
 
 
-模拟 Word 97 东亚换行。
+模拟 Word 97 东亚换行符。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1841,7 +1911,8 @@ public void setWPJustification(boolean value)
 
 模拟 WordPerfect 6.x 段落对齐。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1854,7 +1925,8 @@ public void setWPSpaceWidth(boolean value)
 
 指定是否像在 WordPerfect 5.x 中那样设置空格的宽度。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1867,7 +1939,8 @@ public void setWrapTrailSpaces(boolean value)
 
 换行尾随空格。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -1880,8 +1953,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -1898,7 +1971,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -1911,7 +1985,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

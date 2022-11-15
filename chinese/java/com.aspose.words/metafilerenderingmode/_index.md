@@ -1,26 +1,26 @@
 ---
 title: MetafileRenderingMode
 second_title: Aspose.Words for Java API 参考
-description: 指定 Aspose.Words 应如何呈现 WMF 和 EMF 元文件。
+description: 指定 Aspose.Words 应如何呈现 WMF 和 EMF 图元文件。
 type: docs
 weight: 396
 url: /zh/java/com.aspose.words/metafilerenderingmode/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class MetafileRenderingMode
 ```
 
-指定 Aspose.Words 应如何呈现 WMF 和 EMF 元文件。
+指定 Aspose.Words 应如何呈现 WMF 和 EMF 图元文件。
 ## 字段
 
 | 场地 | 描述 |
 | --- | --- |
 | [BITMAP](#BITMAP) | Aspose.Words 调用 GDI+ 将元文件呈现为位图，然后将位图保存到输出文档。 |
 | [VECTOR](#VECTOR) | Aspose.Words 将元文件呈现为矢量图形。 |
-| [VECTOR_WITH_FALLBACK](#VECTOR-WITH-FALLBACK) | Aspose.Words 尝试将元文件呈现为矢量图形。 |
+| [VECTOR_WITH_FALLBACK](#VECTOR-WITH-FALLBACK) | Aspose.Words 试图将图元文件呈现为矢量图形。 |
 | [length](#length) |  |
 ## 方法
 
@@ -61,7 +61,7 @@ public static int VECTOR_WITH_FALLBACK
 ```
 
 
-Aspose.Words 尝试将元文件呈现为矢量图形。如果 Aspose.Words 无法正确地将某些元文件记录呈现为矢量图形，那么 Aspose.Words 会将此元文件呈现为位图。
+Aspose.Words 试图将图元文件呈现为矢量图形。如果Aspose.Words 不能正确地将一些图元文件记录渲染成矢量图形，那么Aspose.Words 会将这个图元文件渲染成位图。
 
 ### length {#length}
 ```
@@ -77,12 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String metafileRenderingModeName) {#fromName-java.lang.String-}
 ```
@@ -92,12 +93,13 @@ public static int fromName(String metafileRenderingModeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | metafileRenderingModeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -107,7 +109,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int metafileRenderingMode) {#getName-int-}
 ```
@@ -117,13 +119,14 @@ public static String getName(int metafileRenderingMode)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | metafileRenderingMode | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -132,7 +135,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -142,7 +145,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -168,8 +171,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int metafileRenderingMode) {#toString-int-}
 ```
 public static String toString(int metafileRenderingMode)
@@ -178,13 +181,14 @@ public static String toString(int metafileRenderingMode)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | metafileRenderingMode | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -201,7 +205,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -214,7 +219,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

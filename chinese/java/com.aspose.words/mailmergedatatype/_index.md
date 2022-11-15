@@ -7,7 +7,7 @@ weight: 382
 url: /zh/java/com.aspose.words/mailmergedatatype/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class MailMergeDataType
@@ -22,7 +22,7 @@ public class MailMergeDataType
 | [DEFAULT](#DEFAULT) | 等于[NONE](../../com.aspose.words/mailmergedatatype\#NONE). |
 | [NATIVE](#NATIVE) | 指定给定文档已通过 Office 数据源对象 (ODSO) 接口连接到外部数据源。 |
 | [NONE](#NONE) | 未指定邮件合并数据源。 |
-| [ODBC](#ODBC) | 指定给定文档已通过 Open Database Connectivity 接口连接到外部数据源。 |
+| [ODBC](#ODBC) | 指定给定文档已通过开放式数据库连接接口连接到外部数据源。 |
 | [QUERY](#QUERY) | 指定给定文档已使用外部查询工具连接到外部数据源。 |
 | [SPREADSHEET](#SPREADSHEET) | 指定给定文档已通过动态数据交换 (DDE) 系统连接到 Excel 电子表格。 |
 | [TEXT_FILE](#TEXT-FILE) | 指定给定文档已通过动态数据交换 (DDE) 系统连接到文本文件。 |
@@ -82,7 +82,7 @@ public static int ODBC
 ```
 
 
-指定给定文档已通过 Open Database Connectivity 接口连接到外部数据源。
+指定给定文档已通过开放式数据库连接接口连接到外部数据源。
 
 ### QUERY {#QUERY}
 ```
@@ -122,12 +122,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String mailMergeDataTypeName) {#fromName-java.lang.String-}
 ```
@@ -137,12 +138,13 @@ public static int fromName(String mailMergeDataTypeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | mailMergeDataTypeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -152,7 +154,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int mailMergeDataType) {#getName-int-}
 ```
@@ -162,13 +164,14 @@ public static String getName(int mailMergeDataType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | mailMergeDataType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -177,7 +180,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -187,7 +190,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -213,8 +216,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int mailMergeDataType) {#toString-int-}
 ```
 public static String toString(int mailMergeDataType)
@@ -223,13 +226,14 @@ public static String toString(int mailMergeDataType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | mailMergeDataType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -246,7 +250,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -259,7 +264,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

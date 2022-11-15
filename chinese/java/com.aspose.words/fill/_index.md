@@ -7,7 +7,7 @@ weight: 267
 url: /zh/java/com.aspose.words/fill/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class Fill
@@ -34,12 +34,12 @@ public class Fill
 | [getGradientVariant()](#getGradientVariant--) | 获取渐变变体[GradientVariant](../../com.aspose.words/gradientvariant)为填充。 |
 | [getImageBytes()](#getImageBytes--) | 获取填充纹理或图案的原始字节。 |
 | [getOn()](#getOn--) | 如果应用于此实例的格式可见，则获取值为 true。 |
-| [getOpacity()](#getOpacity--) | 获取指定填充的不透明度，取值介于 0.0（透明）和 1.0（不透明）之间。 |
+| [getOpacity()](#getOpacity--) | 获取指定填充的不透明度，该值介于 0.0（透明）和 1.0（不透明）之间。 |
 | [getPattern()](#getPattern--) | 得到一个[PatternType](../../com.aspose.words/patterntype)为填充。 |
 | [getPresetTexture()](#getPresetTexture--) | 得到一个[PresetTexture](../../com.aspose.words/presettexture)为填充。 |
 | [getRotateWithObject()](#getRotateWithObject--) | 获取填充是否随指定对象旋转。 |
-| [getTextureAlignment()](#getTextureAlignment--) | 获取平铺纹理填充的对齐方式。 |
-| [getTransparency()](#getTransparency--) | 获取指定填充的透明度，作为 0.0（不透明）和 1.0（透明）之间的值。 |
+| [getTextureAlignment()](#getTextureAlignment--) | 获取瓷砖纹理填充的对齐方式。 |
+| [getTransparency()](#getTransparency--) | 获取指定填充的透明度，该值介于 0.0（不透明）和 1.0（透明）之间。 |
 | [getVisible()](#getVisible--) | 如果应用于此实例的格式可见，则获取值为 true。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -50,18 +50,18 @@ public class Fill
 | [patterned(int patternType, Color foreColor, Color backColor)](#patterned-int-java.awt.Color-java.awt.Color-) |  |
 | [presetTextured(int presetTexture)](#presetTextured-int-) |  |
 | [setBackColor(Color value)](#setBackColor-java.awt.Color-) | 设置表示填充背景颜色的 Color 对象。 |
-| [setColor(Color value)](#setColor-java.awt.Color-) | 设置表示填充的前景色的 Color 对象。 |
-| [setForeColor(Color value)](#setForeColor-java.awt.Color-) | 设置表示填充的前景色的 Color 对象。 |
+| [setColor(Color value)](#setColor-java.awt.Color-) | 设置表示填充前景色的 Color 对象。 |
+| [setForeColor(Color value)](#setForeColor-java.awt.Color-) | 设置表示填充前景色的 Color 对象。 |
 | [setGradientAngle(double value)](#setGradientAngle-double-) | 设置渐变填充的角度。 |
 | [setImage(byte[] imageBytes)](#setImage-byte---) | 将填充类型更改为单个图像。 |
 | [setImage(InputStream stream)](#setImage-java.io.InputStream-) |  |
 | [setImage(String fileName)](#setImage-java.lang.String-) | 将填充类型更改为单个图像。 |
-| [setOn(boolean value)](#setOn-boolean-) | 如果应用于此实例的格式可见，则设置值为 true。 |
+| [setOn(boolean value)](#setOn-boolean-) | 如果应用于此实例的格式可见，则设置为真值。 |
 | [setOpacity(double value)](#setOpacity-double-) | 将指定填充的不透明度设置为 0.0（透明）和 1.0（不透明）之间的值。 |
 | [setRotateWithObject(boolean value)](#setRotateWithObject-boolean-) | 设置填充是否随指定对象旋转。 |
-| [setTextureAlignment(int value)](#setTextureAlignment-int-) | 设置平铺纹理填充的对齐方式。 |
+| [setTextureAlignment(int value)](#setTextureAlignment-int-) | 设置瓷砖纹理填充的对齐方式。 |
 | [setTransparency(double value)](#setTransparency-double-) | 将指定填充的透明度设置为 0.0（不透明）和 1.0（透明）之间的值。 |
-| [setVisible(boolean value)](#setVisible-boolean-) | 如果应用于此实例的格式可见，则设置值为 true。 |
+| [setVisible(boolean value)](#setVisible-boolean-) | 如果应用于此实例的格式可见，则设置为真值。 |
 | [solid()](#solid--) | 将填充设置为统一颜色。 |
 | [solid(Color color)](#solid-java.awt.Color-) | 将填充设置为指定的统一颜色。 |
 | [toString()](#toString--) |  |
@@ -78,12 +78,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getBackColor() {#getBackColor--}
 ```
@@ -93,7 +94,7 @@ public Color getBackColor()
 
 获取一个 Color 对象，该对象表示填充的背景色。
 
-**退货:**
+**退货：**
 java.awt.Color - 一个 Color 对象，表示填充的背景颜色。
 ### getClass() {#getClass--}
 ```
@@ -103,7 +104,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getColor() {#getColor--}
 ```
@@ -113,7 +114,7 @@ public Color getColor()
 
 获取一个 Color 对象，该对象表示填充的前景色。
 
-**退货:**
+**退货：**
 java.awt.Color - 一个 Color 对象，表示填充的前景色。
 ### getFillType() {#getFillType--}
 ```
@@ -123,8 +124,8 @@ public int getFillType()
 
 获取填充类型。
 
-**退货:**
- int - 一种填充类型。返回值是以下之一[FillType](../../com.aspose.words/filltype)常数。
+**退货：**
+ int - 一种填充类型。返回值是其中之一[FillType](../../com.aspose.words/filltype)常数。
 ### getForeColor() {#getForeColor--}
 ```
 public Color getForeColor()
@@ -133,7 +134,7 @@ public Color getForeColor()
 
 获取一个 Color 对象，该对象表示填充的前景色。
 
-**退货:**
+**退货：**
 java.awt.Color - 一个 Color 对象，表示填充的前景色。
 ### getGradientAngle() {#getGradientAngle--}
 ```
@@ -143,7 +144,7 @@ public double getGradientAngle()
 
 获取渐变填充的角度。
 
-**退货:**
+**退货：**
 double - 渐变填充的角度。
 ### getGradientStops() {#getGradientStops--}
 ```
@@ -153,8 +154,8 @@ public GradientStopCollection getGradientStops()
 
 获取一个集合[GradientStop](../../com.aspose.words/gradientstop)填充对象。
 
-**退货:**
-[GradientStopCollection](../../com.aspose.words/gradientstopcollection) - 集合[GradientStop](../../com.aspose.words/gradientstop)填充对象。
+**退货：**
+[GradientStopCollection](../../com.aspose.words/gradientstopcollection) - 一个集合[GradientStop](../../com.aspose.words/gradientstop)填充对象。
 ### getGradientStyle() {#getGradientStyle--}
 ```
 public int getGradientStyle()
@@ -163,8 +164,8 @@ public int getGradientStyle()
 
 获取渐变样式[GradientStyle](../../com.aspose.words/gradientstyle)为填充。
 
-**退货:**
- int - 渐变样式[GradientStyle](../../com.aspose.words/gradientstyle)为填充。返回值是以下之一[GradientStyle](../../com.aspose.words/gradientstyle)常数。
+**退货：**
+ int - 渐变样式[GradientStyle](../../com.aspose.words/gradientstyle)为填充。返回值是其中之一[GradientStyle](../../com.aspose.words/gradientstyle)常数。
 ### getGradientVariant() {#getGradientVariant--}
 ```
 public int getGradientVariant()
@@ -173,8 +174,8 @@ public int getGradientVariant()
 
 获取渐变变体[GradientVariant](../../com.aspose.words/gradientvariant)为填充。
 
-**退货:**
-int - 渐变变体[GradientVariant](../../com.aspose.words/gradientvariant)为填充。返回值是以下之一[GradientVariant](../../com.aspose.words/gradientvariant)常数。
+**退货：**
+int - 渐变变体[GradientVariant](../../com.aspose.words/gradientvariant)为填充。返回值是其中之一[GradientVariant](../../com.aspose.words/gradientvariant)常数。
 ### getImageBytes() {#getImageBytes--}
 ```
 public byte[] getImageBytes()
@@ -185,7 +186,7 @@ public byte[] getImageBytes()
 
 默认值为空。
 
-**退货:**
+**退货：**
 字节[- 填充纹理或图案的原始字节。
 ### getOn() {#getOn--}
 ```
@@ -195,7 +196,7 @@ public boolean getOn()
 
 如果应用于此实例的格式可见，则获取值为 true。
 
-**退货:**
+**退货：**
 boolean - 如果应用于此实例的格式可见，则该值为 true。
 ### getOpacity() {#getOpacity--}
 ```
@@ -203,9 +204,9 @@ public double getOpacity()
 ```
 
 
-获取指定填充的不透明度，取值介于 0.0（透明）和 1.0（不透明）之间。此属性与属性相反[getTransparency()](../../com.aspose.words/fill\#getTransparency--) / [setTransparency(double)](../../com.aspose.words/fill\#setTransparency-double-).
+获取指定填充的不透明度，该值介于 0.0（透明）和 1.0（不透明）之间。此属性与属性相反[getTransparency()](../../com.aspose.words/fill\#getTransparency--) / [setTransparency(double)](../../com.aspose.words/fill\#setTransparency-double-).
 
-**退货:**
+**退货：**
 double - 指定填充的不透明度程度，值介于 0.0（透明）和 1.0（不透明）之间。
 ### getPattern() {#getPattern--}
 ```
@@ -215,8 +216,8 @@ public int getPattern()
 
 得到一个[PatternType](../../com.aspose.words/patterntype)为填充。
 
-**退货:**
-整数-A[PatternType](../../com.aspose.words/patterntype)为填充。返回值是以下之一[PatternType](../../com.aspose.words/patterntype)常数。
+**退货：**
+诠释 - A[PatternType](../../com.aspose.words/patterntype)为填充。返回值是其中之一[PatternType](../../com.aspose.words/patterntype)常数。
 ### getPresetTexture() {#getPresetTexture--}
 ```
 public int getPresetTexture()
@@ -225,8 +226,8 @@ public int getPresetTexture()
 
 得到一个[PresetTexture](../../com.aspose.words/presettexture)为填充。
 
-**退货:**
-整数-A[PresetTexture](../../com.aspose.words/presettexture)为填充。返回值是以下之一[PresetTexture](../../com.aspose.words/presettexture)常数。
+**退货：**
+诠释 - A[PresetTexture](../../com.aspose.words/presettexture)为填充。返回值是其中之一[PresetTexture](../../com.aspose.words/presettexture)常数。
 ### getRotateWithObject() {#getRotateWithObject--}
 ```
 public boolean getRotateWithObject()
@@ -235,7 +236,7 @@ public boolean getRotateWithObject()
 
 获取填充是否随指定对象旋转。
 
-**退货:**
+**退货：**
 boolean - 填充是否随指定对象旋转。
 ### getTextureAlignment() {#getTextureAlignment--}
 ```
@@ -243,19 +244,19 @@ public int getTextureAlignment()
 ```
 
 
-获取平铺纹理填充的对齐方式。
+获取瓷砖纹理填充的对齐方式。
 
-**退货:**
- int - 平铺纹理填充的对齐方式。返回值是以下之一[TextureAlignment](../../com.aspose.words/texturealignment)常数。
+**退货：**
+ int - 平铺纹理填充的对齐方式。返回值是其中之一[TextureAlignment](../../com.aspose.words/texturealignment)常数。
 ### getTransparency() {#getTransparency--}
 ```
 public double getTransparency()
 ```
 
 
-获取指定填充的透明度，作为 0.0（不透明）和 1.0（透明）之间的值。此属性与属性相反[getOpacity()](../../com.aspose.words/fill\#getOpacity--) / [setOpacity(double)](../../com.aspose.words/fill\#setOpacity-double-).
+获取指定填充的透明度，该值介于 0.0（不透明）和 1.0（透明）之间。此属性与属性相反[getOpacity()](../../com.aspose.words/fill\#getOpacity--) / [setOpacity(double)](../../com.aspose.words/fill\#setOpacity-double-).
 
-**退货:**
+**退货：**
 double - 指定填充的透明度，值介于 0.0（不透明）和 1.0（透明）之间。
 ### getVisible() {#getVisible--}
 ```
@@ -265,7 +266,7 @@ public boolean getVisible()
 
 如果应用于此实例的格式可见，则获取值为 true。
 
-**退货:**
+**退货：**
 boolean - 如果应用于此实例的格式可见，则该值为 true。
 ### hashCode() {#hashCode--}
 ```
@@ -275,7 +276,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -301,7 +302,8 @@ public void oneColorGradient(int style, int variant, double degree)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | style | int |  |
@@ -316,7 +318,8 @@ public void oneColorGradient(Color color, int style, int variant, double degree)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | color | java.awt.Color |  |
@@ -332,7 +335,8 @@ public void patterned(int patternType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | patternType | int |  |
@@ -345,7 +349,8 @@ public void patterned(int patternType, Color foreColor, Color backColor)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | patternType | int |  |
@@ -360,7 +365,8 @@ public void presetTextured(int presetTexture)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | presetTexture | int |  |
@@ -373,10 +379,11 @@ public void setBackColor(Color value)
 
 设置表示填充背景颜色的 Color 对象。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.awt.Color | 一个 Color 对象，表示填充的背景颜色。 |
+| value | java.awt.Color | 表示填充背景颜色的 Color 对象。 |
 
 ### setColor(Color value) {#setColor-java.awt.Color-}
 ```
@@ -384,12 +391,13 @@ public void setColor(Color value)
 ```
 
 
-设置表示填充的前景色的 Color 对象。
+设置表示填充前景色的 Color 对象。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.awt.Color | 一个 Color 对象，表示填充的前景色。 |
+| value | java.awt.Color | 表示填充前景色的 Color 对象。 |
 
 ### setForeColor(Color value) {#setForeColor-java.awt.Color-}
 ```
@@ -397,12 +405,13 @@ public void setForeColor(Color value)
 ```
 
 
-设置表示填充的前景色的 Color 对象。
+设置表示填充前景色的 Color 对象。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.awt.Color | 一个 Color 对象，表示填充的前景色。 |
+| value | java.awt.Color | 表示填充前景色的 Color 对象。 |
 
 ### setGradientAngle(double value) {#setGradientAngle-double-}
 ```
@@ -412,7 +421,8 @@ public void setGradientAngle(double value)
 
 设置渐变填充的角度。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 渐变填充的角度。 |
@@ -425,7 +435,8 @@ public void setImage(byte[] imageBytes)
 
 将填充类型更改为单个图像。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | imageBytes | byte[] | 图像字节数组。 |
@@ -438,7 +449,8 @@ public void setImage(InputStream stream)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
@@ -451,7 +463,8 @@ public void setImage(String fileName)
 
 将填充类型更改为单个图像。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | java.lang.String | 图像文件的路径。 |
@@ -462,12 +475,13 @@ public void setOn(boolean value)
 ```
 
 
-如果应用于此实例的格式可见，则设置值为 true。
+如果应用于此实例的格式可见，则设置为真值。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 如果应用于此实例的格式可见，则该值为 true。 |
+| value | boolean | 如果应用于此实例的格式可见，则该值为真。 |
 
 ### setOpacity(double value) {#setOpacity-double-}
 ```
@@ -477,10 +491,11 @@ public void setOpacity(double value)
 
 将指定填充的不透明度设置为 0.0（透明）和 1.0（不透明）之间的值。此属性与属性相反[getTransparency()](../../com.aspose.words/fill\#getTransparency--) / [setTransparency(double)](../../com.aspose.words/fill\#setTransparency-double-).
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 指定填充的不透明度，值介于 0.0（透明）和 1.0（不透明）之间。 |
+| value | double | 指定填充的不透明度，其值介于 0.0（透明）和 1.0（不透明）之间。 |
 
 ### setRotateWithObject(boolean value) {#setRotateWithObject-boolean-}
 ```
@@ -490,7 +505,8 @@ public void setRotateWithObject(boolean value)
 
 设置填充是否随指定对象旋转。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 填充是否随指定对象旋转。 |
@@ -501,12 +517,13 @@ public void setTextureAlignment(int value)
 ```
 
 
-设置平铺纹理填充的对齐方式。
+设置瓷砖纹理填充的对齐方式。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 平铺纹理填充的对齐方式。该值必须是其中之一[TextureAlignment](../../com.aspose.words/texturealignment)常数。 |
+| value | int | 图块纹理填充的对齐方式。该值必须是其中之一[TextureAlignment](../../com.aspose.words/texturealignment)常数。 |
 
 ### setTransparency(double value) {#setTransparency-double-}
 ```
@@ -516,7 +533,8 @@ public void setTransparency(double value)
 
 将指定填充的透明度设置为 0.0（不透明）和 1.0（透明）之间的值。此属性与属性相反[getOpacity()](../../com.aspose.words/fill\#getOpacity--) / [setOpacity(double)](../../com.aspose.words/fill\#setOpacity-double-).
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 指定填充的透明度，值介于 0.0（不透明）和 1.0（透明）之间。 |
@@ -527,12 +545,13 @@ public void setVisible(boolean value)
 ```
 
 
-如果应用于此实例的格式可见，则设置值为 true。
+如果应用于此实例的格式可见，则设置为真值。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 如果应用于此实例的格式可见，则该值为 true。 |
+| value | boolean | 如果应用于此实例的格式可见，则该值为真。 |
 
 ### solid() {#solid--}
 ```
@@ -540,7 +559,7 @@ public void solid()
 ```
 
 
-将填充设置为统一颜色。使用此方法可将任何填充转换回实体填充。
+将填充设置为统一颜色。使用此方法将任何填充转换回实体填充。
 
 ### solid(Color color) {#solid-java.awt.Color-}
 ```
@@ -548,9 +567,10 @@ public void solid(Color color)
 ```
 
 
-将填充设置为指定的统一颜色。使用此方法可将任何填充转换回实体填充。
+将填充设置为指定的统一颜色。使用此方法将任何填充转换回实体填充。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | color | java.awt.Color |  |
@@ -563,8 +583,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### twoColorGradient(int style, int variant) {#twoColorGradient-int-int-}
 ```
 public void twoColorGradient(int style, int variant)
@@ -573,7 +593,8 @@ public void twoColorGradient(int style, int variant)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | style | int |  |
@@ -587,7 +608,8 @@ public void twoColorGradient(Color color1, Color color2, int style, int variant)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | color1 | java.awt.Color |  |
@@ -611,7 +633,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -624,7 +647,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

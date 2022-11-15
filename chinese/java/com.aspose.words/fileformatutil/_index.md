@@ -7,13 +7,13 @@ weight: 266
 url: /zh/java/com.aspose.words/fileformatutil/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class FileFormatUtil
 ```
 
-提供用于处理文件格式的实用方法，例如检测文件格式或将文件扩展名与文件格式枚举相互转换。
+提供用于处理文件格式的实用方法，例如检测文件格式或将文件扩展名转换为/从文件格式枚举。
 
 要了解更多信息，请访问**Detect File Format and Check Format Compatibility**文档文章。
 ## 方法
@@ -47,12 +47,13 @@ public static int contentTypeToLoadFormat(String contentType)
 
 将 IANA 内容类型转换为加载格式枚举值。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | contentType | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### contentTypeToSaveFormat(String contentType) {#contentTypeToSaveFormat-java.lang.String-}
 ```
@@ -62,12 +63,13 @@ public static int contentTypeToSaveFormat(String contentType)
 
 将 IANA 内容类型转换为保存格式的枚举值。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | contentType | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### detectFileFormat(InputStream stream) {#detectFileFormat-java.io.InputStream-}
 ```
@@ -77,12 +79,13 @@ public static FileFormatInfo detectFileFormat(InputStream stream)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
 
-**退货:**
+**退货：**
 [FileFormatInfo](../../com.aspose.words/fileformatinfo)
 ### detectFileFormat(String fileName) {#detectFileFormat-java.lang.String-}
 ```
@@ -96,12 +99,13 @@ public static FileFormatInfo detectFileFormat(String fileName)
 
 这个方法抛出[FileCorruptedException](../../com.aspose.words/filecorruptedexception)当格式被识别，但由于损坏而无法完成检测。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | java.lang.String | 文件名。 |
 
-**退货:**
+**退货：**
 [FileFormatInfo](../../com.aspose.words/fileformatinfo) - 一个[FileFormatInfo](../../com.aspose.words/fileformatinfo)包含检测到的信息的对象。
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -111,12 +115,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### extensionToSaveFormat(String extension) {#extensionToSaveFormat-java.lang.String-}
 ```
@@ -126,14 +131,15 @@ public static int extensionToSaveFormat(String extension)
 
 将文件扩展名转换为[SaveFormat](../../com.aspose.words/saveformat)价值。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | extension | java.lang.String | 文件扩展名。可以带或不带前导点。不区分大小写。
 
 如果无法识别扩展名，则返回[SaveFormat.UNKNOWN](../../com.aspose.words/saveformat\#UNKNOWN). |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -143,7 +149,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
@@ -153,7 +159,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### imageTypeToExtension(int imageType) {#imageTypeToExtension-int-}
 ```
@@ -163,13 +169,14 @@ public static String imageTypeToExtension(int imageType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | imageType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### loadFormatToExtension(int loadFormat) {#loadFormatToExtension-int-}
 ```
 public static String loadFormatToExtension(int loadFormat)
@@ -178,13 +185,14 @@ public static String loadFormatToExtension(int loadFormat)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | loadFormat | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### loadFormatToSaveFormat(int loadFormat) {#loadFormatToSaveFormat-int-}
 ```
 public static int loadFormatToSaveFormat(int loadFormat)
@@ -193,12 +201,13 @@ public static int loadFormatToSaveFormat(int loadFormat)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | loadFormat | int |  |
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -224,13 +233,14 @@ public static String saveFormatToExtension(int saveFormat)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### saveFormatToLoadFormat(int saveFormat) {#saveFormatToLoadFormat-int-}
 ```
 public static int saveFormatToLoadFormat(int saveFormat)
@@ -239,12 +249,13 @@ public static int saveFormatToLoadFormat(int saveFormat)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**退货:**
+**退货：**
 整数
 ### toString() {#toString--}
 ```
@@ -254,8 +265,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -272,7 +283,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -285,7 +297,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

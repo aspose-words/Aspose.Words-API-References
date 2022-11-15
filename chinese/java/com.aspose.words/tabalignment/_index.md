@@ -7,7 +7,7 @@ weight: 544
 url: /zh/java/com.aspose.words/tabalignment/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class TabAlignment
@@ -22,9 +22,9 @@ public class TabAlignment
 | [CENTER](#CENTER) | 使文本围绕制表位居中。 |
 | [CLEAR](#CLEAR) | 清除此位置的任何制表位。 |
 | [DECIMAL](#DECIMAL) | 在小数点处对齐文本。 |
-| [LEFT](#LEFT) | 在制表位后左对齐文本。 |
+| [LEFT](#LEFT) | 将制表位后的文本左对齐。 |
 | [LIST](#LIST) | 制表符是列表项中数字/项目符号和文本之间的分隔符。 |
-| [RIGHT](#RIGHT) | 在制表位右对齐文本。 |
+| [RIGHT](#RIGHT) | 右对齐制表位处的文本。 |
 | [length](#length) |  |
 ## 方法
 
@@ -81,7 +81,7 @@ public static int LEFT
 ```
 
 
-在制表位后左对齐文本。
+将制表位后的文本左对齐。
 
 ### LIST {#LIST}
 ```
@@ -97,7 +97,7 @@ public static int RIGHT
 ```
 
 
-在制表位右对齐文本。
+右对齐制表位处的文本。
 
 ### length {#length}
 ```
@@ -113,12 +113,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String tabAlignmentName) {#fromName-java.lang.String-}
 ```
@@ -128,12 +129,13 @@ public static int fromName(String tabAlignmentName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | tabAlignmentName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -143,7 +145,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int tabAlignment) {#getName-int-}
 ```
@@ -153,13 +155,14 @@ public static String getName(int tabAlignment)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | tabAlignment | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -168,7 +171,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -178,7 +181,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -204,8 +207,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int tabAlignment) {#toString-int-}
 ```
 public static String toString(int tabAlignment)
@@ -214,13 +217,14 @@ public static String toString(int tabAlignment)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | tabAlignment | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -237,7 +241,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -250,7 +255,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

@@ -7,7 +7,7 @@ weight: 381
 url: /zh/java/com.aspose.words/mailmergecleanupoptions/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class MailMergeCleanupOptions
@@ -19,7 +19,7 @@ public class MailMergeCleanupOptions
 | 场地 | 描述 |
 | --- | --- |
 | [NONE](#NONE) | 指定默认值。 |
-| [REMOVE_CONTAINING_FIELDS](#REMOVE-CONTAINING-FIELDS) | 指定在删除嵌套合并字段时是否应从文档中删除包含合并字段（例如，IF）的字段。 |
+| [REMOVE_CONTAINING_FIELDS](#REMOVE-CONTAINING-FIELDS) | 指定如果删除嵌套的合并字段，是否应从文档中删除包含合并字段（例如 IF）的字段。 |
 | [REMOVE_EMPTY_PARAGRAPHS](#REMOVE-EMPTY-PARAGRAPHS) | 指定是否应从文档中删除包含没有数据的邮件合并字段的段落。 |
 | [REMOVE_EMPTY_TABLE_ROWS](#REMOVE-EMPTY-TABLE-ROWS) | 指定是否应从文档中删除包含邮件合并区域的空行。 |
 | [REMOVE_STATIC_FIELDS](#REMOVE-STATIC-FIELDS) | 指定是否应从文档中删除静态字段。 |
@@ -60,7 +60,7 @@ public static int REMOVE_CONTAINING_FIELDS
 ```
 
 
-指定在删除嵌套合并字段时是否应从文档中删除包含合并字段（例如，IF）的字段。
+指定如果删除嵌套的合并字段，是否应从文档中删除包含合并字段（例如 IF）的字段。
 
 ### REMOVE_EMPTY_PARAGRAPHS {#REMOVE-EMPTY-PARAGRAPHS}
 ```
@@ -68,7 +68,7 @@ public static int REMOVE_EMPTY_PARAGRAPHS
 ```
 
 
-指定是否应从文档中删除包含没有数据的邮件合并字段的段落。设置此选项时，包含区域开始和结束合并字段的段落也会被删除，否则这些字段为空。
+指定是否应从文档中删除包含没有数据的邮件合并字段的段落。设置此选项后，包含区域开始和结束合并字段（否则为空）的段落也将被删除。
 
 ### REMOVE_EMPTY_TABLE_ROWS {#REMOVE-EMPTY-TABLE-ROWS}
 ```
@@ -76,7 +76,7 @@ public static int REMOVE_EMPTY_TABLE_ROWS
 ```
 
 
-指定是否应从文档中删除包含邮件合并区域的空行。此选项仅适用于与区域的邮件合并。
+指定是否应从文档中删除包含邮件合并区域的空行。此选项仅适用于区域邮件合并。
 
 ### REMOVE_STATIC_FIELDS {#REMOVE-STATIC-FIELDS}
 ```
@@ -84,7 +84,7 @@ public static int REMOVE_STATIC_FIELDS
 ```
 
 
-指定是否应从文档中删除静态字段。静态字段是字段，其结果在任何文档更改时保持不变。字段，它们不会将结果存储在文档中，而是动态计算的（例如[FieldType.FIELD\_LIST\_NUM](../../com.aspose.words/fieldtype\#FIELD-LIST-NUM), [FieldType.FIELD\_SYMBOL](../../com.aspose.words/fieldtype\#FIELD-SYMBOL)等）不被认为是静态的。以下是字段类型的完整列表，它们不被认为是静态的：
+指定是否应从文档中删除静态字段。静态字段是字段，其结果在任何文档更改时保持不变。不将结果存储在文档中并即时计算的字段（如[FieldType.FIELD\_LIST\_NUM](../../com.aspose.words/fieldtype\#FIELD-LIST-NUM), [FieldType.FIELD\_SYMBOL](../../com.aspose.words/fieldtype\#FIELD-SYMBOL)等）不被认为是静态的。以下是不被视为静态的字段类型的完整列表：
 
  *  [FieldType.FIELD\_ADVANCE](../../com.aspose.words/fieldtype\#FIELD-ADVANCE)
  *  [FieldType.FIELD\_AUTO\_NUM](../../com.aspose.words/fieldtype\#FIELD-AUTO-NUM)
@@ -134,7 +134,7 @@ public static int REMOVE_UNUSED_REGIONS
 ```
 
 
-指定是否应从文档中删除未使用的邮件合并区域。此选项仅适用于与区域的邮件合并。
+指定是否应从文档中删除未使用的邮件合并区域。此选项仅适用于区域邮件合并。
 
 ### length {#length}
 ```
@@ -150,12 +150,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String mailMergeCleanupOptionsName) {#fromName-java.lang.String-}
 ```
@@ -165,12 +166,13 @@ public static int fromName(String mailMergeCleanupOptionsName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | mailMergeCleanupOptionsName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### fromNames(Set mailMergeCleanupOptionsNames) {#fromNames-java.util.Set-}
 ```
@@ -180,12 +182,13 @@ public static int fromNames(Set mailMergeCleanupOptionsNames)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | mailMergeCleanupOptionsNames | java.util.Set |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -195,7 +198,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int mailMergeCleanupOptions) {#getName-int-}
 ```
@@ -205,13 +208,14 @@ public static String getName(int mailMergeCleanupOptions)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | mailMergeCleanupOptions | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getNames(int mailMergeCleanupOptions) {#getNames-int-}
 ```
 public static Set getNames(int mailMergeCleanupOptions)
@@ -220,12 +224,13 @@ public static Set getNames(int mailMergeCleanupOptions)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | mailMergeCleanupOptions | int |  |
 
-**退货:**
+**退货：**
 java.util.Set
 ### getValues() {#getValues--}
 ```
@@ -235,7 +240,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -245,7 +250,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -271,8 +276,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int mailMergeCleanupOptions) {#toString-int-}
 ```
 public static String toString(int mailMergeCleanupOptions)
@@ -281,13 +286,14 @@ public static String toString(int mailMergeCleanupOptions)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | mailMergeCleanupOptions | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toStringSet(int attr) {#toStringSet-int-}
 ```
 public static String toStringSet(int attr)
@@ -296,13 +302,14 @@ public static String toStringSet(int attr)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | attr | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -319,7 +326,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -332,7 +340,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

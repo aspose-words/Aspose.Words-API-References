@@ -7,13 +7,13 @@ weight: 318
 url: /zh/java/com.aspose.words/headerfootertype/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class HeaderFooterType
 ```
 
-标识在 Word 文件中找到的页眉或页脚的类型。这是每节的页眉/页脚。不要将用作 plcfhdd 索引的枚举值重新编号。
+标识在 Word 文件中找到的页眉或页脚的类型。这是每个部分的页眉/页脚。不要将用作 plcfhdd 索引的枚举值重新编号。
 ## 字段
 
 | 场地 | 描述 |
@@ -104,12 +104,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String headerFooterTypeName) {#fromName-java.lang.String-}
 ```
@@ -119,12 +120,13 @@ public static int fromName(String headerFooterTypeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | headerFooterTypeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -134,7 +136,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int headerFooterType) {#getName-int-}
 ```
@@ -144,13 +146,14 @@ public static String getName(int headerFooterType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | headerFooterType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -159,7 +162,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -169,7 +172,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -195,8 +198,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int headerFooterType) {#toString-int-}
 ```
 public static String toString(int headerFooterType)
@@ -205,13 +208,14 @@ public static String toString(int headerFooterType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | headerFooterType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -228,7 +232,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -241,7 +246,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

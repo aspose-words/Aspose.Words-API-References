@@ -7,12 +7,12 @@ weight: 307
 url: /zh/java/com.aspose.words/glyph/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class Glyph
 ```
-## 构造函数
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -45,7 +45,8 @@ public Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderO
 
 初始化此类的新实例。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | glyphIndex | int |  |
@@ -61,7 +62,7 @@ public Glyph deepClone()
 
 
 
-**退货:**
+**退货：**
 [Glyph](../../com.aspose.words/glyph)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -71,12 +72,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getAdvance() {#getAdvance--}
 ```
@@ -86,7 +88,7 @@ public short getAdvance()
 
 
 
-**退货:**
+**退货：**
 短的
 ### getAdvanceOffset() {#getAdvanceOffset--}
 ```
@@ -96,7 +98,7 @@ public short getAdvanceOffset()
 
 
 
-**退货:**
+**退货：**
 短的
 ### getAscenderOffset() {#getAscenderOffset--}
 ```
@@ -106,7 +108,7 @@ public short getAscenderOffset()
 
 
 
-**退货:**
+**退货：**
 短的
 ### getClass() {#getClass--}
 ```
@@ -116,7 +118,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getGlyphIndex() {#getGlyphIndex--}
 ```
@@ -126,7 +128,7 @@ public int getGlyphIndex()
 
 
 
-**退货:**
+**退货：**
 整数
 ### getWidth(int em, float fontSize) {#getWidth-int-float-}
 ```
@@ -136,13 +138,14 @@ public float getWidth(int em, float fontSize)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | em | int |  |
 | fontSize | float |  |
 
-**退货:**
+**退货：**
 漂浮
 ### hashCode() {#hashCode--}
 ```
@@ -152,7 +155,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -178,7 +181,8 @@ public void setAdvance(short value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | short |  |
@@ -191,8 +195,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -209,7 +213,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -222,7 +227,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

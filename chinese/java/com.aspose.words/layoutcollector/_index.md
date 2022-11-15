@@ -7,7 +7,7 @@ weight: 358
 url: /zh/java/com.aspose.words/layoutcollector/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class LayoutCollector
@@ -22,11 +22,11 @@ public class LayoutCollector
 您将能够通过使用[getStartPageIndex(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getStartPageIndex-com.aspose.words.Node-), [getEndPageIndex(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getEndPageIndex-com.aspose.words.Node-)和[getNumPagesSpanned(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getNumPagesSpanned-com.aspose.words.Node-)方法。如果需要，这些方法会自动构建文档的页面布局模型并更新字段。
 
 当您不再需要收集布局信息时，最好将[getDocument()](../../com.aspose.words/layoutcollector\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/layoutcollector\#setDocument-com.aspose.words.Document-)属性为 null 以避免不必要地收集更多布局映射。
-## 构造函数
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [LayoutCollector(Document doc)](#LayoutCollector-com.aspose.words.Document-) | 初始化此类的实例。 |
+| [LayoutCollector(Document doc)](#LayoutCollector-com.aspose.words.Document-) | 初始化此类的一个实例。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -53,9 +53,10 @@ public LayoutCollector(Document doc)
 ```
 
 
-初始化此类的实例。
+初始化此类的一个实例。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | doc | [Document](../../com.aspose.words/document) | 此收集器实例将附加到的文档。 |
@@ -76,12 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -91,7 +93,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getDocument() {#getDocument--}
 ```
@@ -101,7 +103,7 @@ public Document getDocument()
 
 获取此收集器实例附加到的文档。如果您需要访问文档节点的页面索引，则需要在构建文档的页面布局之前将此属性设置为指向文档实例。最好随后将此属性设置为 null，否则收集器会继续从文档页面布局的后续重建中积累信息。
 
-**退货:**
+**退货：**
 [Document](../../com.aspose.words/document) - 此收集器实例附加到的文档。
 ### getEndPageIndex(Node node) {#getEndPageIndex-com.aspose.words.Node-}
 ```
@@ -111,12 +113,13 @@ public int getEndPageIndex(Node node)
 
 获取节点结束的页面的从 1 开始的索引。如果节点无法映射到页面，则返回 0。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.words/node) |  |
 
-**退货:**
+**退货：**
 整数
 ### getEntity(Node node) {#getEntity-com.aspose.words.Node-}
 ```
@@ -134,12 +137,13 @@ public Object getEntity(Node node)
 
 如果您需要导航到[Cell](../../com.aspose.words/cell)节点然后你可以移动到一个[Paragraph](../../com.aspose.words/paragraph)此单元格中的节点，然后上升到父实体。同样的方法可以用于[Row](../../com.aspose.words/row)和[Table](../../com.aspose.words/table)节点。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.words/node) |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### getNumPagesSpanned(Node node) {#getNumPagesSpanned-com.aspose.words.Node-}
 ```
@@ -149,12 +153,13 @@ public int getNumPagesSpanned(Node node)
 
 获取指定节点跨越的页数。如果节点在单个页面内则为 0。这与[getEndPageIndex(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getEndPageIndex-com.aspose.words.Node-) -[getStartPageIndex(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getStartPageIndex-com.aspose.words.Node-).
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.words/node) |  |
 
-**退货:**
+**退货：**
 整数
 ### getStartPageIndex(Node node) {#getStartPageIndex-com.aspose.words.Node-}
 ```
@@ -164,12 +169,13 @@ public int getStartPageIndex(Node node)
 
 获取节点开始的页面的从 1 开始的索引。如果节点无法映射到页面，则返回 0。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.words/node) |  |
 
-**退货:**
+**退货：**
 整数
 ### hashCode() {#hashCode--}
 ```
@@ -179,7 +185,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -203,9 +209,10 @@ public void setDocument(Document value)
 ```
 
 
-设置此收集器实例附加到的文档。如果您需要访问文档节点的页面索引，则需要在构建文档的页面布局之前将此属性设置为指向文档实例。最好在之后将此属性设置为 null，否则收集器会继续从文档页面布局的后续重建中积累信息。
+设置此收集器实例附加到的文档。如果您需要访问文档节点的页面索引，则需要在构建文档的页面布局之前将此属性设置为指向文档实例。最好随后将此属性设置为 null，否则收集器会继续从文档页面布局的后续重建中积累信息。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | [Document](../../com.aspose.words/document) | 此收集器实例附加到的文档。 |
@@ -218,8 +225,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -236,7 +243,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -249,7 +257,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

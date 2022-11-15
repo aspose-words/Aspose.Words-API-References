@@ -7,7 +7,7 @@ weight: 604
 url: /zh/java/com.aspose.words/warninginfo/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class WarningInfo
@@ -42,12 +42,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -57,7 +58,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getDescription() {#getDescription--}
 ```
@@ -67,7 +68,7 @@ public String getDescription()
 
 返回警告的描述。
 
-**退货:**
+**退货：**
 java.lang.String - 警告的描述。
 ### getSource() {#getSource--}
 ```
@@ -77,8 +78,8 @@ public int getSource()
 
 返回警告的来源。
 
-**退货:**
- int - 警告的来源。返回值是以下之一[WarningSource](../../com.aspose.words/warningsource)常数。
+**退货：**
+ int - 警告的来源。返回值是其中之一[WarningSource](../../com.aspose.words/warningsource)常数。
 ### getWarningType() {#getWarningType--}
 ```
 public int getWarningType()
@@ -87,7 +88,7 @@ public int getWarningType()
 
 返回警告的类型。
 
-**退货:**
+**退货：**
 int - 警告的类型。返回值是按位组合[WarningType](../../com.aspose.words/warningtype)常数。
 ### hashCode() {#hashCode--}
 ```
@@ -97,7 +98,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -123,8 +124,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -141,7 +142,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -154,7 +156,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

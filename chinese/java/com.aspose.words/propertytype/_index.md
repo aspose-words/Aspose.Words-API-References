@@ -7,7 +7,7 @@ weight: 469
 url: /zh/java/com.aspose.words/propertytype/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class PropertyType
@@ -20,7 +20,7 @@ public class PropertyType
 | --- | --- |
 | [BOOLEAN](#BOOLEAN) | 该属性是一个布尔值。 |
 | [BYTE_ARRAY](#BYTE-ARRAY) | 该属性是一个字节数组。 |
-| [DATE_TIME](#DATE-TIME) | 该属性是日期时间值。 |
+| [DATE_TIME](#DATE-TIME) | 该属性是一个日期时间值。 |
 | [DOUBLE](#DOUBLE) | 该属性是一个浮点数。 |
 | [NUMBER](#NUMBER) | 该属性是一个整数。 |
 | [OBJECT_ARRAY](#OBJECT-ARRAY) | 该属性是一个对象数组。 |
@@ -67,7 +67,7 @@ public static int DATE_TIME
 ```
 
 
-该属性是日期时间值。
+该属性是一个日期时间值。
 
 ### DOUBLE {#DOUBLE}
 ```
@@ -131,12 +131,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String propertyTypeName) {#fromName-java.lang.String-}
 ```
@@ -146,12 +147,13 @@ public static int fromName(String propertyTypeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | propertyTypeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -161,7 +163,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int propertyType) {#getName-int-}
 ```
@@ -171,13 +173,14 @@ public static String getName(int propertyType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | propertyType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -186,7 +189,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -196,7 +199,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -222,8 +225,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int propertyType) {#toString-int-}
 ```
 public static String toString(int propertyType)
@@ -232,13 +235,14 @@ public static String toString(int propertyType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | propertyType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -255,7 +259,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -268,7 +273,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

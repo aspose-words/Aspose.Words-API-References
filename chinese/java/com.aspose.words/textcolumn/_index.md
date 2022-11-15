@@ -7,10 +7,10 @@ weight: 561
 url: /zh/java/com.aspose.words/textcolumn/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Cloneable
 ```
 public class TextColumn implements Cloneable
@@ -48,12 +48,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -63,7 +64,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getSpaceAfter() {#getSpaceAfter--}
 ```
@@ -73,7 +74,7 @@ public double getSpaceAfter()
 
 获取此列与下一列之间的间距（以磅为单位）。最后一列不需要。
 
-**退货:**
+**退货：**
 double - 此列与下一列之间的间距（以磅为单位）。
 ### getWidth() {#getWidth--}
 ```
@@ -83,7 +84,7 @@ public double getWidth()
 
 获取文本列的宽度（以磅为单位）。
 
-**退货:**
+**退货：**
 double - 文本列的宽度（以磅为单位）。
 ### hashCode() {#hashCode--}
 ```
@@ -93,7 +94,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -119,7 +120,8 @@ public void setSpaceAfter(double value)
 
 设置此列与下一列之间的间距（以磅为单位）。最后一列不需要。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 此列与下一列之间的间距（以磅为单位）。 |
@@ -132,7 +134,8 @@ public void setWidth(double value)
 
 以磅为单位设置文本列的宽度。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 文本列的宽度（以磅为单位）。 |
@@ -145,8 +148,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -163,7 +166,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -176,7 +180,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

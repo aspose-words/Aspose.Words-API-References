@@ -7,7 +7,7 @@ weight: 464
 url: /zh/java/com.aspose.words/physicalfontinfo/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class PhysicalFontInfo
@@ -41,12 +41,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -56,7 +57,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getFilePath() {#getFilePath--}
 ```
@@ -66,8 +67,8 @@ public String getFilePath()
 
 字体文件的路径（如果有）。
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**退货：**
+java.lang.String - 相应的 java.lang.String 值。
 ### getFontFamilyName() {#getFontFamilyName--}
 ```
 public String getFontFamilyName()
@@ -76,8 +77,8 @@ public String getFontFamilyName()
 
 字体的家族名称。
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**退货：**
+java.lang.String - 相应的 java.lang.String 值。
 ### getFullFontName() {#getFullFontName--}
 ```
 public String getFullFontName()
@@ -86,8 +87,8 @@ public String getFullFontName()
 
 字体的全名。
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**退货：**
+java.lang.String - 相应的 java.lang.String 值。
 ### getVersion() {#getVersion--}
 ```
 public String getVersion()
@@ -96,8 +97,8 @@ public String getVersion()
 
 字体的版本字符串。
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**退货：**
+java.lang.String - 相应的 java.lang.String 值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -106,7 +107,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -132,8 +133,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -150,7 +151,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -163,7 +165,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

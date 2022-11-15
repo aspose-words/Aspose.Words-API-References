@@ -7,7 +7,7 @@ weight: 73
 url: /zh/java/com.aspose.words/cleanupoptions/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class CleanupOptions
@@ -45,12 +45,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -60,7 +61,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getDuplicateStyle() {#getDuplicateStyle--}
 ```
@@ -70,8 +71,8 @@ public boolean getDuplicateStyle()
 
 获取/设置一个标志，指示是否应从文档中删除重复样式。默认值为**false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getUnusedBuiltinStyles() {#getUnusedBuiltinStyles--}
 ```
 public boolean getUnusedBuiltinStyles()
@@ -80,8 +81,8 @@ public boolean getUnusedBuiltinStyles()
 
 指定未使用的[Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn--)样式应从文档中删除。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getUnusedLists() {#getUnusedLists--}
 ```
 public boolean getUnusedLists()
@@ -90,8 +91,8 @@ public boolean getUnusedLists()
 
 指定是否应从文档中删除未使用的列表和列表定义。默认值为**true**.
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getUnusedStyles() {#getUnusedStyles--}
 ```
 public boolean getUnusedStyles()
@@ -100,8 +101,8 @@ public boolean getUnusedStyles()
 
 指定是否应从文档中删除未使用的样式。默认值为**true**.
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -110,7 +111,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -136,7 +137,8 @@ public void setDuplicateStyle(boolean value)
 
 获取/设置一个标志，指示是否应从文档中删除重复样式。默认值为**false**.
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -149,7 +151,8 @@ public void setUnusedBuiltinStyles(boolean value)
 
 指定未使用的[Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn--)样式应从文档中删除。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -162,7 +165,8 @@ public void setUnusedLists(boolean value)
 
 指定是否应从文档中删除未使用的列表和列表定义。默认值为**true**.
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -175,7 +179,8 @@ public void setUnusedStyles(boolean value)
 
 指定是否应从文档中删除未使用的样式。默认值为**true**.
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -188,8 +193,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -206,7 +211,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -219,7 +225,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

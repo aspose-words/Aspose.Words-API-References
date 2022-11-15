@@ -16,7 +16,7 @@ public interface IFieldUpdatingCallback
 | 方法 | 描述 |
 | --- | --- |
 | [fieldUpdated(Field field)](#fieldUpdated-com.aspose.words.Field-) | 在字段更新后立即调用的用户定义方法。 |
-| [fieldUpdating(Field field)](#fieldUpdating-com.aspose.words.Field-) | 在字段更新之前调用的用户定义方法。 |
+| [fieldUpdating(Field field)](#fieldUpdating-com.aspose.words.Field-) | 在更新字段之前调用的用户定义方法。 |
 ### fieldUpdated(Field field) {#fieldUpdated-com.aspose.words.Field-}
 ```
 public abstract void fieldUpdated(Field field)
@@ -25,7 +25,8 @@ public abstract void fieldUpdated(Field field)
 
 在字段更新后立即调用的用户定义方法。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | field | [Field](../../com.aspose.words/field) |  |
@@ -36,9 +37,10 @@ public abstract void fieldUpdating(Field field)
 ```
 
 
-在字段更新之前调用的用户定义方法。
+在更新字段之前调用的用户定义方法。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | field | [Field](../../com.aspose.words/field) |  |

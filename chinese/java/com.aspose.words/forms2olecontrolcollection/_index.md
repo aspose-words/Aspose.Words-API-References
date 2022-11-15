@@ -7,7 +7,7 @@ weight: 299
 url: /zh/java/com.aspose.words/forms2olecontrolcollection/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class Forms2OleControlCollection
@@ -21,7 +21,7 @@ public class Forms2OleControlCollection
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 获取[Forms2OleControl](../../com.aspose.words/forms2olecontrol)指定索引处的对象。 |
+| [get(int index)](#get-int-) | 得到[Forms2OleControl](../../com.aspose.words/forms2olecontrol)指定索引处的对象。 |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中对象的计数。 |
 | [hashCode()](#hashCode--) |  |
@@ -39,12 +39,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### get(int index) {#get-int-}
 ```
@@ -52,14 +53,15 @@ public Forms2OleControl get(int index)
 ```
 
 
-获取[Forms2OleControl](../../com.aspose.words/forms2olecontrol)指定索引处的对象。
+得到[Forms2OleControl](../../com.aspose.words/forms2olecontrol)指定索引处的对象。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int |  |
 
-**退货:**
+**退货：**
 [Forms2OleControl](../../com.aspose.words/forms2olecontrol) -\{[Forms2OleControl](../../com.aspose.words/forms2olecontrol)指定索引处的对象。
 ### getClass() {#getClass--}
 ```
@@ -69,7 +71,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
@@ -79,7 +81,7 @@ public int getCount()
 
 获取集合中对象的计数。
 
-**退货:**
+**退货：**
 int - 集合中对象的计数。
 ### hashCode() {#hashCode--}
 ```
@@ -89,7 +91,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -115,8 +117,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -133,7 +135,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -146,7 +149,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

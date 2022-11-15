@@ -1,19 +1,19 @@
 ---
 title: PageLayoutCallbackArgs
 second_title: Aspose.Words for Java API 参考
-description: 传入的参数
+description: 参数传入
 type: docs
 weight: 435
 url: /zh/java/com.aspose.words/pagelayoutcallbackargs/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class PageLayoutCallbackArgs
 ```
 
-传入的参数[IPageLayoutCallback.notify(com.aspose.words.PageLayoutCallbackArgs)](../../com.aspose.words/ipagelayoutcallback\#notify-com.aspose.words.PageLayoutCallbackArgs-)
+参数传入[IPageLayoutCallback.notify(com.aspose.words.PageLayoutCallbackArgs)](../../com.aspose.words/ipagelayoutcallback\#notify-com.aspose.words.PageLayoutCallbackArgs-)
 
 要了解更多信息，请访问**Converting to Fixed-page Format**文档文章。
 ## 方法
@@ -40,12 +40,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -55,7 +56,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getDocument() {#getDocument--}
 ```
@@ -65,7 +66,7 @@ public Document getDocument()
 
 获取文档。
 
-**退货:**
+**退货：**
 [Document](../../com.aspose.words/document) - 文档。
 ### getEvent() {#getEvent--}
 ```
@@ -75,8 +76,8 @@ public int getEvent()
 
 获取事件。
 
-**退货:**
- int - 事件。返回值是以下之一[PageLayoutEvent](../../com.aspose.words/pagelayoutevent)常数。
+**退货：**
+ int - 事件。返回值是其中之一[PageLayoutEvent](../../com.aspose.words/pagelayoutevent)常数。
 ### getPageIndex() {#getPageIndex--}
 ```
 public int getPageIndex()
@@ -85,8 +86,8 @@ public int getPageIndex()
 
 获取与此事件相关的文档中页面的从 0 开始的索引。如果没有关联的页面，或者页面在回流期间被删除，则返回负值。
 
-**退货:**
-int - 与此事件相关的文档中页面的基于 0 的索引。
+**退货：**
+int - 与此事件相关的文档中基于 0 的页面索引。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -95,7 +96,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -121,8 +122,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -139,7 +140,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -152,7 +154,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
