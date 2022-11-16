@@ -7,7 +7,7 @@ weight: 344
 url: /zh/java/com.aspose.words/imagewatermarkoptions/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class ImageWatermarkOptions
@@ -24,8 +24,8 @@ public class ImageWatermarkOptions
 | [getClass()](#getClass--) |  |
 | [getScale()](#getScale--) | 获取表示为图像分数的比例因子。 |
 | [hashCode()](#hashCode--) |  |
-| [isWashout()](#isWashout--) | 获取一个布尔值，该值负责水印的冲刷效果。 |
-| [isWashout(boolean value)](#isWashout-boolean-) | 设置一个布尔值，负责水印的冲洗效果。 |
+| [isWashout()](#isWashout--) | 获取一个布尔值，负责水印的冲刷效果。 |
+| [isWashout(boolean value)](#isWashout-boolean-) | 设置一个布尔值，它负责水印的冲刷效果。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setScale(double value)](#setScale-double-) | 设置表示为图像分数的比例因子。 |
@@ -41,12 +41,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -56,7 +57,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getScale() {#getScale--}
 ```
@@ -68,10 +69,10 @@ public double getScale()
 
 有效值范围从 0 到 65.5（含）。
 
-自动缩放意味着水印将缩放到其相对于页边距的最大宽度和最大高度。
+自动缩放意味着水印将缩放到相对于页边距的最大宽度和最大高度。
 
-**退货:**
-double - 表示为图像分数的比例因子。
+**退货：**
+double - 比例因子表示为图像的一部分。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -80,7 +81,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### isWashout() {#isWashout--}
 ```
@@ -88,9 +89,9 @@ public boolean isWashout()
 ```
 
 
-获取一个布尔值，该值负责水印的冲刷效果。默认值是true。
+获取一个布尔值，负责水印的冲刷效果。默认值是true。
 
-**退货:**
+**退货：**
 boolean - 一个布尔值，负责水印的冲刷效果。
 ### isWashout(boolean value) {#isWashout-boolean-}
 ```
@@ -98,9 +99,10 @@ public void isWashout(boolean value)
 ```
 
 
-设置一个布尔值，负责水印的冲洗效果。默认值是true。
+设置一个布尔值，它负责水印的冲刷效果。默认值是true。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 一个布尔值，负责水印的冲刷效果。 |
@@ -131,9 +133,10 @@ public void setScale(double value)
 
 有效值范围从 0 到 65.5（含）。
 
-自动缩放意味着水印将缩放到其相对于页边距的最大宽度和最大高度。
+自动缩放意味着水印将缩放到相对于页边距的最大宽度和最大高度。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 比例因子表示为图像的一部分。 |
@@ -146,8 +149,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -164,7 +167,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -177,7 +181,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

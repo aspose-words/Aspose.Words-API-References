@@ -7,7 +7,7 @@ weight: 447
 url: /zh/java/com.aspose.words/patterntype/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class PatternType
@@ -19,51 +19,51 @@ public class PatternType
 | 场地 | 描述 |
 | --- | --- |
 | [CROSS](#CROSS) | 叉。 |
-| [DARK_DOWNWARD_DIAGONAL](#DARK-DOWNWARD-DIAGONAL) | 暗向下对角线。 |
-| [DARK_HORIZONTAL](#DARK-HORIZONTAL) | 黑暗的水平。 |
-| [DARK_UPWARD_DIAGONAL](#DARK-UPWARD-DIAGONAL) | 暗向上对角线。 |
-| [DARK_VERTICAL](#DARK-VERTICAL) | 暗垂直。 |
-| [DASHED_DOWNWARD_DIAGONAL](#DASHED-DOWNWARD-DIAGONAL) | 向下对角线虚线。 |
+| [DARK_DOWNWARD_DIAGONAL](#DARK-DOWNWARD-DIAGONAL) | 深色向下对角线。 |
+| [DARK_HORIZONTAL](#DARK-HORIZONTAL) | 深色水平。 |
+| [DARK_UPWARD_DIAGONAL](#DARK-UPWARD-DIAGONAL) | 深色向上对角线。 |
+| [DARK_VERTICAL](#DARK-VERTICAL) | 深色垂直。 |
+| [DASHED_DOWNWARD_DIAGONAL](#DASHED-DOWNWARD-DIAGONAL) | 虚线向下对角线。 |
 | [DASHED_HORIZONTAL](#DASHED-HORIZONTAL) | 水平虚线。 |
-| [DASHED_UPWARD_DIAGONAL](#DASHED-UPWARD-DIAGONAL) | 向上对角线虚线。 |
+| [DASHED_UPWARD_DIAGONAL](#DASHED-UPWARD-DIAGONAL) | 虚线向上对角线。 |
 | [DASHED_VERTICAL](#DASHED-VERTICAL) | 垂直虚线。 |
 | [DIAGONAL_BRICK](#DIAGONAL-BRICK) | 对角砖。 |
-| [DIAGONAL_CROSS](#DIAGONAL-CROSS) | 对角十字。 |
+| [DIAGONAL_CROSS](#DIAGONAL-CROSS) | 对角线交叉。 |
 | [DIVOT](#DIVOT) | 图案草皮。 |
 | [DOTTED_DIAMOND](#DOTTED-DIAMOND) | 点缀钻石。 |
 | [DOTTED_GRID](#DOTTED-GRID) | 虚线网格。 |
 | [DOWNWARD_DIAGONAL](#DOWNWARD-DIAGONAL) | 向下对角线。 |
 | [HORIZONTAL](#HORIZONTAL) | 水平的。 |
-| [HORIZONTAL_BRICK](#HORIZONTAL-BRICK) | 水平砖。 |
-| [LARGE_CHECKER_BOARD](#LARGE-CHECKER-BOARD) | 大型棋盘。 |
-| [LARGE_CONFETTI](#LARGE-CONFETTI) | 大五彩纸屑。 |
-| [LARGE_GRID](#LARGE-GRID) | 大网格。 |
+| [HORIZONTAL_BRICK](#HORIZONTAL-BRICK) | 卧式砖。 |
+| [LARGE_CHECKER_BOARD](#LARGE-CHECKER-BOARD) | 大棋盘。 |
+| [LARGE_CONFETTI](#LARGE-CONFETTI) | 大纸屑。 |
+| [LARGE_GRID](#LARGE-GRID) | 大格子。 |
 | [LIGHT_DOWNWARD_DIAGONAL](#LIGHT-DOWNWARD-DIAGONAL) | 光向下对角线。 |
-| [LIGHT_HORIZONTAL](#LIGHT-HORIZONTAL) | 光水平。 |
+| [LIGHT_HORIZONTAL](#LIGHT-HORIZONTAL) | 轻水平。 |
 | [LIGHT_UPWARD_DIAGONAL](#LIGHT-UPWARD-DIAGONAL) | 光向上对角线。 |
 | [LIGHT_VERTICAL](#LIGHT-VERTICAL) | 光垂直。 |
-| [NARROW_HORIZONTAL](#NARROW-HORIZONTAL) | 窄横。 |
+| [NARROW_HORIZONTAL](#NARROW-HORIZONTAL) | 横向窄。 |
 | [NARROW_VERTICAL](#NARROW-VERTICAL) | 窄垂直。 |
 | [NONE](#NONE) | 没有图案。 |
-| [OUTLINED_DIAMOND](#OUTLINED-DIAMOND) | 轮廓钻石。 |
+| [OUTLINED_DIAMOND](#OUTLINED-DIAMOND) | 轮廓的钻石。 |
 | [PERCENT_10](#PERCENT-10) | 前景色的 10%。 |
-| [PERCENT_20](#PERCENT-20) | 前景色的 20%。 |
-| [PERCENT_25](#PERCENT-25) | 前景色的 25%。 |
+| [PERCENT_20](#PERCENT-20) | 20% 的前景色。 |
+| [PERCENT_25](#PERCENT-25) | 25% 的前景色。 |
 | [PERCENT_30](#PERCENT-30) | 前景色的 30%。 |
-| [PERCENT_40](#PERCENT-40) | 前景色的 40% |
+| [PERCENT_40](#PERCENT-40) | 40%的前景色 |
 | [PERCENT_5](#PERCENT-5) | 前景色的 5%。 |
-| [PERCENT_50](#PERCENT-50) | 前景色的 50% |
-| [PERCENT_60](#PERCENT-60) | 前景色的 60%。 |
+| [PERCENT_50](#PERCENT-50) | 50%的前景色 |
+| [PERCENT_60](#PERCENT-60) | 60% 的前景色。 |
 | [PERCENT_70](#PERCENT-70) | 前景色的 70%。 |
 | [PERCENT_75](#PERCENT-75) | 前景色的 75%。 |
-| [PERCENT_80](#PERCENT-80) | 前景色的 80%。 |
-| [PERCENT_90](#PERCENT-90) | 前景色的 90%。 |
-| [PLAID](#PLAID) | 格子。 |
+| [PERCENT_80](#PERCENT-80) | 80% 的前景色。 |
+| [PERCENT_90](#PERCENT-90) | 90% 的前景色。 |
+| [PLAID](#PLAID) | 格子花呢。 |
 | [SHINGLE](#SHINGLE) | 卵石。 |
 | [SMALL_CHECKER_BOARD](#SMALL-CHECKER-BOARD) | 小棋盘。 |
-| [SMALL_CONFETTI](#SMALL-CONFETTI) | 小五彩纸屑。 |
-| [SMALL_GRID](#SMALL-GRID) | 小格子。 |
-| [SOLID_DIAMOND](#SOLID-DIAMOND) | 实心金刚石。 |
+| [SMALL_CONFETTI](#SMALL-CONFETTI) | 小纸屑。 |
+| [SMALL_GRID](#SMALL-GRID) | 小网格。 |
+| [SOLID_DIAMOND](#SOLID-DIAMOND) | 实心钻石。 |
 | [SPHERE](#SPHERE) | 领域。 |
 | [TRELLIS](#TRELLIS) | 格子。 |
 | [UPWARD_DIAGONAL](#UPWARD-DIAGONAL) | 向上对角线。 |
@@ -105,7 +105,7 @@ public static int DARK_DOWNWARD_DIAGONAL
 ```
 
 
-暗向下对角线。
+深色向下对角线。
 
 ### DARK_HORIZONTAL {#DARK-HORIZONTAL}
 ```
@@ -113,7 +113,7 @@ public static int DARK_HORIZONTAL
 ```
 
 
-黑暗的水平。
+深色水平。
 
 ### DARK_UPWARD_DIAGONAL {#DARK-UPWARD-DIAGONAL}
 ```
@@ -121,7 +121,7 @@ public static int DARK_UPWARD_DIAGONAL
 ```
 
 
-暗向上对角线。
+深色向上对角线。
 
 ### DARK_VERTICAL {#DARK-VERTICAL}
 ```
@@ -129,7 +129,7 @@ public static int DARK_VERTICAL
 ```
 
 
-暗垂直。
+深色垂直。
 
 ### DASHED_DOWNWARD_DIAGONAL {#DASHED-DOWNWARD-DIAGONAL}
 ```
@@ -137,7 +137,7 @@ public static int DASHED_DOWNWARD_DIAGONAL
 ```
 
 
-向下对角线虚线。
+虚线向下对角线。
 
 ### DASHED_HORIZONTAL {#DASHED-HORIZONTAL}
 ```
@@ -153,7 +153,7 @@ public static int DASHED_UPWARD_DIAGONAL
 ```
 
 
-向上对角线虚线。
+虚线向上对角线。
 
 ### DASHED_VERTICAL {#DASHED-VERTICAL}
 ```
@@ -177,7 +177,7 @@ public static int DIAGONAL_CROSS
 ```
 
 
-对角十字。
+对角线交叉。
 
 ### DIVOT {#DIVOT}
 ```
@@ -225,7 +225,7 @@ public static int HORIZONTAL_BRICK
 ```
 
 
-水平砖。
+卧式砖。
 
 ### LARGE_CHECKER_BOARD {#LARGE-CHECKER-BOARD}
 ```
@@ -233,7 +233,7 @@ public static int LARGE_CHECKER_BOARD
 ```
 
 
-大型棋盘。
+大棋盘。
 
 ### LARGE_CONFETTI {#LARGE-CONFETTI}
 ```
@@ -241,7 +241,7 @@ public static int LARGE_CONFETTI
 ```
 
 
-大五彩纸屑。
+大纸屑。
 
 ### LARGE_GRID {#LARGE-GRID}
 ```
@@ -249,7 +249,7 @@ public static int LARGE_GRID
 ```
 
 
-大网格。
+大格子。
 
 ### LIGHT_DOWNWARD_DIAGONAL {#LIGHT-DOWNWARD-DIAGONAL}
 ```
@@ -265,7 +265,7 @@ public static int LIGHT_HORIZONTAL
 ```
 
 
-光水平。
+轻水平。
 
 ### LIGHT_UPWARD_DIAGONAL {#LIGHT-UPWARD-DIAGONAL}
 ```
@@ -289,7 +289,7 @@ public static int NARROW_HORIZONTAL
 ```
 
 
-窄横。
+横向窄。
 
 ### NARROW_VERTICAL {#NARROW-VERTICAL}
 ```
@@ -313,7 +313,7 @@ public static int OUTLINED_DIAMOND
 ```
 
 
-轮廓钻石。
+轮廓的钻石。
 
 ### PERCENT_10 {#PERCENT-10}
 ```
@@ -329,7 +329,7 @@ public static int PERCENT_20
 ```
 
 
-前景色的 20%。
+20% 的前景色。
 
 ### PERCENT_25 {#PERCENT-25}
 ```
@@ -337,7 +337,7 @@ public static int PERCENT_25
 ```
 
 
-前景色的 25%。
+25% 的前景色。
 
 ### PERCENT_30 {#PERCENT-30}
 ```
@@ -353,7 +353,7 @@ public static int PERCENT_40
 ```
 
 
-前景色的 40%
+40%的前景色
 
 ### PERCENT_5 {#PERCENT-5}
 ```
@@ -369,7 +369,7 @@ public static int PERCENT_50
 ```
 
 
-前景色的 50%
+50%的前景色
 
 ### PERCENT_60 {#PERCENT-60}
 ```
@@ -377,7 +377,7 @@ public static int PERCENT_60
 ```
 
 
-前景色的 60%。
+60% 的前景色。
 
 ### PERCENT_70 {#PERCENT-70}
 ```
@@ -401,7 +401,7 @@ public static int PERCENT_80
 ```
 
 
-前景色的 80%。
+80% 的前景色。
 
 ### PERCENT_90 {#PERCENT-90}
 ```
@@ -409,7 +409,7 @@ public static int PERCENT_90
 ```
 
 
-前景色的 90%。
+90% 的前景色。
 
 ### PLAID {#PLAID}
 ```
@@ -417,7 +417,7 @@ public static int PLAID
 ```
 
 
-格子。
+格子花呢。
 
 ### SHINGLE {#SHINGLE}
 ```
@@ -441,7 +441,7 @@ public static int SMALL_CONFETTI
 ```
 
 
-小五彩纸屑。
+小纸屑。
 
 ### SMALL_GRID {#SMALL-GRID}
 ```
@@ -449,7 +449,7 @@ public static int SMALL_GRID
 ```
 
 
-小格子。
+小网格。
 
 ### SOLID_DIAMOND {#SOLID-DIAMOND}
 ```
@@ -457,7 +457,7 @@ public static int SOLID_DIAMOND
 ```
 
 
-实心金刚石。
+实心钻石。
 
 ### SPHERE {#SPHERE}
 ```
@@ -545,12 +545,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String patternTypeName) {#fromName-java.lang.String-}
 ```
@@ -560,12 +561,13 @@ public static int fromName(String patternTypeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | patternTypeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -575,7 +577,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int patternType) {#getName-int-}
 ```
@@ -585,13 +587,14 @@ public static String getName(int patternType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | patternType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -600,7 +603,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -610,7 +613,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -636,8 +639,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int patternType) {#toString-int-}
 ```
 public static String toString(int patternType)
@@ -646,13 +649,14 @@ public static String toString(int patternType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | patternType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -669,7 +673,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -682,7 +687,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

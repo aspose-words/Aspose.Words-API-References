@@ -15,35 +15,37 @@ public interface IBarcodeGenerator
 
 | 方法 | 描述 |
 | --- | --- |
-| [getBarcodeImage(Barcode参数 parameters)](#getBarcodeImage-com.aspose.words.Barcode参数-) | 使用参数集（对于 DisplayBarcode 字段）生成条形码图像。 |
-| [getOldBarcodeImage(Barcode参数 parameters)](#getOldBarcodeImage-com.aspose.words.Barcode参数-) | 使用参数集生成条形码图像（用于老式 Barcode 字段）。 |
-### getBarcodeImage(Barcode参数 parameters) {#getBarcodeImage-com.aspose.words.Barcode参数-}
+| [getBarcodeImage(BarcodeParameters parameters)](#getBarcodeImage-com.aspose.words.BarcodeParameters-) | 使用参数集生成条码图像（对于 DisplayBarcode 字段）。 |
+| [getOldBarcodeImage(BarcodeParameters parameters)](#getOldBarcodeImage-com.aspose.words.BarcodeParameters-) | 使用参数集生成条码图像（用于老式条码字段）。 |
+### getBarcodeImage(BarcodeParameters parameters) {#getBarcodeImage-com.aspose.words.BarcodeParameters-}
 ```
-public abstract BufferedImage getBarcodeImage(Barcode参数 parameters)
+public abstract BufferedImage getBarcodeImage(BarcodeParameters parameters)
 ```
 
 
-使用参数集（对于 DisplayBarcode 字段）生成条形码图像。
+使用参数集生成条码图像（对于 DisplayBarcode 字段）。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parameters | [Barcode参数](../../com.aspose.words/barcodeparameters) | 参数集 |
+| parameters | [BarcodeParameters](../../com.aspose.words/barcodeparameters) | 参数集 |
 
-**退货:**
+**退货：**
 java.awt.image.BufferedImage - 表示生成的条形码的图像。
-### getOldBarcodeImage(Barcode参数 parameters) {#getOldBarcodeImage-com.aspose.words.Barcode参数-}
+### getOldBarcodeImage(BarcodeParameters parameters) {#getOldBarcodeImage-com.aspose.words.BarcodeParameters-}
 ```
-public abstract BufferedImage getOldBarcodeImage(Barcode参数 parameters)
+public abstract BufferedImage getOldBarcodeImage(BarcodeParameters parameters)
 ```
 
 
-使用参数集生成条形码图像（用于老式 Barcode 字段）。
+使用参数集生成条码图像（用于老式条码字段）。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parameters | [Barcode参数](../../com.aspose.words/barcodeparameters) | 参数集 |
+| parameters | [BarcodeParameters](../../com.aspose.words/barcodeparameters) | 参数集 |
 
-**退货:**
+**退货：**
 java.awt.image.BufferedImage - 表示生成的条形码的图像。

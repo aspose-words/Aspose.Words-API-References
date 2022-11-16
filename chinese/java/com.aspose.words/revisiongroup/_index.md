@@ -7,13 +7,13 @@ weight: 486
 url: /zh/java/com.aspose.words/revisiongroup/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class RevisionGroup
 ```
 
-代表一组顺序[Revision](../../com.aspose.words/revision)对象。
+表示一组顺序[Revision](../../com.aspose.words/revision)对象。
 
 要了解更多信息，请访问**Track Changes in a Document**文档文章。
 ## 方法
@@ -23,7 +23,7 @@ public class RevisionGroup
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAuthor()](#getAuthor--) | 获取此修订组的作者。 |
 | [getClass()](#getClass--) |  |
-| [getRevisionType()](#getRevisionType--) | 获取包含在该组中的修订类型。 |
+| [getRevisionType()](#getRevisionType--) | 获取该组中包含的修订类型。 |
 | [getText()](#getText--) | 返回插入/删除/移动的文本或格式更改的描述。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -40,12 +40,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getAuthor() {#getAuthor--}
 ```
@@ -55,7 +56,7 @@ public String getAuthor()
 
 获取此修订组的作者。
 
-**退货:**
+**退货：**
 java.lang.String - 此修订组的作者。
 ### getClass() {#getClass--}
 ```
@@ -65,7 +66,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getRevisionType() {#getRevisionType--}
 ```
@@ -73,10 +74,10 @@ public int getRevisionType()
 ```
 
 
-获取包含在该组中的修订类型。
+获取该组中包含的修订类型。
 
-**退货:**
- int - 该组中包含的修订类型。返回值是以下之一[RevisionType](../../com.aspose.words/revisiontype)常数。
+**退货：**
+ int - 此组中包含的修订类型。返回值是其中之一[RevisionType](../../com.aspose.words/revisiontype)常数。
 ### getText() {#getText--}
 ```
 public String getText()
@@ -85,7 +86,7 @@ public String getText()
 
 返回插入/删除/移动的文本或格式更改的描述。
 
-**退货:**
+**退货：**
 java.lang.String - 插入/删除/移动的文本或格式更改的描述。
 ### hashCode() {#hashCode--}
 ```
@@ -95,7 +96,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -121,8 +122,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -139,7 +140,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -152,7 +154,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

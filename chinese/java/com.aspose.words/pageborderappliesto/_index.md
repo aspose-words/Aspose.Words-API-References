@@ -7,7 +7,7 @@ weight: 432
 url: /zh/java/com.aspose.words/pageborderappliesto/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class PageBorderAppliesTo
@@ -20,7 +20,7 @@ public class PageBorderAppliesTo
 | --- | --- |
 | [ALL_PAGES](#ALL-PAGES) | 页面边框显示在该部分的所有页面上。 |
 | [FIRST_PAGE](#FIRST-PAGE) | 页面边框仅显示在该部分的第一页上。 |
-| [OTHER_PAGES](#OTHER-PAGES) | 除该部分的第一页外，所有页面都显示页面边框。 |
+| [OTHER_PAGES](#OTHER-PAGES) | 页面边框显示在除该部分的第一页之外的所有页面上。 |
 | [length](#length) |  |
 ## 方法
 
@@ -61,7 +61,7 @@ public static int OTHER_PAGES
 ```
 
 
-除该部分的第一页外，所有页面都显示页面边框。
+页面边框显示在除该部分的第一页之外的所有页面上。
 
 ### length {#length}
 ```
@@ -77,12 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String pageBorderAppliesToName) {#fromName-java.lang.String-}
 ```
@@ -92,12 +93,13 @@ public static int fromName(String pageBorderAppliesToName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pageBorderAppliesToName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -107,7 +109,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int pageBorderAppliesTo) {#getName-int-}
 ```
@@ -117,13 +119,14 @@ public static String getName(int pageBorderAppliesTo)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pageBorderAppliesTo | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -132,7 +135,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -142,7 +145,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -168,8 +171,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int pageBorderAppliesTo) {#toString-int-}
 ```
 public static String toString(int pageBorderAppliesTo)
@@ -178,13 +181,14 @@ public static String toString(int pageBorderAppliesTo)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pageBorderAppliesTo | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -201,7 +205,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -214,7 +219,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

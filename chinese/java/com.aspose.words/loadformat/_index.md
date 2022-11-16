@@ -7,7 +7,7 @@ weight: 377
 url: /zh/java/com.aspose.words/loadformat/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class LoadFormat
@@ -24,25 +24,25 @@ public class LoadFormat
 | [DOC](#DOC) | Microsoft Word 95 或 Word 97 - 2003 文档。 |
 | [DOCM](#DOCM) | Office Open XML WordprocessingML 启用宏的文档。 |
 | [DOCX](#DOCX) | Office Open XML WordprocessingML 文档（无宏）。 |
-| [DOC_PRE_WORD_60](#DOC-PRE-WORD-60) | 该文档为 Word 95 之前的格式。 |
+| [DOC_PRE_WORD_60](#DOC-PRE-WORD-60) | 该文档采用 Word 95 之前的格式。 |
 | [DOT](#DOT) | Microsoft Word 95 或 Word 97 - 2003 模板。 |
 | [DOTM](#DOTM) | Office Open XML WordprocessingML 启用宏的模板。 |
 | [DOTX](#DOTX) | Office Open XML WordprocessingML 模板（无宏）。 |
 | [EPUB](#EPUB) | EPUB 格式。 |
 | [FLAT_OPC](#FLAT-OPC) | Office Open XML WordprocessingML 存储在平面 XML 文件而不是 ZIP 包中。 |
-| [FLAT_OPC_MACRO_ENABLED](#FLAT-OPC-MACRO-ENABLED) | Office Open XML WordprocessingML 启用宏的文档存储在平面 XML 文件而不是 ZIP 包中。 |
+| [FLAT_OPC_MACRO_ENABLED](#FLAT-OPC-MACRO-ENABLED) | Office Open XML WordprocessingML 启用宏的文档存储在平面 XML 文件中，而不是 ZIP 包中。 |
 | [FLAT_OPC_TEMPLATE](#FLAT-OPC-TEMPLATE) | Office Open XML WordprocessingML 模板（无宏）存储在平面 XML 文件而不是 ZIP 包中。 |
-| [FLAT_OPC_TEMPLATE_MACRO_ENABLED](#FLAT-OPC-TEMPLATE-MACRO-ENABLED) | Office Open XML WordprocessingML 启用宏的模板存储在平面 XML 文件而不是 ZIP 包中。 |
+| [FLAT_OPC_TEMPLATE_MACRO_ENABLED](#FLAT-OPC-TEMPLATE-MACRO-ENABLED) | Office Open XML WordprocessingML 启用宏的模板存储在平面 XML 文件中，而不是 ZIP 包中。 |
 | [HTML](#HTML) | HTML 格式。 |
 | [MARKDOWN](#MARKDOWN) | 降价文本文档。 |
 | [MHTML](#MHTML) | MHTML（Web 存档）格式。 |
-| [MOBI](#MOBI) | MOBI 格式。 |
+| [MOBI](#MOBI) | 移动格式。 |
 | [ODT](#ODT) | ODF 文本文档。 |
 | [OTT](#OTT) | ODF 文本文档模板。 |
 | [PDF](#PDF) | pdf文档。 |
 | [RTF](#RTF) | RTF 格式。 |
 | [TEXT](#TEXT) | 纯文本。 |
-| [UNKNOWN](#UNKNOWN) | 无法识别的格式，Aspose.Words 无法加载。 |
+| [UNKNOWN](#UNKNOWN) | 无法识别的格式，无法由 Aspose.Words 加载。 |
 | [WORD_ML](#WORD-ML) | Microsoft Word 2003 WordprocessingML 格式。 |
 | [XML](#XML) | XML 文档。 |
 | [length](#length) |  |
@@ -117,7 +117,7 @@ public static int DOC_PRE_WORD_60
 ```
 
 
-该文档为 Word 95 之前的格式。 Aspose.Words 目前不支持加载此类文档。
+该文档采用 Word 95 之前的格式。 Aspose.Words 目前不支持加载此类文档。
 
 ### DOT {#DOT}
 ```
@@ -165,7 +165,7 @@ public static int FLAT_OPC_MACRO_ENABLED
 ```
 
 
-Office Open XML WordprocessingML 启用宏的文档存储在平面 XML 文件而不是 ZIP 包中。
+Office Open XML WordprocessingML 启用宏的文档存储在平面 XML 文件中，而不是 ZIP 包中。
 
 ### FLAT_OPC_TEMPLATE {#FLAT-OPC-TEMPLATE}
 ```
@@ -181,7 +181,7 @@ public static int FLAT_OPC_TEMPLATE_MACRO_ENABLED
 ```
 
 
-Office Open XML WordprocessingML 启用宏的模板存储在平面 XML 文件而不是 ZIP 包中。
+Office Open XML WordprocessingML 启用宏的模板存储在平面 XML 文件中，而不是 ZIP 包中。
 
 ### HTML {#HTML}
 ```
@@ -213,7 +213,7 @@ public static int MOBI
 ```
 
 
-MOBI 格式。由 MobiPocket 阅读器和 Amazon Kindle 阅读器使用。
+移动格式。由 MobiPocket 阅读器和 Amazon Kindle 阅读器使用。
 
 ### ODT {#ODT}
 ```
@@ -261,7 +261,7 @@ public static int UNKNOWN
 ```
 
 
-无法识别的格式，Aspose.Words 无法加载。
+无法识别的格式，无法由 Aspose.Words 加载。
 
 ### WORD_ML {#WORD-ML}
 ```
@@ -293,12 +293,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String loadFormatName) {#fromName-java.lang.String-}
 ```
@@ -308,12 +309,13 @@ public static int fromName(String loadFormatName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | loadFormatName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -323,7 +325,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int loadFormat) {#getName-int-}
 ```
@@ -333,13 +335,14 @@ public static String getName(int loadFormat)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | loadFormat | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -348,7 +351,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -358,7 +361,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -384,8 +387,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int loadFormat) {#toString-int-}
 ```
 public static String toString(int loadFormat)
@@ -394,13 +397,14 @@ public static String toString(int loadFormat)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | loadFormat | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -417,7 +421,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -430,7 +435,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

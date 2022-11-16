@@ -7,7 +7,7 @@ weight: 82
 url: /zh/java/com.aspose.words/comparisonevaluationresult/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class ComparisonEvaluationResult
@@ -15,8 +15,8 @@ public class ComparisonEvaluationResult
 
 比较评价结果。
 
-要了解更多信息，请访问**Working with 字段**文档文章。
-## 构造函数
+要了解更多信息，请访问**Working with Fields**文档文章。
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -45,7 +45,8 @@ public ComparisonEvaluationResult(boolean result)
 
 创建比较评估结果。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | result | boolean |  |
@@ -58,7 +59,8 @@ public ComparisonEvaluationResult(String errorMessage)
 
 使用相应的错误消息创建失败的比较评估结果。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | errorMessage | java.lang.String |  |
@@ -71,12 +73,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -86,7 +89,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getErrorMessage() {#getErrorMessage--}
 ```
@@ -96,8 +99,8 @@ public String getErrorMessage()
 
 获取失败的比较评估结果的错误信息。
 
-**退货:**
-java.lang.String - 比较评估结果失败的错误信息。
+**退货：**
+java.lang.String - 失败的比较评估结果的错误信息。
 ### getResult() {#getResult--}
 ```
 public boolean getResult()
@@ -106,7 +109,7 @@ public boolean getResult()
 
 获取比较评估结果。
 
-**退货:**
+**退货：**
 boolean - 比较评估结果。
 ### hashCode() {#hashCode--}
 ```
@@ -116,7 +119,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -142,8 +145,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -160,7 +163,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -173,7 +177,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

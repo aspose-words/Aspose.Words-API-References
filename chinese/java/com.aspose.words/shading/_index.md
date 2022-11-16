@@ -7,10 +7,10 @@ weight: 513
 url: /zh/java/com.aspose.words/shading/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object, [com.aspose.words.InternableComplexAttr](../../com.aspose.words/internablecomplexattr)
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Cloneable
 ```
 public class Shading extends InternableComplexAttr implements Cloneable
@@ -24,7 +24,7 @@ public class Shading extends InternableComplexAttr implements Cloneable
 | 方法 | 描述 |
 | --- | --- |
 | [clearFormatting()](#clearFormatting--) | 移除对象的阴影。 |
-| [equals(Shading rhs)](#equals-com.aspose.words.Shading-) | 确定指定的 Shading 值是否等于当前 Shading。 |
+| [equals(Shading rhs)](#equals-com.aspose.words.Shading-) | 确定指定 Shading 的值是否与当前 Shading 相等。 |
 | [equals(Object obj)](#equals-java.lang.Object-) | 确定指定对象的值是否与当前对象相等。 |
 | [getBackgroundPatternColor()](#getBackgroundPatternColor--) | 获取应用于 Shading 对象背景的颜色。 |
 | [getClass()](#getClass--) |  |
@@ -55,14 +55,15 @@ public boolean equals(Shading rhs)
 ```
 
 
-确定指定的 Shading 值是否等于当前 Shading。
+确定指定 Shading 的值是否与当前 Shading 相等。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | rhs | [Shading](../../com.aspose.words/shading) |  |
 
-**退货:**
+**退货：**
 布尔值
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
@@ -72,12 +73,13 @@ public boolean equals(Object obj)
 
 确定指定对象的值是否与当前对象相等。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | obj | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getBackgroundPatternColor() {#getBackgroundPatternColor--}
 ```
@@ -87,7 +89,7 @@ public Color getBackgroundPatternColor()
 
 获取应用于 Shading 对象背景的颜色。
 
-**退货:**
+**退货：**
 java.awt.Color - 应用于 Shading 对象背景的颜色。
 ### getClass() {#getClass--}
 ```
@@ -97,7 +99,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getForegroundPatternColor() {#getForegroundPatternColor--}
 ```
@@ -107,7 +109,7 @@ public Color getForegroundPatternColor()
 
 获取应用于 Shading 对象前景的颜色。
 
-**退货:**
+**退货：**
 java.awt.Color - 应用于 Shading 对象前景的颜色。
 ### getTexture() {#getTexture--}
 ```
@@ -117,8 +119,8 @@ public int getTexture()
 
 获取着色纹理。
 
-**退货:**
- int - 着色纹理。返回值是以下之一[TextureIndex](../../com.aspose.words/textureindex)常数。
+**退货：**
+ int - 着色纹理。返回值是其中之一[TextureIndex](../../com.aspose.words/textureindex)常数。
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -127,7 +129,7 @@ public int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### isInheritedComplexAttr() {#isInheritedComplexAttr--}
 ```
@@ -137,7 +139,7 @@ public boolean isInheritedComplexAttr()
 
 
 
-**退货:**
+**退货：**
 布尔值
 ### notify() {#notify--}
 ```
@@ -163,7 +165,8 @@ public void setBackgroundPatternColor(Color value)
 
 设置应用于 Shading 对象背景的颜色。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.awt.Color | 应用于 Shading 对象背景的颜色。 |
@@ -176,10 +179,11 @@ public void setForegroundPatternColor(Color value)
 
 设置应用于 Shading 对象前景的颜色。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.awt.Color | 应用于 Shading 对象的前景的颜色。 |
+| value | java.awt.Color | 应用于 Shading 对象前景的颜色。 |
 
 ### setTexture(int value) {#setTexture-int-}
 ```
@@ -189,7 +193,8 @@ public void setTexture(int value)
 
 设置着色纹理。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 阴影纹理。该值必须是其中之一[TextureIndex](../../com.aspose.words/textureindex)常数。 |
@@ -202,8 +207,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -220,7 +225,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -233,7 +239,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

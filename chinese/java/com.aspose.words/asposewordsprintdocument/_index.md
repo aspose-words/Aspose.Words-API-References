@@ -7,25 +7,25 @@ weight: 14
 url: /zh/java/com.aspose.words/asposewordsprintdocument/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
-java.awt.print.Pageable, java.awt.print.Printable
+**所有已实现的接口：**
+java.awt.print.Pageable，java.awt.print.Printable
 ```
 public class AsposeWordsPrintDocument implements Pageable, Printable
 ```
 
-提供打印的默认实现[Document](../../com.aspose.words/document)在 Java 打印框架内。
+提供打印 a 的默认实现[Document](../../com.aspose.words/document)在 Java 打印框架中。
 
 要了解更多信息，请访问**Printing a Document Programmatically or Using Dialogs**文档文章。
 
-[AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument)覆盖两者 和 。
+[AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument)覆盖 和 。
 
-单个 Aspose.Words 文档可以包含多个部分，这些部分指定具有不同大小、方向和纸盘的页面。[AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument)应该用于正确打印每个不同的纸张尺寸、方向等。
+一个 Aspose.Words 文档可以由多个部分组成，这些部分指定具有不同尺寸、方向和纸盘的页面。[AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument)应用于正确打印每种不同的纸张尺寸、方向等。
 
 另一方面，如果文档只包含一个部分，开发人员可以使用[AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument)以提高打印性能。
-## 构造函数
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -55,7 +55,8 @@ public AsposeWordsPrintDocument(Document document)
 
 初始化此类的新实例。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | document | [Document](../../com.aspose.words/document) | 要打印的文档。 |
@@ -68,12 +69,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -83,7 +85,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getNumberOfPages() {#getNumberOfPages--}
 ```
@@ -93,7 +95,7 @@ public int getNumberOfPages()
 
 
 
-**退货:**
+**退货：**
 整数
 ### getPageFormat(int pageIndex) {#getPageFormat-int-}
 ```
@@ -103,12 +105,13 @@ public PageFormat getPageFormat(int pageIndex)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pageIndex | int |  |
 
-**退货:**
+**退货：**
 java.awt.print.PageFormat
 ### getPrintable(int pageIndex) {#getPrintable-int-}
 ```
@@ -118,13 +121,14 @@ public Printable getPrintable(int pageIndex)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pageIndex | int |  |
 
-**退货:**
-java.awt.print.可打印
+**退货：**
+java.awt.print.Printable
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,7 +137,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -159,14 +163,15 @@ public int print(Graphics graphics, PageFormat pageFormat, int pageIndex)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | graphics | java.awt.Graphics |  |
 | pageFormat | java.awt.print.PageFormat |  |
 | pageIndex | int |  |
 
-**退货:**
+**退货：**
 整数
 ### toString() {#toString--}
 ```
@@ -176,8 +181,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -194,7 +199,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -207,7 +213,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

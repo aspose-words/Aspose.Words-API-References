@@ -11,16 +11,16 @@ url: /zh/java/com.aspose.words.net.system.data/
 提供模仿 .NET 类型的类型`System.Data`Java 中的命名空间。
 
 
-## 课程
+## 班级
 
 | 班级 | 描述 |
 | --- | --- |
 | [Constraint](../com.aspose.words.net.system.data/constraint) | 表示可以对一个或多个强制执行的约束[DataColumn](../com.aspose.words.net.system.data/datacolumn)对象。 |
 | [ConstraintCollection](../com.aspose.words.net.system.data/constraintcollection) | 表示一个约束的集合[DataTable](../com.aspose.words.net.system.data/datatable). |
-| [ConstraintException](../com.aspose.words.net.system.data/constraintexception) | 表示尝试违反约束的操作时引发的异常。 |
+| [ConstraintException](../com.aspose.words.net.system.data/constraintexception) | 表示尝试执行违反约束的操作时抛出的异常。 |
 | [DBNull](../com.aspose.words.net.system.data/dbnull) |  |
-| [DataColumn](../com.aspose.words.net.system.data/datacolumn) | 表示 a 中列的架构[DataTable](../com.aspose.words.net.system.data/datatable). |
-| [DataColumnCollection](../com.aspose.words.net.system.data/datacolumncollection) | 代表一个集合[DataColumn](../com.aspose.words.net.system.data/datacolumn)对象[DataTable](../com.aspose.words.net.system.data/datatable). |
+| [DataColumn](../com.aspose.words.net.system.data/datacolumn) | 表示一个列的架构[DataTable](../com.aspose.words.net.system.data/datatable). |
+| [DataColumnCollection](../com.aspose.words.net.system.data/datacolumncollection) | 代表集合[DataColumn](../com.aspose.words.net.system.data/datacolumn)一个对象[DataTable](../com.aspose.words.net.system.data/datatable). |
 | [DataException](../com.aspose.words.net.system.data/dataexception) | 表示使用 ADO.NET 组件生成错误时引发的异常。 |
 | [DataKey](../com.aspose.words.net.system.data/datakey) |  |
 | [DataRelation](../com.aspose.words.net.system.data/datarelation) | 表示两个之间的父/子关系[DataTable](../com.aspose.words.net.system.data/datatable)对象。 |

@@ -7,14 +7,14 @@ weight: 23
 url: /zh/java/com.aspose.words.net.system.data/datarowview/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class DataRowView
 ```
 
 表示一个自定义视图[DataRow](../../com.aspose.words.net.system.data/datarow).
-## 构造函数
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -41,7 +41,8 @@ public DataRowView(System.Data.DataView view, System.Data.DataRow row)
 
 初始化此类的新实例。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | view | [DataView](../../com.aspose.words.net.system.data/dataview) |  |
@@ -55,12 +56,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -70,7 +72,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getRow() {#getRow--}
 ```
@@ -80,7 +82,7 @@ public System.Data.DataRow getRow()
 
 获取[DataRow](../../com.aspose.words.net.system.data/datarow)被查看。
 
-**退货:**
+**退货：**
 [DataRow](../../com.aspose.words.net.system.data/datarow) - 这[DataRow](../../com.aspose.words.net.system.data/datarow)被观看[DataRowView](../../com.aspose.words.net.system.data/datarowview).
 ### hashCode() {#hashCode--}
 ```
@@ -90,7 +92,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -116,8 +118,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -134,7 +136,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -147,7 +150,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

@@ -7,13 +7,13 @@ weight: 567
 url: /zh/java/com.aspose.words/textpath/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class TextPath
 ```
 
-定义（艺术字对象的）文本路径的文本和格式。
+定义文本路径（艺术字对象）的文本和格式。
 
 要了解更多信息，请访问**Working with Shapes**文档文章。
 
@@ -38,11 +38,11 @@ public class TextPath
 | [getSize()](#getSize--) | 以磅为单位定义字体的大小。 |
 | [getSmallCaps()](#getSmallCaps--) | 如果字体格式为小写大写字母，则为真。 |
 | [getSpacing()](#getSpacing--) | 定义文本的间距量。 |
-| [getStrikeThrough()](#getStrikeThrough--) | 如果字体格式设置为删除线文本，则为真。 |
+| [getStrikeThrough()](#getStrikeThrough--) | 如果字体格式为删除线文本，则为真。 |
 | [getText()](#getText--) | 定义文本路径的文本。 |
 | [getTextPathAlignment()](#getTextPathAlignment--) | 定义文本的对齐方式。 |
-| [getTrim()](#getTrim--) | 确定是否删除文本上方和下方的多余空格。 |
-| [getUnderline()](#getUnderline--) | 如果字体有下划线，则为真。 |
+| [getTrim()](#getTrim--) | 确定是否删除文本上方和下方的额外空间。 |
+| [getUnderline()](#getUnderline--) | 如果字体有下划线则为真。 |
 | [getXScale()](#getXScale--) | 确定是否将使用直文本路径而不是形状路径。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -61,11 +61,11 @@ public class TextPath
 | [setSize(double value)](#setSize-double-) | 以磅为单位定义字体的大小。 |
 | [setSmallCaps(boolean value)](#setSmallCaps-boolean-) | 如果字体格式为小写大写字母，则为真。 |
 | [setSpacing(double value)](#setSpacing-double-) | 定义文本的间距量。 |
-| [setStrikeThrough(boolean value)](#setStrikeThrough-boolean-) | 如果字体格式设置为删除线文本，则为真。 |
+| [setStrikeThrough(boolean value)](#setStrikeThrough-boolean-) | 如果字体格式为删除线文本，则为真。 |
 | [setText(String value)](#setText-java.lang.String-) | 定义文本路径的文本。 |
 | [setTextPathAlignment(int value)](#setTextPathAlignment-int-) | 定义文本的对齐方式。 |
-| [setTrim(boolean value)](#setTrim-boolean-) | 确定是否删除文本上方和下方的多余空格。 |
-| [setUnderline(boolean value)](#setUnderline-boolean-) | 如果字体有下划线，则为真。 |
+| [setTrim(boolean value)](#setTrim-boolean-) | 确定是否删除文本上方和下方的额外空间。 |
+| [setUnderline(boolean value)](#setUnderline-boolean-) | 如果字体有下划线则为真。 |
 | [setXScale(boolean value)](#setXScale-boolean-) | 确定是否将使用直文本路径而不是形状路径。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -79,12 +79,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getBold() {#getBold--}
 ```
@@ -96,8 +97,8 @@ public boolean getBold()
 
 默认值为**false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -106,7 +107,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getFitPath() {#getFitPath--}
 ```
@@ -118,8 +119,8 @@ public boolean getFitPath()
 
 默认值为**false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getFitShape() {#getFitShape--}
 ```
 public boolean getFitShape()
@@ -130,8 +131,8 @@ public boolean getFitShape()
 
 默认值为**false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getFontFamily() {#getFontFamily--}
 ```
 public String getFontFamily()
@@ -140,10 +141,10 @@ public String getFontFamily()
 
 定义 textpath 字体的系列。
 
-默认值为 Arial。
+默认值为宋体。
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**退货：**
+java.lang.String - 相应的 java.lang.String 值。
 ### getItalic() {#getItalic--}
 ```
 public boolean getItalic()
@@ -154,8 +155,8 @@ public boolean getItalic()
 
 默认值为**false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getKerning() {#getKerning--}
 ```
 public boolean getKerning()
@@ -166,8 +167,8 @@ public boolean getKerning()
 
 默认值为**false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getOn() {#getOn--}
 ```
 public boolean getOn()
@@ -178,8 +179,8 @@ public boolean getOn()
 
 默认值为**false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getReverseRows() {#getReverseRows--}
 ```
 public boolean getReverseRows()
@@ -190,10 +191,10 @@ public boolean getReverseRows()
 
 默认值为**false**.
 
-如果**true**，行的布局顺序是相反的。此属性用于垂直文本布局。
+如果**true**, 行的布局顺序是相反的。此属性用于垂直文本布局。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getRotateLetters() {#getRotateLetters--}
 ```
 public boolean getRotateLetters()
@@ -204,8 +205,8 @@ public boolean getRotateLetters()
 
 默认值为**false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getSameLetterHeights() {#getSameLetterHeights--}
 ```
 public boolean getSameLetterHeights()
@@ -216,8 +217,8 @@ public boolean getSameLetterHeights()
 
 默认值为**false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getShadow() {#getShadow--}
 ```
 public boolean getShadow()
@@ -228,8 +229,8 @@ public boolean getShadow()
 
 默认值为**false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getSize() {#getSize--}
 ```
 public double getSize()
@@ -240,8 +241,8 @@ public double getSize()
 
 默认值为 36。
 
-**退货:**
-double - 对应的双精度值。
+**退货：**
+double - 相应的双精度值。
 ### getSmallCaps() {#getSmallCaps--}
 ```
 public boolean getSmallCaps()
@@ -252,8 +253,8 @@ public boolean getSmallCaps()
 
 默认值为**false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getSpacing() {#getSpacing--}
 ```
 public double getSpacing()
@@ -264,20 +265,20 @@ public double getSpacing()
 
 默认值为 1。
 
-**退货:**
-double - 对应的双精度值。
+**退货：**
+double - 相应的双精度值。
 ### getStrikeThrough() {#getStrikeThrough--}
 ```
 public boolean getStrikeThrough()
 ```
 
 
-如果字体格式设置为删除线文本，则为真。
+如果字体格式为删除线文本，则为真。
 
 默认值为**false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getText() {#getText--}
 ```
 public String getText()
@@ -288,8 +289,8 @@ public String getText()
 
 默认值为空字符串。
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**退货：**
+java.lang.String - 相应的 java.lang.String 值。
 ### getTextPathAlignment() {#getTextPathAlignment--}
 ```
 public int getTextPathAlignment()
@@ -300,32 +301,32 @@ public int getTextPathAlignment()
 
 默认值为[TextPathAlignment.CENTER](../../com.aspose.words/textpathalignment\#CENTER).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[TextPathAlignment](../../com.aspose.words/textpathalignment)常数。
+**退货：**
+int - 相应的 int 值。返回值是其中之一[TextPathAlignment](../../com.aspose.words/textpathalignment)常数。
 ### getTrim() {#getTrim--}
 ```
 public boolean getTrim()
 ```
 
 
-确定是否删除文本上方和下方的多余空格。
+确定是否删除文本上方和下方的额外空间。
 
 默认值为**false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getUnderline() {#getUnderline--}
 ```
 public boolean getUnderline()
 ```
 
 
-如果字体有下划线，则为真。
+如果字体有下划线则为真。
 
 默认值为**false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getXScale() {#getXScale--}
 ```
 public boolean getXScale()
@@ -336,10 +337,10 @@ public boolean getXScale()
 
 默认值为**false**.
 
-如果**true**，文本沿着形状下边界的 x 值从左到右运行。
+如果**true**，文本沿着形状下边界的 x 值从左到右的路径运行。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -348,7 +349,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -376,7 +377,8 @@ public void setBold(boolean value)
 
 默认值为**false**.
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -391,7 +393,8 @@ public void setFitPath(boolean value)
 
 默认值为**false**.
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -406,7 +409,8 @@ public void setFitShape(boolean value)
 
 默认值为**false**.
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -419,12 +423,13 @@ public void setFontFamily(String value)
 
 定义 textpath 字体的系列。
 
-默认值为 Arial。
+默认值为宋体。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | 对应的java.lang.String值。 |
 
 ### setItalic(boolean value) {#setItalic-boolean-}
 ```
@@ -436,7 +441,8 @@ public void setItalic(boolean value)
 
 默认值为**false**.
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -451,7 +457,8 @@ public void setKerning(boolean value)
 
 默认值为**false**.
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -466,7 +473,8 @@ public void setOn(boolean value)
 
 默认值为**false**.
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -481,9 +489,10 @@ public void setReverseRows(boolean value)
 
 默认值为**false**.
 
-如果**true**，行的布局顺序是相反的。此属性用于垂直文本布局。
+如果**true**, 行的布局顺序是相反的。此属性用于垂直文本布局。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -498,7 +507,8 @@ public void setRotateLetters(boolean value)
 
 默认值为**false**.
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -513,7 +523,8 @@ public void setSameLetterHeights(boolean value)
 
 默认值为**false**.
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -528,7 +539,8 @@ public void setShadow(boolean value)
 
 默认值为**false**.
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -543,7 +555,8 @@ public void setSize(double value)
 
 默认值为 36。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 对应的双精度值。 |
@@ -558,7 +571,8 @@ public void setSmallCaps(boolean value)
 
 默认值为**false**.
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -573,7 +587,8 @@ public void setSpacing(double value)
 
 默认值为 1。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 对应的双精度值。 |
@@ -584,11 +599,12 @@ public void setStrikeThrough(boolean value)
 ```
 
 
-如果字体格式设置为删除线文本，则为真。
+如果字体格式为删除线文本，则为真。
 
 默认值为**false**.
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -603,10 +619,11 @@ public void setText(String value)
 
 默认值为空字符串。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | 对应的java.lang.String值。 |
 
 ### setTextPathAlignment(int value) {#setTextPathAlignment-int-}
 ```
@@ -618,10 +635,11 @@ public void setTextPathAlignment(int value)
 
 默认值为[TextPathAlignment.CENTER](../../com.aspose.words/textpathalignment\#CENTER).
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[TextPathAlignment](../../com.aspose.words/textpathalignment)常数。 |
+| value | int | 对应的int值。该值必须是其中之一[TextPathAlignment](../../com.aspose.words/textpathalignment)常数。 |
 
 ### setTrim(boolean value) {#setTrim-boolean-}
 ```
@@ -629,11 +647,12 @@ public void setTrim(boolean value)
 ```
 
 
-确定是否删除文本上方和下方的多余空格。
+确定是否删除文本上方和下方的额外空间。
 
 默认值为**false**.
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -644,11 +663,12 @@ public void setUnderline(boolean value)
 ```
 
 
-如果字体有下划线，则为真。
+如果字体有下划线则为真。
 
 默认值为**false**.
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -663,9 +683,10 @@ public void setXScale(boolean value)
 
 默认值为**false**.
 
-如果**true**，文本沿着形状下边界的 x 值从左到右运行。
+如果**true**，文本沿着形状下边界的 x 值从左到右的路径运行。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -678,8 +699,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -696,7 +717,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -709,7 +731,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

@@ -7,7 +7,7 @@ weight: 555
 url: /zh/java/com.aspose.words/taskpane/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class TaskPane
@@ -48,12 +48,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -63,7 +64,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getDockState() {#getDockState--}
 ```
@@ -73,8 +74,8 @@ public int getDockState()
 
 指定此任务窗格对象的最后停靠位置。
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[TaskPaneDockState](../../com.aspose.words/taskpanedockstate)常数。
+**退货：**
+int - 相应的 int 值。返回值是其中之一[TaskPaneDockState](../../com.aspose.words/taskpanedockstate)常数。
 ### getRow() {#getRow--}
 ```
 public int getRow()
@@ -83,8 +84,8 @@ public int getRow()
 
 指定此任务窗格的索引，从外到内枚举，以及停靠在同一默认位置的其他持久任务窗格。
 
-**退货:**
-int - 对应的 int 值。
+**退货：**
+int - 相应的 int 值。
 ### getWebExtension() {#getWebExtension--}
 ```
 public WebExtension getWebExtension()
@@ -93,7 +94,7 @@ public WebExtension getWebExtension()
 
 表示一个 Web 扩展对象。
 
-**退货:**
+**退货：**
 [WebExtension](../../com.aspose.words/webextension) - 相应的[WebExtension](../../com.aspose.words/webextension)价值。
 ### getWidth() {#getWidth--}
 ```
@@ -103,8 +104,8 @@ public double getWidth()
 
 指定此任务窗格实例的默认宽度值。
 
-**退货:**
-double - 对应的双精度值。
+**退货：**
+double - 相应的双精度值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -113,7 +114,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### isLocked() {#isLocked--}
 ```
@@ -123,8 +124,8 @@ public boolean isLocked()
 
 指定任务窗格是否锁定到 UI 中的文档并且不能由用户关闭。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### isLocked(boolean value) {#isLocked-boolean-}
 ```
 public void isLocked(boolean value)
@@ -133,7 +134,8 @@ public void isLocked(boolean value)
 
 指定任务窗格是否锁定到 UI 中的文档并且不能由用户关闭。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -146,8 +148,8 @@ public boolean isVisible()
 
 指定任务窗格在文档打开时是否默认显示为可见。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### isVisible(boolean value) {#isVisible-boolean-}
 ```
 public void isVisible(boolean value)
@@ -156,7 +158,8 @@ public void isVisible(boolean value)
 
 指定任务窗格在文档打开时是否默认显示为可见。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -185,10 +188,11 @@ public void setDockState(int value)
 
 指定此任务窗格对象的最后停靠位置。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[TaskPaneDockState](../../com.aspose.words/taskpanedockstate)常数。 |
+| value | int | 对应的int值。该值必须是其中之一[TaskPaneDockState](../../com.aspose.words/taskpanedockstate)常数。 |
 
 ### setRow(int value) {#setRow-int-}
 ```
@@ -198,10 +202,11 @@ public void setRow(int value)
 
 指定此任务窗格的索引，从外到内枚举，以及停靠在同一默认位置的其他持久任务窗格。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | 对应的int值。 |
 
 ### setWidth(double value) {#setWidth-double-}
 ```
@@ -211,7 +216,8 @@ public void setWidth(double value)
 
 指定此任务窗格实例的默认宽度值。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 对应的双精度值。 |
@@ -224,8 +230,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -242,7 +248,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -255,7 +262,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

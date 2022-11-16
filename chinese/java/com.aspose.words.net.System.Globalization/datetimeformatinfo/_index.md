@@ -7,7 +7,7 @@ weight: 12
 url: /zh/java/com.aspose.words.net.system.globalization/datetimeformatinfo/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class DateTimeFormatInfo
@@ -59,12 +59,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getAMDesignator() {#getAMDesignator--}
 ```
@@ -74,8 +75,8 @@ public String getAMDesignator()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getAbbreviatedDayNames() {#getAbbreviatedDayNames--}
 ```
 public String[] getAbbreviatedDayNames()
@@ -84,8 +85,8 @@ public String[] getAbbreviatedDayNames()
 
 
 
-**退货:**
-java.lang.String[]
+**退货：**
+java.lang.字符串[]
 ### getAbbreviatedMonthNames() {#getAbbreviatedMonthNames--}
 ```
 public String[] getAbbreviatedMonthNames()
@@ -94,8 +95,8 @@ public String[] getAbbreviatedMonthNames()
 
 
 
-**退货:**
-java.lang.String[]
+**退货：**
+java.lang.字符串[]
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -104,7 +105,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getDayNames() {#getDayNames--}
 ```
@@ -114,8 +115,8 @@ public String[] getDayNames()
 
 
 
-**退货:**
-java.lang.String[]
+**退货：**
+java.lang.字符串[]
 ### getLongDatePattern() {#getLongDatePattern--}
 ```
 public String getLongDatePattern()
@@ -124,8 +125,8 @@ public String getLongDatePattern()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getLongTimePattern() {#getLongTimePattern--}
 ```
 public String getLongTimePattern()
@@ -134,8 +135,8 @@ public String getLongTimePattern()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getMonthNames() {#getMonthNames--}
 ```
 public String[] getMonthNames()
@@ -144,8 +145,8 @@ public String[] getMonthNames()
 
 
 
-**退货:**
-java.lang.String[]
+**退货：**
+java.lang.字符串[]
 ### getPMDesignator() {#getPMDesignator--}
 ```
 public String getPMDesignator()
@@ -154,8 +155,8 @@ public String getPMDesignator()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getShortDatePattern() {#getShortDatePattern--}
 ```
 public String getShortDatePattern()
@@ -164,8 +165,8 @@ public String getShortDatePattern()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getShortTimePattern() {#getShortTimePattern--}
 ```
 public String getShortTimePattern()
@@ -174,8 +175,8 @@ public String getShortTimePattern()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getShortestDayNames() {#getShortestDayNames--}
 ```
 public String[] getShortestDayNames()
@@ -184,8 +185,8 @@ public String[] getShortestDayNames()
 
 
 
-**退货:**
-java.lang.String[]
+**退货：**
+java.lang.字符串[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -194,7 +195,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -220,7 +221,8 @@ public void setAMDesignator(String amDesignator)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | amDesignator | java.lang.String |  |
@@ -233,7 +235,8 @@ public void setAbbreviatedDayNames(String[] abbreviatedDayNames)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | abbreviatedDayNames | java.lang.String[] |  |
@@ -246,7 +249,8 @@ public void setAbbreviatedMonthGenitiveNames(String[] abbreviatedMonthNames)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | abbreviatedMonthNames | java.lang.String[] |  |
@@ -259,7 +263,8 @@ public void setAbbreviatedMonthNames(String[] abbreviatedMonthNames)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | abbreviatedMonthNames | java.lang.String[] |  |
@@ -272,7 +277,8 @@ public void setDayNames(String[] dayNames)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | dayNames | java.lang.String[] |  |
@@ -285,7 +291,8 @@ public void setLongDatePattern(String longDatePat)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | longDatePat | java.lang.String |  |
@@ -298,7 +305,8 @@ public void setLongTimePattern(String longTimePattern)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | longTimePattern | java.lang.String |  |
@@ -311,7 +319,8 @@ public void setMonthGenitiveNames(String[] monthNames)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | monthNames | java.lang.String[] |  |
@@ -324,7 +333,8 @@ public void setMonthNames(String[] monthNames)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | monthNames | java.lang.String[] |  |
@@ -337,7 +347,8 @@ public void setPMDesignator(String pmDesignator)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pmDesignator | java.lang.String |  |
@@ -350,7 +361,8 @@ public void setShortDatePattern(String shortDatePattern)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | shortDatePattern | java.lang.String |  |
@@ -363,7 +375,8 @@ public void setShortTimePattern(String shortTimePatt)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | shortTimePatt | java.lang.String |  |
@@ -376,7 +389,8 @@ public void setShortestDayNames(String[] shortestDayNames)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | shortestDayNames | java.lang.String[] |  |
@@ -389,8 +403,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -407,7 +421,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -420,7 +435,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

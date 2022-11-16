@@ -26,7 +26,8 @@ public abstract void onDataColumnDeleted(System.Data.DataColumn column)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) |  |
@@ -39,7 +40,8 @@ public abstract void onDataColumnInserted(System.Data.DataColumn column)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) |  |
@@ -52,7 +54,8 @@ public abstract void onDataRowChanged(System.Data.DataRow row)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | row | [DataRow](../../com.aspose.words.net.system.data/datarow) |  |
@@ -65,7 +68,8 @@ public abstract void onDataRowDeleted(System.Data.DataRow row)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | row | [DataRow](../../com.aspose.words.net.system.data/datarow) |  |
@@ -78,7 +82,8 @@ public abstract void onDataRowInserted(System.Data.DataRow row)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | row | [DataRow](../../com.aspose.words.net.system.data/datarow) |  |

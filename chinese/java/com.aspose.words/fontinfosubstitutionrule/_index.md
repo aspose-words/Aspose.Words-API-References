@@ -7,7 +7,7 @@ weight: 282
 url: /zh/java/com.aspose.words/fontinfosubstitutionrule/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object, [com.aspose.words.FontSubstitutionRule](../../com.aspose.words/fontsubstitutionrule)
 ```
 public class FontInfoSubstitutionRule extends FontSubstitutionRule
@@ -17,7 +17,7 @@ public class FontInfoSubstitutionRule extends FontSubstitutionRule
 
 要了解更多信息，请访问**Working with Fonts**文档文章。
 
-根据这条规则，Aspose.Words 评估所有相关字段[FontInfo](../../com.aspose.words/fontinfo)（Panose、Sig 等）查找丢失的字体，并在可用字体源中找到最接近的匹配项。如果[FontInfo](../../com.aspose.words/fontinfo)不适用于缺少的字体，则不会执行任何操作。
+根据这个规则，Aspose.Words 计算所有相关字段[FontInfo](../../com.aspose.words/fontinfo)（Panose、Sig 等）缺失的字体，并在可用字体源中找到最接近的匹配项。如果[FontInfo](../../com.aspose.words/fontinfo)对于丢失的字体不可用，则什么也不会做。
 ## 方法
 
 | 方法 | 描述 |
@@ -41,12 +41,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -56,7 +57,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getEnabled() {#getEnabled--}
 ```
@@ -66,8 +67,8 @@ public boolean getEnabled()
 
 指定是否启用规则。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -76,7 +77,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -102,7 +103,8 @@ public void setEnabled(boolean value)
 
 指定是否启用规则。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -115,8 +117,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -133,7 +135,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -146,7 +149,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

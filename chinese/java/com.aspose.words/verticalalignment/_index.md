@@ -7,7 +7,7 @@ weight: 600
 url: /zh/java/com.aspose.words/verticalalignment/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class VerticalAlignment
@@ -18,14 +18,14 @@ public class VerticalAlignment
 
 | 场地 | 描述 |
 | --- | --- |
-| [BOTTOM](#BOTTOM) | 指定对象应位于垂直对齐基础的底部。 |
+| [BOTTOM](#BOTTOM) | 指定对象应位于垂直对齐基准的底部。 |
 | [CENTER](#CENTER) | 指定对象应相对于垂直对齐基准居中。 |
 | [DEFAULT](#DEFAULT) | 如同[NONE](../../com.aspose.words/verticalalignment\#NONE). |
 | [INLINE](#INLINE) | 没有记录。 |
-| [INSIDE](#INSIDE) | 指定对象应位于水平对齐基础内。 |
+| [INSIDE](#INSIDE) | 指定对象应位于水平对齐基准内。 |
 | [NONE](#NONE) | 对象被显式定位，通常使用它的**Top**财产。 |
-| [OUTSIDE](#OUTSIDE) | 指定对象应在垂直对齐基准之外。 |
-| [TOP](#TOP) | 指定对象应位于垂直对齐基础的顶部。 |
+| [OUTSIDE](#OUTSIDE) | 指定对象应位于垂直对齐基准之外。 |
+| [TOP](#TOP) | 指定对象应位于垂直对齐基准的顶部。 |
 | [length](#length) |  |
 ## 方法
 
@@ -50,7 +50,7 @@ public static int BOTTOM
 ```
 
 
-指定对象应位于垂直对齐基础的底部。
+指定对象应位于垂直对齐基准的底部。
 
 ### CENTER {#CENTER}
 ```
@@ -82,7 +82,7 @@ public static int INSIDE
 ```
 
 
-指定对象应位于水平对齐基础内。
+指定对象应位于水平对齐基准内。
 
 ### NONE {#NONE}
 ```
@@ -98,7 +98,7 @@ public static int OUTSIDE
 ```
 
 
-指定对象应在垂直对齐基准之外。
+指定对象应位于垂直对齐基准之外。
 
 ### TOP {#TOP}
 ```
@@ -106,7 +106,7 @@ public static int TOP
 ```
 
 
-指定对象应位于垂直对齐基础的顶部。
+指定对象应位于垂直对齐基准的顶部。
 
 ### length {#length}
 ```
@@ -122,12 +122,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String verticalAlignmentName) {#fromName-java.lang.String-}
 ```
@@ -137,12 +138,13 @@ public static int fromName(String verticalAlignmentName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | verticalAlignmentName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -152,7 +154,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int verticalAlignment) {#getName-int-}
 ```
@@ -162,13 +164,14 @@ public static String getName(int verticalAlignment)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | verticalAlignment | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -177,7 +180,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -187,7 +190,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -213,8 +216,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int verticalAlignment) {#toString-int-}
 ```
 public static String toString(int verticalAlignment)
@@ -223,13 +226,14 @@ public static String toString(int verticalAlignment)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | verticalAlignment | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -246,7 +250,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -259,7 +264,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

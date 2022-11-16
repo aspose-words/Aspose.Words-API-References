@@ -1,19 +1,19 @@
 ---
 title: MailMergeDestination
 second_title: Aspose.Words for Java API 参考
-description: 指定对文档执行邮件合并时可能生成的结果。
+description: 指定在文档上执行邮件合并时可能生成的可能结果。
 type: docs
 weight: 383
 url: /zh/java/com.aspose.words/mailmergedestination/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class MailMergeDestination
 ```
 
-指定对文档执行邮件合并时可能生成的结果。
+指定在文档上执行邮件合并时可能生成的可能结果。
 ## 字段
 
 | 场地 | 描述 |
@@ -95,12 +95,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String mailMergeDestinationName) {#fromName-java.lang.String-}
 ```
@@ -110,12 +111,13 @@ public static int fromName(String mailMergeDestinationName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | mailMergeDestinationName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -125,7 +127,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int mailMergeDestination) {#getName-int-}
 ```
@@ -135,13 +137,14 @@ public static String getName(int mailMergeDestination)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | mailMergeDestination | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -150,7 +153,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -160,7 +163,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -186,8 +189,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int mailMergeDestination) {#toString-int-}
 ```
 public static String toString(int mailMergeDestination)
@@ -196,13 +199,14 @@ public static String toString(int mailMergeDestination)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | mailMergeDestination | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -219,7 +223,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -232,7 +237,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

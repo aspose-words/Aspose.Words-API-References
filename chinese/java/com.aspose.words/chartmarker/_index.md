@@ -7,10 +7,10 @@ weight: 66
 url: /zh/java/com.aspose.words/chartmarker/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Cloneable
 ```
 public class ChartMarker implements Cloneable
@@ -46,12 +46,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -61,7 +62,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getFormat() {#getFormat--}
 ```
@@ -71,7 +72,7 @@ public ChartFormat getFormat()
 
 提供对此标记的填充和线条格式的访问。
 
-**退货:**
+**退货：**
 [ChartFormat](../../com.aspose.words/chartformat) - 相应的[ChartFormat](../../com.aspose.words/chartformat)价值。
 ### getSize() {#getSize--}
 ```
@@ -81,7 +82,7 @@ public int getSize()
 
 获取图表标记大小。默认值为 7。
 
-**退货:**
+**退货：**
 int - 图表标记大小。
 ### getSymbol() {#getSymbol--}
 ```
@@ -91,8 +92,8 @@ public int getSymbol()
 
 获取图表标记符号。
 
-**退货:**
- int - 图表标记符号。返回值是以下之一[MarkerSymbol](../../com.aspose.words/markersymbol)常数。
+**退货：**
+ int - 图表标记符号。返回值是其中之一[MarkerSymbol](../../com.aspose.words/markersymbol)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -101,7 +102,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### materializeSpPr() {#materializeSpPr--}
 ```
@@ -135,7 +136,8 @@ public void setSize(int value)
 
 设置图表标记大小。默认值为 7。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 图表标记大小。 |
@@ -148,7 +150,8 @@ public void setSymbol(int value)
 
 设置图表标记符号。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 图表标记符号。该值必须是其中之一[MarkerSymbol](../../com.aspose.words/markersymbol)常数。 |
@@ -161,8 +164,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -179,7 +182,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -192,7 +196,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

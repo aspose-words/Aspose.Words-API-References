@@ -7,7 +7,7 @@ weight: 284
 url: /zh/java/com.aspose.words/fontpitch/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class FontPitch
@@ -18,9 +18,9 @@ public class FontPitch
 
 | 场地 | 描述 |
 | --- | --- |
-| [DEFAULT](#DEFAULT) | 指定没有关于字体间距的信息可用。 |
-| [FIXED](#FIXED) | 指定这是固定宽度的字体。 |
-| [VARIABLE](#VARIABLE) | 指定这是比例宽度字体。 |
+| [DEFAULT](#DEFAULT) | 指定没有关于字体间距的信息。 |
+| [FIXED](#FIXED) | 指定这是一个固定宽度的字体。 |
+| [VARIABLE](#VARIABLE) | 指定这是一个比例宽度字体。 |
 | [length](#length) |  |
 ## 方法
 
@@ -45,7 +45,7 @@ public static int DEFAULT
 ```
 
 
-指定没有关于字体间距的信息可用。
+指定没有关于字体间距的信息。
 
 ### FIXED {#FIXED}
 ```
@@ -53,7 +53,7 @@ public static int FIXED
 ```
 
 
-指定这是固定宽度的字体。
+指定这是一个固定宽度的字体。
 
 ### VARIABLE {#VARIABLE}
 ```
@@ -61,7 +61,7 @@ public static int VARIABLE
 ```
 
 
-指定这是比例宽度字体。
+指定这是一个比例宽度字体。
 
 ### length {#length}
 ```
@@ -77,12 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String fontPitchName) {#fromName-java.lang.String-}
 ```
@@ -92,12 +93,13 @@ public static int fromName(String fontPitchName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontPitchName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -107,7 +109,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int fontPitch) {#getName-int-}
 ```
@@ -117,13 +119,14 @@ public static String getName(int fontPitch)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontPitch | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -132,7 +135,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -142,7 +145,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -168,8 +171,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int fontPitch) {#toString-int-}
 ```
 public static String toString(int fontPitch)
@@ -178,13 +181,14 @@ public static String toString(int fontPitch)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontPitch | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -201,7 +205,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -214,7 +219,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

@@ -7,13 +7,13 @@ weight: 617
 url: /zh/java/com.aspose.words/webextensionreference/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class WebExtensionReference
 ```
 
-表示对 Web 扩展的引用。该引用用于标识提供者位置和扩展的版本。
+表示对 Web 扩展的引用。该引用用于标识提供程序的位置和扩展的版本。
 
 要了解更多信息，请访问**Work with Office Add-ins**文档文章。
 ## 方法
@@ -24,14 +24,14 @@ public class WebExtensionReference
 | [getClass()](#getClass--) |  |
 | [getId()](#getId--) | 与目录提供程序中的 Web 扩展关联的标识符。 |
 | [getStore()](#getStore--) | 指定存储 Web 扩展的市场实例。 |
-| [getStoreType()](#getStoreType--) | 指定市场类型。 |
+| [getStoreType()](#getStoreType--) | 指定市场的类型。 |
 | [getVersion()](#getVersion--) | 指定 Web 扩展的版本。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setId(String value)](#setId-java.lang.String-) | 与目录提供程序中的 Web 扩展关联的标识符。 |
 | [setStore(String value)](#setStore-java.lang.String-) | 指定存储 Web 扩展的市场实例。 |
-| [setStoreType(int value)](#setStoreType-int-) | 指定市场类型。 |
+| [setStoreType(int value)](#setStoreType-int-) | 指定市场的类型。 |
 | [setVersion(String value)](#setVersion-java.lang.String-) | 指定 Web 扩展的版本。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -45,12 +45,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -60,7 +61,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getId() {#getId--}
 ```
@@ -70,8 +71,8 @@ public String getId()
 
 与目录提供程序中的 Web 扩展关联的标识符。
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**退货：**
+java.lang.String - 相应的 java.lang.String 值。
 ### getStore() {#getStore--}
 ```
 public String getStore()
@@ -80,18 +81,18 @@ public String getStore()
 
 指定存储 Web 扩展的市场实例。
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**退货：**
+java.lang.String - 相应的 java.lang.String 值。
 ### getStoreType() {#getStoreType--}
 ```
 public int getStoreType()
 ```
 
 
-指定市场类型。
+指定市场的类型。
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[WebExtensionStoreType](../../com.aspose.words/webextensionstoretype)常数。
+**退货：**
+int - 相应的 int 值。返回值是其中之一[WebExtensionStoreType](../../com.aspose.words/webextensionstoretype)常数。
 ### getVersion() {#getVersion--}
 ```
 public String getVersion()
@@ -100,8 +101,8 @@ public String getVersion()
 
 指定 Web 扩展的版本。
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**退货：**
+java.lang.String - 相应的 java.lang.String 值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -110,7 +111,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -136,10 +137,11 @@ public void setId(String value)
 
 与目录提供程序中的 Web 扩展关联的标识符。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | 对应的java.lang.String值。 |
 
 ### setStore(String value) {#setStore-java.lang.String-}
 ```
@@ -149,10 +151,11 @@ public void setStore(String value)
 
 指定存储 Web 扩展的市场实例。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | 对应的java.lang.String值。 |
 
 ### setStoreType(int value) {#setStoreType-int-}
 ```
@@ -160,12 +163,13 @@ public void setStoreType(int value)
 ```
 
 
-指定市场类型。
+指定市场的类型。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[WebExtensionStoreType](../../com.aspose.words/webextensionstoretype)常数。 |
+| value | int | 对应的int值。该值必须是其中之一[WebExtensionStoreType](../../com.aspose.words/webextensionstoretype)常数。 |
 
 ### setVersion(String value) {#setVersion-java.lang.String-}
 ```
@@ -175,10 +179,11 @@ public void setVersion(String value)
 
 指定 Web 扩展的版本。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | 对应的java.lang.String值。 |
 
 ### toString() {#toString--}
 ```
@@ -188,8 +193,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -206,7 +211,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -219,7 +225,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

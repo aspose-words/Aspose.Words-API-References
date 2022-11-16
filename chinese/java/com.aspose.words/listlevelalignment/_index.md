@@ -7,7 +7,7 @@ weight: 373
 url: /zh/java/com.aspose.words/listlevelalignment/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class ListLevelAlignment
@@ -15,14 +15,14 @@ public class ListLevelAlignment
 
 指定列表编号或项目符号的对齐方式。
 
-用作[ListLevel.getAlignment()](../../com.aspose.words/listlevel\#getAlignment--) / [ListLevel.setAlignment(int)](../../com.aspose.words/listlevel\#setAlignment-int-)财产。
+用作值[ListLevel.getAlignment()](../../com.aspose.words/listlevel\#getAlignment--) / [ListLevel.setAlignment(int)](../../com.aspose.words/listlevel\#setAlignment-int-)财产。
 ## 字段
 
 | 场地 | 描述 |
 | --- | --- |
 | [CENTER](#CENTER) | 列表标签以数字位置为中心。 |
-| [LEFT](#LEFT) | 列表标签与编号位置的左侧对齐。 |
-| [RIGHT](#RIGHT) | 此列表标签与编号位置的右侧对齐。 |
+| [LEFT](#LEFT) | 列表标签与数字位置的左侧对齐。 |
+| [RIGHT](#RIGHT) | 此列表标签与数字位置的右侧对齐。 |
 | [length](#length) |  |
 ## 方法
 
@@ -55,7 +55,7 @@ public static int LEFT
 ```
 
 
-列表标签与编号位置的左侧对齐。
+列表标签与数字位置的左侧对齐。
 
 ### RIGHT {#RIGHT}
 ```
@@ -63,7 +63,7 @@ public static int RIGHT
 ```
 
 
-此列表标签与编号位置的右侧对齐。
+此列表标签与数字位置的右侧对齐。
 
 ### length {#length}
 ```
@@ -79,12 +79,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String listLevelAlignmentName) {#fromName-java.lang.String-}
 ```
@@ -94,12 +95,13 @@ public static int fromName(String listLevelAlignmentName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | listLevelAlignmentName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -109,7 +111,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int listLevelAlignment) {#getName-int-}
 ```
@@ -119,13 +121,14 @@ public static String getName(int listLevelAlignment)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | listLevelAlignment | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -134,7 +137,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -144,7 +147,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -170,8 +173,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int listLevelAlignment) {#toString-int-}
 ```
 public static String toString(int listLevelAlignment)
@@ -180,13 +183,14 @@ public static String toString(int listLevelAlignment)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | listLevelAlignment | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -203,7 +207,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -216,7 +221,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

@@ -1,19 +1,19 @@
 ---
 title: MsWordVersion
 second_title: Aspose.Words for Java API 参考
-description: 允许 Aspose.Wods 模仿特定于 MS Word 版本的应用程序行为。
+description: 允许 Aspose.Wods 模仿 MS Word 特定版本的应用程序行为。
 type: docs
 weight: 399
 url: /zh/java/com.aspose.words/mswordversion/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class MsWordVersion
 ```
 
-允许 Aspose.Wods 模仿特定于 MS Word 版本的应用程序行为。
+允许 Aspose.Wods 模仿 MS Word 特定版本的应用程序行为。
 ## 字段
 
 | 场地 | 描述 |
@@ -122,12 +122,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String msWordVersionName) {#fromName-java.lang.String-}
 ```
@@ -137,12 +138,13 @@ public static int fromName(String msWordVersionName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | msWordVersionName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -152,7 +154,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int msWordVersion) {#getName-int-}
 ```
@@ -162,13 +164,14 @@ public static String getName(int msWordVersion)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | msWordVersion | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -177,7 +180,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -187,7 +190,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -213,8 +216,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int msWordVersion) {#toString-int-}
 ```
 public static String toString(int msWordVersion)
@@ -223,13 +226,14 @@ public static String toString(int msWordVersion)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | msWordVersion | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -246,7 +250,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -259,7 +264,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

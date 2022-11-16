@@ -7,7 +7,7 @@ weight: 332
 url: /zh/java/com.aspose.words/htmlversion/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class HtmlVersion
@@ -19,7 +19,7 @@ public class HtmlVersion
 | 场地 | 描述 |
 | --- | --- |
 | [HTML_5](#HTML-5) | 按照 HTML 5 标准保存文档。 |
-| [XHTML](#XHTML) | 按照 XHTML 1.0 过渡标准保存文档。 |
+| [XHTML](#XHTML) | 按照 XHTML 1.0 Transitional 标准保存文档。 |
 | [length](#length) |  |
 ## 方法
 
@@ -52,9 +52,9 @@ public static int XHTML
 ```
 
 
-按照 XHTML 1.0 过渡标准保存文档。
+按照 XHTML 1.0 Transitional 标准保存文档。
 
-Aspose.Words 旨在根据 XHTML 1.0 过渡标准输出 XHTML，但输出并不总是根据 DTD 进行验证。 Microsoft Word 文档中的某些结构很难或不可能映射到将根据 XHTML 模式进行验证的文档。例如，XHTML 不允许嵌套列表（UL 不能嵌套在另一个 UL 元素中），但在 Microsoft Word 文档中，多级列表经常出现。
+Aspose.Words 旨在根据 XHTML 1.0 Transitional 标准输出 XHTML，但输出并不总是根据 DTD 进行验证。 Microsoft Word 文档中的某些结构很难或不可能映射到将根据 XHTML 模式进行验证的文档。例如，XHTML 不允许嵌套列表（UL 不能嵌套在另一个 UL 元素中），但在 Microsoft Word 文档中，多级列表经常出现。
 
 ### length {#length}
 ```
@@ -70,12 +70,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String htmlVersionName) {#fromName-java.lang.String-}
 ```
@@ -85,12 +86,13 @@ public static int fromName(String htmlVersionName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | htmlVersionName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -100,7 +102,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int htmlVersion) {#getName-int-}
 ```
@@ -110,13 +112,14 @@ public static String getName(int htmlVersion)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | htmlVersion | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -125,7 +128,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -135,7 +138,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -161,8 +164,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int htmlVersion) {#toString-int-}
 ```
 public static String toString(int htmlVersion)
@@ -171,13 +174,14 @@ public static String toString(int htmlVersion)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | htmlVersion | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -194,7 +198,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -207,7 +212,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

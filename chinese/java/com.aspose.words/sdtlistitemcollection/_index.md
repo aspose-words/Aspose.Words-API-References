@@ -7,10 +7,10 @@ weight: 507
 url: /zh/java/com.aspose.words/sdtlistitemcollection/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Cloneable, java.lang.Iterable
 ```
 public class SdtListItemCollection implements Cloneable, Iterable
@@ -26,16 +26,16 @@ public class SdtListItemCollection implements Cloneable, Iterable
 | [add(SdtListItem item)](#add-com.aspose.words.SdtListItem-) | 将项目添加到此集合。 |
 | [clear()](#clear--) | 清除此集合中的所有项目。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 返回一个[SdtListItem](../../com.aspose.words/sdtlistitem)给定集合中从零开始的索引的对象。 |
+| [get(int index)](#get-int-) | 返回一个[SdtListItem](../../com.aspose.words/sdtlistitem)对象在集合中给出其从零开始的索引。 |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中的项目数。 |
-| [getSelectedValue()](#getSelectedValue--) | 指定此列表中当前选定的值。 |
+| [getSelectedValue()](#getSelectedValue--) | 指定当前在此列表中选择的值。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | 删除指定索引处的列表项。 |
-| [setSelectedValue(SdtListItem value)](#setSelectedValue-com.aspose.words.SdtListItem-) | 指定此列表中当前选定的值。 |
+| [setSelectedValue(SdtListItem value)](#setSelectedValue-com.aspose.words.SdtListItem-) | 指定当前在此列表中选择的值。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,7 +48,8 @@ public void add(SdtListItem item)
 
 将项目添加到此集合。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | item | [SdtListItem](../../com.aspose.words/sdtlistitem) |  |
@@ -69,12 +70,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### get(int index) {#get-int-}
 ```
@@ -82,15 +84,16 @@ public SdtListItem get(int index)
 ```
 
 
-返回一个[SdtListItem](../../com.aspose.words/sdtlistitem)给定集合中从零开始的索引的对象。
+返回一个[SdtListItem](../../com.aspose.words/sdtlistitem)对象在集合中给出其从零开始的索引。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int |  |
 
-**退货:**
-[SdtListItem](../../com.aspose.words/sdtlistitem) - 一个[SdtListItem](../../com.aspose.words/sdtlistitem)给定集合中从零开始的索引的对象。
+**退货：**
+[SdtListItem](../../com.aspose.words/sdtlistitem) - 一个[SdtListItem](../../com.aspose.words/sdtlistitem)对象在集合中给出其从零开始的索引。
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -99,7 +102,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
@@ -109,7 +112,7 @@ public int getCount()
 
 获取集合中的项目数。
 
-**退货:**
+**退货：**
 int - 集合中的项目数。
 ### getSelectedValue() {#getSelectedValue--}
 ```
@@ -117,9 +120,9 @@ public SdtListItem getSelectedValue()
 ```
 
 
-指定此列表中当前选定的值。允许空值，这意味着当前选择的条目没有与此列表项集合相关联。
+指定当前在此列表中选择的值。允许空值，这意味着当前选择的条目没有与此列表项集合相关联。
 
-**退货:**
+**退货：**
 [SdtListItem](../../com.aspose.words/sdtlistitem) - 相应的[SdtListItem](../../com.aspose.words/sdtlistitem)价值。
 ### hashCode() {#hashCode--}
 ```
@@ -129,7 +132,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### iterator() {#iterator--}
 ```
@@ -139,8 +142,8 @@ public Iterator iterator()
 
 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。
 
-**退货:**
-java.util.Iterator
+**退货：**
+java.util.迭代器
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -165,7 +168,8 @@ public void removeAt(int index)
 
 删除指定索引处的列表项。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int | 要删除的项目的从零开始的索引。 |
@@ -176,9 +180,10 @@ public void setSelectedValue(SdtListItem value)
 ```
 
 
-指定此列表中当前选定的值。允许空值，这意味着当前选择的条目没有与此列表项集合相关联。
+指定当前在此列表中选择的值。允许空值，这意味着当前选择的条目没有与此列表项集合相关联。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | [SdtListItem](../../com.aspose.words/sdtlistitem) | 相应的[SdtListItem](../../com.aspose.words/sdtlistitem)价值。 |
@@ -191,8 +196,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -209,7 +214,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -222,7 +228,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

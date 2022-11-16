@@ -7,7 +7,7 @@ weight: 608
 url: /zh/java/com.aspose.words/watermark/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class Watermark
@@ -44,12 +44,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -59,7 +60,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getType() {#getType--}
 ```
@@ -69,8 +70,8 @@ public int getType()
 
 获取水印类型。
 
-**退货:**
- int - 水印类型。返回值是以下之一[WatermarkType](../../com.aspose.words/watermarktype)常数。
+**退货：**
+ int - 水印类型。返回值是其中之一[WatermarkType](../../com.aspose.words/watermarktype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -79,7 +80,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -113,7 +114,8 @@ public void setImage(BufferedImage image)
 
 将图像水印添加到文档中。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | image | java.awt.image.BufferedImage | 显示为水印的图像。 |
@@ -126,7 +128,8 @@ public void setImage(BufferedImage image, ImageWatermarkOptions options)
 
 将图像水印添加到文档中。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | image | java.awt.image.BufferedImage | 显示为水印的图像。 |
@@ -140,7 +143,8 @@ public void setImage(String imagePath, ImageWatermarkOptions options)
 
 将图像水印添加到文档中。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | imagePath | java.lang.String | 显示为水印的图像文件的路径。 |
@@ -154,7 +158,8 @@ public void setText(String text)
 
 将文本水印添加到文档中。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | text | java.lang.String | 显示为水印的文本。文本长度必须在 1 到 200 的范围内。文本不能为空或仅包含空格。 |
@@ -167,7 +172,8 @@ public void setText(String text, TextWatermarkOptions options)
 
 将文本水印添加到文档中。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | text | java.lang.String | 显示为水印的文本。 |
@@ -181,8 +187,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -199,7 +205,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -212,7 +219,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

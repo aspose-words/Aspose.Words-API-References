@@ -7,7 +7,7 @@ weight: 286
 url: /zh/java/com.aspose.words/fontsettings/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class FontSettings
@@ -17,12 +17,12 @@ public class FontSettings
 
 要了解更多信息，请访问**Working with Fonts**文档文章。
 
- Aspose.Words 使用字体设置来解析文档中的字体。字体主要在构建文档布局或呈现为固定页面格式时得到解决。但是在加载某些格式时，Aspose.Words 也可能需要解析字体。例如，在加载 HTML 文档时，Aspose.Words 可能会解析字体以执行字体回退。所以建议你在字体设置中设置[LoadOptions](../../com.aspose.words/loadoptions)加载文档时。或者至少在构建布局或将文档呈现为固定页面格式之前。
+ Aspose.Words 使用字体设置来解析文档中的字体。字体主要在构建文档布局或呈现为固定页面格式时解析。但是在加载某些格式时，Aspose.Words 也可能需要解析字体。例如，在加载 HTML 文档时，Aspose.Words 可能会解析字体以执行字体回退。所以建议大家在字体设置里[LoadOptions](../../com.aspose.words/loadoptions)加载文档时。或者至少在构建布局或将文档呈现为固定页面格式之前。
 
-默认情况下，所有文档都使用单个静态字体设置实例。它可以被访问[getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance--)财产。
+默认情况下，所有文档都使用单个静态字体设置实例。它可以通过[getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance--)财产。
 
-随时从任何线程更改字体设置都是安全的。但建议您在处理某些使用此设置的文档时不要更改字体设置。这可能会导致相同的字体在文档的不同部分会有不同的解析。
-## 构造函数
+随时从任何线程更改字体设置都是安全的。但建议您在处理某些使用此设置的文档时不要更改字体设置。这可能会导致相同的字体在文档的不同部分以不同的方式解析。
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -35,14 +35,14 @@ public class FontSettings
 | [getClass()](#getClass--) |  |
 | [getDefaultInstance()](#getDefaultInstance--) | 静态默认字体设置。 |
 | [getFallbackSettings()](#getFallbackSettings--) | 与字体回退机制相关的设置。 |
-| [getFontsSources()](#getFontsSources--) | 获取包含源列表的数组副本，Aspose.Words 在其中查找 TrueType 字体。 |
+| [getFontsSources()](#getFontsSources--) | 获取数组的副本，其中包含 Aspose.Words 查找 TrueType 字体的源列表。 |
 | [getSubstitutionSettings()](#getSubstitutionSettings--) | 与字体替换机制相关的设置。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [resetFontSources()](#resetFontSources--) | 将字体源重置为系统默认值。 |
 | [saveSearchCache(OutputStream outputStream)](#saveSearchCache-java.io.OutputStream-) |  |
-| [setFontsFolder(String fontFolder, boolean recursive)](#setFontsFolder-java.lang.String-boolean-) | 设置 Aspose.Words 在呈现文档或嵌入字体时查找 TrueType 字体的文件夹。 |
+| [setFontsFolder(String fontFolder, boolean recursive)](#setFontsFolder-java.lang.String-boolean-) | 设置 Aspose.Words 在渲染文档或嵌入字体时查找 TrueType 字体的文件夹。 |
 | [setFontsFolders(String[] fontsFolders, boolean recursive)](#setFontsFolders-java.lang.String---boolean-) | 设置 Aspose.Words 在渲染文档或嵌入字体时查找 TrueType 字体的文件夹。 |
 | [setFontsSources(FontSourceBase[] sources)](#setFontsSources-com.aspose.words.FontSourceBase---) | 设置 Aspose.Words 在渲染文档或嵌入字体时查找 TrueType 字体的来源。 |
 | [setFontsSources(FontSourceBase[] sources, InputStream cacheInputStream)](#setFontsSources-com.aspose.words.FontSourceBase---java.io.InputStream-) |  |
@@ -66,12 +66,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -81,7 +82,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getDefaultInstance() {#getDefaultInstance--}
 ```
@@ -91,7 +92,7 @@ public static FontSettings getDefaultInstance()
 
 静态默认字体设置。默认情况下，此实例在文档中使用，除非[Document.getFontSettings()](../../com.aspose.words/document\#getFontSettings--) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document\#setFontSettings-com.aspose.words.FontSettings-)被指定。
 
-**退货:**
+**退货：**
 [FontSettings](../../com.aspose.words/fontsettings) - 相应的[FontSettings](../../com.aspose.words/fontsettings)价值。
 ### getFallbackSettings() {#getFallbackSettings--}
 ```
@@ -101,7 +102,7 @@ public FontFallbackSettings getFallbackSettings()
 
 与字体回退机制相关的设置。
 
-**退货:**
+**退货：**
 [FontFallbackSettings](../../com.aspose.words/fontfallbacksettings) - 相应的[FontFallbackSettings](../../com.aspose.words/fontfallbacksettings)价值。
 ### getFontsSources() {#getFontsSources--}
 ```
@@ -109,11 +110,11 @@ public FontSourceBase[] getFontsSources()
 ```
 
 
-获取包含源列表的数组副本，Aspose.Words 在其中查找 TrueType 字体。
+获取数组的副本，其中包含 Aspose.Words 查找 TrueType 字体的源列表。
 
 返回值是 Aspose.Words 使用的数据的副本。如果您更改返回数组中的条目，它将不会影响文档呈现。要指定新字体源，请使用[setFontsSources(com.aspose.words.FontSourceBase[])](../../com.aspose.words/fontsettings\#setFontsSources-com.aspose.words.FontSourceBase---)方法。
 
-**退货:**
+**退货：**
 com.aspose.words.FontSourceBase[] - 当前字体源的副本。
 ### getSubstitutionSettings() {#getSubstitutionSettings--}
 ```
@@ -123,7 +124,7 @@ public FontSubstitutionSettings getSubstitutionSettings()
 
 与字体替换机制相关的设置。
 
-**退货:**
+**退货：**
 [FontSubstitutionSettings](../../com.aspose.words/fontsubstitutionsettings) - 相应的[FontSubstitutionSettings](../../com.aspose.words/fontsubstitutionsettings)价值。
 ### hashCode() {#hashCode--}
 ```
@@ -133,7 +134,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -167,7 +168,8 @@ public void saveSearchCache(OutputStream outputStream)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | outputStream | java.io.OutputStream |  |
@@ -180,7 +182,8 @@ public void setFontsFolder(String fontFolder, boolean recursive)
 
 设置 Aspose.Words 在渲染文档或嵌入字体时查找 TrueType 字体的文件夹。这是一个快捷方式[setFontsFolders(java.lang.String[], boolean)](../../com.aspose.words/fontsettings\#setFontsFolders-java.lang.String----boolean-)仅设置一个字体目录。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontFolder | java.lang.String | 包含 TrueType 字体的文件夹。 |
@@ -196,9 +199,10 @@ public void setFontsFolders(String[] fontsFolders, boolean recursive)
 
 默认情况下，Aspose.Words 会查找安装到系统中的字体。
 
-设置此属性会重置所有先前加载的字体的缓存。
+设置此属性会重置所有以前加载的字体的缓存。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontsFolders | java.lang.String[] | 包含 TrueType 字体的文件夹数组。 |
@@ -214,9 +218,10 @@ public void setFontsSources(FontSourceBase[] sources)
 
 默认情况下，Aspose.Words 会查找安装到系统中的字体。
 
-设置此属性会重置所有先前加载的字体的缓存。
+设置此属性会重置所有以前加载的字体的缓存。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sources | [FontSourceBase\[\]](../../com.aspose.words/fontsourcebase) | 包含 TrueType 字体的源数组。 |
@@ -229,7 +234,8 @@ public void setFontsSources(FontSourceBase[] sources, InputStream cacheInputStre
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sources | [FontSourceBase\[\]](../../com.aspose.words/fontsourcebase) |  |
@@ -243,8 +249,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -261,7 +267,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -274,7 +281,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

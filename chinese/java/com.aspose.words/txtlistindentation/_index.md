@@ -7,7 +7,7 @@ weight: 583
 url: /zh/java/com.aspose.words/txtlistindentation/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class TxtListIndentation
@@ -41,12 +41,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getCharacter() {#getCharacter--}
 ```
@@ -54,9 +55,9 @@ public char getCharacter()
 ```
 
 
-获取用于缩进列表级别的字符。默认值为'\\0'，表示没有缩进。
+获取用于缩进列表级别的字符。默认值为 '\\0'，表示没有缩进。
 
-**退货:**
+**退货：**
 char - 用于缩进列表级别的字符。
 ### getClass() {#getClass--}
 ```
@@ -66,7 +67,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
@@ -74,9 +75,9 @@ public int getCount()
 ```
 
 
-得到多少[getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-)用作每个列表级别的缩进。默认值为 0，表示没有缩进。
+得到多少[getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-)用作每个列表级别的缩进。默认值为 0，表示不缩进。
 
-**退货:**
+**退货：**
  int - 多少[getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-)用作每个列表级别的缩进。
 ### hashCode() {#hashCode--}
 ```
@@ -86,7 +87,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -110,9 +111,10 @@ public void setCharacter(char value)
 ```
 
 
-设置用于缩进列表级别的字符。默认值为'\\0'，表示没有缩进。
+设置用于缩进列表级别的字符。默认值为 '\\0'，表示没有缩进。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | char | 用于缩进列表级别的字符。 |
@@ -123,9 +125,10 @@ public void setCount(int value)
 ```
 
 
-设置多少[getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-)用作每个列表级别的缩进。默认值为 0，表示没有缩进。
+设置多少[getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-)用作每个列表级别的缩进。默认值为 0，表示不缩进。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 多少[getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-)用作每个列表级别的缩进。 |
@@ -138,8 +141,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -156,7 +159,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -169,7 +173,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

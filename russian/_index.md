@@ -33,7 +33,7 @@ Aspose.Words for Java — это библиотека классов, котор
 
 Это ссылки на некоторые полезные ресурсы:
 
-- [Справочник по API Aspose.Words для Java](/words/java/)
+- [Справочник по API Aspose.Words для Java](/words/ru/java/)
 
 
 ## Aspose.Words для C++

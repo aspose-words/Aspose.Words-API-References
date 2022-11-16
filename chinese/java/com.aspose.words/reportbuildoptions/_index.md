@@ -7,7 +7,7 @@ weight: 477
 url: /zh/java/com.aspose.words/reportbuildoptions/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class ReportBuildOptions
@@ -22,8 +22,8 @@ public class ReportBuildOptions
 | [INLINE_ERROR_MESSAGES](#INLINE-ERROR-MESSAGES) | 指定引擎应将模板语法错误消息内联到输出文档中。 |
 | [NONE](#NONE) | 指定默认选项。 |
 | [REMOVE_EMPTY_PARAGRAPHS](#REMOVE-EMPTY-PARAGRAPHS) | 指定引擎应删除在模板语法标记被删除或替换为空值后变为空的段落。 |
-| [RESPECT_JPEG_EXIF_ORIENTATION](#RESPECT-JPEG-EXIF-ORIENTATION) | 指定引擎应使用 EXIF\\u200b\\u200bimage 方向值以适当地旋转插入的 JPEG 图像。 |
-| [USE_LEGACY_HEADER_FOOTER_VISITING](#USE-LEGACY-HEADER-FOOTER-VISITING) | 指定引擎应该按照与 Aspose.Words 21.9 之前的版本兼容的顺序访问部分子节点（页眉、页脚、正文）。 |
+| [RESPECT_JPEG_EXIF_ORIENTATION](#RESPECT-JPEG-EXIF-ORIENTATION) | 指定引擎应使用 EXIF\\u200b\\u200b图像方向值以适当旋转插入的 JPEG 图像。 |
+| [USE_LEGACY_HEADER_FOOTER_VISITING](#USE-LEGACY-HEADER-FOOTER-VISITING) | 指定引擎应以与 21.9 之前的 Aspose.Words 版本兼容的顺序访问部分子节点（页眉、页脚、正文）。 |
 | [length](#length) |  |
 ## 方法
 
@@ -51,7 +51,7 @@ public static int ALLOW_MISSING_MEMBERS
 ```
 
 
-指定缺少的对象成员应被引擎视为空文字。此选项仅影响对实例（即非静态）对象成员和扩展方法的访问。如果未设置此选项，则引擎在遇到缺少的对象成员时会引发异常。
+指定缺少的对象成员应被引擎视为空文字。此选项仅影响对实例（即非静态）对象成员和扩展方法的访问。如果未设置此选项，引擎会在遇到缺少的对象成员时抛出异常。
 
 ### INLINE_ERROR_MESSAGES {#INLINE-ERROR-MESSAGES}
 ```
@@ -59,7 +59,7 @@ public static int INLINE_ERROR_MESSAGES
 ```
 
 
-指定引擎应将模板语法错误消息内联到输出文档中。如果未设置此选项，则引擎在遇到语法错误时会抛出异常。
+指定引擎应将模板语法错误消息内联到输出文档中。如果未设置此选项，引擎会在遇到语法错误时抛出异常。
 
 ### NONE {#NONE}
 ```
@@ -83,7 +83,7 @@ public static int RESPECT_JPEG_EXIF_ORIENTATION
 ```
 
 
-指定引擎应使用 EXIF\\u200b\\u200bimage 方向值以适当地旋转插入的 JPEG 图像。
+指定引擎应使用 EXIF\\u200b\\u200b图像方向值以适当旋转插入的 JPEG 图像。
 
 ### USE_LEGACY_HEADER_FOOTER_VISITING {#USE-LEGACY-HEADER-FOOTER-VISITING}
 ```
@@ -91,7 +91,7 @@ public static int USE_LEGACY_HEADER_FOOTER_VISITING
 ```
 
 
-指定引擎应该按照与 Aspose.Words 21.9 之前的版本兼容的顺序访问部分子节点（页眉、页脚、正文）。
+指定引擎应以与 21.9 之前的 Aspose.Words 版本兼容的顺序访问部分子节点（页眉、页脚、正文）。
 
 默认情况下，引擎将页眉和页脚视为链接到分节符。也就是说，当访问 section 子节点时，首先访问 body，然后才访问页眉和页脚。这与 Microsoft Word 在复制粘贴或删除多节内容时的行为一致，并在大多数情况下产生更正确的结果。
 
@@ -111,12 +111,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String reportBuildOptionsName) {#fromName-java.lang.String-}
 ```
@@ -126,12 +127,13 @@ public static int fromName(String reportBuildOptionsName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | reportBuildOptionsName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### fromNames(Set reportBuildOptionsNames) {#fromNames-java.util.Set-}
 ```
@@ -141,12 +143,13 @@ public static int fromNames(Set reportBuildOptionsNames)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | reportBuildOptionsNames | java.util.Set |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -156,7 +159,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int reportBuildOptions) {#getName-int-}
 ```
@@ -166,13 +169,14 @@ public static String getName(int reportBuildOptions)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | reportBuildOptions | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getNames(int reportBuildOptions) {#getNames-int-}
 ```
 public static Set getNames(int reportBuildOptions)
@@ -181,12 +185,13 @@ public static Set getNames(int reportBuildOptions)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | reportBuildOptions | int |  |
 
-**退货:**
+**退货：**
 java.util.Set
 ### getValues() {#getValues--}
 ```
@@ -196,7 +201,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -206,7 +211,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -232,8 +237,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int reportBuildOptions) {#toString-int-}
 ```
 public static String toString(int reportBuildOptions)
@@ -242,13 +247,14 @@ public static String toString(int reportBuildOptions)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | reportBuildOptions | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toStringSet(int attr) {#toStringSet-int-}
 ```
 public static String toStringSet(int attr)
@@ -257,13 +263,14 @@ public static String toStringSet(int attr)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | attr | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -280,7 +287,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -293,7 +301,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

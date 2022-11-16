@@ -7,13 +7,13 @@ weight: 418
 url: /zh/java/com.aspose.words/odtsavemeasureunit/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class OdtSaveMeasureUnit
 ```
 
-指定的度量单位，以在保存期间应用于可测量的文档内容，例如形状、宽度和其他。
+在保存期间应用于可测量文档内容（例如形状、宽度和其他）的指定测量单位。
 ## 字段
 
 | 场地 | 描述 |
@@ -68,12 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String odtSaveMeasureUnitName) {#fromName-java.lang.String-}
 ```
@@ -83,12 +84,13 @@ public static int fromName(String odtSaveMeasureUnitName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | odtSaveMeasureUnitName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -98,7 +100,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int odtSaveMeasureUnit) {#getName-int-}
 ```
@@ -108,13 +110,14 @@ public static String getName(int odtSaveMeasureUnit)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | odtSaveMeasureUnit | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -123,7 +126,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -133,7 +136,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -159,8 +162,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int odtSaveMeasureUnit) {#toString-int-}
 ```
 public static String toString(int odtSaveMeasureUnit)
@@ -169,13 +172,14 @@ public static String toString(int odtSaveMeasureUnit)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | odtSaveMeasureUnit | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -192,7 +196,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -205,7 +210,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

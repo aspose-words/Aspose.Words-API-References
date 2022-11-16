@@ -7,15 +7,15 @@ weight: 28
 url: /zh/java/com.aspose.words/basictextshapercache/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 [com.aspose.words.ITextShaperFactory](../../com.aspose.words/itextshaperfactory)
 ```
 public class BasicTextShaperCache implements ITextShaperFactory
 ```
-## 构造函数
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -44,7 +44,8 @@ public BasicTextShaperCache(ITextShaperFactory factory)
 
 初始化此类的新实例。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | factory | [ITextShaperFactory](../../com.aspose.words/itextshaperfactory) |  |
@@ -65,12 +66,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -80,7 +82,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getTextShaper(String fontId, byte[] fontBlob, int faceIndex) {#getTextShaper-java.lang.String-byte---int-}
 ```
@@ -90,14 +92,15 @@ public ITextShaper getTextShaper(String fontId, byte[] fontBlob, int faceIndex)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontId | java.lang.String |  |
 | fontBlob | byte[] |  |
 | faceIndex | int |  |
 
-**退货:**
+**退货：**
 [ITextShaper](../../com.aspose.words/itextshaper)
 ### getTextShaper(String fontPath, int faceIndex) {#getTextShaper-java.lang.String-int-}
 ```
@@ -107,13 +110,14 @@ public ITextShaper getTextShaper(String fontPath, int faceIndex)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontPath | java.lang.String |  |
 | faceIndex | int |  |
 
-**退货:**
+**退货：**
 [ITextShaper](../../com.aspose.words/itextshaper)
 ### hashCode() {#hashCode--}
 ```
@@ -123,7 +127,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -149,8 +153,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -167,7 +171,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -180,7 +185,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

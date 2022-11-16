@@ -7,13 +7,13 @@ weight: 490
 url: /zh/java/com.aspose.words/revisiontype/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class RevisionType
 ```
 
-指定跟踪的更改类型[Revision](../../com.aspose.words/revision).
+指定正在跟踪的更改类型[Revision](../../com.aspose.words/revision).
 ## 字段
 
 | 场地 | 描述 |
@@ -95,12 +95,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String revisionTypeName) {#fromName-java.lang.String-}
 ```
@@ -110,12 +111,13 @@ public static int fromName(String revisionTypeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | revisionTypeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -125,7 +127,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int revisionType) {#getName-int-}
 ```
@@ -135,13 +137,14 @@ public static String getName(int revisionType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | revisionType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -150,7 +153,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -160,7 +163,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -186,8 +189,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int revisionType) {#toString-int-}
 ```
 public static String toString(int revisionType)
@@ -196,13 +199,14 @@ public static String toString(int revisionType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | revisionType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -219,7 +223,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -232,7 +237,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

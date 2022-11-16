@@ -7,7 +7,7 @@ weight: 310
 url: /zh/java/com.aspose.words/gradientstyle/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class GradientStyle
@@ -18,10 +18,10 @@ public class GradientStyle
 
 | 场地 | 描述 |
 | --- | --- |
-| [DIAGONAL_DOWN](#DIAGONAL-DOWN) | 从顶角向下移动到对角的对角梯度。 |
-| [DIAGONAL_UP](#DIAGONAL-UP) | 从底角向上移动到对角的对角梯度。 |
+| [DIAGONAL_DOWN](#DIAGONAL-DOWN) | 从顶角向下移动到对角的对角渐变。 |
+| [DIAGONAL_UP](#DIAGONAL-UP) | 从底角向上移动到对角的对角渐变。 |
 | [FROM_CENTER](#FROM-CENTER) | 从中心到角落的渐变。 |
-| [FROM_CORNER](#FROM-CORNER) | 从一个角落到其他三个角落的渐变。 |
+| [FROM_CORNER](#FROM-CORNER) | 从一个角到其他三个角的渐变。 |
 | [HORIZONTAL](#HORIZONTAL) | 在对象上水平运行的渐变。 |
 | [NONE](#NONE) | 没有渐变。 |
 | [VERTICAL](#VERTICAL) | 垂直向下运行的渐变对象。 |
@@ -49,7 +49,7 @@ public static int DIAGONAL_DOWN
 ```
 
 
-从顶角向下移动到对角的对角梯度。
+从顶角向下移动到对角的对角渐变。
 
 ### DIAGONAL_UP {#DIAGONAL-UP}
 ```
@@ -57,7 +57,7 @@ public static int DIAGONAL_UP
 ```
 
 
-从底角向上移动到对角的对角梯度。
+从底角向上移动到对角的对角渐变。
 
 ### FROM_CENTER {#FROM-CENTER}
 ```
@@ -73,7 +73,7 @@ public static int FROM_CORNER
 ```
 
 
-从一个角落到其他三个角落的渐变。
+从一个角到其他三个角的渐变。
 
 ### HORIZONTAL {#HORIZONTAL}
 ```
@@ -113,12 +113,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String gradientStyleName) {#fromName-java.lang.String-}
 ```
@@ -128,12 +129,13 @@ public static int fromName(String gradientStyleName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | gradientStyleName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -143,7 +145,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int gradientStyle) {#getName-int-}
 ```
@@ -153,13 +155,14 @@ public static String getName(int gradientStyle)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | gradientStyle | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -168,7 +171,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -178,7 +181,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -204,8 +207,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int gradientStyle) {#toString-int-}
 ```
 public static String toString(int gradientStyle)
@@ -214,13 +217,14 @@ public static String toString(int gradientStyle)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | gradientStyle | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -237,7 +241,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -250,7 +255,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

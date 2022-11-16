@@ -7,10 +7,10 @@ weight: 37
 url: /zh/java/com.aspose.words/bordercollection/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Iterable
 ```
 public class BorderCollection implements Iterable
@@ -25,8 +25,8 @@ Border 对象的集合。
 
 | 方法 | 描述 |
 | --- | --- |
-| [clearFormatting()](#clearFormatting--) | 移除对象的所有边框。 |
-| [equals(BorderCollection brColl)](#equals-com.aspose.words.BorderCollection-) | 比较边框的集合。 |
+| [clearFormatting()](#clearFormatting--) | 删除对象的所有边框。 |
+| [equals(BorderCollection brColl)](#equals-com.aspose.words.BorderCollection-) | 比较边界集合。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 按索引检索 Border 对象。 |
 | [getBottom()](#getBottom--) | 获取底部边框。 |
@@ -34,8 +34,8 @@ Border 对象的集合。
 | [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | 获取边框颜色。 |
 | [getCount()](#getCount--) | 获取集合中的边框数。 |
-| [getDistanceFromText()](#getDistanceFromText--) | 以点为单位获取边框与文本的距离。 |
-| [getHorizontal()](#getHorizontal--) | 获取在单元格或符合段落之间使用的水平边框。 |
+| [getDistanceFromText()](#getDistanceFromText--) | 获取边框与文本的距离（以磅为单位）。 |
+| [getHorizontal()](#getHorizontal--) | 获取在单元格或相应段落之间使用的水平边框。 |
 | [getLeft()](#getLeft--) | 获取左边框。 |
 | [getLineStyle()](#getLineStyle--) | 获取边框样式。 |
 | [getLineWidth()](#getLineWidth--) | 以磅为单位获取边框宽度。 |
@@ -44,11 +44,11 @@ Border 对象的集合。
 | [getTop()](#getTop--) | 获取上边框。 |
 | [getVertical()](#getVertical--) | 获取单元格之间使用的垂直边框。 |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | 返回一个可用于遍历集合中所有边框的枚举器对象。 |
+| [iterator()](#iterator--) | 返回可用于遍历集合中所有边界的枚举器对象。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setColor(Color value)](#setColor-java.awt.Color-) | 设置边框颜色。 |
-| [setDistanceFromText(double value)](#setDistanceFromText-double-) | 以点为单位设置边框与文本的距离。 |
+| [setDistanceFromText(double value)](#setDistanceFromText-double-) | 设置边框与文本的距离（以磅为单位）。 |
 | [setLineStyle(int value)](#setLineStyle-int-) | 设置边框样式。 |
 | [setLineWidth(double value)](#setLineWidth-double-) | 以磅为单位设置边框宽度。 |
 | [setShadow(boolean value)](#setShadow-boolean-) | 设置一个值，指示边框是否有阴影。 |
@@ -62,7 +62,7 @@ public void clearFormatting()
 ```
 
 
-移除对象的所有边框。
+删除对象的所有边框。
 
 ### equals(BorderCollection brColl) {#equals-com.aspose.words.BorderCollection-}
 ```
@@ -70,14 +70,15 @@ public boolean equals(BorderCollection brColl)
 ```
 
 
-比较边框的集合。
+比较边界集合。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | brColl | [BorderCollection](../../com.aspose.words/bordercollection) |  |
 
-**退货:**
+**退货：**
 布尔值
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -87,12 +88,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### get(int index) {#get-int-}
 ```
@@ -102,12 +104,13 @@ public Border get(int index)
 
 按索引检索 Border 对象。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int | 要检索的边界的从零开始的索引。 |
 
-**退货:**
+**退货：**
 [Border](../../com.aspose.words/border) - 相应的[Border](../../com.aspose.words/border)价值。
 ### getBottom() {#getBottom--}
 ```
@@ -117,7 +120,7 @@ public Border getBottom()
 
 获取底部边框。
 
-**退货:**
+**退货：**
 [Border](../../com.aspose.words/border) - 底部边框。
 ### getByBorderType(int borderType) {#getByBorderType-int-}
 ```
@@ -127,12 +130,13 @@ public Border getByBorderType(int borderType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | borderType | int |  |
 
-**退货:**
+**退货：**
 [Border](../../com.aspose.words/border)
 ### getClass() {#getClass--}
 ```
@@ -142,7 +146,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getColor() {#getColor--}
 ```
@@ -156,7 +160,7 @@ public Color getColor()
 
 设置集合中所有边框的颜色，不包括对角线边框。
 
-**退货:**
+**退货：**
 java.awt.Color - 边框颜色。
 ### getCount() {#getCount--}
 ```
@@ -166,7 +170,7 @@ public int getCount()
 
 获取集合中的边框数。
 
-**退货:**
+**退货：**
 int - 集合中的边框数。
 ### getDistanceFromText() {#getDistanceFromText--}
 ```
@@ -174,15 +178,15 @@ public double getDistanceFromText()
 ```
 
 
-以点为单位获取边框与文本的距离。
+获取边框与文本的距离（以磅为单位）。
 
 获取第一个边框与文本的距离。
 
 为集合中的所有边框设置与文本的距离，不包括对角线边框。
 
-没有效果，表格单元格的边框将自动重置为零。
+没有任何效果，表格单元格的边框将自动重置为零。
 
-**退货:**
+**退货：**
 double - 边框与文本的距离（以磅为单位）。
 ### getHorizontal() {#getHorizontal--}
 ```
@@ -190,9 +194,9 @@ public Border getHorizontal()
 ```
 
 
-获取在单元格或符合段落之间使用的水平边框。
+获取在单元格或相应段落之间使用的水平边框。
 
-**退货:**
+**退货：**
 [Border](../../com.aspose.words/border) - 在单元格或符合段落之间使用的水平边框。
 ### getLeft() {#getLeft--}
 ```
@@ -202,7 +206,7 @@ public Border getLeft()
 
 获取左边框。
 
-**退货:**
+**退货：**
 [Border](../../com.aspose.words/border) - 左边框。
 ### getLineStyle() {#getLineStyle--}
 ```
@@ -216,8 +220,8 @@ public int getLineStyle()
 
 设置集合中所有边框的样式，不包括对角线边框。
 
-**退货:**
- int - 边框样式。返回值是其中之一[LineStyle](../../com.aspose.words/linestyle)常数。
+**退货：**
+int - 边框样式。返回值是其中之一[LineStyle](../../com.aspose.words/linestyle)常数。
 ### getLineWidth() {#getLineWidth--}
 ```
 public double getLineWidth()
@@ -230,7 +234,7 @@ public double getLineWidth()
 
 设置集合中所有边框的宽度，不包括对角线边框。
 
-**退货:**
+**退货：**
 double - 以磅为单位的边框宽度。
 ### getRight() {#getRight--}
 ```
@@ -240,7 +244,7 @@ public Border getRight()
 
 获取正确的边框。
 
-**退货:**
+**退货：**
 [Border](../../com.aspose.words/border) - 右边框。
 ### getShadow() {#getShadow--}
 ```
@@ -254,7 +258,7 @@ public boolean getShadow()
 
 设置集合中所有边框的值，不包括对角线边框。
 
-**退货:**
+**退货：**
 boolean - 指示边框是否有阴影的值。
 ### getTop() {#getTop--}
 ```
@@ -264,7 +268,7 @@ public Border getTop()
 
 获取上边框。
 
-**退货:**
+**退货：**
 [Border](../../com.aspose.words/border) - 顶部边框。
 ### getVertical() {#getVertical--}
 ```
@@ -274,7 +278,7 @@ public Border getVertical()
 
 获取单元格之间使用的垂直边框。
 
-**退货:**
+**退货：**
 [Border](../../com.aspose.words/border) - 单元格之间使用的垂直边框。
 ### hashCode() {#hashCode--}
 ```
@@ -284,7 +288,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### iterator() {#iterator--}
 ```
@@ -292,10 +296,10 @@ public Iterator iterator()
 ```
 
 
-返回一个可用于遍历集合中所有边框的枚举器对象。
+返回可用于遍历集合中所有边界的枚举器对象。
 
-**退货:**
-java.util.Iterator
+**退货：**
+java.util.迭代器
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -324,7 +328,8 @@ public void setColor(Color value)
 
 设置集合中所有边框的颜色，不包括对角线边框。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.awt.Color | 边框颜色。 |
@@ -335,15 +340,16 @@ public void setDistanceFromText(double value)
 ```
 
 
-以点为单位设置边框与文本的距离。
+设置边框与文本的距离（以磅为单位）。
 
 获取第一个边框与文本的距离。
 
 为集合中的所有边框设置与文本的距离，不包括对角线边框。
 
-没有效果，表格单元格的边框将自动重置为零。
+没有任何效果，表格单元格的边框将自动重置为零。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 边框与文本的距离（以磅为单位）。 |
@@ -360,7 +366,8 @@ public void setLineStyle(int value)
 
 设置集合中所有边框的样式，不包括对角线边框。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 边框样式。该值必须是其中之一[LineStyle](../../com.aspose.words/linestyle)常数。 |
@@ -377,7 +384,8 @@ public void setLineWidth(double value)
 
 设置集合中所有边框的宽度，不包括对角线边框。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double | 以磅为单位的边框宽度。 |
@@ -394,7 +402,8 @@ public void setShadow(boolean value)
 
 设置集合中所有边框的值，不包括对角线边框。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 指示边框是否有阴影的值。 |
@@ -407,8 +416,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -425,7 +434,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -438,7 +448,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

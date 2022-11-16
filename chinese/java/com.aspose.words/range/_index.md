@@ -1,19 +1,19 @@
 ---
 title: Range
 second_title: Aspose.Words for Java API 参考
-description: 表示文档中的连续区域。
+description: 表示文档中的一个连续区域。
 type: docs
 weight: 472
 url: /zh/java/com.aspose.words/range/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class Range
 ```
 
-表示文档中的连续区域。
+表示文档中的一个连续区域。
 
 要了解更多信息，请访问**Working with Ranges**文档文章。
 
@@ -30,8 +30,8 @@ public class Range
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBookmarks()](#getBookmarks--) | 返回一个[getBookmarks()](../../com.aspose.words/range\#getBookmarks--)代表范围内所有书签的集合。 |
 | [getClass()](#getClass--) |  |
-| [get字段()](#get字段--) | 返回一个[get字段()](../../com.aspose.words/range\#get字段--)表示范围内所有字段的集合。 |
-| [getForm字段()](#getForm字段--) | 返回一个[getForm字段()](../../com.aspose.words/range\#getForm字段--)表示范围内所有表单字段的集合。 |
+| [getFields()](#getFields--) | 返回一个[getFields()](../../com.aspose.words/range\#getFields--)表示范围内所有字段的集合。 |
+| [getFormFields()](#getFormFields--) | 返回一个[getFormFields()](../../com.aspose.words/range\#getFormFields--)表示范围内所有表单字段的集合。 |
 | [getStructuredDocumentTags()](#getStructuredDocumentTags--) | 返回一个[getStructuredDocumentTags()](../../com.aspose.words/range\#getStructuredDocumentTags--)表示范围内所有结构化文档标签的集合。 |
 | [getText()](#getText--) | 获取范围的文本。 |
 | [hashCode()](#hashCode--) |  |
@@ -44,8 +44,8 @@ public class Range
 | [replace(Pattern pattern, String replacement, FindReplaceOptions options)](#replace-java.util.regex.Pattern-java.lang.String-com.aspose.words.FindReplaceOptions-) | 用另一个字符串替换由正则表达式指定的字符模式的所有匹配项。 |
 | [toDocument()](#toDocument--) | 构造一个包含范围的新的完全形成的文档。 |
 | [toString()](#toString--) |  |
-| [unlink字段()](#unlink字段--) | 取消链接此范围内的字段。 |
-| [update字段()](#update字段--) | 更新此范围内文档字段的值。 |
+| [unlinkFields()](#unlinkFields--) | 取消链接此范围内的字段。 |
+| [updateFields()](#updateFields--) | 更新此范围内文档字段的值。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -65,12 +65,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getBookmarks() {#getBookmarks--}
 ```
@@ -80,7 +81,7 @@ public BookmarkCollection getBookmarks()
 
 返回一个[getBookmarks()](../../com.aspose.words/range\#getBookmarks--)代表范围内所有书签的集合。
 
-**退货:**
+**退货：**
 [BookmarkCollection](../../com.aspose.words/bookmarkcollection) - 一个[getBookmarks()](../../com.aspose.words/range\#getBookmarks--)代表范围内所有书签的集合。
 ### getClass() {#getClass--}
 ```
@@ -90,28 +91,28 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
-### get字段() {#get字段--}
+### getFields() {#getFields--}
 ```
-public FieldCollection get字段()
-```
-
-
-返回一个[get字段()](../../com.aspose.words/range\#get字段--)表示范围内所有字段的集合。
-
-**退货:**
-[FieldCollection](../../com.aspose.words/fieldcollection) - 一个[get字段()](../../com.aspose.words/range\#get字段--)表示范围内所有字段的集合。
-### getForm字段() {#getForm字段--}
-```
-public FormFieldCollection getForm字段()
+public FieldCollection getFields()
 ```
 
 
-返回一个[getForm字段()](../../com.aspose.words/range\#getForm字段--)表示范围内所有表单字段的集合。
+返回一个[getFields()](../../com.aspose.words/range\#getFields--)表示范围内所有字段的集合。
 
-**退货:**
-[FormFieldCollection](../../com.aspose.words/formfieldcollection) - 一个[getForm字段()](../../com.aspose.words/range\#getForm字段--)表示范围内所有表单字段的集合。
+**退货：**
+[FieldCollection](../../com.aspose.words/fieldcollection) - 一个[getFields()](../../com.aspose.words/range\#getFields--)表示范围内所有字段的集合。
+### getFormFields() {#getFormFields--}
+```
+public FormFieldCollection getFormFields()
+```
+
+
+返回一个[getFormFields()](../../com.aspose.words/range\#getFormFields--)表示范围内所有表单字段的集合。
+
+**退货：**
+[FormFieldCollection](../../com.aspose.words/formfieldcollection) - 一个[getFormFields()](../../com.aspose.words/range\#getFormFields--)表示范围内所有表单字段的集合。
 ### getStructuredDocumentTags() {#getStructuredDocumentTags--}
 ```
 public StructuredDocumentTagCollection getStructuredDocumentTags()
@@ -120,7 +121,7 @@ public StructuredDocumentTagCollection getStructuredDocumentTags()
 
 返回一个[getStructuredDocumentTags()](../../com.aspose.words/range\#getStructuredDocumentTags--)表示范围内所有结构化文档标签的集合。
 
-**退货:**
+**退货：**
 [StructuredDocumentTagCollection](../../com.aspose.words/structureddocumenttagcollection) - 一个[getStructuredDocumentTags()](../../com.aspose.words/range\#getStructuredDocumentTags--)表示范围内所有结构化文档标签的集合。
 ### getText() {#getText--}
 ```
@@ -130,9 +131,9 @@ public String getText()
 
 获取范围的文本。
 
-返回的字符串包括所有控制和特殊字符，如[ControlChar](../../com.aspose.words/controlchar).
+返回的字符串包括所有控制字符和特殊字符，如[ControlChar](../../com.aspose.words/controlchar).
 
-**退货:**
+**退货：**
 java.lang.String - 范围的文本。
 ### hashCode() {#hashCode--}
 ```
@@ -142,7 +143,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### normalizeFieldTypes() {#normalizeFieldTypes--}
 ```
@@ -193,16 +194,17 @@ public int replace(String pattern, String replacement)
  *  **&m** \分页符
  *  **&l** \手动换行
 
-使用方法[replace(java.lang.String, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range\#replace-java.lang.String--java.lang.String--com.aspose.words.FindReplaceOptions-)有更灵活的定制。
+使用方法[replace(java.lang.String, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range\#replace-java.lang.String--java.lang.String--com.aspose.words.FindReplaceOptions-)进行更灵活的定制。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pattern | java.lang.String | 要替换的字符串。 |
-| replacement | java.lang.String | 用于替换所有出现的模式的字符串。 |
+| replacement | java.lang.String | 替换所有出现的模式的字符串。 |
 
-**退货:**
-int - 替换的次数。
+**退货：**
+int - 进行的替换次数。
 
 ```
 
@@ -234,15 +236,16 @@ public int replace(String pattern, String replacement, FindReplaceOptions option
  *  **&l** \手动换行
  *  **&&** \- ＆ 特点
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pattern | java.lang.String | 要替换的字符串。 |
-| replacement | java.lang.String | 用于替换所有出现的模式的字符串。 |
-| options | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions) | \{[FindReplaceOptions](../../com.aspose.words/findreplaceoptions)对象指定附加选项。 |
+| replacement | java.lang.String | 替换所有出现的模式的字符串。 |
+| options | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions) | \{[FindReplaceOptions](../../com.aspose.words/findreplaceoptions)对象以指定其他选项。 |
 
-**退货:**
-int - 替换的次数。
+**退货：**
+int - 进行的替换次数。
 
 ```
 
@@ -273,16 +276,17 @@ public int replace(Pattern pattern, String replacement)
  *  **&m** \分页符
  *  **&l** \手动换行
 
-使用方法[replace(java.util.regex.Pattern, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range\#replace-java.util.regex.Pattern--java.lang.String--com.aspose.words.FindReplaceOptions-)有更灵活的定制。
+使用方法[replace(java.util.regex.Pattern, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range\#replace-java.util.regex.Pattern--java.lang.String--com.aspose.words.FindReplaceOptions-)进行更灵活的定制。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pattern | java.util.regex.Pattern | 用于查找匹配项的正则表达式模式。 |
-| replacement | java.lang.String | 用于替换所有出现的模式的字符串。 |
+| replacement | java.lang.String | 替换所有出现的模式的字符串。 |
 
-**退货:**
-int - 替换的次数。
+**退货：**
+int - 进行的替换次数。
 
 ```
 
@@ -314,15 +318,16 @@ public int replace(Pattern pattern, String replacement, FindReplaceOptions optio
  *  **&l** \手动换行
  *  **&&** \- ＆ 特点
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pattern | java.util.regex.Pattern | 用于查找匹配项的正则表达式模式。 |
-| replacement | java.lang.String | 用于替换所有出现的模式的字符串。 |
-| options | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions) | \{[FindReplaceOptions](../../com.aspose.words/findreplaceoptions)对象指定附加选项。 |
+| replacement | java.lang.String | 替换所有出现的模式的字符串。 |
+| options | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions) | \{[FindReplaceOptions](../../com.aspose.words/findreplaceoptions)对象以指定其他选项。 |
 
-**退货:**
-int - 替换的次数。
+**退货：**
+int - 进行的替换次数。
 
 ```
 
@@ -342,7 +347,7 @@ public Document toDocument()
 
 构造一个包含范围的新的完全形成的文档。
 
-**退货:**
+**退货：**
 [Document](../../com.aspose.words/document)
 ### toString() {#toString--}
 ```
@@ -352,37 +357,37 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
-### unlink字段() {#unlink字段--}
+**退货：**
+java.lang.字符串
+### unlinkFields() {#unlinkFields--}
 ```
-public void unlink字段()
+public void unlinkFields()
 ```
 
 
 取消链接此范围内的字段。
 
-将此范围内的所有字段替换为其最新结果。
+将此范围内的所有字段替换为其最近的结果。
 
-要取消链接整个文档中的字段，请使用[unlink字段()](../../com.aspose.words/range\#unlink字段--).
+要取消链接整个文档中的字段，请使用[unlinkFields()](../../com.aspose.words/range\#unlinkFields--).
 
-### update字段() {#update字段--}
+### updateFields() {#updateFields--}
 ```
-public void update字段()
+public void updateFields()
 ```
 
 
 更新此范围内文档字段的值。
 
-当您打开、修改并保存文档时，Aspose.Words 不会自动更新字段，它会保持它们完好无损。因此，如果您以编程方式修改了文档并希望确保正确的（计算的）字段值出现在保存的文档中，则通常需要在保存之前调用此方法。
+当您打开、修改然后保存文档时，Aspose.Words 不会自动更新字段，而是保持它们的完整性。因此，如果您以编程方式修改了文档并希望确保正确的（计算的）字段值出现在保存的文档中，则通常需要在保存之前调用此方法。
 
 执行邮件合并后不需要更新字段，因为邮件合并是一种字段更新，会自动更新文档中的所有字段。
 
-此方法不会更新所有字段类型。有关支持的字段类型的详细列表，请参阅程序员指南。
+此方法不会更新所有字段类型。有关支持的字段类型的详细列表，请参阅《程序员指南》。
 
-此方法不会更新与页面布局算法相关的字段（例如 PAGE、PAGES、PAGEREF）。渲染文档或调用时更新页面布局相关字段[Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--).
+此方法不会更新与页面布局算法相关的字段（例如 PAGE、PAGES、PAGEREF）。当您呈现文档或调用时，页面布局相关的字段会更新[Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--).
 
-要更新整个文档中的字段，请使用[Document.update字段()](../../com.aspose.words/document\#update字段--).
+要更新整个文档中的字段，请使用[Document.updateFields()](../../com.aspose.words/document\#updateFields--).
 
 ### wait() {#wait--}
 ```
@@ -400,7 +405,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -413,7 +419,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

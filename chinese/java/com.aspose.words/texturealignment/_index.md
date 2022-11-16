@@ -7,7 +7,7 @@ weight: 571
 url: /zh/java/com.aspose.words/texturealignment/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class TextureAlignment
@@ -24,10 +24,10 @@ public class TextureAlignment
 | [CENTER](#CENTER) | 中心纹理对齐。 |
 | [LEFT](#LEFT) | 左纹理对齐。 |
 | [NONE](#NONE) | 无纹理对齐。 |
-| [RIGHT](#RIGHT) | 正确的纹理对齐。 |
+| [RIGHT](#RIGHT) | 右纹理对齐。 |
 | [TOP](#TOP) | 顶部纹理对齐。 |
 | [TOP_LEFT](#TOP-LEFT) | 左上纹理对齐。 |
-| [TOP_RIGHT](#TOP-RIGHT) | 右上纹理对齐。 |
+| [TOP_RIGHT](#TOP-RIGHT) | 右上角纹理对齐。 |
 | [length](#length) |  |
 ## 方法
 
@@ -100,7 +100,7 @@ public static int RIGHT
 ```
 
 
-正确的纹理对齐。
+右纹理对齐。
 
 ### TOP {#TOP}
 ```
@@ -124,7 +124,7 @@ public static int TOP_RIGHT
 ```
 
 
-右上纹理对齐。
+右上角纹理对齐。
 
 ### length {#length}
 ```
@@ -140,12 +140,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String textureAlignmentName) {#fromName-java.lang.String-}
 ```
@@ -155,12 +156,13 @@ public static int fromName(String textureAlignmentName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textureAlignmentName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -170,7 +172,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int textureAlignment) {#getName-int-}
 ```
@@ -180,13 +182,14 @@ public static String getName(int textureAlignment)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textureAlignment | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -195,7 +198,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -205,7 +208,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -231,8 +234,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int textureAlignment) {#toString-int-}
 ```
 public static String toString(int textureAlignment)
@@ -241,13 +244,14 @@ public static String toString(int textureAlignment)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textureAlignment | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -264,7 +268,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -277,7 +282,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

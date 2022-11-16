@@ -7,13 +7,13 @@ weight: 142
 url: /zh/java/com.aspose.words/embeddedfontstyle/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class EmbeddedFontStyle
 ```
 
-指定嵌入字体的样式[FontInfo](../../com.aspose.words/fontinfo)目的。
+指定嵌入字体内的样式[FontInfo](../../com.aspose.words/fontinfo)目的。
 ## 字段
 
 | 场地 | 描述 |
@@ -89,12 +89,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String embeddedFontStyleName) {#fromName-java.lang.String-}
 ```
@@ -104,12 +105,13 @@ public static int fromName(String embeddedFontStyleName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | embeddedFontStyleName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### fromNames(Set embeddedFontStyleNames) {#fromNames-java.util.Set-}
 ```
@@ -119,12 +121,13 @@ public static int fromNames(Set embeddedFontStyleNames)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | embeddedFontStyleNames | java.util.Set |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -134,7 +137,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int embeddedFontStyle) {#getName-int-}
 ```
@@ -144,13 +147,14 @@ public static String getName(int embeddedFontStyle)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | embeddedFontStyle | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getNames(int embeddedFontStyle) {#getNames-int-}
 ```
 public static Set getNames(int embeddedFontStyle)
@@ -159,12 +163,13 @@ public static Set getNames(int embeddedFontStyle)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | embeddedFontStyle | int |  |
 
-**退货:**
+**退货：**
 java.util.Set
 ### getValues() {#getValues--}
 ```
@@ -174,7 +179,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -184,7 +189,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -210,8 +215,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int embeddedFontStyle) {#toString-int-}
 ```
 public static String toString(int embeddedFontStyle)
@@ -220,13 +225,14 @@ public static String toString(int embeddedFontStyle)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | embeddedFontStyle | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toStringSet(int attr) {#toStringSet-int-}
 ```
 public static String toStringSet(int attr)
@@ -235,13 +241,14 @@ public static String toStringSet(int attr)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | attr | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -258,7 +265,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -271,7 +279,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

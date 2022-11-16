@@ -1,19 +1,19 @@
 ---
 title: OdsoDataSourceType
 second_title: Aspose.Words for Java API 参考
-description: 指定要连接到的外部数据源的类型，作为 ODSO 连接信息的一部分。
+description: 指定要连接的外部数据源的类型作为 ODSO 连接信息的一部分。
 type: docs
 weight: 412
 url: /zh/java/com.aspose.words/odsodatasourcetype/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class OdsoDataSourceType
 ```
 
-指定要连接到的外部数据源的类型，作为 ODSO 连接信息的一部分。
+指定要连接的外部数据源的类型作为 ODSO 连接信息的一部分。
 
 OOXML 规范对此枚举非常模糊。我猜它可能对应于 WdMergeSubType 枚举 http://msdn.microsoft.com/en-us/library/bb237801.aspx。
 ## 字段
@@ -26,7 +26,7 @@ OOXML 规范对此枚举非常模糊。我猜它可能对应于 WdMergeSubType �
 | [DOCUMENT_1](#DOCUMENT-1) | 指定给定文档已连接到生成应用程序支持的另一种文档格式。 |
 | [DOCUMENT_2](#DOCUMENT-2) | 指定给定文档已连接到生成应用程序支持的另一种文档格式。 |
 | [EMAIL](#EMAIL) | 指定给定文档已连接到电子邮件应用程序。 |
-| [LEGACY](#LEGACY) | 指定给定文档已连接到生产应用程序支持的旧文档格式，可能是 wdMergeSubTypeWord2000。 |
+| [LEGACY](#LEGACY) | 指定给定文档已连接到生成应用程序可能支持的遗留文档格式 wdMergeSubTypeWord2000。 |
 | [MASTER](#MASTER) | 指定给定文档已连接到聚合其他数据源的数据源。 |
 | [NATIVE](#NATIVE) | 指定给定文档已连接到生成应用程序本机的另一种文档格式。 |
 | [NONE](#NONE) | 未指定外部数据源的类型。 |
@@ -103,7 +103,7 @@ public static int LEGACY
 ```
 
 
-指定给定文档已连接到生产应用程序支持的旧文档格式，可能是 wdMergeSubTypeWord2000。
+指定给定文档已连接到生成应用程序可能支持的遗留文档格式 wdMergeSubTypeWord2000。
 
 ### MASTER {#MASTER}
 ```
@@ -151,12 +151,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String odsoDataSourceTypeName) {#fromName-java.lang.String-}
 ```
@@ -166,12 +167,13 @@ public static int fromName(String odsoDataSourceTypeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | odsoDataSourceTypeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -181,7 +183,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int odsoDataSourceType) {#getName-int-}
 ```
@@ -191,13 +193,14 @@ public static String getName(int odsoDataSourceType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | odsoDataSourceType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -206,7 +209,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -216,7 +219,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -242,8 +245,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int odsoDataSourceType) {#toString-int-}
 ```
 public static String toString(int odsoDataSourceType)
@@ -252,13 +255,14 @@ public static String toString(int odsoDataSourceType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | odsoDataSourceType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -275,7 +279,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -288,7 +293,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

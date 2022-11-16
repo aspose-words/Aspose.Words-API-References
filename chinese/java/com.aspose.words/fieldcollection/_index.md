@@ -7,10 +7,10 @@ weight: 169
 url: /zh/java/com.aspose.words/fieldcollection/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Iterable
 ```
 public class FieldCollection implements Iterable
@@ -18,7 +18,7 @@ public class FieldCollection implements Iterable
 
 的集合[Field](../../com.aspose.words/field)表示指定范围内的字段的对象。
 
-要了解更多信息，请访问**Working with 字段**文档文章。
+要了解更多信息，请访问**Working with Fields**文档文章。
 
 此集合的一个实例迭代开始落在指定范围内的字段。
 
@@ -39,7 +39,7 @@ public class FieldCollection implements Iterable
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [remove(Field field)](#remove-com.aspose.words.Field-) | 从此集合和文档中删除指定的字段。 |
-| [removeAt(int index)](#removeAt-int-) | 从此集合和文档中移除指定索引处的字段。 |
+| [removeAt(int index)](#removeAt-int-) | 从此集合和文档中删除指定索引处的字段。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -60,12 +60,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### get(int index) {#get-int-}
 ```
@@ -83,12 +84,13 @@ public Field get(int index)
 
 如果索引为负且其绝对值大于列表中的项目数，则返回空引用。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int | 集合中的索引。 |
 
-**退货:**
+**退货：**
 [Field](../../com.aspose.words/field) - 指定索引处的字段。
 ### getClass() {#getClass--}
 ```
@@ -98,7 +100,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
@@ -108,7 +110,7 @@ public int getCount()
 
 返回集合中的字段数。
 
-**退货:**
+**退货：**
 int - 集合中的字段数。
 ### hashCode() {#hashCode--}
 ```
@@ -118,7 +120,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### iterator() {#iterator--}
 ```
@@ -128,8 +130,8 @@ public Iterator iterator()
 
 返回一个枚举器对象。
 
-**退货:**
-java.util.Iterator
+**退货：**
+java.util.迭代器
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -154,7 +156,8 @@ public void remove(Field field)
 
 从此集合和文档中删除指定的字段。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | field | [Field](../../com.aspose.words/field) | 要删除的字段。 |
@@ -165,9 +168,10 @@ public void removeAt(int index)
 ```
 
 
-从此集合和文档中移除指定索引处的字段。
+从此集合和文档中删除指定索引处的字段。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int | 集合中的索引。 |
@@ -180,8 +184,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -198,7 +202,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -211,7 +216,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

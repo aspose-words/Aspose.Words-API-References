@@ -1,13 +1,13 @@
 ---
 title: HorizontalAlignment
 second_title: Aspose.Words for Java API 参考
-description: 指定浮动形状文本框架或浮动表格的水平对齐方式。
+description: 指定浮动形状文本框或浮动表格的水平对齐方式。
 type: docs
 weight: 320
 url: /zh/java/com.aspose.words/horizontalalignment/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class HorizontalAlignment
@@ -20,8 +20,8 @@ public class HorizontalAlignment
 | --- | --- |
 | [CENTER](#CENTER) | 指定对象应相对于水平对齐基准居中。 |
 | [DEFAULT](#DEFAULT) | 如同[NONE](../../com.aspose.words/horizontalalignment\#NONE). |
-| [INSIDE](#INSIDE) | 指定对象应位于水平对齐基础内。 |
-| [LEFT](#LEFT) | 指定对象应与水平对齐基准左对齐。 |
+| [INSIDE](#INSIDE) | 指定对象应位于水平对齐基准内。 |
+| [LEFT](#LEFT) | 指定对象应左对齐到水平对齐基准。 |
 | [NONE](#NONE) | 对象被显式定位，通常使用它的**Left**财产。 |
 | [OUTSIDE](#OUTSIDE) | 指定对象应位于水平对齐基准之外。 |
 | [RIGHT](#RIGHT) | 指定对象应与水平对齐基准右对齐。 |
@@ -65,7 +65,7 @@ public static int INSIDE
 ```
 
 
-指定对象应位于水平对齐基础内。
+指定对象应位于水平对齐基准内。
 
 ### LEFT {#LEFT}
 ```
@@ -73,7 +73,7 @@ public static int LEFT
 ```
 
 
-指定对象应与水平对齐基准左对齐。
+指定对象应左对齐到水平对齐基准。
 
 ### NONE {#NONE}
 ```
@@ -113,12 +113,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String horizontalAlignmentName) {#fromName-java.lang.String-}
 ```
@@ -128,12 +129,13 @@ public static int fromName(String horizontalAlignmentName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | horizontalAlignmentName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -143,7 +145,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int horizontalAlignment) {#getName-int-}
 ```
@@ -153,13 +155,14 @@ public static String getName(int horizontalAlignment)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | horizontalAlignment | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -168,7 +171,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -178,7 +181,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -204,8 +207,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int horizontalAlignment) {#toString-int-}
 ```
 public static String toString(int horizontalAlignment)
@@ -214,13 +217,14 @@ public static String toString(int horizontalAlignment)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | horizontalAlignment | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -237,7 +241,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -250,7 +255,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

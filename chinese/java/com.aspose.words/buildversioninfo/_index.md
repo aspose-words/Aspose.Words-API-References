@@ -7,7 +7,7 @@ weight: 40
 url: /zh/java/com.aspose.words/buildversioninfo/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class BuildVersionInfo
@@ -39,12 +39,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -54,7 +55,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getProduct() {#getProduct--}
 ```
@@ -64,7 +65,7 @@ public static String getProduct()
 
 获取产品的全名。
 
-**退货:**
+**退货：**
 java.lang.String - 产品的全名。
 ### getVersion() {#getVersion--}
 ```
@@ -74,9 +75,9 @@ public static String getVersion()
 
 获取产品版本。
 
-产品版本为“Major.Minor.Hotfix.0”格式。
+产品版本采用“Major.Minor.Hotfix.0”格式。
 
-**退货:**
+**退货：**
 java.lang.String - 产品版本。
 ### hashCode() {#hashCode--}
 ```
@@ -86,7 +87,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -112,8 +113,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -130,7 +131,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -143,7 +145,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

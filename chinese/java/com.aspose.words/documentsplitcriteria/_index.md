@@ -7,13 +7,13 @@ weight: 131
 url: /zh/java/com.aspose.words/documentsplitcriteria/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class DocumentSplitCriteria
 ```
 
-指定保存到时如何将文档拆分为多个部分[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB)或者[SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3)格式。
+指定在保存到时文档如何拆分为多个部分[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB)或者[SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3)格式。
 
 [DocumentSplitCriteria](../../com.aspose.words/documentsplitcriteria)是一组可以组合的标志。例如，您可以在同一导出操作中在分页符和标题段落处拆分文档。
 
@@ -22,7 +22,7 @@ public class DocumentSplitCriteria
 
 | 场地 | 描述 |
 | --- | --- |
-| [COLUMN_BREAK](#COLUMN-BREAK) | 文档在分栏符处分成几部分。 |
+| [COLUMN_BREAK](#COLUMN-BREAK) | 文档在分栏符处被分成几部分。 |
 | [HEADING_PARAGRAPH](#HEADING-PARAGRAPH) | 文档在使用标题样式格式化的段落中分成几部分**Heading 1**, **Heading 2**等等 |
 | [NONE](#NONE) | 文档未拆分。 |
 | [PAGE_BREAK](#PAGE-BREAK) | 该文档在明确的分页符处被分成几部分。 |
@@ -102,12 +102,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String documentSplitCriteriaName) {#fromName-java.lang.String-}
 ```
@@ -117,12 +118,13 @@ public static int fromName(String documentSplitCriteriaName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | documentSplitCriteriaName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### fromNames(Set documentSplitCriteriaNames) {#fromNames-java.util.Set-}
 ```
@@ -132,12 +134,13 @@ public static int fromNames(Set documentSplitCriteriaNames)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | documentSplitCriteriaNames | java.util.Set |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -147,7 +150,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int documentSplitCriteria) {#getName-int-}
 ```
@@ -157,13 +160,14 @@ public static String getName(int documentSplitCriteria)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | documentSplitCriteria | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getNames(int documentSplitCriteria) {#getNames-int-}
 ```
 public static Set getNames(int documentSplitCriteria)
@@ -172,12 +176,13 @@ public static Set getNames(int documentSplitCriteria)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | documentSplitCriteria | int |  |
 
-**退货:**
+**退货：**
 java.util.Set
 ### getValues() {#getValues--}
 ```
@@ -187,7 +192,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -197,7 +202,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -223,8 +228,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int documentSplitCriteria) {#toString-int-}
 ```
 public static String toString(int documentSplitCriteria)
@@ -233,13 +238,14 @@ public static String toString(int documentSplitCriteria)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | documentSplitCriteria | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toStringSet(int attr) {#toStringSet-int-}
 ```
 public static String toStringSet(int attr)
@@ -248,13 +254,14 @@ public static String toStringSet(int attr)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | attr | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -271,7 +278,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -284,7 +292,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

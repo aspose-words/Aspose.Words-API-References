@@ -7,11 +7,11 @@ weight: 68
 url: /zh/java/com.aspose.words/chartseries/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
-[com.aspose.words.IChartDataPoint](../../com.aspose.words/ichartdatapoint), java.lang.可克隆
+**所有已实现的接口：**
+[com.aspose.words.IChartDataPoint](../../com.aspose.words/ichartdatapoint), java.lang.Cloneable
 ```
 public class ChartSeries implements IChartDataPoint, Cloneable
 ```
@@ -43,7 +43,7 @@ public class ChartSeries implements IChartDataPoint, Cloneable
 | [setBubble3D(boolean value)](#setBubble3D-boolean-) |  |
 | [setExplosion(int value)](#setExplosion-int-) |  |
 | [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) |  |
-| [setName(String value)](#setName-java.lang.String-) | 设置系列的名称，如果未明确设置名称，则使用索引生成。 |
+| [setName(String value)](#setName-java.lang.String-) | 设置系列的名称，如果名称未明确设置，则使用索引生成。 |
 | [setSmooth(boolean value)](#setSmooth-boolean-) | 允许指定连接图表上的点的线是否应使用 Catmull-Rom 样条进行平滑。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -57,12 +57,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getBubble3D() {#getBubble3D--}
 ```
@@ -72,7 +73,7 @@ public boolean getBubble3D()
 
 指定气泡图中的气泡是否应应用 3-D 效果。
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -82,7 +83,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getDataLabels() {#getDataLabels--}
 ```
@@ -92,7 +93,7 @@ public ChartDataLabelCollection getDataLabels()
 
 指定整个系列的数据标签设置。
 
-**退货:**
+**退货：**
 [ChartDataLabelCollection](../../com.aspose.words/chartdatalabelcollection) - 相应的[ChartDataLabelCollection](../../com.aspose.words/chartdatalabelcollection)价值。
 ### getDataPoints() {#getDataPoints--}
 ```
@@ -102,7 +103,7 @@ public ChartDataPointCollection getDataPoints()
 
 返回此系列中所有数据点的格式化对象的集合。
 
-**退货:**
+**退货：**
 [ChartDataPointCollection](../../com.aspose.words/chartdatapointcollection) - 本系列中所有数据点的格式化对象集合。
 ### getExplosion() {#getExplosion--}
 ```
@@ -110,9 +111,9 @@ public int getExplosion()
 ```
 
 
-指定数据点应从饼图中心移动的量。可以为负数，负数表示未设置属性且不应应用爆炸。仅适用于饼图。
+指定数据点应从饼图中心移动的量。可以是负数，负数意味着没有设置属性，不应该应用爆炸。仅适用于饼图。
 
-**退货:**
+**退货：**
 整数
 ### getFormat() {#getFormat--}
 ```
@@ -122,7 +123,7 @@ public ChartFormat getFormat()
 
 提供对系列的填充和线条格式的访问。
 
-**退货:**
+**退货：**
 [ChartFormat](../../com.aspose.words/chartformat) - 相应的[ChartFormat](../../com.aspose.words/chartformat)价值。
 ### getInvertIfNegative() {#getInvertIfNegative--}
 ```
@@ -130,9 +131,9 @@ public boolean getInvertIfNegative()
 ```
 
 
-指定如果值为负数，父元素是否应反转其颜色。
+指定如果值为负，父元素是否应反转其颜色。
 
-**退货:**
+**退货：**
 布尔值
 ### getLegendEntry() {#getLegendEntry--}
 ```
@@ -142,7 +143,7 @@ public ChartLegendEntry getLegendEntry()
 
 获取此图表系列的图例条目。
 
-**退货:**
+**退货：**
 [ChartLegendEntry](../../com.aspose.words/chartlegendentry) - 此图表系列的图例条目。
 ### getMarker() {#getMarker--}
 ```
@@ -150,9 +151,9 @@ public ChartMarker getMarker()
 ```
 
 
-指定数据标记。请求时会自动创建标记。
+指定数据标记。标记在请求时自动创建。
 
-**退货:**
+**退货：**
 [ChartMarker](../../com.aspose.words/chartmarker)
 ### getName() {#getName--}
 ```
@@ -160,10 +161,10 @@ public String getName()
 ```
 
 
-获取系列的名称，如果未明确设置名称，则使用索引生成。默认情况下返回 Series 加一个基于索引的索引。
+获取系列的名称，如果未明确设置名称，则使用索引生成。默认情况下返回 Series 加一个基于索引。
 
-**退货:**
-java.lang.String - 系列的名称，如果未明确设置名称，则使用索引生成。
+**退货：**
+java.lang.String - 系列的名称，如果名称未明确设置，则使用索引生成。
 ### getSmooth() {#getSmooth--}
 ```
 public boolean getSmooth()
@@ -172,8 +173,8 @@ public boolean getSmooth()
 
 允许指定连接图表上的点的线是否应使用 Catmull-Rom 样条进行平滑。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### hasDataLabels() {#hasDataLabels--}
 ```
 public boolean hasDataLabels()
@@ -182,8 +183,8 @@ public boolean hasDataLabels()
 
 获取一个标志，该标志指示是否为系列显示数据标签。
 
-**退货:**
-boolean - 指示是否为系列显示数据标签的标志。
+**退货：**
+布尔值 - 指示是否为系列显示数据标签的标志。
 ### hasDataLabels(boolean value) {#hasDataLabels-boolean-}
 ```
 public void hasDataLabels(boolean value)
@@ -192,7 +193,8 @@ public void hasDataLabels(boolean value)
 
 设置一个标志，指示是否为系列显示数据标签。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 指示是否为系列显示数据标签的标志。 |
@@ -205,7 +207,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -231,7 +233,8 @@ public void setBubble3D(boolean value)
 
 指定气泡图中的气泡是否应应用 3-D 效果。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
@@ -242,9 +245,10 @@ public void setExplosion(int value)
 ```
 
 
-指定数据点应从饼图中心移动的量。可以为负数，负数表示未设置属性且不应应用爆炸。仅适用于饼图。
+指定数据点应从饼图中心移动的量。可以是负数，负数意味着没有设置属性，不应该应用爆炸。仅适用于饼图。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int |  |
@@ -255,9 +259,10 @@ public void setInvertIfNegative(boolean value)
 ```
 
 
-指定如果值为负数，父元素是否应反转其颜色。
+指定如果值为负，父元素是否应反转其颜色。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
@@ -268,12 +273,13 @@ public void setName(String value)
 ```
 
 
-设置系列的名称，如果未明确设置名称，则使用索引生成。默认情况下返回 Series 加一个基于索引的索引。
+设置系列的名称，如果名称未明确设置，则使用索引生成。默认情况下返回 Series 加一个基于索引。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 系列的名称，如果未明确设置名称，则使用索引生成。 |
+| value | java.lang.String | 系列的名称，如果名称未明确设置，则使用索引生成。 |
 
 ### setSmooth(boolean value) {#setSmooth-boolean-}
 ```
@@ -283,7 +289,8 @@ public void setSmooth(boolean value)
 
 允许指定连接图表上的点的线是否应使用 Catmull-Rom 样条进行平滑。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -296,8 +303,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -314,7 +321,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -327,7 +335,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

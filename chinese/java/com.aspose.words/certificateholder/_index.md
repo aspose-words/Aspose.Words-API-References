@@ -7,7 +7,7 @@ weight: 53
 url: /zh/java/com.aspose.words/certificateholder/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class CertificateHolder
@@ -24,7 +24,7 @@ public class CertificateHolder
 | --- | --- |
 | [create(byte[] certBytes, String password)](#create-byte---java.lang.String-) | 使用 PKCS12 存储的字节数组及其密码创建 CertificateHolder 对象。 |
 | [create(String fileName, String password)](#create-java.lang.String-java.lang.String-) | 使用 PKCS12 存储路径及其密码创建 CertificateHolder 对象。 |
-| [create(String fileName, String password, String alias)](#create-java.lang.String-java.lang.String-java.lang.String-) | 使用 PKCS12 存储的路径、其密码和别名创建 CertificateHolder 对象，通过使用它可以找到私钥和证书。 |
+| [create(String fileName, String password, String alias)](#create-java.lang.String-java.lang.String-java.lang.String-) | 使用 PKCS12 存储的路径、密码和别名创建 CertificateHolder 对象，通过使用它可以找到私钥和证书。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCertificate()](#getCertificate--) | 返回实例**X509Certificate2Wrapper**持有**X509Certificate2**其中包含私钥、公钥和证书链。 |
 | [getClass()](#getClass--) |  |
@@ -43,13 +43,14 @@ public static CertificateHolder create(byte[] certBytes, String password)
 
 使用 PKCS12 存储的字节数组及其密码创建 CertificateHolder 对象。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | certBytes | byte[] | 包含来自 X.509 证书的数据的字节数组。 |
 | password | java.lang.String | 访问 X.509 证书数据所需的密码。 |
 
-**退货:**
+**退货：**
 [CertificateHolder](../../com.aspose.words/certificateholder) - CertificateHolder 的实例**T:Org.BouncyCastle.Security.InvalidParameterException**如果抛出**certBytes**一片空白**T:Org.BouncyCastle.Security.InvalidParameterException**如果抛出**password**一片空白
 ### create(String fileName, String password) {#create-java.lang.String-java.lang.String-}
 ```
@@ -59,13 +60,14 @@ public static CertificateHolder create(String fileName, String password)
 
 使用 PKCS12 存储路径及其密码创建 CertificateHolder 对象。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | java.lang.String | 证书文件的名称。 |
 | password | java.lang.String | 访问 X.509 证书数据所需的密码。 |
 
-**退货:**
+**退货：**
 [CertificateHolder](../../com.aspose.words/certificateholder) - CertificateHolder 的实例**T:Org.BouncyCastle.Security.InvalidParameterException**如果抛出**fileName**一片空白**T:Org.BouncyCastle.Security.InvalidParameterException**如果抛出**password**一片空白
 ### create(String fileName, String password, String alias) {#create-java.lang.String-java.lang.String-java.lang.String-}
 ```
@@ -73,16 +75,17 @@ public static CertificateHolder create(String fileName, String password, String 
 ```
 
 
-使用 PKCS12 存储的路径、其密码和别名创建 CertificateHolder 对象，通过使用它可以找到私钥和证书。
+使用 PKCS12 存储的路径、密码和别名创建 CertificateHolder 对象，通过使用它可以找到私钥和证书。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | java.lang.String | 证书文件的名称。 |
 | password | java.lang.String | 访问 X.509 证书数据所需的密码。 |
 | alias | java.lang.String | 证书及其私钥的关联别名 |
 
-**退货:**
+**退货：**
 [CertificateHolder](../../com.aspose.words/certificateholder) - CertificateHolder 的实例**T:Org.BouncyCastle.Security.InvalidParameterException**如果抛出**fileName**一片空白**T:Org.BouncyCastle.Security.InvalidParameterException**如果抛出**password**一片空白
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -92,12 +95,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getCertificate() {#getCertificate--}
 ```
@@ -107,7 +111,7 @@ public X509Certificate2Wrapper getCertificate()
 
 返回实例**X509Certificate2Wrapper**持有**X509Certificate2**其中包含私钥、公钥和证书链。
 
-**退货:**
+**退货：**
 [X509Certificate2Wrapper](../../com.aspose.words/x509certificate2wrapper) 实例
 ### getClass() {#getClass--}
 ```
@@ -117,7 +121,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
@@ -127,7 +131,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -153,8 +157,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -171,7 +175,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -184,7 +189,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

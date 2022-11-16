@@ -7,7 +7,7 @@ weight: 363
 url: /zh/java/com.aspose.words/legendposition/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class LegendPosition
@@ -20,9 +20,9 @@ public class LegendPosition
 | --- | --- |
 | [BOTTOM](#BOTTOM) | 指定应在图表底部绘制图例。 |
 | [LEFT](#LEFT) | 指定图例应绘制在图表的左侧。 |
-| [NONE](#NONE) | 图表不会显示图例。 |
+| [NONE](#NONE) | 图表不会显示任何图例。 |
 | [RIGHT](#RIGHT) | 指定图例应绘制在图表的右侧。 |
-| [TOP](#TOP) | 指定应在图表顶部绘制图例。 |
+| [TOP](#TOP) | 指定图例应绘制在图表的顶部。 |
 | [TOP_RIGHT](#TOP-RIGHT) | 指定图例应绘制在图表的右上角。 |
 | [length](#length) |  |
 ## 方法
@@ -64,7 +64,7 @@ public static int NONE
 ```
 
 
-图表不会显示图例。
+图表不会显示任何图例。
 
 ### RIGHT {#RIGHT}
 ```
@@ -80,7 +80,7 @@ public static int TOP
 ```
 
 
-指定应在图表顶部绘制图例。
+指定图例应绘制在图表的顶部。
 
 ### TOP_RIGHT {#TOP-RIGHT}
 ```
@@ -104,12 +104,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String legendPositionName) {#fromName-java.lang.String-}
 ```
@@ -119,12 +120,13 @@ public static int fromName(String legendPositionName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | legendPositionName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -134,7 +136,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int legendPosition) {#getName-int-}
 ```
@@ -144,13 +146,14 @@ public static String getName(int legendPosition)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | legendPosition | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -159,7 +162,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -169,7 +172,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -195,8 +198,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int legendPosition) {#toString-int-}
 ```
 public static String toString(int legendPosition)
@@ -205,13 +208,14 @@ public static String toString(int legendPosition)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | legendPosition | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -228,7 +232,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -241,7 +246,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

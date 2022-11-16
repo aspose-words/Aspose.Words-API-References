@@ -1,13 +1,13 @@
 ---
 title: WrapSide
 second_title: Aspose.Words for Java API 参考
-description: 指定文本围绕形状或图片的哪一侧。
+description: 指定文本环绕的形状或图片的哪一侧。
 type: docs
 weight: 621
 url: /zh/java/com.aspose.words/wrapside/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class WrapSide
@@ -20,9 +20,9 @@ public class WrapSide
 | --- | --- |
 | [BOTH](#BOTH) | 文档文本环绕在形状的两侧。 |
 | [DEFAULT](#DEFAULT) | 默认值为[BOTH](../../com.aspose.words/wrapside\#BOTH). |
-| [LARGEST](#LARGEST) | 文档文本在距离页边距最远的形状一侧换行，在形状的另一侧留下文本空闲区域。 |
+| [LARGEST](#LARGEST) | 文档文本在离页边距最远的形状一侧换行，在形状的另一侧留下无文本区域。 |
 | [LEFT](#LEFT) | 文档文本仅在形状的左侧换行。 |
-| [RIGHT](#RIGHT) | 文档文本仅在形状的右侧换行。 |
+| [RIGHT](#RIGHT) | 文档文本仅在形状右侧换行。 |
 | [length](#length) |  |
 ## 方法
 
@@ -63,7 +63,7 @@ public static int LARGEST
 ```
 
 
-文档文本在距离页边距最远的形状一侧换行，在形状的另一侧留下文本空闲区域。
+文档文本在离页边距最远的形状一侧换行，在形状的另一侧留下无文本区域。
 
 ### LEFT {#LEFT}
 ```
@@ -79,7 +79,7 @@ public static int RIGHT
 ```
 
 
-文档文本仅在形状的右侧换行。形状左侧有一个无文本区域。
+文档文本仅在形状右侧换行。形状左侧有一个无文本区域。
 
 ### length {#length}
 ```
@@ -95,12 +95,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String wrapSideName) {#fromName-java.lang.String-}
 ```
@@ -110,12 +111,13 @@ public static int fromName(String wrapSideName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | wrapSideName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -125,7 +127,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int wrapSide) {#getName-int-}
 ```
@@ -135,13 +137,14 @@ public static String getName(int wrapSide)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | wrapSide | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -150,7 +153,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -160,7 +163,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -186,8 +189,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int wrapSide) {#toString-int-}
 ```
 public static String toString(int wrapSide)
@@ -196,13 +199,14 @@ public static String toString(int wrapSide)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | wrapSide | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -219,7 +223,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -232,7 +237,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

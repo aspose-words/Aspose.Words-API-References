@@ -7,7 +7,7 @@ weight: 111
 url: /zh/java/com.aspose.words/digitalsignature/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class DigitalSignature
@@ -44,12 +44,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getCertificateHolder() {#getCertificateHolder--}
 ```
@@ -59,7 +60,7 @@ public CertificateHolder getCertificateHolder()
 
 返回包含用于签署文档的证书的证书持有者对象。
 
-**退货:**
+**退货：**
 [CertificateHolder](../../com.aspose.words/certificateholder) - 包含证书的证书持有者对象用于签署文档。
 ### getClass() {#getClass--}
 ```
@@ -69,7 +70,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getComments() {#getComments--}
 ```
@@ -79,7 +80,7 @@ public String getComments()
 
 获取签名目的注释。
 
-**退货:**
+**退货：**
 java.lang.String - 签名目的注释。
 ### getIssuerName() {#getIssuerName--}
 ```
@@ -89,7 +90,7 @@ public String getIssuerName()
 
 返回证书颁发者的主题专有名称。
 
-**退货:**
+**退货：**
 java.lang.String - 证书颁发者的主题专有名称。
 ### getSignTime() {#getSignTime--}
 ```
@@ -99,8 +100,8 @@ public Date getSignTime()
 
 获取文档签署的时间。
 
-**退货:**
-java.util.Date - 签署文件的时间。
+**退货：**
+java.util.Date - 签署文档的时间。
 ### getSignatureType() {#getSignatureType--}
 ```
 public int getSignatureType()
@@ -109,7 +110,7 @@ public int getSignatureType()
 
 获取数字签名的类型。
 
-**退货:**
+**退货：**
  int - 数字签名的类型。返回值是其中之一[DigitalSignatureType](../../com.aspose.words/digitalsignaturetype)常数。
 ### getSubjectName() {#getSubjectName--}
 ```
@@ -119,8 +120,8 @@ public String getSubjectName()
 
 返回用于签署文档的证书的主题专有名称。
 
-**退货:**
-java.lang.String - 用于签署文档的证书的主题专有名称。
+**退货：**
+java.lang.String - 用于签署文档的证书的主体可分辨名称。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -129,7 +130,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### isValid() {#isValid--}
 ```
@@ -139,8 +140,8 @@ public boolean isValid()
 
 如果此数字签名有效且文档未被篡改，则返回 true。
 
-**退货:**
-boolean - 如果此数字签名有效且文档未被篡改，则为真。
+**退货：**
+boolean - 如果此数字签名有效且文档未被篡改，则为 True。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -165,8 +166,8 @@ public String toString()
 
 返回显示此对象值的用户友好字符串。
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -183,7 +184,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -196,7 +198,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

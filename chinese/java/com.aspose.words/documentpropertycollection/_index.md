@@ -7,10 +7,10 @@ weight: 127
 url: /zh/java/com.aspose.words/documentpropertycollection/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 
-**所有实现的接口:**
+**所有已实现的接口：**
 java.lang.Iterable
 ```
 public abstract class DocumentPropertyCollection implements Iterable
@@ -20,10 +20,10 @@ public abstract class DocumentPropertyCollection implements Iterable
 
 要了解更多信息，请访问**Work with Document Properties**文档文章。
 
-属性的名称不区分大小写。
+属性名称不区分大小写。
 
 集合中的属性按名称的字母顺序排序。
-## 构造函数
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -36,7 +36,7 @@ public abstract class DocumentPropertyCollection implements Iterable
 | [contains(String name)](#contains-java.lang.String-) | 如果集合中存在具有指定名称的属性，则返回 true。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | 返回一个[DocumentProperty](../../com.aspose.words/documentproperty)按索引的对象。 |
-| [get(String name)](#get-java.lang.String-) | 提供对集合项目的访问。 |
+| [get(String name)](#get-java.lang.String-) | 提供对集合项的访问。 |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 获取集合中的项目数。 |
 | [hashCode()](#hashCode--) |  |
@@ -72,13 +72,14 @@ public boolean contains(String name)
 
 如果集合中存在具有指定名称的属性，则返回 true。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | 属性的不区分大小写的名称。 |
+| name | java.lang.String | 不区分大小写的属性名称。 |
 
-**退货:**
-boolean - 如果该属性存在于集合中则为真；否则为假。
+**退货：**
+boolean - 如果属性存在于集合中，则为真；否则为假。
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -87,12 +88,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### get(int index) {#get-int-}
 ```
@@ -102,14 +104,15 @@ public DocumentProperty get(int index)
 
 返回一个[DocumentProperty](../../com.aspose.words/documentproperty)按索引的对象。
 
-**Note:**在 Java 中，此方法很慢，因为遍历所有节点。
+**Note:**在 Java 中，这种方法很慢，因为它会遍历所有节点。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | 零基指数[DocumentProperty](../../com.aspose.words/documentproperty)检索。 |
+| index | int | 的从零开始的索引[DocumentProperty](../../com.aspose.words/documentproperty)检索。 |
 
-**退货:**
+**退货：**
 [DocumentProperty](../../com.aspose.words/documentproperty) - 一个[DocumentProperty](../../com.aspose.words/documentproperty)按索引的对象。
 ### get(String name) {#get-java.lang.String-}
 ```
@@ -117,16 +120,17 @@ public DocumentProperty get(String name)
 ```
 
 
-提供对集合项目的访问。返回一个[DocumentProperty](../../com.aspose.words/documentproperty)对象的属性名称。
+提供对集合项的访问。返回一个[DocumentProperty](../../com.aspose.words/documentproperty)对象的属性名称。
 
 如果未找到具有指定名称的属性，则返回 null。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | java.lang.String | 要检索的属性的不区分大小写的名称。 |
 
-**退货:**
+**退货：**
 [DocumentProperty](../../com.aspose.words/documentproperty) - 相应的[DocumentProperty](../../com.aspose.words/documentproperty)价值。
 ### getClass() {#getClass--}
 ```
@@ -136,7 +140,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
@@ -146,7 +150,7 @@ public int getCount()
 
 获取集合中的项目数。
 
-**退货:**
+**退货：**
 int - 集合中的项目数。
 ### hashCode() {#hashCode--}
 ```
@@ -156,7 +160,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### indexOf(String name) {#indexOf-java.lang.String-}
 ```
@@ -166,14 +170,15 @@ public int indexOf(String name)
 
 按名称获取属性的索引。
 
-**Note:**在 Java 中，此方法很慢，因为遍历所有节点。
+**Note:**在 Java 中，这种方法很慢，因为它会遍历所有节点。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | 属性的不区分大小写的名称。 |
+| name | java.lang.String | 不区分大小写的属性名称。 |
 
-**退货:**
+**退货：**
 int - 从零开始的索引。如果未找到，则为负值。
 ### iterator() {#iterator--}
 ```
@@ -183,8 +188,8 @@ public Iterator iterator()
 
 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。
 
-**退货:**
-java.util.Iterator
+**退货：**
+java.util.迭代器
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -209,10 +214,11 @@ public void remove(String name)
 
 从集合中移除具有指定名称的属性。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | 属性的不区分大小写的名称。 |
+| name | java.lang.String | 不区分大小写的属性名称。 |
 
 ### removeAt(int index) {#removeAt-int-}
 ```
@@ -222,9 +228,10 @@ public void removeAt(int index)
 
 删除指定索引处的属性。
 
-**Note:**在 Java 中，此方法很慢，因为遍历所有节点。
+**Note:**在 Java 中，这种方法很慢，因为它会遍历所有节点。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int | 从零开始的索引。 |
@@ -237,8 +244,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -255,7 +262,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -268,7 +276,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

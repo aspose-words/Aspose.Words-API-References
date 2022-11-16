@@ -7,7 +7,7 @@ weight: 144
 url: /zh/java/com.aspose.words/emphasismark/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class EmphasisMark
@@ -21,7 +21,7 @@ public class EmphasisMark
 | [NONE](#NONE) | 没有强调标记。 |
 | [OVER_COMMA](#OVER-COMMA) | 强调标记是显示在文本上方的逗号字符。 |
 | [OVER_SOLID_CIRCLE](#OVER-SOLID-CIRCLE) | 强调标记是显示在文本上方的实心黑色圆圈。 |
-| [OVER_WHITE_CIRCLE](#OVER-WHITE-CIRCLE) | 强调标记是显示在文本上方的空白白色圆圈。 |
+| [OVER_WHITE_CIRCLE](#OVER-WHITE-CIRCLE) | 强调标记是显示在文本上方的空白圆圈。 |
 | [UNDER_SOLID_CIRCLE](#UNDER-SOLID-CIRCLE) | 强调标记是显示在文本下方的实心黑色圆圈。 |
 | [length](#length) |  |
 ## 方法
@@ -71,7 +71,7 @@ public static int OVER_WHITE_CIRCLE
 ```
 
 
-强调标记是显示在文本上方的空白白色圆圈。
+强调标记是显示在文本上方的空白圆圈。
 
 ### UNDER_SOLID_CIRCLE {#UNDER-SOLID-CIRCLE}
 ```
@@ -95,12 +95,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String emphasisMarkName) {#fromName-java.lang.String-}
 ```
@@ -110,12 +111,13 @@ public static int fromName(String emphasisMarkName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | emphasisMarkName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -125,7 +127,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int emphasisMark) {#getName-int-}
 ```
@@ -135,13 +137,14 @@ public static String getName(int emphasisMark)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | emphasisMark | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -150,7 +153,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -160,7 +163,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -186,8 +189,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int emphasisMark) {#toString-int-}
 ```
 public static String toString(int emphasisMark)
@@ -196,13 +199,14 @@ public static String toString(int emphasisMark)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | emphasisMark | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -219,7 +223,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -232,7 +237,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

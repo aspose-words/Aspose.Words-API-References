@@ -1,19 +1,19 @@
 ---
 title: WebExtensionBindingCollection
 second_title: Aspose.Words for Java API 参考
-description: 指定 Web 扩展绑定列表。
+description: 指定 Web 扩展绑定的列表。
 type: docs
 weight: 613
 url: /zh/java/com.aspose.words/webextensionbindingcollection/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object, [com.aspose.words.BaseWebExtensionCollection](../../com.aspose.words/basewebextensioncollection)
 ```
 public class WebExtensionBindingCollection extends BaseWebExtensionCollection
 ```
 
-指定 Web 扩展绑定列表。
+指定 Web 扩展绑定的列表。
 
 要了解更多信息，请访问**Work with Office Add-ins**文档文章。
 ## 方法
@@ -50,12 +50,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### get(int index) {#get-int-}
 ```
@@ -65,12 +66,13 @@ public Object get(int index)
 
 获取指定索引处的项目。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int | 项目的从零开始的索引。 |
 
-**退货:**
+**退货：**
 java.lang.Object - 指定索引处的项目。
 ### getClass() {#getClass--}
 ```
@@ -80,7 +82,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
@@ -90,7 +92,7 @@ public int getCount()
 
 获取集合中包含的元素数。
 
-**退货:**
+**退货：**
 int - 集合中包含的元素数。
 ### hashCode() {#hashCode--}
 ```
@@ -100,7 +102,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### iterator() {#iterator--}
 ```
@@ -110,7 +112,7 @@ public Iterator iterator()
 
 返回一个可以遍历集合的枚举器。
 
-**退货:**
+**退货：**
 java.util.Iterator - 
 ### notify() {#notify--}
 ```
@@ -136,7 +138,8 @@ public void remove(int index)
 
 从集合中移除指定索引处的项目。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int | 集合项的从零开始的索引。 |
@@ -149,8 +152,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -167,7 +170,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -180,7 +184,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

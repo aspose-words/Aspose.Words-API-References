@@ -7,7 +7,7 @@ weight: 352
 url: /zh/java/com.aspose.words/joinstyle/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class JoinStyle
@@ -18,8 +18,8 @@ public class JoinStyle
 
 | 场地 | 描述 |
 | --- | --- |
-| [BEVEL](#BEVEL) | 用直线连接边缘。 |
-| [MITER](#MITER) | 延伸边缘直到它们连接起来。 |
+| [BEVEL](#BEVEL) | 通过直线连接边缘。 |
+| [MITER](#MITER) | 延伸边缘直到它们连接。 |
 | [ROUND](#ROUND) | 在两条边之间画一条弧线。 |
 | [length](#length) |  |
 ## 方法
@@ -45,7 +45,7 @@ public static int BEVEL
 ```
 
 
-用直线连接边缘。
+通过直线连接边缘。
 
 ### MITER {#MITER}
 ```
@@ -53,7 +53,7 @@ public static int MITER
 ```
 
 
-延伸边缘直到它们连接起来。
+延伸边缘直到它们连接。
 
 ### ROUND {#ROUND}
 ```
@@ -77,12 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String joinStyleName) {#fromName-java.lang.String-}
 ```
@@ -92,12 +93,13 @@ public static int fromName(String joinStyleName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | joinStyleName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -107,7 +109,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int joinStyle) {#getName-int-}
 ```
@@ -117,13 +119,14 @@ public static String getName(int joinStyle)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | joinStyle | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -132,7 +135,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -142,7 +145,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -168,8 +171,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int joinStyle) {#toString-int-}
 ```
 public static String toString(int joinStyle)
@@ -178,13 +181,14 @@ public static String toString(int joinStyle)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | joinStyle | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -201,7 +205,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -214,7 +219,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

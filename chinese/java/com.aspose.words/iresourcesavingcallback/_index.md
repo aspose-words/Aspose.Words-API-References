@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/iresourcesavingcallback/
 public interface IResourceSavingCallback
 ```
 
-如果您想控制 Aspose.Words 在将文档保存到固定页面 HTML 或 SVG 时如何保存外部资源（图像、字体和 css），请实现此接口。
+如果您想在将文档保存为固定页面 HTML 或 SVG 时控制 Aspose.Words 如何保存外部资源（图像、字体和 css），请实现此接口。
 ## 方法
 
 | 方法 | 描述 |
@@ -24,7 +24,8 @@ public abstract void resourceSaving(ResourceSavingArgs args)
 
 当 Aspose.Words 将外部资源保存为固定页面 HTML 或 SVG 格式时调用。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | args | [ResourceSavingArgs](../../com.aspose.words/resourcesavingargs) |  |

@@ -7,7 +7,7 @@ weight: 371
 url: /zh/java/com.aspose.words/listlabel/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class ListLabel
@@ -53,12 +53,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
 ```
@@ -68,12 +69,13 @@ public Object fetchInheritedRunAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### getClass() {#getClass--}
 ```
@@ -83,7 +85,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
 ```
@@ -93,12 +95,13 @@ public Object getDirectRunAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**退货：**
 java.lang.Object
 ### getFont() {#getFont--}
 ```
@@ -108,7 +111,7 @@ public Font getFont()
 
 获取列表标签字体。
 
-**退货:**
+**退货：**
 [Font](../../com.aspose.words/font) - 列表标签字体。
 ### getLabelString() {#getLabelString--}
 ```
@@ -118,7 +121,7 @@ public String getLabelString()
 
 获取列表标签的字符串表示形式。
 
-**退货:**
+**退货：**
 java.lang.String - 列表标签的字符串表示。
 ### getLabelValue() {#getLabelValue--}
 ```
@@ -128,7 +131,7 @@ public int getLabelValue()
 
 获取此标签的数值。使用[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--)方法更新此属性的值。
 
-**退货:**
+**退货：**
 int - 此标签的数值。
 ### hashCode() {#hashCode--}
 ```
@@ -138,7 +141,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -164,7 +167,8 @@ public void removeRunAttr(int key)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
@@ -177,7 +181,8 @@ public void setRunAttr(int key, Object value)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
@@ -191,8 +196,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -209,7 +214,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -222,7 +228,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

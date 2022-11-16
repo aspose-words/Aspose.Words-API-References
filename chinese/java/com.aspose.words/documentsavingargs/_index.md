@@ -1,19 +1,19 @@
 ---
 title: DocumentSavingArgs
 second_title: Aspose.Words for Java API 参考
-description: 传入的参数。
+description: 一个参数传递给 .
 type: docs
 weight: 129
 url: /zh/java/com.aspose.words/documentsavingargs/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class DocumentSavingArgs
 ```
 
-传入的参数[IDocumentSavingCallback.notify(com.aspose.words.DocumentSavingArgs)](../../com.aspose.words/idocumentsavingcallback\#notify-com.aspose.words.DocumentSavingArgs-).
+参数传入[IDocumentSavingCallback.notify(com.aspose.words.DocumentSavingArgs)](../../com.aspose.words/idocumentsavingcallback\#notify-com.aspose.words.DocumentSavingArgs-).
 
 要了解更多信息，请访问**Save a Document**文档文章。
 ## 方法
@@ -22,7 +22,7 @@ public class DocumentSavingArgs
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getEstimatedProgress()](#getEstimatedProgress--) | 总体估计百分比进度。 |
+| [getEstimatedProgress()](#getEstimatedProgress--) | 总体估计进度百分比。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -38,12 +38,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -53,7 +54,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getEstimatedProgress() {#getEstimatedProgress--}
 ```
@@ -61,10 +62,10 @@ public double getEstimatedProgress()
 ```
 
 
-总体估计百分比进度。
+总体估计进度百分比。
 
-**退货:**
-double - 对应的双精度值。
+**退货：**
+double - 相应的双精度值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -73,7 +74,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -99,8 +100,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -117,7 +118,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -130,7 +132,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

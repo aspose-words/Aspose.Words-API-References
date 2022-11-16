@@ -7,7 +7,7 @@ weight: 389
 url: /zh/java/com.aspose.words/markersymbol/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class MarkerSymbol
@@ -18,8 +18,8 @@ public class MarkerSymbol
 
 | 场地 | 描述 |
 | --- | --- |
-| [CIRCLE](#CIRCLE) | 指定应在每个数据点绘制一个圆圈。 |
-| [DASH](#DASH) | 指定应在每个数据点绘制一个破折号。 |
+| [CIRCLE](#CIRCLE) | 指定应在每个数据点绘制一个圆。 |
+| [DASH](#DASH) | 指定应在每个数据点处绘制破折号。 |
 | [DEFAULT](#DEFAULT) | 指定应在每个数据点绘制默认标记符号。 |
 | [DIAMOND](#DIAMOND) | 指定应在每个数据点绘制菱形。 |
 | [DOT](#DOT) | 指定应在每个数据点绘制一个点。 |
@@ -27,9 +27,9 @@ public class MarkerSymbol
 | [PICTURE](#PICTURE) | 指定应在每个数据点绘制图片。 |
 | [PLUS](#PLUS) | 指定应在每个数据点绘制一个加号。 |
 | [SQUARE](#SQUARE) | 指定应在每个数据点绘制一个正方形。 |
-| [STAR](#STAR) | 指定应在每个数据点绘制一个星号。 |
-| [TRIANGLE](#TRIANGLE) | 指定应在每个数据点绘制一个三角形。 |
-| [X](#X) | 指定应在每个数据点绘制一个 X。 |
+| [STAR](#STAR) | 指定应在每个数据点绘制一颗星。 |
+| [TRIANGLE](#TRIANGLE) | 指定应在每个数据点处绘制一个三角形。 |
+| [X](#X) | 指定应在每个数据点绘制 X。 |
 | [length](#length) |  |
 ## 方法
 
@@ -54,7 +54,7 @@ public static int CIRCLE
 ```
 
 
-指定应在每个数据点绘制一个圆圈。
+指定应在每个数据点绘制一个圆。
 
 ### DASH {#DASH}
 ```
@@ -62,7 +62,7 @@ public static int DASH
 ```
 
 
-指定应在每个数据点绘制一个破折号。
+指定应在每个数据点处绘制破折号。
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -126,7 +126,7 @@ public static int STAR
 ```
 
 
-指定应在每个数据点绘制一个星号。
+指定应在每个数据点绘制一颗星。
 
 ### TRIANGLE {#TRIANGLE}
 ```
@@ -134,7 +134,7 @@ public static int TRIANGLE
 ```
 
 
-指定应在每个数据点绘制一个三角形。
+指定应在每个数据点处绘制一个三角形。
 
 ### X {#X}
 ```
@@ -142,7 +142,7 @@ public static int X
 ```
 
 
-指定应在每个数据点绘制一个 X。
+指定应在每个数据点绘制 X。
 
 ### length {#length}
 ```
@@ -158,12 +158,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String markerSymbolName) {#fromName-java.lang.String-}
 ```
@@ -173,12 +174,13 @@ public static int fromName(String markerSymbolName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | markerSymbolName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -188,7 +190,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int markerSymbol) {#getName-int-}
 ```
@@ -198,13 +200,14 @@ public static String getName(int markerSymbol)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | markerSymbol | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -213,7 +216,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -223,7 +226,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -249,8 +252,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int markerSymbol) {#toString-int-}
 ```
 public static String toString(int markerSymbol)
@@ -259,13 +262,14 @@ public static String toString(int markerSymbol)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | markerSymbol | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -282,7 +286,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -295,7 +300,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

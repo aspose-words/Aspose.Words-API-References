@@ -7,7 +7,7 @@ weight: 595
 url: /zh/java/com.aspose.words/vbamoduletype/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class VbaModuleType
@@ -19,9 +19,9 @@ public class VbaModuleType
 | 场地 | 描述 |
 | --- | --- |
 | [CLASS_MODULE](#CLASS-MODULE) | 包含新对象定义的模块。 |
-| [DESIGNER_MODULE](#DESIGNER-MODULE) | 扩展已在项目中注册的 ActiveX 控件的方法和属性的 VBA 模块。 |
+| [DESIGNER_MODULE](#DESIGNER-MODULE) | 扩展已注册到项目的 ActiveX 控件的方法和属性的 VBA 模块。 |
 | [DOCUMENT_MODULE](#DOCUMENT-MODULE) | 一种 VBA 项目项，它为与文档关联的嵌入式宏和编程访问操作指定模块。 |
-| [PROCEDURAL_MODULE](#PROCEDURAL-MODULE) | 子程序和函数的集合。 |
+| [PROCEDURAL_MODULE](#PROCEDURAL-MODULE) | 子例程和函数的集合。 |
 | [length](#length) |  |
 ## 方法
 
@@ -54,7 +54,7 @@ public static int DESIGNER_MODULE
 ```
 
 
-扩展已在项目中注册的 ActiveX 控件的方法和属性的 VBA 模块。
+扩展已注册到项目的 ActiveX 控件的方法和属性的 VBA 模块。
 
 ### DOCUMENT_MODULE {#DOCUMENT-MODULE}
 ```
@@ -70,7 +70,7 @@ public static int PROCEDURAL_MODULE
 ```
 
 
-子程序和函数的集合。
+子例程和函数的集合。
 
 ### length {#length}
 ```
@@ -86,12 +86,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String vbaModuleTypeName) {#fromName-java.lang.String-}
 ```
@@ -101,12 +102,13 @@ public static int fromName(String vbaModuleTypeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | vbaModuleTypeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -116,7 +118,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int vbaModuleType) {#getName-int-}
 ```
@@ -126,13 +128,14 @@ public static String getName(int vbaModuleType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | vbaModuleType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -141,7 +144,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -151,7 +154,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -177,8 +180,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int vbaModuleType) {#toString-int-}
 ```
 public static String toString(int vbaModuleType)
@@ -187,13 +190,14 @@ public static String toString(int vbaModuleType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | vbaModuleType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -210,7 +214,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -223,7 +228,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

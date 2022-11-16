@@ -7,20 +7,20 @@ weight: 150
 url: /zh/java/com.aspose.words/exportlistlabels/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class ExportListLabels
 ```
 
-指定如何将列表标签导出为 HTML、MHTML 和 EPUB。
+指定列表标签如何导出为 HTML、MHTML 和 EPUB。
 ## 字段
 
 | 场地 | 描述 |
 | --- | --- |
 | [AS_INLINE_TEXT](#AS-INLINE-TEXT) | 将所有列表标签输出为内联文本。 |
 | [AUTO](#AUTO) | 在自动模式下输出列表标签。 |
-| [BY_HTML_TAGS](#BY-HTML-TAGS) | 将所有列表标签输出为 HTML 原生元素。 |
+| [BY_HTML_TAGS](#BY-HTML-TAGS) | 将所有列表标签输出为 HTML 本机元素。 |
 | [length](#length) |  |
 ## 方法
 
@@ -47,7 +47,7 @@ public static int AS_INLINE_TEXT
 
 将所有列表标签输出为内联文本。 HTML
 
-tag 用于任何列表标签表示。
+标签用于任何列表标签表示。
 
 ### AUTO {#AUTO}
 ```
@@ -57,7 +57,7 @@ public static int AUTO
 
 在自动模式下输出列表标签。尽可能使用 HTML 原生元素。 HTML
 
- *  标签用于列表标签表示，如果它不会导致格式丢失，否则 HTML
+ *  如果不导致格式丢失，标签用于列表标签表示，否则 HTML
     
     使用标签。
 
@@ -67,7 +67,7 @@ public static int BY_HTML_TAGS
 ```
 
 
-将所有列表标签输出为 HTML 原生元素。 HTML
+将所有列表标签输出为 HTML 本机元素。 HTML
 
  *  标签用于列表标签表示。一些格式丢失是可能的。
 
@@ -85,12 +85,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String exportListLabelsName) {#fromName-java.lang.String-}
 ```
@@ -100,12 +101,13 @@ public static int fromName(String exportListLabelsName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | exportListLabelsName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -115,7 +117,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int exportListLabels) {#getName-int-}
 ```
@@ -125,13 +127,14 @@ public static String getName(int exportListLabels)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | exportListLabels | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -140,7 +143,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -150,7 +153,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -176,8 +179,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int exportListLabels) {#toString-int-}
 ```
 public static String toString(int exportListLabels)
@@ -186,13 +189,14 @@ public static String toString(int exportListLabels)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | exportListLabels | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -209,7 +213,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -222,7 +227,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

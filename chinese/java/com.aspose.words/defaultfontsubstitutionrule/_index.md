@@ -7,7 +7,7 @@ weight: 110
 url: /zh/java/com.aspose.words/defaultfontsubstitutionrule/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object, [com.aspose.words.FontSubstitutionRule](../../com.aspose.words/fontsubstitutionrule)
 ```
 public class DefaultFontSubstitutionRule extends FontSubstitutionRule
@@ -43,12 +43,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -58,7 +59,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getDefaultFontName() {#getDefaultFontName--}
 ```
@@ -70,7 +71,7 @@ public String getDefaultFontName()
 
 默认值为“Times New Roman”。
 
-**退货:**
+**退货：**
 java.lang.String - 默认字体名称。
 ### getEnabled() {#getEnabled--}
 ```
@@ -80,8 +81,8 @@ public boolean getEnabled()
 
 指定是否启用规则。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -90,7 +91,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -118,7 +119,8 @@ public void setDefaultFontName(String value)
 
 默认值为“Times New Roman”。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | 默认字体名称。 |
@@ -131,7 +133,8 @@ public void setEnabled(boolean value)
 
 指定是否启用规则。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -144,8 +147,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -162,7 +165,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -175,7 +179,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

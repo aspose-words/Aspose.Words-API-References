@@ -7,12 +7,12 @@ weight: 74
 url: /zh/java/com.aspose.words/cluster/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class Cluster
 ```
-## 构造函数
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -45,7 +45,8 @@ public Cluster(int[] codepoints, Glyph[] glyphs)
 
 初始化此类的新实例。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | codepoints | int[] |  |
@@ -59,7 +60,7 @@ public Cluster deepClone()
 
 
 
-**退货:**
+**退货：**
 [Cluster](../../com.aspose.words/cluster)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -69,12 +70,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -84,7 +86,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getCodepoints() {#getCodepoints--}
 ```
@@ -94,7 +96,7 @@ public int[] getCodepoints()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### getCodepointsLength() {#getCodepointsLength--}
 ```
@@ -104,7 +106,7 @@ public int getCodepointsLength()
 
 
 
-**退货:**
+**退货：**
 整数
 ### getGlyphs() {#getGlyphs--}
 ```
@@ -114,7 +116,7 @@ public Glyph[] getGlyphs()
 
 
 
-**退货:**
+**退货：**
 com.aspose.words.glyph[]
 ### getString() {#getString--}
 ```
@@ -124,8 +126,8 @@ public String getString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getString(Cluster[] clusters) {#getString-com.aspose.words.Cluster---}
 ```
 public static String getString(Cluster[] clusters)
@@ -134,13 +136,14 @@ public static String getString(Cluster[] clusters)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | clusters | [Cluster\[\]](../../com.aspose.words/cluster) |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getWidth(int em, float fontSize) {#getWidth-int-float-}
 ```
 public float getWidth(int em, float fontSize)
@@ -149,13 +152,14 @@ public float getWidth(int em, float fontSize)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | em | int |  |
 | fontSize | float |  |
 
-**退货:**
+**退货：**
 漂浮
 ### hashCode() {#hashCode--}
 ```
@@ -165,7 +169,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -191,8 +195,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -209,7 +213,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -222,7 +227,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

@@ -1,19 +1,19 @@
 ---
 title: CommentDisplayMode
 second_title: Aspose.Words for Java API 参考
-description: 指定文档注释的呈现模式。
+description: 指定文档评论的渲染模式。
 type: docs
 weight: 78
 url: /zh/java/com.aspose.words/commentdisplaymode/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class CommentDisplayMode
 ```
 
-指定文档注释的呈现模式。
+指定文档评论的渲染模式。
 ## 字段
 
 | 场地 | 描述 |
@@ -77,12 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String commentDisplayModeName) {#fromName-java.lang.String-}
 ```
@@ -92,12 +93,13 @@ public static int fromName(String commentDisplayModeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | commentDisplayModeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -107,7 +109,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int commentDisplayMode) {#getName-int-}
 ```
@@ -117,13 +119,14 @@ public static String getName(int commentDisplayMode)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | commentDisplayMode | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -132,7 +135,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -142,7 +145,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -168,8 +171,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int commentDisplayMode) {#toString-int-}
 ```
 public static String toString(int commentDisplayMode)
@@ -178,13 +181,14 @@ public static String toString(int commentDisplayMode)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | commentDisplayMode | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -201,7 +205,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -214,7 +219,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

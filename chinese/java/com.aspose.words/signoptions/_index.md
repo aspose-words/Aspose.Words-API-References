@@ -7,7 +7,7 @@ weight: 523
 url: /zh/java/com.aspose.words/signoptions/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class SignOptions
@@ -49,12 +49,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -64,7 +65,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getComments() {#getComments--}
 ```
@@ -74,8 +75,8 @@ public String getComments()
 
 指定对数字签名的注释。默认值为**empty string**.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**退货：**
+java.lang.String - 相应的 java.lang.String 值。
 ### getDecryptionPassword() {#getDecryptionPassword--}
 ```
 public String getDecryptionPassword()
@@ -84,8 +85,8 @@ public String getDecryptionPassword()
 
 解密源文档的密码。默认值为**empty string**.如果 OOXML 文档是加密的，您应该在签名之前提供解密密码来解密源文档。二进制 DOC 格式的文档不需要这样做。
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**退货：**
+java.lang.String - 相应的 java.lang.String 值。
 ### getProviderId() {#getProviderId--}
 ```
 public UUID getProviderId()
@@ -94,13 +95,13 @@ public UUID getProviderId()
 
 指定签名提供者的类 ID。默认值为**Empty (all zeroes) Guid**.
 
-密码服务提供程序 (CSP) 是一个独立的软件模块，它实际执行用于身份验证、编码和加密的密码算法。 MS Office 保留的价值\{00000000-0000-0000-0000-000000000000\为其默认签名提供程序。
+加密服务提供者 (CSP) 是一个独立的软件模块，它实际上执行用于身份验证、编码和加密的加密算法。 MS Office 保留的价值\{00000000-0000-0000-0000-000000000000\为其默认签名提供者。
 
 额外安装的提供程序的 GUID 应从提供程序随附的文档中获取。
 
-此外，Windows 注册表中列举了所有已安装的加密提供程序。可以在以下路径找到：HKLM\\软件\\微软\\密码学\\默认值\\供应商。有一个密钥名称“CP Service UUID”，它对应于签名提供者的 GUID。
+此外，所有已安装的加密提供程序都在 Windows 注册表中枚举。可以在以下路径中找到：HKLM\\软件\\微软\\密码学\\默认值\\提供者。有一个密钥名称“CP Service UUID”，它对应于签名提供者的 GUID。
 
-**退货:**
+**退货：**
 java.util.UUID - 相应的 java.util.UUID 值。
 ### getSignTime() {#getSignTime--}
 ```
@@ -110,7 +111,7 @@ public Date getSignTime()
 
 签署日期。默认值为**current time**.
 
-**退货:**
+**退货：**
 java.util.Date - 相应的 java.util.Date 值。
 ### getSignatureLineId() {#getSignatureLineId--}
 ```
@@ -120,7 +121,7 @@ public UUID getSignatureLineId()
 
 签名行标识符。默认值为**Empty (all zeroes) Guid**.设置时，它关联[SignatureLine](../../com.aspose.words/signatureline)与相应的[DigitalSignature](../../com.aspose.words/digitalsignature).
 
-**退货:**
+**退货：**
 java.util.UUID - 相应的 java.util.UUID 值。
 ### getSignatureLineImage() {#getSignatureLineImage--}
 ```
@@ -130,7 +131,7 @@ public byte[] getSignatureLineImage()
 
 将在关联中显示的图像[SignatureLine](../../com.aspose.words/signatureline).默认值为 null 。
 
-**退货:**
+**退货：**
 字节[- 对应的字节[] 价值。
 ### hashCode() {#hashCode--}
 ```
@@ -140,7 +141,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -166,10 +167,11 @@ public void setComments(String value)
 
 指定对数字签名的注释。默认值为**empty string**.
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | 对应的java.lang.String值。 |
 
 ### setDecryptionPassword(String value) {#setDecryptionPassword-java.lang.String-}
 ```
@@ -179,10 +181,11 @@ public void setDecryptionPassword(String value)
 
 解密源文档的密码。默认值为**empty string**.如果 OOXML 文档是加密的，您应该在签名之前提供解密密码来解密源文档。二进制 DOC 格式的文档不需要这样做。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | 对应的java.lang.String值。 |
 
 ### setProviderId(UUID value) {#setProviderId-java.util.UUID-}
 ```
@@ -192,13 +195,14 @@ public void setProviderId(UUID value)
 
 指定签名提供者的类 ID。默认值为**Empty (all zeroes) Guid**.
 
-密码服务提供程序 (CSP) 是一个独立的软件模块，它实际执行用于身份验证、编码和加密的密码算法。 MS Office 保留的价值\{00000000-0000-0000-0000-000000000000\为其默认签名提供程序。
+加密服务提供者 (CSP) 是一个独立的软件模块，它实际上执行用于身份验证、编码和加密的加密算法。 MS Office 保留的价值\{00000000-0000-0000-0000-000000000000\为其默认签名提供者。
 
 额外安装的提供程序的 GUID 应从提供程序随附的文档中获取。
 
-此外，Windows 注册表中列举了所有已安装的加密提供程序。可以在以下路径找到：HKLM\\软件\\微软\\密码学\\默认值\\供应商。有一个密钥名称“CP Service UUID”，它对应于签名提供者的 GUID。
+此外，所有已安装的加密提供程序都在 Windows 注册表中枚举。可以在以下路径中找到：HKLM\\软件\\微软\\密码学\\默认值\\提供者。有一个密钥名称“CP Service UUID”，它对应于签名提供者的 GUID。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.util.UUID | 对应的 java.util.UUID 值。 |
@@ -211,7 +215,8 @@ public void setSignTime(Date value)
 
 签署日期。默认值为**current time**.
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.util.Date | 对应的 java.util.Date 值。 |
@@ -224,7 +229,8 @@ public void setSignatureLineId(UUID value)
 
 签名行标识符。默认值为**Empty (all zeroes) Guid**.设置时，它关联[SignatureLine](../../com.aspose.words/signatureline)与相应的[DigitalSignature](../../com.aspose.words/digitalsignature).
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.util.UUID | 对应的 java.util.UUID 值。 |
@@ -237,10 +243,11 @@ public void setSignatureLineImage(byte[] value)
 
 将在关联中显示的图像[SignatureLine](../../com.aspose.words/signatureline).默认值为 null 。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] | 对应字节[] 价值。 |
+| value | byte[] | 对应的字节[] 价值。 |
 
 ### toString() {#toString--}
 ```
@@ -250,8 +257,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -268,7 +275,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -281,7 +289,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

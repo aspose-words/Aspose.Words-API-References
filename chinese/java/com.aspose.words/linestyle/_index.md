@@ -1,19 +1,19 @@
 ---
 title: LineStyle
 second_title: Aspose.Words for Java API 参考
-description: 指定 .
+description: 指定 的线条样式。
 type: docs
 weight: 367
 url: /zh/java/com.aspose.words/linestyle/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class LineStyle
 ```
 
-指定 a 的线型[Border](../../com.aspose.words/border).
+指定 a 的线条样式[Border](../../com.aspose.words/border).
 ## 字段
 
 | 场地 | 描述 |
@@ -293,12 +293,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String lineStyleName) {#fromName-java.lang.String-}
 ```
@@ -308,12 +309,13 @@ public static int fromName(String lineStyleName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | lineStyleName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -323,7 +325,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int lineStyle) {#getName-int-}
 ```
@@ -333,13 +335,14 @@ public static String getName(int lineStyle)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | lineStyle | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -348,7 +351,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -358,7 +361,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -384,8 +387,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int lineStyle) {#toString-int-}
 ```
 public static String toString(int lineStyle)
@@ -394,13 +397,14 @@ public static String toString(int lineStyle)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | lineStyle | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -417,7 +421,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -430,7 +435,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

@@ -24,9 +24,10 @@ public abstract void notify(DocumentSavingArgs args)
 
 调用它来通知文档保存进度。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| args | [DocumentSavingArgs](../../com.aspose.words/documentsavingargs) | 事件的论据。此接口的主要用途是允许应用程序代码获取进度状态并中止保存过程。
+| args | [DocumentSavingArgs](../../com.aspose.words/documentsavingargs) | 事件的一个参数。此接口的主要用途是允许应用程序代码获取进度状态和中止保存过程。
 
-应该从进度回调中抛出异常以进行中止，并且应该在消费者代码中捕获该异常。|
+异常应该从堕胎的进度回调中抛出，并且应该在消费者代码中捕获。|

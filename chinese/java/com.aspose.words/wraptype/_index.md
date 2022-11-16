@@ -1,28 +1,28 @@
 ---
 title: WrapType
 second_title: Aspose.Words for Java API 参考
-description: 指定文本如何环绕形状或图片。
+description: 指定文本环绕形状或图片的方式。
 type: docs
 weight: 622
 url: /zh/java/com.aspose.words/wraptype/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class WrapType
 ```
 
-指定文本如何环绕形状或图片。
+指定文本环绕形状或图片的方式。
 ## 字段
 
 | 场地 | 描述 |
 | --- | --- |
-| [INLINE](#INLINE) | 形状与文本保持在同一图层上并被视为字符。 |
-| [NONE](#NONE) | 形状周围没有环绕文字。 |
-| [SQUARE](#SQUARE) | 将文本环绕在形状的方形边界框的所有边上。 |
+| [INLINE](#INLINE) | 该形状与文本保留在同一层上并被视为字符。 |
+| [NONE](#NONE) | 没有文字环绕形状。 |
+| [SQUARE](#SQUARE) | 围绕形状的方形边界框的所有边环绕文本。 |
 | [THROUGH](#THROUGH) | 与 Tight 相同，但包裹在打开的形状的任何部分内。 |
-| [TIGHT](#TIGHT) | 紧紧围绕形状的边缘，而不是围绕边界框。 |
+| [TIGHT](#TIGHT) | 紧紧环绕形状的边缘，而不是环绕边界框。 |
 | [TOP_BOTTOM](#TOP-BOTTOM) | 文本停在形状的顶部并在形状下方的线上重新开始。 |
 | [length](#length) |  |
 ## 方法
@@ -48,7 +48,7 @@ public static int INLINE
 ```
 
 
-形状与文本保持在同一图层上并被视为字符。
+该形状与文本保留在同一层上并被视为字符。
 
 ### NONE {#NONE}
 ```
@@ -64,7 +64,7 @@ public static int SQUARE
 ```
 
 
-将文本环绕在形状的方形边界框的所有边上。
+围绕形状的方形边界框的所有边环绕文本。
 
 ### THROUGH {#THROUGH}
 ```
@@ -80,7 +80,7 @@ public static int TIGHT
 ```
 
 
-紧紧围绕形状的边缘，而不是围绕边界框。
+紧紧环绕形状的边缘，而不是环绕边界框。
 
 ### TOP_BOTTOM {#TOP-BOTTOM}
 ```
@@ -104,12 +104,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String wrapTypeName) {#fromName-java.lang.String-}
 ```
@@ -119,12 +120,13 @@ public static int fromName(String wrapTypeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | wrapTypeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -134,7 +136,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int wrapType) {#getName-int-}
 ```
@@ -144,13 +146,14 @@ public static String getName(int wrapType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | wrapType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -159,7 +162,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -169,7 +172,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -195,8 +198,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int wrapType) {#toString-int-}
 ```
 public static String toString(int wrapType)
@@ -205,13 +208,14 @@ public static String toString(int wrapType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | wrapType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -228,7 +232,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -241,7 +246,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

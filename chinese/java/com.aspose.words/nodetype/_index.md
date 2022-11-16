@@ -7,7 +7,7 @@ weight: 408
 url: /zh/java/com.aspose.words/nodetype/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class NodeType
@@ -43,7 +43,7 @@ public class NodeType
 | [MOVE_TO_RANGE_END](#MOVE-TO-RANGE-END) | MoveTo 范围的结束。 |
 | [MOVE_TO_RANGE_START](#MOVE-TO-RANGE-START) | MoveTo 范围的开始。 |
 | [NULL](#NULL) | 保留供 Aspose.Words 内部使用。 |
-| [OFFICE_MATH](#OFFICE-MATH) | 一个 Office Math 对象。 |
+| [OFFICE_MATH](#OFFICE-MATH) | Office Math 对象。 |
 | [PARAGRAPH](#PARAGRAPH) | 一段文字。 |
 | [ROW](#ROW) | 一排桌子。 |
 | [RUN](#RUN) | 一段文字。 |
@@ -51,12 +51,12 @@ public class NodeType
 | [SHAPE](#SHAPE) | 绘图对象，例如 OfficeArt 形状、图像或 OLE 对象。 |
 | [SMART_TAG](#SMART-TAG) | 围绕段落中一个或多个内联结构（运行、图像、字段等）的智能标记 |
 | [SPECIAL_CHAR](#SPECIAL-CHAR) | 不是更具体的特殊字符类型之一的特殊字符。 |
-| [STRUCTURED_DOCUMENT_TAG](#STRUCTURED-DOCUMENT-TAG) | 允许定义客户特定的信息及其呈现方式。 |
-| [STRUCTURED_DOCUMENT_TAG_RANGE_END](#STRUCTURED-DOCUMENT-TAG-RANGE-END) | 一个结束**ranged**接受多节内容的结构化文档标签。 |
-| [STRUCTURED_DOCUMENT_TAG_RANGE_START](#STRUCTURED-DOCUMENT-TAG-RANGE-START) | 一个开始**ranged**接受多节内容的结构化文档标签。 |
+| [STRUCTURED_DOCUMENT_TAG](#STRUCTURED-DOCUMENT-TAG) | 允许定义特定于客户的信息及其表示方式。 |
+| [STRUCTURED_DOCUMENT_TAG_RANGE_END](#STRUCTURED-DOCUMENT-TAG-RANGE-END) | 的结束**ranged**接受多节内容的结构化文档标签。 |
+| [STRUCTURED_DOCUMENT_TAG_RANGE_START](#STRUCTURED-DOCUMENT-TAG-RANGE-START) | 的开始**ranged**接受多节内容的结构化文档标签。 |
 | [SUB_DOCUMENT](#SUB-DOCUMENT) | 一个子文档节点，它是指向另一个文档的链接。 |
 | [SYSTEM](#SYSTEM) | 保留供 Aspose.Words 内部使用。 |
-| [TABLE](#TABLE) | 一个[Table](../../com.aspose.words/table)表示 Word 文档中的表格的对象。 |
+| [TABLE](#TABLE) | 一个[Table](../../com.aspose.words/table)表示 Word 文档中表格的对象。 |
 | [length](#length) |  |
 ## 方法
 
@@ -81,7 +81,7 @@ public static int ANY
 ```
 
 
-表示所有节点类型。允许选择所有孩子。
+指示所有节点类型。允许选择所有孩子。
 
 ### BODY {#BODY}
 ```
@@ -115,7 +115,7 @@ public static int BUILDING_BLOCK
 ```
 
 
-词汇表文档中的构建块（例如词汇表文档条目）。
+词汇表文档中的构建块（例如，词汇表文档条目）。
 
 ### CELL {#CELL}
 ```
@@ -295,7 +295,7 @@ public static int OFFICE_MATH
 ```
 
 
-一个 Office Math 对象。可以是方程、函数、矩阵或其他数学对象之一。可以是数学对象的集合，也可以包含一些非数学对象，例如文本。
+Office Math 对象。可以是方程、函数、矩阵或其他数学对象之一。可以是数学对象的集合，也可以包含一些非数学对象，例如文本运行。
 
 ### PARAGRAPH {#PARAGRAPH}
 ```
@@ -305,7 +305,7 @@ public static int PARAGRAPH
 
 一段文字。
 
-一个[Paragraph](../../com.aspose.words/paragraph) node 是内联级元素的容器[Run](../../com.aspose.words/run), [FieldStart](../../com.aspose.words/fieldstart), [FieldSeparator](../../com.aspose.words/fieldseparator), [FieldEnd](../../com.aspose.words/fieldend), [FormField](../../com.aspose.words/formfield), [Shape](../../com.aspose.words/shape), [GroupShape](../../com.aspose.words/groupshape), [Footnote](../../com.aspose.words/footnote), [Comment](../../com.aspose.words/comment), [SpecialChar](../../com.aspose.words/specialchar)， 也[BookmarkStart](../../com.aspose.words/bookmarkstart)和[BookmarkEnd](../../com.aspose.words/bookmarkend).
+一个[Paragraph](../../com.aspose.words/paragraph)节点是内联级别元素的容器[Run](../../com.aspose.words/run), [FieldStart](../../com.aspose.words/fieldstart), [FieldSeparator](../../com.aspose.words/fieldseparator), [FieldEnd](../../com.aspose.words/fieldend), [FormField](../../com.aspose.words/formfield), [Shape](../../com.aspose.words/shape), [GroupShape](../../com.aspose.words/groupshape), [Footnote](../../com.aspose.words/footnote), [Comment](../../com.aspose.words/comment), [SpecialChar](../../com.aspose.words/specialchar)， 也[BookmarkStart](../../com.aspose.words/bookmarkstart)和[BookmarkEnd](../../com.aspose.words/bookmarkend).
 
 ### ROW {#ROW}
 ```
@@ -367,7 +367,7 @@ public static int STRUCTURED_DOCUMENT_TAG
 ```
 
 
-允许定义客户特定的信息及其呈现方式。
+允许定义特定于客户的信息及其表示方式。
 
 ### STRUCTURED_DOCUMENT_TAG_RANGE_END {#STRUCTURED-DOCUMENT-TAG-RANGE-END}
 ```
@@ -375,7 +375,7 @@ public static int STRUCTURED_DOCUMENT_TAG_RANGE_END
 ```
 
 
-一个结束**ranged**接受多节内容的结构化文档标签。
+的结束**ranged**接受多节内容的结构化文档标签。
 
 ### STRUCTURED_DOCUMENT_TAG_RANGE_START {#STRUCTURED-DOCUMENT-TAG-RANGE-START}
 ```
@@ -383,7 +383,7 @@ public static int STRUCTURED_DOCUMENT_TAG_RANGE_START
 ```
 
 
-一个开始**ranged**接受多节内容的结构化文档标签。
+的开始**ranged**接受多节内容的结构化文档标签。
 
 ### SUB_DOCUMENT {#SUB-DOCUMENT}
 ```
@@ -407,7 +407,7 @@ public static int TABLE
 ```
 
 
-一个[Table](../../com.aspose.words/table)表示 Word 文档中的表格的对象。
+一个[Table](../../com.aspose.words/table)表示 Word 文档中表格的对象。
 
 一个[Table](../../com.aspose.words/table)节点可以有[Row](../../com.aspose.words/row)节点。
 
@@ -425,12 +425,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String nodeTypeName) {#fromName-java.lang.String-}
 ```
@@ -440,12 +441,13 @@ public static int fromName(String nodeTypeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | nodeTypeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -455,7 +457,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int nodeType) {#getName-int-}
 ```
@@ -465,13 +467,14 @@ public static String getName(int nodeType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | nodeType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -480,7 +483,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -490,7 +493,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -516,8 +519,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int nodeType) {#toString-int-}
 ```
 public static String toString(int nodeType)
@@ -526,13 +529,14 @@ public static String toString(int nodeType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | nodeType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -549,7 +553,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -562,7 +567,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

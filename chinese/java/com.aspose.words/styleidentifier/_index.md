@@ -7,7 +7,7 @@ weight: 538
 url: /zh/java/com.aspose.words/styleidentifier/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class StyleIdentifier
@@ -15,7 +15,7 @@ public class StyleIdentifier
 
 与语言环境无关的样式标识符。
 
-MS Word 中内置样式的名称已针对不同语言进行了本地化。使用样式标识符，无论文档语言如何，您都可以找到正确的样式。
+MS Word 中内置样式的名称针对不同的语言进行了本地化。使用样式标识符，无论文档语言如何，您都可以找到正确的样式。
 
 所有用户定义的样式都分配有 StyleIdentifier.User 值。
 ## 字段
@@ -57,7 +57,7 @@ MS Word 中内置样式的名称已针对不同语言进行了本地化。使用
 | [COLORFUL_SHADING_ACCENT_4](#COLORFUL-SHADING-ACCENT-4) |  |
 | [COLORFUL_SHADING_ACCENT_5](#COLORFUL-SHADING-ACCENT-5) |  |
 | [COLORFUL_SHADING_ACCENT_6](#COLORFUL-SHADING-ACCENT-6) |  |
-| [COMMENT_REFERENCE](#COMMENT-REFERENCE) | 注释（注释）参考样式。 |
+| [COMMENT_REFERENCE](#COMMENT-REFERENCE) | Annotation（注释）引用样式。 |
 | [COMMENT_SUBJECT](#COMMENT-SUBJECT) |  |
 | [COMMENT_TEXT](#COMMENT-TEXT) | 注释（注释）文本样式。 |
 | [DARK_LIST](#DARK-LIST) |  |
@@ -209,35 +209,35 @@ MS Word 中内置样式的名称已针对不同语言进行了本地化。使用
 | [LIST_NUMBER_4](#LIST-NUMBER-4) |  |
 | [LIST_NUMBER_5](#LIST-NUMBER-5) |  |
 | [LIST_PARAGRAPH](#LIST-PARAGRAPH) |  |
-| [LIST_TABLE_1_LIGHT](#LIST-TABLE-1-LIGHT) | 列表表 1 灯 |
-| [LIST_TABLE_1_LIGHT_ACCENT_1](#LIST-TABLE-1-LIGHT-ACCENT-1) | 列出表 1 浅色 - 重音 1 |
-| [LIST_TABLE_1_LIGHT_ACCENT_2](#LIST-TABLE-1-LIGHT-ACCENT-2) | 列出表 1 浅色 - 重音 2 |
-| [LIST_TABLE_1_LIGHT_ACCENT_3](#LIST-TABLE-1-LIGHT-ACCENT-3) | 列出表 1 浅色 - 重音 3 |
-| [LIST_TABLE_1_LIGHT_ACCENT_4](#LIST-TABLE-1-LIGHT-ACCENT-4) | 列出表 1 浅色 - 重音 4 |
-| [LIST_TABLE_1_LIGHT_ACCENT_5](#LIST-TABLE-1-LIGHT-ACCENT-5) | 列出表 1 浅色 - 重音 5 |
-| [LIST_TABLE_1_LIGHT_ACCENT_6](#LIST-TABLE-1-LIGHT-ACCENT-6) | 列出表 1 浅色 - 重音 6 |
-| [LIST_TABLE_2](#LIST-TABLE-2) | 清单表 2 |
-| [LIST_TABLE_2_ACCENT_1](#LIST-TABLE-2-ACCENT-1) | 列表表 2 - 口音 1 |
-| [LIST_TABLE_2_ACCENT_2](#LIST-TABLE-2-ACCENT-2) | 列表表 2 - 口音 2 |
-| [LIST_TABLE_2_ACCENT_3](#LIST-TABLE-2-ACCENT-3) | 列表表 2 - 口音 3 |
-| [LIST_TABLE_2_ACCENT_4](#LIST-TABLE-2-ACCENT-4) | 列表表 2 - 口音 4 |
-| [LIST_TABLE_2_ACCENT_5](#LIST-TABLE-2-ACCENT-5) | 列表表 2 - 口音 5 |
-| [LIST_TABLE_2_ACCENT_6](#LIST-TABLE-2-ACCENT-6) | 列表表 2 - 口音 6 |
+| [LIST_TABLE_1_LIGHT](#LIST-TABLE-1-LIGHT) | 清单表 1 灯 |
+| [LIST_TABLE_1_LIGHT_ACCENT_1](#LIST-TABLE-1-LIGHT-ACCENT-1) | 列出表 1 浅色 - 强调色 1 |
+| [LIST_TABLE_1_LIGHT_ACCENT_2](#LIST-TABLE-1-LIGHT-ACCENT-2) | 列出表 1 浅色 - 强调色 2 |
+| [LIST_TABLE_1_LIGHT_ACCENT_3](#LIST-TABLE-1-LIGHT-ACCENT-3) | 列出表 1 浅色 - 强调色 3 |
+| [LIST_TABLE_1_LIGHT_ACCENT_4](#LIST-TABLE-1-LIGHT-ACCENT-4) | 列出表 1 浅色 - 强调色 4 |
+| [LIST_TABLE_1_LIGHT_ACCENT_5](#LIST-TABLE-1-LIGHT-ACCENT-5) | 列出表 1 Light - Accent 5 |
+| [LIST_TABLE_1_LIGHT_ACCENT_6](#LIST-TABLE-1-LIGHT-ACCENT-6) | 列出表 1 Light - Accent 6 |
+| [LIST_TABLE_2](#LIST-TABLE-2) | 列表表 2 |
+| [LIST_TABLE_2_ACCENT_1](#LIST-TABLE-2-ACCENT-1) | 列表表 2 - 强调 1 |
+| [LIST_TABLE_2_ACCENT_2](#LIST-TABLE-2-ACCENT-2) | 列表表 2 - 强调 2 |
+| [LIST_TABLE_2_ACCENT_3](#LIST-TABLE-2-ACCENT-3) | 列表表 2 - 强调 3 |
+| [LIST_TABLE_2_ACCENT_4](#LIST-TABLE-2-ACCENT-4) | 列表表 2 - 强调 4 |
+| [LIST_TABLE_2_ACCENT_5](#LIST-TABLE-2-ACCENT-5) | 列表表 2 - 强调 5 |
+| [LIST_TABLE_2_ACCENT_6](#LIST-TABLE-2-ACCENT-6) | 列表表 2 - Accent 6 |
 | [LIST_TABLE_3](#LIST-TABLE-3) | 列表表 3 |
-| [LIST_TABLE_3_ACCENT_1](#LIST-TABLE-3-ACCENT-1) | 列表表 3 - 口音 1 |
-| [LIST_TABLE_3_ACCENT_2](#LIST-TABLE-3-ACCENT-2) | 列表表 3 - 口音 2 |
-| [LIST_TABLE_3_ACCENT_3](#LIST-TABLE-3-ACCENT-3) | 列表表 3 - 口音 3 |
-| [LIST_TABLE_3_ACCENT_4](#LIST-TABLE-3-ACCENT-4) | 列表表 3 - 口音 4 |
-| [LIST_TABLE_3_ACCENT_5](#LIST-TABLE-3-ACCENT-5) | 列表表 3 - 口音 5 |
-| [LIST_TABLE_3_ACCENT_6](#LIST-TABLE-3-ACCENT-6) | 列表表 3 - 口音 6 |
-| [LIST_TABLE_4](#LIST-TABLE-4) | 清单表 4 |
-| [LIST_TABLE_4_ACCENT_1](#LIST-TABLE-4-ACCENT-1) | 列表表 4 - 口音 1 |
-| [LIST_TABLE_4_ACCENT_2](#LIST-TABLE-4-ACCENT-2) | 列表表 4 - 口音 2 |
-| [LIST_TABLE_4_ACCENT_3](#LIST-TABLE-4-ACCENT-3) | 列表表 4 - 口音 3 |
-| [LIST_TABLE_4_ACCENT_4](#LIST-TABLE-4-ACCENT-4) | 列表表 4 - 口音 4 |
-| [LIST_TABLE_4_ACCENT_5](#LIST-TABLE-4-ACCENT-5) | 列表表 4 - 口音 5 |
-| [LIST_TABLE_4_ACCENT_6](#LIST-TABLE-4-ACCENT-6) | 列表表 4 - 口音 6 |
-| [LIST_TABLE_5_DARK](#LIST-TABLE-5-DARK) | 列表表 5 深色 |
+| [LIST_TABLE_3_ACCENT_1](#LIST-TABLE-3-ACCENT-1) | 列表表 3 - 强调 1 |
+| [LIST_TABLE_3_ACCENT_2](#LIST-TABLE-3-ACCENT-2) | 列表表 3 - 强调 2 |
+| [LIST_TABLE_3_ACCENT_3](#LIST-TABLE-3-ACCENT-3) | 列表表 3 - 强调 3 |
+| [LIST_TABLE_3_ACCENT_4](#LIST-TABLE-3-ACCENT-4) | 列表表 3 - 强调 4 |
+| [LIST_TABLE_3_ACCENT_5](#LIST-TABLE-3-ACCENT-5) | 列表表 3 - 强调 5 |
+| [LIST_TABLE_3_ACCENT_6](#LIST-TABLE-3-ACCENT-6) | 列表表 3 - Accent 6 |
+| [LIST_TABLE_4](#LIST-TABLE-4) | 列表表 4 |
+| [LIST_TABLE_4_ACCENT_1](#LIST-TABLE-4-ACCENT-1) | 列表表 4 - 强调 1 |
+| [LIST_TABLE_4_ACCENT_2](#LIST-TABLE-4-ACCENT-2) | 列表表 4 - 强调 2 |
+| [LIST_TABLE_4_ACCENT_3](#LIST-TABLE-4-ACCENT-3) | 列表表 4 - 强调 3 |
+| [LIST_TABLE_4_ACCENT_4](#LIST-TABLE-4-ACCENT-4) | 清单 Table 4 - Accent 4 |
+| [LIST_TABLE_4_ACCENT_5](#LIST-TABLE-4-ACCENT-5) | 列表表 4 - 强调 5 |
+| [LIST_TABLE_4_ACCENT_6](#LIST-TABLE-4-ACCENT-6) | 清单 Table 4 - Accent 6 |
+| [LIST_TABLE_5_DARK](#LIST-TABLE-5-DARK) | 清单表 5 深色 |
 | [LIST_TABLE_5_DARK_ACCENT_1](#LIST-TABLE-5-DARK-ACCENT-1) | 列表表 5 深色 - 口音 1 |
 | [LIST_TABLE_5_DARK_ACCENT_2](#LIST-TABLE-5-DARK-ACCENT-2) | 列表表 5 深色 - 口音 2 |
 | [LIST_TABLE_5_DARK_ACCENT_3](#LIST-TABLE-5-DARK-ACCENT-3) | 列表 5 深色 - 口音 3 |
@@ -324,9 +324,9 @@ MS Word 中内置样式的名称已针对不同语言进行了本地化。使用
 | [PLACEHOLDER_TEXT](#PLACEHOLDER-TEXT) |  |
 | [PLAIN_TABLE_1](#PLAIN-TABLE-1) | 普通表1 |
 | [PLAIN_TABLE_2](#PLAIN-TABLE-2) | 普通表2 |
-| [PLAIN_TABLE_3](#PLAIN-TABLE-3) | 普通表3 |
-| [PLAIN_TABLE_4](#PLAIN-TABLE-4) | 普通表4 |
-| [PLAIN_TABLE_5](#PLAIN-TABLE-5) | 普通表5 |
+| [PLAIN_TABLE_3](#PLAIN-TABLE-3) | 普通表 3 |
+| [PLAIN_TABLE_4](#PLAIN-TABLE-4) | 普通表 4 |
+| [PLAIN_TABLE_5](#PLAIN-TABLE-5) | 普通表 5 |
 | [PLAIN_TEXT](#PLAIN-TEXT) |  |
 | [QUOTE](#QUOTE) |  |
 | [REVISION](#REVISION) |  |
@@ -364,7 +364,7 @@ MS Word 中内置样式的名称已针对不同语言进行了本地化。使用
 | [TABLE_GRID_6](#TABLE-GRID-6) |  |
 | [TABLE_GRID_7](#TABLE-GRID-7) |  |
 | [TABLE_GRID_8](#TABLE-GRID-8) |  |
-| [TABLE_GRID_LIGHT](#TABLE-GRID-LIGHT) | 表格网格灯 |
+| [TABLE_GRID_LIGHT](#TABLE-GRID-LIGHT) | 桌格灯 |
 | [TABLE_LIST_1](#TABLE-LIST-1) |  |
 | [TABLE_LIST_2](#TABLE-LIST-2) |  |
 | [TABLE_LIST_3](#TABLE-LIST-3) |  |
@@ -375,7 +375,7 @@ MS Word 中内置样式的名称已针对不同语言进行了本地化。使用
 | [TABLE_LIST_8](#TABLE-LIST-8) |  |
 | [TABLE_NORMAL](#TABLE-NORMAL) |  |
 | [TABLE_OF_AUTHORITIES](#TABLE-OF-AUTHORITIES) |  |
-| [TABLE_OF_FIGURES](#TABLE-OF-FIGURES) | 数字表样式。 |
+| [TABLE_OF_FIGURES](#TABLE-OF-FIGURES) | 图形表样式。 |
 | [TABLE_PROFESSIONAL](#TABLE-PROFESSIONAL) |  |
 | [TABLE_SIMPLE_1](#TABLE-SIMPLE-1) |  |
 | [TABLE_SIMPLE_2](#TABLE-SIMPLE-2) |  |
@@ -398,7 +398,7 @@ MS Word 中内置样式的名称已针对不同语言进行了本地化。使用
 | [TOC_8](#TOC-8) |  |
 | [TOC_9](#TOC-9) |  |
 | [TOC_HEADING](#TOC-HEADING) |  |
-| [UNRESOLVED_MENTION](#UNRESOLVED-MENTION) | 未解决的提及样式。 |
+| [UNRESOLVED_MENTION](#UNRESOLVED-MENTION) | UnresolvedMention 样式。 |
 | [USER](#USER) | 用户定义的样式。 |
 | [length](#length) |  |
 ## 方法
@@ -704,7 +704,7 @@ public static int COMMENT_REFERENCE
 ```
 
 
-注释（注释）参考样式。
+Annotation（注释）引用样式。
 
 ### COMMENT_SUBJECT {#COMMENT-SUBJECT}
 ```
@@ -1920,7 +1920,7 @@ public static int LIST_TABLE_1_LIGHT
 ```
 
 
-列表表 1 灯
+清单表 1 灯
 
 ### LIST_TABLE_1_LIGHT_ACCENT_1 {#LIST-TABLE-1-LIGHT-ACCENT-1}
 ```
@@ -1928,7 +1928,7 @@ public static int LIST_TABLE_1_LIGHT_ACCENT_1
 ```
 
 
-列出表 1 浅色 - 重音 1
+列出表 1 浅色 - 强调色 1
 
 ### LIST_TABLE_1_LIGHT_ACCENT_2 {#LIST-TABLE-1-LIGHT-ACCENT-2}
 ```
@@ -1936,7 +1936,7 @@ public static int LIST_TABLE_1_LIGHT_ACCENT_2
 ```
 
 
-列出表 1 浅色 - 重音 2
+列出表 1 浅色 - 强调色 2
 
 ### LIST_TABLE_1_LIGHT_ACCENT_3 {#LIST-TABLE-1-LIGHT-ACCENT-3}
 ```
@@ -1944,7 +1944,7 @@ public static int LIST_TABLE_1_LIGHT_ACCENT_3
 ```
 
 
-列出表 1 浅色 - 重音 3
+列出表 1 浅色 - 强调色 3
 
 ### LIST_TABLE_1_LIGHT_ACCENT_4 {#LIST-TABLE-1-LIGHT-ACCENT-4}
 ```
@@ -1952,7 +1952,7 @@ public static int LIST_TABLE_1_LIGHT_ACCENT_4
 ```
 
 
-列出表 1 浅色 - 重音 4
+列出表 1 浅色 - 强调色 4
 
 ### LIST_TABLE_1_LIGHT_ACCENT_5 {#LIST-TABLE-1-LIGHT-ACCENT-5}
 ```
@@ -1960,7 +1960,7 @@ public static int LIST_TABLE_1_LIGHT_ACCENT_5
 ```
 
 
-列出表 1 浅色 - 重音 5
+列出表 1 Light - Accent 5
 
 ### LIST_TABLE_1_LIGHT_ACCENT_6 {#LIST-TABLE-1-LIGHT-ACCENT-6}
 ```
@@ -1968,7 +1968,7 @@ public static int LIST_TABLE_1_LIGHT_ACCENT_6
 ```
 
 
-列出表 1 浅色 - 重音 6
+列出表 1 Light - Accent 6
 
 ### LIST_TABLE_2 {#LIST-TABLE-2}
 ```
@@ -1976,7 +1976,7 @@ public static int LIST_TABLE_2
 ```
 
 
-清单表 2
+列表表 2
 
 ### LIST_TABLE_2_ACCENT_1 {#LIST-TABLE-2-ACCENT-1}
 ```
@@ -1984,7 +1984,7 @@ public static int LIST_TABLE_2_ACCENT_1
 ```
 
 
-列表表 2 - 口音 1
+列表表 2 - 强调 1
 
 ### LIST_TABLE_2_ACCENT_2 {#LIST-TABLE-2-ACCENT-2}
 ```
@@ -1992,7 +1992,7 @@ public static int LIST_TABLE_2_ACCENT_2
 ```
 
 
-列表表 2 - 口音 2
+列表表 2 - 强调 2
 
 ### LIST_TABLE_2_ACCENT_3 {#LIST-TABLE-2-ACCENT-3}
 ```
@@ -2000,7 +2000,7 @@ public static int LIST_TABLE_2_ACCENT_3
 ```
 
 
-列表表 2 - 口音 3
+列表表 2 - 强调 3
 
 ### LIST_TABLE_2_ACCENT_4 {#LIST-TABLE-2-ACCENT-4}
 ```
@@ -2008,7 +2008,7 @@ public static int LIST_TABLE_2_ACCENT_4
 ```
 
 
-列表表 2 - 口音 4
+列表表 2 - 强调 4
 
 ### LIST_TABLE_2_ACCENT_5 {#LIST-TABLE-2-ACCENT-5}
 ```
@@ -2016,7 +2016,7 @@ public static int LIST_TABLE_2_ACCENT_5
 ```
 
 
-列表表 2 - 口音 5
+列表表 2 - 强调 5
 
 ### LIST_TABLE_2_ACCENT_6 {#LIST-TABLE-2-ACCENT-6}
 ```
@@ -2024,7 +2024,7 @@ public static int LIST_TABLE_2_ACCENT_6
 ```
 
 
-列表表 2 - 口音 6
+列表表 2 - Accent 6
 
 ### LIST_TABLE_3 {#LIST-TABLE-3}
 ```
@@ -2040,7 +2040,7 @@ public static int LIST_TABLE_3_ACCENT_1
 ```
 
 
-列表表 3 - 口音 1
+列表表 3 - 强调 1
 
 ### LIST_TABLE_3_ACCENT_2 {#LIST-TABLE-3-ACCENT-2}
 ```
@@ -2048,7 +2048,7 @@ public static int LIST_TABLE_3_ACCENT_2
 ```
 
 
-列表表 3 - 口音 2
+列表表 3 - 强调 2
 
 ### LIST_TABLE_3_ACCENT_3 {#LIST-TABLE-3-ACCENT-3}
 ```
@@ -2056,7 +2056,7 @@ public static int LIST_TABLE_3_ACCENT_3
 ```
 
 
-列表表 3 - 口音 3
+列表表 3 - 强调 3
 
 ### LIST_TABLE_3_ACCENT_4 {#LIST-TABLE-3-ACCENT-4}
 ```
@@ -2064,7 +2064,7 @@ public static int LIST_TABLE_3_ACCENT_4
 ```
 
 
-列表表 3 - 口音 4
+列表表 3 - 强调 4
 
 ### LIST_TABLE_3_ACCENT_5 {#LIST-TABLE-3-ACCENT-5}
 ```
@@ -2072,7 +2072,7 @@ public static int LIST_TABLE_3_ACCENT_5
 ```
 
 
-列表表 3 - 口音 5
+列表表 3 - 强调 5
 
 ### LIST_TABLE_3_ACCENT_6 {#LIST-TABLE-3-ACCENT-6}
 ```
@@ -2080,7 +2080,7 @@ public static int LIST_TABLE_3_ACCENT_6
 ```
 
 
-列表表 3 - 口音 6
+列表表 3 - Accent 6
 
 ### LIST_TABLE_4 {#LIST-TABLE-4}
 ```
@@ -2088,7 +2088,7 @@ public static int LIST_TABLE_4
 ```
 
 
-清单表 4
+列表表 4
 
 ### LIST_TABLE_4_ACCENT_1 {#LIST-TABLE-4-ACCENT-1}
 ```
@@ -2096,7 +2096,7 @@ public static int LIST_TABLE_4_ACCENT_1
 ```
 
 
-列表表 4 - 口音 1
+列表表 4 - 强调 1
 
 ### LIST_TABLE_4_ACCENT_2 {#LIST-TABLE-4-ACCENT-2}
 ```
@@ -2104,7 +2104,7 @@ public static int LIST_TABLE_4_ACCENT_2
 ```
 
 
-列表表 4 - 口音 2
+列表表 4 - 强调 2
 
 ### LIST_TABLE_4_ACCENT_3 {#LIST-TABLE-4-ACCENT-3}
 ```
@@ -2112,7 +2112,7 @@ public static int LIST_TABLE_4_ACCENT_3
 ```
 
 
-列表表 4 - 口音 3
+列表表 4 - 强调 3
 
 ### LIST_TABLE_4_ACCENT_4 {#LIST-TABLE-4-ACCENT-4}
 ```
@@ -2120,7 +2120,7 @@ public static int LIST_TABLE_4_ACCENT_4
 ```
 
 
-列表表 4 - 口音 4
+清单 Table 4 - Accent 4
 
 ### LIST_TABLE_4_ACCENT_5 {#LIST-TABLE-4-ACCENT-5}
 ```
@@ -2128,7 +2128,7 @@ public static int LIST_TABLE_4_ACCENT_5
 ```
 
 
-列表表 4 - 口音 5
+列表表 4 - 强调 5
 
 ### LIST_TABLE_4_ACCENT_6 {#LIST-TABLE-4-ACCENT-6}
 ```
@@ -2136,7 +2136,7 @@ public static int LIST_TABLE_4_ACCENT_6
 ```
 
 
-列表表 4 - 口音 6
+清单 Table 4 - Accent 6
 
 ### LIST_TABLE_5_DARK {#LIST-TABLE-5-DARK}
 ```
@@ -2144,7 +2144,7 @@ public static int LIST_TABLE_5_DARK
 ```
 
 
-列表表 5 深色
+清单表 5 深色
 
 ### LIST_TABLE_5_DARK_ACCENT_1 {#LIST-TABLE-5-DARK-ACCENT-1}
 ```
@@ -2840,7 +2840,7 @@ public static int PLAIN_TABLE_3
 ```
 
 
-普通表3
+普通表 3
 
 ### PLAIN_TABLE_4 {#PLAIN-TABLE-4}
 ```
@@ -2848,7 +2848,7 @@ public static int PLAIN_TABLE_4
 ```
 
 
-普通表4
+普通表 4
 
 ### PLAIN_TABLE_5 {#PLAIN-TABLE-5}
 ```
@@ -2856,7 +2856,7 @@ public static int PLAIN_TABLE_5
 ```
 
 
-普通表5
+普通表 5
 
 ### PLAIN_TEXT {#PLAIN-TEXT}
 ```
@@ -3160,7 +3160,7 @@ public static int TABLE_GRID_LIGHT
 ```
 
 
-表格网格灯
+桌格灯
 
 ### TABLE_LIST_1 {#TABLE-LIST-1}
 ```
@@ -3248,7 +3248,7 @@ public static int TABLE_OF_FIGURES
 ```
 
 
-数字表样式。
+图形表样式。
 
 ### TABLE_PROFESSIONAL {#TABLE-PROFESSIONAL}
 ```
@@ -3432,7 +3432,7 @@ public static int UNRESOLVED_MENTION
 ```
 
 
-未解决的提及样式。
+UnresolvedMention 样式。
 
 ### USER {#USER}
 ```
@@ -3456,12 +3456,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String styleIdentifierName) {#fromName-java.lang.String-}
 ```
@@ -3471,12 +3472,13 @@ public static int fromName(String styleIdentifierName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | styleIdentifierName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -3486,7 +3488,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int styleIdentifier) {#getName-int-}
 ```
@@ -3496,13 +3498,14 @@ public static String getName(int styleIdentifier)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | styleIdentifier | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -3511,7 +3514,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -3521,7 +3524,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -3547,8 +3550,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int styleIdentifier) {#toString-int-}
 ```
 public static String toString(int styleIdentifier)
@@ -3557,13 +3560,14 @@ public static String toString(int styleIdentifier)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | styleIdentifier | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -3580,7 +3584,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -3593,7 +3598,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

@@ -1,19 +1,19 @@
 ---
 title: WebExtensionBindingType
 second_title: Aspose.Words for Java API 参考
-description: 枚举 Web 扩展和文档中数据之间的可用绑定类型。
+description: 枚举 Web 扩展和文档中数据之间可用的绑定类型。
 type: docs
 weight: 614
 url: /zh/java/com.aspose.words/webextensionbindingtype/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class WebExtensionBindingType
 ```
 
-枚举 Web 扩展和文档中数据之间的可用绑定类型。
+枚举 Web 扩展和文档中数据之间可用的绑定类型。
 ## 字段
 
 | 场地 | 描述 |
@@ -84,12 +84,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String webExtensionBindingTypeName) {#fromName-java.lang.String-}
 ```
@@ -99,12 +100,13 @@ public static int fromName(String webExtensionBindingTypeName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | webExtensionBindingTypeName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -114,7 +116,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int webExtensionBindingType) {#getName-int-}
 ```
@@ -124,13 +126,14 @@ public static String getName(int webExtensionBindingType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | webExtensionBindingType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -139,7 +142,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -149,7 +152,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -175,8 +178,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int webExtensionBindingType) {#toString-int-}
 ```
 public static String toString(int webExtensionBindingType)
@@ -185,13 +188,14 @@ public static String toString(int webExtensionBindingType)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | webExtensionBindingType | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -208,7 +212,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -221,7 +226,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

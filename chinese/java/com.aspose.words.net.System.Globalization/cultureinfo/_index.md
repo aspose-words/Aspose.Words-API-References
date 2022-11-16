@@ -7,14 +7,14 @@ weight: 10
 url: /zh/java/com.aspose.words.net.system.globalization/cultureinfo/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class CultureInfo
 ```
 
 .Net 的 System.Globalization.CultureInfo 的地图。
-## 构造函数
+## 构造器
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -44,7 +44,8 @@ public CultureInfo(String cultureName)
 
 具有 .Net 风格的文化名称的构造函数。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | cultureName | java.lang.String |  |
@@ -57,7 +58,8 @@ public CultureInfo(String cultureName, boolean useUserOverride)
 
 具有 .Net 风格的文化名称的构造函数。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | cultureName | java.lang.String |  |
@@ -71,7 +73,8 @@ public CultureInfo(Locale locale)
 
 具有 Java 风格语言环境的构造函数。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | locale | java.util.Locale |  |
@@ -84,12 +87,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getClass() {#getClass--}
 ```
@@ -99,7 +103,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getDateTimeFormat() {#getDateTimeFormat--}
 ```
@@ -109,7 +113,7 @@ public System.Globalization.DateTimeFormatInfo getDateTimeFormat()
 
 获取 .Net 样式的 DateTimeFormatInfo
 
-**退货:**
+**退货：**
 [DateTimeFormatInfo](../../com.aspose.words.net.system.globalization/datetimeformatinfo)
 ### getLocale(System.Globalization.CultureInfo cultureInfo) {#getLocale-com.aspose.words.net.System.Globalization.CultureInfo-}
 ```
@@ -119,12 +123,13 @@ public Locale getLocale(System.Globalization.CultureInfo cultureInfo)
 
 从 .Net 风格的 CultureInfo 获取 java 语言环境
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | cultureInfo | [CultureInfo](../../com.aspose.words.net.system.globalization/cultureinfo) |  |
 
-**退货:**
+**退货：**
 java.util.Locale
 ### hashCode() {#hashCode--}
 ```
@@ -134,7 +139,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -160,8 +165,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -178,7 +183,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -191,7 +197,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

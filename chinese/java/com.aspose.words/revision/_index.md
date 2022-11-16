@@ -7,7 +7,7 @@ weight: 483
 url: /zh/java/com.aspose.words/revision/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class Revision
@@ -20,7 +20,7 @@ public class Revision
 
 | 方法 | 描述 |
 | --- | --- |
-| [accept()](#accept--) | 接受此修订。 |
+| [accept()](#accept--) | 接受这个修订。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAuthor()](#getAuthor--) | 获取此修订的作者。 |
 | [getClass()](#getClass--) |  |
@@ -32,7 +32,7 @@ public class Revision
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [reject()](#reject--) | 拒绝此修订。 |
+| [reject()](#reject--) | 拒绝这个修订。 |
 | [setAuthor(String value)](#setAuthor-java.lang.String-) | 设置此修订的作者。 |
 | [setDateTime(Date value)](#setDateTime-java.util.Date-) | 设置此修订的日期/时间。 |
 | [toString()](#toString--) |  |
@@ -45,7 +45,7 @@ public void accept()
 ```
 
 
-接受此修订。
+接受这个修订。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -55,12 +55,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getAuthor() {#getAuthor--}
 ```
@@ -70,8 +71,8 @@ public String getAuthor()
 
 获取此修订的作者。不能为空字符串或 null。
 
-**退货:**
-java.lang.String - 此版本的作者。
+**退货：**
+java.lang.String - 此修订的作者。
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -80,7 +81,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getDateTime() {#getDateTime--}
 ```
@@ -90,8 +91,8 @@ public Date getDateTime()
 
 获取此修订的日期/时间。
 
-**退货:**
-java.util.Date - 本次修订的日期/时间。
+**退货：**
+java.util.Date - 此修订的日期/时间。
 ### getGroup() {#getGroup--}
 ```
 public RevisionGroup getGroup()
@@ -100,7 +101,7 @@ public RevisionGroup getGroup()
 
 获取修订组。如果修订不属于任何组，则返回 null。如果修订类型为 RevisionType.StyleDefinitionChange 或如果修订不再存在于文档上下文中（接受/拒绝），则修订没有组。
 
-**退货:**
+**退货：**
 [RevisionGroup](../../com.aspose.words/revisiongroup) - 修订组。
 ### getParentNode() {#getParentNode--}
 ```
@@ -108,9 +109,9 @@ public Node getParentNode()
 ```
 
 
-获取此修订的直接父节点（所有者）。此属性将适用于除[RevisionType.STYLE\_DEFINITION\_CHANGE](../../com.aspose.words/revisiontype\#STYLE-DEFINITION-CHANGE).如果此修订涉及样式格式的更改，请使用[getParentStyle()](../../com.aspose.words/revision\#getParentStyle--)反而。
+获取此修订的直接父节点（所有者）。此属性适用于除[RevisionType.STYLE\_DEFINITION\_CHANGE](../../com.aspose.words/revisiontype\#STYLE-DEFINITION-CHANGE).如果此修订涉及样式格式的更改，请使用[getParentStyle()](../../com.aspose.words/revision\#getParentStyle--)反而。
 
-**退货:**
+**退货：**
 [Node](../../com.aspose.words/node) - 此修订的直接父节点（所有者）。
 ### getParentStyle() {#getParentStyle--}
 ```
@@ -118,9 +119,9 @@ public Style getParentStyle()
 ```
 
 
-获取此修订的直接父样式（所有者）。此属性仅适用于[RevisionType.STYLE\_DEFINITION\_CHANGE](../../com.aspose.words/revisiontype\#STYLE-DEFINITION-CHANGE)修订类型。如果此修订涉及文档节点的更改，请使用[getParentNode()](../../com.aspose.words/revision\#getParentNode--)反而。
+获取此修订的直接父样式（所有者）。此属性仅适用于[RevisionType.STYLE\_DEFINITION\_CHANGE](../../com.aspose.words/revisiontype\#STYLE-DEFINITION-CHANGE)修订类型。如果此修订涉及文档节点上的更改，请使用[getParentNode()](../../com.aspose.words/revision\#getParentNode--)反而。
 
-**退货:**
+**退货：**
 [Style](../../com.aspose.words/style) 此修订的直接父样式（所有者）。
 ### getRevisionType() {#getRevisionType--}
 ```
@@ -130,8 +131,8 @@ public int getRevisionType()
 
 获取此修订的类型。
 
-**退货:**
- int - 此修订的类型。返回值是以下之一[RevisionType](../../com.aspose.words/revisiontype)常数。
+**退货：**
+ int - 此修订的类型。返回值是其中之一[RevisionType](../../com.aspose.words/revisiontype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -140,7 +141,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -164,7 +165,7 @@ public void reject()
 ```
 
 
-拒绝此修订。
+拒绝这个修订。
 
 ### setAuthor(String value) {#setAuthor-java.lang.String-}
 ```
@@ -174,7 +175,8 @@ public void setAuthor(String value)
 
 设置此修订的作者。不能为空字符串或 null。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String | 本次修订的作者。 |
@@ -187,10 +189,11 @@ public void setDateTime(Date value)
 
 设置此修订的日期/时间。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.Date | 此修订的日期/时间。 |
+| value | java.util.Date | 本次修订的日期/时间。 |
 
 ### toString() {#toString--}
 ```
@@ -200,8 +203,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -218,7 +221,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -231,7 +235,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

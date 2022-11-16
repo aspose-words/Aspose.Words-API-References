@@ -7,7 +7,7 @@ weight: 380
 url: /zh/java/com.aspose.words/mailmergecheckerrors/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class MailMergeCheckErrors
@@ -18,9 +18,9 @@ public class MailMergeCheckErrors
 
 | 场地 | 描述 |
 | --- | --- |
-| [COLLECT_ERRORS](#COLLECT-ERRORS) | 在新文档中完成合并并报告错误。 |
+| [COLLECT_ERRORS](#COLLECT-ERRORS) | 完成合并并在新文档中报告错误。 |
 | [DEFAULT](#DEFAULT) | 等于[PAUSE\_ON\_ERROR](../../com.aspose.words/mailmergecheckerrors\#PAUSE-ON-ERROR)价值。 |
-| [PAUSE_ON_ERROR](#PAUSE-ON-ERROR) | 完成合并并暂停以报告错误。 |
+| [PAUSE_ON_ERROR](#PAUSE-ON-ERROR) | 完成合并暂停报错。 |
 | [SIMULATE](#SIMULATE) | 在新文档中模拟合并并报告错误。 |
 | [length](#length) |  |
 ## 方法
@@ -46,7 +46,7 @@ public static int COLLECT_ERRORS
 ```
 
 
-在新文档中完成合并并报告错误。
+完成合并并在新文档中报告错误。
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -62,7 +62,7 @@ public static int PAUSE_ON_ERROR
 ```
 
 
-完成合并并暂停以报告错误。
+完成合并暂停报错。
 
 ### SIMULATE {#SIMULATE}
 ```
@@ -86,12 +86,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### fromName(String mailMergeCheckErrorsName) {#fromName-java.lang.String-}
 ```
@@ -101,12 +102,13 @@ public static int fromName(String mailMergeCheckErrorsName)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | mailMergeCheckErrorsName | java.lang.String |  |
 
-**退货:**
+**退货：**
 整数
 ### getClass() {#getClass--}
 ```
@@ -116,7 +118,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getName(int mailMergeCheckErrors) {#getName-int-}
 ```
@@ -126,13 +128,14 @@ public static String getName(int mailMergeCheckErrors)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | mailMergeCheckErrors | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -141,7 +144,7 @@ public static int[] getValues()
 
 
 
-**退货:**
+**退货：**
 整数[]
 ### hashCode() {#hashCode--}
 ```
@@ -151,7 +154,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -177,8 +180,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### toString(int mailMergeCheckErrors) {#toString-int-}
 ```
 public static String toString(int mailMergeCheckErrors)
@@ -187,13 +190,14 @@ public static String toString(int mailMergeCheckErrors)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | mailMergeCheckErrors | int |  |
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -210,7 +214,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -223,7 +228,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |

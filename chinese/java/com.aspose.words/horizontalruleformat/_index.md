@@ -7,7 +7,7 @@ weight: 322
 url: /zh/java/com.aspose.words/horizontalruleformat/
 ---
 
-**遗产:**
+**遗产：**
 java.lang.Object
 ```
 public class HorizontalRuleFormat
@@ -25,15 +25,15 @@ public class HorizontalRuleFormat
 | [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | 获取填充水平线的画笔颜色。 |
 | [getHeight()](#getHeight--) | 获取水平线的高度。 |
-| [getNoShade()](#getNoShade--) | 表示存在水平线的 3D 阴影。 |
-| [getWidthPercent()](#getWidthPercent--) | 获取以窗口宽度百分比表示的指定水平线的长度。 |
+| [getNoShade()](#getNoShade--) | 指示水平线是否存在 3D 阴影。 |
+| [getWidthPercent()](#getWidthPercent--) | 获取指定水平标线的长度，以窗口宽度的百分比表示。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAlignment(int value)](#setAlignment-int-) | 设置水平线的对齐方式。 |
 | [setColor(Color value)](#setColor-java.awt.Color-) | 设置填充水平线的画笔颜色。 |
 | [setHeight(double value)](#setHeight-double-) | 设置水平线的高度。 |
-| [setNoShade(boolean value)](#setNoShade-boolean-) | 表示存在水平线的 3D 阴影。 |
+| [setNoShade(boolean value)](#setNoShade-boolean-) | 指示水平线是否存在 3D 阴影。 |
 | [setWidthPercent(double value)](#setWidthPercent-double-) | 设置指定水平线的长度，以窗口宽度的百分比表示。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -47,12 +47,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
+**退货：**
 布尔值
 ### getAlignment() {#getAlignment--}
 ```
@@ -64,8 +65,8 @@ public int getAlignment()
 
 默认值为[HorizontalRuleAlignment.LEFT](../../com.aspose.words/horizontalrulealignment\#LEFT).
 
-**退货:**
- int - 水平线的对齐方式。返回值是以下之一[HorizontalRuleAlignment](../../com.aspose.words/horizontalrulealignment)常数。
+**退货：**
+ int - 水平线的对齐方式。返回值是其中之一[HorizontalRuleAlignment](../../com.aspose.words/horizontalrulealignment)常数。
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -74,7 +75,7 @@ public final native Class<?> getClass()
 
 
 
-**退货:**
+**退货：**
 java.lang.Class<?>
 ### getColor() {#getColor--}
 ```
@@ -88,7 +89,7 @@ public Color getColor()
 
 默认值为 。
 
-**退货:**
+**退货：**
 java.awt.Color - 填充水平线的画笔颜色。
 ### getHeight() {#getHeight--}
 ```
@@ -104,7 +105,7 @@ public double getHeight()
 
 默认值为 1.5。
 
-**退货:**
+**退货：**
 double - 水平线的高度。
 ### getNoShade() {#getNoShade--}
 ```
@@ -116,21 +117,21 @@ public boolean getNoShade()
 
 默认值为假。
 
-**退货:**
-boolean - 对应的布尔值。
+**退货：**
+boolean - 相应的布尔值。
 ### getWidthPercent() {#getWidthPercent--}
 ```
 public double getWidthPercent()
 ```
 
 
-获取以窗口宽度百分比表示的指定水平线的长度。
+获取指定水平标线的长度，以窗口宽度的百分比表示。
 
 有效值\\u200b\\u200br 范围从 1 到 100（含）。
 
 默认值为 100。
 
-**退货:**
+**退货：**
 double - 指定水平线的长度，以窗口宽度的百分比表示。
 ### hashCode() {#hashCode--}
 ```
@@ -140,7 +141,7 @@ public native int hashCode()
 
 
 
-**退货:**
+**退货：**
 整数
 ### notify() {#notify--}
 ```
@@ -168,7 +169,8 @@ public void setAlignment(int value)
 
 默认值为[HorizontalRuleAlignment.LEFT](../../com.aspose.words/horizontalrulealignment\#LEFT).
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int | 水平线的对齐方式。该值必须是其中之一[HorizontalRuleAlignment](../../com.aspose.words/horizontalrulealignment)常数。 |
@@ -185,7 +187,8 @@ public void setColor(Color value)
 
 默认值为 。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.awt.Color | 填充水平线的画笔颜色。 |
@@ -204,10 +207,11 @@ public void setHeight(double value)
 
 默认值为 1.5。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 水平线的高度。 |
+| value | double | 水平尺的高度。 |
 
 ### setNoShade(boolean value) {#setNoShade-boolean-}
 ```
@@ -219,7 +223,8 @@ public void setNoShade(boolean value)
 
 默认值为假。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean | 对应的布尔值。 |
@@ -236,10 +241,11 @@ public void setWidthPercent(double value)
 
 默认值为 100。
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 指定水平线的长度，以窗口宽度的百分比表示。 |
+| value | double | 以窗口宽度百分比表示的指定水平线的长度。 |
 
 ### toString() {#toString--}
 ```
@@ -249,8 +255,8 @@ public String toString()
 
 
 
-**退货:**
-java.lang.String
+**退货：**
+java.lang.字符串
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -267,7 +273,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
@@ -280,7 +287,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
+**参数：**
+
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
