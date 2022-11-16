@@ -35,7 +35,7 @@ Aspose.Words 完全用 Java 编写。使用 Aspose.Words 不需要 Microsoft Wor
 | [ArrowType](../com.aspose.words/arrowtype) | 指定线末端的箭头类型。 |
 | [ArrowWidth](../com.aspose.words/arrowwidth) | 行尾箭头的宽度。 |
 | [AsposeWordsPrintDocument](../com.aspose.words/asposewordsprintdocument) | 提供打印 a 的默认实现[Document](../com.aspose.words/document)在 Java 打印框架中。 |
-| [AutoFitBehavior](../com.aspose.words/autofitbehavior) | 确定 Aspose.Words 在您调用**M:Aspose.Words.Tables.Table.AutoFit(Aspose.Words.Tables.AutoFitBehavior)**方法。 |
+| [AutoFitBehavior](../com.aspose.words/autofitbehavior) | 确定 Aspose.Words 在您调用 **M:Aspose.Words.Tables.Table.AutoFit(Aspose.Words.Tables.AutoFitBehavior)**方法。 |
 | [AxisBound](../com.aspose.words/axisbound) | 表示轴值的最小或最大界限。 |
 | [AxisBuiltInUnit](../com.aspose.words/axisbuiltinunit) | 指定轴的显示单位。 |
 | [AxisCategoryType](../com.aspose.words/axiscategorytype) | 指定类别轴的类型。 |
