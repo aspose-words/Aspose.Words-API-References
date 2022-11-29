@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.fields/fieldtoa/set_entrycategory/
 ---
-## FieldToa.set_EntryCategory method
+## FieldToa::set_EntryCategory method
 
 
 Setter for [Aspose::Words::Fields::FieldToa::get_EntryCategory](../get_entrycategory/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldToa::get_EntryCategory](../get_entrycate
 void Aspose::Words::Fields::FieldToa::set_EntryCategory(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldToa](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

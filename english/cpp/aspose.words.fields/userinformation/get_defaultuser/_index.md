@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.fields/userinformation/get_defaultuser/
 ---
-## UserInformation.get_DefaultUser method
+## UserInformation::get_DefaultUser method
 
 
 Default user information.
@@ -17,7 +17,6 @@ static System::SharedPtr<Aspose::Words::Fields::UserInformation> Aspose::Words::
 
 
 ## Examples
-
 
 
 
@@ -53,3 +52,9 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"FieldOptions.CurrentUser.docx");
 ```
 
+## See Also
+
+* Class [UserInformation](../)
+* Class [UserInformation](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

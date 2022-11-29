@@ -11,6 +11,10 @@ url: /cpp/aspose.words.tables/tablestyleoptions/
 
 Specifies how table style is applied to a table.
 
+```cpp
+enum class TableStyleOptions
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -27,7 +31,6 @@ Specifies how table style is applied to a table.
 
 
 ## Examples
-
 
 
 
@@ -75,3 +78,7 @@ builder->EndRow();
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertTableWithStyle.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Tables](../)
+* Library [Aspose.Words](../../)

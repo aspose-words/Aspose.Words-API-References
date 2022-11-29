@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/headerfootercollection/toarray/
 ---
-## HeaderFooterCollection.ToArray method
+## HeaderFooterCollection::ToArray method
 
 
 Copies all **HeaderFoorter**s from the collection to a new array of **HeaderFoorter**s.
@@ -18,11 +18,9 @@ System::ArrayPtr<System::SharedPtr<Aspose::Words::HeaderFooter>> Aspose::Words::
 
 ### ReturnValue
 
-
 An array of **HeaderFoorter**s.
 
 ## Examples
-
 
 
 
@@ -104,3 +102,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [HeaderFooter](../../headerfooter/)
+* Class [HeaderFooterCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

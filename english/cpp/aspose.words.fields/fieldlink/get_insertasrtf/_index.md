@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fields/fieldlink/get_insertasrtf/
 ---
-## FieldLink.get_InsertAsRtf method
+## FieldLink::get_InsertAsRtf method
 
 
 Gets or sets whether to insert the linked object in rich-text format (RTF).
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldLink::get_InsertAsRtf()
 
 
 ## Examples
-
 
 
 
@@ -196,3 +195,8 @@ static void InsertFieldDdeAuto(SharedPtr<DocumentBuilder> builder, ExField::Inse
 }
 ```
 
+## See Also
+
+* Class [FieldLink](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

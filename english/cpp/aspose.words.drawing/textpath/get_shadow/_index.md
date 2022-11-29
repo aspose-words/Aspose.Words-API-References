@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.drawing/textpath/get_shadow/
 ---
-## TextPath.get_Shadow method
+## TextPath::get_Shadow method
 
 
 Defines whether a shadow is applied to the text on a text path.
@@ -15,11 +15,12 @@ Defines whether a shadow is applied to the text on a text path.
 bool Aspose::Words::Drawing::TextPath::get_Shadow()
 ```
 
+## Remarks
+
 
 The default value is **false**.
 
 ## Examples
-
 
 
 
@@ -125,3 +126,8 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
 }
 ```
 
+## See Also
+
+* Class [TextPath](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

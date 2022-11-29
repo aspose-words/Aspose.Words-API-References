@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.words.fields/formfield/get_type/
 ---
-## FormField.get_Type method
+## FormField::get_Type method
 
 
 Returns the form field type.
@@ -17,7 +17,6 @@ Aspose::Words::Fields::FieldType Aspose::Words::Fields::FormField::get_Type()
 
 
 ## Examples
-
 
 
 
@@ -39,3 +38,9 @@ ASSERT_EQ(u"Apple", comboBox->get_Result());
 doc->Save(ArtifactsDir + u"FormFields.Create.html");
 ```
 
+## See Also
+
+* Enum [FieldType](../../fieldtype/)
+* Class [FormField](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/mergefieldimagedimension/mergefieldimagedimension/
 ---
-## MergeFieldImageDimension.MergeFieldImageDimension(double) method
+## MergeFieldImageDimension::MergeFieldImageDimension(double) constructor
 
 
 Creates an image dimension instance with the given value in points.
@@ -20,8 +20,12 @@ Aspose::Words::Fields::MergeFieldImageDimension::MergeFieldImageDimension(double
 | --- | --- | --- |
 | value | double | The value. |
 
+## See Also
 
-## MergeFieldImageDimension.MergeFieldImageDimension(double, Aspose::Words::Fields::MergeFieldImageDimensionUnit) method
+* Class [MergeFieldImageDimension](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)
+## MergeFieldImageDimension::MergeFieldImageDimension(double, Aspose::Words::Fields::MergeFieldImageDimensionUnit) constructor
 
 
 Creates an image dimension instance with the given value and the given unit.
@@ -36,4 +40,9 @@ Aspose::Words::Fields::MergeFieldImageDimension::MergeFieldImageDimension(double
 | value | double | The value. |
 | unit | Aspose::Words::Fields::MergeFieldImageDimensionUnit | The unit. |
 
+## See Also
 
+* Enum [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)
+* Class [MergeFieldImageDimension](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

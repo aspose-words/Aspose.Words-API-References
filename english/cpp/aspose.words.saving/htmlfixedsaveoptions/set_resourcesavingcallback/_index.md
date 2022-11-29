@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/set_resourcesavingcallback/
 ---
-## HtmlFixedSaveOptions.set_ResourceSavingCallback method
+## HtmlFixedSaveOptions::set_ResourceSavingCallback method
 
 
 Setter for [Aspose::Words::Saving::HtmlFixedSaveOptions::get_ResourceSavingCallback](../get_resourcesavingcallback/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Saving::HtmlFixedSaveOptions::get_ResourceSavingCallb
 void Aspose::Words::Saving::HtmlFixedSaveOptions::set_ResourceSavingCallback(const System::SharedPtr<Aspose::Words::Saving::IResourceSavingCallback> &value)
 ```
 
+## See Also
+
+* Interface [IResourceSavingCallback](../../iresourcesavingcallback/)
+* Class [HtmlFixedSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

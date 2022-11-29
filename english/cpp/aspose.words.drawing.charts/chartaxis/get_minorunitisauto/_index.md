@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_minorunitisauto/
 ---
-## ChartAxis.get_MinorUnitIsAuto method
+## ChartAxis::get_MinorUnitIsAuto method
 
 
 Gets or sets a flag indicating whether default distance between minor tick marks shall be used.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::Charts::ChartAxis::get_MinorUnitIsAuto()
 
 
 ## Examples
-
 
 
 
@@ -74,3 +73,8 @@ axis->get_DisplayUnit()->set_CustomUnit(1000000);
 doc->Save(ArtifactsDir + u"Charts.AxisDisplayUnit.docx");
 ```
 
+## See Also
+
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

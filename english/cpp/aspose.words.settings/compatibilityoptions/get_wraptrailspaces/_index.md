@@ -6,7 +6,7 @@ type: docs
 weight: 911
 url: /cpp/aspose.words.settings/compatibilityoptions/get_wraptrailspaces/
 ---
-## CompatibilityOptions.get_WrapTrailSpaces method
+## CompatibilityOptions::get_WrapTrailSpaces method
 
 
 Line Wrap Trailing Spaces.
@@ -15,3 +15,8 @@ Line Wrap Trailing Spaces.
 bool Aspose::Words::Settings::CompatibilityOptions::get_WrapTrailSpaces()
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

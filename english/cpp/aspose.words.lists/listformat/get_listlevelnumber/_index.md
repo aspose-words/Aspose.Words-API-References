@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.lists/listformat/get_listlevelnumber/
 ---
-## ListFormat.get_ListLevelNumber method
+## ListFormat::get_ListLevelNumber method
 
 
 Gets or sets the list level number (0 to 8) for the paragraph.
@@ -15,13 +15,14 @@ Gets or sets the list level number (0 to 8) for the paragraph.
 int32_t Aspose::Words::Lists::ListFormat::get_ListLevelNumber()
 ```
 
+## Remarks
+
 
 In Word documents, lists may consist of 1 or 9 levels, numbered 0 to 8.
 
 Has effect only when the [List](../get_list/) property is set to reference a valid list.
 
 ## Examples
-
 
 
 
@@ -152,3 +153,8 @@ ASSERT_FALSE(builder->get_ListFormat()->get_IsListItem());
 doc->Save(ArtifactsDir + u"Lists.SpecifyListLevel.docx");
 ```
 
+## See Also
+
+* Class [ListFormat](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

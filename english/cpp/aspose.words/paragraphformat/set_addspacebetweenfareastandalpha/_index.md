@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /cpp/aspose.words/paragraphformat/set_addspacebetweenfareastandalpha/
 ---
-## ParagraphFormat.set_AddSpaceBetweenFarEastAndAlpha method
+## ParagraphFormat::set_AddSpaceBetweenFarEastAndAlpha method
 
 
 Setter for [Aspose::Words::ParagraphFormat::get_AddSpaceBetweenFarEastAndAlpha](../get_addspacebetweenfareastandalpha/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::ParagraphFormat::get_AddSpaceBetweenFarEastAndAlpha](
 void Aspose::Words::ParagraphFormat::set_AddSpaceBetweenFarEastAndAlpha(bool value)
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

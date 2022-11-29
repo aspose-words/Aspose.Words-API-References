@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/aspose.words.saving/saveoptions/set_updatelastprintedproperty/
 ---
-## SaveOptions.set_UpdateLastPrintedProperty method
+## SaveOptions::set_UpdateLastPrintedProperty method
 
 
 Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateLastPrintedProperty](../get_updatelastprintedproperty/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateLastPrintedProperty](.
 void Aspose::Words::Saving::SaveOptions::set_UpdateLastPrintedProperty(bool value)
 ```
 
+## See Also
+
+* Class [SaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

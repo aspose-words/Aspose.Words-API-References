@@ -6,7 +6,7 @@ type: docs
 weight: 1028
 url: /cpp/aspose.words/document/set_showgrammaticalerrors/
 ---
-## Document.set_ShowGrammaticalErrors method
+## Document::set_ShowGrammaticalErrors method
 
 
 Setter for [Aspose::Words::Document::get_ShowGrammaticalErrors](../get_showgrammaticalerrors/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Document::get_ShowGrammaticalErrors](../get_showgramm
 void Aspose::Words::Document::set_ShowGrammaticalErrors(bool value)
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

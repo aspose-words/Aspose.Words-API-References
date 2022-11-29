@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/aspose.words/paragraphformat/get_suppressautohyphens/
 ---
-## ParagraphFormat.get_SuppressAutoHyphens method
+## ParagraphFormat::get_SuppressAutoHyphens method
 
 
 Specifies whether the current paragraph should be exempted from any hyphenation which is applied in the document settings.
@@ -17,7 +17,6 @@ bool Aspose::Words::ParagraphFormat::get_SuppressAutoHyphens()
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,8 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat()
 doc->Save(ArtifactsDir + u"ParagraphFormat.SuppressHyphens.pdf");
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing.charts/axisbuiltinunit/
 
 Specifies the display units for an axis.
 
+```cpp
+enum class AxisBuiltInUnit
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -30,7 +34,6 @@ Specifies the display units for an axis.
 
 
 ## Examples
-
 
 
 
@@ -87,3 +90,7 @@ axis->get_DisplayUnit()->set_CustomUnit(1000000);
 doc->Save(ArtifactsDir + u"Charts.AxisDisplayUnit.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing::Charts](../)
+* Library [Aspose.Words](../../)

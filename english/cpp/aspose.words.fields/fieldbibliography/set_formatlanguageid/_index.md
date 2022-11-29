@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldbibliography/set_formatlanguageid/
 ---
-## FieldBibliography.set_FormatLanguageId method
+## FieldBibliography::set_FormatLanguageId method
 
 
 Setter for [Aspose::Words::Fields::FieldBibliography::get_FormatLanguageId](../get_formatlanguageid/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldBibliography::get_FormatLanguageId](../g
 void Aspose::Words::Fields::FieldBibliography::set_FormatLanguageId(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldBibliography](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

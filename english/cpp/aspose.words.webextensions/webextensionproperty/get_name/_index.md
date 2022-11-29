@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.webextensions/webextensionproperty/get_name/
 ---
-## WebExtensionProperty.get_Name method
+## WebExtensionProperty::get_Name method
 
 
 Specifies a custom property name.
@@ -15,3 +15,8 @@ Specifies a custom property name.
 System::String Aspose::Words::WebExtensions::WebExtensionProperty::get_Name() const
 ```
 
+## See Also
+
+* Class [WebExtensionProperty](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

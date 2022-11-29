@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /cpp/aspose.words.tables/table/get_title/
 ---
-## Table.get_Title method
+## Table::get_Title method
 
 
 Gets or sets title of this table. It provides an alternative text representation of the information contained in the table.
@@ -15,13 +15,14 @@ Gets or sets title of this table. It provides an alternative text representation
 System::String Aspose::Words::Tables::Table::get_Title()
 ```
 
+## Remarks
+
 
 The default value is an empty string.
 
 This property is meaningful for ISO/IEC 29500 compliant DOCX documents ([OoxmlCompliance](../../../aspose.words.saving/ooxmlcompliance/)). When saved to pre-ISO/IEC 29500 formats, the property is ignored.
 
 ## Examples
-
 
 
 
@@ -72,3 +73,8 @@ static SharedPtr<Table> CreateTable(SharedPtr<Document> doc, int rowCount, int c
 }
 ```
 
+## See Also
+
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

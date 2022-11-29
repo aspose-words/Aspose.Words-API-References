@@ -11,6 +11,10 @@ url: /cpp/aspose.words.settings/viewtype/
 
 Possible values for the view mode in Microsoft Word.
 
+```cpp
+enum class ViewType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -24,7 +28,6 @@ Possible values for the view mode in Microsoft Word.
 
 
 ## Examples
-
 
 
 
@@ -43,3 +46,7 @@ ASSERT_EQ(ZoomType::None, doc->get_ViewOptions()->get_ZoomType());
 doc->Save(ArtifactsDir + u"ViewOptions.SetZoomPercentage.doc");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Settings](../)
+* Library [Aspose.Words](../../)

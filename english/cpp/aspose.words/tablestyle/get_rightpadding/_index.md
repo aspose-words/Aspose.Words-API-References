@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words/tablestyle/get_rightpadding/
 ---
-## TableStyle.get_RightPadding method
+## TableStyle::get_RightPadding method
 
 
 Gets or sets the amount of space (in points) to add to the right of the contents of table cells.
@@ -17,7 +17,6 @@ double Aspose::Words::TableStyle::get_RightPadding()
 
 
 ## Examples
-
 
 
 
@@ -59,3 +58,8 @@ ASSERT_EQ(u"MyTableStyle1", table->get_StyleName());
 doc->Save(ArtifactsDir + u"Table.TableStyleCreation.docx");
 ```
 
+## See Also
+
+* Class [TableStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

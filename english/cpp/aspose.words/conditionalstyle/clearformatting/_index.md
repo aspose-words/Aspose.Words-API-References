@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/conditionalstyle/clearformatting/
 ---
-## ConditionalStyle.ClearFormatting method
+## ConditionalStyle::ClearFormatting method
 
 
 Clears formatting of this conditional style.
@@ -17,7 +17,6 @@ void Aspose::Words::ConditionalStyle::ClearFormatting()
 
 
 ## Examples
-
 
 
 
@@ -59,3 +58,8 @@ auto isEmptyColor = [](SharedPtr<ConditionalStyle> s)
 ASSERT_TRUE(tableStyle->get_ConditionalStyles()->LINQ_All(isEmptyColor));
 ```
 
+## See Also
+
+* Class [ConditionalStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

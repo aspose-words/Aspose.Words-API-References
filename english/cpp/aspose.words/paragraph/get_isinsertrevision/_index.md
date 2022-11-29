@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words/paragraph/get_isinsertrevision/
 ---
-## Paragraph.get_IsInsertRevision method
+## Paragraph::get_IsInsertRevision method
 
 
 Returns true if this object was inserted in Microsoft Word while change tracking was enabled.
@@ -17,7 +17,6 @@ bool Aspose::Words::Paragraph::get_IsInsertRevision()
 
 
 ## Examples
-
 
 
 
@@ -61,3 +60,8 @@ ASSERT_EQ(0, para->get_Count());
 ASSERT_EQ(String(u"Paragraph 1. \r") + u"Paragraph 2. \r" + u"Paragraph 4.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

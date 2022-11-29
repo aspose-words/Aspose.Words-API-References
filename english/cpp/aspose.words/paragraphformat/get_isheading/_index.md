@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words/paragraphformat/get_isheading/
 ---
-## ParagraphFormat.get_IsHeading method
+## ParagraphFormat::get_IsHeading method
 
 
 True when the paragraph style is one of the built-in Heading styles.
@@ -17,7 +17,6 @@ bool Aspose::Words::ParagraphFormat::get_IsHeading()
 
 
 ## Examples
-
 
 
 
@@ -57,3 +56,8 @@ saveOptions->get_OutlineOptions()->set_HeadingsOutlineLevels(2);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.HeadingsOutlineLevels.pdf", saveOptions);
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

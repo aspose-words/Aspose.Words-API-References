@@ -26,7 +26,6 @@ class FontInfoSubstitutionRule : public Aspose::Words::Fonts::FontSubstitutionRu
 
 
 
-
 Shows how to set the property for finding the closest match for a missing font from the available font sources. 
 ```cpp
 void EnableFontSubstitution()
@@ -85,3 +84,8 @@ public:
 };
 ```
 
+## See Also
+
+* Class [FontSubstitutionRule](../fontsubstitutionrule/)
+* Namespace [Aspose::Words::Fonts](../)
+* Library [Aspose.Words](../../)

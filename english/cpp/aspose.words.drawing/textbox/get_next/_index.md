@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.drawing/textbox/get_next/
 ---
-## TextBox.get_Next method
+## TextBox::get_Next method
 
 
 Returns or sets a [TextBox](../) that represents the next [TextBox](../) in a sequence of shapes.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::TextBox> Aspose::Words::Drawing::TextB
 
 
 ## Examples
-
 
 
 
@@ -84,3 +83,9 @@ if (textBox3->get_Next() == nullptr && textBox3->get_Previous() != nullptr)
 doc->Save(ArtifactsDir + u"Shape.CreateLinkBetweenTextBoxes.docx");
 ```
 
+## See Also
+
+* Class [TextBox](../)
+* Class [TextBox](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

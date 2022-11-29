@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words/border/get_linewidth/
 ---
-## Border.get_LineWidth method
+## Border::get_LineWidth method
 
 
 Gets or sets the border width in points.
@@ -15,11 +15,12 @@ Gets or sets the border width in points.
 double Aspose::Words::Border::get_LineWidth()
 ```
 
+## Remarks
+
 
 If you set line width greater than zero when line style is none, the line style is automatically changed to single line.
 
 ## Examples
-
 
 
 
@@ -37,3 +38,8 @@ builder->Write(u"Text surrounded by green border.");
 doc->Save(ArtifactsDir + u"Border.FontBorder.docx");
 ```
 
+## See Also
+
+* Class [Border](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

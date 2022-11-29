@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.digitalsignatures/digitalsignature/get_subjectname/
 ---
-## DigitalSignature.get_SubjectName method
+## DigitalSignature::get_SubjectName method
 
 
 Returns the subject distinguished name of the certificate that was used to sign the document.
@@ -17,7 +17,6 @@ System::String Aspose::Words::DigitalSignatures::DigitalSignature::get_SubjectNa
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,8 @@ ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_I
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
 ```
 
+## See Also
+
+* Class [DigitalSignature](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)

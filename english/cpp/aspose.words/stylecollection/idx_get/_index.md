@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words/stylecollection/idx_get/
 ---
-## StyleCollection.idx_get(Aspose::Words::StyleIdentifier) method
+## StyleCollection::idx_get(Aspose::Words::StyleIdentifier) method
 
 
 Gets a built-in style by its locale independent identifier.
@@ -19,11 +19,12 @@ System::SharedPtr<Aspose::Words::Style> Aspose::Words::StyleCollection::idx_get(
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sti | Aspose::Words::StyleIdentifier | A [StyleIdentifier](../../styleidentifier/) value that specifies the built in style to retrieve. |
+## Remarks
+
 
 When accessing a style that does not yet exist, automatically creates it.
 
 ## Examples
-
 
 
 
@@ -46,7 +47,14 @@ ASSERT_EQ(u"Courier New", styles->idx_get(4)->get_Font()->get_Name());
 ASPOSE_ASSERT_EQ(15.0, styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_FirstLineIndent());
 ```
 
-## StyleCollection.idx_get(const System::String\&) method
+## See Also
+
+* Class [Style](../../style/)
+* Enum [StyleIdentifier](../../styleidentifier/)
+* Class [StyleCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## StyleCollection::idx_get(const System::String\&) method
 
 
 Gets a style by name or alias.
@@ -55,13 +63,14 @@ Gets a style by name or alias.
 System::SharedPtr<Aspose::Words::Style> Aspose::Words::StyleCollection::idx_get(const System::String &name)
 ```
 
+## Remarks
+
 
 Case sensitive, returns null if the style with the given name is not found.
 
 If this is an English name of a built in style that does not yet exist, automatically creates it.
 
 ## Examples
-
 
 
 
@@ -85,7 +94,13 @@ doc->UpdatePageLayout();
 doc->Save(ArtifactsDir + u"Document.UpdatePageLayout.2.pdf");
 ```
 
-## StyleCollection.idx_get(int32_t) method
+## See Also
+
+* Class [Style](../../style/)
+* Class [StyleCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## StyleCollection::idx_get(int32_t) method
 
 
 Gets a style by index.
@@ -96,7 +111,6 @@ System::SharedPtr<Aspose::Words::Style> Aspose::Words::StyleCollection::idx_get(
 
 
 ## Examples
-
 
 
 
@@ -119,3 +133,9 @@ ASSERT_EQ(u"Courier New", styles->idx_get(4)->get_Font()->get_Name());
 ASPOSE_ASSERT_EQ(15.0, styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_FirstLineIndent());
 ```
 
+## See Also
+
+* Class [Style](../../style/)
+* Class [StyleCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

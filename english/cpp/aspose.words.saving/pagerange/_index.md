@@ -20,3 +20,7 @@ class PageRange : public System::Object
 | Method | Description |
 | --- | --- |
 | [PageRange](./pagerange/)(int32_t, int32_t) | Creates a new page range object. |
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/set_isshowingplaceholdertext/
 ---
-## StructuredDocumentTagRangeStart.set_IsShowingPlaceholderText method
+## StructuredDocumentTagRangeStart::set_IsShowingPlaceholderText method
 
 
 Setter for [Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_IsShowingPlaceholderText](../get_isshowingplaceholdertext/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_IsShowin
 void Aspose::Words::Markup::StructuredDocumentTagRangeStart::set_IsShowingPlaceholderText(bool value) override
 ```
 
+## See Also
+
+* Class [StructuredDocumentTagRangeStart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

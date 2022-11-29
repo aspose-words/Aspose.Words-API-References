@@ -6,10 +6,10 @@ type: docs
 weight: 287
 url: /cpp/aspose.words.tables/table/get_horizontalanchor/
 ---
-## Table.get_HorizontalAnchor method
+## Table::get_HorizontalAnchor method
 
 
-Gets the base object from which the horizontal positioning of floating table should be calculated. Default value is **Column**.
+Gets the base object from which the horizontal positioning of floating table should be calculated. Default value is [Column](../../../aspose.words.drawing/relativehorizontalposition/).
 
 ```cpp
 Aspose::Words::Drawing::RelativeHorizontalPosition Aspose::Words::Tables::Table::get_HorizontalAnchor()
@@ -17,7 +17,6 @@ Aspose::Words::Drawing::RelativeHorizontalPosition Aspose::Words::Tables::Table:
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,9 @@ if (table->get_TextWrapping() == TextWrapping::Around)
 }
 ```
 
+## See Also
+
+* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

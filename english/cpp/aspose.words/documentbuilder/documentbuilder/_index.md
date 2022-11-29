@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/documentbuilder/documentbuilder/
 ---
-## DocumentBuilder.DocumentBuilder() method
+## DocumentBuilder::DocumentBuilder() constructor
 
 
 Initializes a new instance of this class.
@@ -15,7 +15,12 @@ Initializes a new instance of this class.
 Aspose::Words::DocumentBuilder::DocumentBuilder()
 ```
 
-## DocumentBuilder.DocumentBuilder(const System::SharedPtr\<Aspose::Words::Document\>\&) method
+## See Also
+
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## DocumentBuilder::DocumentBuilder(const System::SharedPtr\<Aspose::Words::Document\>\&) constructor
 
 
 Initializes a new instance of this class.
@@ -30,7 +35,6 @@ Aspose::Words::DocumentBuilder::DocumentBuilder(const System::SharedPtr<Aspose::
 | doc | const System::SharedPtr\<Aspose::Words::Document\>\& | The [Document](../../document/) object to attach to. |
 
 ## Examples
-
 
 
 
@@ -125,3 +129,9 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertToc.docx");
 ```
 
+## See Also
+
+* Class [Document](../../document/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fielddatabasedatatable/createfrom/
 ---
-## FieldDatabaseDataTable.CreateFrom method
+## FieldDatabaseDataTable::CreateFrom method
 
 
 Initializes a new instance of the [FieldDatabaseDataTable](../) class from the **DataTable** instance.
@@ -15,3 +15,9 @@ Initializes a new instance of the [FieldDatabaseDataTable](../) class from the *
 static System::SharedPtr<Aspose::Words::Fields::FieldDatabaseDataTable> Aspose::Words::Fields::FieldDatabaseDataTable::CreateFrom(const System::SharedPtr<System::Data::DataTable> &dataTable)
 ```
 
+## See Also
+
+* Class [FieldDatabaseDataTable](../)
+* Class [FieldDatabaseDataTable](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

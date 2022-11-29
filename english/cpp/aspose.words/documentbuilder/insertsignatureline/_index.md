@@ -6,7 +6,7 @@ type: docs
 weight: 560
 url: /cpp/aspose.words/documentbuilder/insertsignatureline/
 ---
-## DocumentBuilder.InsertSignatureLine(const System::SharedPtr\<Aspose::Words::SignatureLineOptions\>\&) method
+## DocumentBuilder::InsertSignatureLine(const System::SharedPtr\<Aspose::Words::SignatureLineOptions\>\&) method
 
 
 Inserts a signature line at the current position.
@@ -22,11 +22,9 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder:
 
 ### ReturnValue
 
-
 The signature line node that was just inserted.
 
 ## Examples
-
 
 
 
@@ -73,7 +71,14 @@ ASSERT_TRUE(signatureLine->get_IsSigned());
 ASSERT_TRUE(signatureLine->get_IsValid());
 ```
 
-## DocumentBuilder.InsertSignatureLine(const System::SharedPtr\<Aspose::Words::SignatureLineOptions\>\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, Aspose::Words::Drawing::WrapType) method
+## See Also
+
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Class [SignatureLineOptions](../../signaturelineoptions/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## DocumentBuilder::InsertSignatureLine(const System::SharedPtr\<Aspose::Words::SignatureLineOptions\>\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, Aspose::Words::Drawing::WrapType) method
 
 
 Inserts a signature line at the specified position.
@@ -94,13 +99,13 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder:
 
 ### ReturnValue
 
-
 The signature line node that was just inserted.
+## Remarks
+
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 ## Examples
-
 
 
 
@@ -124,3 +129,13 @@ builder->InsertSignatureLine(options, RelativeHorizontalPosition::RightMargin, 2
 doc->Save(ArtifactsDir + u"DocumentBuilder.SignatureLineInline.docx");
 ```
 
+## See Also
+
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Class [SignatureLineOptions](../../signaturelineoptions/)
+* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* Enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldnoteref/
 Implements the NOTEREF field.
 
 ```cpp
-class FieldNoteRef : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldNoteRef : public Aspose::Words::Fields::Field,
+                     public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -51,7 +52,6 @@ class FieldNoteRef : public Aspose::Words::Fields::Field, public Aspose::Words::
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 
 ## Examples
-
 
 
 
@@ -112,3 +112,8 @@ static void InsertBookmarkWithFootnote(SharedPtr<DocumentBuilder> builder, Strin
 }
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

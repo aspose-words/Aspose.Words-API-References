@@ -36,7 +36,6 @@ class OutlineOptions : public System::Object
 
 
 
-
 Shows to process bookmarks in headers/footers in a document that we are rendering to PDF. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Bookmarks in headers and footers.docx");
@@ -63,3 +62,7 @@ saveOptions->set_HeaderFooterBookmarksExportMode(headerFooterBookmarksExportMode
 doc->Save(ArtifactsDir + u"PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", saveOptions);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

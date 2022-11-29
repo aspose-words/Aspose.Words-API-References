@@ -25,6 +25,8 @@ class FieldCollection : public System::Collections::Generic::IEnumerable<System:
 | [idx_get](./idx_get/)(int32_t) | Returns a field at the specified index. |
 | [Remove](./remove/)(const System::SharedPtr\<Aspose::Words::Fields::Field\>\&) | Removes the specified field from this collection and from the document. |
 | [RemoveAt](./removeat/)(int32_t) | Removes a field at the specified index from this collection and from the document. |
+## Remarks
+
 
 An instance of this collection iterates fields which start fall within the specified range.
 
@@ -33,7 +35,6 @@ The [FieldCollection](./) collection does not own the fields it contains, rather
 The [FieldCollection](./) collection is "live", i.e. changes to the children of the node object that it was created from are immediately reflected in the fields returned by the [FieldCollection](./) properties and methods.
 
 ## Examples
-
 
 
 
@@ -161,3 +162,7 @@ fields->Clear();
 ASSERT_EQ(0, fields->get_Count());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

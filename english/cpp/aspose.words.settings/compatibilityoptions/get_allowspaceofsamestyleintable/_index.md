@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.settings/compatibilityoptions/get_allowspaceofsamestyleintable/
 ---
-## CompatibilityOptions.get_AllowSpaceOfSameStyleInTable method
+## CompatibilityOptions::get_AllowSpaceOfSameStyleInTable method
 
 
 Allow Contextual Spacing of Paragraphs in [Tables](../../../aspose.words.tables/).
@@ -15,3 +15,8 @@ Allow Contextual Spacing of Paragraphs in [Tables](../../../aspose.words.tables/
 bool Aspose::Words::Settings::CompatibilityOptions::get_AllowSpaceOfSameStyleInTable()
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

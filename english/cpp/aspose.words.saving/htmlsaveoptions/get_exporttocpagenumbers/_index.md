@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exporttocpagenumbers/
 ---
-## HtmlSaveOptions.get_ExportTocPageNumbers method
+## HtmlSaveOptions::get_ExportTocPageNumbers method
 
 
 Specifies whether to write page numbers to table of contents when saving HTML, MHTML and EPUB. Default value is **false**.
@@ -17,7 +17,6 @@ bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportTocPageNumbers() const
 
 
 ## Examples
-
 
 
 
@@ -71,3 +70,8 @@ else
 }
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.notes/footnote/set_isauto/
 ---
-## Footnote.set_IsAuto method
+## Footnote::set_IsAuto method
 
 
 Setter for [Aspose::Words::Notes::Footnote::get_IsAuto](../get_isauto/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Notes::Footnote::get_IsAuto](../get_isauto/).
 void Aspose::Words::Notes::Footnote::set_IsAuto(bool value)
 ```
 
+## See Also
+
+* Class [Footnote](../)
+* Namespace [Aspose::Words::Notes](../../)
+* Library [Aspose.Words](../../../)

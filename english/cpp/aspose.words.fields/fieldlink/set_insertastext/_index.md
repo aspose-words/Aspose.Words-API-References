@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.fields/fieldlink/set_insertastext/
 ---
-## FieldLink.set_InsertAsText method
+## FieldLink::set_InsertAsText method
 
 
 Setter for [Aspose::Words::Fields::FieldLink::get_InsertAsText](../get_insertastext/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldLink::get_InsertAsText](../get_insertast
 void Aspose::Words::Fields::FieldLink::set_InsertAsText(bool value)
 ```
 
+## See Also
+
+* Class [FieldLink](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

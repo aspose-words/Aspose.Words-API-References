@@ -12,7 +12,11 @@ url: /cpp/aspose.words.markup/structureddocumenttag/
 Represents a structured document tag (SDT or content control) in a document.
 
 ```cpp
-class StructuredDocumentTag : public Aspose::Words::CompositeNode, public Aspose::Words::Markup::IMarkupNode, public Aspose::Words::Revisions::ITrackableNode, public Aspose::Words::IRunAttrSource, public Aspose::Words::Markup::IStructuredDocumentTag
+class StructuredDocumentTag : public Aspose::Words::CompositeNode,
+                              public Aspose::Words::Markup::IMarkupNode,
+                              public Aspose::Words::Revisions::ITrackableNode,
+                              public Aspose::Words::IRunAttrSource,
+                              public Aspose::Words::Markup::IStructuredDocumentTag
 ```
 
 ## Methods
@@ -26,7 +30,7 @@ class StructuredDocumentTag : public Aspose::Words::CompositeNode, public Aspose
 | [get_Appearance](./get_appearance/)() const | Gets/sets the appearance of a structured document tag. |
 | [get_BuildingBlockCategory](./get_buildingblockcategory/)() | Specifies category of building block for this **SDT** node. Can not be null. |
 | [get_BuildingBlockGallery](./get_buildingblockgallery/)() | Specifies type of building block for this **SDT**. Can not be null. |
-| [get_CalendarType](./get_calendartype/)() | Specifies the type of calendar for this **SDT**. Default is **Default** |
+| [get_CalendarType](./get_calendartype/)() | Specifies the type of calendar for this **SDT**. Default is [Default](../sdtcalendartype/) |
 | [get_Checked](./get_checked/)() | Gets/Sets current state of the Checkbox **SDT**. Default value for this property is false. |
 | [get_ChildNodes](../../aspose.words/compositenode/get_childnodes/)() | Gets all immediate child nodes of this node. |
 | [get_Color](./get_color/)() override | Gets or sets the color of the structured document tag. |
@@ -35,7 +39,7 @@ class StructuredDocumentTag : public Aspose::Words::CompositeNode, public Aspose
 | [get_CustomNodeId](../../aspose.words/node/get_customnodeid/)() const | Specifies custom node identifier. |
 | [get_DateDisplayFormat](./get_datedisplayformat/)() | String that represents the format in which dates are displayed. Can not be null. |
 | [get_DateDisplayLocale](./get_datedisplaylocale/)() | Allows to set/get the language format for the date displayed in this **SDT**. |
-| [get_DateStorageFormat](./get_datestorageformat/)() | Gets/sets format in which the date for a date SDT is stored when the **SDT** is bound to an XML node in the document's data store. Default value is **DateTime** |
+| [get_DateStorageFormat](./get_datestorageformat/)() | Gets/sets format in which the date for a date SDT is stored when the **SDT** is bound to an XML node in the document's data store. Default value is [DateTime](../sdtdatestorageformat/) |
 | virtual [get_Document](../../aspose.words/node/get_document/)() const | Gets the document to which this node belongs. |
 | [get_EndCharacterFont](./get_endcharacterfont/)() | [Font](../../aspose.words/font/) formatting that will be applied to the last character of text entered into **SDT**. |
 | [get_FirstChild](../../aspose.words/compositenode/get_firstchild/)() const | Gets the first child of the node. |
@@ -55,7 +59,7 @@ class StructuredDocumentTag : public Aspose::Words::CompositeNode, public Aspose
 | [get_NodeType](./get_nodetype/)() const override | Returns **NodeType.StructuredDocumentTag**. |
 | [get_ParentNode](../../aspose.words/node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_Placeholder](./get_placeholder/)() override | Gets the [BuildingBlock](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [XmlMapping](./get_xmlmapping/) element or the [IsShowingPlaceholderText](./get_isshowingplaceholdertext/) element is true. |
-| [get_PlaceholderName](./get_placeholdername/)() override | Gets or sets Name of the [BuildingBlock](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text. BuildingBlock with this name [Name](../../aspose.words.buildingblocks/buildingblock/get_name/) has to be present in the [GlossaryDocument](../../aspose.words/document/get_glossarydocument/) otherwise **InvalidOperationException** will occur. |
+| [get_PlaceholderName](./get_placeholdername/)() override | Gets or sets Name of the [BuildingBlock](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text. BuildingBlock with this name [Name](../../aspose.words.buildingblocks/buildingblock/get_name/) has to be present in the [GlossaryDocument](../../aspose.words/document/get_glossarydocument/) otherwise [InvalidOperationException](../) will occur. |
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
 | [get_Range](../../aspose.words/node/get_range/)() | Returns a **Range** object that represents the portion of a document that is contained in this node. |
 | [get_SdtType](./get_sdttype/)() override | Gets type of this **Structured document tag**. |
@@ -63,7 +67,7 @@ class StructuredDocumentTag : public Aspose::Words::CompositeNode, public Aspose
 | [get_StyleName](./get_stylename/)() | Gets or sets the name of the style applied to the structured document tag. |
 | [get_Tag](./get_tag/)() const override | Specifies a tag associated with the current SDT node. Can not be null. |
 | [get_Title](./get_title/)() const override | Specifies the friendly name associated with this **SDT**. Can not be null. |
-| [get_WordOpenXML](./get_wordopenxml/)() override | Gets a string that represents the XML contained within the node in the **FlatOpc** format. |
+| [get_WordOpenXML](./get_wordopenxml/)() override | Gets a string that represents the XML contained within the node in the [FlatOpc](../../aspose.words/saveformat/) format. |
 | [get_XmlMapping](./get_xmlmapping/)() override | Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/). |
 | [GetAncestorOf](../../aspose.words/node/getancestorof/)() |  |
@@ -112,6 +116,8 @@ class StructuredDocumentTag : public Aspose::Words::CompositeNode, public Aspose
 | [StructuredDocumentTag](./structureddocumenttag/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, Aspose::Words::Markup::SdtType, Aspose::Words::Markup::MarkupLevel) | Initializes a new instance of the **Structured document tag** class. |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 Structured document tags (SDTs) allow to embed customer-defined semantics as well as its behavior and appearance into a document.
 
@@ -128,7 +134,6 @@ In this version Aspose.Words provides a number of public methods and properties 
 
 
 ## Examples
-
 
 
 
@@ -163,3 +168,9 @@ for (const auto& node : System::IterateOver(tags))
 }
 ```
 
+## See Also
+
+* Class [CompositeNode](../../aspose.words/compositenode/)
+* Interface [IStructuredDocumentTag](../istructureddocumenttag/)
+* Namespace [Aspose::Words::Markup](../)
+* Library [Aspose.Words](../../)

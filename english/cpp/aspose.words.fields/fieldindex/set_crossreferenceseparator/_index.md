@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words.fields/fieldindex/set_crossreferenceseparator/
 ---
-## FieldIndex.set_CrossReferenceSeparator method
+## FieldIndex::set_CrossReferenceSeparator method
 
 
 Setter for [Aspose::Words::Fields::FieldIndex::get_CrossReferenceSeparator](../get_crossreferenceseparator/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldIndex::get_CrossReferenceSeparator](../g
 void Aspose::Words::Fields::FieldIndex::set_CrossReferenceSeparator(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldIndex](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

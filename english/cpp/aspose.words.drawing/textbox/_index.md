@@ -41,11 +41,12 @@ class TextBox : public System::Object
 | [set_Next](./set_next/)(const System::SharedPtr\<Aspose::Words::Drawing::TextBox\>\&) | Setter for [Aspose::Words::Drawing::TextBox::get_Next](./get_next/). |
 | [set_TextBoxWrapMode](./set_textboxwrapmode/)(Aspose::Words::Drawing::TextBoxWrapMode) | Setter for [Aspose::Words::Drawing::TextBox::get_TextBoxWrapMode](./get_textboxwrapmode/). |
 | [set_VerticalAnchor](./set_verticalanchor/)(Aspose::Words::Drawing::TextBoxAnchor) | Setter for [Aspose::Words::Drawing::TextBox::get_VerticalAnchor](./get_verticalanchor/). |
+## Remarks
+
 
 Use the [TextBox](../shape/get_textbox/) property to access text properties of a shape. You do not create instances of the [TextBox](./) class directly.
 
 ## Examples
-
 
 
 
@@ -108,3 +109,7 @@ builder->Write(u"Text placed according to textbox margins.");
 doc->Save(ArtifactsDir + u"Shape.TextBoxMargins.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

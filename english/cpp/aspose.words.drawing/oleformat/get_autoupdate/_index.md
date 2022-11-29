@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.drawing/oleformat/get_autoupdate/
 ---
-## OleFormat.get_AutoUpdate method
+## OleFormat::get_AutoUpdate method
 
 
 Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word.
@@ -15,11 +15,12 @@ Specifies whether the link to the OLE object is automatically updated or not in 
 bool Aspose::Words::Drawing::OleFormat::get_AutoUpdate()
 ```
 
+## Remarks
+
 
 The default value is **false**.
 
 ## Examples
-
 
 
 
@@ -53,3 +54,8 @@ ASSERT_EQ(u".xlsx", oleFormat->get_SuggestedExtension());
 oleFormat->Save(ArtifactsDir + u"OLE spreadsheet saved directly" + oleFormat->get_SuggestedExtension());
 ```
 
+## See Also
+
+* Class [OleFormat](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

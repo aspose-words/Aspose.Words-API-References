@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/set_exportembeddedfonts/
 ---
-## HtmlFixedSaveOptions.set_ExportEmbeddedFonts method
+## HtmlFixedSaveOptions::set_ExportEmbeddedFonts method
 
 
 Setter for [Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedFonts](../get_exportembeddedfonts/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedFonts
 void Aspose::Words::Saving::HtmlFixedSaveOptions::set_ExportEmbeddedFonts(bool value)
 ```
 
+## See Also
+
+* Class [HtmlFixedSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.lists/list/compareto/
 ---
-## List.CompareTo method
+## List::CompareTo method
 
 
 Compares the specified list to the current list.
@@ -15,3 +15,9 @@ Compares the specified list to the current list.
 int32_t Aspose::Words::Lists::List::CompareTo(System::SharedPtr<Aspose::Words::Lists::List> other) override
 ```
 
+## See Also
+
+* Class [List](../)
+* Class [List](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fieldcollection/getenumerator/
 ---
-## FieldCollection.GetEnumerator method
+## FieldCollection::GetEnumerator method
 
 
 Returns an enumerator object.
@@ -17,7 +17,6 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 
 ## Examples
-
 
 
 
@@ -108,3 +107,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Field](../../field/)
+* Class [FieldCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

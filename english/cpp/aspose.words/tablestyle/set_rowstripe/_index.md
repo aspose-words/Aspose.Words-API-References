@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.words/tablestyle/set_rowstripe/
 ---
-## TableStyle.set_RowStripe method
+## TableStyle::set_RowStripe method
 
 
 Setter for [Aspose::Words::TableStyle::get_RowStripe](../get_rowstripe/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::TableStyle::get_RowStripe](../get_rowstripe/).
 void Aspose::Words::TableStyle::set_RowStripe(int32_t value)
 ```
 
+## See Also
+
+* Class [TableStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportimagesasbase64/
 ---
-## HtmlSaveOptions.get_ExportImagesAsBase64 method
+## HtmlSaveOptions::get_ExportImagesAsBase64 method
 
 
 Specifies whether images are saved in Base64 format to the output HTML, MHTML or EPUB. Default is **false**.
@@ -15,11 +15,12 @@ Specifies whether images are saved in Base64 format to the output HTML, MHTML or
 bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportImagesAsBase64() const
 ```
 
+## Remarks
+
 
 When this property is set to **true** images data are exported directly into the **img** elements and separate files are not created.
 
 ## Examples
-
 
 
 
@@ -52,3 +53,8 @@ options->set_PrettyFormat(true);
 doc->Save(ArtifactsDir + u"HtmlSaveOptions.ExportFontsAsBase64.html", options);
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.tables/table/get_allowcellspacing/
 ---
-## Table.get_AllowCellSpacing method
+## Table::get_AllowCellSpacing method
 
 
 Gets or sets the "Allow spacing between cells" option.
@@ -17,7 +17,6 @@ bool Aspose::Words::Tables::Table::get_AllowCellSpacing()
 
 
 ## Examples
-
 
 
 
@@ -54,3 +53,8 @@ table->set_CellSpacing(5);
 ASSERT_TRUE(table->get_AllowCellSpacing());
 ```
 
+## See Also
+
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

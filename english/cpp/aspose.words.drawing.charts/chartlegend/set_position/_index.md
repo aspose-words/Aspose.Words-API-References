@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.drawing.charts/chartlegend/set_position/
 ---
-## ChartLegend.set_Position method
+## ChartLegend::set_Position method
 
 
 Setter for [Aspose::Words::Drawing::Charts::ChartLegend::get_Position](../get_position/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Drawing::Charts::ChartLegend::get_Position](../get_po
 void Aspose::Words::Drawing::Charts::ChartLegend::set_Position(Aspose::Words::Drawing::Charts::LegendPosition value)
 ```
 
+## See Also
+
+* Enum [LegendPosition](../../legendposition/)
+* Class [ChartLegend](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

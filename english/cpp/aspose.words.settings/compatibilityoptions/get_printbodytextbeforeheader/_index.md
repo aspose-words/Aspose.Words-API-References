@@ -6,7 +6,7 @@ type: docs
 weight: 495
 url: /cpp/aspose.words.settings/compatibilityoptions/get_printbodytextbeforeheader/
 ---
-## CompatibilityOptions.get_PrintBodyTextBeforeHeader method
+## CompatibilityOptions::get_PrintBodyTextBeforeHeader method
 
 
 Print [Body](../../../aspose.words/body/) Text before Header/Footer Contents.
@@ -15,3 +15,8 @@ Print [Body](../../../aspose.words/body/) Text before Header/Footer Contents.
 bool Aspose::Words::Settings::CompatibilityOptions::get_PrintBodyTextBeforeHeader()
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

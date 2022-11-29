@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.words/pagesetup/get_linenumbercountby/
 ---
-## PageSetup.get_LineNumberCountBy method
+## PageSetup::get_LineNumberCountBy method
 
 
 Returns or sets the numeric increment for line numbers.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::PageSetup::get_LineNumberCountBy()
 
 
 ## Examples
-
 
 
 
@@ -51,3 +50,8 @@ doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(14)->get_Paragrap
 doc->Save(ArtifactsDir + u"PageSetup.LineNumbers.docx");
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

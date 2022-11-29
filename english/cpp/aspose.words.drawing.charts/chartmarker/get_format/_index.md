@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.drawing.charts/chartmarker/get_format/
 ---
-## ChartMarker.get_Format method
+## ChartMarker::get_Format method
 
 
 Provides access to fill and line formatting of this marker.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartFormat> Aspose::Words::Dr
 
 
 ## Examples
-
 
 
 
@@ -53,3 +52,9 @@ dataPoints->idx_get(3)->get_Marker()->get_Format()->get_Stroke()->set_Transparen
 doc->Save(ArtifactsDir + u"Charts.MarkerFormatting.docx");
 ```
 
+## See Also
+
+* Class [ChartFormat](../../chartformat/)
+* Class [ChartMarker](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

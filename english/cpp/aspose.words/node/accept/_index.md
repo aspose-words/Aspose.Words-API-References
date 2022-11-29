@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/node/accept/
 ---
-## Node.Accept method
+## Node::Accept method
 
 
 Accepts a visitor.
@@ -22,15 +22,15 @@ virtual bool Aspose::Words::Node::Accept(System::SharedPtr<Aspose::Words::Docume
 
 ### ReturnValue
 
-
 True if all nodes were visited; false if [DocumentVisitor](../../documentvisitor/) stopped the operation before visiting all nodes.
+## Remarks
+
 
 Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../documentvisitor/).
 
 For more info see the Visitor design pattern.
 
 ## Examples
-
 
 
 
@@ -209,3 +209,9 @@ public:
 };
 ```
 
+## See Also
+
+* Class [DocumentVisitor](../../documentvisitor/)
+* Class [Node](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

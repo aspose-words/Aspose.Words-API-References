@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/inline/get_isformatrevision/
 ---
-## Inline.get_IsFormatRevision method
+## Inline::get_IsFormatRevision method
 
 
 Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled.
@@ -17,7 +17,6 @@ bool Aspose::Words::Inline::get_IsFormatRevision()
 
 
 ## Examples
-
 
 
 
@@ -71,3 +70,8 @@ ASSERT_TRUE(runs->idx_get(1)->get_IsMoveToRevision());
 ASSERT_TRUE(runs->idx_get(5)->get_IsDeleteRevision());
 ```
 
+## See Also
+
+* Class [Inline](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

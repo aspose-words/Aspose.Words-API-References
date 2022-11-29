@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing/shapelinestyle/
 
 Specifies the compound line style of a [Shape](../shape/).
 
+```cpp
+enum class ShapeLineStyle
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,11 +24,10 @@ Specifies the compound line style of a [Shape](../shape/).
 | ThickThin | 2 | Double lines, one thick, one thin. |
 | ThinThick | 3 | Double lines, one thin, one thick. |
 | Triple | 4 | Three lines, thin, thick, thin. |
-| Default | n/a | Default value is **Single**. |
+| Default | n/a | Default value is [Single](./). |
 
 
 ## Examples
-
 
 
 
@@ -54,3 +57,7 @@ stroke->set_LineStyle(ShapeLineStyle::Triple);
 doc->Save(ArtifactsDir + u"Shape.Stroke.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

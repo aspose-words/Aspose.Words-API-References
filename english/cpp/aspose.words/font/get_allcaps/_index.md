@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/font/get_allcaps/
 ---
-## Font.get_AllCaps method
+## Font::get_AllCaps method
 
 
 True if the font is formatted as all capital letters.
@@ -17,7 +17,6 @@ bool Aspose::Words::Font::get_AllCaps()
 
 
 ## Examples
-
 
 
 
@@ -45,3 +44,8 @@ para->AppendChild(run);
 doc->Save(ArtifactsDir + u"Font.Caps.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

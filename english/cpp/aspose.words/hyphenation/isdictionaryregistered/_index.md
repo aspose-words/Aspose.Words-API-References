@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/hyphenation/isdictionaryregistered/
 ---
-## Hyphenation.IsDictionaryRegistered method
+## Hyphenation::IsDictionaryRegistered method
 
 
 Returns False if for the specified language there is no dictionary registered or if registered is Null dictionary, True otherwise.
@@ -17,7 +17,6 @@ static bool Aspose::Words::Hyphenation::IsDictionaryRegistered(const System::Str
 
 
 ## Examples
-
 
 
 
@@ -52,3 +51,8 @@ doc = MakeObject<Document>(MyDir + u"German text.docx");
 doc->Save(ArtifactsDir + u"Hyphenation.Dictionary.Unregistered.pdf");
 ```
 
+## See Also
+
+* Class [Hyphenation](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

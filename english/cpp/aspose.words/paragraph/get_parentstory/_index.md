@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.words/paragraph/get_parentstory/
 ---
-## Paragraph.get_ParentStory method
+## Paragraph::get_ParentStory method
 
 
 Retrieves the parent section-level story that can be [Body](../../body/) or [HeaderFooter](../../headerfooter/).
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Story> Aspose::Words::Paragraph::get_ParentStor
 
 
 ## Examples
-
 
 
 
@@ -52,3 +51,9 @@ ASPOSE_ASSERT_EQ(footer->get_ParentSection(), header->get_ParentSection());
 doc->Save(ArtifactsDir + u"HeaderFooter.Create.docx");
 ```
 
+## See Also
+
+* Class [Story](../../story/)
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

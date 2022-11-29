@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.fields/fieldincludepicture/set_resizehorizontally/
 ---
-## FieldIncludePicture.set_ResizeHorizontally method
+## FieldIncludePicture::set_ResizeHorizontally method
 
 
 Setter for [Aspose::Words::Fields::FieldIncludePicture::get_ResizeHorizontally](../get_resizehorizontally/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldIncludePicture::get_ResizeHorizontally](
 void Aspose::Words::Fields::FieldIncludePicture::set_ResizeHorizontally(bool value)
 ```
 
+## See Also
+
+* Class [FieldIncludePicture](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

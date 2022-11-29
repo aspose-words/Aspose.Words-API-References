@@ -12,12 +12,11 @@ url: /cpp/aspose.words/controlchar/fieldseparatorchar/
 Field separator character separates field code from field value. Optional in some fields. Value: (char)20.
 
 ```cpp
-constexpr char16_t Aspose::Words::ControlChar::FieldSeparatorChar
+static constexpr char16_t Aspose::Words::ControlChar::FieldSeparatorChar
 ```
 
 
 ## Examples
-
 
 
 
@@ -87,3 +86,8 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::PageBreak()), ControlChar:
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlChar::ColumnBreakChar);
 ```
 
+## See Also
+
+* Class [ControlChar](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

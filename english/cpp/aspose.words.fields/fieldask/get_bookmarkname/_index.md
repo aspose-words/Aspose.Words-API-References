@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldask/get_bookmarkname/
 ---
-## FieldAsk.get_BookmarkName method
+## FieldAsk::get_BookmarkName method
 
 
 Gets the name of the bookmark.
@@ -15,3 +15,8 @@ Gets the name of the bookmark.
 System::String Aspose::Words::Fields::FieldAsk::get_BookmarkName()
 ```
 
+## See Also
+
+* Class [FieldAsk](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

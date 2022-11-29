@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.drawing/signatureline/get_isvalid/
 ---
-## SignatureLine.get_IsValid method
+## SignatureLine::get_IsValid method
 
 
 Indicates that signature line is signed by digital signature and this digital signature is valid.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::SignatureLine::get_IsValid()
 
 
 ## Examples
-
 
 
 
@@ -64,3 +63,8 @@ ASSERT_TRUE(signatureLine->get_IsSigned());
 ASSERT_TRUE(signatureLine->get_IsValid());
 ```
 
+## See Also
+
+* Class [SignatureLine](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

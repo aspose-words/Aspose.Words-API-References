@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.mailmerging/imagefieldmergingargs/set_imagestream/
 ---
-## ImageFieldMergingArgs.set_ImageStream(const System::SharedPtr\<System::IO::Stream\>\&) method
+## ImageFieldMergingArgs::set_ImageStream(const System::SharedPtr\<System::IO::Stream\>\&) method
 
 
 Specifies the stream for the mail merge engine to read an image from.
@@ -15,9 +15,16 @@ Specifies the stream for the mail merge engine to read an image from.
 void Aspose::Words::MailMerging::ImageFieldMergingArgs::set_ImageStream(const System::SharedPtr<System::IO::Stream> &value)
 ```
 
+## Remarks
+
 
 Aspose.Words closes this stream after it merges the image into the document. 
-## ImageFieldMergingArgs.set_ImageStream(std::basic_istream\<CharType, Traits\>\&) method
+## See Also
+
+* Class [ImageFieldMergingArgs](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)
+## ImageFieldMergingArgs::set_ImageStream(std::basic_istream\<CharType, Traits\>\&) method
 
 
 
@@ -26,3 +33,8 @@ Aspose.Words closes this stream after it merges the image into the document.
 template<typename CharType,typename Traits> void Aspose::Words::MailMerging::ImageFieldMergingArgs::set_ImageStream(std::basic_istream<CharType, Traits> &value)
 ```
 
+## See Also
+
+* Class [ImageFieldMergingArgs](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.drawing/textbox/get_internalmarginright/
 ---
-## TextBox.get_InternalMarginRight method
+## TextBox::get_InternalMarginRight method
 
 
 Specifies the inner right margin in points for a shape.
@@ -15,11 +15,12 @@ Specifies the inner right margin in points for a shape.
 double Aspose::Words::Drawing::TextBox::get_InternalMarginRight()
 ```
 
+## Remarks
+
 
 The default value is 1/10 inch.
 
 ## Examples
-
 
 
 
@@ -42,3 +43,8 @@ builder->Write(u"Text placed according to textbox margins.");
 doc->Save(ArtifactsDir + u"Shape.TextBoxMargins.docx");
 ```
 
+## See Also
+
+* Class [TextBox](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/aspose.words.fields/fieldtoc/set_preservetabs/
 ---
-## FieldToc.set_PreserveTabs method
+## FieldToc::set_PreserveTabs method
 
 
 Setter for [Aspose::Words::Fields::FieldToc::get_PreserveTabs](../get_preservetabs/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldToc::get_PreserveTabs](../get_preserveta
 void Aspose::Words::Fields::FieldToc::set_PreserveTabs(bool value)
 ```
 
+## See Also
+
+* Class [FieldToc](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

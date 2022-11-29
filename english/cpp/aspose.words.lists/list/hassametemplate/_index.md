@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.lists/list/hassametemplate/
 ---
-## List.HasSameTemplate method
+## List::HasSameTemplate method
 
 
 Returns true if the current list and the given list are created from the same template.
@@ -15,3 +15,9 @@ Returns true if the current list and the given list are created from the same te
 bool Aspose::Words::Lists::List::HasSameTemplate(const System::SharedPtr<Aspose::Words::Lists::List> &other)
 ```
 
+## See Also
+
+* Class [List](../)
+* Class [List](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

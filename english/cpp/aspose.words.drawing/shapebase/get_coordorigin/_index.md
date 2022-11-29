@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.drawing/shapebase/get_coordorigin/
 ---
-## ShapeBase.get_CoordOrigin method
+## ShapeBase::get_CoordOrigin method
 
 
 The coordinates at the top-left corner of the containing block of this shape.
@@ -15,11 +15,12 @@ The coordinates at the top-left corner of the containing block of this shape.
 System::Drawing::Point Aspose::Words::Drawing::ShapeBase::get_CoordOrigin()
 ```
 
+## Remarks
+
 
 The default value is (0,0).
 
 ## Examples
-
 
 
 
@@ -156,3 +157,8 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(group);
 doc->Save(ArtifactsDir + u"Shape.LocalToParent.docx");
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

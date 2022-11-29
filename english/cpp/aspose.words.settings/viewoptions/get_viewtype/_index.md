@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.settings/viewoptions/get_viewtype/
 ---
-## ViewOptions.get_ViewType method
+## ViewOptions::get_ViewType method
 
 
 Controls the view mode in Microsoft Word.
@@ -15,11 +15,12 @@ Controls the view mode in Microsoft Word.
 Aspose::Words::Settings::ViewType Aspose::Words::Settings::ViewOptions::get_ViewType() const
 ```
 
+## Remarks
+
 
 Although Aspose.Words is able to read and write this option, its usage is application-specific. For example MS Word 2013 does not respect the value of this option.
 
 ## Examples
-
 
 
 
@@ -38,3 +39,9 @@ ASSERT_EQ(ZoomType::None, doc->get_ViewOptions()->get_ZoomType());
 doc->Save(ArtifactsDir + u"ViewOptions.SetZoomPercentage.doc");
 ```
 
+## See Also
+
+* Enum [ViewType](../../viewtype/)
+* Class [ViewOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

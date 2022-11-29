@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.settings/odsorecipientdatacollection/removeat/
 ---
-## OdsoRecipientDataCollection.RemoveAt method
+## OdsoRecipientDataCollection::RemoveAt method
 
 
 Removes the element at the specified index.
@@ -20,4 +20,8 @@ void Aspose::Words::Settings::OdsoRecipientDataCollection::RemoveAt(int32_t inde
 | --- | --- | --- |
 | index | int32_t | The zero-based index of the element. |
 
+## See Also
 
+* Class [OdsoRecipientDataCollection](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

@@ -12,7 +12,8 @@ url: /cpp/aspose.words/inlinestory/
 Base class for inline-level nodes that can contain paragraphs and tables.
 
 ```cpp
-class InlineStory : public Aspose::Words::CompositeNode, public Aspose::Words::IInline
+class InlineStory : public Aspose::Words::CompositeNode,
+                    public Aspose::Words::IInline
 ```
 
 ## Methods
@@ -70,13 +71,14 @@ class InlineStory : public Aspose::Words::CompositeNode, public Aspose::Words::I
 | [SetTemplateWeakPtr](../compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 **InlineStory** is a container for block-level nodes [Paragraph](../paragraph/) and [Table](../../aspose.words.tables/table/).
 
 The classes that derive from **InlineStory** are inline-level nodes that can contain their own text (paragraphs and tables). For example, a **Comment** node contains text of a comment and a **Footnote** contains text of a footnote.
 
 ## Examples
-
 
 
 
@@ -140,3 +142,8 @@ ASSERT_EQ(System::DateTime::get_Today(), comment->get_DateTime());
 doc->Save(ArtifactsDir + u"InlineStory.AddComment.docx");
 ```
 
+## See Also
+
+* Class [CompositeNode](../compositenode/)
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/revisioncollection/acceptall/
 ---
-## RevisionCollection.AcceptAll method
+## RevisionCollection::AcceptAll method
 
 
 Accepts all revisions in this collection.
@@ -17,7 +17,6 @@ void Aspose::Words::RevisionCollection::AcceptAll()
 
 
 ## Examples
-
 
 
 
@@ -52,3 +51,8 @@ docOriginal->get_Revisions()->AcceptAll();
 ASSERT_EQ(docOriginal->GetText(), docEdited->GetText());
 ```
 
+## See Also
+
+* Class [RevisionCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

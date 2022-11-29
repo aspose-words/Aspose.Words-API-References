@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/metered/getconsumptioncredit/
 ---
-## Metered.GetConsumptionCredit method
+## Metered::GetConsumptionCredit method
 
 
 Gets consumption credit.
@@ -18,7 +18,10 @@ static System::Decimal Aspose::Words::Metered::GetConsumptionCredit()
 
 ### ReturnValue
 
-
 consumption quantity
 
+## See Also
 
+* Class [Metered](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

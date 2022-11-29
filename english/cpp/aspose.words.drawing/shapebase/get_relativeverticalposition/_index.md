@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /cpp/aspose.words.drawing/shapebase/get_relativeverticalposition/
 ---
-## ShapeBase.get_RelativeVerticalPosition method
+## ShapeBase::get_RelativeVerticalPosition method
 
 
 Specifies relative to what the shape is positioned vertically.
@@ -15,13 +15,14 @@ Specifies relative to what the shape is positioned vertically.
 Aspose::Words::Drawing::RelativeVerticalPosition Aspose::Words::Drawing::ShapeBase::get_RelativeVerticalPosition()
 ```
 
+## Remarks
 
-The default value is **Paragraph**.
+
+The default value is [Paragraph](../../relativeverticalposition/).
 
 Has effect only for top level floating shapes.
 
 ## Examples
-
 
 
 
@@ -42,3 +43,9 @@ shape->set_VerticalAlignment(VerticalAlignment::Center);
 doc->Save(ArtifactsDir + u"Image.CreateFloatingPageCenter.docx");
 ```
 
+## See Also
+
+* Enum [RelativeVerticalPosition](../../relativeverticalposition/)
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

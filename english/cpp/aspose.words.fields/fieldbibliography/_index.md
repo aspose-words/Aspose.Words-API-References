@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldbibliography/
 Implements the BIBLIOGRAPHY field.
 
 ```cpp
-class FieldBibliography : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldBibliography : public Aspose::Words::Fields::Field,
+                          public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -45,7 +46,6 @@ class FieldBibliography : public Aspose::Words::Fields::Field, public Aspose::Wo
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 
 ## Examples
-
 
 
 
@@ -98,3 +98,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.CITATION.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

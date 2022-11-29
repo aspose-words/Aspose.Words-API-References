@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.words/font/get_name/
 ---
-## Font.get_Name method
+## Font::get_Name method
 
 
 Gets or sets the name of the font.
@@ -15,13 +15,14 @@ Gets or sets the name of the font.
 System::String Aspose::Words::Font::get_Name()
 ```
 
+## Remarks
+
 
 When getting, returns [NameAscii](../get_nameascii/).
 
 When setting, sets [NameAscii](../get_nameascii/), [NameBi](../get_namebi/), [NameFarEast](../get_namefareast/) and [NameOther](../get_nameother/) to the specified value.
 
 ## Examples
-
 
 
 
@@ -56,3 +57,8 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(run);
 doc->Save(ArtifactsDir + u"Font.CreateFormattedRun.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

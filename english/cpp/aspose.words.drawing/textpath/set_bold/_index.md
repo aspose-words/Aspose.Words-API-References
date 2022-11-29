@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.words.drawing/textpath/set_bold/
 ---
-## TextPath.set_Bold method
+## TextPath::set_Bold method
 
 
 Setter for [Aspose::Words::Drawing::TextPath::get_Bold](../get_bold/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::TextPath::get_Bold](../get_bold/).
 void Aspose::Words::Drawing::TextPath::set_Bold(bool value)
 ```
 
+## See Also
+
+* Class [TextPath](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

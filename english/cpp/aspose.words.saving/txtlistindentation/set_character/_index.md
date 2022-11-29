@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.saving/txtlistindentation/set_character/
 ---
-## TxtListIndentation.set_Character method
+## TxtListIndentation::set_Character method
 
 
 Setter for [Aspose::Words::Saving::TxtListIndentation::get_Character](../get_character/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::TxtListIndentation::get_Character](../get_cha
 void Aspose::Words::Saving::TxtListIndentation::set_Character(char16_t value)
 ```
 
+## See Also
+
+* Class [TxtListIndentation](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

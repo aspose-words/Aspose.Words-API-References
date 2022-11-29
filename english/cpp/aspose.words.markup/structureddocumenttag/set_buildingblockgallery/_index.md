@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/aspose.words.markup/structureddocumenttag/set_buildingblockgallery/
 ---
-## StructuredDocumentTag.set_BuildingBlockGallery method
+## StructuredDocumentTag::set_BuildingBlockGallery method
 
 
 Setter for [Aspose::Words::Markup::StructuredDocumentTag::get_BuildingBlockGallery](../get_buildingblockgallery/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Markup::StructuredDocumentTag::get_BuildingBlockGalle
 void Aspose::Words::Markup::StructuredDocumentTag::set_BuildingBlockGallery(const System::String &value)
 ```
 
+## See Also
+
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

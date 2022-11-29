@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.saving/txtsaveoptions/set_maxcharactersperline/
 ---
-## TxtSaveOptions.set_MaxCharactersPerLine method
+## TxtSaveOptions::set_MaxCharactersPerLine method
 
 
 Setter for [Aspose::Words::Saving::TxtSaveOptions::get_MaxCharactersPerLine](../get_maxcharactersperline/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::TxtSaveOptions::get_MaxCharactersPerLine](../
 void Aspose::Words::Saving::TxtSaveOptions::set_MaxCharactersPerLine(int32_t value)
 ```
 
+## See Also
+
+* Class [TxtSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

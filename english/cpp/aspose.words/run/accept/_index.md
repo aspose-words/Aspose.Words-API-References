@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/run/accept/
 ---
-## Run.Accept method
+## Run::Accept method
 
 
 Accepts a visitor.
@@ -22,15 +22,15 @@ bool Aspose::Words::Run::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor
 
 ### ReturnValue
 
-
 False if the visitor requested the enumeration to stop.
+## Remarks
+
 
 Calls [DocumentVisitor.VisitRun](../../documentvisitor/visitrun/).
 
 For more info see the Visitor design pattern.
 
 ## Examples
-
 
 
 
@@ -112,3 +112,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [DocumentVisitor](../../documentvisitor/)
+* Class [Run](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

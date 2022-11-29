@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.fields/dropdownitemcollection/insert/
 ---
-## DropDownItemCollection.Insert method
+## DropDownItemCollection::Insert method
 
 
 Inserts a string into the collection at the specified index.
@@ -22,7 +22,6 @@ void Aspose::Words::Fields::DropDownItemCollection::Insert(int32_t index, const 
 | value | const System::String\& | The string to insert. |
 
 ## Examples
-
 
 
 
@@ -78,3 +77,8 @@ doc->Save(ArtifactsDir + u"FormFields.DropDownItemCollection.html");
 dropDownItems->Clear();
 ```
 
+## See Also
+
+* Class [DropDownItemCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.webextensions/webextension/get_alternatereferences/
 ---
-## WebExtension.get_AlternateReferences method
+## WebExtension::get_AlternateReferences method
 
 
 Specifies alternate references to a web extension.
@@ -15,3 +15,9 @@ Specifies alternate references to a web extension.
 System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionReferenceCollection> Aspose::Words::WebExtensions::WebExtension::get_AlternateReferences() const
 ```
 
+## See Also
+
+* Class [WebExtensionReferenceCollection](../../webextensionreferencecollection/)
+* Class [WebExtension](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

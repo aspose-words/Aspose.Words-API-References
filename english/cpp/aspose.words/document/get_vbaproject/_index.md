@@ -6,7 +6,7 @@ type: docs
 weight: 677
 url: /cpp/aspose.words/document/get_vbaproject/
 ---
-## Document.get_VbaProject method
+## Document::get_VbaProject method
 
 
 Gets or sets a [VbaProject](./).
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Vba::VbaProject> Aspose::Words::Document::get_V
 
 
 ## Examples
-
 
 
 
@@ -50,3 +49,9 @@ vbaModules->idx_get(u"Module1")->set_SourceCode(u"Your VBA code...");
 vbaModules->Remove(vbaModules->idx_get(2));
 ```
 
+## See Also
+
+* Class [VbaProject](../../../aspose.words.vba/vbaproject/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

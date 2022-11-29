@@ -9,7 +9,7 @@ url: /cpp/aspose.words/hyphenation/
 ## Hyphenation class
 
 
-Provides methods for working with hyphenation dictionaries. These dictionaries prescribe where words of a specific language can be hyphenated. To learn more, visit the [Working with Hyphenation](https://docs.aspose.com/words/net/working-with-hyphenation/) documentation article.
+Provides methods for working with hyphenation dictionaries. These dictionaries prescribe where words of a specific language can be hyphenated. To learn more, visit the [Working with Hyphenation](https://docs.aspose.com/words/cpp/working-with-hyphenation/) documentation article.
 
 ```cpp
 class Hyphenation
@@ -31,7 +31,6 @@ class Hyphenation
 | static [UnregisterDictionary](./unregisterdictionary/)(const System::String\&) | Unregisters a hyphenation dictionary for the specified language. This is different from registering Null dictionary. Unregistering a dictionary enables callback for the specified language. |
 
 ## Examples
-
 
 
 
@@ -103,3 +102,7 @@ private:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

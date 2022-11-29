@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.layout/layoutenumerator/get_type/
 ---
-## LayoutEnumerator.get_Type method
+## LayoutEnumerator::get_Type method
 
 
 Gets the type of the current entity.
@@ -17,7 +17,6 @@ Aspose::Words::Layout::LayoutEntityType Aspose::Words::Layout::LayoutEnumerator:
 
 
 ## Examples
-
 
 
 
@@ -143,3 +142,9 @@ static void PrintCurrentEntity(SharedPtr<LayoutEnumerator> layoutEnumerator, int
 }
 ```
 
+## See Also
+
+* Enum [LayoutEntityType](../../layoutentitytype/)
+* Class [LayoutEnumerator](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

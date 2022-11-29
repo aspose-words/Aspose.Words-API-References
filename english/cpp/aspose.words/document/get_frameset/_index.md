@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/aspose.words/document/get_frameset/
 ---
-## Document.get_Frameset method
+## Document::get_Frameset method
 
 
 Returns a [Frameset](./) instance if this document represents a frames page.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Framesets::Frameset> Aspose::Words::Document::g
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,9 @@ doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx
 doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx_get(0)->set_IsFrameLinkToFile(false);
 ```
 
+## See Also
+
+* Class [Frameset](../../../aspose.words.framesets/frameset/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

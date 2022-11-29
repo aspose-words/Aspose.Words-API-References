@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/
 ---
-## IMailMergeDataSource.GetChildDataSource method
+## IMailMergeDataSource::GetChildDataSource method
 
 
 The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a nested mail merge region.
@@ -22,8 +22,9 @@ virtual System::SharedPtr<Aspose::Words::MailMerging::IMailMergeDataSource> Aspo
 
 ### ReturnValue
 
-
 A data source object that will provide access to the data records of the specified table.
+## Remarks
+
 
 When the Aspose.Words mail merge engines populates a mail merge region with data and encounters the beginning of a nested mail merge region in the form of MERGEFIELD TableStart:TableName, it invokes [GetChildDataSource()](./) on the current data source object. Your implementation needs to return a new data source object that will provide access to the child records of the current parent record. Aspose.Words will use the returned data source to populate the nested mail merge region.
 
@@ -36,7 +37,6 @@ If this data source object does not have a relation to the table with the specif
 If a table with the specified name does not exist, your implementation should return **null**.
 
 ## Examples
-
 
 
 
@@ -158,3 +158,9 @@ private:
 };
 ```
 
+## See Also
+
+* Interface [IMailMergeDataSource](../)
+* Interface [IMailMergeDataSource](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportfontresources/
 ---
-## HtmlSaveOptions.get_ExportFontResources method
+## HtmlSaveOptions::get_ExportFontResources method
 
 
 Specifies whether font resources should be exported to HTML, MHTML or EPUB. Default is **false**.
@@ -14,6 +14,8 @@ Specifies whether font resources should be exported to HTML, MHTML or EPUB. Defa
 ```cpp
 bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportFontResources() const
 ```
+
+## Remarks
 
 
 Exporting font resources allows for consistent document rendering independent of the fonts available in a given user's environment.
@@ -25,7 +27,6 @@ If [ExportFontsAsBase64](../get_exportfontsasbase64/) is set to **true**, fonts 
 **Important!** When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable font mechanism must always carefully verify that their intended use is within the scope of the font license. Many commercial fonts presently do not allow web downloading of their fonts in any form. [License](../../../aspose.words/license/) agreements that cover some fonts specifically note that usage via **%@font-face** rules in CSS style sheets is not allowed. [Font](../../../aspose.words/font/) subsetting can also violate license terms.
 
 ## Examples
-
 
 
 
@@ -91,3 +92,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -11,6 +11,10 @@ url: /cpp/aspose.words/paragraphalignment/
 
 Specifies text alignment in a paragraph.
 
+```cpp
+enum class ParagraphAlignment
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -28,7 +32,6 @@ Specifies text alignment in a paragraph.
 
 
 ## Examples
-
 
 
 
@@ -76,3 +79,7 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

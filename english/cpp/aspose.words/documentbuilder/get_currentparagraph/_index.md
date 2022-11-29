@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words/documentbuilder/get_currentparagraph/
 ---
-## DocumentBuilder.get_CurrentParagraph method
+## DocumentBuilder::get_CurrentParagraph method
 
 
 Gets the paragraph that is currently selected in this [DocumentBuilder](../).
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::DocumentBuilder::get_
 
 
 ## Examples
-
 
 
 
@@ -69,3 +68,9 @@ builder->MoveToDocumentStart();
 ASSERT_TRUE(builder->get_IsAtStartOfParagraph());
 ```
 
+## See Also
+
+* Class [Paragraph](../../paragraph/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

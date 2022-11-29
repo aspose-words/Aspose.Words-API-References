@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.drawing.charts/chartnumberformat/get_islinkedtosource/
 ---
-## ChartNumberFormat.get_IsLinkedToSource method
+## ChartNumberFormat::get_IsLinkedToSource method
 
 
 Specifies whether the format code is linked to a source cell. Default is true.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::Charts::ChartNumberFormat::get_IsLinkedToSource()
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,8 @@ ASSERT_FALSE(chart->get_AxisY()->get_NumberFormat()->get_IsLinkedToSource());
 doc->Save(ArtifactsDir + u"Charts.SetNumberFormatToChartAxis.docx");
 ```
 
+## See Also
+
+* Class [ChartNumberFormat](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

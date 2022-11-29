@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/
 ---
-## TableSubstitutionRule.LoadWindowsSettings method
+## TableSubstitutionRule::LoadWindowsSettings method
 
 
 Loads predefined table substitution settings for Windows platform.
@@ -17,7 +17,6 @@ void Aspose::Words::Fonts::TableSubstitutionRule::LoadWindowsSettings()
 
 
 ## Examples
-
 
 
 
@@ -52,3 +51,8 @@ ASPOSE_ASSERT_EQ(MakeArray<String>({u"FreeSerif", u"Liberation Serif", u"DejaVu 
 }
 ```
 
+## See Also
+
+* Class [TableSubstitutionRule](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

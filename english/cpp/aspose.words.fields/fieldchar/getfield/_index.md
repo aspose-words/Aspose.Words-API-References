@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fieldchar/getfield/
 ---
-## FieldChar.GetField method
+## FieldChar::GetField method
 
 
 Returns a field for the field char.
@@ -18,11 +18,9 @@ System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Fields::FieldChar
 
 ### ReturnValue
 
-
 A field for the field char.
 
 ## Examples
-
 
 
 
@@ -51,3 +49,9 @@ ASSERT_EQ(u" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
 field->Update();
 ```
 
+## See Also
+
+* Class [Field](../../field/)
+* Class [FieldChar](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

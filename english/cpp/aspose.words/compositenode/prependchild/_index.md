@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words/compositenode/prependchild/
 ---
-## CompositeNode.PrependChild method
+## CompositeNode::PrependChild method
 
 
 Adds the specified node to the beginning of the list of child nodes for this node.
@@ -22,15 +22,15 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::CompositeNode::PrependChil
 
 ### ReturnValue
 
-
 The node added.
+## Remarks
+
 
 If the newChild is already in the tree, it is first removed.
 
-If the node being inserted was created from another document, you should use **ImportNode()** to import the node to the current document. The imported node can then be inserted into the current document.
+If the node being inserted was created from another document, you should use [ImportNode()](../) to import the node to the current document. The imported node can then be inserted into the current document.
 
 ## Examples
-
 
 
 
@@ -81,3 +81,9 @@ ASSERT_EQ(u"Run 1. Updated run 2. Run 3.", paragraph->GetText().Trim());
 ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
 ```
 
+## See Also
+
+* Class [Node](../../node/)
+* Class [CompositeNode](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.words/documentbuilder/get_underline/
 ---
-## DocumentBuilder.get_Underline method
+## DocumentBuilder::get_Underline method
 
 
 Gets/sets underline type for the current font.
@@ -17,7 +17,6 @@ Aspose::Words::Underline Aspose::Words::DocumentBuilder::get_Underline()
 
 
 ## Examples
-
 
 
 
@@ -36,3 +35,9 @@ builder->Writeln(u"Large, blue, and underlined text.");
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertUnderline.docx");
 ```
 
+## See Also
+
+* Enum [Underline](../../underline/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fieldcompare/set_comparisonoperator/
 ---
-## FieldCompare.set_ComparisonOperator method
+## FieldCompare::set_ComparisonOperator method
 
 
 Setter for [Aspose::Words::Fields::FieldCompare::get_ComparisonOperator](../get_comparisonoperator/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldCompare::get_ComparisonOperator](../get_
 void Aspose::Words::Fields::FieldCompare::set_ComparisonOperator(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldCompare](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

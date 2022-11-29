@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words/style/get_type/
 ---
-## Style.get_Type method
+## Style::get_Type method
 
 
 Gets the style type (paragraph or character).
@@ -17,7 +17,6 @@ Aspose::Words::StyleType Aspose::Words::Style::get_Type() const
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,9 @@ ASSERT_EQ(4, doc->get_Styles()->get_Count());
 }
 ```
 
+## See Also
+
+* Enum [StyleType](../../styletype/)
+* Class [Style](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

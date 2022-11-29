@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.markup/customxmlpart/get_datachecksum/
 ---
-## CustomXmlPart.get_DataChecksum method
+## CustomXmlPart::get_DataChecksum method
 
 
 Specifies a cyclic redundancy check (CRC) checksum of the [Data](../get_data/) content.
@@ -17,7 +17,6 @@ int64_t Aspose::Words::Markup::CustomXmlPart::get_DataChecksum()
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,8 @@ std::cout << updatedChecksum << std::endl;
 ASSERT_NE(checksum, updatedChecksum);
 ```
 
+## See Also
+
+* Class [CustomXmlPart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

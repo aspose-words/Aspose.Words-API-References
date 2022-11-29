@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.layout/layoutoptions/get_revisionoptions/
 ---
-## LayoutOptions.get_RevisionOptions method
+## LayoutOptions::get_RevisionOptions method
 
 
 Gets revision options.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Layout::RevisionOptions> Aspose::Words::Layout:
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,9 @@ doc->get_LayoutOptions()->get_RevisionOptions()->set_ShowRevisionBars(false);
 doc->Save(ArtifactsDir + u"Document.LayoutOptionsRevisions.pdf");
 ```
 
+## See Also
+
+* Class [RevisionOptions](../../revisionoptions/)
+* Class [LayoutOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

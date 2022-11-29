@@ -15,3 +15,8 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/virtualized_
 using Aspose::Words::DigitalSignatures::DigitalSignatureCollection::virtualized_iterator =  typename iterator_holder_type::virtualized_iterator
 ```
 
+## See Also
+
+* Class [DigitalSignatureCollection](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)

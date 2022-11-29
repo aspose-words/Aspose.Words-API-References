@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.rendering/noderendererbase/get_sizeinpoints/
 ---
-## NodeRendererBase.get_SizeInPoints method
+## NodeRendererBase::get_SizeInPoints method
 
 
 Gets the actual size of the shape in points.
@@ -15,11 +15,12 @@ Gets the actual size of the shape in points.
 System::Drawing::SizeF Aspose::Words::Rendering::NodeRendererBase::get_SizeInPoints()
 ```
 
+## Remarks
+
 
 This property returns the size of the actual (as rendered on the page) bounding box of the shape. The size takes into account shape rotation (if any).
 
 ## Examples
-
 
 
 
@@ -64,3 +65,8 @@ ASSERT_EQ(159, bounds.get_Width());
 ASSERT_EQ(30, bounds.get_Height());
 ```
 
+## See Also
+
+* Class [NodeRendererBase](../)
+* Namespace [Aspose::Words::Rendering](../../)
+* Library [Aspose.Words](../../../)

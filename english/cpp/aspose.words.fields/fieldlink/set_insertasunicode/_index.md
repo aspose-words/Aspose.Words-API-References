@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.fields/fieldlink/set_insertasunicode/
 ---
-## FieldLink.set_InsertAsUnicode method
+## FieldLink::set_InsertAsUnicode method
 
 
 Setter for [Aspose::Words::Fields::FieldLink::get_InsertAsUnicode](../get_insertasunicode/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldLink::get_InsertAsUnicode](../get_insert
 void Aspose::Words::Fields::FieldLink::set_InsertAsUnicode(bool value)
 ```
 
+## See Also
+
+* Class [FieldLink](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

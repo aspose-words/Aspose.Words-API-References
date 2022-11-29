@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.markup/customxmlschemacollection/remove/
 ---
-## CustomXmlSchemaCollection.Remove method
+## CustomXmlSchemaCollection::Remove method
 
 
 Removes the specified value from the collection.
@@ -21,7 +21,6 @@ void Aspose::Words::Markup::CustomXmlSchemaCollection::Remove(const System::Stri
 | name | const System::String\& | The case-sensitive value to remove. |
 
 ## Examples
-
 
 
 
@@ -67,3 +66,8 @@ schemas->Clear();
 ASSERT_EQ(0, schemas->get_Count());
 ```
 
+## See Also
+
+* Class [CustomXmlSchemaCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

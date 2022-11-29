@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_csssavingcallback/
 ---
-## HtmlSaveOptions.get_CssSavingCallback method
+## HtmlSaveOptions::get_CssSavingCallback method
 
 
 Allows to control how CSS styles are saved when a document is saved to HTML, MHTML or EPUB.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Saving::ICssSavingCallback> Aspose::Words::Savi
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,9 @@ private:
 };
 ```
 
+## See Also
+
+* Interface [ICssSavingCallback](../../icsssavingcallback/)
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

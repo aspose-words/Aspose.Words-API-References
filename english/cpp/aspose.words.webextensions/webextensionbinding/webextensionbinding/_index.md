@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.webextensions/webextensionbinding/webextensionbinding/
 ---
-## WebExtensionBinding.WebExtensionBinding method
+## WebExtensionBinding::WebExtensionBinding constructor
 
 
 Creates web extension binding with specified parameters.
@@ -23,7 +23,6 @@ Aspose::Words::WebExtensions::WebExtensionBinding::WebExtensionBinding(const Sys
 | appRef | const System::String\& | Binding key used to map the binding entry in this list with the bound data in the document. |
 
 ## Examples
-
 
 
 
@@ -66,3 +65,9 @@ doc->get_WebExtensionTaskPanes()->Clear();
 ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ```
 
+## See Also
+
+* Enum [WebExtensionBindingType](../../webextensionbindingtype/)
+* Class [WebExtensionBinding](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

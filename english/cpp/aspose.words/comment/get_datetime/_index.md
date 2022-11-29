@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/comment/get_datetime/
 ---
-## Comment.get_DateTime method
+## Comment::get_DateTime method
 
 
 Gets the date and time that the comment was made.
@@ -15,11 +15,12 @@ Gets the date and time that the comment was made.
 System::DateTime Aspose::Words::Comment::get_DateTime() const
 ```
 
+## Remarks
+
 
 Default is **MinValue**.
 
 ## Examples
-
 
 
 
@@ -160,3 +161,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Comment](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

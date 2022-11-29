@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.settings/odsorecipientdata/clone/
 ---
-## OdsoRecipientData.Clone method
+## OdsoRecipientData::Clone method
 
 
 Returns a deep clone of this object.
@@ -15,3 +15,9 @@ Returns a deep clone of this object.
 System::SharedPtr<Aspose::Words::Settings::OdsoRecipientData> Aspose::Words::Settings::OdsoRecipientData::Clone()
 ```
 
+## See Also
+
+* Class [OdsoRecipientData](../)
+* Class [OdsoRecipientData](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

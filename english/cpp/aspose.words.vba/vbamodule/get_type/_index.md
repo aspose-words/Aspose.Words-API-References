@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.vba/vbamodule/get_type/
 ---
-## VbaModule.get_Type method
+## VbaModule::get_Type method
 
 
 Specifies whether the module is a procedural module, document module, class module, or designer module.
@@ -17,7 +17,6 @@ Aspose::Words::Vba::VbaModuleType Aspose::Words::Vba::VbaModule::get_Type() cons
 
 
 ## Examples
-
 
 
 
@@ -42,3 +41,9 @@ doc->get_VbaProject()->get_Modules()->Add(module_);
 doc->Save(ArtifactsDir + u"VbaProject.CreateVBAMacros.docm");
 ```
 
+## See Also
+
+* Enum [VbaModuleType](../../vbamoduletype/)
+* Class [VbaModule](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.webextensions/taskpane/set_row/
 ---
-## TaskPane.set_Row method
+## TaskPane::set_Row method
 
 
 Setter for [Aspose::Words::WebExtensions::TaskPane::get_Row](../get_row/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::WebExtensions::TaskPane::get_Row](../get_row/).
 void Aspose::Words::WebExtensions::TaskPane::set_Row(int32_t value)
 ```
 
+## See Also
+
+* Class [TaskPane](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

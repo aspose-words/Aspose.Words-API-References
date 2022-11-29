@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fields/fieldgreetingline/set_alternatetext/
 ---
-## FieldGreetingLine.set_AlternateText method
+## FieldGreetingLine::set_AlternateText method
 
 
 Sets the text to include in the field if the name is blank.
@@ -15,3 +15,8 @@ Sets the text to include in the field if the name is blank.
 void Aspose::Words::Fields::FieldGreetingLine::set_AlternateText(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldGreetingLine](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.markup/customxmlschemacollection/virtualizeendconstiterator/
 ---
-## CustomXmlSchemaCollection.virtualizeEndConstIterator method
+## CustomXmlSchemaCollection::virtualizeEndConstIterator method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.markup/customxmlschemacollection/virtualizeendconstiterat
 virtualized_iterator * Aspose::Words::Markup::CustomXmlSchemaCollection::virtualizeEndConstIterator() const override
 ```
 
+## See Also
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [CustomXmlSchemaCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

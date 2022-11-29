@@ -9,7 +9,11 @@ url: /cpp/aspose.words.loading/txttrailingspacesoptions/
 ## TxtTrailingSpacesOptions enum
 
 
-Specifies available options for trailing spaces handling during import from **Text** file.
+Specifies available options for trailing spaces handling during import from [Text](../../aspose.words/loadformat/) file.
+
+```cpp
+enum class TxtTrailingSpacesOptions
+```
 
 ### Values
 
@@ -20,7 +24,6 @@ Specifies available options for trailing spaces handling during import from **Te
 
 
 ## Examples
-
 
 
 
@@ -94,3 +97,7 @@ case TxtTrailingSpacesOptions::Trim:
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Loading](../)
+* Library [Aspose.Words](../../)

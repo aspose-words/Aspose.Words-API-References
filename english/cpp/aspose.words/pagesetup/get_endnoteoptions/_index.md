@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words/pagesetup/get_endnoteoptions/
 ---
-## PageSetup.get_EndnoteOptions method
+## PageSetup::get_EndnoteOptions method
 
 
 Provides options that control numbering and positioning of endnotes in this section.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Notes::EndnoteOptions> Aspose::Words::PageSetup
 
 
 ## Examples
-
 
 
 
@@ -49,3 +48,9 @@ endnoteOptions->set_StartNumber(1);
 doc->Save(ArtifactsDir + u"PageSetup.FootnoteOptions.docx");
 ```
 
+## See Also
+
+* Class [EndnoteOptions](../../../aspose.words.notes/endnoteoptions/)
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

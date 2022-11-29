@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/editablerangeend/set_id/
 ---
-## EditableRangeEnd.set_Id method
+## EditableRangeEnd::set_Id method
 
 
 Setter for [Aspose::Words::EditableRangeEnd::get_Id](../get_id/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::EditableRangeEnd::get_Id](../get_id/).
 void Aspose::Words::EditableRangeEnd::set_Id(int32_t value)
 ```
 
+## See Also
+
+* Class [EditableRangeEnd](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

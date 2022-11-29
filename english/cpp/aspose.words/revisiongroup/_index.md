@@ -27,7 +27,6 @@ class RevisionGroup : public System::Object
 
 
 
-
 Shows how to print info about a group of revisions in a document. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Revisions.docx");
@@ -42,3 +41,7 @@ for (const auto& group : doc->get_Revisions()->get_Groups())
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 586
 url: /cpp/aspose.words.properties/builtindocumentproperties/set_keywords/
 ---
-## BuiltInDocumentProperties.set_Keywords method
+## BuiltInDocumentProperties::set_Keywords method
 
 
 Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_Keywords](../get_keywords/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_Keywords](
 void Aspose::Words::Properties::BuiltInDocumentProperties::set_Keywords(const System::String &value)
 ```
 
+## See Also
+
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

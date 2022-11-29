@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.saving/svgsaveoptions/get_exportembeddedimages/
 ---
-## SvgSaveOptions.get_ExportEmbeddedImages method
+## SvgSaveOptions::get_ExportEmbeddedImages method
 
 
 Specified whether images should be embedded into SVG document as base64. Note setting this flag can significantly increase size of output SVG file.
@@ -17,7 +17,6 @@ bool Aspose::Words::Saving::SvgSaveOptions::get_ExportEmbeddedImages() const
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [SvgSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

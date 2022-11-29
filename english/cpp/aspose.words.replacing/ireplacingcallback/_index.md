@@ -25,7 +25,6 @@ class IReplacingCallback : public System::Object
 
 
 
-
 Shows how to track the order in which a text replacement operation traverses nodes. 
 ```cpp
 void Order(bool differentFirstPageHeaderFooter)
@@ -199,3 +198,7 @@ static void InsertDocument(SharedPtr<Node> insertionDestination, SharedPtr<Docum
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Replacing](../)
+* Library [Aspose.Words](../../)

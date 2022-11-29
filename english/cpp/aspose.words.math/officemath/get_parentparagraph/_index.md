@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.math/officemath/get_parentparagraph/
 ---
-## OfficeMath.get_ParentParagraph method
+## OfficeMath::get_ParentParagraph method
 
 
 Retrieves the parent [Paragraph](../../../aspose.words/paragraph/) of this node.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::Math::OfficeMath::get
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,9 @@ officeMath->set_Justification(OfficeMathJustification::Left);
 doc->Save(ArtifactsDir + u"Shape.OfficeMath.docx");
 ```
 
+## See Also
+
+* Class [Paragraph](../../../aspose.words/paragraph/)
+* Class [OfficeMath](../)
+* Namespace [Aspose::Words::Math](../../)
+* Library [Aspose.Words](../../../)

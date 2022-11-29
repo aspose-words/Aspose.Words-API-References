@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.settings/odsorecipientdata/odsorecipientdata/
 ---
-## OdsoRecipientData.OdsoRecipientData method
+## OdsoRecipientData::OdsoRecipientData constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.settings/odsorecipientdata/odsorecipientdata/
 Aspose::Words::Settings::OdsoRecipientData::OdsoRecipientData()
 ```
 
+## See Also
+
+* Class [OdsoRecipientData](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

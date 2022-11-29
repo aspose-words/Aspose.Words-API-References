@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportlanguageinformation/
 ---
-## HtmlSaveOptions.get_ExportLanguageInformation method
+## HtmlSaveOptions::get_ExportLanguageInformation method
 
 
 Specifies whether language information is exported to HTML, MHTML or EPUB. Default is **false**.
@@ -15,11 +15,12 @@ Specifies whether language information is exported to HTML, MHTML or EPUB. Defau
 bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportLanguageInformation() const
 ```
 
+## Remarks
+
 
 When this property is set to **true** Aspose.Words outputs **lang** HTML attribute on the document elements that specify language. This can be needed to preserve language related semantics.
 
 ## Examples
-
 
 
 
@@ -66,3 +67,8 @@ else
 }
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/aspose.words.drawing.charts/chartaxis/set_hidden/
 ---
-## ChartAxis.set_Hidden method
+## ChartAxis::set_Hidden method
 
 
 Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_Hidden](../get_hidden/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_Hidden](../get_hidden
 void Aspose::Words::Drawing::Charts::ChartAxis::set_Hidden(bool value)
 ```
 
+## See Also
+
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

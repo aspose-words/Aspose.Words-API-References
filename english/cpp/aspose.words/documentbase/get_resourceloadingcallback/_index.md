@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words/documentbase/get_resourceloadingcallback/
 ---
-## DocumentBase.get_ResourceLoadingCallback method
+## DocumentBase::get_ResourceLoadingCallback method
 
 
 Allows to control how external resources are loaded.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Loading::IResourceLoadingCallback> Aspose::Word
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,9 @@ public:
 };
 ```
 
+## See Also
+
+* Interface [IResourceLoadingCallback](../../../aspose.words.loading/iresourceloadingcallback/)
+* Class [DocumentBase](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

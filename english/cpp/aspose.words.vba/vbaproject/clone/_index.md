@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.vba/vbaproject/clone/
 ---
-## VbaProject.Clone method
+## VbaProject::Clone method
 
 
 Performs a copy of the [VbaProject](../).
@@ -18,11 +18,9 @@ System::SharedPtr<Aspose::Words::Vba::VbaProject> Aspose::Words::Vba::VbaProject
 
 ### ReturnValue
 
-
 The cloned [VbaProject](../).
 
 ## Examples
-
 
 
 
@@ -44,3 +42,9 @@ destDoc->get_VbaProject()->get_Modules()->Add(copyVbaModule);
 destDoc->Save(ArtifactsDir + u"VbaProject.CloneVbaProject.docm");
 ```
 
+## See Also
+
+* Class [VbaProject](../)
+* Class [VbaProject](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

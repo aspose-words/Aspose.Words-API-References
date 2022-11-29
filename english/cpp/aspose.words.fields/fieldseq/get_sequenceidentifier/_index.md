@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fields/fieldseq/get_sequenceidentifier/
 ---
-## FieldSeq.get_SequenceIdentifier method
+## FieldSeq::get_SequenceIdentifier method
 
 
 Gets or sets the name assigned to the series of items that are to be numbered.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldSeq::get_SequenceIdentifier()
 
 
 ## Examples
-
 
 
 
@@ -150,3 +149,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.SEQ.ResetNumbering.docx");
 ```
 
+## See Also
+
+* Class [FieldSeq](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

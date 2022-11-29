@@ -11,6 +11,10 @@ url: /cpp/aspose.words.notes/endnoteposition/
 
 Defines the endnote position.
 
+```cpp
+enum class EndnotePosition
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,7 +24,6 @@ Defines the endnote position.
 
 
 ## Examples
-
 
 
 
@@ -51,3 +54,7 @@ doc->get_EndnoteOptions()->set_Position(endnotePosition);
 doc->Save(ArtifactsDir + u"InlineStory.PositionEndnote.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Notes](../)
+* Library [Aspose.Words](../../)

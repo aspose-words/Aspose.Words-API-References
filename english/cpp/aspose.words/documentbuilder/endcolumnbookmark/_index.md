@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/documentbuilder/endcolumnbookmark/
 ---
-## DocumentBuilder.EndColumnBookmark method
+## DocumentBuilder::EndColumnBookmark method
 
 
 Marks the current position in the document as a column bookmark end. The position must be in a table cell.
@@ -22,17 +22,17 @@ System::SharedPtr<Aspose::Words::BookmarkEnd> Aspose::Words::DocumentBuilder::En
 
 ### ReturnValue
 
-
 The bookmark end node that was just created.
+## Remarks
 
-A column bookmark covers one or more columns in a range of rows. To create a valid bookmark you need to call both **StartColumnBookmark()** and **EndColumnBookmark()** with the same **bookmarkName** parameter.
+
+A column bookmark covers one or more columns in a range of rows. To create a valid bookmark you need to call both [StartColumnBookmark()](../) and [EndColumnBookmark()](../) with the same **bookmarkName** parameter.
 
 Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 
 The actual position of the inserted [BookmarkEnd](../../bookmarkend/) node may differ from the current document builder position.
 
 ## Examples
-
 
 
 
@@ -76,3 +76,9 @@ builder->EndTable();
 doc->Save(ArtifactsDir + u"Bookmarks.CreateColumnBookmark.docx");
 ```
 
+## See Also
+
+* Class [BookmarkEnd](../../bookmarkend/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/mergefieldimagedimension/get_value/
 ---
-## MergeFieldImageDimension.get_Value method
+## MergeFieldImageDimension::get_Value method
 
 
 The value.
@@ -15,3 +15,8 @@ The value.
 double Aspose::Words::Fields::MergeFieldImageDimension::get_Value() const
 ```
 
+## See Also
+
+* Class [MergeFieldImageDimension](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

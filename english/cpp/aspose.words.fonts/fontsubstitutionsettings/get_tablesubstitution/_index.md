@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fonts/fontsubstitutionsettings/get_tablesubstitution/
 ---
-## FontSubstitutionSettings.get_TableSubstitution method
+## FontSubstitutionSettings::get_TableSubstitution method
 
 
 [Settings](../../../aspose.words.settings/) related to table substitution rule.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Fonts::TableSubstitutionRule> Aspose::Words::Fo
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,9 @@ builder->Writeln(u"Text written in Times New Roman, to be substituted by Squaris
 doc->Save(ArtifactsDir + u"FontSettings.TableSubstitutionRule.Custom.pdf");
 ```
 
+## See Also
+
+* Class [TableSubstitutionRule](../../tablesubstitutionrule/)
+* Class [FontSubstitutionSettings](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

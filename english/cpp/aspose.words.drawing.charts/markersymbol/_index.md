@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing.charts/markersymbol/
 
 Specifies marker symbol style.
 
+```cpp
+enum class MarkerSymbol
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -30,7 +34,6 @@ Specifies marker symbol style.
 
 
 ## Examples
-
 
 
 
@@ -90,3 +93,7 @@ static void ApplyDataPoints(SharedPtr<ChartSeries> series, int dataPointsCount, 
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing::Charts](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.fields/fieldlink/set_insertaspicture/
 ---
-## FieldLink.set_InsertAsPicture method
+## FieldLink::set_InsertAsPicture method
 
 
 Setter for [Aspose::Words::Fields::FieldLink::get_InsertAsPicture](../get_insertaspicture/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldLink::get_InsertAsPicture](../get_insert
 void Aspose::Words::Fields::FieldLink::set_InsertAsPicture(bool value)
 ```
 
+## See Also
+
+* Class [FieldLink](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.settings/writeprotection/get_iswriteprotected/
 ---
-## WriteProtection.get_IsWriteProtected method
+## WriteProtection::get_IsWriteProtected method
 
 
 Returns true when a write protection password is set.
@@ -17,7 +17,6 @@ bool Aspose::Words::Settings::WriteProtection::get_IsWriteProtected()
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,8 @@ builder->Writeln(u"Writing text in a protected document.");
 ASSERT_EQ(String(u"Hello world! This document is protected.") + u"\rWriting text in a protected document.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [WriteProtection](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

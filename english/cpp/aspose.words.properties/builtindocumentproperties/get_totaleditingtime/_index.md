@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_totaleditingtime/
 ---
-## BuiltInDocumentProperties.get_TotalEditingTime method
+## BuiltInDocumentProperties::get_TotalEditingTime method
 
 
 Gets or sets the total editing time in minutes.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Properties::BuiltInDocumentProperties::get_TotalEditingTi
 
 
 ## Examples
-
 
 
 
@@ -51,3 +50,8 @@ properties->set_LastSavedTime(System::DateTime::get_Now());
 doc->Save(ArtifactsDir + u"DocumentProperties.Origin.docx");
 ```
 
+## See Also
+
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

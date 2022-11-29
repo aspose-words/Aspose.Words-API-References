@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.themes/themecolors/set_accent4/
 ---
-## ThemeColors.set_Accent4 method
+## ThemeColors::set_Accent4 method
 
 
 Setter for [Aspose::Words::Themes::ThemeColors::get_Accent4](../get_accent4/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Themes::ThemeColors::get_Accent4](../get_accent4/).
 void Aspose::Words::Themes::ThemeColors::set_Accent4(System::Drawing::Color value)
 ```
 
+## See Also
+
+* Class [ThemeColors](../)
+* Namespace [Aspose::Words::Themes](../../)
+* Library [Aspose.Words](../../../)

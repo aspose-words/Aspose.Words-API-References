@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words/document/get_defaulttabstop/
 ---
-## Document.get_DefaultTabStop method
+## Document::get_DefaultTabStop method
 
 
 Gets or sets the interval (in points) between the default tab stops.
@@ -17,7 +17,6 @@ double Aspose::Words::Document::get_DefaultTabStop()
 
 
 ## Examples
-
 
 
 
@@ -34,3 +33,8 @@ builder->Writeln(String(u"Hello") + ControlChar::Tab() + u"World!");
 builder->Writeln(String(u"Hello") + ControlChar::TabChar + u"World!");
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

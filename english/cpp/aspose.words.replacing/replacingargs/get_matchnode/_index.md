@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.replacing/replacingargs/get_matchnode/
 ---
-## ReplacingArgs.get_MatchNode method
+## ReplacingArgs::get_MatchNode method
 
 
 Gets the node that contains the beginning of the match.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::Replacing::ReplacingArgs::
 
 
 ## Examples
-
 
 
 
@@ -90,3 +89,9 @@ static void InsertDocument(SharedPtr<Node> insertionDestination, SharedPtr<Docum
 }
 ```
 
+## See Also
+
+* Class [Node](../../../aspose.words/node/)
+* Class [ReplacingArgs](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)

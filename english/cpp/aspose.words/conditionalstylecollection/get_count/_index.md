@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/conditionalstylecollection/get_count/
 ---
-## ConditionalStyleCollection.get_Count method
+## ConditionalStyleCollection::get_Count method
 
 
 Gets the number of conditional styles in the collection.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::ConditionalStyleCollection::get_Count() const
 
 
 ## Examples
-
 
 
 
@@ -90,3 +89,8 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow |
 doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 ```
 
+## See Also
+
+* Class [ConditionalStyleCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

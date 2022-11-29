@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.saving/csssavingargs/get_document/
 ---
-## CssSavingArgs.get_Document method
+## CssSavingArgs::get_Document method
 
 
 Gets the document object that is currently being saved.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Document> Aspose::Words::Saving::CssSavingArgs:
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Document](../../../aspose.words/document/)
+* Class [CssSavingArgs](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

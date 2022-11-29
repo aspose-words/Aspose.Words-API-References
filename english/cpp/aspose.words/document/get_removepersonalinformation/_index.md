@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /cpp/aspose.words/document/get_removepersonalinformation/
 ---
-## Document.get_RemovePersonalInformation method
+## Document::get_RemovePersonalInformation method
 
 
 Gets or sets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document.
@@ -17,7 +17,6 @@ bool Aspose::Words::Document::get_RemovePersonalInformation()
 
 
 ## Examples
-
 
 
 
@@ -49,3 +48,8 @@ ASSERT_EQ(u"Placeholder Inc.", doc->get_BuiltInDocumentProperties()->get_Company
 ASSERT_EQ(u"John Doe", doc->get_Revisions()->idx_get(0)->get_Author());
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

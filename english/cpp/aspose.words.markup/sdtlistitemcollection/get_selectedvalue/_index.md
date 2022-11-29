@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.markup/sdtlistitemcollection/get_selectedvalue/
 ---
-## SdtListItemCollection.get_SelectedValue method
+## SdtListItemCollection::get_SelectedValue method
 
 
 Specifies currently selected value in this list. Null value allowed, meaning that no currently selected entry is associated with this list item collection.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Markup::SdtListItem> Aspose::Words::Markup::Sdt
 
 
 ## Examples
-
 
 
 
@@ -77,3 +76,9 @@ listItems->Clear();
 ASSERT_EQ(0, listItems->get_Count());
 ```
 
+## See Also
+
+* Class [SdtListItem](../../sdtlistitem/)
+* Class [SdtListItemCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

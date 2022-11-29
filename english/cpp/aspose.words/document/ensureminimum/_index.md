@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words/document/ensureminimum/
 ---
-## Document.EnsureMinimum method
+## Document::EnsureMinimum method
 
 
 If the document contains no sections, creates one section with one paragraph.
@@ -17,7 +17,6 @@ void Aspose::Words::Document::EnsureMinimum()
 
 
 ## Examples
-
 
 
 
@@ -53,3 +52,8 @@ ASSERT_EQ(NodeType::Paragraph, nodes->idx_get(2)->get_NodeType());
 (System::DynamicCast<Paragraph>(nodes->idx_get(2)))->get_Runs()->Add(MakeObject<Run>(doc, u"Hello world!"));
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

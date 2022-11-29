@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.drawing/gradientstopcollection/add/
 ---
-## GradientStopCollection.Add method
+## GradientStopCollection::Add method
 
 
 Adds a specified [GradientStop](../../gradientstop/) to a gradient.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::GradientStop> Aspose::Words::Drawing::
 
 
 ## Examples
-
 
 
 
@@ -69,3 +68,9 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 doc->Save(ArtifactsDir + u"Shape.GradientStops.docx", saveOptions);
 ```
 
+## See Also
+
+* Class [GradientStop](../../gradientstop/)
+* Class [GradientStopCollection](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

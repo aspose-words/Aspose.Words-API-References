@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/pagesetup/get_borders/
 ---
-## PageSetup.get_Borders method
+## PageSetup::get_Borders method
 
 
 Gets a collection of the page borders.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::BorderCollection> Aspose::Words::PageSetup::get
 
 
 ## Examples
-
 
 
 
@@ -35,3 +34,9 @@ pageSetup->get_Borders()->set_Shadow(true);
 doc->Save(ArtifactsDir + u"PageSetup.PageBorders.docx");
 ```
 
+## See Also
+
+* Class [BorderCollection](../../bordercollection/)
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.comparing/compareoptions/get_target/
 ---
-## CompareOptions.get_Target method
+## CompareOptions::get_Target method
 
 
 Specifies which document shall be used as a target during comparison.
@@ -17,7 +17,6 @@ Aspose::Words::Comparing::ComparisonTargetType Aspose::Words::Comparing::Compare
 
 
 ## Examples
-
 
 
 
@@ -113,3 +112,9 @@ docOriginal->Compare(docEdited, u"John Doe", System::DateTime::get_Now(), compar
 docOriginal->Save(ArtifactsDir + u"Document.CompareOptions.docx");
 ```
 
+## See Also
+
+* Enum [ComparisonTargetType](../../comparisontargettype/)
+* Class [CompareOptions](../)
+* Namespace [Aspose::Words::Comparing](../../)
+* Library [Aspose.Words](../../../)

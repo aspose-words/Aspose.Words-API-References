@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.markup/structureddocumenttag/clear/
 ---
-## StructuredDocumentTag.Clear method
+## StructuredDocumentTag::Clear method
 
 
 Clears contents of this structured document tag and displays a placeholder if it is defined.
@@ -15,13 +15,14 @@ Clears contents of this structured document tag and displays a placeholder if it
 void Aspose::Words::Markup::StructuredDocumentTag::Clear()
 ```
 
+## Remarks
+
 
 It is not possible to clear contents of a structured document tag if it has revisions.
 
 If this structured document tag is mapped to custom XML (with using the [XmlMapping](../get_xmlmapping/) property), the referenced XML node is cleared.
 
 ## Examples
-
 
 
 
@@ -67,3 +68,8 @@ ASSERT_TRUE(tag->get_IsShowingPlaceholderText());
 ASSERT_EQ(u"Custom placeholder text.", tag->GetText().Trim());
 ```
 
+## See Also
+
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

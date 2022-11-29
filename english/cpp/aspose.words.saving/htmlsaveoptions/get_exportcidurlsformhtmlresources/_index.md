@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportcidurlsformhtmlresources/
 ---
-## HtmlSaveOptions.get_ExportCidUrlsForMhtmlResources method
+## HtmlSaveOptions::get_ExportCidUrlsForMhtmlResources method
 
 
 Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML documents. Default value is **false**.
@@ -14,6 +14,8 @@ Specifies whether to use CID (Content-ID) URLs to reference resources (images, f
 ```cpp
 bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportCidUrlsForMhtmlResources() const
 ```
+
+## Remarks
 
 
 This option affects only documents being saved to MHTML.
@@ -25,7 +27,6 @@ This option enables an alternative method, where references to resource files ar
 In theory, there should be no difference between the two referencing methods and either of them should work fine in any browser or mail agent. In practice, however, some agents fail to fetch resources by file name. If your browser or mail agent refuses to load resources included in an MTHML document (doesn't show images or doesn't load CSS styles), try exporting the document with CID URLs.
 
 ## Examples
-
 
 
 
@@ -61,3 +62,8 @@ else
 }
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

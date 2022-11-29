@@ -6,10 +6,10 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/revision/get_parentstyle/
 ---
-## Revision.get_ParentStyle method
+## Revision::get_ParentStyle method
 
 
-Gets the immediate parent style (owner) of this revision. This property will work for only for the **StyleDefinitionChange** revision type.
+Gets the immediate parent style (owner) of this revision. This property will work for only for the [StyleDefinitionChange](../../revisiontype/) revision type.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Style> Aspose::Words::Revision::get_ParentStyle()
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Style> Aspose::Words::Revision::get_ParentStyle
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,9 @@ revisions->RejectAll();
 ASSERT_EQ(0, revisions->get_Count());
 ```
 
+## See Also
+
+* Class [Style](../../style/)
+* Class [Revision](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.drawing/gradientstopcollection/remove/
 ---
-## GradientStopCollection.Remove method
+## GradientStopCollection::Remove method
 
 
 Removes a specified [GradientStop](../../gradientstop/) from the collection.
@@ -18,11 +18,9 @@ bool Aspose::Words::Drawing::GradientStopCollection::Remove(const System::Shared
 
 ### ReturnValue
 
-
 True if gradient stop was successfully removed, otherwise false.
 
 ## Examples
-
 
 
 
@@ -74,3 +72,9 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 doc->Save(ArtifactsDir + u"Shape.GradientStops.docx", saveOptions);
 ```
 
+## See Also
+
+* Class [GradientStop](../../gradientstop/)
+* Class [GradientStopCollection](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

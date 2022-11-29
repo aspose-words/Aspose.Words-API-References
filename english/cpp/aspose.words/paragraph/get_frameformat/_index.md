@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/paragraph/get_frameformat/
 ---
-## Paragraph.get_FrameFormat method
+## Paragraph::get_FrameFormat method
 
 
 Provides access to the paragraph formatting properties.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::FrameFormat> Aspose::Words::Paragraph::get_Fram
 
 
 ## Examples
-
 
 
 
@@ -41,3 +40,9 @@ ASSERT_EQ(RelativeVerticalPosition::Paragraph, paragraphFrame->get_FrameFormat()
 ASPOSE_ASSERT_EQ(0.0, paragraphFrame->get_FrameFormat()->get_VerticalDistanceFromText());
 ```
 
+## See Also
+
+* Class [FrameFormat](../../frameformat/)
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

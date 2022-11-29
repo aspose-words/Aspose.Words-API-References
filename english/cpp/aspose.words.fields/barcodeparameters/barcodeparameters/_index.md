@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/barcodeparameters/barcodeparameters/
 ---
-## BarcodeParameters.BarcodeParameters method
+## BarcodeParameters::BarcodeParameters constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.fields/barcodeparameters/barcodeparameters/
 Aspose::Words::Fields::BarcodeParameters::BarcodeParameters()
 ```
 
+## See Also
+
+* Class [BarcodeParameters](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

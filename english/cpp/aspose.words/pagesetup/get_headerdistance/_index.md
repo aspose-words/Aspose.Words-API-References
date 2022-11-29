@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words/pagesetup/get_headerdistance/
 ---
-## PageSetup.get_HeaderDistance method
+## PageSetup::get_HeaderDistance method
 
 
 Returns or sets the distance (in points) between the header and the top of the page.
@@ -17,7 +17,6 @@ double Aspose::Words::PageSetup::get_HeaderDistance()
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,8 @@ builder->Writeln(u"Hello world!");
 doc->Save(ArtifactsDir + u"PageSetup.PageMargins.docx");
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

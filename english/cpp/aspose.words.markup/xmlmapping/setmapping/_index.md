@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.markup/xmlmapping/setmapping/
 ---
-## XmlMapping.SetMapping method
+## XmlMapping::SetMapping method
 
 
 Sets a mapping between the parent structured document tag and an XML node of a custom XML data part.
@@ -24,11 +24,9 @@ bool Aspose::Words::Markup::XmlMapping::SetMapping(const System::SharedPtr<Aspos
 
 ### ReturnValue
 
-
 A flag indicating whether the parent structured document tag is successfully mapped to the XML node.
 
 ## Examples
-
 
 
 
@@ -93,3 +91,9 @@ doc->get_FirstSection()->get_Body()->AppendChild(tag);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.CustomXml.docx");
 ```
 
+## See Also
+
+* Class [CustomXmlPart](../../customxmlpart/)
+* Class [XmlMapping](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

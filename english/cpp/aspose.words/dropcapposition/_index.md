@@ -11,6 +11,10 @@ url: /cpp/aspose.words/dropcapposition/
 
 Specifies the position for a drop cap text.
 
+```cpp
+enum class DropCapPosition
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ Specifies the position for a drop cap text.
 
 
 ## Examples
-
 
 
 
@@ -52,3 +55,7 @@ format->set_DropCapPosition(dropCapPosition);
 doc->Save(ArtifactsDir + u"ParagraphFormat.DropCap.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

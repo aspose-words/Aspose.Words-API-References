@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.comparing/compareoptions/set_ignoreheadersandfooters/
 ---
-## CompareOptions.set_IgnoreHeadersAndFooters method
+## CompareOptions::set_IgnoreHeadersAndFooters method
 
 
 Setter for [Aspose::Words::Comparing::CompareOptions::get_IgnoreHeadersAndFooters](../get_ignoreheadersandfooters/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Comparing::CompareOptions::get_IgnoreHeadersAndFooter
 void Aspose::Words::Comparing::CompareOptions::set_IgnoreHeadersAndFooters(bool value)
 ```
 
+## See Also
+
+* Class [CompareOptions](../)
+* Namespace [Aspose::Words::Comparing](../../)
+* Library [Aspose.Words](../../../)

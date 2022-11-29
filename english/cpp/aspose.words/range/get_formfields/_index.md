@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/range/get_formfields/
 ---
-## Range.get_FormFields method
+## Range::get_FormFields method
 
 
 Returns a [FormFields](./) collection that represents all form fields in the range.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Fields::FormFieldCollection> Aspose::Words::Ran
 
 
 ## Examples
-
 
 
 
@@ -150,3 +149,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [FormFieldCollection](../../../aspose.words.fields/formfieldcollection/)
+* Class [Range](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

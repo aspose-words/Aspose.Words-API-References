@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldcollection/clear/
 ---
-## FieldCollection.Clear method
+## FieldCollection::Clear method
 
 
 Removes all fields of this collection from the document and from this collection itself.
@@ -17,7 +17,6 @@ void Aspose::Words::Fields::FieldCollection::Clear()
 
 
 ## Examples
-
 
 
 
@@ -57,3 +56,8 @@ fields->Clear();
 ASSERT_EQ(0, fields->get_Count());
 ```
 
+## See Also
+
+* Class [FieldCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

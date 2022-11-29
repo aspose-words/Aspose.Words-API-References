@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/convertutil/millimetertopoint/
 ---
-## ConvertUtil.MillimeterToPoint method
+## ConvertUtil::MillimeterToPoint method
 
 
 Converts millimeters to points.
@@ -21,7 +21,6 @@ static double Aspose::Words::ConvertUtil::MillimeterToPoint(double millimeters)
 | millimeters | double | The value to convert. |
 
 ## Examples
-
 
 
 
@@ -51,3 +50,8 @@ builder->Writeln(String::Format(u"This Text is {0} points from the left, ", page
 doc->Save(ArtifactsDir + u"UtilityClasses.PointsAndMillimeters.docx");
 ```
 
+## See Also
+
+* Class [ConvertUtil](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

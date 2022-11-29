@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldsubject/get_text/
 ---
-## FieldSubject.get_Text method
+## FieldSubject::get_Text method
 
 
 Gets or sets the text of the subject.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldSubject::get_Text()
 
 
 ## Examples
-
 
 
 
@@ -50,3 +49,8 @@ ASSERT_EQ(u"My new subject", doc->get_BuiltInDocumentProperties()->get_Subject()
 doc->Save(ArtifactsDir + u"Field.SUBJECT.docx");
 ```
 
+## See Also
+
+* Class [FieldSubject](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fielddisplaybarcode/
 Implements the DISPLAYBARCODE field.
 
 ```cpp
-class FieldDisplayBarcode : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldDisplayBarcode : public Aspose::Words::Fields::Field,
+                            public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -72,7 +73,6 @@ class FieldDisplayBarcode : public Aspose::Words::Fields::Field, public Aspose::
 
 
 
-
 Shows how to insert a DISPLAYBARCODE field, and set its properties. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -125,3 +125,8 @@ ASSERT_EQ(u" DISPLAYBARCODE  09312345678907 ITF14 \\c STD", field->GetFieldCode(
 doc->Save(ArtifactsDir + u"Field.DISPLAYBARCODE.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

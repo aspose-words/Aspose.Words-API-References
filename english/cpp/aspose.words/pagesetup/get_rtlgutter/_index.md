@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /cpp/aspose.words/pagesetup/get_rtlgutter/
 ---
-## PageSetup.get_RtlGutter method
+## PageSetup::get_RtlGutter method
 
 
 Gets or sets whether Microsoft Word uses gutters for the section based on a right-to-left language or a left-to-right language.
@@ -17,7 +17,6 @@ bool Aspose::Words::PageSetup::get_RtlGutter()
 
 
 ## Examples
-
 
 
 
@@ -53,3 +52,8 @@ pageSetup->set_MultiplePages(MultiplePagesType::MirrorMargins);
 doc->Save(ArtifactsDir + u"PageSetup.Gutter.docx");
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

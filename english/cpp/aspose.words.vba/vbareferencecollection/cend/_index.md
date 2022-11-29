@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.vba/vbareferencecollection/cend/
 ---
-## VbaReferenceCollection.cend method
+## VbaReferenceCollection::cend method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.vba/vbareferencecollection/cend/
 const_iterator Aspose::Words::Vba::VbaReferenceCollection::cend() const noexcept
 ```
 
+## See Also
+
+* Typedef [const_iterator](../const_iterator/)
+* Class [VbaReferenceCollection](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

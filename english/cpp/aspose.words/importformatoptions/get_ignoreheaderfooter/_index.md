@@ -6,10 +6,10 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/importformatoptions/get_ignoreheaderfooter/
 ---
-## ImportFormatOptions.get_IgnoreHeaderFooter method
+## ImportFormatOptions::get_IgnoreHeaderFooter method
 
 
-Gets or sets a boolean value that specifies that source formatting of headers/footers content ignored if **KeepSourceFormatting** mode is used. The default value is **true**.
+Gets or sets a boolean value that specifies that source formatting of headers/footers content ignored if [KeepSourceFormatting](../../importformatmode/) mode is used. The default value is **true**.
 
 ```cpp
 bool Aspose::Words::ImportFormatOptions::get_IgnoreHeaderFooter() const
@@ -17,7 +17,6 @@ bool Aspose::Words::ImportFormatOptions::get_IgnoreHeaderFooter() const
 
 
 ## Examples
-
 
 
 
@@ -34,3 +33,8 @@ dstDoc->AppendDocument(srcDoc, ImportFormatMode::KeepSourceFormatting, importFor
 dstDoc->Save(ArtifactsDir + u"DocumentBuilder.DoNotIgnoreHeaderFooter.docx");
 ```
 
+## See Also
+
+* Class [ImportFormatOptions](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

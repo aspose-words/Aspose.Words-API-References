@@ -6,10 +6,10 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.saving/txtsaveoptions/get_saveformat/
 ---
-## TxtSaveOptions.get_SaveFormat method
+## TxtSaveOptions::get_SaveFormat method
 
 
-Specifies the format in which the document will be saved if this save options object is used. Can only be **Text**.
+Specifies the format in which the document will be saved if this save options object is used. Can only be [Text](../../../aspose.words/saveformat/).
 
 ```cpp
 Aspose::Words::SaveFormat Aspose::Words::Saving::TxtSaveOptions::get_SaveFormat() override
@@ -17,7 +17,6 @@ Aspose::Words::SaveFormat Aspose::Words::Saving::TxtSaveOptions::get_SaveFormat(
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,9 @@ String docText = System::IO::File::ReadAllText(ArtifactsDir + u"TxtSaveOptions.P
 ASSERT_EQ(String(u"Paragraph 1. End of paragraph.\n\n\t") + u"Paragraph 2. End of paragraph.\n\n\t" + u"Paragraph 3. End of paragraph.\n\n\t", docText);
 ```
 
+## See Also
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [TxtSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

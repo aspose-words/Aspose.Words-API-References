@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing/gradientvariant/
 
 Specifies the variant for a gradient fill.
 
+```cpp
+enum class GradientVariant
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -23,7 +27,6 @@ Specifies the variant for a gradient fill.
 
 
 ## Examples
-
 
 
 
@@ -63,3 +66,7 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 doc->Save(ArtifactsDir + u"Shape.GradientFill.docx", saveOptions);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

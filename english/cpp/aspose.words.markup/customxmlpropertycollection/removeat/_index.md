@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.markup/customxmlpropertycollection/removeat/
 ---
-## CustomXmlPropertyCollection.RemoveAt method
+## CustomXmlPropertyCollection::RemoveAt method
 
 
 Removes a property at the specified index.
@@ -21,7 +21,6 @@ void Aspose::Words::Markup::CustomXmlPropertyCollection::RemoveAt(int32_t index)
 | index | int32_t | The zero based index. |
 
 ## Examples
-
 
 
 
@@ -76,3 +75,8 @@ properties->Clear();
 ASSERT_EQ(0, properties->get_Count());
 ```
 
+## See Also
+
+* Class [CustomXmlPropertyCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

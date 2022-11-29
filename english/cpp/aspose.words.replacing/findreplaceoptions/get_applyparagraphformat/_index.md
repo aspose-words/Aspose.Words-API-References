@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.replacing/findreplaceoptions/get_applyparagraphformat/
 ---
-## FindReplaceOptions.get_ApplyParagraphFormat method
+## FindReplaceOptions::get_ApplyParagraphFormat method
 
 
 [Paragraph](../../../aspose.words/paragraph/) formatting applied to new content.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::ParagraphFormat> Aspose::Words::Replacing::Find
 
 
 ## Examples
-
 
 
 
@@ -55,3 +54,9 @@ ASSERT_EQ(String(u"Every paragraph that ends with a full stop like this one will
           doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../../../aspose.words/paragraphformat/)
+* Class [FindReplaceOptions](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)

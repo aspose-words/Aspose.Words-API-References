@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.loading/htmlloadoptions/set_ignorenoscriptelements/
 ---
-## HtmlLoadOptions.set_IgnoreNoscriptElements method
+## HtmlLoadOptions::set_IgnoreNoscriptElements method
 
 
 Sets a value indicating whether to ignore <noscript> HTML elements. Default value is **false**.
@@ -15,3 +15,8 @@ Sets a value indicating whether to ignore <noscript> HTML elements. Default valu
 void Aspose::Words::Loading::HtmlLoadOptions::set_IgnoreNoscriptElements(bool value)
 ```
 
+## See Also
+
+* Class [HtmlLoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words/section/get_pagesetup/
 ---
-## Section.get_PageSetup method
+## Section::get_PageSetup method
 
 
 Returns an object that represents page setup and section properties.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::PageSetup> Aspose::Words::Section::get_PageSetu
 
 
 ## Examples
-
 
 
 
@@ -84,3 +83,9 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 ```
 
+## See Also
+
+* Class [PageSetup](../../pagesetup/)
+* Class [Section](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

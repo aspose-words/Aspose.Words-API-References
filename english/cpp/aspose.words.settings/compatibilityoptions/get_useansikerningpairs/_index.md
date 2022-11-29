@@ -6,7 +6,7 @@ type: docs
 weight: 781
 url: /cpp/aspose.words.settings/compatibilityoptions/get_useansikerningpairs/
 ---
-## CompatibilityOptions.get_UseAnsiKerningPairs method
+## CompatibilityOptions::get_UseAnsiKerningPairs method
 
 
 Use ANSI Kerning Pairs from [Fonts](../../../aspose.words.fonts/).
@@ -15,3 +15,8 @@ Use ANSI Kerning Pairs from [Fonts](../../../aspose.words.fonts/).
 bool Aspose::Words::Settings::CompatibilityOptions::get_UseAnsiKerningPairs()
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

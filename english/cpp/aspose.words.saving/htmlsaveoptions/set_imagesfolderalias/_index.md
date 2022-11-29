@@ -6,7 +6,7 @@ type: docs
 weight: 1067
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_imagesfolderalias/
 ---
-## HtmlSaveOptions.set_ImagesFolderAlias method
+## HtmlSaveOptions::set_ImagesFolderAlias method
 
 
 Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ImagesFolderAlias](../get_imagesfolderalias/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ImagesFolderAlias](../ge
 void Aspose::Words::Saving::HtmlSaveOptions::set_ImagesFolderAlias(const System::String &value)
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -20,7 +20,6 @@ using Aspose::Words::FileCorruptedException = typedef System::ExceptionWrapper<D
 
 
 
-
 Shows how to catch a FileCorruptedException. 
 ```cpp
 try
@@ -35,3 +34,7 @@ catch (FileCorruptedException& e)
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

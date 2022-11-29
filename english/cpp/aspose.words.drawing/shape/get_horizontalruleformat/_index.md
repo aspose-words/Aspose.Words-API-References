@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.drawing/shape/get_horizontalruleformat/
 ---
-## Shape.get_HorizontalRuleFormat method
+## Shape::get_HorizontalRuleFormat method
 
 
 Provides access to the properties of the horizontal rule shape. For a shape that is not a horizontal rule, returns null.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::HorizontalRuleFormat> Aspose::Words::D
 
 
 ## Examples
-
 
 
 
@@ -38,3 +37,9 @@ ASSERT_TRUE(shape->get_IsHorizontalRule());
 ASSERT_TRUE(shape->get_HorizontalRuleFormat()->get_NoShade());
 ```
 
+## See Also
+
+* Class [HorizontalRuleFormat](../../horizontalruleformat/)
+* Class [Shape](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

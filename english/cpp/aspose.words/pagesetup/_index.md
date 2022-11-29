@@ -61,7 +61,7 @@ class PageSetup : public Aspose::Words::IBorderAttrSource
 | [get_SheetsPerBooklet](./get_sheetsperbooklet/)() const | Returns or sets the number of pages to be included in each booklet. |
 | [get_SuppressEndnotes](./get_suppressendnotes/)() | **True** if endnotes are printed at the end of the next section that doesn't suppress endnotes. Suppressed endnotes are printed before the endnotes in that section. |
 | [get_TextColumns](./get_textcolumns/)() | Returns a collection that represents the set of text columns. |
-| [get_TextOrientation](./get_textorientation/)() | Allows to specify [TextOrientation](./get_textorientation/) for the whole page. Default value is **Horizontal** |
+| [get_TextOrientation](./get_textorientation/)() | Allows to specify [TextOrientation](./get_textorientation/) for the whole page. Default value is [Horizontal](../textorientation/) |
 | [get_TopMargin](./get_topmargin/)() | Returns or sets the distance (in points) between the top edge of the page and the top boundary of the body text. |
 | [get_VerticalAlignment](./get_verticalalignment/)() | Returns or sets the vertical alignment of text on each page in a document or section. |
 | [set_Bidi](./set_bidi/)(bool) | Setter for [Aspose::Words::PageSetup::get_Bidi](./get_bidi/). |
@@ -104,11 +104,12 @@ class PageSetup : public Aspose::Words::IBorderAttrSource
 | [set_TextOrientation](./set_textorientation/)(Aspose::Words::TextOrientation) | Setter for [Aspose::Words::PageSetup::get_TextOrientation](./get_textorientation/). |
 | [set_TopMargin](./set_topmargin/)(double) | Setter for [Aspose::Words::PageSetup::get_TopMargin](./get_topmargin/). |
 | [set_VerticalAlignment](./set_verticalalignment/)(Aspose::Words::PageVerticalAlignment) | Setter for [Aspose::Words::PageSetup::get_VerticalAlignment](./get_verticalalignment/). |
+## Remarks
+
 
 **PageSetup** object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties.
 
 ## Examples
-
 
 
 
@@ -140,3 +141,7 @@ builder->Writeln(u"This is the second section, which is in default Letter paper 
 doc->Save(ArtifactsDir + u"PageSetup.ClearFormatting.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

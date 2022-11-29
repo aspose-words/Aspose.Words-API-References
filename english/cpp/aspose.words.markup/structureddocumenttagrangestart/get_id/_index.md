@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_id/
 ---
-## StructuredDocumentTagRangeStart.get_Id method
+## StructuredDocumentTagRangeStart::get_Id method
 
 
 Specifies a unique read-only persistent numerical Id for this structured document tag.
@@ -15,9 +15,11 @@ Specifies a unique read-only persistent numerical Id for this structured documen
 int32_t Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_Id() override
 ```
 
+## Remarks
+
 
 Id attribute shall follow these rules:* The document shall retain structured document tag ids only if the whole document is cloned [Clone](../../../aspose.words/document/clone/).
-* During **ImportNode()** Id shall be retained if import does not cause conflicts with other structured document tag Ids in the target document.
+* During [ImportNode()](../) Id shall be retained if import does not cause conflicts with other structured document tag Ids in the target document.
 * If multiple structured document tag nodes specify the same decimal number value for the Id attribute, then the first structured document tag in the document shall maintain this original Id, and all subsequent structured document tag nodes shall have new identifiers assigned to them when the document is loaded.
 * During standalone structured document tag **Clone()** operation new unique ID will be generated for the cloned structured document tag node.
 * If Id is not specified in the source document, then the structured document tag node shall have a new unique identifier assigned to it when the document is loaded.
@@ -25,7 +27,6 @@ Id attribute shall follow these rules:* The document shall retain structured doc
 
 
 ## Examples
-
 
 
 
@@ -57,3 +58,8 @@ std::cout << "\t|Id: " << rangeEndTag->get_Id() << std::endl;
 std::cout << String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) << std::endl;
 ```
 
+## See Also
+
+* Class [StructuredDocumentTagRangeStart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

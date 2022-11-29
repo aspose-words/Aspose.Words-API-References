@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.fields/fieldstyleref/set_searchfrombottom/
 ---
-## FieldStyleRef.set_SearchFromBottom method
+## FieldStyleRef::set_SearchFromBottom method
 
 
 Setter for [Aspose::Words::Fields::FieldStyleRef::get_SearchFromBottom](../get_searchfrombottom/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldStyleRef::get_SearchFromBottom](../get_s
 void Aspose::Words::Fields::FieldStyleRef::set_SearchFromBottom(bool value)
 ```
 
+## See Also
+
+* Class [FieldStyleRef](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

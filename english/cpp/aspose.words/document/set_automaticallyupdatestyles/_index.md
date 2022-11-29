@@ -6,7 +6,7 @@ type: docs
 weight: 885
 url: /cpp/aspose.words/document/set_automaticallyupdatestyles/
 ---
-## Document.set_AutomaticallyUpdateStyles method
+## Document::set_AutomaticallyUpdateStyles method
 
 
 Setter for [Aspose::Words::Document::get_AutomaticallyUpdateStyles](../get_automaticallyupdatestyles/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Document::get_AutomaticallyUpdateStyles](../get_autom
 void Aspose::Words::Document::set_AutomaticallyUpdateStyles(bool value)
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,10 +6,10 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.layout/layoutoptions/get_commentdisplaymode/
 ---
-## LayoutOptions.get_CommentDisplayMode method
+## LayoutOptions::get_CommentDisplayMode method
 
 
-Gets or sets the way comments are rendered. Default value is **ShowInBalloons**.
+Gets or sets the way comments are rendered. Default value is [ShowInBalloons](../../commentdisplaymode/).
 
 ```cpp
 Aspose::Words::Layout::CommentDisplayMode Aspose::Words::Layout::LayoutOptions::get_CommentDisplayMode() const
@@ -17,7 +17,6 @@ Aspose::Words::Layout::CommentDisplayMode Aspose::Words::Layout::LayoutOptions::
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,9 @@ doc->UpdatePageLayout();
 doc->Save(ArtifactsDir + u"Document.ShowCommentsInBalloons.pdf");
 ```
 
+## See Also
+
+* Enum [CommentDisplayMode](../../commentdisplaymode/)
+* Class [LayoutOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

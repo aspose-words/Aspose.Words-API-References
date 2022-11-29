@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/saveoutputparameters/get_contenttype/
 ---
-## SaveOutputParameters.get_ContentType method
+## SaveOutputParameters::get_ContentType method
 
 
 Returns the Content-Type string (Internet Media Type) that identifies the type of the saved document.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Saving::SaveOutputParameters::get_ContentType() co
 
 
 ## Examples
-
 
 
 
@@ -38,3 +37,8 @@ parameters = doc->Save(ArtifactsDir + u"Document.SaveOutputParameters.pdf");
 ASSERT_EQ(u"application/pdf", parameters->get_ContentType());
 ```
 
+## See Also
+
+* Class [SaveOutputParameters](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

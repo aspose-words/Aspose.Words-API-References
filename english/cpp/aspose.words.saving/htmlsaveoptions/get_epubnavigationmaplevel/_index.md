@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_epubnavigationmaplevel/
 ---
-## HtmlSaveOptions.get_EpubNavigationMapLevel method
+## HtmlSaveOptions::get_EpubNavigationMapLevel method
 
 
 Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB format. Default value is **%3**.
@@ -15,13 +15,14 @@ Specifies the maximum level of headings populated to the navigation map when exp
 int32_t Aspose::Words::Saving::HtmlSaveOptions::get_EpubNavigationMapLevel() const
 ```
 
+## Remarks
+
 
 Navigation map in IDPF EPUB format allows user agents to provide easy way of navigation through the document structure. Usually navigation points correspond to headings in the document. To populate headings up to level **N** assign this value to [EpubNavigationMapLevel](./).
 
 By default, three levels of headings are populated: paragraphs of styles **Heading 1**, **Heading 2** and **Heading 3**. You can set this property to a value from 1 to 9 to request corresponding maximum level. Setting it to zero will reduce navigation map to only document root or roots of document parts.
 
 ## Examples
-
 
 
 
@@ -58,3 +59,8 @@ options->set_EpubNavigationMapLevel(2);
 doc->Save(ArtifactsDir + u"HtmlSaveOptions.EpubHeadings.epub", options);
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

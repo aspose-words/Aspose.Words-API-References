@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words/nodecollection/removeat/
 ---
-## NodeCollection.RemoveAt method
+## NodeCollection::RemoveAt method
 
 
 Removes the node at the specified index from the collection and from the document.
@@ -21,7 +21,6 @@ void Aspose::Words::NodeCollection::RemoveAt(int32_t index)
 | index | int32_t | The zero-based index of the node. Negative indexes are allowed and indicate access from the back of the list. For example -1 means the last node, -2 means the second before last and so on. |
 
 ## Examples
-
 
 
 
@@ -53,3 +52,8 @@ ASSERT_EQ(u"Section 2\x000c"
           doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [NodeCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

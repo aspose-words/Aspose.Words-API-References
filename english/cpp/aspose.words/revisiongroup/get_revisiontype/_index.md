@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/revisiongroup/get_revisiontype/
 ---
-## RevisionGroup.get_RevisionType method
+## RevisionGroup::get_RevisionType method
 
 
 Gets the type of revisions included in this group.
@@ -17,7 +17,6 @@ Aspose::Words::RevisionType Aspose::Words::RevisionGroup::get_RevisionType()
 
 
 ## Examples
-
 
 
 
@@ -35,3 +34,9 @@ for (const auto& group : doc->get_Revisions()->get_Groups())
 }
 ```
 
+## See Also
+
+* Enum [RevisionType](../../revisiontype/)
+* Class [RevisionGroup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

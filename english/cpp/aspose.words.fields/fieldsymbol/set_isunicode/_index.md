@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.fields/fieldsymbol/set_isunicode/
 ---
-## FieldSymbol.set_IsUnicode method
+## FieldSymbol::set_IsUnicode method
 
 
 Setter for [Aspose::Words::Fields::FieldSymbol::get_IsUnicode](../get_isunicode/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldSymbol::get_IsUnicode](../get_isunicode/
 void Aspose::Words::Fields::FieldSymbol::set_IsUnicode(bool value)
 ```
 
+## See Also
+
+* Class [FieldSymbol](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

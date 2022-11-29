@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.tables/cellformat/get_shading/
 ---
-## CellFormat.get_Shading method
+## CellFormat::get_Shading method
 
 
 Returns a [Shading](../../../aspose.words/shading/) object that refers to the shading formatting for the cell.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Shading> Aspose::Words::Tables::CellFormat::get
 
 
 ## Examples
-
 
 
 
@@ -113,3 +112,9 @@ cellFormat->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::ge
 doc->Save(ArtifactsDir + u"Table.RowCellFormat.docx");
 ```
 
+## See Also
+
+* Class [Shading](../../../aspose.words/shading/)
+* Class [CellFormat](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

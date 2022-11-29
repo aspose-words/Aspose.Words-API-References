@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing/imagetype/
 
 Specifies the type (format) of an image in a Microsoft Word document.
 
+```cpp
+enum class ImageType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -26,7 +30,6 @@ Specifies the type (format) of an image in a Microsoft Word document.
 
 
 ## Examples
-
 
 
 
@@ -47,3 +50,7 @@ ArrayPtr<uint8_t> imageBytes = System::IO::File::ReadAllBytes(ImageDir + u"Logo.
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

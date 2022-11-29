@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.drawing/imagedata/get_imagetype/
 ---
-## ImageData.get_ImageType method
+## ImageData::get_ImageType method
 
 
 Gets the type of the image.
@@ -17,7 +17,6 @@ Aspose::Words::Drawing::ImageType Aspose::Words::Drawing::ImageData::get_ImageTy
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,9 @@ for (const auto& shape : System::IterateOver(shapes->LINQ_OfType<SharedPtr<Shape
 }
 ```
 
+## See Also
+
+* Enum [ImageType](../../imagetype/)
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

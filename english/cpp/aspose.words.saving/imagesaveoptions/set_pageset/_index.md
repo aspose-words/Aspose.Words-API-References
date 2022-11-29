@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.words.saving/imagesaveoptions/set_pageset/
 ---
-## ImageSaveOptions.set_PageSet method
+## ImageSaveOptions::set_PageSet method
 
 
 Setter for [Aspose::Words::Saving::ImageSaveOptions::get_PageSet](../get_pageset/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Saving::ImageSaveOptions::get_PageSet](../get_pageset
 void Aspose::Words::Saving::ImageSaveOptions::set_PageSet(const System::SharedPtr<Aspose::Words::Saving::PageSet> &value)
 ```
 
+## See Also
+
+* Class [PageSet](../../pageset/)
+* Class [ImageSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

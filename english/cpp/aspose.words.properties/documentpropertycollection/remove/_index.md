@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.properties/documentpropertycollection/remove/
 ---
-## DocumentPropertyCollection.Remove method
+## DocumentPropertyCollection::Remove method
 
 
 Removes a property with the specified name from the collection.
@@ -21,7 +21,6 @@ void Aspose::Words::Properties::DocumentPropertyCollection::Remove(const System:
 | name | const System::String\& | The case-insensitive name of the property. |
 
 ## Examples
-
 
 
 
@@ -83,3 +82,8 @@ properties->Clear();
 ASSERT_EQ(0, properties->get_Count());
 ```
 
+## See Also
+
+* Class [DocumentPropertyCollection](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

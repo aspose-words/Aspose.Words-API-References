@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fields/fieldtoa/get_pagerangeseparator/
 ---
-## FieldToa.get_PageRangeSeparator method
+## FieldToa::get_PageRangeSeparator method
 
 
 Gets or sets the character sequence that is used to separate the start and end of a page range.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldToa::get_PageRangeSeparator()
 
 
 ## Examples
-
 
 
 
@@ -138,3 +137,8 @@ static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, Str
 }
 ```
 
+## See Also
+
+* Class [FieldToa](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.saving/saveoptions/get_exportgeneratorname/
 ---
-## SaveOptions.get_ExportGeneratorName method
+## SaveOptions::get_ExportGeneratorName method
 
 
 When true, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**.
@@ -17,7 +17,6 @@ bool Aspose::Words::Saving::SaveOptions::get_ExportGeneratorName() const
 
 
 ## Examples
-
 
 
 
@@ -32,3 +31,8 @@ saveOptions->set_ExportGeneratorName(false);
 doc->Save(ArtifactsDir + u"OoxmlSaveOptions.ExportGeneratorName.docx", saveOptions);
 ```
 
+## See Also
+
+* Class [SaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

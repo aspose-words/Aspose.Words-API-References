@@ -6,7 +6,7 @@ type: docs
 weight: 521
 url: /cpp/aspose.words/pagesetup/get_suppressendnotes/
 ---
-## PageSetup.get_SuppressEndnotes method
+## PageSetup::get_SuppressEndnotes method
 
 
 **True** if endnotes are printed at the end of the next section that doesn't suppress endnotes. Suppressed endnotes are printed before the endnotes in that section.
@@ -17,7 +17,6 @@ bool Aspose::Words::PageSetup::get_SuppressEndnotes()
 
 
 ## Examples
-
 
 
 
@@ -71,3 +70,8 @@ static void InsertSectionWithEndnote(SharedPtr<Document> doc, String sectionBody
 }
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

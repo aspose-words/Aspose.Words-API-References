@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldcitation/get_formatlanguageid/
 ---
-## FieldCitation.get_FormatLanguageId method
+## FieldCitation::get_FormatLanguageId method
 
 
 Gets or sets the language ID that is used in conjunction with the specified bibliographic style to format the citation in the document.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldCitation::get_FormatLanguageId()
 
 
 ## Examples
-
 
 
 
@@ -70,3 +69,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.CITATION.docx");
 ```
 
+## See Also
+
+* Class [FieldCitation](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

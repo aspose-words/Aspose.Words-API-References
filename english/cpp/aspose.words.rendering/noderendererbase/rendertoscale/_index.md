@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.rendering/noderendererbase/rendertoscale/
 ---
-## NodeRendererBase.RenderToScale method
+## NodeRendererBase::RenderToScale method
 
 
 Renders the shape into a **Graphics** object to a specified scale.
@@ -25,7 +25,10 @@ System::Drawing::SizeF Aspose::Words::Rendering::NodeRendererBase::RenderToScale
 
 ### ReturnValue
 
-
 The width and height (in world units) of the rendered shape.
 
+## See Also
 
+* Class [NodeRendererBase](../)
+* Namespace [Aspose::Words::Rendering](../../)
+* Library [Aspose.Words](../../../)

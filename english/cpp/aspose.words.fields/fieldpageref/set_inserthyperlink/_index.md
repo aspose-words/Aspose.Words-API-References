@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fields/fieldpageref/set_inserthyperlink/
 ---
-## FieldPageRef.set_InsertHyperlink method
+## FieldPageRef::set_InsertHyperlink method
 
 
 Setter for [Aspose::Words::Fields::FieldPageRef::get_InsertHyperlink](../get_inserthyperlink/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldPageRef::get_InsertHyperlink](../get_ins
 void Aspose::Words::Fields::FieldPageRef::set_InsertHyperlink(bool value)
 ```
 
+## See Also
+
+* Class [FieldPageRef](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/aspose.words.drawing/textpath/set_size/
 ---
-## TextPath.set_Size method
+## TextPath::set_Size method
 
 
 Defines the size of the font in points.
@@ -15,5 +15,12 @@ Defines the size of the font in points.
 void Aspose::Words::Drawing::TextPath::set_Size(double value)
 ```
 
+## Remarks
+
 
 The default value is 36. 
+## See Also
+
+* Class [TextPath](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

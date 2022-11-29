@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/
 ---
-## FontFallbackSettings.LoadNotoFallbackSettings method
+## FontFallbackSettings::LoadNotoFallbackSettings method
 
 
 Loads predefined fallback settings which uses Google Noto fonts.
@@ -17,7 +17,6 @@ void Aspose::Words::Fonts::FontFallbackSettings::LoadNotoFallbackSettings()
 
 
 ## Examples
-
 
 
 
@@ -66,3 +65,8 @@ fontFallbackSettings->LoadNotoFallbackSettings();
 fontFallbackSettings->Save(ArtifactsDir + u"FontSettings.FallbackSettings.LoadNotoFallbackSettings.xml");
 ```
 
+## See Also
+
+* Class [FontFallbackSettings](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

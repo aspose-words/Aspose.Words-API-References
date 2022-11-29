@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fonts/fontsubstitutionsettings/get_fontnamesubstitution/
 ---
-## FontSubstitutionSettings.get_FontNameSubstitution method
+## FontSubstitutionSettings::get_FontNameSubstitution method
 
 
 [Settings](../../../aspose.words.settings/) related to font name substitution rule.
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.fonts/fontsubstitutionsettings/get_fontnamesubstitution/
 System::SharedPtr<Aspose::Words::Fonts::FontNameSubstitutionRule> Aspose::Words::Fonts::FontSubstitutionSettings::get_FontNameSubstitution() const
 ```
 
+## See Also
+
+* Class [FontNameSubstitutionRule](../../fontnamesubstitutionrule/)
+* Class [FontSubstitutionSettings](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fielddde/get_autoupdate/
 ---
-## FieldDde.get_AutoUpdate method
+## FieldDde::get_AutoUpdate method
 
 
 Gets or sets whether to update this field automatically.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldDde::get_AutoUpdate()
 
 
 ## Examples
-
 
 
 
@@ -196,3 +195,8 @@ static void InsertFieldDdeAuto(SharedPtr<DocumentBuilder> builder, ExField::Inse
 }
 ```
 
+## See Also
+
+* Class [FieldDde](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

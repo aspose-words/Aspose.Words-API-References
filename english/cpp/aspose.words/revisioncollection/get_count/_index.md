@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/revisioncollection/get_count/
 ---
-## RevisionCollection.get_Count method
+## RevisionCollection::get_Count method
 
 
 Returns the number of revisions in the collection.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::RevisionCollection::get_Count()
 
 
 ## Examples
-
 
 
 
@@ -98,3 +97,8 @@ ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [RevisionCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

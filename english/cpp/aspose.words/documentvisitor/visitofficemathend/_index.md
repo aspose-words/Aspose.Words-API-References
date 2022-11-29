@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/aspose.words/documentvisitor/visitofficemathend/
 ---
-## DocumentVisitor.VisitOfficeMathEnd method
+## DocumentVisitor::VisitOfficeMathEnd method
 
 
 Called when enumeration of a Office [Math](../../../aspose.words.math/) object has ended.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitOffice
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -104,3 +102,10 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [OfficeMath](../../../aspose.words.math/officemath/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

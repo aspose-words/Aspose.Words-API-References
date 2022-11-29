@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/aspose.words.fields/fieldindex/set_pagerangeseparator/
 ---
-## FieldIndex.set_PageRangeSeparator method
+## FieldIndex::set_PageRangeSeparator method
 
 
 Setter for [Aspose::Words::Fields::FieldIndex::get_PageRangeSeparator](../get_pagerangeseparator/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldIndex::get_PageRangeSeparator](../get_pa
 void Aspose::Words::Fields::FieldIndex::set_PageRangeSeparator(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldIndex](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

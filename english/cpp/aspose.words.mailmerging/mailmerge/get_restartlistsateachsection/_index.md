@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.mailmerging/mailmerge/get_restartlistsateachsection/
 ---
-## MailMerge.get_RestartListsAtEachSection method
+## MailMerge::get_RestartListsAtEachSection method
 
 
 Gets or sets a value indicating whether lists are restarted at each section after executing of a mail merge.
@@ -20,7 +20,6 @@ bool Aspose::Words::MailMerging::MailMerge::get_RestartListsAtEachSection() cons
 
 
 
-
 Shows how to control whether or not list numbering is restarted at each section when mail merge is performed. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Section breaks with numbering.docx");
@@ -31,3 +30,8 @@ doc->get_MailMerge()->Execute(MakeArray<String>(0), MakeArray<SharedPtr<System::
 doc->Save(ArtifactsDir + u"MailMerge.RestartListsAtEachSection.pdf");
 ```
 
+## See Also
+
+* Class [MailMerge](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

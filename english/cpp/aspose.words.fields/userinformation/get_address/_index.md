@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/userinformation/get_address/
 ---
-## UserInformation.get_Address method
+## UserInformation::get_Address method
 
 
 Gets or sets the user's postal address.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::UserInformation::get_Address() const
 
 
 ## Examples
-
 
 
 
@@ -53,3 +52,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"FieldOptions.CurrentUser.docx");
 ```
 
+## See Also
+
+* Class [UserInformation](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

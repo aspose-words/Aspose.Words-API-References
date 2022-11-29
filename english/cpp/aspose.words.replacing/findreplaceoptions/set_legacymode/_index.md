@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/aspose.words.replacing/findreplaceoptions/set_legacymode/
 ---
-## FindReplaceOptions.set_LegacyMode method
+## FindReplaceOptions::set_LegacyMode method
 
 
 Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_LegacyMode](../get_legacymode/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_LegacyMode](../get
 void Aspose::Words::Replacing::FindReplaceOptions::set_LegacyMode(bool value)
 ```
 
+## See Also
+
+* Class [FindReplaceOptions](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)

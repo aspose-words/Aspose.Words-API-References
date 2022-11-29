@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/set_showseriesname/
 ---
-## ChartDataLabelCollection.set_ShowSeriesName method
+## ChartDataLabelCollection::set_ShowSeriesName method
 
 
 Setter for [Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowSeriesName](../get_showseriesname/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowSe
 void Aspose::Words::Drawing::Charts::ChartDataLabelCollection::set_ShowSeriesName(bool value)
 ```
 
+## See Also
+
+* Class [ChartDataLabelCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

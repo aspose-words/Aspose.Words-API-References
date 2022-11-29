@@ -6,10 +6,10 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/xpssaveoptions/xpssaveoptions/
 ---
-## XpsSaveOptions.XpsSaveOptions() method
+## XpsSaveOptions::XpsSaveOptions() constructor
 
 
-Initializes a new instance of this class that can be used to save a document in the **Xps** format.
+Initializes a new instance of this class that can be used to save a document in the [Xps](../../../aspose.words/saveformat/) format.
 
 ```cpp
 Aspose::Words::Saving::XpsSaveOptions::XpsSaveOptions()
@@ -17,7 +17,6 @@ Aspose::Words::Saving::XpsSaveOptions::XpsSaveOptions()
 
 
 ## Examples
-
 
 
 
@@ -58,10 +57,15 @@ saveOptions->get_OutlineOptions()->set_HeadingsOutlineLevels(2);
 doc->Save(ArtifactsDir + u"XpsSaveOptions.OutlineLevels.xps", saveOptions);
 ```
 
-## XpsSaveOptions.XpsSaveOptions(Aspose::Words::SaveFormat) method
+## See Also
+
+* Class [XpsSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)
+## XpsSaveOptions::XpsSaveOptions(Aspose::Words::SaveFormat) constructor
 
 
-Initializes a new instance of this class that can be used to save a document in the **Xps** or **OpenXps** format.
+Initializes a new instance of this class that can be used to save a document in the [Xps](../../../aspose.words/saveformat/) or [OpenXps](../../../aspose.words/saveformat/) format.
 
 ```cpp
 Aspose::Words::Saving::XpsSaveOptions::XpsSaveOptions(Aspose::Words::SaveFormat saveFormat)
@@ -69,7 +73,6 @@ Aspose::Words::Saving::XpsSaveOptions::XpsSaveOptions(Aspose::Words::SaveFormat 
 
 
 ## Examples
-
 
 
 
@@ -101,3 +104,9 @@ if (renderTextAsBookFold)
 doc->Save(ArtifactsDir + u"XpsSaveOptions.BookFold.xps", xpsOptions);
 ```
 
+## See Also
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [XpsSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

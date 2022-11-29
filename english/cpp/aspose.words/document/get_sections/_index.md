@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /cpp/aspose.words/document/get_sections/
 ---
-## Document.get_Sections method
+## Document::get_Sections method
 
 
 Returns a collection that represents all sections in the document.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::SectionCollection> Aspose::Words::Document::get
 
 
 ## Examples
-
 
 
 
@@ -94,3 +93,9 @@ ASSERT_EQ(u"Section 2\x000c"
           doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [SectionCollection](../../sectioncollection/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

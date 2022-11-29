@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.saving/fontsavingargs/set_isexportneeded/
 ---
-## FontSavingArgs.set_IsExportNeeded method
+## FontSavingArgs::set_IsExportNeeded method
 
 
 Setter for [Aspose::Words::Saving::FontSavingArgs::get_IsExportNeeded](../get_isexportneeded/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::FontSavingArgs::get_IsExportNeeded](../get_is
 void Aspose::Words::Saving::FontSavingArgs::set_IsExportNeeded(bool value)
 ```
 
+## See Also
+
+* Class [FontSavingArgs](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

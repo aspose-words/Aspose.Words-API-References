@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fieldtoa/get_entryseparator/
 ---
-## FieldToa.get_EntrySeparator method
+## FieldToa::get_EntrySeparator method
 
 
 Gets or sets the character sequence that is used to separate a table of authorities entry and its page number.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldToa::get_EntrySeparator()
 
 
 ## Examples
-
 
 
 
@@ -138,3 +137,8 @@ static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, Str
 }
 ```
 
+## See Also
+
+* Class [FieldToa](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.saving/outlineoptions/get_createoutlinesforheadingsintables/
 ---
-## OutlineOptions.get_CreateOutlinesForHeadingsInTables method
+## OutlineOptions::get_CreateOutlinesForHeadingsInTables method
 
 
 Specifies whether or not to create outlines for headings (paragraphs formatted with the Heading styles) inside tables.
@@ -15,11 +15,12 @@ Specifies whether or not to create outlines for headings (paragraphs formatted w
 bool Aspose::Words::Saving::OutlineOptions::get_CreateOutlinesForHeadingsInTables() const
 ```
 
+## Remarks
+
 
 Default value is **false**.
 
 ## Examples
-
 
 
 
@@ -62,3 +63,8 @@ pdfSaveOptions->get_OutlineOptions()->set_CreateOutlinesForHeadingsInTables(crea
 doc->Save(ArtifactsDir + u"PdfSaveOptions.TableHeadingOutlines.pdf", pdfSaveOptions);
 ```
 
+## See Also
+
+* Class [OutlineOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

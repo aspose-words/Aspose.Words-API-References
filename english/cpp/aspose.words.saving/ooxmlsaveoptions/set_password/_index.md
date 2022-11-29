@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.saving/ooxmlsaveoptions/set_password/
 ---
-## OoxmlSaveOptions.set_Password method
+## OoxmlSaveOptions::set_Password method
 
 
 Setter for [Aspose::Words::Saving::OoxmlSaveOptions::get_Password](../get_password/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::OoxmlSaveOptions::get_Password](../get_passwo
 void Aspose::Words::Saving::OoxmlSaveOptions::set_Password(const System::String &value)
 ```
 
+## See Also
+
+* Class [OoxmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

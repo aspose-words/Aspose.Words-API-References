@@ -6,7 +6,7 @@ type: docs
 weight: 794
 url: /cpp/aspose.words/document/protect/
 ---
-## Document.Protect(Aspose::Words::ProtectionType) method
+## Document::Protect(Aspose::Words::ProtectionType) method
 
 
 Protects the document from changes without changing the existing password or assigns a random password.
@@ -19,6 +19,8 @@ void Aspose::Words::Document::Protect(Aspose::Words::ProtectionType type)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | Aspose::Words::ProtectionType | Specifies the protection type for the document. |
+## Remarks
+
 
 When a document is protected, the user can make only limited changes, such as adding annotations, making revisions, or completing a form.
 
@@ -27,7 +29,6 @@ When you protect a document, and the document already has a protection password,
 When you protect a document, and the document does not have a protection password, this method assigns a random password that makes it impossible to unprotect the document in Microsoft Word, but you still can unprotect the document in Aspose.Words as it does not require a password when unprotecting.
 
 ## Examples
-
 
 
 
@@ -54,7 +55,13 @@ doc->get_Sections()->idx_get(0)->set_ProtectedForForms(false);
 doc->Save(ArtifactsDir + u"Section.Protect.docx");
 ```
 
-## Document.Protect(Aspose::Words::ProtectionType, const System::String\&) method
+## See Also
+
+* Enum [ProtectionType](../../protectiontype/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Document::Protect(Aspose::Words::ProtectionType, const System::String\&) method
 
 
 Protects the document from changes and optionally sets a protection password.
@@ -68,13 +75,14 @@ void Aspose::Words::Document::Protect(Aspose::Words::ProtectionType type, const 
 | --- | --- | --- |
 | type | Aspose::Words::ProtectionType | Specifies the protection type for the document. |
 | password | const System::String\& | The password to protect the document with. Specify null or empty string if you want to protect the document without a password. |
+## Remarks
+
 
 When a document is protected, the user can make only limited changes, such as adding annotations, making revisions, or completing a form.
 
 Note that document protection is different from write protection. Write protection is specified using the [WriteProtection](../get_writeprotection/).
 
 ## Examples
-
 
 
 
@@ -118,3 +126,9 @@ doc->Unprotect(u"NewPassword");
 ASSERT_EQ(ProtectionType::NoProtection, doc->get_ProtectionType());
 ```
 
+## See Also
+
+* Enum [ProtectionType](../../protectiontype/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

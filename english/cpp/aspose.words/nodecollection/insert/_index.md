@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words/nodecollection/insert/
 ---
-## NodeCollection.Insert method
+## NodeCollection::Insert method
 
 
 Inserts a node into the collection at the specified index.
@@ -20,6 +20,8 @@ void Aspose::Words::NodeCollection::Insert(int32_t index, const System::SharedPt
 | --- | --- | --- |
 | index | int32_t | The zero-based index of the node. Negative indexes are allowed and indicate access from the back of the list. For example -1 means the last node, -2 means the second before last and so on. |
 | node | const System::SharedPtr\<Aspose::Words::Node\>\& | The node to insert. |
+## Remarks
+
 
 The node is inserted as a child into the node object from which the collection was created.
 
@@ -29,10 +31,9 @@ If the index is negative and its absolute value is greater than Count, the node 
 
 If the newChild is already in the tree, it is first removed.
 
-If the node being inserted was created from another document, you should use **ImportNode()** to import the node to the current document. The imported node can then be inserted into the current document.
+If the node being inserted was created from another document, you should use [ImportNode()](../) to import the node to the current document. The imported node can then be inserted into the current document.
 
 ## Examples
-
 
 
 
@@ -67,3 +68,9 @@ ASSERT_FALSE(run == nullptr);
 ASSERT_FALSE(runs->Contains(run));
 ```
 
+## See Also
+
+* Class [Node](../../node/)
+* Class [NodeCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/aspose.words/pagesetup/get_multiplepages/
 ---
-## PageSetup.get_MultiplePages method
+## PageSetup::get_MultiplePages method
 
 
 For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet.
@@ -17,7 +17,6 @@ Aspose::Words::Settings::MultiplePagesType Aspose::Words::PageSetup::get_Multipl
 
 
 ## Examples
-
 
 
 
@@ -80,3 +79,9 @@ pageSetup->set_SheetsPerBooklet(4);
 doc->Save(ArtifactsDir + u"PageSetup.Booklet.docx");
 ```
 
+## See Also
+
+* Enum [MultiplePagesType](../../../aspose.words.settings/multiplepagestype/)
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

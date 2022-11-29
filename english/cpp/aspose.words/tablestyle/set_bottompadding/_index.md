@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words/tablestyle/set_bottompadding/
 ---
-## TableStyle.set_BottomPadding method
+## TableStyle::set_BottomPadding method
 
 
 Setter for [Aspose::Words::TableStyle::get_BottomPadding](../get_bottompadding/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::TableStyle::get_BottomPadding](../get_bottompadding/)
 void Aspose::Words::TableStyle::set_BottomPadding(double value)
 ```
 
+## See Also
+
+* Class [TableStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

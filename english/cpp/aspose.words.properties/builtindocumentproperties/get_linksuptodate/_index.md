@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_linksuptodate/
 ---
-## BuiltInDocumentProperties.get_LinksUpToDate method
+## BuiltInDocumentProperties::get_LinksUpToDate method
 
 
 Indicates whether hyperlinks in a document are up-to-date.
@@ -15,11 +15,12 @@ Indicates whether hyperlinks in a document are up-to-date.
 bool Aspose::Words::Properties::BuiltInDocumentProperties::get_LinksUpToDate()
 ```
 
+## Remarks
+
 
 Aspose.Words does not update this property.
 
 ## Examples
-
 
 
 
@@ -124,3 +125,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fieldcollection/idx_get/
 ---
-## FieldCollection.idx_get method
+## FieldCollection::idx_get method
 
 
 Returns a field at the specified index.
@@ -19,6 +19,8 @@ System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Fields::FieldColl
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | An index into the collection. |
+## Remarks
+
 
 The index is zero-based.
 
@@ -29,7 +31,6 @@ If index is greater than or equal to the number of items in the list, this retur
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
 
 ## Examples
-
 
 
 
@@ -69,3 +70,9 @@ fields->Clear();
 ASSERT_EQ(0, fields->get_Count());
 ```
 
+## See Also
+
+* Class [Field](../../field/)
+* Class [FieldCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.drawing/imagedata/save/
 ---
-## ImageData.Save(const System::SharedPtr\<System::IO::Stream\>\&) method
+## ImageData::Save(const System::SharedPtr\<System::IO::Stream\>\&) method
 
 
 Saves the image into the specified stream.
@@ -19,11 +19,12 @@ void Aspose::Words::Drawing::ImageData::Save(const System::SharedPtr<System::IO:
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | const System::SharedPtr\<System::IO::Stream\>\& | The stream where to save the image to. |
+## Remarks
+
 
 Is it the responsibility of the caller to dispose the stream object.
 
 ## Examples
-
 
 
 
@@ -57,7 +58,12 @@ auto formatConverter = MakeObject<System::Drawing::ImageFormatConverter>();
 }
 ```
 
-## ImageData.Save(const System::String\&) method
+## See Also
+
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)
+## ImageData::Save(const System::String\&) method
 
 
 Saves the image into a file.
@@ -72,7 +78,6 @@ void Aspose::Words::Drawing::ImageData::Save(const System::String &fileName)
 | fileName | const System::String\& | The file name where to save the image. |
 
 ## Examples
-
 
 
 
@@ -101,7 +106,12 @@ for (const auto& shape : System::IterateOver(shapes->LINQ_OfType<SharedPtr<Shape
 }
 ```
 
-## ImageData.Save(std::basic_ostream\<CharType, Traits\>\&) method
+## See Also
+
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)
+## ImageData::Save(std::basic_ostream\<CharType, Traits\>\&) method
 
 
 
@@ -110,3 +120,8 @@ for (const auto& shape : System::IterateOver(shapes->LINQ_OfType<SharedPtr<Shape
 template<typename CharType,typename Traits> void Aspose::Words::Drawing::ImageData::Save(std::basic_ostream<CharType, Traits> &stream)
 ```
 
+## See Also
+
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

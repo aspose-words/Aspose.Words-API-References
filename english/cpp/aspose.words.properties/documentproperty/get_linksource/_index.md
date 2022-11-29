@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.properties/documentproperty/get_linksource/
 ---
-## DocumentProperty.get_LinkSource method
+## DocumentProperty::get_LinkSource method
 
 
 Gets the source of a linked custom document property.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Properties::DocumentProperty::get_LinkSource() con
 
 
 ## Examples
-
 
 
 
@@ -42,3 +41,8 @@ ASPOSE_ASSERT_EQ(u"Hello world!", customProperty->get_Value());
 doc->Save(ArtifactsDir + u"DocumentProperties.LinkCustomDocumentPropertiesToBookmark.docx");
 ```
 
+## See Also
+
+* Class [DocumentProperty](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

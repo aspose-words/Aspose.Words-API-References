@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/toacategories/get_defaultcategories/
 ---
-## ToaCategories.get_DefaultCategories method
+## ToaCategories::get_DefaultCategories method
 
 
 Gets the default table of authorities categories.
@@ -17,7 +17,6 @@ static System::SharedPtr<Aspose::Words::Fields::ToaCategories> Aspose::Words::Fi
 
 
 ## Examples
-
 
 
 
@@ -63,3 +62,9 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"FieldOptions.TOA.Categories.docx");
 ```
 
+## See Also
+
+* Class [ToaCategories](../)
+* Class [ToaCategories](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

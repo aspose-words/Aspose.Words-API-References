@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fonts/memoryfontsource/memoryfontsource/
 ---
-## MemoryFontSource.MemoryFontSource(const System::ArrayPtr\<uint8_t\>\&) method
+## MemoryFontSource::MemoryFontSource(const System::ArrayPtr\<uint8_t\>\&) constructor
 
 
 Ctor.
@@ -24,7 +24,6 @@ Aspose::Words::Fonts::MemoryFontSource::MemoryFontSource(const System::ArrayPtr<
 
 
 
-
 Shows how to use a byte array with data from a font file as a font source. 
 ```cpp
 ArrayPtr<uint8_t> fontBytes = System::IO::File::ReadAllBytes(MyDir + u"Alte DIN 1451 Mittelschrift.ttf");
@@ -38,7 +37,12 @@ ASSERT_EQ(FontSourceType::MemoryFont, memoryFontSource->get_Type());
 ASSERT_EQ(0, memoryFontSource->get_Priority());
 ```
 
-## MemoryFontSource.MemoryFontSource(const System::ArrayPtr\<uint8_t\>\&, int32_t) method
+## See Also
+
+* Class [MemoryFontSource](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)
+## MemoryFontSource::MemoryFontSource(const System::ArrayPtr\<uint8_t\>\&, int32_t) constructor
 
 
 Ctor.
@@ -57,7 +61,6 @@ Aspose::Words::Fonts::MemoryFontSource::MemoryFontSource(const System::ArrayPtr<
 
 
 
-
 Shows how to use a byte array with data from a font file as a font source. 
 ```cpp
 ArrayPtr<uint8_t> fontBytes = System::IO::File::ReadAllBytes(MyDir + u"Alte DIN 1451 Mittelschrift.ttf");
@@ -71,7 +74,12 @@ ASSERT_EQ(FontSourceType::MemoryFont, memoryFontSource->get_Type());
 ASSERT_EQ(0, memoryFontSource->get_Priority());
 ```
 
-## MemoryFontSource.MemoryFontSource(const System::ArrayPtr\<uint8_t\>\&, int32_t, const System::String\&) method
+## See Also
+
+* Class [MemoryFontSource](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)
+## MemoryFontSource::MemoryFontSource(const System::ArrayPtr\<uint8_t\>\&, int32_t, const System::String\&) constructor
 
 
 Ctor.
@@ -87,4 +95,8 @@ Aspose::Words::Fonts::MemoryFontSource::MemoryFontSource(const System::ArrayPtr<
 | priority | int32_t | [Font](../../../aspose.words/font/) source priority. See the [Priority](../../fontsourcebase/get_priority/) property description for more information. |
 | cacheKey | const System::String\& | The key of this source in the cache. See [CacheKey](../get_cachekey/) property description for more information. |
 
+## See Also
 
+* Class [MemoryFontSource](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

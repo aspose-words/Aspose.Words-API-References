@@ -15,3 +15,8 @@ url: /cpp/aspose.words.markup/customxmlpartcollection/virtualized_iterator/
 using Aspose::Words::Markup::CustomXmlPartCollection::virtualized_iterator =  typename iterator_holder_type::virtualized_iterator
 ```
 
+## See Also
+
+* Class [CustomXmlPartCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

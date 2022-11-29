@@ -11,6 +11,10 @@ url: /cpp/aspose.words.saving/colormode/
 
 Specifies how colors are rendered.
 
+```cpp
+enum class ColorMode
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,7 +24,6 @@ Specifies how colors are rendered.
 
 
 ## Examples
-
 
 
 
@@ -39,3 +42,7 @@ pdfSaveOptions->set_ColorMode(colorMode);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

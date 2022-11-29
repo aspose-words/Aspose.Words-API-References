@@ -6,7 +6,7 @@ type: docs
 weight: 495
 url: /cpp/aspose.words.tables/table/get_toppadding/
 ---
-## Table.get_TopPadding method
+## Table::get_TopPadding method
 
 
 Gets or sets the amount of space (in points) to add above the contents of cells.
@@ -17,7 +17,6 @@ double Aspose::Words::Tables::Table::get_TopPadding()
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,8 @@ table->set_PreferredWidth(PreferredWidth::FromPoints(250));
 doc->Save(ArtifactsDir + u"DocumentBuilder.SetRowFormatting.docx");
 ```
 
+## See Also
+
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

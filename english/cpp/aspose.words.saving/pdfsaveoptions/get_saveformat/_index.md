@@ -6,10 +6,10 @@ type: docs
 weight: 339
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_saveformat/
 ---
-## PdfSaveOptions.get_SaveFormat method
+## PdfSaveOptions::get_SaveFormat method
 
 
-Specifies the format in which the document will be saved if this save options object is used. Can only be **Pdf**.
+Specifies the format in which the document will be saved if this save options object is used. Can only be [Pdf](../../../aspose.words/saveformat/).
 
 ```cpp
 Aspose::Words::SaveFormat Aspose::Words::Saving::PdfSaveOptions::get_SaveFormat() override
@@ -17,7 +17,6 @@ Aspose::Words::SaveFormat Aspose::Words::Saving::PdfSaveOptions::get_SaveFormat(
 
 
 ## Examples
-
 
 
 
@@ -57,3 +56,9 @@ saveOptions->get_OutlineOptions()->set_HeadingsOutlineLevels(2);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.HeadingsOutlineLevels.pdf", saveOptions);
 ```
 
+## See Also
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.drawing.charts/chart/get_legend/
 ---
-## Chart.get_Legend method
+## Chart::get_Legend method
 
 
 Provides access to the chart legend properties.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartLegend> Aspose::Words::Dr
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,9 @@ legend->set_Overlay(true);
 doc->Save(ArtifactsDir + u"Charts.ChartLegend.docx");
 ```
 
+## See Also
+
+* Class [ChartLegend](../../chartlegend/)
+* Class [Chart](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

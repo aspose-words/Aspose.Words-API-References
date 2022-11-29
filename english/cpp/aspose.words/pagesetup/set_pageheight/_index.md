@@ -6,7 +6,7 @@ type: docs
 weight: 924
 url: /cpp/aspose.words/pagesetup/set_pageheight/
 ---
-## PageSetup.set_PageHeight method
+## PageSetup::set_PageHeight method
 
 
 Setter for [Aspose::Words::PageSetup::get_PageHeight](../get_pageheight/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::PageSetup::get_PageHeight](../get_pageheight/).
 void Aspose::Words::PageSetup::set_PageHeight(double value)
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

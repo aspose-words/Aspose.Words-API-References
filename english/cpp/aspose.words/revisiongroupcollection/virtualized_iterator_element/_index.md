@@ -15,3 +15,8 @@ url: /cpp/aspose.words/revisiongroupcollection/virtualized_iterator_element/
 using Aspose::Words::RevisionGroupCollection::virtualized_iterator_element =  typename iterator_holder_type::virtualized_iterator_element
 ```
 
+## See Also
+
+* Class [RevisionGroupCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

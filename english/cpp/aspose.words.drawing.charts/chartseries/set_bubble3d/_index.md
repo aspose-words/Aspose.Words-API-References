@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.drawing.charts/chartseries/set_bubble3d/
 ---
-## ChartSeries.set_Bubble3D method
+## ChartSeries::set_Bubble3D method
 
 
 Setter for [Aspose::Words::Drawing::Charts::IChartDataPoint::get_Bubble3D](../../ichartdatapoint/get_bubble3d/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::Charts::IChartDataPoint::get_Bubble3D](../..
 void Aspose::Words::Drawing::Charts::ChartSeries::set_Bubble3D(bool value) override
 ```
 
+## See Also
+
+* Class [ChartSeries](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

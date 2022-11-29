@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.framesets/framesetcollection/framesetcollection/
 ---
-## FramesetCollection.FramesetCollection method
+## FramesetCollection::FramesetCollection constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.framesets/framesetcollection/framesetcollection/
 Aspose::Words::Framesets::FramesetCollection::FramesetCollection()
 ```
 
+## See Also
+
+* Class [FramesetCollection](../)
+* Namespace [Aspose::Words::Framesets](../../)
+* Library [Aspose.Words](../../../)

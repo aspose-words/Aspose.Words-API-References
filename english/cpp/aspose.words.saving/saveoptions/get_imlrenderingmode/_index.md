@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.saving/saveoptions/get_imlrenderingmode/
 ---
-## SaveOptions.get_ImlRenderingMode method
+## SaveOptions::get_ImlRenderingMode method
 
 
 Gets or sets a value determining how ink (InkML) objects are rendered.
@@ -15,13 +15,14 @@ Gets or sets a value determining how ink (InkML) objects are rendered.
 Aspose::Words::Saving::ImlRenderingMode Aspose::Words::Saving::SaveOptions::get_ImlRenderingMode() const
 ```
 
+## Remarks
 
-The default value is **InkML**.
+
+The default value is [InkML](../../imlrenderingmode/).
 
 This property is used when the document is exported to fixed page formats.
 
 ## Examples
-
 
 
 
@@ -38,3 +39,9 @@ saveOptions->set_ImlRenderingMode(ImlRenderingMode::InkML);
 doc->Save(ArtifactsDir + u"ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
 ```
 
+## See Also
+
+* Enum [ImlRenderingMode](../../imlrenderingmode/)
+* Class [SaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

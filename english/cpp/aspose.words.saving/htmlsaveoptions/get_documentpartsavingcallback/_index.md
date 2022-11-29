@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_documentpartsavingcallback/
 ---
-## HtmlSaveOptions.get_DocumentPartSavingCallback method
+## HtmlSaveOptions::get_DocumentPartSavingCallback method
 
 
 Allows to control how document parts are saved when a document is saved to HTML or EPUB.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Saving::IDocumentPartSavingCallback> Aspose::Wo
 
 
 ## Examples
-
 
 
 
@@ -139,3 +138,9 @@ private:
 };
 ```
 
+## See Also
+
+* Interface [IDocumentPartSavingCallback](../../idocumentpartsavingcallback/)
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

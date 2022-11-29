@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.tables/cellformat/get_borders/
 ---
-## CellFormat.get_Borders method
+## CellFormat::get_Borders method
 
 
 Gets collection of borders of the cell.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::BorderCollection> Aspose::Words::Tables::CellFo
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,9 @@ secondTable->Remove();
 doc->Save(ArtifactsDir + u"Table.CombineTables.docx");
 ```
 
+## See Also
+
+* Class [BorderCollection](../../../aspose.words/bordercollection/)
+* Class [CellFormat](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

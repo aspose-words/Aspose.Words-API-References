@@ -6,7 +6,7 @@ type: docs
 weight: 924
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_exporttextinputformfieldastext/
 ---
-## HtmlSaveOptions.set_ExportTextInputFormFieldAsText method
+## HtmlSaveOptions::set_ExportTextInputFormFieldAsText method
 
 
 Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportTextInputFormFieldAsText](../get_exporttextinputformfieldastext/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportTextInputFormField
 void Aspose::Words::Saving::HtmlSaveOptions::set_ExportTextInputFormFieldAsText(bool value)
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -15,3 +15,8 @@ url: /cpp/aspose.words.markup/sdtlistitemcollection/iterator_holder_type/
 using Aspose::Words::Markup::SdtListItemCollection::iterator_holder_type =  System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Markup::SdtListItem> >
 ```
 
+## See Also
+
+* Class [SdtListItemCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

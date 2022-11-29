@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.notes/footnoteoptions/get_position/
 ---
-## FootnoteOptions.get_Position method
+## FootnoteOptions::get_Position method
 
 
 Specifies the footnotes position.
@@ -17,7 +17,6 @@ Aspose::Words::Notes::FootnotePosition Aspose::Words::Notes::FootnoteOptions::ge
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,9 @@ doc->get_FootnoteOptions()->set_Position(footnotePosition);
 doc->Save(ArtifactsDir + u"InlineStory.PositionFootnote.docx");
 ```
 
+## See Also
+
+* Enum [FootnotePosition](../../footnoteposition/)
+* Class [FootnoteOptions](../)
+* Namespace [Aspose::Words::Notes](../../)
+* Library [Aspose.Words](../../../)

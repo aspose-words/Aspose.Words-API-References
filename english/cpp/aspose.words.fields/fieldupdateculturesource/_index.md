@@ -11,6 +11,10 @@ url: /cpp/aspose.words.fields/fieldupdateculturesource/
 
 Indicates what culture to use during field update.
 
+```cpp
+enum class FieldUpdateCultureSource
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -18,3 +22,7 @@ Indicates what culture to use during field update.
 | CurrentThread | 0 | The culture of the current execution thread is used to update fields. |
 | FieldCode | 1 | The culture specified in the field formatting properties via language setting is used. |
 
+## See Also
+
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

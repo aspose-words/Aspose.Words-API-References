@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_nodetype/
 ---
-## StructuredDocumentTagRangeStart.get_NodeType method
+## StructuredDocumentTagRangeStart::get_NodeType method
 
 
 Gets the type of this node.
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::Markup::StructuredDocumentTagRangeStart::
 
 
 ## Examples
-
 
 
 
@@ -101,3 +100,9 @@ for (SharedPtr<Node> node = doc->get_FirstSection()->get_Body()->get_FirstChild(
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../../aspose.words/nodetype/)
+* Class [StructuredDocumentTagRangeStart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldfilesize/get_isinkilobytes/
 ---
-## FieldFileSize.get_IsInKilobytes method
+## FieldFileSize::get_IsInKilobytes method
 
 
 Gets or sets whether to display the file size in kilobytes.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldFileSize::get_IsInKilobytes()
 
 
 ## Examples
-
 
 
 
@@ -63,3 +62,8 @@ ASSERT_EQ(u"0", field->get_Result());
 doc->Save(ArtifactsDir + u"Field.FILESIZE.docx");
 ```
 
+## See Also
+
+* Class [FieldFileSize](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/ifontsavingcallback/fontsaving/
 ---
-## IFontSavingCallback.FontSaving method
+## IFontSavingCallback::FontSaving method
 
 
 Called when Aspose.Words is about to save a font resource.
@@ -17,7 +17,6 @@ virtual void Aspose::Words::Saving::IFontSavingCallback::FontSaving(System::Shar
 
 
 ## Examples
-
 
 
 
@@ -83,3 +82,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [FontSavingArgs](../../fontsavingargs/)
+* Interface [IFontSavingCallback](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

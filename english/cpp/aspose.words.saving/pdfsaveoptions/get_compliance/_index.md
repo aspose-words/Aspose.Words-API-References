@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_compliance/
 ---
-## PdfSaveOptions.get_Compliance method
+## PdfSaveOptions::get_Compliance method
 
 
 Specifies the PDF standards compliance level for output documents.
@@ -15,11 +15,12 @@ Specifies the PDF standards compliance level for output documents.
 Aspose::Words::Saving::PdfCompliance Aspose::Words::Saving::PdfSaveOptions::get_Compliance()
 ```
 
+## Remarks
 
-Default is **Pdf17**.
+
+Default is [Pdf17](../../pdfcompliance/).
 
 ## Examples
-
 
 
 
@@ -42,3 +43,9 @@ saveOptions->set_Compliance(pdfCompliance);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.Compliance.pdf", saveOptions);
 ```
 
+## See Also
+
+* Enum [PdfCompliance](../../pdfcompliance/)
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

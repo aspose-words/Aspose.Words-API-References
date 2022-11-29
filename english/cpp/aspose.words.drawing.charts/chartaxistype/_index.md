@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing.charts/chartaxistype/
 
 Specifies type of chart axis.
 
+```cpp
+enum class ChartAxisType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ Specifies type of chart axis.
 
 
 ## Examples
-
 
 
 
@@ -98,3 +101,7 @@ static SharedPtr<Chart> AppendChart(SharedPtr<DocumentBuilder> builder, ChartTyp
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing::Charts](../)
+* Library [Aspose.Words](../../)

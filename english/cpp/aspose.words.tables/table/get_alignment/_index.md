@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.tables/table/get_alignment/
 ---
-## Table.get_Alignment method
+## Table::get_Alignment method
 
 
 Specifies how an inline table is aligned in the document.
@@ -15,11 +15,12 @@ Specifies how an inline table is aligned in the document.
 Aspose::Words::Tables::TableAlignment Aspose::Words::Tables::Table::get_Alignment()
 ```
 
+## Remarks
 
-The default value is **Left**.
+
+The default value is [Left](../../tablealignment/).
 
 ## Examples
-
 
 
 
@@ -47,3 +48,9 @@ table->SetShading(TextureIndex::TextureSolid, System::Drawing::Color::get_LightG
 doc->Save(ArtifactsDir + u"Table.SetOutlineBorders.docx");
 ```
 
+## See Also
+
+* Enum [TableAlignment](../../tablealignment/)
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

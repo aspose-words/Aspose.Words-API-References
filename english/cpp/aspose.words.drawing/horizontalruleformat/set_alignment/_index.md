@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.drawing/horizontalruleformat/set_alignment/
 ---
-## HorizontalRuleFormat.set_Alignment method
+## HorizontalRuleFormat::set_Alignment method
 
 
 Setter for [Aspose::Words::Drawing::HorizontalRuleFormat::get_Alignment](../get_alignment/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Drawing::HorizontalRuleFormat::get_Alignment](../get_
 void Aspose::Words::Drawing::HorizontalRuleFormat::set_Alignment(Aspose::Words::Drawing::HorizontalRuleAlignment value)
 ```
 
+## See Also
+
+* Enum [HorizontalRuleAlignment](../../horizontalrulealignment/)
+* Class [HorizontalRuleFormat](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

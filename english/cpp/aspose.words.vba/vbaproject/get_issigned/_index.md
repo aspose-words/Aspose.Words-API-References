@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.vba/vbaproject/get_issigned/
 ---
-## VbaProject.get_IsSigned method
+## VbaProject::get_IsSigned method
 
 
 Shows whether the [VbaProject](../) is signed or not.
@@ -17,7 +17,6 @@ bool Aspose::Words::Vba::VbaProject::get_IsSigned()
 
 
 ## Examples
-
 
 
 
@@ -50,3 +49,8 @@ vbaModules->idx_get(u"Module1")->set_SourceCode(u"Your VBA code...");
 vbaModules->Remove(vbaModules->idx_get(2));
 ```
 
+## See Also
+
+* Class [VbaProject](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

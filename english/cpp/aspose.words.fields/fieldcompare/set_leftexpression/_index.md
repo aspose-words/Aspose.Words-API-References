@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fields/fieldcompare/set_leftexpression/
 ---
-## FieldCompare.set_LeftExpression method
+## FieldCompare::set_LeftExpression method
 
 
 Setter for [Aspose::Words::Fields::FieldCompare::get_LeftExpression](../get_leftexpression/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldCompare::get_LeftExpression](../get_left
 void Aspose::Words::Fields::FieldCompare::set_LeftExpression(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldCompare](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

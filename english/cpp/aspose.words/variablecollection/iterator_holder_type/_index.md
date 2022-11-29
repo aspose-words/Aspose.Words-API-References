@@ -15,3 +15,8 @@ url: /cpp/aspose.words/variablecollection/iterator_holder_type/
 using Aspose::Words::VariableCollection::iterator_holder_type =  System::Collections::Generic::SortedList<System::String, System::String>
 ```
 
+## See Also
+
+* Class [VariableCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

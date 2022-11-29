@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.words.saving/saveoptions/set_dmleffectsrenderingmode/
 ---
-## SaveOptions.set_DmlEffectsRenderingMode method
+## SaveOptions::set_DmlEffectsRenderingMode method
 
 
 Setter for [Aspose::Words::Saving::SaveOptions::get_DmlEffectsRenderingMode](../get_dmleffectsrenderingmode/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Saving::SaveOptions::get_DmlEffectsRenderingMode](../
 virtual void Aspose::Words::Saving::SaveOptions::set_DmlEffectsRenderingMode(Aspose::Words::Saving::DmlEffectsRenderingMode value)
 ```
 
+## See Also
+
+* Enum [DmlEffectsRenderingMode](../../dmleffectsrenderingmode/)
+* Class [SaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words/comment/removeallreplies/
 ---
-## Comment.RemoveAllReplies method
+## Comment::RemoveAllReplies method
 
 
 Removes all replies to this comment.
@@ -17,7 +17,6 @@ void Aspose::Words::Comment::RemoveAllReplies()
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,8 @@ comment->RemoveAllReplies();
 ASSERT_EQ(0, comment->get_Replies()->LINQ_Count());
 ```
 
+## See Also
+
+* Class [Comment](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

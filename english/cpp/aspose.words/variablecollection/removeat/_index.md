@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words/variablecollection/removeat/
 ---
-## VariableCollection.RemoveAt method
+## VariableCollection::RemoveAt method
 
 
 Removes a document variable at the specified index.
@@ -21,7 +21,6 @@ void Aspose::Words::VariableCollection::RemoveAt(int32_t index)
 | index | int32_t | The zero based index. |
 
 ## Examples
-
 
 
 
@@ -91,3 +90,8 @@ variables->Clear();
 ASSERT_EQ(0, variables->get_Count());
 ```
 
+## See Also
+
+* Class [VariableCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -12,7 +12,9 @@ url: /cpp/aspose.words/comment/
 Represents a container for text of a comment.
 
 ```cpp
-class Comment : public Aspose::Words::InlineStory, public Aspose::Words::INodeWithAnnotationId, public Aspose::Words::Revisions::IMoveTrackableNode
+class Comment : public Aspose::Words::InlineStory,
+                public Aspose::Words::INodeWithAnnotationId,
+                public Aspose::Words::Revisions::IMoveTrackableNode
 ```
 
 ## Methods
@@ -87,6 +89,8 @@ class Comment : public Aspose::Words::InlineStory, public Aspose::Words::INodeWi
 | [SetText](./settext/)(const System::String\&) | This is a convenience method that allows to easily set text of the comment. |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 A comment is an annotation which is anchored to a region of text or to a position in text. A comment can contain an arbitrary amount of block-level content.
 
@@ -99,7 +103,6 @@ To anchor a comment to a region of text three objects are required: [Comment](./
 [Comment](./) can contain [Paragraph](../paragraph/) and [Table](../../aspose.words.tables/table/) child nodes.
 
 ## Examples
-
 
 
 
@@ -149,3 +152,8 @@ ASSERT_EQ(System::DateTime::get_Today(), comment->get_DateTime());
 doc->Save(ArtifactsDir + u"InlineStory.AddComment.docx");
 ```
 
+## See Also
+
+* Class [InlineStory](../inlinestory/)
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

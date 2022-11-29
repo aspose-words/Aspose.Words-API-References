@@ -11,6 +11,10 @@ url: /cpp/aspose.words.fields/fieldifcomparisonresult/
 
 Specifies the result of the IF field condition evaluation.
 
+```cpp
+enum class FieldIfComparisonResult
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ Specifies the result of the IF field condition evaluation.
 
 
 ## Examples
-
 
 
 
@@ -65,3 +68,7 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.IF.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words/document/get_customdocumentproperties/
 ---
-## Document.get_CustomDocumentProperties method
+## Document::get_CustomDocumentProperties method
 
 
 Returns a collection that represents all the custom document properties of the document.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Properties::CustomDocumentProperties> Aspose::W
 
 
 ## Examples
-
 
 
 
@@ -52,3 +51,9 @@ for (const auto& docProperty : System::IterateOver(doc->get_BuiltInDocumentPrope
 }
 ```
 
+## See Also
+
+* Class [CustomDocumentProperties](../../../aspose.words.properties/customdocumentproperties/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

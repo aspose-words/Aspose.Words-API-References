@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.drawing.charts/chartdatapoint/get_format/
 ---
-## ChartDataPoint.get_Format method
+## ChartDataPoint::get_Format method
 
 
 Provides access to fill and line formatting of this data point.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartFormat> Aspose::Words::Dr
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,9 @@ dataPoints->idx_get(3)->get_Format()->get_Fill()->set_ForeColor(System::Drawing:
 doc->Save(ArtifactsDir + u"Charts.DataPointsFormatting.docx");
 ```
 
+## See Also
+
+* Class [ChartFormat](../../chartformat/)
+* Class [ChartDataPoint](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

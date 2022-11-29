@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.tables/row/get_firstcell/
 ---
-## Row.get_FirstCell method
+## Row::get_FirstCell method
 
 
 Returns the first **Cell** in the row.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Tables::Cell> Aspose::Words::Tables::Row::get_F
 
 
 ## Examples
-
 
 
 
@@ -158,3 +157,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Cell](../../cell/)
+* Class [Row](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

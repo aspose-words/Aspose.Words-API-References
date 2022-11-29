@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/buildversioninfo/get_version/
 ---
-## BuildVersionInfo.get_Version method
+## BuildVersionInfo::get_Version method
 
 
 Gets the product version.
@@ -15,11 +15,12 @@ Gets the product version.
 static System::String Aspose::Words::BuildVersionInfo::get_Version()
 ```
 
+## Remarks
+
 
 The product version is in the "Major.Minor.Hotfix.0" format.
 
 ## Examples
-
 
 
 
@@ -28,3 +29,8 @@ Shows how to display information about your installed version of Aspose.Words.
 std::cout << "I am currently using " << BuildVersionInfo::get_Product() << ", version number " << BuildVersionInfo::get_Version() << "!" << std::endl;
 ```
 
+## See Also
+
+* Class [BuildVersionInfo](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

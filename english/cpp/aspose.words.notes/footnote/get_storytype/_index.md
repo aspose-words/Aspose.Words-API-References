@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.notes/footnote/get_storytype/
 ---
-## Footnote.get_StoryType method
+## Footnote::get_StoryType method
 
 
 Returns **StoryType.Footnotes** or **StoryType.Endnotes**.
@@ -17,7 +17,6 @@ Aspose::Words::StoryType Aspose::Words::Notes::Footnote::get_StoryType() overrid
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,9 @@ ASSERT_EQ(StoryType::Comments, comment->get_StoryType());
 doc->Save(ArtifactsDir + u"InlineStory.InsertInlineStoryNodes.docx");
 ```
 
+## See Also
+
+* Enum [StoryType](../../../aspose.words/storytype/)
+* Class [Footnote](../)
+* Namespace [Aspose::Words::Notes](../../)
+* Library [Aspose.Words](../../../)

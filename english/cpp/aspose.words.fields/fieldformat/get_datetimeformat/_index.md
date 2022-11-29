@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldformat/get_datetimeformat/
 ---
-## FieldFormat.get_DateTimeFormat method
+## FieldFormat::get_DateTimeFormat method
 
 
 Gets or sets a formatting that is applied to a date and time field result. Corresponds to the \@ switch.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldFormat::get_DateTimeFormat()
 
 
 ## Examples
-
 
 
 
@@ -83,3 +82,8 @@ ASSERT_EQ(u"58", field->get_Result());
 ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 ```
 
+## See Also
+
+* Class [FieldFormat](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

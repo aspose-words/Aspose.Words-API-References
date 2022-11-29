@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.saving/downsampleoptions/get_resolutionthreshold/
 ---
-## DownsampleOptions.get_ResolutionThreshold method
+## DownsampleOptions::get_ResolutionThreshold method
 
 
 Specifies the threshold resolution in pixels per inch. If resolution of an image in the document is less than threshold value, the downsampling algorithm will not be applied. A value of 0 means the threshold check is not used and all images that can be reduced in size are downsampled.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Saving::DownsampleOptions::get_ResolutionThreshold() cons
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,8 @@ options->get_DownsampleOptions()->set_ResolutionThreshold(128);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", options);
 ```
 
+## See Also
+
+* Class [DownsampleOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

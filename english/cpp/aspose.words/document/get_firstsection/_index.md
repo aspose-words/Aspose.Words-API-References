@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.words/document/get_firstsection/
 ---
-## Document.get_FirstSection method
+## Document::get_FirstSection method
 
 
 Gets the first section in the document.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Section> Aspose::Words::Document::get_FirstSect
 
 
 ## Examples
-
 
 
 
@@ -113,3 +112,9 @@ for (const auto& node : System::IterateOver(section))
 }
 ```
 
+## See Also
+
+* Class [Section](../../section/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

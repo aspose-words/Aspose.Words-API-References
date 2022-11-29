@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/node/get_iscomposite/
 ---
-## Node.get_IsComposite method
+## Node::get_IsComposite method
 
 
 Returns true if this node can contain other nodes.
@@ -17,7 +17,6 @@ virtual bool Aspose::Words::Node::get_IsComposite()
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,8 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
 }
 ```
 
+## See Also
+
+* Class [Node](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

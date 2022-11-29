@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldtoa/get_entrycategory/
 ---
-## FieldToa.get_EntryCategory method
+## FieldToa::get_EntryCategory method
 
 
 Gets or sets the integral category for entries included in the table.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldToa::get_EntryCategory()
 
 
 ## Examples
-
 
 
 
@@ -138,3 +137,8 @@ static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, Str
 }
 ```
 
+## See Also
+
+* Class [FieldToa](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

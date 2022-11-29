@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fonts/fontfallbacksettings/load/
 ---
-## FontFallbackSettings.Load(const System::SharedPtr\<System::IO::Stream\>\&) method
+## FontFallbackSettings::Load(const System::SharedPtr\<System::IO::Stream\>\&) method
 
 
 Loads fallback settings from XML stream.
@@ -21,7 +21,6 @@ void Aspose::Words::Fonts::FontFallbackSettings::Load(const System::SharedPtr<Sy
 | stream | const System::SharedPtr\<System::IO::Stream\>\& | Input stream. |
 
 ## Examples
-
 
 
 
@@ -47,7 +46,12 @@ doc->Save(ArtifactsDir + u"FontSettings.LoadFontFallbackSettingsFromStream.pdf")
 }
 ```
 
-## FontFallbackSettings.Load(const System::String\&) method
+## See Also
+
+* Class [FontFallbackSettings](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)
+## FontFallbackSettings::Load(const System::String\&) method
 
 
 Loads font fallback settings from XML file.
@@ -62,7 +66,6 @@ void Aspose::Words::Fonts::FontFallbackSettings::Load(const System::String &file
 | fileName | const System::String\& | Input file name. |
 
 ## Examples
-
 
 
 
@@ -81,7 +84,12 @@ doc->Save(ArtifactsDir + u"FontSettings.LoadFontFallbackSettingsFromFile.pdf");
 doc->get_FontSettings()->get_FallbackSettings()->Save(ArtifactsDir + u"FallbackSettings.xml");
 ```
 
-## FontFallbackSettings.Load(std::basic_istream\<CharType, Traits\>\&) method
+## See Also
+
+* Class [FontFallbackSettings](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)
+## FontFallbackSettings::Load(std::basic_istream\<CharType, Traits\>\&) method
 
 
 
@@ -90,3 +98,8 @@ doc->get_FontSettings()->get_FallbackSettings()->Save(ArtifactsDir + u"FallbackS
 template<typename CharType,typename Traits> void Aspose::Words::Fonts::FontFallbackSettings::Load(std::basic_istream<CharType, Traits> &stream)
 ```
 
+## See Also
+
+* Class [FontFallbackSettings](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /cpp/aspose.words.drawing/textpath/set_trim/
 ---
-## TextPath.set_Trim method
+## TextPath::set_Trim method
 
 
 Setter for [Aspose::Words::Drawing::TextPath::get_Trim](../get_trim/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::TextPath::get_Trim](../get_trim/).
 void Aspose::Words::Drawing::TextPath::set_Trim(bool value)
 ```
 
+## See Also
+
+* Class [TextPath](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

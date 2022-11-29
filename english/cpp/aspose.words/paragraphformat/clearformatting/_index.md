@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/paragraphformat/clearformatting/
 ---
-## ParagraphFormat.ClearFormatting method
+## ParagraphFormat::ClearFormatting method
 
 
 Resets to default paragraph formatting.
@@ -17,7 +17,6 @@ void Aspose::Words::ParagraphFormat::ClearFormatting()
 
 
 ## Examples
-
 
 
 
@@ -69,3 +68,8 @@ builder->get_ParagraphFormat()->ClearFormatting();
 builder->get_Document()->Save(ArtifactsDir + u"Lists.NestedLists.docx");
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

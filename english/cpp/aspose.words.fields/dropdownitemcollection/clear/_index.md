@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fields/dropdownitemcollection/clear/
 ---
-## DropDownItemCollection.Clear method
+## DropDownItemCollection::Clear method
 
 
 Removes all elements from the collection.
@@ -17,7 +17,6 @@ void Aspose::Words::Fields::DropDownItemCollection::Clear()
 
 
 ## Examples
-
 
 
 
@@ -73,3 +72,8 @@ doc->Save(ArtifactsDir + u"FormFields.DropDownItemCollection.html");
 dropDownItems->Clear();
 ```
 
+## See Also
+
+* Class [DropDownItemCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/docsaveoptions/
 ## DocSaveOptions class
 
 
-Can be used to specify additional options when saving a document into the **Doc** or **Dot** format.
+Can be used to specify additional options when saving a document into the [Doc](../../aspose.words/saveformat/) or [Dot](../../aspose.words/saveformat/) format.
 
 ```cpp
 class DocSaveOptions : public Aspose::Words::Saving::SaveOptions
@@ -21,8 +21,8 @@ class DocSaveOptions : public Aspose::Words::Saving::SaveOptions
 | --- | --- |
 | static [CreateSaveOptions](../saveoptions/createsaveoptions/)(Aspose::Words::SaveFormat) | Creates a save options object of a class suitable for the specified save format. |
 | static [CreateSaveOptions](../saveoptions/createsaveoptions/)(const System::String\&) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
-| [DocSaveOptions](./docsaveoptions/)() | Initializes a new instance of this class that can be used to save a document in the **Doc** format. |
-| [DocSaveOptions](./docsaveoptions/)(Aspose::Words::SaveFormat) | Initializes a new instance of this class that can be used to save a document in the **Doc** or **Dot** format. |
+| [DocSaveOptions](./docsaveoptions/)() | Initializes a new instance of this class that can be used to save a document in the [Doc](../../aspose.words/saveformat/) format. |
+| [DocSaveOptions](./docsaveoptions/)(Aspose::Words::SaveFormat) | Initializes a new instance of this class that can be used to save a document in the [Doc](../../aspose.words/saveformat/) or [Dot](../../aspose.words/saveformat/) format. |
 | [get_AllowEmbeddingPostScriptFonts](../saveoptions/get_allowembeddingpostscriptfonts/)() const | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**. |
 | [get_AlwaysCompressMetafiles](./get_alwayscompressmetafiles/)() const | When **false**, small metafiles are not compressed for performance reason. Default value is **true**, all metafiles are compressed regardless of its size. |
 | [get_CustomTimeZoneInfo](../saveoptions/get_customtimezoneinfo/)() const |  |
@@ -36,7 +36,7 @@ class DocSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [get_Password](./get_password/)() const | Gets/sets a password to encrypt document using RC4 encryption method. |
 | [get_PrettyFormat](../saveoptions/get_prettyformat/)() const | When **true**, pretty formats output where applicable. Default value is **false**. |
 | [get_ProgressCallback](../saveoptions/get_progresscallback/)() const | Called during saving a document and accepts data about saving progress. |
-| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can be **Doc** or **Dot**. |
+| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can be [Doc](../../aspose.words/saveformat/) or [Dot](../../aspose.words/saveformat/). |
 | [get_SavePictureBullet](./get_savepicturebullet/)() const | When **false**, PictureBullet data is not saved to output document. Default value is **true**. |
 | [get_SaveRoutingSlip](./get_saveroutingslip/)() const | When **false**, RoutingSlip data is not saved to output document. Default value is **true**. |
 | [get_TempFolder](../saveoptions/get_tempfolder/)() const | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is **null** and no temporary files are used. |
@@ -71,11 +71,12 @@ class DocSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [set_UpdateSdtContent](../saveoptions/set_updatesdtcontent/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateSdtContent](../saveoptions/get_updatesdtcontent/). |
 | [set_UseAntiAliasing](../saveoptions/set_useantialiasing/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UseAntiAliasing](../saveoptions/get_useantialiasing/). |
 | [set_UseHighQualityRendering](../saveoptions/set_usehighqualityrendering/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UseHighQualityRendering](../saveoptions/get_usehighqualityrendering/). |
+## Remarks
+
 
 At the moment provides only the [SaveFormat](./get_saveformat/) property, but in the future will have other options added, such as an encryption password or digital signature settings.
 
 ## Examples
-
 
 
 
@@ -106,3 +107,8 @@ doc = MakeObject<Document>(ArtifactsDir + u"DocSaveOptions.SaveAsDoc.doc", loadO
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [SaveOptions](../saveoptions/)
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

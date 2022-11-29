@@ -28,13 +28,14 @@ class AxisBound : public System::Object
 | [get_ValueAsDate](./get_valueasdate/)() | Returns value of axis bound represented as datetime. |
 | [GetHashCode](./gethashcode/)() const override | Serves as a hash function for this type. |
 | [ToString](./tostring/)() const override | Returns a user-friendly string that displays the value of this object. |
+## Remarks
+
 
 Bound can be specified as a numeric, datetime or a special "auto" value.
 
 The instances of this class are immutable.
 
 ## Examples
-
 
 
 
@@ -79,3 +80,7 @@ yAxis->get_Scaling()->set_Maximum(MakeObject<AxisBound>(700.0));
 doc->Save(ArtifactsDir + u"Charts.DateTimeValues.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing::Charts](../)
+* Library [Aspose.Words](../../)

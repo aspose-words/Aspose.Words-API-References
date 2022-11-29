@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.themes/themecolors/get_followedhyperlink/
 ---
-## ThemeColors.get_FollowedHyperlink method
+## ThemeColors::get_FollowedHyperlink method
 
 
 Specifies color for a clicked hyperlink.
@@ -17,7 +17,6 @@ System::Drawing::Color Aspose::Words::Themes::ThemeColors::get_FollowedHyperlink
 
 
 ## Examples
-
 
 
 
@@ -63,3 +62,8 @@ colors->set_FollowedHyperlink(System::Drawing::Color::get_Gray());
 doc->Save(ArtifactsDir + u"Themes.CustomColorsAndFonts.docx");
 ```
 
+## See Also
+
+* Class [ThemeColors](../)
+* Namespace [Aspose::Words::Themes](../../)
+* Library [Aspose.Words](../../../)

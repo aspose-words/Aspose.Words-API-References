@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.drawing/imagedata/get_chromakey/
 ---
-## ImageData.get_ChromaKey method
+## ImageData::get_ChromaKey method
 
 
 Defines the color value of the image that will be treated as transparent.
@@ -15,11 +15,12 @@ Defines the color value of the image that will be treated as transparent.
 System::Drawing::Color Aspose::Words::Drawing::ImageData::get_ChromaKey()
 ```
 
+## Remarks
+
 
 The default value is 0.
 
 ## Examples
-
 
 
 
@@ -80,3 +81,8 @@ importedShape->get_ImageData()->set_CropRight(0.3);
 dstDoc->Save(ArtifactsDir + u"Drawing.ImageData.docx");
 ```
 
+## See Also
+
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

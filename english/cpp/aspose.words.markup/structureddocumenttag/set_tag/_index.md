@@ -6,7 +6,7 @@ type: docs
 weight: 677
 url: /cpp/aspose.words.markup/structureddocumenttag/set_tag/
 ---
-## StructuredDocumentTag.set_Tag method
+## StructuredDocumentTag::set_Tag method
 
 
 Setter for [Aspose::Words::Markup::StructuredDocumentTag::get_Tag](../get_tag/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Markup::StructuredDocumentTag::get_Tag](../get_tag/).
 void Aspose::Words::Markup::StructuredDocumentTag::set_Tag(System::String value) override
 ```
 
+## See Also
+
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

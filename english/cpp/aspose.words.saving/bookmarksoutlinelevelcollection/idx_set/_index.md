@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/idx_set/
 ---
-## BookmarksOutlineLevelCollection.idx_set(const System::String\&, int32_t) method
+## BookmarksOutlineLevelCollection::idx_set(const System::String\&, int32_t) method
 
 
 Gets or a sets a bookmark outline level by the bookmark name.
@@ -22,11 +22,9 @@ void Aspose::Words::Saving::BookmarksOutlineLevelCollection::idx_set(const Syste
 
 ### ReturnValue
 
-
 The outline level of the bookmark. Valid range is 0 to 9.
 
 ## Examples
-
 
 
 
@@ -82,7 +80,12 @@ doc->Save(ArtifactsDir + u"BookmarksOutlineLevelCollection.BookmarkLevels.pdf", 
 outlineLevels->Clear();
 ```
 
-## BookmarksOutlineLevelCollection.idx_set(int32_t, int32_t) method
+## See Also
+
+* Class [BookmarksOutlineLevelCollection](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)
+## BookmarksOutlineLevelCollection::idx_set(int32_t, int32_t) method
 
 
 Gets or sets a bookmark outline level at the specified index.
@@ -98,11 +101,9 @@ void Aspose::Words::Saving::BookmarksOutlineLevelCollection::idx_set(int32_t ind
 
 ### ReturnValue
 
-
 The outline level of the bookmark. Valid range is 0 to 9.
 
 ## Examples
-
 
 
 
@@ -158,3 +159,8 @@ doc->Save(ArtifactsDir + u"BookmarksOutlineLevelCollection.BookmarkLevels.pdf", 
 outlineLevels->Clear();
 ```
 
+## See Also
+
+* Class [BookmarksOutlineLevelCollection](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

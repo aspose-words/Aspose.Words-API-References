@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/run/get_text/
 ---
-## Run.get_Text method
+## Run::get_Text method
 
 
 Gets or sets the text of the run.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Run::get_Text() const
 
 
 ## Examples
-
 
 
 
@@ -65,3 +64,8 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 ```
 
+## See Also
+
+* Class [Run](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

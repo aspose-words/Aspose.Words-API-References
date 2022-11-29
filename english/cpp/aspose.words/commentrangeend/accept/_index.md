@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/commentrangeend/accept/
 ---
-## CommentRangeEnd.Accept method
+## CommentRangeEnd::Accept method
 
 
 Accepts a visitor.
@@ -22,15 +22,15 @@ bool Aspose::Words::CommentRangeEnd::Accept(System::SharedPtr<Aspose::Words::Doc
 
 ### ReturnValue
 
-
 False if the visitor requested the enumeration to stop.
+## Remarks
+
 
 Calls [VisitCommentRangeEnd()](../../documentvisitor/visitcommentrangeend/).
 
 For more info see the Visitor design pattern.
 
 ## Examples
-
 
 
 
@@ -171,3 +171,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [DocumentVisitor](../../documentvisitor/)
+* Class [CommentRangeEnd](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

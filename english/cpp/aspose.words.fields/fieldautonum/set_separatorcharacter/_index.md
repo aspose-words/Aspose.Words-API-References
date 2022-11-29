@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldautonum/set_separatorcharacter/
 ---
-## FieldAutoNum.set_SeparatorCharacter method
+## FieldAutoNum::set_SeparatorCharacter method
 
 
 Setter for [Aspose::Words::Fields::FieldAutoNum::get_SeparatorCharacter](../get_separatorcharacter/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldAutoNum::get_SeparatorCharacter](../get_
 void Aspose::Words::Fields::FieldAutoNum::set_SeparatorCharacter(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldAutoNum](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

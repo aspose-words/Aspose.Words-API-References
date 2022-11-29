@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.drawing/stroke/get_startarrowwidth/
 ---
-## Stroke.get_StartArrowWidth method
+## Stroke::get_StartArrowWidth method
 
 
 Defines the arrowhead width for the start of a stroke.
@@ -15,11 +15,12 @@ Defines the arrowhead width for the start of a stroke.
 Aspose::Words::Drawing::ArrowWidth Aspose::Words::Drawing::Stroke::get_StartArrowWidth()
 ```
 
+## Remarks
 
-The default value is **Medium**.
+
+The default value is [Medium](../../arrowwidth/).
 
 ## Examples
-
 
 
 
@@ -92,3 +93,9 @@ ArrayPtr<uint8_t> imageBytes = System::IO::File::ReadAllBytes(ImageDir + u"Logo.
 doc->Save(ArtifactsDir + u"Drawing.VariousShapes.docx");
 ```
 
+## See Also
+
+* Enum [ArrowWidth](../../arrowwidth/)
+* Class [Stroke](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

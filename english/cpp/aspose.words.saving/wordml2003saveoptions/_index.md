@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/wordml2003saveoptions/
 ## WordML2003SaveOptions class
 
 
-Can be used to specify additional options when saving a document into the **WordML** format.
+Can be used to specify additional options when saving a document into the [WordML](../../aspose.words/saveformat/) format.
 
 ```cpp
 class WordML2003SaveOptions : public Aspose::Words::Saving::SaveOptions
@@ -32,7 +32,7 @@ class WordML2003SaveOptions : public Aspose::Words::Saving::SaveOptions
 | [get_MemoryOptimization](../saveoptions/get_memoryoptimization/)() const | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**. |
 | [get_PrettyFormat](../saveoptions/get_prettyformat/)() const | When **true**, pretty formats output where applicable. Default value is **false**. |
 | [get_ProgressCallback](../saveoptions/get_progresscallback/)() const | Called during saving a document and accepts data about saving progress. |
-| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can only be **WordML**. |
+| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can only be [WordML](../../aspose.words/saveformat/). |
 | [get_TempFolder](../saveoptions/get_tempfolder/)() const | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is **null** and no temporary files are used. |
 | [get_UpdateCreatedTimeProperty](../saveoptions/get_updatecreatedtimeproperty/)() const | Gets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is false;. |
 | [get_UpdateFields](../saveoptions/get_updatefields/)() const | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. |
@@ -61,11 +61,12 @@ class WordML2003SaveOptions : public Aspose::Words::Saving::SaveOptions
 | [set_UpdateSdtContent](../saveoptions/set_updatesdtcontent/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateSdtContent](../saveoptions/get_updatesdtcontent/). |
 | [set_UseAntiAliasing](../saveoptions/set_useantialiasing/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UseAntiAliasing](../saveoptions/get_useantialiasing/). |
 | [set_UseHighQualityRendering](../saveoptions/set_usehighqualityrendering/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UseHighQualityRendering](../saveoptions/get_usehighqualityrendering/). |
+## Remarks
+
 
 At the moment provides only the [SaveFormat](./get_saveformat/) property, but in the future may have other options added.
 
 ## Examples
-
 
 
 
@@ -125,3 +126,8 @@ options->set_MemoryOptimization(memoryOptimization);
 doc->Save(ArtifactsDir + u"WordML2003SaveOptions.MemoryOptimization.xml", options);
 ```
 
+## See Also
+
+* Class [SaveOptions](../saveoptions/)
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

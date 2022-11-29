@@ -6,7 +6,7 @@ type: docs
 weight: 1197
 url: /cpp/aspose.words/document/updatethumbnail/
 ---
-## Document.UpdateThumbnail() method
+## Document::UpdateThumbnail() method
 
 
 Updates [Thumbnail](../../../aspose.words.properties/builtindocumentproperties/get_thumbnail/) of the document using default options.
@@ -17,7 +17,6 @@ void Aspose::Words::Document::UpdateThumbnail()
 
 
 ## Examples
-
 
 
 
@@ -43,7 +42,12 @@ doc->UpdateThumbnail(options);
 doc->Save(ArtifactsDir + u"Document.UpdateThumbnail.FirstImage.epub");
 ```
 
-## Document.UpdateThumbnail(const System::SharedPtr\<Aspose::Words::Rendering::ThumbnailGeneratingOptions\>\&) method
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Document::UpdateThumbnail(const System::SharedPtr\<Aspose::Words::Rendering::ThumbnailGeneratingOptions\>\&) method
 
 
 Updates [Thumbnail](../../../aspose.words.properties/builtindocumentproperties/get_thumbnail/) of the document according to the specified options.
@@ -61,7 +65,6 @@ void Aspose::Words::Document::UpdateThumbnail(const System::SharedPtr<Aspose::Wo
 
 
 
-
 Shows how to update a document's thumbnail. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -84,3 +87,9 @@ doc->UpdateThumbnail(options);
 doc->Save(ArtifactsDir + u"Document.UpdateThumbnail.FirstImage.epub");
 ```
 
+## See Also
+
+* Class [ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.fields/fieldtoc/get_headinglevelrange/
 ---
-## FieldToc.get_HeadingLevelRange method
+## FieldToc::get_HeadingLevelRange method
 
 
 Gets or sets a range of heading levels to include.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldToc::get_HeadingLevelRange()
 
 
 ## Examples
-
 
 
 
@@ -97,3 +96,8 @@ void InsertNewPageWithHeading(SharedPtr<DocumentBuilder> builder, String caption
 }
 ```
 
+## See Also
+
+* Class [FieldToc](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

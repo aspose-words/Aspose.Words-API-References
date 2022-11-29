@@ -6,10 +6,10 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.layout/revisionoptions/get_insertedtexteffect/
 ---
-## RevisionOptions.get_InsertedTextEffect method
+## RevisionOptions::get_InsertedTextEffect method
 
 
-Allows to specify the effect to be applied to the inserted content **Insertion**. Default value is **Underline**.
+Allows to specify the effect to be applied to the inserted content [Insertion](../../../aspose.words/revisiontype/). Default value is [Underline](../../revisiontexteffect/).
 
 ```cpp
 Aspose::Words::Layout::RevisionTextEffect Aspose::Words::Layout::RevisionOptions::get_InsertedTextEffect()
@@ -17,7 +17,6 @@ Aspose::Words::Layout::RevisionTextEffect Aspose::Words::Layout::RevisionOptions
 
 
 ## Examples
-
 
 
 
@@ -66,3 +65,9 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 doc->Save(ArtifactsDir + u"Revision.RevisionOptions.pdf");
 ```
 
+## See Also
+
+* Enum [RevisionTextEffect](../../revisiontexteffect/)
+* Class [RevisionOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

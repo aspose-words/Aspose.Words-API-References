@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.vba/vbamodulecollection/add/
 ---
-## VbaModuleCollection.Add method
+## VbaModuleCollection::Add method
 
 
 Adds a module to the collection.
@@ -17,7 +17,6 @@ void Aspose::Words::Vba::VbaModuleCollection::Add(const System::SharedPtr<Aspose
 
 
 ## Examples
-
 
 
 
@@ -42,3 +41,9 @@ doc->get_VbaProject()->get_Modules()->Add(module_);
 doc->Save(ArtifactsDir + u"VbaProject.CreateVBAMacros.docm");
 ```
 
+## See Also
+
+* Class [VbaModule](../../vbamodule/)
+* Class [VbaModuleCollection](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

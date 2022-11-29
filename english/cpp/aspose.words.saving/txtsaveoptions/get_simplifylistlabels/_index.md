@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.saving/txtsaveoptions/get_simplifylistlabels/
 ---
-## TxtSaveOptions.get_SimplifyListLabels method
+## TxtSaveOptions::get_SimplifyListLabels method
 
 
 Specifies whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text. If set to **true**, numbered list labels are written in simple numeric format and itemized list labels as simple ASCII characters. The default value is **false**.
@@ -17,7 +17,6 @@ bool Aspose::Words::Saving::TxtSaveOptions::get_SimplifyListLabels() const
 
 
 ## Examples
-
 
 
 
@@ -61,3 +60,8 @@ else
 }
 ```
 
+## See Also
+
+* Class [TxtSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.buildingblocks/buildingblock/get_guid/
 ---
-## BuildingBlock.get_Guid method
+## BuildingBlock::get_Guid method
 
 
 Gets or sets an identifier (a 128-bit GUID) that uniquely identifies this building block.
@@ -15,13 +15,14 @@ Gets or sets an identifier (a 128-bit GUID) that uniquely identifies this buildi
 System::Guid Aspose::Words::BuildingBlocks::BuildingBlock::get_Guid() const
 ```
 
+## Remarks
+
 
 Can be used by an application to uniquely reference a building block regardless of different naming due to localization.
 
 Corresponds to the **docPartPr.guid** element in OOXML.
 
 ## Examples
-
 
 
 
@@ -116,3 +117,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [BuildingBlock](../)
+* Namespace [Aspose::Words::BuildingBlocks](../../)
+* Library [Aspose.Words](../../../)

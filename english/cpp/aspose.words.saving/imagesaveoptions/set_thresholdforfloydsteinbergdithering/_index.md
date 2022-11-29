@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/aspose.words.saving/imagesaveoptions/set_thresholdforfloydsteinbergdithering/
 ---
-## ImageSaveOptions.set_ThresholdForFloydSteinbergDithering method
+## ImageSaveOptions::set_ThresholdForFloydSteinbergDithering method
 
 
 Setter for [Aspose::Words::Saving::ImageSaveOptions::get_ThresholdForFloydSteinbergDithering](../get_thresholdforfloydsteinbergdithering/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::ImageSaveOptions::get_ThresholdForFloydSteinb
 void Aspose::Words::Saving::ImageSaveOptions::set_ThresholdForFloydSteinbergDithering(uint8_t value)
 ```
 
+## See Also
+
+* Class [ImageSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

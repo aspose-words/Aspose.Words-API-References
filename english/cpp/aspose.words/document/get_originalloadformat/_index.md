@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /cpp/aspose.words/document/get_originalloadformat/
 ---
-## Document.get_OriginalLoadFormat method
+## Document::get_OriginalLoadFormat method
 
 
 Gets the format of the original document that was loaded into this object.
@@ -15,11 +15,12 @@ Gets the format of the original document that was loaded into this object.
 Aspose::Words::LoadFormat Aspose::Words::Document::get_OriginalLoadFormat() const
 ```
 
+## Remarks
 
-If you created a new blank document, returns the **Doc** value.
+
+If you created a new blank document, returns the [Doc](../../loadformat/) value.
 
 ## Examples
-
 
 
 
@@ -31,3 +32,9 @@ ASSERT_EQ(MyDir + u"Document.docx", doc->get_OriginalFileName());
 ASSERT_EQ(LoadFormat::Docx, doc->get_OriginalLoadFormat());
 ```
 
+## See Also
+
+* Enum [LoadFormat](../../loadformat/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

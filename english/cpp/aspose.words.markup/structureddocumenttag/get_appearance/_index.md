@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.markup/structureddocumenttag/get_appearance/
 ---
-## StructuredDocumentTag.get_Appearance method
+## StructuredDocumentTag::get_Appearance method
 
 
 Gets/sets the appearance of a structured document tag.
@@ -17,7 +17,6 @@ Aspose::Words::Markup::SdtAppearance Aspose::Words::Markup::StructuredDocumentTa
 
 
 ## Examples
-
 
 
 
@@ -72,3 +71,9 @@ tagClone->RemoveSelfOnly();
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.PlainText.docx");
 ```
 
+## See Also
+
+* Enum [SdtAppearance](../../sdtappearance/)
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

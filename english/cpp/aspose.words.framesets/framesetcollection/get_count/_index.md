@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.framesets/framesetcollection/get_count/
 ---
-## FramesetCollection.get_Count method
+## FramesetCollection::get_Count method
 
 
 Gets the number of frames or frames pages contained in the collection.
@@ -15,3 +15,8 @@ Gets the number of frames or frames pages contained in the collection.
 int32_t Aspose::Words::Framesets::FramesetCollection::get_Count()
 ```
 
+## See Also
+
+* Class [FramesetCollection](../)
+* Namespace [Aspose::Words::Framesets](../../)
+* Library [Aspose.Words](../../../)

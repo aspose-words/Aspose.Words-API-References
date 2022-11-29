@@ -11,6 +11,10 @@ url: /cpp/aspose.words.saving/pdfpagemode/
 
 Specifies how the PDF document should be displayed when opened in the PDF reader.
 
+```cpp
+enum class PdfPageMode
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -24,7 +28,6 @@ Specifies how the PDF document should be displayed when opened in the PDF reader
 
 
 ## Examples
-
 
 
 
@@ -79,3 +82,7 @@ options->set_PageMode(pageMode);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.PageMode.pdf", options);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

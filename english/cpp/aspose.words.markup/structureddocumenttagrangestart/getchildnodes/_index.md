@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/getchildnodes/
 ---
-## StructuredDocumentTagRangeStart.GetChildNodes method
+## StructuredDocumentTagRangeStart::GetChildNodes method
 
 
 Returns a live collection of child nodes that match the specified types.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::NodeCollection> Aspose::Words::Markup::Structur
 
 
 ## Examples
-
 
 
 
@@ -41,3 +40,10 @@ for (const auto& node : System::IterateOver(tag->GetChildNodes(NodeType::Run, tr
 }
 ```
 
+## See Also
+
+* Class [NodeCollection](../../../aspose.words/nodecollection/)
+* Enum [NodeType](../../../aspose.words/nodetype/)
+* Class [StructuredDocumentTagRangeStart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

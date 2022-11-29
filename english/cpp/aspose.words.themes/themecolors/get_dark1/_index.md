@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.themes/themecolors/get_dark1/
 ---
-## ThemeColors.get_Dark1 method
+## ThemeColors::get_Dark1 method
 
 
 Specifies color Dark 1.
@@ -17,7 +17,6 @@ System::Drawing::Color Aspose::Words::Themes::ThemeColors::get_Dark1()
 
 
 ## Examples
-
 
 
 
@@ -63,3 +62,8 @@ colors->set_FollowedHyperlink(System::Drawing::Color::get_Gray());
 doc->Save(ArtifactsDir + u"Themes.CustomColorsAndFonts.docx");
 ```
 
+## See Also
+
+* Class [ThemeColors](../)
+* Namespace [Aspose::Words::Themes](../../)
+* Library [Aspose.Words](../../../)

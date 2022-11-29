@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fielddisplaybarcode/get_barcodetype/
 ---
-## FieldDisplayBarcode.get_BarcodeType method
+## FieldDisplayBarcode::get_BarcodeType method
 
 
 Gets or sets the barcode type (QR, etc.)
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldDisplayBarcode::get_BarcodeType()
 
 
 ## Examples
-
 
 
 
@@ -73,3 +72,8 @@ ASSERT_EQ(u" DISPLAYBARCODE  09312345678907 ITF14 \\c STD", field->GetFieldCode(
 doc->Save(ArtifactsDir + u"Field.DISPLAYBARCODE.docx");
 ```
 
+## See Also
+
+* Class [FieldDisplayBarcode](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

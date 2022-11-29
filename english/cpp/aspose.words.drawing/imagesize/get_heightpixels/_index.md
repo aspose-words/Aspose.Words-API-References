@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.drawing/imagesize/get_heightpixels/
 ---
-## ImageSize.get_HeightPixels method
+## ImageSize::get_HeightPixels method
 
 
 Gets the height of the image in pixels.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Drawing::ImageSize::get_HeightPixels() const
 
 
 ## Examples
-
 
 
 
@@ -48,3 +47,8 @@ shape->set_Height(imageSize->get_HeightPoints() * 2);
 doc->Save(ArtifactsDir + u"Drawing.ImageSize.docx");
 ```
 
+## See Also
+
+* Class [ImageSize](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

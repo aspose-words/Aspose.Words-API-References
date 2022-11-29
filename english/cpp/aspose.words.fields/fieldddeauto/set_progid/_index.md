@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words.fields/fieldddeauto/set_progid/
 ---
-## FieldDdeAuto.set_ProgId method
+## FieldDdeAuto::set_ProgId method
 
 
 Setter for [Aspose::Words::Fields::FieldDdeAuto::get_ProgId](../get_progid/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldDdeAuto::get_ProgId](../get_progid/).
 void Aspose::Words::Fields::FieldDdeAuto::set_ProgId(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldDdeAuto](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

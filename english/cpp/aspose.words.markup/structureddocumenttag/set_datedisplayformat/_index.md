@@ -6,7 +6,7 @@ type: docs
 weight: 521
 url: /cpp/aspose.words.markup/structureddocumenttag/set_datedisplayformat/
 ---
-## StructuredDocumentTag.set_DateDisplayFormat method
+## StructuredDocumentTag::set_DateDisplayFormat method
 
 
 Setter for [Aspose::Words::Markup::StructuredDocumentTag::get_DateDisplayFormat](../get_datedisplayformat/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Markup::StructuredDocumentTag::get_DateDisplayFormat]
 void Aspose::Words::Markup::StructuredDocumentTag::set_DateDisplayFormat(const System::String &value)
 ```
 
+## See Also
+
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

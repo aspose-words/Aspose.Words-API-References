@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fonts/systemfontsource/systemfontsource/
 ---
-## SystemFontSource.SystemFontSource() method
+## SystemFontSource::SystemFontSource() constructor
 
 
 Ctor.
@@ -17,7 +17,6 @@ Aspose::Words::Fonts::SystemFontSource::SystemFontSource()
 
 
 ## Examples
-
 
 
 
@@ -72,7 +71,12 @@ ASSERT_EQ(FontSourceType::SystemFonts, doc->get_FontSettings()->GetFontsSources(
 ASSERT_EQ(1, doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubstitution()->GetSubstitutes(u"Kreon-Regular")->LINQ_Count());
 ```
 
-## SystemFontSource.SystemFontSource(int32_t) method
+## See Also
+
+* Class [SystemFontSource](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)
+## SystemFontSource::SystemFontSource(int32_t) constructor
 
 
 Ctor.
@@ -90,7 +94,6 @@ Aspose::Words::Fonts::SystemFontSource::SystemFontSource(int32_t priority)
 
 
 
-
 Shows how to access a document's system font source and set font substitutes. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -142,3 +145,8 @@ ASSERT_EQ(FontSourceType::SystemFonts, doc->get_FontSettings()->GetFontsSources(
 ASSERT_EQ(1, doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubstitution()->GetSubstitutes(u"Kreon-Regular")->LINQ_Count());
 ```
 
+## See Also
+
+* Class [SystemFontSource](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

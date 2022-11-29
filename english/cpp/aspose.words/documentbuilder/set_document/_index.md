@@ -6,7 +6,7 @@ type: docs
 weight: 794
 url: /cpp/aspose.words/documentbuilder/set_document/
 ---
-## DocumentBuilder.set_Document method
+## DocumentBuilder::set_Document method
 
 
 Setter for [Aspose::Words::DocumentBuilder::get_Document](../get_document/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::DocumentBuilder::get_Document](../get_document/).
 void Aspose::Words::DocumentBuilder::set_Document(const System::SharedPtr<Aspose::Words::Document> &value)
 ```
 
+## See Also
+
+* Class [Document](../../document/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

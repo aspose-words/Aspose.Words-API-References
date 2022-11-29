@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fieldref/get_includenoteorcomment/
 ---
-## FieldRef.get_IncludeNoteOrComment method
+## FieldRef::get_IncludeNoteOrComment method
 
 
 Gets or sets whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldRef::get_IncludeNoteOrComment()
 
 
 ## Examples
-
 
 
 
@@ -102,3 +101,8 @@ static SharedPtr<FieldRef> InsertFieldRef(SharedPtr<DocumentBuilder> builder, St
 }
 ```
 
+## See Also
+
+* Class [FieldRef](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

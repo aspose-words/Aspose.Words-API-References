@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.tables/table/get_bottompadding/
 ---
-## Table.get_BottomPadding method
+## Table::get_BottomPadding method
 
 
 Gets or sets the amount of space (in points) to add below the contents of cells.
@@ -17,7 +17,6 @@ double Aspose::Words::Tables::Table::get_BottomPadding()
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,8 @@ table->set_PreferredWidth(PreferredWidth::FromPoints(250));
 doc->Save(ArtifactsDir + u"DocumentBuilder.SetRowFormatting.docx");
 ```
 
+## See Also
+
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.tables/table/get_allowoverlap/
 ---
-## Table.get_AllowOverlap method
+## Table::get_AllowOverlap method
 
 
 Gets whether a floating table shall allow other floating objects in the document to overlap its extents when displayed. Default value is **true**.
@@ -17,7 +17,6 @@ bool Aspose::Words::Tables::Table::get_AllowOverlap()
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,8 @@ if (table->get_TextWrapping() == TextWrapping::Around)
 }
 ```
 
+## See Also
+
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.markup/custompartcollection/clear/
 ---
-## CustomPartCollection.Clear method
+## CustomPartCollection::Clear method
 
 
 Removes all elements from the collection.
@@ -17,7 +17,6 @@ void Aspose::Words::Markup::CustomPartCollection::Clear()
 
 
 ## Examples
-
 
 
 
@@ -61,3 +60,8 @@ doc->get_PackageCustomParts()->Clear();
 ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
 ```
 
+## See Also
+
+* Class [CustomPartCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

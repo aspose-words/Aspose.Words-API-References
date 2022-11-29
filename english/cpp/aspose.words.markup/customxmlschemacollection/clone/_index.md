@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.markup/customxmlschemacollection/clone/
 ---
-## CustomXmlSchemaCollection.Clone method
+## CustomXmlSchemaCollection::Clone method
 
 
 Makes a deep clone of this object.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Markup::CustomXmlSchemaCollection> Aspose::Word
 
 
 ## Examples
-
 
 
 
@@ -63,3 +62,9 @@ schemas->Clear();
 ASSERT_EQ(0, schemas->get_Count());
 ```
 
+## See Also
+
+* Class [CustomXmlSchemaCollection](../)
+* Class [CustomXmlSchemaCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

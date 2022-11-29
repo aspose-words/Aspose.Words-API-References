@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/nodechangingargs/get_action/
 ---
-## NodeChangingArgs.get_Action method
+## NodeChangingArgs::get_Action method
 
 
 Gets a value indicating what type of node change event is occurring.
@@ -17,7 +17,6 @@ Aspose::Words::NodeChangingAction Aspose::Words::NodeChangingArgs::get_Action() 
 
 
 ## Examples
-
 
 
 
@@ -85,3 +84,9 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [NodeChangingAction](../../nodechangingaction/)
+* Class [NodeChangingArgs](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

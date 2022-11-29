@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.fields/dropdownitemcollection/getenumerator/
 ---
-## DropDownItemCollection.GetEnumerator method
+## DropDownItemCollection::GetEnumerator method
 
 
 Returns an enumerator object that can be used to iterate over all items in the collection.
@@ -17,7 +17,6 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::String>> Asp
 
 
 ## Examples
-
 
 
 
@@ -73,3 +72,8 @@ doc->Save(ArtifactsDir + u"FormFields.DropDownItemCollection.html");
 dropDownItems->Clear();
 ```
 
+## See Also
+
+* Class [DropDownItemCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

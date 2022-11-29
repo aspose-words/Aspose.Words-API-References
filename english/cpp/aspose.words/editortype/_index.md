@@ -11,6 +11,10 @@ url: /cpp/aspose.words/editortype/
 
 Specifies the set of possible aliases (or editing groups) which can be used as aliases to determine if the current user shall be allowed to edit a single range defined by an editable range within a document.
 
+```cpp
+enum class EditorType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -23,11 +27,10 @@ Specifies the set of possible aliases (or editing groups) which can be used as a
 | Everyone | 5 | Specifies that all users that open the document shall be allowed to edit editable ranges using this editing type when document protection is enabled. |
 | None | 6 | Specifies that none of the users that open the document shall be allowed to edit editable ranges using this editing type when document protection is enabled. |
 | Owners | 7 | Specifies that users associated with the Owners group shall be allowed to edit editable ranges using this editing type when document protection is enabled. |
-| Default | n/a | Same as **Unspecified**. |
+| Default | n/a | Same as [Unspecified](./). |
 
 
 ## Examples
-
 
 
 
@@ -133,3 +136,7 @@ private:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

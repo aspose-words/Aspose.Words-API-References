@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/fileformatutil/contenttypetoloadformat/
 ---
-## FileFormatUtil.ContentTypeToLoadFormat method
+## FileFormatUtil::ContentTypeToLoadFormat method
 
 
 Converts IANA content type into a load format enumerated value.
@@ -17,7 +17,6 @@ static Aspose::Words::LoadFormat Aspose::Words::FileFormatUtil::ContentTypeToLoa
 
 
 ## Examples
-
 
 
 
@@ -65,3 +64,9 @@ ASSERT_EQ(LoadFormat::Mhtml, FileFormatUtil::ContentTypeToLoadFormat(u"multipart
 ASSERT_EQ(SaveFormat::Mhtml, FileFormatUtil::ContentTypeToSaveFormat(u"multipart/related"));
 ```
 
+## See Also
+
+* Enum [LoadFormat](../../loadformat/)
+* Class [FileFormatUtil](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

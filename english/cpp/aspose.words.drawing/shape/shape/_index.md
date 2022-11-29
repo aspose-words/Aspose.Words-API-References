@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.drawing/shape/shape/
 ---
-## Shape.Shape method
+## Shape::Shape constructor
 
 
 Creates a new shape object.
@@ -20,11 +20,12 @@ Aspose::Words::Drawing::Shape::Shape(const System::SharedPtr<Aspose::Words::Docu
 | --- | --- | --- |
 | doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
 | shapeType | Aspose::Words::Drawing::ShapeType | The type of the shape to create. |
+## Remarks
+
 
 You should specify desired shape properties after you created a shape.
 
 ## Examples
-
 
 
 
@@ -74,3 +75,10 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(textBox);
 doc->Save(ArtifactsDir + u"Shape.CreateTextBox.docx");
 ```
 
+## See Also
+
+* Class [DocumentBase](../../../aspose.words/documentbase/)
+* Enum [ShapeType](../../shapetype/)
+* Class [Shape](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/bookmarkstart/get_name/
 ---
-## BookmarkStart.get_Name method
+## BookmarkStart::get_Name method
 
 
 Gets or sets the bookmark name.
@@ -15,11 +15,12 @@ Gets or sets the bookmark name.
 System::String Aspose::Words::BookmarkStart::get_Name() override
 ```
 
+## Remarks
+
 
 Cannot be null.
 
 ## Examples
-
 
 
 
@@ -100,3 +101,8 @@ public:
 };
 ```
 
+## See Also
+
+* Class [BookmarkStart](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -12,7 +12,9 @@ url: /cpp/aspose.words.tables/row/
 Represents a table row.
 
 ```cpp
-class Row : public Aspose::Words::CompositeNode, public Aspose::Words::IRowAttrSource, public Aspose::Words::Revisions::ITrackableNode
+class Row : public Aspose::Words::CompositeNode,
+            public Aspose::Words::IRowAttrSource,
+            public Aspose::Words::Revisions::ITrackableNode
 ```
 
 ## Methods
@@ -67,6 +69,8 @@ class Row : public Aspose::Words::CompositeNode, public Aspose::Words::IRowAttrS
 | [SetTemplateWeakPtr](../../aspose.words/compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 **Row** can only be a child of a **Table**.
 
@@ -75,7 +79,6 @@ class Row : public Aspose::Words::CompositeNode, public Aspose::Words::IRowAttrS
 A minimal valid row needs to have at least one **Cell**.
 
 ## Examples
-
 
 
 
@@ -194,3 +197,8 @@ static SharedPtr<Table> CreateTable(SharedPtr<Document> doc, int rowCount, int c
 }
 ```
 
+## See Also
+
+* Class [CompositeNode](../../aspose.words/compositenode/)
+* Namespace [Aspose::Words::Tables](../)
+* Library [Aspose.Words](../../)

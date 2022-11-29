@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.markup/customxmlpart/set_data/
 ---
-## CustomXmlPart.set_Data method
+## CustomXmlPart::set_Data method
 
 
 Setter for [Aspose::Words::Markup::CustomXmlPart::get_Data](../get_data/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Markup::CustomXmlPart::get_Data](../get_data/).
 void Aspose::Words::Markup::CustomXmlPart::set_Data(const System::ArrayPtr<uint8_t> &value)
 ```
 
+## See Also
+
+* Class [CustomXmlPart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

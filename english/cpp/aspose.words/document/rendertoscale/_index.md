@@ -6,7 +6,7 @@ type: docs
 weight: 833
 url: /cpp/aspose.words/document/rendertoscale/
 ---
-## Document.RenderToScale method
+## Document::RenderToScale method
 
 
 Renders a document page into a object to a specified scale.
@@ -26,11 +26,9 @@ System::Drawing::SizeF Aspose::Words::Document::RenderToScale(int32_t pageIndex,
 
 ### ReturnValue
 
-
 The width and height (in world units) of the rendered page.
 
 ## Examples
-
 
 
 
@@ -84,3 +82,8 @@ int imgHeight = thumbSize.get_Height() * thumbRows;
 }
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fieldmergebarcode/get_barcodetype/
 ---
-## FieldMergeBarcode.get_BarcodeType method
+## FieldMergeBarcode::get_BarcodeType method
 
 
 Gets the barcode type (QR, etc.)
@@ -15,3 +15,8 @@ Gets the barcode type (QR, etc.)
 System::String Aspose::Words::Fields::FieldMergeBarcode::get_BarcodeType()
 ```
 
+## See Also
+
+* Class [FieldMergeBarcode](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

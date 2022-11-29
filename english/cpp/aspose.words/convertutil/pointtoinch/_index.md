@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/convertutil/pointtoinch/
 ---
-## ConvertUtil.PointToInch method
+## ConvertUtil::PointToInch method
 
 
 Converts points to inches.
@@ -21,7 +21,6 @@ static double Aspose::Words::ConvertUtil::PointToInch(double points)
 | points | double | The value to convert. |
 
 ## Examples
-
 
 
 
@@ -55,3 +54,8 @@ builder->Writeln(
 doc->Save(ArtifactsDir + u"UtilityClasses.PointsAndInches.docx");
 ```
 
+## See Also
+
+* Class [ConvertUtil](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.fields/fieldstyleref/set_insertparagraphnumber/
 ---
-## FieldStyleRef.set_InsertParagraphNumber method
+## FieldStyleRef::set_InsertParagraphNumber method
 
 
 Setter for [Aspose::Words::Fields::FieldStyleRef::get_InsertParagraphNumber](../get_insertparagraphnumber/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldStyleRef::get_InsertParagraphNumber](../
 void Aspose::Words::Fields::FieldStyleRef::set_InsertParagraphNumber(bool value)
 ```
 
+## See Also
+
+* Class [FieldStyleRef](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

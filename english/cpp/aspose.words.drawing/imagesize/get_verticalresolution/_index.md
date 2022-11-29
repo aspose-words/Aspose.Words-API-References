@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.drawing/imagesize/get_verticalresolution/
 ---
-## ImageSize.get_VerticalResolution method
+## ImageSize::get_VerticalResolution method
 
 
 Gets the vertical resolution in DPI.
@@ -17,7 +17,6 @@ double Aspose::Words::Drawing::ImageSize::get_VerticalResolution() const
 
 
 ## Examples
-
 
 
 
@@ -48,3 +47,8 @@ shape->set_Height(imageSize->get_HeightPoints() * 2);
 doc->Save(ArtifactsDir + u"Drawing.ImageSize.docx");
 ```
 
+## See Also
+
+* Class [ImageSize](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

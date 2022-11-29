@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.drawing.charts/chart/get_title/
 ---
-## Chart.get_Title method
+## Chart::get_Title method
 
 
 Provides access to the chart title properties.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartTitle> Aspose::Words::Dra
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,9 @@ title->set_Overlay(true);
 doc->Save(ArtifactsDir + u"Charts.ChartTitle.docx");
 ```
 
+## See Also
+
+* Class [ChartTitle](../../charttitle/)
+* Class [Chart](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

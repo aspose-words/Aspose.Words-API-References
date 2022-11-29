@@ -12,7 +12,8 @@ url: /cpp/aspose.words.drawing.charts/chartformat/
 Represents the formatting of a chart element.
 
 ```cpp
-class ChartFormat : public Aspose::Words::Drawing::Core::IFillable, public Aspose::Words::Drawing::Core::IStrokable
+class ChartFormat : public Aspose::Words::Drawing::Core::IFillable,
+                    public Aspose::Words::Drawing::Core::IStrokable
 ```
 
 ## Methods
@@ -21,3 +22,7 @@ class ChartFormat : public Aspose::Words::Drawing::Core::IFillable, public Aspos
 | --- | --- |
 | [get_Fill](./get_fill/)() | Gets fill formatting for the parent chart element. |
 | [get_Stroke](./get_stroke/)() | Gets line formatting for the parent chart element. |
+## See Also
+
+* Namespace [Aspose::Words::Drawing::Charts](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.saving/imagesaveoptions/set_imagebrightness/
 ---
-## ImageSaveOptions.set_ImageBrightness method
+## ImageSaveOptions::set_ImageBrightness method
 
 
 Setter for [Aspose::Words::Saving::ImageSaveOptions::get_ImageBrightness](../get_imagebrightness/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::ImageSaveOptions::get_ImageBrightness](../get
 void Aspose::Words::Saving::ImageSaveOptions::set_ImageBrightness(float value)
 ```
 
+## See Also
+
+* Class [ImageSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

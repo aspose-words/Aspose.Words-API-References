@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/pagesetup/get_bidi/
 ---
-## PageSetup.get_Bidi method
+## PageSetup::get_Bidi method
 
 
 Specifies that this section contains bidirectional (complex scripts) text.
@@ -15,11 +15,12 @@ Specifies that this section contains bidirectional (complex scripts) text.
 bool Aspose::Words::PageSetup::get_Bidi()
 ```
 
+## Remarks
+
 
 When true, the columns in this section are laid out from right to left.
 
 ## Examples
-
 
 
 
@@ -46,3 +47,8 @@ pageSetup->set_Bidi(reverseColumns);
 doc->Save(ArtifactsDir + u"PageSetup.Bidi.docx");
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.digitalsignatures/signoptions/get_providerid/
 ---
-## SignOptions.get_ProviderId method
+## SignOptions::get_ProviderId method
 
 
 Specifies the class ID of the signature provider. Default value is **Empty (all zeroes) Guid**.
@@ -14,6 +14,8 @@ Specifies the class ID of the signature provider. Default value is **Empty (all 
 ```cpp
 System::Guid Aspose::Words::DigitalSignatures::SignOptions::get_ProviderId() const
 ```
+
+## Remarks
 
 
 The cryptographic service provider (CSP) is an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption. MS Office reserves the value of {00000000-0000-0000-0000-000000000000} for its default signature provider.
@@ -23,7 +25,6 @@ The GUID of the additionally installed provider should be obtained from the docu
 In addition, all the installed cryptographic providers are enumerated in windows registry. It can be found in the following path: HKLM\SOFTWARE\**Microsoft**\Cryptography\Defaults\Provider. There is a key name "CP Service UUID" which corresponds to a GUID of signature provider.
 
 ## Examples
-
 
 
 
@@ -70,3 +71,8 @@ ASSERT_TRUE(signatureLine->get_IsSigned());
 ASSERT_TRUE(signatureLine->get_IsValid());
 ```
 
+## See Also
+
+* Class [SignOptions](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)

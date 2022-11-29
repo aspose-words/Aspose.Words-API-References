@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/ifieldresultformatter/formatnumeric/
 ---
-## IFieldResultFormatter.FormatNumeric method
+## IFieldResultFormatter::FormatNumeric method
 
 
 Called when Aspose.Words applies a numeric format switch, i.e. \# "#.##".
@@ -17,7 +17,6 @@ virtual System::String Aspose::Words::Fields::IFieldResultFormatter::FormatNumer
 
 
 ## Examples
-
 
 
 
@@ -205,3 +204,8 @@ private:
 };
 ```
 
+## See Also
+
+* Interface [IFieldResultFormatter](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

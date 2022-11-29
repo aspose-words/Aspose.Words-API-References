@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words/comment/get_initial/
 ---
-## Comment.get_Initial method
+## Comment::get_Initial method
 
 
 Returns or sets the initials of the user associated with a specific comment.
@@ -15,13 +15,14 @@ Returns or sets the initials of the user associated with a specific comment.
 System::String Aspose::Words::Comment::get_Initial() const
 ```
 
+## Remarks
+
 
 Cannot be null.
 
 Default is empty string.
 
 ## Examples
-
 
 
 
@@ -162,3 +163,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Comment](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

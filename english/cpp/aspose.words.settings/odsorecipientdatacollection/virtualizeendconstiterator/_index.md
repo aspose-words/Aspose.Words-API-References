@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.settings/odsorecipientdatacollection/virtualizeendconstiterator/
 ---
-## OdsoRecipientDataCollection.virtualizeEndConstIterator method
+## OdsoRecipientDataCollection::virtualizeEndConstIterator method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.settings/odsorecipientdatacollection/virtualizeendconstit
 virtualized_iterator * Aspose::Words::Settings::OdsoRecipientDataCollection::virtualizeEndConstIterator() const override
 ```
 
+## See Also
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [OdsoRecipientDataCollection](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.markup/customxmlpropertycollection/get_count/
 ---
-## CustomXmlPropertyCollection.get_Count method
+## CustomXmlPropertyCollection::get_Count method
 
 
 Gets the number of elements contained in the collection.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Markup::CustomXmlPropertyCollection::get_Count()
 
 
 ## Examples
-
 
 
 
@@ -72,3 +71,8 @@ properties->Clear();
 ASSERT_EQ(0, properties->get_Count());
 ```
 
+## See Also
+
+* Class [CustomXmlPropertyCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

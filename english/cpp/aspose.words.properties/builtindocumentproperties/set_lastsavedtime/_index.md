@@ -6,7 +6,7 @@ type: docs
 weight: 625
 url: /cpp/aspose.words.properties/builtindocumentproperties/set_lastsavedtime/
 ---
-## BuiltInDocumentProperties.set_LastSavedTime method
+## BuiltInDocumentProperties::set_LastSavedTime method
 
 
 Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_LastSavedTime](../get_lastsavedtime/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_LastSavedT
 void Aspose::Words::Properties::BuiltInDocumentProperties::set_LastSavedTime(System::DateTime value)
 ```
 
+## See Also
+
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

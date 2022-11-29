@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/bookmarkend/accept/
 ---
-## BookmarkEnd.Accept method
+## BookmarkEnd::Accept method
 
 
 Accepts a visitor.
@@ -22,15 +22,15 @@ bool Aspose::Words::BookmarkEnd::Accept(System::SharedPtr<Aspose::Words::Documen
 
 ### ReturnValue
 
-
 False if the visitor requested the enumeration to stop.
+## Remarks
+
 
 Calls [VisitBookmarkEnd()](../../documentvisitor/visitbookmarkend/).
 
 For more info see the Visitor design pattern.
 
 ## Examples
-
 
 
 
@@ -111,3 +111,9 @@ public:
 };
 ```
 
+## See Also
+
+* Class [DocumentVisitor](../../documentvisitor/)
+* Class [BookmarkEnd](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

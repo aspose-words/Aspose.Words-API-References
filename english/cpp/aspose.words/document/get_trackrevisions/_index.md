@@ -6,7 +6,7 @@ type: docs
 weight: 651
 url: /cpp/aspose.words/document/get_trackrevisions/
 ---
-## Document.get_TrackRevisions method
+## Document::get_TrackRevisions method
 
 
 **True** if changes are tracked when this document is edited in Microsoft Word.
@@ -15,13 +15,14 @@ url: /cpp/aspose.words/document/get_trackrevisions/
 bool Aspose::Words::Document::get_TrackRevisions()
 ```
 
+## Remarks
+
 
 Setting this option only instructs Microsoft Word whether the track changes is turned on or off. This property has no effect on changes to the document that you make programmatically via Aspose.Words.
 
-If you want to automatically track changes as they are made programmatically by [Aspose.Words](../../) to this document use the **StartTrackRevisions()** method.
+If you want to automatically track changes as they are made programmatically by [Aspose.Words](../../) to this document use the [StartTrackRevisions()](../) method.
 
 ## Examples
-
 
 
 
@@ -102,3 +103,8 @@ ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

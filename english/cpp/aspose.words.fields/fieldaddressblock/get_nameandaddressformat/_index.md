@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fields/fieldaddressblock/get_nameandaddressformat/
 ---
-## FieldAddressBlock.get_NameAndAddressFormat method
+## FieldAddressBlock::get_NameAndAddressFormat method
 
 
 Gets or sets the name and address format.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldAddressBlock::get_NameAndAddressForma
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,8 @@ ASSERT_EQ(
     field->GetFieldCode());
 ```
 
+## See Also
+
+* Class [FieldAddressBlock](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

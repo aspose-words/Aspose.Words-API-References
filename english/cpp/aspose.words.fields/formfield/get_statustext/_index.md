@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.fields/formfield/get_statustext/
 ---
-## FormField.get_StatusText method
+## FormField::get_StatusText method
 
 
 Returns or sets the text that's displayed in the status bar when a form field has the focus.
@@ -15,13 +15,14 @@ Returns or sets the text that's displayed in the status bar when a form field ha
 System::String Aspose::Words::Fields::FormField::get_StatusText()
 ```
 
+## Remarks
+
 
 If the OwnStatus property is set to true, the StatusText property specifies the status bar text. If the OwnStatus property is set to false, the StatusText property specifies the name of an AutoText entry that contains status bar text for the form field.
 
 Microsoft Word allows strings with at most 138 characters.
 
 ## Examples
-
 
 
 
@@ -154,3 +155,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [FormField](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.rendering/noderendererbase/rendertosize/
 ---
-## NodeRendererBase.RenderToSize method
+## NodeRendererBase::RenderToSize method
 
 
 Renders the shape into a **Graphics** object to a specified size.
@@ -26,7 +26,10 @@ float Aspose::Words::Rendering::NodeRendererBase::RenderToSize(const System::Sha
 
 ### ReturnValue
 
-
 The scale that was automatically calculated for the rendered shape to fit the specified size.
 
+## See Also
 
+* Class [NodeRendererBase](../)
+* Namespace [Aspose::Words::Rendering](../../)
+* Library [Aspose.Words](../../../)

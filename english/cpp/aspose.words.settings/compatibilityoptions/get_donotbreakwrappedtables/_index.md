@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.settings/compatibilityoptions/get_donotbreakwrappedtables/
 ---
-## CompatibilityOptions.get_DoNotBreakWrappedTables method
+## CompatibilityOptions::get_DoNotBreakWrappedTables method
 
 
 Do Not Allow Floating [Tables](../../../aspose.words.tables/) To Break Across Pages.
@@ -15,3 +15,8 @@ Do Not Allow Floating [Tables](../../../aspose.words.tables/) To Break Across Pa
 bool Aspose::Words::Settings::CompatibilityOptions::get_DoNotBreakWrappedTables()
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

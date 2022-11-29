@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldmacrobutton/get_displaytext/
 ---
-## FieldMacroButton.get_DisplayText method
+## FieldMacroButton::get_DisplayText method
 
 
 Gets or sets the text to appear as the "button" that is selected to run the macro or command.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldMacroButton::get_DisplayText()
 
 
 ## Examples
-
 
 
 
@@ -51,3 +50,8 @@ ASSERT_EQ(u" MACROBUTTON  ViewZoom200 Run ViewZoom200", field->GetFieldCode());
 doc->Save(ArtifactsDir + u"Field.MACROBUTTON.docm");
 ```
 
+## See Also
+
+* Class [FieldMacroButton](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

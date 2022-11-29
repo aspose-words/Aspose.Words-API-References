@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.markup/customxmlpartcollection/removeat/
 ---
-## CustomXmlPartCollection.RemoveAt method
+## CustomXmlPartCollection::RemoveAt method
 
 
 Removes an item at the specified index.
@@ -21,7 +21,6 @@ void Aspose::Words::Markup::CustomXmlPartCollection::RemoveAt(int32_t index)
 | index | int32_t | The zero based index. |
 
 ## Examples
-
 
 
 
@@ -86,3 +85,8 @@ doc->get_FirstSection()->get_Body()->AppendChild(tag);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.CustomXml.docx");
 ```
 
+## See Also
+
+* Class [CustomXmlPartCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

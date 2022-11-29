@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.saving/imagesaveoptions/get_horizontalresolution/
 ---
-## ImageSaveOptions.get_HorizontalResolution method
+## ImageSaveOptions::get_HorizontalResolution method
 
 
 Gets or sets the horizontal resolution for the generated images, in dots per inch.
@@ -15,13 +15,14 @@ Gets or sets the horizontal resolution for the generated images, in dots per inc
 float Aspose::Words::Saving::ImageSaveOptions::get_HorizontalResolution() const
 ```
 
+## Remarks
+
 
 This property has effect only when saving to raster image formats and affects the output size in pixels.
 
 The default value is 96.
 
 ## Examples
-
 
 
 
@@ -46,3 +47,8 @@ options->set_Scale(96.f / 72.f);
 doc->Save(ArtifactsDir + u"ImageSaveOptions.EditImage.png", options);
 ```
 
+## See Also
+
+* Class [ImageSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/documentsavingargs/get_estimatedprogress/
 ---
-## DocumentSavingArgs.get_EstimatedProgress method
+## DocumentSavingArgs::get_EstimatedProgress method
 
 
 Overall estimated percentage progress.
@@ -15,3 +15,8 @@ Overall estimated percentage progress.
 double Aspose::Words::Saving::DocumentSavingArgs::get_EstimatedProgress() const
 ```
 
+## See Also
+
+* Class [DocumentSavingArgs](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 846
 url: /cpp/aspose.words.settings/compatibilityoptions/get_useword2002tablestylerules/
 ---
-## CompatibilityOptions.get_UseWord2002TableStyleRules method
+## CompatibilityOptions::get_UseWord2002TableStyleRules method
 
 
 Emulate Word 2002 Table [Style](../../../aspose.words/style/) Rules.
@@ -15,3 +15,8 @@ Emulate Word 2002 Table [Style](../../../aspose.words/style/) Rules.
 bool Aspose::Words::Settings::CompatibilityOptions::get_UseWord2002TableStyleRules()
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

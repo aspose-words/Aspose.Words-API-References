@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/range/delete/
 ---
-## Range.Delete method
+## Range::Delete method
 
 
 Deletes all characters of the range.
@@ -17,7 +17,6 @@ void Aspose::Words::Range::Delete()
 
 
 ## Examples
-
 
 
 
@@ -41,3 +40,8 @@ ASSERT_EQ(1, doc->get_Sections()->get_Count());
 ASSERT_EQ(u"Section 2.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Range](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

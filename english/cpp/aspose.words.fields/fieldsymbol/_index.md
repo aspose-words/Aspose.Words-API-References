@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldsymbol/
 Implements a SYMBOL field.
 
 ```cpp
-class FieldSymbol : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldSymbol : public Aspose::Words::Fields::Field,
+                    public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -57,7 +58,6 @@ class FieldSymbol : public Aspose::Words::Fields::Field, public Aspose::Words::F
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 
 ## Examples
-
 
 
 
@@ -111,3 +111,8 @@ builder->Write(u"Line 3");
 doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

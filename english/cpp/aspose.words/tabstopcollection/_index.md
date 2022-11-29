@@ -12,7 +12,8 @@ url: /cpp/aspose.words/tabstopcollection/
 A collection of [TabStop](../tabstop/) objects that represent custom tabs for a paragraph or a style.
 
 ```cpp
-class TabStopCollection : public Aspose::Words::InternableComplexAttr, public Aspose::Words::IExpandableAttr
+class TabStopCollection : public Aspose::Words::InternableComplexAttr,
+                          public Aspose::Words::IExpandableAttr
 ```
 
 ## Methods
@@ -34,13 +35,14 @@ class TabStopCollection : public Aspose::Words::InternableComplexAttr, public As
 | [idx_get](./idx_get/)(double) | Gets a tab stop at the specified position. |
 | [RemoveByIndex](./removebyindex/)(int32_t) | Removes a tab stop at the specified index from the collection. |
 | [RemoveByPosition](./removebyposition/)(double) | Removes a tab stop at the specified position from the collection. |
+## Remarks
+
 
 In Microsoft Word documents, a tab stop can be defined in the properties of a paragraph style or directly in the properties of a paragraph. A style can be based on another style. Therefore, the complete set of tab stops for a given object is a combination of tab stops defined directly on this object and tab stops inherited from the parent styles.
 
 In Aspose.Words, when you obtain a **TabStops** collection for a paragraph or a style, it contains only the custom tab stops defined directly for this paragraph or style. The collection does not include tab stops defined in the parent styles or default tab stops.
 
 ## Examples
-
 
 
 
@@ -82,3 +84,8 @@ ASSERT_EQ(0, paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops()->get_
 doc->Save(ArtifactsDir + u"TabStopCollection.TabStopCollection.docx");
 ```
 
+## See Also
+
+* Class [InternableComplexAttr](../internablecomplexattr/)
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

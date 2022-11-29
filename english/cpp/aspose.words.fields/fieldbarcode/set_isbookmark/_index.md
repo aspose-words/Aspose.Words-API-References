@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fields/fieldbarcode/set_isbookmark/
 ---
-## FieldBarcode.set_IsBookmark method
+## FieldBarcode::set_IsBookmark method
 
 
 Setter for [Aspose::Words::Fields::FieldBarcode::get_IsBookmark](../get_isbookmark/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldBarcode::get_IsBookmark](../get_isbookma
 void Aspose::Words::Fields::FieldBarcode::set_IsBookmark(bool value)
 ```
 
+## See Also
+
+* Class [FieldBarcode](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

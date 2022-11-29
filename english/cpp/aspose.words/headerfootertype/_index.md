@@ -11,6 +11,10 @@ url: /cpp/aspose.words/headerfootertype/
 
 Identifies the type of header or footer found in a Word file.
 
+```cpp
+enum class HeaderFooterType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -24,7 +28,6 @@ Identifies the type of header or footer found in a Word file.
 
 
 ## Examples
-
 
 
 
@@ -55,3 +58,7 @@ builder->Writeln(u"Page3");
 doc->Save(ArtifactsDir + u"DocumentBuilder.HeadersAndFooters.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

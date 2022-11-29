@@ -47,7 +47,6 @@ class FieldEQ : public Aspose::Words::Fields::Field
 
 
 
-
 Shows how to use the EQ field to display a variety of mathematical equations. 
 ```cpp
 void FieldEQ_()
@@ -122,3 +121,8 @@ static SharedPtr<FieldEQ> InsertFieldEQ(SharedPtr<DocumentBuilder> builder, Stri
 }
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

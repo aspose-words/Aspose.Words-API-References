@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/commentrangestart/commentrangestart/
 ---
-## CommentRangeStart.CommentRangeStart method
+## CommentRangeStart::CommentRangeStart constructor
 
 
 Initializes a new instance of this class.
@@ -20,13 +20,14 @@ Aspose::Words::CommentRangeStart::CommentRangeStart(const System::SharedPtr<Aspo
 | --- | --- | --- |
 | doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
 | id | int32_t | The comment identifier to which this object is linked. |
+## Remarks
+
 
 When [CommentRangeStart](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is null.
 
 To append a [CommentRangeStart](../) to the document use InsertAfter or InsertBefore on the paragraph where you want the comment inserted.
 
 ## Examples
-
 
 
 
@@ -167,3 +168,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [DocumentBase](../../documentbase/)
+* Class [CommentRangeStart](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

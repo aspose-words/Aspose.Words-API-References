@@ -6,7 +6,7 @@ type: docs
 weight: 521
 url: /cpp/aspose.words.saving/saveoptions/createsaveoptions/
 ---
-## SaveOptions.CreateSaveOptions(Aspose::Words::SaveFormat) method
+## SaveOptions::CreateSaveOptions(Aspose::Words::SaveFormat) method
 
 
 Creates a save options object of a class suitable for the specified save format.
@@ -22,11 +22,9 @@ static System::SharedPtr<Aspose::Words::Saving::SaveOptions> Aspose::Words::Savi
 
 ### ReturnValue
 
-
 An object of a class that derives from [SaveOptions](../).
 
 ## Examples
-
 
 
 
@@ -46,7 +44,14 @@ saveOptions->set_MemoryOptimization(memoryOptimization);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 ```
 
-## SaveOptions.CreateSaveOptions(const System::String\&) method
+## See Also
+
+* Class [SaveOptions](../)
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [SaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)
+## SaveOptions::CreateSaveOptions(const System::String\&) method
 
 
 Creates a save options object of a class suitable for the file extension specified in the given file name.
@@ -62,11 +67,9 @@ static System::SharedPtr<Aspose::Words::Saving::SaveOptions> Aspose::Words::Savi
 
 ### ReturnValue
 
-
 An object of a class that derives from [SaveOptions](../).
 
 ## Examples
-
 
 
 
@@ -88,3 +91,9 @@ options->set_DefaultTemplate(MyDir + u"Business brochure.dotx");
 doc->Save(ArtifactsDir + u"Document.DefaultTemplate.docx", options);
 ```
 
+## See Also
+
+* Class [SaveOptions](../)
+* Class [SaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

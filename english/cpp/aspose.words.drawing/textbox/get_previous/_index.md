@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.drawing/textbox/get_previous/
 ---
-## TextBox.get_Previous method
+## TextBox::get_Previous method
 
 
 Returns a [TextBox](../) that represents the previous [TextBox](../) in a sequence of shapes.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::TextBox> Aspose::Words::Drawing::TextB
 
 
 ## Examples
-
 
 
 
@@ -84,3 +83,9 @@ if (textBox3->get_Next() == nullptr && textBox3->get_Previous() != nullptr)
 doc->Save(ArtifactsDir + u"Shape.CreateLinkBetweenTextBoxes.docx");
 ```
 
+## See Also
+
+* Class [TextBox](../)
+* Class [TextBox](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

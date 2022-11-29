@@ -6,7 +6,7 @@ type: docs
 weight: 833
 url: /cpp/aspose.words/paragraphformat/set_snaptogrid/
 ---
-## ParagraphFormat.set_SnapToGrid method
+## ParagraphFormat::set_SnapToGrid method
 
 
 Setter for [Aspose::Words::ParagraphFormat::get_SnapToGrid](../get_snaptogrid/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::ParagraphFormat::get_SnapToGrid](../get_snaptogrid/).
 void Aspose::Words::ParagraphFormat::set_SnapToGrid(bool value)
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

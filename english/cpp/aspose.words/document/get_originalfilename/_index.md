@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/aspose.words/document/get_originalfilename/
 ---
-## Document.get_OriginalFileName method
+## Document::get_OriginalFileName method
 
 
 Gets the original file name of the document.
@@ -15,11 +15,12 @@ Gets the original file name of the document.
 System::String Aspose::Words::Document::get_OriginalFileName() const
 ```
 
+## Remarks
+
 
 Returns null if the document was loaded from a stream or created blank.
 
 ## Examples
-
 
 
 
@@ -59,3 +60,8 @@ Shows how to use the [FileFormatUtil](../../fileformatutil/) methods to detect t
 }
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

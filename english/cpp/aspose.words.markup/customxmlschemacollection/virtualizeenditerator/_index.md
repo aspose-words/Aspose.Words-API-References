@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words.markup/customxmlschemacollection/virtualizeenditerator/
 ---
-## CustomXmlSchemaCollection.virtualizeEndIterator method
+## CustomXmlSchemaCollection::virtualizeEndIterator method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.markup/customxmlschemacollection/virtualizeenditerator/
 virtualized_iterator * Aspose::Words::Markup::CustomXmlSchemaCollection::virtualizeEndIterator() override
 ```
 
+## See Also
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [CustomXmlSchemaCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/revision/get_group/
 ---
-## Revision.get_Group method
+## Revision::get_Group method
 
 
 Gets the revision group. Returns null if the revision does not belong to any group.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::RevisionGroup> Aspose::Words::Revision::get_Gro
 
 
 ## Examples
-
 
 
 
@@ -98,3 +97,9 @@ ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [RevisionGroup](../../revisiongroup/)
+* Class [Revision](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

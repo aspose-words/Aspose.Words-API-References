@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.fields/fieldindex/get_pagerangeseparator/
 ---
-## FieldIndex.get_PageRangeSeparator method
+## FieldIndex::get_PageRangeSeparator method
 
 
 Gets or sets the character sequence that is used to separate the start and end of a page range.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldIndex::get_PageRangeSeparator()
 
 
 ## Examples
-
 
 
 
@@ -67,3 +66,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.INDEX.XE.PageRangeBookmark.docx");
 ```
 
+## See Also
+
+* Class [FieldIndex](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

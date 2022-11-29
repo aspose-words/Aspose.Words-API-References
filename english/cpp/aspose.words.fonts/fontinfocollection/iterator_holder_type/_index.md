@@ -15,3 +15,8 @@ url: /cpp/aspose.words.fonts/fontinfocollection/iterator_holder_type/
 using Aspose::Words::Fonts::FontInfoCollection::iterator_holder_type =  System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Fonts::FontInfo> >
 ```
 
+## See Also
+
+* Class [FontInfoCollection](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

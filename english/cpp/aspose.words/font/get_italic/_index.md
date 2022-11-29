@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words/font/get_italic/
 ---
-## Font.get_Italic method
+## Font::get_Italic method
 
 
 True if the font is formatted as italic.
@@ -17,7 +17,6 @@ bool Aspose::Words::Font::get_Italic()
 
 
 ## Examples
-
 
 
 
@@ -33,3 +32,8 @@ builder->Writeln(u"Hello world!");
 doc->Save(ArtifactsDir + u"Font.Italic.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

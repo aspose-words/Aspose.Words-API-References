@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.drawing/fill/get_gradientvariant/
 ---
-## Fill.get_GradientVariant method
+## Fill::get_GradientVariant method
 
 
 Gets the gradient variant [GradientVariant](../../gradientvariant/) for the fill.
@@ -17,7 +17,6 @@ Aspose::Words::Drawing::GradientVariant Aspose::Words::Drawing::Fill::get_Gradie
 
 
 ## Examples
-
 
 
 
@@ -57,3 +56,9 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 doc->Save(ArtifactsDir + u"Shape.GradientFill.docx", saveOptions);
 ```
 
+## See Also
+
+* Enum [GradientVariant](../../gradientvariant/)
+* Class [Fill](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words/paragraphformat/get_islistitem/
 ---
-## ParagraphFormat.get_IsListItem method
+## ParagraphFormat::get_IsListItem method
 
 
 True when the paragraph is an item in a bulleted or numbered list.
@@ -17,7 +17,6 @@ bool Aspose::Words::ParagraphFormat::get_IsListItem()
 
 
 ## Examples
-
 
 
 
@@ -69,3 +68,8 @@ builder->get_ParagraphFormat()->ClearFormatting();
 builder->get_Document()->Save(ArtifactsDir + u"Lists.NestedLists.docx");
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

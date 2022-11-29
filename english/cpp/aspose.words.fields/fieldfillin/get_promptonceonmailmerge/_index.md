@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldfillin/get_promptonceonmailmerge/
 ---
-## FieldFillIn.get_PromptOnceOnMailMerge method
+## FieldFillIn::get_PromptOnceOnMailMerge method
 
 
 Gets or sets whether the user response should be recieved once per a mail merge operation.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldFillIn::get_PromptOnceOnMailMerge()
 
 
 ## Examples
-
 
 
 
@@ -62,3 +61,8 @@ public:
 };
 ```
 
+## See Also
+
+* Class [FieldFillIn](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

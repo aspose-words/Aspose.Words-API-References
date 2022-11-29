@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.saving/imagesavingargs/get_keepimagestreamopen/
 ---
-## ImageSavingArgs.get_KeepImageStreamOpen method
+## ImageSavingArgs::get_KeepImageStreamOpen method
 
 
 Specifies whether Aspose.Words should keep the stream open or close it after saving an image.
@@ -15,11 +15,12 @@ Specifies whether Aspose.Words should keep the stream open or close it after sav
 bool Aspose::Words::Saving::ImageSavingArgs::get_KeepImageStreamOpen() const
 ```
 
+## Remarks
+
 
 Default is **false** and Aspose.Words will close the stream you provided in the [ImageStream](../get_imagestream/) property after writing an image into it. Specify **true** to keep the stream open.
 
 ## Examples
-
 
 
 
@@ -66,3 +67,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [ImageSavingArgs](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

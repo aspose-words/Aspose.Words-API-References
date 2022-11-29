@@ -6,7 +6,7 @@ type: docs
 weight: 703
 url: /cpp/aspose.words/documentbuilder/movetomergefield/
 ---
-## DocumentBuilder.MoveToMergeField(const System::String\&) method
+## DocumentBuilder::MoveToMergeField(const System::String\&) method
 
 
 Moves the cursor to a position just beyond the specified merge field and removes the merge field.
@@ -22,13 +22,13 @@ bool Aspose::Words::DocumentBuilder::MoveToMergeField(const System::String &fiel
 
 ### ReturnValue
 
-
 True if the merge field was found and the cursor was moved; false otherwise.
+## Remarks
+
 
 Note that this method deletes the merge field from the document after moving the cursor.
 
 ## Examples
-
 
 
 
@@ -58,7 +58,12 @@ builder->Writeln(u"John Bloggs");
 doc->Save(ArtifactsDir + u"DocumentBuilder.FillMergeFields.docx");
 ```
 
-## DocumentBuilder.MoveToMergeField(const System::String\&, bool, bool) method
+## See Also
+
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## DocumentBuilder::MoveToMergeField(const System::String\&, bool, bool) method
 
 
 Moves the merge field to the specified merge field.
@@ -76,11 +81,9 @@ bool Aspose::Words::DocumentBuilder::MoveToMergeField(const System::String &fiel
 
 ### ReturnValue
 
-
 True if the merge field was found and the cursor was moved; false otherwise.
 
 ## Examples
-
 
 
 
@@ -107,3 +110,8 @@ builder->Write(u" Text between our merge fields. ");
 doc->Save(ArtifactsDir + u"DocumentBuilder.MergeFields.docx");
 ```
 
+## See Also
+
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

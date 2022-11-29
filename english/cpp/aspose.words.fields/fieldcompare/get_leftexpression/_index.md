@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldcompare/get_leftexpression/
 ---
-## FieldCompare.get_LeftExpression method
+## FieldCompare::get_LeftExpression method
 
 
 Gets or sets the left part of the comparison expression.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldCompare::get_LeftExpression()
 
 
 ## Examples
-
 
 
 
@@ -53,3 +52,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.COMPARE.docx");
 ```
 
+## See Also
+
+* Class [FieldCompare](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

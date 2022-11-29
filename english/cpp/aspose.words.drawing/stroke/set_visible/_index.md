@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /cpp/aspose.words.drawing/stroke/set_visible/
 ---
-## Stroke.set_Visible method
+## Stroke::set_Visible method
 
 
 Setter for [Aspose::Words::Drawing::Stroke::get_Visible](../get_visible/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::Stroke::get_Visible](../get_visible/).
 void Aspose::Words::Drawing::Stroke::set_Visible(bool value)
 ```
 
+## See Also
+
+* Class [Stroke](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

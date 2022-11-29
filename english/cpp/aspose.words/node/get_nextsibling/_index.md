@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/node/get_nextsibling/
 ---
-## Node.get_NextSibling method
+## Node::get_NextSibling method
 
 
 Gets the node immediately following this node.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::Node::get_NextSibling()
 
 
 ## Examples
-
 
 
 
@@ -74,3 +73,9 @@ for (SharedPtr<Node> node = doc->get_FirstSection()->get_Body()->get_FirstChild(
 }
 ```
 
+## See Also
+
+* Class [Node](../)
+* Class [Node](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

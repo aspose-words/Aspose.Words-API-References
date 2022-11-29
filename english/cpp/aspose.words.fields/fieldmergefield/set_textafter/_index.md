@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.fields/fieldmergefield/set_textafter/
 ---
-## FieldMergeField.set_TextAfter method
+## FieldMergeField::set_TextAfter method
 
 
 Sets the text to be inserted after the field if the field is not blank.
@@ -15,3 +15,8 @@ Sets the text to be inserted after the field if the field is not blank.
 void Aspose::Words::Fields::FieldMergeField::set_TextAfter(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldMergeField](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.saving/metafilerenderingoptions/get_useemfembeddedtowmf/
 ---
-## MetafileRenderingOptions.get_UseEmfEmbeddedToWmf method
+## MetafileRenderingOptions::get_UseEmfEmbeddedToWmf method
 
 
 Gets or sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered.
@@ -14,6 +14,8 @@ Gets or sets a value determining how WMF metafiles with embedded EMF metafiles s
 ```cpp
 bool Aspose::Words::Saving::MetafileRenderingOptions::get_UseEmfEmbeddedToWmf() const
 ```
+
+## Remarks
 
 
 WMF metafiles could contain embedded EMF data. MS Word in most cases uses embedded EMF data. GDI+ always uses WMF data.
@@ -27,7 +29,6 @@ This option is used only when metafile is rendered as vector graphics. When meta
 The default value is **true**.
 
 ## Examples
-
 
 
 
@@ -55,3 +56,8 @@ saveOptions->get_MetafileRenderingOptions()->set_UseEmfEmbeddedToWmf(true);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.RenderMetafile.pdf", saveOptions);
 ```
 
+## See Also
+
+* Class [MetafileRenderingOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

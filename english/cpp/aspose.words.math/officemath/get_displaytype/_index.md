@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.math/officemath/get_displaytype/
 ---
-## OfficeMath.get_DisplayType method
+## OfficeMath::get_DisplayType method
 
 
 Gets/sets Office [Math](../../) display format type which represents whether an equation is displayed inline with the text or displayed on its own line.
@@ -15,13 +15,14 @@ Gets/sets Office [Math](../../) display format type which represents whether an 
 Aspose::Words::Math::OfficeMathDisplayType Aspose::Words::Math::OfficeMath::get_DisplayType()
 ```
 
+## Remarks
+
 
 Display format type has effect for top level Office [Math](../../) only.
 
-Returned display format type is always **Inline** for nested Office [Math](../../).
+Returned display format type is always [Inline](../../officemathdisplaytype/) for nested Office [Math](../../).
 
 ## Examples
-
 
 
 
@@ -47,3 +48,9 @@ officeMath->set_Justification(OfficeMathJustification::Left);
 doc->Save(ArtifactsDir + u"Shape.OfficeMath.docx");
 ```
 
+## See Also
+
+* Enum [OfficeMathDisplayType](../../officemathdisplaytype/)
+* Class [OfficeMath](../)
+* Namespace [Aspose::Words::Math](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.properties/documentproperty/todatetime/
 ---
-## DocumentProperty.ToDateTime method
+## DocumentProperty::ToDateTime method
 
 
 Returns the property value as DateTime in UTC.
@@ -15,13 +15,14 @@ Returns the property value as DateTime in UTC.
 System::DateTime Aspose::Words::Properties::DocumentProperty::ToDateTime()
 ```
 
+## Remarks
 
-Throws an exception if the property type is not **DateTime**.
+
+Throws an exception if the property type is not [DateTime](../../propertytype/).
 
 Microsoft Word stores only the date part (no time) for custom date properties.
 
 ## Examples
-
 
 
 
@@ -54,3 +55,8 @@ ASSERT_EQ(1, properties->idx_get(u"Authorized Revision")->ToInt());
 ASPOSE_ASSERT_EQ(123.45, properties->idx_get(u"Authorized Amount")->ToDouble());
 ```
 
+## See Also
+
+* Class [DocumentProperty](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

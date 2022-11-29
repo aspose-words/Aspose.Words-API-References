@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.fonts/fontinfocollection/set_savesubsetfonts/
 ---
-## FontInfoCollection.set_SaveSubsetFonts method
+## FontInfoCollection::set_SaveSubsetFonts method
 
 
 Setter for [Aspose::Words::Fonts::FontInfoCollection::get_SaveSubsetFonts](../get_savesubsetfonts/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fonts::FontInfoCollection::get_SaveSubsetFonts](../ge
 void Aspose::Words::Fonts::FontInfoCollection::set_SaveSubsetFonts(bool value)
 ```
 
+## See Also
+
+* Class [FontInfoCollection](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

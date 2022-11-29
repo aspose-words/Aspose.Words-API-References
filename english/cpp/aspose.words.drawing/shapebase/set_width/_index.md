@@ -6,7 +6,7 @@ type: docs
 weight: 1119
 url: /cpp/aspose.words.drawing/shapebase/set_width/
 ---
-## ShapeBase.set_Width method
+## ShapeBase::set_Width method
 
 
 Setter for [Aspose::Words::Drawing::ShapeBase::get_Width](../get_width/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::ShapeBase::get_Width](../get_width/).
 void Aspose::Words::Drawing::ShapeBase::set_Width(double value)
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

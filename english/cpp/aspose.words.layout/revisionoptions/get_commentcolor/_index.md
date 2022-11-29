@@ -6,10 +6,10 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.layout/revisionoptions/get_commentcolor/
 ---
-## RevisionOptions.get_CommentColor method
+## RevisionOptions::get_CommentColor method
 
 
-Allows to specify the color to be used for comments. Default value is **Red**.
+Allows to specify the color to be used for comments. Default value is [Red](../../revisioncolor/).
 
 ```cpp
 Aspose::Words::Layout::RevisionColor Aspose::Words::Layout::RevisionOptions::get_CommentColor() const
@@ -17,7 +17,6 @@ Aspose::Words::Layout::RevisionColor Aspose::Words::Layout::RevisionOptions::get
 
 
 ## Examples
-
 
 
 
@@ -66,3 +65,9 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 doc->Save(ArtifactsDir + u"Revision.RevisionOptions.pdf");
 ```
 
+## See Also
+
+* Enum [RevisionColor](../../revisioncolor/)
+* Class [RevisionOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

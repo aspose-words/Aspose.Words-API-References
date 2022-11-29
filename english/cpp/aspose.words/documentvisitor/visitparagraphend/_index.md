@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/aspose.words/documentvisitor/visitparagraphend/
 ---
-## DocumentVisitor.VisitParagraphEnd method
+## DocumentVisitor::VisitParagraphEnd method
 
 
 Called when enumeration of a paragraph has ended.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitParagr
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -160,3 +158,10 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [Paragraph](../../paragraph/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/font/get_bold/
 ---
-## Font.get_Bold method
+## Font::get_Bold method
 
 
 True if the font is formatted as bold.
@@ -17,7 +17,6 @@ bool Aspose::Words::Font::get_Bold()
 
 
 ## Examples
-
 
 
 
@@ -37,3 +36,8 @@ font->set_Underline(Underline::Dash);
 builder->Write(u"Hello world!");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

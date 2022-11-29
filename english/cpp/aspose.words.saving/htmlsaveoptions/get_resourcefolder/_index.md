@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_resourcefolder/
 ---
-## HtmlSaveOptions.get_ResourceFolder method
+## HtmlSaveOptions::get_ResourceFolder method
 
 
 Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML. Default is an empty string.
@@ -14,6 +14,8 @@ Specifies a physical folder where all resources like images, fonts, and external
 ```cpp
 System::String Aspose::Words::Saving::HtmlSaveOptions::get_ResourceFolder() const
 ```
+
+## Remarks
 
 
 [ResourceFolder](./) is the simplest way to specify a folder where all resources should be written. Another way is to use individual properties [FontsFolder](../get_fontsfolder/), [ImagesFolder](../get_imagesfolder/), and [CssStyleSheetFileName](../get_cssstylesheetfilename/).
@@ -23,7 +25,6 @@ System::String Aspose::Words::Saving::HtmlSaveOptions::get_ResourceFolder() cons
 If the folder specified by [ResourceFolder](./) doesn't exist, it will be created automatically.
 
 ## Examples
-
 
 
 
@@ -47,3 +48,8 @@ options->set_ExportOriginalUrlForLinkedImages(true);
 doc->Save(ArtifactsDir + u"HtmlSaveOptions.FolderAlias.html", options);
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/bookmarkcollection/get_count/
 ---
-## BookmarkCollection.get_Count method
+## BookmarkCollection::get_Count method
 
 
 Returns the number of bookmarks in the collection.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::BookmarkCollection::get_Count()
 
 
 ## Examples
-
 
 
 
@@ -74,3 +73,8 @@ ASSERT_EQ(String(u"Text inside MyBookmark_1.\r") + u"Text inside MyBookmark_2.\r
           doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [BookmarkCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

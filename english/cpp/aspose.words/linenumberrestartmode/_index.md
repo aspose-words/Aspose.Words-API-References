@@ -11,6 +11,10 @@ url: /cpp/aspose.words/linenumberrestartmode/
 
 Determines when automatic line numbering restarts.
 
+```cpp
+enum class LineNumberRestartMode
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ Determines when automatic line numbering restarts.
 
 
 ## Examples
-
 
 
 
@@ -55,3 +58,7 @@ doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(14)->get_Paragrap
 doc->Save(ArtifactsDir + u"PageSetup.LineNumbers.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

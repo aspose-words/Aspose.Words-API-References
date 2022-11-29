@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing.charts/axiscrosses/
 
 Specifies the possible crossing points for an axis.
 
+```cpp
+enum class AxisCrosses
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -22,7 +26,6 @@ Specifies the possible crossing points for an axis.
 
 
 ## Examples
-
 
 
 
@@ -72,3 +75,7 @@ ASSERT_TRUE(chart->get_AxisZ() == nullptr);
 doc->Save(ArtifactsDir + u"Charts.AxisProperties.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing::Charts](../)
+* Library [Aspose.Words](../../)

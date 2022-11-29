@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/documentbase/get_lists/
 ---
-## DocumentBase.get_Lists method
+## DocumentBase::get_Lists method
 
 
 Provides access to the list formatting used in the document.
@@ -15,11 +15,12 @@ Provides access to the list formatting used in the document.
 System::SharedPtr<Aspose::Words::Lists::ListCollection> Aspose::Words::DocumentBase::get_Lists() const
 ```
 
+## Remarks
+
 
 For more information see the description of the [ListCollection](../../../aspose.words.lists/listcollection/) class.
 
 ## Examples
-
 
 
 
@@ -70,3 +71,9 @@ ASSERT_FALSE(builder->get_ListFormat()->get_IsListItem());
 doc->Save(ArtifactsDir + u"Lists.SpecifyListLevel.docx");
 ```
 
+## See Also
+
+* Class [ListCollection](../../../aspose.words.lists/listcollection/)
+* Class [DocumentBase](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

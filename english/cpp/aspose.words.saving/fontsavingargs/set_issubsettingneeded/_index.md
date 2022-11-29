@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.saving/fontsavingargs/set_issubsettingneeded/
 ---
-## FontSavingArgs.set_IsSubsettingNeeded method
+## FontSavingArgs::set_IsSubsettingNeeded method
 
 
 Setter for [Aspose::Words::Saving::FontSavingArgs::get_IsSubsettingNeeded](../get_issubsettingneeded/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::FontSavingArgs::get_IsSubsettingNeeded](../ge
 void Aspose::Words::Saving::FontSavingArgs::set_IsSubsettingNeeded(bool value)
 ```
 
+## See Also
+
+* Class [FontSavingArgs](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

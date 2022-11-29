@@ -6,10 +6,10 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.comparing/compareoptions/get_granularity/
 ---
-## CompareOptions.get_Granularity method
+## CompareOptions::get_Granularity method
 
 
-Specifies whether changes are tracked by character or by word. Default value is **WordLevel**.
+Specifies whether changes are tracked by character or by word. Default value is [WordLevel](../../granularity/).
 
 ```cpp
 Aspose::Words::Comparing::Granularity Aspose::Words::Comparing::CompareOptions::get_Granularity() const
@@ -17,7 +17,6 @@ Aspose::Words::Comparing::Granularity Aspose::Words::Comparing::CompareOptions::
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,9 @@ SharedPtr<RevisionGroupCollection> groups = docA->get_Revisions()->get_Groups();
 ASSERT_EQ(5, groups->get_Count());
 ```
 
+## See Also
+
+* Enum [Granularity](../../granularity/)
+* Class [CompareOptions](../)
+* Namespace [Aspose::Words::Comparing](../../)
+* Library [Aspose.Words](../../../)

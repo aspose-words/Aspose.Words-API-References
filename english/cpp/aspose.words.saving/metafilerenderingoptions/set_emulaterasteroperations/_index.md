@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.saving/metafilerenderingoptions/set_emulaterasteroperations/
 ---
-## MetafileRenderingOptions.set_EmulateRasterOperations method
+## MetafileRenderingOptions::set_EmulateRasterOperations method
 
 
 Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_EmulateRasterOperations](../get_emulaterasteroperations/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_EmulateRasterOp
 void Aspose::Words::Saving::MetafileRenderingOptions::set_EmulateRasterOperations(bool value)
 ```
 
+## See Also
+
+* Class [MetafileRenderingOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -29,7 +29,6 @@ class FieldFormat : public System::Object
 
 
 
-
 Shows how to format field results. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -92,3 +91,7 @@ ASSERT_EQ(u"58", field->get_Result());
 ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

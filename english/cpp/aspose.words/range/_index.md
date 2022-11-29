@@ -33,6 +33,8 @@ class Range : public System::Object
 | [ToDocument](./todocument/)() | Constructs a new fully formed document that contains the range. |
 | [UnlinkFields](./unlinkfields/)() | Unlinks fields in this range. |
 | [UpdateFields](./updatefields/)() | Updates the values of document fields in this range. |
+## Remarks
+
 
 The document is represented by a tree of nodes and the nodes provide operations to work with the tree, but some operations are easier to perform if the document is treated as a contiguous sequence of text.
 
@@ -41,7 +43,6 @@ The document is represented by a tree of nodes and the nodes provide operations 
 **Range** does not contain any text or nodes, it is merely a view or "window" over a fragment of a document.
 
 ## Examples
-
 
 
 
@@ -55,3 +56,7 @@ builder->Write(u"Hello world!");
 ASSERT_EQ(u"Hello world!", doc->get_Range()->get_Text().Trim());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

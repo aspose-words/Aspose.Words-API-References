@@ -25,7 +25,7 @@ class FindReplaceOptions : public System::Object
 | [FindReplaceOptions](./findreplaceoptions/)(Aspose::Words::Replacing::FindReplaceDirection, const System::SharedPtr\<Aspose::Words::Replacing::IReplacingCallback\>\&) |  |
 | [get_ApplyFont](./get_applyfont/)() const | Text formatting applied to new content. |
 | [get_ApplyParagraphFormat](./get_applyparagraphformat/)() const | [Paragraph](../../aspose.words/paragraph/) formatting applied to new content. |
-| [get_Direction](./get_direction/)() const | Selects direction for replace. Default value is **Forward**. |
+| [get_Direction](./get_direction/)() const | Selects direction for replace. Default value is [Forward](../findreplacedirection/). |
 | [get_FindWholeWordsOnly](./get_findwholewordsonly/)() const | True indicates the oldValue must be a standalone word. |
 | [get_IgnoreDeleted](./get_ignoredeleted/)() const | Gets or sets a boolean value indicating either to ignore text inside delete revisions. The default value is **false**. |
 | [get_IgnoreFieldCodes](./get_ignorefieldcodes/)() const | Gets or sets a boolean value indicating either to ignore text inside field codes. The default value is **false**. |
@@ -55,7 +55,6 @@ class FindReplaceOptions : public System::Object
 | [set_UseSubstitutions](./set_usesubstitutions/)(bool) | Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_UseSubstitutions](./get_usesubstitutions/). |
 
 ## Examples
-
 
 
 
@@ -98,3 +97,7 @@ doc->get_Range()->Replace(u"Jackson", u"Louis", options);
 ASSERT_EQ(findWholeWordsOnly ? String(u"Louis will meet you in Jacksonville.") : String(u"Louis will meet you in Louisville."), doc->GetText().Trim());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Replacing](../)
+* Library [Aspose.Words](../../)

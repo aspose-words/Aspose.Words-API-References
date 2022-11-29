@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.lists/listlevelcollection/getenumerator/
 ---
-## ListLevelCollection.GetEnumerator method
+## ListLevelCollection::GetEnumerator method
 
 
 Gets the enumerator object that will enumerate levels in this list.
@@ -17,7 +17,6 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 
 ## Examples
-
 
 
 
@@ -81,3 +80,9 @@ builder->get_ListFormat()->RemoveNumbers();
 doc->Save(ArtifactsDir + u"Lists.CreateListRestartAfterHigher.docx");
 ```
 
+## See Also
+
+* Class [ListLevel](../../listlevel/)
+* Class [ListLevelCollection](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

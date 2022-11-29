@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.drawing/imagesize/get_widthpixels/
 ---
-## ImageSize.get_WidthPixels method
+## ImageSize::get_WidthPixels method
 
 
 Gets the width of the image in pixels.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Drawing::ImageSize::get_WidthPixels() const
 
 
 ## Examples
-
 
 
 
@@ -48,3 +47,8 @@ shape->set_Height(imageSize->get_HeightPoints() * 2);
 doc->Save(ArtifactsDir + u"Drawing.ImageSize.docx");
 ```
 
+## See Also
+
+* Class [ImageSize](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

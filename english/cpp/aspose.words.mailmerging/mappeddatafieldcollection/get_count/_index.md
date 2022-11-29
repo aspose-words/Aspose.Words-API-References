@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/get_count/
 ---
-## MappedDataFieldCollection.get_Count method
+## MappedDataFieldCollection::get_Count method
 
 
 Gets the number of elements contained in the collection.
@@ -15,3 +15,8 @@ Gets the number of elements contained in the collection.
 int32_t Aspose::Words::MailMerging::MappedDataFieldCollection::get_Count()
 ```
 
+## See Also
+
+* Class [MappedDataFieldCollection](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

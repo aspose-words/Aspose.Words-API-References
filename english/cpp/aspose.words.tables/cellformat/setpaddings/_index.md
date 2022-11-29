@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.words.tables/cellformat/setpaddings/
 ---
-## CellFormat.SetPaddings method
+## CellFormat::SetPaddings method
 
 
 Sets the amount of space (in points) to add to the left/top/right/bottom of the contents of cell.
@@ -17,7 +17,6 @@ void Aspose::Words::Tables::CellFormat::SetPaddings(double leftPadding, double t
 
 
 ## Examples
-
 
 
 
@@ -39,3 +38,8 @@ builder->Write(String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 doc->Save(ArtifactsDir + u"CellFormat.Padding.docx");
 ```
 
+## See Also
+
+* Class [CellFormat](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

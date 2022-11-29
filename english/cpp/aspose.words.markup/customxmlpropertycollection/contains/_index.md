@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.markup/customxmlpropertycollection/contains/
 ---
-## CustomXmlPropertyCollection.Contains method
+## CustomXmlPropertyCollection::Contains method
 
 
 Determines whether the collection contains a property with the given name.
@@ -22,11 +22,9 @@ bool Aspose::Words::Markup::CustomXmlPropertyCollection::Contains(const System::
 
 ### ReturnValue
 
-
 True if the item is found in the collection; otherwise, false.
 
 ## Examples
-
 
 
 
@@ -81,3 +79,8 @@ properties->Clear();
 ASSERT_EQ(0, properties->get_Count());
 ```
 
+## See Also
+
+* Class [CustomXmlPropertyCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

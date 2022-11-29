@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/controlchar/columnbreak/
 ---
-## ControlChar.ColumnBreak method
+## ControlChar::ColumnBreak method
 
 
 End of column character: "\x000e".
@@ -17,7 +17,6 @@ static System::String & Aspose::Words::ControlChar::ColumnBreak()
 
 
 ## Examples
-
 
 
 
@@ -87,3 +86,8 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::PageBreak()), ControlChar:
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlChar::ColumnBreakChar);
 ```
 
+## See Also
+
+* Class [ControlChar](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

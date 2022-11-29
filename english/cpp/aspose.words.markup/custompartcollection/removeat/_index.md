@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.markup/custompartcollection/removeat/
 ---
-## CustomPartCollection.RemoveAt method
+## CustomPartCollection::RemoveAt method
 
 
 Removes an item at the specified index.
@@ -21,7 +21,6 @@ void Aspose::Words::Markup::CustomPartCollection::RemoveAt(int32_t index)
 | index | int32_t | The zero based index. |
 
 ## Examples
-
 
 
 
@@ -65,3 +64,8 @@ doc->get_PackageCustomParts()->Clear();
 ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
 ```
 
+## See Also
+
+* Class [CustomPartCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

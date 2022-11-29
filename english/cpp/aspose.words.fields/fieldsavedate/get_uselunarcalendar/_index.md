@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldsavedate/get_uselunarcalendar/
 ---
-## FieldSaveDate.get_UseLunarCalendar method
+## FieldSaveDate::get_UseLunarCalendar method
 
 
 Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldSaveDate::get_UseLunarCalendar()
 
 
 ## Examples
-
 
 
 
@@ -61,3 +60,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.SAVEDATE.docx");
 ```
 
+## See Also
+
+* Class [FieldSaveDate](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

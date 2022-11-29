@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.fields/fieldtoc/set_bookmarkname/
 ---
-## FieldToc.set_BookmarkName method
+## FieldToc::set_BookmarkName method
 
 
 Setter for [Aspose::Words::Fields::FieldToc::get_BookmarkName](../get_bookmarkname/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldToc::get_BookmarkName](../get_bookmarkna
 void Aspose::Words::Fields::FieldToc::set_BookmarkName(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldToc](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

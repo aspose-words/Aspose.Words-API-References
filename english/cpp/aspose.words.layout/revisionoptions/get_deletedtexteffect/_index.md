@@ -6,10 +6,10 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.layout/revisionoptions/get_deletedtexteffect/
 ---
-## RevisionOptions.get_DeletedTextEffect method
+## RevisionOptions::get_DeletedTextEffect method
 
 
-Allows to specify the effect to be applied to the deleted content **Deletion**. Default value is **StrikeThrough**
+Allows to specify the effect to be applied to the deleted content [Deletion](../../../aspose.words/revisiontype/). Default value is [StrikeThrough](../../revisiontexteffect/)
 
 ```cpp
 Aspose::Words::Layout::RevisionTextEffect Aspose::Words::Layout::RevisionOptions::get_DeletedTextEffect()
@@ -17,7 +17,6 @@ Aspose::Words::Layout::RevisionTextEffect Aspose::Words::Layout::RevisionOptions
 
 
 ## Examples
-
 
 
 
@@ -66,3 +65,9 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 doc->Save(ArtifactsDir + u"Revision.RevisionOptions.pdf");
 ```
 
+## See Also
+
+* Enum [RevisionTextEffect](../../revisiontexteffect/)
+* Class [RevisionOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

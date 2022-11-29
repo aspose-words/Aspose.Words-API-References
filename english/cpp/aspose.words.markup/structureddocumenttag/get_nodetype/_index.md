@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.words.markup/structureddocumenttag/get_nodetype/
 ---
-## StructuredDocumentTag.get_NodeType method
+## StructuredDocumentTag::get_NodeType method
 
 
 Returns **NodeType.StructuredDocumentTag**.
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::Markup::StructuredDocumentTag::get_NodeTy
 
 
 ## Examples
-
 
 
 
@@ -52,3 +51,9 @@ for (const auto& node : System::IterateOver(tags))
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../../aspose.words/nodetype/)
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

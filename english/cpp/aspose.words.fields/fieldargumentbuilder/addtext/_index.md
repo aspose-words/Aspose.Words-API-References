@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fieldargumentbuilder/addtext/
 ---
-## FieldArgumentBuilder.AddText method
+## FieldArgumentBuilder::AddText method
 
 
 Adds a plain text to the argument.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Fields::FieldArgumentBuilder> Aspose::Words::Fi
 
 
 ## Examples
-
 
 
 
@@ -99,3 +98,9 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 ```
 
+## See Also
+
+* Class [FieldArgumentBuilder](../)
+* Class [FieldArgumentBuilder](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

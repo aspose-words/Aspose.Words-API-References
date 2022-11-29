@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/icomparisonexpressionevaluator/evaluate/
 ---
-## IComparisonExpressionEvaluator.Evaluate method
+## IComparisonExpressionEvaluator::Evaluate method
 
 
 Evaluates comparison expression.
@@ -15,3 +15,11 @@ Evaluates comparison expression.
 virtual System::SharedPtr<Aspose::Words::Fields::ComparisonEvaluationResult> Aspose::Words::Fields::IComparisonExpressionEvaluator::Evaluate(System::SharedPtr<Aspose::Words::Fields::Field> field, System::SharedPtr<Aspose::Words::Fields::ComparisonExpression> expression)=0
 ```
 
+## See Also
+
+* Class [ComparisonEvaluationResult](../../comparisonevaluationresult/)
+* Class [Field](../../field/)
+* Class [ComparisonExpression](../../comparisonexpression/)
+* Interface [IComparisonExpressionEvaluator](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

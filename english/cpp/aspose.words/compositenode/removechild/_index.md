@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words/compositenode/removechild/
 ---
-## CompositeNode.RemoveChild method
+## CompositeNode::RemoveChild method
 
 
 Removes the specified child node.
@@ -22,13 +22,13 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::CompositeNode::RemoveChild
 
 ### ReturnValue
 
-
 The removed node.
+## Remarks
+
 
 The parent of oldChild is set to null after the node is removed.
 
 ## Examples
-
 
 
 
@@ -55,3 +55,9 @@ if (lastSection->get_PreviousSibling() != nullptr)
 ASSERT_EQ(u"Section 2 text.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Node](../../node/)
+* Class [CompositeNode](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

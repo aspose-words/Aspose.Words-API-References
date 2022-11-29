@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.lists/list/get_document/
 ---
-## List.get_Document method
+## List::get_Document method
 
 
 Gets the owner document.
@@ -15,11 +15,12 @@ Gets the owner document.
 System::SharedPtr<Aspose::Words::DocumentBase> Aspose::Words::Lists::List::get_Document() const
 ```
 
+## Remarks
+
 
 A list always has a parent document and is valid only in the context of that document.
 
 ## Examples
-
 
 
 
@@ -41,3 +42,9 @@ std::cout << (String(u"ListId: ") + list->get_ListId()) << std::endl;
 std::cout << (String(u"List is the same by ListId: ") + (System::ObjectExt::Equals(lists->GetListByListId(1), list))) << std::endl;
 ```
 
+## See Also
+
+* Class [DocumentBase](../../../aspose.words/documentbase/)
+* Class [List](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

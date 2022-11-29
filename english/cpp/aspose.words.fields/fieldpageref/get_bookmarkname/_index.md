@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldpageref/get_bookmarkname/
 ---
-## FieldPageRef.get_BookmarkName method
+## FieldPageRef::get_BookmarkName method
 
 
 Gets or sets the name of the bookmark.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldPageRef::get_BookmarkName()
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,8 @@ static void InsertAndNameBookmark(SharedPtr<DocumentBuilder> builder, String boo
 }
 ```
 
+## See Also
+
+* Class [FieldPageRef](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

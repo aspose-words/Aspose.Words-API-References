@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_showvalue/
 ---
-## ChartDataLabelCollection.get_ShowValue method
+## ChartDataLabelCollection::get_ShowValue method
 
 
 Allows to specify whether values are to be displayed in the data labels of the entire series. Default value is **false**.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowValue()
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,8 @@ dataLabels->set_Separator(u"; ");
 doc->Save(ArtifactsDir + u"Charts.DataLabelsPieChart.docx");
 ```
 
+## See Also
+
+* Class [ChartDataLabelCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

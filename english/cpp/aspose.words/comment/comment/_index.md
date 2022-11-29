@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/comment/comment/
 ---
-## Comment.Comment(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&) method
+## Comment::Comment(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&) constructor
 
 
 Initializes a new instance of the **Comment** class.
@@ -19,6 +19,8 @@ Aspose::Words::Comment::Comment(const System::SharedPtr<Aspose::Words::DocumentB
 | Parameter | Type | Description |
 | --- | --- | --- |
 | doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
+## Remarks
+
 
 When **Comment** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
@@ -27,7 +29,6 @@ To append **Comment** to the document use InsertAfter or InsertBefore on the par
 After creating a comment, don't forget to set its [Author](../get_author/), [Initial](../get_initial/) and [DateTime](../get_datetime/) properties.
 
 ## Examples
-
 
 
 
@@ -168,7 +169,13 @@ private:
 };
 ```
 
-## Comment.Comment(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::String\&, const System::String\&, System::DateTime) method
+## See Also
+
+* Class [DocumentBase](../../documentbase/)
+* Class [Comment](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Comment::Comment(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::String\&, const System::String\&, System::DateTime) constructor
 
 
 Initializes a new instance of the **Comment** class.
@@ -189,7 +196,6 @@ Aspose::Words::Comment::Comment(const System::SharedPtr<Aspose::Words::DocumentB
 
 
 
-
 Shows how to add a comment to a paragraph. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -207,3 +213,9 @@ ASSERT_EQ(System::DateTime::get_Today(), comment->get_DateTime());
 doc->Save(ArtifactsDir + u"InlineStory.AddComment.docx");
 ```
 
+## See Also
+
+* Class [DocumentBase](../../documentbase/)
+* Class [Comment](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

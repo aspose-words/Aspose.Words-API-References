@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/inline/get_font/
 ---
-## Inline.get_Font method
+## Inline::get_Font method
 
 
 Provides access to the font formatting of this object.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Font> Aspose::Words::Inline::get_Font()
 
 
 ## Examples
-
 
 
 
@@ -65,3 +64,9 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 ```
 
+## See Also
+
+* Class [Font](../../font/)
+* Class [Inline](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/editablerangestart/get_id/
 ---
-## EditableRangeStart.get_Id method
+## EditableRangeStart::get_Id method
 
 
 Specifies the identifier of the editable range.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::EditableRangeStart::get_Id() const
 
 
 ## Examples
-
 
 
 
@@ -61,3 +60,8 @@ doc->Save(ArtifactsDir + u"EditableRange.CreateAndRemove.docx");
 editableRange->Remove();
 ```
 
+## See Also
+
+* Class [EditableRangeStart](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

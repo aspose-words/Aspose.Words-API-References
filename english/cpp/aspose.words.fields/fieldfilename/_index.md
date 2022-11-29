@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldfilename/
 Implements the FILENAME field.
 
 ```cpp
-class FieldFileName : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldFileName : public Aspose::Words::Fields::Field,
+                      public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -43,13 +44,14 @@ class FieldFileName : public Aspose::Words::Fields::Field, public Aspose::Words:
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
+## Remarks
+
 
 Retrieves the name of the current document from its storage location.
 
 In the current implementation, uses the [OriginalFileName](../../aspose.words/document/get_originalfilename/) property to retrieve the file name. If the document was loaded from a stream or created blank, uses the name of the file that is being saved to (if known).
 
 ## Examples
-
 
 
 
@@ -90,3 +92,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + doc->get_FieldOptions()->get_FileName());
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

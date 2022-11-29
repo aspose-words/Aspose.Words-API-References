@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.saving/csssavingargs/set_isexportneeded/
 ---
-## CssSavingArgs.set_IsExportNeeded method
+## CssSavingArgs::set_IsExportNeeded method
 
 
 Setter for [Aspose::Words::Saving::CssSavingArgs::get_IsExportNeeded](../get_isexportneeded/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::CssSavingArgs::get_IsExportNeeded](../get_ise
 void Aspose::Words::Saving::CssSavingArgs::set_IsExportNeeded(bool value)
 ```
 
+## See Also
+
+* Class [CssSavingArgs](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -15,3 +15,8 @@ url: /cpp/aspose.words/warninginfocollection/iterator/
 using Aspose::Words::WarningInfoCollection::iterator =  typename iterator_holder_type::iterator
 ```
 
+## See Also
+
+* Class [WarningInfoCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -11,6 +11,10 @@ url: /cpp/aspose.words/nodechangingaction/
 
 Specifies the type of node change.
 
+```cpp
+enum class NodeChangingAction
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,7 +24,6 @@ Specifies the type of node change.
 
 
 ## Examples
-
 
 
 
@@ -88,3 +91,7 @@ private:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

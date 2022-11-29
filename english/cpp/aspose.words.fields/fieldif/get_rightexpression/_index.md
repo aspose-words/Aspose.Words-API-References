@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fields/fieldif/get_rightexpression/
 ---
-## FieldIf.get_RightExpression method
+## FieldIf::get_RightExpression method
 
 
 Gets or sets the right part of the comparison expression.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldIf::get_RightExpression()
 
 
 ## Examples
-
 
 
 
@@ -61,3 +60,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.IF.docx");
 ```
 
+## See Also
+
+* Class [FieldIf](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

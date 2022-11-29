@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.tables/cellformat/set_bottompadding/
 ---
-## CellFormat.set_BottomPadding method
+## CellFormat::set_BottomPadding method
 
 
 Setter for [Aspose::Words::Tables::CellFormat::get_BottomPadding](../get_bottompadding/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Tables::CellFormat::get_BottomPadding](../get_bottomp
 void Aspose::Words::Tables::CellFormat::set_BottomPadding(double value)
 ```
 
+## See Also
+
+* Class [CellFormat](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

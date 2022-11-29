@@ -6,7 +6,7 @@ type: docs
 weight: 1054
 url: /cpp/aspose.words.drawing/shapebase/set_screentip/
 ---
-## ShapeBase.set_ScreenTip method
+## ShapeBase::set_ScreenTip method
 
 
 Setter for [Aspose::Words::Drawing::ShapeBase::get_ScreenTip](../get_screentip/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::ShapeBase::get_ScreenTip](../get_screentip/)
 void Aspose::Words::Drawing::ShapeBase::set_ScreenTip(const System::String &value)
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

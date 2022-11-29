@@ -11,6 +11,10 @@ url: /cpp/aspose.words/breaktype/
 
 Specifies type of a break inside a document.
 
+```cpp
+enum class BreakType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -27,7 +31,6 @@ Specifies type of a break inside a document.
 
 
 ## Examples
-
 
 
 
@@ -134,3 +137,7 @@ builder->Writeln(u"This is the second section, which is in default Letter paper 
 doc->Save(ArtifactsDir + u"PageSetup.ClearFormatting.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

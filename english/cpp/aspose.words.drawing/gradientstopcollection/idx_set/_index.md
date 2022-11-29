@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.drawing/gradientstopcollection/idx_set/
 ---
-## GradientStopCollection.idx_set method
+## GradientStopCollection::idx_set method
 
 
 Gets or sets a [GradientStop](../../gradientstop/) object in the collection.
@@ -17,7 +17,6 @@ void Aspose::Words::Drawing::GradientStopCollection::idx_set(int32_t index, cons
 
 
 ## Examples
-
 
 
 
@@ -69,3 +68,9 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 doc->Save(ArtifactsDir + u"Shape.GradientStops.docx", saveOptions);
 ```
 
+## See Also
+
+* Class [GradientStop](../../gradientstop/)
+* Class [GradientStopCollection](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

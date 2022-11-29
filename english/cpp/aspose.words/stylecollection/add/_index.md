@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/stylecollection/add/
 ---
-## StyleCollection.Add method
+## StyleCollection::Add method
 
 
 Creates a new user defined style and adds it the collection.
@@ -20,6 +20,8 @@ System::SharedPtr<Aspose::Words::Style> Aspose::Words::StyleCollection::Add(Aspo
 | --- | --- | --- |
 | type | Aspose::Words::StyleType | A [StyleType](../../styletype/) value that specifies the type of the style to create. |
 | name | const System::String\& | Case sensitive name of the style to create. |
+## Remarks
+
 
 You can create character, paragraph or a list style.
 
@@ -28,7 +30,6 @@ When creating a list style, the style is created with default numbered list form
 Throws an exception if a style with this name already exists.
 
 ## Examples
-
 
 
 
@@ -107,3 +108,10 @@ ASSERT_EQ(u"Courier New", styles->idx_get(4)->get_Font()->get_Name());
 ASPOSE_ASSERT_EQ(15.0, styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_FirstLineIndent());
 ```
 
+## See Also
+
+* Class [Style](../../style/)
+* Enum [StyleType](../../styletype/)
+* Class [StyleCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

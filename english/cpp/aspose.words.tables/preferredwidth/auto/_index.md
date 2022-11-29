@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.tables/preferredwidth/auto/
 ---
-## PreferredWidth.Auto method
+## PreferredWidth::Auto method
 
 
 Returns an instance that represents the "preferred width is not specified" value.
@@ -17,7 +17,6 @@ static System::SharedPtr<Aspose::Words::Tables::PreferredWidth> & Aspose::Words:
 
 
 ## Examples
-
 
 
 
@@ -55,3 +54,9 @@ builder->Writeln(u"Automatically sized cell.");
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ```
 
+## See Also
+
+* Class [PreferredWidth](../)
+* Class [PreferredWidth](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

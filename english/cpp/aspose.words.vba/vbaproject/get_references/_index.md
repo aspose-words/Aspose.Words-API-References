@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.vba/vbaproject/get_references/
 ---
-## VbaProject.get_References method
+## VbaProject::get_References method
 
 
 Gets a collection of VBA project references.
@@ -15,3 +15,9 @@ Gets a collection of VBA project references.
 System::SharedPtr<Aspose::Words::Vba::VbaReferenceCollection> Aspose::Words::Vba::VbaProject::get_References()
 ```
 
+## See Also
+
+* Class [VbaReferenceCollection](../../vbareferencecollection/)
+* Class [VbaProject](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

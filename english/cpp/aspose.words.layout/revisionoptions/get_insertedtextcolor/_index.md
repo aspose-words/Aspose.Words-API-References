@@ -6,10 +6,10 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.layout/revisionoptions/get_insertedtextcolor/
 ---
-## RevisionOptions.get_InsertedTextColor method
+## RevisionOptions::get_InsertedTextColor method
 
 
-Allows to specify the color to be used for inserted content **Insertion**. Default value is **ByAuthor**.
+Allows to specify the color to be used for inserted content [Insertion](../../../aspose.words/revisiontype/). Default value is [ByAuthor](../../revisioncolor/).
 
 ```cpp
 Aspose::Words::Layout::RevisionColor Aspose::Words::Layout::RevisionOptions::get_InsertedTextColor()
@@ -17,7 +17,6 @@ Aspose::Words::Layout::RevisionColor Aspose::Words::Layout::RevisionOptions::get
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,9 @@ doc->get_LayoutOptions()->get_RevisionOptions()->set_ShowRevisionBars(false);
 doc->Save(ArtifactsDir + u"Document.LayoutOptionsRevisions.pdf");
 ```
 
+## See Also
+
+* Enum [RevisionColor](../../revisioncolor/)
+* Class [RevisionOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

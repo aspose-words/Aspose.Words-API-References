@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fields/generalformatcollection/remove/
 ---
-## GeneralFormatCollection.Remove method
+## GeneralFormatCollection::Remove method
 
 
 Removes all occurrences of the specified general format from the collection.
@@ -21,7 +21,6 @@ void Aspose::Words::Fields::GeneralFormatCollection::Remove(Aspose::Words::Field
 | item | Aspose::Words::Fields::GeneralFormat | A general format. |
 
 ## Examples
-
 
 
 
@@ -87,3 +86,9 @@ ASSERT_EQ(u"58", field->get_Result());
 ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 ```
 
+## See Also
+
+* Enum [GeneralFormat](../../generalformat/)
+* Class [GeneralFormatCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

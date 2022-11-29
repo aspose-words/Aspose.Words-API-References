@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words/node/remove/
 ---
-## Node.Remove method
+## Node::Remove method
 
 
 Removes itself from the parent.
@@ -17,7 +17,6 @@ void Aspose::Words::Node::Remove()
 
 
 ## Examples
-
 
 
 
@@ -66,3 +65,8 @@ while (curNode != nullptr)
 ASSERT_EQ(0, doc->GetChildNodes(NodeType::Table, true)->get_Count());
 ```
 
+## See Also
+
+* Class [Node](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 521
 url: /cpp/aspose.words.drawing/shapebase/get_relativehorizontalposition/
 ---
-## ShapeBase.get_RelativeHorizontalPosition method
+## ShapeBase::get_RelativeHorizontalPosition method
 
 
 Specifies relative to what the shape is positioned horizontally.
@@ -15,13 +15,14 @@ Specifies relative to what the shape is positioned horizontally.
 Aspose::Words::Drawing::RelativeHorizontalPosition Aspose::Words::Drawing::ShapeBase::get_RelativeHorizontalPosition()
 ```
 
+## Remarks
 
-The default value is **Column**.
+
+The default value is [Column](../../relativehorizontalposition/).
 
 Has effect only for top level floating shapes.
 
 ## Examples
-
 
 
 
@@ -42,3 +43,9 @@ shape->set_VerticalAlignment(VerticalAlignment::Center);
 doc->Save(ArtifactsDir + u"Image.CreateFloatingPageCenter.docx");
 ```
 
+## See Also
+
+* Enum [RelativeHorizontalPosition](../../relativehorizontalposition/)
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

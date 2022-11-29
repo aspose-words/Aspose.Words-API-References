@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fields/fieldref/get_insertparagraphnumber/
 ---
-## FieldRef.get_InsertParagraphNumber method
+## FieldRef::get_InsertParagraphNumber method
 
 
 Gets or sets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldRef::get_InsertParagraphNumber()
 
 
 ## Examples
-
 
 
 
@@ -102,3 +101,8 @@ static SharedPtr<FieldRef> InsertFieldRef(SharedPtr<DocumentBuilder> builder, St
 }
 ```
 
+## See Also
+
+* Class [FieldRef](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

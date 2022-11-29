@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words/documentbuilder/endtable/
 ---
-## DocumentBuilder.EndTable method
+## DocumentBuilder::EndTable method
 
 
 Ends a table in the document.
@@ -18,13 +18,13 @@ System::SharedPtr<Aspose::Words::Tables::Table> Aspose::Words::DocumentBuilder::
 
 ### ReturnValue
 
-
 The table node that was just finished.
+## Remarks
+
 
 This method should be called only once after [EndRow](../endrow/) was called. When called, **EndTable** moves the cursor out of the current cell to point just after the table.
 
 ## Examples
-
 
 
 
@@ -171,3 +171,9 @@ ASPOSE_ASSERT_EQ(30.0, table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellF
 doc->Save(ArtifactsDir + u"DocumentBuilder.SetCellFormatting.docx");
 ```
 
+## See Also
+
+* Class [Table](../../../aspose.words.tables/table/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

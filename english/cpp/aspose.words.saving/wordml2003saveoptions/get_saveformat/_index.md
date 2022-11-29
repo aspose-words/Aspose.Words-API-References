@@ -6,10 +6,10 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/wordml2003saveoptions/get_saveformat/
 ---
-## WordML2003SaveOptions.get_SaveFormat method
+## WordML2003SaveOptions::get_SaveFormat method
 
 
-Specifies the format in which the document will be saved if this save options object is used. Can only be **WordML**.
+Specifies the format in which the document will be saved if this save options object is used. Can only be [WordML](../../../aspose.words/saveformat/).
 
 ```cpp
 Aspose::Words::SaveFormat Aspose::Words::Saving::WordML2003SaveOptions::get_SaveFormat() override
@@ -17,7 +17,6 @@ Aspose::Words::SaveFormat Aspose::Words::Saving::WordML2003SaveOptions::get_Save
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,9 @@ else
 }
 ```
 
+## See Also
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [WordML2003SaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

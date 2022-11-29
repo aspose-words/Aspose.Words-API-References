@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.drawing/shapebase/get_boundsinpoints/
 ---
-## ShapeBase.get_BoundsInPoints method
+## ShapeBase::get_BoundsInPoints method
 
 
 Gets the location and size of the containing block of the shape in points, relative to the anchor of the topmost shape.
@@ -17,7 +17,6 @@ System::Drawing::RectangleF Aspose::Words::Drawing::ShapeBase::get_BoundsInPoint
 
 
 ## Examples
-
 
 
 
@@ -78,3 +77,8 @@ ASPOSE_ASSERT_EQ(System::Drawing::RectangleF(250.0f, 350.0f, 25.0f, 25.0f), shap
 doc->Save(ArtifactsDir + u"Shape.Bounds.docx");
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

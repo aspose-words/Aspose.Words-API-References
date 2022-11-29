@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_company/
 ---
-## BuiltInDocumentProperties.get_Company method
+## BuiltInDocumentProperties::get_Company method
 
 
 Gets or sets the company property.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Properties::BuiltInDocumentProperties::get_Company
 
 
 ## Examples
-
 
 
 
@@ -51,3 +50,8 @@ properties->set_LastSavedTime(System::DateTime::get_Now());
 doc->Save(ArtifactsDir + u"DocumentProperties.Origin.docx");
 ```
 
+## See Also
+
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.mailmerging/mailmerge/get_trimwhitespaces/
 ---
-## MailMerge.get_TrimWhitespaces method
+## MailMerge::get_TrimWhitespaces method
 
 
 Gets or sets a value indicating whether trailing and leading whitespaces are trimmed from mail merge values.
@@ -17,7 +17,6 @@ bool Aspose::Words::MailMerging::MailMerge::get_TrimWhitespaces() const
 
 
 ## Examples
-
 
 
 
@@ -35,3 +34,8 @@ doc->get_MailMerge()->Execute(MakeArray<String>({u"myMergeField"}),
 ASSERT_EQ(trimWhitespaces ? String(u"hello world!\f") : String(u"\t hello world! \f"), doc->GetText());
 ```
 
+## See Also
+
+* Class [MailMerge](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

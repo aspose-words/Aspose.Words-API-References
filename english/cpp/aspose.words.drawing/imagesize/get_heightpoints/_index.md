@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.drawing/imagesize/get_heightpoints/
 ---
-## ImageSize.get_HeightPoints method
+## ImageSize::get_HeightPoints method
 
 
 Gets the height of the image in points. 1 point is 1/72 inch.
@@ -17,7 +17,6 @@ double Aspose::Words::Drawing::ImageSize::get_HeightPoints()
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,8 @@ ASPOSE_ASSERT_EQ(330.0, shape->get_Height());
 doc->Save(ArtifactsDir + u"Image.ScaleImage.docx");
 ```
 
+## See Also
+
+* Class [ImageSize](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

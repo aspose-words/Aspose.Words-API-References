@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fonts/streamfontsource/openfontdatastream/
 ---
-## StreamFontSource.OpenFontDataStream method
+## StreamFontSource::OpenFontDataStream method
 
 
 This method should open the stream with font data on demand.
@@ -18,11 +18,9 @@ virtual System::SharedPtr<System::IO::Stream> Aspose::Words::Fonts::StreamFontSo
 
 ### ReturnValue
 
-
 [Font](../../../aspose.words/font/) data stream.
 
 ## Examples
-
 
 
 
@@ -56,3 +54,8 @@ protected:
 };
 ```
 
+## See Also
+
+* Class [StreamFontSource](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

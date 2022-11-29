@@ -9,7 +9,7 @@ url: /cpp/aspose.words/bookmark/
 ## Bookmark class
 
 
-Represents a single bookmark. To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/net/working-with-bookmarks/) documentation article.
+Represents a single bookmark. To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/cpp/working-with-bookmarks/) documentation article.
 
 ```cpp
 class Bookmark : public System::Object
@@ -29,11 +29,12 @@ class Bookmark : public System::Object
 | [Remove](./remove/)() | Removes the bookmark from the document. Does not remove text inside the bookmark. |
 | [set_Name](./set_name/)(const System::String\&) | Setter for [Aspose::Words::Bookmark::get_Name](./get_name/). |
 | [set_Text](./set_text/)(const System::String\&) | Setter for [Aspose::Words::Bookmark::get_Text](./get_text/). |
+## Remarks
+
 
 [Bookmark](./) is a "facade" object that encapsulates two nodes [BookmarkStart](./get_bookmarkstart/) and [BookmarkEnd](./get_bookmarkend/) in a document tree and allows to work with a bookmark as a single object.
 
 ## Examples
-
 
 
 
@@ -114,3 +115,7 @@ public:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1119
 url: /cpp/aspose.words/font/set_smallcaps/
 ---
-## Font.set_SmallCaps method
+## Font::set_SmallCaps method
 
 
 Setter for [Aspose::Words::Font::get_SmallCaps](../get_smallcaps/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Font::get_SmallCaps](../get_smallcaps/).
 void Aspose::Words::Font::set_SmallCaps(bool value)
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

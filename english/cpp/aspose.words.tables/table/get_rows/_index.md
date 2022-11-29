@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/aspose.words.tables/table/get_rows/
 ---
-## Table.get_Rows method
+## Table::get_Rows method
 
 
 Provides typed access to the rows of the table.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Tables::RowCollection> Aspose::Words::Tables::T
 
 
 ## Examples
-
 
 
 
@@ -85,3 +84,9 @@ secondTable->Remove();
 doc->Save(ArtifactsDir + u"Table.CombineTables.docx");
 ```
 
+## See Also
+
+* Class [RowCollection](../../rowcollection/)
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

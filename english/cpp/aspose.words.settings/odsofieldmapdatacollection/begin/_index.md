@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.settings/odsofieldmapdatacollection/begin/
 ---
-## OdsoFieldMapDataCollection.begin() const method
+## OdsoFieldMapDataCollection::begin() const method
 
 
 
@@ -15,7 +15,13 @@ url: /cpp/aspose.words.settings/odsofieldmapdatacollection/begin/
 const_iterator Aspose::Words::Settings::OdsoFieldMapDataCollection::begin() const noexcept
 ```
 
-## OdsoFieldMapDataCollection.begin() method
+## See Also
+
+* Typedef [const_iterator](../const_iterator/)
+* Class [OdsoFieldMapDataCollection](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)
+## OdsoFieldMapDataCollection::begin() method
 
 
 
@@ -24,3 +30,9 @@ const_iterator Aspose::Words::Settings::OdsoFieldMapDataCollection::begin() cons
 iterator Aspose::Words::Settings::OdsoFieldMapDataCollection::begin() noexcept
 ```
 
+## See Also
+
+* Typedef [iterator](../iterator/)
+* Class [OdsoFieldMapDataCollection](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

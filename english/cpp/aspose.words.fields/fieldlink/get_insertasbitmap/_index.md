@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fieldlink/get_insertasbitmap/
 ---
-## FieldLink.get_InsertAsBitmap method
+## FieldLink::get_InsertAsBitmap method
 
 
 Gets or sets whether to insert the linked object as a bitmap.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldLink::get_InsertAsBitmap()
 
 
 ## Examples
-
 
 
 
@@ -196,3 +195,8 @@ static void InsertFieldDdeAuto(SharedPtr<DocumentBuilder> builder, ExField::Inse
 }
 ```
 
+## See Also
+
+* Class [FieldLink](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

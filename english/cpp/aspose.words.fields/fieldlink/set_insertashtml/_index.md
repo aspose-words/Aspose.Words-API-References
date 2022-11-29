@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.fields/fieldlink/set_insertashtml/
 ---
-## FieldLink.set_InsertAsHtml method
+## FieldLink::set_InsertAsHtml method
 
 
 Setter for [Aspose::Words::Fields::FieldLink::get_InsertAsHtml](../get_insertashtml/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldLink::get_InsertAsHtml](../get_insertash
 void Aspose::Words::Fields::FieldLink::set_InsertAsHtml(bool value)
 ```
 
+## See Also
+
+* Class [FieldLink](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

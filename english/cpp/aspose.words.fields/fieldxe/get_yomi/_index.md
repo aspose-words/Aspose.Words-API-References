@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.fields/fieldxe/get_yomi/
 ---
-## FieldXE.get_Yomi method
+## FieldXE::get_Yomi method
 
 
 Gets or sets the yomi (first phonetic character for sorting indexes) for the index entry.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldXE::get_Yomi()
 
 
 ## Examples
-
 
 
 
@@ -77,3 +76,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.INDEX.XE.Yomi.docx");
 ```
 
+## See Also
+
+* Class [FieldXE](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

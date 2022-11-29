@@ -12,12 +12,11 @@ url: /cpp/aspose.words/controlchar/columnbreakchar/
 End of column character: (char)14.
 
 ```cpp
-constexpr char16_t Aspose::Words::ControlChar::ColumnBreakChar
+static constexpr char16_t Aspose::Words::ControlChar::ColumnBreakChar
 ```
 
 
 ## Examples
-
 
 
 
@@ -87,3 +86,8 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::PageBreak()), ControlChar:
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlChar::ColumnBreakChar);
 ```
 
+## See Also
+
+* Class [ControlChar](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

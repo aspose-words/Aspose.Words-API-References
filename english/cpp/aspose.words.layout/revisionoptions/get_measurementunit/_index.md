@@ -6,12 +6,18 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.layout/revisionoptions/get_measurementunit/
 ---
-## RevisionOptions.get_MeasurementUnit method
+## RevisionOptions::get_MeasurementUnit method
 
 
-Allows to specify the measurement units for revision comments. Default value is **Centimeters**
+Allows to specify the measurement units for revision comments. Default value is [Centimeters](../../../aspose.words/measurementunits/)
 
 ```cpp
 Aspose::Words::MeasurementUnits Aspose::Words::Layout::RevisionOptions::get_MeasurementUnit() const
 ```
 
+## See Also
+
+* Enum [MeasurementUnits](../../../aspose.words/measurementunits/)
+* Class [RevisionOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldta/get_isbold/
 ---
-## FieldTA.get_IsBold method
+## FieldTA::get_IsBold method
 
 
 Gets or sets whether to apply bold formatting to the page number for the entry.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldTA::get_IsBold()
 
 
 ## Examples
-
 
 
 
@@ -138,3 +137,8 @@ static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, Str
 }
 ```
 
+## See Also
+
+* Class [FieldTA](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

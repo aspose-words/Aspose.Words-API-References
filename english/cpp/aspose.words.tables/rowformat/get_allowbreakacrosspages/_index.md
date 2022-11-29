@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.tables/rowformat/get_allowbreakacrosspages/
 ---
-## RowFormat.get_AllowBreakAcrossPages method
+## RowFormat::get_AllowBreakAcrossPages method
 
 
 True if the text in a table row is allowed to split across a page break.
@@ -17,7 +17,6 @@ bool Aspose::Words::Tables::RowFormat::get_AllowBreakAcrossPages()
 
 
 ## Examples
-
 
 
 
@@ -38,3 +37,8 @@ for (const auto& row : System::IterateOver(table->LINQ_OfType<SharedPtr<Row>>())
 doc->Save(ArtifactsDir + u"Table.AllowBreakAcrossPages.docx");
 ```
 
+## See Also
+
+* Class [RowFormat](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

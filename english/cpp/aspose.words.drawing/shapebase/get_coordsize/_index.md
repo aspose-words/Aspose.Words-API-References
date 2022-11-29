@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.drawing/shapebase/get_coordsize/
 ---
-## ShapeBase.get_CoordSize method
+## ShapeBase::get_CoordSize method
 
 
 The width and height of the coordinate space inside the containing block of this shape.
@@ -15,11 +15,12 @@ The width and height of the coordinate space inside the containing block of this
 System::Drawing::Size Aspose::Words::Drawing::ShapeBase::get_CoordSize()
 ```
 
+## Remarks
+
 
 The default value is (1000, 1000).
 
 ## Examples
-
 
 
 
@@ -156,3 +157,8 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(group);
 doc->Save(ArtifactsDir + u"Shape.LocalToParent.docx");
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

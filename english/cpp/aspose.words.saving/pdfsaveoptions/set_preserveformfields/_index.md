@@ -6,7 +6,7 @@ type: docs
 weight: 703
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_preserveformfields/
 ---
-## PdfSaveOptions.set_PreserveFormFields method
+## PdfSaveOptions::set_PreserveFormFields method
 
 
 Setter for [Aspose::Words::Saving::PdfSaveOptions::get_PreserveFormFields](../get_preserveformfields/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::PdfSaveOptions::get_PreserveFormFields](../ge
 void Aspose::Words::Saving::PdfSaveOptions::set_PreserveFormFields(bool value)
 ```
 
+## See Also
+
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

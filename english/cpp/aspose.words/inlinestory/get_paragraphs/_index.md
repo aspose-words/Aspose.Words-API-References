@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words/inlinestory/get_paragraphs/
 ---
-## InlineStory.get_Paragraphs method
+## InlineStory::get_Paragraphs method
 
 
 Gets a collection of paragraphs that are immediate children of the story.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::ParagraphCollection> Aspose::Words::InlineStory
 
 
 ## Examples
-
 
 
 
@@ -81,3 +80,9 @@ ASSERT_EQ(System::DateTime::get_Today(), comment->get_DateTime());
 doc->Save(ArtifactsDir + u"InlineStory.AddComment.docx");
 ```
 
+## See Also
+
+* Class [ParagraphCollection](../../paragraphcollection/)
+* Class [InlineStory](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

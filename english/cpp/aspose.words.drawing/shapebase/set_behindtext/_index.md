@@ -6,7 +6,7 @@ type: docs
 weight: 807
 url: /cpp/aspose.words.drawing/shapebase/set_behindtext/
 ---
-## ShapeBase.set_BehindText method
+## ShapeBase::set_BehindText method
 
 
 Setter for [Aspose::Words::Drawing::ShapeBase::get_BehindText](../get_behindtext/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::ShapeBase::get_BehindText](../get_behindtext
 void Aspose::Words::Drawing::ShapeBase::set_BehindText(bool value)
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 872
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_exportpagesetup/
 ---
-## HtmlSaveOptions.set_ExportPageSetup method
+## HtmlSaveOptions::set_ExportPageSetup method
 
 
 Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportPageSetup](../get_exportpagesetup/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportPageSetup](../get_
 void Aspose::Words::Saving::HtmlSaveOptions::set_ExportPageSetup(bool value)
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

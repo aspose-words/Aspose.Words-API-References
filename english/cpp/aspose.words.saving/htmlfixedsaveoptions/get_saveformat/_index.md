@@ -6,10 +6,10 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_saveformat/
 ---
-## HtmlFixedSaveOptions.get_SaveFormat method
+## HtmlFixedSaveOptions::get_SaveFormat method
 
 
-Specifies the format in which the document will be saved if this save options object is used. Can only be **HtmlFixed**.
+Specifies the format in which the document will be saved if this save options object is used. Can only be [HtmlFixed](../../../aspose.words/saveformat/).
 
 ```cpp
 Aspose::Words::SaveFormat Aspose::Words::Saving::HtmlFixedSaveOptions::get_SaveFormat() override
@@ -17,7 +17,6 @@ Aspose::Words::SaveFormat Aspose::Words::Saving::HtmlFixedSaveOptions::get_SaveF
 
 
 ## Examples
-
 
 
 
@@ -95,3 +94,9 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [HtmlFixedSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

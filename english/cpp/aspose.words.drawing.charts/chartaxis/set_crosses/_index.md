@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/aspose.words.drawing.charts/chartaxis/set_crosses/
 ---
-## ChartAxis.set_Crosses method
+## ChartAxis::set_Crosses method
 
 
 Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_Crosses](../get_crosses/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_Crosses](../get_cross
 void Aspose::Words::Drawing::Charts::ChartAxis::set_Crosses(Aspose::Words::Drawing::Charts::AxisCrosses value)
 ```
 
+## See Also
+
+* Enum [AxisCrosses](../../axiscrosses/)
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

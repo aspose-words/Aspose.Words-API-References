@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words/document/get_digitalsignatures/
 ---
-## Document.get_DigitalSignatures method
+## Document::get_DigitalSignatures method
 
 
 Gets the collection of digital signatures for this document and their validation results.
@@ -15,13 +15,14 @@ Gets the collection of digital signatures for this document and their validation
 System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignatureCollection> Aspose::Words::Document::get_DigitalSignatures() const
 ```
 
+## Remarks
+
 
 This collection contains digital signatures that were loaded from the original document. These digital signatures will not be saved when you save this [Document](../) object into a file or stream because saving or converting will produce a document that is different from the original and the original digital signatures will no longer be valid.
 
 This collection is never null. If the document is not signed, it will contain zero elements.
 
 ## Examples
-
 
 
 
@@ -81,3 +82,9 @@ ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_I
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
 ```
 
+## See Also
+
+* Class [DigitalSignatureCollection](../../../aspose.words.digitalsignatures/digitalsignaturecollection/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

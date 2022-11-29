@@ -6,20 +6,21 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.loading/loadoptions/get_loadformat/
 ---
-## LoadOptions.get_LoadFormat method
+## LoadOptions::get_LoadFormat method
 
 
-Specifies the format of the document to be loaded. Default is **Auto**.
+Specifies the format of the document to be loaded. Default is [Auto](../../../aspose.words/loadformat/).
 
 ```cpp
 Aspose::Words::LoadFormat Aspose::Words::Loading::LoadOptions::get_LoadFormat() const
 ```
 
+## Remarks
 
-It is recommended that you specify the **Auto** value and let Aspose.Words detect the file format automatically. If you know the format of the document you are about to load, you can specify the format explicitly and this will slightly reduce the loading time by the overhead associated with auto detecting the format. If you specify an explicit load format and it will turn out to be wrong, the auto detection will be invoked and a second attempt to load the file will be made.
+
+It is recommended that you specify the [Auto](../../../aspose.words/loadformat/) value and let Aspose.Words detect the file format automatically. If you know the format of the document you are about to load, you can specify the format explicitly and this will slightly reduce the loading time by the overhead associated with auto detecting the format. If you specify an explicit load format and it will turn out to be wrong, the auto detection will be invoked and a second attempt to load the file will be made.
 
 ## Examples
-
 
 
 
@@ -42,3 +43,9 @@ ASSERT_TRUE(imageShape->get_IsImage());
 doc->Save(ArtifactsDir + u"HtmlLoadOptions.BaseUri.docx");
 ```
 
+## See Also
+
+* Enum [LoadFormat](../../../aspose.words/loadformat/)
+* Class [LoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

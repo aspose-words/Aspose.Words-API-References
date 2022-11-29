@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words/font/get_color/
 ---
-## Font.get_Color method
+## Font::get_Color method
 
 
 Gets or sets the color of the font.
@@ -17,7 +17,6 @@ System::Drawing::Color Aspose::Words::Font::get_Color()
 
 
 ## Examples
-
 
 
 
@@ -57,3 +56,8 @@ builder->Writeln(u".");
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertHyperlink.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

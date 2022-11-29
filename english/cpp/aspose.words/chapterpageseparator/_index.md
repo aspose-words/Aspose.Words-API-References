@@ -11,6 +11,10 @@ url: /cpp/aspose.words/chapterpageseparator/
 
 Defines the separator character that appears between the chapter and page number.
 
+```cpp
+enum class ChapterPageSeparator
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -22,4 +26,7 @@ Defines the separator character that appears between the chapter and page number
 | EnDash | 4 | A standard dash. |
 
 
+## See Also
 
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

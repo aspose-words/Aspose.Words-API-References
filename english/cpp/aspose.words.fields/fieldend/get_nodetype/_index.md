@@ -6,10 +6,10 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fieldend/get_nodetype/
 ---
-## FieldEnd.get_NodeType method
+## FieldEnd::get_NodeType method
 
 
-Returns **FieldEnd**.
+Returns [FieldEnd](../../../aspose.words/nodetype/).
 
 ```cpp
 Aspose::Words::NodeType Aspose::Words::Fields::FieldEnd::get_NodeType() const override
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::Fields::FieldEnd::get_NodeType() const ov
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,9 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../../aspose.words/nodetype/)
+* Class [FieldEnd](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

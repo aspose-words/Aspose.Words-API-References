@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.mailmerging/imagefieldmergingargs/get_image/
 ---
-## ImageFieldMergingArgs.get_Image method
+## ImageFieldMergingArgs::get_Image method
 
 
 Specifies the image that the mail merge engine must insert into the document.
@@ -15,3 +15,8 @@ Specifies the image that the mail merge engine must insert into the document.
 const System::SharedPtr<System::Drawing::Image> & Aspose::Words::MailMerging::ImageFieldMergingArgs::get_Image() const
 ```
 
+## See Also
+
+* Class [ImageFieldMergingArgs](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

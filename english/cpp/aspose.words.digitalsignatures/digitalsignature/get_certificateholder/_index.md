@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.digitalsignatures/digitalsignature/get_certificateholder/
 ---
-## DigitalSignature.get_CertificateHolder method
+## DigitalSignature::get_CertificateHolder method
 
 
 Returns the certificate holder object that contains the certificate was used to sign the document.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> Aspose::W
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,9 @@ ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_I
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
 ```
 
+## See Also
+
+* Class [CertificateHolder](../../certificateholder/)
+* Class [DigitalSignature](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)

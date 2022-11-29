@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.fields/fieldmergefield/set_ismapped/
 ---
-## FieldMergeField.set_IsMapped method
+## FieldMergeField::set_IsMapped method
 
 
 Sets whether this field is a mapped field.
@@ -15,3 +15,8 @@ Sets whether this field is a mapped field.
 void Aspose::Words::Fields::FieldMergeField::set_IsMapped(bool value)
 ```
 
+## See Also
+
+* Class [FieldMergeField](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

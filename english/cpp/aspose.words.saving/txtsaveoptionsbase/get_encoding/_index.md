@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.saving/txtsaveoptionsbase/get_encoding/
 ---
-## TxtSaveOptionsBase.get_Encoding method
+## TxtSaveOptionsBase::get_Encoding method
 
 
 Specifies the encoding to use when exporting in text formats. Default value is **Encoding.UTF8**.
@@ -17,7 +17,6 @@ System::SharedPtr<System::Text::Encoding> Aspose::Words::Saving::TxtSaveOptionsB
 
 
 ## Examples
-
 
 
 
@@ -50,3 +49,8 @@ docText = System::Text::Encoding::get_ASCII()->GetString(System::IO::File::ReadA
 ASSERT_EQ(u"? ? ? ? ?.\r\n", docText);
 ```
 
+## See Also
+
+* Class [TxtSaveOptionsBase](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

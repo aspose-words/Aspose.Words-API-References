@@ -6,7 +6,7 @@ type: docs
 weight: 560
 url: /cpp/aspose.words/documentvisitor/visitstructureddocumenttagend/
 ---
-## DocumentVisitor.VisitStructuredDocumentTagEnd method
+## DocumentVisitor::VisitStructuredDocumentTagEnd method
 
 
 Called when enumeration of a structured document tag has ended.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitStruct
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -102,3 +100,10 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

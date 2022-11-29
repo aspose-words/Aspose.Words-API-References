@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words/font/get_hidden/
 ---
-## Font.get_Hidden method
+## Font::get_Hidden method
 
 
 True if the font is formatted as hidden text.
@@ -17,7 +17,6 @@ bool Aspose::Words::Font::get_Hidden()
 
 
 ## Examples
-
 
 
 
@@ -215,3 +214,8 @@ public:
 };
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

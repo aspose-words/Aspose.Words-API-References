@@ -6,10 +6,10 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.fonts/fontsettings/setfontsfolder/
 ---
-## FontSettings.SetFontsFolder method
+## FontSettings::SetFontsFolder method
 
 
-Sets the folder where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. This is a shortcut to **SetFontsFolders()** for setting only one font directory.
+Sets the folder where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. This is a shortcut to [SetFontsFolders()](../) for setting only one font directory.
 
 ```cpp
 void Aspose::Words::Fonts::FontSettings::SetFontsFolder(const System::String &fontFolder, bool recursive)
@@ -22,7 +22,6 @@ void Aspose::Words::Fonts::FontSettings::SetFontsFolder(const System::String &fo
 | recursive | bool | True to scan the specified folders for fonts recursively. |
 
 ## Examples
-
 
 
 
@@ -80,3 +79,8 @@ doc->Save(ArtifactsDir + u"FontSettings.SetFontsFolder.pdf");
 FontSettings::get_DefaultInstance()->SetFontsSources(originalFontSources);
 ```
 
+## See Also
+
+* Class [FontSettings](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

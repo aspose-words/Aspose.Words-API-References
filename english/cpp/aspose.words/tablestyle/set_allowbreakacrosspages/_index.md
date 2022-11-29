@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words/tablestyle/set_allowbreakacrosspages/
 ---
-## TableStyle.set_AllowBreakAcrossPages method
+## TableStyle::set_AllowBreakAcrossPages method
 
 
 Setter for [Aspose::Words::TableStyle::get_AllowBreakAcrossPages](../get_allowbreakacrosspages/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::TableStyle::get_AllowBreakAcrossPages](../get_allowbr
 void Aspose::Words::TableStyle::set_AllowBreakAcrossPages(bool value)
 ```
 
+## See Also
+
+* Class [TableStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

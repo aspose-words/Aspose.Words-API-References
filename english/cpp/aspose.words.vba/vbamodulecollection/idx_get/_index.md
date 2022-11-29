@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.vba/vbamodulecollection/idx_get/
 ---
-## VbaModuleCollection.idx_get(const System::String\&) method
+## VbaModuleCollection::idx_get(const System::String\&) method
 
 
 Retrieves a [VbaModule](../../vbamodule/) object by name, or Null if not found.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Vba::VbaModule> Aspose::Words::Vba::VbaModuleCo
 
 
 ## Examples
-
 
 
 
@@ -50,7 +49,13 @@ vbaModules->idx_get(u"Module1")->set_SourceCode(u"Your VBA code...");
 vbaModules->Remove(vbaModules->idx_get(2));
 ```
 
-## VbaModuleCollection.idx_get(int32_t) method
+## See Also
+
+* Class [VbaModule](../../vbamodule/)
+* Class [VbaModuleCollection](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)
+## VbaModuleCollection::idx_get(int32_t) method
 
 
 Retrieves a [VbaModule](../../vbamodule/) object by index.
@@ -68,7 +73,6 @@ System::SharedPtr<Aspose::Words::Vba::VbaModule> Aspose::Words::Vba::VbaModuleCo
 
 
 
-
 Shows how to access a document's VBA project information. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"VBA project.docm");
@@ -98,3 +102,9 @@ vbaModules->idx_get(u"Module1")->set_SourceCode(u"Your VBA code...");
 vbaModules->Remove(vbaModules->idx_get(2));
 ```
 
+## See Also
+
+* Class [VbaModule](../../vbamodule/)
+* Class [VbaModuleCollection](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

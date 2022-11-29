@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fieldcitation/get_pagenumber/
 ---
-## FieldCitation.get_PageNumber method
+## FieldCitation::get_PageNumber method
 
 
 Gets or sets a page number associated with the citation.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldCitation::get_PageNumber()
 
 
 ## Examples
-
 
 
 
@@ -70,3 +69,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.CITATION.docx");
 ```
 
+## See Also
+
+* Class [FieldCitation](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

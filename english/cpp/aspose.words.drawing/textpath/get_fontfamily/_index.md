@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.drawing/textpath/get_fontfamily/
 ---
-## TextPath.get_FontFamily method
+## TextPath::get_FontFamily method
 
 
 Defines the family of the textpath font.
@@ -15,11 +15,12 @@ Defines the family of the textpath font.
 System::String Aspose::Words::Drawing::TextPath::get_FontFamily()
 ```
 
+## Remarks
+
 
 The default value is Arial.
 
 ## Examples
-
 
 
 
@@ -125,3 +126,8 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
 }
 ```
 
+## See Also
+
+* Class [TextPath](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

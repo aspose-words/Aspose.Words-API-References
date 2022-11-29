@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words/bordercollection/idx_get/
 ---
-## BorderCollection.idx_get(Aspose::Words::BorderType) method
+## BorderCollection::idx_get(Aspose::Words::BorderType) method
 
 
 Retrieves a [Border](../../border/) object by border type.
@@ -19,11 +19,12 @@ System::SharedPtr<Aspose::Words::Border> Aspose::Words::BorderCollection::idx_ge
 | Parameter | Type | Description |
 | --- | --- | --- |
 | borderType | Aspose::Words::BorderType | A [BorderType](../../bordertype/) value that specifies the type of the border to retrieve. |
+## Remarks
+
 
 Note that not all borders are present for different document elements. This method throws an exception if you request a border not applicable to the current object.
 
 ## Examples
-
 
 
 
@@ -48,7 +49,14 @@ builder->Write(u"This paragraph is formatted with a double border and shading.")
 doc->Save(ArtifactsDir + u"DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
-## BorderCollection.idx_get(int32_t) method
+## See Also
+
+* Class [Border](../../border/)
+* Enum [BorderType](../../bordertype/)
+* Class [BorderCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## BorderCollection::idx_get(int32_t) method
 
 
 Retrieves a [Border](../../border/) object by index.
@@ -63,7 +71,6 @@ System::SharedPtr<Aspose::Words::Border> Aspose::Words::BorderCollection::idx_ge
 | index | int32_t | Zero-based index of the border to retrieve. |
 
 ## Examples
-
 
 
 
@@ -106,3 +113,9 @@ for (int i = 0; i < firstParagraphBorders->get_Count(); i++)
 doc->Save(ArtifactsDir + u"Border.SharedElements.docx");
 ```
 
+## See Also
+
+* Class [Border](../../border/)
+* Class [BorderCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

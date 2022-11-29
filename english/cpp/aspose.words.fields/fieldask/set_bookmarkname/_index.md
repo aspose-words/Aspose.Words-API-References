@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fields/fieldask/set_bookmarkname/
 ---
-## FieldAsk.set_BookmarkName method
+## FieldAsk::set_BookmarkName method
 
 
 Sets the name of the bookmark.
@@ -15,3 +15,8 @@ Sets the name of the bookmark.
 void Aspose::Words::Fields::FieldAsk::set_BookmarkName(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldAsk](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

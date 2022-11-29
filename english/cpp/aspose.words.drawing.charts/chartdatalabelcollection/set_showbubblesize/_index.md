@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/set_showbubblesize/
 ---
-## ChartDataLabelCollection.set_ShowBubbleSize method
+## ChartDataLabelCollection::set_ShowBubbleSize method
 
 
 Setter for [Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowBubbleSize](../get_showbubblesize/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowBu
 void Aspose::Words::Drawing::Charts::ChartDataLabelCollection::set_ShowBubbleSize(bool value)
 ```
 
+## See Also
+
+* Class [ChartDataLabelCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

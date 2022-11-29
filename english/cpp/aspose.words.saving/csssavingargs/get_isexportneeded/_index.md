@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.saving/csssavingargs/get_isexportneeded/
 ---
-## CssSavingArgs.get_IsExportNeeded method
+## CssSavingArgs::get_IsExportNeeded method
 
 
 Allows to specify whether the CSS will be exported to file and embedded to HTML document. Default is **true**. When this property is **false**, the CSS information will not be saved to a CSS file and will not be embedded to HTML document.
@@ -17,7 +17,6 @@ bool Aspose::Words::Saving::CssSavingArgs::get_IsExportNeeded() const
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [CssSavingArgs](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

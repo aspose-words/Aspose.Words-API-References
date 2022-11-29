@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.replacing/findreplaceoptions/get_uselegacyorder/
 ---
-## FindReplaceOptions.get_UseLegacyOrder method
+## FindReplaceOptions::get_UseLegacyOrder method
 
 
 True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is false.
@@ -17,7 +17,6 @@ bool Aspose::Words::Replacing::FindReplaceOptions::get_UseLegacyOrder() const
 
 
 ## Examples
-
 
 
 
@@ -90,3 +89,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [FindReplaceOptions](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)

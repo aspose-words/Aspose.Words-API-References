@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.comparing/compareoptions/get_ignorecasechanges/
 ---
-## CompareOptions.get_IgnoreCaseChanges method
+## CompareOptions::get_IgnoreCaseChanges method
 
 
 True indicates that documents comparison is case insensitive. By default comparison is case sensitive.
@@ -17,7 +17,6 @@ bool Aspose::Words::Comparing::CompareOptions::get_IgnoreCaseChanges() const
 
 
 ## Examples
-
 
 
 
@@ -113,3 +112,8 @@ docOriginal->Compare(docEdited, u"John Doe", System::DateTime::get_Now(), compar
 docOriginal->Save(ArtifactsDir + u"Document.CompareOptions.docx");
 ```
 
+## See Also
+
+* Class [CompareOptions](../)
+* Namespace [Aspose::Words::Comparing](../../)
+* Library [Aspose.Words](../../../)

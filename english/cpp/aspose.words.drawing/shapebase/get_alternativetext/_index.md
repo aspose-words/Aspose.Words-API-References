@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.drawing/shapebase/get_alternativetext/
 ---
-## ShapeBase.get_AlternativeText method
+## ShapeBase::get_AlternativeText method
 
 
 Defines alternative text to be displayed instead of a graphic.
@@ -15,11 +15,12 @@ Defines alternative text to be displayed instead of a graphic.
 System::String Aspose::Words::Drawing::ShapeBase::get_AlternativeText()
 ```
 
+## Remarks
+
 
 The default value is an empty string.
 
 ## Examples
-
 
 
 
@@ -41,3 +42,8 @@ doc->Save(ArtifactsDir + u"Shape.AltText.html");
 System::IO::File::Delete(ArtifactsDir + u"Shape.AltText.001.png");
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

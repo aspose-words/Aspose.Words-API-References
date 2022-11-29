@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.saving/metafilerenderingoptions/set_renderingmode/
 ---
-## MetafileRenderingOptions.set_RenderingMode method
+## MetafileRenderingOptions::set_RenderingMode method
 
 
 Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_RenderingMode](../get_renderingmode/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_RenderingMode](
 void Aspose::Words::Saving::MetafileRenderingOptions::set_RenderingMode(Aspose::Words::Saving::MetafileRenderingMode value)
 ```
 
+## See Also
+
+* Enum [MetafileRenderingMode](../../metafilerenderingmode/)
+* Class [MetafileRenderingOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

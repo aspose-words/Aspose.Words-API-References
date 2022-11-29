@@ -6,7 +6,7 @@ type: docs
 weight: 612
 url: /cpp/aspose.words/documentvisitor/visitsubdocument/
 ---
-## DocumentVisitor.VisitSubDocument method
+## DocumentVisitor::VisitSubDocument method
 
 
 Called when a subDocument is encountered.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitSubDoc
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -160,3 +158,10 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [SubDocument](../../subdocument/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

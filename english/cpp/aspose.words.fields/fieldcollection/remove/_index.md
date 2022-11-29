@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fields/fieldcollection/remove/
 ---
-## FieldCollection.Remove method
+## FieldCollection::Remove method
 
 
 Removes the specified field from this collection and from the document.
@@ -21,7 +21,6 @@ void Aspose::Words::Fields::FieldCollection::Remove(const System::SharedPtr<Aspo
 | field | const System::SharedPtr\<Aspose::Words::Fields::Field\>\& | A field to remove. |
 
 ## Examples
-
 
 
 
@@ -61,3 +60,9 @@ fields->Clear();
 ASSERT_EQ(0, fields->get_Count());
 ```
 
+## See Also
+
+* Class [Field](../../field/)
+* Class [FieldCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

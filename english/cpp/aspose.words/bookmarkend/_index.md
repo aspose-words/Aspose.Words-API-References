@@ -9,10 +9,12 @@ url: /cpp/aspose.words/bookmarkend/
 ## BookmarkEnd class
 
 
-Represents an end of a bookmark in a Word document. To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/net/working-with-bookmarks/) documentation article.
+Represents an end of a bookmark in a Word document. To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/cpp/working-with-bookmarks/) documentation article.
 
 ```cpp
-class BookmarkEnd : public Aspose::Words::Node, public Aspose::Words::IBookmarkNode, public Aspose::Words::IDisplaceableByCustomXml
+class BookmarkEnd : public Aspose::Words::Node,
+                    public Aspose::Words::IBookmarkNode,
+                    public Aspose::Words::IDisplaceableByCustomXml
 ```
 
 ## Methods
@@ -27,7 +29,7 @@ class BookmarkEnd : public Aspose::Words::Node, public Aspose::Words::IBookmarkN
 | virtual [get_IsComposite](../node/get_iscomposite/)() | Returns true if this node can contain other nodes. |
 | [get_Name](./get_name/)() override | Gets or sets the bookmark name. |
 | [get_NextSibling](../node/get_nextsibling/)() | Gets the node immediately following this node. |
-| [get_NodeType](./get_nodetype/)() const override | Returns **BookmarkEnd**. |
+| [get_NodeType](./get_nodetype/)() const override | Returns [BookmarkEnd](../nodetype/). |
 | [get_ParentNode](../node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_PreviousSibling](../node/get_previoussibling/)() | Gets the node immediately preceding this node. |
 | [get_Range](../node/get_range/)() | Returns a **Range** object that represents the portion of a document that is contained in this node. |
@@ -42,6 +44,8 @@ class BookmarkEnd : public Aspose::Words::Node, public Aspose::Words::IBookmarkN
 | [set_Name](./set_name/)(System::String) override | Setter for [Aspose::Words::BookmarkEnd::get_Name](./get_name/). |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 A complete bookmark in a Word document consists of a [BookmarkStart](../bookmarkstart/) and a matching [BookmarkEnd](./) with the same bookmark name.
 
@@ -50,7 +54,6 @@ A complete bookmark in a Word document consists of a [BookmarkStart](../bookmark
 Use the [Bookmark](../bookmark/) class as a "facade" to work with a bookmark as a single object.
 
 ## Examples
-
 
 
 
@@ -131,3 +134,8 @@ public:
 };
 ```
 
+## See Also
+
+* Class [Node](../node/)
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

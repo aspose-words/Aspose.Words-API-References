@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/watermark/settext/
 ---
-## Watermark.SetText(const System::String\&) method
+## Watermark::SetText(const System::String\&) method
 
 
 Adds Text watermark into the document.
@@ -21,7 +21,6 @@ void Aspose::Words::Watermark::SetText(const System::String &text)
 | text | const System::String\& | Text that is displayed as a watermark. |
 
 ## Examples
-
 
 
 
@@ -52,7 +51,12 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
 }
 ```
 
-## Watermark.SetText(const System::String\&, const System::SharedPtr\<Aspose::Words::TextWatermarkOptions\>\&) method
+## See Also
+
+* Class [Watermark](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Watermark::SetText(const System::String\&, const System::SharedPtr\<Aspose::Words::TextWatermarkOptions\>\&) method
 
 
 Adds Text watermark into the document.
@@ -71,7 +75,6 @@ void Aspose::Words::Watermark::SetText(const System::String &text, const System:
 
 
 
-
 Shows how to create a text watermark. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -99,3 +102,9 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
 }
 ```
 
+## See Also
+
+* Class [TextWatermarkOptions](../../textwatermarkoptions/)
+* Class [Watermark](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

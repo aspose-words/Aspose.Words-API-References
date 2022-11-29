@@ -36,6 +36,8 @@ class FontSavingArgs : public System::Object
 | [set_IsExportNeeded](./set_isexportneeded/)(bool) | Setter for [Aspose::Words::Saving::FontSavingArgs::get_IsExportNeeded](./get_isexportneeded/). |
 | [set_IsSubsettingNeeded](./set_issubsettingneeded/)(bool) | Setter for [Aspose::Words::Saving::FontSavingArgs::get_IsSubsettingNeeded](./get_issubsettingneeded/). |
 | [set_KeepFontStreamOpen](./set_keepfontstreamopen/)(bool) | Setter for [Aspose::Words::Saving::FontSavingArgs::get_KeepFontStreamOpen](./get_keepfontstreamopen/). |
+## Remarks
+
 
 When Aspose.Words saves a document to HTML or related formats and [ExportFontResources](../htmlsaveoptions/get_exportfontresources/) is set to **true**, it saves each font subject for export into a separate file.
 
@@ -48,7 +50,6 @@ To decide whether to save a particular font resource, use the [IsExportNeeded](.
 To save fonts into streams instead of files, use the [FontStream](./get_fontstream/) property.
 
 ## Examples
-
 
 
 
@@ -114,3 +115,7 @@ private:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

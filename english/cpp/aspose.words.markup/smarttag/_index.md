@@ -12,7 +12,8 @@ url: /cpp/aspose.words.markup/smarttag/
 This element specifies the presence of a smart tag around one or more inline structures (runs, images, fields,etc.) within a paragraph.
 
 ```cpp
-class SmartTag : public Aspose::Words::CompositeNode, public Aspose::Words::Markup::IMarkupNode
+class SmartTag : public Aspose::Words::CompositeNode,
+                 public Aspose::Words::Markup::IMarkupNode
 ```
 
 ## Methods
@@ -64,6 +65,8 @@ class SmartTag : public Aspose::Words::CompositeNode, public Aspose::Words::Mark
 | [SmartTag](./smarttag/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&) | Initializes a new instance of the [SmartTag](./) class. |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 Smart tags is a kind of custom XML markup. Smart tags provide a facility for embedding customer-defined semantics into the document via the ability to provide a basic namespace/name for a run or set of runs within a document.
 
@@ -72,7 +75,6 @@ Smart tags is a kind of custom XML markup. Smart tags provide a facility for emb
 The complete list of child nodes that can occur inside a smart tag consists of [BookmarkStart](../../aspose.words/bookmarkstart/), [BookmarkEnd](../../aspose.words/bookmarkend/), [FieldStart](../../aspose.words.fields/fieldstart/), [FieldSeparator](../../aspose.words.fields/fieldseparator/), [FieldEnd](../../aspose.words.fields/fieldend/), [FormField](../../aspose.words.fields/formfield/), [Comment](../../aspose.words/comment/), [Footnote](../../aspose.words.notes/footnote/), [Run](../../aspose.words/run/), [SpecialChar](../../aspose.words/specialchar/), [Shape](../../aspose.words.drawing/shape/), [GroupShape](../../aspose.words.drawing/groupshape/), [CommentRangeStart](../../aspose.words/commentrangestart/), [CommentRangeEnd](../../aspose.words/commentrangeend/), [SmartTag](./).
 
 ## Examples
-
 
 
 
@@ -165,3 +167,8 @@ public:
 };
 ```
 
+## See Also
+
+* Class [CompositeNode](../../aspose.words/compositenode/)
+* Namespace [Aspose::Words::Markup](../)
+* Library [Aspose.Words](../../)

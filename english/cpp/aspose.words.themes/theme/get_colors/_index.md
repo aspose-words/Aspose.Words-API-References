@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.themes/theme/get_colors/
 ---
-## Theme.get_Colors method
+## Theme::get_Colors method
 
 
 Allows to specify the set of theme colors for the document.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Themes::ThemeColors> Aspose::Words::Themes::The
 
 
 ## Examples
-
 
 
 
@@ -63,3 +62,9 @@ colors->set_FollowedHyperlink(System::Drawing::Color::get_Gray());
 doc->Save(ArtifactsDir + u"Themes.CustomColorsAndFonts.docx");
 ```
 
+## See Also
+
+* Class [ThemeColors](../../themecolors/)
+* Class [Theme](../)
+* Namespace [Aspose::Words::Themes](../../)
+* Library [Aspose.Words](../../../)

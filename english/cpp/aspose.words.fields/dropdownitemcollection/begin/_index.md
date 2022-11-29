@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/dropdownitemcollection/begin/
 ---
-## DropDownItemCollection.begin() const method
+## DropDownItemCollection::begin() const method
 
 
 
@@ -15,7 +15,13 @@ url: /cpp/aspose.words.fields/dropdownitemcollection/begin/
 const_iterator Aspose::Words::Fields::DropDownItemCollection::begin() const noexcept
 ```
 
-## DropDownItemCollection.begin() method
+## See Also
+
+* Typedef [const_iterator](../const_iterator/)
+* Class [DropDownItemCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)
+## DropDownItemCollection::begin() method
 
 
 
@@ -24,3 +30,9 @@ const_iterator Aspose::Words::Fields::DropDownItemCollection::begin() const noex
 iterator Aspose::Words::Fields::DropDownItemCollection::begin() noexcept
 ```
 
+## See Also
+
+* Typedef [iterator](../iterator/)
+* Class [DropDownItemCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

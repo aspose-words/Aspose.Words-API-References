@@ -15,3 +15,8 @@ url: /cpp/aspose.words.framesets/framesetcollection/virtualized_iterator_element
 using Aspose::Words::Framesets::FramesetCollection::virtualized_iterator_element =  typename iterator_holder_type::virtualized_iterator_element
 ```
 
+## See Also
+
+* Class [FramesetCollection](../)
+* Namespace [Aspose::Words::Framesets](../../)
+* Library [Aspose.Words](../../../)

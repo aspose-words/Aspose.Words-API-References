@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_type/
 ---
-## ChartAxis.get_Type method
+## ChartAxis::get_Type method
 
 
 Returns type of the axis.
@@ -17,7 +17,6 @@ Aspose::Words::Drawing::Charts::ChartAxisType Aspose::Words::Drawing::Charts::Ch
 
 
 ## Examples
-
 
 
 
@@ -94,3 +93,9 @@ static SharedPtr<Chart> AppendChart(SharedPtr<DocumentBuilder> builder, ChartTyp
 }
 ```
 
+## See Also
+
+* Enum [ChartAxisType](../../chartaxistype/)
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

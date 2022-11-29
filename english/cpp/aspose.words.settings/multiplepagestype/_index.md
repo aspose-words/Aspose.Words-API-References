@@ -11,6 +11,10 @@ url: /cpp/aspose.words.settings/multiplepagestype/
 
 Specifies how document is printed out.
 
+```cpp
+enum class MultiplePagesType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,5 +24,9 @@ Specifies how document is printed out.
 | TwoPagesPerSheet | 2 | Prints two pages per sheet. |
 | BookFoldPrinting | 3 | Specifies whether to print the document as a book fold. |
 | BookFoldPrintingReverse | 4 | Specifies whether to print the document as a reverse book fold. |
-| Default | n/a | Default value is **Normal** |
+| Default | n/a | Default value is [Normal](./) |
 
+## See Also
+
+* Namespace [Aspose::Words::Settings](../)
+* Library [Aspose.Words](../../)

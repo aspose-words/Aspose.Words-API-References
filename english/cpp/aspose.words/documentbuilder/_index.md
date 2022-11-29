@@ -9,10 +9,12 @@ url: /cpp/aspose.words/documentbuilder/
 ## DocumentBuilder class
 
 
-Provides methods to insert text, images and other content, specify font, paragraph and section formatting. To learn more, visit the [Document Builder Overview](https://docs.aspose.com/words/net/document-builder-overview/) documentation article.
+Provides methods to insert text, images and other content, specify font, paragraph and section formatting. To learn more, visit the [Document Builder Overview](https://docs.aspose.com/words/cpp/document-builder-overview/) documentation article.
 
 ```cpp
-class DocumentBuilder : public Aspose::Words::IRunAttrSource, public Aspose::Words::IRowAttrSource, public Aspose::Words::ICellAttrSource
+class DocumentBuilder : public Aspose::Words::IRunAttrSource,
+                        public Aspose::Words::IRowAttrSource,
+                        public Aspose::Words::ICellAttrSource
 ```
 
 ## Methods
@@ -130,12 +132,14 @@ class DocumentBuilder : public Aspose::Words::IRunAttrSource, public Aspose::Wor
 | [Write](./write/)(const System::String\&) | Inserts a string into the document at the current insert position. |
 | [Writeln](./writeln/)(const System::String\&) | Inserts a string and a paragraph break into the document. |
 | [Writeln](./writeln/)() | Inserts a paragraph break into the document. |
+## Remarks
+
 
 **DocumentBuilder** makes the process of building a **Document** easier. **Document** is a composite object consisting of a tree of nodes and while inserting content nodes directly into the tree is possible, it requires good understanding of the tree structure. **DocumentBuilder** is a "facade" for the complex structure of **Document** and allows to insert content and formatting quickly and easily.
 
 Create a **DocumentBuilder** and associate it with a [Document](./get_document/).
 
-The **DocumentBuilder** has an internal cursor where the text will be inserted when you call **Write()**, **Writeln()**, [InsertBreak()](./insertbreak/) and other methods. You can navigate the **DocumentBuilder** cursor to a different location in a document using various MoveToXXX methods.
+The **DocumentBuilder** has an internal cursor where the text will be inserted when you call [Write()](../), [Writeln()](../), [InsertBreak()](./insertbreak/) and other methods. You can navigate the **DocumentBuilder** cursor to a different location in a document using various MoveToXXX methods.
 
 Use the [Font](./get_font/) property to specify character formatting that will apply to all text inserted from the current position in the document onwards.
 
@@ -148,7 +152,6 @@ Use the [CellFormat](./get_cellformat/) and [RowFormat](./get_rowformat/) proper
 Note that **Font**, **ParagraphFormat** and **PageSetup** properties are updated whenever you navigate to a different place in the document to reflect formatting properties available at the new location.
 
 ## Examples
-
 
 
 
@@ -264,3 +267,7 @@ builder->EndTable();
 doc->Save(ArtifactsDir + u"DocumentBuilder.CreateTable.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

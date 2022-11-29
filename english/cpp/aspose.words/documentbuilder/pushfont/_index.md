@@ -6,7 +6,7 @@ type: docs
 weight: 768
 url: /cpp/aspose.words/documentbuilder/pushfont/
 ---
-## DocumentBuilder.PushFont method
+## DocumentBuilder::PushFont method
 
 
 Saves current character formatting onto the stack.
@@ -17,7 +17,6 @@ void Aspose::Words::DocumentBuilder::PushFont()
 
 
 ## Examples
-
 
 
 
@@ -52,3 +51,8 @@ builder->Write(u". We hope you enjoyed the example.");
 doc->Save(ArtifactsDir + u"DocumentBuilder.PushPopFont.docx");
 ```
 
+## See Also
+
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

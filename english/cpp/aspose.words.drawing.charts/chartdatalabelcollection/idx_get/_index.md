@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/idx_get/
 ---
-## ChartDataLabelCollection.idx_get method
+## ChartDataLabelCollection::idx_get method
 
 
 Returns [ChartDataLabel](../../chartdatalabel/) for the specified index.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartDataLabel> Aspose::Words:
 
 
 ## Examples
-
 
 
 
@@ -91,3 +90,9 @@ static void ApplyDataLabels(SharedPtr<ChartSeries> series, int labelsCount, Stri
 }
 ```
 
+## See Also
+
+* Class [ChartDataLabel](../../chartdatalabel/)
+* Class [ChartDataLabelCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

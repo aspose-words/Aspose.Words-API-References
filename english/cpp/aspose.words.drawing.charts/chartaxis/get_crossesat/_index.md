@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_crossesat/
 ---
-## ChartAxis.get_CrossesAt method
+## ChartAxis::get_CrossesAt method
 
 
 Specifies where on the perpendicular axis the axis crosses.
@@ -15,13 +15,14 @@ Specifies where on the perpendicular axis the axis crosses.
 double Aspose::Words::Drawing::Charts::ChartAxis::get_CrossesAt()
 ```
 
+## Remarks
 
-The property has effect only if [Crosses](../get_crosses/) are set to **Custom**. It is not supported by MS Office 2016 new charts.
+
+The property has effect only if [Crosses](../get_crosses/) are set to [Custom](../../axiscrosses/). It is not supported by MS Office 2016 new charts.
 
 The units are determined by the type of axis. When the axis is a value axis, the value of the property is a decimal number on the value axis. When the axis is a time category axis, the value is defined as an integer number of days relative to the base date (30/12/1899). For a text category axis, the value is an integer category number, starting with 1 as the first category.
 
 ## Examples
-
 
 
 
@@ -49,3 +50,8 @@ axis->set_AxisBetweenCategories(true);
 doc->Save(ArtifactsDir + u"Charts.AxisCross.docx");
 ```
 
+## See Also
+
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

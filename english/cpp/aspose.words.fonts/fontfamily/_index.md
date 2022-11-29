@@ -11,6 +11,10 @@ url: /cpp/aspose.words.fonts/fontfamily/
 
 Represents the font family.
 
+```cpp
+enum class FontFamily
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -22,11 +26,12 @@ Represents the font family.
 | Script | 4 | Specifies a font that is designed to look like handwriting; examples include Script and Cursive. |
 | Decorative | 5 | Specifies a novelty font. An example is Old English. |
 
+## Remarks
+
 
 A font family is a set of fonts having common stroke width and serif characteristics.
 
 ## Examples
-
 
 
 
@@ -63,3 +68,7 @@ while (fontCollectionEnumerator->MoveNext())
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Fonts](../)
+* Library [Aspose.Words](../../)

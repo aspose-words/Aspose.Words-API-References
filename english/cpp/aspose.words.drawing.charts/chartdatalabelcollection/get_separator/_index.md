@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_separator/
 ---
-## ChartDataLabelCollection.get_Separator method
+## ChartDataLabelCollection::get_Separator method
 
 
 Gets or sets string separator used for the data labels of the entire series. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_Sep
 
 
 ## Examples
-
 
 
 
@@ -73,3 +72,8 @@ dataLabels->set_Separator(u"; ");
 doc->Save(ArtifactsDir + u"Charts.DataLabelsPieChart.docx");
 ```
 
+## See Also
+
+* Class [ChartDataLabelCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

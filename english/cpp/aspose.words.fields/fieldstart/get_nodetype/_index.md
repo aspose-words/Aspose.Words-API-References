@@ -6,10 +6,10 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fieldstart/get_nodetype/
 ---
-## FieldStart.get_NodeType method
+## FieldStart::get_NodeType method
 
 
-Returns **FieldStart**.
+Returns [FieldStart](../../../aspose.words/nodetype/).
 
 ```cpp
 Aspose::Words::NodeType Aspose::Words::Fields::FieldStart::get_NodeType() const override
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::Fields::FieldStart::get_NodeType() const 
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,9 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../../aspose.words/nodetype/)
+* Class [FieldStart](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

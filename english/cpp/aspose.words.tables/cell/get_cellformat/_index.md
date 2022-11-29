@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.tables/cell/get_cellformat/
 ---
-## Cell.get_CellFormat method
+## Cell::get_CellFormat method
 
 
 Provides access to the formatting properties of the cell.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Tables::CellFormat> Aspose::Words::Tables::Cell
 
 
 ## Examples
-
 
 
 
@@ -91,3 +90,9 @@ secondTable->Remove();
 doc->Save(ArtifactsDir + u"Table.CombineTables.docx");
 ```
 
+## See Also
+
+* Class [CellFormat](../../cellformat/)
+* Class [Cell](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

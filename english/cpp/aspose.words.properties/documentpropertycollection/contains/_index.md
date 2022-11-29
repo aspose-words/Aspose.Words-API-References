@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.properties/documentpropertycollection/contains/
 ---
-## DocumentPropertyCollection.Contains method
+## DocumentPropertyCollection::Contains method
 
 
 Returns true if a property with the specified name exists in the collection.
@@ -22,11 +22,9 @@ bool Aspose::Words::Properties::DocumentPropertyCollection::Contains(const Syste
 
 ### ReturnValue
 
-
 True if the property exists in the collection; false otherwise.
 
 ## Examples
-
 
 
 
@@ -88,3 +86,8 @@ properties->Clear();
 ASSERT_EQ(0, properties->get_Count());
 ```
 
+## See Also
+
+* Class [DocumentPropertyCollection](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

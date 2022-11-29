@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words.markup/structureddocumenttag/get_istemporary/
 ---
-## StructuredDocumentTag.get_IsTemporary method
+## StructuredDocumentTag::get_IsTemporary method
 
 
 Specifies whether this **SDT** shall be removed from the WordProcessingML document when its contents are modified.
@@ -17,7 +17,6 @@ bool Aspose::Words::Markup::StructuredDocumentTag::get_IsTemporary() const
 
 
 ## Examples
-
 
 
 
@@ -54,3 +53,8 @@ builder->InsertNode(tag);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.IsTemporary.docx");
 ```
 
+## See Also
+
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.words/font/get_localeidfareast/
 ---
-## Font.get_LocaleIdFarEast method
+## Font::get_LocaleIdFarEast method
 
 
 Gets or sets the locale identifier (language) of the formatted Asian characters.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Font::get_LocaleIdFarEast()
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,8 @@ builder->Writeln(u"你好世界");
 doc->Save(ArtifactsDir + u"Font.FarEast.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

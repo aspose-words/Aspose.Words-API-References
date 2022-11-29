@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.markup/structureddocumenttagcollection/idx_get/
 ---
-## StructuredDocumentTagCollection.idx_get method
+## StructuredDocumentTagCollection::idx_get method
 
 
 Returns the structured document tag at the specified index.
@@ -20,4 +20,9 @@ System::SharedPtr<Aspose::Words::Markup::IStructuredDocumentTag> Aspose::Words::
 | --- | --- | --- |
 | index | int32_t | An index into the collection. |
 
+## See Also
 
+* Interface [IStructuredDocumentTag](../../istructureddocumenttag/)
+* Class [StructuredDocumentTagCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

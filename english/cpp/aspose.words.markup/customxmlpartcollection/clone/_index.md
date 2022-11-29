@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.markup/customxmlpartcollection/clone/
 ---
-## CustomXmlPartCollection.Clone method
+## CustomXmlPartCollection::Clone method
 
 
 Makes a deep copy of this collection and its items.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Markup::CustomXmlPartCollection> Aspose::Words:
 
 
 ## Examples
-
 
 
 
@@ -82,3 +81,9 @@ doc->get_FirstSection()->get_Body()->AppendChild(tag);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.CustomXml.docx");
 ```
 
+## See Also
+
+* Class [CustomXmlPartCollection](../)
+* Class [CustomXmlPartCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

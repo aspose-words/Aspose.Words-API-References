@@ -6,10 +6,10 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.drawing/groupshape/get_nodetype/
 ---
-## GroupShape.get_NodeType method
+## GroupShape::get_NodeType method
 
 
-Returns **GroupShape**.
+Returns [GroupShape](../../../aspose.words/nodetype/).
 
 ```cpp
 Aspose::Words::NodeType Aspose::Words::Drawing::GroupShape::get_NodeType() const override
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::Drawing::GroupShape::get_NodeType() const
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,9 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../../aspose.words/nodetype/)
+* Class [GroupShape](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

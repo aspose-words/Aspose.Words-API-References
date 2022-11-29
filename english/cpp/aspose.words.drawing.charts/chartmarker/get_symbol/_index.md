@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.drawing.charts/chartmarker/get_symbol/
 ---
-## ChartMarker.get_Symbol method
+## ChartMarker::get_Symbol method
 
 
 Gets or sets chart marker symbol.
@@ -17,7 +17,6 @@ Aspose::Words::Drawing::Charts::MarkerSymbol Aspose::Words::Drawing::Charts::Cha
 
 
 ## Examples
-
 
 
 
@@ -77,3 +76,9 @@ static void ApplyDataPoints(SharedPtr<ChartSeries> series, int dataPointsCount, 
 }
 ```
 
+## See Also
+
+* Enum [MarkerSymbol](../../markersymbol/)
+* Class [ChartMarker](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

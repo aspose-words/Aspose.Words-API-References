@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.markup/structureddocumenttag/get_buildingblockcategory/
 ---
-## StructuredDocumentTag.get_BuildingBlockCategory method
+## StructuredDocumentTag::get_BuildingBlockCategory method
 
 
 Specifies category of building block for this **SDT** node. Can not be null.
@@ -15,13 +15,14 @@ Specifies category of building block for this **SDT** node. Can not be null.
 System::String Aspose::Words::Markup::StructuredDocumentTag::get_BuildingBlockCategory()
 ```
 
+## Remarks
 
-Accessing this property will only work for **BuildingBlockGallery** and **DocPartObj** SDT types. It is read-only for **SDT** of the document part type.
+
+Accessing this property will only work for [BuildingBlockGallery](../../sdttype/) and [DocPartObj](../../sdttype/) SDT types. It is read-only for **SDT** of the document part type.
 
 For all other SDT types exception will occur.
 
 ## Examples
-
 
 
 
@@ -38,3 +39,8 @@ doc->get_FirstSection()->get_Body()->AppendChild(buildingBlockSdt);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.BuildingBlockCategories.docx");
 ```
 
+## See Also
+
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

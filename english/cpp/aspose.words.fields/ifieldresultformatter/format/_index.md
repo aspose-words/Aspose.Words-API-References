@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/ifieldresultformatter/format/
 ---
-## IFieldResultFormatter.Format(double, Aspose::Words::Fields::GeneralFormat) method
+## IFieldResultFormatter::Format(double, Aspose::Words::Fields::GeneralFormat) method
 
 
 Called when Aspose.Words applies a number format switch, i.e. \* Ordinal.
@@ -20,7 +20,6 @@ virtual System::String Aspose::Words::Fields::IFieldResultFormatter::Format(doub
 
 
 
-
 Shows how to automatically apply a custom format to field results as the fields are updated. 
 ```cpp
 void FieldResultFormatting_()
@@ -205,7 +204,13 @@ private:
 };
 ```
 
-## IFieldResultFormatter.Format(System::String, Aspose::Words::Fields::GeneralFormat) method
+## See Also
+
+* Enum [GeneralFormat](../../generalformat/)
+* Interface [IFieldResultFormatter](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)
+## IFieldResultFormatter::Format(System::String, Aspose::Words::Fields::GeneralFormat) method
 
 
 Called when Aspose.Words applies a capitalization format switch, i.e. \* Upper.
@@ -219,7 +224,6 @@ virtual System::String Aspose::Words::Fields::IFieldResultFormatter::Format(Syst
 
 
 
-
 Shows how to automatically apply a custom format to field results as the fields are updated. 
 ```cpp
 void FieldResultFormatting_()
@@ -404,3 +408,9 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [GeneralFormat](../../generalformat/)
+* Interface [IFieldResultFormatter](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

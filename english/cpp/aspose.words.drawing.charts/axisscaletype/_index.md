@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing.charts/axisscaletype/
 
 Specifies the possible scale types for an axis.
 
+```cpp
+enum class AxisScaleType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,7 +24,6 @@ Specifies the possible scale types for an axis.
 
 
 ## Examples
-
 
 
 
@@ -50,3 +53,7 @@ chart->get_AxisY()->get_Scaling()->set_LogBase(20);
 doc->Save(ArtifactsDir + u"Charts.AxisScaling.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing::Charts](../)
+* Library [Aspose.Words](../../)

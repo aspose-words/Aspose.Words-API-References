@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words/documentbase/set_backgroundshape/
 ---
-## DocumentBase.set_BackgroundShape method
+## DocumentBase::set_BackgroundShape method
 
 
 Setter for [Aspose::Words::DocumentBase::get_BackgroundShape](../get_backgroundshape/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::DocumentBase::get_BackgroundShape](../get_backgrounds
 void Aspose::Words::DocumentBase::set_BackgroundShape(const System::SharedPtr<Aspose::Words::Drawing::Shape> &value)
 ```
 
+## See Also
+
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Class [DocumentBase](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

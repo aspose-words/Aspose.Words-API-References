@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/bookmark/get_firstcolumn/
 ---
-## Bookmark.get_FirstColumn method
+## Bookmark::get_FirstColumn method
 
 
 Gets the zero-based index of the first column of the table column range associated with the bookmark.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Bookmark::get_FirstColumn()
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,8 @@ for (const auto& bookmark : System::IterateOver(doc->get_Range()->get_Bookmarks(
 }
 ```
 
+## See Also
+
+* Class [Bookmark](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

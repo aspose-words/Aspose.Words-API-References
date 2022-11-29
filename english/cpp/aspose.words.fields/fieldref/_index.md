@@ -12,7 +12,9 @@ url: /cpp/aspose.words.fields/fieldref/
 Implements the REF field.
 
 ```cpp
-class FieldRef : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider, public Aspose::Words::Fields::IMergeFieldSurrogate
+class FieldRef : public Aspose::Words::Fields::Field,
+                 public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
+                 public Aspose::Words::Fields::IMergeFieldSurrogate
 ```
 
 ## Methods
@@ -63,7 +65,6 @@ class FieldRef : public Aspose::Words::Fields::Field, public Aspose::Words::Fiel
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 
 ## Examples
-
 
 
 
@@ -174,3 +175,8 @@ ASSERT_EQ(u"Hello world!", fieldRef->get_Result());
 doc->Save(ArtifactsDir + u"Field.SET.REF.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

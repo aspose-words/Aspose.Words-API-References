@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.tables/table/clearshading/
 ---
-## Table.ClearShading method
+## Table::ClearShading method
 
 
 Removes all shading on the table.
@@ -17,7 +17,6 @@ void Aspose::Words::Tables::Table::ClearShading()
 
 
 ## Examples
-
 
 
 
@@ -45,3 +44,8 @@ table->SetShading(TextureIndex::TextureSolid, System::Drawing::Color::get_LightG
 doc->Save(ArtifactsDir + u"Table.SetOutlineBorders.docx");
 ```
 
+## See Also
+
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

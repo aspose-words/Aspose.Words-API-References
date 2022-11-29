@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fielduserinitials/set_userinitials/
 ---
-## FieldUserInitials.set_UserInitials method
+## FieldUserInitials::set_UserInitials method
 
 
 Setter for [Aspose::Words::Fields::FieldUserInitials::get_UserInitials](../get_userinitials/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldUserInitials::get_UserInitials](../get_u
 void Aspose::Words::Fields::FieldUserInitials::set_UserInitials(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldUserInitials](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.comparing/compareoptions/get_ignoreformatting/
 ---
-## CompareOptions.get_IgnoreFormatting method
+## CompareOptions::get_IgnoreFormatting method
 
 
 True indicates that formatting is ignored. By default document formatting is not ignored.
@@ -17,7 +17,6 @@ bool Aspose::Words::Comparing::CompareOptions::get_IgnoreFormatting() const
 
 
 ## Examples
-
 
 
 
@@ -113,3 +112,8 @@ docOriginal->Compare(docEdited, u"John Doe", System::DateTime::get_Now(), compar
 docOriginal->Save(ArtifactsDir + u"Document.CompareOptions.docx");
 ```
 
+## See Also
+
+* Class [CompareOptions](../)
+* Namespace [Aspose::Words::Comparing](../../)
+* Library [Aspose.Words](../../../)

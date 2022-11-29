@@ -11,6 +11,10 @@ url: /cpp/aspose.words/emphasismark/
 
 Specifies possible types of emphasis mark.
 
+```cpp
+enum class EmphasisMark
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -23,7 +27,6 @@ Specifies possible types of emphasis mark.
 
 
 ## Examples
-
 
 
 
@@ -43,3 +46,7 @@ builder->Write(u"Simple text");
 builder->get_Document()->Save(ArtifactsDir + u"Fonts.SetEmphasisMark.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

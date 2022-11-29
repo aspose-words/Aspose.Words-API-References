@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/paragraph/paragraph/
 ---
-## Paragraph.Paragraph method
+## Paragraph::Paragraph constructor
 
 
 Initializes a new instance of the **Paragraph** class.
@@ -19,13 +19,14 @@ Aspose::Words::Paragraph::Paragraph(const System::SharedPtr<Aspose::Words::Docum
 | Parameter | Type | Description |
 | --- | --- | --- |
 | doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
+## Remarks
+
 
 When **Paragraph** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
 To append **Paragraph** to the document use InsertAfter or InsertBefore on the story where you want the paragraph inserted.
 
 ## Examples
-
 
 
 
@@ -73,3 +74,9 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 ```
 
+## See Also
+
+* Class [DocumentBase](../../documentbase/)
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

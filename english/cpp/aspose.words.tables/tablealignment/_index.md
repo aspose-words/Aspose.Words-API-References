@@ -11,6 +11,10 @@ url: /cpp/aspose.words.tables/tablealignment/
 
 Specifies alignment for an inline table.
 
+```cpp
+enum class TableAlignment
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ Specifies alignment for an inline table.
 
 
 ## Examples
-
 
 
 
@@ -49,3 +52,7 @@ table->SetShading(TextureIndex::TextureSolid, System::Drawing::Color::get_LightG
 doc->Save(ArtifactsDir + u"Table.SetOutlineBorders.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Tables](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldinfo/get_newvalue/
 ---
-## FieldInfo.get_NewValue method
+## FieldInfo::get_NewValue method
 
 
 Gets or sets an optional value that updates the property.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldInfo::get_NewValue()
 
 
 ## Examples
-
 
 
 
@@ -51,3 +50,8 @@ ASSERT_EQ(u"New comment", doc->get_BuiltInDocumentProperties()->get_Comments());
 doc->Save(ArtifactsDir + u"Field.INFO.docx");
 ```
 
+## See Also
+
+* Class [FieldInfo](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

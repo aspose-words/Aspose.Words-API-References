@@ -11,6 +11,10 @@ url: /cpp/aspose.words.math/officemathjustification/
 
 Specifies the justification of the equation.
 
+```cpp
+enum class OfficeMathJustification
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,11 +24,10 @@ Specifies the justification of the equation.
 | Left | 3 | Left justification of [Math](../)[Paragraph](../../aspose.words/paragraph/). |
 | Right | 4 | Right Justification of [Math](../)[Paragraph](../../aspose.words/paragraph/). |
 | Inline | 7 | [Inline](../../aspose.words/inline/) position of [Math](../). |
-| Default | n/a | Default value **CenterGroup**. |
+| Default | n/a | Default value [CenterGroup](./). |
 
 
 ## Examples
-
 
 
 
@@ -50,3 +53,7 @@ officeMath->set_Justification(OfficeMathJustification::Left);
 doc->Save(ArtifactsDir + u"Shape.OfficeMath.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Math](../)
+* Library [Aspose.Words](../../)

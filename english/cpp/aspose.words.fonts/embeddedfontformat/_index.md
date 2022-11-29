@@ -11,6 +11,10 @@ url: /cpp/aspose.words.fonts/embeddedfontformat/
 
 Specifies format of particular embedded font inside [FontInfo](../fontinfo/) object. When saving a document to a file, only embedded fonts of corresponding format are written down.
 
+```cpp
+enum class EmbeddedFontFormat
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,7 +24,6 @@ Specifies format of particular embedded font inside [FontInfo](../fontinfo/) obj
 
 
 ## Examples
-
 
 
 
@@ -49,3 +52,7 @@ embeddedFontBytes = doc->get_FontInfos()->idx_get(u"Alte DIN 1451 Mittelschrift"
 System::IO::File::WriteAllBytes(ArtifactsDir + u"Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Fonts](../)
+* Library [Aspose.Words](../../)

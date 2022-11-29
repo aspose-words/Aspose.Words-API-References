@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.saving/saveoptions/get_dml3deffectsrenderingmode/
 ---
-## SaveOptions.get_Dml3DEffectsRenderingMode method
+## SaveOptions::get_Dml3DEffectsRenderingMode method
 
 
 Gets a value determining how 3D effects are rendered.
@@ -15,3 +15,9 @@ Gets a value determining how 3D effects are rendered.
 Aspose::Words::Saving::Dml3DEffectsRenderingMode Aspose::Words::Saving::SaveOptions::get_Dml3DEffectsRenderingMode() const
 ```
 
+## See Also
+
+* Enum [Dml3DEffectsRenderingMode](../../dml3deffectsrenderingmode/)
+* Class [SaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

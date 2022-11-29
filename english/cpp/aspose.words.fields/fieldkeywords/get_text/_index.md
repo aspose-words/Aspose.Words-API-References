@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldkeywords/get_text/
 ---
-## FieldKeywords.get_Text method
+## FieldKeywords::get_Text method
 
 
 Gets or sets the text of the keywords.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldKeywords::get_Text()
 
 
 ## Examples
-
 
 
 
@@ -48,3 +47,8 @@ ASSERT_EQ(u"OverridingKeyword", doc->get_BuiltInDocumentProperties()->get_Keywor
 doc->Save(ArtifactsDir + u"Field.KEYWORDS.docx");
 ```
 
+## See Also
+
+* Class [FieldKeywords](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

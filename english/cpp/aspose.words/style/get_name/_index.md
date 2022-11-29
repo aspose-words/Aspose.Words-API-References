@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words/style/get_name/
 ---
-## Style.get_Name method
+## Style::get_Name method
 
 
 Gets or sets the name of the style.
@@ -15,13 +15,14 @@ Gets or sets the name of the style.
 System::String Aspose::Words::Style::get_Name() const
 ```
 
+## Remarks
+
 
 Can not be empty string.
 
 If there already is a style with such name in the collection, then this style will override it. All affected nodes will reference new style.
 
 ## Examples
-
 
 
 
@@ -72,3 +73,8 @@ ASPOSE_ASSERT_EQ(doc->get_Styles()->idx_get(u"Heading 1")->get_Font()->get_Size(
 ASPOSE_ASSERT_NE(doc->get_Styles()->idx_get(u"Heading 1")->get_Font()->get_Color(), newStyle->get_Font()->get_Color());
 ```
 
+## See Also
+
+* Class [Style](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

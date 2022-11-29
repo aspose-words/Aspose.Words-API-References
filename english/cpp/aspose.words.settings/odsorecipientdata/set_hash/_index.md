@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.settings/odsorecipientdata/set_hash/
 ---
-## OdsoRecipientData.set_Hash method
+## OdsoRecipientData::set_Hash method
 
 
 Represents the hash code for this record. Sometimes Microsoft Word uses [Hash](../get_hash/) of a whole record instead of a [UniqueTag](../get_uniquetag/) value. The default value is 0.
@@ -15,3 +15,8 @@ Represents the hash code for this record. Sometimes Microsoft Word uses [Hash](.
 void Aspose::Words::Settings::OdsoRecipientData::set_Hash(int32_t value)
 ```
 
+## See Also
+
+* Class [OdsoRecipientData](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

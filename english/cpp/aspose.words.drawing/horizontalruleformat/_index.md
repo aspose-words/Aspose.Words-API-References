@@ -34,7 +34,6 @@ class HorizontalRuleFormat : public System::Object
 
 
 
-
 Shows how to insert a horizontal rule shape, and customize its formatting. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -52,3 +51,7 @@ ASSERT_TRUE(shape->get_IsHorizontalRule());
 ASSERT_TRUE(shape->get_HorizontalRuleFormat()->get_NoShade());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

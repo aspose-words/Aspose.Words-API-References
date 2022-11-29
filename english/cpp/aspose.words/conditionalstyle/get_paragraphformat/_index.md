@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words/conditionalstyle/get_paragraphformat/
 ---
-## ConditionalStyle.get_ParagraphFormat method
+## ConditionalStyle::get_ParagraphFormat method
 
 
 Gets the paragraph formatting of the conditional style.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::ParagraphFormat> Aspose::Words::ConditionalStyl
 
 
 ## Examples
-
 
 
 
@@ -90,3 +89,9 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow |
 doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../../paragraphformat/)
+* Class [ConditionalStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

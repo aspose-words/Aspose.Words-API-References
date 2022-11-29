@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words/fileformatutil/loadformattosaveformat/
 ---
-## FileFormatUtil.LoadFormatToSaveFormat method
+## FileFormatUtil::LoadFormatToSaveFormat method
 
 
 Converts a [LoadFormat](../../loadformat/) value to a [SaveFormat](../../saveformat/) value if possible.
@@ -17,7 +17,6 @@ static Aspose::Words::SaveFormat Aspose::Words::FileFormatUtil::LoadFormatToSave
 
 
 ## Examples
-
 
 
 
@@ -48,3 +47,10 @@ Shows how to use the [FileFormatUtil](../) methods to detect the format of a doc
 }
 ```
 
+## See Also
+
+* Enum [SaveFormat](../../saveformat/)
+* Enum [LoadFormat](../../loadformat/)
+* Class [FileFormatUtil](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

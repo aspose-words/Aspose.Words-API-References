@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.markup/sdtlistitemcollection/virtualizebeginconstiterator/
 ---
-## SdtListItemCollection.virtualizeBeginConstIterator method
+## SdtListItemCollection::virtualizeBeginConstIterator method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.markup/sdtlistitemcollection/virtualizebeginconstiterator
 virtualized_iterator * Aspose::Words::Markup::SdtListItemCollection::virtualizeBeginConstIterator() const override
 ```
 
+## See Also
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [SdtListItemCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

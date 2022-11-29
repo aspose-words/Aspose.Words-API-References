@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.drawing/textpath/get_italic/
 ---
-## TextPath.get_Italic method
+## TextPath::get_Italic method
 
 
 True if the font is formatted as italic.
@@ -15,11 +15,12 @@ True if the font is formatted as italic.
 bool Aspose::Words::Drawing::TextPath::get_Italic()
 ```
 
+## Remarks
+
 
 The default value is **false**.
 
 ## Examples
-
 
 
 
@@ -125,3 +126,8 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
 }
 ```
 
+## See Also
+
+* Class [TextPath](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

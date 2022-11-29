@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fonts/streamfontsource/
 Base class for user-defined stream font source.
 
 ```cpp
-class StreamFontSource : public Aspose::Words::Fonts::FontSourceBase, public Aspose::Fonts::IFontData
+class StreamFontSource : public Aspose::Words::Fonts::FontSourceBase,
+                         public Aspose::Fonts::IFontData
 ```
 
 ## Methods
@@ -26,6 +27,8 @@ class StreamFontSource : public Aspose::Words::Fonts::FontSourceBase, public Asp
 | [GetAvailableFonts](../fontsourcebase/getavailablefonts/)() | Returns list of fonts available via this source. |
 | virtual [OpenFontDataStream](./openfontdatastream/)() | This method should open the stream with font data on demand. |
 | [set_WarningCallback](../fontsourcebase/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Setter for [Aspose::Words::Fonts::FontSourceBase::get_WarningCallback](../fontsourcebase/get_warningcallback/). |
+## Remarks
+
 
 In order to use the stream font source you should create a derived class from the [StreamFontSource](./) and provide implementation of the [OpenFontDataStream](./openfontdatastream/) method.
 
@@ -34,7 +37,6 @@ In order to use the stream font source you should create a derived class from th
 [StreamFontSource](./) may be useful because it allows to load the font data only when it is required and not to store it in the memory for the [FontSettings](../fontsettings/) lifetime.
 
 ## Examples
-
 
 
 
@@ -68,3 +70,8 @@ protected:
 };
 ```
 
+## See Also
+
+* Class [FontSourceBase](../fontsourcebase/)
+* Namespace [Aspose::Words::Fonts](../)
+* Library [Aspose.Words](../../)

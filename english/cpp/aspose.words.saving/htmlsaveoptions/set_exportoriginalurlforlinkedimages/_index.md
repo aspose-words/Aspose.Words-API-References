@@ -6,7 +6,7 @@ type: docs
 weight: 846
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_exportoriginalurlforlinkedimages/
 ---
-## HtmlSaveOptions.set_ExportOriginalUrlForLinkedImages method
+## HtmlSaveOptions::set_ExportOriginalUrlForLinkedImages method
 
 
 Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportOriginalUrlForLinkedImages](../get_exportoriginalurlforlinkedimages/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportOriginalUrlForLink
 void Aspose::Words::Saving::HtmlSaveOptions::set_ExportOriginalUrlForLinkedImages(bool value)
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

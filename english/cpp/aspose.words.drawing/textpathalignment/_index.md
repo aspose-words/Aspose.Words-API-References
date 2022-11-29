@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing/textpathalignment/
 
 WordArt alignment.
 
+```cpp
+enum class TextPathAlignment
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -24,7 +28,6 @@ WordArt alignment.
 
 
 ## Examples
-
 
 
 
@@ -130,3 +133,7 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

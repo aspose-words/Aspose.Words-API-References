@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.fields/fieldddeauto/set_insertasunicode/
 ---
-## FieldDdeAuto.set_InsertAsUnicode method
+## FieldDdeAuto::set_InsertAsUnicode method
 
 
 Setter for [Aspose::Words::Fields::FieldDdeAuto::get_InsertAsUnicode](../get_insertasunicode/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldDdeAuto::get_InsertAsUnicode](../get_ins
 void Aspose::Words::Fields::FieldDdeAuto::set_InsertAsUnicode(bool value)
 ```
 
+## See Also
+
+* Class [FieldDdeAuto](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

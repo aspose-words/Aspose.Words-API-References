@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words/documentbuilder/get_document/
 ---
-## DocumentBuilder.get_Document method
+## DocumentBuilder::get_Document method
 
 
 Gets or sets the [Document](./) object that this object is attached to.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Document> Aspose::Words::DocumentBuilder::get_D
 
 
 ## Examples
-
 
 
 
@@ -49,3 +48,9 @@ builder->Writeln(u"This is the second section, which is in default Letter paper 
 doc->Save(ArtifactsDir + u"PageSetup.ClearFormatting.docx");
 ```
 
+## See Also
+
+* Class [Document](../../document/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

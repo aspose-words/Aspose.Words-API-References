@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.drawing.charts/chartseriescollection/idx_get/
 ---
-## ChartSeriesCollection.idx_get method
+## ChartSeriesCollection::idx_get method
 
 
 Returns a [ChartSeries](../../chartseries/) at the specified index.
@@ -19,6 +19,8 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Dr
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | An index into the collection. |
+## Remarks
+
 
 The index is zero-based.
 
@@ -29,7 +31,6 @@ If index is greater than or equal to the number of items in the list, this retur
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
 
 ## Examples
-
 
 
 
@@ -76,3 +77,9 @@ ASSERT_FALSE(chartData->LINQ_Any([](SharedPtr<ChartSeries> s) { return s->get_Na
 chartData->Clear();
 ```
 
+## See Also
+
+* Class [ChartSeries](../../chartseries/)
+* Class [ChartSeriesCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

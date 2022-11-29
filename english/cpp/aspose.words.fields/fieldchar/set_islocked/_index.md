@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fields/fieldchar/set_islocked/
 ---
-## FieldChar.set_IsLocked method
+## FieldChar::set_IsLocked method
 
 
 Setter for [Aspose::Words::Fields::FieldChar::get_IsLocked](../get_islocked/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldChar::get_IsLocked](../get_islocked/).
 void Aspose::Words::Fields::FieldChar::set_IsLocked(bool value)
 ```
 
+## See Also
+
+* Class [FieldChar](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

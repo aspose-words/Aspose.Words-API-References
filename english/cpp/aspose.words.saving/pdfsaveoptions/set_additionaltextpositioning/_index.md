@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_additionaltextpositioning/
 ---
-## PdfSaveOptions.set_AdditionalTextPositioning method
+## PdfSaveOptions::set_AdditionalTextPositioning method
 
 
 Setter for [Aspose::Words::Saving::PdfSaveOptions::get_AdditionalTextPositioning](../get_additionaltextpositioning/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::PdfSaveOptions::get_AdditionalTextPositioning
 void Aspose::Words::Saving::PdfSaveOptions::set_AdditionalTextPositioning(bool value)
 ```
 
+## See Also
+
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

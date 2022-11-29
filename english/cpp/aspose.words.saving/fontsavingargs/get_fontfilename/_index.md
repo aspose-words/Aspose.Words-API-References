@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.saving/fontsavingargs/get_fontfilename/
 ---
-## FontSavingArgs.get_FontFileName method
+## FontSavingArgs::get_FontFileName method
 
 
 Gets or sets the file name (without path) where the font will be saved to.
@@ -14,6 +14,8 @@ Gets or sets the file name (without path) where the font will be saved to.
 ```cpp
 System::String Aspose::Words::Saving::FontSavingArgs::get_FontFileName() const
 ```
+
+## Remarks
 
 
 This property allows you to redefine how the font file names are generated during export to HTML.
@@ -29,7 +31,6 @@ When saving a document to a stream, the generated font file name looks like Aspo
 [FontFileName](./) must contain only the file name without the path. Aspose.Words determines the path for saving using the document file name, the [FontsFolder](../../htmlsaveoptions/get_fontsfolder/) and [FontsFolderAlias](../../htmlsaveoptions/get_fontsfolderalias/) properties.
 
 ## Examples
-
 
 
 
@@ -95,3 +96,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [FontSavingArgs](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

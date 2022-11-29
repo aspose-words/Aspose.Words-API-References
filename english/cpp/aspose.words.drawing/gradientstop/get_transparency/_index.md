@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.drawing/gradientstop/get_transparency/
 ---
-## GradientStop.get_Transparency method
+## GradientStop::get_Transparency method
 
 
 Gets or sets a value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0.
@@ -17,7 +17,6 @@ double Aspose::Words::Drawing::GradientStop::get_Transparency() const
 
 
 ## Examples
-
 
 
 
@@ -69,3 +68,8 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 doc->Save(ArtifactsDir + u"Shape.GradientStops.docx", saveOptions);
 ```
 
+## See Also
+
+* Class [GradientStop](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

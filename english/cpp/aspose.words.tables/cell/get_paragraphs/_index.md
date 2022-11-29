@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.tables/cell/get_paragraphs/
 ---
-## Cell.get_Paragraphs method
+## Cell::get_Paragraphs method
 
 
 Gets a collection of paragraphs that are immediate children of the cell.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::ParagraphCollection> Aspose::Words::Tables::Cel
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,9 @@ for (const auto& cell : System::IterateOver(table->GetChildNodes(NodeType::Cell,
 doc->Save(ArtifactsDir + u"Table.KeepTableTogether.docx");
 ```
 
+## See Also
+
+* Class [ParagraphCollection](../../../aspose.words/paragraphcollection/)
+* Class [Cell](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

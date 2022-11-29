@@ -11,6 +11,10 @@ url: /cpp/aspose.words/styletype/
 
 Represents type of the style.
 
+```cpp
+enum class StyleType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -22,7 +26,6 @@ Represents type of the style.
 
 
 ## Examples
-
 
 
 
@@ -81,3 +84,7 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateAndUseListStyle.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

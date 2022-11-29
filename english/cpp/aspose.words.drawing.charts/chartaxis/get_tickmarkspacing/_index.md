@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_tickmarkspacing/
 ---
-## ChartAxis.get_TickMarkSpacing method
+## ChartAxis::get_TickMarkSpacing method
 
 
 Gets or sets the interval, at which tick marks are drawn.
@@ -15,13 +15,14 @@ Gets or sets the interval, at which tick marks are drawn.
 int32_t Aspose::Words::Drawing::Charts::ChartAxis::get_TickMarkSpacing()
 ```
 
+## Remarks
+
 
 The property has effect for text category and series axes. It is not supported by MS Office 2016 new charts.
 
 Valid range of a value is greater than or equal to 1.
 
 ## Examples
-
 
 
 
@@ -71,3 +72,8 @@ ASSERT_TRUE(chart->get_AxisZ() == nullptr);
 doc->Save(ArtifactsDir + u"Charts.AxisProperties.docx");
 ```
 
+## See Also
+
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

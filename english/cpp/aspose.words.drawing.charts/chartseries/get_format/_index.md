@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.drawing.charts/chartseries/get_format/
 ---
-## ChartSeries.get_Format method
+## ChartSeries::get_Format method
 
 
 Provides access to fill and line formatting of the series.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartFormat> Aspose::Words::Dr
 
 
 ## Examples
-
 
 
 
@@ -50,3 +49,9 @@ series3->get_Format()->get_Fill()->set_ForeColor(System::Drawing::Color::get_Blu
 doc->Save(ArtifactsDir + u"Charts.SeriesColor.docx");
 ```
 
+## See Also
+
+* Class [ChartFormat](../../chartformat/)
+* Class [ChartSeries](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

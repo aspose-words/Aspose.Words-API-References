@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words/document/compare/
 ---
-## Document.Compare(const System::SharedPtr\<Aspose::Words::Document\>\&, const System::String\&, System::DateTime) method
+## Document::Compare(const System::SharedPtr\<Aspose::Words::Document\>\&, const System::String\&, System::DateTime) method
 
 
 Compares this document with another document producing changes as number of edit and format revisions [Revision](../../revision/).
@@ -21,6 +21,8 @@ void Aspose::Words::Document::Compare(const System::SharedPtr<Aspose::Words::Doc
 | document | const System::SharedPtr\<Aspose::Words::Document\>\& | [Document](../) to compare. |
 | author | const System::String\& | Initials of the author to use for revisions. |
 | dateTime | System::DateTime | The date and time to use for revisions. |
+## Remarks
+
 
 The following document nodes are not compared at the moment:
 
@@ -32,7 +34,6 @@ The following document nodes are not compared at the moment:
 
 Documents must not have revisions before comparison.
 ## Examples
-
 
 
 
@@ -67,7 +68,13 @@ docOriginal->get_Revisions()->AcceptAll();
 ASSERT_EQ(docOriginal->GetText(), docEdited->GetText());
 ```
 
-## Document.Compare(const System::SharedPtr\<Aspose::Words::Document\>\&, const System::String\&, System::DateTime, const System::SharedPtr\<Aspose::Words::Comparing::CompareOptions\>\&) method
+## See Also
+
+* Class [Document](../)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Document::Compare(const System::SharedPtr\<Aspose::Words::Document\>\&, const System::String\&, System::DateTime, const System::SharedPtr\<Aspose::Words::Comparing::CompareOptions\>\&) method
 
 
 Compares this document with another document producing changes as a number of edit and format revisions [Revision](../../revision/). Allows to specify comparison options using [CompareOptions](../../../aspose.words.comparing/compareoptions/).
@@ -78,7 +85,6 @@ void Aspose::Words::Document::Compare(const System::SharedPtr<Aspose::Words::Doc
 
 
 ## Examples
-
 
 
 
@@ -174,3 +180,10 @@ docOriginal->Compare(docEdited, u"John Doe", System::DateTime::get_Now(), compar
 docOriginal->Save(ArtifactsDir + u"Document.CompareOptions.docx");
 ```
 
+## See Also
+
+* Class [Document](../)
+* Class [CompareOptions](../../../aspose.words.comparing/compareoptions/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

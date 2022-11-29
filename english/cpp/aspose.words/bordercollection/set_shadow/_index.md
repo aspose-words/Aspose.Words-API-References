@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.words/bordercollection/set_shadow/
 ---
-## BorderCollection.set_Shadow method
+## BorderCollection::set_Shadow method
 
 
 Setter for [Aspose::Words::BorderCollection::get_Shadow](../get_shadow/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::BorderCollection::get_Shadow](../get_shadow/).
 void Aspose::Words::BorderCollection::set_Shadow(bool value)
 ```
 
+## See Also
+
+* Class [BorderCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

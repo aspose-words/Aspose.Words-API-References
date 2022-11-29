@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.saving/pclsaveoptions/get_fallbackfontname/
 ---
-## PclSaveOptions.get_FallbackFontName method
+## PclSaveOptions::get_FallbackFontName method
 
 
 Name of the font that will be used if no expected font is found in printer and built-in fonts collections.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Saving::PclSaveOptions::get_FallbackFontName() con
 
 
 ## Examples
-
 
 
 
@@ -37,3 +36,8 @@ saveOptions->set_FallbackFontName(u"Times New Roman");
 doc->Save(ArtifactsDir + u"PclSaveOptions.SetPrinterFont.pcl", saveOptions);
 ```
 
+## See Also
+
+* Class [PclSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

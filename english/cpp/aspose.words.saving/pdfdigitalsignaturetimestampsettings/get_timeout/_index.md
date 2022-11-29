@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.saving/pdfdigitalsignaturetimestampsettings/get_timeout/
 ---
-## PdfDigitalSignatureTimestampSettings.get_Timeout method
+## PdfDigitalSignatureTimestampSettings::get_Timeout method
 
 
 Time-out value for accessing timestamp server.
@@ -17,7 +17,6 @@ System::TimeSpan Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::ge
 
 
 ## Examples
-
 
 
 
@@ -56,3 +55,8 @@ ASSERT_EQ(u"MyPassword", options->get_DigitalSignatureDetails()->get_TimestampSe
 doc->Save(ArtifactsDir + u"PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
 ```
 
+## See Also
+
+* Class [PdfDigitalSignatureTimestampSettings](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

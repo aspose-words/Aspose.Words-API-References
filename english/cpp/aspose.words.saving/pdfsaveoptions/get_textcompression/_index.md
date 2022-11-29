@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_textcompression/
 ---
-## PdfSaveOptions.get_TextCompression method
+## PdfSaveOptions::get_TextCompression method
 
 
 Specifies compression type to be used for all textual content in the document.
@@ -15,13 +15,14 @@ Specifies compression type to be used for all textual content in the document.
 Aspose::Words::Saving::PdfTextCompression Aspose::Words::Saving::PdfSaveOptions::get_TextCompression() const
 ```
 
+## Remarks
 
-Default is **Flate**.
+
+Default is [Flate](../../pdftextcompression/).
 
 Significantly increases output size when saving a document without compression.
 
 ## Examples
-
 
 
 
@@ -49,3 +50,9 @@ options->set_TextCompression(pdfTextCompression);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.TextCompression.pdf", options);
 ```
 
+## See Also
+
+* Enum [PdfTextCompression](../../pdftextcompression/)
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

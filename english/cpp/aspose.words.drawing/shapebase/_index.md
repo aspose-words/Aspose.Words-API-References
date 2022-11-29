@@ -12,7 +12,12 @@ url: /cpp/aspose.words.drawing/shapebase/
 Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture.
 
 ```cpp
-class ShapeBase : public Aspose::Words::CompositeNode, public Aspose::Words::IInline, public Aspose::Words::Drawing::Core::IShape, public Aspose::Words::IShapeAttrSource, public Aspose::Words::Revisions::ITrackableNode, public Aspose::Words::Drawing::Core::IFillable
+class ShapeBase : public Aspose::Words::CompositeNode,
+                  public Aspose::Words::IInline,
+                  public Aspose::Words::Drawing::Core::IShape,
+                  public Aspose::Words::IShapeAttrSource,
+                  public Aspose::Words::Revisions::ITrackableNode,
+                  public Aspose::Words::Drawing::Core::IFillable
 ```
 
 ## Methods
@@ -148,6 +153,8 @@ class ShapeBase : public Aspose::Words::CompositeNode, public Aspose::Words::IIn
 | [SetTemplateWeakPtr](../../aspose.words/compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 This is an abstract class. The two derived classes that you can instantiate are [Shape](../shape/) and [GroupShape](../groupshape/).
 
@@ -164,7 +171,6 @@ When a shape is floating, it is positioned relative to something (e.g the curren
 A floating shape be positioned explicitly using the [Left](./get_left/) and [Top](./get_top/) properties or aligned relative to some other object using the [HorizontalAlignment](./get_horizontalalignment/) and [VerticalAlignment](./get_verticalalignment/) properties.
 
 ## Examples
-
 
 
 
@@ -185,3 +191,8 @@ shape->set_VerticalAlignment(VerticalAlignment::Center);
 doc->Save(ArtifactsDir + u"Image.CreateFloatingPageCenter.docx");
 ```
 
+## See Also
+
+* Class [CompositeNode](../../aspose.words/compositenode/)
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

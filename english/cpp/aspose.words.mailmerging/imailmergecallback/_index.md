@@ -20,3 +20,7 @@ class IMailMergeCallback : public System::Object
 | Method | Description |
 | --- | --- |
 | virtual [TagsReplaced](./tagsreplaced/)() | Called when "mustache" text tags are replaced with MERGEFIELD fields. |
+## See Also
+
+* Namespace [Aspose::Words::MailMerging](../)
+* Library [Aspose.Words](../../)

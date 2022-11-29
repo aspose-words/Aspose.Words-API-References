@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/conditionalstyle/get_font/
 ---
-## ConditionalStyle.get_Font method
+## ConditionalStyle::get_Font method
 
 
 Gets the character formatting of the conditional style.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Font> Aspose::Words::ConditionalStyle::get_Font
 
 
 ## Examples
-
 
 
 
@@ -90,3 +89,9 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow |
 doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 ```
 
+## See Also
+
+* Class [Font](../../font/)
+* Class [ConditionalStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

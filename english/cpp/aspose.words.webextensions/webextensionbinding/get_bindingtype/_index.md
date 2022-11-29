@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.webextensions/webextensionbinding/get_bindingtype/
 ---
-## WebExtensionBinding.get_BindingType method
+## WebExtensionBinding::get_BindingType method
 
 
 Specifies the binding type.
@@ -15,3 +15,9 @@ Specifies the binding type.
 Aspose::Words::WebExtensions::WebExtensionBindingType Aspose::Words::WebExtensions::WebExtensionBinding::get_BindingType() const
 ```
 
+## See Also
+
+* Enum [WebExtensionBindingType](../../webextensionbindingtype/)
+* Class [WebExtensionBinding](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

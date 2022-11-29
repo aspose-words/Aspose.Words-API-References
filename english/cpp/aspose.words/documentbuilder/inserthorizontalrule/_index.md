@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/aspose.words/documentbuilder/inserthorizontalrule/
 ---
-## DocumentBuilder.InsertHorizontalRule method
+## DocumentBuilder::InsertHorizontalRule method
 
 
 Inserts a horizontal rule shape into the document.
@@ -18,11 +18,9 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder:
 
 ### ReturnValue
 
-
 The shape that is a horizontal rule.
 
 ## Examples
-
 
 
 
@@ -43,3 +41,9 @@ ASSERT_TRUE(shape->get_IsHorizontalRule());
 ASSERT_TRUE(shape->get_HorizontalRuleFormat()->get_NoShade());
 ```
 
+## See Also
+
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

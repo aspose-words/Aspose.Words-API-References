@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/story/deleteshapes/
 ---
-## Story.DeleteShapes method
+## Story::DeleteShapes method
 
 
 Deletes all shapes from the text of this story.
@@ -17,7 +17,6 @@ void Aspose::Words::Story::DeleteShapes()
 
 
 ## Examples
-
 
 
 
@@ -39,3 +38,8 @@ doc->get_FirstSection()->get_Body()->DeleteShapes();
 ASSERT_EQ(0, doc->GetChildNodes(NodeType::Shape, true)->get_Count());
 ```
 
+## See Also
+
+* Class [Story](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

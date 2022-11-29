@@ -6,7 +6,7 @@ type: docs
 weight: 768
 url: /cpp/aspose.words.settings/compatibilityoptions/get_usealtkinsokulinebreakrules/
 ---
-## CompatibilityOptions.get_UseAltKinsokuLineBreakRules method
+## CompatibilityOptions::get_UseAltKinsokuLineBreakRules method
 
 
 Use Alternate Set of East Asian Line Breaking Rules.
@@ -15,3 +15,8 @@ Use Alternate Set of East Asian Line Breaking Rules.
 bool Aspose::Words::Settings::CompatibilityOptions::get_UseAltKinsokuLineBreakRules()
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

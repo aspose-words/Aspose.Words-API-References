@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.notes/footnote/get_isauto/
 ---
-## Footnote.get_IsAuto method
+## Footnote::get_IsAuto method
 
 
 Holds a value that specifies whether this is a auto-numbered footnote or footnote with user defined custom reference mark.
@@ -17,7 +17,6 @@ bool Aspose::Words::Notes::Footnote::get_IsAuto() const
 
 
 ## Examples
-
 
 
 
@@ -63,3 +62,8 @@ ASSERT_TRUE(footnote->get_IsAuto());
 doc->Save(ArtifactsDir + u"InlineStory.AddFootnote.docx");
 ```
 
+## See Also
+
+* Class [Footnote](../)
+* Namespace [Aspose::Words::Notes](../../)
+* Library [Aspose.Words](../../../)

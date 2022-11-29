@@ -48,7 +48,6 @@ class DigitalSignatureCollection : public System::Collections::Generic::IEnumera
 
 
 
-
 Shows how to validate and display information about each signature in a document. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Digitally signed.docx");
@@ -105,3 +104,7 @@ ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_I
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::DigitalSignatures](../)
+* Library [Aspose.Words](../../)

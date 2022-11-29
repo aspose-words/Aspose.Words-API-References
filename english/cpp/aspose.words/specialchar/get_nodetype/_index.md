@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/specialchar/get_nodetype/
 ---
-## SpecialChar.get_NodeType method
+## SpecialChar::get_NodeType method
 
 
 Returns **NodeType.SpecialChar**.
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::SpecialChar::get_NodeType() const overrid
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,9 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../nodetype/)
+* Class [SpecialChar](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

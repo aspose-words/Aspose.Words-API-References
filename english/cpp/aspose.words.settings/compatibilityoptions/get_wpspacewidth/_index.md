@@ -6,7 +6,7 @@ type: docs
 weight: 898
 url: /cpp/aspose.words.settings/compatibilityoptions/get_wpspacewidth/
 ---
-## CompatibilityOptions.get_WPSpaceWidth method
+## CompatibilityOptions::get_WPSpaceWidth method
 
 
 Specifies whether to set the width of a space as is done in WordPerfect 5.x.
@@ -15,3 +15,8 @@ Specifies whether to set the width of a space as is done in WordPerfect 5.x.
 bool Aspose::Words::Settings::CompatibilityOptions::get_WPSpaceWidth()
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

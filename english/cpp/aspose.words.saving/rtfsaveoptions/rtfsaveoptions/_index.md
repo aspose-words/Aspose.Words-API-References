@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/rtfsaveoptions/rtfsaveoptions/
 ---
-## RtfSaveOptions.RtfSaveOptions method
+## RtfSaveOptions::RtfSaveOptions constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.saving/rtfsaveoptions/rtfsaveoptions/
 Aspose::Words::Saving::RtfSaveOptions::RtfSaveOptions()
 ```
 
+## See Also
+
+* Class [RtfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

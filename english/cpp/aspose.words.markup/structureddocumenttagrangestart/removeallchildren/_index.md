@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/
 ---
-## StructuredDocumentTagRangeStart.RemoveAllChildren method
+## StructuredDocumentTagRangeStart::RemoveAllChildren method
 
 
 Removes all the nodes between this range start node and the range end node.
@@ -17,7 +17,6 @@ void Aspose::Words::Markup::StructuredDocumentTagRangeStart::RemoveAllChildren()
 
 
 ## Examples
-
 
 
 
@@ -67,3 +66,8 @@ void InsertStructuredDocumentTagRanges(SharedPtr<Document> doc, SharedPtr<Struct
 }
 ```
 
+## See Also
+
+* Class [StructuredDocumentTagRangeStart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/aspose.words/documentbuilder/insertfootnote/
 ---
-## DocumentBuilder.InsertFootnote(Aspose::Words::Notes::FootnoteType, const System::String\&) method
+## DocumentBuilder::InsertFootnote(Aspose::Words::Notes::FootnoteType, const System::String\&) method
 
 
 Inserts a footnote or endnote into the document.
@@ -23,11 +23,9 @@ System::SharedPtr<Aspose::Words::Notes::Footnote> Aspose::Words::DocumentBuilder
 
 ### ReturnValue
 
-
 Returns a footnote object that was just created.
 
 ## Examples
-
 
 
 
@@ -56,7 +54,14 @@ builder->InsertBreak(BreakType::PageBreak);
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertFootnote.docx");
 ```
 
-## DocumentBuilder.InsertFootnote(Aspose::Words::Notes::FootnoteType, const System::String\&, const System::String\&) method
+## See Also
+
+* Class [Footnote](../../../aspose.words.notes/footnote/)
+* Enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## DocumentBuilder::InsertFootnote(Aspose::Words::Notes::FootnoteType, const System::String\&, const System::String\&) method
 
 
 Inserts a footnote or endnote into the document.
@@ -74,11 +79,9 @@ System::SharedPtr<Aspose::Words::Notes::Footnote> Aspose::Words::DocumentBuilder
 
 ### ReturnValue
 
-
 Returns a footnote object that was just created.
 
 ## Examples
-
 
 
 
@@ -107,3 +110,10 @@ builder->InsertBreak(BreakType::PageBreak);
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertFootnote.docx");
 ```
 
+## See Also
+
+* Class [Footnote](../../../aspose.words.notes/footnote/)
+* Enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

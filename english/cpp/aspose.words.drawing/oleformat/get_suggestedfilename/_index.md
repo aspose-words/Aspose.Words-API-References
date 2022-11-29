@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.drawing/oleformat/get_suggestedfilename/
 ---
-## OleFormat.get_SuggestedFileName method
+## OleFormat::get_SuggestedFileName method
 
 
 Gets the file name suggested for the current embedded object if you want to save it into a file.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Drawing::OleFormat::get_SuggestedFileName()
 
 
 ## Examples
-
 
 
 
@@ -39,3 +38,8 @@ ASSERT_EQ(u"CSV.csv", suggestedFileName);
 }
 ```
 
+## See Also
+
+* Class [OleFormat](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

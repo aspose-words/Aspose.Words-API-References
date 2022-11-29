@@ -6,10 +6,10 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.loading/loadoptions/get_mswversion/
 ---
-## LoadOptions.get_MswVersion method
+## LoadOptions::get_MswVersion method
 
 
-Allows to specify that the document loading process should match a specific MS Word version. Default value is **Word2019**
+Allows to specify that the document loading process should match a specific MS Word version. Default value is [Word2019](../../../aspose.words.settings/mswordversion/)
 
 ```cpp
 Aspose::Words::Settings::MsWordVersion Aspose::Words::Loading::LoadOptions::get_MswVersion() const
@@ -17,7 +17,6 @@ Aspose::Words::Settings::MsWordVersion Aspose::Words::Loading::LoadOptions::get_
 
 
 ## Examples
-
 
 
 
@@ -37,3 +36,9 @@ auto doc = MakeObject<Document>(MyDir + u"Document.docx", loadOptions);
 ASSERT_NEAR(12.95, doc->get_Styles()->get_DefaultParagraphFormat()->get_LineSpacing(), 0.01);
 ```
 
+## See Also
+
+* Enum [MsWordVersion](../../../aspose.words.settings/mswordversion/)
+* Class [LoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

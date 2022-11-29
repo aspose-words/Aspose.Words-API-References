@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/tablestyle/get_allowbreakacrosspages/
 ---
-## TableStyle.get_AllowBreakAcrossPages method
+## TableStyle::get_AllowBreakAcrossPages method
 
 
 Gets or sets a flag indicating whether text in a table row is allowed to split across a page break.
@@ -17,7 +17,6 @@ bool Aspose::Words::TableStyle::get_AllowBreakAcrossPages()
 
 
 ## Examples
-
 
 
 
@@ -59,3 +58,8 @@ ASSERT_EQ(u"MyTableStyle1", table->get_StyleName());
 doc->Save(ArtifactsDir + u"Table.TableStyleCreation.docx");
 ```
 
+## See Also
+
+* Class [TableStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

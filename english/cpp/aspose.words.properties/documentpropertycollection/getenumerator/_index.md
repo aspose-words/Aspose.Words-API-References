@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.properties/documentpropertycollection/getenumerator/
 ---
-## DocumentPropertyCollection.GetEnumerator method
+## DocumentPropertyCollection::GetEnumerator method
 
 
 Returns an enumerator object that can be used to iterate over all items in the collection.
@@ -17,7 +17,6 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 
 ## Examples
-
 
 
 
@@ -79,3 +78,9 @@ properties->Clear();
 ASSERT_EQ(0, properties->get_Count());
 ```
 
+## See Also
+
+* Class [DocumentProperty](../../documentproperty/)
+* Class [DocumentPropertyCollection](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

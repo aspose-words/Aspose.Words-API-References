@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing/relativeverticalposition/
 
 Specifies to what the vertical position of a shape or text frame is relative.
 
+```cpp
+enum class RelativeVerticalPosition
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -23,12 +27,11 @@ Specifies to what the vertical position of a shape or text frame is relative.
 | BottomMargin | 5 | Specifies that the vertical positioning shall be relative to the bottom margin of the current page. |
 | InsideMargin | 6 | Specifies that the vertical positioning shall be relative to the inside margin of the current page. |
 | OutsideMargin | 7 | Specifies that the vertical positioning shall be relative to the outside margin of the current page. |
-| TableDefault | n/a | Default value is **Margin**. |
-| TextFrameDefault | n/a | Default value is **Paragraph**. |
+| TableDefault | n/a | Default value is [Margin](./). |
+| TextFrameDefault | n/a | Default value is [Paragraph](./). |
 
 
 ## Examples
-
 
 
 
@@ -71,3 +74,7 @@ shape->set_VerticalAlignment(VerticalAlignment::Center);
 doc->Save(ArtifactsDir + u"Image.CreateFloatingPageCenter.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

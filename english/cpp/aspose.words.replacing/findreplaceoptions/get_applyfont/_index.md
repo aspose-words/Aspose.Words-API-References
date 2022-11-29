@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.replacing/findreplaceoptions/get_applyfont/
 ---
-## FindReplaceOptions.get_ApplyFont method
+## FindReplaceOptions::get_ApplyFont method
 
 
 Text formatting applied to new content.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Font> Aspose::Words::Replacing::FindReplaceOpti
 
 
 ## Examples
-
 
 
 
@@ -92,3 +91,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Font](../../../aspose.words/font/)
+* Class [FindReplaceOptions](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/aspose.words.drawing/shapebase/get_istoplevel/
 ---
-## ShapeBase.get_IsTopLevel method
+## ShapeBase::get_IsTopLevel method
 
 
 Returns true if this shape is not a child of a group shape.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::ShapeBase::get_IsTopLevel()
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,8 @@ group->AppendChild(shape);
 ASSERT_FALSE(shape->get_IsTopLevel());
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

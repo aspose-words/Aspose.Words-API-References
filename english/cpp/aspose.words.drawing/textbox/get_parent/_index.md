@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.drawing/textbox/get_parent/
 ---
-## TextBox.get_Parent method
+## TextBox::get_Parent method
 
 
 Gets a parent shape for the [TextBox](../).
@@ -15,3 +15,9 @@ Gets a parent shape for the [TextBox](../).
 System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::Drawing::TextBox::get_Parent() const
 ```
 
+## See Also
+
+* Class [Shape](../../shape/)
+* Class [TextBox](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

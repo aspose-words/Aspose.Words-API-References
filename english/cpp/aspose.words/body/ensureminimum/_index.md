@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/body/ensureminimum/
 ---
-## Body.EnsureMinimum method
+## Body::EnsureMinimum method
 
 
 If the last child is not a paragraph, creates and appends one empty paragraph.
@@ -17,7 +17,6 @@ void Aspose::Words::Body::EnsureMinimum()
 
 
 ## Examples
-
 
 
 
@@ -53,3 +52,8 @@ body->get_FirstParagraph()->AppendChild(MakeObject<Run>(doc, u"Hello world!"));
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Body](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

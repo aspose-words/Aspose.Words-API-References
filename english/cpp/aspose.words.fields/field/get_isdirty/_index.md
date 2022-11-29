@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fields/field/get_isdirty/
 ---
-## Field.get_IsDirty method
+## Field::get_IsDirty method
 
 
 Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::Field::get_IsDirty()
 
 
 ## Examples
-
 
 
 
@@ -72,3 +71,8 @@ field->set_IsDirty(true);
 }
 ```
 
+## See Also
+
+* Class [Field](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

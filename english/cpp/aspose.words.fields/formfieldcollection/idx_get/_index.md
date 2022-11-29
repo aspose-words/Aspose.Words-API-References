@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/formfieldcollection/idx_get/
 ---
-## FormFieldCollection.idx_get(const System::String\&) method
+## FormFieldCollection::idx_get(const System::String\&) method
 
 
 Returns a form field by bookmark name.
@@ -24,7 +24,6 @@ System::SharedPtr<Aspose::Words::Fields::FormField> Aspose::Words::Fields::FormF
 
 
 
-
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation. 
 ```cpp
 void Visitor()
@@ -154,7 +153,13 @@ private:
 };
 ```
 
-## FormFieldCollection.idx_get(int32_t) method
+## See Also
+
+* Class [FormField](../../formfield/)
+* Class [FormFieldCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)
+## FormFieldCollection::idx_get(int32_t) method
 
 
 Returns a form field at the specified index.
@@ -167,6 +172,8 @@ System::SharedPtr<Aspose::Words::Fields::FormField> Aspose::Words::Fields::FormF
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | An index into the collection. |
+## Remarks
+
 
 The index is zero-based.
 
@@ -180,7 +187,6 @@ If index is negative and its absolute value is greater than the number of items 
 
 
 
-
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation. 
 ```cpp
 void Visitor()
@@ -310,3 +316,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [FormField](../../formfield/)
+* Class [FormFieldCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

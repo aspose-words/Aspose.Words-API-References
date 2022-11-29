@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.rendering/shaperenderer/shaperenderer/
 ---
-## ShapeRenderer.ShapeRenderer method
+## ShapeRenderer::ShapeRenderer constructor
 
 
 Initializes a new instance of this class.
@@ -20,4 +20,9 @@ Aspose::Words::Rendering::ShapeRenderer::ShapeRenderer(const System::SharedPtr<A
 | --- | --- | --- |
 | shape | const System::SharedPtr\<Aspose::Words::Drawing::ShapeBase\>\& | The DrawinML shape object that you want to render. |
 
+## See Also
 
+* Class [ShapeBase](../../../aspose.words.drawing/shapebase/)
+* Class [ShapeRenderer](../)
+* Namespace [Aspose::Words::Rendering](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words/story/get_tables/
 ---
-## Story.get_Tables method
+## Story::get_Tables method
 
 
 Gets a collection of tables that are immediate children of the story.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Tables::TableCollection> Aspose::Words::Story::
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,9 @@ ASSERT_EQ(3, tables->idx_get(0)->get_Rows()->get_Count());
 ASSERT_EQ(2, tables->idx_get(1)->get_Rows()->get_Count());
 ```
 
+## See Also
+
+* Class [TableCollection](../../../aspose.words.tables/tablecollection/)
+* Class [Story](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

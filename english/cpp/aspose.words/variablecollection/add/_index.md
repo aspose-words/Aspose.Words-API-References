@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/variablecollection/add/
 ---
-## VariableCollection.Add method
+## VariableCollection::Add method
 
 
 Adds a document variable to the collection.
@@ -22,7 +22,6 @@ void Aspose::Words::VariableCollection::Add(const System::String &name, const Sy
 | value | const System::String\& | The value of the variable. The value cannot be null, if value is null empty string will be used instead. |
 
 ## Examples
-
 
 
 
@@ -92,3 +91,8 @@ variables->Clear();
 ASSERT_EQ(0, variables->get_Count());
 ```
 
+## See Also
+
+* Class [VariableCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

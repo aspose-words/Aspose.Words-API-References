@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/headerfooter/get_nodetype/
 ---
-## HeaderFooter.get_NodeType method
+## HeaderFooter::get_NodeType method
 
 
 Returns **NodeType.HeaderFooter**.
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::HeaderFooter::get_NodeType() const overri
 
 
 ## Examples
-
 
 
 
@@ -63,3 +62,9 @@ for (const auto& node : System::IterateOver(section))
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../nodetype/)
+* Class [HeaderFooter](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

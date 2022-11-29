@@ -6,10 +6,10 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/odtsaveoptions/odtsaveoptions/
 ---
-## OdtSaveOptions.OdtSaveOptions() method
+## OdtSaveOptions::OdtSaveOptions() constructor
 
 
-Initializes a new instance of this class that can be used to save a document in the **Odt** format.
+Initializes a new instance of this class that can be used to save a document in the [Odt](../../../aspose.words/saveformat/) format.
 
 ```cpp
 Aspose::Words::Saving::OdtSaveOptions::OdtSaveOptions()
@@ -17,7 +17,6 @@ Aspose::Words::Saving::OdtSaveOptions::OdtSaveOptions()
 
 
 ## Examples
-
 
 
 
@@ -32,10 +31,15 @@ saveOptions->set_IsStrictSchema11(exportToOdt11Specs);
 doc->Save(ArtifactsDir + u"OdtSaveOptions.Odt11Schema.odt", saveOptions);
 ```
 
-## OdtSaveOptions.OdtSaveOptions(Aspose::Words::SaveFormat) method
+## See Also
+
+* Class [OdtSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)
+## OdtSaveOptions::OdtSaveOptions(Aspose::Words::SaveFormat) constructor
 
 
-Initializes a new instance of this class that can be used to save a document in the **Odt** or **Ott** format.
+Initializes a new instance of this class that can be used to save a document in the [Odt](../../../aspose.words/saveformat/) or [Ott](../../../aspose.words/saveformat/) format.
 
 ```cpp
 Aspose::Words::Saving::OdtSaveOptions::OdtSaveOptions(Aspose::Words::SaveFormat saveFormat)
@@ -44,10 +48,9 @@ Aspose::Words::Saving::OdtSaveOptions::OdtSaveOptions(Aspose::Words::SaveFormat 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | Aspose::Words::SaveFormat | Can be **Odt** or **Ott**. |
+| saveFormat | Aspose::Words::SaveFormat | Can be [Odt](../../../aspose.words/saveformat/) or [Ott](../../../aspose.words/saveformat/). |
 
 ## Examples
-
 
 
 
@@ -79,12 +82,23 @@ doc = MakeObject<Document>(ArtifactsDir + u"OdtSaveOptions.Encrypt" + extensionS
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
 
-## OdtSaveOptions.OdtSaveOptions(const System::String\&) method
+## See Also
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [OdtSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)
+## OdtSaveOptions::OdtSaveOptions(const System::String\&) constructor
 
 
-Initializes a new instance of this class that can be used to save a document in the **Odt** format encrypted with a password.
+Initializes a new instance of this class that can be used to save a document in the [Odt](../../../aspose.words/saveformat/) format encrypted with a password.
 
 ```cpp
 Aspose::Words::Saving::OdtSaveOptions::OdtSaveOptions(const System::String &password)
 ```
 
+## See Also
+
+* Class [OdtSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

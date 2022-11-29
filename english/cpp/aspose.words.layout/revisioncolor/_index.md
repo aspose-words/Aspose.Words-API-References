@@ -11,6 +11,10 @@ url: /cpp/aspose.words.layout/revisioncolor/
 
 Allows to specify color of document revisions.
 
+```cpp
+enum class RevisionColor
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -42,7 +46,6 @@ Allows to specify color of document revisions.
 
 
 
-
 Shows how to alter the appearance of revisions in a rendered output document. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -62,3 +65,7 @@ doc->get_LayoutOptions()->get_RevisionOptions()->set_ShowRevisionBars(false);
 doc->Save(ArtifactsDir + u"Document.LayoutOptionsRevisions.pdf");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Layout](../)
+* Library [Aspose.Words](../../)

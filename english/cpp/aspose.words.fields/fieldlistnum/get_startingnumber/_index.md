@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fieldlistnum/get_startingnumber/
 ---
-## FieldListNum.get_StartingNumber method
+## FieldListNum::get_StartingNumber method
 
 
 Gets or sets the starting value for this field.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldListNum::get_StartingNumber()
 
 
 ## Examples
-
 
 
 
@@ -85,3 +84,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.LISTNUM.docx");
 ```
 
+## See Also
+
+* Class [FieldListNum](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

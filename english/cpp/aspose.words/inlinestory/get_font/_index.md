@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/inlinestory/get_font/
 ---
-## InlineStory.get_Font method
+## InlineStory::get_Font method
 
 
 Provides access to the font formatting of the anchor character of this object.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Font> Aspose::Words::InlineStory::get_Font()
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,9 @@ ASSERT_EQ(StoryType::Comments, comment->get_StoryType());
 doc->Save(ArtifactsDir + u"InlineStory.InsertInlineStoryNodes.docx");
 ```
 
+## See Also
+
+* Class [Font](../../font/)
+* Class [InlineStory](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

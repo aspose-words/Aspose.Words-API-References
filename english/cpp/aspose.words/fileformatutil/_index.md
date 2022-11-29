@@ -36,7 +36,6 @@ class FileFormatUtil
 
 
 
-
 Shows how to detect encoding in an html file. 
 ```cpp
 SharedPtr<FileFormatInfo> info = FileFormatUtil::DetectFileFormat(MyDir + u"Document.html");
@@ -48,3 +47,7 @@ ASSERT_EQ(u"Windows-1252", info->get_Encoding()->get_WebName());
 ASSERT_EQ(1252, info->get_Encoding()->get_CodePage());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

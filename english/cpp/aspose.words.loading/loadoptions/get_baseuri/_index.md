@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.loading/loadoptions/get_baseuri/
 ---
-## LoadOptions.get_BaseUri method
+## LoadOptions::get_BaseUri method
 
 
 Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be null or empty string. Default is null.
@@ -14,6 +14,8 @@ Gets or sets the string that will be used to resolve relative URIs found in the 
 ```cpp
 System::String Aspose::Words::Loading::LoadOptions::get_BaseUri() const
 ```
+
+## Remarks
 
 
 This property is used to resolve relative URIs into absolute in the following cases:
@@ -24,7 +26,6 @@ This property is used to resolve relative URIs into absolute in the following ca
 
 
 ## Examples
-
 
 
 
@@ -49,3 +50,8 @@ Shows how to open an HTML document with images from a stream using a base URI.
 }
 ```
 
+## See Also
+
+* Class [LoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

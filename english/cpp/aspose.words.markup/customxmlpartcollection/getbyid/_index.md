@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.markup/customxmlpartcollection/getbyid/
 ---
-## CustomXmlPartCollection.GetById method
+## CustomXmlPartCollection::GetById method
 
 
 Finds and returns a custom XML part by its identifier.
@@ -22,11 +22,9 @@ System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> Aspose::Words::Markup::C
 
 ### ReturnValue
 
-
 Returns **null** if a custom XML part with the specified identifier is not found.
 
 ## Examples
-
 
 
 
@@ -91,3 +89,9 @@ doc->get_FirstSection()->get_Body()->AppendChild(tag);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.CustomXml.docx");
 ```
 
+## See Also
+
+* Class [CustomXmlPart](../../customxmlpart/)
+* Class [CustomXmlPartCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

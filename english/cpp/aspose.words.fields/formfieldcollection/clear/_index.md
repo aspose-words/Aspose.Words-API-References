@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/formfieldcollection/clear/
 ---
-## FormFieldCollection.Clear method
+## FormFieldCollection::Clear method
 
 
 Removes all form fields from this collection and from the document.
@@ -17,7 +17,6 @@ void Aspose::Words::Fields::FormFieldCollection::Clear()
 
 
 ## Examples
-
 
 
 
@@ -150,3 +149,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [FormFieldCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

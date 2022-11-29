@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.drawing/gradientstop/gradientstop/
 ---
-## GradientStop.GradientStop(System::Drawing::Color, double) method
+## GradientStop::GradientStop(System::Drawing::Color, double) constructor
 
 
 Initializes a new instance of the [GradientStop](../) class.
@@ -22,7 +22,6 @@ Aspose::Words::Drawing::GradientStop::GradientStop(System::Drawing::Color color,
 | position | double | Represents the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 
 ## Examples
-
 
 
 
@@ -74,7 +73,12 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 doc->Save(ArtifactsDir + u"Shape.GradientStops.docx", saveOptions);
 ```
 
-## GradientStop.GradientStop(System::Drawing::Color, double, double) method
+## See Also
+
+* Class [GradientStop](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)
+## GradientStop::GradientStop(System::Drawing::Color, double, double) constructor
 
 
 Initializes a new instance of the [GradientStop](../) class.
@@ -94,7 +98,6 @@ Aspose::Words::Drawing::GradientStop::GradientStop(System::Drawing::Color color,
 
 
 
-
 Shows how to add gradient stops to the gradient fill. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -143,3 +146,8 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 doc->Save(ArtifactsDir + u"Shape.GradientStops.docx", saveOptions);
 ```
 
+## See Also
+
+* Class [GradientStop](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

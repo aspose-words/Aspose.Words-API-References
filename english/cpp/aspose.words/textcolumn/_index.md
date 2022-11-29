@@ -23,13 +23,14 @@ class TextColumn : public System::Object
 | [get_Width](./get_width/)() | Gets or sets the width of the text column in points. |
 | [set_SpaceAfter](./set_spaceafter/)(double) | Setter for [Aspose::Words::TextColumn::get_SpaceAfter](./get_spaceafter/). |
 | [set_Width](./set_width/)(double) | Setter for [Aspose::Words::TextColumn::get_Width](./get_width/). |
+## Remarks
+
 
 **TextColumn** objects are only used to specify columns with custom width and spacing. If you want the columns in the document to be of equal width, set TextColumns.[EvenlySpaced](../textcolumncollection/get_evenlyspaced/) to **true**.
 
 When a new **TextColumn** is created it has its width and spacing set to zero.
 
 ## Examples
-
 
 
 
@@ -64,3 +65,7 @@ builder->Writeln(u"Wide column 2.");
 doc->Save(ArtifactsDir + u"PageSetup.CustomColumnWidth.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

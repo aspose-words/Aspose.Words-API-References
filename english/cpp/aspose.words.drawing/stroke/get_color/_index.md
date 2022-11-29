@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.drawing/stroke/get_color/
 ---
-## Stroke.get_Color method
+## Stroke::get_Color method
 
 
 Defines the color of a stroke.
@@ -15,11 +15,12 @@ Defines the color of a stroke.
 System::Drawing::Color Aspose::Words::Drawing::Stroke::get_Color()
 ```
 
+## Remarks
+
 
 The default value for a [Shape](../../shape/) is **Black**.
 
 ## Examples
-
 
 
 
@@ -92,3 +93,8 @@ ArrayPtr<uint8_t> imageBytes = System::IO::File::ReadAllBytes(ImageDir + u"Logo.
 doc->Save(ArtifactsDir + u"Drawing.VariousShapes.docx");
 ```
 
+## See Also
+
+* Class [Stroke](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/formfieldcollection/getenumerator/
 ---
-## FormFieldCollection.GetEnumerator method
+## FormFieldCollection::GetEnumerator method
 
 
 Returns an enumerator object.
@@ -17,7 +17,6 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 
 ## Examples
-
 
 
 
@@ -150,3 +149,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [FormField](../../formfield/)
+* Class [FormFieldCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

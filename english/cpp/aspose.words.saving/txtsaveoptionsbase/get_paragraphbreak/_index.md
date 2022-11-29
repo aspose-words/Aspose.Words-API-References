@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.saving/txtsaveoptionsbase/get_paragraphbreak/
 ---
-## TxtSaveOptionsBase.get_ParagraphBreak method
+## TxtSaveOptionsBase::get_ParagraphBreak method
 
 
 Specifies the string to use as a paragraph break when exporting in text formats.
@@ -15,11 +15,12 @@ Specifies the string to use as a paragraph break when exporting in text formats.
 System::String Aspose::Words::Saving::TxtSaveOptionsBase::get_ParagraphBreak() const
 ```
 
+## Remarks
+
 
 The default value is [CrLf](../../../aspose.words/controlchar/crlf/).
 
 ## Examples
-
 
 
 
@@ -48,3 +49,8 @@ String docText = System::IO::File::ReadAllText(ArtifactsDir + u"TxtSaveOptions.P
 ASSERT_EQ(String(u"Paragraph 1. End of paragraph.\n\n\t") + u"Paragraph 2. End of paragraph.\n\n\t" + u"Paragraph 3. End of paragraph.\n\n\t", docText);
 ```
 
+## See Also
+
+* Class [TxtSaveOptionsBase](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

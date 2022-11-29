@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fonts/filefontsource/get_filepath/
 ---
-## FileFontSource.get_FilePath method
+## FileFontSource::get_FilePath method
 
 
 Path to the font file.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fonts::FileFontSource::get_FilePath() const
 
 
 ## Examples
-
 
 
 
@@ -34,3 +33,8 @@ ASSERT_EQ(FontSourceType::FontFile, fileFontSource->get_Type());
 ASSERT_EQ(0, fileFontSource->get_Priority());
 ```
 
+## See Also
+
+* Class [FileFontSource](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

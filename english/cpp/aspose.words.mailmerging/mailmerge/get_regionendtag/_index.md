@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.mailmerging/mailmerge/get_regionendtag/
 ---
-## MailMerge.get_RegionEndTag method
+## MailMerge::get_RegionEndTag method
 
 
 Gets or sets a mail merge region end tag.
@@ -17,7 +17,6 @@ System::String Aspose::Words::MailMerging::MailMerge::get_RegionEndTag() const
 
 
 ## Examples
-
 
 
 
@@ -70,3 +69,8 @@ mergeFieldNames = doc->get_MailMerge()->GetFieldNamesForRegion(u"MailMergeRegion
 ASSERT_EQ(u"Column2", mergeFieldNames[0]);
 ```
 
+## See Also
+
+* Class [MailMerge](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

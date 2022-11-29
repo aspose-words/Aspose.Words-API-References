@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldautotextlist/
 Implements the AUTOTEXTLIST field.
 
 ```cpp
-class FieldAutoTextList : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldAutoTextList : public Aspose::Words::Fields::Field,
+                          public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -49,7 +50,6 @@ class FieldAutoTextList : public Aspose::Words::Fields::Field, public Aspose::Wo
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 
 ## Examples
-
 
 
 
@@ -99,3 +99,8 @@ static void AppendAutoTextEntry(SharedPtr<GlossaryDocument> glossaryDoc, String 
 }
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

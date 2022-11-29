@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.layout/layoutenumerator/get_kind/
 ---
-## LayoutEnumerator.get_Kind method
+## LayoutEnumerator::get_Kind method
 
 
 Gets the kind of the current entity. This can be an empty string but never null.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Layout::LayoutEnumerator::get_Kind()
 
 
 ## Examples
-
 
 
 
@@ -143,3 +142,8 @@ static void PrintCurrentEntity(SharedPtr<LayoutEnumerator> layoutEnumerator, int
 }
 ```
 
+## See Also
+
+* Class [LayoutEnumerator](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

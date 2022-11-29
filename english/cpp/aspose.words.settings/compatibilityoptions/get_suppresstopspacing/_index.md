@@ -6,7 +6,7 @@ type: docs
 weight: 651
 url: /cpp/aspose.words.settings/compatibilityoptions/get_suppresstopspacing/
 ---
-## CompatibilityOptions.get_SuppressTopSpacing method
+## CompatibilityOptions::get_SuppressTopSpacing method
 
 
 Ignore Minimum and Exact Line Height for First Line on Page.
@@ -15,3 +15,8 @@ Ignore Minimum and Exact Line Height for First Line on Page.
 bool Aspose::Words::Settings::CompatibilityOptions::get_SuppressTopSpacing()
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

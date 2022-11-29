@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fonts/physicalfontinfo/get_fullfontname/
 ---
-## PhysicalFontInfo.get_FullFontName method
+## PhysicalFontInfo::get_FullFontName method
 
 
 Full name of the font.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fonts::PhysicalFontInfo::get_FullFontName() const
 
 
 ## Examples
-
 
 
 
@@ -35,3 +34,8 @@ for (const auto& fontInfo : System::IterateOver(folderFontSource[0]->GetAvailabl
 }
 ```
 
+## See Also
+
+* Class [PhysicalFontInfo](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

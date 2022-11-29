@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words/documentbuilder/get_isatendofstructureddocumenttag/
 ---
-## DocumentBuilder.get_IsAtEndOfStructuredDocumentTag method
+## DocumentBuilder::get_IsAtEndOfStructuredDocumentTag method
 
 
 Returns **true** if the cursor is at the end of a structured document tag.
@@ -15,3 +15,8 @@ Returns **true** if the cursor is at the end of a structured document tag.
 bool Aspose::Words::DocumentBuilder::get_IsAtEndOfStructuredDocumentTag()
 ```
 
+## See Also
+
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

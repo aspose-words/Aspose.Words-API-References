@@ -11,6 +11,10 @@ url: /cpp/aspose.words.notes/footnotenumberingrule/
 
 Determines when automatic footnote or endnote numbering restarts.
 
+```cpp
+enum class FootnoteNumberingRule
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -18,11 +22,10 @@ Determines when automatic footnote or endnote numbering restarts.
 | Continuous | 0 | Numbering continuous throughout the document. |
 | RestartSection | 1 | Numbering restarts at each section. |
 | RestartPage | 2 | Numbering restarts at each page. Valid for footnotes only. |
-| Default | n/a | Equals **Continuous**. |
+| Default | n/a | Equals [Continuous](./). |
 
 
 ## Examples
-
 
 
 
@@ -75,3 +78,7 @@ doc->get_EndnoteOptions()->set_RestartRule(FootnoteNumberingRule::RestartSection
 doc->Save(ArtifactsDir + u"InlineStory.NumberingRule.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Notes](../)
+* Library [Aspose.Words](../../)

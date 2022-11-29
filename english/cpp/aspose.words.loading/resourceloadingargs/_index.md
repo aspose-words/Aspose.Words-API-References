@@ -21,12 +21,11 @@ class ResourceLoadingArgs : public System::Object
 | --- | --- |
 | [get_OriginalUri](./get_originaluri/)() const | Original URI of the resource as specified in imported document. |
 | [get_ResourceType](./get_resourcetype/)() const | Type of resource. |
-| [get_Uri](./get_uri/)() const | URI of the resource which is used for downloading if [ResourceLoading()](../iresourceloadingcallback/resourceloading/) returns **Default**. Initially it's set to absolute URI of the resource, but user can redefine it to any value. |
+| [get_Uri](./get_uri/)() const | URI of the resource which is used for downloading if [ResourceLoading()](../iresourceloadingcallback/resourceloading/) returns [Default](../resourceloadingaction/). Initially it's set to absolute URI of the resource, but user can redefine it to any value. |
 | [set_Uri](./set_uri/)(const System::String\&) | Setter for [Aspose::Words::Loading::ResourceLoadingArgs::get_Uri](./get_uri/). |
-| [SetData](./setdata/)(const System::ArrayPtr\<uint8_t\>\&) | Sets user provided data of the resource which is used if [ResourceLoading()](../iresourceloadingcallback/resourceloading/) returns **UserProvided**. |
+| [SetData](./setdata/)(const System::ArrayPtr\<uint8_t\>\&) | Sets user provided data of the resource which is used if [ResourceLoading()](../iresourceloadingcallback/resourceloading/) returns [UserProvided](../resourceloadingaction/). |
 
 ## Examples
-
 
 
 
@@ -84,3 +83,7 @@ public:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Loading](../)
+* Library [Aspose.Words](../../)

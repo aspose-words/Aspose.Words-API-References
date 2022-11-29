@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/border/equals/
 ---
-## Border.Equals(const System::SharedPtr\<Aspose::Words::Border\>\&) method
+## Border::Equals(const System::SharedPtr\<Aspose::Words::Border\>\&) method
 
 
 Determines whether the specified border is equal in value to the current border.
@@ -20,7 +20,6 @@ bool Aspose::Words::Border::Equals(const System::SharedPtr<Aspose::Words::Border
 
 
 
-
 Shows how border collections can share elements. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -60,7 +59,13 @@ for (int i = 0; i < firstParagraphBorders->get_Count(); i++)
 doc->Save(ArtifactsDir + u"Border.SharedElements.docx");
 ```
 
-## Border.Equals(System::SharedPtr\<System::Object\>) method
+## See Also
+
+* Class [Border](../)
+* Class [Border](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Border::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Determines whether the specified object is equal in value to the current object.
@@ -74,7 +79,6 @@ bool Aspose::Words::Border::Equals(System::SharedPtr<System::Object> obj) overri
 
 
 
-
 Shows how border collections can share elements. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -114,3 +118,8 @@ for (int i = 0; i < firstParagraphBorders->get_Count(); i++)
 doc->Save(ArtifactsDir + u"Border.SharedElements.docx");
 ```
 
+## See Also
+
+* Class [Border](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

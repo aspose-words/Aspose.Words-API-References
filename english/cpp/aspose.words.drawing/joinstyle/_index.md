@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing/joinstyle/
 
 Line join style.
 
+```cpp
+enum class JoinStyle
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ Line join style.
 
 
 ## Examples
-
 
 
 
@@ -94,3 +97,7 @@ ArrayPtr<uint8_t> imageBytes = System::IO::File::ReadAllBytes(ImageDir + u"Logo.
 doc->Save(ArtifactsDir + u"Drawing.VariousShapes.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

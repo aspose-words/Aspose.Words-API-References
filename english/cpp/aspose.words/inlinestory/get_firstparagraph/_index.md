@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/inlinestory/get_firstparagraph/
 ---
-## InlineStory.get_FirstParagraph method
+## InlineStory::get_FirstParagraph method
 
 
 Gets the first paragraph in the story.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::InlineStory::get_Firs
 
 
 ## Examples
-
 
 
 
@@ -81,3 +80,9 @@ ASSERT_EQ(System::DateTime::get_Today(), comment->get_DateTime());
 doc->Save(ArtifactsDir + u"InlineStory.AddComment.docx");
 ```
 
+## See Also
+
+* Class [Paragraph](../../paragraph/)
+* Class [InlineStory](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

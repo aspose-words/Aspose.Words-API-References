@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.lists/listlevel/get_font/
 ---
-## ListLevel.get_Font method
+## ListLevel::get_Font method
 
 
 Specifies character formatting used for the list label.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Font> Aspose::Words::Lists::ListLevel::get_Font
 
 
 ## Examples
-
 
 
 
@@ -74,3 +73,9 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateCustomList.docx");
 ```
 
+## See Also
+
+* Class [Font](../../../aspose.words/font/)
+* Class [ListLevel](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

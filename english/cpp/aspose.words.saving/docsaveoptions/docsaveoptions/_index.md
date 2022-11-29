@@ -6,10 +6,10 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/docsaveoptions/docsaveoptions/
 ---
-## DocSaveOptions.DocSaveOptions() method
+## DocSaveOptions::DocSaveOptions() constructor
 
 
-Initializes a new instance of this class that can be used to save a document in the **Doc** format.
+Initializes a new instance of this class that can be used to save a document in the [Doc](../../../aspose.words/saveformat/) format.
 
 ```cpp
 Aspose::Words::Saving::DocSaveOptions::DocSaveOptions()
@@ -20,7 +20,6 @@ Aspose::Words::Saving::DocSaveOptions::DocSaveOptions()
 
 
 
-
 Shows how to set save options for older Microsoft Word formats. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -48,10 +47,15 @@ doc = MakeObject<Document>(ArtifactsDir + u"DocSaveOptions.SaveAsDoc.doc", loadO
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
 
-## DocSaveOptions.DocSaveOptions(Aspose::Words::SaveFormat) method
+## See Also
+
+* Class [DocSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)
+## DocSaveOptions::DocSaveOptions(Aspose::Words::SaveFormat) constructor
 
 
-Initializes a new instance of this class that can be used to save a document in the **Doc** or **Dot** format.
+Initializes a new instance of this class that can be used to save a document in the [Doc](../../../aspose.words/saveformat/) or [Dot](../../../aspose.words/saveformat/) format.
 
 ```cpp
 Aspose::Words::Saving::DocSaveOptions::DocSaveOptions(Aspose::Words::SaveFormat saveFormat)
@@ -60,10 +64,9 @@ Aspose::Words::Saving::DocSaveOptions::DocSaveOptions(Aspose::Words::SaveFormat 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | Aspose::Words::SaveFormat | Can be **Doc** or **Dot**. |
+| saveFormat | Aspose::Words::SaveFormat | Can be [Doc](../../../aspose.words/saveformat/) or [Dot](../../../aspose.words/saveformat/). |
 
 ## Examples
-
 
 
 
@@ -94,3 +97,9 @@ doc = MakeObject<Document>(ArtifactsDir + u"DocSaveOptions.SaveAsDoc.doc", loadO
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [DocSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

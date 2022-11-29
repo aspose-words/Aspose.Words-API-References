@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.markup/customxmlschemacollection/virtualizebeginiterator/
 ---
-## CustomXmlSchemaCollection.virtualizeBeginIterator method
+## CustomXmlSchemaCollection::virtualizeBeginIterator method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.markup/customxmlschemacollection/virtualizebeginiterator/
 virtualized_iterator * Aspose::Words::Markup::CustomXmlSchemaCollection::virtualizeBeginIterator() override
 ```
 
+## See Also
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [CustomXmlSchemaCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

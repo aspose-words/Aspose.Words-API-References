@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words/compositenode/getenumerator/
 ---
-## CompositeNode.GetEnumerator method
+## CompositeNode::GetEnumerator method
 
 
 Provides support for the for each style iteration over the child nodes of this node.
@@ -17,7 +17,6 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 
 ## Examples
-
 
 
 
@@ -68,3 +67,9 @@ for (const auto& child : System::IterateOver(children))
 }
 ```
 
+## See Also
+
+* Class [Node](../../node/)
+* Class [CompositeNode](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.notes/footnote/get_referencemark/
 ---
-## Footnote.get_ReferenceMark method
+## Footnote::get_ReferenceMark method
 
 
 Gets/sets custom reference mark to be used for this footnote. Default value is **empty string**, meaning auto-numbered footnotes are used.
@@ -15,13 +15,14 @@ Gets/sets custom reference mark to be used for this footnote. Default value is *
 System::String Aspose::Words::Notes::Footnote::get_ReferenceMark() const
 ```
 
+## Remarks
+
 
 If this property is set to **empty string** or null, then [IsAuto](../get_isauto/) property will automatically be set to true, if set to anything else then [IsAuto](../get_isauto/) will be set to false.
 
 RTF-format can only store 1 symbol as custom reference mark, so upon export only the first symbol will be written others will be discard.
 
 ## Examples
-
 
 
 
@@ -67,3 +68,8 @@ ASSERT_TRUE(footnote->get_IsAuto());
 doc->Save(ArtifactsDir + u"InlineStory.AddFootnote.docx");
 ```
 
+## See Also
+
+* Class [Footnote](../)
+* Namespace [Aspose::Words::Notes](../../)
+* Library [Aspose.Words](../../../)

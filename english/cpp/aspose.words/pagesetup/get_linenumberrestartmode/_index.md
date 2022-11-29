@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.words/pagesetup/get_linenumberrestartmode/
 ---
-## PageSetup.get_LineNumberRestartMode method
+## PageSetup::get_LineNumberRestartMode method
 
 
 Gets or sets the way line numbering runs that is, whether it starts over at the beginning of a new page or section or runs continuously.
@@ -17,7 +17,6 @@ Aspose::Words::LineNumberRestartMode Aspose::Words::PageSetup::get_LineNumberRes
 
 
 ## Examples
-
 
 
 
@@ -51,3 +50,9 @@ doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(14)->get_Paragrap
 doc->Save(ArtifactsDir + u"PageSetup.LineNumbers.docx");
 ```
 
+## See Also
+
+* Enum [LineNumberRestartMode](../../linenumberrestartmode/)
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/revisiongroup/get_author/
 ---
-## RevisionGroup.get_Author method
+## RevisionGroup::get_Author method
 
 
 Gets the author of this revision group.
@@ -17,7 +17,6 @@ System::String Aspose::Words::RevisionGroup::get_Author()
 
 
 ## Examples
-
 
 
 
@@ -35,3 +34,8 @@ for (const auto& group : doc->get_Revisions()->get_Groups())
 }
 ```
 
+## See Also
+
+* Class [RevisionGroup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

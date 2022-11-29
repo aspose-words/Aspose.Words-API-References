@@ -11,6 +11,10 @@ url: /cpp/aspose.words.webextensions/webextensionbindingtype/
 
 Enumerates available types of binding between a web extension and the data in the document.
 
+```cpp
+enum class WebExtensionBindingType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -22,7 +26,6 @@ Enumerates available types of binding between a web extension and the data in th
 
 
 ## Examples
-
 
 
 
@@ -65,3 +68,7 @@ doc->get_WebExtensionTaskPanes()->Clear();
 ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::WebExtensions](../)
+* Library [Aspose.Words](../../)

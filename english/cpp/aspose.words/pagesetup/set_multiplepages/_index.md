@@ -6,7 +6,7 @@ type: docs
 weight: 872
 url: /cpp/aspose.words/pagesetup/set_multiplepages/
 ---
-## PageSetup.set_MultiplePages method
+## PageSetup::set_MultiplePages method
 
 
 Setter for [Aspose::Words::PageSetup::get_MultiplePages](../get_multiplepages/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::PageSetup::get_MultiplePages](../get_multiplepages/).
 void Aspose::Words::PageSetup::set_MultiplePages(Aspose::Words::Settings::MultiplePagesType value)
 ```
 
+## See Also
+
+* Enum [MultiplePagesType](../../../aspose.words.settings/multiplepagestype/)
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.markup/structureddocumenttagcollection/getenumerator/
 ---
-## StructuredDocumentTagCollection.GetEnumerator method
+## StructuredDocumentTagCollection::GetEnumerator method
 
 
 Returns an enumerator object.
@@ -15,3 +15,9 @@ Returns an enumerator object.
 System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::Markup::IStructuredDocumentTag>>> Aspose::Words::Markup::StructuredDocumentTagCollection::GetEnumerator() override
 ```
 
+## See Also
+
+* Interface [IStructuredDocumentTag](../../istructureddocumenttag/)
+* Class [StructuredDocumentTagCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

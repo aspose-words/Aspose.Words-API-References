@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/pssaveoptions/
 ## PsSaveOptions class
 
 
-Can be used to specify additional options when saving a document into the **Ps** format.
+Can be used to specify additional options when saving a document into the [Ps](../../aspose.words/saveformat/) format.
 
 ```cpp
 class PsSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
@@ -40,7 +40,7 @@ class PsSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [get_PageSet](../fixedpagesaveoptions/get_pageset/)() const | Gets or sets the pages to render. Default is all the pages in the document. |
 | [get_PrettyFormat](../saveoptions/get_prettyformat/)() const | When **true**, pretty formats output where applicable. Default value is **false**. |
 | [get_ProgressCallback](../saveoptions/get_progresscallback/)() const | Called during saving a document and accepts data about saving progress. |
-| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can only be **Ps**. |
+| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can only be [Ps](../../aspose.words/saveformat/). |
 | [get_TempFolder](../saveoptions/get_tempfolder/)() const | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is **null** and no temporary files are used. |
 | [get_UpdateCreatedTimeProperty](../saveoptions/get_updatecreatedtimeproperty/)() const | Gets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is false;. |
 | [get_UpdateFields](../saveoptions/get_updatefields/)() const | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. |
@@ -84,7 +84,6 @@ class PsSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 
 
 
-
 Shows how to save a document to the Postscript format in the form of a book fold. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Paragraphs.docx");
@@ -110,3 +109,8 @@ for (const auto& s : System::IterateOver<Section>(doc->get_Sections()))
 doc->Save(ArtifactsDir + u"PsSaveOptions.UseBookFoldPrintingSettings.ps", saveOptions);
 ```
 
+## See Also
+
+* Class [FixedPageSaveOptions](../fixedpagesaveoptions/)
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

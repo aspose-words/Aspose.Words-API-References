@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/frameformat/get_isframe/
 ---
-## FrameFormat.get_IsFrame method
+## FrameFormat::get_IsFrame method
 
 
 Returns true if the paragraph is a frame.
@@ -17,7 +17,6 @@ bool Aspose::Words::FrameFormat::get_IsFrame()
 
 
 ## Examples
-
 
 
 
@@ -41,3 +40,8 @@ ASSERT_EQ(RelativeVerticalPosition::Paragraph, paragraphFrame->get_FrameFormat()
 ASPOSE_ASSERT_EQ(0.0, paragraphFrame->get_FrameFormat()->get_VerticalDistanceFromText());
 ```
 
+## See Also
+
+* Class [FrameFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

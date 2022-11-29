@@ -48,7 +48,6 @@ class FieldDocVariable : public Aspose::Words::Fields::Field
 
 
 
-
 Shows how to use DOCPROPERTY fields to display document properties and variables. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -82,3 +81,8 @@ ASSERT_EQ(u"My variable's value", fieldDocVariable->get_Result());
 doc->Save(ArtifactsDir + u"Field.DOCPROPERTY.DOCVARIABLE.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

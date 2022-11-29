@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.fields/fieldhyperlink/set_subaddress/
 ---
-## FieldHyperlink.set_SubAddress method
+## FieldHyperlink::set_SubAddress method
 
 
 Setter for [Aspose::Words::Fields::FieldHyperlink::get_SubAddress](../get_subaddress/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldHyperlink::get_SubAddress](../get_subadd
 void Aspose::Words::Fields::FieldHyperlink::set_SubAddress(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldHyperlink](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

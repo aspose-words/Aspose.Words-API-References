@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/aspose.words.tables/table/get_relativehorizontalalignment/
 ---
-## Table.get_RelativeHorizontalAlignment method
+## Table::get_RelativeHorizontalAlignment method
 
 
 Gets or sets floating table relative horizontal alignment.
@@ -17,7 +17,6 @@ Aspose::Words::Drawing::HorizontalAlignment Aspose::Words::Tables::Table::get_Re
 
 
 ## Examples
-
 
 
 
@@ -49,3 +48,9 @@ table->set_AbsoluteHorizontalDistance(100);
 doc->Save(ArtifactsDir + u"Table.ChangeFloatingTableProperties.docx");
 ```
 
+## See Also
+
+* Enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

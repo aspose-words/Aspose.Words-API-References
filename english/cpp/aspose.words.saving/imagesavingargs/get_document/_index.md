@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.saving/imagesavingargs/get_document/
 ---
-## ImageSavingArgs.get_Document method
+## ImageSavingArgs::get_Document method
 
 
 Gets the document object that is currently being saved.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Document> Aspose::Words::Saving::ImageSavingArg
 
 
 ## Examples
-
 
 
 
@@ -64,3 +63,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Document](../../../aspose.words/document/)
+* Class [ImageSavingArgs](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

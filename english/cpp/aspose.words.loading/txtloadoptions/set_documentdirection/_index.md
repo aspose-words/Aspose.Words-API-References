@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.loading/txtloadoptions/set_documentdirection/
 ---
-## TxtLoadOptions.set_DocumentDirection method
+## TxtLoadOptions::set_DocumentDirection method
 
 
 Setter for [Aspose::Words::Loading::TxtLoadOptions::get_DocumentDirection](../get_documentdirection/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Loading::TxtLoadOptions::get_DocumentDirection](../ge
 void Aspose::Words::Loading::TxtLoadOptions::set_DocumentDirection(Aspose::Words::Loading::DocumentDirection value)
 ```
 
+## See Also
+
+* Enum [DocumentDirection](../../documentdirection/)
+* Class [TxtLoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.words.replacing/findreplaceoptions/set_ignorefootnotes/
 ---
-## FindReplaceOptions.set_IgnoreFootnotes method
+## FindReplaceOptions::set_IgnoreFootnotes method
 
 
 Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreFootnotes](../get_ignorefootnotes/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreFootnotes](.
 void Aspose::Words::Replacing::FindReplaceOptions::set_IgnoreFootnotes(bool value)
 ```
 
+## See Also
+
+* Class [FindReplaceOptions](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)

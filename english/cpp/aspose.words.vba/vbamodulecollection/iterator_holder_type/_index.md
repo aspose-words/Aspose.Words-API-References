@@ -15,3 +15,8 @@ url: /cpp/aspose.words.vba/vbamodulecollection/iterator_holder_type/
 using Aspose::Words::Vba::VbaModuleCollection::iterator_holder_type =  System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Vba::VbaModule> >
 ```
 
+## See Also
+
+* Class [VbaModuleCollection](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

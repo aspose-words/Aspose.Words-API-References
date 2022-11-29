@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.drawing/oleformat/save/
 ---
-## OleFormat.Save(const System::SharedPtr\<System::IO::Stream\>\&) method
+## OleFormat::Save(const System::SharedPtr\<System::IO::Stream\>\&) method
 
 
 Saves the data of the embedded object into the specified stream.
@@ -19,11 +19,12 @@ void Aspose::Words::Drawing::OleFormat::Save(const System::SharedPtr<System::IO:
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | const System::SharedPtr\<System::IO::Stream\>\& | Where to save the object data. |
+## Remarks
+
 
 It is the responsibility of the caller to dispose the stream.
 
 ## Examples
-
 
 
 
@@ -57,7 +58,12 @@ ASSERT_EQ(u".xlsx", oleFormat->get_SuggestedExtension());
 oleFormat->Save(ArtifactsDir + u"OLE spreadsheet saved directly" + oleFormat->get_SuggestedExtension());
 ```
 
-## OleFormat.Save(const System::String\&) method
+## See Also
+
+* Class [OleFormat](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)
+## OleFormat::Save(const System::String\&) method
 
 
 Saves the data of the embedded object into a file with the specified name.
@@ -75,7 +81,6 @@ void Aspose::Words::Drawing::OleFormat::Save(const System::String &fileName)
 
 
 
-
 Shows how to extract embedded OLE objects into files. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"OLE spreadsheet.docm");
@@ -106,7 +111,12 @@ ASSERT_EQ(u".xlsx", oleFormat->get_SuggestedExtension());
 oleFormat->Save(ArtifactsDir + u"OLE spreadsheet saved directly" + oleFormat->get_SuggestedExtension());
 ```
 
-## OleFormat.Save(std::basic_ostream\<CharType, Traits\>\&) method
+## See Also
+
+* Class [OleFormat](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)
+## OleFormat::Save(std::basic_ostream\<CharType, Traits\>\&) method
 
 
 
@@ -115,3 +125,8 @@ oleFormat->Save(ArtifactsDir + u"OLE spreadsheet saved directly" + oleFormat->ge
 template<typename CharType,typename Traits> void Aspose::Words::Drawing::OleFormat::Save(std::basic_ostream<CharType, Traits> &stream)
 ```
 
+## See Also
+
+* Class [OleFormat](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

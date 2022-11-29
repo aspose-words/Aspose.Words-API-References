@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.drawing/textbox/breakforwardlink/
 ---
-## TextBox.BreakForwardLink method
+## TextBox::BreakForwardLink method
 
 
 Breaks the link to the next [TextBox](../).
@@ -17,7 +17,6 @@ void Aspose::Words::Drawing::TextBox::BreakForwardLink()
 
 
 ## Examples
-
 
 
 
@@ -84,3 +83,8 @@ if (textBox3->get_Next() == nullptr && textBox3->get_Previous() != nullptr)
 doc->Save(ArtifactsDir + u"Shape.CreateLinkBetweenTextBoxes.docx");
 ```
 
+## See Also
+
+* Class [TextBox](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

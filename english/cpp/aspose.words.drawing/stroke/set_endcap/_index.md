@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.words.drawing/stroke/set_endcap/
 ---
-## Stroke.set_EndCap method
+## Stroke::set_EndCap method
 
 
 Setter for [Aspose::Words::Drawing::Stroke::get_EndCap](../get_endcap/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Drawing::Stroke::get_EndCap](../get_endcap/).
 void Aspose::Words::Drawing::Stroke::set_EndCap(Aspose::Words::Drawing::EndCap value)
 ```
 
+## See Also
+
+* Enum [EndCap](../../endcap/)
+* Class [Stroke](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

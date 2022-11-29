@@ -6,7 +6,7 @@ type: docs
 weight: 768
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_exportfontresources/
 ---
-## HtmlSaveOptions.set_ExportFontResources method
+## HtmlSaveOptions::set_ExportFontResources method
 
 
 Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportFontResources](../get_exportfontresources/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportFontResources](../
 void Aspose::Words::Saving::HtmlSaveOptions::set_ExportFontResources(bool value)
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

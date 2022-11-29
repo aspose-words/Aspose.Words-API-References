@@ -28,3 +28,7 @@ class GradientStop : public System::Object
 | [set_Color](./set_color/)(System::Drawing::Color) | Setter for [Aspose::Words::Drawing::GradientStop::get_Color](./get_color/). |
 | [set_Position](./set_position/)(double) | Setter for [Aspose::Words::Drawing::GradientStop::get_Position](./get_position/). |
 | [set_Transparency](./set_transparency/)(double) | Setter for [Aspose::Words::Drawing::GradientStop::get_Transparency](./get_transparency/). |
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

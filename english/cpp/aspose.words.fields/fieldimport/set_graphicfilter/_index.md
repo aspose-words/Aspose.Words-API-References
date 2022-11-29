@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fieldimport/set_graphicfilter/
 ---
-## FieldImport.set_GraphicFilter method
+## FieldImport::set_GraphicFilter method
 
 
 Setter for [Aspose::Words::Fields::FieldImport::get_GraphicFilter](../get_graphicfilter/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldImport::get_GraphicFilter](../get_graphi
 void Aspose::Words::Fields::FieldImport::set_GraphicFilter(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldImport](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

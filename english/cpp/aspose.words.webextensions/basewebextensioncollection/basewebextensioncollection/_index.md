@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/basewebextensioncollection/
 ---
-## BaseWebExtensionCollection.BaseWebExtensionCollection method
+## BaseWebExtensionCollection::BaseWebExtensionCollection constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.webextensions/basewebextensioncollection/basewebextension
 Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::BaseWebExtensionCollection()
 ```
 
+## See Also
+
+* Class [BaseWebExtensionCollection](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

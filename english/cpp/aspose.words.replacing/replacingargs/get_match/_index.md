@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.replacing/replacingargs/get_match/
 ---
-## ReplacingArgs.get_Match method
+## ReplacingArgs::get_Match method
 
 
 The **Match** resulting from a single regular expression match during a **Replace**.
@@ -15,6 +15,7 @@ The **Match** resulting from a single regular expression match during a **Replac
 System::SharedPtr<System::Text::RegularExpressions::Match> Aspose::Words::Replacing::ReplacingArgs::get_Match() const
 ```
 
+## Remarks
 
 **Match.Index** gets the zero-based starting position of the match from the start of the find and replace range.
 
@@ -75,7 +76,7 @@ public:
         mLog->AppendLine(String::Format(u"\tOffset in parent {0} node:\t{1}", args->get_MatchNode()->get_NodeType(), args->get_MatchOffset()));
 
         mLog->AppendLine(String::IsNullOrEmpty(args->get_GroupName()) ? String::Format(u"\tGroup index:\t{0}", args->get_GroupIndex())
-                                                                      : String::Format(u"\tGroup name:\t{0}", args->[get_GroupName()](../get_groupname/)));**
+                                                                      : String::Format(u"\tGroup name:\t{0}", args->get_GroupName()));
 
         return ReplaceAction::Replace;
     }
@@ -89,3 +90,9 @@ private:
     SharedPtr<System::Text::StringBuilder> mLog;
 };
 ```
+
+## See Also
+
+* Class [ReplacingArgs](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)

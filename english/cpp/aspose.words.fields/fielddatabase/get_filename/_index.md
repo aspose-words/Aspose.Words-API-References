@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fielddatabase/get_filename/
 ---
-## FieldDatabase.get_FileName method
+## FieldDatabase::get_FileName method
 
 
 Gets the complete path and file name of the database.
@@ -15,3 +15,8 @@ Gets the complete path and file name of the database.
 System::String Aspose::Words::Fields::FieldDatabase::get_FileName()
 ```
 
+## See Also
+
+* Class [FieldDatabase](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

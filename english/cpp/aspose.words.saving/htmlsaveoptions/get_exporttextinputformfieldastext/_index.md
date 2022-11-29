@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exporttextinputformfieldastext/
 ---
-## HtmlSaveOptions.get_ExportTextInputFormFieldAsText method
+## HtmlSaveOptions::get_ExportTextInputFormFieldAsText method
 
 
 Controls how text input form fields are saved to HTML or MHTML. Default value is **false**.
@@ -15,13 +15,14 @@ Controls how text input form fields are saved to HTML or MHTML. Default value is
 bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportTextInputFormFieldAsText() const
 ```
 
+## Remarks
+
 
 When set to **true**, exports text input form fields as normal text. When **false**, exports Word text input form fields as INPUT elements in HTML.
 
 When exporting to EPUB, text input form fields are always saved as text due to requirements of this format.
 
 ## Examples
-
 
 
 
@@ -46,3 +47,8 @@ options->set_ImagesFolder(imagesDir);
 doc->Save(ArtifactsDir + u"HtmlSaveOptions.SaveHtmlWithOptions.html", options);
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

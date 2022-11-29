@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.drawing/oleformat/get_iconcaption/
 ---
-## OleFormat.get_IconCaption method
+## OleFormat::get_IconCaption method
 
 
 Gets icon caption of OLE object. In case of OLE object is not embedded as icon or caption couldn't be retrieved returns empty string.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Drawing::OleFormat::get_IconCaption()
 
 
 ## Examples
-
 
 
 
@@ -70,3 +69,8 @@ doc->Save(ArtifactsDir + u"Shape.OleLinks.docx");
 }
 ```
 
+## See Also
+
+* Class [OleFormat](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

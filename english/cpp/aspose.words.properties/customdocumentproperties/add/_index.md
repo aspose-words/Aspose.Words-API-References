@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.properties/customdocumentproperties/add/
 ---
-## CustomDocumentProperties.Add(const System::String\&, bool) method
+## CustomDocumentProperties::Add(const System::String\&, bool) method
 
 
 Creates a new custom document property of the **PropertyType.Boolean** data type.
@@ -23,11 +23,9 @@ System::SharedPtr<Aspose::Words::Properties::DocumentProperty> Aspose::Words::Pr
 
 ### ReturnValue
 
-
 The newly created property object.
 
 ## Examples
-
 
 
 
@@ -89,7 +87,13 @@ properties->Clear();
 ASSERT_EQ(0, properties->get_Count());
 ```
 
-## CustomDocumentProperties.Add(const System::String\&, const System::String\&) method
+## See Also
+
+* Class [DocumentProperty](../../documentproperty/)
+* Class [CustomDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)
+## CustomDocumentProperties::Add(const System::String\&, const System::String\&) method
 
 
 Creates a new custom document property of the **PropertyType.String** data type.
@@ -106,11 +110,9 @@ System::SharedPtr<Aspose::Words::Properties::DocumentProperty> Aspose::Words::Pr
 
 ### ReturnValue
 
-
 The newly created property object.
 
 ## Examples
-
 
 
 
@@ -172,7 +174,13 @@ properties->Clear();
 ASSERT_EQ(0, properties->get_Count());
 ```
 
-## CustomDocumentProperties.Add(const System::String\&, double) method
+## See Also
+
+* Class [DocumentProperty](../../documentproperty/)
+* Class [CustomDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)
+## CustomDocumentProperties::Add(const System::String\&, double) method
 
 
 Creates a new custom document property of the **PropertyType.Float** data type.
@@ -189,11 +197,9 @@ System::SharedPtr<Aspose::Words::Properties::DocumentProperty> Aspose::Words::Pr
 
 ### ReturnValue
 
-
 The newly created property object.
 
 ## Examples
-
 
 
 
@@ -255,7 +261,13 @@ properties->Clear();
 ASSERT_EQ(0, properties->get_Count());
 ```
 
-## CustomDocumentProperties.Add(const System::String\&, int32_t) method
+## See Also
+
+* Class [DocumentProperty](../../documentproperty/)
+* Class [CustomDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)
+## CustomDocumentProperties::Add(const System::String\&, int32_t) method
 
 
 Creates a new custom document property of the **PropertyType.Number** data type.
@@ -272,11 +284,9 @@ System::SharedPtr<Aspose::Words::Properties::DocumentProperty> Aspose::Words::Pr
 
 ### ReturnValue
 
-
 The newly created property object.
 
 ## Examples
-
 
 
 
@@ -338,7 +348,13 @@ properties->Clear();
 ASSERT_EQ(0, properties->get_Count());
 ```
 
-## CustomDocumentProperties.Add(const System::String\&, System::DateTime) method
+## See Also
+
+* Class [DocumentProperty](../../documentproperty/)
+* Class [CustomDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)
+## CustomDocumentProperties::Add(const System::String\&, System::DateTime) method
 
 
 Creates a new custom document property of the **PropertyType.DateTime** data type.
@@ -355,11 +371,9 @@ System::SharedPtr<Aspose::Words::Properties::DocumentProperty> Aspose::Words::Pr
 
 ### ReturnValue
 
-
 The newly created property object.
 
 ## Examples
-
 
 
 
@@ -431,3 +445,9 @@ properties->Clear();
 ASSERT_EQ(0, properties->get_Count());
 ```
 
+## See Also
+
+* Class [DocumentProperty](../../documentproperty/)
+* Class [CustomDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

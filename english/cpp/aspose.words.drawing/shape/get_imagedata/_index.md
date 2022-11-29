@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.drawing/shape/get_imagedata/
 ---
-## Shape.get_ImageData method
+## Shape::get_ImageData method
 
 
 Provides access to the image of the shape. Returns null if the shape cannot have an image.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::ImageData> Aspose::Words::Drawing::Sha
 
 
 ## Examples
-
 
 
 
@@ -83,3 +82,9 @@ doc->Save(ArtifactsDir + u"Image.CreateLinkedImage.Linked.docx");
 ASSERT_TRUE(10000 > MakeObject<System::IO::FileInfo>(ArtifactsDir + u"Image.CreateLinkedImage.Linked.docx")->get_Length());
 ```
 
+## See Also
+
+* Class [ImageData](../../imagedata/)
+* Class [Shape](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.words.drawing/shapebase/get_horizontalalignment/
 ---
-## ShapeBase.get_HorizontalAlignment method
+## ShapeBase::get_HorizontalAlignment method
 
 
 Specifies how the shape is positioned horizontally.
@@ -15,13 +15,14 @@ Specifies how the shape is positioned horizontally.
 Aspose::Words::Drawing::HorizontalAlignment Aspose::Words::Drawing::ShapeBase::get_HorizontalAlignment()
 ```
 
+## Remarks
 
-The default value is **None**.
+
+The default value is [None](../../horizontalalignment/).
 
 Has effect only for top level floating shapes.
 
 ## Examples
-
 
 
 
@@ -42,3 +43,9 @@ shape->set_VerticalAlignment(VerticalAlignment::Center);
 doc->Save(ArtifactsDir + u"Image.CreateFloatingPageCenter.docx");
 ```
 
+## See Also
+
+* Enum [HorizontalAlignment](../../horizontalalignment/)
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

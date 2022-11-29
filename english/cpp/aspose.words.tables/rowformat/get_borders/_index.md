@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.tables/rowformat/get_borders/
 ---
-## RowFormat.get_Borders method
+## RowFormat::get_Borders method
 
 
 Gets the collection of default cell borders for the row.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::BorderCollection> Aspose::Words::Tables::RowFor
 
 
 ## Examples
-
 
 
 
@@ -81,3 +80,9 @@ builder->EndTable();
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertTable.docx");
 ```
 
+## See Also
+
+* Class [BorderCollection](../../../aspose.words/bordercollection/)
+* Class [RowFormat](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

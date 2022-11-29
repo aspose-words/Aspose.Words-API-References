@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.loading/loadoptions/get_tempfolder/
 ---
-## LoadOptions.get_TempFolder method
+## LoadOptions::get_TempFolder method
 
 
 Allows to use temporary files when reading document. By default this property is **null** and no temporary files are used.
@@ -15,13 +15,14 @@ Allows to use temporary files when reading document. By default this property is
 System::String Aspose::Words::Loading::LoadOptions::get_TempFolder() const
 ```
 
+## Remarks
+
 
 The folder must exist and be writable, otherwise an exception will be thrown.
 
 Aspose.Words automatically deletes all temporary files when reading is complete.
 
 ## Examples
-
 
 
 
@@ -55,3 +56,8 @@ auto doc = MakeObject<Document>(MyDir + u"Document.docx", options);
 ASSERT_EQ(0, System::IO::Directory::GetFiles(options->get_TempFolder())->get_Length());
 ```
 
+## See Also
+
+* Class [LoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

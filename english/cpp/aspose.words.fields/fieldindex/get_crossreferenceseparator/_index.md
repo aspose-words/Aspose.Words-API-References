@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldindex/get_crossreferenceseparator/
 ---
-## FieldIndex.get_CrossReferenceSeparator method
+## FieldIndex::get_CrossReferenceSeparator method
 
 
 Gets or sets the character sequence that is used to separate cross references and other entries.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldIndex::get_CrossReferenceSeparator()
 
 
 ## Examples
-
 
 
 
@@ -64,3 +63,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.INDEX.XE.CrossReferenceSeparator.docx");
 ```
 
+## See Also
+
+* Class [FieldIndex](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/nodelist/nodelist/
 ---
-## NodeList.NodeList method
+## NodeList::NodeList constructor
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words/nodelist/nodelist/
 Aspose::Words::NodeList::NodeList(const System::SharedPtr<Aspose::Words::NodeCollection> &nodes)
 ```
 
+## See Also
+
+* Class [NodeCollection](../../nodecollection/)
+* Class [NodeList](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

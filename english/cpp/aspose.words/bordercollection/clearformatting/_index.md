@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/bordercollection/clearformatting/
 ---
-## BorderCollection.ClearFormatting method
+## BorderCollection::ClearFormatting method
 
 
 Removes all borders of an object.
@@ -17,7 +17,6 @@ void Aspose::Words::BorderCollection::ClearFormatting()
 
 
 ## Examples
-
 
 
 
@@ -48,3 +47,8 @@ for (const auto& paragraph : System::IterateOver<Paragraph>(doc->get_FirstSectio
 doc->Save(ArtifactsDir + u"BorderCollection.RemoveAllBorders.docx");
 ```
 
+## See Also
+
+* Class [BorderCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

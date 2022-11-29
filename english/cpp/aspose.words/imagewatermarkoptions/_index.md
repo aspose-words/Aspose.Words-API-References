@@ -24,3 +24,7 @@ class ImageWatermarkOptions : public System::Object
 | [ImageWatermarkOptions](./imagewatermarkoptions/)() |  |
 | [set_IsWashout](./set_iswashout/)(bool) | Setter for [Aspose::Words::ImageWatermarkOptions::get_IsWashout](./get_iswashout/). |
 | [set_Scale](./set_scale/)(double) | Setter for [Aspose::Words::ImageWatermarkOptions::get_Scale](./get_scale/). |
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

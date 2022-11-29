@@ -6,7 +6,7 @@ type: docs
 weight: 495
 url: /cpp/aspose.words.fields/formfield/set_result/
 ---
-## FormField.set_Result method
+## FormField::set_Result method
 
 
 Setter for [Aspose::Words::Fields::FormField::get_Result](../get_result/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FormField::get_Result](../get_result/).
 void Aspose::Words::Fields::FormField::set_Result(const System::String &value)
 ```
 
+## See Also
+
+* Class [FormField](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

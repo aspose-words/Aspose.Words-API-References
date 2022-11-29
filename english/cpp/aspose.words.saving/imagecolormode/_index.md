@@ -11,6 +11,10 @@ url: /cpp/aspose.words.saving/imagecolormode/
 
 Specifies the color mode for the generated images of document pages.
 
+```cpp
+enum class ImageColorMode
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ Specifies the color mode for the generated images of document pages.
 
 
 ## Examples
-
 
 
 
@@ -50,3 +53,7 @@ imageSaveOptions->set_ImageColorMode(imageColorMode);
 doc->Save(ArtifactsDir + u"ImageSaveOptions.ColorMode.png", imageSaveOptions);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

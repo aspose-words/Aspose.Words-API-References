@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/aspose.words/documentvisitor/visitheaderfooterstart/
 ---
-## DocumentVisitor.VisitHeaderFooterStart method
+## DocumentVisitor::VisitHeaderFooterStart method
 
 
 Called when enumeration of a header or footer in a section has started.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitHeader
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -108,3 +106,10 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [HeaderFooter](../../headerfooter/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

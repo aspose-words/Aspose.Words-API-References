@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/virtualizeendconstiterator/
 ---
-## BaseWebExtensionCollection.virtualizeEndConstIterator method
+## BaseWebExtensionCollection::virtualizeEndConstIterator method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.webextensions/basewebextensioncollection/virtualizeendcon
 virtualized_iterator * Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::virtualizeEndConstIterator() const override
 ```
 
+## See Also
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [BaseWebExtensionCollection](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

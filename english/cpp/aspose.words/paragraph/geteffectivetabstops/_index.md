@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.words/paragraph/geteffectivetabstops/
 ---
-## Paragraph.GetEffectiveTabStops method
+## Paragraph::GetEffectiveTabStops method
 
 
 Returns array of all tab stops applied to this paragraph, including applied indirectly by styles or lists.
@@ -17,7 +17,6 @@ System::ArrayPtr<System::SharedPtr<Aspose::Words::TabStop>> Aspose::Words::Parag
 
 
 ## Examples
-
 
 
 
@@ -48,3 +47,9 @@ para->AppendChild(MakeObject<Run>(doc, u"\tTab 1\tTab 2\tTab 3"));
 doc->Save(ArtifactsDir + u"Paragraph.TabStops.docx");
 ```
 
+## See Also
+
+* Class [TabStop](../../tabstop/)
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

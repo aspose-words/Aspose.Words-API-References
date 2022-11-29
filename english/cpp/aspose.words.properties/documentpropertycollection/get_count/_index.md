@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.properties/documentpropertycollection/get_count/
 ---
-## DocumentPropertyCollection.get_Count method
+## DocumentPropertyCollection::get_Count method
 
 
 Gets number of items in the collection.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Properties::DocumentPropertyCollection::get_Count()
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,8 @@ for (const auto& customDocumentProperty : System::IterateOver(doc->get_CustomDoc
 }
 ```
 
+## See Also
+
+* Class [DocumentPropertyCollection](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

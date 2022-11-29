@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_index/
 ---
-## ChartDataLabel.get_Index method
+## ChartDataLabel::get_Index method
 
 
 Specifies the index of the containing element. This index shall determine which of the parent's children collection this element applies to. Default value is 0.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Drawing::Charts::ChartDataLabel::get_Index()
 
 
 ## Examples
-
 
 
 
@@ -91,3 +90,8 @@ static void ApplyDataLabels(SharedPtr<ChartSeries> series, int labelsCount, Stri
 }
 ```
 
+## See Also
+
+* Class [ChartDataLabel](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

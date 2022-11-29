@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words/pagesetup/get_gutter/
 ---
-## PageSetup.get_Gutter method
+## PageSetup::get_Gutter method
 
 
 Gets or sets the amount of extra space added to the margin for document binding.
@@ -17,7 +17,6 @@ double Aspose::Words::PageSetup::get_Gutter()
 
 
 ## Examples
-
 
 
 
@@ -80,3 +79,8 @@ pageSetup->set_SheetsPerBooklet(4);
 doc->Save(ArtifactsDir + u"PageSetup.Booklet.docx");
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

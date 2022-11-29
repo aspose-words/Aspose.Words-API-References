@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/stylecollection/get_defaultfont/
 ---
-## StyleCollection.get_DefaultFont method
+## StyleCollection::get_DefaultFont method
 
 
 Gets document default text formatting.
@@ -15,11 +15,12 @@ Gets document default text formatting.
 System::SharedPtr<Aspose::Words::Font> Aspose::Words::StyleCollection::get_DefaultFont()
 ```
 
+## Remarks
 
-Note that document-wide defaults were introduced in Microsoft Word 2007 and are fully supported in OOXML formats (**Docx**) only. Earlier document formats have limited support for this feature and only font names can be stored.
+
+Note that document-wide defaults were introduced in Microsoft Word 2007 and are fully supported in OOXML formats ([Docx](../../loadformat/)) only. Earlier document formats have limited support for this feature and only font names can be stored.
 
 ## Examples
-
 
 
 
@@ -42,3 +43,9 @@ ASSERT_EQ(u"Courier New", styles->idx_get(4)->get_Font()->get_Name());
 ASPOSE_ASSERT_EQ(15.0, styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_FirstLineIndent());
 ```
 
+## See Also
+
+* Class [Font](../../font/)
+* Class [StyleCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

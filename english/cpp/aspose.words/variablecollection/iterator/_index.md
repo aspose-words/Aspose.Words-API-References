@@ -15,3 +15,8 @@ url: /cpp/aspose.words/variablecollection/iterator/
 using Aspose::Words::VariableCollection::iterator =  typename iterator_holder_type::iterator
 ```
 
+## See Also
+
+* Class [VariableCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

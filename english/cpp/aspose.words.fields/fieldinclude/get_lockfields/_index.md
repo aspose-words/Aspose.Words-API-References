@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldinclude/get_lockfields/
 ---
-## FieldInclude.get_LockFields method
+## FieldInclude::get_LockFields method
 
 
 Gets or sets whether to prevent fields in the included document from being updated.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldInclude::get_LockFields() override
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.INCLUDE.docx");
 ```
 
+## See Also
+
+* Class [FieldInclude](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

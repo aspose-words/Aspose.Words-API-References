@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.drawing/textbox/get_layoutflow/
 ---
-## TextBox.get_LayoutFlow method
+## TextBox::get_LayoutFlow method
 
 
 Determines the flow of the text layout in a shape.
@@ -15,11 +15,12 @@ Determines the flow of the text layout in a shape.
 Aspose::Words::Drawing::LayoutFlow Aspose::Words::Drawing::TextBox::get_LayoutFlow()
 ```
 
+## Remarks
 
-The default value is **Horizontal**.
+
+The default value is [Horizontal](../../layoutflow/).
 
 ## Examples
-
 
 
 
@@ -42,3 +43,9 @@ textBox->set_LayoutFlow(layoutFlow);
 doc->Save(ArtifactsDir + u"Shape.TextBoxLayoutFlow.docx");
 ```
 
+## See Also
+
+* Enum [LayoutFlow](../../layoutflow/)
+* Class [TextBox](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

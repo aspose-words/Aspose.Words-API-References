@@ -11,6 +11,10 @@ url: /cpp/aspose.words.saving/pdftextcompression/
 
 Specifies a type of compression applied to all content in the PDF file except images.
 
+```cpp
+enum class PdfTextCompression
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,7 +24,6 @@ Specifies a type of compression applied to all content in the PDF file except im
 
 
 ## Examples
-
 
 
 
@@ -48,3 +51,7 @@ options->set_TextCompression(pdfTextCompression);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.TextCompression.pdf", options);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

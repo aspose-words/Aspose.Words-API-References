@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fielddde/get_insertashtml/
 ---
-## FieldDde.get_InsertAsHtml method
+## FieldDde::get_InsertAsHtml method
 
 
 Gets or sets whether to insert the linked object as HTML format text.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldDde::get_InsertAsHtml()
 
 
 ## Examples
-
 
 
 
@@ -196,3 +195,8 @@ static void InsertFieldDdeAuto(SharedPtr<DocumentBuilder> builder, ExField::Inse
 }
 ```
 
+## See Also
+
+* Class [FieldDde](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

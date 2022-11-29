@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_hidden/
 ---
-## ChartAxis.get_Hidden method
+## ChartAxis::get_Hidden method
 
 
 Gets or sets a flag indicating whether this axis is hidden or not.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::Charts::ChartAxis::get_Hidden()
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,8 @@ chart->get_AxisY()->set_Hidden(true);
 doc->Save(ArtifactsDir + u"Charts.HideChartAxis.docx");
 ```
 
+## See Also
+
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

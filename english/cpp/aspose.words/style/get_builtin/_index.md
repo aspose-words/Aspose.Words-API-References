@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/style/get_builtin/
 ---
-## Style.get_BuiltIn method
+## Style::get_BuiltIn method
 
 
 True if this style is one of the built-in styles in MS Word.
@@ -17,7 +17,6 @@ bool Aspose::Words::Style::get_BuiltIn()
 
 
 ## Examples
-
 
 
 
@@ -42,3 +41,8 @@ style->get_Font()->set_Name(u"Courier New");
 ASSERT_FALSE(style->get_BuiltIn());
 ```
 
+## See Also
+
+* Class [Style](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/story/get_firstparagraph/
 ---
-## Story.get_FirstParagraph method
+## Story::get_FirstParagraph method
 
 
 Gets the first paragraph in the story.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::Story::get_FirstParag
 
 
 ## Examples
-
 
 
 
@@ -63,3 +62,9 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(textBox);
 doc->Save(ArtifactsDir + u"Shape.CreateTextBox.docx");
 ```
 
+## See Also
+
+* Class [Paragraph](../../paragraph/)
+* Class [Story](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

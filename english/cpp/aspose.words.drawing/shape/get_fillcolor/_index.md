@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.drawing/shape/get_fillcolor/
 ---
-## Shape.get_FillColor method
+## Shape::get_FillColor method
 
 
 Defines the brush color that fills the closed path of the shape.
@@ -15,13 +15,14 @@ Defines the brush color that fills the closed path of the shape.
 System::Drawing::Color Aspose::Words::Drawing::Shape::get_FillColor()
 ```
 
+## Remarks
+
 
 This is a shortcut to the [Color](../../fill/get_color/) property.
 
 The default value is **White**.
 
 ## Examples
-
 
 
 
@@ -54,3 +55,8 @@ shape->get_Fill()->set_Opacity(0.3);
 doc->Save(ArtifactsDir + u"Shape.Fill.docx");
 ```
 
+## See Also
+
+* Class [Shape](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

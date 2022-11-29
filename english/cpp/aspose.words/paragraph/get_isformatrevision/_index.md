@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words/paragraph/get_isformatrevision/
 ---
-## Paragraph.get_IsFormatRevision method
+## Paragraph::get_IsFormatRevision method
 
 
 Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled.
@@ -20,7 +20,6 @@ bool Aspose::Words::Paragraph::get_IsFormatRevision()
 
 
 
-
 Shows how to check whether a paragraph is a format revision. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Format revision.docx");
@@ -30,3 +29,8 @@ auto doc = MakeObject<Document>(MyDir + u"Format revision.docx");
 ASSERT_TRUE(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_IsFormatRevision());
 ```
 
+## See Also
+
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

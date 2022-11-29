@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words.fields/fieldoptions/get_toacategories/
 ---
-## FieldOptions.get_ToaCategories method
+## FieldOptions::get_ToaCategories method
 
 
 Gets or sets the table of authorities categories.
@@ -17,7 +17,6 @@ const System::SharedPtr<Aspose::Words::Fields::ToaCategories> & Aspose::Words::F
 
 
 ## Examples
-
 
 
 
@@ -63,3 +62,9 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"FieldOptions.TOA.Categories.docx");
 ```
 
+## See Also
+
+* Class [ToaCategories](../../toacategories/)
+* Class [FieldOptions](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

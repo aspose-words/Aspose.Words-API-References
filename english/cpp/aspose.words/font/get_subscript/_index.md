@@ -6,7 +6,7 @@ type: docs
 weight: 560
 url: /cpp/aspose.words/font/get_subscript/
 ---
-## Font.get_Subscript method
+## Font::get_Subscript method
 
 
 True if the font is formatted as subscript.
@@ -17,7 +17,6 @@ bool Aspose::Words::Font::get_Subscript()
 
 
 ## Examples
-
 
 
 
@@ -53,3 +52,8 @@ para->AppendChild(run);
 doc->Save(ArtifactsDir + u"Font.PositionSubscript.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

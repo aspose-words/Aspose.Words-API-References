@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldautotextlist/get_entryname/
 ---
-## FieldAutoTextList.get_EntryName method
+## FieldAutoTextList::get_EntryName method
 
 
 Gets or sets the name of the AutoText entry.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldAutoTextList::get_EntryName()
 
 
 ## Examples
-
 
 
 
@@ -67,3 +66,8 @@ static void AppendAutoTextEntry(SharedPtr<GlossaryDocument> glossaryDoc, String 
 }
 ```
 
+## See Also
+
+* Class [FieldAutoTextList](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

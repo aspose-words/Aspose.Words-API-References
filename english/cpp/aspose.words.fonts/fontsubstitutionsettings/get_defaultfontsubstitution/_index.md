@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fonts/fontsubstitutionsettings/get_defaultfontsubstitution/
 ---
-## FontSubstitutionSettings.get_DefaultFontSubstitution method
+## FontSubstitutionSettings::get_DefaultFontSubstitution method
 
 
 [Settings](../../../aspose.words.settings/) related to default font substitution rule.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Fonts::DefaultFontSubstitutionRule> Aspose::Wor
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,9 @@ builder->Writeln(u"Line written in a missing font, which will be substituted wit
 doc->Save(ArtifactsDir + u"FontSettings.DefaultFontSubstitutionRule.pdf");
 ```
 
+## See Also
+
+* Class [DefaultFontSubstitutionRule](../../defaultfontsubstitutionrule/)
+* Class [FontSubstitutionSettings](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

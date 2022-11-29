@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.webextensions/webextension/get_reference/
 ---
-## WebExtension.get_Reference method
+## WebExtension::get_Reference method
 
 
 Specifies the primary reference to an web extension.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionReference> Aspose::W
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,9 @@ doc->get_WebExtensionTaskPanes()->Clear();
 ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ```
 
+## See Also
+
+* Class [WebExtensionReference](../../webextensionreference/)
+* Class [WebExtension](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

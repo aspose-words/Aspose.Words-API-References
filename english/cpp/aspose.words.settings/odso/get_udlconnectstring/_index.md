@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.settings/odso/get_udlconnectstring/
 ---
-## Odso.get_UdlConnectString method
+## Odso::get_UdlConnectString method
 
 
 Specifies the Universal Data Link (UDL) connection string used to connect to an external data source. The default value is an empty string.
@@ -15,3 +15,8 @@ Specifies the Universal Data Link (UDL) connection string used to connect to an 
 System::String Aspose::Words::Settings::Odso::get_UdlConnectString() const
 ```
 
+## See Also
+
+* Class [Odso](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

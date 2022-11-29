@@ -11,6 +11,10 @@ url: /cpp/aspose.words.markup/sdtappearance/
 
 Specifies the appearance of a structured document tag.
 
+```cpp
+enum class SdtAppearance
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -18,5 +22,9 @@ Specifies the appearance of a structured document tag.
 | BoundingBox | 0 | Represents a structured document tag shown as a shaded rectangle or bounding box. |
 | Tags | 1 | Represents a structured document tag shown as start and end markers. |
 | Hidden | 2 | Represents a structured document tag that is not shown. |
-| Default | n/a | Defaults to **BoundingBox**. |
+| Default | n/a | Defaults to [BoundingBox](./). |
 
+## See Also
+
+* Namespace [Aspose::Words::Markup](../)
+* Library [Aspose.Words](../../)

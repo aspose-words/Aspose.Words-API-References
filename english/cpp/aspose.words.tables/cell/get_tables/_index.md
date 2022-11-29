@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.tables/cell/get_tables/
 ---
-## Cell.get_Tables method
+## Cell::get_Tables method
 
 
 Gets a collection of tables that are immediate children of the cell.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Tables::TableCollection> Aspose::Words::Tables:
 
 
 ## Examples
-
 
 
 
@@ -85,3 +84,9 @@ static int GetChildTableCount(SharedPtr<Table> table)
 }
 ```
 
+## See Also
+
+* Class [TableCollection](../../tablecollection/)
+* Class [Cell](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

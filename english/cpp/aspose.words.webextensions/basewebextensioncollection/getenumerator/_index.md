@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/getenumerator/
 ---
-## BaseWebExtensionCollection.GetEnumerator method
+## BaseWebExtensionCollection::GetEnumerator method
 
 
 Returns an enumerator that can iterate through a collection.
@@ -17,7 +17,6 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<T>> Aspose::Words::W
 
 
 ## Examples
-
 
 
 
@@ -45,3 +44,8 @@ doc->get_WebExtensionTaskPanes()->Remove(0);
 ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ```
 
+## See Also
+
+* Class [BaseWebExtensionCollection](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

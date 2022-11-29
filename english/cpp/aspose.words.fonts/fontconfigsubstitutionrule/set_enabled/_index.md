@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fonts/fontconfigsubstitutionrule/set_enabled/
 ---
-## FontConfigSubstitutionRule.set_Enabled method
+## FontConfigSubstitutionRule::set_Enabled method
 
 
 Specifies whether the rule is enabled or not.
@@ -17,7 +17,6 @@ void Aspose::Words::Fonts::FontConfigSubstitutionRule::set_Enabled(bool value) o
 
 
 ## Examples
-
 
 
 
@@ -50,3 +49,8 @@ if (isLinuxOrMac)
 }
 ```
 
+## See Also
+
+* Class [FontConfigSubstitutionRule](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

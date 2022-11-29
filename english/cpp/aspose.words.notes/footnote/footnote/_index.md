@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.notes/footnote/footnote/
 ---
-## Footnote.Footnote method
+## Footnote::Footnote constructor
 
 
 Initializes an instance of the **Footnote** class.
@@ -20,13 +20,14 @@ Aspose::Words::Notes::Footnote::Footnote(const System::SharedPtr<Aspose::Words::
 | --- | --- | --- |
 | doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
 | footnoteType | Aspose::Words::Notes::FootnoteType | A [FootnoteType](../get_footnotetype/) value that specifies whether this is a footnote or endnote. |
+## Remarks
+
 
 When **Footnote** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
 To append **Footnote** to the document use InsertAfter or InsertBefore on the paragraph where you want the footnote inserted.
 
 ## Examples
-
 
 
 
@@ -72,3 +73,10 @@ ASSERT_TRUE(footnote->get_IsAuto());
 doc->Save(ArtifactsDir + u"InlineStory.AddFootnote.docx");
 ```
 
+## See Also
+
+* Class [DocumentBase](../../../aspose.words/documentbase/)
+* Enum [FootnoteType](../../footnotetype/)
+* Class [Footnote](../)
+* Namespace [Aspose::Words::Notes](../../)
+* Library [Aspose.Words](../../../)

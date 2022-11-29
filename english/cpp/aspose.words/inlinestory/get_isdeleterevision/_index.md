@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/inlinestory/get_isdeleterevision/
 ---
-## InlineStory.get_IsDeleteRevision method
+## InlineStory::get_IsDeleteRevision method
 
 
 Returns true if this object was deleted in Microsoft Word while change tracking was enabled.
@@ -17,7 +17,6 @@ bool Aspose::Words::InlineStory::get_IsDeleteRevision()
 
 
 ## Examples
-
 
 
 
@@ -64,3 +63,8 @@ ASSERT_TRUE(footnotes->idx_get(1)->get_IsMoveToRevision());
 ASSERT_TRUE(footnotes->idx_get(3)->get_IsDeleteRevision());
 ```
 
+## See Also
+
+* Class [InlineStory](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.drawing.charts/chartseriescollection/getenumerator/
 ---
-## ChartSeriesCollection.GetEnumerator method
+## ChartSeriesCollection::GetEnumerator method
 
 
 Returns an enumerator object.
@@ -17,7 +17,6 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 
 ## Examples
-
 
 
 
@@ -64,3 +63,9 @@ ASSERT_FALSE(chartData->LINQ_Any([](SharedPtr<ChartSeries> s) { return s->get_Na
 chartData->Clear();
 ```
 
+## See Also
+
+* Class [ChartSeries](../../chartseries/)
+* Class [ChartSeriesCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

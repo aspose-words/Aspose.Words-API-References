@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.drawing/shape/get_filled/
 ---
-## Shape.get_Filled method
+## Shape::get_Filled method
 
 
 Determines whether the closed path of the shape will be filled.
@@ -15,13 +15,14 @@ Determines whether the closed path of the shape will be filled.
 bool Aspose::Words::Drawing::Shape::get_Filled()
 ```
 
+## Remarks
+
 
 This is a shortcut to the [On](../../fill/get_on/) property.
 
 The default value is **true**.
 
 ## Examples
-
 
 
 
@@ -135,3 +136,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Shape](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words/font/get_emboss/
 ---
-## Font.get_Emboss method
+## Font::get_Emboss method
 
 
 True if the font is formatted as embossed.
@@ -17,7 +17,6 @@ bool Aspose::Words::Font::get_Emboss()
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,8 @@ builder->Writeln(u"This text is embossed.");
 doc->Save(ArtifactsDir + u"Font.EngraveEmboss.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

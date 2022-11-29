@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /cpp/aspose.words.fields/formfield/set_ownstatus/
 ---
-## FormField.set_OwnStatus method
+## FormField::set_OwnStatus method
 
 
 Setter for [Aspose::Words::Fields::FormField::get_OwnStatus](../get_ownstatus/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FormField::get_OwnStatus](../get_ownstatus/).
 void Aspose::Words::Fields::FormField::set_OwnStatus(bool value)
 ```
 
+## See Also
+
+* Class [FormField](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

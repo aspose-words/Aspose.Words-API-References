@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing/arrowtype/
 
 Specifies the type of an arrow at a line end.
 
+```cpp
+enum class ArrowType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,11 +25,10 @@ Specifies the type of an arrow at a line end.
 | Diamond | 3 | The line end is a solid diamond. |
 | Oval | 4 | The line end is a solid oval. |
 | Open | 5 | The arrow is an open arrow. |
-| Default | n/a | Same as **None**. |
+| Default | n/a | Same as [None](./). |
 
 
 ## Examples
-
 
 
 
@@ -98,3 +101,7 @@ ArrayPtr<uint8_t> imageBytes = System::IO::File::ReadAllBytes(ImageDir + u"Logo.
 doc->Save(ArtifactsDir + u"Drawing.VariousShapes.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

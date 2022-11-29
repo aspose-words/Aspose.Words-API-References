@@ -12,7 +12,9 @@ url: /cpp/aspose.words.drawing/shape/
 Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture.
 
 ```cpp
-class Shape : public Aspose::Words::Drawing::ShapeBase, public Aspose::Words::Drawing::Core::ITextBox, public Aspose::Words::Drawing::Core::IStrokable
+class Shape : public Aspose::Words::Drawing::ShapeBase,
+              public Aspose::Words::Drawing::Core::ITextBox,
+              public Aspose::Words::Drawing::Core::IStrokable
 ```
 
 ## Methods
@@ -81,7 +83,7 @@ class Shape : public Aspose::Words::Drawing::ShapeBase, public Aspose::Words::Dr
 | [get_MarkupLanguage](../shapebase/get_markuplanguage/)() const | Gets MarkupLanguage used for this graphic object. |
 | [get_Name](../shapebase/get_name/)() | Gets or sets the optional shape name. |
 | [get_NextSibling](../../aspose.words/node/get_nextsibling/)() | Gets the node immediately following this node. |
-| [get_NodeType](./get_nodetype/)() const override | Returns **Shape**. |
+| [get_NodeType](./get_nodetype/)() const override | Returns [Shape](../../aspose.words/nodetype/). |
 | [get_OleFormat](./get_oleformat/)() | Provides access to the OLE data of a shape. For a shape that is not an OLE object or ActiveX control, returns null. |
 | [get_ParentNode](../../aspose.words/node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_ParentParagraph](../shapebase/get_parentparagraph/)() | Returns the immediate parent paragraph. |
@@ -97,7 +99,7 @@ class Shape : public Aspose::Words::Drawing::ShapeBase, public Aspose::Words::Dr
 | [get_ShapeType](../shapebase/get_shapetype/)() | Gets the shape type. |
 | [get_SignatureLine](./get_signatureline/)() | Gets [SignatureLine](./get_signatureline/) object if the shape is a signature line. Returns **null** otherwise. |
 | [get_SizeInPoints](../shapebase/get_sizeinpoints/)() | Gets the size of the shape in points. |
-| [get_StoryType](./get_storytype/)() | Returns **Textbox**. |
+| [get_StoryType](./get_storytype/)() | Returns [Textbox](../../aspose.words/storytype/). |
 | [get_Stroke](./get_stroke/)() | Defines a stroke for a shape. |
 | [get_StrokeColor](./get_strokecolor/)() | Defines the color of a stroke. |
 | [get_Stroked](./get_stroked/)() | Defines whether the path will be stroked. |
@@ -176,6 +178,8 @@ class Shape : public Aspose::Words::Drawing::ShapeBase, public Aspose::Words::Dr
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
 | [UpdateSmartArtDrawing](./updatesmartartdrawing/)() | Updates SmartArt pre-rendered drawing by using [Aspose.Words](../../aspose.words/)'s SmartArt cold rendering engine. |
+## Remarks
+
 
 Using the [Shape](./) class you can create or modify shapes in a Microsoft Word document.
 
@@ -184,7 +188,6 @@ An important property of a shape is its [ShapeType](../shapebase/get_shapetype/)
 Shapes that can have text, can contain [Paragraph](../../aspose.words/paragraph/) and [Table](../../aspose.words.tables/table/) nodes as children.
 
 ## Examples
-
 
 
 
@@ -273,3 +276,8 @@ ASSERT_EQ(0, doc->GetChildNodes(NodeType::GroupShape, true)->get_Count());
 ASSERT_EQ(0, doc->GetChildNodes(NodeType::Shape, true)->get_Count());
 ```
 
+## See Also
+
+* Class [ShapeBase](../shapebase/)
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

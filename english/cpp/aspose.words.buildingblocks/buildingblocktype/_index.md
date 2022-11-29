@@ -11,6 +11,10 @@ url: /cpp/aspose.words.buildingblocks/buildingblocktype/
 
 Specifies a building block type. The type might affect the visibility and behavior of the building block in Microsoft Word.
 
+```cpp
+enum class BuildingBlockType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -23,13 +27,14 @@ Specifies a building block type. The type might affect the visibility and behavi
 | AutoCorrect | 5 | The building block is associated with the spelling and grammar tools. |
 | AutoText | 6 | The building block is an AutoText entry. |
 | All | 7 | The building block is associated with all types. |
-| Default | n/a | Save as **None**. |
+| Default | n/a | Save as [None](./). |
+
+## Remarks
 
 
 Corresponds to the **ST_DocPartType** type in OOXML.
 
 ## Examples
-
 
 
 
@@ -124,3 +129,7 @@ private:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::BuildingBlocks](../)
+* Library [Aspose.Words](../../)

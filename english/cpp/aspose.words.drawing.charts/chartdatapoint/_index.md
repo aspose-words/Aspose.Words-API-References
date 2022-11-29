@@ -12,7 +12,8 @@ url: /cpp/aspose.words.drawing.charts/chartdatapoint/
 Allows to specify formatting of a single data point on the chart.
 
 ```cpp
-class ChartDataPoint : public Aspose::Words::Drawing::Charts::IChartDataPoint, public Aspose::Words::Drawing::Charts::Core::IChartFormatSource
+class ChartDataPoint : public Aspose::Words::Drawing::Charts::IChartDataPoint,
+                       public Aspose::Words::Drawing::Charts::Core::IChartFormatSource
 ```
 
 ## Methods
@@ -31,7 +32,6 @@ class ChartDataPoint : public Aspose::Words::Drawing::Charts::IChartDataPoint, p
 | [set_InvertIfNegative](./set_invertifnegative/)(bool) override | Setter for [Aspose::Words::Drawing::Charts::IChartDataPoint::get_InvertIfNegative](../ichartdatapoint/get_invertifnegative/). |
 
 ## Examples
-
 
 
 
@@ -91,3 +91,8 @@ static void ApplyDataPoints(SharedPtr<ChartSeries> series, int dataPointsCount, 
 }
 ```
 
+## See Also
+
+* Interface [IChartDataPoint](../ichartdatapoint/)
+* Namespace [Aspose::Words::Drawing::Charts](../)
+* Library [Aspose.Words](../../)

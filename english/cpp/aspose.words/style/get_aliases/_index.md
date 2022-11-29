@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/style/get_aliases/
 ---
-## Style.get_Aliases method
+## Style::get_Aliases method
 
 
 Gets all aliases of this style. If style has no aliases then empty array of string is returned.
@@ -17,7 +17,6 @@ System::ArrayPtr<System::String> Aspose::Words::Style::get_Aliases()
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,8 @@ ASPOSE_ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(
                  doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(1)->get_ParagraphFormat()->get_Style());
 ```
 
+## See Also
+
+* Class [Style](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

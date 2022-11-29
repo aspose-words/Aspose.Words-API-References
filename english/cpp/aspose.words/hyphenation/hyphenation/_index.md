@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words/hyphenation/hyphenation/
 ---
-## Hyphenation.Hyphenation method
+## Hyphenation::Hyphenation constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words/hyphenation/hyphenation/
 Aspose::Words::Hyphenation::Hyphenation()=delete
 ```
 
+## See Also
+
+* Class [Hyphenation](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

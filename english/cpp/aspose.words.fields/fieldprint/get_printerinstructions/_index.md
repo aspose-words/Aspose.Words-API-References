@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldprint/get_printerinstructions/
 ---
-## FieldPrint.get_PrinterInstructions method
+## FieldPrint::get_PrinterInstructions method
 
 
 Gets or sets the printer-specific control code characters or PostScript instructions.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldPrint::get_PrinterInstructions()
 
 
 ## Examples
-
 
 
 
@@ -45,3 +44,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.PRINT.docx");
 ```
 
+## See Also
+
+* Class [FieldPrint](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

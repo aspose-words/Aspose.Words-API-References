@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fields/formfieldcollection/remove/
 ---
-## FormFieldCollection.Remove method
+## FormFieldCollection::Remove method
 
 
 Removes a form field with the specified name.
@@ -21,7 +21,6 @@ void Aspose::Words::Fields::FormFieldCollection::Remove(const System::String &fo
 | formField | const System::String\& | The case-insensitive name of the form field to remove. |
 
 ## Examples
-
 
 
 
@@ -154,3 +153,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [FormFieldCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

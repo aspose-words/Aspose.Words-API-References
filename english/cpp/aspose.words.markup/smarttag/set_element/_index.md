@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.markup/smarttag/set_element/
 ---
-## SmartTag.set_Element method
+## SmartTag::set_Element method
 
 
 Setter for [Aspose::Words::Markup::SmartTag::get_Element](../get_element/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Markup::SmartTag::get_Element](../get_element/).
 void Aspose::Words::Markup::SmartTag::set_Element(const System::String &value)
 ```
 
+## See Also
+
+* Class [SmartTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

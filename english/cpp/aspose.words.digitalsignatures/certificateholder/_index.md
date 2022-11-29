@@ -24,11 +24,12 @@ class CertificateHolder : public System::Object
 | static [Create](./create/)(const System::String\&, const System::String\&) | Creates [CertificateHolder](./) object using path to PKCS12 store and its password. |
 | static [Create](./create/)(const System::String\&, const System::String\&, const System::String\&) | Creates [CertificateHolder](./) object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found. |
 | [get_Certificate](./get_certificate/)() | Returns the instance of **X509Certificate2** which holds private, public keys and certificate chain. |
+## Remarks
+
 
 **CertificateHolder** can be created by static factory methods only. It contains an instance of **X509Certificate2** which is used to introduce private, public keys and certificate chains into the system. This class is applied in [DigitalSignatureUtil](../digitalsignatureutil/) and [PdfDigitalSignatureDetails](../../aspose.words.saving/pdfdigitalsignaturedetails/) instead of obsolete methods with **X509Certificate2** as parameters.
 
 ## Examples
-
 
 
 
@@ -203,3 +204,7 @@ static void CreateSignees()
 static SharedPtr<System::Collections::Generic::List<SharedPtr<ExSignDocumentCustom::Signee>>> mSignees;
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::DigitalSignatures](../)
+* Library [Aspose.Words](../../)

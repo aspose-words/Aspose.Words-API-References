@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/aspose.words.drawing/fill/solid/
 ---
-## Fill.Solid() method
+## Fill::Solid() method
 
 
 Sets the fill to a uniform color.
@@ -15,7 +15,12 @@ Sets the fill to a uniform color.
 void Aspose::Words::Drawing::Fill::Solid()
 ```
 
-## Fill.Solid(System::Drawing::Color) method
+## See Also
+
+* Class [Fill](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)
+## Fill::Solid(System::Drawing::Color) method
 
 
 Sets the fill to a specified uniform color.
@@ -26,7 +31,6 @@ void Aspose::Words::Drawing::Fill::Solid(System::Drawing::Color color)
 
 
 ## Examples
-
 
 
 
@@ -52,3 +56,8 @@ std::cout << "The fill transparency is " << (fill->get_Transparency() * 100) << 
 doc->Save(ArtifactsDir + u"Drawing.FillSolid.docx");
 ```
 
+## See Also
+
+* Class [Fill](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

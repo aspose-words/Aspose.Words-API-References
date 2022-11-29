@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/aspose.words/pagesetup/get_pageheight/
 ---
-## PageSetup.get_PageHeight method
+## PageSetup::get_PageHeight method
 
 
 Returns or sets the height of the page in points.
@@ -17,7 +17,6 @@ double Aspose::Words::PageSetup::get_PageHeight()
 
 
 ## Examples
-
 
 
 
@@ -42,3 +41,8 @@ shape->set_Top((builder->get_PageSetup()->get_PageHeight() - shape->get_Height()
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertWatermark.docx");
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

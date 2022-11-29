@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.fields/fieldif/get_start/
 ---
-## FieldIf.get_Start method
+## FieldIf::get_Start method
 
 
 Gets the node that represents the start of the field.
@@ -15,3 +15,9 @@ Gets the node that represents the start of the field.
 System::SharedPtr<Aspose::Words::Fields::FieldStart> Aspose::Words::Fields::FieldIf::get_Start() override
 ```
 
+## See Also
+
+* Class [FieldStart](../../fieldstart/)
+* Class [FieldIf](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

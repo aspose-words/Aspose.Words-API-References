@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldnoteref/get_inserthyperlink/
 ---
-## FieldNoteRef.get_InsertHyperlink method
+## FieldNoteRef::get_InsertHyperlink method
 
 
 Gets or sets whether to insert a hyperlink to the bookmarked paragraph.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldNoteRef::get_InsertHyperlink()
 
 
 ## Examples
-
 
 
 
@@ -78,3 +77,8 @@ static void InsertBookmarkWithFootnote(SharedPtr<DocumentBuilder> builder, Strin
 }
 ```
 
+## See Also
+
+* Class [FieldNoteRef](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

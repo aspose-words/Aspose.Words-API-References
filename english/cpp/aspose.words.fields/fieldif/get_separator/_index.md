@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.fields/fieldif/get_separator/
 ---
-## FieldIf.get_Separator method
+## FieldIf::get_Separator method
 
 
 Gets the node that represents the field separator. Can be null.
@@ -15,3 +15,9 @@ Gets the node that represents the field separator. Can be null.
 System::SharedPtr<Aspose::Words::Fields::FieldSeparator> Aspose::Words::Fields::FieldIf::get_Separator() override
 ```
 
+## See Also
+
+* Class [FieldSeparator](../../fieldseparator/)
+* Class [FieldIf](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

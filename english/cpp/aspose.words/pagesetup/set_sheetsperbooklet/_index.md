@@ -6,7 +6,7 @@ type: docs
 weight: 1041
 url: /cpp/aspose.words/pagesetup/set_sheetsperbooklet/
 ---
-## PageSetup.set_SheetsPerBooklet method
+## PageSetup::set_SheetsPerBooklet method
 
 
 Setter for [Aspose::Words::PageSetup::get_SheetsPerBooklet](../get_sheetsperbooklet/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::PageSetup::get_SheetsPerBooklet](../get_sheetsperbook
 void Aspose::Words::PageSetup::set_SheetsPerBooklet(int32_t value)
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

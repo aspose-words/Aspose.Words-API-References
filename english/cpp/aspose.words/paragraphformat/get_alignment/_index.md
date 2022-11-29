@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/paragraphformat/get_alignment/
 ---
-## ParagraphFormat.get_Alignment method
+## ParagraphFormat::get_Alignment method
 
 
 Gets or sets text alignment for the paragraph.
@@ -17,7 +17,6 @@ Aspose::Words::ParagraphAlignment Aspose::Words::ParagraphFormat::get_Alignment(
 
 
 ## Examples
-
 
 
 
@@ -92,3 +91,9 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 ```
 
+## See Also
+
+* Enum [ParagraphAlignment](../../paragraphalignment/)
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

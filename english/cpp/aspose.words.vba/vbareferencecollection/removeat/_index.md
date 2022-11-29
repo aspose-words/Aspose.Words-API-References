@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.vba/vbareferencecollection/removeat/
 ---
-## VbaReferenceCollection.RemoveAt method
+## VbaReferenceCollection::RemoveAt method
 
 
 Removes the [VbaReference](../../vbareference/) element at the specified index of the collection.
@@ -17,7 +17,6 @@ void Aspose::Words::Vba::VbaReferenceCollection::RemoveAt(int32_t index)
 
 
 ## Examples
-
 
 
 
@@ -86,3 +85,8 @@ static String GetLibIdProjectPath(String libIdProject)
 }
 ```
 
+## See Also
+
+* Class [VbaReferenceCollection](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

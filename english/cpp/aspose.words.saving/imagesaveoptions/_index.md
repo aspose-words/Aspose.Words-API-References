@@ -50,11 +50,11 @@ class ImageSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [get_PixelFormat](./get_pixelformat/)() const | Gets or sets the pixel format for the generated images. |
 | [get_PrettyFormat](../saveoptions/get_prettyformat/)() const | When **true**, pretty formats output where applicable. Default value is **false**. |
 | [get_ProgressCallback](../saveoptions/get_progresscallback/)() const | Called during saving a document and accepts data about saving progress. |
-| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster **Tiff**, **Png**, **Bmp**, **Jpeg** or vector **Emf**, **Svg**. |
+| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [Tiff](../../aspose.words/saveformat/), [Png](../../aspose.words/saveformat/), [Bmp](../../aspose.words/saveformat/), [Jpeg](../../aspose.words/saveformat/) or vector [Emf](../../aspose.words/saveformat/), [Svg](../../aspose.words/saveformat/). |
 | [get_Scale](./get_scale/)() const | Gets or sets the zoom factor for the generated images. |
 | [get_TempFolder](../saveoptions/get_tempfolder/)() const | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is **null** and no temporary files are used. |
-| [get_ThresholdForFloydSteinbergDithering](./get_thresholdforfloydsteinbergdithering/)() const | Gets or sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. when [ImageBinarizationMethod](../imagebinarizationmethod/) is **ImageBinarizationMethod.FloydSteinbergDithering**. |
-| [get_TiffBinarizationMethod](./get_tiffbinarizationmethod/)() const | Gets or sets method used while converting images to 1 bpp format when [SaveFormat](./get_saveformat/) is **SaveFormat.Tiff** and [TiffCompression](./get_tiffcompression/) is equal to **TiffCompression.Ccitt3** or **TiffCompression.Ccitt4**. |
+| [get_ThresholdForFloydSteinbergDithering](./get_thresholdforfloydsteinbergdithering/)() const | Gets or sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. when [ImageBinarizationMethod](../imagebinarizationmethod/) is [ImageBinarizationMethod.FloydSteinbergDithering](../imagebinarizationmethod/). |
+| [get_TiffBinarizationMethod](./get_tiffbinarizationmethod/)() const | Gets or sets method used while converting images to 1 bpp format when [SaveFormat](./get_saveformat/) is [SaveFormat.Tiff](../../aspose.words/saveformat/) and [TiffCompression](./get_tiffcompression/) is equal to [TiffCompression.Ccitt3](../tiffcompression/) or [TiffCompression.Ccitt4](../tiffcompression/). |
 | [get_TiffCompression](./get_tiffcompression/)() const | Gets or sets the type of compression to apply when saving generated images to the TIFF format. |
 | [get_UpdateCreatedTimeProperty](../saveoptions/get_updatecreatedtimeproperty/)() const | Gets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is false;. |
 | [get_UpdateFields](../saveoptions/get_updatefields/)() const | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. |
@@ -65,7 +65,7 @@ class ImageSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [get_UseGdiEmfRenderer](./get_usegdiemfrenderer/)() const | Gets or sets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF. |
 | [get_UseHighQualityRendering](../saveoptions/get_usehighqualityrendering/)() const | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
 | [get_VerticalResolution](./get_verticalresolution/)() const | Gets or sets the vertical resolution for the generated images, in dots per inch. |
-| [ImageSaveOptions](./imagesaveoptions/)(Aspose::Words::SaveFormat) | Initializes a new instance of this class that can be used to save rendered images in the **Tiff**, **Png**, **Bmp**, **Emf**, **Jpeg** or **Svg** format. **Png**, **Bmp**, **Jpeg** or **Svg** format. |
+| [ImageSaveOptions](./imagesaveoptions/)(Aspose::Words::SaveFormat) | Initializes a new instance of this class that can be used to save rendered images in the [Tiff](../../aspose.words/saveformat/), [Png](../../aspose.words/saveformat/), [Bmp](../../aspose.words/saveformat/), [Emf](../../aspose.words/saveformat/), [Jpeg](../../aspose.words/saveformat/) or [Svg](../../aspose.words/saveformat/) format. [Png](../../aspose.words/saveformat/), [Bmp](../../aspose.words/saveformat/), [Jpeg](../../aspose.words/saveformat/) or [Svg](../../aspose.words/saveformat/) format. |
 | [set_AllowEmbeddingPostScriptFonts](../saveoptions/set_allowembeddingpostscriptfonts/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_AllowEmbeddingPostScriptFonts](../saveoptions/get_allowembeddingpostscriptfonts/). |
 | [set_ColorMode](../fixedpagesaveoptions/set_colormode/)(Aspose::Words::Saving::ColorMode) | Setter for [Aspose::Words::Saving::FixedPageSaveOptions::get_ColorMode](../fixedpagesaveoptions/get_colormode/). |
 | [set_CustomTimeZoneInfo](../saveoptions/set_customtimezoneinfo/)(const System::SharedPtr\<System::TimeZoneInfo\>\&) |  |
@@ -108,7 +108,6 @@ class ImageSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [set_VerticalResolution](./set_verticalresolution/)(float) | Setter for [Aspose::Words::Saving::ImageSaveOptions::get_VerticalResolution](./get_verticalresolution/). |
 
 ## Examples
-
 
 
 
@@ -199,3 +198,8 @@ doc->Save(ArtifactsDir + u"ImageSaveOptions.Resolution.300dpi.png", options);
 ASSERT_LT(700000, MakeObject<System::IO::FileInfo>(ArtifactsDir + u"ImageSaveOptions.Resolution.300dpi.png")->get_Length());
 ```
 
+## See Also
+
+* Class [FixedPageSaveOptions](../fixedpagesaveoptions/)
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

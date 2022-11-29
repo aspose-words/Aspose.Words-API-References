@@ -6,7 +6,7 @@ type: docs
 weight: 885
 url: /cpp/aspose.words.drawing/shapebase/set_distanceright/
 ---
-## ShapeBase.set_DistanceRight method
+## ShapeBase::set_DistanceRight method
 
 
 Setter for [Aspose::Words::Drawing::ShapeBase::get_DistanceRight](../get_distanceright/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::ShapeBase::get_DistanceRight](../get_distanc
 void Aspose::Words::Drawing::ShapeBase::set_DistanceRight(double value)
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

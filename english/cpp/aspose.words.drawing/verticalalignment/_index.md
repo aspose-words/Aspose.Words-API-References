@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing/verticalalignment/
 
 Specifies vertical alignment of a floating shape, text frame or a floating table.
 
+```cpp
+enum class VerticalAlignment
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -22,11 +26,10 @@ Specifies vertical alignment of a floating shape, text frame or a floating table
 | Inside | 4 | Specifies that the object shall be inside of the horizontal alignment base. |
 | Outside | 5 | Specifies that the object shall be outside of the vertical alignment base. |
 | Inline | -1 | Not documented. Seems to be a possible value for floating paragraphs and tables. |
-| Default | n/a | Same as **None**. |
+| Default | n/a | Same as [None](./). |
 
 
 ## Examples
-
 
 
 
@@ -47,3 +50,7 @@ shape->set_VerticalAlignment(VerticalAlignment::Center);
 doc->Save(ArtifactsDir + u"Image.CreateFloatingPageCenter.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words/documentvisitor/visitcommentstart/
 ---
-## DocumentVisitor.VisitCommentStart method
+## DocumentVisitor::VisitCommentStart method
 
 
 Called when enumeration of a comment text has started.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitCommen
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -299,3 +297,10 @@ public:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [Comment](../../comment/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

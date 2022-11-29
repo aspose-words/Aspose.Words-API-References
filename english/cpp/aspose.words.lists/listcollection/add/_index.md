@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.lists/listcollection/add/
 ---
-## ListCollection.Add(Aspose::Words::Lists::ListTemplate) method
+## ListCollection::Add(Aspose::Words::Lists::ListTemplate) method
 
 
 Creates a new list based on a predefined template and adds it to the collection of lists in the document.
@@ -22,15 +22,15 @@ System::SharedPtr<Aspose::Words::Lists::List> Aspose::Words::Lists::ListCollecti
 
 ### ReturnValue
 
-
 The newly created list.
+## Remarks
+
 
 Aspose.Words list templates correspond to the 21 list templates available in the Bullets and Numbering dialog box in Microsoft Word 2003.
 
 All lists created using this method have 9 list levels.
 
 ## Examples
-
 
 
 
@@ -145,7 +145,14 @@ for (const auto& paragraph : System::IterateOver(paras->LINQ_OfType<SharedPtr<Pa
 ASSERT_EQ(3, paras->LINQ_Count([](SharedPtr<Node> n) { return System::DynamicCast<Paragraph>(n)->get_ListFormat()->get_IsListItem(); }));
 ```
 
-## ListCollection.Add(const System::SharedPtr\<Aspose::Words::Style\>\&) method
+## See Also
+
+* Class [List](../../list/)
+* Enum [ListTemplate](../../listtemplate/)
+* Class [ListCollection](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)
+## ListCollection::Add(const System::SharedPtr\<Aspose::Words::Style\>\&) method
 
 
 Creates a new list that references a list style and adds it to the collection of lists in the document.
@@ -161,13 +168,13 @@ System::SharedPtr<Aspose::Words::Lists::List> Aspose::Words::Lists::ListCollecti
 
 ### ReturnValue
 
-
 The newly created list.
+## Remarks
+
 
 The newly created list references the list style. If you change the properties of the list style, it is reflected in the properties of the list. Vice versa, if you change the properties of the list, it is reflected in the properties of the list style.
 
 ## Examples
-
 
 
 
@@ -226,3 +233,10 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateAndUseListStyle.docx");
 ```
 
+## See Also
+
+* Class [List](../../list/)
+* Class [Style](../../../aspose.words/style/)
+* Class [ListCollection](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_resourcesfolder/
 ---
-## HtmlFixedSaveOptions.get_ResourcesFolder method
+## HtmlFixedSaveOptions::get_ResourcesFolder method
 
 
 Specifies the physical folder where resources (images, fonts, css) are saved when exporting a document to Html format. Default is **null**.
@@ -14,6 +14,8 @@ Specifies the physical folder where resources (images, fonts, css) are saved whe
 ```cpp
 System::String Aspose::Words::Saving::HtmlFixedSaveOptions::get_ResourcesFolder() const
 ```
+
+## Remarks
 
 
 Has effect only if [ExportEmbeddedImages](../get_exportembeddedimages/) property is false.
@@ -25,7 +27,6 @@ If you save a document into a file and provide a file name, Aspose.Words, by def
 If you save a document into a stream, Aspose.Words does not have a folder where to save the images, but still needs to save the images somewhere. In this case, you need to specify an accessible folder by using the [ResourcesFolder](./) property
 
 ## Examples
-
 
 
 
@@ -103,3 +104,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [HtmlFixedSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

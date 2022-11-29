@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.markup/istructureddocumenttag/get_id/
 ---
-## IStructuredDocumentTag.get_Id method
+## IStructuredDocumentTag::get_Id method
 
 
 Specifies a unique read-only persistent numerical Id for this **SDT**.
@@ -15,3 +15,8 @@ Specifies a unique read-only persistent numerical Id for this **SDT**.
 virtual int32_t Aspose::Words::Markup::IStructuredDocumentTag::get_Id()=0
 ```
 
+## See Also
+
+* Interface [IStructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

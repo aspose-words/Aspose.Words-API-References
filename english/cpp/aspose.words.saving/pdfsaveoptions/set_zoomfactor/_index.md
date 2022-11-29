@@ -6,7 +6,7 @@ type: docs
 weight: 781
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_zoomfactor/
 ---
-## PdfSaveOptions.set_ZoomFactor method
+## PdfSaveOptions::set_ZoomFactor method
 
 
 Setter for [Aspose::Words::Saving::PdfSaveOptions::get_ZoomFactor](../get_zoomfactor/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::PdfSaveOptions::get_ZoomFactor](../get_zoomfa
 void Aspose::Words::Saving::PdfSaveOptions::set_ZoomFactor(int32_t value)
 ```
 
+## See Also
+
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

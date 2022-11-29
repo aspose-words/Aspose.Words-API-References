@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.webextensions/taskpane/get_width/
 ---
-## TaskPane.get_Width method
+## TaskPane::get_Width method
 
 
 Specifies the default width value for this task pane instance.
@@ -17,7 +17,6 @@ double Aspose::Words::WebExtensions::TaskPane::get_Width() const
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,8 @@ doc->get_WebExtensionTaskPanes()->Clear();
 ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ```
 
+## See Also
+
+* Class [TaskPane](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

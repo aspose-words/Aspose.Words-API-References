@@ -6,7 +6,7 @@ type: docs
 weight: 924
 url: /cpp/aspose.words/document/set_fontsettings/
 ---
-## Document.set_FontSettings method
+## Document::set_FontSettings method
 
 
 Setter for [Aspose::Words::Document::get_FontSettings](../get_fontsettings/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Document::get_FontSettings](../get_fontsettings/).
 void Aspose::Words::Document::set_FontSettings(const System::SharedPtr<Aspose::Words::Fonts::FontSettings> &value)
 ```
 
+## See Also
+
+* Class [FontSettings](../../../aspose.words.fonts/fontsettings/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

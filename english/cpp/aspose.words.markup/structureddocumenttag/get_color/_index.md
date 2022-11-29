@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.markup/structureddocumenttag/get_color/
 ---
-## StructuredDocumentTag.get_Color method
+## StructuredDocumentTag::get_Color method
 
 
 Gets or sets the color of the structured document tag.
@@ -17,7 +17,6 @@ System::Drawing::Color Aspose::Words::Markup::StructuredDocumentTag::get_Color()
 
 
 ## Examples
-
 
 
 
@@ -72,3 +71,8 @@ tagClone->RemoveSelfOnly();
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.PlainText.docx");
 ```
 
+## See Also
+
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

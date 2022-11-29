@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.settings/odsofieldmapdatacollection/odsofieldmapdatacollection/
 ---
-## OdsoFieldMapDataCollection.OdsoFieldMapDataCollection method
+## OdsoFieldMapDataCollection::OdsoFieldMapDataCollection constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.settings/odsofieldmapdatacollection/odsofieldmapdatacolle
 Aspose::Words::Settings::OdsoFieldMapDataCollection::OdsoFieldMapDataCollection()
 ```
 
+## See Also
+
+* Class [OdsoFieldMapDataCollection](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

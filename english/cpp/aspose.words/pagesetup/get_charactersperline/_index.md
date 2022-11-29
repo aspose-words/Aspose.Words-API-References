@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words/pagesetup/get_charactersperline/
 ---
-## PageSetup.get_CharactersPerLine method
+## PageSetup::get_CharactersPerLine method
 
 
 Gets or sets the number of characters per line in the document grid.
@@ -15,13 +15,14 @@ Gets or sets the number of characters per line in the document grid.
 int32_t Aspose::Words::PageSetup::get_CharactersPerLine()
 ```
 
+## Remarks
+
 
 Minimum value of the property is 1. Maximum value depends on page width and font size of the Normal style. Minimum character pitch is 90 percent of the font size. For example, maximum number of characters per line of a Letter page with one-inch margins is 43.
 
 By default, the property has a value, on which character pitch equals to font size of the Normal style.
 
 ## Examples
-
 
 
 
@@ -44,3 +45,8 @@ builder->Writeln(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
 doc->Save(ArtifactsDir + u"PageSetup.CharactersPerLine.docx");
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/aspose.words/font/get_shading/
 ---
-## Font.get_Shading method
+## Font::get_Shading method
 
 
 Returns a [Shading](../../shading/) object that refers to the shading formatting for the font.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Shading> Aspose::Words::Font::get_Shading()
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,9 @@ builder->Writeln(u"White text on an orange background with a two-tone texture.")
 doc->Save(ArtifactsDir + u"Font.Shading.docx");
 ```
 
+## See Also
+
+* Class [Shading](../../shading/)
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

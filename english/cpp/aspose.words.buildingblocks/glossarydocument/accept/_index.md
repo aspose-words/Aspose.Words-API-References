@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.buildingblocks/glossarydocument/accept/
 ---
-## GlossaryDocument.Accept method
+## GlossaryDocument::Accept method
 
 
 Accepts a visitor.
@@ -22,19 +22,19 @@ bool Aspose::Words::BuildingBlocks::GlossaryDocument::Accept(System::SharedPtr<A
 
 ### ReturnValue
 
-
 True if all nodes were visited; false if [DocumentVisitor](../../../aspose.words/documentvisitor/) stopped the operation before visiting all nodes.
+## Remarks
+
 
 Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../../aspose.words/documentvisitor/).
 
 For more info see the Visitor design pattern.
 
-Calls **VisitGlossaryDocumentStart()**, then calls [Accept()](../../../aspose.words/node/accept/) for all child nodes of this node and then calls **VisitGlossaryDocumentEnd()** at the end.
+Calls [VisitGlossaryDocumentStart()](../), then calls [Accept()](../../../aspose.words/node/accept/) for all child nodes of this node and then calls [VisitGlossaryDocumentEnd()](../) at the end.
 
 Note: A glossary document node and its children are not visited when you execute a Visitor over a [Document](../../../aspose.words/document/). If you want to execute a Visitor over a glossary document, you need to call [Accept()](./).
 
 ## Examples
-
 
 
 
@@ -134,3 +134,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
+* Class [GlossaryDocument](../)
+* Namespace [Aspose::Words::BuildingBlocks](../../)
+* Library [Aspose.Words](../../../)

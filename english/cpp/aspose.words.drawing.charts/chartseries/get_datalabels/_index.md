@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.drawing.charts/chartseries/get_datalabels/
 ---
-## ChartSeries.get_DataLabels method
+## ChartSeries::get_DataLabels method
 
 
 Specifies the settings for the data labels for the entire series.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartDataLabelCollection> Aspo
 
 
 ## Examples
-
 
 
 
@@ -91,3 +90,9 @@ static void ApplyDataLabels(SharedPtr<ChartSeries> series, int labelsCount, Stri
 }
 ```
 
+## See Also
+
+* Class [ChartDataLabelCollection](../../chartdatalabelcollection/)
+* Class [ChartSeries](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

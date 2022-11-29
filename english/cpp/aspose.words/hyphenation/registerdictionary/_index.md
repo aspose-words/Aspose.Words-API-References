@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/hyphenation/registerdictionary/
 ---
-## Hyphenation.RegisterDictionary(const System::String\&, const System::SharedPtr\<System::IO::Stream\>\&) method
+## Hyphenation::RegisterDictionary(const System::String\&, const System::SharedPtr\<System::IO::Stream\>\&) method
 
 
 Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format.
@@ -22,7 +22,6 @@ static void Aspose::Words::Hyphenation::RegisterDictionary(const System::String 
 | stream | const System::SharedPtr\<System::IO::Stream\>\& | A stream for the dictionary file in OpenOffice format. |
 
 ## Examples
-
 
 
 
@@ -94,7 +93,12 @@ private:
 };
 ```
 
-## Hyphenation.RegisterDictionary(const System::String\&, const System::String\&) method
+## See Also
+
+* Class [Hyphenation](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Hyphenation::RegisterDictionary(const System::String\&, const System::String\&) method
 
 
 Registers and loads a hyphenation dictionary for the specified language from file. Throws if dictionary cannot be read or has invalid format. This method can also be used to register Null dictionary to prevent [Callback](../get_callback/) from being called repeatedly for the same language.
@@ -107,10 +111,9 @@ static void Aspose::Words::Hyphenation::RegisterDictionary(const System::String 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | language | const System::String\& | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. |
-| fileName | const System::String\& | A path to the dictionary file in Open Office format. If this parameter is null or empty string then registered is Null dictionary and callback is not called anymore for this language. To enable callback again use **UnregisterDictionary()** method. |
+| fileName | const System::String\& | A path to the dictionary file in Open Office format. If this parameter is null or empty string then registered is Null dictionary and callback is not called anymore for this language. To enable callback again use [UnregisterDictionary()](../) method. |
 
 ## Examples
-
 
 
 
@@ -214,7 +217,12 @@ private:
 };
 ```
 
-## Hyphenation.RegisterDictionary(System::String, std::basic_istream\<CharType, Traits\>\&) method
+## See Also
+
+* Class [Hyphenation](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Hyphenation::RegisterDictionary(System::String, std::basic_istream\<CharType, Traits\>\&) method
 
 
 
@@ -223,3 +231,8 @@ private:
 template<typename CharType,typename Traits> static void Aspose::Words::Hyphenation::RegisterDictionary(System::String language, std::basic_istream<CharType, Traits> &stream)
 ```
 
+## See Also
+
+* Class [Hyphenation](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

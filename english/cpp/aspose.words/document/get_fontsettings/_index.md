@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.words/document/get_fontsettings/
 ---
-## Document.get_FontSettings method
+## Document::get_FontSettings method
 
 
 Gets or sets document font settings.
@@ -15,13 +15,14 @@ Gets or sets document font settings.
 System::SharedPtr<Aspose::Words::Fonts::FontSettings> Aspose::Words::Document::get_FontSettings() const
 ```
 
+## Remarks
+
 
 This property allows to specify font settings per document. If set to null, default static font settings [DefaultInstance](../../../aspose.words.fonts/fontsettings/get_defaultinstance/) will be used.
 
 The default value is null.
 
 ## Examples
-
 
 
 
@@ -62,3 +63,9 @@ ASSERT_TRUE(fontSources[0]->GetAvailableFonts()->LINQ_Any([](SharedPtr<PhysicalF
 doc->Save(ArtifactsDir + u"FontSettings.TableSubstitution.pdf");
 ```
 
+## See Also
+
+* Class [FontSettings](../../../aspose.words.fonts/fontsettings/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

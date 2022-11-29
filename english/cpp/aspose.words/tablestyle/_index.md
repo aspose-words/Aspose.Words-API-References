@@ -12,7 +12,11 @@ url: /cpp/aspose.words/tablestyle/
 Represents a table style.
 
 ```cpp
-class TableStyle : public Aspose::Words::Style, public Aspose::Words::ICellAttrSource, public Aspose::Words::IRowAttrSource, public Aspose::Words::IBorderAttrSource, public Aspose::Words::IShadingAttrSource
+class TableStyle : public Aspose::Words::Style,
+                   public Aspose::Words::ICellAttrSource,
+                   public Aspose::Words::IRowAttrSource,
+                   public Aspose::Words::IBorderAttrSource,
+                   public Aspose::Words::IShadingAttrSource
 ```
 
 ## Methods
@@ -73,7 +77,6 @@ class TableStyle : public Aspose::Words::Style, public Aspose::Words::ICellAttrS
 
 
 
-
 Shows how to create custom style settings for the table. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -112,3 +115,8 @@ ASSERT_EQ(u"MyTableStyle1", table->get_StyleName());
 doc->Save(ArtifactsDir + u"Table.TableStyleCreation.docx");
 ```
 
+## See Also
+
+* Class [Style](../style/)
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

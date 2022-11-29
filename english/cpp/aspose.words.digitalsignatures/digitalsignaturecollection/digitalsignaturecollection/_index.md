@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/digitalsignaturecollection/
 ---
-## DigitalSignatureCollection.DigitalSignatureCollection method
+## DigitalSignatureCollection::DigitalSignatureCollection constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/digitalsigna
 Aspose::Words::DigitalSignatures::DigitalSignatureCollection::DigitalSignatureCollection()
 ```
 
+## See Also
+
+* Class [DigitalSignatureCollection](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)

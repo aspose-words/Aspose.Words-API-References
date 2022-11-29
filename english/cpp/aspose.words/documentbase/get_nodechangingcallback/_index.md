@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/documentbase/get_nodechangingcallback/
 ---
-## DocumentBase.get_NodeChangingCallback method
+## DocumentBase::get_NodeChangingCallback method
 
 
 Called when a node is inserted or removed in the document.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::INodeChangingCallback> Aspose::Words::DocumentB
 
 
 ## Examples
-
 
 
 
@@ -94,3 +93,9 @@ private:
 };
 ```
 
+## See Also
+
+* Interface [INodeChangingCallback](../../inodechangingcallback/)
+* Class [DocumentBase](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,10 +6,10 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/xamlflowsaveoptions/xamlflowsaveoptions/
 ---
-## XamlFlowSaveOptions.XamlFlowSaveOptions() method
+## XamlFlowSaveOptions::XamlFlowSaveOptions() constructor
 
 
-Initializes a new instance of this class that can be used to save a document in the **XamlFlow** format.
+Initializes a new instance of this class that can be used to save a document in the [XamlFlow](../../../aspose.words/saveformat/) format.
 
 ```cpp
 Aspose::Words::Saving::XamlFlowSaveOptions::XamlFlowSaveOptions()
@@ -20,7 +20,6 @@ Aspose::Words::Saving::XamlFlowSaveOptions::XamlFlowSaveOptions()
 
 
 
-
 Shows how to print the filenames of linked images created while converting a document to flow-form .xaml. 
 ```cpp
 void ImageFolder()
@@ -93,10 +92,15 @@ private:
 };
 ```
 
-## XamlFlowSaveOptions.XamlFlowSaveOptions(Aspose::Words::SaveFormat) method
+## See Also
+
+* Class [XamlFlowSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)
+## XamlFlowSaveOptions::XamlFlowSaveOptions(Aspose::Words::SaveFormat) constructor
 
 
-Initializes a new instance of this class that can be used to save a document in the **XamlFlow** or **XamlFlowPack** format.
+Initializes a new instance of this class that can be used to save a document in the [XamlFlow](../../../aspose.words/saveformat/) or [XamlFlowPack](../../../aspose.words/saveformat/) format.
 
 ```cpp
 Aspose::Words::Saving::XamlFlowSaveOptions::XamlFlowSaveOptions(Aspose::Words::SaveFormat saveFormat)
@@ -105,10 +109,9 @@ Aspose::Words::Saving::XamlFlowSaveOptions::XamlFlowSaveOptions(Aspose::Words::S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | Aspose::Words::SaveFormat | Can be **XamlFlow** or **XamlFlowPack**. |
+| saveFormat | Aspose::Words::SaveFormat | Can be [XamlFlow](../../../aspose.words/saveformat/) or [XamlFlowPack](../../../aspose.words/saveformat/). |
 
 ## Examples
-
 
 
 
@@ -184,3 +187,9 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [XamlFlowSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/fileformatutil/imagetypetoextension/
 ---
-## FileFormatUtil.ImageTypeToExtension method
+## FileFormatUtil::ImageTypeToExtension method
 
 
 Converts an Aspose.Words image type enumerated value into a file extension. The returned extension is a lower-case string with a leading dot.
@@ -17,7 +17,6 @@ static System::String Aspose::Words::FileFormatUtil::ImageTypeToExtension(Aspose
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,9 @@ for (const auto& shape : System::IterateOver(shapes->LINQ_OfType<SharedPtr<Shape
 }
 ```
 
+## See Also
+
+* Enum [ImageType](../../../aspose.words.drawing/imagetype/)
+* Class [FileFormatUtil](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/convertutil/pixeltonewdpi/
 ---
-## ConvertUtil.PixelToNewDpi method
+## ConvertUtil::PixelToNewDpi method
 
 
 Converts pixels from one resolution to another.
@@ -23,7 +23,6 @@ static int32_t Aspose::Words::ConvertUtil::PixelToNewDpi(double pixels, double o
 | newDpi | double | The new dpi (dots per inch) resolution. |
 
 ## Examples
-
 
 
 
@@ -59,3 +58,8 @@ builder->Writeln(String::Format(u"At a DPI of {0}, the text is now {1} points/{2
 doc->Save(ArtifactsDir + u"UtilityClasses.PointsAndPixelsDpi.docx");
 ```
 
+## See Also
+
+* Class [ConvertUtil](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

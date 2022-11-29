@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.saving/pdfdigitalsignaturedetails/get_reason/
 ---
-## PdfDigitalSignatureDetails.get_Reason method
+## PdfDigitalSignatureDetails::get_Reason method
 
 
 Gets or sets the reason for the signing.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Saving::PdfDigitalSignatureDetails::get_Reason() c
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,8 @@ ASSERT_EQ(signingTime.ToUniversalTime(), options->get_DigitalSignatureDetails()-
 doc->Save(ArtifactsDir + u"PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```
 
+## See Also
+
+* Class [PdfDigitalSignatureDetails](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

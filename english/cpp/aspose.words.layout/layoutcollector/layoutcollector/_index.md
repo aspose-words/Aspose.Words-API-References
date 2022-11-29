@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.layout/layoutcollector/layoutcollector/
 ---
-## LayoutCollector.LayoutCollector method
+## LayoutCollector::LayoutCollector constructor
 
 
 Initializes an instance of this class.
@@ -21,7 +21,6 @@ Aspose::Words::Layout::LayoutCollector::LayoutCollector(const System::SharedPtr<
 | doc | const System::SharedPtr\<Aspose::Words::Document\>\& | The document to which this collector instance will be attached to. |
 
 ## Examples
-
 
 
 
@@ -78,3 +77,9 @@ ASSERT_EQ(LayoutEntityType::Span, layoutEnumerator->get_Type());
 ASSERT_EQ(u"¶", layoutEnumerator->get_Text());
 ```
 
+## See Also
+
+* Class [Document](../../../aspose.words/document/)
+* Class [LayoutCollector](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

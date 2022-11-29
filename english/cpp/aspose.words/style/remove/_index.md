@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words/style/remove/
 ---
-## Style.Remove method
+## Style::Remove method
 
 
 Removes the specified style from the document.
@@ -14,6 +14,8 @@ Removes the specified style from the document.
 ```cpp
 void Aspose::Words::Style::Remove()
 ```
+
+## Remarks
 
 
 [Style](../) removal has following effects on the document model:
@@ -25,7 +27,6 @@ void Aspose::Words::Style::Remove()
 
 
 ## Examples
-
 
 
 
@@ -60,3 +61,8 @@ ASPOSE_ASSERT_EQ(12.0, firstParagraphStyle->get_Font()->get_Size());
 ASSERT_EQ(System::Drawing::Color::Empty.ToArgb(), firstParagraphStyle->get_Font()->get_Color().ToArgb());
 ```
 
+## See Also
+
+* Class [Style](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

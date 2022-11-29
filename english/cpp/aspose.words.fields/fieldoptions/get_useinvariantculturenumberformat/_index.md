@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.fields/fieldoptions/get_useinvariantculturenumberformat/
 ---
-## FieldOptions.get_UseInvariantCultureNumberFormat method
+## FieldOptions::get_UseInvariantCultureNumberFormat method
 
 
 Gets or sets the value indicating that number format is parsed using invariant culture or not.
@@ -14,6 +14,8 @@ Gets or sets the value indicating that number format is parsed using invariant c
 ```cpp
 bool Aspose::Words::Fields::FieldOptions::get_UseInvariantCultureNumberFormat() const
 ```
+
+## Remarks
 
 
 When this property is set to **true**, number format is taken from an invariant culture.
@@ -23,7 +25,6 @@ When this property is set to **false**, number format is taken from the current 
 The default value is **false**.
 
 ## Examples
-
 
 
 
@@ -49,3 +50,8 @@ field->Update();
 ASSERT_EQ(u"$1.234.567,89", field->get_Result());
 ```
 
+## See Also
+
+* Class [FieldOptions](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

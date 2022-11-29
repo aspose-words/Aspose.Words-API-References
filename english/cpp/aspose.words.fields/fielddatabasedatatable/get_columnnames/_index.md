@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fielddatabasedatatable/get_columnnames/
 ---
-## FieldDatabaseDataTable.get_ColumnNames method
+## FieldDatabaseDataTable::get_ColumnNames method
 
 
 Gets columns that belong to this table.
@@ -15,3 +15,8 @@ Gets columns that belong to this table.
 const System::ArrayPtr<System::String> & Aspose::Words::Fields::FieldDatabaseDataTable::get_ColumnNames() const
 ```
 
+## See Also
+
+* Class [FieldDatabaseDataTable](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

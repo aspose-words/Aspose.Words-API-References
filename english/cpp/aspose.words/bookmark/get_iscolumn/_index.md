@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/bookmark/get_iscolumn/
 ---
-## Bookmark.get_IsColumn method
+## Bookmark::get_IsColumn method
 
 
 Returns **true** if this bookmark is a table column bookmark.
@@ -17,7 +17,6 @@ bool Aspose::Words::Bookmark::get_IsColumn()
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,8 @@ for (const auto& bookmark : System::IterateOver(doc->get_Range()->get_Bookmarks(
 }
 ```
 
+## See Also
+
+* Class [Bookmark](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

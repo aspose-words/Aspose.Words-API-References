@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words/paragraph/get_paragraphbreakfont/
 ---
-## Paragraph.get_ParagraphBreakFont method
+## Paragraph::get_ParagraphBreakFont method
 
 
 Provides access to the font formatting of the paragraph break character.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Font> Aspose::Words::Paragraph::get_ParagraphBr
 
 
 ## Examples
-
 
 
 
@@ -196,3 +195,9 @@ public:
 };
 ```
 
+## See Also
+
+* Class [Font](../../font/)
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.drawing/imagedata/get_contrast/
 ---
-## ImageData.get_Contrast method
+## ImageData::get_Contrast method
 
 
 Gets or sets the contrast for the specified picture. The value for this property must be a number from 0.0 (the least contrast) to 1.0 (the greatest contrast).
@@ -15,11 +15,12 @@ Gets or sets the contrast for the specified picture. The value for this property
 double Aspose::Words::Drawing::ImageData::get_Contrast()
 ```
 
+## Remarks
+
 
 The default value is 0.5.
 
 ## Examples
-
 
 
 
@@ -80,3 +81,8 @@ importedShape->get_ImageData()->set_CropRight(0.3);
 dstDoc->Save(ArtifactsDir + u"Drawing.ImageData.docx");
 ```
 
+## See Also
+
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

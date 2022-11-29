@@ -28,7 +28,6 @@ class DefaultFontSubstitutionRule : public Aspose::Words::Fonts::FontSubstitutio
 
 
 
-
 Shows how to set the default font substitution rule. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -54,3 +53,8 @@ builder->Writeln(u"Line written in a missing font, which will be substituted wit
 doc->Save(ArtifactsDir + u"FontSettings.DefaultFontSubstitutionRule.pdf");
 ```
 
+## See Also
+
+* Class [FontSubstitutionRule](../fontsubstitutionrule/)
+* Namespace [Aspose::Words::Fonts](../)
+* Library [Aspose.Words](../../)

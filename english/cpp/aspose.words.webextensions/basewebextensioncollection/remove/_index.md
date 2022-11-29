@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/remove/
 ---
-## BaseWebExtensionCollection.Remove method
+## BaseWebExtensionCollection::Remove method
 
 
 Removes the item at the specified index from the collection.
@@ -21,7 +21,6 @@ void Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::Remove(int32_t
 | index | int32_t | The zero-based index of the collection item. |
 
 ## Examples
-
 
 
 
@@ -49,3 +48,8 @@ doc->get_WebExtensionTaskPanes()->Remove(0);
 ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ```
 
+## See Also
+
+* Class [BaseWebExtensionCollection](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

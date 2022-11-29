@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing.charts/axiscategorytype/
 
 Specifies type of a category axis.
 
+```cpp
+enum class AxisCategoryType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ Specifies type of a category axis.
 
 
 ## Examples
-
 
 
 
@@ -71,3 +74,7 @@ ASSERT_TRUE(chart->get_AxisZ() == nullptr);
 doc->Save(ArtifactsDir + u"Charts.AxisProperties.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing::Charts](../)
+* Library [Aspose.Words](../../)

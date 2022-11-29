@@ -6,7 +6,7 @@ type: docs
 weight: 1015
 url: /cpp/aspose.words/pagesetup/set_rtlgutter/
 ---
-## PageSetup.set_RtlGutter method
+## PageSetup::set_RtlGutter method
 
 
 Setter for [Aspose::Words::PageSetup::get_RtlGutter](../get_rtlgutter/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::PageSetup::get_RtlGutter](../get_rtlgutter/).
 void Aspose::Words::PageSetup::set_RtlGutter(bool value)
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

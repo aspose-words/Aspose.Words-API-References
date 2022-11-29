@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/
 ---
-## MappedDataFieldCollection.ContainsValue method
+## MappedDataFieldCollection::ContainsValue method
 
 
 Determines whether a mapping from the specified field in the data source exists in the collection.
@@ -22,7 +22,10 @@ bool Aspose::Words::MailMerging::MappedDataFieldCollection::ContainsValue(const 
 
 ### ReturnValue
 
-
 True if item is found in the collection; otherwise, false.
 
+## See Also
 
+* Class [MappedDataFieldCollection](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

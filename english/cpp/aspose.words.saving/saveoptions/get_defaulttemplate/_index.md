@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.saving/saveoptions/get_defaulttemplate/
 ---
-## SaveOptions.get_DefaultTemplate method
+## SaveOptions::get_DefaultTemplate method
 
 
 Gets or sets path to default template (including filename). Default value for this property is **empty string**.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Saving::SaveOptions::get_DefaultTemplate() const
 
 
 ## Examples
-
 
 
 
@@ -39,3 +38,8 @@ options->set_DefaultTemplate(MyDir + u"Business brochure.dotx");
 doc->Save(ArtifactsDir + u"Document.DefaultTemplate.docx", options);
 ```
 
+## See Also
+
+* Class [SaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

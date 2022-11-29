@@ -9,7 +9,11 @@ url: /cpp/aspose.words/htmlinsertoptions/
 ## HtmlInsertOptions enum
 
 
-Specifies options for the **InsertHtml()** method.
+Specifies options for the [InsertHtml()](../) method.
+
+```cpp
+enum class HtmlInsertOptions
+```
 
 ### Values
 
@@ -20,3 +24,7 @@ Specifies options for the **InsertHtml()** method.
 | RemoveLastEmptyParagraph | 2 | Remove the empty paragraph that is normally inserted after HTML that ends with a block-level element. |
 | PreserveBlocks | 4 | Preserve properties of block-level elements. |
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

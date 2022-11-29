@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/ifieldupdatecultureprovider/getculture/
 ---
-## IFieldUpdateCultureProvider.GetCulture method
+## IFieldUpdateCultureProvider::GetCulture method
 
 
 Returns a **CultureInfo** object to be used during the field's update.
@@ -23,11 +23,9 @@ virtual System::SharedPtr<System::Globalization::CultureInfo> Aspose::Words::Fie
 
 ### ReturnValue
 
-
 The culture object that should be used for the field's update.
 
 ## Examples
-
 
 
 
@@ -94,3 +92,9 @@ public:
 };
 ```
 
+## See Also
+
+* Class [Field](../../field/)
+* Interface [IFieldUpdateCultureProvider](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

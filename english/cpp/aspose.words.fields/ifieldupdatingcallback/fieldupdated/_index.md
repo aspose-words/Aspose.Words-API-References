@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/ifieldupdatingcallback/fieldupdated/
 ---
-## IFieldUpdatingCallback.FieldUpdated method
+## IFieldUpdatingCallback::FieldUpdated method
 
 
 A user defined method that is called just after a field is updated.
@@ -17,7 +17,6 @@ virtual void Aspose::Words::Fields::IFieldUpdatingCallback::FieldUpdated(System:
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Field](../../field/)
+* Interface [IFieldUpdatingCallback](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

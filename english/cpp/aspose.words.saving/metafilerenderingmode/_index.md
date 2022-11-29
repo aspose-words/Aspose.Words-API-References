@@ -11,6 +11,10 @@ url: /cpp/aspose.words.saving/metafilerenderingmode/
 
 Specifies how Aspose.Words should render WMF and EMF metafiles.
 
+```cpp
+enum class MetafileRenderingMode
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ Specifies how Aspose.Words should render WMF and EMF metafiles.
 
 
 ## Examples
-
 
 
 
@@ -75,3 +78,7 @@ public:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.drawing/fill/get_visible/
 ---
-## Fill.get_Visible method
+## Fill::get_Visible method
 
 
 Gets or sets value that is **true** if the formatting applied to this instance, is visible.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::Fill::get_Visible()
 
 
 ## Examples
-
 
 
 
@@ -90,3 +89,8 @@ ArrayPtr<uint8_t> imageBytes = System::IO::File::ReadAllBytes(ImageDir + u"Logo.
 doc->Save(ArtifactsDir + u"Drawing.VariousShapes.docx");
 ```
 
+## See Also
+
+* Class [Fill](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

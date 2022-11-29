@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.drawing/oleformat/get_oleicon/
 ---
-## OleFormat.get_OleIcon method
+## OleFormat::get_OleIcon method
 
 
 Gets the draw aspect of the OLE object. When **true**, the OLE object is displayed as an icon. When **false**, the OLE object is displayed as content.
@@ -15,11 +15,12 @@ Gets the draw aspect of the OLE object. When **true**, the OLE object is display
 bool Aspose::Words::Drawing::OleFormat::get_OleIcon()
 ```
 
+## Remarks
+
 
 Aspose.Words does not allow to set this property to avoid confusion. If you were able to change the draw aspect in Aspose.Words, Microsoft Word would still display the OLE object in its original draw aspect until you edit or update the OLE object in Microsoft Word.
 
 ## Examples
-
 
 
 
@@ -72,3 +73,8 @@ doc->Save(ArtifactsDir + u"Shape.OleLinks.docx");
 }
 ```
 
+## See Also
+
+* Class [OleFormat](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

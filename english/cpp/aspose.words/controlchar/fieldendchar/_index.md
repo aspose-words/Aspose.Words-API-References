@@ -12,12 +12,11 @@ url: /cpp/aspose.words/controlchar/fieldendchar/
 End of MS Word field character: (char)21.
 
 ```cpp
-constexpr char16_t Aspose::Words::ControlChar::FieldEndChar
+static constexpr char16_t Aspose::Words::ControlChar::FieldEndChar
 ```
 
 
 ## Examples
-
 
 
 
@@ -87,3 +86,8 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::PageBreak()), ControlChar:
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlChar::ColumnBreakChar);
 ```
 
+## See Also
+
+* Class [ControlChar](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

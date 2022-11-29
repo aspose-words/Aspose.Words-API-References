@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.webextensions/webextensionreference/get_storetype/
 ---
-## WebExtensionReference.get_StoreType method
+## WebExtensionReference::get_StoreType method
 
 
 Specifies the type of marketplace.
@@ -17,7 +17,6 @@ Aspose::Words::WebExtensions::WebExtensionStoreType Aspose::Words::WebExtensions
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,9 @@ doc->get_WebExtensionTaskPanes()->Clear();
 ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ```
 
+## See Also
+
+* Enum [WebExtensionStoreType](../../webextensionstoretype/)
+* Class [WebExtensionReference](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

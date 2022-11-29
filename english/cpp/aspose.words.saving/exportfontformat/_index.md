@@ -11,6 +11,10 @@ url: /cpp/aspose.words.saving/exportfontformat/
 
 Indicates the format that is used to export fonts while rendering to HTML fixed format.
 
+```cpp
+enum class ExportFontFormat
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,7 +24,6 @@ Indicates the format that is used to export fonts while rendering to HTML fixed 
 
 
 ## Examples
-
 
 
 
@@ -51,3 +54,7 @@ else
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

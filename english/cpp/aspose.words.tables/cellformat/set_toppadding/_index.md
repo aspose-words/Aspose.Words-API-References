@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.words.tables/cellformat/set_toppadding/
 ---
-## CellFormat.set_TopPadding method
+## CellFormat::set_TopPadding method
 
 
 Setter for [Aspose::Words::Tables::CellFormat::get_TopPadding](../get_toppadding/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Tables::CellFormat::get_TopPadding](../get_toppadding
 void Aspose::Words::Tables::CellFormat::set_TopPadding(double value)
 ```
 
+## See Also
+
+* Class [CellFormat](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

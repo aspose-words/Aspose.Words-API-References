@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_author/
 ---
-## BuiltInDocumentProperties.get_Author method
+## BuiltInDocumentProperties::get_Author method
 
 
 Gets or sets the name of the document's author.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Properties::BuiltInDocumentProperties::get_Author(
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,8 @@ properties->set_Keywords(u"Tag 1; Tag 2; Tag 3");
 doc->Save(ArtifactsDir + u"DocumentProperties.Description.docx");
 ```
 
+## See Also
+
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

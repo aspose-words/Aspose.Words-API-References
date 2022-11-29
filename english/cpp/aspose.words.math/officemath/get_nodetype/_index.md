@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.math/officemath/get_nodetype/
 ---
-## OfficeMath.get_NodeType method
+## OfficeMath::get_NodeType method
 
 
 Returns **NodeType.OfficeMath**.
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::Math::OfficeMath::get_NodeType() const ov
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,9 @@ officeMath->set_Justification(OfficeMathJustification::Left);
 doc->Save(ArtifactsDir + u"Shape.OfficeMath.docx");
 ```
 
+## See Also
+
+* Enum [NodeType](../../../aspose.words/nodetype/)
+* Class [OfficeMath](../)
+* Namespace [Aspose::Words::Math](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words.drawing/textpath/get_trim/
 ---
-## TextPath.get_Trim method
+## TextPath::get_Trim method
 
 
 Determines whether extra space is removed above and below the text.
@@ -15,11 +15,12 @@ Determines whether extra space is removed above and below the text.
 bool Aspose::Words::Drawing::TextPath::get_Trim()
 ```
 
+## Remarks
+
 
 The default value is **false**.
 
 ## Examples
-
 
 
 
@@ -125,3 +126,8 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
 }
 ```
 
+## See Also
+
+* Class [TextPath](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.drawing.charts/chartseries/get_marker/
 ---
-## ChartSeries.get_Marker method
+## ChartSeries::get_Marker method
 
 
 Specifies a data marker. Marker is automatically created when requested.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartMarker> Aspose::Words::Dr
 
 
 ## Examples
-
 
 
 
@@ -77,3 +76,9 @@ static void ApplyDataPoints(SharedPtr<ChartSeries> series, int dataPointsCount, 
 }
 ```
 
+## See Also
+
+* Class [ChartMarker](../../chartmarker/)
+* Class [ChartSeries](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

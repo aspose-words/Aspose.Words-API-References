@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.words.drawing/fill/set_texturealignment/
 ---
-## Fill.set_TextureAlignment method
+## Fill::set_TextureAlignment method
 
 
 Setter for [Aspose::Words::Drawing::Fill::get_TextureAlignment](../get_texturealignment/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Drawing::Fill::get_TextureAlignment](../get_textureal
 void Aspose::Words::Drawing::Fill::set_TextureAlignment(Aspose::Words::Drawing::TextureAlignment value)
 ```
 
+## See Also
+
+* Enum [TextureAlignment](../../texturealignment/)
+* Class [Fill](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

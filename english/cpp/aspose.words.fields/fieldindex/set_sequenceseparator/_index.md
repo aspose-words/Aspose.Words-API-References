@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/aspose.words.fields/fieldindex/set_sequenceseparator/
 ---
-## FieldIndex.set_SequenceSeparator method
+## FieldIndex::set_SequenceSeparator method
 
 
 Setter for [Aspose::Words::Fields::FieldIndex::get_SequenceSeparator](../get_sequenceseparator/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldIndex::get_SequenceSeparator](../get_seq
 void Aspose::Words::Fields::FieldIndex::set_SequenceSeparator(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldIndex](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

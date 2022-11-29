@@ -6,7 +6,7 @@ type: docs
 weight: 846
 url: /cpp/aspose.words/document/rendertosize/
 ---
-## Document.RenderToSize method
+## Document::RenderToSize method
 
 
 Renders a document page into a object to a specified size.
@@ -27,11 +27,9 @@ float Aspose::Words::Document::RenderToSize(int32_t pageIndex, const System::Sha
 
 ### ReturnValue
 
-
 The scale that was automatically calculated for the rendered page to fit the specified size.
 
 ## Examples
-
 
 
 
@@ -86,3 +84,8 @@ auto doc = MakeObject<Document>(MyDir + u"Rendering.docx");
 }
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

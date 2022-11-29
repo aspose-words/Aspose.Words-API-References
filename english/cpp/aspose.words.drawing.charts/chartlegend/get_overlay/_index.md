@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.drawing.charts/chartlegend/get_overlay/
 ---
-## ChartLegend.get_Overlay method
+## ChartLegend::get_Overlay method
 
 
 Determines whether other chart elements shall be allowed to overlap legend. Default value is false.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::Charts::ChartLegend::get_Overlay() const
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,8 @@ legend->set_Overlay(true);
 doc->Save(ArtifactsDir + u"Charts.ChartLegend.docx");
 ```
 
+## See Also
+
+* Class [ChartLegend](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

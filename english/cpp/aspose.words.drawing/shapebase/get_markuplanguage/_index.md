@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /cpp/aspose.words.drawing/shapebase/get_markuplanguage/
 ---
-## ShapeBase.get_MarkupLanguage method
+## ShapeBase::get_MarkupLanguage method
 
 
 Gets MarkupLanguage used for this graphic object.
@@ -17,7 +17,6 @@ Aspose::Words::Drawing::ShapeMarkupLanguage Aspose::Words::Drawing::ShapeBase::g
 
 
 ## Examples
-
 
 
 
@@ -32,3 +31,9 @@ ASSERT_EQ(ShapeMarkupLanguage::Dml, shape->get_MarkupLanguage());
 ASPOSE_ASSERT_EQ(System::Drawing::SizeF(300.0f, 300.0f), shape->get_SizeInPoints());
 ```
 
+## See Also
+
+* Enum [ShapeMarkupLanguage](../../shapemarkuplanguage/)
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/aspose.words.fields/fieldtoc/set_sequenceseparator/
 ---
-## FieldToc.set_SequenceSeparator method
+## FieldToc::set_SequenceSeparator method
 
 
 Setter for [Aspose::Words::Fields::FieldToc::get_SequenceSeparator](../get_sequenceseparator/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldToc::get_SequenceSeparator](../get_seque
 void Aspose::Words::Fields::FieldToc::set_SequenceSeparator(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldToc](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

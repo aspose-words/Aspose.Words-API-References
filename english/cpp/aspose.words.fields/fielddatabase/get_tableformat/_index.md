@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.fields/fielddatabase/get_tableformat/
 ---
-## FieldDatabase.get_TableFormat method
+## FieldDatabase::get_TableFormat method
 
 
 Gets the format that is to be applied to the result of the database query.
@@ -15,3 +15,8 @@ Gets the format that is to be applied to the result of the database query.
 System::String Aspose::Words::Fields::FieldDatabase::get_TableFormat()
 ```
 
+## See Also
+
+* Class [FieldDatabase](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldadvance/
 Implements the ADVANCE field.
 
 ```cpp
-class FieldAdvance : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldAdvance : public Aspose::Words::Fields::Field,
+                     public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -58,7 +59,6 @@ class FieldAdvance : public Aspose::Words::Fields::Field, public Aspose::Words::
 
 
 
-
 Shows how to insert an ADVANCE field, and edit its properties. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -98,3 +98,8 @@ builder->Write(u"This text is in a custom position.");
 doc->Save(ArtifactsDir + u"Field.ADVANCE.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words/font/get_emphasismark/
 ---
-## Font.get_EmphasisMark method
+## Font::get_EmphasisMark method
 
 
 Gets or sets the emphasis mark applied to this formatting.
@@ -17,7 +17,6 @@ Aspose::Words::EmphasisMark Aspose::Words::Font::get_EmphasisMark()
 
 
 ## Examples
-
 
 
 
@@ -37,3 +36,9 @@ builder->Write(u"Simple text");
 builder->get_Document()->Save(ArtifactsDir + u"Fonts.SetEmphasisMark.docx");
 ```
 
+## See Also
+
+* Enum [EmphasisMark](../../emphasismark/)
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

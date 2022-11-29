@@ -6,7 +6,7 @@ type: docs
 weight: 495
 url: /cpp/aspose.words.markup/structureddocumenttag/set_checked/
 ---
-## StructuredDocumentTag.set_Checked method
+## StructuredDocumentTag::set_Checked method
 
 
 Setter for [Aspose::Words::Markup::StructuredDocumentTag::get_Checked](../get_checked/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Markup::StructuredDocumentTag::get_Checked](../get_ch
 void Aspose::Words::Markup::StructuredDocumentTag::set_Checked(bool value)
 ```
 
+## See Also
+
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fields/fielddate/set_uselastformat/
 ---
-## FieldDate.set_UseLastFormat method
+## FieldDate::set_UseLastFormat method
 
 
 Setter for [Aspose::Words::Fields::FieldDate::get_UseLastFormat](../get_uselastformat/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldDate::get_UseLastFormat](../get_uselastf
 void Aspose::Words::Fields::FieldDate::set_UseLastFormat(bool value)
 ```
 
+## See Also
+
+* Class [FieldDate](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

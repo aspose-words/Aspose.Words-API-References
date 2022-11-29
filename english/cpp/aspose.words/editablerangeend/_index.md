@@ -12,7 +12,9 @@ url: /cpp/aspose.words/editablerangeend/
 Represents an end of an editable range in a Word document.
 
 ```cpp
-class EditableRangeEnd : public Aspose::Words::Node, public Aspose::Words::IDisplaceableByCustomXml, public Aspose::Words::INodeWithAnnotationId
+class EditableRangeEnd : public Aspose::Words::Node,
+                         public Aspose::Words::IDisplaceableByCustomXml,
+                         public Aspose::Words::INodeWithAnnotationId
 ```
 
 ## Methods
@@ -27,7 +29,7 @@ class EditableRangeEnd : public Aspose::Words::Node, public Aspose::Words::IDisp
 | [get_Id](./get_id/)() const | Specifies the identifier of the editable range. |
 | virtual [get_IsComposite](../node/get_iscomposite/)() | Returns true if this node can contain other nodes. |
 | [get_NextSibling](../node/get_nextsibling/)() | Gets the node immediately following this node. |
-| [get_NodeType](./get_nodetype/)() const override | Returns **EditableRangeEnd**. |
+| [get_NodeType](./get_nodetype/)() const override | Returns [EditableRangeEnd](../nodetype/). |
 | [get_ParentNode](../node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_PreviousSibling](../node/get_previoussibling/)() | Gets the node immediately preceding this node. |
 | [get_Range](../node/get_range/)() | Returns a **Range** object that represents the portion of a document that is contained in this node. |
@@ -42,6 +44,8 @@ class EditableRangeEnd : public Aspose::Words::Node, public Aspose::Words::IDisp
 | [set_Id](./set_id/)(int32_t) | Setter for [Aspose::Words::EditableRangeEnd::get_Id](./get_id/). |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 A complete editable range in a Word document consists of a [EditableRangeStart](./get_editablerangestart/) and a matching [EditableRangeEnd](./) with the same Id.
 
@@ -52,7 +56,6 @@ Use the [EditableRange](../editablerange/) class as a "facade" to work with an e
 
 Currently editable ranges are supported only at the inline-level, that is inside [Paragraph](../paragraph/), but editable range start and editable range end can be in different paragraphs.
 ## Examples
-
 
 
 
@@ -158,3 +161,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Node](../node/)
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

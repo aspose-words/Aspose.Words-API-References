@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.tables/cellformat/get_width/
 ---
-## CellFormat.get_Width method
+## CellFormat::get_Width method
 
 
 Gets the width of the cell in points.
@@ -15,13 +15,14 @@ Gets the width of the cell in points.
 double Aspose::Words::Tables::CellFormat::get_Width()
 ```
 
+## Remarks
+
 
 The width is calculated by Aspose.Words on document loading and saving. Currently, not every combination of table, cell and document properties is supported. The returned value may not be accurate for some documents. It may not exactly match the cell width as calculated by MS Word when the document is opened in MS Word.
 
 Setting this property is not recommended. There is no guarantee that the cell will actually have the set width. The width may be adjusted to accommodate cell contents in an auto-fit table layout. Cells in other rows may have conflicting width settings. The table may be resized to fit into the container or to meet table width settings. Consider using [PreferredWidth](../get_preferredwidth/) for setting the cell width. Setting this property sets [PreferredWidth](../get_preferredwidth/) implicitly since version 15.8.
 
 ## Examples
-
 
 
 
@@ -127,3 +128,8 @@ ASPOSE_ASSERT_EQ(30.0, table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellF
 doc->Save(ArtifactsDir + u"DocumentBuilder.SetCellFormatting.docx");
 ```
 
+## See Also
+
+* Class [CellFormat](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

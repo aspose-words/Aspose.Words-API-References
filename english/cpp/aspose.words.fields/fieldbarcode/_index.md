@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldbarcode/
 Implements the BARCODE field.
 
 ```cpp
-class FieldBarcode : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldBarcode : public Aspose::Words::Fields::Field,
+                     public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -54,7 +55,6 @@ class FieldBarcode : public Aspose::Words::Fields::Field, public Aspose::Words::
 
 
 
-
 Shows how to use the BARCODE field to display U.S. ZIP codes in the form of a barcode. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -92,3 +92,8 @@ builder->EndBookmark(u"BarcodeBookmark");
 doc->Save(ArtifactsDir + u"Field.BARCODE.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

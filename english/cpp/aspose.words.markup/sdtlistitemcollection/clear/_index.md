@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.markup/sdtlistitemcollection/clear/
 ---
-## SdtListItemCollection.Clear method
+## SdtListItemCollection::Clear method
 
 
 Clears all items from this collection.
@@ -17,7 +17,6 @@ void Aspose::Words::Markup::SdtListItemCollection::Clear()
 
 
 ## Examples
-
 
 
 
@@ -77,3 +76,8 @@ listItems->Clear();
 ASSERT_EQ(0, listItems->get_Count());
 ```
 
+## See Also
+
+* Class [SdtListItemCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

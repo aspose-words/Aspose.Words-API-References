@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/clear/
 ---
-## BaseWebExtensionCollection.Clear method
+## BaseWebExtensionCollection::Clear method
 
 
 Removes all elements from the collection.
@@ -17,7 +17,6 @@ void Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::Clear()
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,8 @@ doc->get_WebExtensionTaskPanes()->Clear();
 ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ```
 
+## See Also
+
+* Class [BaseWebExtensionCollection](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.saving/docsaveoptions/get_savepicturebullet/
 ---
-## DocSaveOptions.get_SavePictureBullet method
+## DocSaveOptions::get_SavePictureBullet method
 
 
 When **false**, PictureBullet data is not saved to output document. Default value is **true**.
@@ -15,11 +15,12 @@ When **false**, PictureBullet data is not saved to output document. Default valu
 bool Aspose::Words::Saving::DocSaveOptions::get_SavePictureBullet() const
 ```
 
+## Remarks
+
 
 This option is provided for Word 97, which cannot work correctly with PictureBullet data. To remove PictureBullet data, set the option to "false".
 
 ## Examples
-
 
 
 
@@ -36,3 +37,8 @@ saveOptions->set_SavePictureBullet(false);
 doc->Save(ArtifactsDir + u"DocSaveOptions.PictureBullets.doc", saveOptions);
 ```
 
+## See Also
+
+* Class [DocSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.fields/fieldgreetingline/set_nameformat/
 ---
-## FieldGreetingLine.set_NameFormat method
+## FieldGreetingLine::set_NameFormat method
 
 
 Sets the format of the name included in the field.
@@ -15,3 +15,8 @@ Sets the format of the name included in the field.
 void Aspose::Words::Fields::FieldGreetingLine::set_NameFormat(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldGreetingLine](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

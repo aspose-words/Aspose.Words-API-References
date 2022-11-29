@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fieldinclude/get_sourcefullname/
 ---
-## FieldInclude.get_SourceFullName method
+## FieldInclude::get_SourceFullName method
 
 
 Gets or sets the location of the document.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldInclude::get_SourceFullName() overrid
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.INCLUDE.docx");
 ```
 
+## See Also
+
+* Class [FieldInclude](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

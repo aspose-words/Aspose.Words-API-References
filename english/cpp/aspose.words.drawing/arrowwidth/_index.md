@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing/arrowwidth/
 
 Width of the arrow at the end of a line.
 
+```cpp
+enum class ArrowWidth
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -18,11 +22,10 @@ Width of the arrow at the end of a line.
 | Narrow | 0 |  |
 | Medium | 1 |  |
 | Wide | 2 |  |
-| Default | n/a | Same as **Narrow**. |
+| Default | n/a | Same as [Narrow](./). |
 
 
 ## Examples
-
 
 
 
@@ -95,3 +98,7 @@ ArrayPtr<uint8_t> imageBytes = System::IO::File::ReadAllBytes(ImageDir + u"Logo.
 doc->Save(ArtifactsDir + u"Drawing.VariousShapes.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

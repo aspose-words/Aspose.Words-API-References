@@ -11,6 +11,10 @@ url: /cpp/aspose.words.properties/documentsecurity/
 
 Used as a value for the [Security](../builtindocumentproperties/get_security/) property. Specifies the security level of a document as a numeric value.
 
+```cpp
+enum class DocumentSecurity
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -23,7 +27,6 @@ Used as a value for the [Security](../builtindocumentproperties/get_security/) p
 
 
 ## Examples
-
 
 
 
@@ -69,3 +72,7 @@ ASSERT_EQ(DocumentSecurity::ReadOnlyExceptAnnotations,
               ->get_Security());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Properties](../)
+* Library [Aspose.Words](../../)

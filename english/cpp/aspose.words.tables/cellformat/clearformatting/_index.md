@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.tables/cellformat/clearformatting/
 ---
-## CellFormat.ClearFormatting method
+## CellFormat::ClearFormatting method
 
 
 Resets to default cell formatting. Does not change the width of the cell.
@@ -17,7 +17,6 @@ void Aspose::Words::Tables::CellFormat::ClearFormatting()
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,8 @@ secondTable->Remove();
 doc->Save(ArtifactsDir + u"Table.CombineTables.docx");
 ```
 
+## See Also
+
+* Class [CellFormat](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

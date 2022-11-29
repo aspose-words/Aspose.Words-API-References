@@ -6,7 +6,7 @@ type: docs
 weight: 690
 url: /cpp/aspose.words/font/get_underline/
 ---
-## Font.get_Underline method
+## Font::get_Underline method
 
 
 Gets or sets the type of underline applied to the font.
@@ -17,7 +17,6 @@ Aspose::Words::Underline Aspose::Words::Font::get_Underline()
 
 
 ## Examples
-
 
 
 
@@ -71,3 +70,9 @@ builder->Writeln(u"Underlined text.");
 doc->Save(ArtifactsDir + u"Font.Underlines.docx");
 ```
 
+## See Also
+
+* Enum [Underline](../../underline/)
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

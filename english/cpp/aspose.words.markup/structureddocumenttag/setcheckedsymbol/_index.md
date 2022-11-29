@@ -6,7 +6,7 @@ type: docs
 weight: 703
 url: /cpp/aspose.words.markup/structureddocumenttag/setcheckedsymbol/
 ---
-## StructuredDocumentTag.SetCheckedSymbol method
+## StructuredDocumentTag::SetCheckedSymbol method
 
 
 Sets the symbol used to represent the checked state of a check box content control.
@@ -20,13 +20,14 @@ void Aspose::Words::Markup::StructuredDocumentTag::SetCheckedSymbol(int32_t char
 | --- | --- | --- |
 | characterCode | int32_t | The character code for the specified symbol. |
 | fontName | const System::String\& | The name of the font that contains the symbol. |
+## Remarks
 
-Accessing this method will only work for **Checkbox** SDT types.
+
+Accessing this method will only work for [Checkbox](../../sdttype/) SDT types.
 
 For all other SDT types exception will occur.
 
 ## Examples
-
 
 
 
@@ -47,3 +48,8 @@ builder->InsertNode(sdtCheckBox);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.CheckBox.docx");
 ```
 
+## See Also
+
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

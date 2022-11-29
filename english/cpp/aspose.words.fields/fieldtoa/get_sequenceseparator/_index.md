@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.fields/fieldtoa/get_sequenceseparator/
 ---
-## FieldToa.get_SequenceSeparator method
+## FieldToa::get_SequenceSeparator method
 
 
 Gets or sets the character sequence that is used to separate sequence numbers and page numbers.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldToa::get_SequenceSeparator()
 
 
 ## Examples
-
 
 
 
@@ -138,3 +137,8 @@ static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, Str
 }
 ```
 
+## See Also
+
+* Class [FieldToa](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

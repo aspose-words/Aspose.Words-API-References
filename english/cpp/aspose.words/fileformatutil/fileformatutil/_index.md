@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words/fileformatutil/fileformatutil/
 ---
-## FileFormatUtil.FileFormatUtil method
+## FileFormatUtil::FileFormatUtil constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words/fileformatutil/fileformatutil/
 Aspose::Words::FileFormatUtil::FileFormatUtil()
 ```
 
+## See Also
+
+* Class [FileFormatUtil](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

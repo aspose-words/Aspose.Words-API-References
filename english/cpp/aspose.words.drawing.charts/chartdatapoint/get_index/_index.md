@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.drawing.charts/chartdatapoint/get_index/
 ---
-## ChartDataPoint.get_Index method
+## ChartDataPoint::get_Index method
 
 
 Index of the data point this object applies formatting to.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Drawing::Charts::ChartDataPoint::get_Index()
 
 
 ## Examples
-
 
 
 
@@ -77,3 +76,8 @@ static void ApplyDataPoints(SharedPtr<ChartSeries> series, int dataPointsCount, 
 }
 ```
 
+## See Also
+
+* Class [ChartDataPoint](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

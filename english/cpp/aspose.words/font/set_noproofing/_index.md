@@ -6,7 +6,7 @@ type: docs
 weight: 1028
 url: /cpp/aspose.words/font/set_noproofing/
 ---
-## Font.set_NoProofing method
+## Font::set_NoProofing method
 
 
 Setter for [Aspose::Words::Font::get_NoProofing](../get_noproofing/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Font::get_NoProofing](../get_noproofing/).
 void Aspose::Words::Font::set_NoProofing(bool value)
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

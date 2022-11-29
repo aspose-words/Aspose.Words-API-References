@@ -6,7 +6,7 @@ type: docs
 weight: 989
 url: /cpp/aspose.words/pagesetup/set_restartpagenumbering/
 ---
-## PageSetup.set_RestartPageNumbering method
+## PageSetup::set_RestartPageNumbering method
 
 
 Setter for [Aspose::Words::PageSetup::get_RestartPageNumbering](../get_restartpagenumbering/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::PageSetup::get_RestartPageNumbering](../get_restartpa
 void Aspose::Words::PageSetup::set_RestartPageNumbering(bool value)
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

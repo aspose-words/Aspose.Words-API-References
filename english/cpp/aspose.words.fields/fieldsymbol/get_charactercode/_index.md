@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldsymbol/get_charactercode/
 ---
-## FieldSymbol.get_CharacterCode method
+## FieldSymbol::get_CharacterCode method
 
 
 Gets or sets the character's code point value in decimal or hexadecimal.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldSymbol::get_CharacterCode()
 
 
 ## Examples
-
 
 
 
@@ -71,3 +70,8 @@ builder->Write(u"Line 3");
 doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 ```
 
+## See Also
+
+* Class [FieldSymbol](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

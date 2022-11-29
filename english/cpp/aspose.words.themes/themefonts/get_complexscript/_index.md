@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.themes/themefonts/get_complexscript/
 ---
-## ThemeFonts.get_ComplexScript method
+## ThemeFonts::get_ComplexScript method
 
 
 Specifies font name for ComplexScript characters.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Themes::ThemeFonts::get_ComplexScript()
 
 
 ## Examples
-
 
 
 
@@ -63,3 +62,8 @@ colors->set_FollowedHyperlink(System::Drawing::Color::get_Gray());
 doc->Save(ArtifactsDir + u"Themes.CustomColorsAndFonts.docx");
 ```
 
+## See Also
+
+* Class [ThemeFonts](../)
+* Namespace [Aspose::Words::Themes](../../)
+* Library [Aspose.Words](../../../)

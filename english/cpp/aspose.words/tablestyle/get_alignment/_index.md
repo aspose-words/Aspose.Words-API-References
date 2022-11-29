@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/tablestyle/get_alignment/
 ---
-## TableStyle.get_Alignment method
+## TableStyle::get_Alignment method
 
 
 Specifies the alignment for the table style.
@@ -17,7 +17,6 @@ Aspose::Words::Tables::TableAlignment Aspose::Words::TableStyle::get_Alignment()
 
 
 ## Examples
-
 
 
 
@@ -59,3 +58,9 @@ table->set_Style(tableStyle);
 doc->Save(ArtifactsDir + u"Table.SetTableAlignment.docx");
 ```
 
+## See Also
+
+* Enum [TableAlignment](../../../aspose.words.tables/tablealignment/)
+* Class [TableStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

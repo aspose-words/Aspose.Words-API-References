@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/aspose.words.drawing/imagedata/set_sourcefullname/
 ---
-## ImageData.set_SourceFullName method
+## ImageData::set_SourceFullName method
 
 
 Setter for [Aspose::Words::Drawing::ImageData::get_SourceFullName](../get_sourcefullname/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::ImageData::get_SourceFullName](../get_source
 void Aspose::Words::Drawing::ImageData::set_SourceFullName(const System::String &value)
 ```
 
+## See Also
+
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

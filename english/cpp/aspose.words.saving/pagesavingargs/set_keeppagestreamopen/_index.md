@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.saving/pagesavingargs/set_keeppagestreamopen/
 ---
-## PageSavingArgs.set_KeepPageStreamOpen method
+## PageSavingArgs::set_KeepPageStreamOpen method
 
 
 Setter for [Aspose::Words::Saving::PageSavingArgs::get_KeepPageStreamOpen](../get_keeppagestreamopen/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::PageSavingArgs::get_KeepPageStreamOpen](../ge
 void Aspose::Words::Saving::PageSavingArgs::set_KeepPageStreamOpen(bool value)
 ```
 
+## See Also
+
+* Class [PageSavingArgs](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

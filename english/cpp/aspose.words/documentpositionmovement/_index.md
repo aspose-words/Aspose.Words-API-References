@@ -11,6 +11,10 @@ url: /cpp/aspose.words/documentpositionmovement/
 
 DocumentPositionMovement enumeration.
 
+```cpp
+enum class DocumentPositionMovement
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -22,3 +26,7 @@ DocumentPositionMovement enumeration.
 | Above | 4 |  |
 | Below | 5 |  |
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

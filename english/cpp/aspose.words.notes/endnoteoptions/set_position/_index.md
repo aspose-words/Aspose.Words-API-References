@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.notes/endnoteoptions/set_position/
 ---
-## EndnoteOptions.set_Position method
+## EndnoteOptions::set_Position method
 
 
 Setter for [Aspose::Words::Notes::EndnoteOptions::get_Position](../get_position/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Notes::EndnoteOptions::get_Position](../get_position/
 void Aspose::Words::Notes::EndnoteOptions::set_Position(Aspose::Words::Notes::EndnotePosition value)
 ```
 
+## See Also
+
+* Enum [EndnotePosition](../../endnoteposition/)
+* Class [EndnoteOptions](../)
+* Namespace [Aspose::Words::Notes](../../)
+* Library [Aspose.Words](../../../)

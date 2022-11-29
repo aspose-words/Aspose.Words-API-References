@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.saving/imagesaveoptions/get_jpegquality/
 ---
-## ImageSaveOptions.get_JpegQuality method
+## ImageSaveOptions::get_JpegQuality method
 
 
 Gets or sets a value determining the quality of the generated JPEG images.
@@ -14,6 +14,8 @@ Gets or sets a value determining the quality of the generated JPEG images.
 ```cpp
 int32_t Aspose::Words::Saving::ImageSaveOptions::get_JpegQuality()
 ```
+
+## Remarks
 
 
 Has effect only when saving to JPEG.
@@ -23,7 +25,6 @@ Use this property to get or set the quality of generated images when saving in J
 The default value is 95.
 
 ## Examples
-
 
 
 
@@ -54,3 +55,8 @@ doc->Save(ArtifactsDir + u"ImageSaveOptions.JpegQuality.HighQuality.jpg", imageO
 ASSERT_LT(60000, MakeObject<System::IO::FileInfo>(ArtifactsDir + u"ImageSaveOptions.JpegQuality.HighQuality.jpg")->get_Length());
 ```
 
+## See Also
+
+* Class [ImageSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

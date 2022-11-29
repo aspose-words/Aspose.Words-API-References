@@ -6,10 +6,10 @@ type: docs
 weight: 560
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_saveformat/
 ---
-## HtmlSaveOptions.get_SaveFormat method
+## HtmlSaveOptions::get_SaveFormat method
 
 
-Specifies the format in which the document will be saved if this save options object is used. Can be **Html**, **Mhtml**, **Epub** or **Azw3**.
+Specifies the format in which the document will be saved if this save options object is used. Can be [Html](../../../aspose.words/saveformat/), [Mhtml](../../../aspose.words/saveformat/), [Epub](../../../aspose.words/saveformat/) or [Azw3](../../../aspose.words/saveformat/).
 
 ```cpp
 Aspose::Words::SaveFormat Aspose::Words::Saving::HtmlSaveOptions::get_SaveFormat() override
@@ -17,7 +17,6 @@ Aspose::Words::SaveFormat Aspose::Words::Saving::HtmlSaveOptions::get_SaveFormat
 
 
 ## Examples
-
 
 
 
@@ -42,3 +41,9 @@ saveOptions->set_ExportDocumentProperties(true);
 doc->Save(ArtifactsDir + u"HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
 ```
 
+## See Also
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

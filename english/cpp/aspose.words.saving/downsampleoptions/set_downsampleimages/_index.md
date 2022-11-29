@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.saving/downsampleoptions/set_downsampleimages/
 ---
-## DownsampleOptions.set_DownsampleImages method
+## DownsampleOptions::set_DownsampleImages method
 
 
 Setter for [Aspose::Words::Saving::DownsampleOptions::get_DownsampleImages](../get_downsampleimages/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::DownsampleOptions::get_DownsampleImages](../g
 void Aspose::Words::Saving::DownsampleOptions::set_DownsampleImages(bool value)
 ```
 
+## See Also
+
+* Class [DownsampleOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

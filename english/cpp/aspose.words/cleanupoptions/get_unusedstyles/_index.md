@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/cleanupoptions/get_unusedstyles/
 ---
-## CleanupOptions.get_UnusedStyles method
+## CleanupOptions::get_UnusedStyles method
 
 
 Specifies whether unused styles should be removed from document. Default value is **true**.
@@ -17,7 +17,6 @@ bool Aspose::Words::CleanupOptions::get_UnusedStyles() const
 
 
 ## Examples
-
 
 
 
@@ -64,3 +63,8 @@ doc->Cleanup(cleanupOptions);
 ASSERT_EQ(2, doc->get_Styles()->get_Count());
 ```
 
+## See Also
+
+* Class [CleanupOptions](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

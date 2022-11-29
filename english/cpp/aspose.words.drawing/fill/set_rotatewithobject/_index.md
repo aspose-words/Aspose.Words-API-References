@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/aspose.words.drawing/fill/set_rotatewithobject/
 ---
-## Fill.set_RotateWithObject method
+## Fill::set_RotateWithObject method
 
 
 Sets whether the fill rotates with the specified object.
@@ -15,3 +15,8 @@ Sets whether the fill rotates with the specified object.
 void Aspose::Words::Drawing::Fill::set_RotateWithObject(bool value)
 ```
 
+## See Also
+
+* Class [Fill](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

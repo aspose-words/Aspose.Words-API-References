@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/get_count/
 ---
-## BaseWebExtensionCollection.get_Count method
+## BaseWebExtensionCollection::get_Count method
 
 
 Gets the number of elements contained in the collection.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::get_Count()
 
 
 ## Examples
-
 
 
 
@@ -45,3 +44,8 @@ doc->get_WebExtensionTaskPanes()->Remove(0);
 ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ```
 
+## See Also
+
+* Class [BaseWebExtensionCollection](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

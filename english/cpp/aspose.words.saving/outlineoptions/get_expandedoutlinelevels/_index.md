@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.saving/outlineoptions/get_expandedoutlinelevels/
 ---
-## OutlineOptions.get_ExpandedOutlineLevels method
+## OutlineOptions::get_ExpandedOutlineLevels method
 
 
 Specifies how many levels in the document outline to show expanded when the file is viewed.
@@ -14,6 +14,8 @@ Specifies how many levels in the document outline to show expanded when the file
 ```cpp
 int32_t Aspose::Words::Saving::OutlineOptions::get_ExpandedOutlineLevels() const
 ```
+
+## Remarks
 
 
 Note that this options will not work when saving to XPS.
@@ -23,7 +25,6 @@ Specify 0 and the document outline will be collapsed; specify 1 and the first le
 Default is 0. Valid range is 0 to 9.
 
 ## Examples
-
 
 
 
@@ -80,3 +81,8 @@ options->get_OutlineOptions()->set_ExpandedOutlineLevels(2);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 ```
 
+## See Also
+
+* Class [OutlineOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

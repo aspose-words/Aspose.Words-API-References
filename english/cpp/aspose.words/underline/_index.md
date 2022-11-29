@@ -11,6 +11,10 @@ url: /cpp/aspose.words/underline/
 
 Indicates type of the underline applied to a font.
 
+```cpp
+enum class Underline
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -39,7 +43,6 @@ Indicates type of the underline applied to a font.
 
 
 
-
 Shows how to insert a hyperlink field. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -59,3 +62,7 @@ builder->Writeln(u".");
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertHyperlink.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

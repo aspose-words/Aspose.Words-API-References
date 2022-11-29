@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.words.loading/loadoptions/set_mswversion/
 ---
-## LoadOptions.set_MswVersion method
+## LoadOptions::set_MswVersion method
 
 
 Setter for [Aspose::Words::Loading::LoadOptions::get_MswVersion](../get_mswversion/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Loading::LoadOptions::get_MswVersion](../get_mswversi
 void Aspose::Words::Loading::LoadOptions::set_MswVersion(Aspose::Words::Settings::MsWordVersion value)
 ```
 
+## See Also
+
+* Enum [MsWordVersion](../../../aspose.words.settings/mswordversion/)
+* Class [LoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

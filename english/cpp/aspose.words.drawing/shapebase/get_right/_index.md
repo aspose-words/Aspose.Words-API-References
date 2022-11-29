@@ -6,7 +6,7 @@ type: docs
 weight: 547
 url: /cpp/aspose.words.drawing/shapebase/get_right/
 ---
-## ShapeBase.get_Right method
+## ShapeBase::get_Right method
 
 
 Gets the position of the right edge of the containing block of the shape.
@@ -15,13 +15,14 @@ Gets the position of the right edge of the containing block of the shape.
 double Aspose::Words::Drawing::ShapeBase::get_Right()
 ```
 
+## Remarks
+
 
 For a top-level shape, the value is in points and relative to the shape anchor.
 
 For shapes in a group, the value is in the coordinate space and units of the parent group.
 
 ## Examples
-
 
 
 
@@ -56,3 +57,8 @@ ASPOSE_ASSERT_EQ(shape->get_Left() + shape->get_Width(), shape->get_Right());
 doc->Save(ArtifactsDir + u"Image.CreateFloatingPositionSize.docx");
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

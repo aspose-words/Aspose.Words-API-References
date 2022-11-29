@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.mailmerging/mailmergeregioninfo/get_parentregion/
 ---
-## MailMergeRegionInfo.get_ParentRegion method
+## MailMergeRegionInfo::get_ParentRegion method
 
 
 Returns parent region info (null for top-level region).
@@ -17,7 +17,6 @@ const System::SharedPtr<Aspose::Words::MailMerging::MailMergeRegionInfo> & Aspos
 
 
 ## Examples
-
 
 
 
@@ -70,3 +69,9 @@ mergeFieldNames = doc->get_MailMerge()->GetFieldNamesForRegion(u"MailMergeRegion
 ASSERT_EQ(u"Column2", mergeFieldNames[0]);
 ```
 
+## See Also
+
+* Class [MailMergeRegionInfo](../)
+* Class [MailMergeRegionInfo](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

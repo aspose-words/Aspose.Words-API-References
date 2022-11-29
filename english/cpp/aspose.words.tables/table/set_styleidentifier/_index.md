@@ -6,7 +6,7 @@ type: docs
 weight: 742
 url: /cpp/aspose.words.tables/table/set_styleidentifier/
 ---
-## Table.set_StyleIdentifier method
+## Table::set_StyleIdentifier method
 
 
 Setter for [Aspose::Words::Tables::Table::get_StyleIdentifier](../get_styleidentifier/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Tables::Table::get_StyleIdentifier](../get_styleident
 void Aspose::Words::Tables::Table::set_StyleIdentifier(Aspose::Words::StyleIdentifier value)
 ```
 
+## See Also
+
+* Enum [StyleIdentifier](../../../aspose.words/styleidentifier/)
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.words/pagesetup/get_linesperpage/
 ---
-## PageSetup.get_LinesPerPage method
+## PageSetup::get_LinesPerPage method
 
 
 Gets or sets the number of lines per page in the document grid.
@@ -15,13 +15,14 @@ Gets or sets the number of lines per page in the document grid.
 int32_t Aspose::Words::PageSetup::get_LinesPerPage()
 ```
 
+## Remarks
+
 
 Minimum value of the property is 1. Maximum value depends on page height and font size of the Normal style. Minimum line pitch is 136 percent of the font size. For example, maximum number of lines per page of a Letter page with one-inch margins is 39.
 
 By default, the property has a value, on which line pitch is in 1.5 times greater than font size of the Normal style.
 
 ## Examples
-
 
 
 
@@ -45,3 +46,8 @@ for (int i = 0; i < 30; i++)
 doc->Save(ArtifactsDir + u"PageSetup.LinesPerPage.docx");
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

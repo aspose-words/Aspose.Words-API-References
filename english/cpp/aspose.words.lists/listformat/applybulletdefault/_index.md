@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.lists/listformat/applybulletdefault/
 ---
-## ListFormat.ApplyBulletDefault method
+## ListFormat::ApplyBulletDefault method
 
 
 Starts a new default bulleted list and applies it to the paragraph.
@@ -15,11 +15,12 @@ Starts a new default bulleted list and applies it to the paragraph.
 void Aspose::Words::Lists::ListFormat::ApplyBulletDefault()
 ```
 
+## Remarks
+
 
 This is a shortcut method that creates a new list using the default bulleted template, applies it to the paragraph and selects the 1st list level.
 
 ## Examples
-
 
 
 
@@ -102,3 +103,8 @@ builder->get_ListFormat()->RemoveNumbers();
 doc->Save(ArtifactsDir + u"Lists.ApplyDefaultBulletsAndNumbers.docx");
 ```
 
+## See Also
+
+* Class [ListFormat](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

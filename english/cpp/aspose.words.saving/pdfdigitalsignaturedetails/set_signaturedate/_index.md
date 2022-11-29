@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.saving/pdfdigitalsignaturedetails/set_signaturedate/
 ---
-## PdfDigitalSignatureDetails.set_SignatureDate method
+## PdfDigitalSignatureDetails::set_SignatureDate method
 
 
 Setter for [Aspose::Words::Saving::PdfDigitalSignatureDetails::get_SignatureDate](../get_signaturedate/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::PdfDigitalSignatureDetails::get_SignatureDate
 void Aspose::Words::Saving::PdfDigitalSignatureDetails::set_SignatureDate(System::DateTime value)
 ```
 
+## See Also
+
+* Class [PdfDigitalSignatureDetails](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

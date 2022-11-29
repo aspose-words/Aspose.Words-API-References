@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/odtsaveoptions/
 ## OdtSaveOptions class
 
 
-Can be used to specify additional options when saving a document into the **Odt** or **Ott** format.
+Can be used to specify additional options when saving a document into the [Odt](../../aspose.words/saveformat/) or [Ott](../../aspose.words/saveformat/) format.
 
 ```cpp
 class OdtSaveOptions : public Aspose::Words::Saving::SaveOptions
@@ -30,12 +30,12 @@ class OdtSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [get_ExportGeneratorName](../saveoptions/get_exportgeneratorname/)() const | When true, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**. |
 | [get_ImlRenderingMode](../saveoptions/get_imlrenderingmode/)() const | Gets or sets a value determining how ink (InkML) objects are rendered. |
 | [get_IsStrictSchema11](./get_isstrictschema11/)() const | Specifies whether export should correspond to ODT specification 1.1 strictly. OOo 3.0 displays files correctly when they contain elements and attributes of ODT 1.2. Use "false" for this purpose, or "true" for strict conformity of specification 1.1. The default value is **false**. |
-| [get_MeasureUnit](./get_measureunit/)() const | Allows to specify units of measure to apply to document content. The default value is **Centimeters** |
+| [get_MeasureUnit](./get_measureunit/)() const | Allows to specify units of measure to apply to document content. The default value is [Centimeters](../odtsavemeasureunit/) |
 | [get_MemoryOptimization](../saveoptions/get_memoryoptimization/)() const | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**. |
 | [get_Password](./get_password/)() const | Gets or sets a password to encrypt document. |
 | [get_PrettyFormat](../saveoptions/get_prettyformat/)() const | When **true**, pretty formats output where applicable. Default value is **false**. |
 | [get_ProgressCallback](../saveoptions/get_progresscallback/)() const | Called during saving a document and accepts data about saving progress. |
-| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can be **Odt** or **Ott**. |
+| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can be [Odt](../../aspose.words/saveformat/) or [Ott](../../aspose.words/saveformat/). |
 | [get_TempFolder](../saveoptions/get_tempfolder/)() const | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is **null** and no temporary files are used. |
 | [get_UpdateCreatedTimeProperty](../saveoptions/get_updatecreatedtimeproperty/)() const | Gets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is false;. |
 | [get_UpdateFields](../saveoptions/get_updatefields/)() const | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. |
@@ -44,9 +44,9 @@ class OdtSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [get_UpdateSdtContent](../saveoptions/get_updatesdtcontent/)() const | Gets or sets value determining whether content of [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/) is updated before saving. |
 | [get_UseAntiAliasing](../saveoptions/get_useantialiasing/)() const | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [get_UseHighQualityRendering](../saveoptions/get_usehighqualityrendering/)() const | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
-| [OdtSaveOptions](./odtsaveoptions/)() | Initializes a new instance of this class that can be used to save a document in the **Odt** format. |
-| [OdtSaveOptions](./odtsaveoptions/)(const System::String\&) | Initializes a new instance of this class that can be used to save a document in the **Odt** format encrypted with a password. |
-| [OdtSaveOptions](./odtsaveoptions/)(Aspose::Words::SaveFormat) | Initializes a new instance of this class that can be used to save a document in the **Odt** or **Ott** format. |
+| [OdtSaveOptions](./odtsaveoptions/)() | Initializes a new instance of this class that can be used to save a document in the [Odt](../../aspose.words/saveformat/) format. |
+| [OdtSaveOptions](./odtsaveoptions/)(const System::String\&) | Initializes a new instance of this class that can be used to save a document in the [Odt](../../aspose.words/saveformat/) format encrypted with a password. |
+| [OdtSaveOptions](./odtsaveoptions/)(Aspose::Words::SaveFormat) | Initializes a new instance of this class that can be used to save a document in the [Odt](../../aspose.words/saveformat/) or [Ott](../../aspose.words/saveformat/) format. |
 | [set_AllowEmbeddingPostScriptFonts](../saveoptions/set_allowembeddingpostscriptfonts/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_AllowEmbeddingPostScriptFonts](../saveoptions/get_allowembeddingpostscriptfonts/). |
 | [set_CustomTimeZoneInfo](../saveoptions/set_customtimezoneinfo/)(const System::SharedPtr\<System::TimeZoneInfo\>\&) |  |
 | [set_DefaultTemplate](../saveoptions/set_defaulttemplate/)(const System::String\&) | Setter for [Aspose::Words::Saving::SaveOptions::get_DefaultTemplate](../saveoptions/get_defaulttemplate/). |
@@ -70,11 +70,12 @@ class OdtSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [set_UpdateSdtContent](../saveoptions/set_updatesdtcontent/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateSdtContent](../saveoptions/get_updatesdtcontent/). |
 | [set_UseAntiAliasing](../saveoptions/set_useantialiasing/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UseAntiAliasing](../saveoptions/get_useantialiasing/). |
 | [set_UseHighQualityRendering](../saveoptions/set_usehighqualityrendering/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UseHighQualityRendering](../saveoptions/get_usehighqualityrendering/). |
+## Remarks
+
 
 At the moment provides only the [SaveFormat](./get_saveformat/) property, but in the future will have other options added, such as an encryption password or digital signature settings.
 
 ## Examples
-
 
 
 
@@ -105,3 +106,8 @@ saveOptions->set_MeasureUnit(odtSaveMeasureUnit);
 doc->Save(ArtifactsDir + u"OdtSaveOptions.Odt11Schema.odt", saveOptions);
 ```
 
+## See Also
+
+* Class [SaveOptions](../saveoptions/)
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

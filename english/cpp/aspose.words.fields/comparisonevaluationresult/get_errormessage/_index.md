@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/comparisonevaluationresult/get_errormessage/
 ---
-## ComparisonEvaluationResult.get_ErrorMessage method
+## ComparisonEvaluationResult::get_ErrorMessage method
 
 
 Gets the failed comparison evaluation result's error message.
@@ -15,3 +15,8 @@ Gets the failed comparison evaluation result's error message.
 System::String Aspose::Words::Fields::ComparisonEvaluationResult::get_ErrorMessage() const
 ```
 
+## See Also
+
+* Class [ComparisonEvaluationResult](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

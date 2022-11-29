@@ -6,7 +6,7 @@ type: docs
 weight: 1171
 url: /cpp/aspose.words.settings/compatibilityoptions/set_donotsuppressparagraphborders/
 ---
-## CompatibilityOptions.set_DoNotSuppressParagraphBorders method
+## CompatibilityOptions::set_DoNotSuppressParagraphBorders method
 
 
 Do Not Suppress [Paragraph](../../../aspose.words/paragraph/) Borders Next To Frames.
@@ -15,3 +15,8 @@ Do Not Suppress [Paragraph](../../../aspose.words/paragraph/) Borders Next To Fr
 void Aspose::Words::Settings::CompatibilityOptions::set_DoNotSuppressParagraphBorders(bool value)
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

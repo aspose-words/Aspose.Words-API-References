@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_showvalue/
 ---
-## ChartDataLabel.get_ShowValue method
+## ChartDataLabel::get_ShowValue method
 
 
 Allows to specify if values are to be displayed in the data labels. Default value is false.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowValue()
 
 
 ## Examples
-
 
 
 
@@ -91,3 +90,8 @@ static void ApplyDataLabels(SharedPtr<ChartSeries> series, int labelsCount, Stri
 }
 ```
 
+## See Also
+
+* Class [ChartDataLabel](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fields/fieldincludetext/get_sourcefullname/
 ---
-## FieldIncludeText.get_SourceFullName method
+## FieldIncludeText::get_SourceFullName method
 
 
 Gets or sets the location of the document using an IRI.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldIncludeText::get_SourceFullName() ove
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,8 @@ SharedPtr<FieldIncludeText> CreateFieldIncludeText(SharedPtr<DocumentBuilder> bu
 }
 ```
 
+## See Also
+
+* Class [FieldIncludeText](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

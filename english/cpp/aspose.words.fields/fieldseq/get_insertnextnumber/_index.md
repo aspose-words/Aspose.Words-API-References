@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldseq/get_insertnextnumber/
 ---
-## FieldSeq.get_InsertNextNumber method
+## FieldSeq::get_InsertNextNumber method
 
 
 Gets or sets whether to insert the next sequence number for the specified item.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldSeq::get_InsertNextNumber()
 
 
 ## Examples
-
 
 
 
@@ -79,3 +78,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.SEQ.ResetNumbering.docx");
 ```
 
+## See Also
+
+* Class [FieldSeq](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 807
 url: /cpp/aspose.words.properties/builtindocumentproperties/set_totaleditingtime/
 ---
-## BuiltInDocumentProperties.set_TotalEditingTime method
+## BuiltInDocumentProperties::set_TotalEditingTime method
 
 
 Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_TotalEditingTime](../get_totaleditingtime/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_TotalEditi
 void Aspose::Words::Properties::BuiltInDocumentProperties::set_TotalEditingTime(int32_t value)
 ```
 
+## See Also
+
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

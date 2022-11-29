@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/set_title/
 ---
-## StructuredDocumentTagRangeStart.set_Title method
+## StructuredDocumentTagRangeStart::set_Title method
 
 
 Setter for [Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_Title](../get_title/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_Title](.
 void Aspose::Words::Markup::StructuredDocumentTagRangeStart::set_Title(System::String value) override
 ```
 
+## See Also
+
+* Class [StructuredDocumentTagRangeStart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

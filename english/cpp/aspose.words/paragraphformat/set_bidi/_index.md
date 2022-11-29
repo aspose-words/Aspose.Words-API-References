@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /cpp/aspose.words/paragraphformat/set_bidi/
 ---
-## ParagraphFormat.set_Bidi method
+## ParagraphFormat::set_Bidi method
 
 
 Setter for [Aspose::Words::ParagraphFormat::get_Bidi](../get_bidi/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::ParagraphFormat::get_Bidi](../get_bidi/).
 void Aspose::Words::ParagraphFormat::set_Bidi(bool value)
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

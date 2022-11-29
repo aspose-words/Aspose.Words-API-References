@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words/tabstop/set_leader/
 ---
-## TabStop.set_Leader method
+## TabStop::set_Leader method
 
 
 Setter for [Aspose::Words::TabStop::get_Leader](../get_leader/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::TabStop::get_Leader](../get_leader/).
 void Aspose::Words::TabStop::set_Leader(Aspose::Words::TabLeader value)
 ```
 
+## See Also
+
+* Enum [TabLeader](../../tableader/)
+* Class [TabStop](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

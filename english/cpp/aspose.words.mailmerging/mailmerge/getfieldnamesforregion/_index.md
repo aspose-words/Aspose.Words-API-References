@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/
 ---
-## MailMerge.GetFieldNamesForRegion(const System::String\&) method
+## MailMerge::GetFieldNamesForRegion(const System::String\&) method
 
 
 Returns a collection of mail merge field names available in the region.
@@ -19,6 +19,8 @@ System::ArrayPtr<System::String> Aspose::Words::MailMerging::MailMerge::GetField
 | Parameter | Type | Description |
 | --- | --- | --- |
 | regionName | const System::String\& | Region name (case-insensitive). |
+## Remarks
+
 
 Returns full merge field names including optional prefix. Does not eliminate duplicate field names.
 
@@ -27,7 +29,6 @@ If document contains multiple regions with the same name the very first region i
 A new string array is created on every call.
 
 ## Examples
-
 
 
 
@@ -80,7 +81,12 @@ mergeFieldNames = doc->get_MailMerge()->GetFieldNamesForRegion(u"MailMergeRegion
 ASSERT_EQ(u"Column2", mergeFieldNames[0]);
 ```
 
-## MailMerge.GetFieldNamesForRegion(const System::String\&, int32_t) method
+## See Also
+
+* Class [MailMerge](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)
+## MailMerge::GetFieldNamesForRegion(const System::String\&, int32_t) method
 
 
 Returns a collection of mail merge field names available in the region.
@@ -94,6 +100,8 @@ System::ArrayPtr<System::String> Aspose::Words::MailMerging::MailMerge::GetField
 | --- | --- | --- |
 | regionName | const System::String\& | Region name (case-insensitive). |
 | regionIndex | int32_t | Region index (zero-based). |
+## Remarks
+
 
 Returns full merge field names including optional prefix. Does not eliminate duplicate field names.
 
@@ -102,7 +110,6 @@ If document contains multiple regions with the same name the Nth region (zero-ba
 A new string array is created on every call.
 
 ## Examples
-
 
 
 
@@ -155,3 +162,8 @@ mergeFieldNames = doc->get_MailMerge()->GetFieldNamesForRegion(u"MailMergeRegion
 ASSERT_EQ(u"Column2", mergeFieldNames[0]);
 ```
 
+## See Also
+
+* Class [MailMerge](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.fields/fieldif/set_leftexpression/
 ---
-## FieldIf.set_LeftExpression method
+## FieldIf::set_LeftExpression method
 
 
 Setter for [Aspose::Words::Fields::FieldIf::get_LeftExpression](../get_leftexpression/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldIf::get_LeftExpression](../get_leftexpre
 void Aspose::Words::Fields::FieldIf::set_LeftExpression(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldIf](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportrelativefontsize/
 ---
-## HtmlSaveOptions.get_ExportRelativeFontSize method
+## HtmlSaveOptions::get_ExportRelativeFontSize method
 
 
 Specifies whether font sizes should be output in relative units when saving to HTML, MHTML or EPUB. Default is **false**.
@@ -14,6 +14,8 @@ Specifies whether font sizes should be output in relative units when saving to H
 ```cpp
 bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportRelativeFontSize() const
 ```
+
+## Remarks
 
 
 In many existing documents (HTML, IDPF EPUB) font sizes are specified in relative units. This allows applications to adjust text size when viewing/processing documents. For instance, Microsoft Internet Explorer has "View->Text Size" submenu, Adobe Digital Editions has two buttons: Increase/Decrease Text Size. If you expect this functionality to work then set [ExportRelativeFontSize](./) property to **true**.
@@ -23,7 +25,6 @@ In many existing documents (HTML, IDPF EPUB) font sizes are specified in relativ
 When this option is enabled, document elements other than text will still have absolute sizes. Also some text-related attributes might be expressed absolutely. In particular, line spacing specified with "exactly" rule might produce unwanted results when scaling text. So the source documents should be properly designed and tested when exporting with [ExportRelativeFontSize](./) set to **true**.
 
 ## Examples
-
 
 
 
@@ -69,3 +70,8 @@ else
 }
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

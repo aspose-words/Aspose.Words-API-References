@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_category/
 ---
-## BuiltInDocumentProperties.get_Category method
+## BuiltInDocumentProperties::get_Category method
 
 
 Gets or sets the category of the document.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Properties::BuiltInDocumentProperties::get_Categor
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,8 @@ properties->set_Keywords(u"Tag 1; Tag 2; Tag 3");
 doc->Save(ArtifactsDir + u"DocumentProperties.Description.docx");
 ```
 
+## See Also
+
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

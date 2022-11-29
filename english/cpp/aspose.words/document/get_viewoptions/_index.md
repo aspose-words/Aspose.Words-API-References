@@ -6,7 +6,7 @@ type: docs
 weight: 703
 url: /cpp/aspose.words/document/get_viewoptions/
 ---
-## Document.get_ViewOptions method
+## Document::get_ViewOptions method
 
 
 Provides options to control how the document is displayed in Microsoft Word.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Settings::ViewOptions> Aspose::Words::Document:
 
 
 ## Examples
-
 
 
 
@@ -54,3 +53,9 @@ doc->get_ViewOptions()->set_ZoomType(zoomType);
 doc->Save(ArtifactsDir + u"ViewOptions.SetZoomType.doc");
 ```
 
+## See Also
+
+* Class [ViewOptions](../../../aspose.words.settings/viewoptions/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

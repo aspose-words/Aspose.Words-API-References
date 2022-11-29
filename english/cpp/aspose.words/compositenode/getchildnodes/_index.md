@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words/compositenode/getchildnodes/
 ---
-## CompositeNode.GetChildNodes method
+## CompositeNode::GetChildNodes method
 
 
 Returns a live collection of child nodes that match the specified type.
@@ -23,15 +23,15 @@ System::SharedPtr<Aspose::Words::NodeCollection> Aspose::Words::CompositeNode::G
 
 ### ReturnValue
 
-
 A live collection of child nodes of the specified type.
+## Remarks
+
 
 The collection of nodes returned by this method is always live.
 
 A live collection is always in sync with the document. For example, if you selected all sections in a document and enumerate through the collection deleting the sections, the section is removed from the collection immediately when it is removed from the document.
 
 ## Examples
-
 
 
 
@@ -135,3 +135,10 @@ ASSERT_EQ(u"Run 1. Updated run 2. Run 3.", paragraph->GetText().Trim());
 ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
 ```
 
+## See Also
+
+* Class [NodeCollection](../../nodecollection/)
+* Enum [NodeType](../../nodetype/)
+* Class [CompositeNode](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

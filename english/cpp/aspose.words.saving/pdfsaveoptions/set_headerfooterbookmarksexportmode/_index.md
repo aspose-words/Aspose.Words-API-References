@@ -6,7 +6,7 @@ type: docs
 weight: 599
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_headerfooterbookmarksexportmode/
 ---
-## PdfSaveOptions.set_HeaderFooterBookmarksExportMode method
+## PdfSaveOptions::set_HeaderFooterBookmarksExportMode method
 
 
 Setter for [Aspose::Words::Saving::PdfSaveOptions::get_HeaderFooterBookmarksExportMode](../get_headerfooterbookmarksexportmode/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Saving::PdfSaveOptions::get_HeaderFooterBookmarksExpo
 void Aspose::Words::Saving::PdfSaveOptions::set_HeaderFooterBookmarksExportMode(Aspose::Words::Saving::HeaderFooterBookmarksExportMode value)
 ```
 
+## See Also
+
+* Enum [HeaderFooterBookmarksExportMode](../../headerfooterbookmarksexportmode/)
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

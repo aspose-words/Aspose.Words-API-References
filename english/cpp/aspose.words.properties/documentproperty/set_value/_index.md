@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.properties/documentproperty/set_value/
 ---
-## DocumentProperty.set_Value method
+## DocumentProperty::set_Value method
 
 
 Setter for [Aspose::Words::Properties::DocumentProperty::get_Value](../get_value/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Properties::DocumentProperty::get_Value](../get_value
 void Aspose::Words::Properties::DocumentProperty::set_Value(const System::SharedPtr<System::Object> &value)
 ```
 
+## See Also
+
+* Class [DocumentProperty](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

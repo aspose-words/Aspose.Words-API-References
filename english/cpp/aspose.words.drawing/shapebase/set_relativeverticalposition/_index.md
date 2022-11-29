@@ -6,7 +6,7 @@ type: docs
 weight: 1028
 url: /cpp/aspose.words.drawing/shapebase/set_relativeverticalposition/
 ---
-## ShapeBase.set_RelativeVerticalPosition method
+## ShapeBase::set_RelativeVerticalPosition method
 
 
 Setter for [Aspose::Words::Drawing::ShapeBase::get_RelativeVerticalPosition](../get_relativeverticalposition/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Drawing::ShapeBase::get_RelativeVerticalPosition](../
 void Aspose::Words::Drawing::ShapeBase::set_RelativeVerticalPosition(Aspose::Words::Drawing::RelativeVerticalPosition value)
 ```
 
+## See Also
+
+* Enum [RelativeVerticalPosition](../../relativeverticalposition/)
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/story/get_storytype/
 ---
-## Story.get_StoryType method
+## Story::get_StoryType method
 
 
 Gets the type of this story.
@@ -17,7 +17,6 @@ Aspose::Words::StoryType Aspose::Words::Story::get_StoryType() const
 
 
 ## Examples
-
 
 
 
@@ -39,3 +38,9 @@ doc->get_FirstSection()->get_Body()->DeleteShapes();
 ASSERT_EQ(0, doc->GetChildNodes(NodeType::Shape, true)->get_Count());
 ```
 
+## See Also
+
+* Enum [StoryType](../../storytype/)
+* Class [Story](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

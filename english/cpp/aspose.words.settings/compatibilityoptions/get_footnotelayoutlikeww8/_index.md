@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/aspose.words.settings/compatibilityoptions/get_footnotelayoutlikeww8/
 ---
-## CompatibilityOptions.get_FootnoteLayoutLikeWW8 method
+## CompatibilityOptions::get_FootnoteLayoutLikeWW8 method
 
 
 Emulate Word 6.x/95/97 Footnote Placement.
@@ -15,3 +15,8 @@ Emulate Word 6.x/95/97 Footnote Placement.
 bool Aspose::Words::Settings::CompatibilityOptions::get_FootnoteLayoutLikeWW8()
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

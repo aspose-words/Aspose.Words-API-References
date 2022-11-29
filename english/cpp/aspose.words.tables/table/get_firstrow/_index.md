@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.words.tables/table/get_firstrow/
 ---
-## Table.get_FirstRow method
+## Table::get_FirstRow method
 
 
 Returns the first **Row** node in the table.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Tables::Row> Aspose::Words::Tables::Table::get_
 
 
 ## Examples
-
 
 
 
@@ -70,3 +69,9 @@ secondTable->Remove();
 doc->Save(ArtifactsDir + u"Table.CombineTables.docx");
 ```
 
+## See Also
+
+* Class [Row](../../row/)
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words/style/get_linkedstylename/
 ---
-## Style.get_LinkedStyleName method
+## Style::get_LinkedStyleName method
 
 
 Gets the name of the [Style](../) linked to this one. Returns Empty string if no styles are linked.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Style::get_LinkedStyleName()
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,8 @@ ASPOSE_ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(
                  doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(1)->get_ParagraphFormat()->get_Style());
 ```
 
+## See Also
+
+* Class [Style](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

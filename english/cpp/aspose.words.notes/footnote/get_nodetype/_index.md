@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.notes/footnote/get_nodetype/
 ---
-## Footnote.get_NodeType method
+## Footnote::get_NodeType method
 
 
 Returns **NodeType.Footnote**.
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::Notes::Footnote::get_NodeType() const ove
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,9 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../../aspose.words/nodetype/)
+* Class [Footnote](../)
+* Namespace [Aspose::Words::Notes](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/watermark/setimage/
 ---
-## Watermark.SetImage(const System::SharedPtr\<System::Drawing::Image\>\&) method
+## Watermark::SetImage(const System::SharedPtr\<System::Drawing::Image\>\&) method
 
 
 Adds Image watermark into the document.
@@ -20,8 +20,12 @@ void Aspose::Words::Watermark::SetImage(const System::SharedPtr<System::Drawing:
 | --- | --- | --- |
 | image | const System::SharedPtr\<System::Drawing::Image\>\& | Image that is displayed as a watermark. |
 
+## See Also
 
-## Watermark.SetImage(const System::SharedPtr\<System::Drawing::Image\>\&, const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\&) method
+* Class [Watermark](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Watermark::SetImage(const System::SharedPtr\<System::Drawing::Image\>\&, const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\&) method
 
 
 Adds Image watermark into the document.
@@ -40,7 +44,6 @@ void Aspose::Words::Watermark::SetImage(const System::SharedPtr<System::Drawing:
 
 
 
-
 Shows how to create a watermark from an image in the local file system. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -56,7 +59,13 @@ doc->get_Watermark()->SetImage(System::Drawing::Image::FromFile(ImageDir + u"Log
 doc->Save(ArtifactsDir + u"Document.ImageWatermark.docx");
 ```
 
-## Watermark.SetImage(const System::String\&, const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\&) method
+## See Also
+
+* Class [ImageWatermarkOptions](../../imagewatermarkoptions/)
+* Class [Watermark](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Watermark::SetImage(const System::String\&, const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\&) method
 
 
 Adds Image watermark into the document.
@@ -71,4 +80,9 @@ void Aspose::Words::Watermark::SetImage(const System::String &imagePath, const S
 | imagePath | const System::String\& | Path to the image file that is displayed as a watermark. |
 | options | const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\& | Defines additional options for the image watermark. |
 
+## See Also
 
+* Class [ImageWatermarkOptions](../../imagewatermarkoptions/)
+* Class [Watermark](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

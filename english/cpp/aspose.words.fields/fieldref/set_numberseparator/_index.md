@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.fields/fieldref/set_numberseparator/
 ---
-## FieldRef.set_NumberSeparator method
+## FieldRef::set_NumberSeparator method
 
 
 Setter for [Aspose::Words::Fields::FieldRef::get_NumberSeparator](../get_numberseparator/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldRef::get_NumberSeparator](../get_numbers
 void Aspose::Words::Fields::FieldRef::set_NumberSeparator(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldRef](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.fields/fieldddeauto/set_sourcefullname/
 ---
-## FieldDdeAuto.set_SourceFullName method
+## FieldDdeAuto::set_SourceFullName method
 
 
 Setter for [Aspose::Words::Fields::FieldDdeAuto::get_SourceFullName](../get_sourcefullname/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldDdeAuto::get_SourceFullName](../get_sour
 void Aspose::Words::Fields::FieldDdeAuto::set_SourceFullName(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldDdeAuto](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

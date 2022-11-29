@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.webextensions/webextensionreference/set_store/
 ---
-## WebExtensionReference.set_Store method
+## WebExtensionReference::set_Store method
 
 
 Setter for [Aspose::Words::WebExtensions::WebExtensionReference::get_Store](../get_store/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::WebExtensions::WebExtensionReference::get_Store](../g
 void Aspose::Words::WebExtensions::WebExtensionReference::set_Store(const System::String &value)
 ```
 
+## See Also
+
+* Class [WebExtensionReference](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)
