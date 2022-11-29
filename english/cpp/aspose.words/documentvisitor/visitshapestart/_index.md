@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/aspose.words/documentvisitor/visitshapestart/
 ---
-## DocumentVisitor.VisitShapeStart method
+## DocumentVisitor::VisitShapeStart method
 
 
 Called when enumeration of a shape has started.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitShapeS
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -286,3 +284,10 @@ public:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

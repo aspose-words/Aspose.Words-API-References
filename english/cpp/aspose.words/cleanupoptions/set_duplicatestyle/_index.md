@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/cleanupoptions/set_duplicatestyle/
 ---
-## CleanupOptions.set_DuplicateStyle method
+## CleanupOptions::set_DuplicateStyle method
 
 
 Setter for [Aspose::Words::CleanupOptions::get_DuplicateStyle](../get_duplicatestyle/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::CleanupOptions::get_DuplicateStyle](../get_duplicates
 void Aspose::Words::CleanupOptions::set_DuplicateStyle(bool value)
 ```
 
+## See Also
+
+* Class [CleanupOptions](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

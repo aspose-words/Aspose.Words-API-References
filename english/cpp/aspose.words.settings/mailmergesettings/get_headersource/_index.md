@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.settings/mailmergesettings/get_headersource/
 ---
-## MailMergeSettings.get_HeaderSource method
+## MailMergeSettings::get_HeaderSource method
 
 
 Specifies the path to the mail-merge header source. The default value is an empty string.
@@ -15,3 +15,8 @@ Specifies the path to the mail-merge header source. The default value is an empt
 System::String Aspose::Words::Settings::MailMergeSettings::get_HeaderSource() const
 ```
 
+## See Also
+
+* Class [MailMergeSettings](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

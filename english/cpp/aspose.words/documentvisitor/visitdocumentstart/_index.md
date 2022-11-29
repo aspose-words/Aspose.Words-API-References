@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words/documentvisitor/visitdocumentstart/
 ---
-## DocumentVisitor.VisitDocumentStart method
+## DocumentVisitor::VisitDocumentStart method
 
 
 Called when enumeration of the document has started.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitDocume
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -160,3 +158,10 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [Document](../../document/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

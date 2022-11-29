@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.webextensions/webextensionreference/get_id/
 ---
-## WebExtensionReference.get_Id method
+## WebExtensionReference::get_Id method
 
 
 Identifier associated with the web extension within a catalog provider.
@@ -17,7 +17,6 @@ System::String Aspose::Words::WebExtensions::WebExtensionReference::get_Id() con
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,8 @@ doc->get_WebExtensionTaskPanes()->Clear();
 ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ```
 
+## See Also
+
+* Class [WebExtensionReference](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

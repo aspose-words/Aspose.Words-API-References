@@ -32,7 +32,6 @@ class DigitalSignature : public System::Object
 
 
 
-
 Shows how to validate and display information about each signature in a document. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Digitally signed.docx");
@@ -49,3 +48,7 @@ for (const auto& signature : doc->get_DigitalSignatures())
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::DigitalSignatures](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.markup/customxmlpart/get_data/
 ---
-## CustomXmlPart.get_Data method
+## CustomXmlPart::get_Data method
 
 
 Gets or sets the XML content of this Custom XML Data Storage Part.
@@ -15,11 +15,12 @@ Gets or sets the XML content of this Custom XML Data Storage Part.
 System::ArrayPtr<uint8_t> Aspose::Words::Markup::CustomXmlPart::get_Data() const
 ```
 
+## Remarks
+
 
 The default value is an empty byte array. The value cannot be **null**.
 
 ## Examples
-
 
 
 
@@ -84,3 +85,8 @@ doc->get_FirstSection()->get_Body()->AppendChild(tag);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.CustomXml.docx");
 ```
 
+## See Also
+
+* Class [CustomXmlPart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

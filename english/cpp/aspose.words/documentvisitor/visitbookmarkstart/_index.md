@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/documentvisitor/visitbookmarkstart/
 ---
-## DocumentVisitor.VisitBookmarkStart method
+## DocumentVisitor::VisitBookmarkStart method
 
 
 Called when a start of a bookmark is encountered in the document.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitBookma
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -107,3 +105,10 @@ public:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [BookmarkStart](../../bookmarkstart/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

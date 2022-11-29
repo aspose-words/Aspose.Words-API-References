@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/aspose.words/font/get_namebi/
 ---
-## Font.get_NameBi method
+## Font::get_NameBi method
 
 
 Returns or sets the name of the font in a right-to-left language document.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Font::get_NameBi()
 
 
 ## Examples
-
 
 
 
@@ -54,3 +53,8 @@ builder->Write(u" Hello world!");
 doc->Save(ArtifactsDir + u"Font.Bidi.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

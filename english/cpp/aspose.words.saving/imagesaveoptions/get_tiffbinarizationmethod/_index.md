@@ -6,20 +6,21 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.saving/imagesaveoptions/get_tiffbinarizationmethod/
 ---
-## ImageSaveOptions.get_TiffBinarizationMethod method
+## ImageSaveOptions::get_TiffBinarizationMethod method
 
 
-Gets or sets method used while converting images to 1 bpp format when [SaveFormat](../get_saveformat/) is **SaveFormat.Tiff** and [TiffCompression](../get_tiffcompression/) is equal to **TiffCompression.Ccitt3** or **TiffCompression.Ccitt4**.
+Gets or sets method used while converting images to 1 bpp format when [SaveFormat](../get_saveformat/) is [SaveFormat.Tiff](../../../aspose.words/saveformat/) and [TiffCompression](../get_tiffcompression/) is equal to [TiffCompression.Ccitt3](../../tiffcompression/) or [TiffCompression.Ccitt4](../../tiffcompression/).
 
 ```cpp
 Aspose::Words::Saving::ImageBinarizationMethod Aspose::Words::Saving::ImageSaveOptions::get_TiffBinarizationMethod() const
 ```
 
+## Remarks
 
-The default value is **ImageBinarizationMethod.Threshold**.
+
+The default value is [ImageBinarizationMethod.Threshold](../../imagebinarizationmethod/).
 
 ## Examples
-
 
 
 
@@ -44,3 +45,9 @@ options->set_ThresholdForFloydSteinbergDithering(240);
 doc->Save(ArtifactsDir + u"ImageSaveOptions.FloydSteinbergDithering.tiff", options);
 ```
 
+## See Also
+
+* Enum [ImageBinarizationMethod](../../imagebinarizationmethod/)
+* Class [ImageSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

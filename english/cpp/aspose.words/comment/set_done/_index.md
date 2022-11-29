@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words/comment/set_done/
 ---
-## Comment.set_Done method
+## Comment::set_Done method
 
 
 Setter for [Aspose::Words::Comment::get_Done](../get_done/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Comment::get_Done](../get_done/).
 void Aspose::Words::Comment::set_Done(bool value)
 ```
 
+## See Also
+
+* Class [Comment](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

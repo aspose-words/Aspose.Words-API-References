@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_createdtime/
 ---
-## BuiltInDocumentProperties.get_CreatedTime method
+## BuiltInDocumentProperties::get_CreatedTime method
 
 
 Gets or sets date of the document creation in UTC.
@@ -15,13 +15,14 @@ Gets or sets date of the document creation in UTC.
 System::DateTime Aspose::Words::Properties::BuiltInDocumentProperties::get_CreatedTime()
 ```
 
+## Remarks
+
 
 For documents originated from RTF format this property returns local time of the author's machine at the moment of document creation.
 
 Aspose.Words does not update this property.
 
 ## Examples
-
 
 
 
@@ -55,3 +56,8 @@ properties->set_LastSavedTime(System::DateTime::get_Now());
 doc->Save(ArtifactsDir + u"DocumentProperties.Origin.docx");
 ```
 
+## See Also
+
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

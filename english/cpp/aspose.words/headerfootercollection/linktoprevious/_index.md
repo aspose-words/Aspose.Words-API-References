@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/headerfootercollection/linktoprevious/
 ---
-## HeaderFooterCollection.LinkToPrevious(Aspose::Words::HeaderFooterType, bool) method
+## HeaderFooterCollection::LinkToPrevious(Aspose::Words::HeaderFooterType, bool) method
 
 
 Links or unlinks the specified header or footer to the corresponding header or footer in the previous section.
@@ -20,11 +20,12 @@ void Aspose::Words::HeaderFooterCollection::LinkToPrevious(Aspose::Words::Header
 | --- | --- | --- |
 | headerFooterType | Aspose::Words::HeaderFooterType | A [HeaderFooterType](../../headerfootertype/) value that specifies the header or footer to link/unlink. |
 | isLinkToPrevious | bool | True to link the header or footer to the previous section; false to unlink. |
+## Remarks
+
 
 If the header or footer of the specified type does not exist, creates it automatically.
 
 ## Examples
-
 
 
 
@@ -91,7 +92,13 @@ ASSERT_TRUE(doc->get_Sections()->idx_get(2)->get_HeadersFooters()->idx_get(3)->g
 doc->Save(ArtifactsDir + u"HeaderFooter.Link.docx");
 ```
 
-## HeaderFooterCollection.LinkToPrevious(bool) method
+## See Also
+
+* Enum [HeaderFooterType](../../headerfootertype/)
+* Class [HeaderFooterCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## HeaderFooterCollection::LinkToPrevious(bool) method
 
 
 Links or unlinks all headers and footers to the corresponding headers and footers in the previous section.
@@ -104,11 +111,12 @@ void Aspose::Words::HeaderFooterCollection::LinkToPrevious(bool isLinkToPrevious
 | Parameter | Type | Description |
 | --- | --- | --- |
 | isLinkToPrevious | bool | True to link the headers and footers to the previous section; false to unlink them. |
+## Remarks
+
 
 If any of the headers or footers do not exist, creates them automatically.
 
 ## Examples
-
 
 
 
@@ -175,3 +183,8 @@ ASSERT_TRUE(doc->get_Sections()->idx_get(2)->get_HeadersFooters()->idx_get(3)->g
 doc->Save(ArtifactsDir + u"HeaderFooter.Link.docx");
 ```
 
+## See Also
+
+* Class [HeaderFooterCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

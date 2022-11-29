@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fields/fieldcitation/get_suffix/
 ---
-## FieldCitation.get_Suffix method
+## FieldCitation::get_Suffix method
 
 
 Gets or sets a suffix that is appended to the citation.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldCitation::get_Suffix()
 
 
 ## Examples
-
 
 
 
@@ -70,3 +69,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.CITATION.docx");
 ```
 
+## See Also
+
+* Class [FieldCitation](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

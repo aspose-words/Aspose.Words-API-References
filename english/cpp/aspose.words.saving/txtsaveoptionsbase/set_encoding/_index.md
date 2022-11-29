@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.saving/txtsaveoptionsbase/set_encoding/
 ---
-## TxtSaveOptionsBase.set_Encoding method
+## TxtSaveOptionsBase::set_Encoding method
 
 
 Setter for [Aspose::Words::Saving::TxtSaveOptionsBase::get_Encoding](../get_encoding/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::TxtSaveOptionsBase::get_Encoding](../get_enco
 void Aspose::Words::Saving::TxtSaveOptionsBase::set_Encoding(const System::SharedPtr<System::Text::Encoding> &value)
 ```
 
+## See Also
+
+* Class [TxtSaveOptionsBase](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.tables/rowcollection/toarray/
 ---
-## RowCollection.ToArray method
+## RowCollection::ToArray method
 
 
 Copies all rows from the collection to a new array of rows.
@@ -18,11 +18,9 @@ System::ArrayPtr<System::SharedPtr<Aspose::Words::Tables::Row>> Aspose::Words::T
 
 ### ReturnValue
 
-
 An array of rows.
 
 ## Examples
-
 
 
 
@@ -66,3 +64,9 @@ for (int i = 0; i < tables->get_Count(); i++)
 }
 ```
 
+## See Also
+
+* Class [Row](../../row/)
+* Class [RowCollection](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

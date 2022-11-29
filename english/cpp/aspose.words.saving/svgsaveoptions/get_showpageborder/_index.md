@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.saving/svgsaveoptions/get_showpageborder/
 ---
-## SvgSaveOptions.get_ShowPageBorder method
+## SvgSaveOptions::get_ShowPageBorder method
 
 
 Controls whether a border is added to the outline of the page. Default is **true**.
@@ -17,7 +17,6 @@ bool Aspose::Words::Saving::SvgSaveOptions::get_ShowPageBorder() const
 
 
 ## Examples
-
 
 
 
@@ -34,3 +33,8 @@ options->set_TextOutputMode(SvgTextOutputMode::UsePlacedGlyphs);
 doc->Save(ArtifactsDir + u"SvgSaveOptions.SaveLikeImage.svg", options);
 ```
 
+## See Also
+
+* Class [SvgSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

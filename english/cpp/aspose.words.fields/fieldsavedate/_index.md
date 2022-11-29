@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldsavedate/
 Implements the SAVEDATE field.
 
 ```cpp
-class FieldSaveDate : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldSaveDate : public Aspose::Words::Fields::Field,
+                      public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -49,7 +50,6 @@ class FieldSaveDate : public Aspose::Words::Fields::Field, public Aspose::Words:
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 
 ## Examples
-
 
 
 
@@ -93,3 +93,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.SAVEDATE.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

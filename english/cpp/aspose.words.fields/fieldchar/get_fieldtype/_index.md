@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldchar/get_fieldtype/
 ---
-## FieldChar.get_FieldType method
+## FieldChar::get_FieldType method
 
 
 Returns the type of the field.
@@ -17,7 +17,6 @@ Aspose::Words::Fields::FieldType Aspose::Words::Fields::FieldChar::get_FieldType
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,9 @@ ASSERT_EQ(u" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
 field->Update();
 ```
 
+## See Also
+
+* Enum [FieldType](../../fieldtype/)
+* Class [FieldChar](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

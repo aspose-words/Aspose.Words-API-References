@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.drawing.charts/axisdisplayunit/get_unit/
 ---
-## AxisDisplayUnit.get_Unit method
+## AxisDisplayUnit::get_Unit method
 
 
 Gets or sets the scaling value of the display units as one of the predefined values.
@@ -17,7 +17,6 @@ Aspose::Words::Drawing::Charts::AxisBuiltInUnit Aspose::Words::Drawing::Charts::
 
 
 ## Examples
-
 
 
 
@@ -74,3 +73,9 @@ axis->get_DisplayUnit()->set_CustomUnit(1000000);
 doc->Save(ArtifactsDir + u"Charts.AxisDisplayUnit.docx");
 ```
 
+## See Also
+
+* Enum [AxisBuiltInUnit](../../axisbuiltinunit/)
+* Class [AxisDisplayUnit](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

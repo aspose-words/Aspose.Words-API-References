@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words/headerfooter/get_parentsection/
 ---
-## HeaderFooter.get_ParentSection method
+## HeaderFooter::get_ParentSection method
 
 
 Gets the parent section of this story.
@@ -15,11 +15,12 @@ Gets the parent section of this story.
 System::SharedPtr<Aspose::Words::Section> Aspose::Words::HeaderFooter::get_ParentSection()
 ```
 
+## Remarks
+
 
 **ParentSection** is equivalent to **%([Section](../../section/))ParentNode**.
 
 ## Examples
-
 
 
 
@@ -86,3 +87,9 @@ ASSERT_TRUE(doc->get_Sections()->idx_get(2)->get_HeadersFooters()->idx_get(3)->g
 doc->Save(ArtifactsDir + u"HeaderFooter.Link.docx");
 ```
 
+## See Also
+
+* Class [Section](../../section/)
+* Class [HeaderFooter](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

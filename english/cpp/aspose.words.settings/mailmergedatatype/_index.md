@@ -11,6 +11,10 @@ url: /cpp/aspose.words.settings/mailmergedatatype/
 
 Specifies the type of an external mail merge data source.
 
+```cpp
+enum class MailMergeDataType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -22,7 +26,10 @@ Specifies the type of an external mail merge data source.
 | Query | 3 | Specifies that a given document has been connected to an external data source using an external query tool. |
 | Odbc | 4 | Specifies that a given document has been connected to an external data source via the Open Database Connectivity interface. |
 | Native | 5 | Specifies that a given document has been connected to an external data source via the Office Data Source Object (ODSO) interface. |
-| Default | n/a | Equals to **None**. |
+| Default | n/a | Equals to [None](./). |
 
 
+## See Also
 
+* Namespace [Aspose::Words::Settings](../)
+* Library [Aspose.Words](../../)

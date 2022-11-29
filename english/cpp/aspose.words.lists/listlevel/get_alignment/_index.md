@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.lists/listlevel/get_alignment/
 ---
-## ListLevel.get_Alignment method
+## ListLevel::get_Alignment method
 
 
 Gets or sets the justification of the actual number of the list item.
@@ -15,11 +15,12 @@ Gets or sets the justification of the actual number of the list item.
 Aspose::Words::Lists::ListLevelAlignment Aspose::Words::Lists::ListLevel::get_Alignment() const
 ```
 
+## Remarks
+
 
 The list label is justified relative to the [NumberPosition](../get_numberposition/) property.
 
 ## Examples
-
 
 
 
@@ -76,3 +77,9 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateCustomList.docx");
 ```
 
+## See Also
+
+* Enum [ListLevelAlignment](../../listlevelalignment/)
+* Class [ListLevel](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

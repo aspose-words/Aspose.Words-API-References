@@ -35,7 +35,6 @@ class CommentCollection : public Aspose::Words::NodeCollection
 
 
 
-
 Shows how to mark a comment as "done". 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -64,3 +63,8 @@ builder->get_CurrentParagraph()->AppendChild(comment);
 doc->Save(ArtifactsDir + u"Comment.Done.docx");
 ```
 
+## See Also
+
+* Class [NodeCollection](../nodecollection/)
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

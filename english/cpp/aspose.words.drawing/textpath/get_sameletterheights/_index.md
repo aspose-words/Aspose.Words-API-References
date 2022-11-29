@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.drawing/textpath/get_sameletterheights/
 ---
-## TextPath.get_SameLetterHeights method
+## TextPath::get_SameLetterHeights method
 
 
 Determines whether all letters will be the same height regardless of initial case.
@@ -15,11 +15,12 @@ Determines whether all letters will be the same height regardless of initial cas
 bool Aspose::Words::Drawing::TextPath::get_SameLetterHeights()
 ```
 
+## Remarks
+
 
 The default value is **false**.
 
 ## Examples
-
 
 
 
@@ -125,3 +126,8 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
 }
 ```
 
+## See Also
+
+* Class [TextPath](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

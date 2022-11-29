@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/controlchar/crlf/
 ---
-## ControlChar.CrLf method
+## ControlChar::CrLf method
 
 
 Carriage return followed by line feed character: "\x000d\x000a" or "\r\n". Not used as such in Microsoft Word documents, but commonly used in text files for paragraph breaks.
@@ -17,7 +17,6 @@ static System::String & Aspose::Words::ControlChar::CrLf()
 
 
 ## Examples
-
 
 
 
@@ -87,3 +86,8 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::PageBreak()), ControlChar:
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlChar::ColumnBreakChar);
 ```
 
+## See Also
+
+* Class [ControlChar](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

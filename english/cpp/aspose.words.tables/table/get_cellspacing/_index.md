@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.tables/table/get_cellspacing/
 ---
-## Table.get_CellSpacing method
+## Table::get_CellSpacing method
 
 
 Gets or sets the amount of space (in points) between the cells.
@@ -17,7 +17,6 @@ double Aspose::Words::Tables::Table::get_CellSpacing()
 
 
 ## Examples
-
 
 
 
@@ -93,3 +92,8 @@ ASSERT_EQ(u"MyTableStyle1", table->get_StyleName());
 doc->Save(ArtifactsDir + u"Table.TableStyleCreation.docx");
 ```
 
+## See Also
+
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

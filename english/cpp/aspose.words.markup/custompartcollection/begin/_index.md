@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.markup/custompartcollection/begin/
 ---
-## CustomPartCollection.begin() const method
+## CustomPartCollection::begin() const method
 
 
 
@@ -15,7 +15,13 @@ url: /cpp/aspose.words.markup/custompartcollection/begin/
 const_iterator Aspose::Words::Markup::CustomPartCollection::begin() const noexcept
 ```
 
-## CustomPartCollection.begin() method
+## See Also
+
+* Typedef [const_iterator](../const_iterator/)
+* Class [CustomPartCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)
+## CustomPartCollection::begin() method
 
 
 
@@ -24,3 +30,9 @@ const_iterator Aspose::Words::Markup::CustomPartCollection::begin() const noexce
 iterator Aspose::Words::Markup::CustomPartCollection::begin() noexcept
 ```
 
+## See Also
+
+* Typedef [iterator](../iterator/)
+* Class [CustomPartCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.fields/fieldindex/set_heading/
 ---
-## FieldIndex.set_Heading method
+## FieldIndex::set_Heading method
 
 
 Setter for [Aspose::Words::Fields::FieldIndex::get_Heading](../get_heading/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldIndex::get_Heading](../get_heading/).
 void Aspose::Words::Fields::FieldIndex::set_Heading(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldIndex](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -15,3 +15,8 @@ url: /cpp/aspose.words.lists/listlevelcollection/virtualized_iterator_element/
 using Aspose::Words::Lists::ListLevelCollection::virtualized_iterator_element =  typename iterator_holder_type::virtualized_iterator_element
 ```
 
+## See Also
+
+* Class [ListLevelCollection](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

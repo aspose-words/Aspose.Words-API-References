@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportdropdownformfieldastext/
 ---
-## HtmlSaveOptions.get_ExportDropDownFormFieldAsText method
+## HtmlSaveOptions::get_ExportDropDownFormFieldAsText method
 
 
 Controls how drop-down form fields are saved to HTML or MHTML. Default value is **false**.
@@ -15,13 +15,14 @@ Controls how drop-down form fields are saved to HTML or MHTML. Default value is 
 bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportDropDownFormFieldAsText() const
 ```
 
+## Remarks
+
 
 When set to **true**, exports drop-down form fields as normal text. When **false**, exports drop-down form fields as SELECT element in HTML.
 
 When exporting to EPUB, text drop-down form fields are always saved as text due to requirements of this format.
 
 ## Examples
-
 
 
 
@@ -56,3 +57,8 @@ else
 }
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

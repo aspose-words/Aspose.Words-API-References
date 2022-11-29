@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.saving/documentpartsavingargs/get_documentpartfilename/
 ---
-## DocumentPartSavingArgs.get_DocumentPartFileName method
+## DocumentPartSavingArgs::get_DocumentPartFileName method
 
 
 Gets or sets the file name (without path) where the document part will be saved to.
@@ -14,6 +14,8 @@ Gets or sets the file name (without path) where the document part will be saved 
 ```cpp
 System::String Aspose::Words::Saving::DocumentPartSavingArgs::get_DocumentPartFileName() const
 ```
+
+## Remarks
 
 
 This property allows you to redefine how the document part file names are generated during export to HTML or EPUB.
@@ -23,7 +25,6 @@ When the callback is invoked, this property contains the file name that was gene
 [DocumentPartFileName](./) must contain only the file name without the path. Aspose.Words determines the path for saving using the document file name. If output document file name was not specified, for instance when saving to a stream, this file name is used only for referencing document parts. The same is true when saving to EPUB format.
 
 ## Examples
-
 
 
 
@@ -145,3 +146,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [DocumentPartSavingArgs](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

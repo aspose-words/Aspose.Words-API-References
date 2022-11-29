@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/documentbase/get_fontinfos/
 ---
-## DocumentBase.get_FontInfos method
+## DocumentBase::get_FontInfos method
 
 
 Provides access to properties of fonts used in this document.
@@ -15,13 +15,14 @@ Provides access to properties of fonts used in this document.
 System::SharedPtr<Aspose::Words::Fonts::FontInfoCollection> Aspose::Words::DocumentBase::get_FontInfos() const
 ```
 
+## Remarks
+
 
 This collection of font definitions is loaded as is from the document. [Font](../../font/) definitions might be optional, missing or incomplete in some documents.
 
 Do not rely on this collection to ascertain that a particular font is used in the document. You should only use this collection to get information about fonts that might be used in the document.
 
 ## Examples
-
 
 
 
@@ -62,3 +63,9 @@ else
 }
 ```
 
+## See Also
+
+* Class [FontInfoCollection](../../../aspose.words.fonts/fontinfocollection/)
+* Class [DocumentBase](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

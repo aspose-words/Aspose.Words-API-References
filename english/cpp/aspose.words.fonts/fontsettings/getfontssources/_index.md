@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fonts/fontsettings/getfontssources/
 ---
-## FontSettings.GetFontsSources method
+## FontSettings::GetFontsSources method
 
 
 Gets a copy of the array that contains the list of sources where Aspose.Words looks for TrueType fonts.
@@ -18,13 +18,13 @@ System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> Aspose
 
 ### ReturnValue
 
-
 A copy of the current font sources.
+## Remarks
 
-The returned value is a copy of the data that Aspose.Words uses. If you change the entries in the returned array, it will have no effect on document rendering. To specify new font sources use the **SetFontsSources()** method.
+
+The returned value is a copy of the data that Aspose.Words uses. If you change the entries in the returned array, it will have no effect on document rendering. To specify new font sources use the [SetFontsSources()](../) method.
 
 ## Examples
-
 
 
 
@@ -74,3 +74,9 @@ doc->Save(ArtifactsDir + u"FontSettings.AddFontSource.pdf");
 FontSettings::get_DefaultInstance()->SetFontsSources(originalFontSources);
 ```
 
+## See Also
+
+* Class [FontSourceBase](../../fontsourcebase/)
+* Class [FontSettings](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

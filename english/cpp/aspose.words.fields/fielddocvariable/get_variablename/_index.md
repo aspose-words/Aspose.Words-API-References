@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fielddocvariable/get_variablename/
 ---
-## FieldDocVariable.get_VariableName method
+## FieldDocVariable::get_VariableName method
 
 
 Gets or sets the name of the document variable to retrieve.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldDocVariable::get_VariableName()
 
 
 ## Examples
-
 
 
 
@@ -54,3 +53,8 @@ ASSERT_EQ(u"My variable's value", fieldDocVariable->get_Result());
 doc->Save(ArtifactsDir + u"Field.DOCPROPERTY.DOCVARIABLE.docx");
 ```
 
+## See Also
+
+* Class [FieldDocVariable](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

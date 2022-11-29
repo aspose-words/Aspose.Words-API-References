@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/aspose.words/documentbuilder/insertcheckbox/
 ---
-## DocumentBuilder.InsertCheckBox(const System::String\&, bool, int32_t) method
+## DocumentBuilder::InsertCheckBox(const System::String\&, bool, int32_t) method
 
 
 Inserts a checkbox form field at the current position.
@@ -24,13 +24,13 @@ System::SharedPtr<Aspose::Words::Fields::FormField> Aspose::Words::DocumentBuild
 
 ### ReturnValue
 
-
 The form field node that was just inserted.
+## Remarks
+
 
 If you specify a name for the form field, then a bookmark is automatically created with the same name.
 
 ## Examples
-
 
 
 
@@ -58,7 +58,13 @@ ASSERT_EQ(u"CheckBox_OnlyChecked", doc->get_Range()->get_FormFields()->idx_get(2
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertCheckBox.docx");
 ```
 
-## DocumentBuilder.InsertCheckBox(const System::String\&, bool, bool, int32_t) method
+## See Also
+
+* Class [FormField](../../../aspose.words.fields/formfield/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## DocumentBuilder::InsertCheckBox(const System::String\&, bool, bool, int32_t) method
 
 
 Inserts a checkbox form field at the current position.
@@ -77,13 +83,13 @@ System::SharedPtr<Aspose::Words::Fields::FormField> Aspose::Words::DocumentBuild
 
 ### ReturnValue
 
-
 The form field node that was just inserted.
+## Remarks
+
 
 If you specify a name for the form field, then a bookmark is automatically created with the same name.
 
 ## Examples
-
 
 
 
@@ -111,3 +117,9 @@ ASSERT_EQ(u"CheckBox_OnlyChecked", doc->get_Range()->get_FormFields()->idx_get(2
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertCheckBox.docx");
 ```
 
+## See Also
+
+* Class [FormField](../../../aspose.words.fields/formfield/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1366
 url: /cpp/aspose.words.settings/compatibilityoptions/set_noextralinespacing/
 ---
-## CompatibilityOptions.set_NoExtraLineSpacing method
+## CompatibilityOptions::set_NoExtraLineSpacing method
 
 
 Do Not Center Content on Lines With Exact Line Height.
@@ -15,3 +15,8 @@ Do Not Center Content on Lines With Exact Line Height.
 void Aspose::Words::Settings::CompatibilityOptions::set_NoExtraLineSpacing(bool value)
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

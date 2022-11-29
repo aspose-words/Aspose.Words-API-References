@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/aspose.words.settings/mailmergesettings/set_mailsubject/
 ---
-## MailMergeSettings.set_MailSubject method
+## MailMergeSettings::set_MailSubject method
 
 
 Specifies the text which shall appear in the subject line of the e-mails or faxes produced during mail merge. The default value is an empty string.
@@ -15,3 +15,8 @@ Specifies the text which shall appear in the subject line of the e-mails or faxe
 void Aspose::Words::Settings::MailMergeSettings::set_MailSubject(const System::String &value)
 ```
 
+## See Also
+
+* Class [MailMergeSettings](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

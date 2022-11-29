@@ -6,7 +6,7 @@ type: docs
 weight: 937
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_exporttocpagenumbers/
 ---
-## HtmlSaveOptions.set_ExportTocPageNumbers method
+## HtmlSaveOptions::set_ExportTocPageNumbers method
 
 
 Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportTocPageNumbers](../get_exporttocpagenumbers/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportTocPageNumbers](..
 void Aspose::Words::Saving::HtmlSaveOptions::set_ExportTocPageNumbers(bool value)
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

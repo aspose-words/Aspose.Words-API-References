@@ -6,7 +6,7 @@ type: docs
 weight: 625
 url: /cpp/aspose.words/document/get_spellingchecked/
 ---
-## Document.get_SpellingChecked method
+## Document::get_SpellingChecked method
 
 
 Returns **true** if the document has been checked for spelling.
@@ -17,7 +17,6 @@ bool Aspose::Words::Document::get_SpellingChecked()
 
 
 ## Examples
-
 
 
 
@@ -37,3 +36,8 @@ doc->set_GrammarChecked(checkSpellingGrammar);
 doc->Save(ArtifactsDir + u"Document.SpellingOrGrammar.docx");
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

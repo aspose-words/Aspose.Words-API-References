@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/signaturelineoptions/signaturelineoptions/
 ---
-## SignatureLineOptions.SignatureLineOptions method
+## SignatureLineOptions::SignatureLineOptions constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words/signaturelineoptions/signaturelineoptions/
 Aspose::Words::SignatureLineOptions::SignatureLineOptions()
 ```
 
+## See Also
+
+* Class [SignatureLineOptions](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

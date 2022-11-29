@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words/warninginfocollection/virtualizebeginiterator/
 ---
-## WarningInfoCollection.virtualizeBeginIterator method
+## WarningInfoCollection::virtualizeBeginIterator method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words/warninginfocollection/virtualizebeginiterator/
 virtualized_iterator * Aspose::Words::WarningInfoCollection::virtualizeBeginIterator() override
 ```
 
+## See Also
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [WarningInfoCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

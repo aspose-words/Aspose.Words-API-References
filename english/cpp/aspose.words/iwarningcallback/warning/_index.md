@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/iwarningcallback/warning/
 ---
-## IWarningCallback.Warning method
+## IWarningCallback::Warning method
 
 
 Aspose.Words invokes this method when it encounters some issue during document loading or saving that might result in loss of formatting or data fidelity.
@@ -17,7 +17,6 @@ virtual void Aspose::Words::IWarningCallback::Warning(System::SharedPtr<Aspose::
 
 
 ## Examples
-
 
 
 
@@ -79,3 +78,9 @@ public:
 };
 ```
 
+## See Also
+
+* Class [WarningInfo](../../warninginfo/)
+* Interface [IWarningCallback](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.drawing/stroke/get_startarrowtype/
 ---
-## Stroke.get_StartArrowType method
+## Stroke::get_StartArrowType method
 
 
 Defines the arrowhead for the start of a stroke.
@@ -15,11 +15,12 @@ Defines the arrowhead for the start of a stroke.
 Aspose::Words::Drawing::ArrowType Aspose::Words::Drawing::Stroke::get_StartArrowType()
 ```
 
+## Remarks
 
-The default value is **None**.
+
+The default value is [None](../../arrowtype/).
 
 ## Examples
-
 
 
 
@@ -92,3 +93,9 @@ ArrayPtr<uint8_t> imageBytes = System::IO::File::ReadAllBytes(ImageDir + u"Logo.
 doc->Save(ArtifactsDir + u"Drawing.VariousShapes.docx");
 ```
 
+## See Also
+
+* Enum [ArrowType](../../arrowtype/)
+* Class [Stroke](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

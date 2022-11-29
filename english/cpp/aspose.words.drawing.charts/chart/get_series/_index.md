@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.drawing.charts/chart/get_series/
 ---
-## Chart.get_Series method
+## Chart::get_Series method
 
 
 Provides access to series collection.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeriesCollection> Aspose:
 
 
 ## Examples
-
 
 
 
@@ -94,3 +93,9 @@ static SharedPtr<Chart> AppendChart(SharedPtr<DocumentBuilder> builder, ChartTyp
 }
 ```
 
+## See Also
+
+* Class [ChartSeriesCollection](../../chartseriescollection/)
+* Class [Chart](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

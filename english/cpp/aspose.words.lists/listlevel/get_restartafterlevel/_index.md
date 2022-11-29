@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.lists/listlevel/get_restartafterlevel/
 ---
-## ListLevel.get_RestartAfterLevel method
+## ListLevel::get_RestartAfterLevel method
 
 
 Sets or returns the list level that must appear before the specified list level restarts numbering.
@@ -15,11 +15,12 @@ Sets or returns the list level that must appear before the specified list level 
 int32_t Aspose::Words::Lists::ListLevel::get_RestartAfterLevel() const
 ```
 
+## Remarks
+
 
 The value of -1 means the numbering will continue.
 
 ## Examples
-
 
 
 
@@ -83,3 +84,8 @@ builder->get_ListFormat()->RemoveNumbers();
 doc->Save(ArtifactsDir + u"Lists.CreateListRestartAfterHigher.docx");
 ```
 
+## See Also
+
+* Class [ListLevel](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

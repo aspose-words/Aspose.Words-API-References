@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_thumbnail/
 ---
-## BuiltInDocumentProperties.get_Thumbnail method
+## BuiltInDocumentProperties::get_Thumbnail method
 
 
 Gets or sets the thumbnail of the document.
@@ -15,15 +15,16 @@ Gets or sets the thumbnail of the document.
 System::ArrayPtr<uint8_t> Aspose::Words::Properties::BuiltInDocumentProperties::get_Thumbnail()
 ```
 
+## Remarks
+
 
 For now this property is used only when a document is being exported to ePub, it's not read from and written to other document formats.
 
-Image of arbitrary format can be set to this property, but the format is checked during export. **InvalidOperationException** is thrown if the image is invalid or its format is unsupported for specific format of document.
+Image of arbitrary format can be set to this property, but the format is checked during export. [InvalidOperationException](../) is thrown if the image is invalid or its format is unsupported for specific format of document.
 
 Only gif, jpeg and png images can be used for ePub publication.
 
 ## Examples
-
 
 
 
@@ -47,3 +48,8 @@ SharedPtr<DocumentProperty> thumbnail = doc->get_BuiltInDocumentProperties()->id
 System::IO::File::WriteAllBytes(ArtifactsDir + u"DocumentProperties.Thumbnail.gif", thumbnail->ToByteArray());
 ```
 
+## See Also
+
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

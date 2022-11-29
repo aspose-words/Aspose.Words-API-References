@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.tables/preferredwidth/gethashcode/
 ---
-## PreferredWidth.GetHashCode method
+## PreferredWidth::GetHashCode method
 
 
 Serves as a hash function for this type.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Tables::PreferredWidth::GetHashCode() const override
 
 
 ## Examples
-
 
 
 
@@ -55,3 +54,8 @@ builder->Writeln(u"Automatically sized cell.");
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ```
 
+## See Also
+
+* Class [PreferredWidth](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

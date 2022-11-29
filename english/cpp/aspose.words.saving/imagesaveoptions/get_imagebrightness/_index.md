@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.saving/imagesaveoptions/get_imagebrightness/
 ---
-## ImageSaveOptions.get_ImageBrightness method
+## ImageSaveOptions::get_ImageBrightness method
 
 
 Gets or sets the brightness for the generated images.
@@ -15,13 +15,14 @@ Gets or sets the brightness for the generated images.
 float Aspose::Words::Saving::ImageSaveOptions::get_ImageBrightness() const
 ```
 
+## Remarks
+
 
 This property has effect only when saving to raster image formats.
 
 The default value is 0.5. The value must be in the range between 0 and 1.
 
 ## Examples
-
 
 
 
@@ -46,3 +47,8 @@ options->set_Scale(96.f / 72.f);
 doc->Save(ArtifactsDir + u"ImageSaveOptions.EditImage.png", options);
 ```
 
+## See Also
+
+* Class [ImageSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

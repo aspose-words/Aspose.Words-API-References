@@ -11,6 +11,10 @@ url: /cpp/aspose.words/texteffect/
 
 Animation effect for text runs.
 
+```cpp
+enum class TextEffect
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -23,3 +27,7 @@ Animation effect for text runs.
 | MarchingRedAnts | 5 |  |
 | Shimmer | 6 |  |
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

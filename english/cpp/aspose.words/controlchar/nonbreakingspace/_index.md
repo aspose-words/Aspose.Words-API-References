@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words/controlchar/nonbreakingspace/
 ---
-## ControlChar.NonBreakingSpace method
+## ControlChar::NonBreakingSpace method
 
 
 Non-breaking space character: "\x00a0".
@@ -17,7 +17,6 @@ static System::String & Aspose::Words::ControlChar::NonBreakingSpace()
 
 
 ## Examples
-
 
 
 
@@ -87,3 +86,8 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::PageBreak()), ControlChar:
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlChar::ColumnBreakChar);
 ```
 
+## See Also
+
+* Class [ControlChar](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

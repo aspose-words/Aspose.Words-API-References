@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/comment/get_ancestor/
 ---
-## Comment.get_Ancestor method
+## Comment::get_Ancestor method
 
 
 Returns the parent [Comment](../) object. Returns null for top-level comments.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Comment> Aspose::Words::Comment::get_Ancestor()
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,9 @@ for (auto comment : System::IterateOver(comments->LINQ_OfType<SharedPtr<Comment>
 }
 ```
 
+## See Also
+
+* Class [Comment](../)
+* Class [Comment](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

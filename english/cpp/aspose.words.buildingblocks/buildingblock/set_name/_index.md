@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.buildingblocks/buildingblock/set_name/
 ---
-## BuildingBlock.set_Name method
+## BuildingBlock::set_Name method
 
 
 Setter for [Aspose::Words::BuildingBlocks::BuildingBlock::get_Name](../get_name/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::BuildingBlocks::BuildingBlock::get_Name](../get_name/
 void Aspose::Words::BuildingBlocks::BuildingBlock::set_Name(const System::String &value)
 ```
 
+## See Also
+
+* Class [BuildingBlock](../)
+* Namespace [Aspose::Words::BuildingBlocks](../../)
+* Library [Aspose.Words](../../../)

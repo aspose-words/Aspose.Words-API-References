@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.drawing/stroke/get_endcap/
 ---
-## Stroke.get_EndCap method
+## Stroke::get_EndCap method
 
 
 Defines the cap style for the end of a stroke.
@@ -15,11 +15,12 @@ Defines the cap style for the end of a stroke.
 Aspose::Words::Drawing::EndCap Aspose::Words::Drawing::Stroke::get_EndCap()
 ```
 
+## Remarks
 
-The default value is **Flat**.
+
+The default value is [Flat](../../endcap/).
 
 ## Examples
-
 
 
 
@@ -92,3 +93,9 @@ ArrayPtr<uint8_t> imageBytes = System::IO::File::ReadAllBytes(ImageDir + u"Logo.
 doc->Save(ArtifactsDir + u"Drawing.VariousShapes.docx");
 ```
 
+## See Also
+
+* Enum [EndCap](../../endcap/)
+* Class [Stroke](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words/documentbase/get_styles/
 ---
-## DocumentBase.get_Styles method
+## DocumentBase::get_Styles method
 
 
 Returns a collection of styles defined in the document.
@@ -15,11 +15,12 @@ Returns a collection of styles defined in the document.
 System::SharedPtr<Aspose::Words::StyleCollection> Aspose::Words::DocumentBase::get_Styles() const
 ```
 
+## Remarks
+
 
 For more information see the description of the [StyleCollection](../../stylecollection/) class.
 
 ## Examples
-
 
 
 
@@ -72,3 +73,9 @@ builder->Writeln(u"Hello World: Normal.");
 builder->get_Document()->Save(ArtifactsDir + u"Styles.ParagraphStyleBulletedList.docx");
 ```
 
+## See Also
+
+* Class [StyleCollection](../../stylecollection/)
+* Class [DocumentBase](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

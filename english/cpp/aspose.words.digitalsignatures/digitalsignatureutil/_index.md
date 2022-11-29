@@ -26,19 +26,20 @@ class DigitalSignatureUtil
 | static [RemoveAllSignatures](./removeallsignatures/)(const System::String\&, const System::String\&) | Removes all digital signatures from source file and writes unsigned file to destination file. |
 | static [RemoveAllSignatures](./removeallsignatures/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&) | Removes all digital signatures from document in source stream and writes unsigned document to destination stream. **Output will be written to the start of stream and stream size will be updated with content length.** |
 | static [RemoveAllSignatures](./removeallsignatures/)(std::basic_istream\<CharType, Traits\>\&, std::basic_ostream\<CharType, Traits\>\&) |  |
-| static [Sign](./sign/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\>\&) | Signs source document using given [CertificateHolder](../certificateholder/) and [SignOptions](../signoptions/) with digital signature and writes signed document to destination stream. [Document](../../aspose.words/document/) should be either **Doc** or **Docx**.**Output will be written to the start of stream and stream size will be updated with content length.** |
-| static [Sign](./sign/)(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\>\&) | Signs source document using given [CertificateHolder](../certificateholder/) and [SignOptions](../signoptions/) with digital signature and writes signed document to destination file. [Document](../../aspose.words/document/) should be either **Doc** or **Docx**. |
-| static [Sign](./sign/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&) | Signs source document using given [CertificateHolder](../certificateholder/) with digital signature and writes signed document to destination stream. [Document](../../aspose.words/document/) should be either **Doc** or **Docx**.**Output will be written to the start of stream and stream size will be updated with content length.** |
-| static [Sign](./sign/)(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&) | Signs source document using given [CertificateHolder](../certificateholder/) with digital signature and writes signed document to destination file. [Document](../../aspose.words/document/) should be either **Doc** or **Docx**. |
+| static [Sign](./sign/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\>\&) | Signs source document using given [CertificateHolder](../certificateholder/) and [SignOptions](../signoptions/) with digital signature and writes signed document to destination stream. [Document](../../aspose.words/document/) should be either [Doc](../../aspose.words/loadformat/) or [Docx](../../aspose.words/loadformat/).**Output will be written to the start of stream and stream size will be updated with content length.** |
+| static [Sign](./sign/)(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\>\&) | Signs source document using given [CertificateHolder](../certificateholder/) and [SignOptions](../signoptions/) with digital signature and writes signed document to destination file. [Document](../../aspose.words/document/) should be either [Doc](../../aspose.words/loadformat/) or [Docx](../../aspose.words/loadformat/). |
+| static [Sign](./sign/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&) | Signs source document using given [CertificateHolder](../certificateholder/) with digital signature and writes signed document to destination stream. [Document](../../aspose.words/document/) should be either [Doc](../../aspose.words/loadformat/) or [Docx](../../aspose.words/loadformat/).**Output will be written to the start of stream and stream size will be updated with content length.** |
+| static [Sign](./sign/)(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&) | Signs source document using given [CertificateHolder](../certificateholder/) with digital signature and writes signed document to destination file. [Document](../../aspose.words/document/) should be either [Doc](../../aspose.words/loadformat/) or [Docx](../../aspose.words/loadformat/). |
 | static [Sign](./sign/)(std::basic_istream\<CharType, Traits\>\&, std::basic_ostream\<CharType, Traits\>\&, System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>, System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\>) |  |
 | static [Sign](./sign/)(std::basic_istream\<CharType, Traits\>\&, std::basic_ostream\<CharType, Traits\>\&, System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>) |  |
+## Remarks
+
 
 Since digital signature works with file content rather than [Document](../../aspose.words/document/) Object Model these methods are put into a separate class.
 
-Supported formats are **Doc** and **Docx**.
+Supported formats are [Doc](../../aspose.words/loadformat/) and [Docx](../../aspose.words/loadformat/).
 
 ## Examples
-
 
 
 
@@ -82,3 +83,7 @@ ASSERT_EQ(0, DigitalSignatureUtil::LoadSignatures(ArtifactsDir + u"DigitalSignat
 ASSERT_EQ(0, DigitalSignatureUtil::LoadSignatures(ArtifactsDir + u"DigitalSignatureUtil.LoadAndRemove.FromStream.docx")->get_Count());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::DigitalSignatures](../)
+* Library [Aspose.Words](../../)

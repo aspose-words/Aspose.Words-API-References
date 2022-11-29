@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.words/documentbuilder/get_rowformat/
 ---
-## DocumentBuilder.get_RowFormat method
+## DocumentBuilder::get_RowFormat method
 
 
 Returns an object that represents current table row formatting properties.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Tables::RowFormat> Aspose::Words::DocumentBuild
 
 
 ## Examples
-
 
 
 
@@ -154,3 +153,9 @@ ASSERT_EQ(HeightRule::Exactly, table->get_Rows()->idx_get(1)->get_RowFormat()->g
 doc->Save(ArtifactsDir + u"DocumentBuilder.SetRowFormatting.docx");
 ```
 
+## See Also
+
+* Class [RowFormat](../../../aspose.words.tables/rowformat/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

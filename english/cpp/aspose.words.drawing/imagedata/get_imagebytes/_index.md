@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.drawing/imagedata/get_imagebytes/
 ---
-## ImageData.get_ImageBytes method
+## ImageData::get_ImageBytes method
 
 
 Gets or sets the raw bytes of the image stored in the shape.
@@ -15,13 +15,14 @@ Gets or sets the raw bytes of the image stored in the shape.
 System::ArrayPtr<uint8_t> Aspose::Words::Drawing::ImageData::get_ImageBytes()
 ```
 
+## Remarks
+
 
 Setting the value to **null** or an empty array will remove the image from the shape.
 
 Returns **null** if the image is not stored in the document (e.g the image is probably linked in this case).
 
 ## Examples
-
 
 
 
@@ -47,3 +48,8 @@ ASPOSE_ASSERT_EQ(imgShape->get_ImageData()->get_ImageBytes(), imgShape->get_Imag
 }
 ```
 
+## See Also
+
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

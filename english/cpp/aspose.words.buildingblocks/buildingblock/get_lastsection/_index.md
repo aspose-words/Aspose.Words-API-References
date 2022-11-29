@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.buildingblocks/buildingblock/get_lastsection/
 ---
-## BuildingBlock.get_LastSection method
+## BuildingBlock::get_LastSection method
 
 
 Gets the last section in the building block.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Section> Aspose::Words::BuildingBlocks::Buildin
 
 
 ## Examples
-
 
 
 
@@ -112,3 +111,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Section](../../../aspose.words/section/)
+* Class [BuildingBlock](../)
+* Namespace [Aspose::Words::BuildingBlocks](../../)
+* Library [Aspose.Words](../../../)

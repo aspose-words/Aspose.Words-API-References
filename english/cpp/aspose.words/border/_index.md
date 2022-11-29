@@ -12,7 +12,8 @@ url: /cpp/aspose.words/border/
 Represents a border of an object.
 
 ```cpp
-class Border : public Aspose::Words::InternableComplexAttr, public Aspose::Words::IComplexAttr
+class Border : public Aspose::Words::InternableComplexAttr,
+               public Aspose::Words::IComplexAttr
 ```
 
 ## Methods
@@ -24,7 +25,7 @@ class Border : public Aspose::Words::InternableComplexAttr, public Aspose::Words
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
 | [get_Color](./get_color/)() | Gets or sets the border color. |
 | [get_DistanceFromText](./get_distancefromtext/)() | Gets or sets distance of the border from text or from the page edge in points. |
-| [get_IsVisible](./get_isvisible/)() | Returns true if the LineStyle is not **LineStyle.None**. |
+| [get_IsVisible](./get_isvisible/)() | Returns true if the LineStyle is not [LineStyle.None](../linestyle/). |
 | [get_LineStyle](./get_linestyle/)() | Gets or sets the border style. |
 | [get_LineWidth](./get_linewidth/)() | Gets or sets the border width in points. |
 | [get_Shadow](./get_shadow/)() | Gets or sets a value indicating whether the border has a shadow. |
@@ -34,11 +35,12 @@ class Border : public Aspose::Words::InternableComplexAttr, public Aspose::Words
 | [set_LineStyle](./set_linestyle/)(Aspose::Words::LineStyle) | Setter for [Aspose::Words::Border::get_LineStyle](./get_linestyle/). |
 | [set_LineWidth](./set_linewidth/)(double) | Setter for [Aspose::Words::Border::get_LineWidth](./get_linewidth/). |
 | [set_Shadow](./set_shadow/)(bool) | Setter for [Aspose::Words::Border::get_Shadow](./get_shadow/). |
+## Remarks
+
 
 Borders can be applied to various document elements including paragraph, run of text inside a paragraph or a table cell.
 
 ## Examples
-
 
 
 
@@ -72,3 +74,8 @@ builder->Writeln(u"Text with a red top border.");
 doc->Save(ArtifactsDir + u"Border.ParagraphTopBorder.docx");
 ```
 
+## See Also
+
+* Class [InternableComplexAttr](../internablecomplexattr/)
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

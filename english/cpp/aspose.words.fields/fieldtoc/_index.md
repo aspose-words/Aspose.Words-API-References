@@ -12,7 +12,9 @@ url: /cpp/aspose.words.fields/fieldtoc/
 Implements the TOC field.
 
 ```cpp
-class FieldToc : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider, public Aspose::Words::Fields::ITocEntryExtractorOptions
+class FieldToc : public Aspose::Words::Fields::Field,
+                 public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
+                 public Aspose::Words::Fields::ITocEntryExtractorOptions
 ```
 
 ## Methods
@@ -79,7 +81,6 @@ class FieldToc : public Aspose::Words::Fields::Field, public Aspose::Words::Fiel
 | [UpdatePageNumbers](./updatepagenumbers/)() | Updates the page numbers for items in this table of contents. |
 
 ## Examples
-
 
 
 
@@ -230,3 +231,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.TOC.SEQ.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

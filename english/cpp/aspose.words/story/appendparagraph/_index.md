@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/story/appendparagraph/
 ---
-## Story.AppendParagraph method
+## Story::AppendParagraph method
 
 
 A shortcut method that creates a [Paragraph](../../paragraph/) object with optional text and appends it to the end of this object.
@@ -22,11 +22,9 @@ System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::Story::AppendParagrap
 
 ### ReturnValue
 
-
 The newly created and appended paragraph.
 
 ## Examples
-
 
 
 
@@ -61,3 +59,9 @@ ASPOSE_ASSERT_EQ(footer->get_ParentSection(), header->get_ParentSection());
 doc->Save(ArtifactsDir + u"HeaderFooter.Create.docx");
 ```
 
+## See Also
+
+* Class [Paragraph](../../paragraph/)
+* Class [Story](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -27,7 +27,6 @@ class ComparisonExpression : public System::Object
 
 
 
-
 Shows how to implement custom evaluation for the IF and COMPARE fields. 
 ```cpp
 void ConditionEvaluationExtensionPoint(String fieldCode, int8_t comparisonResult, String comparisonError, String expectedResult)
@@ -102,3 +101,7 @@ private:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

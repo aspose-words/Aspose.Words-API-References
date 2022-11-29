@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words/comment/set_initial/
 ---
-## Comment.set_Initial method
+## Comment::set_Initial method
 
 
 Setter for [Aspose::Words::Comment::get_Initial](../get_initial/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Comment::get_Initial](../get_initial/).
 void Aspose::Words::Comment::set_Initial(const System::String &value)
 ```
 
+## See Also
+
+* Class [Comment](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

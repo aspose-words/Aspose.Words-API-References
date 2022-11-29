@@ -11,6 +11,10 @@ url: /cpp/aspose.words.fonts/fontsourcetype/
 
 Specifies the type of a font source.
 
+```cpp
+enum class FontSourceType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -23,7 +27,6 @@ Specifies the type of a font source.
 
 
 ## Examples
-
 
 
 
@@ -40,3 +43,7 @@ ASSERT_EQ(FontSourceType::FontFile, fileFontSource->get_Type());
 ASSERT_EQ(0, fileFontSource->get_Priority());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Fonts](../)
+* Library [Aspose.Words](../../)

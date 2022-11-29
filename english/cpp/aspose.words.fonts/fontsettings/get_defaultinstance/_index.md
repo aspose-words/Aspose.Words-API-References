@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fonts/fontsettings/get_defaultinstance/
 ---
-## FontSettings.get_DefaultInstance method
+## FontSettings::get_DefaultInstance method
 
 
 Static default font settings.
@@ -17,7 +17,6 @@ static System::SharedPtr<Aspose::Words::Fonts::FontSettings> Aspose::Words::Font
 
 
 ## Examples
-
 
 
 
@@ -94,3 +93,9 @@ public:
 };
 ```
 
+## See Also
+
+* Class [FontSettings](../)
+* Class [FontSettings](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

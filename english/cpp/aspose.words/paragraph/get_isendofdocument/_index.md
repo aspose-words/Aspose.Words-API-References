@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words/paragraph/get_isendofdocument/
 ---
-## Paragraph.get_IsEndOfDocument method
+## Paragraph::get_IsEndOfDocument method
 
 
 True if this paragraph is the last paragraph in the last section of the document.
@@ -17,7 +17,6 @@ bool Aspose::Words::Paragraph::get_IsEndOfDocument()
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,8 @@ builder->Writeln(u"Hello world!");
 ASSERT_TRUE(builder->get_CurrentParagraph()->get_IsEndOfDocument());
 ```
 
+## See Also
+
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

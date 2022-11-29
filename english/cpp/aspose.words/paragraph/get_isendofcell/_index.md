@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words/paragraph/get_isendofcell/
 ---
-## Paragraph.get_IsEndOfCell method
+## Paragraph::get_IsEndOfCell method
 
 
 True if this paragraph is the last paragraph in a [Cell](../../../aspose.words.tables/cell/); false otherwise.
@@ -17,7 +17,6 @@ bool Aspose::Words::Paragraph::get_IsEndOfCell()
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,8 @@ for (const auto& cell : System::IterateOver(table->GetChildNodes(NodeType::Cell,
 doc->Save(ArtifactsDir + u"Table.KeepTableTogether.docx");
 ```
 
+## See Also
+
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.fields/fieldincludetext/get_xsltransformation/
 ---
-## FieldIncludeText.get_XslTransformation method
+## FieldIncludeText::get_XslTransformation method
 
 
 Gets or sets the location of XSL Transformation to format XML data.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldIncludeText::get_XslTransformation() 
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,8 @@ SharedPtr<FieldIncludeText> CreateFieldIncludeText(SharedPtr<DocumentBuilder> bu
 }
 ```
 
+## See Also
+
+* Class [FieldIncludeText](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

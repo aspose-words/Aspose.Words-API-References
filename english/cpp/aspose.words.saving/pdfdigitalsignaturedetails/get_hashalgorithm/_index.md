@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.saving/pdfdigitalsignaturedetails/get_hashalgorithm/
 ---
-## PdfDigitalSignatureDetails.get_HashAlgorithm method
+## PdfDigitalSignatureDetails::get_HashAlgorithm method
 
 
 Gets or sets the hash algorithm.
@@ -17,7 +17,6 @@ Aspose::Words::Saving::PdfDigitalSignatureHashAlgorithm Aspose::Words::Saving::P
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,9 @@ ASSERT_EQ(signingTime.ToUniversalTime(), options->get_DigitalSignatureDetails()-
 doc->Save(ArtifactsDir + u"PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```
 
+## See Also
+
+* Enum [PdfDigitalSignatureHashAlgorithm](../../pdfdigitalsignaturehashalgorithm/)
+* Class [PdfDigitalSignatureDetails](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

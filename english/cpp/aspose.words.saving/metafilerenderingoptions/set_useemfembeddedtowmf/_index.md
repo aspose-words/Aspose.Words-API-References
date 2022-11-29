@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.saving/metafilerenderingoptions/set_useemfembeddedtowmf/
 ---
-## MetafileRenderingOptions.set_UseEmfEmbeddedToWmf method
+## MetafileRenderingOptions::set_UseEmfEmbeddedToWmf method
 
 
 Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_UseEmfEmbeddedToWmf](../get_useemfembeddedtowmf/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_UseEmfEmbeddedT
 void Aspose::Words::Saving::MetafileRenderingOptions::set_UseEmfEmbeddedToWmf(bool value)
 ```
 
+## See Also
+
+* Class [MetafileRenderingOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

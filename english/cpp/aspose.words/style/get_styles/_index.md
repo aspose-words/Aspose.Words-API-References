@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words/style/get_styles/
 ---
-## Style.get_Styles method
+## Style::get_Styles method
 
 
 Gets the collection of styles this style belongs to.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::StyleCollection> Aspose::Words::Style::get_Styl
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,9 @@ ASSERT_EQ(4, doc->get_Styles()->get_Count());
 }
 ```
 
+## See Also
+
+* Class [StyleCollection](../../stylecollection/)
+* Class [Style](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

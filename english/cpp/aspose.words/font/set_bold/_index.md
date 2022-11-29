@@ -6,7 +6,7 @@ type: docs
 weight: 755
 url: /cpp/aspose.words/font/set_bold/
 ---
-## Font.set_Bold method
+## Font::set_Bold method
 
 
 Setter for [Aspose::Words::Font::get_Bold](../get_bold/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Font::get_Bold](../get_bold/).
 void Aspose::Words::Font::set_Bold(bool value)
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

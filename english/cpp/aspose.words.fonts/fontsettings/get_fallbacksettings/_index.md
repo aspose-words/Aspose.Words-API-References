@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fonts/fontsettings/get_fallbacksettings/
 ---
-## FontSettings.get_FallbackSettings method
+## FontSettings::get_FallbackSettings method
 
 
 [Settings](../../../aspose.words.settings/) related to font fallback mechanism.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Fonts::FontFallbackSettings> Aspose::Words::Fon
 
 
 ## Examples
-
 
 
 
@@ -74,3 +73,9 @@ for (int i = 0x0021; i < 0x0530; i++)
 doc->Save(ArtifactsDir + u"FontSettings.FallbackSettingsCustom.pdf");
 ```
 
+## See Also
+
+* Class [FontFallbackSettings](../../fontfallbacksettings/)
+* Class [FontSettings](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.comparing/compareoptions/get_ignoreheadersandfooters/
 ---
-## CompareOptions.get_IgnoreHeadersAndFooters method
+## CompareOptions::get_IgnoreHeadersAndFooters method
 
 
 True indicates that headers and footers content is ignored. By default headers and footers are not ignored.
@@ -17,7 +17,6 @@ bool Aspose::Words::Comparing::CompareOptions::get_IgnoreHeadersAndFooters() con
 
 
 ## Examples
-
 
 
 
@@ -113,3 +112,8 @@ docOriginal->Compare(docEdited, u"John Doe", System::DateTime::get_Now(), compar
 docOriginal->Save(ArtifactsDir + u"Document.CompareOptions.docx");
 ```
 
+## See Also
+
+* Class [CompareOptions](../)
+* Namespace [Aspose::Words::Comparing](../../)
+* Library [Aspose.Words](../../../)

@@ -11,6 +11,10 @@ url: /cpp/aspose.words.saving/odtsavemeasureunit/
 
 Specified units of measure to apply to measurable document content such as shape, widths and other during saving.
 
+```cpp
+enum class OdtSaveMeasureUnit
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,7 +24,6 @@ Specified units of measure to apply to measurable document content such as shape
 
 
 ## Examples
-
 
 
 
@@ -39,3 +42,7 @@ saveOptions->set_MeasureUnit(odtSaveMeasureUnit);
 doc->Save(ArtifactsDir + u"OdtSaveOptions.Odt11Schema.odt", saveOptions);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

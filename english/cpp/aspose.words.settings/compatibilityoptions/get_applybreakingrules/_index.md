@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.settings/compatibilityoptions/get_applybreakingrules/
 ---
-## CompatibilityOptions.get_ApplyBreakingRules method
+## CompatibilityOptions::get_ApplyBreakingRules method
 
 
 Use Legacy Ethiopic and Amharic Line Breaking Rules.
@@ -15,3 +15,8 @@ Use Legacy Ethiopic and Amharic Line Breaking Rules.
 bool Aspose::Words::Settings::CompatibilityOptions::get_ApplyBreakingRules()
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

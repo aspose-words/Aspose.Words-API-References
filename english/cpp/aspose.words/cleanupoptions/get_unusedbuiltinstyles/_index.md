@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/cleanupoptions/get_unusedbuiltinstyles/
 ---
-## CleanupOptions.get_UnusedBuiltinStyles method
+## CleanupOptions::get_UnusedBuiltinStyles method
 
 
 Specifies that unused [BuiltIn](../../style/get_builtin/) styles should be removed from document.
@@ -17,7 +17,6 @@ bool Aspose::Words::CleanupOptions::get_UnusedBuiltinStyles() const
 
 
 ## Examples
-
 
 
 
@@ -64,3 +63,8 @@ doc->Cleanup(cleanupOptions);
 ASSERT_EQ(2, doc->get_Styles()->get_Count());
 ```
 
+## See Also
+
+* Class [CleanupOptions](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

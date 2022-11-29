@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /cpp/aspose.words.tables/table/set_allowcellspacing/
 ---
-## Table.set_AllowCellSpacing method
+## Table::set_AllowCellSpacing method
 
 
 Setter for [Aspose::Words::Tables::Table::get_AllowCellSpacing](../get_allowcellspacing/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Tables::Table::get_AllowCellSpacing](../get_allowcell
 void Aspose::Words::Tables::Table::set_AllowCellSpacing(bool value)
 ```
 
+## See Also
+
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

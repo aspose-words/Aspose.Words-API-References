@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/aspose.words.fields/fieldtoc/updatepagenumbers/
 ---
-## FieldToc.UpdatePageNumbers method
+## FieldToc::UpdatePageNumbers method
 
 
 Updates the page numbers for items in this table of contents.
@@ -18,11 +18,9 @@ bool Aspose::Words::Fields::FieldToc::UpdatePageNumbers()
 
 ### ReturnValue
 
-
 True if the operation is successful. If any of the related TOC bookmarks was removed, false will be returned.
 
 ## Examples
-
 
 
 
@@ -102,3 +100,8 @@ void InsertNewPageWithHeading(SharedPtr<DocumentBuilder> builder, String caption
 }
 ```
 
+## See Also
+
+* Class [FieldToc](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

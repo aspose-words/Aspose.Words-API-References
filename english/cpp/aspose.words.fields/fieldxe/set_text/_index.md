@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.fields/fieldxe/set_text/
 ---
-## FieldXE.set_Text method
+## FieldXE::set_Text method
 
 
 Setter for [Aspose::Words::Fields::FieldXE::get_Text](../get_text/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldXE::get_Text](../get_text/).
 void Aspose::Words::Fields::FieldXE::set_Text(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldXE](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

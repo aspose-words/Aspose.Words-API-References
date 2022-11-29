@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.fields/fieldtoa/get_sequencename/
 ---
-## FieldToa.get_SequenceName method
+## FieldToa::get_SequenceName method
 
 
 Gets or sets the name of a sequence whose number is included with the page number.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldToa::get_SequenceName()
 
 
 ## Examples
-
 
 
 
@@ -138,3 +137,8 @@ static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, Str
 }
 ```
 
+## See Also
+
+* Class [FieldToa](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

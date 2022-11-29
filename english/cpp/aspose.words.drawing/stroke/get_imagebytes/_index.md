@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.drawing/stroke/get_imagebytes/
 ---
-## Stroke.get_ImageBytes method
+## Stroke::get_ImageBytes method
 
 
 Defines the image for a stroke image or pattern fill.
@@ -17,7 +17,6 @@ System::ArrayPtr<uint8_t> Aspose::Words::Drawing::Stroke::get_ImageBytes()
 
 
 ## Examples
-
 
 
 
@@ -36,3 +35,8 @@ ASSERT_FALSE(stroke->get_ImageBytes() == nullptr);
 System::IO::File::WriteAllBytes(ArtifactsDir + u"Drawing.StrokePattern.png", stroke->get_ImageBytes());
 ```
 
+## See Also
+
+* Class [Stroke](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

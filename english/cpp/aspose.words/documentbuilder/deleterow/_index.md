@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/documentbuilder/deleterow/
 ---
-## DocumentBuilder.DeleteRow method
+## DocumentBuilder::DeleteRow method
 
 
 Deletes a row from a table.
@@ -23,8 +23,9 @@ System::SharedPtr<Aspose::Words::Tables::Row> Aspose::Words::DocumentBuilder::De
 
 ### ReturnValue
 
-
 The row node that was just removed.
+## Remarks
+
 
 If the cursor is inside the row that is being deleted, the cursor is moved out to the next row or to the next paragraph after the table.
 
@@ -33,7 +34,6 @@ If you delete a row from a table that contains only one row, the whole table is 
 For the index parameters, when index is greater than or equal to 0, it specifies an index from the beginning with 0 being the first element. When index is less than 0, it specified an index from the end with -1 being the last element.
 
 ## Examples
-
 
 
 
@@ -63,3 +63,9 @@ ASSERT_EQ(1, table->get_Rows()->get_Count());
 ASSERT_EQ(u"Row 2, cell 1.\aRow 2, cell 2.\a\a", table->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Row](../../../aspose.words.tables/row/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

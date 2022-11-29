@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.tables/cellformat/get_horizontalmerge/
 ---
-## CellFormat.get_HorizontalMerge method
+## CellFormat::get_HorizontalMerge method
 
 
 Specifies how the cell is merged horizontally with other cells in the row.
@@ -17,7 +17,6 @@ Aspose::Words::Tables::CellMerge Aspose::Words::Tables::CellFormat::get_Horizont
 
 
 ## Examples
-
 
 
 
@@ -88,3 +87,9 @@ String PrintCellMergeType(SharedPtr<Cell> cell)
 }
 ```
 
+## See Also
+
+* Enum [CellMerge](../../cellmerge/)
+* Class [CellFormat](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

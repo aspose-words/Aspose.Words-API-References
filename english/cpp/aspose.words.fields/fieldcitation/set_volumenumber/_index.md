@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.fields/fieldcitation/set_volumenumber/
 ---
-## FieldCitation.set_VolumeNumber method
+## FieldCitation::set_VolumeNumber method
 
 
 Setter for [Aspose::Words::Fields::FieldCitation::get_VolumeNumber](../get_volumenumber/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldCitation::get_VolumeNumber](../get_volum
 void Aspose::Words::Fields::FieldCitation::set_VolumeNumber(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldCitation](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

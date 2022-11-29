@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.drawing.charts/chartseriescollection/clear/
 ---
-## ChartSeriesCollection.Clear method
+## ChartSeriesCollection::Clear method
 
 
 Removes all [ChartSeries](../../chartseries/) from this collection.
@@ -17,7 +17,6 @@ void Aspose::Words::Drawing::Charts::ChartSeriesCollection::Clear()
 
 
 ## Examples
-
 
 
 
@@ -64,3 +63,8 @@ ASSERT_FALSE(chartData->LINQ_Any([](SharedPtr<ChartSeries> s) { return s->get_Na
 chartData->Clear();
 ```
 
+## See Also
+
+* Class [ChartSeriesCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

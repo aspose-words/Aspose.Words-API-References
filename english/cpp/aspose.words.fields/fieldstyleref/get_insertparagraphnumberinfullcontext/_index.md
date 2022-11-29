@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldstyleref/get_insertparagraphnumberinfullcontext/
 ---
-## FieldStyleRef.get_InsertParagraphNumberInFullContext method
+## FieldStyleRef::get_InsertParagraphNumberInFullContext method
 
 
 Gets or sets whether to insert the paragraph number of the referenced paragraph in full context.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldStyleRef::get_InsertParagraphNumberInFullContex
 
 
 ## Examples
-
 
 
 
@@ -87,3 +86,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.STYLEREF.docx");
 ```
 
+## See Also
+
+* Class [FieldStyleRef](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

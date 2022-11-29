@@ -26,7 +26,6 @@ class FontSubstitutionRule : public System::Object
 
 
 
-
 Shows operating system-dependent font config substitution. 
 ```cpp
 auto fontSettings = MakeObject<FontSettings>();
@@ -56,3 +55,7 @@ if (isLinuxOrMac)
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Fonts](../)
+* Library [Aspose.Words](../../)

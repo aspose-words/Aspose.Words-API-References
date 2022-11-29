@@ -11,6 +11,10 @@ url: /cpp/aspose.words.saving/numeralformat/
 
 Indicates the symbol set that is used to represent numbers while rendering to fixed page formats.
 
+```cpp
+enum class NumeralFormat
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -23,7 +27,6 @@ Indicates the symbol set that is used to represent numbers while rendering to fi
 
 
 ## Examples
-
 
 
 
@@ -52,3 +55,7 @@ options->set_NumeralFormat(numeralFormat);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.SetNumeralFormat.pdf", options);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

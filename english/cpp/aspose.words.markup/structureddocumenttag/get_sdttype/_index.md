@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/aspose.words.markup/structureddocumenttag/get_sdttype/
 ---
-## StructuredDocumentTag.get_SdtType method
+## StructuredDocumentTag::get_SdtType method
 
 
 Gets type of this **Structured document tag**.
@@ -17,7 +17,6 @@ Aspose::Words::Markup::SdtType Aspose::Words::Markup::StructuredDocumentTag::get
 
 
 ## Examples
-
 
 
 
@@ -33,3 +32,9 @@ ASSERT_EQ(SdtType::RepeatingSectionItem, sdTags->idx_get(1)->get_SdtType());
 ASSERT_EQ(SdtType::RichText, sdTags->idx_get(2)->get_SdtType());
 ```
 
+## See Also
+
+* Enum [SdtType](../../sdttype/)
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

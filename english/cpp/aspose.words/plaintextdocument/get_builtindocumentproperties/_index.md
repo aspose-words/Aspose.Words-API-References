@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/plaintextdocument/get_builtindocumentproperties/
 ---
-## PlainTextDocument.get_BuiltInDocumentProperties method
+## PlainTextDocument::get_BuiltInDocumentProperties method
 
 
 Gets [BuiltInDocumentProperties](./) of the document.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Properties::BuiltInDocumentProperties> Aspose::
 
 
 ## Examples
-
 
 
 
@@ -37,3 +36,9 @@ ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
 ASSERT_EQ(u"John Doe", plaintext->get_BuiltInDocumentProperties()->get_Author());
 ```
 
+## See Also
+
+* Class [BuiltInDocumentProperties](../../../aspose.words.properties/builtindocumentproperties/)
+* Class [PlainTextDocument](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

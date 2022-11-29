@@ -6,7 +6,7 @@ type: docs
 weight: 651
 url: /cpp/aspose.words.tables/table/set_leftindent/
 ---
-## Table.set_LeftIndent method
+## Table::set_LeftIndent method
 
 
 Setter for [Aspose::Words::Tables::Table::get_LeftIndent](../get_leftindent/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Tables::Table::get_LeftIndent](../get_leftindent/).
 void Aspose::Words::Tables::Table::set_LeftIndent(double value)
 ```
 
+## See Also
+
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

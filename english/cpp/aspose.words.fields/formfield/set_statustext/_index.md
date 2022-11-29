@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/aspose.words.fields/formfield/set_statustext/
 ---
-## FormField.set_StatusText method
+## FormField::set_StatusText method
 
 
 Setter for [Aspose::Words::Fields::FormField::get_StatusText](../get_statustext/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FormField::get_StatusText](../get_statustext/
 void Aspose::Words::Fields::FormField::set_StatusText(const System::String &value)
 ```
 
+## See Also
+
+* Class [FormField](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

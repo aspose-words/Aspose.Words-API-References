@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldcomments/get_text/
 ---
-## FieldComments.get_Text method
+## FieldComments::get_Text method
 
 
 Gets or sets the text of the comments.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldComments::get_Text()
 
 
 ## Examples
-
 
 
 
@@ -48,3 +47,8 @@ ASSERT_EQ(u"My overriding comment.", field->get_Result());
 doc->Save(ArtifactsDir + u"Field.COMMENTS.docx");
 ```
 
+## See Also
+
+* Class [FieldComments](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

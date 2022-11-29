@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.fields/fieldinclude/set_sourcefullname/
 ---
-## FieldInclude.set_SourceFullName method
+## FieldInclude::set_SourceFullName method
 
 
 Setter for [Aspose::Words::Fields::FieldInclude::get_SourceFullName](../get_sourcefullname/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldInclude::get_SourceFullName](../get_sour
 void Aspose::Words::Fields::FieldInclude::set_SourceFullName(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldInclude](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

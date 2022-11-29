@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/font/get_bidi/
 ---
-## Font.get_Bidi method
+## Font::get_Bidi method
 
 
 Specifies whether the contents of this run shall have right-to-left characteristics.
@@ -14,6 +14,8 @@ Specifies whether the contents of this run shall have right-to-left characterist
 ```cpp
 bool Aspose::Words::Font::get_Bidi()
 ```
+
+## Remarks
 
 
 This property, when on, shall not be used with strongly left-to-right text. Any behavior under that condition is unspecified. This property, when off, shall not be used with strong right-to-left text. Any behavior under that condition is unspecified.
@@ -23,7 +25,6 @@ When the contents of this run are displayed, all characters shall be treated as 
 Also, when the contents of this run are displayed, this property acts as a right-to-left override for characters which are classified as "weak types" and "neutral types".
 
 ## Examples
-
 
 
 
@@ -60,3 +61,8 @@ builder->Write(u" Hello world!");
 doc->Save(ArtifactsDir + u"Font.Bidi.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

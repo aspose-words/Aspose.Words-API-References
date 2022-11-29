@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing/fliporientation/
 
 Possible values for the orientation of a shape.
 
+```cpp
+enum class FlipOrientation
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -22,7 +26,6 @@ Possible values for the orientation of a shape.
 
 
 ## Examples
-
 
 
 
@@ -65,3 +68,7 @@ shape->set_FlipOrientation(FlipOrientation::Both);
 doc->Save(ArtifactsDir + u"Shape.FlipShapeOrientation.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

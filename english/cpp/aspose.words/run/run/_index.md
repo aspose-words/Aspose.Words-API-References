@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/run/run/
 ---
-## Run.Run(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&) method
+## Run::Run(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&) constructor
 
 
 Initializes a new instance of the **Run** class.
@@ -19,13 +19,14 @@ Aspose::Words::Run::Run(const System::SharedPtr<Aspose::Words::DocumentBase> &do
 | Parameter | Type | Description |
 | --- | --- | --- |
 | doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
+## Remarks
+
 
 When **Run** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
 To append **Run** to the document use InsertAfter or InsertBefore on the paragraph where you want the run inserted.
 
 ## Examples
-
 
 
 
@@ -73,7 +74,13 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 ```
 
-## Run.Run(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::String\&) method
+## See Also
+
+* Class [DocumentBase](../../documentbase/)
+* Class [Run](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Run::Run(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::String\&) constructor
 
 
 Initializes a new instance of the **Run** class.
@@ -87,13 +94,14 @@ Aspose::Words::Run::Run(const System::SharedPtr<Aspose::Words::DocumentBase> &do
 | --- | --- | --- |
 | doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
 | text | const System::String\& | The text of the run. |
+## Remarks
+
 
 When **Run** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
 To append **Run** to the document use InsertAfter or InsertBefore on the paragraph where you want the run inserted.
 
 ## Examples
-
 
 
 
@@ -111,3 +119,9 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(run);
 doc->Save(ArtifactsDir + u"Font.CreateFormattedRun.docx");
 ```
 
+## See Also
+
+* Class [DocumentBase](../../documentbase/)
+* Class [Run](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

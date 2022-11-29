@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/txtsaveoptions/txtsaveoptions/
 ---
-## TxtSaveOptions.TxtSaveOptions method
+## TxtSaveOptions::TxtSaveOptions constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.saving/txtsaveoptions/txtsaveoptions/
 Aspose::Words::Saving::TxtSaveOptions::TxtSaveOptions()
 ```
 
+## See Also
+
+* Class [TxtSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

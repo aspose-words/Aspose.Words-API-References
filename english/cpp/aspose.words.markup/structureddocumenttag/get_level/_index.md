@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.markup/structureddocumenttag/get_level/
 ---
-## StructuredDocumentTag.get_Level method
+## StructuredDocumentTag::get_Level method
 
 
 Gets the level at which this **SDT** occurs in the document tree.
@@ -17,7 +17,6 @@ Aspose::Words::Markup::MarkupLevel Aspose::Words::Markup::StructuredDocumentTag:
 
 
 ## Examples
-
 
 
 
@@ -72,3 +71,9 @@ tagClone->RemoveSelfOnly();
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.PlainText.docx");
 ```
 
+## See Also
+
+* Enum [MarkupLevel](../../markuplevel/)
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

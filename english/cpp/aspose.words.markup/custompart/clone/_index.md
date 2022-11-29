@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.markup/custompart/clone/
 ---
-## CustomPart.Clone method
+## CustomPart::Clone method
 
 
 Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [Data](../get_data/) value.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Markup::CustomPart> Aspose::Words::Markup::Cust
 
 
 ## Examples
-
 
 
 
@@ -61,3 +60,9 @@ doc->get_PackageCustomParts()->Clear();
 ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
 ```
 
+## See Also
+
+* Class [CustomPart](../)
+* Class [CustomPart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

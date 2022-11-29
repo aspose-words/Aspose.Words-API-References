@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/aspose.words/document/get_pagecount/
 ---
-## Document.get_PageCount method
+## Document::get_PageCount method
 
 
 Gets the number of pages in the document as calculated by the most recent page layout operation.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Document::get_PageCount()
 
 
 ## Examples
-
 
 
 
@@ -41,3 +40,8 @@ ASSERT_EQ(3, doc->get_PageCount());
 doc->Save(ArtifactsDir + u"Document.GetPageCount.pdf");
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

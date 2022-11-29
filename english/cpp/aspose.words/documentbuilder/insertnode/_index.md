@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /cpp/aspose.words/documentbuilder/insertnode/
 ---
-## DocumentBuilder.InsertNode method
+## DocumentBuilder::InsertNode method
 
 
 Inserts a node before the cursor.
@@ -17,7 +17,6 @@ void Aspose::Words::DocumentBuilder::InsertNode(const System::SharedPtr<Aspose::
 
 
 ## Examples
-
 
 
 
@@ -57,3 +56,9 @@ doc->Save(ArtifactsDir + u"Image.CreateLinkedImage.Linked.docx");
 ASSERT_TRUE(10000 > MakeObject<System::IO::FileInfo>(ArtifactsDir + u"Image.CreateLinkedImage.Linked.docx")->get_Length());
 ```
 
+## See Also
+
+* Class [Node](../../node/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

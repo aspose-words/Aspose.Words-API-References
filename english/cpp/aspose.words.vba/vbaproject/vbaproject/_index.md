@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.vba/vbaproject/vbaproject/
 ---
-## VbaProject.VbaProject method
+## VbaProject::VbaProject constructor
 
 
 Creates a blank [VbaProject](../).
@@ -17,7 +17,6 @@ Aspose::Words::Vba::VbaProject::VbaProject()
 
 
 ## Examples
-
 
 
 
@@ -42,3 +41,8 @@ doc->get_VbaProject()->get_Modules()->Add(module_);
 doc->Save(ArtifactsDir + u"VbaProject.CreateVBAMacros.docm");
 ```
 
+## See Also
+
+* Class [VbaProject](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

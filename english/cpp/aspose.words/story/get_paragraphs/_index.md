@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/story/get_paragraphs/
 ---
-## Story.get_Paragraphs method
+## Story::get_Paragraphs method
 
 
 Gets a collection of paragraphs that are immediate children of the story.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::ParagraphCollection> Aspose::Words::Story::get_
 
 
 ## Examples
-
 
 
 
@@ -49,3 +48,9 @@ ASSERT_TRUE(paragraphs->idx_get(1)->get_IsMoveFromRevision());
 ASSERT_TRUE(paragraphs->idx_get(3)->get_IsMoveToRevision());
 ```
 
+## See Also
+
+* Class [ParagraphCollection](../../paragraphcollection/)
+* Class [Story](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

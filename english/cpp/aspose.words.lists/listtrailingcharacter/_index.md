@@ -11,6 +11,10 @@ url: /cpp/aspose.words.lists/listtrailingcharacter/
 
 Specifies the character that separates the list label from the text of the paragraph.
 
+```cpp
+enum class ListTrailingCharacter
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -19,11 +23,12 @@ Specifies the character that separates the list label from the text of the parag
 | Space | 1 | A space character is placed between the list label and text of the paragraph. |
 | Nothing | 2 | There is no separator character between the list label and text of the paragraph. |
 
+## Remarks
+
 
 Used as a value for the [TrailingCharacter](../listlevel/get_trailingcharacter/) property.
 
 ## Examples
-
 
 
 
@@ -80,3 +85,7 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateCustomList.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Lists](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/set_resourcesfolder/
 ---
-## HtmlFixedSaveOptions.set_ResourcesFolder method
+## HtmlFixedSaveOptions::set_ResourcesFolder method
 
 
 Setter for [Aspose::Words::Saving::HtmlFixedSaveOptions::get_ResourcesFolder](../get_resourcesfolder/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::HtmlFixedSaveOptions::get_ResourcesFolder](..
 void Aspose::Words::Saving::HtmlFixedSaveOptions::set_ResourcesFolder(const System::String &value)
 ```
 
+## See Also
+
+* Class [HtmlFixedSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

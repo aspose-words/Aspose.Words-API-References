@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/
 ---
-## PdfEncryptionDetails.PdfEncryptionDetails method
+## PdfEncryptionDetails::PdfEncryptionDetails constructor
 
 
 Initializes an instance of this class.
@@ -17,7 +17,6 @@ Aspose::Words::Saving::PdfEncryptionDetails::PdfEncryptionDetails(const System::
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,8 @@ saveOptions->set_EncryptionDetails(encryptionDetails);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 
+## See Also
+
+* Class [PdfEncryptionDetails](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

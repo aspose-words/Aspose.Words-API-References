@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/aspose.words/paragraphformat/get_style/
 ---
-## ParagraphFormat.get_Style method
+## ParagraphFormat::get_Style method
 
 
 Gets or sets the paragraph style applied to this formatting.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Style> Aspose::Words::ParagraphFormat::get_Styl
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,9 @@ builder->Writeln(u"Hello World: Normal.");
 builder->get_Document()->Save(ArtifactsDir + u"Styles.ParagraphStyleBulletedList.docx");
 ```
 
+## See Also
+
+* Class [Style](../../style/)
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

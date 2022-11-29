@@ -6,10 +6,10 @@ type: docs
 weight: 547
 url: /cpp/aspose.words/pagesetup/get_textorientation/
 ---
-## PageSetup.get_TextOrientation method
+## PageSetup::get_TextOrientation method
 
 
-Allows to specify [TextOrientation](./) for the whole page. Default value is **Horizontal**
+Allows to specify [TextOrientation](./) for the whole page. Default value is [Horizontal](../../textorientation/)
 
 ```cpp
 Aspose::Words::TextOrientation Aspose::Words::PageSetup::get_TextOrientation()
@@ -17,7 +17,6 @@ Aspose::Words::TextOrientation Aspose::Words::PageSetup::get_TextOrientation()
 
 
 ## Examples
-
 
 
 
@@ -36,3 +35,9 @@ pageSetup->set_TextOrientation(TextOrientation::Upward);
 doc->Save(ArtifactsDir + u"PageSetup.SetTextOrientation.docx");
 ```
 
+## See Also
+
+* Enum [TextOrientation](../../textorientation/)
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

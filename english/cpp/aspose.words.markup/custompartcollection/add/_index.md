@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.markup/custompartcollection/add/
 ---
-## CustomPartCollection.Add method
+## CustomPartCollection::Add method
 
 
 Adds an item to the collection.
@@ -21,7 +21,6 @@ void Aspose::Words::Markup::CustomPartCollection::Add(const System::SharedPtr<As
 | part | const System::SharedPtr\<Aspose::Words::Markup::CustomPart\>\& | The item to add. |
 
 ## Examples
-
 
 
 
@@ -65,3 +64,9 @@ doc->get_PackageCustomParts()->Clear();
 ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
 ```
 
+## See Also
+
+* Class [CustomPart](../../custompart/)
+* Class [CustomPartCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

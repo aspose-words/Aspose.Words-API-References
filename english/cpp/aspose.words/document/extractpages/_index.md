@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words/document/extractpages/
 ---
-## Document.ExtractPages method
+## Document::ExtractPages method
 
 
 Returns the [Document](../) object representing specified range of pages.
@@ -25,7 +25,6 @@ System::SharedPtr<Aspose::Words::Document> Aspose::Words::Document::ExtractPages
 
 
 
-
 Shows how to get specified range of pages from the document. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Layout entities.docx");
@@ -35,3 +34,9 @@ doc = doc->ExtractPages(0, 2);
 doc->Save(ArtifactsDir + u"Document.ExtractPages.docx");
 ```
 
+## See Also
+
+* Class [Document](../)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

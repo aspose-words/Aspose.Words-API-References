@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/comparisonevaluationresult/comparisonevaluationresult/
 ---
-## ComparisonEvaluationResult.ComparisonEvaluationResult(bool) method
+## ComparisonEvaluationResult::ComparisonEvaluationResult(bool) constructor
 
 
 Creates a comparison evaluation result.
@@ -20,7 +20,6 @@ Aspose::Words::Fields::ComparisonEvaluationResult::ComparisonEvaluationResult(bo
 
 
 
-
 Shows how to implement custom evaluation for the IF and COMPARE fields. 
 ```cpp
 void ConditionEvaluationExtensionPoint(String fieldCode, int8_t comparisonResult, String comparisonError, String expectedResult)
@@ -95,7 +94,12 @@ private:
 };
 ```
 
-## ComparisonEvaluationResult.ComparisonEvaluationResult(const System::String\&) method
+## See Also
+
+* Class [ComparisonEvaluationResult](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)
+## ComparisonEvaluationResult::ComparisonEvaluationResult(const System::String\&) constructor
 
 
 Creates a failed comparison evaluation result with the corresponding error message.
@@ -109,7 +113,6 @@ Aspose::Words::Fields::ComparisonEvaluationResult::ComparisonEvaluationResult(co
 
 
 
-
 Shows how to implement custom evaluation for the IF and COMPARE fields. 
 ```cpp
 void ConditionEvaluationExtensionPoint(String fieldCode, int8_t comparisonResult, String comparisonError, String expectedResult)
@@ -184,3 +187,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [ComparisonEvaluationResult](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

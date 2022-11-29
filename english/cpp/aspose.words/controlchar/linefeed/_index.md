@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words/controlchar/linefeed/
 ---
-## ControlChar.LineFeed method
+## ControlChar::LineFeed method
 
 
 Line feed character: "\x000a" or "\n". Same as [Lf](../lf/).
@@ -17,7 +17,6 @@ static System::String & Aspose::Words::ControlChar::LineFeed()
 
 
 ## Examples
-
 
 
 
@@ -87,3 +86,8 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::PageBreak()), ControlChar:
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlChar::ColumnBreakChar);
 ```
 
+## See Also
+
+* Class [ControlChar](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

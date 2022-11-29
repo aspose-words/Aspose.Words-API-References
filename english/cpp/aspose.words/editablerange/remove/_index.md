@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/editablerange/remove/
 ---
-## EditableRange.Remove method
+## EditableRange::Remove method
 
 
 Removes the editable range from the document. Does not remove content inside the editable range.
@@ -17,7 +17,6 @@ void Aspose::Words::EditableRange::Remove()
 
 
 ## Examples
-
 
 
 
@@ -61,3 +60,8 @@ doc->Save(ArtifactsDir + u"EditableRange.CreateAndRemove.docx");
 editableRange->Remove();
 ```
 
+## See Also
+
+* Class [EditableRange](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

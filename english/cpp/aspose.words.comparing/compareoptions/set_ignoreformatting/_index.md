@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.comparing/compareoptions/set_ignoreformatting/
 ---
-## CompareOptions.set_IgnoreFormatting method
+## CompareOptions::set_IgnoreFormatting method
 
 
 Setter for [Aspose::Words::Comparing::CompareOptions::get_IgnoreFormatting](../get_ignoreformatting/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Comparing::CompareOptions::get_IgnoreFormatting](../g
 void Aspose::Words::Comparing::CompareOptions::set_IgnoreFormatting(bool value)
 ```
 
+## See Also
+
+* Class [CompareOptions](../)
+* Namespace [Aspose::Words::Comparing](../../)
+* Library [Aspose.Words](../../../)

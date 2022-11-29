@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/tabstop/tabstop/
 ---
-## TabStop.TabStop(double) method
+## TabStop::TabStop(double) constructor
 
 
 Initializes a new instance of this class.
@@ -17,7 +17,6 @@ Aspose::Words::TabStop::TabStop(double position)
 
 
 ## Examples
-
 
 
 
@@ -59,7 +58,12 @@ ASSERT_EQ(0, paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops()->get_
 doc->Save(ArtifactsDir + u"TabStopCollection.TabStopCollection.docx");
 ```
 
-## TabStop.TabStop(double, Aspose::Words::TabAlignment, Aspose::Words::TabLeader) method
+## See Also
+
+* Class [TabStop](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## TabStop::TabStop(double, Aspose::Words::TabAlignment, Aspose::Words::TabLeader) constructor
 
 
 Initializes a new instance of this class.
@@ -79,7 +83,6 @@ Aspose::Words::TabStop::TabStop(double position, Aspose::Words::TabAlignment ali
 
 
 
-
 Shows how to work with a document's collection of tab stops. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -118,3 +121,10 @@ ASSERT_EQ(0, paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops()->get_
 doc->Save(ArtifactsDir + u"TabStopCollection.TabStopCollection.docx");
 ```
 
+## See Also
+
+* Enum [TabAlignment](../../tabalignment/)
+* Enum [TabLeader](../../tableader/)
+* Class [TabStop](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

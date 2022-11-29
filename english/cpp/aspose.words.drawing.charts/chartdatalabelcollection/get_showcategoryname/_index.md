@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_showcategoryname/
 ---
-## ChartDataLabelCollection.get_ShowCategoryName method
+## ChartDataLabelCollection::get_ShowCategoryName method
 
 
 Allows to specify whether category name is to be displayed for the data labels of the entire series. Default value is **false**.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowCategoryN
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,8 @@ dataLabels->set_Separator(u" & ");
 doc->Save(ArtifactsDir + u"Charts.DataLabelsBubbleChart.docx");
 ```
 
+## See Also
+
+* Class [ChartDataLabelCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

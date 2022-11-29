@@ -29,11 +29,12 @@ class CustomXmlPropertyCollection : public System::Collections::Generic::IEnumer
 | [IndexOfKey](./indexofkey/)(const System::String\&) | Returns the zero-based index of the specified property in the collection. |
 | [Remove](./remove/)(const System::String\&) | Removes a property with the specified name from the collection. |
 | [RemoveAt](./removeat/)(int32_t) | Removes a property at the specified index. |
+## Remarks
+
 
 Items are [CustomXmlProperty](../customxmlproperty/) objects.
 
 ## Examples
-
 
 
 
@@ -88,3 +89,7 @@ properties->Clear();
 ASSERT_EQ(0, properties->get_Count());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Markup](../)
+* Library [Aspose.Words](../../)

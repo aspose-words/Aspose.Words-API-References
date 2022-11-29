@@ -11,6 +11,10 @@ url: /cpp/aspose.words.saving/compressionlevel/
 
 Compression level for OOXML files. (DOCX and DOTX files are internally a ZIP-archive, this property controls the compression level of the archive. Note, that FlatOpc file is not a ZIP-archive, therefore, this property does not affect the FlatOpc files.)
 
+```cpp
+enum class CompressionLevel
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -22,7 +26,6 @@ Compression level for OOXML files. (DOCX and DOTX files are internally a ZIP-arc
 
 
 ## Examples
-
 
 
 
@@ -52,3 +55,7 @@ std::cout << "\tDuration:\t" << st->get_ElapsedMilliseconds() << " ms" << std::e
 std::cout << "\tFile Size:\t" << fileInfo->get_Length() << " bytes" << std::endl;
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fields/fielddde/get_insertastext/
 ---
-## FieldDde.get_InsertAsText method
+## FieldDde::get_InsertAsText method
 
 
 Gets or sets whether to insert the linked object in text-only format.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldDde::get_InsertAsText()
 
 
 ## Examples
-
 
 
 
@@ -196,3 +195,8 @@ static void InsertFieldDdeAuto(SharedPtr<DocumentBuilder> builder, ExField::Inse
 }
 ```
 
+## See Also
+
+* Class [FieldDde](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

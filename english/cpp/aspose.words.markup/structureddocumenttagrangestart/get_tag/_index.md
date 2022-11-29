@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_tag/
 ---
-## StructuredDocumentTagRangeStart.get_Tag method
+## StructuredDocumentTagRangeStart::get_Tag method
 
 
 Specifies a tag associated with the current structured document tag node. Can not be null.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_Tag()
 
 
 ## Examples
-
 
 
 
@@ -49,3 +48,8 @@ std::cout << "\t|Id: " << rangeEndTag->get_Id() << std::endl;
 std::cout << String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) << std::endl;
 ```
 
+## See Also
+
+* Class [StructuredDocumentTagRangeStart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

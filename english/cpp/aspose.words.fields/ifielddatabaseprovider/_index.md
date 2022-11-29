@@ -20,3 +20,7 @@ class IFieldDatabaseProvider : public System::Object
 | Method | Description |
 | --- | --- |
 | virtual [GetQueryResult](./getqueryresult/)(System::String, System::String, System::String, System::SharedPtr\<Aspose::Words::Fields::FieldDatabase\>) | Returns query result. |
+## See Also
+
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

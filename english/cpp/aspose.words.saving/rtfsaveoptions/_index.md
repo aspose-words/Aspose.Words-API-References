@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/rtfsaveoptions/
 ## RtfSaveOptions class
 
 
-Can be used to specify additional options when saving a document into the **Rtf** format.
+Can be used to specify additional options when saving a document into the [Rtf](../../aspose.words/saveformat/) format.
 
 ```cpp
 class RtfSaveOptions : public Aspose::Words::Saving::SaveOptions
@@ -34,7 +34,7 @@ class RtfSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [get_MemoryOptimization](../saveoptions/get_memoryoptimization/)() const | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**. |
 | [get_PrettyFormat](../saveoptions/get_prettyformat/)() const | When **true**, pretty formats output where applicable. Default value is **false**. |
 | [get_ProgressCallback](../saveoptions/get_progresscallback/)() const | Called during saving a document and accepts data about saving progress. |
-| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can only be **Rtf**. |
+| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can only be [Rtf](../../aspose.words/saveformat/). |
 | [get_SaveImagesAsWmf](./get_saveimagesaswmf/)() const | When true all images will be saved as WMF. |
 | [get_TempFolder](../saveoptions/get_tempfolder/)() const | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is **null** and no temporary files are used. |
 | [get_UpdateCreatedTimeProperty](../saveoptions/get_updatecreatedtimeproperty/)() const | Gets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is false;. |
@@ -73,7 +73,6 @@ class RtfSaveOptions : public Aspose::Words::Saving::SaveOptions
 
 
 
-
 Shows how to save a document to .rtf with custom options. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Rendering.docx");
@@ -96,3 +95,8 @@ options->set_ExportImagesForOldReaders(exportImagesForOldReaders);
 doc->Save(ArtifactsDir + u"RtfSaveOptions.ExportImages.rtf", options);
 ```
 
+## See Also
+
+* Class [SaveOptions](../saveoptions/)
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

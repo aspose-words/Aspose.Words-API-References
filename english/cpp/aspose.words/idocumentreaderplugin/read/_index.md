@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/idocumentreaderplugin/read/
 ---
-## IDocumentReaderPlugin.Read method
+## IDocumentReaderPlugin::Read method
 
 
 Reads the data from the specified stream into the [Document](../../document/) instance.
@@ -22,4 +22,10 @@ virtual void Aspose::Words::IDocumentReaderPlugin::Read(System::SharedPtr<System
 | loadOptions | System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> | An additional load options to load the document. |
 | document | System::SharedPtr\<Aspose::Words::Document\> | The instance of the [Document](../../document/) class to read the data to. If the instance contains some content, it will be overridden by the data from the source stream |
 
+## See Also
 
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* Class [Document](../../document/)
+* Interface [IDocumentReaderPlugin](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

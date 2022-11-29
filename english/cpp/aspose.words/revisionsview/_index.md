@@ -11,6 +11,10 @@ url: /cpp/aspose.words/revisionsview/
 
 Allows to specify whether to work with the original or revised version of a document.
 
+```cpp
+enum class RevisionsView
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,7 +24,6 @@ Allows to specify whether to work with the original or revised version of a docu
 
 
 ## Examples
-
 
 
 
@@ -42,3 +45,7 @@ ASSERT_EQ(u"1.", paragraphs->idx_get(1)->get_ListLabel()->get_LabelString());
 ASSERT_EQ(u"a.", paragraphs->idx_get(2)->get_ListLabel()->get_LabelString());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

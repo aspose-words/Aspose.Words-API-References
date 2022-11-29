@@ -6,10 +6,10 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
 ---
-## HtmlSaveOptions.HtmlSaveOptions() method
+## HtmlSaveOptions::HtmlSaveOptions() constructor
 
 
-Initializes a new instance of this class that can be used to save a document in the **Html** format.
+Initializes a new instance of this class that can be used to save a document in the [Html](../../../aspose.words/saveformat/) format.
 
 ```cpp
 Aspose::Words::Saving::HtmlSaveOptions::HtmlSaveOptions()
@@ -17,7 +17,6 @@ Aspose::Words::Saving::HtmlSaveOptions::HtmlSaveOptions()
 
 
 ## Examples
-
 
 
 
@@ -42,10 +41,15 @@ saveOptions->set_ExportDocumentProperties(true);
 doc->Save(ArtifactsDir + u"HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
 ```
 
-## HtmlSaveOptions.HtmlSaveOptions(Aspose::Words::SaveFormat) method
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)
+## HtmlSaveOptions::HtmlSaveOptions(Aspose::Words::SaveFormat) constructor
 
 
-Initializes a new instance of this class that can be used to save a document in the **Html**, **Mhtml**, **Epub** or **Azw3** format.
+Initializes a new instance of this class that can be used to save a document in the [Html](../../../aspose.words/saveformat/), [Mhtml](../../../aspose.words/saveformat/), [Epub](../../../aspose.words/saveformat/) or [Azw3](../../../aspose.words/saveformat/) format.
 
 ```cpp
 Aspose::Words::Saving::HtmlSaveOptions::HtmlSaveOptions(Aspose::Words::SaveFormat saveFormat)
@@ -54,10 +58,9 @@ Aspose::Words::Saving::HtmlSaveOptions::HtmlSaveOptions(Aspose::Words::SaveForma
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | Aspose::Words::SaveFormat | Can be **Html**, **Mhtml**, **Epub** or **Azw3**. |
+| saveFormat | Aspose::Words::SaveFormat | Can be [Html](../../../aspose.words/saveformat/), [Mhtml](../../../aspose.words/saveformat/), [Epub](../../../aspose.words/saveformat/) or [Azw3](../../../aspose.words/saveformat/). |
 
 ## Examples
-
 
 
 
@@ -92,3 +95,9 @@ case HtmlVersion::Xhtml:
 }
 ```
 
+## See Also
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words/tablestyle/set_cellspacing/
 ---
-## TableStyle.set_CellSpacing method
+## TableStyle::set_CellSpacing method
 
 
 Setter for [Aspose::Words::TableStyle::get_CellSpacing](../get_cellspacing/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::TableStyle::get_CellSpacing](../get_cellspacing/).
 void Aspose::Words::TableStyle::set_CellSpacing(double value)
 ```
 
+## See Also
+
+* Class [TableStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

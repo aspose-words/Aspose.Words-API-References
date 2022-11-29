@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.saving/downsampleoptions/get_downsampleimages/
 ---
-## DownsampleOptions.get_DownsampleImages method
+## DownsampleOptions::get_DownsampleImages method
 
 
 Specifies whether images should be downsampled.
@@ -17,7 +17,6 @@ bool Aspose::Words::Saving::DownsampleOptions::get_DownsampleImages() const
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,8 @@ options->get_DownsampleOptions()->set_ResolutionThreshold(128);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", options);
 ```
 
+## See Also
+
+* Class [DownsampleOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

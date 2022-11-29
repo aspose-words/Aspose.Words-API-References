@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.webextensions/webextensionproperty/set_value/
 ---
-## WebExtensionProperty.set_Value method
+## WebExtensionProperty::set_Value method
 
 
 Specifies a custom property value.
@@ -15,3 +15,8 @@ Specifies a custom property value.
 void Aspose::Words::WebExtensions::WebExtensionProperty::set_Value(const System::String &value)
 ```
 
+## See Also
+
+* Class [WebExtensionProperty](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

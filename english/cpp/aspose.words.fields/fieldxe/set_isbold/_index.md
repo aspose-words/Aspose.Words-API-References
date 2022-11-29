@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.fields/fieldxe/set_isbold/
 ---
-## FieldXE.set_IsBold method
+## FieldXE::set_IsBold method
 
 
 Setter for [Aspose::Words::Fields::FieldXE::get_IsBold](../get_isbold/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldXE::get_IsBold](../get_isbold/).
 void Aspose::Words::Fields::FieldXE::set_IsBold(bool value)
 ```
 
+## See Also
+
+* Class [FieldXE](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

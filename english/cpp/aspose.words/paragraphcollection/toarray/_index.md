@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/paragraphcollection/toarray/
 ---
-## ParagraphCollection.ToArray method
+## ParagraphCollection::ToArray method
 
 
 Copies all paragraphs from the collection to a new array of paragraphs.
@@ -18,11 +18,9 @@ System::ArrayPtr<System::SharedPtr<Aspose::Words::Paragraph>> Aspose::Words::Par
 
 ### ReturnValue
 
-
 An array of paragraphs.
 
 ## Examples
-
 
 
 
@@ -58,3 +56,9 @@ for (SharedPtr<Paragraph> para : doc->get_FirstSection()->get_Body()->get_Paragr
 ASSERT_FALSE(doc->GetText().Contains(u"The third paragraph"));
 ```
 
+## See Also
+
+* Class [Paragraph](../../paragraph/)
+* Class [ParagraphCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

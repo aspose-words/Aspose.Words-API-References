@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldmergefield/
 Implements the MERGEFIELD field.
 
 ```cpp
-class FieldMergeField : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldMergeField : public Aspose::Words::Fields::Field,
+                        public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -52,3 +53,8 @@ class FieldMergeField : public Aspose::Words::Fields::Field, public Aspose::Word
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

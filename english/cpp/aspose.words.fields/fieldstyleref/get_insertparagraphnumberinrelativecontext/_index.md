@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fieldstyleref/get_insertparagraphnumberinrelativecontext/
 ---
-## FieldStyleRef.get_InsertParagraphNumberInRelativeContext method
+## FieldStyleRef::get_InsertParagraphNumberInRelativeContext method
 
 
 Gets or sets whether to insert the paragraph number of the referenced paragraph in relative context.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldStyleRef::get_InsertParagraphNumberInRelativeCo
 
 
 ## Examples
-
 
 
 
@@ -87,3 +86,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.STYLEREF.docx");
 ```
 
+## See Also
+
+* Class [FieldStyleRef](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/tabstopcollection/get_count/
 ---
-## TabStopCollection.get_Count method
+## TabStopCollection::get_Count method
 
 
 Gets the number of tab stops in the collection.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::TabStopCollection::get_Count()
 
 
 ## Examples
-
 
 
 
@@ -59,3 +58,8 @@ ASSERT_EQ(0, paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops()->get_
 doc->Save(ArtifactsDir + u"TabStopCollection.TabStopCollection.docx");
 ```
 
+## See Also
+
+* Class [TabStopCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

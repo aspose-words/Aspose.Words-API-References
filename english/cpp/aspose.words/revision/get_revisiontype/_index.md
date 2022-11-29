@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words/revision/get_revisiontype/
 ---
-## Revision.get_RevisionType method
+## Revision::get_RevisionType method
 
 
 Gets the type of this revision.
@@ -17,7 +17,6 @@ Aspose::Words::RevisionType Aspose::Words::Revision::get_RevisionType() const
 
 
 ## Examples
-
 
 
 
@@ -98,3 +97,9 @@ ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Enum [RevisionType](../../revisiontype/)
+* Class [Revision](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

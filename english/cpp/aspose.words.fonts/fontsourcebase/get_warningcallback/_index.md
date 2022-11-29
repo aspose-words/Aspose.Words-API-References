@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fonts/fontsourcebase/get_warningcallback/
 ---
-## FontSourceBase.get_WarningCallback method
+## FontSourceBase::get_WarningCallback method
 
 
 Called during processing of font source when an issue is detected that might result in formatting fidelity loss.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::IWarningCallback> Aspose::Words::Fonts::FontSou
 
 
 ## Examples
-
 
 
 
@@ -54,3 +53,9 @@ public:
 };
 ```
 
+## See Also
+
+* Interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
+* Class [FontSourceBase](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

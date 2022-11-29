@@ -6,10 +6,10 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/ooxmlsaveoptions/ooxmlsaveoptions/
 ---
-## OoxmlSaveOptions.OoxmlSaveOptions() method
+## OoxmlSaveOptions::OoxmlSaveOptions() constructor
 
 
-Initializes a new instance of this class that can be used to save a document in the **Docx** format.
+Initializes a new instance of this class that can be used to save a document in the [Docx](../../../aspose.words/saveformat/) format.
 
 ```cpp
 Aspose::Words::Saving::OoxmlSaveOptions::OoxmlSaveOptions()
@@ -17,7 +17,6 @@ Aspose::Words::Saving::OoxmlSaveOptions::OoxmlSaveOptions()
 
 
 ## Examples
-
 
 
 
@@ -48,10 +47,15 @@ doc = MakeObject<Document>(ArtifactsDir + u"OoxmlSaveOptions.Iso29500Strict.docx
 ASSERT_EQ(ShapeMarkupLanguage::Dml, (System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
 ```
 
-## OoxmlSaveOptions.OoxmlSaveOptions(Aspose::Words::SaveFormat) method
+## See Also
+
+* Class [OoxmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)
+## OoxmlSaveOptions::OoxmlSaveOptions(Aspose::Words::SaveFormat) constructor
 
 
-Initializes a new instance of this class that can be used to save a document in the **Docx**, **Docm**, **Dotx**, **Dotm** or **FlatOpc** format.
+Initializes a new instance of this class that can be used to save a document in the [Docx](../../../aspose.words/saveformat/), [Docm](../../../aspose.words/saveformat/), [Dotx](../../../aspose.words/saveformat/), [Dotm](../../../aspose.words/saveformat/) or [FlatOpc](../../../aspose.words/saveformat/) format.
 
 ```cpp
 Aspose::Words::Saving::OoxmlSaveOptions::OoxmlSaveOptions(Aspose::Words::SaveFormat saveFormat)
@@ -60,10 +64,9 @@ Aspose::Words::Saving::OoxmlSaveOptions::OoxmlSaveOptions(Aspose::Words::SaveFor
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | Aspose::Words::SaveFormat | Can be **Docx**, **Docm**, **Dotx**, **Dotm** or **FlatOpc**. |
+| saveFormat | Aspose::Words::SaveFormat | Can be [Docx](../../../aspose.words/saveformat/), [Docm](../../../aspose.words/saveformat/), [Dotx](../../../aspose.words/saveformat/), [Dotm](../../../aspose.words/saveformat/) or [FlatOpc](../../../aspose.words/saveformat/). |
 
 ## Examples
-
 
 
 
@@ -88,3 +91,9 @@ ASSERT_EQ(keepLegacyControlChars ? String(u"\u0013date \\@ \"MM/dd/yyyy\"\u0014\
           doc->get_FirstSection()->get_Body()->GetText());
 ```
 
+## See Also
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [OoxmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

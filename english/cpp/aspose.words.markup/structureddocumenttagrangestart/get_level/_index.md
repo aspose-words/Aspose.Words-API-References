@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_level/
 ---
-## StructuredDocumentTagRangeStart.get_Level method
+## StructuredDocumentTagRangeStart::get_Level method
 
 
 Gets the level at which this structured document tag range start occurs in the document tree.
@@ -17,7 +17,6 @@ Aspose::Words::Markup::MarkupLevel Aspose::Words::Markup::StructuredDocumentTagR
 
 
 ## Examples
-
 
 
 
@@ -49,3 +48,9 @@ std::cout << "\t|Id: " << rangeEndTag->get_Id() << std::endl;
 std::cout << String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) << std::endl;
 ```
 
+## See Also
+
+* Enum [MarkupLevel](../../markuplevel/)
+* Class [StructuredDocumentTagRangeStart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

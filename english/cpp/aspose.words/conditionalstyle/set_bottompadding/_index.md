@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words/conditionalstyle/set_bottompadding/
 ---
-## ConditionalStyle.set_BottomPadding method
+## ConditionalStyle::set_BottomPadding method
 
 
 Setter for [Aspose::Words::ConditionalStyle::get_BottomPadding](../get_bottompadding/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::ConditionalStyle::get_BottomPadding](../get_bottompad
 void Aspose::Words::ConditionalStyle::set_BottomPadding(double value)
 ```
 
+## See Also
+
+* Class [ConditionalStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

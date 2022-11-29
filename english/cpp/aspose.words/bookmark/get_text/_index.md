@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words/bookmark/get_text/
 ---
-## Bookmark.get_Text method
+## Bookmark::get_Text method
 
 
 Gets or sets the text enclosed in the bookmark.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Bookmark::get_Text()
 
 
 ## Examples
-
 
 
 
@@ -98,3 +97,8 @@ public:
 };
 ```
 
+## See Also
+
+* Class [Bookmark](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

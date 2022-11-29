@@ -11,6 +11,10 @@ url: /cpp/aspose.words.vba/vbamoduletype/
 
 Specifies the type of a model in a VBA project.
 
+```cpp
+enum class VbaModuleType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -22,7 +26,6 @@ Specifies the type of a model in a VBA project.
 
 
 ## Examples
-
 
 
 
@@ -47,3 +50,7 @@ doc->get_VbaProject()->get_Modules()->Add(module_);
 doc->Save(ArtifactsDir + u"VbaProject.CreateVBAMacros.docm");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Vba](../)
+* Library [Aspose.Words](../../)

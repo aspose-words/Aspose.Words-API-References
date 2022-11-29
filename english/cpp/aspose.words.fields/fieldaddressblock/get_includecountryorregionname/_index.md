@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fieldaddressblock/get_includecountryorregionname/
 ---
-## FieldAddressBlock.get_IncludeCountryOrRegionName method
+## FieldAddressBlock::get_IncludeCountryOrRegionName method
 
 
 Gets or sets whether to include the name of the country/region.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldAddressBlock::get_IncludeCountryOrReg
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,8 @@ ASSERT_EQ(
     field->GetFieldCode());
 ```
 
+## See Also
+
+* Class [FieldAddressBlock](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

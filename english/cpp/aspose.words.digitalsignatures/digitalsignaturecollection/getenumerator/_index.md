@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/
 ---
-## DigitalSignatureCollection.GetEnumerator method
+## DigitalSignatureCollection::GetEnumerator method
 
 
 Returns a dictionary enumerator object that can be used to iterate over all items in the collection.
@@ -17,7 +17,6 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 
 ## Examples
-
 
 
 
@@ -39,3 +38,9 @@ SharedPtr<DigitalSignatureCollection> digitalSignatures = DigitalSignatureUtil::
 }
 ```
 
+## See Also
+
+* Class [DigitalSignature](../../digitalsignature/)
+* Class [DigitalSignatureCollection](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)

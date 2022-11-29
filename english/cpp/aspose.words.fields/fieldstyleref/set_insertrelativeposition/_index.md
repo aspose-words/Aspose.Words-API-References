@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.fields/fieldstyleref/set_insertrelativeposition/
 ---
-## FieldStyleRef.set_InsertRelativePosition method
+## FieldStyleRef::set_InsertRelativePosition method
 
 
 Setter for [Aspose::Words::Fields::FieldStyleRef::get_InsertRelativePosition](../get_insertrelativeposition/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldStyleRef::get_InsertRelativePosition](..
 void Aspose::Words::Fields::FieldStyleRef::set_InsertRelativePosition(bool value)
 ```
 
+## See Also
+
+* Class [FieldStyleRef](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

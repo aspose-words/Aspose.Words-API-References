@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/bookmarkcollection/getenumerator/
 ---
-## BookmarkCollection.GetEnumerator method
+## BookmarkCollection::GetEnumerator method
 
 
 Returns an enumerator object.
@@ -17,7 +17,6 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 
 ## Examples
-
 
 
 
@@ -98,3 +97,9 @@ public:
 };
 ```
 
+## See Also
+
+* Class [Bookmark](../../bookmark/)
+* Class [BookmarkCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

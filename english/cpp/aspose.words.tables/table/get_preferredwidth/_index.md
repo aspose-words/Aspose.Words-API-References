@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.words.tables/table/get_preferredwidth/
 ---
-## Table.get_PreferredWidth method
+## Table::get_PreferredWidth method
 
 
 Gets or sets the table preferred width.
@@ -15,11 +15,12 @@ Gets or sets the table preferred width.
 System::SharedPtr<Aspose::Words::Tables::PreferredWidth> Aspose::Words::Tables::Table::get_PreferredWidth()
 ```
 
+## Remarks
+
 
 The default value is [Auto](../../preferredwidth/auto/).
 
 ## Examples
-
 
 
 
@@ -41,3 +42,9 @@ table->set_PreferredWidth(PreferredWidth::FromPercent(50));
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertTableWithPreferredWidth.docx");
 ```
 
+## See Also
+
+* Class [PreferredWidth](../../preferredwidth/)
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

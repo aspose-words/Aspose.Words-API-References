@@ -70,7 +70,7 @@ class GroupShape : public Aspose::Words::Drawing::ShapeBase
 | [get_MarkupLanguage](../shapebase/get_markuplanguage/)() const | Gets MarkupLanguage used for this graphic object. |
 | [get_Name](../shapebase/get_name/)() | Gets or sets the optional shape name. |
 | [get_NextSibling](../../aspose.words/node/get_nextsibling/)() | Gets the node immediately following this node. |
-| [get_NodeType](./get_nodetype/)() const override | Returns **GroupShape**. |
+| [get_NodeType](./get_nodetype/)() const override | Returns [GroupShape](../../aspose.words/nodetype/). |
 | [get_ParentNode](../../aspose.words/node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_ParentParagraph](../shapebase/get_parentparagraph/)() | Returns the immediate parent paragraph. |
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
@@ -149,13 +149,14 @@ class GroupShape : public Aspose::Words::Drawing::ShapeBase
 | [SetTemplateWeakPtr](../../aspose.words/compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 A [GroupShape](./) is a composite node and can have [Shape](../shape/) and [GroupShape](./) nodes as children.
 
 Each [GroupShape](./) defines a new coordinate system for its child shapes. The coordinate system is defined using the [CoordSize](../shapebase/get_coordsize/) and [CoordOrigin](../shapebase/get_coordorigin/) properties.
 
 ## Examples
-
 
 
 
@@ -239,3 +240,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [ShapeBase](../shapebase/)
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

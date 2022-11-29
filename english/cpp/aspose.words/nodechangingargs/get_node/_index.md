@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/nodechangingargs/get_node/
 ---
-## NodeChangingArgs.get_Node method
+## NodeChangingArgs::get_Node method
 
 
 Gets the [Node](./) that is being added or removed.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::NodeChangingArgs::get_Node
 
 
 ## Examples
-
 
 
 
@@ -94,3 +93,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Node](../../node/)
+* Class [NodeChangingArgs](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

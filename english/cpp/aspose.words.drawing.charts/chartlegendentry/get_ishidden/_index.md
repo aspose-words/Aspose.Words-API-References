@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.drawing.charts/chartlegendentry/get_ishidden/
 ---
-## ChartLegendEntry.get_IsHidden method
+## ChartLegendEntry::get_IsHidden method
 
 
 Gets a value indicating whether this entry is hidden in the chart legend. The default value is **false**.
@@ -15,3 +15,8 @@ Gets a value indicating whether this entry is hidden in the chart legend. The de
 bool Aspose::Words::Drawing::Charts::ChartLegendEntry::get_IsHidden() const
 ```
 
+## See Also
+
+* Class [ChartLegendEntry](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

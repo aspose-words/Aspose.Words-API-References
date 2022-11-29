@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.layout/layoutoptions/set_commentdisplaymode/
 ---
-## LayoutOptions.set_CommentDisplayMode method
+## LayoutOptions::set_CommentDisplayMode method
 
 
 Setter for [Aspose::Words::Layout::LayoutOptions::get_CommentDisplayMode](../get_commentdisplaymode/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Layout::LayoutOptions::get_CommentDisplayMode](../get
 void Aspose::Words::Layout::LayoutOptions::set_CommentDisplayMode(Aspose::Words::Layout::CommentDisplayMode value)
 ```
 
+## See Also
+
+* Enum [CommentDisplayMode](../../commentdisplaymode/)
+* Class [LayoutOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

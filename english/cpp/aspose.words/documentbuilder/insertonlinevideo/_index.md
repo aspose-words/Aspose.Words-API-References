@@ -6,7 +6,7 @@ type: docs
 weight: 521
 url: /cpp/aspose.words/documentbuilder/insertonlinevideo/
 ---
-## DocumentBuilder.InsertOnlineVideo(const System::String\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) method
+## DocumentBuilder::InsertOnlineVideo(const System::String\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) method
 
 
 Inserts an online video object into the document and scales it to the specified size.
@@ -29,8 +29,9 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder:
 
 ### ReturnValue
 
-
 The image node that was just inserted.
+## Remarks
+
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
@@ -41,12 +42,11 @@ Insertion of online video from the following resources is supported:
 
 
 
-If your online video is not displaying correctly, use **InsertOnlineVideo()**, which accepts custom embedded html code.
+If your online video is not displaying correctly, use [InsertOnlineVideo()](../), which accepts custom embedded html code.
 
 The code for embedding video can vary between providers, consult your corresponding provider of choice for details.
 
 ## Examples
-
 
 
 
@@ -66,7 +66,16 @@ builder->InsertOnlineVideo(videoUrl, RelativeHorizontalPosition::LeftMargin, 0, 
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertOnlineVideo.docx");
 ```
 
-## DocumentBuilder.InsertOnlineVideo(const System::String\&, const System::String\&, const System::ArrayPtr\<uint8_t\>\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) method
+## See Also
+
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* Enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## DocumentBuilder::InsertOnlineVideo(const System::String\&, const System::String\&, const System::ArrayPtr\<uint8_t\>\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) method
 
 
 Inserts an online video object into the document and scales it to the specified size.
@@ -91,13 +100,13 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder:
 
 ### ReturnValue
 
-
 The image node that was just inserted.
+## Remarks
+
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 ## Examples
-
 
 
 
@@ -135,7 +144,16 @@ ArrayPtr<uint8_t> thumbnailImageBytes = System::IO::File::ReadAllBytes(ImageDir 
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx");
 ```
 
-## DocumentBuilder.InsertOnlineVideo(const System::String\&, const System::String\&, const System::ArrayPtr\<uint8_t\>\&, double, double) method
+## See Also
+
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* Enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## DocumentBuilder::InsertOnlineVideo(const System::String\&, const System::String\&, const System::ArrayPtr\<uint8_t\>\&, double, double) method
 
 
 Inserts an online video object into the document and scales it to the specified size.
@@ -155,13 +173,13 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder:
 
 ### ReturnValue
 
-
 The image node that was just inserted.
+## Remarks
+
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 ## Examples
-
 
 
 
@@ -199,7 +217,13 @@ ArrayPtr<uint8_t> thumbnailImageBytes = System::IO::File::ReadAllBytes(ImageDir 
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx");
 ```
 
-## DocumentBuilder.InsertOnlineVideo(const System::String\&, double, double) method
+## See Also
+
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## DocumentBuilder::InsertOnlineVideo(const System::String\&, double, double) method
 
 
 Inserts an online video object into the document and scales it to the specified size.
@@ -217,8 +241,9 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder:
 
 ### ReturnValue
 
-
 The image node that was just inserted.
+## Remarks
+
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
@@ -229,12 +254,11 @@ Insertion of online video from the following resources is supported:
 
 
 
-If your online video is not displaying correctly, use **InsertOnlineVideo()**, which accepts custom embedded html code.
+If your online video is not displaying correctly, use [InsertOnlineVideo()](../), which accepts custom embedded html code.
 
 The code for embedding video can vary between providers, consult your corresponding provider of choice for details.
 
 ## Examples
-
 
 
 
@@ -249,3 +273,9 @@ builder->InsertOnlineVideo(u"https://youtu.be/t_1LYZ102RA", 360, 270);
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertVideoWithUrl.docx");
 ```
 
+## See Also
+
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/license/setlicense/
 ---
-## License.SetLicense(const System::SharedPtr\<System::IO::Stream\>\&) method
+## License::SetLicense(const System::SharedPtr\<System::IO::Stream\>\&) method
 
 
 Licenses the component.
@@ -19,11 +19,12 @@ void Aspose::Words::License::SetLicense(const System::SharedPtr<System::IO::Stre
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | const System::SharedPtr\<System::IO::Stream\>\& | A stream that contains the license. |
+## Remarks
+
 
 Use this method to load a license from a stream.
 
 ## Examples
-
 
 
 
@@ -37,7 +38,12 @@ Shows how to initialize a license for Aspose.Words from a stream.
 }
 ```
 
-## License.SetLicense(const System::String\&) method
+## See Also
+
+* Class [License](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## License::SetLicense(const System::String\&) method
 
 
 Licenses the component.
@@ -50,6 +56,8 @@ void Aspose::Words::License::SetLicense(const System::String &licenseName)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | licenseName | const System::String\& | Can be a full or short file name. Use an empty string to switch to evaluation mode. |
+## Remarks
+
 
 Tries to find the license in the following locations:
 
@@ -60,7 +68,6 @@ Tries to find the license in the following locations:
 
 
 ## Examples
-
 
 
 
@@ -82,7 +89,12 @@ System::IO::File::Copy(licenseFileName, licenseCopyFileName);
 license->SetLicense(u"Aspose.Words.Cpp.lic");
 ```
 
-## License.SetLicense(std::basic_istream\<CharType, Traits\>\&) method
+## See Also
+
+* Class [License](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## License::SetLicense(std::basic_istream\<CharType, Traits\>\&) method
 
 
 
@@ -91,3 +103,8 @@ license->SetLicense(u"Aspose.Words.Cpp.lic");
 template<typename CharType,typename Traits> void Aspose::Words::License::SetLicense(std::basic_istream<CharType, Traits> &stream)
 ```
 
+## See Also
+
+* Class [License](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words.layout/layoutenumerator/set_current/
 ---
-## LayoutEnumerator.set_Current method
+## LayoutEnumerator::set_Current method
 
 
 Setter for [Aspose::Words::Layout::LayoutEnumerator::get_Current](../get_current/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Layout::LayoutEnumerator::get_Current](../get_current
 void Aspose::Words::Layout::LayoutEnumerator::set_Current(const System::SharedPtr<System::Object> &value)
 ```
 
+## See Also
+
+* Class [LayoutEnumerator](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

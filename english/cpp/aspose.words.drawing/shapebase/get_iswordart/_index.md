@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/aspose.words.drawing/shapebase/get_iswordart/
 ---
-## ShapeBase.get_IsWordArt method
+## ShapeBase::get_IsWordArt method
 
 
 Returns true if this shape is a WordArt object.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::ShapeBase::get_IsWordArt()
 
 
 ## Examples
-
 
 
 
@@ -123,3 +122,8 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
 }
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

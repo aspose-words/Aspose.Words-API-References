@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words/variablecollection/get_count/
 ---
-## VariableCollection.get_Count method
+## VariableCollection::get_Count method
 
 
 Gets the number of elements contained in the collection.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::VariableCollection::get_Count()
 
 
 ## Examples
-
 
 
 
@@ -87,3 +86,8 @@ variables->Clear();
 ASSERT_EQ(0, variables->get_Count());
 ```
 
+## See Also
+
+* Class [VariableCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

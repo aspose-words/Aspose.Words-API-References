@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fonts/fontfallbacksettings/buildautomatic/
 ---
-## FontFallbackSettings.BuildAutomatic method
+## FontFallbackSettings::BuildAutomatic method
 
 
 Automatically builds the fallback settings by scanning available fonts.
@@ -17,7 +17,6 @@ void Aspose::Words::Fonts::FontFallbackSettings::BuildAutomatic()
 
 
 ## Examples
-
 
 
 
@@ -74,3 +73,8 @@ for (int i = 0x0021; i < 0x0530; i++)
 doc->Save(ArtifactsDir + u"FontSettings.FallbackSettingsCustom.pdf");
 ```
 
+## See Also
+
+* Class [FontFallbackSettings](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.saving/xamlflowsaveoptions/get_imagesfolderalias/
 ---
-## XamlFlowSaveOptions.get_ImagesFolderAlias method
+## XamlFlowSaveOptions::get_ImagesFolderAlias method
 
 
 Specifies the name of the folder used to construct image URIs written into an XAML document. Default is an empty string.
@@ -14,6 +14,8 @@ Specifies the name of the folder used to construct image URIs written into an XA
 ```cpp
 System::String Aspose::Words::Saving::XamlFlowSaveOptions::get_ImagesFolderAlias() const
 ```
+
+## Remarks
 
 
 When you save a [Document](../../../aspose.words/document/) in XAML format, Aspose.Words needs to save all images embedded in the document as standalone files. [ImagesFolder](../get_imagesfolder/) allows you to specify where the images will be saved and [ImagesFolderAlias](./) allows to specify how the image URIs will be constructed.
@@ -25,7 +27,6 @@ If [ImagesFolderAlias](./) is an empty string, then the image URI written to XAM
 If [ImagesFolderAlias](./) is set to '.' (dot), then the image file name will be written to XAML without path regardless of other options.
 
 ## Examples
-
 
 
 
@@ -101,3 +102,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [XamlFlowSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

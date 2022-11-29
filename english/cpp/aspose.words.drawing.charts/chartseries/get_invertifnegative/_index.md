@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.drawing.charts/chartseries/get_invertifnegative/
 ---
-## ChartSeries.get_InvertIfNegative method
+## ChartSeries::get_InvertIfNegative method
 
 
 Specifies whether the parent element shall inverts its colors if the value is negative.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::Charts::ChartSeries::get_InvertIfNegative() overrid
 
 
 ## Examples
-
 
 
 
@@ -77,3 +76,8 @@ static void ApplyDataPoints(SharedPtr<ChartSeries> series, int dataPointsCount, 
 }
 ```
 
+## See Also
+
+* Class [ChartSeries](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

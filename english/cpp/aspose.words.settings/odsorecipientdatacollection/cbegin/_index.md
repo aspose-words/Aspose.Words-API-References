@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.settings/odsorecipientdatacollection/cbegin/
 ---
-## OdsoRecipientDataCollection.cbegin method
+## OdsoRecipientDataCollection::cbegin method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.settings/odsorecipientdatacollection/cbegin/
 const_iterator Aspose::Words::Settings::OdsoRecipientDataCollection::cbegin() const noexcept
 ```
 
+## See Also
+
+* Typedef [const_iterator](../const_iterator/)
+* Class [OdsoRecipientDataCollection](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

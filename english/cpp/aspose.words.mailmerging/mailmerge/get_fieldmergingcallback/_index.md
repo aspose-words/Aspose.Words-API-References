@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/
 ---
-## MailMerge.get_FieldMergingCallback method
+## MailMerge::get_FieldMergingCallback method
 
 
 Occurs during mail merge when a mail merge field is encountered in the document.
@@ -17,7 +17,6 @@ const System::SharedPtr<Aspose::Words::MailMerging::IFieldMergingCallback> & Asp
 
 
 ## Examples
-
 
 
 
@@ -70,3 +69,9 @@ private:
 };
 ```
 
+## See Also
+
+* Interface [IFieldMergingCallback](../../ifieldmergingcallback/)
+* Class [MailMerge](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

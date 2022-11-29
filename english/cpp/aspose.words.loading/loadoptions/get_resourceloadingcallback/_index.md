@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.loading/loadoptions/get_resourceloadingcallback/
 ---
-## LoadOptions.get_ResourceLoadingCallback method
+## LoadOptions::get_ResourceLoadingCallback method
 
 
 Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Loading::IResourceLoadingCallback> Aspose::Word
 
 
 ## Examples
-
 
 
 
@@ -65,3 +64,9 @@ public:
 };
 ```
 
+## See Also
+
+* Interface [IResourceLoadingCallback](../../iresourceloadingcallback/)
+* Class [LoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

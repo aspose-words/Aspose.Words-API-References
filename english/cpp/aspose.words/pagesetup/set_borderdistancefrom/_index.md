@@ -6,7 +6,7 @@ type: docs
 weight: 625
 url: /cpp/aspose.words/pagesetup/set_borderdistancefrom/
 ---
-## PageSetup.set_BorderDistanceFrom method
+## PageSetup::set_BorderDistanceFrom method
 
 
 Setter for [Aspose::Words::PageSetup::get_BorderDistanceFrom](../get_borderdistancefrom/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::PageSetup::get_BorderDistanceFrom](../get_borderdista
 void Aspose::Words::PageSetup::set_BorderDistanceFrom(Aspose::Words::PageBorderDistanceFrom value)
 ```
 
+## See Also
+
+* Enum [PageBorderDistanceFrom](../../pageborderdistancefrom/)
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

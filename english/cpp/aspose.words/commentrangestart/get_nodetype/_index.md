@@ -6,10 +6,10 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/commentrangestart/get_nodetype/
 ---
-## CommentRangeStart.get_NodeType method
+## CommentRangeStart::get_NodeType method
 
 
-Returns **CommentRangeStart**.
+Returns [CommentRangeStart](../../nodetype/).
 
 ```cpp
 Aspose::Words::NodeType Aspose::Words::CommentRangeStart::get_NodeType() const override
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::CommentRangeStart::get_NodeType() const o
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,9 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../nodetype/)
+* Class [CommentRangeStart](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

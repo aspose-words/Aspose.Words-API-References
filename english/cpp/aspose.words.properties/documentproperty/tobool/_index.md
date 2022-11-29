@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.properties/documentproperty/tobool/
 ---
-## DocumentProperty.ToBool method
+## DocumentProperty::ToBool method
 
 
 Returns the property value as bool.
@@ -15,11 +15,12 @@ Returns the property value as bool.
 bool Aspose::Words::Properties::DocumentProperty::ToBool()
 ```
 
+## Remarks
 
-Throws an exception if the property type is not **Boolean**.
+
+Throws an exception if the property type is not [Boolean](../../propertytype/).
 
 ## Examples
-
 
 
 
@@ -42,3 +43,8 @@ ASSERT_EQ(1, properties->idx_get(u"Authorized Revision")->ToInt());
 ASPOSE_ASSERT_EQ(123.45, properties->idx_get(u"Authorized Amount")->ToDouble());
 ```
 
+## See Also
+
+* Class [DocumentProperty](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

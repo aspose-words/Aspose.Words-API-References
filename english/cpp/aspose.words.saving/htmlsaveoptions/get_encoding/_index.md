@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_encoding/
 ---
-## HtmlSaveOptions.get_Encoding method
+## HtmlSaveOptions::get_Encoding method
 
 
 Specifies the encoding to use when exporting to HTML, MHTML or EPUB. Default value is **new UTF8Encoding(false)** (UTF-8 without BOM).
@@ -17,7 +17,6 @@ System::SharedPtr<System::Text::Encoding> Aspose::Words::Saving::HtmlSaveOptions
 
 
 ## Examples
-
 
 
 
@@ -42,3 +41,8 @@ saveOptions->set_ExportDocumentProperties(true);
 doc->Save(ArtifactsDir + u"HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

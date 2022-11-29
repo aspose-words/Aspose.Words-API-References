@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.layout/layoutoptions/set_ignoreprintermetrics/
 ---
-## LayoutOptions.set_IgnorePrinterMetrics method
+## LayoutOptions::set_IgnorePrinterMetrics method
 
 
 Setter for [Aspose::Words::Layout::LayoutOptions::get_IgnorePrinterMetrics](../get_ignoreprintermetrics/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Layout::LayoutOptions::get_IgnorePrinterMetrics](../g
 void Aspose::Words::Layout::LayoutOptions::set_IgnorePrinterMetrics(bool value)
 ```
 
+## See Also
+
+* Class [LayoutOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

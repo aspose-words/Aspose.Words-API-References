@@ -29,6 +29,8 @@ class TextColumnCollection : public System::Object
 | [set_LineBetween](./set_linebetween/)(bool) | Setter for [Aspose::Words::TextColumnCollection::get_LineBetween](./get_linebetween/). |
 | [set_Spacing](./set_spacing/)(double) | Setter for [Aspose::Words::TextColumnCollection::get_Spacing](./get_spacing/). |
 | [SetCount](./setcount/)(int32_t) | Arranges text into the specified number of text columns. |
+## Remarks
+
 
 Use [SetCount()](./setcount/) to set the number of text columns.
 
@@ -39,7 +41,6 @@ If you have **EvenlySpaced** set to **false**, you need to specify width and spa
 When using custom column widths, make sure the sum of all column widths and spacings between them equals page width minus left and right page margins.
 
 ## Examples
-
 
 
 
@@ -59,3 +60,7 @@ builder->Writeln(u"Column 2.");
 doc->Save(ArtifactsDir + u"PageSetup.ColumnsSameWidth.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

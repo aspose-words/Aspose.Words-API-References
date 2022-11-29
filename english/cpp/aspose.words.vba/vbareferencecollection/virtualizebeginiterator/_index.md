@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.vba/vbareferencecollection/virtualizebeginiterator/
 ---
-## VbaReferenceCollection.virtualizeBeginIterator method
+## VbaReferenceCollection::virtualizeBeginIterator method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.vba/vbareferencecollection/virtualizebeginiterator/
 virtualized_iterator * Aspose::Words::Vba::VbaReferenceCollection::virtualizeBeginIterator() override
 ```
 
+## See Also
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [VbaReferenceCollection](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

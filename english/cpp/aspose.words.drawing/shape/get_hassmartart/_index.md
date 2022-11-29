@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.drawing/shape/get_hassmartart/
 ---
-## Shape.get_HasSmartArt method
+## Shape::get_HasSmartArt method
 
 
 Returns true if this [Shape](../) has a SmartArt object.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::Shape::get_HasSmartArt()
 
 
 ## Examples
-
 
 
 
@@ -32,3 +31,8 @@ int numberOfSmartArtShapes = doc->GetChildNodes(NodeType::Shape, true)
 ASSERT_EQ(2, numberOfSmartArtShapes);
 ```
 
+## See Also
+
+* Class [Shape](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

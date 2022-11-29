@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing/gradientstyle/
 
 Specifies the style for a gradient fill.
 
+```cpp
+enum class GradientStyle
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -25,7 +29,6 @@ Specifies the style for a gradient fill.
 
 
 ## Examples
-
 
 
 
@@ -65,3 +68,7 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 doc->Save(ArtifactsDir + u"Shape.GradientFill.docx", saveOptions);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

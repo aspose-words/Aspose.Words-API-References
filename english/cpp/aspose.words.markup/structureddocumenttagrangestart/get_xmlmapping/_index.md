@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_xmlmapping/
 ---
-## StructuredDocumentTagRangeStart.get_XmlMapping method
+## StructuredDocumentTagRangeStart::get_XmlMapping method
 
 
 Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Markup::XmlMapping> Aspose::Words::Markup::Stru
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,9 @@ sdtRangeStart->get_XmlMapping()->SetMapping(xmlPart, u"/root[1]/text[2]", nullpt
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.StructuredDocumentTagRangeStartXmlMapping.docx");
 ```
 
+## See Also
+
+* Class [XmlMapping](../../xmlmapping/)
+* Class [StructuredDocumentTagRangeStart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

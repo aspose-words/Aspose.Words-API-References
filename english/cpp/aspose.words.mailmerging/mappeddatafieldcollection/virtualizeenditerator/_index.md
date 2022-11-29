@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/virtualizeenditerator/
 ---
-## MappedDataFieldCollection.virtualizeEndIterator method
+## MappedDataFieldCollection::virtualizeEndIterator method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/virtualizeenditerat
 virtualized_iterator * Aspose::Words::MailMerging::MappedDataFieldCollection::virtualizeEndIterator() override
 ```
 
+## See Also
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [MappedDataFieldCollection](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

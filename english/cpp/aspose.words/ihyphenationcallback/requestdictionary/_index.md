@@ -6,10 +6,10 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/ihyphenationcallback/requestdictionary/
 ---
-## IHyphenationCallback.RequestDictionary method
+## IHyphenationCallback::RequestDictionary method
 
 
-Notifies application that hyphenation dictionary for the specified language wasn't found and may need to be registered. Implementation should find a dictionary and register it using **RegisterDictionary()** methods. If dictionary is unavailable for the specified language implementation can opt out of further calls for the same language using **RegisterDictionary()** with null value.
+Notifies application that hyphenation dictionary for the specified language wasn't found and may need to be registered. Implementation should find a dictionary and register it using [RegisterDictionary()](../) methods. If dictionary is unavailable for the specified language implementation can opt out of further calls for the same language using [RegisterDictionary()](../) with null value.
 
 ```cpp
 virtual void Aspose::Words::IHyphenationCallback::RequestDictionary(System::String language)=0
@@ -21,7 +21,6 @@ virtual void Aspose::Words::IHyphenationCallback::RequestDictionary(System::Stri
 | language | System::String | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. |
 
 ## Examples
-
 
 
 
@@ -93,3 +92,8 @@ private:
 };
 ```
 
+## See Also
+
+* Interface [IHyphenationCallback](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

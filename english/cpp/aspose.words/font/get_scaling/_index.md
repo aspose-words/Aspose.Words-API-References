@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/aspose.words/font/get_scaling/
 ---
-## Font.get_Scaling method
+## Font::get_Scaling method
 
 
 Gets or sets character width scaling in percent.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Font::get_Scaling()
 
 
 ## Examples
-
 
 
 
@@ -41,3 +40,8 @@ builder->Writeln(u"Condensed by 1pt");
 doc->Save(ArtifactsDir + u"Font.ScalingSpacing.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

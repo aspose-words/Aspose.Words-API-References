@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.saving/saveoptions/get_memoryoptimization/
 ---
-## SaveOptions.get_MemoryOptimization method
+## SaveOptions::get_MemoryOptimization method
 
 
 Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**.
@@ -17,7 +17,6 @@ bool Aspose::Words::Saving::SaveOptions::get_MemoryOptimization() const
 
 
 ## Examples
-
 
 
 
@@ -37,3 +36,8 @@ saveOptions->set_MemoryOptimization(memoryOptimization);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 ```
 
+## See Also
+
+* Class [SaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

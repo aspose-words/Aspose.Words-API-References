@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words/style/set_basestylename/
 ---
-## Style.set_BaseStyleName method
+## Style::set_BaseStyleName method
 
 
 Setter for [Aspose::Words::Style::get_BaseStyleName](../get_basestylename/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Style::get_BaseStyleName](../get_basestylename/).
 void Aspose::Words::Style::set_BaseStyleName(const System::String &value)
 ```
 
+## See Also
+
+* Class [Style](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

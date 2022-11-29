@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.saving/pdfdigitalsignaturedetails/get_signaturedate/
 ---
-## PdfDigitalSignatureDetails.get_SignatureDate method
+## PdfDigitalSignatureDetails::get_SignatureDate method
 
 
 Gets or sets the date of the signing.
@@ -15,13 +15,14 @@ Gets or sets the date of the signing.
 System::DateTime Aspose::Words::Saving::PdfDigitalSignatureDetails::get_SignatureDate() const
 ```
 
+## Remarks
+
 
 The default value is the current time.
 
 This value will appear in the digital signature as an unverified computer time.
 
 ## Examples
-
 
 
 
@@ -50,3 +51,8 @@ ASSERT_EQ(signingTime.ToUniversalTime(), options->get_DigitalSignatureDetails()-
 doc->Save(ArtifactsDir + u"PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```
 
+## See Also
+
+* Class [PdfDigitalSignatureDetails](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

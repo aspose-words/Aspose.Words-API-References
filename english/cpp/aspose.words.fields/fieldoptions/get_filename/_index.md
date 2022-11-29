@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.fields/fieldoptions/get_filename/
 ---
-## FieldOptions.get_FileName method
+## FieldOptions::get_FileName method
 
 
 Gets or sets the file name of the document.
@@ -15,11 +15,12 @@ Gets or sets the file name of the document.
 System::String Aspose::Words::Fields::FieldOptions::get_FileName() const
 ```
 
+## Remarks
+
 
 This property is used by the [FieldFileName](../../fieldfilename/) field with higher priority than the [OriginalFileName](../../../aspose.words/document/get_originalfilename/) property.
 
 ## Examples
-
 
 
 
@@ -60,3 +61,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + doc->get_FieldOptions()->get_FileName());
 ```
 
+## See Also
+
+* Class [FieldOptions](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

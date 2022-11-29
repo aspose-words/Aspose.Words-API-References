@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_downsampleoptions/
 ---
-## PdfSaveOptions.get_DownsampleOptions method
+## PdfSaveOptions::get_DownsampleOptions method
 
 
 Allows to specify downsample options.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Saving::DownsampleOptions> Aspose::Words::Savin
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,9 @@ options->get_DownsampleOptions()->set_ResolutionThreshold(128);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", options);
 ```
 
+## See Also
+
+* Class [DownsampleOptions](../../downsampleoptions/)
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

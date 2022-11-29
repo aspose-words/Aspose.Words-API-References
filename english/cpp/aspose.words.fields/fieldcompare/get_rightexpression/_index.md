@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fieldcompare/get_rightexpression/
 ---
-## FieldCompare.get_RightExpression method
+## FieldCompare::get_RightExpression method
 
 
 Gets or sets the right part of the comparison expression.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldCompare::get_RightExpression()
 
 
 ## Examples
-
 
 
 
@@ -53,3 +52,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.COMPARE.docx");
 ```
 
+## See Also
+
+* Class [FieldCompare](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

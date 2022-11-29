@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.words/documentvisitor/visitfootnoteend/
 ---
-## DocumentVisitor.VisitFootnoteEnd method
+## DocumentVisitor::VisitFootnoteEnd method
 
 
 Called when enumeration of a footnote or endnote text has ended.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitFootno
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -104,3 +102,10 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [Footnote](../../../aspose.words.notes/footnote/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

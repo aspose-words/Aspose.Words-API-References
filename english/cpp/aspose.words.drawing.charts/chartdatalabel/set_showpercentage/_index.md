@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/set_showpercentage/
 ---
-## ChartDataLabel.set_ShowPercentage method
+## ChartDataLabel::set_ShowPercentage method
 
 
 Setter for [Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowPercentage](../get_showpercentage/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowPercentage](
 void Aspose::Words::Drawing::Charts::ChartDataLabel::set_ShowPercentage(bool value)
 ```
 
+## See Also
+
+* Class [ChartDataLabel](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

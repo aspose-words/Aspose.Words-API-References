@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fonts/tablesubstitutionrule/getsubstitutes/
 ---
-## TableSubstitutionRule.GetSubstitutes method
+## TableSubstitutionRule::GetSubstitutes method
 
 
 Returns array containing substitute font names for the specified original font name.
@@ -22,11 +22,9 @@ System::SharedPtr<System::Collections::Generic::IEnumerable<System::String>> Asp
 
 ### ReturnValue
 
-
 List of alternative font names.
 
 ## Examples
-
 
 
 
@@ -136,3 +134,8 @@ builder->Writeln(u"Text written in Times New Roman, to be substituted by Squaris
 doc->Save(ArtifactsDir + u"FontSettings.TableSubstitutionRule.Custom.pdf");
 ```
 
+## See Also
+
+* Class [TableSubstitutionRule](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

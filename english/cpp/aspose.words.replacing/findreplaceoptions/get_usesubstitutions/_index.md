@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.replacing/findreplaceoptions/get_usesubstitutions/
 ---
-## FindReplaceOptions.get_UseSubstitutions method
+## FindReplaceOptions::get_UseSubstitutions method
 
 
 Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. The default value is **false**.
@@ -17,7 +17,6 @@ bool Aspose::Words::Replacing::FindReplaceOptions::get_UseSubstitutions() const
 
 
 ## Examples
-
 
 
 
@@ -66,3 +65,8 @@ ASSERT_EQ(useSubstitutions ? String(u"Paul bought a car from John.\rJoe bought a
           doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [FindReplaceOptions](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)

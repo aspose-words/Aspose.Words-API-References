@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words/inlinestory/get_tables/
 ---
-## InlineStory.get_Tables method
+## InlineStory::get_Tables method
 
 
 Gets a collection of tables that are immediate children of the story.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Tables::TableCollection> Aspose::Words::InlineS
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,9 @@ ASSERT_EQ(StoryType::Comments, comment->get_StoryType());
 doc->Save(ArtifactsDir + u"InlineStory.InsertInlineStoryNodes.docx");
 ```
 
+## See Also
+
+* Class [TableCollection](../../../aspose.words.tables/tablecollection/)
+* Class [InlineStory](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

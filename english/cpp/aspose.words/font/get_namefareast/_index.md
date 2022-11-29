@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/aspose.words/font/get_namefareast/
 ---
-## Font.get_NameFarEast method
+## Font::get_NameFarEast method
 
 
 Returns or sets an East Asian font name.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Font::get_NameFarEast()
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,8 @@ builder->Writeln(u"你好世界");
 doc->Save(ArtifactsDir + u"Font.FarEast.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

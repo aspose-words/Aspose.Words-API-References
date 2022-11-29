@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fields/fielddisplaybarcode/get_displaytext/
 ---
-## FieldDisplayBarcode.get_DisplayText method
+## FieldDisplayBarcode::get_DisplayText method
 
 
 Gets or sets whether to display barcode data (text) along with image.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldDisplayBarcode::get_DisplayText()
 
 
 ## Examples
-
 
 
 
@@ -73,3 +72,8 @@ ASSERT_EQ(u" DISPLAYBARCODE  09312345678907 ITF14 \\c STD", field->GetFieldCode(
 doc->Save(ArtifactsDir + u"Field.DISPLAYBARCODE.docx");
 ```
 
+## See Also
+
+* Class [FieldDisplayBarcode](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

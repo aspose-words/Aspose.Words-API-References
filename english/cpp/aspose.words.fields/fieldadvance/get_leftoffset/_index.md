@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fieldadvance/get_leftoffset/
 ---
-## FieldAdvance.get_LeftOffset method
+## FieldAdvance::get_LeftOffset method
 
 
 Gets or sets the number of points by which the text that follows the field should be moved left.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldAdvance::get_LeftOffset()
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,8 @@ builder->Write(u"This text is in a custom position.");
 doc->Save(ArtifactsDir + u"Field.ADVANCE.docx");
 ```
 
+## See Also
+
+* Class [FieldAdvance](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

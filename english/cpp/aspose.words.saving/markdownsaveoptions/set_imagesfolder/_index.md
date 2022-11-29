@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.saving/markdownsaveoptions/set_imagesfolder/
 ---
-## MarkdownSaveOptions.set_ImagesFolder method
+## MarkdownSaveOptions::set_ImagesFolder method
 
 
 Setter for [Aspose::Words::Saving::MarkdownSaveOptions::get_ImagesFolder](../get_imagesfolder/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::MarkdownSaveOptions::get_ImagesFolder](../get
 void Aspose::Words::Saving::MarkdownSaveOptions::set_ImagesFolder(const System::String &value)
 ```
 
+## See Also
+
+* Class [MarkdownSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

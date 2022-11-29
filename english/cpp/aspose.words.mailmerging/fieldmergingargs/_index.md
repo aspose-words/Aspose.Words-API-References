@@ -29,11 +29,12 @@ class FieldMergingArgs : public Aspose::Words::MailMerging::FieldMergingArgsBase
 | [get_Text](./get_text/)() const | Gets or sets the text that will be inserted into the document for the current merge field. |
 | [set_FieldValue](../fieldmergingargsbase/set_fieldvalue/)(const System::SharedPtr\<System::Object\>\&) | Sets the value of the field from the data source. |
 | [set_Text](./set_text/)(const System::String\&) | Setter for [Aspose::Words::MailMerging::FieldMergingArgs::get_Text](./get_text/). |
+## Remarks
+
 
 The **MergeField** event occurs during mail merge when a simple mail merge field is encountered in the document. You can respond to this event to return text for the mail merge engine to insert into the document.
 
 ## Examples
-
 
 
 
@@ -86,3 +87,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [FieldMergingArgsBase](../fieldmergingargsbase/)
+* Namespace [Aspose::Words::MailMerging](../)
+* Library [Aspose.Words](../../)

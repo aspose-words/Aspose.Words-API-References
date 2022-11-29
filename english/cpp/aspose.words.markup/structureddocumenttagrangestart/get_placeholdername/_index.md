@@ -6,10 +6,10 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_placeholdername/
 ---
-## StructuredDocumentTagRangeStart.get_PlaceholderName method
+## StructuredDocumentTagRangeStart::get_PlaceholderName method
 
 
-Gets or sets Name of the [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/) containing placeholder text. BuildingBlock with this name [Name](../../../aspose.words.buildingblocks/buildingblock/get_name/) has to be present in the [GlossaryDocument](../../../aspose.words/document/get_glossarydocument/) otherwise **InvalidOperationException** will occur.
+Gets or sets Name of the [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/) containing placeholder text. BuildingBlock with this name [Name](../../../aspose.words.buildingblocks/buildingblock/get_name/) has to be present in the [GlossaryDocument](../../../aspose.words/document/get_glossarydocument/) otherwise [InvalidOperationException](../) will occur.
 
 ```cpp
 System::String Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_PlaceholderName() override
@@ -17,7 +17,6 @@ System::String Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_Place
 
 
 ## Examples
-
 
 
 
@@ -49,3 +48,8 @@ std::cout << "\t|Id: " << rangeEndTag->get_Id() << std::endl;
 std::cout << String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) << std::endl;
 ```
 
+## See Also
+
+* Class [StructuredDocumentTagRangeStart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

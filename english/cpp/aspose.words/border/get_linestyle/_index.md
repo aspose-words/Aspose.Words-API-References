@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/border/get_linestyle/
 ---
-## Border.get_LineStyle method
+## Border::get_LineStyle method
 
 
 Gets or sets the border style.
@@ -15,11 +15,12 @@ Gets or sets the border style.
 Aspose::Words::LineStyle Aspose::Words::Border::get_LineStyle()
 ```
 
+## Remarks
+
 
 If you set line style to none, then line width is automatically changed to zero.
 
 ## Examples
-
 
 
 
@@ -37,3 +38,9 @@ builder->Write(u"Text surrounded by green border.");
 doc->Save(ArtifactsDir + u"Border.FontBorder.docx");
 ```
 
+## See Also
+
+* Enum [LineStyle](../../linestyle/)
+* Class [Border](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/controlchar/cell/
 ---
-## ControlChar.Cell method
+## ControlChar::Cell method
 
 
 End of a table cell or end of a table row character: "\x0007" or "\a".
@@ -17,7 +17,6 @@ static System::String & Aspose::Words::ControlChar::Cell()
 
 
 ## Examples
-
 
 
 
@@ -87,3 +86,8 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::PageBreak()), ControlChar:
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlChar::ColumnBreakChar);
 ```
 
+## See Also
+
+* Class [ControlChar](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

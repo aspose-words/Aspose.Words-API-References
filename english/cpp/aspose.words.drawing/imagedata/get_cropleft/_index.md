@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.drawing/imagedata/get_cropleft/
 ---
-## ImageData.get_CropLeft method
+## ImageData::get_CropLeft method
 
 
 Defines the fraction of picture removal from the left side.
@@ -15,13 +15,14 @@ Defines the fraction of picture removal from the left side.
 double Aspose::Words::Drawing::ImageData::get_CropLeft()
 ```
 
+## Remarks
+
 
 The amount of cropping can range from -1.0 to 1.0. The default value is 0. Note that a value of 1 will display no picture at all. Negative values will result in the picture being squeezed inward from the edge being cropped (the empty space between the picture and the cropped edge will be filled by the fill color of the shape). Positive values less than 1 will result in the remaining picture being stretched to fit the shape.
 
 The default value is 0.
 
 ## Examples
-
 
 
 
@@ -82,3 +83,8 @@ importedShape->get_ImageData()->set_CropRight(0.3);
 dstDoc->Save(ArtifactsDir + u"Drawing.ImageData.docx");
 ```
 
+## See Also
+
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

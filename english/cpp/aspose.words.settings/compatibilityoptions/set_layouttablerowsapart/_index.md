@@ -6,7 +6,7 @@ type: docs
 weight: 1314
 url: /cpp/aspose.words.settings/compatibilityoptions/set_layouttablerowsapart/
 ---
-## CompatibilityOptions.set_LayoutTableRowsApart method
+## CompatibilityOptions::set_LayoutTableRowsApart method
 
 
 Allow Table Rows to Wrap [Inline](../../../aspose.words/inline/) Objects Independently.
@@ -15,3 +15,8 @@ Allow Table Rows to Wrap [Inline](../../../aspose.words/inline/) Objects Indepen
 void Aspose::Words::Settings::CompatibilityOptions::set_LayoutTableRowsApart(bool value)
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

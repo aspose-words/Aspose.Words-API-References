@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/aspose.words.fields/fieldoptions/set_fieldupdatingcallback/
 ---
-## FieldOptions.set_FieldUpdatingCallback method
+## FieldOptions::set_FieldUpdatingCallback method
 
 
 Sets [IFieldUpdatingCallback](../../ifieldupdatingcallback/) implementation.
@@ -15,3 +15,9 @@ Sets [IFieldUpdatingCallback](../../ifieldupdatingcallback/) implementation.
 void Aspose::Words::Fields::FieldOptions::set_FieldUpdatingCallback(const System::SharedPtr<Aspose::Words::Fields::IFieldUpdatingCallback> &value)
 ```
 
+## See Also
+
+* Interface [IFieldUpdatingCallback](../../ifieldupdatingcallback/)
+* Class [FieldOptions](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

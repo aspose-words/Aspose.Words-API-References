@@ -29,6 +29,8 @@ class ImageSavingArgs : public System::Object
 | [set_ImageStream](./set_imagestream/)(const System::SharedPtr\<System::IO::Stream\>\&) | Setter for [Aspose::Words::Saving::ImageSavingArgs::get_ImageStream](./get_imagestream/). |
 | [set_ImageStream](./set_imagestream/)(std::basic_ostream\<CharType, Traits\>\&) |  |
 | [set_KeepImageStreamOpen](./set_keepimagestreamopen/)(bool) | Setter for [Aspose::Words::Saving::ImageSavingArgs::get_KeepImageStreamOpen](./get_keepimagestreamopen/). |
+## Remarks
+
 
 By default, when Aspose.Words saves a document to HTML, it saves each image into a separate file. Aspose.Words uses the document file name and a unique number to generate unique file name for each image found in the document.
 
@@ -39,7 +41,6 @@ To apply your own logic for generating image file names use the [ImageFileName](
 To save images into streams instead of files, use the [ImageStream](./get_imagestream/) property.
 
 ## Examples
-
 
 
 
@@ -161,3 +162,7 @@ private:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

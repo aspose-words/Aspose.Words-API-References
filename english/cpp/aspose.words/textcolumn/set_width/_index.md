@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/textcolumn/set_width/
 ---
-## TextColumn.set_Width method
+## TextColumn::set_Width method
 
 
 Setter for [Aspose::Words::TextColumn::get_Width](../get_width/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::TextColumn::get_Width](../get_width/).
 void Aspose::Words::TextColumn::set_Width(double value)
 ```
 
+## See Also
+
+* Class [TextColumn](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

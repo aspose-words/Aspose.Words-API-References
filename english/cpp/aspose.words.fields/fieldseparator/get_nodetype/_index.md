@@ -6,10 +6,10 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldseparator/get_nodetype/
 ---
-## FieldSeparator.get_NodeType method
+## FieldSeparator::get_NodeType method
 
 
-Returns **FieldSeparator**.
+Returns [FieldSeparator](../../../aspose.words/nodetype/).
 
 ```cpp
 Aspose::Words::NodeType Aspose::Words::Fields::FieldSeparator::get_NodeType() const override
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::Fields::FieldSeparator::get_NodeType() co
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,9 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../../aspose.words/nodetype/)
+* Class [FieldSeparator](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

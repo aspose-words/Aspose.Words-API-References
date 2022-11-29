@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fieldprintdate/get_useumalquracalendar/
 ---
-## FieldPrintDate.get_UseUmAlQuraCalendar method
+## FieldPrintDate::get_UseUmAlQuraCalendar method
 
 
 Gets or sets whether to use the Um-al-Qura calendar.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldPrintDate::get_UseUmAlQuraCalendar()
 
 
 ## Examples
-
 
 
 
@@ -57,3 +56,8 @@ ASSERT_EQ(u"1/5/1942 12:00:00 AM", field->get_Result());
 ASSERT_EQ(u" PRINTDATE  \\s", field->GetFieldCode());
 ```
 
+## See Also
+
+* Class [FieldPrintDate](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

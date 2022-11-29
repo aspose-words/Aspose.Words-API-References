@@ -6,7 +6,7 @@ type: docs
 weight: 742
 url: /cpp/aspose.words.settings/compatibilityoptions/get_ultrailspace/
 ---
-## CompatibilityOptions.get_UlTrailSpace method
+## CompatibilityOptions::get_UlTrailSpace method
 
 
 Underline All Trailing Spaces.
@@ -15,3 +15,8 @@ Underline All Trailing Spaces.
 bool Aspose::Words::Settings::CompatibilityOptions::get_UlTrailSpace()
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

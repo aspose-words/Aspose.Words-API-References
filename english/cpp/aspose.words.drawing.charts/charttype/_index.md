@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing.charts/charttype/
 
 Specifies type of a chart.
 
+```cpp
+enum class ChartType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -53,7 +57,6 @@ Specifies type of a chart.
 
 
 ## Examples
-
 
 
 
@@ -130,3 +133,7 @@ static SharedPtr<Chart> AppendChart(SharedPtr<DocumentBuilder> builder, ChartTyp
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing::Charts](../)
+* Library [Aspose.Words](../../)

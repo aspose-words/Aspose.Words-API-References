@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/aspose.words/document/get_nodetype/
 ---
-## Document.get_NodeType method
+## Document::get_NodeType method
 
 
 Returns **NodeType.Document**.
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::Document::get_NodeType() const override
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,9 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../nodetype/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

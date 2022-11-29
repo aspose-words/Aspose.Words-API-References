@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fielddatabase/fielddatabase/
 ---
-## FieldDatabase.FieldDatabase method
+## FieldDatabase::FieldDatabase constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.fields/fielddatabase/fielddatabase/
 Aspose::Words::Fields::FieldDatabase::FieldDatabase()
 ```
 
+## See Also
+
+* Class [FieldDatabase](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

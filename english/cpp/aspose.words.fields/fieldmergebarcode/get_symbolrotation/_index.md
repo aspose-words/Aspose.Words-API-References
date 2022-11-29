@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.fields/fieldmergebarcode/get_symbolrotation/
 ---
-## FieldMergeBarcode.get_SymbolRotation method
+## FieldMergeBarcode::get_SymbolRotation method
 
 
 Gets the rotation of the barcode symbol. Valid values are [0, 3].
@@ -15,3 +15,8 @@ Gets the rotation of the barcode symbol. Valid values are [0, 3].
 System::String Aspose::Words::Fields::FieldMergeBarcode::get_SymbolRotation()
 ```
 
+## See Also
+
+* Class [FieldMergeBarcode](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/tabstop/get_isclear/
 ---
-## TabStop.get_IsClear method
+## TabStop::get_IsClear method
 
 
 Returns true if this tab stop clears any existing tab stops in this position.
@@ -17,7 +17,6 @@ bool Aspose::Words::TabStop::get_IsClear()
 
 
 ## Examples
-
 
 
 
@@ -59,3 +58,8 @@ ASSERT_EQ(0, paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops()->get_
 doc->Save(ArtifactsDir + u"TabStopCollection.TabStopCollection.docx");
 ```
 
+## See Also
+
+* Class [TabStop](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.comparing/compareoptions/compareoptions/
 ---
-## CompareOptions.CompareOptions method
+## CompareOptions::CompareOptions constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.comparing/compareoptions/compareoptions/
 Aspose::Words::Comparing::CompareOptions::CompareOptions()
 ```
 
+## See Also
+
+* Class [CompareOptions](../)
+* Namespace [Aspose::Words::Comparing](../../)
+* Library [Aspose.Words](../../../)

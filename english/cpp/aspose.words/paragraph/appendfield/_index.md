@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/paragraph/appendfield/
 ---
-## Paragraph.AppendField(Aspose::Words::Fields::FieldType, bool) method
+## Paragraph::AppendField(Aspose::Words::Fields::FieldType, bool) method
 
 
 Appends a field to this paragraph.
@@ -23,11 +23,9 @@ System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Paragraph::Append
 
 ### ReturnValue
 
-
 A [Field](../../../aspose.words.fields/field/) object that represents the appended field.
 
 ## Examples
-
 
 
 
@@ -56,7 +54,14 @@ ASSERT_EQ(u"Real value", doc->get_Range()->get_Fields()->idx_get(2)->get_Result(
 doc->Save(ArtifactsDir + u"Paragraph.AppendField.docx");
 ```
 
-## Paragraph.AppendField(const System::String\&) method
+## See Also
+
+* Class [Field](../../../aspose.words.fields/field/)
+* Enum [FieldType](../../../aspose.words.fields/fieldtype/)
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Paragraph::AppendField(const System::String\&) method
 
 
 Appends a field to this paragraph.
@@ -72,11 +77,9 @@ System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Paragraph::Append
 
 ### ReturnValue
 
-
 A [Field](../../../aspose.words.fields/field/) object that represents the appended field.
 
 ## Examples
-
 
 
 
@@ -105,7 +108,13 @@ ASSERT_EQ(u"Real value", doc->get_Range()->get_Fields()->idx_get(2)->get_Result(
 doc->Save(ArtifactsDir + u"Paragraph.AppendField.docx");
 ```
 
-## Paragraph.AppendField(const System::String\&, const System::String\&) method
+## See Also
+
+* Class [Field](../../../aspose.words.fields/field/)
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Paragraph::AppendField(const System::String\&, const System::String\&) method
 
 
 Appends a field to this paragraph.
@@ -122,11 +131,9 @@ System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Paragraph::Append
 
 ### ReturnValue
 
-
 A [Field](../../../aspose.words.fields/field/) object that represents the appended field.
 
 ## Examples
-
 
 
 
@@ -155,3 +162,9 @@ ASSERT_EQ(u"Real value", doc->get_Range()->get_Fields()->idx_get(2)->get_Result(
 doc->Save(ArtifactsDir + u"Paragraph.AppendField.docx");
 ```
 
+## See Also
+
+* Class [Field](../../../aspose.words.fields/field/)
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

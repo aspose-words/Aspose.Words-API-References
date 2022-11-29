@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/bordercollection/get_count/
 ---
-## BorderCollection.get_Count method
+## BorderCollection::get_Count method
 
 
 Gets the number of borders in the collection.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::BorderCollection::get_Count()
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,8 @@ for (int i = 0; i < firstParagraphBorders->get_Count(); i++)
 doc->Save(ArtifactsDir + u"Border.SharedElements.docx");
 ```
 
+## See Also
+
+* Class [BorderCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.markup/custompartcollection/virtualizebeginiterator/
 ---
-## CustomPartCollection.virtualizeBeginIterator method
+## CustomPartCollection::virtualizeBeginIterator method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.markup/custompartcollection/virtualizebeginiterator/
 virtualized_iterator * Aspose::Words::Markup::CustomPartCollection::virtualizeBeginIterator() override
 ```
 
+## See Also
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [CustomPartCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

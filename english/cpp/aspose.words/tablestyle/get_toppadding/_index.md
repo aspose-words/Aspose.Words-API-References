@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words/tablestyle/get_toppadding/
 ---
-## TableStyle.get_TopPadding method
+## TableStyle::get_TopPadding method
 
 
 Gets or sets the amount of space (in points) to add above the contents of table cells.
@@ -17,7 +17,6 @@ double Aspose::Words::TableStyle::get_TopPadding()
 
 
 ## Examples
-
 
 
 
@@ -59,3 +58,8 @@ ASSERT_EQ(u"MyTableStyle1", table->get_StyleName());
 doc->Save(ArtifactsDir + u"Table.TableStyleCreation.docx");
 ```
 
+## See Also
+
+* Class [TableStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

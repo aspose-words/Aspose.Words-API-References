@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words/font/get_doublestrikethrough/
 ---
-## Font.get_DoubleStrikeThrough method
+## Font::get_DoubleStrikeThrough method
 
 
 True if the font is formatted as double strikethrough text.
@@ -17,7 +17,6 @@ bool Aspose::Words::Font::get_DoubleStrikeThrough()
 
 
 ## Examples
-
 
 
 
@@ -39,3 +38,8 @@ para->AppendChild(run);
 doc->Save(ArtifactsDir + u"Font.StrikeThrough.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

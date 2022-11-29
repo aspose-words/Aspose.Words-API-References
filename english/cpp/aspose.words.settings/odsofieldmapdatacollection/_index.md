@@ -47,4 +47,7 @@ class OdsoFieldMapDataCollection : public System::Collections::Generic::IEnumera
 | [virtualized_iterator](./virtualized_iterator/) |  |
 | [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 
+## See Also
 
+* Namespace [Aspose::Words::Settings](../)
+* Library [Aspose.Words](../../)

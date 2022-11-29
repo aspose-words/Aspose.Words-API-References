@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.drawing/imagedata/set_bilevel/
 ---
-## ImageData.set_BiLevel method
+## ImageData::set_BiLevel method
 
 
 Setter for [Aspose::Words::Drawing::ImageData::get_BiLevel](../get_bilevel/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::ImageData::get_BiLevel](../get_bilevel/).
 void Aspose::Words::Drawing::ImageData::set_BiLevel(bool value)
 ```
 
+## See Also
+
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

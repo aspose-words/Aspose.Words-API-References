@@ -6,7 +6,7 @@ type: docs
 weight: 560
 url: /cpp/aspose.words/paragraphformat/set_alignment/
 ---
-## ParagraphFormat.set_Alignment method
+## ParagraphFormat::set_Alignment method
 
 
 Setter for [Aspose::Words::ParagraphFormat::get_Alignment](../get_alignment/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::ParagraphFormat::get_Alignment](../get_alignment/).
 void Aspose::Words::ParagraphFormat::set_Alignment(Aspose::Words::ParagraphAlignment value)
 ```
 
+## See Also
+
+* Enum [ParagraphAlignment](../../paragraphalignment/)
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

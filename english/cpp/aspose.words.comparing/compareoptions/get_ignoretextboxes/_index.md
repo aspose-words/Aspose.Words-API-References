@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.comparing/compareoptions/get_ignoretextboxes/
 ---
-## CompareOptions.get_IgnoreTextboxes method
+## CompareOptions::get_IgnoreTextboxes method
 
 
 Specifies whether to compare differences in the data contained within text boxes. By default textboxes are not ignored.
@@ -17,7 +17,6 @@ bool Aspose::Words::Comparing::CompareOptions::get_IgnoreTextboxes() const
 
 
 ## Examples
-
 
 
 
@@ -113,3 +112,8 @@ docOriginal->Compare(docEdited, u"John Doe", System::DateTime::get_Now(), compar
 docOriginal->Save(ArtifactsDir + u"Document.CompareOptions.docx");
 ```
 
+## See Also
+
+* Class [CompareOptions](../)
+* Namespace [Aspose::Words::Comparing](../../)
+* Library [Aspose.Words](../../../)

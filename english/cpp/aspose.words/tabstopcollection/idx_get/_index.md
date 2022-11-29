@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words/tabstopcollection/idx_get/
 ---
-## TabStopCollection.idx_get(double) method
+## TabStopCollection::idx_get(double) method
 
 
 Gets a tab stop at the specified position.
@@ -24,7 +24,6 @@ System::SharedPtr<Aspose::Words::TabStop> Aspose::Words::TabStopCollection::idx_
 
 
 
-
 Shows how to work with a document's collection of tab stops. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -63,7 +62,13 @@ ASSERT_EQ(0, paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops()->get_
 doc->Save(ArtifactsDir + u"TabStopCollection.TabStopCollection.docx");
 ```
 
-## TabStopCollection.idx_get(int32_t) method
+## See Also
+
+* Class [TabStop](../../tabstop/)
+* Class [TabStopCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## TabStopCollection::idx_get(int32_t) method
 
 
 Gets a tab stop at the given index.
@@ -81,7 +86,6 @@ System::SharedPtr<Aspose::Words::TabStop> Aspose::Words::TabStopCollection::idx_
 
 
 
-
 Shows how to work with a document's collection of tab stops. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -120,3 +124,9 @@ ASSERT_EQ(0, paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops()->get_
 doc->Save(ArtifactsDir + u"TabStopCollection.TabStopCollection.docx");
 ```
 
+## See Also
+
+* Class [TabStop](../../tabstop/)
+* Class [TabStopCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /cpp/aspose.words.fields/formfield/set_textinputformat/
 ---
-## FormField.set_TextInputFormat method
+## FormField::set_TextInputFormat method
 
 
 Setter for [Aspose::Words::Fields::FormField::get_TextInputFormat](../get_textinputformat/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FormField::get_TextInputFormat](../get_textin
 void Aspose::Words::Fields::FormField::set_TextInputFormat(const System::String &value)
 ```
 
+## See Also
+
+* Class [FormField](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

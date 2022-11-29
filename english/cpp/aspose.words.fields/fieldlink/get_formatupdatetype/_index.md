@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldlink/get_formatupdatetype/
 ---
-## FieldLink.get_FormatUpdateType method
+## FieldLink::get_FormatUpdateType method
 
 
 Gets or sets a way the linked object updates its formatting.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldLink::get_FormatUpdateType()
 
 
 ## Examples
-
 
 
 
@@ -196,3 +195,8 @@ static void InsertFieldDdeAuto(SharedPtr<DocumentBuilder> builder, ExField::Inse
 }
 ```
 
+## See Also
+
+* Class [FieldLink](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

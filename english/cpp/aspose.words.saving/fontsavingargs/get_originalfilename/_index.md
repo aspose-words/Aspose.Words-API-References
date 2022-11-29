@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.saving/fontsavingargs/get_originalfilename/
 ---
-## FontSavingArgs.get_OriginalFileName method
+## FontSavingArgs::get_OriginalFileName method
 
 
 Gets the original font file name with an extension.
@@ -15,11 +15,12 @@ Gets the original font file name with an extension.
 System::String Aspose::Words::Saving::FontSavingArgs::get_OriginalFileName() const
 ```
 
+## Remarks
+
 
 This property contains the original file name of the current font if it is known. Otherwise it can be an empty string.
 
 ## Examples
-
 
 
 
@@ -85,3 +86,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [FontSavingArgs](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

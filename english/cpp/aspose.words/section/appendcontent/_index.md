@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/section/appendcontent/
 ---
-## Section.AppendContent method
+## Section::AppendContent method
 
 
 Inserts a copy of content of the source section at the end of this section.
@@ -19,6 +19,8 @@ void Aspose::Words::Section::AppendContent(const System::SharedPtr<Aspose::Words
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceSection | const System::SharedPtr\<Aspose::Words::Section\>\& | The section to copy content from. |
+## Remarks
+
 
 Only content of [Body](../get_body/) of the source section is copied, page setup, headers and footers are not copied.
 
@@ -27,7 +29,6 @@ The nodes are automatically imported if the source section belongs to a differen
 No new section is created in the destination document.
 
 ## Examples
-
 
 
 
@@ -61,3 +62,9 @@ ASSERT_EQ(String(u"Section 1") + ControlChar::ParagraphBreak() + u"Section 3" + 
           section->GetText());
 ```
 
+## See Also
+
+* Class [Section](../)
+* Class [Section](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

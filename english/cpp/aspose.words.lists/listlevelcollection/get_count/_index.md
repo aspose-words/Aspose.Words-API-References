@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.lists/listlevelcollection/get_count/
 ---
-## ListLevelCollection.get_Count method
+## ListLevelCollection::get_Count method
 
 
 Gets the number of levels in this list.
@@ -15,11 +15,12 @@ Gets the number of levels in this list.
 int32_t Aspose::Words::Lists::ListLevelCollection::get_Count()
 ```
 
+## Remarks
+
 
 There could be 1 or 9 levels in a list.
 
 ## Examples
-
 
 
 
@@ -78,3 +79,8 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateAndUseListStyle.docx");
 ```
 
+## See Also
+
+* Class [ListLevelCollection](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

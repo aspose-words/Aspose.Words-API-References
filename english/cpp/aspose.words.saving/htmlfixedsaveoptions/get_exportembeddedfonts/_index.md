@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_exportembeddedfonts/
 ---
-## HtmlFixedSaveOptions.get_ExportEmbeddedFonts method
+## HtmlFixedSaveOptions::get_ExportEmbeddedFonts method
 
 
 Specifies whether fonts should be embedded into Html document in Base64 format. Note setting this flag can significantly increase size of output Html file.
@@ -17,7 +17,6 @@ bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedFonts() cons
 
 
 ## Examples
-
 
 
 
@@ -59,3 +58,8 @@ else
 }
 ```
 
+## See Also
+
+* Class [HtmlFixedSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

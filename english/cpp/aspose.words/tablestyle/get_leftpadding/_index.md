@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words/tablestyle/get_leftpadding/
 ---
-## TableStyle.get_LeftPadding method
+## TableStyle::get_LeftPadding method
 
 
 Gets or sets the amount of space (in points) to add to the left of the contents of table cells.
@@ -17,7 +17,6 @@ double Aspose::Words::TableStyle::get_LeftPadding()
 
 
 ## Examples
-
 
 
 
@@ -59,3 +58,8 @@ ASSERT_EQ(u"MyTableStyle1", table->get_StyleName());
 doc->Save(ArtifactsDir + u"Table.TableStyleCreation.docx");
 ```
 
+## See Also
+
+* Class [TableStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

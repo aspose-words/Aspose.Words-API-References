@@ -6,7 +6,7 @@ type: docs
 weight: 1756
 url: /cpp/aspose.words.settings/compatibilityoptions/set_useprintermetrics/
 ---
-## CompatibilityOptions.set_UsePrinterMetrics method
+## CompatibilityOptions::set_UsePrinterMetrics method
 
 
 Use Printer Metrics To Display Documents.
@@ -15,3 +15,8 @@ Use Printer Metrics To Display Documents.
 void Aspose::Words::Settings::CompatibilityOptions::set_UsePrinterMetrics(bool value)
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

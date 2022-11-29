@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.words.drawing/shape/get_stroked/
 ---
-## Shape.get_Stroked method
+## Shape::get_Stroked method
 
 
 Defines whether the path will be stroked.
@@ -15,13 +15,14 @@ Defines whether the path will be stroked.
 bool Aspose::Words::Drawing::Shape::get_Stroked()
 ```
 
+## Remarks
+
 
 This is a shortcut to the [On](../../stroke/get_on/) property.
 
 The default value is **true**.
 
 ## Examples
-
 
 
 
@@ -135,3 +136,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Shape](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

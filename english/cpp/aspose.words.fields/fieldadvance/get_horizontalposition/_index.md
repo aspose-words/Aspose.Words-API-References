@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldadvance/get_horizontalposition/
 ---
-## FieldAdvance.get_HorizontalPosition method
+## FieldAdvance::get_HorizontalPosition method
 
 
 Gets or sets the number of points by which the text that follows the field should be moved horizontally from the left edge of the column, frame, or text box.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldAdvance::get_HorizontalPosition()
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,8 @@ builder->Write(u"This text is in a custom position.");
 doc->Save(ArtifactsDir + u"Field.ADVANCE.docx");
 ```
 
+## See Also
+
+* Class [FieldAdvance](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

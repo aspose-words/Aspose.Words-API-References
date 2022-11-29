@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.saving/pdfdigitalsignaturedetails/get_location/
 ---
-## PdfDigitalSignatureDetails.get_Location method
+## PdfDigitalSignatureDetails::get_Location method
 
 
 Gets or sets the location of the signing.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Saving::PdfDigitalSignatureDetails::get_Location()
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,8 @@ ASSERT_EQ(signingTime.ToUniversalTime(), options->get_DigitalSignatureDetails()-
 doc->Save(ArtifactsDir + u"PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```
 
+## See Also
+
+* Class [PdfDigitalSignatureDetails](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

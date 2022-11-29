@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/pagesetup/get_borderdistancefrom/
 ---
-## PageSetup.get_BorderDistanceFrom method
+## PageSetup::get_BorderDistanceFrom method
 
 
 Gets or sets a value that indicates whether the specified page border is measured from the edge of the page or from the text it surrounds.
@@ -17,7 +17,6 @@ Aspose::Words::PageBorderDistanceFrom Aspose::Words::PageSetup::get_BorderDistan
 
 
 ## Examples
-
 
 
 
@@ -39,3 +38,9 @@ border->set_DistanceFromText(0);
 doc->Save(ArtifactsDir + u"PageSetup.PageBorderProperties.docx");
 ```
 
+## See Also
+
+* Enum [PageBorderDistanceFrom](../../pageborderdistancefrom/)
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

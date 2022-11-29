@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/pagesetup/get_borderalwaysinfront/
 ---
-## PageSetup.get_BorderAlwaysInFront method
+## PageSetup::get_BorderAlwaysInFront method
 
 
 Specifies where the page border is positioned relative to intersecting texts and objects.
@@ -17,7 +17,6 @@ bool Aspose::Words::PageSetup::get_BorderAlwaysInFront()
 
 
 ## Examples
-
 
 
 
@@ -39,3 +38,8 @@ border->set_DistanceFromText(0);
 doc->Save(ArtifactsDir + u"PageSetup.PageBorderProperties.docx");
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

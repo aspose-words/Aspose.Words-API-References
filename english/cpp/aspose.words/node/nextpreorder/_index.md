@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words/node/nextpreorder/
 ---
-## Node.NextPreOrder method
+## Node::NextPreOrder method
 
 
 Gets next node according to the pre-order tree traversal algorithm.
@@ -22,11 +22,9 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::Node::NextPreOrder(const S
 
 ### ReturnValue
 
-
 Next node in pre-order order. Null if reached the rootNode.
 
 ## Examples
-
 
 
 
@@ -59,3 +57,9 @@ ASSERT_EQ(0,
           doc->GetChildNodes(NodeType::Shape, true)->LINQ_OfType<SharedPtr<Shape>>()->LINQ_Count([](SharedPtr<Shape> s) { return s->get_HasImage(); }));
 ```
 
+## See Also
+
+* Class [Node](../)
+* Class [Node](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

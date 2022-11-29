@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/outlineoptions/outlineoptions/
 ---
-## OutlineOptions.OutlineOptions method
+## OutlineOptions::OutlineOptions constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.saving/outlineoptions/outlineoptions/
 Aspose::Words::Saving::OutlineOptions::OutlineOptions()
 ```
 
+## See Also
+
+* Class [OutlineOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

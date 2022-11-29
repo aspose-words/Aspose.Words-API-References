@@ -15,3 +15,8 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/iterator_hol
 using Aspose::Words::DigitalSignatures::DigitalSignatureCollection::iterator_holder_type =  System::Collections::Generic::List<System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignature> >
 ```
 
+## See Also
+
+* Class [DigitalSignatureCollection](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)

@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldunknown/
 Implements an unknown or unrecognized field.
 
 ```cpp
-class FieldUnknown : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IMergeFieldSurrogate
+class FieldUnknown : public Aspose::Words::Fields::Field,
+                     public Aspose::Words::Fields::IMergeFieldSurrogate
 ```
 
 ## Methods
@@ -48,7 +49,6 @@ class FieldUnknown : public Aspose::Words::Fields::Field, public Aspose::Words::
 
 
 
-
 Shows how to work with 'FieldNone' field in a document. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -65,3 +65,8 @@ auto fieldUnknown = System::DynamicCast<FieldUnknown>(field);
 ASSERT_EQ(u" NOTAREALFIELD //a", fieldUnknown->GetFieldCode());
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

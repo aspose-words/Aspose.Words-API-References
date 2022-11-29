@@ -6,10 +6,10 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.loading/resourceloadingargs/setdata/
 ---
-## ResourceLoadingArgs.SetData method
+## ResourceLoadingArgs::SetData method
 
 
-Sets user provided data of the resource which is used if [ResourceLoading()](../../iresourceloadingcallback/resourceloading/) returns **UserProvided**.
+Sets user provided data of the resource which is used if [ResourceLoading()](../../iresourceloadingcallback/resourceloading/) returns [UserProvided](../../resourceloadingaction/).
 
 ```cpp
 void Aspose::Words::Loading::ResourceLoadingArgs::SetData(const System::ArrayPtr<uint8_t> &data)
@@ -17,7 +17,6 @@ void Aspose::Words::Loading::ResourceLoadingArgs::SetData(const System::ArrayPtr
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,8 @@ public:
 };
 ```
 
+## See Also
+
+* Class [ResourceLoadingArgs](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

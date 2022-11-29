@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.settings/odsorecipientdatacollection/add/
 ---
-## OdsoRecipientDataCollection.Add method
+## OdsoRecipientDataCollection::Add method
 
 
 Adds an object to the end of this collection.
@@ -20,4 +20,9 @@ int32_t Aspose::Words::Settings::OdsoRecipientDataCollection::Add(const System::
 | --- | --- | --- |
 | value | const System::SharedPtr\<Aspose::Words::Settings::OdsoRecipientData\>\& | The object to add. Cannot be null. |
 
+## See Also
 
+* Class [OdsoRecipientData](../../odsorecipientdata/)
+* Class [OdsoRecipientDataCollection](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

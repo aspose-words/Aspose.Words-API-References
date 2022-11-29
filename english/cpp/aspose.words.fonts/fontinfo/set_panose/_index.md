@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.fonts/fontinfo/set_panose/
 ---
-## FontInfo.set_Panose method
+## FontInfo::set_Panose method
 
 
 Setter for [Aspose::Words::Fonts::FontInfo::get_Panose](../get_panose/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fonts::FontInfo::get_Panose](../get_panose/).
 void Aspose::Words::Fonts::FontInfo::set_Panose(const System::ArrayPtr<uint8_t> &value)
 ```
 
+## See Also
+
+* Class [FontInfo](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

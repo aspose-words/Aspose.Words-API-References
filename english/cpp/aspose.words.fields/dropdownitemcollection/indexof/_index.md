@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.fields/dropdownitemcollection/indexof/
 ---
-## DropDownItemCollection.IndexOf method
+## DropDownItemCollection::IndexOf method
 
 
 Returns the zero-based index of the specified value in the collection.
@@ -22,11 +22,9 @@ int32_t Aspose::Words::Fields::DropDownItemCollection::IndexOf(const System::Str
 
 ### ReturnValue
 
-
 The zero based index. Negative value if not found.
 
 ## Examples
-
 
 
 
@@ -82,3 +80,8 @@ doc->Save(ArtifactsDir + u"FormFields.DropDownItemCollection.html");
 dropDownItems->Clear();
 ```
 
+## See Also
+
+* Class [DropDownItemCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

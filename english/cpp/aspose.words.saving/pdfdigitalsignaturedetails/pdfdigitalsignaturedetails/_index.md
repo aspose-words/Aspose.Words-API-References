@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/pdfdigitalsignaturedetails/pdfdigitalsignaturedetails/
 ---
-## PdfDigitalSignatureDetails.PdfDigitalSignatureDetails() method
+## PdfDigitalSignatureDetails::PdfDigitalSignatureDetails() constructor
 
 
 Initializes an instance of this class.
@@ -15,7 +15,12 @@ Initializes an instance of this class.
 Aspose::Words::Saving::PdfDigitalSignatureDetails::PdfDigitalSignatureDetails()
 ```
 
-## PdfDigitalSignatureDetails.PdfDigitalSignatureDetails(const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&, const System::String\&, const System::String\&, System::DateTime) method
+## See Also
+
+* Class [PdfDigitalSignatureDetails](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)
+## PdfDigitalSignatureDetails::PdfDigitalSignatureDetails(const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&, const System::String\&, const System::String\&, System::DateTime) constructor
 
 
 Initializes an instance of this class.
@@ -33,7 +38,6 @@ Aspose::Words::Saving::PdfDigitalSignatureDetails::PdfDigitalSignatureDetails(co
 | signatureDate | System::DateTime | The date and time of signing. |
 
 ## Examples
-
 
 
 
@@ -62,3 +66,9 @@ ASSERT_EQ(signingTime.ToUniversalTime(), options->get_DigitalSignatureDetails()-
 doc->Save(ArtifactsDir + u"PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```
 
+## See Also
+
+* Class [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/)
+* Class [PdfDigitalSignatureDetails](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

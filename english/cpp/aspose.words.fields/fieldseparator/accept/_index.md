@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldseparator/accept/
 ---
-## FieldSeparator.Accept method
+## FieldSeparator::Accept method
 
 
 Accepts a visitor.
@@ -22,15 +22,15 @@ bool Aspose::Words::Fields::FieldSeparator::Accept(System::SharedPtr<Aspose::Wor
 
 ### ReturnValue
 
-
 **False** if the visitor requested the enumeration to stop.
+## Remarks
 
-Calls **VisitFieldSeparator()**.
+
+Calls [VisitFieldSeparator()](../).
 
 For more info see the Visitor design pattern.
 
 ## Examples
-
 
 
 
@@ -121,3 +121,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
+* Class [FieldSeparator](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

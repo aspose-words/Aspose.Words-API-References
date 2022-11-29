@@ -35,7 +35,6 @@ class TableCollection : public Aspose::Words::NodeCollection
 
 
 
-
 Shows how to remove the first and last rows of all tables in a document. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Tables.docx");
@@ -126,3 +125,8 @@ static int GetChildTableCount(SharedPtr<Table> table)
 }
 ```
 
+## See Also
+
+* Class [NodeCollection](../../aspose.words/nodecollection/)
+* Namespace [Aspose::Words::Tables](../)
+* Library [Aspose.Words](../../)

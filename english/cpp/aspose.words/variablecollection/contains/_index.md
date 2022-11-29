@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/variablecollection/contains/
 ---
-## VariableCollection.Contains method
+## VariableCollection::Contains method
 
 
 Determines whether the collection contains a document variable with the given name.
@@ -22,11 +22,9 @@ bool Aspose::Words::VariableCollection::Contains(const System::String &name)
 
 ### ReturnValue
 
-
 True if item is found in the collection; otherwise, false.
 
 ## Examples
-
 
 
 
@@ -96,3 +94,8 @@ variables->Clear();
 ASSERT_EQ(0, variables->get_Count());
 ```
 
+## See Also
+
+* Class [VariableCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

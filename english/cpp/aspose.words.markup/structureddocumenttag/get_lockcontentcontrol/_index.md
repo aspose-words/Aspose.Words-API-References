@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.words.markup/structureddocumenttag/get_lockcontentcontrol/
 ---
-## StructuredDocumentTag.get_LockContentControl method
+## StructuredDocumentTag::get_LockContentControl method
 
 
 When set to true, this property will prohibit a user from deleting this **SDT**.
@@ -17,7 +17,6 @@ bool Aspose::Words::Markup::StructuredDocumentTag::get_LockContentControl() over
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,8 @@ builder->InsertNode(tag);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.Lock.docx");
 ```
 
+## See Also
+
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

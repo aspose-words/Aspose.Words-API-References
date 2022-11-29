@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldddeauto/
 Implements the DDEAUTO field.
 
 ```cpp
-class FieldDdeAuto : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldDdeAuto : public Aspose::Words::Fields::Field,
+                     public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -63,7 +64,6 @@ class FieldDdeAuto : public Aspose::Words::Fields::Field, public Aspose::Words::
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 
 ## Examples
-
 
 
 
@@ -242,3 +242,8 @@ static void InsertFieldDdeAuto(SharedPtr<DocumentBuilder> builder, ExField::Inse
 }
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.fields/fieldoptions/get_fieldindexformat/
 ---
-## FieldOptions.get_FieldIndexFormat method
+## FieldOptions::get_FieldIndexFormat method
 
 
 Gets or sets a [FieldIndexFormat](./) that represents the formatting for the [FieldIndex](../../fieldindex/) fields in the document.
@@ -17,7 +17,6 @@ Aspose::Words::Fields::FieldIndexFormat Aspose::Words::Fields::FieldOptions::get
 
 
 ## Examples
-
 
 
 
@@ -38,3 +37,9 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.SetFieldIndexFormat.docx");
 ```
 
+## See Also
+
+* Enum [FieldIndexFormat](../../fieldindexformat/)
+* Class [FieldOptions](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.drawing/stroke/get_dashstyle/
 ---
-## Stroke.get_DashStyle method
+## Stroke::get_DashStyle method
 
 
 Specifies the dot and dash pattern for a stroke.
@@ -15,11 +15,12 @@ Specifies the dot and dash pattern for a stroke.
 Aspose::Words::Drawing::DashStyle Aspose::Words::Drawing::Stroke::get_DashStyle()
 ```
 
+## Remarks
 
-The default value is **Solid**.
+
+The default value is [Solid](../../dashstyle/).
 
 ## Examples
-
 
 
 
@@ -92,3 +93,9 @@ ArrayPtr<uint8_t> imageBytes = System::IO::File::ReadAllBytes(ImageDir + u"Logo.
 doc->Save(ArtifactsDir + u"Drawing.VariousShapes.docx");
 ```
 
+## See Also
+
+* Enum [DashStyle](../../dashstyle/)
+* Class [Stroke](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

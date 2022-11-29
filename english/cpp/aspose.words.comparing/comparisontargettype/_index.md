@@ -9,7 +9,11 @@ url: /cpp/aspose.words.comparing/comparisontargettype/
 ## ComparisonTargetType enum
 
 
-Allows to specify base document which will be used during comparison. Default value is **Current**.
+Allows to specify base document which will be used during comparison. Default value is [Current](./).
+
+```cpp
+enum class ComparisonTargetType
+```
 
 ### Values
 
@@ -20,7 +24,6 @@ Allows to specify base document which will be used during comparison. Default va
 
 
 ## Examples
-
 
 
 
@@ -116,3 +119,7 @@ docOriginal->Compare(docEdited, u"John Doe", System::DateTime::get_Now(), compar
 docOriginal->Save(ArtifactsDir + u"Document.CompareOptions.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Comparing](../)
+* Library [Aspose.Words](../../)

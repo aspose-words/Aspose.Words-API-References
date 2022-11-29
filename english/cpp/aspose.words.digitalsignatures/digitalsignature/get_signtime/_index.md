@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.digitalsignatures/digitalsignature/get_signtime/
 ---
-## DigitalSignature.get_SignTime method
+## DigitalSignature::get_SignTime method
 
 
 Gets the time the document was signed.
@@ -17,7 +17,6 @@ System::DateTime Aspose::Words::DigitalSignatures::DigitalSignature::get_SignTim
 
 
 ## Examples
-
 
 
 
@@ -37,3 +36,8 @@ for (const auto& signature : doc->get_DigitalSignatures())
 }
 ```
 
+## See Also
+
+* Class [DigitalSignature](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)

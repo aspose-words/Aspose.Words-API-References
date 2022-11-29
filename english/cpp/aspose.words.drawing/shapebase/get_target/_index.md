@@ -6,7 +6,7 @@ type: docs
 weight: 625
 url: /cpp/aspose.words.drawing/shapebase/get_target/
 ---
-## ShapeBase.get_Target method
+## ShapeBase::get_Target method
 
 
 Gets or sets the target frame for the shape hyperlink.
@@ -15,11 +15,12 @@ Gets or sets the target frame for the shape hyperlink.
 System::String Aspose::Words::Drawing::ShapeBase::get_Target()
 ```
 
+## Remarks
+
 
 The default value is an empty string.
 
 ## Examples
-
 
 
 
@@ -38,3 +39,8 @@ shape->set_ScreenTip(u"Aspose.Words Support Forums");
 doc->Save(ArtifactsDir + u"Image.InsertImageWithHyperlink.docx");
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

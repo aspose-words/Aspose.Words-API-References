@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/fileformatinfo/get_loadformat/
 ---
-## FileFormatInfo.get_LoadFormat method
+## FileFormatInfo::get_LoadFormat method
 
 
 Gets the detected document format.
@@ -15,11 +15,12 @@ Gets the detected document format.
 Aspose::Words::LoadFormat Aspose::Words::FileFormatInfo::get_LoadFormat() const
 ```
 
+## Remarks
 
-When an OOXML document is encrypted, it is not possible to ascertained whether it is an Excel, Word or PowerPoint document without decrypting it first so for an encrypted OOXML document this property will always return **Docx**.
+
+When an OOXML document is encrypted, it is not possible to ascertained whether it is an Excel, Word or PowerPoint document without decrypting it first so for an encrypted OOXML document this property will always return [Docx](../../loadformat/).
 
 ## Examples
-
 
 
 
@@ -92,3 +93,9 @@ Shows how to use the [FileFormatUtil](../../fileformatutil/) methods to detect t
 }
 ```
 
+## See Also
+
+* Enum [LoadFormat](../../loadformat/)
+* Class [FileFormatInfo](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

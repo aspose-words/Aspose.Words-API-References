@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words/conditionalstyle/get_shading/
 ---
-## ConditionalStyle.get_Shading method
+## ConditionalStyle::get_Shading method
 
 
 Gets a [Shading](../../shading/) object that refers to the shading formatting for this conditional style.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Shading> Aspose::Words::ConditionalStyle::get_S
 
 
 ## Examples
-
 
 
 
@@ -90,3 +89,9 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow |
 doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 ```
 
+## See Also
+
+* Class [Shading](../../shading/)
+* Class [ConditionalStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.saving/ooxmlsaveoptions/get_password/
 ---
-## OoxmlSaveOptions.get_Password method
+## OoxmlSaveOptions::get_Password method
 
 
 Gets/sets a password to encrypt document using ECMA376 Standard encryption algorithm.
@@ -15,11 +15,12 @@ Gets/sets a password to encrypt document using ECMA376 Standard encryption algor
 System::String Aspose::Words::Saving::OoxmlSaveOptions::get_Password() const
 ```
 
+## Remarks
+
 
 In order to save document without encryption this property should be null or empty string.
 
 ## Examples
-
 
 
 
@@ -44,3 +45,8 @@ doc = MakeObject<Document>(ArtifactsDir + u"OoxmlSaveOptions.Password.docx", Mak
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [OoxmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

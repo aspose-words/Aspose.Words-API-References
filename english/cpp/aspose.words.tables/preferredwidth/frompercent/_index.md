@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.tables/preferredwidth/frompercent/
 ---
-## PreferredWidth.FromPercent method
+## PreferredWidth::FromPercent method
 
 
 A creation method that returns a new instance that represents a preferred width specified as a percentage.
@@ -21,7 +21,6 @@ static System::SharedPtr<Aspose::Words::Tables::PreferredWidth> Aspose::Words::T
 | percent | double | The value must be from 0 to 100. |
 
 ## Examples
-
 
 
 
@@ -78,3 +77,9 @@ builder->Writeln(u"Automatically sized cell.");
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ```
 
+## See Also
+
+* Class [PreferredWidth](../)
+* Class [PreferredWidth](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

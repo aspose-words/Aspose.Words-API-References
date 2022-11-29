@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.markup/customxmlpropertycollection/add/
 ---
-## CustomXmlPropertyCollection.Add method
+## CustomXmlPropertyCollection::Add method
 
 
 Adds a property to the collection.
@@ -21,7 +21,6 @@ void Aspose::Words::Markup::CustomXmlPropertyCollection::Add(const System::Share
 | property | const System::SharedPtr\<Aspose::Words::Markup::CustomXmlProperty\>\& | The property to add. |
 
 ## Examples
-
 
 
 
@@ -76,3 +75,9 @@ properties->Clear();
 ASSERT_EQ(0, properties->get_Count());
 ```
 
+## See Also
+
+* Class [CustomXmlProperty](../../customxmlproperty/)
+* Class [CustomXmlPropertyCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

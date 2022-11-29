@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldpageref/
 Implements the PAGEREF field.
 
 ```cpp
-class FieldPageRef : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldPageRef : public Aspose::Words::Fields::Field,
+                     public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -49,7 +50,6 @@ class FieldPageRef : public Aspose::Words::Fields::Field, public Aspose::Words::
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 
 ## Examples
-
 
 
 
@@ -107,3 +107,8 @@ static void InsertAndNameBookmark(SharedPtr<DocumentBuilder> builder, String boo
 }
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

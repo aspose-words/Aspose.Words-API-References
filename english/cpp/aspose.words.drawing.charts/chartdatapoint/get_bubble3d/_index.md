@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.drawing.charts/chartdatapoint/get_bubble3d/
 ---
-## ChartDataPoint.get_Bubble3D method
+## ChartDataPoint::get_Bubble3D method
 
 
 Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::Charts::ChartDataPoint::get_Bubble3D() override
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,8 @@ for (int i = 0; i < 3; i++)
 doc->Save(ArtifactsDir + u"Charts.Bubble3D.docx");
 ```
 
+## See Also
+
+* Class [ChartDataPoint](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

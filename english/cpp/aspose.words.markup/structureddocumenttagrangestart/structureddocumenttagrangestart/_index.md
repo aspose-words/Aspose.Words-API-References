@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/structureddocumenttagrangestart/
 ---
-## StructuredDocumentTagRangeStart.StructuredDocumentTagRangeStart method
+## StructuredDocumentTagRangeStart::StructuredDocumentTagRangeStart constructor
 
 
 Initializes a new instance of the **Structured document tag range start** class.
@@ -20,23 +20,24 @@ Aspose::Words::Markup::StructuredDocumentTagRangeStart::StructuredDocumentTagRan
 | --- | --- | --- |
 | doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
 | type | Aspose::Words::Markup::SdtType | Type of SDT node. |
+## Remarks
+
 
 The following types of SDT can be created:
 
-* **Checkbox**
-* **DropDownList**
-* **ComboBox**
-* **Date**
-* **BuildingBlockGallery**
-* **Group**
-* **Picture**
-* **RichText**
-* **PlainText**
+* [Checkbox](../../sdttype/)
+* [DropDownList](../../sdttype/)
+* [ComboBox](../../sdttype/)
+* [Date](../../sdttype/)
+* [BuildingBlockGallery](../../sdttype/)
+* [Group](../../sdttype/)
+* [Picture](../../sdttype/)
+* [RichText](../../sdttype/)
+* [PlainText](../../sdttype/)
 
 
 
 ## Examples
-
 
 
 
@@ -86,3 +87,10 @@ void InsertStructuredDocumentTagRanges(SharedPtr<Document> doc, SharedPtr<Struct
 }
 ```
 
+## See Also
+
+* Class [DocumentBase](../../../aspose.words/documentbase/)
+* Enum [SdtType](../../sdttype/)
+* Class [StructuredDocumentTagRangeStart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.markup/sdtlistitem/sdtlistitem/
 ---
-## SdtListItem.SdtListItem(const System::String\&, const System::String\&) method
+## SdtListItem::SdtListItem(const System::String\&, const System::String\&) constructor
 
 
 Initializes a new instance of this class.
@@ -20,7 +20,6 @@ Aspose::Words::Markup::SdtListItem::SdtListItem(const System::String &displayTex
 
 
 
-
 Shows how to work with drop down-list structured document tags. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -77,7 +76,12 @@ listItems->Clear();
 ASSERT_EQ(0, listItems->get_Count());
 ```
 
-## SdtListItem.SdtListItem(const System::String\&) method
+## See Also
+
+* Class [SdtListItem](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)
+## SdtListItem::SdtListItem(const System::String\&) constructor
 
 
 Initializes a new instance of this class.
@@ -91,7 +95,6 @@ Aspose::Words::Markup::SdtListItem::SdtListItem(const System::String &value)
 
 
 
-
 Shows how to work with drop down-list structured document tags. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -148,3 +151,8 @@ listItems->Clear();
 ASSERT_EQ(0, listItems->get_Count());
 ```
 
+## See Also
+
+* Class [SdtListItem](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

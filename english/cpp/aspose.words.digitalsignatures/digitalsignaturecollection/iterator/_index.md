@@ -15,3 +15,8 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/iterator/
 using Aspose::Words::DigitalSignatures::DigitalSignatureCollection::iterator =  typename iterator_holder_type::iterator
 ```
 
+## See Also
+
+* Class [DigitalSignatureCollection](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)

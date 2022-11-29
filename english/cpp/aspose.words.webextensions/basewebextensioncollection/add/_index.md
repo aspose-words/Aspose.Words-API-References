@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/add/
 ---
-## BaseWebExtensionCollection.Add method
+## BaseWebExtensionCollection::Add method
 
 
 Adds specified item to the collection.
@@ -21,7 +21,6 @@ void Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::Add(T item)
 | item | T | Item for adding. |
 
 ## Examples
-
 
 
 
@@ -64,3 +63,8 @@ doc->get_WebExtensionTaskPanes()->Clear();
 ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ```
 
+## See Also
+
+* Class [BaseWebExtensionCollection](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.fields/fieldta/set_longcitation/
 ---
-## FieldTA.set_LongCitation method
+## FieldTA::set_LongCitation method
 
 
 Setter for [Aspose::Words::Fields::FieldTA::get_LongCitation](../get_longcitation/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldTA::get_LongCitation](../get_longcitatio
 void Aspose::Words::Fields::FieldTA::set_LongCitation(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldTA](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

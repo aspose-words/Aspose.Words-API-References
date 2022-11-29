@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fonts/physicalfontinfo/get_fontfamilyname/
 ---
-## PhysicalFontInfo.get_FontFamilyName method
+## PhysicalFontInfo::get_FontFamilyName method
 
 
 Family name of the font.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fonts::PhysicalFontInfo::get_FontFamilyName() cons
 
 
 ## Examples
-
 
 
 
@@ -35,3 +34,8 @@ for (const auto& fontInfo : System::IterateOver(folderFontSource[0]->GetAvailabl
 }
 ```
 
+## See Also
+
+* Class [PhysicalFontInfo](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

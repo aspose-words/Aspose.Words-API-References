@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.words/paragraph/joinrunswithsameformatting/
 ---
-## Paragraph.JoinRunsWithSameFormatting method
+## Paragraph::JoinRunsWithSameFormatting method
 
 
 Joins runs with the same formatting in the paragraph.
@@ -18,11 +18,9 @@ int32_t Aspose::Words::Paragraph::JoinRunsWithSameFormatting()
 
 ### ReturnValue
 
-
 Number of joins performed. When **N** adjacent runs are being joined they count as **N - 1** joins.
 
 ## Examples
-
 
 
 
@@ -61,3 +59,8 @@ ASSERT_EQ(u"Run 1. Run 2. Run 3. ", para->get_Runs()->idx_get(0)->get_Text());
 ASSERT_EQ(u"Run 4. ", para->get_Runs()->idx_get(1)->get_Text());
 ```
 
+## See Also
+
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

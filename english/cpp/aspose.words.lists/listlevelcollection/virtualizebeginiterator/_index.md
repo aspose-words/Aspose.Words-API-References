@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.lists/listlevelcollection/virtualizebeginiterator/
 ---
-## ListLevelCollection.virtualizeBeginIterator method
+## ListLevelCollection::virtualizeBeginIterator method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.lists/listlevelcollection/virtualizebeginiterator/
 virtualized_iterator * Aspose::Words::Lists::ListLevelCollection::virtualizeBeginIterator() override
 ```
 
+## See Also
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [ListLevelCollection](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

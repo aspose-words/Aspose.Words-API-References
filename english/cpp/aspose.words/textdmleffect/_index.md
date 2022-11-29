@@ -11,6 +11,10 @@ url: /cpp/aspose.words/textdmleffect/
 
 Dml text effect for text runs.
 
+```cpp
+enum class TextDmlEffect
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -22,3 +26,7 @@ Dml text effect for text runs.
 | Effect3D | 4 | 3D effect. |
 | Reflection | 5 | Reflection effect. |
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

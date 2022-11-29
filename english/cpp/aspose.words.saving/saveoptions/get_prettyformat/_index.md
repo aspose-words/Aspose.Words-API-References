@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.saving/saveoptions/get_prettyformat/
 ---
-## SaveOptions.get_PrettyFormat method
+## SaveOptions::get_PrettyFormat method
 
 
 When **true**, pretty formats output where applicable. Default value is **false**.
@@ -15,11 +15,12 @@ When **true**, pretty formats output where applicable. Default value is **false*
 bool Aspose::Words::Saving::SaveOptions::get_PrettyFormat() const
 ```
 
+## Remarks
+
 
 Set to **true** to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable. Useful for testing or debugging.
 
 ## Examples
-
 
 
 
@@ -62,3 +63,8 @@ else
 }
 ```
 
+## See Also
+
+* Class [SaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

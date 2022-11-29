@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.words.fields/fielddisplaybarcode/set_foregroundcolor/
 ---
-## FieldDisplayBarcode.set_ForegroundColor method
+## FieldDisplayBarcode::set_ForegroundColor method
 
 
 Setter for [Aspose::Words::Fields::FieldDisplayBarcode::get_ForegroundColor](../get_foregroundcolor/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldDisplayBarcode::get_ForegroundColor](../
 void Aspose::Words::Fields::FieldDisplayBarcode::set_ForegroundColor(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldDisplayBarcode](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

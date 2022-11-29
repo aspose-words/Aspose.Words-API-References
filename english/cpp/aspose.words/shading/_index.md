@@ -12,7 +12,8 @@ url: /cpp/aspose.words/shading/
 Contains shading attributes for an object.
 
 ```cpp
-class Shading : public Aspose::Words::InternableComplexAttr, public Aspose::Words::IComplexAttr
+class Shading : public Aspose::Words::InternableComplexAttr,
+                public Aspose::Words::IComplexAttr
 ```
 
 ## Methods
@@ -31,7 +32,6 @@ class Shading : public Aspose::Words::InternableComplexAttr, public Aspose::Word
 | [set_Texture](./set_texture/)(Aspose::Words::TextureIndex) | Setter for [Aspose::Words::Shading::get_Texture](./get_texture/). |
 
 ## Examples
-
 
 
 
@@ -92,3 +92,8 @@ builder->Write(u"This paragraph is formatted with a double border and shading.")
 doc->Save(ArtifactsDir + u"DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
+## See Also
+
+* Class [InternableComplexAttr](../internablecomplexattr/)
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.properties/documentproperty/toint/
 ---
-## DocumentProperty.ToInt method
+## DocumentProperty::ToInt method
 
 
 Returns the property value as integer.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Properties::DocumentProperty::ToInt()
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,8 @@ ASSERT_EQ(1, properties->idx_get(u"Authorized Revision")->ToInt());
 ASPOSE_ASSERT_EQ(123.45, properties->idx_get(u"Authorized Amount")->ToDouble());
 ```
 
+## See Also
+
+* Class [DocumentProperty](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

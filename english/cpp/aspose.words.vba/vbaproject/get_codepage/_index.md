@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.vba/vbaproject/get_codepage/
 ---
-## VbaProject.get_CodePage method
+## VbaProject::get_CodePage method
 
 
 Returns the VBA project’s code page.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Vba::VbaProject::get_CodePage() const
 
 
 ## Examples
-
 
 
 
@@ -50,3 +49,8 @@ vbaModules->idx_get(u"Module1")->set_SourceCode(u"Your VBA code...");
 vbaModules->Remove(vbaModules->idx_get(2));
 ```
 
+## See Also
+
+* Class [VbaProject](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

@@ -11,12 +11,16 @@ url: /cpp/aspose.words.math/mathobjecttype/
 
 Specifies type of an Office [Math](../) object.
 
+```cpp
+enum class MathObjectType
+```
+
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
 | OMath | 0 | Instance of mathematical text. |
-| OMathPara | 1 | [Math](../) paragraph, or display math zone, that contains one or more **OMath** elements that are in display mode. |
+| OMathPara | 1 | [Math](../) paragraph, or display math zone, that contains one or more [OMath](./) elements that are in display mode. |
 | Accent | 2 | Accent function, consisting of a base and a combining diacritical mark. |
 | Bar | 3 | Bar function, consisting of a base argument and an overbar or underbar. |
 | BorderBox | 4 | [Border](../../aspose.words/border/) Box object, consisting of a border drawn around an instance of mathematical text (such as a formula or equation) |
@@ -31,7 +35,7 @@ Specifies type of an Office [Math](../) object.
 | Function | 13 | Function-Apply object, which consists of a function name and an argument element acted upon. |
 | FunctionName | 14 | Name of the function. For example, function names are sin and cos. |
 | GroupCharacter | 15 | Group-Character object, consisting of a character drawn above or below text, often with the purpose of visually grouping items. |
-| Limit | 16 | Lower limit of the **LowerLimit** object and the upper limit of the **UpperLimit** function. |
+| Limit | 16 | Lower limit of the [LowerLimit](./) object and the upper limit of the [UpperLimit](./) function. |
 | LowerLimit | 17 | Lower-Limit object, consisting of text on the baseline and reduced-size text immediately below it. |
 | UpperLimit | 18 | Upper-Limit object, consisting of text on the baseline and reduced-size text immediately above it. |
 | Matrix | 19 | Matrix object, consisting of one or more elements laid out in one or more rows and one or more columns. |
@@ -48,7 +52,6 @@ Specifies type of an Office [Math](../) object.
 
 
 ## Examples
-
 
 
 
@@ -126,3 +129,7 @@ private:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Math](../)
+* Library [Aspose.Words](../../)

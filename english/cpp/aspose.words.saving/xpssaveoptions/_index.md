@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/xpssaveoptions/
 ## XpsSaveOptions class
 
 
-Can be used to specify additional options when saving a document into the **Xps** format.
+Can be used to specify additional options when saving a document into the [Xps](../../aspose.words/saveformat/) format.
 
 ```cpp
 class XpsSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
@@ -41,7 +41,7 @@ class XpsSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [get_PageSet](../fixedpagesaveoptions/get_pageset/)() const | Gets or sets the pages to render. Default is all the pages in the document. |
 | [get_PrettyFormat](../saveoptions/get_prettyformat/)() const | When **true**, pretty formats output where applicable. Default value is **false**. |
 | [get_ProgressCallback](../saveoptions/get_progresscallback/)() const | Called during saving a document and accepts data about saving progress. |
-| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can only be **Xps**. |
+| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can only be [Xps](../../aspose.words/saveformat/). |
 | [get_TempFolder](../saveoptions/get_tempfolder/)() const | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is **null** and no temporary files are used. |
 | [get_UpdateCreatedTimeProperty](../saveoptions/get_updatecreatedtimeproperty/)() const | Gets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is false;. |
 | [get_UpdateFields](../saveoptions/get_updatefields/)() const | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. |
@@ -79,11 +79,10 @@ class XpsSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [set_UseAntiAliasing](../saveoptions/set_useantialiasing/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UseAntiAliasing](../saveoptions/get_useantialiasing/). |
 | [set_UseBookFoldPrintingSettings](./set_usebookfoldprintingsettings/)(bool) | Setter for [Aspose::Words::Saving::XpsSaveOptions::get_UseBookFoldPrintingSettings](./get_usebookfoldprintingsettings/). |
 | [set_UseHighQualityRendering](../saveoptions/set_usehighqualityrendering/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UseHighQualityRendering](../saveoptions/get_usehighqualityrendering/). |
-| [XpsSaveOptions](./xpssaveoptions/)() | Initializes a new instance of this class that can be used to save a document in the **Xps** format. |
-| [XpsSaveOptions](./xpssaveoptions/)(Aspose::Words::SaveFormat) | Initializes a new instance of this class that can be used to save a document in the **Xps** or **OpenXps** format. |
+| [XpsSaveOptions](./xpssaveoptions/)() | Initializes a new instance of this class that can be used to save a document in the [Xps](../../aspose.words/saveformat/) format. |
+| [XpsSaveOptions](./xpssaveoptions/)(Aspose::Words::SaveFormat) | Initializes a new instance of this class that can be used to save a document in the [Xps](../../aspose.words/saveformat/) or [OpenXps](../../aspose.words/saveformat/) format. |
 
 ## Examples
-
 
 
 
@@ -124,3 +123,8 @@ saveOptions->get_OutlineOptions()->set_HeadingsOutlineLevels(2);
 doc->Save(ArtifactsDir + u"XpsSaveOptions.OutlineLevels.xps", saveOptions);
 ```
 
+## See Also
+
+* Class [FixedPageSaveOptions](../fixedpagesaveoptions/)
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

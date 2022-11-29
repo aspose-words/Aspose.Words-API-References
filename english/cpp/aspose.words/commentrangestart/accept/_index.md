@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/commentrangestart/accept/
 ---
-## CommentRangeStart.Accept method
+## CommentRangeStart::Accept method
 
 
 Accepts a visitor.
@@ -22,15 +22,15 @@ bool Aspose::Words::CommentRangeStart::Accept(System::SharedPtr<Aspose::Words::D
 
 ### ReturnValue
 
-
 False if the visitor requested the enumeration to stop.
+## Remarks
+
 
 Calls [VisitCommentRangeStart()](../../documentvisitor/visitcommentrangestart/).
 
 For more info see the Visitor design pattern.
 
 ## Examples
-
 
 
 
@@ -171,3 +171,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [DocumentVisitor](../../documentvisitor/)
+* Class [CommentRangeStart](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

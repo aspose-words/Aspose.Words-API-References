@@ -20,7 +20,7 @@ The **Aspose.Words.Markup** namespace contains classes that represent customer d
 | [CustomXmlProperty](./customxmlproperty/) | Represents a single custom XML attribute or a smart tag property. |
 | [CustomXmlPropertyCollection](./customxmlpropertycollection/) | Represents a collection of custom XML attributes or smart tag properties. |
 | [CustomXmlSchemaCollection](./customxmlschemacollection/) | A collection of strings that represent XML schemas that are associated with a custom XML part. |
-| [SdtListItem](./sdtlistitem/) | This element specifies a single list item within a parent **ComboBox** or **DropDownList** structured document tag. |
+| [SdtListItem](./sdtlistitem/) | This element specifies a single list item within a parent [ComboBox](./sdttype/) or [DropDownList](./sdttype/) structured document tag. |
 | [SdtListItemCollection](./sdtlistitemcollection/) | Provides access to [SdtListItem](./sdtlistitem/) elements of a structured document tag. |
 | [SmartTag](./smarttag/) | This element specifies the presence of a smart tag around one or more inline structures (runs, images, fields,etc.) within a paragraph. |
 | [StructuredDocumentTag](./structureddocumenttag/) | Represents a structured document tag (SDT or content control) in a document. |

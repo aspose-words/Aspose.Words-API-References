@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_usetargetmachinefonts/
 ---
-## HtmlFixedSaveOptions.get_UseTargetMachineFonts method
+## HtmlFixedSaveOptions::get_UseTargetMachineFonts method
 
 
 Flag indicates whether fonts from target machine must be used to display the document. If this flag is set to true, [FontFormat](../get_fontformat/) and [ExportEmbeddedFonts](../get_exportembeddedfonts/) properties do not have effect, also [ResourceSavingCallback](../get_resourcesavingcallback/) is not fired for fonts. Default is false.
@@ -17,7 +17,6 @@ bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_UseTargetMachineFonts() co
 
 
 ## Examples
-
 
 
 
@@ -48,3 +47,8 @@ else
 }
 ```
 
+## See Also
+
+* Class [HtmlFixedSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

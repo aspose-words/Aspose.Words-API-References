@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.markup/istructureddocumenttag/get_lockcontents/
 ---
-## IStructuredDocumentTag.get_LockContents method
+## IStructuredDocumentTag::get_LockContents method
 
 
 When set to true, this property will prohibit a user from editing the contents of this **SDT**.
@@ -15,3 +15,8 @@ When set to true, this property will prohibit a user from editing the contents o
 virtual bool Aspose::Words::Markup::IStructuredDocumentTag::get_LockContents()=0
 ```
 
+## See Also
+
+* Interface [IStructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

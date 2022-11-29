@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/pclsaveoptions/
 ## PclSaveOptions class
 
 
-Can be used to specify additional options when saving a document into the **Pcl** format.
+Can be used to specify additional options when saving a document into the [Pcl](../../aspose.words/saveformat/) format.
 
 ```cpp
 class PclSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
@@ -43,7 +43,7 @@ class PclSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [get_PrettyFormat](../saveoptions/get_prettyformat/)() const | When **true**, pretty formats output where applicable. Default value is **false**. |
 | [get_ProgressCallback](../saveoptions/get_progresscallback/)() const | Called during saving a document and accepts data about saving progress. |
 | [get_RasterizeTransformedElements](./get_rasterizetransformedelements/)() const | Gets or sets a value determining whether or not complex transformed elements should be rasterized before saving to PCL document. Default is **true**. |
-| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can only be **Pcl**. |
+| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can only be [Pcl](../../aspose.words/saveformat/). |
 | [get_TempFolder](../saveoptions/get_tempfolder/)() const | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is **null** and no temporary files are used. |
 | [get_UpdateCreatedTimeProperty](../saveoptions/get_updatecreatedtimeproperty/)() const | Gets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is false;. |
 | [get_UpdateFields](../saveoptions/get_updatefields/)() const | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. |
@@ -87,7 +87,6 @@ class PclSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 
 
 
-
 Shows how to rasterize complex elements while saving a document to PCL. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Rendering.docx");
@@ -99,3 +98,8 @@ saveOptions->set_RasterizeTransformedElements(true);
 doc->Save(ArtifactsDir + u"PclSaveOptions.RasterizeElements.pcl", saveOptions);
 ```
 
+## See Also
+
+* Class [FixedPageSaveOptions](../fixedpagesaveoptions/)
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

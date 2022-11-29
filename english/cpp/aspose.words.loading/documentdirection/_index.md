@@ -11,6 +11,10 @@ url: /cpp/aspose.words.loading/documentdirection/
 
 Allows to specify the direction to flow the text in a document.
 
+```cpp
+enum class DocumentDirection
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -19,3 +23,7 @@ Allows to specify the direction to flow the text in a document.
 | RightToLeft | 1 | Right to left direction. |
 | Auto | 2 | Auto-detect direction. |
 
+## See Also
+
+* Namespace [Aspose::Words::Loading](../)
+* Library [Aspose.Words](../../)

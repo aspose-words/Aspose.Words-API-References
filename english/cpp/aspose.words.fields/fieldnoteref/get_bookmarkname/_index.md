@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldnoteref/get_bookmarkname/
 ---
-## FieldNoteRef.get_BookmarkName method
+## FieldNoteRef::get_BookmarkName method
 
 
 Gets or sets the name of the bookmark.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldNoteRef::get_BookmarkName()
 
 
 ## Examples
-
 
 
 
@@ -78,3 +77,8 @@ static void InsertBookmarkWithFootnote(SharedPtr<DocumentBuilder> builder, Strin
 }
 ```
 
+## See Also
+
+* Class [FieldNoteRef](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

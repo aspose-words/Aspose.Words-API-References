@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.fields/fieldsymbol/set_fontsize/
 ---
-## FieldSymbol.set_FontSize method
+## FieldSymbol::set_FontSize method
 
 
 Setter for [Aspose::Words::Fields::FieldSymbol::get_FontSize](../get_fontsize/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldSymbol::get_FontSize](../get_fontsize/).
 void Aspose::Words::Fields::FieldSymbol::set_FontSize(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldSymbol](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 716
 url: /cpp/aspose.words.properties/builtindocumentproperties/set_revisionnumber/
 ---
-## BuiltInDocumentProperties.set_RevisionNumber method
+## BuiltInDocumentProperties::set_RevisionNumber method
 
 
 Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_RevisionNumber](../get_revisionnumber/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_RevisionNu
 void Aspose::Words::Properties::BuiltInDocumentProperties::set_RevisionNumber(int32_t value)
 ```
 
+## See Also
+
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

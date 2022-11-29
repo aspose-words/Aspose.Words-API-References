@@ -6,7 +6,7 @@ type: docs
 weight: 664
 url: /cpp/aspose.words/paragraphformat/set_hangingpunctuation/
 ---
-## ParagraphFormat.set_HangingPunctuation method
+## ParagraphFormat::set_HangingPunctuation method
 
 
 Setter for [Aspose::Words::ParagraphFormat::get_HangingPunctuation](../get_hangingpunctuation/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::ParagraphFormat::get_HangingPunctuation](../get_hangi
 void Aspose::Words::ParagraphFormat::set_HangingPunctuation(bool value)
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

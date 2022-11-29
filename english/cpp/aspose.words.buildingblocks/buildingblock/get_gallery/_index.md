@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.buildingblocks/buildingblock/get_gallery/
 ---
-## BuildingBlock.get_Gallery method
+## BuildingBlock::get_Gallery method
 
 
 Specifies the first-level categorization for the building block for the purposes of classification or user interface sorting.
@@ -15,13 +15,14 @@ Specifies the first-level categorization for the building block for the purposes
 Aspose::Words::BuildingBlocks::BuildingBlockGallery Aspose::Words::BuildingBlocks::BuildingBlock::get_Gallery() const
 ```
 
+## Remarks
+
 
 Building blocks in Microsoft Word user interface are arranged into Galleries. Each [Gallery](./) can have multiple Categories. Each block within a [Category](../get_category/) has a [Name](../get_name/).
 
 Corresponds to the **docPartPr.category.gallery** element in OOXML.
 
 ## Examples
-
 
 
 
@@ -116,3 +117,9 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [BuildingBlockGallery](../../buildingblockgallery/)
+* Class [BuildingBlock](../)
+* Namespace [Aspose::Words::BuildingBlocks](../../)
+* Library [Aspose.Words](../../../)

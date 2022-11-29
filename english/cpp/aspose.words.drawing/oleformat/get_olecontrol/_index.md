@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.drawing/oleformat/get_olecontrol/
 ---
-## OleFormat.get_OleControl method
+## OleFormat::get_OleControl method
 
 
 Gets [OleControl](./) objects if this OLE object is an ActiveX control. Otherwise this property is null.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::Ole::OleControl> Aspose::Words::Drawin
 
 
 ## Examples
-
 
 
 
@@ -41,3 +40,8 @@ if (oleControl->get_IsForms2OleControl())
 }
 ```
 
+## See Also
+
+* Class [OleFormat](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

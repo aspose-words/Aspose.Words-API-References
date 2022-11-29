@@ -11,6 +11,10 @@ url: /cpp/aspose.words/textorientation/
 
 Specifies orientation of text on a page, in a table cell or a text frame.
 
+```cpp
+enum class TextOrientation
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -24,7 +28,6 @@ Specifies orientation of text on a page, in a table cell or a text frame.
 
 
 ## Examples
-
 
 
 
@@ -68,3 +71,7 @@ ASSERT_EQ(TextOrientation::Downward, table->get_Rows()->idx_get(1)->get_Cells()-
 doc->Save(ArtifactsDir + u"DocumentBuilder.BuildTable.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

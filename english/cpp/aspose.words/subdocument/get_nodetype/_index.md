@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/subdocument/get_nodetype/
 ---
-## SubDocument.get_NodeType method
+## SubDocument::get_NodeType method
 
 
 Returns **NodeType.SubDocument**
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::SubDocument::get_NodeType() const overrid
 
 
 ## Examples
-
 
 
 
@@ -33,3 +32,9 @@ auto subDocument = System::DynamicCast<SubDocument>(subDocuments->idx_get(0));
 ASSERT_FALSE(subDocument->get_IsComposite());
 ```
 
+## See Also
+
+* Enum [NodeType](../../nodetype/)
+* Class [SubDocument](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

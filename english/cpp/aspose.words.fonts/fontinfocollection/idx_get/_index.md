@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.fonts/fontinfocollection/idx_get/
 ---
-## FontInfoCollection.idx_get(const System::String\&) method
+## FontInfoCollection::idx_get(const System::String\&) method
 
 
 Gets a font with the specified name.
@@ -24,7 +24,6 @@ System::SharedPtr<Aspose::Words::Fonts::FontInfo> Aspose::Words::Fonts::FontInfo
 
 
 
-
 Shows how to extract an embedded font from a document, and save it to the local file system. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Embedded font.docx");
@@ -50,7 +49,13 @@ embeddedFontBytes = doc->get_FontInfos()->idx_get(u"Alte DIN 1451 Mittelschrift"
 System::IO::File::WriteAllBytes(ArtifactsDir + u"Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);
 ```
 
-## FontInfoCollection.idx_get(int32_t) method
+## See Also
+
+* Class [FontInfo](../../fontinfo/)
+* Class [FontInfoCollection](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)
+## FontInfoCollection::idx_get(int32_t) method
 
 
 Gets a font at the specified index.
@@ -68,7 +73,6 @@ System::SharedPtr<Aspose::Words::Fonts::FontInfo> Aspose::Words::Fonts::FontInfo
 
 
 
-
 Shows how to extract an embedded font from a document, and save it to the local file system. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Embedded font.docx");
@@ -94,3 +98,9 @@ embeddedFontBytes = doc->get_FontInfos()->idx_get(u"Alte DIN 1451 Mittelschrift"
 System::IO::File::WriteAllBytes(ArtifactsDir + u"Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);
 ```
 
+## See Also
+
+* Class [FontInfo](../../fontinfo/)
+* Class [FontInfoCollection](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldimport/get_graphicfilter/
 ---
-## FieldImport.get_GraphicFilter method
+## FieldImport::get_GraphicFilter method
 
 
 Gets or sets the name of the filter for the format of the graphic that is to be inserted.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldImport::get_GraphicFilter()
 
 
 ## Examples
-
 
 
 
@@ -51,3 +50,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.IMPORT.INCLUDEPICTURE.docx");
 ```
 
+## See Also
+
+* Class [FieldImport](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

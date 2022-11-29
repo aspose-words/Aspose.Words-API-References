@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.fields/fieldmergebarcode/get_fixcheckdigit/
 ---
-## FieldMergeBarcode.get_FixCheckDigit method
+## FieldMergeBarcode::get_FixCheckDigit method
 
 
 Gets whether to fix the check digit if it’s invalid.
@@ -15,3 +15,8 @@ Gets whether to fix the check digit if it’s invalid.
 bool Aspose::Words::Fields::FieldMergeBarcode::get_FixCheckDigit()
 ```
 
+## See Also
+
+* Class [FieldMergeBarcode](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

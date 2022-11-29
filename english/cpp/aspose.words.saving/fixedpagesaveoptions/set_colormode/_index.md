@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.saving/fixedpagesaveoptions/set_colormode/
 ---
-## FixedPageSaveOptions.set_ColorMode method
+## FixedPageSaveOptions::set_ColorMode method
 
 
 Setter for [Aspose::Words::Saving::FixedPageSaveOptions::get_ColorMode](../get_colormode/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Saving::FixedPageSaveOptions::get_ColorMode](../get_c
 void Aspose::Words::Saving::FixedPageSaveOptions::set_ColorMode(Aspose::Words::Saving::ColorMode value)
 ```
 
+## See Also
+
+* Enum [ColorMode](../../colormode/)
+* Class [FixedPageSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

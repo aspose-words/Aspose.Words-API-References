@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.words.markup/structureddocumenttag/get_multiline/
 ---
-## StructuredDocumentTag.get_Multiline method
+## StructuredDocumentTag::get_Multiline method
 
 
 Specifies whether this **SDT** allows multiple lines of text.
@@ -15,13 +15,14 @@ Specifies whether this **SDT** allows multiple lines of text.
 bool Aspose::Words::Markup::StructuredDocumentTag::get_Multiline()
 ```
 
+## Remarks
 
-Accessing this property will only work for **RichText** and **PlainText** SDT type.
+
+Accessing this property will only work for [RichText](../../sdttype/) and [PlainText](../../sdttype/) SDT type.
 
 For all other SDT types exception will occur.
 
 ## Examples
-
 
 
 
@@ -76,3 +77,8 @@ tagClone->RemoveSelfOnly();
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.PlainText.docx");
 ```
 
+## See Also
+
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

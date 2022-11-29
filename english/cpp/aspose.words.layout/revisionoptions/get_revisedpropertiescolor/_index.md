@@ -6,10 +6,10 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.layout/revisionoptions/get_revisedpropertiescolor/
 ---
-## RevisionOptions.get_RevisedPropertiesColor method
+## RevisionOptions::get_RevisedPropertiesColor method
 
 
-Allows to specify the color to be used for content with changes of formatting properties **FormatChange** Default value is **NoHighlight**.
+Allows to specify the color to be used for content with changes of formatting properties [FormatChange](../../../aspose.words/revisiontype/) Default value is [NoHighlight](../../revisioncolor/).
 
 ```cpp
 Aspose::Words::Layout::RevisionColor Aspose::Words::Layout::RevisionOptions::get_RevisedPropertiesColor()
@@ -17,7 +17,6 @@ Aspose::Words::Layout::RevisionColor Aspose::Words::Layout::RevisionOptions::get
 
 
 ## Examples
-
 
 
 
@@ -66,3 +65,9 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 doc->Save(ArtifactsDir + u"Revision.RevisionOptions.pdf");
 ```
 
+## See Also
+
+* Enum [RevisionColor](../../revisioncolor/)
+* Class [RevisionOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

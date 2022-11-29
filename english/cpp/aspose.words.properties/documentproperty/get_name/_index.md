@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.properties/documentproperty/get_name/
 ---
-## DocumentProperty.get_Name method
+## DocumentProperty::get_Name method
 
 
 Returns the name of the property.
@@ -15,11 +15,12 @@ Returns the name of the property.
 System::String Aspose::Words::Properties::DocumentProperty::get_Name() const
 ```
 
+## Remarks
+
 
 Cannot be null and cannot be an empty string.
 
 ## Examples
-
 
 
 
@@ -54,3 +55,8 @@ for (const auto& docProperty : System::IterateOver(doc->get_BuiltInDocumentPrope
 }
 ```
 
+## See Also
+
+* Class [DocumentProperty](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

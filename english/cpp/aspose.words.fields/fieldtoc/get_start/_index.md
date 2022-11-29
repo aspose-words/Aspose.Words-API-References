@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.fields/fieldtoc/get_start/
 ---
-## FieldToc.get_Start method
+## FieldToc::get_Start method
 
 
 Gets the node that represents the start of the field.
@@ -15,3 +15,9 @@ Gets the node that represents the start of the field.
 System::SharedPtr<Aspose::Words::Fields::FieldStart> Aspose::Words::Fields::FieldToc::get_Start() override
 ```
 
+## See Also
+
+* Class [FieldStart](../../fieldstart/)
+* Class [FieldToc](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

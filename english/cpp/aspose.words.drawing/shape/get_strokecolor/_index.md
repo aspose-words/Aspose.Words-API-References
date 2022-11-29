@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.drawing/shape/get_strokecolor/
 ---
-## Shape.get_StrokeColor method
+## Shape::get_StrokeColor method
 
 
 Defines the color of a stroke.
@@ -15,13 +15,14 @@ Defines the color of a stroke.
 System::Drawing::Color Aspose::Words::Drawing::Shape::get_StrokeColor()
 ```
 
+## Remarks
+
 
 This is a shortcut to the [Color](../../stroke/get_color/) property.
 
 The default value is **Black**.
 
 ## Examples
-
 
 
 
@@ -165,3 +166,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Shape](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

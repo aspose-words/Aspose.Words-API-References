@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.tables/rowcollection/idx_get/
 ---
-## RowCollection.idx_get method
+## RowCollection::idx_get method
 
 
 Retrieves a **Row** at the given index.
@@ -19,6 +19,8 @@ System::SharedPtr<Aspose::Words::Tables::Row> Aspose::Words::Tables::RowCollecti
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | An index into the collection. |
+## Remarks
+
 
 The index is zero-based.
 
@@ -29,7 +31,6 @@ If index is greater than or equal to the number of items in the list, this retur
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
 
 ## Examples
-
 
 
 
@@ -73,3 +74,9 @@ for (int i = 0; i < tables->get_Count(); i++)
 }
 ```
 
+## See Also
+
+* Class [Row](../../row/)
+* Class [RowCollection](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

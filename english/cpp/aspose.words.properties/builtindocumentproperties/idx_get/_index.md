@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/aspose.words.properties/builtindocumentproperties/idx_get/
 ---
-## BuiltInDocumentProperties.idx_get method
+## BuiltInDocumentProperties::idx_get method
 
 
 Returns a [DocumentProperty](../../documentproperty/) object by the name of the property.
@@ -19,6 +19,8 @@ System::SharedPtr<Aspose::Words::Properties::DocumentProperty> Aspose::Words::Pr
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | System::String | The case-insensitive name of the property to retrieve. |
+## Remarks
+
 
 The string names of the properties correspond to the names of the typed properties available from [BuiltInDocumentProperties](../).
 
@@ -27,7 +29,6 @@ If you request a property that is not present in the document, but the name of t
 If you request a property that is not present in the document and the name is not recognized as a built-in name, a null is returned.
 
 ## Examples
-
 
 
 
@@ -50,3 +51,9 @@ for (const auto& customDocumentProperty : System::IterateOver(doc->get_CustomDoc
 }
 ```
 
+## See Also
+
+* Class [DocumentProperty](../../documentproperty/)
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

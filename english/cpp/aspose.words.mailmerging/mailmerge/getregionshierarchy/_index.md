@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.words.mailmerging/mailmerge/getregionshierarchy/
 ---
-## MailMerge.GetRegionsHierarchy method
+## MailMerge::GetRegionsHierarchy method
 
 
 Returns a full hierarchy of regions (with fields) available in the document.
@@ -18,13 +18,13 @@ System::SharedPtr<Aspose::Words::MailMerging::MailMergeRegionInfo> Aspose::Words
 
 ### ReturnValue
 
-
 Regions' hierarchy.
+## Remarks
+
 
 Hierarchy is returned in the form of the [MailMergeRegionInfo](../../mailmergeregioninfo/) class.
 
 ## Examples
-
 
 
 
@@ -67,3 +67,9 @@ SharedPtr<FieldMergeField> endFieldMergeField = nestedRegions->idx_get(0)->get_E
 ASSERT_EQ(u"TableEnd:NestedRegion1", endFieldMergeField->get_FieldName());
 ```
 
+## See Also
+
+* Class [MailMergeRegionInfo](../../mailmergeregioninfo/)
+* Class [MailMerge](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

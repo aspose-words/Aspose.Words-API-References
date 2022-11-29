@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.tables/preferredwidth/get_type/
 ---
-## PreferredWidth.get_Type method
+## PreferredWidth::get_Type method
 
 
 Gets the unit of measure used for this preferred width value.
@@ -17,7 +17,6 @@ Aspose::Words::Tables::PreferredWidthType Aspose::Words::Tables::PreferredWidth:
 
 
 ## Examples
-
 
 
 
@@ -32,3 +31,9 @@ ASSERT_EQ(PreferredWidthType::Percent, firstCell->get_CellFormat()->get_Preferre
 ASPOSE_ASSERT_EQ(11.16, firstCell->get_CellFormat()->get_PreferredWidth()->get_Value());
 ```
 
+## See Also
+
+* Enum [PreferredWidthType](../../preferredwidthtype/)
+* Class [PreferredWidth](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

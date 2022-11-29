@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words/pagesetup/get_bottommargin/
 ---
-## PageSetup.get_BottomMargin method
+## PageSetup::get_BottomMargin method
 
 
 Returns or sets the distance (in points) between the bottom edge of the page and the bottom boundary of the body text.
@@ -17,7 +17,6 @@ double Aspose::Words::PageSetup::get_BottomMargin()
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,8 @@ builder->Writeln(u"Hello world!");
 doc->Save(ArtifactsDir + u"PageSetup.PageMargins.docx");
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

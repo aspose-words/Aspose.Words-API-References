@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/warninginfo/get_warningtype/
 ---
-## WarningInfo.get_WarningType method
+## WarningInfo::get_WarningType method
 
 
 Returns the type of the warning.
@@ -17,7 +17,6 @@ Aspose::Words::WarningType Aspose::Words::WarningInfo::get_WarningType() const
 
 
 ## Examples
-
 
 
 
@@ -79,3 +78,9 @@ public:
 };
 ```
 
+## See Also
+
+* Enum [WarningType](../../warningtype/)
+* Class [WarningInfo](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

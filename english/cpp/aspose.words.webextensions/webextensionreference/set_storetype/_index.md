@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.webextensions/webextensionreference/set_storetype/
 ---
-## WebExtensionReference.set_StoreType method
+## WebExtensionReference::set_StoreType method
 
 
 Setter for [Aspose::Words::WebExtensions::WebExtensionReference::get_StoreType](../get_storetype/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::WebExtensions::WebExtensionReference::get_StoreType](
 void Aspose::Words::WebExtensions::WebExtensionReference::set_StoreType(Aspose::Words::WebExtensions::WebExtensionStoreType value)
 ```
 
+## See Also
+
+* Enum [WebExtensionStoreType](../../webextensionstoretype/)
+* Class [WebExtensionReference](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

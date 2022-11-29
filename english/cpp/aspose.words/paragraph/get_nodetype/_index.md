@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words/paragraph/get_nodetype/
 ---
-## Paragraph.get_NodeType method
+## Paragraph::get_NodeType method
 
 
 Returns **NodeType.Paragraph**.
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::Paragraph::get_NodeType() const override
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,9 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../nodetype/)
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

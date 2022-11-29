@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.markup/sdtlistitemcollection/get_count/
 ---
-## SdtListItemCollection.get_Count method
+## SdtListItemCollection::get_Count method
 
 
 Gets number of items in the collection.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Markup::SdtListItemCollection::get_Count()
 
 
 ## Examples
-
 
 
 
@@ -77,3 +76,8 @@ listItems->Clear();
 ASSERT_EQ(0, listItems->get_Count());
 ```
 
+## See Also
+
+* Class [SdtListItemCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

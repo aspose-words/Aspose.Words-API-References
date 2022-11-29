@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.mailmerging/imailmergedatasource/movenext/
 ---
-## IMailMergeDataSource.MoveNext method
+## IMailMergeDataSource::MoveNext method
 
 
 Advances to the next record in the data source.
@@ -18,11 +18,9 @@ virtual bool Aspose::Words::MailMerging::IMailMergeDataSource::MoveNext()=0
 
 ### ReturnValue
 
-
 True if moved to next record successfully. False if reached end of the data source.
 
 ## Examples
-
 
 
 
@@ -144,3 +142,8 @@ private:
 };
 ```
 
+## See Also
+
+* Interface [IMailMergeDataSource](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

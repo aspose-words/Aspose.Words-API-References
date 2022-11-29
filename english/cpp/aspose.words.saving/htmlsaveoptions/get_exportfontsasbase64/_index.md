@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportfontsasbase64/
 ---
-## HtmlSaveOptions.get_ExportFontsAsBase64 method
+## HtmlSaveOptions::get_ExportFontsAsBase64 method
 
 
 Specifies whether fonts resources should be embedded to HTML in Base64 encoding. Default is **false**.
@@ -15,11 +15,12 @@ Specifies whether fonts resources should be embedded to HTML in Base64 encoding.
 bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportFontsAsBase64() const
 ```
 
+## Remarks
+
 
 By default, fonts are written to separate files. If this option is set to **true**, fonts will be embedded into the document's CSS in Base64 encoding.
 
 ## Examples
-
 
 
 
@@ -52,3 +53,8 @@ options->set_PrettyFormat(true);
 doc->Save(ArtifactsDir + u"HtmlSaveOptions.ExportFontsAsBase64.html", options);
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

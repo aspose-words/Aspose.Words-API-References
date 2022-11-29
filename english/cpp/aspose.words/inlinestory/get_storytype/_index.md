@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words/inlinestory/get_storytype/
 ---
-## InlineStory.get_StoryType method
+## InlineStory::get_StoryType method
 
 
 Returns the type of the story.
@@ -17,7 +17,6 @@ virtual Aspose::Words::StoryType Aspose::Words::InlineStory::get_StoryType()=0
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,9 @@ ASSERT_EQ(StoryType::Comments, comment->get_StoryType());
 doc->Save(ArtifactsDir + u"InlineStory.InsertInlineStoryNodes.docx");
 ```
 
+## See Also
+
+* Enum [StoryType](../../storytype/)
+* Class [InlineStory](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

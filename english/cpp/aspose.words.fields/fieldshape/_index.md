@@ -48,7 +48,6 @@ class FieldShape : public Aspose::Words::Fields::Field
 
 
 
-
 Shows how to create right-to-left language-compatible lists with BIDIOUTLINE fields. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -112,3 +111,8 @@ shape = System::DynamicCast<Shape>(shapes->idx_get(2));
 ASSERT_EQ(ShapeType::OleObject, shape->get_ShapeType());
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

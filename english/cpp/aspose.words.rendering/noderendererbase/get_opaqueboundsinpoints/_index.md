@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.rendering/noderendererbase/get_opaqueboundsinpoints/
 ---
-## NodeRendererBase.get_OpaqueBoundsInPoints method
+## NodeRendererBase::get_OpaqueBoundsInPoints method
 
 
 Gets the opaque bounds of the shape in points.
@@ -15,11 +15,12 @@ Gets the opaque bounds of the shape in points.
 System::Drawing::RectangleF Aspose::Words::Rendering::NodeRendererBase::get_OpaqueBoundsInPoints()
 ```
 
+## Remarks
+
 
 This property returns the opaque (i.e. transparent parts of the shape are ignored) bounding box of the shape. The bounds takes the shape rotation into account.
 
 ## Examples
-
 
 
 
@@ -64,3 +65,8 @@ ASSERT_EQ(159, bounds.get_Width());
 ASSERT_EQ(30, bounds.get_Height());
 ```
 
+## See Also
+
+* Class [NodeRendererBase](../)
+* Namespace [Aspose::Words::Rendering](../../)
+* Library [Aspose.Words](../../../)

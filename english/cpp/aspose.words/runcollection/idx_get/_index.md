@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/runcollection/idx_get/
 ---
-## RunCollection.idx_get method
+## RunCollection::idx_get method
 
 
 Retrieves a **Run** at the given index.
@@ -19,6 +19,8 @@ System::SharedPtr<Aspose::Words::Run> Aspose::Words::RunCollection::idx_get(int3
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | An index into the collection. |
+## Remarks
+
 
 The index is zero-based.
 
@@ -29,7 +31,6 @@ If index is greater than or equal to the number of items in the list, this retur
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
 
 ## Examples
-
 
 
 
@@ -83,3 +84,9 @@ ASSERT_TRUE(runs->idx_get(1)->get_IsMoveToRevision());
 ASSERT_TRUE(runs->idx_get(5)->get_IsDeleteRevision());
 ```
 
+## See Also
+
+* Class [Run](../../run/)
+* Class [RunCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

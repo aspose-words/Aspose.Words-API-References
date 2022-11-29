@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words/conditionalstylecollection/get_firstcolumn/
 ---
-## ConditionalStyleCollection.get_FirstColumn method
+## ConditionalStyleCollection::get_FirstColumn method
 
 
 Gets the first column style.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::ConditionalStyle> Aspose::Words::ConditionalSty
 
 
 ## Examples
-
 
 
 
@@ -90,3 +89,9 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow |
 doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 ```
 
+## See Also
+
+* Class [ConditionalStyle](../../conditionalstyle/)
+* Class [ConditionalStyleCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.fields/fieldddeauto/get_progid/
 ---
-## FieldDdeAuto.get_ProgId method
+## FieldDdeAuto::get_ProgId method
 
 
 Gets or sets the application type of the link information.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldDdeAuto::get_ProgId()
 
 
 ## Examples
-
 
 
 
@@ -196,3 +195,8 @@ static void InsertFieldDdeAuto(SharedPtr<DocumentBuilder> builder, ExField::Inse
 }
 ```
 
+## See Also
+
+* Class [FieldDdeAuto](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

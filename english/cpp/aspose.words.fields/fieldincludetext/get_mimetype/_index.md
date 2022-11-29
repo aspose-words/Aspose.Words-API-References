@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fieldincludetext/get_mimetype/
 ---
-## FieldIncludeText.get_MimeType method
+## FieldIncludeText::get_MimeType method
 
 
 Gets or sets the MIME type of the referenced file.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldIncludeText::get_MimeType()
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,8 @@ SharedPtr<FieldIncludeText> CreateFieldIncludeText(SharedPtr<DocumentBuilder> bu
 }
 ```
 
+## See Also
+
+* Class [FieldIncludeText](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

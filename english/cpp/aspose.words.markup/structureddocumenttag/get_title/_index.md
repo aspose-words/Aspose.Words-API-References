@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/aspose.words.markup/structureddocumenttag/get_title/
 ---
-## StructuredDocumentTag.get_Title method
+## StructuredDocumentTag::get_Title method
 
 
 Specifies the friendly name associated with this **SDT**. Can not be null.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Markup::StructuredDocumentTag::get_Title() const o
 
 
 ## Examples
-
 
 
 
@@ -72,3 +71,8 @@ tagClone->RemoveSelfOnly();
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.PlainText.docx");
 ```
 
+## See Also
+
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.saving/fontsavingargs/get_document/
 ---
-## FontSavingArgs.get_Document method
+## FontSavingArgs::get_Document method
 
 
 Gets the document object that is being saved.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Document> Aspose::Words::Saving::FontSavingArgs
 
 
 ## Examples
-
 
 
 
@@ -83,3 +82,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Document](../../../aspose.words/document/)
+* Class [FontSavingArgs](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

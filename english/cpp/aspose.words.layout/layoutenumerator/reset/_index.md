@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.layout/layoutenumerator/reset/
 ---
-## LayoutEnumerator.Reset method
+## LayoutEnumerator::Reset method
 
 
 Moves the enumerator to the first page of the document.
@@ -17,7 +17,6 @@ void Aspose::Words::Layout::LayoutEnumerator::Reset()
 
 
 ## Examples
-
 
 
 
@@ -143,3 +142,8 @@ static void PrintCurrentEntity(SharedPtr<LayoutEnumerator> layoutEnumerator, int
 }
 ```
 
+## See Also
+
+* Class [LayoutEnumerator](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

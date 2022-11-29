@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words/paragraph/get_isincell/
 ---
-## Paragraph.get_IsInCell method
+## Paragraph::get_IsInCell method
 
 
 True if this paragraph is an immediate child of [Cell](../../../aspose.words.tables/cell/); false otherwise.
@@ -17,7 +17,6 @@ bool Aspose::Words::Paragraph::get_IsInCell()
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,8 @@ for (const auto& cell : System::IterateOver(table->GetChildNodes(NodeType::Cell,
 doc->Save(ArtifactsDir + u"Table.KeepTableTogether.docx");
 ```
 
+## See Also
+
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

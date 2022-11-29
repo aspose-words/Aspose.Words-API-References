@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words/conditionalstyle/get_toppadding/
 ---
-## ConditionalStyle.get_TopPadding method
+## ConditionalStyle::get_TopPadding method
 
 
 Gets or sets the amount of space (in points) to add above the contents of table cells.
@@ -17,7 +17,6 @@ double Aspose::Words::ConditionalStyle::get_TopPadding()
 
 
 ## Examples
-
 
 
 
@@ -90,3 +89,8 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow |
 doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 ```
 
+## See Also
+
+* Class [ConditionalStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

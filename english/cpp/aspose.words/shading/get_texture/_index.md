@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/shading/get_texture/
 ---
-## Shading.get_Texture method
+## Shading::get_Texture method
 
 
 Gets or sets the shading texture.
@@ -17,7 +17,6 @@ Aspose::Words::TextureIndex Aspose::Words::Shading::get_Texture()
 
 
 ## Examples
-
 
 
 
@@ -42,3 +41,9 @@ builder->Write(u"This paragraph is formatted with a double border and shading.")
 doc->Save(ArtifactsDir + u"DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
+## See Also
+
+* Enum [TextureIndex](../../textureindex/)
+* Class [Shading](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

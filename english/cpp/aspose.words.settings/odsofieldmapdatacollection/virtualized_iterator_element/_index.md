@@ -15,3 +15,8 @@ url: /cpp/aspose.words.settings/odsofieldmapdatacollection/virtualized_iterator_
 using Aspose::Words::Settings::OdsoFieldMapDataCollection::virtualized_iterator_element =  typename iterator_holder_type::virtualized_iterator_element
 ```
 
+## See Also
+
+* Class [OdsoFieldMapDataCollection](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

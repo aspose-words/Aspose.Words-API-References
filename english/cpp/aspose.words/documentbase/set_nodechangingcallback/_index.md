@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words/documentbase/set_nodechangingcallback/
 ---
-## DocumentBase.set_NodeChangingCallback method
+## DocumentBase::set_NodeChangingCallback method
 
 
 Setter for [Aspose::Words::DocumentBase::get_NodeChangingCallback](../get_nodechangingcallback/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::DocumentBase::get_NodeChangingCallback](../get_nodech
 void Aspose::Words::DocumentBase::set_NodeChangingCallback(const System::SharedPtr<Aspose::Words::INodeChangingCallback> &value)
 ```
 
+## See Also
+
+* Interface [INodeChangingCallback](../../inodechangingcallback/)
+* Class [DocumentBase](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

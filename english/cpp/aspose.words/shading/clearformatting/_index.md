@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/shading/clearformatting/
 ---
-## Shading.ClearFormatting method
+## Shading::ClearFormatting method
 
 
 Removes shading from the object.
@@ -17,7 +17,6 @@ void Aspose::Words::Shading::ClearFormatting()
 
 
 ## Examples
-
 
 
 
@@ -81,3 +80,8 @@ builder->EndTable();
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertTable.docx");
 ```
 
+## See Also
+
+* Class [Shading](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -12,7 +12,8 @@ url: /cpp/aspose.words/section/
 Represents a single section in a document.
 
 ```cpp
-class Section : public Aspose::Words::CompositeNode, public Aspose::Words::ISectionAttrSource
+class Section : public Aspose::Words::CompositeNode,
+                public Aspose::Words::ISectionAttrSource
 ```
 
 ## Methods
@@ -71,6 +72,8 @@ class Section : public Aspose::Words::CompositeNode, public Aspose::Words::ISect
 | [SetTemplateWeakPtr](../compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 **Section** can have one [Body](./get_body/) and maximum one [HeaderFooter](../headerfooter/) of each [HeaderFooterType](../headerfootertype/). **Body** and **HeaderFooter** nodes can be in any order inside **Section**.
 
@@ -85,7 +88,6 @@ To add, insert or remove a whole section including section break and section pro
 To copy and insert just content of the section excluding the section break and section properties use **AppendContent** and **PrependContent** methods.
 
 ## Examples
-
 
 
 
@@ -133,3 +135,8 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 ```
 
+## See Also
+
+* Class [CompositeNode](../compositenode/)
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

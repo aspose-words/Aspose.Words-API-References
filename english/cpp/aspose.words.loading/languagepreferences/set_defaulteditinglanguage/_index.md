@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.loading/languagepreferences/set_defaulteditinglanguage/
 ---
-## LanguagePreferences.set_DefaultEditingLanguage method
+## LanguagePreferences::set_DefaultEditingLanguage method
 
 
 Setter for [Aspose::Words::Loading::LanguagePreferences::get_DefaultEditingLanguage](../get_defaulteditinglanguage/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Loading::LanguagePreferences::get_DefaultEditingLangu
 void Aspose::Words::Loading::LanguagePreferences::set_DefaultEditingLanguage(Aspose::Words::Loading::EditingLanguage value)
 ```
 
+## See Also
+
+* Enum [EditingLanguage](../../editinglanguage/)
+* Class [LanguagePreferences](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

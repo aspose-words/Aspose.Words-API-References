@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/aspose.words/pagesetup/get_rightmargin/
 ---
-## PageSetup.get_RightMargin method
+## PageSetup::get_RightMargin method
 
 
 Returns or sets the distance (in points) between the right edge of the page and the right boundary of the body text.
@@ -17,7 +17,6 @@ double Aspose::Words::PageSetup::get_RightMargin()
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,8 @@ builder->Writeln(u"Hello world!");
 doc->Save(ArtifactsDir + u"PageSetup.PageMargins.docx");
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

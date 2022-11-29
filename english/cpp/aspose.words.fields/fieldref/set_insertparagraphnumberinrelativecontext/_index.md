@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words.fields/fieldref/set_insertparagraphnumberinrelativecontext/
 ---
-## FieldRef.set_InsertParagraphNumberInRelativeContext method
+## FieldRef::set_InsertParagraphNumberInRelativeContext method
 
 
 Setter for [Aspose::Words::Fields::FieldRef::get_InsertParagraphNumberInRelativeContext](../get_insertparagraphnumberinrelativecontext/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldRef::get_InsertParagraphNumberInRelative
 void Aspose::Words::Fields::FieldRef::set_InsertParagraphNumberInRelativeContext(bool value)
 ```
 
+## See Also
+
+* Class [FieldRef](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

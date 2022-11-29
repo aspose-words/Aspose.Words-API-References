@@ -6,7 +6,7 @@ type: docs
 weight: 521
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_downsampleoptions/
 ---
-## PdfSaveOptions.set_DownsampleOptions method
+## PdfSaveOptions::set_DownsampleOptions method
 
 
 Setter for [Aspose::Words::Saving::PdfSaveOptions::get_DownsampleOptions](../get_downsampleoptions/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Saving::PdfSaveOptions::get_DownsampleOptions](../get
 void Aspose::Words::Saving::PdfSaveOptions::set_DownsampleOptions(const System::SharedPtr<Aspose::Words::Saving::DownsampleOptions> &value)
 ```
 
+## See Also
+
+* Class [DownsampleOptions](../../downsampleoptions/)
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

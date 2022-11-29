@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.drawing/stroke/get_on/
 ---
-## Stroke.get_On method
+## Stroke::get_On method
 
 
 Defines whether the path will be stroked.
@@ -15,11 +15,12 @@ Defines whether the path will be stroked.
 bool Aspose::Words::Drawing::Stroke::get_On()
 ```
 
+## Remarks
+
 
 The default value for a [Shape](../../shape/) is **true**.
 
 ## Examples
-
 
 
 
@@ -49,3 +50,8 @@ stroke->set_LineStyle(ShapeLineStyle::Triple);
 doc->Save(ArtifactsDir + u"Shape.Stroke.docx");
 ```
 
+## See Also
+
+* Class [Stroke](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

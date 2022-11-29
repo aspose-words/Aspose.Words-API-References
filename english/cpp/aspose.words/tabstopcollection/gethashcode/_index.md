@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words/tabstopcollection/gethashcode/
 ---
-## TabStopCollection.GetHashCode method
+## TabStopCollection::GetHashCode method
 
 
 Serves as a hash function for this type.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::TabStopCollection::GetHashCode() const override
 
 
 ## Examples
-
 
 
 
@@ -59,3 +58,8 @@ ASSERT_EQ(0, paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops()->get_
 doc->Save(ArtifactsDir + u"TabStopCollection.TabStopCollection.docx");
 ```
 
+## See Also
+
+* Class [TabStopCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

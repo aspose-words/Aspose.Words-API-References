@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words/documentbuilder/get_italic/
 ---
-## DocumentBuilder.get_Italic method
+## DocumentBuilder::get_Italic method
 
 
 True if the font is formatted as italic.
@@ -17,7 +17,6 @@ bool Aspose::Words::DocumentBuilder::get_Italic()
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,8 @@ builder->Writeln(u"John Bloggs");
 doc->Save(ArtifactsDir + u"DocumentBuilder.FillMergeFields.docx");
 ```
 
+## See Also
+
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

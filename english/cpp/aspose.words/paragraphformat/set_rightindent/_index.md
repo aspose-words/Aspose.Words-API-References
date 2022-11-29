@@ -6,7 +6,7 @@ type: docs
 weight: 820
 url: /cpp/aspose.words/paragraphformat/set_rightindent/
 ---
-## ParagraphFormat.set_RightIndent method
+## ParagraphFormat::set_RightIndent method
 
 
 Setter for [Aspose::Words::ParagraphFormat::get_RightIndent](../get_rightindent/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::ParagraphFormat::get_RightIndent](../get_rightindent/
 void Aspose::Words::ParagraphFormat::set_RightIndent(double value)
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

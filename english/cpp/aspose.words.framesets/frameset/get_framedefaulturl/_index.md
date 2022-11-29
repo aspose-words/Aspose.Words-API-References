@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.framesets/frameset/get_framedefaulturl/
 ---
-## Frameset.get_FrameDefaultUrl method
+## Frameset::get_FrameDefaultUrl method
 
 
 Gets or sets the web page URL or document file name to display in this frame.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Framesets::Frameset::get_FrameDefaultUrl()
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,8 @@ doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx
 doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx_get(0)->set_IsFrameLinkToFile(false);
 ```
 
+## See Also
+
+* Class [Frameset](../)
+* Namespace [Aspose::Words::Framesets](../../)
+* Library [Aspose.Words](../../../)

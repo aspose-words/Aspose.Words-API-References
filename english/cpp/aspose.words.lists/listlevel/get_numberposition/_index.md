@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.lists/listlevel/get_numberposition/
 ---
-## ListLevel.get_NumberPosition method
+## ListLevel::get_NumberPosition method
 
 
 Returns or sets the position (in points) of the number or bullet for the list level.
@@ -15,11 +15,12 @@ Returns or sets the position (in points) of the number or bullet for the list le
 double Aspose::Words::Lists::ListLevel::get_NumberPosition() const
 ```
 
+## Remarks
+
 
 [NumberPosition](./) corresponds to LeftIndent plus FirstLineIndent of the paragraph.
 
 ## Examples
-
 
 
 
@@ -76,3 +77,8 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateCustomList.docx");
 ```
 
+## See Also
+
+* Class [ListLevel](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

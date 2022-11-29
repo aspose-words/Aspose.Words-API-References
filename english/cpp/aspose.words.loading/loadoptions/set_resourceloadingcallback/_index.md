@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/aspose.words.loading/loadoptions/set_resourceloadingcallback/
 ---
-## LoadOptions.set_ResourceLoadingCallback method
+## LoadOptions::set_ResourceLoadingCallback method
 
 
 Setter for [Aspose::Words::Loading::LoadOptions::get_ResourceLoadingCallback](../get_resourceloadingcallback/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Loading::LoadOptions::get_ResourceLoadingCallback](..
 void Aspose::Words::Loading::LoadOptions::set_ResourceLoadingCallback(const System::SharedPtr<Aspose::Words::Loading::IResourceLoadingCallback> &value)
 ```
 
+## See Also
+
+* Interface [IResourceLoadingCallback](../../iresourceloadingcallback/)
+* Class [LoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

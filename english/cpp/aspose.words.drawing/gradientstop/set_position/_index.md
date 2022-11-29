@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.drawing/gradientstop/set_position/
 ---
-## GradientStop.set_Position method
+## GradientStop::set_Position method
 
 
 Setter for [Aspose::Words::Drawing::GradientStop::get_Position](../get_position/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::GradientStop::get_Position](../get_position/
 void Aspose::Words::Drawing::GradientStop::set_Position(double value)
 ```
 
+## See Also
+
+* Class [GradientStop](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

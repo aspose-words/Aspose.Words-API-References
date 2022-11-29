@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/editablerangestart/accept/
 ---
-## EditableRangeStart.Accept method
+## EditableRangeStart::Accept method
 
 
 Accepts a visitor.
@@ -22,15 +22,15 @@ bool Aspose::Words::EditableRangeStart::Accept(System::SharedPtr<Aspose::Words::
 
 ### ReturnValue
 
-
 False if the visitor requested the enumeration to stop.
+## Remarks
+
 
 Calls [VisitEditableRangeStart()](../../documentvisitor/visiteditablerangestart/).
 
 For more info see the Visitor design pattern.
 
 ## Examples
-
 
 
 
@@ -136,3 +136,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [DocumentVisitor](../../documentvisitor/)
+* Class [EditableRangeStart](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

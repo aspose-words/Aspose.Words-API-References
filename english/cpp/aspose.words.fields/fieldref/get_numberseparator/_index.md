@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.fields/fieldref/get_numberseparator/
 ---
-## FieldRef.get_NumberSeparator method
+## FieldRef::get_NumberSeparator method
 
 
 Gets or sets the character sequence that is used to separate sequence numbers and page numbers.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldRef::get_NumberSeparator()
 
 
 ## Examples
-
 
 
 
@@ -102,3 +101,8 @@ static SharedPtr<FieldRef> InsertFieldRef(SharedPtr<DocumentBuilder> builder, St
 }
 ```
 
+## See Also
+
+* Class [FieldRef](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

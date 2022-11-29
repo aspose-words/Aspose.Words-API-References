@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.webextensions/webextension/get_bindings/
 ---
-## WebExtension.get_Bindings method
+## WebExtension::get_Bindings method
 
 
 Specifies a list of web extension bindings.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionBindingCollection> A
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,9 @@ doc->get_WebExtensionTaskPanes()->Clear();
 ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ```
 
+## See Also
+
+* Class [WebExtensionBindingCollection](../../webextensionbindingcollection/)
+* Class [WebExtension](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

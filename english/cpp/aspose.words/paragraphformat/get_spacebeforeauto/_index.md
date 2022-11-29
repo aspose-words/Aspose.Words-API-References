@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/aspose.words/paragraphformat/get_spacebeforeauto/
 ---
-## ParagraphFormat.get_SpaceBeforeAuto method
+## ParagraphFormat::get_SpaceBeforeAuto method
 
 
 True if the amount of spacing before the paragraph is set automatically.
@@ -14,6 +14,8 @@ True if the amount of spacing before the paragraph is set automatically.
 ```cpp
 bool Aspose::Words::ParagraphFormat::get_SpaceBeforeAuto()
 ```
+
+## Remarks
 
 
 When set to true, overrides the effect of [SpaceBefore](../get_spacebefore/).
@@ -30,7 +32,6 @@ When you set paragraph Space Before and Space After to Auto, **Microsoft** Word 
 
 
 ## Examples
-
 
 
 
@@ -56,3 +57,8 @@ builder->Writeln(u"Paragraph 2.");
 doc->Save(ArtifactsDir + u"ParagraphFormat.ParagraphSpacingAuto.docx");
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.words.lists/listlevel/set_numberformat/
 ---
-## ListLevel.set_NumberFormat method
+## ListLevel::set_NumberFormat method
 
 
 Setter for [Aspose::Words::Lists::ListLevel::get_NumberFormat](../get_numberformat/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Lists::ListLevel::get_NumberFormat](../get_numberform
 void Aspose::Words::Lists::ListLevel::set_NumberFormat(const System::String &value)
 ```
 
+## See Also
+
+* Class [ListLevel](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

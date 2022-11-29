@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /cpp/aspose.words/documentbuilder/insertstyleseparator/
 ---
-## DocumentBuilder.InsertStyleSeparator method
+## DocumentBuilder::InsertStyleSeparator method
 
 
 Inserts style separator into the document.
@@ -17,7 +17,6 @@ void Aspose::Words::DocumentBuilder::InsertStyleSeparator()
 
 
 ## Examples
-
 
 
 
@@ -50,3 +49,8 @@ ASSERT_EQ(u"MyParaStyle", doc->get_FirstSection()->get_Body()->get_Paragraphs()-
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertStyleSeparator.docx");
 ```
 
+## See Also
+
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

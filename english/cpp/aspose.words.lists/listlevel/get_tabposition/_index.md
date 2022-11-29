@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.lists/listlevel/get_tabposition/
 ---
-## ListLevel.get_TabPosition method
+## ListLevel::get_TabPosition method
 
 
 Returns or sets the tab position (in points) for the list level.
@@ -15,11 +15,12 @@ Returns or sets the tab position (in points) for the list level.
 double Aspose::Words::Lists::ListLevel::get_TabPosition() const
 ```
 
+## Remarks
+
 
 Has effect only when [TrailingCharacter](../get_trailingcharacter/) is a tab.
 
 ## Examples
-
 
 
 
@@ -76,3 +77,8 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateCustomList.docx");
 ```
 
+## See Also
+
+* Class [ListLevel](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 950
 url: /cpp/aspose.words.drawing/shapebase/set_href/
 ---
-## ShapeBase.set_HRef method
+## ShapeBase::set_HRef method
 
 
 Setter for [Aspose::Words::Drawing::ShapeBase::get_HRef](../get_href/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::ShapeBase::get_HRef](../get_href/).
 void Aspose::Words::Drawing::ShapeBase::set_HRef(const System::String &value)
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

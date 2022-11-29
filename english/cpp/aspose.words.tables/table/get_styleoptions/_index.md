@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/aspose.words.tables/table/get_styleoptions/
 ---
-## Table.get_StyleOptions method
+## Table::get_StyleOptions method
 
 
 Gets or sets bit flags that specify how a table style is applied to this table.
@@ -17,7 +17,6 @@ Aspose::Words::Tables::TableStyleOptions Aspose::Words::Tables::Table::get_Style
 
 
 ## Examples
-
 
 
 
@@ -65,3 +64,9 @@ builder->EndRow();
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertTableWithStyle.docx");
 ```
 
+## See Also
+
+* Enum [TableStyleOptions](../../tablestyleoptions/)
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

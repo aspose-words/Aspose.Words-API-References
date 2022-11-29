@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.fields/fieldref/get_insertrelativeposition/
 ---
-## FieldRef.get_InsertRelativePosition method
+## FieldRef::get_InsertRelativePosition method
 
 
 Gets or sets whether to insert the relative position of the referenced paragraph.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldRef::get_InsertRelativePosition()
 
 
 ## Examples
-
 
 
 
@@ -102,3 +101,8 @@ static SharedPtr<FieldRef> InsertFieldRef(SharedPtr<DocumentBuilder> builder, St
 }
 ```
 
+## See Also
+
+* Class [FieldRef](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

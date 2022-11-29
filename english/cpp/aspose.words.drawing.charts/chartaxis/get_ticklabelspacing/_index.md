@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelspacing/
 ---
-## ChartAxis.get_TickLabelSpacing method
+## ChartAxis::get_TickLabelSpacing method
 
 
 Gets or sets the interval, at which tick labels are drawn.
@@ -15,13 +15,14 @@ Gets or sets the interval, at which tick labels are drawn.
 int32_t Aspose::Words::Drawing::Charts::ChartAxis::get_TickLabelSpacing()
 ```
 
+## Remarks
+
 
 The property has effect for text category and series axes. It is not supported by MS Office 2016 new charts. Valid range of a value is greater than or equal to 1.
 
 Setting this property sets the [TickLabelSpacingIsAuto](../get_ticklabelspacingisauto/) property to **false**.
 
 ## Examples
-
 
 
 
@@ -78,3 +79,8 @@ axis->get_DisplayUnit()->set_CustomUnit(1000000);
 doc->Save(ArtifactsDir + u"Charts.AxisDisplayUnit.docx");
 ```
 
+## See Also
+
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

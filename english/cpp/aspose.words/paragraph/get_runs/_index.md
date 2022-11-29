@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.words/paragraph/get_runs/
 ---
-## Paragraph.get_Runs method
+## Paragraph::get_Runs method
 
 
 Provides access to the typed collection of pieces of text inside the paragraph.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::RunCollection> Aspose::Words::Paragraph::get_Ru
 
 
 ## Examples
-
 
 
 
@@ -71,3 +70,9 @@ ASSERT_TRUE(runs->idx_get(1)->get_IsMoveToRevision());
 ASSERT_TRUE(runs->idx_get(5)->get_IsDeleteRevision());
 ```
 
+## See Also
+
+* Class [RunCollection](../../runcollection/)
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

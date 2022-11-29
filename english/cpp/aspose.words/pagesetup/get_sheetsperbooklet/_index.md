@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/aspose.words/pagesetup/get_sheetsperbooklet/
 ---
-## PageSetup.get_SheetsPerBooklet method
+## PageSetup::get_SheetsPerBooklet method
 
 
 Returns or sets the number of pages to be included in each booklet.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::PageSetup::get_SheetsPerBooklet() const
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,8 @@ pageSetup->set_SheetsPerBooklet(4);
 doc->Save(ArtifactsDir + u"PageSetup.Booklet.docx");
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

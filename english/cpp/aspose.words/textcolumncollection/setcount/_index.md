@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words/textcolumncollection/setcount/
 ---
-## TextColumnCollection.SetCount method
+## TextColumnCollection::SetCount method
 
 
 Arranges text into the specified number of text columns.
@@ -19,11 +19,12 @@ void Aspose::Words::TextColumnCollection::SetCount(int32_t newCount)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | newCount | int32_t | The number of columns the text is to be arranged into. |
+## Remarks
+
 
 When [EvenlySpaced](../get_evenlyspaced/) is **false** and you increase the number of columns, new [TextColumn](../../textcolumn/) objects are created with zero width and spacing. You need to set width and spacing for the new columns.
 
 ## Examples
-
 
 
 
@@ -43,3 +44,8 @@ builder->Writeln(u"Column 2.");
 doc->Save(ArtifactsDir + u"PageSetup.ColumnsSameWidth.docx");
 ```
 
+## See Also
+
+* Class [TextColumnCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

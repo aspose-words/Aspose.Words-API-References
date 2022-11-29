@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.drawing/fill/get_gradientstops/
 ---
-## Fill.get_GradientStops method
+## Fill::get_GradientStops method
 
 
 Gets a collection of [GradientStop](../../gradientstop/) objects for the fill.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::GradientStopCollection> Aspose::Words:
 
 
 ## Examples
-
 
 
 
@@ -69,3 +68,9 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 doc->Save(ArtifactsDir + u"Shape.GradientStops.docx", saveOptions);
 ```
 
+## See Also
+
+* Class [GradientStopCollection](../../gradientstopcollection/)
+* Class [Fill](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

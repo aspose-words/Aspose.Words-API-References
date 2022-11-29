@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.layout/pagelayoutcallbackargs/get_event/
 ---
-## PageLayoutCallbackArgs.get_Event method
+## PageLayoutCallbackArgs::get_Event method
 
 
 Gets event.
@@ -17,7 +17,6 @@ Aspose::Words::Layout::PageLayoutEvent Aspose::Words::Layout::PageLayoutCallback
 
 
 ## Examples
-
 
 
 
@@ -89,3 +88,9 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [PageLayoutEvent](../../pagelayoutevent/)
+* Class [PageLayoutCallbackArgs](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.notes/footnote/get_footnotetype/
 ---
-## Footnote.get_FootnoteType method
+## Footnote::get_FootnoteType method
 
 
 Returns a value that specifies whether this is a footnote or endnote.
@@ -17,7 +17,6 @@ Aspose::Words::Notes::FootnoteType Aspose::Words::Notes::Footnote::get_FootnoteT
 
 
 ## Examples
-
 
 
 
@@ -49,3 +48,9 @@ ASSERT_EQ(FootnoteType::Endnote, endnote->get_FootnoteType());
 doc->Save(ArtifactsDir + u"InlineStory.FootnoteEndnote.docx");
 ```
 
+## See Also
+
+* Enum [FootnoteType](../../footnotetype/)
+* Class [Footnote](../)
+* Namespace [Aspose::Words::Notes](../../)
+* Library [Aspose.Words](../../../)

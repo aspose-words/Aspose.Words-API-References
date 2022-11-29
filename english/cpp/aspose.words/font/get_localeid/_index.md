@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.words/font/get_localeid/
 ---
-## Font.get_LocaleId method
+## Font::get_LocaleId method
 
 
 Gets or sets the locale identifier (language) of the formatted characters.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Font::get_LocaleId()
 
 
 ## Examples
-
 
 
 
@@ -38,3 +37,8 @@ builder->Writeln(u"Привет!");
 doc->Save(ArtifactsDir + u"Font.LocaleId.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

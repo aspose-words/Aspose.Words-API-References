@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.saving/txtsaveoptionsbase/get_forcepagebreaks/
 ---
-## TxtSaveOptionsBase.get_ForcePageBreaks method
+## TxtSaveOptionsBase::get_ForcePageBreaks method
 
 
 Allows to specify whether the page breaks should be preserved during export. The default value is **false**.
@@ -17,7 +17,6 @@ bool Aspose::Words::Saving::TxtSaveOptionsBase::get_ForcePageBreaks() const
 
 
 ## Examples
-
 
 
 
@@ -51,3 +50,8 @@ doc = MakeObject<Document>(ArtifactsDir + u"TxtSaveOptions.PageBreaks.txt");
 ASSERT_EQ(forcePageBreaks ? 3 : 1, doc->get_PageCount());
 ```
 
+## See Also
+
+* Class [TxtSaveOptionsBase](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

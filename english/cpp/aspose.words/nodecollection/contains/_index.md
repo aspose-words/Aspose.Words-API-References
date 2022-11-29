@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/nodecollection/contains/
 ---
-## NodeCollection.Contains method
+## NodeCollection::Contains method
 
 
 Determines whether a node is in the collection.
@@ -22,13 +22,13 @@ bool Aspose::Words::NodeCollection::Contains(const System::SharedPtr<Aspose::Wor
 
 ### ReturnValue
 
-
 True if item is found in the collection; otherwise, false.
+## Remarks
+
 
 This method performs a linear search; therefore, the average execution time is proportional to Count.
 
 ## Examples
-
 
 
 
@@ -63,3 +63,9 @@ ASSERT_FALSE(run == nullptr);
 ASSERT_FALSE(runs->Contains(run));
 ```
 
+## See Also
+
+* Class [Node](../../node/)
+* Class [NodeCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.fonts/fontinfocollection/get_embedsystemfonts/
 ---
-## FontInfoCollection.get_EmbedSystemFonts method
+## FontInfoCollection::get_EmbedSystemFonts method
 
 
 Specifies whether or not to embed System fonts into the document. Default value for this property is **false**. This option works only when [EmbedTrueTypeFonts](../get_embedtruetypefonts/) option is set to **true**.
@@ -15,13 +15,14 @@ Specifies whether or not to embed System fonts into the document. Default value 
 bool Aspose::Words::Fonts::FontInfoCollection::get_EmbedSystemFonts() const
 ```
 
+## Remarks
+
 
 Setting this property to **True** is useful if the user is on an East Asian system and wants to create a document that is readable by others who do not have fonts for that language on their system. For example, a user on a Japanese system could choose to embed the fonts in a document so that the Japanese document would be readable on all systems.
 
 This option works for DOC, DOCX and RTF formats only.
 
 ## Examples
-
 
 
 
@@ -46,3 +47,8 @@ else
 }
 ```
 
+## See Also
+
+* Class [FontInfoCollection](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

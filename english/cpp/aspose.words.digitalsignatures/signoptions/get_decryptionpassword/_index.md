@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.digitalsignatures/signoptions/get_decryptionpassword/
 ---
-## SignOptions.get_DecryptionPassword method
+## SignOptions::get_DecryptionPassword method
 
 
 The password to decrypt source document. Default value is **empty string**.
@@ -17,7 +17,6 @@ System::String Aspose::Words::DigitalSignatures::SignOptions::get_DecryptionPass
 
 
 ## Examples
-
 
 
 
@@ -39,3 +38,8 @@ String outputFileName = ArtifactsDir + u"DigitalSignatureUtil.DecryptionPassword
 DigitalSignatureUtil::Sign(inputFileName, outputFileName, certificateHolder, signOptions);
 ```
 
+## See Also
+
+* Class [SignOptions](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)

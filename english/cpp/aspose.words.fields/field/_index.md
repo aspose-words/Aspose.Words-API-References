@@ -41,6 +41,8 @@ class Field : public virtual System::Object
 | [Unlink](./unlink/)() | Performs the field unlink. |
 | [Update](./update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](./update/)(bool) | Performs a field update. Throws if the field is being updated already. |
+## Remarks
+
 
 A field in a Word document is a complex structure consisting of multiple nodes that include field start, field code, field separator, field result and field end. [Fields](../) can be nested, contain rich content and span multiple paragraphs or sections in a document. The [Field](./) class is a "facade" object that provides properties and methods that allow to work with a field as a single object.
 
@@ -52,10 +54,9 @@ The process of calculating field results is called the field update. Aspose.Word
 
 You can get the plain text version of the field code using the [GetFieldCode()](./getfieldcode/) method. You can get and set the plain text version of the field result using the [Result](./get_result/) property. Both the field code and field result can contain complex content, such as nested fields, paragraphs, shapes, tables and in this case you might want to work with the field nodes directly if you need more control.
 
-You do not create instances of the [Field](./) class directly. To create a new field use the **InsertField()** method.
+You do not create instances of the [Field](./) class directly. To create a new field use the [InsertField()](../) method.
 
 ## Examples
-
 
 
 
@@ -73,3 +74,7 @@ ASSERT_EQ(u"DATE \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
 ASSERT_LE(System::Math::Abs((System::DateTime::Parse(field->get_Result()) - System::DateTime::get_Today()).get_Hours()), 24);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

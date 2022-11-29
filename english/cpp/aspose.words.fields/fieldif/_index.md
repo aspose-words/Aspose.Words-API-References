@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldif/
 Implements the IF field.
 
 ```cpp
-class FieldIf : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IMergeFieldSurrogate
+class FieldIf : public Aspose::Words::Fields::Field,
+                public Aspose::Words::Fields::IMergeFieldSurrogate
 ```
 
 ## Methods
@@ -54,13 +55,14 @@ class FieldIf : public Aspose::Words::Fields::Field, public Aspose::Words::Field
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
+## Remarks
+
 
 Compares the values designated by the expressions [LeftExpression](./get_leftexpression/) and [RightExpression](./get_rightexpression/) in comparison using the operator designated by [ComparisonOperator](./get_comparisonoperator/).
 
 A field in the following format will be used as a mail merge source: { IF 0 = 0 "{PatientsNameFML}" "" \* MERGEFORMAT }
 
 ## Examples
-
 
 
 
@@ -104,3 +106,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.IF.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

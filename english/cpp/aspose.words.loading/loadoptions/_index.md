@@ -9,7 +9,7 @@ url: /cpp/aspose.words.loading/loadoptions/
 ## LoadOptions class
 
 
-Allows to specify additional options (such as password or base URI) when loading a document into a [Document](../../aspose.words/document/) object. To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/net/specify-load-options/) documentation article.
+Allows to specify additional options (such as password or base URI) when loading a document into a [Document](../../aspose.words/document/) object. To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/cpp/specify-load-options/) documentation article.
 
 ```cpp
 class LoadOptions : public System::Object
@@ -20,13 +20,13 @@ class LoadOptions : public System::Object
 | Method | Description |
 | --- | --- |
 | [get_BaseUri](./get_baseuri/)() const | Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be null or empty string. Default is null. |
-| [get_ConvertMetafilesToPng](./get_convertmetafilestopng/)() const | Gets or sets whether to convert metafile (**Wmf** or **Emf**) images to **Png** image format. |
+| [get_ConvertMetafilesToPng](./get_convertmetafilestopng/)() const | Gets or sets whether to convert metafile ([Wmf](../) or [Emf](../)) images to [Png](../) image format. |
 | [get_ConvertShapeToOfficeMath](./get_convertshapetoofficemath/)() const | Gets or sets whether to convert shapes with EquationXML to Office [Math](../../aspose.words.math/) objects. |
 | [get_Encoding](./get_encoding/)() const | Gets or sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be null. Default is null. |
 | [get_FontSettings](./get_fontsettings/)() const | Allows to specify document font settings. |
 | [get_LanguagePreferences](./get_languagepreferences/)() const | Gets language preferences that will be used when document is loading. |
-| [get_LoadFormat](./get_loadformat/)() const | Specifies the format of the document to be loaded. Default is **Auto**. |
-| [get_MswVersion](./get_mswversion/)() const | Allows to specify that the document loading process should match a specific MS Word version. Default value is **Word2019** |
+| [get_LoadFormat](./get_loadformat/)() const | Specifies the format of the document to be loaded. Default is [Auto](../../aspose.words/loadformat/). |
+| [get_MswVersion](./get_mswversion/)() const | Allows to specify that the document loading process should match a specific MS Word version. Default value is [Word2019](../../aspose.words.settings/mswordversion/) |
 | [get_Password](./get_password/)() const | Gets or sets the password for opening an encrypted document. Can be null or empty string. Default is null. |
 | [get_PreserveIncludePictureField](./get_preserveincludepicturefield/)() const | Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is false. |
 | [get_ProgressCallback](./get_progresscallback/)() const | Called during loading a document and accepts data about loading progress. |
@@ -56,7 +56,6 @@ class LoadOptions : public System::Object
 
 
 
-
 Shows how to load an encrypted Microsoft Word document. 
 ```cpp
 SharedPtr<Document> doc;
@@ -78,3 +77,7 @@ doc = MakeObject<Document>(MyDir + u"Encrypted.docx", options);
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Loading](../)
+* Library [Aspose.Words](../../)

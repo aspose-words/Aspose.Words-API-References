@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/imagewatermarkoptions/get_iswashout/
 ---
-## ImageWatermarkOptions.get_IsWashout method
+## ImageWatermarkOptions::get_IsWashout method
 
 
 Gets or sets a boolean value which is responsible for washout effect of the watermark. The default value is True.
@@ -17,7 +17,6 @@ bool Aspose::Words::ImageWatermarkOptions::get_IsWashout() const
 
 
 ## Examples
-
 
 
 
@@ -36,3 +35,8 @@ doc->get_Watermark()->SetImage(System::Drawing::Image::FromFile(ImageDir + u"Log
 doc->Save(ArtifactsDir + u"Document.ImageWatermark.docx");
 ```
 
+## See Also
+
+* Class [ImageWatermarkOptions](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

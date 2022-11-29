@@ -12,7 +12,8 @@ url: /cpp/aspose.words.themes/theme/
 Represents document [Theme](./), and provides access to main theme parts including [MajorFonts](./get_majorfonts/), [MinorFonts](./get_minorfonts/) and [Colors](./get_colors/)
 
 ```cpp
-class Theme : public Aspose::Words::Drawing::Core::Dml::Themes::IThemeProvider, public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListSource
+class Theme : public Aspose::Words::Drawing::Core::Dml::Themes::IThemeProvider,
+              public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListSource
 ```
 
 ## Methods
@@ -25,7 +26,6 @@ class Theme : public Aspose::Words::Drawing::Core::Dml::Themes::IThemeProvider, 
 | [Theme](./theme/)() |  |
 
 ## Examples
-
 
 
 
@@ -71,3 +71,7 @@ colors->set_FollowedHyperlink(System::Drawing::Color::get_Gray());
 doc->Save(ArtifactsDir + u"Themes.CustomColorsAndFonts.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Themes](../)
+* Library [Aspose.Words](../../)

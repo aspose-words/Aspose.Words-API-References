@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.rendering/pageinfo/get_sizeinpoints/
 ---
-## PageInfo.get_SizeInPoints method
+## PageInfo::get_SizeInPoints method
 
 
 Gets the page size in points.
@@ -15,3 +15,8 @@ Gets the page size in points.
 System::Drawing::SizeF Aspose::Words::Rendering::PageInfo::get_SizeInPoints() const
 ```
 
+## See Also
+
+* Class [PageInfo](../)
+* Namespace [Aspose::Words::Rendering](../../)
+* Library [Aspose.Words](../../../)

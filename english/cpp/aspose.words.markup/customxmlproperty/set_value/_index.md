@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.markup/customxmlproperty/set_value/
 ---
-## CustomXmlProperty.set_Value method
+## CustomXmlProperty::set_Value method
 
 
 Setter for [Aspose::Words::Markup::CustomXmlProperty::get_Value](../get_value/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Markup::CustomXmlProperty::get_Value](../get_value/).
 void Aspose::Words::Markup::CustomXmlProperty::set_Value(const System::String &value)
 ```
 
+## See Also
+
+* Class [CustomXmlProperty](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

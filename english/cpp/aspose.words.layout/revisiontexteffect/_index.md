@@ -11,11 +11,15 @@ url: /cpp/aspose.words.layout/revisiontexteffect/
 
 Allows to specify decoration effect for revisions of document text.
 
+```cpp
+enum class RevisionTextEffect
+```
+
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | Revised content has no special effects applied. This corresponds to **NoHighlight**. |
+| None | 0 | Revised content has no special effects applied. This corresponds to [NoHighlight](../revisioncolor/). |
 | Color | 1 | Revised content is highlighted with color only. |
 | Bold | 2 | Revised content is made bold and colored. |
 | Italic | 3 | Revised content is made italic and colored. |
@@ -27,7 +31,6 @@ Allows to specify decoration effect for revisions of document text.
 
 
 ## Examples
-
 
 
 
@@ -76,3 +79,7 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 doc->Save(ArtifactsDir + u"Revision.RevisionOptions.pdf");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Layout](../)
+* Library [Aspose.Words](../../)

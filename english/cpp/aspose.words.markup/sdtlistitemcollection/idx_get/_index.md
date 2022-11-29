@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.markup/sdtlistitemcollection/idx_get/
 ---
-## SdtListItemCollection.idx_get method
+## SdtListItemCollection::idx_get method
 
 
 Returns a [SdtListItem](../../sdtlistitem/) object given its zero-based index in the collection.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Markup::SdtListItem> Aspose::Words::Markup::Sdt
 
 
 ## Examples
-
 
 
 
@@ -77,3 +76,9 @@ listItems->Clear();
 ASSERT_EQ(0, listItems->get_Count());
 ```
 
+## See Also
+
+* Class [SdtListItem](../../sdtlistitem/)
+* Class [SdtListItemCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

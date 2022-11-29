@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words/font/get_border/
 ---
-## Font.get_Border method
+## Font::get_Border method
 
 
 Returns a [Border](../../border/) object that specifies border for the font.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Border> Aspose::Words::Font::get_Border()
 
 
 ## Examples
-
 
 
 
@@ -35,3 +34,9 @@ builder->Write(u"Text surrounded by green border.");
 doc->Save(ArtifactsDir + u"Border.FontBorder.docx");
 ```
 
+## See Also
+
+* Class [Border](../../border/)
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -58,11 +58,12 @@ class Stroke : public System::Object
 | [set_Transparency](./set_transparency/)(double) | Setter for [Aspose::Words::Drawing::Stroke::get_Transparency](./get_transparency/). |
 | [set_Visible](./set_visible/)(bool) | Setter for [Aspose::Words::Drawing::Stroke::get_Visible](./get_visible/). |
 | [set_Weight](./set_weight/)(double) | Setter for [Aspose::Words::Drawing::Stroke::get_Weight](./get_weight/). |
+## Remarks
+
 
 Use the [Stroke](../shape/get_stroke/) property to access stroke properties of a shape. You do not create instances of the [Stroke](./) class directly.
 
 ## Examples
-
 
 
 
@@ -92,3 +93,7 @@ stroke->set_LineStyle(ShapeLineStyle::Triple);
 doc->Save(ArtifactsDir + u"Shape.Stroke.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

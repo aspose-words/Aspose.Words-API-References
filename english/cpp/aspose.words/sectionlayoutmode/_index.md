@@ -11,6 +11,10 @@ url: /cpp/aspose.words/sectionlayoutmode/
 
 Specifies the layout mode for a section allowing to define the document grid behavior.
 
+```cpp
+enum class SectionLayoutMode
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -22,7 +26,6 @@ Specifies the layout mode for a section allowing to define the document grid beh
 
 
 ## Examples
-
 
 
 
@@ -66,3 +69,7 @@ for (int i = 0; i < 30; i++)
 doc->Save(ArtifactsDir + u"PageSetup.LinesPerPage.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

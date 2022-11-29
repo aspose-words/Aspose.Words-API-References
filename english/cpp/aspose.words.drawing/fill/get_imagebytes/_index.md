@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.drawing/fill/get_imagebytes/
 ---
-## Fill.get_ImageBytes method
+## Fill::get_ImageBytes method
 
 
 Gets the raw bytes of the fill texture or pattern.
@@ -15,11 +15,12 @@ Gets the raw bytes of the fill texture or pattern.
 System::ArrayPtr<uint8_t> Aspose::Words::Drawing::Fill::get_ImageBytes()
 ```
 
+## Remarks
+
 
 The default value is null.
 
 ## Examples
-
 
 
 
@@ -92,3 +93,8 @@ ArrayPtr<uint8_t> imageBytes = System::IO::File::ReadAllBytes(ImageDir + u"Logo.
 doc->Save(ArtifactsDir + u"Drawing.VariousShapes.docx");
 ```
 
+## See Also
+
+* Class [Fill](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

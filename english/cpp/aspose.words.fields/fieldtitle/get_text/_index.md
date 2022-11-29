@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldtitle/get_text/
 ---
-## FieldTitle.get_Text method
+## FieldTitle::get_Text method
 
 
 Gets or sets the text of the title.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldTitle::get_Text()
 
 
 ## Examples
-
 
 
 
@@ -51,3 +50,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.TITLE.docx");
 ```
 
+## See Also
+
+* Class [FieldTitle](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

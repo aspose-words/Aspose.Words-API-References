@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words/node/getancestor/
 ---
-## Node.GetAncestor method
+## Node::GetAncestor method
 
 
 Gets the first ancestor of the specified [NodeType](../../nodetype/).
@@ -22,11 +22,9 @@ System::SharedPtr<Aspose::Words::CompositeNode> Aspose::Words::Node::GetAncestor
 
 ### ReturnValue
 
-
 The ancestor of the specified type or null if no ancestor of this type was found.
 
 ## Examples
-
 
 
 
@@ -94,3 +92,10 @@ static int GetChildTableCount(SharedPtr<Table> table)
 }
 ```
 
+## See Also
+
+* Class [CompositeNode](../../compositenode/)
+* Enum [NodeType](../../nodetype/)
+* Class [Node](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

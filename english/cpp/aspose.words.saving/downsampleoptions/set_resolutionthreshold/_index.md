@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.saving/downsampleoptions/set_resolutionthreshold/
 ---
-## DownsampleOptions.set_ResolutionThreshold method
+## DownsampleOptions::set_ResolutionThreshold method
 
 
 Setter for [Aspose::Words::Saving::DownsampleOptions::get_ResolutionThreshold](../get_resolutionthreshold/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::DownsampleOptions::get_ResolutionThreshold](.
 void Aspose::Words::Saving::DownsampleOptions::set_ResolutionThreshold(int32_t value)
 ```
 
+## See Also
+
+* Class [DownsampleOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

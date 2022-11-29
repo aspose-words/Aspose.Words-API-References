@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.markup/sdtlistitemcollection/add/
 ---
-## SdtListItemCollection.Add method
+## SdtListItemCollection::Add method
 
 
 Adds an item to this collection.
@@ -17,7 +17,6 @@ void Aspose::Words::Markup::SdtListItemCollection::Add(const System::SharedPtr<A
 
 
 ## Examples
-
 
 
 
@@ -77,3 +76,9 @@ listItems->Clear();
 ASSERT_EQ(0, listItems->get_Count());
 ```
 
+## See Also
+
+* Class [SdtListItem](../../sdtlistitem/)
+* Class [SdtListItemCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

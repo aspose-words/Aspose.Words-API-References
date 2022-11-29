@@ -12,7 +12,8 @@ url: /cpp/aspose.words.tables/cellformat/
 Represents all formatting for a table cell.
 
 ```cpp
-class CellFormat : public Aspose::Words::IBorderAttrSource, public Aspose::Words::IShadingAttrSource
+class CellFormat : public Aspose::Words::IBorderAttrSource,
+                   public Aspose::Words::IShadingAttrSource
 ```
 
 ## Methods
@@ -49,7 +50,6 @@ class CellFormat : public Aspose::Words::IBorderAttrSource, public Aspose::Words
 | [SetPaddings](./setpaddings/)(double, double, double, double) | Sets the amount of space (in points) to add to the left/top/right/bottom of the contents of cell. |
 
 ## Examples
-
 
 
 
@@ -160,3 +160,7 @@ firstCell->get_CellFormat()->get_Shading()->set_ForegroundPatternColor(System::D
 doc->Save(ArtifactsDir + u"Table.CellFormat.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Tables](../)
+* Library [Aspose.Words](../../)

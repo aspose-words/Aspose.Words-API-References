@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/aspose.words/pagesetup/get_pagenumberstyle/
 ---
-## PageSetup.get_PageNumberStyle method
+## PageSetup::get_PageNumberStyle method
 
 
 Gets or sets the page number format.
@@ -17,7 +17,6 @@ Aspose::Words::NumberStyle Aspose::Words::PageSetup::get_PageNumberStyle()
 
 
 ## Examples
-
 
 
 
@@ -72,3 +71,9 @@ pageSetup->set_PageNumberStyle(NumberStyle::Arabic);
 doc->Save(ArtifactsDir + u"PageSetup.PageNumbering.docx");
 ```
 
+## See Also
+
+* Enum [NumberStyle](../../numberstyle/)
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

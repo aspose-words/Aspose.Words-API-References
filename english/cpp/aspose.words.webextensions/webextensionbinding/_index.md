@@ -26,3 +26,7 @@ class WebExtensionBinding : public System::Object
 | [set_BindingType](./set_bindingtype/)(Aspose::Words::WebExtensions::WebExtensionBindingType) | Specifies the binding type. |
 | [set_Id](./set_id/)(const System::String\&) | Specifies the binding identifier. |
 | [WebExtensionBinding](./webextensionbinding/)(const System::String\&, Aspose::Words::WebExtensions::WebExtensionBindingType, const System::String\&) | Creates web extension binding with specified parameters. |
+## See Also
+
+* Namespace [Aspose::Words::WebExtensions](../)
+* Library [Aspose.Words](../../)

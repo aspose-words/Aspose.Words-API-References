@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words/variablecollection/indexofkey/
 ---
-## VariableCollection.IndexOfKey method
+## VariableCollection::IndexOfKey method
 
 
 Returns the zero-based index of the specified document variable in the collection.
@@ -22,11 +22,9 @@ int32_t Aspose::Words::VariableCollection::IndexOfKey(const System::String &name
 
 ### ReturnValue
 
-
 The zero based index. Negative value if not found.
 
 ## Examples
-
 
 
 
@@ -96,3 +94,8 @@ variables->Clear();
 ASSERT_EQ(0, variables->get_Count());
 ```
 
+## See Also
+
+* Class [VariableCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

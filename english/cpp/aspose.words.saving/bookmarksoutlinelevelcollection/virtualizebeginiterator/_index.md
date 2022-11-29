@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/virtualizebeginiterator/
 ---
-## BookmarksOutlineLevelCollection.virtualizeBeginIterator method
+## BookmarksOutlineLevelCollection::virtualizeBeginIterator method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/virtualizebeginite
 virtualized_iterator * Aspose::Words::Saving::BookmarksOutlineLevelCollection::virtualizeBeginIterator() override
 ```
 
+## See Also
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [BookmarksOutlineLevelCollection](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/aspose.words.tables/table/get_nodetype/
 ---
-## Table.get_NodeType method
+## Table::get_NodeType method
 
 
 Returns **NodeType.Table**.
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::Tables::Table::get_NodeType() const overr
 
 
 ## Examples
-
 
 
 
@@ -123,3 +122,9 @@ static int GetChildTableCount(SharedPtr<Table> table)
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../../aspose.words/nodetype/)
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

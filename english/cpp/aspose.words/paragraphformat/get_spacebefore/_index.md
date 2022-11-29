@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/aspose.words/paragraphformat/get_spacebefore/
 ---
-## ParagraphFormat.get_SpaceBefore method
+## ParagraphFormat::get_SpaceBefore method
 
 
 Gets or sets the amount of spacing (in points) before the paragraph.
@@ -15,13 +15,14 @@ Gets or sets the amount of spacing (in points) before the paragraph.
 double Aspose::Words::ParagraphFormat::get_SpaceBefore()
 ```
 
+## Remarks
+
 
 Has no effect when [SpaceBeforeAuto](../get_spacebeforeauto/) is true.
 
 Valid values range from 0 to 1584 inclusive.
 
 ## Examples
-
 
 
 
@@ -77,3 +78,8 @@ builder->Writeln(String::Format(u"Paragraph in the \"{0}\" style.", builder->get
 doc->Save(ArtifactsDir + u"ParagraphFormat.ParagraphSpacingSameStyle.docx");
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

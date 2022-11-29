@@ -6,7 +6,7 @@ type: docs
 weight: 677
 url: /cpp/aspose.words.properties/builtindocumentproperties/set_nameofapplication/
 ---
-## BuiltInDocumentProperties.set_NameOfApplication method
+## BuiltInDocumentProperties::set_NameOfApplication method
 
 
 Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_NameOfApplication](../get_nameofapplication/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_NameOfAppl
 void Aspose::Words::Properties::BuiltInDocumentProperties::set_NameOfApplication(const System::String &value)
 ```
 
+## See Also
+
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

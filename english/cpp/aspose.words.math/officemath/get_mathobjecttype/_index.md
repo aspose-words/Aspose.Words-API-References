@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.math/officemath/get_mathobjecttype/
 ---
-## OfficeMath.get_MathObjectType method
+## OfficeMath::get_MathObjectType method
 
 
 Gets type [MathObjectType](./) of this Office [Math](../../) object.
@@ -17,7 +17,6 @@ Aspose::Words::Math::MathObjectType Aspose::Words::Math::OfficeMath::get_MathObj
 
 
 ## Examples
-
 
 
 
@@ -95,3 +94,9 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [MathObjectType](../../mathobjecttype/)
+* Class [OfficeMath](../)
+* Namespace [Aspose::Words::Math](../../)
+* Library [Aspose.Words](../../../)

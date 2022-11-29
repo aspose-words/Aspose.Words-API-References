@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.mailmerging/mailmerge/deletefields/
 ---
-## MailMerge.DeleteFields method
+## MailMerge::DeleteFields method
 
 
 Removes mail merge related fields from the document.
@@ -15,13 +15,14 @@ Removes mail merge related fields from the document.
 void Aspose::Words::MailMerging::MailMerge::DeleteFields()
 ```
 
+## Remarks
+
 
 This method removes MERGEFIELD and NEXT fields from the document.
 
 This method could be useful if your mail merge operation does not always need to populate all fields in the document. Use this method to remove all remaining mail merge fields.
 
 ## Examples
-
 
 
 
@@ -45,3 +46,8 @@ doc->get_MailMerge()->DeleteFields();
 ASSERT_EQ(u"Dear  ,\rGreetings!", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [MailMerge](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

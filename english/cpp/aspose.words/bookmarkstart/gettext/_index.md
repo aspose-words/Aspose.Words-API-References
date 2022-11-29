@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/bookmarkstart/gettext/
 ---
-## BookmarkStart.GetText method
+## BookmarkStart::GetText method
 
 
 Returns an empty string.
@@ -18,11 +18,9 @@ System::String Aspose::Words::BookmarkStart::GetText() override
 
 ### ReturnValue
 
-
 An empty string.
 
 ## Examples
-
 
 
 
@@ -103,3 +101,8 @@ public:
 };
 ```
 
+## See Also
+
+* Class [BookmarkStart](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 781
 url: /cpp/aspose.words/document/normalizefieldtypes/
 ---
-## Document.NormalizeFieldTypes method
+## Document::NormalizeFieldTypes method
 
 
 Changes field type values [FieldType](../../../aspose.words.fields/fieldchar/get_fieldtype/) of [FieldStart](../../../aspose.words.fields/fieldstart/), [FieldSeparator](../../../aspose.words.fields/fieldseparator/), [FieldEnd](../../../aspose.words.fields/fieldend/) in the whole document so that they correspond to the field types contained in the field codes.
@@ -15,13 +15,14 @@ Changes field type values [FieldType](../../../aspose.words.fields/fieldchar/get
 void Aspose::Words::Document::NormalizeFieldTypes()
 ```
 
+## Remarks
+
 
 Use this method after document changes that affect field types.
 
 To change field type values in a specific part of the document use [NormalizeFieldTypes](../../range/normalizefieldtypes/).
 
 ## Examples
-
 
 
 
@@ -56,3 +57,8 @@ ASSERT_EQ(FieldType::FieldPage, field->get_Separator()->get_FieldType());
 ASSERT_EQ(FieldType::FieldPage, field->get_End()->get_FieldType());
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

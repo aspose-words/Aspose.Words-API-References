@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words/documentvisitor/visiteditablerangestart/
 ---
-## DocumentVisitor.VisitEditableRangeStart method
+## DocumentVisitor::VisitEditableRangeStart method
 
 
 Called when a start of an editable range is encountered in the document.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitEditab
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -106,3 +104,10 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [EditableRangeStart](../../editablerangestart/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1106
 url: /cpp/aspose.words.drawing/shapebase/set_verticalalignment/
 ---
-## ShapeBase.set_VerticalAlignment method
+## ShapeBase::set_VerticalAlignment method
 
 
 Setter for [Aspose::Words::Drawing::ShapeBase::get_VerticalAlignment](../get_verticalalignment/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Drawing::ShapeBase::get_VerticalAlignment](../get_ver
 void Aspose::Words::Drawing::ShapeBase::set_VerticalAlignment(Aspose::Words::Drawing::VerticalAlignment value)
 ```
 
+## See Also
+
+* Enum [VerticalAlignment](../../verticalalignment/)
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

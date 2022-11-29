@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.settings/compatibilityoptions/get_donotautofitconstrainedtables/
 ---
-## CompatibilityOptions.get_DoNotAutofitConstrainedTables method
+## CompatibilityOptions::get_DoNotAutofitConstrainedTables method
 
 
 Do Not AutoFit [Tables](../../../aspose.words.tables/) To Fit Next To Wrapped Objects.
@@ -15,3 +15,8 @@ Do Not AutoFit [Tables](../../../aspose.words.tables/) To Fit Next To Wrapped Ob
 bool Aspose::Words::Settings::CompatibilityOptions::get_DoNotAutofitConstrainedTables()
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

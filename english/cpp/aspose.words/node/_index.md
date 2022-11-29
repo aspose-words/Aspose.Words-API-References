@@ -39,6 +39,8 @@ class Node : public virtual System::Object
 | [set_CustomNodeId](./set_customnodeid/)(int32_t) | Setter for [Aspose::Words::Node::get_CustomNodeId](./get_customnodeid/). |
 | [ToString](./tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](./tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 A document is represented as a tree of nodes, similar to DOM or XmlDocument.
 
@@ -55,7 +57,6 @@ The [Node](./) class:
 
 
 ## Examples
-
 
 
 
@@ -154,3 +155,7 @@ while (curNode != nullptr)
 ASSERT_EQ(0, doc->GetChildNodes(NodeType::Table, true)->get_Count());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

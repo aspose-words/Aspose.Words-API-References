@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.settings/odsofieldmapdatacollection/get_count/
 ---
-## OdsoFieldMapDataCollection.get_Count method
+## OdsoFieldMapDataCollection::get_Count method
 
 
 Gets the number of elements contained in the collection.
@@ -15,3 +15,8 @@ Gets the number of elements contained in the collection.
 int32_t Aspose::Words::Settings::OdsoFieldMapDataCollection::get_Count()
 ```
 
+## See Also
+
+* Class [OdsoFieldMapDataCollection](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

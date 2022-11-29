@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fields/fieldxe/get_text/
 ---
-## FieldXE.get_Text method
+## FieldXE::get_Text method
 
 
 Gets or sets the text of the entry.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldXE::get_Text()
 
 
 ## Examples
-
 
 
 
@@ -139,3 +138,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.INDEX.XE.Formatting.docx");
 ```
 
+## See Also
+
+* Class [FieldXE](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.vba/vbareference/get_libid/
 ---
-## VbaReference.get_LibId method
+## VbaReference::get_LibId method
 
 
 Gets a string value containing the identifier of an Automation type library.
@@ -14,6 +14,8 @@ Gets a string value containing the identifier of an Automation type library.
 ```cpp
 virtual System::String Aspose::Words::Vba::VbaReference::get_LibId() const =0
 ```
+
+## Remarks
 
 
 Depending on reference type, the value of this property can be:
@@ -24,7 +26,6 @@ Depending on reference type, the value of this property can be:
 
 
 ## Examples
-
 
 
 
@@ -93,3 +94,8 @@ static String GetLibIdProjectPath(String libIdProject)
 }
 ```
 
+## See Also
+
+* Class [VbaReference](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

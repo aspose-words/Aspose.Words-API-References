@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.tables/rowformat/get_heightrule/
 ---
-## RowFormat.get_HeightRule method
+## RowFormat::get_HeightRule method
 
 
 Gets or sets the rule for determining the height of the table row.
@@ -17,7 +17,6 @@ Aspose::Words::HeightRule Aspose::Words::Tables::RowFormat::get_HeightRule()
 
 
 ## Examples
-
 
 
 
@@ -110,3 +109,9 @@ ASSERT_EQ(HeightRule::Exactly, table->get_Rows()->idx_get(1)->get_RowFormat()->g
 doc->Save(ArtifactsDir + u"DocumentBuilder.SetRowFormatting.docx");
 ```
 
+## See Also
+
+* Enum [HeightRule](../../../aspose.words/heightrule/)
+* Class [RowFormat](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

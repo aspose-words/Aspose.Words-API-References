@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/hyphenation/get_warningcallback/
 ---
-## Hyphenation.get_WarningCallback method
+## Hyphenation::get_WarningCallback method
 
 
 Called during a load hyphenation patterns, when an issue is detected that might result in formatting fidelity loss.
@@ -17,7 +17,6 @@ static System::SharedPtr<Aspose::Words::IWarningCallback> Aspose::Words::Hyphena
 
 
 ## Examples
-
 
 
 
@@ -89,3 +88,9 @@ private:
 };
 ```
 
+## See Also
+
+* Interface [IWarningCallback](../../iwarningcallback/)
+* Class [Hyphenation](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

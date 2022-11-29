@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_officemathoutputmode/
 ---
-## HtmlSaveOptions.get_OfficeMathOutputMode method
+## HtmlSaveOptions::get_OfficeMathOutputMode method
 
 
 Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. Default value is **HtmlOfficeMathOutputMode.Image**.
@@ -17,7 +17,6 @@ Aspose::Words::Saving::HtmlOfficeMathOutputMode Aspose::Words::Saving::HtmlSaveO
 
 
 ## Examples
-
 
 
 
@@ -68,3 +67,9 @@ case HtmlOfficeMathOutputMode::Text:
 }
 ```
 
+## See Also
+
+* Enum [HtmlOfficeMathOutputMode](../../htmlofficemathoutputmode/)
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

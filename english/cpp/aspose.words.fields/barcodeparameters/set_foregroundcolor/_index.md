@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.words.fields/barcodeparameters/set_foregroundcolor/
 ---
-## BarcodeParameters.set_ForegroundColor method
+## BarcodeParameters::set_ForegroundColor method
 
 
 Bar code foreground color (0x000000 - 0xFFFFFF)
@@ -15,3 +15,8 @@ Bar code foreground color (0x000000 - 0xFFFFFF)
 void Aspose::Words::Fields::BarcodeParameters::set_ForegroundColor(const System::String &value)
 ```
 
+## See Also
+
+* Class [BarcodeParameters](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

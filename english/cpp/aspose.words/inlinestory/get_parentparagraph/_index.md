@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words/inlinestory/get_parentparagraph/
 ---
-## InlineStory.get_ParentParagraph method
+## InlineStory::get_ParentParagraph method
 
 
 Retrieves the parent [Paragraph](../../paragraph/) of this node.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::InlineStory::get_Pare
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,9 @@ ASSERT_EQ(StoryType::Comments, comment->get_StoryType());
 doc->Save(ArtifactsDir + u"InlineStory.InsertInlineStoryNodes.docx");
 ```
 
+## See Also
+
+* Class [Paragraph](../../paragraph/)
+* Class [InlineStory](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

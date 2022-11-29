@@ -11,6 +11,10 @@ url: /cpp/aspose.words.fonts/embeddedfontstyle/
 
 Specifies the style of an embedded font inside a [FontInfo](../fontinfo/) object.
 
+```cpp
+enum class EmbeddedFontStyle
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -22,7 +26,6 @@ Specifies the style of an embedded font inside a [FontInfo](../fontinfo/) object
 
 
 ## Examples
-
 
 
 
@@ -51,3 +54,7 @@ embeddedFontBytes = doc->get_FontInfos()->idx_get(u"Alte DIN 1451 Mittelschrift"
 System::IO::File::WriteAllBytes(ArtifactsDir + u"Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Fonts](../)
+* Library [Aspose.Words](../../)

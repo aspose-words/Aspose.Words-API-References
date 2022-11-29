@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/aspose.words.mailmerging/mailmerge/set_trimwhitespaces/
 ---
-## MailMerge.set_TrimWhitespaces method
+## MailMerge::set_TrimWhitespaces method
 
 
 Setter for [Aspose::Words::MailMerging::MailMerge::get_TrimWhitespaces](../get_trimwhitespaces/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::MailMerging::MailMerge::get_TrimWhitespaces](../get_t
 void Aspose::Words::MailMerging::MailMerge::set_TrimWhitespaces(bool value)
 ```
 
+## See Also
+
+* Class [MailMerge](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

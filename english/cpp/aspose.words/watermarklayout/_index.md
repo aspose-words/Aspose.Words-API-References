@@ -11,6 +11,10 @@ url: /cpp/aspose.words/watermarklayout/
 
 Defines layout of the watermark relative to the watermark center.
 
+```cpp
+enum class WatermarkLayout
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,7 +24,6 @@ Defines layout of the watermark relative to the watermark center.
 
 
 ## Examples
-
 
 
 
@@ -51,3 +54,7 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

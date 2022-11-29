@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words/border/gethashcode/
 ---
-## Border.GetHashCode method
+## Border::GetHashCode method
 
 
 Serves as a hash function for this type.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Border::GetHashCode() const override
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,8 @@ for (int i = 0; i < firstParagraphBorders->get_Count(); i++)
 doc->Save(ArtifactsDir + u"Border.SharedElements.docx");
 ```
 
+## See Also
+
+* Class [Border](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

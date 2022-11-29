@@ -20,6 +20,8 @@ class IPageLayoutCallback : public System::Object
 | Method | Description |
 | --- | --- |
 | virtual [Notify](./notify/)(System::SharedPtr\<Aspose::Words::Layout::PageLayoutCallbackArgs\>) | This is called to notify of layout build and rendering progress. |
+## Remarks
+
 
 The primary use for this interface is to allow application code to abort build process.
 
@@ -30,7 +32,6 @@ Note, however, that rendering results may not match what would be rendered for e
 This technique may not work for every document or may fail completely.
 
 ## Examples
-
 
 
 
@@ -102,3 +103,7 @@ private:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Layout](../)
+* Library [Aspose.Words](../../)

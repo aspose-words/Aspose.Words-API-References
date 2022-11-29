@@ -11,6 +11,10 @@ url: /cpp/aspose.words.markup/markuplevel/
 
 Specifies the level in the document tree where a particular [StructuredDocumentTag](../structureddocumenttag/) can occur.
 
+```cpp
+enum class MarkupLevel
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -23,7 +27,6 @@ Specifies the level in the document tree where a particular [StructuredDocumentT
 
 
 ## Examples
-
 
 
 
@@ -58,3 +61,7 @@ for (const auto& node : System::IterateOver(tags))
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Markup](../)
+* Library [Aspose.Words](../../)

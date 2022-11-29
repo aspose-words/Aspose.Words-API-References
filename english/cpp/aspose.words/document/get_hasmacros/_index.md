@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/aspose.words/document/get_hasmacros/
 ---
-## Document.get_HasMacros method
+## Document::get_HasMacros method
 
 
 Returns **true** if the document has a VBA project (macros).
@@ -17,7 +17,6 @@ bool Aspose::Words::Document::get_HasMacros()
 
 
 ## Examples
-
 
 
 
@@ -51,3 +50,8 @@ ASSERT_EQ(u" MACROBUTTON  ViewZoom200 Run ViewZoom200", field->GetFieldCode());
 doc->Save(ArtifactsDir + u"Field.MACROBUTTON.docm");
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

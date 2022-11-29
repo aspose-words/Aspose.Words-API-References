@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/aspose.words/font/get_size/
 ---
-## Font.get_Size method
+## Font::get_Size method
 
 
 Gets or sets the font size in points.
@@ -17,7 +17,6 @@ double Aspose::Words::Font::get_Size()
 
 
 ## Examples
-
 
 
 
@@ -52,3 +51,8 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(run);
 doc->Save(ArtifactsDir + u"Font.CreateFormattedRun.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

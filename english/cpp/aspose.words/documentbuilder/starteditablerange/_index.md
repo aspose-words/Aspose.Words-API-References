@@ -6,7 +6,7 @@ type: docs
 weight: 859
 url: /cpp/aspose.words/documentbuilder/starteditablerange/
 ---
-## DocumentBuilder.StartEditableRange method
+## DocumentBuilder::StartEditableRange method
 
 
 Marks the current position in the document as an editable range start.
@@ -18,15 +18,15 @@ System::SharedPtr<Aspose::Words::EditableRangeStart> Aspose::Words::DocumentBuil
 
 ### ReturnValue
 
-
 The editable range start node that was just created.
+## Remarks
 
-Editable range in a document can overlap and span any range. To create a valid editable range you need to call both [StartEditableRange](./) and [EndEditableRange](../endeditablerange/) or **EndEditableRange()** methods.
+
+Editable range in a document can overlap and span any range. To create a valid editable range you need to call both [StartEditableRange](./) and [EndEditableRange](../endeditablerange/) or [EndEditableRange()](../) methods.
 
 Badly formed editable range will be ignored when the document is saved.
 
 ## Examples
-
 
 
 
@@ -106,3 +106,9 @@ innerEditableRangeStart->get_EditableRange()->set_EditorGroup(EditorType::Contri
 doc->Save(ArtifactsDir + u"EditableRange.Nested.docx");
 ```
 
+## See Also
+
+* Class [EditableRangeStart](../../editablerangestart/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

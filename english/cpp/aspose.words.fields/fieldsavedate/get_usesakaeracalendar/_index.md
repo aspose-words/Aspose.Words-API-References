@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldsavedate/get_usesakaeracalendar/
 ---
-## FieldSaveDate.get_UseSakaEraCalendar method
+## FieldSaveDate::get_UseSakaEraCalendar method
 
 
 Gets or sets whether to use the Saka Era calendar.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldSaveDate::get_UseSakaEraCalendar()
 
 
 ## Examples
-
 
 
 
@@ -61,3 +60,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.SAVEDATE.docx");
 ```
 
+## See Also
+
+* Class [FieldSaveDate](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

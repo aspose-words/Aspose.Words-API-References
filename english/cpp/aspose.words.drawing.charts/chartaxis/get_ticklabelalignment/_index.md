@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelalignment/
 ---
-## ChartAxis.get_TickLabelAlignment method
+## ChartAxis::get_TickLabelAlignment method
 
 
 Gets or sets text alignment of axis tick labels.
@@ -15,13 +15,14 @@ Gets or sets text alignment of axis tick labels.
 Aspose::Words::ParagraphAlignment Aspose::Words::Drawing::Charts::ChartAxis::get_TickLabelAlignment()
 ```
 
+## Remarks
+
 
 This property has effect only for multi-line labels.
 
-Default value is **Center**.
+Default value is [Center](../../../aspose.words/paragraphalignment/).
 
 ## Examples
-
 
 
 
@@ -78,3 +79,9 @@ axis->get_DisplayUnit()->set_CustomUnit(1000000);
 doc->Save(ArtifactsDir + u"Charts.AxisDisplayUnit.docx");
 ```
 
+## See Also
+
+* Enum [ParagraphAlignment](../../../aspose.words/paragraphalignment/)
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

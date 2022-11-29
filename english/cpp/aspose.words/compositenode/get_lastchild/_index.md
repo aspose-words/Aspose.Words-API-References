@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words/compositenode/get_lastchild/
 ---
-## CompositeNode.get_LastChild method
+## CompositeNode::get_LastChild method
 
 
 Gets the last child of the node.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::CompositeNode::get_LastChi
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,9 @@ if (lastSection->get_PreviousSibling() != nullptr)
 ASSERT_EQ(u"Section 2 text.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Node](../../node/)
+* Class [CompositeNode](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

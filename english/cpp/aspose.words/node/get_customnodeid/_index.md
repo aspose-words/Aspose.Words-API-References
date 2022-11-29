@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/node/get_customnodeid/
 ---
-## Node.get_CustomNodeId method
+## Node::get_CustomNodeId method
 
 
 Specifies custom node identifier.
@@ -14,6 +14,8 @@ Specifies custom node identifier.
 ```cpp
 int32_t Aspose::Words::Node::get_CustomNodeId() const
 ```
+
+## Remarks
 
 
 Default is zero.
@@ -23,7 +25,6 @@ This identifier can be set and used arbitrarily. For example, as a key to get ex
 Important note, specified value is not saved to an output file and exists only during the node lifetime.
 
 ## Examples
-
 
 
 
@@ -74,3 +75,8 @@ for (const auto& child : System::IterateOver(children))
 }
 ```
 
+## See Also
+
+* Class [Node](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

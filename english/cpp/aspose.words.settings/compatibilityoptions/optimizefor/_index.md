@@ -6,10 +6,10 @@ type: docs
 weight: 924
 url: /cpp/aspose.words.settings/compatibilityoptions/optimizefor/
 ---
-## CompatibilityOptions.OptimizeFor method
+## CompatibilityOptions::OptimizeFor method
 
 
-Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word. Use this method to prevent MS Word from displaying "Compatibility mode" ribbon upon document loading. (Note that you may also need to set the [Compliance](../../../aspose.words.saving/ooxmlsaveoptions/get_compliance/) property to **Iso29500_2008_Transitional** or higher.)
+Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word. Use this method to prevent MS Word from displaying "Compatibility mode" ribbon upon document loading. (Note that you may also need to set the [Compliance](../../../aspose.words.saving/ooxmlsaveoptions/get_compliance/) property to [Iso29500_2008_Transitional](../../../aspose.words.saving/ooxmlcompliance/) or higher.)
 
 ```cpp
 void Aspose::Words::Settings::CompatibilityOptions::OptimizeFor(Aspose::Words::Settings::MsWordVersion version)
@@ -17,7 +17,6 @@ void Aspose::Words::Settings::CompatibilityOptions::OptimizeFor(Aspose::Words::S
 
 
 ## Examples
-
 
 
 
@@ -72,3 +71,9 @@ doc->get_CompatibilityOptions()->OptimizeFor(MsWordVersion::Word2007);
 doc->Save(ArtifactsDir + u"Shape.VerticalAnchor.docx");
 ```
 
+## See Also
+
+* Enum [MsWordVersion](../../mswordversion/)
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

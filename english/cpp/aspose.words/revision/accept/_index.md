@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/revision/accept/
 ---
-## Revision.Accept method
+## Revision::Accept method
 
 
 Accepts this revision.
@@ -17,7 +17,6 @@ void Aspose::Words::Revision::Accept()
 
 
 ## Examples
-
 
 
 
@@ -98,3 +97,8 @@ ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Revision](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

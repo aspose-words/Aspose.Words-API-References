@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportdocumentproperties/
 ---
-## HtmlSaveOptions.get_ExportDocumentProperties method
+## HtmlSaveOptions::get_ExportDocumentProperties method
 
 
 Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB. Default value is **false**.
@@ -17,7 +17,6 @@ bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportDocumentProperties() cons
 
 
 ## Examples
-
 
 
 
@@ -42,3 +41,8 @@ saveOptions->set_ExportDocumentProperties(true);
 doc->Save(ArtifactsDir + u"HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

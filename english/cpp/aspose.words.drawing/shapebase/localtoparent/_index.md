@@ -6,7 +6,7 @@ type: docs
 weight: 742
 url: /cpp/aspose.words.drawing/shapebase/localtoparent/
 ---
-## ShapeBase.LocalToParent method
+## ShapeBase::LocalToParent method
 
 
 Converts a value from the local coordinate space into the coordinate space of the parent shape.
@@ -17,7 +17,6 @@ System::Drawing::PointF Aspose::Words::Drawing::ShapeBase::LocalToParent(System:
 
 
 ## Examples
-
 
 
 
@@ -69,3 +68,8 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(group);
 doc->Save(ArtifactsDir + u"Shape.LocalToParent.docx");
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.tables/cell/get_parentrow/
 ---
-## Cell.get_ParentRow method
+## Cell::get_ParentRow method
 
 
 Returns the parent row of the cell.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Tables::Row> Aspose::Words::Tables::Cell::get_P
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,9 @@ for (const auto& cell : System::IterateOver(table->GetChildNodes(NodeType::Cell,
 doc->Save(ArtifactsDir + u"Table.KeepTableTogether.docx");
 ```
 
+## See Also
+
+* Class [Row](../../row/)
+* Class [Cell](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldskipif/get_leftexpression/
 ---
-## FieldSkipIf.get_LeftExpression method
+## FieldSkipIf::get_LeftExpression method
 
 
 Gets the left part of the comparison expression.
@@ -15,3 +15,8 @@ Gets the left part of the comparison expression.
 System::String Aspose::Words::Fields::FieldSkipIf::get_LeftExpression()
 ```
 
+## See Also
+
+* Class [FieldSkipIf](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

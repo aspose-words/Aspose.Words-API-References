@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words/nodecollection/remove/
 ---
-## NodeCollection.Remove method
+## NodeCollection::Remove method
 
 
 Removes the node from the collection and from the document.
@@ -21,7 +21,6 @@ void Aspose::Words::NodeCollection::Remove(const System::SharedPtr<Aspose::Words
 | node | const System::SharedPtr\<Aspose::Words::Node\>\& | The node to remove. |
 
 ## Examples
-
 
 
 
@@ -56,3 +55,9 @@ ASSERT_FALSE(run == nullptr);
 ASSERT_FALSE(runs->Contains(run));
 ```
 
+## See Also
+
+* Class [Node](../../node/)
+* Class [NodeCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

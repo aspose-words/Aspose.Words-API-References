@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.loading/loadoptions/get_encoding/
 ---
-## LoadOptions.get_Encoding method
+## LoadOptions::get_Encoding method
 
 
 Gets or sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be null. Default is null.
@@ -15,13 +15,14 @@ Gets or sets the encoding that will be used to load an HTML, TXT, or CHM documen
 System::SharedPtr<System::Text::Encoding> Aspose::Words::Loading::LoadOptions::get_Encoding() const
 ```
 
+## Remarks
+
 
 This property is used only when loading HTML, TXT, or CHM documents.
 
 If encoding is not specified inside the document and this property is **null**, then the system will try to automatically detect the encoding.
 
 ## Examples
-
 
 
 
@@ -50,3 +51,8 @@ doc = MakeObject<Document>(MyDir + u"Encoded in UTF-7.txt", loadOptions);
 ASSERT_EQ(u"Hello world!", doc->ToString(SaveFormat::Text).Trim());
 ```
 
+## See Also
+
+* Class [LoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

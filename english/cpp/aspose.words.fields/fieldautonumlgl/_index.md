@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldautonumlgl/
 Implements the AUTONUMLGL field.
 
 ```cpp
-class FieldAutoNumLgl : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldAutoNumLgl : public Aspose::Words::Fields::Field,
+                        public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -47,7 +48,6 @@ class FieldAutoNumLgl : public Aspose::Words::Fields::Field, public Aspose::Word
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 
 ## Examples
-
 
 
 
@@ -124,3 +124,8 @@ static void InsertNumberedClause(SharedPtr<DocumentBuilder> builder, String head
 }
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

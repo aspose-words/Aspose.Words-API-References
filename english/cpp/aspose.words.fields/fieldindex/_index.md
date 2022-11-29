@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldindex/
 Implements the INDEX field.
 
 ```cpp
-class FieldIndex : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldIndex : public Aspose::Words::Fields::Field,
+                   public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -73,7 +74,6 @@ class FieldIndex : public Aspose::Words::Fields::Field, public Aspose::Words::Fi
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 
 ## Examples
-
 
 
 
@@ -195,3 +195,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.INDEX.XE.Formatting.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

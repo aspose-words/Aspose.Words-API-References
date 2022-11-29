@@ -38,7 +38,7 @@ class GlossaryDocument : public Aspose::Words::DocumentBase
 | [get_Lists](../../aspose.words/documentbase/get_lists/)() const | Provides access to the list formatting used in the document. |
 | [get_NextSibling](../../aspose.words/node/get_nextsibling/)() | Gets the node immediately following this node. |
 | [get_NodeChangingCallback](../../aspose.words/documentbase/get_nodechangingcallback/)() | Called when a node is inserted or removed in the document. |
-| [get_NodeType](./get_nodetype/)() const override | Returns the **GlossaryDocument** value. |
+| [get_NodeType](./get_nodetype/)() const override | Returns the [GlossaryDocument](../../aspose.words/nodetype/) value. |
 | [get_PageColor](../../aspose.words/documentbase/get_pagecolor/)() | Gets or sets the page color of the document. This property is a simpler version of [BackgroundShape](../../aspose.words/documentbase/get_backgroundshape/). |
 | [get_ParentNode](../../aspose.words/node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
@@ -77,6 +77,8 @@ class GlossaryDocument : public Aspose::Words::DocumentBase
 | [SetTemplateWeakPtr](../../aspose.words/compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 Some documents, usually templates, can contain AutoText, AutoCorrect entries and/or Building Blocks (also known as glossary document entries, document parts or building blocks).
 
@@ -87,7 +89,6 @@ To access building blocks, you need to load a document into a [Document](../../a
 Corresponds to the **glossaryDocument** and **docParts** elements in OOXML.
 
 ## Examples
-
 
 
 
@@ -187,3 +188,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [DocumentBase](../../aspose.words/documentbase/)
+* Namespace [Aspose::Words::BuildingBlocks](../)
+* Library [Aspose.Words](../../)

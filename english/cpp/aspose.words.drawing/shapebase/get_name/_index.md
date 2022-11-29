@@ -6,7 +6,7 @@ type: docs
 weight: 495
 url: /cpp/aspose.words.drawing/shapebase/get_name/
 ---
-## ShapeBase.get_Name method
+## ShapeBase::get_Name method
 
 
 Gets or sets the optional shape name.
@@ -15,13 +15,14 @@ Gets or sets the optional shape name.
 System::String Aspose::Words::Drawing::ShapeBase::get_Name()
 ```
 
+## Remarks
+
 
 Default is empty string.
 
 Cannot be null, but can be an empty string.
 
 ## Examples
-
 
 
 
@@ -43,3 +44,8 @@ doc->Save(ArtifactsDir + u"Shape.AltText.html");
 System::IO::File::Delete(ArtifactsDir + u"Shape.AltText.001.png");
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

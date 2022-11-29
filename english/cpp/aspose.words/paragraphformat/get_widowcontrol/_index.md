@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/aspose.words/paragraphformat/get_widowcontrol/
 ---
-## ParagraphFormat.get_WidowControl method
+## ParagraphFormat::get_WidowControl method
 
 
 True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph.
@@ -17,7 +17,6 @@ bool Aspose::Words::ParagraphFormat::get_WidowControl()
 
 
 ## Examples
-
 
 
 
@@ -45,3 +44,8 @@ builder->Write(String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 doc->Save(ArtifactsDir + u"ParagraphFormat.WidowControl.docx");
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

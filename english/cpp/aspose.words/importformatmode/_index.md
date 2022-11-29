@@ -11,6 +11,10 @@ url: /cpp/aspose.words/importformatmode/
 
 Specifies how formatting is merged when importing content from another document.
 
+```cpp
+enum class ImportFormatMode
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -19,6 +23,8 @@ Specifies how formatting is merged when importing content from another document.
 | KeepSourceFormatting | 1 | Copy all required styles to the destination document, generate unique style names if needed. |
 | KeepDifferentStyles | 2 | Only copy styles that are different from those in the source document. |
 
+## Remarks
+
 
 When you copy nodes from one document to another, this option specifies how formatting is resolved when both documents have a style with the same name, but different formatting.
 
@@ -26,7 +32,7 @@ The formatting is resolved as follows:
 
 1. Built-in styles are matched using their locale independent style identifier. User defined styles are matched using case-sensitive style name.
 1. If a matching style is not found in the destination document, the style (and all styles referenced by it) are copied into the destination document and the imported nodes are updated to reference the new style.
-1. If a matching style already exists in the destination document, what happens depends on the **importFormatMode** parameter passed to **Document.ImportNode** as described below.
+1. If a matching style already exists in the destination document, what happens depends on the **importFormatMode** parameter passed to [Document.ImportNode](../) as described below.
 
 
 
@@ -44,7 +50,6 @@ Using **KeepDifferentStyles** option allows to reuse destination styles if the f
 
 
 
-
 Shows how to insert a document into another document. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Document.docx");
@@ -59,3 +64,7 @@ builder->InsertDocument(docToInsert, ImportFormatMode::KeepSourceFormatting);
 builder->get_Document()->Save(ArtifactsDir + u"DocumentBuilder.InsertDocument.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

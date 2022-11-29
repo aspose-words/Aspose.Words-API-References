@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.loading/loadoptions/set_baseuri/
 ---
-## LoadOptions.set_BaseUri method
+## LoadOptions::set_BaseUri method
 
 
 Setter for [Aspose::Words::Loading::LoadOptions::get_BaseUri](../get_baseuri/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Loading::LoadOptions::get_BaseUri](../get_baseuri/).
 void Aspose::Words::Loading::LoadOptions::set_BaseUri(const System::String &value)
 ```
 
+## See Also
+
+* Class [LoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

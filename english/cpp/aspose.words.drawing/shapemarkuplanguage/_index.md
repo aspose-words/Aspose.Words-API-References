@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing/shapemarkuplanguage/
 
 Specifies [Markup](../../aspose.words.markup/) language used for the shape.
 
+```cpp
+enum class ShapeMarkupLanguage : uint8_t
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,7 +24,6 @@ Specifies [Markup](../../aspose.words.markup/) language used for the shape.
 
 
 ## Examples
-
 
 
 
@@ -51,3 +54,7 @@ doc = MakeObject<Document>(ArtifactsDir + u"OoxmlSaveOptions.Iso29500Strict.docx
 ASSERT_EQ(ShapeMarkupLanguage::Dml, (System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

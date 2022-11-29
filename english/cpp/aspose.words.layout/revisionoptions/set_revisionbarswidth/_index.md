@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/aspose.words.layout/revisionoptions/set_revisionbarswidth/
 ---
-## RevisionOptions.set_RevisionBarsWidth method
+## RevisionOptions::set_RevisionBarsWidth method
 
 
 Setter for [Aspose::Words::Layout::RevisionOptions::get_RevisionBarsWidth](../get_revisionbarswidth/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Layout::RevisionOptions::get_RevisionBarsWidth](../ge
 void Aspose::Words::Layout::RevisionOptions::set_RevisionBarsWidth(float value)
 ```
 
+## See Also
+
+* Class [RevisionOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

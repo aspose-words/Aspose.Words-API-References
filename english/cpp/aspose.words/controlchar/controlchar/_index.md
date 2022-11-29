@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words/controlchar/controlchar/
 ---
-## ControlChar.ControlChar method
+## ControlChar::ControlChar constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words/controlchar/controlchar/
 Aspose::Words::ControlChar::ControlChar()=delete
 ```
 
+## See Also
+
+* Class [ControlChar](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

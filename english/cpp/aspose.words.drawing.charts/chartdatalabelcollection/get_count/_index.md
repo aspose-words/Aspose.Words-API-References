@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_count/
 ---
-## ChartDataLabelCollection.get_Count method
+## ChartDataLabelCollection::get_Count method
 
 
 Returns the number of [ChartDataLabel](../../chartdatalabel/) in this collection.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_Count()
 
 
 ## Examples
-
 
 
 
@@ -91,3 +90,8 @@ static void ApplyDataLabels(SharedPtr<ChartSeries> series, int labelsCount, Stri
 }
 ```
 
+## See Also
+
+* Class [ChartDataLabelCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

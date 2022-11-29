@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.saving/imagesaveoptions/clone/
 ---
-## ImageSaveOptions.Clone method
+## ImageSaveOptions::Clone method
 
 
 Creates a deep clone of this object.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Saving::ImageSaveOptions> Aspose::Words::Saving
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,9 @@ ASPOSE_ASSERT_NE(imageSaveOptions, imageSaveOptions->Clone());
 doc->Save(ArtifactsDir + u"ImageSaveOptions.PixelFormat.png", imageSaveOptions);
 ```
 
+## See Also
+
+* Class [ImageSaveOptions](../)
+* Class [ImageSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

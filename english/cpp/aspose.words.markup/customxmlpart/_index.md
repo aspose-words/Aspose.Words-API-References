@@ -27,11 +27,12 @@ class CustomXmlPart : public System::Object
 | [get_Schemas](./get_schemas/)() const | Specifies the set of XML schemas that are associated with this custom XML part. |
 | [set_Data](./set_data/)(const System::ArrayPtr\<uint8_t\>\&) | Setter for [Aspose::Words::Markup::CustomXmlPart::get_Data](./get_data/). |
 | [set_Id](./set_id/)(const System::String\&) | Setter for [Aspose::Words::Markup::CustomXmlPart::get_Id](./get_id/). |
+## Remarks
+
 
 A DOCX or DOC document can contain one or more Custom XML Data Storage parts. Aspose.Words preserves and allows to create and extract Custom XML Data via the [CustomXmlParts](../../aspose.words/document/get_customxmlparts/) collection.
 
 ## Examples
-
 
 
 
@@ -96,3 +97,7 @@ doc->get_FirstSection()->get_Body()->AppendChild(tag);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.CustomXml.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Markup](../)
+* Library [Aspose.Words](../../)

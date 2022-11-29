@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.fields/fielddde/get_sourceitem/
 ---
-## FieldDde.get_SourceItem method
+## FieldDde::get_SourceItem method
 
 
 Gets or sets the portion of the source file that's being linked.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldDde::get_SourceItem()
 
 
 ## Examples
-
 
 
 
@@ -196,3 +195,8 @@ static void InsertFieldDdeAuto(SharedPtr<DocumentBuilder> builder, ExField::Inse
 }
 ```
 
+## See Also
+
+* Class [FieldDde](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

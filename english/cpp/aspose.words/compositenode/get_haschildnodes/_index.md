@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/compositenode/get_haschildnodes/
 ---
-## CompositeNode.get_HasChildNodes method
+## CompositeNode::get_HasChildNodes method
 
 
 Returns true if this node has any child nodes.
@@ -17,7 +17,6 @@ bool Aspose::Words::CompositeNode::get_HasChildNodes()
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,8 @@ secondTable->Remove();
 doc->Save(ArtifactsDir + u"Table.CombineTables.docx");
 ```
 
+## See Also
+
+* Class [CompositeNode](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

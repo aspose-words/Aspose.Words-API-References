@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.tables/cellformat/get_wraptext/
 ---
-## CellFormat.get_WrapText method
+## CellFormat::get_WrapText method
 
 
 If true, wrap text for the cell.
@@ -17,7 +17,6 @@ bool Aspose::Words::Tables::CellFormat::get_WrapText()
 
 
 ## Examples
-
 
 
 
@@ -81,3 +80,8 @@ builder->EndTable();
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertTable.docx");
 ```
 
+## See Also
+
+* Class [CellFormat](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

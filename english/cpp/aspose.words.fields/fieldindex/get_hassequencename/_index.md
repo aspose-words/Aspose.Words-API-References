@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fields/fieldindex/get_hassequencename/
 ---
-## FieldIndex.get_HasSequenceName method
+## FieldIndex::get_HasSequenceName method
 
 
 Gets a value indicating whether a sequence should be used while the field's result building.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldIndex::get_HasSequenceName()
 
 
 ## Examples
-
 
 
 
@@ -90,3 +89,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.INDEX.XE.Sequence.docx");
 ```
 
+## See Also
+
+* Class [FieldIndex](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

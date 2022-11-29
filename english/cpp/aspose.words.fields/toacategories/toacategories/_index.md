@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/toacategories/toacategories/
 ---
-## ToaCategories.ToaCategories method
+## ToaCategories::ToaCategories constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.fields/toacategories/toacategories/
 Aspose::Words::Fields::ToaCategories::ToaCategories()
 ```
 
+## See Also
+
+* Class [ToaCategories](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

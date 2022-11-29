@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.words/documentbuilder/get_paragraphformat/
 ---
-## DocumentBuilder.get_ParagraphFormat method
+## DocumentBuilder::get_ParagraphFormat method
 
 
 Returns an object that represents current paragraph formatting properties.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::ParagraphFormat> Aspose::Words::DocumentBuilder
 
 
 ## Examples
-
 
 
 
@@ -78,3 +77,9 @@ builder->EndTable();
 doc->Save(ArtifactsDir + u"DocumentBuilder.CreateFormattedTable.docx");
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../../paragraphformat/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.settings/mailmergesettings/clear/
 ---
-## MailMergeSettings.Clear method
+## MailMergeSettings::Clear method
 
 
 Clears the mail merge settings in such a way that when the document is saved, no mail merge settings will be saved and it will become a normal document.
@@ -15,3 +15,8 @@ Clears the mail merge settings in such a way that when the document is saved, no
 void Aspose::Words::Settings::MailMergeSettings::Clear()
 ```
 
+## See Also
+
+* Class [MailMergeSettings](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

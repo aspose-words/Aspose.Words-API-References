@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.drawing/oleformat/set_sourcefullname/
 ---
-## OleFormat.set_SourceFullName method
+## OleFormat::set_SourceFullName method
 
 
 Setter for [Aspose::Words::Drawing::OleFormat::get_SourceFullName](../get_sourcefullname/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::OleFormat::get_SourceFullName](../get_source
 void Aspose::Words::Drawing::OleFormat::set_SourceFullName(const System::String &value)
 ```
 
+## See Also
+
+* Class [OleFormat](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

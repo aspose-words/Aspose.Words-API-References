@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.settings/viewoptions/get_zoomtype/
 ---
-## ViewOptions.get_ZoomType method
+## ViewOptions::get_ZoomType method
 
 
 Gets or sets a zoom value based on the size of the window.
@@ -17,7 +17,6 @@ Aspose::Words::Settings::ZoomType Aspose::Words::Settings::ViewOptions::get_Zoom
 
 
 ## Examples
-
 
 
 
@@ -54,3 +53,9 @@ doc->get_ViewOptions()->set_ZoomType(zoomType);
 doc->Save(ArtifactsDir + u"ViewOptions.SetZoomType.doc");
 ```
 
+## See Also
+
+* Enum [ZoomType](../../zoomtype/)
+* Class [ViewOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

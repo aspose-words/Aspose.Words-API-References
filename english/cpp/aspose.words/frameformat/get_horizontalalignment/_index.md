@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/frameformat/get_horizontalalignment/
 ---
-## FrameFormat.get_HorizontalAlignment method
+## FrameFormat::get_HorizontalAlignment method
 
 
 Gets horizontal alignment of the specified frame.
@@ -17,7 +17,6 @@ Aspose::Words::Drawing::HorizontalAlignment Aspose::Words::FrameFormat::get_Hori
 
 
 ## Examples
-
 
 
 
@@ -41,3 +40,9 @@ ASSERT_EQ(RelativeVerticalPosition::Paragraph, paragraphFrame->get_FrameFormat()
 ASPOSE_ASSERT_EQ(0.0, paragraphFrame->get_FrameFormat()->get_VerticalDistanceFromText());
 ```
 
+## See Also
+
+* Enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
+* Class [FrameFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

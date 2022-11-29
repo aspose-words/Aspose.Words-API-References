@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.markup/xmlmapping/get_xpath/
 ---
-## XmlMapping.get_XPath method
+## XmlMapping::get_XPath method
 
 
 Returns the XPath expression, which is evaluated to find the custom XML node that is mapped to the parent structured document tag.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Markup::XmlMapping::get_XPath() const
 
 
 ## Examples
-
 
 
 
@@ -50,3 +49,8 @@ doc->get_FirstSection()->get_Body()->AppendChild(tag);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.XmlMapping.docx");
 ```
 
+## See Also
+
+* Class [XmlMapping](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

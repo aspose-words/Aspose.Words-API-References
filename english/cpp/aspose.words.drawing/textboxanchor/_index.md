@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing/textboxanchor/
 
 Specifies values used for shape text vertical alignment.
 
+```cpp
+enum class TextBoxAnchor
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -28,7 +32,6 @@ Specifies values used for shape text vertical alignment.
 
 
 ## Examples
-
 
 
 
@@ -55,3 +58,7 @@ doc->get_CompatibilityOptions()->OptimizeFor(MsWordVersion::Word2007);
 doc->Save(ArtifactsDir + u"Shape.VerticalAnchor.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.vba/vbamodulecollection/cbegin/
 ---
-## VbaModuleCollection.cbegin method
+## VbaModuleCollection::cbegin method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.vba/vbamodulecollection/cbegin/
 const_iterator Aspose::Words::Vba::VbaModuleCollection::cbegin() const noexcept
 ```
 
+## See Also
+
+* Typedef [const_iterator](../const_iterator/)
+* Class [VbaModuleCollection](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

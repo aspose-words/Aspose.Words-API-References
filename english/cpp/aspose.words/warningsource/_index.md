@@ -11,6 +11,10 @@ url: /cpp/aspose.words/warningsource/
 
 Specifies the module that produces a warning during document loading or saving.
 
+```cpp
+enum class WarningSource
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -42,3 +46,7 @@ Specifies the module that produces a warning during document loading or saving.
 | Chm | 24 | Module that reads CHM files. |
 | Epub | 25 | Module that reads/writes EPUB files. |
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fields/barcodeparameters/get_barcodevalue/
 ---
-## BarcodeParameters.get_BarcodeValue method
+## BarcodeParameters::get_BarcodeValue method
 
 
 Data to be encoded.
@@ -15,3 +15,8 @@ Data to be encoded.
 System::String Aspose::Words::Fields::BarcodeParameters::get_BarcodeValue() const
 ```
 
+## See Also
+
+* Class [BarcodeParameters](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

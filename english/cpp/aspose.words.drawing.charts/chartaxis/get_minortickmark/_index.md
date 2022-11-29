@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_minortickmark/
 ---
-## ChartAxis.get_MinorTickMark method
+## ChartAxis::get_MinorTickMark method
 
 
 Returns or sets the minor tick marks for the axis.
@@ -17,7 +17,6 @@ Aspose::Words::Drawing::Charts::AxisTickMark Aspose::Words::Drawing::Charts::Cha
 
 
 ## Examples
-
 
 
 
@@ -67,3 +66,9 @@ ASSERT_TRUE(chart->get_AxisZ() == nullptr);
 doc->Save(ArtifactsDir + u"Charts.AxisProperties.docx");
 ```
 
+## See Also
+
+* Enum [AxisTickMark](../../axistickmark/)
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

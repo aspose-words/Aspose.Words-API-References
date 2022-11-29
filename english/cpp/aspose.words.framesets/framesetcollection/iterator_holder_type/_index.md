@@ -15,3 +15,8 @@ url: /cpp/aspose.words.framesets/framesetcollection/iterator_holder_type/
 using Aspose::Words::Framesets::FramesetCollection::iterator_holder_type =  System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Framesets::Frameset> >
 ```
 
+## See Also
+
+* Class [FramesetCollection](../)
+* Namespace [Aspose::Words::Framesets](../../)
+* Library [Aspose.Words](../../../)

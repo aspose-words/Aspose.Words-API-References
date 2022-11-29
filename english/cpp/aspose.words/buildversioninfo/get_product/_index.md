@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/buildversioninfo/get_product/
 ---
-## BuildVersionInfo.get_Product method
+## BuildVersionInfo::get_Product method
 
 
 Gets the full name of the product.
@@ -20,9 +20,13 @@ static System::String Aspose::Words::BuildVersionInfo::get_Product()
 
 
 
-
 Shows how to display information about your installed version of Aspose.Words. 
 ```cpp
 std::cout << "I am currently using " << BuildVersionInfo::get_Product() << ", version number " << BuildVersionInfo::get_Version() << "!" << std::endl;
 ```
 
+## See Also
+
+* Class [BuildVersionInfo](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

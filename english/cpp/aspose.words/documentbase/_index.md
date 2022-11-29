@@ -73,13 +73,14 @@ class DocumentBase : public Aspose::Words::CompositeNode
 | [SetTemplateWeakPtr](../compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 Aspose.Words represents a Word document as a tree of nodes. [DocumentBase](./) is a root node of the tree that contains all other nodes of the document.
 
 [DocumentBase](./) also stores document-wide information such as [Styles](./get_styles/) and [Lists](./get_lists/) that the tree nodes might refer to.
 
 ## Examples
-
 
 
 
@@ -95,3 +96,8 @@ doc->set_GlossaryDocument(glossaryDoc);
 ASPOSE_ASSERT_EQ(System::ObjectExt::GetType<DocumentBase>(), System::ObjectExt::GetType(glossaryDoc).get_BaseType());
 ```
 
+## See Also
+
+* Class [CompositeNode](../compositenode/)
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

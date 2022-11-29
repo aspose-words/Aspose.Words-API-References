@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldimport/get_islinked/
 ---
-## FieldImport.get_IsLinked method
+## FieldImport::get_IsLinked method
 
 
 Gets or sets whether to reduce the file size by not storing graphics data with the document.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldImport::get_IsLinked() override
 
 
 ## Examples
-
 
 
 
@@ -51,3 +50,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.IMPORT.INCLUDEPICTURE.docx");
 ```
 
+## See Also
+
+* Class [FieldImport](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

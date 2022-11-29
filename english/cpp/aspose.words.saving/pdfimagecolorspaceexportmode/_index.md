@@ -11,6 +11,10 @@ url: /cpp/aspose.words.saving/pdfimagecolorspaceexportmode/
 
 Specifies how the color space will be selected for the images in PDF document.
 
+```cpp
+enum class PdfImageColorSpaceExportMode
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,7 +24,6 @@ Specifies how the color space will be selected for the images in PDF document.
 
 
 ## Examples
-
 
 
 
@@ -50,3 +53,7 @@ pdfSaveOptions->set_ImageColorSpaceExportMode(pdfImageColorSpaceExportMode);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.ImageColorSpaceExportMode.pdf", pdfSaveOptions);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

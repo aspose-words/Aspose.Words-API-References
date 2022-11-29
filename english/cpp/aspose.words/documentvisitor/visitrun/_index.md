@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/aspose.words/documentvisitor/visitrun/
 ---
-## DocumentVisitor.VisitRun method
+## DocumentVisitor::VisitRun method
 
 
 Called when a run of text in the is encountered.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitRun(Sy
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -160,3 +158,10 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [Run](../../run/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

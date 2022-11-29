@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/story/get_lastparagraph/
 ---
-## Story.get_LastParagraph method
+## Story::get_LastParagraph method
 
 
 Gets the last paragraph in the story.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::Story::get_LastParagr
 
 
 ## Examples
-
 
 
 
@@ -48,3 +47,9 @@ builder->Writeln(u"Run 3. ");
 ASSERT_EQ(u"Run 2. \rRun 1. \rRun 3.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Paragraph](../../paragraph/)
+* Class [Story](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

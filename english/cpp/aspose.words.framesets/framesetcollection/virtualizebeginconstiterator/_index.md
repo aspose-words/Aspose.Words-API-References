@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.framesets/framesetcollection/virtualizebeginconstiterator/
 ---
-## FramesetCollection.virtualizeBeginConstIterator method
+## FramesetCollection::virtualizeBeginConstIterator method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.framesets/framesetcollection/virtualizebeginconstiterator
 virtualized_iterator * Aspose::Words::Framesets::FramesetCollection::virtualizeBeginConstIterator() const override
 ```
 
+## See Also
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [FramesetCollection](../)
+* Namespace [Aspose::Words::Framesets](../../)
+* Library [Aspose.Words](../../../)

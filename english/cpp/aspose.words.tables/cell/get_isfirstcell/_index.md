@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.tables/cell/get_isfirstcell/
 ---
-## Cell.get_IsFirstCell method
+## Cell::get_IsFirstCell method
 
 
 True if this is the first cell inside a row; false otherwise.
@@ -17,7 +17,6 @@ bool Aspose::Words::Tables::Cell::get_IsFirstCell()
 
 
 ## Examples
-
 
 
 
@@ -158,3 +157,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Cell](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

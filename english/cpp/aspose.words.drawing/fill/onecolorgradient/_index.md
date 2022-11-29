@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words.drawing/fill/onecolorgradient/
 ---
-## Fill.OneColorGradient(Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant, double) method
+## Fill::OneColorGradient(Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant, double) method
 
 
 Sets the specified fill to a one-color gradient.
@@ -23,7 +23,6 @@ void Aspose::Words::Drawing::Fill::OneColorGradient(Aspose::Words::Drawing::Grad
 | degree | double | The gradient degree. Can be a value from 0.0 (dark) to 1.0 (light). |
 
 ## Examples
-
 
 
 
@@ -63,7 +62,14 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 doc->Save(ArtifactsDir + u"Shape.GradientFill.docx", saveOptions);
 ```
 
-## Fill.OneColorGradient(System::Drawing::Color, Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant, double) method
+## See Also
+
+* Enum [GradientStyle](../../gradientstyle/)
+* Enum [GradientVariant](../../gradientvariant/)
+* Class [Fill](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)
+## Fill::OneColorGradient(System::Drawing::Color, Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant, double) method
 
 
 Sets the specified fill to a one-color gradient using the specified color.
@@ -84,7 +90,6 @@ void Aspose::Words::Drawing::Fill::OneColorGradient(System::Drawing::Color color
 
 
 
-
 Shows how to fill a shape with a gradients. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -121,3 +126,10 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 doc->Save(ArtifactsDir + u"Shape.GradientFill.docx", saveOptions);
 ```
 
+## See Also
+
+* Enum [GradientStyle](../../gradientstyle/)
+* Enum [GradientVariant](../../gradientvariant/)
+* Class [Fill](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

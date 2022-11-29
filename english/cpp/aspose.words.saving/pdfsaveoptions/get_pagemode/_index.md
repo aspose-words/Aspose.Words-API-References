@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_pagemode/
 ---
-## PdfSaveOptions.get_PageMode method
+## PdfSaveOptions::get_PageMode method
 
 
 Specifies how the PDF document should be displayed when opened in the PDF reader.
@@ -17,7 +17,6 @@ Aspose::Words::Saving::PdfPageMode Aspose::Words::Saving::PdfSaveOptions::get_Pa
 
 
 ## Examples
-
 
 
 
@@ -72,3 +71,9 @@ options->set_PageMode(pageMode);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.PageMode.pdf", options);
 ```
 
+## See Also
+
+* Enum [PdfPageMode](../../pdfpagemode/)
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -11,6 +11,10 @@ url: /cpp/aspose.words.settings/odsodatasourcetype/
 
 Specifies the type of the external data source to be connected to as part of the ODSO connection information.
 
+```cpp
+enum class OdsoDataSourceType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -25,9 +29,14 @@ Specifies the type of the external data source to be connected to as part of the
 | None | 7 | The type of the external data source is not specified. Possibly wdMergeSubTypeWord. |
 | Legacy | 8 | Specifies that a given document has been connected to a legacy document format supported by the producing application Possibly wdMergeSubTypeWord2000. |
 | Master | 9 | Specifies that a given document has been connected to a data source which aggregates other data sources. |
-| Default | n/a | Equals to **None**. |
+| Default | n/a | Equals to [None](./). |
+
+## Remarks
 
 
 The OOXML specification is very vague for this enum. I guess it might correspond to the WdMergeSubType enumeration [http://msdn.microsoft.com/en-us/library/bb237801.aspx](http://msdn.microsoft.com/en-us/library/bb237801.aspx).
 
+## See Also
 
+* Namespace [Aspose::Words::Settings](../)
+* Library [Aspose.Words](../../)

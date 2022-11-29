@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words/inlinestory/get_lastparagraph/
 ---
-## InlineStory.get_LastParagraph method
+## InlineStory::get_LastParagraph method
 
 
 Gets the last paragraph in the story.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::InlineStory::get_Last
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,9 @@ ASSERT_EQ(StoryType::Comments, comment->get_StoryType());
 doc->Save(ArtifactsDir + u"InlineStory.InsertInlineStoryNodes.docx");
 ```
 
+## See Also
+
+* Class [Paragraph](../../paragraph/)
+* Class [InlineStory](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

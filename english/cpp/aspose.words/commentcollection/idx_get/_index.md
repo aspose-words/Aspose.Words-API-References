@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/commentcollection/idx_get/
 ---
-## CommentCollection.idx_get method
+## CommentCollection::idx_get method
 
 
 Retrieves a **Comment** at the given index.
@@ -19,6 +19,8 @@ System::SharedPtr<Aspose::Words::Comment> Aspose::Words::CommentCollection::idx_
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | An index into the collection. |
+## Remarks
+
 
 The index is zero-based.
 
@@ -29,7 +31,6 @@ If index is greater than or equal to the number of items in the list, this retur
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
 
 ## Examples
-
 
 
 
@@ -59,3 +60,9 @@ comment->RemoveAllReplies();
 ASSERT_EQ(0, comment->get_Replies()->LINQ_Count());
 ```
 
+## See Also
+
+* Class [Comment](../../comment/)
+* Class [CommentCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

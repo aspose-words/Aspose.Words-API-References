@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.fields/fieldoptions/get_templatename/
 ---
-## FieldOptions.get_TemplateName method
+## FieldOptions::get_TemplateName method
 
 
 Gets or sets the file name of the template used by the document.
@@ -15,13 +15,14 @@ Gets or sets the file name of the template used by the document.
 System::String Aspose::Words::Fields::FieldOptions::get_TemplateName() const
 ```
 
+## Remarks
+
 
 This property is used by the [FieldTemplate](../../fieldtemplate/) field if the [AttachedTemplate](../../../aspose.words/document/get_attachedtemplate/) property is empty.
 
 If this property is empty, the default template file name **Normal.dotm** is used.
 
 ## Examples
-
 
 
 
@@ -47,3 +48,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.TEMPLATE.docx");
 ```
 
+## See Also
+
+* Class [FieldOptions](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -12,12 +12,11 @@ url: /cpp/aspose.words/controlchar/tabchar/
 Tab character: (char)9 or "\t".
 
 ```cpp
-constexpr char16_t Aspose::Words::ControlChar::TabChar
+static constexpr char16_t Aspose::Words::ControlChar::TabChar
 ```
 
 
 ## Examples
-
 
 
 
@@ -34,3 +33,8 @@ builder->Writeln(String(u"Hello") + ControlChar::Tab() + u"World!");
 builder->Writeln(String(u"Hello") + ControlChar::TabChar + u"World!");
 ```
 
+## See Also
+
+* Class [ControlChar](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

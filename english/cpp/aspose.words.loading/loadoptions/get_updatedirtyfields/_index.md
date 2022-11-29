@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.loading/loadoptions/get_updatedirtyfields/
 ---
-## LoadOptions.get_UpdateDirtyFields method
+## LoadOptions::get_UpdateDirtyFields method
 
 
 Specifies whether to update the fields with the **dirty** attribute.
@@ -17,7 +17,6 @@ bool Aspose::Words::Loading::LoadOptions::get_UpdateDirtyFields() const
 
 
 ## Examples
-
 
 
 
@@ -72,3 +71,8 @@ field->set_IsDirty(true);
 }
 ```
 
+## See Also
+
+* Class [LoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

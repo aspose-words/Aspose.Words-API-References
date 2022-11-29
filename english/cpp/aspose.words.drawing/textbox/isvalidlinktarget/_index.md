@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.drawing/textbox/isvalidlinktarget/
 ---
-## TextBox.IsValidLinkTarget method
+## TextBox::IsValidLinkTarget method
 
 
 Determines whether this [TextBox](../) can be linked to the target Textbox.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::TextBox::IsValidLinkTarget(const System::SharedPtr<
 
 
 ## Examples
-
 
 
 
@@ -84,3 +83,9 @@ if (textBox3->get_Next() == nullptr && textBox3->get_Previous() != nullptr)
 doc->Save(ArtifactsDir + u"Shape.CreateLinkBetweenTextBoxes.docx");
 ```
 
+## See Also
+
+* Class [TextBox](../)
+* Class [TextBox](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

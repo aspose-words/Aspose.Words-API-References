@@ -9,7 +9,7 @@ url: /cpp/aspose.words.mailmerging/mailmerge/
 ## MailMerge class
 
 
-Represents the mail merge functionality. To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) documentation article.
+Represents the mail merge functionality. To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/cpp/mail-merge-and-reporting/) documentation article.
 
 ```cpp
 class MailMerge : public System::Object
@@ -25,7 +25,7 @@ class MailMerge : public System::Object
 | [ExecuteWithRegions](./executewithregions/)(const System::SharedPtr\<Aspose::Words::MailMerging::IMailMergeDataSource\>\&) | Performs a mail merge from a custom data source with mail merge regions. |
 | [ExecuteWithRegions](./executewithregions/)(const System::SharedPtr\<Aspose::Words::MailMerging::IMailMergeDataSourceRoot\>\&) | Performs a mail merge from a custom data source with mail merge regions. |
 | [get_CleanupOptions](./get_cleanupoptions/)() const | Gets a set of flags that specify what items should be removed during mail merge. |
-| [get_CleanupParagraphsWithPunctuationMarks](./get_cleanupparagraphswithpunctuationmarks/)() const | Gets or sets a value indicating whether paragraphs with punctuation marks are considered as empty and should be removed if the **RemoveEmptyParagraphs** option is specified. |
+| [get_CleanupParagraphsWithPunctuationMarks](./get_cleanupparagraphswithpunctuationmarks/)() const | Gets or sets a value indicating whether paragraphs with punctuation marks are considered as empty and should be removed if the [RemoveEmptyParagraphs](../mailmergecleanupoptions/) option is specified. |
 | [get_FieldMergingCallback](./get_fieldmergingcallback/)() const | Occurs during mail merge when a mail merge field is encountered in the document. |
 | [get_MailMergeCallback](./get_mailmergecallback/)() const | Allows to handle particular events during mail merge. |
 | [get_MappedDataFields](./get_mappeddatafields/)() | Returns a collection that represents mapped data fields for the mail merge operation. |
@@ -60,6 +60,8 @@ class MailMerge : public System::Object
 | [set_UnconditionalMergeFieldsAndRegions](./set_unconditionalmergefieldsandregions/)(bool) | Sets a value indicating whether merge fields and merge regions are merged regardless of the parent IF field's condition. |
 | [set_UseNonMergeFields](./set_usenonmergefields/)(bool) | Setter for [Aspose::Words::MailMerging::MailMerge::get_UseNonMergeFields](./get_usenonmergefields/). |
 | [set_UseWholeParagraphAsRegion](./set_usewholeparagraphasregion/)(bool) | Sets a value indicating whether whole paragraph with TableStart or TableEnd field or particular range between TableStart and TableEnd fields should be included into mail merge region. |
+## Remarks
+
 
 For mail merge operation to work, the document should contain Word MERGEFIELD and optionally NEXT fields. During mail merge operation, merge fields in the document are replaced with values from your data source.
 
@@ -73,4 +75,7 @@ Use **ExecuteWithRegions** methods to merge information into a document with mai
 
 You need to use mail merge regions if you want to dynamically grow portions inside the document. Without mail merge regions whole document will be repeated for every record of the data source.
 
+## See Also
 
+* Namespace [Aspose::Words::MailMerging](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.saving/fixedpagesaveoptions/get_metafilerenderingoptions/
 ---
-## FixedPageSaveOptions.get_MetafileRenderingOptions method
+## FixedPageSaveOptions::get_MetafileRenderingOptions method
 
 
 Allows to specify metafile rendering options.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Saving::MetafileRenderingOptions> Aspose::Words
 
 
 ## Examples
-
 
 
 
@@ -71,3 +70,9 @@ public:
 };
 ```
 
+## See Also
+
+* Class [MetafileRenderingOptions](../../metafilerenderingoptions/)
+* Class [FixedPageSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

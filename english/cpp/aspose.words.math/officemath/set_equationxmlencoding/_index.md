@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.math/officemath/set_equationxmlencoding/
 ---
-## OfficeMath.set_EquationXmlEncoding method
+## OfficeMath::set_EquationXmlEncoding method
 
 
 Setter for [Aspose::Words::Math::OfficeMath::get_EquationXmlEncoding](../get_equationxmlencoding/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Math::OfficeMath::get_EquationXmlEncoding](../get_equ
 void Aspose::Words::Math::OfficeMath::set_EquationXmlEncoding(const System::SharedPtr<System::Text::Encoding> &value)
 ```
 
+## See Also
+
+* Class [OfficeMath](../)
+* Namespace [Aspose::Words::Math](../../)
+* Library [Aspose.Words](../../../)

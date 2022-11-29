@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldusername/get_username/
 ---
-## FieldUserName.get_UserName method
+## FieldUserName::get_UserName method
 
 
 Gest or sets the current user's name.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldUserName::get_UserName()
 
 
 ## Examples
-
 
 
 
@@ -54,3 +53,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.USERNAME.docx");
 ```
 
+## See Also
+
+* Class [FieldUserName](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

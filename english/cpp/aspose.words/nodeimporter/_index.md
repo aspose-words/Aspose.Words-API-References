@@ -22,10 +22,12 @@ class NodeImporter : public System::Object
 | [ImportNode](./importnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&, bool) | Imports a node from one document into another. |
 | [NodeImporter](./nodeimporter/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, Aspose::Words::ImportFormatMode) | Initializes a new instance of the [NodeImporter](./) class. |
 | [NodeImporter](./nodeimporter/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\&) | Initializes a new instance of the [NodeImporter](./) class. |
+## Remarks
+
 
 Aspose.Words provides functionality for easy copying and moving fragments between Microsoft Word documents. This is known as "importing nodes". Before you can insert a fragment from one document into another, you need to "import" it. Importing creates a deep clone of the original node, ready to be inserted into the destination document.
 
-The simplest way to import a node is to use the **ImportNode()** method provided by the [DocumentBase](../documentbase/) object.
+The simplest way to import a node is to use the [ImportNode()](../) method provided by the [DocumentBase](../documentbase/) object.
 
 However, when you need to import nodes from one document to another multiple times, it is better to use the [NodeImporter](./) class. The [NodeImporter](./) class allows to minimize the number of styles and lists created in the destination document.
 
@@ -36,7 +38,6 @@ The challenges arise from the fact that styles and lists are different in differ
 The [NodeImporter](./) class is like a context, that holds the "translation tables" during the import. It correctly translates between styles and lists in the source and destination documents.
 
 ## Examples
-
 
 
 
@@ -101,3 +102,7 @@ static void InsertDocument(SharedPtr<Node> insertionDestination, SharedPtr<Docum
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

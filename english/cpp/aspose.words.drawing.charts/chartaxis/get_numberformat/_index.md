@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_numberformat/
 ---
-## ChartAxis.get_NumberFormat method
+## ChartAxis::get_NumberFormat method
 
 
 Returns a [ChartNumberFormat](../../chartnumberformat/) object that allows defining number formats for the axis.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartNumberFormat> Aspose::Wor
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,9 @@ ASSERT_FALSE(chart->get_AxisY()->get_NumberFormat()->get_IsLinkedToSource());
 doc->Save(ArtifactsDir + u"Charts.SetNumberFormatToChartAxis.docx");
 ```
 
+## See Also
+
+* Class [ChartNumberFormat](../../chartnumberformat/)
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words/controlchar/tab/
 ---
-## ControlChar.Tab method
+## ControlChar::Tab method
 
 
 Tab character: "\x0009" or "\t".
@@ -17,7 +17,6 @@ static System::String & Aspose::Words::ControlChar::Tab()
 
 
 ## Examples
-
 
 
 
@@ -34,3 +33,8 @@ builder->Writeln(String(u"Hello") + ControlChar::Tab() + u"World!");
 builder->Writeln(String(u"Hello") + ControlChar::TabChar + u"World!");
 ```
 
+## See Also
+
+* Class [ControlChar](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

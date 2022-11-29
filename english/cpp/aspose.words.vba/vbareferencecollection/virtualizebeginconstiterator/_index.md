@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.vba/vbareferencecollection/virtualizebeginconstiterator/
 ---
-## VbaReferenceCollection.virtualizeBeginConstIterator method
+## VbaReferenceCollection::virtualizeBeginConstIterator method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.vba/vbareferencecollection/virtualizebeginconstiterator/
 virtualized_iterator * Aspose::Words::Vba::VbaReferenceCollection::virtualizeBeginConstIterator() const override
 ```
 
+## See Also
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [VbaReferenceCollection](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

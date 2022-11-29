@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.markup/structureddocumenttag/get_fulldate/
 ---
-## StructuredDocumentTag.get_FullDate method
+## StructuredDocumentTag::get_FullDate method
 
 
 Specifies the full date and time last entered into this **SDT**.
@@ -15,13 +15,14 @@ Specifies the full date and time last entered into this **SDT**.
 System::DateTime Aspose::Words::Markup::StructuredDocumentTag::get_FullDate()
 ```
 
+## Remarks
 
-Accessing this property will only work for **Date** SDT type.
+
+Accessing this property will only work for [Date](../../sdttype/) SDT type.
 
 For all other SDT types exception will occur.
 
 ## Examples
-
 
 
 
@@ -56,3 +57,8 @@ builder->InsertNode(sdtDate);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.Date.docx");
 ```
 
+## See Also
+
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

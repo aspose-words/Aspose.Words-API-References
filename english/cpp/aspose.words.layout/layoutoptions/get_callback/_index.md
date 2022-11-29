@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.layout/layoutoptions/get_callback/
 ---
-## LayoutOptions.get_Callback method
+## LayoutOptions::get_Callback method
 
 
 Gets [IPageLayoutCallback](../../ipagelayoutcallback/) implementation used by page layout model.
@@ -15,3 +15,9 @@ Gets [IPageLayoutCallback](../../ipagelayoutcallback/) implementation used by pa
 System::SharedPtr<Aspose::Words::Layout::IPageLayoutCallback> Aspose::Words::Layout::LayoutOptions::get_Callback() const
 ```
 
+## See Also
+
+* Interface [IPageLayoutCallback](../../ipagelayoutcallback/)
+* Class [LayoutOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

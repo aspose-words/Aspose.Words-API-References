@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.fields/fieldindex/get_sequencename/
 ---
-## FieldIndex.get_SequenceName method
+## FieldIndex::get_SequenceName method
 
 
 Gets or sets the name of a sequence whose number is included with the page number.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldIndex::get_SequenceName()
 
 
 ## Examples
-
 
 
 
@@ -90,3 +89,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.INDEX.XE.Sequence.docx");
 ```
 
+## See Also
+
+* Class [FieldIndex](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

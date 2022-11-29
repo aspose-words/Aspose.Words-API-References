@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.tables/row/get_islastrow/
 ---
-## Row.get_IsLastRow method
+## Row::get_IsLastRow method
 
 
 True if this is the last row in a table; false otherwise.
@@ -17,7 +17,6 @@ bool Aspose::Words::Tables::Row::get_IsLastRow()
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,8 @@ for (const auto& cell : System::IterateOver(table->GetChildNodes(NodeType::Cell,
 doc->Save(ArtifactsDir + u"Table.KeepTableTogether.docx");
 ```
 
+## See Also
+
+* Class [Row](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

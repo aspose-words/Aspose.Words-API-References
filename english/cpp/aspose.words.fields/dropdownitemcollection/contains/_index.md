@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fields/dropdownitemcollection/contains/
 ---
-## DropDownItemCollection.Contains method
+## DropDownItemCollection::Contains method
 
 
 Determines whether the collection contains the specified value.
@@ -22,11 +22,9 @@ bool Aspose::Words::Fields::DropDownItemCollection::Contains(const System::Strin
 
 ### ReturnValue
 
-
 True if the item is found in the collection; otherwise, false.
 
 ## Examples
-
 
 
 
@@ -82,3 +80,8 @@ doc->Save(ArtifactsDir + u"FormFields.DropDownItemCollection.html");
 dropDownItems->Clear();
 ```
 
+## See Also
+
+* Class [DropDownItemCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

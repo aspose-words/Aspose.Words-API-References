@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldprint/get_postscriptgroup/
 ---
-## FieldPrint.get_PostScriptGroup method
+## FieldPrint::get_PostScriptGroup method
 
 
 Gets or sets the drawing rectangle that the PostScript instructions operate on.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldPrint::get_PostScriptGroup()
 
 
 ## Examples
-
 
 
 
@@ -45,3 +44,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.PRINT.docx");
 ```
 
+## See Also
+
+* Class [FieldPrint](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

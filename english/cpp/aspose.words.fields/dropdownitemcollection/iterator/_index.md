@@ -15,3 +15,8 @@ url: /cpp/aspose.words.fields/dropdownitemcollection/iterator/
 using Aspose::Words::Fields::DropDownItemCollection::iterator =  typename iterator_holder_type::iterator
 ```
 
+## See Also
+
+* Class [DropDownItemCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

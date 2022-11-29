@@ -6,7 +6,7 @@ type: docs
 weight: 1015
 url: /cpp/aspose.words.settings/compatibilityoptions/set_balancesinglebytedoublebytewidth/
 ---
-## CompatibilityOptions.set_BalanceSingleByteDoubleByteWidth method
+## CompatibilityOptions::set_BalanceSingleByteDoubleByteWidth method
 
 
 Balance Single Byte and Double Byte Characters.
@@ -15,3 +15,8 @@ Balance Single Byte and Double Byte Characters.
 void Aspose::Words::Settings::CompatibilityOptions::set_BalanceSingleByteDoubleByteWidth(bool value)
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

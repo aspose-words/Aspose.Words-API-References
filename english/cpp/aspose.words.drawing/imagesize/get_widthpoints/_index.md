@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.drawing/imagesize/get_widthpoints/
 ---
-## ImageSize.get_WidthPoints method
+## ImageSize::get_WidthPoints method
 
 
 Gets the width of the image in points. 1 point is 1/72 inch.
@@ -17,7 +17,6 @@ double Aspose::Words::Drawing::ImageSize::get_WidthPoints()
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,8 @@ ASPOSE_ASSERT_EQ(330.0, shape->get_Height());
 doc->Save(ArtifactsDir + u"Image.ScaleImage.docx");
 ```
 
+## See Also
+
+* Class [ImageSize](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

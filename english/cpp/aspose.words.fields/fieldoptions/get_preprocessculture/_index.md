@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.fields/fieldoptions/get_preprocessculture/
 ---
-## FieldOptions.get_PreProcessCulture method
+## FieldOptions::get_PreProcessCulture method
 
 
 Gets or sets the culture to preprocess field values.
@@ -15,13 +15,14 @@ Gets or sets the culture to preprocess field values.
 const System::SharedPtr<System::Globalization::CultureInfo> & Aspose::Words::Fields::FieldOptions::get_PreProcessCulture() const
 ```
 
+## Remarks
+
 
 Currently this property only affects value of the [FieldDocProperty](../../fielddocproperty/) field.
 
 The default value is **null**. When this property is set to **null**, the [FieldDocProperty](../../fielddocproperty/) field's value is preprocessed with the culture controlled by the [FieldUpdateCultureSource](../get_fieldupdateculturesource/) property.
 
 ## Examples
-
 
 
 
@@ -46,3 +47,8 @@ field->Update();
 ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(field->get_Result(), u"\\d{2}[/]\\d{2}[/]\\d{4} \\d{2}[:]\\d{2}")->get_Success());
 ```
 
+## See Also
+
+* Class [FieldOptions](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

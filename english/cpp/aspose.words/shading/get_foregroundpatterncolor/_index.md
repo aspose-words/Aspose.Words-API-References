@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/shading/get_foregroundpatterncolor/
 ---
-## Shading.get_ForegroundPatternColor method
+## Shading::get_ForegroundPatternColor method
 
 
 Gets or sets the color that's applied to the foreground of the [Shading](../) object.
@@ -17,7 +17,6 @@ System::Drawing::Color Aspose::Words::Shading::get_ForegroundPatternColor()
 
 
 ## Examples
-
 
 
 
@@ -42,3 +41,8 @@ builder->Write(u"This paragraph is formatted with a double border and shading.")
 doc->Save(ArtifactsDir + u"DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
+## See Also
+
+* Class [Shading](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

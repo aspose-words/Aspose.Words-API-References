@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/section/clone/
 ---
-## Section.Clone method
+## Section::Clone method
 
 
 Creates a duplicate of this section.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Section> Aspose::Words::Section::Clone()
 
 
 ## Examples
-
 
 
 
@@ -49,3 +48,9 @@ ASSERT_EQ(u"Section 2\x000c"
           doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Section](../)
+* Class [Section](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

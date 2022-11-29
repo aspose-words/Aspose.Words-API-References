@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.fields/fieldindex/get_letterrange/
 ---
-## FieldIndex.get_LetterRange method
+## FieldIndex::get_LetterRange method
 
 
 Gets or sets a range of letters to which limit the index.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldIndex::get_LetterRange()
 
 
 ## Examples
-
 
 
 
@@ -86,3 +85,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.INDEX.XE.Formatting.docx");
 ```
 
+## See Also
+
+* Class [FieldIndex](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

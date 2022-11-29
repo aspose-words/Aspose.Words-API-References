@@ -21,3 +21,8 @@ class FontNameSubstitutionRule : public Aspose::Words::Fonts::FontSubstitutionRu
 | --- | --- |
 | virtual [get_Enabled](../fontsubstitutionrule/get_enabled/)() | Specifies whether the rule is enabled or not. |
 | virtual [set_Enabled](../fontsubstitutionrule/set_enabled/)(bool) | Setter for [Aspose::Words::Fonts::FontSubstitutionRule::get_Enabled](../fontsubstitutionrule/get_enabled/). |
+## See Also
+
+* Class [FontSubstitutionRule](../fontsubstitutionrule/)
+* Namespace [Aspose::Words::Fonts](../)
+* Library [Aspose.Words](../../)

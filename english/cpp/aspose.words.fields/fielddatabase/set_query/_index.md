@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words.fields/fielddatabase/set_query/
 ---
-## FieldDatabase.set_Query method
+## FieldDatabase::set_Query method
 
 
 Sets a set of SQL instructions that query the database.
@@ -15,3 +15,8 @@ Sets a set of SQL instructions that query the database.
 void Aspose::Words::Fields::FieldDatabase::set_Query(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldDatabase](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

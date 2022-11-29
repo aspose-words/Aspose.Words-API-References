@@ -6,10 +6,10 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.saving/pclsaveoptions/get_saveformat/
 ---
-## PclSaveOptions.get_SaveFormat method
+## PclSaveOptions::get_SaveFormat method
 
 
-Specifies the format in which the document will be saved if this save options object is used. Can only be **Pcl**.
+Specifies the format in which the document will be saved if this save options object is used. Can only be [Pcl](../../../aspose.words/saveformat/).
 
 ```cpp
 Aspose::Words::SaveFormat Aspose::Words::Saving::PclSaveOptions::get_SaveFormat() override
@@ -17,7 +17,6 @@ Aspose::Words::SaveFormat Aspose::Words::Saving::PclSaveOptions::get_SaveFormat(
 
 
 ## Examples
-
 
 
 
@@ -32,3 +31,9 @@ saveOptions->set_RasterizeTransformedElements(true);
 doc->Save(ArtifactsDir + u"PclSaveOptions.RasterizeElements.pcl", saveOptions);
 ```
 
+## See Also
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [PclSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

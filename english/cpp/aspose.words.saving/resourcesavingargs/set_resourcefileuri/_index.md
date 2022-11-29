@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.saving/resourcesavingargs/set_resourcefileuri/
 ---
-## ResourceSavingArgs.set_ResourceFileUri method
+## ResourceSavingArgs::set_ResourceFileUri method
 
 
 Setter for [Aspose::Words::Saving::ResourceSavingArgs::get_ResourceFileUri](../get_resourcefileuri/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::ResourceSavingArgs::get_ResourceFileUri](../g
 void Aspose::Words::Saving::ResourceSavingArgs::set_ResourceFileUri(const System::String &value)
 ```
 
+## See Also
+
+* Class [ResourceSavingArgs](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

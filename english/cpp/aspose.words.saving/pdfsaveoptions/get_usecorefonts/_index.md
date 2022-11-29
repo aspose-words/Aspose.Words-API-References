@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_usecorefonts/
 ---
-## PdfSaveOptions.get_UseCoreFonts method
+## PdfSaveOptions::get_UseCoreFonts method
 
 
 Gets or sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts.
@@ -14,6 +14,8 @@ Gets or sets a value determining whether or not to substitute TrueType fonts Ari
 ```cpp
 bool Aspose::Words::Saving::PdfSaveOptions::get_UseCoreFonts() const
 ```
+
+## Remarks
 
 
 The default value is **false**. When this value is set to **true** Arial, Times New Roman, Courier New and Symbol fonts are replaced in PDF document with corresponding core Type 1 font.
@@ -29,7 +31,6 @@ Core fonts are not supported when saving to PDF 2.0 format. **false** value will
 This option has a higher priority then [FontEmbeddingMode](../get_fontembeddingmode/) option.
 
 ## Examples
-
 
 
 
@@ -64,3 +65,8 @@ else
 }
 ```
 
+## See Also
+
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

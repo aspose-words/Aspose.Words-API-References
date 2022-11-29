@@ -6,7 +6,7 @@ type: docs
 weight: 638
 url: /cpp/aspose.words/document/get_theme/
 ---
-## Document.get_Theme method
+## Document::get_Theme method
 
 
 Gets the [Theme](./) object for this document.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Themes::Theme> Aspose::Words::Document::get_The
 
 
 ## Examples
-
 
 
 
@@ -63,3 +62,9 @@ colors->set_FollowedHyperlink(System::Drawing::Color::get_Gray());
 doc->Save(ArtifactsDir + u"Themes.CustomColorsAndFonts.docx");
 ```
 
+## See Also
+
+* Class [Theme](../../../aspose.words.themes/theme/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldusername/set_username/
 ---
-## FieldUserName.set_UserName method
+## FieldUserName::set_UserName method
 
 
 Setter for [Aspose::Words::Fields::FieldUserName::get_UserName](../get_username/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldUserName::get_UserName](../get_username/
 void Aspose::Words::Fields::FieldUserName::set_UserName(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldUserName](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

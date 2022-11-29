@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/plaintextdocument/plaintextdocument/
 ---
-## PlainTextDocument.PlainTextDocument(const System::SharedPtr\<System::IO::Stream\>\&) method
+## PlainTextDocument::PlainTextDocument(const System::SharedPtr\<System::IO::Stream\>\&) constructor
 
 
 Creates a plain text document from a stream. Automatically detects the file format.
@@ -19,11 +19,12 @@ Aspose::Words::PlainTextDocument::PlainTextDocument(const System::SharedPtr<Syst
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | const System::SharedPtr\<System::IO::Stream\>\& | The stream where to extract the text from. |
+## Remarks
+
 
 The document must be stored at the beginning of the stream. The stream must support random positioning.
 
 ## Examples
-
 
 
 
@@ -43,7 +44,12 @@ doc->Save(ArtifactsDir + u"PlainTextDocument.LoadFromStream.docx");
 }
 ```
 
-## PlainTextDocument.PlainTextDocument(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) method
+## See Also
+
+* Class [PlainTextDocument](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## PlainTextDocument::PlainTextDocument(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) constructor
 
 
 Creates a plain text document from a stream. Allows to specify additional options such as an encryption password.
@@ -57,11 +63,12 @@ Aspose::Words::PlainTextDocument::PlainTextDocument(const System::SharedPtr<Syst
 | --- | --- | --- |
 | stream | const System::SharedPtr\<System::IO::Stream\>\& | The stream where to extract the text from. |
 | loadOptions | const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\& | Additional options to use when loading a document. Can be null. |
+## Remarks
+
 
 The document must be stored at the beginning of the stream. The stream must support random positioning.
 
 ## Examples
-
 
 
 
@@ -88,7 +95,13 @@ loadOptions->set_Password(u"MyPassword");
 }
 ```
 
-## PlainTextDocument.PlainTextDocument(const System::String\&) method
+## See Also
+
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* Class [PlainTextDocument](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## PlainTextDocument::PlainTextDocument(const System::String\&) constructor
 
 
 Creates a plain text document from a file. Automatically detects the file format.
@@ -106,7 +119,6 @@ Aspose::Words::PlainTextDocument::PlainTextDocument(const System::String &fileNa
 
 
 
-
 Shows how to load the contents of a Microsoft Word document in plaintext. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -120,7 +132,12 @@ auto plaintext = MakeObject<PlainTextDocument>(ArtifactsDir + u"PlainTextDocumen
 ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
 ```
 
-## PlainTextDocument.PlainTextDocument(const System::String\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) method
+## See Also
+
+* Class [PlainTextDocument](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## PlainTextDocument::PlainTextDocument(const System::String\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) constructor
 
 
 Creates a plain text document from a file. Allows to specify additional options such as an encryption password.
@@ -136,7 +153,6 @@ Aspose::Words::PlainTextDocument::PlainTextDocument(const System::String &fileNa
 | loadOptions | const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\& | Additional options to use when loading a document. Can be null. |
 
 ## Examples
-
 
 
 
@@ -159,7 +175,13 @@ auto plaintext = MakeObject<PlainTextDocument>(ArtifactsDir + u"PlainTextDocumen
 ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
 ```
 
-## PlainTextDocument.PlainTextDocument(std::istream\&) method
+## See Also
+
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* Class [PlainTextDocument](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## PlainTextDocument::PlainTextDocument(std::istream\&) constructor
 
 
 
@@ -168,7 +190,12 @@ ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
 Aspose::Words::PlainTextDocument::PlainTextDocument(std::istream &stream)
 ```
 
-## PlainTextDocument.PlainTextDocument(std::istream\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) method
+## See Also
+
+* Class [PlainTextDocument](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## PlainTextDocument::PlainTextDocument(std::istream\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) constructor
 
 
 
@@ -177,3 +204,9 @@ Aspose::Words::PlainTextDocument::PlainTextDocument(std::istream &stream)
 Aspose::Words::PlainTextDocument::PlainTextDocument(std::istream &stream, const System::SharedPtr<Aspose::Words::Loading::LoadOptions> &loadOptions)
 ```
 
+## See Also
+
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* Class [PlainTextDocument](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

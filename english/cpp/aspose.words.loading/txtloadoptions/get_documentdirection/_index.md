@@ -6,10 +6,10 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.loading/txtloadoptions/get_documentdirection/
 ---
-## TxtLoadOptions.get_DocumentDirection method
+## TxtLoadOptions::get_DocumentDirection method
 
 
-Gets or sets a document direction. The default value is **LeftToRight**.
+Gets or sets a document direction. The default value is [LeftToRight](../../documentdirection/).
 
 ```cpp
 Aspose::Words::Loading::DocumentDirection Aspose::Words::Loading::TxtLoadOptions::get_DocumentDirection() const
@@ -17,7 +17,6 @@ Aspose::Words::Loading::DocumentDirection Aspose::Words::Loading::TxtLoadOptions
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,9 @@ doc = MakeObject<Document>(MyDir + u"English text.txt", loadOptions);
 ASSERT_FALSE(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat()->get_Bidi());
 ```
 
+## See Also
+
+* Enum [DocumentDirection](../../documentdirection/)
+* Class [TxtLoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

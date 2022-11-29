@@ -11,6 +11,10 @@ url: /cpp/aspose.words.themes/themefont/
 
 Specifies the types of theme font names for document themes.
 
+```cpp
+enum class ThemeFont
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ Specifies the types of theme font names for document themes.
 
 
 ## Examples
-
 
 
 
@@ -124,3 +127,7 @@ builder->get_ParagraphFormat()->set_StyleName(u"ThemedStyle");
 builder->Writeln(u"Text with themed style");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Themes](../)
+* Library [Aspose.Words](../../)

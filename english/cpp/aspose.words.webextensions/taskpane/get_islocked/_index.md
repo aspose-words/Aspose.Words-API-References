@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.webextensions/taskpane/get_islocked/
 ---
-## TaskPane.get_IsLocked method
+## TaskPane::get_IsLocked method
 
 
 Specifies whether the task pane is locked to the document in the UI and cannot be closed by the user.
@@ -17,7 +17,6 @@ bool Aspose::Words::WebExtensions::TaskPane::get_IsLocked() const
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,8 @@ doc->get_WebExtensionTaskPanes()->Clear();
 ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ```
 
+## See Also
+
+* Class [TaskPane](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/textcolumncollection/get_spacing/
 ---
-## TextColumnCollection.get_Spacing method
+## TextColumnCollection::get_Spacing method
 
 
 When columns are evenly spaced, gets or sets the amount of space between each column in points.
@@ -17,7 +17,6 @@ double Aspose::Words::TextColumnCollection::get_Spacing()
 
 
 ## Examples
-
 
 
 
@@ -37,3 +36,8 @@ builder->Writeln(u"Column 2.");
 doc->Save(ArtifactsDir + u"PageSetup.ColumnsSameWidth.docx");
 ```
 
+## See Also
+
+* Class [TextColumnCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.layout/layoutenumerator/idx_get/
 ---
-## LayoutEnumerator.idx_get method
+## LayoutEnumerator::idx_get method
 
 
 Gets a named property of the entity.
@@ -22,7 +22,10 @@ System::SharedPtr<System::Object> Aspose::Words::Layout::LayoutEnumerator::idx_g
 
 ### ReturnValue
 
-
 Null if property is not available, otherwise value of the property.
 
+## See Also
 
+* Class [LayoutEnumerator](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/body/get_parentsection/
 ---
-## Body.get_ParentSection method
+## Body::get_ParentSection method
 
 
 Gets the parent section of this story.
@@ -15,11 +15,12 @@ Gets the parent section of this story.
 System::SharedPtr<Aspose::Words::Section> Aspose::Words::Body::get_ParentSection()
 ```
 
+## Remarks
+
 
 **ParentSection** is equivalent to **%([Section](../../section/))ParentNode**.
 
 ## Examples
-
 
 
 
@@ -73,3 +74,9 @@ static void InsertSectionWithEndnote(SharedPtr<Document> doc, String sectionBody
 }
 ```
 
+## See Also
+
+* Class [Section](../../section/)
+* Class [Body](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

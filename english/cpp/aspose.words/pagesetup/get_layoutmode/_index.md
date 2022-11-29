@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words/pagesetup/get_layoutmode/
 ---
-## PageSetup.get_LayoutMode method
+## PageSetup::get_LayoutMode method
 
 
 Gets or sets the layout mode of this section.
@@ -17,7 +17,6 @@ Aspose::Words::SectionLayoutMode Aspose::Words::PageSetup::get_LayoutMode()
 
 
 ## Examples
-
 
 
 
@@ -61,3 +60,9 @@ for (int i = 0; i < 30; i++)
 doc->Save(ArtifactsDir + u"PageSetup.LinesPerPage.docx");
 ```
 
+## See Also
+
+* Enum [SectionLayoutMode](../../sectionlayoutmode/)
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

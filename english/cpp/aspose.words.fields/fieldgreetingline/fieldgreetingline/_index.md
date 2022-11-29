@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldgreetingline/fieldgreetingline/
 ---
-## FieldGreetingLine.FieldGreetingLine method
+## FieldGreetingLine::FieldGreetingLine constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.fields/fieldgreetingline/fieldgreetingline/
 Aspose::Words::Fields::FieldGreetingLine::FieldGreetingLine()
 ```
 
+## See Also
+
+* Class [FieldGreetingLine](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

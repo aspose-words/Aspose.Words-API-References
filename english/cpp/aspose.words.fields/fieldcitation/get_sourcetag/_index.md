@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fields/fieldcitation/get_sourcetag/
 ---
-## FieldCitation.get_SourceTag method
+## FieldCitation::get_SourceTag method
 
 
 Gets or sets a value that mathes the **Tag** element's value of the source to insert.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldCitation::get_SourceTag()
 
 
 ## Examples
-
 
 
 
@@ -70,3 +69,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.CITATION.docx");
 ```
 
+## See Also
+
+* Class [FieldCitation](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

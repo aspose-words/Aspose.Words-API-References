@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.markup/custompartcollection/clone/
 ---
-## CustomPartCollection.Clone method
+## CustomPartCollection::Clone method
 
 
 Makes a deep copy of this collection and its items.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Markup::CustomPartCollection> Aspose::Words::Ma
 
 
 ## Examples
-
 
 
 
@@ -61,3 +60,9 @@ doc->get_PackageCustomParts()->Clear();
 ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
 ```
 
+## See Also
+
+* Class [CustomPartCollection](../)
+* Class [CustomPartCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/documentvisitor/visitbodyend/
 ---
-## DocumentVisitor.VisitBodyEnd method
+## DocumentVisitor::VisitBodyEnd method
 
 
 Called when enumeration of the main text story in a section has ended.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitBodyEn
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -160,3 +158,10 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [Body](../../body/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

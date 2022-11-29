@@ -42,11 +42,12 @@ class OleFormat : public System::Object
 | [set_ProgId](./set_progid/)(const System::String\&) | Setter for [Aspose::Words::Drawing::OleFormat::get_ProgId](./get_progid/). |
 | [set_SourceFullName](./set_sourcefullname/)(const System::String\&) | Setter for [Aspose::Words::Drawing::OleFormat::get_SourceFullName](./get_sourcefullname/). |
 | [set_SourceItem](./set_sourceitem/)(const System::String\&) | Setter for [Aspose::Words::Drawing::OleFormat::get_SourceItem](./get_sourceitem/). |
+## Remarks
+
 
 Use the [OleFormat](../shape/get_oleformat/) property to access the data of an OLE object. You do not create instances of the [OleFormat](./) class directly.
 
 ## Examples
-
 
 
 
@@ -80,3 +81,7 @@ ASSERT_EQ(u".xlsx", oleFormat->get_SuggestedExtension());
 oleFormat->Save(ArtifactsDir + u"OLE spreadsheet saved directly" + oleFormat->get_SuggestedExtension());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

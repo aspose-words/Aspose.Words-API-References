@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.words.markup/structureddocumenttag/get_style/
 ---
-## StructuredDocumentTag.get_Style method
+## StructuredDocumentTag::get_Style method
 
 
 Gets or sets the [Style](../../../aspose.words/style/) of the structured document tag.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Style> Aspose::Words::Markup::StructuredDocumen
 
 
 ## Examples
-
 
 
 
@@ -52,3 +51,9 @@ for (const auto& node : System::IterateOver(tags))
 }
 ```
 
+## See Also
+
+* Class [Style](../../../aspose.words/style/)
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

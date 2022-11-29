@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.fields/fieldoptions/get_fieldupdateculturesource/
 ---
-## FieldOptions.get_FieldUpdateCultureSource method
+## FieldOptions::get_FieldUpdateCultureSource method
 
 
 Specifies what culture to use to format the field result.
@@ -15,7 +15,15 @@ Specifies what culture to use to format the field result.
 Aspose::Words::Fields::FieldUpdateCultureSource Aspose::Words::Fields::FieldOptions::get_FieldUpdateCultureSource() const
 ```
 
+## Remarks
+
 
 By default, the culture of the current thread is used.
 
 The setting affects only date/time fields with \\@ format switch. 
+## See Also
+
+* Enum [FieldUpdateCultureSource](../../fieldupdateculturesource/)
+* Class [FieldOptions](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

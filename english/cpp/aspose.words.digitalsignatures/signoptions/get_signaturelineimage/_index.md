@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.digitalsignatures/signoptions/get_signaturelineimage/
 ---
-## SignOptions.get_SignatureLineImage method
+## SignOptions::get_SignatureLineImage method
 
 
 The image that will be shown in associated [SignatureLine](../../../aspose.words.drawing/signatureline/). Default value is **null**.
@@ -17,7 +17,6 @@ System::ArrayPtr<uint8_t> Aspose::Words::DigitalSignatures::SignOptions::get_Sig
 
 
 ## Examples
-
 
 
 
@@ -150,3 +149,8 @@ static void CreateSignees()
 static SharedPtr<System::Collections::Generic::List<SharedPtr<ExSignDocumentCustom::Signee>>> mSignees;
 ```
 
+## See Also
+
+* Class [SignOptions](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)

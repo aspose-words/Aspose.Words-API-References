@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fields/fieldcollection/removeat/
 ---
-## FieldCollection.RemoveAt method
+## FieldCollection::RemoveAt method
 
 
 Removes a field at the specified index from this collection and from the document.
@@ -21,7 +21,6 @@ void Aspose::Words::Fields::FieldCollection::RemoveAt(int32_t index)
 | index | int32_t | An index into the collection. |
 
 ## Examples
-
 
 
 
@@ -61,3 +60,8 @@ fields->Clear();
 ASSERT_EQ(0, fields->get_Count());
 ```
 
+## See Also
+
+* Class [FieldCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

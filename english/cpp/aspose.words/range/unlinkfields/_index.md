@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words/range/unlinkfields/
 ---
-## Range.UnlinkFields method
+## Range::UnlinkFields method
 
 
 Unlinks fields in this range.
@@ -15,13 +15,14 @@ Unlinks fields in this range.
 void Aspose::Words::Range::UnlinkFields()
 ```
 
+## Remarks
+
 
 Replaces all the fields in this range with their most recent results.
 
 To unlink fields in the whole document use [UnlinkFields](./).
 
 ## Examples
-
 
 
 
@@ -35,3 +36,8 @@ doc->get_Sections()->Add(newSection);
 doc->get_Sections()->idx_get(1)->get_Range()->UnlinkFields();
 ```
 
+## See Also
+
+* Class [Range](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

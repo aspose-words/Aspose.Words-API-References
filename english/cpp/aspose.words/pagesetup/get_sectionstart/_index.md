@@ -6,7 +6,7 @@ type: docs
 weight: 495
 url: /cpp/aspose.words/pagesetup/get_sectionstart/
 ---
-## PageSetup.get_SectionStart method
+## PageSetup::get_SectionStart method
 
 
 Returns or sets the type of section break for the specified object.
@@ -17,7 +17,6 @@ Aspose::Words::SectionStart Aspose::Words::PageSetup::get_SectionStart()
 
 
 ## Examples
-
 
 
 
@@ -110,3 +109,9 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 ```
 
+## See Also
+
+* Enum [SectionStart](../../sectionstart/)
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

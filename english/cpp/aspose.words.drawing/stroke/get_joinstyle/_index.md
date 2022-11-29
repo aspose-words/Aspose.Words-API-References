@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.drawing/stroke/get_joinstyle/
 ---
-## Stroke.get_JoinStyle method
+## Stroke::get_JoinStyle method
 
 
 Defines the join style of a polyline.
@@ -15,11 +15,12 @@ Defines the join style of a polyline.
 Aspose::Words::Drawing::JoinStyle Aspose::Words::Drawing::Stroke::get_JoinStyle()
 ```
 
+## Remarks
 
-The default value is **Round**.
+
+The default value is [Round](../../joinstyle/).
 
 ## Examples
-
 
 
 
@@ -49,3 +50,9 @@ stroke->set_LineStyle(ShapeLineStyle::Triple);
 doc->Save(ArtifactsDir + u"Shape.Stroke.docx");
 ```
 
+## See Also
+
+* Enum [JoinStyle](../../joinstyle/)
+* Class [Stroke](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

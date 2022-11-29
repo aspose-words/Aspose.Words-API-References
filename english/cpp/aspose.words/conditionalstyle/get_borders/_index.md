@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/conditionalstyle/get_borders/
 ---
-## ConditionalStyle.get_Borders method
+## ConditionalStyle::get_Borders method
 
 
 Gets the collection of default cell borders for the conditional style.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::BorderCollection> Aspose::Words::ConditionalSty
 
 
 ## Examples
-
 
 
 
@@ -90,3 +89,9 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow |
 doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 ```
 
+## See Also
+
+* Class [BorderCollection](../../bordercollection/)
+* Class [ConditionalStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.fields/fielddde/set_islinked/
 ---
-## FieldDde.set_IsLinked method
+## FieldDde::set_IsLinked method
 
 
 Setter for [Aspose::Words::Fields::FieldDde::get_IsLinked](../get_islinked/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldDde::get_IsLinked](../get_islinked/).
 void Aspose::Words::Fields::FieldDde::set_IsLinked(bool value)
 ```
 
+## See Also
+
+* Class [FieldDde](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

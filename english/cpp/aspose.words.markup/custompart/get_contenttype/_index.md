@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.markup/custompart/get_contenttype/
 ---
-## CustomPart.get_ContentType method
+## CustomPart::get_ContentType method
 
 
 Specifies the content type of this custom part.
@@ -15,13 +15,14 @@ Specifies the content type of this custom part.
 System::String Aspose::Words::Markup::CustomPart::get_ContentType() const
 ```
 
+## Remarks
+
 
 This property is applicable only when [IsExternal](../get_isexternal/) is **false**.
 
 The default value is an empty string. A valid value must be a non-empty string.
 
 ## Examples
-
 
 
 
@@ -65,3 +66,8 @@ doc->get_PackageCustomParts()->Clear();
 ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
 ```
 
+## See Also
+
+* Class [CustomPart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

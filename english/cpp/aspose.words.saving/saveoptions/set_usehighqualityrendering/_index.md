@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/aspose.words.saving/saveoptions/set_usehighqualityrendering/
 ---
-## SaveOptions.set_UseHighQualityRendering method
+## SaveOptions::set_UseHighQualityRendering method
 
 
 Setter for [Aspose::Words::Saving::SaveOptions::get_UseHighQualityRendering](../get_usehighqualityrendering/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::SaveOptions::get_UseHighQualityRendering](../
 void Aspose::Words::Saving::SaveOptions::set_UseHighQualityRendering(bool value)
 ```
 
+## See Also
+
+* Class [SaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

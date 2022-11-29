@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.saving/downsampleoptions/get_resolution/
 ---
-## DownsampleOptions.get_Resolution method
+## DownsampleOptions::get_Resolution method
 
 
 Specifies the resolution in pixels per inch which the images should be downsampled to.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Saving::DownsampleOptions::get_Resolution() const
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,8 @@ options->get_DownsampleOptions()->set_ResolutionThreshold(128);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", options);
 ```
 
+## See Also
+
+* Class [DownsampleOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

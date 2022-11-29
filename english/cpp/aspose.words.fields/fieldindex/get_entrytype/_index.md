@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fieldindex/get_entrytype/
 ---
-## FieldIndex.get_EntryType method
+## FieldIndex::get_EntryType method
 
 
 Gets or sets an index entry type used to build the index.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldIndex::get_EntryType()
 
 
 ## Examples
-
 
 
 
@@ -73,3 +72,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.INDEX.XE.Filtering.docx");
 ```
 
+## See Also
+
+* Class [FieldIndex](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

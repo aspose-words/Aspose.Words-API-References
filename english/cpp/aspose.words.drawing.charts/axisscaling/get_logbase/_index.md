@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.drawing.charts/axisscaling/get_logbase/
 ---
-## AxisScaling.get_LogBase method
+## AxisScaling::get_LogBase method
 
 
 Gets or sets the logarithmic base for a logarithmic axis.
@@ -15,15 +15,16 @@ Gets or sets the logarithmic base for a logarithmic axis.
 double Aspose::Words::Drawing::Charts::AxisScaling::get_LogBase() const
 ```
 
+## Remarks
+
 
 The property is not supported by MS Office 2016 new charts.
 
-Valid range of a floating point value is greater than or equal to 2 and less than or equal to 1000. The property has effect only if [Type](../get_type/) is set to **Logarithmic**.
+Valid range of a floating point value is greater than or equal to 2 and less than or equal to 1000. The property has effect only if [Type](../get_type/) is set to [Logarithmic](../../axisscaletype/).
 
-Setting this property sets the [Type](../get_type/) property to **Logarithmic**.
+Setting this property sets the [Type](../get_type/) property to [Logarithmic](../../axisscaletype/).
 
 ## Examples
-
 
 
 
@@ -53,3 +54,8 @@ chart->get_AxisY()->get_Scaling()->set_LogBase(20);
 doc->Save(ArtifactsDir + u"Charts.AxisScaling.docx");
 ```
 
+## See Also
+
+* Class [AxisScaling](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

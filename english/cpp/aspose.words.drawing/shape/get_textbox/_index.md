@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.words.drawing/shape/get_textbox/
 ---
-## Shape.get_TextBox method
+## Shape::get_TextBox method
 
 
 Defines attributes that specify how text is displayed in a shape.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::TextBox> Aspose::Words::Drawing::Shape
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,9 @@ textBox->set_LayoutFlow(layoutFlow);
 doc->Save(ArtifactsDir + u"Shape.TextBoxLayoutFlow.docx");
 ```
 
+## See Also
+
+* Class [TextBox](../../textbox/)
+* Class [Shape](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

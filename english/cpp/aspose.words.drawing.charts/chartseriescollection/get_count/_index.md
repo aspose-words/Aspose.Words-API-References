@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.drawing.charts/chartseriescollection/get_count/
 ---
-## ChartSeriesCollection.get_Count method
+## ChartSeriesCollection::get_Count method
 
 
 Returns the number of [ChartSeries](../../chartseries/) in this collection.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Drawing::Charts::ChartSeriesCollection::get_Count()
 
 
 ## Examples
-
 
 
 
@@ -64,3 +63,8 @@ ASSERT_FALSE(chartData->LINQ_Any([](SharedPtr<ChartSeries> s) { return s->get_Na
 chartData->Clear();
 ```
 
+## See Also
+
+* Class [ChartSeriesCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

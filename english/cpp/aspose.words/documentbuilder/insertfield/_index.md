@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/aspose.words/documentbuilder/insertfield/
 ---
-## DocumentBuilder.InsertField(Aspose::Words::Fields::FieldType, bool) method
+## DocumentBuilder::InsertField(Aspose::Words::Fields::FieldType, bool) method
 
 
 Inserts a Word field into a document and optionally updates the field result.
@@ -23,13 +23,13 @@ System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::DocumentBuilder::
 
 ### ReturnValue
 
-
 A [Field](../../../aspose.words.fields/field/) object that represents the inserted field.
+## Remarks
 
-This method inserts a field into a document. Aspose.Words can update fields of most types, but not all. For more details see the **InsertField()** overload.
+
+This method inserts a field into a document. Aspose.Words can update fields of most types, but not all. For more details see the [InsertField()](../) overload.
 
 ## Examples
-
 
 
 
@@ -72,7 +72,14 @@ else
 }
 ```
 
-## DocumentBuilder.InsertField(const System::String\&) method
+## See Also
+
+* Class [Field](../../../aspose.words.fields/field/)
+* Enum [FieldType](../../../aspose.words.fields/fieldtype/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## DocumentBuilder::InsertField(const System::String\&) method
 
 
 Inserts a Word field into a document and updates the field result.
@@ -88,13 +95,13 @@ System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::DocumentBuilder::
 
 ### ReturnValue
 
-
 A [Field](../../../aspose.words.fields/field/) object that represents the inserted field.
+## Remarks
 
-This method inserts a field into a document and updates the field result immediately. Aspose.Words can update fields of most types, but not all. For more details see the **InsertField()** overload.
+
+This method inserts a field into a document and updates the field result immediately. Aspose.Words can update fields of most types, but not all. For more details see the [InsertField()](../) overload.
 
 ## Examples
-
 
 
 
@@ -136,7 +143,13 @@ ASSERT_EQ(u"DATE \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
 ASSERT_LE(System::Math::Abs((System::DateTime::Parse(field->get_Result()) - System::DateTime::get_Today()).get_Hours()), 24);
 ```
 
-## DocumentBuilder.InsertField(const System::String\&, const System::String\&) method
+## See Also
+
+* Class [Field](../../../aspose.words.fields/field/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## DocumentBuilder::InsertField(const System::String\&, const System::String\&) method
 
 
 Inserts a Word field into a document without updating the field result.
@@ -153,8 +166,9 @@ System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::DocumentBuilder::
 
 ### ReturnValue
 
-
 A [Field](../../../aspose.words.fields/field/) object that represents the inserted field.
+## Remarks
+
 
 [Fields](../../../aspose.words.fields/) in Microsoft Word documents consist of a field code and a field result. The field code is like a formula and the field result is like the value that the formula produces. The field code may also contain field switches that are like additional instructions to perform a specific action.
 
@@ -165,7 +179,6 @@ To create a field, you need to specify a field type, field code and a "placehold
 Aspose.Words can calculate field results for most of the field types, but this method does not update the field result automatically. Because the field result is not calculated automatically, you are expected to pass some string value (or even an empty string) that will be inserted into the field result. This value will remain in the field result as a placeholder until the field is updated. To update the field result you can call [Update](../../../aspose.words.fields/field/update/) on the field object returned to you or [UpdateFields](../../document/updatefields/) to update fields in the whole document.
 
 ## Examples
-
 
 
 
@@ -220,3 +233,9 @@ pageSetup->set_PageNumberStyle(NumberStyle::Arabic);
 doc->Save(ArtifactsDir + u"PageSetup.PageNumbering.docx");
 ```
 
+## See Also
+
+* Class [Field](../../../aspose.words.fields/field/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/aspose.words/documentbuilder/insertbreak/
 ---
-## DocumentBuilder.InsertBreak method
+## DocumentBuilder::InsertBreak method
 
 
 Inserts a break of the specified type into the document.
@@ -21,7 +21,6 @@ void Aspose::Words::DocumentBuilder::InsertBreak(Aspose::Words::BreakType breakT
 | breakType | Aspose::Words::BreakType | Specifies the type of the break to insert. |
 
 ## Examples
-
 
 
 
@@ -128,3 +127,9 @@ builder->Writeln(u"This is the second section, which is in default Letter paper 
 doc->Save(ArtifactsDir + u"PageSetup.ClearFormatting.docx");
 ```
 
+## See Also
+
+* Enum [BreakType](../../breaktype/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

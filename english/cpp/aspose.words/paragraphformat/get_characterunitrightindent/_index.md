@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words/paragraphformat/get_characterunitrightindent/
 ---
-## ParagraphFormat.get_CharacterUnitRightIndent method
+## ParagraphFormat::get_CharacterUnitRightIndent method
 
 
 Gets or sets the right indent value (in characters) for the specified paragraphs.
@@ -17,7 +17,6 @@ double Aspose::Words::ParagraphFormat::get_CharacterUnitRightIndent()
 
 
 ## Examples
-
 
 
 
@@ -69,3 +68,8 @@ builder->Write(String(u"测试文档测试文档测试文档测试文档测试�
                u"文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档");
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

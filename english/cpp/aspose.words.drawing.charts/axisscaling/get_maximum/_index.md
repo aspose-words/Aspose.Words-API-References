@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.drawing.charts/axisscaling/get_maximum/
 ---
-## AxisScaling.get_Maximum method
+## AxisScaling::get_Maximum method
 
 
 Gets or sets the maximum value of the axis.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::AxisBound> Aspose::Words::Draw
 
 
 ## Examples
-
 
 
 
@@ -62,3 +61,9 @@ yAxis->get_Scaling()->set_Maximum(MakeObject<AxisBound>(700.0));
 doc->Save(ArtifactsDir + u"Charts.DateTimeValues.docx");
 ```
 
+## See Also
+
+* Class [AxisBound](../../axisbound/)
+* Class [AxisScaling](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

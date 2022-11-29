@@ -11,6 +11,10 @@ url: /cpp/aspose.words.saving/htmlfixedpagehorizontalalignment/
 
 Specifies the horizontal alignment for pages in output HTML document.
 
+```cpp
+enum class HtmlFixedPageHorizontalAlignment
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ Specifies the horizontal alignment for pages in output HTML document.
 
 
 ## Examples
-
 
 
 
@@ -58,3 +61,7 @@ case HtmlFixedPageHorizontalAlignment::Right:
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

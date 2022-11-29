@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.themes/themecolors/get_light2/
 ---
-## ThemeColors.get_Light2 method
+## ThemeColors::get_Light2 method
 
 
 Specifies color Light 2.
@@ -17,7 +17,6 @@ System::Drawing::Color Aspose::Words::Themes::ThemeColors::get_Light2()
 
 
 ## Examples
-
 
 
 
@@ -63,3 +62,8 @@ colors->set_FollowedHyperlink(System::Drawing::Color::get_Gray());
 doc->Save(ArtifactsDir + u"Themes.CustomColorsAndFonts.docx");
 ```
 
+## See Also
+
+* Class [ThemeColors](../)
+* Namespace [Aspose::Words::Themes](../../)
+* Library [Aspose.Words](../../../)

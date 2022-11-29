@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words/document/copystylesfromtemplate/
 ---
-## Document.CopyStylesFromTemplate(const System::SharedPtr\<Aspose::Words::Document\>\&) method
+## Document::CopyStylesFromTemplate(const System::SharedPtr\<Aspose::Words::Document\>\&) method
 
 
 Copies styles from the specified template to a document.
@@ -17,7 +17,6 @@ void Aspose::Words::Document::CopyStylesFromTemplate(const System::SharedPtr<Asp
 
 
 ## Examples
-
 
 
 
@@ -76,7 +75,13 @@ target->CopyStylesFromTemplate(MyDir + u"Rendering.docx");
 ASSERT_EQ(21, target->get_Styles()->get_Count());
 ```
 
-## Document.CopyStylesFromTemplate(const System::String\&) method
+## See Also
+
+* Class [Document](../)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Document::CopyStylesFromTemplate(const System::String\&) method
 
 
 Copies styles from the specified template to a document.
@@ -87,7 +92,6 @@ void Aspose::Words::Document::CopyStylesFromTemplate(const System::String &templ
 
 
 ## Examples
-
 
 
 
@@ -137,3 +141,8 @@ target->CopyStylesFromTemplate(MyDir + u"Rendering.docx");
 ASSERT_EQ(21, target->get_Styles()->get_Count());
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

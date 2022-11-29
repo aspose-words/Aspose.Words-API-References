@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.vba/vbaproject/get_name/
 ---
-## VbaProject.get_Name method
+## VbaProject::get_Name method
 
 
 Gets or sets VBA project name.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Vba::VbaProject::get_Name() const
 
 
 ## Examples
-
 
 
 
@@ -72,3 +71,8 @@ doc->get_VbaProject()->get_Modules()->Add(module_);
 doc->Save(ArtifactsDir + u"VbaProject.CreateVBAMacros.docm");
 ```
 
+## See Also
+
+* Class [VbaProject](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

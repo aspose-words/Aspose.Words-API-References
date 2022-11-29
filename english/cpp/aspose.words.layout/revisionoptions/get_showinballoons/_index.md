@@ -6,10 +6,10 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.layout/revisionoptions/get_showinballoons/
 ---
-## RevisionOptions.get_ShowInBalloons method
+## RevisionOptions::get_ShowInBalloons method
 
 
-Allows to specify whether the revisions are rendered in the balloons. Default value is **None**.
+Allows to specify whether the revisions are rendered in the balloons. Default value is [None](../../showinballoons/).
 
 ```cpp
 Aspose::Words::Layout::ShowInBalloons Aspose::Words::Layout::RevisionOptions::get_ShowInBalloons() const
@@ -17,7 +17,6 @@ Aspose::Words::Layout::ShowInBalloons Aspose::Words::Layout::RevisionOptions::ge
 
 
 ## Examples
-
 
 
 
@@ -77,3 +76,9 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 doc->Save(ArtifactsDir + u"Revision.RevisionOptions.pdf");
 ```
 
+## See Also
+
+* Enum [ShowInBalloons](../../showinballoons/)
+* Class [RevisionOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

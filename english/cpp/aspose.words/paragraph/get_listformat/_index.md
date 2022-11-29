@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words/paragraph/get_listformat/
 ---
-## Paragraph.get_ListFormat method
+## Paragraph::get_ListFormat method
 
 
 Provides access to the list formatting properties of the paragraph.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Lists::ListFormat> Aspose::Words::Paragraph::ge
 
 
 ## Examples
-
 
 
 
@@ -50,3 +49,9 @@ for (auto para : System::IterateOver(
 }
 ```
 
+## See Also
+
+* Class [ListFormat](../../../aspose.words.lists/listformat/)
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

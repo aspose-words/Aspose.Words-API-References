@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/aspose.words.tables/table/get_styleidentifier/
 ---
-## Table.get_StyleIdentifier method
+## Table::get_StyleIdentifier method
 
 
 Gets or sets the locale independent style identifier of the table style applied to this table.
@@ -17,7 +17,6 @@ Aspose::Words::StyleIdentifier Aspose::Words::Tables::Table::get_StyleIdentifier
 
 
 ## Examples
-
 
 
 
@@ -65,3 +64,9 @@ builder->EndRow();
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertTableWithStyle.docx");
 ```
 
+## See Also
+
+* Enum [StyleIdentifier](../../../aspose.words/styleidentifier/)
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

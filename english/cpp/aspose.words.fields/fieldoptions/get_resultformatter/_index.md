@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.fields/fieldoptions/get_resultformatter/
 ---
-## FieldOptions.get_ResultFormatter method
+## FieldOptions::get_ResultFormatter method
 
 
 Allows to control how the field result is formatted.
@@ -17,7 +17,6 @@ const System::SharedPtr<Aspose::Words::Fields::IFieldResultFormatter> & Aspose::
 
 
 ## Examples
-
 
 
 
@@ -205,3 +204,9 @@ private:
 };
 ```
 
+## See Also
+
+* Interface [IFieldResultFormatter](../../ifieldresultformatter/)
+* Class [FieldOptions](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

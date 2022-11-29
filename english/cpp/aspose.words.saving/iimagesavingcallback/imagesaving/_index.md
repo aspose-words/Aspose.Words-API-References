@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/iimagesavingcallback/imagesaving/
 ---
-## IImageSavingCallback.ImageSaving method
+## IImageSavingCallback::ImageSaving method
 
 
 Called when Aspose.Words saves an image to HTML.
@@ -17,7 +17,6 @@ virtual void Aspose::Words::Saving::IImageSavingCallback::ImageSaving(System::Sh
 
 
 ## Examples
-
 
 
 
@@ -139,3 +138,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [ImageSavingArgs](../../imagesavingargs/)
+* Interface [IImageSavingCallback](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.lists/listlevel/get_trailingcharacter/
 ---
-## ListLevel.get_TrailingCharacter method
+## ListLevel::get_TrailingCharacter method
 
 
 Returns or sets the character inserted after the number for the list level.
@@ -17,7 +17,6 @@ Aspose::Words::Lists::ListTrailingCharacter Aspose::Words::Lists::ListLevel::get
 
 
 ## Examples
-
 
 
 
@@ -74,3 +73,9 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateCustomList.docx");
 ```
 
+## See Also
+
+* Enum [ListTrailingCharacter](../../listtrailingcharacter/)
+* Class [ListLevel](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

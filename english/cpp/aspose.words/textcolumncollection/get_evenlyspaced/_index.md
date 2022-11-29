@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/textcolumncollection/get_evenlyspaced/
 ---
-## TextColumnCollection.get_EvenlySpaced method
+## TextColumnCollection::get_EvenlySpaced method
 
 
 **True** if text columns are of equal width and evenly spaced.
@@ -17,7 +17,6 @@ bool Aspose::Words::TextColumnCollection::get_EvenlySpaced()
 
 
 ## Examples
-
 
 
 
@@ -52,3 +51,8 @@ builder->Writeln(u"Wide column 2.");
 doc->Save(ArtifactsDir + u"PageSetup.CustomColumnWidth.docx");
 ```
 
+## See Also
+
+* Class [TextColumnCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

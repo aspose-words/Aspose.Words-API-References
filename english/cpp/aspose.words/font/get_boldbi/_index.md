@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/font/get_boldbi/
 ---
-## Font.get_BoldBi method
+## Font::get_BoldBi method
 
 
 True if the right-to-left text is formatted as bold.
@@ -17,7 +17,6 @@ bool Aspose::Words::Font::get_BoldBi()
 
 
 ## Examples
-
 
 
 
@@ -54,3 +53,8 @@ builder->Write(u" Hello world!");
 doc->Save(ArtifactsDir + u"Font.Bidi.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

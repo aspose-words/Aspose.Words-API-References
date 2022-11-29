@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.saving/fontsavingargs/get_originalfilesize/
 ---
-## FontSavingArgs.get_OriginalFileSize method
+## FontSavingArgs::get_OriginalFileSize method
 
 
 Gets the original font file size.
@@ -15,11 +15,12 @@ Gets the original font file size.
 int32_t Aspose::Words::Saving::FontSavingArgs::get_OriginalFileSize() const
 ```
 
+## Remarks
+
 
 This property contains the original file size of the current font if it is known. Otherwise it can be zero.
 
 ## Examples
-
 
 
 
@@ -85,3 +86,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [FontSavingArgs](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

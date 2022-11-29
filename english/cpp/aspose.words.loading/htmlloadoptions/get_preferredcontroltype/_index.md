@@ -6,10 +6,10 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.loading/htmlloadoptions/get_preferredcontroltype/
 ---
-## HtmlLoadOptions.get_PreferredControlType method
+## HtmlLoadOptions::get_PreferredControlType method
 
 
-Gets or sets preferred type of document nodes that will represent imported <input> and <select> elements. Default value is **FormField**.
+Gets or sets preferred type of document nodes that will represent imported <input> and <select> elements. Default value is [FormField](../../htmlcontroltype/).
 
 ```cpp
 Aspose::Words::Loading::HtmlControlType Aspose::Words::Loading::HtmlLoadOptions::get_PreferredControlType() const
@@ -17,7 +17,6 @@ Aspose::Words::Loading::HtmlControlType Aspose::Words::Loading::HtmlLoadOptions:
 
 
 ## Examples
-
 
 
 
@@ -36,3 +35,9 @@ SharedPtr<NodeCollection> nodes = doc->GetChildNodes(NodeType::StructuredDocumen
 auto tag = System::DynamicCast<StructuredDocumentTag>(nodes->idx_get(0));
 ```
 
+## See Also
+
+* Enum [HtmlControlType](../../htmlcontroltype/)
+* Class [HtmlLoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

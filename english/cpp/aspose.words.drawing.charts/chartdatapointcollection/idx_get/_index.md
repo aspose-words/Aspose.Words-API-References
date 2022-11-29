@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.drawing.charts/chartdatapointcollection/idx_get/
 ---
-## ChartDataPointCollection.idx_get method
+## ChartDataPointCollection::idx_get method
 
 
 Returns [ChartDataPoint](../../chartdatapoint/) for the specified index.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartDataPoint> Aspose::Words:
 
 
 ## Examples
-
 
 
 
@@ -77,3 +76,9 @@ static void ApplyDataPoints(SharedPtr<ChartSeries> series, int dataPointsCount, 
 }
 ```
 
+## See Also
+
+* Class [ChartDataPoint](../../chartdatapoint/)
+* Class [ChartDataPointCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

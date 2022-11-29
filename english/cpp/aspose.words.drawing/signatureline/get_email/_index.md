@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.drawing/signatureline/get_email/
 ---
-## SignatureLine.get_Email method
+## SignatureLine::get_Email method
 
 
 Gets or sets suggested signer's e-mail address. Default value for this property is **empty string**.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Drawing::SignatureLine::get_Email()
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,8 @@ ASSERT_TRUE(signatureLine->get_DefaultInstructions());
 doc->Save(ArtifactsDir + u"Shape.SignatureLine.docx");
 ```
 
+## See Also
+
+* Class [SignatureLine](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

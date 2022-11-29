@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.fields/fieldindex/set_bookmarkname/
 ---
-## FieldIndex.set_BookmarkName method
+## FieldIndex::set_BookmarkName method
 
 
 Setter for [Aspose::Words::Fields::FieldIndex::get_BookmarkName](../get_bookmarkname/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldIndex::get_BookmarkName](../get_bookmark
 void Aspose::Words::Fields::FieldIndex::set_BookmarkName(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldIndex](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

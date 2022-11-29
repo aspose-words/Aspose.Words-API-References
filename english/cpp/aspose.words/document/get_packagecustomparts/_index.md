@@ -6,7 +6,7 @@ type: docs
 weight: 495
 url: /cpp/aspose.words/document/get_packagecustomparts/
 ---
-## Document.get_PackageCustomParts method
+## Document::get_PackageCustomParts method
 
 
 Gets or sets the collection of custom parts (arbitrary content) that are linked to the OOXML package using "unknown relationships".
@@ -14,6 +14,8 @@ Gets or sets the collection of custom parts (arbitrary content) that are linked 
 ```cpp
 System::SharedPtr<Aspose::Words::Markup::CustomPartCollection> Aspose::Words::Document::get_PackageCustomParts() const
 ```
+
+## Remarks
 
 
 Do not confuse these custom parts with Custom XML Data. If you need to access Custom XML parts, use the [CustomXmlParts](../get_customxmlparts/) property.
@@ -25,7 +27,6 @@ Aspose.Words loads and saves custom parts into OOXML documents only.
 This property cannot be **null**.
 
 ## Examples
-
 
 
 
@@ -69,3 +70,9 @@ doc->get_PackageCustomParts()->Clear();
 ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
 ```
 
+## See Also
+
+* Class [CustomPartCollection](../../../aspose.words.markup/custompartcollection/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

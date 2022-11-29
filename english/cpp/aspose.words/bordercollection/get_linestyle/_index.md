@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words/bordercollection/get_linestyle/
 ---
-## BorderCollection.get_LineStyle method
+## BorderCollection::get_LineStyle method
 
 
 Gets or sets the border style.
@@ -15,13 +15,14 @@ Gets or sets the border style.
 Aspose::Words::LineStyle Aspose::Words::BorderCollection::get_LineStyle()
 ```
 
+## Remarks
+
 
 Returns the style of the first border in the collection.
 
 Sets the style of all borders in the collection excluding diagonal borders.
 
 ## Examples
-
 
 
 
@@ -39,3 +40,9 @@ pageSetup->get_Borders()->set_Shadow(true);
 doc->Save(ArtifactsDir + u"PageSetup.PageBorders.docx");
 ```
 
+## See Also
+
+* Enum [LineStyle](../../linestyle/)
+* Class [BorderCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 638
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_interpolateimages/
 ---
-## PdfSaveOptions.set_InterpolateImages method
+## PdfSaveOptions::set_InterpolateImages method
 
 
 Setter for [Aspose::Words::Saving::PdfSaveOptions::get_InterpolateImages](../get_interpolateimages/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::PdfSaveOptions::get_InterpolateImages](../get
 void Aspose::Words::Saving::PdfSaveOptions::set_InterpolateImages(bool value)
 ```
 
+## See Also
+
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

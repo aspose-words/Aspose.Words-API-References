@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.loading/resourceloadingargs/get_originaluri/
 ---
-## ResourceLoadingArgs.get_OriginalUri method
+## ResourceLoadingArgs::get_OriginalUri method
 
 
 Original URI of the resource as specified in imported document.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Loading::ResourceLoadingArgs::get_OriginalUri() co
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,8 @@ public:
 };
 ```
 
+## See Also
+
+* Class [ResourceLoadingArgs](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

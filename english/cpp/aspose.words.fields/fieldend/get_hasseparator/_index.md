@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldend/get_hasseparator/
 ---
-## FieldEnd.get_HasSeparator method
+## FieldEnd::get_HasSeparator method
 
 
 Returns **true** if this field has a separator.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldEnd::get_HasSeparator() const
 
 
 ## Examples
-
 
 
 
@@ -108,3 +107,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [FieldEnd](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/documentbuilder/endbookmark/
 ---
-## DocumentBuilder.EndBookmark method
+## DocumentBuilder::EndBookmark method
 
 
 Marks the current position in the document as a bookmark end.
@@ -22,15 +22,15 @@ System::SharedPtr<Aspose::Words::BookmarkEnd> Aspose::Words::DocumentBuilder::En
 
 ### ReturnValue
 
-
 The bookmark end node that was just created.
+## Remarks
 
-Bookmarks in a document can overlap and span any range. To create a valid bookmark you need to call both **StartBookmark()** and **EndBookmark()** with the same **bookmarkName** parameter.
+
+Bookmarks in a document can overlap and span any range. To create a valid bookmark you need to call both [StartBookmark()](../) and [EndBookmark()](../) with the same **bookmarkName** parameter.
 
 Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 
 ## Examples
-
 
 
 
@@ -70,3 +70,9 @@ builder->InsertHyperlink(u"Link to Bookmark1", u"Bookmark1\" \\o \"Hyperlink Tip
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 ```
 
+## See Also
+
+* Class [BookmarkEnd](../../bookmarkend/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

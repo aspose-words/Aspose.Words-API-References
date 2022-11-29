@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.vba/vbareferencecollection/get_count/
 ---
-## VbaReferenceCollection.get_Count method
+## VbaReferenceCollection::get_Count method
 
 
 Returns the number of VBA references in the collection.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Vba::VbaReferenceCollection::get_Count()
 
 
 ## Examples
-
 
 
 
@@ -86,3 +85,8 @@ static String GetLibIdProjectPath(String libIdProject)
 }
 ```
 
+## See Also
+
+* Class [VbaReferenceCollection](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.words.saving/saveoptions/set_imlrenderingmode/
 ---
-## SaveOptions.set_ImlRenderingMode method
+## SaveOptions::set_ImlRenderingMode method
 
 
 Setter for [Aspose::Words::Saving::SaveOptions::get_ImlRenderingMode](../get_imlrenderingmode/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Saving::SaveOptions::get_ImlRenderingMode](../get_iml
 void Aspose::Words::Saving::SaveOptions::set_ImlRenderingMode(Aspose::Words::Saving::ImlRenderingMode value)
 ```
 
+## See Also
+
+* Enum [ImlRenderingMode](../../imlrenderingmode/)
+* Class [SaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

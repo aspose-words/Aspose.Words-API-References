@@ -12,7 +12,8 @@ url: /cpp/aspose.words/nodecollection/
 Represents a collection of nodes of a specific type.
 
 ```cpp
-class NodeCollection : public Aspose::Words::INodeCollection, public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Node>>
+class NodeCollection : public Aspose::Words::INodeCollection,
+                       public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Node>>
 ```
 
 ## Methods
@@ -30,6 +31,8 @@ class NodeCollection : public Aspose::Words::INodeCollection, public System::Col
 | [Remove](./remove/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Removes the node from the collection and from the document. |
 | [RemoveAt](./removeat/)(int32_t) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](./toarray/)() | Copies all nodes from the collection to a new array of nodes. |
+## Remarks
+
 
 **NodeCollection** does not own the nodes it contains, rather, is just a selection of nodes of the specified type, but the nodes are stored in the tree under their respective parent nodes.
 
@@ -42,7 +45,6 @@ The **NodeCollection** collection is "live", i.e. changes to the children of the
 **NodeCollection** can be "flat" and contain only immediate children of the node it was created from, or it can be "deep" and contain all descendant children.
 
 ## Examples
-
 
 
 
@@ -93,3 +95,7 @@ ASSERT_EQ(4, shapes->LINQ_Count(isImage));
 doc->Save(ArtifactsDir + u"Shape.ReplaceTextboxesWithImages.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

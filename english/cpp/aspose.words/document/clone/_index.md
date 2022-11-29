@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/document/clone/
 ---
-## Document.Clone method
+## Document::Clone method
 
 
 Performs a deep copy of the [Document](../).
@@ -18,11 +18,9 @@ System::SharedPtr<Aspose::Words::Document> Aspose::Words::Document::Clone()
 
 ### ReturnValue
 
-
 The cloned document.
 
 ## Examples
-
 
 
 
@@ -43,3 +41,9 @@ ASSERT_NE(System::ObjectExt::GetHashCode(doc->get_FirstSection()->get_Body()->ge
           System::ObjectExt::GetHashCode(clone->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)));
 ```
 
+## See Also
+
+* Class [Document](../)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

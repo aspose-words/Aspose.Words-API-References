@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_outlineoptions/
 ---
-## PdfSaveOptions.get_OutlineOptions method
+## PdfSaveOptions::get_OutlineOptions method
 
 
 Allows to specify outline options.
@@ -14,6 +14,8 @@ Allows to specify outline options.
 ```cpp
 System::SharedPtr<Aspose::Words::Saving::OutlineOptions> Aspose::Words::Saving::PdfSaveOptions::get_OutlineOptions() const
 ```
+
+## Remarks
 
 
 Outlines can be created from headings and bookmarks.
@@ -27,7 +29,6 @@ For bookmarks outline level may be set in options as a default value for all boo
 Also, outlines can be exported to XPS format by using the same [OutlineOptions](./) class.
 
 ## Examples
-
 
 
 
@@ -105,3 +106,9 @@ saveOptions->get_OutlineOptions()->set_CreateMissingOutlineLevels(createMissingO
 doc->Save(ArtifactsDir + u"PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOptions);
 ```
 
+## See Also
+
+* Class [OutlineOptions](../../outlineoptions/)
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

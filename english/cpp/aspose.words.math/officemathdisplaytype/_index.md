@@ -11,6 +11,10 @@ url: /cpp/aspose.words.math/officemathdisplaytype/
 
 Specifies the display format type of the equation.
 
+```cpp
+enum class OfficeMathDisplayType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,7 +24,6 @@ Specifies the display format type of the equation.
 
 
 ## Examples
-
 
 
 
@@ -46,3 +49,7 @@ officeMath->set_Justification(OfficeMathJustification::Left);
 doc->Save(ArtifactsDir + u"Shape.OfficeMath.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Math](../)
+* Library [Aspose.Words](../../)

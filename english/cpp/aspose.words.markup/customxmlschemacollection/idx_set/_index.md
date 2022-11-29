@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.markup/customxmlschemacollection/idx_set/
 ---
-## CustomXmlSchemaCollection.idx_set method
+## CustomXmlSchemaCollection::idx_set method
 
 
 Gets or sets the element at the specified index.
@@ -17,7 +17,6 @@ void Aspose::Words::Markup::CustomXmlSchemaCollection::idx_set(int32_t index, co
 
 
 ## Examples
-
 
 
 
@@ -63,3 +62,8 @@ schemas->Clear();
 ASSERT_EQ(0, schemas->get_Count());
 ```
 
+## See Also
+
+* Class [CustomXmlSchemaCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

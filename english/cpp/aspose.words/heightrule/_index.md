@@ -11,6 +11,10 @@ url: /cpp/aspose.words/heightrule/
 
 Specifies the rule for determining the height of an object.
 
+```cpp
+enum class HeightRule
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ Specifies the rule for determining the height of an object.
 
 
 ## Examples
-
 
 
 
@@ -56,3 +59,7 @@ ASSERT_EQ(HeightRule::Exactly, table->get_Rows()->idx_get(1)->get_RowFormat()->g
 doc->Save(ArtifactsDir + u"DocumentBuilder.SetRowFormatting.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

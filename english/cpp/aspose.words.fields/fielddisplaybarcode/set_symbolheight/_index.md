@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.words.fields/fielddisplaybarcode/set_symbolheight/
 ---
-## FieldDisplayBarcode.set_SymbolHeight method
+## FieldDisplayBarcode::set_SymbolHeight method
 
 
 Setter for [Aspose::Words::Fields::FieldDisplayBarcode::get_SymbolHeight](../get_symbolheight/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldDisplayBarcode::get_SymbolHeight](../get
 void Aspose::Words::Fields::FieldDisplayBarcode::set_SymbolHeight(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldDisplayBarcode](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

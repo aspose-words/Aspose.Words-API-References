@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.fonts/tablesubstitutionrule/save/
 ---
-## TableSubstitutionRule.Save(const System::SharedPtr\<System::IO::Stream\>\&) method
+## TableSubstitutionRule::Save(const System::SharedPtr\<System::IO::Stream\>\&) method
 
 
 Saves the current table substitution settings to stream.
@@ -24,7 +24,6 @@ void Aspose::Words::Fonts::TableSubstitutionRule::Save(const System::SharedPtr<S
 
 
 
-
 Shows how to access font substitution tables for Windows and Linux. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -56,7 +55,12 @@ ASPOSE_ASSERT_EQ(MakeArray<String>({u"FreeSerif", u"Liberation Serif", u"DejaVu 
 }
 ```
 
-## TableSubstitutionRule.Save(const System::String\&) method
+## See Also
+
+* Class [TableSubstitutionRule](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)
+## TableSubstitutionRule::Save(const System::String\&) method
 
 
 Saves the current table substitution settings to file.
@@ -74,7 +78,6 @@ void Aspose::Words::Fonts::TableSubstitutionRule::Save(const System::String &fil
 
 
 
-
 Shows how to access font substitution tables for Windows and Linux. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -106,3 +109,8 @@ ASPOSE_ASSERT_EQ(MakeArray<String>({u"FreeSerif", u"Liberation Serif", u"DejaVu 
 }
 ```
 
+## See Also
+
+* Class [TableSubstitutionRule](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

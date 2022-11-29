@@ -6,7 +6,7 @@ type: docs
 weight: 1652
 url: /cpp/aspose.words.settings/compatibilityoptions/set_truncatefontheightslikewp6/
 ---
-## CompatibilityOptions.set_TruncateFontHeightsLikeWP6 method
+## CompatibilityOptions::set_TruncateFontHeightsLikeWP6 method
 
 
 Emulate WordPerfect 6.x [Font](../../../aspose.words/font/) Height Calculation.
@@ -15,3 +15,8 @@ Emulate WordPerfect 6.x [Font](../../../aspose.words/font/) Height Calculation.
 void Aspose::Words::Settings::CompatibilityOptions::set_TruncateFontHeightsLikeWP6(bool value)
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

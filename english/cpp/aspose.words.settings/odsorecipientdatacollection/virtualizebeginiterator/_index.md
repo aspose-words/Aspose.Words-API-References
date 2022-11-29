@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.settings/odsorecipientdatacollection/virtualizebeginiterator/
 ---
-## OdsoRecipientDataCollection.virtualizeBeginIterator method
+## OdsoRecipientDataCollection::virtualizeBeginIterator method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.settings/odsorecipientdatacollection/virtualizebeginitera
 virtualized_iterator * Aspose::Words::Settings::OdsoRecipientDataCollection::virtualizeBeginIterator() override
 ```
 
+## See Also
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [OdsoRecipientDataCollection](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

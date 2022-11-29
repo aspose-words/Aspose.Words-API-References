@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_imagecompression/
 ---
-## PdfSaveOptions.get_ImageCompression method
+## PdfSaveOptions::get_ImageCompression method
 
 
 Specifies compression type to be used for all images in the document.
@@ -15,17 +15,18 @@ Specifies compression type to be used for all images in the document.
 Aspose::Words::Saving::PdfImageCompression Aspose::Words::Saving::PdfSaveOptions::get_ImageCompression() const
 ```
 
+## Remarks
 
-Default is **Auto**.
 
-Using **Jpeg** lets you control the quality of images in the output document through the [JpegQuality](../get_jpegquality/) property.
+Default is [Auto](../../pdfimagecompression/).
 
-Using **Jpeg** provides the fastest conversion speed when compared to the performance of other compression types, but in this case, there is lossy JPEG compression.
+Using [Jpeg](../../pdfimagecompression/) lets you control the quality of images in the output document through the [JpegQuality](../get_jpegquality/) property.
 
-Using **Auto** lets to control the quality of Jpeg in the output document through the [JpegQuality](../get_jpegquality/) property, but for other formats, raw pixel data is extracted and saved with Flate compression. This case is slower than Jpeg conversion but lossless.
+Using [Jpeg](../../pdfimagecompression/) provides the fastest conversion speed when compared to the performance of other compression types, but in this case, there is lossy JPEG compression.
+
+Using [Auto](../../pdfimagecompression/) lets to control the quality of Jpeg in the output document through the [JpegQuality](../get_jpegquality/) property, but for other formats, raw pixel data is extracted and saved with Flate compression. This case is slower than Jpeg conversion but lossless.
 
 ## Examples
-
 
 
 
@@ -56,3 +57,9 @@ pdfSaveOptions->set_JpegQuality(10);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);
 ```
 
+## See Also
+
+* Enum [PdfImageCompression](../../pdfimagecompression/)
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

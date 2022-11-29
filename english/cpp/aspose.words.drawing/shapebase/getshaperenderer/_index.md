@@ -6,7 +6,7 @@ type: docs
 weight: 729
 url: /cpp/aspose.words.drawing/shapebase/getshaperenderer/
 ---
-## ShapeBase.GetShapeRenderer method
+## ShapeBase::GetShapeRenderer method
 
 
 Creates and returns an object that can be used to render this shape into an image.
@@ -18,13 +18,13 @@ System::SharedPtr<Aspose::Words::Rendering::ShapeRenderer> Aspose::Words::Drawin
 
 ### ReturnValue
 
-
 The renderer object for this shape.
+## Remarks
+
 
 This method just invokes the [ShapeRenderer](../../../aspose.words.rendering/shaperenderer/) constructor and passes this object as a parameter.
 
 ## Examples
-
 
 
 
@@ -47,3 +47,9 @@ for (const auto& shape : System::IterateOver(doc->GetChildNodes(NodeType::Shape,
 }
 ```
 
+## See Also
+
+* Class [ShapeRenderer](../../../aspose.words.rendering/shaperenderer/)
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

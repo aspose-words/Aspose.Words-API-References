@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/section/section/
 ---
-## Section.Section method
+## Section::Section constructor
 
 
 Initializes a new instance of the [Section](../) class.
@@ -19,13 +19,14 @@ Aspose::Words::Section::Section(const System::SharedPtr<Aspose::Words::DocumentB
 | Parameter | Type | Description |
 | --- | --- | --- |
 | doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
+## Remarks
+
 
 When the section is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
 To include [Section](../) into a document use [Document.InsertAfter](../../compositenode/insertafter/), [Document.InsertBefore](../../compositenode/insertbefore/) or Sections.Add and Section.Insert methods.
 
 ## Examples
-
 
 
 
@@ -73,3 +74,9 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 ```
 
+## See Also
+
+* Class [DocumentBase](../../documentbase/)
+* Class [Section](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

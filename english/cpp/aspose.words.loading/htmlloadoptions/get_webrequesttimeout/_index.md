@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.loading/htmlloadoptions/get_webrequesttimeout/
 ---
-## HtmlLoadOptions.get_WebRequestTimeout method
+## HtmlLoadOptions::get_WebRequestTimeout method
 
 
 The number of milliseconds to wait before the web request times out. The default value is 100000 milliseconds (100 seconds).
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Loading::HtmlLoadOptions::get_WebRequestTimeout() const
 
 
 ## Examples
-
 
 
 
@@ -89,3 +88,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [HtmlLoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

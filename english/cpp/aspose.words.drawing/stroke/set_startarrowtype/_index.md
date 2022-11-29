@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/aspose.words.drawing/stroke/set_startarrowtype/
 ---
-## Stroke.set_StartArrowType method
+## Stroke::set_StartArrowType method
 
 
 Setter for [Aspose::Words::Drawing::Stroke::get_StartArrowType](../get_startarrowtype/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Drawing::Stroke::get_StartArrowType](../get_startarro
 void Aspose::Words::Drawing::Stroke::set_StartArrowType(Aspose::Words::Drawing::ArrowType value)
 ```
 
+## See Also
+
+* Enum [ArrowType](../../arrowtype/)
+* Class [Stroke](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

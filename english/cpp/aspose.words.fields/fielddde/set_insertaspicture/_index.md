@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.fields/fielddde/set_insertaspicture/
 ---
-## FieldDde.set_InsertAsPicture method
+## FieldDde::set_InsertAsPicture method
 
 
 Setter for [Aspose::Words::Fields::FieldDde::get_InsertAsPicture](../get_insertaspicture/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldDde::get_InsertAsPicture](../get_inserta
 void Aspose::Words::Fields::FieldDde::set_InsertAsPicture(bool value)
 ```
 
+## See Also
+
+* Class [FieldDde](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

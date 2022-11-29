@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.drawing.charts/chartseries/set_invertifnegative/
 ---
-## ChartSeries.set_InvertIfNegative method
+## ChartSeries::set_InvertIfNegative method
 
 
 Setter for [Aspose::Words::Drawing::Charts::IChartDataPoint::get_InvertIfNegative](../../ichartdatapoint/get_invertifnegative/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::Charts::IChartDataPoint::get_InvertIfNegativ
 void Aspose::Words::Drawing::Charts::ChartSeries::set_InvertIfNegative(bool value) override
 ```
 
+## See Also
+
+* Class [ChartSeries](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

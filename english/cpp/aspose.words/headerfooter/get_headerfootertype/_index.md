@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/headerfooter/get_headerfootertype/
 ---
-## HeaderFooter.get_HeaderFooterType method
+## HeaderFooter::get_HeaderFooterType method
 
 
 Gets the type of this header/footer.
@@ -17,7 +17,6 @@ Aspose::Words::HeaderFooterType Aspose::Words::HeaderFooter::get_HeaderFooterTyp
 
 
 ## Examples
-
 
 
 
@@ -52,3 +51,9 @@ ASPOSE_ASSERT_EQ(footer->get_ParentSection(), header->get_ParentSection());
 doc->Save(ArtifactsDir + u"HeaderFooter.Create.docx");
 ```
 
+## See Also
+
+* Enum [HeaderFooterType](../../headerfootertype/)
+* Class [HeaderFooter](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.loading/htmlloadoptions/get_convertsvgtoemf/
 ---
-## HtmlLoadOptions.get_ConvertSvgToEmf method
+## HtmlLoadOptions::get_ConvertSvgToEmf method
 
 
 Gets or sets a value indicating whether to convert loaded SVG images to the EMF format. Default value is **false** and, if possible, loaded SVG images are stored as is without conversion.
@@ -15,13 +15,14 @@ Gets or sets a value indicating whether to convert loaded SVG images to the EMF 
 bool Aspose::Words::Loading::HtmlLoadOptions::get_ConvertSvgToEmf() const
 ```
 
+## Remarks
+
 
 Newer versions of MS Word support SVG images natively. If the MS Word version specified in load options supports SVG, Aspose.Words will store SVG images as is without conversion. If SVG is not supported, loaded SVG images will be converted to the EMF format.
 
 If, however, this option is set to **true**, Aspose.Words will convert loaded SVG images to EMF even if SVG images are supported by the specified version of MS Word.
 
 ## Examples
-
 
 
 
@@ -77,3 +78,8 @@ case HtmlMetafileFormat::EmfOrWmf:
 }
 ```
 
+## See Also
+
+* Class [HtmlLoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

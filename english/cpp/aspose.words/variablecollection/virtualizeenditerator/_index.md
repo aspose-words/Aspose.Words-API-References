@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words/variablecollection/virtualizeenditerator/
 ---
-## VariableCollection.virtualizeEndIterator method
+## VariableCollection::virtualizeEndIterator method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words/variablecollection/virtualizeenditerator/
 virtualized_iterator * Aspose::Words::VariableCollection::virtualizeEndIterator() override
 ```
 
+## See Also
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [VariableCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -15,48 +15,48 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | --- | --- |
 | [BookmarksOutlineLevelCollection](./bookmarksoutlinelevelcollection/) | A collection of individual bookmarks outline level. |
 | [CssSavingArgs](./csssavingargs/) | Provides data for the [CssSaving()](./icsssavingcallback/csssaving/) event. |
-| [DocSaveOptions](./docsaveoptions/) | Can be used to specify additional options when saving a document into the **Doc** or **Dot** format. |
+| [DocSaveOptions](./docsaveoptions/) | Can be used to specify additional options when saving a document into the [Doc](../aspose.words/saveformat/) or [Dot](../aspose.words/saveformat/) format. |
 | [DocumentPartSavingArgs](./documentpartsavingargs/) | Provides data for the [DocumentPartSaving()](./idocumentpartsavingcallback/documentpartsaving/) callback. |
 | [DocumentSavingArgs](./documentsavingargs/) | An argument passed into [Notify()](./idocumentsavingcallback/notify/). |
 | [DownsampleOptions](./downsampleoptions/) | Allows to specify downsample options. |
 | [FixedPageSaveOptions](./fixedpagesaveoptions/) | Contains common options that can be specified when saving a document into fixed page formats (PDF, XPS, images etc). |
 | [FontSavingArgs](./fontsavingargs/) | Provides data for the [FontSaving()](./ifontsavingcallback/fontsaving/) event. |
-| [HtmlFixedSaveOptions](./htmlfixedsaveoptions/) | Can be used to specify additional options when saving a document into the **HtmlFixed** format. |
-| [HtmlSaveOptions](./htmlsaveoptions/) | Can be used to specify additional options when saving a document into the **Html**, **Mhtml**, **Epub** or **Azw3** format. |
+| [HtmlFixedSaveOptions](./htmlfixedsaveoptions/) | Can be used to specify additional options when saving a document into the [HtmlFixed](../aspose.words/saveformat/) format. |
+| [HtmlSaveOptions](./htmlsaveoptions/) | Can be used to specify additional options when saving a document into the [Html](../aspose.words/saveformat/), [Mhtml](../aspose.words/saveformat/), [Epub](../aspose.words/saveformat/) or [Azw3](../aspose.words/saveformat/) format. |
 | [ImageSaveOptions](./imagesaveoptions/) | Allows to specify additional options when rendering document pages or shapes to images. |
 | [ImageSavingArgs](./imagesavingargs/) | Provides data for the [ImageSaving()](./iimagesavingcallback/imagesaving/) event. |
-| [MarkdownSaveOptions](./markdownsaveoptions/) | Class to specify additional options when saving a document into the **Markdown** format. |
+| [MarkdownSaveOptions](./markdownsaveoptions/) | Class to specify additional options when saving a document into the [Markdown](../aspose.words/saveformat/) format. |
 | [MetafileRenderingOptions](./metafilerenderingoptions/) | Allows to specify additional metafile rendering options. |
-| [OdtSaveOptions](./odtsaveoptions/) | Can be used to specify additional options when saving a document into the **Odt** or **Ott** format. |
-| [OoxmlSaveOptions](./ooxmlsaveoptions/) | Can be used to specify additional options when saving a document into the **Docx**, **Docm**, **Dotx**, **Dotm** or **FlatOpc** format. |
+| [OdtSaveOptions](./odtsaveoptions/) | Can be used to specify additional options when saving a document into the [Odt](../aspose.words/saveformat/) or [Ott](../aspose.words/saveformat/) format. |
+| [OoxmlSaveOptions](./ooxmlsaveoptions/) | Can be used to specify additional options when saving a document into the [Docx](../aspose.words/saveformat/), [Docm](../aspose.words/saveformat/), [Dotx](../aspose.words/saveformat/), [Dotm](../aspose.words/saveformat/) or [FlatOpc](../aspose.words/saveformat/) format. |
 | [OutlineOptions](./outlineoptions/) | Allows to specify outline options. |
 | [PageRange](./pagerange/) | Represents a continuous range of pages. |
 | [PageSavingArgs](./pagesavingargs/) | Provides data for the [PageSaving()](./ipagesavingcallback/pagesaving/) event. |
 | [PageSet](./pageset/) | Describes a random set of pages. |
-| [PclSaveOptions](./pclsaveoptions/) | Can be used to specify additional options when saving a document into the **Pcl** format. |
+| [PclSaveOptions](./pclsaveoptions/) | Can be used to specify additional options when saving a document into the [Pcl](../aspose.words/saveformat/) format. |
 | [PdfDigitalSignatureDetails](./pdfdigitalsignaturedetails/) | Contains details for signing a PDF document with a digital signature. |
 | [PdfDigitalSignatureTimestampSettings](./pdfdigitalsignaturetimestampsettings/) | Contains settings of the digital signature timestamp. |
 | [PdfEncryptionDetails](./pdfencryptiondetails/) | Contains details for encrypting and access permissions for a PDF document. |
-| [PdfSaveOptions](./pdfsaveoptions/) | Can be used to specify additional options when saving a document into the **Pdf** format. |
-| [PsSaveOptions](./pssaveoptions/) | Can be used to specify additional options when saving a document into the **Ps** format. |
+| [PdfSaveOptions](./pdfsaveoptions/) | Can be used to specify additional options when saving a document into the [Pdf](../aspose.words/saveformat/) format. |
+| [PsSaveOptions](./pssaveoptions/) | Can be used to specify additional options when saving a document into the [Ps](../aspose.words/saveformat/) format. |
 | [ResourceSavingArgs](./resourcesavingargs/) | Provides data for the [ResourceSaving()](./iresourcesavingcallback/resourcesaving/) event. |
-| [RtfSaveOptions](./rtfsaveoptions/) | Can be used to specify additional options when saving a document into the **Rtf** format. |
-| [SaveOptions](./saveoptions/) | This is an abstract base class for classes that allow the user to specify additional options when saving a document into a particular format. To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/net/specify-save-options/) documentation article. |
+| [RtfSaveOptions](./rtfsaveoptions/) | Can be used to specify additional options when saving a document into the [Rtf](../aspose.words/saveformat/) format. |
+| [SaveOptions](./saveoptions/) | This is an abstract base class for classes that allow the user to specify additional options when saving a document into a particular format. To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/cpp/specify-save-options/) documentation article. |
 | [SaveOutputParameters](./saveoutputparameters/) | This object is returned to the caller after a document is saved and contains additional information that has been generated or calculated during the save operation. The caller can use or ignore this object. |
-| [SvgSaveOptions](./svgsaveoptions/) | Can be used to specify additional options when saving a document into the **Svg** format. |
-| [TxtListIndentation](./txtlistindentation/) | Specifies how list levels are indented when document is exporting to **Text** format. |
-| [TxtSaveOptions](./txtsaveoptions/) | Can be used to specify additional options when saving a document into the **Text** format. |
+| [SvgSaveOptions](./svgsaveoptions/) | Can be used to specify additional options when saving a document into the [Svg](../aspose.words/saveformat/) format. |
+| [TxtListIndentation](./txtlistindentation/) | Specifies how list levels are indented when document is exporting to [Text](../aspose.words/saveformat/) format. |
+| [TxtSaveOptions](./txtsaveoptions/) | Can be used to specify additional options when saving a document into the [Text](../aspose.words/saveformat/) format. |
 | [TxtSaveOptionsBase](./txtsaveoptionsbase/) | The base class for specifying additional options when saving a document into a text based formats. |
-| [WordML2003SaveOptions](./wordml2003saveoptions/) | Can be used to specify additional options when saving a document into the **WordML** format. |
-| [XamlFixedSaveOptions](./xamlfixedsaveoptions/) | Can be used to specify additional options when saving a document into the **XamlFixed** format. |
-| [XamlFlowSaveOptions](./xamlflowsaveoptions/) | Can be used to specify additional options when saving a document into the **XamlFlow** or **XamlFlowPack** format. |
-| [XpsSaveOptions](./xpssaveoptions/) | Can be used to specify additional options when saving a document into the **Xps** format. |
+| [WordML2003SaveOptions](./wordml2003saveoptions/) | Can be used to specify additional options when saving a document into the [WordML](../aspose.words/saveformat/) format. |
+| [XamlFixedSaveOptions](./xamlfixedsaveoptions/) | Can be used to specify additional options when saving a document into the [XamlFixed](../aspose.words/saveformat/) format. |
+| [XamlFlowSaveOptions](./xamlflowsaveoptions/) | Can be used to specify additional options when saving a document into the [XamlFlow](../aspose.words/saveformat/) or [XamlFlowPack](../aspose.words/saveformat/) format. |
+| [XpsSaveOptions](./xpssaveoptions/) | Can be used to specify additional options when saving a document into the [Xps](../aspose.words/saveformat/) format. |
 ## Interfaces
 
 | Interface | Description |
 | --- | --- |
 | [ICssSavingCallback](./icsssavingcallback/) | Implement this interface if you want to control how Aspose.Words saves CSS (Cascading [Style](../aspose.words/style/) Sheet) when saving a document to HTML. |
-| [IDocumentPartSavingCallback](./idocumentpartsavingcallback/) | Implement this interface if you want to receive notifications and control how Aspose.Words saves document parts when exporting a document to **Html** or **Epub** format. |
+| [IDocumentPartSavingCallback](./idocumentpartsavingcallback/) | Implement this interface if you want to receive notifications and control how Aspose.Words saves document parts when exporting a document to [Html](../aspose.words/saveformat/) or [Epub](../aspose.words/saveformat/) format. |
 | [IDocumentSavingCallback](./idocumentsavingcallback/) | Implement this interface if you want to have your own custom method called during saving a document. |
 | [IFontSavingCallback](./ifontsavingcallback/) | Implement this interface if you want to receive notifications and control how Aspose.Words saves fonts when exporting a document to HTML format. |
 | [IImageSavingCallback](./iimagesavingcallback/) | Implement this interface if you want to control how Aspose.Words saves images when saving a document to HTML. May be used by other formats. |
@@ -72,7 +72,7 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [Dml3DEffectsRenderingMode](./dml3deffectsrenderingmode/) | Specifies how 3D shape effects are rendered. |
 | [DmlEffectsRenderingMode](./dmleffectsrenderingmode/) | Specifies how DrawingML effects are rendered to fixed page formats. |
 | [DmlRenderingMode](./dmlrenderingmode/) | Specifies how DrawingML shapes are rendered to fixed page formats. |
-| [DocumentSplitCriteria](./documentsplitcriteria/) | Specifies how the document is split into parts when saving to **Html**, **Epub** or **Azw3** format. |
+| [DocumentSplitCriteria](./documentsplitcriteria/) | Specifies how the document is split into parts when saving to [Html](../aspose.words/saveformat/), [Epub](../aspose.words/saveformat/) or [Azw3](../aspose.words/saveformat/) format. |
 | [EmfPlusDualRenderingMode](./emfplusdualrenderingmode/) | Specifies how Aspose.Words should render EMF+ Dual metafiles. |
 | [ExportFontFormat](./exportfontformat/) | Indicates the format that is used to export fonts while rendering to HTML fixed format. |
 | [ExportHeadersFootersMode](./exportheadersfootersmode/) | Specifies how headers and footers are exported to HTML, MHTML or EPUB. |
@@ -82,7 +82,7 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [HtmlFixedPageHorizontalAlignment](./htmlfixedpagehorizontalalignment/) | Specifies the horizontal alignment for pages in output HTML document. |
 | [HtmlMetafileFormat](./htmlmetafileformat/) | Indicates the format in which metafiles are saved to HTML documents. |
 | [HtmlOfficeMathOutputMode](./htmlofficemathoutputmode/) | Specifies how Aspose.Words exports OfficeMath to HTML, MHTML and EPUB. |
-| [HtmlVersion](./htmlversion/) | Indicates the version of HTML is used when saving the document to **Html** and **Mhtml** formats. |
+| [HtmlVersion](./htmlversion/) | Indicates the version of HTML is used when saving the document to [Html](../aspose.words/saveformat/) and [Mhtml](../aspose.words/saveformat/) formats. |
 | [ImageBinarizationMethod](./imagebinarizationmethod/) | Specifies the method used to binarize image. |
 | [ImageColorMode](./imagecolormode/) | Specifies the color mode for the generated images of document pages. |
 | [ImagePixelFormat](./imagepixelformat/) | Specifies the pixel format for the generated images of document pages. |

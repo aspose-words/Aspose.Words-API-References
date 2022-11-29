@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.words.replacing/findreplaceoptions/set_ignoreinserted/
 ---
-## FindReplaceOptions.set_IgnoreInserted method
+## FindReplaceOptions::set_IgnoreInserted method
 
 
 Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreInserted](../get_ignoreinserted/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreInserted](..
 void Aspose::Words::Replacing::FindReplaceOptions::set_IgnoreInserted(bool value)
 ```
 
+## See Also
+
+* Class [FindReplaceOptions](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)

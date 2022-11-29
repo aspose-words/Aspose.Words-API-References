@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.vba/vbamodulecollection/begin/
 ---
-## VbaModuleCollection.begin() const method
+## VbaModuleCollection::begin() const method
 
 
 
@@ -15,7 +15,13 @@ url: /cpp/aspose.words.vba/vbamodulecollection/begin/
 const_iterator Aspose::Words::Vba::VbaModuleCollection::begin() const noexcept
 ```
 
-## VbaModuleCollection.begin() method
+## See Also
+
+* Typedef [const_iterator](../const_iterator/)
+* Class [VbaModuleCollection](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)
+## VbaModuleCollection::begin() method
 
 
 
@@ -24,3 +30,9 @@ const_iterator Aspose::Words::Vba::VbaModuleCollection::begin() const noexcept
 iterator Aspose::Words::Vba::VbaModuleCollection::begin() noexcept
 ```
 
+## See Also
+
+* Typedef [iterator](../iterator/)
+* Class [VbaModuleCollection](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

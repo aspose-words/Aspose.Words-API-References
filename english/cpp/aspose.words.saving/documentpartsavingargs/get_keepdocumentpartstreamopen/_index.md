@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.saving/documentpartsavingargs/get_keepdocumentpartstreamopen/
 ---
-## DocumentPartSavingArgs.get_KeepDocumentPartStreamOpen method
+## DocumentPartSavingArgs::get_KeepDocumentPartStreamOpen method
 
 
 Specifies whether Aspose.Words should keep the stream open or close it after saving a document part.
@@ -15,11 +15,12 @@ Specifies whether Aspose.Words should keep the stream open or close it after sav
 bool Aspose::Words::Saving::DocumentPartSavingArgs::get_KeepDocumentPartStreamOpen() const
 ```
 
+## Remarks
 
-Default is **false** and Aspose.Words will close the stream you provided in the [DocumentPartStream](../get_documentpartstream/) property after writing a document part into it. Specify **true** to keep the stream open. Please note that the main output stream provided in the call to **Save()** or **Save()** will never be closed by Aspose.Words even if [KeepDocumentPartStreamOpen](./) is set to **false**.
+
+Default is **false** and Aspose.Words will close the stream you provided in the [DocumentPartStream](../get_documentpartstream/) property after writing a document part into it. Specify **true** to keep the stream open. Please note that the main output stream provided in the call to [Save()](../) or [Save()](../) will never be closed by Aspose.Words even if [KeepDocumentPartStreamOpen](./) is set to **false**.
 
 ## Examples
-
 
 
 
@@ -141,3 +142,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [DocumentPartSavingArgs](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

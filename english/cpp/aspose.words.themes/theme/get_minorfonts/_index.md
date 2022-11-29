@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.themes/theme/get_minorfonts/
 ---
-## Theme.get_MinorFonts method
+## Theme::get_MinorFonts method
 
 
 Allows to specify the set of minor fonts for different languages.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Themes::ThemeFonts> Aspose::Words::Themes::Them
 
 
 ## Examples
-
 
 
 
@@ -63,3 +62,9 @@ colors->set_FollowedHyperlink(System::Drawing::Color::get_Gray());
 doc->Save(ArtifactsDir + u"Themes.CustomColorsAndFonts.docx");
 ```
 
+## See Also
+
+* Class [ThemeFonts](../../themefonts/)
+* Class [Theme](../)
+* Namespace [Aspose::Words::Themes](../../)
+* Library [Aspose.Words](../../../)

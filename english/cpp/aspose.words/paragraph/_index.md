@@ -12,7 +12,10 @@ url: /cpp/aspose.words/paragraph/
 Represents a paragraph of text.
 
 ```cpp
-class Paragraph : public Aspose::Words::CompositeNode, public Aspose::Words::IParaAttrSource, public Aspose::Words::IRunAttrSource, public Aspose::Words::Revisions::ITrackableNode
+class Paragraph : public Aspose::Words::CompositeNode,
+                  public Aspose::Words::IParaAttrSource,
+                  public Aspose::Words::IRunAttrSource,
+                  public Aspose::Words::Revisions::ITrackableNode
 ```
 
 ## Methods
@@ -87,6 +90,8 @@ class Paragraph : public Aspose::Words::CompositeNode, public Aspose::Words::IPa
 | [SetTemplateWeakPtr](../compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 [Paragraph](./) is a block-level node and can be a child of classes derived from [Story](../story/) or [InlineStory](../inlinestory/).
 
@@ -99,7 +104,6 @@ A valid paragraph in Microsoft Word always ends with a paragraph break character
 Do not include the end of paragraph [ControlChar.ParagraphBreak](../controlchar/paragraphbreak/) or end of cell [ControlChar.Cell](../controlchar/cell/) characters inside the text of the paragraph as it might make the paragraph invalid when the document is opened in Microsoft Word.
 
 ## Examples
-
 
 
 
@@ -147,3 +151,8 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 ```
 
+## See Also
+
+* Class [CompositeNode](../compositenode/)
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

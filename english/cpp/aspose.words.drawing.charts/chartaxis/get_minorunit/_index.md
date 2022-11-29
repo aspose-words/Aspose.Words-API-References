@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_minorunit/
 ---
-## ChartAxis.get_MinorUnit method
+## ChartAxis::get_MinorUnit method
 
 
 Returns or sets the distance between minor tick marks.
@@ -15,13 +15,14 @@ Returns or sets the distance between minor tick marks.
 double Aspose::Words::Drawing::Charts::ChartAxis::get_MinorUnit()
 ```
 
+## Remarks
+
 
 Valid range of a value is greater than zero. The property has effect for time category and value axes.
 
 Setting this property sets the [MinorUnitIsAuto](../get_minorunitisauto/) property to **false**.
 
 ## Examples
-
 
 
 
@@ -71,3 +72,8 @@ ASSERT_TRUE(chart->get_AxisZ() == nullptr);
 doc->Save(ArtifactsDir + u"Charts.AxisProperties.docx");
 ```
 
+## See Also
+
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

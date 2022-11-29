@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.drawing/gradientstopcollection/get_count/
 ---
-## GradientStopCollection.get_Count method
+## GradientStopCollection::get_Count method
 
 
 Gets an integer value indicating the number of items in the collection.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Drawing::GradientStopCollection::get_Count()
 
 
 ## Examples
-
 
 
 
@@ -69,3 +68,8 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 doc->Save(ArtifactsDir + u"Shape.GradientStops.docx", saveOptions);
 ```
 
+## See Also
+
+* Class [GradientStopCollection](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

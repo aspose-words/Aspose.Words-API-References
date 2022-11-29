@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.saving/imagesaveoptions/get_scale/
 ---
-## ImageSaveOptions.get_Scale method
+## ImageSaveOptions::get_Scale method
 
 
 Gets or sets the zoom factor for the generated images.
@@ -17,7 +17,6 @@ float Aspose::Words::Saving::ImageSaveOptions::get_Scale() const
 
 
 ## Examples
-
 
 
 
@@ -59,3 +58,8 @@ saveOptions->set_Scale(5.0f);
 math->GetMathRenderer()->Save(ArtifactsDir + u"Shape.RenderOfficeMath.png", saveOptions);
 ```
 
+## See Also
+
+* Class [ImageSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

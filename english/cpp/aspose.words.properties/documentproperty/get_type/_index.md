@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.properties/documentproperty/get_type/
 ---
-## DocumentProperty.get_Type method
+## DocumentProperty::get_Type method
 
 
 Gets the data type of the property.
@@ -17,7 +17,6 @@ Aspose::Words::Properties::PropertyType Aspose::Words::Properties::DocumentPrope
 
 
 ## Examples
-
 
 
 
@@ -111,3 +110,9 @@ properties->Clear();
 ASSERT_EQ(0, properties->get_Count());
 ```
 
+## See Also
+
+* Enum [PropertyType](../../propertytype/)
+* Class [DocumentProperty](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

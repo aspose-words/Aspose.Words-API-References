@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/watermark/remove/
 ---
-## Watermark.Remove method
+## Watermark::Remove method
 
 
 Removes the watermark.
@@ -17,7 +17,6 @@ void Aspose::Words::Watermark::Remove()
 
 
 ## Examples
-
 
 
 
@@ -48,3 +47,8 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
 }
 ```
 
+## See Also
+
+* Class [Watermark](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

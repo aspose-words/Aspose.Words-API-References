@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.layout/revisionoptions/get_showoriginalrevision/
 ---
-## RevisionOptions.get_ShowOriginalRevision method
+## RevisionOptions::get_ShowOriginalRevision method
 
 
 Allows to specify whether the original text should be shown instead of revised one. Default value is False.
@@ -17,7 +17,6 @@ bool Aspose::Words::Layout::RevisionOptions::get_ShowOriginalRevision() const
 
 
 ## Examples
-
 
 
 
@@ -66,3 +65,8 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 doc->Save(ArtifactsDir + u"Revision.RevisionOptions.pdf");
 ```
 
+## See Also
+
+* Class [RevisionOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

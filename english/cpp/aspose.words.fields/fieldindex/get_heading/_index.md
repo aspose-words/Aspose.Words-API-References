@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fields/fieldindex/get_heading/
 ---
-## FieldIndex.get_Heading method
+## FieldIndex::get_Heading method
 
 
 Gets or sets a heading that appears at the start of each set of entries for any given letter.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldIndex::get_Heading()
 
 
 ## Examples
-
 
 
 
@@ -86,3 +85,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.INDEX.XE.Formatting.docx");
 ```
 
+## See Also
+
+* Class [FieldIndex](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

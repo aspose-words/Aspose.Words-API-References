@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldglossary/get_entryname/
 ---
-## FieldGlossary.get_EntryName method
+## FieldGlossary::get_EntryName method
 
 
 Gets or sets the name of the glossary entry to insert.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldGlossary::get_EntryName() override
 
 
 ## Examples
-
 
 
 
@@ -65,3 +64,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.AUTOTEXT.GLOSSARY.dotx");
 ```
 
+## See Also
+
+* Class [FieldGlossary](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

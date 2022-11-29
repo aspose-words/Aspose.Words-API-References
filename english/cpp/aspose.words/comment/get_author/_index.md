@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/comment/get_author/
 ---
-## Comment.get_Author method
+## Comment::get_Author method
 
 
 Returns or sets the author name for a comment.
@@ -15,13 +15,14 @@ Returns or sets the author name for a comment.
 System::String Aspose::Words::Comment::get_Author() const
 ```
 
+## Remarks
+
 
 Cannot be null.
 
 Default is empty string.
 
 ## Examples
-
 
 
 
@@ -51,3 +52,8 @@ for (auto comment : System::IterateOver(comments->LINQ_OfType<SharedPtr<Comment>
 }
 ```
 
+## See Also
+
+* Class [Comment](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

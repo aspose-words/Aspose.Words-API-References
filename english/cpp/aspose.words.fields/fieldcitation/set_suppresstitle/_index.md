@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words.fields/fieldcitation/set_suppresstitle/
 ---
-## FieldCitation.set_SuppressTitle method
+## FieldCitation::set_SuppressTitle method
 
 
 Setter for [Aspose::Words::Fields::FieldCitation::get_SuppressTitle](../get_suppresstitle/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldCitation::get_SuppressTitle](../get_supp
 void Aspose::Words::Fields::FieldCitation::set_SuppressTitle(bool value)
 ```
 
+## See Also
+
+* Class [FieldCitation](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

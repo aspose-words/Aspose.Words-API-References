@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.fields/field/get_type/
 ---
-## Field.get_Type method
+## Field::get_Type method
 
 
 Gets the Microsoft Word field type.
@@ -17,7 +17,6 @@ virtual Aspose::Words::Fields::FieldType Aspose::Words::Fields::Field::get_Type(
 
 
 ## Examples
-
 
 
 
@@ -35,3 +34,9 @@ ASSERT_EQ(u"DATE \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
 ASSERT_LE(System::Math::Abs((System::DateTime::Parse(field->get_Result()) - System::DateTime::get_Today()).get_Hours()), 24);
 ```
 
+## See Also
+
+* Enum [FieldType](../../fieldtype/)
+* Class [Field](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

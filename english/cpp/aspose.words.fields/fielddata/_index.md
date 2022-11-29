@@ -46,7 +46,6 @@ class FieldData : public Aspose::Words::Fields::Field
 
 
 
-
 Shows how to insert a DATA field into a document. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -56,3 +55,8 @@ auto field = System::DynamicCast<FieldData>(builder->InsertField(FieldType::Fiel
 ASSERT_EQ(u" DATA ", field->GetFieldCode());
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

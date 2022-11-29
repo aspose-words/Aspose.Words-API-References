@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.mailmerging/mailmergeregioninfo/get_name/
 ---
-## MailMergeRegionInfo.get_Name method
+## MailMergeRegionInfo::get_Name method
 
 
 Returns the name of region.
@@ -17,7 +17,6 @@ System::String Aspose::Words::MailMerging::MailMergeRegionInfo::get_Name() const
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,8 @@ SharedPtr<FieldMergeField> endFieldMergeField = nestedRegions->idx_get(0)->get_E
 ASSERT_EQ(u"TableEnd:NestedRegion1", endFieldMergeField->get_FieldName());
 ```
 
+## See Also
+
+* Class [MailMergeRegionInfo](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

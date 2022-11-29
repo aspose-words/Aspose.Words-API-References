@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words/node/get_range/
 ---
-## Node.get_Range method
+## Node::get_Range method
 
 
 Returns a **Range** object that represents the portion of a document that is contained in this node.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Range> Aspose::Words::Node::get_Range()
 
 
 ## Examples
-
 
 
 
@@ -41,3 +40,9 @@ ASSERT_EQ(1, doc->get_Sections()->get_Count());
 ASSERT_EQ(u"Section 2.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Range](../../range/)
+* Class [Node](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

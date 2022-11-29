@@ -11,6 +11,10 @@ url: /cpp/aspose.words.saving/pdfcustompropertiesexport/
 
 Specifies the way [CustomDocumentProperties](../../aspose.words/document/get_customdocumentproperties/) are exported to PDF file.
 
+```cpp
+enum class PdfCustomPropertiesExport
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ Specifies the way [CustomDocumentProperties](../../aspose.words/document/get_cus
 
 
 ## Examples
-
 
 
 
@@ -46,3 +49,7 @@ options->set_CustomPropertiesExport(pdfCustomPropertiesExportMode);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.CustomPropertiesExport.pdf", options);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

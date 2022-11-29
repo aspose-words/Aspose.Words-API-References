@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelspacingisauto/
 ---
-## ChartAxis.get_TickLabelSpacingIsAuto method
+## ChartAxis::get_TickLabelSpacingIsAuto method
 
 
 Gets or sets a flag indicating whether automatic interval of drawing tick labels shall be used.
@@ -15,13 +15,14 @@ Gets or sets a flag indicating whether automatic interval of drawing tick labels
 bool Aspose::Words::Drawing::Charts::ChartAxis::get_TickLabelSpacingIsAuto()
 ```
 
+## Remarks
+
 
 Default value is **true**.
 
 The property has effect for text category and series axes. It is not supported by MS Office 2016 new charts.
 
 ## Examples
-
 
 
 
@@ -71,3 +72,8 @@ ASSERT_TRUE(chart->get_AxisZ() == nullptr);
 doc->Save(ArtifactsDir + u"Charts.AxisProperties.docx");
 ```
 
+## See Also
+
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

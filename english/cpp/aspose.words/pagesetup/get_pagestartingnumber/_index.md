@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/aspose.words/pagesetup/get_pagestartingnumber/
 ---
-## PageSetup.get_PageStartingNumber method
+## PageSetup::get_PageStartingNumber method
 
 
 Gets or sets the starting page number of the section.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::PageSetup::get_PageStartingNumber()
 
 
 ## Examples
-
 
 
 
@@ -72,3 +71,8 @@ pageSetup->set_PageNumberStyle(NumberStyle::Arabic);
 doc->Save(ArtifactsDir + u"PageSetup.PageNumbering.docx");
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

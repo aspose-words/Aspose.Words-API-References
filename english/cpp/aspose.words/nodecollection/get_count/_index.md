@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/nodecollection/get_count/
 ---
-## NodeCollection.get_Count method
+## NodeCollection::get_Count method
 
 
 Gets the number of nodes in the collection.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::NodeCollection::get_Count()
 
 
 ## Examples
-
 
 
 
@@ -133,3 +132,8 @@ static int GetChildTableCount(SharedPtr<Table> table)
 }
 ```
 
+## See Also
+
+* Class [NodeCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /cpp/aspose.words/font/get_superscript/
 ---
-## Font.get_Superscript method
+## Font::get_Superscript method
 
 
 True if the font is formatted as superscript.
@@ -17,7 +17,6 @@ bool Aspose::Words::Font::get_Superscript()
 
 
 ## Examples
-
 
 
 
@@ -53,3 +52,8 @@ para->AppendChild(run);
 doc->Save(ArtifactsDir + u"Font.PositionSubscript.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

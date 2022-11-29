@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.fields/fieldlink/get_sourceitem/
 ---
-## FieldLink.get_SourceItem method
+## FieldLink::get_SourceItem method
 
 
 Gets or sets the portion of the source file that's being linked.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldLink::get_SourceItem()
 
 
 ## Examples
-
 
 
 
@@ -196,3 +195,8 @@ static void InsertFieldDdeAuto(SharedPtr<DocumentBuilder> builder, ExField::Inse
 }
 ```
 
+## See Also
+
+* Class [FieldLink](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

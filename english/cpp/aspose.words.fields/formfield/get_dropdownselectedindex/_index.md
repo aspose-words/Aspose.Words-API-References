@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.fields/formfield/get_dropdownselectedindex/
 ---
-## FormField.get_DropDownSelectedIndex method
+## FormField::get_DropDownSelectedIndex method
 
 
 Gets or sets the index specifying the currently selected item in a dropdown form field.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Fields::FormField::get_DropDownSelectedIndex()
 
 
 ## Examples
-
 
 
 
@@ -150,3 +149,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [FormField](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

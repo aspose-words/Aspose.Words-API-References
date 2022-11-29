@@ -6,10 +6,10 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.replacing/findreplaceoptions/get_direction/
 ---
-## FindReplaceOptions.get_Direction method
+## FindReplaceOptions::get_Direction method
 
 
-Selects direction for replace. Default value is **Forward**.
+Selects direction for replace. Default value is [Forward](../../findreplacedirection/).
 
 ```cpp
 Aspose::Words::Replacing::FindReplaceDirection Aspose::Words::Replacing::FindReplaceOptions::get_Direction() const
@@ -17,7 +17,6 @@ Aspose::Words::Replacing::FindReplaceDirection Aspose::Words::Replacing::FindRep
 
 
 ## Examples
-
 
 
 
@@ -87,3 +86,9 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [FindReplaceDirection](../../findreplacedirection/)
+* Class [FindReplaceOptions](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)

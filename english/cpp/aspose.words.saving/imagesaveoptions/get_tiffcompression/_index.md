@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.saving/imagesaveoptions/get_tiffcompression/
 ---
-## ImageSaveOptions.get_TiffCompression method
+## ImageSaveOptions::get_TiffCompression method
 
 
 Gets or sets the type of compression to apply when saving generated images to the TIFF format.
@@ -15,13 +15,14 @@ Gets or sets the type of compression to apply when saving generated images to th
 Aspose::Words::Saving::TiffCompression Aspose::Words::Saving::ImageSaveOptions::get_TiffCompression() const
 ```
 
+## Remarks
+
 
 Has effect only when saving to TIFF.
 
-The default value is **Lzw**.
+The default value is [Lzw](../../tiffcompression/).
 
 ## Examples
-
 
 
 
@@ -70,3 +71,9 @@ case TiffCompression::Ccitt4:
 }
 ```
 
+## See Also
+
+* Enum [TiffCompression](../../tiffcompression/)
+* Class [ImageSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

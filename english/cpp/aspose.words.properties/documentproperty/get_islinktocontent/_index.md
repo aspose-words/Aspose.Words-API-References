@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.properties/documentproperty/get_islinktocontent/
 ---
-## DocumentProperty.get_IsLinkToContent method
+## DocumentProperty::get_IsLinkToContent method
 
 
 Shows whether this property is linked to content or not.
@@ -17,7 +17,6 @@ bool Aspose::Words::Properties::DocumentProperty::get_IsLinkToContent()
 
 
 ## Examples
-
 
 
 
@@ -42,3 +41,8 @@ ASPOSE_ASSERT_EQ(u"Hello world!", customProperty->get_Value());
 doc->Save(ArtifactsDir + u"DocumentProperties.LinkCustomDocumentPropertiesToBookmark.docx");
 ```
 
+## See Also
+
+* Class [DocumentProperty](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/aspose.words.drawing.charts/chartaxis/set_minorunitscale/
 ---
-## ChartAxis.set_MinorUnitScale method
+## ChartAxis::set_MinorUnitScale method
 
 
 Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_MinorUnitScale](../get_minorunitscale/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_MinorUnitScale](../ge
 void Aspose::Words::Drawing::Charts::ChartAxis::set_MinorUnitScale(Aspose::Words::Drawing::Charts::AxisTimeUnit value)
 ```
 
+## See Also
+
+* Enum [AxisTimeUnit](../../axistimeunit/)
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

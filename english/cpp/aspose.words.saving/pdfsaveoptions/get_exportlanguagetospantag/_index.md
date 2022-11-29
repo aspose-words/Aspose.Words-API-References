@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_exportlanguagetospantag/
 ---
-## PdfSaveOptions.get_ExportLanguageToSpanTag method
+## PdfSaveOptions::get_ExportLanguageToSpanTag method
 
 
 Gets or sets a value determining whether or not to create a "Span" tag in the document structure to export the text language.
@@ -14,6 +14,8 @@ Gets or sets a value determining whether or not to create a "Span" tag in the do
 ```cpp
 bool Aspose::Words::Saving::PdfSaveOptions::get_ExportLanguageToSpanTag() const
 ```
+
+## Remarks
 
 
 Default value is **false** and "Lang" attribute is attached to a marked-content sequence in a page content stream.
@@ -23,7 +25,6 @@ When the value is **true** "Span" tag is created for the text with non-default l
 This value is ignored when [ExportDocumentStructure](../get_exportdocumentstructure/) is **false**.
 
 ## Examples
-
 
 
 
@@ -42,3 +43,8 @@ saveOptions->set_ExportLanguageToSpanTag(true);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.ExportLanguageToSpanTag.pdf", saveOptions);
 ```
 
+## See Also
+
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

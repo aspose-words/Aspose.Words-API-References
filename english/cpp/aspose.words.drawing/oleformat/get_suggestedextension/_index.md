@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.drawing/oleformat/get_suggestedextension/
 ---
-## OleFormat.get_SuggestedExtension method
+## OleFormat::get_SuggestedExtension method
 
 
 Gets the file extension suggested for the current embedded object if you want to save it into a file.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Drawing::OleFormat::get_SuggestedExtension()
 
 
 ## Examples
-
 
 
 
@@ -51,3 +50,8 @@ ASSERT_EQ(u".xlsx", oleFormat->get_SuggestedExtension());
 oleFormat->Save(ArtifactsDir + u"OLE spreadsheet saved directly" + oleFormat->get_SuggestedExtension());
 ```
 
+## See Also
+
+* Class [OleFormat](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.saving/xpssaveoptions/get_usebookfoldprintingsettings/
 ---
-## XpsSaveOptions.get_UseBookFoldPrintingSettings method
+## XpsSaveOptions::get_UseBookFoldPrintingSettings method
 
 
 Gets or sets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [MultiplePages](../../../aspose.words/pagesetup/get_multiplepages/).
@@ -15,11 +15,12 @@ Gets or sets a boolean value indicating whether the document should be saved usi
 bool Aspose::Words::Saving::XpsSaveOptions::get_UseBookFoldPrintingSettings() const
 ```
 
+## Remarks
+
 
 If this option is specified, [PageSet](../../fixedpagesaveoptions/get_pageset/) is ignored when saving. This behavior matches MS Word. If book fold printing settings are not specified in page setup, this option will have no effect.
 
 ## Examples
-
 
 
 
@@ -51,3 +52,8 @@ if (renderTextAsBookFold)
 doc->Save(ArtifactsDir + u"XpsSaveOptions.BookFold.xps", xpsOptions);
 ```
 
+## See Also
+
+* Class [XpsSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

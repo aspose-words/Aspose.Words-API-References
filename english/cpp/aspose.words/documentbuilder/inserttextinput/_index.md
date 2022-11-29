@@ -6,7 +6,7 @@ type: docs
 weight: 599
 url: /cpp/aspose.words/documentbuilder/inserttextinput/
 ---
-## DocumentBuilder.InsertTextInput method
+## DocumentBuilder::InsertTextInput method
 
 
 Inserts a text form field at the current position.
@@ -26,13 +26,13 @@ System::SharedPtr<Aspose::Words::Fields::FormField> Aspose::Words::DocumentBuild
 
 ### ReturnValue
 
-
 The form field node that was just inserted.
+## Remarks
+
 
 If you specify a name for the form field, then a bookmark is automatically created with the same name.
 
 ## Examples
-
 
 
 
@@ -83,3 +83,10 @@ builder->InsertTextInput(u"TextInput1", TextFormFieldType::Regular, u"", u"Place
 doc->Save(ArtifactsDir + u"FormFields.TextInput.html");
 ```
 
+## See Also
+
+* Class [FormField](../../../aspose.words.fields/formfield/)
+* Enum [TextFormFieldType](../../../aspose.words.fields/textformfieldtype/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

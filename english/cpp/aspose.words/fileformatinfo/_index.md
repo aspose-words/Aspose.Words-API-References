@@ -23,11 +23,12 @@ class FileFormatInfo : public System::Object
 | [get_HasDigitalSignature](./get_hasdigitalsignature/)() const | Returns true if this document contains a digital signature. This property merely informs that a digital signature is present on a document, but it does not specify whether the signature is valid or not. |
 | [get_IsEncrypted](./get_isencrypted/)() const | Returns true if the document is encrypted and requires a password to open. |
 | [get_LoadFormat](./get_loadformat/)() const | Gets the detected document format. |
+## Remarks
 
-You do not create instances of this class directly. Objects of this class are returned by **DetectFileFormat()** methods.
+
+You do not create instances of this class directly. Objects of this class are returned by [DetectFileFormat()](../) methods.
 
 ## Examples
-
 
 
 
@@ -72,3 +73,7 @@ ASSERT_TRUE(info->get_HasDigitalSignature());
 ASSERT_EQ(1, DigitalSignatureUtil::LoadSignatures(ArtifactsDir + u"File.DetectDigitalSignatures.docx")->get_Count());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

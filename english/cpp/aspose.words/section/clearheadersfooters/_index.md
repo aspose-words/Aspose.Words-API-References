@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/section/clearheadersfooters/
 ---
-## Section.ClearHeadersFooters method
+## Section::ClearHeadersFooters method
 
 
 Clears the headers and footers of this section.
@@ -15,13 +15,14 @@ Clears the headers and footers of this section.
 void Aspose::Words::Section::ClearHeadersFooters()
 ```
 
+## Remarks
+
 
 The text of all headers and footers is cleared, but [HeaderFooter](../../headerfooter/) objects themselves are not removed.
 
 This makes headers and footers of this section linked to headers and footers of the previous section.
 
 ## Examples
-
 
 
 
@@ -53,3 +54,8 @@ ASSERT_EQ(String::Empty, doc->get_FirstSection()->get_HeadersFooters()->idx_get(
 ASSERT_EQ(String::Empty, doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::FooterPrimary)->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Section](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

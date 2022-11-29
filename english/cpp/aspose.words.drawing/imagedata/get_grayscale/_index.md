@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.drawing/imagedata/get_grayscale/
 ---
-## ImageData.get_GrayScale method
+## ImageData::get_GrayScale method
 
 
 Determines whether a picture will display in grayscale mode.
@@ -15,11 +15,12 @@ Determines whether a picture will display in grayscale mode.
 bool Aspose::Words::Drawing::ImageData::get_GrayScale()
 ```
 
+## Remarks
+
 
 The default value is **false**.
 
 ## Examples
-
 
 
 
@@ -80,3 +81,8 @@ importedShape->get_ImageData()->set_CropRight(0.3);
 dstDoc->Save(ArtifactsDir + u"Drawing.ImageData.docx");
 ```
 
+## See Also
+
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

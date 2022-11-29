@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldautonumlgl/get_removetrailingperiod/
 ---
-## FieldAutoNumLgl.get_RemoveTrailingPeriod method
+## FieldAutoNumLgl::get_RemoveTrailingPeriod method
 
 
 Gets or sets whether to display the number without a trailing period.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldAutoNumLgl::get_RemoveTrailingPeriod()
 
 
 ## Examples
-
 
 
 
@@ -94,3 +93,8 @@ static void InsertNumberedClause(SharedPtr<DocumentBuilder> builder, String head
 }
 ```
 
+## See Also
+
+* Class [FieldAutoNumLgl](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

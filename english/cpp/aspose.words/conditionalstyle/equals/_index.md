@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/conditionalstyle/equals/
 ---
-## ConditionalStyle.Equals method
+## ConditionalStyle::Equals method
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words/conditionalstyle/equals/
 bool Aspose::Words::ConditionalStyle::Equals(System::SharedPtr<System::Object> obj) override
 ```
 
+## See Also
+
+* Class [ConditionalStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

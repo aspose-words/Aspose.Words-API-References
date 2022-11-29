@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.vba/vbamodulecollection/get_count/
 ---
-## VbaModuleCollection.get_Count method
+## VbaModuleCollection::get_Count method
 
 
 Returns the number of VBA modules in the collection.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Vba::VbaModuleCollection::get_Count()
 
 
 ## Examples
-
 
 
 
@@ -50,3 +49,8 @@ vbaModules->idx_get(u"Module1")->set_SourceCode(u"Your VBA code...");
 vbaModules->Remove(vbaModules->idx_get(2));
 ```
 
+## See Also
+
+* Class [VbaModuleCollection](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.notes/endnoteoptions/get_position/
 ---
-## EndnoteOptions.get_Position method
+## EndnoteOptions::get_Position method
 
 
 Specifies the endnotes position.
@@ -17,7 +17,6 @@ Aspose::Words::Notes::EndnotePosition Aspose::Words::Notes::EndnoteOptions::get_
 
 
 ## Examples
-
 
 
 
@@ -48,3 +47,9 @@ doc->get_EndnoteOptions()->set_Position(endnotePosition);
 doc->Save(ArtifactsDir + u"InlineStory.PositionEndnote.docx");
 ```
 
+## See Also
+
+* Enum [EndnotePosition](../../endnoteposition/)
+* Class [EndnoteOptions](../)
+* Namespace [Aspose::Words::Notes](../../)
+* Library [Aspose.Words](../../../)

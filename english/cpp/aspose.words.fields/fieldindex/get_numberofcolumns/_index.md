@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.fields/fieldindex/get_numberofcolumns/
 ---
-## FieldIndex.get_NumberOfColumns method
+## FieldIndex::get_NumberOfColumns method
 
 
 Gets or sets the number of columns per page used when building the index.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldIndex::get_NumberOfColumns()
 
 
 ## Examples
-
 
 
 
@@ -86,3 +85,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.INDEX.XE.Formatting.docx");
 ```
 
+## See Also
+
+* Class [FieldIndex](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

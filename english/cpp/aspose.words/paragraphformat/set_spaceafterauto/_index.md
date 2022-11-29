@@ -6,7 +6,7 @@ type: docs
 weight: 859
 url: /cpp/aspose.words/paragraphformat/set_spaceafterauto/
 ---
-## ParagraphFormat.set_SpaceAfterAuto method
+## ParagraphFormat::set_SpaceAfterAuto method
 
 
 Setter for [Aspose::Words::ParagraphFormat::get_SpaceAfterAuto](../get_spaceafterauto/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::ParagraphFormat::get_SpaceAfterAuto](../get_spaceafte
 void Aspose::Words::ParagraphFormat::set_SpaceAfterAuto(bool value)
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

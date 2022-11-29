@@ -12,12 +12,11 @@ url: /cpp/aspose.words/controlchar/paragraphbreakchar/
 End of paragraph character: (char)13 or "\r".
 
 ```cpp
-constexpr char16_t Aspose::Words::ControlChar::ParagraphBreakChar
+static constexpr char16_t Aspose::Words::ControlChar::ParagraphBreakChar
 ```
 
 
 ## Examples
-
 
 
 
@@ -87,3 +86,8 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::PageBreak()), ControlChar:
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlChar::ColumnBreakChar);
 ```
 
+## See Also
+
+* Class [ControlChar](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

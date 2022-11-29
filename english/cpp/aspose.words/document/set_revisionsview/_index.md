@@ -6,7 +6,7 @@ type: docs
 weight: 1002
 url: /cpp/aspose.words/document/set_revisionsview/
 ---
-## Document.set_RevisionsView method
+## Document::set_RevisionsView method
 
 
 Setter for [Aspose::Words::Document::get_RevisionsView](../get_revisionsview/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Document::get_RevisionsView](../get_revisionsview/).
 void Aspose::Words::Document::set_RevisionsView(Aspose::Words::RevisionsView value)
 ```
 
+## See Also
+
+* Enum [RevisionsView](../../revisionsview/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/idx_get/
 ---
-## DigitalSignatureCollection.idx_get method
+## DigitalSignatureCollection::idx_get method
 
 
 Gets a document signature at the specified index.
@@ -21,7 +21,6 @@ System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignature> Aspose::Wo
 | index | int32_t | Zero-based index of the signature. |
 
 ## Examples
-
 
 
 
@@ -64,3 +63,9 @@ ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_I
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
 ```
 
+## See Also
+
+* Class [DigitalSignature](../../digitalsignature/)
+* Class [DigitalSignatureCollection](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)

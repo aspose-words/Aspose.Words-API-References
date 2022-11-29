@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.saving/pdfencryptiondetails/set_userpassword/
 ---
-## PdfEncryptionDetails.set_UserPassword method
+## PdfEncryptionDetails::set_UserPassword method
 
 
 Setter for [Aspose::Words::Saving::PdfEncryptionDetails::get_UserPassword](../get_userpassword/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::PdfEncryptionDetails::get_UserPassword](../ge
 void Aspose::Words::Saving::PdfEncryptionDetails::set_UserPassword(const System::String &value)
 ```
 
+## See Also
+
+* Class [PdfEncryptionDetails](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

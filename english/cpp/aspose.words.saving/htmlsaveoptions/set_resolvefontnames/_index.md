@@ -6,7 +6,7 @@ type: docs
 weight: 1106
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_resolvefontnames/
 ---
-## HtmlSaveOptions.set_ResolveFontNames method
+## HtmlSaveOptions::set_ResolveFontNames method
 
 
 Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ResolveFontNames](../get_resolvefontnames/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ResolveFontNames](../get
 void Aspose::Words::Saving::HtmlSaveOptions::set_ResolveFontNames(bool value)
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

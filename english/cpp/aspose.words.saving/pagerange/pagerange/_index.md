@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/pagerange/pagerange/
 ---
-## PageRange.PageRange method
+## PageRange::PageRange constructor
 
 
 Creates a new page range object.
@@ -25,7 +25,6 @@ Aspose::Words::Saving::PageRange::PageRange(int32_t from, int32_t to)
 
 
 
-
 Shows how to extract pages based on exact page ranges. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Images.docx");
@@ -38,3 +37,8 @@ imageOptions->set_PageSet(pageSet);
 doc->Save(ArtifactsDir + u"ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
 ```
 
+## See Also
+
+* Class [PageRange](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

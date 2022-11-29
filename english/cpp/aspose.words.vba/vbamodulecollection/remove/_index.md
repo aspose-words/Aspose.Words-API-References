@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.vba/vbamodulecollection/remove/
 ---
-## VbaModuleCollection.Remove method
+## VbaModuleCollection::Remove method
 
 
 Removes the specified module from the collection.
@@ -21,7 +21,6 @@ void Aspose::Words::Vba::VbaModuleCollection::Remove(const System::SharedPtr<Asp
 | module_ | const System::SharedPtr\<Aspose::Words::Vba::VbaModule\>\& | The module to remove. |
 
 ## Examples
-
 
 
 
@@ -54,3 +53,9 @@ vbaModules->idx_get(u"Module1")->set_SourceCode(u"Your VBA code...");
 vbaModules->Remove(vbaModules->idx_get(2));
 ```
 
+## See Also
+
+* Class [VbaModule](../../vbamodule/)
+* Class [VbaModuleCollection](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

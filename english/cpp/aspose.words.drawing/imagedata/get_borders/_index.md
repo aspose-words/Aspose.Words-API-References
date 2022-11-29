@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.drawing/imagedata/get_borders/
 ---
-## ImageData.get_Borders method
+## ImageData::get_Borders method
 
 
 Gets the collection of borders of the image. Borders only have effect for inline images.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::BorderCollection> Aspose::Words::Drawing::Image
 
 
 ## Examples
-
 
 
 
@@ -78,3 +77,9 @@ importedShape->get_ImageData()->set_CropRight(0.3);
 dstDoc->Save(ArtifactsDir + u"Drawing.ImageData.docx");
 ```
 
+## See Also
+
+* Class [BorderCollection](../../../aspose.words/bordercollection/)
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

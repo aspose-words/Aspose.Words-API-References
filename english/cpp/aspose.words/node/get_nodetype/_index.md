@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words/node/get_nodetype/
 ---
-## Node.get_NodeType method
+## Node::get_NodeType method
 
 
 Gets the type of this node.
@@ -17,7 +17,6 @@ virtual Aspose::Words::NodeType Aspose::Words::Node::get_NodeType() const =0
 
 
 ## Examples
-
 
 
 
@@ -101,3 +100,9 @@ for (SharedPtr<Node> node = doc->get_FirstSection()->get_Body()->get_FirstChild(
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../nodetype/)
+* Class [Node](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

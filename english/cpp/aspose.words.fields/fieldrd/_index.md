@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldrd/
 Implements the RD field.
 
 ```cpp
-class FieldRD : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldRD : public Aspose::Words::Fields::Field,
+                public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -50,7 +51,6 @@ class FieldRD : public Aspose::Words::Fields::Field, public Aspose::Words::Field
 
 
 
-
 Shows to use the RD field to create a table of contents entries from headings in other documents. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -83,3 +83,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.RD.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

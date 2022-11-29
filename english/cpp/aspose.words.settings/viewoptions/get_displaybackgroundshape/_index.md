@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.settings/viewoptions/get_displaybackgroundshape/
 ---
-## ViewOptions.get_DisplayBackgroundShape method
+## ViewOptions::get_DisplayBackgroundShape method
 
 
 Controls display of the background shape in print layout view.
@@ -17,7 +17,6 @@ bool Aspose::Words::Settings::ViewOptions::get_DisplayBackgroundShape() const
 
 
 ## Examples
-
 
 
 
@@ -41,3 +40,8 @@ doc->get_ViewOptions()->set_DisplayBackgroundShape(displayBackgroundShape);
 doc->Save(ArtifactsDir + u"ViewOptions.DisplayBackgroundShape.docx");
 ```
 
+## See Also
+
+* Class [ViewOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/stylecollection/get_count/
 ---
-## StyleCollection.get_Count method
+## StyleCollection::get_Count method
 
 
 Gets the number of styles in the collection.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::StyleCollection::get_Count()
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,8 @@ ASSERT_EQ(u"Courier New", styles->idx_get(4)->get_Font()->get_Name());
 ASPOSE_ASSERT_EQ(15.0, styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_FirstLineIndent());
 ```
 
+## See Also
+
+* Class [StyleCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

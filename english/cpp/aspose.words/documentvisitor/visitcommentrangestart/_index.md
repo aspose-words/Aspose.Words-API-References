@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words/documentvisitor/visitcommentrangestart/
 ---
-## DocumentVisitor.VisitCommentRangeStart method
+## DocumentVisitor::VisitCommentRangeStart method
 
 
 Called when the start of a commented range of text is encountered.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitCommen
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -123,3 +121,10 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [CommentRangeStart](../../commentrangestart/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

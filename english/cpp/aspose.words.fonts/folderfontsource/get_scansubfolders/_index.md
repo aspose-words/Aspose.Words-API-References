@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fonts/folderfontsource/get_scansubfolders/
 ---
-## FolderFontSource.get_ScanSubfolders method
+## FolderFontSource::get_ScanSubfolders method
 
 
 Determines whether or not to scan the subfolders.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fonts::FolderFontSource::get_ScanSubfolders() const
 
 
 ## Examples
-
 
 
 
@@ -36,3 +35,8 @@ ASSERT_EQ(FontSourceType::FontsFolder, folderFontSource->get_Type());
 ASSERT_EQ(1, folderFontSource->get_Priority());
 ```
 
+## See Also
+
+* Class [FolderFontSource](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

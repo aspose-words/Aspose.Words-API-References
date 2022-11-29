@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fields/fieldsavedate/set_usesakaeracalendar/
 ---
-## FieldSaveDate.set_UseSakaEraCalendar method
+## FieldSaveDate::set_UseSakaEraCalendar method
 
 
 Setter for [Aspose::Words::Fields::FieldSaveDate::get_UseSakaEraCalendar](../get_usesakaeracalendar/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldSaveDate::get_UseSakaEraCalendar](../get
 void Aspose::Words::Fields::FieldSaveDate::set_UseSakaEraCalendar(bool value)
 ```
 
+## See Also
+
+* Class [FieldSaveDate](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldlink/
 Implements the LINK field.
 
 ```cpp
-class FieldLink : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldLink : public Aspose::Words::Fields::Field,
+                  public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -67,7 +68,6 @@ class FieldLink : public Aspose::Words::Fields::Field, public Aspose::Words::Fie
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 
 ## Examples
-
 
 
 
@@ -246,3 +246,8 @@ static void InsertFieldDdeAuto(SharedPtr<DocumentBuilder> builder, ExField::Inse
 }
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

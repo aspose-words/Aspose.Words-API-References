@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words/bordercollection/set_color/
 ---
-## BorderCollection.set_Color method
+## BorderCollection::set_Color method
 
 
 Setter for [Aspose::Words::BorderCollection::get_Color](../get_color/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::BorderCollection::get_Color](../get_color/).
 void Aspose::Words::BorderCollection::set_Color(System::Drawing::Color value)
 ```
 
+## See Also
+
+* Class [BorderCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

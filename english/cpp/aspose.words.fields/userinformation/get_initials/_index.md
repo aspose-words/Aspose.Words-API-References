@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/userinformation/get_initials/
 ---
-## UserInformation.get_Initials method
+## UserInformation::get_Initials method
 
 
 Gets or sets the user's initials.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::UserInformation::get_Initials() const
 
 
 ## Examples
-
 
 
 
@@ -53,3 +52,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"FieldOptions.CurrentUser.docx");
 ```
 
+## See Also
+
+* Class [UserInformation](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

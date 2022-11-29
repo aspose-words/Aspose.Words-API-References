@@ -6,7 +6,7 @@ type: docs
 weight: 898
 url: /cpp/aspose.words.drawing/shapebase/set_distancetop/
 ---
-## ShapeBase.set_DistanceTop method
+## ShapeBase::set_DistanceTop method
 
 
 Setter for [Aspose::Words::Drawing::ShapeBase::get_DistanceTop](../get_distancetop/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::ShapeBase::get_DistanceTop](../get_distancet
 void Aspose::Words::Drawing::ShapeBase::set_DistanceTop(double value)
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words/comment/set_author/
 ---
-## Comment.set_Author method
+## Comment::set_Author method
 
 
 Setter for [Aspose::Words::Comment::get_Author](../get_author/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Comment::get_Author](../get_author/).
 void Aspose::Words::Comment::set_Author(const System::String &value)
 ```
 
+## See Also
+
+* Class [Comment](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

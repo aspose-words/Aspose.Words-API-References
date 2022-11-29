@@ -69,6 +69,8 @@ class DocumentVisitor : public virtual System::Object
 | virtual [VisitSubDocument](./visitsubdocument/)(System::SharedPtr\<Aspose::Words::SubDocument\>) | Called when a subDocument is encountered. |
 | virtual [VisitTableEnd](./visittableend/)(System::SharedPtr\<Aspose::Words::Tables::Table\>) | Called when enumeration of a table has ended. |
 | virtual [VisitTableStart](./visittablestart/)(System::SharedPtr\<Aspose::Words::Tables::Table\>) | Called when enumeration of a table has started. |
+## Remarks
+
 
 With **DocumentVisitor** you can define and execute custom operations that require enumeration over the document tree.
 
@@ -87,7 +89,6 @@ To use **DocumentVisitor**:
 For more information see the Visitor design pattern.
 
 ## Examples
-
 
 
 
@@ -221,3 +222,7 @@ private:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/bookmarkcollection/idx_get/
 ---
-## BookmarkCollection.idx_get(const System::String\&) method
+## BookmarkCollection::idx_get(const System::String\&) method
 
 
 Returns a bookmark by name.
@@ -19,11 +19,12 @@ System::SharedPtr<Aspose::Words::Bookmark> Aspose::Words::BookmarkCollection::id
 | Parameter | Type | Description |
 | --- | --- | --- |
 | bookmarkName | const System::String\& | Case-insensitive name of the bookmark. |
+## Remarks
+
 
 Returns null if the bookmark with the specified name cannot be found.
 
 ## Examples
-
 
 
 
@@ -104,7 +105,13 @@ public:
 };
 ```
 
-## BookmarkCollection.idx_get(int32_t) method
+## See Also
+
+* Class [Bookmark](../../bookmark/)
+* Class [BookmarkCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## BookmarkCollection::idx_get(int32_t) method
 
 
 Returns a bookmark at the specified index.
@@ -117,6 +124,8 @@ System::SharedPtr<Aspose::Words::Bookmark> Aspose::Words::BookmarkCollection::id
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | An index into the collection. |
+## Remarks
+
 
 The index is zero-based.
 
@@ -130,7 +139,6 @@ If index is negative and its absolute value is greater than the number of items 
 
 
 
-
 Shows how to add bookmarks and update their contents. 
 ```cpp
 void CreateUpdateAndPrintBookmarks()
@@ -208,3 +216,9 @@ public:
 };
 ```
 
+## See Also
+
+* Class [Bookmark](../../bookmark/)
+* Class [BookmarkCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

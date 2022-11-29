@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.words.saving/imagesaveoptions/set_imagecolormode/
 ---
-## ImageSaveOptions.set_ImageColorMode method
+## ImageSaveOptions::set_ImageColorMode method
 
 
 Setter for [Aspose::Words::Saving::ImageSaveOptions::get_ImageColorMode](../get_imagecolormode/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Saving::ImageSaveOptions::get_ImageColorMode](../get_
 void Aspose::Words::Saving::ImageSaveOptions::set_ImageColorMode(Aspose::Words::Saving::ImageColorMode value)
 ```
 
+## See Also
+
+* Enum [ImageColorMode](../../imagecolormode/)
+* Class [ImageSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

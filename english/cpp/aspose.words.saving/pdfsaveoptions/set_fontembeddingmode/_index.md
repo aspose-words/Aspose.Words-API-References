@@ -6,7 +6,7 @@ type: docs
 weight: 586
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_fontembeddingmode/
 ---
-## PdfSaveOptions.set_FontEmbeddingMode method
+## PdfSaveOptions::set_FontEmbeddingMode method
 
 
 Setter for [Aspose::Words::Saving::PdfSaveOptions::get_FontEmbeddingMode](../get_fontembeddingmode/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Saving::PdfSaveOptions::get_FontEmbeddingMode](../get
 void Aspose::Words::Saving::PdfSaveOptions::set_FontEmbeddingMode(Aspose::Words::Saving::PdfFontEmbeddingMode value)
 ```
 
+## See Also
+
+* Enum [PdfFontEmbeddingMode](../../pdffontembeddingmode/)
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.drawing/oleformat/getoleentry/
 ---
-## OleFormat.GetOleEntry method
+## OleFormat::GetOleEntry method
 
 
 Gets OLE object data entry.
@@ -22,11 +22,9 @@ System::SharedPtr<System::IO::MemoryStream> Aspose::Words::Drawing::OleFormat::G
 
 ### ReturnValue
 
-
 An OLE data stream or null.
 
 ## Examples
-
 
 
 
@@ -79,3 +77,8 @@ doc->Save(ArtifactsDir + u"Shape.OleLinks.docx");
 }
 ```
 
+## See Also
+
+* Class [OleFormat](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

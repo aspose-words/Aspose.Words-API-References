@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.drawing/textbox/set_internalmarginleft/
 ---
-## TextBox.set_InternalMarginLeft method
+## TextBox::set_InternalMarginLeft method
 
 
 Setter for [Aspose::Words::Drawing::TextBox::get_InternalMarginLeft](../get_internalmarginleft/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::TextBox::get_InternalMarginLeft](../get_inte
 void Aspose::Words::Drawing::TextBox::set_InternalMarginLeft(double value)
 ```
 
+## See Also
+
+* Class [TextBox](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

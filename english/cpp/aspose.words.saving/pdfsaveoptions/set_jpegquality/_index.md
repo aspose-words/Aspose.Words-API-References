@@ -6,7 +6,7 @@ type: docs
 weight: 651
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_jpegquality/
 ---
-## PdfSaveOptions.set_JpegQuality method
+## PdfSaveOptions::set_JpegQuality method
 
 
 Setter for [Aspose::Words::Saving::PdfSaveOptions::get_JpegQuality](../get_jpegquality/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::PdfSaveOptions::get_JpegQuality](../get_jpegq
 void Aspose::Words::Saving::PdfSaveOptions::set_JpegQuality(int32_t value)
 ```
 
+## See Also
+
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

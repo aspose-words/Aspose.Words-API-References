@@ -6,10 +6,10 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.saving/txtsaveoptionsbase/get_exportheadersfootersmode/
 ---
-## TxtSaveOptionsBase.get_ExportHeadersFootersMode method
+## TxtSaveOptionsBase::get_ExportHeadersFootersMode method
 
 
-Specifies the way headers and footers are exported to the text formats. Default value is **PrimaryOnly**.
+Specifies the way headers and footers are exported to the text formats. Default value is [PrimaryOnly](../../txtexportheadersfootersmode/).
 
 ```cpp
 Aspose::Words::Saving::TxtExportHeadersFootersMode Aspose::Words::Saving::TxtSaveOptionsBase::get_ExportHeadersFootersMode() const
@@ -17,7 +17,6 @@ Aspose::Words::Saving::TxtExportHeadersFootersMode Aspose::Words::Saving::TxtSav
 
 
 ## Examples
-
 
 
 
@@ -78,3 +77,9 @@ case TxtExportHeadersFootersMode::None:
 }
 ```
 
+## See Also
+
+* Enum [TxtExportHeadersFootersMode](../../txtexportheadersfootersmode/)
+* Class [TxtSaveOptionsBase](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

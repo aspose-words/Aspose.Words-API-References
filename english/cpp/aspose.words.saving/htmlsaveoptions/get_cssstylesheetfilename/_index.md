@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_cssstylesheetfilename/
 ---
-## HtmlSaveOptions.get_CssStyleSheetFileName method
+## HtmlSaveOptions::get_CssStyleSheetFileName method
 
 
 Specifies the path and the name of the Cascading [Style](../../../aspose.words/style/) Sheet (CSS) file written when a document is exported to HTML. Default is an empty string.
@@ -14,6 +14,8 @@ Specifies the path and the name of the Cascading [Style](../../../aspose.words/s
 ```cpp
 System::String Aspose::Words::Saving::HtmlSaveOptions::get_CssStyleSheetFileName() const
 ```
+
+## Remarks
 
 
 This property has effect only when saving a document to HTML format and external CSS style sheet is requested using [CssStyleSheetType](../get_cssstylesheettype/).
@@ -27,7 +29,6 @@ If the folder specified by this property doesn't exist, it will be created autom
 Another way to specify a folder where external CSS file is saved is to use [ResourceFolder](../get_resourcefolder/).
 
 ## Examples
-
 
 
 
@@ -85,3 +86,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

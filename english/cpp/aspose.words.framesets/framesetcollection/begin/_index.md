@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.framesets/framesetcollection/begin/
 ---
-## FramesetCollection.begin() const method
+## FramesetCollection::begin() const method
 
 
 
@@ -15,7 +15,13 @@ url: /cpp/aspose.words.framesets/framesetcollection/begin/
 const_iterator Aspose::Words::Framesets::FramesetCollection::begin() const noexcept
 ```
 
-## FramesetCollection.begin() method
+## See Also
+
+* Typedef [const_iterator](../const_iterator/)
+* Class [FramesetCollection](../)
+* Namespace [Aspose::Words::Framesets](../../)
+* Library [Aspose.Words](../../../)
+## FramesetCollection::begin() method
 
 
 
@@ -24,3 +30,9 @@ const_iterator Aspose::Words::Framesets::FramesetCollection::begin() const noexc
 iterator Aspose::Words::Framesets::FramesetCollection::begin() noexcept
 ```
 
+## See Also
+
+* Typedef [iterator](../iterator/)
+* Class [FramesetCollection](../)
+* Namespace [Aspose::Words::Framesets](../../)
+* Library [Aspose.Words](../../../)

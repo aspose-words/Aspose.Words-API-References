@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldglossary/
 Implements the GLOSSARY field.
 
 ```cpp
-class FieldGlossary : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldAutoTextCode
+class FieldGlossary : public Aspose::Words::Fields::Field,
+                      public Aspose::Words::Fields::IFieldAutoTextCode
 ```
 
 ## Methods
@@ -45,7 +46,6 @@ class FieldGlossary : public Aspose::Words::Fields::Field, public Aspose::Words:
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 
 ## Examples
-
 
 
 
@@ -93,3 +93,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.AUTOTEXT.GLOSSARY.dotx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldgotobutton/get_displaytext/
 ---
-## FieldGoToButton.get_DisplayText method
+## FieldGoToButton::get_DisplayText method
 
 
 Gets or sets the text of the "button" that appears in the document, such that it can be selected to activate the jump.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldGoToButton::get_DisplayText()
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.GOTOBUTTON.docx");
 ```
 
+## See Also
+
+* Class [FieldGoToButton](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

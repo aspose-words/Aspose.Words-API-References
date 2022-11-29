@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.words.drawing/imagedata/set_contrast/
 ---
-## ImageData.set_Contrast method
+## ImageData::set_Contrast method
 
 
 Setter for [Aspose::Words::Drawing::ImageData::get_Contrast](../get_contrast/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::ImageData::get_Contrast](../get_contrast/).
 void Aspose::Words::Drawing::ImageData::set_Contrast(double value)
 ```
 
+## See Also
+
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

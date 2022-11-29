@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/
 ---
-## FontConfigSubstitutionRule.IsFontConfigAvailable method
+## FontConfigSubstitutionRule::IsFontConfigAvailable method
 
 
 Check if fontconfig utility is available or not.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fonts::FontConfigSubstitutionRule::IsFontConfigAvailable()
 
 
 ## Examples
-
 
 
 
@@ -50,3 +49,8 @@ if (isLinuxOrMac)
 }
 ```
 
+## See Also
+
+* Class [FontConfigSubstitutionRule](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

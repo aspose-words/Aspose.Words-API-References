@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/bookmarkcollection/removeat/
 ---
-## BookmarkCollection.RemoveAt method
+## BookmarkCollection::RemoveAt method
 
 
 Removes a bookmark at the specified index.
@@ -21,7 +21,6 @@ void Aspose::Words::BookmarkCollection::RemoveAt(int32_t index)
 | index | int32_t | The zero-based index of the bookmark to remove. |
 
 ## Examples
-
 
 
 
@@ -78,3 +77,8 @@ ASSERT_EQ(String(u"Text inside MyBookmark_1.\r") + u"Text inside MyBookmark_2.\r
           doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [BookmarkCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

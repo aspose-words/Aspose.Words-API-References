@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.drawing.charts/chartseries/set_hasdatalabels/
 ---
-## ChartSeries.set_HasDataLabels method
+## ChartSeries::set_HasDataLabels method
 
 
 Sets a flag indicating whether data labels are displayed for the series.
@@ -15,3 +15,8 @@ Sets a flag indicating whether data labels are displayed for the series.
 void Aspose::Words::Drawing::Charts::ChartSeries::set_HasDataLabels(bool value)
 ```
 
+## See Also
+
+* Class [ChartSeries](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

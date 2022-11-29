@@ -6,7 +6,7 @@ type: docs
 weight: 950
 url: /cpp/aspose.words.settings/compatibilityoptions/set_aligntablesrowbyrow/
 ---
-## CompatibilityOptions.set_AlignTablesRowByRow method
+## CompatibilityOptions::set_AlignTablesRowByRow method
 
 
 Align Table Rows Independently.
@@ -15,3 +15,8 @@ Align Table Rows Independently.
 void Aspose::Words::Settings::CompatibilityOptions::set_AlignTablesRowByRow(bool value)
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

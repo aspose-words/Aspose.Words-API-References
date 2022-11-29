@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_crosses/
 ---
-## ChartAxis.get_Crosses method
+## ChartAxis::get_Crosses method
 
 
 Specifies how this axis crosses the perpendicular axis.
@@ -15,13 +15,14 @@ Specifies how this axis crosses the perpendicular axis.
 Aspose::Words::Drawing::Charts::AxisCrosses Aspose::Words::Drawing::Charts::ChartAxis::get_Crosses()
 ```
 
+## Remarks
 
-Default value is **Automatic**.
+
+Default value is [Automatic](../../axiscrosses/).
 
 The property is not supported by MS Office 2016 new charts.
 
 ## Examples
-
 
 
 
@@ -71,3 +72,9 @@ ASSERT_TRUE(chart->get_AxisZ() == nullptr);
 doc->Save(ArtifactsDir + u"Charts.AxisProperties.docx");
 ```
 
+## See Also
+
+* Enum [AxisCrosses](../../axiscrosses/)
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

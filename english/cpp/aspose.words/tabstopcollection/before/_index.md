@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/tabstopcollection/before/
 ---
-## TabStopCollection.Before method
+## TabStopCollection::Before method
 
 
 Gets a first tab stop to the left of the specified position.
@@ -22,13 +22,13 @@ System::SharedPtr<Aspose::Words::TabStop> Aspose::Words::TabStopCollection::Befo
 
 ### ReturnValue
 
-
 A tab stop object or null if a suitable tab stop was not found.
+## Remarks
+
 
 Skips tab stops with **Alignment** set to **TabAlignment.Bar**.
 
 ## Examples
-
 
 
 
@@ -70,3 +70,9 @@ ASSERT_EQ(0, paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops()->get_
 doc->Save(ArtifactsDir + u"TabStopCollection.TabStopCollection.docx");
 ```
 
+## See Also
+
+* Class [TabStop](../../tabstop/)
+* Class [TabStopCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fields/fieldadvance/get_verticalposition/
 ---
-## FieldAdvance.get_VerticalPosition method
+## FieldAdvance::get_VerticalPosition method
 
 
 Gets or sets the number of points by which the text that follows the field should be moved vertically from the top edge of the page.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldAdvance::get_VerticalPosition()
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,8 @@ builder->Write(u"This text is in a custom position.");
 doc->Save(ArtifactsDir + u"Field.ADVANCE.docx");
 ```
 
+## See Also
+
+* Class [FieldAdvance](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

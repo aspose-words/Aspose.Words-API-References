@@ -11,6 +11,10 @@ url: /cpp/aspose.words.webextensions/taskpanedockstate/
 
 Enumerates available locations of task pane object.
 
+```cpp
+enum class TaskPaneDockState
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,7 +24,6 @@ Enumerates available locations of task pane object.
 
 
 ## Examples
-
 
 
 
@@ -63,3 +66,7 @@ doc->get_WebExtensionTaskPanes()->Clear();
 ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::WebExtensions](../)
+* Library [Aspose.Words](../../)

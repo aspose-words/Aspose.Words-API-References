@@ -11,6 +11,10 @@ url: /cpp/aspose.words/pageborderappliesto/
 
 Specifies which pages the page border is printed on.
 
+```cpp
+enum class PageBorderAppliesTo
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ Specifies which pages the page border is printed on.
 
 
 ## Examples
-
 
 
 
@@ -43,3 +46,7 @@ border->set_DistanceFromText(0);
 doc->Save(ArtifactsDir + u"PageSetup.PageBorderProperties.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

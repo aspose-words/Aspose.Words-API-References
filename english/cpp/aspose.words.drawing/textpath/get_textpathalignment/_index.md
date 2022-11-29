@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.drawing/textpath/get_textpathalignment/
 ---
-## TextPath.get_TextPathAlignment method
+## TextPath::get_TextPathAlignment method
 
 
 Defines the alignment of text.
@@ -15,11 +15,12 @@ Defines the alignment of text.
 Aspose::Words::Drawing::TextPathAlignment Aspose::Words::Drawing::TextPath::get_TextPathAlignment()
 ```
 
+## Remarks
 
-The default value is **Center**.
+
+The default value is [Center](../../textpathalignment/).
 
 ## Examples
-
 
 
 
@@ -125,3 +126,9 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
 }
 ```
 
+## See Also
+
+* Enum [TextPathAlignment](../../textpathalignment/)
+* Class [TextPath](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

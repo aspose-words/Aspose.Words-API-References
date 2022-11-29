@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.words.replacing/findreplaceoptions/set_ignorefields/
 ---
-## FindReplaceOptions.set_IgnoreFields method
+## FindReplaceOptions::set_IgnoreFields method
 
 
 Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreFields](../get_ignorefields/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreFields](../g
 void Aspose::Words::Replacing::FindReplaceOptions::set_IgnoreFields(bool value)
 ```
 
+## See Also
+
+* Class [FindReplaceOptions](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)

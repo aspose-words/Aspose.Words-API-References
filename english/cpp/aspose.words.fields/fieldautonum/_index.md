@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldautonum/
 Implements the AUTONUM field.
 
 ```cpp
-class FieldAutoNum : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldAutoNum : public Aspose::Words::Fields::Field,
+                     public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -48,7 +49,6 @@ class FieldAutoNum : public Aspose::Words::Fields::Field, public Aspose::Words::
 
 
 
-
 Shows how to number paragraphs using autonum fields. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -78,3 +78,8 @@ ASSERT_EQ(u" AUTONUM  \\s :", field->GetFieldCode());
 doc->Save(ArtifactsDir + u"Field.AUTONUM.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

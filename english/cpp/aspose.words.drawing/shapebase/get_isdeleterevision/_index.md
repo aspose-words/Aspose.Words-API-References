@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.words.drawing/shapebase/get_isdeleterevision/
 ---
-## ShapeBase.get_IsDeleteRevision method
+## ShapeBase::get_IsDeleteRevision method
 
 
 Returns true if this object was deleted in Microsoft Word while change tracking was enabled.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::ShapeBase::get_IsDeleteRevision()
 
 
 ## Examples
-
 
 
 
@@ -62,3 +61,8 @@ ASSERT_EQ(ShapeType::Sun, shapes[1]->get_ShapeType());
 ASSERT_TRUE(shapes[1]->get_IsInsertRevision());
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

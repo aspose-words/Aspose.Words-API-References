@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/aspose.words/documentbuilder/inserthyperlink/
 ---
-## DocumentBuilder.InsertHyperlink method
+## DocumentBuilder::InsertHyperlink method
 
 
 Inserts a hyperlink into the document.
@@ -24,15 +24,15 @@ System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::DocumentBuilder::
 
 ### ReturnValue
 
-
 A [Field](../../../aspose.words.fields/field/) object that represents the inserted field.
+## Remarks
+
 
 Note that you need to specify font formatting for the hyperlink display text explicitly using the [Font](../get_font/) property.
 
-This methods internally calls **InsertField()** to insert an MS Word HYPERLINK field into the document.
+This methods internally calls [InsertField()](../) to insert an MS Word HYPERLINK field into the document.
 
 ## Examples
-
 
 
 
@@ -107,3 +107,9 @@ builder->InsertHyperlink(u"Link to Bookmark1", u"Bookmark1\" \\o \"Hyperlink Tip
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 ```
 
+## See Also
+
+* Class [Field](../../../aspose.words.fields/field/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

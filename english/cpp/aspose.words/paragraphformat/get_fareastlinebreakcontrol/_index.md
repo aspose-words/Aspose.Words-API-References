@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words/paragraphformat/get_fareastlinebreakcontrol/
 ---
-## ParagraphFormat.get_FarEastLineBreakControl method
+## ParagraphFormat::get_FarEastLineBreakControl method
 
 
 Gets or sets a flag indicating whether East Asian line-breaking rules are applied to the current paragraph.
@@ -17,7 +17,6 @@ bool Aspose::Words::ParagraphFormat::get_FarEastLineBreakControl()
 
 
 ## Examples
-
 
 
 
@@ -33,3 +32,8 @@ format->set_HangingPunctuation(true);
 doc->Save(ArtifactsDir + u"ParagraphFormat.AsianTypographyProperties.docx");
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

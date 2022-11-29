@@ -6,7 +6,7 @@ type: docs
 weight: 612
 url: /cpp/aspose.words/font/get_themefont/
 ---
-## Font.get_ThemeFont method
+## Font::get_ThemeFont method
 
 
 Gets or sets the theme font in the applied font scheme that is associated with this [Font](../) object.
@@ -17,7 +17,6 @@ Aspose::Words::Themes::ThemeFont Aspose::Words::Font::get_ThemeFont()
 
 
 ## Examples
-
 
 
 
@@ -120,3 +119,9 @@ builder->get_ParagraphFormat()->set_StyleName(u"ThemedStyle");
 builder->Writeln(u"Text with themed style");
 ```
 
+## See Also
+
+* Enum [ThemeFont](../../../aspose.words.themes/themefont/)
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

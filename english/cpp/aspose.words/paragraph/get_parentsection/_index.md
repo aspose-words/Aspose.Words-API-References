@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.words/paragraph/get_parentsection/
 ---
-## Paragraph.get_ParentSection method
+## Paragraph::get_ParentSection method
 
 
 Retrieves the parent [Section](../../section/) of the paragraph.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Section> Aspose::Words::Paragraph::get_ParentSe
 
 
 ## Examples
-
 
 
 
@@ -52,3 +51,9 @@ ASPOSE_ASSERT_EQ(footer->get_ParentSection(), header->get_ParentSection());
 doc->Save(ArtifactsDir + u"HeaderFooter.Create.docx");
 ```
 
+## See Also
+
+* Class [Section](../../section/)
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

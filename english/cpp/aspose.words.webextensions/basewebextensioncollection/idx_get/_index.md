@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/idx_get/
 ---
-## BaseWebExtensionCollection.idx_get method
+## BaseWebExtensionCollection::idx_get method
 
 
 Gets or sets an item at the specified index.
@@ -21,7 +21,6 @@ T Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::idx_get(int32_t i
 | index | int32_t | Zero-based index of the item. |
 
 ## Examples
-
 
 
 
@@ -49,3 +48,8 @@ doc->get_WebExtensionTaskPanes()->Remove(0);
 ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ```
 
+## See Also
+
+* Class [BaseWebExtensionCollection](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

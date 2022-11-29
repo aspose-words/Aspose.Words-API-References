@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words/tablestyle/set_bidi/
 ---
-## TableStyle.set_Bidi method
+## TableStyle::set_Bidi method
 
 
 Setter for [Aspose::Words::TableStyle::get_Bidi](../get_bidi/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::TableStyle::get_Bidi](../get_bidi/).
 void Aspose::Words::TableStyle::set_Bidi(bool value)
 ```
 
+## See Also
+
+* Class [TableStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

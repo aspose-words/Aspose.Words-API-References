@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.tables/cell/get_islastcell/
 ---
-## Cell.get_IsLastCell method
+## Cell::get_IsLastCell method
 
 
 True if this is the last cell inside a row; false otherwise.
@@ -17,7 +17,6 @@ bool Aspose::Words::Tables::Cell::get_IsLastCell()
 
 
 ## Examples
-
 
 
 
@@ -158,3 +157,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Cell](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

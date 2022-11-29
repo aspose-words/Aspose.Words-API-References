@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.fonts/fontinfo/getembeddedfontasopentype/
 ---
-## FontInfo.GetEmbeddedFontAsOpenType method
+## FontInfo::GetEmbeddedFontAsOpenType method
 
 
 Gets an embedded font file in OpenType format. [Fonts](../../) in Embedded OpenType format are converted to OpenType.
@@ -22,11 +22,9 @@ System::ArrayPtr<uint8_t> Aspose::Words::Fonts::FontInfo::GetEmbeddedFontAsOpenT
 
 ### ReturnValue
 
-
 Returns **null** if the specified font is not embedded.
 
 ## Examples
-
 
 
 
@@ -55,3 +53,9 @@ embeddedFontBytes = doc->get_FontInfos()->idx_get(u"Alte DIN 1451 Mittelschrift"
 System::IO::File::WriteAllBytes(ArtifactsDir + u"Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);
 ```
 
+## See Also
+
+* Enum [EmbeddedFontStyle](../../embeddedfontstyle/)
+* Class [FontInfo](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.drawing.charts/chartnumberformat/set_islinkedtosource/
 ---
-## ChartNumberFormat.set_IsLinkedToSource method
+## ChartNumberFormat::set_IsLinkedToSource method
 
 
 Setter for [Aspose::Words::Drawing::Charts::ChartNumberFormat::get_IsLinkedToSource](../get_islinkedtosource/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::Charts::ChartNumberFormat::get_IsLinkedToSou
 void Aspose::Words::Drawing::Charts::ChartNumberFormat::set_IsLinkedToSource(bool value)
 ```
 
+## See Also
+
+* Class [ChartNumberFormat](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

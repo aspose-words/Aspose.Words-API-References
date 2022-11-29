@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fieldta/get_longcitation/
 ---
-## FieldTA.get_LongCitation method
+## FieldTA::get_LongCitation method
 
 
 Gets or sets the long citation for the entry.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldTA::get_LongCitation()
 
 
 ## Examples
-
 
 
 
@@ -138,3 +137,8 @@ static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, Str
 }
 ```
 
+## See Also
+
+* Class [FieldTA](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldtoc/fieldtoc/
 ---
-## FieldToc.FieldToc method
+## FieldToc::FieldToc constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.fields/fieldtoc/fieldtoc/
 Aspose::Words::Fields::FieldToc::FieldToc()
 ```
 
+## See Also
+
+* Class [FieldToc](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

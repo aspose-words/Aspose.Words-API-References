@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.markup/customxmlpropertycollection/remove/
 ---
-## CustomXmlPropertyCollection.Remove method
+## CustomXmlPropertyCollection::Remove method
 
 
 Removes a property with the specified name from the collection.
@@ -21,7 +21,6 @@ void Aspose::Words::Markup::CustomXmlPropertyCollection::Remove(const System::St
 | name | const System::String\& | The case-sensitive name of the property. |
 
 ## Examples
-
 
 
 
@@ -76,3 +75,8 @@ properties->Clear();
 ASSERT_EQ(0, properties->get_Count());
 ```
 
+## See Also
+
+* Class [CustomXmlPropertyCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

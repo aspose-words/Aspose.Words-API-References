@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/aspose.words.fields/fieldoptions/set_isbiditextsupportedonupdate/
 ---
-## FieldOptions.set_IsBidiTextSupportedOnUpdate method
+## FieldOptions::set_IsBidiTextSupportedOnUpdate method
 
 
 Setter for [Aspose::Words::Fields::FieldOptions::get_IsBidiTextSupportedOnUpdate](../get_isbiditextsupportedonupdate/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldOptions::get_IsBidiTextSupportedOnUpdate
 void Aspose::Words::Fields::FieldOptions::set_IsBidiTextSupportedOnUpdate(bool value)
 ```
 
+## See Also
+
+* Class [FieldOptions](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -25,7 +25,6 @@ class IMailMergeDataSourceRoot : public virtual System::Object
 
 
 
-
 Performs mail merge from a custom data source with master-detail data. 
 ```cpp
 void CustomDataSourceRoot()
@@ -189,3 +188,7 @@ private:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::MailMerging](../)
+* Library [Aspose.Words](../../)

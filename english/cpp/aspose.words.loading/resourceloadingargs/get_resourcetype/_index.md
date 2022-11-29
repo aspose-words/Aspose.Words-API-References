@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.loading/resourceloadingargs/get_resourcetype/
 ---
-## ResourceLoadingArgs.get_ResourceType method
+## ResourceLoadingArgs::get_ResourceType method
 
 
 Type of resource.
@@ -17,7 +17,6 @@ Aspose::Words::Loading::ResourceType Aspose::Words::Loading::ResourceLoadingArgs
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,9 @@ public:
 };
 ```
 
+## See Also
+
+* Enum [ResourceType](../../resourcetype/)
+* Class [ResourceLoadingArgs](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

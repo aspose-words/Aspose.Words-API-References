@@ -22,11 +22,12 @@ class WarningInfo : public System::Object
 | [get_Description](./get_description/)() const | Returns the description of the warning. |
 | [get_Source](./get_source/)() const | Returns the source of the warning. |
 | [get_WarningType](./get_warningtype/)() const | Returns the type of the warning. |
+## Remarks
+
 
 You do not create instances of this class. Objects of this class are created and passed by Aspose.Words to the [Warning()](../iwarningcallback/warning/) method.
 
 ## Examples
-
 
 
 
@@ -88,3 +89,7 @@ public:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

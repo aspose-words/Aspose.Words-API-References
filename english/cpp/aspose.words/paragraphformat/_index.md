@@ -12,7 +12,8 @@ url: /cpp/aspose.words/paragraphformat/
 Represents all the formatting for a paragraph.
 
 ```cpp
-class ParagraphFormat : public Aspose::Words::IBorderAttrSource, public Aspose::Words::IShadingAttrSource
+class ParagraphFormat : public Aspose::Words::IBorderAttrSource,
+                        public Aspose::Words::IShadingAttrSource
 ```
 
 ## Methods
@@ -100,7 +101,6 @@ class ParagraphFormat : public Aspose::Words::IBorderAttrSource, public Aspose::
 
 
 
-
 Shows how to construct an Aspose.Words document by hand. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -145,3 +145,7 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

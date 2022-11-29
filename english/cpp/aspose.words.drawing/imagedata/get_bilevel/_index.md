@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.drawing/imagedata/get_bilevel/
 ---
-## ImageData.get_BiLevel method
+## ImageData::get_BiLevel method
 
 
 Determines whether an image will be displayed in black and white.
@@ -15,11 +15,12 @@ Determines whether an image will be displayed in black and white.
 bool Aspose::Words::Drawing::ImageData::get_BiLevel()
 ```
 
+## Remarks
+
 
 The default value is **false**.
 
 ## Examples
-
 
 
 
@@ -80,3 +81,8 @@ importedShape->get_ImageData()->set_CropRight(0.3);
 dstDoc->Save(ArtifactsDir + u"Drawing.ImageData.docx");
 ```
 
+## See Also
+
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

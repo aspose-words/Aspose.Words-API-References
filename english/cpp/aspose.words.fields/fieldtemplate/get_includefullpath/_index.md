@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldtemplate/get_includefullpath/
 ---
-## FieldTemplate.get_IncludeFullPath method
+## FieldTemplate::get_IncludeFullPath method
 
 
 Gets or sets whether to include the full file path name.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldTemplate::get_IncludeFullPath()
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.TEMPLATE.docx");
 ```
 
+## See Also
+
+* Class [FieldTemplate](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

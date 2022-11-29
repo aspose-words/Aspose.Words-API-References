@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.replacing/replacingargs/set_groupindex/
 ---
-## ReplacingArgs.set_GroupIndex method
+## ReplacingArgs::set_GroupIndex method
 
 
 Setter for [Aspose::Words::Replacing::ReplacingArgs::get_GroupIndex](../get_groupindex/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Replacing::ReplacingArgs::get_GroupIndex](../get_grou
 void Aspose::Words::Replacing::ReplacingArgs::set_GroupIndex(int32_t value)
 ```
 
+## See Also
+
+* Class [ReplacingArgs](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/nodecollection/getenumerator/
 ---
-## NodeCollection.GetEnumerator method
+## NodeCollection::GetEnumerator method
 
 
 Provides a simple "foreach" style iteration over the collection of nodes.
@@ -18,7 +18,11 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 ### ReturnValue
 
-
 An IEnumerator.
 
+## See Also
 
+* Class [Node](../../node/)
+* Class [NodeCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

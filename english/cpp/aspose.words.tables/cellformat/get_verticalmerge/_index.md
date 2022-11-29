@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.tables/cellformat/get_verticalmerge/
 ---
-## CellFormat.get_VerticalMerge method
+## CellFormat::get_VerticalMerge method
 
 
 Specifies how the cell is merged with other cells vertically.
@@ -15,13 +15,14 @@ Specifies how the cell is merged with other cells vertically.
 Aspose::Words::Tables::CellMerge Aspose::Words::Tables::CellFormat::get_VerticalMerge()
 ```
 
+## Remarks
+
 
 Cells can only be merged vertically if their left and right boundaries are identical.
 
 When cells are vertically merged, the display areas of the merged cells are consolidated. The consolidated area is used to display the contents of the first vertically merged cell and all other vertically merged cells must be empty.
 
 ## Examples
-
 
 
 
@@ -96,3 +97,9 @@ String PrintCellMergeType(SharedPtr<Cell> cell)
 }
 ```
 
+## See Also
+
+* Enum [CellMerge](../../cellmerge/)
+* Class [CellFormat](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

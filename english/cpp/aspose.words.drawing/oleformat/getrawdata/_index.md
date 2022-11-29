@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.drawing/oleformat/getrawdata/
 ---
-## OleFormat.GetRawData method
+## OleFormat::GetRawData method
 
 
 Gets OLE object raw data.
@@ -17,7 +17,6 @@ System::ArrayPtr<uint8_t> Aspose::Words::Drawing::OleFormat::GetRawData()
 
 
 ## Examples
-
 
 
 
@@ -38,3 +37,8 @@ for (const auto& shape : System::IterateOver(doc->GetChildNodes(NodeType::Shape,
 }
 ```
 
+## See Also
+
+* Class [OleFormat](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

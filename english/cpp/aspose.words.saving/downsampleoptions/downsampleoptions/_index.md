@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/downsampleoptions/downsampleoptions/
 ---
-## DownsampleOptions.DownsampleOptions method
+## DownsampleOptions::DownsampleOptions constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.saving/downsampleoptions/downsampleoptions/
 Aspose::Words::Saving::DownsampleOptions::DownsampleOptions()
 ```
 
+## See Also
+
+* Class [DownsampleOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

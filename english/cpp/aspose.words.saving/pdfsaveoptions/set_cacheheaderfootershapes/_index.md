@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_cacheheaderfootershapes/
 ---
-## PdfSaveOptions.set_CacheHeaderFooterShapes method
+## PdfSaveOptions::set_CacheHeaderFooterShapes method
 
 
 Setter for [Aspose::Words::Saving::PdfSaveOptions::get_CacheHeaderFooterShapes](../get_cacheheaderfootershapes/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::PdfSaveOptions::get_CacheHeaderFooterShapes](
 void Aspose::Words::Saving::PdfSaveOptions::set_CacheHeaderFooterShapes(bool value)
 ```
 
+## See Also
+
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

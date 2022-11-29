@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.replacing/findreplaceoptions/findreplaceoptions/
 ---
-## FindReplaceOptions.FindReplaceOptions() method
+## FindReplaceOptions::FindReplaceOptions() constructor
 
 
 
@@ -15,7 +15,12 @@ url: /cpp/aspose.words.replacing/findreplaceoptions/findreplaceoptions/
 Aspose::Words::Replacing::FindReplaceOptions::FindReplaceOptions()
 ```
 
-## FindReplaceOptions.FindReplaceOptions(Aspose::Words::Replacing::FindReplaceDirection) method
+## See Also
+
+* Class [FindReplaceOptions](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)
+## FindReplaceOptions::FindReplaceOptions(Aspose::Words::Replacing::FindReplaceDirection) constructor
 
 
 
@@ -24,7 +29,13 @@ Aspose::Words::Replacing::FindReplaceOptions::FindReplaceOptions()
 Aspose::Words::Replacing::FindReplaceOptions::FindReplaceOptions(Aspose::Words::Replacing::FindReplaceDirection direction)
 ```
 
-## FindReplaceOptions.FindReplaceOptions(Aspose::Words::Replacing::FindReplaceDirection, const System::SharedPtr\<Aspose::Words::Replacing::IReplacingCallback\>\&) method
+## See Also
+
+* Enum [FindReplaceDirection](../../findreplacedirection/)
+* Class [FindReplaceOptions](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)
+## FindReplaceOptions::FindReplaceOptions(Aspose::Words::Replacing::FindReplaceDirection, const System::SharedPtr\<Aspose::Words::Replacing::IReplacingCallback\>\&) constructor
 
 
 
@@ -33,7 +44,14 @@ Aspose::Words::Replacing::FindReplaceOptions::FindReplaceOptions(Aspose::Words::
 Aspose::Words::Replacing::FindReplaceOptions::FindReplaceOptions(Aspose::Words::Replacing::FindReplaceDirection direction, const System::SharedPtr<Aspose::Words::Replacing::IReplacingCallback> &replacingCallback)
 ```
 
-## FindReplaceOptions.FindReplaceOptions(const System::SharedPtr\<Aspose::Words::Replacing::IReplacingCallback\>\&) method
+## See Also
+
+* Enum [FindReplaceDirection](../../findreplacedirection/)
+* Interface [IReplacingCallback](../../ireplacingcallback/)
+* Class [FindReplaceOptions](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)
+## FindReplaceOptions::FindReplaceOptions(const System::SharedPtr\<Aspose::Words::Replacing::IReplacingCallback\>\&) constructor
 
 
 
@@ -42,3 +60,9 @@ Aspose::Words::Replacing::FindReplaceOptions::FindReplaceOptions(Aspose::Words::
 Aspose::Words::Replacing::FindReplaceOptions::FindReplaceOptions(const System::SharedPtr<Aspose::Words::Replacing::IReplacingCallback> &replacingCallback)
 ```
 
+## See Also
+
+* Interface [IReplacingCallback](../../ireplacingcallback/)
+* Class [FindReplaceOptions](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)

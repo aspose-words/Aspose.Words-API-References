@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/headerfootercollection/idx_get/
 ---
-## HeaderFooterCollection.idx_get(Aspose::Words::HeaderFooterType) method
+## HeaderFooterCollection::idx_get(Aspose::Words::HeaderFooterType) method
 
 
 Retrieves a **HeaderFooter** of the specified type.
@@ -21,7 +21,6 @@ System::SharedPtr<Aspose::Words::HeaderFooter> Aspose::Words::HeaderFooterCollec
 | headerFooterType | Aspose::Words::HeaderFooterType | A [HeaderFooterType](../../headerfootertype/) value that specifies the type of the header/footer to retrieve. |
 
 ## Examples
-
 
 
 
@@ -79,7 +78,14 @@ footer->get_Range()->Replace(u"(C) 2006 Aspose Pty Ltd.", String::Format(u"Copyr
 doc->Save(ArtifactsDir + u"HeaderFooter.ReplaceText.docx");
 ```
 
-## HeaderFooterCollection.idx_get(int32_t) method
+## See Also
+
+* Class [HeaderFooter](../../headerfooter/)
+* Enum [HeaderFooterType](../../headerfootertype/)
+* Class [HeaderFooterCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## HeaderFooterCollection::idx_get(int32_t) method
 
 
 Retrieves a **HeaderFooter** at the given index.
@@ -92,6 +98,8 @@ System::SharedPtr<Aspose::Words::HeaderFooter> Aspose::Words::HeaderFooterCollec
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | An index into the collection. |
+## Remarks
+
 
 The index is zero-based.
 
@@ -102,7 +110,6 @@ If index is greater than or equal to the number of items in the list, this retur
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
 
 ## Examples
-
 
 
 
@@ -169,3 +176,9 @@ ASSERT_TRUE(doc->get_Sections()->idx_get(2)->get_HeadersFooters()->idx_get(3)->g
 doc->Save(ArtifactsDir + u"HeaderFooter.Link.docx");
 ```
 
+## See Also
+
+* Class [HeaderFooter](../../headerfooter/)
+* Class [HeaderFooterCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

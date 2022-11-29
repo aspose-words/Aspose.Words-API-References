@@ -11,6 +11,10 @@ url: /cpp/aspose.words/watermarktype/
 
 Specifies the watermark type.
 
+```cpp
+enum class WatermarkType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ Specifies the watermark type.
 
 
 ## Examples
-
 
 
 
@@ -52,3 +55,7 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

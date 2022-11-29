@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_imagesfolder/
 ---
-## HtmlSaveOptions.get_ImagesFolder method
+## HtmlSaveOptions::get_ImagesFolder method
 
 
 Specifies the physical folder where images are saved when exporting a document to HTML format. Default is an empty string.
@@ -14,6 +14,8 @@ Specifies the physical folder where images are saved when exporting a document t
 ```cpp
 System::String Aspose::Words::Saving::HtmlSaveOptions::get_ImagesFolder() const
 ```
+
+## Remarks
 
 
 When you save a [Document](../../../aspose.words/document/) in HTML format, Aspose.Words needs to save all images embedded in the document as standalone files. [ImagesFolder](./) allows you to specify where the images will be saved and [ImagesFolderAlias](../get_imagesfolderalias/) allows to specify how the image URIs will be constructed.
@@ -27,7 +29,6 @@ If the folder specified by [ImagesFolder](./) doesn't exist, it will be created 
 [ResourceFolder](../get_resourcefolder/) is another way to specify a folder where images should be saved.
 
 ## Examples
-
 
 
 
@@ -52,3 +53,8 @@ options->set_ImagesFolder(imagesDir);
 doc->Save(ArtifactsDir + u"HtmlSaveOptions.SaveHtmlWithOptions.html", options);
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

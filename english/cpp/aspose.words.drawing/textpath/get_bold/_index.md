@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.drawing/textpath/get_bold/
 ---
-## TextPath.get_Bold method
+## TextPath::get_Bold method
 
 
 True if the font is formatted as bold.
@@ -15,11 +15,12 @@ True if the font is formatted as bold.
 bool Aspose::Words::Drawing::TextPath::get_Bold()
 ```
 
+## Remarks
+
 
 The default value is **false**.
 
 ## Examples
-
 
 
 
@@ -125,3 +126,8 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
 }
 ```
 
+## See Also
+
+* Class [TextPath](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

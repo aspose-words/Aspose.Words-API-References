@@ -6,7 +6,7 @@ type: docs
 weight: 560
 url: /cpp/aspose.words.drawing/shapebase/get_rotation/
 ---
-## ShapeBase.get_Rotation method
+## ShapeBase::get_Rotation method
 
 
 Defines the angle (in degrees) that a shape is rotated. Positive value corresponds to clockwise rotation angle.
@@ -15,11 +15,12 @@ Defines the angle (in degrees) that a shape is rotated. Positive value correspon
 double Aspose::Words::Drawing::ShapeBase::get_Rotation()
 ```
 
+## Remarks
+
 
 The default value is 0.
 
 ## Examples
-
 
 
 
@@ -39,3 +40,8 @@ shape->set_Rotation(45);
 doc->Save(ArtifactsDir + u"Shape.Rotate.docx");
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

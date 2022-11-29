@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words/font/get_kerning/
 ---
-## Font.get_Kerning method
+## Font::get_Kerning method
 
 
 Gets or sets the font size at which kerning starts.
@@ -17,7 +17,6 @@ double Aspose::Words::Font::get_Kerning()
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,8 @@ builder->Writeln(u"TALLY. (Kerning applied)");
 doc->Save(ArtifactsDir + u"Font.Kerning.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

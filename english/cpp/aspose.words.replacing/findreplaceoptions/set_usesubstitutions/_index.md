@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/aspose.words.replacing/findreplaceoptions/set_usesubstitutions/
 ---
-## FindReplaceOptions.set_UseSubstitutions method
+## FindReplaceOptions::set_UseSubstitutions method
 
 
 Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_UseSubstitutions](../get_usesubstitutions/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_UseSubstitutions](
 void Aspose::Words::Replacing::FindReplaceOptions::set_UseSubstitutions(bool value)
 ```
 
+## See Also
+
+* Class [FindReplaceOptions](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)

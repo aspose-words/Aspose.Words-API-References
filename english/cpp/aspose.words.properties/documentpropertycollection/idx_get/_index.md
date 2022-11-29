@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.properties/documentpropertycollection/idx_get/
 ---
-## DocumentPropertyCollection.idx_get(int32_t) method
+## DocumentPropertyCollection::idx_get(int32_t) method
 
 
 Returns a [DocumentProperty](../../documentproperty/) object by index.
@@ -21,7 +21,6 @@ System::SharedPtr<Aspose::Words::Properties::DocumentProperty> Aspose::Words::Pr
 | index | int32_t | Zero-based index of the [DocumentProperty](../../documentproperty/) to retrieve. |
 
 ## Examples
-
 
 
 
@@ -44,7 +43,13 @@ for (const auto& customDocumentProperty : System::IterateOver(doc->get_CustomDoc
 }
 ```
 
-## DocumentPropertyCollection.idx_get(System::String) method
+## See Also
+
+* Class [DocumentProperty](../../documentproperty/)
+* Class [DocumentPropertyCollection](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)
+## DocumentPropertyCollection::idx_get(System::String) method
 
 
 Returns a [DocumentProperty](../../documentproperty/) object by the name of the property.
@@ -57,11 +62,12 @@ virtual System::SharedPtr<Aspose::Words::Properties::DocumentProperty> Aspose::W
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | System::String | The case-insensitive name of the property to retrieve. |
+## Remarks
+
 
 Returns null if a property with the specified name is not found.
 
 ## Examples
-
 
 
 
@@ -74,3 +80,9 @@ doc->get_CustomDocumentProperties()->Add(u"AuthorizationDate", System::DateTime:
 std::cout << "Document authorized on " << doc->get_CustomDocumentProperties()->idx_get(u"AuthorizationDate")->ToDateTime() << std::endl;
 ```
 
+## See Also
+
+* Class [DocumentProperty](../../documentproperty/)
+* Class [DocumentPropertyCollection](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

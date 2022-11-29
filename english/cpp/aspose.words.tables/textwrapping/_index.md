@@ -11,6 +11,10 @@ url: /cpp/aspose.words.tables/textwrapping/
 
 Specifies how text is wrapped around the table.
 
+```cpp
+enum class TextWrapping
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ Specifies how text is wrapped around the table.
 
 
 ## Examples
-
 
 
 
@@ -50,3 +53,7 @@ table->set_AbsoluteVerticalDistance(20);
 doc->Save(ArtifactsDir + u"Table.WrapText.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Tables](../)
+* Library [Aspose.Words](../../)

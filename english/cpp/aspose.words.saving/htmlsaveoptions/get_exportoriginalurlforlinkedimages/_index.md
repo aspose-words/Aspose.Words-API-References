@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportoriginalurlforlinkedimages/
 ---
-## HtmlSaveOptions.get_ExportOriginalUrlForLinkedImages method
+## HtmlSaveOptions::get_ExportOriginalUrlForLinkedImages method
 
 
 Specifies whether original URL should be used as the URL of the linked images. Default value is **false**.
@@ -15,13 +15,14 @@ Specifies whether original URL should be used as the URL of the linked images. D
 bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportOriginalUrlForLinkedImages() const
 ```
 
+## Remarks
+
 
 If value is set to **true**[SourceFullName](../../../aspose.words.drawing/imagedata/get_sourcefullname/) value is used as the URL of linked images and linked images are not loaded into document's folder or [ImagesFolder](../get_imagesfolder/).
 
 If value is set to **false** linked images are loaded into document's folder or [ImagesFolder](../get_imagesfolder/) and URL of each linked image is constructed depending on document's folder, [ImagesFolder](../get_imagesfolder/) and [ImagesFolderAlias](../get_imagesfolderalias/) properties.
 
 ## Examples
-
 
 
 
@@ -45,3 +46,8 @@ options->set_ExportOriginalUrlForLinkedImages(true);
 doc->Save(ArtifactsDir + u"HtmlSaveOptions.FolderAlias.html", options);
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

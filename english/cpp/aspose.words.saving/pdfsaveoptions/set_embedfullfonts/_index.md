@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_embedfullfonts/
 ---
-## PdfSaveOptions.set_EmbedFullFonts method
+## PdfSaveOptions::set_EmbedFullFonts method
 
 
 Setter for [Aspose::Words::Saving::PdfSaveOptions::get_EmbedFullFonts](../get_embedfullfonts/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::PdfSaveOptions::get_EmbedFullFonts](../get_em
 void Aspose::Words::Saving::PdfSaveOptions::set_EmbedFullFonts(bool value)
 ```
 
+## See Also
+
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

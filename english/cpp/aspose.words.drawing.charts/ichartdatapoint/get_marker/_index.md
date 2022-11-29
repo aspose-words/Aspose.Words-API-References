@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.drawing.charts/ichartdatapoint/get_marker/
 ---
-## IChartDataPoint.get_Marker method
+## IChartDataPoint::get_Marker method
 
 
 Specifies a data marker. Marker is automatically created when requested.
@@ -17,7 +17,6 @@ virtual System::SharedPtr<Aspose::Words::Drawing::Charts::ChartMarker> Aspose::W
 
 
 ## Examples
-
 
 
 
@@ -77,3 +76,9 @@ static void ApplyDataPoints(SharedPtr<ChartSeries> series, int dataPointsCount, 
 }
 ```
 
+## See Also
+
+* Class [ChartMarker](../../chartmarker/)
+* Interface [IChartDataPoint](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

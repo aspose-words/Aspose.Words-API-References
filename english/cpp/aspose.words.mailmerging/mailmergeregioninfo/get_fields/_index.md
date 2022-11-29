@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.mailmerging/mailmergeregioninfo/get_fields/
 ---
-## MailMergeRegionInfo.get_Fields method
+## MailMergeRegionInfo::get_Fields method
 
 
 Returns a list of child fields.
@@ -17,7 +17,6 @@ System::SharedPtr<System::Collections::Generic::IList<System::SharedPtr<Aspose::
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,9 @@ SharedPtr<FieldMergeField> endFieldMergeField = nestedRegions->idx_get(0)->get_E
 ASSERT_EQ(u"TableEnd:NestedRegion1", endFieldMergeField->get_FieldName());
 ```
 
+## See Also
+
+* Class [Field](../../../aspose.words.fields/field/)
+* Class [MailMergeRegionInfo](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

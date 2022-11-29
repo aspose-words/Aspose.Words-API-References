@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing.charts/legendposition/
 
 Specifies the possible positions for a chart legend.
 
+```cpp
+enum class LegendPosition
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -24,7 +28,6 @@ Specifies the possible positions for a chart legend.
 
 
 ## Examples
-
 
 
 
@@ -51,3 +54,7 @@ legend->set_Overlay(true);
 doc->Save(ArtifactsDir + u"Charts.ChartLegend.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing::Charts](../)
+* Library [Aspose.Words](../../)

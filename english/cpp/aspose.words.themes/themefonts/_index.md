@@ -30,7 +30,6 @@ class ThemeFonts : public System::Object
 
 
 
-
 Shows how to set custom colors and fonts for themes. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Theme colors.docx");
@@ -73,3 +72,7 @@ colors->set_FollowedHyperlink(System::Drawing::Color::get_Gray());
 doc->Save(ArtifactsDir + u"Themes.CustomColorsAndFonts.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Themes](../)
+* Library [Aspose.Words](../../)

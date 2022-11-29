@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldinfo/
 Implements the INFO field.
 
 ```cpp
-class FieldInfo : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldInfo : public Aspose::Words::Fields::Field,
+                  public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -50,7 +51,6 @@ class FieldInfo : public Aspose::Words::Fields::Field, public Aspose::Words::Fie
 
 
 
-
 Shows how to work with INFO fields. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -81,3 +81,8 @@ ASSERT_EQ(u"New comment", doc->get_BuiltInDocumentProperties()->get_Comments());
 doc->Save(ArtifactsDir + u"Field.INFO.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

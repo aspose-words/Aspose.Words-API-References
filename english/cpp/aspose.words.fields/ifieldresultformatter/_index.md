@@ -28,7 +28,6 @@ class IFieldResultFormatter : public System::Object
 
 
 
-
 Shows how to automatically apply a custom format to field results as the fields are updated. 
 ```cpp
 void FieldResultFormatting_()
@@ -213,3 +212,7 @@ private:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

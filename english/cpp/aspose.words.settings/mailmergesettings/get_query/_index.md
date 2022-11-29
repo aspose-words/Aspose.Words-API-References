@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words.settings/mailmergesettings/get_query/
 ---
-## MailMergeSettings.get_Query method
+## MailMergeSettings::get_Query method
 
 
 Contains the Structured Query Language string that shall be run against the specified external data source to return the set of records which shall be imported into the document when the mail merge operation is performed. The default value is an empty string.
@@ -15,3 +15,8 @@ Contains the Structured Query Language string that shall be run against the spec
 System::String Aspose::Words::Settings::MailMergeSettings::get_Query() const
 ```
 
+## See Also
+
+* Class [MailMergeSettings](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

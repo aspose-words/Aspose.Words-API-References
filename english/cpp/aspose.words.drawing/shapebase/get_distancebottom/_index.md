@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.drawing/shapebase/get_distancebottom/
 ---
-## ShapeBase.get_DistanceBottom method
+## ShapeBase::get_DistanceBottom method
 
 
 Returns or sets the distance (in points) between the document text and the bottom edge of the shape.
@@ -15,13 +15,14 @@ Returns or sets the distance (in points) between the document text and the botto
 double Aspose::Words::Drawing::ShapeBase::get_DistanceBottom()
 ```
 
+## Remarks
+
 
 The default value is 0.
 
 Has effect only for top level shapes.
 
 ## Examples
-
 
 
 
@@ -53,3 +54,8 @@ builder->Write(String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 doc->Save(ArtifactsDir + u"Shape.Coordinates.docx");
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/document/acceptallrevisions/
 ---
-## Document.AcceptAllRevisions method
+## Document::AcceptAllRevisions method
 
 
 Accepts all tracked changes in the document.
@@ -17,7 +17,6 @@ void Aspose::Words::Document::AcceptAllRevisions()
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,8 @@ ASSERT_EQ(0, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"Hello world! Hello again! This is another revision.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

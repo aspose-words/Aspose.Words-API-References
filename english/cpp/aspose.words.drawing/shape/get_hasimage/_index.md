@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.drawing/shape/get_hasimage/
 ---
-## Shape.get_HasImage method
+## Shape::get_HasImage method
 
 
 Returns true if the shape has image bytes or links an image.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::Shape::get_HasImage()
 
 
 ## Examples
-
 
 
 
@@ -65,3 +64,8 @@ for (const auto& shape : System::IterateOver(shapes->LINQ_OfType<SharedPtr<Shape
 ASSERT_EQ(0, shapes->LINQ_OfType<SharedPtr<Shape>>()->LINQ_Count([](SharedPtr<Shape> s) { return s->get_HasImage(); }));
 ```
 
+## See Also
+
+* Class [Shape](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

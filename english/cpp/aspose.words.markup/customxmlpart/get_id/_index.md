@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.markup/customxmlpart/get_id/
 ---
-## CustomXmlPart.get_Id method
+## CustomXmlPart::get_Id method
 
 
 Gets or sets the string that identifies this custom XML part within an OOXML document.
@@ -14,6 +14,8 @@ Gets or sets the string that identifies this custom XML part within an OOXML doc
 ```cpp
 System::String Aspose::Words::Markup::CustomXmlPart::get_Id() const
 ```
+
+## Remarks
 
 
 ISO/IEC 29500 specifies that this value is a GUID, but old versions of Microsoft Word allowed any string here. Aspose.Words does the same for ECMA-376 format. But note, that Microsoft Word Online fails to open a document created with a non-GUID value. So, a GUID is preferred value for this property.
@@ -23,7 +25,6 @@ A valid value must be an identifier that is unique among all custom XML data par
 The default value is an empty string. The value cannot be **null**.
 
 ## Examples
-
 
 
 
@@ -88,3 +89,8 @@ doc->get_FirstSection()->get_Body()->AppendChild(tag);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.CustomXml.docx");
 ```
 
+## See Also
+
+* Class [CustomXmlPart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

@@ -11,6 +11,10 @@ url: /cpp/aspose.words.layout/showinballoons/
 
 Specifies which revisions are rendered in balloons.
 
+```cpp
+enum class ShowInBalloons
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ Specifies which revisions are rendered in balloons.
 
 
 ## Examples
-
 
 
 
@@ -70,3 +73,7 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 doc->Save(ArtifactsDir + u"Revision.RevisionOptions.pdf");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Layout](../)
+* Library [Aspose.Words](../../)

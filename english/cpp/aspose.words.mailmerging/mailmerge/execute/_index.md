@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.mailmerging/mailmerge/execute/
 ---
-## MailMerge.Execute(const System::ArrayPtr\<System::String\>\&, const System::ArrayPtr\<System::SharedPtr\<System::Object\>\>\&) method
+## MailMerge::Execute(const System::ArrayPtr\<System::String\>\&, const System::ArrayPtr\<System::SharedPtr\<System::Object\>\>\&) method
 
 
 Performs a mail merge operation for a single record.
@@ -20,6 +20,8 @@ void Aspose::Words::MailMerging::MailMerge::Execute(const System::ArrayPtr<Syste
 | --- | --- | --- |
 | fieldNames | const System::ArrayPtr\<System::String\>\& | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
 | values | const System::ArrayPtr\<System::SharedPtr\<System::Object\>\>\& | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
+## Remarks
+
 
 Use this method to fill mail merge fields in the document with values from an array of objects.
 
@@ -27,10 +29,9 @@ This method merges data for one record only. The array of field names and the ar
 
 This method does not use mail merge regions.
 
-This method ignores the **RemoveUnusedRegions** option.
+This method ignores the [RemoveUnusedRegions](../../mailmergecleanupoptions/) option.
 
 ## Examples
-
 
 
 
@@ -57,7 +58,12 @@ doc->get_MailMerge()->Execute(columns, URIs);
 doc->Save(ArtifactsDir + u"MailMergeEvent.ImageFromUrl.docx");
 ```
 
-## MailMerge.Execute(const System::SharedPtr\<Aspose::Words::MailMerging::IMailMergeDataSource\>\&) method
+## See Also
+
+* Class [MailMerge](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)
+## MailMerge::Execute(const System::SharedPtr\<Aspose::Words::MailMerging::IMailMergeDataSource\>\&) method
 
 
 Performs a mail merge from a custom data source.
@@ -70,15 +76,16 @@ void Aspose::Words::MailMerging::MailMerge::Execute(const System::SharedPtr<Aspo
 | Parameter | Type | Description |
 | --- | --- | --- |
 | dataSource | const System::SharedPtr\<Aspose::Words::MailMerging::IMailMergeDataSource\>\& | An object that implements the custom mail merge data source interface. |
+## Remarks
+
 
 Use this method to fill mail merge fields in the document with values from any data source such as a list or hashtable or objects. You need to write your own class that implements the [IMailMergeDataSource](../../imailmergedatasource/) interface.
 
 You can use this method only when [IsBidiTextSupportedOnUpdate](../../../aspose.words.fields/fieldoptions/get_isbiditextsupportedonupdate/) is false, that is you do not need Right-To-Left language (such as Arabic or Hebrew) compatibility.
 
-This method ignores the **RemoveUnusedRegions** option.
+This method ignores the [RemoveUnusedRegions](../../mailmergecleanupoptions/) option.
 
 ## Examples
-
 
 
 
@@ -200,3 +207,9 @@ private:
 };
 ```
 
+## See Also
+
+* Interface [IMailMergeDataSource](../../imailmergedatasource/)
+* Class [MailMerge](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

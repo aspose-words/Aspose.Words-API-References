@@ -6,7 +6,7 @@ type: docs
 weight: 1158
 url: /cpp/aspose.words/document/updatelistlabels/
 ---
-## Document.UpdateListLabels method
+## Document::UpdateListLabels method
 
 
 Updates list labels for all list items in the document.
@@ -15,13 +15,14 @@ Updates list labels for all list items in the document.
 void Aspose::Words::Document::UpdateListLabels()
 ```
 
+## Remarks
+
 
 This method updates list label properties such as [LabelValue](../../../aspose.words.lists/listlabel/get_labelvalue/) and [LabelString](../../../aspose.words.lists/listlabel/get_labelstring/) for each [ListLabel](../../paragraph/get_listlabel/) object in the document.
 
 Also, this method is sometimes implicitly called when updating fields in the document. This is required because some fields that may reference list numbers (such as TOC or REF) need them be up-to-date.
 
 ## Examples
-
 
 
 
@@ -55,3 +56,8 @@ for (auto paragraph : System::IterateOver(
 }
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

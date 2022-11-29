@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/tablestyle/get_bidi/
 ---
-## TableStyle.get_Bidi method
+## TableStyle::get_Bidi method
 
 
 Gets or sets whether this is a style for a right-to-left table.
@@ -15,13 +15,14 @@ Gets or sets whether this is a style for a right-to-left table.
 bool Aspose::Words::TableStyle::get_Bidi()
 ```
 
+## Remarks
+
 
 When **true**, the cells in rows are laid out right to left.
 
 The default value is **false**.
 
 ## Examples
-
 
 
 
@@ -63,3 +64,8 @@ ASSERT_EQ(u"MyTableStyle1", table->get_StyleName());
 doc->Save(ArtifactsDir + u"Table.TableStyleCreation.docx");
 ```
 
+## See Also
+
+* Class [TableStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

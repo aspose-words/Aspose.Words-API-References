@@ -28,7 +28,6 @@ class OlePackage : public System::Object
 
 
 
-
 Shows how insert an OLE object into a document. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -50,3 +49,7 @@ ArrayPtr<uint8_t> zipFileBytes = System::IO::File::ReadAllBytes(DatabaseDir + u"
 doc->Save(ArtifactsDir + u"Shape.InsertOlePackage.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

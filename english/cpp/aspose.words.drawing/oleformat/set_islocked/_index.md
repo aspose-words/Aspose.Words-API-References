@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words.drawing/oleformat/set_islocked/
 ---
-## OleFormat.set_IsLocked method
+## OleFormat::set_IsLocked method
 
 
 Setter for [Aspose::Words::Drawing::OleFormat::get_IsLocked](../get_islocked/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::OleFormat::get_IsLocked](../get_islocked/).
 void Aspose::Words::Drawing::OleFormat::set_IsLocked(bool value)
 ```
 
+## See Also
+
+* Class [OleFormat](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

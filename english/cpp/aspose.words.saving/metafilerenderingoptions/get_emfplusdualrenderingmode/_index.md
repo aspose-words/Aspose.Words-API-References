@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.saving/metafilerenderingoptions/get_emfplusdualrenderingmode/
 ---
-## MetafileRenderingOptions.get_EmfPlusDualRenderingMode method
+## MetafileRenderingOptions::get_EmfPlusDualRenderingMode method
 
 
 Gets or sets a value determining how EMF+ Dual metafiles should be rendered.
@@ -15,15 +15,16 @@ Gets or sets a value determining how EMF+ Dual metafiles should be rendered.
 Aspose::Words::Saving::EmfPlusDualRenderingMode Aspose::Words::Saving::MetafileRenderingOptions::get_EmfPlusDualRenderingMode() const
 ```
 
+## Remarks
+
 
 EMF+ Dual metafiles contains both EMF+ and EMF parts. MS Word and GDI+ always renders EMF+ part. Aspose.Words currently doesn't fully supports all EMF+ records and in some cases rendering result of EMF part looks better then rendering result of EMF+ part.
 
 This option is used only when metafile is rendered as vector graphics. When metafile is rendered to bitmap, EMF+ part is always used.
 
-The default value is **EmfPlusWithFallback**.
+The default value is [EmfPlusWithFallback](../../emfplusdualrenderingmode/).
 
 ## Examples
-
 
 
 
@@ -51,3 +52,9 @@ saveOptions->get_MetafileRenderingOptions()->set_UseEmfEmbeddedToWmf(true);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.RenderMetafile.pdf", saveOptions);
 ```
 
+## See Also
+
+* Enum [EmfPlusDualRenderingMode](../../emfplusdualrenderingmode/)
+* Class [MetafileRenderingOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

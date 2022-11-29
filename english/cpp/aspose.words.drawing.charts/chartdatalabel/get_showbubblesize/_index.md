@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_showbubblesize/
 ---
-## ChartDataLabel.get_ShowBubbleSize method
+## ChartDataLabel::get_ShowBubbleSize method
 
 
 Allows to specify if bubble size is to be displayed for the data labels on a chart. Applies only to Bubble charts. Default value is false.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowBubbleSize()
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,8 @@ for (int i = 0; i < 3; i++)
 doc->Save(ArtifactsDir + u"Charts.Bubble3D.docx");
 ```
 
+## See Also
+
+* Class [ChartDataLabel](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

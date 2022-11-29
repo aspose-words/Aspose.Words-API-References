@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/bordercollection/get_color/
 ---
-## BorderCollection.get_Color method
+## BorderCollection::get_Color method
 
 
 Gets or sets the border color.
@@ -15,13 +15,14 @@ Gets or sets the border color.
 System::Drawing::Color Aspose::Words::BorderCollection::get_Color()
 ```
 
+## Remarks
+
 
 Returns the color of the first border in the collection.
 
 Sets the color of all borders in the collection excluding diagonal borders.
 
 ## Examples
-
 
 
 
@@ -39,3 +40,8 @@ pageSetup->get_Borders()->set_Shadow(true);
 doc->Save(ArtifactsDir + u"PageSetup.PageBorders.docx");
 ```
 
+## See Also
+
+* Class [BorderCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

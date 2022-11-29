@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.drawing/textpath/get_strikethrough/
 ---
-## TextPath.get_StrikeThrough method
+## TextPath::get_StrikeThrough method
 
 
 True if the font is formatted as strikethrough text.
@@ -15,11 +15,12 @@ True if the font is formatted as strikethrough text.
 bool Aspose::Words::Drawing::TextPath::get_StrikeThrough()
 ```
 
+## Remarks
+
 
 The default value is **false**.
 
 ## Examples
-
 
 
 
@@ -125,3 +126,8 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
 }
 ```
 
+## See Also
+
+* Class [TextPath](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

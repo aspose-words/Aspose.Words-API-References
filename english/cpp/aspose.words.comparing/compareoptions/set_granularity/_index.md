@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.comparing/compareoptions/set_granularity/
 ---
-## CompareOptions.set_Granularity method
+## CompareOptions::set_Granularity method
 
 
 Setter for [Aspose::Words::Comparing::CompareOptions::get_Granularity](../get_granularity/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Comparing::CompareOptions::get_Granularity](../get_gr
 void Aspose::Words::Comparing::CompareOptions::set_Granularity(Aspose::Words::Comparing::Granularity value)
 ```
 
+## See Also
+
+* Enum [Granularity](../../granularity/)
+* Class [CompareOptions](../)
+* Namespace [Aspose::Words::Comparing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldformat/get_generalformats/
 ---
-## FieldFormat.get_GeneralFormats method
+## FieldFormat::get_GeneralFormats method
 
 
 Gets a collection of general formats that are applied to a numeric, text or any field result. Corresponds to the \* switches.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Fields::GeneralFormatCollection> Aspose::Words:
 
 
 ## Examples
-
 
 
 
@@ -83,3 +82,9 @@ ASSERT_EQ(u"58", field->get_Result());
 ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 ```
 
+## See Also
+
+* Class [GeneralFormatCollection](../../generalformatcollection/)
+* Class [FieldFormat](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

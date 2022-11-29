@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/aspose.words/document/get_hasrevisions/
 ---
-## Document.get_HasRevisions method
+## Document::get_HasRevisions method
 
 
 Returns **true** if the document has any tracked changes.
@@ -17,7 +17,6 @@ bool Aspose::Words::Document::get_HasRevisions()
 
 
 ## Examples
-
 
 
 
@@ -98,3 +97,8 @@ ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldsymbol/get_dontaffectslinespacing/
 ---
-## FieldSymbol.get_DontAffectsLineSpacing method
+## FieldSymbol::get_DontAffectsLineSpacing method
 
 
 Gets or sets whether the character retrieved by the field affects the line spacing of the paragraph.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldSymbol::get_DontAffectsLineSpacing()
 
 
 ## Examples
-
 
 
 
@@ -71,3 +70,8 @@ builder->Write(u"Line 3");
 doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 ```
 
+## See Also
+
+* Class [FieldSymbol](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

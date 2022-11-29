@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.saving/pclsaveoptions/addprinterfont/
 ---
-## PclSaveOptions.AddPrinterFont method
+## PclSaveOptions::AddPrinterFont method
 
 
 Adds information about font that is uploaded to the printer by manufacturer.
@@ -22,7 +22,6 @@ void Aspose::Words::Saving::PclSaveOptions::AddPrinterFont(const System::String 
 | fontPclName | const System::String\& | Name of the font that is used in Pcl document. |
 
 ## Examples
-
 
 
 
@@ -42,3 +41,8 @@ saveOptions->AddPrinterFont(u"Courier New", u"Courier");
 doc->Save(ArtifactsDir + u"PclSaveOptions.AddPrinterFont.pcl", saveOptions);
 ```
 
+## See Also
+
+* Class [PclSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

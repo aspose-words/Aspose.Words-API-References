@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.loading/languagepreferences/addeditinglanguage/
 ---
-## LanguagePreferences.AddEditingLanguage method
+## LanguagePreferences::AddEditingLanguage method
 
 
 Adds additional editing language.
@@ -17,7 +17,6 @@ void Aspose::Words::Loading::LanguagePreferences::AddEditingLanguage(Aspose::Wor
 
 
 ## Examples
-
 
 
 
@@ -35,3 +34,9 @@ std::cout << (localeIdFarEast == (int)EditingLanguage::Japanese
           << std::endl;
 ```
 
+## See Also
+
+* Enum [EditingLanguage](../../editinglanguage/)
+* Class [LanguagePreferences](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

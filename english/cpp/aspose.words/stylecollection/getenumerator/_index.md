@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words/stylecollection/getenumerator/
 ---
-## StyleCollection.GetEnumerator method
+## StyleCollection::GetEnumerator method
 
 
 Gets an enumerator object that will enumerate styles in the alphabetical order of their names.
@@ -17,7 +17,6 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,9 @@ ASSERT_EQ(4, doc->get_Styles()->get_Count());
 }
 ```
 
+## See Also
+
+* Class [Style](../../style/)
+* Class [StyleCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

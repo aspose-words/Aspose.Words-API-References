@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_scaling/
 ---
-## ChartAxis.get_Scaling method
+## ChartAxis::get_Scaling method
 
 
 Provides access to the scaling options of the axis.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::AxisScaling> Aspose::Words::Dr
 
 
 ## Examples
-
 
 
 
@@ -62,3 +61,9 @@ yAxis->get_Scaling()->set_Maximum(MakeObject<AxisBound>(700.0));
 doc->Save(ArtifactsDir + u"Charts.DateTimeValues.docx");
 ```
 
+## See Also
+
+* Class [AxisScaling](../../axisscaling/)
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

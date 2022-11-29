@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words/comment/removereply/
 ---
-## Comment.RemoveReply method
+## Comment::RemoveReply method
 
 
 Removes the specified reply to this comment.
@@ -21,7 +21,6 @@ void Aspose::Words::Comment::RemoveReply(const System::SharedPtr<Aspose::Words::
 | reply | const System::SharedPtr\<Aspose::Words::Comment\>\& | The comment node of the deleting reply. |
 
 ## Examples
-
 
 
 
@@ -51,3 +50,9 @@ comment->RemoveAllReplies();
 ASSERT_EQ(0, comment->get_Replies()->LINQ_Count());
 ```
 
+## See Also
+
+* Class [Comment](../)
+* Class [Comment](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

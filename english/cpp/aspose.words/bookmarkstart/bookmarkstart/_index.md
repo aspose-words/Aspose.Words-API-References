@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/bookmarkstart/bookmarkstart/
 ---
-## BookmarkStart.BookmarkStart method
+## BookmarkStart::BookmarkStart constructor
 
 
 Initializes a new instance of the [BookmarkStart](../) class.
@@ -22,7 +22,6 @@ Aspose::Words::BookmarkStart::BookmarkStart(const System::SharedPtr<Aspose::Word
 | name | const System::String\& | The name of the bookmark. Cannot be null. |
 
 ## Examples
-
 
 
 
@@ -103,3 +102,9 @@ public:
 };
 ```
 
+## See Also
+
+* Class [DocumentBase](../../documentbase/)
+* Class [BookmarkStart](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

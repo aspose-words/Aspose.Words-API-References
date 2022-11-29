@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldautonumlgl/get_separatorcharacter/
 ---
-## FieldAutoNumLgl.get_SeparatorCharacter method
+## FieldAutoNumLgl::get_SeparatorCharacter method
 
 
 Gets or sets the separator character to be used.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldAutoNumLgl::get_SeparatorCharacter()
 
 
 ## Examples
-
 
 
 
@@ -94,3 +93,8 @@ static void InsertNumberedClause(SharedPtr<DocumentBuilder> builder, String head
 }
 ```
 
+## See Also
+
+* Class [FieldAutoNumLgl](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

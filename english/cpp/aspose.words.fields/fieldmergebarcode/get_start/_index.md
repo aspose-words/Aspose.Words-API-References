@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.fields/fieldmergebarcode/get_start/
 ---
-## FieldMergeBarcode.get_Start method
+## FieldMergeBarcode::get_Start method
 
 
 Gets the node that represents the start of the field.
@@ -15,3 +15,9 @@ Gets the node that represents the start of the field.
 System::SharedPtr<Aspose::Words::Fields::FieldStart> Aspose::Words::Fields::FieldMergeBarcode::get_Start() override
 ```
 
+## See Also
+
+* Class [FieldStart](../../fieldstart/)
+* Class [FieldMergeBarcode](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -24,3 +24,7 @@ class WebExtensionProperty : public System::Object
 | [set_Name](./set_name/)(const System::String\&) | Specifies a custom property name. |
 | [set_Value](./set_value/)(const System::String\&) | Specifies a custom property value. |
 | [WebExtensionProperty](./webextensionproperty/)(const System::String\&, const System::String\&) | Creates web extension custom property with specified name and value. |
+## See Also
+
+* Namespace [Aspose::Words::WebExtensions](../)
+* Library [Aspose.Words](../../)

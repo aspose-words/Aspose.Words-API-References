@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.fields/barcodeparameters/get_facingidentificationmark/
 ---
-## BarcodeParameters.get_FacingIdentificationMark method
+## BarcodeParameters::get_FacingIdentificationMark method
 
 
 Type of a Facing Identification Mark (FIM).
@@ -15,3 +15,8 @@ Type of a Facing Identification Mark (FIM).
 System::String Aspose::Words::Fields::BarcodeParameters::get_FacingIdentificationMark() const
 ```
 
+## See Also
+
+* Class [BarcodeParameters](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

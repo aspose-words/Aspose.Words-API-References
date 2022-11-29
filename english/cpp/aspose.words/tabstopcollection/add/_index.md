@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/tabstopcollection/add/
 ---
-## TabStopCollection.Add(const System::SharedPtr\<Aspose::Words::TabStop\>\&) method
+## TabStopCollection::Add(const System::SharedPtr\<Aspose::Words::TabStop\>\&) method
 
 
 Adds or replaces a tab stop in the collection.
@@ -19,11 +19,12 @@ void Aspose::Words::TabStopCollection::Add(const System::SharedPtr<Aspose::Words
 | Parameter | Type | Description |
 | --- | --- | --- |
 | tabStop | const System::SharedPtr\<Aspose::Words::TabStop\>\& | A tab stop object to add. |
+## Remarks
+
 
 If a tab stop already exists at the specified position, it is replaced.
 
 ## Examples
-
 
 
 
@@ -53,7 +54,13 @@ builder->Writeln(u"Start\tTab 1\tTab 2\tTab 3\tTab 4");
 doc->Save(ArtifactsDir + u"TabStopCollection.AddTabStops.docx");
 ```
 
-## TabStopCollection.Add(double, Aspose::Words::TabAlignment, Aspose::Words::TabLeader) method
+## See Also
+
+* Class [TabStop](../../tabstop/)
+* Class [TabStopCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## TabStopCollection::Add(double, Aspose::Words::TabAlignment, Aspose::Words::TabLeader) method
 
 
 Adds or replaces a tab stop in the collection.
@@ -68,11 +75,12 @@ void Aspose::Words::TabStopCollection::Add(double position, Aspose::Words::TabAl
 | position | double | A position (in points) where to add the tab stop. |
 | alignment | Aspose::Words::TabAlignment | A [TabAlignment](../../tabalignment/) value that specifies the alignment of text at the tab stop. |
 | leader | Aspose::Words::TabLeader | A [TabLeader](../../tableader/) value that specifies the type of the leader line displayed under the tab character. |
+## Remarks
+
 
 If a tab stop already exists at the specified position, it is replaced.
 
 ## Examples
-
 
 
 
@@ -102,3 +110,10 @@ builder->Writeln(u"Start\tTab 1\tTab 2\tTab 3\tTab 4");
 doc->Save(ArtifactsDir + u"TabStopCollection.AddTabStops.docx");
 ```
 
+## See Also
+
+* Enum [TabAlignment](../../tabalignment/)
+* Enum [TabLeader](../../tableader/)
+* Class [TabStopCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

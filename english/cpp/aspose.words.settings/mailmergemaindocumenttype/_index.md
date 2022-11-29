@@ -11,6 +11,10 @@ url: /cpp/aspose.words.settings/mailmergemaindocumenttype/
 
 Specifies the possible types for a mail merge source document.
 
+```cpp
+enum class MailMergeMainDocumentType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -22,7 +26,10 @@ Specifies the possible types for a mail merge source document.
 | Catalog | 8 | Specifies that the mail merge source document is of the catalog type. |
 | Email | 16 | Specifies that the mail merge source document is of the e-mail message type. |
 | Fax | 32 | Specifies that the mail merge source document is of the fax type. |
-| Default | n/a | Equals to **NotAMergeDocument** |
+| Default | n/a | Equals to [NotAMergeDocument](./) |
 
 
+## See Also
 
+* Namespace [Aspose::Words::Settings](../)
+* Library [Aspose.Words](../../)

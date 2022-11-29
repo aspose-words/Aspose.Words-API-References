@@ -6,10 +6,10 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.saving/pdfencryptiondetails/get_permissions/
 ---
-## PdfEncryptionDetails.get_Permissions method
+## PdfEncryptionDetails::get_Permissions method
 
 
-Specifies the operations that are allowed to a user on an encrypted PDF document. The default value is **DisallowAll**.
+Specifies the operations that are allowed to a user on an encrypted PDF document. The default value is [DisallowAll](../../pdfpermissions/).
 
 ```cpp
 Aspose::Words::Saving::PdfPermissions Aspose::Words::Saving::PdfEncryptionDetails::get_Permissions() const
@@ -17,7 +17,6 @@ Aspose::Words::Saving::PdfPermissions Aspose::Words::Saving::PdfEncryptionDetail
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,9 @@ saveOptions->set_EncryptionDetails(encryptionDetails);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 
+## See Also
+
+* Enum [PdfPermissions](../../pdfpermissions/)
+* Class [PdfEncryptionDetails](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

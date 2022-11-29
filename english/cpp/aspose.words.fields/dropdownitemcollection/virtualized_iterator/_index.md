@@ -15,3 +15,8 @@ url: /cpp/aspose.words.fields/dropdownitemcollection/virtualized_iterator/
 using Aspose::Words::Fields::DropDownItemCollection::virtualized_iterator =  typename iterator_holder_type::virtualized_iterator
 ```
 
+## See Also
+
+* Class [DropDownItemCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

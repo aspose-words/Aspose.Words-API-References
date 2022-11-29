@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fonts/folderfontsource/get_type/
 ---
-## FolderFontSource.get_Type method
+## FolderFontSource::get_Type method
 
 
 Returns the type of the font source.
@@ -17,7 +17,6 @@ Aspose::Words::Fonts::FontSourceType Aspose::Words::Fonts::FolderFontSource::get
 
 
 ## Examples
-
 
 
 
@@ -36,3 +35,9 @@ ASSERT_EQ(FontSourceType::FontsFolder, folderFontSource->get_Type());
 ASSERT_EQ(1, folderFontSource->get_Priority());
 ```
 
+## See Also
+
+* Enum [FontSourceType](../../fontsourcetype/)
+* Class [FolderFontSource](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

@@ -11,6 +11,10 @@ url: /cpp/aspose.words/numberstyle/
 
 Specifies the number style for a list, footnotes and endnotes, page numbers.
 
+```cpp
+enum class NumberStyle
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -83,7 +87,6 @@ Specifies the number style for a list, footnotes and endnotes, page numbers.
 
 
 
-
 Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../documentbuilder/). 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -137,3 +140,7 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateCustomList.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

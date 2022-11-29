@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words/document/get_builtindocumentproperties/
 ---
-## Document.get_BuiltInDocumentProperties method
+## Document::get_BuiltInDocumentProperties method
 
 
 Returns a collection that represents all the built-in document properties of the document.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Properties::BuiltInDocumentProperties> Aspose::
 
 
 ## Examples
-
 
 
 
@@ -52,3 +51,9 @@ for (const auto& docProperty : System::IterateOver(doc->get_BuiltInDocumentPrope
 }
 ```
 
+## See Also
+
+* Class [BuiltInDocumentProperties](../../../aspose.words.properties/builtindocumentproperties/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

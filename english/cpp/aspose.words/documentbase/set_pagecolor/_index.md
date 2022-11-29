@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words/documentbase/set_pagecolor/
 ---
-## DocumentBase.set_PageColor method
+## DocumentBase::set_PageColor method
 
 
 Setter for [Aspose::Words::DocumentBase::get_PageColor](../get_pagecolor/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::DocumentBase::get_PageColor](../get_pagecolor/).
 void Aspose::Words::DocumentBase::set_PageColor(System::Drawing::Color value)
 ```
 
+## See Also
+
+* Class [DocumentBase](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

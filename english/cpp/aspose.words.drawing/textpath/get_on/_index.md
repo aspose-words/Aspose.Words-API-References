@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.drawing/textpath/get_on/
 ---
-## TextPath.get_On method
+## TextPath::get_On method
 
 
 Defines whether the text is displayed.
@@ -15,11 +15,12 @@ Defines whether the text is displayed.
 bool Aspose::Words::Drawing::TextPath::get_On()
 ```
 
+## Remarks
+
 
 The default value is **false**.
 
 ## Examples
-
 
 
 
@@ -125,3 +126,8 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
 }
 ```
 
+## See Also
+
+* Class [TextPath](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

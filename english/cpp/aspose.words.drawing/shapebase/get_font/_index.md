@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.drawing/shapebase/get_font/
 ---
-## ShapeBase.get_Font method
+## ShapeBase::get_Font method
 
 
 Provides access to the font formatting of this object.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Font> Aspose::Words::Drawing::ShapeBase::get_Fo
 
 
 ## Examples
-
 
 
 
@@ -53,3 +52,9 @@ builder->Writeln(u"\nThis text is outside the text box.");
 doc->Save(ArtifactsDir + u"Shape.Font.docx");
 ```
 
+## See Also
+
+* Class [Font](../../../aspose.words/font/)
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

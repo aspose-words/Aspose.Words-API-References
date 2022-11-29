@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.loading/htmlloadoptions/htmlloadoptions/
 ---
-## HtmlLoadOptions.HtmlLoadOptions() method
+## HtmlLoadOptions::HtmlLoadOptions() constructor
 
 
 Initializes a new instance of this class with default values.
@@ -17,7 +17,6 @@ Aspose::Words::Loading::HtmlLoadOptions::HtmlLoadOptions()
 
 
 ## Examples
-
 
 
 
@@ -44,7 +43,12 @@ else
 }
 ```
 
-## HtmlLoadOptions.HtmlLoadOptions(Aspose::Words::LoadFormat, const System::String\&, const System::String\&) method
+## See Also
+
+* Class [HtmlLoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)
+## HtmlLoadOptions::HtmlLoadOptions(Aspose::Words::LoadFormat, const System::String\&, const System::String\&) constructor
 
 
 A shortcut to initialize a new instance of this class with properties set to the specified values.
@@ -61,7 +65,6 @@ Aspose::Words::Loading::HtmlLoadOptions::HtmlLoadOptions(Aspose::Words::LoadForm
 | baseUri | const System::String\& | The string that will be used to resolve relative URIs to absolute. Can be null or empty string. |
 
 ## Examples
-
 
 
 
@@ -84,7 +87,13 @@ ASSERT_TRUE(imageShape->get_IsImage());
 doc->Save(ArtifactsDir + u"HtmlLoadOptions.BaseUri.docx");
 ```
 
-## HtmlLoadOptions.HtmlLoadOptions(const System::String\&) method
+## See Also
+
+* Enum [LoadFormat](../../../aspose.words/loadformat/)
+* Class [HtmlLoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)
+## HtmlLoadOptions::HtmlLoadOptions(const System::String\&) constructor
 
 
 A shortcut to initialize a new instance of this class with the specified password to load an encrypted document.
@@ -99,7 +108,6 @@ Aspose::Words::Loading::HtmlLoadOptions::HtmlLoadOptions(const System::String &p
 | password | const System::String\& | The password to open an encrypted document. Can be null or empty string. |
 
 ## Examples
-
 
 
 
@@ -128,3 +136,8 @@ auto doc = MakeObject<Document>(outputFileName, loadOptions);
 ASSERT_EQ(u"Test encrypted document.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [HtmlLoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

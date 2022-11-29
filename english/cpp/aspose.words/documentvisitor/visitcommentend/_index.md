@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words/documentvisitor/visitcommentend/
 ---
-## DocumentVisitor.VisitCommentEnd method
+## DocumentVisitor::VisitCommentEnd method
 
 
 Called when enumeration of a comment text has ended.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitCommen
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -123,3 +121,10 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [Comment](../../comment/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

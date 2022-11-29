@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words/compositenode/selectsinglenode/
 ---
-## CompositeNode.SelectSingleNode method
+## CompositeNode::SelectSingleNode method
 
 
 Selects the first [Node](../../node/) that matches the XPath expression.
@@ -22,9 +22,15 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::CompositeNode::SelectSingl
 
 ### ReturnValue
 
-
 The first [Node](../../node/) that matches the XPath query or null if no matching node is found.
+## Remarks
+
 
 Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
+## See Also
 
+* Class [Node](../../node/)
+* Class [CompositeNode](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

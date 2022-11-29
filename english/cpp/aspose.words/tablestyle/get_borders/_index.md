@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/tablestyle/get_borders/
 ---
-## TableStyle.get_Borders method
+## TableStyle::get_Borders method
 
 
 Gets the collection of default cell borders for the style.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::BorderCollection> Aspose::Words::TableStyle::ge
 
 
 ## Examples
-
 
 
 
@@ -59,3 +58,9 @@ ASSERT_EQ(u"MyTableStyle1", table->get_StyleName());
 doc->Save(ArtifactsDir + u"Table.TableStyleCreation.docx");
 ```
 
+## See Also
+
+* Class [BorderCollection](../../bordercollection/)
+* Class [TableStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

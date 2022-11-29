@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.digitalsignatures/certificateholder/get_certificate/
 ---
-## CertificateHolder.get_Certificate method
+## CertificateHolder::get_Certificate method
 
 
 Returns the instance of **X509Certificate2** which holds private, public keys and certificate chain.
@@ -18,11 +18,9 @@ System::SharedPtr<System::Security::Cryptography::X509Certificates::X509Certific
 
 ### ReturnValue
 
-
 **X509Certificate2** instance
 
 ## Examples
-
 
 
 
@@ -42,3 +40,8 @@ for (const auto& signature : doc->get_DigitalSignatures())
 }
 ```
 
+## See Also
+
+* Class [CertificateHolder](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)

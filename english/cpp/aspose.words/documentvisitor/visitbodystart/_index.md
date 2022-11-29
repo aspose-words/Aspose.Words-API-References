@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/documentvisitor/visitbodystart/
 ---
-## DocumentVisitor.VisitBodyStart method
+## DocumentVisitor::VisitBodyStart method
 
 
 Called when enumeration of the main text story in a section has started.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitBodySt
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -160,3 +158,10 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [Body](../../body/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

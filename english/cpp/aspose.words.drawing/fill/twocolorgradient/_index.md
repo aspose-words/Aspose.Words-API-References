@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/aspose.words.drawing/fill/twocolorgradient/
 ---
-## Fill.TwoColorGradient(Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant) method
+## Fill::TwoColorGradient(Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant) method
 
 
 Sets the specified fill to a two-color gradient.
@@ -22,7 +22,6 @@ void Aspose::Words::Drawing::Fill::TwoColorGradient(Aspose::Words::Drawing::Grad
 | variant | Aspose::Words::Drawing::GradientVariant | The gradient variant [GradientVariant](../../gradientvariant/) |
 
 ## Examples
-
 
 
 
@@ -62,7 +61,14 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 doc->Save(ArtifactsDir + u"Shape.GradientFill.docx", saveOptions);
 ```
 
-## Fill.TwoColorGradient(System::Drawing::Color, System::Drawing::Color, Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant) method
+## See Also
+
+* Enum [GradientStyle](../../gradientstyle/)
+* Enum [GradientVariant](../../gradientvariant/)
+* Class [Fill](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)
+## Fill::TwoColorGradient(System::Drawing::Color, System::Drawing::Color, Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant) method
 
 
 Sets the specified fill to a two-color gradient.
@@ -83,7 +89,6 @@ void Aspose::Words::Drawing::Fill::TwoColorGradient(System::Drawing::Color color
 
 
 
-
 Shows how to fill a shape with a gradients. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -120,3 +125,10 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 doc->Save(ArtifactsDir + u"Shape.GradientFill.docx", saveOptions);
 ```
 
+## See Also
+
+* Enum [GradientStyle](../../gradientstyle/)
+* Enum [GradientVariant](../../gradientvariant/)
+* Class [Fill](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

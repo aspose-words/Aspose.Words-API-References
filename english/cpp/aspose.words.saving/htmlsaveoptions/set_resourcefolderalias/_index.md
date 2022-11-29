@@ -6,7 +6,7 @@ type: docs
 weight: 1132
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_resourcefolderalias/
 ---
-## HtmlSaveOptions.set_ResourceFolderAlias method
+## HtmlSaveOptions::set_ResourceFolderAlias method
 
 
 Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ResourceFolderAlias](../get_resourcefolderalias/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ResourceFolderAlias](../
 void Aspose::Words::Saving::HtmlSaveOptions::set_ResourceFolderAlias(const System::String &value)
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

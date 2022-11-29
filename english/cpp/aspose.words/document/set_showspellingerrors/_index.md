@@ -6,7 +6,7 @@ type: docs
 weight: 1041
 url: /cpp/aspose.words/document/set_showspellingerrors/
 ---
-## Document.set_ShowSpellingErrors method
+## Document::set_ShowSpellingErrors method
 
 
 Setter for [Aspose::Words::Document::get_ShowSpellingErrors](../get_showspellingerrors/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Document::get_ShowSpellingErrors](../get_showspelling
 void Aspose::Words::Document::set_ShowSpellingErrors(bool value)
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

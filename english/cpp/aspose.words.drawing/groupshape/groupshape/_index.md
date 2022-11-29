@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.drawing/groupshape/groupshape/
 ---
-## GroupShape.GroupShape method
+## GroupShape::GroupShape constructor
 
 
 Creates a new group shape.
@@ -19,13 +19,14 @@ Aspose::Words::Drawing::GroupShape::GroupShape(const System::SharedPtr<Aspose::W
 | Parameter | Type | Description |
 | --- | --- | --- |
 | doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
+## Remarks
+
 
 By default, the shape is floating and has default location and size.
 
 You should specify desired shape properties after you created a shape.
 
 ## Examples
-
 
 
 
@@ -109,3 +110,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [DocumentBase](../../../aspose.words/documentbase/)
+* Class [GroupShape](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

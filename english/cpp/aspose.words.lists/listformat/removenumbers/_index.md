@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.lists/listformat/removenumbers/
 ---
-## ListFormat.RemoveNumbers method
+## ListFormat::RemoveNumbers method
 
 
 Removes numbers or bullets from the current paragraph and sets list level to zero.
@@ -15,11 +15,12 @@ Removes numbers or bullets from the current paragraph and sets list level to zer
 void Aspose::Words::Lists::ListFormat::RemoveNumbers()
 ```
 
+## Remarks
+
 
 Calling this method is equivalent to setting the [List](../get_list/) property to null.
 
 ## Examples
-
 
 
 
@@ -126,3 +127,8 @@ for (const auto& paragraph : System::IterateOver<Paragraph>(paras))
 ASSERT_EQ(0, paras->LINQ_Count([](SharedPtr<Node> n) { return System::DynamicCast<Paragraph>(n)->get_ListFormat()->get_IsListItem(); }));
 ```
 
+## See Also
+
+* Class [ListFormat](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/comment/addreply/
 ---
-## Comment.AddReply method
+## Comment::AddReply method
 
 
 Adds a reply to this comment.
@@ -25,11 +25,9 @@ System::SharedPtr<Aspose::Words::Comment> Aspose::Words::Comment::AddReply(const
 
 ### ReturnValue
 
-
 The created [Comment](../) node for the reply.
 
 ## Examples
-
 
 
 
@@ -61,3 +59,9 @@ ASPOSE_ASSERT_EQ(comment, comment->get_Replies()->idx_get(0)->get_Ancestor());
 doc->Save(ArtifactsDir + u"Comment.AddCommentWithReply.docx");
 ```
 
+## See Also
+
+* Class [Comment](../)
+* Class [Comment](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

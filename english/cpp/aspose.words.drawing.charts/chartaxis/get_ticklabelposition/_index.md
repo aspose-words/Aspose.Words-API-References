@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelposition/
 ---
-## ChartAxis.get_TickLabelPosition method
+## ChartAxis::get_TickLabelPosition method
 
 
 Returns or sets the position of the tick labels on the axis.
@@ -17,7 +17,6 @@ Aspose::Words::Drawing::Charts::AxisTickLabelPosition Aspose::Words::Drawing::Ch
 
 
 ## Examples
-
 
 
 
@@ -67,3 +66,9 @@ ASSERT_TRUE(chart->get_AxisZ() == nullptr);
 doc->Save(ArtifactsDir + u"Charts.AxisProperties.docx");
 ```
 
+## See Also
+
+* Enum [AxisTickLabelPosition](../../axisticklabelposition/)
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

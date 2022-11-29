@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.markup/customxmlschemacollection/add/
 ---
-## CustomXmlSchemaCollection.Add method
+## CustomXmlSchemaCollection::Add method
 
 
 Adds an item to the collection.
@@ -21,7 +21,6 @@ void Aspose::Words::Markup::CustomXmlSchemaCollection::Add(const System::String 
 | value | const System::String\& | The item to add. |
 
 ## Examples
-
 
 
 
@@ -67,3 +66,8 @@ schemas->Clear();
 ASSERT_EQ(0, schemas->get_Count());
 ```
 
+## See Also
+
+* Class [CustomXmlSchemaCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

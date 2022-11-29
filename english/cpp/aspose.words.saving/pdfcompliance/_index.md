@@ -11,6 +11,10 @@ url: /cpp/aspose.words.saving/pdfcompliance/
 
 Specifies the PDF standards compliance level.
 
+```cpp
+enum class PdfCompliance
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -26,7 +30,6 @@ Specifies the PDF standards compliance level.
 
 
 ## Examples
-
 
 
 
@@ -49,3 +52,7 @@ saveOptions->set_Compliance(pdfCompliance);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.Compliance.pdf", saveOptions);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

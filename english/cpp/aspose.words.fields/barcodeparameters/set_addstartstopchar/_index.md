@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.fields/barcodeparameters/set_addstartstopchar/
 ---
-## BarcodeParameters.set_AddStartStopChar method
+## BarcodeParameters::set_AddStartStopChar method
 
 
 Whether to add Start/Stop characters for barcode types NW7 and CODE39.
@@ -15,3 +15,8 @@ Whether to add Start/Stop characters for barcode types NW7 and CODE39.
 void Aspose::Words::Fields::BarcodeParameters::set_AddStartStopChar(bool value)
 ```
 
+## See Also
+
+* Class [BarcodeParameters](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

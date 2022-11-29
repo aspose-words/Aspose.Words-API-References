@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.rendering/thumbnailgeneratingoptions/thumbnailgeneratingoptions/
 ---
-## ThumbnailGeneratingOptions.ThumbnailGeneratingOptions method
+## ThumbnailGeneratingOptions::ThumbnailGeneratingOptions constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.rendering/thumbnailgeneratingoptions/thumbnailgeneratingo
 Aspose::Words::Rendering::ThumbnailGeneratingOptions::ThumbnailGeneratingOptions()
 ```
 
+## See Also
+
+* Class [ThumbnailGeneratingOptions](../)
+* Namespace [Aspose::Words::Rendering](../../)
+* Library [Aspose.Words](../../../)

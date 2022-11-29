@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/editablerange/get_singleuser/
 ---
-## EditableRange.get_SingleUser method
+## EditableRange::get_SingleUser method
 
 
 Returns or sets the single user for editable range.
@@ -14,6 +14,8 @@ Returns or sets the single user for editable range.
 ```cpp
 System::String Aspose::Words::EditableRange::get_SingleUser()
 ```
+
+## Remarks
 
 
 This editor can be stored in one of the following forms:
@@ -27,7 +29,6 @@ user - for users whose access shall be authenticated using the current user's ma
 Single user and editor group cannot be set simultaneously for the specific editable range, if the one is set, the other will be clear.
 
 ## Examples
-
 
 
 
@@ -133,3 +134,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [EditableRange](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

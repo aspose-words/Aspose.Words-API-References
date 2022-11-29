@@ -33,6 +33,8 @@ class List : public System::IComparable<System::SharedPtr<Aspose::Words::Lists::
 | [GetHashCode](./gethashcode/)() const override | Calculates hash code for this list object. |
 | [HasSameTemplate](./hassametemplate/)(const System::SharedPtr\<Aspose::Words::Lists::List\>\&) | Returns true if the current list and the given list are created from the same template. |
 | [set_IsRestartAtEachSection](./set_isrestartateachsection/)(bool) | Setter for [Aspose::Words::Lists::List::get_IsRestartAtEachSection](./get_isrestartateachsection/). |
+## Remarks
+
 
 A list in a Microsoft Word document is a set of list formatting properties. Each list can have up to 9 levels and formatting properties, such as number style, start value, indent, tab position etc are defined separately for each level.
 
@@ -45,7 +47,6 @@ To modify formatting of a list, use [ListLevel](../listlevel/) objects found in 
 To apply or remove list formatting from a paragraph, use [ListFormat](../listformat/).
 
 ## Examples
-
 
 
 
@@ -189,3 +190,7 @@ builder->get_ListFormat()->RemoveNumbers();
 doc->Save(ArtifactsDir + u"Lists.RestartNumberingUsingListCopy.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Lists](../)
+* Library [Aspose.Words](../../)

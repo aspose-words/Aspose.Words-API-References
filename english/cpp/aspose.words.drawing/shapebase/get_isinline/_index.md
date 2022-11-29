@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/aspose.words.drawing/shapebase/get_isinline/
 ---
-## ShapeBase.get_IsInline method
+## ShapeBase::get_IsInline method
 
 
 A quick way to determine if this shape is positioned inline with text.
@@ -15,11 +15,12 @@ A quick way to determine if this shape is positioned inline with text.
 bool Aspose::Words::Drawing::ShapeBase::get_IsInline()
 ```
 
+## Remarks
+
 
 Has effect only for top level shapes.
 
 ## Examples
-
 
 
 
@@ -58,3 +59,8 @@ ASSERT_FALSE(shape->get_IsInline());
 doc->Save(ArtifactsDir + u"Shape.IsInline.docx");
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

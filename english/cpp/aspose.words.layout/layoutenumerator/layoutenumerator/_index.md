@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.layout/layoutenumerator/layoutenumerator/
 ---
-## LayoutEnumerator.LayoutEnumerator method
+## LayoutEnumerator::LayoutEnumerator constructor
 
 
 Initializes new instance of this class.
@@ -19,13 +19,14 @@ Aspose::Words::Layout::LayoutEnumerator::LayoutEnumerator(const System::SharedPt
 | Parameter | Type | Description |
 | --- | --- | --- |
 | document | const System::SharedPtr\<Aspose::Words::Document\>\& | A document whose page layout model to enumerate. |
+## Remarks
+
 
 If page layout model of the document hasn't been built the enumerator calls [UpdatePageLayout](../../../aspose.words/document/updatepagelayout/) to build it.
 
 Whenever document is updated and new page layout model is created, a new enumerator must be used to access it.
 
 ## Examples
-
 
 
 
@@ -151,3 +152,9 @@ static void PrintCurrentEntity(SharedPtr<LayoutEnumerator> layoutEnumerator, int
 }
 ```
 
+## See Also
+
+* Class [Document](../../../aspose.words/document/)
+* Class [LayoutEnumerator](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

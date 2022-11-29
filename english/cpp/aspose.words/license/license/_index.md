@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/license/license/
 ---
-## License.License method
+## License::License constructor
 
 
 Initializes a new instance of this class.
@@ -17,7 +17,6 @@ Aspose::Words::License::License()
 
 
 ## Examples
-
 
 
 
@@ -39,3 +38,8 @@ System::IO::File::Copy(licenseFileName, licenseCopyFileName);
 license->SetLicense(u"Aspose.Words.Cpp.lic");
 ```
 
+## See Also
+
+* Class [License](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

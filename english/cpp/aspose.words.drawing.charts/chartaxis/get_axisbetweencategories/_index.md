@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_axisbetweencategories/
 ---
-## ChartAxis.get_AxisBetweenCategories method
+## ChartAxis::get_AxisBetweenCategories method
 
 
 Gets or sets a flag indicating whether the value axis crosses the category axis between categories.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::Charts::ChartAxis::get_AxisBetweenCategories()
 
 
 ## Examples
-
 
 
 
@@ -45,3 +44,8 @@ axis->set_AxisBetweenCategories(true);
 doc->Save(ArtifactsDir + u"Charts.AxisCross.docx");
 ```
 
+## See Also
+
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

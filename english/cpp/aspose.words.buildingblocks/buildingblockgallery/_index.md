@@ -11,6 +11,10 @@ url: /cpp/aspose.words.buildingblocks/buildingblockgallery/
 
 Specifies the predefined gallery into which a building block is classified.
 
+```cpp
+enum class BuildingBlockGallery
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -53,13 +57,14 @@ Specifies the predefined gallery into which a building block is classified.
 | Tables | 35 |  |
 | TextBox | 36 |  |
 | Watermarks | 37 |  |
-| Default | n/a | Same as **All**. |
+| Default | n/a | Same as [All](./). |
+
+## Remarks
 
 
 Corresponds to the **ST_DocPartGallery** type in OOXML.
 
 ## Examples
-
 
 
 
@@ -159,3 +164,7 @@ private:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::BuildingBlocks](../)
+* Library [Aspose.Words](../../)

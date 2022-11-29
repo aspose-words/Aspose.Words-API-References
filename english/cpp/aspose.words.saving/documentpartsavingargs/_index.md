@@ -27,6 +27,8 @@ class DocumentPartSavingArgs : public System::Object
 | [set_DocumentPartStream](./set_documentpartstream/)(const System::SharedPtr\<System::IO::Stream\>\&) | Setter for [Aspose::Words::Saving::DocumentPartSavingArgs::get_DocumentPartStream](./get_documentpartstream/). |
 | [set_DocumentPartStream](./set_documentpartstream/)(std::basic_ostream\<CharType, Traits\>\&) |  |
 | [set_KeepDocumentPartStreamOpen](./set_keepdocumentpartstreamopen/)(bool) | Setter for [Aspose::Words::Saving::DocumentPartSavingArgs::get_KeepDocumentPartStreamOpen](./get_keepdocumentpartstreamopen/). |
+## Remarks
+
 
 When Aspose.Words saves a document to HTML or related formats and [DocumentSplitCriteria](../htmlsaveoptions/get_documentsplitcriteria/) is specified, the document is split into parts and by default, each document part is saved into a separate file.
 
@@ -35,7 +37,6 @@ Class [DocumentPartSavingArgs](./) allows you to control how each document part 
 To save document parts into streams instead of files, use the [DocumentPartStream](./get_documentpartstream/) property.
 
 ## Examples
-
 
 
 
@@ -157,3 +158,7 @@ private:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

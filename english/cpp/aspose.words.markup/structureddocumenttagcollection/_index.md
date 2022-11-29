@@ -27,3 +27,7 @@ class StructuredDocumentTagCollection : public System::Collections::Generic::IEn
 | [idx_get](./idx_get/)(int32_t) | Returns the structured document tag at the specified index. |
 | [Remove](./remove/)(int32_t) | Removes the structured document tag with the specified identifier. |
 | [RemoveAt](./removeat/)(int32_t) | Removes a structured document tag at the specified index. |
+## See Also
+
+* Namespace [Aspose::Words::Markup](../)
+* Library [Aspose.Words](../../)

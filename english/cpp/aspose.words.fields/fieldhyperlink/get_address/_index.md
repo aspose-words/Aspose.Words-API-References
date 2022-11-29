@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldhyperlink/get_address/
 ---
-## FieldHyperlink.get_Address method
+## FieldHyperlink::get_Address method
 
 
 Gets or sets a location where this hyperlink jumps.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldHyperlink::get_Address()
 
 
 ## Examples
-
 
 
 
@@ -49,3 +48,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.HYPERLINK.docx");
 ```
 
+## See Also
+
+* Class [FieldHyperlink](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

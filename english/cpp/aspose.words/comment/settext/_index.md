@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words/comment/settext/
 ---
-## Comment.SetText method
+## Comment::SetText method
 
 
 This is a convenience method that allows to easily set text of the comment.
@@ -19,11 +19,12 @@ void Aspose::Words::Comment::SetText(const System::String &text)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | text | const System::String\& | The new text of the comment. |
+## Remarks
+
 
 This method allows to quickly set text of a comment from a string. The string can contain paragraph breaks, this will create paragraphs of text in the comment accordingly. If you want to insert more complex elements into the comment, for example bookmarks or tables or apply rich formatting, then you need to use the appropriate node classes to build up the comment text.
 
 ## Examples
-
 
 
 
@@ -55,3 +56,8 @@ ASPOSE_ASSERT_EQ(comment, comment->get_Replies()->idx_get(0)->get_Ancestor());
 doc->Save(ArtifactsDir + u"Comment.AddCommentWithReply.docx");
 ```
 
+## See Also
+
+* Class [Comment](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

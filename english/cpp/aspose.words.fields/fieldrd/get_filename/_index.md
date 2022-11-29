@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldrd/get_filename/
 ---
-## FieldRD.get_FileName method
+## FieldRD::get_FileName method
 
 
 Gets or sets the name of the file to include when generating a table of contents, table of authorities, or index.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldRD::get_FileName()
 
 
 ## Examples
-
 
 
 
@@ -53,3 +52,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.RD.docx");
 ```
 
+## See Also
+
+* Class [FieldRD](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

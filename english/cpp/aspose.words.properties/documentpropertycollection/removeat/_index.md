@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.properties/documentpropertycollection/removeat/
 ---
-## DocumentPropertyCollection.RemoveAt method
+## DocumentPropertyCollection::RemoveAt method
 
 
 Removes a property at the specified index.
@@ -21,7 +21,6 @@ void Aspose::Words::Properties::DocumentPropertyCollection::RemoveAt(int32_t ind
 | index | int32_t | The zero based index. |
 
 ## Examples
-
 
 
 
@@ -83,3 +82,8 @@ properties->Clear();
 ASSERT_EQ(0, properties->get_Count());
 ```
 
+## See Also
+
+* Class [DocumentPropertyCollection](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

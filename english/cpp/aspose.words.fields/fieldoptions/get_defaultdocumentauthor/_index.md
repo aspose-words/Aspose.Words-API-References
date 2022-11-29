@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fields/fieldoptions/get_defaultdocumentauthor/
 ---
-## FieldOptions.get_DefaultDocumentAuthor method
+## FieldOptions::get_DefaultDocumentAuthor method
 
 
 Gets or sets default document author's name. If author's name is already specified in built-in document properties, this option is not considered.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldOptions::get_DefaultDocumentAuthor() 
 
 
 ## Examples
-
 
 
 
@@ -70,3 +69,8 @@ ASSERT_EQ(u"Joe Bloggs", doc->get_FieldOptions()->get_DefaultDocumentAuthor());
 doc->Save(ArtifactsDir + u"Field.AUTHOR.docx");
 ```
 
+## See Also
+
+* Class [FieldOptions](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

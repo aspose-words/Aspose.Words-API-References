@@ -25,11 +25,12 @@ class RevisionCollection : public System::Collections::Generic::IEnumerable<Syst
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
 | [idx_get](./idx_get/)(int32_t) | Returns a [Revision](../revision/) at the specified index. |
 | [RejectAll](./rejectall/)() | Rejects all revisions in this collection. |
+## Remarks
+
 
 You do not create instances of this class directly. Use the [Revisions](../document/get_revisions/) property to get revisions present in a document.
 
 ## Examples
-
 
 
 
@@ -110,3 +111,7 @@ ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

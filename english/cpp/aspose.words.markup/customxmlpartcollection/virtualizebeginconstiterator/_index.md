@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.markup/customxmlpartcollection/virtualizebeginconstiterator/
 ---
-## CustomXmlPartCollection.virtualizeBeginConstIterator method
+## CustomXmlPartCollection::virtualizeBeginConstIterator method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.markup/customxmlpartcollection/virtualizebeginconstiterat
 virtualized_iterator * Aspose::Words::Markup::CustomXmlPartCollection::virtualizeBeginConstIterator() const override
 ```
 
+## See Also
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [CustomXmlPartCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

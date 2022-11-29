@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/conditionalstylecollection/get_evencolumnbanding/
 ---
-## ConditionalStyleCollection.get_EvenColumnBanding method
+## ConditionalStyleCollection::get_EvenColumnBanding method
 
 
 Gets the even column banding style.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::ConditionalStyle> Aspose::Words::ConditionalSty
 
 
 ## Examples
-
 
 
 
@@ -90,3 +89,9 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow |
 doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 ```
 
+## See Also
+
+* Class [ConditionalStyle](../../conditionalstyle/)
+* Class [ConditionalStyleCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

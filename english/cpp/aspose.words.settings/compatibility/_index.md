@@ -11,6 +11,10 @@ url: /cpp/aspose.words.settings/compatibility/
 
 Specifies names of compatibility options.
 
+```cpp
+enum class Compatibility
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -87,3 +91,7 @@ Specifies names of compatibility options.
 | SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning | 69 |  |
 | UseWord2010TableStyleRules | 70 |  |
 
+## See Also
+
+* Namespace [Aspose::Words::Settings](../)
+* Library [Aspose.Words](../../)

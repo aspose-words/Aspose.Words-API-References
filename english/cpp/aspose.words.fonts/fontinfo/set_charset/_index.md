@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.fonts/fontinfo/set_charset/
 ---
-## FontInfo.set_Charset method
+## FontInfo::set_Charset method
 
 
 Setter for [Aspose::Words::Fonts::FontInfo::get_Charset](../get_charset/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fonts::FontInfo::get_Charset](../get_charset/).
 void Aspose::Words::Fonts::FontInfo::set_Charset(int32_t value)
 ```
 
+## See Also
+
+* Class [FontInfo](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.replacing/findreplaceoptions/get_ignorefootnotes/
 ---
-## FindReplaceOptions.get_IgnoreFootnotes method
+## FindReplaceOptions::get_IgnoreFootnotes method
 
 
 Gets or sets a boolean value indicating either to ignore footnotes. The default value is **false**.
@@ -17,7 +17,6 @@ bool Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreFootnotes() const
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,8 @@ options->set_IgnoreFootnotes(isIgnoreFootnotes);
 doc->get_Range()->Replace(u"Lorem ipsum", u"Replaced Lorem ipsum", options);
 ```
 
+## See Also
+
+* Class [FindReplaceOptions](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)
