@@ -42,7 +42,7 @@ revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 // and double-underlined blue at the moved-to revision.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
-revisionOptions.MovedToTextColor = RevisionColor.Blue;
+revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
 
 // Render format revisions in dark red and bold.

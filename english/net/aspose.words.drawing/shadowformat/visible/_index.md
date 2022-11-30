@@ -18,6 +18,21 @@ public bool Visible { get; }
 
 Unlike [`Clear`](../clear/), assigning `false` to Visible does not clear the formatting, it only hides the shape effect.
 
+## Examples
+
+Shows how to work with a shadow formatting for the shape.
+
+```csharp
+Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
+Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
+
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+    shape.ShadowFormat.Type = ShadowType.Shadow7;
+
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+    shape.ShadowFormat.Clear();
+```
+
 ### See Also
 
 * class [ShadowFormat](../)

@@ -3,7 +3,7 @@ title: MailMergeDestination
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the possible results which may be generated when a mail merge is carried out on a document.
 type: docs
-weight: 5560
+weight: 5570
 url: /net/aspose.words.settings/mailmergedestination/
 ---
 ## MailMergeDestination enumeration

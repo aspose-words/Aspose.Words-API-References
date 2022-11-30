@@ -24,7 +24,6 @@ RevisionCollection revisions = doc.Revisions;
 
 // This collection itself has a collection of revision groups.
 // Each group is a sequence of adjacent revisions.
-Console.WriteLine($"{revisions.Groups.Count} revision groups:");
 
 // Iterate over the collection of groups and print the text that the revision concerns.
 using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
@@ -39,7 +38,6 @@ using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
 // Each Run that a revision affects gets a corresponding Revision object.
 // The revisions' collection is considerably larger than the condensed form we printed above,
 // depending on how many Runs we have segmented the document into during Microsoft Word editing.
-Console.WriteLine($"\n{revisions.Count} revisions:");
 
 using (IEnumerator<Revision> e = revisions.GetEnumerator())
 {

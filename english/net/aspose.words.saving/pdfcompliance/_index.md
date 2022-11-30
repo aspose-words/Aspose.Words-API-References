@@ -3,7 +3,7 @@ title: PdfCompliance
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the PDF standards compliance level.
 type: docs
-weight: 5160
+weight: 5170
 url: /net/aspose.words.saving/pdfcompliance/
 ---
 ## PdfCompliance enumeration
@@ -47,6 +47,9 @@ PdfSaveOptions saveOptions = new PdfSaveOptions();
 // which complies with "PDF/A-1b" as well as preserving the document structure of the original document.
 // Set the "Compliance" property to "PdfCompliance.PdfUa1" to comply with the "PDF/UA-1" (ISO 14289-1) standard,
 // which aims to define represent electronic documents in PDF that allow the file to be accessible.
+// Set the "Compliance" property to "PdfCompliance.Pdf20" to comply with the "PDF 2.0" (ISO 32000-2) standard.
+// Set the "Compliance" property to "PdfCompliance.PdfA4" to comply with the "PDF/A-4" (ISO 19004:2020) standard,
+// which preserving document static visual appearance over time.
 // This helps with making documents searchable but may significantly increase the size of already large documents.
 saveOptions.Compliance = pdfCompliance;
 

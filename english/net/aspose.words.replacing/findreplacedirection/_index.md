@@ -3,7 +3,7 @@ title: FindReplaceDirection
 second_title: Aspose.Words for .NET API Reference
 description: Specifies direction for replace operations.
 type: docs
-weight: 4380
+weight: 4390
 url: /net/aspose.words.replacing/findreplacedirection/
 ---
 ## FindReplaceDirection enumeration

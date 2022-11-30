@@ -24,6 +24,20 @@ public enum ChapterPageSeparator
 | EmDash | `3` | An emphasized dash. |
 | EnDash | `4` | A standard dash. |
 
+## Examples
+
+Shows how to work with page chapters.
+
+```csharp
+Document doc = new Document(MyDir + "Big document.docx");
+
+PageSetup pageSetup = doc.FirstSection.PageSetup;
+
+pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
+pageSetup.ChapterPageSeparator = Aspose.Words.ChapterPageSeparator.Colon;
+pageSetup.HeadingLevelForChapter = 1;
+```
+
 ### See Also
 
 * class [PageSetup](../pagesetup/)

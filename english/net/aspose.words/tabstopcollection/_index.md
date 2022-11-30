@@ -3,7 +3,7 @@ title: TabStopCollection
 second_title: Aspose.Words for .NET API Reference
 description: A collection of TabStop./tabstop/ objects that represent custom tabs for a paragraph or a style.
 type: docs
-weight: 5940
+weight: 5950
 url: /net/aspose.words/tabstopcollection/
 ---
 ## TabStopCollection class

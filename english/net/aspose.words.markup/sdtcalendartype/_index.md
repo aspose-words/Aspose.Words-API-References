@@ -3,7 +3,7 @@ title: SdtCalendarType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the possible types of calendars which can be used to specify CalendarType./structureddocumenttag/calendartype/ in an Office Open XML document.
 type: docs
-weight: 3780
+weight: 3790
 url: /net/aspose.words.markup/sdtcalendartype/
 ---
 ## SdtCalendarType enumeration

@@ -3,7 +3,7 @@ title: TextEffect
 second_title: Aspose.Words for .NET API Reference
 description: Animation effect for text runs.
 type: docs
-weight: 6150
+weight: 6160
 url: /net/aspose.words/texteffect/
 ---
 ## TextEffect enumeration

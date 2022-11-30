@@ -3,7 +3,7 @@ title: ReplaceAction
 second_title: Aspose.Words for .NET API Reference
 description: Allows the user to specify what happens to the current match during a replace operation.
 type: docs
-weight: 4410
+weight: 4420
 url: /net/aspose.words.replacing/replaceaction/
 ---
 ## ReplaceAction enumeration

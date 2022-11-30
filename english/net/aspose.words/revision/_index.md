@@ -3,7 +3,7 @@ title: Revision
 second_title: Aspose.Words for .NET API Reference
 description: Represents a revision tracked change in a document node or style. Use RevisionType./revision/revisiontype/ to check the type of this revision.
 type: docs
-weight: 4530
+weight: 4540
 url: /net/aspose.words/revision/
 ---
 ## Revision class

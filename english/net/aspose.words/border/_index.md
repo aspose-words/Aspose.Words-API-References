@@ -26,6 +26,8 @@ public class Border : InternableComplexAttr
 | [LineStyle](../../aspose.words/border/linestyle/) { get; set; } | Gets or sets the border style. |
 | [LineWidth](../../aspose.words/border/linewidth/) { get; set; } | Gets or sets the border width in points. |
 | [Shadow](../../aspose.words/border/shadow/) { get; set; } | Gets or sets a value indicating whether the border has a shadow. |
+| [ThemeColor](../../aspose.words/border/themecolor/) { get; set; } | Gets or sets the theme color in the applied color scheme that is associated with this Border object. |
+| [TintAndShade](../../aspose.words/border/tintandshade/) { get; set; } | Gets or sets a double value that lightens or darkens a color. |
 
 ## Methods
 

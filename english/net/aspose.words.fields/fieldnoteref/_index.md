@@ -58,6 +58,33 @@ Inserts the mark of the footnote or endnote that is marked by the specified book
 
 ## Examples
 
+Shows how to cross-reference footnotes with the NOTEREF field.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Write("CrossReference: ");
+
+FieldNoteRef field = (FieldNoteRef)builder.InsertField(FieldType.FieldNoteRef, false); // <--- don't update field
+field.BookmarkName = "CrossRefBookmark";
+field.InsertHyperlink = true;
+field.InsertReferenceMark = true;
+field.InsertRelativePosition = false;
+builder.Writeln();
+
+builder.StartBookmark("CrossRefBookmark");
+builder.Write("Hello world!");
+builder.InsertFootnote(FootnoteType.Footnote, "Cross referenced footnote.");
+builder.EndBookmark("CrossRefBookmark");
+builder.Writeln();            
+
+doc.UpdateFields();           
+
+// This field works only in older versions of Microsoft Word.
+doc.Save(ArtifactsDir + "Field.NOTEREF.doc");
+```
+
 Shows to insert NOTEREF fields, and modify their appearance.
 
 ```csharp
@@ -87,6 +114,7 @@ public void FieldNoteRef()
     builder.InsertBreak(BreakType.PageBreak);
     InsertBookmarkWithFootnote(builder, "MyBookmark2", "Contents of MyBookmark2", "Footnote from MyBookmark2");
 
+    doc.UpdatePageLayout();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.NOTEREF.docx");
 

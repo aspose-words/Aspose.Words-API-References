@@ -72,10 +72,9 @@ builder.Writeln("TOC entry from within this document");
 // Insert an RD field, which references another local file system document in its FileName property.
 // The TOC will also now accept all headings from the referenced document as entries for its table.
 FieldRD field = (FieldRD)builder.InsertField(FieldType.FieldRefDoc, true);
-field.FileName = "ReferencedDocument.docx";
-field.IsPathRelative = true;
+field.FileName = ArtifactsDir + "ReferencedDocument.docx";
 
-Assert.AreEqual(" RD  ReferencedDocument.docx \\f", field.GetFieldCode());
+Assert.AreEqual($" RD  {ArtifactsDir.Replace(@"\",@"\\")}ReferencedDocument.docx", field.GetFieldCode());
 
 // Create the document that the RD field is referencing and insert a heading. 
 // This heading will show up as an entry in the TOC field in our first document.

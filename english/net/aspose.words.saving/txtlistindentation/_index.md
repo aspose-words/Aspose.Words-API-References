@@ -3,7 +3,7 @@ title: TxtListIndentation
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how list levels are indented when document is exporting to Text format.
 type: docs
-weight: 5400
+weight: 5410
 url: /net/aspose.words.saving/txtlistindentation/
 ---
 ## TxtListIndentation class

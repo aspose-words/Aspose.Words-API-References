@@ -3,7 +3,7 @@ title: VerticalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Returns or sets the vertical alignment of text on each page in a document or section.
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.words/pagesetup/verticalalignment/
 ---
 ## PageSetup.VerticalAlignment property

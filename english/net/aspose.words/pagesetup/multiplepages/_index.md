@@ -3,7 +3,7 @@ title: MultiplePages
 second_title: Aspose.Words for .NET API Reference
 description: For multiple page documents gets or sets how a document is printed or rendered so that it can be bound as a booklet.
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.words/pagesetup/multiplepages/
 ---
 ## PageSetup.MultiplePages property

@@ -67,6 +67,21 @@ public enum ShadowType
 
 ShadowType is not a simple attribute, but a preset that sets at once several attributes which form the shadow appearance.
 
+## Examples
+
+Shows how to work with a shadow formatting for the shape.
+
+```csharp
+Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
+Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
+
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+    shape.ShadowFormat.Type = ShadowType.Shadow7;
+
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+    shape.ShadowFormat.Clear();
+```
+
 ### See Also
 
 * namespace [Aspose.Words.Drawing](../../aspose.words.drawing/)
