@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words/conditionalstylecollection/idx_get/
 ---
-## ConditionalStyleCollection.idx_get(Aspose::Words::ConditionalStyleType) method
+## ConditionalStyleCollection::idx_get(Aspose::Words::ConditionalStyleType) method
 
 
 Retrieves a [ConditionalStyle](../../conditionalstyle/) object by conditional style type.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::ConditionalStyle> Aspose::Words::ConditionalSty
 
 
 ## Examples
-
 
 
 
@@ -90,7 +89,14 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow |
 doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 ```
 
-## ConditionalStyleCollection.idx_get(int32_t) method
+## See Also
+
+* Class [ConditionalStyle](../../conditionalstyle/)
+* Enum [ConditionalStyleType](../../conditionalstyletype/)
+* Class [ConditionalStyleCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## ConditionalStyleCollection::idx_get(int32_t) method
 
 
 Retrieves a [ConditionalStyle](../../conditionalstyle/) object by index.
@@ -108,7 +114,6 @@ System::SharedPtr<Aspose::Words::ConditionalStyle> Aspose::Words::ConditionalSty
 
 
 
-
 Shows how to work with certain area styles of a table. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -178,3 +183,9 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow |
 doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 ```
 
+## See Also
+
+* Class [ConditionalStyle](../../conditionalstyle/)
+* Class [ConditionalStyleCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

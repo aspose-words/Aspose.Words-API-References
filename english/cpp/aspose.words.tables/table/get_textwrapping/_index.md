@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/aspose.words.tables/table/get_textwrapping/
 ---
-## Table.get_TextWrapping method
+## Table::get_TextWrapping method
 
 
 Gets or sets [TextWrapping](./) for table.
@@ -17,7 +17,6 @@ Aspose::Words::Tables::TextWrapping Aspose::Words::Tables::Table::get_TextWrappi
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,9 @@ table->set_AbsoluteVerticalDistance(20);
 doc->Save(ArtifactsDir + u"Table.WrapText.docx");
 ```
 
+## See Also
+
+* Enum [TextWrapping](../../textwrapping/)
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

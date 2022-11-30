@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/aspose.words.tables/table/get_stylename/
 ---
-## Table.get_StyleName method
+## Table::get_StyleName method
 
 
 Gets or sets the name of the table style applied to this table.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Tables::Table::get_StyleName()
 
 
 ## Examples
-
 
 
 
@@ -59,3 +58,8 @@ ASSERT_EQ(u"MyTableStyle1", table->get_StyleName());
 doc->Save(ArtifactsDir + u"Table.TableStyleCreation.docx");
 ```
 
+## See Also
+
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

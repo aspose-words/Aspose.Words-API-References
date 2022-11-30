@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.fields/fieldindex/get_runsubentriesonsameline/
 ---
-## FieldIndex.get_RunSubentriesOnSameLine method
+## FieldIndex::get_RunSubentriesOnSameLine method
 
 
 Gets or sets whether run subentries into the same line as the main entry.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldIndex::get_RunSubentriesOnSameLine()
 
 
 ## Examples
-
 
 
 
@@ -76,3 +75,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + String::Format(u"Field.INDEX.XE.Subheading.docx"));
 ```
 
+## See Also
+
+* Class [FieldIndex](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.rendering/noderendererbase/save/
 ---
-## NodeRendererBase.Save(const System::SharedPtr\<System::IO::Stream\>\&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) method
+## NodeRendererBase::Save(const System::SharedPtr\<System::IO::Stream\>\&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) method
 
 
 Renders the shape into an image and saves into a stream.
@@ -22,7 +22,6 @@ void Aspose::Words::Rendering::NodeRendererBase::Save(const System::SharedPtr<Sy
 | saveOptions | System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\> | Specifies the options that control how the shape is rendered and saved. Can be null. If this is null, the image will be saved in the PNG format. |
 
 ## Examples
-
 
 
 
@@ -45,7 +44,13 @@ for (const auto& shape : System::IterateOver(doc->GetChildNodes(NodeType::Shape,
 }
 ```
 
-## NodeRendererBase.Save(const System::String\&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) method
+## See Also
+
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* Class [NodeRendererBase](../)
+* Namespace [Aspose::Words::Rendering](../../)
+* Library [Aspose.Words](../../../)
+## NodeRendererBase::Save(const System::String\&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) method
 
 
 Renders the shape into an image and saves into a file.
@@ -61,7 +66,6 @@ void Aspose::Words::Rendering::NodeRendererBase::Save(const System::String &file
 | saveOptions | System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\> | Specifies the options that control how the shape is rendered and saved. Can be null. |
 
 ## Examples
-
 
 
 
@@ -81,7 +85,13 @@ saveOptions->set_Scale(5.0f);
 math->GetMathRenderer()->Save(ArtifactsDir + u"Shape.RenderOfficeMath.png", saveOptions);
 ```
 
-## NodeRendererBase.Save(std::basic_ostream\<CharType, Traits\>\&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) method
+## See Also
+
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* Class [NodeRendererBase](../)
+* Namespace [Aspose::Words::Rendering](../../)
+* Library [Aspose.Words](../../../)
+## NodeRendererBase::Save(std::basic_ostream\<CharType, Traits\>\&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) method
 
 
 
@@ -90,3 +100,9 @@ math->GetMathRenderer()->Save(ArtifactsDir + u"Shape.RenderOfficeMath.png", save
 template<typename CharType,typename Traits> void Aspose::Words::Rendering::NodeRendererBase::Save(std::basic_ostream<CharType, Traits> &stream, System::SharedPtr<Aspose::Words::Saving::ImageSaveOptions> saveOptions)
 ```
 
+## See Also
+
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* Class [NodeRendererBase](../)
+* Namespace [Aspose::Words::Rendering](../../)
+* Library [Aspose.Words](../../../)

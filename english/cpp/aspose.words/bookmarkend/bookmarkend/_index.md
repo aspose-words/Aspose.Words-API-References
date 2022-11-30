@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/bookmarkend/bookmarkend/
 ---
-## BookmarkEnd.BookmarkEnd method
+## BookmarkEnd::BookmarkEnd constructor
 
 
 Initializes a new instance of the [BookmarkEnd](../) class.
@@ -22,7 +22,6 @@ Aspose::Words::BookmarkEnd::BookmarkEnd(const System::SharedPtr<Aspose::Words::D
 | name | const System::String\& | The name of the bookmark. Cannot be null. |
 
 ## Examples
-
 
 
 
@@ -103,3 +102,9 @@ public:
 };
 ```
 
+## See Also
+
+* Class [DocumentBase](../../documentbase/)
+* Class [BookmarkEnd](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

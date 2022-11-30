@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.fields/fieldtoc/get_preservelinebreaks/
 ---
-## FieldToc.get_PreserveLineBreaks method
+## FieldToc::get_PreserveLineBreaks method
 
 
 Gets or sets whether to preserve newline characters within table entries.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldToc::get_PreserveLineBreaks()
 
 
 ## Examples
-
 
 
 
@@ -97,3 +96,8 @@ void InsertNewPageWithHeading(SharedPtr<DocumentBuilder> builder, String caption
 }
 ```
 
+## See Also
+
+* Class [FieldToc](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

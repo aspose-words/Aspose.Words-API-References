@@ -15,3 +15,8 @@ url: /cpp/aspose.words.webextensions/basewebextensioncollection/virtualized_iter
 using Aspose::Words::WebExtensions::BaseWebExtensionCollection< T >::virtualized_iterator =  typename iterator_holder_type::virtualized_iterator
 ```
 
+## See Also
+
+* Class [BaseWebExtensionCollection](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

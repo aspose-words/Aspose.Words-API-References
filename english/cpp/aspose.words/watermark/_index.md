@@ -9,7 +9,7 @@ url: /cpp/aspose.words/watermark/
 ## Watermark class
 
 
-Represents class to work with document watermark. To learn more, visit the [Working with Watermark](https://docs.aspose.com/words/net/working-with-watermark/) documentation article.
+Represents class to work with document watermark. To learn more, visit the [Working with Watermark](https://docs.aspose.com/words/cpp/working-with-watermark/) documentation article.
 
 ```cpp
 class Watermark : public System::Object
@@ -26,3 +26,7 @@ class Watermark : public System::Object
 | [SetImage](./setimage/)(const System::String\&, const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\&) | Adds Image watermark into the document. |
 | [SetText](./settext/)(const System::String\&) | Adds Text watermark into the document. |
 | [SetText](./settext/)(const System::String\&, const System::SharedPtr\<Aspose::Words::TextWatermarkOptions\>\&) | Adds Text watermark into the document. |
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

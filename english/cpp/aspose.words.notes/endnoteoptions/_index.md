@@ -32,7 +32,6 @@ class EndnoteOptions : public Aspose::Words::Notes::IFootnoteOptions
 
 
 
-
 Shows how to select a different place where the document collects and displays its endnotes. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -200,3 +199,7 @@ doc->get_EndnoteOptions()->set_StartNumber(50);
 doc->Save(ArtifactsDir + u"InlineStory.StartNumber.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Notes](../)
+* Library [Aspose.Words](../../)

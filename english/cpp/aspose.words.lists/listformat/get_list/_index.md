@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.lists/listformat/get_list/
 ---
-## ListFormat.get_List method
+## ListFormat::get_List method
 
 
 Gets or sets the list this paragraph is a member of.
@@ -14,6 +14,8 @@ Gets or sets the list this paragraph is a member of.
 ```cpp
 System::SharedPtr<Aspose::Words::Lists::List> Aspose::Words::Lists::ListFormat::get_List()
 ```
+
+## Remarks
 
 
 The list that is being assigned to this property must belong to the current document.
@@ -23,7 +25,6 @@ The list that is being assigned to this property must not be a list style defini
 Setting this property to null removes bullets and numbering from the paragraph and sets the list level number to zero. Setting this property to null is equivalent to calling [RemoveNumbers](../removenumbers/).
 
 ## Examples
-
 
 
 
@@ -123,3 +124,9 @@ builder->get_ParagraphFormat()->ClearFormatting();
 builder->get_Document()->Save(ArtifactsDir + u"Lists.NestedLists.docx");
 ```
 
+## See Also
+
+* Class [List](../../list/)
+* Class [ListFormat](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

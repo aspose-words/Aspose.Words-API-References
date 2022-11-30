@@ -46,14 +46,16 @@ class ListCollection : public System::Collections::Generic::IEnumerable<System::
 | [iterator_holder_type](./iterator_holder_type/) |  |
 | [virtualized_iterator](./virtualized_iterator/) |  |
 | [virtualized_iterator_element](./virtualized_iterator_element/) |  |
+## Remarks
+
 
 A list in a Microsoft Word document is a set of list formatting properties. The formatting of the lists is stored in the [ListCollection](./) collection separately from the paragraphs of text.
 
 You do not create objects of this class. There is always only one [ListCollection](./) object per document and it is accessible via the [Lists](../../aspose.words/documentbase/get_lists/) property.
 
-To create a new list based on a predefined list template or based on a list style, use the **Add()** method.
+To create a new list based on a predefined list template or based on a list style, use the [Add()](../) method.
 
-To create a new list with formatting identical to an existing list, use the **AddCopy()** method.
+To create a new list with formatting identical to an existing list, use the [AddCopy()](../) method.
 
 To make a paragraph bulleted or numbered, you need to apply list formatting to a paragraph by assigning a [List](../list/) object to the [List](../listformat/get_list/) property of [ListFormat](../listformat/).
 
@@ -66,7 +68,6 @@ To simplify programming model, Aspose.Words hides the distinction between list a
 It is not possible to delete lists once they are created in the current version of [Aspose.Words](../../aspose.words/). This is similar to Microsoft Word where user does not have explicit control over list definitions.
 
 ## Examples
-
 
 
 
@@ -190,3 +191,7 @@ static void AddListSample(SharedPtr<DocumentBuilder> builder, SharedPtr<List> li
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Lists](../)
+* Library [Aspose.Words](../../)

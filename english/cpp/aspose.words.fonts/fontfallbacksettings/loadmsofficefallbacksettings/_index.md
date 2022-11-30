@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/
 ---
-## FontFallbackSettings.LoadMsOfficeFallbackSettings method
+## FontFallbackSettings::LoadMsOfficeFallbackSettings method
 
 
 Loads predefined fallback settings which mimics the Microsoft Word fallback and uses Microsoft office fonts.
@@ -17,7 +17,6 @@ void Aspose::Words::Fonts::FontFallbackSettings::LoadMsOfficeFallbackSettings()
 
 
 ## Examples
-
 
 
 
@@ -45,3 +44,8 @@ fontFallbackSettings->LoadNotoFallbackSettings();
 fontFallbackSettings->Save(ArtifactsDir + u"FontSettings.FallbackSettings.LoadNotoFallbackSettings.xml");
 ```
 
+## See Also
+
+* Class [FontFallbackSettings](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

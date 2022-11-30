@@ -6,7 +6,7 @@ type: docs
 weight: 1184
 url: /cpp/aspose.words/document/updatetablelayout/
 ---
-## Document.UpdateTableLayout method
+## Document::UpdateTableLayout method
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words/document/updatetablelayout/
 void Aspose::Words::Document::UpdateTableLayout()
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

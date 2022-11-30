@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.markup/smarttag/set_uri/
 ---
-## SmartTag.set_Uri method
+## SmartTag::set_Uri method
 
 
 Setter for [Aspose::Words::Markup::SmartTag::get_Uri](../get_uri/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Markup::SmartTag::get_Uri](../get_uri/).
 void Aspose::Words::Markup::SmartTag::set_Uri(const System::String &value)
 ```
 
+## See Also
+
+* Class [SmartTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

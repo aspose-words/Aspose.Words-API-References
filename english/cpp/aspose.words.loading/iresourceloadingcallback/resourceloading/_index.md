@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.loading/iresourceloadingcallback/resourceloading/
 ---
-## IResourceLoadingCallback.ResourceLoading method
+## IResourceLoadingCallback::ResourceLoading method
 
 
 Called when Aspose.Words loads any external resource.
@@ -17,7 +17,6 @@ virtual Aspose::Words::Loading::ResourceLoadingAction Aspose::Words::Loading::IR
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,10 @@ public:
 };
 ```
 
+## See Also
+
+* Enum [ResourceLoadingAction](../../resourceloadingaction/)
+* Class [ResourceLoadingArgs](../../resourceloadingargs/)
+* Interface [IResourceLoadingCallback](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

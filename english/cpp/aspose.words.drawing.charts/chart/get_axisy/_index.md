@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.drawing.charts/chart/get_axisy/
 ---
-## Chart.get_AxisY method
+## Chart::get_AxisY method
 
 
 Provides access to properties of the Y axis of the chart.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartAxis> Aspose::Words::Draw
 
 
 ## Examples
-
 
 
 
@@ -67,3 +66,9 @@ ASSERT_TRUE(chart->get_AxisZ() == nullptr);
 doc->Save(ArtifactsDir + u"Charts.AxisProperties.docx");
 ```
 
+## See Also
+
+* Class [ChartAxis](../../chartaxis/)
+* Class [Chart](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

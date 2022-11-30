@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.markup/customxmlpartcollection/idx_get/
 ---
-## CustomXmlPartCollection.idx_get method
+## CustomXmlPartCollection::idx_get method
 
 
 Gets or sets an item at the specified index.
@@ -21,7 +21,6 @@ System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> Aspose::Words::Markup::C
 | index | int32_t | Zero-based index of the item. |
 
 ## Examples
-
 
 
 
@@ -86,3 +85,9 @@ doc->get_FirstSection()->get_Body()->AppendChild(tag);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.CustomXml.docx");
 ```
 
+## See Also
+
+* Class [CustomXmlPart](../../customxmlpart/)
+* Class [CustomXmlPartCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

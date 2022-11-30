@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.drawing/shape/get_stroke/
 ---
-## Shape.get_Stroke method
+## Shape::get_Stroke method
 
 
 Defines a stroke for a shape.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::Stroke> Aspose::Words::Drawing::Shape:
 
 
 ## Examples
-
 
 
 
@@ -90,3 +89,9 @@ ArrayPtr<uint8_t> imageBytes = System::IO::File::ReadAllBytes(ImageDir + u"Logo.
 doc->Save(ArtifactsDir + u"Drawing.VariousShapes.docx");
 ```
 
+## See Also
+
+* Class [Stroke](../../stroke/)
+* Class [Shape](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

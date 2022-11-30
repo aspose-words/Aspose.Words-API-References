@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/aspose.words.drawing/shapebase/get_issignatureline/
 ---
-## ShapeBase.get_IsSignatureLine method
+## ShapeBase::get_IsSignatureLine method
 
 
 Indicates that shape is a [SignatureLine](../../signatureline/).
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::ShapeBase::get_IsSignatureLine()
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,8 @@ ASSERT_TRUE(signatureLine->get_DefaultInstructions());
 doc->Save(ArtifactsDir + u"Shape.SignatureLine.docx");
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

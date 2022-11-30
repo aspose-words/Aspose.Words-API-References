@@ -6,10 +6,10 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.layout/revisionoptions/get_revisedpropertieseffect/
 ---
-## RevisionOptions.get_RevisedPropertiesEffect method
+## RevisionOptions::get_RevisedPropertiesEffect method
 
 
-Allows to specify the effect for content areas with changes of formatting properties **FormatChange** Default value is **None**
+Allows to specify the effect for content areas with changes of formatting properties [FormatChange](../../../aspose.words/revisiontype/) Default value is [None](../../revisiontexteffect/)
 
 ```cpp
 Aspose::Words::Layout::RevisionTextEffect Aspose::Words::Layout::RevisionOptions::get_RevisedPropertiesEffect()
@@ -17,7 +17,6 @@ Aspose::Words::Layout::RevisionTextEffect Aspose::Words::Layout::RevisionOptions
 
 
 ## Examples
-
 
 
 
@@ -66,3 +65,9 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 doc->Save(ArtifactsDir + u"Revision.RevisionOptions.pdf");
 ```
 
+## See Also
+
+* Enum [RevisionTextEffect](../../revisiontexteffect/)
+* Class [RevisionOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

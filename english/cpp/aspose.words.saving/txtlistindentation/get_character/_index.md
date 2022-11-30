@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.saving/txtlistindentation/get_character/
 ---
-## TxtListIndentation.get_Character method
+## TxtListIndentation::get_Character method
 
 
 Gets or sets which character to use for indenting list levels. The default value is '\0', that means there is no indentation.
@@ -17,7 +17,6 @@ char16_t Aspose::Words::Saving::TxtListIndentation::get_Character() const
 
 
 ## Examples
-
 
 
 
@@ -53,3 +52,8 @@ String docText = System::IO::File::ReadAllText(ArtifactsDir + u"TxtSaveOptions.T
 ASSERT_EQ(String(u"1. Item 1\r\n") + u"   a. Item 2\r\n" + u"      i. Item 3\r\n", docText);
 ```
 
+## See Also
+
+* Class [TxtListIndentation](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

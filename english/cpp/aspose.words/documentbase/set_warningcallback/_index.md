@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words/documentbase/set_warningcallback/
 ---
-## DocumentBase.set_WarningCallback method
+## DocumentBase::set_WarningCallback method
 
 
 Setter for [Aspose::Words::DocumentBase::get_WarningCallback](../get_warningcallback/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::DocumentBase::get_WarningCallback](../get_warningcall
 void Aspose::Words::DocumentBase::set_WarningCallback(const System::SharedPtr<Aspose::Words::IWarningCallback> &value)
 ```
 
+## See Also
+
+* Interface [IWarningCallback](../../iwarningcallback/)
+* Class [DocumentBase](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

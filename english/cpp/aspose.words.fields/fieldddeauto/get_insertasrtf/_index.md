@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fieldddeauto/get_insertasrtf/
 ---
-## FieldDdeAuto.get_InsertAsRtf method
+## FieldDdeAuto::get_InsertAsRtf method
 
 
 Gets or sets whether to insert the linked object in rich-text format (RTF).
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldDdeAuto::get_InsertAsRtf()
 
 
 ## Examples
-
 
 
 
@@ -196,3 +195,8 @@ static void InsertFieldDdeAuto(SharedPtr<DocumentBuilder> builder, ExField::Inse
 }
 ```
 
+## See Also
+
+* Class [FieldDdeAuto](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.digitalsignatures/signoptions/get_comments/
 ---
-## SignOptions.get_Comments method
+## SignOptions::get_Comments method
 
 
 Specifies comments on the digital signature. Default value is **empty string**.
@@ -17,7 +17,6 @@ System::String Aspose::Words::DigitalSignatures::SignOptions::get_Comments() con
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,8 @@ signOptions->set_SignTime(System::DateTime::get_Now());
 }
 ```
 
+## See Also
+
+* Class [SignOptions](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)

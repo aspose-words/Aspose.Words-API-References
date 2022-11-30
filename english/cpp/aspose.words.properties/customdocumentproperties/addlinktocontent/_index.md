@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.properties/customdocumentproperties/addlinktocontent/
 ---
-## CustomDocumentProperties.AddLinkToContent method
+## CustomDocumentProperties::AddLinkToContent method
 
 
 Creates a new linked to content custom document property.
@@ -23,11 +23,9 @@ System::SharedPtr<Aspose::Words::Properties::DocumentProperty> Aspose::Words::Pr
 
 ### ReturnValue
 
-
 The newly created property object or null when the linkSource is invalid.
 
 ## Examples
-
 
 
 
@@ -52,3 +50,9 @@ ASPOSE_ASSERT_EQ(u"Hello world!", customProperty->get_Value());
 doc->Save(ArtifactsDir + u"DocumentProperties.LinkCustomDocumentPropertiesToBookmark.docx");
 ```
 
+## See Also
+
+* Class [DocumentProperty](../../documentproperty/)
+* Class [CustomDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/documentbuilder/endrow/
 ---
-## DocumentBuilder.EndRow method
+## DocumentBuilder::EndRow method
 
 
 Ends a table row in the document.
@@ -18,15 +18,15 @@ System::SharedPtr<Aspose::Words::Tables::Row> Aspose::Words::DocumentBuilder::En
 
 ### ReturnValue
 
-
 The row node that was just finished.
+## Remarks
+
 
 Call **EndRow** to end a table row. If you call [InsertCell](../insertcell/) immediately after that, then the table continues on a new row.
 
 Use the [RowFormat](../get_rowformat/) property to specify row formatting.
 
 ## Examples
-
 
 
 
@@ -165,3 +165,9 @@ ASSERT_EQ(TextOrientation::Downward, table->get_Rows()->idx_get(1)->get_Cells()-
 doc->Save(ArtifactsDir + u"DocumentBuilder.BuildTable.docx");
 ```
 
+## See Also
+
+* Class [Row](../../../aspose.words.tables/row/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

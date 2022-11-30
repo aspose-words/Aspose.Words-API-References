@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fonts/fontsettings/get_substitutionsettings/
 ---
-## FontSettings.get_SubstitutionSettings method
+## FontSettings::get_SubstitutionSettings method
 
 
 [Settings](../../../aspose.words.settings/) related to font substitution mechanism.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Fonts::FontSubstitutionSettings> Aspose::Words:
 
 
 ## Examples
-
 
 
 
@@ -72,3 +71,9 @@ ASSERT_EQ(FontSourceType::SystemFonts, doc->get_FontSettings()->GetFontsSources(
 ASSERT_EQ(1, doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubstitution()->GetSubstitutes(u"Kreon-Regular")->LINQ_Count());
 ```
 
+## See Also
+
+* Class [FontSubstitutionSettings](../../fontsubstitutionsettings/)
+* Class [FontSettings](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

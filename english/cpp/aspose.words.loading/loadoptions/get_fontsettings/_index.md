@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.loading/loadoptions/get_fontsettings/
 ---
-## LoadOptions.get_FontSettings method
+## LoadOptions::get_FontSettings method
 
 
 Allows to specify document font settings.
@@ -14,6 +14,8 @@ Allows to specify document font settings.
 ```cpp
 System::SharedPtr<Aspose::Words::Fonts::FontSettings> Aspose::Words::Loading::LoadOptions::get_FontSettings() const
 ```
+
+## Remarks
 
 
 When loading some formats, Aspose.Words may require to resolve the fonts. For example, when loading HTML documents [Aspose.Words](../../../aspose.words/) may resolve the fonts to perform font fallback.
@@ -23,7 +25,6 @@ If set to null, default static font settings [DefaultInstance](../../../aspose.w
 The default value is null.
 
 ## Examples
-
 
 
 
@@ -67,3 +68,9 @@ auto doc = MakeObject<Document>(MyDir + u"Document.docx", loadOptions);
 doc->Save(ArtifactsDir + u"LoadOptions.FontSettings.pdf");
 ```
 
+## See Also
+
+* Class [FontSettings](../../../aspose.words.fonts/fontsettings/)
+* Class [LoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

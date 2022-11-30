@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/revision/get_author/
 ---
-## Revision.get_Author method
+## Revision::get_Author method
 
 
 Gets or sets the author of this revision. Can not be empty string or null.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Revision::get_Author()
 
 
 ## Examples
-
 
 
 
@@ -98,3 +97,8 @@ ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Revision](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

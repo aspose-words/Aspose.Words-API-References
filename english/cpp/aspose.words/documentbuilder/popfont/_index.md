@@ -6,7 +6,7 @@ type: docs
 weight: 755
 url: /cpp/aspose.words/documentbuilder/popfont/
 ---
-## DocumentBuilder.PopFont method
+## DocumentBuilder::PopFont method
 
 
 Retrieves character formatting previously saved on the stack.
@@ -17,7 +17,6 @@ void Aspose::Words::DocumentBuilder::PopFont()
 
 
 ## Examples
-
 
 
 
@@ -52,3 +51,8 @@ builder->Write(u". We hope you enjoyed the example.");
 doc->Save(ArtifactsDir + u"DocumentBuilder.PushPopFont.docx");
 ```
 
+## See Also
+
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

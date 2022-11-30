@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words/node/gettext/
 ---
-## Node.GetText method
+## Node::GetText method
 
 
 Gets the text of this node and of all its children.
@@ -15,11 +15,12 @@ Gets the text of this node and of all its children.
 virtual System::String Aspose::Words::Node::GetText()
 ```
 
+## Remarks
+
 
 The returned string includes all control and special characters as described in [ControlChar](../../controlchar/).
 
 ## Examples
-
 
 
 
@@ -87,3 +88,8 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 ```
 
+## See Also
+
+* Class [Node](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

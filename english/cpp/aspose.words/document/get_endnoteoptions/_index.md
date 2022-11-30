@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.words/document/get_endnoteoptions/
 ---
-## Document.get_EndnoteOptions method
+## Document::get_EndnoteOptions method
 
 
 Provides options that control numbering and positioning of endnotes in this document.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Notes::EndnoteOptions> Aspose::Words::Document:
 
 
 ## Examples
-
 
 
 
@@ -188,3 +187,9 @@ doc->get_EndnoteOptions()->set_StartNumber(50);
 doc->Save(ArtifactsDir + u"InlineStory.StartNumber.docx");
 ```
 
+## See Also
+
+* Class [EndnoteOptions](../../../aspose.words.notes/endnoteoptions/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.themes/themecolors/get_accent3/
 ---
-## ThemeColors.get_Accent3 method
+## ThemeColors::get_Accent3 method
 
 
 Specifies color Accent 3.
@@ -17,7 +17,6 @@ System::Drawing::Color Aspose::Words::Themes::ThemeColors::get_Accent3()
 
 
 ## Examples
-
 
 
 
@@ -63,3 +62,8 @@ colors->set_FollowedHyperlink(System::Drawing::Color::get_Gray());
 doc->Save(ArtifactsDir + u"Themes.CustomColorsAndFonts.docx");
 ```
 
+## See Also
+
+* Class [ThemeColors](../)
+* Namespace [Aspose::Words::Themes](../../)
+* Library [Aspose.Words](../../../)

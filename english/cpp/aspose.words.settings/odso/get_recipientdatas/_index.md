@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.settings/odso/get_recipientdatas/
 ---
-## Odso.get_RecipientDatas method
+## Odso::get_RecipientDatas method
 
 
 Gets a collection of objects that specify inclusion/exclusion of individual records in the mail merge. This object is never null.
@@ -15,3 +15,9 @@ Gets a collection of objects that specify inclusion/exclusion of individual reco
 System::SharedPtr<Aspose::Words::Settings::OdsoRecipientDataCollection> Aspose::Words::Settings::Odso::get_RecipientDatas() const
 ```
 
+## See Also
+
+* Class [OdsoRecipientDataCollection](../../odsorecipientdatacollection/)
+* Class [Odso](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

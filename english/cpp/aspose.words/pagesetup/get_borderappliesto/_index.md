@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/pagesetup/get_borderappliesto/
 ---
-## PageSetup.get_BorderAppliesTo method
+## PageSetup::get_BorderAppliesTo method
 
 
 Specifies which pages the page border is printed on.
@@ -17,7 +17,6 @@ Aspose::Words::PageBorderAppliesTo Aspose::Words::PageSetup::get_BorderAppliesTo
 
 
 ## Examples
-
 
 
 
@@ -39,3 +38,9 @@ border->set_DistanceFromText(0);
 doc->Save(ArtifactsDir + u"PageSetup.PageBorderProperties.docx");
 ```
 
+## See Also
+
+* Enum [PageBorderAppliesTo](../../pageborderappliesto/)
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

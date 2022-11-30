@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.drawing/horizontalruleformat/set_widthpercent/
 ---
-## HorizontalRuleFormat.set_WidthPercent method
+## HorizontalRuleFormat::set_WidthPercent method
 
 
 Setter for [Aspose::Words::Drawing::HorizontalRuleFormat::get_WidthPercent](../get_widthpercent/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::HorizontalRuleFormat::get_WidthPercent](../g
 void Aspose::Words::Drawing::HorizontalRuleFormat::set_WidthPercent(double value)
 ```
 
+## See Also
+
+* Class [HorizontalRuleFormat](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 521
 url: /cpp/aspose.words/documentvisitor/visitsmarttagend/
 ---
-## DocumentVisitor.VisitSmartTagEnd method
+## DocumentVisitor::VisitSmartTagEnd method
 
 
 Called when enumeration of a smart tag has ended.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitSmartT
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -104,3 +102,10 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [SmartTag](../../../aspose.words.markup/smarttag/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

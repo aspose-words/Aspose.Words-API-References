@@ -23,3 +23,7 @@ class FieldDatabaseDataTable : public System::Object
 | [FieldDatabaseDataTable](./fielddatabasedatatable/)(const System::ArrayPtr\<System::String\>\&) | Initializes a new instance of the [FieldDatabaseDataTable](./) class. |
 | [get_ColumnNames](./get_columnnames/)() const | Gets columns that belong to this table. |
 | [get_Rows](./get_rows/)() const | Gets rows that belong to this table. |
+## See Also
+
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

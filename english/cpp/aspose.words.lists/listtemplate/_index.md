@@ -11,6 +11,10 @@ url: /cpp/aspose.words.lists/listtemplate/
 
 Specifies one of the predefined list formats available in Microsoft Word.
 
+```cpp
+enum class ListTemplate
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -38,13 +42,14 @@ Specifies one of the predefined list formats available in Microsoft Word.
 | OutlineHeadingsNumbers | n/a | An outline list with levels linked to Heading styles. Corresponds to the 6th outline list template in the Bullets and Numbering dialog box in Microsoft Word. |
 | OutlineHeadingsChapter | n/a | An outline list with levels linked to Heading styles. Corresponds to the 7th outline list template in the Bullets and Numbering dialog box in Microsoft Word. |
 
+## Remarks
+
 
 A list template value is used as a parameter into the [Add()](../listcollection/add/) method.
 
 Aspose.Words list templates correspond to the 21 list templates available in the Bullets and Numbering dialog box in Microsoft Word 2003.
 
 ## Examples
-
 
 
 
@@ -178,3 +183,7 @@ static void AddOutlineHeadingParagraphs(SharedPtr<DocumentBuilder> builder, Shar
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Lists](../)
+* Library [Aspose.Words](../../)

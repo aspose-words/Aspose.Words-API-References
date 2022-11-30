@@ -11,6 +11,10 @@ url: /cpp/aspose.words/protectiontype/
 
 Protection type for a document.
 
+```cpp
+enum class ProtectionType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -23,7 +27,6 @@ Protection type for a document.
 
 
 ## Examples
-
 
 
 
@@ -50,3 +53,7 @@ doc->get_Sections()->idx_get(0)->set_ProtectedForForms(false);
 doc->Save(ArtifactsDir + u"Section.Protect.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

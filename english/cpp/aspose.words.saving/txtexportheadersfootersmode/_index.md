@@ -11,6 +11,10 @@ url: /cpp/aspose.words.saving/txtexportheadersfootersmode/
 
 Specifies the way headers and footers are exported to plain text format.
 
+```cpp
+enum class TxtExportHeadersFootersMode
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ Specifies the way headers and footers are exported to plain text format.
 
 
 ## Examples
-
 
 
 
@@ -82,3 +85,7 @@ case TxtExportHeadersFootersMode::None:
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.drawing/shape/get_lastparagraph/
 ---
-## Shape.get_LastParagraph method
+## Shape::get_LastParagraph method
 
 
 Gets the last paragraph in the shape.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::Drawing::Shape::get_L
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,9 @@ textBox->set_LayoutFlow(layoutFlow);
 doc->Save(ArtifactsDir + u"Shape.TextBoxLayoutFlow.docx");
 ```
 
+## See Also
+
+* Class [Paragraph](../../../aspose.words/paragraph/)
+* Class [Shape](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

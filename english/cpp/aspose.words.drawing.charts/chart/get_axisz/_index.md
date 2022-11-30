@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.drawing.charts/chart/get_axisz/
 ---
-## Chart.get_AxisZ method
+## Chart::get_AxisZ method
 
 
 Provides access to properties of the Z axis of the chart.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartAxis> Aspose::Words::Draw
 
 
 ## Examples
-
 
 
 
@@ -67,3 +66,9 @@ ASSERT_TRUE(chart->get_AxisZ() == nullptr);
 doc->Save(ArtifactsDir + u"Charts.AxisProperties.docx");
 ```
 
+## See Also
+
+* Class [ChartAxis](../../chartaxis/)
+* Class [Chart](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

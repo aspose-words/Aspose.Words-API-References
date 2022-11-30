@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.settings/writeprotection/get_readonlyrecommended/
 ---
-## WriteProtection.get_ReadOnlyRecommended method
+## WriteProtection::get_ReadOnlyRecommended method
 
 
 Specifies whether the document author has recommended that the document be opened as read-only.
@@ -17,7 +17,6 @@ bool Aspose::Words::Settings::WriteProtection::get_ReadOnlyRecommended() const
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,8 @@ builder->Writeln(u"Writing text in a protected document.");
 ASSERT_EQ(String(u"Hello world! This document is protected.") + u"\rWriting text in a protected document.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [WriteProtection](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

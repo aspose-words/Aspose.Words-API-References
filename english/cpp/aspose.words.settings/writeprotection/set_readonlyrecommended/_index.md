@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.settings/writeprotection/set_readonlyrecommended/
 ---
-## WriteProtection.set_ReadOnlyRecommended method
+## WriteProtection::set_ReadOnlyRecommended method
 
 
 Setter for [Aspose::Words::Settings::WriteProtection::get_ReadOnlyRecommended](../get_readonlyrecommended/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Settings::WriteProtection::get_ReadOnlyRecommended](.
 void Aspose::Words::Settings::WriteProtection::set_ReadOnlyRecommended(bool value)
 ```
 
+## See Also
+
+* Class [WriteProtection](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

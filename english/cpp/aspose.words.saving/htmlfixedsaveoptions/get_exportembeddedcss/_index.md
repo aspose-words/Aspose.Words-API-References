@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_exportembeddedcss/
 ---
-## HtmlFixedSaveOptions.get_ExportEmbeddedCss method
+## HtmlFixedSaveOptions::get_ExportEmbeddedCss method
 
 
 Specifies whether the CSS (Cascading [Style](../../../aspose.words/style/) Sheet) should be embedded into Html document.
@@ -17,7 +17,6 @@ bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedCss() const
 
 
 ## Examples
-
 
 
 
@@ -52,3 +51,8 @@ else
 }
 ```
 
+## See Also
+
+* Class [HtmlFixedSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.words.drawing/imagedata/set_grayscale/
 ---
-## ImageData.set_GrayScale method
+## ImageData::set_GrayScale method
 
 
 Setter for [Aspose::Words::Drawing::ImageData::get_GrayScale](../get_grayscale/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::ImageData::get_GrayScale](../get_grayscale/)
 void Aspose::Words::Drawing::ImageData::set_GrayScale(bool value)
 ```
 
+## See Also
+
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

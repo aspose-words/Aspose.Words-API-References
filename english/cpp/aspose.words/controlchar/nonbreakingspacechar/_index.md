@@ -12,12 +12,11 @@ url: /cpp/aspose.words/controlchar/nonbreakingspacechar/
 Non-breaking space character: (char)160.
 
 ```cpp
-constexpr char16_t Aspose::Words::ControlChar::NonBreakingSpaceChar
+static constexpr char16_t Aspose::Words::ControlChar::NonBreakingSpaceChar
 ```
 
 
 ## Examples
-
 
 
 
@@ -87,3 +86,8 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::PageBreak()), ControlChar:
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlChar::ColumnBreakChar);
 ```
 
+## See Also
+
+* Class [ControlChar](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

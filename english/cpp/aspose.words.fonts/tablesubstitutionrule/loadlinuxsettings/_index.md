@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings/
 ---
-## TableSubstitutionRule.LoadLinuxSettings method
+## TableSubstitutionRule::LoadLinuxSettings method
 
 
 Loads predefined table substitution settings for Linux platform.
@@ -17,7 +17,6 @@ void Aspose::Words::Fonts::TableSubstitutionRule::LoadLinuxSettings()
 
 
 ## Examples
-
 
 
 
@@ -52,3 +51,8 @@ ASPOSE_ASSERT_EQ(MakeArray<String>({u"FreeSerif", u"Liberation Serif", u"DejaVu 
 }
 ```
 
+## See Also
+
+* Class [TableSubstitutionRule](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

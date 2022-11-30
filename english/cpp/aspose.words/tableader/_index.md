@@ -11,6 +11,10 @@ url: /cpp/aspose.words/tableader/
 
 Specifies the type of the leader line displayed under the tab character.
 
+```cpp
+enum class TabLeader
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -22,3 +26,7 @@ Specifies the type of the leader line displayed under the tab character.
 | Heavy | 4 | The leader line is a single thick line. |
 | MiddleDot | 5 | The leader line is made up from middle-dots. |
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

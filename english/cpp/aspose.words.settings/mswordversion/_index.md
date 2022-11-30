@@ -11,6 +11,10 @@ url: /cpp/aspose.words.settings/mswordversion/
 
 Allows Aspose.Wods to mimic MS Word version-specific application behavior.
 
+```cpp
+enum class MsWordVersion
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -24,3 +28,7 @@ Allows Aspose.Wods to mimic MS Word version-specific application behavior.
 | Word2016 | 6 | Optimize Aspose.Words behavior to match MS Word 2016 version. |
 | Word2019 | 7 | Optimize Aspose.Words behavior to match MS Word 2019 version. |
 
+## See Also
+
+* Namespace [Aspose::Words::Settings](../)
+* Library [Aspose.Words](../../)

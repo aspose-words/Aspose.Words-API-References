@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.lists/listlevel/get_textposition/
 ---
-## ListLevel.get_TextPosition method
+## ListLevel::get_TextPosition method
 
 
 Returns or sets the position (in points) for the second line of wrapping text for the list level.
@@ -15,11 +15,12 @@ Returns or sets the position (in points) for the second line of wrapping text fo
 double Aspose::Words::Lists::ListLevel::get_TextPosition() const
 ```
 
+## Remarks
+
 
 [TextPosition](./) corresponds to LeftIndent of the paragraph.
 
 ## Examples
-
 
 
 
@@ -76,3 +77,8 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateCustomList.docx");
 ```
 
+## See Also
+
+* Class [ListLevel](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

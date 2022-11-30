@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.drawing/fill/presettextured/
 ---
-## Fill.PresetTextured method
+## Fill::PresetTextured method
 
 
 Sets the fill to a preset texture.
@@ -21,7 +21,6 @@ void Aspose::Words::Drawing::Fill::PresetTextured(Aspose::Words::Drawing::Preset
 | presetTexture | Aspose::Words::Drawing::PresetTexture | [PresetTexture](../../presettexture/) |
 
 ## Examples
-
 
 
 
@@ -57,3 +56,9 @@ dataPoints->idx_get(3)->get_Marker()->get_Format()->get_Stroke()->set_Transparen
 doc->Save(ArtifactsDir + u"Charts.MarkerFormatting.docx");
 ```
 
+## See Also
+
+* Enum [PresetTexture](../../presettexture/)
+* Class [Fill](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

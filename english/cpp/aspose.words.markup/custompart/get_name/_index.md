@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.markup/custompart/get_name/
 ---
-## CustomPart.get_Name method
+## CustomPart::get_Name method
 
 
 Gets or sets this part's absolute name within the OOXML package or the target URL.
@@ -15,13 +15,14 @@ Gets or sets this part's absolute name within the OOXML package or the target UR
 System::String Aspose::Words::Markup::CustomPart::get_Name() const
 ```
 
+## Remarks
+
 
 If the relationship target is internal, then this property is the absolute part name within the package. If the relationship target is external, then this property is the target URL.
 
 The default value is an empty string. A valid value must be a non-empty string.
 
 ## Examples
-
 
 
 
@@ -65,3 +66,8 @@ doc->get_PackageCustomParts()->Clear();
 ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
 ```
 
+## See Also
+
+* Class [CustomPart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

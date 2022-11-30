@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.webextensions/taskpane/get_row/
 ---
-## TaskPane.get_Row method
+## TaskPane::get_Row method
 
 
 Specifies the index, enumerating from the outside to the inside, of this task pane among other persisted task panes docked in the same default location.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::WebExtensions::TaskPane::get_Row() const
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,8 @@ doc->get_WebExtensionTaskPanes()->Clear();
 ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ```
 
+## See Also
+
+* Class [TaskPane](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

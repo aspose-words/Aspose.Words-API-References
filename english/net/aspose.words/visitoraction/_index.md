@@ -3,7 +3,7 @@ title: VisitorAction
 second_title: Aspose.Words for .NET API Reference
 description: Allows the visitor to control the enumeration of nodes.
 type: docs
-weight: 6340
+weight: 6350
 url: /net/aspose.words/visitoraction/
 ---
 ## VisitorAction enumeration

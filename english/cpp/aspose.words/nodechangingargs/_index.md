@@ -28,7 +28,6 @@ class NodeChangingArgs : public System::Object
 
 
 
-
 Shows how customize node changing with a callback. 
 ```cpp
 void FontChangeViaCallback()
@@ -102,3 +101,7 @@ private:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.words.fields/fieldmergebarcode/set_foregroundcolor/
 ---
-## FieldMergeBarcode.set_ForegroundColor method
+## FieldMergeBarcode::set_ForegroundColor method
 
 
 Sets the foreground color of the barcode symbol. Valid values are in the range [0, 0xFFFFFF].
@@ -15,3 +15,8 @@ Sets the foreground color of the barcode symbol. Valid values are in the range [
 void Aspose::Words::Fields::FieldMergeBarcode::set_ForegroundColor(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldMergeBarcode](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

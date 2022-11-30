@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_showleaderlines/
 ---
-## ChartDataLabelCollection.get_ShowLeaderLines method
+## ChartDataLabelCollection::get_ShowLeaderLines method
 
 
 Allows to specify whether data label leader lines need be shown for the data labels of the entire series. Default value is **false**.
@@ -15,13 +15,14 @@ Allows to specify whether data label leader lines need be shown for the data lab
 bool Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowLeaderLines()
 ```
 
+## Remarks
+
 
 Applies to Pie charts only. Leader lines create a visual connection between a data label and its corresponding data point.
 
 Value defined for this property can be overridden for an individual data label with using the [ShowLeaderLines](../../chartdatalabel/get_showleaderlines/) property.
 
 ## Examples
-
 
 
 
@@ -51,3 +52,8 @@ dataLabels->set_Separator(u"; ");
 doc->Save(ArtifactsDir + u"Charts.DataLabelsPieChart.docx");
 ```
 
+## See Also
+
+* Class [ChartDataLabelCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

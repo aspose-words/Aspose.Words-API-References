@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/aspose.words.drawing/stroke/set_joinstyle/
 ---
-## Stroke.set_JoinStyle method
+## Stroke::set_JoinStyle method
 
 
 Setter for [Aspose::Words::Drawing::Stroke::get_JoinStyle](../get_joinstyle/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Drawing::Stroke::get_JoinStyle](../get_joinstyle/).
 void Aspose::Words::Drawing::Stroke::set_JoinStyle(Aspose::Words::Drawing::JoinStyle value)
 ```
 
+## See Also
+
+* Enum [JoinStyle](../../joinstyle/)
+* Class [Stroke](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.notes/footnoteoptions/get_startnumber/
 ---
-## FootnoteOptions.get_StartNumber method
+## FootnoteOptions::get_StartNumber method
 
 
 Specifies the starting number or character for the first automatically numbered footnotes.
@@ -15,11 +15,12 @@ Specifies the starting number or character for the first automatically numbered 
 int32_t Aspose::Words::Notes::FootnoteOptions::get_StartNumber() override
 ```
 
+## Remarks
 
-This property has effect only when [RestartRule](../get_restartrule/) is set to **Continuous**.
+
+This property has effect only when [RestartRule](../get_restartrule/) is set to [Continuous](../../footnotenumberingrule/).
 
 ## Examples
-
 
 
 
@@ -67,3 +68,8 @@ doc->get_EndnoteOptions()->set_StartNumber(50);
 doc->Save(ArtifactsDir + u"InlineStory.StartNumber.docx");
 ```
 
+## See Also
+
+* Class [FootnoteOptions](../)
+* Namespace [Aspose::Words::Notes](../../)
+* Library [Aspose.Words](../../../)

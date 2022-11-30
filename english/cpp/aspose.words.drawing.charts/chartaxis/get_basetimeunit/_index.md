@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_basetimeunit/
 ---
-## ChartAxis.get_BaseTimeUnit method
+## ChartAxis::get_BaseTimeUnit method
 
 
 Returns or sets the smallest time unit that is represented on the time category axis.
@@ -17,7 +17,6 @@ Aspose::Words::Drawing::Charts::AxisTimeUnit Aspose::Words::Drawing::Charts::Cha
 
 
 ## Examples
-
 
 
 
@@ -62,3 +61,9 @@ yAxis->get_Scaling()->set_Maximum(MakeObject<AxisBound>(700.0));
 doc->Save(ArtifactsDir + u"Charts.DateTimeValues.docx");
 ```
 
+## See Also
+
+* Enum [AxisTimeUnit](../../axistimeunit/)
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

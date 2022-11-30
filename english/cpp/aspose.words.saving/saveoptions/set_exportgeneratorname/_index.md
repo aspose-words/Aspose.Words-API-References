@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/aspose.words.saving/saveoptions/set_exportgeneratorname/
 ---
-## SaveOptions.set_ExportGeneratorName method
+## SaveOptions::set_ExportGeneratorName method
 
 
 Setter for [Aspose::Words::Saving::SaveOptions::get_ExportGeneratorName](../get_exportgeneratorname/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::SaveOptions::get_ExportGeneratorName](../get_
 void Aspose::Words::Saving::SaveOptions::set_ExportGeneratorName(bool value)
 ```
 
+## See Also
+
+* Class [SaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.drawing/olepackage/get_filename/
 ---
-## OlePackage.get_FileName method
+## OlePackage::get_FileName method
 
 
 Gets or sets OLE Package file name.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Drawing::OlePackage::get_FileName() const
 
 
 ## Examples
-
 
 
 
@@ -42,3 +41,8 @@ ArrayPtr<uint8_t> zipFileBytes = System::IO::File::ReadAllBytes(DatabaseDir + u"
 doc->Save(ArtifactsDir + u"Shape.InsertOlePackage.docx");
 ```
 
+## See Also
+
+* Class [OlePackage](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

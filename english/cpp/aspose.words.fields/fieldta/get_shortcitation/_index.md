@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fields/fieldta/get_shortcitation/
 ---
-## FieldTA.get_ShortCitation method
+## FieldTA::get_ShortCitation method
 
 
 Gets or sets the short citation for the entry.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldTA::get_ShortCitation()
 
 
 ## Examples
-
 
 
 
@@ -138,3 +137,8 @@ static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, Str
 }
 ```
 
+## See Also
+
+* Class [FieldTA](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

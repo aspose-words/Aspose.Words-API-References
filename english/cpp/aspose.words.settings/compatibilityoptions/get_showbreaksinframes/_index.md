@@ -6,7 +6,7 @@ type: docs
 weight: 547
 url: /cpp/aspose.words.settings/compatibilityoptions/get_showbreaksinframes/
 ---
-## CompatibilityOptions.get_ShowBreaksInFrames method
+## CompatibilityOptions::get_ShowBreaksInFrames method
 
 
 Display Page/Column Breaks Present in Frames.
@@ -15,3 +15,8 @@ Display Page/Column Breaks Present in Frames.
 bool Aspose::Words::Settings::CompatibilityOptions::get_ShowBreaksInFrames()
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

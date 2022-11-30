@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/paragraphformat/get_borders/
 ---
-## ParagraphFormat.get_Borders method
+## ParagraphFormat::get_Borders method
 
 
 Gets collection of borders of the paragraph.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::BorderCollection> Aspose::Words::ParagraphForma
 
 
 ## Examples
-
 
 
 
@@ -36,3 +35,9 @@ builder->Writeln(u"Text with a red top border.");
 doc->Save(ArtifactsDir + u"Border.ParagraphTopBorder.docx");
 ```
 
+## See Also
+
+* Class [BorderCollection](../../bordercollection/)
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

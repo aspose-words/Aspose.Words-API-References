@@ -6,7 +6,7 @@ type: docs
 weight: 664
 url: /cpp/aspose.words.settings/compatibilityoptions/get_suppresstopspacingwp/
 ---
-## CompatibilityOptions.get_SuppressTopSpacingWP method
+## CompatibilityOptions::get_SuppressTopSpacingWP method
 
 
 Emulate WordPerfect 5.x Line Spacing.
@@ -15,3 +15,8 @@ Emulate WordPerfect 5.x Line Spacing.
 bool Aspose::Words::Settings::CompatibilityOptions::get_SuppressTopSpacingWP()
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

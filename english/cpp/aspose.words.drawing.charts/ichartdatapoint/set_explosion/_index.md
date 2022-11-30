@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.drawing.charts/ichartdatapoint/set_explosion/
 ---
-## IChartDataPoint.set_Explosion method
+## IChartDataPoint::set_Explosion method
 
 
 Setter for [Aspose::Words::Drawing::Charts::IChartDataPoint::get_Explosion](../get_explosion/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::Charts::IChartDataPoint::get_Explosion](../g
 virtual void Aspose::Words::Drawing::Charts::IChartDataPoint::set_Explosion(int32_t value)=0
 ```
 
+## See Also
+
+* Interface [IChartDataPoint](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

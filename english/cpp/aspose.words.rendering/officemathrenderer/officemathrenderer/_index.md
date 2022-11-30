@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.rendering/officemathrenderer/officemathrenderer/
 ---
-## OfficeMathRenderer.OfficeMathRenderer method
+## OfficeMathRenderer::OfficeMathRenderer constructor
 
 
 Initializes a new instance of this class.
@@ -21,7 +21,6 @@ Aspose::Words::Rendering::OfficeMathRenderer::OfficeMathRenderer(const System::S
 | math | const System::SharedPtr\<Aspose::Words::Math::OfficeMath\>\& | The OfficeMath object that you want to render. |
 
 ## Examples
-
 
 
 
@@ -66,3 +65,9 @@ ASSERT_EQ(159, bounds.get_Width());
 ASSERT_EQ(30, bounds.get_Height());
 ```
 
+## See Also
+
+* Class [OfficeMath](../../../aspose.words.math/officemath/)
+* Class [OfficeMathRenderer](../)
+* Namespace [Aspose::Words::Rendering](../../)
+* Library [Aspose.Words](../../../)

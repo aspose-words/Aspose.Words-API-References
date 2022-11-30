@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.drawing.charts/charttitle/get_show/
 ---
-## ChartTitle.get_Show method
+## ChartTitle::get_Show method
 
 
 Determines whether the title shall be shown for this chart. Default value is true.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::Charts::ChartTitle::get_Show()
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,8 @@ title->set_Overlay(true);
 doc->Save(ArtifactsDir + u"Charts.ChartTitle.docx");
 ```
 
+## See Also
+
+* Class [ChartTitle](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

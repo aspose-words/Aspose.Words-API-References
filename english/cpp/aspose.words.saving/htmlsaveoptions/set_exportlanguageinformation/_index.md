@@ -6,7 +6,7 @@ type: docs
 weight: 820
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_exportlanguageinformation/
 ---
-## HtmlSaveOptions.set_ExportLanguageInformation method
+## HtmlSaveOptions::set_ExportLanguageInformation method
 
 
 Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportLanguageInformation](../get_exportlanguageinformation/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportLanguageInformatio
 void Aspose::Words::Saving::HtmlSaveOptions::set_ExportLanguageInformation(bool value)
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

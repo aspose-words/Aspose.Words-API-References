@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fieldimport/get_sourcefullname/
 ---
-## FieldImport.get_SourceFullName method
+## FieldImport::get_SourceFullName method
 
 
 Gets or sets the location of the picture.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldImport::get_SourceFullName() override
 
 
 ## Examples
-
 
 
 
@@ -51,3 +50,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.IMPORT.INCLUDEPICTURE.docx");
 ```
 
+## See Also
+
+* Class [FieldImport](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

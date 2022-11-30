@@ -6,7 +6,7 @@ type: docs
 weight: 911
 url: /cpp/aspose.words/font/set_kerning/
 ---
-## Font.set_Kerning method
+## Font::set_Kerning method
 
 
 Setter for [Aspose::Words::Font::get_Kerning](../get_kerning/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Font::get_Kerning](../get_kerning/).
 void Aspose::Words::Font::set_Kerning(double value)
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

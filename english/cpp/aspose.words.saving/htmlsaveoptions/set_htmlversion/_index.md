@@ -6,7 +6,7 @@ type: docs
 weight: 1015
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_htmlversion/
 ---
-## HtmlSaveOptions.set_HtmlVersion method
+## HtmlSaveOptions::set_HtmlVersion method
 
 
 Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_HtmlVersion](../get_htmlversion/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_HtmlVersion](../get_html
 void Aspose::Words::Saving::HtmlSaveOptions::set_HtmlVersion(Aspose::Words::Saving::HtmlVersion value)
 ```
 
+## See Also
+
+* Enum [HtmlVersion](../../htmlversion/)
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

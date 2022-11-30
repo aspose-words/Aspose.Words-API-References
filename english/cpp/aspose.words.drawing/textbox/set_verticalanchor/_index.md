@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.words.drawing/textbox/set_verticalanchor/
 ---
-## TextBox.set_VerticalAnchor method
+## TextBox::set_VerticalAnchor method
 
 
 Setter for [Aspose::Words::Drawing::TextBox::get_VerticalAnchor](../get_verticalanchor/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Drawing::TextBox::get_VerticalAnchor](../get_vertical
 void Aspose::Words::Drawing::TextBox::set_VerticalAnchor(Aspose::Words::Drawing::TextBoxAnchor value)
 ```
 
+## See Also
+
+* Enum [TextBoxAnchor](../../textboxanchor/)
+* Class [TextBox](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

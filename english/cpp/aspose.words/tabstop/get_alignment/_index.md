@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/tabstop/get_alignment/
 ---
-## TabStop.get_Alignment method
+## TabStop::get_Alignment method
 
 
 Gets or sets the alignment of text at this tab stop.
@@ -17,7 +17,6 @@ Aspose::Words::TabAlignment Aspose::Words::TabStop::get_Alignment() const
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,9 @@ for (const auto& para : System::IterateOver(doc->GetChildNodes(NodeType::Paragra
 doc->Save(ArtifactsDir + u"Styles.ChangeTocsTabStops.docx");
 ```
 
+## See Also
+
+* Enum [TabAlignment](../../tabalignment/)
+* Class [TabStop](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

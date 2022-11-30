@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.drawing.charts/axisbound/get_value/
 ---
-## AxisBound.get_Value method
+## AxisBound::get_Value method
 
 
 Returns numeric value of axis bound.
@@ -17,7 +17,6 @@ double Aspose::Words::Drawing::Charts::AxisBound::get_Value() const
 
 
 ## Examples
-
 
 
 
@@ -70,3 +69,8 @@ chart->get_AxisX()->get_Scaling()->set_Maximum(MakeObject<AxisBound>(System::Dat
 doc->Save(ArtifactsDir + u"Charts.AxisBound.docx");
 ```
 
+## See Also
+
+* Class [AxisBound](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

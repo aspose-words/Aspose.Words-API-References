@@ -6,7 +6,7 @@ type: docs
 weight: 599
 url: /cpp/aspose.words/document/get_showgrammaticalerrors/
 ---
-## Document.get_ShowGrammaticalErrors method
+## Document::get_ShowGrammaticalErrors method
 
 
 Specifies whether to display grammar errors in this document.
@@ -17,7 +17,6 @@ bool Aspose::Words::Document::get_ShowGrammaticalErrors()
 
 
 ## Examples
-
 
 
 
@@ -39,3 +38,8 @@ doc->set_ShowSpellingErrors(showErrors);
 doc->Save(ArtifactsDir + u"Document.SpellingAndGrammarErrors.docx");
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

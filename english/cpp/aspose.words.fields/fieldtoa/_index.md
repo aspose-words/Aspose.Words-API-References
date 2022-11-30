@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldtoa/
 Implements the TOA field.
 
 ```cpp
-class FieldToa : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldToa : public Aspose::Words::Fields::Field,
+                 public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -63,7 +64,6 @@ class FieldToa : public Aspose::Words::Fields::Field, public Aspose::Words::Fiel
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 
 ## Examples
-
 
 
 
@@ -184,3 +184,8 @@ static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, Str
 }
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

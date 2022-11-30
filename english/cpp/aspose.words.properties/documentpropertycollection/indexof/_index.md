@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.properties/documentpropertycollection/indexof/
 ---
-## DocumentPropertyCollection.IndexOf method
+## DocumentPropertyCollection::IndexOf method
 
 
 Gets the index of a property by name.
@@ -22,11 +22,9 @@ int32_t Aspose::Words::Properties::DocumentPropertyCollection::IndexOf(const Sys
 
 ### ReturnValue
 
-
 The zero based index. Negative value if not found.
 
 ## Examples
-
 
 
 
@@ -88,3 +86,8 @@ properties->Clear();
 ASSERT_EQ(0, properties->get_Count());
 ```
 
+## See Also
+
+* Class [DocumentPropertyCollection](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

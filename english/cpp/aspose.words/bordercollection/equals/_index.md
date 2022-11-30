@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/bordercollection/equals/
 ---
-## BorderCollection.Equals method
+## BorderCollection::Equals method
 
 
 Compares collections of borders.
@@ -17,7 +17,6 @@ bool Aspose::Words::BorderCollection::Equals(const System::SharedPtr<Aspose::Wor
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,9 @@ for (int i = 0; i < firstParagraphBorders->get_Count(); i++)
 doc->Save(ArtifactsDir + u"Border.SharedElements.docx");
 ```
 
+## See Also
+
+* Class [BorderCollection](../)
+* Class [BorderCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

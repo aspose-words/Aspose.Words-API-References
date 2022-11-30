@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.fields/userinformation/set_name/
 ---
-## UserInformation.set_Name method
+## UserInformation::set_Name method
 
 
 Setter for [Aspose::Words::Fields::UserInformation::get_Name](../get_name/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::UserInformation::get_Name](../get_name/).
 void Aspose::Words::Fields::UserInformation::set_Name(const System::String &value)
 ```
 
+## See Also
+
+* Class [UserInformation](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

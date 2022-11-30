@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/toacategories/idx_set/
 ---
-## ToaCategories.idx_set method
+## ToaCategories::idx_set method
 
 
 Gets or sets the category heading by category number.
@@ -17,7 +17,6 @@ void Aspose::Words::Fields::ToaCategories::idx_set(int32_t number, const System:
 
 
 ## Examples
-
 
 
 
@@ -63,3 +62,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"FieldOptions.TOA.Categories.docx");
 ```
 
+## See Also
+
+* Class [ToaCategories](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.drawing/textbox/set_next/
 ---
-## TextBox.set_Next method
+## TextBox::set_Next method
 
 
 Setter for [Aspose::Words::Drawing::TextBox::get_Next](../get_next/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Drawing::TextBox::get_Next](../get_next/).
 void Aspose::Words::Drawing::TextBox::set_Next(const System::SharedPtr<Aspose::Words::Drawing::TextBox> &value)
 ```
 
+## See Also
+
+* Class [TextBox](../)
+* Class [TextBox](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

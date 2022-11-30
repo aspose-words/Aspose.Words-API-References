@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.settings/compatibilityoptions/get_donotuseeastasianbreakrules/
 ---
-## CompatibilityOptions.get_DoNotUseEastAsianBreakRules method
+## CompatibilityOptions::get_DoNotUseEastAsianBreakRules method
 
 
 Do Not Compress Compressible Characters When Using [Document](../../../aspose.words/document/) Grid.
@@ -15,3 +15,8 @@ Do Not Compress Compressible Characters When Using [Document](../../../aspose.wo
 bool Aspose::Words::Settings::CompatibilityOptions::get_DoNotUseEastAsianBreakRules()
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

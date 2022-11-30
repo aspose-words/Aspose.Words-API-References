@@ -6,7 +6,7 @@ type: docs
 weight: 599
 url: /cpp/aspose.words/paragraphformat/set_characterunitleftindent/
 ---
-## ParagraphFormat.set_CharacterUnitLeftIndent method
+## ParagraphFormat::set_CharacterUnitLeftIndent method
 
 
 Setter for [Aspose::Words::ParagraphFormat::get_CharacterUnitLeftIndent](../get_characterunitleftindent/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::ParagraphFormat::get_CharacterUnitLeftIndent](../get_
 void Aspose::Words::ParagraphFormat::set_CharacterUnitLeftIndent(double value)
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

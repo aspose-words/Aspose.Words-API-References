@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/frameformat/get_heightrule/
 ---
-## FrameFormat.get_HeightRule method
+## FrameFormat::get_HeightRule method
 
 
 Gets the rule for determining the height of the specified frame.
@@ -17,7 +17,6 @@ Aspose::Words::HeightRule Aspose::Words::FrameFormat::get_HeightRule()
 
 
 ## Examples
-
 
 
 
@@ -41,3 +40,9 @@ ASSERT_EQ(RelativeVerticalPosition::Paragraph, paragraphFrame->get_FrameFormat()
 ASPOSE_ASSERT_EQ(0.0, paragraphFrame->get_FrameFormat()->get_VerticalDistanceFromText());
 ```
 
+## See Also
+
+* Enum [HeightRule](../../heightrule/)
+* Class [FrameFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

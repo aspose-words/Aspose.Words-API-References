@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/ooxmlsaveoptions/
 ## OoxmlSaveOptions class
 
 
-Can be used to specify additional options when saving a document into the **Docx**, **Docm**, **Dotx**, **Dotm** or **FlatOpc** format.
+Can be used to specify additional options when saving a document into the [Docx](../../aspose.words/saveformat/), [Docm](../../aspose.words/saveformat/), [Dotx](../../aspose.words/saveformat/), [Dotm](../../aspose.words/saveformat/) or [FlatOpc](../../aspose.words/saveformat/) format.
 
 ```cpp
 class OoxmlSaveOptions : public Aspose::Words::Saving::SaveOptions
@@ -22,8 +22,8 @@ class OoxmlSaveOptions : public Aspose::Words::Saving::SaveOptions
 | static [CreateSaveOptions](../saveoptions/createsaveoptions/)(Aspose::Words::SaveFormat) | Creates a save options object of a class suitable for the specified save format. |
 | static [CreateSaveOptions](../saveoptions/createsaveoptions/)(const System::String\&) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
 | [get_AllowEmbeddingPostScriptFonts](../saveoptions/get_allowembeddingpostscriptfonts/)() const | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**. |
-| [get_Compliance](./get_compliance/)() | Specifies the OOXML version for the output document. The default value is **Ecma376_2006**. |
-| [get_CompressionLevel](./get_compressionlevel/)() const | Specifies the compression level used to save document. The default value is **Normal**. |
+| [get_Compliance](./get_compliance/)() | Specifies the OOXML version for the output document. The default value is [Ecma376_2006](../ooxmlcompliance/). |
+| [get_CompressionLevel](./get_compressionlevel/)() const | Specifies the compression level used to save document. The default value is [Normal](../compressionlevel/). |
 | [get_CustomTimeZoneInfo](../saveoptions/get_customtimezoneinfo/)() const |  |
 | [get_DefaultTemplate](../saveoptions/get_defaulttemplate/)() const | Gets or sets path to default template (including filename). Default value for this property is **empty string**. |
 | [get_Dml3DEffectsRenderingMode](../saveoptions/get_dml3deffectsrenderingmode/)() const | Gets a value determining how 3D effects are rendered. |
@@ -36,7 +36,7 @@ class OoxmlSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [get_Password](./get_password/)() const | Gets/sets a password to encrypt document using ECMA376 Standard encryption algorithm. |
 | [get_PrettyFormat](../saveoptions/get_prettyformat/)() const | When **true**, pretty formats output where applicable. Default value is **false**. |
 | [get_ProgressCallback](../saveoptions/get_progresscallback/)() const | Called during saving a document and accepts data about saving progress. |
-| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can be **Docx**, **Docm**, **Dotx**, **Dotm** or **FlatOpc**. |
+| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can be [Docx](../../aspose.words/saveformat/), [Docm](../../aspose.words/saveformat/), [Dotx](../../aspose.words/saveformat/), [Dotm](../../aspose.words/saveformat/) or [FlatOpc](../../aspose.words/saveformat/). |
 | [get_TempFolder](../saveoptions/get_tempfolder/)() const | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is **null** and no temporary files are used. |
 | [get_UpdateCreatedTimeProperty](../saveoptions/get_updatecreatedtimeproperty/)() const | Gets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is false;. |
 | [get_UpdateFields](../saveoptions/get_updatefields/)() const | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. |
@@ -45,8 +45,8 @@ class OoxmlSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [get_UpdateSdtContent](../saveoptions/get_updatesdtcontent/)() const | Gets or sets value determining whether content of [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/) is updated before saving. |
 | [get_UseAntiAliasing](../saveoptions/get_useantialiasing/)() const | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [get_UseHighQualityRendering](../saveoptions/get_usehighqualityrendering/)() const | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
-| [OoxmlSaveOptions](./ooxmlsaveoptions/)() | Initializes a new instance of this class that can be used to save a document in the **Docx** format. |
-| [OoxmlSaveOptions](./ooxmlsaveoptions/)(Aspose::Words::SaveFormat) | Initializes a new instance of this class that can be used to save a document in the **Docx**, **Docm**, **Dotx**, **Dotm** or **FlatOpc** format. |
+| [OoxmlSaveOptions](./ooxmlsaveoptions/)() | Initializes a new instance of this class that can be used to save a document in the [Docx](../../aspose.words/saveformat/) format. |
+| [OoxmlSaveOptions](./ooxmlsaveoptions/)(Aspose::Words::SaveFormat) | Initializes a new instance of this class that can be used to save a document in the [Docx](../../aspose.words/saveformat/), [Docm](../../aspose.words/saveformat/), [Dotx](../../aspose.words/saveformat/), [Dotm](../../aspose.words/saveformat/) or [FlatOpc](../../aspose.words/saveformat/) format. |
 | [set_AllowEmbeddingPostScriptFonts](../saveoptions/set_allowembeddingpostscriptfonts/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_AllowEmbeddingPostScriptFonts](../saveoptions/get_allowembeddingpostscriptfonts/). |
 | [set_Compliance](./set_compliance/)(Aspose::Words::Saving::OoxmlCompliance) | Setter for [Aspose::Words::Saving::OoxmlSaveOptions::get_Compliance](./get_compliance/). |
 | [set_CompressionLevel](./set_compressionlevel/)(Aspose::Words::Saving::CompressionLevel) | Setter for [Aspose::Words::Saving::OoxmlSaveOptions::get_CompressionLevel](./get_compressionlevel/). |
@@ -73,7 +73,6 @@ class OoxmlSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [set_UseHighQualityRendering](../saveoptions/set_usehighqualityrendering/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UseHighQualityRendering](../saveoptions/get_usehighqualityrendering/). |
 
 ## Examples
-
 
 
 
@@ -104,3 +103,8 @@ doc = MakeObject<Document>(ArtifactsDir + u"OoxmlSaveOptions.Iso29500Strict.docx
 ASSERT_EQ(ShapeMarkupLanguage::Dml, (System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
 ```
 
+## See Also
+
+* Class [SaveOptions](../saveoptions/)
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

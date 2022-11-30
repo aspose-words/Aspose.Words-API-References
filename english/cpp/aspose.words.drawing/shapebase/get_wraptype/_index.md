@@ -6,7 +6,7 @@ type: docs
 weight: 703
 url: /cpp/aspose.words.drawing/shapebase/get_wraptype/
 ---
-## ShapeBase.get_WrapType method
+## ShapeBase::get_WrapType method
 
 
 Defines whether the shape is inline or floating. For floating shapes defines the wrapping mode for text around the shape.
@@ -15,13 +15,14 @@ Defines whether the shape is inline or floating. For floating shapes defines the
 Aspose::Words::Drawing::WrapType Aspose::Words::Drawing::ShapeBase::get_WrapType()
 ```
 
+## Remarks
 
-The default value is **None**.
+
+The default value is [None](../../wraptype/).
 
 Has effect only for top level shapes.
 
 ## Examples
-
 
 
 
@@ -70,3 +71,9 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(textBox);
 doc->Save(ArtifactsDir + u"Shape.CreateTextBox.docx");
 ```
 
+## See Also
+
+* Enum [WrapType](../../wraptype/)
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

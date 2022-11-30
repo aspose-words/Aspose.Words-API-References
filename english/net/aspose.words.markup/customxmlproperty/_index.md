@@ -3,7 +3,7 @@ title: CustomXmlProperty
 second_title: Aspose.Words for .NET API Reference
 description: Represents a single custom XML attribute or a smart tag property.
 type: docs
-weight: 3720
+weight: 3730
 url: /net/aspose.words.markup/customxmlproperty/
 ---
 ## CustomXmlProperty class

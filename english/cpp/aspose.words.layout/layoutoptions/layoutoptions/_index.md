@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.layout/layoutoptions/layoutoptions/
 ---
-## LayoutOptions.LayoutOptions method
+## LayoutOptions::LayoutOptions constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.layout/layoutoptions/layoutoptions/
 Aspose::Words::Layout::LayoutOptions::LayoutOptions()
 ```
 
+## See Also
+
+* Class [LayoutOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

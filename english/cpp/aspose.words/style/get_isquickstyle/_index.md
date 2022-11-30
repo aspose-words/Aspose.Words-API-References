@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words/style/get_isquickstyle/
 ---
-## Style.get_IsQuickStyle method
+## Style::get_IsQuickStyle method
 
 
 Specifies whether this style is shown in the Quick [Style](../) gallery inside MS Word UI.
@@ -17,7 +17,6 @@ bool Aspose::Words::Style::get_IsQuickStyle() const
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,8 @@ ASSERT_EQ(4, doc->get_Styles()->get_Count());
 }
 ```
 
+## See Also
+
+* Class [Style](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

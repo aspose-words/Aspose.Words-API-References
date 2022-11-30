@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing/wrapside/
 
 Specifies what side(s) of the shape or picture the text wraps around.
 
+```cpp
+enum class WrapSide
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -19,11 +23,10 @@ Specifies what side(s) of the shape or picture the text wraps around.
 | Left | 1 | The document text wraps on the left side of the shape only. There is a text free area on the right of the shape. |
 | Right | 2 | The document text wraps on the right side of the shape only. There is a text free area on the left side of the shape. |
 | Largest | 3 | The document text wraps on the side of the shape that is farthest from the page margin, leaving text free area on the other side of the shape. |
-| Default | n/a | Default value is **Both**. |
+| Default | n/a | Default value is [Both](./). |
 
 
 ## Examples
-
 
 
 
@@ -74,3 +77,7 @@ ASSERT_EQ(4, shapes->LINQ_Count(isImage));
 doc->Save(ArtifactsDir + u"Shape.ReplaceTextboxesWithImages.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

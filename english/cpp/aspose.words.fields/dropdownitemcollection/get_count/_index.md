@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.fields/dropdownitemcollection/get_count/
 ---
-## DropDownItemCollection.get_Count method
+## DropDownItemCollection::get_Count method
 
 
 Gets the number of elements contained in the collection.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Fields::DropDownItemCollection::get_Count()
 
 
 ## Examples
-
 
 
 
@@ -73,3 +72,8 @@ doc->Save(ArtifactsDir + u"FormFields.DropDownItemCollection.html");
 dropDownItems->Clear();
 ```
 
+## See Also
+
+* Class [DropDownItemCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

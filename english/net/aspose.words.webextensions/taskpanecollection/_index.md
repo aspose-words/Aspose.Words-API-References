@@ -3,7 +3,7 @@ title: TaskPaneCollection
 second_title: Aspose.Words for .NET API Reference
 description: Specifies a list of persisted task pane objects.
 type: docs
-weight: 6440
+weight: 6450
 url: /net/aspose.words.webextensions/taskpanecollection/
 ---
 ## TaskPaneCollection class

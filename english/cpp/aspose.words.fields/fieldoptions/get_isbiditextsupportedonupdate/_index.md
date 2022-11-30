@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.fields/fieldoptions/get_isbiditextsupportedonupdate/
 ---
-## FieldOptions.get_IsBidiTextSupportedOnUpdate method
+## FieldOptions::get_IsBidiTextSupportedOnUpdate method
 
 
 Gets or sets the value indicating whether bidirectional text is fully supported during field update or not.
@@ -14,6 +14,8 @@ Gets or sets the value indicating whether bidirectional text is fully supported 
 ```cpp
 bool Aspose::Words::Fields::FieldOptions::get_IsBidiTextSupportedOnUpdate() const
 ```
+
+## Remarks
 
 
 When this property is set to **true**, additional steps are performed to produce Right-To-Left language (i.e. Arabic or Hebrew) compatible field result during its update.
@@ -23,7 +25,6 @@ When this property is set to **false** and Right-To-Left language is used, corre
 The default value is **false**.
 
 ## Examples
-
 
 
 
@@ -43,3 +44,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"FieldOptions.Bidi.docx");
 ```
 
+## See Also
+
+* Class [FieldOptions](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldaddressblock/get_excludedcountryorregionname/
 ---
-## FieldAddressBlock.get_ExcludedCountryOrRegionName method
+## FieldAddressBlock::get_ExcludedCountryOrRegionName method
 
 
 Gets or sets the excluded country/region name.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldAddressBlock::get_ExcludedCountryOrRe
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,8 @@ ASSERT_EQ(
     field->GetFieldCode());
 ```
 
+## See Also
+
+* Class [FieldAddressBlock](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

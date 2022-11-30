@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fonts/memoryfontsource/get_fontdata/
 ---
-## MemoryFontSource.get_FontData method
+## MemoryFontSource::get_FontData method
 
 
 Binary font data.
@@ -17,7 +17,6 @@ System::ArrayPtr<uint8_t> Aspose::Words::Fonts::MemoryFontSource::get_FontData()
 
 
 ## Examples
-
 
 
 
@@ -34,3 +33,8 @@ ASSERT_EQ(FontSourceType::MemoryFont, memoryFontSource->get_Type());
 ASSERT_EQ(0, memoryFontSource->get_Priority());
 ```
 
+## See Also
+
+* Class [MemoryFontSource](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/aspose.words.drawing/imagedata/set_title/
 ---
-## ImageData.set_Title method
+## ImageData::set_Title method
 
 
 Setter for [Aspose::Words::Drawing::ImageData::get_Title](../get_title/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::ImageData::get_Title](../get_title/).
 void Aspose::Words::Drawing::ImageData::set_Title(const System::String &value)
 ```
 
+## See Also
+
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

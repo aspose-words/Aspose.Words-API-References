@@ -11,6 +11,10 @@ url: /cpp/aspose.words.fields/fielddatabasetableformat/
 
 FieldDatabaseTableFormat enumeration.
 
+```cpp
+enum class FieldDatabaseTableFormat
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -59,3 +63,7 @@ FieldDatabaseTableFormat enumeration.
 | Web2 | 41 |  |
 | Web3 | 42 |  |
 
+## See Also
+
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

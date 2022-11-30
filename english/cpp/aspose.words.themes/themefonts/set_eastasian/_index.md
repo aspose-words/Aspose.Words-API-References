@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.themes/themefonts/set_eastasian/
 ---
-## ThemeFonts.set_EastAsian method
+## ThemeFonts::set_EastAsian method
 
 
 Setter for [Aspose::Words::Themes::ThemeFonts::get_EastAsian](../get_eastasian/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Themes::ThemeFonts::get_EastAsian](../get_eastasian/)
 void Aspose::Words::Themes::ThemeFonts::set_EastAsian(const System::String &value)
 ```
 
+## See Also
+
+* Class [ThemeFonts](../)
+* Namespace [Aspose::Words::Themes](../../)
+* Library [Aspose.Words](../../../)

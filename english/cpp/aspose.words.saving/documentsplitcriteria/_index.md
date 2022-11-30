@@ -9,7 +9,11 @@ url: /cpp/aspose.words.saving/documentsplitcriteria/
 ## DocumentSplitCriteria enum
 
 
-Specifies how the document is split into parts when saving to **Html**, **Epub** or **Azw3** format.
+Specifies how the document is split into parts when saving to [Html](../../aspose.words/saveformat/), [Epub](../../aspose.words/saveformat/) or [Azw3](../../aspose.words/saveformat/) format.
+
+```cpp
+enum class DocumentSplitCriteria
+```
 
 ### Values
 
@@ -21,13 +25,14 @@ Specifies how the document is split into parts when saving to **Html**, **Epub**
 | SectionBreak | 4 | The document is split into parts at a section break of any type. |
 | HeadingParagraph | 8 | The document is split into parts at a paragraph formatted using a heading style **Heading 1**, **Heading 2** etc. Use together with [DocumentSplitHeadingLevel](../htmlsaveoptions/get_documentsplitheadinglevel/) to specify the heading levels (from 1 to the specified level) at which to split. |
 
+## Remarks
+
 
 [DocumentSplitCriteria](./) is a set of flags which can be combined. For instance you can split the document at page breaks and heading paragraphs in the same export operation.
 
-Different criteria can partially overlap. For instance, **Heading 1** style is frequently given [PageBreakBefore](../../aspose.words/paragraphformat/get_pagebreakbefore/) property so it falls under two criteria: **PageBreak** and **HeadingParagraph**. Some section breaks can cause page breaks and so on. In typical cases specifying only one flag is the most practical option.
+Different criteria can partially overlap. For instance, **Heading 1** style is frequently given [PageBreakBefore](../../aspose.words/paragraphformat/get_pagebreakbefore/) property so it falls under two criteria: [PageBreak](./) and [HeadingParagraph](./). Some section breaks can cause page breaks and so on. In typical cases specifying only one flag is the most practical option.
 
 ## Examples
-
 
 
 
@@ -52,3 +57,7 @@ saveOptions->set_ExportDocumentProperties(true);
 doc->Save(ArtifactsDir + u"HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

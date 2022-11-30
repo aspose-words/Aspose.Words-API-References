@@ -40,7 +40,6 @@ class OfficeMathRenderer : public Aspose::Words::Rendering::NodeRendererBase
 
 
 
-
 Shows how to measure and scale shapes. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Office math.docx");
@@ -82,3 +81,8 @@ ASSERT_EQ(159, bounds.get_Width());
 ASSERT_EQ(30, bounds.get_Height());
 ```
 
+## See Also
+
+* Class [NodeRendererBase](../noderendererbase/)
+* Namespace [Aspose::Words::Rendering](../)
+* Library [Aspose.Words](../../)

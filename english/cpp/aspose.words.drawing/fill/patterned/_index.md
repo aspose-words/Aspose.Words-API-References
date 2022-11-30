@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.drawing/fill/patterned/
 ---
-## Fill.Patterned(Aspose::Words::Drawing::PatternType) method
+## Fill::Patterned(Aspose::Words::Drawing::PatternType) method
 
 
 Sets the specified fill to a pattern.
@@ -21,7 +21,6 @@ void Aspose::Words::Drawing::Fill::Patterned(Aspose::Words::Drawing::PatternType
 | patternType | Aspose::Words::Drawing::PatternType | [PatternType](../../patterntype/) |
 
 ## Examples
-
 
 
 
@@ -44,7 +43,13 @@ fill->Patterned(PatternType::DiagonalBrick, System::Drawing::Color::get_Aqua(), 
 doc->Save(ArtifactsDir + u"Shape.FillPattern.docx");
 ```
 
-## Fill.Patterned(Aspose::Words::Drawing::PatternType, System::Drawing::Color, System::Drawing::Color) method
+## See Also
+
+* Enum [PatternType](../../patterntype/)
+* Class [Fill](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)
+## Fill::Patterned(Aspose::Words::Drawing::PatternType, System::Drawing::Color, System::Drawing::Color) method
 
 
 Sets the specified fill to a pattern.
@@ -64,7 +69,6 @@ void Aspose::Words::Drawing::Fill::Patterned(Aspose::Words::Drawing::PatternType
 
 
 
-
 Shows how to set pattern for a shape. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Shape stroke pattern border.docx");
@@ -84,3 +88,9 @@ fill->Patterned(PatternType::DiagonalBrick, System::Drawing::Color::get_Aqua(), 
 doc->Save(ArtifactsDir + u"Shape.FillPattern.docx");
 ```
 
+## See Also
+
+* Enum [PatternType](../../patterntype/)
+* Class [Fill](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

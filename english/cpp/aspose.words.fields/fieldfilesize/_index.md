@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldfilesize/
 Implements the FILESIZE field.
 
 ```cpp
-class FieldFileSize : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldFileSize : public Aspose::Words::Fields::Field,
+                      public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -45,13 +46,14 @@ class FieldFileSize : public Aspose::Words::Fields::Field, public Aspose::Words:
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
+## Remarks
+
 
 Retrieves the size of the current document's file or 0 if the size cannot be determined.
 
 In the current implementation, uses the [OriginalFileName](../../aspose.words/document/get_originalfilename/) property to retrieve the file name used to determine the file size.
 
 ## Examples
-
 
 
 
@@ -97,3 +99,8 @@ ASSERT_EQ(u"0", field->get_Result());
 doc->Save(ArtifactsDir + u"Field.FILESIZE.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

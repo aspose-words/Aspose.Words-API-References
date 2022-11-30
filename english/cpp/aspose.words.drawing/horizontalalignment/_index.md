@@ -11,12 +11,16 @@ url: /cpp/aspose.words.drawing/horizontalalignment/
 
 Specifies horizontal alignment of a floating shape, text frame or floating table.
 
+```cpp
+enum class HorizontalAlignment
+```
+
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
 | None | 0 | The object is explicitly positioned, usually using its **Left** property. |
-| Default | n/a | Same as **None**. |
+| Default | n/a | Same as [None](./). |
 | Left | 1 | Specifies that the object shall be left aligned to the horizontal alignment base. |
 | Center | 2 | Specifies that the object shall be centered with respect to the horizontal alignment base. |
 | Right | 3 | Specifies that the object shall be right aligned to the horizontal alignment base. |
@@ -25,7 +29,6 @@ Specifies horizontal alignment of a floating shape, text frame or floating table
 
 
 ## Examples
-
 
 
 
@@ -46,3 +49,7 @@ shape->set_VerticalAlignment(VerticalAlignment::Center);
 doc->Save(ArtifactsDir + u"Image.CreateFloatingPageCenter.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

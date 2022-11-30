@@ -6,7 +6,7 @@ type: docs
 weight: 521
 url: /cpp/aspose.words/paragraphformat/get_wordwrap/
 ---
-## ParagraphFormat.get_WordWrap method
+## ParagraphFormat::get_WordWrap method
 
 
 If this property is **false**, Latin text in the middle of a word can be wrapped for the current paragraph. Otherwise Latin text is wrapped by whole words.
@@ -17,7 +17,6 @@ bool Aspose::Words::ParagraphFormat::get_WordWrap()
 
 
 ## Examples
-
 
 
 
@@ -33,3 +32,8 @@ format->set_HangingPunctuation(true);
 doc->Save(ArtifactsDir + u"ParagraphFormat.AsianTypographyProperties.docx");
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

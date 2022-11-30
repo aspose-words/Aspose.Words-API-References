@@ -26,7 +26,6 @@ class IFieldUpdatingCallback : public System::Object
 
 
 
-
 Shows how to use callback methods during a field update. 
 ```cpp
 void FieldUpdatingCallbackTest()
@@ -81,3 +80,7 @@ private:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

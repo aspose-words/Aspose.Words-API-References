@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.webextensions/webextension/get_properties/
 ---
-## WebExtension.get_Properties method
+## WebExtension::get_Properties method
 
 
 Represents a set of web extension custom properties.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionPropertyCollection> 
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,9 @@ doc->get_WebExtensionTaskPanes()->Clear();
 ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ```
 
+## See Also
+
+* Class [WebExtensionPropertyCollection](../../webextensionpropertycollection/)
+* Class [WebExtension](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

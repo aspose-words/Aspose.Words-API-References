@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words/bordercollection/get_left/
 ---
-## BorderCollection.get_Left method
+## BorderCollection::get_Left method
 
 
 Gets the left border.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Border> Aspose::Words::BorderCollection::get_Le
 
 
 ## Examples
-
 
 
 
@@ -56,3 +55,9 @@ builder->Writeln(u"Row 2, Cell 2.");
 doc->Save(ArtifactsDir + u"DocumentBuilder.TableBordersAndShading.docx");
 ```
 
+## See Also
+
+* Class [Border](../../border/)
+* Class [BorderCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

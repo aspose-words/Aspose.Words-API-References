@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.tables/row/get_nodetype/
 ---
-## Row.get_NodeType method
+## Row::get_NodeType method
 
 
 Returns **NodeType.Row**.
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::Tables::Row::get_NodeType() const overrid
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,9 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../../aspose.words/nodetype/)
+* Class [Row](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

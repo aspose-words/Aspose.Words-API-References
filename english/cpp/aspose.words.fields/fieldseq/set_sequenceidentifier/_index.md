@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.fields/fieldseq/set_sequenceidentifier/
 ---
-## FieldSeq.set_SequenceIdentifier method
+## FieldSeq::set_SequenceIdentifier method
 
 
 Setter for [Aspose::Words::Fields::FieldSeq::get_SequenceIdentifier](../get_sequenceidentifier/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldSeq::get_SequenceIdentifier](../get_sequ
 void Aspose::Words::Fields::FieldSeq::set_SequenceIdentifier(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldSeq](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

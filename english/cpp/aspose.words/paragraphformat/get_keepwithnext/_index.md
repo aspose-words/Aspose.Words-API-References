@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words/paragraphformat/get_keepwithnext/
 ---
-## ParagraphFormat.get_KeepWithNext method
+## ParagraphFormat::get_KeepWithNext method
 
 
 True if the paragraph is to remains on the same page as the paragraph that follows it.
@@ -17,7 +17,6 @@ bool Aspose::Words::ParagraphFormat::get_KeepWithNext()
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,8 @@ for (const auto& cell : System::IterateOver(table->GetChildNodes(NodeType::Cell,
 doc->Save(ArtifactsDir + u"Table.KeepTableTogether.docx");
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

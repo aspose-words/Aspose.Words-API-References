@@ -11,6 +11,10 @@ url: /cpp/aspose.words.saving/imagepixelformat/
 
 Specifies the pixel format for the generated images of document pages.
 
+```cpp
+enum class ImagePixelFormat
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -29,7 +33,6 @@ Specifies the pixel format for the generated images of document pages.
 
 
 ## Examples
-
 
 
 
@@ -56,3 +59,7 @@ ASPOSE_ASSERT_NE(imageSaveOptions, imageSaveOptions->Clone());
 doc->Save(ArtifactsDir + u"ImageSaveOptions.PixelFormat.png", imageSaveOptions);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

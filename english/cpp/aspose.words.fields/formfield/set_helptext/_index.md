@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/aspose.words.fields/formfield/set_helptext/
 ---
-## FormField.set_HelpText method
+## FormField::set_HelpText method
 
 
 Setter for [Aspose::Words::Fields::FormField::get_HelpText](../get_helptext/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FormField::get_HelpText](../get_helptext/).
 void Aspose::Words::Fields::FormField::set_HelpText(const System::String &value)
 ```
 
+## See Also
+
+* Class [FormField](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fielddate/
 Implements the DATE field.
 
 ```cpp
-class FieldDate : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldDate : public Aspose::Words::Fields::Field,
+                  public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -54,7 +55,6 @@ class FieldDate : public Aspose::Words::Fields::Field, public Aspose::Words::Fie
 
 
 
-
 Shows how to use DATE fields to display dates according to different kinds of calendars. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -91,3 +91,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.DATE.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.digitalsignatures/certificateholder/create/
 ---
-## CertificateHolder.Create(const System::ArrayPtr\<uint8_t\>\&, const System::SharedPtr\<System::Security::SecureString\>\&) method
+## CertificateHolder::Create(const System::ArrayPtr\<uint8_t\>\&, const System::SharedPtr\<System::Security::SecureString\>\&) method
 
 
 Creates [CertificateHolder](../) object using byte array of PKCS12 store and its password.
@@ -23,11 +23,15 @@ static System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> As
 
 ### ReturnValue
 
-
 An instance of [CertificateHolder](../)
 
+## See Also
 
-## CertificateHolder.Create(const System::ArrayPtr\<uint8_t\>\&, const System::String\&) method
+* Class [CertificateHolder](../)
+* Class [CertificateHolder](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)
+## CertificateHolder::Create(const System::ArrayPtr\<uint8_t\>\&, const System::String\&) method
 
 
 Creates [CertificateHolder](../) object using byte array of PKCS12 store and its password.
@@ -44,11 +48,15 @@ static System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> As
 
 ### ReturnValue
 
-
 An instance of [CertificateHolder](../)
 
+## See Also
 
-## CertificateHolder.Create(const System::String\&, const System::String\&) method
+* Class [CertificateHolder](../)
+* Class [CertificateHolder](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)
+## CertificateHolder::Create(const System::String\&, const System::String\&) method
 
 
 Creates [CertificateHolder](../) object using path to PKCS12 store and its password.
@@ -65,11 +73,9 @@ static System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> As
 
 ### ReturnValue
 
-
 An instance of [CertificateHolder](../)
 
 ## Examples
-
 
 
 
@@ -95,7 +101,13 @@ signOptions->set_SignTime(System::DateTime::get_Now());
 }
 ```
 
-## CertificateHolder.Create(const System::String\&, const System::String\&, const System::String\&) method
+## See Also
+
+* Class [CertificateHolder](../)
+* Class [CertificateHolder](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)
+## CertificateHolder::Create(const System::String\&, const System::String\&, const System::String\&) method
 
 
 Creates [CertificateHolder](../) object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found.
@@ -113,7 +125,11 @@ static System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> As
 
 ### ReturnValue
 
-
 An instance of [CertificateHolder](../)
 
+## See Also
 
+* Class [CertificateHolder](../)
+* Class [CertificateHolder](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)

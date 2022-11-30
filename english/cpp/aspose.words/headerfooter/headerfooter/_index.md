@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/headerfooter/headerfooter/
 ---
-## HeaderFooter.HeaderFooter method
+## HeaderFooter::HeaderFooter constructor
 
 
 Creates a new header or footer of the specified type.
@@ -20,13 +20,14 @@ Aspose::Words::HeaderFooter::HeaderFooter(const System::SharedPtr<Aspose::Words:
 | --- | --- | --- |
 | doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
 | headerFooterType | Aspose::Words::HeaderFooterType | A [HeaderFooterType](../get_headerfootertype/) value that specifies the type of the header or footer. |
+## Remarks
+
 
 When **HeaderFooter** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
 To append **HeaderFooter** to a **Section** use [Section.InsertAfter](../../compositenode/insertafter/), [Section.InsertBefore](../../compositenode/insertbefore/), HeadersFooters.Add or HeadersFooters.Insert.
 
 ## Examples
-
 
 
 
@@ -61,3 +62,10 @@ ASPOSE_ASSERT_EQ(footer->get_ParentSection(), header->get_ParentSection());
 doc->Save(ArtifactsDir + u"HeaderFooter.Create.docx");
 ```
 
+## See Also
+
+* Class [DocumentBase](../../documentbase/)
+* Enum [HeaderFooterType](../../headerfootertype/)
+* Class [HeaderFooter](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.fields/fieldbarcode/set_postaladdress/
 ---
-## FieldBarcode.set_PostalAddress method
+## FieldBarcode::set_PostalAddress method
 
 
 Setter for [Aspose::Words::Fields::FieldBarcode::get_PostalAddress](../get_postaladdress/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldBarcode::get_PostalAddress](../get_posta
 void Aspose::Words::Fields::FieldBarcode::set_PostalAddress(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldBarcode](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

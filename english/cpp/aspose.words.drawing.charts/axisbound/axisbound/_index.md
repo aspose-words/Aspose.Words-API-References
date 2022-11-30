@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.drawing.charts/axisbound/axisbound/
 ---
-## AxisBound.AxisBound() method
+## AxisBound::AxisBound() constructor
 
 
 Creates a new instance indicating that axis bound should be determined automatically by a word-processing application.
@@ -15,7 +15,12 @@ Creates a new instance indicating that axis bound should be determined automatic
 Aspose::Words::Drawing::Charts::AxisBound::AxisBound()
 ```
 
-## AxisBound.AxisBound(double) method
+## See Also
+
+* Class [AxisBound](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)
+## AxisBound::AxisBound(double) constructor
 
 
 Creates an axis bound represented as a number.
@@ -29,7 +34,6 @@ Aspose::Words::Drawing::Charts::AxisBound::AxisBound(double value)
 
 
 
-
 Shows how to insert chart with date/time values. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -121,7 +125,12 @@ chart->get_AxisX()->get_Scaling()->set_Maximum(MakeObject<AxisBound>(System::Dat
 doc->Save(ArtifactsDir + u"Charts.AxisBound.docx");
 ```
 
-## AxisBound.AxisBound(System::DateTime) method
+## See Also
+
+* Class [AxisBound](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)
+## AxisBound::AxisBound(System::DateTime) constructor
 
 
 Creates an axis bound represented as datetime value.
@@ -135,7 +144,6 @@ Aspose::Words::Drawing::Charts::AxisBound::AxisBound(System::DateTime datetime)
 
 
 
-
 Shows how to insert chart with date/time values. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -227,3 +235,8 @@ chart->get_AxisX()->get_Scaling()->set_Maximum(MakeObject<AxisBound>(System::Dat
 doc->Save(ArtifactsDir + u"Charts.AxisBound.docx");
 ```
 
+## See Also
+
+* Class [AxisBound](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

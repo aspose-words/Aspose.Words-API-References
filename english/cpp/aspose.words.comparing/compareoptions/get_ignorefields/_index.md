@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.comparing/compareoptions/get_ignorefields/
 ---
-## CompareOptions.get_IgnoreFields method
+## CompareOptions::get_IgnoreFields method
 
 
 Specifies whether to compare differences in fields. By default fields are not ignored.
@@ -17,7 +17,6 @@ bool Aspose::Words::Comparing::CompareOptions::get_IgnoreFields() const
 
 
 ## Examples
-
 
 
 
@@ -113,3 +112,8 @@ docOriginal->Compare(docEdited, u"John Doe", System::DateTime::get_Now(), compar
 docOriginal->Save(ArtifactsDir + u"Document.CompareOptions.docx");
 ```
 
+## See Also
+
+* Class [CompareOptions](../)
+* Namespace [Aspose::Words::Comparing](../../)
+* Library [Aspose.Words](../../../)

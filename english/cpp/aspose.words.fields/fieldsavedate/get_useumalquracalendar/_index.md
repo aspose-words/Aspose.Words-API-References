@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fieldsavedate/get_useumalquracalendar/
 ---
-## FieldSaveDate.get_UseUmAlQuraCalendar method
+## FieldSaveDate::get_UseUmAlQuraCalendar method
 
 
 Gets or sets whether to use the Um-al-Qura calendar.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldSaveDate::get_UseUmAlQuraCalendar()
 
 
 ## Examples
-
 
 
 
@@ -61,3 +60,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.SAVEDATE.docx");
 ```
 
+## See Also
+
+* Class [FieldSaveDate](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.words.saving/saveoptions/set_customtimezoneinfo/
 ---
-## SaveOptions.set_CustomTimeZoneInfo method
+## SaveOptions::set_CustomTimeZoneInfo method
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.saving/saveoptions/set_customtimezoneinfo/
 void Aspose::Words::Saving::SaveOptions::set_CustomTimeZoneInfo(const System::SharedPtr<System::TimeZoneInfo> &value)
 ```
 
+## See Also
+
+* Class [SaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

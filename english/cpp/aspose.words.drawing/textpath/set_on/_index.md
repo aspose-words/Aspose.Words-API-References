@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/aspose.words.drawing/textpath/set_on/
 ---
-## TextPath.set_On method
+## TextPath::set_On method
 
 
 Setter for [Aspose::Words::Drawing::TextPath::get_On](../get_on/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::TextPath::get_On](../get_on/).
 void Aspose::Words::Drawing::TextPath::set_On(bool value)
 ```
 
+## See Also
+
+* Class [TextPath](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

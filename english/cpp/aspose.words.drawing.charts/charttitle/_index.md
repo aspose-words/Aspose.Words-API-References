@@ -12,7 +12,8 @@ url: /cpp/aspose.words.drawing.charts/charttitle/
 Provides access to the chart title properties.
 
 ```cpp
-class ChartTitle : public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListSource, public Aspose::Words::IRunAttrSource
+class ChartTitle : public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListSource,
+                   public Aspose::Words::IRunAttrSource
 ```
 
 ## Methods
@@ -27,7 +28,6 @@ class ChartTitle : public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListSo
 | [set_Text](./set_text/)(const System::String\&) | Setter for [Aspose::Words::Drawing::Charts::ChartTitle::get_Text](./get_text/). |
 
 ## Examples
-
 
 
 
@@ -53,3 +53,7 @@ title->set_Overlay(true);
 doc->Save(ArtifactsDir + u"Charts.ChartTitle.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing::Charts](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.webextensions/taskpane/set_isvisible/
 ---
-## TaskPane.set_IsVisible method
+## TaskPane::set_IsVisible method
 
 
 Setter for [Aspose::Words::WebExtensions::TaskPane::get_IsVisible](../get_isvisible/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::WebExtensions::TaskPane::get_IsVisible](../get_isvisi
 void Aspose::Words::WebExtensions::TaskPane::set_IsVisible(bool value)
 ```
 
+## See Also
+
+* Class [TaskPane](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

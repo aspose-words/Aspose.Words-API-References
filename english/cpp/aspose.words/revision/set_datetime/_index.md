@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words/revision/set_datetime/
 ---
-## Revision.set_DateTime method
+## Revision::set_DateTime method
 
 
 Setter for [Aspose::Words::Revision::get_DateTime](../get_datetime/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Revision::get_DateTime](../get_datetime/).
 void Aspose::Words::Revision::set_DateTime(System::DateTime value)
 ```
 
+## See Also
+
+* Class [Revision](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/add/
 ---
-## BookmarksOutlineLevelCollection.Add method
+## BookmarksOutlineLevelCollection::Add method
 
 
 Adds a bookmark to the collection.
@@ -22,7 +22,6 @@ void Aspose::Words::Saving::BookmarksOutlineLevelCollection::Add(const System::S
 | outlineLevel | int32_t | The outline level of the bookmark. Valid range is 0 to 9. |
 
 ## Examples
-
 
 
 
@@ -78,3 +77,8 @@ doc->Save(ArtifactsDir + u"BookmarksOutlineLevelCollection.BookmarkLevels.pdf", 
 outlineLevels->Clear();
 ```
 
+## See Also
+
+* Class [BookmarksOutlineLevelCollection](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

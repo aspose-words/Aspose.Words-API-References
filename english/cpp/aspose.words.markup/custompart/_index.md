@@ -31,6 +31,8 @@ class CustomPart : public System::Object
 | [set_IsExternal](./set_isexternal/)(bool) | Setter for [Aspose::Words::Markup::CustomPart::get_IsExternal](./get_isexternal/). |
 | [set_Name](./set_name/)(const System::String\&) | Setter for [Aspose::Words::Markup::CustomPart::get_Name](./get_name/). |
 | [set_RelationshipType](./set_relationshiptype/)(const System::String\&) | Setter for [Aspose::Words::Markup::CustomPart::get_RelationshipType](./get_relationshiptype/). |
+## Remarks
+
 
 This class represents an OOXML part that is a target of an "unknown relationship". All relationships not defined within ISO/IEC 29500 are considered "unknown relationships". Unknown relationships are permitted within an Office Open XML document provided that they conform to relationship markup guidelines.
 
@@ -41,7 +43,6 @@ Aspose.Words also roundtrips custom parts and in addition, allows to programmati
 Do not confuse custom parts with Custom XML Data. Use [CustomXmlPart](../customxmlpart/) if you need to access Custom XML Data.
 
 ## Examples
-
 
 
 
@@ -85,3 +86,7 @@ doc->get_PackageCustomParts()->Clear();
 ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Markup](../)
+* Library [Aspose.Words](../../)

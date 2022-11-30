@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.drawing/shapebase/get_allowoverlap/
 ---
-## ShapeBase.get_AllowOverlap method
+## ShapeBase::get_AllowOverlap method
 
 
 Gets or sets a value that specifies whether this shape can overlap other shapes.
@@ -14,6 +14,8 @@ Gets or sets a value that specifies whether this shape can overlap other shapes.
 ```cpp
 bool Aspose::Words::Drawing::ShapeBase::get_AllowOverlap()
 ```
+
+## Remarks
 
 
 This property affects behavior of the shape in Microsoft Word. Aspose.Words ignores the value of this property.
@@ -23,7 +25,6 @@ This property is applicable only to top level shapes.
 The default value is **true**.
 
 ## Examples
-
 
 
 
@@ -49,3 +50,8 @@ if (table->get_TextWrapping() == TextWrapping::Around)
 }
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

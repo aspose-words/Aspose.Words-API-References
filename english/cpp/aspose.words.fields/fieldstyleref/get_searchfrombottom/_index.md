@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fields/fieldstyleref/get_searchfrombottom/
 ---
-## FieldStyleRef.get_SearchFromBottom method
+## FieldStyleRef::get_SearchFromBottom method
 
 
 Gets or sets whether to search from the bottom of the current page, rather from the top.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldStyleRef::get_SearchFromBottom()
 
 
 ## Examples
-
 
 
 
@@ -87,3 +86,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.STYLEREF.docx");
 ```
 
+## See Also
+
+* Class [FieldStyleRef](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

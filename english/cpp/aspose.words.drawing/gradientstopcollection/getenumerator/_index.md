@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.drawing/gradientstopcollection/getenumerator/
 ---
-## GradientStopCollection.GetEnumerator method
+## GradientStopCollection::GetEnumerator method
 
 
 Returns an enumerator that iterates through the collection.
@@ -15,3 +15,9 @@ Returns an enumerator that iterates through the collection.
 System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::Drawing::GradientStop>>> Aspose::Words::Drawing::GradientStopCollection::GetEnumerator() override
 ```
 
+## See Also
+
+* Class [GradientStop](../../gradientstop/)
+* Class [GradientStopCollection](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1106
 url: /cpp/aspose.words/font/set_sizebi/
 ---
-## Font.set_SizeBi method
+## Font::set_SizeBi method
 
 
 Setter for [Aspose::Words::Font::get_SizeBi](../get_sizebi/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Font::get_SizeBi](../get_sizebi/).
 void Aspose::Words::Font::set_SizeBi(double value)
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

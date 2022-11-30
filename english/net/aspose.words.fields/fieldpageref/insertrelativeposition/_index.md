@@ -22,7 +22,7 @@ Shows to insert PAGEREF fields to display the relative location of bookmarks.
 public void FieldPageRef()
 {
     Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+    DocumentBuilder builder = new DocumentBuilder(doc);            
 
     InsertAndNameBookmark(builder, "MyBookmark1");
 
@@ -49,6 +49,7 @@ public void FieldPageRef()
     builder.InsertBreak(BreakType.PageBreak);
     InsertAndNameBookmark(builder, "MyBookmark3");
 
+    doc.UpdatePageLayout();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.PAGEREF.docx");
 

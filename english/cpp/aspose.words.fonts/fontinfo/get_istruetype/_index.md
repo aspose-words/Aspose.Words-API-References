@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fonts/fontinfo/get_istruetype/
 ---
-## FontInfo.get_IsTrueType method
+## FontInfo::get_IsTrueType method
 
 
 Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. Default is true.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fonts::FontInfo::get_IsTrueType() const
 
 
 ## Examples
-
 
 
 
@@ -36,3 +35,8 @@ for (int i = 0; i < allFonts->get_Count(); i++)
 }
 ```
 
+## See Also
+
+* Class [FontInfo](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

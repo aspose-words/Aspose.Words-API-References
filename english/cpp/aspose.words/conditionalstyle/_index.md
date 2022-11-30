@@ -12,7 +12,10 @@ url: /cpp/aspose.words/conditionalstyle/
 Represents special formatting applied to some area of a table with assigned table style.
 
 ```cpp
-class ConditionalStyle : public Aspose::Words::IBorderAttrSource, public Aspose::Words::IShadingAttrSource, public Aspose::Words::IParaAttrSource, public Aspose::Words::IRunAttrSource
+class ConditionalStyle : public Aspose::Words::IBorderAttrSource,
+                         public Aspose::Words::IShadingAttrSource,
+                         public Aspose::Words::IParaAttrSource,
+                         public Aspose::Words::IRunAttrSource
 ```
 
 ## Methods
@@ -37,7 +40,6 @@ class ConditionalStyle : public Aspose::Words::IBorderAttrSource, public Aspose:
 | [set_TopPadding](./set_toppadding/)(double) | Setter for [Aspose::Words::ConditionalStyle::get_TopPadding](./get_toppadding/). |
 
 ## Examples
-
 
 
 
@@ -110,3 +112,7 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow |
 doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 976
 url: /cpp/aspose.words/paragraphformat/set_wordwrap/
 ---
-## ParagraphFormat.set_WordWrap method
+## ParagraphFormat::set_WordWrap method
 
 
 Setter for [Aspose::Words::ParagraphFormat::get_WordWrap](../get_wordwrap/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::ParagraphFormat::get_WordWrap](../get_wordwrap/).
 void Aspose::Words::ParagraphFormat::set_WordWrap(bool value)
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

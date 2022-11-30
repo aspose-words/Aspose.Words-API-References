@@ -29,7 +29,6 @@ class ThumbnailGeneratingOptions : public System::Object
 
 
 
-
 Shows how to update a document's thumbnail. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -52,3 +51,7 @@ doc->UpdateThumbnail(options);
 doc->Save(ArtifactsDir + u"Document.UpdateThumbnail.FirstImage.epub");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Rendering](../)
+* Library [Aspose.Words](../../)

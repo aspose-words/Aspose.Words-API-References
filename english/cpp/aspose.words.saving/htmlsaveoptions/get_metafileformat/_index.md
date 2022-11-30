@@ -6,14 +6,16 @@ type: docs
 weight: 495
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_metafileformat/
 ---
-## HtmlSaveOptions.get_MetafileFormat method
+## HtmlSaveOptions::get_MetafileFormat method
 
 
-Specifies in what format metafiles are saved when exporting to HTML, MHTML, or EPUB. Default value is **Png**, meaning that metafiles are rendered to raster PNG images.
+Specifies in what format metafiles are saved when exporting to HTML, MHTML, or EPUB. Default value is [Png](../../htmlmetafileformat/), meaning that metafiles are rendered to raster PNG images.
 
 ```cpp
 Aspose::Words::Saving::HtmlMetafileFormat Aspose::Words::Saving::HtmlSaveOptions::get_MetafileFormat() const
 ```
+
+## Remarks
 
 
 Metafiles are not natively displayed by HTML browsers. By default, Aspose.Words converts WMF and EMF images into PNG files when exporting to HTML. Other options are to convert metafiles to SVG images or to export them as is without conversion.
@@ -21,7 +23,6 @@ Metafiles are not natively displayed by HTML browsers. By default, Aspose.Words 
 Some image transforms, in particular image cropping, will not be applied to metafile images if they are exported to HTML without conversion.
 
 ## Examples
-
 
 
 
@@ -77,3 +78,9 @@ case HtmlMetafileFormat::EmfOrWmf:
 }
 ```
 
+## See Also
+
+* Enum [HtmlMetafileFormat](../../htmlmetafileformat/)
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

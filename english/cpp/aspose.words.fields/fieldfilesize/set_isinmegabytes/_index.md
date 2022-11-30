@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fieldfilesize/set_isinmegabytes/
 ---
-## FieldFileSize.set_IsInMegabytes method
+## FieldFileSize::set_IsInMegabytes method
 
 
 Setter for [Aspose::Words::Fields::FieldFileSize::get_IsInMegabytes](../get_isinmegabytes/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldFileSize::get_IsInMegabytes](../get_isin
 void Aspose::Words::Fields::FieldFileSize::set_IsInMegabytes(bool value)
 ```
 
+## See Also
+
+* Class [FieldFileSize](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

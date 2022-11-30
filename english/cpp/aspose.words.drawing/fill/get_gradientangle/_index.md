@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.drawing/fill/get_gradientangle/
 ---
-## Fill.get_GradientAngle method
+## Fill::get_GradientAngle method
 
 
 Gets or sets the angle of the gradient fill.
@@ -17,7 +17,6 @@ double Aspose::Words::Drawing::Fill::get_GradientAngle()
 
 
 ## Examples
-
 
 
 
@@ -57,3 +56,8 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 doc->Save(ArtifactsDir + u"Shape.GradientFill.docx", saveOptions);
 ```
 
+## See Also
+
+* Class [Fill](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

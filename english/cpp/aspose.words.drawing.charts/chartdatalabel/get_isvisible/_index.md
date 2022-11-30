@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_isvisible/
 ---
-## ChartDataLabel.get_IsVisible method
+## ChartDataLabel::get_IsVisible method
 
 
 Returns true if this data label has something to display.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::Charts::ChartDataLabel::get_IsVisible()
 
 
 ## Examples
-
 
 
 
@@ -91,3 +90,8 @@ static void ApplyDataLabels(SharedPtr<ChartSeries> series, int labelsCount, Stri
 }
 ```
 
+## See Also
+
+* Class [ChartDataLabel](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

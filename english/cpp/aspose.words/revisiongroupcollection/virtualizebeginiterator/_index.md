@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words/revisiongroupcollection/virtualizebeginiterator/
 ---
-## RevisionGroupCollection.virtualizeBeginIterator method
+## RevisionGroupCollection::virtualizeBeginIterator method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words/revisiongroupcollection/virtualizebeginiterator/
 virtualized_iterator * Aspose::Words::RevisionGroupCollection::virtualizeBeginIterator() override
 ```
 
+## See Also
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [RevisionGroupCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

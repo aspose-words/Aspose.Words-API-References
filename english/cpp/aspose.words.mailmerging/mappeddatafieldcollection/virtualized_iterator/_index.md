@@ -15,3 +15,8 @@ url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/virtualized_iterato
 using Aspose::Words::MailMerging::MappedDataFieldCollection::virtualized_iterator =  typename iterator_holder_type::virtualized_iterator
 ```
 
+## See Also
+
+* Class [MappedDataFieldCollection](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

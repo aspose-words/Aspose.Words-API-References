@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing/wraptype/
 
 Specifies how text is wrapped around a shape or picture.
 
+```cpp
+enum class WrapType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -24,7 +28,6 @@ Specifies how text is wrapped around a shape or picture.
 
 
 ## Examples
-
 
 
 
@@ -67,3 +70,7 @@ shape->set_VerticalAlignment(VerticalAlignment::Center);
 doc->Save(ArtifactsDir + u"Image.CreateFloatingPageCenter.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

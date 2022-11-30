@@ -3,7 +3,7 @@ title: TextColumns
 second_title: Aspose.Words for .NET API Reference
 description: Returns a collection that represents the set of text columns.
 type: docs
-weight: 410
+weight: 420
 url: /net/aspose.words/pagesetup/textcolumns/
 ---
 ## PageSetup.TextColumns property

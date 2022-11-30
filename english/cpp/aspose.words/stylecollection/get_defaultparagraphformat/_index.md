@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/stylecollection/get_defaultparagraphformat/
 ---
-## StyleCollection.get_DefaultParagraphFormat method
+## StyleCollection::get_DefaultParagraphFormat method
 
 
 Gets document default paragraph formatting.
@@ -15,11 +15,12 @@ Gets document default paragraph formatting.
 System::SharedPtr<Aspose::Words::ParagraphFormat> Aspose::Words::StyleCollection::get_DefaultParagraphFormat()
 ```
 
+## Remarks
 
-Note that document-wide defaults were introduced in Microsoft Word 2007 and are fully supported in OOXML formats (**Docx**) only. Earlier document formats have no support for document default paragraph formatting.
+
+Note that document-wide defaults were introduced in Microsoft Word 2007 and are fully supported in OOXML formats ([Docx](../../loadformat/)) only. Earlier document formats have no support for document default paragraph formatting.
 
 ## Examples
-
 
 
 
@@ -42,3 +43,9 @@ ASSERT_EQ(u"Courier New", styles->idx_get(4)->get_Font()->get_Name());
 ASPOSE_ASSERT_EQ(15.0, styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_FirstLineIndent());
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../../paragraphformat/)
+* Class [StyleCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

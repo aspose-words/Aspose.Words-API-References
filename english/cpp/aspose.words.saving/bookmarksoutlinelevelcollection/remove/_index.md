@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/remove/
 ---
-## BookmarksOutlineLevelCollection.Remove method
+## BookmarksOutlineLevelCollection::Remove method
 
 
 Removes a bookmark with the specified name from the collection.
@@ -21,7 +21,6 @@ void Aspose::Words::Saving::BookmarksOutlineLevelCollection::Remove(const System
 | name | const System::String\& | The case-insensitive name of the bookmark. |
 
 ## Examples
-
 
 
 
@@ -77,3 +76,8 @@ doc->Save(ArtifactsDir + u"BookmarksOutlineLevelCollection.BookmarkLevels.pdf", 
 outlineLevels->Clear();
 ```
 
+## See Also
+
+* Class [BookmarksOutlineLevelCollection](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

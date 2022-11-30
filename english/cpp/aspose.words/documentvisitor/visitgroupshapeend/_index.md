@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/aspose.words/documentvisitor/visitgroupshapeend/
 ---
-## DocumentVisitor.VisitGroupShapeEnd method
+## DocumentVisitor::VisitGroupShapeEnd method
 
 
 Called when enumeration of a group shape has ended.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitGroupS
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -110,3 +108,10 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [GroupShape](../../../aspose.words.drawing/groupshape/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -3,7 +3,7 @@ title: Run
 second_title: Aspose.Words for .NET API Reference
 description: Represents a run of characters with the same font formatting.
 type: docs
-weight: 4590
+weight: 4600
 url: /net/aspose.words/run/
 ---
 ## Run class

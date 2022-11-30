@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_minorunitscale/
 ---
-## ChartAxis.get_MinorUnitScale method
+## ChartAxis::get_MinorUnitScale method
 
 
 Returns or sets the scale value for minor tick marks on the time category axis.
@@ -17,7 +17,6 @@ Aspose::Words::Drawing::Charts::AxisTimeUnit Aspose::Words::Drawing::Charts::Cha
 
 
 ## Examples
-
 
 
 
@@ -74,3 +73,9 @@ axis->get_DisplayUnit()->set_CustomUnit(1000000);
 doc->Save(ArtifactsDir + u"Charts.AxisDisplayUnit.docx");
 ```
 
+## See Also
+
+* Enum [AxisTimeUnit](../../axistimeunit/)
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

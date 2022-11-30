@@ -15,3 +15,8 @@ url: /cpp/aspose.words.vba/vbamodulecollection/iterator/
 using Aspose::Words::Vba::VbaModuleCollection::iterator =  typename iterator_holder_type::iterator
 ```
 
+## See Also
+
+* Class [VbaModuleCollection](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

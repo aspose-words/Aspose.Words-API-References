@@ -25,7 +25,6 @@ class IImageSavingCallback : public virtual System::Object
 
 
 
-
 Shows how to rename the image name during saving into Markdown document. 
 ```cpp
 void RenameImages()
@@ -196,3 +195,7 @@ private:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

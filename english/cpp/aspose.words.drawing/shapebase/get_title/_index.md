@@ -6,7 +6,7 @@ type: docs
 weight: 638
 url: /cpp/aspose.words.drawing/shapebase/get_title/
 ---
-## ShapeBase.get_Title method
+## ShapeBase::get_Title method
 
 
 Gets or sets the title (caption) of the current shape object.
@@ -15,13 +15,14 @@ Gets or sets the title (caption) of the current shape object.
 System::String Aspose::Words::Drawing::ShapeBase::get_Title()
 ```
 
+## Remarks
+
 
 Default is empty string.
 
 Cannot be null, but can be an empty string.
 
 ## Examples
-
 
 
 
@@ -49,3 +50,8 @@ ASSERT_EQ(String::Empty, shape->get_Title());
 ASSERT_EQ(u"Title: My cube", shape->get_AlternativeText());
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

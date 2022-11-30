@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words/paragraphformat/get_hangingpunctuation/
 ---
-## ParagraphFormat.get_HangingPunctuation method
+## ParagraphFormat::get_HangingPunctuation method
 
 
 Gets or sets a flag indicating whether hanging punctuation is enabled for the current paragraph.
@@ -17,7 +17,6 @@ bool Aspose::Words::ParagraphFormat::get_HangingPunctuation()
 
 
 ## Examples
-
 
 
 
@@ -33,3 +32,8 @@ format->set_HangingPunctuation(true);
 doc->Save(ArtifactsDir + u"ParagraphFormat.AsianTypographyProperties.docx");
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

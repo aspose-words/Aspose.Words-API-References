@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/svgsaveoptions/
 ## SvgSaveOptions class
 
 
-Can be used to specify additional options when saving a document into the **Svg** format.
+Can be used to specify additional options when saving a document into the [Svg](../../aspose.words/saveformat/) format.
 
 ```cpp
 class SvgSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
@@ -45,7 +45,7 @@ class SvgSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [get_ResourceSavingCallback](./get_resourcesavingcallback/)() const | Allows to control how resources (images) are saved when a document is exported to SVG format. |
 | [get_ResourcesFolder](./get_resourcesfolder/)() const | Specifies the physical folder where resources (images) are saved when exporting a document to Svg format. Default is **null**. |
 | [get_ResourcesFolderAlias](./get_resourcesfolderalias/)() const | Specifies the name of the folder used to construct image URIs written into an SVG document. Default is **null**. |
-| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can only be **Svg**. |
+| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can only be [Svg](../../aspose.words/saveformat/). |
 | [get_ShowPageBorder](./get_showpageborder/)() const | Controls whether a border is added to the outline of the page. Default is **true**. |
 | [get_TempFolder](../saveoptions/get_tempfolder/)() const | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is **null** and no temporary files are used. |
 | [get_TextOutputMode](./get_textoutputmode/)() const | Gets or sets a value determining how text should be rendered in SVG. |
@@ -96,7 +96,6 @@ class SvgSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 
 
 
-
 Shows how to manipulate and print the URIs of linked resources created while converting a document to .svg. 
 ```cpp
 void SvgResourceFolder()
@@ -134,3 +133,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [FixedPageSaveOptions](../fixedpagesaveoptions/)
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

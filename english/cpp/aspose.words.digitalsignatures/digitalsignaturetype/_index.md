@@ -11,6 +11,10 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturetype/
 
 Specifies the type of a digital signature.
 
+```cpp
+enum class DigitalSignatureType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ Specifies the type of a digital signature.
 
 
 ## Examples
-
 
 
 
@@ -64,3 +67,7 @@ ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_I
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::DigitalSignatures](../)
+* Library [Aspose.Words](../../)

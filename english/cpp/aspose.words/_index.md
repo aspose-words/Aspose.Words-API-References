@@ -15,10 +15,10 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | --- | --- |
 | [AbsolutePositionTab](./absolutepositiontab/) | An absolute position tab is a character which is used to advance the position on the current line of text when displaying this WordprocessingML content. |
 | [Body](./body/) | Represents a container for the main text of a section. |
-| [Bookmark](./bookmark/) | Represents a single bookmark. To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/net/working-with-bookmarks/) documentation article. |
+| [Bookmark](./bookmark/) | Represents a single bookmark. To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/cpp/working-with-bookmarks/) documentation article. |
 | [BookmarkCollection](./bookmarkcollection/) | A collection of [Bookmark](./bookmark/) objects that represent the bookmarks in the specified range. |
-| [BookmarkEnd](./bookmarkend/) | Represents an end of a bookmark in a Word document. To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/net/working-with-bookmarks/) documentation article. |
-| [BookmarkStart](./bookmarkstart/) | Represents a start of a bookmark in a Word document. To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/net/working-with-bookmarks/) documentation article. |
+| [BookmarkEnd](./bookmarkend/) | Represents an end of a bookmark in a Word document. To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/cpp/working-with-bookmarks/) documentation article. |
+| [BookmarkStart](./bookmarkstart/) | Represents a start of a bookmark in a Word document. To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/cpp/working-with-bookmarks/) documentation article. |
 | [Border](./border/) | Represents a border of an object. |
 | [BorderCollection](./bordercollection/) | A collection of [Border](./border/) objects. |
 | [BuildVersionInfo](./buildversioninfo/) | Provides information about the current product name and version. |
@@ -32,9 +32,9 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [ConditionalStyleCollection](./conditionalstylecollection/) | Represents a collection of [ConditionalStyle](./conditionalstyle/) objects. |
 | [ControlChar](./controlchar/) | Control characters often encountered in documents. |
 | [ConvertUtil](./convertutil/) | Provides helper functions to convert between various measurement units. |
-| [Document](./document/) | Represents a Word document. To learn more, visit the [Working with Document](https://docs.aspose.com/words/net/working-with-document/) documentation article. |
+| [Document](./document/) | Represents a Word document. To learn more, visit the [Working with Document](https://docs.aspose.com/words/cpp/working-with-document/) documentation article. |
 | [DocumentBase](./documentbase/) | Provides the abstract base class for a main document and a glossary document of a Word document. |
-| [DocumentBuilder](./documentbuilder/) | Provides methods to insert text, images and other content, specify font, paragraph and section formatting. To learn more, visit the [Document Builder Overview](https://docs.aspose.com/words/net/document-builder-overview/) documentation article. |
+| [DocumentBuilder](./documentbuilder/) | Provides methods to insert text, images and other content, specify font, paragraph and section formatting. To learn more, visit the [Document Builder Overview](https://docs.aspose.com/words/cpp/document-builder-overview/) documentation article. |
 | [DocumentVisitor](./documentvisitor/) | Base class for custom document visitors. |
 | [EditableRange](./editablerange/) | Represents a single editable range. |
 | [EditableRangeEnd](./editablerangeend/) | Represents an end of an editable range in a Word document. |
@@ -45,7 +45,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [FrameFormat](./frameformat/) | Represents frame related formatting for a paragraph. |
 | [HeaderFooter](./headerfooter/) | Represents a container for the header or footer text of a section. |
 | [HeaderFooterCollection](./headerfootercollection/) | Provides typed access to [HeaderFooter](./headerfooter/) nodes of a **Section**. |
-| [Hyphenation](./hyphenation/) | Provides methods for working with hyphenation dictionaries. These dictionaries prescribe where words of a specific language can be hyphenated. To learn more, visit the [Working with Hyphenation](https://docs.aspose.com/words/net/working-with-hyphenation/) documentation article. |
+| [Hyphenation](./hyphenation/) | Provides methods for working with hyphenation dictionaries. These dictionaries prescribe where words of a specific language can be hyphenated. To learn more, visit the [Working with Hyphenation](https://docs.aspose.com/words/cpp/working-with-hyphenation/) documentation article. |
 | [ImageWatermarkOptions](./imagewatermarkoptions/) | Contains options that can be specified when adding a watermark with image. |
 | [ImportFormatOptions](./importformatoptions/) | Allows to specify various import options to format output. |
 | [Inline](./inline/) | Base class for inline-level nodes that can have character formatting associated with them, but cannot have child nodes of their own. |
@@ -57,7 +57,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [NodeChangingArgs](./nodechangingargs/) | Provides data for methods of the [INodeChangingCallback](./inodechangingcallback/) interface. |
 | [NodeCollection](./nodecollection/) | Represents a collection of nodes of a specific type. |
 | [NodeImporter](./nodeimporter/) | Allows to efficiently perform repeated import of nodes from one document to another. |
-| [NodeList](./nodelist/) | Represents a collection of nodes matching an XPath query executed using the **SelectNodes()** method. |
+| [NodeList](./nodelist/) | Represents a collection of nodes matching an XPath query executed using the [SelectNodes()](../) method. |
 | [PageSetup](./pagesetup/) | Represents the page setup properties of a section. |
 | [Paragraph](./paragraph/) | Represents a paragraph of text. |
 | [ParagraphCollection](./paragraphcollection/) | Provides typed access to a collection of [Paragraph](./paragraph/) nodes. |
@@ -88,7 +88,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [VariableCollection](./variablecollection/) | A collection of document variables. |
 | [WarningInfo](./warninginfo/) | Contains information about a warning that Aspose.Words issued during document loading or saving. |
 | [WarningInfoCollection](./warninginfocollection/) | Represents a typed collection of [WarningInfo](./warninginfo/) objects. |
-| [Watermark](./watermark/) | Represents class to work with document watermark. To learn more, visit the [Working with Watermark](https://docs.aspose.com/words/net/working-with-watermark/) documentation article. |
+| [Watermark](./watermark/) | Represents class to work with document watermark. To learn more, visit the [Working with Watermark](https://docs.aspose.com/words/cpp/working-with-watermark/) documentation article. |
 ## Interfaces
 
 | Interface | Description |
@@ -112,7 +112,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [EmphasisMark](./emphasismark/) | Specifies possible types of emphasis mark. |
 | [HeaderFooterType](./headerfootertype/) | Identifies the type of header or footer found in a Word file. |
 | [HeightRule](./heightrule/) | Specifies the rule for determining the height of an object. |
-| [HtmlInsertOptions](./htmlinsertoptions/) | Specifies options for the **InsertHtml()** method. |
+| [HtmlInsertOptions](./htmlinsertoptions/) | Specifies options for the [InsertHtml()](../) method. |
 | [ImportFormatMode](./importformatmode/) | Specifies how formatting is merged when importing content from another document. |
 | [LicenseState](./licensestate/) | LicenseState enumeration. |
 | [LineNumberRestartMode](./linenumberrestartmode/) | Determines when automatic line numbering restarts. |

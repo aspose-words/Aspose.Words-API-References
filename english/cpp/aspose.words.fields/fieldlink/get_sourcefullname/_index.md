@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.fields/fieldlink/get_sourcefullname/
 ---
-## FieldLink.get_SourceFullName method
+## FieldLink::get_SourceFullName method
 
 
 Gets or sets the name and location of the source file.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldLink::get_SourceFullName()
 
 
 ## Examples
-
 
 
 
@@ -196,3 +195,8 @@ static void InsertFieldDdeAuto(SharedPtr<DocumentBuilder> builder, ExField::Inse
 }
 ```
 
+## See Also
+
+* Class [FieldLink](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

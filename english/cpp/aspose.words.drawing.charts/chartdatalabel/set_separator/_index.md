@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/set_separator/
 ---
-## ChartDataLabel.set_Separator method
+## ChartDataLabel::set_Separator method
 
 
 Setter for [Aspose::Words::Drawing::Charts::ChartDataLabel::get_Separator](../get_separator/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::Charts::ChartDataLabel::get_Separator](../ge
 void Aspose::Words::Drawing::Charts::ChartDataLabel::set_Separator(const System::String &value)
 ```
 
+## See Also
+
+* Class [ChartDataLabel](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

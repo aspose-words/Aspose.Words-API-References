@@ -12,7 +12,9 @@ url: /cpp/aspose.words/commentrangestart/
 Denotes the start of a region of text that has a comment associated with it.
 
 ```cpp
-class CommentRangeStart : public Aspose::Words::Node, public Aspose::Words::IDisplaceableByCustomXml, public Aspose::Words::INodeWithAnnotationId
+class CommentRangeStart : public Aspose::Words::Node,
+                          public Aspose::Words::IDisplaceableByCustomXml,
+                          public Aspose::Words::INodeWithAnnotationId
 ```
 
 ## Methods
@@ -27,7 +29,7 @@ class CommentRangeStart : public Aspose::Words::Node, public Aspose::Words::IDis
 | [get_Id](./get_id/)() const | Specifies the identifier of the comment to which this region is linked. |
 | virtual [get_IsComposite](../node/get_iscomposite/)() | Returns true if this node can contain other nodes. |
 | [get_NextSibling](../node/get_nextsibling/)() | Gets the node immediately following this node. |
-| [get_NodeType](./get_nodetype/)() const override | Returns **CommentRangeStart**. |
+| [get_NodeType](./get_nodetype/)() const override | Returns [CommentRangeStart](../nodetype/). |
 | [get_ParentNode](../node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_PreviousSibling](../node/get_previoussibling/)() | Gets the node immediately preceding this node. |
 | [get_Range](../node/get_range/)() | Returns a **Range** object that represents the portion of a document that is contained in this node. |
@@ -42,13 +44,14 @@ class CommentRangeStart : public Aspose::Words::Node, public Aspose::Words::IDis
 | [set_Id](./set_id/)(int32_t) | Setter for [Aspose::Words::CommentRangeStart::get_Id](./get_id/). |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 To create a comment anchored to a region of text, you need to create a [Comment](../comment/) and then create [CommentRangeStart](./) and [CommentRangeEnd](../commentrangeend/) and set their identifiers to the same [Id](../comment/get_id/) value.
 
 [CommentRangeStart](./) is an inline-level node and can only be a child of [Paragraph](../paragraph/).
 
 ## Examples
-
 
 
 
@@ -189,3 +192,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Node](../node/)
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

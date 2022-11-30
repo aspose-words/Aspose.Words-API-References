@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fieldcitation/get_prefix/
 ---
-## FieldCitation.get_Prefix method
+## FieldCitation::get_Prefix method
 
 
 Gets or sets a prefix that is prepended to the citation.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldCitation::get_Prefix()
 
 
 ## Examples
-
 
 
 
@@ -70,3 +69,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.CITATION.docx");
 ```
 
+## See Also
+
+* Class [FieldCitation](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

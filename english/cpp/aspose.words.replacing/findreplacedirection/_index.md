@@ -11,6 +11,10 @@ url: /cpp/aspose.words.replacing/findreplacedirection/
 
 Specifies direction for replace operations.
 
+```cpp
+enum class FindReplaceDirection
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,7 +24,6 @@ Specifies direction for replace operations.
 
 
 ## Examples
-
 
 
 
@@ -90,3 +93,7 @@ private:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Replacing](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/ifielddatabaseprovider/getqueryresult/
 ---
-## IFieldDatabaseProvider.GetQueryResult method
+## IFieldDatabaseProvider::GetQueryResult method
 
 
 Returns query result.
@@ -25,7 +25,12 @@ virtual System::SharedPtr<Aspose::Words::Fields::FieldDatabaseDataTable> Aspose:
 
 ### ReturnValue
 
-
 The [FieldDatabaseDataTable](../../fielddatabasedatatable/) instance that should be used for the field's update.
 
+## See Also
 
+* Class [FieldDatabaseDataTable](../../fielddatabasedatatable/)
+* Class [FieldDatabase](../../fielddatabase/)
+* Interface [IFieldDatabaseProvider](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

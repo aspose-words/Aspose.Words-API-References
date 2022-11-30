@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.mailmerging/mailmerge/get_regionstarttag/
 ---
-## MailMerge.get_RegionStartTag method
+## MailMerge::get_RegionStartTag method
 
 
 Gets or sets a mail merge region start tag.
@@ -17,7 +17,6 @@ System::String Aspose::Words::MailMerging::MailMerge::get_RegionStartTag() const
 
 
 ## Examples
-
 
 
 
@@ -70,3 +69,8 @@ mergeFieldNames = doc->get_MailMerge()->GetFieldNamesForRegion(u"MailMergeRegion
 ASSERT_EQ(u"Column2", mergeFieldNames[0]);
 ```
 
+## See Also
+
+* Class [MailMerge](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

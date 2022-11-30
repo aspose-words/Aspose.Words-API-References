@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words.drawing/shapebase/get_fill/
 ---
-## ShapeBase.get_Fill method
+## ShapeBase::get_Fill method
 
 
 Gets fill formatting for the shape.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::Fill> Aspose::Words::Drawing::ShapeBas
 
 
 ## Examples
-
 
 
 
@@ -50,3 +49,9 @@ shape->get_Fill()->set_Opacity(0.3);
 doc->Save(ArtifactsDir + u"Shape.Fill.docx");
 ```
 
+## See Also
+
+* Class [Fill](../../fill/)
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

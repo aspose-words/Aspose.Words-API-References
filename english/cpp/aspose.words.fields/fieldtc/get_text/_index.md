@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fieldtc/get_text/
 ---
-## FieldTC.get_Text method
+## FieldTC::get_Text method
 
 
 Gets or sets the text of the entry.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldTC::get_Text()
 
 
 ## Examples
-
 
 
 
@@ -64,3 +63,8 @@ void InsertTocEntry(SharedPtr<DocumentBuilder> builder, String text, String type
 }
 ```
 
+## See Also
+
+* Class [FieldTC](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

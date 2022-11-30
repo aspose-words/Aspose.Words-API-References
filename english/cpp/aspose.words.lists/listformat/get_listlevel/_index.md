@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.lists/listformat/get_listlevel/
 ---
-## ListFormat.get_ListLevel method
+## ListFormat::get_ListLevel method
 
 
 Returns the list level formatting plus any formatting overrides applied to the current paragraph.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Lists::ListLevel> Aspose::Words::Lists::ListFor
 
 
 ## Examples
-
 
 
 
@@ -74,3 +73,9 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateCustomList.docx");
 ```
 
+## See Also
+
+* Class [ListLevel](../../listlevel/)
+* Class [ListFormat](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

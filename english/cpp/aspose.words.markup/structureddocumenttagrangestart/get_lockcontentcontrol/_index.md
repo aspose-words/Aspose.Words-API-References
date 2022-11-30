@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_lockcontentcontrol/
 ---
-## StructuredDocumentTagRangeStart.get_LockContentControl method
+## StructuredDocumentTagRangeStart::get_LockContentControl method
 
 
 When set to true, this property will prohibit a user from deleting this structured document tag.
@@ -17,7 +17,6 @@ bool Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_LockContentCont
 
 
 ## Examples
-
 
 
 
@@ -49,3 +48,8 @@ std::cout << "\t|Id: " << rangeEndTag->get_Id() << std::endl;
 std::cout << String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) << std::endl;
 ```
 
+## See Also
+
+* Class [StructuredDocumentTagRangeStart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

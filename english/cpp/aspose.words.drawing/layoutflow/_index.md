@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing/layoutflow/
 
 Determines the flow of the text layout in a textbox.
 
+```cpp
+enum class LayoutFlow
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -24,7 +28,6 @@ Determines the flow of the text layout in a textbox.
 
 
 ## Examples
-
 
 
 
@@ -47,3 +50,7 @@ builder->Write(u"This text is flipped 90 degrees to the left.");
 doc->Save(ArtifactsDir + u"Drawing.TextBox.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

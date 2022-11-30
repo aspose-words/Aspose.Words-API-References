@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.markup/structureddocumenttag/get_listitems/
 ---
-## StructuredDocumentTag.get_ListItems method
+## StructuredDocumentTag::get_ListItems method
 
 
 Gets [SdtListItemCollection](../../sdtlistitemcollection/) associated with this **SDT**.
@@ -15,13 +15,14 @@ Gets [SdtListItemCollection](../../sdtlistitemcollection/) associated with this 
 System::SharedPtr<Aspose::Words::Markup::SdtListItemCollection> Aspose::Words::Markup::StructuredDocumentTag::get_ListItems()
 ```
 
+## Remarks
 
-Accessing this property will only work for **ComboBox** or **DropDownList** SDT types.
+
+Accessing this property will only work for [ComboBox](../../sdttype/) or [DropDownList](../../sdttype/) SDT types.
 
 For all other SDT types exception will occur.
 
 ## Examples
-
 
 
 
@@ -81,3 +82,9 @@ listItems->Clear();
 ASSERT_EQ(0, listItems->get_Count());
 ```
 
+## See Also
+
+* Class [SdtListItemCollection](../../sdtlistitemcollection/)
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

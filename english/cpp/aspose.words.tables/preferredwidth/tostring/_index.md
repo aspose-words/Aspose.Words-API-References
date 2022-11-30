@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.tables/preferredwidth/tostring/
 ---
-## PreferredWidth.ToString method
+## PreferredWidth::ToString method
 
 
 Returns a user-friendly string that displays the value of this object.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Tables::PreferredWidth::ToString() const override
 
 
 ## Examples
-
 
 
 
@@ -55,3 +54,8 @@ builder->Writeln(u"Automatically sized cell.");
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ```
 
+## See Also
+
+* Class [PreferredWidth](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/set_lockcontents/
 ---
-## StructuredDocumentTagRangeStart.set_LockContents method
+## StructuredDocumentTagRangeStart::set_LockContents method
 
 
 Setter for [Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_LockContents](../get_lockcontents/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_LockCont
 void Aspose::Words::Markup::StructuredDocumentTagRangeStart::set_LockContents(bool value) override
 ```
 
+## See Also
+
+* Class [StructuredDocumentTagRangeStart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

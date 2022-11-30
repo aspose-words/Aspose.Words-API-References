@@ -35,7 +35,6 @@ class PdfDigitalSignatureTimestampSettings : public System::Object
 
 
 
-
 Shows how to sign a saved PDF document digitally and timestamp it. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -71,3 +70,7 @@ ASSERT_EQ(u"MyPassword", options->get_DigitalSignatureDetails()->get_TimestampSe
 doc->Save(ArtifactsDir + u"PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

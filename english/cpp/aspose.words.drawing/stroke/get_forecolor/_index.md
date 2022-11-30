@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.drawing/stroke/get_forecolor/
 ---
-## Stroke.get_ForeColor method
+## Stroke::get_ForeColor method
 
 
 Gets or sets the foreground color of the stroke.
@@ -17,7 +17,6 @@ System::Drawing::Color Aspose::Words::Drawing::Stroke::get_ForeColor()
 
 
 ## Examples
-
 
 
 
@@ -53,3 +52,8 @@ dataPoints->idx_get(3)->get_Marker()->get_Format()->get_Stroke()->set_Transparen
 doc->Save(ArtifactsDir + u"Charts.MarkerFormatting.docx");
 ```
 
+## See Also
+
+* Class [Stroke](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

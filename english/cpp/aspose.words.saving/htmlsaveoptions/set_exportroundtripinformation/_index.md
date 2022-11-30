@@ -6,7 +6,7 @@ type: docs
 weight: 898
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_exportroundtripinformation/
 ---
-## HtmlSaveOptions.set_ExportRoundtripInformation method
+## HtmlSaveOptions::set_ExportRoundtripInformation method
 
 
 Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportRoundtripInformation](../get_exportroundtripinformation/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportRoundtripInformati
 void Aspose::Words::Saving::HtmlSaveOptions::set_ExportRoundtripInformation(bool value)
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

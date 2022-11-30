@@ -100,7 +100,7 @@ table.Rows.Add(new[] { "Jane Doe" });
 table.Rows.Add(new[] { "John Doe" });
 table.Rows.Add(new[] { "Joe Bloggs" });
 
-doc.MailMerge.Execute(table);
+doc.MailMerge.Execute(table);            
 doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ```
 

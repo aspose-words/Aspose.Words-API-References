@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_document/
 ---
-## ChartAxis.get_Document method
+## ChartAxis::get_Document method
 
 
 Returns the [Document](../../../aspose.words/document/) the title holder belongs.
@@ -15,3 +15,9 @@ Returns the [Document](../../../aspose.words/document/) the title holder belongs
 System::SharedPtr<Aspose::Words::DocumentBase> Aspose::Words::Drawing::Charts::ChartAxis::get_Document() override
 ```
 
+## See Also
+
+* Class [DocumentBase](../../../aspose.words/documentbase/)
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

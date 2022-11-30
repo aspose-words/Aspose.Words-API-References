@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words/compositenode/removesmarttags/
 ---
-## CompositeNode.RemoveSmartTags method
+## CompositeNode::RemoveSmartTags method
 
 
 Removes all [SmartTag](../../../aspose.words.markup/smarttag/) descendant nodes of the current node.
@@ -17,7 +17,6 @@ void Aspose::Words::CompositeNode::RemoveSmartTags()
 
 
 ## Examples
-
 
 
 
@@ -122,3 +121,8 @@ public:
 };
 ```
 
+## See Also
+
+* Class [CompositeNode](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

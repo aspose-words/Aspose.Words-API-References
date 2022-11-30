@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fonts/folderfontsource/folderfontsource/
 ---
-## FolderFontSource.FolderFontSource(const System::String\&, bool) method
+## FolderFontSource::FolderFontSource(const System::String\&, bool) constructor
 
 
 Ctor.
@@ -25,7 +25,6 @@ Aspose::Words::Fonts::FolderFontSource::FolderFontSource(const System::String &f
 
 
 
-
 Shows how to use a local system folder which contains fonts as a font source. 
 ```cpp
 // Create a font source from a folder that contains font files.
@@ -41,7 +40,12 @@ ASSERT_EQ(FontSourceType::FontsFolder, folderFontSource->get_Type());
 ASSERT_EQ(1, folderFontSource->get_Priority());
 ```
 
-## FolderFontSource.FolderFontSource(const System::String\&, bool, int32_t) method
+## See Also
+
+* Class [FolderFontSource](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)
+## FolderFontSource::FolderFontSource(const System::String\&, bool, int32_t) constructor
 
 
 Ctor.
@@ -61,7 +65,6 @@ Aspose::Words::Fonts::FolderFontSource::FolderFontSource(const System::String &f
 
 
 
-
 Shows how to use a local system folder which contains fonts as a font source. 
 ```cpp
 // Create a font source from a folder that contains font files.
@@ -77,3 +80,8 @@ ASSERT_EQ(FontSourceType::FontsFolder, folderFontSource->get_Type());
 ASSERT_EQ(1, folderFontSource->get_Priority());
 ```
 
+## See Also
+
+* Class [FolderFontSource](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

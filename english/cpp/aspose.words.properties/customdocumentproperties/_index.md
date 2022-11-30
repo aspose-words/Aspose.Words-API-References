@@ -34,6 +34,8 @@ class CustomDocumentProperties : public Aspose::Words::Properties::DocumentPrope
 | [IndexOf](../documentpropertycollection/indexof/)(const System::String\&) | Gets the index of a property by name. |
 | [Remove](../documentpropertycollection/remove/)(const System::String\&) | Removes a property with the specified name from the collection. |
 | [RemoveAt](../documentpropertycollection/removeat/)(int32_t) | Removes a property at the specified index. |
+## Remarks
+
 
 Each [DocumentProperty](../documentproperty/) object represents a custom property of a container document.
 
@@ -42,7 +44,6 @@ The names of the properties are case-insensitive.
 The properties in the collection are sorted alphabetically by name.
 
 ## Examples
-
 
 
 
@@ -65,3 +66,8 @@ for (const auto& customDocumentProperty : System::IterateOver(doc->get_CustomDoc
 }
 ```
 
+## See Also
+
+* Class [DocumentPropertyCollection](../documentpropertycollection/)
+* Namespace [Aspose::Words::Properties](../)
+* Library [Aspose.Words](../../)

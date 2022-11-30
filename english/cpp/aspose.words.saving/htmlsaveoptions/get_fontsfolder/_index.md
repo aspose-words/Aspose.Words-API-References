@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_fontsfolder/
 ---
-## HtmlSaveOptions.get_FontsFolder method
+## HtmlSaveOptions::get_FontsFolder method
 
 
 Specifies the physical folder where fonts are saved when exporting a document to HTML. Default is an empty string.
@@ -14,6 +14,8 @@ Specifies the physical folder where fonts are saved when exporting a document to
 ```cpp
 System::String Aspose::Words::Saving::HtmlSaveOptions::get_FontsFolder() const
 ```
+
+## Remarks
 
 
 When you save a [Document](../../../aspose.words/document/) in HTML format and [ExportFontResources](../get_exportfontresources/) is set to **true**, Aspose.Words needs to save fonts used in the document as standalone files. [FontsFolder](./) allows you to specify where the fonts will be saved and [FontsFolderAlias](../get_fontsfolderalias/) allows to specify how the font URIs will be constructed.
@@ -27,7 +29,6 @@ If the folder specified by [FontsFolder](./) doesn't exist, it will be created a
 [ResourceFolder](../get_resourcefolder/) is another way to specify a folder where fonts should be saved.
 
 ## Examples
-
 
 
 
@@ -51,3 +52,8 @@ options->set_ExportOriginalUrlForLinkedImages(true);
 doc->Save(ArtifactsDir + u"HtmlSaveOptions.FolderAlias.html", options);
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

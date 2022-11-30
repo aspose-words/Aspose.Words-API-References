@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.mailmerging/fieldmergingargsbase/get_document/
 ---
-## FieldMergingArgsBase.get_Document method
+## FieldMergingArgsBase::get_Document method
 
 
 Returns the [Document](./) object for which the mail merge is performed.
@@ -17,7 +17,6 @@ const System::SharedPtr<Aspose::Words::Document> & Aspose::Words::MailMerging::F
 
 
 ## Examples
-
 
 
 
@@ -70,3 +69,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Document](../../../aspose.words/document/)
+* Class [FieldMergingArgsBase](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 560
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_exportdocumentstructure/
 ---
-## PdfSaveOptions.set_ExportDocumentStructure method
+## PdfSaveOptions::set_ExportDocumentStructure method
 
 
 Setter for [Aspose::Words::Saving::PdfSaveOptions::get_ExportDocumentStructure](../get_exportdocumentstructure/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::PdfSaveOptions::get_ExportDocumentStructure](
 void Aspose::Words::Saving::PdfSaveOptions::set_ExportDocumentStructure(bool value)
 ```
 
+## See Also
+
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

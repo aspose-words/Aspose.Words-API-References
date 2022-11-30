@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/section/clearcontent/
 ---
-## Section.ClearContent method
+## Section::ClearContent method
 
 
 Clears the section.
@@ -15,13 +15,14 @@ Clears the section.
 void Aspose::Words::Section::ClearContent()
 ```
 
+## Remarks
+
 
 The text of [Body](../get_body/) is cleared, only one empty paragraph is left that represents the section break.
 
 The text of all headers and footers is cleared, but [HeaderFooter](../../headerfooter/) objects themselves are not removed.
 
 ## Examples
-
 
 
 
@@ -43,3 +44,8 @@ ASSERT_EQ(String::Empty, doc->GetText().Trim());
 ASSERT_EQ(1, doc->get_FirstSection()->get_Body()->get_Paragraphs()->get_Count());
 ```
 
+## See Also
+
+* Class [Section](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.drawing/fill/get_opacity/
 ---
-## Fill.get_Opacity method
+## Fill::get_Opacity method
 
 
 Gets or sets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque).
@@ -17,7 +17,6 @@ double Aspose::Words::Drawing::Fill::get_Opacity()
 
 
 ## Examples
-
 
 
 
@@ -50,3 +49,8 @@ shape->get_Fill()->set_Opacity(0.3);
 doc->Save(ArtifactsDir + u"Shape.Fill.docx");
 ```
 
+## See Also
+
+* Class [Fill](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

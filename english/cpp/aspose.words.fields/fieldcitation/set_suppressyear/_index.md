@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.fields/fieldcitation/set_suppressyear/
 ---
-## FieldCitation.set_SuppressYear method
+## FieldCitation::set_SuppressYear method
 
 
 Setter for [Aspose::Words::Fields::FieldCitation::get_SuppressYear](../get_suppressyear/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldCitation::get_SuppressYear](../get_suppr
 void Aspose::Words::Fields::FieldCitation::set_SuppressYear(bool value)
 ```
 
+## See Also
+
+* Class [FieldCitation](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.drawing.charts/charttitle/set_overlay/
 ---
-## ChartTitle.set_Overlay method
+## ChartTitle::set_Overlay method
 
 
 Setter for [Aspose::Words::Drawing::Charts::ChartTitle::get_Overlay](../get_overlay/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::Charts::ChartTitle::get_Overlay](../get_over
 void Aspose::Words::Drawing::Charts::ChartTitle::set_Overlay(bool value)
 ```
 
+## See Also
+
+* Class [ChartTitle](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

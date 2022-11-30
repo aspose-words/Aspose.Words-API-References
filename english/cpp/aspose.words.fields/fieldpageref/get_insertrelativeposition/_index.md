@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fieldpageref/get_insertrelativeposition/
 ---
-## FieldPageRef.get_InsertRelativePosition method
+## FieldPageRef::get_InsertRelativePosition method
 
 
 Gets or sets whether to insert a relative position of the bookmarked paragraph.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldPageRef::get_InsertRelativePosition()
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,8 @@ static void InsertAndNameBookmark(SharedPtr<DocumentBuilder> builder, String boo
 }
 ```
 
+## See Also
+
+* Class [FieldPageRef](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

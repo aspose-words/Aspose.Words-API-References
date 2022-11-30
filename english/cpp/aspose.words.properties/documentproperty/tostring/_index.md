@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.properties/documentproperty/tostring/
 ---
-## DocumentProperty.ToString method
+## DocumentProperty::ToString method
 
 
 Returns the property value as a string formatted according to the current locale.
@@ -15,11 +15,12 @@ Returns the property value as a string formatted according to the current locale
 System::String Aspose::Words::Properties::DocumentProperty::ToString() const override
 ```
 
+## Remarks
+
 
 Converts a boolean property into "Y" or "N". Converts a date property into a short date string. For all other types converts a property using Object.ToString().
 
 ## Examples
-
 
 
 
@@ -62,3 +63,8 @@ ASSERT_EQ(1, properties->idx_get(u"Authorized Revision")->ToInt());
 ASPOSE_ASSERT_EQ(123.45, properties->idx_get(u"Authorized Amount")->ToDouble());
 ```
 
+## See Also
+
+* Class [DocumentProperty](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

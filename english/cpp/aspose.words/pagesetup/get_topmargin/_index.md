@@ -6,7 +6,7 @@ type: docs
 weight: 560
 url: /cpp/aspose.words/pagesetup/get_topmargin/
 ---
-## PageSetup.get_TopMargin method
+## PageSetup::get_TopMargin method
 
 
 Returns or sets the distance (in points) between the top edge of the page and the top boundary of the body text.
@@ -17,7 +17,6 @@ double Aspose::Words::PageSetup::get_TopMargin()
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,8 @@ builder->Writeln(u"Hello world!");
 doc->Save(ArtifactsDir + u"PageSetup.PageMargins.docx");
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

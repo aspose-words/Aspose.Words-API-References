@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fonts/fontinfocollection/contains/
 ---
-## FontInfoCollection.Contains method
+## FontInfoCollection::Contains method
 
 
 Determines whether the collection contains a font with the given name.
@@ -22,11 +22,9 @@ bool Aspose::Words::Fonts::FontInfoCollection::Contains(const System::String &na
 
 ### ReturnValue
 
-
 True if the item is found in the collection; otherwise, false.
 
 ## Examples
-
 
 
 
@@ -45,3 +43,8 @@ ASSERT_TRUE(doc->get_FontInfos()->Contains(u"Symbol"));
 ASSERT_TRUE(doc->get_FontInfos()->Contains(u"Arial"));
 ```
 
+## See Also
+
+* Class [FontInfoCollection](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

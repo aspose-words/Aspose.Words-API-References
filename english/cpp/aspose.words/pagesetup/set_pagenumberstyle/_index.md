@@ -6,7 +6,7 @@ type: docs
 weight: 937
 url: /cpp/aspose.words/pagesetup/set_pagenumberstyle/
 ---
-## PageSetup.set_PageNumberStyle method
+## PageSetup::set_PageNumberStyle method
 
 
 Setter for [Aspose::Words::PageSetup::get_PageNumberStyle](../get_pagenumberstyle/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::PageSetup::get_PageNumberStyle](../get_pagenumberstyl
 void Aspose::Words::PageSetup::set_PageNumberStyle(Aspose::Words::NumberStyle value)
 ```
 
+## See Also
+
+* Enum [NumberStyle](../../numberstyle/)
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

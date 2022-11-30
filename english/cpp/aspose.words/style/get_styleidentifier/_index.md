@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words/style/get_styleidentifier/
 ---
-## Style.get_StyleIdentifier method
+## Style::get_StyleIdentifier method
 
 
 Gets the locale independent style identifier for a built-in style.
@@ -15,11 +15,12 @@ Gets the locale independent style identifier for a built-in style.
 Aspose::Words::StyleIdentifier Aspose::Words::Style::get_StyleIdentifier() const
 ```
 
+## Remarks
 
-For user defined (custom) styles, this property returns **User**.
+
+For user defined (custom) styles, this property returns [User](../../styleidentifier/).
 
 ## Examples
-
 
 
 
@@ -45,3 +46,9 @@ for (const auto& para : System::IterateOver(doc->GetChildNodes(NodeType::Paragra
 doc->Save(ArtifactsDir + u"Styles.ChangeTocsTabStops.docx");
 ```
 
+## See Also
+
+* Enum [StyleIdentifier](../../styleidentifier/)
+* Class [Style](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

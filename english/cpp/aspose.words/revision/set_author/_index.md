@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words/revision/set_author/
 ---
-## Revision.set_Author method
+## Revision::set_Author method
 
 
 Setter for [Aspose::Words::Revision::get_Author](../get_author/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Revision::get_Author](../get_author/).
 void Aspose::Words::Revision::set_Author(const System::String &value)
 ```
 
+## See Also
+
+* Class [Revision](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

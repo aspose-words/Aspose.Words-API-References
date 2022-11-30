@@ -12,7 +12,9 @@ url: /cpp/aspose.words.fields/fieldinclude/
 Implements the INCLUDE field.
 
 ```cpp
-class FieldInclude : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider, public Aspose::Words::Fields::IFieldIncludeTextCode
+class FieldInclude : public Aspose::Words::Fields::Field,
+                     public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
+                     public Aspose::Words::Fields::IFieldIncludeTextCode
 ```
 
 ## Methods
@@ -54,7 +56,6 @@ class FieldInclude : public Aspose::Words::Fields::Field, public Aspose::Words::
 
 
 
-
 Shows how to create an INCLUDE field, and set its properties. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -74,3 +75,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.INCLUDE.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words/compositenode/getchild/
 ---
-## CompositeNode.GetChild method
+## CompositeNode::GetChild method
 
 
 Returns an Nth child node that matches the specified type.
@@ -24,13 +24,13 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::CompositeNode::GetChild(As
 
 ### ReturnValue
 
-
 The child node that matches the criteria or null if no matching node is found.
+## Remarks
+
 
 If index is out of range, a null is returned.
 
 ## Examples
-
 
 
 
@@ -107,3 +107,10 @@ for (const auto& child : System::IterateOver(children))
 }
 ```
 
+## See Also
+
+* Class [Node](../../node/)
+* Enum [NodeType](../../nodetype/)
+* Class [CompositeNode](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

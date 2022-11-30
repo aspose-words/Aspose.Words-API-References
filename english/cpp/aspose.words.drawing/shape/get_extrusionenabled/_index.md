@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.drawing/shape/get_extrusionenabled/
 ---
-## Shape.get_ExtrusionEnabled method
+## Shape::get_ExtrusionEnabled method
 
 
 Returns true if an extrusion effect is enabled.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::Shape::get_ExtrusionEnabled()
 
 
 ## Examples
-
 
 
 
@@ -131,3 +130,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Shape](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

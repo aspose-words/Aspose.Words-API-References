@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words/bordercollection/get_top/
 ---
-## BorderCollection.get_Top method
+## BorderCollection::get_Top method
 
 
 Gets the top border.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Border> Aspose::Words::BorderCollection::get_To
 
 
 ## Examples
-
 
 
 
@@ -56,3 +55,9 @@ builder->Writeln(u"Row 2, Cell 2.");
 doc->Save(ArtifactsDir + u"DocumentBuilder.TableBordersAndShading.docx");
 ```
 
+## See Also
+
+* Class [Border](../../border/)
+* Class [BorderCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

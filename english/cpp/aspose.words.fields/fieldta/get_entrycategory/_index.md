@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldta/get_entrycategory/
 ---
-## FieldTA.get_EntryCategory method
+## FieldTA::get_EntryCategory method
 
 
 Gets or sets the integral entry category, which is a number that corresponds to the order of categories.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldTA::get_EntryCategory()
 
 
 ## Examples
-
 
 
 
@@ -138,3 +137,8 @@ static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, Str
 }
 ```
 
+## See Also
+
+* Class [FieldTA](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

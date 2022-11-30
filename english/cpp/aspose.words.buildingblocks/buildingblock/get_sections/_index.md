@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.buildingblocks/buildingblock/get_sections/
 ---
-## BuildingBlock.get_Sections method
+## BuildingBlock::get_Sections method
 
 
 Returns a collection that represents all sections in the building block.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::SectionCollection> Aspose::Words::BuildingBlock
 
 
 ## Examples
-
 
 
 
@@ -112,3 +111,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [SectionCollection](../../../aspose.words/sectioncollection/)
+* Class [BuildingBlock](../)
+* Namespace [Aspose::Words::BuildingBlocks](../../)
+* Library [Aspose.Words](../../../)

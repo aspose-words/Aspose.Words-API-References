@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/revisiongroup/get_text/
 ---
-## RevisionGroup.get_Text method
+## RevisionGroup::get_Text method
 
 
 Returns inserted/deleted/moved text or description of format change.
@@ -17,7 +17,6 @@ System::String Aspose::Words::RevisionGroup::get_Text()
 
 
 ## Examples
-
 
 
 
@@ -35,3 +34,8 @@ for (const auto& group : doc->get_Revisions()->get_Groups())
 }
 ```
 
+## See Also
+
+* Class [RevisionGroup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

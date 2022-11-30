@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words/paragraph/get_ismovetorevision/
 ---
-## Paragraph.get_IsMoveToRevision method
+## Paragraph::get_IsMoveToRevision method
 
 
 Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
@@ -17,7 +17,6 @@ bool Aspose::Words::Paragraph::get_IsMoveToRevision()
 
 
 ## Examples
-
 
 
 
@@ -49,3 +48,8 @@ ASSERT_TRUE(paragraphs->idx_get(1)->get_IsMoveFromRevision());
 ASSERT_TRUE(paragraphs->idx_get(3)->get_IsMoveToRevision());
 ```
 
+## See Also
+
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/set_showlegendkey/
 ---
-## ChartDataLabelCollection.set_ShowLegendKey method
+## ChartDataLabelCollection::set_ShowLegendKey method
 
 
 Setter for [Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowLegendKey](../get_showlegendkey/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowLe
 void Aspose::Words::Drawing::Charts::ChartDataLabelCollection::set_ShowLegendKey(bool value)
 ```
 
+## See Also
+
+* Class [ChartDataLabelCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

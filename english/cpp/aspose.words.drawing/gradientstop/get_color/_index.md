@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.drawing/gradientstop/get_color/
 ---
-## GradientStop.get_Color method
+## GradientStop::get_Color method
 
 
 Gets or sets a value representing the color of the gradient stop.
@@ -17,7 +17,6 @@ System::Drawing::Color Aspose::Words::Drawing::GradientStop::get_Color()
 
 
 ## Examples
-
 
 
 
@@ -69,3 +68,8 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 doc->Save(ArtifactsDir + u"Shape.GradientStops.docx", saveOptions);
 ```
 
+## See Also
+
+* Class [GradientStop](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

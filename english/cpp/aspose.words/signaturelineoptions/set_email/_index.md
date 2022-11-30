@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words/signaturelineoptions/set_email/
 ---
-## SignatureLineOptions.set_Email method
+## SignatureLineOptions::set_Email method
 
 
 Setter for [Aspose::Words::SignatureLineOptions::get_Email](../get_email/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::SignatureLineOptions::get_Email](../get_email/).
 void Aspose::Words::SignatureLineOptions::set_Email(const System::String &value)
 ```
 
+## See Also
+
+* Class [SignatureLineOptions](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

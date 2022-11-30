@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words/comment/set_datetime/
 ---
-## Comment.set_DateTime method
+## Comment::set_DateTime method
 
 
 Setter for [Aspose::Words::Comment::get_DateTime](../get_datetime/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Comment::get_DateTime](../get_datetime/).
 void Aspose::Words::Comment::set_DateTime(System::DateTime value)
 ```
 
+## See Also
+
+* Class [Comment](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

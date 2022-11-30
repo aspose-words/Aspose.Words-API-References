@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.replacing/replacingargs/get_groupindex/
 ---
-## ReplacingArgs.get_GroupIndex method
+## ReplacingArgs::get_GroupIndex method
 
 
 Identifies, by index, a captured group in the [Match](../get_match/) that is to be replaced with the [Replacement](../get_replacement/) string.
@@ -15,13 +15,14 @@ Identifies, by index, a captured group in the [Match](../get_match/) that is to 
 int32_t Aspose::Words::Replacing::ReplacingArgs::get_GroupIndex() const
 ```
 
+## Remarks
+
 
 [GroupIndex](./) has effect only when [GroupName](../get_groupname/) is null.
 
 Default is zero.
 
 ## Examples
-
 
 
 
@@ -96,3 +97,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [ReplacingArgs](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)

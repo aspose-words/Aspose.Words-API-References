@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/dropdownitemcollection/add/
 ---
-## DropDownItemCollection.Add method
+## DropDownItemCollection::Add method
 
 
 Adds a string to the end of the collection.
@@ -22,11 +22,9 @@ int32_t Aspose::Words::Fields::DropDownItemCollection::Add(const System::String 
 
 ### ReturnValue
 
-
 The zero-based index at which the new element is inserted.
 
 ## Examples
-
 
 
 
@@ -82,3 +80,8 @@ doc->Save(ArtifactsDir + u"FormFields.DropDownItemCollection.html");
 dropDownItems->Clear();
 ```
 
+## See Also
+
+* Class [DropDownItemCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

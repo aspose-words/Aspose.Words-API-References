@@ -6,7 +6,7 @@ type: docs
 weight: 1769
 url: /cpp/aspose.words.settings/compatibilityoptions/set_usesingleborderforcontiguouscells/
 ---
-## CompatibilityOptions.set_UseSingleBorderforContiguousCells method
+## CompatibilityOptions::set_UseSingleBorderforContiguousCells method
 
 
 Use Simplified Rules For Table [Border](../../../aspose.words/border/) Conflicts.
@@ -15,3 +15,8 @@ Use Simplified Rules For Table [Border](../../../aspose.words/border/) Conflicts
 void Aspose::Words::Settings::CompatibilityOptions::set_UseSingleBorderforContiguousCells(bool value)
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

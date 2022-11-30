@@ -31,7 +31,6 @@ class XmlMapping : public System::Object
 
 
 
-
 Shows how to set XML mappings for custom XML parts. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -61,3 +60,7 @@ doc->get_FirstSection()->get_Body()->AppendChild(tag);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.XmlMapping.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Markup](../)
+* Library [Aspose.Words](../../)

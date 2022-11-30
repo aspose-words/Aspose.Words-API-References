@@ -3,7 +3,7 @@ title: IFontSavingCallback
 second_title: Aspose.Words for .NET API Reference
 description: Implement this interface if you want to receive notifications and control how Aspose.Words saves fonts when exporting a document to HTML format.
 type: docs
-weight: 4930
+weight: 4940
 url: /net/aspose.words.saving/ifontsavingcallback/
 ---
 ## IFontSavingCallback interface

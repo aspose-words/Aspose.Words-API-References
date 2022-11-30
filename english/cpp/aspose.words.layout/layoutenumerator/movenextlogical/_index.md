@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.layout/layoutenumerator/movenextlogical/
 ---
-## LayoutEnumerator.MoveNextLogical method
+## LayoutEnumerator::MoveNextLogical method
 
 
 Moves to the next sibling entity in a logical order. When iterating lines of a paragraph broken across pages this method will move to the next line even if it resides on another page.
@@ -17,7 +17,6 @@ bool Aspose::Words::Layout::LayoutEnumerator::MoveNextLogical()
 
 
 ## Examples
-
 
 
 
@@ -143,3 +142,8 @@ static void PrintCurrentEntity(SharedPtr<LayoutEnumerator> layoutEnumerator, int
 }
 ```
 
+## See Also
+
+* Class [LayoutEnumerator](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

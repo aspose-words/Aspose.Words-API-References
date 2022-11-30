@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/contains/
 ---
-## BookmarksOutlineLevelCollection.Contains method
+## BookmarksOutlineLevelCollection::Contains method
 
 
 Determines whether the collection contains a bookmark with the given name.
@@ -22,11 +22,9 @@ bool Aspose::Words::Saving::BookmarksOutlineLevelCollection::Contains(const Syst
 
 ### ReturnValue
 
-
 True if item is found in the collection; otherwise, false.
 
 ## Examples
-
 
 
 
@@ -82,3 +80,8 @@ doc->Save(ArtifactsDir + u"BookmarksOutlineLevelCollection.BookmarkLevels.pdf", 
 outlineLevels->Clear();
 ```
 
+## See Also
+
+* Class [BookmarksOutlineLevelCollection](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

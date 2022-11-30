@@ -11,6 +11,10 @@ url: /cpp/aspose.words.saving/pdfimagecompression/
 
 Specifies the type of compression applied to images in the PDF file.
 
+```cpp
+enum class PdfImageCompression
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,7 +24,6 @@ Specifies the type of compression applied to images in the PDF file.
 
 
 ## Examples
-
 
 
 
@@ -51,3 +54,7 @@ pdfSaveOptions->set_JpegQuality(10);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

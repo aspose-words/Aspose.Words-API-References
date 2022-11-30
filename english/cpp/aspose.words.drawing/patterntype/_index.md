@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing/patterntype/
 
 Specifies the fill pattern to be used to fill a shape.
 
+```cpp
+enum class PatternType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -71,3 +75,7 @@ Specifies the fill pattern to be used to fill a shape.
 | WideUpwardDiagonal | 54 | Wide upward diagonal. |
 | ZigZag | 55 | Zig zag. |
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

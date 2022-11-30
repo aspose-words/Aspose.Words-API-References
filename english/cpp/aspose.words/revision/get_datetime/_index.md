@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/revision/get_datetime/
 ---
-## Revision.get_DateTime method
+## Revision::get_DateTime method
 
 
 Gets or sets the date/time of this revision.
@@ -17,7 +17,6 @@ System::DateTime Aspose::Words::Revision::get_DateTime()
 
 
 ## Examples
-
 
 
 
@@ -98,3 +97,8 @@ ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Revision](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

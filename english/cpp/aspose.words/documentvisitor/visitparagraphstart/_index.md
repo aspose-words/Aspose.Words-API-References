@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/aspose.words/documentvisitor/visitparagraphstart/
 ---
-## DocumentVisitor.VisitParagraphStart method
+## DocumentVisitor::VisitParagraphStart method
 
 
 Called when enumeration of a paragraph has started.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitParagr
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -336,3 +334,10 @@ public:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [Paragraph](../../paragraph/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

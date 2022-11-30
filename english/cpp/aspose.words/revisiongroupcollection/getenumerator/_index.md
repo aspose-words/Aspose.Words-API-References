@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/revisiongroupcollection/getenumerator/
 ---
-## RevisionGroupCollection.GetEnumerator method
+## RevisionGroupCollection::GetEnumerator method
 
 
 Returns an enumerator object.
@@ -17,7 +17,6 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,9 @@ revisions->RejectAll();
 ASSERT_EQ(0, revisions->get_Count());
 ```
 
+## See Also
+
+* Class [RevisionGroup](../../revisiongroup/)
+* Class [RevisionGroupCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

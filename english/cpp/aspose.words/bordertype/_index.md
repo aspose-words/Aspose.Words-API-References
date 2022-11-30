@@ -11,6 +11,10 @@ url: /cpp/aspose.words/bordertype/
 
 Specifies sides of a border.
 
+```cpp
+enum class BorderType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -30,7 +34,6 @@ Specifies sides of a border.
 
 
 
-
 Shows how to insert a paragraph with a top border. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -46,3 +49,7 @@ builder->Writeln(u"Text with a red top border.");
 doc->Save(ArtifactsDir + u"Border.ParagraphTopBorder.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

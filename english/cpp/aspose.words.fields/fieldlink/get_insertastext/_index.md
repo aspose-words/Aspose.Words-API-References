@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.fields/fieldlink/get_insertastext/
 ---
-## FieldLink.get_InsertAsText method
+## FieldLink::get_InsertAsText method
 
 
 Gets or sets whether to insert the linked object in text-only format.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldLink::get_InsertAsText()
 
 
 ## Examples
-
 
 
 
@@ -196,3 +195,8 @@ static void InsertFieldDdeAuto(SharedPtr<DocumentBuilder> builder, ExField::Inse
 }
 ```
 
+## See Also
+
+* Class [FieldLink](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

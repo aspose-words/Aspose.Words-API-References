@@ -6,7 +6,7 @@ type: docs
 weight: 1080
 url: /cpp/aspose.words/font/set_shadow/
 ---
-## Font.set_Shadow method
+## Font::set_Shadow method
 
 
 Setter for [Aspose::Words::Font::get_Shadow](../get_shadow/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Font::get_Shadow](../get_shadow/).
 void Aspose::Words::Font::set_Shadow(bool value)
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

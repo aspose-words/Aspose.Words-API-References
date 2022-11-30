@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.drawing/imagesize/get_horizontalresolution/
 ---
-## ImageSize.get_HorizontalResolution method
+## ImageSize::get_HorizontalResolution method
 
 
 Gets the horizontal resolution in DPI.
@@ -17,7 +17,6 @@ double Aspose::Words::Drawing::ImageSize::get_HorizontalResolution() const
 
 
 ## Examples
-
 
 
 
@@ -48,3 +47,8 @@ shape->set_Height(imageSize->get_HeightPoints() * 2);
 doc->Save(ArtifactsDir + u"Drawing.ImageSize.docx");
 ```
 
+## See Also
+
+* Class [ImageSize](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

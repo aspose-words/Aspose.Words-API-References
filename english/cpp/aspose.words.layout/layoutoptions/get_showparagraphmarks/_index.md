@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.layout/layoutoptions/get_showparagraphmarks/
 ---
-## LayoutOptions.get_ShowParagraphMarks method
+## LayoutOptions::get_ShowParagraphMarks method
 
 
 Gets or sets indication of whether paragraph marks are rendered. Default is False.
@@ -17,7 +17,6 @@ bool Aspose::Words::Layout::LayoutOptions::get_ShowParagraphMarks() const
 
 
 ## Examples
-
 
 
 
@@ -36,3 +35,8 @@ doc->get_LayoutOptions()->set_ShowParagraphMarks(showParagraphMarks);
 doc->Save(ArtifactsDir + u"Document.LayoutOptionsParagraphMarks.pdf");
 ```
 
+## See Also
+
+* Class [LayoutOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.buildingblocks/buildingblock/set_type/
 ---
-## BuildingBlock.set_Type method
+## BuildingBlock::set_Type method
 
 
 Setter for [Aspose::Words::BuildingBlocks::BuildingBlock::get_Type](../get_type/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::BuildingBlocks::BuildingBlock::get_Type](../get_type/
 void Aspose::Words::BuildingBlocks::BuildingBlock::set_Type(Aspose::Words::BuildingBlocks::BuildingBlockType value)
 ```
 
+## See Also
+
+* Enum [BuildingBlockType](../../buildingblocktype/)
+* Class [BuildingBlock](../)
+* Namespace [Aspose::Words::BuildingBlocks](../../)
+* Library [Aspose.Words](../../../)

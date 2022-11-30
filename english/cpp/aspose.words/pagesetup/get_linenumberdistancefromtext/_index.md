@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.words/pagesetup/get_linenumberdistancefromtext/
 ---
-## PageSetup.get_LineNumberDistanceFromText method
+## PageSetup::get_LineNumberDistanceFromText method
 
 
 Gets or sets distance between the right edge of line numbers and the left edge of the document.
@@ -17,7 +17,6 @@ double Aspose::Words::PageSetup::get_LineNumberDistanceFromText()
 
 
 ## Examples
-
 
 
 
@@ -51,3 +50,8 @@ doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(14)->get_Paragrap
 doc->Save(ArtifactsDir + u"PageSetup.LineNumbers.docx");
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fieldbarcode/get_isuspostaladdress/
 ---
-## FieldBarcode.get_IsUSPostalAddress method
+## FieldBarcode::get_IsUSPostalAddress method
 
 
 Gets or sets whether [PostalAddress](../get_postaladdress/) is a U.S. postal address.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldBarcode::get_IsUSPostalAddress()
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,8 @@ builder->EndBookmark(u"BarcodeBookmark");
 doc->Save(ArtifactsDir + u"Field.BARCODE.docx");
 ```
 
+## See Also
+
+* Class [FieldBarcode](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

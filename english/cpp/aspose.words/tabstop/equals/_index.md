@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/tabstop/equals/
 ---
-## TabStop.Equals method
+## TabStop::Equals method
 
 
 Compares with the specified [TabStop](../).
@@ -17,7 +17,6 @@ bool Aspose::Words::TabStop::Equals(const System::SharedPtr<Aspose::Words::TabSt
 
 
 ## Examples
-
 
 
 
@@ -59,3 +58,9 @@ ASSERT_EQ(0, paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops()->get_
 doc->Save(ArtifactsDir + u"TabStopCollection.TabStopCollection.docx");
 ```
 
+## See Also
+
+* Class [TabStop](../)
+* Class [TabStop](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

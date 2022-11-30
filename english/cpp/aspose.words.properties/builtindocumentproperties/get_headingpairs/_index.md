@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_headingpairs/
 ---
-## BuiltInDocumentProperties.get_HeadingPairs method
+## BuiltInDocumentProperties::get_HeadingPairs method
 
 
 Specifies document headings and their names.
@@ -14,6 +14,8 @@ Specifies document headings and their names.
 ```cpp
 System::ArrayPtr<System::SharedPtr<System::Object>> Aspose::Words::Properties::BuiltInDocumentProperties::get_HeadingPairs()
 ```
+
+## Remarks
 
 
 Every heading pair occupies two elements in this array.
@@ -25,7 +27,6 @@ The total sum of counts for all heading pairs in this property must be equal to 
 Aspose.Words does not update this property.
 
 ## Examples
-
 
 
 
@@ -56,3 +57,8 @@ while (headingPairsIndex < headingPairs->get_Length())
 }
 ```
 
+## See Also
+
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

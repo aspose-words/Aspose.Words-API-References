@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/aspose.words.tables/table/get_style/
 ---
-## Table.get_Style method
+## Table::get_Style method
 
 
 Gets or sets the table style applied to this table.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Style> Aspose::Words::Tables::Table::get_Style(
 
 
 ## Examples
-
 
 
 
@@ -59,3 +58,9 @@ ASSERT_EQ(u"MyTableStyle1", table->get_StyleName());
 doc->Save(ArtifactsDir + u"Table.TableStyleCreation.docx");
 ```
 
+## See Also
+
+* Class [Style](../../../aspose.words/style/)
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

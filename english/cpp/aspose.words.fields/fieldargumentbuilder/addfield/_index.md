@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldargumentbuilder/addfield/
 ---
-## FieldArgumentBuilder.AddField method
+## FieldArgumentBuilder::AddField method
 
 
 Adds a field represented by a [FieldBuilder](../../fieldbuilder/) to the argument.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Fields::FieldArgumentBuilder> Aspose::Words::Fi
 
 
 ## Examples
-
 
 
 
@@ -99,3 +98,10 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 ```
 
+## See Also
+
+* Class [FieldArgumentBuilder](../)
+* Class [FieldBuilder](../../fieldbuilder/)
+* Class [FieldArgumentBuilder](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

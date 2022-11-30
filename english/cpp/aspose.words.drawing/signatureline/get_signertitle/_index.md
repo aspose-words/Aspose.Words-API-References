@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.drawing/signatureline/get_signertitle/
 ---
-## SignatureLine.get_SignerTitle method
+## SignatureLine::get_SignerTitle method
 
 
 Gets or sets suggested signer's title (for example, Manager). Default value for this property is **empty string**.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Drawing::SignatureLine::get_SignerTitle()
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,8 @@ ASSERT_TRUE(signatureLine->get_DefaultInstructions());
 doc->Save(ArtifactsDir + u"Shape.SignatureLine.docx");
 ```
 
+## See Also
+
+* Class [SignatureLine](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

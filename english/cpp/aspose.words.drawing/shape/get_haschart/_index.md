@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.drawing/shape/get_haschart/
 ---
-## Shape.get_HasChart method
+## Shape::get_HasChart method
 
 
 Returns true if this [Shape](../) has a [Chart](../get_chart/).
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::Shape::get_HasChart()
 
 
 ## Examples
-
 
 
 
@@ -131,3 +130,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Shape](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

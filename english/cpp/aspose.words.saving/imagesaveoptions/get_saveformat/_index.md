@@ -6,14 +6,16 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.saving/imagesaveoptions/get_saveformat/
 ---
-## ImageSaveOptions.get_SaveFormat method
+## ImageSaveOptions::get_SaveFormat method
 
 
-Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster **Tiff**, **Png**, **Bmp**, **Jpeg** or vector **Emf**, **Svg**.
+Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [Tiff](../../../aspose.words/saveformat/), [Png](../../../aspose.words/saveformat/), [Bmp](../../../aspose.words/saveformat/), [Jpeg](../../../aspose.words/saveformat/) or vector [Emf](../../../aspose.words/saveformat/), [Svg](../../../aspose.words/saveformat/).
 
 ```cpp
 Aspose::Words::SaveFormat Aspose::Words::Saving::ImageSaveOptions::get_SaveFormat() override
 ```
+
+## Remarks
 
 
 On different platforms, the supported formats may be different. The number of other options depends on the selected format.
@@ -21,7 +23,6 @@ On different platforms, the supported formats may be different. The number of ot
 Also, it is possible to save to SVG both via [ImageSaveOptions](../) and via [SvgSaveOptions](../../svgsaveoptions/).
 
 ## Examples
-
 
 
 
@@ -46,3 +47,9 @@ options->set_Scale(96.f / 72.f);
 doc->Save(ArtifactsDir + u"ImageSaveOptions.EditImage.png", options);
 ```
 
+## See Also
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [ImageSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

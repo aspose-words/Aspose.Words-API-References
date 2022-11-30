@@ -6,7 +6,7 @@ type: docs
 weight: 885
 url: /cpp/aspose.words/documentbuilder/write/
 ---
-## DocumentBuilder.Write method
+## DocumentBuilder::Write method
 
 
 Inserts a string into the document at the current insert position.
@@ -21,7 +21,6 @@ void Aspose::Words::DocumentBuilder::Write(const System::String &text)
 | text | const System::String\& | The string to insert into the document. |
 
 ## Examples
-
 
 
 
@@ -165,3 +164,8 @@ ASSERT_EQ(TextOrientation::Downward, table->get_Rows()->idx_get(1)->get_Cells()-
 doc->Save(ArtifactsDir + u"DocumentBuilder.BuildTable.docx");
 ```
 
+## See Also
+
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

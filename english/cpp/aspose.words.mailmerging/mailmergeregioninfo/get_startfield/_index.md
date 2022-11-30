@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.mailmerging/mailmergeregioninfo/get_startfield/
 ---
-## MailMergeRegionInfo.get_StartField method
+## MailMergeRegionInfo::get_StartField method
 
 
 Returns a start field for the region.
@@ -17,7 +17,6 @@ const System::SharedPtr<Aspose::Words::Fields::FieldMergeField> & Aspose::Words:
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,9 @@ SharedPtr<FieldMergeField> endFieldMergeField = nestedRegions->idx_get(0)->get_E
 ASSERT_EQ(u"TableEnd:NestedRegion1", endFieldMergeField->get_FieldName());
 ```
 
+## See Also
+
+* Class [FieldMergeField](../../../aspose.words.fields/fieldmergefield/)
+* Class [MailMergeRegionInfo](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

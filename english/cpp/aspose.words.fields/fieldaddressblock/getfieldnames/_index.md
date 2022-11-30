@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.fields/fieldaddressblock/getfieldnames/
 ---
-## FieldAddressBlock.GetFieldNames method
+## FieldAddressBlock::GetFieldNames method
 
 
 Returns a collection of mail merge field names used by the field.
@@ -17,7 +17,6 @@ System::ArrayPtr<System::String> Aspose::Words::Fields::FieldAddressBlock::GetFi
 
 
 ## Examples
-
 
 
 
@@ -32,3 +31,8 @@ auto addressBlockField = System::DynamicCast<FieldAddressBlock>(doc->get_Range()
 ArrayPtr<String> addressBlockFieldNames = addressBlockField->GetFieldNames();
 ```
 
+## See Also
+
+* Class [FieldAddressBlock](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

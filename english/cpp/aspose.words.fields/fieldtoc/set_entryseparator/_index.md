@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.words.fields/fieldtoc/set_entryseparator/
 ---
-## FieldToc.set_EntrySeparator method
+## FieldToc::set_EntrySeparator method
 
 
 Setter for [Aspose::Words::Fields::FieldToc::get_EntrySeparator](../get_entryseparator/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldToc::get_EntrySeparator](../get_entrysep
 void Aspose::Words::Fields::FieldToc::set_EntrySeparator(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldToc](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

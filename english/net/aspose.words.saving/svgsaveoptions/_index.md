@@ -3,7 +3,7 @@ title: SvgSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the Svg format.
 type: docs
-weight: 5350
+weight: 5360
 url: /net/aspose.words.saving/svgsaveoptions/
 ---
 ## SvgSaveOptions class

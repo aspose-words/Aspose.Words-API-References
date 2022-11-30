@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/body/body/
 ---
-## Body.Body method
+## Body::Body constructor
 
 
 Initializes a new instance of the **Body** class.
@@ -19,13 +19,14 @@ Aspose::Words::Body::Body(const System::SharedPtr<Aspose::Words::DocumentBase> &
 | Parameter | Type | Description |
 | --- | --- | --- |
 | doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
+## Remarks
+
 
 When **Body** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
 To append **Body** to a **Section** use [Section.InsertAfter](../../compositenode/insertafter/) or [Section.InsertBefore](../../compositenode/insertbefore/).
 
 ## Examples
-
 
 
 
@@ -73,3 +74,9 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 ```
 
+## See Also
+
+* Class [DocumentBase](../../documentbase/)
+* Class [Body](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

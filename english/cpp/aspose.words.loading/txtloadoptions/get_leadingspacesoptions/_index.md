@@ -6,10 +6,10 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.loading/txtloadoptions/get_leadingspacesoptions/
 ---
-## TxtLoadOptions.get_LeadingSpacesOptions method
+## TxtLoadOptions::get_LeadingSpacesOptions method
 
 
-Gets or sets preferred option of a leading space handling. Default value is **ConvertToIndent**.
+Gets or sets preferred option of a leading space handling. Default value is [ConvertToIndent](../../txtleadingspacesoptions/).
 
 ```cpp
 Aspose::Words::Loading::TxtLeadingSpacesOptions Aspose::Words::Loading::TxtLoadOptions::get_LeadingSpacesOptions() const
@@ -17,7 +17,6 @@ Aspose::Words::Loading::TxtLeadingSpacesOptions Aspose::Words::Loading::TxtLoadO
 
 
 ## Examples
-
 
 
 
@@ -91,3 +90,9 @@ case TxtTrailingSpacesOptions::Trim:
 }
 ```
 
+## See Also
+
+* Enum [TxtLeadingSpacesOptions](../../txtleadingspacesoptions/)
+* Class [TxtLoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

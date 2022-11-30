@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.fields/fieldtoa/get_useheading/
 ---
-## FieldToa.get_UseHeading method
+## FieldToa::get_UseHeading method
 
 
 Gets or sets whether to include the category heading for the entries in a table of authorities.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldToa::get_UseHeading()
 
 
 ## Examples
-
 
 
 
@@ -138,3 +137,8 @@ static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, Str
 }
 ```
 
+## See Also
+
+* Class [FieldToa](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

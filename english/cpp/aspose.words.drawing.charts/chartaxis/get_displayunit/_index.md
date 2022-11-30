@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_displayunit/
 ---
-## ChartAxis.get_DisplayUnit method
+## ChartAxis::get_DisplayUnit method
 
 
 Specifies the scaling value of the display units for the value axis.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::AxisDisplayUnit> Aspose::Words
 
 
 ## Examples
-
 
 
 
@@ -74,3 +73,9 @@ axis->get_DisplayUnit()->set_CustomUnit(1000000);
 doc->Save(ArtifactsDir + u"Charts.AxisDisplayUnit.docx");
 ```
 
+## See Also
+
+* Class [AxisDisplayUnit](../../axisdisplayunit/)
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

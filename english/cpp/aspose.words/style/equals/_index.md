@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/style/equals/
 ---
-## Style.Equals method
+## Style::Equals method
 
 
 Compares with the specified style. Styles Istds are compared for built-in styles only. Styles defaults are not included in comparison. Base style, linked style and next paragraph style are recursively compared.
@@ -17,7 +17,6 @@ bool Aspose::Words::Style::Equals(const System::SharedPtr<Aspose::Words::Style> 
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,9 @@ ASPOSE_ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(
                  doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(1)->get_ParagraphFormat()->get_Style());
 ```
 
+## See Also
+
+* Class [Style](../)
+* Class [Style](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

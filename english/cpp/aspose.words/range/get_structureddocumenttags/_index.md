@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/range/get_structureddocumenttags/
 ---
-## Range.get_StructuredDocumentTags method
+## Range::get_StructuredDocumentTags method
 
 
 Returns a [StructuredDocumentTags](./) collection that represents all structured document tags in the range.
@@ -15,3 +15,9 @@ Returns a [StructuredDocumentTags](./) collection that represents all structured
 System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTagCollection> Aspose::Words::Range::get_StructuredDocumentTags()
 ```
 
+## See Also
+
+* Class [StructuredDocumentTagCollection](../../../aspose.words.markup/structureddocumenttagcollection/)
+* Class [Range](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

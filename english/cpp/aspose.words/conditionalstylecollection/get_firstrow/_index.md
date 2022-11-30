@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words/conditionalstylecollection/get_firstrow/
 ---
-## ConditionalStyleCollection.get_FirstRow method
+## ConditionalStyleCollection::get_FirstRow method
 
 
 Gets the first row style.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::ConditionalStyle> Aspose::Words::ConditionalSty
 
 
 ## Examples
-
 
 
 
@@ -90,3 +89,9 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow |
 doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 ```
 
+## See Also
+
+* Class [ConditionalStyle](../../conditionalstyle/)
+* Class [ConditionalStyleCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

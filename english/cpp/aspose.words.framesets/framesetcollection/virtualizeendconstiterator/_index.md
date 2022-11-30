@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.framesets/framesetcollection/virtualizeendconstiterator/
 ---
-## FramesetCollection.virtualizeEndConstIterator method
+## FramesetCollection::virtualizeEndConstIterator method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.framesets/framesetcollection/virtualizeendconstiterator/
 virtualized_iterator * Aspose::Words::Framesets::FramesetCollection::virtualizeEndConstIterator() const override
 ```
 
+## See Also
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [FramesetCollection](../)
+* Namespace [Aspose::Words::Framesets](../../)
+* Library [Aspose.Words](../../../)

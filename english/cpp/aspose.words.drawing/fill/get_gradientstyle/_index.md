@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.drawing/fill/get_gradientstyle/
 ---
-## Fill.get_GradientStyle method
+## Fill::get_GradientStyle method
 
 
 Gets the gradient style [GradientStyle](../../gradientstyle/) for the fill.
@@ -17,7 +17,6 @@ Aspose::Words::Drawing::GradientStyle Aspose::Words::Drawing::Fill::get_Gradient
 
 
 ## Examples
-
 
 
 
@@ -57,3 +56,9 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 doc->Save(ArtifactsDir + u"Shape.GradientFill.docx", saveOptions);
 ```
 
+## See Also
+
+* Enum [GradientStyle](../../gradientstyle/)
+* Class [Fill](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

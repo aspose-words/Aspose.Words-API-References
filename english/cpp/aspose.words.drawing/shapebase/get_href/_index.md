@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.words.drawing/shapebase/get_href/
 ---
-## ShapeBase.get_HRef method
+## ShapeBase::get_HRef method
 
 
 Gets or sets the full hyperlink address for a shape.
@@ -14,6 +14,8 @@ Gets or sets the full hyperlink address for a shape.
 ```cpp
 System::String Aspose::Words::Drawing::ShapeBase::get_HRef()
 ```
+
+## Remarks
 
 
 The default value is an empty string.
@@ -36,7 +38,6 @@ Relative file name: **%..\\My Documents\\SalesReport.doc**.
 
 
 
-
 Shows how to insert a shape which contains an image, and is also a hyperlink. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -52,3 +53,8 @@ shape->set_ScreenTip(u"Aspose.Words Support Forums");
 doc->Save(ArtifactsDir + u"Image.InsertImageWithHyperlink.docx");
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

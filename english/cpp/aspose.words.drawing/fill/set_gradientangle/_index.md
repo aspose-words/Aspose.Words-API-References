@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.words.drawing/fill/set_gradientangle/
 ---
-## Fill.set_GradientAngle method
+## Fill::set_GradientAngle method
 
 
 Setter for [Aspose::Words::Drawing::Fill::get_GradientAngle](../get_gradientangle/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::Fill::get_GradientAngle](../get_gradientangl
 void Aspose::Words::Drawing::Fill::set_GradientAngle(double value)
 ```
 
+## See Also
+
+* Class [Fill](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

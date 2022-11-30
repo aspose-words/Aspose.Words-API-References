@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.loading/rtfloadoptions/rtfloadoptions/
 ---
-## RtfLoadOptions.RtfLoadOptions method
+## RtfLoadOptions::RtfLoadOptions constructor
 
 
 Initializes a new instance of this class with default values.
@@ -17,7 +17,6 @@ Aspose::Words::Loading::RtfLoadOptions::RtfLoadOptions()
 
 
 ## Examples
-
 
 
 
@@ -38,3 +37,8 @@ ASSERT_EQ(recognizeUtf8Text ? String(u"“John Doe´s list of currency symbols�
           doc->get_FirstSection()->get_Body()->GetText().Trim());
 ```
 
+## See Also
+
+* Class [RtfLoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1002
 url: /cpp/aspose.words/pagesetup/set_rightmargin/
 ---
-## PageSetup.set_RightMargin method
+## PageSetup::set_RightMargin method
 
 
 Setter for [Aspose::Words::PageSetup::get_RightMargin](../get_rightmargin/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::PageSetup::get_RightMargin](../get_rightmargin/).
 void Aspose::Words::PageSetup::set_RightMargin(double value)
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

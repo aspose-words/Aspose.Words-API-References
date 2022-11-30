@@ -6,7 +6,7 @@ type: docs
 weight: 560
 url: /cpp/aspose.words/document/get_revisionsview/
 ---
-## Document.get_RevisionsView method
+## Document::get_RevisionsView method
 
 
 Gets or sets a value indicating whether to work with the original or revised version of a document.
@@ -17,7 +17,6 @@ Aspose::Words::RevisionsView Aspose::Words::Document::get_RevisionsView() const
 
 
 ## Examples
-
 
 
 
@@ -39,3 +38,9 @@ ASSERT_EQ(u"1.", paragraphs->idx_get(1)->get_ListLabel()->get_LabelString());
 ASSERT_EQ(u"a.", paragraphs->idx_get(2)->get_ListLabel()->get_LabelString());
 ```
 
+## See Also
+
+* Enum [RevisionsView](../../revisionsview/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

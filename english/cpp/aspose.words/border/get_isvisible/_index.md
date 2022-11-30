@@ -6,10 +6,10 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/border/get_isvisible/
 ---
-## Border.get_IsVisible method
+## Border::get_IsVisible method
 
 
-Returns true if the LineStyle is not **LineStyle.None**.
+Returns true if the LineStyle is not [LineStyle.None](../../linestyle/).
 
 ```cpp
 bool Aspose::Words::Border::get_IsVisible()
@@ -17,7 +17,6 @@ bool Aspose::Words::Border::get_IsVisible()
 
 
 ## Examples
-
 
 
 
@@ -49,3 +48,8 @@ ASSERT_FALSE(borders->idx_get(0)->get_IsVisible());
 doc->Save(ArtifactsDir + u"Border.ClearFormatting.docx");
 ```
 
+## See Also
+
+* Class [Border](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

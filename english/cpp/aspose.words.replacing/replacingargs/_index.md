@@ -33,7 +33,6 @@ class ReplacingArgs : public System::Object
 
 
 
-
 Shows how to replace all occurrences of a regular expression pattern with another string, while tracking all such replacements. 
 ```cpp
 void ReplaceWithCallback()
@@ -157,3 +156,7 @@ static void InsertDocument(SharedPtr<Node> insertionDestination, SharedPtr<Docum
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Replacing](../)
+* Library [Aspose.Words](../../)

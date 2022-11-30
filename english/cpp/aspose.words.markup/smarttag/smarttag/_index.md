@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.markup/smarttag/smarttag/
 ---
-## SmartTag.SmartTag method
+## SmartTag::SmartTag constructor
 
 
 Initializes a new instance of the [SmartTag](../) class.
@@ -19,13 +19,14 @@ Aspose::Words::Markup::SmartTag::SmartTag(const System::SharedPtr<Aspose::Words:
 | Parameter | Type | Description |
 | --- | --- | --- |
 | doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
+## Remarks
+
 
 When you create a new node, you need to specify a document to which the node belongs. A node cannot exist without a document because it depends on the document-wide structures such as lists and styles. Although a node always belongs to a document, a node might or might not be a part of the document tree.
 
-When a node is created, it belongs to a document, but is not yet part of the document tree and [ParentNode](../../../aspose.words/node/get_parentnode/) is null. To insert a node into the document, use the **InsertAfter()** or **InsertBefore()** methods on the parent node.
+When a node is created, it belongs to a document, but is not yet part of the document tree and [ParentNode](../../../aspose.words/node/get_parentnode/) is null. To insert a node into the document, use the [InsertAfter()](../) or [InsertBefore()](../) methods on the parent node.
 
 ## Examples
-
 
 
 
@@ -118,3 +119,9 @@ public:
 };
 ```
 
+## See Also
+
+* Class [DocumentBase](../../../aspose.words/documentbase/)
+* Class [SmartTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

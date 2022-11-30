@@ -46,7 +46,6 @@ class FieldBidiOutline : public Aspose::Words::Fields::Field
 
 
 
-
 Shows how to create right-to-left language-compatible lists with BIDIOUTLINE fields. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -77,3 +76,8 @@ for (const auto& para : System::IterateOver<Paragraph>(doc->GetChildNodes(NodeTy
 doc->Save(ArtifactsDir + u"Field.BIDIOUTLINE.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

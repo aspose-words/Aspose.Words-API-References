@@ -6,14 +6,16 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.mailmerging/mailmerge/get_cleanupparagraphswithpunctuationmarks/
 ---
-## MailMerge.get_CleanupParagraphsWithPunctuationMarks method
+## MailMerge::get_CleanupParagraphsWithPunctuationMarks method
 
 
-Gets or sets a value indicating whether paragraphs with punctuation marks are considered as empty and should be removed if the **RemoveEmptyParagraphs** option is specified.
+Gets or sets a value indicating whether paragraphs with punctuation marks are considered as empty and should be removed if the [RemoveEmptyParagraphs](../../mailmergecleanupoptions/) option is specified.
 
 ```cpp
 bool Aspose::Words::MailMerging::MailMerge::get_CleanupParagraphsWithPunctuationMarks() const
 ```
+
+## Remarks
 
 
 The default value is **true**. Here is the complete list of cleanable punctuation marks:
@@ -30,7 +32,6 @@ The default value is **true**. Here is the complete list of cleanable punctuatio
 
 
 ## Examples
-
 
 
 
@@ -62,3 +63,8 @@ doc->get_MailMerge()->Execute(MakeArray<String>({u"Option_1", u"Option_2"}), Mak
 doc->Save(ArtifactsDir + u"MailMerge.RemoveColonBetweenEmptyMergeFields.docx");
 ```
 
+## See Also
+
+* Class [MailMerge](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

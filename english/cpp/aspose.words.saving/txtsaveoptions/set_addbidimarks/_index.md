@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.saving/txtsaveoptions/set_addbidimarks/
 ---
-## TxtSaveOptions.set_AddBidiMarks method
+## TxtSaveOptions::set_AddBidiMarks method
 
 
 Setter for [Aspose::Words::Saving::TxtSaveOptions::get_AddBidiMarks](../get_addbidimarks/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::TxtSaveOptions::get_AddBidiMarks](../get_addb
 void Aspose::Words::Saving::TxtSaveOptions::set_AddBidiMarks(bool value)
 ```
 
+## See Also
+
+* Class [TxtSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

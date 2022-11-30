@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/paragraphcollection/idx_get/
 ---
-## ParagraphCollection.idx_get method
+## ParagraphCollection::idx_get method
 
 
 Retrieves a **Paragraph** at the given index.
@@ -19,6 +19,8 @@ System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::ParagraphCollection::
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | An index into the collection. |
+## Remarks
+
 
 The index is zero-based.
 
@@ -29,7 +31,6 @@ If index is greater than or equal to the number of items in the list, this retur
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
 
 ## Examples
-
 
 
 
@@ -61,3 +62,9 @@ ASSERT_TRUE(paragraphs->idx_get(1)->get_IsMoveFromRevision());
 ASSERT_TRUE(paragraphs->idx_get(3)->get_IsMoveToRevision());
 ```
 
+## See Also
+
+* Class [Paragraph](../../paragraph/)
+* Class [ParagraphCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

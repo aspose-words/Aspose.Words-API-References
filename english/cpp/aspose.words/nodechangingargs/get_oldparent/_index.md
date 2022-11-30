@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/nodechangingargs/get_oldparent/
 ---
-## NodeChangingArgs.get_OldParent method
+## NodeChangingArgs::get_OldParent method
 
 
 Gets the node's parent before the operation began.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::NodeChangingArgs::get_OldP
 
 
 ## Examples
-
 
 
 
@@ -85,3 +84,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Node](../../node/)
+* Class [NodeChangingArgs](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

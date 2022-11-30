@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/ifieldresultformatter/formatdatetime/
 ---
-## IFieldResultFormatter.FormatDateTime method
+## IFieldResultFormatter::FormatDateTime method
 
 
 Called when Aspose.Words applies a date/time format switch, i.e. \@ "dd.MM.yyyy".
@@ -17,7 +17,6 @@ virtual System::String Aspose::Words::Fields::IFieldResultFormatter::FormatDateT
 
 
 ## Examples
-
 
 
 
@@ -205,3 +204,9 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [CalendarType](../../../aspose.words/calendartype/)
+* Interface [IFieldResultFormatter](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

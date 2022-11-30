@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/nodelist/get_count/
 ---
-## NodeList.get_Count method
+## NodeList::get_Count method
 
 
 Gets the number of nodes in the list.
@@ -15,3 +15,8 @@ Gets the number of nodes in the list.
 int32_t Aspose::Words::NodeList::get_Count() const
 ```
 
+## See Also
+
+* Class [NodeList](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

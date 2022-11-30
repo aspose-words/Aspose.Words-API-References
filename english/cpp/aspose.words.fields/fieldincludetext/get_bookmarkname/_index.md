@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldincludetext/get_bookmarkname/
 ---
-## FieldIncludeText.get_BookmarkName method
+## FieldIncludeText::get_BookmarkName method
 
 
 Gets or sets the name of the bookmark in the document to include.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldIncludeText::get_BookmarkName() overr
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,8 @@ SharedPtr<FieldIncludeText> CreateFieldIncludeText(SharedPtr<DocumentBuilder> bu
 }
 ```
 
+## See Also
+
+* Class [FieldIncludeText](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

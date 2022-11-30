@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words/bookmark/remove/
 ---
-## Bookmark.Remove method
+## Bookmark::Remove method
 
 
 Removes the bookmark from the document. Does not remove text inside the bookmark.
@@ -17,7 +17,6 @@ void Aspose::Words::Bookmark::Remove()
 
 
 ## Examples
-
 
 
 
@@ -74,3 +73,8 @@ ASSERT_EQ(String(u"Text inside MyBookmark_1.\r") + u"Text inside MyBookmark_2.\r
           doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Bookmark](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

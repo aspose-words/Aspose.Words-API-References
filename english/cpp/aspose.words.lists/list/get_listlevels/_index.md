@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.lists/list/get_listlevels/
 ---
-## List.get_ListLevels method
+## List::get_ListLevels method
 
 
 Gets the collection of list levels for this list.
@@ -15,11 +15,12 @@ Gets the collection of list levels for this list.
 System::SharedPtr<Aspose::Words::Lists::ListLevelCollection> Aspose::Words::Lists::List::get_ListLevels()
 ```
 
+## Remarks
+
 
 Use this property to access and modify formatting individual to each level of the list.
 
 ## Examples
-
 
 
 
@@ -76,3 +77,9 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateCustomList.docx");
 ```
 
+## See Also
+
+* Class [ListLevelCollection](../../listlevelcollection/)
+* Class [List](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

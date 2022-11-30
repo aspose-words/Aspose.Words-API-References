@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/csssavingargs/get_cssstream/
 ---
-## CssSavingArgs.get_CssStream method
+## CssSavingArgs::get_CssStream method
 
 
 Allows to specify the stream where the CSS information will be saved to.
@@ -14,6 +14,8 @@ Allows to specify the stream where the CSS information will be saved to.
 ```cpp
 System::SharedPtr<System::IO::Stream> Aspose::Words::Saving::CssSavingArgs::get_CssStream() const
 ```
+
+## Remarks
 
 
 This property allows you to save CSS information to a stream.
@@ -23,7 +25,6 @@ The default value is **null**. This property doesn't suppress saving CSS informa
 Using [ICssSavingCallback](../../icsssavingcallback/) you cannot substitute CSS with another. It is intended only for saving CSS to a stream.
 
 ## Examples
-
 
 
 
@@ -81,3 +82,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [CssSavingArgs](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

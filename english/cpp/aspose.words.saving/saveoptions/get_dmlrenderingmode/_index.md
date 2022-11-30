@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.saving/saveoptions/get_dmlrenderingmode/
 ---
-## SaveOptions.get_DmlRenderingMode method
+## SaveOptions::get_DmlRenderingMode method
 
 
 Gets or sets a value determining how DrawingML shapes are rendered.
@@ -15,13 +15,14 @@ Gets or sets a value determining how DrawingML shapes are rendered.
 Aspose::Words::Saving::DmlRenderingMode Aspose::Words::Saving::SaveOptions::get_DmlRenderingMode() const
 ```
 
+## Remarks
 
-The default value is **Fallback**.
+
+The default value is [Fallback](../../dmlrenderingmode/).
 
 This property is used when the document is exported to fixed page formats.
 
 ## Examples
-
 
 
 
@@ -63,3 +64,9 @@ options->set_DmlRenderingMode(dmlRenderingMode);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.DrawingMLFallback.pdf", options);
 ```
 
+## See Also
+
+* Enum [DmlRenderingMode](../../dmlrenderingmode/)
+* Class [SaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

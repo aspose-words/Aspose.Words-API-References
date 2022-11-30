@@ -26,7 +26,6 @@ class IFieldMergingCallback : public System::Object
 
 
 
-
 Shows how to execute a mail merge with a custom callback that handles merge data in the form of HTML documents. 
 ```cpp
 void MergeHtml()
@@ -76,3 +75,7 @@ private:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::MailMerging](../)
+* Library [Aspose.Words](../../)

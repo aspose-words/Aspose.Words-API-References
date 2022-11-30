@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words/node/tostring/
 ---
-## Node.ToString(Aspose::Words::SaveFormat) method
+## Node::ToString(Aspose::Words::SaveFormat) method
 
 
 Exports the content of the node into a string in the specified format.
@@ -18,11 +18,9 @@ System::String Aspose::Words::Node::ToString(Aspose::Words::SaveFormat saveForma
 
 ### ReturnValue
 
-
 The content of the node in the specified format.
 
 ## Examples
-
 
 
 
@@ -93,7 +91,13 @@ ASSERT_EQ(String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108
           node->ToString(saveOptions));
 ```
 
-## Node.ToString(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) method
+## See Also
+
+* Enum [SaveFormat](../../saveformat/)
+* Class [Node](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Node::ToString(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) method
 
 
 Exports the content of the node into a string using the specified save options.
@@ -109,11 +113,9 @@ System::String Aspose::Words::Node::ToString(const System::SharedPtr<Aspose::Wor
 
 ### ReturnValue
 
-
 The content of the node in the specified format.
 
 ## Examples
-
 
 
 
@@ -138,3 +140,9 @@ ASSERT_EQ(String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108
           node->ToString(saveOptions));
 ```
 
+## See Also
+
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* Class [Node](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

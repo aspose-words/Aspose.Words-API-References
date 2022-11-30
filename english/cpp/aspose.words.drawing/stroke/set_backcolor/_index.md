@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.words.drawing/stroke/set_backcolor/
 ---
-## Stroke.set_BackColor method
+## Stroke::set_BackColor method
 
 
 Setter for [Aspose::Words::Drawing::Stroke::get_BackColor](../get_backcolor/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::Stroke::get_BackColor](../get_backcolor/).
 void Aspose::Words::Drawing::Stroke::set_BackColor(System::Drawing::Color value)
 ```
 
+## See Also
+
+* Class [Stroke](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

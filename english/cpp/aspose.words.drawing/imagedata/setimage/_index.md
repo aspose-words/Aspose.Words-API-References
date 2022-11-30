@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/aspose.words.drawing/imagedata/setimage/
 ---
-## ImageData.SetImage(const System::SharedPtr\<System::Drawing::Image\>\&) method
+## ImageData::SetImage(const System::SharedPtr\<System::Drawing::Image\>\&) method
 
 
 Sets the image that the shape displays.
@@ -24,7 +24,6 @@ void Aspose::Words::Drawing::ImageData::SetImage(const System::SharedPtr<System:
 
 
 
-
 Shows how to display images from the local file system in a document. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -55,7 +54,12 @@ SharedPtr<Shape> imgShape;
 doc->Save(ArtifactsDir + u"Drawing.ImportImage.docx");
 ```
 
-## ImageData.SetImage(const System::SharedPtr\<System::IO::Stream\>\&) method
+## See Also
+
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)
+## ImageData::SetImage(const System::SharedPtr\<System::IO::Stream\>\&) method
 
 
 Sets the image that the shape displays.
@@ -73,7 +77,6 @@ void Aspose::Words::Drawing::ImageData::SetImage(const System::SharedPtr<System:
 
 
 
-
 Shows how to display images from the local file system in a document. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -104,7 +107,12 @@ SharedPtr<Shape> imgShape;
 doc->Save(ArtifactsDir + u"Drawing.ImportImage.docx");
 ```
 
-## ImageData.SetImage(const System::String\&) method
+## See Also
+
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)
+## ImageData::SetImage(const System::String\&) method
 
 
 Sets the image that the shape displays.
@@ -119,7 +127,6 @@ void Aspose::Words::Drawing::ImageData::SetImage(const System::String &fileName)
 | fileName | const System::String\& | The image file. Can be a file name or a URL. |
 
 ## Examples
-
 
 
 
@@ -159,7 +166,12 @@ doc->Save(ArtifactsDir + u"Image.CreateLinkedImage.Linked.docx");
 ASSERT_TRUE(10000 > MakeObject<System::IO::FileInfo>(ArtifactsDir + u"Image.CreateLinkedImage.Linked.docx")->get_Length());
 ```
 
-## ImageData.SetImage(std::basic_istream\<CharType, Traits\>\&) method
+## See Also
+
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)
+## ImageData::SetImage(std::basic_istream\<CharType, Traits\>\&) method
 
 
 
@@ -168,3 +180,8 @@ ASSERT_TRUE(10000 > MakeObject<System::IO::FileInfo>(ArtifactsDir + u"Image.Crea
 template<typename CharType,typename Traits> void Aspose::Words::Drawing::ImageData::SetImage(std::basic_istream<CharType, Traits> &stream)
 ```
 
+## See Also
+
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.markup/custompartcollection/virtualizeenditerator/
 ---
-## CustomPartCollection.virtualizeEndIterator method
+## CustomPartCollection::virtualizeEndIterator method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.markup/custompartcollection/virtualizeenditerator/
 virtualized_iterator * Aspose::Words::Markup::CustomPartCollection::virtualizeEndIterator() override
 ```
 
+## See Also
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [CustomPartCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

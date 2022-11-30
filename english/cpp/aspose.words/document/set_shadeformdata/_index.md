@@ -6,7 +6,7 @@ type: docs
 weight: 1015
 url: /cpp/aspose.words/document/set_shadeformdata/
 ---
-## Document.set_ShadeFormData method
+## Document::set_ShadeFormData method
 
 
 Setter for [Aspose::Words::Document::get_ShadeFormData](../get_shadeformdata/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Document::get_ShadeFormData](../get_shadeformdata/).
 void Aspose::Words::Document::set_ShadeFormData(bool value)
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

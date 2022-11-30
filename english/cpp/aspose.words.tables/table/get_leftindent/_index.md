@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.words.tables/table/get_leftindent/
 ---
-## Table.get_LeftIndent method
+## Table::get_LeftIndent method
 
 
 Gets or sets the value that represents the left indent of the table.
@@ -17,7 +17,6 @@ double Aspose::Words::Tables::Table::get_LeftIndent()
 
 
 ## Examples
-
 
 
 
@@ -78,3 +77,8 @@ builder->EndTable();
 doc->Save(ArtifactsDir + u"DocumentBuilder.CreateFormattedTable.docx");
 ```
 
+## See Also
+
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

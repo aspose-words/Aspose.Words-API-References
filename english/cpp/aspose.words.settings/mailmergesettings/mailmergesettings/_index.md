@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.settings/mailmergesettings/mailmergesettings/
 ---
-## MailMergeSettings.MailMergeSettings method
+## MailMergeSettings::MailMergeSettings constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.settings/mailmergesettings/mailmergesettings/
 Aspose::Words::Settings::MailMergeSettings::MailMergeSettings()
 ```
 
+## See Also
+
+* Class [MailMergeSettings](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

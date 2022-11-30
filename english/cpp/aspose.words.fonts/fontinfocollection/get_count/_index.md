@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fonts/fontinfocollection/get_count/
 ---
-## FontInfoCollection.get_Count method
+## FontInfoCollection::get_Count method
 
 
 Gets the number of elements contained in the collection.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Fonts::FontInfoCollection::get_Count()
 
 
 ## Examples
-
 
 
 
@@ -36,3 +35,8 @@ ASSERT_TRUE(doc->get_FontInfos()->Contains(u"Symbol"));
 ASSERT_TRUE(doc->get_FontInfos()->Contains(u"Arial"));
 ```
 
+## See Also
+
+* Class [FontInfoCollection](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

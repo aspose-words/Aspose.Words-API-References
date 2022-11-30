@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.buildingblocks/glossarydocument/get_lastbuildingblock/
 ---
-## GlossaryDocument.get_LastBuildingBlock method
+## GlossaryDocument::get_LastBuildingBlock method
 
 
 Gets the last building block in the glossary document.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::BuildingBlocks::BuildingBlock> Aspose::Words::B
 
 
 ## Examples
-
 
 
 
@@ -117,3 +116,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [BuildingBlock](../../buildingblock/)
+* Class [GlossaryDocument](../)
+* Namespace [Aspose::Words::BuildingBlocks](../../)
+* Library [Aspose.Words](../../../)

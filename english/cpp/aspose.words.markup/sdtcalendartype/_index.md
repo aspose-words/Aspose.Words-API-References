@@ -11,11 +11,15 @@ url: /cpp/aspose.words.markup/sdtcalendartype/
 
 Specifies the possible types of calendars which can be used to specify [CalendarType](../structureddocumenttag/get_calendartype/) in an Office Open XML document.
 
+```cpp
+enum class SdtCalendarType
+```
+
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Default | 0 | Used as default value in OOXML. Equals **Gregorian**. |
+| Default | 0 | Used as default value in OOXML. Equals [Gregorian](./). |
 | Gregorian | n/a | Specifies that the Gregorian calendar, as defined in ISO 8601, shall be used. This calendar should be localized into the appropriate language. |
 | GregorianArabic | n/a | Specifies that the Gregorian calendar, as defined in ISO 8601, shall be used. The values for this calendar should be presented in Arabic. |
 | GregorianMeFrench | n/a | Specifies that the Gregorian calendar, as defined in ISO 8601, shall be used. The values for this calendar should be presented in Middle East French. |
@@ -31,3 +35,7 @@ Specifies the possible types of calendars which can be used to specify [Calendar
 | Taiwan | n/a | Specifies that the Taiwanese calendar, as defined by the Chinese National Standard CNS 7648, shall be used. |
 | Thai | n/a | Specifies that the Thai calendar, as defined by the Royal Decree of H.M. King Vajiravudh (Rama VI) in Royal Gazette B. E. 2456 (1913 A.D.) and by the decree of Prime Minister Phibunsongkhram (1941 A.D.) to start the year on the Gregorian January 1 and to map year zero to Gregorian year 543 B.C., shall be used. |
 
+## See Also
+
+* Namespace [Aspose::Words::Markup](../)
+* Library [Aspose.Words](../../)

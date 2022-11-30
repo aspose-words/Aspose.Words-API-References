@@ -6,26 +6,27 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportheadersfootersmode/
 ---
-## HtmlSaveOptions.get_ExportHeadersFootersMode method
+## HtmlSaveOptions::get_ExportHeadersFootersMode method
 
 
-Specifies how headers and footers are output to HTML, MHTML or EPUB. Default value is **PerSection** for HTML/MHTML and **None** for EPUB.
+Specifies how headers and footers are output to HTML, MHTML or EPUB. Default value is [PerSection](../../exportheadersfootersmode/) for HTML/MHTML and [None](../../exportheadersfootersmode/) for EPUB.
 
 ```cpp
 Aspose::Words::Saving::ExportHeadersFootersMode Aspose::Words::Saving::HtmlSaveOptions::get_ExportHeadersFootersMode() const
 ```
 
+## Remarks
+
 
 It is hard to meaningfully output headers and footers to HTML because HTML is not paginated.
 
-When this property is **PerSection**, Aspose.Words exports only primary headers and footers at the beginning and the end of each section.
+When this property is [PerSection](../../exportheadersfootersmode/), Aspose.Words exports only primary headers and footers at the beginning and the end of each section.
 
-When it is **FirstSectionHeaderLastSectionFooter** only first primary header and the last primary footer (including linked to previous) are exported.
+When it is [FirstSectionHeaderLastSectionFooter](../../exportheadersfootersmode/) only first primary header and the last primary footer (including linked to previous) are exported.
 
-You can disable export of headers and footers altogether by setting this property to **None**.
+You can disable export of headers and footers altogether by setting this property to [None](../../exportheadersfootersmode/).
 
 ## Examples
-
 
 
 
@@ -51,3 +52,9 @@ doc = MakeObject<Document>(ArtifactsDir + u"HeaderFooter.ExportMode.html");
 ASSERT_FALSE(doc->get_Range()->get_Text().Contains(u"First header"));
 ```
 
+## See Also
+
+* Enum [ExportHeadersFootersMode](../../exportheadersfootersmode/)
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -50,13 +50,14 @@ class Run : public Aspose::Words::Inline
 | [set_Text](./set_text/)(const System::String\&) | Setter for [Aspose::Words::Run::get_Text](./get_text/). |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 All text of the document is stored in runs of text.
 
 **Run** can only be a child of **Paragraph** or inline **StructuredDocumentTag**.
 
 ## Examples
-
 
 
 
@@ -167,3 +168,8 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 ```
 
+## See Also
+
+* Class [Inline](../inline/)
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

@@ -47,11 +47,12 @@ class CustomPartCollection : public System::Collections::Generic::IEnumerable<Sy
 | [iterator_holder_type](./iterator_holder_type/) |  |
 | [virtualized_iterator](./virtualized_iterator/) |  |
 | [virtualized_iterator_element](./virtualized_iterator_element/) |  |
+## Remarks
+
 
 You do not normally need to create instances of this class. You access custom parts related to the OOXML package via the [PackageCustomParts](../../aspose.words/document/get_packagecustomparts/) property.
 
 ## Examples
-
 
 
 
@@ -95,3 +96,7 @@ doc->get_PackageCustomParts()->Clear();
 ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Markup](../)
+* Library [Aspose.Words](../../)

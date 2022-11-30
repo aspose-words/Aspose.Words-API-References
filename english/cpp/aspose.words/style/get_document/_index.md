@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/style/get_document/
 ---
-## Style.get_Document method
+## Style::get_Document method
 
 
 Gets the owner document.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::DocumentBase> Aspose::Words::Style::get_Documen
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,9 @@ ASSERT_EQ(4, doc->get_Styles()->get_Count());
 }
 ```
 
+## See Also
+
+* Class [DocumentBase](../../documentbase/)
+* Class [Style](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

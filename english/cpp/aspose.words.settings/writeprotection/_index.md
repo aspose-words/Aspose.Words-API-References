@@ -24,6 +24,8 @@ class WriteProtection : public System::Object
 | [set_ReadOnlyRecommended](./set_readonlyrecommended/)(bool) | Setter for [Aspose::Words::Settings::WriteProtection::get_ReadOnlyRecommended](./get_readonlyrecommended/). |
 | [SetPassword](./setpassword/)(const System::String\&) | Sets the write protection password for the document. |
 | [ValidatePassword](./validatepassword/)(const System::String\&) | Returns true if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns false. |
+## Remarks
+
 
 Write protection specifies whether the author has recommended that the document is to be opened as read-only and/or require a password to modify a document.
 
@@ -32,7 +34,6 @@ Write protection is different from document protection. Write protection is spec
 You do not create instances of this class directly. You access document protection settings via the [WriteProtection](../../aspose.words/document/get_writeprotection/) property.
 
 ## Examples
-
 
 
 
@@ -62,3 +63,7 @@ builder->Writeln(u"Writing text in a protected document.");
 ASSERT_EQ(String(u"Hello world! This document is protected.") + u"\rWriting text in a protected document.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Settings](../)
+* Library [Aspose.Words](../../)

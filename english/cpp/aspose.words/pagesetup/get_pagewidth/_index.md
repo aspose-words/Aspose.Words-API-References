@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/aspose.words/pagesetup/get_pagewidth/
 ---
-## PageSetup.get_PageWidth method
+## PageSetup::get_PageWidth method
 
 
 Returns or sets the width of the page in points.
@@ -17,7 +17,6 @@ double Aspose::Words::PageSetup::get_PageWidth()
 
 
 ## Examples
-
 
 
 
@@ -74,3 +73,8 @@ ASPOSE_ASSERT_EQ(shape->get_Left() + shape->get_Width(), shape->get_Right());
 doc->Save(ArtifactsDir + u"Image.CreateFloatingPositionSize.docx");
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

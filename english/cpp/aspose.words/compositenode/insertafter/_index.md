@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words/compositenode/insertafter/
 ---
-## CompositeNode.InsertAfter method
+## CompositeNode::InsertAfter method
 
 
 Inserts the specified node immediately after the specified reference node.
@@ -23,17 +23,17 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::CompositeNode::InsertAfter
 
 ### ReturnValue
 
-
 The inserted node.
+## Remarks
+
 
 If refChild is null, inserts newChild at the beginning of the list of child nodes.
 
 If the newChild is already in the tree, it is first removed.
 
-If the node being inserted was created from another document, you should use **ImportNode()** to import the node to the current document. The imported node can then be inserted into the current document.
+If the node being inserted was created from another document, you should use [ImportNode()](../) to import the node to the current document. The imported node can then be inserted into the current document.
 
 ## Examples
-
 
 
 
@@ -132,3 +132,9 @@ ASSERT_EQ(4, shapes->LINQ_Count(isImage));
 doc->Save(ArtifactsDir + u"Shape.ReplaceTextboxesWithImages.docx");
 ```
 
+## See Also
+
+* Class [Node](../../node/)
+* Class [CompositeNode](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

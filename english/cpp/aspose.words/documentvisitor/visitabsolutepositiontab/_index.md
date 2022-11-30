@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/documentvisitor/visitabsolutepositiontab/
 ---
-## DocumentVisitor.VisitAbsolutePositionTab method
+## DocumentVisitor::VisitAbsolutePositionTab method
 
 
 Called when a [AbsolutePositionTab](../../absolutepositiontab/) node is encountered in the document.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitAbsolu
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -88,3 +86,10 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [AbsolutePositionTab](../../absolutepositiontab/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

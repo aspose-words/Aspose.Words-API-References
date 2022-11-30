@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/aspose.words.layout/revisionoptions/set_movedtotexteffect/
 ---
-## RevisionOptions.set_MovedToTextEffect method
+## RevisionOptions::set_MovedToTextEffect method
 
 
 Setter for [Aspose::Words::Layout::RevisionOptions::get_MovedToTextEffect](../get_movedtotexteffect/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Layout::RevisionOptions::get_MovedToTextEffect](../ge
 void Aspose::Words::Layout::RevisionOptions::set_MovedToTextEffect(Aspose::Words::Layout::RevisionTextEffect value)
 ```
 
+## See Also
+
+* Enum [RevisionTextEffect](../../revisiontexteffect/)
+* Class [RevisionOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

@@ -11,6 +11,10 @@ url: /cpp/aspose.words/tabalignment/
 
 Specifies the alignment/type of a tab stop.
 
+```cpp
+enum class TabAlignment
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -23,3 +27,7 @@ Specifies the alignment/type of a tab stop.
 | List | 6 | The tab is a delimiter between the number/bullet and text in a list item. |
 | Clear | 7 | Clears any tab stop in this position. |
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

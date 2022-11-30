@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/inodechangingcallback/nodeinserting/
 ---
-## INodeChangingCallback.NodeInserting method
+## INodeChangingCallback::NodeInserting method
 
 
 Called just before a node belonging to this document is about to be inserted into another node.
@@ -17,7 +17,6 @@ virtual void Aspose::Words::INodeChangingCallback::NodeInserting(System::SharedP
 
 
 ## Examples
-
 
 
 
@@ -94,3 +93,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [NodeChangingArgs](../../nodechangingargs/)
+* Interface [INodeChangingCallback](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.drawing/imagedata/get_imagesize/
 ---
-## ImageData.get_ImageSize method
+## ImageData::get_ImageSize method
 
 
 Gets the information about image size and resolution.
@@ -15,11 +15,12 @@ Gets the information about image size and resolution.
 System::SharedPtr<Aspose::Words::Drawing::ImageSize> Aspose::Words::Drawing::ImageData::get_ImageSize()
 ```
 
+## Remarks
+
 
 If the image is linked only and not stored in the document, returns zero size.
 
 ## Examples
-
 
 
 
@@ -62,3 +63,9 @@ ASPOSE_ASSERT_EQ(330.0, shape->get_Height());
 doc->Save(ArtifactsDir + u"Image.ScaleImage.docx");
 ```
 
+## See Also
+
+* Class [ImageSize](../../imagesize/)
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

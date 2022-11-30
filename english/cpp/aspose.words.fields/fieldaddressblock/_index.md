@@ -12,7 +12,9 @@ url: /cpp/aspose.words.fields/fieldaddressblock/
 Implements the ADDRESSBLOCK field.
 
 ```cpp
-class FieldAddressBlock : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider, public Aspose::Words::Fields::IFormattableMergeField
+class FieldAddressBlock : public Aspose::Words::Fields::Field,
+                          public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
+                          public Aspose::Words::Fields::IFormattableMergeField
 ```
 
 ## Methods
@@ -58,7 +60,6 @@ class FieldAddressBlock : public Aspose::Words::Fields::Field, public Aspose::Wo
 
 
 
-
 Shows how to get mail merge field names used by a field. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Field sample - ADDRESSBLOCK.docx");
@@ -70,3 +71,8 @@ auto addressBlockField = System::DynamicCast<FieldAddressBlock>(doc->get_Range()
 ArrayPtr<String> addressBlockFieldNames = addressBlockField->GetFieldNames();
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

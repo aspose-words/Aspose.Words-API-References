@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.framesets/frameset/frameset/
 ---
-## Frameset.Frameset method
+## Frameset::Frameset constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.framesets/frameset/frameset/
 Aspose::Words::Framesets::Frameset::Frameset()
 ```
 
+## See Also
+
+* Class [Frameset](../)
+* Namespace [Aspose::Words::Framesets](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 612
 url: /cpp/aspose.words/documentbuilder/moveto/
 ---
-## DocumentBuilder.MoveTo method
+## DocumentBuilder::MoveTo method
 
 
 Moves the cursor to an inline node or to the end of a paragraph.
@@ -19,6 +19,8 @@ void Aspose::Words::DocumentBuilder::MoveTo(const System::SharedPtr<Aspose::Word
 | Parameter | Type | Description |
 | --- | --- | --- |
 | node | const System::SharedPtr\<Aspose::Words::Node\>\& | The node must be a paragraph or a direct child of a paragraph. |
+## Remarks
+
 
 When node is an inline-level node, the cursor is moved to this node and further content will be inserted before that node.
 
@@ -27,7 +29,6 @@ When node is a **Paragraph**, the cursor is moved to the end of the paragraph an
 When node is a block-level node but not a [Paragraph](../../paragraph/), the cursor is moved to the end of the first paragraph into block-level node and further content will be inserted just before the paragraph break.
 
 ## Examples
-
 
 
 
@@ -107,3 +108,9 @@ builder->Writeln(u"Run 3. ");
 ASSERT_EQ(u"Run 2. \rRun 1. \rRun 3.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Node](../../node/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

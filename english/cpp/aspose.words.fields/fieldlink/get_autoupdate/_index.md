@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldlink/get_autoupdate/
 ---
-## FieldLink.get_AutoUpdate method
+## FieldLink::get_AutoUpdate method
 
 
 Gets or sets whether to update this field automatically.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldLink::get_AutoUpdate()
 
 
 ## Examples
-
 
 
 
@@ -196,3 +195,8 @@ static void InsertFieldDdeAuto(SharedPtr<DocumentBuilder> builder, ExField::Inse
 }
 ```
 
+## See Also
+
+* Class [FieldLink](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

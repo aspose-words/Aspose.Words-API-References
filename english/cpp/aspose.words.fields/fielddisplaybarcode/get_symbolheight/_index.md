@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.fields/fielddisplaybarcode/get_symbolheight/
 ---
-## FieldDisplayBarcode.get_SymbolHeight method
+## FieldDisplayBarcode::get_SymbolHeight method
 
 
 Gets or sets the height of the symbol. The units are in TWIPS (1/1440 inch).
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldDisplayBarcode::get_SymbolHeight()
 
 
 ## Examples
-
 
 
 
@@ -73,3 +72,8 @@ ASSERT_EQ(u" DISPLAYBARCODE  09312345678907 ITF14 \\c STD", field->GetFieldCode(
 doc->Save(ArtifactsDir + u"Field.DISPLAYBARCODE.docx");
 ```
 
+## See Also
+
+* Class [FieldDisplayBarcode](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

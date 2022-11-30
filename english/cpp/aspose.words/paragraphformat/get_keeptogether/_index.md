@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words/paragraphformat/get_keeptogether/
 ---
-## ParagraphFormat.get_KeepTogether method
+## ParagraphFormat::get_KeepTogether method
 
 
 True if all lines in the paragraph are to remain on the same page.
@@ -17,7 +17,6 @@ bool Aspose::Words::ParagraphFormat::get_KeepTogether()
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,8 @@ builder->Writeln(u"Hello world!");
 ASSERT_TRUE(builder->get_CurrentParagraph()->get_IsEndOfDocument());
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldtemplate/
 Implements the TEMPLATE field.
 
 ```cpp
-class FieldTemplate : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldTemplate : public Aspose::Words::Fields::Field,
+                      public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -48,7 +49,6 @@ class FieldTemplate : public Aspose::Words::Fields::Field, public Aspose::Words:
 
 
 
-
 Shows how to use a TEMPLATE field to display the local file system location of a document's template. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -71,3 +71,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.TEMPLATE.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

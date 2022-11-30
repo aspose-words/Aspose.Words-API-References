@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.tables/rowformat/get_height/
 ---
-## RowFormat.get_Height method
+## RowFormat::get_Height method
 
 
 Gets or sets the height of the table row in points.
@@ -17,7 +17,6 @@ double Aspose::Words::Tables::RowFormat::get_Height()
 
 
 ## Examples
-
 
 
 
@@ -110,3 +109,8 @@ ASSERT_EQ(HeightRule::Exactly, table->get_Rows()->idx_get(1)->get_RowFormat()->g
 doc->Save(ArtifactsDir + u"DocumentBuilder.SetRowFormatting.docx");
 ```
 
+## See Also
+
+* Class [RowFormat](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

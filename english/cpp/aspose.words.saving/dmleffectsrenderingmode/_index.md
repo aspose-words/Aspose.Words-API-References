@@ -11,17 +11,20 @@ url: /cpp/aspose.words.saving/dmleffectsrenderingmode/
 
 Specifies how DrawingML effects are rendered to fixed page formats.
 
+```cpp
+enum class DmlEffectsRenderingMode
+```
+
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
 | Simplified | 0 | [Rendering](../../aspose.words.rendering/) of DrawingML effects are simplified. |
 | None | 1 | No DrawingML effects are rendered. |
-| Fine | 2 | DrawingML effects are rendered in fine mode which involves advanced processing. In this mode rendering of effects gives better results but at a higher performance cost than **Simplified** mode. |
+| Fine | 2 | DrawingML effects are rendered in fine mode which involves advanced processing. In this mode rendering of effects gives better results but at a higher performance cost than [Simplified](./) mode. |
 
 
 ## Examples
-
 
 
 
@@ -45,3 +48,7 @@ ASSERT_EQ(DmlRenderingMode::DrawingML, options->get_DmlRenderingMode());
 doc->Save(ArtifactsDir + u"PdfSaveOptions.DrawingMLEffects.pdf", options);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

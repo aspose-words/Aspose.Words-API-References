@@ -25,7 +25,6 @@ class IResourceSavingCallback : public System::Object
 
 
 
-
 Shows how to use a callback to track external resources created while converting a document to HTML. 
 ```cpp
 void ResourceSavingCallback()
@@ -141,3 +140,7 @@ private:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

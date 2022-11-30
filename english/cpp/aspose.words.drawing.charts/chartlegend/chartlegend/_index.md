@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.drawing.charts/chartlegend/chartlegend/
 ---
-## ChartLegend.ChartLegend method
+## ChartLegend::ChartLegend constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.drawing.charts/chartlegend/chartlegend/
 Aspose::Words::Drawing::Charts::ChartLegend::ChartLegend()
 ```
 
+## See Also
+
+* Class [ChartLegend](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

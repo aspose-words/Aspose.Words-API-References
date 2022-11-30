@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing/horizontalrulealignment/
 
 Represents the alignment for the specified horizontal rule.
 
+```cpp
+enum class HorizontalRuleAlignment
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -19,3 +23,7 @@ Represents the alignment for the specified horizontal rule.
 | Center | 1 | Aligned to the center. |
 | Right | 2 | Aligned to the right. |
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

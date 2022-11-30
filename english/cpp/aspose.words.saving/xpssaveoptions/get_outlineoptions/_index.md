@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.saving/xpssaveoptions/get_outlineoptions/
 ---
-## XpsSaveOptions.get_OutlineOptions method
+## XpsSaveOptions::get_OutlineOptions method
 
 
 Allows to specify outline options.
@@ -15,11 +15,12 @@ Allows to specify outline options.
 System::SharedPtr<Aspose::Words::Saving::OutlineOptions> Aspose::Words::Saving::XpsSaveOptions::get_OutlineOptions() const
 ```
 
+## Remarks
+
 
 Note that ExpandedOutlineLevels option will not work when saving to XPS.
 
 ## Examples
-
 
 
 
@@ -60,3 +61,9 @@ saveOptions->get_OutlineOptions()->set_HeadingsOutlineLevels(2);
 doc->Save(ArtifactsDir + u"XpsSaveOptions.OutlineLevels.xps", saveOptions);
 ```
 
+## See Also
+
+* Class [OutlineOptions](../../outlineoptions/)
+* Class [XpsSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

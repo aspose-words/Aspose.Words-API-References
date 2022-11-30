@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.lists/listformat/listindent/
 ---
-## ListFormat.ListIndent method
+## ListFormat::ListIndent method
 
 
 Increases the list level of the current paragraph by one level.
@@ -15,13 +15,14 @@ Increases the list level of the current paragraph by one level.
 void Aspose::Words::Lists::ListFormat::ListIndent()
 ```
 
+## Remarks
+
 
 This method changes the list level and applies formatting properties of the new level.
 
 In Word documents, lists may consist of up to nine levels. [List](../../list/) formatting for each level specifies what bullet or number is used, left indent, space between the bullet and text etc.
 
 ## Examples
-
 
 
 
@@ -104,3 +105,8 @@ builder->get_ListFormat()->RemoveNumbers();
 doc->Save(ArtifactsDir + u"Lists.ApplyDefaultBulletsAndNumbers.docx");
 ```
 
+## See Also
+
+* Class [ListFormat](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

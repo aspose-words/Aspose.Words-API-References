@@ -11,6 +11,10 @@ url: /cpp/aspose.words.saving/svgtextoutputmode/
 
 
 
+```cpp
+enum class SvgTextOutputMode
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ url: /cpp/aspose.words.saving/svgtextoutputmode/
 
 
 ## Examples
-
 
 
 
@@ -38,3 +41,7 @@ options->set_TextOutputMode(SvgTextOutputMode::UsePlacedGlyphs);
 doc->Save(ArtifactsDir + u"SvgSaveOptions.SaveLikeImage.svg", options);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

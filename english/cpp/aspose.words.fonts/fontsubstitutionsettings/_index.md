@@ -24,6 +24,8 @@ class FontSubstitutionSettings : public System::Object
 | [get_FontInfoSubstitution](./get_fontinfosubstitution/)() const | [Settings](../../aspose.words.settings/) related to font info substitution rule. |
 | [get_FontNameSubstitution](./get_fontnamesubstitution/)() const | [Settings](../../aspose.words.settings/) related to font name substitution rule. |
 | [get_TableSubstitution](./get_tablesubstitution/)() const | [Settings](../../aspose.words.settings/) related to table substitution rule. |
+## Remarks
+
 
 [Font](../../aspose.words/font/) substitution process consists of several rules which are checked one by one in specific order. If the first rule can't resolve the font then second rule is checked and so on.
 
@@ -40,7 +42,6 @@ Note that font info substitution rule will always resolve the font if [FontInfo]
 Note that font config substitution rule will resolve the font in most cases and thus overrides all other rules.
 
 ## Examples
-
 
 
 
@@ -95,3 +96,7 @@ ASSERT_EQ(FontSourceType::SystemFonts, doc->get_FontSettings()->GetFontsSources(
 ASSERT_EQ(1, doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubstitution()->GetSubstitutes(u"Kreon-Regular")->LINQ_Count());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Fonts](../)
+* Library [Aspose.Words](../../)

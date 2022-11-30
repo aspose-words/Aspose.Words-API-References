@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.fields/dropdownitemcollection/idx_get/
 ---
-## DropDownItemCollection.idx_get method
+## DropDownItemCollection::idx_get method
 
 
 Gets or sets the element at the specified index.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::DropDownItemCollection::idx_get(int32_t in
 
 
 ## Examples
-
 
 
 
@@ -73,3 +72,8 @@ doc->Save(ArtifactsDir + u"FormFields.DropDownItemCollection.html");
 dropDownItems->Clear();
 ```
 
+## See Also
+
+* Class [DropDownItemCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

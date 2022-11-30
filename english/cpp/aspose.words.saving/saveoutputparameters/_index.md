@@ -25,7 +25,6 @@ class SaveOutputParameters : public System::Object
 
 
 
-
 Shows how to access output parameters of a document's save operation. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -43,3 +42,7 @@ parameters = doc->Save(ArtifactsDir + u"Document.SaveOutputParameters.pdf");
 ASSERT_EQ(u"application/pdf", parameters->get_ContentType());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

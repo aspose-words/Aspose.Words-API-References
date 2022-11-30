@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words.fields/fieldmergebarcode/set_backgroundcolor/
 ---
-## FieldMergeBarcode.set_BackgroundColor method
+## FieldMergeBarcode::set_BackgroundColor method
 
 
 Sets the background color of the barcode symbol. Valid values are in the range [0, 0xFFFFFF].
@@ -15,3 +15,8 @@ Sets the background color of the barcode symbol. Valid values are in the range [
 void Aspose::Words::Fields::FieldMergeBarcode::set_BackgroundColor(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldMergeBarcode](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

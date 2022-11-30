@@ -33,6 +33,8 @@ class HeaderFooterCollection : public Aspose::Words::NodeCollection
 | [Remove](../nodecollection/remove/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Removes the node from the collection and from the document. |
 | [RemoveAt](../nodecollection/removeat/)(int32_t) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](./toarray/)() | Copies all **HeaderFoorter**s from the collection to a new array of **HeaderFoorter**s. |
+## Remarks
+
 
 There can be maximum of one **HeaderFooter**
 
@@ -41,7 +43,6 @@ of each [HeaderFooterType](../headerfootertype/) per **Section**.
 **HeaderFooter** objects can occur in any order in the collection.
 
 ## Examples
-
 
 
 
@@ -113,3 +114,8 @@ for (const auto& section : System::IterateOver(doc->LINQ_OfType<SharedPtr<Sectio
 doc->Save(ArtifactsDir + u"HeaderFooter.RemoveFooters.docx");
 ```
 
+## See Also
+
+* Class [NodeCollection](../nodecollection/)
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

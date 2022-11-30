@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/aspose.words.settings/compatibilityoptions/get_printcolblack/
 ---
-## CompatibilityOptions.get_PrintColBlack method
+## CompatibilityOptions::get_PrintColBlack method
 
 
 Print Colors as Black And White without Dithering.
@@ -15,3 +15,8 @@ Print Colors as Black And White without Dithering.
 bool Aspose::Words::Settings::CompatibilityOptions::get_PrintColBlack()
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

@@ -6,10 +6,10 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/editablerangestart/get_nodetype/
 ---
-## EditableRangeStart.get_NodeType method
+## EditableRangeStart::get_NodeType method
 
 
-Returns **EditableRangeStart**.
+Returns [EditableRangeStart](../../nodetype/).
 
 ```cpp
 Aspose::Words::NodeType Aspose::Words::EditableRangeStart::get_NodeType() const override
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::EditableRangeStart::get_NodeType() const 
 
 
 ## Examples
-
 
 
 
@@ -61,3 +60,9 @@ doc->Save(ArtifactsDir + u"EditableRange.CreateAndRemove.docx");
 editableRange->Remove();
 ```
 
+## See Also
+
+* Enum [NodeType](../../nodetype/)
+* Class [EditableRangeStart](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

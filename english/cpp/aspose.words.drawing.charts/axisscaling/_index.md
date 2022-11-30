@@ -33,7 +33,6 @@ class AxisScaling : public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListS
 
 
 
-
 Shows how to apply logarithmic scaling to a chart axis. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -60,3 +59,7 @@ chart->get_AxisY()->get_Scaling()->set_LogBase(20);
 doc->Save(ArtifactsDir + u"Charts.AxisScaling.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing::Charts](../)
+* Library [Aspose.Words](../../)

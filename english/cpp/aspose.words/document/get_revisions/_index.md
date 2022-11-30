@@ -6,7 +6,7 @@ type: docs
 weight: 547
 url: /cpp/aspose.words/document/get_revisions/
 ---
-## Document.get_Revisions method
+## Document::get_Revisions method
 
 
 Gets a collection of revisions (tracked changes) that exist in this document.
@@ -15,11 +15,12 @@ Gets a collection of revisions (tracked changes) that exist in this document.
 System::SharedPtr<Aspose::Words::RevisionCollection> Aspose::Words::Document::get_Revisions()
 ```
 
+## Remarks
+
 
 The returned collection is a "live" collection, which means if you remove parts of a document that contain revisions, the deleted revisions will automatically disappear from this collection.
 
 ## Examples
-
 
 
 
@@ -100,3 +101,9 @@ ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [RevisionCollection](../../revisioncollection/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

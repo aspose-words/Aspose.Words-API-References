@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/userinformation/userinformation/
 ---
-## UserInformation.UserInformation method
+## UserInformation::UserInformation constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.fields/userinformation/userinformation/
 Aspose::Words::Fields::UserInformation::UserInformation()
 ```
 
+## See Also
+
+* Class [UserInformation](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

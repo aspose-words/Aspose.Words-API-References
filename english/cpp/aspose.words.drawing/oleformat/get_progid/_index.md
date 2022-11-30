@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.drawing/oleformat/get_progid/
 ---
-## OleFormat.get_ProgId method
+## OleFormat::get_ProgId method
 
 
 Gets or sets the ProgID of the OLE object.
@@ -14,6 +14,8 @@ Gets or sets the ProgID of the OLE object.
 ```cpp
 System::String Aspose::Words::Drawing::OleFormat::get_ProgId()
 ```
+
+## Remarks
 
 
 The ProgID property is not always present in Microsoft Word documents and cannot be relied upon.
@@ -23,7 +25,6 @@ Cannot be null.
 The default value is an empty string.
 
 ## Examples
-
 
 
 
@@ -57,3 +58,8 @@ ASSERT_EQ(u".xlsx", oleFormat->get_SuggestedExtension());
 oleFormat->Save(ArtifactsDir + u"OLE spreadsheet saved directly" + oleFormat->get_SuggestedExtension());
 ```
 
+## See Also
+
+* Class [OleFormat](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

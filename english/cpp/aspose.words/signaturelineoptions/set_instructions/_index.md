@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words/signaturelineoptions/set_instructions/
 ---
-## SignatureLineOptions.set_Instructions method
+## SignatureLineOptions::set_Instructions method
 
 
 Setter for [Aspose::Words::SignatureLineOptions::get_Instructions](../get_instructions/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::SignatureLineOptions::get_Instructions](../get_instru
 void Aspose::Words::SignatureLineOptions::set_Instructions(const System::String &value)
 ```
 
+## See Also
+
+* Class [SignatureLineOptions](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldbarcode/get_facingidentificationmark/
 ---
-## FieldBarcode.get_FacingIdentificationMark method
+## FieldBarcode::get_FacingIdentificationMark method
 
 
 Gets or sets the type of a Facing Identification Mark (FIM) to insert.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldBarcode::get_FacingIdentificationMark
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,8 @@ builder->EndBookmark(u"BarcodeBookmark");
 doc->Save(ArtifactsDir + u"Field.BARCODE.docx");
 ```
 
+## See Also
+
+* Class [FieldBarcode](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

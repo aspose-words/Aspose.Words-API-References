@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/document/appenddocument/
 ---
-## Document.AppendDocument(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode) method
+## Document::AppendDocument(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode) method
 
 
 Appends the specified document to the end of this document.
@@ -22,7 +22,6 @@ void Aspose::Words::Document::AppendDocument(const System::SharedPtr<Aspose::Wor
 | importFormatMode | Aspose::Words::ImportFormatMode | Specifies how to merge style formatting that clashes. |
 
 ## Examples
-
 
 
 
@@ -75,7 +74,14 @@ for (const auto& fileName : docFiles)
 dstDoc->Save(ArtifactsDir + u"Document.AppendAllDocumentsInFolder.doc");
 ```
 
-## Document.AppendDocument(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\&) method
+## See Also
+
+* Class [Document](../)
+* Enum [ImportFormatMode](../../importformatmode/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Document::AppendDocument(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\&) method
 
 
 Appends the specified document to the end of this document.
@@ -92,7 +98,6 @@ void Aspose::Words::Document::AppendDocument(const System::SharedPtr<Aspose::Wor
 | importFormatOptions | const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\& | Allows to specify options that affect formatting of a result document. |
 
 ## Examples
-
 
 
 
@@ -174,3 +179,11 @@ builder->InsertDocument(srcDoc, ImportFormatMode::KeepSourceFormatting, options)
 dstDoc->UpdateListLabels();
 ```
 
+## See Also
+
+* Class [Document](../)
+* Enum [ImportFormatMode](../../importformatmode/)
+* Class [ImportFormatOptions](../../importformatoptions/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

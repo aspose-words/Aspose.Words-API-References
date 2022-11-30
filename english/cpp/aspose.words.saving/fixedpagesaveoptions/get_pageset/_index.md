@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.saving/fixedpagesaveoptions/get_pageset/
 ---
-## FixedPageSaveOptions.get_PageSet method
+## FixedPageSaveOptions::get_PageSet method
 
 
 Gets or sets the pages to render. Default is all the pages in the document.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Saving::PageSet> Aspose::Words::Saving::FixedPa
 
 
 ## Examples
-
 
 
 
@@ -107,3 +106,9 @@ xpsOptions->set_PageSet(MakeObject<PageSet>(MakeArray<int>({0, 1, 3})));
 doc->Save(ArtifactsDir + u"XpsSaveOptions.ExportExactPages.xps", xpsOptions);
 ```
 
+## See Also
+
+* Class [PageSet](../../pageset/)
+* Class [FixedPageSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

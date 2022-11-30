@@ -6,7 +6,7 @@ type: docs
 weight: 521
 url: /cpp/aspose.words/font/get_style/
 ---
-## Font.get_Style method
+## Font::get_Style method
 
 
 Gets or sets the character style applied to this formatting.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Style> Aspose::Words::Font::get_Style()
 
 
 ## Examples
-
 
 
 
@@ -48,3 +47,9 @@ for (const auto& run : System::IterateOver(doc->GetChildNodes(NodeType::Run, tru
 doc->Save(ArtifactsDir + u"Font.Style.docx");
 ```
 
+## See Also
+
+* Class [Style](../../style/)
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

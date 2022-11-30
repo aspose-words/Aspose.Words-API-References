@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fieldbuilder/buildandinsert/
 ---
-## FieldBuilder.BuildAndInsert(const System::SharedPtr\<Aspose::Words::Inline\>\&) method
+## FieldBuilder::BuildAndInsert(const System::SharedPtr\<Aspose::Words::Inline\>\&) method
 
 
 Builds and inserts a field into the document before the specified inline node.
@@ -18,11 +18,9 @@ System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Fields::FieldBuil
 
 ### ReturnValue
 
-
 A [Field](../../field/) object that represents the inserted field.
 
 ## Examples
-
 
 
 
@@ -48,7 +46,14 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.CreateWithFieldBuilder.docx");
 ```
 
-## FieldBuilder.BuildAndInsert(const System::SharedPtr\<Aspose::Words::Paragraph\>\&) method
+## See Also
+
+* Class [Field](../../field/)
+* Class [Inline](../../../aspose.words/inline/)
+* Class [FieldBuilder](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)
+## FieldBuilder::BuildAndInsert(const System::SharedPtr\<Aspose::Words::Paragraph\>\&) method
 
 
 Builds and inserts a field into the document to the end of the specified paragraph.
@@ -60,11 +65,9 @@ System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Fields::FieldBuil
 
 ### ReturnValue
 
-
 A [Field](../../field/) object that represents the inserted field.
 
 ## Examples
-
 
 
 
@@ -146,3 +149,10 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 ```
 
+## See Also
+
+* Class [Field](../../field/)
+* Class [Paragraph](../../../aspose.words/paragraph/)
+* Class [FieldBuilder](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

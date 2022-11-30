@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.rendering/thumbnailgeneratingoptions/get_thumbnailsize/
 ---
-## ThumbnailGeneratingOptions.get_ThumbnailSize method
+## ThumbnailGeneratingOptions::get_ThumbnailSize method
 
 
 Size of generated thumbnail in pixels. Default is 600x900.
@@ -17,7 +17,6 @@ System::Drawing::Size Aspose::Words::Rendering::ThumbnailGeneratingOptions::get_
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,8 @@ doc->UpdateThumbnail(options);
 doc->Save(ArtifactsDir + u"Document.UpdateThumbnail.FirstImage.epub");
 ```
 
+## See Also
+
+* Class [ThumbnailGeneratingOptions](../)
+* Namespace [Aspose::Words::Rendering](../../)
+* Library [Aspose.Words](../../../)

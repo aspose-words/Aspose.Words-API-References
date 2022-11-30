@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.loading/languagepreferences/languagepreferences/
 ---
-## LanguagePreferences.LanguagePreferences method
+## LanguagePreferences::LanguagePreferences constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.loading/languagepreferences/languagepreferences/
 Aspose::Words::Loading::LanguagePreferences::LanguagePreferences()
 ```
 
+## See Also
+
+* Class [LanguagePreferences](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

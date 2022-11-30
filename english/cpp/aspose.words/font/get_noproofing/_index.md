@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/aspose.words/font/get_noproofing/
 ---
-## Font.get_NoProofing method
+## Font::get_NoProofing method
 
 
 True when the formatted characters are not to be spell checked.
@@ -17,7 +17,6 @@ bool Aspose::Words::Font::get_NoProofing()
 
 
 ## Examples
-
 
 
 
@@ -36,3 +35,8 @@ builder->Writeln(u"Proofing has been disabled, so these spelking errrs will not 
 doc->Save(ArtifactsDir + u"Font.NoProofing.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

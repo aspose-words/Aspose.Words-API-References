@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.markup/sdtlistitem/get_value/
 ---
-## SdtListItem.get_Value method
+## SdtListItem::get_Value method
 
 
 Gets the value of this list item.
@@ -15,11 +15,12 @@ Gets the value of this list item.
 System::String Aspose::Words::Markup::SdtListItem::get_Value() const
 ```
 
+## Remarks
+
 
 Cannot be null and cannot be an empty string.
 
 ## Examples
-
 
 
 
@@ -79,3 +80,8 @@ listItems->Clear();
 ASSERT_EQ(0, listItems->get_Count());
 ```
 
+## See Also
+
+* Class [SdtListItem](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

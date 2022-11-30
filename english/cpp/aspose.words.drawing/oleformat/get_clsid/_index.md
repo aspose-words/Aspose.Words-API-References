@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.drawing/oleformat/get_clsid/
 ---
-## OleFormat.get_Clsid method
+## OleFormat::get_Clsid method
 
 
 Gets the CLSID of the OLE object.
@@ -17,7 +17,6 @@ System::Guid Aspose::Words::Drawing::OleFormat::get_Clsid()
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,8 @@ ASSERT_EQ(u"Delphi", oleControlCollection->idx_get(2)->get_Caption());
 ASSERT_EQ(u"0", oleControlCollection->idx_get(2)->get_Value());
 ```
 
+## See Also
+
+* Class [OleFormat](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

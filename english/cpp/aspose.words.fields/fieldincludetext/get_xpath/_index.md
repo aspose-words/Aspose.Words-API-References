@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.fields/fieldincludetext/get_xpath/
 ---
-## FieldIncludeText.get_XPath method
+## FieldIncludeText::get_XPath method
 
 
 Gets or sets XPath for the desired portion of the XML file.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldIncludeText::get_XPath() override
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,8 @@ SharedPtr<FieldIncludeText> CreateFieldIncludeText(SharedPtr<DocumentBuilder> bu
 }
 ```
 
+## See Also
+
+* Class [FieldIncludeText](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

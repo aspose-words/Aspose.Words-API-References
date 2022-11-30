@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/metered/metered/
 ---
-## Metered.Metered method
+## Metered::Metered constructor
 
 
 Initializes a new instance of this class.
@@ -15,3 +15,8 @@ Initializes a new instance of this class.
 Aspose::Words::Metered::Metered()
 ```
 
+## See Also
+
+* Class [Metered](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

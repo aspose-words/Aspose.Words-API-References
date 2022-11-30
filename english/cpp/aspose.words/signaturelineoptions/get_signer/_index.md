@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words/signaturelineoptions/get_signer/
 ---
-## SignatureLineOptions.get_Signer method
+## SignatureLineOptions::get_Signer method
 
 
 Gets or sets suggested signer of the signature line. Default value for this property is **empty string**.
@@ -17,7 +17,6 @@ System::String Aspose::Words::SignatureLineOptions::get_Signer() const
 
 
 ## Examples
-
 
 
 
@@ -150,3 +149,8 @@ static void CreateSignees()
 static SharedPtr<System::Collections::Generic::List<SharedPtr<ExSignDocumentCustom::Signee>>> mSignees;
 ```
 
+## See Also
+
+* Class [SignatureLineOptions](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

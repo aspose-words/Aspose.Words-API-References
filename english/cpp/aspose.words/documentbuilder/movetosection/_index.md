@@ -6,7 +6,7 @@ type: docs
 weight: 729
 url: /cpp/aspose.words/documentbuilder/movetosection/
 ---
-## DocumentBuilder.MoveToSection method
+## DocumentBuilder::MoveToSection method
 
 
 Moves the cursor to the beginning of the body in a specified section.
@@ -19,13 +19,14 @@ void Aspose::Words::DocumentBuilder::MoveToSection(int32_t sectionIndex)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sectionIndex | int32_t | The index of the section to move to. |
+## Remarks
+
 
 When sectionIndex is greater than or equal to 0, it specifies an index from the beginning of the document with 0 being the first section. When sectionIndex is less than 0, it specified an index from the end of the document with -1 being the last section.
 
 The cursor is moved to the first paragraph in the **Body** of the specified section.
 
 ## Examples
-
 
 
 
@@ -56,3 +57,8 @@ builder->Writeln(u"Page3");
 doc->Save(ArtifactsDir + u"DocumentBuilder.HeadersAndFooters.docx");
 ```
 
+## See Also
+
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

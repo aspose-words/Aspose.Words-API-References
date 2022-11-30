@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/aspose.words/paragraphformat/get_stylename/
 ---
-## ParagraphFormat.get_StyleName method
+## ParagraphFormat::get_StyleName method
 
 
 Gets or sets the name of the paragraph style applied to this formatting.
@@ -17,7 +17,6 @@ System::String Aspose::Words::ParagraphFormat::get_StyleName()
 
 
 ## Examples
-
 
 
 
@@ -65,3 +64,8 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

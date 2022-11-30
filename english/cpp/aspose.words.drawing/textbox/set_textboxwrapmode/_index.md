@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.words.drawing/textbox/set_textboxwrapmode/
 ---
-## TextBox.set_TextBoxWrapMode method
+## TextBox::set_TextBoxWrapMode method
 
 
 Setter for [Aspose::Words::Drawing::TextBox::get_TextBoxWrapMode](../get_textboxwrapmode/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Drawing::TextBox::get_TextBoxWrapMode](../get_textbox
 void Aspose::Words::Drawing::TextBox::set_TextBoxWrapMode(Aspose::Words::Drawing::TextBoxWrapMode value)
 ```
 
+## See Also
+
+* Enum [TextBoxWrapMode](../../textboxwrapmode/)
+* Class [TextBox](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

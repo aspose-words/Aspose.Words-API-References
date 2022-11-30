@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.saving/resourcesavingargs/get_resourcestream/
 ---
-## ResourceSavingArgs.get_ResourceStream method
+## ResourceSavingArgs::get_ResourceStream method
 
 
 Allows to specify the stream where the resource will be saved to.
@@ -14,6 +14,8 @@ Allows to specify the stream where the resource will be saved to.
 ```cpp
 System::SharedPtr<System::IO::Stream> Aspose::Words::Saving::ResourceSavingArgs::get_ResourceStream() const
 ```
+
+## Remarks
 
 
 This property allows you to save resources to streams instead of files.
@@ -23,7 +25,6 @@ The default value is **null**. When this property is **null**, the resource will
 Using [IResourceSavingCallback](../../iresourcesavingcallback/) you cannot substitute one resource with another. It is intended only for control over location where to save resources.
 
 ## Examples
-
 
 
 
@@ -101,3 +102,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [ResourceSavingArgs](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

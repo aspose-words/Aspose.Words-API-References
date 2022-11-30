@@ -20,3 +20,7 @@ class IDocumentReaderPlugin : public System::Object
 | Method | Description |
 | --- | --- |
 | virtual [Read](./read/)(System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>, System::SharedPtr\<Aspose::Words::Document\>) | Reads the data from the specified stream into the [Document](../document/) instance. |
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

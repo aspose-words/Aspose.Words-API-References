@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/aspose.words/document/get_layoutoptions/
 ---
-## Document.get_LayoutOptions method
+## Document::get_LayoutOptions method
 
 
 Gets a **LayoutOptions** object that represents options to control the layout process of this document.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Layout::LayoutOptions> Aspose::Words::Document:
 
 
 ## Examples
-
 
 
 
@@ -72,3 +71,9 @@ doc->get_LayoutOptions()->set_ShowParagraphMarks(showParagraphMarks);
 doc->Save(ArtifactsDir + u"Document.LayoutOptionsParagraphMarks.pdf");
 ```
 
+## See Also
+
+* Class [LayoutOptions](../../../aspose.words.layout/layoutoptions/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

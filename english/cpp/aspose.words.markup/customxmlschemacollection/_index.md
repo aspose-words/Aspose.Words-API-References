@@ -48,11 +48,12 @@ class CustomXmlSchemaCollection : public System::Collections::Generic::IEnumerab
 | [iterator_holder_type](./iterator_holder_type/) |  |
 | [virtualized_iterator](./virtualized_iterator/) |  |
 | [virtualized_iterator_element](./virtualized_iterator_element/) |  |
+## Remarks
+
 
 You do not create instances of this class. You access the collection of XML schemas of a custom XML part via the [Schemas](../customxmlpart/get_schemas/) property.
 
 ## Examples
-
 
 
 
@@ -98,3 +99,7 @@ schemas->Clear();
 ASSERT_EQ(0, schemas->get_Count());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Markup](../)
+* Library [Aspose.Words](../../)

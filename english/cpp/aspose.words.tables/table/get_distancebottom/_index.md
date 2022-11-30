@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words.tables/table/get_distancebottom/
 ---
-## Table.get_DistanceBottom method
+## Table::get_DistanceBottom method
 
 
 Gets distance between table bottom and the surrounding text, in points.
@@ -17,7 +17,6 @@ double Aspose::Words::Tables::Table::get_DistanceBottom()
 
 
 ## Examples
-
 
 
 
@@ -33,3 +32,8 @@ ASPOSE_ASSERT_EQ(17.3, table->get_DistanceLeft());
 ASPOSE_ASSERT_EQ(17.3, table->get_DistanceRight());
 ```
 
+## See Also
+
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

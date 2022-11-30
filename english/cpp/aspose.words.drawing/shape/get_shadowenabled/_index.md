@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.drawing/shape/get_shadowenabled/
 ---
-## Shape.get_ShadowEnabled method
+## Shape::get_ShadowEnabled method
 
 
 Returns true if a shadow effect is enabled.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::Shape::get_ShadowEnabled()
 
 
 ## Examples
-
 
 
 
@@ -131,3 +130,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Shape](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/aspose.words/documentvisitor/visitofficemathstart/
 ---
-## DocumentVisitor.VisitOfficeMathStart method
+## DocumentVisitor::VisitOfficeMathStart method
 
 
 Called when enumeration of a Office [Math](../../../aspose.words.math/) object has started.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitOffice
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -104,3 +102,10 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [OfficeMath](../../../aspose.words.math/officemath/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

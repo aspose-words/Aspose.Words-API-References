@@ -6,7 +6,7 @@ type: docs
 weight: 586
 url: /cpp/aspose.words/documentvisitor/visitstructureddocumenttagrangestart/
 ---
-## DocumentVisitor.VisitStructuredDocumentTagRangeStart method
+## DocumentVisitor::VisitStructuredDocumentTagRangeStart method
 
 
 
@@ -15,3 +15,10 @@ url: /cpp/aspose.words/documentvisitor/visitstructureddocumenttagrangestart/
 virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitStructuredDocumentTagRangeStart(System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTagRangeStart> sdtRangeStart)
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [StructuredDocumentTagRangeStart](../../../aspose.words.markup/structureddocumenttagrangestart/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

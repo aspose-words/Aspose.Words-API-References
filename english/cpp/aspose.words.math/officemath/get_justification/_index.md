@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.math/officemath/get_justification/
 ---
-## OfficeMath.get_Justification method
+## OfficeMath::get_Justification method
 
 
 Gets/sets Office [Math](../../) justification.
@@ -15,15 +15,16 @@ Gets/sets Office [Math](../../) justification.
 Aspose::Words::Math::OfficeMathJustification Aspose::Words::Math::OfficeMath::get_Justification()
 ```
 
+## Remarks
 
-Justification cannot be set to the Office [Math](../../) with display format type **Inline**.
 
-[Inline](../../../aspose.words/inline/) justification cannot be set to the Office [Math](../../) with display format type **Display**.
+Justification cannot be set to the Office [Math](../../) with display format type [Inline](../../officemathdisplaytype/).
+
+[Inline](../../../aspose.words/inline/) justification cannot be set to the Office [Math](../../) with display format type [Display](../../officemathdisplaytype/).
 
 Corresponding [DisplayType](../get_displaytype/) has to be set before setting Office [Math](../../) justification.
 
 ## Examples
-
 
 
 
@@ -49,3 +50,9 @@ officeMath->set_Justification(OfficeMathJustification::Left);
 doc->Save(ArtifactsDir + u"Shape.OfficeMath.docx");
 ```
 
+## See Also
+
+* Enum [OfficeMathJustification](../../officemathjustification/)
+* Class [OfficeMath](../)
+* Namespace [Aspose::Words::Math](../../)
+* Library [Aspose.Words](../../../)

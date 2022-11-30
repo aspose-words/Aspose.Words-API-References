@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/run/get_nodetype/
 ---
-## Run.get_NodeType method
+## Run::get_NodeType method
 
 
 Returns **NodeType.Run**.
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::Run::get_NodeType() const override
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,9 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../nodetype/)
+* Class [Run](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

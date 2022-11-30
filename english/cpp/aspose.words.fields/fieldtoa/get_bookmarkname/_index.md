@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldtoa/get_bookmarkname/
 ---
-## FieldToa.get_BookmarkName method
+## FieldToa::get_BookmarkName method
 
 
 Gets or sets the name of the bookmark that marks the portion of the document used to build the table.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldToa::get_BookmarkName()
 
 
 ## Examples
-
 
 
 
@@ -138,3 +137,8 @@ static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, Str
 }
 ```
 
+## See Also
+
+* Class [FieldToa](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

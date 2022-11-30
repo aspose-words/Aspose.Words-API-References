@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/aspose.words/document/get_lastsection/
 ---
-## Document.get_LastSection method
+## Document::get_LastSection method
 
 
 Gets the last section in the document.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Section> Aspose::Words::Document::get_LastSecti
 
 
 ## Examples
-
 
 
 
@@ -52,3 +51,9 @@ ASSERT_EQ(2, doc->get_LastSection()->get_PageSetup()->get_TextColumns()->get_Cou
 doc->Save(ArtifactsDir + u"Section.Create.docx");
 ```
 
+## See Also
+
+* Class [Section](../../section/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

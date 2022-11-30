@@ -3,7 +3,7 @@ title: OddAndEvenPagesHeaderFooter
 second_title: Aspose.Words for .NET API Reference
 description: True if the document has different headers and footers for oddnumbered and evennumbered pages.
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
 ---
 ## PageSetup.OddAndEvenPagesHeaderFooter property

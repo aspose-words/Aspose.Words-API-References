@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fieldlistnum/get_listname/
 ---
-## FieldListNum.get_ListName method
+## FieldListNum::get_ListName method
 
 
 Gets or sets the name of the abstract numbering definition used for the numbering.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldListNum::get_ListName()
 
 
 ## Examples
-
 
 
 
@@ -85,3 +84,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.LISTNUM.docx");
 ```
 
+## See Also
+
+* Class [FieldListNum](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

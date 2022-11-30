@@ -6,7 +6,7 @@ type: docs
 weight: 859
 url: /cpp/aspose.words.tables/table/setshading/
 ---
-## Table.SetShading method
+## Table::SetShading method
 
 
 Sets shading to the specified values on whole table.
@@ -23,7 +23,6 @@ void Aspose::Words::Tables::Table::SetShading(Aspose::Words::TextureIndex textur
 | backgroundColor | System::Drawing::Color | The color of the background fill. |
 
 ## Examples
-
 
 
 
@@ -51,3 +50,9 @@ table->SetShading(TextureIndex::TextureSolid, System::Drawing::Color::get_LightG
 doc->Save(ArtifactsDir + u"Table.SetOutlineBorders.docx");
 ```
 
+## See Also
+
+* Enum [TextureIndex](../../../aspose.words/textureindex/)
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

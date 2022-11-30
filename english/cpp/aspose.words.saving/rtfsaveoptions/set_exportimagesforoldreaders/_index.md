@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.saving/rtfsaveoptions/set_exportimagesforoldreaders/
 ---
-## RtfSaveOptions.set_ExportImagesForOldReaders method
+## RtfSaveOptions::set_ExportImagesForOldReaders method
 
 
 Setter for [Aspose::Words::Saving::RtfSaveOptions::get_ExportImagesForOldReaders](../get_exportimagesforoldreaders/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::RtfSaveOptions::get_ExportImagesForOldReaders
 void Aspose::Words::Saving::RtfSaveOptions::set_ExportImagesForOldReaders(bool value)
 ```
 
+## See Also
+
+* Class [RtfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

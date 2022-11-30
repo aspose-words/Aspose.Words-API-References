@@ -15,3 +15,8 @@ url: /cpp/aspose.words.settings/odsorecipientdatacollection/virtualized_iterator
 using Aspose::Words::Settings::OdsoRecipientDataCollection::virtualized_iterator_element =  typename iterator_holder_type::virtualized_iterator_element
 ```
 
+## See Also
+
+* Class [OdsoRecipientDataCollection](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

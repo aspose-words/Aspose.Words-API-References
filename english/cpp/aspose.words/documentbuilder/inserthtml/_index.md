@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/aspose.words/documentbuilder/inserthtml/
 ---
-## DocumentBuilder.InsertHtml(const System::String\&) method
+## DocumentBuilder::InsertHtml(const System::String\&) method
 
 
 Inserts an HTML string into the document.
@@ -21,7 +21,6 @@ void Aspose::Words::DocumentBuilder::InsertHtml(const System::String &html)
 | html | const System::String\& | An HTML string to insert into the document. |
 
 ## Examples
-
 
 
 
@@ -104,7 +103,12 @@ private:
 };
 ```
 
-## DocumentBuilder.InsertHtml(const System::String\&, Aspose::Words::HtmlInsertOptions) method
+## See Also
+
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## DocumentBuilder::InsertHtml(const System::String\&, Aspose::Words::HtmlInsertOptions) method
 
 
 Inserts an HTML string into the document. Allows to specify additional options.
@@ -120,7 +124,6 @@ void Aspose::Words::DocumentBuilder::InsertHtml(const System::String &html, Aspo
 | options | Aspose::Words::HtmlInsertOptions | Options that are used when HTML string is inserted. |
 
 ## Examples
-
 
 
 
@@ -146,7 +149,13 @@ builder->InsertHtml(u"<p>jsmith@example.com</p>", HtmlInsertOptions::UseBuilderF
 doc->Save(ArtifactsDir + u"MailMerge.RemoveLastEmptyParagraph.docx");
 ```
 
-## DocumentBuilder.InsertHtml(const System::String\&, bool) method
+## See Also
+
+* Enum [HtmlInsertOptions](../../htmlinsertoptions/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## DocumentBuilder::InsertHtml(const System::String\&, bool) method
 
 
 Inserts an HTML string into the document.
@@ -160,15 +169,16 @@ void Aspose::Words::DocumentBuilder::InsertHtml(const System::String &html, bool
 | --- | --- | --- |
 | html | const System::String\& | An HTML string to insert into the document. |
 | useBuilderFormatting | bool | A value indicating whether formatting specified in [DocumentBuilder](../) is used as base formatting for text imported from HTML. |
+## Remarks
+
 
 You can use this method to insert an HTML fragment or whole HTML document.
 
 When useBuilderFormatting is **false**, [DocumentBuilder](../) formating is ignored and formatting of inserted text is based on default HTML formatting. As a result, the text looks as it is rendered in browsers.
 
-When useBuilderFormatting is **true**, formatting of inserted text is based on [DocumentBuilder](../) formatting, and the text looks as if it were inserted with **Write()**.
+When useBuilderFormatting is **true**, formatting of inserted text is based on [DocumentBuilder](../) formatting, and the text looks as if it were inserted with [Write()](../).
 
 ## Examples
-
 
 
 
@@ -197,3 +207,8 @@ ASSERT_EQ(useBuilderFormatting ? ParagraphAlignment::Distributed : ParagraphAlig
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertHtmlWithFormatting.docx");
 ```
 
+## See Also
+
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

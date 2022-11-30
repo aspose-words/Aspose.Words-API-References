@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fieldnextif/set_comparisonoperator/
 ---
-## FieldNextIf.set_ComparisonOperator method
+## FieldNextIf::set_ComparisonOperator method
 
 
 Sets the comparison operator.
@@ -15,3 +15,8 @@ Sets the comparison operator.
 void Aspose::Words::Fields::FieldNextIf::set_ComparisonOperator(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldNextIf](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

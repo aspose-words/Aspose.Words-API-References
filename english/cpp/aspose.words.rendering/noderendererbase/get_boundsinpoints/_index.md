@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.rendering/noderendererbase/get_boundsinpoints/
 ---
-## NodeRendererBase.get_BoundsInPoints method
+## NodeRendererBase::get_BoundsInPoints method
 
 
 Gets the actual bounds of the shape in points.
@@ -15,11 +15,12 @@ Gets the actual bounds of the shape in points.
 System::Drawing::RectangleF Aspose::Words::Rendering::NodeRendererBase::get_BoundsInPoints() const
 ```
 
+## Remarks
+
 
 This property returns the actual (as rendered on the page) bounding box of the shape. The bounds takes into account shape rotation (if any).
 
 ## Examples
-
 
 
 
@@ -64,3 +65,8 @@ ASSERT_EQ(159, bounds.get_Width());
 ASSERT_EQ(30, bounds.get_Height());
 ```
 
+## See Also
+
+* Class [NodeRendererBase](../)
+* Namespace [Aspose::Words::Rendering](../../)
+* Library [Aspose.Words](../../../)

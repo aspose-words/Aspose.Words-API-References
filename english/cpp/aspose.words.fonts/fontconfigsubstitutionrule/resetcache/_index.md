@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fonts/fontconfigsubstitutionrule/resetcache/
 ---
-## FontConfigSubstitutionRule.ResetCache method
+## FontConfigSubstitutionRule::ResetCache method
 
 
 Resets the cache of fontconfig calling results.
@@ -17,7 +17,6 @@ void Aspose::Words::Fonts::FontConfigSubstitutionRule::ResetCache()
 
 
 ## Examples
-
 
 
 
@@ -50,3 +49,8 @@ if (isLinuxOrMac)
 }
 ```
 
+## See Also
+
+* Class [FontConfigSubstitutionRule](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

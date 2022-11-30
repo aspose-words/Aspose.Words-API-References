@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.markup/customxmlschemacollection/removeat/
 ---
-## CustomXmlSchemaCollection.RemoveAt method
+## CustomXmlSchemaCollection::RemoveAt method
 
 
 Removes a value at the specified index.
@@ -21,7 +21,6 @@ void Aspose::Words::Markup::CustomXmlSchemaCollection::RemoveAt(int32_t index)
 | index | int32_t | The zero based index. |
 
 ## Examples
-
 
 
 
@@ -67,3 +66,8 @@ schemas->Clear();
 ASSERT_EQ(0, schemas->get_Count());
 ```
 
+## See Also
+
+* Class [CustomXmlSchemaCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

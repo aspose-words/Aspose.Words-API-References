@@ -34,7 +34,6 @@ class FootnoteOptions : public Aspose::Words::Notes::IFootnoteOptions
 
 
 
-
 Shows how to split the footnote section into a given number of columns. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Footnotes and endnotes.docx");
@@ -209,3 +208,7 @@ doc->get_EndnoteOptions()->set_StartNumber(50);
 doc->Save(ArtifactsDir + u"InlineStory.StartNumber.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Notes](../)
+* Library [Aspose.Words](../../)

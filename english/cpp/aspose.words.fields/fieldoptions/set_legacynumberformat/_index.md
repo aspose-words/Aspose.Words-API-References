@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/aspose.words.fields/fieldoptions/set_legacynumberformat/
 ---
-## FieldOptions.set_LegacyNumberFormat method
+## FieldOptions::set_LegacyNumberFormat method
 
 
 Setter for [Aspose::Words::Fields::FieldOptions::get_LegacyNumberFormat](../get_legacynumberformat/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldOptions::get_LegacyNumberFormat](../get_
 void Aspose::Words::Fields::FieldOptions::set_LegacyNumberFormat(bool value)
 ```
 
+## See Also
+
+* Class [FieldOptions](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

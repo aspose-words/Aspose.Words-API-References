@@ -47,7 +47,6 @@ class ListLevelCollection : public System::Collections::Generic::IEnumerable<Sys
 
 
 
-
 Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../aspose.words/documentbuilder/). 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -157,3 +156,7 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateAndUseListStyle.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Lists](../)
+* Library [Aspose.Words](../../)

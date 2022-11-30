@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/bookmark/get_bookmarkstart/
 ---
-## Bookmark.get_BookmarkStart method
+## Bookmark::get_BookmarkStart method
 
 
 Gets the node that represents the start of the bookmark.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::BookmarkStart> Aspose::Words::Bookmark::get_Boo
 
 
 ## Examples
-
 
 
 
@@ -98,3 +97,9 @@ public:
 };
 ```
 
+## See Also
+
+* Class [BookmarkStart](../../bookmarkstart/)
+* Class [Bookmark](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

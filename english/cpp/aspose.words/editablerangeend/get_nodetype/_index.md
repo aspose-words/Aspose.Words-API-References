@@ -6,10 +6,10 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/editablerangeend/get_nodetype/
 ---
-## EditableRangeEnd.get_NodeType method
+## EditableRangeEnd::get_NodeType method
 
 
-Returns **EditableRangeEnd**.
+Returns [EditableRangeEnd](../../nodetype/).
 
 ```cpp
 Aspose::Words::NodeType Aspose::Words::EditableRangeEnd::get_NodeType() const override
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::EditableRangeEnd::get_NodeType() const ov
 
 
 ## Examples
-
 
 
 
@@ -61,3 +60,9 @@ doc->Save(ArtifactsDir + u"EditableRange.CreateAndRemove.docx");
 editableRange->Remove();
 ```
 
+## See Also
+
+* Enum [NodeType](../../nodetype/)
+* Class [EditableRangeEnd](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

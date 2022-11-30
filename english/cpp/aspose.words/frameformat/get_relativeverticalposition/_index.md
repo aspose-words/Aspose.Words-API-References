@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words/frameformat/get_relativeverticalposition/
 ---
-## FrameFormat.get_RelativeVerticalPosition method
+## FrameFormat::get_RelativeVerticalPosition method
 
 
 Gets the relative vertical position of a frame.
@@ -17,7 +17,6 @@ Aspose::Words::Drawing::RelativeVerticalPosition Aspose::Words::FrameFormat::get
 
 
 ## Examples
-
 
 
 
@@ -41,3 +40,9 @@ ASSERT_EQ(RelativeVerticalPosition::Paragraph, paragraphFrame->get_FrameFormat()
 ASPOSE_ASSERT_EQ(0.0, paragraphFrame->get_FrameFormat()->get_VerticalDistanceFromText());
 ```
 
+## See Also
+
+* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* Class [FrameFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

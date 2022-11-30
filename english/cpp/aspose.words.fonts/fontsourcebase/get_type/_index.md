@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fonts/fontsourcebase/get_type/
 ---
-## FontSourceBase.get_Type method
+## FontSourceBase::get_Type method
 
 
 Returns the type of the font source.
@@ -17,7 +17,6 @@ virtual Aspose::Words::Fonts::FontSourceType Aspose::Words::Fonts::FontSourceBas
 
 
 ## Examples
-
 
 
 
@@ -34,3 +33,9 @@ ASSERT_EQ(FontSourceType::FontFile, fileFontSource->get_Type());
 ASSERT_EQ(0, fileFontSource->get_Priority());
 ```
 
+## See Also
+
+* Enum [FontSourceType](../../fontsourcetype/)
+* Class [FontSourceBase](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

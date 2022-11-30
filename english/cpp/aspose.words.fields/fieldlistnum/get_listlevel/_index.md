@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldlistnum/get_listlevel/
 ---
-## FieldListNum.get_ListLevel method
+## FieldListNum::get_ListLevel method
 
 
 Gets or sets the level in the list, overriding the default behavior of the field.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldListNum::get_ListLevel()
 
 
 ## Examples
-
 
 
 
@@ -85,3 +84,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.LISTNUM.docx");
 ```
 
+## See Also
+
+* Class [FieldListNum](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -12,12 +12,11 @@ url: /cpp/aspose.words/controlchar/linebreakchar/
 Line break character: (char)11 or "\v".
 
 ```cpp
-constexpr char16_t Aspose::Words::ControlChar::LineBreakChar
+static constexpr char16_t Aspose::Words::ControlChar::LineBreakChar
 ```
 
 
 ## Examples
-
 
 
 
@@ -87,3 +86,8 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::PageBreak()), ControlChar:
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlChar::ColumnBreakChar);
 ```
 
+## See Also
+
+* Class [ControlChar](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

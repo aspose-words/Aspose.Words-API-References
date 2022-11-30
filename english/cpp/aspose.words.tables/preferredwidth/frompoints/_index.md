@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.tables/preferredwidth/frompoints/
 ---
-## PreferredWidth.FromPoints method
+## PreferredWidth::FromPoints method
 
 
 A creation method that returns a new instance that represents a preferred width specified using a number of points.
@@ -21,7 +21,6 @@ static System::SharedPtr<Aspose::Words::Tables::PreferredWidth> Aspose::Words::T
 | points | double | The value must be from 0 to 22 inches (22 * 72 points). |
 
 ## Examples
-
 
 
 
@@ -72,3 +71,9 @@ builder->InsertCell();
 ASPOSE_ASSERT_EQ(216.0, table->get_FirstRow()->get_FirstCell()->get_CellFormat()->get_PreferredWidth()->get_Value());
 ```
 
+## See Also
+
+* Class [PreferredWidth](../)
+* Class [PreferredWidth](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

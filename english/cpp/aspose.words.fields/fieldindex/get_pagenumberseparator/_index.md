@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.fields/fieldindex/get_pagenumberseparator/
 ---
-## FieldIndex.get_PageNumberSeparator method
+## FieldIndex::get_PageNumberSeparator method
 
 
 Gets or sets the character sequence that is used to separate an index entry and its page number.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldIndex::get_PageNumberSeparator()
 
 
 ## Examples
-
 
 
 
@@ -61,3 +60,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.INDEX.XE.PageNumberList.docx");
 ```
 
+## See Also
+
+* Class [FieldIndex](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.drawing/shapebase/get_aspectratiolocked/
 ---
-## ShapeBase.get_AspectRatioLocked method
+## ShapeBase::get_AspectRatioLocked method
 
 
 Specifies whether the shape's aspect ratio is locked.
@@ -15,13 +15,14 @@ Specifies whether the shape's aspect ratio is locked.
 bool Aspose::Words::Drawing::ShapeBase::get_AspectRatioLocked()
 ```
 
+## Remarks
 
-The default value depends on the [ShapeType](../get_shapetype/), for the **ShapeType.Image** it is **true** but for the other shape types it is **false**.
+
+The default value depends on the [ShapeType](../get_shapetype/), for the [ShapeType.Image](../../shapetype/) it is **true** but for the other shape types it is **false**.
 
 Has effect for top level shapes only.
 
 ## Examples
-
 
 
 
@@ -44,3 +45,8 @@ shape->set_AspectRatioLocked(lockAspectRatio);
 doc->Save(ArtifactsDir + u"Shape.AspectRatio.docx");
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

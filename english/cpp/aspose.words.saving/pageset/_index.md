@@ -25,3 +25,7 @@ class PageSet : public System::Object
 | [PageSet](./pageset/)(int32_t) | Creates an one-page set based on exact page index. |
 | [PageSet](./pageset/)(const System::ArrayPtr\<int32_t\>\&) | Creates a page set based on exact page indices. |
 | [PageSet](./pageset/)(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Saving::PageRange\>\>\&) | Creates a page set based on ranges. |
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.drawing.charts/chartformat/get_stroke/
 ---
-## ChartFormat.get_Stroke method
+## ChartFormat::get_Stroke method
 
 
 Gets line formatting for the parent chart element.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::Stroke> Aspose::Words::Drawing::Charts
 
 
 ## Examples
-
 
 
 
@@ -53,3 +52,9 @@ dataPoints->idx_get(3)->get_Marker()->get_Format()->get_Stroke()->set_Transparen
 doc->Save(ArtifactsDir + u"Charts.MarkerFormatting.docx");
 ```
 
+## See Also
+
+* Class [Stroke](../../../aspose.words.drawing/stroke/)
+* Class [ChartFormat](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

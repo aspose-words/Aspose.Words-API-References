@@ -12,7 +12,8 @@ url: /cpp/aspose.words.drawing.charts/chartseries/
 Represents chart series properties.
 
 ```cpp
-class ChartSeries : public Aspose::Words::Drawing::Charts::IChartDataPoint, public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListSource
+class ChartSeries : public Aspose::Words::Drawing::Charts::IChartDataPoint,
+                    public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListSource
 ```
 
 ## Methods
@@ -38,7 +39,6 @@ class ChartSeries : public Aspose::Words::Drawing::Charts::IChartDataPoint, publ
 | [set_Smooth](./set_smooth/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartSeries::get_Smooth](./get_smooth/). |
 
 ## Examples
-
 
 
 
@@ -112,3 +112,8 @@ static void ApplyDataLabels(SharedPtr<ChartSeries> series, int labelsCount, Stri
 }
 ```
 
+## See Also
+
+* Interface [IChartDataPoint](../ichartdatapoint/)
+* Namespace [Aspose::Words::Drawing::Charts](../)
+* Library [Aspose.Words](../../)

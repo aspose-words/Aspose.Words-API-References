@@ -6,7 +6,7 @@ type: docs
 weight: 1145
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_saveformat/
 ---
-## HtmlSaveOptions.set_SaveFormat method
+## HtmlSaveOptions::set_SaveFormat method
 
 
 Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_SaveFormat](../get_saveformat/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_SaveFormat](../get_savef
 void Aspose::Words::Saving::HtmlSaveOptions::set_SaveFormat(Aspose::Words::SaveFormat value) override
 ```
 
+## See Also
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

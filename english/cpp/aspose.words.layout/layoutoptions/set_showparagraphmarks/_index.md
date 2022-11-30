@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.layout/layoutoptions/set_showparagraphmarks/
 ---
-## LayoutOptions.set_ShowParagraphMarks method
+## LayoutOptions::set_ShowParagraphMarks method
 
 
 Setter for [Aspose::Words::Layout::LayoutOptions::get_ShowParagraphMarks](../get_showparagraphmarks/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Layout::LayoutOptions::get_ShowParagraphMarks](../get
 void Aspose::Words::Layout::LayoutOptions::set_ShowParagraphMarks(bool value)
 ```
 
+## See Also
+
+* Class [LayoutOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

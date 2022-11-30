@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.saving/fixedpagesaveoptions/get_colormode/
 ---
-## FixedPageSaveOptions.get_ColorMode method
+## FixedPageSaveOptions::get_ColorMode method
 
 
 Gets or sets a value determining how colors are rendered.
@@ -17,7 +17,6 @@ Aspose::Words::Saving::ColorMode Aspose::Words::Saving::FixedPageSaveOptions::ge
 
 
 ## Examples
-
 
 
 
@@ -36,3 +35,9 @@ pdfSaveOptions->set_ColorMode(colorMode);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
 ```
 
+## See Also
+
+* Enum [ColorMode](../../colormode/)
+* Class [FixedPageSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

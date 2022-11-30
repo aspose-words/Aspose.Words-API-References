@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.lists/listcollection/idx_get/
 ---
-## ListCollection.idx_get method
+## ListCollection::idx_get method
 
 
 Gets a list by index.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Lists::List> Aspose::Words::Lists::ListCollecti
 
 
 ## Examples
-
 
 
 
@@ -65,3 +64,9 @@ std::cout << (String(u"ListId: ") + list->get_ListId()) << std::endl;
 std::cout << (String(u"List is the same by ListId: ") + (System::ObjectExt::Equals(lists->GetListByListId(1), list))) << std::endl;
 ```
 
+## See Also
+
+* Class [List](../../list/)
+* Class [ListCollection](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

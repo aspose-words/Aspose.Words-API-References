@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.properties/documentproperty/tobytearray/
 ---
-## DocumentProperty.ToByteArray method
+## DocumentProperty::ToByteArray method
 
 
 Returns the property value as byte array.
@@ -15,11 +15,12 @@ Returns the property value as byte array.
 System::ArrayPtr<uint8_t> Aspose::Words::Properties::DocumentProperty::ToByteArray()
 ```
 
+## Remarks
 
-Throws an exception if the property type is not **ByteArray**.
+
+Throws an exception if the property type is not [ByteArray](../../propertytype/).
 
 ## Examples
-
 
 
 
@@ -43,3 +44,8 @@ SharedPtr<DocumentProperty> thumbnail = doc->get_BuiltInDocumentProperties()->id
 System::IO::File::WriteAllBytes(ArtifactsDir + u"DocumentProperties.Thumbnail.gif", thumbnail->ToByteArray());
 ```
 
+## See Also
+
+* Class [DocumentProperty](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

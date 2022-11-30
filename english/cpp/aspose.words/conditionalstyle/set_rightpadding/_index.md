@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words/conditionalstyle/set_rightpadding/
 ---
-## ConditionalStyle.set_RightPadding method
+## ConditionalStyle::set_RightPadding method
 
 
 Setter for [Aspose::Words::ConditionalStyle::get_RightPadding](../get_rightpadding/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::ConditionalStyle::get_RightPadding](../get_rightpaddi
 void Aspose::Words::ConditionalStyle::set_RightPadding(double value)
 ```
 
+## See Also
+
+* Class [ConditionalStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

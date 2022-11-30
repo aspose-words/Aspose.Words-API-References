@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.tables/cell/cell/
 ---
-## Cell.Cell method
+## Cell::Cell constructor
 
 
 Initializes a new instance of the **Cell** class.
@@ -19,13 +19,14 @@ Aspose::Words::Tables::Cell::Cell(const System::SharedPtr<Aspose::Words::Documen
 | Parameter | Type | Description |
 | --- | --- | --- |
 | doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
+## Remarks
+
 
 When **Cell** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
 To append **Cell** to the document use InsertAfter or InsertBefore on the row where you want the cell inserted.
 
 ## Examples
-
 
 
 
@@ -76,3 +77,9 @@ static SharedPtr<Table> CreateTable(SharedPtr<Document> doc, int rowCount, int c
 }
 ```
 
+## See Also
+
+* Class [DocumentBase](../../../aspose.words/documentbase/)
+* Class [Cell](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

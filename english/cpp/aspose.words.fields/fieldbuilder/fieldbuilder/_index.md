@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldbuilder/fieldbuilder/
 ---
-## FieldBuilder.FieldBuilder method
+## FieldBuilder::FieldBuilder constructor
 
 
 Initializes an instance of the [FieldBuilder](../) class.
@@ -21,7 +21,6 @@ Aspose::Words::Fields::FieldBuilder::FieldBuilder(Aspose::Words::Fields::FieldTy
 | fieldType | Aspose::Words::Fields::FieldType | The type of the field to build. |
 
 ## Examples
-
 
 
 
@@ -47,3 +46,9 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.CreateWithFieldBuilder.docx");
 ```
 
+## See Also
+
+* Enum [FieldType](../../fieldtype/)
+* Class [FieldBuilder](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.mailmerging/imailmergedatasource/getvalue/
 ---
-## IMailMergeDataSource.GetValue method
+## IMailMergeDataSource::GetValue method
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.mailmerging/imailmergedatasource/getvalue/
 virtual bool Aspose::Words::MailMerging::IMailMergeDataSource::GetValue(System::String fieldName, System::SharedPtr<System::Object> &fieldValue)=0
 ```
 
+## See Also
+
+* Interface [IMailMergeDataSource](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

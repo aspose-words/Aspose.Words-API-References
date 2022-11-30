@@ -6,10 +6,10 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/imagesaveoptions/imagesaveoptions/
 ---
-## ImageSaveOptions.ImageSaveOptions method
+## ImageSaveOptions::ImageSaveOptions constructor
 
 
-Initializes a new instance of this class that can be used to save rendered images in the **Tiff**, **Png**, **Bmp**, **Emf**, **Jpeg** or **Svg** format. **Png**, **Bmp**, **Jpeg** or **Svg** format.
+Initializes a new instance of this class that can be used to save rendered images in the [Tiff](../../../aspose.words/saveformat/), [Png](../../../aspose.words/saveformat/), [Bmp](../../../aspose.words/saveformat/), [Emf](../../../aspose.words/saveformat/), [Jpeg](../../../aspose.words/saveformat/) or [Svg](../../../aspose.words/saveformat/) format. [Png](../../../aspose.words/saveformat/), [Bmp](../../../aspose.words/saveformat/), [Jpeg](../../../aspose.words/saveformat/) or [Svg](../../../aspose.words/saveformat/) format.
 
 ```cpp
 Aspose::Words::Saving::ImageSaveOptions::ImageSaveOptions(Aspose::Words::SaveFormat saveFormat)
@@ -18,10 +18,9 @@ Aspose::Words::Saving::ImageSaveOptions::ImageSaveOptions(Aspose::Words::SaveFor
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | Aspose::Words::SaveFormat | Can be **Tiff**, **Png**, **Bmp**, **Emf**, **Jpeg** or **Svg**. **Png**, **Bmp**, **Jpeg** or **Svg**. |
+| saveFormat | Aspose::Words::SaveFormat | Can be [Tiff](../../../aspose.words/saveformat/), [Png](../../../aspose.words/saveformat/), [Bmp](../../../aspose.words/saveformat/), [Emf](../../../aspose.words/saveformat/), [Jpeg](../../../aspose.words/saveformat/) or [Svg](../../../aspose.words/saveformat/). [Png](../../../aspose.words/saveformat/), [Bmp](../../../aspose.words/saveformat/), [Jpeg](../../../aspose.words/saveformat/) or [Svg](../../../aspose.words/saveformat/). |
 
 ## Examples
-
 
 
 
@@ -52,3 +51,9 @@ doc->Save(ArtifactsDir + u"ImageSaveOptions.JpegQuality.HighQuality.jpg", imageO
 ASSERT_LT(60000, MakeObject<System::IO::FileInfo>(ArtifactsDir + u"ImageSaveOptions.JpegQuality.HighQuality.jpg")->get_Length());
 ```
 
+## See Also
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [ImageSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

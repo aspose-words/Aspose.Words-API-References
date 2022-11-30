@@ -11,6 +11,10 @@ url: /cpp/aspose.words.replacing/replaceaction/
 
 Allows the user to specify what happens to the current match during a replace operation.
 
+```cpp
+enum class ReplaceAction
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ Allows the user to specify what happens to the current match during a replace op
 
 
 ## Examples
-
 
 
 
@@ -94,3 +97,7 @@ static void InsertDocument(SharedPtr<Node> insertionDestination, SharedPtr<Docum
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Replacing](../)
+* Library [Aspose.Words](../../)

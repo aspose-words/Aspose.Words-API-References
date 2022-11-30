@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.lists/listcollection/getenumerator/
 ---
-## ListCollection.GetEnumerator method
+## ListCollection::GetEnumerator method
 
 
 Gets the enumerator object that will enumerate lists in the document.
@@ -17,7 +17,6 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 
 ## Examples
-
 
 
 
@@ -54,3 +53,9 @@ static void AddListSample(SharedPtr<DocumentBuilder> builder, SharedPtr<List> li
 }
 ```
 
+## See Also
+
+* Class [List](../../list/)
+* Class [ListCollection](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.saving/docsaveoptions/get_password/
 ---
-## DocSaveOptions.get_Password method
+## DocSaveOptions::get_Password method
 
 
 Gets/sets a password to encrypt document using RC4 encryption method.
@@ -15,11 +15,12 @@ Gets/sets a password to encrypt document using RC4 encryption method.
 System::String Aspose::Words::Saving::DocSaveOptions::get_Password() const
 ```
 
+## Remarks
+
 
 In order to save document without encryption this property should be null or empty string.
 
 ## Examples
-
 
 
 
@@ -50,3 +51,8 @@ doc = MakeObject<Document>(ArtifactsDir + u"DocSaveOptions.SaveAsDoc.doc", loadO
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [DocSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

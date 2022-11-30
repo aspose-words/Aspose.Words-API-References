@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.webextensions/taskpane/get_webextension/
 ---
-## TaskPane.get_WebExtension method
+## TaskPane::get_WebExtension method
 
 
 Represents an web extension object.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::WebExtensions::WebExtension> Aspose::Words::Web
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,9 @@ doc->get_WebExtensionTaskPanes()->Clear();
 ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ```
 
+## See Also
+
+* Class [WebExtension](../../webextension/)
+* Class [TaskPane](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.saving/resourcesavingargs/get_keepresourcestreamopen/
 ---
-## ResourceSavingArgs.get_KeepResourceStreamOpen method
+## ResourceSavingArgs::get_KeepResourceStreamOpen method
 
 
 Specifies whether Aspose.Words should keep the stream open or close it after saving a resource.
@@ -15,11 +15,12 @@ Specifies whether Aspose.Words should keep the stream open or close it after sav
 bool Aspose::Words::Saving::ResourceSavingArgs::get_KeepResourceStreamOpen() const
 ```
 
+## Remarks
+
 
 Default is **false** and Aspose.Words will close the stream you provided in the [ResourceStream](../get_resourcestream/) property after writing a resource into it. Specify **true** to keep the stream open.
 
 ## Examples
-
 
 
 
@@ -97,3 +98,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [ResourceSavingArgs](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

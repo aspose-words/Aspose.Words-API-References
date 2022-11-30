@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words/comment/get_storytype/
 ---
-## Comment.get_StoryType method
+## Comment::get_StoryType method
 
 
 Returns **StoryType.Comments**.
@@ -17,7 +17,6 @@ Aspose::Words::StoryType Aspose::Words::Comment::get_StoryType() override
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,9 @@ ASSERT_EQ(StoryType::Comments, comment->get_StoryType());
 doc->Save(ArtifactsDir + u"InlineStory.InsertInlineStoryNodes.docx");
 ```
 
+## See Also
+
+* Enum [StoryType](../../storytype/)
+* Class [Comment](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

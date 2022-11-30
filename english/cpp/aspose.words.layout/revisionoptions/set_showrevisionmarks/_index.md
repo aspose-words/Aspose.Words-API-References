@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /cpp/aspose.words.layout/revisionoptions/set_showrevisionmarks/
 ---
-## RevisionOptions.set_ShowRevisionMarks method
+## RevisionOptions::set_ShowRevisionMarks method
 
 
 Setter for [Aspose::Words::Layout::RevisionOptions::get_ShowRevisionMarks](../get_showrevisionmarks/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Layout::RevisionOptions::get_ShowRevisionMarks](../ge
 void Aspose::Words::Layout::RevisionOptions::set_ShowRevisionMarks(bool value)
 ```
 
+## See Also
+
+* Class [RevisionOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

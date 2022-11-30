@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.webextensions/webextensionreference/webextensionreference/
 ---
-## WebExtensionReference.WebExtensionReference method
+## WebExtensionReference::WebExtensionReference constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.webextensions/webextensionreference/webextensionreference
 Aspose::Words::WebExtensions::WebExtensionReference::WebExtensionReference()
 ```
 
+## See Also
+
+* Class [WebExtensionReference](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

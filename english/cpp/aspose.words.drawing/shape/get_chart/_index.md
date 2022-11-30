@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.drawing/shape/get_chart/
 ---
-## Shape.get_Chart method
+## Shape::get_Chart method
 
 
 Provides access to the chart properties if this shape has a Chart.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> Aspose::Words::Drawing:
 
 
 ## Examples
-
 
 
 
@@ -131,3 +130,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Chart](../../../aspose.words.drawing.charts/chart/)
+* Class [Shape](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

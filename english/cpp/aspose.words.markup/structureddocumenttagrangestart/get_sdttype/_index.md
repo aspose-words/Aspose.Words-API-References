@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_sdttype/
 ---
-## StructuredDocumentTagRangeStart.get_SdtType method
+## StructuredDocumentTagRangeStart::get_SdtType method
 
 
 Gets type of this structured document tag.
@@ -17,7 +17,6 @@ Aspose::Words::Markup::SdtType Aspose::Words::Markup::StructuredDocumentTagRange
 
 
 ## Examples
-
 
 
 
@@ -49,3 +48,9 @@ std::cout << "\t|Id: " << rangeEndTag->get_Id() << std::endl;
 std::cout << String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) << std::endl;
 ```
 
+## See Also
+
+* Enum [SdtType](../../sdttype/)
+* Class [StructuredDocumentTagRangeStart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

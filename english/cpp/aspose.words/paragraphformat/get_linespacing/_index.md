@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words/paragraphformat/get_linespacing/
 ---
-## ParagraphFormat.get_LineSpacing method
+## ParagraphFormat::get_LineSpacing method
 
 
 Gets or sets the line spacing (in points) for the paragraph.
@@ -15,13 +15,14 @@ Gets or sets the line spacing (in points) for the paragraph.
 double Aspose::Words::ParagraphFormat::get_LineSpacing()
 ```
 
+## Remarks
+
 
 When LineSpacingRule property is set to AtLeast, the line spacing can be greater than or equal to, but never less than the specified LineSpacing value.
 
 When LineSpacingRule property is set to Exactly, the line spacing never changes from the specified LineSpacing value, even if a larger font is used within the paragraph.
 
 ## Examples
-
 
 
 
@@ -60,3 +61,8 @@ builder->Writeln(u"Line spacing of 1.5 default lines.");
 doc->Save(ArtifactsDir + u"ParagraphFormat.LineSpacing.docx");
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

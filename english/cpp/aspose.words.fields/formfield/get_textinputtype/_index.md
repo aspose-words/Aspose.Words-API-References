@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.words.fields/formfield/get_textinputtype/
 ---
-## FormField.get_TextInputType method
+## FormField::get_TextInputType method
 
 
 Gets or sets the type of a text form field.
@@ -17,7 +17,6 @@ Aspose::Words::Fields::TextFormFieldType Aspose::Words::Fields::FormField::get_T
 
 
 ## Examples
-
 
 
 
@@ -150,3 +149,9 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [TextFormFieldType](../../textformfieldtype/)
+* Class [FormField](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

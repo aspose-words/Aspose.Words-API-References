@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words/font/get_highlightcolor/
 ---
-## Font.get_HighlightColor method
+## Font::get_HighlightColor method
 
 
 Gets or sets the highlight (marker) color.
@@ -17,7 +17,6 @@ System::Drawing::Color Aspose::Words::Font::get_HighlightColor()
 
 
 ## Examples
-
 
 
 
@@ -35,3 +34,8 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(run);
 doc->Save(ArtifactsDir + u"Font.CreateFormattedRun.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

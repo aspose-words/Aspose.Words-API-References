@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.words.markup/structureddocumenttag/get_placeholder/
 ---
-## StructuredDocumentTag.get_Placeholder method
+## StructuredDocumentTag::get_Placeholder method
 
 
 Gets the [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [XmlMapping](../get_xmlmapping/) element or the [IsShowingPlaceholderText](../get_isshowingplaceholdertext/) element is true.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::BuildingBlocks::BuildingBlock> Aspose::Words::M
 
 
 ## Examples
-
 
 
 
@@ -62,3 +61,9 @@ builder->InsertNode(tag);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 ```
 
+## See Also
+
+* Class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

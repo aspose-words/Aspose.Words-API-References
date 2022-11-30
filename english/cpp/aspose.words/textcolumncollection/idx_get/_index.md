@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/textcolumncollection/idx_get/
 ---
-## TextColumnCollection.idx_get method
+## TextColumnCollection::idx_get method
 
 
 Returns a text column at the specified index.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::TextColumn> Aspose::Words::TextColumnCollection
 
 
 ## Examples
-
 
 
 
@@ -52,3 +51,9 @@ builder->Writeln(u"Wide column 2.");
 doc->Save(ArtifactsDir + u"PageSetup.CustomColumnWidth.docx");
 ```
 
+## See Also
+
+* Class [TextColumn](../../textcolumn/)
+* Class [TextColumnCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

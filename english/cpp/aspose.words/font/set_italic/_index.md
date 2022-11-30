@@ -6,7 +6,7 @@ type: docs
 weight: 885
 url: /cpp/aspose.words/font/set_italic/
 ---
-## Font.set_Italic method
+## Font::set_Italic method
 
 
 Setter for [Aspose::Words::Font::get_Italic](../get_italic/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Font::get_Italic](../get_italic/).
 void Aspose::Words::Font::set_Italic(bool value)
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

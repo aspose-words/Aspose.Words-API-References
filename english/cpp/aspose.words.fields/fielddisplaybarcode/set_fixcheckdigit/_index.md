@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.words.fields/fielddisplaybarcode/set_fixcheckdigit/
 ---
-## FieldDisplayBarcode.set_FixCheckDigit method
+## FieldDisplayBarcode::set_FixCheckDigit method
 
 
 Setter for [Aspose::Words::Fields::FieldDisplayBarcode::get_FixCheckDigit](../get_fixcheckdigit/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldDisplayBarcode::get_FixCheckDigit](../ge
 void Aspose::Words::Fields::FieldDisplayBarcode::set_FixCheckDigit(bool value)
 ```
 
+## See Also
+
+* Class [FieldDisplayBarcode](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

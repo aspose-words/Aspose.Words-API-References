@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.fields/formfield/get_name/
 ---
-## FormField.get_Name method
+## FormField::get_Name method
 
 
 Gets or sets the form field name.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FormField::get_Name()
 
 
 ## Examples
-
 
 
 
@@ -39,3 +38,8 @@ ASSERT_EQ(u"Apple", comboBox->get_Result());
 doc->Save(ArtifactsDir + u"FormFields.Create.html");
 ```
 
+## See Also
+
+* Class [FormField](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

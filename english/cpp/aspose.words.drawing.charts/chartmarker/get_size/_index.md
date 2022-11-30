@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.drawing.charts/chartmarker/get_size/
 ---
-## ChartMarker.get_Size method
+## ChartMarker::get_Size method
 
 
 Gets or sets chart marker size. Default value is 7.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Drawing::Charts::ChartMarker::get_Size()
 
 
 ## Examples
-
 
 
 
@@ -77,3 +76,8 @@ static void ApplyDataPoints(SharedPtr<ChartSeries> series, int dataPointsCount, 
 }
 ```
 
+## See Also
+
+* Class [ChartMarker](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

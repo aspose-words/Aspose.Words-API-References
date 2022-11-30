@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.markup/structureddocumenttag/structureddocumenttag/
 ---
-## StructuredDocumentTag.StructuredDocumentTag method
+## StructuredDocumentTag::StructuredDocumentTag constructor
 
 
 Initializes a new instance of the **Structured document tag** class.
@@ -21,23 +21,24 @@ Aspose::Words::Markup::StructuredDocumentTag::StructuredDocumentTag(const System
 | doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
 | type | Aspose::Words::Markup::SdtType | Type of SDT node. |
 | level | Aspose::Words::Markup::MarkupLevel | Level of SDT node within the document. |
+## Remarks
+
 
 The following types of SDT can be created:
 
-* **Checkbox**
-* **DropDownList**
-* **ComboBox**
-* **Date**
-* **BuildingBlockGallery**
-* **Group**
-* **Picture**
-* **RichText**
-* **PlainText**
+* [Checkbox](../../sdttype/)
+* [DropDownList](../../sdttype/)
+* [ComboBox](../../sdttype/)
+* [Date](../../sdttype/)
+* [BuildingBlockGallery](../../sdttype/)
+* [Group](../../sdttype/)
+* [Picture](../../sdttype/)
+* [RichText](../../sdttype/)
+* [PlainText](../../sdttype/)
 
 
 
 ## Examples
-
 
 
 
@@ -58,3 +59,11 @@ builder->InsertNode(sdtCheckBox);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.CheckBox.docx");
 ```
 
+## See Also
+
+* Class [DocumentBase](../../../aspose.words/documentbase/)
+* Enum [SdtType](../../sdttype/)
+* Enum [MarkupLevel](../../markuplevel/)
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

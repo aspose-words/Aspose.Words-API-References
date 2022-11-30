@@ -3,7 +3,7 @@ title: OfficeMathRenderer
 second_title: Aspose.Words for .NET API Reference
 description: Provides methods to render an individual OfficeMath../aspose.words.math/officemath/ to a raster or vector image or to a Graphics object.
 type: docs
-weight: 4330
+weight: 4340
 url: /net/aspose.words.rendering/officemathrenderer/
 ---
 ## OfficeMathRenderer class

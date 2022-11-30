@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.tables/row/get_rowformat/
 ---
-## Row.get_RowFormat method
+## Row::get_RowFormat method
 
 
 Provides access to the formatting properties of the row.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Tables::RowFormat> Aspose::Words::Tables::Row::
 
 
 ## Examples
-
 
 
 
@@ -67,3 +66,9 @@ firstRow->get_RowFormat()->set_AllowBreakAcrossPages(true);
 doc->Save(ArtifactsDir + u"Table.RowFormat.docx");
 ```
 
+## See Also
+
+* Class [RowFormat](../../rowformat/)
+* Class [Row](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

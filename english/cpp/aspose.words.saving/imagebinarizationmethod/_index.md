@@ -11,6 +11,10 @@ url: /cpp/aspose.words.saving/imagebinarizationmethod/
 
 Specifies the method used to binarize image.
 
+```cpp
+enum class ImageBinarizationMethod
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,7 +24,6 @@ Specifies the method used to binarize image.
 
 
 ## Examples
-
 
 
 
@@ -45,3 +48,7 @@ options->set_ThresholdForFloydSteinbergDithering(240);
 doc->Save(ArtifactsDir + u"ImageSaveOptions.FloydSteinbergDithering.tiff", options);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

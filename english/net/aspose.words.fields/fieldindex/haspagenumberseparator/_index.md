@@ -53,6 +53,7 @@ builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "First entry";
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.INDEX.XE.PageNumberList.docx");
 ```

@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.words/paragraphformat/get_shading/
 ---
-## ParagraphFormat.get_Shading method
+## ParagraphFormat::get_Shading method
 
 
 Returns a [Shading](../../shading/) object that refers to the shading formatting for the paragraph.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Shading> Aspose::Words::ParagraphFormat::get_Sh
 
 
 ## Examples
-
 
 
 
@@ -42,3 +41,9 @@ builder->Write(u"This paragraph is formatted with a double border and shading.")
 doc->Save(ArtifactsDir + u"DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
+## See Also
+
+* Class [Shading](../../shading/)
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

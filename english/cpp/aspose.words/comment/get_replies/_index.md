@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words/comment/get_replies/
 ---
-## Comment.get_Replies method
+## Comment::get_Replies method
 
 
 Returns a collection of [Comment](../) objects that are immediate children of the specified comment.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::CommentCollection> Aspose::Words::Comment::get_
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,9 @@ for (auto comment : System::IterateOver(comments->LINQ_OfType<SharedPtr<Comment>
 }
 ```
 
+## See Also
+
+* Class [CommentCollection](../../commentcollection/)
+* Class [Comment](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

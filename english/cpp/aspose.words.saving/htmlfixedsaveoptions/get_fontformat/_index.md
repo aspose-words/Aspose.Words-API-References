@@ -6,10 +6,10 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_fontformat/
 ---
-## HtmlFixedSaveOptions.get_FontFormat method
+## HtmlFixedSaveOptions::get_FontFormat method
 
 
-Gets or sets [ExportFontFormat](../../exportfontformat/) used for font exporting. Default value is **Woff**.
+Gets or sets [ExportFontFormat](../../exportfontformat/) used for font exporting. Default value is [Woff](../../exportfontformat/).
 
 ```cpp
 Aspose::Words::Saving::ExportFontFormat Aspose::Words::Saving::HtmlFixedSaveOptions::get_FontFormat() const
@@ -17,7 +17,6 @@ Aspose::Words::Saving::ExportFontFormat Aspose::Words::Saving::HtmlFixedSaveOpti
 
 
 ## Examples
-
 
 
 
@@ -48,3 +47,9 @@ else
 }
 ```
 
+## See Also
+
+* Enum [ExportFontFormat](../../exportfontformat/)
+* Class [HtmlFixedSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

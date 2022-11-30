@@ -18,5 +18,5 @@ The **Aspose.Words.Comparing** namespace provides classes and enumerations that 
 
 | Enum | Description |
 | --- | --- |
-| [ComparisonTargetType](./comparisontargettype/) | Allows to specify base document which will be used during comparison. Default value is **Current**. |
+| [ComparisonTargetType](./comparisontargettype/) | Allows to specify base document which will be used during comparison. Default value is [Current](./comparisontargettype/). |
 | [Granularity](./granularity/) | Specifies the granularity of changes to track when comparing two documents. |

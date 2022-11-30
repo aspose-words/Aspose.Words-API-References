@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fonts/fontsubstitutionsettings/get_fontinfosubstitution/
 ---
-## FontSubstitutionSettings.get_FontInfoSubstitution method
+## FontSubstitutionSettings::get_FontInfoSubstitution method
 
 
 [Settings](../../../aspose.words.settings/) related to font info substitution rule.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Fonts::FontInfoSubstitutionRule> Aspose::Words:
 
 
 ## Examples
-
 
 
 
@@ -79,3 +78,9 @@ public:
 };
 ```
 
+## See Also
+
+* Class [FontInfoSubstitutionRule](../../fontinfosubstitutionrule/)
+* Class [FontSubstitutionSettings](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_bytes/
 ---
-## BuiltInDocumentProperties.get_Bytes method
+## BuiltInDocumentProperties::get_Bytes method
 
 
 Represents an estimate of the number of bytes in the document.
@@ -15,13 +15,14 @@ Represents an estimate of the number of bytes in the document.
 int32_t Aspose::Words::Properties::BuiltInDocumentProperties::get_Bytes()
 ```
 
+## Remarks
+
 
 Microsoft Word does not always set this property.
 
 Aspose.Words does not update this property.
 
 ## Examples
-
 
 
 
@@ -126,3 +127,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

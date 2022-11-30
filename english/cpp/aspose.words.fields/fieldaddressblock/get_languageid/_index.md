@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fields/fieldaddressblock/get_languageid/
 ---
-## FieldAddressBlock.get_LanguageId method
+## FieldAddressBlock::get_LanguageId method
 
 
 Gets or sets the language ID used to format the address.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldAddressBlock::get_LanguageId()
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,8 @@ ASSERT_EQ(
     field->GetFieldCode());
 ```
 
+## See Also
+
+* Class [FieldAddressBlock](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

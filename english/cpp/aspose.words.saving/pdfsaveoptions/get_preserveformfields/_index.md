@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_preserveformfields/
 ---
-## PdfSaveOptions.get_PreserveFormFields method
+## PdfSaveOptions::get_PreserveFormFields method
 
 
 Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is **false**.
@@ -14,6 +14,8 @@ Specifies whether to preserve Microsoft Word form fields as form fields in PDF o
 ```cpp
 bool Aspose::Words::Saving::PdfSaveOptions::get_PreserveFormFields() const
 ```
+
+## Remarks
 
 
 Microsoft Word form fields include text input, drop down and check box controls.
@@ -29,7 +31,6 @@ Editable forms are prohibited by PDF/A compliance. **false** value will be used 
 Form fields are not supported when saving to PDF/UA. **false** value will be used automatically.
 
 ## Examples
-
 
 
 
@@ -55,3 +56,8 @@ pdfOptions->set_PreserveFormFields(preserveFormFields);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.PreserveFormFields.pdf", pdfOptions);
 ```
 
+## See Also
+
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.drawing.charts/chartseriescollection/add/
 ---
-## ChartSeriesCollection.Add(const System::String\&, const System::ArrayPtr\<double\>\&, const System::ArrayPtr\<double\>\&) method
+## ChartSeriesCollection::Add(const System::String\&, const System::ArrayPtr\<double\>\&, const System::ArrayPtr\<double\>\&) method
 
 
 Adds new [ChartSeries](../../chartseries/) to this collection. Use this method to add series to any type of Scatter charts.
@@ -18,11 +18,9 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Dr
 
 ### ReturnValue
 
-
 Recently added [ChartSeries](../../chartseries/) object.
 
 ## Examples
-
 
 
 
@@ -99,7 +97,13 @@ static SharedPtr<Chart> AppendChart(SharedPtr<DocumentBuilder> builder, ChartTyp
 }
 ```
 
-## ChartSeriesCollection.Add(const System::String\&, const System::ArrayPtr\<double\>\&, const System::ArrayPtr\<double\>\&, const System::ArrayPtr\<double\>\&) method
+## See Also
+
+* Class [ChartSeries](../../chartseries/)
+* Class [ChartSeriesCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)
+## ChartSeriesCollection::Add(const System::String\&, const System::ArrayPtr\<double\>\&, const System::ArrayPtr\<double\>\&, const System::ArrayPtr\<double\>\&) method
 
 
 Adds new [ChartSeries](../../chartseries/) to this collection. Use this method to add series to any type of Bubble charts.
@@ -111,11 +115,9 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Dr
 
 ### ReturnValue
 
-
 Recently added [ChartSeries](../../chartseries/) object.
 
 ## Examples
-
 
 
 
@@ -192,7 +194,13 @@ static SharedPtr<Chart> AppendChart(SharedPtr<DocumentBuilder> builder, ChartTyp
 }
 ```
 
-## ChartSeriesCollection.Add(const System::String\&, const System::ArrayPtr\<System::DateTime\>\&, const System::ArrayPtr\<double\>\&) method
+## See Also
+
+* Class [ChartSeries](../../chartseries/)
+* Class [ChartSeriesCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)
+## ChartSeriesCollection::Add(const System::String\&, const System::ArrayPtr\<System::DateTime\>\&, const System::ArrayPtr\<double\>\&) method
 
 
 Adds new [ChartSeries](../../chartseries/) to this collection. Use this method to add series to any type of Area, Radar and Stock charts.
@@ -206,7 +214,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Dr
 
 
 
-
 Shows how to create an appropriate type of chart series for a graph type. 
 ```cpp
 void ChartSeriesCollection_()
@@ -280,7 +287,13 @@ static SharedPtr<Chart> AppendChart(SharedPtr<DocumentBuilder> builder, ChartTyp
 }
 ```
 
-## ChartSeriesCollection.Add(const System::String\&, const System::ArrayPtr\<System::String\>\&, const System::ArrayPtr\<double\>\&) method
+## See Also
+
+* Class [ChartSeries](../../chartseries/)
+* Class [ChartSeriesCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)
+## ChartSeriesCollection::Add(const System::String\&, const System::ArrayPtr\<System::String\>\&, const System::ArrayPtr\<double\>\&) method
 
 
 Adds new [ChartSeries](../../chartseries/) to this collection. Use this method to add series to any type of Bar, Column, Line and Surface charts.
@@ -292,11 +305,9 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Dr
 
 ### ReturnValue
 
-
 Recently added [ChartSeries](../../chartseries/) object.
 
 ## Examples
-
 
 
 
@@ -373,3 +384,9 @@ static SharedPtr<Chart> AppendChart(SharedPtr<DocumentBuilder> builder, ChartTyp
 }
 ```
 
+## See Also
+
+* Class [ChartSeries](../../chartseries/)
+* Class [ChartSeriesCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

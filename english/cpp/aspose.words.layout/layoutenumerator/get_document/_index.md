@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.layout/layoutenumerator/get_document/
 ---
-## LayoutEnumerator.get_Document method
+## LayoutEnumerator::get_Document method
 
 
 Gets document this instance enumerates.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Document> Aspose::Words::Layout::LayoutEnumerat
 
 
 ## Examples
-
 
 
 
@@ -143,3 +142,9 @@ static void PrintCurrentEntity(SharedPtr<LayoutEnumerator> layoutEnumerator, int
 }
 ```
 
+## See Also
+
+* Class [Document](../../../aspose.words/document/)
+* Class [LayoutEnumerator](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

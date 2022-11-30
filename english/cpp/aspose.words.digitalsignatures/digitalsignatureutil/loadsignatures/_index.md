@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/
 ---
-## DigitalSignatureUtil.LoadSignatures(const System::SharedPtr\<System::IO::Stream\>\&) method
+## DigitalSignatureUtil::LoadSignatures(const System::SharedPtr\<System::IO::Stream\>\&) method
 
 
 Loads digital signatures from document using stream.
@@ -22,11 +22,9 @@ static System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignatureColle
 
 ### ReturnValue
 
-
 Collection of digital signatures. Returns empty collection if file is not signed.
 
 ## Examples
-
 
 
 
@@ -47,7 +45,13 @@ ASSERT_EQ(1, digitalSignatures->get_Count());
 }
 ```
 
-## DigitalSignatureUtil.LoadSignatures(const System::String\&) method
+## See Also
+
+* Class [DigitalSignatureCollection](../../digitalsignaturecollection/)
+* Class [DigitalSignatureUtil](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)
+## DigitalSignatureUtil::LoadSignatures(const System::String\&) method
 
 
 Loads digital signatures from document.
@@ -63,11 +67,9 @@ static System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignatureColle
 
 ### ReturnValue
 
-
 Collection of digital signatures. Returns empty collection if file is not signed.
 
 ## Examples
-
 
 
 
@@ -111,7 +113,13 @@ ASSERT_EQ(0, DigitalSignatureUtil::LoadSignatures(ArtifactsDir + u"DigitalSignat
 ASSERT_EQ(0, DigitalSignatureUtil::LoadSignatures(ArtifactsDir + u"DigitalSignatureUtil.LoadAndRemove.FromStream.docx")->get_Count());
 ```
 
-## DigitalSignatureUtil.LoadSignatures(std::basic_istream\<CharType, Traits\>\&) method
+## See Also
+
+* Class [DigitalSignatureCollection](../../digitalsignaturecollection/)
+* Class [DigitalSignatureUtil](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)
+## DigitalSignatureUtil::LoadSignatures(std::basic_istream\<CharType, Traits\>\&) method
 
 
 
@@ -120,3 +128,9 @@ ASSERT_EQ(0, DigitalSignatureUtil::LoadSignatures(ArtifactsDir + u"DigitalSignat
 template<typename CharType,typename Traits> static System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignatureCollection> Aspose::Words::DigitalSignatures::DigitalSignatureUtil::LoadSignatures(std::basic_istream<CharType, Traits> &stream)
 ```
 
+## See Also
+
+* Class [DigitalSignatureCollection](../../digitalsignaturecollection/)
+* Class [DigitalSignatureUtil](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)

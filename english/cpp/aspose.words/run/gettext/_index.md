@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/run/gettext/
 ---
-## Run.GetText method
+## Run::GetText method
 
 
 Gets the text of the run.
@@ -18,11 +18,9 @@ System::String Aspose::Words::Run::GetText() override
 
 ### ReturnValue
 
-
 The text of the run.
 
 ## Examples
-
 
 
 
@@ -104,3 +102,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Run](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.drawing/signatureline/set_signertitle/
 ---
-## SignatureLine.set_SignerTitle method
+## SignatureLine::set_SignerTitle method
 
 
 Setter for [Aspose::Words::Drawing::SignatureLine::get_SignerTitle](../get_signertitle/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::SignatureLine::get_SignerTitle](../get_signe
 void Aspose::Words::Drawing::SignatureLine::set_SignerTitle(const System::String &value)
 ```
 
+## See Also
+
+* Class [SignatureLine](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

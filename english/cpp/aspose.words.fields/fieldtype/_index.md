@@ -11,6 +11,10 @@ url: /cpp/aspose.words.fields/fieldtype/
 
 Specifies Microsoft Word field types.
 
+```cpp
+enum class FieldType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -118,7 +122,6 @@ Specifies Microsoft Word field types.
 
 
 
-
 Shows how to insert a field into a document using a field code. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -159,3 +162,7 @@ ASSERT_EQ(u" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
 field->Update();
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

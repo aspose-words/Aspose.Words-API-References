@@ -11,6 +11,10 @@ url: /cpp/aspose.words.saving/exportheadersfootersmode/
 
 Specifies how headers and footers are exported to HTML, MHTML or EPUB.
 
+```cpp
+enum class ExportHeadersFootersMode
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -22,7 +26,6 @@ Specifies how headers and footers are exported to HTML, MHTML or EPUB.
 
 
 ## Examples
-
 
 
 
@@ -48,3 +51,7 @@ doc = MakeObject<Document>(ArtifactsDir + u"HeaderFooter.ExportMode.html");
 ASSERT_FALSE(doc->get_Range()->get_Text().Contains(u"First header"));
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

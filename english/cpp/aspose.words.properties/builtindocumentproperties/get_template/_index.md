@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_template/
 ---
-## BuiltInDocumentProperties.get_Template method
+## BuiltInDocumentProperties::get_Template method
 
 
 Gets or sets the informational name of the document template.
@@ -14,6 +14,8 @@ Gets or sets the informational name of the document template.
 ```cpp
 System::String Aspose::Words::Properties::BuiltInDocumentProperties::get_Template()
 ```
+
+## Remarks
 
 
 In Microsoft Word, this property is for informational purposes only and usually contains only the file name of the template without the path.
@@ -23,7 +25,6 @@ Empty string means the document is attached to the Normal template.
 To get or set the actual name of the attached template, use the [AttachedTemplate](../../../aspose.words/document/get_attachedtemplate/) property.
 
 ## Examples
-
 
 
 
@@ -57,3 +58,8 @@ properties->set_LastSavedTime(System::DateTime::get_Now());
 doc->Save(ArtifactsDir + u"DocumentProperties.Origin.docx");
 ```
 
+## See Also
+
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

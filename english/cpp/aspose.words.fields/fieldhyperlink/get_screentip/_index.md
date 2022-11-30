@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fieldhyperlink/get_screentip/
 ---
-## FieldHyperlink.get_ScreenTip method
+## FieldHyperlink::get_ScreenTip method
 
 
 Gets or sets the ScreenTip text for the hyperlink.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldHyperlink::get_ScreenTip()
 
 
 ## Examples
-
 
 
 
@@ -49,3 +48,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.HYPERLINK.docx");
 ```
 
+## See Also
+
+* Class [FieldHyperlink](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

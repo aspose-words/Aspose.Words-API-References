@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.replacing/findreplaceoptions/get_legacymode/
 ---
-## FindReplaceOptions.get_LegacyMode method
+## FindReplaceOptions::get_LegacyMode method
 
 
 Gets or sets a boolean value indicating that old find/replace algorithm is used.
@@ -17,7 +17,6 @@ bool Aspose::Words::Replacing::FindReplaceOptions::get_LegacyMode() const
 
 
 ## Examples
-
 
 
 
@@ -41,3 +40,8 @@ doc->get_Range()->Replace(regex, u"$2 took money from $1", options);
 ASSERT_EQ(doc->GetText(), u"Paul took money from Jason.\f");
 ```
 
+## See Also
+
+* Class [FindReplaceOptions](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)

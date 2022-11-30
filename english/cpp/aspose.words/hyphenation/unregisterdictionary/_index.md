@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words/hyphenation/unregisterdictionary/
 ---
-## Hyphenation.UnregisterDictionary method
+## Hyphenation::UnregisterDictionary method
 
 
 Unregisters a hyphenation dictionary for the specified language. This is different from registering Null dictionary. Unregistering a dictionary enables callback for the specified language.
@@ -21,7 +21,6 @@ static void Aspose::Words::Hyphenation::UnregisterDictionary(const System::Strin
 | language | const System::String\& | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. If null or empty string then all dictionaries are unregistered. |
 
 ## Examples
-
 
 
 
@@ -56,3 +55,8 @@ doc = MakeObject<Document>(MyDir + u"German text.docx");
 doc->Save(ArtifactsDir + u"Hyphenation.Dictionary.Unregistered.pdf");
 ```
 
+## See Also
+
+* Class [Hyphenation](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

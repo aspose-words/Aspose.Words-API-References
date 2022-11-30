@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.markup/structureddocumenttag/get_datedisplayformat/
 ---
-## StructuredDocumentTag.get_DateDisplayFormat method
+## StructuredDocumentTag::get_DateDisplayFormat method
 
 
 String that represents the format in which dates are displayed. Can not be null.
@@ -15,13 +15,14 @@ String that represents the format in which dates are displayed. Can not be null.
 System::String Aspose::Words::Markup::StructuredDocumentTag::get_DateDisplayFormat()
 ```
 
+## Remarks
 
-Accessing this property will only work for **Date** SDT type.
+
+Accessing this property will only work for [Date](../../sdttype/) SDT type.
 
 For all other SDT types exception will occur.
 
 ## Examples
-
 
 
 
@@ -56,3 +57,8 @@ builder->InsertNode(sdtDate);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.Date.docx");
 ```
 
+## See Also
+
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

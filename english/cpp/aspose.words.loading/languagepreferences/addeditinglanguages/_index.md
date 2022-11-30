@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.loading/languagepreferences/addeditinglanguages/
 ---
-## LanguagePreferences.AddEditingLanguages method
+## LanguagePreferences::AddEditingLanguages method
 
 
 Adds additional editing languages.
@@ -15,3 +15,9 @@ Adds additional editing languages.
 void Aspose::Words::Loading::LanguagePreferences::AddEditingLanguages(const System::ArrayPtr<Aspose::Words::Loading::EditingLanguage> &languages)
 ```
 
+## See Also
+
+* Enum [EditingLanguage](../../editinglanguage/)
+* Class [LanguagePreferences](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

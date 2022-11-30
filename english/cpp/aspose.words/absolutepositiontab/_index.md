@@ -51,7 +51,6 @@ class AbsolutePositionTab : public Aspose::Words::SpecialChar
 
 
 
-
 Shows how to process absolute position tab characters with a document visitor. 
 ```cpp
 void DocumentToTxt()
@@ -110,3 +109,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [SpecialChar](../specialchar/)
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

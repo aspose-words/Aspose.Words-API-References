@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.layout/revisionoptions/set_commentcolor/
 ---
-## RevisionOptions.set_CommentColor method
+## RevisionOptions::set_CommentColor method
 
 
 Setter for [Aspose::Words::Layout::RevisionOptions::get_CommentColor](../get_commentcolor/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Layout::RevisionOptions::get_CommentColor](../get_com
 void Aspose::Words::Layout::RevisionOptions::set_CommentColor(Aspose::Words::Layout::RevisionColor value)
 ```
 
+## See Also
+
+* Enum [RevisionColor](../../revisioncolor/)
+* Class [RevisionOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

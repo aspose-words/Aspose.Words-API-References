@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.words/paragraph/get_paragraphformat/
 ---
-## Paragraph.get_ParagraphFormat method
+## Paragraph::get_ParagraphFormat method
 
 
 Provides access to the paragraph formatting properties.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::ParagraphFormat> Aspose::Words::Paragraph::get_
 
 
 ## Examples
-
 
 
 
@@ -65,3 +64,9 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../../paragraphformat/)
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

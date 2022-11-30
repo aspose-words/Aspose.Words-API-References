@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.fonts/fontinfo/set_family/
 ---
-## FontInfo.set_Family method
+## FontInfo::set_Family method
 
 
 Setter for [Aspose::Words::Fonts::FontInfo::get_Family](../get_family/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Fonts::FontInfo::get_Family](../get_family/).
 void Aspose::Words::Fonts::FontInfo::set_Family(Aspose::Words::Fonts::FontFamily value)
 ```
 
+## See Also
+
+* Enum [FontFamily](../../fontfamily/)
+* Class [FontInfo](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

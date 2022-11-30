@@ -11,6 +11,10 @@ url: /cpp/aspose.words/loadformat/
 
 Indicates the format of the document that is to be loaded.
 
+```cpp
+enum class LoadFormat
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -44,7 +48,6 @@ Indicates the format of the document that is to be loaded.
 
 
 ## Examples
-
 
 
 
@@ -117,3 +120,7 @@ ASSERT_TRUE(imageShape->get_IsImage());
 doc->Save(ArtifactsDir + u"HtmlLoadOptions.BaseUri.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

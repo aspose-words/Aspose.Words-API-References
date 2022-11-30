@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fieldsavedate/set_uselunarcalendar/
 ---
-## FieldSaveDate.set_UseLunarCalendar method
+## FieldSaveDate::set_UseLunarCalendar method
 
 
 Setter for [Aspose::Words::Fields::FieldSaveDate::get_UseLunarCalendar](../get_uselunarcalendar/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldSaveDate::get_UseLunarCalendar](../get_u
 void Aspose::Words::Fields::FieldSaveDate::set_UseLunarCalendar(bool value)
 ```
 
+## See Also
+
+* Class [FieldSaveDate](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

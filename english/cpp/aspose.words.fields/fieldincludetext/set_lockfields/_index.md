@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.fields/fieldincludetext/set_lockfields/
 ---
-## FieldIncludeText.set_LockFields method
+## FieldIncludeText::set_LockFields method
 
 
 Setter for [Aspose::Words::Fields::FieldIncludeText::get_LockFields](../get_lockfields/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldIncludeText::get_LockFields](../get_lock
 void Aspose::Words::Fields::FieldIncludeText::set_LockFields(bool value)
 ```
 
+## See Also
+
+* Class [FieldIncludeText](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

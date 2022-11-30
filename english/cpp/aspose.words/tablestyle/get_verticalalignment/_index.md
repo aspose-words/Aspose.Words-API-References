@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words/tablestyle/get_verticalalignment/
 ---
-## TableStyle.get_VerticalAlignment method
+## TableStyle::get_VerticalAlignment method
 
 
 Specifies the vertical alignment for the cells.
@@ -17,7 +17,6 @@ Aspose::Words::Tables::CellVerticalAlignment Aspose::Words::TableStyle::get_Vert
 
 
 ## Examples
-
 
 
 
@@ -59,3 +58,9 @@ ASSERT_EQ(u"MyTableStyle1", table->get_StyleName());
 doc->Save(ArtifactsDir + u"Table.TableStyleCreation.docx");
 ```
 
+## See Also
+
+* Enum [CellVerticalAlignment](../../../aspose.words.tables/cellverticalalignment/)
+* Class [TableStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

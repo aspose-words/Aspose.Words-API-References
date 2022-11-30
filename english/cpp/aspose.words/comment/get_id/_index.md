@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words/comment/get_id/
 ---
-## Comment.get_Id method
+## Comment::get_Id method
 
 
 Gets the comment identifier.
@@ -14,6 +14,8 @@ Gets the comment identifier.
 ```cpp
 int32_t Aspose::Words::Comment::get_Id() const
 ```
+
+## Remarks
 
 
 The comment identifier allows to anchor a comment to a region of text in the document. The region must be demarcated using the [CommentRangeStart](../../commentrangestart/) and [CommentRangeEnd](../../commentrangeend/) object sharing the same identifier value as the [Comment](../) object.
@@ -23,7 +25,6 @@ You would use this value when looking for the [CommentRangeStart](../../commentr
 [Comment](../) identifiers are supposed to be unique across a document and Aspose.Words automatically maintains comment identifiers when loading, saving and combining documents.
 
 ## Examples
-
 
 
 
@@ -164,3 +165,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Comment](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

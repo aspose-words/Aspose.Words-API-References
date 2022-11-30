@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.lists/list/equals/
 ---
-## List.Equals(const System::SharedPtr\<Aspose::Words::Lists::List\>\&) method
+## List::Equals(const System::SharedPtr\<Aspose::Words::Lists::List\>\&) method
 
 
 Compares with the specified list.
@@ -15,7 +15,13 @@ Compares with the specified list.
 bool Aspose::Words::Lists::List::Equals(const System::SharedPtr<Aspose::Words::Lists::List> &list)
 ```
 
-## List.Equals(System::SharedPtr\<System::Object\>) method
+## See Also
+
+* Class [List](../)
+* Class [List](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)
+## List::Equals(System::SharedPtr\<System::Object\>) method
 
 
 
@@ -24,3 +30,8 @@ bool Aspose::Words::Lists::List::Equals(const System::SharedPtr<Aspose::Words::L
 bool Aspose::Words::Lists::List::Equals(System::SharedPtr<System::Object> obj) override
 ```
 
+## See Also
+
+* Class [List](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

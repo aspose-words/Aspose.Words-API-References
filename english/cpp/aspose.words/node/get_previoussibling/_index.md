@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words/node/get_previoussibling/
 ---
-## Node.get_PreviousSibling method
+## Node::get_PreviousSibling method
 
 
 Gets the node immediately preceding this node.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::Node::get_PreviousSibling(
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,9 @@ if (lastSection->get_PreviousSibling() != nullptr)
 ASSERT_EQ(u"Section 2 text.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Node](../)
+* Class [Node](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

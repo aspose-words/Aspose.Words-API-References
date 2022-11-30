@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words/bordercollection/getenumerator/
 ---
-## BorderCollection.GetEnumerator method
+## BorderCollection::GetEnumerator method
 
 
 Returns an enumerator object that can be used to iterate over all borders in the collection.
@@ -17,7 +17,6 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,9 @@ builder->Writeln(u"Hello world!");
 doc->Save(ArtifactsDir + u"BorderCollection.GetBordersEnumerator.docx");
 ```
 
+## See Also
+
+* Class [Border](../../border/)
+* Class [BorderCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

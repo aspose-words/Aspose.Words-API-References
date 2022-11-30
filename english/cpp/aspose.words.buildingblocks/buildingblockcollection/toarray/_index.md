@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.buildingblocks/buildingblockcollection/toarray/
 ---
-## BuildingBlockCollection.ToArray method
+## BuildingBlockCollection::ToArray method
 
 
 Copies all building blocks from the collection to a new array of building blocks.
@@ -18,11 +18,9 @@ System::ArrayPtr<System::SharedPtr<Aspose::Words::BuildingBlocks::BuildingBlock>
 
 ### ReturnValue
 
-
 An array of building blocks.
 
 ## Examples
-
 
 
 
@@ -122,3 +120,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [BuildingBlock](../../buildingblock/)
+* Class [BuildingBlockCollection](../)
+* Namespace [Aspose::Words::BuildingBlocks](../../)
+* Library [Aspose.Words](../../../)

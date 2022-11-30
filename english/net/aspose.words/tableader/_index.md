@@ -3,7 +3,7 @@ title: TabLeader
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of the leader line displayed under the tab character.
 type: docs
-weight: 5920
+weight: 5930
 url: /net/aspose.words/tableader/
 ---
 ## TabLeader enumeration

@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.words.tables/cellformat/set_preferredwidth/
 ---
-## CellFormat.set_PreferredWidth method
+## CellFormat::set_PreferredWidth method
 
 
 Setter for [Aspose::Words::Tables::CellFormat::get_PreferredWidth](../get_preferredwidth/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Tables::CellFormat::get_PreferredWidth](../get_prefer
 void Aspose::Words::Tables::CellFormat::set_PreferredWidth(const System::SharedPtr<Aspose::Words::Tables::PreferredWidth> &value)
 ```
 
+## See Also
+
+* Class [PreferredWidth](../../preferredwidth/)
+* Class [CellFormat](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

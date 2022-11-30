@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.saving/pdfdigitalsignaturedetails/get_timestampsettings/
 ---
-## PdfDigitalSignatureDetails.get_TimestampSettings method
+## PdfDigitalSignatureDetails::get_TimestampSettings method
 
 
 Gets or sets the digital signature timestamp settings.
@@ -15,11 +15,12 @@ Gets or sets the digital signature timestamp settings.
 System::SharedPtr<Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings> Aspose::Words::Saving::PdfDigitalSignatureDetails::get_TimestampSettings() const
 ```
 
+## Remarks
+
 
 The default value is null and the digital signature will not be time-stamped. When this property is set to a valid [PdfDigitalSignatureTimestampSettings](../../pdfdigitalsignaturetimestampsettings/) object, then the digital signature in the PDF document will be time-stamped.
 
 ## Examples
-
 
 
 
@@ -58,3 +59,9 @@ ASSERT_EQ(u"MyPassword", options->get_DigitalSignatureDetails()->get_TimestampSe
 doc->Save(ArtifactsDir + u"PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
 ```
 
+## See Also
+
+* Class [PdfDigitalSignatureTimestampSettings](../../pdfdigitalsignaturetimestampsettings/)
+* Class [PdfDigitalSignatureDetails](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

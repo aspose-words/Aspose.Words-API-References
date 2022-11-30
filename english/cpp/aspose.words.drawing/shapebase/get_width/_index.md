@@ -6,7 +6,7 @@ type: docs
 weight: 677
 url: /cpp/aspose.words.drawing/shapebase/get_width/
 ---
-## ShapeBase.get_Width method
+## ShapeBase::get_Width method
 
 
 Gets or sets the width of the containing block of the shape.
@@ -14,6 +14,8 @@ Gets or sets the width of the containing block of the shape.
 ```cpp
 double Aspose::Words::Drawing::ShapeBase::get_Width()
 ```
+
+## Remarks
 
 
 For a top-level shape, the value is in points.
@@ -23,7 +25,6 @@ For shapes in a group, the value is in the coordinate space and units of the par
 The default value is 0.
 
 ## Examples
-
 
 
 
@@ -98,3 +99,8 @@ ASPOSE_ASSERT_EQ(330.0, shape->get_Height());
 doc->Save(ArtifactsDir + u"Image.ScaleImage.docx");
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

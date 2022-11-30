@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.markup/customxmlschemacollection/indexof/
 ---
-## CustomXmlSchemaCollection.IndexOf method
+## CustomXmlSchemaCollection::IndexOf method
 
 
 Returns the zero-based index of the specified value in the collection.
@@ -22,11 +22,9 @@ int32_t Aspose::Words::Markup::CustomXmlSchemaCollection::IndexOf(const System::
 
 ### ReturnValue
 
-
 The zero based index. Negative value if not found.
 
 ## Examples
-
 
 
 
@@ -72,3 +70,8 @@ schemas->Clear();
 ASSERT_EQ(0, schemas->get_Count());
 ```
 
+## See Also
+
+* Class [CustomXmlSchemaCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

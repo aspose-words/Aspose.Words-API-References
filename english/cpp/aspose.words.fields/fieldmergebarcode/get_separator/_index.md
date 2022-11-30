@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.fields/fieldmergebarcode/get_separator/
 ---
-## FieldMergeBarcode.get_Separator method
+## FieldMergeBarcode::get_Separator method
 
 
 Gets the node that represents the field separator. Can be null.
@@ -15,3 +15,9 @@ Gets the node that represents the field separator. Can be null.
 System::SharedPtr<Aspose::Words::Fields::FieldSeparator> Aspose::Words::Fields::FieldMergeBarcode::get_Separator() override
 ```
 
+## See Also
+
+* Class [FieldSeparator](../../fieldseparator/)
+* Class [FieldMergeBarcode](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

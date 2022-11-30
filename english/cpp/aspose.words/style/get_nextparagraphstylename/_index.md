@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words/style/get_nextparagraphstylename/
 ---
-## Style.get_NextParagraphStyleName method
+## Style::get_NextParagraphStyleName method
 
 
 Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Style::get_NextParagraphStyleName()
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,8 @@ ASSERT_EQ(4, doc->get_Styles()->get_Count());
 }
 ```
 
+## See Also
+
+* Class [Style](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

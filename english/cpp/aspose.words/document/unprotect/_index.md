@@ -6,7 +6,7 @@ type: docs
 weight: 1132
 url: /cpp/aspose.words/document/unprotect/
 ---
-## Document.Unprotect() method
+## Document::Unprotect() method
 
 
 Removes protection from the document regardless of the password.
@@ -15,13 +15,14 @@ Removes protection from the document regardless of the password.
 void Aspose::Words::Document::Unprotect()
 ```
 
+## Remarks
+
 
 This method unprotects the document even if it has a protection password.
 
 Note that document protection is different from write protection. Write protection is specified using the [WriteProtection](../get_writeprotection/).
 
 ## Examples
-
 
 
 
@@ -65,7 +66,12 @@ doc->Unprotect(u"NewPassword");
 ASSERT_EQ(ProtectionType::NoProtection, doc->get_ProtectionType());
 ```
 
-## Document.Unprotect(const System::String\&) method
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Document::Unprotect(const System::String\&) method
 
 
 Removes protection from the document if a correct password is specified.
@@ -81,15 +87,15 @@ bool Aspose::Words::Document::Unprotect(const System::String &password)
 
 ### ReturnValue
 
-
 True if a correct password was specified and the document was unprotected.
+## Remarks
+
 
 This method unprotects the document only if a correct password is specified.
 
 Note that document protection is different from write protection. Write protection is specified using the [WriteProtection](../get_writeprotection/).
 
 ## Examples
-
 
 
 
@@ -133,3 +139,8 @@ doc->Unprotect(u"NewPassword");
 ASSERT_EQ(ProtectionType::NoProtection, doc->get_ProtectionType());
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

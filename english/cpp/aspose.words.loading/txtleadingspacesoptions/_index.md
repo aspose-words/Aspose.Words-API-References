@@ -9,7 +9,11 @@ url: /cpp/aspose.words.loading/txtleadingspacesoptions/
 ## TxtLeadingSpacesOptions enum
 
 
-Specifies available options for leading space handling during import from **Text** file.
+Specifies available options for leading space handling during import from [Text](../../aspose.words/loadformat/) file.
+
+```cpp
+enum class TxtLeadingSpacesOptions
+```
 
 ### Values
 
@@ -21,7 +25,6 @@ Specifies available options for leading space handling during import from **Text
 
 
 ## Examples
-
 
 
 
@@ -95,3 +98,7 @@ case TxtTrailingSpacesOptions::Trim:
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Loading](../)
+* Library [Aspose.Words](../../)

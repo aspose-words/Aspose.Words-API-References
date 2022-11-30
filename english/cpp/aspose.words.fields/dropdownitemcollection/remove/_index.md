@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.fields/dropdownitemcollection/remove/
 ---
-## DropDownItemCollection.Remove method
+## DropDownItemCollection::Remove method
 
 
 Removes the specified value from the collection.
@@ -21,7 +21,6 @@ void Aspose::Words::Fields::DropDownItemCollection::Remove(const System::String 
 | name | const System::String\& | The case-sensitive value to remove. |
 
 ## Examples
-
 
 
 
@@ -77,3 +76,8 @@ doc->Save(ArtifactsDir + u"FormFields.DropDownItemCollection.html");
 dropDownItems->Clear();
 ```
 
+## See Also
+
+* Class [DropDownItemCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

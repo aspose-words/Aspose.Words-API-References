@@ -6,7 +6,7 @@ type: docs
 weight: 495
 url: /cpp/aspose.words/font/get_spacing/
 ---
-## Font.get_Spacing method
+## Font::get_Spacing method
 
 
 Returns or sets the spacing (in points) between characters .
@@ -17,7 +17,6 @@ double Aspose::Words::Font::get_Spacing()
 
 
 ## Examples
-
 
 
 
@@ -41,3 +40,8 @@ builder->Writeln(u"Condensed by 1pt");
 doc->Save(ArtifactsDir + u"Font.ScalingSpacing.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

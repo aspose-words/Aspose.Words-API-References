@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fields/fieldgreetingline/getfieldnames/
 ---
-## FieldGreetingLine.GetFieldNames method
+## FieldGreetingLine::GetFieldNames method
 
 
 Returns a collection of mail merge field names used by the field.
@@ -15,3 +15,8 @@ Returns a collection of mail merge field names used by the field.
 System::ArrayPtr<System::String> Aspose::Words::Fields::FieldGreetingLine::GetFieldNames() override
 ```
 
+## See Also
+
+* Class [FieldGreetingLine](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

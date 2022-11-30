@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fields/fieldmacrobutton/set_displaytext/
 ---
-## FieldMacroButton.set_DisplayText method
+## FieldMacroButton::set_DisplayText method
 
 
 Setter for [Aspose::Words::Fields::FieldMacroButton::get_DisplayText](../get_displaytext/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldMacroButton::get_DisplayText](../get_dis
 void Aspose::Words::Fields::FieldMacroButton::set_DisplayText(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldMacroButton](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

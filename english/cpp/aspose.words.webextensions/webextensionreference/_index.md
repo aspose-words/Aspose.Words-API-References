@@ -28,3 +28,7 @@ class WebExtensionReference : public System::Object
 | [set_StoreType](./set_storetype/)(Aspose::Words::WebExtensions::WebExtensionStoreType) | Setter for [Aspose::Words::WebExtensions::WebExtensionReference::get_StoreType](./get_storetype/). |
 | [set_Version](./set_version/)(const System::String\&) | Setter for [Aspose::Words::WebExtensions::WebExtensionReference::get_Version](./get_version/). |
 | [WebExtensionReference](./webextensionreference/)() |  |
+## See Also
+
+* Namespace [Aspose::Words::WebExtensions](../)
+* Library [Aspose.Words](../../)

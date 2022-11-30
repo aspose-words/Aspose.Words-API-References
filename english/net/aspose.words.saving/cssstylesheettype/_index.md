@@ -3,7 +3,7 @@ title: CssStyleSheetType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how CSS Cascading Style Sheet styles are exported to HTML.
 type: docs
-weight: 4660
+weight: 4670
 url: /net/aspose.words.saving/cssstylesheettype/
 ---
 ## CssStyleSheetType enumeration

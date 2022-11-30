@@ -6,7 +6,7 @@ type: docs
 weight: 651
 url: /cpp/aspose.words.drawing/shapebase/get_top/
 ---
-## ShapeBase.get_Top method
+## ShapeBase::get_Top method
 
 
 Gets or sets the position of the top edge of the containing block of the shape.
@@ -14,6 +14,8 @@ Gets or sets the position of the top edge of the containing block of the shape.
 ```cpp
 double Aspose::Words::Drawing::ShapeBase::get_Top()
 ```
+
+## Remarks
 
 
 For a top-level shape, the value is in points and relative to the shape anchor.
@@ -25,7 +27,6 @@ The default value is 0.
 Has effect only for floating shapes.
 
 ## Examples
-
 
 
 
@@ -60,3 +61,8 @@ ASPOSE_ASSERT_EQ(shape->get_Left() + shape->get_Width(), shape->get_Right());
 doc->Save(ArtifactsDir + u"Image.CreateFloatingPositionSize.docx");
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

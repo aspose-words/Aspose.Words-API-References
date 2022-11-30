@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.saving/imagesaveoptions/get_pixelformat/
 ---
-## ImageSaveOptions.get_PixelFormat method
+## ImageSaveOptions::get_PixelFormat method
 
 
 Gets or sets the pixel format for the generated images.
@@ -15,15 +15,16 @@ Gets or sets the pixel format for the generated images.
 Aspose::Words::Saving::ImagePixelFormat Aspose::Words::Saving::ImageSaveOptions::get_PixelFormat() const
 ```
 
+## Remarks
+
 
 This property has effect only when saving to raster image formats.
 
-The default value is **Format32BppArgb**.
+The default value is [Format32BppArgb](../../imagepixelformat/).
 
 Pixel format of the output image may differ from the set value because of work of GDI+.
 
 ## Examples
-
 
 
 
@@ -50,3 +51,9 @@ ASPOSE_ASSERT_NE(imageSaveOptions, imageSaveOptions->Clone());
 doc->Save(ArtifactsDir + u"ImageSaveOptions.PixelFormat.png", imageSaveOptions);
 ```
 
+## See Also
+
+* Enum [ImagePixelFormat](../../imagepixelformat/)
+* Class [ImageSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

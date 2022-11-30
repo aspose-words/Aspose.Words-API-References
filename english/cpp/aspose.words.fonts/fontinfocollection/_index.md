@@ -49,13 +49,14 @@ class FontInfoCollection : public System::Collections::Generic::IEnumerable<Syst
 | [iterator_holder_type](./iterator_holder_type/) |  |
 | [virtualized_iterator](./virtualized_iterator/) |  |
 | [virtualized_iterator_element](./virtualized_iterator_element/) |  |
+## Remarks
+
 
 Items are [FontInfo](../fontinfo/) objects.
 
 You do not create instances of this class directly. Use the [FontInfos](../../aspose.words/documentbase/get_fontinfos/) property to access the collection of fonts defined in the document.
 
 ## Examples
-
 
 
 
@@ -96,3 +97,7 @@ else
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Fonts](../)
+* Library [Aspose.Words](../../)

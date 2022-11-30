@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.math/officemath/accept/
 ---
-## OfficeMath.Accept method
+## OfficeMath::Accept method
 
 
 Accepts a visitor.
@@ -22,15 +22,15 @@ bool Aspose::Words::Math::OfficeMath::Accept(System::SharedPtr<Aspose::Words::Do
 
 ### ReturnValue
 
-
 True if all nodes were visited; false if [DocumentVisitor](../../../aspose.words/documentvisitor/) stopped the operation before visiting all nodes.
+## Remarks
+
 
 Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../../aspose.words/documentvisitor/).
 
 For more info see the Visitor design pattern.
 
 ## Examples
-
 
 
 
@@ -108,3 +108,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
+* Class [OfficeMath](../)
+* Namespace [Aspose::Words::Math](../../)
+* Library [Aspose.Words](../../../)

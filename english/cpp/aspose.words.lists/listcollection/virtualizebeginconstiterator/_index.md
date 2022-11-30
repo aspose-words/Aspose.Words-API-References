@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.lists/listcollection/virtualizebeginconstiterator/
 ---
-## ListCollection.virtualizeBeginConstIterator method
+## ListCollection::virtualizeBeginConstIterator method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.lists/listcollection/virtualizebeginconstiterator/
 virtualized_iterator * Aspose::Words::Lists::ListCollection::virtualizeBeginConstIterator() const override
 ```
 
+## See Also
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [ListCollection](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

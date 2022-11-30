@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.layout/layoutenumerator/get_pageindex/
 ---
-## LayoutEnumerator.get_PageIndex method
+## LayoutEnumerator::get_PageIndex method
 
 
 Gets the 1-based index of a page which contains the current entity.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Layout::LayoutEnumerator::get_PageIndex()
 
 
 ## Examples
-
 
 
 
@@ -143,3 +142,8 @@ static void PrintCurrentEntity(SharedPtr<LayoutEnumerator> layoutEnumerator, int
 }
 ```
 
+## See Also
+
+* Class [LayoutEnumerator](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

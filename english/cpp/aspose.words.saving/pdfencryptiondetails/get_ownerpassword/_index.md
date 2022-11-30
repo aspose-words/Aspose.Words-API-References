@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.saving/pdfencryptiondetails/get_ownerpassword/
 ---
-## PdfEncryptionDetails.get_OwnerPassword method
+## PdfEncryptionDetails::get_OwnerPassword method
 
 
 Specifies the owner password for the encrypted PDF document.
@@ -15,13 +15,14 @@ Specifies the owner password for the encrypted PDF document.
 System::String Aspose::Words::Saving::PdfEncryptionDetails::get_OwnerPassword() const
 ```
 
+## Remarks
+
 
 The owner password allows the user to open an encrypted PDF document without any access restrictions specified in [Permissions](../get_permissions/).
 
 The owner password cannot be the same as the user password.
 
 ## Examples
-
 
 
 
@@ -51,3 +52,8 @@ saveOptions->set_EncryptionDetails(encryptionDetails);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 
+## See Also
+
+* Class [PdfEncryptionDetails](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

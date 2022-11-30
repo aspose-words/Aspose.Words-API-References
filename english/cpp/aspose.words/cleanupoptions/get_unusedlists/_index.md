@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/cleanupoptions/get_unusedlists/
 ---
-## CleanupOptions.get_UnusedLists method
+## CleanupOptions::get_UnusedLists method
 
 
 Specifies whether unused list and list definitions should be removed from document. Default value is **true**.
@@ -17,7 +17,6 @@ bool Aspose::Words::CleanupOptions::get_UnusedLists() const
 
 
 ## Examples
-
 
 
 
@@ -64,3 +63,8 @@ doc->Cleanup(cleanupOptions);
 ASSERT_EQ(2, doc->get_Styles()->get_Count());
 ```
 
+## See Also
+
+* Class [CleanupOptions](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

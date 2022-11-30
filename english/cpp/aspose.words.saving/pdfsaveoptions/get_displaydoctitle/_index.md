@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_displaydoctitle/
 ---
-## PdfSaveOptions.get_DisplayDocTitle method
+## PdfSaveOptions::get_DisplayDocTitle method
 
 
 A flag specifying whether the window’s title bar should display the document title taken from the Title entry of the document information dictionary.
@@ -14,6 +14,8 @@ A flag specifying whether the window’s title bar should display the document t
 ```cpp
 bool Aspose::Words::Saving::PdfSaveOptions::get_DisplayDocTitle() const
 ```
+
+## Remarks
 
 
 If **false**, the title bar should instead display the name of the PDF file containing the document.
@@ -23,7 +25,6 @@ This flag is required by PDF/UA compliance. **true** value will be used automati
 The default value is **false**.
 
 ## Examples
-
 
 
 
@@ -46,3 +47,8 @@ pdfSaveOptions->set_DisplayDocTitle(displayDocTitle);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.DocTitle.pdf", pdfSaveOptions);
 ```
 
+## See Also
+
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -11,6 +11,10 @@ url: /cpp/aspose.words.layout/commentdisplaymode/
 
 Specifies the rendering mode for document comments.
 
+```cpp
+enum class CommentDisplayMode
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ Specifies the rendering mode for document comments.
 
 
 ## Examples
-
 
 
 
@@ -50,3 +53,7 @@ doc->UpdatePageLayout();
 doc->Save(ArtifactsDir + u"Document.ShowCommentsInBalloons.pdf");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Layout](../)
+* Library [Aspose.Words](../../)

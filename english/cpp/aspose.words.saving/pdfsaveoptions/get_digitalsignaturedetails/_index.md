@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_digitalsignaturedetails/
 ---
-## PdfSaveOptions.get_DigitalSignatureDetails method
+## PdfSaveOptions::get_DigitalSignatureDetails method
 
 
 Gets or sets the details for signing the output PDF document.
@@ -15,11 +15,12 @@ Gets or sets the details for signing the output PDF document.
 System::SharedPtr<Aspose::Words::Saving::PdfDigitalSignatureDetails> Aspose::Words::Saving::PdfSaveOptions::get_DigitalSignatureDetails() const
 ```
 
+## Remarks
+
 
 The default value is null and the output document will not be signed. When this property is set to a valid [PdfDigitalSignatureDetails](../../pdfdigitalsignaturedetails/) object, then the output PDF document will be digitally signed.
 
 ## Examples
-
 
 
 
@@ -48,3 +49,9 @@ ASSERT_EQ(signingTime.ToUniversalTime(), options->get_DigitalSignatureDetails()-
 doc->Save(ArtifactsDir + u"PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```
 
+## See Also
+
+* Class [PdfDigitalSignatureDetails](../../pdfdigitalsignaturedetails/)
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

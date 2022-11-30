@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.markup/custompart/custompart/
 ---
-## CustomPart.CustomPart method
+## CustomPart::CustomPart constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.markup/custompart/custompart/
 Aspose::Words::Markup::CustomPart::CustomPart()
 ```
 
+## See Also
+
+* Class [CustomPart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldxe/
 Implements the XE field.
 
 ```cpp
-class FieldXE : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldXE : public Aspose::Words::Fields::Field,
+                public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -57,7 +58,6 @@ class FieldXE : public Aspose::Words::Fields::Field, public Aspose::Words::Field
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 
 ## Examples
-
 
 
 
@@ -179,3 +179,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.INDEX.XE.Formatting.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

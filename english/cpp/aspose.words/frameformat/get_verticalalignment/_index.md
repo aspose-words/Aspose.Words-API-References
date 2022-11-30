@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words/frameformat/get_verticalalignment/
 ---
-## FrameFormat.get_VerticalAlignment method
+## FrameFormat::get_VerticalAlignment method
 
 
 Gets vertical alignment of the specified frame.
@@ -17,7 +17,6 @@ Aspose::Words::Drawing::VerticalAlignment Aspose::Words::FrameFormat::get_Vertic
 
 
 ## Examples
-
 
 
 
@@ -41,3 +40,9 @@ ASSERT_EQ(RelativeVerticalPosition::Paragraph, paragraphFrame->get_FrameFormat()
 ASPOSE_ASSERT_EQ(0.0, paragraphFrame->get_FrameFormat()->get_VerticalDistanceFromText());
 ```
 
+## See Also
+
+* Enum [VerticalAlignment](../../../aspose.words.drawing/verticalalignment/)
+* Class [FrameFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

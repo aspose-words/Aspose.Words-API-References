@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.markup/customxmlschemacollection/getenumerator/
 ---
-## CustomXmlSchemaCollection.GetEnumerator method
+## CustomXmlSchemaCollection::GetEnumerator method
 
 
 Returns an enumerator object that can be used to iterate over all items in the collection.
@@ -17,7 +17,6 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::String>> Asp
 
 
 ## Examples
-
 
 
 
@@ -63,3 +62,8 @@ schemas->Clear();
 ASSERT_EQ(0, schemas->get_Count());
 ```
 
+## See Also
+
+* Class [CustomXmlSchemaCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

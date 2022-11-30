@@ -11,6 +11,10 @@ url: /cpp/aspose.words.notes/footnoteposition/
 
 Defines the footnote position.
 
+```cpp
+enum class FootnotePosition
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,7 +24,6 @@ Defines the footnote position.
 
 
 ## Examples
-
 
 
 
@@ -49,3 +52,7 @@ doc->get_FootnoteOptions()->set_Position(footnotePosition);
 doc->Save(ArtifactsDir + u"InlineStory.PositionFootnote.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Notes](../)
+* Library [Aspose.Words](../../)

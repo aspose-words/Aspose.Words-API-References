@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.lists/listlevel/createpicturebullet/
 ---
-## ListLevel.CreatePictureBullet method
+## ListLevel::CreatePictureBullet method
 
 
 Creates picture bullet shape for the current list level.
@@ -17,7 +17,6 @@ void Aspose::Words::Lists::ListLevel::CreatePictureBullet()
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,8 @@ list->get_ListLevels()->idx_get(0)->DeletePictureBullet();
 ASSERT_TRUE(list->get_ListLevels()->idx_get(0)->get_ImageData() == nullptr);
 ```
 
+## See Also
+
+* Class [ListLevel](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

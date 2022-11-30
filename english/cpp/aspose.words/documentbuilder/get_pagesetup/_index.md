@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.words/documentbuilder/get_pagesetup/
 ---
-## DocumentBuilder.get_PageSetup method
+## DocumentBuilder::get_PageSetup method
 
 
 Returns an object that represents current page setup and section properties.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::PageSetup> Aspose::Words::DocumentBuilder::get_
 
 
 ## Examples
-
 
 
 
@@ -49,3 +48,9 @@ builder->Writeln(u"This is the second section, which is in default Letter paper 
 doc->Save(ArtifactsDir + u"PageSetup.ClearFormatting.docx");
 ```
 
+## See Also
+
+* Class [PageSetup](../../pagesetup/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/paragraph/get_breakisstyleseparator/
 ---
-## Paragraph.get_BreakIsStyleSeparator method
+## Paragraph::get_BreakIsStyleSeparator method
 
 
 True if this paragraph break is a [Style](../../style/) Separator. A style separator allows one paragraph to consist of parts that have different paragraph styles.
@@ -17,7 +17,6 @@ bool Aspose::Words::Paragraph::get_BreakIsStyleSeparator()
 
 
 ## Examples
-
 
 
 
@@ -49,3 +48,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Paragraph.BreakIsStyleSeparator.docx");
 ```
 
+## See Also
+
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

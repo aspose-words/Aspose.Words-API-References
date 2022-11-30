@@ -15,3 +15,8 @@ url: /cpp/aspose.words.vba/vbamodulecollection/virtualized_iterator_element/
 using Aspose::Words::Vba::VbaModuleCollection::virtualized_iterator_element =  typename iterator_holder_type::virtualized_iterator_element
 ```
 
+## See Also
+
+* Class [VbaModuleCollection](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

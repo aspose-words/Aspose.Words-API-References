@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.themes/themefonts/get_latin/
 ---
-## ThemeFonts.get_Latin method
+## ThemeFonts::get_Latin method
 
 
 Specifies font name for Latin characters.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Themes::ThemeFonts::get_Latin()
 
 
 ## Examples
-
 
 
 
@@ -63,3 +62,8 @@ colors->set_FollowedHyperlink(System::Drawing::Color::get_Gray());
 doc->Save(ArtifactsDir + u"Themes.CustomColorsAndFonts.docx");
 ```
 
+## See Also
+
+* Class [ThemeFonts](../)
+* Namespace [Aspose::Words::Themes](../../)
+* Library [Aspose.Words](../../../)

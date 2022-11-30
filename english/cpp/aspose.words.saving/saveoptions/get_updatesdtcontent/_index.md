@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words.saving/saveoptions/get_updatesdtcontent/
 ---
-## SaveOptions.get_UpdateSdtContent method
+## SaveOptions::get_UpdateSdtContent method
 
 
 Gets or sets value determining whether content of [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) is updated before saving.
@@ -17,7 +17,6 @@ bool Aspose::Words::Saving::SaveOptions::get_UpdateSdtContent() const
 
 
 ## Examples
-
 
 
 
@@ -50,3 +49,8 @@ options->set_UpdateSdtContent(updateSdtContent);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.UpdateSdtContent.pdf", options);
 ```
 
+## See Also
+
+* Class [SaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

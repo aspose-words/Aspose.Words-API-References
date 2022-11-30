@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/virtualizebeginconstiterator/
 ---
-## DigitalSignatureCollection.virtualizeBeginConstIterator method
+## DigitalSignatureCollection::virtualizeBeginConstIterator method
 
 
 
@@ -15,3 +15,9 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/virtualizebe
 virtualized_iterator * Aspose::Words::DigitalSignatures::DigitalSignatureCollection::virtualizeBeginConstIterator() const override
 ```
 
+## See Also
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [DigitalSignatureCollection](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)

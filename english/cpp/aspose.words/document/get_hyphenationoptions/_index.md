@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/aspose.words/document/get_hyphenationoptions/
 ---
-## Document.get_HyphenationOptions method
+## Document::get_HyphenationOptions method
 
 
 Provides access to document hyphenation options.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Settings::HyphenationOptions> Aspose::Words::Do
 
 
 ## Examples
-
 
 
 
@@ -38,3 +37,9 @@ doc->get_HyphenationOptions()->set_HyphenateCaps(true);
 doc->Save(ArtifactsDir + u"Document.HyphenationOptions.docx");
 ```
 
+## See Also
+
+* Class [HyphenationOptions](../../../aspose.words.settings/hyphenationoptions/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

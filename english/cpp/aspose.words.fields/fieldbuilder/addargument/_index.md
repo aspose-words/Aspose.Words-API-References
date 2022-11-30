@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldbuilder/addargument/
 ---
-## FieldBuilder.AddArgument(const System::SharedPtr\<Aspose::Words::Fields::FieldArgumentBuilder\>\&) method
+## FieldBuilder::AddArgument(const System::SharedPtr\<Aspose::Words::Fields::FieldArgumentBuilder\>\&) method
 
 
 Adds a field's argument represented by [FieldArgumentBuilder](../../fieldargumentbuilder/) to the field's code.
@@ -20,7 +20,6 @@ System::SharedPtr<Aspose::Words::Fields::FieldBuilder> Aspose::Words::Fields::Fi
 
 
 
-
 Shows how to construct fields using a field builder, and then insert them into the document. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -99,7 +98,14 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 ```
 
-## FieldBuilder.AddArgument(const System::SharedPtr\<Aspose::Words::Fields::FieldBuilder\>\&) method
+## See Also
+
+* Class [FieldBuilder](../)
+* Class [FieldArgumentBuilder](../../fieldargumentbuilder/)
+* Class [FieldBuilder](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)
+## FieldBuilder::AddArgument(const System::SharedPtr\<Aspose::Words::Fields::FieldBuilder\>\&) method
 
 
 Adds a child field represented by another [FieldBuilder](../) to the field's code.
@@ -113,7 +119,6 @@ System::SharedPtr<Aspose::Words::Fields::FieldBuilder> Aspose::Words::Fields::Fi
 
 
 
-
 Shows how to construct fields using a field builder, and then insert them into the document. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -192,7 +197,13 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 ```
 
-## FieldBuilder.AddArgument(const System::String\&) method
+## See Also
+
+* Class [FieldBuilder](../)
+* Class [FieldBuilder](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)
+## FieldBuilder::AddArgument(const System::String\&) method
 
 
 Adds a field's argument.
@@ -210,7 +221,6 @@ System::SharedPtr<Aspose::Words::Fields::FieldBuilder> Aspose::Words::Fields::Fi
 
 
 
-
 Shows how to construct fields using a field builder, and then insert them into the document. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -289,7 +299,13 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 ```
 
-## FieldBuilder.AddArgument(double) method
+## See Also
+
+* Class [FieldBuilder](../)
+* Class [FieldBuilder](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)
+## FieldBuilder::AddArgument(double) method
 
 
 Adds a field's argument.
@@ -307,7 +323,6 @@ System::SharedPtr<Aspose::Words::Fields::FieldBuilder> Aspose::Words::Fields::Fi
 
 
 
-
 Shows how to construct fields using a field builder, and then insert them into the document. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -386,7 +401,13 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 ```
 
-## FieldBuilder.AddArgument(int32_t) method
+## See Also
+
+* Class [FieldBuilder](../)
+* Class [FieldBuilder](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)
+## FieldBuilder::AddArgument(int32_t) method
 
 
 Adds a field's argument.
@@ -404,7 +425,6 @@ System::SharedPtr<Aspose::Words::Fields::FieldBuilder> Aspose::Words::Fields::Fi
 
 
 
-
 Shows how to construct fields using a field builder, and then insert them into the document. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -483,3 +503,9 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 ```
 
+## See Also
+
+* Class [FieldBuilder](../)
+* Class [FieldBuilder](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

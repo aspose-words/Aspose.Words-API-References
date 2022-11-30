@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.drawing.charts/chartdatapointcollection/clearformat/
 ---
-## ChartDataPointCollection.ClearFormat method
+## ChartDataPointCollection::ClearFormat method
 
 
 Clears format of all [ChartDataPoint](../../chartdatapoint/) in this collection.
@@ -17,7 +17,6 @@ void Aspose::Words::Drawing::Charts::ChartDataPointCollection::ClearFormat()
 
 
 ## Examples
-
 
 
 
@@ -77,3 +76,8 @@ static void ApplyDataPoints(SharedPtr<ChartSeries> series, int dataPointsCount, 
 }
 ```
 
+## See Also
+
+* Class [ChartDataPointCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

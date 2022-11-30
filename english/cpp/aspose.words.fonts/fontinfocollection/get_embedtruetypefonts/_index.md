@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.fonts/fontinfocollection/get_embedtruetypefonts/
 ---
-## FontInfoCollection.get_EmbedTrueTypeFonts method
+## FontInfoCollection::get_EmbedTrueTypeFonts method
 
 
 Specifies whether or not to embed TrueType fonts in a document when it is saved. Default value for this property is **false**.
@@ -15,13 +15,14 @@ Specifies whether or not to embed TrueType fonts in a document when it is saved.
 bool Aspose::Words::Fonts::FontInfoCollection::get_EmbedTrueTypeFonts() const
 ```
 
+## Remarks
+
 
 Embedding TrueType fonts allows others to view the document with the same fonts that were used to create it, but may substantially increase the document size.
 
 This option works for DOC, DOCX and RTF formats only.
 
 ## Examples
-
 
 
 
@@ -46,3 +47,8 @@ else
 }
 ```
 
+## See Also
+
+* Class [FontInfoCollection](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

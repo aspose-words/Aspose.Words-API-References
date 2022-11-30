@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/formfieldcollection/get_count/
 ---
-## FormFieldCollection.get_Count method
+## FormFieldCollection::get_Count method
 
 
 Returns the number of form fields in the collection.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Fields::FormFieldCollection::get_Count()
 
 
 ## Examples
-
 
 
 
@@ -150,3 +149,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [FormFieldCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldshape/get_text/
 ---
-## FieldShape.get_Text method
+## FieldShape::get_Text method
 
 
 Gets or sets the text to retrieve.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldShape::get_Text()
 
 
 ## Examples
-
 
 
 
@@ -84,3 +83,8 @@ shape = System::DynamicCast<Shape>(shapes->idx_get(2));
 ASSERT_EQ(ShapeType::OleObject, shape->get_ShapeType());
 ```
 
+## See Also
+
+* Class [FieldShape](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.tables/cell/get_firstparagraph/
 ---
-## Cell.get_FirstParagraph method
+## Cell::get_FirstParagraph method
 
 
 Gets the first paragraph among the immediate children.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::Tables::Cell::get_Fir
 
 
 ## Examples
-
 
 
 
@@ -92,3 +91,9 @@ static SharedPtr<Table> CreateTable(SharedPtr<Document> doc, int rowCount, int c
 }
 ```
 
+## See Also
+
+* Class [Paragraph](../../../aspose.words/paragraph/)
+* Class [Cell](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

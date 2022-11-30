@@ -6,7 +6,7 @@ type: docs
 weight: 859
 url: /cpp/aspose.words.drawing/shapebase/set_distancebottom/
 ---
-## ShapeBase.set_DistanceBottom method
+## ShapeBase::set_DistanceBottom method
 
 
 Setter for [Aspose::Words::Drawing::ShapeBase::get_DistanceBottom](../get_distancebottom/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::ShapeBase::get_DistanceBottom](../get_distan
 void Aspose::Words::Drawing::ShapeBase::set_DistanceBottom(double value)
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

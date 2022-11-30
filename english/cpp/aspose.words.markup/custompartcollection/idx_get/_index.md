@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.markup/custompartcollection/idx_get/
 ---
-## CustomPartCollection.idx_get method
+## CustomPartCollection::idx_get method
 
 
 Gets or sets an item at the specified index.
@@ -21,7 +21,6 @@ System::SharedPtr<Aspose::Words::Markup::CustomPart> Aspose::Words::Markup::Cust
 | index | int32_t | Zero-based index of the item. |
 
 ## Examples
-
 
 
 
@@ -65,3 +64,9 @@ doc->get_PackageCustomParts()->Clear();
 ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
 ```
 
+## See Also
+
+* Class [CustomPart](../../custompart/)
+* Class [CustomPartCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

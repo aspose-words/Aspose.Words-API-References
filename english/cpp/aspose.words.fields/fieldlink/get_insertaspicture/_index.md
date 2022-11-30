@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fields/fieldlink/get_insertaspicture/
 ---
-## FieldLink.get_InsertAsPicture method
+## FieldLink::get_InsertAsPicture method
 
 
 Gets or sets whether to insert the linked object as a picture.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldLink::get_InsertAsPicture()
 
 
 ## Examples
-
 
 
 
@@ -196,3 +195,8 @@ static void InsertFieldDdeAuto(SharedPtr<DocumentBuilder> builder, ExField::Inse
 }
 ```
 
+## See Also
+
+* Class [FieldLink](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

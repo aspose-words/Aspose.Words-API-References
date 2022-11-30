@@ -11,6 +11,10 @@ url: /cpp/aspose.words.notes/footnotetype/
 
 Specifies whether this is a footnote or an endnote.
 
+```cpp
+enum class FootnoteType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -18,11 +22,12 @@ Specifies whether this is a footnote or an endnote.
 | Footnote | 0 | The object is a footnote. |
 | Endnote | 1 | The object is an endnote. |
 
+## Remarks
 
-Both footnotes and endnotes are represented by objects by the **Footnote** class. Use [FootnoteType](../footnote/get_footnotetype/) to distinguish between footnotes and endnotes.
+
+Both footnotes and endnotes are represented by objects by the [Footnote](./) class. Use [FootnoteType](../footnote/get_footnotetype/) to distinguish between footnotes and endnotes.
 
 ## Examples
-
 
 
 
@@ -94,3 +99,7 @@ ASSERT_TRUE(footnote->get_IsAuto());
 doc->Save(ArtifactsDir + u"InlineStory.AddFootnote.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Notes](../)
+* Library [Aspose.Words](../../)

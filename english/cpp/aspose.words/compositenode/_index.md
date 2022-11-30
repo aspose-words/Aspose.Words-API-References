@@ -12,7 +12,9 @@ url: /cpp/aspose.words/compositenode/
 Base class for nodes that can contain other nodes.
 
 ```cpp
-class CompositeNode : public Aspose::Words::Node, public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Node>>, public Aspose::Words::INodeCollection
+class CompositeNode : public Aspose::Words::Node,
+                      public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Node>>,
+                      public Aspose::Words::INodeCollection
 ```
 
 ## Methods
@@ -58,6 +60,8 @@ class CompositeNode : public Aspose::Words::Node, public System::Collections::Ge
 | [SetTemplateWeakPtr](./settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 A document is represented as a tree of nodes, similar to DOM or XmlDocument.
 
@@ -72,7 +76,6 @@ The [CompositeNode](./) class:
 
 
 ## Examples
-
 
 
 
@@ -123,3 +126,8 @@ for (const auto& child : System::IterateOver(children))
 }
 ```
 
+## See Also
+
+* Class [Node](../node/)
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

@@ -54,3 +54,7 @@ class BarcodeParameters : public System::Object
 | [set_ScalingFactor](./set_scalingfactor/)(const System::String\&) | Scaling factor for the symbol. The value is in whole percentage points and the valid values are [10, 1000]. |
 | [set_SymbolHeight](./set_symbolheight/)(const System::String\&) | Bar code image height (in twips - 1/1440 inches) |
 | [set_SymbolRotation](./set_symbolrotation/)(const System::String\&) | Rotation of the barcode symbol. Valid values are [0, 3]. |
+## See Also
+
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

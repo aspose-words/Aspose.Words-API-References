@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.layout/layoutcollector/get_document/
 ---
-## LayoutCollector.get_Document method
+## LayoutCollector::get_Document method
 
 
 Gets or sets the document this collector instance is attached to.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Document> Aspose::Words::Layout::LayoutCollecto
 
 
 ## Examples
-
 
 
 
@@ -74,3 +73,9 @@ ASSERT_EQ(LayoutEntityType::Span, layoutEnumerator->get_Type());
 ASSERT_EQ(u"¶", layoutEnumerator->get_Text());
 ```
 
+## See Also
+
+* Class [Document](../../../aspose.words/document/)
+* Class [LayoutCollector](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

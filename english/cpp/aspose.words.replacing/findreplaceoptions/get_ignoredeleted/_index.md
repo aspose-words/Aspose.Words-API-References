@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.replacing/findreplaceoptions/get_ignoredeleted/
 ---
-## FindReplaceOptions.get_IgnoreDeleted method
+## FindReplaceOptions::get_IgnoreDeleted method
 
 
 Gets or sets a boolean value indicating either to ignore text inside delete revisions. The default value is **false**.
@@ -17,7 +17,6 @@ bool Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreDeleted() const
 
 
 ## Examples
-
 
 
 
@@ -52,3 +51,8 @@ ASSERT_EQ(ignoreTextInsideDeleteRevisions ? String(u"Greetings world!\rHello aga
           doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [FindReplaceOptions](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)

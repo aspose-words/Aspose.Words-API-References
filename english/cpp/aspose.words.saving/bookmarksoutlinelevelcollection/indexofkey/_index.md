@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/
 ---
-## BookmarksOutlineLevelCollection.IndexOfKey method
+## BookmarksOutlineLevelCollection::IndexOfKey method
 
 
 Returns the zero-based index of the specified bookmark in the collection.
@@ -22,11 +22,9 @@ int32_t Aspose::Words::Saving::BookmarksOutlineLevelCollection::IndexOfKey(const
 
 ### ReturnValue
 
-
 The zero based index. Negative value if not found.
 
 ## Examples
-
 
 
 
@@ -82,3 +80,8 @@ doc->Save(ArtifactsDir + u"BookmarksOutlineLevelCollection.BookmarkLevels.pdf", 
 outlineLevels->Clear();
 ```
 
+## See Also
+
+* Class [BookmarksOutlineLevelCollection](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

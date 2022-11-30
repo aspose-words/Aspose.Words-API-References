@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/signaturelineoptions/get_showdate/
 ---
-## SignatureLineOptions.get_ShowDate method
+## SignatureLineOptions::get_ShowDate method
 
 
 Gets or sets a value indicating that sign date is shown in the signature line. Default value for this property is **true**.
@@ -17,7 +17,6 @@ bool Aspose::Words::SignatureLineOptions::get_ShowDate() const
 
 
 ## Examples
-
 
 
 
@@ -64,3 +63,8 @@ ASSERT_TRUE(signatureLine->get_IsSigned());
 ASSERT_TRUE(signatureLine->get_IsValid());
 ```
 
+## See Also
+
+* Class [SignatureLineOptions](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

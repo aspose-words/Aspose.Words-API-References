@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/nodeimporter/importnode/
 ---
-## NodeImporter.ImportNode method
+## NodeImporter::ImportNode method
 
 
 Imports a node from one document into another.
@@ -23,17 +23,17 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::NodeImporter::ImportNode(c
 
 ### ReturnValue
 
-
 The cloned, imported node. The node belongs to the destination document, but has no parent.
+## Remarks
+
 
 Importing a node creates a copy of the source node belonging to the importing document. The returned node has no parent. The source node is not altered or removed from the original document.
 
-Before a node from another document can be inserted into this document, it must be imported. During import, document-specific properties such as references to styles and lists are translated from the original to the importing document. After the node was imported, it can be inserted into the appropriate place in the document using **InsertBefore()** or **InsertAfter()**.
+Before a node from another document can be inserted into this document, it must be imported. During import, document-specific properties such as references to styles and lists are translated from the original to the importing document. After the node was imported, it can be inserted into the appropriate place in the document using [InsertBefore()](../) or [InsertAfter()](../).
 
 If the source node already belongs to the destination document, then simply a deep clone of the source node is created.
 
 ## Examples
-
 
 
 
@@ -98,3 +98,9 @@ static void InsertDocument(SharedPtr<Node> insertionDestination, SharedPtr<Docum
 }
 ```
 
+## See Also
+
+* Class [Node](../../node/)
+* Class [NodeImporter](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

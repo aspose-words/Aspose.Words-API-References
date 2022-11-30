@@ -11,6 +11,10 @@ url: /cpp/aspose.words.markup/sdttype/
 
 Specifies the type of a structured document tag (SDT) node.
 
+```cpp
+enum class SdtType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -35,7 +39,6 @@ Specifies the type of a structured document tag (SDT) node.
 
 
 ## Examples
-
 
 
 
@@ -116,3 +119,7 @@ row->AppendChild(authorSdt);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.RepeatingSectionItem.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Markup](../)
+* Library [Aspose.Words](../../)

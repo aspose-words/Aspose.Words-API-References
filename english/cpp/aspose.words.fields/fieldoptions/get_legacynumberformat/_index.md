@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.fields/fieldoptions/get_legacynumberformat/
 ---
-## FieldOptions.get_LegacyNumberFormat method
+## FieldOptions::get_LegacyNumberFormat method
 
 
 Gets or sets the value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not.
@@ -14,6 +14,8 @@ Gets or sets the value indicating whether legacy (early than AW 13.10) number fo
 ```cpp
 bool Aspose::Words::Fields::FieldOptions::get_LegacyNumberFormat() const
 ```
+
+## Remarks
 
 
 When this property is set to **true**, template symbol "#" worked as in .net: Replaces the pound sign with the corresponding digit if one is present; otherwise, no symbols appears in the result string.
@@ -23,7 +25,6 @@ When this property is set to **false**, template symbol "#" works as MS Word: Th
 The default value is **false**.
 
 ## Examples
-
 
 
 
@@ -42,3 +43,8 @@ field->Update();
 ASSERT_EQ(u"$5", field->get_Result());
 ```
 
+## See Also
+
+* Class [FieldOptions](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

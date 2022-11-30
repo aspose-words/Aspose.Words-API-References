@@ -6,10 +6,10 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.saving/xpssaveoptions/get_saveformat/
 ---
-## XpsSaveOptions.get_SaveFormat method
+## XpsSaveOptions::get_SaveFormat method
 
 
-Specifies the format in which the document will be saved if this save options object is used. Can only be **Xps**.
+Specifies the format in which the document will be saved if this save options object is used. Can only be [Xps](../../../aspose.words/saveformat/).
 
 ```cpp
 Aspose::Words::SaveFormat Aspose::Words::Saving::XpsSaveOptions::get_SaveFormat() override
@@ -17,7 +17,6 @@ Aspose::Words::SaveFormat Aspose::Words::Saving::XpsSaveOptions::get_SaveFormat(
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,9 @@ saveOptions->get_OutlineOptions()->set_HeadingsOutlineLevels(2);
 doc->Save(ArtifactsDir + u"XpsSaveOptions.OutlineLevels.xps", saveOptions);
 ```
 
+## See Also
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [XpsSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

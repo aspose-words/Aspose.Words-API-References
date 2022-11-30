@@ -46,7 +46,6 @@ class FieldEmbed : public Aspose::Words::Fields::Field
 
 
 
-
 Shows how some older Microsoft Word fields such as SHAPE and EMBED are handled during loading. 
 ```cpp
 // Open a document that was created in Microsoft Word 2003.
@@ -79,3 +78,8 @@ shape = System::DynamicCast<Shape>(shapes->idx_get(2));
 ASSERT_EQ(ShapeType::OleObject, shape->get_ShapeType());
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

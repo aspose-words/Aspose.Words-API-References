@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/settemplateweakptr/
 ---
-## StructuredDocumentTagRangeStart.SetTemplateWeakPtr method
+## StructuredDocumentTagRangeStart::SetTemplateWeakPtr method
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.markup/structureddocumenttagrangestart/settemplateweakptr
 void Aspose::Words::Markup::StructuredDocumentTagRangeStart::SetTemplateWeakPtr(uint32_t argument) override
 ```
 
+## See Also
+
+* Class [StructuredDocumentTagRangeStart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

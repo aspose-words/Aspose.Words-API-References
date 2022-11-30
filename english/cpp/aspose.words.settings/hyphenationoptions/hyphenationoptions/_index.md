@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.settings/hyphenationoptions/hyphenationoptions/
 ---
-## HyphenationOptions.HyphenationOptions method
+## HyphenationOptions::HyphenationOptions constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.settings/hyphenationoptions/hyphenationoptions/
 Aspose::Words::Settings::HyphenationOptions::HyphenationOptions()
 ```
 
+## See Also
+
+* Class [HyphenationOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

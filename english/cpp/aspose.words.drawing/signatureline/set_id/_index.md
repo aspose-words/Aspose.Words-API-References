@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.drawing/signatureline/set_id/
 ---
-## SignatureLine.set_Id method
+## SignatureLine::set_Id method
 
 
 Setter for [Aspose::Words::Drawing::SignatureLine::get_Id](../get_id/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Drawing::SignatureLine::get_Id](../get_id/).
 void Aspose::Words::Drawing::SignatureLine::set_Id(System::Guid value)
 ```
 
+## See Also
+
+* Class [SignatureLine](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

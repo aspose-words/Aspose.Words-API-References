@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/variablecollection/clear/
 ---
-## VariableCollection.Clear method
+## VariableCollection::Clear method
 
 
 Removes all elements from the collection.
@@ -17,7 +17,6 @@ void Aspose::Words::VariableCollection::Clear()
 
 
 ## Examples
-
 
 
 
@@ -87,3 +86,8 @@ variables->Clear();
 ASSERT_EQ(0, variables->get_Count());
 ```
 
+## See Also
+
+* Class [VariableCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

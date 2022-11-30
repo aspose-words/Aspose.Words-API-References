@@ -6,10 +6,10 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/textwatermarkoptions/get_layout/
 ---
-## TextWatermarkOptions.get_Layout method
+## TextWatermarkOptions::get_Layout method
 
 
-Gets or sets layout of the watermark. The default value is **Diagonal**.
+Gets or sets layout of the watermark. The default value is [Diagonal](../../watermarklayout/).
 
 ```cpp
 Aspose::Words::WatermarkLayout Aspose::Words::TextWatermarkOptions::get_Layout() const
@@ -17,7 +17,6 @@ Aspose::Words::WatermarkLayout Aspose::Words::TextWatermarkOptions::get_Layout()
 
 
 ## Examples
-
 
 
 
@@ -48,3 +47,9 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
 }
 ```
 
+## See Also
+
+* Enum [WatermarkLayout](../../watermarklayout/)
+* Class [TextWatermarkOptions](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

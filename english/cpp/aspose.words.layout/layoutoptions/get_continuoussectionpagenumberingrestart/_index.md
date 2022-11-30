@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.layout/layoutoptions/get_continuoussectionpagenumberingrestart/
 ---
-## LayoutOptions.get_ContinuousSectionPageNumberingRestart method
+## LayoutOptions::get_ContinuousSectionPageNumberingRestart method
 
 
 Gets or sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering.
@@ -17,7 +17,6 @@ Aspose::Words::Layout::ContinuousSectionRestart Aspose::Words::Layout::LayoutOpt
 
 
 ## Examples
-
 
 
 
@@ -35,3 +34,9 @@ doc->UpdatePageLayout();
 doc->Save(ArtifactsDir + u"Layout.RestartPageNumberingInContinuousSection.pdf");
 ```
 
+## See Also
+
+* Enum [ContinuousSectionRestart](../../continuoussectionrestart/)
+* Class [LayoutOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

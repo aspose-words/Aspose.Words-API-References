@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/settemplateweakptr/
 ---
-## BaseWebExtensionCollection.SetTemplateWeakPtr method
+## BaseWebExtensionCollection::SetTemplateWeakPtr method
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.webextensions/basewebextensioncollection/settemplateweakp
 void Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::SetTemplateWeakPtr(uint32_t argument) override
 ```
 
+## See Also
+
+* Class [BaseWebExtensionCollection](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

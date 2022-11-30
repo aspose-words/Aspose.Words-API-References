@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.saving/pdfsaveoptions/clone/
 ---
-## PdfSaveOptions.Clone method
+## PdfSaveOptions::Clone method
 
 
 Creates a deep clone of this object.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Saving::PdfSaveOptions> Aspose::Words::Saving::
 
 
 ## Examples
-
 
 
 
@@ -53,3 +52,9 @@ ASPOSE_ASSERT_NS(options, options->Clone());
 doc->Save(ArtifactsDir + u"PdfSaveOptions.UpdateFields.pdf", options);
 ```
 
+## See Also
+
+* Class [PdfSaveOptions](../)
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

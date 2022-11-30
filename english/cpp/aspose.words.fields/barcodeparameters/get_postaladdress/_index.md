@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.fields/barcodeparameters/get_postaladdress/
 ---
-## BarcodeParameters.get_PostalAddress method
+## BarcodeParameters::get_PostalAddress method
 
 
 Barcode postal address.
@@ -15,3 +15,8 @@ Barcode postal address.
 System::String Aspose::Words::Fields::BarcodeParameters::get_PostalAddress() const
 ```
 
+## See Also
+
+* Class [BarcodeParameters](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

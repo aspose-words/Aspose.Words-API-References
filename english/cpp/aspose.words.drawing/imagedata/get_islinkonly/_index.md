@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.drawing/imagedata/get_islinkonly/
 ---
-## ImageData.get_IsLinkOnly method
+## ImageData::get_IsLinkOnly method
 
 
 Returns true if the image is linked and not stored in the document.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::ImageData::get_IsLinkOnly()
 
 
 ## Examples
-
 
 
 
@@ -78,3 +77,8 @@ importedShape->get_ImageData()->set_CropRight(0.3);
 dstDoc->Save(ArtifactsDir + u"Drawing.ImageData.docx");
 ```
 
+## See Also
+
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

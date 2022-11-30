@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/commentrangeend/set_id/
 ---
-## CommentRangeEnd.set_Id method
+## CommentRangeEnd::set_Id method
 
 
 Setter for [Aspose::Words::CommentRangeEnd::get_Id](../get_id/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::CommentRangeEnd::get_Id](../get_id/).
 void Aspose::Words::CommentRangeEnd::set_Id(int32_t value)
 ```
 
+## See Also
+
+* Class [CommentRangeEnd](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

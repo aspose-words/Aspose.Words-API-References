@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.tables/cellformat/get_orientation/
 ---
-## CellFormat.get_Orientation method
+## CellFormat::get_Orientation method
 
 
 Returns or sets the orientation of text in a table cell.
@@ -17,7 +17,6 @@ Aspose::Words::TextOrientation Aspose::Words::Tables::CellFormat::get_Orientatio
 
 
 ## Examples
-
 
 
 
@@ -122,3 +121,9 @@ ASSERT_EQ(TextOrientation::Downward, table->get_Rows()->idx_get(1)->get_Cells()-
 doc->Save(ArtifactsDir + u"DocumentBuilder.BuildTable.docx");
 ```
 
+## See Also
+
+* Enum [TextOrientation](../../../aspose.words/textorientation/)
+* Class [CellFormat](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

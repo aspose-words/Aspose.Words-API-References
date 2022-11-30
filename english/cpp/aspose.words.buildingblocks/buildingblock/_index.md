@@ -40,7 +40,7 @@ class BuildingBlock : public Aspose::Words::CompositeNode
 | [get_LastSection](./get_lastsection/)() | Gets the last section in the building block. |
 | [get_Name](./get_name/)() const | Gets or sets the name of this building block. |
 | [get_NextSibling](../../aspose.words/node/get_nextsibling/)() | Gets the node immediately following this node. |
-| [get_NodeType](./get_nodetype/)() const override | Returns the **BuildingBlock** value. |
+| [get_NodeType](./get_nodetype/)() const override | Returns the [BuildingBlock](../../aspose.words/nodetype/) value. |
 | [get_ParentNode](../../aspose.words/node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
 | [get_Range](../../aspose.words/node/get_range/)() | Returns a **Range** object that represents the portion of a document that is contained in this node. |
@@ -76,6 +76,8 @@ class BuildingBlock : public Aspose::Words::CompositeNode
 | [SetTemplateWeakPtr](../../aspose.words/compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 [BuildingBlock](./) can contain only [Section](../../aspose.words/section/) nodes.
 
@@ -86,7 +88,6 @@ You can create new building blocks and insert them into a glossary document. You
 Corresponds to the **docPart**, **docPartPr** and **docPartBody** elements in OOXML.
 
 ## Examples
-
 
 
 
@@ -181,3 +182,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [CompositeNode](../../aspose.words/compositenode/)
+* Namespace [Aspose::Words::BuildingBlocks](../)
+* Library [Aspose.Words](../../)

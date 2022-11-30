@@ -6,7 +6,7 @@ type: docs
 weight: 1730
 url: /cpp/aspose.words.settings/compatibilityoptions/set_usefelayout/
 ---
-## CompatibilityOptions.set_UseFELayout method
+## CompatibilityOptions::set_UseFELayout method
 
 
 Do Not Bypass East Asian/Complex Script [Layout](../../../aspose.words.layout/) Code.
@@ -15,3 +15,8 @@ Do Not Bypass East Asian/Complex Script [Layout](../../../aspose.words.layout/) 
 void Aspose::Words::Settings::CompatibilityOptions::set_UseFELayout(bool value)
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.mailmerging/imailmergedatasource/get_tablename/
 ---
-## IMailMergeDataSource.get_TableName method
+## IMailMergeDataSource::get_TableName method
 
 
 Returns the name of the data source.
@@ -18,15 +18,15 @@ virtual System::String Aspose::Words::MailMerging::IMailMergeDataSource::get_Tab
 
 ### ReturnValue
 
-
 The name of the data source. Empty string if the data source has no name.
+## Remarks
+
 
 If you are implementing [IMailMergeDataSource](../), return the name of the data source from this property.
 
 Aspose.Words uses this name to match against the mail merge region name specified in the template document. The comparison between the data source name and the mail merge region name is not case sensitive.
 
 ## Examples
-
 
 
 
@@ -148,3 +148,8 @@ private:
 };
 ```
 
+## See Also
+
+* Interface [IMailMergeDataSource](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/aspose.words.fields/fieldindex/set_runsubentriesonsameline/
 ---
-## FieldIndex.set_RunSubentriesOnSameLine method
+## FieldIndex::set_RunSubentriesOnSameLine method
 
 
 Setter for [Aspose::Words::Fields::FieldIndex::get_RunSubentriesOnSameLine](../get_runsubentriesonsameline/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldIndex::get_RunSubentriesOnSameLine](../g
 void Aspose::Words::Fields::FieldIndex::set_RunSubentriesOnSameLine(bool value)
 ```
 
+## See Also
+
+* Class [FieldIndex](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

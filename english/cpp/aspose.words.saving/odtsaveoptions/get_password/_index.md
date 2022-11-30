@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.saving/odtsaveoptions/get_password/
 ---
-## OdtSaveOptions.get_Password method
+## OdtSaveOptions::get_Password method
 
 
 Gets or sets a password to encrypt document.
@@ -15,11 +15,12 @@ Gets or sets a password to encrypt document.
 System::String Aspose::Words::Saving::OdtSaveOptions::get_Password() const
 ```
 
+## Remarks
+
 
 In order to save document without encryption this property should be null or empty string.
 
 ## Examples
-
 
 
 
@@ -51,3 +52,8 @@ doc = MakeObject<Document>(ArtifactsDir + u"OdtSaveOptions.Encrypt" + extensionS
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [OdtSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

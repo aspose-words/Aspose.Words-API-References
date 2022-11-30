@@ -6,7 +6,7 @@ type: docs
 weight: 755
 url: /cpp/aspose.words/document/getpageinfo/
 ---
-## Document.GetPageInfo method
+## Document::GetPageInfo method
 
 
 Gets the page size, orientation and other information about a page that might be useful for printing or rendering.
@@ -20,4 +20,9 @@ System::SharedPtr<Aspose::Words::Rendering::PageInfo> Aspose::Words::Document::G
 | --- | --- | --- |
 | pageIndex | int32_t | The 0-based page index. |
 
+## See Also
 
+* Class [PageInfo](../../../aspose.words.rendering/pageinfo/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words/section/get_body/
 ---
-## Section.get_Body method
+## Section::get_Body method
 
 
 Returns the **Body** child node of the section.
@@ -15,13 +15,14 @@ Returns the **Body** child node of the section.
 System::SharedPtr<Aspose::Words::Body> Aspose::Words::Section::get_Body()
 ```
 
+## Remarks
+
 
 **Body** contains main text of the section.
 
 Returns null if the section does not have a **Body** node among its children.
 
 ## Examples
-
 
 
 
@@ -57,3 +58,9 @@ body->get_FirstParagraph()->AppendChild(MakeObject<Run>(doc, u"Hello world!"));
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Body](../../body/)
+* Class [Section](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

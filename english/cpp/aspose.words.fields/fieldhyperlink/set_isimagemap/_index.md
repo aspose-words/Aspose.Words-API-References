@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.fields/fieldhyperlink/set_isimagemap/
 ---
-## FieldHyperlink.set_IsImageMap method
+## FieldHyperlink::set_IsImageMap method
 
 
 Setter for [Aspose::Words::Fields::FieldHyperlink::get_IsImageMap](../get_isimagemap/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldHyperlink::get_IsImageMap](../get_isimag
 void Aspose::Words::Fields::FieldHyperlink::set_IsImageMap(bool value)
 ```
 
+## See Also
+
+* Class [FieldHyperlink](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

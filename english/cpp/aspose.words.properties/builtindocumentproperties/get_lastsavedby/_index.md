@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_lastsavedby/
 ---
-## BuiltInDocumentProperties.get_LastSavedBy method
+## BuiltInDocumentProperties::get_LastSavedBy method
 
 
 Gets or sets the name of the last author.
@@ -15,11 +15,12 @@ Gets or sets the name of the last author.
 System::String Aspose::Words::Properties::BuiltInDocumentProperties::get_LastSavedBy()
 ```
 
+## Remarks
+
 
 Aspose.Words does not update this property.
 
 ## Examples
-
 
 
 
@@ -53,3 +54,8 @@ properties->set_LastSavedTime(System::DateTime::get_Now());
 doc->Save(ArtifactsDir + u"DocumentProperties.Origin.docx");
 ```
 
+## See Also
+
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

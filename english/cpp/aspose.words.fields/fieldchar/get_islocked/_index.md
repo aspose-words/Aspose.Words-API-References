@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fieldchar/get_islocked/
 ---
-## FieldChar.get_IsLocked method
+## FieldChar::get_IsLocked method
 
 
 Gets or sets whether the parent field is locked (should not recalculate its result).
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldChar::get_IsLocked() const
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,8 @@ ASSERT_EQ(u" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
 field->Update();
 ```
 
+## See Also
+
+* Class [FieldChar](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

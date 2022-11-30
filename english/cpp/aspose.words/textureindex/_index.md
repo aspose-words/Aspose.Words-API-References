@@ -11,6 +11,10 @@ url: /cpp/aspose.words/textureindex/
 
 Specifies shading texture.
 
+```cpp
+enum class TextureIndex
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -75,7 +79,6 @@ Specifies shading texture.
 
 
 
-
 Shows how to decorate text with borders and shading. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -122,3 +125,7 @@ table->SetShading(TextureIndex::TextureSolid, System::Drawing::Color::get_LightG
 doc->Save(ArtifactsDir + u"Table.SetOutlineBorders.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

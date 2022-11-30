@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.words.themes/themecolors/set_hyperlink/
 ---
-## ThemeColors.set_Hyperlink method
+## ThemeColors::set_Hyperlink method
 
 
 Setter for [Aspose::Words::Themes::ThemeColors::get_Hyperlink](../get_hyperlink/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Themes::ThemeColors::get_Hyperlink](../get_hyperlink/
 void Aspose::Words::Themes::ThemeColors::set_Hyperlink(System::Drawing::Color value)
 ```
 
+## See Also
+
+* Class [ThemeColors](../)
+* Namespace [Aspose::Words::Themes](../../)
+* Library [Aspose.Words](../../../)

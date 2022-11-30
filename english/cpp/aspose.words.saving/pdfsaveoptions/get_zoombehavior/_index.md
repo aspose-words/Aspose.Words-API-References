@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_zoombehavior/
 ---
-## PdfSaveOptions.get_ZoomBehavior method
+## PdfSaveOptions::get_ZoomBehavior method
 
 
 Gets or sets a value determining what type of zoom should be applied when a document is opened with a PDF viewer.
@@ -17,7 +17,6 @@ Aspose::Words::Saving::PdfZoomBehavior Aspose::Words::Saving::PdfSaveOptions::ge
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,9 @@ options->set_ZoomFactor(25);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.ZoomBehaviour.pdf", options);
 ```
 
+## See Also
+
+* Enum [PdfZoomBehavior](../../pdfzoombehavior/)
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

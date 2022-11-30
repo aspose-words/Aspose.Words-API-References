@@ -6,7 +6,7 @@ type: docs
 weight: 547
 url: /cpp/aspose.words.fields/formfield/set_textinputtype/
 ---
-## FormField.set_TextInputType method
+## FormField::set_TextInputType method
 
 
 Setter for [Aspose::Words::Fields::FormField::get_TextInputType](../get_textinputtype/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Fields::FormField::get_TextInputType](../get_textinpu
 void Aspose::Words::Fields::FormField::set_TextInputType(Aspose::Words::Fields::TextFormFieldType value)
 ```
 
+## See Also
+
+* Enum [TextFormFieldType](../../textformfieldtype/)
+* Class [FormField](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

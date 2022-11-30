@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/textwatermarkoptions/get_color/
 ---
-## TextWatermarkOptions.get_Color method
+## TextWatermarkOptions::get_Color method
 
 
 Gets or sets font color. The default value is Color.Silver.
@@ -17,7 +17,6 @@ System::Drawing::Color Aspose::Words::TextWatermarkOptions::get_Color() const
 
 
 ## Examples
-
 
 
 
@@ -48,3 +47,8 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
 }
 ```
 
+## See Also
+
+* Class [TextWatermarkOptions](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

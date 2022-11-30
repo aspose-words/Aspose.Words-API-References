@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/aspose.words/pagesetup/get_restartpagenumbering/
 ---
-## PageSetup.get_RestartPageNumbering method
+## PageSetup::get_RestartPageNumbering method
 
 
 **True** if page numbering restarts at the beginning of the section.
@@ -17,7 +17,6 @@ bool Aspose::Words::PageSetup::get_RestartPageNumbering()
 
 
 ## Examples
-
 
 
 
@@ -72,3 +71,8 @@ pageSetup->set_PageNumberStyle(NumberStyle::Arabic);
 doc->Save(ArtifactsDir + u"PageSetup.PageNumbering.docx");
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

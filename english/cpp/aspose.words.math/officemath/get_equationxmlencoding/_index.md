@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.math/officemath/get_equationxmlencoding/
 ---
-## OfficeMath.get_EquationXmlEncoding method
+## OfficeMath::get_EquationXmlEncoding method
 
 
 Gets/sets an encoding that was used to encode equation XML, if this office math object is read from equation XML. We use the encoding on saving a document to write in same encoding that it was read.
@@ -17,7 +17,6 @@ System::SharedPtr<System::Text::Encoding> Aspose::Words::Math::OfficeMath::get_E
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,8 @@ officeMath->set_Justification(OfficeMathJustification::Left);
 doc->Save(ArtifactsDir + u"Shape.OfficeMath.docx");
 ```
 
+## See Also
+
+* Class [OfficeMath](../)
+* Namespace [Aspose::Words::Math](../../)
+* Library [Aspose.Words](../../../)

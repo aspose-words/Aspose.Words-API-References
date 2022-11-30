@@ -6,7 +6,7 @@ type: docs
 weight: 1171
 url: /cpp/aspose.words/document/updatepagelayout/
 ---
-## Document.UpdatePageLayout method
+## Document::UpdatePageLayout method
 
 
 Rebuilds the page layout of the document.
@@ -15,13 +15,14 @@ Rebuilds the page layout of the document.
 void Aspose::Words::Document::UpdatePageLayout()
 ```
 
+## Remarks
+
 
 This method formats a document into pages and updates the page number related fields in the document such as PAGE, PAGES, PAGEREF and REF. The up-to-date page layout information is required for a correct rendering of the document to fixed-page formats.
 
 This method is automatically invoked when you first convert a document to PDF, XPS, image or print it. However, if you modify the document after rendering and then attempt to render it again - Aspose.Words will not update the page layout automatically. In this case you should call [UpdatePageLayout](./) before rendering again.
 
 ## Examples
-
 
 
 
@@ -45,3 +46,8 @@ doc->UpdatePageLayout();
 doc->Save(ArtifactsDir + u"Document.UpdatePageLayout.2.pdf");
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

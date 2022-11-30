@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.layout/layoutcollector/set_document/
 ---
-## LayoutCollector.set_Document method
+## LayoutCollector::set_Document method
 
 
 Setter for [Aspose::Words::Layout::LayoutCollector::get_Document](../get_document/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Layout::LayoutCollector::get_Document](../get_documen
 void Aspose::Words::Layout::LayoutCollector::set_Document(const System::SharedPtr<Aspose::Words::Document> &value)
 ```
 
+## See Also
+
+* Class [Document](../../../aspose.words/document/)
+* Class [LayoutCollector](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

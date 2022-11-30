@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.words.mailmerging/mailmerge/getregionsbyname/
 ---
-## MailMerge.GetRegionsByName method
+## MailMerge::GetRegionsByName method
 
 
 Returns a collection of mail merge regions with the specified name.
@@ -22,11 +22,9 @@ System::SharedPtr<System::Collections::Generic::IList<System::SharedPtr<Aspose::
 
 ### ReturnValue
 
-
 The list of regions.
 
 ## Examples
-
 
 
 
@@ -79,3 +77,9 @@ mergeFieldNames = doc->get_MailMerge()->GetFieldNamesForRegion(u"MailMergeRegion
 ASSERT_EQ(u"Column2", mergeFieldNames[0]);
 ```
 
+## See Also
+
+* Class [MailMergeRegionInfo](../../mailmergeregioninfo/)
+* Class [MailMerge](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

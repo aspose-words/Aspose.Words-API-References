@@ -88,6 +88,8 @@ class FormField : public Aspose::Words::SpecialChar
 | [SetTextInputValue](./settextinputvalue/)(const System::SharedPtr\<System::Object\>\&) | Applies the text format specified in [TextInputFormat](./get_textinputformat/) and stores the value in [Result](./get_result/). |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 Microsoft Word provides the following form fields: checkbox, text input and dropdown (combobox).
 
@@ -95,10 +97,9 @@ Microsoft Word provides the following form fields: checkbox, text input and drop
 
 **FormField** is represented in a document by a special character and positioned as a character within a line of text.
 
-A complete form field in a Word document is a complex structure represented by several nodes: field start, field code such as FORMTEXT, form field data, field separator, field result, field end and a bookmark. To programmatically create form fields in a Word document use **DocumentBuilder.InsertCheckBox**, **DocumentBuilder.InsertTextInput** and **DocumentBuilder.InsertComboBox** which make sure all of the form field nodes are created in a correct order and in a suitable state.
+A complete form field in a Word document is a complex structure represented by several nodes: field start, field code such as FORMTEXT, form field data, field separator, field result, field end and a bookmark. To programmatically create form fields in a Word document use [DocumentBuilder.InsertCheckBox](../), [DocumentBuilder.InsertTextInput](../) and [DocumentBuilder.InsertComboBox](../) which make sure all of the form field nodes are created in a correct order and in a suitable state.
 
 ## Examples
-
 
 
 
@@ -142,3 +143,8 @@ ASPOSE_ASSERT_EQ(24, formFieldRun->get_Font()->get_Size());
 ASSERT_EQ(System::Drawing::Color::get_Red().ToArgb(), formFieldRun->get_Font()->get_Color().ToArgb());
 ```
 
+## See Also
+
+* Class [SpecialChar](../../aspose.words/specialchar/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldprint/
 Implements the PRINT field.
 
 ```cpp
-class FieldPrint : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldPrint : public Aspose::Words::Fields::Field,
+                   public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -50,7 +51,6 @@ class FieldPrint : public Aspose::Words::Fields::Field, public Aspose::Words::Fi
 
 
 
-
 Shows to insert a PRINT field. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -75,3 +75,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.PRINT.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

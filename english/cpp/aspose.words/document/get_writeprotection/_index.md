@@ -6,7 +6,7 @@ type: docs
 weight: 742
 url: /cpp/aspose.words/document/get_writeprotection/
 ---
-## Document.get_WriteProtection method
+## Document::get_WriteProtection method
 
 
 Provides access to the document write protection options.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Settings::WriteProtection> Aspose::Words::Docum
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,9 @@ builder->Writeln(u"Writing text in a protected document.");
 ASSERT_EQ(String(u"Hello world! This document is protected.") + u"\rWriting text in a protected document.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [WriteProtection](../../../aspose.words.settings/writeprotection/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

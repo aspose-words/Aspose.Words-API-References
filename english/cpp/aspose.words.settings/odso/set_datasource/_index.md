@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.settings/odso/set_datasource/
 ---
-## Odso.set_DataSource method
+## Odso::set_DataSource method
 
 
 Specifies the location of the external data source to be connected to a document to perform the mail merge. The default value is an empty string.
@@ -15,3 +15,8 @@ Specifies the location of the external data source to be connected to a document
 void Aspose::Words::Settings::Odso::set_DataSource(const System::String &value)
 ```
 
+## See Also
+
+* Class [Odso](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

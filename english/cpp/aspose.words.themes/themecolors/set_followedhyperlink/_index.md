@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.words.themes/themecolors/set_followedhyperlink/
 ---
-## ThemeColors.set_FollowedHyperlink method
+## ThemeColors::set_FollowedHyperlink method
 
 
 Setter for [Aspose::Words::Themes::ThemeColors::get_FollowedHyperlink](../get_followedhyperlink/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Themes::ThemeColors::get_FollowedHyperlink](../get_fo
 void Aspose::Words::Themes::ThemeColors::set_FollowedHyperlink(System::Drawing::Color value)
 ```
 
+## See Also
+
+* Class [ThemeColors](../)
+* Namespace [Aspose::Words::Themes](../../)
+* Library [Aspose.Words](../../../)

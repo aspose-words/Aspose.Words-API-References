@@ -11,6 +11,10 @@ url: /cpp/aspose.words.layout/continuoussectionrestart/
 
 Represents different behaviors when computing page numbers in a continuous section that restarts page numbering.
 
+```cpp
+enum class ContinuousSectionRestart
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,7 +24,6 @@ Represents different behaviors when computing page numbers in a continuous secti
 
 
 ## Examples
-
 
 
 
@@ -38,3 +41,7 @@ doc->UpdatePageLayout();
 doc->Save(ArtifactsDir + u"Layout.RestartPageNumberingInContinuousSection.pdf");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Layout](../)
+* Library [Aspose.Words](../../)

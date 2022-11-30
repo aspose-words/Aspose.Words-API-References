@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.fields/field/get_islocked/
 ---
-## Field.get_IsLocked method
+## Field::get_IsLocked method
 
 
 Gets or sets whether the field is locked (should not recalculate its result).
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::Field::get_IsLocked()
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,8 @@ ASSERT_EQ(u" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
 field->Update();
 ```
 
+## See Also
+
+* Class [Field](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

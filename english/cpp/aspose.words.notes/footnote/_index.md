@@ -12,7 +12,8 @@ url: /cpp/aspose.words.notes/footnote/
 Represents a container for text of a footnote or endnote.
 
 ```cpp
-class Footnote : public Aspose::Words::InlineStory, public Aspose::Words::Revisions::ITrackableNode
+class Footnote : public Aspose::Words::InlineStory,
+                 public Aspose::Words::Revisions::ITrackableNode
 ```
 
 ## Methods
@@ -76,6 +77,8 @@ class Footnote : public Aspose::Words::InlineStory, public Aspose::Words::Revisi
 | [SetTemplateWeakPtr](../../aspose.words/compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 The **Footnote** class is used to represent both footnotes and endnotes in a Word document.
 
@@ -84,7 +87,6 @@ The **Footnote** class is used to represent both footnotes and endnotes in a Wor
 **Footnote** can contain **Paragraph** and **Table** child nodes.
 
 ## Examples
-
 
 
 
@@ -130,3 +132,8 @@ ASSERT_TRUE(footnote->get_IsAuto());
 doc->Save(ArtifactsDir + u"InlineStory.AddFootnote.docx");
 ```
 
+## See Also
+
+* Class [InlineStory](../../aspose.words/inlinestory/)
+* Namespace [Aspose::Words::Notes](../)
+* Library [Aspose.Words](../../)

@@ -11,6 +11,10 @@ url: /cpp/aspose.words.buildingblocks/buildingblockbehavior/
 
 Specifies the behavior that shall be applied to the contents of the building block when it is inserted into the main document.
 
+```cpp
+enum class BuildingBlockBehavior
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -18,13 +22,14 @@ Specifies the behavior that shall be applied to the contents of the building blo
 | Content | 0 | Specifies that the building block shall be inserted as inline content. |
 | Paragraph | 1 | Specifies that the building block shall be inserted into its own paragraph. |
 | Page | 2 | Specifies that the building block shall be added into its own page. |
-| Default | n/a | Same as **Content**. |
+| Default | n/a | Same as [Content](./). |
+
+## Remarks
 
 
 Corresponds to the **ST_DocPartBehavior** type in OOXML.
 
 ## Examples
-
 
 
 
@@ -119,3 +124,7 @@ private:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::BuildingBlocks](../)
+* Library [Aspose.Words](../../)

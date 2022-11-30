@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.drawing/shadowformat/get_type/
 ---
-## ShadowFormat.get_Type method
+## ShadowFormat::get_Type method
 
 
 Gets the specified [ShadowType](../../shadowtype/) for [ShadowFormat](../).
@@ -15,3 +15,9 @@ Gets the specified [ShadowType](../../shadowtype/) for [ShadowFormat](../).
 Aspose::Words::Drawing::ShadowType Aspose::Words::Drawing::ShadowFormat::get_Type()
 ```
 
+## See Also
+
+* Enum [ShadowType](../../shadowtype/)
+* Class [ShadowFormat](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

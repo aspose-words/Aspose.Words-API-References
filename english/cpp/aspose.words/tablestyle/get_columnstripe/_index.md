@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words/tablestyle/get_columnstripe/
 ---
-## TableStyle.get_ColumnStripe method
+## TableStyle::get_ColumnStripe method
 
 
 Gets or sets a number of columns to include in the banding when the style specifies odd/even columns banding.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::TableStyle::get_ColumnStripe()
 
 
 ## Examples
-
 
 
 
@@ -78,3 +77,8 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::ColumnBan
 doc->Save(ArtifactsDir + u"Table.AlternatingRowStyles.docx");
 ```
 
+## See Also
+
+* Class [TableStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

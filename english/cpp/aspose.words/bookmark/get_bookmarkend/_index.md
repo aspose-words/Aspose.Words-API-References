@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/bookmark/get_bookmarkend/
 ---
-## Bookmark.get_BookmarkEnd method
+## Bookmark::get_BookmarkEnd method
 
 
 Gets the node that represents the end of the bookmark.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::BookmarkEnd> Aspose::Words::Bookmark::get_Bookm
 
 
 ## Examples
-
 
 
 
@@ -98,3 +97,9 @@ public:
 };
 ```
 
+## See Also
+
+* Class [BookmarkEnd](../../bookmarkend/)
+* Class [Bookmark](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

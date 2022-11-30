@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_isshowingplaceholdertext/
 ---
-## StructuredDocumentTagRangeStart.get_IsShowingPlaceholderText method
+## StructuredDocumentTagRangeStart::get_IsShowingPlaceholderText method
 
 
 Specifies whether the content of this structured document tag shall be interpreted to contain placeholder text (as opposed to regular text contents within the structured document tag). if set to true, this state shall be resumed (showing placeholder text) upon opening this document.
@@ -17,7 +17,6 @@ bool Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_IsShowingPlaceh
 
 
 ## Examples
-
 
 
 
@@ -49,3 +48,8 @@ std::cout << "\t|Id: " << rangeEndTag->get_Id() << std::endl;
 std::cout << String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) << std::endl;
 ```
 
+## See Also
+
+* Class [StructuredDocumentTagRangeStart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

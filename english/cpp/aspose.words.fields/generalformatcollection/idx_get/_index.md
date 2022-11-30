@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/generalformatcollection/idx_get/
 ---
-## GeneralFormatCollection.idx_get method
+## GeneralFormatCollection::idx_get method
 
 
 Gets a general format at the specified index.
@@ -22,11 +22,9 @@ Aspose::Words::Fields::GeneralFormat Aspose::Words::Fields::GeneralFormatCollect
 
 ### ReturnValue
 
-
 A general format.
 
 ## Examples
-
 
 
 
@@ -92,3 +90,9 @@ ASSERT_EQ(u"58", field->get_Result());
 ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 ```
 
+## See Also
+
+* Enum [GeneralFormat](../../generalformat/)
+* Class [GeneralFormatCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

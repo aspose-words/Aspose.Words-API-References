@@ -11,6 +11,10 @@ url: /cpp/aspose.words.properties/propertytype/
 
 Specifies data type of a document property.
 
+```cpp
+enum class PropertyType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -27,7 +31,6 @@ Specifies data type of a document property.
 
 
 ## Examples
-
 
 
 
@@ -89,3 +92,7 @@ properties->Clear();
 ASSERT_EQ(0, properties->get_Count());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Properties](../)
+* Library [Aspose.Words](../../)

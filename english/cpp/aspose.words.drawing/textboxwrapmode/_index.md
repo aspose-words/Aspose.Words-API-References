@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing/textboxwrapmode/
 
 Specifies how text wraps inside a shape.
 
+```cpp
+enum class TextBoxWrapMode
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,7 +24,6 @@ Specifies how text wraps inside a shape.
 
 
 ## Examples
-
 
 
 
@@ -45,3 +48,7 @@ builder->Write(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 doc->Save(ArtifactsDir + u"Shape.TextBoxContentsWrapMode.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

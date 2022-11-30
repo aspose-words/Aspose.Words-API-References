@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words/compositenode/removeallchildren/
 ---
-## CompositeNode.RemoveAllChildren method
+## CompositeNode::RemoveAllChildren method
 
 
 Removes all the child nodes of the current node.
@@ -17,7 +17,6 @@ void Aspose::Words::CompositeNode::RemoveAllChildren()
 
 
 ## Examples
-
 
 
 
@@ -65,3 +64,8 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 ```
 
+## See Also
+
+* Class [CompositeNode](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/signaturelineoptions/get_instructions/
 ---
-## SignatureLineOptions.get_Instructions method
+## SignatureLineOptions::get_Instructions method
 
 
 Gets or sets instructions to the signer that are displayed on signing the signature line. Default value for this property is **empty string**.
@@ -17,7 +17,6 @@ System::String Aspose::Words::SignatureLineOptions::get_Instructions() const
 
 
 ## Examples
-
 
 
 
@@ -64,3 +63,8 @@ ASSERT_TRUE(signatureLine->get_IsSigned());
 ASSERT_TRUE(signatureLine->get_IsValid());
 ```
 
+## See Also
+
+* Class [SignatureLineOptions](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

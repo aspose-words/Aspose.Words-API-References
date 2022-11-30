@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.drawing.charts/chartseriescollection/removeat/
 ---
-## ChartSeriesCollection.RemoveAt method
+## ChartSeriesCollection::RemoveAt method
 
 
 Removes a [ChartSeries](../../chartseries/) at the specified index.
@@ -21,7 +21,6 @@ void Aspose::Words::Drawing::Charts::ChartSeriesCollection::RemoveAt(int32_t ind
 | index | int32_t | The zero-based index of the [ChartSeries](../../chartseries/) to remove. |
 
 ## Examples
-
 
 
 
@@ -68,3 +67,8 @@ ASSERT_FALSE(chartData->LINQ_Any([](SharedPtr<ChartSeries> s) { return s->get_Na
 chartData->Clear();
 ```
 
+## See Also
+
+* Class [ChartSeriesCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

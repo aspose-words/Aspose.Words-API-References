@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldchar/get_isdirty/
 ---
-## FieldChar.get_IsDirty method
+## FieldChar::get_IsDirty method
 
 
 Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldChar::get_IsDirty() const
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,8 @@ ASSERT_EQ(u" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
 field->Update();
 ```
 
+## See Also
+
+* Class [FieldChar](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

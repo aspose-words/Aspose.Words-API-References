@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.tables/cell/get_lastparagraph/
 ---
-## Cell.get_LastParagraph method
+## Cell::get_LastParagraph method
 
 
 Gets the last paragraph among the immediate children.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::Tables::Cell::get_Las
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,9 @@ ASSERT_EQ(LineStyle::None, border->get_LineStyle());
 doc->Save(ArtifactsDir + u"Border.VerticalBorders.docx");
 ```
 
+## See Also
+
+* Class [Paragraph](../../../aspose.words/paragraph/)
+* Class [Cell](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

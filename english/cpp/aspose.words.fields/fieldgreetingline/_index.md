@@ -12,7 +12,9 @@ url: /cpp/aspose.words.fields/fieldgreetingline/
 Implements the GREETINGLINE field.
 
 ```cpp
-class FieldGreetingLine : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider, public Aspose::Words::Fields::IFormattableMergeField
+class FieldGreetingLine : public Aspose::Words::Fields::Field,
+                          public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
+                          public Aspose::Words::Fields::IFormattableMergeField
 ```
 
 ## Methods
@@ -49,3 +51,8 @@ class FieldGreetingLine : public Aspose::Words::Fields::Field, public Aspose::Wo
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

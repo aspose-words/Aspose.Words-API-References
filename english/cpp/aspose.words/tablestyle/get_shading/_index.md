@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words/tablestyle/get_shading/
 ---
-## TableStyle.get_Shading method
+## TableStyle::get_Shading method
 
 
 Gets a [Shading](../../shading/) object that refers to the shading formatting for table cells.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Shading> Aspose::Words::TableStyle::get_Shading
 
 
 ## Examples
-
 
 
 
@@ -59,3 +58,9 @@ ASSERT_EQ(u"MyTableStyle1", table->get_StyleName());
 doc->Save(ArtifactsDir + u"Table.TableStyleCreation.docx");
 ```
 
+## See Also
+
+* Class [Shading](../../shading/)
+* Class [TableStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

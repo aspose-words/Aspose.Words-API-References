@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_manager/
 ---
-## BuiltInDocumentProperties.get_Manager method
+## BuiltInDocumentProperties::get_Manager method
 
 
 Gets or sets the manager property.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Properties::BuiltInDocumentProperties::get_Manager
 
 
 ## Examples
-
 
 
 
@@ -51,3 +50,8 @@ properties->set_LastSavedTime(System::DateTime::get_Now());
 doc->Save(ArtifactsDir + u"DocumentProperties.Origin.docx");
 ```
 
+## See Also
+
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

@@ -11,6 +11,10 @@ url: /cpp/aspose.words.fields/fielddatabaseformatattributes/
 
 FieldDatabaseFormatAttributes enumeration.
 
+```cpp
+enum class FieldDatabaseFormatAttributes
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -26,3 +30,7 @@ FieldDatabaseFormatAttributes enumeration.
 | FirstColumn | 128 |  |
 | LastColumn | 256 |  |
 
+## See Also
+
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

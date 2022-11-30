@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldstyleref/get_insertparagraphnumber/
 ---
-## FieldStyleRef.get_InsertParagraphNumber method
+## FieldStyleRef::get_InsertParagraphNumber method
 
 
 Gets or sets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldStyleRef::get_InsertParagraphNumber()
 
 
 ## Examples
-
 
 
 
@@ -87,3 +86,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.STYLEREF.docx");
 ```
 
+## See Also
+
+* Class [FieldStyleRef](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

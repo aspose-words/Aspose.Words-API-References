@@ -12,7 +12,9 @@ url: /cpp/aspose.words/font/
 Contains font attributes (font name, font size, color, and so on) for an object.
 
 ```cpp
-class Font : public Aspose::Words::IBorderAttrSource, public Aspose::Words::IShadingAttrSource, public Aspose::Words::Drawing::Core::IFillable
+class Font : public Aspose::Words::IBorderAttrSource,
+             public Aspose::Words::IShadingAttrSource,
+             public Aspose::Words::Drawing::Core::IFillable
 ```
 
 ## Methods
@@ -124,11 +126,12 @@ class Font : public Aspose::Words::IBorderAttrSource, public Aspose::Words::ISha
 | [set_TintAndShade](./set_tintandshade/)(double) | Setter for [Aspose::Words::Font::get_TintAndShade](./get_tintandshade/). |
 | [set_Underline](./set_underline/)(Aspose::Words::Underline) | Setter for [Aspose::Words::Font::get_Underline](./get_underline/). |
 | [set_UnderlineColor](./set_underlinecolor/)(System::Drawing::Color) | Setter for [Aspose::Words::Font::get_UnderlineColor](./get_underlinecolor/). |
+## Remarks
+
 
 You do not create instances of the [Font](./) class directly. You just use [Font](./) to access the font properties of the various objects such as [Run](../run/), [Paragraph](../paragraph/), [Style](../style/), [DocumentBuilder](../documentbuilder/).
 
 ## Examples
-
 
 
 
@@ -188,3 +191,7 @@ builder->Writeln(u"Hello World: Normal.");
 builder->get_Document()->Save(ArtifactsDir + u"Styles.ParagraphStyleBulletedList.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

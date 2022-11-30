@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/removeat/
 ---
-## BookmarksOutlineLevelCollection.RemoveAt method
+## BookmarksOutlineLevelCollection::RemoveAt method
 
 
 Removes a bookmark at the specified index.
@@ -21,7 +21,6 @@ void Aspose::Words::Saving::BookmarksOutlineLevelCollection::RemoveAt(int32_t in
 | index | int32_t | The zero based index. |
 
 ## Examples
-
 
 
 
@@ -77,3 +76,8 @@ doc->Save(ArtifactsDir + u"BookmarksOutlineLevelCollection.BookmarkLevels.pdf", 
 outlineLevels->Clear();
 ```
 
+## See Also
+
+* Class [BookmarksOutlineLevelCollection](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

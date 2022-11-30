@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.lists/list/get_listid/
 ---
-## List.get_ListId method
+## List::get_ListId method
 
 
 Gets the unique identifier of the list.
@@ -15,11 +15,12 @@ Gets the unique identifier of the list.
 int32_t Aspose::Words::Lists::List::get_ListId() const
 ```
 
+## Remarks
+
 
 You do not normally need to use this property. But if you use it, you normally do so in conjunction with the [GetListByListId()](../../listcollection/getlistbylistid/) method to find a list by its identifier.
 
 ## Examples
-
 
 
 
@@ -71,3 +72,8 @@ std::cout << (String(u"ListId: ") + list->get_ListId()) << std::endl;
 std::cout << (String(u"List is the same by ListId: ") + (System::ObjectExt::Equals(lists->GetListByListId(1), list))) << std::endl;
 ```
 
+## See Also
+
+* Class [List](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

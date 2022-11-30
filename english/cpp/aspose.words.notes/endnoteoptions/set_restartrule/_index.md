@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.notes/endnoteoptions/set_restartrule/
 ---
-## EndnoteOptions.set_RestartRule method
+## EndnoteOptions::set_RestartRule method
 
 
 Setter for [Aspose::Words::Notes::EndnoteOptions::get_RestartRule](../get_restartrule/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Notes::EndnoteOptions::get_RestartRule](../get_restar
 void Aspose::Words::Notes::EndnoteOptions::set_RestartRule(Aspose::Words::Notes::FootnoteNumberingRule value) override
 ```
 
+## See Also
+
+* Enum [FootnoteNumberingRule](../../footnotenumberingrule/)
+* Class [EndnoteOptions](../)
+* Namespace [Aspose::Words::Notes](../../)
+* Library [Aspose.Words](../../../)

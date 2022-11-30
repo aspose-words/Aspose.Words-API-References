@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.lists/listlevel/get_linkedstyle/
 ---
-## ListLevel.get_LinkedStyle method
+## ListLevel::get_LinkedStyle method
 
 
 Gets or sets the paragraph style that is linked to this list level.
@@ -15,11 +15,12 @@ Gets or sets the paragraph style that is linked to this list level.
 System::SharedPtr<Aspose::Words::Style> Aspose::Words::Lists::ListLevel::get_LinkedStyle()
 ```
 
+## Remarks
+
 
 This property is null when the list level is not linked to a paragraph style. This property can be set to null.
 
 ## Examples
-
 
 
 
@@ -83,3 +84,9 @@ builder->get_ListFormat()->RemoveNumbers();
 doc->Save(ArtifactsDir + u"Lists.CreateListRestartAfterHigher.docx");
 ```
 
+## See Also
+
+* Class [Style](../../../aspose.words/style/)
+* Class [ListLevel](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

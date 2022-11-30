@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_embedfullfonts/
 ---
-## PdfSaveOptions.get_EmbedFullFonts method
+## PdfSaveOptions::get_EmbedFullFonts method
 
 
 Controls how fonts are embedded into the resulting PDF documents.
@@ -14,6 +14,8 @@ Controls how fonts are embedded into the resulting PDF documents.
 ```cpp
 bool Aspose::Words::Saving::PdfSaveOptions::get_EmbedFullFonts() const
 ```
+
+## Remarks
 
 
 The default value is **false**, which means the fonts are subsetted before embedding. Subsetting is useful if you want to keep the output file size smaller. Subsetting removes all unused glyphs from a font.
@@ -23,7 +25,6 @@ When this value is set to **true**, a complete font file is embedded into PDF wi
 Some fonts are large (several megabytes) and embedding them without subsetting will result in large output documents.
 
 ## Examples
-
 
 
 
@@ -73,3 +74,8 @@ else
 FontSettings::get_DefaultInstance()->SetFontsSources(originalFontsSources);
 ```
 
+## See Also
+
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

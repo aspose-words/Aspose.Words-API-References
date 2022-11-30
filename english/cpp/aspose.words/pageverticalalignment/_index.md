@@ -11,6 +11,10 @@ url: /cpp/aspose.words/pageverticalalignment/
 
 Specifies vertical justification of text on each page.
 
+```cpp
+enum class PageVerticalAlignment
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -22,7 +26,6 @@ Specifies vertical justification of text on each page.
 
 
 ## Examples
-
 
 
 
@@ -54,3 +57,7 @@ builder->Writeln(u"This is the second section, which is in default Letter paper 
 doc->Save(ArtifactsDir + u"PageSetup.ClearFormatting.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

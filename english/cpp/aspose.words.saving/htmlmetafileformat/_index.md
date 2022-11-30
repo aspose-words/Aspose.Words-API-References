@@ -11,6 +11,10 @@ url: /cpp/aspose.words.saving/htmlmetafileformat/
 
 Indicates the format in which metafiles are saved to HTML documents.
 
+```cpp
+enum class HtmlMetafileFormat
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,7 +25,6 @@ Indicates the format in which metafiles are saved to HTML documents.
 
 
 ## Examples
-
 
 
 
@@ -77,3 +80,7 @@ case HtmlMetafileFormat::EmfOrWmf:
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

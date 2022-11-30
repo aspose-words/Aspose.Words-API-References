@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.words.saving/imagesaveoptions/set_papercolor/
 ---
-## ImageSaveOptions.set_PaperColor method
+## ImageSaveOptions::set_PaperColor method
 
 
 Setter for [Aspose::Words::Saving::ImageSaveOptions::get_PaperColor](../get_papercolor/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::ImageSaveOptions::get_PaperColor](../get_pape
 void Aspose::Words::Saving::ImageSaveOptions::set_PaperColor(System::Drawing::Color value)
 ```
 
+## See Also
+
+* Class [ImageSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

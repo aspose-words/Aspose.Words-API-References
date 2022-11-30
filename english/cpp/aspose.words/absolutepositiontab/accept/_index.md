@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/absolutepositiontab/accept/
 ---
-## AbsolutePositionTab.Accept method
+## AbsolutePositionTab::Accept method
 
 
 Accepts a visitor.
@@ -22,15 +22,15 @@ bool Aspose::Words::AbsolutePositionTab::Accept(System::SharedPtr<Aspose::Words:
 
 ### ReturnValue
 
-
 False if the visitor requested the enumeration to stop.
+## Remarks
+
 
 Calls [DocumentVisitor.VisitAbsolutePositionTab](../../documentvisitor/visitabsolutepositiontab/).
 
 For more info see the Visitor design pattern.
 
 ## Examples
-
 
 
 
@@ -92,3 +92,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [DocumentVisitor](../../documentvisitor/)
+* Class [AbsolutePositionTab](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

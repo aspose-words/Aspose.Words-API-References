@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.fields/fielddde/get_islinked/
 ---
-## FieldDde.get_IsLinked method
+## FieldDde::get_IsLinked method
 
 
 Gets or sets whether to reduce the file size by not storing graphics data with the document.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldDde::get_IsLinked()
 
 
 ## Examples
-
 
 
 
@@ -196,3 +195,8 @@ static void InsertFieldDdeAuto(SharedPtr<DocumentBuilder> builder, ExField::Inse
 }
 ```
 
+## See Also
+
+* Class [FieldDde](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

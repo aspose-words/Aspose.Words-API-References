@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.loading/loadoptions/loadoptions/
 ---
-## LoadOptions.LoadOptions() method
+## LoadOptions::LoadOptions() constructor
 
 
 Initializes a new instance of this class with default values.
@@ -17,7 +17,6 @@ Aspose::Words::Loading::LoadOptions::LoadOptions()
 
 
 ## Examples
-
 
 
 
@@ -42,7 +41,12 @@ Shows how to open an HTML document with images from a stream using a base URI.
 }
 ```
 
-## LoadOptions.LoadOptions(Aspose::Words::LoadFormat, const System::String\&, const System::String\&) method
+## See Also
+
+* Class [LoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)
+## LoadOptions::LoadOptions(Aspose::Words::LoadFormat, const System::String\&, const System::String\&) constructor
 
 
 A shortcut to initialize a new instance of this class with properties set to the specified values.
@@ -59,7 +63,6 @@ Aspose::Words::Loading::LoadOptions::LoadOptions(Aspose::Words::LoadFormat loadF
 | baseUri | const System::String\& | The string that will be used to resolve relative URIs to absolute. Can be null or empty string. |
 
 ## Examples
-
 
 
 
@@ -104,7 +107,13 @@ ASSERT_TRUE(imageShape->get_IsImage());
 doc->Save(ArtifactsDir + u"HtmlLoadOptions.BaseUri.docx");
 ```
 
-## LoadOptions.LoadOptions(const System::String\&) method
+## See Also
+
+* Enum [LoadFormat](../../../aspose.words/loadformat/)
+* Class [LoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)
+## LoadOptions::LoadOptions(const System::String\&) constructor
 
 
 A shortcut to initialize a new instance of this class with the specified password to load an encrypted document.
@@ -119,7 +128,6 @@ Aspose::Words::Loading::LoadOptions::LoadOptions(const System::String &password)
 | password | const System::String\& | The password to open an encrypted document. Can be null or empty string. |
 
 ## Examples
-
 
 
 
@@ -144,3 +152,8 @@ doc = MakeObject<Document>(MyDir + u"Encrypted.docx", options);
 }
 ```
 
+## See Also
+
+* Class [LoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

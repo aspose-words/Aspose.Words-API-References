@@ -6,7 +6,7 @@ type: docs
 weight: 807
 url: /cpp/aspose.words/paragraphformat/set_pagebreakbefore/
 ---
-## ParagraphFormat.set_PageBreakBefore method
+## ParagraphFormat::set_PageBreakBefore method
 
 
 Setter for [Aspose::Words::ParagraphFormat::get_PageBreakBefore](../get_pagebreakbefore/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::ParagraphFormat::get_PageBreakBefore](../get_pagebrea
 void Aspose::Words::ParagraphFormat::set_PageBreakBefore(bool value)
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

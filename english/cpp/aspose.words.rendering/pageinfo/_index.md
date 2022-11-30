@@ -27,7 +27,12 @@ class PageInfo : public System::Object
 | [get_WidthInPoints](./get_widthinpoints/)() | Gets the width of the page in points. |
 | [GetSizeInPixels](./getsizeinpixels/)(float, float) | Calculates the page size in pixels for a specified zoom factor and resolution. |
 | [GetSizeInPixels](./getsizeinpixels/)(float, float, float) | Calculates the page size in pixels for a specified zoom factor and resolution. |
+## Remarks
+
 
 The page width and height returned by this object represent the "final" size of the page e.g. they are already rotated to the correct orientation.
 
+## See Also
 
+* Namespace [Aspose::Words::Rendering](../)
+* Library [Aspose.Words](../../)

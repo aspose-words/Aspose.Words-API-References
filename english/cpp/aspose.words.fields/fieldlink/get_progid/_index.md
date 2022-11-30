@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.fields/fieldlink/get_progid/
 ---
-## FieldLink.get_ProgId method
+## FieldLink::get_ProgId method
 
 
 Gets or sets the application type of the link information.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldLink::get_ProgId()
 
 
 ## Examples
-
 
 
 
@@ -196,3 +195,8 @@ static void InsertFieldDdeAuto(SharedPtr<DocumentBuilder> builder, ExField::Inse
 }
 ```
 
+## See Also
+
+* Class [FieldLink](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

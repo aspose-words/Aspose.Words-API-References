@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.words.drawing/shapebase/get_isdecorative/
 ---
-## ShapeBase.get_IsDecorative method
+## ShapeBase::get_IsDecorative method
 
 
 Gets or sets the flag that specifies whether the shape is decorative in the document.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::ShapeBase::get_IsDecorative()
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,8 @@ shape->set_IsDecorative(true);
 doc->Save(ArtifactsDir + u"Shape.IsDecorative.docx");
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

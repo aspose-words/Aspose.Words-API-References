@@ -15,3 +15,8 @@ url: /cpp/aspose.words.markup/sdtlistitemcollection/virtualized_iterator/
 using Aspose::Words::Markup::SdtListItemCollection::virtualized_iterator =  typename iterator_holder_type::virtualized_iterator
 ```
 
+## See Also
+
+* Class [SdtListItemCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

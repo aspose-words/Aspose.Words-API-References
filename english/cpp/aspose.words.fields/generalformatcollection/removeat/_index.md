@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fields/generalformatcollection/removeat/
 ---
-## GeneralFormatCollection.RemoveAt method
+## GeneralFormatCollection::RemoveAt method
 
 
 Removes a general format occurrence at the specified index.
@@ -17,7 +17,6 @@ void Aspose::Words::Fields::GeneralFormatCollection::RemoveAt(int32_t index)
 
 
 ## Examples
-
 
 
 
@@ -83,3 +82,8 @@ ASSERT_EQ(u"58", field->get_Result());
 ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 ```
 
+## See Also
+
+* Class [GeneralFormatCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -9,7 +9,7 @@ url: /cpp/aspose.words.markup/sdtlistitem/
 ## SdtListItem class
 
 
-This element specifies a single list item within a parent **ComboBox** or **DropDownList** structured document tag.
+This element specifies a single list item within a parent [ComboBox](../sdttype/) or [DropDownList](../sdttype/) structured document tag.
 
 ```cpp
 class SdtListItem : public System::Object
@@ -25,7 +25,6 @@ class SdtListItem : public System::Object
 | [SdtListItem](./sdtlistitem/)(const System::String\&) | Initializes a new instance of this class. |
 
 ## Examples
-
 
 
 
@@ -85,3 +84,7 @@ listItems->Clear();
 ASSERT_EQ(0, listItems->get_Count());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Markup](../)
+* Library [Aspose.Words](../../)

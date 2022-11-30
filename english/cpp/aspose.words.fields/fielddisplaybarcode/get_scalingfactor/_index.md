@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.fields/fielddisplaybarcode/get_scalingfactor/
 ---
-## FieldDisplayBarcode.get_ScalingFactor method
+## FieldDisplayBarcode::get_ScalingFactor method
 
 
 Gets or sets a scaling factor for the symbol. The value is in whole percentage points and the valid values are [10, 1000].
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldDisplayBarcode::get_ScalingFactor()
 
 
 ## Examples
-
 
 
 
@@ -73,3 +72,8 @@ ASSERT_EQ(u" DISPLAYBARCODE  09312345678907 ITF14 \\c STD", field->GetFieldCode(
 doc->Save(ArtifactsDir + u"Field.DISPLAYBARCODE.docx");
 ```
 
+## See Also
+
+* Class [FieldDisplayBarcode](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

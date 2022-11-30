@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/txtsaveoptions/
 ## TxtSaveOptions class
 
 
-Can be used to specify additional options when saving a document into the **Text** format.
+Can be used to specify additional options when saving a document into the [Text](../../aspose.words/saveformat/) format.
 
 ```cpp
 class TxtSaveOptions : public Aspose::Words::Saving::TxtSaveOptionsBase
@@ -30,7 +30,7 @@ class TxtSaveOptions : public Aspose::Words::Saving::TxtSaveOptionsBase
 | [get_DmlRenderingMode](../saveoptions/get_dmlrenderingmode/)() const | Gets or sets a value determining how DrawingML shapes are rendered. |
 | [get_Encoding](../txtsaveoptionsbase/get_encoding/)() const | Specifies the encoding to use when exporting in text formats. Default value is **Encoding.UTF8**. |
 | [get_ExportGeneratorName](../saveoptions/get_exportgeneratorname/)() const | When true, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**. |
-| [get_ExportHeadersFootersMode](../txtsaveoptionsbase/get_exportheadersfootersmode/)() const | Specifies the way headers and footers are exported to the text formats. Default value is **PrimaryOnly**. |
+| [get_ExportHeadersFootersMode](../txtsaveoptionsbase/get_exportheadersfootersmode/)() const | Specifies the way headers and footers are exported to the text formats. Default value is [PrimaryOnly](../txtexportheadersfootersmode/). |
 | [get_ForcePageBreaks](../txtsaveoptionsbase/get_forcepagebreaks/)() const | Allows to specify whether the page breaks should be preserved during export. The default value is **false**. |
 | [get_ImlRenderingMode](../saveoptions/get_imlrenderingmode/)() const | Gets or sets a value determining how ink (InkML) objects are rendered. |
 | [get_ListIndentation](./get_listindentation/)() const | Gets a ListIndentation object that specifies how many and which character to use for indentation of list levels. By default it is zero count of character '\0', that means no indentation. |
@@ -40,7 +40,7 @@ class TxtSaveOptions : public Aspose::Words::Saving::TxtSaveOptionsBase
 | [get_PreserveTableLayout](./get_preservetablelayout/)() const | Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. The default value is **false**. |
 | [get_PrettyFormat](../saveoptions/get_prettyformat/)() const | When **true**, pretty formats output where applicable. Default value is **false**. |
 | [get_ProgressCallback](../saveoptions/get_progresscallback/)() const | Called during saving a document and accepts data about saving progress. |
-| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can only be **Text**. |
+| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can only be [Text](../../aspose.words/saveformat/). |
 | [get_SimplifyListLabels](./get_simplifylistlabels/)() const | Specifies whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text. If set to **true**, numbered list labels are written in simple numeric format and itemized list labels as simple ASCII characters. The default value is **false**. |
 | [get_TempFolder](../saveoptions/get_tempfolder/)() const | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is **null** and no temporary files are used. |
 | [get_UpdateCreatedTimeProperty](../saveoptions/get_updatecreatedtimeproperty/)() const | Gets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is false;. |
@@ -85,7 +85,6 @@ class TxtSaveOptions : public Aspose::Words::Saving::TxtSaveOptionsBase
 
 
 
-
 Shows how to save a .txt document with a custom paragraph break. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -111,3 +110,8 @@ String docText = System::IO::File::ReadAllText(ArtifactsDir + u"TxtSaveOptions.P
 ASSERT_EQ(String(u"Paragraph 1. End of paragraph.\n\n\t") + u"Paragraph 2. End of paragraph.\n\n\t" + u"Paragraph 3. End of paragraph.\n\n\t", docText);
 ```
 
+## See Also
+
+* Class [TxtSaveOptionsBase](../txtsaveoptionsbase/)
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

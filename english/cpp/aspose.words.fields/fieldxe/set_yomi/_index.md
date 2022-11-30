@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.fields/fieldxe/set_yomi/
 ---
-## FieldXE.set_Yomi method
+## FieldXE::set_Yomi method
 
 
 Setter for [Aspose::Words::Fields::FieldXE::get_Yomi](../get_yomi/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldXE::get_Yomi](../get_yomi/).
 void Aspose::Words::Fields::FieldXE::set_Yomi(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldXE](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

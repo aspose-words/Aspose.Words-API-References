@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fonts/fontinfo/get_family/
 ---
-## FontInfo.get_Family method
+## FontInfo::get_Family method
 
 
 Gets or sets the font family this font belongs to.
@@ -17,7 +17,6 @@ Aspose::Words::Fonts::FontFamily Aspose::Words::Fonts::FontInfo::get_Family() co
 
 
 ## Examples
-
 
 
 
@@ -54,3 +53,9 @@ while (fontCollectionEnumerator->MoveNext())
 }
 ```
 
+## See Also
+
+* Enum [FontFamily](../../fontfamily/)
+* Class [FontInfo](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

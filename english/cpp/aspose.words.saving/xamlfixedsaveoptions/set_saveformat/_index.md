@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.saving/xamlfixedsaveoptions/set_saveformat/
 ---
-## XamlFixedSaveOptions.set_SaveFormat method
+## XamlFixedSaveOptions::set_SaveFormat method
 
 
 Setter for [Aspose::Words::Saving::XamlFixedSaveOptions::get_SaveFormat](../get_saveformat/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Saving::XamlFixedSaveOptions::get_SaveFormat](../get_
 void Aspose::Words::Saving::XamlFixedSaveOptions::set_SaveFormat(Aspose::Words::SaveFormat value) override
 ```
 
+## See Also
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [XamlFixedSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

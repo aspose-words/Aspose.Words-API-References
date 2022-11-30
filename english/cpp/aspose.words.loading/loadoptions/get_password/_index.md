@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.loading/loadoptions/get_password/
 ---
-## LoadOptions.get_Password method
+## LoadOptions::get_Password method
 
 
 Gets or sets the password for opening an encrypted document. Can be null or empty string. Default is null.
@@ -15,11 +15,12 @@ Gets or sets the password for opening an encrypted document. Can be null or empt
 System::String Aspose::Words::Loading::LoadOptions::get_Password() const
 ```
 
+## Remarks
+
 
 You need to know the password to open an encrypted document. If the document is not encrypted, set this to null or empty string.
 
 ## Examples
-
 
 
 
@@ -41,3 +42,8 @@ String outputFileName = ArtifactsDir + u"DigitalSignatureUtil.DecryptionPassword
 DigitalSignatureUtil::Sign(inputFileName, outputFileName, certificateHolder, signOptions);
 ```
 
+## See Also
+
+* Class [LoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

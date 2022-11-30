@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/aspose.words/font/get_smallcaps/
 ---
-## Font.get_SmallCaps method
+## Font::get_SmallCaps method
 
 
 True if the font is formatted as small capital letters.
@@ -17,7 +17,6 @@ bool Aspose::Words::Font::get_SmallCaps()
 
 
 ## Examples
-
 
 
 
@@ -45,3 +44,8 @@ para->AppendChild(run);
 doc->Save(ArtifactsDir + u"Font.Caps.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.fields/fieldoptions/get_fielddatabaseprovider/
 ---
-## FieldOptions.get_FieldDatabaseProvider method
+## FieldOptions::get_FieldDatabaseProvider method
 
 
 Gets a provider that returns a query result for the [FieldDatabase](../../fielddatabase/) field.
@@ -15,3 +15,9 @@ Gets a provider that returns a query result for the [FieldDatabase](../../fieldd
 const System::SharedPtr<Aspose::Words::Fields::IFieldDatabaseProvider> & Aspose::Words::Fields::FieldOptions::get_FieldDatabaseProvider() const
 ```
 
+## See Also
+
+* Interface [IFieldDatabaseProvider](../../ifielddatabaseprovider/)
+* Class [FieldOptions](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

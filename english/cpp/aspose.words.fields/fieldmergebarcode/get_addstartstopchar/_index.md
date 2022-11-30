@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldmergebarcode/get_addstartstopchar/
 ---
-## FieldMergeBarcode.get_AddStartStopChar method
+## FieldMergeBarcode::get_AddStartStopChar method
 
 
 Gets whether to add Start/Stop characters for barcode types NW7 and CODE39.
@@ -15,3 +15,8 @@ Gets whether to add Start/Stop characters for barcode types NW7 and CODE39.
 bool Aspose::Words::Fields::FieldMergeBarcode::get_AddStartStopChar()
 ```
 
+## See Also
+
+* Class [FieldMergeBarcode](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

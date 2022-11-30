@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.fields/formfield/get_nodetype/
 ---
-## FormField.get_NodeType method
+## FormField::get_NodeType method
 
 
 Returns **NodeType.FormField**.
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::Fields::FormField::get_NodeType() const o
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,9 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../../aspose.words/nodetype/)
+* Class [FormField](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

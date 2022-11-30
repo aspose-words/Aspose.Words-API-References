@@ -11,6 +11,10 @@ url: /cpp/aspose.words.saving/pdfzoombehavior/
 
 Specifies the type of zoom applied to a PDF document when it is opened in a PDF viewer.
 
+```cpp
+enum class PdfZoomBehavior
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -24,7 +28,6 @@ Specifies the type of zoom applied to a PDF document when it is opened in a PDF 
 
 
 ## Examples
-
 
 
 
@@ -47,3 +50,7 @@ options->set_ZoomFactor(25);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.ZoomBehaviour.pdf", options);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

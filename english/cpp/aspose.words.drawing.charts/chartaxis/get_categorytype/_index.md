@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_categorytype/
 ---
-## ChartAxis.get_CategoryType method
+## ChartAxis::get_CategoryType method
 
 
 Gets or sets type of the category axis.
@@ -17,7 +17,6 @@ Aspose::Words::Drawing::Charts::AxisCategoryType Aspose::Words::Drawing::Charts:
 
 
 ## Examples
-
 
 
 
@@ -67,3 +66,9 @@ ASSERT_TRUE(chart->get_AxisZ() == nullptr);
 doc->Save(ArtifactsDir + u"Charts.AxisProperties.docx");
 ```
 
+## See Also
+
+* Enum [AxisCategoryType](../../axiscategorytype/)
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

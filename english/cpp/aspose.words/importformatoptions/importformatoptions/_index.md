@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/importformatoptions/importformatoptions/
 ---
-## ImportFormatOptions.ImportFormatOptions method
+## ImportFormatOptions::ImportFormatOptions constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words/importformatoptions/importformatoptions/
 Aspose::Words::ImportFormatOptions::ImportFormatOptions()
 ```
 
+## See Also
+
+* Class [ImportFormatOptions](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

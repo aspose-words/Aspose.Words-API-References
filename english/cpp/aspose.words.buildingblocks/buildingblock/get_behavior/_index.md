@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.buildingblocks/buildingblock/get_behavior/
 ---
-## BuildingBlock.get_Behavior method
+## BuildingBlock::get_Behavior method
 
 
 Specifies the behavior that shall be applied when the contents of the building block is inserted into the main document.
@@ -17,7 +17,6 @@ Aspose::Words::BuildingBlocks::BuildingBlockBehavior Aspose::Words::BuildingBloc
 
 
 ## Examples
-
 
 
 
@@ -112,3 +111,9 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [BuildingBlockBehavior](../../buildingblockbehavior/)
+* Class [BuildingBlock](../)
+* Namespace [Aspose::Words::BuildingBlocks](../../)
+* Library [Aspose.Words](../../../)

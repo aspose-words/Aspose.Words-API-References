@@ -71,6 +71,8 @@ class HeaderFooter : public Aspose::Words::Story
 | [SetTemplateWeakPtr](../compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 **HeaderFooter** can contain **Paragraph** and **Table** child nodes.
 
@@ -81,7 +83,6 @@ If **Section** does not have a **HeaderFooter** of a specific type or the **Head
 When **HeaderFooter** contains at least one **Paragraph**, it is no longer considered linked to previous in Microsoft Word.
 
 ## Examples
-
 
 
 
@@ -171,3 +172,8 @@ footer->get_Range()->Replace(u"(C) 2006 Aspose Pty Ltd.", String::Format(u"Copyr
 doc->Save(ArtifactsDir + u"HeaderFooter.ReplaceText.docx");
 ```
 
+## See Also
+
+* Class [Story](../story/)
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

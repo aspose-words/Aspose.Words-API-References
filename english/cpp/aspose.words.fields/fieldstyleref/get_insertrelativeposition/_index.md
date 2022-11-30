@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fieldstyleref/get_insertrelativeposition/
 ---
-## FieldStyleRef.get_InsertRelativePosition method
+## FieldStyleRef::get_InsertRelativePosition method
 
 
 Gets or sets whether to insert the relative position of the referenced paragraph.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldStyleRef::get_InsertRelativePosition()
 
 
 ## Examples
-
 
 
 
@@ -87,3 +86,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.STYLEREF.docx");
 ```
 
+## See Also
+
+* Class [FieldStyleRef](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

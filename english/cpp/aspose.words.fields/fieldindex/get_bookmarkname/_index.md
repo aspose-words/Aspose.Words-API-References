@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldindex/get_bookmarkname/
 ---
-## FieldIndex.get_BookmarkName method
+## FieldIndex::get_BookmarkName method
 
 
 Gets or sets the name of the bookmark that marks the portion of the document used to build the index.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldIndex::get_BookmarkName()
 
 
 ## Examples
-
 
 
 
@@ -73,3 +72,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.INDEX.XE.Filtering.docx");
 ```
 
+## See Also
+
+* Class [FieldIndex](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.rendering/noderendererbase/noderendererbase/
 ---
-## NodeRendererBase.NodeRendererBase method
+## NodeRendererBase::NodeRendererBase constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.rendering/noderendererbase/noderendererbase/
 Aspose::Words::Rendering::NodeRendererBase::NodeRendererBase()
 ```
 
+## See Also
+
+* Class [NodeRendererBase](../)
+* Namespace [Aspose::Words::Rendering](../../)
+* Library [Aspose.Words](../../../)

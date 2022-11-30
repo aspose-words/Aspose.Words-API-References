@@ -9,7 +9,7 @@ url: /cpp/aspose.words/nodelist/
 ## NodeList class
 
 
-Represents a collection of nodes matching an XPath query executed using the **SelectNodes()** method.
+Represents a collection of nodes matching an XPath query executed using the [SelectNodes()](../) method.
 
 ```cpp
 class NodeList : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Node>>
@@ -24,15 +24,16 @@ class NodeList : public System::Collections::Generic::IEnumerable<System::Shared
 | [idx_get](./idx_get/)(int32_t) const | Retrieves a node at the given index. |
 | [NodeList](./nodelist/)(const System::SharedPtr\<Aspose::Words::NodeCollection\>\&) |  |
 | [ToArray](./toarray/)() const | Copies all nodes from the collection to a new array of nodes. |
+## Remarks
 
-**NodeList** is returned by **SelectNodes()** and contains a collection of nodes matching the XPath query.
+
+**NodeList** is returned by [SelectNodes()](../) and contains a collection of nodes matching the XPath query.
 
 **NodeList** supports indexed access and iteration.
 
 
 Treat the **NodeList** collection as a "snapshot" collection. **NodeList** starts as a "live" collection because the nodes are not actually retrieved when the XPath query is run. The nodes are only retrieved upon access and at this time the node and all nodes that precede it are cached forming a "snapshot" collection.
 ## Examples
-
 
 
 
@@ -251,3 +252,7 @@ public:
 } // namespace ApiExamples
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

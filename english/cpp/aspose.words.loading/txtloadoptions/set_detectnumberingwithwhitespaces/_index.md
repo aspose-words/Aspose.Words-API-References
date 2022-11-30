@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.loading/txtloadoptions/set_detectnumberingwithwhitespaces/
 ---
-## TxtLoadOptions.set_DetectNumberingWithWhitespaces method
+## TxtLoadOptions::set_DetectNumberingWithWhitespaces method
 
 
 Setter for [Aspose::Words::Loading::TxtLoadOptions::get_DetectNumberingWithWhitespaces](../get_detectnumberingwithwhitespaces/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Loading::TxtLoadOptions::get_DetectNumberingWithWhite
 void Aspose::Words::Loading::TxtLoadOptions::set_DetectNumberingWithWhitespaces(bool value)
 ```
 
+## See Also
+
+* Class [TxtLoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

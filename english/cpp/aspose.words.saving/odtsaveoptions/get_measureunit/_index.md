@@ -6,10 +6,10 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.saving/odtsaveoptions/get_measureunit/
 ---
-## OdtSaveOptions.get_MeasureUnit method
+## OdtSaveOptions::get_MeasureUnit method
 
 
-Allows to specify units of measure to apply to document content. The default value is **Centimeters**
+Allows to specify units of measure to apply to document content. The default value is [Centimeters](../../odtsavemeasureunit/)
 
 ```cpp
 Aspose::Words::Saving::OdtSaveMeasureUnit Aspose::Words::Saving::OdtSaveOptions::get_MeasureUnit() const
@@ -17,7 +17,6 @@ Aspose::Words::Saving::OdtSaveMeasureUnit Aspose::Words::Saving::OdtSaveOptions:
 
 
 ## Examples
-
 
 
 
@@ -36,3 +35,9 @@ saveOptions->set_MeasureUnit(odtSaveMeasureUnit);
 doc->Save(ArtifactsDir + u"OdtSaveOptions.Odt11Schema.odt", saveOptions);
 ```
 
+## See Also
+
+* Enum [OdtSaveMeasureUnit](../../odtsavemeasureunit/)
+* Class [OdtSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

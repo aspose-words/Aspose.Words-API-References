@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/aspose.words/paragraphformat/get_styleidentifier/
 ---
-## ParagraphFormat.get_StyleIdentifier method
+## ParagraphFormat::get_StyleIdentifier method
 
 
 Gets or sets the locale independent style identifier of the paragraph style applied to this formatting.
@@ -17,7 +17,6 @@ Aspose::Words::StyleIdentifier Aspose::Words::ParagraphFormat::get_StyleIdentifi
 
 
 ## Examples
-
 
 
 
@@ -67,3 +66,9 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertToc.docx");
 ```
 
+## See Also
+
+* Enum [StyleIdentifier](../../styleidentifier/)
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fieldif/get_falsetext/
 ---
-## FieldIf.get_FalseText method
+## FieldIf::get_FalseText method
 
 
 Gets or sets the text displayed if the comparison expression is false.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldIf::get_FalseText()
 
 
 ## Examples
-
 
 
 
@@ -61,3 +60,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.IF.docx");
 ```
 
+## See Also
+
+* Class [FieldIf](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

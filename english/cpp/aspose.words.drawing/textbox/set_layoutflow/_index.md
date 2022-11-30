@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.drawing/textbox/set_layoutflow/
 ---
-## TextBox.set_LayoutFlow method
+## TextBox::set_LayoutFlow method
 
 
 Setter for [Aspose::Words::Drawing::TextBox::get_LayoutFlow](../get_layoutflow/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Drawing::TextBox::get_LayoutFlow](../get_layoutflow/)
 void Aspose::Words::Drawing::TextBox::set_LayoutFlow(Aspose::Words::Drawing::LayoutFlow value)
 ```
 
+## See Also
+
+* Enum [LayoutFlow](../../layoutflow/)
+* Class [TextBox](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -3,7 +3,7 @@ title: ExportFontFormat
 second_title: Aspose.Words for .NET API Reference
 description: Indicates the format that is used to export fonts while rendering to HTML fixed format.
 type: docs
-weight: 4760
+weight: 4770
 url: /net/aspose.words.saving/exportfontformat/
 ---
 ## ExportFontFormat enumeration

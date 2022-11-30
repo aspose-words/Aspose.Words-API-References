@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/aspose.words.fields/fieldtoc/set_prefixedsequenceidentifier/
 ---
-## FieldToc.set_PrefixedSequenceIdentifier method
+## FieldToc::set_PrefixedSequenceIdentifier method
 
 
 Setter for [Aspose::Words::Fields::FieldToc::get_PrefixedSequenceIdentifier](../get_prefixedsequenceidentifier/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldToc::get_PrefixedSequenceIdentifier](../
 void Aspose::Words::Fields::FieldToc::set_PrefixedSequenceIdentifier(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldToc](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

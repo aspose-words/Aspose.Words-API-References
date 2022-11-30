@@ -6,7 +6,7 @@ type: docs
 weight: 586
 url: /cpp/aspose.words/documentbuilder/inserttableofcontents/
 ---
-## DocumentBuilder.InsertTableOfContents method
+## DocumentBuilder::InsertTableOfContents method
 
 
 Inserts a TOC (table of contents) field into the document.
@@ -19,6 +19,8 @@ System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::DocumentBuilder::
 | Parameter | Type | Description |
 | --- | --- | --- |
 | switches | const System::String\& | The TOC field switches. |
+## Remarks
+
 
 This method inserts a TOC (table of contents) field into the document at the current position.
 
@@ -35,7 +37,6 @@ If you insert a table of contents using this method and then open the file in Mi
 In Microsoft Word, fields are not automatically updated when a document is opened, but you can update fields in a document at any time by pressing F9.
 
 ## Examples
-
 
 
 
@@ -85,3 +86,9 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertToc.docx");
 ```
 
+## See Also
+
+* Class [Field](../../../aspose.words.fields/field/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

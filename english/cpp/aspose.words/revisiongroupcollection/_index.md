@@ -41,11 +41,12 @@ class RevisionGroupCollection : public System::Collections::Generic::IEnumerable
 | [iterator_holder_type](./iterator_holder_type/) |  |
 | [virtualized_iterator](./virtualized_iterator/) |  |
 | [virtualized_iterator_element](./virtualized_iterator_element/) |  |
+## Remarks
+
 
 You do not create instances of this class directly. Use the [Groups](../revisioncollection/get_groups/) property to get revision groups present in a document.
 
 ## Examples
-
 
 
 
@@ -71,3 +72,7 @@ auto doc = MakeObject<Document>(MyDir + u"Revisions.docx");
 SharedPtr<RevisionGroup> revisionGroup = doc->get_Revisions()->get_Groups()->idx_get(0);
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words/documentvisitor/visitfieldstart/
 ---
-## DocumentVisitor.VisitFieldStart method
+## DocumentVisitor::VisitFieldStart method
 
 
 Called when a field starts in the document.
@@ -22,8 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitFieldS
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
+## Remarks
+
 
 A field in a Word document consists of a field code and field value.
 
@@ -36,7 +37,6 @@ The field separator separates field code from field value in the document. Note 
 [Fields](../../../aspose.words.fields/) can be nested.
 
 ## Examples
-
 
 
 
@@ -121,3 +121,10 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [FieldStart](../../../aspose.words.fields/fieldstart/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.fields/fieldmergebarcode/get_scalingfactor/
 ---
-## FieldMergeBarcode.get_ScalingFactor method
+## FieldMergeBarcode::get_ScalingFactor method
 
 
 Gets a scaling factor for the symbol. The value is in whole percentage points and the valid values are [10, 1000].
@@ -15,3 +15,8 @@ Gets a scaling factor for the symbol. The value is in whole percentage points an
 System::String Aspose::Words::Fields::FieldMergeBarcode::get_ScalingFactor()
 ```
 
+## See Also
+
+* Class [FieldMergeBarcode](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

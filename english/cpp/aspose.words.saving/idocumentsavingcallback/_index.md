@@ -20,3 +20,7 @@ class IDocumentSavingCallback : public System::Object
 | Method | Description |
 | --- | --- |
 | virtual [Notify](./notify/)(System::SharedPtr\<Aspose::Words::Saving::DocumentSavingArgs\>) | This is called to notify of document saving progress. |
+## See Also
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

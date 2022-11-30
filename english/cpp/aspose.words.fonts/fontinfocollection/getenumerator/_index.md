@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.fonts/fontinfocollection/getenumerator/
 ---
-## FontInfoCollection.GetEnumerator method
+## FontInfoCollection::GetEnumerator method
 
 
 Returns an enumerator object that can be used to iterate over all items in the collection.
@@ -17,7 +17,6 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 
 ## Examples
-
 
 
 
@@ -54,3 +53,9 @@ while (fontCollectionEnumerator->MoveNext())
 }
 ```
 
+## See Also
+
+* Class [FontInfo](../../fontinfo/)
+* Class [FontInfoCollection](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

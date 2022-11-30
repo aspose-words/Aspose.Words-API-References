@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words/documentbuilder/get_bold/
 ---
-## DocumentBuilder.get_Bold method
+## DocumentBuilder::get_Bold method
 
 
 True if the font is formatted as bold.
@@ -17,7 +17,6 @@ bool Aspose::Words::DocumentBuilder::get_Bold()
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,8 @@ builder->Writeln(u"John Bloggs");
 doc->Save(ArtifactsDir + u"DocumentBuilder.FillMergeFields.docx");
 ```
 
+## See Also
+
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

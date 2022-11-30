@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.words.fields/fieldindex/set_letterrange/
 ---
-## FieldIndex.set_LetterRange method
+## FieldIndex::set_LetterRange method
 
 
 Setter for [Aspose::Words::Fields::FieldIndex::get_LetterRange](../get_letterrange/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldIndex::get_LetterRange](../get_letterran
 void Aspose::Words::Fields::FieldIndex::set_LetterRange(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldIndex](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

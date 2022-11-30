@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/
 ---
-## IFieldMergingCallback.FieldMerging method
+## IFieldMergingCallback::FieldMerging method
 
 
 Called when the Aspose.Words mail merge engine is about to insert data into a merge field in the document.
@@ -17,7 +17,6 @@ virtual void Aspose::Words::MailMerging::IFieldMergingCallback::FieldMerging(Sys
 
 
 ## Examples
-
 
 
 
@@ -70,3 +69,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [FieldMergingArgs](../../fieldmergingargs/)
+* Interface [IFieldMergingCallback](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

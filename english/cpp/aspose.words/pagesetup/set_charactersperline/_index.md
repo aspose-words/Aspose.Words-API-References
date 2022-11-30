@@ -6,7 +6,7 @@ type: docs
 weight: 690
 url: /cpp/aspose.words/pagesetup/set_charactersperline/
 ---
-## PageSetup.set_CharactersPerLine method
+## PageSetup::set_CharactersPerLine method
 
 
 Setter for [Aspose::Words::PageSetup::get_CharactersPerLine](../get_charactersperline/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::PageSetup::get_CharactersPerLine](../get_characterspe
 void Aspose::Words::PageSetup::set_CharactersPerLine(int32_t value)
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

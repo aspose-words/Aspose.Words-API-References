@@ -33,7 +33,6 @@ class HyphenationOptions : public System::Object
 
 
 
-
 Shows how to configure automatic hyphenation. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -51,3 +50,7 @@ doc->get_HyphenationOptions()->set_HyphenateCaps(true);
 doc->Save(ArtifactsDir + u"Document.HyphenationOptions.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Settings](../)
+* Library [Aspose.Words](../../)

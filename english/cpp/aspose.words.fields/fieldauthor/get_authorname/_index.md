@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldauthor/get_authorname/
 ---
-## FieldAuthor.get_AuthorName method
+## FieldAuthor::get_AuthorName method
 
 
 Gets or sets the document author's name.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldAuthor::get_AuthorName()
 
 
 ## Examples
-
 
 
 
@@ -70,3 +69,8 @@ ASSERT_EQ(u"Joe Bloggs", doc->get_FieldOptions()->get_DefaultDocumentAuthor());
 doc->Save(ArtifactsDir + u"Field.AUTHOR.docx");
 ```
 
+## See Also
+
+* Class [FieldAuthor](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

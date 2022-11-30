@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.tables/cellcollection/toarray/
 ---
-## CellCollection.ToArray method
+## CellCollection::ToArray method
 
 
 Copies all cells from the collection to a new array of cells.
@@ -18,11 +18,9 @@ System::ArrayPtr<System::SharedPtr<Aspose::Words::Tables::Cell>> Aspose::Words::
 
 ### ReturnValue
 
-
 An array of cells.
 
 ## Examples
-
 
 
 
@@ -66,3 +64,9 @@ for (int i = 0; i < tables->get_Count(); i++)
 }
 ```
 
+## See Also
+
+* Class [Cell](../../cell/)
+* Class [CellCollection](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

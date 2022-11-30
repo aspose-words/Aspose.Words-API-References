@@ -6,10 +6,10 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.loading/loadoptions/get_convertmetafilestopng/
 ---
-## LoadOptions.get_ConvertMetafilesToPng method
+## LoadOptions::get_ConvertMetafilesToPng method
 
 
-Gets or sets whether to convert metafile (**Wmf** or **Emf**) images to **Png** image format.
+Gets or sets whether to convert metafile ([Wmf](../) or [Emf](../)) images to [Png](../) image format.
 
 ```cpp
 bool Aspose::Words::Loading::LoadOptions::get_ConvertMetafilesToPng() const
@@ -17,7 +17,6 @@ bool Aspose::Words::Loading::LoadOptions::get_ConvertMetafilesToPng() const
 
 
 ## Examples
-
 
 
 
@@ -45,3 +44,8 @@ doc = MakeObject<Document>(ArtifactsDir + u"Image.CreateImageDirectly.docx", loa
 shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 ```
 
+## See Also
+
+* Class [LoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

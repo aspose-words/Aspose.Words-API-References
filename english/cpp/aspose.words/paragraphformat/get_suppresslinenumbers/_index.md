@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /cpp/aspose.words/paragraphformat/get_suppresslinenumbers/
 ---
-## ParagraphFormat.get_SuppressLineNumbers method
+## ParagraphFormat::get_SuppressLineNumbers method
 
 
 Specifies whether the current paragraph's lines should be exempted from line numbering which is applied in the parent section.
@@ -17,7 +17,6 @@ bool Aspose::Words::ParagraphFormat::get_SuppressLineNumbers()
 
 
 ## Examples
-
 
 
 
@@ -51,3 +50,8 @@ doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(14)->get_Paragrap
 doc->Save(ArtifactsDir + u"PageSetup.LineNumbers.docx");
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

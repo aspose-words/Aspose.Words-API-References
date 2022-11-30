@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/dropdownitemcollection/
 A collection of strings that represent all the items in a drop-down form field.
 
 ```cpp
-class DropDownItemCollection : public System::Collections::Generic::IEnumerable<System::String>, public Aspose::Words::IComplexAttr
+class DropDownItemCollection : public System::Collections::Generic::IEnumerable<System::String>,
+                               public Aspose::Words::IComplexAttr
 ```
 
 ## Methods
@@ -51,7 +52,6 @@ class DropDownItemCollection : public System::Collections::Generic::IEnumerable<
 | [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 
 ## Examples
-
 
 
 
@@ -107,3 +107,7 @@ doc->Save(ArtifactsDir + u"FormFields.DropDownItemCollection.html");
 dropDownItems->Clear();
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

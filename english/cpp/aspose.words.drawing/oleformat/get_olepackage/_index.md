@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.drawing/oleformat/get_olepackage/
 ---
-## OleFormat.get_OlePackage method
+## OleFormat::get_OlePackage method
 
 
 Provide access to [OlePackage](../../olepackage/) if OLE object is an OLE Package. Returns null otherwise.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::OlePackage> Aspose::Words::Drawing::Ol
 
 
 ## Examples
-
 
 
 
@@ -42,3 +41,9 @@ ArrayPtr<uint8_t> zipFileBytes = System::IO::File::ReadAllBytes(DatabaseDir + u"
 doc->Save(ArtifactsDir + u"Shape.InsertOlePackage.docx");
 ```
 
+## See Also
+
+* Class [OlePackage](../../olepackage/)
+* Class [OleFormat](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

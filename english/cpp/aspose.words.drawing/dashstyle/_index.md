@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing/dashstyle/
 
 Dashed line style.
 
+```cpp
+enum class DashStyle
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -26,11 +30,10 @@ Dashed line style.
 | DashDot | 8 | Dash short dash. |
 | LongDashDot | 9 | Long dash short dash. |
 | LongDashDotDot | 10 | Long dash short dash short dash. |
-| Default | n/a | Same as **Solid**. |
+| Default | n/a | Same as [Solid](./). |
 
 
 ## Examples
-
 
 
 
@@ -103,3 +106,7 @@ ArrayPtr<uint8_t> imageBytes = System::IO::File::ReadAllBytes(ImageDir + u"Logo.
 doc->Save(ArtifactsDir + u"Drawing.VariousShapes.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

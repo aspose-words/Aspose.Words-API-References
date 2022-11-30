@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.lists/listcollection/get_document/
 ---
-## ListCollection.get_Document method
+## ListCollection::get_Document method
 
 
 Gets the owner document.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::DocumentBase> Aspose::Words::Lists::ListCollect
 
 
 ## Examples
-
 
 
 
@@ -39,3 +38,9 @@ std::cout << (String(u"ListId: ") + list->get_ListId()) << std::endl;
 std::cout << (String(u"List is the same by ListId: ") + (System::ObjectExt::Equals(lists->GetListByListId(1), list))) << std::endl;
 ```
 
+## See Also
+
+* Class [DocumentBase](../../../aspose.words/documentbase/)
+* Class [ListCollection](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

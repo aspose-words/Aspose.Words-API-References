@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/compositenode/get_count/
 ---
-## CompositeNode.get_Count method
+## CompositeNode::get_Count method
 
 
 Gets the number of immediate children of this node.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::CompositeNode::get_Count()
 
 
 ## Examples
-
 
 
 
@@ -68,3 +67,8 @@ ASSERT_EQ(u"Run 1. Updated run 2. Run 3.", paragraph->GetText().Trim());
 ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
 ```
 
+## See Also
+
+* Class [CompositeNode](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

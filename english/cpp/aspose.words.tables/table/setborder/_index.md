@@ -6,7 +6,7 @@ type: docs
 weight: 833
 url: /cpp/aspose.words.tables/table/setborder/
 ---
-## Table.SetBorder method
+## Table::SetBorder method
 
 
 Sets the specified table border to the specified line style, width and color.
@@ -25,7 +25,6 @@ void Aspose::Words::Tables::Table::SetBorder(Aspose::Words::BorderType borderTyp
 | isOverrideCellBorders | bool | When **true**, causes all existing explicit cell borders to be removed. |
 
 ## Examples
-
 
 
 
@@ -53,3 +52,10 @@ table->SetShading(TextureIndex::TextureSolid, System::Drawing::Color::get_LightG
 doc->Save(ArtifactsDir + u"Table.SetOutlineBorders.docx");
 ```
 
+## See Also
+
+* Enum [BorderType](../../../aspose.words/bordertype/)
+* Enum [LineStyle](../../../aspose.words/linestyle/)
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

@@ -6,10 +6,10 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.buildingblocks/glossarydocument/get_nodetype/
 ---
-## GlossaryDocument.get_NodeType method
+## GlossaryDocument::get_NodeType method
 
 
-Returns the **GlossaryDocument** value.
+Returns the [GlossaryDocument](../../../aspose.words/nodetype/) value.
 
 ```cpp
 Aspose::Words::NodeType Aspose::Words::BuildingBlocks::GlossaryDocument::get_NodeType() const override
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::BuildingBlocks::GlossaryDocument::get_Nod
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,9 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../../aspose.words/nodetype/)
+* Class [GlossaryDocument](../)
+* Namespace [Aspose::Words::BuildingBlocks](../../)
+* Library [Aspose.Words](../../../)

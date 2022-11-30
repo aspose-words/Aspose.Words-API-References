@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/document/document/
 ---
-## Document.Document() method
+## Document::Document() constructor
 
 
 Creates a blank Word document.
@@ -15,13 +15,14 @@ Creates a blank Word document.
 Aspose::Words::Document::Document()
 ```
 
+## Remarks
+
 
 The document paper size is Letter by default. If you want to change page setup, use [Section.PageSetup](../../section/get_pagesetup/).
 
 After creation, you can use [DocumentBuilder](../../documentbuilder/) to add document content easily.
 
 ## Examples
-
 
 
 
@@ -63,7 +64,12 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(run);
 doc->Save(ArtifactsDir + u"Font.CreateFormattedRun.docx");
 ```
 
-## Document.Document(const System::SharedPtr\<System::IO::Stream\>\&) method
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Document::Document(const System::SharedPtr\<System::IO::Stream\>\&) constructor
 
 
 Opens an existing document from a stream. Automatically detects the file format.
@@ -76,11 +82,12 @@ Aspose::Words::Document::Document(const System::SharedPtr<System::IO::Stream> &s
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | const System::SharedPtr\<System::IO::Stream\>\& | Stream where to load the document from. |
+## Remarks
+
 
 The document must be stored at the beginning of the stream. The stream must support random positioning.
 
 ## Examples
-
 
 
 
@@ -120,7 +127,12 @@ const String url = u"https://omextemplates.content.office.net/support/templates/
 }
 ```
 
-## Document.Document(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) method
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Document::Document(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) constructor
 
 
 Opens an existing document from a stream. Allows to specify additional options such as an encryption password.
@@ -134,11 +146,12 @@ Aspose::Words::Document::Document(const System::SharedPtr<System::IO::Stream> &s
 | --- | --- | --- |
 | stream | const System::SharedPtr\<System::IO::Stream\>\& | The stream where to load the document from. |
 | loadOptions | const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\& | Additional options to use when loading a document. Can be null. |
+## Remarks
+
 
 The document must be stored at the beginning of the stream. The stream must support random positioning.
 
 ## Examples
-
 
 
 
@@ -207,7 +220,13 @@ doc = MakeObject<Document>(MyDir + u"Encrypted.docx", options);
 }
 ```
 
-## Document.Document(const System::String\&) method
+## See Also
+
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Document::Document(const System::String\&) constructor
 
 
 Opens an existing document from a file. Automatically detects the file format.
@@ -225,7 +244,6 @@ Aspose::Words::Document::Document(const System::String &fileName)
 
 
 
-
 Shows how to open a document and convert it to .PDF. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Document.docx");
@@ -233,7 +251,12 @@ auto doc = MakeObject<Document>(MyDir + u"Document.docx");
 doc->Save(ArtifactsDir + u"Document.ConvertToPdf.pdf");
 ```
 
-## Document.Document(const System::String\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) method
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Document::Document(const System::String\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) constructor
 
 
 Opens an existing document from a file. Allows to specify additional options such as an encryption password.
@@ -249,7 +272,6 @@ Aspose::Words::Document::Document(const System::String &fileName, const System::
 | loadOptions | const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\& | Additional options to use when loading a document. Can be null. |
 
 ## Examples
-
 
 
 
@@ -298,7 +320,13 @@ doc = MakeObject<Document>(MyDir + u"Encrypted.docx", options);
 }
 ```
 
-## Document.Document(std::istream\&) method
+## See Also
+
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Document::Document(std::istream\&) constructor
 
 
 
@@ -307,7 +335,12 @@ doc = MakeObject<Document>(MyDir + u"Encrypted.docx", options);
 Aspose::Words::Document::Document(std::istream &stream)
 ```
 
-## Document.Document(std::istream\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) method
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## Document::Document(std::istream\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) constructor
 
 
 
@@ -316,3 +349,9 @@ Aspose::Words::Document::Document(std::istream &stream)
 Aspose::Words::Document::Document(std::istream &stream, const System::SharedPtr<Aspose::Words::Loading::LoadOptions> &loadOptions)
 ```
 
+## See Also
+
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

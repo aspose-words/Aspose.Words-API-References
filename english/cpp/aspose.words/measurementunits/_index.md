@@ -11,6 +11,10 @@ url: /cpp/aspose.words/measurementunits/
 
 Specifies the unit of measurement.
 
+```cpp
+enum class MeasurementUnits
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -21,3 +25,7 @@ Specifies the unit of measurement.
 | Points | 3 | Points. |
 | Picas | 4 | Picas (commonly used in traditional typewriter font spacing). |
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

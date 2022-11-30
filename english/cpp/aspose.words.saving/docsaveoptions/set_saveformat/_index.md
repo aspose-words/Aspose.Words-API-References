@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.saving/docsaveoptions/set_saveformat/
 ---
-## DocSaveOptions.set_SaveFormat method
+## DocSaveOptions::set_SaveFormat method
 
 
 Setter for [Aspose::Words::Saving::DocSaveOptions::get_SaveFormat](../get_saveformat/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Saving::DocSaveOptions::get_SaveFormat](../get_savefo
 void Aspose::Words::Saving::DocSaveOptions::set_SaveFormat(Aspose::Words::SaveFormat value) override
 ```
 
+## See Also
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [DocSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

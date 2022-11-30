@@ -15,3 +15,8 @@ url: /cpp/aspose.words/revisiongroupcollection/iterator_holder_type/
 using Aspose::Words::RevisionGroupCollection::iterator_holder_type =  System::Collections::Generic::List<System::SharedPtr<Aspose::Words::RevisionGroup> >
 ```
 
+## See Also
+
+* Class [RevisionGroupCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

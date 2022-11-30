@@ -11,6 +11,10 @@ url: /cpp/aspose.words/revisiontype/
 
 Specifies the type of change being tracked in [Revision](../revision/).
 
+```cpp
+enum class RevisionType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -23,7 +27,6 @@ Specifies the type of change being tracked in [Revision](../revision/).
 
 
 ## Examples
-
 
 
 
@@ -104,3 +107,7 @@ ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

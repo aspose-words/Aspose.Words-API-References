@@ -6,7 +6,7 @@ type: docs
 weight: 781
 url: /cpp/aspose.words.tables/table/set_textwrapping/
 ---
-## Table.set_TextWrapping method
+## Table::set_TextWrapping method
 
 
 Setter for [Aspose::Words::Tables::Table::get_TextWrapping](../get_textwrapping/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Tables::Table::get_TextWrapping](../get_textwrapping/
 void Aspose::Words::Tables::Table::set_TextWrapping(Aspose::Words::Tables::TextWrapping value)
 ```
 
+## See Also
+
+* Enum [TextWrapping](../../textwrapping/)
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

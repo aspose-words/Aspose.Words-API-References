@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.drawing/stroke/get_backcolor/
 ---
-## Stroke.get_BackColor method
+## Stroke::get_BackColor method
 
 
 Gets or sets the background color of the stroke.
@@ -17,7 +17,6 @@ System::Drawing::Color Aspose::Words::Drawing::Stroke::get_BackColor()
 
 
 ## Examples
-
 
 
 
@@ -53,3 +52,8 @@ dataPoints->idx_get(3)->get_Marker()->get_Format()->get_Stroke()->set_Transparen
 doc->Save(ArtifactsDir + u"Charts.MarkerFormatting.docx");
 ```
 
+## See Also
+
+* Class [Stroke](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

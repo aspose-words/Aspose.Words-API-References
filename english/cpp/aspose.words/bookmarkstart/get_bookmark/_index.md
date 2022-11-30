@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/bookmarkstart/get_bookmark/
 ---
-## BookmarkStart.get_Bookmark method
+## BookmarkStart::get_Bookmark method
 
 
 Gets the facade object that encapsulates this bookmark start and end.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Bookmark> Aspose::Words::BookmarkStart::get_Boo
 
 
 ## Examples
-
 
 
 
@@ -98,3 +97,9 @@ public:
 };
 ```
 
+## See Also
+
+* Class [Bookmark](../../bookmark/)
+* Class [BookmarkStart](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

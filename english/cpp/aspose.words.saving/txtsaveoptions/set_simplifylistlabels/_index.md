@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.saving/txtsaveoptions/set_simplifylistlabels/
 ---
-## TxtSaveOptions.set_SimplifyListLabels method
+## TxtSaveOptions::set_SimplifyListLabels method
 
 
 Setter for [Aspose::Words::Saving::TxtSaveOptions::get_SimplifyListLabels](../get_simplifylistlabels/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::TxtSaveOptions::get_SimplifyListLabels](../ge
 void Aspose::Words::Saving::TxtSaveOptions::set_SimplifyListLabels(bool value)
 ```
 
+## See Also
+
+* Class [TxtSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

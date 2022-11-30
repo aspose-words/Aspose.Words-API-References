@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.fields/fieldmergefield/set_fieldname/
 ---
-## FieldMergeField.set_FieldName method
+## FieldMergeField::set_FieldName method
 
 
 Sets the name of a data field.
@@ -15,3 +15,8 @@ Sets the name of a data field.
 void Aspose::Words::Fields::FieldMergeField::set_FieldName(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldMergeField](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

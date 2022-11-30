@@ -6,7 +6,7 @@ type: docs
 weight: 612
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_imagecolorspaceexportmode/
 ---
-## PdfSaveOptions.set_ImageColorSpaceExportMode method
+## PdfSaveOptions::set_ImageColorSpaceExportMode method
 
 
 Setter for [Aspose::Words::Saving::PdfSaveOptions::get_ImageColorSpaceExportMode](../get_imagecolorspaceexportmode/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Saving::PdfSaveOptions::get_ImageColorSpaceExportMode
 void Aspose::Words::Saving::PdfSaveOptions::set_ImageColorSpaceExportMode(Aspose::Words::Saving::PdfImageColorSpaceExportMode value)
 ```
 
+## See Also
+
+* Enum [PdfImageColorSpaceExportMode](../../pdfimagecolorspaceexportmode/)
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

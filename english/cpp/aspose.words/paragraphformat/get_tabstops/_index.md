@@ -6,7 +6,7 @@ type: docs
 weight: 495
 url: /cpp/aspose.words/paragraphformat/get_tabstops/
 ---
-## ParagraphFormat.get_TabStops method
+## ParagraphFormat::get_TabStops method
 
 
 Gets the collection of custom tab stops defined for this object.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::TabStopCollection> Aspose::Words::ParagraphForm
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,9 @@ for (const auto& para : System::IterateOver(doc->GetChildNodes(NodeType::Paragra
 doc->Save(ArtifactsDir + u"Styles.ChangeTocsTabStops.docx");
 ```
 
+## See Also
+
+* Class [TabStopCollection](../../tabstopcollection/)
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

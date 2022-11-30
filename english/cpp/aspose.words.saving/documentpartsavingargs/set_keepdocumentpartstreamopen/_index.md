@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.saving/documentpartsavingargs/set_keepdocumentpartstreamopen/
 ---
-## DocumentPartSavingArgs.set_KeepDocumentPartStreamOpen method
+## DocumentPartSavingArgs::set_KeepDocumentPartStreamOpen method
 
 
 Setter for [Aspose::Words::Saving::DocumentPartSavingArgs::get_KeepDocumentPartStreamOpen](../get_keepdocumentpartstreamopen/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::DocumentPartSavingArgs::get_KeepDocumentPartS
 void Aspose::Words::Saving::DocumentPartSavingArgs::set_KeepDocumentPartStreamOpen(bool value)
 ```
 
+## See Also
+
+* Class [DocumentPartSavingArgs](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

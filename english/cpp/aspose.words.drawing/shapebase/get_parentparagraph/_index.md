@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/aspose.words.drawing/shapebase/get_parentparagraph/
 ---
-## ShapeBase.get_ParentParagraph method
+## ShapeBase::get_ParentParagraph method
 
 
 Returns the immediate parent paragraph.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::Drawing::ShapeBase::g
 
 
 ## Examples
-
 
 
 
@@ -53,3 +52,9 @@ builder->Writeln(u"\nThis text is outside the text box.");
 doc->Save(ArtifactsDir + u"Shape.Font.docx");
 ```
 
+## See Also
+
+* Class [Paragraph](../../../aspose.words/paragraph/)
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

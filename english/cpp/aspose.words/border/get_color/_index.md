@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/border/get_color/
 ---
-## Border.get_Color method
+## Border::get_Color method
 
 
 Gets or sets the border color.
@@ -17,7 +17,6 @@ System::Drawing::Color Aspose::Words::Border::get_Color()
 
 
 ## Examples
-
 
 
 
@@ -35,3 +34,8 @@ builder->Write(u"Text surrounded by green border.");
 doc->Save(ArtifactsDir + u"Border.FontBorder.docx");
 ```
 
+## See Also
+
+* Class [Border](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.drawing/shapebase/adjustwitheffects/
 ---
-## ShapeBase.AdjustWithEffects method
+## ShapeBase::AdjustWithEffects method
 
 
 Adds to the source rectangle values of the effect extent and returns the final rectangle.
@@ -17,7 +17,6 @@ System::Drawing::RectangleF Aspose::Words::Drawing::ShapeBase::AdjustWithEffects
 
 
 ## Examples
-
 
 
 
@@ -84,3 +83,8 @@ ASPOSE_ASSERT_EQ(192, shape->get_BoundsWithEffects().get_Width());
 ASPOSE_ASSERT_EQ(279, shape->get_BoundsWithEffects().get_Height());
 ```
 
+## See Also
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

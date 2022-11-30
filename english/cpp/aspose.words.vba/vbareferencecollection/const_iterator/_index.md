@@ -15,3 +15,8 @@ url: /cpp/aspose.words.vba/vbareferencecollection/const_iterator/
 using Aspose::Words::Vba::VbaReferenceCollection::const_iterator =  typename iterator_holder_type::const_iterator
 ```
 
+## See Also
+
+* Class [VbaReferenceCollection](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.drawing/signatureline/get_allowcomments/
 ---
-## SignatureLine.get_AllowComments method
+## SignatureLine::get_AllowComments method
 
 
 Gets or sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is **false**.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::SignatureLine::get_AllowComments()
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,8 @@ ASSERT_TRUE(signatureLine->get_DefaultInstructions());
 doc->Save(ArtifactsDir + u"Shape.SignatureLine.docx");
 ```
 
+## See Also
+
+* Class [SignatureLine](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words/variablecollection/remove/
 ---
-## VariableCollection.Remove method
+## VariableCollection::Remove method
 
 
 Removes a document variable with the specified name from the collection.
@@ -21,7 +21,6 @@ void Aspose::Words::VariableCollection::Remove(const System::String &name)
 | name | const System::String\& | The case-insensitive name of the variable. |
 
 ## Examples
-
 
 
 
@@ -91,3 +90,8 @@ variables->Clear();
 ASSERT_EQ(0, variables->get_Count());
 ```
 
+## See Also
+
+* Class [VariableCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

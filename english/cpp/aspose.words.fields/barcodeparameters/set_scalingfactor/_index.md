@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/aspose.words.fields/barcodeparameters/set_scalingfactor/
 ---
-## BarcodeParameters.set_ScalingFactor method
+## BarcodeParameters::set_ScalingFactor method
 
 
 Scaling factor for the symbol. The value is in whole percentage points and the valid values are [10, 1000].
@@ -15,3 +15,8 @@ Scaling factor for the symbol. The value is in whole percentage points and the v
 void Aspose::Words::Fields::BarcodeParameters::set_ScalingFactor(const System::String &value)
 ```
 
+## See Also
+
+* Class [BarcodeParameters](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

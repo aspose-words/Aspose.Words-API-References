@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_headerfooterbookmarksexportmode/
 ---
-## PdfSaveOptions.get_HeaderFooterBookmarksExportMode method
+## PdfSaveOptions::get_HeaderFooterBookmarksExportMode method
 
 
 Determines how bookmarks in headers/footers are exported.
@@ -15,13 +15,14 @@ Determines how bookmarks in headers/footers are exported.
 Aspose::Words::Saving::HeaderFooterBookmarksExportMode Aspose::Words::Saving::PdfSaveOptions::get_HeaderFooterBookmarksExportMode() const
 ```
 
+## Remarks
 
-The default value is **All**.
+
+The default value is [All](../../headerfooterbookmarksexportmode/).
 
 This property is used in conjunction with the [OutlineOptions](../get_outlineoptions/) option.
 
 ## Examples
-
 
 
 
@@ -51,3 +52,9 @@ saveOptions->set_HeaderFooterBookmarksExportMode(headerFooterBookmarksExportMode
 doc->Save(ArtifactsDir + u"PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", saveOptions);
 ```
 
+## See Also
+
+* Enum [HeaderFooterBookmarksExportMode](../../headerfooterbookmarksexportmode/)
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

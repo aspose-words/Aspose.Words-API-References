@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words/tabstopcollection/removebyindex/
 ---
-## TabStopCollection.RemoveByIndex method
+## TabStopCollection::RemoveByIndex method
 
 
 Removes a tab stop at the specified index from the collection.
@@ -21,7 +21,6 @@ void Aspose::Words::TabStopCollection::RemoveByIndex(int32_t index)
 | index | int32_t | An index into the collection of tab stops. |
 
 ## Examples
-
 
 
 
@@ -43,3 +42,8 @@ ASSERT_EQ(1, tabStops->get_Count());
 doc->Save(ArtifactsDir + u"TabStopCollection.RemoveByIndex.docx");
 ```
 
+## See Also
+
+* Class [TabStopCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

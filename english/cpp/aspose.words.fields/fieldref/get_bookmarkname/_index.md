@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldref/get_bookmarkname/
 ---
-## FieldRef.get_BookmarkName method
+## FieldRef::get_BookmarkName method
 
 
 Gets or sets the referenced bookmark's name.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldRef::get_BookmarkName()
 
 
 ## Examples
-
 
 
 
@@ -128,3 +127,8 @@ ASSERT_EQ(u"Hello world!", fieldRef->get_Result());
 doc->Save(ArtifactsDir + u"Field.SET.REF.docx");
 ```
 
+## See Also
+
+* Class [FieldRef](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

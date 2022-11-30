@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.fields/fieldindex/set_entrytype/
 ---
-## FieldIndex.set_EntryType method
+## FieldIndex::set_EntryType method
 
 
 Setter for [Aspose::Words::Fields::FieldIndex::get_EntryType](../get_entrytype/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldIndex::get_EntryType](../get_entrytype/)
 void Aspose::Words::Fields::FieldIndex::set_EntryType(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldIndex](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

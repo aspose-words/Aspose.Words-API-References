@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldif/evaluatecondition/
 ---
-## FieldIf.EvaluateCondition method
+## FieldIf::EvaluateCondition method
 
 
 Evaluates the condition.
@@ -18,11 +18,9 @@ Aspose::Words::Fields::FieldIfComparisonResult Aspose::Words::Fields::FieldIf::E
 
 ### ReturnValue
 
-
 A [FieldIfComparisonResult](../../fieldifcomparisonresult/) value that represents the result of the condition evaluation.
 
 ## Examples
-
 
 
 
@@ -66,3 +64,9 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.IF.docx");
 ```
 
+## See Also
+
+* Enum [FieldIfComparisonResult](../../fieldifcomparisonresult/)
+* Class [FieldIf](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

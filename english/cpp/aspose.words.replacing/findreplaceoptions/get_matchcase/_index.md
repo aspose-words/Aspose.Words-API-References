@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.replacing/findreplaceoptions/get_matchcase/
 ---
-## FindReplaceOptions.get_MatchCase method
+## FindReplaceOptions::get_MatchCase method
 
 
 True indicates case-sensitive comparison, false indicates case-insensitive comparison.
@@ -17,7 +17,6 @@ bool Aspose::Words::Replacing::FindReplaceOptions::get_MatchCase() const
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,8 @@ doc->get_Range()->Replace(u"Ruby", u"Jade", options);
 ASSERT_EQ(matchCase ? String(u"Jade bought a ruby necklace.") : String(u"Jade bought a Jade necklace."), doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [FindReplaceOptions](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)

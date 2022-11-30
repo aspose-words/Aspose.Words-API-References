@@ -11,6 +11,10 @@ url: /cpp/aspose.words/sectionstart/
 
 The type of break at the beginning of the section.
 
+```cpp
+enum class SectionStart
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -23,7 +27,6 @@ The type of break at the beginning of the section.
 
 
 ## Examples
-
 
 
 
@@ -116,3 +119,7 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

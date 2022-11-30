@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fieldautotextlist/get_screentip/
 ---
-## FieldAutoTextList.get_ScreenTip method
+## FieldAutoTextList::get_ScreenTip method
 
 
 Gets or sets the text of the ScreenTip to show.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldAutoTextList::get_ScreenTip()
 
 
 ## Examples
-
 
 
 
@@ -67,3 +66,8 @@ static void AppendAutoTextEntry(SharedPtr<GlossaryDocument> glossaryDoc, String 
 }
 ```
 
+## See Also
+
+* Class [FieldAutoTextList](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

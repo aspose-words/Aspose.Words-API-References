@@ -6,20 +6,21 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_cssstylesheettype/
 ---
-## HtmlSaveOptions.get_CssStyleSheetType method
+## HtmlSaveOptions::get_CssStyleSheetType method
 
 
-Specifies how CSS (Cascading [Style](../../../aspose.words/style/) Sheet) styles are exported to HTML, MHTML or EPUB. Default value is **Inline** for HTML/MHTML and **External** for EPUB.
+Specifies how CSS (Cascading [Style](../../../aspose.words/style/) Sheet) styles are exported to HTML, MHTML or EPUB. Default value is [Inline](../../cssstylesheettype/) for HTML/MHTML and [External](../../cssstylesheettype/) for EPUB.
 
 ```cpp
 Aspose::Words::Saving::CssStyleSheetType Aspose::Words::Saving::HtmlSaveOptions::get_CssStyleSheetType() const
 ```
 
+## Remarks
 
-[Saving](../../) CSS style sheet into an external file is only supported when saving to HTML. When you are exporting to one of the container formats (EPUB or MHTML) and specifying **External**, CSS file will be encapsulated into the output package.
+
+[Saving](../../) CSS style sheet into an external file is only supported when saving to HTML. When you are exporting to one of the container formats (EPUB or MHTML) and specifying [External](../../cssstylesheettype/), CSS file will be encapsulated into the output package.
 
 ## Examples
-
 
 
 
@@ -77,3 +78,9 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [CssStyleSheetType](../../cssstylesheettype/)
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

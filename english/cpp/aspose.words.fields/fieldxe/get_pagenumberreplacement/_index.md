@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fieldxe/get_pagenumberreplacement/
 ---
-## FieldXE.get_PageNumberReplacement method
+## FieldXE::get_PageNumberReplacement method
 
 
 Gets or sets text used in place of a page number.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldXE::get_PageNumberReplacement()
 
 
 ## Examples
-
 
 
 
@@ -64,3 +63,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.INDEX.XE.CrossReferenceSeparator.docx");
 ```
 
+## See Also
+
+* Class [FieldXE](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

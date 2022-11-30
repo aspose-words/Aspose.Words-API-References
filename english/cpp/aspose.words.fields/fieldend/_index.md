@@ -35,7 +35,7 @@ class FieldEnd : public Aspose::Words::Fields::FieldChar
 | [get_IsMoveFromRevision](../../aspose.words/inline/get_ismovefromrevision/)() | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
 | [get_IsMoveToRevision](../../aspose.words/inline/get_ismovetorevision/)() | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
 | [get_NextSibling](../../aspose.words/node/get_nextsibling/)() | Gets the node immediately following this node. |
-| [get_NodeType](./get_nodetype/)() const override | Returns **FieldEnd**. |
+| [get_NodeType](./get_nodetype/)() const override | Returns [FieldEnd](../../aspose.words/nodetype/). |
 | [get_ParentNode](../../aspose.words/node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_ParentParagraph](../../aspose.words/inline/get_parentparagraph/)() | Retrieves the parent [Paragraph](../../aspose.words/paragraph/) of this node. |
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
@@ -53,6 +53,8 @@ class FieldEnd : public Aspose::Words::Fields::FieldChar
 | [set_IsLocked](../fieldchar/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::FieldChar::get_IsLocked](../fieldchar/get_islocked/). |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 [FieldEnd](./) is an inline-level node and represented by the [FieldEndChar](../../aspose.words/controlchar/fieldendchar/) control character in the document.
 
@@ -60,10 +62,9 @@ class FieldEnd : public Aspose::Words::Fields::FieldChar
 
 A complete field in a Microsoft Word document is a complex structure consisting of a field start character, field code, field separator character, field result and field end character. Some fields only have field start, field code and field end.
 
-To easily insert a new field into a document, use the **InsertField()** method.
+To easily insert a new field into a document, use the [InsertField()](../) method.
 
 ## Examples
-
 
 
 
@@ -154,3 +155,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [FieldChar](../fieldchar/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

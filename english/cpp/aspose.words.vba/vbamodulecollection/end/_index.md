@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.vba/vbamodulecollection/end/
 ---
-## VbaModuleCollection.end() const method
+## VbaModuleCollection::end() const method
 
 
 
@@ -15,7 +15,13 @@ url: /cpp/aspose.words.vba/vbamodulecollection/end/
 const_iterator Aspose::Words::Vba::VbaModuleCollection::end() const noexcept
 ```
 
-## VbaModuleCollection.end() method
+## See Also
+
+* Typedef [const_iterator](../const_iterator/)
+* Class [VbaModuleCollection](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)
+## VbaModuleCollection::end() method
 
 
 
@@ -24,3 +30,9 @@ const_iterator Aspose::Words::Vba::VbaModuleCollection::end() const noexcept
 iterator Aspose::Words::Vba::VbaModuleCollection::end() noexcept
 ```
 
+## See Also
+
+* Typedef [iterator](../iterator/)
+* Class [VbaModuleCollection](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 599
 url: /cpp/aspose.words.settings/compatibilityoptions/get_subfontbysize/
 ---
-## CompatibilityOptions.get_SubFontBySize method
+## CompatibilityOptions::get_SubFontBySize method
 
 
 Increase Priority Of [Font](../../../aspose.words/font/) Size During [Font](../../../aspose.words/font/) Substitution.
@@ -15,3 +15,8 @@ Increase Priority Of [Font](../../../aspose.words/font/) Size During [Font](../.
 bool Aspose::Words::Settings::CompatibilityOptions::get_SubFontBySize()
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

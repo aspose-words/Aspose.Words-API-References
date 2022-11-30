@@ -6,7 +6,7 @@ type: docs
 weight: 989
 url: /cpp/aspose.words/document/set_removepersonalinformation/
 ---
-## Document.set_RemovePersonalInformation method
+## Document::set_RemovePersonalInformation method
 
 
 Setter for [Aspose::Words::Document::get_RemovePersonalInformation](../get_removepersonalinformation/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Document::get_RemovePersonalInformation](../get_remov
 void Aspose::Words::Document::set_RemovePersonalInformation(bool value)
 ```
 
+## See Also
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

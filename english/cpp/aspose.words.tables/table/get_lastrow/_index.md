@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.words.tables/table/get_lastrow/
 ---
-## Table.get_LastRow method
+## Table::get_LastRow method
 
 
 Returns the last **Row** node in the table.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Tables::Row> Aspose::Words::Tables::Table::get_
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,9 @@ ASSERT_EQ(3, tables->idx_get(0)->get_Rows()->get_Count());
 ASSERT_EQ(2, tables->idx_get(1)->get_Rows()->get_Count());
 ```
 
+## See Also
+
+* Class [Row](../../row/)
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

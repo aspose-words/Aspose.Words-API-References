@@ -11,6 +11,10 @@ url: /cpp/aspose.words/pageborderdistancefrom/
 
 Specifies the positioning of the page border relative to the page margin.
 
+```cpp
+enum class PageBorderDistanceFrom
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,7 +24,6 @@ Specifies the positioning of the page border relative to the page margin.
 
 
 ## Examples
-
 
 
 
@@ -42,3 +45,7 @@ border->set_DistanceFromText(0);
 doc->Save(ArtifactsDir + u"PageSetup.PageBorderProperties.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

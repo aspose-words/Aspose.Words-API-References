@@ -3,7 +3,7 @@ title: TextureIndex
 second_title: Aspose.Words for .NET API Reference
 description: Specifies shading texture.
 type: docs
-weight: 6180
+weight: 6190
 url: /net/aspose.words/textureindex/
 ---
 ## TextureIndex enumeration

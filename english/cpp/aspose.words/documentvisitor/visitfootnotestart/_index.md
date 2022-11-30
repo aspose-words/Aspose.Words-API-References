@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.words/documentvisitor/visitfootnotestart/
 ---
-## DocumentVisitor.VisitFootnoteStart method
+## DocumentVisitor::VisitFootnoteStart method
 
 
 Called when enumeration of a footnote or endnote text has started.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitFootno
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -280,3 +278,10 @@ public:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [Footnote](../../../aspose.words.notes/footnote/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

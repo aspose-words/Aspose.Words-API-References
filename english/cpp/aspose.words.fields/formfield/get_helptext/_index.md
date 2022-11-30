@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.fields/formfield/get_helptext/
 ---
-## FormField.get_HelpText method
+## FormField::get_HelpText method
 
 
 Returns or sets the text that's displayed in a message box when the form field has the focus and the user presses F1.
@@ -15,13 +15,14 @@ Returns or sets the text that's displayed in a message box when the form field h
 System::String Aspose::Words::Fields::FormField::get_HelpText()
 ```
 
+## Remarks
+
 
 If the OwnHelp property is set to True, HelpText specifies the text string value. If OwnHelp is set to False, HelpText specifies the name of an AutoText entry that contains help text for the form field.
 
 Microsoft Word allows strings with at most 255 characters.
 
 ## Examples
-
 
 
 
@@ -154,3 +155,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [FormField](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.settings/odsorecipientdata/get_active/
 ---
-## OdsoRecipientData.get_Active method
+## OdsoRecipientData::get_Active method
 
 
 Specifies whether the record from the data source shall be imported into a document when the mail merge is performed. The default value is **true**.
@@ -15,3 +15,8 @@ Specifies whether the record from the data source shall be imported into a docum
 bool Aspose::Words::Settings::OdsoRecipientData::get_Active() const
 ```
 
+## See Also
+
+* Class [OdsoRecipientData](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

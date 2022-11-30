@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/generalformatcollection/add/
 ---
-## GeneralFormatCollection.Add method
+## GeneralFormatCollection::Add method
 
 
 Adds a general format to the collection.
@@ -21,7 +21,6 @@ void Aspose::Words::Fields::GeneralFormatCollection::Add(Aspose::Words::Fields::
 | item | Aspose::Words::Fields::GeneralFormat | A general format. |
 
 ## Examples
-
 
 
 
@@ -87,3 +86,9 @@ ASSERT_EQ(u"58", field->get_Result());
 ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 ```
 
+## See Also
+
+* Enum [GeneralFormat](../../generalformat/)
+* Class [GeneralFormatCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

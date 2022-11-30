@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.drawing/fill/get_forecolor/
 ---
-## Fill.get_ForeColor method
+## Fill::get_ForeColor method
 
 
 Gets or sets a Color object that represents the foreground color for the fill.
@@ -17,7 +17,6 @@ System::Drawing::Color Aspose::Words::Drawing::Fill::get_ForeColor()
 
 
 ## Examples
-
 
 
 
@@ -90,3 +89,8 @@ ArrayPtr<uint8_t> imageBytes = System::IO::File::ReadAllBytes(ImageDir + u"Logo.
 doc->Save(ArtifactsDir + u"Drawing.VariousShapes.docx");
 ```
 
+## See Also
+
+* Class [Fill](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

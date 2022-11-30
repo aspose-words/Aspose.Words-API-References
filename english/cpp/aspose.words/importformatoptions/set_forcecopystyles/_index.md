@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words/importformatoptions/set_forcecopystyles/
 ---
-## ImportFormatOptions.set_ForceCopyStyles method
+## ImportFormatOptions::set_ForceCopyStyles method
 
 
 Setter for [Aspose::Words::ImportFormatOptions::get_ForceCopyStyles](../get_forcecopystyles/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::ImportFormatOptions::get_ForceCopyStyles](../get_forc
 void Aspose::Words::ImportFormatOptions::set_ForceCopyStyles(bool value)
 ```
 
+## See Also
+
+* Class [ImportFormatOptions](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

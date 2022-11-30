@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.words/font/get_nameother/
 ---
-## Font.get_NameOther method
+## Font::get_NameOther method
 
 
 Returns or sets the font used for characters with character codes from 128 through 255.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Font::get_NameOther()
 
 
 ## Examples
-
 
 
 
@@ -45,3 +44,8 @@ builder->Writeln(u"Hello, Привет");
 doc->Save(ArtifactsDir + u"Font.NameAscii.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

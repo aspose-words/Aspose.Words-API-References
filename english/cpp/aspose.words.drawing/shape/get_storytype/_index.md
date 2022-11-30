@@ -6,10 +6,10 @@ type: docs
 weight: 222
 url: /cpp/aspose.words.drawing/shape/get_storytype/
 ---
-## Shape.get_StoryType method
+## Shape::get_StoryType method
 
 
-Returns **Textbox**.
+Returns [Textbox](../../../aspose.words/storytype/).
 
 ```cpp
 Aspose::Words::StoryType Aspose::Words::Drawing::Shape::get_StoryType()
@@ -17,7 +17,6 @@ Aspose::Words::StoryType Aspose::Words::Drawing::Shape::get_StoryType()
 
 
 ## Examples
-
 
 
 
@@ -131,3 +130,9 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [StoryType](../../../aspose.words/storytype/)
+* Class [Shape](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

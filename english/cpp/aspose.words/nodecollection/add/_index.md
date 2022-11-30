@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/nodecollection/add/
 ---
-## NodeCollection.Add method
+## NodeCollection::Add method
 
 
 Adds a node to the end of the collection.
@@ -19,15 +19,16 @@ void Aspose::Words::NodeCollection::Add(const System::SharedPtr<Aspose::Words::N
 | Parameter | Type | Description |
 | --- | --- | --- |
 | node | const System::SharedPtr\<Aspose::Words::Node\>\& | The node to be added to the end of the collection. |
+## Remarks
+
 
 The node is inserted as a child into the node object from which the collection was created.
 
 If the newChild is already in the tree, it is first removed.
 
-If the node being inserted was created from another document, you should use **ImportNode()** to import the node to the current document. The imported node can then be inserted into the current document.
+If the node being inserted was created from another document, you should use [ImportNode()](../) to import the node to the current document. The imported node can then be inserted into the current document.
 
 ## Examples
-
 
 
 
@@ -57,3 +58,9 @@ doc->get_Sections()->idx_get(0)->get_Body()->get_FirstParagraph()->AppendChild(M
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Node](../../node/)
+* Class [NodeCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

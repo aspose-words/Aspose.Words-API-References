@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.drawing/oleformat/get_islink/
 ---
-## OleFormat.get_IsLink method
+## OleFormat::get_IsLink method
 
 
 Returns true if the OLE object is linked (when [SourceFullName](../get_sourcefullname/) is specified).
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::OleFormat::get_IsLink()
 
 
 ## Examples
-
 
 
 
@@ -70,3 +69,8 @@ doc->Save(ArtifactsDir + u"Shape.OleLinks.docx");
 }
 ```
 
+## See Also
+
+* Class [OleFormat](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

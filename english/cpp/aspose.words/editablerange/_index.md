@@ -27,11 +27,12 @@ class EditableRange : public System::Object
 | [Remove](./remove/)() | Removes the editable range from the document. Does not remove content inside the editable range. |
 | [set_EditorGroup](./set_editorgroup/)(Aspose::Words::EditorType) | Setter for [Aspose::Words::EditableRange::get_EditorGroup](./get_editorgroup/). |
 | [set_SingleUser](./set_singleuser/)(const System::String\&) | Setter for [Aspose::Words::EditableRange::get_SingleUser](./get_singleuser/). |
+## Remarks
+
 
 [EditableRange](./) is a "facade" object that encapsulates two nodes [EditableRangeStart](./get_editablerangestart/) and [EditableRangeEnd](./get_editablerangeend/) in a document tree and allows to work with an editable range as a single object.
 
 ## Examples
-
 
 
 
@@ -178,3 +179,7 @@ private:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

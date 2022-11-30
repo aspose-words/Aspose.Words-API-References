@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words/border/get_shadow/
 ---
-## Border.get_Shadow method
+## Border::get_Shadow method
 
 
 Gets or sets a value indicating whether the border has a shadow.
@@ -15,11 +15,12 @@ Gets or sets a value indicating whether the border has a shadow.
 bool Aspose::Words::Border::get_Shadow()
 ```
 
+## Remarks
+
 
 In Microsoft Word, for a border to have a shadow, the borders on all four sides (left, top, right and bottom) should be of the same type, width, color and all should have the Shadow property set to true.
 
 ## Examples
-
 
 
 
@@ -37,3 +38,8 @@ pageSetup->get_Borders()->set_Shadow(true);
 doc->Save(ArtifactsDir + u"PageSetup.PageBorders.docx");
 ```
 
+## See Also
+
+* Class [Border](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

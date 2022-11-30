@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.fields/fieldincludetext/set_namespacemappings/
 ---
-## FieldIncludeText.set_NamespaceMappings method
+## FieldIncludeText::set_NamespaceMappings method
 
 
 Setter for [Aspose::Words::Fields::FieldIncludeText::get_NamespaceMappings](../get_namespacemappings/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldIncludeText::get_NamespaceMappings](../g
 void Aspose::Words::Fields::FieldIncludeText::set_NamespaceMappings(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldIncludeText](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

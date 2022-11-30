@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/aspose.words.fields/formfield/set_ischeckboxexactsize/
 ---
-## FormField.set_IsCheckBoxExactSize method
+## FormField::set_IsCheckBoxExactSize method
 
 
 Setter for [Aspose::Words::Fields::FormField::get_IsCheckBoxExactSize](../get_ischeckboxexactsize/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FormField::get_IsCheckBoxExactSize](../get_is
 void Aspose::Words::Fields::FormField::set_IsCheckBoxExactSize(bool value)
 ```
 
+## See Also
+
+* Class [FormField](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

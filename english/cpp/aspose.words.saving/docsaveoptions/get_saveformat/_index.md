@@ -6,10 +6,10 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.saving/docsaveoptions/get_saveformat/
 ---
-## DocSaveOptions.get_SaveFormat method
+## DocSaveOptions::get_SaveFormat method
 
 
-Specifies the format in which the document will be saved if this save options object is used. Can be **Doc** or **Dot**.
+Specifies the format in which the document will be saved if this save options object is used. Can be [Doc](../../../aspose.words/saveformat/) or [Dot](../../../aspose.words/saveformat/).
 
 ```cpp
 Aspose::Words::SaveFormat Aspose::Words::Saving::DocSaveOptions::get_SaveFormat() override
@@ -17,7 +17,6 @@ Aspose::Words::SaveFormat Aspose::Words::Saving::DocSaveOptions::get_SaveFormat(
 
 
 ## Examples
-
 
 
 
@@ -48,3 +47,9 @@ doc = MakeObject<Document>(ArtifactsDir + u"DocSaveOptions.SaveAsDoc.doc", loadO
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [DocSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

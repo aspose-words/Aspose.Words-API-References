@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.saving/metafilerenderingoptions/get_emulaterasteroperations/
 ---
-## MetafileRenderingOptions.get_EmulateRasterOperations method
+## MetafileRenderingOptions::get_EmulateRasterOperations method
 
 
 Gets or sets a value determining whether or not the raster operations should be emulated.
@@ -14,6 +14,8 @@ Gets or sets a value determining whether or not the raster operations should be 
 ```cpp
 bool Aspose::Words::Saving::MetafileRenderingOptions::get_EmulateRasterOperations() const
 ```
+
+## Remarks
 
 
 Specific raster operations could be used in metafiles. They can not be rendered directly to vector graphics. Emulating raster operations requires partial rasterization of the resulting vector graphics which may affect the metafile rendering performance.
@@ -27,7 +29,6 @@ This option is used only when metafile is rendered as vector graphics.
 The default value is **true**.
 
 ## Examples
-
 
 
 
@@ -81,3 +82,8 @@ public:
 };
 ```
 
+## See Also
+
+* Class [MetafileRenderingOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

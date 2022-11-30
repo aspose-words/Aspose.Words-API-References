@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/get_count/
 ---
-## DigitalSignatureCollection.get_Count method
+## DigitalSignatureCollection::get_Count method
 
 
 Gets the number of elements contained in the collection.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::DigitalSignatures::DigitalSignatureCollection::get_Count(
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,8 @@ ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_I
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
 ```
 
+## See Also
+
+* Class [DigitalSignatureCollection](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)

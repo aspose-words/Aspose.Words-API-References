@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportroundtripinformation/
 ---
-## HtmlSaveOptions.get_ExportRoundtripInformation method
+## HtmlSaveOptions::get_ExportRoundtripInformation method
 
 
 Specifies whether to write the roundtrip information when saving to HTML, MHTML or EPUB. Default value is **true** for HTML and **false** for MHTML and EPUB.
@@ -14,6 +14,8 @@ Specifies whether to write the roundtrip information when saving to HTML, MHTML 
 ```cpp
 bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportRoundtripInformation() const
 ```
+
+## Remarks
 
 
 [Saving](../../) of the roundtrip information allows to restore document properties such as tab stops, comments, headers and footers during the HTML documents loading back into a [Document](../../../aspose.words/document/) object.
@@ -23,7 +25,6 @@ When **true**, the roundtrip information is exported as -aw-* CSS properties of 
 When **false**, causes no roundtrip information to be output into produced files.
 
 ## Examples
-
 
 
 
@@ -92,3 +93,8 @@ else
 }
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

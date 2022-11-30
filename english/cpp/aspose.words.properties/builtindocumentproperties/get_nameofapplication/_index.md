@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_nameofapplication/
 ---
-## BuiltInDocumentProperties.get_NameOfApplication method
+## BuiltInDocumentProperties::get_NameOfApplication method
 
 
 Gets or sets the name of the application.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Properties::BuiltInDocumentProperties::get_NameOfA
 
 
 ## Examples
-
 
 
 
@@ -51,3 +50,8 @@ properties->set_LastSavedTime(System::DateTime::get_Now());
 doc->Save(ArtifactsDir + u"DocumentProperties.Origin.docx");
 ```
 
+## See Also
+
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

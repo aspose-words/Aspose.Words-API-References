@@ -12,8 +12,10 @@ url: /cpp/aspose.words/controlchar/nonbreakinghyphenchar/
 Nonbreaking Hyphen in Microsoft Word is (char)30.
 
 ```cpp
-constexpr char16_t Aspose::Words::ControlChar::NonBreakingHyphenChar
+static constexpr char16_t Aspose::Words::ControlChar::NonBreakingHyphenChar
 ```
+
+## Remarks
 
 
 Nonbreaking Hyphen in Microsoft Word does not correspond to the Unicode character U+2011 non-breaking hyphen but instead represents internal information that tells Microsoft Word to display a hyphen and not to break a line.
@@ -21,7 +23,6 @@ Nonbreaking Hyphen in Microsoft Word does not correspond to the Unicode characte
 Useful info: [http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks](http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks).
 
 ## Examples
-
 
 
 
@@ -91,3 +92,8 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::PageBreak()), ControlChar:
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlChar::ColumnBreakChar);
 ```
 
+## See Also
+
+* Class [ControlChar](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

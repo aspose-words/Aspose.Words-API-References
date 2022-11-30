@@ -52,13 +52,14 @@ class FieldChar : public Aspose::Words::SpecialChar
 | [set_IsLocked](./set_islocked/)(bool) | Setter for [Aspose::Words::Fields::FieldChar::get_IsLocked](./get_islocked/). |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 A complete field in a Microsoft Word document is a complex structure consisting of a field start character, field code, field separator character, field result and field end character. Some fields only have field start, field code and field end.
 
-To easily insert a new field into a document, use the **InsertField()** method.
+To easily insert a new field into a document, use the [InsertField()](../) method.
 
 ## Examples
-
 
 
 
@@ -87,3 +88,8 @@ ASSERT_EQ(u" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
 field->Update();
 ```
 
+## See Also
+
+* Class [SpecialChar](../../aspose.words/specialchar/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

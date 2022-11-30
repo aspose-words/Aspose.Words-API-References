@@ -6,10 +6,10 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.saving/markdownsaveoptions/get_imagesavingcallback/
 ---
-## MarkdownSaveOptions.get_ImageSavingCallback method
+## MarkdownSaveOptions::get_ImageSavingCallback method
 
 
-Allows to control how images are saved when a document is saved to **Markdown** format.
+Allows to control how images are saved when a document is saved to [Markdown](../../../aspose.words/saveformat/) format.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Saving::IImageSavingCallback> Aspose::Words::Saving::MarkdownSaveOptions::get_ImageSavingCallback() const
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Saving::IImageSavingCallback> Aspose::Words::Sa
 
 
 ## Examples
-
 
 
 
@@ -72,3 +71,9 @@ private:
 };
 ```
 
+## See Also
+
+* Interface [IImageSavingCallback](../../iimagesavingcallback/)
+* Class [MarkdownSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

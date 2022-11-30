@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.words.markup/istructureddocumenttag/structureddocumenttagnode/
 ---
-## IStructuredDocumentTag.StructuredDocumentTagNode method
+## IStructuredDocumentTag::StructuredDocumentTagNode method
 
 
 Returns [Node](../../../aspose.words/node/) object that implements this interface.
@@ -15,3 +15,9 @@ Returns [Node](../../../aspose.words/node/) object that implements this interfac
 virtual System::SharedPtr<Aspose::Words::Node> Aspose::Words::Markup::IStructuredDocumentTag::StructuredDocumentTagNode()=0
 ```
 
+## See Also
+
+* Class [Node](../../../aspose.words/node/)
+* Interface [IStructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

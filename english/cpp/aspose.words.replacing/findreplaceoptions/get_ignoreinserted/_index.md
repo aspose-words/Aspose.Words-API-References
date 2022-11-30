@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.replacing/findreplaceoptions/get_ignoreinserted/
 ---
-## FindReplaceOptions.get_IgnoreInserted method
+## FindReplaceOptions::get_IgnoreInserted method
 
 
 Gets or sets a boolean value indicating either to ignore text inside insert revisions. The default value is **false**.
@@ -17,7 +17,6 @@ bool Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreInserted() const
 
 
 ## Examples
-
 
 
 
@@ -50,3 +49,8 @@ ASSERT_EQ(ignoreTextInsideInsertRevisions ? String(u"Greetings world!\rHello aga
           doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [FindReplaceOptions](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)

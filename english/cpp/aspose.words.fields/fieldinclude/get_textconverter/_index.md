@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fieldinclude/get_textconverter/
 ---
-## FieldInclude.get_TextConverter method
+## FieldInclude::get_TextConverter method
 
 
 Gets or sets the name of the text converter for the format of the included file.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldInclude::get_TextConverter() override
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.INCLUDE.docx");
 ```
 
+## See Also
+
+* Class [FieldInclude](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

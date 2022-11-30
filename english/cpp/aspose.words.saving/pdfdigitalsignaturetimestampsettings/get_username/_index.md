@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.saving/pdfdigitalsignaturetimestampsettings/get_username/
 ---
-## PdfDigitalSignatureTimestampSettings.get_UserName method
+## PdfDigitalSignatureTimestampSettings::get_UserName method
 
 
 Timestamp server user name.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::get_
 
 
 ## Examples
-
 
 
 
@@ -56,3 +55,8 @@ ASSERT_EQ(u"MyPassword", options->get_DigitalSignatureDetails()->get_TimestampSe
 doc->Save(ArtifactsDir + u"PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
 ```
 
+## See Also
+
+* Class [PdfDigitalSignatureTimestampSettings](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

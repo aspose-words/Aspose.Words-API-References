@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/warninginfocollection/warninginfocollection/
 ---
-## WarningInfoCollection.WarningInfoCollection method
+## WarningInfoCollection::WarningInfoCollection constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words/warninginfocollection/warninginfocollection/
 Aspose::Words::WarningInfoCollection::WarningInfoCollection()
 ```
 
+## See Also
+
+* Class [WarningInfoCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

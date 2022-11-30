@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldlistnum/
 Implements the LISTNUM field.
 
 ```cpp
-class FieldListNum : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldListNum : public Aspose::Words::Fields::Field,
+                     public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -50,7 +51,6 @@ class FieldListNum : public Aspose::Words::Fields::Field, public Aspose::Words::
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 
 ## Examples
-
 
 
 
@@ -118,3 +118,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.LISTNUM.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.fields/field/getfieldcode/
 ---
-## Field.GetFieldCode() method
+## Field::GetFieldCode() method
 
 
 Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::Field::GetFieldCode()
 
 
 ## Examples
-
 
 
 
@@ -54,7 +53,12 @@ ASSERT_EQ(String::Format(u" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (
 ASSERT_EQ(fieldIf->GetFieldCode(), fieldIf->GetFieldCode(true));
 ```
 
-## Field.GetFieldCode(bool) method
+## See Also
+
+* Class [Field](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)
+## Field::GetFieldCode(bool) method
 
 
 Returns text between field start and field separator (or field end if there is no separator).
@@ -69,7 +73,6 @@ System::String Aspose::Words::Fields::Field::GetFieldCode(bool includeChildField
 | includeChildFieldCodes | bool | **True** if child field codes should be included. |
 
 ## Examples
-
 
 
 
@@ -91,3 +94,8 @@ ASSERT_EQ(String::Format(u" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (
 ASSERT_EQ(fieldIf->GetFieldCode(), fieldIf->GetFieldCode(true));
 ```
 
+## See Also
+
+* Class [Field](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

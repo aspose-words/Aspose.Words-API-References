@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.layout/revisionoptions/get_revisionbarswidth/
 ---
-## RevisionOptions.get_RevisionBarsWidth method
+## RevisionOptions::get_RevisionBarsWidth method
 
 
 Gets or sets width of revision bars, points.
@@ -17,7 +17,6 @@ float Aspose::Words::Layout::RevisionOptions::get_RevisionBarsWidth() const
 
 
 ## Examples
-
 
 
 
@@ -66,3 +65,8 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 doc->Save(ArtifactsDir + u"Revision.RevisionOptions.pdf");
 ```
 
+## See Also
+
+* Class [RevisionOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

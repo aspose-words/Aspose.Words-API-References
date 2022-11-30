@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/set_exportembeddedcss/
 ---
-## HtmlFixedSaveOptions.set_ExportEmbeddedCss method
+## HtmlFixedSaveOptions::set_ExportEmbeddedCss method
 
 
 Setter for [Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedCss](../get_exportembeddedcss/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedCss](
 void Aspose::Words::Saving::HtmlFixedSaveOptions::set_ExportEmbeddedCss(bool value)
 ```
 
+## See Also
+
+* Class [HtmlFixedSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

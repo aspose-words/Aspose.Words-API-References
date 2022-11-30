@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.saving/saveoptions/get_dmleffectsrenderingmode/
 ---
-## SaveOptions.get_DmlEffectsRenderingMode method
+## SaveOptions::get_DmlEffectsRenderingMode method
 
 
 Gets or sets a value determining how DrawingML effects are rendered.
@@ -15,13 +15,14 @@ Gets or sets a value determining how DrawingML effects are rendered.
 virtual Aspose::Words::Saving::DmlEffectsRenderingMode Aspose::Words::Saving::SaveOptions::get_DmlEffectsRenderingMode()
 ```
 
+## Remarks
 
-The default value is **Simplified**.
+
+The default value is [Simplified](../../dmleffectsrenderingmode/).
 
 This property is used when the document is exported to fixed page formats.
 
 ## Examples
-
 
 
 
@@ -45,3 +46,9 @@ ASSERT_EQ(DmlRenderingMode::DrawingML, options->get_DmlRenderingMode());
 doc->Save(ArtifactsDir + u"PdfSaveOptions.DrawingMLEffects.pdf", options);
 ```
 
+## See Also
+
+* Enum [DmlEffectsRenderingMode](../../dmleffectsrenderingmode/)
+* Class [SaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

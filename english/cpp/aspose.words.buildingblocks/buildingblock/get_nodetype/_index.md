@@ -6,10 +6,10 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.buildingblocks/buildingblock/get_nodetype/
 ---
-## BuildingBlock.get_NodeType method
+## BuildingBlock::get_NodeType method
 
 
-Returns the **BuildingBlock** value.
+Returns the [BuildingBlock](../../../aspose.words/nodetype/) value.
 
 ```cpp
 Aspose::Words::NodeType Aspose::Words::BuildingBlocks::BuildingBlock::get_NodeType() const override
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::BuildingBlocks::BuildingBlock::get_NodeTy
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,9 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../../aspose.words/nodetype/)
+* Class [BuildingBlock](../)
+* Namespace [Aspose::Words::BuildingBlocks](../../)
+* Library [Aspose.Words](../../../)

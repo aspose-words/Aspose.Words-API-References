@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.words.tables/cellformat/set_verticalalignment/
 ---
-## CellFormat.set_VerticalAlignment method
+## CellFormat::set_VerticalAlignment method
 
 
 Setter for [Aspose::Words::Tables::CellFormat::get_VerticalAlignment](../get_verticalalignment/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Tables::CellFormat::get_VerticalAlignment](../get_ver
 void Aspose::Words::Tables::CellFormat::set_VerticalAlignment(Aspose::Words::Tables::CellVerticalAlignment value)
 ```
 
+## See Also
+
+* Enum [CellVerticalAlignment](../../cellverticalalignment/)
+* Class [CellFormat](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

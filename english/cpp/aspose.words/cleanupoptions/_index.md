@@ -33,7 +33,6 @@ class CleanupOptions : public System::Object
 
 
 
-
 Shows how to remove all unused custom styles from a document. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -77,3 +76,7 @@ doc->Cleanup(cleanupOptions);
 ASSERT_EQ(2, doc->get_Styles()->get_Count());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

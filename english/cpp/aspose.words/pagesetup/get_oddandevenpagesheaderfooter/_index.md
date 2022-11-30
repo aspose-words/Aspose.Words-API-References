@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.words/pagesetup/get_oddandevenpagesheaderfooter/
 ---
-## PageSetup.get_OddAndEvenPagesHeaderFooter method
+## PageSetup::get_OddAndEvenPagesHeaderFooter method
 
 
 **True** if the document has different headers and footers for odd-numbered and even-numbered pages.
@@ -17,7 +17,6 @@ bool Aspose::Words::PageSetup::get_OddAndEvenPagesHeaderFooter() const
 
 
 ## Examples
-
 
 
 
@@ -88,3 +87,8 @@ builder->get_PageSetup()->set_OddAndEvenPagesHeaderFooter(oddAndEvenPagesHeaderF
 doc->Save(ArtifactsDir + u"PageSetup.OddAndEvenPagesHeaderFooter.docx");
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

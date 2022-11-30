@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.settings/odsofieldmapdatacollection/removeat/
 ---
-## OdsoFieldMapDataCollection.RemoveAt method
+## OdsoFieldMapDataCollection::RemoveAt method
 
 
 Removes the element at the specified index.
@@ -20,4 +20,8 @@ void Aspose::Words::Settings::OdsoFieldMapDataCollection::RemoveAt(int32_t index
 | --- | --- | --- |
 | index | int32_t | The zero-based index of the element. |
 
+## See Also
 
+* Class [OdsoFieldMapDataCollection](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

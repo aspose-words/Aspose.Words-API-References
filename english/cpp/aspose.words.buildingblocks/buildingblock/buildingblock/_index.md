@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.buildingblocks/buildingblock/buildingblock/
 ---
-## BuildingBlock.BuildingBlock method
+## BuildingBlock::BuildingBlock constructor
 
 
 Initializes a new instance of this class.
@@ -19,13 +19,14 @@ Aspose::Words::BuildingBlocks::BuildingBlock::BuildingBlock(const System::Shared
 | Parameter | Type | Description |
 | --- | --- | --- |
 | glossaryDoc | const System::SharedPtr\<Aspose::Words::BuildingBlocks::GlossaryDocument\>\& | The owner document. |
+## Remarks
+
 
 When [BuildingBlock](../) is created, it belongs to the specified glossary document, but is not yet part of the glossary document and [ParentNode](../../../aspose.words/node/get_parentnode/) is **null**.
 
-To append [BuildingBlock](../) to a [GlossaryDocument](../../glossarydocument/) use **AppendChild()**.
+To append [BuildingBlock](../) to a [GlossaryDocument](../../glossarydocument/) use [AppendChild()](../).
 
 ## Examples
-
 
 
 
@@ -120,3 +121,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [GlossaryDocument](../../glossarydocument/)
+* Class [BuildingBlock](../)
+* Namespace [Aspose::Words::BuildingBlocks](../../)
+* Library [Aspose.Words](../../../)

@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing/presettexture/
 
 Specifies texture to be used to fill a shape.
 
+```cpp
+enum class PresetTexture
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -41,3 +45,7 @@ Specifies texture to be used to fill a shape.
 | WhiteMarble | 23 | White marble texture. |
 | WovenMat | 24 | Woven mat texture. |
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

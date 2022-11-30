@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fields/field/get_format/
 ---
-## Field.get_Format method
+## Field::get_Format method
 
 
 Gets a [FieldFormat](../../fieldformat/) object that provides typed access to field's formatting.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Fields::FieldFormat> Aspose::Words::Fields::Fie
 
 
 ## Examples
-
 
 
 
@@ -83,3 +82,9 @@ ASSERT_EQ(u"58", field->get_Result());
 ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 ```
 
+## See Also
+
+* Class [FieldFormat](../../fieldformat/)
+* Class [Field](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

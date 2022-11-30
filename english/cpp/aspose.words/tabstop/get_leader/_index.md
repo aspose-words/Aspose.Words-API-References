@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words/tabstop/get_leader/
 ---
-## TabStop.get_Leader method
+## TabStop::get_Leader method
 
 
 Gets or sets the type of the leader line displayed under the tab character.
@@ -17,7 +17,6 @@ Aspose::Words::TabLeader Aspose::Words::TabStop::get_Leader() const
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,9 @@ for (const auto& para : System::IterateOver(doc->GetChildNodes(NodeType::Paragra
 doc->Save(ArtifactsDir + u"Styles.ChangeTocsTabStops.docx");
 ```
 
+## See Also
+
+* Enum [TabLeader](../../tableader/)
+* Class [TabStop](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

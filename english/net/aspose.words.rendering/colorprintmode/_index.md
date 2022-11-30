@@ -3,7 +3,7 @@ title: ColorPrintMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how noncolored pages are printed if the device supports color printing.
 type: docs
-weight: 4310
+weight: 4320
 url: /net/aspose.words.rendering/colorprintmode/
 ---
 ## ColorPrintMode enumeration

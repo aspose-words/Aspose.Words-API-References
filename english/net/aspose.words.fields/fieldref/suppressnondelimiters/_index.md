@@ -19,7 +19,6 @@ public bool SuppressNonDelimiters { get; set; }
 Shows how to insert REF fields to reference bookmarks.
 
 ```csharp
-public void FieldRef()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

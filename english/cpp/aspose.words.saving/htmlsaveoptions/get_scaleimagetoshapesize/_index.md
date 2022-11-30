@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_scaleimagetoshapesize/
 ---
-## HtmlSaveOptions.get_ScaleImageToShapeSize method
+## HtmlSaveOptions::get_ScaleImageToShapeSize method
 
 
 Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB. Default value is **true**.
@@ -14,6 +14,8 @@ Specifies whether images are scaled by Aspose.Words to the bounding shape size w
 ```cpp
 bool Aspose::Words::Saving::HtmlSaveOptions::get_ScaleImageToShapeSize() const
 ```
+
+## Remarks
 
 
 An image in a Microsoft Word document is a shape. The shape has a size and the image has its own size. The sizes are not directly linked. For example, the image can be 1024x786 pixels, but shape that displays this image can be 400x300 points.
@@ -25,7 +27,6 @@ When [ScaleImageToShapeSize](./) is **true**, the image is scaled by [Aspose.Wor
 In general, browsers do quick and poor quality scaling. As a result, you will normally get better display quality in the browser and smaller file size when [ScaleImageToShapeSize](./) is **true**, but better printing quality and faster conversion when [ScaleImageToShapeSize](./) is **false**.
 
 ## Examples
-
 
 
 
@@ -60,3 +61,8 @@ doc->Save(ArtifactsDir + u"HtmlSaveOptions.ScaleImageToShapeSize.html", options)
 auto fileInfo = MakeObject<System::IO::FileInfo>(ArtifactsDir + u"HtmlSaveOptions.ScaleImageToShapeSize.001.png");
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,10 +6,10 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.layout/revisionoptions/get_deletedtextcolor/
 ---
-## RevisionOptions.get_DeletedTextColor method
+## RevisionOptions::get_DeletedTextColor method
 
 
-Allows to specify the color to be used for deleted content **Deletion**. Default value is **ByAuthor**.
+Allows to specify the color to be used for deleted content [Deletion](../../../aspose.words/revisiontype/). Default value is [ByAuthor](../../revisioncolor/).
 
 ```cpp
 Aspose::Words::Layout::RevisionColor Aspose::Words::Layout::RevisionOptions::get_DeletedTextColor()
@@ -17,7 +17,6 @@ Aspose::Words::Layout::RevisionColor Aspose::Words::Layout::RevisionOptions::get
 
 
 ## Examples
-
 
 
 
@@ -66,3 +65,9 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 doc->Save(ArtifactsDir + u"Revision.RevisionOptions.pdf");
 ```
 
+## See Also
+
+* Enum [RevisionColor](../../revisioncolor/)
+* Class [RevisionOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

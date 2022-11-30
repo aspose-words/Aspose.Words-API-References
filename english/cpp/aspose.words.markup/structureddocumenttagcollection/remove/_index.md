@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.markup/structureddocumenttagcollection/remove/
 ---
-## StructuredDocumentTagCollection.Remove method
+## StructuredDocumentTagCollection::Remove method
 
 
 Removes the structured document tag with the specified identifier.
@@ -20,4 +20,8 @@ void Aspose::Words::Markup::StructuredDocumentTagCollection::Remove(int32_t id)
 | --- | --- | --- |
 | id | int32_t | The structured document tag identifier. |
 
+## See Also
 
+* Class [StructuredDocumentTagCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

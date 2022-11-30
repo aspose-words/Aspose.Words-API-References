@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.markup/customxmlpart/get_schemas/
 ---
-## CustomXmlPart.get_Schemas method
+## CustomXmlPart::get_Schemas method
 
 
 Specifies the set of XML schemas that are associated with this custom XML part.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Markup::CustomXmlSchemaCollection> Aspose::Word
 
 
 ## Examples
-
 
 
 
@@ -82,3 +81,9 @@ doc->get_FirstSection()->get_Body()->AppendChild(tag);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.CustomXml.docx");
 ```
 
+## See Also
+
+* Class [CustomXmlSchemaCollection](../../customxmlschemacollection/)
+* Class [CustomXmlPart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

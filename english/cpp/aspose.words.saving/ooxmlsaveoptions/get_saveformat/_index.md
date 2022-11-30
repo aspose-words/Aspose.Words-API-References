@@ -6,10 +6,10 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.saving/ooxmlsaveoptions/get_saveformat/
 ---
-## OoxmlSaveOptions.get_SaveFormat method
+## OoxmlSaveOptions::get_SaveFormat method
 
 
-Specifies the format in which the document will be saved if this save options object is used. Can be **Docx**, **Docm**, **Dotx**, **Dotm** or **FlatOpc**.
+Specifies the format in which the document will be saved if this save options object is used. Can be [Docx](../../../aspose.words/saveformat/), [Docm](../../../aspose.words/saveformat/), [Dotx](../../../aspose.words/saveformat/), [Dotm](../../../aspose.words/saveformat/) or [FlatOpc](../../../aspose.words/saveformat/).
 
 ```cpp
 Aspose::Words::SaveFormat Aspose::Words::Saving::OoxmlSaveOptions::get_SaveFormat() override
@@ -17,7 +17,6 @@ Aspose::Words::SaveFormat Aspose::Words::Saving::OoxmlSaveOptions::get_SaveForma
 
 
 ## Examples
-
 
 
 
@@ -48,3 +47,9 @@ doc = MakeObject<Document>(ArtifactsDir + u"OoxmlSaveOptions.Iso29500Strict.docx
 ASSERT_EQ(ShapeMarkupLanguage::Dml, (System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
 ```
 
+## See Also
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [OoxmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

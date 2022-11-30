@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/icsssavingcallback/csssaving/
 ---
-## ICssSavingCallback.CssSaving method
+## ICssSavingCallback::CssSaving method
 
 
 Called when Aspose.Words saves an CSS (Cascading [Style](../../../aspose.words/style/) Sheet).
@@ -17,7 +17,6 @@ virtual void Aspose::Words::Saving::ICssSavingCallback::CssSaving(System::Shared
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [CssSavingArgs](../../csssavingargs/)
+* Interface [ICssSavingCallback](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

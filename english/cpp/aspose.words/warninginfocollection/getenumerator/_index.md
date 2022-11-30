@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words/warninginfocollection/getenumerator/
 ---
-## WarningInfoCollection.GetEnumerator method
+## WarningInfoCollection::GetEnumerator method
 
 
 Returns an enumerator object that can be used to iterate over all items in the collection.
@@ -17,7 +17,6 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 
 ## Examples
-
 
 
 
@@ -79,3 +78,9 @@ public:
 };
 ```
 
+## See Also
+
+* Class [WarningInfo](../../warninginfo/)
+* Class [WarningInfoCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

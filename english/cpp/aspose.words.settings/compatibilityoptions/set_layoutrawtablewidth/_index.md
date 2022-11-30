@@ -6,7 +6,7 @@ type: docs
 weight: 1301
 url: /cpp/aspose.words.settings/compatibilityoptions/set_layoutrawtablewidth/
 ---
-## CompatibilityOptions.set_LayoutRawTableWidth method
+## CompatibilityOptions::set_LayoutRawTableWidth method
 
 
 Ignore Space Before Table When Deciding If Table Should Wrap Floating Object.
@@ -15,3 +15,8 @@ Ignore Space Before Table When Deciding If Table Should Wrap Floating Object.
 void Aspose::Words::Settings::CompatibilityOptions::set_LayoutRawTableWidth(bool value)
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

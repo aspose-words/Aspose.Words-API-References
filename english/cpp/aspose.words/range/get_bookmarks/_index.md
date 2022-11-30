@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/range/get_bookmarks/
 ---
-## Range.get_Bookmarks method
+## Range::get_Bookmarks method
 
 
 Returns a [Bookmarks](./) collection that represents all bookmarks in the range.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::BookmarkCollection> Aspose::Words::Range::get_B
 
 
 ## Examples
-
 
 
 
@@ -98,3 +97,9 @@ public:
 };
 ```
 
+## See Also
+
+* Class [BookmarkCollection](../../bookmarkcollection/)
+* Class [Range](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

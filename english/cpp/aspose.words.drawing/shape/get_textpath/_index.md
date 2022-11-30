@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.words.drawing/shape/get_textpath/
 ---
-## Shape.get_TextPath method
+## Shape::get_TextPath method
 
 
 Defines the text of the text path (of a WordArt object).
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::TextPath> Aspose::Words::Drawing::Shap
 
 
 ## Examples
-
 
 
 
@@ -123,3 +122,9 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
 }
 ```
 
+## See Also
+
+* Class [TextPath](../../textpath/)
+* Class [Shape](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

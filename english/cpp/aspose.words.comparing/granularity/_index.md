@@ -11,6 +11,10 @@ url: /cpp/aspose.words.comparing/granularity/
 
 Specifies the granularity of changes to track when comparing two documents.
 
+```cpp
+enum class Granularity
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -20,7 +24,6 @@ Specifies the granularity of changes to track when comparing two documents.
 
 
 ## Examples
-
 
 
 
@@ -46,3 +49,7 @@ SharedPtr<RevisionGroupCollection> groups = docA->get_Revisions()->get_Groups();
 ASSERT_EQ(5, groups->get_Count());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Comparing](../)
+* Library [Aspose.Words](../../)

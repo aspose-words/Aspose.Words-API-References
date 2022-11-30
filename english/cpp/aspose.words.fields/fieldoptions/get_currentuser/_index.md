@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/fieldoptions/get_currentuser/
 ---
-## FieldOptions.get_CurrentUser method
+## FieldOptions::get_CurrentUser method
 
 
 Gets or sets the current user information.
@@ -17,7 +17,6 @@ const System::SharedPtr<Aspose::Words::Fields::UserInformation> & Aspose::Words:
 
 
 ## Examples
-
 
 
 
@@ -53,3 +52,9 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"FieldOptions.CurrentUser.docx");
 ```
 
+## See Also
+
+* Class [UserInformation](../../userinformation/)
+* Class [FieldOptions](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

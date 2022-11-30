@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.tables/cellformat/set_leftpadding/
 ---
-## CellFormat.set_LeftPadding method
+## CellFormat::set_LeftPadding method
 
 
 Setter for [Aspose::Words::Tables::CellFormat::get_LeftPadding](../get_leftpadding/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Tables::CellFormat::get_LeftPadding](../get_leftpaddi
 void Aspose::Words::Tables::CellFormat::set_LeftPadding(double value)
 ```
 
+## See Also
+
+* Class [CellFormat](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

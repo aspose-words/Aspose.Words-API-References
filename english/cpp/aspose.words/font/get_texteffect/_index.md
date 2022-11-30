@@ -6,7 +6,7 @@ type: docs
 weight: 586
 url: /cpp/aspose.words/font/get_texteffect/
 ---
-## Font.get_TextEffect method
+## Font::get_TextEffect method
 
 
 Gets or sets the font animation effect.
@@ -17,7 +17,6 @@ Aspose::Words::TextEffect Aspose::Words::Font::get_TextEffect()
 
 
 ## Examples
-
 
 
 
@@ -35,3 +34,9 @@ builder->Writeln(u"Text with a sparkle effect.");
 doc->Save(ArtifactsDir + u"Font.SparklingText.doc");
 ```
 
+## See Also
+
+* Enum [TextEffect](../../texteffect/)
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

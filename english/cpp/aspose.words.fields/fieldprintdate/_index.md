@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldprintdate/
 Implements the PRINTDATE field.
 
 ```cpp
-class FieldPrintDate : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldPrintDate : public Aspose::Words::Fields::Field,
+                       public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -52,7 +53,6 @@ class FieldPrintDate : public Aspose::Words::Fields::Field, public Aspose::Words
 
 
 
-
 Shows read PRINTDATE fields. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Field sample - PRINTDATE.docx");
@@ -89,3 +89,8 @@ ASSERT_EQ(u"1/5/1942 12:00:00 AM", field->get_Result());
 ASSERT_EQ(u" PRINTDATE  \\s", field->GetFieldCode());
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

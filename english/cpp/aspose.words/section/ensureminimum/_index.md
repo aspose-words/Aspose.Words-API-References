@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words/section/ensureminimum/
 ---
-## Section.EnsureMinimum method
+## Section::EnsureMinimum method
 
 
 Ensures that the section has [Body](../../body/) with one [Paragraph](../../paragraph/).
@@ -17,7 +17,6 @@ void Aspose::Words::Section::EnsureMinimum()
 
 
 ## Examples
-
 
 
 
@@ -47,3 +46,8 @@ doc->get_Sections()->idx_get(0)->get_Body()->get_FirstParagraph()->AppendChild(M
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Section](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

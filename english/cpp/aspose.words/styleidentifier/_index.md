@@ -11,6 +11,10 @@ url: /cpp/aspose.words/styleidentifier/
 
 Locale independent style identifier.
 
+```cpp
+enum class StyleIdentifier
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -394,13 +398,14 @@ Locale independent style identifier.
 | User | 4094 | A user defined style. |
 | Nil | 12287 | Reserved for internal use. |
 
+## Remarks
+
 
 The names of built-in styles in MS Word are localized for different languages. Using a style identifier you can find the correct style regardless of the document language.
 
-All user defined styles are assigned the **StyleIdentifier.User** value.
+All user defined styles are assigned the [StyleIdentifier.User](./) value.
 
 ## Examples
-
 
 
 
@@ -436,3 +441,7 @@ for (const auto& run : System::IterateOver(doc->GetChildNodes(NodeType::Run, tru
 doc->Save(ArtifactsDir + u"Font.ChangeStyle.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

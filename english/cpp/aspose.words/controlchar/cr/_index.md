@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/controlchar/cr/
 ---
-## ControlChar.Cr method
+## ControlChar::Cr method
 
 
 Carriage return character: "\x000d" or "\r". Same as [ParagraphBreak](../paragraphbreak/).
@@ -17,7 +17,6 @@ static System::String & Aspose::Words::ControlChar::Cr()
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,8 @@ ASSERT_EQ(String::Format(u"Hello world!{0}", ControlChar::Cr()) + String::Format
 ASSERT_EQ(String::Format(u"Hello world!{0}", ControlChar::Cr()) + u"Hello again!", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [ControlChar](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

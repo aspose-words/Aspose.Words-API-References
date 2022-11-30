@@ -12,7 +12,8 @@ url: /cpp/aspose.words/style/
 Represents a single built-in or user-defined style.
 
 ```cpp
-class Style : public Aspose::Words::IParaAttrSource, public Aspose::Words::IRunAttrSource
+class Style : public Aspose::Words::IParaAttrSource,
+              public Aspose::Words::IRunAttrSource
 ```
 
 ## Methods
@@ -43,7 +44,6 @@ class Style : public Aspose::Words::IParaAttrSource, public Aspose::Words::IRunA
 | [set_NextParagraphStyleName](./set_nextparagraphstylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_NextParagraphStyleName](./get_nextparagraphstylename/). |
 
 ## Examples
-
 
 
 
@@ -105,3 +105,7 @@ builder->Writeln(u"Hello World: Normal.");
 builder->get_Document()->Save(ArtifactsDir + u"Styles.ParagraphStyleBulletedList.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

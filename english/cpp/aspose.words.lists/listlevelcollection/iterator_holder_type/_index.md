@@ -15,3 +15,8 @@ url: /cpp/aspose.words.lists/listlevelcollection/iterator_holder_type/
 using Aspose::Words::Lists::ListLevelCollection::iterator_holder_type =  System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Lists::ListLevel> >
 ```
 
+## See Also
+
+* Class [ListLevelCollection](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

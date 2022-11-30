@@ -11,17 +11,20 @@ url: /cpp/aspose.words.loading/resourceloadingaction/
 
 Specifies the mode of resource loading.
 
+```cpp
+enum class ResourceLoadingAction
+```
+
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
 | Default | 0 | Aspose.Words will load this resource as usual. |
 | Skip | 1 | Aspose.Words will skip loading of this resource. Only link without data will be stored for an image, CSS style sheet will be ignored for HTML format. |
-| UserProvided | 2 | Aspose.Words will use byte array provided by user in **SetData()** as resource data. |
+| UserProvided | 2 | Aspose.Words will use byte array provided by user in [SetData()](../) as resource data. |
 
 
 ## Examples
-
 
 
 
@@ -79,3 +82,7 @@ public:
 };
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Loading](../)
+* Library [Aspose.Words](../../)

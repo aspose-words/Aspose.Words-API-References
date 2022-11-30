@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words/cleanupoptions/set_unusedbuiltinstyles/
 ---
-## CleanupOptions.set_UnusedBuiltinStyles method
+## CleanupOptions::set_UnusedBuiltinStyles method
 
 
 Setter for [Aspose::Words::CleanupOptions::get_UnusedBuiltinStyles](../get_unusedbuiltinstyles/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::CleanupOptions::get_UnusedBuiltinStyles](../get_unuse
 void Aspose::Words::CleanupOptions::set_UnusedBuiltinStyles(bool value)
 ```
 
+## See Also
+
+* Class [CleanupOptions](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

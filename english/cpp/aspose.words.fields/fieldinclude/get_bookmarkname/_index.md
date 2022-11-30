@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldinclude/get_bookmarkname/
 ---
-## FieldInclude.get_BookmarkName method
+## FieldInclude::get_BookmarkName method
 
 
 Gets or sets the name of the bookmark in the document to include.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldInclude::get_BookmarkName() override
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.INCLUDE.docx");
 ```
 
+## See Also
+
+* Class [FieldInclude](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

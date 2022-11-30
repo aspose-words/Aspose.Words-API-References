@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.tables/row/row/
 ---
-## Row.Row method
+## Row::Row constructor
 
 
 Initializes a new instance of the **Row** class.
@@ -19,13 +19,14 @@ Aspose::Words::Tables::Row::Row(const System::SharedPtr<Aspose::Words::DocumentB
 | Parameter | Type | Description |
 | --- | --- | --- |
 | doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
+## Remarks
+
 
 When **Row** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
 To append **Row** to the document use InsertAfter or InsertBefore on the table where you want the row inserted.
 
 ## Examples
-
 
 
 
@@ -76,3 +77,9 @@ static SharedPtr<Table> CreateTable(SharedPtr<Document> doc, int rowCount, int c
 }
 ```
 
+## See Also
+
+* Class [DocumentBase](../../../aspose.words/documentbase/)
+* Class [Row](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

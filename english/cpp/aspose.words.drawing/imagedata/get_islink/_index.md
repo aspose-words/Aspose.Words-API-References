@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.drawing/imagedata/get_islink/
 ---
-## ImageData.get_IsLink method
+## ImageData::get_IsLink method
 
 
 Returns true if the image is linked to the shape (when [SourceFullName](../get_sourcefullname/) is specified).
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::ImageData::get_IsLink()
 
 
 ## Examples
-
 
 
 
@@ -78,3 +77,8 @@ importedShape->get_ImageData()->set_CropRight(0.3);
 dstDoc->Save(ArtifactsDir + u"Drawing.ImageData.docx");
 ```
 
+## See Also
+
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.fields/fieldskipif/get_rightexpression/
 ---
-## FieldSkipIf.get_RightExpression method
+## FieldSkipIf::get_RightExpression method
 
 
 Gets the right part of the comparison expression.
@@ -15,3 +15,8 @@ Gets the right part of the comparison expression.
 System::String Aspose::Words::Fields::FieldSkipIf::get_RightExpression()
 ```
 
+## See Also
+
+* Class [FieldSkipIf](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

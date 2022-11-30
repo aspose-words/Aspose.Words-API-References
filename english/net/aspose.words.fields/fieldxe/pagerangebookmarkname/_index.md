@@ -59,6 +59,7 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.Write("End of MyBookmark");
 builder.EndBookmark("MyBookmark");
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.INDEX.XE.PageRangeBookmark.docx");
 ```

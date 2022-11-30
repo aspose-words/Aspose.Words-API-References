@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words/bordercollection/get_linewidth/
 ---
-## BorderCollection.get_LineWidth method
+## BorderCollection::get_LineWidth method
 
 
 Gets or sets the border width in points.
@@ -15,13 +15,14 @@ Gets or sets the border width in points.
 double Aspose::Words::BorderCollection::get_LineWidth()
 ```
 
+## Remarks
+
 
 Returns the width of the first border in the collection.
 
 Sets the width of all borders in the collection excluding diagonal borders.
 
 ## Examples
-
 
 
 
@@ -39,3 +40,8 @@ pageSetup->get_Borders()->set_Shadow(true);
 doc->Save(ArtifactsDir + u"PageSetup.PageBorders.docx");
 ```
 
+## See Also
+
+* Class [BorderCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

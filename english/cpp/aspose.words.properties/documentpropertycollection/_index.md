@@ -28,13 +28,14 @@ class DocumentPropertyCollection : public System::Collections::Generic::IEnumera
 | [IndexOf](./indexof/)(const System::String\&) | Gets the index of a property by name. |
 | [Remove](./remove/)(const System::String\&) | Removes a property with the specified name from the collection. |
 | [RemoveAt](./removeat/)(int32_t) | Removes a property at the specified index. |
+## Remarks
+
 
 The names of the properties are case-insensitive.
 
 The properties in the collection are sorted alphabetically by name.
 
 ## Examples
-
 
 
 
@@ -96,3 +97,7 @@ properties->Clear();
 ASSERT_EQ(0, properties->get_Count());
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Properties](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.replacing/ireplacingcallback/replacing/
 ---
-## IReplacingCallback.Replacing method
+## IReplacingCallback::Replacing method
 
 
 A user defined method that is called during a replace operation for each match found just before a replace is made.
@@ -18,11 +18,9 @@ virtual Aspose::Words::Replacing::ReplaceAction Aspose::Words::Replacing::IRepla
 
 ### ReturnValue
 
-
 A [ReplaceAction](../../replaceaction/) value that specifies the action to be taken for the current match.
 
 ## Examples
-
 
 
 
@@ -149,3 +147,10 @@ static void InsertDocument(SharedPtr<Node> insertionDestination, SharedPtr<Docum
 }
 ```
 
+## See Also
+
+* Enum [ReplaceAction](../../replaceaction/)
+* Class [ReplacingArgs](../../replacingargs/)
+* Interface [IReplacingCallback](../)
+* Namespace [Aspose::Words::Replacing](../../)
+* Library [Aspose.Words](../../../)

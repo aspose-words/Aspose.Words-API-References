@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words.comparing/compareoptions/get_ignoretables/
 ---
-## CompareOptions.get_IgnoreTables method
+## CompareOptions::get_IgnoreTables method
 
 
 Specifies whether to compare the differences in data contained in tables. By default tables are not ignored.
@@ -17,7 +17,6 @@ bool Aspose::Words::Comparing::CompareOptions::get_IgnoreTables() const
 
 
 ## Examples
-
 
 
 
@@ -113,3 +112,8 @@ docOriginal->Compare(docEdited, u"John Doe", System::DateTime::get_Now(), compar
 docOriginal->Save(ArtifactsDir + u"Document.CompareOptions.docx");
 ```
 
+## See Also
+
+* Class [CompareOptions](../)
+* Namespace [Aspose::Words::Comparing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.loading/loadoptions/get_languagepreferences/
 ---
-## LoadOptions.get_LanguagePreferences method
+## LoadOptions::get_LanguagePreferences method
 
 
 Gets language preferences that will be used when document is loading.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Loading::LanguagePreferences> Aspose::Words::Lo
 
 
 ## Examples
-
 
 
 
@@ -35,3 +34,9 @@ std::cout << (localeIdFarEast == (int)EditingLanguage::Japanese
           << std::endl;
 ```
 
+## See Also
+
+* Class [LanguagePreferences](../../languagepreferences/)
+* Class [LoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldoptions/get_builtintemplatespaths/
 ---
-## FieldOptions.get_BuiltInTemplatesPaths method
+## FieldOptions::get_BuiltInTemplatesPaths method
 
 
 Gets or sets paths of MS Word built-in templates.
@@ -15,13 +15,14 @@ Gets or sets paths of MS Word built-in templates.
 System::ArrayPtr<System::String> Aspose::Words::Fields::FieldOptions::get_BuiltInTemplatesPaths() const
 ```
 
+## Remarks
+
 
 This property is used by the [FieldAutoText](../../fieldautotext/) and [FieldGlossary](../../fieldglossary/) fields, if referenced auto text entry is not found in the [AttachedTemplate](../../../aspose.words/document/get_attachedtemplate/) template.
 
 By default MS Word stores built-in templates in c:\Users\<username>\AppData\Roaming\**Microsoft**\[Document](../../../aspose.words/document/) Building Blocks\1033\16\Built-In Building Blocks.dotx and C:\Users\<username>\AppData\Roaming\**Microsoft**\Templates\Normal.dotm files.
 
 ## Examples
-
 
 
 
@@ -69,3 +70,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.AUTOTEXT.GLOSSARY.dotx");
 ```
 
+## See Also
+
+* Class [FieldOptions](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

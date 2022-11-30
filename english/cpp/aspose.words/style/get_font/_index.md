@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/style/get_font/
 ---
-## Style.get_Font method
+## Style::get_Font method
 
 
 Gets the character formatting of the style.
@@ -15,11 +15,12 @@ Gets the character formatting of the style.
 System::SharedPtr<Aspose::Words::Font> Aspose::Words::Style::get_Font()
 ```
 
+## Remarks
+
 
 For list styles this property returns null.
 
 ## Examples
-
 
 
 
@@ -81,3 +82,9 @@ builder->Writeln(u"Hello World: Normal.");
 builder->get_Document()->Save(ArtifactsDir + u"Styles.ParagraphStyleBulletedList.docx");
 ```
 
+## See Also
+
+* Class [Font](../../font/)
+* Class [Style](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

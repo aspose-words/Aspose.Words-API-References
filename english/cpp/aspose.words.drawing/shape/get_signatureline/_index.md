@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.drawing/shape/get_signatureline/
 ---
-## Shape.get_SignatureLine method
+## Shape::get_SignatureLine method
 
 
 Gets [SignatureLine](./) object if the shape is a signature line. Returns **null** otherwise.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Drawing::SignatureLine> Aspose::Words::Drawing:
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,9 @@ ASSERT_TRUE(signatureLine->get_DefaultInstructions());
 doc->Save(ArtifactsDir + u"Shape.SignatureLine.docx");
 ```
 
+## See Also
+
+* Class [SignatureLine](../../signatureline/)
+* Class [Shape](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -12,7 +12,9 @@ url: /cpp/aspose.words.math/officemath/
 Represents an Office [Math](../) object such as function, equation, matrix or alike. Can contain child elements including runs of mathematical text, bookmarks, comments, other [OfficeMath](./) instances and some other nodes.
 
 ```cpp
-class OfficeMath : public Aspose::Words::CompositeNode, public Aspose::Words::IInline, public Aspose::Words::Revisions::ITrackableNode
+class OfficeMath : public Aspose::Words::CompositeNode,
+                   public Aspose::Words::IInline,
+                   public Aspose::Words::Revisions::ITrackableNode
 ```
 
 ## Methods
@@ -67,13 +69,14 @@ class OfficeMath : public Aspose::Words::CompositeNode, public Aspose::Words::II
 | [SetTemplateWeakPtr](../../aspose.words/compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+## Remarks
+
 
 In this version of Aspose.Words, [OfficeMath](./) nodes do not provide public methods and properties to create or modify a [OfficeMath](./) object. In this version you are not able to instantiate [Math](../) nodes or modify existing except deleting them.
 
 [OfficeMath](./) can only be a child of [Paragraph](../../aspose.words/paragraph/).
 
 ## Examples
-
 
 
 
@@ -99,3 +102,8 @@ officeMath->set_Justification(OfficeMathJustification::Left);
 doc->Save(ArtifactsDir + u"Shape.OfficeMath.docx");
 ```
 
+## See Also
+
+* Class [CompositeNode](../../aspose.words/compositenode/)
+* Namespace [Aspose::Words::Math](../)
+* Library [Aspose.Words](../../)

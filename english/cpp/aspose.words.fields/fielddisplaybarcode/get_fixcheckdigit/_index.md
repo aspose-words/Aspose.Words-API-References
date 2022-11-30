@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.fields/fielddisplaybarcode/get_fixcheckdigit/
 ---
-## FieldDisplayBarcode.get_FixCheckDigit method
+## FieldDisplayBarcode::get_FixCheckDigit method
 
 
 Gets or sets whether to fix the check digit if it’s invalid.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldDisplayBarcode::get_FixCheckDigit()
 
 
 ## Examples
-
 
 
 
@@ -73,3 +72,8 @@ ASSERT_EQ(u" DISPLAYBARCODE  09312345678907 ITF14 \\c STD", field->GetFieldCode(
 doc->Save(ArtifactsDir + u"Field.DISPLAYBARCODE.docx");
 ```
 
+## See Also
+
+* Class [FieldDisplayBarcode](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

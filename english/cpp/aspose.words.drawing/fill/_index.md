@@ -58,11 +58,12 @@ class Fill : public System::Object
 | [Solid](./solid/)(System::Drawing::Color) | Sets the fill to a specified uniform color. |
 | [TwoColorGradient](./twocolorgradient/)(Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant) | Sets the specified fill to a two-color gradient. |
 | [TwoColorGradient](./twocolorgradient/)(System::Drawing::Color, System::Drawing::Color, Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant) | Sets the specified fill to a two-color gradient. |
+## Remarks
+
 
 Use the [Fill](../shapebase/get_fill/) or [Fill](../../aspose.words/font/get_fill/) property to access fill properties of an object. You do not create instances of the [Fill](./) class directly.
 
 ## Examples
-
 
 
 
@@ -95,3 +96,7 @@ shape->get_Fill()->set_Opacity(0.3);
 doc->Save(ArtifactsDir + u"Shape.Fill.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

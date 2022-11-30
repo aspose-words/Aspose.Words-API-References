@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.tables/cellformat/get_fittext/
 ---
-## CellFormat.get_FitText method
+## CellFormat::get_FitText method
 
 
 If true, fits text in the cell, compressing each paragraph to the width of the cell.
@@ -17,7 +17,6 @@ bool Aspose::Words::Tables::CellFormat::get_FitText()
 
 
 ## Examples
-
 
 
 
@@ -81,3 +80,8 @@ builder->EndTable();
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertTable.docx");
 ```
 
+## See Also
+
+* Class [CellFormat](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

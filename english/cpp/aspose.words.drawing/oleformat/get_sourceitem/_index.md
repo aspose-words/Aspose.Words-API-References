@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.drawing/oleformat/get_sourceitem/
 ---
-## OleFormat.get_SourceItem method
+## OleFormat::get_SourceItem method
 
 
 Gets or sets a string that is used to identify the portion of the source file that is being linked.
@@ -15,13 +15,14 @@ Gets or sets a string that is used to identify the portion of the source file th
 System::String Aspose::Words::Drawing::OleFormat::get_SourceItem()
 ```
 
+## Remarks
+
 
 The default value is an empty string.
 
 For example, if the source file is a Microsoft Excel workbook, the [SourceItem](./) property might return "Workbook1!R3C1:R4C2" if the OLE object contains only a few cells from the worksheet.
 
 ## Examples
-
 
 
 
@@ -74,3 +75,8 @@ doc->Save(ArtifactsDir + u"Shape.OleLinks.docx");
 }
 ```
 
+## See Also
+
+* Class [OleFormat](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

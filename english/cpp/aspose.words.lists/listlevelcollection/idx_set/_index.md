@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.lists/listlevelcollection/idx_set/
 ---
-## ListLevelCollection.idx_set method
+## ListLevelCollection::idx_set method
 
 
 Gets a list level by index.
@@ -17,7 +17,6 @@ void Aspose::Words::Lists::ListLevelCollection::idx_set(int32_t index, const Sys
 
 
 ## Examples
-
 
 
 
@@ -130,3 +129,9 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateAndUseListStyle.docx");
 ```
 
+## See Also
+
+* Class [ListLevel](../../listlevel/)
+* Class [ListLevelCollection](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

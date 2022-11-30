@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.lists/list/get_isrestartateachsection/
 ---
-## List.get_IsRestartAtEachSection method
+## List::get_IsRestartAtEachSection method
 
 
 Specifies whether list should be restarted at each section. Default value is **false**.
@@ -15,13 +15,14 @@ Specifies whether list should be restarted at each section. Default value is **f
 bool Aspose::Words::Lists::List::get_IsRestartAtEachSection()
 ```
 
+## Remarks
+
 
 This option is supported only in RTF, DOC and DOCX document formats.
 
-This option will be written to DOCX only if [OoxmlCompliance](../../../aspose.words.saving/ooxmlcompliance/) is higher then **Ecma376_2006**.
+This option will be written to DOCX only if [OoxmlCompliance](../../../aspose.words.saving/ooxmlcompliance/) is higher then [Ecma376_2006](../../../aspose.words.saving/ooxmlcompliance/).
 
 ## Examples
-
 
 
 
@@ -55,3 +56,8 @@ doc = MakeObject<Document>(ArtifactsDir + u"OoxmlSaveOptions.RestartingDocumentL
 ASPOSE_ASSERT_EQ(restartListAtEachSection, doc->get_Lists()->idx_get(0)->get_IsRestartAtEachSection());
 ```
 
+## See Also
+
+* Class [List](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

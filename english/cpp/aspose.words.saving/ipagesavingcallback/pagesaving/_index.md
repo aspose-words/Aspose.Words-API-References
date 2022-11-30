@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/ipagesavingcallback/pagesaving/
 ---
-## IPageSavingCallback.PageSaving method
+## IPageSavingCallback::PageSaving method
 
 
 Called when Aspose.Words saves a separate page to fixed page formats.
@@ -17,7 +17,6 @@ virtual void Aspose::Words::Saving::IPageSavingCallback::PageSaving(System::Shar
 
 
 ## Examples
-
 
 
 
@@ -71,3 +70,9 @@ public:
 };
 ```
 
+## See Also
+
+* Class [PageSavingArgs](../../pagesavingargs/)
+* Interface [IPageSavingCallback](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

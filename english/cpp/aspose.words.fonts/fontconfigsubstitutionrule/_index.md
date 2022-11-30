@@ -23,13 +23,14 @@ class FontConfigSubstitutionRule : public Aspose::Words::Fonts::FontSubstitution
 | [IsFontConfigAvailable](./isfontconfigavailable/)() | Check if fontconfig utility is available or not. |
 | [ResetCache](./resetcache/)() | Resets the cache of fontconfig calling results. |
 | [set_Enabled](./set_enabled/)(bool) override | Specifies whether the rule is enabled or not. |
+## Remarks
+
 
 This rule uses fontconfig utility on Linux (and other Unix-like) platforms to get the substitution if the original font is not available.
 
 If fontconfig utility is not available then this rule will be ignored.
 
 ## Examples
-
 
 
 
@@ -62,3 +63,8 @@ if (isLinuxOrMac)
 }
 ```
 
+## See Also
+
+* Class [FontSubstitutionRule](../fontsubstitutionrule/)
+* Namespace [Aspose::Words::Fonts](../)
+* Library [Aspose.Words](../../)

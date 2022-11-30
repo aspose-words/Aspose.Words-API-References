@@ -30,6 +30,8 @@ class ListFormat : public System::Object
 | [RemoveNumbers](./removenumbers/)() | Removes numbers or bullets from the current paragraph and sets list level to zero. |
 | [set_List](./set_list/)(const System::SharedPtr\<Aspose::Words::Lists::List\>\&) | Setter for [Aspose::Words::Lists::ListFormat::get_List](./get_list/). |
 | [set_ListLevelNumber](./set_listlevelnumber/)(int32_t) | Setter for [Aspose::Words::Lists::ListFormat::get_ListLevelNumber](./get_listlevelnumber/). |
+## Remarks
+
 
 A paragraph in a Microsoft Word document can be bulleted or numbered. When a paragraph is bulleted or numbered, it is said that list formatting is applied to the paragraph.
 
@@ -46,7 +48,6 @@ The list formatting itself is stored inside a [List](../list/) object that is st
 The paragraphs do not physically belong to a list. The paragraphs just reference a particular list object via the [List](./get_list/) property and a particular level in the list via the [ListLevelNumber](./get_listlevelnumber/) property. By setting these two properties you control what bullets and numbering is applied to a paragraph.
 
 ## Examples
-
 
 
 
@@ -97,3 +98,7 @@ ASSERT_FALSE(builder->get_ListFormat()->get_IsListItem());
 doc->Save(ArtifactsDir + u"Lists.SpecifyListLevel.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Lists](../)
+* Library [Aspose.Words](../../)

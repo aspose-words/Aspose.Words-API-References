@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.rendering/noderendererbase/getboundsinpixels/
 ---
-## NodeRendererBase.GetBoundsInPixels(float, float) method
+## NodeRendererBase::GetBoundsInPixels(float, float) method
 
 
 Calculates the bounds of the shape in pixels for a specified zoom factor and resolution.
@@ -23,13 +23,13 @@ System::Drawing::Rectangle Aspose::Words::Rendering::NodeRendererBase::GetBounds
 
 ### ReturnValue
 
-
 The actual (as rendered on the page) bounding box of the shape in pixels.
+## Remarks
+
 
 This method converts [BoundsInPoints](../get_boundsinpoints/) into rectangle in pixels.
 
 ## Examples
-
 
 
 
@@ -74,7 +74,12 @@ ASSERT_EQ(159, bounds.get_Width());
 ASSERT_EQ(30, bounds.get_Height());
 ```
 
-## NodeRendererBase.GetBoundsInPixels(float, float, float) method
+## See Also
+
+* Class [NodeRendererBase](../)
+* Namespace [Aspose::Words::Rendering](../../)
+* Library [Aspose.Words](../../../)
+## NodeRendererBase::GetBoundsInPixels(float, float, float) method
 
 
 Calculates the bounds of the shape in pixels for a specified zoom factor and resolution.
@@ -92,13 +97,13 @@ System::Drawing::Rectangle Aspose::Words::Rendering::NodeRendererBase::GetBounds
 
 ### ReturnValue
 
-
 The actual (as rendered on the page) bounding box of the shape in pixels.
+## Remarks
+
 
 This method converts [BoundsInPoints](../get_boundsinpoints/) into rectangle in pixels.
 
 ## Examples
-
 
 
 
@@ -143,3 +148,8 @@ ASSERT_EQ(159, bounds.get_Width());
 ASSERT_EQ(30, bounds.get_Height());
 ```
 
+## See Also
+
+* Class [NodeRendererBase](../)
+* Namespace [Aspose::Words::Rendering](../../)
+* Library [Aspose.Words](../../../)

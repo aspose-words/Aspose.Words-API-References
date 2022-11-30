@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fields/fieldtc/get_typeidentifier/
 ---
-## FieldTC.get_TypeIdentifier method
+## FieldTC::get_TypeIdentifier method
 
 
 Gets or sets a type identifier for this field (which is typically a letter).
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldTC::get_TypeIdentifier()
 
 
 ## Examples
-
 
 
 
@@ -64,3 +63,8 @@ void InsertTocEntry(SharedPtr<DocumentBuilder> builder, String text, String type
 }
 ```
 
+## See Also
+
+* Class [FieldTC](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

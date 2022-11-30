@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /cpp/aspose.words/pagesetup/get_verticalalignment/
 ---
-## PageSetup.get_VerticalAlignment method
+## PageSetup::get_VerticalAlignment method
 
 
 Returns or sets the vertical alignment of text on each page in a document or section.
@@ -17,7 +17,6 @@ Aspose::Words::PageVerticalAlignment Aspose::Words::PageSetup::get_VerticalAlign
 
 
 ## Examples
-
 
 
 
@@ -49,3 +48,9 @@ builder->Writeln(u"This is the second section, which is in default Letter paper 
 doc->Save(ArtifactsDir + u"PageSetup.ClearFormatting.docx");
 ```
 
+## See Also
+
+* Enum [PageVerticalAlignment](../../pageverticalalignment/)
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

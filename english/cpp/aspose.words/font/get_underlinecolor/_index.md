@@ -6,7 +6,7 @@ type: docs
 weight: 703
 url: /cpp/aspose.words/font/get_underlinecolor/
 ---
-## Font.get_UnderlineColor method
+## Font::get_UnderlineColor method
 
 
 Gets or sets the color of the underline applied to the font.
@@ -17,7 +17,6 @@ System::Drawing::Color Aspose::Words::Font::get_UnderlineColor()
 
 
 ## Examples
-
 
 
 
@@ -34,3 +33,8 @@ builder->Writeln(u"Underlined text.");
 doc->Save(ArtifactsDir + u"Font.Underlines.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

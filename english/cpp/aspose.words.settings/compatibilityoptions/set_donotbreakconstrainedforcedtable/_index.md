@@ -6,7 +6,7 @@ type: docs
 weight: 1093
 url: /cpp/aspose.words.settings/compatibilityoptions/set_donotbreakconstrainedforcedtable/
 ---
-## CompatibilityOptions.set_DoNotBreakConstrainedForcedTable method
+## CompatibilityOptions::set_DoNotBreakConstrainedForcedTable method
 
 
 Don't Break Table Rows Around Floating [Tables](../../../aspose.words.tables/).
@@ -15,3 +15,8 @@ Don't Break Table Rows Around Floating [Tables](../../../aspose.words.tables/).
 void Aspose::Words::Settings::CompatibilityOptions::set_DoNotBreakConstrainedForcedTable(bool value)
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.fonts/tablesubstitutionrule/setsubstitutes/
 ---
-## TableSubstitutionRule.SetSubstitutes method
+## TableSubstitutionRule::SetSubstitutes method
 
 
 Override substitute font names for given original font name.
@@ -22,7 +22,6 @@ void Aspose::Words::Fonts::TableSubstitutionRule::SetSubstitutes(const System::S
 | substituteFontNames | const System::ArrayPtr\<System::String\>\& | List of alternative font names. |
 
 ## Examples
-
 
 
 
@@ -118,3 +117,8 @@ builder->Writeln(u"Text written in Times New Roman, to be substituted by Squaris
 doc->Save(ArtifactsDir + u"FontSettings.TableSubstitutionRule.Custom.pdf");
 ```
 
+## See Also
+
+* Class [TableSubstitutionRule](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

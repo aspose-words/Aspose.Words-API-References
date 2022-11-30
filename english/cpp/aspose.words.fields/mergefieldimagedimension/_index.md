@@ -26,4 +26,7 @@ class MergeFieldImageDimension : public System::Object
 | [set_Unit](./set_unit/)(Aspose::Words::Fields::MergeFieldImageDimensionUnit) | The unit. |
 | [set_Value](./set_value/)(double) | The value. |
 
+## See Also
 
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

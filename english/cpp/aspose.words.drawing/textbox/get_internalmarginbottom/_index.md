@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.drawing/textbox/get_internalmarginbottom/
 ---
-## TextBox.get_InternalMarginBottom method
+## TextBox::get_InternalMarginBottom method
 
 
 Specifies the inner bottom margin in points for a shape.
@@ -15,11 +15,12 @@ Specifies the inner bottom margin in points for a shape.
 double Aspose::Words::Drawing::TextBox::get_InternalMarginBottom()
 ```
 
+## Remarks
+
 
 The default value is 1/20 inch.
 
 ## Examples
-
 
 
 
@@ -42,3 +43,8 @@ builder->Write(u"Text placed according to textbox margins.");
 doc->Save(ArtifactsDir + u"Shape.TextBoxMargins.docx");
 ```
 
+## See Also
+
+* Class [TextBox](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/aspose.words.layout/revisionoptions/set_showoriginalrevision/
 ---
-## RevisionOptions.set_ShowOriginalRevision method
+## RevisionOptions::set_ShowOriginalRevision method
 
 
 Setter for [Aspose::Words::Layout::RevisionOptions::get_ShowOriginalRevision](../get_showoriginalrevision/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Layout::RevisionOptions::get_ShowOriginalRevision](..
 void Aspose::Words::Layout::RevisionOptions::set_ShowOriginalRevision(bool value)
 ```
 
+## See Also
+
+* Class [RevisionOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

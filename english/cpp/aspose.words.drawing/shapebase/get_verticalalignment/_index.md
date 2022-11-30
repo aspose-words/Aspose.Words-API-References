@@ -6,7 +6,7 @@ type: docs
 weight: 664
 url: /cpp/aspose.words.drawing/shapebase/get_verticalalignment/
 ---
-## ShapeBase.get_VerticalAlignment method
+## ShapeBase::get_VerticalAlignment method
 
 
 Specifies how the shape is positioned vertically.
@@ -15,13 +15,14 @@ Specifies how the shape is positioned vertically.
 Aspose::Words::Drawing::VerticalAlignment Aspose::Words::Drawing::ShapeBase::get_VerticalAlignment()
 ```
 
+## Remarks
 
-The default value is **None**.
+
+The default value is [None](../../verticalalignment/).
 
 Has effect only for top level floating shapes.
 
 ## Examples
-
 
 
 
@@ -42,3 +43,9 @@ shape->set_VerticalAlignment(VerticalAlignment::Center);
 doc->Save(ArtifactsDir + u"Image.CreateFloatingPageCenter.docx");
 ```
 
+## See Also
+
+* Enum [VerticalAlignment](../../verticalalignment/)
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

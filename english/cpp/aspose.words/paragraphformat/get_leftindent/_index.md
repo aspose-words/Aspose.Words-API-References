@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words/paragraphformat/get_leftindent/
 ---
-## ParagraphFormat.get_LeftIndent method
+## ParagraphFormat::get_LeftIndent method
 
 
 Gets or sets the value (in points) that represents the left indent for paragraph.
@@ -17,7 +17,6 @@ double Aspose::Words::ParagraphFormat::get_LeftIndent()
 
 
 ## Examples
-
 
 
 
@@ -41,3 +40,8 @@ builder->Writeln(u"The space between the above paragraph and this one depends on
 doc->Save(ArtifactsDir + u"DocumentBuilder.SetParagraphFormatting.docx");
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

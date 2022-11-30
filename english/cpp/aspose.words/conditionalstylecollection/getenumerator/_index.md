@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words/conditionalstylecollection/getenumerator/
 ---
-## ConditionalStyleCollection.GetEnumerator method
+## ConditionalStyleCollection::GetEnumerator method
 
 
 Returns an enumerator object that can be used to iterate over all conditional styles in the collection.
@@ -17,7 +17,6 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 
 ## Examples
-
 
 
 
@@ -90,3 +89,9 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow |
 doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 ```
 
+## See Also
+
+* Class [ConditionalStyle](../../conditionalstyle/)
+* Class [ConditionalStyleCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 638
 url: /cpp/aspose.words/documentbuilder/movetocell/
 ---
-## DocumentBuilder.MoveToCell method
+## DocumentBuilder::MoveToCell method
 
 
 Moves the cursor to a table cell in the current section.
@@ -22,13 +22,14 @@ void Aspose::Words::DocumentBuilder::MoveToCell(int32_t tableIndex, int32_t rowI
 | rowIndex | int32_t | The index of the row in the table. |
 | columnIndex | int32_t | The index of the column in the table. |
 | characterIndex | int32_t | The index of the character inside the cell. A negative value allows you to specify a position from the end of the cell. Use -1 to move to the end of the cell. |
+## Remarks
+
 
 The navigation is performed inside the current story of the current section.
 
 For the index parameters, when index is greater than or equal to 0, it specifies an index from the beginning with 0 being the first element. When index is less than 0, it specified an index from the end with -1 being the last element.
 
 ## Examples
-
 
 
 
@@ -57,3 +58,8 @@ builder->Write(u"Column 2, cell 2.");
 doc->Save(ArtifactsDir + u"DocumentBuilder.MoveToCell.docx");
 ```
 
+## See Also
+
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

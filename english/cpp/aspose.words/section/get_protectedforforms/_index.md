@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words/section/get_protectedforforms/
 ---
-## Section.get_ProtectedForForms method
+## Section::get_ProtectedForForms method
 
 
 True if the section is protected for forms. When a section is protected for forms, users can select and modify text only in form fields in Microsoft Word.
@@ -17,7 +17,6 @@ bool Aspose::Words::Section::get_ProtectedForForms()
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,8 @@ doc->get_Sections()->idx_get(0)->set_ProtectedForForms(false);
 doc->Save(ArtifactsDir + u"Section.Protect.docx");
 ```
 
+## See Also
+
+* Class [Section](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

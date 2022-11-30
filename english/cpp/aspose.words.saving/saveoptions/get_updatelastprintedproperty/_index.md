@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words.saving/saveoptions/get_updatelastprintedproperty/
 ---
-## SaveOptions.get_UpdateLastPrintedProperty method
+## SaveOptions::get_UpdateLastPrintedProperty method
 
 
 Gets or sets a value determining whether the [LastPrinted](../../../aspose.words.properties/builtindocumentproperties/get_lastprinted/) property is updated before saving.
@@ -17,7 +17,6 @@ bool Aspose::Words::Saving::SaveOptions::get_UpdateLastPrintedProperty() const
 
 
 ## Examples
-
 
 
 
@@ -62,3 +61,8 @@ doc = MakeObject<Document>(ArtifactsDir + u"DocSaveOptions.UpdateCreatedTimeProp
 ASPOSE_ASSERT_NE(isUpdateCreatedTimeProperty, System::DateTime(2019, 12, 20) == doc->get_BuiltInDocumentProperties()->get_CreatedTime());
 ```
 
+## See Also
+
+* Class [SaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

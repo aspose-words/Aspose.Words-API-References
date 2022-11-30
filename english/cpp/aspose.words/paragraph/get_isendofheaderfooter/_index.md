@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words/paragraph/get_isendofheaderfooter/
 ---
-## Paragraph.get_IsEndOfHeaderFooter method
+## Paragraph::get_IsEndOfHeaderFooter method
 
 
 True if this paragraph is the last paragraph in the **HeaderFooter** (main text story) of a **Section**; false otherwise.
@@ -17,7 +17,6 @@ bool Aspose::Words::Paragraph::get_IsEndOfHeaderFooter()
 
 
 ## Examples
-
 
 
 
@@ -52,3 +51,8 @@ ASPOSE_ASSERT_EQ(footer->get_ParentSection(), header->get_ParentSection());
 doc->Save(ArtifactsDir + u"HeaderFooter.Create.docx");
 ```
 
+## See Also
+
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

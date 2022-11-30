@@ -6,7 +6,7 @@ type: docs
 weight: 846
 url: /cpp/aspose.words.tables/table/setborders/
 ---
-## Table.SetBorders method
+## Table::SetBorders method
 
 
 Sets all table borders to the specified line style, width and color.
@@ -23,7 +23,6 @@ void Aspose::Words::Tables::Table::SetBorders(Aspose::Words::LineStyle lineStyle
 | color | System::Drawing::Color | The color to use for the border. |
 
 ## Examples
-
 
 
 
@@ -77,3 +76,9 @@ table->SetBorders(LineStyle::Single, 1.5, System::Drawing::Color::get_Green());
 doc->Save(ArtifactsDir + u"Table.SetBorders.docx");
 ```
 
+## See Also
+
+* Enum [LineStyle](../../../aspose.words/linestyle/)
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

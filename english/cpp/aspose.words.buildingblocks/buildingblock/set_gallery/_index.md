@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.buildingblocks/buildingblock/set_gallery/
 ---
-## BuildingBlock.set_Gallery method
+## BuildingBlock::set_Gallery method
 
 
 Setter for [Aspose::Words::BuildingBlocks::BuildingBlock::get_Gallery](../get_gallery/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::BuildingBlocks::BuildingBlock::get_Gallery](../get_ga
 void Aspose::Words::BuildingBlocks::BuildingBlock::set_Gallery(Aspose::Words::BuildingBlocks::BuildingBlockGallery value)
 ```
 
+## See Also
+
+* Enum [BuildingBlockGallery](../../buildingblockgallery/)
+* Class [BuildingBlock](../)
+* Namespace [Aspose::Words::BuildingBlocks](../../)
+* Library [Aspose.Words](../../../)

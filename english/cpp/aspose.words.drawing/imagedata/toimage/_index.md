@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/aspose.words.drawing/imagedata/toimage/
 ---
-## ImageData.ToImage method
+## ImageData::ToImage method
 
 
 Gets the image stored in the shape as a **Image** object.
@@ -15,13 +15,14 @@ Gets the image stored in the shape as a **Image** object.
 System::SharedPtr<System::Drawing::Image> Aspose::Words::Drawing::ImageData::ToImage()
 ```
 
+## Remarks
+
 
 A new **Image** object is created every time this method is called.
 
 It is the responsibility of the caller to dispose the image object.
 
 ## Examples
-
 
 
 
@@ -55,3 +56,8 @@ auto formatConverter = MakeObject<System::Drawing::ImageFormatConverter>();
 }
 ```
 
+## See Also
+
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

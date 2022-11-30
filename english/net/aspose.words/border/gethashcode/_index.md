@@ -3,7 +3,7 @@ title: GetHashCode
 second_title: Aspose.Words for .NET API Reference
 description: Serves as a hash function for this type.
 type: docs
-weight: 90
+weight: 110
 url: /net/aspose.words/border/gethashcode/
 ---
 ## Border.GetHashCode method

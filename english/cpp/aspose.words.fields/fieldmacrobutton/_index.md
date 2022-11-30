@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldmacrobutton/
 Implements the MACROBUTTON field.
 
 ```cpp
-class FieldMacroButton : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IMergeFieldSurrogate
+class FieldMacroButton : public Aspose::Words::Fields::Field,
+                         public Aspose::Words::Fields::IMergeFieldSurrogate
 ```
 
 ## Methods
@@ -47,13 +48,14 @@ class FieldMacroButton : public Aspose::Words::Fields::Field, public Aspose::Wor
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
+## Remarks
+
 
 Allows a macro or command to be run.
 
 In Aspose.Words this field can also act as a merge field.
 
 ## Examples
-
 
 
 
@@ -87,3 +89,8 @@ ASSERT_EQ(u" MACROBUTTON  ViewZoom200 Run ViewZoom200", field->GetFieldCode());
 doc->Save(ArtifactsDir + u"Field.MACROBUTTON.docm");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

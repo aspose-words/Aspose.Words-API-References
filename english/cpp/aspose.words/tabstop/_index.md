@@ -29,13 +29,14 @@ class TabStop : public System::Object
 | [set_Leader](./set_leader/)(Aspose::Words::TabLeader) | Setter for [Aspose::Words::TabStop::get_Leader](./get_leader/). |
 | [TabStop](./tabstop/)(double) | Initializes a new instance of this class. |
 | [TabStop](./tabstop/)(double, Aspose::Words::TabAlignment, Aspose::Words::TabLeader) | Initializes a new instance of this class. |
+## Remarks
+
 
 Normally, a tab stop specifies a position where a tab stop exists. But because tab stops can be inherited from parent styles, it might be needed for the child object to define explicitly that there is no tab stop at a given position. To clear an inherited tab stop at a given position, create a **TabStop** object and set [Alignment](./get_alignment/) to **TabAlignment.Clear**.
 
 For more information see [TabStopCollection](../tabstopcollection/).
 
 ## Examples
-
 
 
 
@@ -61,3 +62,7 @@ for (const auto& para : System::IterateOver(doc->GetChildNodes(NodeType::Paragra
 doc->Save(ArtifactsDir + u"Styles.ChangeTocsTabStops.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

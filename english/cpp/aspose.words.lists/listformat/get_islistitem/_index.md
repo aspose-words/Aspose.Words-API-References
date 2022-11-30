@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.lists/listformat/get_islistitem/
 ---
-## ListFormat.get_IsListItem method
+## ListFormat::get_IsListItem method
 
 
 True when the paragraph has bulleted or numbered formatting applied to it.
@@ -17,7 +17,6 @@ bool Aspose::Words::Lists::ListFormat::get_IsListItem()
 
 
 ## Examples
-
 
 
 
@@ -98,3 +97,8 @@ for (auto para : System::IterateOver(
 }
 ```
 
+## See Also
+
+* Class [ListFormat](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words](../../../)

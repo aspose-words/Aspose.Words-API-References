@@ -11,6 +11,10 @@ url: /cpp/aspose.words/outlinelevel/
 
 Specifies the outline level of a paragraph in the document.
 
+```cpp
+enum class OutlineLevel
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -26,3 +30,7 @@ Specifies the outline level of a paragraph in the document.
 | Level9 | 8 | The paragraph is at the outline level 9. |
 | BodyText | 9 | The paragraph is at the level of the main text. |
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /cpp/aspose.words/pagesetup/get_textcolumns/
 ---
-## PageSetup.get_TextColumns method
+## PageSetup::get_TextColumns method
 
 
 Returns a collection that represents the set of text columns.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::TextColumnCollection> Aspose::Words::PageSetup:
 
 
 ## Examples
-
 
 
 
@@ -37,3 +36,9 @@ builder->Writeln(u"Column 2.");
 doc->Save(ArtifactsDir + u"PageSetup.ColumnsSameWidth.docx");
 ```
 
+## See Also
+
+* Class [TextColumnCollection](../../textcolumncollection/)
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

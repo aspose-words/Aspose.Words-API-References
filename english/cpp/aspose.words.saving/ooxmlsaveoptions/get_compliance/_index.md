@@ -6,10 +6,10 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.saving/ooxmlsaveoptions/get_compliance/
 ---
-## OoxmlSaveOptions.get_Compliance method
+## OoxmlSaveOptions::get_Compliance method
 
 
-Specifies the OOXML version for the output document. The default value is **Ecma376_2006**.
+Specifies the OOXML version for the output document. The default value is [Ecma376_2006](../../ooxmlcompliance/).
 
 ```cpp
 Aspose::Words::Saving::OoxmlCompliance Aspose::Words::Saving::OoxmlSaveOptions::get_Compliance()
@@ -17,7 +17,6 @@ Aspose::Words::Saving::OoxmlCompliance Aspose::Words::Saving::OoxmlSaveOptions::
 
 
 ## Examples
-
 
 
 
@@ -101,3 +100,9 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Transitional);
 doc->Save(ArtifactsDir + u"Shape.ShapeInsertion.docx", saveOptions);
 ```
 
+## See Also
+
+* Enum [OoxmlCompliance](../../ooxmlcompliance/)
+* Class [OoxmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

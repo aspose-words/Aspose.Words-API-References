@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_fontresourcessubsettingsizethreshold/
 ---
-## HtmlSaveOptions.get_FontResourcesSubsettingSizeThreshold method
+## HtmlSaveOptions::get_FontResourcesSubsettingSizeThreshold method
 
 
 Controls which font resources need subsetting when saving to HTML, MHTML or EPUB. Default is **%0**.
@@ -14,6 +14,8 @@ Controls which font resources need subsetting when saving to HTML, MHTML or EPUB
 ```cpp
 int32_t Aspose::Words::Saving::HtmlSaveOptions::get_FontResourcesSubsettingSizeThreshold() const
 ```
+
+## Remarks
 
 
 [ExportFontResources](../get_exportfontresources/) allows exporting fonts as subsidiary files or as parts of the output package. If the document uses many fonts, especially with large number of glyphs, then output size can grow significantly. [Font](../../../aspose.words/font/) subsetting reduces the size of the exported font resource by filtering out glyphs that are not used by the current document.
@@ -29,7 +31,6 @@ int32_t Aspose::Words::Saving::HtmlSaveOptions::get_FontResourcesSubsettingSizeT
 **Important!** When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable font mechanism must always carefully verify that their intended use is within the scope of the font license. Many commercial fonts presently do not allow web downloading of their fonts in any form. [License](../../../aspose.words/license/) agreements that cover some fonts specifically note that usage via **%@font-face** rules in CSS style sheets is not allowed. [Font](../../../aspose.words/font/) subsetting can also violate license terms.
 
 ## Examples
-
 
 
 
@@ -82,3 +83,8 @@ for (String filename : fontFileNames)
 }
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

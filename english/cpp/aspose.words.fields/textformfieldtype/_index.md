@@ -11,6 +11,10 @@ url: /cpp/aspose.words.fields/textformfieldtype/
 
 Specifies the type of a text form field.
 
+```cpp
+enum class TextFormFieldType
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -24,7 +28,6 @@ Specifies the type of a text form field.
 
 
 ## Examples
-
 
 
 
@@ -46,3 +49,7 @@ builder->InsertComboBox(u"My combo box", items, 0);
 builder->get_Document()->Save(ArtifactsDir + u"DocumentBuilder.CreateForm.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

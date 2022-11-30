@@ -47,7 +47,12 @@ class MappedDataFieldCollection : public System::Collections::Generic::IEnumerab
 | [iterator_holder_type](./iterator_holder_type/) |  |
 | [virtualized_iterator](./virtualized_iterator/) |  |
 | [virtualized_iterator_element](./virtualized_iterator_element/) |  |
+## Remarks
+
 
 This is implemented as a collection of string keys into string values. The keys are the names of mail merge fields in the document and the values are the names of fields in your data source.
 
+## See Also
 
+* Namespace [Aspose::Words::MailMerging](../)
+* Library [Aspose.Words](../../)

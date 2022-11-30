@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words/section/get_headersfooters/
 ---
-## Section.get_HeadersFooters method
+## Section::get_HeadersFooters method
 
 
 Provides access to the headers and footers nodes of the section.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::HeaderFooterCollection> Aspose::Words::Section:
 
 
 ## Examples
-
 
 
 
@@ -75,3 +74,9 @@ footer->get_Range()->Replace(u"(C) 2006 Aspose Pty Ltd.", String::Format(u"Copyr
 doc->Save(ArtifactsDir + u"HeaderFooter.ReplaceText.docx");
 ```
 
+## See Also
+
+* Class [HeaderFooterCollection](../../headerfootercollection/)
+* Class [Section](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

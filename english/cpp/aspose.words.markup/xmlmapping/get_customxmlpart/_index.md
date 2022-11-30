@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.markup/xmlmapping/get_customxmlpart/
 ---
-## XmlMapping.get_CustomXmlPart method
+## XmlMapping::get_CustomXmlPart method
 
 
 Returns the custom XML data part to which the parent structured document tag is mapped.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> Aspose::Words::Markup::X
 
 
 ## Examples
-
 
 
 
@@ -50,3 +49,9 @@ doc->get_FirstSection()->get_Body()->AppendChild(tag);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.XmlMapping.docx");
 ```
 
+## See Also
+
+* Class [CustomXmlPart](../../customxmlpart/)
+* Class [XmlMapping](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

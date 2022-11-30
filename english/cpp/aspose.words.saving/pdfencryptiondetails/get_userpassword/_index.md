@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.saving/pdfencryptiondetails/get_userpassword/
 ---
-## PdfEncryptionDetails.get_UserPassword method
+## PdfEncryptionDetails::get_UserPassword method
 
 
 Specifies the user password required for opening the encrypted PDF document.
@@ -15,13 +15,14 @@ Specifies the user password required for opening the encrypted PDF document.
 System::String Aspose::Words::Saving::PdfEncryptionDetails::get_UserPassword() const
 ```
 
+## Remarks
+
 
 The user password will be required to open an encrypted PDF document for viewing. The permissions specified in [Permissions](../get_permissions/) will be enforced by the reader software.
 
 The user password can be null or empty string, in this case no password will be required from the user when opening the PDF document. The user password cannot be the same as the owner password.
 
 ## Examples
-
 
 
 
@@ -51,3 +52,8 @@ saveOptions->set_EncryptionDetails(encryptionDetails);
 doc->Save(ArtifactsDir + u"PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 
+## See Also
+
+* Class [PdfEncryptionDetails](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

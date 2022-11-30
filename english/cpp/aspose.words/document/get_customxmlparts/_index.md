@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words/document/get_customxmlparts/
 ---
-## Document.get_CustomXmlParts method
+## Document::get_CustomXmlParts method
 
 
 Gets or sets the collection of Custom XML Data Storage Parts.
@@ -15,13 +15,14 @@ Gets or sets the collection of Custom XML Data Storage Parts.
 System::SharedPtr<Aspose::Words::Markup::CustomXmlPartCollection> Aspose::Words::Document::get_CustomXmlParts() const
 ```
 
+## Remarks
+
 
 Aspose.Words loads and saves Custom XML Parts into OOXML and DOC documents only.
 
 This property cannot be **null**.
 
 ## Examples
-
 
 
 
@@ -86,3 +87,9 @@ doc->get_FirstSection()->get_Body()->AppendChild(tag);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.CustomXml.docx");
 ```
 
+## See Also
+
+* Class [CustomXmlPartCollection](../../../aspose.words.markup/customxmlpartcollection/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

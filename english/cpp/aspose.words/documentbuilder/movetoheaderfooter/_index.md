@@ -6,7 +6,7 @@ type: docs
 weight: 690
 url: /cpp/aspose.words/documentbuilder/movetoheaderfooter/
 ---
-## DocumentBuilder.MoveToHeaderFooter method
+## DocumentBuilder::MoveToHeaderFooter method
 
 
 Moves the cursor to the beginning of a header or footer in the current section.
@@ -19,6 +19,8 @@ void Aspose::Words::DocumentBuilder::MoveToHeaderFooter(Aspose::Words::HeaderFoo
 | Parameter | Type | Description |
 | --- | --- | --- |
 | headerFooterType | Aspose::Words::HeaderFooterType | Specifies the header or footer to move to. |
+## Remarks
+
 
 After you moved the cursor into a header or footer, you can use the rest of [DocumentBuilder](../) methods to modify the contents of the header or footer.
 
@@ -29,7 +31,6 @@ If you want to create headers and footers different for even and odd pages, you 
 Use [MoveToSection()](../movetosection/) to move out of the header into the main text.
 
 ## Examples
-
 
 
 
@@ -82,3 +83,9 @@ shape->set_Top((builder->get_PageSetup()->get_PageHeight() - shape->get_Height()
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertWatermark.docx");
 ```
 
+## See Also
+
+* Enum [HeaderFooterType](../../headerfootertype/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

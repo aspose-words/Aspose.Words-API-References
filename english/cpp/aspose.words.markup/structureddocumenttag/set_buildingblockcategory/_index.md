@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/aspose.words.markup/structureddocumenttag/set_buildingblockcategory/
 ---
-## StructuredDocumentTag.set_BuildingBlockCategory method
+## StructuredDocumentTag::set_BuildingBlockCategory method
 
 
 Setter for [Aspose::Words::Markup::StructuredDocumentTag::get_BuildingBlockCategory](../get_buildingblockcategory/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Markup::StructuredDocumentTag::get_BuildingBlockCateg
 void Aspose::Words::Markup::StructuredDocumentTag::set_BuildingBlockCategory(const System::String &value)
 ```
 
+## See Also
+
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

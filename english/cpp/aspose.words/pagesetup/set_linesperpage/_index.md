@@ -6,7 +6,7 @@ type: docs
 weight: 846
 url: /cpp/aspose.words/pagesetup/set_linesperpage/
 ---
-## PageSetup.set_LinesPerPage method
+## PageSetup::set_LinesPerPage method
 
 
 Setter for [Aspose::Words::PageSetup::get_LinesPerPage](../get_linesperpage/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::PageSetup::get_LinesPerPage](../get_linesperpage/).
 void Aspose::Words::PageSetup::set_LinesPerPage(int32_t value)
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

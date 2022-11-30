@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/editablerange/get_id/
 ---
-## EditableRange.get_Id method
+## EditableRange::get_Id method
 
 
 Gets the editable range identifier.
@@ -15,13 +15,14 @@ Gets the editable range identifier.
 int32_t Aspose::Words::EditableRange::get_Id()
 ```
 
+## Remarks
+
 
 The region must be demarcated using the [EditableRangeStart](../get_editablerangestart/) and [EditableRangeEnd](../get_editablerangeend/)
 
 Editable range identifiers are supposed to be unique across a document and Aspose.Words automatically maintains editable range identifiers when loading, saving and combining documents.
 
 ## Examples
-
 
 
 
@@ -65,3 +66,8 @@ doc->Save(ArtifactsDir + u"EditableRange.CreateAndRemove.docx");
 editableRange->Remove();
 ```
 
+## See Also
+
+* Class [EditableRange](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

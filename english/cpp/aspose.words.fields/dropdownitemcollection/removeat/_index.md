@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.words.fields/dropdownitemcollection/removeat/
 ---
-## DropDownItemCollection.RemoveAt method
+## DropDownItemCollection::RemoveAt method
 
 
 Removes a value at the specified index.
@@ -21,7 +21,6 @@ void Aspose::Words::Fields::DropDownItemCollection::RemoveAt(int32_t index)
 | index | int32_t | The zero based index. |
 
 ## Examples
-
 
 
 
@@ -77,3 +76,8 @@ doc->Save(ArtifactsDir + u"FormFields.DropDownItemCollection.html");
 dropDownItems->Clear();
 ```
 
+## See Also
+
+* Class [DropDownItemCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

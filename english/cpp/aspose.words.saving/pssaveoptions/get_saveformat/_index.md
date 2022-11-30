@@ -6,10 +6,10 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.saving/pssaveoptions/get_saveformat/
 ---
-## PsSaveOptions.get_SaveFormat method
+## PsSaveOptions::get_SaveFormat method
 
 
-Specifies the format in which the document will be saved if this save options object is used. Can only be **Ps**.
+Specifies the format in which the document will be saved if this save options object is used. Can only be [Ps](../../../aspose.words/saveformat/).
 
 ```cpp
 Aspose::Words::SaveFormat Aspose::Words::Saving::PsSaveOptions::get_SaveFormat() override
@@ -17,7 +17,6 @@ Aspose::Words::SaveFormat Aspose::Words::Saving::PsSaveOptions::get_SaveFormat()
 
 
 ## Examples
-
 
 
 
@@ -46,3 +45,9 @@ for (const auto& s : System::IterateOver<Section>(doc->get_Sections()))
 doc->Save(ArtifactsDir + u"PsSaveOptions.UseBookFoldPrintingSettings.ps", saveOptions);
 ```
 
+## See Also
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [PsSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

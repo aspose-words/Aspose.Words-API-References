@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.markup/customxmlpart/customxmlpart/
 ---
-## CustomXmlPart.CustomXmlPart method
+## CustomXmlPart::CustomXmlPart constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words.markup/customxmlpart/customxmlpart/
 Aspose::Words::Markup::CustomXmlPart::CustomXmlPart()
 ```
 
+## See Also
+
+* Class [CustomXmlPart](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

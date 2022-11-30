@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words/buildversioninfo/buildversioninfo/
 ---
-## BuildVersionInfo.BuildVersionInfo method
+## BuildVersionInfo::BuildVersionInfo constructor
 
 
 
@@ -15,3 +15,8 @@ url: /cpp/aspose.words/buildversioninfo/buildversioninfo/
 Aspose::Words::BuildVersionInfo::BuildVersionInfo()=delete
 ```
 
+## See Also
+
+* Class [BuildVersionInfo](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/set_optimizeoutput/
 ---
-## HtmlFixedSaveOptions.set_OptimizeOutput method
+## HtmlFixedSaveOptions::set_OptimizeOutput method
 
 
 Setter for [Aspose::Words::Saving::HtmlFixedSaveOptions::get_OptimizeOutput](../get_optimizeoutput/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::HtmlFixedSaveOptions::get_OptimizeOutput](../
 void Aspose::Words::Saving::HtmlFixedSaveOptions::set_OptimizeOutput(bool value) override
 ```
 
+## See Also
+
+* Class [HtmlFixedSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.loading/idocumentloadingcallback/notify/
 ---
-## IDocumentLoadingCallback.Notify method
+## IDocumentLoadingCallback::Notify method
 
 
 This is called to notify of document loading progress.
@@ -19,9 +19,16 @@ virtual void Aspose::Words::Loading::IDocumentLoadingCallback::Notify(System::Sh
 | Parameter | Type | Description |
 | --- | --- | --- |
 | args | System::SharedPtr\<Aspose::Words::Loading::DocumentLoadingArgs\> | An argument of the event. |
+## Remarks
+
 
 The primary uses for this interface is to allow application code to obtain progress status and abort loading process.
 
 An exception should be threw from the progress callback for abortion and it should be caught in the consumer code.
 
+## See Also
 
+* Class [DocumentLoadingArgs](../../documentloadingargs/)
+* Interface [IDocumentLoadingCallback](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

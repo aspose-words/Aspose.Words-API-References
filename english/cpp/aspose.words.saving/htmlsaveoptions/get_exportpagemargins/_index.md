@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportpagemargins/
 ---
-## HtmlSaveOptions.get_ExportPageMargins method
+## HtmlSaveOptions::get_ExportPageMargins method
 
 
 Specifies whether page margins is exported to HTML, MHTML or EPUB. Default is **false**.
@@ -17,7 +17,6 @@ bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportPageMargins() const
 
 
 ## Examples
-
 
 
 
@@ -61,3 +60,8 @@ else
 }
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fonts/fontinfo/get_altname/
 ---
-## FontInfo.get_AltName method
+## FontInfo::get_AltName method
 
 
 Gets or sets the alternate name for the font.
@@ -15,11 +15,12 @@ Gets or sets the alternate name for the font.
 System::String Aspose::Words::Fonts::FontInfo::get_AltName() const
 ```
 
+## Remarks
+
 
 Cannot be **null**. Can be an empty string.
 
 ## Examples
-
 
 
 
@@ -56,3 +57,8 @@ while (fontCollectionEnumerator->MoveNext())
 }
 ```
 
+## See Also
+
+* Class [FontInfo](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

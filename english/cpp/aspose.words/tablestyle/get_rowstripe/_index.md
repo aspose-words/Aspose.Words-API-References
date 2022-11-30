@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words/tablestyle/get_rowstripe/
 ---
-## TableStyle.get_RowStripe method
+## TableStyle::get_RowStripe method
 
 
 Gets or sets a number of rows to include in the banding when the style specifies odd/even row banding.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::TableStyle::get_RowStripe()
 
 
 ## Examples
-
 
 
 
@@ -78,3 +77,8 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::ColumnBan
 doc->Save(ArtifactsDir + u"Table.AlternatingRowStyles.docx");
 ```
 
+## See Also
+
+* Class [TableStyle](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

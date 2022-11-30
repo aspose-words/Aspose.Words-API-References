@@ -46,7 +46,6 @@ class FieldPage : public Aspose::Words::Fields::Field
 
 
 
-
 Shows how to use NUMCHARS, NUMWORDS, NUMPAGES and PAGE fields to track the size of our documents. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Paragraphs.docx");
@@ -84,3 +83,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.NUMCHARS.NUMWORDS.NUMPAGES.PAGE.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

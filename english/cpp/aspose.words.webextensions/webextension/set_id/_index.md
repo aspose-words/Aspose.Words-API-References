@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.webextensions/webextension/set_id/
 ---
-## WebExtension.set_Id method
+## WebExtension::set_Id method
 
 
 Uniquely identifies the web extension instance in the current document.
@@ -15,3 +15,8 @@ Uniquely identifies the web extension instance in the current document.
 void Aspose::Words::WebExtensions::WebExtension::set_Id(const System::String &value)
 ```
 
+## See Also
+
+* Class [WebExtension](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 521
 url: /cpp/aspose.words.properties/builtindocumentproperties/set_contentstatus/
 ---
-## BuiltInDocumentProperties.set_ContentStatus method
+## BuiltInDocumentProperties::set_ContentStatus method
 
 
 Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_ContentStatus](../get_contentstatus/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_ContentSta
 void Aspose::Words::Properties::BuiltInDocumentProperties::set_ContentStatus(const System::String &value)
 ```
 
+## See Also
+
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

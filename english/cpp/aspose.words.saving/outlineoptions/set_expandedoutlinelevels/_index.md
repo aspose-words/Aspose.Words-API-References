@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.saving/outlineoptions/set_expandedoutlinelevels/
 ---
-## OutlineOptions.set_ExpandedOutlineLevels method
+## OutlineOptions::set_ExpandedOutlineLevels method
 
 
 Setter for [Aspose::Words::Saving::OutlineOptions::get_ExpandedOutlineLevels](../get_expandedoutlinelevels/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Saving::OutlineOptions::get_ExpandedOutlineLevels](..
 void Aspose::Words::Saving::OutlineOptions::set_ExpandedOutlineLevels(int32_t value)
 ```
 
+## See Also
+
+* Class [OutlineOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/aspose.words.drawing/imagedata/tostream/
 ---
-## ImageData.ToStream method
+## ImageData::ToStream method
 
 
 Creates and returns a stream that contains the image bytes.
@@ -14,6 +14,8 @@ Creates and returns a stream that contains the image bytes.
 ```cpp
 System::SharedPtr<System::IO::Stream> Aspose::Words::Drawing::ImageData::ToStream()
 ```
+
+## Remarks
 
 
 If the image bytes are stored in the shape, creates and returns a **MemoryStream** object.
@@ -25,7 +27,6 @@ If the image is linked and stored in an external URL, downloads the file and ret
 Is it the responsibility of the caller to dispose the stream object.
 
 ## Examples
-
 
 
 
@@ -51,3 +52,8 @@ ASPOSE_ASSERT_EQ(imgShape->get_ImageData()->get_ImageBytes(), imgShape->get_Imag
 }
 ```
 
+## See Also
+
+* Class [ImageData](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 963
 url: /cpp/aspose.words/paragraphformat/set_widowcontrol/
 ---
-## ParagraphFormat.set_WidowControl method
+## ParagraphFormat::set_WidowControl method
 
 
 Setter for [Aspose::Words::ParagraphFormat::get_WidowControl](../get_widowcontrol/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::ParagraphFormat::get_WidowControl](../get_widowcontro
 void Aspose::Words::ParagraphFormat::set_WidowControl(bool value)
 ```
 
+## See Also
+
+* Class [ParagraphFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

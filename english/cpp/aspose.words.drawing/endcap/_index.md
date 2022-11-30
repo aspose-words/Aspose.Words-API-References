@@ -11,6 +11,10 @@ url: /cpp/aspose.words.drawing/endcap/
 
 Specifies line cap style.
 
+```cpp
+enum class EndCap
+```
+
 ### Values
 
 | Name | Value | Description |
@@ -18,11 +22,10 @@ Specifies line cap style.
 | Round | 0 | Rounded ends. |
 | Square | 1 | Square protrudes by half line width. |
 | Flat | 2 | Line ends at end point. |
-| Default | n/a | Default value is **Flat**. |
+| Default | n/a | Default value is [Flat](./). |
 
 
 ## Examples
-
 
 
 
@@ -95,3 +98,7 @@ ArrayPtr<uint8_t> imageBytes = System::IO::File::ReadAllBytes(ImageDir + u"Logo.
 doc->Save(ArtifactsDir + u"Drawing.VariousShapes.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words](../../)

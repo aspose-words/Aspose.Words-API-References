@@ -6,10 +6,10 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/bookmarkend/get_nodetype/
 ---
-## BookmarkEnd.get_NodeType method
+## BookmarkEnd::get_NodeType method
 
 
-Returns **BookmarkEnd**.
+Returns [BookmarkEnd](../../nodetype/).
 
 ```cpp
 Aspose::Words::NodeType Aspose::Words::BookmarkEnd::get_NodeType() const override
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::BookmarkEnd::get_NodeType() const overrid
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,9 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../nodetype/)
+* Class [BookmarkEnd](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

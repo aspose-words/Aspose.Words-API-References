@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.markup/customxmlproperty/customxmlproperty/
 ---
-## CustomXmlProperty.CustomXmlProperty method
+## CustomXmlProperty::CustomXmlProperty constructor
 
 
 Initializes a new instance of this class.
@@ -23,7 +23,6 @@ Aspose::Words::Markup::CustomXmlProperty::CustomXmlProperty(const System::String
 | value | const System::String\& | The value of the property. Cannot be null. |
 
 ## Examples
-
 
 
 
@@ -116,3 +115,8 @@ public:
 };
 ```
 
+## See Also
+
+* Class [CustomXmlProperty](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

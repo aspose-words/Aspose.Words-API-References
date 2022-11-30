@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.saving/svgsaveoptions/get_resourcesfolder/
 ---
-## SvgSaveOptions.get_ResourcesFolder method
+## SvgSaveOptions::get_ResourcesFolder method
 
 
 Specifies the physical folder where resources (images) are saved when exporting a document to Svg format. Default is **null**.
@@ -14,6 +14,8 @@ Specifies the physical folder where resources (images) are saved when exporting 
 ```cpp
 System::String Aspose::Words::Saving::SvgSaveOptions::get_ResourcesFolder() const
 ```
+
+## Remarks
 
 
 Has effect only if [ExportEmbeddedImages](../get_exportembeddedimages/) property is false.
@@ -25,7 +27,6 @@ If you save a document into a file and provide a file name, Aspose.Words, by def
 If you save a document into a stream, Aspose.Words does not have a folder where to save the images, but still needs to save the images somewhere. In this case, you need to specify an accessible folder in the [ResourcesFolder](./) property
 
 ## Examples
-
 
 
 
@@ -66,3 +67,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [SvgSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

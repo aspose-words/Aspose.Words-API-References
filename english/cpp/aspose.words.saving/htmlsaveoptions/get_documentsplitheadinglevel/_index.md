@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_documentsplitheadinglevel/
 ---
-## HtmlSaveOptions.get_DocumentSplitHeadingLevel method
+## HtmlSaveOptions::get_DocumentSplitHeadingLevel method
 
 
 Specifies the maximum level of headings at which to split the document. Default value is **%2**.
@@ -15,13 +15,14 @@ Specifies the maximum level of headings at which to split the document. Default 
 int32_t Aspose::Words::Saving::HtmlSaveOptions::get_DocumentSplitHeadingLevel() const
 ```
 
+## Remarks
 
-When [DocumentSplitCriteria](../get_documentsplitcriteria/) includes **HeadingParagraph** and this property is set to a value from 1 to 9, the document will be split at paragraphs formatted using **Heading 1**, **Heading 2** , **Heading 3** etc. styles up to the specified heading level.
+
+When [DocumentSplitCriteria](../get_documentsplitcriteria/) includes [HeadingParagraph](../../documentsplitcriteria/) and this property is set to a value from 1 to 9, the document will be split at paragraphs formatted using **Heading 1**, **Heading 2** , **Heading 3** etc. styles up to the specified heading level.
 
 By default, only **Heading 1** and **Heading 2** paragraphs cause the document to be split. Setting this property to zero will cause the document not to be split at heading paragraphs at all.
 
 ## Examples
-
 
 
 
@@ -77,3 +78,8 @@ doc = MakeObject<Document>(ArtifactsDir + u"HtmlSaveOptions.HeadingLevels-03.htm
 ASSERT_EQ(String(u"Heading #5\r") + u"Heading #6", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

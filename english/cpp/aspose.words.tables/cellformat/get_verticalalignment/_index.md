@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.tables/cellformat/get_verticalalignment/
 ---
-## CellFormat.get_VerticalAlignment method
+## CellFormat::get_VerticalAlignment method
 
 
 Returns or sets the vertical alignment of text in the cell.
@@ -17,7 +17,6 @@ Aspose::Words::Tables::CellVerticalAlignment Aspose::Words::Tables::CellFormat::
 
 
 ## Examples
-
 
 
 
@@ -81,3 +80,9 @@ builder->EndTable();
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertTable.docx");
 ```
 
+## See Also
+
+* Enum [CellVerticalAlignment](../../cellverticalalignment/)
+* Class [CellFormat](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

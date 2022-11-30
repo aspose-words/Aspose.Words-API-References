@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words/tabstopcollection/removebyposition/
 ---
-## TabStopCollection.RemoveByPosition method
+## TabStopCollection::RemoveByPosition method
 
 
 Removes a tab stop at the specified position from the collection.
@@ -21,7 +21,6 @@ void Aspose::Words::TabStopCollection::RemoveByPosition(double position)
 | position | double | The position (in points) of the tab stop to remove. |
 
 ## Examples
-
 
 
 
@@ -47,3 +46,8 @@ for (const auto& para : System::IterateOver(doc->GetChildNodes(NodeType::Paragra
 doc->Save(ArtifactsDir + u"Styles.ChangeTocsTabStops.docx");
 ```
 
+## See Also
+
+* Class [TabStopCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

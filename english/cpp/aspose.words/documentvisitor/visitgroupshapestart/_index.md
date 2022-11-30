@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/aspose.words/documentvisitor/visitgroupshapestart/
 ---
-## DocumentVisitor.VisitGroupShapeStart method
+## DocumentVisitor::VisitGroupShapeStart method
 
 
 Called when enumeration of a group shape has started.
@@ -22,11 +22,9 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitGroupS
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 
 ## Examples
-
 
 
 
@@ -286,3 +284,10 @@ public:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [GroupShape](../../../aspose.words.drawing/groupshape/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

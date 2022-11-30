@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.tables/row/get_cells/
 ---
-## Row.get_Cells method
+## Row::get_Cells method
 
 
 Provides typed access to the **Cell** child nodes of the row.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Tables::CellCollection> Aspose::Words::Tables::
 
 
 ## Examples
-
 
 
 
@@ -61,3 +60,9 @@ for (int i = 0; i < tables->get_Count(); i++)
 }
 ```
 
+## See Also
+
+* Class [CellCollection](../../cellcollection/)
+* Class [Row](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

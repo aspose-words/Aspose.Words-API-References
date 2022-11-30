@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.tables/table/table/
 ---
-## Table.Table method
+## Table::Table constructor
 
 
 Initializes a new instance of the **Table** class.
@@ -19,13 +19,14 @@ Aspose::Words::Tables::Table::Table(const System::SharedPtr<Aspose::Words::Docum
 | Parameter | Type | Description |
 | --- | --- | --- |
 | doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
+## Remarks
+
 
 When **Table** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
 To append **Table** to the document use InsertAfter or InsertBefore on the story where you want the table inserted.
 
 ## Examples
-
 
 
 
@@ -103,3 +104,9 @@ static SharedPtr<Table> CreateTable(SharedPtr<Document> doc, int rowCount, int c
 }
 ```
 
+## See Also
+
+* Class [DocumentBase](../../../aspose.words/documentbase/)
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

@@ -6,14 +6,16 @@ type: docs
 weight: 365
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportxhtmltransitional/
 ---
-## HtmlSaveOptions.get_ExportXhtmlTransitional method
+## HtmlSaveOptions::get_ExportXhtmlTransitional method
 
 
-Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML. When **true**, writes a DOCTYPE declaration in the document prior to the root element. Default value is **false**. When saving to EPUB or HTML5 (**Html5**) the DOCTYPE declaration is always written.
+Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML. When **true**, writes a DOCTYPE declaration in the document prior to the root element. Default value is **false**. When saving to EPUB or HTML5 ([Html5](../../htmlversion/)) the DOCTYPE declaration is always written.
 
 ```cpp
 bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportXhtmlTransitional() const
 ```
+
+## Remarks
 
 
 Aspose.Words always writes well formed HTML regardless of this setting.
@@ -33,7 +35,6 @@ When **true**, the beginning of the HTML output document will look like this:
 Aspose.Words aims to output XHTML according to the XHTML 1.0 Transitional specification, but the output will not always validate against the DTD. Some structures inside a Microsoft Word document are hard or impossible to map to a document that will validate against the XHTML schema. For example, XHTML does not allow nested lists (UL cannot be nested inside another UL element), but in Microsoft Word document multilevel lists occur quite often.
 
 ## Examples
-
 
 
 
@@ -67,3 +68,8 @@ else
 }
 ```
 
+## See Also
+
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

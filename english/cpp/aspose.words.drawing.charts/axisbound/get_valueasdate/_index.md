@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.drawing.charts/axisbound/get_valueasdate/
 ---
-## AxisBound.get_ValueAsDate method
+## AxisBound::get_ValueAsDate method
 
 
 Returns value of axis bound represented as datetime.
@@ -17,7 +17,6 @@ System::DateTime Aspose::Words::Drawing::Charts::AxisBound::get_ValueAsDate()
 
 
 ## Examples
-
 
 
 
@@ -70,3 +69,8 @@ chart->get_AxisX()->get_Scaling()->set_Maximum(MakeObject<AxisBound>(System::Dat
 doc->Save(ArtifactsDir + u"Charts.AxisBound.docx");
 ```
 
+## See Also
+
+* Class [AxisBound](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

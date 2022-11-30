@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.words.loading/txtloadoptions/set_trailingspacesoptions/
 ---
-## TxtLoadOptions.set_TrailingSpacesOptions method
+## TxtLoadOptions::set_TrailingSpacesOptions method
 
 
 Setter for [Aspose::Words::Loading::TxtLoadOptions::get_TrailingSpacesOptions](../get_trailingspacesoptions/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Loading::TxtLoadOptions::get_TrailingSpacesOptions](.
 void Aspose::Words::Loading::TxtLoadOptions::set_TrailingSpacesOptions(Aspose::Words::Loading::TxtTrailingSpacesOptions value)
 ```
 
+## See Also
+
+* Enum [TxtTrailingSpacesOptions](../../txttrailingspacesoptions/)
+* Class [TxtLoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

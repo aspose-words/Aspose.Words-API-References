@@ -6,7 +6,7 @@ type: docs
 weight: 625
 url: /cpp/aspose.words/documentbuilder/movetobookmark/
 ---
-## DocumentBuilder.MoveToBookmark(const System::String\&) method
+## DocumentBuilder::MoveToBookmark(const System::String\&) method
 
 
 Moves the cursor to a bookmark.
@@ -22,8 +22,9 @@ bool Aspose::Words::DocumentBuilder::MoveToBookmark(const System::String &bookma
 
 ### ReturnValue
 
-
 True if the bookmark was found; false otherwise.
+## Remarks
+
 
 Moves the cursor to a position just after the start of the bookmark with the specified name.
 
@@ -34,7 +35,6 @@ Inserting new text does not replace existing text of the bookmark.
 Note that some bookmarks in the document are assigned to form fields. Moving to such a bookmark and inserting text there inserts the text into the form field code. Although this will not invalidate the form field, the inserted text will not be visible because it becomes part of the field code.
 
 ## Examples
-
 
 
 
@@ -86,7 +86,12 @@ builder->MoveToDocumentStart();
 ASSERT_TRUE(builder->get_IsAtStartOfParagraph());
 ```
 
-## DocumentBuilder.MoveToBookmark(const System::String\&, bool, bool) method
+## See Also
+
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## DocumentBuilder::MoveToBookmark(const System::String\&, bool, bool) method
 
 
 Moves the cursor to a bookmark with greater precision.
@@ -104,8 +109,9 @@ bool Aspose::Words::DocumentBuilder::MoveToBookmark(const System::String &bookma
 
 ### ReturnValue
 
-
 True if the bookmark was found; false otherwise.
+## Remarks
+
 
 Moves the cursor to a position before or after the bookmark start or end.
 
@@ -114,7 +120,6 @@ If desired position is not at inline level, moves to the next paragraph.
 The comparison is not case-sensitive. If the bookmark was not found, false is returned and the cursor is not moved.
 
 ## Examples
-
 
 
 
@@ -161,3 +166,8 @@ ASSERT_EQ(u"2. Hello world! 3. ", doc->get_Range()->get_Bookmarks()->idx_get(u"M
 ASSERT_EQ(u"1. 2. Hello world! 3. 4.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -12,7 +12,8 @@ url: /cpp/aspose.words.fields/fieldask/
 Implements the ASK field.
 
 ```cpp
-class FieldAsk : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+class FieldAsk : public Aspose::Words::Fields::Field,
+                 public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -49,3 +50,8 @@ class FieldAsk : public Aspose::Words::Fields::Field, public Aspose::Words::Fiel
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

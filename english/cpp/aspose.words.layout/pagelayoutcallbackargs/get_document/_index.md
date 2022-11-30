@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.layout/pagelayoutcallbackargs/get_document/
 ---
-## PageLayoutCallbackArgs.get_Document method
+## PageLayoutCallbackArgs::get_Document method
 
 
 Gets document.
@@ -17,7 +17,6 @@ const System::SharedPtr<Aspose::Words::Document> & Aspose::Words::Layout::PageLa
 
 
 ## Examples
-
 
 
 
@@ -89,3 +88,9 @@ private:
 };
 ```
 
+## See Also
+
+* Class [Document](../../../aspose.words/document/)
+* Class [PageLayoutCallbackArgs](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

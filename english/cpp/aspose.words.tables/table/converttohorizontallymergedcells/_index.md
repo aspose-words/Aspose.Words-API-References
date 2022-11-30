@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.tables/table/converttohorizontallymergedcells/
 ---
-## Table.ConvertToHorizontallyMergedCells method
+## Table::ConvertToHorizontallyMergedCells method
 
 
 Converts cells horizontally merged by width to cells merged by [HorizontalMerge](../../cellformat/get_horizontalmerge/).
@@ -14,6 +14,8 @@ Converts cells horizontally merged by width to cells merged by [HorizontalMerge]
 ```cpp
 void Aspose::Words::Tables::Table::ConvertToHorizontallyMergedCells()
 ```
+
+## Remarks
 
 
 [Table](../) cells can be horizontally merged either using merge flags [HorizontalMerge](../../cellformat/get_horizontalmerge/) or using cell width [Width](../../cellformat/get_width/).
@@ -23,7 +25,6 @@ When table cell is merged by width property [HorizontalMerge](../../cellformat/g
 Use this method to transforms table cells horizontally merged by width to cells merged by merge flags.
 
 ## Examples
-
 
 
 
@@ -61,3 +62,8 @@ ASSERT_EQ(CellMerge::Previous, row->get_Cells()->idx_get(5)->get_CellFormat()->g
 ASSERT_EQ(CellMerge::None, row->get_Cells()->idx_get(6)->get_CellFormat()->get_HorizontalMerge());
 ```
 
+## See Also
+
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

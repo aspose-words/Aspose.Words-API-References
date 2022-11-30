@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.saving/fixedpagesaveoptions/get_jpegquality/
 ---
-## FixedPageSaveOptions.get_JpegQuality method
+## FixedPageSaveOptions::get_JpegQuality method
 
 
 Gets or sets a value determining the quality of the JPEG images inside Html document.
@@ -14,6 +14,8 @@ Gets or sets a value determining the quality of the JPEG images inside Html docu
 ```cpp
 int32_t Aspose::Words::Saving::FixedPageSaveOptions::get_JpegQuality() const
 ```
+
+## Remarks
 
 
 Has effect only when a document contains JPEG images.
@@ -23,7 +25,6 @@ Use this property to get or set the quality of the images inside a document when
 The default value is 95.
 
 ## Examples
-
 
 
 
@@ -54,3 +55,8 @@ doc->Save(ArtifactsDir + u"ImageSaveOptions.JpegQuality.HighQuality.jpg", imageO
 ASSERT_LT(60000, MakeObject<System::IO::FileInfo>(ArtifactsDir + u"ImageSaveOptions.JpegQuality.HighQuality.jpg")->get_Length());
 ```
 
+## See Also
+
+* Class [FixedPageSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

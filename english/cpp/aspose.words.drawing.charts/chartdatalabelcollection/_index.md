@@ -12,7 +12,8 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/
 Represents a collection of [ChartDataLabel](../chartdatalabel/).
 
 ```cpp
-class ChartDataLabelCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Drawing::Charts::ChartDataLabel>>, public Aspose::Words::Drawing::Charts::Core::INumberFormatProvider
+class ChartDataLabelCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Drawing::Charts::ChartDataLabel>>,
+                                 public Aspose::Words::Drawing::Charts::Core::INumberFormatProvider
 ```
 
 ## Methods
@@ -44,7 +45,6 @@ class ChartDataLabelCollection : public System::Collections::Generic::IEnumerabl
 | [set_ShowValue](./set_showvalue/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowValue](./get_showvalue/). |
 
 ## Examples
-
 
 
 
@@ -118,3 +118,7 @@ static void ApplyDataLabels(SharedPtr<ChartSeries> series, int labelsCount, Stri
 }
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Drawing::Charts](../)
+* Library [Aspose.Words](../../)

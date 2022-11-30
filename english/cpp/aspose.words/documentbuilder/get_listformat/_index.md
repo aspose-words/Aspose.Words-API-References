@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.words/documentbuilder/get_listformat/
 ---
-## DocumentBuilder.get_ListFormat method
+## DocumentBuilder::get_ListFormat method
 
 
 Returns an object that represents current list formatting properties.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Lists::ListFormat> Aspose::Words::DocumentBuild
 
 
 ## Examples
-
 
 
 
@@ -100,3 +99,9 @@ builder->get_ListFormat()->RemoveNumbers();
 doc->Save(ArtifactsDir + u"Lists.ApplyDefaultBulletsAndNumbers.docx");
 ```
 
+## See Also
+
+* Class [ListFormat](../../../aspose.words.lists/listformat/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

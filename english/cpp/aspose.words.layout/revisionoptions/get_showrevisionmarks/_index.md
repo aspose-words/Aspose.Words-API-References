@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.layout/revisionoptions/get_showrevisionmarks/
 ---
-## RevisionOptions.get_ShowRevisionMarks method
+## RevisionOptions::get_ShowRevisionMarks method
 
 
 Allow to specify whether revision text should be marked with special formatting markup. Default value is True.
@@ -17,7 +17,6 @@ bool Aspose::Words::Layout::RevisionOptions::get_ShowRevisionMarks() const
 
 
 ## Examples
-
 
 
 
@@ -66,3 +65,8 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 doc->Save(ArtifactsDir + u"Revision.RevisionOptions.pdf");
 ```
 
+## See Also
+
+* Class [RevisionOptions](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

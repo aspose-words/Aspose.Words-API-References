@@ -12,7 +12,9 @@ url: /cpp/aspose.words.fields/fieldimport/
 Implements the IMPORT field.
 
 ```cpp
-class FieldImport : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider, public Aspose::Words::Fields::IFieldIncludePictureCode
+class FieldImport : public Aspose::Words::Fields::Field,
+                    public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
+                    public Aspose::Words::Fields::IFieldIncludePictureCode
 ```
 
 ## Methods
@@ -52,7 +54,6 @@ class FieldImport : public Aspose::Words::Fields::Field, public Aspose::Words::F
 
 
 
-
 Shows how to insert images using IMPORT and INCLUDEPICTURE fields. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -83,3 +84,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.IMPORT.INCLUDEPICTURE.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

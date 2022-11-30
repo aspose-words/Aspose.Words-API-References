@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fonts/tablesubstitutionrule/loadandroidsettings/
 ---
-## TableSubstitutionRule.LoadAndroidSettings method
+## TableSubstitutionRule::LoadAndroidSettings method
 
 
 Loads predefined table substitution settings for Linux platform.
@@ -15,3 +15,8 @@ Loads predefined table substitution settings for Linux platform.
 void Aspose::Words::Fonts::TableSubstitutionRule::LoadAndroidSettings()
 ```
 
+## See Also
+
+* Class [TableSubstitutionRule](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

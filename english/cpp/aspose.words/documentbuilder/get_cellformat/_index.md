@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words/documentbuilder/get_cellformat/
 ---
-## DocumentBuilder.get_CellFormat method
+## DocumentBuilder::get_CellFormat method
 
 
 Returns an object that represents current table cell formatting properties.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Tables::CellFormat> Aspose::Words::DocumentBuil
 
 
 ## Examples
-
 
 
 
@@ -164,3 +163,9 @@ ASPOSE_ASSERT_EQ(30.0, table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellF
 doc->Save(ArtifactsDir + u"DocumentBuilder.SetCellFormatting.docx");
 ```
 
+## See Also
+
+* Class [CellFormat](../../../aspose.words.tables/cellformat/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

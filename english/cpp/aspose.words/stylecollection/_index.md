@@ -35,7 +35,6 @@ class StyleCollection : public System::Collections::Generic::IEnumerable<System:
 
 
 
-
 Shows how to create and use a paragraph style with list formatting. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -62,3 +61,7 @@ builder->Writeln(u"Hello World: Normal.");
 builder->get_Document()->Save(ArtifactsDir + u"Styles.ParagraphStyleBulletedList.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words](../../)

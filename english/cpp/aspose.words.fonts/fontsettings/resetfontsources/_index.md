@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words.fonts/fontsettings/resetfontsources/
 ---
-## FontSettings.ResetFontSources method
+## FontSettings::ResetFontSources method
 
 
 Resets the fonts sources to the system default.
@@ -17,7 +17,6 @@ void Aspose::Words::Fonts::FontSettings::ResetFontSources()
 
 
 ## Examples
-
 
 
 
@@ -72,3 +71,8 @@ ASSERT_EQ(FontSourceType::SystemFonts, doc->get_FontSettings()->GetFontsSources(
 ASSERT_EQ(1, doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubstitution()->GetSubstitutes(u"Kreon-Regular")->LINQ_Count());
 ```
 
+## See Also
+
+* Class [FontSettings](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

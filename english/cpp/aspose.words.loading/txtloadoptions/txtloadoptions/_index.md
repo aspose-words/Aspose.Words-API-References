@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.loading/txtloadoptions/txtloadoptions/
 ---
-## TxtLoadOptions.TxtLoadOptions method
+## TxtLoadOptions::TxtLoadOptions constructor
 
 
 Initializes a new instance of this class with default values.
@@ -15,3 +15,8 @@ Initializes a new instance of this class with default values.
 Aspose::Words::Loading::TxtLoadOptions::TxtLoadOptions()
 ```
 
+## See Also
+
+* Class [TxtLoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words](../../../)

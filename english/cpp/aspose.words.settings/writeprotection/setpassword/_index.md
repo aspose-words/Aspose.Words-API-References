@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.settings/writeprotection/setpassword/
 ---
-## WriteProtection.SetPassword method
+## WriteProtection::SetPassword method
 
 
 Sets the write protection password for the document.
@@ -19,11 +19,12 @@ void Aspose::Words::Settings::WriteProtection::SetPassword(const System::String 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | password | const System::String\& | The password to set. Cannot be null, but can be an empty string. |
+## Remarks
+
 
 If a password is set, Microsoft Word will require the user to enter it or open the document as read-only.
 
 ## Examples
-
 
 
 
@@ -53,3 +54,8 @@ builder->Writeln(u"Writing text in a protected document.");
 ASSERT_EQ(String(u"Hello world! This document is protected.") + u"\rWriting text in a protected document.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [WriteProtection](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

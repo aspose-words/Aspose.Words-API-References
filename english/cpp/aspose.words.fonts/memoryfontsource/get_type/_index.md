@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fonts/memoryfontsource/get_type/
 ---
-## MemoryFontSource.get_Type method
+## MemoryFontSource::get_Type method
 
 
 Returns the type of the font source.
@@ -17,7 +17,6 @@ Aspose::Words::Fonts::FontSourceType Aspose::Words::Fonts::MemoryFontSource::get
 
 
 ## Examples
-
 
 
 
@@ -34,3 +33,9 @@ ASSERT_EQ(FontSourceType::MemoryFont, memoryFontSource->get_Type());
 ASSERT_EQ(0, memoryFontSource->get_Priority());
 ```
 
+## See Also
+
+* Enum [FontSourceType](../../fontsourcetype/)
+* Class [MemoryFontSource](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words](../../../)

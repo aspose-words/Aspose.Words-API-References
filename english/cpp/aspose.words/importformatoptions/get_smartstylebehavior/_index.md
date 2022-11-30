@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words/importformatoptions/get_smartstylebehavior/
 ---
-## ImportFormatOptions.get_SmartStyleBehavior method
+## ImportFormatOptions::get_SmartStyleBehavior method
 
 
 Gets or sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. The default value is **false**.
@@ -15,13 +15,14 @@ Gets or sets a boolean value that specifies how styles will be imported when the
 bool Aspose::Words::ImportFormatOptions::get_SmartStyleBehavior() const
 ```
 
+## Remarks
 
-When this option is **enabled**, the source style will be expanded into a direct attributes inside a destination document, if **KeepSourceFormatting** importing mode is used.
+
+When this option is **enabled**, the source style will be expanded into a direct attributes inside a destination document, if [KeepSourceFormatting](../../importformatmode/) importing mode is used.
 
 When this option is **disabled**, the source style will be expanded only if it is numbered. Existing destination attributes will not be overridden, including lists.
 
 ## Examples
-
 
 
 
@@ -54,3 +55,8 @@ builder->InsertDocument(srcDoc, ImportFormatMode::KeepSourceFormatting, options)
 dstDoc->Save(ArtifactsDir + u"DocumentBuilder.SmartStyleBehavior.docx");
 ```
 
+## See Also
+
+* Class [ImportFormatOptions](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

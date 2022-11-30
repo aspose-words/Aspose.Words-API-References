@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.mailmerging/mailmergeregioninfo/get_level/
 ---
-## MailMergeRegionInfo.get_Level method
+## MailMergeRegionInfo::get_Level method
 
 
 Returns the nesting level for the region.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::MailMerging::MailMergeRegionInfo::get_Level() const
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,8 @@ SharedPtr<FieldMergeField> endFieldMergeField = nestedRegions->idx_get(0)->get_E
 ASSERT_EQ(u"TableEnd:NestedRegion1", endFieldMergeField->get_FieldName());
 ```
 
+## See Also
+
+* Class [MailMergeRegionInfo](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words](../../../)

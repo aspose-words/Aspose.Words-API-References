@@ -6,10 +6,10 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/pdfsaveoptions/pdfsaveoptions/
 ---
-## PdfSaveOptions.PdfSaveOptions method
+## PdfSaveOptions::PdfSaveOptions constructor
 
 
-Initializes a new instance of this class that can be used to save a document in the **Pdf** format.
+Initializes a new instance of this class that can be used to save a document in the [Pdf](../../../aspose.words/saveformat/) format.
 
 ```cpp
 Aspose::Words::Saving::PdfSaveOptions::PdfSaveOptions()
@@ -17,7 +17,6 @@ Aspose::Words::Saving::PdfSaveOptions::PdfSaveOptions()
 
 
 ## Examples
-
 
 
 
@@ -67,3 +66,8 @@ else
 FontSettings::get_DefaultInstance()->SetFontsSources(originalFontsSources);
 ```
 
+## See Also
+
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

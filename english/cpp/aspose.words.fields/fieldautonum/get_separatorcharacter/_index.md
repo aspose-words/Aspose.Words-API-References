@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.fields/fieldautonum/get_separatorcharacter/
 ---
-## FieldAutoNum.get_SeparatorCharacter method
+## FieldAutoNum::get_SeparatorCharacter method
 
 
 Gets or sets the separator character to be used.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldAutoNum::get_SeparatorCharacter()
 
 
 ## Examples
-
 
 
 
@@ -50,3 +49,8 @@ ASSERT_EQ(u" AUTONUM  \\s :", field->GetFieldCode());
 doc->Save(ArtifactsDir + u"Field.AUTONUM.docx");
 ```
 
+## See Also
+
+* Class [FieldAutoNum](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

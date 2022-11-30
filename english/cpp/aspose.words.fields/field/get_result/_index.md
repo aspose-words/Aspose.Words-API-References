@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.fields/field/get_result/
 ---
-## Field.get_Result method
+## Field::get_Result method
 
 
 Gets or sets text that is between the field separator and field end.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::Field::get_Result()
 
 
 ## Examples
-
 
 
 
@@ -35,3 +34,8 @@ ASSERT_EQ(u"DATE \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
 ASSERT_LE(System::Math::Abs((System::DateTime::Parse(field->get_Result()) - System::DateTime::get_Today()).get_Hours()), 24);
 ```
 
+## See Also
+
+* Class [Field](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

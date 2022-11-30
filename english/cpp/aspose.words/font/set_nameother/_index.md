@@ -6,7 +6,7 @@ type: docs
 weight: 1015
 url: /cpp/aspose.words/font/set_nameother/
 ---
-## Font.set_NameOther method
+## Font::set_NameOther method
 
 
 Setter for [Aspose::Words::Font::get_NameOther](../get_nameother/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Font::get_NameOther](../get_nameother/).
 void Aspose::Words::Font::set_NameOther(const System::String &value)
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.words.digitalsignatures/signoptions/set_signaturelineimage/
 ---
-## SignOptions.set_SignatureLineImage method
+## SignOptions::set_SignatureLineImage method
 
 
 Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_SignatureLineImage](../get_signaturelineimage/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_SignatureLineImag
 void Aspose::Words::DigitalSignatures::SignOptions::set_SignatureLineImage(const System::ArrayPtr<uint8_t> &value)
 ```
 
+## See Also
+
+* Class [SignOptions](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)

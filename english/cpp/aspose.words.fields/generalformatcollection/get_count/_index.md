@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/generalformatcollection/get_count/
 ---
-## GeneralFormatCollection.get_Count method
+## GeneralFormatCollection::get_Count method
 
 
 Gets the total number of the items in the collection.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Fields::GeneralFormatCollection::get_Count()
 
 
 ## Examples
-
 
 
 
@@ -83,3 +82,8 @@ ASSERT_EQ(u"58", field->get_Result());
 ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 ```
 
+## See Also
+
+* Class [GeneralFormatCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.words.fields/fieldcitation/get_suppresstitle/
 ---
-## FieldCitation.get_SuppressTitle method
+## FieldCitation::get_SuppressTitle method
 
 
 Gets or sets whether the title information is suppressed from the citation.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldCitation::get_SuppressTitle()
 
 
 ## Examples
-
 
 
 
@@ -70,3 +69,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.CITATION.docx");
 ```
 
+## See Also
+
+* Class [FieldCitation](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

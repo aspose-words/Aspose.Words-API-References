@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.drawing/fill/get_presettexture/
 ---
-## Fill.get_PresetTexture method
+## Fill::get_PresetTexture method
 
 
 Gets a [PresetTexture](../../presettexture/) for the fill.
@@ -15,3 +15,9 @@ Gets a [PresetTexture](../../presettexture/) for the fill.
 Aspose::Words::Drawing::PresetTexture Aspose::Words::Drawing::Fill::get_PresetTexture()
 ```
 
+## See Also
+
+* Enum [PresetTexture](../../presettexture/)
+* Class [Fill](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

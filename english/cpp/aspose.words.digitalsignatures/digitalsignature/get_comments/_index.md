@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.digitalsignatures/digitalsignature/get_comments/
 ---
-## DigitalSignature.get_Comments method
+## DigitalSignature::get_Comments method
 
 
 Gets the signing purpose comment.
@@ -17,7 +17,6 @@ System::String Aspose::Words::DigitalSignatures::DigitalSignature::get_Comments(
 
 
 ## Examples
-
 
 
 
@@ -37,3 +36,8 @@ for (const auto& signature : doc->get_DigitalSignatures())
 }
 ```
 
+## See Also
+
+* Class [DigitalSignature](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)

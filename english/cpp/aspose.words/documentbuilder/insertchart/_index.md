@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.words/documentbuilder/insertchart/
 ---
-## DocumentBuilder.InsertChart(Aspose::Words::Drawing::Charts::ChartType, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) method
+## DocumentBuilder::InsertChart(Aspose::Words::Drawing::Charts::ChartType, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) method
 
 
 Inserts an chart object into the document and scales it to the specified size.
@@ -29,13 +29,13 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder:
 
 ### ReturnValue
 
-
 The image node that was just inserted.
+## Remarks
+
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 ## Examples
-
 
 
 
@@ -49,7 +49,17 @@ builder->InsertChart(ChartType::Pie, RelativeHorizontalPosition::Margin, 100, Re
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertedChartRelativePosition.docx");
 ```
 
-## DocumentBuilder.InsertChart(Aspose::Words::Drawing::Charts::ChartType, double, double) method
+## See Also
+
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Enum [ChartType](../../../aspose.words.drawing.charts/charttype/)
+* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* Enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## DocumentBuilder::InsertChart(Aspose::Words::Drawing::Charts::ChartType, double, double) method
 
 
 Inserts an chart object into the document and scales it to the specified size.
@@ -67,13 +77,13 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder:
 
 ### ReturnValue
 
-
 The image node that was just inserted.
+## Remarks
+
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 ## Examples
-
 
 
 
@@ -89,3 +99,10 @@ chart->get_Series()->Add(u"My fruit", MakeArray<String>({u"Apples", u"Bananas", 
 doc->Save(ArtifactsDir + u"DocumentBuilder.InsertPieChart.docx");
 ```
 
+## See Also
+
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Enum [ChartType](../../../aspose.words.drawing.charts/charttype/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

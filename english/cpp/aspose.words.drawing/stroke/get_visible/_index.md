@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.drawing/stroke/get_visible/
 ---
-## Stroke.get_Visible method
+## Stroke::get_Visible method
 
 
 Gets or sets a flag indicating whether the stroke is visible.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::Stroke::get_Visible()
 
 
 ## Examples
-
 
 
 
@@ -53,3 +52,8 @@ dataPoints->idx_get(3)->get_Marker()->get_Format()->get_Stroke()->set_Transparen
 doc->Save(ArtifactsDir + u"Charts.MarkerFormatting.docx");
 ```
 
+## See Also
+
+* Class [Stroke](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

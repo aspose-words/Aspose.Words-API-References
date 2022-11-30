@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.words.fields/fieldaddressblock/set_formataddressoncountryorregion/
 ---
-## FieldAddressBlock.set_FormatAddressOnCountryOrRegion method
+## FieldAddressBlock::set_FormatAddressOnCountryOrRegion method
 
 
 Setter for [Aspose::Words::Fields::FieldAddressBlock::get_FormatAddressOnCountryOrRegion](../get_formataddressoncountryorregion/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldAddressBlock::get_FormatAddressOnCountry
 void Aspose::Words::Fields::FieldAddressBlock::set_FormatAddressOnCountryOrRegion(bool value)
 ```
 
+## See Also
+
+* Class [FieldAddressBlock](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

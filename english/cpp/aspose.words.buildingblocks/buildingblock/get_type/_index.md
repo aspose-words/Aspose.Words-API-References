@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words.buildingblocks/buildingblock/get_type/
 ---
-## BuildingBlock.get_Type method
+## BuildingBlock::get_Type method
 
 
 Specifies the building block type.
@@ -15,13 +15,14 @@ Specifies the building block type.
 Aspose::Words::BuildingBlocks::BuildingBlockType Aspose::Words::BuildingBlocks::BuildingBlock::get_Type() const
 ```
 
+## Remarks
+
 
 The building block type can influence the visibility and behavior of the building block in Microsoft Word.
 
 Corresponds to the **docPartPr.types** element in OOXML.
 
 ## Examples
-
 
 
 
@@ -116,3 +117,9 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [BuildingBlockType](../../buildingblocktype/)
+* Class [BuildingBlock](../)
+* Namespace [Aspose::Words::BuildingBlocks](../../)
+* Library [Aspose.Words](../../../)

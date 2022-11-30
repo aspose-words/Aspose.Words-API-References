@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/body/get_nodetype/
 ---
-## Body.get_NodeType method
+## Body::get_NodeType method
 
 
 Returns **NodeType.Body**.
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::Body::get_NodeType() const override
 
 
 ## Examples
-
 
 
 
@@ -63,3 +62,9 @@ for (const auto& node : System::IterateOver(section))
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../nodetype/)
+* Class [Body](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

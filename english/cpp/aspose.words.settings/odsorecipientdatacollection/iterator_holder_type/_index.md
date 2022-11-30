@@ -15,3 +15,8 @@ url: /cpp/aspose.words.settings/odsorecipientdatacollection/iterator_holder_type
 using Aspose::Words::Settings::OdsoRecipientDataCollection::iterator_holder_type =  System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Settings::OdsoRecipientData> >
 ```
 
+## See Also
+
+* Class [OdsoRecipientDataCollection](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

@@ -3,7 +3,7 @@ title: ImageBinarizationMethod
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the method used to binarize image.
 type: docs
-weight: 4970
+weight: 4980
 url: /net/aspose.words.saving/imagebinarizationmethod/
 ---
 ## ImageBinarizationMethod enumeration

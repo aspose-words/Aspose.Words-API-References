@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.saving/pageset/pageset/
 ---
-## PageSet.PageSet(const System::ArrayPtr\<int32_t\>\&) method
+## PageSet::PageSet(const System::ArrayPtr\<int32_t\>\&) constructor
 
 
 Creates a page set based on exact page indices.
@@ -21,7 +21,6 @@ Aspose::Words::Saving::PageSet::PageSet(const System::ArrayPtr<int32_t> &pages)
 | pages | const System::ArrayPtr\<int32_t\>\& | Zero-based indices of pages. |
 
 ## Examples
-
 
 
 
@@ -48,7 +47,12 @@ xpsOptions->set_PageSet(MakeObject<PageSet>(MakeArray<int>({0, 1, 3})));
 doc->Save(ArtifactsDir + u"XpsSaveOptions.ExportExactPages.xps", xpsOptions);
 ```
 
-## PageSet.PageSet(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Saving::PageRange\>\>\&) method
+## See Also
+
+* Class [PageSet](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)
+## PageSet::PageSet(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Saving::PageRange\>\>\&) constructor
 
 
 Creates a page set based on ranges.
@@ -66,7 +70,6 @@ Aspose::Words::Saving::PageSet::PageSet(const System::ArrayPtr<System::SharedPtr
 
 
 
-
 Shows how to extract pages based on exact page ranges. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Images.docx");
@@ -79,7 +82,13 @@ imageOptions->set_PageSet(pageSet);
 doc->Save(ArtifactsDir + u"ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
 ```
 
-## PageSet.PageSet(int32_t) method
+## See Also
+
+* Class [PageRange](../../pagerange/)
+* Class [PageSet](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)
+## PageSet::PageSet(int32_t) constructor
 
 
 Creates an one-page set based on exact page index.
@@ -93,4 +102,8 @@ Aspose::Words::Saving::PageSet::PageSet(int32_t page)
 | --- | --- | --- |
 | page | int32_t | Zero-based index of the page. |
 
+## See Also
 
+* Class [PageSet](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

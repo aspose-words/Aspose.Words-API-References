@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words/document/get_compliance/
 ---
-## Document.get_Compliance method
+## Document::get_Compliance method
 
 
 Gets the OOXML compliance version determined from the loaded document content. Makes sense only for OOXML documents.
@@ -15,11 +15,12 @@ Gets the OOXML compliance version determined from the loaded document content. M
 Aspose::Words::Saving::OoxmlCompliance Aspose::Words::Document::get_Compliance()
 ```
 
+## Remarks
 
-If you created a new blank document or load non OOXML document returns the **Ecma376_2006** value.
+
+If you created a new blank document or load non OOXML document returns the [Ecma376_2006](../../../aspose.words.saving/ooxmlcompliance/) value.
 
 ## Examples
-
 
 
 
@@ -35,3 +36,9 @@ doc = MakeObject<Document>(MyDir + u"Document.docx");
 ASSERT_EQ(doc->get_Compliance(), OoxmlCompliance::Iso29500_2008_Transitional);
 ```
 
+## See Also
+
+* Enum [OoxmlCompliance](../../../aspose.words.saving/ooxmlcompliance/)
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

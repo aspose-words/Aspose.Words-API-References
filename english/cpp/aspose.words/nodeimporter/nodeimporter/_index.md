@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/nodeimporter/nodeimporter/
 ---
-## NodeImporter.NodeImporter(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, Aspose::Words::ImportFormatMode) method
+## NodeImporter::NodeImporter(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, Aspose::Words::ImportFormatMode) constructor
 
 
 Initializes a new instance of the [NodeImporter](../) class.
@@ -23,7 +23,6 @@ Aspose::Words::NodeImporter::NodeImporter(const System::SharedPtr<Aspose::Words:
 | importFormatMode | Aspose::Words::ImportFormatMode | Specifies how to merge style formatting that clashes. |
 
 ## Examples
-
 
 
 
@@ -88,7 +87,14 @@ static void InsertDocument(SharedPtr<Node> insertionDestination, SharedPtr<Docum
 }
 ```
 
-## NodeImporter.NodeImporter(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\&) method
+## See Also
+
+* Class [DocumentBase](../../documentbase/)
+* Enum [ImportFormatMode](../../importformatmode/)
+* Class [NodeImporter](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)
+## NodeImporter::NodeImporter(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\&) constructor
 
 
 Initializes a new instance of the [NodeImporter](../) class.
@@ -106,7 +112,6 @@ Aspose::Words::NodeImporter::NodeImporter(const System::SharedPtr<Aspose::Words:
 | importFormatOptions | const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\& | Specifies various options to format imported node. |
 
 ## Examples
-
 
 
 
@@ -165,3 +170,11 @@ else
 }
 ```
 
+## See Also
+
+* Class [DocumentBase](../../documentbase/)
+* Enum [ImportFormatMode](../../importformatmode/)
+* Class [ImportFormatOptions](../../importformatoptions/)
+* Class [NodeImporter](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

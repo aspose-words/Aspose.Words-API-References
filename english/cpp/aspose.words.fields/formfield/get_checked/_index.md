@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.fields/formfield/get_checked/
 ---
-## FormField.get_Checked method
+## FormField::get_Checked method
 
 
 Gets or sets the checked status of the check box form field. Default value for this property is **false**.
@@ -15,11 +15,12 @@ Gets or sets the checked status of the check box form field. Default value for t
 bool Aspose::Words::Fields::FormField::get_Checked()
 ```
 
+## Remarks
+
 
 Applicable for a check box form field only.
 
 ## Examples
-
 
 
 
@@ -152,3 +153,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [FormField](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

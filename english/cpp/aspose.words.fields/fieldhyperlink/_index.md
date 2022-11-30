@@ -12,7 +12,9 @@ url: /cpp/aspose.words.fields/fieldhyperlink/
 Implements the HYPERLINK field.
 
 ```cpp
-class FieldHyperlink : public Aspose::Words::Fields::Field, public Aspose::Words::Fields::IFieldCodeTokenInfoProvider, public Aspose::Words::Fields::IFieldResultFormatProvider
+class FieldHyperlink : public Aspose::Words::Fields::Field,
+                       public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
+                       public Aspose::Words::Fields::IFieldResultFormatProvider
 ```
 
 ## Methods
@@ -58,7 +60,6 @@ class FieldHyperlink : public Aspose::Words::Fields::Field, public Aspose::Words
 
 
 
-
 Shows how to use HYPERLINK fields to link to documents in the local file system. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -87,3 +88,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.HYPERLINK.docx");
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

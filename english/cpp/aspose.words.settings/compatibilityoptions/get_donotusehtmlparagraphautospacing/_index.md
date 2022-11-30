@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.words.settings/compatibilityoptions/get_donotusehtmlparagraphautospacing/
 ---
-## CompatibilityOptions.get_DoNotUseHTMLParagraphAutoSpacing method
+## CompatibilityOptions::get_DoNotUseHTMLParagraphAutoSpacing method
 
 
 Use Fixed [Paragraph](../../../aspose.words/paragraph/) Spacing for HTML Auto Setting.
@@ -15,3 +15,8 @@ Use Fixed [Paragraph](../../../aspose.words/paragraph/) Spacing for HTML Auto Se
 bool Aspose::Words::Settings::CompatibilityOptions::get_DoNotUseHTMLParagraphAutoSpacing()
 ```
 
+## See Also
+
+* Class [CompatibilityOptions](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

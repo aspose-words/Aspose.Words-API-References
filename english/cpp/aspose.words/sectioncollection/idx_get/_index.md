@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words/sectioncollection/idx_get/
 ---
-## SectionCollection.idx_get method
+## SectionCollection::idx_get method
 
 
 Retrieves a section at the given index.
@@ -19,6 +19,8 @@ System::SharedPtr<Aspose::Words::Section> Aspose::Words::SectionCollection::idx_
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | An index into the list of sections. |
+## Remarks
+
 
 The index is zero-based.
 
@@ -29,7 +31,6 @@ If index is greater than or equal to the number of items in the list, this retur
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
 
 ## Examples
-
 
 
 
@@ -80,3 +81,9 @@ doc->get_Sections()->idx_get(0)->get_Body()->get_FirstParagraph()->AppendChild(M
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Section](../../section/)
+* Class [SectionCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.words/documentbuilder/get_currentstory/
 ---
-## DocumentBuilder.get_CurrentStory method
+## DocumentBuilder::get_CurrentStory method
 
 
 Gets the story that is currently selected in this [DocumentBuilder](../).
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Story> Aspose::Words::DocumentBuilder::get_Curr
 
 
 ## Examples
-
 
 
 
@@ -44,3 +43,9 @@ builder->EndTable();
 ASSERT_TRUE(builder->get_CurrentStory()->get_Tables()->Contains(table));
 ```
 
+## See Also
+
+* Class [Story](../../story/)
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

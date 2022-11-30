@@ -20,3 +20,8 @@ class WebExtensionReferenceCollection : public Aspose::Words::WebExtensions::Bas
 | Method | Description |
 | --- | --- |
 | [SetTemplateWeakPtr](./settemplateweakptr/)(uint32_t) override |  |
+## See Also
+
+* Class [BaseWebExtensionCollection](../basewebextensioncollection/)
+* Namespace [Aspose::Words::WebExtensions](../)
+* Library [Aspose.Words](../../)

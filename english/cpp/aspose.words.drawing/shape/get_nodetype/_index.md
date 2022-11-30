@@ -6,10 +6,10 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.drawing/shape/get_nodetype/
 ---
-## Shape.get_NodeType method
+## Shape::get_NodeType method
 
 
-Returns **Shape**.
+Returns [Shape](../../../aspose.words/nodetype/).
 
 ```cpp
 Aspose::Words::NodeType Aspose::Words::Drawing::Shape::get_NodeType() const override
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::Drawing::Shape::get_NodeType() const over
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,9 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../../aspose.words/nodetype/)
+* Class [Shape](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

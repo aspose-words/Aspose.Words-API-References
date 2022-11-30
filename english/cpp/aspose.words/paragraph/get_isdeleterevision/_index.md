@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/paragraph/get_isdeleterevision/
 ---
-## Paragraph.get_IsDeleteRevision method
+## Paragraph::get_IsDeleteRevision method
 
 
 Returns true if this object was deleted in Microsoft Word while change tracking was enabled.
@@ -17,7 +17,6 @@ bool Aspose::Words::Paragraph::get_IsDeleteRevision()
 
 
 ## Examples
-
 
 
 
@@ -61,3 +60,8 @@ ASSERT_EQ(0, para->get_Count());
 ASSERT_EQ(String(u"Paragraph 1. \r") + u"Paragraph 2. \r" + u"Paragraph 4.", doc->GetText().Trim());
 ```
 
+## See Also
+
+* Class [Paragraph](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

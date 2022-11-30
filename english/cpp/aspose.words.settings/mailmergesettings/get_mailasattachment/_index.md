@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.words.settings/mailmergesettings/get_mailasattachment/
 ---
-## MailMergeSettings.get_MailAsAttachment method
+## MailMergeSettings::get_MailAsAttachment method
 
 
 Specifies that the documents produced during a mail merge operation should be emailed as an attachment rather than the body of the actual e-mail. The default value is **false**.
@@ -15,3 +15,8 @@ Specifies that the documents produced during a mail merge operation should be em
 bool Aspose::Words::Settings::MailMergeSettings::get_MailAsAttachment() const
 ```
 
+## See Also
+
+* Class [MailMergeSettings](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words](../../../)

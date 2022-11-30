@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.themes/themefonts/get_eastasian/
 ---
-## ThemeFonts.get_EastAsian method
+## ThemeFonts::get_EastAsian method
 
 
 Specifies font name for EastAsian characters.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Themes::ThemeFonts::get_EastAsian()
 
 
 ## Examples
-
 
 
 
@@ -63,3 +62,8 @@ colors->set_FollowedHyperlink(System::Drawing::Color::get_Gray());
 doc->Save(ArtifactsDir + u"Themes.CustomColorsAndFonts.docx");
 ```
 
+## See Also
+
+* Class [ThemeFonts](../)
+* Namespace [Aspose::Words::Themes](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/aspose.words/font/get_shadow/
 ---
-## Font.get_Shadow method
+## Font::get_Shadow method
 
 
 True if the font is formatted as shadowed.
@@ -17,7 +17,6 @@ bool Aspose::Words::Font::get_Shadow()
 
 
 ## Examples
-
 
 
 
@@ -36,3 +35,8 @@ builder->Writeln(u"This text has a shadow.");
 doc->Save(ArtifactsDir + u"Font.Shadow.docx");
 ```
 
+## See Also
+
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

@@ -15,3 +15,8 @@ url: /cpp/aspose.words.webextensions/basewebextensioncollection/iterator/
 using Aspose::Words::WebExtensions::BaseWebExtensionCollection< T >::iterator =  typename iterator_holder_type::iterator
 ```
 
+## See Also
+
+* Class [BaseWebExtensionCollection](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.words/comment/get_nodetype/
 ---
-## Comment.get_NodeType method
+## Comment::get_NodeType method
 
 
 Returns **NodeType.Comment**.
@@ -17,7 +17,6 @@ Aspose::Words::NodeType Aspose::Words::Comment::get_NodeType() const override
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,9 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
 }
 ```
 
+## See Also
+
+* Enum [NodeType](../../nodetype/)
+* Class [Comment](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

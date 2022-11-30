@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/
 ---
-## StructuredDocumentTagRangeEnd.StructuredDocumentTagRangeEnd method
+## StructuredDocumentTagRangeEnd::StructuredDocumentTagRangeEnd constructor
 
 
 Initializes a new instance of the **Structured document tag range end** class.
@@ -22,7 +22,6 @@ Aspose::Words::Markup::StructuredDocumentTagRangeEnd::StructuredDocumentTagRange
 | id | int32_t | Identifier of the corresponding structured document tag range start. |
 
 ## Examples
-
 
 
 
@@ -72,3 +71,9 @@ void InsertStructuredDocumentTagRanges(SharedPtr<Document> doc, SharedPtr<Struct
 }
 ```
 
+## See Also
+
+* Class [DocumentBase](../../../aspose.words/documentbase/)
+* Class [StructuredDocumentTagRangeEnd](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

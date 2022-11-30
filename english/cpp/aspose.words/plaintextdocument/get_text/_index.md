@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words/plaintextdocument/get_text/
 ---
-## PlainTextDocument.get_Text method
+## PlainTextDocument::get_Text method
 
 
 Gets textual content of the document concatenated as a string.
@@ -17,7 +17,6 @@ System::String Aspose::Words::PlainTextDocument::get_Text() const
 
 
 ## Examples
-
 
 
 
@@ -34,3 +33,8 @@ auto plaintext = MakeObject<PlainTextDocument>(ArtifactsDir + u"PlainTextDocumen
 ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
 ```
 
+## See Also
+
+* Class [PlainTextDocument](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

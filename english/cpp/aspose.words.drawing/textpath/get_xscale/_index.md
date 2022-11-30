@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.words.drawing/textpath/get_xscale/
 ---
-## TextPath.get_XScale method
+## TextPath::get_XScale method
 
 
 Determines whether a straight textpath will be used instead of the shape path.
@@ -15,13 +15,14 @@ Determines whether a straight textpath will be used instead of the shape path.
 bool Aspose::Words::Drawing::TextPath::get_XScale()
 ```
 
+## Remarks
+
 
 The default value is **false**.
 
 If **true**, the text runs along a path from left to right along the x value of the lower boundary of the shape.
 
 ## Examples
-
 
 
 
@@ -127,3 +128,8 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
 }
 ```
 
+## See Also
+
+* Class [TextPath](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

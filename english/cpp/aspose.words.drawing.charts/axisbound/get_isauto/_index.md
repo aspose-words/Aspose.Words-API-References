@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.drawing.charts/axisbound/get_isauto/
 ---
-## AxisBound.get_IsAuto method
+## AxisBound::get_IsAuto method
 
 
 Returns a flag indicating that axis bound should be determined automatically.
@@ -17,7 +17,6 @@ bool Aspose::Words::Drawing::Charts::AxisBound::get_IsAuto() const
 
 
 ## Examples
-
 
 
 
@@ -70,3 +69,8 @@ chart->get_AxisX()->get_Scaling()->set_Maximum(MakeObject<AxisBound>(System::Dat
 doc->Save(ArtifactsDir + u"Charts.AxisBound.docx");
 ```
 
+## See Also
+
+* Class [AxisBound](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words](../../../)

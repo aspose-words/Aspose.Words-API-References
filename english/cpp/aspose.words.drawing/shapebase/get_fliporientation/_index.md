@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.words.drawing/shapebase/get_fliporientation/
 ---
-## ShapeBase.get_FlipOrientation method
+## ShapeBase::get_FlipOrientation method
 
 
 Switches the orientation of a shape.
@@ -15,11 +15,12 @@ Switches the orientation of a shape.
 Aspose::Words::Drawing::FlipOrientation Aspose::Words::Drawing::ShapeBase::get_FlipOrientation()
 ```
 
+## Remarks
 
-The default value is **None**.
+
+The default value is [None](../../fliporientation/).
 
 ## Examples
-
 
 
 
@@ -62,3 +63,9 @@ shape->set_FlipOrientation(FlipOrientation::Both);
 doc->Save(ArtifactsDir + u"Shape.FlipShapeOrientation.docx");
 ```
 
+## See Also
+
+* Enum [FlipOrientation](../../fliporientation/)
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

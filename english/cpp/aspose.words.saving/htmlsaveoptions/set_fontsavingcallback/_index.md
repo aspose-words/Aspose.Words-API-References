@@ -6,7 +6,7 @@ type: docs
 weight: 976
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_fontsavingcallback/
 ---
-## HtmlSaveOptions.set_FontSavingCallback method
+## HtmlSaveOptions::set_FontSavingCallback method
 
 
 Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_FontSavingCallback](../get_fontsavingcallback/).
@@ -15,3 +15,9 @@ Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_FontSavingCallback](../g
 void Aspose::Words::Saving::HtmlSaveOptions::set_FontSavingCallback(const System::SharedPtr<Aspose::Words::Saving::IFontSavingCallback> &value)
 ```
 
+## See Also
+
+* Interface [IFontSavingCallback](../../ifontsavingcallback/)
+* Class [HtmlSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.saving/pdfdigitalsignaturetimestampsettings/pdfdigitalsignaturetimestampsettings/
 ---
-## PdfDigitalSignatureTimestampSettings.PdfDigitalSignatureTimestampSettings() method
+## PdfDigitalSignatureTimestampSettings::PdfDigitalSignatureTimestampSettings() constructor
 
 
 Initializes an instance of this class.
@@ -15,7 +15,12 @@ Initializes an instance of this class.
 Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::PdfDigitalSignatureTimestampSettings()
 ```
 
-## PdfDigitalSignatureTimestampSettings.PdfDigitalSignatureTimestampSettings(const System::String\&, const System::String\&, const System::String\&) method
+## See Also
+
+* Class [PdfDigitalSignatureTimestampSettings](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)
+## PdfDigitalSignatureTimestampSettings::PdfDigitalSignatureTimestampSettings(const System::String\&, const System::String\&, const System::String\&) constructor
 
 
 Initializes an instance of this class.
@@ -32,7 +37,6 @@ Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::PdfDigitalSignature
 | password | const System::String\& | Timestamp server password. |
 
 ## Examples
-
 
 
 
@@ -71,7 +75,12 @@ ASSERT_EQ(u"MyPassword", options->get_DigitalSignatureDetails()->get_TimestampSe
 doc->Save(ArtifactsDir + u"PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
 ```
 
-## PdfDigitalSignatureTimestampSettings.PdfDigitalSignatureTimestampSettings(const System::String\&, const System::String\&, const System::String\&, System::TimeSpan) method
+## See Also
+
+* Class [PdfDigitalSignatureTimestampSettings](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)
+## PdfDigitalSignatureTimestampSettings::PdfDigitalSignatureTimestampSettings(const System::String\&, const System::String\&, const System::String\&, System::TimeSpan) constructor
 
 
 Initializes an instance of this class.
@@ -92,7 +101,6 @@ Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::PdfDigitalSignature
 
 
 
-
 Shows how to sign a saved PDF document digitally and timestamp it. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -128,3 +136,8 @@ ASSERT_EQ(u"MyPassword", options->get_DigitalSignatureDetails()->get_TimestampSe
 doc->Save(ArtifactsDir + u"PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
 ```
 
+## See Also
+
+* Class [PdfDigitalSignatureTimestampSettings](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

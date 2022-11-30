@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_lines/
 ---
-## BuiltInDocumentProperties.get_Lines method
+## BuiltInDocumentProperties::get_Lines method
 
 
 Represents an estimate of the number of lines in the document.
@@ -15,11 +15,12 @@ Represents an estimate of the number of lines in the document.
 int32_t Aspose::Words::Properties::BuiltInDocumentProperties::get_Lines()
 ```
 
+## Remarks
+
 
 Aspose.Words updates this property when you call [UpdateWordCount()](../../../aspose.words/document/updatewordcount/).
 
 ## Examples
-
 
 
 
@@ -155,3 +156,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words](../../../)

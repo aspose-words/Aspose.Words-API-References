@@ -3,7 +3,7 @@ title: PageSetup
 second_title: Aspose.Words for .NET API Reference
 description: Represents the page setup properties of a section.
 type: docs
-weight: 4140
+weight: 4150
 url: /net/aspose.words/pagesetup/
 ---
 ## PageSetup class
@@ -45,6 +45,7 @@ public class PageSetup
 | [LineNumberRestartMode](../../aspose.words/pagesetup/linenumberrestartmode/) { get; set; } | Gets or sets the way line numbering runs that is, whether it starts over at the beginning of a new page or section or runs continuously. |
 | [LinesPerPage](../../aspose.words/pagesetup/linesperpage/) { get; set; } | Gets or sets the number of lines per page in the document grid. |
 | [LineStartingNumber](../../aspose.words/pagesetup/linestartingnumber/) { get; set; } | Gets or sets the starting line number. |
+| [Margins](../../aspose.words/pagesetup/margins/) { get; set; } | Returns or sets preset [`Margins`](../margins/) of the page. |
 | [MultiplePages](../../aspose.words/pagesetup/multiplepages/) { get; set; } | For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet. |
 | [OddAndEvenPagesHeaderFooter](../../aspose.words/pagesetup/oddandevenpagesheaderfooter/) { get; set; } | True if the document has different headers and footers for odd-numbered and even-numbered pages. |
 | [Orientation](../../aspose.words/pagesetup/orientation/) { get; set; } | Returns or sets the orientation of the page. |

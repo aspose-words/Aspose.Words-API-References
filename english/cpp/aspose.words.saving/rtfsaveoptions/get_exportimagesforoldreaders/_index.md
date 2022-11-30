@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.saving/rtfsaveoptions/get_exportimagesforoldreaders/
 ---
-## RtfSaveOptions.get_ExportImagesForOldReaders method
+## RtfSaveOptions::get_ExportImagesForOldReaders method
 
 
 Specifies whether the keywords for "old readers" are written to RTF or not. This can significantly affect the size of the RTF document. Default value is **true**.
@@ -15,13 +15,14 @@ Specifies whether the keywords for "old readers" are written to RTF or not. This
 bool Aspose::Words::Saving::RtfSaveOptions::get_ExportImagesForOldReaders() const
 ```
 
+## Remarks
+
 
 "Old readers" are pre-Microsoft Word 97 applications and also WordPad. When this option is **true** Aspose.Words writes additional RTF keywords. These keywords allow the document to be displayed correctly when opened in an "old reader" application, but can significantly increase the size of the document.
 
 If you set this option to **false**, then only images in WMF, EMF and BMP formats will be displayed in "old readers".
 
 ## Examples
-
 
 
 
@@ -47,3 +48,8 @@ options->set_ExportImagesForOldReaders(exportImagesForOldReaders);
 doc->Save(ArtifactsDir + u"RtfSaveOptions.ExportImages.rtf", options);
 ```
 
+## See Also
+
+* Class [RtfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

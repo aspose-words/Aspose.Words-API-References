@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.words.saving/fontsavingargs/get_fontfamilyname/
 ---
-## FontSavingArgs.get_FontFamilyName method
+## FontSavingArgs::get_FontFamilyName method
 
 
 Indicates the current font family name.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Saving::FontSavingArgs::get_FontFamilyName() const
 
 
 ## Examples
-
 
 
 
@@ -83,3 +82,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [FontSavingArgs](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

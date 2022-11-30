@@ -92,6 +92,8 @@ class BuiltInDocumentProperties : public Aspose::Words::Properties::DocumentProp
 | [set_TotalEditingTime](./set_totaleditingtime/)(int32_t) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_TotalEditingTime](./get_totaleditingtime/). |
 | [set_Version](./set_version/)(int32_t) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_Version](./get_version/). |
 | [set_Words](./set_words/)(int32_t) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_Words](./get_words/). |
+## Remarks
+
 
 Provides access to [DocumentProperty](../documentproperty/) objects by their names (using an indexer) and via a set of typed properties that return values of appropriate types.
 
@@ -100,7 +102,6 @@ The names of the properties are case-insensitive.
 The properties in the collection are sorted alphabetically by name.
 
 ## Examples
-
 
 
 
@@ -135,3 +136,8 @@ for (const auto& docProperty : System::IterateOver(doc->get_BuiltInDocumentPrope
 }
 ```
 
+## See Also
+
+* Class [DocumentPropertyCollection](../documentpropertycollection/)
+* Namespace [Aspose::Words::Properties](../)
+* Library [Aspose.Words](../../)

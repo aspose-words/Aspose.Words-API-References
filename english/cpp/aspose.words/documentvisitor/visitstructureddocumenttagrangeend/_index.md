@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /cpp/aspose.words/documentvisitor/visitstructureddocumenttagrangeend/
 ---
-## DocumentVisitor.VisitStructuredDocumentTagRangeEnd method
+## DocumentVisitor::VisitStructuredDocumentTagRangeEnd method
 
 
 
@@ -15,3 +15,10 @@ url: /cpp/aspose.words/documentvisitor/visitstructureddocumenttagrangeend/
 virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitStructuredDocumentTagRangeEnd(System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTagRangeEnd> sdtRangeEnd)
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [StructuredDocumentTagRangeEnd](../../../aspose.words.markup/structureddocumenttagrangeend/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

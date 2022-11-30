@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/xamlfixedsaveoptions/
 ## XamlFixedSaveOptions class
 
 
-Can be used to specify additional options when saving a document into the **XamlFixed** format.
+Can be used to specify additional options when saving a document into the [XamlFixed](../../aspose.words/saveformat/) format.
 
 ```cpp
 class XamlFixedSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
@@ -43,7 +43,7 @@ class XamlFixedSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [get_ResourceSavingCallback](./get_resourcesavingcallback/)() const | Allows to control how resources (images and fonts) are saved when a document is exported to fixed page Xaml format. |
 | [get_ResourcesFolder](./get_resourcesfolder/)() const | Specifies the physical folder where resources (images and fonts) are saved when exporting a document to fixed page Xaml format. Default is **null**. |
 | [get_ResourcesFolderAlias](./get_resourcesfolderalias/)() const | Specifies the name of the folder used to construct image URIs written into an fixed page Xaml document. Default is **null**. |
-| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can only be **XamlFixed**. |
+| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can only be [XamlFixed](../../aspose.words/saveformat/). |
 | [get_TempFolder](../saveoptions/get_tempfolder/)() const | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is **null** and no temporary files are used. |
 | [get_UpdateCreatedTimeProperty](../saveoptions/get_updatecreatedtimeproperty/)() const | Gets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is false;. |
 | [get_UpdateFields](../saveoptions/get_updatefields/)() const | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. |
@@ -84,7 +84,6 @@ class XamlFixedSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [set_UseHighQualityRendering](../saveoptions/set_usehighqualityrendering/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UseHighQualityRendering](../saveoptions/get_usehighqualityrendering/). |
 
 ## Examples
-
 
 
 
@@ -151,3 +150,8 @@ private:
 };
 ```
 
+## See Also
+
+* Class [FixedPageSaveOptions](../fixedpagesaveoptions/)
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words](../../)

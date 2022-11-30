@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.framesets/frameset/get_childframesets/
 ---
-## Frameset.get_ChildFramesets method
+## Frameset::get_ChildFramesets method
 
 
 Gets the collection of child frames and frames pages.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Framesets::FramesetCollection> Aspose::Words::F
 
 
 ## Examples
-
 
 
 
@@ -40,3 +39,9 @@ doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx
 doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx_get(0)->set_IsFrameLinkToFile(false);
 ```
 
+## See Also
+
+* Class [FramesetCollection](../../framesetcollection/)
+* Class [Frameset](../)
+* Namespace [Aspose::Words::Framesets](../../)
+* Library [Aspose.Words](../../../)

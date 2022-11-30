@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words.fields/fieldprintdate/get_usesakaeracalendar/
 ---
-## FieldPrintDate.get_UseSakaEraCalendar method
+## FieldPrintDate::get_UseSakaEraCalendar method
 
 
 Gets or sets whether to use the Saka Era calendar.
@@ -17,7 +17,6 @@ bool Aspose::Words::Fields::FieldPrintDate::get_UseSakaEraCalendar()
 
 
 ## Examples
-
 
 
 
@@ -57,3 +56,8 @@ ASSERT_EQ(u"1/5/1942 12:00:00 AM", field->get_Result());
 ASSERT_EQ(u" PRINTDATE  \\s", field->GetFieldCode());
 ```
 
+## See Also
+
+* Class [FieldPrintDate](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

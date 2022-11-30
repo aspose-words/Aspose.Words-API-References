@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.words/runcollection/toarray/
 ---
-## RunCollection.ToArray method
+## RunCollection::ToArray method
 
 
 Copies all runs from the collection to a new array of runs.
@@ -18,11 +18,9 @@ System::ArrayPtr<System::SharedPtr<Aspose::Words::Run>> Aspose::Words::RunCollec
 
 ### ReturnValue
 
-
 An array of runs.
 
 ## Examples
-
 
 
 
@@ -76,3 +74,9 @@ ASSERT_TRUE(runs->idx_get(1)->get_IsMoveToRevision());
 ASSERT_TRUE(runs->idx_get(5)->get_IsDeleteRevision());
 ```
 
+## See Also
+
+* Class [Run](../../run/)
+* Class [RunCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

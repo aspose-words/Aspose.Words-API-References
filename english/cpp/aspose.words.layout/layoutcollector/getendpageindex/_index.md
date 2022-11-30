@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.layout/layoutcollector/getendpageindex/
 ---
-## LayoutCollector.GetEndPageIndex method
+## LayoutCollector::GetEndPageIndex method
 
 
 Gets 1-based index of the page where node ends. Returns 0 if node cannot be mapped to a page.
@@ -17,7 +17,6 @@ int32_t Aspose::Words::Layout::LayoutCollector::GetEndPageIndex(const System::Sh
 
 
 ## Examples
-
 
 
 
@@ -74,3 +73,9 @@ ASSERT_EQ(LayoutEntityType::Span, layoutEnumerator->get_Type());
 ASSERT_EQ(u"¶", layoutEnumerator->get_Text());
 ```
 
+## See Also
+
+* Class [Node](../../../aspose.words/node/)
+* Class [LayoutCollector](../)
+* Namespace [Aspose::Words::Layout](../../)
+* Library [Aspose.Words](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/documentvisitor/visitbuildingblockend/
 ---
-## DocumentVisitor.VisitBuildingBlockEnd method
+## DocumentVisitor::VisitBuildingBlockEnd method
 
 
 Called when enumeration of a building block has ended.
@@ -22,13 +22,13 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitBuildi
 
 ### ReturnValue
 
-
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
+## Remarks
+
 
 Note: A building block node and its children are not visited when you execute a Visitor over a [Document](../../document/). If you want to execute a Visitor over a building block, you need to execute the visitor over [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/) or call [Accept()](../../../aspose.words.buildingblocks/buildingblock/accept/).
 
 ## Examples
-
 
 
 
@@ -128,3 +128,10 @@ private:
 };
 ```
 
+## See Also
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

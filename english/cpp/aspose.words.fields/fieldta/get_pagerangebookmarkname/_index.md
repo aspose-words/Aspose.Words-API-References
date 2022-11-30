@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.fields/fieldta/get_pagerangebookmarkname/
 ---
-## FieldTA.get_PageRangeBookmarkName method
+## FieldTA::get_PageRangeBookmarkName method
 
 
 Gets or sets the name of the bookmark that marks a range of pages that is inserted as the entry's page number.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldTA::get_PageRangeBookmarkName()
 
 
 ## Examples
-
 
 
 
@@ -138,3 +137,8 @@ static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, Str
 }
 ```
 
+## See Also
+
+* Class [FieldTA](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

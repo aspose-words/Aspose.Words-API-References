@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.words.fields/fieldtoc/set_entryidentifier/
 ---
-## FieldToc.set_EntryIdentifier method
+## FieldToc::set_EntryIdentifier method
 
 
 Setter for [Aspose::Words::Fields::FieldToc::get_EntryIdentifier](../get_entryidentifier/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::Fields::FieldToc::get_EntryIdentifier](../get_entryid
 void Aspose::Words::Fields::FieldToc::set_EntryIdentifier(const System::String &value)
 ```
 
+## See Also
+
+* Class [FieldToc](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

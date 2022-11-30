@@ -6,7 +6,7 @@ type: docs
 weight: 586
 url: /cpp/aspose.words/pagesetup/set_bidi/
 ---
-## PageSetup.set_Bidi method
+## PageSetup::set_Bidi method
 
 
 Setter for [Aspose::Words::PageSetup::get_Bidi](../get_bidi/).
@@ -15,3 +15,8 @@ Setter for [Aspose::Words::PageSetup::get_Bidi](../get_bidi/).
 void Aspose::Words::PageSetup::set_Bidi(bool value)
 ```
 
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

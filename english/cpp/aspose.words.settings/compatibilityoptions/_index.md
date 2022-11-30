@@ -90,7 +90,7 @@ class CompatibilityOptions : public System::Object
 | [get_WPJustification](./get_wpjustification/)() | Emulate WordPerfect 6.x [Paragraph](../../aspose.words/paragraph/) Justification. |
 | [get_WPSpaceWidth](./get_wpspacewidth/)() | Specifies whether to set the width of a space as is done in WordPerfect 5.x. |
 | [get_WrapTrailSpaces](./get_wraptrailspaces/)() | Line Wrap Trailing Spaces. |
-| [OptimizeFor](./optimizefor/)(Aspose::Words::Settings::MsWordVersion) | Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word. Use this method to prevent MS Word from displaying "Compatibility mode" ribbon upon document loading. (Note that you may also need to set the [Compliance](../../aspose.words.saving/ooxmlsaveoptions/get_compliance/) property to **Iso29500_2008_Transitional** or higher.) |
+| [OptimizeFor](./optimizefor/)(Aspose::Words::Settings::MsWordVersion) | Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word. Use this method to prevent MS Word from displaying "Compatibility mode" ribbon upon document loading. (Note that you may also need to set the [Compliance](../../aspose.words.saving/ooxmlsaveoptions/get_compliance/) property to [Iso29500_2008_Transitional](../../aspose.words.saving/ooxmlcompliance/) or higher.) |
 | [set_AdjustLineHeightInTable](./set_adjustlineheightintable/)(bool) | Add [Document](../../aspose.words/document/) Grid Line Pitch To Lines in Table Cells. |
 | [set_AlignTablesRowByRow](./set_aligntablesrowbyrow/)(bool) | Align Table Rows Independently. |
 | [set_AllowSpaceOfSameStyleInTable](./set_allowspaceofsamestyleintable/)(bool) | Allow Contextual Spacing of Paragraphs in [Tables](../../aspose.words.tables/). |
@@ -167,7 +167,6 @@ class CompatibilityOptions : public System::Object
 
 
 
-
 Shows how to set an OOXML compliance specification for a saved document to adhere to. 
 ```cpp
 auto doc = MakeObject<Document>();
@@ -219,3 +218,7 @@ doc->get_CompatibilityOptions()->OptimizeFor(MsWordVersion::Word2007);
 doc->Save(ArtifactsDir + u"Shape.VerticalAnchor.docx");
 ```
 
+## See Also
+
+* Namespace [Aspose::Words::Settings](../)
+* Library [Aspose.Words](../../)

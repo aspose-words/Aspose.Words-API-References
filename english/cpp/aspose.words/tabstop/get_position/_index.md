@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.words/tabstop/get_position/
 ---
-## TabStop.get_Position method
+## TabStop::get_Position method
 
 
 Gets the position of the tab stop in points.
@@ -17,7 +17,6 @@ double Aspose::Words::TabStop::get_Position()
 
 
 ## Examples
-
 
 
 
@@ -43,3 +42,8 @@ for (const auto& para : System::IterateOver(doc->GetChildNodes(NodeType::Paragra
 doc->Save(ArtifactsDir + u"Styles.ChangeTocsTabStops.docx");
 ```
 
+## See Also
+
+* Class [TabStop](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

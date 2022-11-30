@@ -46,7 +46,6 @@ class FieldFormCheckBox : public Aspose::Words::Fields::Field
 
 
 
-
 Shows how to process FORMCHECKBOX, FORMDROPDOWN and FORMTEXT fields. 
 ```cpp
 // These fields are legacy equivalents of the FormField. We can read, but not create these fields using Aspose.Words.
@@ -63,3 +62,8 @@ auto fieldFormText = System::DynamicCast<FieldFormText>(doc->get_Range()->get_Fi
 ASSERT_EQ(u" FORMTEXT \u0001", fieldFormText->GetFieldCode());
 ```
 
+## See Also
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words](../../)

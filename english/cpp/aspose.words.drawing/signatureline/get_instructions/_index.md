@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.drawing/signatureline/get_instructions/
 ---
-## SignatureLine.get_Instructions method
+## SignatureLine::get_Instructions method
 
 
 Gets or sets instructions to the signer that are displayed on signing the signature line. This property is ignored if [DefaultInstructions](../get_defaultinstructions/) is set. Default value for this property is **empty string**.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Drawing::SignatureLine::get_Instructions()
 
 
 ## Examples
-
 
 
 
@@ -58,3 +57,8 @@ ASSERT_TRUE(signatureLine->get_DefaultInstructions());
 doc->Save(ArtifactsDir + u"Shape.SignatureLine.docx");
 ```
 
+## See Also
+
+* Class [SignatureLine](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words](../../../)

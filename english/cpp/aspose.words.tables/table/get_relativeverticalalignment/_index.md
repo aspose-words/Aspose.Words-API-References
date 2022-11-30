@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/aspose.words.tables/table/get_relativeverticalalignment/
 ---
-## Table.get_RelativeVerticalAlignment method
+## Table::get_RelativeVerticalAlignment method
 
 
 Gets or sets floating table relative vertical alignment.
@@ -17,7 +17,6 @@ Aspose::Words::Drawing::VerticalAlignment Aspose::Words::Tables::Table::get_Rela
 
 
 ## Examples
-
 
 
 
@@ -49,3 +48,9 @@ table->set_AbsoluteHorizontalDistance(100);
 doc->Save(ArtifactsDir + u"Table.ChangeFloatingTableProperties.docx");
 ```
 
+## See Also
+
+* Enum [VerticalAlignment](../../../aspose.words.drawing/verticalalignment/)
+* Class [Table](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words](../../../)

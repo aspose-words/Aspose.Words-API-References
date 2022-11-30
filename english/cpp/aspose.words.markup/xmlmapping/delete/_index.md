@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.words.markup/xmlmapping/delete/
 ---
-## XmlMapping.Delete method
+## XmlMapping::Delete method
 
 
 Deletes mapping of the parent structured document to XML data.
@@ -17,7 +17,6 @@ void Aspose::Words::Markup::XmlMapping::Delete()
 
 
 ## Examples
-
 
 
 
@@ -50,3 +49,8 @@ doc->get_FirstSection()->get_Body()->AppendChild(tag);
 doc->Save(ArtifactsDir + u"StructuredDocumentTag.XmlMapping.docx");
 ```
 
+## See Also
+
+* Class [XmlMapping](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words](../../../)

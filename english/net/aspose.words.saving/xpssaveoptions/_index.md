@@ -3,7 +3,7 @@ title: XpsSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the Xps format.
 type: docs
-weight: 5460
+weight: 5470
 url: /net/aspose.words.saving/xpssaveoptions/
 ---
 ## XpsSaveOptions class

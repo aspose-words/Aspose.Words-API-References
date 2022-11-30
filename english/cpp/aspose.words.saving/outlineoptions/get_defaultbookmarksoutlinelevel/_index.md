@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.words.saving/outlineoptions/get_defaultbookmarksoutlinelevel/
 ---
-## OutlineOptions.get_DefaultBookmarksOutlineLevel method
+## OutlineOptions::get_DefaultBookmarksOutlineLevel method
 
 
 Specifies the default level in the document outline at which to display Word bookmarks.
@@ -14,6 +14,8 @@ Specifies the default level in the document outline at which to display Word boo
 ```cpp
 int32_t Aspose::Words::Saving::OutlineOptions::get_DefaultBookmarksOutlineLevel() const
 ```
+
+## Remarks
 
 
 Individual bookmarks level could be specified using [BookmarksOutlineLevels](../get_bookmarksoutlinelevels/) property.
@@ -23,7 +25,6 @@ Specify 0 and Word bookmarks will not be displayed in the document outline. Spec
 Default is 0. Valid range is 0 to 9.
 
 ## Examples
-
 
 
 
@@ -53,3 +54,8 @@ saveOptions->set_HeaderFooterBookmarksExportMode(headerFooterBookmarksExportMode
 doc->Save(ArtifactsDir + u"PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", saveOptions);
 ```
 
+## See Also
+
+* Class [OutlineOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words](../../../)

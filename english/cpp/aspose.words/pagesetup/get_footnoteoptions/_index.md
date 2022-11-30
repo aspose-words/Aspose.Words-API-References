@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.words/pagesetup/get_footnoteoptions/
 ---
-## PageSetup.get_FootnoteOptions method
+## PageSetup::get_FootnoteOptions method
 
 
 Provides options that control numbering and positioning of footnotes in this section.
@@ -17,7 +17,6 @@ System::SharedPtr<Aspose::Words::Notes::FootnoteOptions> Aspose::Words::PageSetu
 
 
 ## Examples
-
 
 
 
@@ -49,3 +48,9 @@ endnoteOptions->set_StartNumber(1);
 doc->Save(ArtifactsDir + u"PageSetup.FootnoteOptions.docx");
 ```
 
+## See Also
+
+* Class [FootnoteOptions](../../../aspose.words.notes/footnoteoptions/)
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words](../../../)

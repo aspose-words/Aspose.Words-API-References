@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.words.fields/fieldtoc/get_tableoffigureslabel/
 ---
-## FieldToc.get_TableOfFiguresLabel method
+## FieldToc::get_TableOfFiguresLabel method
 
 
 Gets or sets the name of the sequence identifier used when building a table of figures.
@@ -17,7 +17,6 @@ System::String Aspose::Words::Fields::FieldToc::get_TableOfFiguresLabel() overri
 
 
 ## Examples
-
 
 
 
@@ -91,3 +90,8 @@ doc->UpdateFields();
 doc->Save(ArtifactsDir + u"Field.TOC.SEQ.docx");
 ```
 
+## See Also
+
+* Class [FieldToc](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words](../../../)

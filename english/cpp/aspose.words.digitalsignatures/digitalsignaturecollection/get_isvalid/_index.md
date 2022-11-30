@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/get_isvalid/
 ---
-## DigitalSignatureCollection.get_IsValid method
+## DigitalSignatureCollection::get_IsValid method
 
 
 Returns **true** if all digital signatures in this collection are valid and the document has not been tampered with Also returns **true** if there are no digital signatures. Returns **false** if at least one digital signature is invalid.
@@ -17,7 +17,6 @@ bool Aspose::Words::DigitalSignatures::DigitalSignatureCollection::get_IsValid()
 
 
 ## Examples
-
 
 
 
@@ -60,3 +59,8 @@ ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_I
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
 ```
 
+## See Also
+
+* Class [DigitalSignatureCollection](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words](../../../)

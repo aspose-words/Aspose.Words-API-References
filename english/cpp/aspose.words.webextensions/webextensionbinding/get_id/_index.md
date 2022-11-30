@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.words.webextensions/webextensionbinding/get_id/
 ---
-## WebExtensionBinding.get_Id method
+## WebExtensionBinding::get_Id method
 
 
 Specifies the binding identifier.
@@ -15,3 +15,8 @@ Specifies the binding identifier.
 System::String Aspose::Words::WebExtensions::WebExtensionBinding::get_Id() const
 ```
 
+## See Also
+
+* Class [WebExtensionBinding](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words](../../../)
