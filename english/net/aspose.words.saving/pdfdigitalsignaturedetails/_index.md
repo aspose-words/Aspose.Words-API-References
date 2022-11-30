@@ -3,7 +3,7 @@ title: PdfDigitalSignatureDetails
 second_title: Aspose.Words for .NET API Reference
 description: Contains details for signing a PDF document with a digital signature.
 type: docs
-weight: 5180
+weight: 5190
 url: /net/aspose.words.saving/pdfdigitalsignaturedetails/
 ---
 ## PdfDigitalSignatureDetails class
@@ -60,7 +60,7 @@ PdfSaveOptions options = new PdfSaveOptions();
 DateTime signingTime = DateTime.Now;
 options.DigitalSignatureDetails =
     new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
-options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.Sha256;
+options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.RipeMD160;
 
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);

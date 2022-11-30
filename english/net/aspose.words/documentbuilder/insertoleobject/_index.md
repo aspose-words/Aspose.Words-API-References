@@ -47,7 +47,7 @@ using (Stream spreadsheetStream = File.Open(MyDir + "Spreadsheet.xlsx", FileMode
 // This time, it will have an image downloaded from the web for an icon.
 using (Stream powerpointStream = File.Open(MyDir + "Presentation.pptx", FileMode.Open))
 {
-    using (WebClient webClient = new WebClient())
+    using (HttpClient httpClient = new HttpClient())
     {
         byte[] imgBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 

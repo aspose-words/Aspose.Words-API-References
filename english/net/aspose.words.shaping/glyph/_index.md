@@ -3,7 +3,7 @@ title: Glyph
 second_title: Aspose.Words for .NET API Reference
 description: Represents a glyph
 type: docs
-weight: 5770
+weight: 5780
 url: /net/aspose.words.shaping/glyph/
 ---
 ## Glyph class

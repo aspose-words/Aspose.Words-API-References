@@ -3,7 +3,7 @@ title: FontFeature
 second_title: Aspose.Words for .NET API Reference
 description: Features provide information about how glyphs are used in a font to render a script. https//docs.microsoft.com/enus/typography/opentype/spec/featuretags
 type: docs
-weight: 5760
+weight: 5770
 url: /net/aspose.words.shaping/fontfeature/
 ---
 ## FontFeature enumeration

@@ -18,6 +18,20 @@ public ChapterPageSeparator ChapterPageSeparator { get; set; }
 
 Before you can create page numbers that include chapter numbers, the document headings must have a numbered outline format applied.
 
+## Examples
+
+Shows how to work with page chapters.
+
+```csharp
+Document doc = new Document(MyDir + "Big document.docx");
+
+PageSetup pageSetup = doc.FirstSection.PageSetup;
+
+pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
+pageSetup.ChapterPageSeparator = Aspose.Words.ChapterPageSeparator.Colon;
+pageSetup.HeadingLevelForChapter = 1;
+```
+
 ### See Also
 
 * enum [ChapterPageSeparator](../../chapterpageseparator/)

@@ -3,7 +3,7 @@ title: StyleType
 second_title: Aspose.Words for .NET API Reference
 description: Represents type of the style.
 type: docs
-weight: 5890
+weight: 5900
 url: /net/aspose.words/styletype/
 ---
 ## StyleType enumeration

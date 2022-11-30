@@ -3,7 +3,7 @@ title: ExportHeadersFootersMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how headers and footers are exported to HTML MHTML or EPUB.
 type: docs
-weight: 4770
+weight: 4780
 url: /net/aspose.words.saving/exportheadersfootersmode/
 ---
 ## ExportHeadersFootersMode enumeration

@@ -3,7 +3,7 @@ title: DocumentSecurity
 second_title: Aspose.Words for .NET API Reference
 description: Used as a value for the Security./builtindocumentproperties/security/ property. Specifies the security level of a document as a numeric value.
 type: docs
-weight: 4260
+weight: 4270
 url: /net/aspose.words.properties/documentsecurity/
 ---
 ## DocumentSecurity enumeration

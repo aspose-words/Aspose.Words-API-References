@@ -3,7 +3,7 @@ title: WatermarkLayout
 second_title: Aspose.Words for .NET API Reference
 description: Defines layout of the watermark relative to the watermark center.
 type: docs
-weight: 6400
+weight: 6410
 url: /net/aspose.words/watermarklayout/
 ---
 ## WatermarkLayout enumeration

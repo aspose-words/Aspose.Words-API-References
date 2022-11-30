@@ -3,7 +3,7 @@ title: WebExtension
 second_title: Aspose.Words for .NET API Reference
 description: Represents a web extension object.
 type: docs
-weight: 6460
+weight: 6470
 url: /net/aspose.words.webextensions/webextension/
 ---
 ## WebExtension class

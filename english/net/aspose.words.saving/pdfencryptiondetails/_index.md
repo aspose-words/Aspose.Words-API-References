@@ -3,7 +3,7 @@ title: PdfEncryptionDetails
 second_title: Aspose.Words for .NET API Reference
 description: Contains details for encrypting and access permissions for a PDF document.
 type: docs
-weight: 5210
+weight: 5220
 url: /net/aspose.words.saving/pdfencryptiondetails/
 ---
 ## PdfEncryptionDetails class

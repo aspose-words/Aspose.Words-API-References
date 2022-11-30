@@ -3,7 +3,7 @@ title: MailMergeCheckErrors
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how Microsoft Word will report errors detected during mail merge.
 type: docs
-weight: 5540
+weight: 5550
 url: /net/aspose.words.settings/mailmergecheckerrors/
 ---
 ## MailMergeCheckErrors enumeration

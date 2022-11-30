@@ -3,7 +3,7 @@ title: CompatibilityOptions
 second_title: Aspose.Words for .NET API Reference
 description: Contains compatibility options that is the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word.
 type: docs
-weight: 5520
+weight: 5530
 url: /net/aspose.words.settings/compatibilityoptions/
 ---
 ## CompatibilityOptions class

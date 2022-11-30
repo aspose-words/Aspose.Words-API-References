@@ -3,7 +3,7 @@ title: ResourceSavingArgs
 second_title: Aspose.Words for .NET API Reference
 description: Provides data for the ResourceSaving./iresourcesavingcallback/resourcesaving/ event.
 type: docs
-weight: 5310
+weight: 5320
 url: /net/aspose.words.saving/resourcesavingargs/
 ---
 ## ResourceSavingArgs class

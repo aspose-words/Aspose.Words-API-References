@@ -3,7 +3,7 @@ title: HtmlFixedPageHorizontalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the horizontal alignment for pages in output HTML document.
 type: docs
-weight: 4840
+weight: 4850
 url: /net/aspose.words.saving/htmlfixedpagehorizontalalignment/
 ---
 ## HtmlFixedPageHorizontalAlignment enumeration

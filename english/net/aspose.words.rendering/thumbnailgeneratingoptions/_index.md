@@ -3,7 +3,7 @@ title: ThumbnailGeneratingOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when generating thumbnail for a document.
 type: docs
-weight: 4370
+weight: 4380
 url: /net/aspose.words.rendering/thumbnailgeneratingoptions/
 ---
 ## ThumbnailGeneratingOptions class

@@ -3,7 +3,7 @@ title: SdtAppearance
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the appearance of a structured document tag.
 type: docs
-weight: 3770
+weight: 3780
 url: /net/aspose.words.markup/sdtappearance/
 ---
 ## SdtAppearance enumeration

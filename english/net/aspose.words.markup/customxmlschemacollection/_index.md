@@ -3,7 +3,7 @@ title: CustomXmlSchemaCollection
 second_title: Aspose.Words for .NET API Reference
 description: A collection of strings that represent XML schemas that are associated with a custom XML part.
 type: docs
-weight: 3740
+weight: 3750
 url: /net/aspose.words.markup/customxmlschemacollection/
 ---
 ## CustomXmlSchemaCollection class

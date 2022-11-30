@@ -3,7 +3,7 @@ title: CustomXmlPropertyCollection
 second_title: Aspose.Words for .NET API Reference
 description: Represents a collection of custom XML attributes or smart tag properties.
 type: docs
-weight: 3730
+weight: 3740
 url: /net/aspose.words.markup/customxmlpropertycollection/
 ---
 ## CustomXmlPropertyCollection class
