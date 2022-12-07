@@ -3,7 +3,7 @@ title: GetText
 second_title: Aspose.Words for C++ API Reference
 description: Gets the text of this paragraph including the end of paragraph character.
 type: docs
-weight: 326
+weight: 339
 url: /cpp/aspose.words/paragraph/gettext/
 ---
 ## Paragraph::GetText method
@@ -20,9 +20,9 @@ System::String Aspose::Words::Paragraph::GetText() override
 
 The text of all child nodes is concatenated and the end of paragraph character is appended as follows:
 
-* If the paragraph is the last paragraph of [Body](../../body/), then [ControlChar.SectionBreak](../../controlchar/sectionbreak/) (\x000c) is appended.
-* If the paragraph is the last paragraph of [Cell](../../../aspose.words.tables/cell/), then [ControlChar.Cell](../../controlchar/cell/) (\x0007) is appended.
-* For all other paragraphs [ControlChar.ParagraphBreak](../../controlchar/paragraphbreak/) (\r) is appended.
+* If the paragraph is the last paragraph of [Body](../../body/), then [SectionBreak](../../controlchar/sectionbreak/) (\x000c) is appended.
+* If the paragraph is the last paragraph of [Cell](../../../aspose.words.tables/cell/), then [Cell](../../controlchar/cell/) (\x0007) is appended.
+* For all other paragraphs [ParagraphBreak](../../controlchar/paragraphbreak/) (\r) is appended.
 
 
 

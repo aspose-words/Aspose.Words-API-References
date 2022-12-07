@@ -1,7 +1,7 @@
 ---
 title: Shape
 second_title: Aspose.Words for C++ API Reference
-description: Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture.
+description: Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture. To learn more, visit the  documentation article.
 type: docs
 weight: 131
 url: /cpp/aspose.words.drawing/shape/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing/shape/
 ## Shape class
 
 
-Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture.
+Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture. To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/cpp/working-with-shapes/) documentation article.
 
 ```cpp
 class Shape : public Aspose::Words::Drawing::ShapeBase,
@@ -34,8 +34,8 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [get_Bounds](../shapebase/get_bounds/)() | Gets or sets the location and size of the containing block of the shape. |
 | [get_BoundsInPoints](../shapebase/get_boundsinpoints/)() | Gets the location and size of the containing block of the shape in points, relative to the anchor of the topmost shape. |
 | [get_BoundsWithEffects](../shapebase/get_boundswitheffects/)() | Gets final extent that this shape object has after applying drawing effects. Value is measured in points. |
-| [get_CanHaveImage](../shapebase/get_canhaveimage/)() | Returns true if the shape type allows the shape to have an image. |
-| [get_Chart](./get_chart/)() | Provides access to the chart properties if this shape has a Chart. |
+| [get_CanHaveImage](../shapebase/get_canhaveimage/)() | Returns **true** if the shape type allows the shape to have an image. |
+| [get_Chart](./get_chart/)() | Provides access to the chart properties if this shape has a [Chart](../../aspose.words.drawing.charts/chart/). |
 | [get_ChildNodes](../../aspose.words/compositenode/get_childnodes/)() | Gets all immediate child nodes of this node. |
 | [get_CoordOrigin](../shapebase/get_coordorigin/)() | The coordinates at the top-left corner of the containing block of this shape. |
 | [get_CoordSize](../shapebase/get_coordsize/)() | The width and height of the coordinate space inside the containing block of this shape. |
@@ -46,7 +46,7 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [get_DistanceRight](../shapebase/get_distanceright/)() | Returns or sets the distance (in points) between the document text and the right edge of the shape. |
 | [get_DistanceTop](../shapebase/get_distancetop/)() | Returns or sets the distance (in points) between the document text and the top edge of the shape. |
 | virtual [get_Document](../../aspose.words/node/get_document/)() const | Gets the document to which this node belongs. |
-| [get_ExtrusionEnabled](./get_extrusionenabled/)() | Returns true if an extrusion effect is enabled. |
+| [get_ExtrusionEnabled](./get_extrusionenabled/)() | Returns **true** if an extrusion effect is enabled. |
 | [get_Fill](../shapebase/get_fill/)() | Gets fill formatting for the shape. |
 | [get_FillColor](./get_fillcolor/)() | Defines the brush color that fills the closed path of the shape. |
 | [get_Filled](./get_filled/)() | Determines whether the closed path of the shape will be filled. |
@@ -54,29 +54,29 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [get_FirstParagraph](./get_firstparagraph/)() | Gets the first paragraph in the shape. |
 | [get_FlipOrientation](../shapebase/get_fliporientation/)() | Switches the orientation of a shape. |
 | [get_Font](../shapebase/get_font/)() | Provides access to the font formatting of this object. |
-| [get_HasChart](./get_haschart/)() | Returns true if this [Shape](./) has a [Chart](./get_chart/). |
-| [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns true if this node has any child nodes. |
-| [get_HasImage](./get_hasimage/)() | Returns true if the shape has image bytes or links an image. |
-| [get_HasSmartArt](./get_hassmartart/)() | Returns true if this [Shape](./) has a SmartArt object. |
+| [get_HasChart](./get_haschart/)() | Returns **true** if this [Shape](./) has a [Chart](../../aspose.words.drawing.charts/chart/). |
+| [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
+| [get_HasImage](./get_hasimage/)() | Returns **true** if the shape has image bytes or links an image. |
+| [get_HasSmartArt](./get_hassmartart/)() | Returns **true** if this [Shape](./) has a SmartArt object. |
 | [get_Height](../shapebase/get_height/)() | Gets or sets the height of the containing block of the shape. |
 | [get_HorizontalAlignment](../shapebase/get_horizontalalignment/)() | Specifies how the shape is positioned horizontally. |
-| [get_HorizontalRuleFormat](./get_horizontalruleformat/)() | Provides access to the properties of the horizontal rule shape. For a shape that is not a horizontal rule, returns null. |
+| [get_HorizontalRuleFormat](./get_horizontalruleformat/)() | Provides access to the properties of the horizontal rule shape. For a shape that is not a horizontal rule, returns **null**. |
 | [get_HRef](../shapebase/get_href/)() | Gets or sets the full hyperlink address for a shape. |
-| [get_ImageData](./get_imagedata/)() | Provides access to the image of the shape. Returns null if the shape cannot have an image. |
-| [get_IsComposite](../../aspose.words/compositenode/get_iscomposite/)() override | Returns true as this node can have child nodes. |
+| [get_ImageData](./get_imagedata/)() | Provides access to the image of the shape. Returns **null** if the shape cannot have an image. |
+| [get_IsComposite](../../aspose.words/compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
 | [get_IsDecorative](../shapebase/get_isdecorative/)() | Gets or sets the flag that specifies whether the shape is decorative in the document. |
 | [get_IsDeleteRevision](../shapebase/get_isdeleterevision/)() | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
-| [get_IsGroup](../shapebase/get_isgroup/)() | Returns true if this is a group shape. |
-| [get_IsHorizontalRule](../shapebase/get_ishorizontalrule/)() | Returns true if this shape is a horizontal rule. |
-| [get_IsImage](../shapebase/get_isimage/)() | Returns true if this shape is an image shape. |
+| [get_IsGroup](../shapebase/get_isgroup/)() | Returns **true** if this is a group shape. |
+| [get_IsHorizontalRule](../shapebase/get_ishorizontalrule/)() | Returns **true** if this shape is a horizontal rule. |
+| [get_IsImage](../shapebase/get_isimage/)() | Returns **true** if this shape is an image shape. |
 | [get_IsInline](../shapebase/get_isinline/)() | A quick way to determine if this shape is positioned inline with text. |
 | [get_IsInsertRevision](../shapebase/get_isinsertrevision/)() | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
 | [get_IsLayoutInCell](../shapebase/get_islayoutincell/)() | Gets or sets a flag indicating whether the shape is displayed inside a table or outside of it. |
 | [get_IsMoveFromRevision](../shapebase/get_ismovefromrevision/)() | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
 | [get_IsMoveToRevision](../shapebase/get_ismovetorevision/)() | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
 | [get_IsSignatureLine](../shapebase/get_issignatureline/)() | Indicates that shape is a [SignatureLine](../signatureline/). |
-| [get_IsTopLevel](../shapebase/get_istoplevel/)() | Returns true if this shape is not a child of a group shape. |
-| [get_IsWordArt](../shapebase/get_iswordart/)() | Returns true if this shape is a WordArt object. |
+| [get_IsTopLevel](../shapebase/get_istoplevel/)() | Returns **true** if this shape is not a child of a group shape. |
+| [get_IsWordArt](../shapebase/get_iswordart/)() | Returns **true** if this shape is a WordArt object. |
 | [get_LastChild](../../aspose.words/compositenode/get_lastchild/)() const | Gets the last child of the node. |
 | [get_LastParagraph](./get_lastparagraph/)() | Gets the last paragraph in the shape. |
 | [get_Left](../shapebase/get_left/)() | Gets or sets the position of the left edge of the containing block of the shape. |
@@ -84,20 +84,20 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [get_Name](../shapebase/get_name/)() | Gets or sets the optional shape name. |
 | [get_NextSibling](../../aspose.words/node/get_nextsibling/)() | Gets the node immediately following this node. |
 | [get_NodeType](./get_nodetype/)() const override | Returns [Shape](../../aspose.words/nodetype/). |
-| [get_OleFormat](./get_oleformat/)() | Provides access to the OLE data of a shape. For a shape that is not an OLE object or ActiveX control, returns null. |
+| [get_OleFormat](./get_oleformat/)() | Provides access to the OLE data of a shape. For a shape that is not an OLE object or ActiveX control, returns **null**. |
 | [get_ParentNode](../../aspose.words/node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_ParentParagraph](../shapebase/get_parentparagraph/)() | Returns the immediate parent paragraph. |
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
-| [get_Range](../../aspose.words/node/get_range/)() | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [get_Range](../../aspose.words/node/get_range/)() | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [get_RelativeHorizontalPosition](../shapebase/get_relativehorizontalposition/)() | Specifies relative to what the shape is positioned horizontally. |
 | [get_RelativeVerticalPosition](../shapebase/get_relativeverticalposition/)() | Specifies relative to what the shape is positioned vertically. |
 | [get_Right](../shapebase/get_right/)() | Gets the position of the right edge of the containing block of the shape. |
 | [get_Rotation](../shapebase/get_rotation/)() | Defines the angle (in degrees) that a shape is rotated. Positive value corresponds to clockwise rotation angle. |
 | [get_ScreenTip](../shapebase/get_screentip/)() | Defines the text displayed when the mouse pointer moves over the shape. |
-| [get_ShadowEnabled](./get_shadowenabled/)() | Returns true if a shadow effect is enabled. |
+| [get_ShadowEnabled](./get_shadowenabled/)() | Returns **true** if a shadow effect is enabled. |
 | [get_ShadowFormat](../shapebase/get_shadowformat/)() | Gets shadow formatting for the shape. |
 | [get_ShapeType](../shapebase/get_shapetype/)() | Gets the shape type. |
-| [get_SignatureLine](./get_signatureline/)() | Gets [SignatureLine](./get_signatureline/) object if the shape is a signature line. Returns **null** otherwise. |
+| [get_SignatureLine](./get_signatureline/)() | Gets [SignatureLine](../signatureline/) object if the shape is a signature line. Returns **null** otherwise. |
 | [get_SizeInPoints](../shapebase/get_sizeinpoints/)() | Gets the size of the shape in points. |
 | [get_StoryType](./get_storytype/)() | Returns [Textbox](../../aspose.words/storytype/). |
 | [get_Stroke](./get_stroke/)() | Defines a stroke for a shape. |
@@ -121,9 +121,11 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() override | Provides support for the for each style iteration over the child nodes of this node. |
 | [GetShapeRenderer](../shapebase/getshaperenderer/)() | Creates and returns an object that can be used to render this shape into an image. |
 | [GetText](../../aspose.words/compositenode/gettext/)() override | Gets the text of this node and of all its children. |
+| [GetType](./gettype/)() const override |  |
 | [IndexOf](../../aspose.words/compositenode/indexof/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returns the index of the specified child node in the child node array. |
 | [InsertAfter](../../aspose.words/compositenode/insertafter/)(const System::SharedPtr\<Aspose::Words::Node\>\&, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts the specified node immediately after the specified reference node. |
 | [InsertBefore](../../aspose.words/compositenode/insertbefore/)(const System::SharedPtr\<Aspose::Words::Node\>\&, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts the specified node immediately before the specified reference node. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [LocalToParent](../shapebase/localtoparent/)(System::Drawing::PointF) | Converts a value from the local coordinate space into the coordinate space of the parent shape. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets next node according to the pre-order tree traversal algorithm. |
 | static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
@@ -177,6 +179,7 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [Shape](./shape/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, Aspose::Words::Drawing::ShapeType) | Creates a new shape object. |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+| static [Type](./type/)() |  |
 | [UpdateSmartArtDrawing](./updatesmartartdrawing/)() | Updates SmartArt pre-rendered drawing by using [Aspose.Words](../../aspose.words/)'s SmartArt cold rendering engine. |
 ## Remarks
 

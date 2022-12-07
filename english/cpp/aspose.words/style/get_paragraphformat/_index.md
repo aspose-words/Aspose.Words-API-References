@@ -3,7 +3,7 @@ title: get_ParagraphFormat
 second_title: Aspose.Words for C++ API Reference
 description: Gets the paragraph formatting of the style.
 type: docs
-weight: 170
+weight: 183
 url: /cpp/aspose.words/style/get_paragraphformat/
 ---
 ## Style::get_ParagraphFormat method
@@ -18,7 +18,7 @@ System::SharedPtr<Aspose::Words::ParagraphFormat> Aspose::Words::Style::get_Para
 ## Remarks
 
 
-For character and list styles this property returns null.
+For character and list styles this property returns **null**.
 
 ## Examples
 

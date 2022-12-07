@@ -3,7 +3,7 @@ title: get_StatusText
 second_title: Aspose.Words for C++ API Reference
 description: Returns or sets the text that's displayed in the status bar when a form field has the focus.
 type: docs
-weight: 235
+weight: 248
 url: /cpp/aspose.words.fields/formfield/get_statustext/
 ---
 ## FormField::get_StatusText method
@@ -18,7 +18,7 @@ System::String Aspose::Words::Fields::FormField::get_StatusText()
 ## Remarks
 
 
-If the OwnStatus property is set to true, the StatusText property specifies the status bar text. If the OwnStatus property is set to false, the StatusText property specifies the name of an AutoText entry that contains status bar text for the form field.
+If the [OwnStatus](../get_ownstatus/) property is set to **true**, the [StatusText](./) property specifies the status bar text. If the [OwnStatus](../get_ownstatus/) property is set to **false**, the [StatusText](./) property specifies the name of an AutoText entry that contains status bar text for the form field.
 
 Microsoft Word allows strings with at most 138 characters.
 

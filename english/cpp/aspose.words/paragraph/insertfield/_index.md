@@ -3,7 +3,7 @@ title: InsertField
 second_title: Aspose.Words for C++ API Reference
 description: Inserts a field into this paragraph.
 type: docs
-weight: 339
+weight: 365
 url: /cpp/aspose.words/paragraph/insertfield/
 ---
 ## Paragraph::InsertField(Aspose::Words::Fields::FieldType, bool, const System::SharedPtr\<Aspose::Words::Node\>\&, bool) method
@@ -20,7 +20,7 @@ System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Paragraph::Insert
 | --- | --- | --- |
 | fieldType | Aspose::Words::Fields::FieldType | The type of the field to insert. |
 | updateField | bool | Specifies whether to update the field immediately. |
-| refNode | const System::SharedPtr\<Aspose::Words::Node\>\& | Reference node inside this paragraph (if refNode is null, then appends to the end of the paragraph). |
+| refNode | const System::SharedPtr\<Aspose::Words::Node\>\& | Reference node inside this paragraph (if *refNode* is **null**, then appends to the end of the paragraph). |
 | isAfter | bool | Whether to insert the field after or before reference node. |
 
 ### ReturnValue
@@ -87,7 +87,7 @@ System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Paragraph::Insert
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldCode | const System::String\& | The field code to insert (without curly braces). |
-| refNode | const System::SharedPtr\<Aspose::Words::Node\>\& | Reference node inside this paragraph (if refNode is null, then appends to the end of the paragraph). |
+| refNode | const System::SharedPtr\<Aspose::Words::Node\>\& | Reference node inside this paragraph (if *refNode* is **null**, then appends to the end of the paragraph). |
 | isAfter | bool | Whether to insert the field after or before reference node. |
 
 ### ReturnValue
@@ -153,8 +153,8 @@ System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Paragraph::Insert
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldCode | const System::String\& | The field code to insert (without curly braces). |
-| fieldValue | const System::String\& | The field value to insert. Pass null for fields that do not have a value. |
-| refNode | const System::SharedPtr\<Aspose::Words::Node\>\& | Reference node inside this paragraph (if refNode is null, then appends to the end of the paragraph). |
+| fieldValue | const System::String\& | The field value to insert. Pass **null** for fields that do not have a value. |
+| refNode | const System::SharedPtr\<Aspose::Words::Node\>\& | Reference node inside this paragraph (if *refNode* is **null**, then appends to the end of the paragraph). |
 | isAfter | bool | Whether to insert the field after or before reference node. |
 
 ### ReturnValue

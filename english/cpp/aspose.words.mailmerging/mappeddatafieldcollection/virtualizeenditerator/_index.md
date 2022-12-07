@@ -3,7 +3,7 @@ title: virtualizeEndIterator
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 209
+weight: 248
 url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/virtualizeenditerator/
 ---
 ## MappedDataFieldCollection::virtualizeEndIterator method

@@ -3,7 +3,7 @@ title: get_BuiltInDocumentProperties
 second_title: Aspose.Words for C++ API Reference
 description: Returns a collection that represents all the built-in document properties of the document.
 type: docs
-weight: 170
+weight: 183
 url: /cpp/aspose.words/document/get_builtindocumentproperties/
 ---
 ## Document::get_BuiltInDocumentProperties method

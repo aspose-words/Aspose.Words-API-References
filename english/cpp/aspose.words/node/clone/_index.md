@@ -3,7 +3,7 @@ title: Clone
 second_title: Aspose.Words for C++ API Reference
 description: Creates a duplicate of the node.
 type: docs
-weight: 14
+weight: 40
 url: /cpp/aspose.words/node/clone/
 ---
 ## Node::Clone method
@@ -28,7 +28,7 @@ The cloned node.
 
 This method serves as a copy constructor for nodes. The cloned node has no parent, but belongs to the same document as the original node.
 
-This method always performs a deep copy of the node. The isCloneChildren parameter specifies whether to perform copy all child nodes as well.
+This method always performs a deep copy of the node. The *isCloneChildren* parameter specifies whether to perform copy all child nodes as well.
 
 ## Examples
 

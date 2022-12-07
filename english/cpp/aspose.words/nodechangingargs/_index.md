@@ -1,7 +1,7 @@
 ---
 title: NodeChangingArgs
 second_title: Aspose.Words for C++ API Reference
-description: Provides data for methods of the INodeChangingCallback interface.
+description: Provides data for methods of the INodeChangingCallback interface. To learn more, visit the  documentation article.
 type: docs
 weight: 534
 url: /cpp/aspose.words/nodechangingargs/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/nodechangingargs/
 ## NodeChangingArgs class
 
 
-Provides data for methods of the [INodeChangingCallback](../inodechangingcallback/) interface.
+Provides data for methods of the [INodeChangingCallback](../inodechangingcallback/) interface. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class NodeChangingArgs : public System::Object
@@ -23,6 +23,9 @@ class NodeChangingArgs : public System::Object
 | [get_NewParent](./get_newparent/)() const | Gets the node's parent that will be set after the operation completes. |
 | [get_Node](./get_node/)() const | Gets the [Node](./get_node/) that is being added or removed. |
 | [get_OldParent](./get_oldparent/)() const | Gets the node's parent before the operation began. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

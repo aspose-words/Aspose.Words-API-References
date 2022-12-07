@@ -3,7 +3,7 @@ title: get_IsAuto
 second_title: Aspose.Words for C++ API Reference
 description: Returns a flag indicating that axis bound should be determined automatically.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/aspose.words.drawing.charts/axisbound/get_isauto/
 ---
 ## AxisBound::get_IsAuto method

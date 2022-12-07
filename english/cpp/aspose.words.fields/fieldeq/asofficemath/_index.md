@@ -3,7 +3,7 @@ title: AsOfficeMath
 second_title: Aspose.Words for C++ API Reference
 description: Returns Office Math object corresponded to the EQ field.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.fields/fieldeq/asofficemath/
 ---
 ## FieldEQ::AsOfficeMath method

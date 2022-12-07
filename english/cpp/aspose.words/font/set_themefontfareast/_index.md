@@ -3,7 +3,7 @@ title: set_ThemeFontFarEast
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Font::get_ThemeFontFarEast.'
 type: docs
-weight: 1301
+weight: 1340
 url: /cpp/aspose.words/font/set_themefontfareast/
 ---
 ## Font::set_ThemeFontFarEast method

@@ -26,9 +26,12 @@ class Bookmark : public System::Object
 | [get_LastColumn](./get_lastcolumn/)() | Gets the zero-based index of the last column of the table column range associated with the bookmark. |
 | [get_Name](./get_name/)() | Gets or sets the name of the bookmark. |
 | [get_Text](./get_text/)() | Gets or sets the text enclosed in the bookmark. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](./remove/)() | Removes the bookmark from the document. Does not remove text inside the bookmark. |
 | [set_Name](./set_name/)(const System::String\&) | Setter for [Aspose::Words::Bookmark::get_Name](./get_name/). |
 | [set_Text](./set_text/)(const System::String\&) | Setter for [Aspose::Words::Bookmark::get_Text](./get_text/). |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

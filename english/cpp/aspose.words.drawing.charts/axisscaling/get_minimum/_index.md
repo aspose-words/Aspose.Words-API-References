@@ -3,7 +3,7 @@ title: get_Minimum
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets minimum value of the axis.
 type: docs
-weight: 40
+weight: 53
 url: /cpp/aspose.words.drawing.charts/axisscaling/get_minimum/
 ---
 ## AxisScaling::get_Minimum method

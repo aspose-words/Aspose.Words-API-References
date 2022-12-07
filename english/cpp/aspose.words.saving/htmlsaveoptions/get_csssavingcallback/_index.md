@@ -3,7 +3,7 @@ title: get_CssSavingCallback
 second_title: Aspose.Words for C++ API Reference
 description: Allows to control how CSS styles are saved when a document is saved to HTML, MHTML or EPUB.
 type: docs
-weight: 40
+weight: 53
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_csssavingcallback/
 ---
 ## HtmlSaveOptions::get_CssSavingCallback method

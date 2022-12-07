@@ -1,7 +1,7 @@
 ---
 title: Cell
 second_title: Aspose.Words for C++ API Reference
-description: Represents a table cell.
+description: Represents a table cell. To learn more, visit the  documentation article.
 type: docs
 weight: 1
 url: /cpp/aspose.words.tables/cell/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.tables/cell/
 ## Cell class
 
 
-Represents a table cell.
+Represents a table cell. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article.
 
 ```cpp
 class Cell : public Aspose::Words::CompositeNode,
@@ -23,7 +23,7 @@ class Cell : public Aspose::Words::CompositeNode,
 | --- | --- |
 | [Accept](./accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor. |
 | [AppendChild](../../aspose.words/compositenode/appendchild/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Adds the specified node to the end of the list of child nodes for this node. |
-| [Cell](./cell/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&) | Initializes a new instance of the **Cell** class. |
+| [Cell](./cell/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&) | Initializes a new instance of the [Cell](./) class. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
 | [EnsureMinimum](./ensureminimum/)() | If the last child is not a paragraph, creates and appends one empty paragraph. |
 | [get_CellFormat](./get_cellformat/)() | Provides access to the formatting properties of the cell. |
@@ -33,19 +33,19 @@ class Cell : public Aspose::Words::CompositeNode,
 | virtual [get_Document](../../aspose.words/node/get_document/)() const | Gets the document to which this node belongs. |
 | [get_FirstChild](../../aspose.words/compositenode/get_firstchild/)() const | Gets the first child of the node. |
 | [get_FirstParagraph](./get_firstparagraph/)() | Gets the first paragraph among the immediate children. |
-| [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns true if this node has any child nodes. |
-| [get_IsComposite](../../aspose.words/compositenode/get_iscomposite/)() override | Returns true as this node can have child nodes. |
+| [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
+| [get_IsComposite](../../aspose.words/compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
 | [get_IsFirstCell](./get_isfirstcell/)() | True if this is the first cell inside a row; false otherwise. |
 | [get_IsLastCell](./get_islastcell/)() | True if this is the last cell inside a row; false otherwise. |
 | [get_LastChild](../../aspose.words/compositenode/get_lastchild/)() const | Gets the last child of the node. |
 | [get_LastParagraph](./get_lastparagraph/)() | Gets the last paragraph among the immediate children. |
 | [get_NextSibling](../../aspose.words/node/get_nextsibling/)() | Gets the node immediately following this node. |
-| [get_NodeType](./get_nodetype/)() const override | Returns **NodeType.Cell**. |
+| [get_NodeType](./get_nodetype/)() const override | Returns [Cell](../../aspose.words/nodetype/). |
 | [get_Paragraphs](./get_paragraphs/)() | Gets a collection of paragraphs that are immediate children of the cell. |
 | [get_ParentNode](../../aspose.words/node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_ParentRow](./get_parentrow/)() | Returns the parent row of the cell. |
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
-| [get_Range](../../aspose.words/node/get_range/)() | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [get_Range](../../aspose.words/node/get_range/)() | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [get_Tables](./get_tables/)() | Gets a collection of tables that are immediate children of the cell. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/). |
 | [GetAncestorOf](../../aspose.words/node/getancestorof/)() |  |
@@ -53,9 +53,11 @@ class Cell : public Aspose::Words::CompositeNode,
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(Aspose::Words::NodeType, bool) | Returns a live collection of child nodes that match the specified type. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() override | Provides support for the for each style iteration over the child nodes of this node. |
 | [GetText](../../aspose.words/compositenode/gettext/)() override | Gets the text of this node and of all its children. |
+| [GetType](./gettype/)() const override |  |
 | [IndexOf](../../aspose.words/compositenode/indexof/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returns the index of the specified child node in the child node array. |
 | [InsertAfter](../../aspose.words/compositenode/insertafter/)(const System::SharedPtr\<Aspose::Words::Node\>\&, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts the specified node immediately after the specified reference node. |
 | [InsertBefore](../../aspose.words/compositenode/insertbefore/)(const System::SharedPtr\<Aspose::Words::Node\>\&, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts the specified node immediately before the specified reference node. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets next node according to the pre-order tree traversal algorithm. |
 | static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
 | [PrependChild](../../aspose.words/compositenode/prependchild/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Adds the specified node to the beginning of the list of child nodes for this node. |
@@ -70,14 +72,15 @@ class Cell : public Aspose::Words::CompositeNode,
 | [SetTemplateWeakPtr](../../aspose.words/compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+| static [Type](./type/)() |  |
 ## Remarks
 
 
-**Cell** can only be a child of a **Row**.
+[Cell](./) can only be a child of a [Row](../row/).
 
-**Cell** can contain block-level nodes **Paragraph** and **Table**.
+[Cell](./) can contain block-level nodes [Paragraph](../../aspose.words/paragraph/) and [Table](../table/).
 
-A minimal valid cell needs to have at least one **Paragraph**.
+A minimal valid cell needs to have at least one [Paragraph](../../aspose.words/paragraph/).
 
 ## Examples
 

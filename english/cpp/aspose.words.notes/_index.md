@@ -13,9 +13,9 @@ The **Aspose.Words.Notes** namespace provides classes to work with Microsoft Wor
 
 | Class | Description |
 | --- | --- |
-| [EndnoteOptions](./endnoteoptions/) | Represents the endnote numbering options for a document or section. |
-| [Footnote](./footnote/) | Represents a container for text of a footnote or endnote. |
-| [FootnoteOptions](./footnoteoptions/) | Represents the footnote numbering options for a document or section. |
+| [EndnoteOptions](./endnoteoptions/) | Represents the endnote numbering options for a document or section. To learn more, visit the [Working with Footnote and Endnote](https://docs.aspose.com/words/cpp/working-with-footnote-and-endnote/) documentation article. |
+| [Footnote](./footnote/) | Represents a container for text of a footnote or endnote. To learn more, visit the [Working with Footnote and Endnote](https://docs.aspose.com/words/cpp/working-with-footnote-and-endnote/) documentation article. |
+| [FootnoteOptions](./footnoteoptions/) | Represents the footnote numbering options for a document or section. To learn more, visit the [Working with Footnote and Endnote](https://docs.aspose.com/words/cpp/working-with-footnote-and-endnote/) documentation article. |
 ## Enums
 
 | Enum | Description |

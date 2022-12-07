@@ -1,15 +1,15 @@
 ---
 title: get_NodeType
 second_title: Aspose.Words for C++ API Reference
-description: Returns NodeType.Run.
+description: Returns Run.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/aspose.words/run/get_nodetype/
 ---
 ## Run::get_NodeType method
 
 
-Returns **NodeType.Run**.
+Returns [Run](../../nodetype/).
 
 ```cpp
 Aspose::Words::NodeType Aspose::Words::Run::get_NodeType() const override

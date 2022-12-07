@@ -3,7 +3,7 @@ title: get_ThemeFontFarEast
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the East Asian theme font in the applied font scheme that is associated with this Font object.
 type: docs
-weight: 651
+weight: 664
 url: /cpp/aspose.words/font/get_themefontfareast/
 ---
 ## Font::get_ThemeFontFarEast method

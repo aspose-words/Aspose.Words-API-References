@@ -3,7 +3,7 @@ title: GetEnumerator
 second_title: Aspose.Words for C++ API Reference
 description: Provides support for the for each style iteration over the child nodes of this node.
 type: docs
-weight: 274
+weight: 287
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/getenumerator/
 ---
 ## StructuredDocumentTagRangeStart::GetEnumerator method

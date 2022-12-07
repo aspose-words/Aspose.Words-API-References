@@ -3,7 +3,7 @@ title: get_Justification
 second_title: Aspose.Words for C++ API Reference
 description: Gets/sets Office Math justification.
 type: docs
-weight: 40
+weight: 53
 url: /cpp/aspose.words.math/officemath/get_justification/
 ---
 ## OfficeMath::get_Justification method

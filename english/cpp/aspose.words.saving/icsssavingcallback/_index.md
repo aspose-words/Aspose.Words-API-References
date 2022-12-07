@@ -20,6 +20,9 @@ class ICssSavingCallback : public virtual System::Object
 | Method | Description |
 | --- | --- |
 | virtual [CssSaving](./csssaving/)(System::SharedPtr\<Aspose::Words::Saving::CssSavingArgs\>) | Called when Aspose.Words saves an CSS (Cascading [Style](../../aspose.words/style/) Sheet). |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

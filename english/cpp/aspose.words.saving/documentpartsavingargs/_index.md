@@ -1,7 +1,7 @@
 ---
 title: DocumentPartSavingArgs
 second_title: Aspose.Words for C++ API Reference
-description: Provides data for the DocumentPartSaving() callback.
+description: Provides data for the DocumentPartSaving() callback. To learn more, visit the  documentation article.
 type: docs
 weight: 40
 url: /cpp/aspose.words.saving/documentpartsavingargs/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/documentpartsavingargs/
 ## DocumentPartSavingArgs class
 
 
-Provides data for the [DocumentPartSaving()](../idocumentpartsavingcallback/documentpartsaving/) callback.
+Provides data for the [DocumentPartSaving()](../idocumentpartsavingcallback/documentpartsaving/) callback. To learn more, visit the [Save a Document](https://docs.aspose.com/words/cpp/save-a-document/) documentation article.
 
 ```cpp
 class DocumentPartSavingArgs : public System::Object
@@ -23,10 +23,13 @@ class DocumentPartSavingArgs : public System::Object
 | [get_DocumentPartFileName](./get_documentpartfilename/)() const | Gets or sets the file name (without path) where the document part will be saved to. |
 | [get_DocumentPartStream](./get_documentpartstream/)() const | Allows to specify the stream where the document part will be saved to. |
 | [get_KeepDocumentPartStreamOpen](./get_keepdocumentpartstreamopen/)() const | Specifies whether Aspose.Words should keep the stream open or close it after saving a document part. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_DocumentPartFileName](./set_documentpartfilename/)(const System::String\&) | Setter for [Aspose::Words::Saving::DocumentPartSavingArgs::get_DocumentPartFileName](./get_documentpartfilename/). |
 | [set_DocumentPartStream](./set_documentpartstream/)(const System::SharedPtr\<System::IO::Stream\>\&) | Setter for [Aspose::Words::Saving::DocumentPartSavingArgs::get_DocumentPartStream](./get_documentpartstream/). |
 | [set_DocumentPartStream](./set_documentpartstream/)(std::basic_ostream\<CharType, Traits\>\&) |  |
 | [set_KeepDocumentPartStreamOpen](./set_keepdocumentpartstreamopen/)(bool) | Setter for [Aspose::Words::Saving::DocumentPartSavingArgs::get_KeepDocumentPartStreamOpen](./get_keepdocumentpartstreamopen/). |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

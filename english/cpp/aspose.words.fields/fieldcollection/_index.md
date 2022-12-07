@@ -1,7 +1,7 @@
 ---
 title: FieldCollection
 second_title: Aspose.Words for C++ API Reference
-description: A collection of Field objects that represents the fields in the specified range.
+description: A collection of Field objects that represents the fields in the specified range. To learn more, visit the  documentation article.
 type: docs
 weight: 287
 url: /cpp/aspose.words.fields/fieldcollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fields/fieldcollection/
 ## FieldCollection class
 
 
-A collection of [Field](../field/) objects that represents the fields in the specified range.
+A collection of [Field](../field/) objects that represents the fields in the specified range. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class FieldCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Fields::Field>>
@@ -22,9 +22,12 @@ class FieldCollection : public System::Collections::Generic::IEnumerable<System:
 | [Clear](./clear/)() | Removes all fields of this collection from the document and from this collection itself. |
 | [get_Count](./get_count/)() | Returns the number of the fields in the collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Returns a field at the specified index. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](./remove/)(const System::SharedPtr\<Aspose::Words::Fields::Field\>\&) | Removes the specified field from this collection and from the document. |
 | [RemoveAt](./removeat/)(int32_t) | Removes a field at the specified index from this collection and from the document. |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

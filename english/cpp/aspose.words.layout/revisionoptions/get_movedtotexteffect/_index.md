@@ -3,7 +3,7 @@ title: get_MovedToTextEffect
 second_title: Aspose.Words for C++ API Reference
 description: Allows to specify the effect to be applied to the areas where content was moved to Moving. Default value is DoubleUnderline
 type: docs
-weight: 118
+weight: 131
 url: /cpp/aspose.words.layout/revisionoptions/get_movedtotexteffect/
 ---
 ## RevisionOptions::get_MovedToTextEffect method

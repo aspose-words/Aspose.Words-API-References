@@ -3,7 +3,7 @@ title: get_ParentNode
 second_title: Aspose.Words for C++ API Reference
 description: Gets the immediate parent of this node.
 type: docs
-weight: 92
+weight: 118
 url: /cpp/aspose.words/node/get_parentnode/
 ---
 ## Node::get_ParentNode method
@@ -18,7 +18,7 @@ System::SharedPtr<Aspose::Words::CompositeNode> Aspose::Words::Node::get_ParentN
 ## Remarks
 
 
-If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is null.
+If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is **null**.
 
 ## Examples
 

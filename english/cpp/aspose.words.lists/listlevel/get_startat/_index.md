@@ -3,7 +3,7 @@ title: get_StartAt
 second_title: Aspose.Words for C++ API Reference
 description: Returns or sets the starting number for this list level.
 type: docs
-weight: 170
+weight: 196
 url: /cpp/aspose.words.lists/listlevel/get_startat/
 ---
 ## ListLevel::get_StartAt method

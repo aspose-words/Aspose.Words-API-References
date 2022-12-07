@@ -3,7 +3,7 @@ title: get_Enabled
 second_title: Aspose.Words for C++ API Reference
 description: True if a form field is enabled.
 type: docs
-weight: 92
+weight: 105
 url: /cpp/aspose.words.fields/formfield/get_enabled/
 ---
 ## FormField::get_Enabled method

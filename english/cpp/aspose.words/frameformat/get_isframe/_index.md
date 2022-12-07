@@ -3,13 +3,13 @@ title: get_IsFrame
 second_title: Aspose.Words for C++ API Reference
 description: Returns true if the paragraph is a frame.
 type: docs
-weight: 66
+weight: 79
 url: /cpp/aspose.words/frameformat/get_isframe/
 ---
 ## FrameFormat::get_IsFrame method
 
 
-Returns true if the paragraph is a frame.
+Returns **true** if the paragraph is a frame.
 
 ```cpp
 bool Aspose::Words::FrameFormat::get_IsFrame()

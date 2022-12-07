@@ -19,7 +19,10 @@ class IDocumentReaderPlugin : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | virtual [Read](./read/)(System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>, System::SharedPtr\<Aspose::Words::Document\>) | Reads the data from the specified stream into the [Document](../document/) instance. |
+| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words](../)

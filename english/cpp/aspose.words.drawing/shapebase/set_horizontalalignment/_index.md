@@ -3,7 +3,7 @@ title: set_HorizontalAlignment
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Drawing::ShapeBase::get_HorizontalAlignment.'
 type: docs
-weight: 937
+weight: 976
 url: /cpp/aspose.words.drawing/shapebase/set_horizontalalignment/
 ---
 ## ShapeBase::set_HorizontalAlignment method

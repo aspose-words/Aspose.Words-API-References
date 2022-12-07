@@ -1,7 +1,7 @@
 ---
 title: WriteProtection
 second_title: Aspose.Words for C++ API Reference
-description: Specifies write protection settings for a document.
+description: Specifies write protection settings for a document. To learn more, visit the  documentation article.
 type: docs
 weight: 118
 url: /cpp/aspose.words.settings/writeprotection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.settings/writeprotection/
 ## WriteProtection class
 
 
-Specifies write protection settings for a document.
+Specifies write protection settings for a document. To learn more, visit the [Protect or Encrypt a Document](https://docs.aspose.com/words/cpp/protect-or-encrypt-a-document/) documentation article.
 
 ```cpp
 class WriteProtection : public System::Object
@@ -19,11 +19,14 @@ class WriteProtection : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_IsWriteProtected](./get_iswriteprotected/)() | Returns true when a write protection password is set. |
+| [get_IsWriteProtected](./get_iswriteprotected/)() | Returns **true** when a write protection password is set. |
 | [get_ReadOnlyRecommended](./get_readonlyrecommended/)() const | Specifies whether the document author has recommended that the document be opened as read-only. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_ReadOnlyRecommended](./set_readonlyrecommended/)(bool) | Setter for [Aspose::Words::Settings::WriteProtection::get_ReadOnlyRecommended](./get_readonlyrecommended/). |
 | [SetPassword](./setpassword/)(const System::String\&) | Sets the write protection password for the document. |
-| [ValidatePassword](./validatepassword/)(const System::String\&) | Returns true if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns false. |
+| static [Type](./type/)() |  |
+| [ValidatePassword](./validatepassword/)(const System::String\&) | Returns **true** if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns **false**. |
 ## Remarks
 
 

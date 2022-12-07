@@ -3,7 +3,7 @@ title: get_SourceItem
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets a string that is used to identify the portion of the source file that is being linked.
 type: docs
-weight: 131
+weight: 144
 url: /cpp/aspose.words.drawing/oleformat/get_sourceitem/
 ---
 ## OleFormat::get_SourceItem method

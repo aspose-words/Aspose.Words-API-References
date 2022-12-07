@@ -1,7 +1,7 @@
 ---
 title: TaskPaneCollection
 second_title: Aspose.Words for C++ API Reference
-description: Specifies a list of persisted task pane objects.
+description: Specifies a list of persisted task pane objects. To learn more, visit the  documentation article.
 type: docs
 weight: 27
 url: /cpp/aspose.words.webextensions/taskpanecollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.webextensions/taskpanecollection/
 ## TaskPaneCollection class
 
 
-Specifies a list of persisted task pane objects.
+Specifies a list of persisted task pane objects. To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/cpp/work-with-office-add-ins/) documentation article.
 
 ```cpp
 class TaskPaneCollection : public Aspose::Words::WebExtensions::BaseWebExtensionCollection<System::SharedPtr<Aspose::Words::WebExtensions::TaskPane>>
@@ -19,7 +19,10 @@ class TaskPaneCollection : public Aspose::Words::WebExtensions::BaseWebExtension
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [SetTemplateWeakPtr](./settemplateweakptr/)(uint32_t) override |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

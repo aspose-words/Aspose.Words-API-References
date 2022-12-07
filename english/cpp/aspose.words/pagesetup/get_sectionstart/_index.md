@@ -3,7 +3,7 @@ title: get_SectionStart
 second_title: Aspose.Words for C++ API Reference
 description: Returns or sets the type of section break for the specified object.
 type: docs
-weight: 495
+weight: 508
 url: /cpp/aspose.words/pagesetup/get_sectionstart/
 ---
 ## PageSetup::get_SectionStart method

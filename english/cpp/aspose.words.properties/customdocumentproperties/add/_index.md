@@ -1,15 +1,15 @@
 ---
 title: Add
 second_title: Aspose.Words for C++ API Reference
-description: Creates a new custom document property of the PropertyType.Boolean data type.
+description: Creates a new custom document property of the Boolean data type.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.properties/customdocumentproperties/add/
 ---
 ## CustomDocumentProperties::Add(const System::String\&, bool) method
 
 
-Creates a new custom document property of the **PropertyType.Boolean** data type.
+Creates a new custom document property of the [Boolean](../../propertytype/) data type.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Properties::DocumentProperty> Aspose::Words::Properties::CustomDocumentProperties::Add(const System::String &name, bool value)
@@ -96,7 +96,7 @@ ASSERT_EQ(0, properties->get_Count());
 ## CustomDocumentProperties::Add(const System::String\&, const System::String\&) method
 
 
-Creates a new custom document property of the **PropertyType.String** data type.
+Creates a new custom document property of the [String](../../propertytype/) data type.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Properties::DocumentProperty> Aspose::Words::Properties::CustomDocumentProperties::Add(const System::String &name, const System::String &value)
@@ -183,7 +183,7 @@ ASSERT_EQ(0, properties->get_Count());
 ## CustomDocumentProperties::Add(const System::String\&, double) method
 
 
-Creates a new custom document property of the **PropertyType.Float** data type.
+Creates a new custom document property of the [Double](../../propertytype/) data type.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Properties::DocumentProperty> Aspose::Words::Properties::CustomDocumentProperties::Add(const System::String &name, double value)
@@ -270,7 +270,7 @@ ASSERT_EQ(0, properties->get_Count());
 ## CustomDocumentProperties::Add(const System::String\&, int32_t) method
 
 
-Creates a new custom document property of the **PropertyType.Number** data type.
+Creates a new custom document property of the [Number](../../propertytype/) data type.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Properties::DocumentProperty> Aspose::Words::Properties::CustomDocumentProperties::Add(const System::String &name, int32_t value)
@@ -357,7 +357,7 @@ ASSERT_EQ(0, properties->get_Count());
 ## CustomDocumentProperties::Add(const System::String\&, System::DateTime) method
 
 
-Creates a new custom document property of the **PropertyType.DateTime** data type.
+Creates a new custom document property of the [DateTime](../../propertytype/) data type.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Properties::DocumentProperty> Aspose::Words::Properties::CustomDocumentProperties::Add(const System::String &name, System::DateTime value)

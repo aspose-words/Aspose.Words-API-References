@@ -1,15 +1,15 @@
 ---
 title: get_NodeType
 second_title: Aspose.Words for C++ API Reference
-description: Returns NodeType.Comment.
+description: Returns Comment.
 type: docs
-weight: 118
+weight: 131
 url: /cpp/aspose.words/comment/get_nodetype/
 ---
 ## Comment::get_NodeType method
 
 
-Returns **NodeType.Comment**.
+Returns [Comment](../../nodetype/).
 
 ```cpp
 Aspose::Words::NodeType Aspose::Words::Comment::get_NodeType() const override

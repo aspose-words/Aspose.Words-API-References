@@ -1,7 +1,7 @@
 ---
 title: DocumentPropertyCollection
 second_title: Aspose.Words for C++ API Reference
-description: Base class for BuiltInDocumentProperties and CustomDocumentProperties collections.
+description: Base class for BuiltInDocumentProperties and CustomDocumentProperties collections. To learn more, visit the  documentation article.
 type: docs
 weight: 40
 url: /cpp/aspose.words.properties/documentpropertycollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.properties/documentpropertycollection/
 ## DocumentPropertyCollection class
 
 
-Base class for [BuiltInDocumentProperties](../builtindocumentproperties/) and [CustomDocumentProperties](../customdocumentproperties/) collections.
+Base class for [BuiltInDocumentProperties](../builtindocumentproperties/) and [CustomDocumentProperties](../customdocumentproperties/) collections. To learn more, visit the [Work with Document Properties](https://docs.aspose.com/words/cpp/work-with-document-properties/) documentation article.
 
 ```cpp
 class DocumentPropertyCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Properties::DocumentProperty>>
@@ -20,14 +20,17 @@ class DocumentPropertyCollection : public System::Collections::Generic::IEnumera
 | Method | Description |
 | --- | --- |
 | [Clear](./clear/)() | Removes all properties from the collection. |
-| [Contains](./contains/)(const System::String\&) | Returns true if a property with the specified name exists in the collection. |
+| [Contains](./contains/)(const System::String\&) | Returns **true** if a property with the specified name exists in the collection. |
 | [get_Count](./get_count/)() | Gets number of items in the collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
+| [GetType](./gettype/)() const override |  |
 | virtual [idx_get](./idx_get/)(System::String) | Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
 | [idx_get](./idx_get/)(int32_t) | Returns a [DocumentProperty](../documentproperty/) object by index. |
 | [IndexOf](./indexof/)(const System::String\&) | Gets the index of a property by name. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](./remove/)(const System::String\&) | Removes a property with the specified name from the collection. |
 | [RemoveAt](./removeat/)(int32_t) | Removes a property at the specified index. |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

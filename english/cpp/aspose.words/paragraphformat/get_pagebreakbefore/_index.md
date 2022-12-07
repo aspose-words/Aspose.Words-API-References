@@ -3,7 +3,7 @@ title: get_PageBreakBefore
 second_title: Aspose.Words for C++ API Reference
 description: True if a page break is forced before the paragraph.
 type: docs
-weight: 326
+weight: 339
 url: /cpp/aspose.words/paragraphformat/get_pagebreakbefore/
 ---
 ## ParagraphFormat::get_PageBreakBefore method

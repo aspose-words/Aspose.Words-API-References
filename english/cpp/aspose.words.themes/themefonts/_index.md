@@ -1,7 +1,7 @@
 ---
 title: ThemeFonts
 second_title: Aspose.Words for C++ API Reference
-description: Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages Latin, EastAsian and ComplexScript.
+description: Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages Latin, EastAsian and ComplexScript. To learn more, visit the  documentation article.
 type: docs
 weight: 27
 url: /cpp/aspose.words.themes/themefonts/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.themes/themefonts/
 ## ThemeFonts class
 
 
-Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages [Latin](./get_latin/), [EastAsian](./get_eastasian/) and [ComplexScript](./get_complexscript/).
+Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages [Latin](./get_latin/), [EastAsian](./get_eastasian/) and [ComplexScript](./get_complexscript/). To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article.
 
 ```cpp
 class ThemeFonts : public System::Object
@@ -22,9 +22,12 @@ class ThemeFonts : public System::Object
 | [get_ComplexScript](./get_complexscript/)() | Specifies font name for ComplexScript characters. |
 | [get_EastAsian](./get_eastasian/)() | Specifies font name for EastAsian characters. |
 | [get_Latin](./get_latin/)() | Specifies font name for Latin characters. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_ComplexScript](./set_complexscript/)(const System::String\&) | Setter for [Aspose::Words::Themes::ThemeFonts::get_ComplexScript](./get_complexscript/). |
 | [set_EastAsian](./set_eastasian/)(const System::String\&) | Setter for [Aspose::Words::Themes::ThemeFonts::get_EastAsian](./get_eastasian/). |
 | [set_Latin](./set_latin/)(const System::String\&) | Setter for [Aspose::Words::Themes::ThemeFonts::get_Latin](./get_latin/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

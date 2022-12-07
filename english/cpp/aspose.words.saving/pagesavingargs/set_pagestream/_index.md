@@ -3,7 +3,7 @@ title: set_PageStream
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Saving::PageSavingArgs::get_PageStream.'
 type: docs
-weight: 92
+weight: 131
 url: /cpp/aspose.words.saving/pagesavingargs/set_pagestream/
 ---
 ## PageSavingArgs::set_PageStream(const System::SharedPtr\<System::IO::Stream\>\&) method

@@ -3,7 +3,7 @@ title: get_OriginalFileSize
 second_title: Aspose.Words for C++ API Reference
 description: Gets the original font file size.
 type: docs
-weight: 131
+weight: 144
 url: /cpp/aspose.words.saving/fontsavingargs/get_originalfilesize/
 ---
 ## FontSavingArgs::get_OriginalFileSize method

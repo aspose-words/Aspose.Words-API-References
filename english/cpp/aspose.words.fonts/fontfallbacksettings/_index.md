@@ -1,7 +1,7 @@
 ---
 title: FontFallbackSettings
 second_title: Aspose.Words for C++ API Reference
-description: Specifies font fallback mechanism settings.
+description: Specifies font fallback mechanism settings. To learn more, visit the  documentation article.
 type: docs
 weight: 53
 url: /cpp/aspose.words.fonts/fontfallbacksettings/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fonts/fontfallbacksettings/
 ## FontFallbackSettings class
 
 
-Specifies font fallback mechanism settings.
+Specifies font fallback mechanism settings. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
 
 ```cpp
 class FontFallbackSettings : public System::Object
@@ -20,6 +20,8 @@ class FontFallbackSettings : public System::Object
 | Method | Description |
 | --- | --- |
 | [BuildAutomatic](./buildautomatic/)() | Automatically builds the fallback settings by scanning available fonts. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Load](./load/)(const System::String\&) | Loads font fallback settings from XML file. |
 | [Load](./load/)(const System::SharedPtr\<System::IO::Stream\>\&) | Loads fallback settings from XML stream. |
 | [Load](./load/)(std::basic_istream\<CharType, Traits\>\&) |  |
@@ -28,6 +30,7 @@ class FontFallbackSettings : public System::Object
 | [Save](./save/)(const System::SharedPtr\<System::IO::Stream\>\&) | Saves the current fallback settings to stream. |
 | [Save](./save/)(const System::String\&) | Saves the current fallback settings to file. |
 | [Save](./save/)(std::basic_ostream\<CharType, Traits\>\&) |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

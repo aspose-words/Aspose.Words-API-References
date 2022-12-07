@@ -3,13 +3,13 @@ title: get_HasChart
 second_title: Aspose.Words for C++ API Reference
 description: Returns true if this Shape has a Chart.
 type: docs
-weight: 92
+weight: 105
 url: /cpp/aspose.words.drawing/shape/get_haschart/
 ---
 ## Shape::get_HasChart method
 
 
-Returns true if this [Shape](../) has a [Chart](../get_chart/).
+Returns **true** if this [Shape](../) has a [Chart](../../../aspose.words.drawing.charts/chart/).
 
 ```cpp
 bool Aspose::Words::Drawing::Shape::get_HasChart()

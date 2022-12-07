@@ -1,7 +1,7 @@
 ---
 title: RevisionOptions
 second_title: Aspose.Words for C++ API Reference
-description: Allows to control how document revisions are handled during layout process.
+description: Allows to control how document revisions are handled during layout process. To learn more, visit the  documentation article.
 type: docs
 weight: 53
 url: /cpp/aspose.words.layout/revisionoptions/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.layout/revisionoptions/
 ## RevisionOptions class
 
 
-Allows to control how document revisions are handled during layout process.
+Allows to control how document revisions are handled during layout process. To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/cpp/converting-to-fixed-page-format/) documentation article.
 
 ```cpp
 class RevisionOptions : public System::Object
@@ -35,9 +35,11 @@ class RevisionOptions : public System::Object
 | [get_RevisionBarsPosition](./get_revisionbarsposition/)() const | Gets rendering position of revision bars. Default value is [Outside](../../aspose.words.drawing/horizontalalignment/). |
 | [get_RevisionBarsWidth](./get_revisionbarswidth/)() const | Gets or sets width of revision bars, points. |
 | [get_ShowInBalloons](./get_showinballoons/)() const | Allows to specify whether the revisions are rendered in the balloons. Default value is [None](../showinballoons/). |
-| [get_ShowOriginalRevision](./get_showoriginalrevision/)() const | Allows to specify whether the original text should be shown instead of revised one. Default value is False. |
-| [get_ShowRevisionBars](./get_showrevisionbars/)() const | Allows to specify whether revision bars should be rendered near lines containing revised content. Default value is True. |
-| [get_ShowRevisionMarks](./get_showrevisionmarks/)() const | Allow to specify whether revision text should be marked with special formatting markup. Default value is True. |
+| [get_ShowOriginalRevision](./get_showoriginalrevision/)() const | Allows to specify whether the original text should be shown instead of revised one. Default value is **false**. |
+| [get_ShowRevisionBars](./get_showrevisionbars/)() const | Allows to specify whether revision bars should be rendered near lines containing revised content. Default value is **true**. |
+| [get_ShowRevisionMarks](./get_showrevisionmarks/)() const | Allow to specify whether revision text should be marked with special formatting markup. Default value is **true**. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_CommentColor](./set_commentcolor/)(Aspose::Words::Layout::RevisionColor) | Setter for [Aspose::Words::Layout::RevisionOptions::get_CommentColor](./get_commentcolor/). |
 | [set_DeletedTextColor](./set_deletedtextcolor/)(Aspose::Words::Layout::RevisionColor) | Setter for [Aspose::Words::Layout::RevisionOptions::get_DeletedTextColor](./get_deletedtextcolor/). |
 | [set_DeletedTextEffect](./set_deletedtexteffect/)(Aspose::Words::Layout::RevisionTextEffect) | Setter for [Aspose::Words::Layout::RevisionOptions::get_DeletedTextEffect](./get_deletedtexteffect/). |
@@ -57,6 +59,7 @@ class RevisionOptions : public System::Object
 | [set_ShowOriginalRevision](./set_showoriginalrevision/)(bool) | Setter for [Aspose::Words::Layout::RevisionOptions::get_ShowOriginalRevision](./get_showoriginalrevision/). |
 | [set_ShowRevisionBars](./set_showrevisionbars/)(bool) | Setter for [Aspose::Words::Layout::RevisionOptions::get_ShowRevisionBars](./get_showrevisionbars/). |
 | [set_ShowRevisionMarks](./set_showrevisionmarks/)(bool) | Setter for [Aspose::Words::Layout::RevisionOptions::get_ShowRevisionMarks](./get_showrevisionmarks/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

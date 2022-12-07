@@ -3,7 +3,7 @@ title: ImportNode
 second_title: Aspose.Words for C++ API Reference
 description: Imports a node from another document to the current document.
 type: docs
-weight: 118
+weight: 144
 url: /cpp/aspose.words/documentbase/importnode/
 ---
 ## DocumentBase::ImportNode(const System::SharedPtr\<Aspose::Words::Node\>\&, bool) method
@@ -19,7 +19,7 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::DocumentBase::ImportNode(c
 | Parameter | Type | Description |
 | --- | --- | --- |
 | srcNode | const System::SharedPtr\<Aspose::Words::Node\>\& | The node being imported. |
-| isImportChildren | bool | True to import all child nodes recursively; otherwise, false. |
+| isImportChildren | bool | **true** to import all child nodes recursively; otherwise, **false**. |
 
 ### ReturnValue
 
@@ -83,7 +83,7 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::DocumentBase::ImportNode(c
 | Parameter | Type | Description |
 | --- | --- | --- |
 | srcNode | const System::SharedPtr\<Aspose::Words::Node\>\& | The node to imported. |
-| isImportChildren | bool | True to import all child nodes recursively; otherwise, false. |
+| isImportChildren | bool | **true** to import all child nodes recursively; otherwise, **false**. |
 | importFormatMode | Aspose::Words::ImportFormatMode | Specifies how to merge style formatting that clashes. |
 
 ### ReturnValue

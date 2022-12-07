@@ -3,7 +3,7 @@ title: UpdateTableLayout
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 1184
+weight: 1223
 url: /cpp/aspose.words/document/updatetablelayout/
 ---
 ## Document::UpdateTableLayout method

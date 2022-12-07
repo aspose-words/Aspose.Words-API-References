@@ -3,7 +3,7 @@ title: set_StrikeThrough
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Drawing::TextPath::get_StrikeThrough.'
 type: docs
-weight: 443
+weight: 482
 url: /cpp/aspose.words.drawing/textpath/set_strikethrough/
 ---
 ## TextPath::set_StrikeThrough method

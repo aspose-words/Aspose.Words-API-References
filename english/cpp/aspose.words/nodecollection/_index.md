@@ -1,7 +1,7 @@
 ---
 title: NodeCollection
 second_title: Aspose.Words for C++ API Reference
-description: Represents a collection of nodes of a specific type.
+description: Represents a collection of nodes of a specific type. To learn more, visit the  documentation article.
 type: docs
 weight: 547
 url: /cpp/aspose.words/nodecollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/nodecollection/
 ## NodeCollection class
 
 
-Represents a collection of nodes of a specific type.
+Represents a collection of nodes of a specific type. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class NodeCollection : public Aspose::Words::INodeCollection,
@@ -25,24 +25,27 @@ class NodeCollection : public Aspose::Words::INodeCollection,
 | [Contains](./contains/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Determines whether a node is in the collection. |
 | [get_Count](./get_count/)() | Gets the number of nodes in the collection. |
 | [GetEnumerator](./getenumerator/)() override | Provides a simple "foreach" style iteration over the collection of nodes. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Retrieves a node at the given index. |
 | [IndexOf](./indexof/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returns the zero-based index of the specified node. |
 | [Insert](./insert/)(int32_t, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts a node into the collection at the specified index. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](./remove/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Removes the node from the collection and from the document. |
 | [RemoveAt](./removeat/)(int32_t) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](./toarray/)() | Copies all nodes from the collection to a new array of nodes. |
+| static [Type](./type/)() |  |
 ## Remarks
 
 
-**NodeCollection** does not own the nodes it contains, rather, is just a selection of nodes of the specified type, but the nodes are stored in the tree under their respective parent nodes.
+[NodeCollection](./) does not own the nodes it contains, rather, is just a selection of nodes of the specified type, but the nodes are stored in the tree under their respective parent nodes.
 
-**NodeCollection** supports indexed access, iteration and provides add and remove methods.
+[NodeCollection](./) supports indexed access, iteration and provides add and remove methods.
 
-The **NodeCollection** collection is "live", i.e. changes to the children of the node object that it was created from are immediately reflected in the nodes returned by the **NodeCollection** properties and methods.
+The [NodeCollection](./) collection is "live", i.e. changes to the children of the node object that it was created from are immediately reflected in the nodes returned by the [NodeCollection](./) properties and methods.
 
-**NodeCollection** is returned by [GetChildNodes()](../compositenode/getchildnodes/) and also serves as a base class for typed node collections such as [SectionCollection](../sectioncollection/), [ParagraphCollection](../paragraphcollection/) etc.
+[NodeCollection](./) is returned by [GetChildNodes()](../compositenode/getchildnodes/) and also serves as a base class for typed node collections such as [SectionCollection](../sectioncollection/), [ParagraphCollection](../paragraphcollection/) etc.
 
-**NodeCollection** can be "flat" and contain only immediate children of the node it was created from, or it can be "deep" and contain all descendant children.
+[NodeCollection](./) can be "flat" and contain only immediate children of the node it was created from, or it can be "deep" and contain all descendant children.
 
 ## Examples
 

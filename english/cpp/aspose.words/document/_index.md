@@ -46,7 +46,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [ExtractPages](./extractpages/)(int32_t, int32_t) | Returns the [Document](./) object representing specified range of pages. |
 | [get_AttachedTemplate](./get_attachedtemplate/)() | Gets or sets the full path of the template attached to the document. |
 | [get_AutomaticallyUpdateStyles](./get_automaticallyupdatestyles/)() | Gets or sets a flag indicating whether the styles in the document are updated to match the styles in the attached template each time the document is opened in MS Word. |
-| [get_BackgroundShape](../documentbase/get_backgroundshape/)() const | Gets or sets the background shape of the document. Can be null. |
+| [get_BackgroundShape](../documentbase/get_backgroundshape/)() const | Gets or sets the background shape of the document. Can be **null**. |
 | [get_BuiltInDocumentProperties](./get_builtindocumentproperties/)() const | Returns a collection that represents all the built-in document properties of the document. |
 | [get_ChildNodes](../compositenode/get_childnodes/)() | Gets all immediate child nodes of this node. |
 | [get_CompatibilityOptions](./get_compatibilityoptions/)() | Provides access to document compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Word). |
@@ -59,7 +59,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [get_DigitalSignatures](./get_digitalsignatures/)() const | Gets the collection of digital signatures for this document and their validation results. |
 | [get_Document](../documentbase/get_document/)() const override | Gets the document to which this node belongs. |
 | [get_EndnoteOptions](./get_endnoteoptions/)() | Provides options that control numbering and positioning of endnotes in this document. |
-| [get_FieldOptions](./get_fieldoptions/)() | Gets a **FieldOptions** object that represents options to control field handling in the document. |
+| [get_FieldOptions](./get_fieldoptions/)() | Gets a [FieldOptions](../../aspose.words.fields/fieldoptions/) object that represents options to control field handling in the document. |
 | [get_FirstChild](../compositenode/get_firstchild/)() const | Gets the first child of the node. |
 | [get_FirstSection](./get_firstsection/)() | Gets the first section in the document. |
 | [get_FontInfos](../documentbase/get_fontinfos/)() const | Provides access to properties of fonts used in this document. |
@@ -68,20 +68,20 @@ class Document : public Aspose::Words::DocumentBase,
 | [get_Frameset](./get_frameset/)() const | Returns a [Frameset](./get_frameset/) instance if this document represents a frames page. |
 | [get_GlossaryDocument](./get_glossarydocument/)() const | Gets or sets the glossary document within this document or template. A glossary document is a storage for AutoText, AutoCorrect and Building Block entries defined in a document. |
 | [get_GrammarChecked](./get_grammarchecked/)() | Returns **true** if the document has been checked for grammar. |
-| [get_HasChildNodes](../compositenode/get_haschildnodes/)() | Returns true if this node has any child nodes. |
+| [get_HasChildNodes](../compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
 | [get_HasMacros](./get_hasmacros/)() | Returns **true** if the document has a VBA project (macros). |
 | [get_HasRevisions](./get_hasrevisions/)() | Returns **true** if the document has any tracked changes. |
 | [get_HyphenationOptions](./get_hyphenationoptions/)() | Provides access to document hyphenation options. |
-| [get_IsComposite](../compositenode/get_iscomposite/)() override | Returns true as this node can have child nodes. |
+| [get_IsComposite](../compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
 | [get_LastChild](../compositenode/get_lastchild/)() const | Gets the last child of the node. |
 | [get_LastSection](./get_lastsection/)() | Gets the last section in the document. |
-| [get_LayoutOptions](./get_layoutoptions/)() const | Gets a **LayoutOptions** object that represents options to control the layout process of this document. |
+| [get_LayoutOptions](./get_layoutoptions/)() const | Gets a [LayoutOptions](../../aspose.words.layout/layoutoptions/) object that represents options to control the layout process of this document. |
 | [get_Lists](../documentbase/get_lists/)() const | Provides access to the list formatting used in the document. |
-| [get_MailMerge](./get_mailmerge/)() | Returns a **MailMerge** object that represents the mail merge functionality for the document. |
+| [get_MailMerge](./get_mailmerge/)() | Returns a [MailMerge](../../aspose.words.mailmerging/mailmerge/) object that represents the mail merge functionality for the document. |
 | [get_MailMergeSettings](./get_mailmergesettings/)() | Gets or sets the object that contains all of the mail merge information for a document. |
 | [get_NextSibling](../node/get_nextsibling/)() | Gets the node immediately following this node. |
 | [get_NodeChangingCallback](../documentbase/get_nodechangingcallback/)() | Called when a node is inserted or removed in the document. |
-| [get_NodeType](./get_nodetype/)() const override | Returns **NodeType.Document**. |
+| [get_NodeType](./get_nodetype/)() const override | Returns [Document](../nodetype/). |
 | [get_OriginalFileName](./get_originalfilename/)() const | Gets the original file name of the document. |
 | [get_OriginalLoadFormat](./get_originalloadformat/)() const | Gets the format of the original document that was loaded into this object. |
 | [get_PackageCustomParts](./get_packagecustomparts/)() const | Gets or sets the collection of custom parts (arbitrary content) that are linked to the OOXML package using "unknown relationships". |
@@ -90,7 +90,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [get_ParentNode](../node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_PreviousSibling](../node/get_previoussibling/)() | Gets the node immediately preceding this node. |
 | [get_ProtectionType](./get_protectiontype/)() | Gets the currently active document protection type. |
-| [get_Range](../node/get_range/)() | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [get_Range](../node/get_range/)() | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node. |
 | [get_RemovePersonalInformation](./get_removepersonalinformation/)() | Gets or sets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document. |
 | [get_ResourceLoadingCallback](../documentbase/get_resourceloadingcallback/)() const | Allows to control how external resources are loaded. |
 | [get_Revisions](./get_revisions/)() | Gets a collection of revisions (tracked changes) that exist in this document. |
@@ -102,7 +102,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [get_SpellingChecked](./get_spellingchecked/)() | Returns **true** if the document has been checked for spelling. |
 | [get_Styles](../documentbase/get_styles/)() const | Returns a collection of styles defined in the document. |
 | [get_Theme](./get_theme/)() | Gets the [Theme](./get_theme/) object for this document. |
-| [get_TrackRevisions](./get_trackrevisions/)() | **True** if changes are tracked when this document is edited in Microsoft Word. |
+| [get_TrackRevisions](./get_trackrevisions/)() | True if changes are tracked when this document is edited in Microsoft Word. |
 | [get_Variables](./get_variables/)() | Returns the collection of variables added to a document or template. |
 | [get_VbaProject](./get_vbaproject/)() const | Gets or sets a [VbaProject](./get_vbaproject/). |
 | [get_VersionsCount](./get_versionscount/)() | Gets the number of document versions that was stored in the DOC document. |
@@ -118,11 +118,13 @@ class Document : public Aspose::Words::DocumentBase,
 | [GetEnumerator](../compositenode/getenumerator/)() override | Provides support for the for each style iteration over the child nodes of this node. |
 | [GetPageInfo](./getpageinfo/)(int32_t) | Gets the page size, orientation and other information about a page that might be useful for printing or rendering. |
 | [GetText](../compositenode/gettext/)() override | Gets the text of this node and of all its children. |
+| [GetType](./gettype/)() const override |  |
 | [ImportNode](../documentbase/importnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&, bool) | Imports a node from another document to the current document. |
 | [ImportNode](../documentbase/importnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&, bool, Aspose::Words::ImportFormatMode) | Imports a node from another document to the current document with an option to control formatting. |
 | [IndexOf](../compositenode/indexof/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returns the index of the specified child node in the child node array. |
 | [InsertAfter](../compositenode/insertafter/)(const System::SharedPtr\<Aspose::Words::Node\>\&, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts the specified node immediately after the specified reference node. |
 | [InsertBefore](../compositenode/insertbefore/)(const System::SharedPtr\<Aspose::Words::Node\>\&, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts the specified node immediately before the specified reference node. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [JoinRunsWithSameFormatting](./joinrunswithsameformatting/)() | Joins runs with same formatting in all paragraphs of the document. |
 | [NextPreOrder](../node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets next node according to the pre-order tree traversal algorithm. |
 | static [NodeTypeToString](../node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
@@ -176,6 +178,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [StopTrackRevisions](./stoptrackrevisions/)() | Stops automatic marking of document changes as revisions. |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+| static [Type](./type/)() |  |
 | [UnlinkFields](./unlinkfields/)() | Unlinks fields in the whole document. |
 | [Unprotect](./unprotect/)() | Removes protection from the document regardless of the password. |
 | [Unprotect](./unprotect/)(const System::String\&) | Removes protection from the document if a correct password is specified. |
@@ -190,9 +193,9 @@ class Document : public Aspose::Words::DocumentBase,
 ## Remarks
 
 
-The **Document** is a central object in the Aspose.Words library.
+The [Document](./) is a central object in the Aspose.Words library.
 
-To load an existing document in any of the [LoadFormat](../loadformat/) formats, pass a file name or a stream into one of the **Document** constructors. To create a blank document, call the constructor without parameters.
+To load an existing document in any of the [LoadFormat](../loadformat/) formats, pass a file name or a stream into one of the [Document](./) constructors. To create a blank document, call the constructor without parameters.
 
 Use one of the Save method overloads to save the document in any of the [SaveFormat](../saveformat/) formats.
 
@@ -202,9 +205,9 @@ To print the document, use one of the [Print()](../) methods.
 
 [MailMerge](./get_mailmerge/) is the [Aspose.Words](../)'s reporting engine that allows to populate reports designed in Microsoft Word with data from various data sources quickly and easily. The data can be from a or an array of values. **MailMerge** will go through the records found in the data source and insert them into mail merge fields in the document growing it as necessary.
 
-**Document** stores document-wide information such as [Styles](../documentbase/get_styles/), [BuiltInDocumentProperties](./get_builtindocumentproperties/), [CustomDocumentProperties](./get_customdocumentproperties/), lists and macros. Most of these objects are accessible via the corresponding properties of the **Document**.
+[Document](./) stores document-wide information such as [Styles](../documentbase/get_styles/), [BuiltInDocumentProperties](./get_builtindocumentproperties/), [CustomDocumentProperties](./get_customdocumentproperties/), lists and macros. Most of these objects are accessible via the corresponding properties of the [Document](./).
 
-The **Document** is a root node of a tree that contains all other nodes of the document. The tree is a Composite design pattern and in many ways similar to XmlDocument. The content of the document can be manipulated freely programmatically:
+The [Document](./) is a root node of a tree that contains all other nodes of the document. The tree is a Composite design pattern and in many ways similar to XmlDocument. The content of the document can be manipulated freely programmatically:
 
 * The nodes of the document can be accessed via typed collections, for example [Sections](./get_sections/), [ParagraphCollection](../paragraphcollection/) etc.
 * The nodes of the document can be selected by their node type using [GetChildNodes()](../compositenode/getchildnodes/) or using an XPath query with [SelectNodes()](../) or [SelectSingleNode()](../).
@@ -215,7 +218,7 @@ The **Document** is a root node of a tree that contains all other nodes of the d
 
 Consider using [DocumentBuilder](../documentbuilder/) that simplifies the task of programmatically creating or populating the document tree.
 
-The **Document** can contain only [Section](../section/) objects.
+The [Document](./) can contain only [Section](../section/) objects.
 
 In Microsoft Word, a valid document needs to have at least one section. 
 ## See Also

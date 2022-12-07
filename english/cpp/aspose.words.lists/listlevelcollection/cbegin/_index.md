@@ -3,7 +3,7 @@ title: cbegin
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words.lists/listlevelcollection/cbegin/
 ---
 ## ListLevelCollection::cbegin method

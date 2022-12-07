@@ -3,13 +3,13 @@ title: get_PlaceholderName
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets Name of the BuildingBlock containing placeholder text. BuildingBlock with this name Name has to be present in the GlossaryDocument otherwise InvalidOperationException will occur.
 type: docs
-weight: 326
+weight: 339
 url: /cpp/aspose.words.markup/structureddocumenttag/get_placeholdername/
 ---
 ## StructuredDocumentTag::get_PlaceholderName method
 
 
-Gets or sets Name of the [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/) containing placeholder text. BuildingBlock with this name [Name](../../../aspose.words.buildingblocks/buildingblock/get_name/) has to be present in the [GlossaryDocument](../../../aspose.words/document/get_glossarydocument/) otherwise [InvalidOperationException](../) will occur.
+Gets or sets Name of the [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/) containing placeholder text. [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/) with this name [Name](../../../aspose.words.buildingblocks/buildingblock/get_name/) has to be present in the [GlossaryDocument](../../../aspose.words/document/get_glossarydocument/) otherwise [InvalidOperationException](../) will occur.
 
 ```cpp
 System::String Aspose::Words::Markup::StructuredDocumentTag::get_PlaceholderName() override

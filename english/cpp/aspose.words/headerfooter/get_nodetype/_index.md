@@ -1,15 +1,15 @@
 ---
 title: get_NodeType
 second_title: Aspose.Words for C++ API Reference
-description: Returns NodeType.HeaderFooter.
+description: Returns HeaderFooter.
 type: docs
-weight: 66
+weight: 79
 url: /cpp/aspose.words/headerfooter/get_nodetype/
 ---
 ## HeaderFooter::get_NodeType method
 
 
-Returns **NodeType.HeaderFooter**.
+Returns [HeaderFooter](../../nodetype/).
 
 ```cpp
 Aspose::Words::NodeType Aspose::Words::HeaderFooter::get_NodeType() const override

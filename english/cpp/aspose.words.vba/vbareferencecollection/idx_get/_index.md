@@ -3,7 +3,7 @@ title: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: Gets VbaReference object at the specified index.
 type: docs
-weight: 66
+weight: 92
 url: /cpp/aspose.words.vba/vbareferencecollection/idx_get/
 ---
 ## VbaReferenceCollection::idx_get method

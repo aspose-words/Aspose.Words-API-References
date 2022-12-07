@@ -3,7 +3,7 @@ title: set_MultiplePages
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::PageSetup::get_MultiplePages.'
 type: docs
-weight: 872
+weight: 911
 url: /cpp/aspose.words/pagesetup/set_multiplepages/
 ---
 ## PageSetup::set_MultiplePages method

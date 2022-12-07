@@ -3,7 +3,7 @@ title: get_OwnStatus
 second_title: Aspose.Words for C++ API Reference
 description: Specifies the source of the text that's displayed in the status bar when a form field has the focus.
 type: docs
-weight: 209
+weight: 222
 url: /cpp/aspose.words.fields/formfield/get_ownstatus/
 ---
 ## FormField::get_OwnStatus method
@@ -18,7 +18,7 @@ bool Aspose::Words::Fields::FormField::get_OwnStatus()
 ## Remarks
 
 
-If true, the text specified by the StatusText property is displayed. If false, the text of the AutoText entry specified by the StatusText property is displayed.
+If **true**, the text specified by the [StatusText](../get_statustext/) property is displayed. If **false**, the text of the AutoText entry specified by the [StatusText](../get_statustext/) property is displayed.
 
 ## Examples
 

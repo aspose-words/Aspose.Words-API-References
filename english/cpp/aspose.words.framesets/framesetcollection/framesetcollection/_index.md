@@ -3,7 +3,7 @@ title: FramesetCollection
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.framesets/framesetcollection/framesetcollection/
 ---
 ## FramesetCollection::FramesetCollection constructor

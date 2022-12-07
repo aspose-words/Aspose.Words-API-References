@@ -3,7 +3,7 @@ title: RemoveAllReplies
 second_title: Aspose.Words for C++ API Reference
 description: Removes all replies to this comment.
 type: docs
-weight: 157
+weight: 196
 url: /cpp/aspose.words/comment/removeallreplies/
 ---
 ## Comment::RemoveAllReplies method

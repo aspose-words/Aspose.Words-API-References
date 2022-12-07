@@ -3,7 +3,7 @@ title: set_ExportGeneratorName
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Saving::SaveOptions::get_ExportGeneratorName.'
 type: docs
-weight: 339
+weight: 391
 url: /cpp/aspose.words.saving/saveoptions/set_exportgeneratorname/
 ---
 ## SaveOptions::set_ExportGeneratorName method

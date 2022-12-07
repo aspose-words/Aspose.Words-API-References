@@ -3,13 +3,13 @@ title: Paragraph
 second_title: Aspose.Words for C++ API Reference
 description: Initializes a new instance of the Paragraph class.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words/paragraph/paragraph/
 ---
 ## Paragraph::Paragraph constructor
 
 
-Initializes a new instance of the **Paragraph** class.
+Initializes a new instance of the [Paragraph](../) class.
 
 ```cpp
 Aspose::Words::Paragraph::Paragraph(const System::SharedPtr<Aspose::Words::DocumentBase> &doc)
@@ -22,9 +22,9 @@ Aspose::Words::Paragraph::Paragraph(const System::SharedPtr<Aspose::Words::Docum
 ## Remarks
 
 
-When **Paragraph** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+When [Paragraph](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is **null**.
 
-To append **Paragraph** to the document use InsertAfter or InsertBefore on the story where you want the paragraph inserted.
+To append [Paragraph](../) to the document use [InsertAfter()](../) or [InsertBefore()](../) on the story where you want the paragraph inserted.
 
 ## Examples
 

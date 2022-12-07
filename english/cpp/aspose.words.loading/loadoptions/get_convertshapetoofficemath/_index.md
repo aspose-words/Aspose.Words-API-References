@@ -3,7 +3,7 @@ title: get_ConvertShapeToOfficeMath
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets whether to convert shapes with EquationXML to Office Math objects.
 type: docs
-weight: 40
+weight: 53
 url: /cpp/aspose.words.loading/loadoptions/get_convertshapetoofficemath/
 ---
 ## LoadOptions::get_ConvertShapeToOfficeMath method

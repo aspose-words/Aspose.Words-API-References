@@ -3,7 +3,7 @@ title: RemoveAt
 second_title: Aspose.Words for C++ API Reference
 description: Removes the node at the specified index from the collection and from the document.
 type: docs
-weight: 118
+weight: 157
 url: /cpp/aspose.words/nodecollection/removeat/
 ---
 ## NodeCollection::RemoveAt method

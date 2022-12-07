@@ -1,7 +1,7 @@
 ---
 title: FieldIncludeText
 second_title: Aspose.Words for C++ API Reference
-description: Implements the INCLUDETEXT field.
+description: Implements the INCLUDETEXT field. To learn more, visit the  documentation article.
 type: docs
 weight: 742
 url: /cpp/aspose.words.fields/fieldincludetext/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fields/fieldincludetext/
 ## FieldIncludeText class
 
 
-Implements the INCLUDETEXT field.
+Implements the INCLUDETEXT field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class FieldIncludeText : public Aspose::Words::Fields::Field,
@@ -35,7 +35,7 @@ class FieldIncludeText : public Aspose::Words::Fields::Field,
 | [get_MimeType](./get_mimetype/)() | Gets or sets the MIME type of the referenced file. |
 | [get_NamespaceMappings](./get_namespacemappings/)() override | Gets or sets the namespace mappings for XPath queries. |
 | [get_Result](../field/get_result/)() | Gets or sets text that is between the field separator and field end. |
-| [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be null. |
+| [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be **null**. |
 | [get_SourceFullName](./get_sourcefullname/)() override | Gets or sets the location of the document using an IRI. |
 | [get_Start](../field/get_start/)() const | Gets the node that represents the start of the field. |
 | [get_TextConverter](./get_textconverter/)() override | Gets or sets the name of the text converter for the format of the included file. |
@@ -44,6 +44,8 @@ class FieldIncludeText : public Aspose::Words::Fields::Field,
 | [get_XslTransformation](./get_xsltransformation/)() override | Gets or sets the location of XSL Transformation to format XML data. |
 | [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_BookmarkName](./set_bookmarkname/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldIncludeText::get_BookmarkName](./get_bookmarkname/). |
 | [set_Encoding](./set_encoding/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldIncludeText::get_Encoding](./get_encoding/). |
@@ -58,6 +60,7 @@ class FieldIncludeText : public Aspose::Words::Fields::Field,
 | [set_TextConverter](./set_textconverter/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldIncludeText::get_TextConverter](./get_textconverter/). |
 | [set_XPath](./set_xpath/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldIncludeText::get_XPath](./get_xpath/). |
 | [set_XslTransformation](./set_xsltransformation/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldIncludeText::get_XslTransformation](./get_xsltransformation/). |
+| static [Type](./type/)() |  |
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |

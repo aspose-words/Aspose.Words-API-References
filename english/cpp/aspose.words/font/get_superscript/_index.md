@@ -3,7 +3,7 @@ title: get_Superscript
 second_title: Aspose.Words for C++ API Reference
 description: True if the font is formatted as superscript.
 type: docs
-weight: 573
+weight: 586
 url: /cpp/aspose.words/font/get_superscript/
 ---
 ## Font::get_Superscript method

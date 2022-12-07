@@ -1,7 +1,7 @@
 ---
 title: ChartAxis
 second_title: Aspose.Words for C++ API Reference
-description: Represents the axis options of the chart.
+description: Represents the axis options of the chart. To learn more, visit the  documentation article.
 type: docs
 weight: 53
 url: /cpp/aspose.words.drawing.charts/chartaxis/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing.charts/chartaxis/
 ## ChartAxis class
 
 
-Represents the axis options of the chart.
+Represents the axis options of the chart. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
 class ChartAxis : public Aspose::Words::Drawing::Charts::Core::IDmlChartTitleHolder,
@@ -47,6 +47,8 @@ class ChartAxis : public Aspose::Words::Drawing::Charts::Core::IDmlChartTitleHol
 | [get_TickLabelSpacingIsAuto](./get_ticklabelspacingisauto/)() | Gets or sets a flag indicating whether automatic interval of drawing tick labels shall be used. |
 | [get_TickMarkSpacing](./get_tickmarkspacing/)() | Gets or sets the interval, at which tick marks are drawn. |
 | [get_Type](./get_type/)() const | Returns type of the axis. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_AxisBetweenCategories](./set_axisbetweencategories/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_AxisBetweenCategories](./get_axisbetweencategories/). |
 | [set_BaseTimeUnit](./set_basetimeunit/)(Aspose::Words::Drawing::Charts::AxisTimeUnit) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_BaseTimeUnit](./get_basetimeunit/). |
 | [set_CategoryType](./set_categorytype/)(Aspose::Words::Drawing::Charts::AxisCategoryType) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_CategoryType](./get_categorytype/). |
@@ -68,6 +70,7 @@ class ChartAxis : public Aspose::Words::Drawing::Charts::Core::IDmlChartTitleHol
 | [set_TickLabelSpacing](./set_ticklabelspacing/)(int32_t) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_TickLabelSpacing](./get_ticklabelspacing/). |
 | [set_TickLabelSpacingIsAuto](./set_ticklabelspacingisauto/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_TickLabelSpacingIsAuto](./get_ticklabelspacingisauto/). |
 | [set_TickMarkSpacing](./set_tickmarkspacing/)(int32_t) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_TickMarkSpacing](./get_tickmarkspacing/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

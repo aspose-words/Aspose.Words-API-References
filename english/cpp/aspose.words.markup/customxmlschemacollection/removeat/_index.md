@@ -3,7 +3,7 @@ title: RemoveAt
 second_title: Aspose.Words for C++ API Reference
 description: Removes a value at the specified index.
 type: docs
-weight: 170
+weight: 209
 url: /cpp/aspose.words.markup/customxmlschemacollection/removeat/
 ---
 ## CustomXmlSchemaCollection::RemoveAt method

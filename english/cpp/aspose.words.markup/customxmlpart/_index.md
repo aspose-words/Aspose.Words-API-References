@@ -1,7 +1,7 @@
 ---
 title: CustomXmlPart
 second_title: Aspose.Words for C++ API Reference
-description: Represents a Custom XML Data Storage Part (custom XML data within a package).
+description: Represents a Custom XML Data Storage Part (custom XML data within a package). To learn more, visit the  documentation article.
 type: docs
 weight: 27
 url: /cpp/aspose.words.markup/customxmlpart/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.markup/customxmlpart/
 ## CustomXmlPart class
 
 
-Represents a Custom XML Data Storage Part (custom XML data within a package).
+Represents a Custom XML Data Storage Part (custom XML data within a package). To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/structured-document-tags-or-content-control/) documentation article.
 
 ```cpp
 class CustomXmlPart : public System::Object
@@ -25,8 +25,11 @@ class CustomXmlPart : public System::Object
 | [get_DataChecksum](./get_datachecksum/)() | Specifies a cyclic redundancy check (CRC) checksum of the [Data](./get_data/) content. |
 | [get_Id](./get_id/)() const | Gets or sets the string that identifies this custom XML part within an OOXML document. |
 | [get_Schemas](./get_schemas/)() const | Specifies the set of XML schemas that are associated with this custom XML part. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Data](./set_data/)(const System::ArrayPtr\<uint8_t\>\&) | Setter for [Aspose::Words::Markup::CustomXmlPart::get_Data](./get_data/). |
 | [set_Id](./set_id/)(const System::String\&) | Setter for [Aspose::Words::Markup::CustomXmlPart::get_Id](./get_id/). |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

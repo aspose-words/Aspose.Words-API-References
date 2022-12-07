@@ -3,7 +3,7 @@ title: RemoveByIndex
 second_title: Aspose.Words for C++ API Reference
 description: Removes a tab stop at the specified index from the collection.
 type: docs
-weight: 131
+weight: 170
 url: /cpp/aspose.words/tabstopcollection/removebyindex/
 ---
 ## TabStopCollection::RemoveByIndex method

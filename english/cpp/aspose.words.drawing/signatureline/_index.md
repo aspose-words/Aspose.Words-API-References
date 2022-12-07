@@ -1,7 +1,7 @@
 ---
 title: SignatureLine
 second_title: Aspose.Words for C++ API Reference
-description: Provides access to signature line properties.
+description: Provides access to signature line properties. To learn more, visit the  documentation article.
 type: docs
 weight: 157
 url: /cpp/aspose.words.drawing/signatureline/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing/signatureline/
 ## SignatureLine class
 
 
-Provides access to signature line properties.
+Provides access to signature line properties. To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/cpp/working-with-digital-signatures/) documentation article.
 
 ```cpp
 class SignatureLine : public System::Object
@@ -30,6 +30,8 @@ class SignatureLine : public System::Object
 | [get_ShowDate](./get_showdate/)() | Gets or sets a value indicating that sign date is shown in the signature line. Default value for this property is **true**. |
 | [get_Signer](./get_signer/)() | Gets or sets suggested signer of the signature line. Default value for this property is **empty string**. |
 | [get_SignerTitle](./get_signertitle/)() | Gets or sets suggested signer's title (for example, Manager). Default value for this property is **empty string**. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_AllowComments](./set_allowcomments/)(bool) | Setter for [Aspose::Words::Drawing::SignatureLine::get_AllowComments](./get_allowcomments/). |
 | [set_DefaultInstructions](./set_defaultinstructions/)(bool) | Setter for [Aspose::Words::Drawing::SignatureLine::get_DefaultInstructions](./get_defaultinstructions/). |
 | [set_Email](./set_email/)(const System::String\&) | Setter for [Aspose::Words::Drawing::SignatureLine::get_Email](./get_email/). |
@@ -39,6 +41,7 @@ class SignatureLine : public System::Object
 | [set_ShowDate](./set_showdate/)(bool) | Setter for [Aspose::Words::Drawing::SignatureLine::get_ShowDate](./get_showdate/). |
 | [set_Signer](./set_signer/)(const System::String\&) | Setter for [Aspose::Words::Drawing::SignatureLine::get_Signer](./get_signer/). |
 | [set_SignerTitle](./set_signertitle/)(const System::String\&) | Setter for [Aspose::Words::Drawing::SignatureLine::get_SignerTitle](./get_signertitle/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

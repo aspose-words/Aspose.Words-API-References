@@ -1,7 +1,7 @@
 ---
 title: WebExtensionPropertyCollection
 second_title: Aspose.Words for C++ API Reference
-description: Specifies a set of web extension custom properties.
+description: Specifies a set of web extension custom properties. To learn more, visit the  documentation article.
 type: docs
 weight: 92
 url: /cpp/aspose.words.webextensions/webextensionpropertycollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.webextensions/webextensionpropertycollection/
 ## WebExtensionPropertyCollection class
 
 
-Specifies a set of web extension custom properties.
+Specifies a set of web extension custom properties. To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/cpp/work-with-office-add-ins/) documentation article.
 
 ```cpp
 class WebExtensionPropertyCollection : public Aspose::Words::WebExtensions::BaseWebExtensionCollection<System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionProperty>>
@@ -19,7 +19,10 @@ class WebExtensionPropertyCollection : public Aspose::Words::WebExtensions::Base
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [SetTemplateWeakPtr](./settemplateweakptr/)(uint32_t) override |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

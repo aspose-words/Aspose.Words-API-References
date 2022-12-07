@@ -3,7 +3,7 @@ title: get_Reason
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the reason for the signing.
 type: docs
-weight: 53
+weight: 66
 url: /cpp/aspose.words.saving/pdfdigitalsignaturedetails/get_reason/
 ---
 ## PdfDigitalSignatureDetails::get_Reason method

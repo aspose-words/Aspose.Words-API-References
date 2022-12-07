@@ -3,7 +3,7 @@ title: set_Alignment
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::TabStop::get_Alignment.'
 type: docs
-weight: 92
+weight: 131
 url: /cpp/aspose.words/tabstop/set_alignment/
 ---
 ## TabStop::set_Alignment method

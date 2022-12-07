@@ -3,7 +3,7 @@ title: WebExtensionBinding
 second_title: Aspose.Words for C++ API Reference
 description: Creates web extension binding with specified parameters.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.webextensions/webextensionbinding/webextensionbinding/
 ---
 ## WebExtensionBinding::WebExtensionBinding constructor

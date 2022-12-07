@@ -3,13 +3,13 @@ title: Row
 second_title: Aspose.Words for C++ API Reference
 description: Initializes a new instance of the Row class.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.tables/row/row/
 ---
 ## Row::Row constructor
 
 
-Initializes a new instance of the **Row** class.
+Initializes a new instance of the [Row](../) class.
 
 ```cpp
 Aspose::Words::Tables::Row::Row(const System::SharedPtr<Aspose::Words::DocumentBase> &doc)
@@ -22,9 +22,9 @@ Aspose::Words::Tables::Row::Row(const System::SharedPtr<Aspose::Words::DocumentB
 ## Remarks
 
 
-When **Row** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+When [Row](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../../aspose.words/node/get_parentnode/) is **null**.
 
-To append **Row** to the document use InsertAfter or InsertBefore on the table where you want the row inserted.
+To append [Row](../) to the document use [InsertAfter()](../) or [InsertBefore()](../) on the table where you want the row inserted.
 
 ## Examples
 

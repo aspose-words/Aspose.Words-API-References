@@ -1,7 +1,7 @@
 ---
 title: Fill
 second_title: Aspose.Words for C++ API Reference
-description: Represents fill formatting for an object.
+description: Represents fill formatting for an object. To learn more, visit the  documentation article.
 type: docs
 weight: 1
 url: /cpp/aspose.words.drawing/fill/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing/fill/
 ## Fill class
 
 
-Represents fill formatting for an object.
+Represents fill formatting for an object. To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/cpp/working-with-graphic-elements/) documentation article.
 
 ```cpp
 class Fill : public System::Object
@@ -36,6 +36,8 @@ class Fill : public System::Object
 | [get_TextureAlignment](./get_texturealignment/)() | Gets or sets the alignment for tile texture fill. |
 | [get_Transparency](./get_transparency/)() | Gets the degree of transparency of the specified fill as a value between 0.0 (opaque) and 1.0 (clear). |
 | [get_Visible](./get_visible/)() | Gets or sets value that is **true** if the formatting applied to this instance, is visible. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [OneColorGradient](./onecolorgradient/)(Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant, double) | Sets the specified fill to a one-color gradient. |
 | [OneColorGradient](./onecolorgradient/)(System::Drawing::Color, Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant, double) | Sets the specified fill to a one-color gradient using the specified color. |
 | [Patterned](./patterned/)(Aspose::Words::Drawing::PatternType) | Sets the specified fill to a pattern. |
@@ -58,6 +60,7 @@ class Fill : public System::Object
 | [Solid](./solid/)(System::Drawing::Color) | Sets the fill to a specified uniform color. |
 | [TwoColorGradient](./twocolorgradient/)(Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant) | Sets the specified fill to a two-color gradient. |
 | [TwoColorGradient](./twocolorgradient/)(System::Drawing::Color, System::Drawing::Color, Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant) | Sets the specified fill to a two-color gradient. |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

@@ -3,7 +3,7 @@ title: get_UseSakaEraCalendar
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets whether to use the Saka Era calendar.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words.fields/fieldcreatedate/get_usesakaeracalendar/
 ---
 ## FieldCreateDate::get_UseSakaEraCalendar method

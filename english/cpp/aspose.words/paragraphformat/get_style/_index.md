@@ -3,7 +3,7 @@ title: get_Style
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the paragraph style applied to this formatting.
 type: docs
-weight: 430
+weight: 443
 url: /cpp/aspose.words/paragraphformat/get_style/
 ---
 ## ParagraphFormat::get_Style method

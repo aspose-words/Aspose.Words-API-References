@@ -3,7 +3,7 @@ title: BookmarkEnd
 second_title: Aspose.Words for C++ API Reference
 description: Initializes a new instance of the BookmarkEnd class.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words/bookmarkend/bookmarkend/
 ---
 ## BookmarkEnd::BookmarkEnd constructor
@@ -19,7 +19,7 @@ Aspose::Words::BookmarkEnd::BookmarkEnd(const System::SharedPtr<Aspose::Words::D
 | Parameter | Type | Description |
 | --- | --- | --- |
 | doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
-| name | const System::String\& | The name of the bookmark. Cannot be null. |
+| name | const System::String\& | The name of the bookmark. Cannot be **null**. |
 
 ## Examples
 

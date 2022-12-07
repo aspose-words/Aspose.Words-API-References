@@ -3,7 +3,7 @@ title: get_ProgId
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the ProgID of the OLE object.
 type: docs
-weight: 105
+weight: 118
 url: /cpp/aspose.words.drawing/oleformat/get_progid/
 ---
 ## OleFormat::get_ProgId method
@@ -20,7 +20,7 @@ System::String Aspose::Words::Drawing::OleFormat::get_ProgId()
 
 The ProgID property is not always present in Microsoft Word documents and cannot be relied upon.
 
-Cannot be null.
+Cannot be **null**.
 
 The default value is an empty string.
 

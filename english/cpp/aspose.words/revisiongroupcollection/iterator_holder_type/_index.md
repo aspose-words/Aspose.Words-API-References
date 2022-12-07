@@ -3,7 +3,7 @@ title: iterator_holder_type
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 170
+weight: 209
 url: /cpp/aspose.words/revisiongroupcollection/iterator_holder_type/
 ---
 ## iterator_holder_type typedef

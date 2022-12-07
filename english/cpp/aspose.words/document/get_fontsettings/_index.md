@@ -3,7 +3,7 @@ title: get_FontSettings
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets document font settings.
 type: docs
-weight: 300
+weight: 313
 url: /cpp/aspose.words/document/get_fontsettings/
 ---
 ## Document::get_FontSettings method
@@ -18,9 +18,9 @@ System::SharedPtr<Aspose::Words::Fonts::FontSettings> Aspose::Words::Document::g
 ## Remarks
 
 
-This property allows to specify font settings per document. If set to null, default static font settings [DefaultInstance](../../../aspose.words.fonts/fontsettings/get_defaultinstance/) will be used.
+This property allows to specify font settings per document. If set to **null**, default static font settings [DefaultInstance](../../../aspose.words.fonts/fontsettings/get_defaultinstance/) will be used.
 
-The default value is null.
+The default value is **null**.
 
 ## Examples
 

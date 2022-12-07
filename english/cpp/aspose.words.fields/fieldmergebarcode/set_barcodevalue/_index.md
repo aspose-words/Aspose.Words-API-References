@@ -3,7 +3,7 @@ title: set_BarcodeValue
 second_title: Aspose.Words for C++ API Reference
 description: Sets the barcode value.
 type: docs
-weight: 248
+weight: 287
 url: /cpp/aspose.words.fields/fieldmergebarcode/set_barcodevalue/
 ---
 ## FieldMergeBarcode::set_BarcodeValue method

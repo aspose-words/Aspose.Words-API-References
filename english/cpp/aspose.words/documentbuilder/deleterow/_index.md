@@ -3,7 +3,7 @@ title: DeleteRow
 second_title: Aspose.Words for C++ API Reference
 description: Deletes a row from a table.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words/documentbuilder/deleterow/
 ---
 ## DocumentBuilder::DeleteRow method

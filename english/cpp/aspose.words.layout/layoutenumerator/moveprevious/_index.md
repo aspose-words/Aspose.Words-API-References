@@ -3,7 +3,7 @@ title: MovePrevious
 second_title: Aspose.Words for C++ API Reference
 description: Moves to the previous sibling entity.
 type: docs
-weight: 183
+weight: 261
 url: /cpp/aspose.words.layout/layoutenumerator/moveprevious/
 ---
 ## LayoutEnumerator::MovePrevious method

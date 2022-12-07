@@ -3,7 +3,7 @@ title: Cleanup
 second_title: Aspose.Words for C++ API Reference
 description: Cleans unused styles and lists from the document.
 type: docs
-weight: 53
+weight: 66
 url: /cpp/aspose.words/document/cleanup/
 ---
 ## Document::Cleanup() method

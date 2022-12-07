@@ -1,7 +1,7 @@
 ---
 title: License
 second_title: Aspose.Words for C++ API Reference
-description: Provides methods to license the component.
+description: Provides methods to license the component. To learn more, visit the  documentation article.
 type: docs
 weight: 495
 url: /cpp/aspose.words/license/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/license/
 ## License class
 
 
-Provides methods to license the component.
+Provides methods to license the component. To learn more, visit the [Licensing and Subscription](https://docs.aspose.com/words/cpp/licensing/) documentation article.
 
 ```cpp
 class License : public System::Object
@@ -19,10 +19,13 @@ class License : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [License](./license/)() | Initializes a new instance of this class. |
 | [SetLicense](./setlicense/)(const System::String\&) | Licenses the component. |
 | [SetLicense](./setlicense/)(const System::SharedPtr\<System::IO::Stream\>\&) | Licenses the component. |
 | [SetLicense](./setlicense/)(std::basic_istream\<CharType, Traits\>\&) |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

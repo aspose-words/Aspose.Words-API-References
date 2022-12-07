@@ -1,7 +1,7 @@
 ---
 title: TabStopCollection
 second_title: Aspose.Words for C++ API Reference
-description: A collection of TabStop objects that represent custom tabs for a paragraph or a style.
+description: A collection of TabStop objects that represent custom tabs for a paragraph or a style. To learn more, visit the  documentation article.
 type: docs
 weight: 885
 url: /cpp/aspose.words/tabstopcollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/tabstopcollection/
 ## TabStopCollection class
 
 
-A collection of [TabStop](../tabstop/) objects that represent custom tabs for a paragraph or a style.
+A collection of [TabStop](../tabstop/) objects that represent custom tabs for a paragraph or a style. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class TabStopCollection : public Aspose::Words::InternableComplexAttr,
@@ -31,16 +31,19 @@ class TabStopCollection : public Aspose::Words::InternableComplexAttr,
 | [GetHashCode](./gethashcode/)() const override | Serves as a hash function for this type. |
 | [GetIndexByPosition](./getindexbyposition/)(double) | Gets the index of a tab stop with the specified position in points. |
 | [GetPositionByIndex](./getpositionbyindex/)(int32_t) | Gets the position (in points) of the tab stop at the specified index. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Gets a tab stop at the given index. |
 | [idx_get](./idx_get/)(double) | Gets a tab stop at the specified position. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [RemoveByIndex](./removebyindex/)(int32_t) | Removes a tab stop at the specified index from the collection. |
 | [RemoveByPosition](./removebyposition/)(double) | Removes a tab stop at the specified position from the collection. |
+| static [Type](./type/)() |  |
 ## Remarks
 
 
 In Microsoft Word documents, a tab stop can be defined in the properties of a paragraph style or directly in the properties of a paragraph. A style can be based on another style. Therefore, the complete set of tab stops for a given object is a combination of tab stops defined directly on this object and tab stops inherited from the parent styles.
 
-In Aspose.Words, when you obtain a **TabStops** collection for a paragraph or a style, it contains only the custom tab stops defined directly for this paragraph or style. The collection does not include tab stops defined in the parent styles or default tab stops.
+In Aspose.Words, when you obtain a [TabStopCollection](./) for a paragraph or a style, it contains only the custom tab stops defined directly for this paragraph or style. The collection does not include tab stops defined in the parent styles or default tab stops.
 
 ## Examples
 

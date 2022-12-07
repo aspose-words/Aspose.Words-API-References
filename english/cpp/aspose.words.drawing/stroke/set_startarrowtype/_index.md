@@ -3,7 +3,7 @@ title: set_StartArrowType
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Drawing::Stroke::get_StartArrowType.'
 type: docs
-weight: 443
+weight: 482
 url: /cpp/aspose.words.drawing/stroke/set_startarrowtype/
 ---
 ## Stroke::set_StartArrowType method

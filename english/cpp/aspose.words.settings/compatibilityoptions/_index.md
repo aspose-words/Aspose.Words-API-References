@@ -1,7 +1,7 @@
 ---
 title: CompatibilityOptions
 second_title: Aspose.Words for C++ API Reference
-description: Contains compatibility options (that is, the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word).
+description: Contains compatibility options (that is, the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word). To learn more, visit the  documentation article.
 type: docs
 weight: 1
 url: /cpp/aspose.words.settings/compatibilityoptions/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/
 ## CompatibilityOptions class
 
 
-Contains compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Microsoft Word).
+Contains compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Microsoft Word). To learn more, visit the [Detect File Format and Check Format Compatibility](https://docs.aspose.com/words/cpp/detect-file-format-and-check-format-compatibility/) documentation article.
 
 ```cpp
 class CompatibilityOptions : public System::Object
@@ -75,7 +75,7 @@ class CompatibilityOptions : public System::Object
 | [get_SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning](./get_swapinsideandoutsideformirrorindentsandrelativepositioning/)() |  |
 | [get_TransparentMetafiles](./get_transparentmetafiles/)() | Specifies not to blank the area behind metafile pictures. |
 | [get_TruncateFontHeightsLikeWP6](./get_truncatefontheightslikewp6/)() | Emulate WordPerfect 6.x [Font](../../aspose.words/font/) Height Calculation. |
-| [get_UICompat97To2003](./get_uicompat97to2003/)() | **True** to disable UI functionality which is not compatible with Word97-2003. Default value is **false**. |
+| [get_UICompat97To2003](./get_uicompat97to2003/)() | True to disable UI functionality which is not compatible with Word97-2003. Default value is **false**. |
 | [get_UlTrailSpace](./get_ultrailspace/)() | Underline All Trailing Spaces. |
 | [get_UnderlineTabInNumList](./get_underlinetabinnumlist/)() | Underline Following Character Following Numbering. |
 | [get_UseAltKinsokuLineBreakRules](./get_usealtkinsokulinebreakrules/)() | Use Alternate Set of East Asian Line Breaking Rules. |
@@ -90,6 +90,8 @@ class CompatibilityOptions : public System::Object
 | [get_WPJustification](./get_wpjustification/)() | Emulate WordPerfect 6.x [Paragraph](../../aspose.words/paragraph/) Justification. |
 | [get_WPSpaceWidth](./get_wpspacewidth/)() | Specifies whether to set the width of a space as is done in WordPerfect 5.x. |
 | [get_WrapTrailSpaces](./get_wraptrailspaces/)() | Line Wrap Trailing Spaces. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [OptimizeFor](./optimizefor/)(Aspose::Words::Settings::MsWordVersion) | Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word. Use this method to prevent MS Word from displaying "Compatibility mode" ribbon upon document loading. (Note that you may also need to set the [Compliance](../../aspose.words.saving/ooxmlsaveoptions/get_compliance/) property to [Iso29500_2008_Transitional](../../aspose.words.saving/ooxmlcompliance/) or higher.) |
 | [set_AdjustLineHeightInTable](./set_adjustlineheightintable/)(bool) | Add [Document](../../aspose.words/document/) Grid Line Pitch To Lines in Table Cells. |
 | [set_AlignTablesRowByRow](./set_aligntablesrowbyrow/)(bool) | Align Table Rows Independently. |
@@ -147,7 +149,7 @@ class CompatibilityOptions : public System::Object
 | [set_SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning](./set_swapinsideandoutsideformirrorindentsandrelativepositioning/)(bool) |  |
 | [set_TransparentMetafiles](./set_transparentmetafiles/)(bool) | Specifies not to blank the area behind metafile pictures. |
 | [set_TruncateFontHeightsLikeWP6](./set_truncatefontheightslikewp6/)(bool) | Emulate WordPerfect 6.x [Font](../../aspose.words/font/) Height Calculation. |
-| [set_UICompat97To2003](./set_uicompat97to2003/)(bool) | **True** to disable UI functionality which is not compatible with Word97-2003. Default value is **false**. |
+| [set_UICompat97To2003](./set_uicompat97to2003/)(bool) | True to disable UI functionality which is not compatible with Word97-2003. Default value is **false**. |
 | [set_UlTrailSpace](./set_ultrailspace/)(bool) | Underline All Trailing Spaces. |
 | [set_UnderlineTabInNumList](./set_underlinetabinnumlist/)(bool) | Underline Following Character Following Numbering. |
 | [set_UseAltKinsokuLineBreakRules](./set_usealtkinsokulinebreakrules/)(bool) | Use Alternate Set of East Asian Line Breaking Rules. |
@@ -162,6 +164,7 @@ class CompatibilityOptions : public System::Object
 | [set_WPJustification](./set_wpjustification/)(bool) | Emulate WordPerfect 6.x [Paragraph](../../aspose.words/paragraph/) Justification. |
 | [set_WPSpaceWidth](./set_wpspacewidth/)(bool) | Specifies whether to set the width of a space as is done in WordPerfect 5.x. |
 | [set_WrapTrailSpaces](./set_wraptrailspaces/)(bool) | Line Wrap Trailing Spaces. |
+| static [Type](./type/)() |  |
 
 ## Examples
 

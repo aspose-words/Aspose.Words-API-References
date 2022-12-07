@@ -1,7 +1,7 @@
 ---
 title: BookmarksOutlineLevelCollection
 second_title: Aspose.Words for C++ API Reference
-description: A collection of individual bookmarks outline level.
+description: A collection of individual bookmarks outline level. To learn more, visit the  documentation article.
 type: docs
 weight: 1
 url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/
 ## BookmarksOutlineLevelCollection class
 
 
-A collection of individual bookmarks outline level.
+A collection of individual bookmarks outline level. To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/cpp/working-with-bookmarks/) documentation article.
 
 ```cpp
 class BookmarksOutlineLevelCollection : public System::Collections::Generic::IEnumerable<System::Collections::Generic::KeyValuePair<System::String, int32_t>>
@@ -31,13 +31,16 @@ class BookmarksOutlineLevelCollection : public System::Collections::Generic::IEn
 | [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [GetEnumerator](./getenumerator/)() override |  |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(const System::String\&) | Gets or a sets a bookmark outline level by the bookmark name. |
 | [idx_get](./idx_get/)(int32_t) | Gets or sets a bookmark outline level at the specified index. |
 | [idx_set](./idx_set/)(const System::String\&, int32_t) | Gets or a sets a bookmark outline level by the bookmark name. |
 | [idx_set](./idx_set/)(int32_t, int32_t) | Gets or sets a bookmark outline level at the specified index. |
 | [IndexOfKey](./indexofkey/)(const System::String\&) | Returns the zero-based index of the specified bookmark in the collection. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](./remove/)(const System::String\&) | Removes a bookmark with the specified name from the collection. |
 | [RemoveAt](./removeat/)(int32_t) | Removes a bookmark at the specified index. |
+| static [Type](./type/)() |  |
 | [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
 | [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
 | [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |

@@ -3,7 +3,7 @@ title: get_WPJustification
 second_title: Aspose.Words for C++ API Reference
 description: Emulate WordPerfect 6.x Paragraph Justification.
 type: docs
-weight: 885
+weight: 898
 url: /cpp/aspose.words.settings/compatibilityoptions/get_wpjustification/
 ---
 ## CompatibilityOptions::get_WPJustification method

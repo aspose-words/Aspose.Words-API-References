@@ -3,7 +3,7 @@ title: get_MatchOffset
 second_title: Aspose.Words for C++ API Reference
 description: Gets the zero-based starting position of the match from the start of the node that contains the beginning of the match.
 type: docs
-weight: 53
+weight: 66
 url: /cpp/aspose.words.replacing/replacingargs/get_matchoffset/
 ---
 ## ReplacingArgs::get_MatchOffset method

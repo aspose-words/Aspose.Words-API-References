@@ -3,7 +3,7 @@ title: set_SaveFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Saving::PdfSaveOptions::get_SaveFormat.'
 type: docs
-weight: 716
+weight: 781
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_saveformat/
 ---
 ## PdfSaveOptions::set_SaveFormat method

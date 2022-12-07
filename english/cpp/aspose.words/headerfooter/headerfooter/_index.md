@@ -3,7 +3,7 @@ title: HeaderFooter
 second_title: Aspose.Words for C++ API Reference
 description: Creates a new header or footer of the specified type.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words/headerfooter/headerfooter/
 ---
 ## HeaderFooter::HeaderFooter constructor
@@ -23,9 +23,9 @@ Aspose::Words::HeaderFooter::HeaderFooter(const System::SharedPtr<Aspose::Words:
 ## Remarks
 
 
-When **HeaderFooter** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+When [HeaderFooter](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is **null**.
 
-To append **HeaderFooter** to a **Section** use [Section.InsertAfter](../../compositenode/insertafter/), [Section.InsertBefore](../../compositenode/insertbefore/), HeadersFooters.Add or HeadersFooters.Insert.
+To append [HeaderFooter](../) to a [Section](../../section/) use [InsertAfter()](../), [InsertBefore()](../), or [HeadersFooters](../../section/get_headersfooters/) property and methods [Add()](../), [Insert()](../).
 
 ## Examples
 

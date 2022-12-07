@@ -3,7 +3,7 @@ title: GetListByListId
 second_title: Aspose.Words for C++ API Reference
 description: Gets a list by a list identifier.
 type: docs
-weight: 118
+weight: 131
 url: /cpp/aspose.words.lists/listcollection/getlistbylistid/
 ---
 ## ListCollection::GetListByListId method
@@ -22,7 +22,7 @@ System::SharedPtr<Aspose::Words::Lists::List> Aspose::Words::Lists::ListCollecti
 
 ### ReturnValue
 
-Returns the list object. Returns null if a list with the specified identifier was not found.
+Returns the list object. Returns **null** if a list with the specified identifier was not found.
 ## Remarks
 
 

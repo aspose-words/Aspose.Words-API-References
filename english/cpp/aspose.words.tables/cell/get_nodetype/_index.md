@@ -1,15 +1,15 @@
 ---
 title: get_NodeType
 second_title: Aspose.Words for C++ API Reference
-description: Returns NodeType.Cell.
+description: Returns Cell.
 type: docs
-weight: 105
+weight: 118
 url: /cpp/aspose.words.tables/cell/get_nodetype/
 ---
 ## Cell::get_NodeType method
 
 
-Returns **NodeType.Cell**.
+Returns [Cell](../../../aspose.words/nodetype/).
 
 ```cpp
 Aspose::Words::NodeType Aspose::Words::Tables::Cell::get_NodeType() const override

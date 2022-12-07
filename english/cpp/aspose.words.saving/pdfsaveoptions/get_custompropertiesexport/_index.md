@@ -3,7 +3,7 @@ title: get_CustomPropertiesExport
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets a value determining the way CustomDocumentProperties are exported to PDF file.
 type: docs
-weight: 79
+weight: 92
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_custompropertiesexport/
 ---
 ## PdfSaveOptions::get_CustomPropertiesExport method

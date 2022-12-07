@@ -3,7 +3,7 @@ title: UpdatePageNumbers
 second_title: Aspose.Words for C++ API Reference
 description: Updates the page numbers for items in this table of contents.
 type: docs
-weight: 456
+weight: 495
 url: /cpp/aspose.words.fields/fieldtoc/updatepagenumbers/
 ---
 ## FieldToc::UpdatePageNumbers method
@@ -18,7 +18,7 @@ bool Aspose::Words::Fields::FieldToc::UpdatePageNumbers()
 
 ### ReturnValue
 
-True if the operation is successful. If any of the related TOC bookmarks was removed, false will be returned.
+**true** if the operation is successful. If any of the related TOC bookmarks was removed, **false** will be returned.
 
 ## Examples
 

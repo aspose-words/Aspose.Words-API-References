@@ -3,7 +3,7 @@ title: set_PromptOnceOnMailMerge
 second_title: Aspose.Words for C++ API Reference
 description: Sets whether the user response should be recieved once per a mail merge operation.
 type: docs
-weight: 79
+weight: 118
 url: /cpp/aspose.words.fields/fieldask/set_promptonceonmailmerge/
 ---
 ## FieldAsk::set_PromptOnceOnMailMerge method

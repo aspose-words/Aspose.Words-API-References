@@ -3,7 +3,7 @@ title: set_ShowHiddenText
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Layout::LayoutOptions::get_ShowHiddenText.'
 type: docs
-weight: 170
+weight: 209
 url: /cpp/aspose.words.layout/layoutoptions/set_showhiddentext/
 ---
 ## LayoutOptions::set_ShowHiddenText method

@@ -3,7 +3,7 @@ title: get_CellFormat
 second_title: Aspose.Words for C++ API Reference
 description: Provides access to the formatting properties of the cell.
 type: docs
-weight: 40
+weight: 53
 url: /cpp/aspose.words.tables/cell/get_cellformat/
 ---
 ## Cell::get_CellFormat method

@@ -1,7 +1,7 @@
 ---
 title: OutlineOptions
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify outline options.
+description: Allows to specify outline options. To learn more, visit the  documentation article.
 type: docs
 weight: 209
 url: /cpp/aspose.words.saving/outlineoptions/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/outlineoptions/
 ## OutlineOptions class
 
 
-Allows to specify outline options.
+Allows to specify outline options. To learn more, visit the [Save a Document](https://docs.aspose.com/words/cpp/save-a-document/) documentation article.
 
 ```cpp
 class OutlineOptions : public System::Object
@@ -25,12 +25,15 @@ class OutlineOptions : public System::Object
 | [get_DefaultBookmarksOutlineLevel](./get_defaultbookmarksoutlinelevel/)() const | Specifies the default level in the document outline at which to display Word bookmarks. |
 | [get_ExpandedOutlineLevels](./get_expandedoutlinelevels/)() const | Specifies how many levels in the document outline to show expanded when the file is viewed. |
 | [get_HeadingsOutlineLevels](./get_headingsoutlinelevels/)() const | Specifies how many levels of headings (paragraphs formatted with the Heading styles) to include in the document outline. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [OutlineOptions](./outlineoptions/)() |  |
 | [set_CreateMissingOutlineLevels](./set_createmissingoutlinelevels/)(bool) | Setter for [Aspose::Words::Saving::OutlineOptions::get_CreateMissingOutlineLevels](./get_createmissingoutlinelevels/). |
 | [set_CreateOutlinesForHeadingsInTables](./set_createoutlinesforheadingsintables/)(bool) | Setter for [Aspose::Words::Saving::OutlineOptions::get_CreateOutlinesForHeadingsInTables](./get_createoutlinesforheadingsintables/). |
 | [set_DefaultBookmarksOutlineLevel](./set_defaultbookmarksoutlinelevel/)(int32_t) | Setter for [Aspose::Words::Saving::OutlineOptions::get_DefaultBookmarksOutlineLevel](./get_defaultbookmarksoutlinelevel/). |
 | [set_ExpandedOutlineLevels](./set_expandedoutlinelevels/)(int32_t) | Setter for [Aspose::Words::Saving::OutlineOptions::get_ExpandedOutlineLevels](./get_expandedoutlinelevels/). |
 | [set_HeadingsOutlineLevels](./set_headingsoutlinelevels/)(int32_t) | Setter for [Aspose::Words::Saving::OutlineOptions::get_HeadingsOutlineLevels](./get_headingsoutlinelevels/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

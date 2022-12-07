@@ -3,7 +3,7 @@ title: get_DmlEffectsRenderingMode
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets a value determining how DrawingML effects are rendered.
 type: docs
-weight: 53
+weight: 79
 url: /cpp/aspose.words.saving/saveoptions/get_dmleffectsrenderingmode/
 ---
 ## SaveOptions::get_DmlEffectsRenderingMode method

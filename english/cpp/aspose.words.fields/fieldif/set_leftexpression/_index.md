@@ -3,7 +3,7 @@ title: set_LeftExpression
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Fields::FieldIf::get_LeftExpression.'
 type: docs
-weight: 144
+weight: 183
 url: /cpp/aspose.words.fields/fieldif/set_leftexpression/
 ---
 ## FieldIf::set_LeftExpression method

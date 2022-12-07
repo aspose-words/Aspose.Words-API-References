@@ -3,7 +3,7 @@ title: get_UseNormalStyleForList
 second_title: Aspose.Words for C++ API Reference
 description: Do Not Automatically Apply List ParagraphStyle To Bulleted/Numbered Text.
 type: docs
-weight: 807
+weight: 820
 url: /cpp/aspose.words.settings/compatibilityoptions/get_usenormalstyleforlist/
 ---
 ## CompatibilityOptions::get_UseNormalStyleForList method

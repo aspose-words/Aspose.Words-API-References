@@ -1,7 +1,7 @@
 ---
 title: TableSubstitutionRule
 second_title: Aspose.Words for C++ API Reference
-description: Table font substitution rule.
+description: Table font substitution rule. To learn more, visit the  documentation article.
 type: docs
 weight: 222
 url: /cpp/aspose.words.fonts/tablesubstitutionrule/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fonts/tablesubstitutionrule/
 ## TableSubstitutionRule class
 
 
-Table font substitution rule.
+Table font substitution rule. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
 
 ```cpp
 class TableSubstitutionRule : public Aspose::Words::Fonts::FontSubstitutionRule
@@ -22,6 +22,8 @@ class TableSubstitutionRule : public Aspose::Words::Fonts::FontSubstitutionRule
 | [AddSubstitutes](./addsubstitutes/)(const System::String\&, const System::ArrayPtr\<System::String\>\&) | Adds substitute font names for given original font name. |
 | virtual [get_Enabled](../fontsubstitutionrule/get_enabled/)() | Specifies whether the rule is enabled or not. |
 | [GetSubstitutes](./getsubstitutes/)(const System::String\&) | Returns array containing substitute font names for the specified original font name. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Load](./load/)(const System::String\&) | Loads table substitution settings from XML file. |
 | [Load](./load/)(const System::SharedPtr\<System::IO::Stream\>\&) | Loads table substitution settings from XML stream. |
 | [LoadAndroidSettings](./loadandroidsettings/)() | Loads predefined table substitution settings for Linux platform. |
@@ -31,6 +33,7 @@ class TableSubstitutionRule : public Aspose::Words::Fonts::FontSubstitutionRule
 | [Save](./save/)(const System::SharedPtr\<System::IO::Stream\>\&) | Saves the current table substitution settings to stream. |
 | virtual [set_Enabled](../fontsubstitutionrule/set_enabled/)(bool) | Setter for [Aspose::Words::Fonts::FontSubstitutionRule::get_Enabled](../fontsubstitutionrule/get_enabled/). |
 | [SetSubstitutes](./setsubstitutes/)(const System::String\&, const System::ArrayPtr\<System::String\>\&) | Override substitute font names for given original font name. |
+| static [Type](./type/)() |  |
 
 ## Examples
 

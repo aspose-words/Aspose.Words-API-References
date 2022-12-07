@@ -3,7 +3,7 @@ title: get_Encoding
 second_title: Aspose.Words for C++ API Reference
 description: Specifies the encoding to use when exporting to HTML, MHTML or EPUB. Default value is new UTF8Encoding(false) (UTF-8 without BOM).
 type: docs
-weight: 118
+weight: 131
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_encoding/
 ---
 ## HtmlSaveOptions::get_Encoding method

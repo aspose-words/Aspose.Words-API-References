@@ -1,7 +1,7 @@
 ---
 title: SignatureLineOptions
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify options for signature line being inserted. Used in DocumentBuilder.
+description: Allows to specify options for signature line being inserted. Used in DocumentBuilder. To learn more, visit the  documentation article.
 type: docs
 weight: 781
 url: /cpp/aspose.words/signaturelineoptions/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/signaturelineoptions/
 ## SignatureLineOptions class
 
 
-Allows to specify options for signature line being inserted. Used in [DocumentBuilder](../documentbuilder/).
+Allows to specify options for signature line being inserted. Used in [DocumentBuilder](../documentbuilder/). To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/cpp/working-with-digital-signatures/) documentation article.
 
 ```cpp
 class SignatureLineOptions : public System::Object
@@ -26,6 +26,8 @@ class SignatureLineOptions : public System::Object
 | [get_ShowDate](./get_showdate/)() const | Gets or sets a value indicating that sign date is shown in the signature line. Default value for this property is **true**. |
 | [get_Signer](./get_signer/)() const | Gets or sets suggested signer of the signature line. Default value for this property is **empty string**. |
 | [get_SignerTitle](./get_signertitle/)() const | Gets or sets suggested signer's title. Default value for this property is **empty string**. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_AllowComments](./set_allowcomments/)(bool) | Setter for [Aspose::Words::SignatureLineOptions::get_AllowComments](./get_allowcomments/). |
 | [set_DefaultInstructions](./set_defaultinstructions/)(bool) | Setter for [Aspose::Words::SignatureLineOptions::get_DefaultInstructions](./get_defaultinstructions/). |
 | [set_Email](./set_email/)(const System::String\&) | Setter for [Aspose::Words::SignatureLineOptions::get_Email](./get_email/). |
@@ -34,6 +36,7 @@ class SignatureLineOptions : public System::Object
 | [set_Signer](./set_signer/)(const System::String\&) | Setter for [Aspose::Words::SignatureLineOptions::get_Signer](./get_signer/). |
 | [set_SignerTitle](./set_signertitle/)(const System::String\&) | Setter for [Aspose::Words::SignatureLineOptions::get_SignerTitle](./get_signertitle/). |
 | [SignatureLineOptions](./signaturelineoptions/)() |  |
+| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words](../)

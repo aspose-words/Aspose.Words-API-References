@@ -3,7 +3,7 @@ title: Before
 second_title: Aspose.Words for C++ API Reference
 description: Gets a first tab stop to the left of the specified position.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/aspose.words/tabstopcollection/before/
 ---
 ## TabStopCollection::Before method
@@ -22,11 +22,11 @@ System::SharedPtr<Aspose::Words::TabStop> Aspose::Words::TabStopCollection::Befo
 
 ### ReturnValue
 
-A tab stop object or null if a suitable tab stop was not found.
+A tab stop object or **null** if a suitable tab stop was not found.
 ## Remarks
 
 
-Skips tab stops with **Alignment** set to **TabAlignment.Bar**.
+Skips tab stops with [Alignment](../../tabstop/get_alignment/) set to [Bar](../../tabalignment/).
 
 ## Examples
 

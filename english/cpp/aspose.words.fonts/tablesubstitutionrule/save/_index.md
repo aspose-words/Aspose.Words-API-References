@@ -3,7 +3,7 @@ title: Save
 second_title: Aspose.Words for C++ API Reference
 description: Saves the current table substitution settings to stream.
 type: docs
-weight: 79
+weight: 118
 url: /cpp/aspose.words.fonts/tablesubstitutionrule/save/
 ---
 ## TableSubstitutionRule::Save(const System::SharedPtr\<System::IO::Stream\>\&) method

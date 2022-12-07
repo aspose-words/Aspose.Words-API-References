@@ -3,7 +3,7 @@ title: AddLinkToContent
 second_title: Aspose.Words for C++ API Reference
 description: Creates a new linked to content custom document property.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words.properties/customdocumentproperties/addlinktocontent/
 ---
 ## CustomDocumentProperties::AddLinkToContent method
@@ -23,7 +23,7 @@ System::SharedPtr<Aspose::Words::Properties::DocumentProperty> Aspose::Words::Pr
 
 ### ReturnValue
 
-The newly created property object or null when the linkSource is invalid.
+The newly created property object or **null** when the *linkSource* is invalid.
 
 ## Examples
 

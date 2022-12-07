@@ -3,7 +3,7 @@ title: GetAncestor
 second_title: Aspose.Words for C++ API Reference
 description: Gets the first ancestor of the specified NodeType.
 type: docs
-weight: 131
+weight: 157
 url: /cpp/aspose.words/node/getancestor/
 ---
 ## Node::GetAncestor method
@@ -22,7 +22,7 @@ System::SharedPtr<Aspose::Words::CompositeNode> Aspose::Words::Node::GetAncestor
 
 ### ReturnValue
 
-The ancestor of the specified type or null if no ancestor of this type was found.
+The ancestor of the specified type or **null** if no ancestor of this type was found.
 
 ## Examples
 

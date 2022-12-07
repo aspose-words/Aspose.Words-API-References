@@ -3,7 +3,7 @@ title: SetTextInputValue
 second_title: Aspose.Words for C++ API Reference
 description: Applies the text format specified in TextInputFormat and stores the value in Result.
 type: docs
-weight: 560
+weight: 599
 url: /cpp/aspose.words.fields/formfield/settextinputvalue/
 ---
 ## FormField::SetTextInputValue method
@@ -18,7 +18,7 @@ void Aspose::Words::Fields::FormField::SetTextInputValue(const System::SharedPtr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newValue | const System::SharedPtr\<System::Object\>\& | Can be a string, number or a DateTime object. |
+| newValue | const System::SharedPtr\<System::Object\>\& | Can be a string, number or a **DateTime** object. |
 
 ## Examples
 

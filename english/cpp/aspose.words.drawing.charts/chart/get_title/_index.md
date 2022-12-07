@@ -3,7 +3,7 @@ title: get_Title
 second_title: Aspose.Words for C++ API Reference
 description: Provides access to the chart title properties.
 type: docs
-weight: 79
+weight: 92
 url: /cpp/aspose.words.drawing.charts/chart/get_title/
 ---
 ## Chart::get_Title method

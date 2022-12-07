@@ -1,7 +1,7 @@
 ---
 title: AxisDisplayUnit
 second_title: Aspose.Words for C++ API Reference
-description: Provides access to the scaling options of the display units for the value axis.
+description: Provides access to the scaling options of the display units for the value axis. To learn more, visit the  documentation article.
 type: docs
 weight: 14
 url: /cpp/aspose.words.drawing.charts/axisdisplayunit/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing.charts/axisdisplayunit/
 ## AxisDisplayUnit class
 
 
-Provides access to the scaling options of the display units for the value axis.
+Provides access to the scaling options of the display units for the value axis. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
 class AxisDisplayUnit : public Aspose::Words::Drawing::Charts::Core::IDmlChartTitleHolder,
@@ -24,8 +24,11 @@ class AxisDisplayUnit : public Aspose::Words::Drawing::Charts::Core::IDmlChartTi
 | [get_CustomUnit](./get_customunit/)() const | Gets or sets a user-defined divisor to scale display units on the value axis. |
 | [get_Document](./get_document/)() override | Returns the [Document](../../aspose.words/document/) the title holder belongs. |
 | [get_Unit](./get_unit/)() const | Gets or sets the scaling value of the display units as one of the predefined values. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_CustomUnit](./set_customunit/)(double) | Setter for [Aspose::Words::Drawing::Charts::AxisDisplayUnit::get_CustomUnit](./get_customunit/). |
 | [set_Unit](./set_unit/)(Aspose::Words::Drawing::Charts::AxisBuiltInUnit) | Setter for [Aspose::Words::Drawing::Charts::AxisDisplayUnit::get_Unit](./get_unit/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

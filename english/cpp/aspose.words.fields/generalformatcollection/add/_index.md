@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Words for C++ API Reference
 description: Adds a general format to the collection.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.fields/generalformatcollection/add/
 ---
 ## GeneralFormatCollection::Add method

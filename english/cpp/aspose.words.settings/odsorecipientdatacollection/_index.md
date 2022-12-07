@@ -1,7 +1,7 @@
 ---
 title: OdsoRecipientDataCollection
 second_title: Aspose.Words for C++ API Reference
-description: A typed collection of OdsoRecipientData
+description: A typed collection of OdsoRecipientDataTo learn more, visit the  documentation article.
 type: docs
 weight: 92
 url: /cpp/aspose.words.settings/odsorecipientdatacollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.settings/odsorecipientdatacollection/
 ## OdsoRecipientDataCollection class
 
 
-A typed collection of [OdsoRecipientData](../odsorecipientdata/)
+A typed collection of [OdsoRecipientData](../odsorecipientdata/)To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/cpp/mail-merge-and-reporting/) documentation article.
 
 ```cpp
 class OdsoRecipientDataCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Settings::OdsoRecipientData>>
@@ -29,10 +29,13 @@ class OdsoRecipientDataCollection : public System::Collections::Generic::IEnumer
 | [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Gets or sets an item in this collection. |
 | [idx_set](./idx_set/)(int32_t, const System::SharedPtr\<Aspose::Words::Settings::OdsoRecipientData\>\&) | Gets or sets an item in this collection. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [OdsoRecipientDataCollection](./odsorecipientdatacollection/)() |  |
 | [RemoveAt](./removeat/)(int32_t) | Removes the element at the specified index. |
+| static [Type](./type/)() |  |
 | [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
 | [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
 | [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |

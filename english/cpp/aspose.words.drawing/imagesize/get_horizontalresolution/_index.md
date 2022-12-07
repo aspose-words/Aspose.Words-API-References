@@ -3,7 +3,7 @@ title: get_HorizontalResolution
 second_title: Aspose.Words for C++ API Reference
 description: Gets the horizontal resolution in DPI.
 type: docs
-weight: 40
+weight: 53
 url: /cpp/aspose.words.drawing/imagesize/get_horizontalresolution/
 ---
 ## ImageSize::get_HorizontalResolution method

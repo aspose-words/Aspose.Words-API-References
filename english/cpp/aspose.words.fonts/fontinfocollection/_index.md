@@ -1,7 +1,7 @@
 ---
 title: FontInfoCollection
 second_title: Aspose.Words for C++ API Reference
-description: Represents a collection of fonts used in a document.
+description: Represents a collection of fonts used in a document. To learn more, visit the  documentation article.
 type: docs
 weight: 79
 url: /cpp/aspose.words.fonts/fontinfocollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fonts/fontinfocollection/
 ## FontInfoCollection class
 
 
-Represents a collection of fonts used in a document.
+Represents a collection of fonts used in a document. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
 
 ```cpp
 class FontInfoCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Fonts::FontInfo>>
@@ -31,11 +31,14 @@ class FontInfoCollection : public System::Collections::Generic::IEnumerable<Syst
 | [get_EmbedTrueTypeFonts](./get_embedtruetypefonts/)() const | Specifies whether or not to embed TrueType fonts in a document when it is saved. Default value for this property is **false**. |
 | [get_SaveSubsetFonts](./get_savesubsetfonts/)() const | Specifies whether or not to save a subset of the embedded TrueType fonts with the document. Default value for this property is **false**. This option works only when [EmbedTrueTypeFonts](./get_embedtruetypefonts/) property is set to **true**. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(const System::String\&) | Gets a font with the specified name. |
 | [idx_get](./idx_get/)(int32_t) | Gets a font at the specified index. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_EmbedSystemFonts](./set_embedsystemfonts/)(bool) | Setter for [Aspose::Words::Fonts::FontInfoCollection::get_EmbedSystemFonts](./get_embedsystemfonts/). |
 | [set_EmbedTrueTypeFonts](./set_embedtruetypefonts/)(bool) | Setter for [Aspose::Words::Fonts::FontInfoCollection::get_EmbedTrueTypeFonts](./get_embedtruetypefonts/). |
 | [set_SaveSubsetFonts](./set_savesubsetfonts/)(bool) | Setter for [Aspose::Words::Fonts::FontInfoCollection::get_SaveSubsetFonts](./get_savesubsetfonts/). |
+| static [Type](./type/)() |  |
 | [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
 | [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
 | [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |

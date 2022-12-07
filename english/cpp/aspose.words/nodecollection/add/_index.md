@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Words for C++ API Reference
 description: Adds a node to the end of the collection.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words/nodecollection/add/
 ---
 ## NodeCollection::Add method
@@ -23,8 +23,6 @@ void Aspose::Words::NodeCollection::Add(const System::SharedPtr<Aspose::Words::N
 
 
 The node is inserted as a child into the node object from which the collection was created.
-
-If the newChild is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use [ImportNode()](../) to import the node to the current document. The imported node can then be inserted into the current document.
 

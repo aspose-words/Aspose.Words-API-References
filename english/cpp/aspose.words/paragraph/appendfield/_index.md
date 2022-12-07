@@ -3,7 +3,7 @@ title: AppendField
 second_title: Aspose.Words for C++ API Reference
 description: Appends a field to this paragraph.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/aspose.words/paragraph/appendfield/
 ---
 ## Paragraph::AppendField(Aspose::Words::Fields::FieldType, bool) method
@@ -127,7 +127,7 @@ System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Paragraph::Append
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldCode | const System::String\& | The field code to append (without curly braces). |
-| fieldValue | const System::String\& | The field value to append. Pass null for fields that do not have a value. |
+| fieldValue | const System::String\& | The field value to append. Pass **null** for fields that do not have a value. |
 
 ### ReturnValue
 

@@ -3,7 +3,7 @@ title: EndEditableRange
 second_title: Aspose.Words for C++ API Reference
 description: Marks the current position in the document as an editable range end.
 type: docs
-weight: 53
+weight: 66
 url: /cpp/aspose.words/documentbuilder/endeditablerange/
 ---
 ## DocumentBuilder::EndEditableRange() method

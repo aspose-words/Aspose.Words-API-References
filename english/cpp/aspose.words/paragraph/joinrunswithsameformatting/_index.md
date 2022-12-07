@@ -3,7 +3,7 @@ title: JoinRunsWithSameFormatting
 second_title: Aspose.Words for C++ API Reference
 description: Joins runs with the same formatting in the paragraph.
 type: docs
-weight: 352
+weight: 391
 url: /cpp/aspose.words/paragraph/joinrunswithsameformatting/
 ---
 ## Paragraph::JoinRunsWithSameFormatting method

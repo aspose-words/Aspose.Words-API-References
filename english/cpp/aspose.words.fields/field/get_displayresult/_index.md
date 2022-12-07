@@ -3,7 +3,7 @@ title: get_DisplayResult
 second_title: Aspose.Words for C++ API Reference
 description: Gets the text that represents the displayed field result.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.fields/field/get_displayresult/
 ---
 ## Field::get_DisplayResult method

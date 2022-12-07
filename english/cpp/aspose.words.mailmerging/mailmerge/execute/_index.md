@@ -3,7 +3,7 @@ title: Execute
 second_title: Aspose.Words for C++ API Reference
 description: Performs a mail merge operation for a single record.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words.mailmerging/mailmerge/execute/
 ---
 ## MailMerge::Execute(const System::ArrayPtr\<System::String\>\&, const System::ArrayPtr\<System::SharedPtr\<System::Object\>\>\&) method
@@ -19,7 +19,7 @@ void Aspose::Words::MailMerging::MailMerge::Execute(const System::ArrayPtr<Syste
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldNames | const System::ArrayPtr\<System::String\>\& | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
-| values | const System::ArrayPtr\<System::SharedPtr\<System::Object\>\>\& | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
+| values | const System::ArrayPtr\<System::SharedPtr\<System::Object\>\>\& | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in *fieldNames*. |
 ## Remarks
 
 
@@ -81,7 +81,7 @@ void Aspose::Words::MailMerging::MailMerge::Execute(const System::SharedPtr<Aspo
 
 Use this method to fill mail merge fields in the document with values from any data source such as a list or hashtable or objects. You need to write your own class that implements the [IMailMergeDataSource](../../imailmergedatasource/) interface.
 
-You can use this method only when [IsBidiTextSupportedOnUpdate](../../../aspose.words.fields/fieldoptions/get_isbiditextsupportedonupdate/) is false, that is you do not need Right-To-Left language (such as Arabic or Hebrew) compatibility.
+You can use this method only when [IsBidiTextSupportedOnUpdate](../../../aspose.words.fields/fieldoptions/get_isbiditextsupportedonupdate/) is **false**, that is you do not need Right-To-Left language (such as Arabic or Hebrew) compatibility.
 
 This method ignores the [RemoveUnusedRegions](../../mailmergecleanupoptions/) option.
 

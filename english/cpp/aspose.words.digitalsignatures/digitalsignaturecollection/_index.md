@@ -1,7 +1,7 @@
 ---
 title: DigitalSignatureCollection
 second_title: Aspose.Words for C++ API Reference
-description: Provides a read-only collection of digital signatures attached to a document.
+description: Provides a read-only collection of digital signatures attached to a document. To learn more, visit the  documentation article.
 type: docs
 weight: 27
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/
 ## DigitalSignatureCollection class
 
 
-Provides a read-only collection of digital signatures attached to a document.
+Provides a read-only collection of digital signatures attached to a document. To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/cpp/working-with-digital-signatures/) documentation article.
 
 ```cpp
 class DigitalSignatureCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignature>>
@@ -29,7 +29,10 @@ class DigitalSignatureCollection : public System::Collections::Generic::IEnumera
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [get_IsValid](./get_isvalid/)() | Returns **true** if all digital signatures in this collection are valid and the document has not been tampered with Also returns **true** if there are no digital signatures. Returns **false** if at least one digital signature is invalid. |
 | [GetEnumerator](./getenumerator/)() override | Returns a dictionary enumerator object that can be used to iterate over all items in the collection. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Gets a document signature at the specified index. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 | [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
 | [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
 | [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |

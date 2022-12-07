@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Words for C++ API Reference
 description: Adds an object to the end of this collection.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words.settings/odsorecipientdatacollection/add/
 ---
 ## OdsoRecipientDataCollection::Add method
@@ -18,7 +18,7 @@ int32_t Aspose::Words::Settings::OdsoRecipientDataCollection::Add(const System::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const System::SharedPtr\<Aspose::Words::Settings::OdsoRecipientData\>\& | The object to add. Cannot be null. |
+| value | const System::SharedPtr\<Aspose::Words::Settings::OdsoRecipientData\>\& | The object to add. Cannot be **null**. |
 
 ## See Also
 

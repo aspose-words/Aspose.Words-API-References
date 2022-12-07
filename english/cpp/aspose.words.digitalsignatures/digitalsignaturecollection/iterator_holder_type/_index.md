@@ -3,7 +3,7 @@ title: iterator_holder_type
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 196
+weight: 235
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/iterator_holder_type/
 ---
 ## iterator_holder_type typedef

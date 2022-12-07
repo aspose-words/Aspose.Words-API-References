@@ -3,13 +3,13 @@ title: ToDateTime
 second_title: Aspose.Words for C++ API Reference
 description: Returns the property value as DateTime in UTC.
 type: docs
-weight: 105
+weight: 144
 url: /cpp/aspose.words.properties/documentproperty/todatetime/
 ---
 ## DocumentProperty::ToDateTime method
 
 
-Returns the property value as DateTime in UTC.
+Returns the property value as **DateTime** in UTC.
 
 ```cpp
 System::DateTime Aspose::Words::Properties::DocumentProperty::ToDateTime()

@@ -3,7 +3,7 @@ title: get_Stroke
 second_title: Aspose.Words for C++ API Reference
 description: Defines a stroke for a shape.
 type: docs
-weight: 235
+weight: 248
 url: /cpp/aspose.words.drawing/shape/get_stroke/
 ---
 ## Shape::get_Stroke method

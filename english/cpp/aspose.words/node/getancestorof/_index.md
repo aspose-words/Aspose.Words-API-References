@@ -3,7 +3,7 @@ title: GetAncestorOf
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 144
+weight: 170
 url: /cpp/aspose.words/node/getancestorof/
 ---
 ## Node::GetAncestorOf method

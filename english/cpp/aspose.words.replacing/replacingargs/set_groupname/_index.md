@@ -3,7 +3,7 @@ title: set_GroupName
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Replacing::ReplacingArgs::get_GroupName.'
 type: docs
-weight: 92
+weight: 131
 url: /cpp/aspose.words.replacing/replacingargs/set_groupname/
 ---
 ## ReplacingArgs::set_GroupName method

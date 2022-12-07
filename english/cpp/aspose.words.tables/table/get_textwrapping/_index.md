@@ -3,7 +3,7 @@ title: get_TextWrapping
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets TextWrapping for table.
 type: docs
-weight: 469
+weight: 482
 url: /cpp/aspose.words.tables/table/get_textwrapping/
 ---
 ## Table::get_TextWrapping method

@@ -3,7 +3,7 @@ title: get_Format
 second_title: Aspose.Words for C++ API Reference
 description: Provides access to fill and line formatting of this data point.
 type: docs
-weight: 40
+weight: 53
 url: /cpp/aspose.words.drawing.charts/chartdatapoint/get_format/
 ---
 ## ChartDataPoint::get_Format method

@@ -1,7 +1,7 @@
 ---
 title: DocumentVisitor
 second_title: Aspose.Words for C++ API Reference
-description: Base class for custom document visitors.
+description: Base class for custom document visitors. To learn more, visit the  documentation article.
 type: docs
 weight: 287
 url: /cpp/aspose.words/documentvisitor/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/documentvisitor/
 ## DocumentVisitor class
 
 
-Base class for custom document visitors.
+Base class for custom document visitors. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class DocumentVisitor : public virtual System::Object
@@ -19,6 +19,9 @@ class DocumentVisitor : public virtual System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 | virtual [VisitAbsolutePositionTab](./visitabsolutepositiontab/)(System::SharedPtr\<Aspose::Words::AbsolutePositionTab\>) | Called when a [AbsolutePositionTab](../absolutepositiontab/) node is encountered in the document. |
 | virtual [VisitBodyEnd](./visitbodyend/)(System::SharedPtr\<Aspose::Words::Body\>) | Called when enumeration of the main text story in a section has ended. |
 | virtual [VisitBodyStart](./visitbodystart/)(System::SharedPtr\<Aspose::Words::Body\>) | Called when enumeration of the main text story in a section has started. |
@@ -66,25 +69,25 @@ class DocumentVisitor : public virtual System::Object
 | virtual [VisitStructuredDocumentTagRangeEnd](./visitstructureddocumenttagrangeend/)(System::SharedPtr\<Aspose::Words::Markup::StructuredDocumentTagRangeEnd\>) |  |
 | virtual [VisitStructuredDocumentTagRangeStart](./visitstructureddocumenttagrangestart/)(System::SharedPtr\<Aspose::Words::Markup::StructuredDocumentTagRangeStart\>) |  |
 | virtual [VisitStructuredDocumentTagStart](./visitstructureddocumenttagstart/)(System::SharedPtr\<Aspose::Words::Markup::StructuredDocumentTag\>) | Called when enumeration of a structured document tag has started. |
-| virtual [VisitSubDocument](./visitsubdocument/)(System::SharedPtr\<Aspose::Words::SubDocument\>) | Called when a subDocument is encountered. |
+| virtual [VisitSubDocument](./visitsubdocument/)(System::SharedPtr\<Aspose::Words::SubDocument\>) | Called when a sub-document is encountered. |
 | virtual [VisitTableEnd](./visittableend/)(System::SharedPtr\<Aspose::Words::Tables::Table\>) | Called when enumeration of a table has ended. |
 | virtual [VisitTableStart](./visittablestart/)(System::SharedPtr\<Aspose::Words::Tables::Table\>) | Called when enumeration of a table has started. |
 ## Remarks
 
 
-With **DocumentVisitor** you can define and execute custom operations that require enumeration over the document tree.
+With [DocumentVisitor](./) you can define and execute custom operations that require enumeration over the document tree.
 
-For example, Aspose.Words uses **DocumentVisitor** internally for saving **Document** in various formats and for other operations like finding fields or bookmarks over a fragment of a document.
+For example, Aspose.Words uses [DocumentVisitor](./) internally for saving [Document](../document/) in various formats and for other operations like finding fields or bookmarks over a fragment of a document.
 
-To use **DocumentVisitor**:
+To use [DocumentVisitor](./):
 
-1. Create a class derived from **DocumentVisitor**.
+1. Create a class derived from [DocumentVisitor](./).
 1. Override and provide implementations for some or all of the VisitXXX methods to perform some custom operations.
-1. Call [Node.Accept](../node/accept/) on the **Node** that you want to start the enumeration from.
+1. Call [Node.Accept](../node/accept/) on the [Node](../node/) that you want to start the enumeration from.
 
 
 
-**DocumentVisitor** provides default implementations for all of the VisitXXX methods to make it easier to create new document visitors as only the methods required for the particular visitor need to be overridden. It is not necessary to override all of the visitor methods.
+[DocumentVisitor](./) provides default implementations for all of the VisitXXX methods to make it easier to create new document visitors as only the methods required for the particular visitor need to be overridden. It is not necessary to override all of the visitor methods.
 
 For more information see the Visitor design pattern.
 

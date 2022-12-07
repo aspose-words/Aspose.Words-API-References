@@ -3,7 +3,7 @@ title: get_SymbolRotation
 second_title: Aspose.Words for C++ API Reference
 description: Gets the rotation of the barcode symbol. Valid values are [0, 3].
 type: docs
-weight: 196
+weight: 209
 url: /cpp/aspose.words.fields/fieldmergebarcode/get_symbolrotation/
 ---
 ## FieldMergeBarcode::get_SymbolRotation method

@@ -1,7 +1,7 @@
 ---
 title: OlePackage
 second_title: Aspose.Words for C++ API Reference
-description: Allows to access OLE Package properties.
+description: Allows to access OLE Package properties. To learn more, visit the  documentation article.
 type: docs
 weight: 105
 url: /cpp/aspose.words.drawing/olepackage/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing/olepackage/
 ## OlePackage class
 
 
-Allows to access OLE Package properties.
+Allows to access OLE Package properties. To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/cpp/working-with-ole-objects-and-online-video/) documentation article.
 
 ```cpp
 class OlePackage : public System::Object
@@ -21,8 +21,11 @@ class OlePackage : public System::Object
 | --- | --- |
 | [get_DisplayName](./get_displayname/)() const | Gets or sets OLE Package display name. |
 | [get_FileName](./get_filename/)() const | Gets or sets OLE Package file name. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_DisplayName](./set_displayname/)(System::String) | Setter for [Aspose::Words::Drawing::OlePackage::get_DisplayName](./get_displayname/). |
 | [set_FileName](./set_filename/)(System::String) | Setter for [Aspose::Words::Drawing::OlePackage::get_FileName](./get_filename/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

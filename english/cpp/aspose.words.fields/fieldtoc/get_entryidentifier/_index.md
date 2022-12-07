@@ -3,7 +3,7 @@ title: get_EntryIdentifier
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets a string that should match type identifiers of TC fields being included.
 type: docs
-weight: 66
+weight: 79
 url: /cpp/aspose.words.fields/fieldtoc/get_entryidentifier/
 ---
 ## FieldToc::get_EntryIdentifier method

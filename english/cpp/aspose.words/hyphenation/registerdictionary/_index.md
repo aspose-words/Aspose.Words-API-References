@@ -111,7 +111,7 @@ static void Aspose::Words::Hyphenation::RegisterDictionary(const System::String 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | language | const System::String\& | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. |
-| fileName | const System::String\& | A path to the dictionary file in Open Office format. If this parameter is null or empty string then registered is Null dictionary and callback is not called anymore for this language. To enable callback again use [UnregisterDictionary()](../) method. |
+| fileName | const System::String\& | A path to the dictionary file in Open Office format. If this parameter is **null** or empty string then registered is Null dictionary and callback is not called anymore for this language. To enable callback again use [UnregisterDictionary()](../) method. |
 
 ## Examples
 

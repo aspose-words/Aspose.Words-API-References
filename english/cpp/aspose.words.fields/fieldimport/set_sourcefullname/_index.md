@@ -3,7 +3,7 @@ title: set_SourceFullName
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Fields::FieldImport::get_SourceFullName.'
 type: docs
-weight: 66
+weight: 105
 url: /cpp/aspose.words.fields/fieldimport/set_sourcefullname/
 ---
 ## FieldImport::set_SourceFullName method

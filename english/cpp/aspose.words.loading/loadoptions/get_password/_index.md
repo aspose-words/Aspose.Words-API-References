@@ -3,13 +3,13 @@ title: get_Password
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the password for opening an encrypted document. Can be null or empty string. Default is null.
 type: docs
-weight: 118
+weight: 131
 url: /cpp/aspose.words.loading/loadoptions/get_password/
 ---
 ## LoadOptions::get_Password method
 
 
-Gets or sets the password for opening an encrypted document. Can be null or empty string. Default is null.
+Gets or sets the password for opening an encrypted document. Can be **null** or empty string. Default is **null**.
 
 ```cpp
 System::String Aspose::Words::Loading::LoadOptions::get_Password() const
@@ -18,7 +18,7 @@ System::String Aspose::Words::Loading::LoadOptions::get_Password() const
 ## Remarks
 
 
-You need to know the password to open an encrypted document. If the document is not encrypted, set this to null or empty string.
+You need to know the password to open an encrypted document. If the document is not encrypted, set this to **null** or empty string.
 
 ## Examples
 

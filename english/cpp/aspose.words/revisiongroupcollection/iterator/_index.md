@@ -3,7 +3,7 @@ title: iterator
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 157
+weight: 196
 url: /cpp/aspose.words/revisiongroupcollection/iterator/
 ---
 ## iterator typedef

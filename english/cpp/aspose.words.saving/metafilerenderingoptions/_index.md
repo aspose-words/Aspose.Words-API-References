@@ -1,7 +1,7 @@
 ---
 title: MetafileRenderingOptions
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify additional metafile rendering options.
+description: Allows to specify additional metafile rendering options. To learn more, visit the  documentation article.
 type: docs
 weight: 170
 url: /cpp/aspose.words.saving/metafilerenderingoptions/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/metafilerenderingoptions/
 ## MetafileRenderingOptions class
 
 
-Allows to specify additional metafile rendering options.
+Allows to specify additional metafile rendering options. To learn more, visit the [Handling Windows Metafiles](https://docs.aspose.com/words/cpp/handling-windows-metafiles/) documentation article.
 
 ```cpp
 class MetafileRenderingOptions : public System::Object
@@ -24,12 +24,15 @@ class MetafileRenderingOptions : public System::Object
 | [get_RenderingMode](./get_renderingmode/)() const | Gets or sets a value determining how metafile images should be rendered. |
 | [get_ScaleWmfFontsToMetafileSize](./get_scalewmffontstometafilesize/)() const | Gets or sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
 | [get_UseEmfEmbeddedToWmf](./get_useemfembeddedtowmf/)() const | Gets or sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [MetafileRenderingOptions](./metafilerenderingoptions/)() |  |
 | [set_EmfPlusDualRenderingMode](./set_emfplusdualrenderingmode/)(Aspose::Words::Saving::EmfPlusDualRenderingMode) | Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_EmfPlusDualRenderingMode](./get_emfplusdualrenderingmode/). |
 | [set_EmulateRasterOperations](./set_emulaterasteroperations/)(bool) | Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_EmulateRasterOperations](./get_emulaterasteroperations/). |
 | [set_RenderingMode](./set_renderingmode/)(Aspose::Words::Saving::MetafileRenderingMode) | Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_RenderingMode](./get_renderingmode/). |
 | [set_ScaleWmfFontsToMetafileSize](./set_scalewmffontstometafilesize/)(bool) | Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_ScaleWmfFontsToMetafileSize](./get_scalewmffontstometafilesize/). |
 | [set_UseEmfEmbeddedToWmf](./set_useemfembeddedtowmf/)(bool) | Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_UseEmfEmbeddedToWmf](./get_useemfembeddedtowmf/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

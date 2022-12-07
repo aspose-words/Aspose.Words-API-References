@@ -3,7 +3,7 @@ title: SelectSingleNode
 second_title: Aspose.Words for C++ API Reference
 description: Selects the first Node that matches the XPath expression.
 type: docs
-weight: 248
+weight: 287
 url: /cpp/aspose.words/compositenode/selectsinglenode/
 ---
 ## CompositeNode::SelectSingleNode method
@@ -22,7 +22,7 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::CompositeNode::SelectSingl
 
 ### ReturnValue
 
-The first [Node](../../node/) that matches the XPath query or null if no matching node is found.
+The first [Node](../../node/) that matches the XPath query or **null** if no matching node is found.
 ## Remarks
 
 

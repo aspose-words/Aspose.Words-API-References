@@ -3,7 +3,7 @@ title: InsertDocument
 second_title: Aspose.Words for C++ API Reference
 description: Inserts a document at the cursor position.
 type: docs
-weight: 391
+weight: 417
 url: /cpp/aspose.words/documentbuilder/insertdocument/
 ---
 ## DocumentBuilder::InsertDocument(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode) method

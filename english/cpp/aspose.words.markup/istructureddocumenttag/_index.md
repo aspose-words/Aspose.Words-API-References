@@ -32,6 +32,8 @@ class IStructuredDocumentTag : public virtual System::Object
 | virtual [get_Title](./get_title/)() const | Specifies the friendly name associated with this **SDT**. Can not be null. |
 | virtual [get_WordOpenXML](./get_wordopenxml/)() | Gets a string that represents the XML contained within the node in the [FlatOpc](../../aspose.words/saveformat/) format. |
 | virtual [get_XmlMapping](./get_xmlmapping/)() | Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | virtual [IsRanged](./isranged/)() | Returns true if this instance is a ranged structured document tag. |
 | virtual [set_Color](./set_color/)(System::Drawing::Color) | Sets the color of the structured document tag. |
 | virtual [set_IsShowingPlaceholderText](./set_isshowingplaceholdertext/)(bool) | Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). if set to true, this state shall be resumed (showing placeholder text) upon opening this document. |
@@ -41,6 +43,7 @@ class IStructuredDocumentTag : public virtual System::Object
 | virtual [set_Tag](./set_tag/)(System::String) | Specifies a tag associated with the current SDT node. Can not be null. |
 | virtual [set_Title](./set_title/)(System::String) | Specifies the friendly name associated with this **SDT**. Can not be null. |
 | virtual [StructuredDocumentTagNode](./structureddocumenttagnode/)() | Returns [Node](../../aspose.words/node/) object that implements this interface. |
+| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words::Markup](../)

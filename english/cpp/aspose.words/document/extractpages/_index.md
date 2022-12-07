@@ -3,7 +3,7 @@ title: ExtractPages
 second_title: Aspose.Words for C++ API Reference
 description: Returns the Document object representing specified range of pages.
 type: docs
-weight: 131
+weight: 144
 url: /cpp/aspose.words/document/extractpages/
 ---
 ## Document::ExtractPages method

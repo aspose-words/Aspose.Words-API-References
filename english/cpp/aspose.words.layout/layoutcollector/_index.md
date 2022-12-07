@@ -1,7 +1,7 @@
 ---
 title: LayoutCollector
 second_title: Aspose.Words for C++ API Reference
-description: This class allows to compute page numbers of document nodes.
+description: This class allows to compute page numbers of document nodes. To learn more, visit the  documentation article.
 type: docs
 weight: 1
 url: /cpp/aspose.words.layout/layoutcollector/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.layout/layoutcollector/
 ## LayoutCollector class
 
 
-This class allows to compute page numbers of document nodes.
+This class allows to compute page numbers of document nodes. To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/cpp/converting-to-fixed-page-format/) documentation article.
 
 ```cpp
 class LayoutCollector : public System::Object
@@ -25,8 +25,11 @@ class LayoutCollector : public System::Object
 | [GetEntity](./getentity/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returns an opaque position of the [LayoutEnumerator](../layoutenumerator/) which corresponds to the specified node. You can use returned value as an argument to [Current](../layoutenumerator/get_current/) given the document being enumerated and the document of the node are the same. |
 | [GetNumPagesSpanned](./getnumpagesspanned/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets number of pages the specified node spans. 0 if node is within a single page. This is the same as [GetEndPageIndex()](../) - [GetStartPageIndex()](../). |
 | [GetStartPageIndex](./getstartpageindex/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets 1-based index of the page where node begins. Returns 0 if node cannot be mapped to a page. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [LayoutCollector](./layoutcollector/)(const System::SharedPtr\<Aspose::Words::Document\>\&) | Initializes an instance of this class. |
 | [set_Document](./set_document/)(const System::SharedPtr\<Aspose::Words::Document\>\&) | Setter for [Aspose::Words::Layout::LayoutCollector::get_Document](./get_document/). |
+| static [Type](./type/)() |  |
 ## Remarks
 
 
@@ -34,7 +37,7 @@ When you create a [LayoutCollector](./) and specify a [Document](../../aspose.wo
 
 You will be able to find out on which page a particular document node (e.g. run, paragraph or table cell) is located by using the [GetStartPageIndex()](../), [GetEndPageIndex()](../) and [GetNumPagesSpanned()](../) methods. These methods automatically build page layout model of the document and update fields if required.
 
-When you no longer need to collect layout information, it is best to set the [Document](./get_document/) property to null to avoid unnecessary collection of more layout mappings.
+When you no longer need to collect layout information, it is best to set the [Document](./get_document/) property to **null** to avoid unnecessary collection of more layout mappings.
 
 ## Examples
 

@@ -3,7 +3,7 @@ title: GetText
 second_title: Aspose.Words for C++ API Reference
 description: Gets the text of all cells in this row including the end of row character.
 type: docs
-weight: 144
+weight: 157
 url: /cpp/aspose.words.tables/row/gettext/
 ---
 ## Row::GetText method
@@ -18,7 +18,7 @@ System::String Aspose::Words::Tables::Row::GetText() override
 ## Remarks
 
 
-Returns concatenated text of all child nodes with the end of row character [ControlChar.Cell](../../../aspose.words/controlchar/cell/) appended at the end.
+Returns concatenated text of all child nodes with the end of row character [Cell](../../../aspose.words/controlchar/cell/) appended at the end.
 
 The returned string includes all control and special characters as described in [ControlChar](../../../aspose.words/controlchar/).
 

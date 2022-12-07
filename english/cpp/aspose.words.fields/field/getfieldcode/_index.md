@@ -3,7 +3,7 @@ title: GetFieldCode
 second_title: Aspose.Words for C++ API Reference
 description: Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.
 type: docs
-weight: 157
+weight: 170
 url: /cpp/aspose.words.fields/field/getfieldcode/
 ---
 ## Field::GetFieldCode() method
@@ -70,7 +70,7 @@ System::String Aspose::Words::Fields::Field::GetFieldCode(bool includeChildField
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| includeChildFieldCodes | bool | **True** if child field codes should be included. |
+| includeChildFieldCodes | bool | **true** if child field codes should be included. |
 
 ## Examples
 

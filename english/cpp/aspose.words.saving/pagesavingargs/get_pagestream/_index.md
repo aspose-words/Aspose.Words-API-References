@@ -3,7 +3,7 @@ title: get_PageStream
 second_title: Aspose.Words for C++ API Reference
 description: Allows to specify the stream where the document page will be saved to.
 type: docs
-weight: 53
+weight: 66
 url: /cpp/aspose.words.saving/pagesavingargs/get_pagestream/
 ---
 ## PageSavingArgs::get_PageStream method
@@ -22,7 +22,7 @@ This property allows you to save document pages to streams instead of files.
 
 The default value is **null**. When this property is **null**, the document page will be saved to a file specified in the [PageFileName](../get_pagefilename/) property.
 
-If both PageStream and PageFileName are set, then PageStream will be used.
+If both [PageStream](./) and [PageFileName](../get_pagefilename/) are set, then PageStream will be used.
 
 ## Examples
 

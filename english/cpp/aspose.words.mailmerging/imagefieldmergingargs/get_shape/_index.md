@@ -3,7 +3,7 @@ title: get_Shape
 second_title: Aspose.Words for C++ API Reference
 description: Specifies the shape that the mail merge engine must insert into the document.
 type: docs
-weight: 66
+weight: 79
 url: /cpp/aspose.words.mailmerging/imagefieldmergingargs/get_shape/
 ---
 ## ImageFieldMergingArgs::get_Shape method

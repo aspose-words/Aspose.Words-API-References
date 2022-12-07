@@ -3,13 +3,13 @@ title: get_IsLinkOnly
 second_title: Aspose.Words for C++ API Reference
 description: Returns true if the image is linked and not stored in the document.
 type: docs
-weight: 196
+weight: 209
 url: /cpp/aspose.words.drawing/imagedata/get_islinkonly/
 ---
 ## ImageData::get_IsLinkOnly method
 
 
-Returns true if the image is linked and not stored in the document.
+Returns **true** if the image is linked and not stored in the document.
 
 ```cpp
 bool Aspose::Words::Drawing::ImageData::get_IsLinkOnly()

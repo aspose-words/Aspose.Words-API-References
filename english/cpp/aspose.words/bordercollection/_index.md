@@ -1,7 +1,7 @@
 ---
 title: BorderCollection
 second_title: Aspose.Words for C++ API Reference
-description: A collection of Border objects.
+description: A collection of Border objects. To learn more, visit the  documentation article.
 type: docs
 weight: 92
 url: /cpp/aspose.words/bordercollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/bordercollection/
 ## BorderCollection class
 
 
-A collection of [Border](../border/) objects.
+A collection of [Border](../border/) objects. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
 
 ```cpp
 class BorderCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Border>>
@@ -34,13 +34,16 @@ class BorderCollection : public System::Collections::Generic::IEnumerable<System
 | [get_Top](./get_top/)() | Gets the top border. |
 | [get_Vertical](./get_vertical/)() | Gets the vertical border that is used between cells. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all borders in the collection. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(Aspose::Words::BorderType) | Retrieves a [Border](../border/) object by border type. |
 | [idx_get](./idx_get/)(int32_t) | Retrieves a [Border](../border/) object by index. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Color](./set_color/)(System::Drawing::Color) | Setter for [Aspose::Words::BorderCollection::get_Color](./get_color/). |
 | [set_DistanceFromText](./set_distancefromtext/)(double) | Setter for [Aspose::Words::BorderCollection::get_DistanceFromText](./get_distancefromtext/). |
 | [set_LineStyle](./set_linestyle/)(Aspose::Words::LineStyle) | Setter for [Aspose::Words::BorderCollection::get_LineStyle](./get_linestyle/). |
 | [set_LineWidth](./set_linewidth/)(double) | Setter for [Aspose::Words::BorderCollection::get_LineWidth](./get_linewidth/). |
 | [set_Shadow](./set_shadow/)(bool) | Setter for [Aspose::Words::BorderCollection::get_Shadow](./get_shadow/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

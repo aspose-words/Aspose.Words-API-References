@@ -3,7 +3,7 @@ title: DocSaveOptions
 second_title: Aspose.Words for C++ API Reference
 description: Initializes a new instance of this class that can be used to save a document in the Doc format.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.saving/docsaveoptions/docsaveoptions/
 ---
 ## DocSaveOptions::DocSaveOptions() constructor

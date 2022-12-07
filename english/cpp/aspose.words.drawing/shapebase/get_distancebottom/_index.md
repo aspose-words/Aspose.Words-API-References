@@ -3,7 +3,7 @@ title: get_DistanceBottom
 second_title: Aspose.Words for C++ API Reference
 description: Returns or sets the distance (in points) between the document text and the bottom edge of the shape.
 type: docs
-weight: 170
+weight: 183
 url: /cpp/aspose.words.drawing/shapebase/get_distancebottom/
 ---
 ## ShapeBase::get_DistanceBottom method

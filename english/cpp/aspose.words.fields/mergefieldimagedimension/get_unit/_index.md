@@ -3,7 +3,7 @@ title: get_Unit
 second_title: Aspose.Words for C++ API Reference
 description: The unit.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words.fields/mergefieldimagedimension/get_unit/
 ---
 ## MergeFieldImageDimension::get_Unit method

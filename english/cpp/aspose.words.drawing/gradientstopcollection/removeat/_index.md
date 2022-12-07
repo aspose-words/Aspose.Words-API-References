@@ -3,7 +3,7 @@ title: RemoveAt
 second_title: Aspose.Words for C++ API Reference
 description: Removes a GradientStop from the collection at a specified index.
 type: docs
-weight: 92
+weight: 131
 url: /cpp/aspose.words.drawing/gradientstopcollection/removeat/
 ---
 ## GradientStopCollection::RemoveAt method

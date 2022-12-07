@@ -3,7 +3,7 @@ title: VisitRowStart
 second_title: Aspose.Words for C++ API Reference
 description: Called when enumeration of a table row has started.
 type: docs
-weight: 443
+weight: 482
 url: /cpp/aspose.words/documentvisitor/visitrowstart/
 ---
 ## DocumentVisitor::VisitRowStart method

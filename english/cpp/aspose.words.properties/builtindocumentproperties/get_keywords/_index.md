@@ -3,7 +3,7 @@ title: get_Keywords
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the document keywords.
 type: docs
-weight: 157
+weight: 170
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_keywords/
 ---
 ## BuiltInDocumentProperties::get_Keywords method

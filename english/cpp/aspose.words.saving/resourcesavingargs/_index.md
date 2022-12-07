@@ -1,7 +1,7 @@
 ---
 title: ResourceSavingArgs
 second_title: Aspose.Words for C++ API Reference
-description: Provides data for the ResourceSaving() event.
+description: Provides data for the ResourceSaving() event. To learn more, visit the  documentation article.
 type: docs
 weight: 339
 url: /cpp/aspose.words.saving/resourcesavingargs/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/resourcesavingargs/
 ## ResourceSavingArgs class
 
 
-Provides data for the [ResourceSaving()](../iresourcesavingcallback/resourcesaving/) event.
+Provides data for the [ResourceSaving()](../iresourcesavingcallback/resourcesaving/) event. To learn more, visit the [Save a Document](https://docs.aspose.com/words/cpp/save-a-document/) documentation article.
 
 ```cpp
 class ResourceSavingArgs : public System::Object
@@ -24,11 +24,14 @@ class ResourceSavingArgs : public System::Object
 | [get_ResourceFileName](./get_resourcefilename/)() const | Gets or sets the file name (without path) where the resource will be saved to. |
 | [get_ResourceFileUri](./get_resourcefileuri/)() const | Gets or sets the uniform resource identifier (URI) used to reference the resource file from the document. |
 | [get_ResourceStream](./get_resourcestream/)() const | Allows to specify the stream where the resource will be saved to. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_KeepResourceStreamOpen](./set_keepresourcestreamopen/)(bool) | Setter for [Aspose::Words::Saving::ResourceSavingArgs::get_KeepResourceStreamOpen](./get_keepresourcestreamopen/). |
 | [set_ResourceFileName](./set_resourcefilename/)(const System::String\&) | Setter for [Aspose::Words::Saving::ResourceSavingArgs::get_ResourceFileName](./get_resourcefilename/). |
 | [set_ResourceFileUri](./set_resourcefileuri/)(const System::String\&) | Setter for [Aspose::Words::Saving::ResourceSavingArgs::get_ResourceFileUri](./get_resourcefileuri/). |
 | [set_ResourceStream](./set_resourcestream/)(const System::SharedPtr\<System::IO::Stream\>\&) | Setter for [Aspose::Words::Saving::ResourceSavingArgs::get_ResourceStream](./get_resourcestream/). |
 | [set_ResourceStream](./set_resourcestream/)(std::basic_ostream\<CharType, Traits\>\&) |  |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

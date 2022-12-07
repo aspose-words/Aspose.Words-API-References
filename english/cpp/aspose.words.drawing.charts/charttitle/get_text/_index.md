@@ -3,13 +3,13 @@ title: get_Text
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the text of the chart title. If null or empty value is specified, auto generated title will be shown.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/aspose.words.drawing.charts/charttitle/get_text/
 ---
 ## ChartTitle::get_Text method
 
 
-Gets or sets the text of the chart title. If null or empty value is specified, auto generated title will be shown.
+Gets or sets the text of the chart title. If **null** or empty value is specified, auto generated title will be shown.
 
 ```cpp
 System::String Aspose::Words::Drawing::Charts::ChartTitle::get_Text()

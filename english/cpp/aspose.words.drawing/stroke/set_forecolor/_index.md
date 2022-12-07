@@ -3,7 +3,7 @@ title: set_ForeColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Drawing::Stroke::get_ForeColor.'
 type: docs
-weight: 365
+weight: 404
 url: /cpp/aspose.words.drawing/stroke/set_forecolor/
 ---
 ## Stroke::set_ForeColor method

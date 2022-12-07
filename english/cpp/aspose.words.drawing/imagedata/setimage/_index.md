@@ -3,7 +3,7 @@ title: SetImage
 second_title: Aspose.Words for C++ API Reference
 description: Sets the image that the shape displays.
 type: docs
-weight: 404
+weight: 443
 url: /cpp/aspose.words.drawing/imagedata/setimage/
 ---
 ## ImageData::SetImage(const System::SharedPtr\<System::Drawing::Image\>\&) method

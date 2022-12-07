@@ -3,7 +3,7 @@ title: MoveNext
 second_title: Aspose.Words for C++ API Reference
 description: Advances to the next record in the data source.
 type: docs
-weight: 40
+weight: 79
 url: /cpp/aspose.words.mailmerging/imailmergedatasource/movenext/
 ---
 ## IMailMergeDataSource::MoveNext method
@@ -18,7 +18,7 @@ virtual bool Aspose::Words::MailMerging::IMailMergeDataSource::MoveNext()=0
 
 ### ReturnValue
 
-True if moved to next record successfully. False if reached end of the data source.
+**true** if moved to next record successfully; **false** if reached end of the data source.
 
 ## Examples
 

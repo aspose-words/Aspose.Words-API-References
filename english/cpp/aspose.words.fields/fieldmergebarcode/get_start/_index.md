@@ -3,7 +3,7 @@ title: get_Start
 second_title: Aspose.Words for C++ API Reference
 description: Gets the node that represents the start of the field.
 type: docs
-weight: 170
+weight: 183
 url: /cpp/aspose.words.fields/fieldmergebarcode/get_start/
 ---
 ## FieldMergeBarcode::get_Start method

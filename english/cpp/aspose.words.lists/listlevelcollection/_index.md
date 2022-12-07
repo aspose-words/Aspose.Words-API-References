@@ -1,7 +1,7 @@
 ---
 title: ListLevelCollection
 second_title: Aspose.Words for C++ API Reference
-description: A collection of list formatting for each level in a list.
+description: A collection of list formatting for each level in a list. To learn more, visit the  documentation article.
 type: docs
 weight: 66
 url: /cpp/aspose.words.lists/listlevelcollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.lists/listlevelcollection/
 ## ListLevelCollection class
 
 
-A collection of list formatting for each level in a list.
+A collection of list formatting for each level in a list. To learn more, visit the [Working with Lists](https://docs.aspose.com/words/cpp/working-with-lists/) documentation article.
 
 ```cpp
 class ListLevelCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Lists::ListLevel>>
@@ -27,8 +27,11 @@ class ListLevelCollection : public System::Collections::Generic::IEnumerable<Sys
 | [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Gets the number of levels in this list. |
 | [GetEnumerator](./getenumerator/)() override | Gets the enumerator object that will enumerate levels in this list. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Gets a list level by index. |
 | [idx_set](./idx_set/)(int32_t, const System::SharedPtr\<Aspose::Words::Lists::ListLevel\>\&) | Gets a list level by index. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 | [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
 | [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
 | [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |

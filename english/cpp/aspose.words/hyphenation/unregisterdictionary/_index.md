@@ -18,7 +18,7 @@ static void Aspose::Words::Hyphenation::UnregisterDictionary(const System::Strin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| language | const System::String\& | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. If null or empty string then all dictionaries are unregistered. |
+| language | const System::String\& | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. If **null** or empty string then all dictionaries are unregistered. |
 
 ## Examples
 

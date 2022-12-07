@@ -3,7 +3,7 @@ title: InsertOleObjectAsIcon
 second_title: Aspose.Words for C++ API Reference
 description: Inserts an embedded OLE object as icon from a stream into the document. Allows to specify icon file and caption. Detects OLE object type using given progID parameter.
 type: docs
-weight: 508
+weight: 534
 url: /cpp/aspose.words/documentbuilder/insertoleobjectasicon/
 ---
 ## DocumentBuilder::InsertOleObjectAsIcon(const System::SharedPtr\<System::IO::Stream\>\&, const System::String\&, const System::String\&, const System::String\&) method
@@ -20,8 +20,8 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder:
 | --- | --- | --- |
 | stream | const System::SharedPtr\<System::IO::Stream\>\& | Stream containing application data. |
 | progId | const System::String\& | ProgId of OLE object. |
-| iconFile | const System::String\& | Full path to the ICO file. If the value is null, Aspose.Words will use a predefined image. |
-| iconCaption | const System::String\& | Icon caption. If the value is null, Aspose.Words will use the a predefined icon caption. |
+| iconFile | const System::String\& | Full path to the ICO file. If the value is **null**, Aspose.Words will use a predefined image. |
+| iconCaption | const System::String\& | Icon caption. If the value is **null**, Aspose.Words will use the a predefined icon caption. |
 
 ### ReturnValue
 
@@ -75,9 +75,9 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder:
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | const System::String\& | Full path to the file. |
-| isLinked | bool | If true then linked OLE object is inserted otherwise embedded OLE object is inserted. |
-| iconFile | const System::String\& | Full path to the ICO file. If the value is null, Aspose.Words will use a predefined image. |
-| iconCaption | const System::String\& | Icon caption. If the value is null, Aspose.Words will use the file name. |
+| isLinked | bool | If **true** then linked OLE object is inserted otherwise embedded OLE object is inserted. |
+| iconFile | const System::String\& | Full path to the ICO file. If the value is **null**, Aspose.Words will use a predefined image. |
+| iconCaption | const System::String\& | Icon caption. If the value is **null**, Aspose.Words will use the file name. |
 
 ### ReturnValue
 
@@ -103,9 +103,9 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder:
 | --- | --- | --- |
 | fileName | const System::String\& | Full path to the file. |
 | progId | const System::String\& | ProgId of OLE object. |
-| isLinked | bool | If true then linked OLE object is inserted otherwise embedded OLE object is inserted. |
-| iconFile | const System::String\& | Full path to the ICO file. If the value is null, Aspose.Words will use a predefined image. |
-| iconCaption | const System::String\& | Icon caption. If the value is null, Aspose.Words will use the file name. |
+| isLinked | bool | If **true** then linked OLE object is inserted otherwise embedded OLE object is inserted. |
+| iconFile | const System::String\& | Full path to the ICO file. If the value is **null**, Aspose.Words will use a predefined image. |
+| iconCaption | const System::String\& | Icon caption. If the value is **null**, Aspose.Words will use the file name. |
 
 ### ReturnValue
 

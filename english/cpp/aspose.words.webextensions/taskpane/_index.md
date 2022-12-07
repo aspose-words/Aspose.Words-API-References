@@ -1,7 +1,7 @@
 ---
 title: TaskPane
 second_title: Aspose.Words for C++ API Reference
-description: Represents an add-in task pane object.
+description: Represents an add-in task pane object. To learn more, visit the  documentation article.
 type: docs
 weight: 14
 url: /cpp/aspose.words.webextensions/taskpane/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.webextensions/taskpane/
 ## TaskPane class
 
 
-Represents an add-in task pane object.
+Represents an add-in task pane object. To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/cpp/work-with-office-add-ins/) documentation article.
 
 ```cpp
 class TaskPane : public System::Object
@@ -25,12 +25,15 @@ class TaskPane : public System::Object
 | [get_Row](./get_row/)() const | Specifies the index, enumerating from the outside to the inside, of this task pane among other persisted task panes docked in the same default location. |
 | [get_WebExtension](./get_webextension/)() const | Represents an web extension object. |
 | [get_Width](./get_width/)() const | Specifies the default width value for this task pane instance. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_DockState](./set_dockstate/)(Aspose::Words::WebExtensions::TaskPaneDockState) | Setter for [Aspose::Words::WebExtensions::TaskPane::get_DockState](./get_dockstate/). |
 | [set_IsLocked](./set_islocked/)(bool) | Setter for [Aspose::Words::WebExtensions::TaskPane::get_IsLocked](./get_islocked/). |
 | [set_IsVisible](./set_isvisible/)(bool) | Setter for [Aspose::Words::WebExtensions::TaskPane::get_IsVisible](./get_isvisible/). |
 | [set_Row](./set_row/)(int32_t) | Setter for [Aspose::Words::WebExtensions::TaskPane::get_Row](./get_row/). |
 | [set_Width](./set_width/)(double) | Setter for [Aspose::Words::WebExtensions::TaskPane::get_Width](./get_width/). |
 | [TaskPane](./taskpane/)() |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

@@ -1,7 +1,7 @@
 ---
 title: ControlChar
 second_title: Aspose.Words for C++ API Reference
-description: Control characters often encountered in documents.
+description: Control characters often encountered in documents. To learn more, visit the  documentation article.
 type: docs
 weight: 222
 url: /cpp/aspose.words/controlchar/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/controlchar/
 ## ControlChar class
 
 
-Control characters often encountered in documents.
+Control characters often encountered in documents. To learn more, visit the [Working With Control Characters](https://docs.aspose.com/words/cpp/working-with-control-characters/) documentation article.
 
 ```cpp
 class ControlChar

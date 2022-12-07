@@ -1,7 +1,7 @@
 ---
 title: CustomPartCollection
 second_title: Aspose.Words for C++ API Reference
-description: Represents a collection of CustomPart objects.
+description: Represents a collection of CustomPart objects. To learn more, visit the  documentation article.
 type: docs
 weight: 14
 url: /cpp/aspose.words.markup/custompartcollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.markup/custompartcollection/
 ## CustomPartCollection class
 
 
-Represents a collection of [CustomPart](../custompart/) objects.
+Represents a collection of [CustomPart](../custompart/) objects. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/structured-document-tags-or-content-control/) documentation article.
 
 ```cpp
 class CustomPartCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Markup::CustomPart>>
@@ -31,9 +31,12 @@ class CustomPartCollection : public System::Collections::Generic::IEnumerable<Sy
 | [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Gets or sets an item at the specified index. |
 | [idx_set](./idx_set/)(int32_t, const System::SharedPtr\<Aspose::Words::Markup::CustomPart\>\&) | Gets or sets an item at the specified index. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [RemoveAt](./removeat/)(int32_t) | Removes an item at the specified index. |
+| static [Type](./type/)() |  |
 | [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
 | [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
 | [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |

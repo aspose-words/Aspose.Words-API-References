@@ -3,7 +3,7 @@ title: set_PlaceholderName
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Markup::StructuredDocumentTag::get_PlaceholderName.'
 type: docs
-weight: 638
+weight: 677
 url: /cpp/aspose.words.markup/structureddocumenttag/set_placeholdername/
 ---
 ## StructuredDocumentTag::set_PlaceholderName method

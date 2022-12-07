@@ -3,7 +3,7 @@ title: Accept
 second_title: Aspose.Words for C++ API Reference
 description: Accepts a visitor.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.fields/fieldseparator/accept/
 ---
 ## FieldSeparator::Accept method
@@ -26,7 +26,7 @@ bool Aspose::Words::Fields::FieldSeparator::Accept(System::SharedPtr<Aspose::Wor
 ## Remarks
 
 
-Calls [VisitFieldSeparator()](../).
+Calls [VisitFieldSeparator()](../../../aspose.words/documentvisitor/visitfieldseparator/).
 
 For more info see the Visitor design pattern.
 

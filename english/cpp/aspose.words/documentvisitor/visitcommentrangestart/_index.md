@@ -3,7 +3,7 @@ title: VisitCommentRangeStart
 second_title: Aspose.Words for C++ API Reference
 description: Called when the start of a commented range of text is encountered.
 type: docs
-weight: 144
+weight: 183
 url: /cpp/aspose.words/documentvisitor/visitcommentrangestart/
 ---
 ## DocumentVisitor::VisitCommentRangeStart method

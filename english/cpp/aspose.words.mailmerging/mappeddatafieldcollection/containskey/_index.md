@@ -3,7 +3,7 @@ title: ContainsKey
 second_title: Aspose.Words for C++ API Reference
 description: Determines whether a mapping from the specified field in the document exists in the collection.
 type: docs
-weight: 66
+weight: 79
 url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/containskey/
 ---
 ## MappedDataFieldCollection::ContainsKey method
@@ -22,7 +22,7 @@ bool Aspose::Words::MailMerging::MappedDataFieldCollection::ContainsKey(const Sy
 
 ### ReturnValue
 
-True if item is found in the collection; otherwise, false.
+**true** if item is found in the collection; otherwise, **false**.
 
 ## See Also
 

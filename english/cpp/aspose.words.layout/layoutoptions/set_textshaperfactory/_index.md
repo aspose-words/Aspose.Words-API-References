@@ -3,7 +3,7 @@ title: set_TextShaperFactory
 second_title: Aspose.Words for C++ API Reference
 description: Sets ITextShaperFactory implementation used for Advanced Typography rendering features.
 type: docs
-weight: 196
+weight: 235
 url: /cpp/aspose.words.layout/layoutoptions/set_textshaperfactory/
 ---
 ## LayoutOptions::set_TextShaperFactory method

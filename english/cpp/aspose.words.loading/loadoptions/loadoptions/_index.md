@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Aspose.Words for C++ API Reference
 description: Initializes a new instance of this class with default values.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.loading/loadoptions/loadoptions/
 ---
 ## LoadOptions::LoadOptions() constructor
@@ -59,8 +59,8 @@ Aspose::Words::Loading::LoadOptions::LoadOptions(Aspose::Words::LoadFormat loadF
 | Parameter | Type | Description |
 | --- | --- | --- |
 | loadFormat | Aspose::Words::LoadFormat | The format of the document to be loaded. |
-| password | const System::String\& | The password to open an encrypted document. Can be null or empty string. |
-| baseUri | const System::String\& | The string that will be used to resolve relative URIs to absolute. Can be null or empty string. |
+| password | const System::String\& | The password to open an encrypted document. Can be **null** or empty string. |
+| baseUri | const System::String\& | The string that will be used to resolve relative URIs to absolute. Can be **null** or empty string. |
 
 ## Examples
 
@@ -125,7 +125,7 @@ Aspose::Words::Loading::LoadOptions::LoadOptions(const System::String &password)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| password | const System::String\& | The password to open an encrypted document. Can be null or empty string. |
+| password | const System::String\& | The password to open an encrypted document. Can be **null** or empty string. |
 
 ## Examples
 

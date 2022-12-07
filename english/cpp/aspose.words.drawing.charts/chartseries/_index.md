@@ -1,7 +1,7 @@
 ---
 title: ChartSeries
 second_title: Aspose.Words for C++ API Reference
-description: Represents chart series properties.
+description: Represents chart series properties. To learn more, visit the  documentation article.
 type: docs
 weight: 196
 url: /cpp/aspose.words.drawing.charts/chartseries/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing.charts/chartseries/
 ## ChartSeries class
 
 
-Represents chart series properties.
+Represents chart series properties. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
 class ChartSeries : public Aspose::Words::Drawing::Charts::IChartDataPoint,
@@ -31,12 +31,15 @@ class ChartSeries : public Aspose::Words::Drawing::Charts::IChartDataPoint,
 | [get_Marker](./get_marker/)() override | Specifies a data marker. Marker is automatically created when requested. |
 | [get_Name](./get_name/)() | Gets or sets the name of the series, if name is not set explicitly it is generated using index. By default returns Series plus one based index. |
 | [get_Smooth](./get_smooth/)() const | Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Bubble3D](./set_bubble3d/)(bool) override | Setter for [Aspose::Words::Drawing::Charts::IChartDataPoint::get_Bubble3D](../ichartdatapoint/get_bubble3d/). |
 | [set_Explosion](./set_explosion/)(int32_t) override | Setter for [Aspose::Words::Drawing::Charts::IChartDataPoint::get_Explosion](../ichartdatapoint/get_explosion/). |
 | [set_HasDataLabels](./set_hasdatalabels/)(bool) | Sets a flag indicating whether data labels are displayed for the series. |
 | [set_InvertIfNegative](./set_invertifnegative/)(bool) override | Setter for [Aspose::Words::Drawing::Charts::IChartDataPoint::get_InvertIfNegative](../ichartdatapoint/get_invertifnegative/). |
 | [set_Name](./set_name/)(const System::String\&) | Setter for [Aspose::Words::Drawing::Charts::ChartSeries::get_Name](./get_name/). |
 | [set_Smooth](./set_smooth/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartSeries::get_Smooth](./get_smooth/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

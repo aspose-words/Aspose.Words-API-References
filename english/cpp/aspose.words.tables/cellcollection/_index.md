@@ -1,7 +1,7 @@
 ---
 title: CellCollection
 second_title: Aspose.Words for C++ API Reference
-description: Provides typed access to a collection of Cell nodes.
+description: Provides typed access to a collection of Cell nodes. To learn more, visit the  documentation article.
 type: docs
 weight: 14
 url: /cpp/aspose.words.tables/cellcollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.tables/cellcollection/
 ## CellCollection class
 
 
-Provides typed access to a collection of [Cell](../cell/) nodes.
+Provides typed access to a collection of [Cell](../cell/) nodes. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article.
 
 ```cpp
 class CellCollection : public Aspose::Words::NodeCollection
@@ -24,12 +24,15 @@ class CellCollection : public Aspose::Words::NodeCollection
 | [Contains](../../aspose.words/nodecollection/contains/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Determines whether a node is in the collection. |
 | [get_Count](../../aspose.words/nodecollection/get_count/)() | Gets the number of nodes in the collection. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() override | Provides a simple "foreach" style iteration over the collection of nodes. |
-| [idx_get](./idx_get/)(int32_t) | Retrieves a **Cell** at the given index. |
+| [GetType](./gettype/)() const override |  |
+| [idx_get](./idx_get/)(int32_t) | Retrieves a [Cell](../cell/) at the given index. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returns the zero-based index of the specified node. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int32_t, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts a node into the collection at the specified index. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../../aspose.words/nodecollection/remove/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Removes the node from the collection and from the document. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(int32_t) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](./toarray/)() | Copies all cells from the collection to a new array of cells. |
+| static [Type](./type/)() |  |
 
 ## Examples
 

@@ -19,7 +19,10 @@ class IMailMergeCallback : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | virtual [TagsReplaced](./tagsreplaced/)() | Called when "mustache" text tags are replaced with MERGEFIELD fields. |
+| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words::MailMerging](../)

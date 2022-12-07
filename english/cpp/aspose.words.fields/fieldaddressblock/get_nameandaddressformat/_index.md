@@ -3,7 +3,7 @@ title: get_NameAndAddressFormat
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the name and address format.
 type: docs
-weight: 66
+weight: 79
 url: /cpp/aspose.words.fields/fieldaddressblock/get_nameandaddressformat/
 ---
 ## FieldAddressBlock::get_NameAndAddressFormat method

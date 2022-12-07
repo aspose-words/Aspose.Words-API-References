@@ -3,7 +3,7 @@ title: IndexOf
 second_title: Aspose.Words for C++ API Reference
 description: Returns the zero-based index of the specified node.
 type: docs
-weight: 79
+weight: 105
 url: /cpp/aspose.words/nodecollection/indexof/
 ---
 ## NodeCollection::IndexOf method
@@ -26,7 +26,7 @@ The zero-based index of the node within the collection, if found; otherwise, -1.
 ## Remarks
 
 
-This method performs a linear search; therefore, the average execution time is proportional to Count.
+This method performs a linear search; therefore, the average execution time is proportional to [Count](../get_count/).
 
 ## Examples
 

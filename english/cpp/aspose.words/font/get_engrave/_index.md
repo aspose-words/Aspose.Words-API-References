@@ -3,7 +3,7 @@ title: get_Engrave
 second_title: Aspose.Words for C++ API Reference
 description: True if the font is formatted as engraved.
 type: docs
-weight: 157
+weight: 170
 url: /cpp/aspose.words/font/get_engrave/
 ---
 ## Font::get_Engrave method

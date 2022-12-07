@@ -1,7 +1,7 @@
 ---
 title: WebExtensionProperty
 second_title: Aspose.Words for C++ API Reference
-description: Specifies a web extension custom property.
+description: Specifies a web extension custom property. To learn more, visit the  documentation article.
 type: docs
 weight: 79
 url: /cpp/aspose.words.webextensions/webextensionproperty/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.webextensions/webextensionproperty/
 ## WebExtensionProperty class
 
 
-Specifies a web extension custom property.
+Specifies a web extension custom property. To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/cpp/work-with-office-add-ins/) documentation article.
 
 ```cpp
 class WebExtensionProperty : public System::Object
@@ -21,8 +21,11 @@ class WebExtensionProperty : public System::Object
 | --- | --- |
 | [get_Name](./get_name/)() const | Specifies a custom property name. |
 | [get_Value](./get_value/)() const | Specifies a custom property value. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Name](./set_name/)(const System::String\&) | Specifies a custom property name. |
 | [set_Value](./set_value/)(const System::String\&) | Specifies a custom property value. |
+| static [Type](./type/)() |  |
 | [WebExtensionProperty](./webextensionproperty/)(const System::String\&, const System::String\&) | Creates web extension custom property with specified name and value. |
 ## See Also
 

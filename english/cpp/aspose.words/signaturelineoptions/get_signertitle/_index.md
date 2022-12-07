@@ -3,7 +3,7 @@ title: get_SignerTitle
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets suggested signer's title. Default value for this property is empty string.
 type: docs
-weight: 92
+weight: 105
 url: /cpp/aspose.words/signaturelineoptions/get_signertitle/
 ---
 ## SignatureLineOptions::get_SignerTitle method

@@ -3,7 +3,7 @@ title: SetLicense
 second_title: Aspose.Words for C++ API Reference
 description: Licenses the component.
 type: docs
-weight: 14
+weight: 53
 url: /cpp/aspose.words/license/setlicense/
 ---
 ## License::SetLicense(const System::SharedPtr\<System::IO::Stream\>\&) method

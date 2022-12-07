@@ -3,7 +3,7 @@ title: MoveToSection
 second_title: Aspose.Words for C++ API Reference
 description: Moves the cursor to the beginning of the body in a specified section.
 type: docs
-weight: 729
+weight: 768
 url: /cpp/aspose.words/documentbuilder/movetosection/
 ---
 ## DocumentBuilder::MoveToSection method
@@ -22,9 +22,9 @@ void Aspose::Words::DocumentBuilder::MoveToSection(int32_t sectionIndex)
 ## Remarks
 
 
-When sectionIndex is greater than or equal to 0, it specifies an index from the beginning of the document with 0 being the first section. When sectionIndex is less than 0, it specified an index from the end of the document with -1 being the last section.
+When *sectionIndex* is greater than or equal to 0, it specifies an index from the beginning of the document with 0 being the first section. When *sectionIndex* is less than 0, it specified an index from the end of the document with -1 being the last section.
 
-The cursor is moved to the first paragraph in the **Body** of the specified section.
+The cursor is moved to the first paragraph in the [Body](../../body/) of the specified section.
 
 ## Examples
 

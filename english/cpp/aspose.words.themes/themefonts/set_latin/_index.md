@@ -3,7 +3,7 @@ title: set_Latin
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Themes::ThemeFonts::get_Latin.'
 type: docs
-weight: 66
+weight: 105
 url: /cpp/aspose.words.themes/themefonts/set_latin/
 ---
 ## ThemeFonts::set_Latin method

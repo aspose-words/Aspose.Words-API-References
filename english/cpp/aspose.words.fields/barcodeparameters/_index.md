@@ -1,7 +1,7 @@
 ---
 title: BarcodeParameters
 second_title: Aspose.Words for C++ API Reference
-description: Container class for barcode parameters to pass-through to BarcodeGenerator.
+description: Container class for barcode parameters to pass-through to BarcodeGenerator. To learn more, visit the  documentation article.
 type: docs
 weight: 1
 url: /cpp/aspose.words.fields/barcodeparameters/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fields/barcodeparameters/
 ## BarcodeParameters class
 
 
-Container class for barcode parameters to pass-through to BarcodeGenerator.
+Container class for barcode parameters to pass-through to BarcodeGenerator. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class BarcodeParameters : public System::Object
@@ -37,6 +37,8 @@ class BarcodeParameters : public System::Object
 | [get_ScalingFactor](./get_scalingfactor/)() const | Scaling factor for the symbol. The value is in whole percentage points and the valid values are [10, 1000]. |
 | [get_SymbolHeight](./get_symbolheight/)() const | Bar code image height (in twips - 1/1440 inches) |
 | [get_SymbolRotation](./get_symbolrotation/)() const | Rotation of the barcode symbol. Valid values are [0, 3]. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_AddStartStopChar](./set_addstartstopchar/)(bool) | Whether to add Start/Stop characters for barcode types NW7 and CODE39. |
 | [set_BackgroundColor](./set_backgroundcolor/)(const System::String\&) | Bar code background color (0x000000 - 0xFFFFFF) |
 | [set_BarcodeType](./set_barcodetype/)(const System::String\&) | Bar code type. |
@@ -54,6 +56,7 @@ class BarcodeParameters : public System::Object
 | [set_ScalingFactor](./set_scalingfactor/)(const System::String\&) | Scaling factor for the symbol. The value is in whole percentage points and the valid values are [10, 1000]. |
 | [set_SymbolHeight](./set_symbolheight/)(const System::String\&) | Bar code image height (in twips - 1/1440 inches) |
 | [set_SymbolRotation](./set_symbolrotation/)(const System::String\&) | Rotation of the barcode symbol. Valid values are [0, 3]. |
+| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

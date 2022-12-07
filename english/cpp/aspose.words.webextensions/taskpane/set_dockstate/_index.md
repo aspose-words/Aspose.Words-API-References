@@ -3,7 +3,7 @@ title: set_DockState
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::WebExtensions::TaskPane::get_DockState.'
 type: docs
-weight: 92
+weight: 131
 url: /cpp/aspose.words.webextensions/taskpane/set_dockstate/
 ---
 ## TaskPane::set_DockState method

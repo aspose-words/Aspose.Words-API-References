@@ -1,7 +1,7 @@
 ---
 title: FieldMergingArgsBase
 second_title: Aspose.Words for C++ API Reference
-description: Base class for FieldMergingArgs and ImageFieldMergingArgs.
+description: Base class for FieldMergingArgs and ImageFieldMergingArgs. To learn more, visit the  documentation article.
 type: docs
 weight: 14
 url: /cpp/aspose.words.mailmerging/fieldmergingargsbase/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.mailmerging/fieldmergingargsbase/
 ## FieldMergingArgsBase class
 
 
-Base class for [FieldMergingArgs](../fieldmergingargs/) and [ImageFieldMergingArgs](../imagefieldmergingargs/).
+Base class for [FieldMergingArgs](../fieldmergingargs/) and [ImageFieldMergingArgs](../imagefieldmergingargs/). To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/cpp/mail-merge-and-reporting/) documentation article.
 
 ```cpp
 class FieldMergingArgsBase : public System::Object
@@ -26,7 +26,10 @@ class FieldMergingArgsBase : public System::Object
 | [get_FieldValue](./get_fieldvalue/)() const | Gets the value of the field from the data source. |
 | [get_RecordIndex](./get_recordindex/)() const | Gets the zero based index of the record that is being merged. |
 | [get_TableName](./get_tablename/)() const | Gets the name of the data table for the current merge operation or empty string if the name is not available. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_FieldValue](./set_fieldvalue/)(const System::SharedPtr\<System::Object\>\&) | Sets the value of the field from the data source. |
+| static [Type](./type/)() |  |
 
 ## Examples
 

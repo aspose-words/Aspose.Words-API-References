@@ -3,7 +3,7 @@ title: get_PrintColBlack
 second_title: Aspose.Words for C++ API Reference
 description: Print Colors as Black And White without Dithering.
 type: docs
-weight: 508
+weight: 521
 url: /cpp/aspose.words.settings/compatibilityoptions/get_printcolblack/
 ---
 ## CompatibilityOptions::get_PrintColBlack method

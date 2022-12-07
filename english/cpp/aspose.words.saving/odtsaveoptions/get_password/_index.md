@@ -3,7 +3,7 @@ title: get_Password
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets a password to encrypt document.
 type: docs
-weight: 40
+weight: 53
 url: /cpp/aspose.words.saving/odtsaveoptions/get_password/
 ---
 ## OdtSaveOptions::get_Password method
@@ -18,7 +18,7 @@ System::String Aspose::Words::Saving::OdtSaveOptions::get_Password() const
 ## Remarks
 
 
-In order to save document without encryption this property should be null or empty string.
+In order to save document without encryption this property should be **null** or empty string.
 
 ## Examples
 

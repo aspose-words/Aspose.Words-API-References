@@ -1,7 +1,7 @@
 ---
 title: ChartMarker
 second_title: Aspose.Words for C++ API Reference
-description: Represents a chart data marker.
+description: Represents a chart data marker. To learn more, visit the  documentation article.
 type: docs
 weight: 170
 url: /cpp/aspose.words.drawing.charts/chartmarker/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing.charts/chartmarker/
 ## ChartMarker class
 
 
-Represents a chart data marker.
+Represents a chart data marker. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
 class ChartMarker : public Aspose::Words::Drawing::Charts::Core::IChartFormatSource
@@ -22,8 +22,11 @@ class ChartMarker : public Aspose::Words::Drawing::Charts::Core::IChartFormatSou
 | [get_Format](./get_format/)() | Provides access to fill and line formatting of this marker. |
 | [get_Size](./get_size/)() | Gets or sets chart marker size. Default value is 7. |
 | [get_Symbol](./get_symbol/)() | Gets or sets chart marker symbol. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Size](./set_size/)(int32_t) | Setter for [Aspose::Words::Drawing::Charts::ChartMarker::get_Size](./get_size/). |
 | [set_Symbol](./set_symbol/)(Aspose::Words::Drawing::Charts::MarkerSymbol) | Setter for [Aspose::Words::Drawing::Charts::ChartMarker::get_Symbol](./get_symbol/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

@@ -1,7 +1,7 @@
 ---
 title: AxisBound
 second_title: Aspose.Words for C++ API Reference
-description: Represents minimum or maximum bound of axis values.
+description: Represents minimum or maximum bound of axis values. To learn more, visit the  documentation article.
 type: docs
 weight: 1
 url: /cpp/aspose.words.drawing.charts/axisbound/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing.charts/axisbound/
 ## AxisBound class
 
 
-Represents minimum or maximum bound of axis values.
+Represents minimum or maximum bound of axis values. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
 class AxisBound : public System::Object
@@ -27,7 +27,10 @@ class AxisBound : public System::Object
 | [get_Value](./get_value/)() const | Returns numeric value of axis bound. |
 | [get_ValueAsDate](./get_valueasdate/)() | Returns value of axis bound represented as datetime. |
 | [GetHashCode](./gethashcode/)() const override | Serves as a hash function for this type. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [ToString](./tostring/)() const override | Returns a user-friendly string that displays the value of this object. |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

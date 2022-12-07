@@ -3,7 +3,7 @@ title: set_LineSpacing
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::ParagraphFormat::get_LineSpacing.'
 type: docs
-weight: 716
+weight: 755
 url: /cpp/aspose.words/paragraphformat/set_linespacing/
 ---
 ## ParagraphFormat::set_LineSpacing method

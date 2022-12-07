@@ -3,7 +3,7 @@ title: Clone
 second_title: Aspose.Words for C++ API Reference
 description: Makes a deep copy of this collection and its items.
 type: docs
-weight: 79
+weight: 92
 url: /cpp/aspose.words.markup/custompartcollection/clone/
 ---
 ## CustomPartCollection::Clone method

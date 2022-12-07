@@ -3,7 +3,7 @@ title: get_UsePrinterMetrics
 second_title: Aspose.Words for C++ API Reference
 description: Use Printer Metrics To Display Documents.
 type: docs
-weight: 820
+weight: 833
 url: /cpp/aspose.words.settings/compatibilityoptions/get_useprintermetrics/
 ---
 ## CompatibilityOptions::get_UsePrinterMetrics method

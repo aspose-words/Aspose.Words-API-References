@@ -3,7 +3,7 @@ title: Unlink
 second_title: Aspose.Words for C++ API Reference
 description: Performs the field unlink.
 type: docs
-weight: 235
+weight: 274
 url: /cpp/aspose.words.fields/field/unlink/
 ---
 ## Field::Unlink method
@@ -18,7 +18,7 @@ bool Aspose::Words::Fields::Field::Unlink()
 
 ### ReturnValue
 
-**True** if the field has been unlinked, otherwise **false**.
+**true** if the field has been unlinked, otherwise **false**.
 ## Remarks
 
 

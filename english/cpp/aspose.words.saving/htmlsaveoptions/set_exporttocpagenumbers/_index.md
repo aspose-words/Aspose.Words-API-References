@@ -3,7 +3,7 @@ title: set_ExportTocPageNumbers
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Saving::HtmlSaveOptions::get_ExportTocPageNumbers.'
 type: docs
-weight: 937
+weight: 976
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_exporttocpagenumbers/
 ---
 ## HtmlSaveOptions::set_ExportTocPageNumbers method

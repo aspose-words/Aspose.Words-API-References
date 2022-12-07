@@ -3,7 +3,7 @@ title: get_List
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the list this paragraph is a member of.
 type: docs
-weight: 40
+weight: 53
 url: /cpp/aspose.words.lists/listformat/get_list/
 ---
 ## ListFormat::get_List method
@@ -22,7 +22,7 @@ The list that is being assigned to this property must belong to the current docu
 
 The list that is being assigned to this property must not be a list style definition.
 
-Setting this property to null removes bullets and numbering from the paragraph and sets the list level number to zero. Setting this property to null is equivalent to calling [RemoveNumbers](../removenumbers/).
+Setting this property to **null** removes bullets and numbering from the paragraph and sets the list level number to zero. Setting this property to **null** is equivalent to calling [RemoveNumbers](../removenumbers/).
 
 ## Examples
 

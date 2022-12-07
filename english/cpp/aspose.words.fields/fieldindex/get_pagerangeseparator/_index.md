@@ -3,7 +3,7 @@ title: get_PageRangeSeparator
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the character sequence that is used to separate the start and end of a page range.
 type: docs
-weight: 144
+weight: 157
 url: /cpp/aspose.words.fields/fieldindex/get_pagerangeseparator/
 ---
 ## FieldIndex::get_PageRangeSeparator method

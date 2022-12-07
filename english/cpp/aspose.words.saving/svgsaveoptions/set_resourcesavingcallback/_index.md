@@ -3,7 +3,7 @@ title: set_ResourceSavingCallback
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Saving::SvgSaveOptions::get_ResourceSavingCallback.'
 type: docs
-weight: 144
+weight: 183
 url: /cpp/aspose.words.saving/svgsaveoptions/set_resourcesavingcallback/
 ---
 ## SvgSaveOptions::set_ResourceSavingCallback method

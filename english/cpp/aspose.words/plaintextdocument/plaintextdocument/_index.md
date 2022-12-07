@@ -3,7 +3,7 @@ title: PlainTextDocument
 second_title: Aspose.Words for C++ API Reference
 description: Creates a plain text document from a stream. Automatically detects the file format.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words/plaintextdocument/plaintextdocument/
 ---
 ## PlainTextDocument::PlainTextDocument(const System::SharedPtr\<System::IO::Stream\>\&) constructor
@@ -62,7 +62,7 @@ Aspose::Words::PlainTextDocument::PlainTextDocument(const System::SharedPtr<Syst
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | const System::SharedPtr\<System::IO::Stream\>\& | The stream where to extract the text from. |
-| loadOptions | const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\& | Additional options to use when loading a document. Can be null. |
+| loadOptions | const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\& | Additional options to use when loading a document. Can be **null**. |
 ## Remarks
 
 
@@ -150,7 +150,7 @@ Aspose::Words::PlainTextDocument::PlainTextDocument(const System::String &fileNa
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | const System::String\& | Name of the file to extract the text from. |
-| loadOptions | const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\& | Additional options to use when loading a document. Can be null. |
+| loadOptions | const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\& | Additional options to use when loading a document. Can be **null**. |
 
 ## Examples
 

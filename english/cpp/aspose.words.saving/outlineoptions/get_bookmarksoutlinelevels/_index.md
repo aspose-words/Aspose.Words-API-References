@@ -3,7 +3,7 @@ title: get_BookmarksOutlineLevels
 second_title: Aspose.Words for C++ API Reference
 description: Allows to specify individual bookmarks outline level.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words.saving/outlineoptions/get_bookmarksoutlinelevels/
 ---
 ## OutlineOptions::get_BookmarksOutlineLevels method

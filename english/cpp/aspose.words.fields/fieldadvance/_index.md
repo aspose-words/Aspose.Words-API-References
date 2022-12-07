@@ -1,7 +1,7 @@
 ---
 title: FieldAdvance
 second_title: Aspose.Words for C++ API Reference
-description: Implements the ADVANCE field.
+description: Implements the ADVANCE field. To learn more, visit the  documentation article.
 type: docs
 weight: 92
 url: /cpp/aspose.words.fields/fieldadvance/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fields/fieldadvance/
 ## FieldAdvance class
 
 
-Implements the ADVANCE field.
+Implements the ADVANCE field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class FieldAdvance : public Aspose::Words::Fields::Field,
@@ -33,13 +33,15 @@ class FieldAdvance : public Aspose::Words::Fields::Field,
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_Result](../field/get_result/)() | Gets or sets text that is between the field separator and field end. |
 | [get_RightOffset](./get_rightoffset/)() | Gets or sets the number of points by which the text that follows the field should be moved right. |
-| [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be null. |
+| [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be **null**. |
 | [get_Start](../field/get_start/)() const | Gets the node that represents the start of the field. |
 | virtual [get_Type](../field/get_type/)() const | Gets the Microsoft Word field type. |
 | [get_UpOffset](./get_upoffset/)() | Gets or sets the number of points by which the text that follows the field should be moved up. |
 | [get_VerticalPosition](./get_verticalposition/)() | Gets or sets the number of points by which the text that follows the field should be moved vertically from the top edge of the page. |
 | [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_DownOffset](./set_downoffset/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldAdvance::get_DownOffset](./get_downoffset/). |
 | [set_HorizontalPosition](./set_horizontalposition/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldAdvance::get_HorizontalPosition](./get_horizontalposition/). |
@@ -51,6 +53,7 @@ class FieldAdvance : public Aspose::Words::Fields::Field,
 | [set_RightOffset](./set_rightoffset/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldAdvance::get_RightOffset](./get_rightoffset/). |
 | [set_UpOffset](./set_upoffset/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldAdvance::get_UpOffset](./get_upoffset/). |
 | [set_VerticalPosition](./set_verticalposition/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldAdvance::get_VerticalPosition](./get_verticalposition/). |
+| static [Type](./type/)() |  |
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |

@@ -3,7 +3,7 @@ title: set_UseSubstitutions
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Replacing::FindReplaceOptions::get_UseSubstitutions.'
 type: docs
-weight: 391
+weight: 430
 url: /cpp/aspose.words.replacing/findreplaceoptions/set_usesubstitutions/
 ---
 ## FindReplaceOptions::set_UseSubstitutions method

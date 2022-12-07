@@ -3,7 +3,7 @@ title: VisitGroupShapeEnd
 second_title: Aspose.Words for C++ API Reference
 description: Called when enumeration of a group shape has ended.
 type: docs
-weight: 326
+weight: 365
 url: /cpp/aspose.words/documentvisitor/visitgroupshapeend/
 ---
 ## DocumentVisitor::VisitGroupShapeEnd method

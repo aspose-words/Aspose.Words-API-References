@@ -3,7 +3,7 @@ title: AppendParagraph
 second_title: Aspose.Words for C++ API Reference
 description: A shortcut method that creates a Paragraph object with optional text and appends it to the end of this object.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words/story/appendparagraph/
 ---
 ## Story::AppendParagraph method
@@ -18,7 +18,7 @@ System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::Story::AppendParagrap
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | const System::String\& | The text for the paragraph. Can be null or empty string. |
+| text | const System::String\& | The text for the paragraph. Can be **null** or empty string. |
 
 ### ReturnValue
 

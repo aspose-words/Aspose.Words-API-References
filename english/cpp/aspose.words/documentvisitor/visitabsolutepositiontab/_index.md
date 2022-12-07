@@ -3,7 +3,7 @@ title: VisitAbsolutePositionTab
 second_title: Aspose.Words for C++ API Reference
 description: Called when a AbsolutePositionTab node is encountered in the document.
 type: docs
-weight: 1
+weight: 40
 url: /cpp/aspose.words/documentvisitor/visitabsolutepositiontab/
 ---
 ## DocumentVisitor::VisitAbsolutePositionTab method

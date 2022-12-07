@@ -3,7 +3,7 @@ title: get_Bottom
 second_title: Aspose.Words for C++ API Reference
 description: Gets the bottom border.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/aspose.words/bordercollection/get_bottom/
 ---
 ## BorderCollection::get_Bottom method

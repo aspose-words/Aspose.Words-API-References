@@ -3,7 +3,7 @@ title: set_IsLinkedToPrevious
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::HeaderFooter::get_IsLinkedToPrevious.'
 type: docs
-weight: 92
+weight: 131
 url: /cpp/aspose.words/headerfooter/set_islinkedtoprevious/
 ---
 ## HeaderFooter::set_IsLinkedToPrevious method

@@ -3,7 +3,7 @@ title: set_UseLunarCalendar
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Fields::FieldPrintDate::get_UseLunarCalendar.'
 type: docs
-weight: 40
+weight: 79
 url: /cpp/aspose.words.fields/fieldprintdate/set_uselunarcalendar/
 ---
 ## FieldPrintDate::set_UseLunarCalendar method
