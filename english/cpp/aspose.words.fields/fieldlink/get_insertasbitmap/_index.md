@@ -3,7 +3,7 @@ title: get_InsertAsBitmap
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets whether to insert the linked object as a bitmap.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/aspose.words.fields/fieldlink/get_insertasbitmap/
 ---
 ## FieldLink::get_InsertAsBitmap method

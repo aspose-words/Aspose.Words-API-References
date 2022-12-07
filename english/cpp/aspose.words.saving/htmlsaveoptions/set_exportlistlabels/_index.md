@@ -3,7 +3,7 @@ title: set_ExportListLabels
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Saving::HtmlSaveOptions::get_ExportListLabels.'
 type: docs
-weight: 833
+weight: 872
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_exportlistlabels/
 ---
 ## HtmlSaveOptions::set_ExportListLabels method

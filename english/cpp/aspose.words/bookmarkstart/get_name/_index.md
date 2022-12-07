@@ -3,7 +3,7 @@ title: get_Name
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the bookmark name.
 type: docs
-weight: 40
+weight: 53
 url: /cpp/aspose.words/bookmarkstart/get_name/
 ---
 ## BookmarkStart::get_Name method
@@ -18,7 +18,7 @@ System::String Aspose::Words::BookmarkStart::get_Name() override
 ## Remarks
 
 
-Cannot be null.
+Cannot be **null**.
 
 ## Examples
 

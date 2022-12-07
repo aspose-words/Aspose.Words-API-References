@@ -1,7 +1,7 @@
 ---
 title: CustomXmlProperty
 second_title: Aspose.Words for C++ API Reference
-description: Represents a single custom XML attribute or a smart tag property.
+description: Represents a single custom XML attribute or a smart tag property. To learn more, visit the  documentation article.
 type: docs
 weight: 53
 url: /cpp/aspose.words.markup/customxmlproperty/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.markup/customxmlproperty/
 ## CustomXmlProperty class
 
 
-Represents a single custom XML attribute or a smart tag property.
+Represents a single custom XML attribute or a smart tag property. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/structured-document-tags-or-content-control/) documentation article.
 
 ```cpp
 class CustomXmlProperty : public System::Object
@@ -23,8 +23,11 @@ class CustomXmlProperty : public System::Object
 | [get_Name](./get_name/)() const | Specifies the name of the custom XML attribute or smart tag property. |
 | [get_Uri](./get_uri/)() const | Gets or sets the namespace URI of the custom XML attribute or smart tag property. |
 | [get_Value](./get_value/)() const | Gets or sets the value of the custom XML attribute or smart tag property. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Uri](./set_uri/)(const System::String\&) | Setter for [Aspose::Words::Markup::CustomXmlProperty::get_Uri](./get_uri/). |
 | [set_Value](./set_value/)(const System::String\&) | Setter for [Aspose::Words::Markup::CustomXmlProperty::get_Value](./get_value/). |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

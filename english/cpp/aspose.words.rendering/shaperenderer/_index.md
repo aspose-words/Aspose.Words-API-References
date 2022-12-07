@@ -1,7 +1,7 @@
 ---
 title: ShapeRenderer
 second_title: Aspose.Words for C++ API Reference
-description: Provides methods to render an individual Shape or GroupShape to a raster or vector image or to a Graphics object.
+description: Provides methods to render an individual Shape or GroupShape to a raster or vector image or to a Graphics object. To learn more, visit the  documentation article.
 type: docs
 weight: 40
 url: /cpp/aspose.words.rendering/shaperenderer/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.rendering/shaperenderer/
 ## ShapeRenderer class
 
 
-Provides methods to render an individual [Shape](../../aspose.words.drawing/shape/) or [GroupShape](../../aspose.words.drawing/groupshape/) to a raster or vector image or to a Graphics object.
+Provides methods to render an individual [Shape](../../aspose.words.drawing/shape/) or [GroupShape](../../aspose.words.drawing/groupshape/) to a raster or vector image or to a Graphics object. To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/cpp/working-with-shapes/) documentation article.
 
 ```cpp
 class ShapeRenderer : public Aspose::Words::Rendering::NodeRendererBase
@@ -28,6 +28,8 @@ class ShapeRenderer : public Aspose::Words::Rendering::NodeRendererBase
 | [GetOpaqueBoundsInPixels](../noderendererbase/getopaqueboundsinpixels/)(float, float, float) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. |
 | [GetSizeInPixels](../noderendererbase/getsizeinpixels/)(float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
 | [GetSizeInPixels](../noderendererbase/getsizeinpixels/)(float, float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [NodeRendererBase](../noderendererbase/noderendererbase/)() |  |
 | [RenderToScale](../noderendererbase/rendertoscale/)(const System::SharedPtr\<System::Drawing::Graphics\>\&, float, float, float) | Renders the shape into a **Graphics** object to a specified scale. |
 | [RenderToSize](../noderendererbase/rendertosize/)(const System::SharedPtr\<System::Drawing::Graphics\>\&, float, float, float, float) | Renders the shape into a **Graphics** object to a specified size. |
@@ -35,6 +37,7 @@ class ShapeRenderer : public Aspose::Words::Rendering::NodeRendererBase
 | [Save](../noderendererbase/save/)(const System::SharedPtr\<System::IO::Stream\>\&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) | Renders the shape into an image and saves into a stream. |
 | [Save](../noderendererbase/save/)(std::basic_ostream\<CharType, Traits\>\&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) |  |
 | [ShapeRenderer](./shaperenderer/)(const System::SharedPtr\<Aspose::Words::Drawing::ShapeBase\>\&) | Initializes a new instance of this class. |
+| static [Type](./type/)() |  |
 ## See Also
 
 * Class [NodeRendererBase](../noderendererbase/)

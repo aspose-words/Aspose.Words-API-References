@@ -3,7 +3,7 @@ title: SetPassword
 second_title: Aspose.Words for C++ API Reference
 description: Sets the write protection password for the document.
 type: docs
-weight: 40
+weight: 79
 url: /cpp/aspose.words.settings/writeprotection/setpassword/
 ---
 ## WriteProtection::SetPassword method
@@ -18,7 +18,7 @@ void Aspose::Words::Settings::WriteProtection::SetPassword(const System::String 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| password | const System::String\& | The password to set. Cannot be null, but can be an empty string. |
+| password | const System::String\& | The password to set. Cannot be **null**, but can be an empty string. |
 ## Remarks
 
 

@@ -1,7 +1,7 @@
 ---
 title: TabStop
 second_title: Aspose.Words for C++ API Reference
-description: Represents a single custom tab stop. The TabStop object is a member of the TabStopCollection collection.
+description: Represents a single custom tab stop. The TabStop object is a member of the TabStopCollection collection. To learn more, visit the  documentation article.
 type: docs
 weight: 872
 url: /cpp/aspose.words/tabstop/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/tabstop/
 ## TabStop class
 
 
-Represents a single custom tab stop. The **TabStop** object is a member of the [TabStopCollection](../tabstopcollection/) collection.
+Represents a single custom tab stop. The [TabStop](./) object is a member of the [TabStopCollection](../tabstopcollection/) collection. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class TabStop : public System::Object
@@ -21,18 +21,21 @@ class TabStop : public System::Object
 | --- | --- |
 | [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::TabStop\>\&) | Compares with the specified [TabStop](./). |
 | [get_Alignment](./get_alignment/)() const | Gets or sets the alignment of text at this tab stop. |
-| [get_IsClear](./get_isclear/)() | Returns true if this tab stop clears any existing tab stops in this position. |
+| [get_IsClear](./get_isclear/)() | Returns **true** if this tab stop clears any existing tab stops in this position. |
 | [get_Leader](./get_leader/)() const | Gets or sets the type of the leader line displayed under the tab character. |
 | [get_Position](./get_position/)() | Gets the position of the tab stop in points. |
 | [GetHashCode](./gethashcode/)() const override | Calculates hash code for this object. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Alignment](./set_alignment/)(Aspose::Words::TabAlignment) | Setter for [Aspose::Words::TabStop::get_Alignment](./get_alignment/). |
 | [set_Leader](./set_leader/)(Aspose::Words::TabLeader) | Setter for [Aspose::Words::TabStop::get_Leader](./get_leader/). |
 | [TabStop](./tabstop/)(double) | Initializes a new instance of this class. |
 | [TabStop](./tabstop/)(double, Aspose::Words::TabAlignment, Aspose::Words::TabLeader) | Initializes a new instance of this class. |
+| static [Type](./type/)() |  |
 ## Remarks
 
 
-Normally, a tab stop specifies a position where a tab stop exists. But because tab stops can be inherited from parent styles, it might be needed for the child object to define explicitly that there is no tab stop at a given position. To clear an inherited tab stop at a given position, create a **TabStop** object and set [Alignment](./get_alignment/) to **TabAlignment.Clear**.
+Normally, a tab stop specifies a position where a tab stop exists. But because tab stops can be inherited from parent styles, it might be needed for the child object to define explicitly that there is no tab stop at a given position. To clear an inherited tab stop at a given position, create a [TabStop](./) object and set [Alignment](./get_alignment/) to [Clear](../tabalignment/).
 
 For more information see [TabStopCollection](../tabstopcollection/).
 

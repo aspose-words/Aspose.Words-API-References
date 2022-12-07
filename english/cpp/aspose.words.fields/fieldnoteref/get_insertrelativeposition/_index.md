@@ -3,7 +3,7 @@ title: get_InsertRelativePosition
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets whether to insert a relative position of the bookmarked paragraph.
 type: docs
-weight: 40
+weight: 53
 url: /cpp/aspose.words.fields/fieldnoteref/get_insertrelativeposition/
 ---
 ## FieldNoteRef::get_InsertRelativePosition method

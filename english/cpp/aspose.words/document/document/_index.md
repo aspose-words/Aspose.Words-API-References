@@ -3,7 +3,7 @@ title: Document
 second_title: Aspose.Words for C++ API Reference
 description: Creates a blank Word document.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words/document/document/
 ---
 ## Document::Document() constructor
@@ -18,7 +18,7 @@ Aspose::Words::Document::Document()
 ## Remarks
 
 
-The document paper size is Letter by default. If you want to change page setup, use [Section.PageSetup](../../section/get_pagesetup/).
+The document paper size is Letter by default. If you want to change page setup, use [PageSetup](../../section/get_pagesetup/).
 
 After creation, you can use [DocumentBuilder](../../documentbuilder/) to add document content easily.
 
@@ -145,7 +145,7 @@ Aspose::Words::Document::Document(const System::SharedPtr<System::IO::Stream> &s
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | const System::SharedPtr\<System::IO::Stream\>\& | The stream where to load the document from. |
-| loadOptions | const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\& | Additional options to use when loading a document. Can be null. |
+| loadOptions | const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\& | Additional options to use when loading a document. Can be **null**. |
 ## Remarks
 
 
@@ -269,7 +269,7 @@ Aspose::Words::Document::Document(const System::String &fileName, const System::
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | const System::String\& | File name of the document to open. |
-| loadOptions | const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\& | Additional options to use when loading a document. Can be null. |
+| loadOptions | const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\& | Additional options to use when loading a document. Can be **null**. |
 
 ## Examples
 

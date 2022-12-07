@@ -1,15 +1,15 @@
 ---
 title: IsValidLinkTarget
 second_title: Aspose.Words for C++ API Reference
-description: Determines whether this TextBox can be linked to the target Textbox.
+description: Determines whether this TextBox can be linked to the target TextBox.
 type: docs
-weight: 157
+weight: 196
 url: /cpp/aspose.words.drawing/textbox/isvalidlinktarget/
 ---
 ## TextBox::IsValidLinkTarget method
 
 
-Determines whether this [TextBox](../) can be linked to the target Textbox.
+Determines whether this [TextBox](../) can be linked to the target [TextBox](../).
 
 ```cpp
 bool Aspose::Words::Drawing::TextBox::IsValidLinkTarget(const System::SharedPtr<Aspose::Words::Drawing::TextBox> &target)

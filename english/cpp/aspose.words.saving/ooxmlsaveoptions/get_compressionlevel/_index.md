@@ -3,7 +3,7 @@ title: get_CompressionLevel
 second_title: Aspose.Words for C++ API Reference
 description: Specifies the compression level used to save document. The default value is Normal.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/aspose.words.saving/ooxmlsaveoptions/get_compressionlevel/
 ---
 ## OoxmlSaveOptions::get_CompressionLevel method

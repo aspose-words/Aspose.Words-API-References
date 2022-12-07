@@ -1,7 +1,7 @@
 ---
 title: CommentCollection
 second_title: Aspose.Words for C++ API Reference
-description: Provides typed access to a collection of Comment nodes.
+description: Provides typed access to a collection of Comment nodes. To learn more, visit the  documentation article.
 type: docs
 weight: 144
 url: /cpp/aspose.words/commentcollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/commentcollection/
 ## CommentCollection class
 
 
-Provides typed access to a collection of [Comment](../comment/) nodes.
+Provides typed access to a collection of [Comment](../comment/) nodes. To learn more, visit the [Working with Comments](https://docs.aspose.com/words/cpp/working-with-comments/) documentation article.
 
 ```cpp
 class CommentCollection : public Aspose::Words::NodeCollection
@@ -24,12 +24,15 @@ class CommentCollection : public Aspose::Words::NodeCollection
 | [Contains](../nodecollection/contains/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Determines whether a node is in the collection. |
 | [get_Count](../nodecollection/get_count/)() | Gets the number of nodes in the collection. |
 | [GetEnumerator](../nodecollection/getenumerator/)() override | Provides a simple "foreach" style iteration over the collection of nodes. |
-| [idx_get](./idx_get/)(int32_t) | Retrieves a **Comment** at the given index. |
+| [GetType](./gettype/)() const override |  |
+| [idx_get](./idx_get/)(int32_t) | Retrieves a [Comment](../comment/) at the given index. |
 | [IndexOf](../nodecollection/indexof/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returns the zero-based index of the specified node. |
 | [Insert](../nodecollection/insert/)(int32_t, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts a node into the collection at the specified index. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../nodecollection/remove/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Removes the node from the collection and from the document. |
 | [RemoveAt](../nodecollection/removeat/)(int32_t) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](../nodecollection/toarray/)() | Copies all nodes from the collection to a new array of nodes. |
+| static [Type](./type/)() |  |
 
 ## Examples
 

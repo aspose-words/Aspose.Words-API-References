@@ -3,7 +3,7 @@ title: get_Font
 second_title: Aspose.Words for C++ API Reference
 description: Gets the character formatting of the style.
 type: docs
-weight: 66
+weight: 79
 url: /cpp/aspose.words/style/get_font/
 ---
 ## Style::get_Font method
@@ -18,7 +18,7 @@ System::SharedPtr<Aspose::Words::Font> Aspose::Words::Style::get_Font()
 ## Remarks
 
 
-For list styles this property returns null.
+For list styles this property returns **null**.
 
 ## Examples
 

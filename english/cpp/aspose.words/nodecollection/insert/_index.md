@@ -3,7 +3,7 @@ title: Insert
 second_title: Aspose.Words for C++ API Reference
 description: Inserts a node into the collection at the specified index.
 type: docs
-weight: 92
+weight: 118
 url: /cpp/aspose.words/nodecollection/insert/
 ---
 ## NodeCollection::Insert method
@@ -25,11 +25,9 @@ void Aspose::Words::NodeCollection::Insert(int32_t index, const System::SharedPt
 
 The node is inserted as a child into the node object from which the collection was created.
 
-If the index is equal to or greater than Count, the node is added at the end of the collection.
+If the index is equal to or greater than [Count](../get_count/), the node is added at the end of the collection.
 
-If the index is negative and its absolute value is greater than Count, the node is added at the end of the collection.
-
-If the newChild is already in the tree, it is first removed.
+If the index is negative and its absolute value is greater than [Count](../get_count/), the node is added at the end of the collection.
 
 If the node being inserted was created from another document, you should use [ImportNode()](../) to import the node to the current document. The imported node can then be inserted into the current document.
 

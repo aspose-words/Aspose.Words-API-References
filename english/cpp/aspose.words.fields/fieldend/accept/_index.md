@@ -3,7 +3,7 @@ title: Accept
 second_title: Aspose.Words for C++ API Reference
 description: Accepts a visitor.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.fields/fieldend/accept/
 ---
 ## FieldEnd::Accept method
@@ -26,7 +26,7 @@ bool Aspose::Words::Fields::FieldEnd::Accept(System::SharedPtr<Aspose::Words::Do
 ## Remarks
 
 
-Calls [VisitFieldEnd()](../).
+Calls [VisitFieldEnd()](../../../aspose.words/documentvisitor/visitfieldend/).
 
 For more info see the Visitor design pattern.
 

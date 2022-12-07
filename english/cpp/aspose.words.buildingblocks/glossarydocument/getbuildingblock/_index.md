@@ -3,7 +3,7 @@ title: GetBuildingBlock
 second_title: Aspose.Words for C++ API Reference
 description: Finds a building block using the specified gallery, category and name.
 type: docs
-weight: 66
+weight: 79
 url: /cpp/aspose.words.buildingblocks/glossarydocument/getbuildingblock/
 ---
 ## GlossaryDocument::GetBuildingBlock method
@@ -19,12 +19,12 @@ System::SharedPtr<Aspose::Words::BuildingBlocks::BuildingBlock> Aspose::Words::B
 | Parameter | Type | Description |
 | --- | --- | --- |
 | gallery | Aspose::Words::BuildingBlocks::BuildingBlockGallery | The gallery criteria. |
-| category | const System::String\& | The category criteria. Can be null, in which case it will not be used for comparison. |
+| category | const System::String\& | The category criteria. Can be **null**, in which case it will not be used for comparison. |
 | name | const System::String\& | The building block name criteria. |
 
 ### ReturnValue
 
-The matching building block or null if a match was not found.
+The matching building block or **null** if a match was not found.
 ## Remarks
 
 

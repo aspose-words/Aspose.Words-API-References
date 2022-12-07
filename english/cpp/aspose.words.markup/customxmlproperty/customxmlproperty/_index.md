@@ -3,7 +3,7 @@ title: CustomXmlProperty
 second_title: Aspose.Words for C++ API Reference
 description: Initializes a new instance of this class.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.markup/customxmlproperty/customxmlproperty/
 ---
 ## CustomXmlProperty::CustomXmlProperty constructor
@@ -18,9 +18,9 @@ Aspose::Words::Markup::CustomXmlProperty::CustomXmlProperty(const System::String
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | The name of the property. Cannot be null. |
-| uri | const System::String\& | The namespace URI of the property. Cannot be null. |
-| value | const System::String\& | The value of the property. Cannot be null. |
+| name | const System::String\& | The name of the property. Cannot be **null**. |
+| uri | const System::String\& | The namespace URI of the property. Cannot be **null**. |
+| value | const System::String\& | The value of the property. Cannot be **null**. |
 
 ## Examples
 

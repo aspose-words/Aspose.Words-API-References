@@ -3,7 +3,7 @@ title: set_RestartRule
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Notes::FootnoteOptions::get_RestartRule.'
 type: docs
-weight: 105
+weight: 144
 url: /cpp/aspose.words.notes/footnoteoptions/set_restartrule/
 ---
 ## FootnoteOptions::set_RestartRule method

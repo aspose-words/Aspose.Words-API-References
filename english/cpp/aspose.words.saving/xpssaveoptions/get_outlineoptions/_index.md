@@ -3,7 +3,7 @@ title: get_OutlineOptions
 second_title: Aspose.Words for C++ API Reference
 description: Allows to specify outline options.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words.saving/xpssaveoptions/get_outlineoptions/
 ---
 ## XpsSaveOptions::get_OutlineOptions method
@@ -18,7 +18,7 @@ System::SharedPtr<Aspose::Words::Saving::OutlineOptions> Aspose::Words::Saving::
 ## Remarks
 
 
-Note that ExpandedOutlineLevels option will not work when saving to XPS.
+Note that [ExpandedOutlineLevels](../../outlineoptions/get_expandedoutlinelevels/) option will not work when saving to XPS.
 
 ## Examples
 

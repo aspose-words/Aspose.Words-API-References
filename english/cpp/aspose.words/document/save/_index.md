@@ -3,7 +3,7 @@ title: Save
 second_title: Aspose.Words for C++ API Reference
 description: Saves the document to a stream using the specified format.
 type: docs
-weight: 859
+weight: 898
 url: /cpp/aspose.words/document/save/
 ---
 ## Document::Save(const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::SaveFormat) method
@@ -90,7 +90,7 @@ System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Do
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | const System::SharedPtr\<System::IO::Stream\>\& | Stream where to save the document. |
-| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | Specifies the options that control how the document is saved. Can be null. If this is null, the document will be saved in the binary DOC format. |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | Specifies the options that control how the document is saved. Can be **null**. If this is **null**, the document will be saved in the binary DOC format. |
 
 ### ReturnValue
 
@@ -217,7 +217,7 @@ System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Do
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | const System::String\& | The name for the document. If a document with the specified file name already exists, the existing document is overwritten. |
-| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | Specifies the options that control how the document is saved. Can be null. |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | Specifies the options that control how the document is saved. Can be **null**. |
 
 ### ReturnValue
 

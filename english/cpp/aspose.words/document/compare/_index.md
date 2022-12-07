@@ -3,7 +3,7 @@ title: Compare
 second_title: Aspose.Words for C++ API Reference
 description: Compares this document with another document producing changes as number of edit and format revisions Revision.
 type: docs
-weight: 79
+weight: 92
 url: /cpp/aspose.words/document/compare/
 ---
 ## Document::Compare(const System::SharedPtr\<Aspose::Words::Document\>\&, const System::String\&, System::DateTime) method

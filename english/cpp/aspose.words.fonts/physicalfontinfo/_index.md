@@ -1,7 +1,7 @@
 ---
 title: PhysicalFontInfo
 second_title: Aspose.Words for C++ API Reference
-description: Specifies information about physical font available to Aspose.Words font engine.
+description: Specifies information about physical font available to Aspose.Words font engine. To learn more, visit the  documentation article.
 type: docs
 weight: 183
 url: /cpp/aspose.words.fonts/physicalfontinfo/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fonts/physicalfontinfo/
 ## PhysicalFontInfo class
 
 
-Specifies information about physical font available to Aspose.Words font engine.
+Specifies information about physical font available to Aspose.Words font engine. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
 
 ```cpp
 class PhysicalFontInfo : public System::Object
@@ -23,6 +23,9 @@ class PhysicalFontInfo : public System::Object
 | [get_FontFamilyName](./get_fontfamilyname/)() const | Family name of the font. |
 | [get_FullFontName](./get_fullfontname/)() const | Full name of the font. |
 | [get_Version](./get_version/)() const | Version string of the font. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

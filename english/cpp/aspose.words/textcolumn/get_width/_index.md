@@ -3,7 +3,7 @@ title: get_Width
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the width of the text column in points.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words/textcolumn/get_width/
 ---
 ## TextColumn::get_Width method

@@ -3,7 +3,7 @@ title: MoveNextLogical
 second_title: Aspose.Words for C++ API Reference
 description: Moves to the next sibling entity in a logical order. When iterating lines of a paragraph broken across pages this method will move to the next line even if it resides on another page.
 type: docs
-weight: 157
+weight: 235
 url: /cpp/aspose.words.layout/layoutenumerator/movenextlogical/
 ---
 ## LayoutEnumerator::MoveNextLogical method

@@ -3,13 +3,13 @@ title: Body
 second_title: Aspose.Words for C++ API Reference
 description: Initializes a new instance of the Body class.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words/body/body/
 ---
 ## Body::Body constructor
 
 
-Initializes a new instance of the **Body** class.
+Initializes a new instance of the [Body](../) class.
 
 ```cpp
 Aspose::Words::Body::Body(const System::SharedPtr<Aspose::Words::DocumentBase> &doc)
@@ -22,9 +22,9 @@ Aspose::Words::Body::Body(const System::SharedPtr<Aspose::Words::DocumentBase> &
 ## Remarks
 
 
-When **Body** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+When [Body](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is **null**.
 
-To append **Body** to a **Section** use [Section.InsertAfter](../../compositenode/insertafter/) or [Section.InsertBefore](../../compositenode/insertbefore/).
+To append [Body](../) to a [Section](../../section/) use [AppendChild](../), [InsertAfter](../) or [InsertBefore](../) methods.
 
 ## Examples
 

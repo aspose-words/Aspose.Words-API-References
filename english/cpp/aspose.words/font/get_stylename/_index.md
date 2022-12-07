@@ -3,7 +3,7 @@ title: get_StyleName
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the name of the character style applied to this formatting.
 type: docs
-weight: 547
+weight: 560
 url: /cpp/aspose.words/font/get_stylename/
 ---
 ## Font::get_StyleName method

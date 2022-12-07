@@ -1,7 +1,7 @@
 ---
 title: BuildingBlock
 second_title: Aspose.Words for C++ API Reference
-description: Represents a glossary document entry such as a Building Block, AutoText or an AutoCorrect entry.
+description: Represents a glossary document entry such as a Building Block, AutoText or an AutoCorrect entry. To learn more, visit the  documentation article.
 type: docs
 weight: 1
 url: /cpp/aspose.words.buildingblocks/buildingblock/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.buildingblocks/buildingblock/
 ## BuildingBlock class
 
 
-Represents a glossary document entry such as a Building Block, AutoText or an AutoCorrect entry.
+Represents a glossary document entry such as a Building Block, AutoText or an AutoCorrect entry. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class BuildingBlock : public Aspose::Words::CompositeNode
@@ -34,8 +34,8 @@ class BuildingBlock : public Aspose::Words::CompositeNode
 | [get_FirstSection](./get_firstsection/)() | Gets the first section in the building block. |
 | [get_Gallery](./get_gallery/)() const | Specifies the first-level categorization for the building block for the purposes of classification or user interface sorting. |
 | [get_Guid](./get_guid/)() const | Gets or sets an identifier (a 128-bit GUID) that uniquely identifies this building block. |
-| [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns true if this node has any child nodes. |
-| [get_IsComposite](../../aspose.words/compositenode/get_iscomposite/)() override | Returns true as this node can have child nodes. |
+| [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
+| [get_IsComposite](../../aspose.words/compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
 | [get_LastChild](../../aspose.words/compositenode/get_lastchild/)() const | Gets the last child of the node. |
 | [get_LastSection](./get_lastsection/)() | Gets the last section in the building block. |
 | [get_Name](./get_name/)() const | Gets or sets the name of this building block. |
@@ -43,7 +43,7 @@ class BuildingBlock : public Aspose::Words::CompositeNode
 | [get_NodeType](./get_nodetype/)() const override | Returns the [BuildingBlock](../../aspose.words/nodetype/) value. |
 | [get_ParentNode](../../aspose.words/node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
-| [get_Range](../../aspose.words/node/get_range/)() | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [get_Range](../../aspose.words/node/get_range/)() | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [get_Sections](./get_sections/)() | Returns a collection that represents all sections in the building block. |
 | [get_Type](./get_type/)() const | Specifies the building block type. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/). |
@@ -52,9 +52,11 @@ class BuildingBlock : public Aspose::Words::CompositeNode
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(Aspose::Words::NodeType, bool) | Returns a live collection of child nodes that match the specified type. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() override | Provides support for the for each style iteration over the child nodes of this node. |
 | [GetText](../../aspose.words/compositenode/gettext/)() override | Gets the text of this node and of all its children. |
+| [GetType](./gettype/)() const override |  |
 | [IndexOf](../../aspose.words/compositenode/indexof/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returns the index of the specified child node in the child node array. |
 | [InsertAfter](../../aspose.words/compositenode/insertafter/)(const System::SharedPtr\<Aspose::Words::Node\>\&, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts the specified node immediately after the specified reference node. |
 | [InsertBefore](../../aspose.words/compositenode/insertbefore/)(const System::SharedPtr\<Aspose::Words::Node\>\&, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts the specified node immediately before the specified reference node. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets next node according to the pre-order tree traversal algorithm. |
 | static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
 | [PrependChild](../../aspose.words/compositenode/prependchild/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Adds the specified node to the beginning of the list of child nodes for this node. |
@@ -76,6 +78,7 @@ class BuildingBlock : public Aspose::Words::CompositeNode
 | [SetTemplateWeakPtr](../../aspose.words/compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

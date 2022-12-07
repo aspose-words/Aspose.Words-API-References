@@ -1,7 +1,7 @@
 ---
 title: FontSubstitutionRule
 second_title: Aspose.Words for C++ API Reference
-description: This is an abstract base class for the font substitution rule.
+description: This is an abstract base class for the font substitution rule. To learn more, visit the  documentation article.
 type: docs
 weight: 144
 url: /cpp/aspose.words.fonts/fontsubstitutionrule/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fonts/fontsubstitutionrule/
 ## FontSubstitutionRule class
 
 
-This is an abstract base class for the font substitution rule.
+This is an abstract base class for the font substitution rule. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
 
 ```cpp
 class FontSubstitutionRule : public System::Object
@@ -20,7 +20,10 @@ class FontSubstitutionRule : public System::Object
 | Method | Description |
 | --- | --- |
 | virtual [get_Enabled](./get_enabled/)() | Specifies whether the rule is enabled or not. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | virtual [set_Enabled](./set_enabled/)(bool) | Setter for [Aspose::Words::Fonts::FontSubstitutionRule::get_Enabled](./get_enabled/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

@@ -1,15 +1,15 @@
 ---
 title: get_NodeType
 second_title: Aspose.Words for C++ API Reference
-description: Returns NodeType.Paragraph.
+description: Returns Paragraph.
 type: docs
-weight: 235
+weight: 248
 url: /cpp/aspose.words/paragraph/get_nodetype/
 ---
 ## Paragraph::get_NodeType method
 
 
-Returns **NodeType.Paragraph**.
+Returns [Paragraph](../../nodetype/).
 
 ```cpp
 Aspose::Words::NodeType Aspose::Words::Paragraph::get_NodeType() const override

@@ -3,13 +3,13 @@ title: get_BackgroundShape
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the background shape of the document. Can be null.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words/documentbase/get_backgroundshape/
 ---
 ## DocumentBase::get_BackgroundShape method
 
 
-Gets or sets the background shape of the document. Can be null.
+Gets or sets the background shape of the document. Can be **null**.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBase::get_BackgroundShape() const
@@ -22,7 +22,7 @@ Microsoft Word allows only a shape that has its [ShapeType](../../../aspose.word
 
 Microsoft Word supports only the fill properties of a background shape. All other properties are ignored.
 
-Setting this property to a non-null value will also set the [DisplayBackgroundShape](../../../aspose.words.settings/viewoptions/get_displaybackgroundshape/) to true.
+Setting this property to a non-null value will also set the [DisplayBackgroundShape](../../../aspose.words.settings/viewoptions/get_displaybackgroundshape/) to **true**.
 
 ## Examples
 

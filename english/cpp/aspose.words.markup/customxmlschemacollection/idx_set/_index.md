@@ -3,7 +3,7 @@ title: idx_set
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the element at the specified index.
 type: docs
-weight: 131
+weight: 157
 url: /cpp/aspose.words.markup/customxmlschemacollection/idx_set/
 ---
 ## CustomXmlSchemaCollection::idx_set method

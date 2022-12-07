@@ -3,7 +3,7 @@ title: get_Password
 second_title: Aspose.Words for C++ API Reference
 description: Gets/sets a password to encrypt document using ECMA376 Standard encryption algorithm.
 type: docs
-weight: 53
+weight: 66
 url: /cpp/aspose.words.saving/ooxmlsaveoptions/get_password/
 ---
 ## OoxmlSaveOptions::get_Password method
@@ -18,7 +18,7 @@ System::String Aspose::Words::Saving::OoxmlSaveOptions::get_Password() const
 ## Remarks
 
 
-In order to save document without encryption this property should be null or empty string.
+In order to save document without encryption this property should be **null** or empty string.
 
 ## Examples
 

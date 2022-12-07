@@ -3,7 +3,7 @@ title: virtualized_iterator_element
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 222
+weight: 261
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/virtualized_iterator_element/
 ---
 ## virtualized_iterator_element typedef

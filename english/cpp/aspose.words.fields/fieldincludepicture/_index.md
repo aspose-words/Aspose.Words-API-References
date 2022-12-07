@@ -1,7 +1,7 @@
 ---
 title: FieldIncludePicture
 second_title: Aspose.Words for C++ API Reference
-description: Implements the INCLUDEPICTURE field.
+description: Implements the INCLUDEPICTURE field. To learn more, visit the  documentation article.
 type: docs
 weight: 729
 url: /cpp/aspose.words.fields/fieldincludepicture/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fields/fieldincludepicture/
 ## FieldIncludePicture class
 
 
-Implements the INCLUDEPICTURE field.
+Implements the INCLUDEPICTURE field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class FieldIncludePicture : public Aspose::Words::Fields::Field,
@@ -34,12 +34,14 @@ class FieldIncludePicture : public Aspose::Words::Fields::Field,
 | [get_ResizeHorizontally](./get_resizehorizontally/)() | Gets or sets whether to resize the picture horizontally from the source. |
 | [get_ResizeVertically](./get_resizevertically/)() | Gets or sets whether to resize the picture vertically from the source. |
 | [get_Result](../field/get_result/)() | Gets or sets text that is between the field separator and field end. |
-| [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be null. |
+| [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be **null**. |
 | [get_SourceFullName](./get_sourcefullname/)() override | Gets or sets the location of the picture using an IRI. |
 | [get_Start](../field/get_start/)() const | Gets the node that represents the start of the field. |
 | virtual [get_Type](../field/get_type/)() const | Gets the Microsoft Word field type. |
 | [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_GraphicFilter](./set_graphicfilter/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldIncludePicture::get_GraphicFilter](./get_graphicfilter/). |
 | [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
@@ -50,6 +52,7 @@ class FieldIncludePicture : public Aspose::Words::Fields::Field,
 | [set_ResizeVertically](./set_resizevertically/)(bool) | Setter for [Aspose::Words::Fields::FieldIncludePicture::get_ResizeVertically](./get_resizevertically/). |
 | [set_Result](../field/set_result/)(const System::String\&) | Setter for [Aspose::Words::Fields::Field::get_Result](../field/get_result/). |
 | [set_SourceFullName](./set_sourcefullname/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldIncludePicture::get_SourceFullName](./get_sourcefullname/). |
+| static [Type](./type/)() |  |
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |

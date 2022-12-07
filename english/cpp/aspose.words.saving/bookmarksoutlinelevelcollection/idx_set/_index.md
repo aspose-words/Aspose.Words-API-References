@@ -3,7 +3,7 @@ title: idx_set
 second_title: Aspose.Words for C++ API Reference
 description: Gets or a sets a bookmark outline level by the bookmark name.
 type: docs
-weight: 144
+weight: 170
 url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/idx_set/
 ---
 ## BookmarksOutlineLevelCollection::idx_set(const System::String\&, int32_t) method

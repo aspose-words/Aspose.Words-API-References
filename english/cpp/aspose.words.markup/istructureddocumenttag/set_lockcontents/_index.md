@@ -3,7 +3,7 @@ title: set_LockContents
 second_title: Aspose.Words for C++ API Reference
 description: When set to true, this property will prohibit a user from editing the contents of this SDT.
 type: docs
-weight: 222
+weight: 261
 url: /cpp/aspose.words.markup/istructureddocumenttag/set_lockcontents/
 ---
 ## IStructuredDocumentTag::set_LockContents method

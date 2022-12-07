@@ -3,7 +3,7 @@ title: Save
 second_title: Aspose.Words for C++ API Reference
 description: Saves the image into the specified stream.
 type: docs
-weight: 235
+weight: 274
 url: /cpp/aspose.words.drawing/imagedata/save/
 ---
 ## ImageData::Save(const System::SharedPtr\<System::IO::Stream\>\&) method

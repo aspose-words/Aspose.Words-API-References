@@ -3,7 +3,7 @@ title: get_ImageHeight
 second_title: Aspose.Words for C++ API Reference
 description: Specifies the image height for the image to insert into the document.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/aspose.words.mailmerging/imagefieldmergingargs/get_imageheight/
 ---
 ## ImageFieldMergingArgs::get_ImageHeight method

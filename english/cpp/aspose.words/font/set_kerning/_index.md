@@ -3,7 +3,7 @@ title: set_Kerning
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Font::get_Kerning.'
 type: docs
-weight: 911
+weight: 950
 url: /cpp/aspose.words/font/set_kerning/
 ---
 ## Font::set_Kerning method

@@ -3,7 +3,7 @@ title: After
 second_title: Aspose.Words for C++ API Reference
 description: Gets a first tab stop to the right of the specified position.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words/tabstopcollection/after/
 ---
 ## TabStopCollection::After method
@@ -22,11 +22,11 @@ System::SharedPtr<Aspose::Words::TabStop> Aspose::Words::TabStopCollection::Afte
 
 ### ReturnValue
 
-A tab stop object or null if a suitable tab stop was not found.
+A tab stop object or **null** if a suitable tab stop was not found.
 ## Remarks
 
 
-Skips tab stops with **Alignment** set to **TabAlignment.Bar**.
+Skips tab stops with [Alignment](../../tabstop/get_alignment/) set to [Bar](../../tabalignment/).
 
 ## Examples
 

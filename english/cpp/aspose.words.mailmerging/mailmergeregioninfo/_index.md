@@ -1,7 +1,7 @@
 ---
 title: MailMergeRegionInfo
 second_title: Aspose.Words for C++ API Reference
-description: Contains information about a mail merge region.
+description: Contains information about a mail merge region. To learn more, visit the  documentation article.
 type: docs
 weight: 53
 url: /cpp/aspose.words.mailmerging/mailmergeregioninfo/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.mailmerging/mailmergeregioninfo/
 ## MailMergeRegionInfo class
 
 
-Contains information about a mail merge region.
+Contains information about a mail merge region. To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/cpp/mail-merge-and-reporting/) documentation article.
 
 ```cpp
 class MailMergeRegionInfo : public System::Object
@@ -26,6 +26,9 @@ class MailMergeRegionInfo : public System::Object
 | [get_ParentRegion](./get_parentregion/)() const | Returns parent region info (null for top-level region). |
 | [get_Regions](./get_regions/)() const | Returns a list of child regions. |
 | [get_StartField](./get_startfield/)() const | Returns a start field for the region. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

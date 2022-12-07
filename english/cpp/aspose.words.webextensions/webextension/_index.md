@@ -1,7 +1,7 @@
 ---
 title: WebExtension
 second_title: Aspose.Words for C++ API Reference
-description: Represents a web extension object.
+description: Represents a web extension object. To learn more, visit the  documentation article.
 type: docs
 weight: 40
 url: /cpp/aspose.words.webextensions/webextension/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.webextensions/webextension/
 ## WebExtension class
 
 
-Represents a web extension object.
+Represents a web extension object. To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/cpp/work-with-office-add-ins/) documentation article.
 
 ```cpp
 class WebExtension : public System::Object
@@ -25,8 +25,11 @@ class WebExtension : public System::Object
 | [get_IsFrozen](./get_isfrozen/)() const | Specifies whether the user can interact with the web extension or not. |
 | [get_Properties](./get_properties/)() const | Represents a set of web extension custom properties. |
 | [get_Reference](./get_reference/)() const | Specifies the primary reference to an web extension. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Id](./set_id/)(const System::String\&) | Uniquely identifies the web extension instance in the current document. |
 | [set_IsFrozen](./set_isfrozen/)(bool) | Setter for [Aspose::Words::WebExtensions::WebExtension::get_IsFrozen](./get_isfrozen/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

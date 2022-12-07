@@ -3,7 +3,7 @@ title: InsertParagraph
 second_title: Aspose.Words for C++ API Reference
 description: Inserts a paragraph break into the document.
 type: docs
-weight: 534
+weight: 560
 url: /cpp/aspose.words/documentbuilder/insertparagraph/
 ---
 ## DocumentBuilder::InsertParagraph method

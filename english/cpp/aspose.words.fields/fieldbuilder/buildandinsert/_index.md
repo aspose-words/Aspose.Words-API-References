@@ -3,7 +3,7 @@ title: BuildAndInsert
 second_title: Aspose.Words for C++ API Reference
 description: Builds and inserts a field into the document before the specified inline node.
 type: docs
-weight: 40
+weight: 53
 url: /cpp/aspose.words.fields/fieldbuilder/buildandinsert/
 ---
 ## FieldBuilder::BuildAndInsert(const System::SharedPtr\<Aspose::Words::Inline\>\&) method

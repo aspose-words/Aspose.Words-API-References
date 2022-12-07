@@ -3,7 +3,7 @@ title: get_ParagraphFormat
 second_title: Aspose.Words for C++ API Reference
 description: Provides access to the paragraph formatting properties.
 type: docs
-weight: 261
+weight: 274
 url: /cpp/aspose.words/paragraph/get_paragraphformat/
 ---
 ## Paragraph::get_ParagraphFormat method

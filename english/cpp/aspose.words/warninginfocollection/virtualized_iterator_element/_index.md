@@ -3,7 +3,7 @@ title: virtualized_iterator_element
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 235
+weight: 274
 url: /cpp/aspose.words/warninginfocollection/virtualized_iterator_element/
 ---
 ## virtualized_iterator_element typedef

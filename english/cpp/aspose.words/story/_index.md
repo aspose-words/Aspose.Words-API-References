@@ -1,7 +1,7 @@
 ---
 title: Story
 second_title: Aspose.Words for C++ API Reference
-description: Base class for elements that contain block-level nodes Paragraph and Table.
+description: Base class for elements that contain block-level nodes Paragraph and Table. To learn more, visit the  documentation article.
 type: docs
 weight: 807
 url: /cpp/aspose.words/story/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/story/
 ## Story class
 
 
-Base class for elements that contain block-level nodes [Paragraph](../paragraph/) and [Table](../../aspose.words.tables/table/).
+Base class for elements that contain block-level nodes [Paragraph](../paragraph/) and [Table](../../aspose.words.tables/table/). To learn more, visit the [Logical Levels of Nodes in a Document](https://docs.aspose.com/words/cpp/logical-levels-of-nodes-in-a-document/) documentation article.
 
 ```cpp
 class Story : public Aspose::Words::CompositeNode
@@ -30,8 +30,8 @@ class Story : public Aspose::Words::CompositeNode
 | virtual [get_Document](../node/get_document/)() const | Gets the document to which this node belongs. |
 | [get_FirstChild](../compositenode/get_firstchild/)() const | Gets the first child of the node. |
 | [get_FirstParagraph](./get_firstparagraph/)() | Gets the first paragraph in the story. |
-| [get_HasChildNodes](../compositenode/get_haschildnodes/)() | Returns true if this node has any child nodes. |
-| [get_IsComposite](../compositenode/get_iscomposite/)() override | Returns true as this node can have child nodes. |
+| [get_HasChildNodes](../compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
+| [get_IsComposite](../compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
 | [get_LastChild](../compositenode/get_lastchild/)() const | Gets the last child of the node. |
 | [get_LastParagraph](./get_lastparagraph/)() | Gets the last paragraph in the story. |
 | [get_NextSibling](../node/get_nextsibling/)() | Gets the node immediately following this node. |
@@ -39,7 +39,7 @@ class Story : public Aspose::Words::CompositeNode
 | [get_Paragraphs](./get_paragraphs/)() | Gets a collection of paragraphs that are immediate children of the story. |
 | [get_ParentNode](../node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_PreviousSibling](../node/get_previoussibling/)() | Gets the node immediately preceding this node. |
-| [get_Range](../node/get_range/)() | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [get_Range](../node/get_range/)() | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node. |
 | [get_StoryType](./get_storytype/)() const | Gets the type of this story. |
 | [get_Tables](./get_tables/)() | Gets a collection of tables that are immediate children of the story. |
 | [GetAncestor](../node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../nodetype/). |
@@ -48,9 +48,11 @@ class Story : public Aspose::Words::CompositeNode
 | [GetChildNodes](../compositenode/getchildnodes/)(Aspose::Words::NodeType, bool) | Returns a live collection of child nodes that match the specified type. |
 | [GetEnumerator](../compositenode/getenumerator/)() override | Provides support for the for each style iteration over the child nodes of this node. |
 | [GetText](../compositenode/gettext/)() override | Gets the text of this node and of all its children. |
+| [GetType](./gettype/)() const override |  |
 | [IndexOf](../compositenode/indexof/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returns the index of the specified child node in the child node array. |
 | [InsertAfter](../compositenode/insertafter/)(const System::SharedPtr\<Aspose::Words::Node\>\&, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts the specified node immediately after the specified reference node. |
 | [InsertBefore](../compositenode/insertbefore/)(const System::SharedPtr\<Aspose::Words::Node\>\&, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts the specified node immediately before the specified reference node. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [NextPreOrder](../node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets next node according to the pre-order tree traversal algorithm. |
 | static [NodeTypeToString](../node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
 | [PrependChild](../compositenode/prependchild/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Adds the specified node to the beginning of the list of child nodes for this node. |
@@ -65,6 +67,7 @@ class Story : public Aspose::Words::CompositeNode
 | [SetTemplateWeakPtr](../compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

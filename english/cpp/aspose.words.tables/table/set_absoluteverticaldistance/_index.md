@@ -3,7 +3,7 @@ title: set_AbsoluteVerticalDistance
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Tables::Table::get_AbsoluteVerticalDistance.'
 type: docs
-weight: 534
+weight: 573
 url: /cpp/aspose.words.tables/table/set_absoluteverticaldistance/
 ---
 ## Table::set_AbsoluteVerticalDistance method

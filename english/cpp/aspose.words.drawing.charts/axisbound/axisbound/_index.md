@@ -3,7 +3,7 @@ title: AxisBound
 second_title: Aspose.Words for C++ API Reference
 description: Creates a new instance indicating that axis bound should be determined automatically by a word-processing application.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.drawing.charts/axisbound/axisbound/
 ---
 ## AxisBound::AxisBound() constructor

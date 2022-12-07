@@ -3,13 +3,13 @@ title: get_Body
 second_title: Aspose.Words for C++ API Reference
 description: Returns the Body child node of the section.
 type: docs
-weight: 105
+weight: 118
 url: /cpp/aspose.words/section/get_body/
 ---
 ## Section::get_Body method
 
 
-Returns the **Body** child node of the section.
+Returns the [Body](../../body/) child node of the section.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Body> Aspose::Words::Section::get_Body()
@@ -18,9 +18,9 @@ System::SharedPtr<Aspose::Words::Body> Aspose::Words::Section::get_Body()
 ## Remarks
 
 
-**Body** contains main text of the section.
+[Body](../../body/) contains main text of the section.
 
-Returns null if the section does not have a **Body** node among its children.
+Returns **null** if the section does not have a [Body](../../body/) node among its children.
 
 ## Examples
 

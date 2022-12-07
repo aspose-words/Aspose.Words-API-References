@@ -3,7 +3,7 @@ title: get_AspectRatioLocked
 second_title: Aspose.Words for C++ API Reference
 description: Specifies whether the shape's aspect ratio is locked.
 type: docs
-weight: 53
+weight: 66
 url: /cpp/aspose.words.drawing/shapebase/get_aspectratiolocked/
 ---
 ## ShapeBase::get_AspectRatioLocked method
@@ -18,7 +18,7 @@ bool Aspose::Words::Drawing::ShapeBase::get_AspectRatioLocked()
 ## Remarks
 
 
-The default value depends on the [ShapeType](../get_shapetype/), for the [ShapeType.Image](../../shapetype/) it is **true** but for the other shape types it is **false**.
+The default value depends on the [ShapeType](../../shapetype/), for the [Image](../../shapetype/) it is **true** but for the other shape types it is **false**.
 
 Has effect for top level shapes only.
 

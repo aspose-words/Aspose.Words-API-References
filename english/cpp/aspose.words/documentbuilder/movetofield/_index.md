@@ -3,7 +3,7 @@ title: MoveToField
 second_title: Aspose.Words for C++ API Reference
 description: Moves the cursor to a field in the document.
 type: docs
-weight: 677
+weight: 716
 url: /cpp/aspose.words/documentbuilder/movetofield/
 ---
 ## DocumentBuilder::MoveToField method
@@ -19,7 +19,7 @@ void Aspose::Words::DocumentBuilder::MoveToField(const System::SharedPtr<Aspose:
 | Parameter | Type | Description |
 | --- | --- | --- |
 | field | const System::SharedPtr\<Aspose::Words::Fields::Field\>\& | The field to move the cursor to. |
-| isAfter | bool | When true, moves the cursor to be after the field end. When false, moves the cursor to be before the field start. |
+| isAfter | bool | When **true**, moves the cursor to be after the field end. When **false**, moves the cursor to be before the field start. |
 
 ## Examples
 

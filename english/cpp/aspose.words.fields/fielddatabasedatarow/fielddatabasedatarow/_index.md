@@ -3,7 +3,7 @@ title: FieldDatabaseDataRow
 second_title: Aspose.Words for C++ API Reference
 description: Initializes a new instance of the FieldDatabaseDataRow class.
 type: docs
-weight: 1
+weight: 27
 url: /cpp/aspose.words.fields/fielddatabasedatarow/fielddatabasedatarow/
 ---
 ## FieldDatabaseDataRow::FieldDatabaseDataRow constructor

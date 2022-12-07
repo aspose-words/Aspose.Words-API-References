@@ -3,7 +3,7 @@ title: set_BookmarkName
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Fields::FieldIncludeText::get_BookmarkName.'
 type: docs
-weight: 118
+weight: 157
 url: /cpp/aspose.words.fields/fieldincludetext/set_bookmarkname/
 ---
 ## FieldIncludeText::set_BookmarkName method

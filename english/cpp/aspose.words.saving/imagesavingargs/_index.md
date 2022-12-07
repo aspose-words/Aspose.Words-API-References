@@ -1,7 +1,7 @@
 ---
 title: ImageSavingArgs
 second_title: Aspose.Words for C++ API Reference
-description: Provides data for the ImageSaving() event.
+description: Provides data for the ImageSaving() event. To learn more, visit the  documentation article.
 type: docs
 weight: 144
 url: /cpp/aspose.words.saving/imagesavingargs/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/imagesavingargs/
 ## ImageSavingArgs class
 
 
-Provides data for the [ImageSaving()](../iimagesavingcallback/imagesaving/) event.
+Provides data for the [ImageSaving()](../iimagesavingcallback/imagesaving/) event. To learn more, visit the [Save a Document](https://docs.aspose.com/words/cpp/save-a-document/) documentation article.
 
 ```cpp
 class ImageSavingArgs : public System::Object
@@ -25,10 +25,13 @@ class ImageSavingArgs : public System::Object
 | [get_ImageStream](./get_imagestream/)() const | Allows to specify the stream where the image will be saved to. |
 | [get_IsImageAvailable](./get_isimageavailable/)() const | Returns **true** if the current image is available for export. |
 | [get_KeepImageStreamOpen](./get_keepimagestreamopen/)() const | Specifies whether Aspose.Words should keep the stream open or close it after saving an image. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_ImageFileName](./set_imagefilename/)(const System::String\&) | Setter for [Aspose::Words::Saving::ImageSavingArgs::get_ImageFileName](./get_imagefilename/). |
 | [set_ImageStream](./set_imagestream/)(const System::SharedPtr\<System::IO::Stream\>\&) | Setter for [Aspose::Words::Saving::ImageSavingArgs::get_ImageStream](./get_imagestream/). |
 | [set_ImageStream](./set_imagestream/)(std::basic_ostream\<CharType, Traits\>\&) |  |
 | [set_KeepImageStreamOpen](./set_keepimagestreamopen/)(bool) | Setter for [Aspose::Words::Saving::ImageSavingArgs::get_KeepImageStreamOpen](./get_keepimagestreamopen/). |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

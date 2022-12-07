@@ -3,7 +3,7 @@ title: set_SelectedValue
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Markup::SdtListItemCollection::get_SelectedValue.'
 type: docs
-weight: 144
+weight: 183
 url: /cpp/aspose.words.markup/sdtlistitemcollection/set_selectedvalue/
 ---
 ## SdtListItemCollection::set_SelectedValue method

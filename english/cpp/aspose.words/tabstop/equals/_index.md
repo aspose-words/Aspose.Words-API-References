@@ -3,7 +3,7 @@ title: Equals
 second_title: Aspose.Words for C++ API Reference
 description: Compares with the specified TabStop.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words/tabstop/equals/
 ---
 ## TabStop::Equals method

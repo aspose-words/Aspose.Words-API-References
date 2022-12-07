@@ -1,7 +1,7 @@
 ---
 title: ImportFormatOptions
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify various import options to format output.
+description: Allows to specify various import options to format output. To learn more, visit the  documentation article.
 type: docs
 weight: 443
 url: /cpp/aspose.words/importformatoptions/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/importformatoptions/
 ## ImportFormatOptions class
 
 
-Allows to specify various import options to format output.
+Allows to specify various import options to format output. To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/cpp/specify-load-options/) documentation article.
 
 ```cpp
 class ImportFormatOptions : public System::Object
@@ -25,13 +25,16 @@ class ImportFormatOptions : public System::Object
 | [get_KeepSourceNumbering](./get_keepsourcenumbering/)() const | Gets or sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. The default value is **false**. |
 | [get_MergePastedLists](./get_mergepastedlists/)() const | Gets or sets a boolean value that specifies whether pasted lists will be merged with surrounding lists. The default value is **false**. |
 | [get_SmartStyleBehavior](./get_smartstylebehavior/)() const | Gets or sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. The default value is **false**. |
+| [GetType](./gettype/)() const override |  |
 | [ImportFormatOptions](./importformatoptions/)() |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_ForceCopyStyles](./set_forcecopystyles/)(bool) | Setter for [Aspose::Words::ImportFormatOptions::get_ForceCopyStyles](./get_forcecopystyles/). |
 | [set_IgnoreHeaderFooter](./set_ignoreheaderfooter/)(bool) | Setter for [Aspose::Words::ImportFormatOptions::get_IgnoreHeaderFooter](./get_ignoreheaderfooter/). |
 | [set_IgnoreTextBoxes](./set_ignoretextboxes/)(bool) | Setter for [Aspose::Words::ImportFormatOptions::get_IgnoreTextBoxes](./get_ignoretextboxes/). |
 | [set_KeepSourceNumbering](./set_keepsourcenumbering/)(bool) | Setter for [Aspose::Words::ImportFormatOptions::get_KeepSourceNumbering](./get_keepsourcenumbering/). |
 | [set_MergePastedLists](./set_mergepastedlists/)(bool) | Setter for [Aspose::Words::ImportFormatOptions::get_MergePastedLists](./get_mergepastedlists/). |
 | [set_SmartStyleBehavior](./set_smartstylebehavior/)(bool) | Setter for [Aspose::Words::ImportFormatOptions::get_SmartStyleBehavior](./get_smartstylebehavior/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

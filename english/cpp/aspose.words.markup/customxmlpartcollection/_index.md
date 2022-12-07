@@ -1,7 +1,7 @@
 ---
 title: CustomXmlPartCollection
 second_title: Aspose.Words for C++ API Reference
-description: Represents a collection of Custom XML Parts. The items are CustomXmlPart objects.
+description: Represents a collection of Custom XML Parts. The items are CustomXmlPart objects. To learn more, visit the  documentation article.
 type: docs
 weight: 40
 url: /cpp/aspose.words.markup/customxmlpartcollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.markup/customxmlpartcollection/
 ## CustomXmlPartCollection class
 
 
-Represents a collection of Custom XML Parts. The items are [CustomXmlPart](../customxmlpart/) objects.
+Represents a collection of Custom XML Parts. The items are [CustomXmlPart](../customxmlpart/) objects. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/structured-document-tags-or-content-control/) documentation article.
 
 ```cpp
 class CustomXmlPartCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Markup::CustomXmlPart>>
@@ -33,9 +33,12 @@ class CustomXmlPartCollection : public System::Collections::Generic::IEnumerable
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [GetById](./getbyid/)(const System::String\&) | Finds and returns a custom XML part by its identifier. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Gets or sets an item at the specified index. |
 | [idx_set](./idx_set/)(int32_t, const System::SharedPtr\<Aspose::Words::Markup::CustomXmlPart\>\&) | Gets or sets an item at the specified index. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [RemoveAt](./removeat/)(int32_t) | Removes an item at the specified index. |
+| static [Type](./type/)() |  |
 | [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
 | [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
 | [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |

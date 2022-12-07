@@ -3,7 +3,7 @@ title: set_UseBookFoldPrintingSettings
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Saving::PsSaveOptions::get_UseBookFoldPrintingSettings.'
 type: docs
-weight: 53
+weight: 92
 url: /cpp/aspose.words.saving/pssaveoptions/set_usebookfoldprintingsettings/
 ---
 ## PsSaveOptions::set_UseBookFoldPrintingSettings method

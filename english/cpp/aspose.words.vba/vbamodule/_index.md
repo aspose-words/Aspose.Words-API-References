@@ -1,7 +1,7 @@
 ---
 title: VbaModule
 second_title: Aspose.Words for C++ API Reference
-description: Provides access to VBA project module.
+description: Provides access to VBA project module. To learn more, visit the  documentation article.
 type: docs
 weight: 1
 url: /cpp/aspose.words.vba/vbamodule/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.vba/vbamodule/
 ## VbaModule class
 
 
-Provides access to VBA project module.
+Provides access to VBA project module. To learn more, visit the [Working with VBA Macros](https://docs.aspose.com/words/cpp/working-with-vba-macros/) documentation article.
 
 ```cpp
 class VbaModule : public System::Object
@@ -23,9 +23,12 @@ class VbaModule : public System::Object
 | [get_Name](./get_name/)() const | Gets or sets VBA project module name. |
 | [get_SourceCode](./get_sourcecode/)() const | Gets or sets VBA project module source code. |
 | [get_Type](./get_type/)() const | Specifies whether the module is a procedural module, document module, class module, or designer module. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Name](./set_name/)(const System::String\&) | Setter for [Aspose::Words::Vba::VbaModule::get_Name](./get_name/). |
 | [set_SourceCode](./set_sourcecode/)(const System::String\&) | Setter for [Aspose::Words::Vba::VbaModule::get_SourceCode](./get_sourcecode/). |
 | [set_Type](./set_type/)(Aspose::Words::Vba::VbaModuleType) | Setter for [Aspose::Words::Vba::VbaModule::get_Type](./get_type/). |
+| static [Type](./type/)() |  |
 | [VbaModule](./vbamodule/)() | Creates an empty module. |
 
 ## Examples

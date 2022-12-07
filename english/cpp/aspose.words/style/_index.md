@@ -1,7 +1,7 @@
 ---
 title: Style
 second_title: Aspose.Words for C++ API Reference
-description: Represents a single built-in or user-defined style.
+description: Represents a single built-in or user-defined style. To learn more, visit the  documentation article.
 type: docs
 weight: 820
 url: /cpp/aspose.words/style/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/style/
 ## Style class
 
 
-Represents a single built-in or user-defined style.
+Represents a single built-in or user-defined style. To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article.
 
 ```cpp
 class Style : public Aspose::Words::IParaAttrSource,
@@ -28,7 +28,7 @@ class Style : public Aspose::Words::IParaAttrSource,
 | [get_Font](./get_font/)() | Gets the character formatting of the style. |
 | [get_IsHeading](./get_isheading/)() | True when the style is one of the built-in Heading styles. |
 | [get_IsQuickStyle](./get_isquickstyle/)() const | Specifies whether this style is shown in the Quick [Style](./) gallery inside MS Word UI. |
-| [get_LinkedStyleName](./get_linkedstylename/)() | Gets the name of the [Style](./) linked to this one. Returns Empty string if no styles are linked. |
+| [get_LinkedStyleName](./get_linkedstylename/)() | Gets the name of the [Style](./) linked to this one. Returns empty string if no styles are linked. |
 | [get_List](./get_list/)() | Gets the list that defines formatting of this list style. |
 | [get_ListFormat](./get_listformat/)() | Provides access to the list formatting properties of a paragraph style. |
 | [get_Name](./get_name/)() const | Gets or sets the name of the style. |
@@ -37,11 +37,14 @@ class Style : public Aspose::Words::IParaAttrSource,
 | [get_StyleIdentifier](./get_styleidentifier/)() const | Gets the locale independent style identifier for a built-in style. |
 | [get_Styles](./get_styles/)() const | Gets the collection of styles this style belongs to. |
 | [get_Type](./get_type/)() const | Gets the style type (paragraph or character). |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](./remove/)() | Removes the specified style from the document. |
 | [set_BaseStyleName](./set_basestylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_BaseStyleName](./get_basestylename/). |
 | [set_IsQuickStyle](./set_isquickstyle/)(bool) | Setter for [Aspose::Words::Style::get_IsQuickStyle](./get_isquickstyle/). |
 | [set_Name](./set_name/)(const System::String\&) | Setter for [Aspose::Words::Style::get_Name](./get_name/). |
 | [set_NextParagraphStyleName](./set_nextparagraphstylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_NextParagraphStyleName](./get_nextparagraphstylename/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

@@ -3,7 +3,7 @@ title: set_Opacity
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Drawing::Stroke::get_Opacity.'
 type: docs
-weight: 417
+weight: 456
 url: /cpp/aspose.words.drawing/stroke/set_opacity/
 ---
 ## Stroke::set_Opacity method

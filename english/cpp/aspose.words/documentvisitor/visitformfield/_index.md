@@ -3,7 +3,7 @@ title: VisitFormField
 second_title: Aspose.Words for C++ API Reference
 description: Called when a form field is encountered in the document.
 type: docs
-weight: 287
+weight: 326
 url: /cpp/aspose.words/documentvisitor/visitformfield/
 ---
 ## DocumentVisitor::VisitFormField method

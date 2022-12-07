@@ -3,7 +3,7 @@ title: get_UserAddress
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the current user's postal address.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.fields/fielduseraddress/get_useraddress/
 ---
 ## FieldUserAddress::get_UserAddress method

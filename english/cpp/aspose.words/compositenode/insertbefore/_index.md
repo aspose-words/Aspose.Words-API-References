@@ -3,7 +3,7 @@ title: InsertBefore
 second_title: Aspose.Words for C++ API Reference
 description: Inserts the specified node immediately before the specified reference node.
 type: docs
-weight: 170
+weight: 196
 url: /cpp/aspose.words/compositenode/insertbefore/
 ---
 ## CompositeNode::InsertBefore method
@@ -19,7 +19,7 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::CompositeNode::InsertBefor
 | Parameter | Type | Description |
 | --- | --- | --- |
 | newChild | const System::SharedPtr\<Aspose::Words::Node\>\& | The [Node](../../node/) to insert. |
-| refChild | const System::SharedPtr\<Aspose::Words::Node\>\& | The [Node](../../node/) that is the reference node. The newChild is placed before this node. |
+| refChild | const System::SharedPtr\<Aspose::Words::Node\>\& | The [Node](../../node/) that is the reference node. The *newChild* is placed before this node. |
 
 ### ReturnValue
 
@@ -27,9 +27,9 @@ The inserted node.
 ## Remarks
 
 
-If refChild is null, inserts newChild at the end of the list of child nodes.
+If *refChild* is **null**, inserts *newChild* at the end of the list of child nodes.
 
-If the newChild is already in the tree, it is first removed.
+If the *newChild* is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use [ImportNode()](../) to import the node to the current document. The imported node can then be inserted into the current document.
 

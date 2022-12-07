@@ -3,7 +3,7 @@ title: StartTable
 second_title: Aspose.Words for C++ API Reference
 description: Starts a table in the document.
 type: docs
-weight: 872
+weight: 911
 url: /cpp/aspose.words/documentbuilder/starttable/
 ---
 ## DocumentBuilder::StartTable method

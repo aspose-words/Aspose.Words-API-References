@@ -3,7 +3,7 @@ title: set_PrettyFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Saving::SaveOptions::get_PrettyFormat.'
 type: docs
-weight: 378
+weight: 430
 url: /cpp/aspose.words.saving/saveoptions/set_prettyformat/
 ---
 ## SaveOptions::set_PrettyFormat method

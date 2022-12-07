@@ -3,7 +3,7 @@ title: set_InsertAsUnicode
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Fields::FieldLink::get_InsertAsUnicode.'
 type: docs
-weight: 248
+weight: 287
 url: /cpp/aspose.words.fields/fieldlink/set_insertasunicode/
 ---
 ## FieldLink::set_InsertAsUnicode method

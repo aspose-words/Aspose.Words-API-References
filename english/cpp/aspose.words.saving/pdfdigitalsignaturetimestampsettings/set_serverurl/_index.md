@@ -3,7 +3,7 @@ title: set_ServerUrl
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::get_ServerUrl.'
 type: docs
-weight: 79
+weight: 118
 url: /cpp/aspose.words.saving/pdfdigitalsignaturetimestampsettings/set_serverurl/
 ---
 ## PdfDigitalSignatureTimestampSettings::set_ServerUrl method

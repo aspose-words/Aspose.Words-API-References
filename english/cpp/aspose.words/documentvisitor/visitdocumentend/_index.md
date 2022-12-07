@@ -3,7 +3,7 @@ title: VisitDocumentEnd
 second_title: Aspose.Words for C++ API Reference
 description: Called when enumeration of the document has finished.
 type: docs
-weight: 170
+weight: 209
 url: /cpp/aspose.words/documentvisitor/visitdocumentend/
 ---
 ## DocumentVisitor::VisitDocumentEnd method

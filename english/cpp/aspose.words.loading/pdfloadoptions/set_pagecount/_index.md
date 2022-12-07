@@ -3,7 +3,7 @@ title: set_PageCount
 second_title: Aspose.Words for C++ API Reference
 description: Sets the number of pages to read. Default is MaxValue which means all pages of the document will be read.
 type: docs
-weight: 53
+weight: 92
 url: /cpp/aspose.words.loading/pdfloadoptions/set_pagecount/
 ---
 ## PdfLoadOptions::set_PageCount method

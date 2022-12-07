@@ -3,7 +3,7 @@ title: InsertField
 second_title: Aspose.Words for C++ API Reference
 description: Inserts a Word field into a document and optionally updates the field result.
 type: docs
-weight: 404
+weight: 430
 url: /cpp/aspose.words/documentbuilder/insertfield/
 ---
 ## DocumentBuilder::InsertField(Aspose::Words::Fields::FieldType, bool) method
@@ -162,7 +162,7 @@ System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::DocumentBuilder::
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldCode | const System::String\& | The field code to insert (without curly braces). |
-| fieldValue | const System::String\& | The field value to insert. Pass null for fields that do not have a value. |
+| fieldValue | const System::String\& | The field value to insert. Pass **null** for fields that do not have a value. |
 
 ### ReturnValue
 

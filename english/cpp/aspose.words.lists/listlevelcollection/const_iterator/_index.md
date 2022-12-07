@@ -3,7 +3,7 @@ title: const_iterator
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 157
+weight: 196
 url: /cpp/aspose.words.lists/listlevelcollection/const_iterator/
 ---
 ## const_iterator typedef

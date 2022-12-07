@@ -1,7 +1,7 @@
 ---
 title: DocumentProperty
 second_title: Aspose.Words for C++ API Reference
-description: Represents a custom or built-in document property.
+description: Represents a custom or built-in document property. To learn more, visit the  documentation article.
 type: docs
 weight: 27
 url: /cpp/aspose.words.properties/documentproperty/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.properties/documentproperty/
 ## DocumentProperty class
 
 
-Represents a custom or built-in document property.
+Represents a custom or built-in document property. To learn more, visit the [Work with Document Properties](https://docs.aspose.com/words/cpp/work-with-document-properties/) documentation article.
 
 ```cpp
 class DocumentProperty : public System::Object
@@ -24,13 +24,16 @@ class DocumentProperty : public System::Object
 | [get_Name](./get_name/)() const | Returns the name of the property. |
 | [get_Type](./get_type/)() const | Gets the data type of the property. |
 | [get_Value](./get_value/)() | Gets or sets the value of the property. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Value](./set_value/)(const System::SharedPtr\<System::Object\>\&) | Setter for [Aspose::Words::Properties::DocumentProperty::get_Value](./get_value/). |
 | [ToBool](./tobool/)() | Returns the property value as bool. |
 | [ToByteArray](./tobytearray/)() | Returns the property value as byte array. |
-| [ToDateTime](./todatetime/)() | Returns the property value as DateTime in UTC. |
+| [ToDateTime](./todatetime/)() | Returns the property value as **DateTime** in UTC. |
 | [ToDouble](./todouble/)() | Returns the property value as double. |
 | [ToInt](./toint/)() | Returns the property value as integer. |
 | [ToString](./tostring/)() const override | Returns the property value as a string formatted according to the current locale. |
+| static [Type](./type/)() |  |
 
 ## Examples
 

@@ -3,7 +3,7 @@ title: get_LineSpacing
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the line spacing (in points) for the paragraph.
 type: docs
-weight: 235
+weight: 248
 url: /cpp/aspose.words/paragraphformat/get_linespacing/
 ---
 ## ParagraphFormat::get_LineSpacing method
@@ -18,9 +18,9 @@ double Aspose::Words::ParagraphFormat::get_LineSpacing()
 ## Remarks
 
 
-When LineSpacingRule property is set to AtLeast, the line spacing can be greater than or equal to, but never less than the specified LineSpacing value.
+When [LineSpacingRule](../get_linespacingrule/) property is set to [AtLeast](../../linespacingrule/), the line spacing can be greater than or equal to, but never less than the specified [LineSpacing](./) value.
 
-When LineSpacingRule property is set to Exactly, the line spacing never changes from the specified LineSpacing value, even if a larger font is used within the paragraph.
+When [LineSpacingRule](../get_linespacingrule/) property is set to [Exactly](../../linespacingrule/), the line spacing never changes from the specified [LineSpacing](./) value, even if a larger font is used within the paragraph.
 
 ## Examples
 

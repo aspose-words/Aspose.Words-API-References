@@ -3,7 +3,7 @@ title: VisitParagraphEnd
 second_title: Aspose.Words for C++ API Reference
 description: Called when enumeration of a paragraph has ended.
 type: docs
-weight: 404
+weight: 443
 url: /cpp/aspose.words/documentvisitor/visitparagraphend/
 ---
 ## DocumentVisitor::VisitParagraphEnd method

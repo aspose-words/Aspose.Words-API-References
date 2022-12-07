@@ -1,7 +1,7 @@
 ---
 title: BuildVersionInfo
 second_title: Aspose.Words for C++ API Reference
-description: Provides information about the current product name and version.
+description: Provides information about the current product name and version. To learn more, visit the  documentation article.
 type: docs
 weight: 105
 url: /cpp/aspose.words/buildversioninfo/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/buildversioninfo/
 ## BuildVersionInfo class
 
 
-Provides information about the current product name and version.
+Provides information about the current product name and version. To learn more, visit the [Generator or Producer Name Included in Output Documents](https://docs.aspose.com/words/cpp/generator-or-producer-name-included-in-output-documents/) documentation article.
 
 ```cpp
 class BuildVersionInfo

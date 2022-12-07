@@ -3,7 +3,7 @@ title: Accept
 second_title: Aspose.Words for C++ API Reference
 description: Accepts a visitor.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words/specialchar/accept/
 ---
 ## SpecialChar::Accept method
@@ -22,11 +22,11 @@ bool Aspose::Words::SpecialChar::Accept(System::SharedPtr<Aspose::Words::Documen
 
 ### ReturnValue
 
-False if the visitor requested the enumeration to stop.
+**false** if the visitor requested the enumeration to stop.
 ## Remarks
 
 
-Calls [DocumentVisitor.VisitSpecialChar](../../documentvisitor/visitspecialchar/).
+Calls [VisitSpecialChar()](../../documentvisitor/visitspecialchar/).
 
 For more info see the Visitor design pattern.
 

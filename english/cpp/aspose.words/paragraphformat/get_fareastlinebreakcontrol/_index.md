@@ -3,7 +3,7 @@ title: get_FarEastLineBreakControl
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets a flag indicating whether East Asian line-breaking rules are applied to the current paragraph.
 type: docs
-weight: 131
+weight: 144
 url: /cpp/aspose.words/paragraphformat/get_fareastlinebreakcontrol/
 ---
 ## ParagraphFormat::get_FarEastLineBreakControl method

@@ -3,7 +3,7 @@ title: set_TextEffect
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Font::get_TextEffect.'
 type: docs
-weight: 1236
+weight: 1275
 url: /cpp/aspose.words/font/set_texteffect/
 ---
 ## Font::set_TextEffect method

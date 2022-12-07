@@ -1,7 +1,7 @@
 ---
 title: TextPath
 second_title: Aspose.Words for C++ API Reference
-description: Defines the text and formatting of the text path (of a WordArt object).
+description: Defines the text and formatting of the text path (of a WordArt object). To learn more, visit the  documentation article.
 type: docs
 weight: 196
 url: /cpp/aspose.words.drawing/textpath/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing/textpath/
 ## TextPath class
 
 
-Defines the text and formatting of the text path (of a WordArt object).
+Defines the text and formatting of the text path (of a WordArt object). To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/cpp/working-with-shapes/) documentation article.
 
 ```cpp
 class TextPath : public System::Object
@@ -39,6 +39,8 @@ class TextPath : public System::Object
 | [get_Trim](./get_trim/)() | Determines whether extra space is removed above and below the text. |
 | [get_Underline](./get_underline/)() | True if the font is underlined. |
 | [get_XScale](./get_xscale/)() | Determines whether a straight textpath will be used instead of the shape path. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Bold](./set_bold/)(bool) | Setter for [Aspose::Words::Drawing::TextPath::get_Bold](./get_bold/). |
 | [set_FitPath](./set_fitpath/)(bool) | Setter for [Aspose::Words::Drawing::TextPath::get_FitPath](./get_fitpath/). |
 | [set_FitShape](./set_fitshape/)(bool) | Setter for [Aspose::Words::Drawing::TextPath::get_FitShape](./get_fitshape/). |
@@ -59,6 +61,7 @@ class TextPath : public System::Object
 | [set_Trim](./set_trim/)(bool) | Setter for [Aspose::Words::Drawing::TextPath::get_Trim](./get_trim/). |
 | [set_Underline](./set_underline/)(bool) | Setter for [Aspose::Words::Drawing::TextPath::get_Underline](./get_underline/). |
 | [set_XScale](./set_xscale/)(bool) | Setter for [Aspose::Words::Drawing::TextPath::get_XScale](./get_xscale/). |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

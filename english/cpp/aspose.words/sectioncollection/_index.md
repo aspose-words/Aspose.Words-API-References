@@ -1,7 +1,7 @@
 ---
 title: SectionCollection
 second_title: Aspose.Words for C++ API Reference
-description: A collection of Section objects in the document.
+description: A collection of Section objects in the document. To learn more, visit the  documentation article.
 type: docs
 weight: 755
 url: /cpp/aspose.words/sectioncollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/sectioncollection/
 ## SectionCollection class
 
 
-A collection of **Section** objects in the document.
+A collection of [Section](../section/) objects in the document. To learn more, visit the [Working with Sections](https://docs.aspose.com/words/cpp/working-with-sections/) documentation article.
 
 ```cpp
 class SectionCollection : public Aspose::Words::NodeCollection
@@ -24,12 +24,15 @@ class SectionCollection : public Aspose::Words::NodeCollection
 | [Contains](../nodecollection/contains/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Determines whether a node is in the collection. |
 | [get_Count](../nodecollection/get_count/)() | Gets the number of nodes in the collection. |
 | [GetEnumerator](../nodecollection/getenumerator/)() override | Provides a simple "foreach" style iteration over the collection of nodes. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Retrieves a section at the given index. |
 | [IndexOf](../nodecollection/indexof/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returns the zero-based index of the specified node. |
 | [Insert](../nodecollection/insert/)(int32_t, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts a node into the collection at the specified index. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../nodecollection/remove/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Removes the node from the collection and from the document. |
 | [RemoveAt](../nodecollection/removeat/)(int32_t) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](./toarray/)() | Copies all sections from the collection to a new array of sections. |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

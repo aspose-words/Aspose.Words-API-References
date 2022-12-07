@@ -31,6 +31,8 @@ class ThemeColors : public System::Object
 | [get_Hyperlink](./get_hyperlink/)() | Specifies color for a hyperlink. |
 | [get_Light1](./get_light1/)() | Specifies color Light 1. |
 | [get_Light2](./get_light2/)() | Specifies color Light 2. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Accent1](./set_accent1/)(System::Drawing::Color) | Setter for [Aspose::Words::Themes::ThemeColors::get_Accent1](./get_accent1/). |
 | [set_Accent2](./set_accent2/)(System::Drawing::Color) | Setter for [Aspose::Words::Themes::ThemeColors::get_Accent2](./get_accent2/). |
 | [set_Accent3](./set_accent3/)(System::Drawing::Color) | Setter for [Aspose::Words::Themes::ThemeColors::get_Accent3](./get_accent3/). |
@@ -43,6 +45,7 @@ class ThemeColors : public System::Object
 | [set_Hyperlink](./set_hyperlink/)(System::Drawing::Color) | Setter for [Aspose::Words::Themes::ThemeColors::get_Hyperlink](./get_hyperlink/). |
 | [set_Light1](./set_light1/)(System::Drawing::Color) | Setter for [Aspose::Words::Themes::ThemeColors::get_Light1](./get_light1/). |
 | [set_Light2](./set_light2/)(System::Drawing::Color) | Setter for [Aspose::Words::Themes::ThemeColors::get_Light2](./get_light2/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

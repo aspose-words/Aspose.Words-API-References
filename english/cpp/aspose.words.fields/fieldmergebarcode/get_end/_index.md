@@ -3,7 +3,7 @@ title: get_End
 second_title: Aspose.Words for C++ API Reference
 description: Gets the node that represents the field end.
 type: docs
-weight: 79
+weight: 92
 url: /cpp/aspose.words.fields/fieldmergebarcode/get_end/
 ---
 ## FieldMergeBarcode::get_End method

@@ -1,7 +1,7 @@
 ---
 title: List
 second_title: Aspose.Words for C++ API Reference
-description: Represents formatting of a list.
+description: Represents formatting of a list. To learn more, visit the  documentation article.
 type: docs
 weight: 1
 url: /cpp/aspose.words.lists/list/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.lists/list/
 ## List class
 
 
-Represents formatting of a list.
+Represents formatting of a list. To learn more, visit the [Working with Lists](https://docs.aspose.com/words/cpp/working-with-lists/) documentation article.
 
 ```cpp
 class List : public System::IComparable<System::SharedPtr<Aspose::Words::Lists::List>>
@@ -23,16 +23,19 @@ class List : public System::IComparable<System::SharedPtr<Aspose::Words::Lists::
 | [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::Lists::List\>\&) | Compares with the specified list. |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override |  |
 | [get_Document](./get_document/)() const | Gets the owner document. |
-| [get_IsListStyleDefinition](./get_isliststyledefinition/)() | Returns true if this list is a definition of a list style. |
-| [get_IsListStyleReference](./get_isliststylereference/)() | Returns true if this list is a reference to a list style. |
-| [get_IsMultiLevel](./get_ismultilevel/)() | Returns true when the list contains 9 levels; false when 1 level. |
+| [get_IsListStyleDefinition](./get_isliststyledefinition/)() | Returns **true** if this list is a definition of a list style. |
+| [get_IsListStyleReference](./get_isliststylereference/)() | Returns **true** if this list is a reference to a list style. |
+| [get_IsMultiLevel](./get_ismultilevel/)() | Returns **true** when the list contains 9 levels; **false** when 1 level. |
 | [get_IsRestartAtEachSection](./get_isrestartateachsection/)() | Specifies whether list should be restarted at each section. Default value is **false**. |
 | [get_ListId](./get_listid/)() const | Gets the unique identifier of the list. |
 | [get_ListLevels](./get_listlevels/)() | Gets the collection of list levels for this list. |
 | [get_Style](./get_style/)() | Gets the list style that this list references or defines. |
 | [GetHashCode](./gethashcode/)() const override | Calculates hash code for this list object. |
+| [GetType](./gettype/)() const override |  |
 | [HasSameTemplate](./hassametemplate/)(const System::SharedPtr\<Aspose::Words::Lists::List\>\&) | Returns true if the current list and the given list are created from the same template. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_IsRestartAtEachSection](./set_isrestartateachsection/)(bool) | Setter for [Aspose::Words::Lists::List::get_IsRestartAtEachSection](./get_isrestartateachsection/). |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

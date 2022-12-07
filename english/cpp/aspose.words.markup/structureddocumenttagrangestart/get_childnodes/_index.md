@@ -3,7 +3,7 @@ title: get_ChildNodes
 second_title: Aspose.Words for C++ API Reference
 description: Gets all nodes between this range start node and the range end node.
 type: docs
-weight: 40
+weight: 53
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_childnodes/
 ---
 ## StructuredDocumentTagRangeStart::get_ChildNodes method

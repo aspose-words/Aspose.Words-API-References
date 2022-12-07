@@ -3,7 +3,7 @@ title: get_RightPadding
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the amount of space (in points) to add to the right of the contents of table cells.
 type: docs
-weight: 92
+weight: 105
 url: /cpp/aspose.words/conditionalstyle/get_rightpadding/
 ---
 ## ConditionalStyle::get_RightPadding method

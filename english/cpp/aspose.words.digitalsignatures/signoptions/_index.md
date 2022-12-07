@@ -1,7 +1,7 @@
 ---
 title: SignOptions
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify options for document signing.
+description: Allows to specify options for document signing. To learn more, visit the  documentation article.
 type: docs
 weight: 53
 url: /cpp/aspose.words.digitalsignatures/signoptions/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.digitalsignatures/signoptions/
 ## SignOptions class
 
 
-Allows to specify options for document signing.
+Allows to specify options for document signing. To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/cpp/working-with-digital-signatures/) documentation article.
 
 ```cpp
 class SignOptions : public System::Object
@@ -25,6 +25,8 @@ class SignOptions : public System::Object
 | [get_SignatureLineId](./get_signaturelineid/)() const | Signature line identifier. Default value is **Empty (all zeroes) Guid**. |
 | [get_SignatureLineImage](./get_signaturelineimage/)() const | The image that will be shown in associated [SignatureLine](../../aspose.words.drawing/signatureline/). Default value is **null**. |
 | [get_SignTime](./get_signtime/)() const | The date of signing. Default value is **current time** (**Now**). |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Comments](./set_comments/)(const System::String\&) | Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_Comments](./get_comments/). |
 | [set_DecryptionPassword](./set_decryptionpassword/)(const System::String\&) | Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_DecryptionPassword](./get_decryptionpassword/). |
 | [set_ProviderId](./set_providerid/)(System::Guid) | Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_ProviderId](./get_providerid/). |
@@ -32,6 +34,7 @@ class SignOptions : public System::Object
 | [set_SignatureLineImage](./set_signaturelineimage/)(const System::ArrayPtr\<uint8_t\>\&) | Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_SignatureLineImage](./get_signaturelineimage/). |
 | [set_SignTime](./set_signtime/)(System::DateTime) | Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_SignTime](./get_signtime/). |
 | [SignOptions](./signoptions/)() |  |
+| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words::DigitalSignatures](../)

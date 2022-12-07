@@ -1,7 +1,7 @@
 ---
 title: Table
 second_title: Aspose.Words for C++ API Reference
-description: Represents a table in a Word document.
+description: Represents a table in a Word document. To learn more, visit the  documentation article.
 type: docs
 weight: 92
 url: /cpp/aspose.words.tables/table/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.tables/table/
 ## Table class
 
 
-Represents a table in a Word document.
+Represents a table in a Word document. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article.
 
 ```cpp
 class Table : public Aspose::Words::CompositeNode
@@ -26,7 +26,7 @@ class Table : public Aspose::Words::CompositeNode
 | [ClearShading](./clearshading/)() | Removes all shading on the table. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
 | [ConvertToHorizontallyMergedCells](./converttohorizontallymergedcells/)() | Converts cells horizontally merged by width to cells merged by [HorizontalMerge](../cellformat/get_horizontalmerge/). |
-| [EnsureMinimum](./ensureminimum/)() | If the table has no rows, creates and appends one **Row**. |
+| [EnsureMinimum](./ensureminimum/)() | If the table has no rows, creates and appends one [Row](../row/). |
 | [get_AbsoluteHorizontalDistance](./get_absolutehorizontaldistance/)() | Gets or sets absolute horizontal floating table position specified by the table properties, in points. Default value is 0. |
 | [get_AbsoluteVerticalDistance](./get_absoluteverticaldistance/)() | Gets or sets absolute vertical floating table position specified by the table properties, in points. Default value is 0. |
 | [get_Alignment](./get_alignment/)() | Specifies how an inline table is aligned in the document. |
@@ -46,20 +46,20 @@ class Table : public Aspose::Words::CompositeNode
 | [get_DistanceTop](./get_distancetop/)() | Gets distance between table top and the surrounding text, in points. |
 | virtual [get_Document](../../aspose.words/node/get_document/)() const | Gets the document to which this node belongs. |
 | [get_FirstChild](../../aspose.words/compositenode/get_firstchild/)() const | Gets the first child of the node. |
-| [get_FirstRow](./get_firstrow/)() | Returns the first **Row** node in the table. |
-| [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns true if this node has any child nodes. |
+| [get_FirstRow](./get_firstrow/)() | Returns the first [Row](../row/) node in the table. |
+| [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
 | [get_HorizontalAnchor](./get_horizontalanchor/)() | Gets the base object from which the horizontal positioning of floating table should be calculated. Default value is [Column](../../aspose.words.drawing/relativehorizontalposition/). |
-| [get_IsComposite](../../aspose.words/compositenode/get_iscomposite/)() override | Returns true as this node can have child nodes. |
+| [get_IsComposite](../../aspose.words/compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
 | [get_LastChild](../../aspose.words/compositenode/get_lastchild/)() const | Gets the last child of the node. |
-| [get_LastRow](./get_lastrow/)() | Returns the last **Row** node in the table. |
+| [get_LastRow](./get_lastrow/)() | Returns the last [Row](../row/) node in the table. |
 | [get_LeftIndent](./get_leftindent/)() | Gets or sets the value that represents the left indent of the table. |
 | [get_LeftPadding](./get_leftpadding/)() | Gets or sets the amount of space (in points) to add to the left of the contents of cells. |
 | [get_NextSibling](../../aspose.words/node/get_nextsibling/)() | Gets the node immediately following this node. |
-| [get_NodeType](./get_nodetype/)() const override | Returns **NodeType.Table**. |
+| [get_NodeType](./get_nodetype/)() const override | Returns [Table](../../aspose.words/nodetype/). |
 | [get_ParentNode](../../aspose.words/node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_PreferredWidth](./get_preferredwidth/)() | Gets or sets the table preferred width. |
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
-| [get_Range](../../aspose.words/node/get_range/)() | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [get_Range](../../aspose.words/node/get_range/)() | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [get_RelativeHorizontalAlignment](./get_relativehorizontalalignment/)() | Gets or sets floating table relative horizontal alignment. |
 | [get_RelativeVerticalAlignment](./get_relativeverticalalignment/)() | Gets or sets floating table relative vertical alignment. |
 | [get_RightPadding](./get_rightpadding/)() | Gets or sets the amount of space (in points) to add to the right of the contents of cells. |
@@ -78,9 +78,11 @@ class Table : public Aspose::Words::CompositeNode
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(Aspose::Words::NodeType, bool) | Returns a live collection of child nodes that match the specified type. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() override | Provides support for the for each style iteration over the child nodes of this node. |
 | [GetText](../../aspose.words/compositenode/gettext/)() override | Gets the text of this node and of all its children. |
+| [GetType](./gettype/)() const override |  |
 | [IndexOf](../../aspose.words/compositenode/indexof/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returns the index of the specified child node in the child node array. |
 | [InsertAfter](../../aspose.words/compositenode/insertafter/)(const System::SharedPtr\<Aspose::Words::Node\>\&, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts the specified node immediately after the specified reference node. |
 | [InsertBefore](../../aspose.words/compositenode/insertbefore/)(const System::SharedPtr\<Aspose::Words::Node\>\&, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts the specified node immediately before the specified reference node. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets next node according to the pre-order tree traversal algorithm. |
 | static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
 | [PrependChild](../../aspose.words/compositenode/prependchild/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Adds the specified node to the beginning of the list of child nodes for this node. |
@@ -120,17 +122,18 @@ class Table : public Aspose::Words::CompositeNode
 | [SetBorders](./setborders/)(Aspose::Words::LineStyle, double, System::Drawing::Color) | Sets all table borders to the specified line style, width and color. |
 | [SetShading](./setshading/)(Aspose::Words::TextureIndex, System::Drawing::Color, System::Drawing::Color) | Sets shading to the specified values on whole table. |
 | [SetTemplateWeakPtr](../../aspose.words/compositenode/settemplateweakptr/)(uint32_t) override |  |
-| [Table](./table/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&) | Initializes a new instance of the **Table** class. |
+| [Table](./table/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&) | Initializes a new instance of the [Table](./) class. |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+| static [Type](./type/)() |  |
 ## Remarks
 
 
-**Table** is a block-level node and can be a child of classes derived from **Story** or **InlineStory**.
+[Table](./) is a block-level node and can be a child of classes derived from [Story](../../aspose.words/story/) or [InlineStory](../../aspose.words/inlinestory/).
 
-**Table** can contain one or more **Row** nodes.
+[Table](./) can contain one or more [Row](../row/) nodes.
 
-A minimal valid table needs to have at least one **Row**.
+A minimal valid table needs to have at least one [Row](../row/).
 
 ## Examples
 

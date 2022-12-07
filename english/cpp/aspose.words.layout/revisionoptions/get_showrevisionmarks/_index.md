@@ -1,15 +1,15 @@
 ---
 title: get_ShowRevisionMarks
 second_title: Aspose.Words for C++ API Reference
-description: Allow to specify whether revision text should be marked with special formatting markup. Default value is True.
+description: Allow to specify whether revision text should be marked with special formatting markup. Default value is true.
 type: docs
-weight: 235
+weight: 248
 url: /cpp/aspose.words.layout/revisionoptions/get_showrevisionmarks/
 ---
 ## RevisionOptions::get_ShowRevisionMarks method
 
 
-Allow to specify whether revision text should be marked with special formatting markup. Default value is True.
+Allow to specify whether revision text should be marked with special formatting markup. Default value is **true**.
 
 ```cpp
 bool Aspose::Words::Layout::RevisionOptions::get_ShowRevisionMarks() const

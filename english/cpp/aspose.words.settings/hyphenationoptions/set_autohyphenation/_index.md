@@ -3,7 +3,7 @@ title: set_AutoHyphenation
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Settings::HyphenationOptions::get_AutoHyphenation.'
 type: docs
-weight: 66
+weight: 105
 url: /cpp/aspose.words.settings/hyphenationoptions/set_autohyphenation/
 ---
 ## HyphenationOptions::set_AutoHyphenation method

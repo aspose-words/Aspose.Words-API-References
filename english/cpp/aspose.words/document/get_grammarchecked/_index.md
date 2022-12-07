@@ -3,7 +3,7 @@ title: get_GrammarChecked
 second_title: Aspose.Words for C++ API Reference
 description: Returns true if the document has been checked for grammar.
 type: docs
-weight: 352
+weight: 365
 url: /cpp/aspose.words/document/get_grammarchecked/
 ---
 ## Document::get_GrammarChecked method

@@ -3,7 +3,7 @@ title: set_VbaProject
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Document::get_VbaProject.'
 type: docs
-weight: 1080
+weight: 1119
 url: /cpp/aspose.words/document/set_vbaproject/
 ---
 ## Document::set_VbaProject method

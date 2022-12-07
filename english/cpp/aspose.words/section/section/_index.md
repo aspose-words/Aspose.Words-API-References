@@ -3,7 +3,7 @@ title: Section
 second_title: Aspose.Words for C++ API Reference
 description: Initializes a new instance of the Section class.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words/section/section/
 ---
 ## Section::Section constructor
@@ -22,9 +22,9 @@ Aspose::Words::Section::Section(const System::SharedPtr<Aspose::Words::DocumentB
 ## Remarks
 
 
-When the section is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+When the section is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is **null**.
 
-To include [Section](../) into a document use [Document.InsertAfter](../../compositenode/insertafter/), [Document.InsertBefore](../../compositenode/insertbefore/) or Sections.Add and Section.Insert methods.
+To include [Section](../) into a document use [InsertAfter()](../) and [InsertBefore()](../) methods of the [Document](../../document/) OR [Add()](../) and [Insert()](../) methods of the [Sections](../../document/get_sections/) property.
 
 ## Examples
 

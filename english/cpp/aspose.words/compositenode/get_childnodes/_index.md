@@ -3,7 +3,7 @@ title: get_ChildNodes
 second_title: Aspose.Words for C++ API Reference
 description: Gets all immediate child nodes of this node.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words/compositenode/get_childnodes/
 ---
 ## CompositeNode::get_ChildNodes method
@@ -18,7 +18,7 @@ System::SharedPtr<Aspose::Words::NodeCollection> Aspose::Words::CompositeNode::g
 ## Remarks
 
 
-Note, [ChildNodes](./) is equivalent to calling **GetChildNodes([NodeType.Any](../../nodetype/), false)** and creates and returns a new collection every time it is accessed.
+Note, [ChildNodes](./) is equivalent to calling [GetChildNodes()](../getchildnodes/) with arguments ([Any](../../nodetype/), **false**) and creates and returns a new collection every time it is accessed.
 
 If there are no child nodes, this property returns an empty collection.
 

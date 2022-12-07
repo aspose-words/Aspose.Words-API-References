@@ -3,7 +3,7 @@ title: get_TrueText
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the text displayed if the comparison expression is true.
 type: docs
-weight: 105
+weight: 118
 url: /cpp/aspose.words.fields/fieldif/get_truetext/
 ---
 ## FieldIf::get_TrueText method

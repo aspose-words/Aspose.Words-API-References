@@ -3,7 +3,7 @@ title: get_HideInWebLayout
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets whether to hide tab leader and page numbers in Web layout view.
 type: docs
-weight: 118
+weight: 131
 url: /cpp/aspose.words.fields/fieldtoc/get_hideinweblayout/
 ---
 ## FieldToc::get_HideInWebLayout method

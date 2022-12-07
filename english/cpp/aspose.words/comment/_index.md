@@ -1,7 +1,7 @@
 ---
 title: Comment
 second_title: Aspose.Words for C++ API Reference
-description: Represents a container for text of a comment.
+description: Represents a container for text of a comment. To learn more, visit the  documentation article.
 type: docs
 weight: 131
 url: /cpp/aspose.words/comment/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/comment/
 ## Comment class
 
 
-Represents a container for text of a comment.
+Represents a container for text of a comment. To learn more, visit the [Working with Comments](https://docs.aspose.com/words/cpp/working-with-comments/) documentation article.
 
 ```cpp
 class Comment : public Aspose::Words::InlineStory,
@@ -25,10 +25,10 @@ class Comment : public Aspose::Words::InlineStory,
 | [AddReply](./addreply/)(const System::String\&, const System::String\&, System::DateTime, const System::String\&) | Adds a reply to this comment. |
 | [AppendChild](../compositenode/appendchild/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Adds the specified node to the end of the list of child nodes for this node. |
 | [Clone](../node/clone/)(bool) | Creates a duplicate of the node. |
-| [Comment](./comment/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&) | Initializes a new instance of the **Comment** class. |
-| [Comment](./comment/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::String\&, const System::String\&, System::DateTime) | Initializes a new instance of the **Comment** class. |
+| [Comment](./comment/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&) | Initializes a new instance of the [Comment](./) class. |
+| [Comment](./comment/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::String\&, const System::String\&, System::DateTime) | Initializes a new instance of the [Comment](./) class. |
 | [EnsureMinimum](../inlinestory/ensureminimum/)() | If the last child is not a paragraph, creates and appends one empty paragraph. |
-| [get_Ancestor](./get_ancestor/)() | Returns the parent [Comment](./) object. Returns null for top-level comments. |
+| [get_Ancestor](./get_ancestor/)() | Returns the parent [Comment](./) object. Returns **null** for top-level comments. |
 | [get_Author](./get_author/)() const | Returns or sets the author name for a comment. |
 | [get_ChildNodes](../compositenode/get_childnodes/)() | Gets all immediate child nodes of this node. |
 | [get_Count](../compositenode/get_count/)() | Gets the number of immediate children of this node. |
@@ -39,10 +39,10 @@ class Comment : public Aspose::Words::InlineStory,
 | [get_FirstChild](../compositenode/get_firstchild/)() const | Gets the first child of the node. |
 | [get_FirstParagraph](../inlinestory/get_firstparagraph/)() | Gets the first paragraph in the story. |
 | [get_Font](../inlinestory/get_font/)() | Provides access to the font formatting of the anchor character of this object. |
-| [get_HasChildNodes](../compositenode/get_haschildnodes/)() | Returns true if this node has any child nodes. |
+| [get_HasChildNodes](../compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
 | [get_Id](./get_id/)() const | Gets the comment identifier. |
 | [get_Initial](./get_initial/)() const | Returns or sets the initials of the user associated with a specific comment. |
-| [get_IsComposite](../compositenode/get_iscomposite/)() override | Returns true as this node can have child nodes. |
+| [get_IsComposite](../compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
 | [get_IsDeleteRevision](../inlinestory/get_isdeleterevision/)() | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
 | [get_IsInsertRevision](../inlinestory/get_isinsertrevision/)() | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
 | [get_IsMoveFromRevision](../inlinestory/get_ismovefromrevision/)() | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
@@ -50,14 +50,14 @@ class Comment : public Aspose::Words::InlineStory,
 | [get_LastChild](../compositenode/get_lastchild/)() const | Gets the last child of the node. |
 | [get_LastParagraph](../inlinestory/get_lastparagraph/)() | Gets the last paragraph in the story. |
 | [get_NextSibling](../node/get_nextsibling/)() | Gets the node immediately following this node. |
-| [get_NodeType](./get_nodetype/)() const override | Returns **NodeType.Comment**. |
+| [get_NodeType](./get_nodetype/)() const override | Returns [Comment](../nodetype/). |
 | [get_Paragraphs](../inlinestory/get_paragraphs/)() | Gets a collection of paragraphs that are immediate children of the story. |
 | [get_ParentNode](../node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_ParentParagraph](../inlinestory/get_parentparagraph/)() | Retrieves the parent [Paragraph](../paragraph/) of this node. |
 | [get_PreviousSibling](../node/get_previoussibling/)() | Gets the node immediately preceding this node. |
-| [get_Range](../node/get_range/)() | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [get_Range](../node/get_range/)() | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node. |
 | [get_Replies](./get_replies/)() | Returns a collection of [Comment](./) objects that are immediate children of the specified comment. |
-| [get_StoryType](./get_storytype/)() override | Returns **StoryType.Comments**. |
+| [get_StoryType](./get_storytype/)() override | Returns [Comments](../storytype/). |
 | [get_Tables](../inlinestory/get_tables/)() | Gets a collection of tables that are immediate children of the story. |
 | [GetAncestor](../node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../nodetype/). |
 | [GetAncestorOf](../node/getancestorof/)() |  |
@@ -65,9 +65,11 @@ class Comment : public Aspose::Words::InlineStory,
 | [GetChildNodes](../compositenode/getchildnodes/)(Aspose::Words::NodeType, bool) | Returns a live collection of child nodes that match the specified type. |
 | [GetEnumerator](../compositenode/getenumerator/)() override | Provides support for the for each style iteration over the child nodes of this node. |
 | [GetText](../compositenode/gettext/)() override | Gets the text of this node and of all its children. |
+| [GetType](./gettype/)() const override |  |
 | [IndexOf](../compositenode/indexof/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returns the index of the specified child node in the child node array. |
 | [InsertAfter](../compositenode/insertafter/)(const System::SharedPtr\<Aspose::Words::Node\>\&, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts the specified node immediately after the specified reference node. |
 | [InsertBefore](../compositenode/insertbefore/)(const System::SharedPtr\<Aspose::Words::Node\>\&, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts the specified node immediately before the specified reference node. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [NextPreOrder](../node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets next node according to the pre-order tree traversal algorithm. |
 | static [NodeTypeToString](../node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
 | [PrependChild](../compositenode/prependchild/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Adds the specified node to the beginning of the list of child nodes for this node. |
@@ -89,6 +91,7 @@ class Comment : public Aspose::Words::InlineStory,
 | [SetText](./settext/)(const System::String\&) | This is a convenience method that allows to easily set text of the comment. |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

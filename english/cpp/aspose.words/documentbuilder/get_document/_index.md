@@ -3,7 +3,7 @@ title: get_Document
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the Document object that this object is attached to.
 type: docs
-weight: 183
+weight: 196
 url: /cpp/aspose.words/documentbuilder/get_document/
 ---
 ## DocumentBuilder::get_Document method

@@ -1,7 +1,7 @@
 ---
 title: ChartDataLabelCollection
 second_title: Aspose.Words for C++ API Reference
-description: Represents a collection of ChartDataLabel.
+description: Represents a collection of ChartDataLabel. To learn more, visit the  documentation article.
 type: docs
 weight: 79
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/
 ## ChartDataLabelCollection class
 
 
-Represents a collection of [ChartDataLabel](../chartdatalabel/).
+Represents a collection of [ChartDataLabel](../chartdatalabel/). To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
 class ChartDataLabelCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Drawing::Charts::ChartDataLabel>>,
@@ -30,10 +30,12 @@ class ChartDataLabelCollection : public System::Collections::Generic::IEnumerabl
 | [get_ShowLeaderLines](./get_showleaderlines/)() | Allows to specify whether data label leader lines need be shown for the data labels of the entire series. Default value is **false**. |
 | [get_ShowLegendKey](./get_showlegendkey/)() | Allows to specify whether legend key is to be displayed for the data labels of the entire series. Default value is **false**. |
 | [get_ShowPercentage](./get_showpercentage/)() | Allows to specify whether percentage value is to be displayed for the data labels of the entire series. Default value is **false**. Applies only to Pie charts. |
-| [get_ShowSeriesName](./get_showseriesname/)() | Returns or sets a Boolean to indicate the series name display behavior for the data labels of the entire series. **True** to show the series name. **False** to hide. By default **false**. |
+| [get_ShowSeriesName](./get_showseriesname/)() | Returns or sets a Boolean to indicate the series name display behavior for the data labels of the entire series. **true** to show the series name; **false** to hide. By default **false**. |
 | [get_ShowValue](./get_showvalue/)() | Allows to specify whether values are to be displayed in the data labels of the entire series. Default value is **false**. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Returns [ChartDataLabel](../chartdatalabel/) for the specified index. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Separator](./set_separator/)(const System::String\&) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_Separator](./get_separator/). |
 | [set_ShowBubbleSize](./set_showbubblesize/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowBubbleSize](./get_showbubblesize/). |
 | [set_ShowCategoryName](./set_showcategoryname/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowCategoryName](./get_showcategoryname/). |
@@ -43,6 +45,7 @@ class ChartDataLabelCollection : public System::Collections::Generic::IEnumerabl
 | [set_ShowPercentage](./set_showpercentage/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowPercentage](./get_showpercentage/). |
 | [set_ShowSeriesName](./set_showseriesname/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowSeriesName](./get_showseriesname/). |
 | [set_ShowValue](./set_showvalue/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowValue](./get_showvalue/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

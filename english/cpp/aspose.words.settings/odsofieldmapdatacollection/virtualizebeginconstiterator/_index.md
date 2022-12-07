@@ -3,7 +3,7 @@ title: virtualizeBeginConstIterator
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 157
+weight: 196
 url: /cpp/aspose.words.settings/odsofieldmapdatacollection/virtualizebeginconstiterator/
 ---
 ## OdsoFieldMapDataCollection::virtualizeBeginConstIterator method

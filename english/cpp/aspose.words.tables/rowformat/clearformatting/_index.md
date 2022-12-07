@@ -3,7 +3,7 @@ title: ClearFormatting
 second_title: Aspose.Words for C++ API Reference
 description: Resets to default row formatting.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.tables/rowformat/clearformatting/
 ---
 ## RowFormat::ClearFormatting method

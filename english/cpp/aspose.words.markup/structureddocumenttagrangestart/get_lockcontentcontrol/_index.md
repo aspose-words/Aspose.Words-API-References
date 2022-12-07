@@ -3,13 +3,13 @@ title: get_LockContentControl
 second_title: Aspose.Words for C++ API Reference
 description: When set to true, this property will prohibit a user from deleting this structured document tag.
 type: docs
-weight: 118
+weight: 131
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_lockcontentcontrol/
 ---
 ## StructuredDocumentTagRangeStart::get_LockContentControl method
 
 
-When set to true, this property will prohibit a user from deleting this structured document tag.
+When set to **true**, this property will prohibit a user from deleting this structured document tag.
 
 ```cpp
 bool Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_LockContentControl() override

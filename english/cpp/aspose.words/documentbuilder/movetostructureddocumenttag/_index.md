@@ -3,7 +3,7 @@ title: MoveToStructuredDocumentTag
 second_title: Aspose.Words for C++ API Reference
 description: Moves the cursor to the structured document tag.
 type: docs
-weight: 742
+weight: 781
 url: /cpp/aspose.words/documentbuilder/movetostructureddocumenttag/
 ---
 ## DocumentBuilder::MoveToStructuredDocumentTag(const System::SharedPtr\<Aspose::Words::Markup::StructuredDocumentTag\>\&, int32_t) method
@@ -44,9 +44,9 @@ void Aspose::Words::DocumentBuilder::MoveToStructuredDocumentTag(int32_t structu
 ## Remarks
 
 
-The navigation is performed inside the current story of the current section. That is, if you moved the cursor to the primary header of the first section, then structuredDocumentTagIndex specified the index of the structured document tag inside that header of that section.
+The navigation is performed inside the current story of the current section. That is, if you moved the cursor to the primary header of the first section, then *structuredDocumentTagIndex* specified the index of the structured document tag inside that header of that section.
 
-When structuredDocumentTagIndex is greater than or equal to 0, it specifies an index from the beginning of the section with 0 being the first structured document tag. When structuredDocumentTagIndex is less than 0, it specified an index from the end of the section with -1 being the last structured document tag.
+When *structuredDocumentTagIndex* is greater than or equal to 0, it specifies an index from the beginning of the section with 0 being the first structured document tag. When *structuredDocumentTagIndex* is less than 0, it specified an index from the end of the section with -1 being the last structured document tag.
 
 ## See Also
 

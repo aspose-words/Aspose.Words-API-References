@@ -3,7 +3,7 @@ title: InsertChart
 second_title: Aspose.Words for C++ API Reference
 description: Inserts an chart object into the document and scales it to the specified size.
 type: docs
-weight: 352
+weight: 378
 url: /cpp/aspose.words/documentbuilder/insertchart/
 ---
 ## DocumentBuilder::InsertChart(Aspose::Words::Drawing::Charts::ChartType, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) method

@@ -1,7 +1,7 @@
 ---
 title: ConvertUtil
 second_title: Aspose.Words for C++ API Reference
-description: Provides helper functions to convert between various measurement units.
+description: Provides helper functions to convert between various measurement units. To learn more, visit the  documentation article.
 type: docs
 weight: 235
 url: /cpp/aspose.words/convertutil/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/convertutil/
 ## ConvertUtil class
 
 
-Provides helper functions to convert between various measurement units.
+Provides helper functions to convert between various measurement units. To learn more, visit the [Convert Between Measurement Units](https://docs.aspose.com/words/cpp/convert-between-measurement-units/) documentation article.
 
 ```cpp
 class ConvertUtil

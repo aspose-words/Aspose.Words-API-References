@@ -1,7 +1,7 @@
 ---
 title: RevisionGroup
 second_title: Aspose.Words for C++ API Reference
-description: Represents a group of sequential Revision objects.
+description: Represents a group of sequential Revision objects. To learn more, visit the  documentation article.
 type: docs
 weight: 690
 url: /cpp/aspose.words/revisiongroup/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/revisiongroup/
 ## RevisionGroup class
 
 
-Represents a group of sequential [Revision](../revision/) objects.
+Represents a group of sequential [Revision](../revision/) objects. To learn more, visit the [Track Changes in a Document](https://docs.aspose.com/words/cpp/track-changes-in-a-document/) documentation article.
 
 ```cpp
 class RevisionGroup : public System::Object
@@ -22,6 +22,9 @@ class RevisionGroup : public System::Object
 | [get_Author](./get_author/)() | Gets the author of this revision group. |
 | [get_RevisionType](./get_revisiontype/)() | Gets the type of revisions included in this group. |
 | [get_Text](./get_text/)() | Returns inserted/deleted/moved text or description of format change. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

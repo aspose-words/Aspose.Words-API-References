@@ -1,7 +1,7 @@
 ---
 title: RevisionGroupCollection
 second_title: Aspose.Words for C++ API Reference
-description: A collection of RevisionGroup objects that represent revision groups in the document.
+description: A collection of RevisionGroup objects that represent revision groups in the document. To learn more, visit the  documentation article.
 type: docs
 weight: 703
 url: /cpp/aspose.words/revisiongroupcollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/revisiongroupcollection/
 ## RevisionGroupCollection class
 
 
-A collection of [RevisionGroup](../revisiongroup/) objects that represent revision groups in the document.
+A collection of [RevisionGroup](../revisiongroup/) objects that represent revision groups in the document. To learn more, visit the [Track Changes in a Document](https://docs.aspose.com/words/cpp/track-changes-in-a-document/) documentation article.
 
 ```cpp
 class RevisionGroupCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::RevisionGroup>>
@@ -27,7 +27,10 @@ class RevisionGroupCollection : public System::Collections::Generic::IEnumerable
 | [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Returns the number of revision groups in the collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Returns a revision group at the specified index. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 | [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
 | [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
 | [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |

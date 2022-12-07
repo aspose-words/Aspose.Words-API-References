@@ -1,7 +1,7 @@
 ---
 title: ListFormat
 second_title: Aspose.Words for C++ API Reference
-description: Allows to control what list formatting is applied to a paragraph.
+description: Allows to control what list formatting is applied to a paragraph. To learn more, visit the  documentation article.
 type: docs
 weight: 27
 url: /cpp/aspose.words.lists/listformat/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.lists/listformat/
 ## ListFormat class
 
 
-Allows to control what list formatting is applied to a paragraph.
+Allows to control what list formatting is applied to a paragraph. To learn more, visit the [Working with Lists](https://docs.aspose.com/words/cpp/working-with-lists/) documentation article.
 
 ```cpp
 class ListFormat : public System::Object
@@ -25,11 +25,14 @@ class ListFormat : public System::Object
 | [get_List](./get_list/)() | Gets or sets the list this paragraph is a member of. |
 | [get_ListLevel](./get_listlevel/)() | Returns the list level formatting plus any formatting overrides applied to the current paragraph. |
 | [get_ListLevelNumber](./get_listlevelnumber/)() | Gets or sets the list level number (0 to 8) for the paragraph. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [ListIndent](./listindent/)() | Increases the list level of the current paragraph by one level. |
 | [ListOutdent](./listoutdent/)() | Decreases the list level of the current paragraph by one level. |
 | [RemoveNumbers](./removenumbers/)() | Removes numbers or bullets from the current paragraph and sets list level to zero. |
 | [set_List](./set_list/)(const System::SharedPtr\<Aspose::Words::Lists::List\>\&) | Setter for [Aspose::Words::Lists::ListFormat::get_List](./get_list/). |
 | [set_ListLevelNumber](./set_listlevelnumber/)(int32_t) | Setter for [Aspose::Words::Lists::ListFormat::get_ListLevelNumber](./get_listlevelnumber/). |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

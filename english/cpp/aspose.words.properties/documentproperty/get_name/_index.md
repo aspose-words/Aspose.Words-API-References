@@ -3,7 +3,7 @@ title: get_Name
 second_title: Aspose.Words for C++ API Reference
 description: Returns the name of the property.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/aspose.words.properties/documentproperty/get_name/
 ---
 ## DocumentProperty::get_Name method
@@ -18,7 +18,7 @@ System::String Aspose::Words::Properties::DocumentProperty::get_Name() const
 ## Remarks
 
 
-Cannot be null and cannot be an empty string.
+Cannot be **null** and cannot be an empty string.
 
 ## Examples
 

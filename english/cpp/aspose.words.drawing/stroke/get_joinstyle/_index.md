@@ -3,7 +3,7 @@ title: get_JoinStyle
 second_title: Aspose.Words for C++ API Reference
 description: Defines the join style of a polyline.
 type: docs
-weight: 131
+weight: 144
 url: /cpp/aspose.words.drawing/stroke/get_joinstyle/
 ---
 ## Stroke::get_JoinStyle method

@@ -3,7 +3,7 @@ title: get_Password
 second_title: Aspose.Words for C++ API Reference
 description: Gets/sets a password to encrypt document using RC4 encryption method.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/aspose.words.saving/docsaveoptions/get_password/
 ---
 ## DocSaveOptions::get_Password method
@@ -18,7 +18,7 @@ System::String Aspose::Words::Saving::DocSaveOptions::get_Password() const
 ## Remarks
 
 
-In order to save document without encryption this property should be null or empty string.
+In order to save document without encryption this property should be **null** or empty string.
 
 ## Examples
 

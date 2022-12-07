@@ -3,7 +3,7 @@ title: get_ColumnStripe
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets a number of columns to include in the banding when the style specifies odd/even columns banding.
 type: docs
-weight: 79
+weight: 92
 url: /cpp/aspose.words/tablestyle/get_columnstripe/
 ---
 ## TableStyle::get_ColumnStripe method

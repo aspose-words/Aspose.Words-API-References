@@ -3,7 +3,7 @@ title: set_IsLayoutInCell
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Drawing::ShapeBase::get_IsLayoutInCell.'
 type: docs
-weight: 976
+weight: 1015
 url: /cpp/aspose.words.drawing/shapebase/set_islayoutincell/
 ---
 ## ShapeBase::set_IsLayoutInCell method

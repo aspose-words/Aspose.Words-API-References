@@ -1,7 +1,7 @@
 ---
 title: EndnoteOptions
 second_title: Aspose.Words for C++ API Reference
-description: Represents the endnote numbering options for a document or section.
+description: Represents the endnote numbering options for a document or section. To learn more, visit the  documentation article.
 type: docs
 weight: 1
 url: /cpp/aspose.words.notes/endnoteoptions/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.notes/endnoteoptions/
 ## EndnoteOptions class
 
 
-Represents the endnote numbering options for a document or section.
+Represents the endnote numbering options for a document or section. To learn more, visit the [Working with Footnote and Endnote](https://docs.aspose.com/words/cpp/working-with-footnote-and-endnote/) documentation article.
 
 ```cpp
 class EndnoteOptions : public Aspose::Words::Notes::IFootnoteOptions
@@ -23,10 +23,13 @@ class EndnoteOptions : public Aspose::Words::Notes::IFootnoteOptions
 | [get_Position](./get_position/)() | Specifies the endnotes position. |
 | [get_RestartRule](./get_restartrule/)() override | Determines when automatic numbering restarts. |
 | [get_StartNumber](./get_startnumber/)() override | Specifies the starting number or character for the first automatically numbered endnotes. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_NumberStyle](./set_numberstyle/)(Aspose::Words::NumberStyle) override | Setter for [Aspose::Words::Notes::EndnoteOptions::get_NumberStyle](./get_numberstyle/). |
 | [set_Position](./set_position/)(Aspose::Words::Notes::EndnotePosition) | Setter for [Aspose::Words::Notes::EndnoteOptions::get_Position](./get_position/). |
 | [set_RestartRule](./set_restartrule/)(Aspose::Words::Notes::FootnoteNumberingRule) override | Setter for [Aspose::Words::Notes::EndnoteOptions::get_RestartRule](./get_restartrule/). |
 | [set_StartNumber](./set_startnumber/)(int32_t) override | Setter for [Aspose::Words::Notes::EndnoteOptions::get_StartNumber](./get_startnumber/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

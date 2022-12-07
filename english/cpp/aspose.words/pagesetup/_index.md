@@ -1,7 +1,7 @@
 ---
 title: PageSetup
 second_title: Aspose.Words for C++ API Reference
-description: Represents the page setup properties of a section.
+description: Represents the page setup properties of a section. To learn more, visit the  documentation article.
 type: docs
 weight: 586
 url: /cpp/aspose.words/pagesetup/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/pagesetup/
 ## PageSetup class
 
 
-Represents the page setup properties of a section.
+Represents the page setup properties of a section. To learn more, visit the [Working with Sections](https://docs.aspose.com/words/cpp/working-with-sections/) documentation article.
 
 ```cpp
 class PageSetup : public Aspose::Words::IBorderAttrSource
@@ -30,7 +30,7 @@ class PageSetup : public Aspose::Words::IBorderAttrSource
 | [get_BottomMargin](./get_bottommargin/)() | Returns or sets the distance (in points) between the bottom edge of the page and the bottom boundary of the body text. |
 | [get_ChapterPageSeparator](./get_chapterpageseparator/)() | Gets the separator character that appears between the chapter number and the page number. |
 | [get_CharactersPerLine](./get_charactersperline/)() | Gets or sets the number of characters per line in the document grid. |
-| [get_DifferentFirstPageHeaderFooter](./get_differentfirstpageheaderfooter/)() | **True** if a different header or footer is used on the first page. |
+| [get_DifferentFirstPageHeaderFooter](./get_differentfirstpageheaderfooter/)() | True if a different header or footer is used on the first page. |
 | [get_EndnoteOptions](./get_endnoteoptions/)() | Provides options that control numbering and positioning of endnotes in this section. |
 | [get_FirstPageTray](./get_firstpagetray/)() | Gets the paper tray (bin) to use for the first page of a section. The value is implementation (printer) specific. |
 | [get_FooterDistance](./get_footerdistance/)() | Returns or sets the distance (in points) between the footer and the bottom of the page. |
@@ -46,7 +46,7 @@ class PageSetup : public Aspose::Words::IBorderAttrSource
 | [get_LinesPerPage](./get_linesperpage/)() | Gets or sets the number of lines per page in the document grid. |
 | [get_LineStartingNumber](./get_linestartingnumber/)() | Gets or sets the starting line number. |
 | [get_MultiplePages](./get_multiplepages/)() const | For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet. |
-| [get_OddAndEvenPagesHeaderFooter](./get_oddandevenpagesheaderfooter/)() const | **True** if the document has different headers and footers for odd-numbered and even-numbered pages. |
+| [get_OddAndEvenPagesHeaderFooter](./get_oddandevenpagesheaderfooter/)() const | True if the document has different headers and footers for odd-numbered and even-numbered pages. |
 | [get_Orientation](./get_orientation/)() | Returns or sets the orientation of the page. |
 | [get_OtherPagesTray](./get_otherpagestray/)() | Gets the paper tray (bin) to be used for all but the first page of a section. The value is implementation (printer) specific. |
 | [get_PageHeight](./get_pageheight/)() | Returns or sets the height of the page in points. |
@@ -54,16 +54,18 @@ class PageSetup : public Aspose::Words::IBorderAttrSource
 | [get_PageStartingNumber](./get_pagestartingnumber/)() | Gets or sets the starting page number of the section. |
 | [get_PageWidth](./get_pagewidth/)() | Returns or sets the width of the page in points. |
 | [get_PaperSize](./get_papersize/)() | Returns or sets the paper size. |
-| [get_RestartPageNumbering](./get_restartpagenumbering/)() | **True** if page numbering restarts at the beginning of the section. |
+| [get_RestartPageNumbering](./get_restartpagenumbering/)() | True if page numbering restarts at the beginning of the section. |
 | [get_RightMargin](./get_rightmargin/)() | Returns or sets the distance (in points) between the right edge of the page and the right boundary of the body text. |
 | [get_RtlGutter](./get_rtlgutter/)() | Gets or sets whether Microsoft Word uses gutters for the section based on a right-to-left language or a left-to-right language. |
 | [get_SectionStart](./get_sectionstart/)() | Returns or sets the type of section break for the specified object. |
 | [get_SheetsPerBooklet](./get_sheetsperbooklet/)() const | Returns or sets the number of pages to be included in each booklet. |
-| [get_SuppressEndnotes](./get_suppressendnotes/)() | **True** if endnotes are printed at the end of the next section that doesn't suppress endnotes. Suppressed endnotes are printed before the endnotes in that section. |
+| [get_SuppressEndnotes](./get_suppressendnotes/)() | True if endnotes are printed at the end of the next section that doesn't suppress endnotes. Suppressed endnotes are printed before the endnotes in that section. |
 | [get_TextColumns](./get_textcolumns/)() | Returns a collection that represents the set of text columns. |
 | [get_TextOrientation](./get_textorientation/)() | Allows to specify [TextOrientation](./get_textorientation/) for the whole page. Default value is [Horizontal](../textorientation/) |
 | [get_TopMargin](./get_topmargin/)() | Returns or sets the distance (in points) between the top edge of the page and the top boundary of the body text. |
 | [get_VerticalAlignment](./get_verticalalignment/)() | Returns or sets the vertical alignment of text on each page in a document or section. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Bidi](./set_bidi/)(bool) | Setter for [Aspose::Words::PageSetup::get_Bidi](./get_bidi/). |
 | [set_BorderAlwaysInFront](./set_borderalwaysinfront/)(bool) | Setter for [Aspose::Words::PageSetup::get_BorderAlwaysInFront](./get_borderalwaysinfront/). |
 | [set_BorderAppliesTo](./set_borderappliesto/)(Aspose::Words::PageBorderAppliesTo) | Setter for [Aspose::Words::PageSetup::get_BorderAppliesTo](./get_borderappliesto/). |
@@ -104,10 +106,11 @@ class PageSetup : public Aspose::Words::IBorderAttrSource
 | [set_TextOrientation](./set_textorientation/)(Aspose::Words::TextOrientation) | Setter for [Aspose::Words::PageSetup::get_TextOrientation](./get_textorientation/). |
 | [set_TopMargin](./set_topmargin/)(double) | Setter for [Aspose::Words::PageSetup::get_TopMargin](./get_topmargin/). |
 | [set_VerticalAlignment](./set_verticalalignment/)(Aspose::Words::PageVerticalAlignment) | Setter for [Aspose::Words::PageSetup::get_VerticalAlignment](./get_verticalalignment/). |
+| static [Type](./type/)() |  |
 ## Remarks
 
 
-**PageSetup** object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties.
+[PageSetup](./) object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties.
 
 ## Examples
 

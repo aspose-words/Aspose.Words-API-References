@@ -3,7 +3,7 @@ title: get_ZoomType
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets a zoom value based on the size of the window.
 type: docs
-weight: 66
+weight: 79
 url: /cpp/aspose.words.settings/viewoptions/get_zoomtype/
 ---
 ## ViewOptions::get_ZoomType method

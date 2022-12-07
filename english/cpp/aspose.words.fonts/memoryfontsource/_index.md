@@ -1,7 +1,7 @@
 ---
 title: MemoryFontSource
 second_title: Aspose.Words for C++ API Reference
-description: Represents the single TrueType font file stored in memory.
+description: Represents the single TrueType font file stored in memory. To learn more, visit the  documentation article.
 type: docs
 weight: 170
 url: /cpp/aspose.words.fonts/memoryfontsource/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fonts/memoryfontsource/
 ## MemoryFontSource class
 
 
-Represents the single TrueType font file stored in memory.
+Represents the single TrueType font file stored in memory. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
 
 ```cpp
 class MemoryFontSource : public Aspose::Words::Fonts::FontSourceBase
@@ -25,10 +25,13 @@ class MemoryFontSource : public Aspose::Words::Fonts::FontSourceBase
 | [get_Type](./get_type/)() override | Returns the type of the font source. |
 | [get_WarningCallback](../fontsourcebase/get_warningcallback/)() const | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
 | [GetAvailableFonts](../fontsourcebase/getavailablefonts/)() | Returns list of fonts available via this source. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [MemoryFontSource](./memoryfontsource/)(const System::ArrayPtr\<uint8_t\>\&) | Ctor. |
 | [MemoryFontSource](./memoryfontsource/)(const System::ArrayPtr\<uint8_t\>\&, int32_t) | Ctor. |
 | [MemoryFontSource](./memoryfontsource/)(const System::ArrayPtr\<uint8_t\>\&, int32_t, const System::String\&) | Ctor. |
 | [set_WarningCallback](../fontsourcebase/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Setter for [Aspose::Words::Fonts::FontSourceBase::get_WarningCallback](../fontsourcebase/get_warningcallback/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

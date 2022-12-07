@@ -3,7 +3,7 @@ title: set_Alignment
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::ParagraphFormat::get_Alignment.'
 type: docs
-weight: 560
+weight: 599
 url: /cpp/aspose.words/paragraphformat/set_alignment/
 ---
 ## ParagraphFormat::set_Alignment method

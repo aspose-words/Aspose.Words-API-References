@@ -1,7 +1,7 @@
 ---
 title: NodeImporter
 second_title: Aspose.Words for C++ API Reference
-description: Allows to efficiently perform repeated import of nodes from one document to another.
+description: Allows to efficiently perform repeated import of nodes from one document to another. To learn more, visit the  documentation article.
 type: docs
 weight: 560
 url: /cpp/aspose.words/nodeimporter/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/nodeimporter/
 ## NodeImporter class
 
 
-Allows to efficiently perform repeated import of nodes from one document to another.
+Allows to efficiently perform repeated import of nodes from one document to another. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class NodeImporter : public System::Object
@@ -19,9 +19,12 @@ class NodeImporter : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
 | [ImportNode](./importnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&, bool) | Imports a node from one document into another. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [NodeImporter](./nodeimporter/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, Aspose::Words::ImportFormatMode) | Initializes a new instance of the [NodeImporter](./) class. |
 | [NodeImporter](./nodeimporter/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\&) | Initializes a new instance of the [NodeImporter](./) class. |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

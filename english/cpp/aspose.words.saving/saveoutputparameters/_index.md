@@ -1,7 +1,7 @@
 ---
 title: SaveOutputParameters
 second_title: Aspose.Words for C++ API Reference
-description: This object is returned to the caller after a document is saved and contains additional information that has been generated or calculated during the save operation. The caller can use or ignore this object.
+description: This object is returned to the caller after a document is saved and contains additional information that has been generated or calculated during the save operation. The caller can use or ignore this object. To learn more, visit the  documentation article.
 type: docs
 weight: 378
 url: /cpp/aspose.words.saving/saveoutputparameters/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/saveoutputparameters/
 ## SaveOutputParameters class
 
 
-This object is returned to the caller after a document is saved and contains additional information that has been generated or calculated during the save operation. The caller can use or ignore this object.
+This object is returned to the caller after a document is saved and contains additional information that has been generated or calculated during the save operation. The caller can use or ignore this object. To learn more, visit the [Save a Document](https://docs.aspose.com/words/cpp/save-a-document/) documentation article.
 
 ```cpp
 class SaveOutputParameters : public System::Object
@@ -20,6 +20,9 @@ class SaveOutputParameters : public System::Object
 | Method | Description |
 | --- | --- |
 | [get_ContentType](./get_contenttype/)() const | Returns the Content-Type string (Internet Media Type) that identifies the type of the saved document. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

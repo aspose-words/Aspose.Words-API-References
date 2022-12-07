@@ -3,7 +3,7 @@ title: EndRow
 second_title: Aspose.Words for C++ API Reference
 description: Ends a table row in the document.
 type: docs
-weight: 66
+weight: 79
 url: /cpp/aspose.words/documentbuilder/endrow/
 ---
 ## DocumentBuilder::EndRow method
@@ -22,7 +22,7 @@ The row node that was just finished.
 ## Remarks
 
 
-Call **EndRow** to end a table row. If you call [InsertCell](../insertcell/) immediately after that, then the table continues on a new row.
+Call [EndRow](./) to end a table row. If you call [InsertCell](../insertcell/) immediately after that, then the table continues on a new row.
 
 Use the [RowFormat](../get_rowformat/) property to specify row formatting.
 

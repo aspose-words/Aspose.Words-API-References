@@ -3,7 +3,7 @@ title: set_TiffBinarizationMethod
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Saving::ImageSaveOptions::get_TiffBinarizationMethod.'
 type: docs
-weight: 391
+weight: 430
 url: /cpp/aspose.words.saving/imagesaveoptions/set_tiffbinarizationmethod/
 ---
 ## ImageSaveOptions::set_TiffBinarizationMethod method

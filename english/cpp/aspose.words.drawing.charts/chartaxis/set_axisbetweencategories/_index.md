@@ -3,7 +3,7 @@ title: set_AxisBetweenCategories
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Drawing::Charts::ChartAxis::get_AxisBetweenCategories.'
 type: docs
-weight: 339
+weight: 378
 url: /cpp/aspose.words.drawing.charts/chartaxis/set_axisbetweencategories/
 ---
 ## ChartAxis::set_AxisBetweenCategories method

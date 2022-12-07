@@ -3,7 +3,7 @@ title: GetChildNodes
 second_title: Aspose.Words for C++ API Reference
 description: Returns a live collection of child nodes that match the specified type.
 type: docs
-weight: 105
+weight: 118
 url: /cpp/aspose.words/compositenode/getchildnodes/
 ---
 ## CompositeNode::GetChildNodes method
@@ -19,7 +19,7 @@ System::SharedPtr<Aspose::Words::NodeCollection> Aspose::Words::CompositeNode::G
 | Parameter | Type | Description |
 | --- | --- | --- |
 | nodeType | Aspose::Words::NodeType | Specifies the type of nodes to select. |
-| isDeep | bool | True to select from all child nodes recursively. False to select only among immediate children. |
+| isDeep | bool | **true** to select from all child nodes recursively; **false** to select only among immediate children. |
 
 ### ReturnValue
 

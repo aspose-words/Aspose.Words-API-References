@@ -3,7 +3,7 @@ title: InsertHyperlink
 second_title: Aspose.Words for C++ API Reference
 description: Inserts a hyperlink into the document.
 type: docs
-weight: 456
+weight: 482
 url: /cpp/aspose.words/documentbuilder/inserthyperlink/
 ---
 ## DocumentBuilder::InsertHyperlink method
@@ -20,7 +20,7 @@ System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::DocumentBuilder::
 | --- | --- | --- |
 | displayText | const System::String\& | Text of the link to be displayed in the document. |
 | urlOrBookmark | const System::String\& | Link destination. Can be a url or a name of a bookmark inside the document. This method always adds apostrophes at the beginning and end of the url. |
-| isBookmark | bool | True if the previous parameter is a name of a bookmark inside the document; false is the previous parameter is a URL. |
+| isBookmark | bool | **true** if the previous parameter is a name of a bookmark inside the document; **false** is the previous parameter is a URL. |
 
 ### ReturnValue
 

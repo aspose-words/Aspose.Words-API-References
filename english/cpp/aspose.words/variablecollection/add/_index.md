@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Words for C++ API Reference
 description: Adds a document variable to the collection.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words/variablecollection/add/
 ---
 ## VariableCollection::Add method
@@ -19,7 +19,7 @@ void Aspose::Words::VariableCollection::Add(const System::String &name, const Sy
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | const System::String\& | The case-insensitive name of the variable to add. |
-| value | const System::String\& | The value of the variable. The value cannot be null, if value is null empty string will be used instead. |
+| value | const System::String\& | The value of the variable. The value cannot be **null**, if value is null empty string will be used instead. |
 
 ## Examples
 

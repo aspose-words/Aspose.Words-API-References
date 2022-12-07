@@ -3,7 +3,7 @@ title: set_SaveRoutingSlip
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Saving::DocSaveOptions::get_SaveRoutingSlip.'
 type: docs
-weight: 131
+weight: 170
 url: /cpp/aspose.words.saving/docsaveoptions/set_saveroutingslip/
 ---
 ## DocSaveOptions::set_SaveRoutingSlip method

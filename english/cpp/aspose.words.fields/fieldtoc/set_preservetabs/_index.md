@@ -3,7 +3,7 @@ title: set_PreserveTabs
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Fields::FieldToc::get_PreserveTabs.'
 type: docs
-weight: 404
+weight: 443
 url: /cpp/aspose.words.fields/fieldtoc/set_preservetabs/
 ---
 ## FieldToc::set_PreserveTabs method

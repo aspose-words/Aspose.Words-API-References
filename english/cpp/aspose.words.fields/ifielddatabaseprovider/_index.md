@@ -3,7 +3,7 @@ title: IFieldDatabaseProvider
 second_title: Aspose.Words for C++ API Reference
 description: Implement this interface to provide data for the FieldDatabase field when it's updated.
 type: docs
-weight: 1535
+weight: 1548
 url: /cpp/aspose.words.fields/ifielddatabaseprovider/
 ---
 ## IFieldDatabaseProvider interface
@@ -20,6 +20,9 @@ class IFieldDatabaseProvider : public System::Object
 | Method | Description |
 | --- | --- |
 | virtual [GetQueryResult](./getqueryresult/)(System::String, System::String, System::String, System::SharedPtr\<Aspose::Words::Fields::FieldDatabase\>) | Returns query result. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

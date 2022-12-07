@@ -3,7 +3,7 @@ title: get_EncryptionDetails
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the details for encrypting the output PDF document.
 type: docs
-weight: 157
+weight: 183
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_encryptiondetails/
 ---
 ## PdfSaveOptions::get_EncryptionDetails method
@@ -18,7 +18,7 @@ System::SharedPtr<Aspose::Words::Saving::PdfEncryptionDetails> Aspose::Words::Sa
 ## Remarks
 
 
-The default value is null and the output document will not be encrypted. When this property is set to a valid [PdfEncryptionDetails](../../pdfencryptiondetails/) object, then the output PDF document will be encrypted.
+The default value is **null** and the output document will not be encrypted. When this property is set to a valid [PdfEncryptionDetails](../../pdfencryptiondetails/) object, then the output PDF document will be encrypted.
 
 AES-128 encryption algorithm is used when saving to PDF 1.7 based compliance (including PDF/UA-1). AES-256 encryption algorithm is used when saving to PDF 2.0 based compliance.
 

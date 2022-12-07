@@ -3,7 +3,7 @@ title: get_Bidi
 second_title: Aspose.Words for C++ API Reference
 description: Specifies that this section contains bidirectional (complex scripts) text.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words/pagesetup/get_bidi/
 ---
 ## PageSetup::get_Bidi method
@@ -18,7 +18,7 @@ bool Aspose::Words::PageSetup::get_Bidi()
 ## Remarks
 
 
-When true, the columns in this section are laid out from right to left.
+When **true**, the columns in this section are laid out from right to left.
 
 ## Examples
 

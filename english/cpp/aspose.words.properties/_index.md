@@ -13,10 +13,10 @@ The **Aspose.Words.Properties** namespace provides classes to work with custom a
 
 | Class | Description |
 | --- | --- |
-| [BuiltInDocumentProperties](./builtindocumentproperties/) | A collection of built-in document properties. |
-| [CustomDocumentProperties](./customdocumentproperties/) | A collection of custom document properties. |
-| [DocumentProperty](./documentproperty/) | Represents a custom or built-in document property. |
-| [DocumentPropertyCollection](./documentpropertycollection/) | Base class for [BuiltInDocumentProperties](./builtindocumentproperties/) and [CustomDocumentProperties](./customdocumentproperties/) collections. |
+| [BuiltInDocumentProperties](./builtindocumentproperties/) | A collection of built-in document properties. To learn more, visit the [Work with Document Properties](https://docs.aspose.com/words/cpp/work-with-document-properties/) documentation article. |
+| [CustomDocumentProperties](./customdocumentproperties/) | A collection of custom document properties. To learn more, visit the [Work with Document Properties](https://docs.aspose.com/words/cpp/work-with-document-properties/) documentation article. |
+| [DocumentProperty](./documentproperty/) | Represents a custom or built-in document property. To learn more, visit the [Work with Document Properties](https://docs.aspose.com/words/cpp/work-with-document-properties/) documentation article. |
+| [DocumentPropertyCollection](./documentpropertycollection/) | Base class for [BuiltInDocumentProperties](./builtindocumentproperties/) and [CustomDocumentProperties](./customdocumentproperties/) collections. To learn more, visit the [Work with Document Properties](https://docs.aspose.com/words/cpp/work-with-document-properties/) documentation article. |
 ## Enums
 
 | Enum | Description |

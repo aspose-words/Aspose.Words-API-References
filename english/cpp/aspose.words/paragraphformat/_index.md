@@ -1,7 +1,7 @@
 ---
 title: ParagraphFormat
 second_title: Aspose.Words for C++ API Reference
-description: Represents all the formatting for a paragraph.
+description: Represents all the formatting for a paragraph. To learn more, visit the  documentation article.
 type: docs
 weight: 625
 url: /cpp/aspose.words/paragraphformat/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/paragraphformat/
 ## ParagraphFormat class
 
 
-Represents all the formatting for a paragraph.
+Represents all the formatting for a paragraph. To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words/cpp/working-with-paragraphs/) documentation article.
 
 ```cpp
 class ParagraphFormat : public Aspose::Words::IBorderAttrSource,
@@ -43,7 +43,7 @@ class ParagraphFormat : public Aspose::Words::IBorderAttrSource,
 | [get_LinesToDrop](./get_linestodrop/)() | Gets or sets the number of lines of the paragraph text used to calculate the drop cap height. |
 | [get_LineUnitAfter](./get_lineunitafter/)() | Gets or sets the amount of spacing (in gridlines) after the paragraphs. |
 | [get_LineUnitBefore](./get_lineunitbefore/)() | Gets or sets the amount of spacing (in gridlines) before the paragraphs. |
-| [get_NoSpaceBetweenParagraphsOfSameStyle](./get_nospacebetweenparagraphsofsamestyle/)() | When true, [SpaceBefore](./get_spacebefore/) and [SpaceAfter](./get_spaceafter/) will be ignored between the paragraphs of the same style. |
+| [get_NoSpaceBetweenParagraphsOfSameStyle](./get_nospacebetweenparagraphsofsamestyle/)() | When **true**, [SpaceBefore](./get_spacebefore/) and [SpaceAfter](./get_spaceafter/) will be ignored between the paragraphs of the same style. |
 | [get_OutlineLevel](./get_outlinelevel/)() | Specifies the outline level of the paragraph in the document. |
 | [get_PageBreakBefore](./get_pagebreakbefore/)() | True if a page break is forced before the paragraph. |
 | [get_RightIndent](./get_rightindent/)() | Gets or sets the value (in points) that represents the right indent for paragraph. |
@@ -61,6 +61,8 @@ class ParagraphFormat : public Aspose::Words::IBorderAttrSource,
 | [get_TabStops](./get_tabstops/)() | Gets the collection of custom tab stops defined for this object. |
 | [get_WidowControl](./get_widowcontrol/)() | True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph. |
 | [get_WordWrap](./get_wordwrap/)() | If this property is **false**, Latin text in the middle of a word can be wrapped for the current paragraph. Otherwise Latin text is wrapped by whole words. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_AddSpaceBetweenFarEastAndAlpha](./set_addspacebetweenfareastandalpha/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_AddSpaceBetweenFarEastAndAlpha](./get_addspacebetweenfareastandalpha/). |
 | [set_AddSpaceBetweenFarEastAndDigit](./set_addspacebetweenfareastanddigit/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_AddSpaceBetweenFarEastAndDigit](./get_addspacebetweenfareastanddigit/). |
 | [set_Alignment](./set_alignment/)(Aspose::Words::ParagraphAlignment) | Setter for [Aspose::Words::ParagraphFormat::get_Alignment](./get_alignment/). |
@@ -96,6 +98,7 @@ class ParagraphFormat : public Aspose::Words::IBorderAttrSource,
 | [set_SuppressLineNumbers](./set_suppresslinenumbers/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_SuppressLineNumbers](./get_suppresslinenumbers/). |
 | [set_WidowControl](./set_widowcontrol/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_WidowControl](./get_widowcontrol/). |
 | [set_WordWrap](./set_wordwrap/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_WordWrap](./get_wordwrap/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

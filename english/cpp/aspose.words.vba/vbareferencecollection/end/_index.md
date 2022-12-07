@@ -3,7 +3,7 @@ title: end
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 40
+weight: 53
 url: /cpp/aspose.words.vba/vbareferencecollection/end/
 ---
 ## VbaReferenceCollection::end() const method

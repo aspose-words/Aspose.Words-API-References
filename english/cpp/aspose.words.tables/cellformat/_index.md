@@ -1,7 +1,7 @@
 ---
 title: CellFormat
 second_title: Aspose.Words for C++ API Reference
-description: Represents all formatting for a table cell.
+description: Represents all formatting for a table cell. To learn more, visit the  documentation article.
 type: docs
 weight: 27
 url: /cpp/aspose.words.tables/cellformat/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.tables/cellformat/
 ## CellFormat class
 
 
-Represents all formatting for a table cell.
+Represents all formatting for a table cell. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article.
 
 ```cpp
 class CellFormat : public Aspose::Words::IBorderAttrSource,
@@ -23,7 +23,7 @@ class CellFormat : public Aspose::Words::IBorderAttrSource,
 | [ClearFormatting](./clearformatting/)() | Resets to default cell formatting. Does not change the width of the cell. |
 | [get_Borders](./get_borders/)() | Gets collection of borders of the cell. |
 | [get_BottomPadding](./get_bottompadding/)() | Returns or sets the amount of space (in points) to add below the contents of cell. |
-| [get_FitText](./get_fittext/)() | If true, fits text in the cell, compressing each paragraph to the width of the cell. |
+| [get_FitText](./get_fittext/)() | If **true**, fits text in the cell, compressing each paragraph to the width of the cell. |
 | [get_HorizontalMerge](./get_horizontalmerge/)() | Specifies how the cell is merged horizontally with other cells in the row. |
 | [get_LeftPadding](./get_leftpadding/)() | Returns or sets the amount of space (in points) to add to the left of the contents of cell. |
 | [get_Orientation](./get_orientation/)() | Returns or sets the orientation of text in a table cell. |
@@ -34,7 +34,9 @@ class CellFormat : public Aspose::Words::IBorderAttrSource,
 | [get_VerticalAlignment](./get_verticalalignment/)() | Returns or sets the vertical alignment of text in the cell. |
 | [get_VerticalMerge](./get_verticalmerge/)() | Specifies how the cell is merged with other cells vertically. |
 | [get_Width](./get_width/)() | Gets the width of the cell in points. |
-| [get_WrapText](./get_wraptext/)() | If true, wrap text for the cell. |
+| [get_WrapText](./get_wraptext/)() | If **true**, wrap text for the cell. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_BottomPadding](./set_bottompadding/)(double) | Setter for [Aspose::Words::Tables::CellFormat::get_BottomPadding](./get_bottompadding/). |
 | [set_FitText](./set_fittext/)(bool) | Setter for [Aspose::Words::Tables::CellFormat::get_FitText](./get_fittext/). |
 | [set_HorizontalMerge](./set_horizontalmerge/)(Aspose::Words::Tables::CellMerge) | Setter for [Aspose::Words::Tables::CellFormat::get_HorizontalMerge](./get_horizontalmerge/). |
@@ -48,6 +50,7 @@ class CellFormat : public Aspose::Words::IBorderAttrSource,
 | [set_Width](./set_width/)(double) | Setter for [Aspose::Words::Tables::CellFormat::get_Width](./get_width/). |
 | [set_WrapText](./set_wraptext/)(bool) | Setter for [Aspose::Words::Tables::CellFormat::get_WrapText](./get_wraptext/). |
 | [SetPaddings](./setpaddings/)(double, double, double, double) | Sets the amount of space (in points) to add to the left/top/right/bottom of the contents of cell. |
+| static [Type](./type/)() |  |
 
 ## Examples
 

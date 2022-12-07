@@ -3,7 +3,7 @@ title: get_ShowBreaksInFrames
 second_title: Aspose.Words for C++ API Reference
 description: Display Page/Column Breaks Present in Frames.
 type: docs
-weight: 547
+weight: 560
 url: /cpp/aspose.words.settings/compatibilityoptions/get_showbreaksinframes/
 ---
 ## CompatibilityOptions::get_ShowBreaksInFrames method

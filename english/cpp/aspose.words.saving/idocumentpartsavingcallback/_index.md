@@ -20,6 +20,9 @@ class IDocumentPartSavingCallback : public System::Object
 | Method | Description |
 | --- | --- |
 | virtual [DocumentPartSaving](./documentpartsaving/)(System::SharedPtr\<Aspose::Words::Saving::DocumentPartSavingArgs\>) | Called when Aspose.Words is about to save a document part. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

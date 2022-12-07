@@ -1,7 +1,7 @@
 ---
 title: FontSubstitutionSettings
 second_title: Aspose.Words for C++ API Reference
-description: Specifies font substitution mechanism settings.
+description: Specifies font substitution mechanism settings. To learn more, visit the  documentation article.
 type: docs
 weight: 157
 url: /cpp/aspose.words.fonts/fontsubstitutionsettings/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fonts/fontsubstitutionsettings/
 ## FontSubstitutionSettings class
 
 
-Specifies font substitution mechanism settings.
+Specifies font substitution mechanism settings. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
 
 ```cpp
 class FontSubstitutionSettings : public System::Object
@@ -24,6 +24,9 @@ class FontSubstitutionSettings : public System::Object
 | [get_FontInfoSubstitution](./get_fontinfosubstitution/)() const | [Settings](../../aspose.words.settings/) related to font info substitution rule. |
 | [get_FontNameSubstitution](./get_fontnamesubstitution/)() const | [Settings](../../aspose.words.settings/) related to font name substitution rule. |
 | [get_TableSubstitution](./get_tablesubstitution/)() const | [Settings](../../aspose.words.settings/) related to table substitution rule. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

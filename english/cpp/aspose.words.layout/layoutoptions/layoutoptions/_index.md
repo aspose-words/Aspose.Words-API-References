@@ -3,7 +3,7 @@ title: LayoutOptions
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.layout/layoutoptions/layoutoptions/
 ---
 ## LayoutOptions::LayoutOptions constructor

@@ -3,7 +3,7 @@ title: IsFontConfigAvailable
 second_title: Aspose.Words for C++ API Reference
 description: Check if fontconfig utility is available or not.
 type: docs
-weight: 1
+weight: 40
 url: /cpp/aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/
 ---
 ## FontConfigSubstitutionRule::IsFontConfigAvailable method

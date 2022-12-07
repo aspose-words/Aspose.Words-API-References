@@ -3,7 +3,7 @@ title: get_Texture
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the shading texture.
 type: docs
-weight: 53
+weight: 66
 url: /cpp/aspose.words/shading/get_texture/
 ---
 ## Shading::get_Texture method

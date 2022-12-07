@@ -3,7 +3,7 @@ title: get_ResourcesFolder
 second_title: Aspose.Words for C++ API Reference
 description: Specifies the physical folder where resources (images, fonts, css) are saved when exporting a document to Html format. Default is null.
 type: docs
-weight: 170
+weight: 183
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_resourcesfolder/
 ---
 ## HtmlFixedSaveOptions::get_ResourcesFolder method
@@ -18,7 +18,7 @@ System::String Aspose::Words::Saving::HtmlFixedSaveOptions::get_ResourcesFolder(
 ## Remarks
 
 
-Has effect only if [ExportEmbeddedImages](../get_exportembeddedimages/) property is false.
+Has effect only if [ExportEmbeddedImages](../get_exportembeddedimages/) property is **false**.
 
 When you save a [Document](../../../aspose.words/document/) in Html format, Aspose.Words needs to save all images embedded in the document as standalone files. [ResourcesFolder](./) allows you to specify where the images will be saved and [ResourcesFolderAlias](../get_resourcesfolderalias/) allows to specify how the image URIs will be constructed.
 

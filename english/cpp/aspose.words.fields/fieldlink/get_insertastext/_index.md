@@ -3,7 +3,7 @@ title: get_InsertAsText
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets whether to insert the linked object in text-only format.
 type: docs
-weight: 79
+weight: 92
 url: /cpp/aspose.words.fields/fieldlink/get_insertastext/
 ---
 ## FieldLink::get_InsertAsText method

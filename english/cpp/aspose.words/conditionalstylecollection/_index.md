@@ -1,7 +1,7 @@
 ---
 title: ConditionalStyleCollection
 second_title: Aspose.Words for C++ API Reference
-description: Represents a collection of ConditionalStyle objects.
+description: Represents a collection of ConditionalStyle objects. To learn more, visit the  documentation article.
 type: docs
 weight: 209
 url: /cpp/aspose.words/conditionalstylecollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/conditionalstylecollection/
 ## ConditionalStyleCollection class
 
 
-Represents a collection of [ConditionalStyle](../conditionalstyle/) objects.
+Represents a collection of [ConditionalStyle](../conditionalstyle/) objects. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article.
 
 ```cpp
 class ConditionalStyleCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::ConditionalStyle>>
@@ -34,8 +34,11 @@ class ConditionalStyleCollection : public System::Collections::Generic::IEnumera
 | [get_TopLeftCell](./get_topleftcell/)() | Gets the top left cell style. |
 | [get_TopRightCell](./get_toprightcell/)() | Gets the top right cell style. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all conditional styles in the collection. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(Aspose::Words::ConditionalStyleType) | Retrieves a [ConditionalStyle](../conditionalstyle/) object by conditional style type. |
 | [idx_get](./idx_get/)(int32_t) | Retrieves a [ConditionalStyle](../conditionalstyle/) object by index. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

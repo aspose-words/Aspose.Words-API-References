@@ -1,7 +1,7 @@
 ---
 title: SdtListItemCollection
 second_title: Aspose.Words for C++ API Reference
-description: Provides access to SdtListItem elements of a structured document tag.
+description: Provides access to SdtListItem elements of a structured document tag. To learn more, visit the  documentation article.
 type: docs
 weight: 105
 url: /cpp/aspose.words.markup/sdtlistitemcollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.markup/sdtlistitemcollection/
 ## SdtListItemCollection class
 
 
-Provides access to [SdtListItem](../sdtlistitem/) elements of a structured document tag.
+Provides access to [SdtListItem](../sdtlistitem/) elements of a structured document tag. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/structured-document-tags-or-content-control/) documentation article.
 
 ```cpp
 class SdtListItemCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Markup::SdtListItem>>
@@ -30,9 +30,12 @@ class SdtListItemCollection : public System::Collections::Generic::IEnumerable<S
 | [get_Count](./get_count/)() | Gets number of items in the collection. |
 | [get_SelectedValue](./get_selectedvalue/)() | Specifies currently selected value in this list. Null value allowed, meaning that no currently selected entry is associated with this list item collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Returns a [SdtListItem](../sdtlistitem/) object given its zero-based index in the collection. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [RemoveAt](./removeat/)(int32_t) | Removes a list item at the specified index. |
 | [set_SelectedValue](./set_selectedvalue/)(const System::SharedPtr\<Aspose::Words::Markup::SdtListItem\>\&) | Setter for [Aspose::Words::Markup::SdtListItemCollection::get_SelectedValue](./get_selectedvalue/). |
+| static [Type](./type/)() |  |
 | [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
 | [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
 | [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |

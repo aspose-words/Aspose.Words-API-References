@@ -3,7 +3,7 @@ title: get_Value
 second_title: Aspose.Words for C++ API Reference
 description: Gets the value of this list item.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/aspose.words.markup/sdtlistitem/get_value/
 ---
 ## SdtListItem::get_Value method
@@ -18,7 +18,7 @@ System::String Aspose::Words::Markup::SdtListItem::get_Value() const
 ## Remarks
 
 
-Cannot be null and cannot be an empty string.
+Cannot be **null** and cannot be an empty string.
 
 ## Examples
 

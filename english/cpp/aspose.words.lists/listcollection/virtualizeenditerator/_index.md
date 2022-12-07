@@ -3,7 +3,7 @@ title: virtualizeEndIterator
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 183
+weight: 222
 url: /cpp/aspose.words.lists/listcollection/virtualizeenditerator/
 ---
 ## ListCollection::virtualizeEndIterator method

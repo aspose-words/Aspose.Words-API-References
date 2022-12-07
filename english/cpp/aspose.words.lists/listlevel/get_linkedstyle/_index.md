@@ -3,7 +3,7 @@ title: get_LinkedStyle
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the paragraph style that is linked to this list level.
 type: docs
-weight: 105
+weight: 131
 url: /cpp/aspose.words.lists/listlevel/get_linkedstyle/
 ---
 ## ListLevel::get_LinkedStyle method
@@ -18,7 +18,7 @@ System::SharedPtr<Aspose::Words::Style> Aspose::Words::Lists::ListLevel::get_Lin
 ## Remarks
 
 
-This property is null when the list level is not linked to a paragraph style. This property can be set to null.
+This property is **null** when the list level is not linked to a paragraph style. This property can be set to **null**.
 
 ## Examples
 

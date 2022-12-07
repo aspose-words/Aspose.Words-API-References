@@ -3,7 +3,7 @@ title: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: Gets a font with the specified name.
 type: docs
-weight: 131
+weight: 157
 url: /cpp/aspose.words.fonts/fontinfocollection/idx_get/
 ---
 ## FontInfoCollection::idx_get(const System::String\&) method

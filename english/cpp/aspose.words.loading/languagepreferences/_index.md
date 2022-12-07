@@ -1,7 +1,7 @@
 ---
 title: LanguagePreferences
 second_title: Aspose.Words for C++ API Reference
-description: Allows to set up language preferences.
+description: Allows to set up language preferences. To learn more, visit the  documentation article.
 type: docs
 weight: 40
 url: /cpp/aspose.words.loading/languagepreferences/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.loading/languagepreferences/
 ## LanguagePreferences class
 
 
-Allows to set up language preferences.
+Allows to set up language preferences. To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/cpp/specify-load-options/) documentation article.
 
 ```cpp
 class LanguagePreferences : public System::Object
@@ -22,8 +22,11 @@ class LanguagePreferences : public System::Object
 | [AddEditingLanguage](./addeditinglanguage/)(Aspose::Words::Loading::EditingLanguage) | Adds additional editing language. |
 | [AddEditingLanguages](./addeditinglanguages/)(const System::ArrayPtr\<Aspose::Words::Loading::EditingLanguage\>\&) | Adds additional editing languages. |
 | [get_DefaultEditingLanguage](./get_defaulteditinglanguage/)() const | Gets or sets default editing language. The default value is [EnglishUS](../editinglanguage/). |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [LanguagePreferences](./languagepreferences/)() |  |
 | [set_DefaultEditingLanguage](./set_defaulteditinglanguage/)(Aspose::Words::Loading::EditingLanguage) | Setter for [Aspose::Words::Loading::LanguagePreferences::get_DefaultEditingLanguage](./get_defaulteditinglanguage/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

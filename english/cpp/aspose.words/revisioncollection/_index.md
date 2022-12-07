@@ -1,7 +1,7 @@
 ---
 title: RevisionCollection
 second_title: Aspose.Words for C++ API Reference
-description: A collection of Revision objects that represent revisions in the document.
+description: A collection of Revision objects that represent revisions in the document. To learn more, visit the  documentation article.
 type: docs
 weight: 677
 url: /cpp/aspose.words/revisioncollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/revisioncollection/
 ## RevisionCollection class
 
 
-A collection of [Revision](../revision/) objects that represent revisions in the document.
+A collection of [Revision](../revision/) objects that represent revisions in the document. To learn more, visit the [Track Changes in a Document](https://docs.aspose.com/words/cpp/track-changes-in-a-document/) documentation article.
 
 ```cpp
 class RevisionCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Revision>>
@@ -23,8 +23,11 @@ class RevisionCollection : public System::Collections::Generic::IEnumerable<Syst
 | [get_Count](./get_count/)() | Returns the number of revisions in the collection. |
 | [get_Groups](./get_groups/)() | Collection of revision groups. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Returns a [Revision](../revision/) at the specified index. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [RejectAll](./rejectall/)() | Rejects all revisions in this collection. |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

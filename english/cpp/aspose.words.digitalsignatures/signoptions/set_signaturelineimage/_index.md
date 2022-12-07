@@ -3,7 +3,7 @@ title: set_SignatureLineImage
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::DigitalSignatures::SignOptions::get_SignatureLineImage.'
 type: docs
-weight: 144
+weight: 183
 url: /cpp/aspose.words.digitalsignatures/signoptions/set_signaturelineimage/
 ---
 ## SignOptions::set_SignatureLineImage method

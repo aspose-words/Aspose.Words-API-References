@@ -3,7 +3,7 @@ title: set_IsFrozen
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::WebExtensions::WebExtension::get_IsFrozen.'
 type: docs
-weight: 92
+weight: 131
 url: /cpp/aspose.words.webextensions/webextension/set_isfrozen/
 ---
 ## WebExtension::set_IsFrozen method

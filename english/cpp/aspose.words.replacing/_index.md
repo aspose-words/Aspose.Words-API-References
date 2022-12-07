@@ -13,8 +13,8 @@ The **Aspose.Words.Replacing** namespace provides classes to manipulate with fin
 
 | Class | Description |
 | --- | --- |
-| [FindReplaceOptions](./findreplaceoptions/) | Specifies options for find/replace operations. |
-| [ReplacingArgs](./replacingargs/) | Provides data for a custom replace operation. |
+| [FindReplaceOptions](./findreplaceoptions/) | Specifies options for find/replace operations. To learn more, visit the [Find and Replace](https://docs.aspose.com/words/cpp/find-and-replace/) documentation article. |
+| [ReplacingArgs](./replacingargs/) | Provides data for a custom replace operation. To learn more, visit the [Find and Replace](https://docs.aspose.com/words/cpp/find-and-replace/) documentation article. |
 ## Interfaces
 
 | Interface | Description |

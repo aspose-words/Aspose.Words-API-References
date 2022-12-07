@@ -3,7 +3,7 @@ title: Accept
 second_title: Aspose.Words for C++ API Reference
 description: Accepts a visitor.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words/commentrangeend/accept/
 ---
 ## CommentRangeEnd::Accept method
@@ -22,7 +22,7 @@ bool Aspose::Words::CommentRangeEnd::Accept(System::SharedPtr<Aspose::Words::Doc
 
 ### ReturnValue
 
-False if the visitor requested the enumeration to stop.
+**false** if the visitor requested the enumeration to stop.
 ## Remarks
 
 

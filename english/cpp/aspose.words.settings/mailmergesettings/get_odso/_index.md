@@ -3,7 +3,7 @@ title: get_Odso
 second_title: Aspose.Words for C++ API Reference
 description: Gets the object that specifies the Office Data Source Object (ODSO) settings.
 type: docs
-weight: 209
+weight: 222
 url: /cpp/aspose.words.settings/mailmergesettings/get_odso/
 ---
 ## MailMergeSettings::get_Odso method
@@ -18,7 +18,7 @@ System::SharedPtr<Aspose::Words::Settings::Odso> Aspose::Words::Settings::MailMe
 ## Remarks
 
 
-This object is never null. 
+This object is never **null**. 
 ## See Also
 
 * Class [Odso](../../odso/)

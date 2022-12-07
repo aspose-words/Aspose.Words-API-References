@@ -1,7 +1,7 @@
 ---
 title: ListLabel
 second_title: Aspose.Words for C++ API Reference
-description: Defines properties specific to a list label.
+description: Defines properties specific to a list label. To learn more, visit the  documentation article.
 type: docs
 weight: 40
 url: /cpp/aspose.words.lists/listlabel/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.lists/listlabel/
 ## ListLabel class
 
 
-Defines properties specific to a list label.
+Defines properties specific to a list label. To learn more, visit the [Working with Lists](https://docs.aspose.com/words/cpp/working-with-lists/) documentation article.
 
 ```cpp
 class ListLabel : public Aspose::Words::IRunAttrSource
@@ -22,6 +22,9 @@ class ListLabel : public Aspose::Words::IRunAttrSource
 | [get_Font](./get_font/)() | Gets the list label font. |
 | [get_LabelString](./get_labelstring/)() | Gets a string representation of list label. |
 | [get_LabelValue](./get_labelvalue/)() | Gets a numeric value for this label. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

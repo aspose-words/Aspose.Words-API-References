@@ -3,7 +3,7 @@ title: set_MailMergeSettings
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Document::get_MailMergeSettings.'
 type: docs
-weight: 963
+weight: 1002
 url: /cpp/aspose.words/document/set_mailmergesettings/
 ---
 ## Document::set_MailMergeSettings method

@@ -3,7 +3,7 @@ title: get_Name
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the optional shape name.
 type: docs
-weight: 495
+weight: 508
 url: /cpp/aspose.words.drawing/shapebase/get_name/
 ---
 ## ShapeBase::get_Name method
@@ -20,7 +20,7 @@ System::String Aspose::Words::Drawing::ShapeBase::get_Name()
 
 Default is empty string.
 
-Cannot be null, but can be an empty string.
+Cannot be **null**, but can be an empty string.
 
 ## Examples
 

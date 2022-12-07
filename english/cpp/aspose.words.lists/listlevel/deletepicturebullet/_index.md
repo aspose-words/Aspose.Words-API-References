@@ -3,7 +3,7 @@ title: DeletePictureBullet
 second_title: Aspose.Words for C++ API Reference
 description: Deletes picture bullet for the current list level.
 type: docs
-weight: 14
+weight: 40
 url: /cpp/aspose.words.lists/listlevel/deletepicturebullet/
 ---
 ## ListLevel::DeletePictureBullet method

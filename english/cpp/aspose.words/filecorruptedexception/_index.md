@@ -1,7 +1,7 @@
 ---
 title: FileCorruptedException
 second_title: Aspose.Words for C++ API Reference
-description: Thrown during document load, when the document appears to be corrupted and impossible to load.
+description: Thrown during document load, when the document appears to be corrupted and impossible to load. To learn more, visit the  documentation article.
 type: docs
 weight: 1717
 url: /cpp/aspose.words/filecorruptedexception/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/filecorruptedexception/
 ## FileCorruptedException typedef
 
 
-Thrown during document load, when the document appears to be corrupted and impossible to load.
+Thrown during document load, when the document appears to be corrupted and impossible to load. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
 
 ```cpp
 using Aspose::Words::FileCorruptedException = typedef System::ExceptionWrapper<Details_FileCorruptedException>

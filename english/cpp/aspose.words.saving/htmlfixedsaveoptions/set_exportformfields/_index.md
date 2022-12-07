@@ -3,7 +3,7 @@ title: set_ExportFormFields
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportFormFields.'
 type: docs
-weight: 326
+weight: 365
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/set_exportformfields/
 ---
 ## HtmlFixedSaveOptions::set_ExportFormFields method

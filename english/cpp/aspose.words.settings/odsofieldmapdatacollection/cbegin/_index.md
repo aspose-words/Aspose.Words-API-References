@@ -3,7 +3,7 @@ title: cbegin
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 40
+weight: 53
 url: /cpp/aspose.words.settings/odsofieldmapdatacollection/cbegin/
 ---
 ## OdsoFieldMapDataCollection::cbegin method

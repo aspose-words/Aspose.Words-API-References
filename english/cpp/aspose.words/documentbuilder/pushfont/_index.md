@@ -3,7 +3,7 @@ title: PushFont
 second_title: Aspose.Words for C++ API Reference
 description: Saves current character formatting onto the stack.
 type: docs
-weight: 768
+weight: 807
 url: /cpp/aspose.words/documentbuilder/pushfont/
 ---
 ## DocumentBuilder::PushFont method

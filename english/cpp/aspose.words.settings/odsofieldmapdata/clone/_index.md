@@ -3,7 +3,7 @@ title: Clone
 second_title: Aspose.Words for C++ API Reference
 description: Returns a deep clone of this object.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words.settings/odsofieldmapdata/clone/
 ---
 ## OdsoFieldMapData::Clone method

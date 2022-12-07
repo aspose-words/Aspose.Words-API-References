@@ -3,7 +3,7 @@ title: get_Style
 second_title: Aspose.Words for C++ API Reference
 description: Gets the list style that this list references or defines.
 type: docs
-weight: 118
+weight: 131
 url: /cpp/aspose.words.lists/list/get_style/
 ---
 ## List::get_Style method
@@ -18,11 +18,11 @@ System::SharedPtr<Aspose::Words::Style> Aspose::Words::Lists::List::get_Style()
 ## Remarks
 
 
-If this list is not associated with a list style, the property will return null.
+If this list is not associated with a list style, the property will return **null**.
 
-A list could be a reference to a list style, in this case [IsListStyleReference](../get_isliststylereference/) will be true.
+A list could be a reference to a list style, in this case [IsListStyleReference](../get_isliststylereference/) will be **true**.
 
-A list could be a definition of a list style, in this case [IsListStyleDefinition](../get_isliststyledefinition/) will be true. Such a list cannot be applied to paragraphs in the document directly.
+A list could be a definition of a list style, in this case [IsListStyleDefinition](../get_isliststyledefinition/) will be **true**. Such a list cannot be applied to paragraphs in the document directly.
 
 ## Examples
 

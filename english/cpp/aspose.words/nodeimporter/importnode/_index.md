@@ -3,7 +3,7 @@ title: ImportNode
 second_title: Aspose.Words for C++ API Reference
 description: Imports a node from one document into another.
 type: docs
-weight: 14
+weight: 40
 url: /cpp/aspose.words/nodeimporter/importnode/
 ---
 ## NodeImporter::ImportNode method
@@ -19,7 +19,7 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::NodeImporter::ImportNode(c
 | Parameter | Type | Description |
 | --- | --- | --- |
 | srcNode | const System::SharedPtr\<Aspose::Words::Node\>\& | The node to import. |
-| isImportChildren | bool | True to import all child nodes recursively; otherwise, false. |
+| isImportChildren | bool | **true** to import all child nodes recursively; otherwise, **false**. |
 
 ### ReturnValue
 

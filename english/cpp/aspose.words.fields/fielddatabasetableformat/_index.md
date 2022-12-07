@@ -3,7 +3,7 @@ title: FieldDatabaseTableFormat
 second_title: Aspose.Words for C++ API Reference
 description: FieldDatabaseTableFormat enumeration.
 type: docs
-weight: 1613
+weight: 1639
 url: /cpp/aspose.words.fields/fielddatabasetableformat/
 ---
 ## FieldDatabaseTableFormat enum

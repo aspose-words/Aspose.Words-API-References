@@ -3,7 +3,7 @@ title: SetImage
 second_title: Aspose.Words for C++ API Reference
 description: Adds Image watermark into the document.
 type: docs
-weight: 27
+weight: 66
 url: /cpp/aspose.words/watermark/setimage/
 ---
 ## Watermark::SetImage(const System::SharedPtr\<System::Drawing::Image\>\&) method

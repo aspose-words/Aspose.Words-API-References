@@ -1,15 +1,15 @@
 ---
 title: get_StoryType
 second_title: Aspose.Words for C++ API Reference
-description: Returns StoryType.Comments.
+description: Returns Comments.
 type: docs
-weight: 144
+weight: 157
 url: /cpp/aspose.words/comment/get_storytype/
 ---
 ## Comment::get_StoryType method
 
 
-Returns **StoryType.Comments**.
+Returns [Comments](../../storytype/).
 
 ```cpp
 Aspose::Words::StoryType Aspose::Words::Comment::get_StoryType() override

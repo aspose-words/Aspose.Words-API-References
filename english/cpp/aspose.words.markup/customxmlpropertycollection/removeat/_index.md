@@ -3,7 +3,7 @@ title: RemoveAt
 second_title: Aspose.Words for C++ API Reference
 description: Removes a property at the specified index.
 type: docs
-weight: 105
+weight: 144
 url: /cpp/aspose.words.markup/customxmlpropertycollection/removeat/
 ---
 ## CustomXmlPropertyCollection::RemoveAt method

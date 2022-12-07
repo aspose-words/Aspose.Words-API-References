@@ -3,7 +3,7 @@ title: set_Appearance
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Markup::StructuredDocumentTag::get_Appearance.'
 type: docs
-weight: 443
+weight: 482
 url: /cpp/aspose.words.markup/structureddocumenttag/set_appearance/
 ---
 ## StructuredDocumentTag::set_Appearance method

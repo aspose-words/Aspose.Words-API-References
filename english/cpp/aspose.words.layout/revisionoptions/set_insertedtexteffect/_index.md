@@ -3,7 +3,7 @@ title: set_InsertedTextEffect
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Layout::RevisionOptions::get_InsertedTextEffect.'
 type: docs
-weight: 300
+weight: 339
 url: /cpp/aspose.words.layout/revisionoptions/set_insertedtexteffect/
 ---
 ## RevisionOptions::set_InsertedTextEffect method

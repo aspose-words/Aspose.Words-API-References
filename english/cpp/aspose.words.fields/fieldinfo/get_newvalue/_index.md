@@ -3,7 +3,7 @@ title: get_NewValue
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets an optional value that updates the property.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words.fields/fieldinfo/get_newvalue/
 ---
 ## FieldInfo::get_NewValue method

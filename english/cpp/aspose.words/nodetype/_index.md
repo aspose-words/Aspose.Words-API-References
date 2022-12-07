@@ -21,7 +21,7 @@ enum class NodeType
 | --- | --- | --- |
 | Any | 0 | Indicates all node types. Allows to select all children. |
 | Document | 1 | A [Document](../document/) object that, as the root of the document tree, provides access to the entire Word document. A [Document](../document/) node can have [Section](../section/) nodes. |
-| Section | 2 | A [Section](../section/) object that corresponds to one section in a Word document. A [Section](../section/) node can have **Body** and **HeaderFooter** nodes. |
+| Section | 2 | A [Section](../section/) object that corresponds to one section in a Word document. A [Section](../section/) node can have [Body](../body/) and [HeaderFooter](../headerfooter/) nodes. |
 | Body | 3 | A [Body](../body/) object that contains the main text of a section (main text story). A [Body](../body/) node can have [Paragraph](../paragraph/) and [Table](../../aspose.words.tables/table/) nodes. |
 | HeaderFooter | 4 | A [HeaderFooter](../headerfooter/) object that contains text of a particular header or footer inside a section. A [HeaderFooter](../headerfooter/) node can have [Paragraph](../paragraph/) and [Table](../../aspose.words.tables/table/) nodes. |
 | Table | 5 | A [Table](../../aspose.words.tables/table/) object that represents a table in a Word document. A [Table](../../aspose.words.tables/table/) node can have [Row](../../aspose.words.tables/row/) nodes. |

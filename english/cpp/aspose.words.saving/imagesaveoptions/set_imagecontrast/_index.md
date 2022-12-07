@@ -3,7 +3,7 @@ title: set_ImageContrast
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Saving::ImageSaveOptions::get_ImageContrast.'
 type: docs
-weight: 274
+weight: 313
 url: /cpp/aspose.words.saving/imagesaveoptions/set_imagecontrast/
 ---
 ## ImageSaveOptions::set_ImageContrast method

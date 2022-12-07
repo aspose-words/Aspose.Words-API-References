@@ -1,7 +1,7 @@
 ---
 title: Stroke
 second_title: Aspose.Words for C++ API Reference
-description: Defines a stroke for a shape.
+description: Defines a stroke for a shape. To learn more, visit the  documentation article.
 type: docs
 weight: 170
 url: /cpp/aspose.words.drawing/stroke/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing/stroke/
 ## Stroke class
 
 
-Defines a stroke for a shape.
+Defines a stroke for a shape. To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/cpp/working-with-shapes/) documentation article.
 
 ```cpp
 class Stroke : public System::Object
@@ -39,6 +39,8 @@ class Stroke : public System::Object
 | [get_Transparency](./get_transparency/)() | Gets or sets a value between 0.0 (opaque) and 1.0 (clear) representing the degree of transparency of the stroke. |
 | [get_Visible](./get_visible/)() | Gets or sets a flag indicating whether the stroke is visible. |
 | [get_Weight](./get_weight/)() | Defines the brush thickness that strokes the path of a shape in points. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_BackColor](./set_backcolor/)(System::Drawing::Color) | Setter for [Aspose::Words::Drawing::Stroke::get_BackColor](./get_backcolor/). |
 | [set_Color](./set_color/)(System::Drawing::Color) | Setter for [Aspose::Words::Drawing::Stroke::get_Color](./get_color/). |
 | [set_Color2](./set_color2/)(System::Drawing::Color) | Setter for [Aspose::Words::Drawing::Stroke::get_Color2](./get_color2/). |
@@ -58,6 +60,7 @@ class Stroke : public System::Object
 | [set_Transparency](./set_transparency/)(double) | Setter for [Aspose::Words::Drawing::Stroke::get_Transparency](./get_transparency/). |
 | [set_Visible](./set_visible/)(bool) | Setter for [Aspose::Words::Drawing::Stroke::get_Visible](./get_visible/). |
 | [set_Weight](./set_weight/)(double) | Setter for [Aspose::Words::Drawing::Stroke::get_Weight](./get_weight/). |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

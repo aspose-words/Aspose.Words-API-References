@@ -3,7 +3,7 @@ title: get_Connection
 second_title: Aspose.Words for C++ API Reference
 description: Gets a connection to the data.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words.fields/fielddatabase/get_connection/
 ---
 ## FieldDatabase::get_Connection method
