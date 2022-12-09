@@ -3,7 +3,7 @@ title: ListTemplate
 second_title: Aspose.Words for Java API Reference
 description: Specifies one of the predefined list formats available in Microsoft Word.
 type: docs
-weight: 375
+weight: 377
 url: /java/com.aspose.words/listtemplate/
 ---
 
@@ -26,10 +26,10 @@ Aspose.Words list templates correspond to the 21 list templates available in the
 | [BULLET_CIRCLE](#BULLET-CIRCLE) | The bullet of the first level is a circle. |
 | [BULLET_DEFAULT](#BULLET-DEFAULT) | Default bulleted list with 9 levels. |
 | [BULLET_DIAMONDS](#BULLET-DIAMONDS) | The bullet of the first level is a 4-diamond Wingding character. |
-| [BULLET_DISK](#BULLET-DISK) | Same as BulletDefault. |
+| [BULLET_DISK](#BULLET-DISK) | Same as [BULLET\_DEFAULT](../../com.aspose.words/listtemplate\#BULLET-DEFAULT). |
 | [BULLET_SQUARE](#BULLET-SQUARE) | The bullet of the first level is a square. |
 | [BULLET_TICK](#BULLET-TICK) | The bullet of the first level is a tick Wingding character. |
-| [NUMBER_ARABIC_DOT](#NUMBER-ARABIC-DOT) | Same as NumberDefault. |
+| [NUMBER_ARABIC_DOT](#NUMBER-ARABIC-DOT) | Same as [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate\#NUMBER-DEFAULT). |
 | [NUMBER_ARABIC_PARENTHESIS](#NUMBER-ARABIC-PARENTHESIS) | The number of the first level is "1)". |
 | [NUMBER_DEFAULT](#NUMBER-DEFAULT) | Default numbered list with 9 levels. |
 | [NUMBER_LOWERCASE_LETTER_DOT](#NUMBER-LOWERCASE-LETTER-DOT) | The number of the first level is "a.". |
@@ -49,26 +49,26 @@ Aspose.Words list templates correspond to the 21 list templates available in the
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String listTemplateName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int listTemplate)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int listTemplate)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String listTemplateName)](#fromName-java.lang.String) |  |
+| [getClass()](#getClass) |  |
+| [getName(int listTemplate)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int listTemplate)](#toString-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### BULLET_ARROW_HEAD {#BULLET-ARROW-HEAD}
 ```
 public static int BULLET_ARROW_HEAD
 ```
 
 
-The bullet of the first level is an arrow head Wingding character. The remaining levels are same as in BulletDefault.
+The bullet of the first level is an arrow head Wingding character. The remaining levels are same as in [BULLET\_DEFAULT](../../com.aspose.words/listtemplate\#BULLET-DEFAULT).
 
 Corresponds to the 6th bulleted list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -78,7 +78,7 @@ public static int BULLET_CIRCLE
 ```
 
 
-The bullet of the first level is a circle. The remaining levels are same as in BulletDefault.
+The bullet of the first level is a circle. The remaining levels are same as in [BULLET\_DEFAULT](../../com.aspose.words/listtemplate\#BULLET-DEFAULT).
 
 Corresponds to the 2nd bulleted list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -100,7 +100,7 @@ public static int BULLET_DIAMONDS
 ```
 
 
-The bullet of the first level is a 4-diamond Wingding character. The remaining levels are same as in BulletDefault.
+The bullet of the first level is a 4-diamond Wingding character. The remaining levels are same as in [BULLET\_DEFAULT](../../com.aspose.words/listtemplate\#BULLET-DEFAULT).
 
 Corresponds to the 5th bulleted list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -110,7 +110,7 @@ public static int BULLET_DISK
 ```
 
 
-Same as BulletDefault.
+Same as [BULLET\_DEFAULT](../../com.aspose.words/listtemplate\#BULLET-DEFAULT).
 
 Corresponds to the 1st bulleted list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -120,7 +120,7 @@ public static int BULLET_SQUARE
 ```
 
 
-The bullet of the first level is a square. The remaining levels are same as in BulletDefault.
+The bullet of the first level is a square. The remaining levels are same as in [BULLET\_DEFAULT](../../com.aspose.words/listtemplate\#BULLET-DEFAULT).
 
 Corresponds to the 3rd bulleted list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -130,7 +130,7 @@ public static int BULLET_TICK
 ```
 
 
-The bullet of the first level is a tick Wingding character. The remaining levels are same as in BulletDefault.
+The bullet of the first level is a tick Wingding character. The remaining levels are same as in [BULLET\_DEFAULT](../../com.aspose.words/listtemplate\#BULLET-DEFAULT).
 
 Corresponds to the 7th bulleted list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -140,7 +140,7 @@ public static int NUMBER_ARABIC_DOT
 ```
 
 
-Same as NumberDefault.
+Same as [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate\#NUMBER-DEFAULT).
 
 Corresponds to the 1st numbered list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -150,7 +150,7 @@ public static int NUMBER_ARABIC_PARENTHESIS
 ```
 
 
-The number of the first level is "1)". The remaining levels are same as in NumberDefault.
+The number of the first level is "1)". The remaining levels are same as in [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate\#NUMBER-DEFAULT).
 
 Corresponds to the 2nd numbered list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -172,7 +172,7 @@ public static int NUMBER_LOWERCASE_LETTER_DOT
 ```
 
 
-The number of the first level is "a.". The remaining levels are same as in NumberDefault.
+The number of the first level is "a.". The remaining levels are same as in [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate\#NUMBER-DEFAULT).
 
 Corresponds to the 6th numbered list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -182,7 +182,7 @@ public static int NUMBER_LOWERCASE_LETTER_PARENTHESIS
 ```
 
 
-The number of the first level is "a)". The remaining levels are same as in NumberDefault.
+The number of the first level is "a)". The remaining levels are same as in [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate\#NUMBER-DEFAULT).
 
 Corresponds to the 5th numbered list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -192,7 +192,7 @@ public static int NUMBER_LOWERCASE_ROMAN_DOT
 ```
 
 
-The number of the first level is "i.". The remaining levels are same as in NumberDefault.
+The number of the first level is "i.". The remaining levels are same as in [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate\#NUMBER-DEFAULT).
 
 Corresponds to the 7th numbered list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -202,7 +202,7 @@ public static int NUMBER_UPPERCASE_LETTER_DOT
 ```
 
 
-The number of the first level is "A.". The remaining levels are same as in NumberDefault.
+The number of the first level is "A.". The remaining levels are same as in [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate\#NUMBER-DEFAULT).
 
 Corresponds to the 4th numbered list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -212,7 +212,7 @@ public static int NUMBER_UPPERCASE_ROMAN_DOT
 ```
 
 
-The number of the first level is "I.". The remaining levels are same as in NumberDefault.
+The number of the first level is "I.". The remaining levels are same as in [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate\#NUMBER-DEFAULT).
 
 Corresponds to the 3rd numbered list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -292,7 +292,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -307,7 +307,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String listTemplateName) {#fromName-java.lang.String-}
+### fromName(String listTemplateName) {#fromName-java.lang.String}
 ```
 public static int fromName(String listTemplateName)
 ```
@@ -322,7 +322,7 @@ public static int fromName(String listTemplateName)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -332,7 +332,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int listTemplate) {#getName-int-}
+### getName(int listTemplate) {#getName-int}
 ```
 public static String getName(int listTemplate)
 ```
@@ -347,7 +347,7 @@ public static String getName(int listTemplate)
 
 **Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -357,7 +357,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -367,7 +367,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -375,7 +375,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -383,7 +383,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -393,7 +393,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int listTemplate) {#toString-int-}
+### toString(int listTemplate) {#toString-int}
 ```
 public static String toString(int listTemplate)
 ```
@@ -408,7 +408,7 @@ public static String toString(int listTemplate)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -416,7 +416,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -429,7 +429,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

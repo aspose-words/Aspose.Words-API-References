@@ -3,7 +3,7 @@ title: KnownTypeSet
 second_title: Aspose.Words for Java API Reference
 description: Represents an unordered set i.e.
 type: docs
-weight: 356
+weight: 358
 url: /java/com.aspose.words/knowntypeset/
 ---
 
@@ -18,26 +18,29 @@ public class KnownTypeSet implements Iterable
 
 Represents an unordered set (i.e. a collection of unique items) containing java.lang.Class objects which fully or partially qualified names can be used within report templates to invoke the corresponding types' static members, perform type casts, etc.
 
-To learn more, visit the **LINQ Reporting Engine** documentation article.
+To learn more, visit the [ LINQ Reporting Engine ][LINQ Reporting Engine] documentation article.
+
+
+[LINQ Reporting Engine]: https://docs.aspose.com/words/java/linq-reporting-engine/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [add(Class type)](#add-java.lang.Class-) | Adds the specified java.lang.Class object to the set. |
-| [clear()](#clear--) | Removes all items from the set. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets the count of items in the set. |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Returns An java.util.Iterator object to iterate over items of the set. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove(Class type)](#remove-java.lang.Class-) | Removes the specified java.lang.Class object from the set. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(Class type) {#add-java.lang.Class-}
+| [add(Class type)](#add-java.lang.Class) | Adds the specified java.lang.Class object to the set. |
+| [clear()](#clear) | Removes all items from the set. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getCount()](#getCount) | Gets the count of items in the set. |
+| [hashCode()](#hashCode) |  |
+| [iterator()](#iterator) | Returns An java.util.Iterator object to iterate over items of the set. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [remove(Class type)](#remove-java.lang.Class) | Removes the specified java.lang.Class object from the set. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### add(Class type) {#add-java.lang.Class}
 ```
 public void add(Class type)
 ```
@@ -45,7 +48,7 @@ public void add(Class type)
 
 Adds the specified java.lang.Class object to the set. Throws java.lang.IllegalArgumentException in the following cases:
 
-\-  type  is null.
+\-  type  is  null .
 
 \-  type  represents a void type.
 
@@ -60,7 +63,7 @@ Adds the specified java.lang.Class object to the set. Throws java.lang.IllegalAr
 | --- | --- | --- |
 | type | java.lang.Class | A java.lang.Class object to add. |
 
-### clear() {#clear--}
+### clear() {#clear}
 ```
 public void clear()
 ```
@@ -68,7 +71,7 @@ public void clear()
 
 Removes all items from the set.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -83,7 +86,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -93,7 +96,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCount() {#getCount--}
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -103,7 +106,7 @@ Gets the count of items in the set.
 
 **Returns:**
 int - The count of items in the set.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -113,7 +116,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### iterator() {#iterator--}
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -123,7 +126,7 @@ Returns An java.util.Iterator object to iterate over items of the set.
 
 **Returns:**
 java.util.Iterator - An java.util.Iterator object to iterate over items of the set.
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -131,7 +134,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -139,20 +142,20 @@ public final native void notifyAll()
 
 
 
-### remove(Class type) {#remove-java.lang.Class-}
+### remove(Class type) {#remove-java.lang.Class}
 ```
 public void remove(Class type)
 ```
 
 
-Removes the specified java.lang.Class object from the set. Throws java.lang.IllegalArgumentException if  type  is null.
+Removes the specified java.lang.Class object from the set. Throws java.lang.IllegalArgumentException if  type  is  null .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | java.lang.Class | A java.lang.Class object to remove. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -162,7 +165,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -170,7 +173,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -183,7 +186,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

@@ -1,7 +1,7 @@
 ---
 title: DigitalSignature
 second_title: Aspose.Words for C++ API Reference
-description: Represents a digital signature on a document and the result of its verification.
+description: Represents a digital signature on a document and the result of its verification. To learn more, visit the  documentation article.
 type: docs
 weight: 14
 url: /cpp/aspose.words.digitalsignatures/digitalsignature/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignature/
 ## DigitalSignature class
 
 
-Represents a digital signature on a document and the result of its verification.
+Represents a digital signature on a document and the result of its verification. To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/cpp/working-with-digital-signatures/) documentation article.
 
 ```cpp
 class DigitalSignature : public System::Object
@@ -22,11 +22,14 @@ class DigitalSignature : public System::Object
 | [get_CertificateHolder](./get_certificateholder/)() const | Returns the certificate holder object that contains the certificate was used to sign the document. |
 | [get_Comments](./get_comments/)() const | Gets the signing purpose comment. |
 | [get_IssuerName](./get_issuername/)() | Returns the subject distinguished name of the certificate isuuer. |
-| [get_IsValid](./get_isvalid/)() const | Returns true if this digital signature is valid and the document has not been tampered with. |
+| [get_IsValid](./get_isvalid/)() const | Returns **true** if this digital signature is valid and the document has not been tampered with. |
 | [get_SignatureType](./get_signaturetype/)() const | Gets the type of the digital signature. |
 | [get_SignTime](./get_signtime/)() const | Gets the time the document was signed. |
 | [get_SubjectName](./get_subjectname/)() | Returns the subject distinguished name of the certificate that was used to sign the document. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [ToString](./tostring/)() const override | Returns a user-friendly string that displays the value of this object. |
+| static [Type](./type/)() |  |
 
 ## Examples
 

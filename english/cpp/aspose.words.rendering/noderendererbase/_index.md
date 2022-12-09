@@ -1,7 +1,7 @@
 ---
 title: NodeRendererBase
 second_title: Aspose.Words for C++ API Reference
-description: Base class for ShapeRenderer and OfficeMathRenderer.
+description: Base class for ShapeRenderer and OfficeMathRenderer. To learn more, visit the  documentation article.
 type: docs
 weight: 1
 url: /cpp/aspose.words.rendering/noderendererbase/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.rendering/noderendererbase/
 ## NodeRendererBase class
 
 
-Base class for [ShapeRenderer](../shaperenderer/) and [OfficeMathRenderer](../officemathrenderer/).
+Base class for [ShapeRenderer](../shaperenderer/) and [OfficeMathRenderer](../officemathrenderer/). To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/cpp/working-with-shapes/) documentation article.
 
 ```cpp
 class NodeRendererBase : public System::Object
@@ -28,12 +28,15 @@ class NodeRendererBase : public System::Object
 | [GetOpaqueBoundsInPixels](./getopaqueboundsinpixels/)(float, float, float) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. |
 | [GetSizeInPixels](./getsizeinpixels/)(float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
 | [GetSizeInPixels](./getsizeinpixels/)(float, float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [NodeRendererBase](./noderendererbase/)() |  |
 | [RenderToScale](./rendertoscale/)(const System::SharedPtr\<System::Drawing::Graphics\>\&, float, float, float) | Renders the shape into a **Graphics** object to a specified scale. |
 | [RenderToSize](./rendertosize/)(const System::SharedPtr\<System::Drawing::Graphics\>\&, float, float, float, float) | Renders the shape into a **Graphics** object to a specified size. |
 | [Save](./save/)(const System::String\&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) | Renders the shape into an image and saves into a file. |
 | [Save](./save/)(const System::SharedPtr\<System::IO::Stream\>\&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) | Renders the shape into an image and saves into a stream. |
 | [Save](./save/)(std::basic_ostream\<CharType, Traits\>\&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

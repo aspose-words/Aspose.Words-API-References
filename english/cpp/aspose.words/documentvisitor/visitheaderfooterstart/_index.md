@@ -3,7 +3,7 @@ title: VisitHeaderFooterStart
 second_title: Aspose.Words for C++ API Reference
 description: Called when enumeration of a header or footer in a section has started.
 type: docs
-weight: 365
+weight: 404
 url: /cpp/aspose.words/documentvisitor/visitheaderfooterstart/
 ---
 ## DocumentVisitor::VisitHeaderFooterStart method

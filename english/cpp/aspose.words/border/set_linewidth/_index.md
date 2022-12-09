@@ -3,7 +3,7 @@ title: set_LineWidth
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Border::get_LineWidth.'
 type: docs
-weight: 157
+weight: 196
 url: /cpp/aspose.words/border/set_linewidth/
 ---
 ## Border::set_LineWidth method

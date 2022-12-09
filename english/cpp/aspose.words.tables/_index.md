@@ -13,15 +13,15 @@ The **Aspose.Words.Tables** namespace contains classes that represent tables, ro
 
 | Class | Description |
 | --- | --- |
-| [Cell](./cell/) | Represents a table cell. |
-| [CellCollection](./cellcollection/) | Provides typed access to a collection of [Cell](./cell/) nodes. |
-| [CellFormat](./cellformat/) | Represents all formatting for a table cell. |
-| [PreferredWidth](./preferredwidth/) | Represents a value and its unit of measure that is used to specify the preferred width of a table or a cell. |
-| [Row](./row/) | Represents a table row. |
-| [RowCollection](./rowcollection/) | Provides typed access to a collection of [Row](./row/) nodes. |
-| [RowFormat](./rowformat/) | Represents all formatting for a table row. |
-| [Table](./table/) | Represents a table in a Word document. |
-| [TableCollection](./tablecollection/) | Provides typed access to a collection of [Table](./table/) nodes. |
+| [Cell](./cell/) | Represents a table cell. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article. |
+| [CellCollection](./cellcollection/) | Provides typed access to a collection of [Cell](./cell/) nodes. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article. |
+| [CellFormat](./cellformat/) | Represents all formatting for a table cell. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article. |
+| [PreferredWidth](./preferredwidth/) | Represents a value and its unit of measure that is used to specify the preferred width of a table or a cell. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article. |
+| [Row](./row/) | Represents a table row. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article. |
+| [RowCollection](./rowcollection/) | Provides typed access to a collection of [Row](./row/) nodes. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article. |
+| [RowFormat](./rowformat/) | Represents all formatting for a table row. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article. |
+| [Table](./table/) | Represents a table in a Word document. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article. |
+| [TableCollection](./tablecollection/) | Provides typed access to a collection of [Table](./table/) nodes. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article. |
 ## Enums
 
 | Enum | Description |

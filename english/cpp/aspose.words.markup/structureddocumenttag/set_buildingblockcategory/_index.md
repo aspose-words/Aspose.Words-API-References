@@ -3,7 +3,7 @@ title: set_BuildingBlockCategory
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Markup::StructuredDocumentTag::get_BuildingBlockCategory.'
 type: docs
-weight: 456
+weight: 495
 url: /cpp/aspose.words.markup/structureddocumenttag/set_buildingblockcategory/
 ---
 ## StructuredDocumentTag::set_BuildingBlockCategory method

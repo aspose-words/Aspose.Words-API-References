@@ -1,7 +1,7 @@
 ---
 title: ChartNumberFormat
 second_title: Aspose.Words for C++ API Reference
-description: Represents number formatting of the parent element.
+description: Represents number formatting of the parent element. To learn more, visit the  documentation article.
 type: docs
 weight: 183
 url: /cpp/aspose.words.drawing.charts/chartnumberformat/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing.charts/chartnumberformat/
 ## ChartNumberFormat class
 
 
-Represents number formatting of the parent element.
+Represents number formatting of the parent element. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
 class ChartNumberFormat : public System::Object
@@ -21,8 +21,11 @@ class ChartNumberFormat : public System::Object
 | --- | --- |
 | [get_FormatCode](./get_formatcode/)() | Gets or sets the format code applied to a data label. |
 | [get_IsLinkedToSource](./get_islinkedtosource/)() | Specifies whether the format code is linked to a source cell. Default is true. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_FormatCode](./set_formatcode/)(const System::String\&) | Setter for [Aspose::Words::Drawing::Charts::ChartNumberFormat::get_FormatCode](./get_formatcode/). |
 | [set_IsLinkedToSource](./set_islinkedtosource/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartNumberFormat::get_IsLinkedToSource](./get_islinkedtosource/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

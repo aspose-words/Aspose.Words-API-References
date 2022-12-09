@@ -3,7 +3,7 @@ title: get_Start
 second_title: Aspose.Words for C++ API Reference
 description: Gets the node that represents the start of the field.
 type: docs
-weight: 53
+weight: 66
 url: /cpp/aspose.words.fields/fieldmacrobutton/get_start/
 ---
 ## FieldMacroButton::get_Start method

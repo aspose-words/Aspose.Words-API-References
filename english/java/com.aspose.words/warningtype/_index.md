@@ -3,7 +3,7 @@ title: WarningType
 second_title: Aspose.Words for Java API Reference
 description: Specifies the type of a warning that is issued by Aspose.Words during document loading or saving.
 type: docs
-weight: 607
+weight: 610
 url: /java/com.aspose.words/warningtype/
 ---
 
@@ -34,22 +34,22 @@ Specifies the type of a warning that is issued by Aspose.Words during document l
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String warningTypeName)](#fromName-java.lang.String-) |  |
-| [fromNames(Set warningTypeNames)](#fromNames-java.util.Set-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int warningType)](#getName-int-) |  |
-| [getNames(int warningType)](#getNames-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int warningType)](#toString-int-) |  |
-| [toStringSet(int attr)](#toStringSet-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String warningTypeName)](#fromName-java.lang.String) |  |
+| [fromNames(Set warningTypeNames)](#fromNames-java.util.Set) |  |
+| [getClass()](#getClass) |  |
+| [getName(int warningType)](#getName-int) |  |
+| [getNames(int warningType)](#getNames-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int warningType)](#toString-int) |  |
+| [toStringSet(int attr)](#toStringSet-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### DATA_LOSS {#DATA-LOSS}
 ```
 public static int DATA_LOSS
@@ -144,7 +144,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -159,7 +159,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String warningTypeName) {#fromName-java.lang.String-}
+### fromName(String warningTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String warningTypeName)
 ```
@@ -174,7 +174,7 @@ public static int fromName(String warningTypeName)
 
 **Returns:**
 int
-### fromNames(Set warningTypeNames) {#fromNames-java.util.Set-}
+### fromNames(Set warningTypeNames) {#fromNames-java.util.Set}
 ```
 public static int fromNames(Set warningTypeNames)
 ```
@@ -189,7 +189,7 @@ public static int fromNames(Set warningTypeNames)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -199,7 +199,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int warningType) {#getName-int-}
+### getName(int warningType) {#getName-int}
 ```
 public static String getName(int warningType)
 ```
@@ -214,7 +214,7 @@ public static String getName(int warningType)
 
 **Returns:**
 java.lang.String
-### getNames(int warningType) {#getNames-int-}
+### getNames(int warningType) {#getNames-int}
 ```
 public static Set getNames(int warningType)
 ```
@@ -229,7 +229,7 @@ public static Set getNames(int warningType)
 
 **Returns:**
 java.util.Set
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -239,7 +239,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -249,7 +249,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -257,7 +257,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -265,7 +265,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -275,7 +275,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int warningType) {#toString-int-}
+### toString(int warningType) {#toString-int}
 ```
 public static String toString(int warningType)
 ```
@@ -290,7 +290,7 @@ public static String toString(int warningType)
 
 **Returns:**
 java.lang.String
-### toStringSet(int attr) {#toStringSet-int-}
+### toStringSet(int attr) {#toStringSet-int}
 ```
 public static String toStringSet(int attr)
 ```
@@ -305,7 +305,7 @@ public static String toStringSet(int attr)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -313,7 +313,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -326,7 +326,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

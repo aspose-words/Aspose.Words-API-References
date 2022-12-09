@@ -3,7 +3,7 @@ title: Contains
 second_title: Aspose.Words for C++ API Reference
 description: Determines whether the collection contains the specified value.
 type: docs
-weight: 66
+weight: 79
 url: /cpp/aspose.words.fields/dropdownitemcollection/contains/
 ---
 ## DropDownItemCollection::Contains method
@@ -22,7 +22,7 @@ bool Aspose::Words::Fields::DropDownItemCollection::Contains(const System::Strin
 
 ### ReturnValue
 
-True if the item is found in the collection; otherwise, false.
+**true** if the item is found in the collection; otherwise, **false**.
 
 ## Examples
 

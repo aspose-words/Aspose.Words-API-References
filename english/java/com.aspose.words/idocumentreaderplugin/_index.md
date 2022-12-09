@@ -3,7 +3,7 @@ title: IDocumentReaderPlugin
 second_title: Aspose.Words for Java API Reference
 description: Defines an interface for external reader plugins that can read a file into a document.
 type: docs
-weight: 638
+weight: 641
 url: /java/com.aspose.words/idocumentreaderplugin/
 ---
 ```
@@ -15,8 +15,8 @@ Defines an interface for external reader plugins that can read a file into a doc
 
 | Method | Description |
 | --- | --- |
-| [read(InputStream src, LoadOptions loadOptions, Document document)](#read-java.io.InputStream-com.aspose.words.LoadOptions-com.aspose.words.Document-) |  |
-### read(InputStream src, LoadOptions loadOptions, Document document) {#read-java.io.InputStream-com.aspose.words.LoadOptions-com.aspose.words.Document-}
+| [read(InputStream src, LoadOptions loadOptions, Document document)](#read-java.io.InputStream-com.aspose.words.LoadOptions-com.aspose.words.Document) |  |
+### read(InputStream src, LoadOptions loadOptions, Document document) {#read-java.io.InputStream-com.aspose.words.LoadOptions-com.aspose.words.Document}
 ```
 public abstract void read(InputStream src, LoadOptions loadOptions, Document document)
 ```

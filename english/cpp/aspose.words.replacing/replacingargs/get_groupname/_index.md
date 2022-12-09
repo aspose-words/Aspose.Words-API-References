@@ -3,7 +3,7 @@ title: get_GroupName
 second_title: Aspose.Words for C++ API Reference
 description: Identifies, by name, a captured group in the Match that is to be replaced with the Replacement string.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words.replacing/replacingargs/get_groupname/
 ---
 ## ReplacingArgs::get_GroupName method
@@ -18,9 +18,9 @@ System::String Aspose::Words::Replacing::ReplacingArgs::get_GroupName() const
 ## Remarks
 
 
-When group name is null, [GroupIndex](../get_groupindex/) is used to identify the group.
+When group name is **null**, [GroupIndex](../get_groupindex/) is used to identify the group.
 
-Default is null.
+Default is **null**.
 
 ## Examples
 

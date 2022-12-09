@@ -3,7 +3,7 @@ title: virtualizeEndConstIterator
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 183
+weight: 222
 url: /cpp/aspose.words.settings/odsorecipientdatacollection/virtualizeendconstiterator/
 ---
 ## OdsoRecipientDataCollection::virtualizeEndConstIterator method

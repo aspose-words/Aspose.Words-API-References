@@ -3,7 +3,7 @@ title: GetOleEntry
 second_title: Aspose.Words for C++ API Reference
 description: Gets OLE object data entry.
 type: docs
-weight: 170
+weight: 183
 url: /cpp/aspose.words.drawing/oleformat/getoleentry/
 ---
 ## OleFormat::GetOleEntry method
@@ -22,7 +22,7 @@ System::SharedPtr<System::IO::MemoryStream> Aspose::Words::Drawing::OleFormat::G
 
 ### ReturnValue
 
-An OLE data stream or null.
+An OLE data stream or **null**.
 
 ## Examples
 

@@ -1,7 +1,7 @@
 ---
 title: FieldTA
 second_title: Aspose.Words for C++ API Reference
-description: Implements the TA field.
+description: Implements the TA field. To learn more, visit the  documentation article.
 type: docs
 weight: 1275
 url: /cpp/aspose.words.fields/fieldta/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fields/fieldta/
 ## FieldTA class
 
 
-Implements the TA field.
+Implements the TA field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class FieldTA : public Aspose::Words::Fields::Field,
@@ -34,12 +34,14 @@ class FieldTA : public Aspose::Words::Fields::Field,
 | [get_LongCitation](./get_longcitation/)() | Gets or sets the long citation for the entry. |
 | [get_PageRangeBookmarkName](./get_pagerangebookmarkname/)() | Gets or sets the name of the bookmark that marks a range of pages that is inserted as the entry's page number. |
 | [get_Result](../field/get_result/)() | Gets or sets text that is between the field separator and field end. |
-| [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be null. |
+| [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be **null**. |
 | [get_ShortCitation](./get_shortcitation/)() | Gets or sets the short citation for the entry. |
 | [get_Start](../field/get_start/)() const | Gets the node that represents the start of the field. |
 | virtual [get_Type](../field/get_type/)() const | Gets the Microsoft Word field type. |
 | [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_EntryCategory](./set_entrycategory/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldTA::get_EntryCategory](./get_entrycategory/). |
 | [set_IsBold](./set_isbold/)(bool) | Setter for [Aspose::Words::Fields::FieldTA::get_IsBold](./get_isbold/). |
@@ -51,6 +53,7 @@ class FieldTA : public Aspose::Words::Fields::Field,
 | [set_PageRangeBookmarkName](./set_pagerangebookmarkname/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldTA::get_PageRangeBookmarkName](./get_pagerangebookmarkname/). |
 | [set_Result](../field/set_result/)(const System::String\&) | Setter for [Aspose::Words::Fields::Field::get_Result](../field/get_result/). |
 | [set_ShortCitation](./set_shortcitation/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldTA::get_ShortCitation](./get_shortcitation/). |
+| static [Type](./type/)() |  |
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |

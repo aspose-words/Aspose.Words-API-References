@@ -1,7 +1,7 @@
 ---
 title: Frameset
 second_title: Aspose.Words for C++ API Reference
-description: Represents a frames page or a single frame on a frames page.
+description: Represents a frames page or a single frame on a frames page. To learn more, visit the  documentation article.
 type: docs
 weight: 1
 url: /cpp/aspose.words.framesets/frameset/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.framesets/frameset/
 ## Frameset class
 
 
-Represents a frames page or a single frame on a frames page.
+Represents a frames page or a single frame on a frames page. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
 
 ```cpp
 class Frameset : public System::Object
@@ -23,8 +23,11 @@ class Frameset : public System::Object
 | [get_ChildFramesets](./get_childframesets/)() const | Gets the collection of child frames and frames pages. |
 | [get_FrameDefaultUrl](./get_framedefaulturl/)() | Gets or sets the web page URL or document file name to display in this frame. |
 | [get_IsFrameLinkToFile](./get_isframelinktofile/)() | Gets or sets a value indicating whether the web page or document file name specified in the [FrameDefaultUrl](./get_framedefaulturl/) property is an external resource the frame is linked with. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_FrameDefaultUrl](./set_framedefaulturl/)(const System::String\&) | Setter for [Aspose::Words::Framesets::Frameset::get_FrameDefaultUrl](./get_framedefaulturl/). |
 | [set_IsFrameLinkToFile](./set_isframelinktofile/)(bool) | Setter for [Aspose::Words::Framesets::Frameset::get_IsFrameLinkToFile](./get_isframelinktofile/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

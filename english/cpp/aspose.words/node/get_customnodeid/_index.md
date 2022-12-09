@@ -3,7 +3,7 @@ title: get_CustomNodeId
 second_title: Aspose.Words for C++ API Reference
 description: Specifies custom node identifier.
 type: docs
-weight: 27
+weight: 53
 url: /cpp/aspose.words/node/get_customnodeid/
 ---
 ## Node::get_CustomNodeId method

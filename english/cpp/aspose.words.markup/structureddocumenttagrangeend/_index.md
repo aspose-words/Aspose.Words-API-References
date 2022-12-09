@@ -1,7 +1,7 @@
 ---
 title: StructuredDocumentTagRangeEnd
 second_title: Aspose.Words for C++ API Reference
-description: Represents an end of ranged structured document tag which accepts multi-sections content. See also StructuredDocumentTagRangeStart node.
+description: Represents an end of ranged structured document tag which accepts multi-sections content. See also StructuredDocumentTagRangeStart node. To learn more, visit the  documentation article.
 type: docs
 weight: 157
 url: /cpp/aspose.words.markup/structureddocumenttagrangeend/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.markup/structureddocumenttagrangeend/
 ## StructuredDocumentTagRangeEnd class
 
 
-Represents an end of **ranged** structured document tag which accepts multi-sections content. See also [StructuredDocumentTagRangeStart](../structureddocumenttagrangestart/) node.
+Represents an end of **ranged** structured document tag which accepts multi-sections content. See also [StructuredDocumentTagRangeStart](../structureddocumenttagrangestart/) node. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/structured-document-tags-or-content-control/) documentation article.
 
 ```cpp
 class StructuredDocumentTagRangeEnd : public Aspose::Words::Node
@@ -24,15 +24,17 @@ class StructuredDocumentTagRangeEnd : public Aspose::Words::Node
 | [get_CustomNodeId](../../aspose.words/node/get_customnodeid/)() const | Specifies custom node identifier. |
 | virtual [get_Document](../../aspose.words/node/get_document/)() const | Gets the document to which this node belongs. |
 | [get_Id](./get_id/)() const | Specifies a unique read-only persistent numerical Id for this **StructuredDocumentTagRange** node. Corresponding [StructuredDocumentTagRangeStart](../structureddocumenttagrangestart/) node has the same [Id](../structureddocumenttagrangestart/get_id/). |
-| virtual [get_IsComposite](../../aspose.words/node/get_iscomposite/)() | Returns true if this node can contain other nodes. |
+| virtual [get_IsComposite](../../aspose.words/node/get_iscomposite/)() | Returns **true** if this node can contain other nodes. |
 | [get_NextSibling](../../aspose.words/node/get_nextsibling/)() | Gets the node immediately following this node. |
 | [get_NodeType](./get_nodetype/)() const override | Gets the type of this node. |
 | [get_ParentNode](../../aspose.words/node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
-| [get_Range](../../aspose.words/node/get_range/)() | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [get_Range](../../aspose.words/node/get_range/)() | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/). |
 | [GetAncestorOf](../../aspose.words/node/getancestorof/)() |  |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Gets the text of this node and of all its children. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets next node according to the pre-order tree traversal algorithm. |
 | static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets the previous node according to the pre-order tree traversal algorithm. |
@@ -41,6 +43,7 @@ class StructuredDocumentTagRangeEnd : public Aspose::Words::Node
 | [StructuredDocumentTagRangeEnd](./structureddocumenttagrangeend/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, int32_t) | Initializes a new instance of the **Structured document tag range end** class. |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+| static [Type](./type/)() |  |
 
 ## Examples
 

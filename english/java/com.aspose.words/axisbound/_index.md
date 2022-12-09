@@ -15,35 +15,38 @@ public class AxisBound
 
 Represents minimum or maximum bound of axis values.
 
-To learn more, visit the **Working with Charts** documentation article.
+To learn more, visit the [ Working with Charts ][Working with Charts] documentation article.
 
 Bound can be specified as a numeric, datetime or a special "auto" value.
 
 The instances of this class are immutable.
+
+
+[Working with Charts]: https://docs.aspose.com/words/java/working-with-charts/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [AxisBound()](#AxisBound--) | Creates a new instance indicating that axis bound should be determined automatically by a word-processing application. |
-| [AxisBound(double value)](#AxisBound-double-) | Creates an axis bound represented as a number. |
-| [AxisBound(Date datetime)](#AxisBound-java.util.Date-) | Creates an axis bound represented as datetime value. |
+| [AxisBound()](#AxisBound) | Creates a new instance indicating that axis bound should be determined automatically by a word-processing application. |
+| [AxisBound(double value)](#AxisBound-double) | Creates an axis bound represented as a number. |
+| [AxisBound(Date datetime)](#AxisBound-java.util.Date) | Creates an axis bound represented as datetime value. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is equal in value to the current object. |
-| [getClass()](#getClass--) |  |
-| [getValue()](#getValue--) | Returns numeric value of axis bound. |
-| [getValueAsDate()](#getValueAsDate--) | Returns value of axis bound represented as datetime. |
-| [hashCode()](#hashCode--) |  |
-| [isAuto()](#isAuto--) | Returns a flag indicating that axis bound should be determined automatically. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | Returns a user-friendly string that displays the value of this object. |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### AxisBound() {#AxisBound--}
+| [equals(Object obj)](#equals-java.lang.Object) | Determines whether the specified object is equal in value to the current object. |
+| [getClass()](#getClass) |  |
+| [getValue()](#getValue) | Returns numeric value of axis bound. |
+| [getValueAsDate()](#getValueAsDate) | Returns value of axis bound represented as datetime. |
+| [hashCode()](#hashCode) |  |
+| [isAuto()](#isAuto) | Returns a flag indicating that axis bound should be determined automatically. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) | Returns a user-friendly string that displays the value of this object. |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### AxisBound() {#AxisBound}
 ```
 public AxisBound()
 ```
@@ -51,7 +54,7 @@ public AxisBound()
 
 Creates a new instance indicating that axis bound should be determined automatically by a word-processing application.
 
-### AxisBound(double value) {#AxisBound-double-}
+### AxisBound(double value) {#AxisBound-double}
 ```
 public AxisBound(double value)
 ```
@@ -64,7 +67,7 @@ Creates an axis bound represented as a number.
 | --- | --- | --- |
 | value | double |  |
 
-### AxisBound(Date datetime) {#AxisBound-java.util.Date-}
+### AxisBound(Date datetime) {#AxisBound-java.util.Date}
 ```
 public AxisBound(Date datetime)
 ```
@@ -77,7 +80,7 @@ Creates an axis bound represented as datetime value.
 | --- | --- | --- |
 | datetime | java.util.Date |  |
 
-### equals(Object obj) {#equals-java.lang.Object-}
+### equals(Object obj) {#equals-java.lang.Object}
 ```
 public boolean equals(Object obj)
 ```
@@ -92,7 +95,7 @@ Determines whether the specified object is equal in value to the current object.
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -102,7 +105,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getValue() {#getValue--}
+### getValue() {#getValue}
 ```
 public double getValue()
 ```
@@ -112,7 +115,7 @@ Returns numeric value of axis bound.
 
 **Returns:**
 double - Numeric value of axis bound.
-### getValueAsDate() {#getValueAsDate--}
+### getValueAsDate() {#getValueAsDate}
 ```
 public Date getValueAsDate()
 ```
@@ -122,7 +125,7 @@ Returns value of axis bound represented as datetime.
 
 **Returns:**
 java.util.Date - Value of axis bound represented as datetime.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public int hashCode()
 ```
@@ -132,7 +135,7 @@ public int hashCode()
 
 **Returns:**
 int
-### isAuto() {#isAuto--}
+### isAuto() {#isAuto}
 ```
 public boolean isAuto()
 ```
@@ -142,7 +145,7 @@ Returns a flag indicating that axis bound should be determined automatically.
 
 **Returns:**
 boolean - A flag indicating that axis bound should be determined automatically.
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -150,7 +153,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -158,7 +161,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -168,7 +171,7 @@ Returns a user-friendly string that displays the value of this object.
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -176,7 +179,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -189,7 +192,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

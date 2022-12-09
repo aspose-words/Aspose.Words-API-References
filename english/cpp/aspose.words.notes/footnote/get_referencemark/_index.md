@@ -3,7 +3,7 @@ title: get_ReferenceMark
 second_title: Aspose.Words for C++ API Reference
 description: Gets/sets custom reference mark to be used for this footnote. Default value is empty string, meaning auto-numbered footnotes are used.
 type: docs
-weight: 66
+weight: 79
 url: /cpp/aspose.words.notes/footnote/get_referencemark/
 ---
 ## Footnote::get_ReferenceMark method
@@ -18,7 +18,7 @@ System::String Aspose::Words::Notes::Footnote::get_ReferenceMark() const
 ## Remarks
 
 
-If this property is set to **empty string** or null, then [IsAuto](../get_isauto/) property will automatically be set to true, if set to anything else then [IsAuto](../get_isauto/) will be set to false.
+If this property is set to **empty string** or **null**, then [IsAuto](../get_isauto/) property will automatically be set to **true**, if set to anything else then [IsAuto](../get_isauto/) will be set to **false**.
 
 RTF-format can only store 1 symbol as custom reference mark, so upon export only the first symbol will be written others will be discard.
 

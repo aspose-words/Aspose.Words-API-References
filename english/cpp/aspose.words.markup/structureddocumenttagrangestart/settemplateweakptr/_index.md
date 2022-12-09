@@ -3,7 +3,7 @@ title: SetTemplateWeakPtr
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 404
+weight: 443
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/settemplateweakptr/
 ---
 ## StructuredDocumentTagRangeStart::SetTemplateWeakPtr method

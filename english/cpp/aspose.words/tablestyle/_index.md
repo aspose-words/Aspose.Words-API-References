@@ -1,7 +1,7 @@
 ---
 title: TableStyle
 second_title: Aspose.Words for C++ API Reference
-description: Represents a table style.
+description: Represents a table style. To learn more, visit the  documentation article.
 type: docs
 weight: 859
 url: /cpp/aspose.words/tablestyle/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/tablestyle/
 ## TableStyle class
 
 
-Represents a table style.
+Represents a table style. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article.
 
 ```cpp
 class TableStyle : public Aspose::Words::Style,
@@ -41,7 +41,7 @@ class TableStyle : public Aspose::Words::Style,
 | [get_IsQuickStyle](../style/get_isquickstyle/)() const | Specifies whether this style is shown in the Quick [Style](../style/) gallery inside MS Word UI. |
 | [get_LeftIndent](./get_leftindent/)() | Gets or sets the value that represents the left indent of a table. |
 | [get_LeftPadding](./get_leftpadding/)() | Gets or sets the amount of space (in points) to add to the left of the contents of table cells. |
-| [get_LinkedStyleName](../style/get_linkedstylename/)() | Gets the name of the [Style](../style/) linked to this one. Returns Empty string if no styles are linked. |
+| [get_LinkedStyleName](../style/get_linkedstylename/)() | Gets the name of the [Style](../style/) linked to this one. Returns empty string if no styles are linked. |
 | [get_List](../style/get_list/)() | Gets the list that defines formatting of this list style. |
 | [get_ListFormat](../style/get_listformat/)() | Provides access to the list formatting properties of a paragraph style. |
 | [get_Name](../style/get_name/)() const | Gets or sets the name of the style. |
@@ -55,6 +55,8 @@ class TableStyle : public Aspose::Words::Style,
 | [get_TopPadding](./get_toppadding/)() | Gets or sets the amount of space (in points) to add above the contents of table cells. |
 | [get_Type](../style/get_type/)() const | Gets the style type (paragraph or character). |
 | [get_VerticalAlignment](./get_verticalalignment/)() | Specifies the vertical alignment for the cells. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../style/remove/)() | Removes the specified style from the document. |
 | [set_Alignment](./set_alignment/)(Aspose::Words::Tables::TableAlignment) | Setter for [Aspose::Words::TableStyle::get_Alignment](./get_alignment/). |
 | [set_AllowBreakAcrossPages](./set_allowbreakacrosspages/)(bool) | Setter for [Aspose::Words::TableStyle::get_AllowBreakAcrossPages](./get_allowbreakacrosspages/). |
@@ -72,6 +74,7 @@ class TableStyle : public Aspose::Words::Style,
 | [set_RowStripe](./set_rowstripe/)(int32_t) | Setter for [Aspose::Words::TableStyle::get_RowStripe](./get_rowstripe/). |
 | [set_TopPadding](./set_toppadding/)(double) | Setter for [Aspose::Words::TableStyle::get_TopPadding](./get_toppadding/). |
 | [set_VerticalAlignment](./set_verticalalignment/)(Aspose::Words::Tables::CellVerticalAlignment) | Setter for [Aspose::Words::TableStyle::get_VerticalAlignment](./get_verticalalignment/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

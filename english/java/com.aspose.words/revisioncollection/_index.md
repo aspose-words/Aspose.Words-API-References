@@ -3,7 +3,7 @@ title: RevisionCollection
 second_title: Aspose.Words for Java API Reference
 description: A collection of  objects that represent revisions in the document.
 type: docs
-weight: 484
+weight: 487
 url: /java/com.aspose.words/revisioncollection/
 ---
 
@@ -18,29 +18,32 @@ public class RevisionCollection implements Iterable
 
 A collection of [Revision](../../com.aspose.words/revision) objects that represent revisions in the document.
 
-To learn more, visit the **Track Changes in a Document** documentation article.
+To learn more, visit the [ Track Changes in a Document ][Track Changes in a Document] documentation article.
 
-You do not create instances of this class directly. Use the [Document.getRevisions()](../../com.aspose.words/document\#getRevisions--) property to get revisions present in a document.
+You do not create instances of this class directly. Use the [Document.getRevisions()](../../com.aspose.words/document\#getRevisions) property to get revisions present in a document.
+
+
+[Track Changes in a Document]: https://docs.aspose.com/words/java/track-changes-in-a-document/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [acceptAll()](#acceptAll--) | Accepts all revisions in this collection. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Returns a Revision at the specified index. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Returns the number of revisions in the collection. |
-| [getGroups()](#getGroups--) | Collection of revision groups. |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Returns an enumerator object. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [rejectAll()](#rejectAll--) | Rejects all revisions in this collection. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### acceptAll() {#acceptAll--}
+| [acceptAll()](#acceptAll) | Accepts all revisions in this collection. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [get(int index)](#get-int) | Returns a [Revision](../../com.aspose.words/revision) at the specified index. |
+| [getClass()](#getClass) |  |
+| [getCount()](#getCount) | Returns the number of revisions in the collection. |
+| [getGroups()](#getGroups) | Collection of revision groups. |
+| [hashCode()](#hashCode) |  |
+| [iterator()](#iterator) | Returns an enumerator object. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [rejectAll()](#rejectAll) | Rejects all revisions in this collection. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### acceptAll() {#acceptAll}
 ```
 public void acceptAll()
 ```
@@ -48,7 +51,7 @@ public void acceptAll()
 
 Accepts all revisions in this collection.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -63,13 +66,13 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### get(int index) {#get-int-}
+### get(int index) {#get-int}
 ```
 public Revision get(int index)
 ```
 
 
-Returns a Revision at the specified index.
+Returns a [Revision](../../com.aspose.words/revision) at the specified index.
 
 The index is zero-based.
 
@@ -85,8 +88,8 @@ If index is negative and its absolute value is greater than the number of items 
 | index | int | An index into the collection. |
 
 **Returns:**
-[Revision](../../com.aspose.words/revision) - A Revision at the specified index.
-### getClass() {#getClass--}
+[Revision](../../com.aspose.words/revision) - A [Revision](../../com.aspose.words/revision) at the specified index.
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -96,7 +99,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCount() {#getCount--}
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -106,7 +109,7 @@ Returns the number of revisions in the collection.
 
 **Returns:**
 int - The number of revisions in the collection.
-### getGroups() {#getGroups--}
+### getGroups() {#getGroups}
 ```
 public RevisionGroupCollection getGroups()
 ```
@@ -116,7 +119,7 @@ Collection of revision groups.
 
 **Returns:**
 [RevisionGroupCollection](../../com.aspose.words/revisiongroupcollection) - The corresponding [RevisionGroupCollection](../../com.aspose.words/revisiongroupcollection) value.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -126,7 +129,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### iterator() {#iterator--}
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -136,7 +139,7 @@ Returns an enumerator object.
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -144,7 +147,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -152,7 +155,7 @@ public final native void notifyAll()
 
 
 
-### rejectAll() {#rejectAll--}
+### rejectAll() {#rejectAll}
 ```
 public void rejectAll()
 ```
@@ -160,7 +163,7 @@ public void rejectAll()
 
 Rejects all revisions in this collection.
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -170,7 +173,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -178,7 +181,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -191,7 +194,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

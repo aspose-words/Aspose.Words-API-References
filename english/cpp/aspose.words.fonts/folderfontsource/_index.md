@@ -1,7 +1,7 @@
 ---
 title: FolderFontSource
 second_title: Aspose.Words for C++ API Reference
-description: Represents the folder that contains TrueType font files.
+description: Represents the folder that contains TrueType font files. To learn more, visit the  documentation article.
 type: docs
 weight: 27
 url: /cpp/aspose.words.fonts/folderfontsource/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fonts/folderfontsource/
 ## FolderFontSource class
 
 
-Represents the folder that contains TrueType font files.
+Represents the folder that contains TrueType font files. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
 
 ```cpp
 class FolderFontSource : public Aspose::Words::Fonts::FontSourceBase
@@ -27,7 +27,10 @@ class FolderFontSource : public Aspose::Words::Fonts::FontSourceBase
 | [get_Type](./get_type/)() override | Returns the type of the font source. |
 | [get_WarningCallback](../fontsourcebase/get_warningcallback/)() const | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
 | [GetAvailableFonts](../fontsourcebase/getavailablefonts/)() | Returns list of fonts available via this source. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_WarningCallback](../fontsourcebase/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Setter for [Aspose::Words::Fonts::FontSourceBase::get_WarningCallback](../fontsourcebase/get_warningcallback/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

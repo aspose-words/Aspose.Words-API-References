@@ -3,7 +3,7 @@ title: ReplaceAction
 second_title: Aspose.Words for Java API Reference
 description: Allows the user to specify what happens to the current match during a replace operation.
 type: docs
-weight: 475
+weight: 478
 url: /java/com.aspose.words/replaceaction/
 ---
 
@@ -26,19 +26,19 @@ Allows the user to specify what happens to the current match during a replace op
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String replaceActionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int replaceAction)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int replaceAction)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String replaceActionName)](#fromName-java.lang.String) |  |
+| [getClass()](#getClass) |  |
+| [getName(int replaceAction)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int replaceAction)](#toString-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### REPLACE {#REPLACE}
 ```
 public static int REPLACE
@@ -69,7 +69,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -84,7 +84,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String replaceActionName) {#fromName-java.lang.String-}
+### fromName(String replaceActionName) {#fromName-java.lang.String}
 ```
 public static int fromName(String replaceActionName)
 ```
@@ -99,7 +99,7 @@ public static int fromName(String replaceActionName)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -109,7 +109,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int replaceAction) {#getName-int-}
+### getName(int replaceAction) {#getName-int}
 ```
 public static String getName(int replaceAction)
 ```
@@ -124,7 +124,7 @@ public static String getName(int replaceAction)
 
 **Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -134,7 +134,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -144,7 +144,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -152,7 +152,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -160,7 +160,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -170,7 +170,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int replaceAction) {#toString-int-}
+### toString(int replaceAction) {#toString-int}
 ```
 public static String toString(int replaceAction)
 ```
@@ -185,7 +185,7 @@ public static String toString(int replaceAction)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -193,7 +193,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -206,7 +206,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

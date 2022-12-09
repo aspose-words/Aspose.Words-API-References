@@ -3,7 +3,7 @@ title: get_Font
 second_title: Aspose.Words for C++ API Reference
 description: Returns an object that represents current font formatting properties.
 type: docs
-weight: 196
+weight: 209
 url: /cpp/aspose.words/documentbuilder/get_font/
 ---
 ## DocumentBuilder::get_Font method
@@ -18,7 +18,7 @@ System::SharedPtr<Aspose::Words::Font> Aspose::Words::DocumentBuilder::get_Font(
 ## Remarks
 
 
-Use **Font** to access and modify font formatting properties.
+Use [Font](./) to access and modify font formatting properties.
 
 Specify font formatting before inserting text.
 

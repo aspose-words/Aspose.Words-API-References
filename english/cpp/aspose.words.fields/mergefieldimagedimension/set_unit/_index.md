@@ -3,7 +3,7 @@ title: set_Unit
 second_title: Aspose.Words for C++ API Reference
 description: The unit.
 type: docs
-weight: 40
+weight: 79
 url: /cpp/aspose.words.fields/mergefieldimagedimension/set_unit/
 ---
 ## MergeFieldImageDimension::set_Unit method

@@ -3,7 +3,7 @@ title: set_Text
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::MailMerging::FieldMergingArgs::get_Text.'
 type: docs
-weight: 14
+weight: 53
 url: /cpp/aspose.words.mailmerging/fieldmergingargs/set_text/
 ---
 ## FieldMergingArgs::set_Text method

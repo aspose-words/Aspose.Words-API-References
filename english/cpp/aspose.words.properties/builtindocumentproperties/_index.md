@@ -1,7 +1,7 @@
 ---
 title: BuiltInDocumentProperties
 second_title: Aspose.Words for C++ API Reference
-description: A collection of built-in document properties.
+description: A collection of built-in document properties. To learn more, visit the  documentation article.
 type: docs
 weight: 1
 url: /cpp/aspose.words.properties/builtindocumentproperties/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.properties/builtindocumentproperties/
 ## BuiltInDocumentProperties class
 
 
-A collection of built-in document properties.
+A collection of built-in document properties. To learn more, visit the [Work with Document Properties](https://docs.aspose.com/words/cpp/work-with-document-properties/) documentation article.
 
 ```cpp
 class BuiltInDocumentProperties : public Aspose::Words::Properties::DocumentPropertyCollection
@@ -20,7 +20,7 @@ class BuiltInDocumentProperties : public Aspose::Words::Properties::DocumentProp
 | Method | Description |
 | --- | --- |
 | [Clear](../documentpropertycollection/clear/)() | Removes all properties from the collection. |
-| [Contains](../documentpropertycollection/contains/)(const System::String\&) | Returns true if a property with the specified name exists in the collection. |
+| [Contains](../documentpropertycollection/contains/)(const System::String\&) | Returns **true** if a property with the specified name exists in the collection. |
 | [get_Author](./get_author/)() | Gets or sets the name of the document's author. |
 | [get_Bytes](./get_bytes/)() | Represents an estimate of the number of bytes in the document. |
 | [get_Category](./get_category/)() | Gets or sets the category of the document. |
@@ -28,8 +28,8 @@ class BuiltInDocumentProperties : public Aspose::Words::Properties::DocumentProp
 | [get_CharactersWithSpaces](./get_characterswithspaces/)() | Represents an estimate of the number of characters (including spaces) in the document. |
 | [get_Comments](./get_comments/)() | Gets or sets the document comments. |
 | [get_Company](./get_company/)() | Gets or sets the company property. |
-| [get_ContentStatus](./get_contentstatus/)() | Gets or sets the ContentStatus of the document. |
-| [get_ContentType](./get_contenttype/)() | Gets or sets the ContentStatus of the document. |
+| [get_ContentStatus](./get_contentstatus/)() | Gets or sets the [ContentStatus](../) of the document. |
+| [get_ContentType](./get_contenttype/)() | Gets or sets the [ContentType](../) of the document. |
 | [get_Count](../documentpropertycollection/get_count/)() | Gets number of items in the collection. |
 | [get_CreatedTime](./get_createdtime/)() | Gets or sets date of the document creation in UTC. |
 | [get_HeadingPairs](./get_headingpairs/)() | Specifies document headings and their names. |
@@ -55,9 +55,11 @@ class BuiltInDocumentProperties : public Aspose::Words::Properties::DocumentProp
 | [get_Version](./get_version/)() | Represents the version number of the application that created the document. |
 | [get_Words](./get_words/)() | Represents an estimate of the number of words in the document. |
 | [GetEnumerator](../documentpropertycollection/getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(System::String) override | Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
 | [idx_get](../documentpropertycollection/idx_get/)(int32_t) | Returns a [DocumentProperty](../documentproperty/) object by index. |
 | [IndexOf](../documentpropertycollection/indexof/)(const System::String\&) | Gets the index of a property by name. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../documentpropertycollection/remove/)(const System::String\&) | Removes a property with the specified name from the collection. |
 | [RemoveAt](../documentpropertycollection/removeat/)(int32_t) | Removes a property at the specified index. |
 | [set_Author](./set_author/)(const System::String\&) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_Author](./get_author/). |
@@ -92,6 +94,7 @@ class BuiltInDocumentProperties : public Aspose::Words::Properties::DocumentProp
 | [set_TotalEditingTime](./set_totaleditingtime/)(int32_t) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_TotalEditingTime](./get_totaleditingtime/). |
 | [set_Version](./set_version/)(int32_t) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_Version](./get_version/). |
 | [set_Words](./set_words/)(int32_t) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_Words](./get_words/). |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

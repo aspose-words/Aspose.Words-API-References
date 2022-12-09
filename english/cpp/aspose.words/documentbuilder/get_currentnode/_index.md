@@ -3,7 +3,7 @@ title: get_CurrentNode
 second_title: Aspose.Words for C++ API Reference
 description: Gets the node that is currently selected in this DocumentBuilder.
 type: docs
-weight: 118
+weight: 131
 url: /cpp/aspose.words/documentbuilder/get_currentnode/
 ---
 ## DocumentBuilder::get_CurrentNode method
@@ -18,9 +18,9 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::DocumentBuilder::get_Curre
 ## Remarks
 
 
-**CurrentNode** is a cursor of **DocumentBuilder** and points to a **Node** that is a direct child of a **Paragraph**. Any insert operations you perform using **DocumentBuilder** will insert before the **CurrentNode**.
+[CurrentNode](./) is a cursor of [DocumentBuilder](../) and points to a [Node](../../node/) that is a direct child of a [Paragraph](../../paragraph/). Any insert operations you perform using [DocumentBuilder](../) will insert before the [CurrentNode](./).
 
-When the current paragraph is empty or the cursor is positioned just before the end of a paragraph or structured document tag, **CurrentNode** returns null.
+When the current paragraph is empty or the cursor is positioned just before the end of a paragraph or structured document tag, [CurrentNode](./) returns **null**.
 
 ## Examples
 

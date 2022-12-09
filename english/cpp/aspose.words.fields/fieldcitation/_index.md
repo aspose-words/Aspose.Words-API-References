@@ -1,7 +1,7 @@
 ---
 title: FieldCitation
 second_title: Aspose.Words for C++ API Reference
-description: Implements the CITATION field.
+description: Implements the CITATION field. To learn more, visit the  documentation article.
 type: docs
 weight: 274
 url: /cpp/aspose.words.fields/fieldcitation/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fields/fieldcitation/
 ## FieldCitation class
 
 
-Implements the CITATION field.
+Implements the CITATION field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class FieldCitation : public Aspose::Words::Fields::Field,
@@ -33,7 +33,7 @@ class FieldCitation : public Aspose::Words::Fields::Field,
 | [get_PageNumber](./get_pagenumber/)() | Gets or sets a page number associated with the citation. |
 | [get_Prefix](./get_prefix/)() | Gets or sets a prefix that is prepended to the citation. |
 | [get_Result](../field/get_result/)() | Gets or sets text that is between the field separator and field end. |
-| [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be null. |
+| [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be **null**. |
 | [get_SourceTag](./get_sourcetag/)() | Gets or sets a value that mathes the **Tag** element's value of the source to insert. |
 | [get_Start](../field/get_start/)() const | Gets the node that represents the start of the field. |
 | [get_Suffix](./get_suffix/)() | Gets or sets a suffix that is appended to the citation. |
@@ -44,6 +44,8 @@ class FieldCitation : public Aspose::Words::Fields::Field,
 | [get_VolumeNumber](./get_volumenumber/)() | Gets or sets a volume number associated with the citation. |
 | [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_AnotherSourceTag](./set_anothersourcetag/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldCitation::get_AnotherSourceTag](./get_anothersourcetag/). |
 | [set_FormatLanguageId](./set_formatlanguageid/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldCitation::get_FormatLanguageId](./get_formatlanguageid/). |
@@ -59,6 +61,7 @@ class FieldCitation : public Aspose::Words::Fields::Field,
 | [set_SuppressTitle](./set_suppresstitle/)(bool) | Setter for [Aspose::Words::Fields::FieldCitation::get_SuppressTitle](./get_suppresstitle/). |
 | [set_SuppressYear](./set_suppressyear/)(bool) | Setter for [Aspose::Words::Fields::FieldCitation::get_SuppressYear](./get_suppressyear/). |
 | [set_VolumeNumber](./set_volumenumber/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldCitation::get_VolumeNumber](./get_volumenumber/). |
+| static [Type](./type/)() |  |
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |

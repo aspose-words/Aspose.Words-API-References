@@ -3,7 +3,7 @@ title: StructuredDocumentTagCollection
 second_title: Aspose.Words for Java API Reference
 description: A collection of  instances that represent the structured document tags in the specified range.
 type: docs
-weight: 533
+weight: 536
 url: /java/com.aspose.words/structureddocumenttagcollection/
 ---
 
@@ -18,29 +18,32 @@ public class StructuredDocumentTagCollection implements Iterable
 
 A collection of [IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag) instances that represent the structured document tags in the specified range.
 
-To learn more, visit the **Structured Document Tags or Content Control** documentation article.
+To learn more, visit the [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control] documentation article.
+
+
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/structured-document-tags-or-content-control/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Returns the structured document tag at the specified index. |
-| [getById(int id)](#getById-int-) | Returns the structured document tag by identifier. |
-| [getByTag(String tag)](#getByTag-java.lang.String-) | Returns the first structured document tag encountered in the collection with the specified tag. |
-| [getByTitle(String title)](#getByTitle-java.lang.String-) | Returns the first structured document tag encountered in the collection with the specified title. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Returns the number of structured document tags in the collection. |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Returns an enumerator object. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove(int id)](#remove-int-) | Removes the structured document tag with the specified identifier. |
-| [removeAt(int index)](#removeAt-int-) | Removes a structured document tag at the specified index. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [get(int index)](#get-int) | Returns the structured document tag at the specified index. |
+| [getById(int id)](#getById-int) | Returns the structured document tag by identifier. |
+| [getByTag(String tag)](#getByTag-java.lang.String) | Returns the first structured document tag encountered in the collection with the specified tag. |
+| [getByTitle(String title)](#getByTitle-java.lang.String) | Returns the first structured document tag encountered in the collection with the specified title. |
+| [getClass()](#getClass) |  |
+| [getCount()](#getCount) | Returns the number of structured document tags in the collection. |
+| [hashCode()](#hashCode) |  |
+| [iterator()](#iterator) | Returns an enumerator object. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [remove(int id)](#remove-int) | Removes the structured document tag with the specified identifier. |
+| [removeAt(int index)](#removeAt-int) | Removes a structured document tag at the specified index. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -55,7 +58,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### get(int index) {#get-int-}
+### get(int index) {#get-int}
 ```
 public IStructuredDocumentTag get(int index)
 ```
@@ -70,7 +73,7 @@ Returns the structured document tag at the specified index.
 
 **Returns:**
 [IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag) - The structured document tag at the specified index.
-### getById(int id) {#getById-int-}
+### getById(int id) {#getById-int}
 ```
 public IStructuredDocumentTag getById(int id)
 ```
@@ -87,7 +90,7 @@ Returns null if the structured document tag with the specified identifier cannot
 
 **Returns:**
 [IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag)
-### getByTag(String tag) {#getByTag-java.lang.String-}
+### getByTag(String tag) {#getByTag-java.lang.String}
 ```
 public IStructuredDocumentTag getByTag(String tag)
 ```
@@ -104,7 +107,7 @@ Returns null if the structured document tag with the specified tag cannot be fou
 
 **Returns:**
 [IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag)
-### getByTitle(String title) {#getByTitle-java.lang.String-}
+### getByTitle(String title) {#getByTitle-java.lang.String}
 ```
 public IStructuredDocumentTag getByTitle(String title)
 ```
@@ -121,7 +124,7 @@ Returns null if the structured document tag with the specified title cannot be f
 
 **Returns:**
 [IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag)
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -131,7 +134,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCount() {#getCount--}
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -141,7 +144,7 @@ Returns the number of structured document tags in the collection.
 
 **Returns:**
 int - The number of structured document tags in the collection.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -151,7 +154,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### iterator() {#iterator--}
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -161,7 +164,7 @@ Returns an enumerator object.
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -169,7 +172,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -177,7 +180,7 @@ public final native void notifyAll()
 
 
 
-### remove(int id) {#remove-int-}
+### remove(int id) {#remove-int}
 ```
 public void remove(int id)
 ```
@@ -190,7 +193,7 @@ Removes the structured document tag with the specified identifier.
 | --- | --- | --- |
 | id | int | The structured document tag identifier. |
 
-### removeAt(int index) {#removeAt-int-}
+### removeAt(int index) {#removeAt-int}
 ```
 public void removeAt(int index)
 ```
@@ -203,7 +206,7 @@ Removes a structured document tag at the specified index.
 | --- | --- | --- |
 | index | int | An index into the collection. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -213,7 +216,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -221,7 +224,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -234,7 +237,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

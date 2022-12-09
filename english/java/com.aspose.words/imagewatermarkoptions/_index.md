@@ -3,7 +3,7 @@ title: ImageWatermarkOptions
 second_title: Aspose.Words for Java API Reference
 description: Contains options that can be specified when adding a watermark with image.
 type: docs
-weight: 344
+weight: 346
 url: /java/com.aspose.words/imagewatermarkoptions/
 ---
 
@@ -15,25 +15,28 @@ public class ImageWatermarkOptions
 
 Contains options that can be specified when adding a watermark with image.
 
-To learn more, visit the **Working with Watermark** documentation article.
+To learn more, visit the [ Working with Watermark ][Working with Watermark] documentation article.
+
+
+[Working with Watermark]: https://docs.aspose.com/words/java/working-with-watermark/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getScale()](#getScale--) | Gets the scale factor expressed as a fraction of the image. |
-| [hashCode()](#hashCode--) |  |
-| [isWashout()](#isWashout--) | Gets a boolean value which is responsible for washout effect of the watermark. |
-| [isWashout(boolean value)](#isWashout-boolean-) | Sets a boolean value which is responsible for washout effect of the watermark. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setScale(double value)](#setScale-double-) | Sets the scale factor expressed as a fraction of the image. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getScale()](#getScale) | Gets the scale factor expressed as a fraction of the image. |
+| [hashCode()](#hashCode) |  |
+| [isWashout()](#isWashout) | Gets a boolean value which is responsible for washout effect of the watermark. |
+| [isWashout(boolean value)](#isWashout-boolean) | Sets a boolean value which is responsible for washout effect of the watermark. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setScale(double value)](#setScale-double) | Sets the scale factor expressed as a fraction of the image. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -48,7 +51,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -58,7 +61,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getScale() {#getScale--}
+### getScale() {#getScale}
 ```
 public double getScale()
 ```
@@ -72,7 +75,7 @@ Auto scale means that the watermark will be scaled to its max width and max heig
 
 **Returns:**
 double - The scale factor expressed as a fraction of the image.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -82,30 +85,30 @@ public native int hashCode()
 
 **Returns:**
 int
-### isWashout() {#isWashout--}
+### isWashout() {#isWashout}
 ```
 public boolean isWashout()
 ```
 
 
-Gets a boolean value which is responsible for washout effect of the watermark. The default value is True.
+Gets a boolean value which is responsible for washout effect of the watermark. The default value is  true .
 
 **Returns:**
 boolean - A boolean value which is responsible for washout effect of the watermark.
-### isWashout(boolean value) {#isWashout-boolean-}
+### isWashout(boolean value) {#isWashout-boolean}
 ```
 public void isWashout(boolean value)
 ```
 
 
-Sets a boolean value which is responsible for washout effect of the watermark. The default value is True.
+Sets a boolean value which is responsible for washout effect of the watermark. The default value is  true .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A boolean value which is responsible for washout effect of the watermark. |
 
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -113,7 +116,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -121,7 +124,7 @@ public final native void notifyAll()
 
 
 
-### setScale(double value) {#setScale-double-}
+### setScale(double value) {#setScale-double}
 ```
 public void setScale(double value)
 ```
@@ -138,7 +141,7 @@ Auto scale means that the watermark will be scaled to its max width and max heig
 | --- | --- | --- |
 | value | double | The scale factor expressed as a fraction of the image. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -148,7 +151,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -156,7 +159,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -169,7 +172,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

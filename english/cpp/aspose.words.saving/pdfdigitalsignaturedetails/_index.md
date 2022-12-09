@@ -25,6 +25,8 @@ class PdfDigitalSignatureDetails : public System::Object
 | [get_Reason](./get_reason/)() const | Gets or sets the reason for the signing. |
 | [get_SignatureDate](./get_signaturedate/)() const | Gets or sets the date of the signing. |
 | [get_TimestampSettings](./get_timestampsettings/)() const | Gets or sets the digital signature timestamp settings. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [PdfDigitalSignatureDetails](./pdfdigitalsignaturedetails/)() | Initializes an instance of this class. |
 | [PdfDigitalSignatureDetails](./pdfdigitalsignaturedetails/)(const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&, const System::String\&, const System::String\&, System::DateTime) | Initializes an instance of this class. |
 | [set_CertificateHolder](./set_certificateholder/)(const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&) | Returns the certificate holder object that contains the certificate was used to sign the document. |
@@ -33,6 +35,7 @@ class PdfDigitalSignatureDetails : public System::Object
 | [set_Reason](./set_reason/)(const System::String\&) | Setter for [Aspose::Words::Saving::PdfDigitalSignatureDetails::get_Reason](./get_reason/). |
 | [set_SignatureDate](./set_signaturedate/)(System::DateTime) | Setter for [Aspose::Words::Saving::PdfDigitalSignatureDetails::get_SignatureDate](./get_signaturedate/). |
 | [set_TimestampSettings](./set_timestampsettings/)(const System::SharedPtr\<Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings\>\&) | Setter for [Aspose::Words::Saving::PdfDigitalSignatureDetails::get_TimestampSettings](./get_timestampsettings/). |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

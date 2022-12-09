@@ -3,7 +3,7 @@ title: IImageSavingCallback
 second_title: Aspose.Words for Java API Reference
 description: Implement this interface if you want to control how Aspose.Words saves images when saving a document to HTML.
 type: docs
-weight: 648
+weight: 652
 url: /java/com.aspose.words/iimagesavingcallback/
 ---
 ```
@@ -15,8 +15,8 @@ Implement this interface if you want to control how Aspose.Words saves images wh
 
 | Method | Description |
 | --- | --- |
-| [imageSaving(ImageSavingArgs args)](#imageSaving-com.aspose.words.ImageSavingArgs-) | Called when Aspose.Words saves an image to HTML. |
-### imageSaving(ImageSavingArgs args) {#imageSaving-com.aspose.words.ImageSavingArgs-}
+| [imageSaving(ImageSavingArgs args)](#imageSaving-com.aspose.words.ImageSavingArgs) | Called when Aspose.Words saves an image to HTML. |
+### imageSaving(ImageSavingArgs args) {#imageSaving-com.aspose.words.ImageSavingArgs}
 ```
 public abstract void imageSaving(ImageSavingArgs args)
 ```

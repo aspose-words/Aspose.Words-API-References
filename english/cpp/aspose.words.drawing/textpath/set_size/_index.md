@@ -3,7 +3,7 @@ title: set_Size
 second_title: Aspose.Words for C++ API Reference
 description: Defines the size of the font in points.
 type: docs
-weight: 404
+weight: 443
 url: /cpp/aspose.words.drawing/textpath/set_size/
 ---
 ## TextPath::set_Size method

@@ -3,13 +3,13 @@ title: EnsureMinimum
 second_title: Aspose.Words for C++ API Reference
 description: Ensures that the section has Body with one Paragraph.
 type: docs
-weight: 92
+weight: 105
 url: /cpp/aspose.words/section/ensureminimum/
 ---
 ## Section::EnsureMinimum method
 
 
-Ensures that the section has [Body](../../body/) with one [Paragraph](../../paragraph/).
+Ensures that the section has [Body](../get_body/) with one [Paragraph](../../paragraph/).
 
 ```cpp
 void Aspose::Words::Section::EnsureMinimum()

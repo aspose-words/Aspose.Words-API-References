@@ -3,7 +3,7 @@ title: get_Type
 second_title: Aspose.Words for C++ API Reference
 description: Gets the unit of measure used for this preferred width value.
 type: docs
-weight: 53
+weight: 66
 url: /cpp/aspose.words.tables/preferredwidth/get_type/
 ---
 ## PreferredWidth::get_Type method

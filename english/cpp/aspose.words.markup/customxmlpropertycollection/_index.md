@@ -1,7 +1,7 @@
 ---
 title: CustomXmlPropertyCollection
 second_title: Aspose.Words for C++ API Reference
-description: Represents a collection of custom XML attributes or smart tag properties.
+description: Represents a collection of custom XML attributes or smart tag properties. To learn more, visit the  documentation article.
 type: docs
 weight: 66
 url: /cpp/aspose.words.markup/customxmlpropertycollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.markup/customxmlpropertycollection/
 ## CustomXmlPropertyCollection class
 
 
-Represents a collection of custom XML attributes or smart tag properties.
+Represents a collection of custom XML attributes or smart tag properties. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/structured-document-tags-or-content-control/) documentation article.
 
 ```cpp
 class CustomXmlPropertyCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Markup::CustomXmlProperty>>
@@ -24,11 +24,14 @@ class CustomXmlPropertyCollection : public System::Collections::Generic::IEnumer
 | [Contains](./contains/)(const System::String\&) | Determines whether the collection contains a property with the given name. |
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(const System::String\&) | Gets a property with the specified name. |
 | [idx_get](./idx_get/)(int32_t) | Gets a property at the specified index. |
 | [IndexOfKey](./indexofkey/)(const System::String\&) | Returns the zero-based index of the specified property in the collection. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](./remove/)(const System::String\&) | Removes a property with the specified name from the collection. |
 | [RemoveAt](./removeat/)(int32_t) | Removes a property at the specified index. |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

@@ -1,7 +1,7 @@
 ---
 title: FieldArgumentBuilder
 second_title: Aspose.Words for C++ API Reference
-description: Builds a complex field argument consisting of fields, nodes, and plain text.
+description: Builds a complex field argument consisting of fields, nodes, and plain text. To learn more, visit the  documentation article.
 type: docs
 weight: 105
 url: /cpp/aspose.words.fields/fieldargumentbuilder/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fields/fieldargumentbuilder/
 ## FieldArgumentBuilder class
 
 
-Builds a complex field argument consisting of fields, nodes, and plain text.
+Builds a complex field argument consisting of fields, nodes, and plain text. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class FieldArgumentBuilder : public Aspose::Words::Fields::IFieldBuildingBlock
@@ -23,6 +23,9 @@ class FieldArgumentBuilder : public Aspose::Words::Fields::IFieldBuildingBlock
 | [AddNode](./addnode/)(const System::SharedPtr\<Aspose::Words::Inline\>\&) | Adds a node to the argument. |
 | [AddText](./addtext/)(const System::String\&) | Adds a plain text to the argument. |
 | [FieldArgumentBuilder](./fieldargumentbuilder/)() | Initializes an instance of the [FieldArgumentBuilder](./) class. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

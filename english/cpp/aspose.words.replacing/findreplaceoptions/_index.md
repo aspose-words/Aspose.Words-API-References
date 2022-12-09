@@ -1,7 +1,7 @@
 ---
 title: FindReplaceOptions
 second_title: Aspose.Words for C++ API Reference
-description: Specifies options for find/replace operations.
+description: Specifies options for find/replace operations. To learn more, visit the  documentation article.
 type: docs
 weight: 1
 url: /cpp/aspose.words.replacing/findreplaceoptions/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.replacing/findreplaceoptions/
 ## FindReplaceOptions class
 
 
-Specifies options for find/replace operations.
+Specifies options for find/replace operations. To learn more, visit the [Find and Replace](https://docs.aspose.com/words/cpp/find-and-replace/) documentation article.
 
 ```cpp
 class FindReplaceOptions : public System::Object
@@ -37,8 +37,10 @@ class FindReplaceOptions : public System::Object
 | [get_MatchCase](./get_matchcase/)() const | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |
 | [get_ReplacingCallback](./get_replacingcallback/)() const | The user-defined method which is called before every replace occurrence. |
 | [get_SmartParagraphBreakReplacement](./get_smartparagraphbreakreplacement/)() const | Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph. The default value is **false**. |
-| [get_UseLegacyOrder](./get_uselegacyorder/)() const | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is false. |
+| [get_UseLegacyOrder](./get_uselegacyorder/)() const | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is **false**. |
 | [get_UseSubstitutions](./get_usesubstitutions/)() const | Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. The default value is **false**. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Direction](./set_direction/)(Aspose::Words::Replacing::FindReplaceDirection) | Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_Direction](./get_direction/). |
 | [set_FindWholeWordsOnly](./set_findwholewordsonly/)(bool) | Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_FindWholeWordsOnly](./get_findwholewordsonly/). |
 | [set_IgnoreDeleted](./set_ignoredeleted/)(bool) | Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreDeleted](./get_ignoredeleted/). |
@@ -53,6 +55,7 @@ class FindReplaceOptions : public System::Object
 | [set_SmartParagraphBreakReplacement](./set_smartparagraphbreakreplacement/)(bool) | Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_SmartParagraphBreakReplacement](./get_smartparagraphbreakreplacement/). |
 | [set_UseLegacyOrder](./set_uselegacyorder/)(bool) | Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_UseLegacyOrder](./get_uselegacyorder/). |
 | [set_UseSubstitutions](./set_usesubstitutions/)(bool) | Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_UseSubstitutions](./get_usesubstitutions/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

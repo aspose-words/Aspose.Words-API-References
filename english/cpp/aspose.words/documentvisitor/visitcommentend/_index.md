@@ -3,7 +3,7 @@ title: VisitCommentEnd
 second_title: Aspose.Words for C++ API Reference
 description: Called when enumeration of a comment text has ended.
 type: docs
-weight: 118
+weight: 157
 url: /cpp/aspose.words/documentvisitor/visitcommentend/
 ---
 ## DocumentVisitor::VisitCommentEnd method

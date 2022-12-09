@@ -3,7 +3,7 @@ title: get_Name
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the name of the font.
 type: docs
-weight: 300
+weight: 313
 url: /cpp/aspose.words/font/get_name/
 ---
 ## Font::get_Name method

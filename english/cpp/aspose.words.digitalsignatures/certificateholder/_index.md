@@ -1,7 +1,7 @@
 ---
 title: CertificateHolder
 second_title: Aspose.Words for C++ API Reference
-description: Represents a holder of X509Certificate2 instance.
+description: Represents a holder of X509Certificate2 instance. To learn more, visit the  documentation article.
 type: docs
 weight: 1
 url: /cpp/aspose.words.digitalsignatures/certificateholder/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.digitalsignatures/certificateholder/
 ## CertificateHolder class
 
 
-Represents a holder of **X509Certificate2** instance.
+Represents a holder of **X509Certificate2** instance. To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/cpp/working-with-digital-signatures/) documentation article.
 
 ```cpp
 class CertificateHolder : public System::Object
@@ -24,10 +24,13 @@ class CertificateHolder : public System::Object
 | static [Create](./create/)(const System::String\&, const System::String\&) | Creates [CertificateHolder](./) object using path to PKCS12 store and its password. |
 | static [Create](./create/)(const System::String\&, const System::String\&, const System::String\&) | Creates [CertificateHolder](./) object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found. |
 | [get_Certificate](./get_certificate/)() | Returns the instance of **X509Certificate2** which holds private, public keys and certificate chain. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 ## Remarks
 
 
-**CertificateHolder** can be created by static factory methods only. It contains an instance of **X509Certificate2** which is used to introduce private, public keys and certificate chains into the system. This class is applied in [DigitalSignatureUtil](../digitalsignatureutil/) and [PdfDigitalSignatureDetails](../../aspose.words.saving/pdfdigitalsignaturedetails/) instead of obsolete methods with **X509Certificate2** as parameters.
+[CertificateHolder](./) can be created by static factory methods only. It contains an instance of **X509Certificate2** which is used to introduce private, public keys and certificate chains into the system. This class is applied in [DigitalSignatureUtil](../digitalsignatureutil/) and [PdfDigitalSignatureDetails](../../aspose.words.saving/pdfdigitalsignaturedetails/) instead of obsolete methods with **X509Certificate2** as parameters.
 
 ## Examples
 

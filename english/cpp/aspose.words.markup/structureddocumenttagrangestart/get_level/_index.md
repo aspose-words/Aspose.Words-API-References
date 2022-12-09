@@ -3,7 +3,7 @@ title: get_Level
 second_title: Aspose.Words for C++ API Reference
 description: Gets the level at which this structured document tag range start occurs in the document tree.
 type: docs
-weight: 105
+weight: 118
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_level/
 ---
 ## StructuredDocumentTagRangeStart::get_Level method

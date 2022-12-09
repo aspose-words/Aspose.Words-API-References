@@ -3,7 +3,7 @@ title: StartColumnBookmark
 second_title: Aspose.Words for C++ API Reference
 description: Marks the current position in the document as a column bookmark start. The position must be in a table cell.
 type: docs
-weight: 846
+weight: 885
 url: /cpp/aspose.words/documentbuilder/startcolumnbookmark/
 ---
 ## DocumentBuilder::StartColumnBookmark method
@@ -26,7 +26,7 @@ The bookmark start node that was just created.
 ## Remarks
 
 
-A column bookmark covers one or more columns in a range of rows. To create a valid bookmark you need to call both [StartColumnBookmark()](../) and [EndColumnBookmark()](../) with the same **bookmarkName** parameter.
+A column bookmark covers one or more columns in a range of rows. To create a valid bookmark you need to call both [StartColumnBookmark()](../) and [EndColumnBookmark()](../) with the same *bookmarkName* parameter.
 
 Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 

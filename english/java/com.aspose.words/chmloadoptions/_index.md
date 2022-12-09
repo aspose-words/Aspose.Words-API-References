@@ -15,57 +15,60 @@ public class ChmLoadOptions extends LoadOptions
 
 Allows to specify additional options when loading CHM document into a [Document](../../com.aspose.words/document) object.
 
-To learn more, visit the **Specify Load Options** documentation article.
+To learn more, visit the [ Specify Load Options ][Specify Load Options] documentation article.
+
+
+[Specify Load Options]: https://docs.aspose.com/words/java/specify-load-options/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ChmLoadOptions()](#ChmLoadOptions--) | Initializes a new instance of this class with default values. |
+| [ChmLoadOptions()](#ChmLoadOptions) | Initializes a new instance of this class with default values. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBaseUri()](#getBaseUri--) | Gets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
-| [getClass()](#getClass--) |  |
-| [getConvertMetafilesToPng()](#getConvertMetafilesToPng--) | Gets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
-| [getConvertShapeToOfficeMath()](#getConvertShapeToOfficeMath--) | Gets whether to convert shapes with EquationXML to Office Math objects. |
-| [getEncoding()](#getEncoding--) | Gets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
-| [getFontSettings()](#getFontSettings--) | Allows to specify document font settings. |
-| [getLanguagePreferences()](#getLanguagePreferences--) | Gets language preferences that will be used when document is loading. |
-| [getLoadFormat()](#getLoadFormat--) | Specifies the format of the document to be loaded. |
-| [getMswVersion()](#getMswVersion--) | Allows to specify that the document loading process should match a specific MS Word version. |
-| [getOriginalFileName()](#getOriginalFileName--) | The name of the CHM file. |
-| [getPassword()](#getPassword--) | Gets the password for opening an encrypted document. |
-| [getPreserveIncludePictureField()](#getPreserveIncludePictureField--) | Gets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
-| [getProgressCallback()](#getProgressCallback--) | Called during loading a document and accepts data about loading progress. |
-| [getResourceLoadingCallback()](#getResourceLoadingCallback--) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
-| [getTempFolder()](#getTempFolder--) | Allows to use temporary files when reading document. |
-| [getUpdateDirtyFields()](#getUpdateDirtyFields--) | Specifies whether to update the fields with the  dirty  attribute. |
-| [getWarningCallback()](#getWarningCallback--) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setBaseUri(String value)](#setBaseUri-java.lang.String-) | Sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
-| [setConvertMetafilesToPng(boolean value)](#setConvertMetafilesToPng-boolean-) | Sets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
-| [setConvertShapeToOfficeMath(boolean value)](#setConvertShapeToOfficeMath-boolean-) | Sets whether to convert shapes with EquationXML to Office Math objects. |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
-| [setFontSettings(FontSettings value)](#setFontSettings-com.aspose.words.FontSettings-) | Allows to specify document font settings. |
-| [setLoadFormat(int value)](#setLoadFormat-int-) | Specifies the format of the document to be loaded. |
-| [setMswVersion(int value)](#setMswVersion-int-) | Allows to specify that the document loading process should match a specific MS Word version. |
-| [setOriginalFileName(String value)](#setOriginalFileName-java.lang.String-) | The name of the CHM file. |
-| [setPassword(String value)](#setPassword-java.lang.String-) | Sets the password for opening an encrypted document. |
-| [setPreserveIncludePictureField(boolean value)](#setPreserveIncludePictureField-boolean-) | Sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
-| [setProgressCallback(IDocumentLoadingCallback value)](#setProgressCallback-com.aspose.words.IDocumentLoadingCallback-) | Called during loading a document and accepts data about loading progress. |
-| [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback-) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
-| [setTempFolder(String value)](#setTempFolder-java.lang.String-) | Allows to use temporary files when reading document. |
-| [setUpdateDirtyFields(boolean value)](#setUpdateDirtyFields-boolean-) | Specifies whether to update the fields with the  dirty  attribute. |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ChmLoadOptions() {#ChmLoadOptions--}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getBaseUri()](#getBaseUri) | Gets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
+| [getClass()](#getClass) |  |
+| [getConvertMetafilesToPng()](#getConvertMetafilesToPng) | Gets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
+| [getConvertShapeToOfficeMath()](#getConvertShapeToOfficeMath) | Gets whether to convert shapes with EquationXML to Office Math objects. |
+| [getEncoding()](#getEncoding) | Gets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
+| [getFontSettings()](#getFontSettings) | Allows to specify document font settings. |
+| [getLanguagePreferences()](#getLanguagePreferences) | Gets language preferences that will be used when document is loading. |
+| [getLoadFormat()](#getLoadFormat) | Specifies the format of the document to be loaded. |
+| [getMswVersion()](#getMswVersion) | Allows to specify that the document loading process should match a specific MS Word version. |
+| [getOriginalFileName()](#getOriginalFileName) | The name of the CHM file. |
+| [getPassword()](#getPassword) | Gets the password for opening an encrypted document. |
+| [getPreserveIncludePictureField()](#getPreserveIncludePictureField) | Gets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
+| [getProgressCallback()](#getProgressCallback) | Called during loading a document and accepts data about loading progress. |
+| [getResourceLoadingCallback()](#getResourceLoadingCallback) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
+| [getTempFolder()](#getTempFolder) | Allows to use temporary files when reading document. |
+| [getUpdateDirtyFields()](#getUpdateDirtyFields) | Specifies whether to update the fields with the  dirty  attribute. |
+| [getWarningCallback()](#getWarningCallback) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setBaseUri(String value)](#setBaseUri-java.lang.String) | Sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
+| [setConvertMetafilesToPng(boolean value)](#setConvertMetafilesToPng-boolean) | Sets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
+| [setConvertShapeToOfficeMath(boolean value)](#setConvertShapeToOfficeMath-boolean) | Sets whether to convert shapes with EquationXML to Office Math objects. |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset) | Sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
+| [setFontSettings(FontSettings value)](#setFontSettings-com.aspose.words.FontSettings) | Allows to specify document font settings. |
+| [setLoadFormat(int value)](#setLoadFormat-int) | Specifies the format of the document to be loaded. |
+| [setMswVersion(int value)](#setMswVersion-int) | Allows to specify that the document loading process should match a specific MS Word version. |
+| [setOriginalFileName(String value)](#setOriginalFileName-java.lang.String) | The name of the CHM file. |
+| [setPassword(String value)](#setPassword-java.lang.String) | Sets the password for opening an encrypted document. |
+| [setPreserveIncludePictureField(boolean value)](#setPreserveIncludePictureField-boolean) | Sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
+| [setProgressCallback(IDocumentLoadingCallback value)](#setProgressCallback-com.aspose.words.IDocumentLoadingCallback) | Called during loading a document and accepts data about loading progress. |
+| [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
+| [setTempFolder(String value)](#setTempFolder-java.lang.String) | Allows to use temporary files when reading document. |
+| [setUpdateDirtyFields(boolean value)](#setUpdateDirtyFields-boolean) | Specifies whether to update the fields with the  dirty  attribute. |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### ChmLoadOptions() {#ChmLoadOptions}
 ```
 public ChmLoadOptions()
 ```
@@ -73,7 +76,7 @@ public ChmLoadOptions()
 
 Initializes a new instance of this class with default values.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -88,13 +91,13 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getBaseUri() {#getBaseUri--}
+### getBaseUri() {#getBaseUri}
 ```
 public String getBaseUri()
 ```
 
 
-Gets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be null or empty string. Default is null.
+Gets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be  null  or empty string. Default is  null .
 
 This property is used to resolve relative URIs into absolute in the following cases:
 
@@ -103,7 +106,7 @@ This property is used to resolve relative URIs into absolute in the following ca
 
 **Returns:**
 java.lang.String - The string that will be used to resolve relative URIs found in the document into absolute URIs when required.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -113,7 +116,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getConvertMetafilesToPng() {#getConvertMetafilesToPng--}
+### getConvertMetafilesToPng() {#getConvertMetafilesToPng}
 ```
 public boolean getConvertMetafilesToPng()
 ```
@@ -123,7 +126,7 @@ Gets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.Fil
 
 **Returns:**
 boolean - Whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format.
-### getConvertShapeToOfficeMath() {#getConvertShapeToOfficeMath--}
+### getConvertShapeToOfficeMath() {#getConvertShapeToOfficeMath}
 ```
 public boolean getConvertShapeToOfficeMath()
 ```
@@ -133,13 +136,13 @@ Gets whether to convert shapes with EquationXML to Office Math objects.
 
 **Returns:**
 boolean - Whether to convert shapes with EquationXML to Office Math objects.
-### getEncoding() {#getEncoding--}
+### getEncoding() {#getEncoding}
 ```
 public Charset getEncoding()
 ```
 
 
-Gets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be null. Default is null.
+Gets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be  null . Default is  null .
 
 This property is used only when loading HTML, TXT, or CHM documents.
 
@@ -147,7 +150,7 @@ If encoding is not specified inside the document and this property is  null , th
 
 **Returns:**
 java.nio.charset.Charset - The encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document.
-### getFontSettings() {#getFontSettings--}
+### getFontSettings() {#getFontSettings}
 ```
 public FontSettings getFontSettings()
 ```
@@ -157,13 +160,13 @@ Allows to specify document font settings.
 
 When loading some formats, Aspose.Words may require to resolve the fonts. For example, when loading HTML documents Aspose.Words may resolve the fonts to perform font fallback.
 
-If set to null, default static font settings [FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance--) will be used.
+If set to  null , default static font settings [FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance) will be used.
 
-The default value is null.
+The default value is  null .
 
 **Returns:**
 [FontSettings](../../com.aspose.words/fontsettings) - The corresponding [FontSettings](../../com.aspose.words/fontsettings) value.
-### getLanguagePreferences() {#getLanguagePreferences--}
+### getLanguagePreferences() {#getLanguagePreferences}
 ```
 public LanguagePreferences getLanguagePreferences()
 ```
@@ -173,7 +176,7 @@ Gets language preferences that will be used when document is loading.
 
 **Returns:**
 [LanguagePreferences](../../com.aspose.words/languagepreferences) - Language preferences that will be used when document is loading.
-### getLoadFormat() {#getLoadFormat--}
+### getLoadFormat() {#getLoadFormat}
 ```
 public int getLoadFormat()
 ```
@@ -185,7 +188,7 @@ It is recommended that you specify the [LoadFormat.AUTO](../../com.aspose.words/
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [LoadFormat](../../com.aspose.words/loadformat) constants.
-### getMswVersion() {#getMswVersion--}
+### getMswVersion() {#getMswVersion}
 ```
 public int getMswVersion()
 ```
@@ -195,7 +198,7 @@ Allows to specify that the document loading process should match a specific MS W
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [MsWordVersion](../../com.aspose.words/mswordversion) constants.
-### getOriginalFileName() {#getOriginalFileName--}
+### getOriginalFileName() {#getOriginalFileName}
 ```
 public String getOriginalFileName()
 ```
@@ -203,31 +206,31 @@ public String getOriginalFileName()
 
 The name of the CHM file. Default value is  null .
 
-CHM documents may contain links that reference the same document by file name. Aspose.Words supports such links and normally uses [Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName--) to check whether the file referenced by a link is the file that is being loaded. If a document is loaded from a stream, its original file name should be specified explicitly via this property, since it cannot be determined automatically.
+CHM documents may contain links that reference the same document by file name. Aspose.Words supports such links and normally uses [Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName) to check whether the file referenced by a link is the file that is being loaded. If a document is loaded from a stream, its original file name should be specified explicitly via this property, since it cannot be determined automatically.
 
-If a CHM document is loaded from a file and a non-null value for this property is specified, the value will take priority over the actual name of the file stored in [Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName--).
+If a CHM document is loaded from a file and a non-null value for this property is specified, the value will take priority over the actual name of the file stored in [Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName).
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### getPassword() {#getPassword--}
+### getPassword() {#getPassword}
 ```
 public String getPassword()
 ```
 
 
-Gets the password for opening an encrypted document. Can be null or empty string. Default is null.
+Gets the password for opening an encrypted document. Can be  null  or empty string. Default is  null .
 
-You need to know the password to open an encrypted document. If the document is not encrypted, set this to null or empty string.
+You need to know the password to open an encrypted document. If the document is not encrypted, set this to  null  or empty string.
 
 **Returns:**
 java.lang.String - The password for opening an encrypted document.
-### getPreserveIncludePictureField() {#getPreserveIncludePictureField--}
+### getPreserveIncludePictureField() {#getPreserveIncludePictureField}
 ```
 public boolean getPreserveIncludePictureField()
 ```
 
 
-Gets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is false.
+Gets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is  false .
 
 By default, the INCLUDEPICTURE field is converted into a shape object. You can override that if you need the field to be preserved, for example, if you wish to update it programmatically. Note however that this approach is not common for Aspose.Words. Use it on your own risk.
 
@@ -235,7 +238,7 @@ One of the possible use cases may be using a MERGEFIELD as a child field to dyna
 
 **Returns:**
 boolean - Whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats.
-### getProgressCallback() {#getProgressCallback--}
+### getProgressCallback() {#getProgressCallback}
 ```
 public IDocumentLoadingCallback getProgressCallback()
 ```
@@ -247,7 +250,7 @@ Called during loading a document and accepts data about loading progress.
 
 **Returns:**
 [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) - The corresponding [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) value.
-### getResourceLoadingCallback() {#getResourceLoadingCallback--}
+### getResourceLoadingCallback() {#getResourceLoadingCallback}
 ```
 public IResourceLoadingCallback getResourceLoadingCallback()
 ```
@@ -257,7 +260,7 @@ Allows to control how external resources (images, style sheets) are loaded when 
 
 **Returns:**
 [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) - The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) value.
-### getTempFolder() {#getTempFolder--}
+### getTempFolder() {#getTempFolder}
 ```
 public String getTempFolder()
 ```
@@ -271,7 +274,7 @@ Aspose.Words automatically deletes all temporary files when reading is complete.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### getUpdateDirtyFields() {#getUpdateDirtyFields--}
+### getUpdateDirtyFields() {#getUpdateDirtyFields}
 ```
 public boolean getUpdateDirtyFields()
 ```
@@ -281,7 +284,7 @@ Specifies whether to update the fields with the  dirty  attribute.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getWarningCallback() {#getWarningCallback--}
+### getWarningCallback() {#getWarningCallback}
 ```
 public IWarningCallback getWarningCallback()
 ```
@@ -291,7 +294,7 @@ Called during a load operation, when an issue is detected that might result in d
 
 **Returns:**
 [IWarningCallback](../../com.aspose.words/iwarningcallback) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -301,7 +304,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -309,7 +312,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -317,13 +320,13 @@ public final native void notifyAll()
 
 
 
-### setBaseUri(String value) {#setBaseUri-java.lang.String-}
+### setBaseUri(String value) {#setBaseUri-java.lang.String}
 ```
 public void setBaseUri(String value)
 ```
 
 
-Sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be null or empty string. Default is null.
+Sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be  null  or empty string. Default is  null .
 
 This property is used to resolve relative URIs into absolute in the following cases:
 
@@ -335,7 +338,7 @@ This property is used to resolve relative URIs into absolute in the following ca
 | --- | --- | --- |
 | value | java.lang.String | The string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
 
-### setConvertMetafilesToPng(boolean value) {#setConvertMetafilesToPng-boolean-}
+### setConvertMetafilesToPng(boolean value) {#setConvertMetafilesToPng-boolean}
 ```
 public void setConvertMetafilesToPng(boolean value)
 ```
@@ -348,7 +351,7 @@ Sets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.Fil
 | --- | --- | --- |
 | value | boolean | Whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
 
-### setConvertShapeToOfficeMath(boolean value) {#setConvertShapeToOfficeMath-boolean-}
+### setConvertShapeToOfficeMath(boolean value) {#setConvertShapeToOfficeMath-boolean}
 ```
 public void setConvertShapeToOfficeMath(boolean value)
 ```
@@ -361,13 +364,13 @@ Sets whether to convert shapes with EquationXML to Office Math objects.
 | --- | --- | --- |
 | value | boolean | Whether to convert shapes with EquationXML to Office Math objects. |
 
-### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
+### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset}
 ```
 public void setEncoding(Charset value)
 ```
 
 
-Sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be null. Default is null.
+Sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be  null . Default is  null .
 
 This property is used only when loading HTML, TXT, or CHM documents.
 
@@ -378,7 +381,7 @@ If encoding is not specified inside the document and this property is  null , th
 | --- | --- | --- |
 | value | java.nio.charset.Charset | The encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
 
-### setFontSettings(FontSettings value) {#setFontSettings-com.aspose.words.FontSettings-}
+### setFontSettings(FontSettings value) {#setFontSettings-com.aspose.words.FontSettings}
 ```
 public void setFontSettings(FontSettings value)
 ```
@@ -388,16 +391,16 @@ Allows to specify document font settings.
 
 When loading some formats, Aspose.Words may require to resolve the fonts. For example, when loading HTML documents Aspose.Words may resolve the fonts to perform font fallback.
 
-If set to null, default static font settings [FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance--) will be used.
+If set to  null , default static font settings [FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance) will be used.
 
-The default value is null.
+The default value is  null .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [FontSettings](../../com.aspose.words/fontsettings) | The corresponding [FontSettings](../../com.aspose.words/fontsettings) value. |
 
-### setLoadFormat(int value) {#setLoadFormat-int-}
+### setLoadFormat(int value) {#setLoadFormat-int}
 ```
 public void setLoadFormat(int value)
 ```
@@ -412,7 +415,7 @@ It is recommended that you specify the [LoadFormat.AUTO](../../com.aspose.words/
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [LoadFormat](../../com.aspose.words/loadformat) constants. |
 
-### setMswVersion(int value) {#setMswVersion-int-}
+### setMswVersion(int value) {#setMswVersion-int}
 ```
 public void setMswVersion(int value)
 ```
@@ -425,7 +428,7 @@ Allows to specify that the document loading process should match a specific MS W
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [MsWordVersion](../../com.aspose.words/mswordversion) constants. |
 
-### setOriginalFileName(String value) {#setOriginalFileName-java.lang.String-}
+### setOriginalFileName(String value) {#setOriginalFileName-java.lang.String}
 ```
 public void setOriginalFileName(String value)
 ```
@@ -433,37 +436,37 @@ public void setOriginalFileName(String value)
 
 The name of the CHM file. Default value is  null .
 
-CHM documents may contain links that reference the same document by file name. Aspose.Words supports such links and normally uses [Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName--) to check whether the file referenced by a link is the file that is being loaded. If a document is loaded from a stream, its original file name should be specified explicitly via this property, since it cannot be determined automatically.
+CHM documents may contain links that reference the same document by file name. Aspose.Words supports such links and normally uses [Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName) to check whether the file referenced by a link is the file that is being loaded. If a document is loaded from a stream, its original file name should be specified explicitly via this property, since it cannot be determined automatically.
 
-If a CHM document is loaded from a file and a non-null value for this property is specified, the value will take priority over the actual name of the file stored in [Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName--).
+If a CHM document is loaded from a file and a non-null value for this property is specified, the value will take priority over the actual name of the file stored in [Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### setPassword(String value) {#setPassword-java.lang.String-}
+### setPassword(String value) {#setPassword-java.lang.String}
 ```
 public void setPassword(String value)
 ```
 
 
-Sets the password for opening an encrypted document. Can be null or empty string. Default is null.
+Sets the password for opening an encrypted document. Can be  null  or empty string. Default is  null .
 
-You need to know the password to open an encrypted document. If the document is not encrypted, set this to null or empty string.
+You need to know the password to open an encrypted document. If the document is not encrypted, set this to  null  or empty string.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The password for opening an encrypted document. |
 
-### setPreserveIncludePictureField(boolean value) {#setPreserveIncludePictureField-boolean-}
+### setPreserveIncludePictureField(boolean value) {#setPreserveIncludePictureField-boolean}
 ```
 public void setPreserveIncludePictureField(boolean value)
 ```
 
 
-Sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is false.
+Sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is  false .
 
 By default, the INCLUDEPICTURE field is converted into a shape object. You can override that if you need the field to be preserved, for example, if you wish to update it programmatically. Note however that this approach is not common for Aspose.Words. Use it on your own risk.
 
@@ -474,7 +477,7 @@ One of the possible use cases may be using a MERGEFIELD as a child field to dyna
 | --- | --- | --- |
 | value | boolean | Whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
 
-### setProgressCallback(IDocumentLoadingCallback value) {#setProgressCallback-com.aspose.words.IDocumentLoadingCallback-}
+### setProgressCallback(IDocumentLoadingCallback value) {#setProgressCallback-com.aspose.words.IDocumentLoadingCallback}
 ```
 public void setProgressCallback(IDocumentLoadingCallback value)
 ```
@@ -489,7 +492,7 @@ Called during loading a document and accepts data about loading progress.
 | --- | --- | --- |
 | value | [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) | The corresponding [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) value. |
 
-### setResourceLoadingCallback(IResourceLoadingCallback value) {#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback-}
+### setResourceLoadingCallback(IResourceLoadingCallback value) {#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback}
 ```
 public void setResourceLoadingCallback(IResourceLoadingCallback value)
 ```
@@ -502,7 +505,7 @@ Allows to control how external resources (images, style sheets) are loaded when 
 | --- | --- | --- |
 | value | [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) | The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) value. |
 
-### setTempFolder(String value) {#setTempFolder-java.lang.String-}
+### setTempFolder(String value) {#setTempFolder-java.lang.String}
 ```
 public void setTempFolder(String value)
 ```
@@ -519,7 +522,7 @@ Aspose.Words automatically deletes all temporary files when reading is complete.
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### setUpdateDirtyFields(boolean value) {#setUpdateDirtyFields-boolean-}
+### setUpdateDirtyFields(boolean value) {#setUpdateDirtyFields-boolean}
 ```
 public void setUpdateDirtyFields(boolean value)
 ```
@@ -532,7 +535,7 @@ Specifies whether to update the fields with the  dirty  attribute.
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback-}
+### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback}
 ```
 public void setWarningCallback(IWarningCallback value)
 ```
@@ -545,7 +548,7 @@ Called during a load operation, when an issue is detected that might result in d
 | --- | --- | --- |
 | value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -555,7 +558,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -563,7 +566,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -576,7 +579,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

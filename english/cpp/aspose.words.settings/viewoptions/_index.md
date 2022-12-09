@@ -1,7 +1,7 @@
 ---
 title: ViewOptions
 second_title: Aspose.Words for C++ API Reference
-description: Provides various options that control how a document is shown in Microsoft Word.
+description: Provides various options that control how a document is shown in Microsoft Word. To learn more, visit the  documentation article.
 type: docs
 weight: 105
 url: /cpp/aspose.words.settings/viewoptions/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.settings/viewoptions/
 ## ViewOptions class
 
 
-Provides various options that control how a document is shown in Microsoft Word.
+Provides various options that control how a document is shown in Microsoft Word. To learn more, visit the [Work with Options and Appearance of Word Documents](https://docs.aspose.com/words/cpp/work-with-word-document-options-and-appearance/) documentation article.
 
 ```cpp
 class ViewOptions : public System::Object
@@ -25,12 +25,15 @@ class ViewOptions : public System::Object
 | [get_ViewType](./get_viewtype/)() const | Controls the view mode in Microsoft Word. |
 | [get_ZoomPercent](./get_zoompercent/)() const | Gets or sets the percentage (between 10 and 500) at which you want to view your document. |
 | [get_ZoomType](./get_zoomtype/)() const | Gets or sets a zoom value based on the size of the window. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_DisplayBackgroundShape](./set_displaybackgroundshape/)(bool) | Setter for [Aspose::Words::Settings::ViewOptions::get_DisplayBackgroundShape](./get_displaybackgroundshape/). |
 | [set_DoNotDisplayPageBoundaries](./set_donotdisplaypageboundaries/)(bool) | Setter for [Aspose::Words::Settings::ViewOptions::get_DoNotDisplayPageBoundaries](./get_donotdisplaypageboundaries/). |
 | [set_FormsDesign](./set_formsdesign/)(bool) | Setter for [Aspose::Words::Settings::ViewOptions::get_FormsDesign](./get_formsdesign/). |
 | [set_ViewType](./set_viewtype/)(Aspose::Words::Settings::ViewType) | Setter for [Aspose::Words::Settings::ViewOptions::get_ViewType](./get_viewtype/). |
 | [set_ZoomPercent](./set_zoompercent/)(int32_t) | Setter for [Aspose::Words::Settings::ViewOptions::get_ZoomPercent](./get_zoompercent/). |
 | [set_ZoomType](./set_zoomtype/)(Aspose::Words::Settings::ZoomType) | Setter for [Aspose::Words::Settings::ViewOptions::get_ZoomType](./get_zoomtype/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

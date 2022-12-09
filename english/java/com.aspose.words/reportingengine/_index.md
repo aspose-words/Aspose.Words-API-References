@@ -3,7 +3,7 @@ title: ReportingEngine
 second_title: Aspose.Words for Java API Reference
 description: Provides routines to populate template documents with data and a set of settings to control these routines.
 type: docs
-weight: 478
+weight: 481
 url: /java/com.aspose.words/reportingengine/
 ---
 
@@ -15,34 +15,37 @@ public class ReportingEngine
 
 Provides routines to populate template documents with data and a set of settings to control these routines.
 
-To learn more, visit the **LINQ Reporting Engine** documentation article.
+To learn more, visit the [ LINQ Reporting Engine ][LINQ Reporting Engine] documentation article.
+
+
+[LINQ Reporting Engine]: https://docs.aspose.com/words/java/linq-reporting-engine/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ReportingEngine()](#ReportingEngine--) | Initializes a new instance of this class. |
+| [ReportingEngine()](#ReportingEngine) | Initializes a new instance of this class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [buildReport(Document document, Object dataSource)](#buildReport-com.aspose.words.Document-java.lang.Object-) | Populates the specified template document with data from the specified source making it a ready report. |
-| [buildReport(Document document, Object dataSource, String dataSourceName)](#buildReport-com.aspose.words.Document-java.lang.Object-java.lang.String-) | Populates the specified template document with data from the specified source making it a ready report. |
-| [buildReport(Document document, Object[] dataSources, String[] dataSourceNames)](#buildReport-com.aspose.words.Document-java.lang.Object---java.lang.String---) | Populates the specified template document with data from the specified sources making it a ready report. |
-| [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getKnownTypes()](#getKnownTypes--) | Gets an unordered set (i.e. |
-| [getOptions()](#getOptions--) | Gets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine) instance while building a report. |
-| [getUseReflectionOptimization()](#getUseReflectionOptimization--) | Gets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setOptions(int value)](#setOptions-int-) | Sets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine) instance while building a report. |
-| [setUseReflectionOptimization(boolean value)](#setUseReflectionOptimization-boolean-) | Sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ReportingEngine() {#ReportingEngine--}
+| [buildReport(Document document, Object dataSource)](#buildReport-com.aspose.words.Document-java.lang.Object) | Populates the specified template document with data from the specified source making it a ready report. |
+| [buildReport(Document document, Object dataSource, String dataSourceName)](#buildReport-com.aspose.words.Document-java.lang.Object-java.lang.String) | Populates the specified template document with data from the specified source making it a ready report. |
+| [buildReport(Document document, Object[] dataSources, String[] dataSourceNames)](#buildReport-com.aspose.words.Document-java.lang.Object---java.lang.String) | Populates the specified template document with data from the specified sources making it a ready report. |
+| [equals(Object obj)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getKnownTypes()](#getKnownTypes) | Gets an unordered set (i.e. |
+| [getOptions()](#getOptions) | Gets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine) instance while building a report. |
+| [getUseReflectionOptimization()](#getUseReflectionOptimization) | Gets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setOptions(int value)](#setOptions-int) | Sets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine) instance while building a report. |
+| [setUseReflectionOptimization(boolean value)](#setUseReflectionOptimization-boolean) | Sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### ReportingEngine() {#ReportingEngine}
 ```
 public ReportingEngine()
 ```
@@ -50,7 +53,7 @@ public ReportingEngine()
 
 Initializes a new instance of this class.
 
-### buildReport(Document document, Object dataSource) {#buildReport-com.aspose.words.Document-java.lang.Object-}
+### buildReport(Document document, Object dataSource) {#buildReport-com.aspose.words.Document-java.lang.Object}
 ```
 public boolean buildReport(Document document, Object dataSource)
 ```
@@ -58,7 +61,7 @@ public boolean buildReport(Document document, Object dataSource)
 
 Populates the specified template document with data from the specified source making it a ready report.
 
-Using this overload you can reference the data source's members in the template document, but you cannot reference the data source object itself. You should use the [buildReport(com.aspose.words.Document, java.lang.Object, java.lang.String)](../../com.aspose.words/reportingengine\#buildReport-com.aspose.words.Document--java.lang.Object--java.lang.String-) overload to achieve this.
+Using this overload you can reference the data source's members in the template document, but you cannot reference the data source object itself. You should use the [buildReport(com.aspose.words.Document, java.lang.Object, java.lang.String)](../../com.aspose.words/reportingengine\#buildReport-com.aspose.words.Document--java.lang.Object--java.lang.String) overload to achieve this.
 
 A data source object can be of one of the following types:
 
@@ -83,8 +86,8 @@ For information on how to work with data sources of different types in template 
 | dataSource | java.lang.Object | A data source object. |
 
 **Returns:**
-boolean - A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [getOptions()](../../com.aspose.words/reportingengine\#getOptions--) / [setOptions(int)](../../com.aspose.words/reportingengine\#setOptions-int-) property includes the [ReportBuildOptions.INLINE\_ERROR\_MESSAGES](../../com.aspose.words/reportbuildoptions\#INLINE-ERROR-MESSAGES) option.
-### buildReport(Document document, Object dataSource, String dataSourceName) {#buildReport-com.aspose.words.Document-java.lang.Object-java.lang.String-}
+boolean - A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [getOptions()](../../com.aspose.words/reportingengine\#getOptions) / [setOptions(int)](../../com.aspose.words/reportingengine\#setOptions-int) property includes the [ReportBuildOptions.INLINE\_ERROR\_MESSAGES](../../com.aspose.words/reportbuildoptions\#INLINE-ERROR-MESSAGES) option.
+### buildReport(Document document, Object dataSource, String dataSourceName) {#buildReport-com.aspose.words.Document-java.lang.Object-java.lang.String}
 ```
 public boolean buildReport(Document document, Object dataSource, String dataSourceName)
 ```
@@ -92,7 +95,7 @@ public boolean buildReport(Document document, Object dataSource, String dataSour
 
 Populates the specified template document with data from the specified source making it a ready report.
 
-Using this overload you can reference the data source's members and the data source object itself in the template. If you are not going to reference the data source object itself, you can omit  dataSourceName  passing null or use the [buildReport(com.aspose.words.Document, java.lang.Object)](../../com.aspose.words/reportingengine\#buildReport-com.aspose.words.Document--java.lang.Object-) overload.
+Using this overload you can reference the data source's members and the data source object itself in the template. If you are not going to reference the data source object itself, you can omit  dataSourceName  passing  null  or use the [buildReport(com.aspose.words.Document, java.lang.Object)](../../com.aspose.words/reportingengine\#buildReport-com.aspose.words.Document--java.lang.Object) overload.
 
 A data source object can be of one of the following types:
 
@@ -118,8 +121,8 @@ For information on how to work with data sources of different types in template 
 | dataSourceName | java.lang.String | A name to reference the data source object in the template. |
 
 **Returns:**
-boolean - A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [getOptions()](../../com.aspose.words/reportingengine\#getOptions--) / [setOptions(int)](../../com.aspose.words/reportingengine\#setOptions-int-) property includes the [ReportBuildOptions.INLINE\_ERROR\_MESSAGES](../../com.aspose.words/reportbuildoptions\#INLINE-ERROR-MESSAGES) option.
-### buildReport(Document document, Object[] dataSources, String[] dataSourceNames) {#buildReport-com.aspose.words.Document-java.lang.Object---java.lang.String---}
+boolean - A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [getOptions()](../../com.aspose.words/reportingengine\#getOptions) / [setOptions(int)](../../com.aspose.words/reportingengine\#setOptions-int) property includes the [ReportBuildOptions.INLINE\_ERROR\_MESSAGES](../../com.aspose.words/reportbuildoptions\#INLINE-ERROR-MESSAGES) option.
+### buildReport(Document document, Object[] dataSources, String[] dataSourceNames) {#buildReport-com.aspose.words.Document-java.lang.Object---java.lang.String}
 ```
 public boolean buildReport(Document document, Object[] dataSources, String[] dataSourceNames)
 ```
@@ -127,9 +130,9 @@ public boolean buildReport(Document document, Object[] dataSources, String[] dat
 
 Populates the specified template document with data from the specified sources making it a ready report.
 
-Using this overload you can reference multiple data source objects and their members in the template. The name of the first data source can be omitted (i.e. be an empty string or null) if you are going to reference the data source's members but not the data source object itself. Names of the other data sources must be specified and unique.
+Using this overload you can reference multiple data source objects and their members in the template. The name of the first data source can be omitted (i.e. be an empty string or  null ) if you are going to reference the data source's members but not the data source object itself. Names of the other data sources must be specified and unique.
 
-If you are going to use a single data source, consider using of [buildReport(com.aspose.words.Document, java.lang.Object)](../../com.aspose.words/reportingengine\#buildReport-com.aspose.words.Document--java.lang.Object-) and [buildReport(com.aspose.words.Document, java.lang.Object, java.lang.String)](../../com.aspose.words/reportingengine\#buildReport-com.aspose.words.Document--java.lang.Object--java.lang.String-) overloads instead.
+If you are going to use a single data source, consider using of [buildReport(com.aspose.words.Document, java.lang.Object)](../../com.aspose.words/reportingengine\#buildReport-com.aspose.words.Document--java.lang.Object) and [buildReport(com.aspose.words.Document, java.lang.Object, java.lang.String)](../../com.aspose.words/reportingengine\#buildReport-com.aspose.words.Document--java.lang.Object--java.lang.String) overloads instead.
 
 A data source object can be of one of the following types:
 
@@ -155,8 +158,8 @@ For information on how to work with data sources of different types in template 
 | dataSourceNames | java.lang.String[] | An array of names to reference the data source objects within the template. |
 
 **Returns:**
-boolean - A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [getOptions()](../../com.aspose.words/reportingengine\#getOptions--) / [setOptions(int)](../../com.aspose.words/reportingengine\#setOptions-int-) property includes the [ReportBuildOptions.INLINE\_ERROR\_MESSAGES](../../com.aspose.words/reportbuildoptions\#INLINE-ERROR-MESSAGES) option.
-### equals(Object obj) {#equals-java.lang.Object-}
+boolean - A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [getOptions()](../../com.aspose.words/reportingengine\#getOptions) / [setOptions(int)](../../com.aspose.words/reportingengine\#setOptions-int) property includes the [ReportBuildOptions.INLINE\_ERROR\_MESSAGES](../../com.aspose.words/reportbuildoptions\#INLINE-ERROR-MESSAGES) option.
+### equals(Object obj) {#equals-java.lang.Object}
 ```
 public boolean equals(Object obj)
 ```
@@ -171,7 +174,7 @@ public boolean equals(Object obj)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -181,7 +184,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getKnownTypes() {#getKnownTypes--}
+### getKnownTypes() {#getKnownTypes}
 ```
 public KnownTypeSet getKnownTypes()
 ```
@@ -191,7 +194,7 @@ Gets an unordered set (i.e. a collection of unique items) containing java.lang.C
 
 **Returns:**
 [KnownTypeSet](../../com.aspose.words/knowntypeset) - An unordered set (i.e.
-### getOptions() {#getOptions--}
+### getOptions() {#getOptions}
 ```
 public int getOptions()
 ```
@@ -201,17 +204,17 @@ Gets a set of flags controlling behavior of this [ReportingEngine](../../com.asp
 
 **Returns:**
 int - A set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine) instance while building a report. The returned value is a bitwise combination of [ReportBuildOptions](../../com.aspose.words/reportbuildoptions) constants.
-### getUseReflectionOptimization() {#getUseReflectionOptimization--}
+### getUseReflectionOptimization() {#getUseReflectionOptimization}
 ```
 public static boolean getUseReflectionOptimization()
 ```
 
 
-Gets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is true. There are some scenarios where it is preferrable to disable this optimization. For example, if you are dealing with small collections of data items all the time, then an overhead of dynamic class generation can be more noticeable than an overhead of direct reflection API calls. The option does not have effect when run on iOS and reflection optimization is not used.
+Gets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is  true . There are some scenarios where it is preferrable to disable this optimization. For example, if you are dealing with small collections of data items all the time, then an overhead of dynamic class generation can be more noticeable than an overhead of direct reflection API calls. The option does not have effect when run on iOS and reflection optimization is not used.
 
 **Returns:**
 boolean - A value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public int hashCode()
 ```
@@ -221,7 +224,7 @@ public int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -229,7 +232,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -237,7 +240,7 @@ public final native void notifyAll()
 
 
 
-### setOptions(int value) {#setOptions-int-}
+### setOptions(int value) {#setOptions-int}
 ```
 public void setOptions(int value)
 ```
@@ -250,20 +253,20 @@ Sets a set of flags controlling behavior of this [ReportingEngine](../../com.asp
 | --- | --- | --- |
 | value | int | A set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine) instance while building a report. The value must be a bitwise combination of [ReportBuildOptions](../../com.aspose.words/reportbuildoptions) constants. |
 
-### setUseReflectionOptimization(boolean value) {#setUseReflectionOptimization-boolean-}
+### setUseReflectionOptimization(boolean value) {#setUseReflectionOptimization-boolean}
 ```
 public static void setUseReflectionOptimization(boolean value)
 ```
 
 
-Sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is true. There are some scenarios where it is preferrable to disable this optimization. For example, if you are dealing with small collections of data items all the time, then an overhead of dynamic class generation can be more noticeable than an overhead of direct reflection API calls. The option does not have effect when run on iOS and reflection optimization is not used.
+Sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is  true . There are some scenarios where it is preferrable to disable this optimization. For example, if you are dealing with small collections of data items all the time, then an overhead of dynamic class generation can be more noticeable than an overhead of direct reflection API calls. The option does not have effect when run on iOS and reflection optimization is not used.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -273,7 +276,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -281,7 +284,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -294,7 +297,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

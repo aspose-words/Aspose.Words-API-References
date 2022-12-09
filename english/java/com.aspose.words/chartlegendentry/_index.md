@@ -18,33 +18,36 @@ public class ChartLegendEntry implements Cloneable
 
 Represents a chart legend entry.
 
-To learn more, visit the **Working with Charts** documentation article.
+To learn more, visit the [ Working with Charts ][Working with Charts] documentation article.
 
 A legend entry corresponds to a specific chart series or trendline.
 
 The text of the entry is the name of the series or trendline. The text cannot be changed.
+
+
+[Working with Charts]: https://docs.aspose.com/words/java/working-with-charts/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [clearRunAttrs()](#clearRunAttrs--) |  |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
-| [getClass()](#getClass--) |  |
-| [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
-| [getFont()](#getFont--) | Provides access to the font formatting of this legend entry. |
-| [hashCode()](#hashCode--) |  |
-| [isHidden()](#isHidden--) | Gets a value indicating whether this entry is hidden in the chart legend. |
-| [isHidden(boolean value)](#isHidden-boolean-) | Sets a value indicating whether this entry is hidden in the chart legend. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [removeRunAttr(int key)](#removeRunAttr-int-) |  |
-| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### clearRunAttrs() {#clearRunAttrs--}
+| [clearRunAttrs()](#clearRunAttrs) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int) |  |
+| [getClass()](#getClass) |  |
+| [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
+| [getFont()](#getFont) | Provides access to the font formatting of this legend entry. |
+| [hashCode()](#hashCode) |  |
+| [isHidden()](#isHidden) | Gets a value indicating whether this entry is hidden in the chart legend. |
+| [isHidden(boolean value)](#isHidden-boolean) | Sets a value indicating whether this entry is hidden in the chart legend. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [removeRunAttr(int key)](#removeRunAttr-int) |  |
+| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
 ```
@@ -52,7 +55,7 @@ public void clearRunAttrs()
 
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -67,7 +70,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
+### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int}
 ```
 public Object fetchInheritedRunAttr(int key)
 ```
@@ -82,7 +85,7 @@ public Object fetchInheritedRunAttr(int key)
 
 **Returns:**
 java.lang.Object
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -92,7 +95,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
+### getDirectRunAttr(int key) {#getDirectRunAttr-int}
 ```
 public Object getDirectRunAttr(int key)
 ```
@@ -107,7 +110,7 @@ public Object getDirectRunAttr(int key)
 
 **Returns:**
 java.lang.Object
-### getFont() {#getFont--}
+### getFont() {#getFont}
 ```
 public Font getFont()
 ```
@@ -117,7 +120,7 @@ Provides access to the font formatting of this legend entry.
 
 **Returns:**
 [Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -127,7 +130,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### isHidden() {#isHidden--}
+### isHidden() {#isHidden}
 ```
 public boolean isHidden()
 ```
@@ -137,7 +140,7 @@ Gets a value indicating whether this entry is hidden in the chart legend. The de
 
 **Returns:**
 boolean - A value indicating whether this entry is hidden in the chart legend.
-### isHidden(boolean value) {#isHidden-boolean-}
+### isHidden(boolean value) {#isHidden-boolean}
 ```
 public void isHidden(boolean value)
 ```
@@ -150,7 +153,7 @@ Sets a value indicating whether this entry is hidden in the chart legend. The de
 | --- | --- | --- |
 | value | boolean | A value indicating whether this entry is hidden in the chart legend. |
 
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -158,7 +161,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -166,7 +169,7 @@ public final native void notifyAll()
 
 
 
-### removeRunAttr(int key) {#removeRunAttr-int-}
+### removeRunAttr(int key) {#removeRunAttr-int}
 ```
 public void removeRunAttr(int key)
 ```
@@ -179,7 +182,7 @@ public void removeRunAttr(int key)
 | --- | --- | --- |
 | key | int |  |
 
-### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object-}
+### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object}
 ```
 public void setRunAttr(int key, Object value)
 ```
@@ -193,7 +196,7 @@ public void setRunAttr(int key, Object value)
 | key | int |  |
 | value | java.lang.Object |  |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -203,7 +206,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -211,7 +214,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -224,7 +227,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

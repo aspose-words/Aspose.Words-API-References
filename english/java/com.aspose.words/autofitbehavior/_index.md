@@ -26,19 +26,19 @@ Determines how Aspose.Words resizes the table when you invoke the **M:Aspose.Wor
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String autoFitBehaviorName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int autoFitBehavior)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int autoFitBehavior)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String autoFitBehaviorName)](#fromName-java.lang.String) |  |
+| [getClass()](#getClass) |  |
+| [getName(int autoFitBehavior)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int autoFitBehavior)](#toString-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### AUTO_FIT_TO_CONTENTS {#AUTO-FIT-TO-CONTENTS}
 ```
 public static int AUTO_FIT_TO_CONTENTS
@@ -67,7 +67,7 @@ public static int FIXED_COLUMN_WIDTHS
 
 Aspose.Words disables the AutoFit option and removes the preferred with from the table.
 
-The widths of the cells remain as they are specified by their [CellFormat.getWidth()](../../com.aspose.words/cellformat\#getWidth--) / [CellFormat.setWidth(double)](../../com.aspose.words/cellformat\#setWidth-double-) properties.
+The widths of the cells remain as they are specified by their [CellFormat.getWidth()](../../com.aspose.words/cellformat\#getWidth) / [CellFormat.setWidth(double)](../../com.aspose.words/cellformat\#setWidth-double) properties.
 
 ### length {#length}
 ```
@@ -75,7 +75,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -90,7 +90,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String autoFitBehaviorName) {#fromName-java.lang.String-}
+### fromName(String autoFitBehaviorName) {#fromName-java.lang.String}
 ```
 public static int fromName(String autoFitBehaviorName)
 ```
@@ -105,7 +105,7 @@ public static int fromName(String autoFitBehaviorName)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -115,7 +115,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int autoFitBehavior) {#getName-int-}
+### getName(int autoFitBehavior) {#getName-int}
 ```
 public static String getName(int autoFitBehavior)
 ```
@@ -130,7 +130,7 @@ public static String getName(int autoFitBehavior)
 
 **Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -140,7 +140,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -150,7 +150,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -158,7 +158,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -166,7 +166,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -176,7 +176,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int autoFitBehavior) {#toString-int-}
+### toString(int autoFitBehavior) {#toString-int}
 ```
 public static String toString(int autoFitBehavior)
 ```
@@ -191,7 +191,7 @@ public static String toString(int autoFitBehavior)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -199,7 +199,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -212,7 +212,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

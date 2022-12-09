@@ -1,15 +1,15 @@
 ---
 title: get_IsSemitrasparent
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a boolean value which is responsible for opacity of the watermark. The default value is True.
+description: Gets or sets a boolean value which is responsible for opacity of the watermark. The default value is true.
 type: docs
-weight: 53
+weight: 66
 url: /cpp/aspose.words/textwatermarkoptions/get_issemitrasparent/
 ---
 ## TextWatermarkOptions::get_IsSemitrasparent method
 
 
-Gets or sets a boolean value which is responsible for opacity of the watermark. The default value is True.
+Gets or sets a boolean value which is responsible for opacity of the watermark. The default value is **true**.
 
 ```cpp
 bool Aspose::Words::TextWatermarkOptions::get_IsSemitrasparent() const

@@ -3,7 +3,7 @@ title: AppendChild
 second_title: Aspose.Words for C++ API Reference
 description: Adds the specified node to the end of the list of child nodes for this node.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words/compositenode/appendchild/
 ---
 ## CompositeNode::AppendChild method
@@ -26,7 +26,7 @@ The node added.
 ## Remarks
 
 
-If the newChild is already in the tree, it is first removed.
+If the *newChild* is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use [ImportNode()](../) to import the node to the current document. The imported node can then be inserted into the current document.
 

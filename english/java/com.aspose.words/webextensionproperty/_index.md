@@ -3,7 +3,7 @@ title: WebExtensionProperty
 second_title: Aspose.Words for Java API Reference
 description: Specifies a web extension custom property.
 type: docs
-weight: 615
+weight: 618
 url: /java/com.aspose.words/webextensionproperty/
 ---
 
@@ -15,30 +15,33 @@ public class WebExtensionProperty
 
 Specifies a web extension custom property.
 
-To learn more, visit the **Work with Office Add-ins** documentation article.
+To learn more, visit the [ Work with Office Add-ins ][Work with Office Add-ins] documentation article.
+
+
+[Work with Office Add-ins]: https://docs.aspose.com/words/java/work-with-office-add-ins/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [WebExtensionProperty(String name, String value)](#WebExtensionProperty-java.lang.String-java.lang.String-) | Creates web extension custom property with specified name and value. |
+| [WebExtensionProperty(String name, String value)](#WebExtensionProperty-java.lang.String-java.lang.String) | Creates web extension custom property with specified name and value. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getName()](#getName--) | Specifies a custom property name |
-| [getValue()](#getValue--) | Specifies a custom property value. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | Specifies a custom property name |
-| [setValue(String value)](#setValue-java.lang.String-) | Specifies a custom property value. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### WebExtensionProperty(String name, String value) {#WebExtensionProperty-java.lang.String-java.lang.String-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getName()](#getName) | Specifies a custom property name |
+| [getValue()](#getValue) | Specifies a custom property value. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setName(String value)](#setName-java.lang.String) | Specifies a custom property name |
+| [setValue(String value)](#setValue-java.lang.String) | Specifies a custom property value. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### WebExtensionProperty(String name, String value) {#WebExtensionProperty-java.lang.String-java.lang.String}
 ```
 public WebExtensionProperty(String name, String value)
 ```
@@ -52,7 +55,7 @@ Creates web extension custom property with specified name and value.
 | name | java.lang.String | Property name. |
 | value | java.lang.String | Property value. |
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -67,7 +70,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -77,7 +80,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName() {#getName--}
+### getName() {#getName}
 ```
 public String getName()
 ```
@@ -87,7 +90,7 @@ Specifies a custom property name
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### getValue() {#getValue--}
+### getValue() {#getValue}
 ```
 public String getValue()
 ```
@@ -97,7 +100,7 @@ Specifies a custom property value.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -107,7 +110,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -115,7 +118,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -123,7 +126,7 @@ public final native void notifyAll()
 
 
 
-### setName(String value) {#setName-java.lang.String-}
+### setName(String value) {#setName-java.lang.String}
 ```
 public void setName(String value)
 ```
@@ -136,7 +139,7 @@ Specifies a custom property name
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### setValue(String value) {#setValue-java.lang.String-}
+### setValue(String value) {#setValue-java.lang.String}
 ```
 public void setValue(String value)
 ```
@@ -149,7 +152,7 @@ Specifies a custom property value.
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -159,7 +162,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -167,7 +170,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -180,7 +183,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

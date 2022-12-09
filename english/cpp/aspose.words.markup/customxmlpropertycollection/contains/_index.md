@@ -3,7 +3,7 @@ title: Contains
 second_title: Aspose.Words for C++ API Reference
 description: Determines whether the collection contains a property with the given name.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/aspose.words.markup/customxmlpropertycollection/contains/
 ---
 ## CustomXmlPropertyCollection::Contains method
@@ -22,7 +22,7 @@ bool Aspose::Words::Markup::CustomXmlPropertyCollection::Contains(const System::
 
 ### ReturnValue
 
-True if the item is found in the collection; otherwise, false.
+**true** if the item is found in the collection; otherwise, **false**.
 
 ## Examples
 

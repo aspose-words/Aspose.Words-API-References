@@ -1,7 +1,7 @@
 ---
 title: ChartSeriesCollection
 second_title: Aspose.Words for C++ API Reference
-description: Represents collection of a ChartSeries.
+description: Represents collection of a ChartSeries. To learn more, visit the  documentation article.
 type: docs
 weight: 209
 url: /cpp/aspose.words.drawing.charts/chartseriescollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing.charts/chartseriescollection/
 ## ChartSeriesCollection class
 
 
-Represents collection of a [ChartSeries](../chartseries/).
+Represents collection of a [ChartSeries](../chartseries/). To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
 class ChartSeriesCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries>>
@@ -26,8 +26,11 @@ class ChartSeriesCollection : public System::Collections::Generic::IEnumerable<S
 | [Clear](./clear/)() | Removes all [ChartSeries](../chartseries/) from this collection. |
 | [get_Count](./get_count/)() | Returns the number of [ChartSeries](../chartseries/) in this collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Returns a [ChartSeries](../chartseries/) at the specified index. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [RemoveAt](./removeat/)(int32_t) | Removes a [ChartSeries](../chartseries/) at the specified index. |
+| static [Type](./type/)() |  |
 
 ## Examples
 

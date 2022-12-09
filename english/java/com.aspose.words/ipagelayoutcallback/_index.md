@@ -3,7 +3,7 @@ title: IPageLayoutCallback
 second_title: Aspose.Words for Java API Reference
 description: Implement this interface if you want to have your own custom method called during build and rendering of page layout model.
 type: docs
-weight: 653
+weight: 657
 url: /java/com.aspose.words/ipagelayoutcallback/
 ---
 ```
@@ -21,8 +21,8 @@ This technique may not work for every document or may fail completely.
 
 | Method | Description |
 | --- | --- |
-| [notify(PageLayoutCallbackArgs args)](#notify-com.aspose.words.PageLayoutCallbackArgs-) | This is called to notify of layout build and rendering progress. |
-### notify(PageLayoutCallbackArgs args) {#notify-com.aspose.words.PageLayoutCallbackArgs-}
+| [notify(PageLayoutCallbackArgs args)](#notify-com.aspose.words.PageLayoutCallbackArgs) | This is called to notify of layout build and rendering progress. |
+### notify(PageLayoutCallbackArgs args) {#notify-com.aspose.words.PageLayoutCallbackArgs}
 ```
 public abstract void notify(PageLayoutCallbackArgs args)
 ```

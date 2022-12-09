@@ -3,13 +3,13 @@ title: get_IsWriteProtected
 second_title: Aspose.Words for C++ API Reference
 description: Returns true when a write protection password is set.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.settings/writeprotection/get_iswriteprotected/
 ---
 ## WriteProtection::get_IsWriteProtected method
 
 
-Returns true when a write protection password is set.
+Returns **true** when a write protection password is set.
 
 ```cpp
 bool Aspose::Words::Settings::WriteProtection::get_IsWriteProtected()

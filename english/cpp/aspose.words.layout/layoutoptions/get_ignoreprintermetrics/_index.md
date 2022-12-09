@@ -1,15 +1,15 @@
 ---
 title: get_IgnorePrinterMetrics
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. Default is True.
+description: Gets or sets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. Default is true.
 type: docs
-weight: 53
+weight: 66
 url: /cpp/aspose.words.layout/layoutoptions/get_ignoreprintermetrics/
 ---
 ## LayoutOptions::get_IgnorePrinterMetrics method
 
 
-Gets or sets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. Default is True.
+Gets or sets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. Default is **true**.
 
 ```cpp
 bool Aspose::Words::Layout::LayoutOptions::get_IgnorePrinterMetrics() const

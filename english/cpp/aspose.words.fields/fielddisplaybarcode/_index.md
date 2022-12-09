@@ -1,7 +1,7 @@
 ---
 title: FieldDisplayBarcode
 second_title: Aspose.Words for C++ API Reference
-description: Implements the DISPLAYBARCODE field.
+description: Implements the DISPLAYBARCODE field. To learn more, visit the  documentation article.
 type: docs
 weight: 430
 url: /cpp/aspose.words.fields/fielddisplaybarcode/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fields/fielddisplaybarcode/
 ## FieldDisplayBarcode class
 
 
-Implements the DISPLAYBARCODE field.
+Implements the DISPLAYBARCODE field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class FieldDisplayBarcode : public Aspose::Words::Fields::Field,
@@ -40,13 +40,15 @@ class FieldDisplayBarcode : public Aspose::Words::Fields::Field,
 | [get_PosCodeStyle](./get_poscodestyle/)() | Gets or sets the style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8). The valid values (case insensitive) are [STD|SUP2|SUP5|CASE]. |
 | [get_Result](../field/get_result/)() | Gets or sets text that is between the field separator and field end. |
 | [get_ScalingFactor](./get_scalingfactor/)() | Gets or sets a scaling factor for the symbol. The value is in whole percentage points and the valid values are [10, 1000]. |
-| [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be null. |
+| [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be **null**. |
 | [get_Start](../field/get_start/)() const | Gets the node that represents the start of the field. |
 | [get_SymbolHeight](./get_symbolheight/)() | Gets or sets the height of the symbol. The units are in TWIPS (1/1440 inch). |
 | [get_SymbolRotation](./get_symbolrotation/)() | Gets or sets the rotation of the barcode symbol. Valid values are [0, 3]. |
 | virtual [get_Type](../field/get_type/)() const | Gets the Microsoft Word field type. |
 | [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_AddStartStopChar](./set_addstartstopchar/)(bool) | Setter for [Aspose::Words::Fields::FieldDisplayBarcode::get_AddStartStopChar](./get_addstartstopchar/). |
 | [set_BackgroundColor](./set_backgroundcolor/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldDisplayBarcode::get_BackgroundColor](./get_backgroundcolor/). |
@@ -65,6 +67,7 @@ class FieldDisplayBarcode : public Aspose::Words::Fields::Field,
 | [set_ScalingFactor](./set_scalingfactor/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldDisplayBarcode::get_ScalingFactor](./get_scalingfactor/). |
 | [set_SymbolHeight](./set_symbolheight/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldDisplayBarcode::get_SymbolHeight](./get_symbolheight/). |
 | [set_SymbolRotation](./set_symbolrotation/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldDisplayBarcode::get_SymbolRotation](./get_symbolrotation/). |
+| static [Type](./type/)() |  |
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |

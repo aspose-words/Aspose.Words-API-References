@@ -1,7 +1,7 @@
 ---
 title: HtmlFixedSaveOptions
 second_title: Aspose.Words for C++ API Reference
-description: Can be used to specify additional options when saving a document into the HtmlFixed format.
+description: Can be used to specify additional options when saving a document into the HtmlFixed format. To learn more, visit the  documentation article.
 type: docs
 weight: 105
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/htmlfixedsaveoptions/
 ## HtmlFixedSaveOptions class
 
 
-Can be used to specify additional options when saving a document into the [HtmlFixed](../../aspose.words/saveformat/) format.
+Can be used to specify additional options when saving a document into the [HtmlFixed](../../aspose.words/saveformat/) format. To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/cpp/specify-save-options/) documentation article.
 
 ```cpp
 class HtmlFixedSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
@@ -36,15 +36,15 @@ class HtmlFixedSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [get_ExportEmbeddedImages](./get_exportembeddedimages/)() const | Specifies whether images should be embedded into Html document in Base64 format. Note setting this flag can significantly increase size of output Html file. |
 | [get_ExportEmbeddedSvg](./get_exportembeddedsvg/)() const | Specifies whether SVG resources should be embedded into Html document. Default value is **true**. |
 | [get_ExportFormFields](./get_exportformfields/)() const | Gets or sets indication of whether form fields are exported as interactive items (as 'input' tag) rather than converted to text or graphics. |
-| [get_ExportGeneratorName](../saveoptions/get_exportgeneratorname/)() const | When true, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**. |
+| [get_ExportGeneratorName](../saveoptions/get_exportgeneratorname/)() const | When **true**, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**. |
 | [get_FontFormat](./get_fontformat/)() const | Gets or sets [ExportFontFormat](../exportfontformat/) used for font exporting. Default value is [Woff](../exportfontformat/). |
 | [get_ImlRenderingMode](../saveoptions/get_imlrenderingmode/)() const | Gets or sets a value determining how ink (InkML) objects are rendered. |
 | [get_JpegQuality](../fixedpagesaveoptions/get_jpegquality/)() const | Gets or sets a value determining the quality of the JPEG images inside Html document. |
 | [get_MemoryOptimization](../saveoptions/get_memoryoptimization/)() const | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**. |
 | [get_MetafileRenderingOptions](../fixedpagesaveoptions/get_metafilerenderingoptions/)() const | Allows to specify metafile rendering options. |
 | [get_NumeralFormat](../fixedpagesaveoptions/get_numeralformat/)() const | Gets or sets [NumeralFormat](../numeralformat/) used for rendering of numerals. European numerals are used by default. |
-| [get_OptimizeOutput](./get_optimizeoutput/)() override | Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formating are concatenated. Note: The accuracy of the content display may be affected if this property is set to true. Default is true. |
-| [get_PageHorizontalAlignment](./get_pagehorizontalalignment/)() const | Specifies the horizontal alignment of pages in an HTML document. Default value is **HtmlFixedHorizontalPageAlignment.Center**. |
+| [get_OptimizeOutput](./get_optimizeoutput/)() override | Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formating are concatenated. Note: The accuracy of the content display may be affected if this property is set to **true**. Default is **true**. |
+| [get_PageHorizontalAlignment](./get_pagehorizontalalignment/)() const | Specifies the horizontal alignment of pages in an HTML document. Default value is [Center](../htmlfixedpagehorizontalalignment/). |
 | [get_PageMargins](./get_pagemargins/)() const | Specifies the margins around pages in an HTML document. The margins value is measured in points and should be equal to or greater than 0. Default value is 10 points. |
 | [get_PageSavingCallback](../fixedpagesaveoptions/get_pagesavingcallback/)() const | Allows to control how separate pages are saved when a document is exported to fixed page format. |
 | [get_PageSet](../fixedpagesaveoptions/get_pageset/)() const | Gets or sets the pages to render. Default is all the pages in the document. |
@@ -57,15 +57,17 @@ class HtmlFixedSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can only be [HtmlFixed](../../aspose.words/saveformat/). |
 | [get_ShowPageBorder](./get_showpageborder/)() const | Specifies whether border around pages should be shown. Default is **true**. |
 | [get_TempFolder](../saveoptions/get_tempfolder/)() const | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is **null** and no temporary files are used. |
-| [get_UpdateCreatedTimeProperty](../saveoptions/get_updatecreatedtimeproperty/)() const | Gets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is false;. |
+| [get_UpdateCreatedTimeProperty](../saveoptions/get_updatecreatedtimeproperty/)() const | Gets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is **false**;. |
 | [get_UpdateFields](../saveoptions/get_updatefields/)() const | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. |
 | [get_UpdateLastPrintedProperty](../saveoptions/get_updatelastprintedproperty/)() const | Gets or sets a value determining whether the [LastPrinted](../../aspose.words.properties/builtindocumentproperties/get_lastprinted/) property is updated before saving. |
 | [get_UpdateLastSavedTimeProperty](../saveoptions/get_updatelastsavedtimeproperty/)() const | Gets or sets a value determining whether the [LastSavedTime](../../aspose.words.properties/builtindocumentproperties/get_lastsavedtime/) property is updated before saving. |
 | [get_UpdateSdtContent](../saveoptions/get_updatesdtcontent/)() const | Gets or sets value determining whether content of [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/) is updated before saving. |
 | [get_UseAntiAliasing](../saveoptions/get_useantialiasing/)() const | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [get_UseHighQualityRendering](../saveoptions/get_usehighqualityrendering/)() const | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
-| [get_UseTargetMachineFonts](./get_usetargetmachinefonts/)() const | Flag indicates whether fonts from target machine must be used to display the document. If this flag is set to true, [FontFormat](./get_fontformat/) and [ExportEmbeddedFonts](./get_exportembeddedfonts/) properties do not have effect, also [ResourceSavingCallback](./get_resourcesavingcallback/) is not fired for fonts. Default is false. |
+| [get_UseTargetMachineFonts](./get_usetargetmachinefonts/)() const | Flag indicates whether fonts from target machine must be used to display the document. If this flag is set to **true**, [FontFormat](./get_fontformat/) and [ExportEmbeddedFonts](./get_exportembeddedfonts/) properties do not have effect, also [ResourceSavingCallback](./get_resourcesavingcallback/) is not fired for fonts. Default is **false**. |
+| [GetType](./gettype/)() const override |  |
 | [HtmlFixedSaveOptions](./htmlfixedsaveoptions/)() |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_AllowEmbeddingPostScriptFonts](../saveoptions/set_allowembeddingpostscriptfonts/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_AllowEmbeddingPostScriptFonts](../saveoptions/get_allowembeddingpostscriptfonts/). |
 | [set_ColorMode](../fixedpagesaveoptions/set_colormode/)(Aspose::Words::Saving::ColorMode) | Setter for [Aspose::Words::Saving::FixedPageSaveOptions::get_ColorMode](../fixedpagesaveoptions/get_colormode/). |
 | [set_CssClassNamesPrefix](./set_cssclassnamesprefix/)(const System::String\&) | Setter for [Aspose::Words::Saving::HtmlFixedSaveOptions::get_CssClassNamesPrefix](./get_cssclassnamesprefix/). |
@@ -101,7 +103,7 @@ class HtmlFixedSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [set_SaveFormat](./set_saveformat/)(Aspose::Words::SaveFormat) override | Setter for [Aspose::Words::Saving::HtmlFixedSaveOptions::get_SaveFormat](./get_saveformat/). |
 | [set_ShowPageBorder](./set_showpageborder/)(bool) | Setter for [Aspose::Words::Saving::HtmlFixedSaveOptions::get_ShowPageBorder](./get_showpageborder/). |
 | [set_TempFolder](../saveoptions/set_tempfolder/)(const System::String\&) | Setter for [Aspose::Words::Saving::SaveOptions::get_TempFolder](../saveoptions/get_tempfolder/). |
-| [set_UpdateCreatedTimeProperty](../saveoptions/set_updatecreatedtimeproperty/)(bool) | Sets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is false;. |
+| [set_UpdateCreatedTimeProperty](../saveoptions/set_updatecreatedtimeproperty/)(bool) | Sets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is **false**;. |
 | [set_UpdateFields](../saveoptions/set_updatefields/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateFields](../saveoptions/get_updatefields/). |
 | [set_UpdateLastPrintedProperty](../saveoptions/set_updatelastprintedproperty/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateLastPrintedProperty](../saveoptions/get_updatelastprintedproperty/). |
 | [set_UpdateLastSavedTimeProperty](../saveoptions/set_updatelastsavedtimeproperty/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateLastSavedTimeProperty](../saveoptions/get_updatelastsavedtimeproperty/). |
@@ -109,6 +111,7 @@ class HtmlFixedSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [set_UseAntiAliasing](../saveoptions/set_useantialiasing/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UseAntiAliasing](../saveoptions/get_useantialiasing/). |
 | [set_UseHighQualityRendering](../saveoptions/set_usehighqualityrendering/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UseHighQualityRendering](../saveoptions/get_usehighqualityrendering/). |
 | [set_UseTargetMachineFonts](./set_usetargetmachinefonts/)(bool) | Setter for [Aspose::Words::Saving::HtmlFixedSaveOptions::get_UseTargetMachineFonts](./get_usetargetmachinefonts/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

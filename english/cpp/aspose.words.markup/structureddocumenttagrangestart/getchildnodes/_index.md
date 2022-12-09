@@ -3,7 +3,7 @@ title: GetChildNodes
 second_title: Aspose.Words for C++ API Reference
 description: Returns a live collection of child nodes that match the specified types.
 type: docs
-weight: 261
+weight: 274
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/getchildnodes/
 ---
 ## StructuredDocumentTagRangeStart::GetChildNodes method

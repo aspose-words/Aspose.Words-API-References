@@ -3,7 +3,7 @@ title: get_ResourceFileName
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the file name (without path) where the resource will be saved to.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/aspose.words.saving/resourcesavingargs/get_resourcefilename/
 ---
 ## ResourceSavingArgs::get_ResourceFileName method
@@ -24,9 +24,9 @@ When the event is fired, this property contains the file name that was generated
 
 Aspose.Words automatically generates a unique file name for every resource when exporting to fixed page HTML or SVG format. How the resource file name is generated depends on whether you save the document to a file or to a stream.
 
-When saving a document to a file, the generated resource file name looks like %<document base file name>.<image number>.<extension>.
+When saving a document to a file, the generated resource file name looks like *%<document base file name>.<image number>.<extension>*.
 
-When saving a document to a stream, the generated resource file name looks like Aspose.Words.<document guid>.<image number>.<extension>.
+When saving a document to a stream, the generated resource file name looks like *Aspose.Words.<document guid>.<image number>.<extension>*.
 
 [ResourceFileName](./) must contain only the file name without the path. Aspose.Words determines the path for saving and the value of the **src** attribute for writing to fixed page HTML or SVG using the document file name, the [ResourcesFolder](../../htmlfixedsaveoptions/get_resourcesfolder/) or [ResourcesFolder](../../svgsaveoptions/get_resourcesfolder/) and [ResourcesFolderAlias](../../htmlfixedsaveoptions/get_resourcesfolderalias/) or [ResourcesFolderAlias](../../svgsaveoptions/get_resourcesfolderalias/) properties.
 

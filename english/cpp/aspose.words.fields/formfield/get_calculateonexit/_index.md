@@ -3,7 +3,7 @@ title: get_CalculateOnExit
 second_title: Aspose.Words for C++ API Reference
 description: True if references to the specified form field are automatically updated whenever the field is exited.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words.fields/formfield/get_calculateonexit/
 ---
 ## FormField::get_CalculateOnExit method
@@ -18,7 +18,7 @@ bool Aspose::Words::Fields::FormField::get_CalculateOnExit()
 ## Remarks
 
 
-Setting **CalculateOnExit** only affects the behavior of the form field when the document is opened in Microsoft Word. Aspose.Words never updates references to the form field.
+Setting [CalculateOnExit](./) only affects the behavior of the form field when the document is opened in Microsoft Word. Aspose.Words never updates references to the form field.
 
 ## Examples
 

@@ -15,100 +15,103 @@ public class BuiltInDocumentProperties extends DocumentPropertyCollection
 
 A collection of built-in document properties.
 
-To learn more, visit the **Work with Document Properties** documentation article.
+To learn more, visit the [ Work with Document Properties ][Work with Document Properties] documentation article.
 
 Provides access to [DocumentProperty](../../com.aspose.words/documentproperty) objects by their names (using an indexer) and via a set of typed properties that return values of appropriate types.
 
 The names of the properties are case-insensitive.
 
 The properties in the collection are sorted alphabetically by name.
+
+
+[Work with Document Properties]: https://docs.aspose.com/words/java/work-with-document-properties/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [clear()](#clear--) | Removes all properties from the collection. |
-| [contains(String name)](#contains-java.lang.String-) | Returns true if a property with the specified name exists in the collection. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object by index. |
-| [get(String name)](#get-java.lang.String-) | Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object. |
-| [getAuthor()](#getAuthor--) | Gets the name of the document's author. |
-| [getBytes()](#getBytes--) | Represents an estimate of the number of bytes in the document. |
-| [getCategory()](#getCategory--) | Gets the category of the document. |
-| [getCharacters()](#getCharacters--) | Represents an estimate of the number of characters in the document. |
-| [getCharactersWithSpaces()](#getCharactersWithSpaces--) | Represents an estimate of the number of characters (including spaces) in the document. |
-| [getClass()](#getClass--) |  |
-| [getComments()](#getComments--) | Gets the document comments. |
-| [getCompany()](#getCompany--) | Gets the company property. |
-| [getContentStatus()](#getContentStatus--) | Gets the ContentStatus of the document. |
-| [getContentType()](#getContentType--) | Gets the ContentStatus of the document. |
-| [getCount()](#getCount--) | Gets number of items in the collection. |
-| [getCreatedTime()](#getCreatedTime--) | Gets date of the document creation in UTC. |
-| [getHeadingPairs()](#getHeadingPairs--) | Specifies document headings and their names. |
-| [getHyperlinkBase()](#getHyperlinkBase--) | Specifies the base string used for evaluating relative hyperlinks in this document. |
-| [getKeywords()](#getKeywords--) | Gets the document keywords. |
-| [getLastPrinted()](#getLastPrinted--) | Gets the date when the document was last printed in UTC. |
-| [getLastSavedBy()](#getLastSavedBy--) | Gets the name of the last author. |
-| [getLastSavedTime()](#getLastSavedTime--) | Gets the time of the last save in UTC. |
-| [getLines()](#getLines--) | Represents an estimate of the number of lines in the document. |
-| [getLinksUpToDate()](#getLinksUpToDate--) | Indicates whether hyperlinks in a document are up-to-date. |
-| [getManager()](#getManager--) | Gets the manager property. |
-| [getNameOfApplication()](#getNameOfApplication--) | Gets the name of the application. |
-| [getPages()](#getPages--) | Represents an estimate of the number of pages in the document. |
-| [getParagraphs()](#getParagraphs--) | Represents an estimate of the number of paragraphs in the document. |
-| [getRevisionNumber()](#getRevisionNumber--) | Gets the document revision number. |
-| [getSecurity()](#getSecurity--) | Specifies the security level of a document as a numeric value. |
-| [getSubject()](#getSubject--) | Gets the subject of the document. |
-| [getTemplate()](#getTemplate--) | Gets the informational name of the document template. |
-| [getThumbnail()](#getThumbnail--) | Gets or sets the thumbnail of the document. |
-| [getTitle()](#getTitle--) | Gets the title of the document. |
-| [getTitlesOfParts()](#getTitlesOfParts--) | Each string in the array specifies the name of a part in the document. |
-| [getTotalEditingTime()](#getTotalEditingTime--) | Gets the total editing time in minutes. |
-| [getVersion()](#getVersion--) | Represents the version number of the application that created the document. |
-| [getWords()](#getWords--) | Represents an estimate of the number of words in the document. |
-| [hashCode()](#hashCode--) |  |
-| [indexOf(String name)](#indexOf-java.lang.String-) | Gets the index of a property by name. |
-| [iterator()](#iterator--) | Returns an iterator object that can be used to iterate over all items in the collection. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove(String name)](#remove-java.lang.String-) | Removes a property with the specified name from the collection. |
-| [removeAt(int index)](#removeAt-int-) | Removes a property at the specified index. |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) | Sets the name of the document's author. |
-| [setBytes(int value)](#setBytes-int-) | Represents an estimate of the number of bytes in the document. |
-| [setCategory(String value)](#setCategory-java.lang.String-) | Sets the category of the document. |
-| [setCharacters(int value)](#setCharacters-int-) | Represents an estimate of the number of characters in the document. |
-| [setCharactersWithSpaces(int value)](#setCharactersWithSpaces-int-) | Represents an estimate of the number of characters (including spaces) in the document. |
-| [setComments(String value)](#setComments-java.lang.String-) | Sets the document comments. |
-| [setCompany(String value)](#setCompany-java.lang.String-) | Sets the company property. |
-| [setContentStatus(String value)](#setContentStatus-java.lang.String-) | Sets the ContentStatus of the document. |
-| [setContentType(String value)](#setContentType-java.lang.String-) | Sets the ContentStatus of the document. |
-| [setCreatedTime(Date value)](#setCreatedTime-java.util.Date-) | Sets date of the document creation in UTC. |
-| [setHeadingPairs(Object[] value)](#setHeadingPairs-java.lang.Object---) | Specifies document headings and their names. |
-| [setHyperlinkBase(String value)](#setHyperlinkBase-java.lang.String-) | Specifies the base string used for evaluating relative hyperlinks in this document. |
-| [setKeywords(String value)](#setKeywords-java.lang.String-) | Sets the document keywords. |
-| [setLastPrinted(Date value)](#setLastPrinted-java.util.Date-) | Sets the date when the document was last printed in UTC. |
-| [setLastSavedBy(String value)](#setLastSavedBy-java.lang.String-) | Sets the name of the last author. |
-| [setLastSavedTime(Date value)](#setLastSavedTime-java.util.Date-) | Sets the time of the last save in UTC. |
-| [setLines(int value)](#setLines-int-) | Represents an estimate of the number of lines in the document. |
-| [setLinksUpToDate(boolean value)](#setLinksUpToDate-boolean-) | Indicates whether hyperlinks in a document are up-to-date. |
-| [setManager(String value)](#setManager-java.lang.String-) | Sets the manager property. |
-| [setNameOfApplication(String value)](#setNameOfApplication-java.lang.String-) | Sets the name of the application. |
-| [setPages(int value)](#setPages-int-) | Represents an estimate of the number of pages in the document. |
-| [setParagraphs(int value)](#setParagraphs-int-) | Represents an estimate of the number of paragraphs in the document. |
-| [setRevisionNumber(int value)](#setRevisionNumber-int-) | Sets the document revision number. |
-| [setSecurity(int value)](#setSecurity-int-) | Specifies the security level of a document as a numeric value. |
-| [setSubject(String value)](#setSubject-java.lang.String-) | Sets the subject of the document. |
-| [setTemplate(String value)](#setTemplate-java.lang.String-) | Sets the informational name of the document template. |
-| [setThumbnail(byte[] value)](#setThumbnail-byte---) | Gets or sets the thumbnail of the document. |
-| [setTitle(String value)](#setTitle-java.lang.String-) | Sets the title of the document. |
-| [setTitlesOfParts(String[] value)](#setTitlesOfParts-java.lang.String---) | Each string in the array specifies the name of a part in the document. |
-| [setTotalEditingTime(int value)](#setTotalEditingTime-int-) | Sets the total editing time in minutes. |
-| [setVersion(int value)](#setVersion-int-) | Represents the version number of the application that created the document. |
-| [setWords(int value)](#setWords-int-) | Represents an estimate of the number of words in the document. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### clear() {#clear--}
+| [clear()](#clear) | Removes all properties from the collection. |
+| [contains(String name)](#contains-java.lang.String) | Returns  true  if a property with the specified name exists in the collection. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [get(int index)](#get-int) | Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object by index. |
+| [get(String name)](#get-java.lang.String) | Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object. |
+| [getAuthor()](#getAuthor) | Gets the name of the document's author. |
+| [getBytes()](#getBytes) | Represents an estimate of the number of bytes in the document. |
+| [getCategory()](#getCategory) | Gets the category of the document. |
+| [getCharacters()](#getCharacters) | Represents an estimate of the number of characters in the document. |
+| [getCharactersWithSpaces()](#getCharactersWithSpaces) | Represents an estimate of the number of characters (including spaces) in the document. |
+| [getClass()](#getClass) |  |
+| [getComments()](#getComments) | Gets the document comments. |
+| [getCompany()](#getCompany) | Gets the company property. |
+| [getContentStatus()](#getContentStatus) | Gets the **F:Aspose.Words.Properties.PropertyName.ContentStatus** of the document. |
+| [getContentType()](#getContentType) | Gets the **F:Aspose.Words.Properties.PropertyName.ContentType** of the document. |
+| [getCount()](#getCount) | Gets number of items in the collection. |
+| [getCreatedTime()](#getCreatedTime) | Gets date of the document creation in UTC. |
+| [getHeadingPairs()](#getHeadingPairs) | Specifies document headings and their names. |
+| [getHyperlinkBase()](#getHyperlinkBase) | Specifies the base string used for evaluating relative hyperlinks in this document. |
+| [getKeywords()](#getKeywords) | Gets the document keywords. |
+| [getLastPrinted()](#getLastPrinted) | Gets the date when the document was last printed in UTC. |
+| [getLastSavedBy()](#getLastSavedBy) | Gets the name of the last author. |
+| [getLastSavedTime()](#getLastSavedTime) | Gets the time of the last save in UTC. |
+| [getLines()](#getLines) | Represents an estimate of the number of lines in the document. |
+| [getLinksUpToDate()](#getLinksUpToDate) | Indicates whether hyperlinks in a document are up-to-date. |
+| [getManager()](#getManager) | Gets the manager property. |
+| [getNameOfApplication()](#getNameOfApplication) | Gets the name of the application. |
+| [getPages()](#getPages) | Represents an estimate of the number of pages in the document. |
+| [getParagraphs()](#getParagraphs) | Represents an estimate of the number of paragraphs in the document. |
+| [getRevisionNumber()](#getRevisionNumber) | Gets the document revision number. |
+| [getSecurity()](#getSecurity) | Specifies the security level of a document as a numeric value. |
+| [getSubject()](#getSubject) | Gets the subject of the document. |
+| [getTemplate()](#getTemplate) | Gets the informational name of the document template. |
+| [getThumbnail()](#getThumbnail) | Gets or sets the thumbnail of the document. |
+| [getTitle()](#getTitle) | Gets the title of the document. |
+| [getTitlesOfParts()](#getTitlesOfParts) | Each string in the array specifies the name of a part in the document. |
+| [getTotalEditingTime()](#getTotalEditingTime) | Gets the total editing time in minutes. |
+| [getVersion()](#getVersion) | Represents the version number of the application that created the document. |
+| [getWords()](#getWords) | Represents an estimate of the number of words in the document. |
+| [hashCode()](#hashCode) |  |
+| [indexOf(String name)](#indexOf-java.lang.String) | Gets the index of a property by name. |
+| [iterator()](#iterator) | Returns an iterator object that can be used to iterate over all items in the collection. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [remove(String name)](#remove-java.lang.String) | Removes a property with the specified name from the collection. |
+| [removeAt(int index)](#removeAt-int) | Removes a property at the specified index. |
+| [setAuthor(String value)](#setAuthor-java.lang.String) | Sets the name of the document's author. |
+| [setBytes(int value)](#setBytes-int) | Represents an estimate of the number of bytes in the document. |
+| [setCategory(String value)](#setCategory-java.lang.String) | Sets the category of the document. |
+| [setCharacters(int value)](#setCharacters-int) | Represents an estimate of the number of characters in the document. |
+| [setCharactersWithSpaces(int value)](#setCharactersWithSpaces-int) | Represents an estimate of the number of characters (including spaces) in the document. |
+| [setComments(String value)](#setComments-java.lang.String) | Sets the document comments. |
+| [setCompany(String value)](#setCompany-java.lang.String) | Sets the company property. |
+| [setContentStatus(String value)](#setContentStatus-java.lang.String) | Sets the **F:Aspose.Words.Properties.PropertyName.ContentStatus** of the document. |
+| [setContentType(String value)](#setContentType-java.lang.String) | Sets the **F:Aspose.Words.Properties.PropertyName.ContentType** of the document. |
+| [setCreatedTime(Date value)](#setCreatedTime-java.util.Date) | Sets date of the document creation in UTC. |
+| [setHeadingPairs(Object[] value)](#setHeadingPairs-java.lang.Object) | Specifies document headings and their names. |
+| [setHyperlinkBase(String value)](#setHyperlinkBase-java.lang.String) | Specifies the base string used for evaluating relative hyperlinks in this document. |
+| [setKeywords(String value)](#setKeywords-java.lang.String) | Sets the document keywords. |
+| [setLastPrinted(Date value)](#setLastPrinted-java.util.Date) | Sets the date when the document was last printed in UTC. |
+| [setLastSavedBy(String value)](#setLastSavedBy-java.lang.String) | Sets the name of the last author. |
+| [setLastSavedTime(Date value)](#setLastSavedTime-java.util.Date) | Sets the time of the last save in UTC. |
+| [setLines(int value)](#setLines-int) | Represents an estimate of the number of lines in the document. |
+| [setLinksUpToDate(boolean value)](#setLinksUpToDate-boolean) | Indicates whether hyperlinks in a document are up-to-date. |
+| [setManager(String value)](#setManager-java.lang.String) | Sets the manager property. |
+| [setNameOfApplication(String value)](#setNameOfApplication-java.lang.String) | Sets the name of the application. |
+| [setPages(int value)](#setPages-int) | Represents an estimate of the number of pages in the document. |
+| [setParagraphs(int value)](#setParagraphs-int) | Represents an estimate of the number of paragraphs in the document. |
+| [setRevisionNumber(int value)](#setRevisionNumber-int) | Sets the document revision number. |
+| [setSecurity(int value)](#setSecurity-int) | Specifies the security level of a document as a numeric value. |
+| [setSubject(String value)](#setSubject-java.lang.String) | Sets the subject of the document. |
+| [setTemplate(String value)](#setTemplate-java.lang.String) | Sets the informational name of the document template. |
+| [setThumbnail(byte[] value)](#setThumbnail-byte) | Gets or sets the thumbnail of the document. |
+| [setTitle(String value)](#setTitle-java.lang.String) | Sets the title of the document. |
+| [setTitlesOfParts(String[] value)](#setTitlesOfParts-java.lang.String) | Each string in the array specifies the name of a part in the document. |
+| [setTotalEditingTime(int value)](#setTotalEditingTime-int) | Sets the total editing time in minutes. |
+| [setVersion(int value)](#setVersion-int) | Represents the version number of the application that created the document. |
+| [setWords(int value)](#setWords-int) | Represents an estimate of the number of words in the document. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### clear() {#clear}
 ```
 public void clear()
 ```
@@ -116,13 +119,13 @@ public void clear()
 
 Removes all properties from the collection.
 
-### contains(String name) {#contains-java.lang.String-}
+### contains(String name) {#contains-java.lang.String}
 ```
 public boolean contains(String name)
 ```
 
 
-Returns true if a property with the specified name exists in the collection.
+Returns  true  if a property with the specified name exists in the collection.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -130,8 +133,8 @@ Returns true if a property with the specified name exists in the collection.
 | name | java.lang.String | The case-insensitive name of the property. |
 
 **Returns:**
-boolean - True if the property exists in the collection; false otherwise.
-### equals(Object arg0) {#equals-java.lang.Object-}
+boolean - \{ true  if the property exists in the collection;  false  otherwise.
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -146,7 +149,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### get(int index) {#get-int-}
+### get(int index) {#get-int}
 ```
 public DocumentProperty get(int index)
 ```
@@ -163,7 +166,7 @@ Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object by 
 
 **Returns:**
 [DocumentProperty](../../com.aspose.words/documentproperty) - A [DocumentProperty](../../com.aspose.words/documentproperty) object by index.
-### get(String name) {#get-java.lang.String-}
+### get(String name) {#get-java.lang.String}
 ```
 public DocumentProperty get(String name)
 ```
@@ -173,9 +176,9 @@ Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object.  R
 
 The string names of the properties correspond to the names of the typed properties available from [BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties).
 
-If you request a property that is not present in the document, but the name of the property is recognized as a valid built-in name, a new [DocumentProperty](../../com.aspose.words/documentproperty) is created, added to the collection and returned. The newly created property is assigned a default value (empty string, zero, false or DateTime.MinValue depending on the type of the built-in property).
+If you request a property that is not present in the document, but the name of the property is recognized as a valid built-in name, a new [DocumentProperty](../../com.aspose.words/documentproperty) is created, added to the collection and returned. The newly created property is assigned a default value (empty string, zero,  false  or DateTime.MinValue depending on the type of the built-in property).
 
-If you request a property that is not present in the document and the name is not recognized as a built-in name, a null is returned.
+If you request a property that is not present in the document and the name is not recognized as a built-in name, a  null  is returned.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -184,7 +187,7 @@ If you request a property that is not present in the document and the name is no
 
 **Returns:**
 [DocumentProperty](../../com.aspose.words/documentproperty) - The corresponding [DocumentProperty](../../com.aspose.words/documentproperty) value.
-### getAuthor() {#getAuthor--}
+### getAuthor() {#getAuthor}
 ```
 public String getAuthor()
 ```
@@ -194,7 +197,7 @@ Gets the name of the document's author.
 
 **Returns:**
 java.lang.String - The name of the document's author.
-### getBytes() {#getBytes--}
+### getBytes() {#getBytes}
 ```
 public int getBytes()
 ```
@@ -208,7 +211,7 @@ Aspose.Words does not update this property.
 
 **Returns:**
 int - The corresponding  int  value.
-### getCategory() {#getCategory--}
+### getCategory() {#getCategory}
 ```
 public String getCategory()
 ```
@@ -218,7 +221,7 @@ Gets the category of the document.
 
 **Returns:**
 java.lang.String - The category of the document.
-### getCharacters() {#getCharacters--}
+### getCharacters() {#getCharacters}
 ```
 public int getCharacters()
 ```
@@ -226,11 +229,11 @@ public int getCharacters()
 
 Represents an estimate of the number of characters in the document.
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
+Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount).
 
 **Returns:**
 int - The corresponding  int  value.
-### getCharactersWithSpaces() {#getCharactersWithSpaces--}
+### getCharactersWithSpaces() {#getCharactersWithSpaces}
 ```
 public int getCharactersWithSpaces()
 ```
@@ -238,11 +241,11 @@ public int getCharactersWithSpaces()
 
 Represents an estimate of the number of characters (including spaces) in the document.
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
+Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount).
 
 **Returns:**
 int - The corresponding  int  value.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -252,7 +255,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getComments() {#getComments--}
+### getComments() {#getComments}
 ```
 public String getComments()
 ```
@@ -262,7 +265,7 @@ Gets the document comments.
 
 **Returns:**
 java.lang.String - The document comments.
-### getCompany() {#getCompany--}
+### getCompany() {#getCompany}
 ```
 public String getCompany()
 ```
@@ -272,27 +275,27 @@ Gets the company property.
 
 **Returns:**
 java.lang.String - The company property.
-### getContentStatus() {#getContentStatus--}
+### getContentStatus() {#getContentStatus}
 ```
 public String getContentStatus()
 ```
 
 
-Gets the ContentStatus of the document.
+Gets the **F:Aspose.Words.Properties.PropertyName.ContentStatus** of the document.
 
 **Returns:**
-java.lang.String - The ContentStatus of the document.
-### getContentType() {#getContentType--}
+java.lang.String - The **F:Aspose.Words.Properties.PropertyName.ContentStatus** of the document.
+### getContentType() {#getContentType}
 ```
 public String getContentType()
 ```
 
 
-Gets the ContentStatus of the document.
+Gets the **F:Aspose.Words.Properties.PropertyName.ContentType** of the document.
 
 **Returns:**
-java.lang.String - The ContentStatus of the document.
-### getCount() {#getCount--}
+java.lang.String - The **F:Aspose.Words.Properties.PropertyName.ContentType** of the document.
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -302,7 +305,7 @@ Gets number of items in the collection.
 
 **Returns:**
 int - Number of items in the collection.
-### getCreatedTime() {#getCreatedTime--}
+### getCreatedTime() {#getCreatedTime}
 ```
 public Date getCreatedTime()
 ```
@@ -316,7 +319,7 @@ Aspose.Words does not update this property.
 
 **Returns:**
 java.util.Date - Date of the document creation in UTC.
-### getHeadingPairs() {#getHeadingPairs--}
+### getHeadingPairs() {#getHeadingPairs}
 ```
 public Object[] getHeadingPairs()
 ```
@@ -326,15 +329,15 @@ Specifies document headings and their names.
 
 Every heading pair occupies two elements in this array.
 
-The first element of the pair is a java.lang.String and specifies the heading name. The second element of the pair is an int and specifies the count of document parts for this heading in the [getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties\#getTitlesOfParts--) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties\#setTitlesOfParts-java.lang.String---) property.
+The first element of the pair is a java.lang.String and specifies the heading name. The second element of the pair is an int and specifies the count of document parts for this heading in the [getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties\#getTitlesOfParts) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties\#setTitlesOfParts-java.lang.String) property.
 
-The total sum of counts for all heading pairs in this property must be equal to the number of elements in the [getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties\#getTitlesOfParts--) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties\#setTitlesOfParts-java.lang.String---) property.
+The total sum of counts for all heading pairs in this property must be equal to the number of elements in the [getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties\#getTitlesOfParts) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties\#setTitlesOfParts-java.lang.String) property.
 
 Aspose.Words does not update this property.
 
 **Returns:**
 java.lang.Object[] - The corresponding java.lang.Object[] value.
-### getHyperlinkBase() {#getHyperlinkBase--}
+### getHyperlinkBase() {#getHyperlinkBase}
 ```
 public String getHyperlinkBase()
 ```
@@ -346,7 +349,7 @@ Aspose.Words does not use this property.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### getKeywords() {#getKeywords--}
+### getKeywords() {#getKeywords}
 ```
 public String getKeywords()
 ```
@@ -356,7 +359,7 @@ Gets the document keywords.
 
 **Returns:**
 java.lang.String - The document keywords.
-### getLastPrinted() {#getLastPrinted--}
+### getLastPrinted() {#getLastPrinted}
 ```
 public Date getLastPrinted()
 ```
@@ -372,7 +375,7 @@ Aspose.Words does not update this property.
 
 **Returns:**
 java.util.Date - The date when the document was last printed in UTC.
-### getLastSavedBy() {#getLastSavedBy--}
+### getLastSavedBy() {#getLastSavedBy}
 ```
 public String getLastSavedBy()
 ```
@@ -384,7 +387,7 @@ Aspose.Words does not update this property.
 
 **Returns:**
 java.lang.String - The name of the last author.
-### getLastSavedTime() {#getLastSavedTime--}
+### getLastSavedTime() {#getLastSavedTime}
 ```
 public Date getLastSavedTime()
 ```
@@ -398,7 +401,7 @@ Aspose.Words does not update this property.
 
 **Returns:**
 java.util.Date - The time of the last save in UTC.
-### getLines() {#getLines--}
+### getLines() {#getLines}
 ```
 public int getLines()
 ```
@@ -406,11 +409,11 @@ public int getLines()
 
 Represents an estimate of the number of lines in the document.
 
-Aspose.Words updates this property when you call [Document.updateWordCount(boolean)](../../com.aspose.words/document\#updateWordCount-boolean-).
+Aspose.Words updates this property when you call [Document.updateWordCount(boolean)](../../com.aspose.words/document\#updateWordCount-boolean).
 
 **Returns:**
 int - The corresponding  int  value.
-### getLinksUpToDate() {#getLinksUpToDate--}
+### getLinksUpToDate() {#getLinksUpToDate}
 ```
 public boolean getLinksUpToDate()
 ```
@@ -422,7 +425,7 @@ Aspose.Words does not update this property.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getManager() {#getManager--}
+### getManager() {#getManager}
 ```
 public String getManager()
 ```
@@ -432,7 +435,7 @@ Gets the manager property.
 
 **Returns:**
 java.lang.String - The manager property.
-### getNameOfApplication() {#getNameOfApplication--}
+### getNameOfApplication() {#getNameOfApplication}
 ```
 public String getNameOfApplication()
 ```
@@ -442,7 +445,7 @@ Gets the name of the application.
 
 **Returns:**
 java.lang.String - The name of the application.
-### getPages() {#getPages--}
+### getPages() {#getPages}
 ```
 public int getPages()
 ```
@@ -450,11 +453,11 @@ public int getPages()
 
 Represents an estimate of the number of pages in the document.
 
-Aspose.Words updates this property when you call [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--).
+Aspose.Words updates this property when you call [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout).
 
 **Returns:**
 int - The corresponding  int  value.
-### getParagraphs() {#getParagraphs--}
+### getParagraphs() {#getParagraphs}
 ```
 public int getParagraphs()
 ```
@@ -462,11 +465,11 @@ public int getParagraphs()
 
 Represents an estimate of the number of paragraphs in the document.
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
+Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount).
 
 **Returns:**
 int - The corresponding  int  value.
-### getRevisionNumber() {#getRevisionNumber--}
+### getRevisionNumber() {#getRevisionNumber}
 ```
 public int getRevisionNumber()
 ```
@@ -478,7 +481,7 @@ Aspose.Words does not update this property.
 
 **Returns:**
 int - The document revision number.
-### getSecurity() {#getSecurity--}
+### getSecurity() {#getSecurity}
 ```
 public int getSecurity()
 ```
@@ -488,13 +491,13 @@ Specifies the security level of a document as a numeric value.
 
 Use this property for informational purposes only because Microsoft Word does not always set this property. This property is available in DOC and OOXML documents only.
 
-To protect or unprotect a document use the **M:Aspose.Words.Document.Protect(Aspose.Words.ProtectionType,System.String)** and [Document.unprotect()](../../com.aspose.words/document\#unprotect--) methods.
+To protect or unprotect a document use the **M:Aspose.Words.Document.Protect(Aspose.Words.ProtectionType,System.String)** and [Document.unprotect()](../../com.aspose.words/document\#unprotect) methods.
 
 Aspose.Words updates this property to a correct value before saving a document.
 
 **Returns:**
 int - The corresponding  int  value. The returned value is a bitwise combination of [DocumentSecurity](../../com.aspose.words/documentsecurity) constants.
-### getSubject() {#getSubject--}
+### getSubject() {#getSubject}
 ```
 public String getSubject()
 ```
@@ -504,7 +507,7 @@ Gets the subject of the document.
 
 **Returns:**
 java.lang.String - The subject of the document.
-### getTemplate() {#getTemplate--}
+### getTemplate() {#getTemplate}
 ```
 public String getTemplate()
 ```
@@ -516,11 +519,11 @@ In Microsoft Word, this property is for informational purposes only and usually 
 
 Empty string means the document is attached to the Normal template.
 
-To get or set the actual name of the attached template, use the [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-) property.
+To get or set the actual name of the attached template, use the [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String) property.
 
 **Returns:**
 java.lang.String - The informational name of the document template.
-### getThumbnail() {#getThumbnail--}
+### getThumbnail() {#getThumbnail}
 ```
 public byte[] getThumbnail()
 ```
@@ -536,7 +539,7 @@ Only gif, jpeg and png images can be used for ePub publication.
 
 **Returns:**
 byte[] - The corresponding byte[] value.
-### getTitle() {#getTitle--}
+### getTitle() {#getTitle}
 ```
 public String getTitle()
 ```
@@ -546,7 +549,7 @@ Gets the title of the document.
 
 **Returns:**
 java.lang.String - The title of the document.
-### getTitlesOfParts() {#getTitlesOfParts--}
+### getTitlesOfParts() {#getTitlesOfParts}
 ```
 public String[] getTitlesOfParts()
 ```
@@ -558,7 +561,7 @@ Aspose.Words does not update this property.
 
 **Returns:**
 java.lang.String[] - The corresponding java.lang.String[] value.
-### getTotalEditingTime() {#getTotalEditingTime--}
+### getTotalEditingTime() {#getTotalEditingTime}
 ```
 public int getTotalEditingTime()
 ```
@@ -568,7 +571,7 @@ Gets the total editing time in minutes.
 
 **Returns:**
 int - The total editing time in minutes.
-### getVersion() {#getVersion--}
+### getVersion() {#getVersion}
 ```
 public int getVersion()
 ```
@@ -580,7 +583,7 @@ When a document was created by Microsoft Word, then high 16 bit represent the ma
 
 **Returns:**
 int - The corresponding  int  value.
-### getWords() {#getWords--}
+### getWords() {#getWords}
 ```
 public int getWords()
 ```
@@ -588,11 +591,11 @@ public int getWords()
 
 Represents an estimate of the number of words in the document.
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
+Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount).
 
 **Returns:**
 int - The corresponding  int  value.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -602,7 +605,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### indexOf(String name) {#indexOf-java.lang.String-}
+### indexOf(String name) {#indexOf-java.lang.String}
 ```
 public int indexOf(String name)
 ```
@@ -619,7 +622,7 @@ Gets the index of a property by name.
 
 **Returns:**
 int - The zero based index. Negative value if not found.
-### iterator() {#iterator--}
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -629,7 +632,7 @@ Returns an iterator object that can be used to iterate over all items in the col
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -637,7 +640,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -645,7 +648,7 @@ public final native void notifyAll()
 
 
 
-### remove(String name) {#remove-java.lang.String-}
+### remove(String name) {#remove-java.lang.String}
 ```
 public void remove(String name)
 ```
@@ -658,7 +661,7 @@ Removes a property with the specified name from the collection.
 | --- | --- | --- |
 | name | java.lang.String | The case-insensitive name of the property. |
 
-### removeAt(int index) {#removeAt-int-}
+### removeAt(int index) {#removeAt-int}
 ```
 public void removeAt(int index)
 ```
@@ -673,7 +676,7 @@ Removes a property at the specified index.
 | --- | --- | --- |
 | index | int | The zero based index. |
 
-### setAuthor(String value) {#setAuthor-java.lang.String-}
+### setAuthor(String value) {#setAuthor-java.lang.String}
 ```
 public void setAuthor(String value)
 ```
@@ -686,7 +689,7 @@ Sets the name of the document's author.
 | --- | --- | --- |
 | value | java.lang.String | The name of the document's author. |
 
-### setBytes(int value) {#setBytes-int-}
+### setBytes(int value) {#setBytes-int}
 ```
 public void setBytes(int value)
 ```
@@ -703,7 +706,7 @@ Aspose.Words does not update this property.
 | --- | --- | --- |
 | value | int | The corresponding  int  value. |
 
-### setCategory(String value) {#setCategory-java.lang.String-}
+### setCategory(String value) {#setCategory-java.lang.String}
 ```
 public void setCategory(String value)
 ```
@@ -716,7 +719,7 @@ Sets the category of the document.
 | --- | --- | --- |
 | value | java.lang.String | The category of the document. |
 
-### setCharacters(int value) {#setCharacters-int-}
+### setCharacters(int value) {#setCharacters-int}
 ```
 public void setCharacters(int value)
 ```
@@ -724,14 +727,14 @@ public void setCharacters(int value)
 
 Represents an estimate of the number of characters in the document.
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
+Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The corresponding  int  value. |
 
-### setCharactersWithSpaces(int value) {#setCharactersWithSpaces-int-}
+### setCharactersWithSpaces(int value) {#setCharactersWithSpaces-int}
 ```
 public void setCharactersWithSpaces(int value)
 ```
@@ -739,14 +742,14 @@ public void setCharactersWithSpaces(int value)
 
 Represents an estimate of the number of characters (including spaces) in the document.
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
+Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The corresponding  int  value. |
 
-### setComments(String value) {#setComments-java.lang.String-}
+### setComments(String value) {#setComments-java.lang.String}
 ```
 public void setComments(String value)
 ```
@@ -759,7 +762,7 @@ Sets the document comments.
 | --- | --- | --- |
 | value | java.lang.String | The document comments. |
 
-### setCompany(String value) {#setCompany-java.lang.String-}
+### setCompany(String value) {#setCompany-java.lang.String}
 ```
 public void setCompany(String value)
 ```
@@ -772,33 +775,33 @@ Sets the company property.
 | --- | --- | --- |
 | value | java.lang.String | The company property. |
 
-### setContentStatus(String value) {#setContentStatus-java.lang.String-}
+### setContentStatus(String value) {#setContentStatus-java.lang.String}
 ```
 public void setContentStatus(String value)
 ```
 
 
-Sets the ContentStatus of the document.
+Sets the **F:Aspose.Words.Properties.PropertyName.ContentStatus** of the document.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | The ContentStatus of the document. |
+| value | java.lang.String | The **F:Aspose.Words.Properties.PropertyName.ContentStatus** of the document. |
 
-### setContentType(String value) {#setContentType-java.lang.String-}
+### setContentType(String value) {#setContentType-java.lang.String}
 ```
 public void setContentType(String value)
 ```
 
 
-Sets the ContentStatus of the document.
+Sets the **F:Aspose.Words.Properties.PropertyName.ContentType** of the document.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | The ContentStatus of the document. |
+| value | java.lang.String | The **F:Aspose.Words.Properties.PropertyName.ContentType** of the document. |
 
-### setCreatedTime(Date value) {#setCreatedTime-java.util.Date-}
+### setCreatedTime(Date value) {#setCreatedTime-java.util.Date}
 ```
 public void setCreatedTime(Date value)
 ```
@@ -815,7 +818,7 @@ Aspose.Words does not update this property.
 | --- | --- | --- |
 | value | java.util.Date | Date of the document creation in UTC. |
 
-### setHeadingPairs(Object[] value) {#setHeadingPairs-java.lang.Object---}
+### setHeadingPairs(Object[] value) {#setHeadingPairs-java.lang.Object}
 ```
 public void setHeadingPairs(Object[] value)
 ```
@@ -825,9 +828,9 @@ Specifies document headings and their names.
 
 Every heading pair occupies two elements in this array.
 
-The first element of the pair is a java.lang.String and specifies the heading name. The second element of the pair is an int and specifies the count of document parts for this heading in the [getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties\#getTitlesOfParts--) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties\#setTitlesOfParts-java.lang.String---) property.
+The first element of the pair is a java.lang.String and specifies the heading name. The second element of the pair is an int and specifies the count of document parts for this heading in the [getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties\#getTitlesOfParts) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties\#setTitlesOfParts-java.lang.String) property.
 
-The total sum of counts for all heading pairs in this property must be equal to the number of elements in the [getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties\#getTitlesOfParts--) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties\#setTitlesOfParts-java.lang.String---) property.
+The total sum of counts for all heading pairs in this property must be equal to the number of elements in the [getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties\#getTitlesOfParts) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties\#setTitlesOfParts-java.lang.String) property.
 
 Aspose.Words does not update this property.
 
@@ -836,7 +839,7 @@ Aspose.Words does not update this property.
 | --- | --- | --- |
 | value | java.lang.Object[] | The corresponding java.lang.Object[] value. |
 
-### setHyperlinkBase(String value) {#setHyperlinkBase-java.lang.String-}
+### setHyperlinkBase(String value) {#setHyperlinkBase-java.lang.String}
 ```
 public void setHyperlinkBase(String value)
 ```
@@ -851,7 +854,7 @@ Aspose.Words does not use this property.
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### setKeywords(String value) {#setKeywords-java.lang.String-}
+### setKeywords(String value) {#setKeywords-java.lang.String}
 ```
 public void setKeywords(String value)
 ```
@@ -864,7 +867,7 @@ Sets the document keywords.
 | --- | --- | --- |
 | value | java.lang.String | The document keywords. |
 
-### setLastPrinted(Date value) {#setLastPrinted-java.util.Date-}
+### setLastPrinted(Date value) {#setLastPrinted-java.util.Date}
 ```
 public void setLastPrinted(Date value)
 ```
@@ -883,7 +886,7 @@ Aspose.Words does not update this property.
 | --- | --- | --- |
 | value | java.util.Date | The date when the document was last printed in UTC. |
 
-### setLastSavedBy(String value) {#setLastSavedBy-java.lang.String-}
+### setLastSavedBy(String value) {#setLastSavedBy-java.lang.String}
 ```
 public void setLastSavedBy(String value)
 ```
@@ -898,7 +901,7 @@ Aspose.Words does not update this property.
 | --- | --- | --- |
 | value | java.lang.String | The name of the last author. |
 
-### setLastSavedTime(Date value) {#setLastSavedTime-java.util.Date-}
+### setLastSavedTime(Date value) {#setLastSavedTime-java.util.Date}
 ```
 public void setLastSavedTime(Date value)
 ```
@@ -915,7 +918,7 @@ Aspose.Words does not update this property.
 | --- | --- | --- |
 | value | java.util.Date | The time of the last save in UTC. |
 
-### setLines(int value) {#setLines-int-}
+### setLines(int value) {#setLines-int}
 ```
 public void setLines(int value)
 ```
@@ -923,14 +926,14 @@ public void setLines(int value)
 
 Represents an estimate of the number of lines in the document.
 
-Aspose.Words updates this property when you call [Document.updateWordCount(boolean)](../../com.aspose.words/document\#updateWordCount-boolean-).
+Aspose.Words updates this property when you call [Document.updateWordCount(boolean)](../../com.aspose.words/document\#updateWordCount-boolean).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The corresponding  int  value. |
 
-### setLinksUpToDate(boolean value) {#setLinksUpToDate-boolean-}
+### setLinksUpToDate(boolean value) {#setLinksUpToDate-boolean}
 ```
 public void setLinksUpToDate(boolean value)
 ```
@@ -945,7 +948,7 @@ Aspose.Words does not update this property.
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setManager(String value) {#setManager-java.lang.String-}
+### setManager(String value) {#setManager-java.lang.String}
 ```
 public void setManager(String value)
 ```
@@ -958,7 +961,7 @@ Sets the manager property.
 | --- | --- | --- |
 | value | java.lang.String | The manager property. |
 
-### setNameOfApplication(String value) {#setNameOfApplication-java.lang.String-}
+### setNameOfApplication(String value) {#setNameOfApplication-java.lang.String}
 ```
 public void setNameOfApplication(String value)
 ```
@@ -971,7 +974,7 @@ Sets the name of the application.
 | --- | --- | --- |
 | value | java.lang.String | The name of the application. |
 
-### setPages(int value) {#setPages-int-}
+### setPages(int value) {#setPages-int}
 ```
 public void setPages(int value)
 ```
@@ -979,14 +982,14 @@ public void setPages(int value)
 
 Represents an estimate of the number of pages in the document.
 
-Aspose.Words updates this property when you call [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--).
+Aspose.Words updates this property when you call [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The corresponding  int  value. |
 
-### setParagraphs(int value) {#setParagraphs-int-}
+### setParagraphs(int value) {#setParagraphs-int}
 ```
 public void setParagraphs(int value)
 ```
@@ -994,14 +997,14 @@ public void setParagraphs(int value)
 
 Represents an estimate of the number of paragraphs in the document.
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
+Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The corresponding  int  value. |
 
-### setRevisionNumber(int value) {#setRevisionNumber-int-}
+### setRevisionNumber(int value) {#setRevisionNumber-int}
 ```
 public void setRevisionNumber(int value)
 ```
@@ -1016,7 +1019,7 @@ Aspose.Words does not update this property.
 | --- | --- | --- |
 | value | int | The document revision number. |
 
-### setSecurity(int value) {#setSecurity-int-}
+### setSecurity(int value) {#setSecurity-int}
 ```
 public void setSecurity(int value)
 ```
@@ -1026,7 +1029,7 @@ Specifies the security level of a document as a numeric value.
 
 Use this property for informational purposes only because Microsoft Word does not always set this property. This property is available in DOC and OOXML documents only.
 
-To protect or unprotect a document use the **M:Aspose.Words.Document.Protect(Aspose.Words.ProtectionType,System.String)** and [Document.unprotect()](../../com.aspose.words/document\#unprotect--) methods.
+To protect or unprotect a document use the **M:Aspose.Words.Document.Protect(Aspose.Words.ProtectionType,System.String)** and [Document.unprotect()](../../com.aspose.words/document\#unprotect) methods.
 
 Aspose.Words updates this property to a correct value before saving a document.
 
@@ -1035,7 +1038,7 @@ Aspose.Words updates this property to a correct value before saving a document.
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be a bitwise combination of [DocumentSecurity](../../com.aspose.words/documentsecurity) constants. |
 
-### setSubject(String value) {#setSubject-java.lang.String-}
+### setSubject(String value) {#setSubject-java.lang.String}
 ```
 public void setSubject(String value)
 ```
@@ -1048,7 +1051,7 @@ Sets the subject of the document.
 | --- | --- | --- |
 | value | java.lang.String | The subject of the document. |
 
-### setTemplate(String value) {#setTemplate-java.lang.String-}
+### setTemplate(String value) {#setTemplate-java.lang.String}
 ```
 public void setTemplate(String value)
 ```
@@ -1060,14 +1063,14 @@ In Microsoft Word, this property is for informational purposes only and usually 
 
 Empty string means the document is attached to the Normal template.
 
-To get or set the actual name of the attached template, use the [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-) property.
+To get or set the actual name of the attached template, use the [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String) property.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The informational name of the document template. |
 
-### setThumbnail(byte[] value) {#setThumbnail-byte---}
+### setThumbnail(byte[] value) {#setThumbnail-byte}
 ```
 public void setThumbnail(byte[] value)
 ```
@@ -1086,7 +1089,7 @@ Only gif, jpeg and png images can be used for ePub publication.
 | --- | --- | --- |
 | value | byte[] | The corresponding byte[] value. |
 
-### setTitle(String value) {#setTitle-java.lang.String-}
+### setTitle(String value) {#setTitle-java.lang.String}
 ```
 public void setTitle(String value)
 ```
@@ -1099,7 +1102,7 @@ Sets the title of the document.
 | --- | --- | --- |
 | value | java.lang.String | The title of the document. |
 
-### setTitlesOfParts(String[] value) {#setTitlesOfParts-java.lang.String---}
+### setTitlesOfParts(String[] value) {#setTitlesOfParts-java.lang.String}
 ```
 public void setTitlesOfParts(String[] value)
 ```
@@ -1114,7 +1117,7 @@ Aspose.Words does not update this property.
 | --- | --- | --- |
 | value | java.lang.String[] | The corresponding java.lang.String[] value. |
 
-### setTotalEditingTime(int value) {#setTotalEditingTime-int-}
+### setTotalEditingTime(int value) {#setTotalEditingTime-int}
 ```
 public void setTotalEditingTime(int value)
 ```
@@ -1127,7 +1130,7 @@ Sets the total editing time in minutes.
 | --- | --- | --- |
 | value | int | The total editing time in minutes. |
 
-### setVersion(int value) {#setVersion-int-}
+### setVersion(int value) {#setVersion-int}
 ```
 public void setVersion(int value)
 ```
@@ -1142,7 +1145,7 @@ When a document was created by Microsoft Word, then high 16 bit represent the ma
 | --- | --- | --- |
 | value | int | The corresponding  int  value. |
 
-### setWords(int value) {#setWords-int-}
+### setWords(int value) {#setWords-int}
 ```
 public void setWords(int value)
 ```
@@ -1150,14 +1153,14 @@ public void setWords(int value)
 
 Represents an estimate of the number of words in the document.
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
+Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The corresponding  int  value. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -1167,7 +1170,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -1175,7 +1178,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -1188,7 +1191,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

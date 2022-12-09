@@ -3,7 +3,7 @@ title: get_ListLevels
 second_title: Aspose.Words for C++ API Reference
 description: Gets the collection of list levels for this list.
 type: docs
-weight: 105
+weight: 118
 url: /cpp/aspose.words.lists/list/get_listlevels/
 ---
 ## List::get_ListLevels method

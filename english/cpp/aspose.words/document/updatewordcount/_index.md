@@ -3,7 +3,7 @@ title: UpdateWordCount
 second_title: Aspose.Words for C++ API Reference
 description: Updates word count properties of the document.
 type: docs
-weight: 1210
+weight: 1249
 url: /cpp/aspose.words/document/updatewordcount/
 ---
 ## Document::UpdateWordCount() method
@@ -18,9 +18,9 @@ void Aspose::Words::Document::UpdateWordCount()
 ## Remarks
 
 
-**UpdateWordCount** recalculates and updates Characters, [Words](../../) and Paragraphs properties in the [BuiltInDocumentProperties](../get_builtindocumentproperties/) collection of the **Document**.
+[UpdateWordCount](./) recalculates and updates Characters, [Words](../../) and Paragraphs properties in the [BuiltInDocumentProperties](../get_builtindocumentproperties/) collection of the [Document](../).
 
-Note that **UpdateWordCount** does not update number of lines and pages properties. Use the [UpdateWordCount](./) overload and pass True value as a parameter to do that.
+Note that [UpdateWordCount](./) does not update number of lines and pages properties. Use the [UpdateWordCount](./) overload and pass **true** value as a parameter to do that.
 
 When you use an evaluation version, the evaluation watermark will also be included in the word count.
 
@@ -75,7 +75,7 @@ void Aspose::Words::Document::UpdateWordCount(bool updateLinesCount)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| updateLinesCount | bool | True if number of lines in the document shall be calculated. |
+| updateLinesCount | bool | **true** if number of lines in the document shall be calculated. |
 
 ## Examples
 

@@ -3,7 +3,7 @@ title: GetText
 second_title: Aspose.Words for C++ API Reference
 description: Gets the text of this node and of all its children.
 type: docs
-weight: 157
+weight: 183
 url: /cpp/aspose.words/node/gettext/
 ---
 ## Node::GetText method

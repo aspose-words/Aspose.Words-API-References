@@ -3,7 +3,7 @@ title: IComparisonExpressionEvaluator
 second_title: Aspose.Words for Java API Reference
 description: When implemented allows to override default comparison expressions evaluation for the  and  fields.
 type: docs
-weight: 634
+weight: 637
 url: /java/com.aspose.words/icomparisonexpressionevaluator/
 ---
 ```
@@ -15,14 +15,14 @@ When implemented, allows to override default comparison expressions evaluation f
 
 | Method | Description |
 | --- | --- |
-| [evaluate(Field field, ComparisonExpression expression)](#evaluate-com.aspose.words.Field-com.aspose.words.ComparisonExpression-) | Evaluates comparison expression. |
-### evaluate(Field field, ComparisonExpression expression) {#evaluate-com.aspose.words.Field-com.aspose.words.ComparisonExpression-}
+| [evaluate(Field field, ComparisonExpression expression)](#evaluate-com.aspose.words.Field-com.aspose.words.ComparisonExpression) | Evaluates comparison expression. |
+### evaluate(Field field, ComparisonExpression expression) {#evaluate-com.aspose.words.Field-com.aspose.words.ComparisonExpression}
 ```
 public abstract ComparisonEvaluationResult evaluate(Field field, ComparisonExpression expression)
 ```
 
 
-Evaluates comparison expression. The implementation should return **null** to indicate that the default evaluation should be performed.
+Evaluates comparison expression. The implementation should return  null  to indicate that the default evaluation should be performed.
 
 **Parameters:**
 | Parameter | Type | Description |

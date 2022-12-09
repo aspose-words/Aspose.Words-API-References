@@ -3,7 +3,7 @@ title: get_Type
 second_title: Aspose.Words for C++ API Reference
 description: Returns the type of the font source.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words.fonts/streamfontsource/get_type/
 ---
 ## StreamFontSource::get_Type method

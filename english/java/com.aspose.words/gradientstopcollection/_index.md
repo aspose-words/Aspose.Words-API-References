@@ -3,7 +3,7 @@ title: GradientStopCollection
 second_title: Aspose.Words for Java API Reference
 description: Contains a collection of  objects.
 type: docs
-weight: 309
+weight: 311
 url: /java/com.aspose.words/gradientstopcollection/
 ---
 
@@ -18,31 +18,34 @@ public class GradientStopCollection implements Iterable
 
 Contains a collection of [GradientStop](../../com.aspose.words/gradientstop) objects.
 
-To learn more, visit the **Working with Graphic Elements** documentation article.
+To learn more, visit the [ Working with Graphic Elements ][Working with Graphic Elements] documentation article.
 
-You do not create instances of this class directly. Use the [Fill.getGradientStops()](../../com.aspose.words/fill\#getGradientStops--) property to access gradient stops of fill objects.
+You do not create instances of this class directly. Use the [Fill.getGradientStops()](../../com.aspose.words/fill\#getGradientStops) property to access gradient stops of fill objects.
+
+
+[Working with Graphic Elements]: https://docs.aspose.com/words/java/working-with-graphic-elements/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [add(GradientStop gradientStop)](#add-com.aspose.words.GradientStop-) | Adds a specified [GradientStop](../../com.aspose.words/gradientstop) to a gradient. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Gets a [GradientStop](../../com.aspose.words/gradientstop) object in the collection. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets an integer value indicating the number of items in the collection. |
-| [hashCode()](#hashCode--) |  |
-| [insert(int index, GradientStop gradientStop)](#insert-int-com.aspose.words.GradientStop-) | Inserts a [GradientStop](../../com.aspose.words/gradientstop) to the collection at a specified index. |
-| [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove(GradientStop gradientStop)](#remove-com.aspose.words.GradientStop-) | Removes a specified [GradientStop](../../com.aspose.words/gradientstop) from the collection. |
-| [removeAt(int index)](#removeAt-int-) | Removes a [GradientStop](../../com.aspose.words/gradientstop) from the collection at a specified index. |
-| [set(int index, GradientStop value)](#set-int-com.aspose.words.GradientStop-) | Sets a [GradientStop](../../com.aspose.words/gradientstop) object in the collection. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(GradientStop gradientStop) {#add-com.aspose.words.GradientStop-}
+| [add(GradientStop gradientStop)](#add-com.aspose.words.GradientStop) | Adds a specified [GradientStop](../../com.aspose.words/gradientstop) to a gradient. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [get(int index)](#get-int) | Gets a [GradientStop](../../com.aspose.words/gradientstop) object in the collection. |
+| [getClass()](#getClass) |  |
+| [getCount()](#getCount) | Gets an integer value indicating the number of items in the collection. |
+| [hashCode()](#hashCode) |  |
+| [insert(int index, GradientStop gradientStop)](#insert-int-com.aspose.words.GradientStop) | Inserts a [GradientStop](../../com.aspose.words/gradientstop) to the collection at a specified index. |
+| [iterator()](#iterator) | Returns an enumerator that iterates through the collection. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [remove(GradientStop gradientStop)](#remove-com.aspose.words.GradientStop) | Removes a specified [GradientStop](../../com.aspose.words/gradientstop) from the collection. |
+| [removeAt(int index)](#removeAt-int) | Removes a [GradientStop](../../com.aspose.words/gradientstop) from the collection at a specified index. |
+| [set(int index, GradientStop value)](#set-int-com.aspose.words.GradientStop) | Sets a [GradientStop](../../com.aspose.words/gradientstop) object in the collection. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### add(GradientStop gradientStop) {#add-com.aspose.words.GradientStop}
 ```
 public GradientStop add(GradientStop gradientStop)
 ```
@@ -57,7 +60,7 @@ Adds a specified [GradientStop](../../com.aspose.words/gradientstop) to a gradie
 
 **Returns:**
 [GradientStop](../../com.aspose.words/gradientstop)
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -72,7 +75,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### get(int index) {#get-int-}
+### get(int index) {#get-int}
 ```
 public GradientStop get(int index)
 ```
@@ -87,7 +90,7 @@ Gets a [GradientStop](../../com.aspose.words/gradientstop) object in the collect
 
 **Returns:**
 [GradientStop](../../com.aspose.words/gradientstop) - A [GradientStop](../../com.aspose.words/gradientstop) object in the collection.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -97,7 +100,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCount() {#getCount--}
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -107,7 +110,7 @@ Gets an integer value indicating the number of items in the collection.
 
 **Returns:**
 int - An integer value indicating the number of items in the collection.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -117,7 +120,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### insert(int index, GradientStop gradientStop) {#insert-int-com.aspose.words.GradientStop-}
+### insert(int index, GradientStop gradientStop) {#insert-int-com.aspose.words.GradientStop}
 ```
 public GradientStop insert(int index, GradientStop gradientStop)
 ```
@@ -133,7 +136,7 @@ Inserts a [GradientStop](../../com.aspose.words/gradientstop) to the collection 
 
 **Returns:**
 [GradientStop](../../com.aspose.words/gradientstop)
-### iterator() {#iterator--}
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -143,7 +146,7 @@ Returns an enumerator that iterates through the collection.
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -151,7 +154,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -159,7 +162,7 @@ public final native void notifyAll()
 
 
 
-### remove(GradientStop gradientStop) {#remove-com.aspose.words.GradientStop-}
+### remove(GradientStop gradientStop) {#remove-com.aspose.words.GradientStop}
 ```
 public boolean remove(GradientStop gradientStop)
 ```
@@ -173,8 +176,8 @@ Removes a specified [GradientStop](../../com.aspose.words/gradientstop) from the
 | gradientStop | [GradientStop](../../com.aspose.words/gradientstop) |  |
 
 **Returns:**
-boolean - True if gradient stop was successfully removed, otherwise false.
-### removeAt(int index) {#removeAt-int-}
+boolean - \{ true  if gradient stop was successfully removed, otherwise  false .
+### removeAt(int index) {#removeAt-int}
 ```
 public GradientStop removeAt(int index)
 ```
@@ -189,7 +192,7 @@ Removes a [GradientStop](../../com.aspose.words/gradientstop) from the collectio
 
 **Returns:**
 [GradientStop](../../com.aspose.words/gradientstop) - Removed [GradientStop](../../com.aspose.words/gradientstop).
-### set(int index, GradientStop value) {#set-int-com.aspose.words.GradientStop-}
+### set(int index, GradientStop value) {#set-int-com.aspose.words.GradientStop}
 ```
 public void set(int index, GradientStop value)
 ```
@@ -203,7 +206,7 @@ Sets a [GradientStop](../../com.aspose.words/gradientstop) object in the collect
 | index | int |  |
 | value | [GradientStop](../../com.aspose.words/gradientstop) | A [GradientStop](../../com.aspose.words/gradientstop) object in the collection. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -213,7 +216,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -221,7 +224,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -234,7 +237,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

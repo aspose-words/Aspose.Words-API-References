@@ -3,7 +3,7 @@ title: ClearFormat
 second_title: Aspose.Words for C++ API Reference
 description: Clears format of this data label. The properties are set to the default values defined in the parent data label collection.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/clearformat/
 ---
 ## ChartDataLabel::ClearFormat method

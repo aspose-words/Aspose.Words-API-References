@@ -3,7 +3,7 @@ title: SignOptions
 second_title: Aspose.Words for Java API Reference
 description: Allows to specify options for document signing.
 type: docs
-weight: 523
+weight: 526
 url: /java/com.aspose.words/signoptions/
 ---
 
@@ -15,33 +15,36 @@ public class SignOptions
 
 Allows to specify options for document signing.
 
-To learn more, visit the **Work with Digital Signatures** documentation article.
+To learn more, visit the [ Work with Digital Signatures ][Work with Digital Signatures] documentation article.
+
+
+[Work with Digital Signatures]: https://docs.aspose.com/words/java/working-with-digital-signatures/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getComments()](#getComments--) | Specifies comments on the digital signature. |
-| [getDecryptionPassword()](#getDecryptionPassword--) | The password to decrypt source document. |
-| [getProviderId()](#getProviderId--) | Specifies the class ID of the signature provider. |
-| [getSignTime()](#getSignTime--) | The date of signing. |
-| [getSignatureLineId()](#getSignatureLineId--) | Signature line identifier. |
-| [getSignatureLineImage()](#getSignatureLineImage--) | The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline). |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setComments(String value)](#setComments-java.lang.String-) | Specifies comments on the digital signature. |
-| [setDecryptionPassword(String value)](#setDecryptionPassword-java.lang.String-) | The password to decrypt source document. |
-| [setProviderId(UUID value)](#setProviderId-java.util.UUID-) | Specifies the class ID of the signature provider. |
-| [setSignTime(Date value)](#setSignTime-java.util.Date-) | The date of signing. |
-| [setSignatureLineId(UUID value)](#setSignatureLineId-java.util.UUID-) | Signature line identifier. |
-| [setSignatureLineImage(byte[] value)](#setSignatureLineImage-byte---) | The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline). |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getComments()](#getComments) | Specifies comments on the digital signature. |
+| [getDecryptionPassword()](#getDecryptionPassword) | The password to decrypt source document. |
+| [getProviderId()](#getProviderId) | Specifies the class ID of the signature provider. |
+| [getSignTime()](#getSignTime) | The date of signing. |
+| [getSignatureLineId()](#getSignatureLineId) | Signature line identifier. |
+| [getSignatureLineImage()](#getSignatureLineImage) | The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline). |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setComments(String value)](#setComments-java.lang.String) | Specifies comments on the digital signature. |
+| [setDecryptionPassword(String value)](#setDecryptionPassword-java.lang.String) | The password to decrypt source document. |
+| [setProviderId(UUID value)](#setProviderId-java.util.UUID) | Specifies the class ID of the signature provider. |
+| [setSignTime(Date value)](#setSignTime-java.util.Date) | The date of signing. |
+| [setSignatureLineId(UUID value)](#setSignatureLineId-java.util.UUID) | Signature line identifier. |
+| [setSignatureLineImage(byte[] value)](#setSignatureLineImage-byte) | The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline). |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -56,7 +59,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -66,7 +69,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getComments() {#getComments--}
+### getComments() {#getComments}
 ```
 public String getComments()
 ```
@@ -76,7 +79,7 @@ Specifies comments on the digital signature. Default value is **empty string**.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### getDecryptionPassword() {#getDecryptionPassword--}
+### getDecryptionPassword() {#getDecryptionPassword}
 ```
 public String getDecryptionPassword()
 ```
@@ -86,7 +89,7 @@ The password to decrypt source document. Default value is **empty string**. If O
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### getProviderId() {#getProviderId--}
+### getProviderId() {#getProviderId}
 ```
 public UUID getProviderId()
 ```
@@ -102,7 +105,7 @@ In addition, all the installed cryptographic providers are enumerated in windows
 
 **Returns:**
 java.util.UUID - The corresponding java.util.UUID value.
-### getSignTime() {#getSignTime--}
+### getSignTime() {#getSignTime}
 ```
 public Date getSignTime()
 ```
@@ -112,7 +115,7 @@ The date of signing. Default value is **current time**.
 
 **Returns:**
 java.util.Date - The corresponding java.util.Date value.
-### getSignatureLineId() {#getSignatureLineId--}
+### getSignatureLineId() {#getSignatureLineId}
 ```
 public UUID getSignatureLineId()
 ```
@@ -122,7 +125,7 @@ Signature line identifier. Default value is **Empty (all zeroes) Guid**. When se
 
 **Returns:**
 java.util.UUID - The corresponding java.util.UUID value.
-### getSignatureLineImage() {#getSignatureLineImage--}
+### getSignatureLineImage() {#getSignatureLineImage}
 ```
 public byte[] getSignatureLineImage()
 ```
@@ -132,7 +135,7 @@ The image that will be shown in associated [SignatureLine](../../com.aspose.word
 
 **Returns:**
 byte[] - The corresponding byte[] value.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -142,7 +145,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -150,7 +153,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -158,7 +161,7 @@ public final native void notifyAll()
 
 
 
-### setComments(String value) {#setComments-java.lang.String-}
+### setComments(String value) {#setComments-java.lang.String}
 ```
 public void setComments(String value)
 ```
@@ -171,7 +174,7 @@ Specifies comments on the digital signature. Default value is **empty string**.
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### setDecryptionPassword(String value) {#setDecryptionPassword-java.lang.String-}
+### setDecryptionPassword(String value) {#setDecryptionPassword-java.lang.String}
 ```
 public void setDecryptionPassword(String value)
 ```
@@ -184,7 +187,7 @@ The password to decrypt source document. Default value is **empty string**. If O
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### setProviderId(UUID value) {#setProviderId-java.util.UUID-}
+### setProviderId(UUID value) {#setProviderId-java.util.UUID}
 ```
 public void setProviderId(UUID value)
 ```
@@ -203,7 +206,7 @@ In addition, all the installed cryptographic providers are enumerated in windows
 | --- | --- | --- |
 | value | java.util.UUID | The corresponding java.util.UUID value. |
 
-### setSignTime(Date value) {#setSignTime-java.util.Date-}
+### setSignTime(Date value) {#setSignTime-java.util.Date}
 ```
 public void setSignTime(Date value)
 ```
@@ -216,7 +219,7 @@ The date of signing. Default value is **current time**.
 | --- | --- | --- |
 | value | java.util.Date | The corresponding java.util.Date value. |
 
-### setSignatureLineId(UUID value) {#setSignatureLineId-java.util.UUID-}
+### setSignatureLineId(UUID value) {#setSignatureLineId-java.util.UUID}
 ```
 public void setSignatureLineId(UUID value)
 ```
@@ -229,7 +232,7 @@ Signature line identifier. Default value is **Empty (all zeroes) Guid**. When se
 | --- | --- | --- |
 | value | java.util.UUID | The corresponding java.util.UUID value. |
 
-### setSignatureLineImage(byte[] value) {#setSignatureLineImage-byte---}
+### setSignatureLineImage(byte[] value) {#setSignatureLineImage-byte}
 ```
 public void setSignatureLineImage(byte[] value)
 ```
@@ -242,7 +245,7 @@ The image that will be shown in associated [SignatureLine](../../com.aspose.word
 | --- | --- | --- |
 | value | byte[] | The corresponding byte[] value. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -252,7 +255,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -260,7 +263,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -273,7 +276,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

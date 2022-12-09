@@ -3,7 +3,7 @@ title: RemoveReply
 second_title: Aspose.Words for C++ API Reference
 description: Removes the specified reply to this comment.
 type: docs
-weight: 170
+weight: 209
 url: /cpp/aspose.words/comment/removereply/
 ---
 ## Comment::RemoveReply method

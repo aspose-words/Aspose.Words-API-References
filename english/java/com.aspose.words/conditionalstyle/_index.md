@@ -3,7 +3,7 @@ title: ConditionalStyle
 second_title: Aspose.Words for Java API Reference
 description: Represents special formatting applied to some area of a table with assigned table style.
 type: docs
-weight: 89
+weight: 90
 url: /java/com.aspose.words/conditionalstyle/
 ---
 
@@ -18,51 +18,54 @@ public class ConditionalStyle implements Cloneable
 
 Represents special formatting applied to some area of a table with assigned table style.
 
-To learn more, visit the **Working with Tables** documentation article.
+To learn more, visit the [ Working with Tables ][Working with Tables] documentation article.
+
+
+[Working with Tables]: https://docs.aspose.com/words/java/working-with-tables/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [clearFormatting()](#clearFormatting--) | Clears formatting of this conditional style. |
-| [clearParaAttrs()](#clearParaAttrs--) |  |
-| [clearRunAttrs()](#clearRunAttrs--) |  |
-| [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int-) |  |
-| [fetchInheritedParaAttr(int key)](#fetchInheritedParaAttr-int-) |  |
-| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
-| [fetchInheritedShadingAttr(int key)](#fetchInheritedShadingAttr-int-) |  |
-| [fetchParaAttr(int key)](#fetchParaAttr-int-) |  |
-| [getBorders()](#getBorders--) | Gets the collection of default cell borders for the conditional style. |
-| [getBottomPadding()](#getBottomPadding--) | Gets the amount of space (in points) to add below the contents of table cells. |
-| [getClass()](#getClass--) |  |
-| [getDirectBorderAttr(int key)](#getDirectBorderAttr-int-) |  |
-| [getDirectParaAttr(int key)](#getDirectParaAttr-int-) |  |
-| [getDirectParaAttr(int key, int revisionsView)](#getDirectParaAttr-int-int-) |  |
-| [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
-| [getFont()](#getFont--) | Gets the character formatting of the conditional style. |
-| [getLeftPadding()](#getLeftPadding--) | Gets the amount of space (in points) to add to the left of the contents of table cells. |
-| [getParagraphFormat()](#getParagraphFormat--) | Gets the paragraph formatting of the conditional style. |
-| [getRightPadding()](#getRightPadding--) | Gets the amount of space (in points) to add to the right of the contents of table cells. |
-| [getShading()](#getShading--) | Gets a [Shading](../../com.aspose.words/shading) object that refers to the shading formatting for this conditional style. |
-| [getTopPadding()](#getTopPadding--) | Gets the amount of space (in points) to add above the contents of table cells. |
-| [getType()](#getType--) | Gets table area to which this conditional style relates. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [removeParaAttr(int key)](#removeParaAttr-int-) |  |
-| [removeRunAttr(int key)](#removeRunAttr-int-) |  |
-| [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object-) |  |
-| [setBottomPadding(double value)](#setBottomPadding-double-) | Sets the amount of space (in points) to add below the contents of table cells. |
-| [setLeftPadding(double value)](#setLeftPadding-double-) | Sets the amount of space (in points) to add to the left of the contents of table cells. |
-| [setParaAttr(int key, Object value)](#setParaAttr-int-java.lang.Object-) |  |
-| [setRightPadding(double value)](#setRightPadding-double-) | Sets the amount of space (in points) to add to the right of the contents of table cells. |
-| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
-| [setTopPadding(double value)](#setTopPadding-double-) | Sets the amount of space (in points) to add above the contents of table cells. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### clearFormatting() {#clearFormatting--}
+| [clearFormatting()](#clearFormatting) | Clears formatting of this conditional style. |
+| [clearParaAttrs()](#clearParaAttrs) |  |
+| [clearRunAttrs()](#clearRunAttrs) |  |
+| [equals(Object obj)](#equals-java.lang.Object) |  |
+| [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int) |  |
+| [fetchInheritedParaAttr(int key)](#fetchInheritedParaAttr-int) |  |
+| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int) |  |
+| [fetchInheritedShadingAttr(int key)](#fetchInheritedShadingAttr-int) |  |
+| [fetchParaAttr(int key)](#fetchParaAttr-int) |  |
+| [getBorders()](#getBorders) | Gets the collection of default cell borders for the conditional style. |
+| [getBottomPadding()](#getBottomPadding) | Gets the amount of space (in points) to add below the contents of table cells. |
+| [getClass()](#getClass) |  |
+| [getDirectBorderAttr(int key)](#getDirectBorderAttr-int) |  |
+| [getDirectParaAttr(int key)](#getDirectParaAttr-int) |  |
+| [getDirectParaAttr(int key, int revisionsView)](#getDirectParaAttr-int-int) |  |
+| [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
+| [getFont()](#getFont) | Gets the character formatting of the conditional style. |
+| [getLeftPadding()](#getLeftPadding) | Gets the amount of space (in points) to add to the left of the contents of table cells. |
+| [getParagraphFormat()](#getParagraphFormat) | Gets the paragraph formatting of the conditional style. |
+| [getRightPadding()](#getRightPadding) | Gets the amount of space (in points) to add to the right of the contents of table cells. |
+| [getShading()](#getShading) | Gets a [Shading](../../com.aspose.words/shading) object that refers to the shading formatting for this conditional style. |
+| [getTopPadding()](#getTopPadding) | Gets the amount of space (in points) to add above the contents of table cells. |
+| [getType()](#getType) | Gets table area to which this conditional style relates. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [removeParaAttr(int key)](#removeParaAttr-int) |  |
+| [removeRunAttr(int key)](#removeRunAttr-int) |  |
+| [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object) |  |
+| [setBottomPadding(double value)](#setBottomPadding-double) | Sets the amount of space (in points) to add below the contents of table cells. |
+| [setLeftPadding(double value)](#setLeftPadding-double) | Sets the amount of space (in points) to add to the left of the contents of table cells. |
+| [setParaAttr(int key, Object value)](#setParaAttr-int-java.lang.Object) |  |
+| [setRightPadding(double value)](#setRightPadding-double) | Sets the amount of space (in points) to add to the right of the contents of table cells. |
+| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object) |  |
+| [setTopPadding(double value)](#setTopPadding-double) | Sets the amount of space (in points) to add above the contents of table cells. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### clearFormatting() {#clearFormatting}
 ```
 public void clearFormatting()
 ```
@@ -70,7 +73,7 @@ public void clearFormatting()
 
 Clears formatting of this conditional style.
 
-### clearParaAttrs() {#clearParaAttrs--}
+### clearParaAttrs() {#clearParaAttrs}
 ```
 public void clearParaAttrs()
 ```
@@ -78,7 +81,7 @@ public void clearParaAttrs()
 
 
 
-### clearRunAttrs() {#clearRunAttrs--}
+### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
 ```
@@ -86,7 +89,7 @@ public void clearRunAttrs()
 
 
 
-### equals(Object obj) {#equals-java.lang.Object-}
+### equals(Object obj) {#equals-java.lang.Object}
 ```
 public boolean equals(Object obj)
 ```
@@ -101,7 +104,7 @@ public boolean equals(Object obj)
 
 **Returns:**
 boolean
-### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int-}
+### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int}
 ```
 public Object fetchInheritedBorderAttr(int key)
 ```
@@ -116,7 +119,7 @@ public Object fetchInheritedBorderAttr(int key)
 
 **Returns:**
 java.lang.Object
-### fetchInheritedParaAttr(int key) {#fetchInheritedParaAttr-int-}
+### fetchInheritedParaAttr(int key) {#fetchInheritedParaAttr-int}
 ```
 public Object fetchInheritedParaAttr(int key)
 ```
@@ -131,7 +134,7 @@ public Object fetchInheritedParaAttr(int key)
 
 **Returns:**
 java.lang.Object
-### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
+### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int}
 ```
 public Object fetchInheritedRunAttr(int key)
 ```
@@ -146,7 +149,7 @@ public Object fetchInheritedRunAttr(int key)
 
 **Returns:**
 java.lang.Object
-### fetchInheritedShadingAttr(int key) {#fetchInheritedShadingAttr-int-}
+### fetchInheritedShadingAttr(int key) {#fetchInheritedShadingAttr-int}
 ```
 public Object fetchInheritedShadingAttr(int key)
 ```
@@ -161,7 +164,7 @@ public Object fetchInheritedShadingAttr(int key)
 
 **Returns:**
 java.lang.Object
-### fetchParaAttr(int key) {#fetchParaAttr-int-}
+### fetchParaAttr(int key) {#fetchParaAttr-int}
 ```
 public Object fetchParaAttr(int key)
 ```
@@ -176,7 +179,7 @@ public Object fetchParaAttr(int key)
 
 **Returns:**
 java.lang.Object
-### getBorders() {#getBorders--}
+### getBorders() {#getBorders}
 ```
 public BorderCollection getBorders()
 ```
@@ -186,7 +189,7 @@ Gets the collection of default cell borders for the conditional style.
 
 **Returns:**
 [BorderCollection](../../com.aspose.words/bordercollection) - The collection of default cell borders for the conditional style.
-### getBottomPadding() {#getBottomPadding--}
+### getBottomPadding() {#getBottomPadding}
 ```
 public double getBottomPadding()
 ```
@@ -196,7 +199,7 @@ Gets the amount of space (in points) to add below the contents of table cells.
 
 **Returns:**
 double - The amount of space (in points) to add below the contents of table cells.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -206,7 +209,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDirectBorderAttr(int key) {#getDirectBorderAttr-int-}
+### getDirectBorderAttr(int key) {#getDirectBorderAttr-int}
 ```
 public Object getDirectBorderAttr(int key)
 ```
@@ -221,7 +224,7 @@ public Object getDirectBorderAttr(int key)
 
 **Returns:**
 java.lang.Object
-### getDirectParaAttr(int key) {#getDirectParaAttr-int-}
+### getDirectParaAttr(int key) {#getDirectParaAttr-int}
 ```
 public Object getDirectParaAttr(int key)
 ```
@@ -236,7 +239,7 @@ public Object getDirectParaAttr(int key)
 
 **Returns:**
 java.lang.Object
-### getDirectParaAttr(int key, int revisionsView) {#getDirectParaAttr-int-int-}
+### getDirectParaAttr(int key, int revisionsView) {#getDirectParaAttr-int-int}
 ```
 public Object getDirectParaAttr(int key, int revisionsView)
 ```
@@ -252,7 +255,7 @@ public Object getDirectParaAttr(int key, int revisionsView)
 
 **Returns:**
 java.lang.Object
-### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
+### getDirectRunAttr(int key) {#getDirectRunAttr-int}
 ```
 public Object getDirectRunAttr(int key)
 ```
@@ -267,7 +270,7 @@ public Object getDirectRunAttr(int key)
 
 **Returns:**
 java.lang.Object
-### getFont() {#getFont--}
+### getFont() {#getFont}
 ```
 public Font getFont()
 ```
@@ -277,7 +280,7 @@ Gets the character formatting of the conditional style.
 
 **Returns:**
 [Font](../../com.aspose.words/font) - The character formatting of the conditional style.
-### getLeftPadding() {#getLeftPadding--}
+### getLeftPadding() {#getLeftPadding}
 ```
 public double getLeftPadding()
 ```
@@ -287,7 +290,7 @@ Gets the amount of space (in points) to add to the left of the contents of table
 
 **Returns:**
 double - The amount of space (in points) to add to the left of the contents of table cells.
-### getParagraphFormat() {#getParagraphFormat--}
+### getParagraphFormat() {#getParagraphFormat}
 ```
 public ParagraphFormat getParagraphFormat()
 ```
@@ -297,7 +300,7 @@ Gets the paragraph formatting of the conditional style.
 
 **Returns:**
 [ParagraphFormat](../../com.aspose.words/paragraphformat) - The paragraph formatting of the conditional style.
-### getRightPadding() {#getRightPadding--}
+### getRightPadding() {#getRightPadding}
 ```
 public double getRightPadding()
 ```
@@ -307,7 +310,7 @@ Gets the amount of space (in points) to add to the right of the contents of tabl
 
 **Returns:**
 double - The amount of space (in points) to add to the right of the contents of table cells.
-### getShading() {#getShading--}
+### getShading() {#getShading}
 ```
 public Shading getShading()
 ```
@@ -317,7 +320,7 @@ Gets a [Shading](../../com.aspose.words/shading) object that refers to the shadi
 
 **Returns:**
 [Shading](../../com.aspose.words/shading) - A [Shading](../../com.aspose.words/shading) object that refers to the shading formatting for this conditional style.
-### getTopPadding() {#getTopPadding--}
+### getTopPadding() {#getTopPadding}
 ```
 public double getTopPadding()
 ```
@@ -327,7 +330,7 @@ Gets the amount of space (in points) to add above the contents of table cells.
 
 **Returns:**
 double - The amount of space (in points) to add above the contents of table cells.
-### getType() {#getType--}
+### getType() {#getType}
 ```
 public int getType()
 ```
@@ -337,7 +340,7 @@ Gets table area to which this conditional style relates.
 
 **Returns:**
 int - Table area to which this conditional style relates. The returned value is one of [ConditionalStyleType](../../com.aspose.words/conditionalstyletype) constants.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public int hashCode()
 ```
@@ -347,7 +350,7 @@ public int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -355,7 +358,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -363,7 +366,7 @@ public final native void notifyAll()
 
 
 
-### removeParaAttr(int key) {#removeParaAttr-int-}
+### removeParaAttr(int key) {#removeParaAttr-int}
 ```
 public void removeParaAttr(int key)
 ```
@@ -376,7 +379,7 @@ public void removeParaAttr(int key)
 | --- | --- | --- |
 | key | int |  |
 
-### removeRunAttr(int key) {#removeRunAttr-int-}
+### removeRunAttr(int key) {#removeRunAttr-int}
 ```
 public void removeRunAttr(int key)
 ```
@@ -389,7 +392,7 @@ public void removeRunAttr(int key)
 | --- | --- | --- |
 | key | int |  |
 
-### setBorderAttr(int key, Object value) {#setBorderAttr-int-java.lang.Object-}
+### setBorderAttr(int key, Object value) {#setBorderAttr-int-java.lang.Object}
 ```
 public void setBorderAttr(int key, Object value)
 ```
@@ -403,7 +406,7 @@ public void setBorderAttr(int key, Object value)
 | key | int |  |
 | value | java.lang.Object |  |
 
-### setBottomPadding(double value) {#setBottomPadding-double-}
+### setBottomPadding(double value) {#setBottomPadding-double}
 ```
 public void setBottomPadding(double value)
 ```
@@ -416,7 +419,7 @@ Sets the amount of space (in points) to add below the contents of table cells.
 | --- | --- | --- |
 | value | double | The amount of space (in points) to add below the contents of table cells. |
 
-### setLeftPadding(double value) {#setLeftPadding-double-}
+### setLeftPadding(double value) {#setLeftPadding-double}
 ```
 public void setLeftPadding(double value)
 ```
@@ -429,7 +432,7 @@ Sets the amount of space (in points) to add to the left of the contents of table
 | --- | --- | --- |
 | value | double | The amount of space (in points) to add to the left of the contents of table cells. |
 
-### setParaAttr(int key, Object value) {#setParaAttr-int-java.lang.Object-}
+### setParaAttr(int key, Object value) {#setParaAttr-int-java.lang.Object}
 ```
 public void setParaAttr(int key, Object value)
 ```
@@ -443,7 +446,7 @@ public void setParaAttr(int key, Object value)
 | key | int |  |
 | value | java.lang.Object |  |
 
-### setRightPadding(double value) {#setRightPadding-double-}
+### setRightPadding(double value) {#setRightPadding-double}
 ```
 public void setRightPadding(double value)
 ```
@@ -456,7 +459,7 @@ Sets the amount of space (in points) to add to the right of the contents of tabl
 | --- | --- | --- |
 | value | double | The amount of space (in points) to add to the right of the contents of table cells. |
 
-### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object-}
+### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object}
 ```
 public void setRunAttr(int key, Object value)
 ```
@@ -470,7 +473,7 @@ public void setRunAttr(int key, Object value)
 | key | int |  |
 | value | java.lang.Object |  |
 
-### setTopPadding(double value) {#setTopPadding-double-}
+### setTopPadding(double value) {#setTopPadding-double}
 ```
 public void setTopPadding(double value)
 ```
@@ -483,7 +486,7 @@ Sets the amount of space (in points) to add above the contents of table cells.
 | --- | --- | --- |
 | value | double | The amount of space (in points) to add above the contents of table cells. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -493,7 +496,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -501,7 +504,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -514,7 +517,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

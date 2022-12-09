@@ -3,7 +3,7 @@ title: Save
 second_title: Aspose.Words for C++ API Reference
 description: Renders the shape into an image and saves into a stream.
 type: docs
-weight: 118
+weight: 157
 url: /cpp/aspose.words.rendering/noderendererbase/save/
 ---
 ## NodeRendererBase::Save(const System::SharedPtr\<System::IO::Stream\>\&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) method
@@ -19,7 +19,7 @@ void Aspose::Words::Rendering::NodeRendererBase::Save(const System::SharedPtr<Sy
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | const System::SharedPtr\<System::IO::Stream\>\& | The stream where to save the image of the shape. |
-| saveOptions | System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\> | Specifies the options that control how the shape is rendered and saved. Can be null. If this is null, the image will be saved in the PNG format. |
+| saveOptions | System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\> | Specifies the options that control how the shape is rendered and saved. Can be **null**. If this is **null**, the image will be saved in the PNG format. |
 
 ## Examples
 
@@ -63,7 +63,7 @@ void Aspose::Words::Rendering::NodeRendererBase::Save(const System::String &file
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | const System::String\& | The name for the image file. If a file with the specified name already exists, the existing file is overwritten. |
-| saveOptions | System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\> | Specifies the options that control how the shape is rendered and saved. Can be null. |
+| saveOptions | System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\> | Specifies the options that control how the shape is rendered and saved. Can be **null**. |
 
 ## Examples
 

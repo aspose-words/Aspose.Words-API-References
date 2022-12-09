@@ -3,7 +3,7 @@ title: get_DigitalSignatureDetails
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the details for signing the output PDF document.
 type: docs
-weight: 92
+weight: 105
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_digitalsignaturedetails/
 ---
 ## PdfSaveOptions::get_DigitalSignatureDetails method
@@ -18,7 +18,7 @@ System::SharedPtr<Aspose::Words::Saving::PdfDigitalSignatureDetails> Aspose::Wor
 ## Remarks
 
 
-The default value is null and the output document will not be signed. When this property is set to a valid [PdfDigitalSignatureDetails](../../pdfdigitalsignaturedetails/) object, then the output PDF document will be digitally signed.
+The default value is **null** and the output document will not be signed. When this property is set to a valid [PdfDigitalSignatureDetails](../../pdfdigitalsignaturedetails/) object, then the output PDF document will be digitally signed.
 
 ## Examples
 

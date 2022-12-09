@@ -1,7 +1,7 @@
 ---
 title: FieldSeq
 second_title: Aspose.Words for C++ API Reference
-description: Implements the SEQ field.
+description: Implements the SEQ field. To learn more, visit the  documentation article.
 type: docs
 weight: 1171
 url: /cpp/aspose.words.fields/fieldseq/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fields/fieldseq/
 ## FieldSeq class
 
 
-Implements the SEQ field.
+Implements the SEQ field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class FieldSeq : public Aspose::Words::Fields::Field,
@@ -33,12 +33,14 @@ class FieldSeq : public Aspose::Words::Fields::Field,
 | [get_ResetHeadingLevel](./get_resetheadinglevel/)() | Gets or sets an integer number representing a heading level to reset the sequence number to. Returns -1 if the number is absent. |
 | [get_ResetNumber](./get_resetnumber/)() | Gets or sets an integer number to reset the sequence number to. Returns -1 if the number is absent. |
 | [get_Result](../field/get_result/)() | Gets or sets text that is between the field separator and field end. |
-| [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be null. |
+| [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be **null**. |
 | [get_SequenceIdentifier](./get_sequenceidentifier/)() | Gets or sets the name assigned to the series of items that are to be numbered. |
 | [get_Start](../field/get_start/)() const | Gets the node that represents the start of the field. |
 | virtual [get_Type](../field/get_type/)() const | Gets the Microsoft Word field type. |
 | [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_BookmarkName](./set_bookmarkname/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldSeq::get_BookmarkName](./get_bookmarkname/). |
 | [set_InsertNextNumber](./set_insertnextnumber/)(bool) | Setter for [Aspose::Words::Fields::FieldSeq::get_InsertNextNumber](./get_insertnextnumber/). |
@@ -49,6 +51,7 @@ class FieldSeq : public Aspose::Words::Fields::Field,
 | [set_ResetNumber](./set_resetnumber/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldSeq::get_ResetNumber](./get_resetnumber/). |
 | [set_Result](../field/set_result/)(const System::String\&) | Setter for [Aspose::Words::Fields::Field::get_Result](../field/get_result/). |
 | [set_SequenceIdentifier](./set_sequenceidentifier/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldSeq::get_SequenceIdentifier](./get_sequenceidentifier/). |
+| static [Type](./type/)() |  |
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |

@@ -3,7 +3,7 @@ title: DigitalSignatureCollection
 second_title: Aspose.Words for Java API Reference
 description: Provides a read-only collection of digital signatures attached to a document.
 type: docs
-weight: 112
+weight: 113
 url: /java/com.aspose.words/digitalsignaturecollection/
 ---
 
@@ -18,27 +18,30 @@ public class DigitalSignatureCollection implements Iterable
 
 Provides a read-only collection of digital signatures attached to a document.
 
-To learn more, visit the **Work with Digital Signatures** documentation article.
+To learn more, visit the [ Work with Digital Signatures ][Work with Digital Signatures] documentation article.
 
-[Document.getDigitalSignatures()](../../com.aspose.words/document\#getDigitalSignatures--)
+[Document.getDigitalSignatures()](../../com.aspose.words/document\#getDigitalSignatures)
+
+
+[Work with Digital Signatures]: https://docs.aspose.com/words/java/working-with-digital-signatures/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Gets a document signature at the specified index. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
-| [hashCode()](#hashCode--) |  |
-| [isValid()](#isValid--) | Returns  true  if all digital signatures in this collection are valid and the document has not been tampered with Also returns  true  if there are no digital signatures. |
-| [iterator()](#iterator--) | Returns a dictionary iterator object that can be used to iterate over all items in the collection. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [get(int index)](#get-int) | Gets a document signature at the specified index. |
+| [getClass()](#getClass) |  |
+| [getCount()](#getCount) | Gets the number of elements contained in the collection. |
+| [hashCode()](#hashCode) |  |
+| [isValid()](#isValid) | Returns  true  if all digital signatures in this collection are valid and the document has not been tampered with Also returns  true  if there are no digital signatures. |
+| [iterator()](#iterator) | Returns a dictionary iterator object that can be used to iterate over all items in the collection. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -53,7 +56,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### get(int index) {#get-int-}
+### get(int index) {#get-int}
 ```
 public DigitalSignature get(int index)
 ```
@@ -68,7 +71,7 @@ Gets a document signature at the specified index.
 
 **Returns:**
 [DigitalSignature](../../com.aspose.words/digitalsignature) - A document signature at the specified index.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -78,7 +81,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCount() {#getCount--}
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -88,7 +91,7 @@ Gets the number of elements contained in the collection.
 
 **Returns:**
 int - The number of elements contained in the collection.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -98,7 +101,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### isValid() {#isValid--}
+### isValid() {#isValid}
 ```
 public boolean isValid()
 ```
@@ -108,7 +111,7 @@ Returns  true  if all digital signatures in this collection are valid and the do
 
 **Returns:**
 boolean - \{ true  if all digital signatures in this collection are valid and the document has not been tampered with Also returns  true  if there are no digital signatures.
-### iterator() {#iterator--}
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -118,7 +121,7 @@ Returns a dictionary iterator object that can be used to iterate over all items 
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -126,7 +129,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -134,7 +137,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -144,7 +147,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -152,7 +155,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -165,7 +168,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

@@ -3,7 +3,7 @@ title: get_Data
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the XML content of this Custom XML Data Storage Part.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/aspose.words.markup/customxmlpart/get_data/
 ---
 ## CustomXmlPart::get_Data method

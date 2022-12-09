@@ -3,7 +3,7 @@ title: set_FontSavingCallback
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Saving::HtmlSaveOptions::get_FontSavingCallback.'
 type: docs
-weight: 976
+weight: 1015
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_fontsavingcallback/
 ---
 ## HtmlSaveOptions::set_FontSavingCallback method

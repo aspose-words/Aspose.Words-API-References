@@ -20,6 +20,9 @@ class IMailMergeDataSourceRoot : public virtual System::Object
 | Method | Description |
 | --- | --- |
 | virtual [GetDataSource](./getdatasource/)(System::String) | The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a top-level mail merge region. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

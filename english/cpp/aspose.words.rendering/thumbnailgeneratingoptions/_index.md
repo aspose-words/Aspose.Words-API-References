@@ -21,9 +21,12 @@ class ThumbnailGeneratingOptions : public System::Object
 | --- | --- |
 | [get_GenerateFromFirstPage](./get_generatefromfirstpage/)() const | Specifies whether to generate thumbnail from first page of the document or first image. |
 | [get_ThumbnailSize](./get_thumbnailsize/)() const | Size of generated thumbnail in pixels. Default is 600x900. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_GenerateFromFirstPage](./set_generatefromfirstpage/)(bool) | Setter for [Aspose::Words::Rendering::ThumbnailGeneratingOptions::get_GenerateFromFirstPage](./get_generatefromfirstpage/). |
 | [set_ThumbnailSize](./set_thumbnailsize/)(System::Drawing::Size) | Setter for [Aspose::Words::Rendering::ThumbnailGeneratingOptions::get_ThumbnailSize](./get_thumbnailsize/). |
 | [ThumbnailGeneratingOptions](./thumbnailgeneratingoptions/)() |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

@@ -1,7 +1,7 @@
 ---
 title: InlineStory
 second_title: Aspose.Words for C++ API Reference
-description: Base class for inline-level nodes that can contain paragraphs and tables.
+description: Base class for inline-level nodes that can contain paragraphs and tables. To learn more, visit the  documentation article.
 type: docs
 weight: 469
 url: /cpp/aspose.words/inlinestory/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/inlinestory/
 ## InlineStory class
 
 
-Base class for inline-level nodes that can contain paragraphs and tables.
+Base class for inline-level nodes that can contain paragraphs and tables. To learn more, visit the [Logical Levels of Nodes in a Document](https://docs.aspose.com/words/cpp/logical-levels-of-nodes-in-a-document/) documentation article.
 
 ```cpp
 class InlineStory : public Aspose::Words::CompositeNode,
@@ -31,8 +31,8 @@ class InlineStory : public Aspose::Words::CompositeNode,
 | [get_FirstChild](../compositenode/get_firstchild/)() const | Gets the first child of the node. |
 | [get_FirstParagraph](./get_firstparagraph/)() | Gets the first paragraph in the story. |
 | [get_Font](./get_font/)() | Provides access to the font formatting of the anchor character of this object. |
-| [get_HasChildNodes](../compositenode/get_haschildnodes/)() | Returns true if this node has any child nodes. |
-| [get_IsComposite](../compositenode/get_iscomposite/)() override | Returns true as this node can have child nodes. |
+| [get_HasChildNodes](../compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
+| [get_IsComposite](../compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
 | [get_IsDeleteRevision](./get_isdeleterevision/)() | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
 | [get_IsInsertRevision](./get_isinsertrevision/)() | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
 | [get_IsMoveFromRevision](./get_ismovefromrevision/)() | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
@@ -45,7 +45,7 @@ class InlineStory : public Aspose::Words::CompositeNode,
 | [get_ParentNode](../node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_ParentParagraph](./get_parentparagraph/)() | Retrieves the parent [Paragraph](../paragraph/) of this node. |
 | [get_PreviousSibling](../node/get_previoussibling/)() | Gets the node immediately preceding this node. |
-| [get_Range](../node/get_range/)() | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [get_Range](../node/get_range/)() | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node. |
 | virtual [get_StoryType](./get_storytype/)() | Returns the type of the story. |
 | [get_Tables](./get_tables/)() | Gets a collection of tables that are immediate children of the story. |
 | [GetAncestor](../node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../nodetype/). |
@@ -54,9 +54,11 @@ class InlineStory : public Aspose::Words::CompositeNode,
 | [GetChildNodes](../compositenode/getchildnodes/)(Aspose::Words::NodeType, bool) | Returns a live collection of child nodes that match the specified type. |
 | [GetEnumerator](../compositenode/getenumerator/)() override | Provides support for the for each style iteration over the child nodes of this node. |
 | [GetText](../compositenode/gettext/)() override | Gets the text of this node and of all its children. |
+| [GetType](./gettype/)() const override |  |
 | [IndexOf](../compositenode/indexof/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returns the index of the specified child node in the child node array. |
 | [InsertAfter](../compositenode/insertafter/)(const System::SharedPtr\<Aspose::Words::Node\>\&, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts the specified node immediately after the specified reference node. |
 | [InsertBefore](../compositenode/insertbefore/)(const System::SharedPtr\<Aspose::Words::Node\>\&, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts the specified node immediately before the specified reference node. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [NextPreOrder](../node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets next node according to the pre-order tree traversal algorithm. |
 | static [NodeTypeToString](../node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
 | [PrependChild](../compositenode/prependchild/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Adds the specified node to the beginning of the list of child nodes for this node. |
@@ -71,12 +73,13 @@ class InlineStory : public Aspose::Words::CompositeNode,
 | [SetTemplateWeakPtr](../compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+| static [Type](./type/)() |  |
 ## Remarks
 
 
-**InlineStory** is a container for block-level nodes [Paragraph](../paragraph/) and [Table](../../aspose.words.tables/table/).
+[InlineStory](./) is a container for block-level nodes [Paragraph](../paragraph/) and [Table](../../aspose.words.tables/table/).
 
-The classes that derive from **InlineStory** are inline-level nodes that can contain their own text (paragraphs and tables). For example, a **Comment** node contains text of a comment and a **Footnote** contains text of a footnote.
+The classes that derive from [InlineStory](./) are inline-level nodes that can contain their own text (paragraphs and tables). For example, a [Comment](../comment/) node contains text of a comment and a [Footnote](../../aspose.words.notes/footnote/) contains text of a footnote.
 
 ## Examples
 

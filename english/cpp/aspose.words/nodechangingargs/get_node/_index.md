@@ -3,7 +3,7 @@ title: get_Node
 second_title: Aspose.Words for C++ API Reference
 description: Gets the Node that is being added or removed.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/aspose.words/nodechangingargs/get_node/
 ---
 ## NodeChangingArgs::get_Node method

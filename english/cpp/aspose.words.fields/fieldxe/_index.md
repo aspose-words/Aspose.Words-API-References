@@ -1,15 +1,15 @@
 ---
 title: FieldXE
 second_title: Aspose.Words for C++ API Reference
-description: Implements the XE field.
+description: Implements the XE field. To learn more, visit the  documentation article.
 type: docs
-weight: 1418
+weight: 1431
 url: /cpp/aspose.words.fields/fieldxe/
 ---
 ## FieldXE class
 
 
-Implements the XE field.
+Implements the XE field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class FieldXE : public Aspose::Words::Fields::Field,
@@ -34,13 +34,15 @@ class FieldXE : public Aspose::Words::Fields::Field,
 | [get_PageNumberReplacement](./get_pagenumberreplacement/)() | Gets or sets text used in place of a page number. |
 | [get_PageRangeBookmarkName](./get_pagerangebookmarkname/)() | Gets or sets the name of the bookmark that marks a range of pages that is inserted as the entry's page number. |
 | [get_Result](../field/get_result/)() | Gets or sets text that is between the field separator and field end. |
-| [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be null. |
+| [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be **null**. |
 | [get_Start](../field/get_start/)() const | Gets the node that represents the start of the field. |
 | [get_Text](./get_text/)() | Gets or sets the text of the entry. |
 | virtual [get_Type](../field/get_type/)() const | Gets the Microsoft Word field type. |
 | [get_Yomi](./get_yomi/)() | Gets or sets the yomi (first phonetic character for sorting indexes) for the index entry. |
 | [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_EntryType](./set_entrytype/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldXE::get_EntryType](./get_entrytype/). |
 | [set_IsBold](./set_isbold/)(bool) | Setter for [Aspose::Words::Fields::FieldXE::get_IsBold](./get_isbold/). |
@@ -53,6 +55,7 @@ class FieldXE : public Aspose::Words::Fields::Field,
 | [set_Result](../field/set_result/)(const System::String\&) | Setter for [Aspose::Words::Fields::Field::get_Result](../field/get_result/). |
 | [set_Text](./set_text/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldXE::get_Text](./get_text/). |
 | [set_Yomi](./set_yomi/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldXE::get_Yomi](./get_yomi/). |
+| static [Type](./type/)() |  |
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |

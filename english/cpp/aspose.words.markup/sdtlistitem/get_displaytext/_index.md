@@ -3,7 +3,7 @@ title: get_DisplayText
 second_title: Aspose.Words for C++ API Reference
 description: Gets the text to display in the run content in place of the Value attribute contents for this list item.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words.markup/sdtlistitem/get_displaytext/
 ---
 ## SdtListItem::get_DisplayText method
@@ -18,7 +18,7 @@ System::String Aspose::Words::Markup::SdtListItem::get_DisplayText() const
 ## Remarks
 
 
-Cannot be null and cannot be an empty string.
+Cannot be **null** and cannot be an empty string.
 
 ## Examples
 

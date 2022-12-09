@@ -1,7 +1,7 @@
 ---
 title: CompareOptions
 second_title: Aspose.Words for C++ API Reference
-description: Allows to choose advanced options for document comparison operation.
+description: Allows to choose advanced options for document comparison operation. To learn more, visit the  documentation article.
 type: docs
 weight: 1
 url: /cpp/aspose.words.comparing/compareoptions/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.comparing/compareoptions/
 ## CompareOptions class
 
 
-Allows to choose advanced options for document comparison operation.
+Allows to choose advanced options for document comparison operation. To learn more, visit the [Compare Documents](https://docs.aspose.com/words/cpp/compare-documents/) documentation article.
 
 ```cpp
 class CompareOptions : public System::Object
@@ -31,6 +31,8 @@ class CompareOptions : public System::Object
 | [get_IgnoreTables](./get_ignoretables/)() const | Specifies whether to compare the differences in data contained in tables. By default tables are not ignored. |
 | [get_IgnoreTextboxes](./get_ignoretextboxes/)() const | Specifies whether to compare differences in the data contained within text boxes. By default textboxes are not ignored. |
 | [get_Target](./get_target/)() const | Specifies which document shall be used as a target during comparison. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Granularity](./set_granularity/)(Aspose::Words::Comparing::Granularity) | Setter for [Aspose::Words::Comparing::CompareOptions::get_Granularity](./get_granularity/). |
 | [set_IgnoreCaseChanges](./set_ignorecasechanges/)(bool) | Setter for [Aspose::Words::Comparing::CompareOptions::get_IgnoreCaseChanges](./get_ignorecasechanges/). |
 | [set_IgnoreComments](./set_ignorecomments/)(bool) | Setter for [Aspose::Words::Comparing::CompareOptions::get_IgnoreComments](./get_ignorecomments/). |
@@ -42,6 +44,7 @@ class CompareOptions : public System::Object
 | [set_IgnoreTables](./set_ignoretables/)(bool) | Setter for [Aspose::Words::Comparing::CompareOptions::get_IgnoreTables](./get_ignoretables/). |
 | [set_IgnoreTextboxes](./set_ignoretextboxes/)(bool) | Setter for [Aspose::Words::Comparing::CompareOptions::get_IgnoreTextboxes](./get_ignoretextboxes/). |
 | [set_Target](./set_target/)(Aspose::Words::Comparing::ComparisonTargetType) | Setter for [Aspose::Words::Comparing::CompareOptions::get_Target](./get_target/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

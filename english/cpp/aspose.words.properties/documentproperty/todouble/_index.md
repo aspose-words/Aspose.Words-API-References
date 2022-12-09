@@ -3,7 +3,7 @@ title: ToDouble
 second_title: Aspose.Words for C++ API Reference
 description: Returns the property value as double.
 type: docs
-weight: 118
+weight: 157
 url: /cpp/aspose.words.properties/documentproperty/todouble/
 ---
 ## DocumentProperty::ToDouble method

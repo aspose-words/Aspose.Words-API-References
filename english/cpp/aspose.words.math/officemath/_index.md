@@ -1,7 +1,7 @@
 ---
 title: OfficeMath
 second_title: Aspose.Words for C++ API Reference
-description: Represents an Office Math object such as function, equation, matrix or alike. Can contain child elements including runs of mathematical text, bookmarks, comments, other OfficeMath instances and some other nodes.
+description: Represents an Office Math object such as function, equation, matrix or alike. Can contain child elements including runs of mathematical text, bookmarks, comments, other OfficeMath instances and some other nodes. To learn more, visit the  documentation article.
 type: docs
 weight: 1
 url: /cpp/aspose.words.math/officemath/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.math/officemath/
 ## OfficeMath class
 
 
-Represents an Office [Math](../) object such as function, equation, matrix or alike. Can contain child elements including runs of mathematical text, bookmarks, comments, other [OfficeMath](./) instances and some other nodes.
+Represents an Office [Math](../) object such as function, equation, matrix or alike. Can contain child elements including runs of mathematical text, bookmarks, comments, other [OfficeMath](./) instances and some other nodes. To learn more, visit the [Working with OfficeMath](https://docs.aspose.com/words/cpp/working-with-officemath/) documentation article.
 
 ```cpp
 class OfficeMath : public Aspose::Words::CompositeNode,
@@ -31,17 +31,17 @@ class OfficeMath : public Aspose::Words::CompositeNode,
 | virtual [get_Document](../../aspose.words/node/get_document/)() const | Gets the document to which this node belongs. |
 | [get_EquationXmlEncoding](./get_equationxmlencoding/)() const | Gets/sets an encoding that was used to encode equation XML, if this office math object is read from equation XML. We use the encoding on saving a document to write in same encoding that it was read. |
 | [get_FirstChild](../../aspose.words/compositenode/get_firstchild/)() const | Gets the first child of the node. |
-| [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns true if this node has any child nodes. |
-| [get_IsComposite](../../aspose.words/compositenode/get_iscomposite/)() override | Returns true as this node can have child nodes. |
+| [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
+| [get_IsComposite](../../aspose.words/compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
 | [get_Justification](./get_justification/)() | Gets/sets Office [Math](../) justification. |
 | [get_LastChild](../../aspose.words/compositenode/get_lastchild/)() const | Gets the last child of the node. |
 | [get_MathObjectType](./get_mathobjecttype/)() const | Gets type [MathObjectType](./get_mathobjecttype/) of this Office [Math](../) object. |
 | [get_NextSibling](../../aspose.words/node/get_nextsibling/)() | Gets the node immediately following this node. |
-| [get_NodeType](./get_nodetype/)() const override | Returns **NodeType.OfficeMath**. |
+| [get_NodeType](./get_nodetype/)() const override | Returns [OfficeMath](../../aspose.words/nodetype/). |
 | [get_ParentNode](../../aspose.words/node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_ParentParagraph](./get_parentparagraph/)() | Retrieves the parent [Paragraph](../../aspose.words/paragraph/) of this node. |
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
-| [get_Range](../../aspose.words/node/get_range/)() | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [get_Range](../../aspose.words/node/get_range/)() | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/). |
 | [GetAncestorOf](../../aspose.words/node/getancestorof/)() |  |
 | [GetChild](../../aspose.words/compositenode/getchild/)(Aspose::Words::NodeType, int32_t, bool) | Returns an Nth child node that matches the specified type. |
@@ -49,9 +49,11 @@ class OfficeMath : public Aspose::Words::CompositeNode,
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() override | Provides support for the for each style iteration over the child nodes of this node. |
 | [GetMathRenderer](./getmathrenderer/)() | Creates and returns an object that can be used to render this equation into an image. |
 | [GetText](../../aspose.words/compositenode/gettext/)() override | Gets the text of this node and of all its children. |
+| [GetType](./gettype/)() const override |  |
 | [IndexOf](../../aspose.words/compositenode/indexof/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returns the index of the specified child node in the child node array. |
 | [InsertAfter](../../aspose.words/compositenode/insertafter/)(const System::SharedPtr\<Aspose::Words::Node\>\&, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts the specified node immediately after the specified reference node. |
 | [InsertBefore](../../aspose.words/compositenode/insertbefore/)(const System::SharedPtr\<Aspose::Words::Node\>\&, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts the specified node immediately before the specified reference node. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets next node according to the pre-order tree traversal algorithm. |
 | static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
 | [PrependChild](../../aspose.words/compositenode/prependchild/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Adds the specified node to the beginning of the list of child nodes for this node. |
@@ -69,6 +71,7 @@ class OfficeMath : public Aspose::Words::CompositeNode,
 | [SetTemplateWeakPtr](../../aspose.words/compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

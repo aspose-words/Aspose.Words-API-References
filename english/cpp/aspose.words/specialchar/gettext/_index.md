@@ -3,7 +3,7 @@ title: GetText
 second_title: Aspose.Words for C++ API Reference
 description: Gets the special character that this node represents.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/aspose.words/specialchar/gettext/
 ---
 ## SpecialChar::GetText method

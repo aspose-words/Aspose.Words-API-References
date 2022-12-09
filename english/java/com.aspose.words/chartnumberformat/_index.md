@@ -15,25 +15,28 @@ public class ChartNumberFormat
 
 Represents number formatting of the parent element.
 
-To learn more, visit the **Working with Charts** documentation article.
+To learn more, visit the [ Working with Charts ][Working with Charts] documentation article.
+
+
+[Working with Charts]: https://docs.aspose.com/words/java/working-with-charts/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getFormatCode()](#getFormatCode--) | Gets the format code applied to a data label. |
-| [hashCode()](#hashCode--) |  |
-| [isLinkedToSource()](#isLinkedToSource--) | Specifies whether the format code is linked to a source cell. |
-| [isLinkedToSource(boolean value)](#isLinkedToSource-boolean-) | Specifies whether the format code is linked to a source cell. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setFormatCode(String value)](#setFormatCode-java.lang.String-) | Sets the format code applied to a data label. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getFormatCode()](#getFormatCode) | Gets the format code applied to a data label. |
+| [hashCode()](#hashCode) |  |
+| [isLinkedToSource()](#isLinkedToSource) | Specifies whether the format code is linked to a source cell. |
+| [isLinkedToSource(boolean value)](#isLinkedToSource-boolean) | Specifies whether the format code is linked to a source cell. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setFormatCode(String value)](#setFormatCode-java.lang.String) | Sets the format code applied to a data label. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -48,7 +51,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -58,7 +61,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getFormatCode() {#getFormatCode--}
+### getFormatCode() {#getFormatCode}
 ```
 public String getFormatCode()
 ```
@@ -88,7 +91,7 @@ Custom with color - "[Red]-\#,\#\#0.0"
 
 **Returns:**
 java.lang.String - The format code applied to a data label.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -98,7 +101,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### isLinkedToSource() {#isLinkedToSource--}
+### isLinkedToSource() {#isLinkedToSource}
 ```
 public boolean isLinkedToSource()
 ```
@@ -108,7 +111,7 @@ Specifies whether the format code is linked to a source cell. Default is true. T
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### isLinkedToSource(boolean value) {#isLinkedToSource-boolean-}
+### isLinkedToSource(boolean value) {#isLinkedToSource-boolean}
 ```
 public void isLinkedToSource(boolean value)
 ```
@@ -121,7 +124,7 @@ Specifies whether the format code is linked to a source cell. Default is true. T
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -129,7 +132,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -137,7 +140,7 @@ public final native void notifyAll()
 
 
 
-### setFormatCode(String value) {#setFormatCode-java.lang.String-}
+### setFormatCode(String value) {#setFormatCode-java.lang.String}
 ```
 public void setFormatCode(String value)
 ```
@@ -170,7 +173,7 @@ Custom with color - "[Red]-\#,\#\#0.0"
 | --- | --- | --- |
 | value | java.lang.String | The format code applied to a data label. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -180,7 +183,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -188,7 +191,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -201,7 +204,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

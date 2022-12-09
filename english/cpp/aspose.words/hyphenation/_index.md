@@ -22,7 +22,7 @@ class Hyphenation
 | static [get_Callback](./get_callback/)() | Gets or sets callback interface used to request dictionaries when page layout of the document is built. This allows delay loading of dictionaries which may be useful when processing documents in many languages. |
 | static [get_WarningCallback](./get_warningcallback/)() | Called during a load hyphenation patterns, when an issue is detected that might result in formatting fidelity loss. |
 | [Hyphenation](./hyphenation/)() |  |
-| static [IsDictionaryRegistered](./isdictionaryregistered/)(const System::String\&) | Returns False if for the specified language there is no dictionary registered or if registered is Null dictionary, True otherwise. |
+| static [IsDictionaryRegistered](./isdictionaryregistered/)(const System::String\&) | Returns **false** if for the specified language there is no dictionary registered or if registered is Null dictionary, **true** otherwise. |
 | static [RegisterDictionary](./registerdictionary/)(const System::String\&, const System::SharedPtr\<System::IO::Stream\>\&) | Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format. |
 | static [RegisterDictionary](./registerdictionary/)(const System::String\&, const System::String\&) | Registers and loads a hyphenation dictionary for the specified language from file. Throws if dictionary cannot be read or has invalid format. This method can also be used to register Null dictionary to prevent [Callback](./get_callback/) from being called repeatedly for the same language. |
 | static [RegisterDictionary](./registerdictionary/)(System::String, std::basic_istream\<CharType, Traits\>\&) |  |

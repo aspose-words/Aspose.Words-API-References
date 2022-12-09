@@ -3,7 +3,7 @@ title: StreamFontSource
 second_title: Aspose.Words for Java API Reference
 description: Base class for user-defined stream font source.
 type: docs
-weight: 530
+weight: 533
 url: /java/com.aspose.words/streamfontsource/
 ---
 
@@ -15,39 +15,42 @@ public abstract class StreamFontSource extends FontSourceBase
 
 Base class for user-defined stream font source.
 
-To learn more, visit the **Working with Fonts** documentation article.
+To learn more, visit the [ Working with Fonts ][Working with Fonts] documentation article.
 
-In order to use the stream font source you should create a derived class from the [StreamFontSource](../../com.aspose.words/streamfontsource) and provide implementation of the [openFontDataStream()](../../com.aspose.words/streamfontsource\#openFontDataStream--) method.
+In order to use the stream font source you should create a derived class from the [StreamFontSource](../../com.aspose.words/streamfontsource) and provide implementation of the [openFontDataStream()](../../com.aspose.words/streamfontsource\#openFontDataStream) method.
 
-[openFontDataStream()](../../com.aspose.words/streamfontsource\#openFontDataStream--) method could be called several times. For the first time it will be called when Aspose.Words scans the provided font sources to get the list of available fonts. Later it may be called if the font is used in the document to parse the font data and to embed the font data to some output formats.
+[openFontDataStream()](../../com.aspose.words/streamfontsource\#openFontDataStream) method could be called several times. For the first time it will be called when Aspose.Words scans the provided font sources to get the list of available fonts. Later it may be called if the font is used in the document to parse the font data and to embed the font data to some output formats.
 
 [StreamFontSource](../../com.aspose.words/streamfontsource) may be useful because it allows to load the font data only when it is required and not to store it in the memory for the [FontSettings](../../com.aspose.words/fontsettings) lifetime.
+
+
+[Working with Fonts]: https://docs.aspose.com/words/java/working-with-fonts/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAvailableFonts()](#getAvailableFonts--) | Returns list of fonts available via this source. |
-| [getCacheKey()](#getCacheKey--) | The key of this source in the cache. |
-| [getCacheKeyInternal()](#getCacheKeyInternal--) |  |
-| [getClass()](#getClass--) |  |
-| [getFilePath()](#getFilePath--) |  |
-| [getFontDataInternal()](#getFontDataInternal--) |  |
-| [getPriority()](#getPriority--) | Returns the font source priority. |
-| [getPriorityInternal()](#getPriorityInternal--) |  |
-| [getSize()](#getSize--) |  |
-| [getType()](#getType--) | Returns the type of the font source. |
-| [getWarningCallback()](#getWarningCallback--) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [openFontDataStream()](#openFontDataStream--) | This method should open the stream with font data on demand. |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getAvailableFonts()](#getAvailableFonts) | Returns list of fonts available via this source. |
+| [getCacheKey()](#getCacheKey) | The key of this source in the cache. |
+| [getCacheKeyInternal()](#getCacheKeyInternal) |  |
+| [getClass()](#getClass) |  |
+| [getFilePath()](#getFilePath) |  |
+| [getFontDataInternal()](#getFontDataInternal) |  |
+| [getPriority()](#getPriority) | Returns the font source priority. |
+| [getPriorityInternal()](#getPriorityInternal) |  |
+| [getSize()](#getSize) |  |
+| [getType()](#getType) | Returns the type of the font source. |
+| [getWarningCallback()](#getWarningCallback) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [openFontDataStream()](#openFontDataStream) | This method should open the stream with font data on demand. |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -62,7 +65,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getAvailableFonts() {#getAvailableFonts--}
+### getAvailableFonts() {#getAvailableFonts}
 ```
 public ArrayList getAvailableFonts()
 ```
@@ -72,7 +75,7 @@ Returns list of fonts available via this source.
 
 **Returns:**
 java.util.ArrayList
-### getCacheKey() {#getCacheKey--}
+### getCacheKey() {#getCacheKey}
 ```
 public String getCacheKey()
 ```
@@ -82,7 +85,7 @@ The key of this source in the cache. This key is used to identify cache item whe
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### getCacheKeyInternal() {#getCacheKeyInternal--}
+### getCacheKeyInternal() {#getCacheKeyInternal}
 ```
 public String getCacheKeyInternal()
 ```
@@ -92,7 +95,7 @@ public String getCacheKeyInternal()
 
 **Returns:**
 java.lang.String
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -102,7 +105,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getFilePath() {#getFilePath--}
+### getFilePath() {#getFilePath}
 ```
 public String getFilePath()
 ```
@@ -112,7 +115,7 @@ public String getFilePath()
 
 **Returns:**
 java.lang.String
-### getFontDataInternal() {#getFontDataInternal--}
+### getFontDataInternal() {#getFontDataInternal}
 ```
 public Iterable getFontDataInternal()
 ```
@@ -122,7 +125,7 @@ public Iterable getFontDataInternal()
 
 **Returns:**
 java.lang.Iterable
-### getPriority() {#getPriority--}
+### getPriority() {#getPriority}
 ```
 public int getPriority()
 ```
@@ -136,7 +139,7 @@ The default value is 0.
 
 **Returns:**
 int - The font source priority.
-### getPriorityInternal() {#getPriorityInternal--}
+### getPriorityInternal() {#getPriorityInternal}
 ```
 public int getPriorityInternal()
 ```
@@ -146,7 +149,7 @@ public int getPriorityInternal()
 
 **Returns:**
 int
-### getSize() {#getSize--}
+### getSize() {#getSize}
 ```
 public int getSize()
 ```
@@ -156,7 +159,7 @@ public int getSize()
 
 **Returns:**
 int
-### getType() {#getType--}
+### getType() {#getType}
 ```
 public int getType()
 ```
@@ -166,7 +169,7 @@ Returns the type of the font source.
 
 **Returns:**
 int - The type of the font source. The returned value is one of [FontSourceType](../../com.aspose.words/fontsourcetype) constants.
-### getWarningCallback() {#getWarningCallback--}
+### getWarningCallback() {#getWarningCallback}
 ```
 public IWarningCallback getWarningCallback()
 ```
@@ -176,7 +179,7 @@ Called during processing of font source when an issue is detected that might res
 
 **Returns:**
 [IWarningCallback](../../com.aspose.words/iwarningcallback) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -186,7 +189,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -194,7 +197,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -202,7 +205,7 @@ public final native void notifyAll()
 
 
 
-### openFontDataStream() {#openFontDataStream--}
+### openFontDataStream() {#openFontDataStream}
 ```
 public abstract InputStream openFontDataStream()
 ```
@@ -212,7 +215,7 @@ This method should open the stream with font data on demand.
 
 **Returns:**
 java.io.InputStream - Font data stream. The stream will be closed after reading. There is no need to close it explicitly.
-### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback-}
+### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback}
 ```
 public void setWarningCallback(IWarningCallback value)
 ```
@@ -225,7 +228,7 @@ Called during processing of font source when an issue is detected that might res
 | --- | --- | --- |
 | value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -235,7 +238,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -243,7 +246,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -256,7 +259,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

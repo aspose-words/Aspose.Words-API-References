@@ -3,7 +3,7 @@ title: set_BarcodeType
 second_title: Aspose.Words for C++ API Reference
 description: Sets the barcode type (QR, etc.)
 type: docs
-weight: 235
+weight: 274
 url: /cpp/aspose.words.fields/fieldmergebarcode/set_barcodetype/
 ---
 ## FieldMergeBarcode::set_BarcodeType method

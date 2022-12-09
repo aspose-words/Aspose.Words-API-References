@@ -3,7 +3,7 @@ title: TableSubstitutionRule
 second_title: Aspose.Words for Java API Reference
 description: Table font substitution rule.
 type: docs
-weight: 554
+weight: 557
 url: /java/com.aspose.words/tablesubstitutionrule/
 ---
 
@@ -15,35 +15,38 @@ public class TableSubstitutionRule extends FontSubstitutionRule
 
 Table font substitution rule.
 
-To learn more, visit the **Working with Fonts** documentation article.
+To learn more, visit the [ Working with Fonts ][Working with Fonts] documentation article.
 
-This rule defines the list of substitute font names to be used if the original font is not available. Substitutes will be checked for the font name and the [FontInfo.getAltName()](../../com.aspose.words/fontinfo\#getAltName--) / [FontInfo.setAltName(java.lang.String)](../../com.aspose.words/fontinfo\#setAltName-java.lang.String-) (if any).
+This rule defines the list of substitute font names to be used if the original font is not available. Substitutes will be checked for the font name and the [FontInfo.getAltName()](../../com.aspose.words/fontinfo\#getAltName) / [FontInfo.setAltName(java.lang.String)](../../com.aspose.words/fontinfo\#setAltName-java.lang.String) (if any).
+
+
+[Working with Fonts]: https://docs.aspose.com/words/java/working-with-fonts/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [addSubstitutes(String originalFontName, String[] substituteFontNames)](#addSubstitutes-java.lang.String-java.lang.String...-) | Adds substitute font names for given original font name. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getEnabled()](#getEnabled--) | Specifies whether the rule is enabled or not. |
-| [getSubstitutes(String originalFontName)](#getSubstitutes-java.lang.String-) | Returns array containing substitute font names for the specified original font name. |
-| [hashCode()](#hashCode--) |  |
-| [load(InputStream stream)](#load-java.io.InputStream-) |  |
-| [load(String fileName)](#load-java.lang.String-) | Loads table substitution settings from XML file. |
-| [loadAndroidSettings()](#loadAndroidSettings--) | Loads predefined table substitution settings for Linux platform. |
-| [loadLinuxSettings()](#loadLinuxSettings--) | Loads predefined table substitution settings for Linux platform. |
-| [loadWindowsSettings()](#loadWindowsSettings--) | Loads predefined table substitution settings for Windows platform. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [save(OutputStream outputStream)](#save-java.io.OutputStream-) |  |
-| [save(String fileName)](#save-java.lang.String-) | Saves the current table substitution settings to file. |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | Specifies whether the rule is enabled or not. |
-| [setSubstitutes(String originalFontName, String[] substituteFontNames)](#setSubstitutes-java.lang.String-java.lang.String...-) | Override substitute font names for given original font name. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### addSubstitutes(String originalFontName, String[] substituteFontNames) {#addSubstitutes-java.lang.String-java.lang.String...-}
+| [addSubstitutes(String originalFontName, String[] substituteFontNames)](#addSubstitutes-java.lang.String-java.lang.String...) | Adds substitute font names for given original font name. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getEnabled()](#getEnabled) | Specifies whether the rule is enabled or not. |
+| [getSubstitutes(String originalFontName)](#getSubstitutes-java.lang.String) | Returns array containing substitute font names for the specified original font name. |
+| [hashCode()](#hashCode) |  |
+| [load(InputStream stream)](#load-java.io.InputStream) |  |
+| [load(String fileName)](#load-java.lang.String) | Loads table substitution settings from XML file. |
+| [loadAndroidSettings()](#loadAndroidSettings) | Loads predefined table substitution settings for Linux platform. |
+| [loadLinuxSettings()](#loadLinuxSettings) | Loads predefined table substitution settings for Linux platform. |
+| [loadWindowsSettings()](#loadWindowsSettings) | Loads predefined table substitution settings for Windows platform. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [save(OutputStream outputStream)](#save-java.io.OutputStream) |  |
+| [save(String fileName)](#save-java.lang.String) | Saves the current table substitution settings to file. |
+| [setEnabled(boolean value)](#setEnabled-boolean) | Specifies whether the rule is enabled or not. |
+| [setSubstitutes(String originalFontName, String[] substituteFontNames)](#setSubstitutes-java.lang.String-java.lang.String...) | Override substitute font names for given original font name. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### addSubstitutes(String originalFontName, String[] substituteFontNames) {#addSubstitutes-java.lang.String-java.lang.String...}
 ```
 public void addSubstitutes(String originalFontName, String[] substituteFontNames)
 ```
@@ -57,7 +60,7 @@ Adds substitute font names for given original font name.
 | originalFontName | java.lang.String | Original font name. |
 | substituteFontNames | java.lang.String[] | List of alternative font names. |
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -72,7 +75,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -82,7 +85,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getEnabled() {#getEnabled--}
+### getEnabled() {#getEnabled}
 ```
 public boolean getEnabled()
 ```
@@ -92,7 +95,7 @@ Specifies whether the rule is enabled or not.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getSubstitutes(String originalFontName) {#getSubstitutes-java.lang.String-}
+### getSubstitutes(String originalFontName) {#getSubstitutes-java.lang.String}
 ```
 public Iterable getSubstitutes(String originalFontName)
 ```
@@ -107,7 +110,7 @@ Returns array containing substitute font names for the specified original font n
 
 **Returns:**
 java.lang.Iterable - List of alternative font names.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -117,7 +120,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### load(InputStream stream) {#load-java.io.InputStream-}
+### load(InputStream stream) {#load-java.io.InputStream}
 ```
 public void load(InputStream stream)
 ```
@@ -130,7 +133,7 @@ public void load(InputStream stream)
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
 
-### load(String fileName) {#load-java.lang.String-}
+### load(String fileName) {#load-java.lang.String}
 ```
 public void load(String fileName)
 ```
@@ -143,7 +146,7 @@ Loads table substitution settings from XML file.
 | --- | --- | --- |
 | fileName | java.lang.String | Input file name. |
 
-### loadAndroidSettings() {#loadAndroidSettings--}
+### loadAndroidSettings() {#loadAndroidSettings}
 ```
 public void loadAndroidSettings()
 ```
@@ -151,7 +154,7 @@ public void loadAndroidSettings()
 
 Loads predefined table substitution settings for Linux platform.
 
-### loadLinuxSettings() {#loadLinuxSettings--}
+### loadLinuxSettings() {#loadLinuxSettings}
 ```
 public void loadLinuxSettings()
 ```
@@ -159,7 +162,7 @@ public void loadLinuxSettings()
 
 Loads predefined table substitution settings for Linux platform.
 
-### loadWindowsSettings() {#loadWindowsSettings--}
+### loadWindowsSettings() {#loadWindowsSettings}
 ```
 public void loadWindowsSettings()
 ```
@@ -167,7 +170,7 @@ public void loadWindowsSettings()
 
 Loads predefined table substitution settings for Windows platform.
 
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -175,7 +178,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -183,7 +186,7 @@ public final native void notifyAll()
 
 
 
-### save(OutputStream outputStream) {#save-java.io.OutputStream-}
+### save(OutputStream outputStream) {#save-java.io.OutputStream}
 ```
 public void save(OutputStream outputStream)
 ```
@@ -196,7 +199,7 @@ public void save(OutputStream outputStream)
 | --- | --- | --- |
 | outputStream | java.io.OutputStream |  |
 
-### save(String fileName) {#save-java.lang.String-}
+### save(String fileName) {#save-java.lang.String}
 ```
 public void save(String fileName)
 ```
@@ -209,7 +212,7 @@ Saves the current table substitution settings to file.
 | --- | --- | --- |
 | fileName | java.lang.String | Output file name. |
 
-### setEnabled(boolean value) {#setEnabled-boolean-}
+### setEnabled(boolean value) {#setEnabled-boolean}
 ```
 public void setEnabled(boolean value)
 ```
@@ -222,7 +225,7 @@ Specifies whether the rule is enabled or not.
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setSubstitutes(String originalFontName, String[] substituteFontNames) {#setSubstitutes-java.lang.String-java.lang.String...-}
+### setSubstitutes(String originalFontName, String[] substituteFontNames) {#setSubstitutes-java.lang.String-java.lang.String...}
 ```
 public void setSubstitutes(String originalFontName, String[] substituteFontNames)
 ```
@@ -236,7 +239,7 @@ Override substitute font names for given original font name.
 | originalFontName | java.lang.String | Original font name. |
 | substituteFontNames | java.lang.String[] | List of alternative font names. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -246,7 +249,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -254,7 +257,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -267,7 +270,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

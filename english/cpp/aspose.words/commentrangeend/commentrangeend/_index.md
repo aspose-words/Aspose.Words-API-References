@@ -3,7 +3,7 @@ title: CommentRangeEnd
 second_title: Aspose.Words for C++ API Reference
 description: Initializes a new instance of this class.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words/commentrangeend/commentrangeend/
 ---
 ## CommentRangeEnd::CommentRangeEnd constructor
@@ -23,7 +23,7 @@ Aspose::Words::CommentRangeEnd::CommentRangeEnd(const System::SharedPtr<Aspose::
 ## Remarks
 
 
-When [CommentRangeEnd](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is null.
+When [CommentRangeEnd](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is **null**.
 
 To append a [CommentRangeEnd](../) to the document use InsertAfter or InsertBefore on the paragraph where you want the comment inserted.
 

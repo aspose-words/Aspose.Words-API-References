@@ -1,7 +1,7 @@
 ---
 title: ChartLegend
 second_title: Aspose.Words for C++ API Reference
-description: Represents chart legend properties.
+description: Represents chart legend properties. To learn more, visit the  documentation article.
 type: docs
 weight: 131
 url: /cpp/aspose.words.drawing.charts/chartlegend/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing.charts/chartlegend/
 ## ChartLegend class
 
 
-Represents chart legend properties.
+Represents chart legend properties. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
 class ChartLegend : public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListSource
@@ -21,10 +21,13 @@ class ChartLegend : public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListS
 | --- | --- |
 | [ChartLegend](./chartlegend/)() |  |
 | [get_LegendEntries](./get_legendentries/)() const | Returns a collection of legend entries for all series and trendlines of the parent chart. |
-| [get_Overlay](./get_overlay/)() const | Determines whether other chart elements shall be allowed to overlap legend. Default value is false. |
+| [get_Overlay](./get_overlay/)() const | Determines whether other chart elements shall be allowed to overlap legend. Default value is **false**. |
 | [get_Position](./get_position/)() const | Specifies the position of the legend on a chart. Default value is [Right](../legendposition/). |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Overlay](./set_overlay/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartLegend::get_Overlay](./get_overlay/). |
 | [set_Position](./set_position/)(Aspose::Words::Drawing::Charts::LegendPosition) | Setter for [Aspose::Words::Drawing::Charts::ChartLegend::get_Position](./get_position/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

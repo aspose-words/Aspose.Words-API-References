@@ -3,7 +3,7 @@ title: set_BackColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Drawing::Stroke::get_BackColor.'
 type: docs
-weight: 261
+weight: 300
 url: /cpp/aspose.words.drawing/stroke/set_backcolor/
 ---
 ## Stroke::set_BackColor method

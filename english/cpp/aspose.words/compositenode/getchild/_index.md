@@ -3,7 +3,7 @@ title: GetChild
 second_title: Aspose.Words for C++ API Reference
 description: Returns an Nth child node that matches the specified type.
 type: docs
-weight: 92
+weight: 105
 url: /cpp/aspose.words/compositenode/getchild/
 ---
 ## CompositeNode::GetChild method
@@ -20,15 +20,15 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::CompositeNode::GetChild(As
 | --- | --- | --- |
 | nodeType | Aspose::Words::NodeType | Specifies the type of the child node. |
 | index | int32_t | Zero based index of the child node to select. Negative indexes are also allowed and indicate access from the end, that is -1 means the last node. |
-| isDeep | bool | True to select from all child nodes recursively. False to select only among immediate children. See remarks for more info. |
+| isDeep | bool | **true** to select from all child nodes recursively; **false** to select only among immediate children. See remarks for more info. |
 
 ### ReturnValue
 
-The child node that matches the criteria or null if no matching node is found.
+The child node that matches the criteria or **null** if no matching node is found.
 ## Remarks
 
 
-If index is out of range, a null is returned.
+If index is out of range, a **null** is returned.
 
 ## Examples
 

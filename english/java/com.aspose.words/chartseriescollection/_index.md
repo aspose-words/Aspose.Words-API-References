@@ -18,30 +18,33 @@ public class ChartSeriesCollection implements Iterable
 
 Represents collection of a [ChartSeries](../../com.aspose.words/chartseries).
 
-To learn more, visit the **Working with Charts** documentation article.
+To learn more, visit the [ Working with Charts ][Working with Charts] documentation article.
+
+
+[Working with Charts]: https://docs.aspose.com/words/java/working-with-charts/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [add(String seriesName, double[] xValues, double[] yValues)](#add-java.lang.String-double---double---) | Adds new [ChartSeries](../../com.aspose.words/chartseries) to this collection. |
-| [add(String seriesName, double[] xValues, double[] yValues, double[] bubbleSizes)](#add-java.lang.String-double---double---double---) | Adds new [ChartSeries](../../com.aspose.words/chartseries) to this collection. |
-| [add(String seriesName, String[] categories, double[] values)](#add-java.lang.String-java.lang.String---double---) | Adds new [ChartSeries](../../com.aspose.words/chartseries) to this collection. |
-| [add(String seriesName, Date[] dates, double[] values)](#add-java.lang.String-java.util.Date---double---) | Adds new [ChartSeries](../../com.aspose.words/chartseries) to this collection. |
-| [clear()](#clear--) | Removes all [ChartSeries](../../com.aspose.words/chartseries) from this collection. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Returns a [ChartSeries](../../com.aspose.words/chartseries) at the specified index. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Returns the number of [ChartSeries](../../com.aspose.words/chartseries) in this collection. |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Returns an enumerator object. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | Removes a [ChartSeries](../../com.aspose.words/chartseries) at the specified index. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(String seriesName, double[] xValues, double[] yValues) {#add-java.lang.String-double---double---}
+| [add(String seriesName, double[] xValues, double[] yValues)](#add-java.lang.String-double---double) | Adds new [ChartSeries](../../com.aspose.words/chartseries) to this collection. |
+| [add(String seriesName, double[] xValues, double[] yValues, double[] bubbleSizes)](#add-java.lang.String-double---double---double) | Adds new [ChartSeries](../../com.aspose.words/chartseries) to this collection. |
+| [add(String seriesName, String[] categories, double[] values)](#add-java.lang.String-java.lang.String---double) | Adds new [ChartSeries](../../com.aspose.words/chartseries) to this collection. |
+| [add(String seriesName, Date[] dates, double[] values)](#add-java.lang.String-java.util.Date---double) | Adds new [ChartSeries](../../com.aspose.words/chartseries) to this collection. |
+| [clear()](#clear) | Removes all [ChartSeries](../../com.aspose.words/chartseries) from this collection. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [get(int index)](#get-int) | Returns a [ChartSeries](../../com.aspose.words/chartseries) at the specified index. |
+| [getClass()](#getClass) |  |
+| [getCount()](#getCount) | Returns the number of [ChartSeries](../../com.aspose.words/chartseries) in this collection. |
+| [hashCode()](#hashCode) |  |
+| [iterator()](#iterator) | Returns an enumerator object. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [removeAt(int index)](#removeAt-int) | Removes a [ChartSeries](../../com.aspose.words/chartseries) at the specified index. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### add(String seriesName, double[] xValues, double[] yValues) {#add-java.lang.String-double---double}
 ```
 public ChartSeries add(String seriesName, double[] xValues, double[] yValues)
 ```
@@ -58,7 +61,7 @@ Adds new [ChartSeries](../../com.aspose.words/chartseries) to this collection. U
 
 **Returns:**
 [ChartSeries](../../com.aspose.words/chartseries) - Recently added [ChartSeries](../../com.aspose.words/chartseries) object.
-### add(String seriesName, double[] xValues, double[] yValues, double[] bubbleSizes) {#add-java.lang.String-double---double---double---}
+### add(String seriesName, double[] xValues, double[] yValues, double[] bubbleSizes) {#add-java.lang.String-double---double---double}
 ```
 public ChartSeries add(String seriesName, double[] xValues, double[] yValues, double[] bubbleSizes)
 ```
@@ -76,7 +79,7 @@ Adds new [ChartSeries](../../com.aspose.words/chartseries) to this collection. U
 
 **Returns:**
 [ChartSeries](../../com.aspose.words/chartseries) - Recently added [ChartSeries](../../com.aspose.words/chartseries) object.
-### add(String seriesName, String[] categories, double[] values) {#add-java.lang.String-java.lang.String---double---}
+### add(String seriesName, String[] categories, double[] values) {#add-java.lang.String-java.lang.String---double}
 ```
 public ChartSeries add(String seriesName, String[] categories, double[] values)
 ```
@@ -93,7 +96,7 @@ Adds new [ChartSeries](../../com.aspose.words/chartseries) to this collection. U
 
 **Returns:**
 [ChartSeries](../../com.aspose.words/chartseries) - Recently added [ChartSeries](../../com.aspose.words/chartseries) object.
-### add(String seriesName, Date[] dates, double[] values) {#add-java.lang.String-java.util.Date---double---}
+### add(String seriesName, Date[] dates, double[] values) {#add-java.lang.String-java.util.Date---double}
 ```
 public ChartSeries add(String seriesName, Date[] dates, double[] values)
 ```
@@ -110,7 +113,7 @@ Adds new [ChartSeries](../../com.aspose.words/chartseries) to this collection. U
 
 **Returns:**
 [ChartSeries](../../com.aspose.words/chartseries)
-### clear() {#clear--}
+### clear() {#clear}
 ```
 public void clear()
 ```
@@ -118,7 +121,7 @@ public void clear()
 
 Removes all [ChartSeries](../../com.aspose.words/chartseries) from this collection.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -133,7 +136,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### get(int index) {#get-int-}
+### get(int index) {#get-int}
 ```
 public ChartSeries get(int index)
 ```
@@ -156,7 +159,7 @@ If index is negative and its absolute value is greater than the number of items 
 
 **Returns:**
 [ChartSeries](../../com.aspose.words/chartseries) - A [ChartSeries](../../com.aspose.words/chartseries) at the specified index.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -166,7 +169,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCount() {#getCount--}
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -176,7 +179,7 @@ Returns the number of [ChartSeries](../../com.aspose.words/chartseries) in this 
 
 **Returns:**
 int - The number of [ChartSeries](../../com.aspose.words/chartseries) in this collection.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -186,7 +189,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### iterator() {#iterator--}
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -196,7 +199,7 @@ Returns an enumerator object.
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -204,7 +207,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -212,7 +215,7 @@ public final native void notifyAll()
 
 
 
-### removeAt(int index) {#removeAt-int-}
+### removeAt(int index) {#removeAt-int}
 ```
 public void removeAt(int index)
 ```
@@ -223,9 +226,9 @@ Removes a [ChartSeries](../../com.aspose.words/chartseries) at the specified ind
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index of the ChartSeries to remove. |
+| index | int | The zero-based index of the [ChartSeries](../../com.aspose.words/chartseries) to remove. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -235,7 +238,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -243,7 +246,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -256,7 +259,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

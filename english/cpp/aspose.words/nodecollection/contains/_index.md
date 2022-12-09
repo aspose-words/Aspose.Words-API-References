@@ -3,7 +3,7 @@ title: Contains
 second_title: Aspose.Words for C++ API Reference
 description: Determines whether a node is in the collection.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/aspose.words/nodecollection/contains/
 ---
 ## NodeCollection::Contains method
@@ -22,11 +22,11 @@ bool Aspose::Words::NodeCollection::Contains(const System::SharedPtr<Aspose::Wor
 
 ### ReturnValue
 
-True if item is found in the collection; otherwise, false.
+**true** if item is found in the collection; otherwise, **false**.
 ## Remarks
 
 
-This method performs a linear search; therefore, the average execution time is proportional to Count.
+This method performs a linear search; therefore, the average execution time is proportional to [Count](../get_count/).
 
 ## Examples
 

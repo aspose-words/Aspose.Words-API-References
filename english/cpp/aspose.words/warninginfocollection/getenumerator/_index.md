@@ -3,7 +3,7 @@ title: GetEnumerator
 second_title: Aspose.Words for C++ API Reference
 description: Returns an enumerator object that can be used to iterate over all items in the collection.
 type: docs
-weight: 92
+weight: 105
 url: /cpp/aspose.words/warninginfocollection/getenumerator/
 ---
 ## WarningInfoCollection::GetEnumerator method

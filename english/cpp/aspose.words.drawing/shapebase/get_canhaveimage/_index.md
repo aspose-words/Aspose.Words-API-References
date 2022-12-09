@@ -3,13 +3,13 @@ title: get_CanHaveImage
 second_title: Aspose.Words for C++ API Reference
 description: Returns true if the shape type allows the shape to have an image.
 type: docs
-weight: 131
+weight: 144
 url: /cpp/aspose.words.drawing/shapebase/get_canhaveimage/
 ---
 ## ShapeBase::get_CanHaveImage method
 
 
-Returns true if the shape type allows the shape to have an image.
+Returns **true** if the shape type allows the shape to have an image.
 
 ```cpp
 bool Aspose::Words::Drawing::ShapeBase::get_CanHaveImage()
@@ -18,7 +18,7 @@ bool Aspose::Words::Drawing::ShapeBase::get_CanHaveImage()
 ## Remarks
 
 
-Although Microsoft Word has a special shape type for images, it appears that in Microsoft Word documents any shape except a group shape can have an image, therefore this property returns true for all shapes except [GroupShape](../../groupshape/).
+Although Microsoft Word has a special shape type for images, it appears that in Microsoft Word documents any shape except a group shape can have an image, therefore this property returns **true** for all shapes except [GroupShape](../../groupshape/).
 
 ## Examples
 

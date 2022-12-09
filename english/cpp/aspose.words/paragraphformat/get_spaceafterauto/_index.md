@@ -3,7 +3,7 @@ title: get_SpaceAfterAuto
 second_title: Aspose.Words for C++ API Reference
 description: True if the amount of spacing after the paragraph is set automatically.
 type: docs
-weight: 391
+weight: 404
 url: /cpp/aspose.words/paragraphformat/get_spaceafterauto/
 ---
 ## ParagraphFormat::get_SpaceAfterAuto method
@@ -18,7 +18,7 @@ bool Aspose::Words::ParagraphFormat::get_SpaceAfterAuto()
 ## Remarks
 
 
-When set to true, overrides the effect of [SpaceAfter](../get_spaceafter/).
+When set to **true**, overrides the effect of [SpaceAfter](../get_spaceafter/).
 
 When you set paragraph Space Before and Space After to Auto, **Microsoft** Word adds 14 points spacing between paragraphs automatically according to the following rules:
 

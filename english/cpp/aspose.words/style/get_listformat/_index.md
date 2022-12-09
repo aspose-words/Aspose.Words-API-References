@@ -3,7 +3,7 @@ title: get_ListFormat
 second_title: Aspose.Words for C++ API Reference
 description: Provides access to the list formatting properties of a paragraph style.
 type: docs
-weight: 131
+weight: 144
 url: /cpp/aspose.words/style/get_listformat/
 ---
 ## Style::get_ListFormat method
@@ -18,7 +18,7 @@ System::SharedPtr<Aspose::Words::Lists::ListFormat> Aspose::Words::Style::get_Li
 ## Remarks
 
 
-This property is only valid for paragraph styles. For other style types this property returns null.
+This property is only valid for paragraph styles. For other style types this property returns **null**.
 
 ## Examples
 

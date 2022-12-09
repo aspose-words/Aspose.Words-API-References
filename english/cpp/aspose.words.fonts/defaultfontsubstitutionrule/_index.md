@@ -1,7 +1,7 @@
 ---
 title: DefaultFontSubstitutionRule
 second_title: Aspose.Words for C++ API Reference
-description: Default font substitution rule.
+description: Default font substitution rule. To learn more, visit the  documentation article.
 type: docs
 weight: 1
 url: /cpp/aspose.words.fonts/defaultfontsubstitutionrule/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fonts/defaultfontsubstitutionrule/
 ## DefaultFontSubstitutionRule class
 
 
-Default font substitution rule.
+Default font substitution rule. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
 
 ```cpp
 class DefaultFontSubstitutionRule : public Aspose::Words::Fonts::FontSubstitutionRule
@@ -21,8 +21,11 @@ class DefaultFontSubstitutionRule : public Aspose::Words::Fonts::FontSubstitutio
 | --- | --- |
 | [get_DefaultFontName](./get_defaultfontname/)() | Gets or sets the default font name. |
 | virtual [get_Enabled](../fontsubstitutionrule/get_enabled/)() | Specifies whether the rule is enabled or not. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_DefaultFontName](./set_defaultfontname/)(const System::String\&) | Setter for [Aspose::Words::Fonts::DefaultFontSubstitutionRule::get_DefaultFontName](./get_defaultfontname/). |
 | virtual [set_Enabled](../fontsubstitutionrule/set_enabled/)(bool) | Setter for [Aspose::Words::Fonts::FontSubstitutionRule::get_Enabled](../fontsubstitutionrule/get_enabled/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

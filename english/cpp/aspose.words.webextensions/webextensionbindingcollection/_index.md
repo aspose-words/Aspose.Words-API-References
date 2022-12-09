@@ -1,7 +1,7 @@
 ---
 title: WebExtensionBindingCollection
 second_title: Aspose.Words for C++ API Reference
-description: Specifies a list of web extension bindings.
+description: Specifies a list of web extension bindings. To learn more, visit the  documentation article.
 type: docs
 weight: 66
 url: /cpp/aspose.words.webextensions/webextensionbindingcollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.webextensions/webextensionbindingcollection/
 ## WebExtensionBindingCollection class
 
 
-Specifies a list of web extension bindings.
+Specifies a list of web extension bindings. To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/cpp/work-with-office-add-ins/) documentation article.
 
 ```cpp
 class WebExtensionBindingCollection : public Aspose::Words::WebExtensions::BaseWebExtensionCollection<System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionBinding>>
@@ -19,7 +19,10 @@ class WebExtensionBindingCollection : public Aspose::Words::WebExtensions::BaseW
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [SetTemplateWeakPtr](./settemplateweakptr/)(uint32_t) override |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

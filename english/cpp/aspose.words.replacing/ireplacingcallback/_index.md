@@ -19,7 +19,10 @@ class IReplacingCallback : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | virtual [Replacing](./replacing/)(System::SharedPtr\<Aspose::Words::Replacing::ReplacingArgs\>) | A user defined method that is called during a replace operation for each match found just before a replace is made. |
+| static [Type](./type/)() |  |
 
 ## Examples
 

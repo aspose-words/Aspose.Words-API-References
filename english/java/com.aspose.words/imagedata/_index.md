@@ -3,7 +3,7 @@ title: ImageData
 second_title: Aspose.Words for Java API Reference
 description: Defines an image for a shape.
 type: docs
-weight: 337
+weight: 339
 url: /java/com.aspose.words/imagedata/
 ---
 
@@ -15,70 +15,73 @@ public class ImageData
 
 Defines an image for a shape.
 
-To learn more, visit the **Working with Images** documentation article.
+To learn more, visit the [ Working with Images ][Working with Images] documentation article.
 
-Use the [Shape.getImageData()](../../com.aspose.words/shape\#getImageData--) property to access and modify the image inside a shape. You do not create instances of the [ImageData](../../com.aspose.words/imagedata) class directly.
+Use the [Shape.getImageData()](../../com.aspose.words/shape\#getImageData) property to access and modify the image inside a shape. You do not create instances of the [ImageData](../../com.aspose.words/imagedata) class directly.
 
 An image can be stored inside a shape, linked to external file or both (linked and stored in the document).
 
-Regardless of whether the image is stored inside the shape or linked, you can always access the actual image using the [toByteArray()](../../com.aspose.words/imagedata\#toByteArray--), [toImage()](../../com.aspose.words/imagedata\#toImage--) or [save(java.lang.String)](../../com.aspose.words/imagedata\#save-java.lang.String-) methods. If the image is stored inside the shape, you can also directly access it using the [getImageBytes()](../../com.aspose.words/imagedata\#getImageBytes--) / [setImageBytes(byte[])](../../com.aspose.words/imagedata\#setImageBytes-byte---) property.
+Regardless of whether the image is stored inside the shape or linked, you can always access the actual image using the [toByteArray()](../../com.aspose.words/imagedata\#toByteArray), [toImage()](../../com.aspose.words/imagedata\#toImage) or [save(java.lang.String)](../../com.aspose.words/imagedata\#save-java.lang.String) methods. If the image is stored inside the shape, you can also directly access it using the [getImageBytes()](../../com.aspose.words/imagedata\#getImageBytes) / [setImageBytes(byte[])](../../com.aspose.words/imagedata\#setImageBytes-byte) property.
 
-To store an image inside a shape use the [setImage(java.lang.String)](../../com.aspose.words/imagedata\#setImage-java.lang.String-) method. To link an image to a shape, set the [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-) property.
+To store an image inside a shape use the [setImage(java.lang.String)](../../com.aspose.words/imagedata\#setImage-java.lang.String) method. To link an image to a shape, set the [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String) property.
+
+
+[Working with Images]: https://docs.aspose.com/words/java/working-with-images/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int-) |  |
-| [getBiLevel()](#getBiLevel--) | Determines whether an image will be displayed in black and white. |
-| [getBorders()](#getBorders--) | Gets the collection of borders of the image. |
-| [getBrightness()](#getBrightness--) | Gets the brightness of the picture. |
-| [getChromaKey()](#getChromaKey--) | Defines the color value of the image that will be treated as transparent. |
-| [getClass()](#getClass--) |  |
-| [getContrast()](#getContrast--) | Gets the contrast for the specified picture. |
-| [getCropBottom()](#getCropBottom--) | Defines the fraction of picture removal from the bottom side. |
-| [getCropLeft()](#getCropLeft--) | Defines the fraction of picture removal from the left side. |
-| [getCropRight()](#getCropRight--) | Defines the fraction of picture removal from the right side. |
-| [getCropTop()](#getCropTop--) | Defines the fraction of picture removal from the top side. |
-| [getDirectBorderAttr(int key)](#getDirectBorderAttr-int-) |  |
-| [getGrayScale()](#getGrayScale--) | Determines whether a picture will display in grayscale mode. |
-| [getImageBytes()](#getImageBytes--) | Gets the raw bytes of the image stored in the shape. |
-| [getImageSize()](#getImageSize--) | Gets the information about image size and resolution. |
-| [getImageType()](#getImageType--) | Gets the type of the image. |
-| [getSourceFullName()](#getSourceFullName--) | Gets the path and name of the source file for the linked image. |
-| [getTitle()](#getTitle--) | Defines the title of an image. |
-| [hasImage()](#hasImage--) | Returns true if the shape has image bytes or links an image. |
-| [hashCode()](#hashCode--) |  |
-| [isLink()](#isLink--) | Returns true if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-) is specified). |
-| [isLinkOnly()](#isLinkOnly--) | Returns true if the image is linked and not stored in the document. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [save(OutputStream stream)](#save-java.io.OutputStream-) |  |
-| [save(String fileName)](#save-java.lang.String-) | Saves the image into a file. |
-| [setBiLevel(boolean value)](#setBiLevel-boolean-) | Determines whether an image will be displayed in black and white. |
-| [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object-) |  |
-| [setBrightness(double value)](#setBrightness-double-) | Sets the brightness of the picture. |
-| [setChromaKey(Color value)](#setChromaKey-java.awt.Color-) | Defines the color value of the image that will be treated as transparent. |
-| [setContrast(double value)](#setContrast-double-) | Sets the contrast for the specified picture. |
-| [setCropBottom(double value)](#setCropBottom-double-) | Defines the fraction of picture removal from the bottom side. |
-| [setCropLeft(double value)](#setCropLeft-double-) | Defines the fraction of picture removal from the left side. |
-| [setCropRight(double value)](#setCropRight-double-) | Defines the fraction of picture removal from the right side. |
-| [setCropTop(double value)](#setCropTop-double-) | Defines the fraction of picture removal from the top side. |
-| [setGrayScale(boolean value)](#setGrayScale-boolean-) | Determines whether a picture will display in grayscale mode. |
-| [setImage(BufferedImage image)](#setImage-java.awt.image.BufferedImage-) | Sets the image that the shape displays. |
-| [setImage(InputStream stream)](#setImage-java.io.InputStream-) |  |
-| [setImage(String fileName)](#setImage-java.lang.String-) | Sets the image that the shape displays. |
-| [setImageBytes(byte[] value)](#setImageBytes-byte---) | Sets the raw bytes of the image stored in the shape. |
-| [setSourceFullName(String value)](#setSourceFullName-java.lang.String-) | Sets the path and name of the source file for the linked image. |
-| [setTitle(String value)](#setTitle-java.lang.String-) | Defines the title of an image. |
-| [toByteArray()](#toByteArray--) | Returns image bytes for any image regardless whether the image is stored or linked. |
-| [toImage()](#toImage--) | Gets the image stored in the shape as a java  BufferedImage  object. |
-| [toStream()](#toStream--) | Creates and returns a stream that contains the image bytes. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int) |  |
+| [getBiLevel()](#getBiLevel) | Determines whether an image will be displayed in black and white. |
+| [getBorders()](#getBorders) | Gets the collection of borders of the image. |
+| [getBrightness()](#getBrightness) | Gets the brightness of the picture. |
+| [getChromaKey()](#getChromaKey) | Defines the color value of the image that will be treated as transparent. |
+| [getClass()](#getClass) |  |
+| [getContrast()](#getContrast) | Gets the contrast for the specified picture. |
+| [getCropBottom()](#getCropBottom) | Defines the fraction of picture removal from the bottom side. |
+| [getCropLeft()](#getCropLeft) | Defines the fraction of picture removal from the left side. |
+| [getCropRight()](#getCropRight) | Defines the fraction of picture removal from the right side. |
+| [getCropTop()](#getCropTop) | Defines the fraction of picture removal from the top side. |
+| [getDirectBorderAttr(int key)](#getDirectBorderAttr-int) |  |
+| [getGrayScale()](#getGrayScale) | Determines whether a picture will display in grayscale mode. |
+| [getImageBytes()](#getImageBytes) | Gets the raw bytes of the image stored in the shape. |
+| [getImageSize()](#getImageSize) | Gets the information about image size and resolution. |
+| [getImageType()](#getImageType) | Gets the type of the image. |
+| [getSourceFullName()](#getSourceFullName) | Gets the path and name of the source file for the linked image. |
+| [getTitle()](#getTitle) | Defines the title of an image. |
+| [hasImage()](#hasImage) | Returns  true  if the shape has image bytes or links an image. |
+| [hashCode()](#hashCode) |  |
+| [isLink()](#isLink) | Returns  true  if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String) is specified). |
+| [isLinkOnly()](#isLinkOnly) | Returns  true  if the image is linked and not stored in the document. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [save(OutputStream stream)](#save-java.io.OutputStream) |  |
+| [save(String fileName)](#save-java.lang.String) | Saves the image into a file. |
+| [setBiLevel(boolean value)](#setBiLevel-boolean) | Determines whether an image will be displayed in black and white. |
+| [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object) |  |
+| [setBrightness(double value)](#setBrightness-double) | Sets the brightness of the picture. |
+| [setChromaKey(Color value)](#setChromaKey-java.awt.Color) | Defines the color value of the image that will be treated as transparent. |
+| [setContrast(double value)](#setContrast-double) | Sets the contrast for the specified picture. |
+| [setCropBottom(double value)](#setCropBottom-double) | Defines the fraction of picture removal from the bottom side. |
+| [setCropLeft(double value)](#setCropLeft-double) | Defines the fraction of picture removal from the left side. |
+| [setCropRight(double value)](#setCropRight-double) | Defines the fraction of picture removal from the right side. |
+| [setCropTop(double value)](#setCropTop-double) | Defines the fraction of picture removal from the top side. |
+| [setGrayScale(boolean value)](#setGrayScale-boolean) | Determines whether a picture will display in grayscale mode. |
+| [setImage(BufferedImage image)](#setImage-java.awt.image.BufferedImage) | Sets the image that the shape displays. |
+| [setImage(InputStream stream)](#setImage-java.io.InputStream) |  |
+| [setImage(String fileName)](#setImage-java.lang.String) | Sets the image that the shape displays. |
+| [setImageBytes(byte[] value)](#setImageBytes-byte) | Sets the raw bytes of the image stored in the shape. |
+| [setSourceFullName(String value)](#setSourceFullName-java.lang.String) | Sets the path and name of the source file for the linked image. |
+| [setTitle(String value)](#setTitle-java.lang.String) | Defines the title of an image. |
+| [toByteArray()](#toByteArray) | Returns image bytes for any image regardless whether the image is stored or linked. |
+| [toImage()](#toImage) | Gets the image stored in the shape as a java  BufferedImage  object. |
+| [toStream()](#toStream) | Creates and returns a stream that contains the image bytes. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -93,7 +96,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int-}
+### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int}
 ```
 public Object fetchInheritedBorderAttr(int key)
 ```
@@ -108,7 +111,7 @@ public Object fetchInheritedBorderAttr(int key)
 
 **Returns:**
 java.lang.Object
-### getBiLevel() {#getBiLevel--}
+### getBiLevel() {#getBiLevel}
 ```
 public boolean getBiLevel()
 ```
@@ -116,11 +119,11 @@ public boolean getBiLevel()
 
 Determines whether an image will be displayed in black and white.
 
-The default value is **false**.
+The default value is  false .
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getBorders() {#getBorders--}
+### getBorders() {#getBorders}
 ```
 public BorderCollection getBorders()
 ```
@@ -130,7 +133,7 @@ Gets the collection of borders of the image. Borders only have effect for inline
 
 **Returns:**
 [BorderCollection](../../com.aspose.words/bordercollection) - The collection of borders of the image.
-### getBrightness() {#getBrightness--}
+### getBrightness() {#getBrightness}
 ```
 public double getBrightness()
 ```
@@ -142,7 +145,7 @@ The default value is 0.5.
 
 **Returns:**
 double - The brightness of the picture.
-### getChromaKey() {#getChromaKey--}
+### getChromaKey() {#getChromaKey}
 ```
 public Color getChromaKey()
 ```
@@ -154,7 +157,7 @@ The default value is 0.
 
 **Returns:**
 java.awt.Color - The corresponding java.awt.Color value.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -164,7 +167,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getContrast() {#getContrast--}
+### getContrast() {#getContrast}
 ```
 public double getContrast()
 ```
@@ -176,7 +179,7 @@ The default value is 0.5.
 
 **Returns:**
 double - The contrast for the specified picture.
-### getCropBottom() {#getCropBottom--}
+### getCropBottom() {#getCropBottom}
 ```
 public double getCropBottom()
 ```
@@ -190,7 +193,7 @@ The default value is 0.
 
 **Returns:**
 double - The corresponding  double  value.
-### getCropLeft() {#getCropLeft--}
+### getCropLeft() {#getCropLeft}
 ```
 public double getCropLeft()
 ```
@@ -204,7 +207,7 @@ The default value is 0.
 
 **Returns:**
 double - The corresponding  double  value.
-### getCropRight() {#getCropRight--}
+### getCropRight() {#getCropRight}
 ```
 public double getCropRight()
 ```
@@ -218,7 +221,7 @@ The default value is 0.
 
 **Returns:**
 double - The corresponding  double  value.
-### getCropTop() {#getCropTop--}
+### getCropTop() {#getCropTop}
 ```
 public double getCropTop()
 ```
@@ -232,7 +235,7 @@ The default value is 0.
 
 **Returns:**
 double - The corresponding  double  value.
-### getDirectBorderAttr(int key) {#getDirectBorderAttr-int-}
+### getDirectBorderAttr(int key) {#getDirectBorderAttr-int}
 ```
 public Object getDirectBorderAttr(int key)
 ```
@@ -247,7 +250,7 @@ public Object getDirectBorderAttr(int key)
 
 **Returns:**
 java.lang.Object
-### getGrayScale() {#getGrayScale--}
+### getGrayScale() {#getGrayScale}
 ```
 public boolean getGrayScale()
 ```
@@ -255,11 +258,11 @@ public boolean getGrayScale()
 
 Determines whether a picture will display in grayscale mode.
 
-The default value is **false**.
+The default value is  false .
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getImageBytes() {#getImageBytes--}
+### getImageBytes() {#getImageBytes}
 ```
 public byte[] getImageBytes()
 ```
@@ -273,29 +276,29 @@ Returns  null  if the image is not stored in the document (e.g the image is prob
 
 **Returns:**
 byte[] - The raw bytes of the image stored in the shape.
-### getImageSize() {#getImageSize--}
+### getImageSize() {#getImageSize}
 ```
 public ImageSize getImageSize()
 ```
 
 
-Gets the information about image size and resolution. (4661,6)
+Gets the information about image size and resolution. (4662,6)
 
 If the image is linked only and not stored in the document, returns zero size.
 
 **Returns:**
 [ImageSize](../../com.aspose.words/imagesize) - The information about image size and resolution.
-### getImageType() {#getImageType--}
+### getImageType() {#getImageType}
 ```
 public int getImageType()
 ```
 
 
-Gets the type of the image. (4671,6)
+Gets the type of the image. (4672,6)
 
 **Returns:**
 int - The type of the image. The returned value is one of [ImageType](../../com.aspose.words/imagetype) constants.
-### getSourceFullName() {#getSourceFullName--}
+### getSourceFullName() {#getSourceFullName}
 ```
 public String getSourceFullName()
 ```
@@ -305,11 +308,11 @@ Gets the path and name of the source file for the linked image.
 
 The default value is an empty string.
 
-If [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-) is not an empty string, the image is linked.
+If [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String) is not an empty string, the image is linked.
 
 **Returns:**
 java.lang.String - The path and name of the source file for the linked image.
-### getTitle() {#getTitle--}
+### getTitle() {#getTitle}
 ```
 public String getTitle()
 ```
@@ -321,17 +324,17 @@ The default value is an empty string.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### hasImage() {#hasImage--}
+### hasImage() {#hasImage}
 ```
 public boolean hasImage()
 ```
 
 
-Returns true if the shape has image bytes or links an image. (4654,6)
+Returns  true  if the shape has image bytes or links an image. (4655,6)
 
 **Returns:**
-boolean - True if the shape has image bytes or links an image.
-### hashCode() {#hashCode--}
+boolean - \{ true  if the shape has image bytes or links an image.
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -341,27 +344,27 @@ public native int hashCode()
 
 **Returns:**
 int
-### isLink() {#isLink--}
+### isLink() {#isLink}
 ```
 public boolean isLink()
 ```
 
 
-Returns true if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-) is specified). (4678,6)
+Returns  true  if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String) is specified). (4679,6)
 
 **Returns:**
-boolean - True if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-) is specified).
-### isLinkOnly() {#isLinkOnly--}
+boolean - \{ true  if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String) is specified).
+### isLinkOnly() {#isLinkOnly}
 ```
 public boolean isLinkOnly()
 ```
 
 
-Returns true if the image is linked and not stored in the document. (4685,6)
+Returns  true  if the image is linked and not stored in the document. (4686,6)
 
 **Returns:**
-boolean - True if the image is linked and not stored in the document.
-### notify() {#notify--}
+boolean - \{ true  if the image is linked and not stored in the document.
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -369,7 +372,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -377,7 +380,7 @@ public final native void notifyAll()
 
 
 
-### save(OutputStream stream) {#save-java.io.OutputStream-}
+### save(OutputStream stream) {#save-java.io.OutputStream}
 ```
 public void save(OutputStream stream)
 ```
@@ -390,7 +393,7 @@ public void save(OutputStream stream)
 | --- | --- | --- |
 | stream | java.io.OutputStream |  |
 
-### save(String fileName) {#save-java.lang.String-}
+### save(String fileName) {#save-java.lang.String}
 ```
 public void save(String fileName)
 ```
@@ -403,7 +406,7 @@ Saves the image into a file.
 | --- | --- | --- |
 | fileName | java.lang.String | The file name where to save the image. |
 
-### setBiLevel(boolean value) {#setBiLevel-boolean-}
+### setBiLevel(boolean value) {#setBiLevel-boolean}
 ```
 public void setBiLevel(boolean value)
 ```
@@ -411,14 +414,14 @@ public void setBiLevel(boolean value)
 
 Determines whether an image will be displayed in black and white.
 
-The default value is **false**.
+The default value is  false .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setBorderAttr(int key, Object value) {#setBorderAttr-int-java.lang.Object-}
+### setBorderAttr(int key, Object value) {#setBorderAttr-int-java.lang.Object}
 ```
 public void setBorderAttr(int key, Object value)
 ```
@@ -432,7 +435,7 @@ public void setBorderAttr(int key, Object value)
 | key | int |  |
 | value | java.lang.Object |  |
 
-### setBrightness(double value) {#setBrightness-double-}
+### setBrightness(double value) {#setBrightness-double}
 ```
 public void setBrightness(double value)
 ```
@@ -447,7 +450,7 @@ The default value is 0.5.
 | --- | --- | --- |
 | value | double | The brightness of the picture. |
 
-### setChromaKey(Color value) {#setChromaKey-java.awt.Color-}
+### setChromaKey(Color value) {#setChromaKey-java.awt.Color}
 ```
 public void setChromaKey(Color value)
 ```
@@ -462,7 +465,7 @@ The default value is 0.
 | --- | --- | --- |
 | value | java.awt.Color | The corresponding java.awt.Color value. |
 
-### setContrast(double value) {#setContrast-double-}
+### setContrast(double value) {#setContrast-double}
 ```
 public void setContrast(double value)
 ```
@@ -477,7 +480,7 @@ The default value is 0.5.
 | --- | --- | --- |
 | value | double | The contrast for the specified picture. |
 
-### setCropBottom(double value) {#setCropBottom-double-}
+### setCropBottom(double value) {#setCropBottom-double}
 ```
 public void setCropBottom(double value)
 ```
@@ -494,7 +497,7 @@ The default value is 0.
 | --- | --- | --- |
 | value | double | The corresponding  double  value. |
 
-### setCropLeft(double value) {#setCropLeft-double-}
+### setCropLeft(double value) {#setCropLeft-double}
 ```
 public void setCropLeft(double value)
 ```
@@ -511,7 +514,7 @@ The default value is 0.
 | --- | --- | --- |
 | value | double | The corresponding  double  value. |
 
-### setCropRight(double value) {#setCropRight-double-}
+### setCropRight(double value) {#setCropRight-double}
 ```
 public void setCropRight(double value)
 ```
@@ -528,7 +531,7 @@ The default value is 0.
 | --- | --- | --- |
 | value | double | The corresponding  double  value. |
 
-### setCropTop(double value) {#setCropTop-double-}
+### setCropTop(double value) {#setCropTop-double}
 ```
 public void setCropTop(double value)
 ```
@@ -545,7 +548,7 @@ The default value is 0.
 | --- | --- | --- |
 | value | double | The corresponding  double  value. |
 
-### setGrayScale(boolean value) {#setGrayScale-boolean-}
+### setGrayScale(boolean value) {#setGrayScale-boolean}
 ```
 public void setGrayScale(boolean value)
 ```
@@ -553,14 +556,14 @@ public void setGrayScale(boolean value)
 
 Determines whether a picture will display in grayscale mode.
 
-The default value is **false**.
+The default value is  false .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setImage(BufferedImage image) {#setImage-java.awt.image.BufferedImage-}
+### setImage(BufferedImage image) {#setImage-java.awt.image.BufferedImage}
 ```
 public void setImage(BufferedImage image)
 ```
@@ -573,7 +576,7 @@ Sets the image that the shape displays.
 | --- | --- | --- |
 | image | java.awt.image.BufferedImage | The image object. |
 
-### setImage(InputStream stream) {#setImage-java.io.InputStream-}
+### setImage(InputStream stream) {#setImage-java.io.InputStream}
 ```
 public void setImage(InputStream stream)
 ```
@@ -586,7 +589,7 @@ public void setImage(InputStream stream)
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
 
-### setImage(String fileName) {#setImage-java.lang.String-}
+### setImage(String fileName) {#setImage-java.lang.String}
 ```
 public void setImage(String fileName)
 ```
@@ -599,7 +602,7 @@ Sets the image that the shape displays.
 | --- | --- | --- |
 | fileName | java.lang.String | The image file. Can be a file name or a URL. |
 
-### setImageBytes(byte[] value) {#setImageBytes-byte---}
+### setImageBytes(byte[] value) {#setImageBytes-byte}
 ```
 public void setImageBytes(byte[] value)
 ```
@@ -616,7 +619,7 @@ Returns  null  if the image is not stored in the document (e.g the image is prob
 | --- | --- | --- |
 | value | byte[] | The raw bytes of the image stored in the shape. |
 
-### setSourceFullName(String value) {#setSourceFullName-java.lang.String-}
+### setSourceFullName(String value) {#setSourceFullName-java.lang.String}
 ```
 public void setSourceFullName(String value)
 ```
@@ -626,14 +629,14 @@ Sets the path and name of the source file for the linked image.
 
 The default value is an empty string.
 
-If [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-) is not an empty string, the image is linked.
+If [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String) is not an empty string, the image is linked.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The path and name of the source file for the linked image. |
 
-### setTitle(String value) {#setTitle-java.lang.String-}
+### setTitle(String value) {#setTitle-java.lang.String}
 ```
 public void setTitle(String value)
 ```
@@ -648,7 +651,7 @@ The default value is an empty string.
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### toByteArray() {#toByteArray--}
+### toByteArray() {#toByteArray}
 ```
 public byte[] toByteArray()
 ```
@@ -658,7 +661,7 @@ Returns image bytes for any image regardless whether the image is stored or link
 
 **Returns:**
 byte[] - If the image is linked, downloads the image every time it is called.
-### toImage() {#toImage--}
+### toImage() {#toImage}
 ```
 public BufferedImage toImage()
 ```
@@ -667,10 +670,10 @@ public BufferedImage toImage()
 Gets the image stored in the shape as a java  BufferedImage  object.
 
 **Returns:**
-java.awt.image.BufferedImage - Tries to create a new  java.awt.image.BufferedImage  object from image bytes every time this method is called. If  javax.imageio.ImageReader  can't read image bytes (emf, wmf, tiff, etc.) the method returns null.
+java.awt.image.BufferedImage - Tries to create a new  java.awt.image.BufferedImage  object from image bytes every time this method is called. If  javax.imageio.ImageReader  can't read image bytes (emf, wmf, tiff, etc.) the method returns  null .
 
 It is the responsibility of the caller to dispose the image object.
-### toStream() {#toStream--}
+### toStream() {#toStream}
 ```
 public InputStream toStream()
 ```
@@ -690,7 +693,7 @@ This is not ported to Java yet.
 
 **Returns:**
 java.io.InputStream
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -700,7 +703,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -708,7 +711,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -721,7 +724,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

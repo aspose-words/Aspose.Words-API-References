@@ -3,7 +3,7 @@ title: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: Gets a property with the specified name.
 type: docs
-weight: 66
+weight: 92
 url: /cpp/aspose.words.markup/customxmlpropertycollection/idx_get/
 ---
 ## CustomXmlPropertyCollection::idx_get(const System::String\&) method

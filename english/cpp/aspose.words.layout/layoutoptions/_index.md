@@ -1,7 +1,7 @@
 ---
 title: LayoutOptions
 second_title: Aspose.Words for C++ API Reference
-description: Holds the options that allow controlling the document layout process.
+description: Holds the options that allow controlling the document layout process. To learn more, visit the  documentation article.
 type: docs
 weight: 27
 url: /cpp/aspose.words.layout/layoutoptions/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.layout/layoutoptions/
 ## LayoutOptions class
 
 
-Holds the options that allow controlling the document layout process.
+Holds the options that allow controlling the document layout process. To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/cpp/converting-to-fixed-page-format/) documentation article.
 
 ```cpp
 class LayoutOptions : public System::Object
@@ -22,11 +22,13 @@ class LayoutOptions : public System::Object
 | [get_Callback](./get_callback/)() const | Gets [IPageLayoutCallback](../ipagelayoutcallback/) implementation used by page layout model. |
 | [get_CommentDisplayMode](./get_commentdisplaymode/)() const | Gets or sets the way comments are rendered. Default value is [ShowInBalloons](../commentdisplaymode/). |
 | [get_ContinuousSectionPageNumberingRestart](./get_continuoussectionpagenumberingrestart/)() const | Gets or sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering. |
-| [get_IgnorePrinterMetrics](./get_ignoreprintermetrics/)() const | Gets or sets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. Default is True. |
+| [get_IgnorePrinterMetrics](./get_ignoreprintermetrics/)() const | Gets or sets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. Default is **true**. |
 | [get_RevisionOptions](./get_revisionoptions/)() const | Gets revision options. |
-| [get_ShowHiddenText](./get_showhiddentext/)() const | Gets or sets indication of whether hidden text in the document is rendered. Default is False. |
-| [get_ShowParagraphMarks](./get_showparagraphmarks/)() const | Gets or sets indication of whether paragraph marks are rendered. Default is False. |
+| [get_ShowHiddenText](./get_showhiddentext/)() const | Gets or sets indication of whether hidden text in the document is rendered. Default is **false**. |
+| [get_ShowParagraphMarks](./get_showparagraphmarks/)() const | Gets or sets indication of whether paragraph marks are rendered. Default is **false**. |
 | [get_TextShaperFactory](./get_textshaperfactory/)() const | Gets [ITextShaperFactory](../) implementation used for Advanced Typography rendering features. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [LayoutOptions](./layoutoptions/)() |  |
 | [set_Callback](./set_callback/)(const System::SharedPtr\<Aspose::Words::Layout::IPageLayoutCallback\>\&) | Sets [IPageLayoutCallback](../ipagelayoutcallback/) implementation used by page layout model. |
 | [set_CommentDisplayMode](./set_commentdisplaymode/)(Aspose::Words::Layout::CommentDisplayMode) | Setter for [Aspose::Words::Layout::LayoutOptions::get_CommentDisplayMode](./get_commentdisplaymode/). |
@@ -35,6 +37,7 @@ class LayoutOptions : public System::Object
 | [set_ShowHiddenText](./set_showhiddentext/)(bool) | Setter for [Aspose::Words::Layout::LayoutOptions::get_ShowHiddenText](./get_showhiddentext/). |
 | [set_ShowParagraphMarks](./set_showparagraphmarks/)(bool) | Setter for [Aspose::Words::Layout::LayoutOptions::get_ShowParagraphMarks](./get_showparagraphmarks/). |
 | [set_TextShaperFactory](./set_textshaperfactory/)(const System::SharedPtr\<Aspose::Words::Shaping::ITextShaperFactory\>\&) | Sets [ITextShaperFactory](../) implementation used for Advanced Typography rendering features. |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

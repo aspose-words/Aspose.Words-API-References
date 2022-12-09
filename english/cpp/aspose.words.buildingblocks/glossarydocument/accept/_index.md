@@ -3,7 +3,7 @@ title: Accept
 second_title: Aspose.Words for C++ API Reference
 description: Accepts a visitor.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.buildingblocks/glossarydocument/accept/
 ---
 ## GlossaryDocument::Accept method
@@ -30,7 +30,7 @@ Enumerates over this node and all of its children. Each node calls a correspondi
 
 For more info see the Visitor design pattern.
 
-Calls [VisitGlossaryDocumentStart()](../), then calls [Accept()](../../../aspose.words/node/accept/) for all child nodes of this node and then calls [VisitGlossaryDocumentEnd()](../) at the end.
+Calls [VisitGlossaryDocumentStart()](../../../aspose.words/documentvisitor/visitglossarydocumentstart/), then calls [Accept()](../../../aspose.words/node/accept/) for all child nodes of this node and then calls [VisitGlossaryDocumentEnd()](../../../aspose.words/documentvisitor/visitglossarydocumentend/) at the end.
 
 Note: A glossary document node and its children are not visited when you execute a Visitor over a [Document](../../../aspose.words/document/). If you want to execute a Visitor over a glossary document, you need to call [Accept()](./).
 

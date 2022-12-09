@@ -1,7 +1,7 @@
 ---
 title: EditableRange
 second_title: Aspose.Words for C++ API Reference
-description: Represents a single editable range.
+description: Represents a single editable range. To learn more, visit the  documentation article.
 type: docs
 weight: 300
 url: /cpp/aspose.words/editablerange/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/editablerange/
 ## EditableRange class
 
 
-Represents a single editable range.
+Represents a single editable range. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class EditableRange : public System::Object
@@ -24,9 +24,12 @@ class EditableRange : public System::Object
 | [get_EditorGroup](./get_editorgroup/)() | Returns or sets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. |
 | [get_Id](./get_id/)() | Gets the editable range identifier. |
 | [get_SingleUser](./get_singleuser/)() | Returns or sets the single user for editable range. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](./remove/)() | Removes the editable range from the document. Does not remove content inside the editable range. |
 | [set_EditorGroup](./set_editorgroup/)(Aspose::Words::EditorType) | Setter for [Aspose::Words::EditableRange::get_EditorGroup](./get_editorgroup/). |
 | [set_SingleUser](./set_singleuser/)(const System::String\&) | Setter for [Aspose::Words::EditableRange::get_SingleUser](./get_singleuser/). |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

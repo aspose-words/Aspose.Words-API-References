@@ -3,7 +3,7 @@ title: set_SpaceBefore
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::ParagraphFormat::get_SpaceBefore.'
 type: docs
-weight: 872
+weight: 911
 url: /cpp/aspose.words/paragraphformat/set_spacebefore/
 ---
 ## ParagraphFormat::set_SpaceBefore method

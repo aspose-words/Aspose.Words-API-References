@@ -3,7 +3,7 @@ title: ComparisonEvaluationResult
 second_title: Aspose.Words for Java API Reference
 description: The comparison evaluation result.
 type: docs
-weight: 82
+weight: 83
 url: /java/com.aspose.words/comparisonevaluationresult/
 ---
 
@@ -15,29 +15,32 @@ public class ComparisonEvaluationResult
 
 The comparison evaluation result.
 
-To learn more, visit the **Working with Fields** documentation article.
+To learn more, visit the [ Working with Fields ][Working with Fields] documentation article.
+
+
+[Working with Fields]: https://docs.aspose.com/words/java/working-with-fields/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ComparisonEvaluationResult(boolean result)](#ComparisonEvaluationResult-boolean-) | Creates a comparison evaluation result. |
-| [ComparisonEvaluationResult(String errorMessage)](#ComparisonEvaluationResult-java.lang.String-) | Creates a failed comparison evaluation result with the corresponding error message. |
+| [ComparisonEvaluationResult(boolean result)](#ComparisonEvaluationResult-boolean) | Creates a comparison evaluation result. |
+| [ComparisonEvaluationResult(String errorMessage)](#ComparisonEvaluationResult-java.lang.String) | Creates a failed comparison evaluation result with the corresponding error message. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getErrorMessage()](#getErrorMessage--) | Gets the failed comparison evaluation result's error message. |
-| [getResult()](#getResult--) | Gets the comparison evaluation result. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ComparisonEvaluationResult(boolean result) {#ComparisonEvaluationResult-boolean-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getErrorMessage()](#getErrorMessage) | Gets the failed comparison evaluation result's error message. |
+| [getResult()](#getResult) | Gets the comparison evaluation result. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### ComparisonEvaluationResult(boolean result) {#ComparisonEvaluationResult-boolean}
 ```
 public ComparisonEvaluationResult(boolean result)
 ```
@@ -50,7 +53,7 @@ Creates a comparison evaluation result.
 | --- | --- | --- |
 | result | boolean |  |
 
-### ComparisonEvaluationResult(String errorMessage) {#ComparisonEvaluationResult-java.lang.String-}
+### ComparisonEvaluationResult(String errorMessage) {#ComparisonEvaluationResult-java.lang.String}
 ```
 public ComparisonEvaluationResult(String errorMessage)
 ```
@@ -63,7 +66,7 @@ Creates a failed comparison evaluation result with the corresponding error messa
 | --- | --- | --- |
 | errorMessage | java.lang.String |  |
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -78,7 +81,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -88,7 +91,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getErrorMessage() {#getErrorMessage--}
+### getErrorMessage() {#getErrorMessage}
 ```
 public String getErrorMessage()
 ```
@@ -98,7 +101,7 @@ Gets the failed comparison evaluation result's error message.
 
 **Returns:**
 java.lang.String - The failed comparison evaluation result's error message.
-### getResult() {#getResult--}
+### getResult() {#getResult}
 ```
 public boolean getResult()
 ```
@@ -108,7 +111,7 @@ Gets the comparison evaluation result.
 
 **Returns:**
 boolean - The comparison evaluation result.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -118,7 +121,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -126,7 +129,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -134,7 +137,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -144,7 +147,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -152,7 +155,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -165,7 +168,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

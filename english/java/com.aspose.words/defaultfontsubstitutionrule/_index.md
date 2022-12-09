@@ -3,7 +3,7 @@ title: DefaultFontSubstitutionRule
 second_title: Aspose.Words for Java API Reference
 description: Default font substitution rule.
 type: docs
-weight: 110
+weight: 111
 url: /java/com.aspose.words/defaultfontsubstitutionrule/
 ---
 
@@ -15,27 +15,30 @@ public class DefaultFontSubstitutionRule extends FontSubstitutionRule
 
 Default font substitution rule.
 
-To learn more, visit the **Working with Fonts** documentation article.
+To learn more, visit the [ Working with Fonts ][Working with Fonts] documentation article.
 
 This rule defines single default font name to be used for substitution if the original font is not available.
+
+
+[Working with Fonts]: https://docs.aspose.com/words/java/working-with-fonts/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getDefaultFontName()](#getDefaultFontName--) | Gets the default font name. |
-| [getEnabled()](#getEnabled--) | Specifies whether the rule is enabled or not. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Sets the default font name. |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | Specifies whether the rule is enabled or not. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getDefaultFontName()](#getDefaultFontName) | Gets the default font name. |
+| [getEnabled()](#getEnabled) | Specifies whether the rule is enabled or not. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String) | Sets the default font name. |
+| [setEnabled(boolean value)](#setEnabled-boolean) | Specifies whether the rule is enabled or not. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -50,7 +53,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -60,7 +63,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDefaultFontName() {#getDefaultFontName--}
+### getDefaultFontName() {#getDefaultFontName}
 ```
 public String getDefaultFontName()
 ```
@@ -72,7 +75,7 @@ The default value is 'Times New Roman'.
 
 **Returns:**
 java.lang.String - The default font name.
-### getEnabled() {#getEnabled--}
+### getEnabled() {#getEnabled}
 ```
 public boolean getEnabled()
 ```
@@ -82,7 +85,7 @@ Specifies whether the rule is enabled or not.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -92,7 +95,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -100,7 +103,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -108,7 +111,7 @@ public final native void notifyAll()
 
 
 
-### setDefaultFontName(String value) {#setDefaultFontName-java.lang.String-}
+### setDefaultFontName(String value) {#setDefaultFontName-java.lang.String}
 ```
 public void setDefaultFontName(String value)
 ```
@@ -123,7 +126,7 @@ The default value is 'Times New Roman'.
 | --- | --- | --- |
 | value | java.lang.String | The default font name. |
 
-### setEnabled(boolean value) {#setEnabled-boolean-}
+### setEnabled(boolean value) {#setEnabled-boolean}
 ```
 public void setEnabled(boolean value)
 ```
@@ -136,7 +139,7 @@ Specifies whether the rule is enabled or not.
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -146,7 +149,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -154,7 +157,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -167,7 +170,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

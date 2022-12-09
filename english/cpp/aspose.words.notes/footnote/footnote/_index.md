@@ -3,13 +3,13 @@ title: Footnote
 second_title: Aspose.Words for C++ API Reference
 description: Initializes an instance of the Footnote class.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.notes/footnote/footnote/
 ---
 ## Footnote::Footnote constructor
 
 
-Initializes an instance of the **Footnote** class.
+Initializes an instance of the [Footnote](../) class.
 
 ```cpp
 Aspose::Words::Notes::Footnote::Footnote(const System::SharedPtr<Aspose::Words::DocumentBase> &doc, Aspose::Words::Notes::FootnoteType footnoteType)
@@ -23,9 +23,9 @@ Aspose::Words::Notes::Footnote::Footnote(const System::SharedPtr<Aspose::Words::
 ## Remarks
 
 
-When **Footnote** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+When [Footnote](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../../aspose.words/node/get_parentnode/) is **null**.
 
-To append **Footnote** to the document use InsertAfter or InsertBefore on the paragraph where you want the footnote inserted.
+To append [Footnote](../) to the document use [InsertAfter()](../) or [InsertBefore()](../) on the paragraph where you want the footnote inserted.
 
 ## Examples
 

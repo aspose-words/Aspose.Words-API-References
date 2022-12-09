@@ -3,7 +3,7 @@ title: set_StyleOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Tables::Table::get_StyleOptions.'
 type: docs
-weight: 768
+weight: 807
 url: /cpp/aspose.words.tables/table/set_styleoptions/
 ---
 ## Table::set_StyleOptions method

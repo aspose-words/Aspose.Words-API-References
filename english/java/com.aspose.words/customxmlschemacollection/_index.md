@@ -3,7 +3,7 @@ title: CustomXmlSchemaCollection
 second_title: Aspose.Words for Java API Reference
 description: A collection of strings that represent XML schemas that are associated with a custom XML part.
 type: docs
-weight: 108
+weight: 109
 url: /java/com.aspose.words/customxmlschemacollection/
 ---
 
@@ -18,33 +18,36 @@ public class CustomXmlSchemaCollection implements Iterable
 
 A collection of strings that represent XML schemas that are associated with a custom XML part.
 
-To learn more, visit the **Structured Document Tags or Content Control** documentation article.
+To learn more, visit the [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control] documentation article.
 
-You do not create instances of this class. You access the collection of XML schemas of a custom XML part via the [CustomXmlPart.getSchemas()](../../com.aspose.words/customxmlpart\#getSchemas--) property.
+You do not create instances of this class. You access the collection of XML schemas of a custom XML part via the [CustomXmlPart.getSchemas()](../../com.aspose.words/customxmlpart\#getSchemas) property.
+
+
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/structured-document-tags-or-content-control/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [add(String value)](#add-java.lang.String-) | Adds an item to the collection. |
-| [clear()](#clear--) | Removes all elements from the collection. |
-| [deepClone()](#deepClone--) | Makes a deep clone of this object. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Gets the element at the specified index. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
-| [hashCode()](#hashCode--) |  |
-| [indexOf(String value)](#indexOf-java.lang.String-) | Returns the zero-based index of the specified value in the collection. |
-| [iterator()](#iterator--) | Returns an iterator object that can be used to iterate over all items in the collection. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove(String name)](#remove-java.lang.String-) | Removes the specified value from the collection. |
-| [removeAt(int index)](#removeAt-int-) | Removes a value at the specified index. |
-| [set(int index, String value)](#set-int-java.lang.String-) | Sets the element at the specified index. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(String value) {#add-java.lang.String-}
+| [add(String value)](#add-java.lang.String) | Adds an item to the collection. |
+| [clear()](#clear) | Removes all elements from the collection. |
+| [deepClone()](#deepClone) | Makes a deep clone of this object. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [get(int index)](#get-int) | Gets the element at the specified index. |
+| [getClass()](#getClass) |  |
+| [getCount()](#getCount) | Gets the number of elements contained in the collection. |
+| [hashCode()](#hashCode) |  |
+| [indexOf(String value)](#indexOf-java.lang.String) | Returns the zero-based index of the specified value in the collection. |
+| [iterator()](#iterator) | Returns an iterator object that can be used to iterate over all items in the collection. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [remove(String name)](#remove-java.lang.String) | Removes the specified value from the collection. |
+| [removeAt(int index)](#removeAt-int) | Removes a value at the specified index. |
+| [set(int index, String value)](#set-int-java.lang.String) | Sets the element at the specified index. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### add(String value) {#add-java.lang.String}
 ```
 public void add(String value)
 ```
@@ -57,7 +60,7 @@ Adds an item to the collection.
 | --- | --- | --- |
 | value | java.lang.String | The item to add. |
 
-### clear() {#clear--}
+### clear() {#clear}
 ```
 public void clear()
 ```
@@ -65,7 +68,7 @@ public void clear()
 
 Removes all elements from the collection.
 
-### deepClone() {#deepClone--}
+### deepClone() {#deepClone}
 ```
 public CustomXmlSchemaCollection deepClone()
 ```
@@ -75,7 +78,7 @@ Makes a deep clone of this object.
 
 **Returns:**
 [CustomXmlSchemaCollection](../../com.aspose.words/customxmlschemacollection)
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -90,7 +93,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### get(int index) {#get-int-}
+### get(int index) {#get-int}
 ```
 public String get(int index)
 ```
@@ -105,7 +108,7 @@ Gets the element at the specified index.
 
 **Returns:**
 java.lang.String - The element at the specified index.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -115,7 +118,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCount() {#getCount--}
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -125,7 +128,7 @@ Gets the number of elements contained in the collection.
 
 **Returns:**
 int - The number of elements contained in the collection.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -135,7 +138,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### indexOf(String value) {#indexOf-java.lang.String-}
+### indexOf(String value) {#indexOf-java.lang.String}
 ```
 public int indexOf(String value)
 ```
@@ -150,7 +153,7 @@ Returns the zero-based index of the specified value in the collection.
 
 **Returns:**
 int - The zero based index. Negative value if not found.
-### iterator() {#iterator--}
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -160,7 +163,7 @@ Returns an iterator object that can be used to iterate over all items in the col
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -168,7 +171,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -176,7 +179,7 @@ public final native void notifyAll()
 
 
 
-### remove(String name) {#remove-java.lang.String-}
+### remove(String name) {#remove-java.lang.String}
 ```
 public void remove(String name)
 ```
@@ -189,7 +192,7 @@ Removes the specified value from the collection.
 | --- | --- | --- |
 | name | java.lang.String | The case-sensitive value to remove. |
 
-### removeAt(int index) {#removeAt-int-}
+### removeAt(int index) {#removeAt-int}
 ```
 public void removeAt(int index)
 ```
@@ -202,7 +205,7 @@ Removes a value at the specified index.
 | --- | --- | --- |
 | index | int | The zero based index. |
 
-### set(int index, String value) {#set-int-java.lang.String-}
+### set(int index, String value) {#set-int-java.lang.String}
 ```
 public void set(int index, String value)
 ```
@@ -216,7 +219,7 @@ Sets the element at the specified index.
 | index | int |  |
 | value | java.lang.String | The element at the specified index. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -226,7 +229,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -234,7 +237,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -247,7 +250,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

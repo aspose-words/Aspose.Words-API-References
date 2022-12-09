@@ -1,7 +1,7 @@
 ---
 title: ChartDataPoint
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify formatting of a single data point on the chart.
+description: Allows to specify formatting of a single data point on the chart. To learn more, visit the  documentation article.
 type: docs
 weight: 92
 url: /cpp/aspose.words.drawing.charts/chartdatapoint/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing.charts/chartdatapoint/
 ## ChartDataPoint class
 
 
-Allows to specify formatting of a single data point on the chart.
+Allows to specify formatting of a single data point on the chart. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
 class ChartDataPoint : public Aspose::Words::Drawing::Charts::IChartDataPoint,
@@ -27,9 +27,12 @@ class ChartDataPoint : public Aspose::Words::Drawing::Charts::IChartDataPoint,
 | [get_Index](./get_index/)() | Index of the data point this object applies formatting to. |
 | [get_InvertIfNegative](./get_invertifnegative/)() override | Specifies whether the parent element shall inverts its colors if the value is negative. |
 | [get_Marker](./get_marker/)() override | Specifies a data marker. Marker is automatically created when requested. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Bubble3D](./set_bubble3d/)(bool) override | Setter for [Aspose::Words::Drawing::Charts::IChartDataPoint::get_Bubble3D](../ichartdatapoint/get_bubble3d/). |
 | [set_Explosion](./set_explosion/)(int32_t) override | Setter for [Aspose::Words::Drawing::Charts::IChartDataPoint::get_Explosion](../ichartdatapoint/get_explosion/). |
 | [set_InvertIfNegative](./set_invertifnegative/)(bool) override | Setter for [Aspose::Words::Drawing::Charts::IChartDataPoint::get_InvertIfNegative](../ichartdatapoint/get_invertifnegative/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

@@ -3,13 +3,13 @@ title: Comment
 second_title: Aspose.Words for C++ API Reference
 description: Initializes a new instance of the Comment class.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words/comment/comment/
 ---
 ## Comment::Comment(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&) constructor
 
 
-Initializes a new instance of the **Comment** class.
+Initializes a new instance of the [Comment](../) class.
 
 ```cpp
 Aspose::Words::Comment::Comment(const System::SharedPtr<Aspose::Words::DocumentBase> &doc)
@@ -22,9 +22,9 @@ Aspose::Words::Comment::Comment(const System::SharedPtr<Aspose::Words::DocumentB
 ## Remarks
 
 
-When **Comment** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+When [Comment](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is **null**.
 
-To append **Comment** to the document use InsertAfter or InsertBefore on the paragraph where you want the comment inserted.
+To append [Comment](../) to the document use [InsertAfter()](../) or [InsertBefore()](../) on the paragraph where you want the comment inserted.
 
 After creating a comment, don't forget to set its [Author](../get_author/), [Initial](../get_initial/) and [DateTime](../get_datetime/) properties.
 
@@ -178,7 +178,7 @@ private:
 ## Comment::Comment(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::String\&, const System::String\&, System::DateTime) constructor
 
 
-Initializes a new instance of the **Comment** class.
+Initializes a new instance of the [Comment](../) class.
 
 ```cpp
 Aspose::Words::Comment::Comment(const System::SharedPtr<Aspose::Words::DocumentBase> &doc, const System::String &author, const System::String &initial, System::DateTime dateTime)
@@ -188,8 +188,8 @@ Aspose::Words::Comment::Comment(const System::SharedPtr<Aspose::Words::DocumentB
 | Parameter | Type | Description |
 | --- | --- | --- |
 | doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
-| author | const System::String\& | The author name for the comment. Cannot be null. |
-| initial | const System::String\& | The author initials for the comment. Cannot be null. |
+| author | const System::String\& | The author name for the comment. Cannot be **null**. |
+| initial | const System::String\& | The author initials for the comment. Cannot be **null**. |
 | dateTime | System::DateTime | The date and time for the comment. |
 
 ## Examples

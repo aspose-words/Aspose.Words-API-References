@@ -1,7 +1,7 @@
 ---
 title: PdfSaveOptions
 second_title: Aspose.Words for C++ API Reference
-description: Can be used to specify additional options when saving a document into the Pdf format.
+description: Can be used to specify additional options when saving a document into the Pdf format. To learn more, visit the  documentation article.
 type: docs
 weight: 313
 url: /cpp/aspose.words.saving/pdfsaveoptions/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/
 ## PdfSaveOptions class
 
 
-Can be used to specify additional options when saving a document into the [Pdf](../../aspose.words/saveformat/) format.
+Can be used to specify additional options when saving a document into the [Pdf](../../aspose.words/saveformat/) format. To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/cpp/specify-save-options/) documentation article.
 
 ```cpp
 class PdfSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
@@ -25,7 +25,7 @@ class PdfSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [Equals](../fixedpagesaveoptions/equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
 | [get_AdditionalTextPositioning](./get_additionaltextpositioning/)() const | A flag specifying whether to write additional text positioning operators or not. |
 | [get_AllowEmbeddingPostScriptFonts](../saveoptions/get_allowembeddingpostscriptfonts/)() const | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**. |
-| [get_CacheHeaderFooterShapes](./get_cacheheaderfootershapes/)() const | Gets or sets a value determining whether or not to cache shapes placed in header and footer of document. |
+| [get_CacheBackgroundGraphics](./get_cachebackgroundgraphics/)() const | Gets or sets a value determining whether or not to cache graphics placed in document's background. |
 | [get_ColorMode](../fixedpagesaveoptions/get_colormode/)() const | Gets or sets a value determining how colors are rendered. |
 | [get_Compliance](./get_compliance/)() | Specifies the PDF standards compliance level for output documents. |
 | [get_CreateNoteHyperlinks](./get_createnotehyperlinks/)() const | Specifies whether to convert footnote/endnote references in main text story into active hyperlinks. When clicked the hyperlink will lead to the corresponding footnote/endnote. Default is **false**. |
@@ -38,10 +38,11 @@ class PdfSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [get_DmlEffectsRenderingMode](./get_dmleffectsrenderingmode/)() override | Gets or sets a value determining how DrawingML effects are rendered. |
 | [get_DmlRenderingMode](../saveoptions/get_dmlrenderingmode/)() const | Gets or sets a value determining how DrawingML shapes are rendered. |
 | [get_DownsampleOptions](./get_downsampleoptions/)() const | Allows to specify downsample options. |
+| [get_EmbedAttachments](./get_embedattachments/)() const | Gets or sets a value determining whether or not to embed attachments to the PDF document. |
 | [get_EmbedFullFonts](./get_embedfullfonts/)() const | Controls how fonts are embedded into the resulting PDF documents. |
 | [get_EncryptionDetails](./get_encryptiondetails/)() const | Gets or sets the details for encrypting the output PDF document. |
 | [get_ExportDocumentStructure](./get_exportdocumentstructure/)() const | Gets or sets a value determining whether or not to export document structure. |
-| [get_ExportGeneratorName](../saveoptions/get_exportgeneratorname/)() const | When true, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**. |
+| [get_ExportGeneratorName](../saveoptions/get_exportgeneratorname/)() const | When **true**, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**. |
 | [get_ExportLanguageToSpanTag](./get_exportlanguagetospantag/)() const | Gets or sets a value determining whether or not to create a "Span" tag in the document structure to export the text language. |
 | [get_FontEmbeddingMode](./get_fontembeddingmode/)() const | Specifies the font embedding mode. |
 | [get_HeaderFooterBookmarksExportMode](./get_headerfooterbookmarksexportmode/)() const | Determines how bookmarks in headers/footers are exported. |
@@ -55,7 +56,7 @@ class PdfSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [get_MetafileRenderingOptions](../fixedpagesaveoptions/get_metafilerenderingoptions/)() const | Allows to specify metafile rendering options. |
 | [get_NumeralFormat](../fixedpagesaveoptions/get_numeralformat/)() const | Gets or sets [NumeralFormat](../numeralformat/) used for rendering of numerals. European numerals are used by default. |
 | [get_OpenHyperlinksInNewWindow](./get_openhyperlinksinnewwindow/)() const | Gets or sets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser. |
-| virtual [get_OptimizeOutput](../fixedpagesaveoptions/get_optimizeoutput/)() | Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to true. Default is false. |
+| virtual [get_OptimizeOutput](../fixedpagesaveoptions/get_optimizeoutput/)() | Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to **true**. Default is **false**. |
 | [get_OutlineOptions](./get_outlineoptions/)() const | Allows to specify outline options. |
 | [get_PageMode](./get_pagemode/)() const | Specifies how the PDF document should be displayed when opened in the PDF reader. |
 | [get_PageSavingCallback](../fixedpagesaveoptions/get_pagesavingcallback/)() const | Allows to control how separate pages are saved when a document is exported to fixed page format. |
@@ -67,7 +68,7 @@ class PdfSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can only be [Pdf](../../aspose.words/saveformat/). |
 | [get_TempFolder](../saveoptions/get_tempfolder/)() const | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is **null** and no temporary files are used. |
 | [get_TextCompression](./get_textcompression/)() const | Specifies compression type to be used for all textual content in the document. |
-| [get_UpdateCreatedTimeProperty](../saveoptions/get_updatecreatedtimeproperty/)() const | Gets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is false;. |
+| [get_UpdateCreatedTimeProperty](../saveoptions/get_updatecreatedtimeproperty/)() const | Gets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is **false**;. |
 | [get_UpdateFields](../saveoptions/get_updatefields/)() const | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. |
 | [get_UpdateLastPrintedProperty](../saveoptions/get_updatelastprintedproperty/)() const | Gets or sets a value determining whether the [LastPrinted](../../aspose.words.properties/builtindocumentproperties/get_lastprinted/) property is updated before saving. |
 | [get_UpdateLastSavedTimeProperty](../saveoptions/get_updatelastsavedtimeproperty/)() const | Gets or sets a value determining whether the [LastSavedTime](../../aspose.words.properties/builtindocumentproperties/get_lastsavedtime/) property is updated before saving. |
@@ -78,10 +79,12 @@ class PdfSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [get_UseHighQualityRendering](../saveoptions/get_usehighqualityrendering/)() const | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
 | [get_ZoomBehavior](./get_zoombehavior/)() const | Gets or sets a value determining what type of zoom should be applied when a document is opened with a PDF viewer. |
 | [get_ZoomFactor](./get_zoomfactor/)() const | Gets or sets a value determining zoom factor (in percentages) for a document. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [PdfSaveOptions](./pdfsaveoptions/)() | Initializes a new instance of this class that can be used to save a document in the [Pdf](../../aspose.words/saveformat/) format. |
 | [set_AdditionalTextPositioning](./set_additionaltextpositioning/)(bool) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_AdditionalTextPositioning](./get_additionaltextpositioning/). |
 | [set_AllowEmbeddingPostScriptFonts](../saveoptions/set_allowembeddingpostscriptfonts/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_AllowEmbeddingPostScriptFonts](../saveoptions/get_allowembeddingpostscriptfonts/). |
-| [set_CacheHeaderFooterShapes](./set_cacheheaderfootershapes/)(bool) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_CacheHeaderFooterShapes](./get_cacheheaderfootershapes/). |
+| [set_CacheBackgroundGraphics](./set_cachebackgroundgraphics/)(bool) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_CacheBackgroundGraphics](./get_cachebackgroundgraphics/). |
 | [set_ColorMode](../fixedpagesaveoptions/set_colormode/)(Aspose::Words::Saving::ColorMode) | Setter for [Aspose::Words::Saving::FixedPageSaveOptions::get_ColorMode](../fixedpagesaveoptions/get_colormode/). |
 | [set_Compliance](./set_compliance/)(Aspose::Words::Saving::PdfCompliance) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_Compliance](./get_compliance/). |
 | [set_CreateNoteHyperlinks](./set_createnotehyperlinks/)(bool) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_CreateNoteHyperlinks](./get_createnotehyperlinks/). |
@@ -94,6 +97,7 @@ class PdfSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [set_DmlEffectsRenderingMode](./set_dmleffectsrenderingmode/)(Aspose::Words::Saving::DmlEffectsRenderingMode) override | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_DmlEffectsRenderingMode](./get_dmleffectsrenderingmode/). |
 | [set_DmlRenderingMode](../saveoptions/set_dmlrenderingmode/)(Aspose::Words::Saving::DmlRenderingMode) | Setter for [Aspose::Words::Saving::SaveOptions::get_DmlRenderingMode](../saveoptions/get_dmlrenderingmode/). |
 | [set_DownsampleOptions](./set_downsampleoptions/)(const System::SharedPtr\<Aspose::Words::Saving::DownsampleOptions\>\&) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_DownsampleOptions](./get_downsampleoptions/). |
+| [set_EmbedAttachments](./set_embedattachments/)(bool) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_EmbedAttachments](./get_embedattachments/). |
 | [set_EmbedFullFonts](./set_embedfullfonts/)(bool) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_EmbedFullFonts](./get_embedfullfonts/). |
 | [set_EncryptionDetails](./set_encryptiondetails/)(const System::SharedPtr\<Aspose::Words::Saving::PdfEncryptionDetails\>\&) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_EncryptionDetails](./get_encryptiondetails/). |
 | [set_ExportDocumentStructure](./set_exportdocumentstructure/)(bool) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_ExportDocumentStructure](./get_exportdocumentstructure/). |
@@ -121,7 +125,7 @@ class PdfSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [set_SaveFormat](./set_saveformat/)(Aspose::Words::SaveFormat) override | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_SaveFormat](./get_saveformat/). |
 | [set_TempFolder](../saveoptions/set_tempfolder/)(const System::String\&) | Setter for [Aspose::Words::Saving::SaveOptions::get_TempFolder](../saveoptions/get_tempfolder/). |
 | [set_TextCompression](./set_textcompression/)(Aspose::Words::Saving::PdfTextCompression) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_TextCompression](./get_textcompression/). |
-| [set_UpdateCreatedTimeProperty](../saveoptions/set_updatecreatedtimeproperty/)(bool) | Sets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is false;. |
+| [set_UpdateCreatedTimeProperty](../saveoptions/set_updatecreatedtimeproperty/)(bool) | Sets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is **false**;. |
 | [set_UpdateFields](../saveoptions/set_updatefields/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateFields](../saveoptions/get_updatefields/). |
 | [set_UpdateLastPrintedProperty](../saveoptions/set_updatelastprintedproperty/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateLastPrintedProperty](../saveoptions/get_updatelastprintedproperty/). |
 | [set_UpdateLastSavedTimeProperty](../saveoptions/set_updatelastsavedtimeproperty/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateLastSavedTimeProperty](../saveoptions/get_updatelastsavedtimeproperty/). |
@@ -132,6 +136,7 @@ class PdfSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [set_UseHighQualityRendering](../saveoptions/set_usehighqualityrendering/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UseHighQualityRendering](../saveoptions/get_usehighqualityrendering/). |
 | [set_ZoomBehavior](./set_zoombehavior/)(Aspose::Words::Saving::PdfZoomBehavior) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_ZoomBehavior](./get_zoombehavior/). |
 | [set_ZoomFactor](./set_zoomfactor/)(int32_t) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_ZoomFactor](./get_zoomfactor/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

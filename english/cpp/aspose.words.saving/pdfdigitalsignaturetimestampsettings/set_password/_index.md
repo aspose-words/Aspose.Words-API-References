@@ -3,7 +3,7 @@ title: set_Password
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::get_Password.'
 type: docs
-weight: 66
+weight: 105
 url: /cpp/aspose.words.saving/pdfdigitalsignaturetimestampsettings/set_password/
 ---
 ## PdfDigitalSignatureTimestampSettings::set_Password method

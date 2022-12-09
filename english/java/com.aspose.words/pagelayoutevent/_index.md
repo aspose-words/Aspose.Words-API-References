@@ -3,7 +3,7 @@ title: PageLayoutEvent
 second_title: Aspose.Words for Java API Reference
 description: A code of event raised during page layout model build and rendering.
 type: docs
-weight: 436
+weight: 439
 url: /java/com.aspose.words/pagelayoutevent/
 ---
 
@@ -39,26 +39,26 @@ Depending of the operation which triggered build, page layout model may or may n
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String pageLayoutEventName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int pageLayoutEvent)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int pageLayoutEvent)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String pageLayoutEventName)](#fromName-java.lang.String) |  |
+| [getClass()](#getClass) |  |
+| [getName(int pageLayoutEvent)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int pageLayoutEvent)](#toString-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### BUILD_FINISHED {#BUILD-FINISHED}
 ```
 public static int BUILD_FINISHED
 ```
 
 
-Build of the page layout has finished. Fired once. This is the last event which occurs when [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--) is called.
+Build of the page layout has finished. Fired once. This is the last event which occurs when [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout) is called.
 
 ### BUILD_STARTED {#BUILD-STARTED}
 ```
@@ -66,7 +66,7 @@ public static int BUILD_STARTED
 ```
 
 
-Build of the page layout has started. Fired once. This is the first event which occurs when [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--) is called.
+Build of the page layout has started. Fired once. This is the first event which occurs when [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout) is called.
 
 ### CONVERSION_FINISHED {#CONVERSION-FINISHED}
 ```
@@ -148,7 +148,7 @@ public static int WATCH_DOG
 
 Corresponds to a checkpoint in code which is often visited and which is suitable to abort process.
 
-While inside [IPageLayoutCallback.notify(com.aspose.words.PageLayoutCallbackArgs)](../../com.aspose.words/ipagelayoutcallback\#notify-com.aspose.words.PageLayoutCallbackArgs-) throw custom exception to abort process.
+While inside [IPageLayoutCallback.notify(com.aspose.words.PageLayoutCallbackArgs)](../../com.aspose.words/ipagelayoutcallback\#notify-com.aspose.words.PageLayoutCallbackArgs) throw custom exception to abort process.
 
 You can throw when handling any callback event to abort process.
 
@@ -160,7 +160,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -175,7 +175,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String pageLayoutEventName) {#fromName-java.lang.String-}
+### fromName(String pageLayoutEventName) {#fromName-java.lang.String}
 ```
 public static int fromName(String pageLayoutEventName)
 ```
@@ -190,7 +190,7 @@ public static int fromName(String pageLayoutEventName)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -200,7 +200,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int pageLayoutEvent) {#getName-int-}
+### getName(int pageLayoutEvent) {#getName-int}
 ```
 public static String getName(int pageLayoutEvent)
 ```
@@ -215,7 +215,7 @@ public static String getName(int pageLayoutEvent)
 
 **Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -225,7 +225,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -235,7 +235,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -243,7 +243,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -251,7 +251,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -261,7 +261,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int pageLayoutEvent) {#toString-int-}
+### toString(int pageLayoutEvent) {#toString-int}
 ```
 public static String toString(int pageLayoutEvent)
 ```
@@ -276,7 +276,7 @@ public static String toString(int pageLayoutEvent)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -284,7 +284,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -297,7 +297,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

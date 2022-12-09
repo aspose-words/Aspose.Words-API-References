@@ -1,7 +1,7 @@
 ---
 title: VbaProject
 second_title: Aspose.Words for C++ API Reference
-description: Provides access to VBA project information. A VBA project inside the document is defined as a collection of VBA modules.
+description: Provides access to VBA project information. A VBA project inside the document is defined as a collection of VBA modules. To learn more, visit the  documentation article.
 type: docs
 weight: 27
 url: /cpp/aspose.words.vba/vbaproject/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.vba/vbaproject/
 ## VbaProject class
 
 
-Provides access to VBA project information. A VBA project inside the document is defined as a collection of VBA modules.
+Provides access to VBA project information. A VBA project inside the document is defined as a collection of VBA modules. To learn more, visit the [Working with VBA Macros](https://docs.aspose.com/words/cpp/working-with-vba-macros/) documentation article.
 
 ```cpp
 class VbaProject : public System::Object
@@ -25,7 +25,10 @@ class VbaProject : public System::Object
 | [get_Modules](./get_modules/)() | Returns collection of VBA project modules. |
 | [get_Name](./get_name/)() const | Gets or sets VBA project name. |
 | [get_References](./get_references/)() | Gets a collection of VBA project references. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Name](./set_name/)(const System::String\&) | Setter for [Aspose::Words::Vba::VbaProject::get_Name](./get_name/). |
+| static [Type](./type/)() |  |
 | [VbaProject](./vbaproject/)() | Creates a blank [VbaProject](./). |
 
 ## Examples

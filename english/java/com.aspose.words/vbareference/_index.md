@@ -3,7 +3,7 @@ title: VbaReference
 second_title: Aspose.Words for Java API Reference
 description: Implements a reference to an Automation type library or VBA project.
 type: docs
-weight: 597
+weight: 600
 url: /java/com.aspose.words/vbareference/
 ---
 
@@ -18,34 +18,37 @@ public abstract class VbaReference implements Cloneable
 
 Implements a reference to an Automation type library or VBA project.
 
-To learn more, visit the **Working with VBA Macros** documentation article.
+To learn more, visit the [ Working with VBA Macros ][Working with VBA Macros] documentation article.
+
+
+[Working with VBA Macros]: https://docs.aspose.com/words/java/working-with-vba-macros/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [VbaReference()](#VbaReference--) |  |
+| [VbaReference()](#VbaReference) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getLibId()](#getLibId--) | Gets a string value containing the identifier of an Automation type library. |
-| [getType()](#getType--) | Gets [VbaReferenceType](../../com.aspose.words/vbareferencetype) object that indicates the type of reference that a VbaReference object represents. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### VbaReference() {#VbaReference--}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getLibId()](#getLibId) | Gets a string value containing the identifier of an Automation type library. |
+| [getType()](#getType) | Gets [VbaReferenceType](../../com.aspose.words/vbareferencetype) object that indicates the type of reference that a [VbaReference](../../com.aspose.words/vbareference) object represents. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### VbaReference() {#VbaReference}
 ```
 public VbaReference()
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -60,7 +63,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -70,7 +73,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getLibId() {#getLibId--}
+### getLibId() {#getLibId}
 ```
 public abstract String getLibId()
 ```
@@ -83,17 +86,17 @@ Gets a string value containing the identifier of an Automation type library. Dep
 
 **Returns:**
 java.lang.String - A string value containing the identifier of an Automation type library.
-### getType() {#getType--}
+### getType() {#getType}
 ```
 public abstract int getType()
 ```
 
 
-Gets [VbaReferenceType](../../com.aspose.words/vbareferencetype) object that indicates the type of reference that a VbaReference object represents.
+Gets [VbaReferenceType](../../com.aspose.words/vbareferencetype) object that indicates the type of reference that a [VbaReference](../../com.aspose.words/vbareference) object represents.
 
 **Returns:**
-int - \{[VbaReferenceType](../../com.aspose.words/vbareferencetype) object that indicates the type of reference that a VbaReference object represents. The returned value is one of [VbaReferenceType](../../com.aspose.words/vbareferencetype) constants.
-### hashCode() {#hashCode--}
+int - \{[VbaReferenceType](../../com.aspose.words/vbareferencetype) object that indicates the type of reference that a [VbaReference](../../com.aspose.words/vbareference) object represents. The returned value is one of [VbaReferenceType](../../com.aspose.words/vbareferencetype) constants.
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -103,7 +106,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -111,7 +114,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -119,7 +122,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -129,7 +132,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -137,7 +140,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -150,7 +153,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

@@ -3,7 +3,7 @@ title: get_List
 second_title: Aspose.Words for C++ API Reference
 description: Gets the list that defines formatting of this list style.
 type: docs
-weight: 118
+weight: 131
 url: /cpp/aspose.words/style/get_list/
 ---
 ## Style::get_List method
@@ -18,7 +18,7 @@ System::SharedPtr<Aspose::Words::Lists::List> Aspose::Words::Style::get_List()
 ## Remarks
 
 
-This property is only valid for list styles. For other style types this property returns null.
+This property is only valid for list styles. For other style types this property returns **null**.
 
 ## Examples
 

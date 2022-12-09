@@ -3,7 +3,7 @@ title: get_TextBox
 second_title: Aspose.Words for C++ API Reference
 description: Defines attributes that specify how text is displayed in a shape.
 type: docs
-weight: 287
+weight: 300
 url: /cpp/aspose.words.drawing/shape/get_textbox/
 ---
 ## Shape::get_TextBox method

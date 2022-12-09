@@ -3,7 +3,7 @@ title: Accept
 second_title: Aspose.Words for C++ API Reference
 description: Accepts a visitor.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words/absolutepositiontab/accept/
 ---
 ## AbsolutePositionTab::Accept method
@@ -22,11 +22,11 @@ bool Aspose::Words::AbsolutePositionTab::Accept(System::SharedPtr<Aspose::Words:
 
 ### ReturnValue
 
-False if the visitor requested the enumeration to stop.
+**false** if the visitor requested the enumeration to stop.
 ## Remarks
 
 
-Calls [DocumentVisitor.VisitAbsolutePositionTab](../../documentvisitor/visitabsolutepositiontab/).
+Calls [VisitAbsolutePositionTab()](../../documentvisitor/visitabsolutepositiontab/).
 
 For more info see the Visitor design pattern.
 

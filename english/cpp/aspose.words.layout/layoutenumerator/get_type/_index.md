@@ -3,7 +3,7 @@ title: get_Type
 second_title: Aspose.Words for C++ API Reference
 description: Gets the type of the current entity.
 type: docs
-weight: 92
+weight: 118
 url: /cpp/aspose.words.layout/layoutenumerator/get_type/
 ---
 ## LayoutEnumerator::get_Type method

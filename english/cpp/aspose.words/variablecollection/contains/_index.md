@@ -3,7 +3,7 @@ title: Contains
 second_title: Aspose.Words for C++ API Reference
 description: Determines whether the collection contains a document variable with the given name.
 type: docs
-weight: 66
+weight: 79
 url: /cpp/aspose.words/variablecollection/contains/
 ---
 ## VariableCollection::Contains method
@@ -22,7 +22,7 @@ bool Aspose::Words::VariableCollection::Contains(const System::String &name)
 
 ### ReturnValue
 
-True if item is found in the collection; otherwise, false.
+**true** if item is found in the collection; otherwise, **false**.
 
 ## Examples
 

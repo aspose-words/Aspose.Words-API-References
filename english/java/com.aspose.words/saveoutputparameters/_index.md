@@ -3,7 +3,7 @@ title: SaveOutputParameters
 second_title: Aspose.Words for Java API Reference
 description: This object is returned to the caller after a document is saved and contains additional information that has been generated or calculated during the save operation.
 type: docs
-weight: 501
+weight: 504
 url: /java/com.aspose.words/saveoutputparameters/
 ---
 
@@ -15,22 +15,25 @@ public class SaveOutputParameters
 
 This object is returned to the caller after a document is saved and contains additional information that has been generated or calculated during the save operation. The caller can use or ignore this object.
 
-To learn more, visit the **Save a Document** documentation article.
+To learn more, visit the [ Save a Document ][Save a Document] documentation article.
+
+
+[Save a Document]: https://docs.aspose.com/words/java/save-a-document/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getContentType()](#getContentType--) | Returns the Content-Type string (Internet Media Type) that identifies the type of the saved document. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getContentType()](#getContentType) | Returns the Content-Type string (Internet Media Type) that identifies the type of the saved document. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -45,7 +48,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -55,7 +58,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getContentType() {#getContentType--}
+### getContentType() {#getContentType}
 ```
 public String getContentType()
 ```
@@ -65,7 +68,7 @@ Returns the Content-Type string (Internet Media Type) that identifies the type o
 
 **Returns:**
 java.lang.String - The Content-Type string (Internet Media Type) that identifies the type of the saved document.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -75,7 +78,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -83,7 +86,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -91,7 +94,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -101,7 +104,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -109,7 +112,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -122,7 +125,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

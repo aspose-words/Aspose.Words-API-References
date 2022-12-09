@@ -18,34 +18,37 @@ public class ChartDataPoint implements IChartDataPoint, Cloneable
 
 Allows to specify formatting of a single data point on the chart.
 
-To learn more, visit the **Working with Charts** documentation article.
+To learn more, visit the [ Working with Charts ][Working with Charts] documentation article.
 
 On a series, the [ChartDataPoint](../../com.aspose.words/chartdatapoint) object is a member of the [ChartDataPointCollection](../../com.aspose.words/chartdatapointcollection). The [ChartDataPointCollection](../../com.aspose.words/chartdatapointcollection) contains a [ChartDataPoint](../../com.aspose.words/chartdatapoint) object for each point.
+
+
+[Working with Charts]: https://docs.aspose.com/words/java/working-with-charts/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [clearFormat()](#clearFormat--) | Clears format of this data point. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBubble3D()](#getBubble3D--) |  |
-| [getClass()](#getClass--) |  |
-| [getExplosion()](#getExplosion--) |  |
-| [getFormat()](#getFormat--) | Provides access to fill and line formatting of this data point. |
-| [getIndex()](#getIndex--) | Index of the data point this object applies formatting to. |
-| [getInvertIfNegative()](#getInvertIfNegative--) |  |
-| [getMarker()](#getMarker--) |  |
-| [hashCode()](#hashCode--) |  |
-| [materializeSpPr()](#materializeSpPr--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setBubble3D(boolean value)](#setBubble3D-boolean-) |  |
-| [setExplosion(int value)](#setExplosion-int-) |  |
-| [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### clearFormat() {#clearFormat--}
+| [clearFormat()](#clearFormat) | Clears format of this data point. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getBubble3D()](#getBubble3D) |  |
+| [getClass()](#getClass) |  |
+| [getExplosion()](#getExplosion) |  |
+| [getFormat()](#getFormat) | Provides access to fill and line formatting of this data point. |
+| [getIndex()](#getIndex) | Index of the data point this object applies formatting to. |
+| [getInvertIfNegative()](#getInvertIfNegative) |  |
+| [getMarker()](#getMarker) |  |
+| [hashCode()](#hashCode) |  |
+| [materializeSpPr()](#materializeSpPr) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setBubble3D(boolean value)](#setBubble3D-boolean) |  |
+| [setExplosion(int value)](#setExplosion-int) |  |
+| [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### clearFormat() {#clearFormat}
 ```
 public void clearFormat()
 ```
@@ -53,7 +56,7 @@ public void clearFormat()
 
 Clears format of this data point. The properties are set to the default values defined in the parent series.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -68,7 +71,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getBubble3D() {#getBubble3D--}
+### getBubble3D() {#getBubble3D}
 ```
 public boolean getBubble3D()
 ```
@@ -78,7 +81,7 @@ Specifies whether the bubbles in Bubble chart should have a 3-D effect applied t
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -88,7 +91,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getExplosion() {#getExplosion--}
+### getExplosion() {#getExplosion}
 ```
 public int getExplosion()
 ```
@@ -98,7 +101,7 @@ Specifies the amount the data point shall be moved from the center of the pie. C
 
 **Returns:**
 int
-### getFormat() {#getFormat--}
+### getFormat() {#getFormat}
 ```
 public ChartFormat getFormat()
 ```
@@ -108,7 +111,7 @@ Provides access to fill and line formatting of this data point.
 
 **Returns:**
 [ChartFormat](../../com.aspose.words/chartformat) - The corresponding [ChartFormat](../../com.aspose.words/chartformat) value.
-### getIndex() {#getIndex--}
+### getIndex() {#getIndex}
 ```
 public int getIndex()
 ```
@@ -118,7 +121,7 @@ Index of the data point this object applies formatting to.
 
 **Returns:**
 int - The corresponding  int  value.
-### getInvertIfNegative() {#getInvertIfNegative--}
+### getInvertIfNegative() {#getInvertIfNegative}
 ```
 public boolean getInvertIfNegative()
 ```
@@ -128,7 +131,7 @@ Specifies whether the parent element shall inverts its colors if the value is ne
 
 **Returns:**
 boolean
-### getMarker() {#getMarker--}
+### getMarker() {#getMarker}
 ```
 public ChartMarker getMarker()
 ```
@@ -138,7 +141,7 @@ Specifies a data marker. Marker is automatically created when requested.
 
 **Returns:**
 [ChartMarker](../../com.aspose.words/chartmarker)
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -148,7 +151,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### materializeSpPr() {#materializeSpPr--}
+### materializeSpPr() {#materializeSpPr}
 ```
 public void materializeSpPr()
 ```
@@ -156,7 +159,7 @@ public void materializeSpPr()
 
 
 
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -164,7 +167,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -172,7 +175,7 @@ public final native void notifyAll()
 
 
 
-### setBubble3D(boolean value) {#setBubble3D-boolean-}
+### setBubble3D(boolean value) {#setBubble3D-boolean}
 ```
 public void setBubble3D(boolean value)
 ```
@@ -185,7 +188,7 @@ Specifies whether the bubbles in Bubble chart should have a 3-D effect applied t
 | --- | --- | --- |
 | value | boolean |  |
 
-### setExplosion(int value) {#setExplosion-int-}
+### setExplosion(int value) {#setExplosion-int}
 ```
 public void setExplosion(int value)
 ```
@@ -198,7 +201,7 @@ Specifies the amount the data point shall be moved from the center of the pie. C
 | --- | --- | --- |
 | value | int |  |
 
-### setInvertIfNegative(boolean value) {#setInvertIfNegative-boolean-}
+### setInvertIfNegative(boolean value) {#setInvertIfNegative-boolean}
 ```
 public void setInvertIfNegative(boolean value)
 ```
@@ -211,7 +214,7 @@ Specifies whether the parent element shall inverts its colors if the value is ne
 | --- | --- | --- |
 | value | boolean |  |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -221,7 +224,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -229,7 +232,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -242,7 +245,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

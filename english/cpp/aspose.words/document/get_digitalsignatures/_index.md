@@ -3,7 +3,7 @@ title: get_DigitalSignatures
 second_title: Aspose.Words for C++ API Reference
 description: Gets the collection of digital signatures for this document and their validation results.
 type: docs
-weight: 248
+weight: 261
 url: /cpp/aspose.words/document/get_digitalsignatures/
 ---
 ## Document::get_DigitalSignatures method
@@ -20,7 +20,7 @@ System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignatureCollection> 
 
 This collection contains digital signatures that were loaded from the original document. These digital signatures will not be saved when you save this [Document](../) object into a file or stream because saving or converting will produce a document that is different from the original and the original digital signatures will no longer be valid.
 
-This collection is never null. If the document is not signed, it will contain zero elements.
+This collection is never **null**. If the document is not signed, it will contain zero elements.
 
 ## Examples
 

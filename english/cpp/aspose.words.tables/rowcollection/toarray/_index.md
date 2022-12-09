@@ -3,7 +3,7 @@ title: ToArray
 second_title: Aspose.Words for C++ API Reference
 description: Copies all rows from the collection to a new array of rows.
 type: docs
-weight: 14
+weight: 53
 url: /cpp/aspose.words.tables/rowcollection/toarray/
 ---
 ## RowCollection::ToArray method

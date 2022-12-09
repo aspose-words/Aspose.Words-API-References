@@ -15,57 +15,60 @@ public class BookmarkEnd extends Node
 
 Represents an end of a bookmark in a Word document.
 
-To learn more, visit the **Working with Bookmarks** documentation article.
+To learn more, visit the [ Working with Bookmarks ][Working with Bookmarks] documentation article.
 
 A complete bookmark in a Word document consists of a [BookmarkStart](../../com.aspose.words/bookmarkstart) and a matching [BookmarkEnd](../../com.aspose.words/bookmarkend) with the same bookmark name.
 
 [BookmarkStart](../../com.aspose.words/bookmarkstart) and [BookmarkEnd](../../com.aspose.words/bookmarkend) are just markers inside a document that specify where the bookmark starts and ends.
 
 Use the [Bookmark](../../com.aspose.words/bookmark) class as a "facade" to work with a bookmark as a single object.
+
+
+[Working with Bookmarks]: https://docs.aspose.com/words/java/working-with-bookmarks/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [BookmarkEnd(DocumentBase doc, String name)](#BookmarkEnd-com.aspose.words.DocumentBase-java.lang.String-) | Initializes a new instance of the [BookmarkEnd](../../com.aspose.words/bookmarkend) class. |
+| [BookmarkEnd(DocumentBase doc, String name)](#BookmarkEnd-com.aspose.words.DocumentBase-java.lang.String) | Initializes a new instance of the [BookmarkEnd](../../com.aspose.words/bookmarkend) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | Accepts a visitor. |
-| [dd()](#dd--) |  |
-| [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | Creates a duplicate of the node. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAncestor(int ancestorType)](#getAncestor-int-) |  |
-| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class-) | Gets the first ancestor of the specified object type. |
-| [getClass()](#getClass--) |  |
-| [getCustomNodeId()](#getCustomNodeId--) | Specifies custom node identifier. |
-| [getDisplacedByCustomXml()](#getDisplacedByCustomXml--) |  |
-| [getDocument()](#getDocument--) | Gets the document to which this node belongs. |
-| [getName()](#getName--) | Gets the bookmark name. |
-| [getNextSibling()](#getNextSibling--) | Gets the node immediately following this node. |
-| [getNodeType()](#getNodeType--) | Returns [NodeType.BOOKMARK\_END](../../com.aspose.words/nodetype\#BOOKMARK-END). |
-| [getParentNode()](#getParentNode--) | Gets the immediate parent of this node. |
-| [getPreviousSibling()](#getPreviousSibling--) | Gets the node immediately preceding this node. |
-| [getRange()](#getRange--) | Returns a **Range** object that represents the portion of a document that is contained in this node. |
-| [getText()](#getText--) | Gets the text of this node and of all its children. |
-| [hashCode()](#hashCode--) |  |
-| [isComposite()](#isComposite--) | Returns true if this node can contain other nodes. |
-| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | Gets next node according to the pre-order tree traversal algorithm. |
-| [nodeTypeToString(int nodeType)](#nodeTypeToString-int-) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | Gets the previous node according to the pre-order tree traversal algorithm. |
-| [remove()](#remove--) | Removes itself from the parent. |
-| [setCustomNodeId(int value)](#setCustomNodeId-int-) | Specifies custom node identifier. |
-| [setDisplacedByCustomXml(int value)](#setDisplacedByCustomXml-int-) |  |
-| [setName(String value)](#setName-java.lang.String-) | Sets the bookmark name. |
-| [toString()](#toString--) |  |
-| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions-) | Exports the content of the node into a string using the specified save options. |
-| [toString(int saveFormat)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### BookmarkEnd(DocumentBase doc, String name) {#BookmarkEnd-com.aspose.words.DocumentBase-java.lang.String-}
+| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor) | Accepts a visitor. |
+| [dd()](#dd) |  |
+| [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getAncestor(int ancestorType)](#getAncestor-int) |  |
+| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
+| [getClass()](#getClass) |  |
+| [getCustomNodeId()](#getCustomNodeId) | Specifies custom node identifier. |
+| [getDisplacedByCustomXml()](#getDisplacedByCustomXml) |  |
+| [getDocument()](#getDocument) | Gets the document to which this node belongs. |
+| [getName()](#getName) | Gets the bookmark name. |
+| [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
+| [getNodeType()](#getNodeType) | Returns [NodeType.BOOKMARK\_END](../../com.aspose.words/nodetype\#BOOKMARK-END). |
+| [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
+| [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
+| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node. |
+| [getText()](#getText) | Gets the text of this node and of all its children. |
+| [hashCode()](#hashCode) |  |
+| [isComposite()](#isComposite) | Returns  true  if this node can contain other nodes. |
+| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node) | Gets next node according to the pre-order tree traversal algorithm. |
+| [nodeTypeToString(int nodeType)](#nodeTypeToString-int) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [remove()](#remove) | Removes itself from the parent. |
+| [setCustomNodeId(int value)](#setCustomNodeId-int) | Specifies custom node identifier. |
+| [setDisplacedByCustomXml(int value)](#setDisplacedByCustomXml-int) |  |
+| [setName(String value)](#setName-java.lang.String) | Sets the bookmark name. |
+| [toString()](#toString) |  |
+| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions) | Exports the content of the node into a string using the specified save options. |
+| [toString(int saveFormat)](#toString-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### BookmarkEnd(DocumentBase doc, String name) {#BookmarkEnd-com.aspose.words.DocumentBase-java.lang.String}
 ```
 public BookmarkEnd(DocumentBase doc, String name)
 ```
@@ -77,9 +80,9 @@ Initializes a new instance of the [BookmarkEnd](../../com.aspose.words/bookmarke
 | Parameter | Type | Description |
 | --- | --- | --- |
 | doc | [DocumentBase](../../com.aspose.words/documentbase) | The owner document. |
-| name | java.lang.String | The name of the bookmark. Cannot be null. |
+| name | java.lang.String | The name of the bookmark. Cannot be  null . |
 
-### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor-}
+### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor}
 ```
 public boolean accept(DocumentVisitor visitor)
 ```
@@ -87,7 +90,7 @@ public boolean accept(DocumentVisitor visitor)
 
 Accepts a visitor.
 
-Calls [DocumentVisitor.visitBookmarkEnd(com.aspose.words.BookmarkEnd)](../../com.aspose.words/documentvisitor\#visitBookmarkEnd-com.aspose.words.BookmarkEnd-).
+Calls [DocumentVisitor.visitBookmarkEnd(com.aspose.words.BookmarkEnd)](../../com.aspose.words/documentvisitor\#visitBookmarkEnd-com.aspose.words.BookmarkEnd).
 
 For more info see the Visitor design pattern.
 
@@ -97,8 +100,8 @@ For more info see the Visitor design pattern.
 | visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | The visitor that will visit the node. |
 
 **Returns:**
-boolean - False if the visitor requested the enumeration to stop.
-### dd() {#dd--}
+boolean - \{ false  if the visitor requested the enumeration to stop.
+### dd() {#dd}
 ```
 public void dd()
 ```
@@ -106,7 +109,7 @@ public void dd()
 
 
 
-### deepClone(boolean isCloneChildren) {#deepClone-boolean-}
+### deepClone(boolean isCloneChildren) {#deepClone-boolean}
 ```
 public Node deepClone(boolean isCloneChildren)
 ```
@@ -116,7 +119,7 @@ Creates a duplicate of the node.
 
 This method serves as a copy constructor for nodes. The cloned node has no parent, but belongs to the same document as the original node.
 
-This method always performs a deep copy of the node. The *isCloneChildren* parameter specifies whether to perform copy all child nodes as well.
+This method always performs a deep copy of the node. The  isCloneChildren  parameter specifies whether to perform copy all child nodes as well.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -125,7 +128,7 @@ This method always performs a deep copy of the node. The *isCloneChildren* param
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The cloned node.
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -140,7 +143,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getAncestor(int ancestorType) {#getAncestor-int-}
+### getAncestor(int ancestorType) {#getAncestor-int}
 ```
 public CompositeNode getAncestor(int ancestorType)
 ```
@@ -155,7 +158,7 @@ public CompositeNode getAncestor(int ancestorType)
 
 **Returns:**
 [CompositeNode](../../com.aspose.words/compositenode)
-### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
+### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class}
 ```
 public CompositeNode getAncestor(Class ancestorType)
 ```
@@ -169,10 +172,10 @@ Gets the first ancestor of the specified object type.
 | ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or null if no ancestor of this type was found.
+[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 
-The ancestor type matches if it is equal to ancestorType or derived from ancestorType.
-### getClass() {#getClass--}
+The ancestor type matches if it is equal to  ancestorType  or derived from  ancestorType .
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -182,7 +185,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCustomNodeId() {#getCustomNodeId--}
+### getCustomNodeId() {#getCustomNodeId}
 ```
 public int getCustomNodeId()
 ```
@@ -198,7 +201,7 @@ Important note, specified value is not saved to an output file and exists only d
 
 **Returns:**
 int - The corresponding  int  value.
-### getDisplacedByCustomXml() {#getDisplacedByCustomXml--}
+### getDisplacedByCustomXml() {#getDisplacedByCustomXml}
 ```
 public int getDisplacedByCustomXml()
 ```
@@ -208,7 +211,7 @@ public int getDisplacedByCustomXml()
 
 **Returns:**
 int
-### getDocument() {#getDocument--}
+### getDocument() {#getDocument}
 ```
 public DocumentBase getDocument()
 ```
@@ -220,7 +223,7 @@ The node always belongs to a document even if it has just been created and not y
 
 **Returns:**
 [DocumentBase](../../com.aspose.words/documentbase) - The document to which this node belongs.
-### getName() {#getName--}
+### getName() {#getName}
 ```
 public String getName()
 ```
@@ -228,21 +231,21 @@ public String getName()
 
 Gets the bookmark name.
 
-Cannot be null.
+Cannot be  null .
 
 **Returns:**
 java.lang.String - The bookmark name.
-### getNextSibling() {#getNextSibling--}
+### getNextSibling() {#getNextSibling}
 ```
 public Node getNextSibling()
 ```
 
 
-Gets the node immediately following this node. If there is no next node, a null is returned.
+Gets the node immediately following this node. If there is no next node, a  null  is returned.
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The node immediately following this node.
-### getNodeType() {#getNodeType--}
+### getNodeType() {#getNodeType}
 ```
 public int getNodeType()
 ```
@@ -252,7 +255,7 @@ Returns [NodeType.BOOKMARK\_END](../../com.aspose.words/nodetype\#BOOKMARK-END).
 
 **Returns:**
 int - \{[NodeType.BOOKMARK\_END](../../com.aspose.words/nodetype\#BOOKMARK-END). The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
-### getParentNode() {#getParentNode--}
+### getParentNode() {#getParentNode}
 ```
 public CompositeNode getParentNode()
 ```
@@ -260,31 +263,31 @@ public CompositeNode getParentNode()
 
 Gets the immediate parent of this node.
 
-If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is null.
+If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is  null .
 
 **Returns:**
 [CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
-### getPreviousSibling() {#getPreviousSibling--}
+### getPreviousSibling() {#getPreviousSibling}
 ```
 public Node getPreviousSibling()
 ```
 
 
-Gets the node immediately preceding this node. If there is no preceding node, a null is returned.
+Gets the node immediately preceding this node. If there is no preceding node, a  null  is returned.
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The node immediately preceding this node.
-### getRange() {#getRange--}
+### getRange() {#getRange}
 ```
 public Range getRange()
 ```
 
 
-Returns a **Range** object that represents the portion of a document that is contained in this node.
+Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
 
 **Returns:**
-[Range](../../com.aspose.words/range) - A **Range** object that represents the portion of a document that is contained in this node.
-### getText() {#getText--}
+[Range](../../com.aspose.words/range) - A [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+### getText() {#getText}
 ```
 public String getText()
 ```
@@ -296,7 +299,7 @@ The returned string includes all control and special characters as described in 
 
 **Returns:**
 java.lang.String
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -306,17 +309,17 @@ public native int hashCode()
 
 **Returns:**
 int
-### isComposite() {#isComposite--}
+### isComposite() {#isComposite}
 ```
 public boolean isComposite()
 ```
 
 
-Returns true if this node can contain other nodes. (31110,6)
+Returns  true  if this node can contain other nodes. (31231,6)
 
 **Returns:**
-boolean - True if this node can contain other nodes.
-### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node-}
+boolean - \{ true  if this node can contain other nodes.
+### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node}
 ```
 public Node nextPreOrder(Node rootNode)
 ```
@@ -330,8 +333,8 @@ Gets next node according to the pre-order tree traversal algorithm.
 | rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the rootNode.
-### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
+[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the  rootNode .
+### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
 ```
@@ -346,7 +349,7 @@ public static String nodeTypeToString(int nodeType)
 
 **Returns:**
 java.lang.String
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -354,7 +357,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -362,7 +365,7 @@ public final native void notifyAll()
 
 
 
-### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node-}
+### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node}
 ```
 public Node previousPreOrder(Node rootNode)
 ```
@@ -376,8 +379,8 @@ Gets the previous node according to the pre-order tree traversal algorithm.
 | rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the rootNode.
-### remove() {#remove--}
+[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the  rootNode .
+### remove() {#remove}
 ```
 public void remove()
 ```
@@ -385,7 +388,7 @@ public void remove()
 
 Removes itself from the parent.
 
-### setCustomNodeId(int value) {#setCustomNodeId-int-}
+### setCustomNodeId(int value) {#setCustomNodeId-int}
 ```
 public void setCustomNodeId(int value)
 ```
@@ -404,7 +407,7 @@ Important note, specified value is not saved to an output file and exists only d
 | --- | --- | --- |
 | value | int | The corresponding  int  value. |
 
-### setDisplacedByCustomXml(int value) {#setDisplacedByCustomXml-int-}
+### setDisplacedByCustomXml(int value) {#setDisplacedByCustomXml-int}
 ```
 public void setDisplacedByCustomXml(int value)
 ```
@@ -417,7 +420,7 @@ public void setDisplacedByCustomXml(int value)
 | --- | --- | --- |
 | value | int |  |
 
-### setName(String value) {#setName-java.lang.String-}
+### setName(String value) {#setName-java.lang.String}
 ```
 public void setName(String value)
 ```
@@ -425,14 +428,14 @@ public void setName(String value)
 
 Sets the bookmark name.
 
-Cannot be null.
+Cannot be  null .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The bookmark name. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -442,7 +445,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(SaveOptions saveOptions) {#toString-com.aspose.words.SaveOptions-}
+### toString(SaveOptions saveOptions) {#toString-com.aspose.words.SaveOptions}
 ```
 public String toString(SaveOptions saveOptions)
 ```
@@ -457,7 +460,7 @@ Exports the content of the node into a string using the specified save options.
 
 **Returns:**
 java.lang.String - The content of the node in the specified format.
-### toString(int saveFormat) {#toString-int-}
+### toString(int saveFormat) {#toString-int}
 ```
 public String toString(int saveFormat)
 ```
@@ -472,7 +475,7 @@ public String toString(int saveFormat)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -480,7 +483,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -493,7 +496,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

@@ -19,7 +19,10 @@ class IPageSavingCallback : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | virtual [PageSaving](./pagesaving/)(System::SharedPtr\<Aspose::Words::Saving::PageSavingArgs\>) | Called when Aspose.Words saves a separate page to fixed page formats. |
+| static [Type](./type/)() |  |
 
 ## Examples
 

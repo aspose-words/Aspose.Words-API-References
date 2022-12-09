@@ -3,7 +3,7 @@ title: set_IgnoreFootnotes
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreFootnotes.'
 type: docs
-weight: 287
+weight: 326
 url: /cpp/aspose.words.replacing/findreplaceoptions/set_ignorefootnotes/
 ---
 ## FindReplaceOptions::set_IgnoreFootnotes method

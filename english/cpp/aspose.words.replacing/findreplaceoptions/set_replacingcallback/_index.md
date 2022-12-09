@@ -3,7 +3,7 @@ title: set_ReplacingCallback
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Replacing::FindReplaceOptions::get_ReplacingCallback.'
 type: docs
-weight: 352
+weight: 391
 url: /cpp/aspose.words.replacing/findreplaceoptions/set_replacingcallback/
 ---
 ## FindReplaceOptions::set_ReplacingCallback method

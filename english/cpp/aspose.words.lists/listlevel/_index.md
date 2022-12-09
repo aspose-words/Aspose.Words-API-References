@@ -1,7 +1,7 @@
 ---
 title: ListLevel
 second_title: Aspose.Words for C++ API Reference
-description: Defines formatting for a list level.
+description: Defines formatting for a list level. To learn more, visit the  documentation article.
 type: docs
 weight: 53
 url: /cpp/aspose.words.lists/listlevel/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.lists/listlevel/
 ## ListLevel class
 
 
-Defines formatting for a list level.
+Defines formatting for a list level. To learn more, visit the [Working with Lists](https://docs.aspose.com/words/cpp/working-with-lists/) documentation article.
 
 ```cpp
 class ListLevel : public Aspose::Words::IRunAttrSource
@@ -38,6 +38,8 @@ class ListLevel : public Aspose::Words::IRunAttrSource
 | [get_TrailingCharacter](./get_trailingcharacter/)() const | Returns or sets the character inserted after the number for the list level. |
 | static [GetEffectiveValue](./geteffectivevalue/)(int32_t, Aspose::Words::NumberStyle, const System::String\&) | Reports the string representation of the [ListLevel](./) object for the specified index of the list item. Parameters specify the [NumberStyle](../../aspose.words/numberstyle/) and an optional format string used when [Custom](../../aspose.words/numberstyle/) is specified. |
 | [GetHashCode](./gethashcode/)() const override | Calculates hash code for this object. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Alignment](./set_alignment/)(Aspose::Words::Lists::ListLevelAlignment) | Setter for [Aspose::Words::Lists::ListLevel::get_Alignment](./get_alignment/). |
 | [set_IsLegal](./set_islegal/)(bool) | Setter for [Aspose::Words::Lists::ListLevel::get_IsLegal](./get_islegal/). |
 | [set_LinkedStyle](./set_linkedstyle/)(const System::SharedPtr\<Aspose::Words::Style\>\&) | Setter for [Aspose::Words::Lists::ListLevel::get_LinkedStyle](./get_linkedstyle/). |
@@ -49,6 +51,7 @@ class ListLevel : public Aspose::Words::IRunAttrSource
 | [set_TabPosition](./set_tabposition/)(double) | Setter for [Aspose::Words::Lists::ListLevel::get_TabPosition](./get_tabposition/). |
 | [set_TextPosition](./set_textposition/)(double) | Setter for [Aspose::Words::Lists::ListLevel::get_TextPosition](./get_textposition/). |
 | [set_TrailingCharacter](./set_trailingcharacter/)(Aspose::Words::Lists::ListTrailingCharacter) | Setter for [Aspose::Words::Lists::ListLevel::get_TrailingCharacter](./get_trailingcharacter/). |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

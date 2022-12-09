@@ -19,24 +19,24 @@ public class BasicTextShaperCache implements ITextShaperFactory
 
 | Constructor | Description |
 | --- | --- |
-| [BasicTextShaperCache(ITextShaperFactory factory)](#BasicTextShaperCache-com.aspose.words.ITextShaperFactory-) | Initializes a new instance of this class. |
+| [BasicTextShaperCache(ITextShaperFactory factory)](#BasicTextShaperCache-com.aspose.words.ITextShaperFactory) | Initializes a new instance of this class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [dispose()](#dispose--) |  |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getTextShaper(String fontId, byte[] fontBlob, int faceIndex)](#getTextShaper-java.lang.String-byte---int-) |  |
-| [getTextShaper(String fontPath, int faceIndex)](#getTextShaper-java.lang.String-int-) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### BasicTextShaperCache(ITextShaperFactory factory) {#BasicTextShaperCache-com.aspose.words.ITextShaperFactory-}
+| [dispose()](#dispose) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getTextShaper(String fontId, byte[] fontBlob, int faceIndex)](#getTextShaper-java.lang.String-byte---int) |  |
+| [getTextShaper(String fontPath, int faceIndex)](#getTextShaper-java.lang.String-int) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### BasicTextShaperCache(ITextShaperFactory factory) {#BasicTextShaperCache-com.aspose.words.ITextShaperFactory}
 ```
 public BasicTextShaperCache(ITextShaperFactory factory)
 ```
@@ -49,7 +49,7 @@ Initializes a new instance of this class.
 | --- | --- | --- |
 | factory | [ITextShaperFactory](../../com.aspose.words/itextshaperfactory) |  |
 
-### dispose() {#dispose--}
+### dispose() {#dispose}
 ```
 public void dispose()
 ```
@@ -57,7 +57,7 @@ public void dispose()
 
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -72,7 +72,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -82,7 +82,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getTextShaper(String fontId, byte[] fontBlob, int faceIndex) {#getTextShaper-java.lang.String-byte---int-}
+### getTextShaper(String fontId, byte[] fontBlob, int faceIndex) {#getTextShaper-java.lang.String-byte---int}
 ```
 public ITextShaper getTextShaper(String fontId, byte[] fontBlob, int faceIndex)
 ```
@@ -99,7 +99,7 @@ public ITextShaper getTextShaper(String fontId, byte[] fontBlob, int faceIndex)
 
 **Returns:**
 [ITextShaper](../../com.aspose.words/itextshaper)
-### getTextShaper(String fontPath, int faceIndex) {#getTextShaper-java.lang.String-int-}
+### getTextShaper(String fontPath, int faceIndex) {#getTextShaper-java.lang.String-int}
 ```
 public ITextShaper getTextShaper(String fontPath, int faceIndex)
 ```
@@ -115,7 +115,7 @@ public ITextShaper getTextShaper(String fontPath, int faceIndex)
 
 **Returns:**
 [ITextShaper](../../com.aspose.words/itextshaper)
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -125,7 +125,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -133,7 +133,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -141,7 +141,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -151,7 +151,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -159,7 +159,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -172,7 +172,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

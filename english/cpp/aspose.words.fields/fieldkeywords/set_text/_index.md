@@ -3,7 +3,7 @@ title: set_Text
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Fields::FieldKeywords::get_Text.'
 type: docs
-weight: 14
+weight: 53
 url: /cpp/aspose.words.fields/fieldkeywords/set_text/
 ---
 ## FieldKeywords::set_Text method

@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Words for C++ API Reference
 description: Adds a module to the collection.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.vba/vbamodulecollection/add/
 ---
 ## VbaModuleCollection::Add method

@@ -3,7 +3,7 @@ title: FootnoteOptions
 second_title: Aspose.Words for Java API Reference
 description: Represents the footnote numbering options for a document or section.
 type: docs
-weight: 293
+weight: 295
 url: /java/com.aspose.words/footnoteoptions/
 ---
 
@@ -15,33 +15,36 @@ public class FootnoteOptions
 
 Represents the footnote numbering options for a document or section.
 
-To learn more, visit the **Working with Footnote and Endnote** documentation article.
+To learn more, visit the [ Working with Footnote and Endnote ][Working with Footnote and Endnote] documentation article.
+
+
+[Working with Footnote and Endnote]: https://docs.aspose.com/words/java/working-with-footnote-and-endnote/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getColumns()](#getColumns--) | Specifies the number of columns with which the footnotes area is formatted. |
-| [getLocation()](#getLocation--) |  |
-| [getNumberStyle()](#getNumberStyle--) | Specifies the number format for automatically numbered footnotes. |
-| [getPosition()](#getPosition--) | Specifies the footnotes position. |
-| [getRestartRule()](#getRestartRule--) | Determines when automatic numbering restarts. |
-| [getStartNumber()](#getStartNumber--) | Specifies the starting number or character for the first automatically numbered footnotes. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setColumns(int value)](#setColumns-int-) | Specifies the number of columns with which the footnotes area is formatted. |
-| [setLocation(int value)](#setLocation-int-) |  |
-| [setNumberStyle(int value)](#setNumberStyle-int-) | Specifies the number format for automatically numbered footnotes. |
-| [setPosition(int value)](#setPosition-int-) | Specifies the footnotes position. |
-| [setRestartRule(int value)](#setRestartRule-int-) | Determines when automatic numbering restarts. |
-| [setStartNumber(int value)](#setStartNumber-int-) | Specifies the starting number or character for the first automatically numbered footnotes. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getColumns()](#getColumns) | Specifies the number of columns with which the footnotes area is formatted. |
+| [getLocation()](#getLocation) |  |
+| [getNumberStyle()](#getNumberStyle) | Specifies the number format for automatically numbered footnotes. |
+| [getPosition()](#getPosition) | Specifies the footnotes position. |
+| [getRestartRule()](#getRestartRule) | Determines when automatic numbering restarts. |
+| [getStartNumber()](#getStartNumber) | Specifies the starting number or character for the first automatically numbered footnotes. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setColumns(int value)](#setColumns-int) | Specifies the number of columns with which the footnotes area is formatted. |
+| [setLocation(int value)](#setLocation-int) |  |
+| [setNumberStyle(int value)](#setNumberStyle-int) | Specifies the number format for automatically numbered footnotes. |
+| [setPosition(int value)](#setPosition-int) | Specifies the footnotes position. |
+| [setRestartRule(int value)](#setRestartRule-int) | Determines when automatic numbering restarts. |
+| [setStartNumber(int value)](#setStartNumber-int) | Specifies the starting number or character for the first automatically numbered footnotes. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -56,7 +59,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -66,7 +69,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getColumns() {#getColumns--}
+### getColumns() {#getColumns}
 ```
 public int getColumns()
 ```
@@ -76,7 +79,7 @@ Specifies the number of columns with which the footnotes area is formatted. If t
 
 **Returns:**
 int - The corresponding  int  value.
-### getLocation() {#getLocation--}
+### getLocation() {#getLocation}
 ```
 public int getLocation()
 ```
@@ -86,7 +89,7 @@ public int getLocation()
 
 **Returns:**
 int
-### getNumberStyle() {#getNumberStyle--}
+### getNumberStyle() {#getNumberStyle}
 ```
 public int getNumberStyle()
 ```
@@ -98,7 +101,7 @@ Not all number styles are applicable for this property. For the list of applicab
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [NumberStyle](../../com.aspose.words/numberstyle) constants.
-### getPosition() {#getPosition--}
+### getPosition() {#getPosition}
 ```
 public int getPosition()
 ```
@@ -108,7 +111,7 @@ Specifies the footnotes position.
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [FootnotePosition](../../com.aspose.words/footnoteposition) constants.
-### getRestartRule() {#getRestartRule--}
+### getRestartRule() {#getRestartRule}
 ```
 public int getRestartRule()
 ```
@@ -118,7 +121,7 @@ Determines when automatic numbering restarts.
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [FootnoteNumberingRule](../../com.aspose.words/footnotenumberingrule) constants.
-### getStartNumber() {#getStartNumber--}
+### getStartNumber() {#getStartNumber}
 ```
 public int getStartNumber()
 ```
@@ -126,11 +129,11 @@ public int getStartNumber()
 
 Specifies the starting number or character for the first automatically numbered footnotes.
 
-This property has effect only when [getRestartRule()](../../com.aspose.words/footnoteoptions\#getRestartRule--) / [setRestartRule(int)](../../com.aspose.words/footnoteoptions\#setRestartRule-int-) is set to [FootnoteNumberingRule.CONTINUOUS](../../com.aspose.words/footnotenumberingrule\#CONTINUOUS).
+This property has effect only when [getRestartRule()](../../com.aspose.words/footnoteoptions\#getRestartRule) / [setRestartRule(int)](../../com.aspose.words/footnoteoptions\#setRestartRule-int) is set to [FootnoteNumberingRule.CONTINUOUS](../../com.aspose.words/footnotenumberingrule\#CONTINUOUS).
 
 **Returns:**
 int - The corresponding  int  value.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -140,7 +143,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -148,7 +151,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -156,7 +159,7 @@ public final native void notifyAll()
 
 
 
-### setColumns(int value) {#setColumns-int-}
+### setColumns(int value) {#setColumns-int}
 ```
 public void setColumns(int value)
 ```
@@ -169,7 +172,7 @@ Specifies the number of columns with which the footnotes area is formatted. If t
 | --- | --- | --- |
 | value | int | The corresponding  int  value. |
 
-### setLocation(int value) {#setLocation-int-}
+### setLocation(int value) {#setLocation-int}
 ```
 public void setLocation(int value)
 ```
@@ -182,7 +185,7 @@ public void setLocation(int value)
 | --- | --- | --- |
 | value | int |  |
 
-### setNumberStyle(int value) {#setNumberStyle-int-}
+### setNumberStyle(int value) {#setNumberStyle-int}
 ```
 public void setNumberStyle(int value)
 ```
@@ -197,7 +200,7 @@ Not all number styles are applicable for this property. For the list of applicab
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [NumberStyle](../../com.aspose.words/numberstyle) constants. |
 
-### setPosition(int value) {#setPosition-int-}
+### setPosition(int value) {#setPosition-int}
 ```
 public void setPosition(int value)
 ```
@@ -210,7 +213,7 @@ Specifies the footnotes position.
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [FootnotePosition](../../com.aspose.words/footnoteposition) constants. |
 
-### setRestartRule(int value) {#setRestartRule-int-}
+### setRestartRule(int value) {#setRestartRule-int}
 ```
 public void setRestartRule(int value)
 ```
@@ -223,7 +226,7 @@ Determines when automatic numbering restarts.
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [FootnoteNumberingRule](../../com.aspose.words/footnotenumberingrule) constants. |
 
-### setStartNumber(int value) {#setStartNumber-int-}
+### setStartNumber(int value) {#setStartNumber-int}
 ```
 public void setStartNumber(int value)
 ```
@@ -231,14 +234,14 @@ public void setStartNumber(int value)
 
 Specifies the starting number or character for the first automatically numbered footnotes.
 
-This property has effect only when [getRestartRule()](../../com.aspose.words/footnoteoptions\#getRestartRule--) / [setRestartRule(int)](../../com.aspose.words/footnoteoptions\#setRestartRule-int-) is set to [FootnoteNumberingRule.CONTINUOUS](../../com.aspose.words/footnotenumberingrule\#CONTINUOUS).
+This property has effect only when [getRestartRule()](../../com.aspose.words/footnoteoptions\#getRestartRule) / [setRestartRule(int)](../../com.aspose.words/footnoteoptions\#setRestartRule-int) is set to [FootnoteNumberingRule.CONTINUOUS](../../com.aspose.words/footnotenumberingrule\#CONTINUOUS).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The corresponding  int  value. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -248,7 +251,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -256,7 +259,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -269,7 +272,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

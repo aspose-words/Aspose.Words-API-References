@@ -3,7 +3,7 @@ title: FootnoteType
 second_title: Aspose.Words for Java API Reference
 description: Specifies whether this is a footnote or an endnote.
 type: docs
-weight: 295
+weight: 297
 url: /java/com.aspose.words/footnotetype/
 ---
 
@@ -15,7 +15,7 @@ public class FootnoteType
 
 Specifies whether this is a footnote or an endnote.
 
-Both footnotes and endnotes are represented by objects by the [FOOTNOTE](../../com.aspose.words/footnotetype\#FOOTNOTE) class. Use [Footnote.getFootnoteType()](../../com.aspose.words/footnote\#getFootnoteType--) to distinguish between footnotes and endnotes.
+Both footnotes and endnotes are represented by objects by the [FOOTNOTE](../../com.aspose.words/footnotetype\#FOOTNOTE) class. Use [Footnote.getFootnoteType()](../../com.aspose.words/footnote\#getFootnoteType) to distinguish between footnotes and endnotes.
 ## Fields
 
 | Field | Description |
@@ -27,19 +27,19 @@ Both footnotes and endnotes are represented by objects by the [FOOTNOTE](../../c
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String footnoteTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int footnoteType)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int footnoteType)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String footnoteTypeName)](#fromName-java.lang.String) |  |
+| [getClass()](#getClass) |  |
+| [getName(int footnoteType)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int footnoteType)](#toString-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### ENDNOTE {#ENDNOTE}
 ```
 public static int ENDNOTE
@@ -62,7 +62,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -77,7 +77,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String footnoteTypeName) {#fromName-java.lang.String-}
+### fromName(String footnoteTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String footnoteTypeName)
 ```
@@ -92,7 +92,7 @@ public static int fromName(String footnoteTypeName)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -102,7 +102,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int footnoteType) {#getName-int-}
+### getName(int footnoteType) {#getName-int}
 ```
 public static String getName(int footnoteType)
 ```
@@ -117,7 +117,7 @@ public static String getName(int footnoteType)
 
 **Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -127,7 +127,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -137,7 +137,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -145,7 +145,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -153,7 +153,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -163,7 +163,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int footnoteType) {#toString-int-}
+### toString(int footnoteType) {#toString-int}
 ```
 public static String toString(int footnoteType)
 ```
@@ -178,7 +178,7 @@ public static String toString(int footnoteType)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -186,7 +186,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -199,7 +199,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

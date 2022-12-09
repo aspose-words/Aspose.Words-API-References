@@ -3,7 +3,7 @@ title: PdfZoomBehavior
 second_title: Aspose.Words for Java API Reference
 description: Specifies the type of zoom applied to a PDF document when it is opened in a PDF viewer.
 type: docs
-weight: 463
+weight: 466
 url: /java/com.aspose.words/pdfzoombehavior/
 ---
 
@@ -29,19 +29,19 @@ Specifies the type of zoom applied to a PDF document when it is opened in a PDF 
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String pdfZoomBehaviorName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int pdfZoomBehavior)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int pdfZoomBehavior)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String pdfZoomBehaviorName)](#fromName-java.lang.String) |  |
+| [getClass()](#getClass) |  |
+| [getName(int pdfZoomBehavior)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int pdfZoomBehavior)](#toString-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### FIT_BOX {#FIT-BOX}
 ```
 public static int FIT_BOX
@@ -96,7 +96,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -111,7 +111,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String pdfZoomBehaviorName) {#fromName-java.lang.String-}
+### fromName(String pdfZoomBehaviorName) {#fromName-java.lang.String}
 ```
 public static int fromName(String pdfZoomBehaviorName)
 ```
@@ -126,7 +126,7 @@ public static int fromName(String pdfZoomBehaviorName)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -136,7 +136,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int pdfZoomBehavior) {#getName-int-}
+### getName(int pdfZoomBehavior) {#getName-int}
 ```
 public static String getName(int pdfZoomBehavior)
 ```
@@ -151,7 +151,7 @@ public static String getName(int pdfZoomBehavior)
 
 **Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -161,7 +161,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -171,7 +171,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -179,7 +179,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -187,7 +187,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -197,7 +197,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int pdfZoomBehavior) {#toString-int-}
+### toString(int pdfZoomBehavior) {#toString-int}
 ```
 public static String toString(int pdfZoomBehavior)
 ```
@@ -212,7 +212,7 @@ public static String toString(int pdfZoomBehavior)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -220,7 +220,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -233,7 +233,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

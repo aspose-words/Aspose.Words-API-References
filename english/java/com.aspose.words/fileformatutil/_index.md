@@ -3,7 +3,7 @@ title: FileFormatUtil
 second_title: Aspose.Words for Java API Reference
 description: Provides utility methods for working with file formats such as detecting file format or converting file extensions to/from file format enums.
 type: docs
-weight: 266
+weight: 268
 url: /java/com.aspose.words/fileformatutil/
 ---
 
@@ -15,31 +15,34 @@ public class FileFormatUtil
 
 Provides utility methods for working with file formats, such as detecting file format or converting file extensions to/from file format enums.
 
-To learn more, visit the **Detect File Format and Check Format Compatibility** documentation article.
+To learn more, visit the [ Detect File Format and Check Format Compatibility ][Detect File Format and Check Format Compatibility] documentation article.
+
+
+[Detect File Format and Check Format Compatibility]: https://docs.aspose.com/words/java/detect-file-format-and-check-format-compatibility/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [contentTypeToLoadFormat(String contentType)](#contentTypeToLoadFormat-java.lang.String-) | Converts IANA content type into a load format enumerated value. |
-| [contentTypeToSaveFormat(String contentType)](#contentTypeToSaveFormat-java.lang.String-) | Converts IANA content type into a save format enumerated value. |
-| [detectFileFormat(InputStream stream)](#detectFileFormat-java.io.InputStream-) |  |
-| [detectFileFormat(String fileName)](#detectFileFormat-java.lang.String-) | Detects and returns the information about a format of a document. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [extensionToSaveFormat(String extension)](#extensionToSaveFormat-java.lang.String-) | Converts a file name extension into a [SaveFormat](../../com.aspose.words/saveformat) value. |
-| [getClass()](#getClass--) |  |
-| [hashCode()](#hashCode--) |  |
-| [imageTypeToExtension(int imageType)](#imageTypeToExtension-int-) |  |
-| [loadFormatToExtension(int loadFormat)](#loadFormatToExtension-int-) |  |
-| [loadFormatToSaveFormat(int loadFormat)](#loadFormatToSaveFormat-int-) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [saveFormatToExtension(int saveFormat)](#saveFormatToExtension-int-) |  |
-| [saveFormatToLoadFormat(int saveFormat)](#saveFormatToLoadFormat-int-) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### contentTypeToLoadFormat(String contentType) {#contentTypeToLoadFormat-java.lang.String-}
+| [contentTypeToLoadFormat(String contentType)](#contentTypeToLoadFormat-java.lang.String) | Converts IANA content type into a load format enumerated value. |
+| [contentTypeToSaveFormat(String contentType)](#contentTypeToSaveFormat-java.lang.String) | Converts IANA content type into a save format enumerated value. |
+| [detectFileFormat(InputStream stream)](#detectFileFormat-java.io.InputStream) |  |
+| [detectFileFormat(String fileName)](#detectFileFormat-java.lang.String) | Detects and returns the information about a format of a document. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [extensionToSaveFormat(String extension)](#extensionToSaveFormat-java.lang.String) | Converts a file name extension into a [SaveFormat](../../com.aspose.words/saveformat) value. |
+| [getClass()](#getClass) |  |
+| [hashCode()](#hashCode) |  |
+| [imageTypeToExtension(int imageType)](#imageTypeToExtension-int) |  |
+| [loadFormatToExtension(int loadFormat)](#loadFormatToExtension-int) |  |
+| [loadFormatToSaveFormat(int loadFormat)](#loadFormatToSaveFormat-int) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [saveFormatToExtension(int saveFormat)](#saveFormatToExtension-int) |  |
+| [saveFormatToLoadFormat(int saveFormat)](#saveFormatToLoadFormat-int) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### contentTypeToLoadFormat(String contentType) {#contentTypeToLoadFormat-java.lang.String}
 ```
 public static int contentTypeToLoadFormat(String contentType)
 ```
@@ -54,7 +57,7 @@ Converts IANA content type into a load format enumerated value.
 
 **Returns:**
 int
-### contentTypeToSaveFormat(String contentType) {#contentTypeToSaveFormat-java.lang.String-}
+### contentTypeToSaveFormat(String contentType) {#contentTypeToSaveFormat-java.lang.String}
 ```
 public static int contentTypeToSaveFormat(String contentType)
 ```
@@ -69,7 +72,7 @@ Converts IANA content type into a save format enumerated value.
 
 **Returns:**
 int
-### detectFileFormat(InputStream stream) {#detectFileFormat-java.io.InputStream-}
+### detectFileFormat(InputStream stream) {#detectFileFormat-java.io.InputStream}
 ```
 public static FileFormatInfo detectFileFormat(InputStream stream)
 ```
@@ -84,7 +87,7 @@ public static FileFormatInfo detectFileFormat(InputStream stream)
 
 **Returns:**
 [FileFormatInfo](../../com.aspose.words/fileformatinfo)
-### detectFileFormat(String fileName) {#detectFileFormat-java.lang.String-}
+### detectFileFormat(String fileName) {#detectFileFormat-java.lang.String}
 ```
 public static FileFormatInfo detectFileFormat(String fileName)
 ```
@@ -103,7 +106,7 @@ This method throws [FileCorruptedException](../../com.aspose.words/filecorrupted
 
 **Returns:**
 [FileFormatInfo](../../com.aspose.words/fileformatinfo) - A [FileFormatInfo](../../com.aspose.words/fileformatinfo) object that contains the detected information.
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -118,7 +121,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### extensionToSaveFormat(String extension) {#extensionToSaveFormat-java.lang.String-}
+### extensionToSaveFormat(String extension) {#extensionToSaveFormat-java.lang.String}
 ```
 public static int extensionToSaveFormat(String extension)
 ```
@@ -135,7 +138,7 @@ If the extension cannot be recognized, returns [SaveFormat.UNKNOWN](../../com.as
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -145,7 +148,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -155,7 +158,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### imageTypeToExtension(int imageType) {#imageTypeToExtension-int-}
+### imageTypeToExtension(int imageType) {#imageTypeToExtension-int}
 ```
 public static String imageTypeToExtension(int imageType)
 ```
@@ -170,7 +173,7 @@ public static String imageTypeToExtension(int imageType)
 
 **Returns:**
 java.lang.String
-### loadFormatToExtension(int loadFormat) {#loadFormatToExtension-int-}
+### loadFormatToExtension(int loadFormat) {#loadFormatToExtension-int}
 ```
 public static String loadFormatToExtension(int loadFormat)
 ```
@@ -185,7 +188,7 @@ public static String loadFormatToExtension(int loadFormat)
 
 **Returns:**
 java.lang.String
-### loadFormatToSaveFormat(int loadFormat) {#loadFormatToSaveFormat-int-}
+### loadFormatToSaveFormat(int loadFormat) {#loadFormatToSaveFormat-int}
 ```
 public static int loadFormatToSaveFormat(int loadFormat)
 ```
@@ -200,7 +203,7 @@ public static int loadFormatToSaveFormat(int loadFormat)
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -208,7 +211,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -216,7 +219,7 @@ public final native void notifyAll()
 
 
 
-### saveFormatToExtension(int saveFormat) {#saveFormatToExtension-int-}
+### saveFormatToExtension(int saveFormat) {#saveFormatToExtension-int}
 ```
 public static String saveFormatToExtension(int saveFormat)
 ```
@@ -231,7 +234,7 @@ public static String saveFormatToExtension(int saveFormat)
 
 **Returns:**
 java.lang.String
-### saveFormatToLoadFormat(int saveFormat) {#saveFormatToLoadFormat-int-}
+### saveFormatToLoadFormat(int saveFormat) {#saveFormatToLoadFormat-int}
 ```
 public static int saveFormatToLoadFormat(int saveFormat)
 ```
@@ -246,7 +249,7 @@ public static int saveFormatToLoadFormat(int saveFormat)
 
 **Returns:**
 int
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -256,7 +259,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -264,7 +267,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -277,7 +280,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

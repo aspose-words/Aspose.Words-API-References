@@ -3,7 +3,7 @@ title: get_OriginalFileName
 second_title: Aspose.Words for C++ API Reference
 description: Gets the original file name of the document.
 type: docs
-weight: 469
+weight: 482
 url: /cpp/aspose.words/document/get_originalfilename/
 ---
 ## Document::get_OriginalFileName method
@@ -18,7 +18,7 @@ System::String Aspose::Words::Document::get_OriginalFileName() const
 ## Remarks
 
 
-Returns null if the document was loaded from a stream or created blank.
+Returns **null** if the document was loaded from a stream or created blank.
 
 ## Examples
 

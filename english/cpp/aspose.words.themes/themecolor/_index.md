@@ -1,7 +1,7 @@
 ---
 title: ThemeColor
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the theme colors for document themes.
+description: Specifies the theme colors for document themes. To learn more, visit the  documentation article.
 type: docs
 weight: 40
 url: /cpp/aspose.words.themes/themecolor/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.themes/themecolor/
 ## ThemeColor enum
 
 
-Specifies the theme colors for document themes.
+Specifies the theme colors for document themes. To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article.
 
 ```cpp
 enum class ThemeColor

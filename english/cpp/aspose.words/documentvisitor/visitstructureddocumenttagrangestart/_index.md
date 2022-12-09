@@ -3,7 +3,7 @@ title: VisitStructuredDocumentTagRangeStart
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 586
+weight: 625
 url: /cpp/aspose.words/documentvisitor/visitstructureddocumenttagrangestart/
 ---
 ## DocumentVisitor::VisitStructuredDocumentTagRangeStart method

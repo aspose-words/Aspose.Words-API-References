@@ -3,7 +3,7 @@ title: set_On
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 313
+weight: 352
 url: /cpp/aspose.words.drawing/fill/set_on/
 ---
 ## Fill::set_On method

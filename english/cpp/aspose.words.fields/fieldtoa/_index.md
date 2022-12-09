@@ -1,7 +1,7 @@
 ---
 title: FieldToa
 second_title: Aspose.Words for C++ API Reference
-description: Implements the TOA field.
+description: Implements the TOA field. To learn more, visit the  documentation article.
 type: docs
 weight: 1340
 url: /cpp/aspose.words.fields/fieldtoa/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fields/fieldtoa/
 ## FieldToa class
 
 
-Implements the TOA field.
+Implements the TOA field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class FieldToa : public Aspose::Words::Fields::Field,
@@ -35,7 +35,7 @@ class FieldToa : public Aspose::Words::Fields::Field,
 | [get_PageRangeSeparator](./get_pagerangeseparator/)() | Gets or sets the character sequence that is used to separate the start and end of a page range. |
 | [get_RemoveEntryFormatting](./get_removeentryformatting/)() | Gets or sets whether to remove the formatting of the entry text in the document from the entry in the table of authorities. |
 | [get_Result](../field/get_result/)() | Gets or sets text that is between the field separator and field end. |
-| [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be null. |
+| [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be **null**. |
 | [get_SequenceName](./get_sequencename/)() | Gets or sets the name of a sequence whose number is included with the page number. |
 | [get_SequenceSeparator](./get_sequenceseparator/)() | Gets or sets the character sequence that is used to separate sequence numbers and page numbers. |
 | [get_Start](../field/get_start/)() const | Gets the node that represents the start of the field. |
@@ -44,6 +44,8 @@ class FieldToa : public Aspose::Words::Fields::Field,
 | [get_UsePassim](./get_usepassim/)() | Gets or sets whether to replace five or more different page references to the same authority with "passim", which is used to indicate that a word or passage occurs frequently in the work cited. |
 | [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_BookmarkName](./set_bookmarkname/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldToa::get_BookmarkName](./get_bookmarkname/). |
 | [set_EntryCategory](./set_entrycategory/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldToa::get_EntryCategory](./get_entrycategory/). |
@@ -59,6 +61,7 @@ class FieldToa : public Aspose::Words::Fields::Field,
 | [set_SequenceSeparator](./set_sequenceseparator/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldToa::get_SequenceSeparator](./get_sequenceseparator/). |
 | [set_UseHeading](./set_useheading/)(bool) | Setter for [Aspose::Words::Fields::FieldToa::get_UseHeading](./get_useheading/). |
 | [set_UsePassim](./set_usepassim/)(bool) | Setter for [Aspose::Words::Fields::FieldToa::get_UsePassim](./get_usepassim/). |
+| static [Type](./type/)() |  |
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |

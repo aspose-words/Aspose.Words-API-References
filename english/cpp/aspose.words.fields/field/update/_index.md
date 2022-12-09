@@ -3,7 +3,7 @@ title: Update
 second_title: Aspose.Words for C++ API Reference
 description: Performs the field update. Throws if the field is being updated already.
 type: docs
-weight: 248
+weight: 287
 url: /cpp/aspose.words.fields/field/update/
 ---
 ## Field::Update() method

@@ -3,7 +3,7 @@ title: CommentRangeStart
 second_title: Aspose.Words for C++ API Reference
 description: Initializes a new instance of this class.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words/commentrangestart/commentrangestart/
 ---
 ## CommentRangeStart::CommentRangeStart constructor
@@ -23,7 +23,7 @@ Aspose::Words::CommentRangeStart::CommentRangeStart(const System::SharedPtr<Aspo
 ## Remarks
 
 
-When [CommentRangeStart](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is null.
+When [CommentRangeStart](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is **null**.
 
 To append a [CommentRangeStart](../) to the document use InsertAfter or InsertBefore on the paragraph where you want the comment inserted.
 

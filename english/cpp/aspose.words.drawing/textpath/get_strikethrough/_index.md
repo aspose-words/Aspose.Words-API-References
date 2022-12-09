@@ -3,7 +3,7 @@ title: get_StrikeThrough
 second_title: Aspose.Words for C++ API Reference
 description: True if the font is formatted as strikethrough text.
 type: docs
-weight: 183
+weight: 196
 url: /cpp/aspose.words.drawing/textpath/get_strikethrough/
 ---
 ## TextPath::get_StrikeThrough method

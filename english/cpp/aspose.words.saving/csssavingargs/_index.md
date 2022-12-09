@@ -1,7 +1,7 @@
 ---
 title: CssSavingArgs
 second_title: Aspose.Words for C++ API Reference
-description: Provides data for the CssSaving() event.
+description: Provides data for the CssSaving() event. To learn more, visit the  documentation article.
 type: docs
 weight: 14
 url: /cpp/aspose.words.saving/csssavingargs/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/csssavingargs/
 ## CssSavingArgs class
 
 
-Provides data for the [CssSaving()](../icsssavingcallback/csssaving/) event.
+Provides data for the [CssSaving()](../icsssavingcallback/csssaving/) event. To learn more, visit the [Save a Document](https://docs.aspose.com/words/cpp/save-a-document/) documentation article.
 
 ```cpp
 class CssSavingArgs : public System::Object
@@ -23,10 +23,13 @@ class CssSavingArgs : public System::Object
 | [get_Document](./get_document/)() const | Gets the document object that is currently being saved. |
 | [get_IsExportNeeded](./get_isexportneeded/)() const | Allows to specify whether the CSS will be exported to file and embedded to HTML document. Default is **true**. When this property is **false**, the CSS information will not be saved to a CSS file and will not be embedded to HTML document. |
 | [get_KeepCssStreamOpen](./get_keepcssstreamopen/)() const | Specifies whether Aspose.Words should keep the stream open or close it after saving an CSS information. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_CssStream](./set_cssstream/)(const System::SharedPtr\<System::IO::Stream\>\&) | Setter for [Aspose::Words::Saving::CssSavingArgs::get_CssStream](./get_cssstream/). |
 | [set_CssStream](./set_cssstream/)(std::basic_ostream\<CharType, Traits\>\&) |  |
 | [set_IsExportNeeded](./set_isexportneeded/)(bool) | Setter for [Aspose::Words::Saving::CssSavingArgs::get_IsExportNeeded](./get_isexportneeded/). |
 | [set_KeepCssStreamOpen](./set_keepcssstreamopen/)(bool) | Setter for [Aspose::Words::Saving::CssSavingArgs::get_KeepCssStreamOpen](./get_keepcssstreamopen/). |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

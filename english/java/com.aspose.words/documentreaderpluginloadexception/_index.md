@@ -3,7 +3,7 @@ title: DocumentReaderPluginLoadException
 second_title: Aspose.Words for Java API Reference
 description: Thrown during document load when the plugin required for reading the document format cannot be loaded.
 type: docs
-weight: 128
+weight: 129
 url: /java/com.aspose.words/documentreaderpluginloadexception/
 ---
 
@@ -18,28 +18,28 @@ Thrown during document load, when the plugin required for reading the document f
 
 | Method | Description |
 | --- | --- |
-| [addSuppressed(Throwable arg0)](#addSuppressed-java.lang.Throwable-) |  |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fillInStackTrace()](#fillInStackTrace--) |  |
-| [getCause()](#getCause--) |  |
-| [getClass()](#getClass--) |  |
-| [getLocalizedMessage()](#getLocalizedMessage--) |  |
-| [getMessage()](#getMessage--) |  |
-| [getStackTrace()](#getStackTrace--) |  |
-| [getSuppressed()](#getSuppressed--) |  |
-| [hashCode()](#hashCode--) |  |
-| [initCause(Throwable arg0)](#initCause-java.lang.Throwable-) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [printStackTrace()](#printStackTrace--) |  |
-| [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream-) |  |
-| [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter-) |  |
-| [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement---) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
+| [addSuppressed(Throwable arg0)](#addSuppressed-java.lang.Throwable) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fillInStackTrace()](#fillInStackTrace) |  |
+| [getCause()](#getCause) |  |
+| [getClass()](#getClass) |  |
+| [getLocalizedMessage()](#getLocalizedMessage) |  |
+| [getMessage()](#getMessage) |  |
+| [getStackTrace()](#getStackTrace) |  |
+| [getSuppressed()](#getSuppressed) |  |
+| [hashCode()](#hashCode) |  |
+| [initCause(Throwable arg0)](#initCause-java.lang.Throwable) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [printStackTrace()](#printStackTrace) |  |
+| [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream) |  |
+| [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter) |  |
+| [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable}
 ```
 public final synchronized void addSuppressed(Throwable arg0)
 ```
@@ -52,7 +52,7 @@ public final synchronized void addSuppressed(Throwable arg0)
 | --- | --- | --- |
 | arg0 | java.lang.Throwable |  |
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -67,7 +67,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fillInStackTrace() {#fillInStackTrace--}
+### fillInStackTrace() {#fillInStackTrace}
 ```
 public synchronized Throwable fillInStackTrace()
 ```
@@ -77,7 +77,7 @@ public synchronized Throwable fillInStackTrace()
 
 **Returns:**
 java.lang.Throwable
-### getCause() {#getCause--}
+### getCause() {#getCause}
 ```
 public synchronized Throwable getCause()
 ```
@@ -87,7 +87,7 @@ public synchronized Throwable getCause()
 
 **Returns:**
 java.lang.Throwable
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -97,7 +97,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getLocalizedMessage() {#getLocalizedMessage--}
+### getLocalizedMessage() {#getLocalizedMessage}
 ```
 public String getLocalizedMessage()
 ```
@@ -107,7 +107,7 @@ public String getLocalizedMessage()
 
 **Returns:**
 java.lang.String
-### getMessage() {#getMessage--}
+### getMessage() {#getMessage}
 ```
 public String getMessage()
 ```
@@ -117,7 +117,7 @@ public String getMessage()
 
 **Returns:**
 java.lang.String
-### getStackTrace() {#getStackTrace--}
+### getStackTrace() {#getStackTrace}
 ```
 public StackTraceElement[] getStackTrace()
 ```
@@ -127,7 +127,7 @@ public StackTraceElement[] getStackTrace()
 
 **Returns:**
 java.lang.StackTraceElement[]
-### getSuppressed() {#getSuppressed--}
+### getSuppressed() {#getSuppressed}
 ```
 public final synchronized Throwable[] getSuppressed()
 ```
@@ -137,7 +137,7 @@ public final synchronized Throwable[] getSuppressed()
 
 **Returns:**
 java.lang.Throwable[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -147,7 +147,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### initCause(Throwable arg0) {#initCause-java.lang.Throwable-}
+### initCause(Throwable arg0) {#initCause-java.lang.Throwable}
 ```
 public synchronized Throwable initCause(Throwable arg0)
 ```
@@ -162,7 +162,7 @@ public synchronized Throwable initCause(Throwable arg0)
 
 **Returns:**
 java.lang.Throwable
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -170,7 +170,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -178,7 +178,7 @@ public final native void notifyAll()
 
 
 
-### printStackTrace() {#printStackTrace--}
+### printStackTrace() {#printStackTrace}
 ```
 public void printStackTrace()
 ```
@@ -186,7 +186,7 @@ public void printStackTrace()
 
 
 
-### printStackTrace(PrintStream arg0) {#printStackTrace-java.io.PrintStream-}
+### printStackTrace(PrintStream arg0) {#printStackTrace-java.io.PrintStream}
 ```
 public void printStackTrace(PrintStream arg0)
 ```
@@ -199,7 +199,7 @@ public void printStackTrace(PrintStream arg0)
 | --- | --- | --- |
 | arg0 | java.io.PrintStream |  |
 
-### printStackTrace(PrintWriter arg0) {#printStackTrace-java.io.PrintWriter-}
+### printStackTrace(PrintWriter arg0) {#printStackTrace-java.io.PrintWriter}
 ```
 public void printStackTrace(PrintWriter arg0)
 ```
@@ -212,7 +212,7 @@ public void printStackTrace(PrintWriter arg0)
 | --- | --- | --- |
 | arg0 | java.io.PrintWriter |  |
 
-### setStackTrace(StackTraceElement[] arg0) {#setStackTrace-java.lang.StackTraceElement---}
+### setStackTrace(StackTraceElement[] arg0) {#setStackTrace-java.lang.StackTraceElement}
 ```
 public void setStackTrace(StackTraceElement[] arg0)
 ```
@@ -225,7 +225,7 @@ public void setStackTrace(StackTraceElement[] arg0)
 | --- | --- | --- |
 | arg0 | java.lang.StackTraceElement[] |  |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -235,7 +235,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -243,7 +243,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -256,7 +256,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

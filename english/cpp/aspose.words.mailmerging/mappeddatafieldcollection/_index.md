@@ -1,7 +1,7 @@
 ---
 title: MappedDataFieldCollection
 second_title: Aspose.Words for C++ API Reference
-description: Allows to automatically map between names of fields in your data source and names of mail merge fields in the document.
+description: Allows to automatically map between names of fields in your data source and names of mail merge fields in the document. To learn more, visit the  documentation article.
 type: docs
 weight: 66
 url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/
 ## MappedDataFieldCollection class
 
 
-Allows to automatically map between names of fields in your data source and names of mail merge fields in the document.
+Allows to automatically map between names of fields in your data source and names of mail merge fields in the document. To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/cpp/mail-merge-and-reporting/) documentation article.
 
 ```cpp
 class MappedDataFieldCollection : public System::Collections::Generic::IEnumerable<System::Collections::Generic::KeyValuePair<System::String, System::String>>
@@ -31,9 +31,12 @@ class MappedDataFieldCollection : public System::Collections::Generic::IEnumerab
 | [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns a dictionary enumerator object that can be used to iterate over all items in the collection. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(const System::String\&) | Gets or sets the name of the field in the data source associated with the specified mail merge field. |
 | [idx_set](./idx_set/)(const System::String\&, const System::String\&) | Gets or sets the name of the field in the data source associated with the specified mail merge field. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](./remove/)(const System::String\&) | Removes a field mapping. |
+| static [Type](./type/)() |  |
 | [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
 | [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
 | [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |

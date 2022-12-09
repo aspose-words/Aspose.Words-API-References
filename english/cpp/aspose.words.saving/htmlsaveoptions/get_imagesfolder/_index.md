@@ -3,7 +3,7 @@ title: get_ImagesFolder
 second_title: Aspose.Words for C++ API Reference
 description: Specifies the physical folder where images are saved when exporting a document to HTML format. Default is an empty string.
 type: docs
-weight: 469
+weight: 482
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_imagesfolder/
 ---
 ## HtmlSaveOptions::get_ImagesFolder method

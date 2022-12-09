@@ -3,7 +3,7 @@ title: get_ResourcesFolder
 second_title: Aspose.Words for C++ API Reference
 description: Specifies the physical folder where resources (images) are saved when exporting a document to Svg format. Default is null.
 type: docs
-weight: 53
+weight: 66
 url: /cpp/aspose.words.saving/svgsaveoptions/get_resourcesfolder/
 ---
 ## SvgSaveOptions::get_ResourcesFolder method
@@ -18,7 +18,7 @@ System::String Aspose::Words::Saving::SvgSaveOptions::get_ResourcesFolder() cons
 ## Remarks
 
 
-Has effect only if [ExportEmbeddedImages](../get_exportembeddedimages/) property is false.
+Has effect only if [ExportEmbeddedImages](../get_exportembeddedimages/) property is **false**.
 
 When you save a [Document](../../../aspose.words/document/) in SVG format, Aspose.Words needs to save all images embedded in the document as standalone files. [ResourcesFolder](./) allows you to specify where the images will be saved and [ResourcesFolderAlias](../get_resourcesfolderalias/) allows to specify how the image URIs will be constructed.
 

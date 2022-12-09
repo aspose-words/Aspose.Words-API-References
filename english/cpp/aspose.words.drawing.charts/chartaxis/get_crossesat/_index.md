@@ -3,7 +3,7 @@ title: get_CrossesAt
 second_title: Aspose.Words for C++ API Reference
 description: Specifies where on the perpendicular axis the axis crosses.
 type: docs
-weight: 53
+weight: 66
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_crossesat/
 ---
 ## ChartAxis::get_CrossesAt method

@@ -3,7 +3,7 @@ title: get_DistanceFromText
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets distance of the border from text in points.
 type: docs
-weight: 66
+weight: 79
 url: /cpp/aspose.words/bordercollection/get_distancefromtext/
 ---
 ## BorderCollection::get_DistanceFromText method

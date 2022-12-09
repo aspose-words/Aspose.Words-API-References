@@ -19,6 +19,9 @@ class IWarningCallback : public virtual System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 | virtual [Warning](./warning/)(System::SharedPtr\<Aspose::Words::WarningInfo\>) | Aspose.Words invokes this method when it encounters some issue during document loading or saving that might result in loss of formatting or data fidelity. |
 
 ## Examples

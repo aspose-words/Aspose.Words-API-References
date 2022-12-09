@@ -1,7 +1,7 @@
 ---
 title: Font
 second_title: Aspose.Words for C++ API Reference
-description: Contains font attributes (font name, font size, color, and so on) for an object.
+description: Contains font attributes (font name, font size, color, and so on) for an object. To learn more, visit the  documentation article.
 type: docs
 weight: 365
 url: /cpp/aspose.words/font/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/font/
 ## Font class
 
 
-Contains font attributes (font name, font size, color, and so on) for an object.
+Contains font attributes (font name, font size, color, and so on) for an object. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
 
 ```cpp
 class Font : public Aspose::Words::IBorderAttrSource,
@@ -76,7 +76,9 @@ class Font : public Aspose::Words::IBorderAttrSource,
 | [get_TintAndShade](./get_tintandshade/)() | Gets or sets a double value that lightens or darkens a color. |
 | [get_Underline](./get_underline/)() | Gets or sets the type of underline applied to the font. |
 | [get_UnderlineColor](./get_underlinecolor/)() | Gets or sets the color of the underline applied to the font. |
+| [GetType](./gettype/)() const override |  |
 | [HasDmlEffect](./hasdmleffect/)(Aspose::Words::TextDmlEffect) | Checks if particular DrawingML text effect is applied. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_AllCaps](./set_allcaps/)(bool) | Setter for [Aspose::Words::Font::get_AllCaps](./get_allcaps/). |
 | [set_Bidi](./set_bidi/)(bool) | Setter for [Aspose::Words::Font::get_Bidi](./get_bidi/). |
 | [set_Bold](./set_bold/)(bool) | Setter for [Aspose::Words::Font::get_Bold](./get_bold/). |
@@ -126,6 +128,7 @@ class Font : public Aspose::Words::IBorderAttrSource,
 | [set_TintAndShade](./set_tintandshade/)(double) | Setter for [Aspose::Words::Font::get_TintAndShade](./get_tintandshade/). |
 | [set_Underline](./set_underline/)(Aspose::Words::Underline) | Setter for [Aspose::Words::Font::get_Underline](./get_underline/). |
 | [set_UnderlineColor](./set_underlinecolor/)(System::Drawing::Color) | Setter for [Aspose::Words::Font::get_UnderlineColor](./get_underlinecolor/). |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

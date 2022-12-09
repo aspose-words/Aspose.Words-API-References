@@ -3,7 +3,7 @@ title: set_ShowPageBorder
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Saving::HtmlFixedSaveOptions::get_ShowPageBorder.'
 type: docs
-weight: 456
+weight: 495
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/set_showpageborder/
 ---
 ## HtmlFixedSaveOptions::set_ShowPageBorder method

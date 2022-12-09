@@ -3,7 +3,7 @@ title: iterator
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 261
+weight: 300
 url: /cpp/aspose.words.fields/dropdownitemcollection/iterator/
 ---
 ## iterator typedef

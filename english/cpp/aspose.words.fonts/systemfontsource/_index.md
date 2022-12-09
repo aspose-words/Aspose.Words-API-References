@@ -1,7 +1,7 @@
 ---
 title: SystemFontSource
 second_title: Aspose.Words for C++ API Reference
-description: Represents all TrueType fonts installed to the system.
+description: Represents all TrueType fonts installed to the system. To learn more, visit the  documentation article.
 type: docs
 weight: 209
 url: /cpp/aspose.words.fonts/systemfontsource/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fonts/systemfontsource/
 ## SystemFontSource class
 
 
-Represents all TrueType fonts installed to the system.
+Represents all TrueType fonts installed to the system. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
 
 ```cpp
 class SystemFontSource : public Aspose::Words::Fonts::FontSourceBase
@@ -24,9 +24,12 @@ class SystemFontSource : public Aspose::Words::Fonts::FontSourceBase
 | [get_WarningCallback](../fontsourcebase/get_warningcallback/)() const | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
 | [GetAvailableFonts](../fontsourcebase/getavailablefonts/)() | Returns list of fonts available via this source. |
 | static [GetSystemFontFolders](./getsystemfontfolders/)() | Returns system font folders or empty array if folders are not accessible. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_WarningCallback](../fontsourcebase/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Setter for [Aspose::Words::Fonts::FontSourceBase::get_WarningCallback](../fontsourcebase/get_warningcallback/). |
 | [SystemFontSource](./systemfontsource/)() | Ctor. |
 | [SystemFontSource](./systemfontsource/)(int32_t) | Ctor. |
+| static [Type](./type/)() |  |
 
 ## Examples
 

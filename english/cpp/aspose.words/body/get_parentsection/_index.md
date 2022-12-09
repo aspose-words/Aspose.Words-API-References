@@ -3,7 +3,7 @@ title: get_ParentSection
 second_title: Aspose.Words for C++ API Reference
 description: Gets the parent section of this story.
 type: docs
-weight: 53
+weight: 66
 url: /cpp/aspose.words/body/get_parentsection/
 ---
 ## Body::get_ParentSection method
@@ -18,7 +18,7 @@ System::SharedPtr<Aspose::Words::Section> Aspose::Words::Body::get_ParentSection
 ## Remarks
 
 
-**ParentSection** is equivalent to **%([Section](../../section/))ParentNode**.
+[ParentSection](./) is equivalent to [ParentNode](../../node/get_parentnode/) casted to [Section](../../section/).
 
 ## Examples
 

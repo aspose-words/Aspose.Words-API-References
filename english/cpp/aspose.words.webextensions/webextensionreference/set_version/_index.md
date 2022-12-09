@@ -3,7 +3,7 @@ title: set_Version
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::WebExtensions::WebExtensionReference::get_Version.'
 type: docs
-weight: 105
+weight: 144
 url: /cpp/aspose.words.webextensions/webextensionreference/set_version/
 ---
 ## WebExtensionReference::set_Version method

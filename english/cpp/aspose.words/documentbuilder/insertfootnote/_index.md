@@ -3,7 +3,7 @@ title: InsertFootnote
 second_title: Aspose.Words for C++ API Reference
 description: Inserts a footnote or endnote into the document.
 type: docs
-weight: 417
+weight: 443
 url: /cpp/aspose.words/documentbuilder/insertfootnote/
 ---
 ## DocumentBuilder::InsertFootnote(Aspose::Words::Notes::FootnoteType, const System::String\&) method

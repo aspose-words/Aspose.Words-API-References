@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Words for C++ API Reference
 description: Initializes a new instance of this class.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words/license/license/
 ---
 ## License::License constructor

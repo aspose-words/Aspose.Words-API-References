@@ -3,7 +3,7 @@ title: NextPreOrder
 second_title: Aspose.Words for C++ API Reference
 description: Gets next node according to the pre-order tree traversal algorithm.
 type: docs
-weight: 170
+weight: 222
 url: /cpp/aspose.words/node/nextpreorder/
 ---
 ## Node::NextPreOrder method
@@ -22,7 +22,7 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::Node::NextPreOrder(const S
 
 ### ReturnValue
 
-Next node in pre-order order. Null if reached the rootNode.
+Next node in pre-order order. Null if reached the *rootNode*.
 
 ## Examples
 

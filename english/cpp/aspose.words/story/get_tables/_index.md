@@ -3,7 +3,7 @@ title: get_Tables
 second_title: Aspose.Words for C++ API Reference
 description: Gets a collection of tables that are immediate children of the story.
 type: docs
-weight: 79
+weight: 92
 url: /cpp/aspose.words/story/get_tables/
 ---
 ## Story::get_Tables method

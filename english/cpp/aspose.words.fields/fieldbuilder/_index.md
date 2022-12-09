@@ -1,7 +1,7 @@
 ---
 title: FieldBuilder
 second_title: Aspose.Words for C++ API Reference
-description: Builds a field from field code tokens (arguments and switches).
+description: Builds a field from field code tokens (arguments and switches). To learn more, visit the  documentation article.
 type: docs
 weight: 248
 url: /cpp/aspose.words.fields/fieldbuilder/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fields/fieldbuilder/
 ## FieldBuilder class
 
 
-Builds a field from field code tokens (arguments and switches).
+Builds a field from field code tokens (arguments and switches). To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class FieldBuilder : public Aspose::Words::Fields::IFieldBuildingBlock
@@ -31,6 +31,9 @@ class FieldBuilder : public Aspose::Words::Fields::IFieldBuildingBlock
 | [BuildAndInsert](./buildandinsert/)(const System::SharedPtr\<Aspose::Words::Inline\>\&) | Builds and inserts a field into the document before the specified inline node. |
 | [BuildAndInsert](./buildandinsert/)(const System::SharedPtr\<Aspose::Words::Paragraph\>\&) | Builds and inserts a field into the document to the end of the specified paragraph. |
 | [FieldBuilder](./fieldbuilder/)(Aspose::Words::Fields::FieldType) | Initializes an instance of the [FieldBuilder](./) class. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

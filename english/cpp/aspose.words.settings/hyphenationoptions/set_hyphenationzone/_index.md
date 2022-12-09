@@ -3,7 +3,7 @@ title: set_HyphenationZone
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Settings::HyphenationOptions::get_HyphenationZone.'
 type: docs
-weight: 105
+weight: 144
 url: /cpp/aspose.words.settings/hyphenationoptions/set_hyphenationzone/
 ---
 ## HyphenationOptions::set_HyphenationZone method

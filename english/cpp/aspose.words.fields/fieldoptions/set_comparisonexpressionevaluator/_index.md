@@ -3,7 +3,7 @@ title: set_ComparisonExpressionEvaluator
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Fields::FieldOptions::get_ComparisonExpressionEvaluator.'
 type: docs
-weight: 287
+weight: 339
 url: /cpp/aspose.words.fields/fieldoptions/set_comparisonexpressionevaluator/
 ---
 ## FieldOptions::set_ComparisonExpressionEvaluator method

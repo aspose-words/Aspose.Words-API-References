@@ -20,6 +20,9 @@ class IFontSavingCallback : public virtual System::Object
 | Method | Description |
 | --- | --- |
 | virtual [FontSaving](./fontsaving/)(System::SharedPtr\<Aspose::Words::Saving::FontSavingArgs\>) | Called when Aspose.Words is about to save a font resource. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

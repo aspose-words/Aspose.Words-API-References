@@ -3,7 +3,7 @@ title: set_RevisionBarsColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Layout::RevisionOptions::get_RevisionBarsColor.'
 type: docs
-weight: 404
+weight: 443
 url: /cpp/aspose.words.layout/revisionoptions/set_revisionbarscolor/
 ---
 ## RevisionOptions::set_RevisionBarsColor method

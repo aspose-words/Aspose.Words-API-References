@@ -1,7 +1,7 @@
 ---
 title: FontConfigSubstitutionRule
 second_title: Aspose.Words for C++ API Reference
-description: Font config substitution rule.
+description: Font config substitution rule. To learn more, visit the  documentation article.
 type: docs
 weight: 40
 url: /cpp/aspose.words.fonts/fontconfigsubstitutionrule/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fonts/fontconfigsubstitutionrule/
 ## FontConfigSubstitutionRule class
 
 
-[Font](../../aspose.words/font/) config substitution rule.
+[Font](../../aspose.words/font/) config substitution rule. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
 
 ```cpp
 class FontConfigSubstitutionRule : public Aspose::Words::Fonts::FontSubstitutionRule
@@ -20,9 +20,12 @@ class FontConfigSubstitutionRule : public Aspose::Words::Fonts::FontSubstitution
 | Method | Description |
 | --- | --- |
 | virtual [get_Enabled](../fontsubstitutionrule/get_enabled/)() | Specifies whether the rule is enabled or not. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [IsFontConfigAvailable](./isfontconfigavailable/)() | Check if fontconfig utility is available or not. |
 | [ResetCache](./resetcache/)() | Resets the cache of fontconfig calling results. |
 | [set_Enabled](./set_enabled/)(bool) override | Specifies whether the rule is enabled or not. |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

@@ -3,7 +3,7 @@ title: XmlDataLoadOptions
 second_title: Aspose.Words for Java API Reference
 description: Represents options for XML data loading.
 type: docs
-weight: 627
+weight: 630
 url: /java/com.aspose.words/xmldataloadoptions/
 ---
 
@@ -15,30 +15,33 @@ public class XmlDataLoadOptions
 
 Represents options for XML data loading.
 
-To learn more, visit the **LINQ Reporting Engine** documentation article.
+To learn more, visit the [ LINQ Reporting Engine ][LINQ Reporting Engine] documentation article.
 
 An instance of this class can be passed into constructors of [XmlDataSource](../../com.aspose.words/xmldatasource).
+
+
+[LINQ Reporting Engine]: https://docs.aspose.com/words/java/linq-reporting-engine/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [XmlDataLoadOptions()](#XmlDataLoadOptions--) | Initializes a new instance of this class with default options. |
+| [XmlDataLoadOptions()](#XmlDataLoadOptions) | Initializes a new instance of this class with default options. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAlwaysGenerateRootObject()](#getAlwaysGenerateRootObject--) | Gets a flag indicating whether a generated data source will always contain an object for an XML root element. |
-| [getClass()](#getClass--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setAlwaysGenerateRootObject(boolean value)](#setAlwaysGenerateRootObject-boolean-) | Sets a flag indicating whether a generated data source will always contain an object for an XML root element. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### XmlDataLoadOptions() {#XmlDataLoadOptions--}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getAlwaysGenerateRootObject()](#getAlwaysGenerateRootObject) | Gets a flag indicating whether a generated data source will always contain an object for an XML root element. |
+| [getClass()](#getClass) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setAlwaysGenerateRootObject(boolean value)](#setAlwaysGenerateRootObject-boolean) | Sets a flag indicating whether a generated data source will always contain an object for an XML root element. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### XmlDataLoadOptions() {#XmlDataLoadOptions}
 ```
 public XmlDataLoadOptions()
 ```
@@ -46,7 +49,7 @@ public XmlDataLoadOptions()
 
 Initializes a new instance of this class with default options.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -61,17 +64,17 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getAlwaysGenerateRootObject() {#getAlwaysGenerateRootObject--}
+### getAlwaysGenerateRootObject() {#getAlwaysGenerateRootObject}
 ```
 public boolean getAlwaysGenerateRootObject()
 ```
 
 
-Gets a flag indicating whether a generated data source will always contain an object for an XML root element. If an XML root element has no attributes and all its child elements have same names, such an object is not created by default. The default value is **false**.
+Gets a flag indicating whether a generated data source will always contain an object for an XML root element. If an XML root element has no attributes and all its child elements have same names, such an object is not created by default. The default value is  false .
 
 **Returns:**
 boolean - A flag indicating whether a generated data source will always contain an object for an XML root element.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -81,7 +84,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -91,7 +94,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -99,7 +102,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -107,20 +110,20 @@ public final native void notifyAll()
 
 
 
-### setAlwaysGenerateRootObject(boolean value) {#setAlwaysGenerateRootObject-boolean-}
+### setAlwaysGenerateRootObject(boolean value) {#setAlwaysGenerateRootObject-boolean}
 ```
 public void setAlwaysGenerateRootObject(boolean value)
 ```
 
 
-Sets a flag indicating whether a generated data source will always contain an object for an XML root element. If an XML root element has no attributes and all its child elements have same names, such an object is not created by default. The default value is **false**.
+Sets a flag indicating whether a generated data source will always contain an object for an XML root element. If an XML root element has no attributes and all its child elements have same names, such an object is not created by default. The default value is  false .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A flag indicating whether a generated data source will always contain an object for an XML root element. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -130,7 +133,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -138,7 +141,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -151,7 +154,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

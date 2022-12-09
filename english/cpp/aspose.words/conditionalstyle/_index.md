@@ -1,7 +1,7 @@
 ---
 title: ConditionalStyle
 second_title: Aspose.Words for C++ API Reference
-description: Represents special formatting applied to some area of a table with assigned table style.
+description: Represents special formatting applied to some area of a table with assigned table style. To learn more, visit the  documentation article.
 type: docs
 weight: 196
 url: /cpp/aspose.words/conditionalstyle/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/conditionalstyle/
 ## ConditionalStyle class
 
 
-Represents special formatting applied to some area of a table with assigned table style.
+Represents special formatting applied to some area of a table with assigned table style. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article.
 
 ```cpp
 class ConditionalStyle : public Aspose::Words::IBorderAttrSource,
@@ -34,10 +34,13 @@ class ConditionalStyle : public Aspose::Words::IBorderAttrSource,
 | [get_TopPadding](./get_toppadding/)() | Gets or sets the amount of space (in points) to add above the contents of table cells. |
 | [get_Type](./get_type/)() | Gets table area to which this conditional style relates. |
 | [GetHashCode](./gethashcode/)() const override | Calculates hash code for this object. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_BottomPadding](./set_bottompadding/)(double) | Setter for [Aspose::Words::ConditionalStyle::get_BottomPadding](./get_bottompadding/). |
 | [set_LeftPadding](./set_leftpadding/)(double) | Setter for [Aspose::Words::ConditionalStyle::get_LeftPadding](./get_leftpadding/). |
 | [set_RightPadding](./set_rightpadding/)(double) | Setter for [Aspose::Words::ConditionalStyle::get_RightPadding](./get_rightpadding/). |
 | [set_TopPadding](./set_toppadding/)(double) | Setter for [Aspose::Words::ConditionalStyle::get_TopPadding](./get_toppadding/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

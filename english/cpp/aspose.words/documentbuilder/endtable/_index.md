@@ -3,7 +3,7 @@ title: EndTable
 second_title: Aspose.Words for C++ API Reference
 description: Ends a table in the document.
 type: docs
-weight: 79
+weight: 92
 url: /cpp/aspose.words/documentbuilder/endtable/
 ---
 ## DocumentBuilder::EndTable method
@@ -22,7 +22,7 @@ The table node that was just finished.
 ## Remarks
 
 
-This method should be called only once after [EndRow](../endrow/) was called. When called, **EndTable** moves the cursor out of the current cell to point just after the table.
+This method should be called only once after [EndRow](../endrow/) was called. When called, [EndTable](./) moves the cursor out of the current cell to point just after the table.
 
 ## Examples
 

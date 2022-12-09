@@ -3,7 +3,7 @@ title: set_FacingIdentificationMark
 second_title: Aspose.Words for C++ API Reference
 description: Type of a Facing Identification Mark (FIM).
 type: docs
-weight: 326
+weight: 365
 url: /cpp/aspose.words.fields/barcodeparameters/set_facingidentificationmark/
 ---
 ## BarcodeParameters::set_FacingIdentificationMark method

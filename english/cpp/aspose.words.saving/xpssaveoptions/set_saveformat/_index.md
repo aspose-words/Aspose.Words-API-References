@@ -3,7 +3,7 @@ title: set_SaveFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Saving::XpsSaveOptions::get_SaveFormat.'
 type: docs
-weight: 53
+weight: 92
 url: /cpp/aspose.words.saving/xpssaveoptions/set_saveformat/
 ---
 ## XpsSaveOptions::set_SaveFormat method

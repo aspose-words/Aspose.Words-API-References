@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Words for C++ API Reference
 description: Creates a new list based on a predefined template and adds it to the collection of lists in the document.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.lists/listcollection/add/
 ---
 ## ListCollection::Add(Aspose::Words::Lists::ListTemplate) method

@@ -1,7 +1,7 @@
 ---
 title: FieldFormat
 second_title: Aspose.Words for C++ API Reference
-description: Provides typed access to field's numeric, date and time, and general formatting.
+description: Provides typed access to field's numeric, date and time, and general formatting. To learn more, visit the  documentation article.
 type: docs
 weight: 573
 url: /cpp/aspose.words.fields/fieldformat/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fields/fieldformat/
 ## FieldFormat class
 
 
-Provides typed access to field's numeric, date and time, and general formatting.
+Provides typed access to field's numeric, date and time, and general formatting. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class FieldFormat : public System::Object
@@ -22,8 +22,11 @@ class FieldFormat : public System::Object
 | [get_DateTimeFormat](./get_datetimeformat/)() | Gets or sets a formatting that is applied to a date and time field result. Corresponds to the \@ switch. |
 | [get_GeneralFormats](./get_generalformats/)() | Gets a collection of general formats that are applied to a numeric, text or any field result. Corresponds to the \* switches. |
 | [get_NumericFormat](./get_numericformat/)() | Gets or sets a formatting that is applied to a numeric field result. Corresponds to the \# switch. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_DateTimeFormat](./set_datetimeformat/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldFormat::get_DateTimeFormat](./get_datetimeformat/). |
 | [set_NumericFormat](./set_numericformat/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldFormat::get_NumericFormat](./get_numericformat/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

@@ -1,7 +1,7 @@
 ---
 title: FieldMergeBarcode
 second_title: Aspose.Words for C++ API Reference
-description: Implements the MERGEBARCODE field.
+description: Implements the MERGEBARCODE field. To learn more, visit the  documentation article.
 type: docs
 weight: 846
 url: /cpp/aspose.words.fields/fieldmergebarcode/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fields/fieldmergebarcode/
 ## FieldMergeBarcode class
 
 
-Implements the MERGEBARCODE field.
+Implements the MERGEBARCODE field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class FieldMergeBarcode : public Aspose::Words::Fields::Field,
@@ -42,7 +42,7 @@ class FieldMergeBarcode : public Aspose::Words::Fields::Field,
 | [get_PosCodeStyle](./get_poscodestyle/)() | Gets the style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8). The valid values (case insensitive) are [STD|SUP2|SUP5|CASE]. |
 | [get_Result](../field/get_result/)() | Gets or sets text that is between the field separator and field end. |
 | [get_ScalingFactor](./get_scalingfactor/)() | Gets a scaling factor for the symbol. The value is in whole percentage points and the valid values are [10, 1000]. |
-| [get_Separator](./get_separator/)() override | Gets the node that represents the field separator. Can be null. |
+| [get_Separator](./get_separator/)() override | Gets the node that represents the field separator. Can be **null**. |
 | [get_Start](./get_start/)() override | Gets the node that represents the start of the field. |
 | [get_Start](../field/get_start/)() const | Gets the node that represents the start of the field. |
 | [get_SymbolHeight](./get_symbolheight/)() | Gets the height of the symbol. The units are in TWIPS (1/1440 inch). |
@@ -50,6 +50,8 @@ class FieldMergeBarcode : public Aspose::Words::Fields::Field,
 | virtual [get_Type](../field/get_type/)() const | Gets the Microsoft Word field type. |
 | [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_AddStartStopChar](./set_addstartstopchar/)(bool) | Sets whether to add Start/Stop characters for barcode types NW7 and CODE39. |
 | [set_BackgroundColor](./set_backgroundcolor/)(const System::String\&) | Sets the background color of the barcode symbol. Valid values are in the range [0, 0xFFFFFF]. |
@@ -68,6 +70,7 @@ class FieldMergeBarcode : public Aspose::Words::Fields::Field,
 | [set_ScalingFactor](./set_scalingfactor/)(const System::String\&) | Sets a scaling factor for the symbol. The value is in whole percentage points and the valid values are [10, 1000]. |
 | [set_SymbolHeight](./set_symbolheight/)(const System::String\&) | Sets the height of the symbol. The units are in TWIPS (1/1440 inch). |
 | [set_SymbolRotation](./set_symbolrotation/)(const System::String\&) | Sets the rotation of the barcode symbol. Valid values are [0, 3]. |
+| static [Type](./type/)() |  |
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |

@@ -3,7 +3,7 @@ title: ShadowFormat
 second_title: Aspose.Words for Java API Reference
 description: Represents shadow formatting for an object.
 type: docs
-weight: 514
+weight: 517
 url: /java/com.aspose.words/shadowformat/
 ---
 
@@ -15,25 +15,28 @@ public class ShadowFormat
 
 Represents shadow formatting for an object.
 
-To learn more, visit the **Working with Graphic Elements** documentation article.
+To learn more, visit the [ Working with Graphic Elements ][Working with Graphic Elements] documentation article.
+
+
+[Working with Graphic Elements]: https://docs.aspose.com/words/java/working-with-graphic-elements/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [clear()](#clear--) | Clears shadow format. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getType()](#getType--) | Gets the specified [ShadowType](../../com.aspose.words/shadowtype) for ShadowFormat. |
-| [getVisible()](#getVisible--) | Returns  true  if the formatting applied to this instance is visible. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setType(int value)](#setType-int-) | Sets the specified [ShadowType](../../com.aspose.words/shadowtype) for ShadowFormat. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### clear() {#clear--}
+| [clear()](#clear) | Clears shadow format. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getType()](#getType) | Gets the specified [ShadowType](../../com.aspose.words/shadowtype) for ShadowFormat. |
+| [getVisible()](#getVisible) | Returns  true  if the formatting applied to this instance is visible. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setType(int value)](#setType-int) | Sets the specified [ShadowType](../../com.aspose.words/shadowtype) for ShadowFormat. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### clear() {#clear}
 ```
 public void clear()
 ```
@@ -41,7 +44,7 @@ public void clear()
 
 Clears shadow format.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -56,7 +59,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -66,7 +69,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getType() {#getType--}
+### getType() {#getType}
 ```
 public int getType()
 ```
@@ -76,17 +79,17 @@ Gets the specified [ShadowType](../../com.aspose.words/shadowtype) for ShadowFor
 
 **Returns:**
 int - The specified [ShadowType](../../com.aspose.words/shadowtype) for ShadowFormat. The returned value is one of [ShadowType](../../com.aspose.words/shadowtype) constants.
-### getVisible() {#getVisible--}
+### getVisible() {#getVisible}
 ```
 public boolean getVisible()
 ```
 
 
-Returns  true  if the formatting applied to this instance is visible. Unlike [clear()](../../com.aspose.words/shadowformat\#clear--), assigning  false  to Visible does not clear the formatting, it only hides the shape effect.
+Returns  true  if the formatting applied to this instance is visible. Unlike [clear()](../../com.aspose.words/shadowformat\#clear), assigning  false  to Visible does not clear the formatting, it only hides the shape effect.
 
 **Returns:**
 boolean - \{ true  if the formatting applied to this instance is visible.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -96,7 +99,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -104,7 +107,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -112,7 +115,7 @@ public final native void notifyAll()
 
 
 
-### setType(int value) {#setType-int-}
+### setType(int value) {#setType-int}
 ```
 public void setType(int value)
 ```
@@ -125,7 +128,7 @@ Sets the specified [ShadowType](../../com.aspose.words/shadowtype) for ShadowFor
 | --- | --- | --- |
 | value | int | The specified [ShadowType](../../com.aspose.words/shadowtype) for ShadowFormat. The value must be one of [ShadowType](../../com.aspose.words/shadowtype) constants. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -135,7 +138,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -143,7 +146,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -156,7 +159,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

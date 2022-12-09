@@ -1,7 +1,7 @@
 ---
 title: FontSavingArgs
 second_title: Aspose.Words for C++ API Reference
-description: Provides data for the FontSaving() event.
+description: Provides data for the FontSaving() event. To learn more, visit the  documentation article.
 type: docs
 weight: 92
 url: /cpp/aspose.words.saving/fontsavingargs/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/fontsavingargs/
 ## FontSavingArgs class
 
 
-Provides data for the [FontSaving()](../ifontsavingcallback/fontsaving/) event.
+Provides data for the [FontSaving()](../ifontsavingcallback/fontsaving/) event. To learn more, visit the [Save a Document](https://docs.aspose.com/words/cpp/save-a-document/) documentation article.
 
 ```cpp
 class FontSavingArgs : public System::Object
@@ -30,12 +30,15 @@ class FontSavingArgs : public System::Object
 | [get_KeepFontStreamOpen](./get_keepfontstreamopen/)() const | Specifies whether Aspose.Words should keep the stream open or close it after saving a font. |
 | [get_OriginalFileName](./get_originalfilename/)() const | Gets the original font file name with an extension. |
 | [get_OriginalFileSize](./get_originalfilesize/)() const | Gets the original font file size. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_FontFileName](./set_fontfilename/)(const System::String\&) | Setter for [Aspose::Words::Saving::FontSavingArgs::get_FontFileName](./get_fontfilename/). |
 | [set_FontStream](./set_fontstream/)(const System::SharedPtr\<System::IO::Stream\>\&) | Setter for [Aspose::Words::Saving::FontSavingArgs::get_FontStream](./get_fontstream/). |
 | [set_FontStream](./set_fontstream/)(std::basic_ostream\<CharType, Traits\>\&) |  |
 | [set_IsExportNeeded](./set_isexportneeded/)(bool) | Setter for [Aspose::Words::Saving::FontSavingArgs::get_IsExportNeeded](./get_isexportneeded/). |
 | [set_IsSubsettingNeeded](./set_issubsettingneeded/)(bool) | Setter for [Aspose::Words::Saving::FontSavingArgs::get_IsSubsettingNeeded](./get_issubsettingneeded/). |
 | [set_KeepFontStreamOpen](./set_keepfontstreamopen/)(bool) | Setter for [Aspose::Words::Saving::FontSavingArgs::get_KeepFontStreamOpen](./get_keepfontstreamopen/). |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

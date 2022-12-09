@@ -1,15 +1,15 @@
 ---
 title: get_NodeType
 second_title: Aspose.Words for C++ API Reference
-description: Returns NodeType.Section.
+description: Returns Section.
 type: docs
-weight: 131
+weight: 144
 url: /cpp/aspose.words/section/get_nodetype/
 ---
 ## Section::get_NodeType method
 
 
-Returns **NodeType.Section**.
+Returns [Section](../../nodetype/).
 
 ```cpp
 Aspose::Words::NodeType Aspose::Words::Section::get_NodeType() const override

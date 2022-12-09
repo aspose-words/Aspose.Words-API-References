@@ -3,7 +3,7 @@ title: ComparisonExpression
 second_title: Aspose.Words for Java API Reference
 description: The comparison expression.
 type: docs
-weight: 83
+weight: 84
 url: /java/com.aspose.words/comparisonexpression/
 ---
 
@@ -15,24 +15,27 @@ public class ComparisonExpression
 
 The comparison expression.
 
-To learn more, visit the **Working with Fields** documentation article.
+To learn more, visit the [ Working with Fields ][Working with Fields] documentation article.
+
+
+[Working with Fields]: https://docs.aspose.com/words/java/working-with-fields/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getComparisonOperator()](#getComparisonOperator--) | Gets the comparison operator. |
-| [getLeftExpression()](#getLeftExpression--) | Gets the left expression. |
-| [getRightExpression()](#getRightExpression--) | Gets the right expression. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getComparisonOperator()](#getComparisonOperator) | Gets the comparison operator. |
+| [getLeftExpression()](#getLeftExpression) | Gets the left expression. |
+| [getRightExpression()](#getRightExpression) | Gets the right expression. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -47,7 +50,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -57,7 +60,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getComparisonOperator() {#getComparisonOperator--}
+### getComparisonOperator() {#getComparisonOperator}
 ```
 public String getComparisonOperator()
 ```
@@ -67,7 +70,7 @@ Gets the comparison operator.
 
 **Returns:**
 java.lang.String - The comparison operator.
-### getLeftExpression() {#getLeftExpression--}
+### getLeftExpression() {#getLeftExpression}
 ```
 public String getLeftExpression()
 ```
@@ -77,7 +80,7 @@ Gets the left expression.
 
 **Returns:**
 java.lang.String - The left expression.
-### getRightExpression() {#getRightExpression--}
+### getRightExpression() {#getRightExpression}
 ```
 public String getRightExpression()
 ```
@@ -87,7 +90,7 @@ Gets the right expression.
 
 **Returns:**
 java.lang.String - The right expression.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -97,7 +100,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -105,7 +108,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -113,7 +116,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -123,7 +126,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -131,7 +134,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -144,7 +147,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

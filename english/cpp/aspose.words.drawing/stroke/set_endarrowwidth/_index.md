@@ -3,7 +3,7 @@ title: set_EndArrowWidth
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Drawing::Stroke::get_EndArrowWidth.'
 type: docs
-weight: 339
+weight: 378
 url: /cpp/aspose.words.drawing/stroke/set_endarrowwidth/
 ---
 ## Stroke::set_EndArrowWidth method

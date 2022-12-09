@@ -3,7 +3,7 @@ title: set_RelationshipType
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Markup::CustomPart::get_RelationshipType.'
 type: docs
-weight: 144
+weight: 183
 url: /cpp/aspose.words.markup/custompart/set_relationshiptype/
 ---
 ## CustomPart::set_RelationshipType method

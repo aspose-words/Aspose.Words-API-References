@@ -3,7 +3,7 @@ title: set_AlternateText
 second_title: Aspose.Words for C++ API Reference
 description: Sets the text to include in the field if the name is blank.
 type: docs
-weight: 66
+weight: 105
 url: /cpp/aspose.words.fields/fieldgreetingline/set_alternatetext/
 ---
 ## FieldGreetingLine::set_AlternateText method

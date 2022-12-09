@@ -3,7 +3,7 @@ title: CustomXmlPartCollection
 second_title: Aspose.Words for Java API Reference
 description: Represents a collection of Custom XML Parts.
 type: docs
-weight: 105
+weight: 106
 url: /java/com.aspose.words/customxmlpartcollection/
 ---
 
@@ -18,33 +18,36 @@ public class CustomXmlPartCollection implements Iterable
 
 Represents a collection of Custom XML Parts. The items are [CustomXmlPart](../../com.aspose.words/customxmlpart) objects.
 
-To learn more, visit the **Structured Document Tags or Content Control** documentation article.
+To learn more, visit the [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control] documentation article.
 
-You do not normally need to create instances of this class. You can access custom XML data stored in a document via the [Document.getCustomXmlParts()](../../com.aspose.words/document\#getCustomXmlParts--) / [Document.setCustomXmlParts(com.aspose.words.CustomXmlPartCollection)](../../com.aspose.words/document\#setCustomXmlParts-com.aspose.words.CustomXmlPartCollection-) property.
+You do not normally need to create instances of this class. You can access custom XML data stored in a document via the [Document.getCustomXmlParts()](../../com.aspose.words/document\#getCustomXmlParts) / [Document.setCustomXmlParts(com.aspose.words.CustomXmlPartCollection)](../../com.aspose.words/document\#setCustomXmlParts-com.aspose.words.CustomXmlPartCollection) property.
+
+
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/structured-document-tags-or-content-control/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [add(CustomXmlPart part)](#add-com.aspose.words.CustomXmlPart-) | Adds an item to the collection. |
-| [add(String id, String xml)](#add-java.lang.String-java.lang.String-) | Creates a new XML part with the specified XML and adds it to the collection. |
-| [clear()](#clear--) | Removes all elements from the collection. |
-| [deepClone()](#deepClone--) | Makes a deep copy of this collection and its items. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Gets an item at the specified index. |
-| [getById(String id)](#getById-java.lang.String-) | Finds and returns a custom XML part by its identifier. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Returns an iterator object that can be used to iterate over all items in the collection. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | Removes an item at the specified index. |
-| [set(int index, CustomXmlPart value)](#set-int-com.aspose.words.CustomXmlPart-) | Sets an item at the specified index. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(CustomXmlPart part) {#add-com.aspose.words.CustomXmlPart-}
+| [add(CustomXmlPart part)](#add-com.aspose.words.CustomXmlPart) | Adds an item to the collection. |
+| [add(String id, String xml)](#add-java.lang.String-java.lang.String) | Creates a new XML part with the specified XML and adds it to the collection. |
+| [clear()](#clear) | Removes all elements from the collection. |
+| [deepClone()](#deepClone) | Makes a deep copy of this collection and its items. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [get(int index)](#get-int) | Gets an item at the specified index. |
+| [getById(String id)](#getById-java.lang.String) | Finds and returns a custom XML part by its identifier. |
+| [getClass()](#getClass) |  |
+| [getCount()](#getCount) | Gets the number of elements contained in the collection. |
+| [hashCode()](#hashCode) |  |
+| [iterator()](#iterator) | Returns an iterator object that can be used to iterate over all items in the collection. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [removeAt(int index)](#removeAt-int) | Removes an item at the specified index. |
+| [set(int index, CustomXmlPart value)](#set-int-com.aspose.words.CustomXmlPart) | Sets an item at the specified index. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### add(CustomXmlPart part) {#add-com.aspose.words.CustomXmlPart}
 ```
 public void add(CustomXmlPart part)
 ```
@@ -57,7 +60,7 @@ Adds an item to the collection.
 | --- | --- | --- |
 | part | [CustomXmlPart](../../com.aspose.words/customxmlpart) | The custom XML part to add. |
 
-### add(String id, String xml) {#add-java.lang.String-java.lang.String-}
+### add(String id, String xml) {#add-java.lang.String-java.lang.String}
 ```
 public CustomXmlPart add(String id, String xml)
 ```
@@ -73,7 +76,7 @@ Creates a new XML part with the specified XML and adds it to the collection.
 
 **Returns:**
 [CustomXmlPart](../../com.aspose.words/customxmlpart) - Created custom XML part.
-### clear() {#clear--}
+### clear() {#clear}
 ```
 public void clear()
 ```
@@ -81,7 +84,7 @@ public void clear()
 
 Removes all elements from the collection.
 
-### deepClone() {#deepClone--}
+### deepClone() {#deepClone}
 ```
 public CustomXmlPartCollection deepClone()
 ```
@@ -91,7 +94,7 @@ Makes a deep copy of this collection and its items.
 
 **Returns:**
 [CustomXmlPartCollection](../../com.aspose.words/customxmlpartcollection)
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -106,7 +109,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### get(int index) {#get-int-}
+### get(int index) {#get-int}
 ```
 public CustomXmlPart get(int index)
 ```
@@ -121,7 +124,7 @@ Gets an item at the specified index.
 
 **Returns:**
 [CustomXmlPart](../../com.aspose.words/customxmlpart) - An item at the specified index.
-### getById(String id) {#getById-java.lang.String-}
+### getById(String id) {#getById-java.lang.String}
 ```
 public CustomXmlPart getById(String id)
 ```
@@ -136,7 +139,7 @@ Finds and returns a custom XML part by its identifier.
 
 **Returns:**
 [CustomXmlPart](../../com.aspose.words/customxmlpart) - Returns  null  if a custom XML part with the specified identifier is not found.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -146,7 +149,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCount() {#getCount--}
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -156,7 +159,7 @@ Gets the number of elements contained in the collection.
 
 **Returns:**
 int - The number of elements contained in the collection.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -166,7 +169,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### iterator() {#iterator--}
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -176,7 +179,7 @@ Returns an iterator object that can be used to iterate over all items in the col
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -184,7 +187,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -192,7 +195,7 @@ public final native void notifyAll()
 
 
 
-### removeAt(int index) {#removeAt-int-}
+### removeAt(int index) {#removeAt-int}
 ```
 public void removeAt(int index)
 ```
@@ -205,7 +208,7 @@ Removes an item at the specified index.
 | --- | --- | --- |
 | index | int | The zero based index. |
 
-### set(int index, CustomXmlPart value) {#set-int-com.aspose.words.CustomXmlPart-}
+### set(int index, CustomXmlPart value) {#set-int-com.aspose.words.CustomXmlPart}
 ```
 public void set(int index, CustomXmlPart value)
 ```
@@ -219,7 +222,7 @@ Sets an item at the specified index.
 | index | int | Zero-based index of the item. |
 | value | [CustomXmlPart](../../com.aspose.words/customxmlpart) | An item at the specified index. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -229,7 +232,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -237,7 +240,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -250,7 +253,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

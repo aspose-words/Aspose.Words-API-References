@@ -3,7 +3,7 @@ title: Reset
 second_title: Aspose.Words for C++ API Reference
 description: Moves the enumerator to the first page of the document.
 type: docs
-weight: 209
+weight: 287
 url: /cpp/aspose.words.layout/layoutenumerator/reset/
 ---
 ## LayoutEnumerator::Reset method

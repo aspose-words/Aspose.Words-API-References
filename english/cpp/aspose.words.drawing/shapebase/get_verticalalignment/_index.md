@@ -3,7 +3,7 @@ title: get_VerticalAlignment
 second_title: Aspose.Words for C++ API Reference
 description: Specifies how the shape is positioned vertically.
 type: docs
-weight: 664
+weight: 677
 url: /cpp/aspose.words.drawing/shapebase/get_verticalalignment/
 ---
 ## ShapeBase::get_VerticalAlignment method

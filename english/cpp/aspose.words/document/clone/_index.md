@@ -3,7 +3,7 @@ title: Clone
 second_title: Aspose.Words for C++ API Reference
 description: Performs a deep copy of the Document.
 type: docs
-weight: 66
+weight: 79
 url: /cpp/aspose.words/document/clone/
 ---
 ## Document::Clone method

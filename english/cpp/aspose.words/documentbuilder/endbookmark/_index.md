@@ -3,7 +3,7 @@ title: EndBookmark
 second_title: Aspose.Words for C++ API Reference
 description: Marks the current position in the document as a bookmark end.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/aspose.words/documentbuilder/endbookmark/
 ---
 ## DocumentBuilder::EndBookmark method
@@ -26,7 +26,7 @@ The bookmark end node that was just created.
 ## Remarks
 
 
-Bookmarks in a document can overlap and span any range. To create a valid bookmark you need to call both [StartBookmark()](../) and [EndBookmark()](../) with the same **bookmarkName** parameter.
+Bookmarks in a document can overlap and span any range. To create a valid bookmark you need to call both [StartBookmark()](../) and [EndBookmark()](../) with the same *bookmarkName* parameter.
 
 Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 

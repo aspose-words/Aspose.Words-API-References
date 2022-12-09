@@ -3,7 +3,7 @@ title: NodeImporter
 second_title: Aspose.Words for C++ API Reference
 description: Initializes a new instance of the NodeImporter class.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words/nodeimporter/nodeimporter/
 ---
 ## NodeImporter::NodeImporter(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, Aspose::Words::ImportFormatMode) constructor

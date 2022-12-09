@@ -21,27 +21,27 @@ Represents a collection of rows for a [DataTable](../../com.aspose.words.net.sys
 
 | Method | Description |
 | --- | --- |
-| [add(System.Data.DataRow row)](#add-com.aspose.words.net.System.Data.DataRow-) | Adds the specified [DataRow](../../com.aspose.words.net.system.data/datarow) to the [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection) object. |
-| [add(Object[] values)](#add-java.lang.Object...-) | Creates a row using specified values and adds it to the [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection). |
-| [clear()](#clear--) | Clears the collection of all rows. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [find(Object[] keys)](#find-java.lang.Object---) | Gets the row that contains the specified primary key values. |
-| [find(String primaryKeyValue)](#find-java.lang.String-) | Gets the row specified by the primary key value. |
-| [get(int index)](#get-int-) | Gets the row at the specified index. |
-| [get(Object[] values)](#get-java.lang.Object---) | Gets the row that contains the specified values. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets the total number of [DataRow](../../com.aspose.words.net.system.data/datarow) objects in this collection. |
-| [hashCode()](#hashCode--) |  |
-| [insertAt(System.Data.DataRow row, int pos)](#insertAt-com.aspose.words.net.System.Data.DataRow-int-) | Inserts a new row into the collection at the specified location. |
-| [iterator()](#iterator--) | Gets an java.util.Iterator for this collection. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | Removes the row at the specified index from the collection. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(System.Data.DataRow row) {#add-com.aspose.words.net.System.Data.DataRow-}
+| [add(System.Data.DataRow row)](#add-com.aspose.words.net.System.Data.DataRow) | Adds the specified [DataRow](../../com.aspose.words.net.system.data/datarow) to the [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection) object. |
+| [add(Object[] values)](#add-java.lang.Object...) | Creates a row using specified values and adds it to the [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection). |
+| [clear()](#clear) | Clears the collection of all rows. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [find(Object[] keys)](#find-java.lang.Object) | Gets the row that contains the specified primary key values. |
+| [find(String primaryKeyValue)](#find-java.lang.String) | Gets the row specified by the primary key value. |
+| [get(int index)](#get-int) | Gets the row at the specified index. |
+| [get(Object[] values)](#get-java.lang.Object) | Gets the row that contains the specified values. |
+| [getClass()](#getClass) |  |
+| [getCount()](#getCount) | Gets the total number of [DataRow](../../com.aspose.words.net.system.data/datarow) objects in this collection. |
+| [hashCode()](#hashCode) |  |
+| [insertAt(System.Data.DataRow row, int pos)](#insertAt-com.aspose.words.net.System.Data.DataRow-int) | Inserts a new row into the collection at the specified location. |
+| [iterator()](#iterator) | Gets an java.util.Iterator for this collection. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [removeAt(int index)](#removeAt-int) | Removes the row at the specified index from the collection. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### add(System.Data.DataRow row) {#add-com.aspose.words.net.System.Data.DataRow}
 ```
 public void add(System.Data.DataRow row)
 ```
@@ -54,7 +54,7 @@ Adds the specified [DataRow](../../com.aspose.words.net.system.data/datarow) to 
 | --- | --- | --- |
 | row | [DataRow](../../com.aspose.words.net.system.data/datarow) | The [DataRow](../../com.aspose.words.net.system.data/datarow) to add. |
 
-### add(Object[] values) {#add-java.lang.Object...-}
+### add(Object[] values) {#add-java.lang.Object...}
 ```
 public void add(Object[] values)
 ```
@@ -67,7 +67,7 @@ Creates a row using specified values and adds it to the [DataRowCollection](../.
 | --- | --- | --- |
 | values | java.lang.Object[] | The array of values that are used to create the new row. |
 
-### clear() {#clear--}
+### clear() {#clear}
 ```
 public void clear()
 ```
@@ -75,7 +75,7 @@ public void clear()
 
 Clears the collection of all rows.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -90,7 +90,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### find(Object[] keys) {#find-java.lang.Object---}
+### find(Object[] keys) {#find-java.lang.Object}
 ```
 public System.Data.DataRow find(Object[] keys)
 ```
@@ -105,7 +105,7 @@ Gets the row that contains the specified primary key values.
 
 **Returns:**
 [DataRow](../../com.aspose.words.net.system.data/datarow) - A [DataRow](../../com.aspose.words.net.system.data/datarow) object that contains the primary key values specified; otherwise a null value if the primary key value does not exist in the [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection).
-### find(String primaryKeyValue) {#find-java.lang.String-}
+### find(String primaryKeyValue) {#find-java.lang.String}
 ```
 public System.Data.DataRow find(String primaryKeyValue)
 ```
@@ -120,7 +120,7 @@ Gets the row specified by the primary key value.
 
 **Returns:**
 [DataRow](../../com.aspose.words.net.system.data/datarow) - A DataRow that contains the primary key value specified; otherwise a null value if the primary key value does not exist in the DataRowCollection.
-### get(int index) {#get-int-}
+### get(int index) {#get-int}
 ```
 public System.Data.DataRow get(int index)
 ```
@@ -135,7 +135,7 @@ Gets the row at the specified index.
 
 **Returns:**
 [DataRow](../../com.aspose.words.net.system.data/datarow) - The specified [DataRow](../../com.aspose.words.net.system.data/datarow).
-### get(Object[] values) {#get-java.lang.Object---}
+### get(Object[] values) {#get-java.lang.Object}
 ```
 public System.Data.DataRow get(Object[] values)
 ```
@@ -150,7 +150,7 @@ Gets the row that contains the specified values. If there is primary key's colum
 
 **Returns:**
 [DataRow](../../com.aspose.words.net.system.data/datarow) - found row or `null`
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -160,7 +160,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCount() {#getCount--}
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -170,7 +170,7 @@ Gets the total number of [DataRow](../../com.aspose.words.net.system.data/dataro
 
 **Returns:**
 int - The total number of [DataRow](../../com.aspose.words.net.system.data/datarow) objects in this collection.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -180,7 +180,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### insertAt(System.Data.DataRow row, int pos) {#insertAt-com.aspose.words.net.System.Data.DataRow-int-}
+### insertAt(System.Data.DataRow row, int pos) {#insertAt-com.aspose.words.net.System.Data.DataRow-int}
 ```
 public void insertAt(System.Data.DataRow row, int pos)
 ```
@@ -194,7 +194,7 @@ Inserts a new row into the collection at the specified location.
 | row | [DataRow](../../com.aspose.words.net.system.data/datarow) | The [DataRow](../../com.aspose.words.net.system.data/datarow) to add. |
 | pos | int | The (zero-based) location in the collection where you want to add the DataRow. |
 
-### iterator() {#iterator--}
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -204,7 +204,7 @@ Gets an java.util.Iterator for this collection.
 
 **Returns:**
 java.util.Iterator - An java.util.Iterator for this collection.
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -212,7 +212,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -220,7 +220,7 @@ public final native void notifyAll()
 
 
 
-### removeAt(int index) {#removeAt-int-}
+### removeAt(int index) {#removeAt-int}
 ```
 public void removeAt(int index)
 ```
@@ -233,7 +233,7 @@ Removes the row at the specified index from the collection.
 | --- | --- | --- |
 | index | int | The index of the row to remove. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -243,7 +243,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -251,7 +251,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -264,7 +264,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

@@ -3,7 +3,7 @@ title: get_IsHidden
 second_title: Aspose.Words for C++ API Reference
 description: Gets/sets a flag indicating whether this label is hidden. The default value is false.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_ishidden/
 ---
 ## ChartDataLabel::get_IsHidden method

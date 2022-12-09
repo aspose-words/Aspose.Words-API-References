@@ -3,7 +3,7 @@ title: get_InsertNextNumber
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets whether to insert the next sequence number for the specified item.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words.fields/fieldseq/get_insertnextnumber/
 ---
 ## FieldSeq::get_InsertNextNumber method

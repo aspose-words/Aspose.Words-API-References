@@ -3,7 +3,7 @@ title: get_Bidi
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets whether this is a right-to-left table.
 type: docs
-weight: 170
+weight: 183
 url: /cpp/aspose.words.tables/table/get_bidi/
 ---
 ## Table::get_Bidi method

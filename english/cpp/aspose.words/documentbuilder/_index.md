@@ -13,6 +13,7 @@ Provides methods to insert text, images and other content, specify font, paragra
 
 ```cpp
 class DocumentBuilder : public Aspose::Words::IRunAttrSource,
+                        public Aspose::Words::IParaAttrSource,
                         public Aspose::Words::IRowAttrSource,
                         public Aspose::Words::ICellAttrSource
 ```
@@ -39,15 +40,16 @@ class DocumentBuilder : public Aspose::Words::IRunAttrSource,
 | [get_CurrentStructuredDocumentTag](./get_currentstructureddocumenttag/)() | Gets the structured document tag that is currently selected in this [DocumentBuilder](./). |
 | [get_Document](./get_document/)() const | Gets or sets the [Document](./get_document/) object that this object is attached to. |
 | [get_Font](./get_font/)() | Returns an object that represents current font formatting properties. |
-| [get_IsAtEndOfParagraph](./get_isatendofparagraph/)() | Returns true if the cursor is at the end of the current paragraph. |
+| [get_IsAtEndOfParagraph](./get_isatendofparagraph/)() | Returns **true** if the cursor is at the end of the current paragraph. |
 | [get_IsAtEndOfStructuredDocumentTag](./get_isatendofstructureddocumenttag/)() | Returns **true** if the cursor is at the end of a structured document tag. |
-| [get_IsAtStartOfParagraph](./get_isatstartofparagraph/)() | Returns true if the cursor is at the beginning of the current paragraph (no text before the cursor). |
+| [get_IsAtStartOfParagraph](./get_isatstartofparagraph/)() | Returns **true** if the cursor is at the beginning of the current paragraph (no text before the cursor). |
 | [get_Italic](./get_italic/)() | True if the font is formatted as italic. |
 | [get_ListFormat](./get_listformat/)() | Returns an object that represents current list formatting properties. |
 | [get_PageSetup](./get_pagesetup/)() | Returns an object that represents current page setup and section properties. |
 | [get_ParagraphFormat](./get_paragraphformat/)() | Returns an object that represents current paragraph formatting properties. |
 | [get_RowFormat](./get_rowformat/)() | Returns an object that represents current table row formatting properties. |
 | [get_Underline](./get_underline/)() | Gets/sets underline type for the current font. |
+| [GetType](./gettype/)() const override |  |
 | [InsertBreak](./insertbreak/)(Aspose::Words::BreakType) | Inserts a break of the specified type into the document. |
 | [InsertCell](./insertcell/)() | Inserts a table cell into the document. |
 | [InsertChart](./insertchart/)(Aspose::Words::Drawing::Charts::ChartType, double, double) | Inserts an chart object into the document and scales it to the specified size. |
@@ -105,6 +107,7 @@ class DocumentBuilder : public Aspose::Words::IRunAttrSource,
 | [InsertStyleSeparator](./insertstyleseparator/)() | Inserts style separator into the document. |
 | [InsertTableOfContents](./inserttableofcontents/)(const System::String\&) | Inserts a TOC (table of contents) field into the document. |
 | [InsertTextInput](./inserttextinput/)(const System::String\&, Aspose::Words::Fields::TextFormFieldType, const System::String\&, const System::String\&, int32_t) | Inserts a text form field at the current position. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [MoveTo](./moveto/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Moves the cursor to an inline node or to the end of a paragraph. |
 | [MoveToBookmark](./movetobookmark/)(const System::String\&) | Moves the cursor to a bookmark. |
 | [MoveToBookmark](./movetobookmark/)(const System::String\&, bool, bool) | Moves the cursor to a bookmark with greater precision. |
@@ -129,17 +132,18 @@ class DocumentBuilder : public Aspose::Words::IRunAttrSource,
 | [StartColumnBookmark](./startcolumnbookmark/)(const System::String\&) | Marks the current position in the document as a column bookmark start. The position must be in a table cell. |
 | [StartEditableRange](./starteditablerange/)() | Marks the current position in the document as an editable range start. |
 | [StartTable](./starttable/)() | Starts a table in the document. |
+| static [Type](./type/)() |  |
 | [Write](./write/)(const System::String\&) | Inserts a string into the document at the current insert position. |
 | [Writeln](./writeln/)(const System::String\&) | Inserts a string and a paragraph break into the document. |
 | [Writeln](./writeln/)() | Inserts a paragraph break into the document. |
 ## Remarks
 
 
-**DocumentBuilder** makes the process of building a **Document** easier. **Document** is a composite object consisting of a tree of nodes and while inserting content nodes directly into the tree is possible, it requires good understanding of the tree structure. **DocumentBuilder** is a "facade" for the complex structure of **Document** and allows to insert content and formatting quickly and easily.
+[DocumentBuilder](./) makes the process of building a [Document](../document/) easier. [Document](../document/) is a composite object consisting of a tree of nodes and while inserting content nodes directly into the tree is possible, it requires good understanding of the tree structure. [DocumentBuilder](./) is a "facade" for the complex structure of [Document](../document/) and allows to insert content and formatting quickly and easily.
 
-Create a **DocumentBuilder** and associate it with a [Document](./get_document/).
+Create a [DocumentBuilder](./) and associate it with a [Document](../document/).
 
-The **DocumentBuilder** has an internal cursor where the text will be inserted when you call [Write()](../), [Writeln()](../), [InsertBreak()](./insertbreak/) and other methods. You can navigate the **DocumentBuilder** cursor to a different location in a document using various MoveToXXX methods.
+The [DocumentBuilder](./) has an internal cursor where the text will be inserted when you call [Write()](../), [Writeln()](../), [InsertBreak()](./insertbreak/) and other methods. You can navigate the [DocumentBuilder](./) cursor to a different location in a document using various MoveToXXX methods.
 
 Use the [Font](./get_font/) property to specify character formatting that will apply to all text inserted from the current position in the document onwards.
 
@@ -149,7 +153,7 @@ Use the [PageSetup](./get_pagesetup/) property to specify page and section prope
 
 Use the [CellFormat](./get_cellformat/) and [RowFormat](./get_rowformat/) properties to specify formatting properties for table cells and rows. User the [InsertCell](./insertcell/) and [EndRow](./endrow/) methods to build a table.
 
-Note that **Font**, **ParagraphFormat** and **PageSetup** properties are updated whenever you navigate to a different place in the document to reflect formatting properties available at the new location.
+Note that [Font](./get_font/), [ParagraphFormat](./get_paragraphformat/) and [PageSetup](./get_pagesetup/) properties are updated whenever you navigate to a different place in the document to reflect formatting properties available at the new location.
 
 ## Examples
 

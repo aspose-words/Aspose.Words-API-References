@@ -3,7 +3,7 @@ title: get_OpenHyperlinksInNewWindow
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser.
 type: docs
-weight: 274
+weight: 300
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_openhyperlinksinnewwindow/
 ---
 ## PdfSaveOptions::get_OpenHyperlinksInNewWindow method

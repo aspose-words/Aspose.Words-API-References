@@ -3,7 +3,7 @@ title: set_ThemeFontBi
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Font::get_ThemeFontBi.'
 type: docs
-weight: 1288
+weight: 1327
 url: /cpp/aspose.words/font/set_themefontbi/
 ---
 ## Font::set_ThemeFontBi method

@@ -3,7 +3,7 @@ title: IFieldUpdatingCallback
 second_title: Aspose.Words for C++ API Reference
 description: Implement this interface if you want to have your own custom methods called during a field update.
 type: docs
-weight: 1574
+weight: 1587
 url: /cpp/aspose.words.fields/ifieldupdatingcallback/
 ---
 ## IFieldUpdatingCallback interface
@@ -21,6 +21,9 @@ class IFieldUpdatingCallback : public System::Object
 | --- | --- |
 | virtual [FieldUpdated](./fieldupdated/)(System::SharedPtr\<Aspose::Words::Fields::Field\>) | A user defined method that is called just after a field is updated. |
 | virtual [FieldUpdating](./fieldupdating/)(System::SharedPtr\<Aspose::Words::Fields::Field\>) | A user defined method that is called just before a field is updated. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

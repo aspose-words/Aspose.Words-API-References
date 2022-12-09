@@ -1,7 +1,7 @@
 ---
 title: WarningInfo
 second_title: Aspose.Words for C++ API Reference
-description: Contains information about a warning that Aspose.Words issued during document loading or saving.
+description: Contains information about a warning that Aspose.Words issued during document loading or saving. To learn more, visit the  documentation article.
 type: docs
 weight: 950
 url: /cpp/aspose.words/warninginfo/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/warninginfo/
 ## WarningInfo class
 
 
-Contains information about a warning that Aspose.Words issued during document loading or saving.
+Contains information about a warning that Aspose.Words issued during document loading or saving. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
 
 ```cpp
 class WarningInfo : public System::Object
@@ -22,6 +22,9 @@ class WarningInfo : public System::Object
 | [get_Description](./get_description/)() const | Returns the description of the warning. |
 | [get_Source](./get_source/)() const | Returns the source of the warning. |
 | [get_WarningType](./get_warningtype/)() const | Returns the type of the warning. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

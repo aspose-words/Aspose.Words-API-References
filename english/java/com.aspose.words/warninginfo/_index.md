@@ -3,7 +3,7 @@ title: WarningInfo
 second_title: Aspose.Words for Java API Reference
 description: Contains information about a warning that Aspose.Words issued during document loading or saving.
 type: docs
-weight: 604
+weight: 607
 url: /java/com.aspose.words/warninginfo/
 ---
 
@@ -15,26 +15,29 @@ public class WarningInfo
 
 Contains information about a warning that Aspose.Words issued during document loading or saving.
 
-To learn more, visit the **Programming with Documents** documentation article.
+To learn more, visit the [ Programming with Documents ][Programming with Documents] documentation article.
 
-You do not create instances of this class. Objects of this class are created and passed by Aspose.Words to the [IWarningCallback.warning(com.aspose.words.WarningInfo)](../../com.aspose.words/iwarningcallback\#warning-com.aspose.words.WarningInfo-) method.
+You do not create instances of this class. Objects of this class are created and passed by Aspose.Words to the [IWarningCallback.warning(com.aspose.words.WarningInfo)](../../com.aspose.words/iwarningcallback\#warning-com.aspose.words.WarningInfo) method.
+
+
+[Programming with Documents]: https://docs.aspose.com/words/java/programming-with-documents/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getDescription()](#getDescription--) | Returns the description of the warning. |
-| [getSource()](#getSource--) | Returns the source of the warning. |
-| [getWarningType()](#getWarningType--) | Returns the type of the warning. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getDescription()](#getDescription) | Returns the description of the warning. |
+| [getSource()](#getSource) | Returns the source of the warning. |
+| [getWarningType()](#getWarningType) | Returns the type of the warning. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -49,7 +52,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -59,7 +62,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDescription() {#getDescription--}
+### getDescription() {#getDescription}
 ```
 public String getDescription()
 ```
@@ -69,7 +72,7 @@ Returns the description of the warning.
 
 **Returns:**
 java.lang.String - The description of the warning.
-### getSource() {#getSource--}
+### getSource() {#getSource}
 ```
 public int getSource()
 ```
@@ -79,7 +82,7 @@ Returns the source of the warning.
 
 **Returns:**
 int - The source of the warning. The returned value is one of [WarningSource](../../com.aspose.words/warningsource) constants.
-### getWarningType() {#getWarningType--}
+### getWarningType() {#getWarningType}
 ```
 public int getWarningType()
 ```
@@ -89,7 +92,7 @@ Returns the type of the warning.
 
 **Returns:**
 int - The type of the warning. The returned value is a bitwise combination of [WarningType](../../com.aspose.words/warningtype) constants.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -99,7 +102,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -107,7 +110,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -115,7 +118,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -125,7 +128,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -133,7 +136,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -146,7 +149,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

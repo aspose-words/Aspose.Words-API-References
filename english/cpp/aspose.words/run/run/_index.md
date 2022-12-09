@@ -3,13 +3,13 @@ title: Run
 second_title: Aspose.Words for C++ API Reference
 description: Initializes a new instance of the Run class.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words/run/run/
 ---
 ## Run::Run(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&) constructor
 
 
-Initializes a new instance of the **Run** class.
+Initializes a new instance of the [Run](../) class.
 
 ```cpp
 Aspose::Words::Run::Run(const System::SharedPtr<Aspose::Words::DocumentBase> &doc)
@@ -22,9 +22,9 @@ Aspose::Words::Run::Run(const System::SharedPtr<Aspose::Words::DocumentBase> &do
 ## Remarks
 
 
-When **Run** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+When [Run](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is **null**.
 
-To append **Run** to the document use InsertAfter or InsertBefore on the paragraph where you want the run inserted.
+To append [Run](../) to the document use [InsertAfter()](../) or [InsertBefore()](../) on the paragraph where you want the run inserted.
 
 ## Examples
 
@@ -97,9 +97,9 @@ Aspose::Words::Run::Run(const System::SharedPtr<Aspose::Words::DocumentBase> &do
 ## Remarks
 
 
-When **Run** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+When [Run](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is **null**.
 
-To append **Run** to the document use InsertAfter or InsertBefore on the paragraph where you want the run inserted.
+To append [Run](../) to the document use [InsertAfter()](../) or [InsertBefore()](../) on the paragraph where you want the run inserted.
 
 ## Examples
 

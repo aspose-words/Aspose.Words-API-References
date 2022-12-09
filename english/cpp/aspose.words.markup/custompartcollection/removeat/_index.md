@@ -3,7 +3,7 @@ title: RemoveAt
 second_title: Aspose.Words for C++ API Reference
 description: Removes an item at the specified index.
 type: docs
-weight: 157
+weight: 196
 url: /cpp/aspose.words.markup/custompartcollection/removeat/
 ---
 ## CustomPartCollection::RemoveAt method

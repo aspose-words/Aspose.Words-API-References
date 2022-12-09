@@ -3,7 +3,7 @@ title: IFieldUpdateCultureProvider
 second_title: Aspose.Words for Java API Reference
 description: When implemented provides a  object that should be used during the update of a particular field.
 type: docs
-weight: 643
+weight: 646
 url: /java/com.aspose.words/ifieldupdatecultureprovider/
 ---
 ```
@@ -15,8 +15,8 @@ When implemented, provides a [CultureInfo](../../com.aspose.words.net.system.glo
 
 | Method | Description |
 | --- | --- |
-| [getCulture(String culture, Field field)](#getCulture-java.lang.String-com.aspose.words.Field-) | Returns a [CultureInfo](../../com.aspose.words.net.system.globalization/cultureinfo) object to be used during the field's update. |
-### getCulture(String culture, Field field) {#getCulture-java.lang.String-com.aspose.words.Field-}
+| [getCulture(String culture, Field field)](#getCulture-java.lang.String-com.aspose.words.Field) | Returns a [CultureInfo](../../com.aspose.words.net.system.globalization/cultureinfo) object to be used during the field's update. |
+### getCulture(String culture, Field field) {#getCulture-java.lang.String-com.aspose.words.Field}
 ```
 public abstract System.Globalization.CultureInfo getCulture(String culture, Field field)
 ```

@@ -3,7 +3,7 @@ title: get_Spacing
 second_title: Aspose.Words for C++ API Reference
 description: Defines the amount of spacing for text. 1 means 100%.
 type: docs
-weight: 170
+weight: 183
 url: /cpp/aspose.words.drawing/textpath/get_spacing/
 ---
 ## TextPath::get_Spacing method

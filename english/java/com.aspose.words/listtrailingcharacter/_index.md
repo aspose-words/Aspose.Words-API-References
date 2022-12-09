@@ -3,7 +3,7 @@ title: ListTrailingCharacter
 second_title: Aspose.Words for Java API Reference
 description: Specifies the character that separates the list label from the text of the paragraph.
 type: docs
-weight: 376
+weight: 378
 url: /java/com.aspose.words/listtrailingcharacter/
 ---
 
@@ -15,7 +15,7 @@ public class ListTrailingCharacter
 
 Specifies the character that separates the list label from the text of the paragraph.
 
-Used as a value for the [ListLevel.getTrailingCharacter()](../../com.aspose.words/listlevel\#getTrailingCharacter--) / [ListLevel.setTrailingCharacter(int)](../../com.aspose.words/listlevel\#setTrailingCharacter-int-) property.
+Used as a value for the [ListLevel.getTrailingCharacter()](../../com.aspose.words/listlevel\#getTrailingCharacter) / [ListLevel.setTrailingCharacter(int)](../../com.aspose.words/listlevel\#setTrailingCharacter-int) property.
 ## Fields
 
 | Field | Description |
@@ -28,19 +28,19 @@ Used as a value for the [ListLevel.getTrailingCharacter()](../../com.aspose.word
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String listTrailingCharacterName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int listTrailingCharacter)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int listTrailingCharacter)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String listTrailingCharacterName)](#fromName-java.lang.String) |  |
+| [getClass()](#getClass) |  |
+| [getName(int listTrailingCharacter)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int listTrailingCharacter)](#toString-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### NOTHING {#NOTHING}
 ```
 public static int NOTHING
@@ -71,7 +71,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -86,7 +86,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String listTrailingCharacterName) {#fromName-java.lang.String-}
+### fromName(String listTrailingCharacterName) {#fromName-java.lang.String}
 ```
 public static int fromName(String listTrailingCharacterName)
 ```
@@ -101,7 +101,7 @@ public static int fromName(String listTrailingCharacterName)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -111,7 +111,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int listTrailingCharacter) {#getName-int-}
+### getName(int listTrailingCharacter) {#getName-int}
 ```
 public static String getName(int listTrailingCharacter)
 ```
@@ -126,7 +126,7 @@ public static String getName(int listTrailingCharacter)
 
 **Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -136,7 +136,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -146,7 +146,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -154,7 +154,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -162,7 +162,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -172,7 +172,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int listTrailingCharacter) {#toString-int-}
+### toString(int listTrailingCharacter) {#toString-int}
 ```
 public static String toString(int listTrailingCharacter)
 ```
@@ -187,7 +187,7 @@ public static String toString(int listTrailingCharacter)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -195,7 +195,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -208,7 +208,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

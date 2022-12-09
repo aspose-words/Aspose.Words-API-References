@@ -1,7 +1,7 @@
 ---
 title: ComparisonExpression
 second_title: Aspose.Words for C++ API Reference
-description: The comparison expression.
+description: The comparison expression. To learn more, visit the  documentation article.
 type: docs
 weight: 27
 url: /cpp/aspose.words.fields/comparisonexpression/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fields/comparisonexpression/
 ## ComparisonExpression class
 
 
-The comparison expression.
+The comparison expression. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class ComparisonExpression : public System::Object
@@ -22,6 +22,9 @@ class ComparisonExpression : public System::Object
 | [get_ComparisonOperator](./get_comparisonoperator/)() const | Gets the comparison operator. |
 | [get_LeftExpression](./get_leftexpression/)() const | Gets the left expression. |
 | [get_RightExpression](./get_rightexpression/)() const | Gets the right expression. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

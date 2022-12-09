@@ -3,7 +3,7 @@ title: set_CompressionLevel
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Saving::OoxmlSaveOptions::get_CompressionLevel.'
 type: docs
-weight: 92
+weight: 131
 url: /cpp/aspose.words.saving/ooxmlsaveoptions/set_compressionlevel/
 ---
 ## OoxmlSaveOptions::set_CompressionLevel method

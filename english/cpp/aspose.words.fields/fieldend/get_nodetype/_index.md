@@ -3,7 +3,7 @@ title: get_NodeType
 second_title: Aspose.Words for C++ API Reference
 description: Returns FieldEnd.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/aspose.words.fields/fieldend/get_nodetype/
 ---
 ## FieldEnd::get_NodeType method

@@ -1,7 +1,7 @@
 ---
 title: WarningInfoCollection
 second_title: Aspose.Words for C++ API Reference
-description: Represents a typed collection of WarningInfo objects.
+description: Represents a typed collection of WarningInfo objects. To learn more, visit the  documentation article.
 type: docs
 weight: 963
 url: /cpp/aspose.words/warninginfocollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/warninginfocollection/
 ## WarningInfoCollection class
 
 
-Represents a typed collection of [WarningInfo](../warninginfo/) objects.
+Represents a typed collection of [WarningInfo](../warninginfo/) objects. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
 
 ```cpp
 class WarningInfoCollection : public Aspose::Words::IWarningCallback,
@@ -29,7 +29,10 @@ class WarningInfoCollection : public Aspose::Words::IWarningCallback,
 | [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Gets an item at the specified index. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 | [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
 | [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
 | [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |

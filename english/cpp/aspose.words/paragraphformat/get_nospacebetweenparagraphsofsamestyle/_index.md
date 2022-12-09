@@ -3,13 +3,13 @@ title: get_NoSpaceBetweenParagraphsOfSameStyle
 second_title: Aspose.Words for C++ API Reference
 description: When true, SpaceBefore and SpaceAfter will be ignored between the paragraphs of the same style.
 type: docs
-weight: 300
+weight: 313
 url: /cpp/aspose.words/paragraphformat/get_nospacebetweenparagraphsofsamestyle/
 ---
 ## ParagraphFormat::get_NoSpaceBetweenParagraphsOfSameStyle method
 
 
-When true, [SpaceBefore](../get_spacebefore/) and [SpaceAfter](../get_spaceafter/) will be ignored between the paragraphs of the same style.
+When **true**, [SpaceBefore](../get_spacebefore/) and [SpaceAfter](../get_spaceafter/) will be ignored between the paragraphs of the same style.
 
 ```cpp
 bool Aspose::Words::ParagraphFormat::get_NoSpaceBetweenParagraphsOfSameStyle()

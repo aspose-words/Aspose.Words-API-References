@@ -1,7 +1,7 @@
 ---
 title: ListCollection
 second_title: Aspose.Words for C++ API Reference
-description: Stores and manages formatting of bulleted and numbered lists used in a document.
+description: Stores and manages formatting of bulleted and numbered lists used in a document. To learn more, visit the  documentation article.
 type: docs
 weight: 14
 url: /cpp/aspose.words.lists/listcollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.lists/listcollection/
 ## ListCollection class
 
 
-Stores and manages formatting of bulleted and numbered lists used in a document.
+Stores and manages formatting of bulleted and numbered lists used in a document. To learn more, visit the [Working with Lists](https://docs.aspose.com/words/cpp/working-with-lists/) documentation article.
 
 ```cpp
 class ListCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Lists::List>>
@@ -32,7 +32,10 @@ class ListCollection : public System::Collections::Generic::IEnumerable<System::
 | [get_Document](./get_document/)() const | Gets the owner document. |
 | [GetEnumerator](./getenumerator/)() override | Gets the enumerator object that will enumerate lists in the document. |
 | [GetListByListId](./getlistbylistid/)(int32_t) | Gets a list by a list identifier. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Gets a list by index. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 | [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
 | [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
 | [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |

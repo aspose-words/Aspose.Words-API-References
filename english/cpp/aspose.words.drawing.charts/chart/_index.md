@@ -1,7 +1,7 @@
 ---
 title: Chart
 second_title: Aspose.Words for C++ API Reference
-description: Provides access to the chart shape properties.
+description: Provides access to the chart shape properties. To learn more, visit the  documentation article.
 type: docs
 weight: 40
 url: /cpp/aspose.words.drawing.charts/chart/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing.charts/chart/
 ## Chart class
 
 
-Provides access to the chart shape properties.
+Provides access to the chart shape properties. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
 class Chart : public System::Object
@@ -26,7 +26,10 @@ class Chart : public System::Object
 | [get_Series](./get_series/)() | Provides access to series collection. |
 | [get_SourceFullName](./get_sourcefullname/)() | Gets the path and name of an xls/xlsx file this chart is linked to. |
 | [get_Title](./get_title/)() | Provides access to the chart title properties. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_SourceFullName](./set_sourcefullname/)(const System::String\&) | Gets the path and name of an xls/xlsx file this chart is linked to. |
+| static [Type](./type/)() |  |
 
 ## Examples
 

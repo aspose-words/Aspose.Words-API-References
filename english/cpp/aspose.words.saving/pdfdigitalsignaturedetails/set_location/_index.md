@@ -3,7 +3,7 @@ title: set_Location
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Saving::PdfDigitalSignatureDetails::get_Location.'
 type: docs
-weight: 118
+weight: 157
 url: /cpp/aspose.words.saving/pdfdigitalsignaturedetails/set_location/
 ---
 ## PdfDigitalSignatureDetails::set_Location method

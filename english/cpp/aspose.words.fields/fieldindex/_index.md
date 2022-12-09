@@ -1,7 +1,7 @@
 ---
 title: FieldIndex
 second_title: Aspose.Words for C++ API Reference
-description: Implements the INDEX field.
+description: Implements the INDEX field. To learn more, visit the  documentation article.
 type: docs
 weight: 755
 url: /cpp/aspose.words.fields/fieldindex/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fields/fieldindex/
 ## FieldIndex class
 
 
-Implements the INDEX field.
+Implements the INDEX field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class FieldIndex : public Aspose::Words::Fields::Field,
@@ -42,7 +42,7 @@ class FieldIndex : public Aspose::Words::Fields::Field,
 | [get_PageRangeSeparator](./get_pagerangeseparator/)() | Gets or sets the character sequence that is used to separate the start and end of a page range. |
 | [get_Result](../field/get_result/)() | Gets or sets text that is between the field separator and field end. |
 | [get_RunSubentriesOnSameLine](./get_runsubentriesonsameline/)() | Gets or sets whether run subentries into the same line as the main entry. |
-| [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be null. |
+| [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be **null**. |
 | [get_SequenceName](./get_sequencename/)() | Gets or sets the name of a sequence whose number is included with the page number. |
 | [get_SequenceSeparator](./get_sequenceseparator/)() | Gets or sets the character sequence that is used to separate sequence numbers and page numbers. |
 | [get_Start](../field/get_start/)() const | Gets the node that represents the start of the field. |
@@ -50,6 +50,8 @@ class FieldIndex : public Aspose::Words::Fields::Field,
 | [get_UseYomi](./get_useyomi/)() | Gets or sets whether to enable the use of yomi text for index entries. |
 | [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_BookmarkName](./set_bookmarkname/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldIndex::get_BookmarkName](./get_bookmarkname/). |
 | [set_CrossReferenceSeparator](./set_crossreferenceseparator/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldIndex::get_CrossReferenceSeparator](./get_crossreferenceseparator/). |
@@ -69,6 +71,7 @@ class FieldIndex : public Aspose::Words::Fields::Field,
 | [set_SequenceName](./set_sequencename/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldIndex::get_SequenceName](./get_sequencename/). |
 | [set_SequenceSeparator](./set_sequenceseparator/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldIndex::get_SequenceSeparator](./get_sequenceseparator/). |
 | [set_UseYomi](./set_useyomi/)(bool) | Setter for [Aspose::Words::Fields::FieldIndex::get_UseYomi](./get_useyomi/). |
+| static [Type](./type/)() |  |
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |

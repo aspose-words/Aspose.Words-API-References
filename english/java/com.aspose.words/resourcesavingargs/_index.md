@@ -3,7 +3,7 @@ title: ResourceSavingArgs
 second_title: Aspose.Words for Java API Reference
 description: Provides data for the  event.
 type: docs
-weight: 481
+weight: 484
 url: /java/com.aspose.words/resourcesavingargs/
 ---
 
@@ -13,40 +13,43 @@ java.lang.Object
 public class ResourceSavingArgs
 ```
 
-Provides data for the [IResourceSavingCallback.resourceSaving(com.aspose.words.ResourceSavingArgs)](../../com.aspose.words/iresourcesavingcallback\#resourceSaving-com.aspose.words.ResourceSavingArgs-) event.
+Provides data for the [IResourceSavingCallback.resourceSaving(com.aspose.words.ResourceSavingArgs)](../../com.aspose.words/iresourcesavingcallback\#resourceSaving-com.aspose.words.ResourceSavingArgs) event.
 
-To learn more, visit the **Save a Document** documentation article.
+To learn more, visit the [ Save a Document ][Save a Document] documentation article.
 
 By default, when Aspose.Words saves a document to fixed page HTML or SVG, it saves each resource into a separate file. Aspose.Words uses the document file name and a unique number to generate unique file name for each resource found in the document.
 
 [ResourceSavingArgs](../../com.aspose.words/resourcesavingargs) allows to redefine how resource file names are generated or to completely circumvent saving of resources into files by providing your own stream objects.
 
-To apply your own logic for generating resource file names use the [getResourceFileName()](../../com.aspose.words/resourcesavingargs\#getResourceFileName--) / [setResourceFileName(java.lang.String)](../../com.aspose.words/resourcesavingargs\#setResourceFileName-java.lang.String-) property.
+To apply your own logic for generating resource file names use the [getResourceFileName()](../../com.aspose.words/resourcesavingargs\#getResourceFileName) / [setResourceFileName(java.lang.String)](../../com.aspose.words/resourcesavingargs\#setResourceFileName-java.lang.String) property.
 
 To save resources into streams instead of files, use the **P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream** property.
+
+
+[Save a Document]: https://docs.aspose.com/words/java/save-a-document/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getDocument()](#getDocument--) | Gets the document object that is currently being saved. |
-| [getKeepResourceStreamOpen()](#getKeepResourceStreamOpen--) | Specifies whether Aspose.Words should keep the stream open or close it after saving a resource. |
-| [getResourceFileName()](#getResourceFileName--) | Gets the file name (without path) where the resource will be saved to. |
-| [getResourceFileUri()](#getResourceFileUri--) | Gets the uniform resource identifier (URI) used to reference the resource file from the document. |
-| [getResourceStream()](#getResourceStream--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setKeepResourceStreamOpen(boolean value)](#setKeepResourceStreamOpen-boolean-) | Specifies whether Aspose.Words should keep the stream open or close it after saving a resource. |
-| [setResourceFileName(String value)](#setResourceFileName-java.lang.String-) | Sets the file name (without path) where the resource will be saved to. |
-| [setResourceFileUri(String value)](#setResourceFileUri-java.lang.String-) | Sets the uniform resource identifier (URI) used to reference the resource file from the document. |
-| [setResourceStream(OutputStream value)](#setResourceStream-java.io.OutputStream-) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getDocument()](#getDocument) | Gets the document object that is currently being saved. |
+| [getKeepResourceStreamOpen()](#getKeepResourceStreamOpen) | Specifies whether Aspose.Words should keep the stream open or close it after saving a resource. |
+| [getResourceFileName()](#getResourceFileName) | Gets the file name (without path) where the resource will be saved to. |
+| [getResourceFileUri()](#getResourceFileUri) | Gets the uniform resource identifier (URI) used to reference the resource file from the document. |
+| [getResourceStream()](#getResourceStream) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setKeepResourceStreamOpen(boolean value)](#setKeepResourceStreamOpen-boolean) | Specifies whether Aspose.Words should keep the stream open or close it after saving a resource. |
+| [setResourceFileName(String value)](#setResourceFileName-java.lang.String) | Sets the file name (without path) where the resource will be saved to. |
+| [setResourceFileUri(String value)](#setResourceFileUri-java.lang.String) | Sets the uniform resource identifier (URI) used to reference the resource file from the document. |
+| [setResourceStream(OutputStream value)](#setResourceStream-java.io.OutputStream) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -61,7 +64,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -71,7 +74,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDocument() {#getDocument--}
+### getDocument() {#getDocument}
 ```
 public Document getDocument()
 ```
@@ -81,7 +84,7 @@ Gets the document object that is currently being saved.
 
 **Returns:**
 [Document](../../com.aspose.words/document) - The document object that is currently being saved.
-### getKeepResourceStreamOpen() {#getKeepResourceStreamOpen--}
+### getKeepResourceStreamOpen() {#getKeepResourceStreamOpen}
 ```
 public boolean getKeepResourceStreamOpen()
 ```
@@ -95,7 +98,7 @@ Default is  false  and Aspose.Words will close the stream you provided in the **
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getResourceFileName() {#getResourceFileName--}
+### getResourceFileName() {#getResourceFileName}
 ```
 public String getResourceFileName()
 ```
@@ -113,16 +116,16 @@ When saving a document to a file, the generated resource file name looks like *.
 
 When saving a document to a stream, the generated resource file name looks like *Aspose.Words..![Image 1][].*.
 
-[getResourceFileName()](../../com.aspose.words/resourcesavingargs\#getResourceFileName--) / [setResourceFileName(java.lang.String)](../../com.aspose.words/resourcesavingargs\#setResourceFileName-java.lang.String-) must contain only the file name without the path. Aspose.Words determines the path for saving and the value of the  src  attribute for writing to fixed page HTML or SVG using the document file name, the [HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-) or [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions\#getResourcesFolder--) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolder-java.lang.String-) and [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias--) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String-) or [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions\#getResourcesFolderAlias--) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolderAlias-java.lang.String-) properties.
+[getResourceFileName()](../../com.aspose.words/resourcesavingargs\#getResourceFileName) / [setResourceFileName(java.lang.String)](../../com.aspose.words/resourcesavingargs\#setResourceFileName-java.lang.String) must contain only the file name without the path. Aspose.Words determines the path for saving and the value of the  src  attribute for writing to fixed page HTML or SVG using the document file name, the [HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String) or [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions\#getResourcesFolder) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolder-java.lang.String) and [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String) or [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions\#getResourcesFolderAlias) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolderAlias-java.lang.String) properties.
 
-**P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream** [HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-) [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions\#getResourcesFolder--) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolder-java.lang.String-) [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias--) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String-) [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions\#getResourcesFolderAlias--) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolderAlias-java.lang.String-)
+**P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream** [HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String) [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions\#getResourcesFolder) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolder-java.lang.String) [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String) [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions\#getResourcesFolderAlias) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolderAlias-java.lang.String)
 
 
 [Image 1]: 
 
 **Returns:**
 java.lang.String - The file name (without path) where the resource will be saved to.
-### getResourceFileUri() {#getResourceFileUri--}
+### getResourceFileUri() {#getResourceFileUri}
 ```
 public String getResourceFileUri()
 ```
@@ -136,11 +139,11 @@ Aspose.Words automatically generates an URI for every resource file during expor
 
 When the event is fired, this property contains the URI that was generated by Aspose.Words. You can change the value of this property to provide a custom URI for the resource file.
 
-[HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-) [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions\#getResourcesFolder--) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolder-java.lang.String-) [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias--) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String-) [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions\#getResourcesFolderAlias--) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolderAlias-java.lang.String-)
+[HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String) [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions\#getResourcesFolder) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolder-java.lang.String) [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String) [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions\#getResourcesFolderAlias) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolderAlias-java.lang.String)
 
 **Returns:**
 java.lang.String - The uniform resource identifier (URI) used to reference the resource file from the document.
-### getResourceStream() {#getResourceStream--}
+### getResourceStream() {#getResourceStream}
 ```
 public OutputStream getResourceStream()
 ```
@@ -150,7 +153,7 @@ public OutputStream getResourceStream()
 
 **Returns:**
 java.io.OutputStream
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -160,7 +163,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -168,7 +171,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -176,7 +179,7 @@ public final native void notifyAll()
 
 
 
-### setKeepResourceStreamOpen(boolean value) {#setKeepResourceStreamOpen-boolean-}
+### setKeepResourceStreamOpen(boolean value) {#setKeepResourceStreamOpen-boolean}
 ```
 public void setKeepResourceStreamOpen(boolean value)
 ```
@@ -193,7 +196,7 @@ Default is  false  and Aspose.Words will close the stream you provided in the **
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setResourceFileName(String value) {#setResourceFileName-java.lang.String-}
+### setResourceFileName(String value) {#setResourceFileName-java.lang.String}
 ```
 public void setResourceFileName(String value)
 ```
@@ -211,9 +214,9 @@ When saving a document to a file, the generated resource file name looks like *.
 
 When saving a document to a stream, the generated resource file name looks like *Aspose.Words..![Image 1][].*.
 
-[getResourceFileName()](../../com.aspose.words/resourcesavingargs\#getResourceFileName--) / [setResourceFileName(java.lang.String)](../../com.aspose.words/resourcesavingargs\#setResourceFileName-java.lang.String-) must contain only the file name without the path. Aspose.Words determines the path for saving and the value of the  src  attribute for writing to fixed page HTML or SVG using the document file name, the [HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-) or [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions\#getResourcesFolder--) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolder-java.lang.String-) and [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias--) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String-) or [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions\#getResourcesFolderAlias--) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolderAlias-java.lang.String-) properties.
+[getResourceFileName()](../../com.aspose.words/resourcesavingargs\#getResourceFileName) / [setResourceFileName(java.lang.String)](../../com.aspose.words/resourcesavingargs\#setResourceFileName-java.lang.String) must contain only the file name without the path. Aspose.Words determines the path for saving and the value of the  src  attribute for writing to fixed page HTML or SVG using the document file name, the [HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String) or [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions\#getResourcesFolder) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolder-java.lang.String) and [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String) or [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions\#getResourcesFolderAlias) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolderAlias-java.lang.String) properties.
 
-**P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream** [HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-) [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions\#getResourcesFolder--) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolder-java.lang.String-) [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias--) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String-) [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions\#getResourcesFolderAlias--) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolderAlias-java.lang.String-)
+**P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream** [HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String) [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions\#getResourcesFolder) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolder-java.lang.String) [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String) [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions\#getResourcesFolderAlias) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolderAlias-java.lang.String)
 
 
 [Image 1]: 
@@ -223,7 +226,7 @@ When saving a document to a stream, the generated resource file name looks like 
 | --- | --- | --- |
 | value | java.lang.String | The file name (without path) where the resource will be saved to. |
 
-### setResourceFileUri(String value) {#setResourceFileUri-java.lang.String-}
+### setResourceFileUri(String value) {#setResourceFileUri-java.lang.String}
 ```
 public void setResourceFileUri(String value)
 ```
@@ -237,14 +240,14 @@ Aspose.Words automatically generates an URI for every resource file during expor
 
 When the event is fired, this property contains the URI that was generated by Aspose.Words. You can change the value of this property to provide a custom URI for the resource file.
 
-[HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-) [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions\#getResourcesFolder--) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolder-java.lang.String-) [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias--) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String-) [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions\#getResourcesFolderAlias--) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolderAlias-java.lang.String-)
+[HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String) [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions\#getResourcesFolder) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolder-java.lang.String) [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String) [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions\#getResourcesFolderAlias) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolderAlias-java.lang.String)
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The uniform resource identifier (URI) used to reference the resource file from the document. |
 
-### setResourceStream(OutputStream value) {#setResourceStream-java.io.OutputStream-}
+### setResourceStream(OutputStream value) {#setResourceStream-java.io.OutputStream}
 ```
 public void setResourceStream(OutputStream value)
 ```
@@ -257,7 +260,7 @@ public void setResourceStream(OutputStream value)
 | --- | --- | --- |
 | value | java.io.OutputStream |  |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -267,7 +270,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -275,7 +278,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -288,7 +291,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

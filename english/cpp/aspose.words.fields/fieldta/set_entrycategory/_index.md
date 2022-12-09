@@ -3,7 +3,7 @@ title: set_EntryCategory
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Fields::FieldTA::get_EntryCategory.'
 type: docs
-weight: 79
+weight: 118
 url: /cpp/aspose.words.fields/fieldta/set_entrycategory/
 ---
 ## FieldTA::set_EntryCategory method

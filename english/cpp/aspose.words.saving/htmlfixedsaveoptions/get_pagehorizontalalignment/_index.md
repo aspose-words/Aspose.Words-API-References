@@ -1,15 +1,15 @@
 ---
 title: get_PageHorizontalAlignment
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the horizontal alignment of pages in an HTML document. Default value is HtmlFixedHorizontalPageAlignment.Center.
+description: Specifies the horizontal alignment of pages in an HTML document. Default value is Center.
 type: docs
-weight: 131
+weight: 144
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_pagehorizontalalignment/
 ---
 ## HtmlFixedSaveOptions::get_PageHorizontalAlignment method
 
 
-Specifies the horizontal alignment of pages in an HTML document. Default value is **HtmlFixedHorizontalPageAlignment.Center**.
+Specifies the horizontal alignment of pages in an HTML document. Default value is [Center](../../htmlfixedpagehorizontalalignment/).
 
 ```cpp
 Aspose::Words::Saving::HtmlFixedPageHorizontalAlignment Aspose::Words::Saving::HtmlFixedSaveOptions::get_PageHorizontalAlignment() const

@@ -3,7 +3,7 @@ title: set_OwnerPassword
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Saving::PdfEncryptionDetails::get_OwnerPassword.'
 type: docs
-weight: 53
+weight: 92
 url: /cpp/aspose.words.saving/pdfencryptiondetails/set_ownerpassword/
 ---
 ## PdfEncryptionDetails::set_OwnerPassword method

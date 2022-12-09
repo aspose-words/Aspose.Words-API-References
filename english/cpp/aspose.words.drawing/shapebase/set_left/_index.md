@@ -3,7 +3,7 @@ title: set_Left
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Drawing::ShapeBase::get_Left.'
 type: docs
-weight: 989
+weight: 1028
 url: /cpp/aspose.words.drawing/shapebase/set_left/
 ---
 ## ShapeBase::set_Left method

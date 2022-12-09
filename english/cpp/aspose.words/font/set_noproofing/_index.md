@@ -3,7 +3,7 @@ title: set_NoProofing
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Font::get_NoProofing.'
 type: docs
-weight: 1028
+weight: 1067
 url: /cpp/aspose.words/font/set_noproofing/
 ---
 ## Font::set_NoProofing method

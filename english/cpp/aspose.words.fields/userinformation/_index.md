@@ -1,15 +1,15 @@
 ---
 title: UserInformation
 second_title: Aspose.Words for C++ API Reference
-description: Specifies information about the user.
+description: Specifies information about the user. To learn more, visit the  documentation article.
 type: docs
-weight: 1496
+weight: 1509
 url: /cpp/aspose.words.fields/userinformation/
 ---
 ## UserInformation class
 
 
-Specifies information about the user.
+Specifies information about the user. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class UserInformation : public System::Object
@@ -23,9 +23,12 @@ class UserInformation : public System::Object
 | static [get_DefaultUser](./get_defaultuser/)() | Default user information. |
 | [get_Initials](./get_initials/)() const | Gets or sets the user's initials. |
 | [get_Name](./get_name/)() const | Gets or sets the user's name. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Address](./set_address/)(const System::String\&) | Setter for [Aspose::Words::Fields::UserInformation::get_Address](./get_address/). |
 | [set_Initials](./set_initials/)(const System::String\&) | Setter for [Aspose::Words::Fields::UserInformation::get_Initials](./get_initials/). |
 | [set_Name](./set_name/)(const System::String\&) | Setter for [Aspose::Words::Fields::UserInformation::get_Name](./get_name/). |
+| static [Type](./type/)() |  |
 | [UserInformation](./userinformation/)() |  |
 
 ## Examples

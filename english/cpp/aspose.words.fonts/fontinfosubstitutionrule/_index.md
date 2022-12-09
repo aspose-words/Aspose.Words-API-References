@@ -1,7 +1,7 @@
 ---
 title: FontInfoSubstitutionRule
 second_title: Aspose.Words for C++ API Reference
-description: Font info substitution rule.
+description: Font info substitution rule. To learn more, visit the  documentation article.
 type: docs
 weight: 92
 url: /cpp/aspose.words.fonts/fontinfosubstitutionrule/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fonts/fontinfosubstitutionrule/
 ## FontInfoSubstitutionRule class
 
 
-[Font](../../aspose.words/font/) info substitution rule.
+[Font](../../aspose.words/font/) info substitution rule. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
 
 ```cpp
 class FontInfoSubstitutionRule : public Aspose::Words::Fonts::FontSubstitutionRule
@@ -20,7 +20,10 @@ class FontInfoSubstitutionRule : public Aspose::Words::Fonts::FontSubstitutionRu
 | Method | Description |
 | --- | --- |
 | virtual [get_Enabled](../fontsubstitutionrule/get_enabled/)() | Specifies whether the rule is enabled or not. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | virtual [set_Enabled](../fontsubstitutionrule/set_enabled/)(bool) | Setter for [Aspose::Words::Fonts::FontSubstitutionRule::get_Enabled](../fontsubstitutionrule/get_enabled/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

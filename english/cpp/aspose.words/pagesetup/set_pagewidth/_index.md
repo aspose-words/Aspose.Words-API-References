@@ -3,7 +3,7 @@ title: set_PageWidth
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::PageSetup::get_PageWidth.'
 type: docs
-weight: 963
+weight: 1002
 url: /cpp/aspose.words/pagesetup/set_pagewidth/
 ---
 ## PageSetup::set_PageWidth method

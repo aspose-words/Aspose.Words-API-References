@@ -3,7 +3,7 @@ title: Forms2OleControl
 second_title: Aspose.Words for Java API Reference
 description: Represents Microsoft Forms 2.0 OLE control.
 type: docs
-weight: 298
+weight: 300
 url: /java/com.aspose.words/forms2olecontrol/
 ---
 
@@ -15,39 +15,42 @@ public abstract class Forms2OleControl extends OleControl
 
 Represents Microsoft Forms 2.0 OLE control.
 
-To learn more, visit the **Working with Ole Objects** documentation article.
+To learn more, visit the [ Working with Ole Objects ][Working with Ole Objects] documentation article.
+
+
+[Working with Ole Objects]: https://docs.aspose.com/words/java/working-with-ole-objects-and-online-video/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [Forms2OleControl()](#Forms2OleControl--) |  |
+| [Forms2OleControl()](#Forms2OleControl) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCaption()](#getCaption--) | Gets Caption property of control. |
-| [getChildNodes()](#getChildNodes--) | Gets collection of immediate child controls. |
-| [getClass()](#getClass--) |  |
-| [getEnabled()](#getEnabled--) | Returns true if control is in enabled state. |
-| [getName()](#getName--) | Gets name of the ActiveX control. |
-| [getType()](#getType--) | Gets type of Forms 2.0 control. |
-| [getValue()](#getValue--) | Gets underlying Value property which often represents control state. |
-| [hashCode()](#hashCode--) |  |
-| [isForms2OleControl()](#isForms2OleControl--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### Forms2OleControl() {#Forms2OleControl--}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getCaption()](#getCaption) | Gets Caption property of control. |
+| [getChildNodes()](#getChildNodes) | Gets collection of immediate child controls. |
+| [getClass()](#getClass) |  |
+| [getEnabled()](#getEnabled) | Returns  true  if control is in enabled state. |
+| [getName()](#getName) | Gets name of the ActiveX control. |
+| [getType()](#getType) | Gets type of Forms 2.0 control. |
+| [getValue()](#getValue) | Gets underlying Value property which often represents control state. |
+| [hashCode()](#hashCode) |  |
+| [isForms2OleControl()](#isForms2OleControl) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### Forms2OleControl() {#Forms2OleControl}
 ```
 public Forms2OleControl()
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -62,7 +65,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getCaption() {#getCaption--}
+### getCaption() {#getCaption}
 ```
 public String getCaption()
 ```
@@ -72,17 +75,17 @@ Gets Caption property of control. Default value is an empty string.
 
 **Returns:**
 java.lang.String - Caption property of control.
-### getChildNodes() {#getChildNodes--}
+### getChildNodes() {#getChildNodes}
 ```
 public Forms2OleControlCollection getChildNodes()
 ```
 
 
-Gets collection of immediate child controls. Returns **null** if this control can not have children.
+Gets collection of immediate child controls. Returns  null  if this control can not have children.
 
 **Returns:**
 [Forms2OleControlCollection](../../com.aspose.words/forms2olecontrolcollection) - Collection of immediate child controls.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -92,17 +95,17 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getEnabled() {#getEnabled--}
+### getEnabled() {#getEnabled}
 ```
 public boolean getEnabled()
 ```
 
 
-Returns true if control is in enabled state.
+Returns  true  if control is in enabled state.
 
 **Returns:**
-boolean - True if control is in enabled state.
-### getName() {#getName--}
+boolean - \{ true  if control is in enabled state.
+### getName() {#getName}
 ```
 public String getName()
 ```
@@ -112,7 +115,7 @@ Gets name of the ActiveX control.
 
 **Returns:**
 java.lang.String - Name of the ActiveX control.
-### getType() {#getType--}
+### getType() {#getType}
 ```
 public int getType()
 ```
@@ -122,7 +125,7 @@ Gets type of Forms 2.0 control.
 
 **Returns:**
 int - Type of Forms 2.0 control. The returned value is one of [Forms2OleControlType](../../com.aspose.words/forms2olecontroltype) constants.
-### getValue() {#getValue--}
+### getValue() {#getValue}
 ```
 public String getValue()
 ```
@@ -132,7 +135,7 @@ Gets underlying Value property which often represents control state. For example
 
 **Returns:**
 java.lang.String - Underlying Value property which often represents control state.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -142,17 +145,17 @@ public native int hashCode()
 
 **Returns:**
 int
-### isForms2OleControl() {#isForms2OleControl--}
+### isForms2OleControl() {#isForms2OleControl}
 ```
 public boolean isForms2OleControl()
 ```
 
 
-Returns true if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol).
+Returns  true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol).
 
 **Returns:**
 boolean
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -160,7 +163,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -168,7 +171,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -178,7 +181,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -186,7 +189,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -199,7 +202,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

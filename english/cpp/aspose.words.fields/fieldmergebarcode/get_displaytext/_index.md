@@ -3,7 +3,7 @@ title: get_DisplayText
 second_title: Aspose.Words for C++ API Reference
 description: Gets whether to display barcode data (text) along with image.
 type: docs
-weight: 66
+weight: 79
 url: /cpp/aspose.words.fields/fieldmergebarcode/get_displaytext/
 ---
 ## FieldMergeBarcode::get_DisplayText method

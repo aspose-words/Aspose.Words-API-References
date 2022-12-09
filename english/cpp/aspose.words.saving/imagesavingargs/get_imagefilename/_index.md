@@ -3,7 +3,7 @@ title: get_ImageFileName
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets the file name (without path) where the image will be saved to.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/aspose.words.saving/imagesavingargs/get_imagefilename/
 ---
 ## ImageSavingArgs::get_ImageFileName method
@@ -24,9 +24,9 @@ When the event is fired, this property contains the file name that was generated
 
 Aspose.Words automatically generates a unique file name for every embedded image when exporting to HTML format. How the image file name is generated depends on whether you save the document to a file or to a stream.
 
-When saving a document to a file, the generated image file name looks like %<document base file name>.<image number>.<extension>.
+When saving a document to a file, the generated image file name looks like *%<document base file name>.<image number>.<extension>*.
 
-When saving a document to a stream, the generated image file name looks like Aspose.Words.<document guid>.<image number>.<extension>.
+When saving a document to a stream, the generated image file name looks like *Aspose.Words.<document guid>.<image number>.<extension>*.
 
 [ImageFileName](./) must contain only the file name without the path. Aspose.Words determines the path for saving and the value of the **src** attribute for writing to HTML using the document file name, the [ImagesFolder](../../htmlsaveoptions/get_imagesfolder/) and [ImagesFolderAlias](../../htmlsaveoptions/get_imagesfolderalias/) properties.
 

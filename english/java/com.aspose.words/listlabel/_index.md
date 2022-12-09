@@ -3,7 +3,7 @@ title: ListLabel
 second_title: Aspose.Words for Java API Reference
 description: Defines properties specific to a list label.
 type: docs
-weight: 371
+weight: 373
 url: /java/com.aspose.words/listlabel/
 ---
 
@@ -15,29 +15,32 @@ public class ListLabel
 
 Defines properties specific to a list label.
 
-To learn more, visit the **Working with Lists** documentation article.
+To learn more, visit the [ Working with Lists ][Working with Lists] documentation article.
+
+
+[Working with Lists]: https://docs.aspose.com/words/java/working-with-lists/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [clearRunAttrs()](#clearRunAttrs--) |  |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
-| [getClass()](#getClass--) |  |
-| [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
-| [getFont()](#getFont--) | Gets the list label font. |
-| [getLabelString()](#getLabelString--) | Gets a string representation of list label. |
-| [getLabelValue()](#getLabelValue--) | Gets a numeric value for this label. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [removeRunAttr(int key)](#removeRunAttr-int-) |  |
-| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### clearRunAttrs() {#clearRunAttrs--}
+| [clearRunAttrs()](#clearRunAttrs) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int) |  |
+| [getClass()](#getClass) |  |
+| [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
+| [getFont()](#getFont) | Gets the list label font. |
+| [getLabelString()](#getLabelString) | Gets a string representation of list label. |
+| [getLabelValue()](#getLabelValue) | Gets a numeric value for this label. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [removeRunAttr(int key)](#removeRunAttr-int) |  |
+| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
 ```
@@ -45,7 +48,7 @@ public void clearRunAttrs()
 
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -60,7 +63,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
+### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int}
 ```
 public Object fetchInheritedRunAttr(int key)
 ```
@@ -75,7 +78,7 @@ public Object fetchInheritedRunAttr(int key)
 
 **Returns:**
 java.lang.Object
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -85,7 +88,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
+### getDirectRunAttr(int key) {#getDirectRunAttr-int}
 ```
 public Object getDirectRunAttr(int key)
 ```
@@ -100,7 +103,7 @@ public Object getDirectRunAttr(int key)
 
 **Returns:**
 java.lang.Object
-### getFont() {#getFont--}
+### getFont() {#getFont}
 ```
 public Font getFont()
 ```
@@ -110,7 +113,7 @@ Gets the list label font.
 
 **Returns:**
 [Font](../../com.aspose.words/font) - The list label font.
-### getLabelString() {#getLabelString--}
+### getLabelString() {#getLabelString}
 ```
 public String getLabelString()
 ```
@@ -120,17 +123,17 @@ Gets a string representation of list label.
 
 **Returns:**
 java.lang.String - A string representation of list label.
-### getLabelValue() {#getLabelValue--}
+### getLabelValue() {#getLabelValue}
 ```
 public int getLabelValue()
 ```
 
 
-Gets a numeric value for this label. Use the [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--) method to update the value of this property.
+Gets a numeric value for this label. Use the [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels) method to update the value of this property.
 
 **Returns:**
 int - A numeric value for this label.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -140,7 +143,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -148,7 +151,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -156,7 +159,7 @@ public final native void notifyAll()
 
 
 
-### removeRunAttr(int key) {#removeRunAttr-int-}
+### removeRunAttr(int key) {#removeRunAttr-int}
 ```
 public void removeRunAttr(int key)
 ```
@@ -169,7 +172,7 @@ public void removeRunAttr(int key)
 | --- | --- | --- |
 | key | int |  |
 
-### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object-}
+### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object}
 ```
 public void setRunAttr(int key, Object value)
 ```
@@ -183,7 +186,7 @@ public void setRunAttr(int key, Object value)
 | key | int |  |
 | value | java.lang.Object |  |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -193,7 +196,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -201,7 +204,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -214,7 +217,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

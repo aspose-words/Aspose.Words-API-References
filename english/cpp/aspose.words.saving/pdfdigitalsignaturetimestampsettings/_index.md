@@ -1,7 +1,7 @@
 ---
 title: PdfDigitalSignatureTimestampSettings
 second_title: Aspose.Words for C++ API Reference
-description: Contains settings of the digital signature timestamp.
+description: Contains settings of the digital signature timestamp. To learn more, visit the  documentation article.
 type: docs
 weight: 287
 url: /cpp/aspose.words.saving/pdfdigitalsignaturetimestampsettings/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/pdfdigitalsignaturetimestampsettings/
 ## PdfDigitalSignatureTimestampSettings class
 
 
-Contains settings of the digital signature timestamp.
+Contains settings of the digital signature timestamp. To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/cpp/working-with-digital-signatures/) documentation article.
 
 ```cpp
 class PdfDigitalSignatureTimestampSettings : public System::Object
@@ -23,6 +23,8 @@ class PdfDigitalSignatureTimestampSettings : public System::Object
 | [get_ServerUrl](./get_serverurl/)() const | Timestamp server URL. |
 | [get_Timeout](./get_timeout/)() const | Time-out value for accessing timestamp server. |
 | [get_UserName](./get_username/)() const | Timestamp server user name. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [PdfDigitalSignatureTimestampSettings](./pdfdigitalsignaturetimestampsettings/)() | Initializes an instance of this class. |
 | [PdfDigitalSignatureTimestampSettings](./pdfdigitalsignaturetimestampsettings/)(const System::String\&, const System::String\&, const System::String\&) | Initializes an instance of this class. |
 | [PdfDigitalSignatureTimestampSettings](./pdfdigitalsignaturetimestampsettings/)(const System::String\&, const System::String\&, const System::String\&, System::TimeSpan) | Initializes an instance of this class. |
@@ -30,6 +32,7 @@ class PdfDigitalSignatureTimestampSettings : public System::Object
 | [set_ServerUrl](./set_serverurl/)(const System::String\&) | Setter for [Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::get_ServerUrl](./get_serverurl/). |
 | [set_Timeout](./set_timeout/)(System::TimeSpan) | Setter for [Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::get_Timeout](./get_timeout/). |
 | [set_UserName](./set_username/)(const System::String\&) | Setter for [Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::get_UserName](./get_username/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

@@ -18,37 +18,44 @@ public class Border extends InternableComplexAttr implements Cloneable
 
 Represents a border of an object.
 
-To learn more, visit the **Programming with Documents** documentation article.
+To learn more, visit the [ Programming with Documents ][Programming with Documents] documentation article.
 
 Borders can be applied to various document elements including paragraph, run of text inside a paragraph or a table cell.
+
+
+[Programming with Documents]: https://docs.aspose.com/words/java/programming-with-documents/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [clearFormatting()](#clearFormatting--) | Resets border properties to default values. |
-| [equals(Border rhs)](#equals-com.aspose.words.Border-) | Determines whether the specified border is equal in value to the current border. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is equal in value to the current object. |
-| [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | Gets the border color. |
-| [getDistanceFromText()](#getDistanceFromText--) | Gets distance of the border from text or from the page edge in points. |
-| [getLineStyle()](#getLineStyle--) | Gets the border style. |
-| [getLineWidth()](#getLineWidth--) | Gets the border width in points. |
-| [getShadow()](#getShadow--) | Gets a value indicating whether the border has a shadow. |
-| [hashCode()](#hashCode--) |  |
-| [isInheritedComplexAttr()](#isInheritedComplexAttr--) |  |
-| [isVisible()](#isVisible--) | Returns true if the LineStyle is not LineStyle.None. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setColor(Color value)](#setColor-java.awt.Color-) | Sets the border color. |
-| [setDistanceFromText(double value)](#setDistanceFromText-double-) | Sets distance of the border from text or from the page edge in points. |
-| [setLineStyle(int value)](#setLineStyle-int-) | Sets the border style. |
-| [setLineWidth(double value)](#setLineWidth-double-) | Sets the border width in points. |
-| [setShadow(boolean value)](#setShadow-boolean-) | Sets a value indicating whether the border has a shadow. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### clearFormatting() {#clearFormatting--}
+| [clearFormatting()](#clearFormatting) | Resets border properties to default values. |
+| [equals(Border rhs)](#equals-com.aspose.words.Border) | Determines whether the specified border is equal in value to the current border. |
+| [equals(Object obj)](#equals-java.lang.Object) | Determines whether the specified object is equal in value to the current object. |
+| [getClass()](#getClass) |  |
+| [getColor()](#getColor) | Gets the border color. |
+| [getDistanceFromText()](#getDistanceFromText) | Gets distance of the border from text or from the page edge in points. |
+| [getLineStyle()](#getLineStyle) | Gets the border style. |
+| [getLineWidth()](#getLineWidth) | Gets the border width in points. |
+| [getShadow()](#getShadow) | Gets a value indicating whether the border has a shadow. |
+| [getThemeColor()](#getThemeColor) | Gets the theme color in the applied color scheme that is associated with this Border object. |
+| [getTintAndShade()](#getTintAndShade) | Gets a double value that lightens or darkens a color. |
+| [hashCode()](#hashCode) |  |
+| [isInheritedComplexAttr()](#isInheritedComplexAttr) |  |
+| [isVisible()](#isVisible) | Returns  true  if the [getLineStyle()](../../com.aspose.words/border\#getLineStyle) / [setLineStyle(int)](../../com.aspose.words/border\#setLineStyle-int) is not [LineStyle.NONE](../../com.aspose.words/linestyle\#NONE). |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setColor(Color value)](#setColor-java.awt.Color) | Sets the border color. |
+| [setDistanceFromText(double value)](#setDistanceFromText-double) | Sets distance of the border from text or from the page edge in points. |
+| [setLineStyle(int value)](#setLineStyle-int) | Sets the border style. |
+| [setLineWidth(double value)](#setLineWidth-double) | Sets the border width in points. |
+| [setShadow(boolean value)](#setShadow-boolean) | Sets a value indicating whether the border has a shadow. |
+| [setThemeColor(int value)](#setThemeColor-int) | Sets the theme color in the applied color scheme that is associated with this Border object. |
+| [setTintAndShade(double value)](#setTintAndShade-double) | Sets a double value that lightens or darkens a color. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### clearFormatting() {#clearFormatting}
 ```
 public void clearFormatting()
 ```
@@ -56,7 +63,7 @@ public void clearFormatting()
 
 Resets border properties to default values. When border properties are reset to default values, the border is invisible.
 
-### equals(Border rhs) {#equals-com.aspose.words.Border-}
+### equals(Border rhs) {#equals-com.aspose.words.Border}
 ```
 public boolean equals(Border rhs)
 ```
@@ -71,7 +78,7 @@ Determines whether the specified border is equal in value to the current border.
 
 **Returns:**
 boolean
-### equals(Object obj) {#equals-java.lang.Object-}
+### equals(Object obj) {#equals-java.lang.Object}
 ```
 public boolean equals(Object obj)
 ```
@@ -86,7 +93,7 @@ Determines whether the specified object is equal in value to the current object.
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -96,7 +103,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getColor() {#getColor--}
+### getColor() {#getColor}
 ```
 public Color getColor()
 ```
@@ -106,7 +113,7 @@ Gets the border color.
 
 **Returns:**
 java.awt.Color - The border color.
-### getDistanceFromText() {#getDistanceFromText--}
+### getDistanceFromText() {#getDistanceFromText}
 ```
 public double getDistanceFromText()
 ```
@@ -116,7 +123,7 @@ Gets distance of the border from text or from the page edge in points. Has no ef
 
 **Returns:**
 double - Distance of the border from text or from the page edge in points.
-### getLineStyle() {#getLineStyle--}
+### getLineStyle() {#getLineStyle}
 ```
 public int getLineStyle()
 ```
@@ -128,7 +135,7 @@ If you set line style to none, then line width is automatically changed to zero.
 
 **Returns:**
 int - The border style. The returned value is one of [LineStyle](../../com.aspose.words/linestyle) constants.
-### getLineWidth() {#getLineWidth--}
+### getLineWidth() {#getLineWidth}
 ```
 public double getLineWidth()
 ```
@@ -140,7 +147,7 @@ If you set line width greater than zero when line style is none, the line style 
 
 **Returns:**
 double - The border width in points.
-### getShadow() {#getShadow--}
+### getShadow() {#getShadow}
 ```
 public boolean getShadow()
 ```
@@ -148,11 +155,35 @@ public boolean getShadow()
 
 Gets a value indicating whether the border has a shadow.
 
-In Microsoft Word, for a border to have a shadow, the borders on all four sides (left, top, right and bottom) should be of the same type, width, color and all should have the Shadow property set to true.
+In Microsoft Word, for a border to have a shadow, the borders on all four sides (left, top, right and bottom) should be of the same type, width, color and all should have the Shadow property set to  true .
 
 **Returns:**
 boolean - A value indicating whether the border has a shadow.
-### hashCode() {#hashCode--}
+### getThemeColor() {#getThemeColor}
+```
+public int getThemeColor()
+```
+
+
+Gets the theme color in the applied color scheme that is associated with this Border object.
+
+**Returns:**
+int - The theme color in the applied color scheme that is associated with this Border object. The returned value is one of [ThemeColor](../../com.aspose.words/themecolor) constants.
+### getTintAndShade() {#getTintAndShade}
+```
+public double getTintAndShade()
+```
+
+
+Gets a double value that lightens or darkens a color.
+
+The allowed values are in the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
+
+Setting this property for Border object with non-theme colors results in java.lang.IllegalStateException.
+
+**Returns:**
+double - A double value that lightens or darkens a color.
+### hashCode() {#hashCode}
 ```
 public int hashCode()
 ```
@@ -162,7 +193,7 @@ public int hashCode()
 
 **Returns:**
 int
-### isInheritedComplexAttr() {#isInheritedComplexAttr--}
+### isInheritedComplexAttr() {#isInheritedComplexAttr}
 ```
 public boolean isInheritedComplexAttr()
 ```
@@ -172,17 +203,17 @@ public boolean isInheritedComplexAttr()
 
 **Returns:**
 boolean
-### isVisible() {#isVisible--}
+### isVisible() {#isVisible}
 ```
 public boolean isVisible()
 ```
 
 
-Returns true if the LineStyle is not LineStyle.None.
+Returns  true  if the [getLineStyle()](../../com.aspose.words/border\#getLineStyle) / [setLineStyle(int)](../../com.aspose.words/border\#setLineStyle-int) is not [LineStyle.NONE](../../com.aspose.words/linestyle\#NONE).
 
 **Returns:**
-boolean - True if the LineStyle is not LineStyle.None.
-### notify() {#notify--}
+boolean - \{ true  if the [getLineStyle()](../../com.aspose.words/border\#getLineStyle) / [setLineStyle(int)](../../com.aspose.words/border\#setLineStyle-int) is not [LineStyle.NONE](../../com.aspose.words/linestyle\#NONE).
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -190,7 +221,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -198,7 +229,7 @@ public final native void notifyAll()
 
 
 
-### setColor(Color value) {#setColor-java.awt.Color-}
+### setColor(Color value) {#setColor-java.awt.Color}
 ```
 public void setColor(Color value)
 ```
@@ -211,7 +242,7 @@ Sets the border color.
 | --- | --- | --- |
 | value | java.awt.Color | The border color. |
 
-### setDistanceFromText(double value) {#setDistanceFromText-double-}
+### setDistanceFromText(double value) {#setDistanceFromText-double}
 ```
 public void setDistanceFromText(double value)
 ```
@@ -224,7 +255,7 @@ Sets distance of the border from text or from the page edge in points. Has no ef
 | --- | --- | --- |
 | value | double | Distance of the border from text or from the page edge in points. |
 
-### setLineStyle(int value) {#setLineStyle-int-}
+### setLineStyle(int value) {#setLineStyle-int}
 ```
 public void setLineStyle(int value)
 ```
@@ -239,7 +270,7 @@ If you set line style to none, then line width is automatically changed to zero.
 | --- | --- | --- |
 | value | int | The border style. The value must be one of [LineStyle](../../com.aspose.words/linestyle) constants. |
 
-### setLineWidth(double value) {#setLineWidth-double-}
+### setLineWidth(double value) {#setLineWidth-double}
 ```
 public void setLineWidth(double value)
 ```
@@ -254,7 +285,7 @@ If you set line width greater than zero when line style is none, the line style 
 | --- | --- | --- |
 | value | double | The border width in points. |
 
-### setShadow(boolean value) {#setShadow-boolean-}
+### setShadow(boolean value) {#setShadow-boolean}
 ```
 public void setShadow(boolean value)
 ```
@@ -262,14 +293,44 @@ public void setShadow(boolean value)
 
 Sets a value indicating whether the border has a shadow.
 
-In Microsoft Word, for a border to have a shadow, the borders on all four sides (left, top, right and bottom) should be of the same type, width, color and all should have the Shadow property set to true.
+In Microsoft Word, for a border to have a shadow, the borders on all four sides (left, top, right and bottom) should be of the same type, width, color and all should have the Shadow property set to  true .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value indicating whether the border has a shadow. |
 
-### toString() {#toString--}
+### setThemeColor(int value) {#setThemeColor-int}
+```
+public void setThemeColor(int value)
+```
+
+
+Sets the theme color in the applied color scheme that is associated with this Border object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The theme color in the applied color scheme that is associated with this Border object. The value must be one of [ThemeColor](../../com.aspose.words/themecolor) constants. |
+
+### setTintAndShade(double value) {#setTintAndShade-double}
+```
+public void setTintAndShade(double value)
+```
+
+
+Sets a double value that lightens or darkens a color.
+
+The allowed values are in the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
+
+Setting this property for Border object with non-theme colors results in java.lang.IllegalStateException.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double | A double value that lightens or darkens a color. |
+
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -279,7 +340,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -287,7 +348,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -300,7 +361,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

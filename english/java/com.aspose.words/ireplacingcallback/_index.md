@@ -3,7 +3,7 @@ title: IReplacingCallback
 second_title: Aspose.Words for Java API Reference
 description: Implement this interface if you want to have your own custom method called during a find and replace operation.
 type: docs
-weight: 655
+weight: 659
 url: /java/com.aspose.words/ireplacingcallback/
 ---
 ```
@@ -15,8 +15,8 @@ Implement this interface if you want to have your own custom method called durin
 
 | Method | Description |
 | --- | --- |
-| [replacing(ReplacingArgs args)](#replacing-com.aspose.words.ReplacingArgs-) | A user defined method that is called during a replace operation for each match found just before a replace is made. |
-### replacing(ReplacingArgs args) {#replacing-com.aspose.words.ReplacingArgs-}
+| [replacing(ReplacingArgs args)](#replacing-com.aspose.words.ReplacingArgs) | A user defined method that is called during a replace operation for each match found just before a replace is made. |
+### replacing(ReplacingArgs args) {#replacing-com.aspose.words.ReplacingArgs}
 ```
 public abstract int replacing(ReplacingArgs args)
 ```

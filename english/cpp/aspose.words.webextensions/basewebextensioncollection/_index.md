@@ -1,7 +1,7 @@
 ---
 title: BaseWebExtensionCollection
 second_title: Aspose.Words for C++ API Reference
-description: Base class for TaskPaneCollection, WebExtensionBindingCollection, WebExtensionPropertyCollection and WebExtensionReferenceCollection collections.
+description: Base class for TaskPaneCollection, WebExtensionBindingCollection, WebExtensionPropertyCollection and WebExtensionReferenceCollection collections. To learn more, visit the  documentation article.
 type: docs
 weight: 1
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.webextensions/basewebextensioncollection/
 ## BaseWebExtensionCollection class
 
 
-Base class for [TaskPaneCollection](../taskpanecollection/), [WebExtensionBindingCollection](../webextensionbindingcollection/), [WebExtensionPropertyCollection](../webextensionpropertycollection/) and [WebExtensionReferenceCollection](../webextensionreferencecollection/) collections.
+Base class for [TaskPaneCollection](../taskpanecollection/), [WebExtensionBindingCollection](../webextensionbindingcollection/), [WebExtensionPropertyCollection](../webextensionpropertycollection/) and [WebExtensionReferenceCollection](../webextensionreferencecollection/) collections. To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/cpp/work-with-office-add-ins/) documentation article.
 
 ```cpp
 template<typename T>class BaseWebExtensionCollection : public System::Collections::Generic::IEnumerable<T>

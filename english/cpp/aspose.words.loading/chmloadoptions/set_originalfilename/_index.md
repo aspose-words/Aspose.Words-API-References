@@ -3,7 +3,7 @@ title: set_OriginalFileName
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Loading::ChmLoadOptions::get_OriginalFileName.'
 type: docs
-weight: 27
+weight: 66
 url: /cpp/aspose.words.loading/chmloadoptions/set_originalfilename/
 ---
 ## ChmLoadOptions::set_OriginalFileName method

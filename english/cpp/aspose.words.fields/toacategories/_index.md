@@ -1,15 +1,15 @@
 ---
 title: ToaCategories
 second_title: Aspose.Words for C++ API Reference
-description: Represents a table of authorities categories.
+description: Represents a table of authorities categories. To learn more, visit the  documentation article.
 type: docs
-weight: 1483
+weight: 1496
 url: /cpp/aspose.words.fields/toacategories/
 ---
 ## ToaCategories class
 
 
-Represents a table of authorities categories.
+Represents a table of authorities categories. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class ToaCategories : public System::Object
@@ -20,9 +20,12 @@ class ToaCategories : public System::Object
 | Method | Description |
 | --- | --- |
 | static [get_DefaultCategories](./get_defaultcategories/)() | Gets the default table of authorities categories. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Gets or sets the category heading by category number. |
 | [idx_set](./idx_set/)(int32_t, const System::String\&) | Gets or sets the category heading by category number. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [ToaCategories](./toacategories/)() |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

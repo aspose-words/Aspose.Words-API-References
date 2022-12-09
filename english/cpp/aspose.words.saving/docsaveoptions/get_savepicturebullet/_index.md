@@ -3,7 +3,7 @@ title: get_SavePictureBullet
 second_title: Aspose.Words for C++ API Reference
 description: When false, PictureBullet data is not saved to output document. Default value is true.
 type: docs
-weight: 53
+weight: 66
 url: /cpp/aspose.words.saving/docsaveoptions/get_savepicturebullet/
 ---
 ## DocSaveOptions::get_SavePictureBullet method

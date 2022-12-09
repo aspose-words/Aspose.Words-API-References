@@ -3,7 +3,7 @@ title: InsertCell
 second_title: Aspose.Words for C++ API Reference
 description: Inserts a table cell into the document.
 type: docs
-weight: 339
+weight: 365
 url: /cpp/aspose.words/documentbuilder/insertcell/
 ---
 ## DocumentBuilder::InsertCell method
@@ -22,9 +22,9 @@ The cell node that was just inserted.
 ## Remarks
 
 
-To start a table, just call **InsertCell**. After this, any content you add using other methods of the [DocumentBuilder](../) class will be added to the current cell.
+To start a table, just call [InsertCell](./). After this, any content you add using other methods of the [DocumentBuilder](../) class will be added to the current cell.
 
-To start a new cell in the same row, call **InsertCell** again.
+To start a new cell in the same row, call [InsertCell](./) again.
 
 To end a table row call [EndRow](../endrow/).
 

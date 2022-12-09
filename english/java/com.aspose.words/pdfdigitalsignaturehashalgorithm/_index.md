@@ -3,7 +3,7 @@ title: PdfDigitalSignatureHashAlgorithm
 second_title: Aspose.Words for Java API Reference
 description: Specifies a digital hash algorithm used by a digital signature.
 type: docs
-weight: 452
+weight: 455
 url: /java/com.aspose.words/pdfdigitalsignaturehashalgorithm/
 ---
 
@@ -27,19 +27,19 @@ Specifies a digital hash algorithm used by a digital signature.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String pdfDigitalSignatureHashAlgorithmName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int pdfDigitalSignatureHashAlgorithm)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int pdfDigitalSignatureHashAlgorithm)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String pdfDigitalSignatureHashAlgorithmName)](#fromName-java.lang.String) |  |
+| [getClass()](#getClass) |  |
+| [getName(int pdfDigitalSignatureHashAlgorithm)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int pdfDigitalSignatureHashAlgorithm)](#toString-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### RIPE_MD_160 {#RIPE-MD-160}
 ```
 public static int RIPE_MD_160
@@ -78,7 +78,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -93,7 +93,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String pdfDigitalSignatureHashAlgorithmName) {#fromName-java.lang.String-}
+### fromName(String pdfDigitalSignatureHashAlgorithmName) {#fromName-java.lang.String}
 ```
 public static int fromName(String pdfDigitalSignatureHashAlgorithmName)
 ```
@@ -108,7 +108,7 @@ public static int fromName(String pdfDigitalSignatureHashAlgorithmName)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -118,7 +118,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int pdfDigitalSignatureHashAlgorithm) {#getName-int-}
+### getName(int pdfDigitalSignatureHashAlgorithm) {#getName-int}
 ```
 public static String getName(int pdfDigitalSignatureHashAlgorithm)
 ```
@@ -133,7 +133,7 @@ public static String getName(int pdfDigitalSignatureHashAlgorithm)
 
 **Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -143,7 +143,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -153,7 +153,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -161,7 +161,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -169,7 +169,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -179,7 +179,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int pdfDigitalSignatureHashAlgorithm) {#toString-int-}
+### toString(int pdfDigitalSignatureHashAlgorithm) {#toString-int}
 ```
 public static String toString(int pdfDigitalSignatureHashAlgorithm)
 ```
@@ -194,7 +194,7 @@ public static String toString(int pdfDigitalSignatureHashAlgorithm)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -202,7 +202,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -215,7 +215,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

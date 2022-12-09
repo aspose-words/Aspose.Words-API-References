@@ -3,7 +3,7 @@ title: get_SourceTag
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets a value that mathes the Tag element's value of the source to insert.
 type: docs
-weight: 53
+weight: 66
 url: /cpp/aspose.words.fields/fieldcitation/get_sourcetag/
 ---
 ## FieldCitation::get_SourceTag method

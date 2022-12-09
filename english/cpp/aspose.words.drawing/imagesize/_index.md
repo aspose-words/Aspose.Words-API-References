@@ -1,7 +1,7 @@
 ---
 title: ImageSize
 second_title: Aspose.Words for C++ API Reference
-description: Contains information about image size and resolution.
+description: Contains information about image size and resolution. To learn more, visit the  documentation article.
 type: docs
 weight: 79
 url: /cpp/aspose.words.drawing/imagesize/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing/imagesize/
 ## ImageSize class
 
 
-Contains information about image size and resolution.
+Contains information about image size and resolution. To learn more, visit the [Working with Images](https://docs.aspose.com/words/cpp/working-with-images/) documentation article.
 
 ```cpp
 class ImageSize : public System::Object
@@ -25,8 +25,11 @@ class ImageSize : public System::Object
 | [get_VerticalResolution](./get_verticalresolution/)() const | Gets the vertical resolution in DPI. |
 | [get_WidthPixels](./get_widthpixels/)() const | Gets the width of the image in pixels. |
 | [get_WidthPoints](./get_widthpoints/)() | Gets the width of the image in points. 1 point is 1/72 inch. |
+| [GetType](./gettype/)() const override |  |
 | [ImageSize](./imagesize/)(int32_t, int32_t) | Initializes width and height to the given values in pixels. Initializes resolution to 96 dpi. |
 | [ImageSize](./imagesize/)(int32_t, int32_t, double, double) | Initializes width, height and resolution to the given values. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

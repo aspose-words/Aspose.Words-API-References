@@ -3,7 +3,7 @@ title: MetafileRenderingOptions
 second_title: Aspose.Words for Java API Reference
 description: Allows to specify additional metafile rendering options.
 type: docs
-weight: 397
+weight: 400
 url: /java/com.aspose.words/metafilerenderingoptions/
 ---
 
@@ -15,31 +15,34 @@ public class MetafileRenderingOptions
 
 Allows to specify additional metafile rendering options.
 
-To learn more, visit the **Handling Windows Metafiles** documentation article.
+To learn more, visit the [ Handling Windows Metafiles ][Handling Windows Metafiles] documentation article.
+
+
+[Handling Windows Metafiles]: https://docs.aspose.com/words/java/handling-windows-metafiles/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getEmfPlusDualRenderingMode()](#getEmfPlusDualRenderingMode--) | Gets a value determining how EMF+ Dual metafiles should be rendered. |
-| [getEmulateRasterOperations()](#getEmulateRasterOperations--) | Gets a value determining whether or not the raster operations should be emulated. |
-| [getRenderingMode()](#getRenderingMode--) | Gets a value determining how metafile images should be rendered. |
-| [getScaleWmfFontsToMetafileSize()](#getScaleWmfFontsToMetafileSize--) | Gets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
-| [getUseEmfEmbeddedToWmf()](#getUseEmfEmbeddedToWmf--) | Gets a value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setEmfPlusDualRenderingMode(int value)](#setEmfPlusDualRenderingMode-int-) | Sets a value determining how EMF+ Dual metafiles should be rendered. |
-| [setEmulateRasterOperations(boolean value)](#setEmulateRasterOperations-boolean-) | Sets a value determining whether or not the raster operations should be emulated. |
-| [setRenderingMode(int value)](#setRenderingMode-int-) | Sets a value determining how metafile images should be rendered. |
-| [setScaleWmfFontsToMetafileSize(boolean value)](#setScaleWmfFontsToMetafileSize-boolean-) | Sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
-| [setUseEmfEmbeddedToWmf(boolean value)](#setUseEmfEmbeddedToWmf-boolean-) | Sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getEmfPlusDualRenderingMode()](#getEmfPlusDualRenderingMode) | Gets a value determining how EMF+ Dual metafiles should be rendered. |
+| [getEmulateRasterOperations()](#getEmulateRasterOperations) | Gets a value determining whether or not the raster operations should be emulated. |
+| [getRenderingMode()](#getRenderingMode) | Gets a value determining how metafile images should be rendered. |
+| [getScaleWmfFontsToMetafileSize()](#getScaleWmfFontsToMetafileSize) | Gets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
+| [getUseEmfEmbeddedToWmf()](#getUseEmfEmbeddedToWmf) | Gets a value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setEmfPlusDualRenderingMode(int value)](#setEmfPlusDualRenderingMode-int) | Sets a value determining how EMF+ Dual metafiles should be rendered. |
+| [setEmulateRasterOperations(boolean value)](#setEmulateRasterOperations-boolean) | Sets a value determining whether or not the raster operations should be emulated. |
+| [setRenderingMode(int value)](#setRenderingMode-int) | Sets a value determining how metafile images should be rendered. |
+| [setScaleWmfFontsToMetafileSize(boolean value)](#setScaleWmfFontsToMetafileSize-boolean) | Sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
+| [setUseEmfEmbeddedToWmf(boolean value)](#setUseEmfEmbeddedToWmf-boolean) | Sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -54,7 +57,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -64,7 +67,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getEmfPlusDualRenderingMode() {#getEmfPlusDualRenderingMode--}
+### getEmfPlusDualRenderingMode() {#getEmfPlusDualRenderingMode}
 ```
 public int getEmfPlusDualRenderingMode()
 ```
@@ -80,7 +83,7 @@ The default value is [EmfPlusDualRenderingMode.EMF\_PLUS\_WITH\_FALLBACK](../../
 
 **Returns:**
 int - A value determining how EMF+ Dual metafiles should be rendered. The returned value is one of [EmfPlusDualRenderingMode](../../com.aspose.words/emfplusdualrenderingmode) constants.
-### getEmulateRasterOperations() {#getEmulateRasterOperations--}
+### getEmulateRasterOperations() {#getEmulateRasterOperations}
 ```
 public boolean getEmulateRasterOperations()
 ```
@@ -100,7 +103,7 @@ The default value is  true .
 
 **Returns:**
 boolean - A value determining whether or not the raster operations should be emulated.
-### getRenderingMode() {#getRenderingMode--}
+### getRenderingMode() {#getRenderingMode}
 ```
 public int getRenderingMode()
 ```
@@ -112,7 +115,7 @@ The default value depends on the save format. For images it is [MetafileRenderin
 
 **Returns:**
 int - A value determining how metafile images should be rendered. The returned value is one of [MetafileRenderingMode](../../com.aspose.words/metafilerenderingmode) constants.
-### getScaleWmfFontsToMetafileSize() {#getScaleWmfFontsToMetafileSize--}
+### getScaleWmfFontsToMetafileSize() {#getScaleWmfFontsToMetafileSize}
 ```
 public boolean getScaleWmfFontsToMetafileSize()
 ```
@@ -132,7 +135,7 @@ The default value is  true .
 
 **Returns:**
 boolean - A value determining whether or not to scale fonts in WMF metafile according to metafile size on the page.
-### getUseEmfEmbeddedToWmf() {#getUseEmfEmbeddedToWmf--}
+### getUseEmfEmbeddedToWmf() {#getUseEmfEmbeddedToWmf}
 ```
 public boolean getUseEmfEmbeddedToWmf()
 ```
@@ -152,7 +155,7 @@ The default value is  true .
 
 **Returns:**
 boolean - A value determining how WMF metafiles with embedded EMF metafiles should be rendered.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -162,7 +165,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -170,7 +173,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -178,7 +181,7 @@ public final native void notifyAll()
 
 
 
-### setEmfPlusDualRenderingMode(int value) {#setEmfPlusDualRenderingMode-int-}
+### setEmfPlusDualRenderingMode(int value) {#setEmfPlusDualRenderingMode-int}
 ```
 public void setEmfPlusDualRenderingMode(int value)
 ```
@@ -197,7 +200,7 @@ The default value is [EmfPlusDualRenderingMode.EMF\_PLUS\_WITH\_FALLBACK](../../
 | --- | --- | --- |
 | value | int | A value determining how EMF+ Dual metafiles should be rendered. The value must be one of [EmfPlusDualRenderingMode](../../com.aspose.words/emfplusdualrenderingmode) constants. |
 
-### setEmulateRasterOperations(boolean value) {#setEmulateRasterOperations-boolean-}
+### setEmulateRasterOperations(boolean value) {#setEmulateRasterOperations-boolean}
 ```
 public void setEmulateRasterOperations(boolean value)
 ```
@@ -220,7 +223,7 @@ The default value is  true .
 | --- | --- | --- |
 | value | boolean | A value determining whether or not the raster operations should be emulated. |
 
-### setRenderingMode(int value) {#setRenderingMode-int-}
+### setRenderingMode(int value) {#setRenderingMode-int}
 ```
 public void setRenderingMode(int value)
 ```
@@ -235,7 +238,7 @@ The default value depends on the save format. For images it is [MetafileRenderin
 | --- | --- | --- |
 | value | int | A value determining how metafile images should be rendered. The value must be one of [MetafileRenderingMode](../../com.aspose.words/metafilerenderingmode) constants. |
 
-### setScaleWmfFontsToMetafileSize(boolean value) {#setScaleWmfFontsToMetafileSize-boolean-}
+### setScaleWmfFontsToMetafileSize(boolean value) {#setScaleWmfFontsToMetafileSize-boolean}
 ```
 public void setScaleWmfFontsToMetafileSize(boolean value)
 ```
@@ -258,7 +261,7 @@ The default value is  true .
 | --- | --- | --- |
 | value | boolean | A value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
 
-### setUseEmfEmbeddedToWmf(boolean value) {#setUseEmfEmbeddedToWmf-boolean-}
+### setUseEmfEmbeddedToWmf(boolean value) {#setUseEmfEmbeddedToWmf-boolean}
 ```
 public void setUseEmfEmbeddedToWmf(boolean value)
 ```
@@ -281,7 +284,7 @@ The default value is  true .
 | --- | --- | --- |
 | value | boolean | A value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -291,7 +294,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -299,7 +302,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -312,7 +315,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

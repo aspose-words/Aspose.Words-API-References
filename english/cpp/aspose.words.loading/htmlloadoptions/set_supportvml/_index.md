@@ -3,7 +3,7 @@ title: set_SupportVml
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Loading::HtmlLoadOptions::get_SupportVml.'
 type: docs
-weight: 144
+weight: 183
 url: /cpp/aspose.words.loading/htmlloadoptions/set_supportvml/
 ---
 ## HtmlLoadOptions::set_SupportVml method

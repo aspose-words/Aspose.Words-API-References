@@ -3,7 +3,7 @@ title: get_Bidi
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets whether this is a right-to-left paragraph.
 type: docs
-weight: 53
+weight: 66
 url: /cpp/aspose.words/paragraphformat/get_bidi/
 ---
 ## ParagraphFormat::get_Bidi method
@@ -18,7 +18,7 @@ bool Aspose::Words::ParagraphFormat::get_Bidi()
 ## Remarks
 
 
-When true, the runs and other inline objects in this paragraph are laid out right to left.
+When **true**, the runs and other inline objects in this paragraph are laid out right to left.
 
 ## Examples
 

@@ -3,7 +3,7 @@ title: set_MainDocumentType
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Settings::MailMergeSettings::get_MainDocumentType.'
 type: docs
-weight: 404
+weight: 443
 url: /cpp/aspose.words.settings/mailmergesettings/set_maindocumenttype/
 ---
 ## MailMergeSettings::set_MainDocumentType method

@@ -3,7 +3,7 @@ title: Style
 second_title: Aspose.Words for Java API Reference
 description: Represents a single built-in or user-defined style.
 type: docs
-weight: 536
+weight: 539
 url: /java/com.aspose.words/style/
 ---
 
@@ -18,55 +18,58 @@ public class Style implements Cloneable
 
 Represents a single built-in or user-defined style.
 
-To learn more, visit the **Working with Styles and Themes** documentation article.
+To learn more, visit the [ Working with Styles and Themes ][Working with Styles and Themes] documentation article.
+
+
+[Working with Styles and Themes]: https://docs.aspose.com/words/java/working-with-styles-and-themes/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [clearParaAttrs()](#clearParaAttrs--) |  |
-| [clearRunAttrs()](#clearRunAttrs--) |  |
-| [equals(Style style)](#equals-com.aspose.words.Style-) | Compares with the specified style. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fetchInheritedParaAttr(int key)](#fetchInheritedParaAttr-int-) |  |
-| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
-| [fetchParaAttr(int key)](#fetchParaAttr-int-) |  |
-| [getAliases()](#getAliases--) | Gets all aliases of this style. |
-| [getBaseStyleName()](#getBaseStyleName--) | Gets/sets the name of the style this style is based on. |
-| [getBuiltIn()](#getBuiltIn--) | True if this style is one of the built-in styles in MS Word. |
-| [getClass()](#getClass--) |  |
-| [getDirectParaAttr(int key)](#getDirectParaAttr-int-) |  |
-| [getDirectParaAttr(int key, int revisionsView)](#getDirectParaAttr-int-int-) |  |
-| [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
-| [getDocument()](#getDocument--) | Gets the owner document. |
-| [getFont()](#getFont--) | Gets the character formatting of the style. |
-| [getLinkedStyleName()](#getLinkedStyleName--) | Gets the name of the Style linked to this one. |
-| [getList()](#getList--) | Gets the list that defines formatting of this list style. |
-| [getListFormat()](#getListFormat--) | Provides access to the list formatting properties of a paragraph style. |
-| [getName()](#getName--) | Gets the name of the style. |
-| [getNextParagraphStyleName()](#getNextParagraphStyleName--) | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
-| [getParagraphFormat()](#getParagraphFormat--) | Gets the paragraph formatting of the style. |
-| [getStyleIdentifier()](#getStyleIdentifier--) | Gets the locale independent style identifier for a built-in style. |
-| [getStyles()](#getStyles--) | Gets the collection of styles this style belongs to. |
-| [getType()](#getType--) | Gets the style type (paragraph or character). |
-| [hashCode()](#hashCode--) |  |
-| [isHeading()](#isHeading--) | True when the style is one of the built-in Heading styles. |
-| [isQuickStyle()](#isQuickStyle--) | Specifies whether this style is shown in the Quick Style gallery inside MS Word UI. |
-| [isQuickStyle(boolean value)](#isQuickStyle-boolean-) | Specifies whether this style is shown in the Quick Style gallery inside MS Word UI. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove()](#remove--) | Removes the specified style from the document. |
-| [removeParaAttr(int key)](#removeParaAttr-int-) |  |
-| [removeRunAttr(int key)](#removeRunAttr-int-) |  |
-| [setBaseStyleName(String value)](#setBaseStyleName-java.lang.String-) | Gets/sets the name of the style this style is based on. |
-| [setName(String value)](#setName-java.lang.String-) | Sets the name of the style. |
-| [setNextParagraphStyleName(String value)](#setNextParagraphStyleName-java.lang.String-) | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
-| [setParaAttr(int key, Object value)](#setParaAttr-int-java.lang.Object-) |  |
-| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### clearParaAttrs() {#clearParaAttrs--}
+| [clearParaAttrs()](#clearParaAttrs) |  |
+| [clearRunAttrs()](#clearRunAttrs) |  |
+| [equals(Style style)](#equals-com.aspose.words.Style) | Compares with the specified style. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fetchInheritedParaAttr(int key)](#fetchInheritedParaAttr-int) |  |
+| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int) |  |
+| [fetchParaAttr(int key)](#fetchParaAttr-int) |  |
+| [getAliases()](#getAliases) | Gets all aliases of this style. |
+| [getBaseStyleName()](#getBaseStyleName) | Gets/sets the name of the style this style is based on. |
+| [getBuiltIn()](#getBuiltIn) | True if this style is one of the built-in styles in MS Word. |
+| [getClass()](#getClass) |  |
+| [getDirectParaAttr(int key)](#getDirectParaAttr-int) |  |
+| [getDirectParaAttr(int key, int revisionsView)](#getDirectParaAttr-int-int) |  |
+| [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
+| [getDocument()](#getDocument) | Gets the owner document. |
+| [getFont()](#getFont) | Gets the character formatting of the style. |
+| [getLinkedStyleName()](#getLinkedStyleName) | Gets the name of the [Style](../../com.aspose.words/style) linked to this one. |
+| [getList()](#getList) | Gets the list that defines formatting of this list style. |
+| [getListFormat()](#getListFormat) | Provides access to the list formatting properties of a paragraph style. |
+| [getName()](#getName) | Gets the name of the style. |
+| [getNextParagraphStyleName()](#getNextParagraphStyleName) | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
+| [getParagraphFormat()](#getParagraphFormat) | Gets the paragraph formatting of the style. |
+| [getStyleIdentifier()](#getStyleIdentifier) | Gets the locale independent style identifier for a built-in style. |
+| [getStyles()](#getStyles) | Gets the collection of styles this style belongs to. |
+| [getType()](#getType) | Gets the style type (paragraph or character). |
+| [hashCode()](#hashCode) |  |
+| [isHeading()](#isHeading) | True when the style is one of the built-in Heading styles. |
+| [isQuickStyle()](#isQuickStyle) | Specifies whether this style is shown in the Quick Style gallery inside MS Word UI. |
+| [isQuickStyle(boolean value)](#isQuickStyle-boolean) | Specifies whether this style is shown in the Quick Style gallery inside MS Word UI. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [remove()](#remove) | Removes the specified style from the document. |
+| [removeParaAttr(int key)](#removeParaAttr-int) |  |
+| [removeRunAttr(int key)](#removeRunAttr-int) |  |
+| [setBaseStyleName(String value)](#setBaseStyleName-java.lang.String) | Gets/sets the name of the style this style is based on. |
+| [setName(String value)](#setName-java.lang.String) | Sets the name of the style. |
+| [setNextParagraphStyleName(String value)](#setNextParagraphStyleName-java.lang.String) | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
+| [setParaAttr(int key, Object value)](#setParaAttr-int-java.lang.Object) |  |
+| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### clearParaAttrs() {#clearParaAttrs}
 ```
 public void clearParaAttrs()
 ```
@@ -74,7 +77,7 @@ public void clearParaAttrs()
 
 
 
-### clearRunAttrs() {#clearRunAttrs--}
+### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
 ```
@@ -82,7 +85,7 @@ public void clearRunAttrs()
 
 
 
-### equals(Style style) {#equals-com.aspose.words.Style-}
+### equals(Style style) {#equals-com.aspose.words.Style}
 ```
 public boolean equals(Style style)
 ```
@@ -97,7 +100,7 @@ Compares with the specified style. Styles Istds are compared for built-in styles
 
 **Returns:**
 boolean
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -112,7 +115,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fetchInheritedParaAttr(int key) {#fetchInheritedParaAttr-int-}
+### fetchInheritedParaAttr(int key) {#fetchInheritedParaAttr-int}
 ```
 public Object fetchInheritedParaAttr(int key)
 ```
@@ -127,7 +130,7 @@ public Object fetchInheritedParaAttr(int key)
 
 **Returns:**
 java.lang.Object
-### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
+### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int}
 ```
 public Object fetchInheritedRunAttr(int key)
 ```
@@ -142,7 +145,7 @@ public Object fetchInheritedRunAttr(int key)
 
 **Returns:**
 java.lang.Object
-### fetchParaAttr(int key) {#fetchParaAttr-int-}
+### fetchParaAttr(int key) {#fetchParaAttr-int}
 ```
 public Object fetchParaAttr(int key)
 ```
@@ -157,7 +160,7 @@ public Object fetchParaAttr(int key)
 
 **Returns:**
 java.lang.Object
-### getAliases() {#getAliases--}
+### getAliases() {#getAliases}
 ```
 public String[] getAliases()
 ```
@@ -167,7 +170,7 @@ Gets all aliases of this style. If style has no aliases then empty array of stri
 
 **Returns:**
 java.lang.String[] - All aliases of this style.
-### getBaseStyleName() {#getBaseStyleName--}
+### getBaseStyleName() {#getBaseStyleName}
 ```
 public String getBaseStyleName()
 ```
@@ -177,7 +180,7 @@ Gets/sets the name of the style this style is based on. This will be an empty st
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### getBuiltIn() {#getBuiltIn--}
+### getBuiltIn() {#getBuiltIn}
 ```
 public boolean getBuiltIn()
 ```
@@ -187,7 +190,7 @@ True if this style is one of the built-in styles in MS Word.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -197,7 +200,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDirectParaAttr(int key) {#getDirectParaAttr-int-}
+### getDirectParaAttr(int key) {#getDirectParaAttr-int}
 ```
 public Object getDirectParaAttr(int key)
 ```
@@ -212,7 +215,7 @@ public Object getDirectParaAttr(int key)
 
 **Returns:**
 java.lang.Object
-### getDirectParaAttr(int key, int revisionsView) {#getDirectParaAttr-int-int-}
+### getDirectParaAttr(int key, int revisionsView) {#getDirectParaAttr-int-int}
 ```
 public Object getDirectParaAttr(int key, int revisionsView)
 ```
@@ -228,7 +231,7 @@ public Object getDirectParaAttr(int key, int revisionsView)
 
 **Returns:**
 java.lang.Object
-### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
+### getDirectRunAttr(int key) {#getDirectRunAttr-int}
 ```
 public Object getDirectRunAttr(int key)
 ```
@@ -243,7 +246,7 @@ public Object getDirectRunAttr(int key)
 
 **Returns:**
 java.lang.Object
-### getDocument() {#getDocument--}
+### getDocument() {#getDocument}
 ```
 public DocumentBase getDocument()
 ```
@@ -253,7 +256,7 @@ Gets the owner document.
 
 **Returns:**
 [DocumentBase](../../com.aspose.words/documentbase) - The owner document.
-### getFont() {#getFont--}
+### getFont() {#getFont}
 ```
 public Font getFont()
 ```
@@ -261,21 +264,21 @@ public Font getFont()
 
 Gets the character formatting of the style.
 
-For list styles this property returns null.
+For list styles this property returns  null .
 
 **Returns:**
 [Font](../../com.aspose.words/font) - The character formatting of the style.
-### getLinkedStyleName() {#getLinkedStyleName--}
+### getLinkedStyleName() {#getLinkedStyleName}
 ```
 public String getLinkedStyleName()
 ```
 
 
-Gets the name of the Style linked to this one. Returns Empty string if no styles are linked.
+Gets the name of the [Style](../../com.aspose.words/style) linked to this one. Returns empty string if no styles are linked.
 
 **Returns:**
-java.lang.String - The name of the Style linked to this one.
-### getList() {#getList--}
+java.lang.String - The name of the [Style](../../com.aspose.words/style) linked to this one.
+### getList() {#getList}
 ```
 public List getList()
 ```
@@ -283,11 +286,11 @@ public List getList()
 
 Gets the list that defines formatting of this list style.
 
-This property is only valid for list styles. For other style types this property returns null.
+This property is only valid for list styles. For other style types this property returns  null .
 
 **Returns:**
 [List](../../com.aspose.words/list) - The list that defines formatting of this list style.
-### getListFormat() {#getListFormat--}
+### getListFormat() {#getListFormat}
 ```
 public ListFormat getListFormat()
 ```
@@ -295,11 +298,11 @@ public ListFormat getListFormat()
 
 Provides access to the list formatting properties of a paragraph style.
 
-This property is only valid for paragraph styles. For other style types this property returns null.
+This property is only valid for paragraph styles. For other style types this property returns  null .
 
 **Returns:**
 [ListFormat](../../com.aspose.words/listformat) - The corresponding [ListFormat](../../com.aspose.words/listformat) value.
-### getName() {#getName--}
+### getName() {#getName}
 ```
 public String getName()
 ```
@@ -313,7 +316,7 @@ If there already is a style with such name in the collection, then this style wi
 
 **Returns:**
 java.lang.String - The name of the style.
-### getNextParagraphStyleName() {#getNextParagraphStyleName--}
+### getNextParagraphStyleName() {#getNextParagraphStyleName}
 ```
 public String getNextParagraphStyleName()
 ```
@@ -323,7 +326,7 @@ Gets/sets the name of the style to be applied automatically to a new paragraph i
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### getParagraphFormat() {#getParagraphFormat--}
+### getParagraphFormat() {#getParagraphFormat}
 ```
 public ParagraphFormat getParagraphFormat()
 ```
@@ -331,11 +334,11 @@ public ParagraphFormat getParagraphFormat()
 
 Gets the paragraph formatting of the style.
 
-For character and list styles this property returns null.
+For character and list styles this property returns  null .
 
 **Returns:**
 [ParagraphFormat](../../com.aspose.words/paragraphformat) - The paragraph formatting of the style.
-### getStyleIdentifier() {#getStyleIdentifier--}
+### getStyleIdentifier() {#getStyleIdentifier}
 ```
 public int getStyleIdentifier()
 ```
@@ -347,7 +350,7 @@ For user defined (custom) styles, this property returns [StyleIdentifier.USER](.
 
 **Returns:**
 int - The locale independent style identifier for a built-in style. The returned value is one of [StyleIdentifier](../../com.aspose.words/styleidentifier) constants.
-### getStyles() {#getStyles--}
+### getStyles() {#getStyles}
 ```
 public StyleCollection getStyles()
 ```
@@ -357,7 +360,7 @@ Gets the collection of styles this style belongs to.
 
 **Returns:**
 [StyleCollection](../../com.aspose.words/stylecollection) - The collection of styles this style belongs to.
-### getType() {#getType--}
+### getType() {#getType}
 ```
 public int getType()
 ```
@@ -367,7 +370,7 @@ Gets the style type (paragraph or character).
 
 **Returns:**
 int - The style type (paragraph or character). The returned value is one of [StyleType](../../com.aspose.words/styletype) constants.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -377,7 +380,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### isHeading() {#isHeading--}
+### isHeading() {#isHeading}
 ```
 public boolean isHeading()
 ```
@@ -387,7 +390,7 @@ True when the style is one of the built-in Heading styles.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### isQuickStyle() {#isQuickStyle--}
+### isQuickStyle() {#isQuickStyle}
 ```
 public boolean isQuickStyle()
 ```
@@ -397,7 +400,7 @@ Specifies whether this style is shown in the Quick Style gallery inside MS Word 
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### isQuickStyle(boolean value) {#isQuickStyle-boolean-}
+### isQuickStyle(boolean value) {#isQuickStyle-boolean}
 ```
 public void isQuickStyle(boolean value)
 ```
@@ -410,7 +413,7 @@ Specifies whether this style is shown in the Quick Style gallery inside MS Word 
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -418,7 +421,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -426,7 +429,7 @@ public final native void notifyAll()
 
 
 
-### remove() {#remove--}
+### remove() {#remove}
 ```
 public void remove()
 ```
@@ -438,7 +441,7 @@ Removes the specified style from the document. Style removal has following effec
  *  If base style is removed its formatting is moved to child styles.
  *  If style to be deleted has a linked style, then both of these are deleted.
 
-### removeParaAttr(int key) {#removeParaAttr-int-}
+### removeParaAttr(int key) {#removeParaAttr-int}
 ```
 public void removeParaAttr(int key)
 ```
@@ -451,7 +454,7 @@ public void removeParaAttr(int key)
 | --- | --- | --- |
 | key | int |  |
 
-### removeRunAttr(int key) {#removeRunAttr-int-}
+### removeRunAttr(int key) {#removeRunAttr-int}
 ```
 public void removeRunAttr(int key)
 ```
@@ -464,7 +467,7 @@ public void removeRunAttr(int key)
 | --- | --- | --- |
 | key | int |  |
 
-### setBaseStyleName(String value) {#setBaseStyleName-java.lang.String-}
+### setBaseStyleName(String value) {#setBaseStyleName-java.lang.String}
 ```
 public void setBaseStyleName(String value)
 ```
@@ -477,7 +480,7 @@ Gets/sets the name of the style this style is based on. This will be an empty st
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### setName(String value) {#setName-java.lang.String-}
+### setName(String value) {#setName-java.lang.String}
 ```
 public void setName(String value)
 ```
@@ -494,7 +497,7 @@ If there already is a style with such name in the collection, then this style wi
 | --- | --- | --- |
 | value | java.lang.String | The name of the style. |
 
-### setNextParagraphStyleName(String value) {#setNextParagraphStyleName-java.lang.String-}
+### setNextParagraphStyleName(String value) {#setNextParagraphStyleName-java.lang.String}
 ```
 public void setNextParagraphStyleName(String value)
 ```
@@ -507,7 +510,7 @@ Gets/sets the name of the style to be applied automatically to a new paragraph i
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### setParaAttr(int key, Object value) {#setParaAttr-int-java.lang.Object-}
+### setParaAttr(int key, Object value) {#setParaAttr-int-java.lang.Object}
 ```
 public void setParaAttr(int key, Object value)
 ```
@@ -521,7 +524,7 @@ public void setParaAttr(int key, Object value)
 | key | int |  |
 | value | java.lang.Object |  |
 
-### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object-}
+### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object}
 ```
 public void setRunAttr(int key, Object value)
 ```
@@ -535,7 +538,7 @@ public void setRunAttr(int key, Object value)
 | key | int |  |
 | value | java.lang.Object |  |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -545,7 +548,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -553,7 +556,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -566,7 +569,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

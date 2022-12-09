@@ -1,7 +1,7 @@
 ---
 title: Theme
 second_title: Aspose.Words for C++ API Reference
-description: Represents document Theme, and provides access to main theme parts including MajorFonts, MinorFonts and Colors
+description: Represents document Theme, and provides access to main theme parts including MajorFonts, MinorFonts and ColorsTo learn more, visit the  documentation article.
 type: docs
 weight: 1
 url: /cpp/aspose.words.themes/theme/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.themes/theme/
 ## Theme class
 
 
-Represents document [Theme](./), and provides access to main theme parts including [MajorFonts](./get_majorfonts/), [MinorFonts](./get_minorfonts/) and [Colors](./get_colors/)
+Represents document [Theme](./), and provides access to main theme parts including [MajorFonts](./get_majorfonts/), [MinorFonts](./get_minorfonts/) and [Colors](./get_colors/)To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article.
 
 ```cpp
 class Theme : public Aspose::Words::Drawing::Core::Dml::Themes::IThemeProvider,
@@ -23,7 +23,10 @@ class Theme : public Aspose::Words::Drawing::Core::Dml::Themes::IThemeProvider,
 | [get_Colors](./get_colors/)() const | Allows to specify the set of theme colors for the document. |
 | [get_MajorFonts](./get_majorfonts/)() const | Allows to specify the set of major fonts for different languages. |
 | [get_MinorFonts](./get_minorfonts/)() const | Allows to specify the set of minor fonts for different languages. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Theme](./theme/)() |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 

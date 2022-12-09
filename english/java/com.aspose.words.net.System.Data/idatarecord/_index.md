@@ -15,12 +15,12 @@ Provides access to the column values within each row for a DataReader, and is im
 
 | Method | Description |
 | --- | --- |
-| [get(int i)](#get-int-) | Gets the column located at the specified index. |
-| [getFieldCount()](#getFieldCount--) | Gets the number of columns in the current row. |
-| [getFieldType(int i)](#getFieldType-int-) | Gets the java.lang.Class information corresponding to the type of java.lang.Object that would be returned from [getValue(int)](../../com.aspose.words.net.system.data/idatarecord\#getValue-int-). |
-| [getName(int i)](#getName-int-) | Gets the name for the field to find. |
-| [getValue(int i)](#getValue-int-) | Return the value of the specified field. |
-### get(int i) {#get-int-}
+| [get(int i)](#get-int) | Gets the column located at the specified index. |
+| [getFieldCount()](#getFieldCount) | Gets the number of columns in the current row. |
+| [getFieldType(int i)](#getFieldType-int) | Gets the java.lang.Class information corresponding to the type of java.lang.Object that would be returned from [getValue(int)](../../com.aspose.words.net.system.data/idatarecord\#getValue-int). |
+| [getName(int i)](#getName-int) | Gets the name for the field to find. |
+| [getValue(int i)](#getValue-int) | Return the value of the specified field. |
+### get(int i) {#get-int}
 ```
 public abstract Object get(int i)
 ```
@@ -35,7 +35,7 @@ Gets the column located at the specified index.
 
 **Returns:**
 java.lang.Object - The column located at the specified index as an java.lang.Object.
-### getFieldCount() {#getFieldCount--}
+### getFieldCount() {#getFieldCount}
 ```
 public abstract int getFieldCount()
 ```
@@ -45,13 +45,13 @@ Gets the number of columns in the current row.
 
 **Returns:**
 int - When not positioned in a valid recordset, 0; otherwise, the number of columns in the current record. The default is -1.
-### getFieldType(int i) {#getFieldType-int-}
+### getFieldType(int i) {#getFieldType-int}
 ```
 public abstract Class getFieldType(int i)
 ```
 
 
-Gets the java.lang.Class information corresponding to the type of java.lang.Object that would be returned from [getValue(int)](../../com.aspose.words.net.system.data/idatarecord\#getValue-int-).
+Gets the java.lang.Class information corresponding to the type of java.lang.Object that would be returned from [getValue(int)](../../com.aspose.words.net.system.data/idatarecord\#getValue-int).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -59,8 +59,8 @@ Gets the java.lang.Class information corresponding to the type of java.lang.Obje
 | i | int | The index of the field to find. |
 
 **Returns:**
-java.lang.Class - The java.lang.Class information corresponding to the type of java.lang.Object that would be returned from [getValue(int)](../../com.aspose.words.net.system.data/idatarecord\#getValue-int-).
-### getName(int i) {#getName-int-}
+java.lang.Class - The java.lang.Class information corresponding to the type of java.lang.Object that would be returned from [getValue(int)](../../com.aspose.words.net.system.data/idatarecord\#getValue-int).
+### getName(int i) {#getName-int}
 ```
 public abstract String getName(int i)
 ```
@@ -75,7 +75,7 @@ Gets the name for the field to find.
 
 **Returns:**
 java.lang.String - The name of the field or the empty string (""), if there is no value to return.
-### getValue(int i) {#getValue-int-}
+### getValue(int i) {#getValue-int}
 ```
 public abstract Object getValue(int i)
 ```

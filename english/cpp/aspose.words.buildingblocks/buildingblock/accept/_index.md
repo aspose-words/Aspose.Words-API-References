@@ -3,7 +3,7 @@ title: Accept
 second_title: Aspose.Words for C++ API Reference
 description: Accepts a visitor.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words.buildingblocks/buildingblock/accept/
 ---
 ## BuildingBlock::Accept method
@@ -30,7 +30,7 @@ Enumerates over this node and all of its children. Each node calls a correspondi
 
 For more info see the Visitor design pattern.
 
-Calls [VisitBuildingBlockStart()](../), then calls [Accept()](../../../aspose.words/node/accept/) for all child nodes of this building block, then calls [VisitBuildingBlockEnd()](../).
+Calls [VisitBuildingBlockStart()](../../../aspose.words/documentvisitor/visitbuildingblockstart/), then calls [Accept()](../../../aspose.words/node/accept/) for all child nodes of this building block, then calls [VisitBuildingBlockEnd()](../../../aspose.words/documentvisitor/visitbuildingblockend/).
 
 Note: A building block node and its children are not visited when you execute a Visitor over a [Document](../../../aspose.words/document/). If you want to execute a Visitor over a building block, you need to execute the visitor over [GlossaryDocument](../../glossarydocument/) or call [Accept()](./).
 

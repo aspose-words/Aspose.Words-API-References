@@ -1,7 +1,7 @@
 ---
 title: ImageData
 second_title: Aspose.Words for C++ API Reference
-description: Defines an image for a shape.
+description: Defines an image for a shape. To learn more, visit the  documentation article.
 type: docs
 weight: 66
 url: /cpp/aspose.words.drawing/imagedata/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing/imagedata/
 ## ImageData class
 
 
-Defines an image for a shape.
+Defines an image for a shape. To learn more, visit the [Working with Images](https://docs.aspose.com/words/cpp/working-with-images/) documentation article.
 
 ```cpp
 class ImageData : public Aspose::Words::IBorderAttrSource
@@ -29,14 +29,16 @@ class ImageData : public Aspose::Words::IBorderAttrSource
 | [get_CropRight](./get_cropright/)() | Defines the fraction of picture removal from the right side. |
 | [get_CropTop](./get_croptop/)() | Defines the fraction of picture removal from the top side. |
 | [get_GrayScale](./get_grayscale/)() | Determines whether a picture will display in grayscale mode. |
-| [get_HasImage](./get_hasimage/)() | Returns true if the shape has image bytes or links an image. |
+| [get_HasImage](./get_hasimage/)() | Returns **true** if the shape has image bytes or links an image. |
 | [get_ImageBytes](./get_imagebytes/)() | Gets or sets the raw bytes of the image stored in the shape. |
 | [get_ImageSize](./get_imagesize/)() | Gets the information about image size and resolution. |
 | [get_ImageType](./get_imagetype/)() | Gets the type of the image. |
-| [get_IsLink](./get_islink/)() | Returns true if the image is linked to the shape (when [SourceFullName](./get_sourcefullname/) is specified). |
-| [get_IsLinkOnly](./get_islinkonly/)() | Returns true if the image is linked and not stored in the document. |
+| [get_IsLink](./get_islink/)() | Returns **true** if the image is linked to the shape (when [SourceFullName](./get_sourcefullname/) is specified). |
+| [get_IsLinkOnly](./get_islinkonly/)() | Returns **true** if the image is linked and not stored in the document. |
 | [get_SourceFullName](./get_sourcefullname/)() | Gets or sets the path and name of the source file for the linked image. |
 | [get_Title](./get_title/)() | Defines the title of an image. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Save](./save/)(const System::SharedPtr\<System::IO::Stream\>\&) | Saves the image into the specified stream. |
 | [Save](./save/)(const System::String\&) | Saves the image into a file. |
 | [Save](./save/)(std::basic_ostream\<CharType, Traits\>\&) |  |
@@ -59,6 +61,7 @@ class ImageData : public Aspose::Words::IBorderAttrSource
 | [ToByteArray](./tobytearray/)() | Returns image bytes for any image regardless whether the image is stored or linked. |
 | [ToImage](./toimage/)() | Gets the image stored in the shape as a **Image** object. |
 | [ToStream](./tostream/)() | Creates and returns a stream that contains the image bytes. |
+| static [Type](./type/)() |  |
 ## Remarks
 
 

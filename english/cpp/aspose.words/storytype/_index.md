@@ -9,7 +9,7 @@ url: /cpp/aspose.words/storytype/
 ## StoryType enum
 
 
-Text of a Word document is stored in stories. **StoryType** identifies a story.
+Text of a Word document is stored in stories. [StoryType](./) identifies a story.
 
 ```cpp
 enum class StoryType

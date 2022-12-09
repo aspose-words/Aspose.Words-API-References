@@ -1,7 +1,7 @@
 ---
 title: RowFormat
 second_title: Aspose.Words for C++ API Reference
-description: Represents all formatting for a table row.
+description: Represents all formatting for a table row. To learn more, visit the  documentation article.
 type: docs
 weight: 79
 url: /cpp/aspose.words.tables/rowformat/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.tables/rowformat/
 ## RowFormat class
 
 
-Represents all formatting for a table row.
+Represents all formatting for a table row. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article.
 
 ```cpp
 class RowFormat : public Aspose::Words::IBorderAttrSource
@@ -25,10 +25,13 @@ class RowFormat : public Aspose::Words::IBorderAttrSource
 | [get_HeadingFormat](./get_headingformat/)() | True if the row is repeated as a table heading on every page when the table spans more than one page. |
 | [get_Height](./get_height/)() | Gets or sets the height of the table row in points. |
 | [get_HeightRule](./get_heightrule/)() | Gets or sets the rule for determining the height of the table row. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_AllowBreakAcrossPages](./set_allowbreakacrosspages/)(bool) | Setter for [Aspose::Words::Tables::RowFormat::get_AllowBreakAcrossPages](./get_allowbreakacrosspages/). |
 | [set_HeadingFormat](./set_headingformat/)(bool) | Setter for [Aspose::Words::Tables::RowFormat::get_HeadingFormat](./get_headingformat/). |
 | [set_Height](./set_height/)(double) | Setter for [Aspose::Words::Tables::RowFormat::get_Height](./get_height/). |
 | [set_HeightRule](./set_heightrule/)(Aspose::Words::HeightRule) | Setter for [Aspose::Words::Tables::RowFormat::get_HeightRule](./get_heightrule/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

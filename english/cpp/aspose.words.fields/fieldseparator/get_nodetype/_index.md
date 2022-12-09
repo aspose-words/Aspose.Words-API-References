@@ -3,7 +3,7 @@ title: get_NodeType
 second_title: Aspose.Words for C++ API Reference
 description: Returns FieldSeparator.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/aspose.words.fields/fieldseparator/get_nodetype/
 ---
 ## FieldSeparator::get_NodeType method

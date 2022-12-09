@@ -3,13 +3,13 @@ title: get_IsClear
 second_title: Aspose.Words for C++ API Reference
 description: Returns true if this tab stop clears any existing tab stops in this position.
 type: docs
-weight: 40
+weight: 53
 url: /cpp/aspose.words/tabstop/get_isclear/
 ---
 ## TabStop::get_IsClear method
 
 
-Returns true if this tab stop clears any existing tab stops in this position.
+Returns **true** if this tab stop clears any existing tab stops in this position.
 
 ```cpp
 bool Aspose::Words::TabStop::get_IsClear()

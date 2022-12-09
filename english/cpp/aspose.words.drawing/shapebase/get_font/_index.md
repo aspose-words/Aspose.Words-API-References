@@ -3,7 +3,7 @@ title: get_Font
 second_title: Aspose.Words for C++ API Reference
 description: Provides access to the font formatting of this object.
 type: docs
-weight: 248
+weight: 261
 url: /cpp/aspose.words.drawing/shapebase/get_font/
 ---
 ## ShapeBase::get_Font method

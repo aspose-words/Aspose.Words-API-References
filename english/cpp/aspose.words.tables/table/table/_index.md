@@ -3,13 +3,13 @@ title: Table
 second_title: Aspose.Words for C++ API Reference
 description: Initializes a new instance of the Table class.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/aspose.words.tables/table/table/
 ---
 ## Table::Table constructor
 
 
-Initializes a new instance of the **Table** class.
+Initializes a new instance of the [Table](../) class.
 
 ```cpp
 Aspose::Words::Tables::Table::Table(const System::SharedPtr<Aspose::Words::DocumentBase> &doc)
@@ -22,9 +22,9 @@ Aspose::Words::Tables::Table::Table(const System::SharedPtr<Aspose::Words::Docum
 ## Remarks
 
 
-When **Table** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+When [Table](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../../aspose.words/node/get_parentnode/) is **null**.
 
-To append **Table** to the document use InsertAfter or InsertBefore on the story where you want the table inserted.
+To append [Table](../) to the document use [InsertAfter()](../) or [InsertBefore()](../) on the story where you want the table inserted.
 
 ## Examples
 

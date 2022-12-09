@@ -1,7 +1,7 @@
 ---
 title: Shading
 second_title: Aspose.Words for C++ API Reference
-description: Contains shading attributes for an object.
+description: Contains shading attributes for an object. To learn more, visit the  documentation article.
 type: docs
 weight: 768
 url: /cpp/aspose.words/shading/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words/shading/
 ## Shading class
 
 
-Contains shading attributes for an object.
+Contains shading attributes for an object. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
 
 ```cpp
 class Shading : public Aspose::Words::InternableComplexAttr,
@@ -27,9 +27,12 @@ class Shading : public Aspose::Words::InternableComplexAttr,
 | [get_ForegroundPatternColor](./get_foregroundpatterncolor/)() | Gets or sets the color that's applied to the foreground of the [Shading](./) object. |
 | [get_Texture](./get_texture/)() | Gets or sets the shading texture. |
 | [GetHashCode](./gethashcode/)() const override | Serves as a hash function for this type. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_BackgroundPatternColor](./set_backgroundpatterncolor/)(System::Drawing::Color) | Setter for [Aspose::Words::Shading::get_BackgroundPatternColor](./get_backgroundpatterncolor/). |
 | [set_ForegroundPatternColor](./set_foregroundpatterncolor/)(System::Drawing::Color) | Setter for [Aspose::Words::Shading::get_ForegroundPatternColor](./get_foregroundpatterncolor/). |
 | [set_Texture](./set_texture/)(Aspose::Words::TextureIndex) | Setter for [Aspose::Words::Shading::get_Texture](./get_texture/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 

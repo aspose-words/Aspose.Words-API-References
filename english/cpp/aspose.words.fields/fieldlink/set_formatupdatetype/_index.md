@@ -3,7 +3,7 @@ title: set_FormatUpdateType
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Fields::FieldLink::get_FormatUpdateType.'
 type: docs
-weight: 170
+weight: 209
 url: /cpp/aspose.words.fields/fieldlink/set_formatupdatetype/
 ---
 ## FieldLink::set_FormatUpdateType method

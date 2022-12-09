@@ -3,7 +3,7 @@ title: MoveToMergeField
 second_title: Aspose.Words for C++ API Reference
 description: Moves the cursor to a position just beyond the specified merge field and removes the merge field.
 type: docs
-weight: 703
+weight: 742
 url: /cpp/aspose.words/documentbuilder/movetomergefield/
 ---
 ## DocumentBuilder::MoveToMergeField(const System::String\&) method
@@ -22,7 +22,7 @@ bool Aspose::Words::DocumentBuilder::MoveToMergeField(const System::String &fiel
 
 ### ReturnValue
 
-True if the merge field was found and the cursor was moved; false otherwise.
+**true** if the merge field was found and the cursor was moved; **false** otherwise.
 ## Remarks
 
 
@@ -76,12 +76,12 @@ bool Aspose::Words::DocumentBuilder::MoveToMergeField(const System::String &fiel
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldName | const System::String\& | The case-insensitive name of the mail merge field. |
-| isAfter | bool | When true, moves the cursor to be after the field end. When false, moves the cursor to be before the field start. |
-| isDeleteField | bool | When true, deletes the merge field. |
+| isAfter | bool | When **true**, moves the cursor to be after the field end. When **false**, moves the cursor to be before the field start. |
+| isDeleteField | bool | When **true**, deletes the merge field. |
 
 ### ReturnValue
 
-True if the merge field was found and the cursor was moved; false otherwise.
+**true** if the merge field was found and the cursor was moved; **false** otherwise.
 
 ## Examples
 

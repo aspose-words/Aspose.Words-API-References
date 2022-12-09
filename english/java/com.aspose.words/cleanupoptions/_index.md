@@ -15,29 +15,32 @@ public class CleanupOptions
 
 Allows to specify options for document cleaning.
 
-To learn more, visit the **Clean Up a Document** documentation article.
+To learn more, visit the [ Clean Up a Document ][Clean Up a Document] documentation article.
+
+
+[Clean Up a Document]: https://docs.aspose.com/words/java/clean-up-a-document/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getDuplicateStyle()](#getDuplicateStyle--) | Gets/sets a flag indicating whether duplicate styles should be removed from document. |
-| [getUnusedBuiltinStyles()](#getUnusedBuiltinStyles--) | Specifies that unused [Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn--) styles should be removed from document. |
-| [getUnusedLists()](#getUnusedLists--) | Specifies whether unused list and list definitions should be removed from document. |
-| [getUnusedStyles()](#getUnusedStyles--) | Specifies whether unused styles should be removed from document. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setDuplicateStyle(boolean value)](#setDuplicateStyle-boolean-) | Gets/sets a flag indicating whether duplicate styles should be removed from document. |
-| [setUnusedBuiltinStyles(boolean value)](#setUnusedBuiltinStyles-boolean-) | Specifies that unused [Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn--) styles should be removed from document. |
-| [setUnusedLists(boolean value)](#setUnusedLists-boolean-) | Specifies whether unused list and list definitions should be removed from document. |
-| [setUnusedStyles(boolean value)](#setUnusedStyles-boolean-) | Specifies whether unused styles should be removed from document. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getDuplicateStyle()](#getDuplicateStyle) | Gets/sets a flag indicating whether duplicate styles should be removed from document. |
+| [getUnusedBuiltinStyles()](#getUnusedBuiltinStyles) | Specifies that unused [Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn) styles should be removed from document. |
+| [getUnusedLists()](#getUnusedLists) | Specifies whether unused list and list definitions should be removed from document. |
+| [getUnusedStyles()](#getUnusedStyles) | Specifies whether unused styles should be removed from document. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setDuplicateStyle(boolean value)](#setDuplicateStyle-boolean) | Gets/sets a flag indicating whether duplicate styles should be removed from document. |
+| [setUnusedBuiltinStyles(boolean value)](#setUnusedBuiltinStyles-boolean) | Specifies that unused [Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn) styles should be removed from document. |
+| [setUnusedLists(boolean value)](#setUnusedLists-boolean) | Specifies whether unused list and list definitions should be removed from document. |
+| [setUnusedStyles(boolean value)](#setUnusedStyles-boolean) | Specifies whether unused styles should be removed from document. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -52,7 +55,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -62,47 +65,47 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDuplicateStyle() {#getDuplicateStyle--}
+### getDuplicateStyle() {#getDuplicateStyle}
 ```
 public boolean getDuplicateStyle()
 ```
 
 
-Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is **false**.
+Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is  false .
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getUnusedBuiltinStyles() {#getUnusedBuiltinStyles--}
+### getUnusedBuiltinStyles() {#getUnusedBuiltinStyles}
 ```
 public boolean getUnusedBuiltinStyles()
 ```
 
 
-Specifies that unused [Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn--) styles should be removed from document.
+Specifies that unused [Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn) styles should be removed from document.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getUnusedLists() {#getUnusedLists--}
+### getUnusedLists() {#getUnusedLists}
 ```
 public boolean getUnusedLists()
 ```
 
 
-Specifies whether unused list and list definitions should be removed from document. Default value is **true**.
+Specifies whether unused list and list definitions should be removed from document. Default value is  true .
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getUnusedStyles() {#getUnusedStyles--}
+### getUnusedStyles() {#getUnusedStyles}
 ```
 public boolean getUnusedStyles()
 ```
 
 
-Specifies whether unused styles should be removed from document. Default value is **true**.
+Specifies whether unused styles should be removed from document. Default value is  true .
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -112,7 +115,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -120,7 +123,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -128,59 +131,59 @@ public final native void notifyAll()
 
 
 
-### setDuplicateStyle(boolean value) {#setDuplicateStyle-boolean-}
+### setDuplicateStyle(boolean value) {#setDuplicateStyle-boolean}
 ```
 public void setDuplicateStyle(boolean value)
 ```
 
 
-Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is **false**.
+Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is  false .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setUnusedBuiltinStyles(boolean value) {#setUnusedBuiltinStyles-boolean-}
+### setUnusedBuiltinStyles(boolean value) {#setUnusedBuiltinStyles-boolean}
 ```
 public void setUnusedBuiltinStyles(boolean value)
 ```
 
 
-Specifies that unused [Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn--) styles should be removed from document.
+Specifies that unused [Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn) styles should be removed from document.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setUnusedLists(boolean value) {#setUnusedLists-boolean-}
+### setUnusedLists(boolean value) {#setUnusedLists-boolean}
 ```
 public void setUnusedLists(boolean value)
 ```
 
 
-Specifies whether unused list and list definitions should be removed from document. Default value is **true**.
+Specifies whether unused list and list definitions should be removed from document. Default value is  true .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setUnusedStyles(boolean value) {#setUnusedStyles-boolean-}
+### setUnusedStyles(boolean value) {#setUnusedStyles-boolean}
 ```
 public void setUnusedStyles(boolean value)
 ```
 
 
-Specifies whether unused styles should be removed from document. Default value is **true**.
+Specifies whether unused styles should be removed from document. Default value is  true .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -190,7 +193,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -198,7 +201,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -211,7 +214,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

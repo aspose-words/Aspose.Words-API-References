@@ -1,7 +1,7 @@
 ---
 title: FootnoteOptions
 second_title: Aspose.Words for C++ API Reference
-description: Represents the footnote numbering options for a document or section.
+description: Represents the footnote numbering options for a document or section. To learn more, visit the  documentation article.
 type: docs
 weight: 27
 url: /cpp/aspose.words.notes/footnoteoptions/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.notes/footnoteoptions/
 ## FootnoteOptions class
 
 
-Represents the footnote numbering options for a document or section.
+Represents the footnote numbering options for a document or section. To learn more, visit the [Working with Footnote and Endnote](https://docs.aspose.com/words/cpp/working-with-footnote-and-endnote/) documentation article.
 
 ```cpp
 class FootnoteOptions : public Aspose::Words::Notes::IFootnoteOptions
@@ -24,11 +24,14 @@ class FootnoteOptions : public Aspose::Words::Notes::IFootnoteOptions
 | [get_Position](./get_position/)() | Specifies the footnotes position. |
 | [get_RestartRule](./get_restartrule/)() override | Determines when automatic numbering restarts. |
 | [get_StartNumber](./get_startnumber/)() override | Specifies the starting number or character for the first automatically numbered footnotes. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Columns](./set_columns/)(int32_t) | Setter for [Aspose::Words::Notes::FootnoteOptions::get_Columns](./get_columns/). |
 | [set_NumberStyle](./set_numberstyle/)(Aspose::Words::NumberStyle) override | Setter for [Aspose::Words::Notes::FootnoteOptions::get_NumberStyle](./get_numberstyle/). |
 | [set_Position](./set_position/)(Aspose::Words::Notes::FootnotePosition) | Setter for [Aspose::Words::Notes::FootnoteOptions::get_Position](./get_position/). |
 | [set_RestartRule](./set_restartrule/)(Aspose::Words::Notes::FootnoteNumberingRule) override | Setter for [Aspose::Words::Notes::FootnoteOptions::get_RestartRule](./get_restartrule/). |
 | [set_StartNumber](./set_startnumber/)(int32_t) override | Setter for [Aspose::Words::Notes::FootnoteOptions::get_StartNumber](./get_startnumber/). |
+| static [Type](./type/)() |  |
 
 ## Examples
 
