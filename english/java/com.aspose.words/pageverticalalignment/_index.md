@@ -3,7 +3,7 @@ title: PageVerticalAlignment
 second_title: Aspose.Words for Java API Reference
 description: Specifies vertical justification of text on each page.
 type: docs
-weight: 441
+weight: 444
 url: /java/com.aspose.words/pageverticalalignment/
 ---
 
@@ -27,19 +27,19 @@ Specifies vertical justification of text on each page.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String pageVerticalAlignmentName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int pageVerticalAlignment)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int pageVerticalAlignment)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String pageVerticalAlignmentName)](#fromName-java.lang.String) |  |
+| [getClass()](#getClass) |  |
+| [getName(int pageVerticalAlignment)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int pageVerticalAlignment)](#toString-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### BOTTOM {#BOTTOM}
 ```
 public static int BOTTOM
@@ -78,7 +78,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -93,7 +93,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String pageVerticalAlignmentName) {#fromName-java.lang.String-}
+### fromName(String pageVerticalAlignmentName) {#fromName-java.lang.String}
 ```
 public static int fromName(String pageVerticalAlignmentName)
 ```
@@ -108,7 +108,7 @@ public static int fromName(String pageVerticalAlignmentName)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -118,7 +118,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int pageVerticalAlignment) {#getName-int-}
+### getName(int pageVerticalAlignment) {#getName-int}
 ```
 public static String getName(int pageVerticalAlignment)
 ```
@@ -133,7 +133,7 @@ public static String getName(int pageVerticalAlignment)
 
 **Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -143,7 +143,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -153,7 +153,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -161,7 +161,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -169,7 +169,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -179,7 +179,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int pageVerticalAlignment) {#toString-int-}
+### toString(int pageVerticalAlignment) {#toString-int}
 ```
 public static String toString(int pageVerticalAlignment)
 ```
@@ -194,7 +194,7 @@ public static String toString(int pageVerticalAlignment)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -202,7 +202,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -215,7 +215,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

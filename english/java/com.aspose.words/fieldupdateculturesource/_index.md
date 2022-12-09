@@ -3,7 +3,7 @@ title: FieldUpdateCultureSource
 second_title: Aspose.Words for Java API Reference
 description: Indicates what culture to use during field update.
 type: docs
-weight: 258
+weight: 259
 url: /java/com.aspose.words/fieldupdateculturesource/
 ---
 
@@ -25,19 +25,19 @@ Indicates what culture to use during field update.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String fieldUpdateCultureSourceName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int fieldUpdateCultureSource)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int fieldUpdateCultureSource)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String fieldUpdateCultureSourceName)](#fromName-java.lang.String) |  |
+| [getClass()](#getClass) |  |
+| [getName(int fieldUpdateCultureSource)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int fieldUpdateCultureSource)](#toString-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### CURRENT_THREAD {#CURRENT-THREAD}
 ```
 public static int CURRENT_THREAD
@@ -60,7 +60,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -75,7 +75,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String fieldUpdateCultureSourceName) {#fromName-java.lang.String-}
+### fromName(String fieldUpdateCultureSourceName) {#fromName-java.lang.String}
 ```
 public static int fromName(String fieldUpdateCultureSourceName)
 ```
@@ -90,7 +90,7 @@ public static int fromName(String fieldUpdateCultureSourceName)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -100,7 +100,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int fieldUpdateCultureSource) {#getName-int-}
+### getName(int fieldUpdateCultureSource) {#getName-int}
 ```
 public static String getName(int fieldUpdateCultureSource)
 ```
@@ -115,7 +115,7 @@ public static String getName(int fieldUpdateCultureSource)
 
 **Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -125,7 +125,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -135,7 +135,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -143,7 +143,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -151,7 +151,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -161,7 +161,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int fieldUpdateCultureSource) {#toString-int-}
+### toString(int fieldUpdateCultureSource) {#toString-int}
 ```
 public static String toString(int fieldUpdateCultureSource)
 ```
@@ -176,7 +176,7 @@ public static String toString(int fieldUpdateCultureSource)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -184,7 +184,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -197,7 +197,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

@@ -3,7 +3,7 @@ title: DocumentBuilder
 second_title: Aspose.Words for Java API Reference
 description: Provides methods to insert text images and other content specify font paragraph and section formatting.
 type: docs
-weight: 122
+weight: 123
 url: /java/com.aspose.words/documentbuilder/
 ---
 
@@ -15,182 +15,192 @@ public class DocumentBuilder
 
 Provides methods to insert text, images and other content, specify font, paragraph and section formatting.
 
-To learn more, visit the **Document Builder Overview** documentation article.
+To learn more, visit the [ Document Builder Overview ][Document Builder Overview] documentation article.
 
-**DocumentBuilder** makes the process of building a **Document** easier. **Document** is a composite object consisting of a tree of nodes and while inserting content nodes directly into the tree is possible, it requires good understanding of the tree structure. **DocumentBuilder** is a "facade" for the complex structure of **Document** and allows to insert content and formatting quickly and easily.
+[DocumentBuilder](../../com.aspose.words/documentbuilder) makes the process of building a [Document](../../com.aspose.words/document) easier. [Document](../../com.aspose.words/document) is a composite object consisting of a tree of nodes and while inserting content nodes directly into the tree is possible, it requires good understanding of the tree structure. [DocumentBuilder](../../com.aspose.words/documentbuilder) is a "facade" for the complex structure of [Document](../../com.aspose.words/document) and allows to insert content and formatting quickly and easily.
 
-Create a **DocumentBuilder** and associate it with a [getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-).
+Create a [DocumentBuilder](../../com.aspose.words/documentbuilder) and associate it with a [Document](../../com.aspose.words/document).
 
-The **DocumentBuilder** has an internal cursor where the text will be inserted when you call [write(java.lang.String)](../../com.aspose.words/documentbuilder\#write-java.lang.String-), [writeln(java.lang.String)](../../com.aspose.words/documentbuilder\#writeln-java.lang.String-), **M:Aspose.Words.DocumentBuilder.InsertBreak(Aspose.Words.BreakType)** and other methods. You can navigate the **DocumentBuilder** cursor to a different location in a document using various MoveToXXX methods.
+The [DocumentBuilder](../../com.aspose.words/documentbuilder) has an internal cursor where the text will be inserted when you call [write(java.lang.String)](../../com.aspose.words/documentbuilder\#write-java.lang.String), [writeln(java.lang.String)](../../com.aspose.words/documentbuilder\#writeln-java.lang.String), **M:Aspose.Words.DocumentBuilder.InsertBreak(Aspose.Words.BreakType)** and other methods. You can navigate the [DocumentBuilder](../../com.aspose.words/documentbuilder) cursor to a different location in a document using various MoveToXXX methods.
 
-Use the [getFont()](../../com.aspose.words/documentbuilder\#getFont--) property to specify character formatting that will apply to all text inserted from the current position in the document onwards.
+Use the [getFont()](../../com.aspose.words/documentbuilder\#getFont) property to specify character formatting that will apply to all text inserted from the current position in the document onwards.
 
-Use the [getParagraphFormat()](../../com.aspose.words/documentbuilder\#getParagraphFormat--) property to specify paragraph formatting for the current and all paragraphs that will be inserted.
+Use the [getParagraphFormat()](../../com.aspose.words/documentbuilder\#getParagraphFormat) property to specify paragraph formatting for the current and all paragraphs that will be inserted.
 
-Use the [getPageSetup()](../../com.aspose.words/documentbuilder\#getPageSetup--) property to specify page and section properties for the current section and all section that will be inserted.
+Use the [getPageSetup()](../../com.aspose.words/documentbuilder\#getPageSetup) property to specify page and section properties for the current section and all section that will be inserted.
 
-Use the [getCellFormat()](../../com.aspose.words/documentbuilder\#getCellFormat--) and [getRowFormat()](../../com.aspose.words/documentbuilder\#getRowFormat--) properties to specify formatting properties for table cells and rows. User the [insertCell()](../../com.aspose.words/documentbuilder\#insertCell--) and [endRow()](../../com.aspose.words/documentbuilder\#endRow--) methods to build a table.
+Use the [getCellFormat()](../../com.aspose.words/documentbuilder\#getCellFormat) and [getRowFormat()](../../com.aspose.words/documentbuilder\#getRowFormat) properties to specify formatting properties for table cells and rows. User the [insertCell()](../../com.aspose.words/documentbuilder\#insertCell) and [endRow()](../../com.aspose.words/documentbuilder\#endRow) methods to build a table.
 
-Note that **Font**, **ParagraphFormat** and **PageSetup** properties are updated whenever you navigate to a different place in the document to reflect formatting properties available at the new location.
+Note that [getFont()](../../com.aspose.words/documentbuilder\#getFont), [getParagraphFormat()](../../com.aspose.words/documentbuilder\#getParagraphFormat) and [getPageSetup()](../../com.aspose.words/documentbuilder\#getPageSetup) properties are updated whenever you navigate to a different place in the document to reflect formatting properties available at the new location.
+
+
+[Document Builder Overview]: https://docs.aspose.com/words/java/document-builder-overview/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [DocumentBuilder()](#DocumentBuilder--) | Initializes a new instance of this class. |
-| [DocumentBuilder(Document doc)](#DocumentBuilder-com.aspose.words.Document-) | Initializes a new instance of this class. |
+| [DocumentBuilder()](#DocumentBuilder) | Initializes a new instance of this class. |
+| [DocumentBuilder(Document doc)](#DocumentBuilder-com.aspose.words.Document) | Initializes a new instance of this class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [clearCellAttrs()](#clearCellAttrs--) |  |
-| [clearRowAttrs()](#clearRowAttrs--) |  |
-| [clearRunAttrs()](#clearRunAttrs--) |  |
-| [deleteRow(int tableIndex, int rowIndex)](#deleteRow-int-int-) | Deletes a row from a table. |
-| [endBookmark(String bookmarkName)](#endBookmark-java.lang.String-) | Marks the current position in the document as a bookmark end. |
-| [endColumnBookmark(String bookmarkName)](#endColumnBookmark-java.lang.String-) | Marks the current position in the document as a column bookmark end. |
-| [endEditableRange()](#endEditableRange--) | Marks the current position in the document as an editable range end. |
-| [endEditableRange(EditableRangeStart start)](#endEditableRange-com.aspose.words.EditableRangeStart-) | Marks the current position in the document as an editable range end. |
-| [endRow()](#endRow--) | Ends a table row in the document. |
-| [endTable()](#endTable--) | Ends a table in the document. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fetchCellAttr(int key)](#fetchCellAttr-int-) |  |
-| [fetchInheritedCellAttr(int key)](#fetchInheritedCellAttr-int-) |  |
-| [fetchInheritedRowAttr(int key)](#fetchInheritedRowAttr-int-) |  |
-| [fetchInheritedRunAttr(int fontAttr)](#fetchInheritedRunAttr-int-) |  |
-| [fetchRowAttr(int key)](#fetchRowAttr-int-) |  |
-| [getBold()](#getBold--) | True if the font is formatted as bold. |
-| [getCellFormat()](#getCellFormat--) | Returns an object that represents current table cell formatting properties. |
-| [getClass()](#getClass--) |  |
-| [getCurrentNode()](#getCurrentNode--) | Gets the node that is currently selected in this DocumentBuilder. |
-| [getCurrentParagraph()](#getCurrentParagraph--) | Gets the paragraph that is currently selected in this DocumentBuilder. |
-| [getCurrentSection()](#getCurrentSection--) | Gets the section that is currently selected in this DocumentBuilder. |
-| [getCurrentStory()](#getCurrentStory--) | Gets the story that is currently selected in this DocumentBuilder. |
-| [getCurrentStructuredDocumentTag()](#getCurrentStructuredDocumentTag--) | Gets the structured document tag that is currently selected in this DocumentBuilder. |
-| [getDirectCellAttr(int key)](#getDirectCellAttr-int-) |  |
-| [getDirectRowAttr(int key)](#getDirectRowAttr-int-) |  |
-| [getDirectRunAttr(int fontAttr)](#getDirectRunAttr-int-) |  |
-| [getDocument()](#getDocument--) | Gets the [getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-) object that this object is attached to. |
-| [getFont()](#getFont--) | Returns an object that represents current font formatting properties. |
-| [getItalic()](#getItalic--) | True if the font is formatted as italic. |
-| [getListFormat()](#getListFormat--) | Returns an object that represents current list formatting properties. |
-| [getPageSetup()](#getPageSetup--) | Returns an object that represents current page setup and section properties. |
-| [getParagraphFormat()](#getParagraphFormat--) | Returns an object that represents current paragraph formatting properties. |
-| [getRowFormat()](#getRowFormat--) | Returns an object that represents current table row formatting properties. |
-| [getUnderline()](#getUnderline--) | Gets/sets underline type for the current font. |
-| [hashCode()](#hashCode--) |  |
-| [insertBreak(int breakType)](#insertBreak-int-) |  |
-| [insertCell()](#insertCell--) | Inserts a table cell into the document. |
-| [insertChart(int chartType, double width, double height)](#insertChart-int-double-double-) |  |
-| [insertChart(int chartType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertChart-int-int-double-int-double-double-double-int-) |  |
-| [insertCheckBox(String name, boolean defaultValue, boolean checkedValue, int size)](#insertCheckBox-java.lang.String-boolean-boolean-int-) | Inserts a checkbox form field at the current position. |
-| [insertCheckBox(String name, boolean checkedValue, int size)](#insertCheckBox-java.lang.String-boolean-int-) | Inserts a checkbox form field at the current position. |
-| [insertComboBox(String name, String[] items, int selectedIndex)](#insertComboBox-java.lang.String-java.lang.String---int-) | Inserts a combobox form field at the current position. |
-| [insertDocument(Document srcDoc, int importFormatMode)](#insertDocument-com.aspose.words.Document-int-) |  |
-| [insertDocument(Document srcDoc, int importFormatMode, ImportFormatOptions importFormatOptions)](#insertDocument-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions-) |  |
-| [insertField(int fieldType, boolean updateField)](#insertField-int-boolean-) |  |
-| [insertField(String fieldCode)](#insertField-java.lang.String-) | Inserts a Word field into a document. |
-| [insertField(String fieldCode, String fieldValue)](#insertField-java.lang.String-java.lang.String-) | Inserts a Word field into a document without updating the field result. |
-| [insertFootnote(int footnoteType, String footnoteText)](#insertFootnote-int-java.lang.String-) |  |
-| [insertFootnote(int footnoteType, String footnoteText, String referenceMark)](#insertFootnote-int-java.lang.String-java.lang.String-) |  |
-| [insertHorizontalRule()](#insertHorizontalRule--) | Inserts a horizontal rule shape into the document. |
-| [insertHtml(String html)](#insertHtml-java.lang.String-) | Inserts an HTML string into the document. |
-| [insertHtml(String html, boolean useBuilderFormatting)](#insertHtml-java.lang.String-boolean-) | Inserts an HTML string into the document. |
-| [insertHtml(String html, int options)](#insertHtml-java.lang.String-int-) |  |
-| [insertHyperlink(String displayText, String urlOrBookmark, boolean isBookmark)](#insertHyperlink-java.lang.String-java.lang.String-boolean-) | Inserts a hyperlink into the document. |
-| [insertImage(byte[] imageBytes)](#insertImage-byte---) | Inserts an image from a byte array into the document. |
-| [insertImage(byte[] imageBytes, double width, double height)](#insertImage-byte---double-double-) | Inserts an inline image from a byte array into the document and scales it to the specified size. |
-| [insertImage(byte[] imageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertImage-byte---int-double-int-double-double-double-int-) |  |
-| [insertImage(BufferedImage image)](#insertImage-java.awt.image.BufferedImage-) | Inserts an image into the document. |
-| [insertImage(BufferedImage image, double width, double height)](#insertImage-java.awt.image.BufferedImage-double-double-) | Inserts an inline image from a  object into the document and scales it to the specified size. |
-| [insertImage(BufferedImage image, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertImage-java.awt.image.BufferedImage-int-double-int-double-double-double-int-) |  |
-| [insertImage(InputStream stream)](#insertImage-java.io.InputStream-) |  |
-| [insertImage(InputStream stream, double width, double height)](#insertImage-java.io.InputStream-double-double-) |  |
-| [insertImage(InputStream stream, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertImage-java.io.InputStream-int-double-int-double-double-double-int-) |  |
-| [insertImage(String fileName)](#insertImage-java.lang.String-) | Inserts an image from a file or URL into the document. |
-| [insertImage(String fileName, double width, double height)](#insertImage-java.lang.String-double-double-) | Inserts an inline image from a file or URL into the document and scales it to the specified size. |
-| [insertImage(String fileName, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertImage-java.lang.String-int-double-int-double-double-double-int-) |  |
-| [insertNode(Node node)](#insertNode-com.aspose.words.Node-) | Inserts a node before the cursor. |
-| [insertOleObject(InputStream stream, String progId, boolean asIcon, InputStream presentation)](#insertOleObject-java.io.InputStream-java.lang.String-boolean-java.io.InputStream-) |  |
-| [insertOleObject(String fileName, boolean isLinked, boolean asIcon, InputStream presentation)](#insertOleObject-java.lang.String-boolean-boolean-java.io.InputStream-) |  |
-| [insertOleObject(String fileName, String progId, boolean isLinked, boolean asIcon, InputStream presentation)](#insertOleObject-java.lang.String-java.lang.String-boolean-boolean-java.io.InputStream-) |  |
-| [insertOleObjectAsIcon(InputStream stream, String progId, String iconFile, String iconCaption)](#insertOleObjectAsIcon-java.io.InputStream-java.lang.String-java.lang.String-java.lang.String-) |  |
-| [insertOleObjectAsIcon(String fileName, boolean isLinked, String iconFile, String iconCaption)](#insertOleObjectAsIcon-java.lang.String-boolean-java.lang.String-java.lang.String-) | Inserts an embedded or linked OLE object as icon into the document. |
-| [insertOleObjectAsIcon(String fileName, String progId, boolean isLinked, String iconFile, String iconCaption)](#insertOleObjectAsIcon-java.lang.String-java.lang.String-boolean-java.lang.String-java.lang.String-) | Inserts an embedded or linked OLE object as icon into the document. |
-| [insertOnlineVideo(String videoUrl, double width, double height)](#insertOnlineVideo-java.lang.String-double-double-) | Inserts an online video object into the document and scales it to the specified size. |
-| [insertOnlineVideo(String videoUrl, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertOnlineVideo-java.lang.String-int-double-int-double-double-double-int-) |  |
-| [insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] thumbnailImageBytes, double width, double height)](#insertOnlineVideo-java.lang.String-java.lang.String-byte---double-double-) | Inserts an online video object into the document and scales it to the specified size. |
-| [insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] thumbnailImageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertOnlineVideo-java.lang.String-java.lang.String-byte---int-double-int-double-double-double-int-) |  |
-| [insertParagraph()](#insertParagraph--) | Inserts a paragraph break into the document. |
-| [insertShape(int shapeType, double width, double height)](#insertShape-int-double-double-) |  |
-| [insertShape(int shapeType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertShape-int-int-double-int-double-double-double-int-) |  |
-| [insertSignatureLine(SignatureLineOptions signatureLineOptions)](#insertSignatureLine-com.aspose.words.SignatureLineOptions-) | Inserts a signature line at the current position. |
-| [insertSignatureLine(SignatureLineOptions signatureLineOptions, int horzPos, double left, int vertPos, double top, int wrapType)](#insertSignatureLine-com.aspose.words.SignatureLineOptions-int-double-int-double-int-) |  |
-| [insertStyleSeparator()](#insertStyleSeparator--) | Inserts style separator into the document. |
-| [insertTableOfContents(String switches)](#insertTableOfContents-java.lang.String-) | Inserts a TOC (table of contents) field into the document. |
-| [insertTextInput(String name, int type, String format, String fieldValue, int maxLength)](#insertTextInput-java.lang.String-int-java.lang.String-java.lang.String-int-) |  |
-| [isAtEndOfParagraph()](#isAtEndOfParagraph--) | Returns true if the cursor is at the end of the current paragraph. |
-| [isAtEndOfStructuredDocumentTag()](#isAtEndOfStructuredDocumentTag--) | Returns **true** if the cursor is at the end of a structured document tag. |
-| [isAtStartOfParagraph()](#isAtStartOfParagraph--) | Returns true if the cursor is at the beginning of the current paragraph (no text before the cursor). |
-| [moveTo(Node node)](#moveTo-com.aspose.words.Node-) | Moves the cursor to an inline node or to the end of a paragraph. |
-| [moveToBookmark(String bookmarkName)](#moveToBookmark-java.lang.String-) | Moves the cursor to a bookmark. |
-| [moveToBookmark(String bookmarkName, boolean isStart, boolean isAfter)](#moveToBookmark-java.lang.String-boolean-boolean-) | Moves the cursor to a bookmark with greater precision. |
-| [moveToCell(int tableIndex, int rowIndex, int columnIndex, int characterIndex)](#moveToCell-int-int-int-int-) | Moves the cursor to a table cell in the current section. |
-| [moveToDocumentEnd()](#moveToDocumentEnd--) | Moves the cursor to the end of the document. |
-| [moveToDocumentStart()](#moveToDocumentStart--) | Moves the cursor to the beginning of the document. |
-| [moveToField(Field field, boolean isAfter)](#moveToField-com.aspose.words.Field-boolean-) | Moves the cursor to a field in the document. |
-| [moveToHeaderFooter(int headerFooterType)](#moveToHeaderFooter-int-) |  |
-| [moveToMergeField(String fieldName)](#moveToMergeField-java.lang.String-) | Moves the cursor to the specified merge field. |
-| [moveToMergeField(String fieldName, boolean isAfter, boolean isDeleteField)](#moveToMergeField-java.lang.String-boolean-boolean-) | Moves the merge field to the specified merge field. |
-| [moveToParagraph(int paragraphIndex, int characterIndex)](#moveToParagraph-int-int-) | Moves the cursor to a paragraph in the current section. |
-| [moveToSection(int sectionIndex)](#moveToSection-int-) | Moves the cursor to the beginning of the body in a specified section. |
-| [moveToStructuredDocumentTag(StructuredDocumentTag structuredDocumentTag, int characterIndex)](#moveToStructuredDocumentTag-com.aspose.words.StructuredDocumentTag-int-) | Moves the cursor to the structured document tag. |
-| [moveToStructuredDocumentTag(int structuredDocumentTagIndex, int characterIndex)](#moveToStructuredDocumentTag-int-int-) | Moves the cursor to a structured document tag in the current section. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [popFont()](#popFont--) | Retrieves character formatting previously saved on the stack. |
-| [pushFont()](#pushFont--) | Saves current character formatting onto the stack. |
-| [removeRunAttr(int key)](#removeRunAttr-int-) |  |
-| [resetToDefaultAttrs()](#resetToDefaultAttrs--) |  |
-| [setBold(boolean value)](#setBold-boolean-) | True if the font is formatted as bold. |
-| [setCellAttr(int key, Object value)](#setCellAttr-int-java.lang.Object-) |  |
-| [setDocument(Document value)](#setDocument-com.aspose.words.Document-) | Sets the [getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-) object that this object is attached to. |
-| [setItalic(boolean value)](#setItalic-boolean-) | True if the font is formatted as italic. |
-| [setRowAttr(int key, Object value)](#setRowAttr-int-java.lang.Object-) |  |
-| [setRunAttr(int fontAttr, Object value)](#setRunAttr-int-java.lang.Object-) |  |
-| [setUnderline(int value)](#setUnderline-int-) | Gets/sets underline type for the current font. |
-| [startBookmark(String bookmarkName)](#startBookmark-java.lang.String-) | Marks the current position in the document as a bookmark start. |
-| [startColumnBookmark(String bookmarkName)](#startColumnBookmark-java.lang.String-) | Marks the current position in the document as a column bookmark start. |
-| [startEditableRange()](#startEditableRange--) | Marks the current position in the document as an editable range start. |
-| [startTable()](#startTable--) | Starts a table in the document. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-| [write(String text)](#write-java.lang.String-) | Inserts a string into the document at the current insert position. |
-| [writeln()](#writeln--) | Inserts a paragraph break into the document. |
-| [writeln(String text)](#writeln-java.lang.String-) | Inserts a string and a paragraph break into the document. |
-### DocumentBuilder() {#DocumentBuilder--}
+| [clearCellAttrs()](#clearCellAttrs) |  |
+| [clearParaAttrs()](#clearParaAttrs) |  |
+| [clearRowAttrs()](#clearRowAttrs) |  |
+| [clearRunAttrs()](#clearRunAttrs) |  |
+| [deleteRow(int tableIndex, int rowIndex)](#deleteRow-int-int) | Deletes a row from a table. |
+| [endBookmark(String bookmarkName)](#endBookmark-java.lang.String) | Marks the current position in the document as a bookmark end. |
+| [endColumnBookmark(String bookmarkName)](#endColumnBookmark-java.lang.String) | Marks the current position in the document as a column bookmark end. |
+| [endEditableRange()](#endEditableRange) | Marks the current position in the document as an editable range end. |
+| [endEditableRange(EditableRangeStart start)](#endEditableRange-com.aspose.words.EditableRangeStart) | Marks the current position in the document as an editable range end. |
+| [endRow()](#endRow) | Ends a table row in the document. |
+| [endTable()](#endTable) | Ends a table in the document. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fetchCellAttr(int key)](#fetchCellAttr-int) |  |
+| [fetchInheritedCellAttr(int key)](#fetchInheritedCellAttr-int) |  |
+| [fetchInheritedParaAttr(int key)](#fetchInheritedParaAttr-int) |  |
+| [fetchInheritedRowAttr(int key)](#fetchInheritedRowAttr-int) |  |
+| [fetchInheritedRunAttr(int fontAttr)](#fetchInheritedRunAttr-int) |  |
+| [fetchParaAttr(int key)](#fetchParaAttr-int) |  |
+| [fetchRowAttr(int key)](#fetchRowAttr-int) |  |
+| [getBold()](#getBold) | True if the font is formatted as bold. |
+| [getCellFormat()](#getCellFormat) | Returns an object that represents current table cell formatting properties. |
+| [getClass()](#getClass) |  |
+| [getCurrentNode()](#getCurrentNode) | Gets the node that is currently selected in this DocumentBuilder. |
+| [getCurrentParagraph()](#getCurrentParagraph) | Gets the paragraph that is currently selected in this [DocumentBuilder](../../com.aspose.words/documentbuilder). |
+| [getCurrentSection()](#getCurrentSection) | Gets the section that is currently selected in this [DocumentBuilder](../../com.aspose.words/documentbuilder). |
+| [getCurrentStory()](#getCurrentStory) | Gets the story that is currently selected in this [DocumentBuilder](../../com.aspose.words/documentbuilder). |
+| [getCurrentStructuredDocumentTag()](#getCurrentStructuredDocumentTag) | Gets the structured document tag that is currently selected in this [DocumentBuilder](../../com.aspose.words/documentbuilder). |
+| [getDirectCellAttr(int key)](#getDirectCellAttr-int) |  |
+| [getDirectParaAttr(int key)](#getDirectParaAttr-int) |  |
+| [getDirectParaAttr(int key, int revisionsView)](#getDirectParaAttr-int-int) |  |
+| [getDirectRowAttr(int key)](#getDirectRowAttr-int) |  |
+| [getDirectRunAttr(int fontAttr)](#getDirectRunAttr-int) |  |
+| [getDocument()](#getDocument) | Gets the [getDocument()](../../com.aspose.words/documentbuilder\#getDocument) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document) object that this object is attached to. |
+| [getFont()](#getFont) | Returns an object that represents current font formatting properties. |
+| [getItalic()](#getItalic) | True if the font is formatted as italic. |
+| [getListFormat()](#getListFormat) | Returns an object that represents current list formatting properties. |
+| [getPageSetup()](#getPageSetup) | Returns an object that represents current page setup and section properties. |
+| [getParagraphFormat()](#getParagraphFormat) | Returns an object that represents current paragraph formatting properties. |
+| [getRowFormat()](#getRowFormat) | Returns an object that represents current table row formatting properties. |
+| [getUnderline()](#getUnderline) | Gets/sets underline type for the current font. |
+| [hashCode()](#hashCode) |  |
+| [insertBreak(int breakType)](#insertBreak-int) |  |
+| [insertCell()](#insertCell) | Inserts a table cell into the document. |
+| [insertChart(int chartType, double width, double height)](#insertChart-int-double-double) |  |
+| [insertChart(int chartType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertChart-int-int-double-int-double-double-double-int) |  |
+| [insertCheckBox(String name, boolean defaultValue, boolean checkedValue, int size)](#insertCheckBox-java.lang.String-boolean-boolean-int) | Inserts a checkbox form field at the current position. |
+| [insertCheckBox(String name, boolean checkedValue, int size)](#insertCheckBox-java.lang.String-boolean-int) | Inserts a checkbox form field at the current position. |
+| [insertComboBox(String name, String[] items, int selectedIndex)](#insertComboBox-java.lang.String-java.lang.String---int) | Inserts a combobox form field at the current position. |
+| [insertDocument(Document srcDoc, int importFormatMode)](#insertDocument-com.aspose.words.Document-int) |  |
+| [insertDocument(Document srcDoc, int importFormatMode, ImportFormatOptions importFormatOptions)](#insertDocument-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions) |  |
+| [insertField(int fieldType, boolean updateField)](#insertField-int-boolean) |  |
+| [insertField(String fieldCode)](#insertField-java.lang.String) | Inserts a Word field into a document and updates the field result. |
+| [insertField(String fieldCode, String fieldValue)](#insertField-java.lang.String-java.lang.String) | Inserts a Word field into a document without updating the field result. |
+| [insertFootnote(int footnoteType, String footnoteText)](#insertFootnote-int-java.lang.String) |  |
+| [insertFootnote(int footnoteType, String footnoteText, String referenceMark)](#insertFootnote-int-java.lang.String-java.lang.String) |  |
+| [insertHorizontalRule()](#insertHorizontalRule) | Inserts a horizontal rule shape into the document. |
+| [insertHtml(String html)](#insertHtml-java.lang.String) | Inserts an HTML string into the document. |
+| [insertHtml(String html, boolean useBuilderFormatting)](#insertHtml-java.lang.String-boolean) | Inserts an HTML string into the document. |
+| [insertHtml(String html, int options)](#insertHtml-java.lang.String-int) |  |
+| [insertHyperlink(String displayText, String urlOrBookmark, boolean isBookmark)](#insertHyperlink-java.lang.String-java.lang.String-boolean) | Inserts a hyperlink into the document. |
+| [insertImage(byte[] imageBytes)](#insertImage-byte) | Inserts an image from a byte array into the document. |
+| [insertImage(byte[] imageBytes, double width, double height)](#insertImage-byte---double-double) | Inserts an inline image from a byte array into the document and scales it to the specified size. |
+| [insertImage(byte[] imageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertImage-byte---int-double-int-double-double-double-int) |  |
+| [insertImage(BufferedImage image)](#insertImage-java.awt.image.BufferedImage) | Inserts an image into the document. |
+| [insertImage(BufferedImage image, double width, double height)](#insertImage-java.awt.image.BufferedImage-double-double) | Inserts an inline image from a  object into the document and scales it to the specified size. |
+| [insertImage(BufferedImage image, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertImage-java.awt.image.BufferedImage-int-double-int-double-double-double-int) |  |
+| [insertImage(InputStream stream)](#insertImage-java.io.InputStream) |  |
+| [insertImage(InputStream stream, double width, double height)](#insertImage-java.io.InputStream-double-double) |  |
+| [insertImage(InputStream stream, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertImage-java.io.InputStream-int-double-int-double-double-double-int) |  |
+| [insertImage(String fileName)](#insertImage-java.lang.String) | Inserts an image from a file or URL into the document. |
+| [insertImage(String fileName, double width, double height)](#insertImage-java.lang.String-double-double) | Inserts an inline image from a file or URL into the document and scales it to the specified size. |
+| [insertImage(String fileName, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertImage-java.lang.String-int-double-int-double-double-double-int) |  |
+| [insertNode(Node node)](#insertNode-com.aspose.words.Node) | Inserts a node before the cursor. |
+| [insertOleObject(InputStream stream, String progId, boolean asIcon, InputStream presentation)](#insertOleObject-java.io.InputStream-java.lang.String-boolean-java.io.InputStream) |  |
+| [insertOleObject(String fileName, boolean isLinked, boolean asIcon, InputStream presentation)](#insertOleObject-java.lang.String-boolean-boolean-java.io.InputStream) |  |
+| [insertOleObject(String fileName, String progId, boolean isLinked, boolean asIcon, InputStream presentation)](#insertOleObject-java.lang.String-java.lang.String-boolean-boolean-java.io.InputStream) |  |
+| [insertOleObjectAsIcon(InputStream stream, String progId, String iconFile, String iconCaption)](#insertOleObjectAsIcon-java.io.InputStream-java.lang.String-java.lang.String-java.lang.String) |  |
+| [insertOleObjectAsIcon(String fileName, boolean isLinked, String iconFile, String iconCaption)](#insertOleObjectAsIcon-java.lang.String-boolean-java.lang.String-java.lang.String) | Inserts an embedded or linked OLE object as icon into the document. |
+| [insertOleObjectAsIcon(String fileName, String progId, boolean isLinked, String iconFile, String iconCaption)](#insertOleObjectAsIcon-java.lang.String-java.lang.String-boolean-java.lang.String-java.lang.String) | Inserts an embedded or linked OLE object as icon into the document. |
+| [insertOnlineVideo(String videoUrl, double width, double height)](#insertOnlineVideo-java.lang.String-double-double) | Inserts an online video object into the document and scales it to the specified size. |
+| [insertOnlineVideo(String videoUrl, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertOnlineVideo-java.lang.String-int-double-int-double-double-double-int) |  |
+| [insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] thumbnailImageBytes, double width, double height)](#insertOnlineVideo-java.lang.String-java.lang.String-byte---double-double) | Inserts an online video object into the document and scales it to the specified size. |
+| [insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] thumbnailImageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertOnlineVideo-java.lang.String-java.lang.String-byte---int-double-int-double-double-double-int) |  |
+| [insertParagraph()](#insertParagraph) | Inserts a paragraph break into the document. |
+| [insertShape(int shapeType, double width, double height)](#insertShape-int-double-double) |  |
+| [insertShape(int shapeType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertShape-int-int-double-int-double-double-double-int) |  |
+| [insertSignatureLine(SignatureLineOptions signatureLineOptions)](#insertSignatureLine-com.aspose.words.SignatureLineOptions) | Inserts a signature line at the current position. |
+| [insertSignatureLine(SignatureLineOptions signatureLineOptions, int horzPos, double left, int vertPos, double top, int wrapType)](#insertSignatureLine-com.aspose.words.SignatureLineOptions-int-double-int-double-int) |  |
+| [insertStyleSeparator()](#insertStyleSeparator) | Inserts style separator into the document. |
+| [insertTableOfContents(String switches)](#insertTableOfContents-java.lang.String) | Inserts a TOC (table of contents) field into the document. |
+| [insertTextInput(String name, int type, String format, String fieldValue, int maxLength)](#insertTextInput-java.lang.String-int-java.lang.String-java.lang.String-int) |  |
+| [isAtEndOfParagraph()](#isAtEndOfParagraph) | Returns  true  if the cursor is at the end of the current paragraph. |
+| [isAtEndOfStructuredDocumentTag()](#isAtEndOfStructuredDocumentTag) | Returns **true** if the cursor is at the end of a structured document tag. |
+| [isAtStartOfParagraph()](#isAtStartOfParagraph) | Returns  true  if the cursor is at the beginning of the current paragraph (no text before the cursor). |
+| [moveTo(Node node)](#moveTo-com.aspose.words.Node) | Moves the cursor to an inline node or to the end of a paragraph. |
+| [moveToBookmark(String bookmarkName)](#moveToBookmark-java.lang.String) | Moves the cursor to a bookmark. |
+| [moveToBookmark(String bookmarkName, boolean isStart, boolean isAfter)](#moveToBookmark-java.lang.String-boolean-boolean) | Moves the cursor to a bookmark with greater precision. |
+| [moveToCell(int tableIndex, int rowIndex, int columnIndex, int characterIndex)](#moveToCell-int-int-int-int) | Moves the cursor to a table cell in the current section. |
+| [moveToDocumentEnd()](#moveToDocumentEnd) | Moves the cursor to the end of the document. |
+| [moveToDocumentStart()](#moveToDocumentStart) | Moves the cursor to the beginning of the document. |
+| [moveToField(Field field, boolean isAfter)](#moveToField-com.aspose.words.Field-boolean) | Moves the cursor to a field in the document. |
+| [moveToHeaderFooter(int headerFooterType)](#moveToHeaderFooter-int) |  |
+| [moveToMergeField(String fieldName)](#moveToMergeField-java.lang.String) | Moves the cursor to the specified merge field. |
+| [moveToMergeField(String fieldName, boolean isAfter, boolean isDeleteField)](#moveToMergeField-java.lang.String-boolean-boolean) | Moves the merge field to the specified merge field. |
+| [moveToParagraph(int paragraphIndex, int characterIndex)](#moveToParagraph-int-int) | Moves the cursor to a paragraph in the current section. |
+| [moveToSection(int sectionIndex)](#moveToSection-int) | Moves the cursor to the beginning of the body in a specified section. |
+| [moveToStructuredDocumentTag(StructuredDocumentTag structuredDocumentTag, int characterIndex)](#moveToStructuredDocumentTag-com.aspose.words.StructuredDocumentTag-int) | Moves the cursor to the structured document tag. |
+| [moveToStructuredDocumentTag(int structuredDocumentTagIndex, int characterIndex)](#moveToStructuredDocumentTag-int-int) | Moves the cursor to a structured document tag in the current section. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [popFont()](#popFont) | Retrieves character formatting previously saved on the stack. |
+| [pushFont()](#pushFont) | Saves current character formatting onto the stack. |
+| [removeParaAttr(int key)](#removeParaAttr-int) |  |
+| [removeRunAttr(int key)](#removeRunAttr-int) |  |
+| [resetToDefaultAttrs()](#resetToDefaultAttrs) |  |
+| [setBold(boolean value)](#setBold-boolean) | True if the font is formatted as bold. |
+| [setCellAttr(int key, Object value)](#setCellAttr-int-java.lang.Object) |  |
+| [setDocument(Document value)](#setDocument-com.aspose.words.Document) | Sets the [getDocument()](../../com.aspose.words/documentbuilder\#getDocument) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document) object that this object is attached to. |
+| [setItalic(boolean value)](#setItalic-boolean) | True if the font is formatted as italic. |
+| [setParaAttr(int key, Object value)](#setParaAttr-int-java.lang.Object) |  |
+| [setRowAttr(int key, Object value)](#setRowAttr-int-java.lang.Object) |  |
+| [setRunAttr(int fontAttr, Object value)](#setRunAttr-int-java.lang.Object) |  |
+| [setUnderline(int value)](#setUnderline-int) | Gets/sets underline type for the current font. |
+| [startBookmark(String bookmarkName)](#startBookmark-java.lang.String) | Marks the current position in the document as a bookmark start. |
+| [startColumnBookmark(String bookmarkName)](#startColumnBookmark-java.lang.String) | Marks the current position in the document as a column bookmark start. |
+| [startEditableRange()](#startEditableRange) | Marks the current position in the document as an editable range start. |
+| [startTable()](#startTable) | Starts a table in the document. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+| [write(String text)](#write-java.lang.String) | Inserts a string into the document at the current insert position. |
+| [writeln()](#writeln) | Inserts a paragraph break into the document. |
+| [writeln(String text)](#writeln-java.lang.String) | Inserts a string and a paragraph break into the document. |
+### DocumentBuilder() {#DocumentBuilder}
 ```
 public DocumentBuilder()
 ```
 
 
-Initializes a new instance of this class. Creates a new **DocumentBuilder** object and attaches it to a new [getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-) object.
+Initializes a new instance of this class. Creates a new [DocumentBuilder](../../com.aspose.words/documentbuilder) object and attaches it to a new [Document](../../com.aspose.words/document) object.
 
-### DocumentBuilder(Document doc) {#DocumentBuilder-com.aspose.words.Document-}
+### DocumentBuilder(Document doc) {#DocumentBuilder-com.aspose.words.Document}
 ```
 public DocumentBuilder(Document doc)
 ```
 
 
-Initializes a new instance of this class. Creates a new **DocumentBuilder** object, attaches to the specified [getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-) object. The cursor is positioned at the beginning of the document.
+Initializes a new instance of this class. Creates a new [DocumentBuilder](../../com.aspose.words/documentbuilder) object, attaches to the specified [Document](../../com.aspose.words/document) object. The cursor is positioned at the beginning of the document.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [Document](../../com.aspose.words/document) | The Document object to attach to. |
+| doc | [Document](../../com.aspose.words/document) | The [Document](../../com.aspose.words/document) object to attach to. |
 
-### clearCellAttrs() {#clearCellAttrs--}
+### clearCellAttrs() {#clearCellAttrs}
 ```
 public void clearCellAttrs()
 ```
@@ -198,7 +208,15 @@ public void clearCellAttrs()
 
 
 
-### clearRowAttrs() {#clearRowAttrs--}
+### clearParaAttrs() {#clearParaAttrs}
+```
+public void clearParaAttrs()
+```
+
+
+
+
+### clearRowAttrs() {#clearRowAttrs}
 ```
 public void clearRowAttrs()
 ```
@@ -206,7 +224,7 @@ public void clearRowAttrs()
 
 
 
-### clearRunAttrs() {#clearRunAttrs--}
+### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
 ```
@@ -214,7 +232,7 @@ public void clearRunAttrs()
 
 
 
-### deleteRow(int tableIndex, int rowIndex) {#deleteRow-int-int-}
+### deleteRow(int tableIndex, int rowIndex) {#deleteRow-int-int}
 ```
 public Row deleteRow(int tableIndex, int rowIndex)
 ```
@@ -236,7 +254,7 @@ For the index parameters, when index is greater than or equal to 0, it specifies
 
 **Returns:**
 [Row](../../com.aspose.words/row) - The row node that was just removed.
-### endBookmark(String bookmarkName) {#endBookmark-java.lang.String-}
+### endBookmark(String bookmarkName) {#endBookmark-java.lang.String}
 ```
 public BookmarkEnd endBookmark(String bookmarkName)
 ```
@@ -244,7 +262,7 @@ public BookmarkEnd endBookmark(String bookmarkName)
 
 Marks the current position in the document as a bookmark end.
 
-Bookmarks in a document can overlap and span any range. To create a valid bookmark you need to call both [startBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#startBookmark-java.lang.String-) and [endBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#endBookmark-java.lang.String-) with the same **bookmarkName** parameter.
+Bookmarks in a document can overlap and span any range. To create a valid bookmark you need to call both [startBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#startBookmark-java.lang.String) and [endBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#endBookmark-java.lang.String) with the same  bookmarkName  parameter.
 
 Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 
@@ -255,7 +273,7 @@ Badly formed bookmarks or bookmarks with duplicate names will be ignored when th
 
 **Returns:**
 [BookmarkEnd](../../com.aspose.words/bookmarkend) - The bookmark end node that was just created.
-### endColumnBookmark(String bookmarkName) {#endColumnBookmark-java.lang.String-}
+### endColumnBookmark(String bookmarkName) {#endColumnBookmark-java.lang.String}
 ```
 public BookmarkEnd endColumnBookmark(String bookmarkName)
 ```
@@ -263,7 +281,7 @@ public BookmarkEnd endColumnBookmark(String bookmarkName)
 
 Marks the current position in the document as a column bookmark end. The position must be in a table cell.
 
-A column bookmark covers one or more columns in a range of rows. To create a valid bookmark you need to call both [startColumnBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#startColumnBookmark-java.lang.String-) and [endColumnBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#endColumnBookmark-java.lang.String-) with the same **bookmarkName** parameter.
+A column bookmark covers one or more columns in a range of rows. To create a valid bookmark you need to call both [startColumnBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#startColumnBookmark-java.lang.String) and [endColumnBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#endColumnBookmark-java.lang.String) with the same  bookmarkName  parameter.
 
 Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 
@@ -276,7 +294,7 @@ The actual position of the inserted [BookmarkEnd](../../com.aspose.words/bookmar
 
 **Returns:**
 [BookmarkEnd](../../com.aspose.words/bookmarkend) - The bookmark end node that was just created.
-### endEditableRange() {#endEditableRange--}
+### endEditableRange() {#endEditableRange}
 ```
 public EditableRangeEnd endEditableRange()
 ```
@@ -284,13 +302,13 @@ public EditableRangeEnd endEditableRange()
 
 Marks the current position in the document as an editable range end.
 
-Editable range in a document can overlap and span any range. To create a valid editable range you need to call both [startEditableRange()](../../com.aspose.words/documentbuilder\#startEditableRange--) and [endEditableRange()](../../com.aspose.words/documentbuilder\#endEditableRange--) or [endEditableRange(com.aspose.words.EditableRangeStart)](../../com.aspose.words/documentbuilder\#endEditableRange-com.aspose.words.EditableRangeStart-) methods.
+Editable range in a document can overlap and span any range. To create a valid editable range you need to call both [startEditableRange()](../../com.aspose.words/documentbuilder\#startEditableRange) and [endEditableRange()](../../com.aspose.words/documentbuilder\#endEditableRange) or [endEditableRange(com.aspose.words.EditableRangeStart)](../../com.aspose.words/documentbuilder\#endEditableRange-com.aspose.words.EditableRangeStart) methods.
 
 Badly formed editable range will be ignored when the document is saved.
 
 **Returns:**
 [EditableRangeEnd](../../com.aspose.words/editablerangeend) - The editable range end node that was just created.
-### endEditableRange(EditableRangeStart start) {#endEditableRange-com.aspose.words.EditableRangeStart-}
+### endEditableRange(EditableRangeStart start) {#endEditableRange-com.aspose.words.EditableRangeStart}
 ```
 public EditableRangeEnd endEditableRange(EditableRangeStart start)
 ```
@@ -300,7 +318,7 @@ Marks the current position in the document as an editable range end.
 
 Use this overload during creating nested editable ranges.
 
-Editable range in a document can overlap and span any range. To create a valid editable range you need to call both [startEditableRange()](../../com.aspose.words/documentbuilder\#startEditableRange--) and [endEditableRange()](../../com.aspose.words/documentbuilder\#endEditableRange--) or [endEditableRange(com.aspose.words.EditableRangeStart)](../../com.aspose.words/documentbuilder\#endEditableRange-com.aspose.words.EditableRangeStart-) methods.
+Editable range in a document can overlap and span any range. To create a valid editable range you need to call both [startEditableRange()](../../com.aspose.words/documentbuilder\#startEditableRange) and [endEditableRange()](../../com.aspose.words/documentbuilder\#endEditableRange) or [endEditableRange(com.aspose.words.EditableRangeStart)](../../com.aspose.words/documentbuilder\#endEditableRange-com.aspose.words.EditableRangeStart) methods.
 
 Badly formed editable range will be ignored when the document is saved.
 
@@ -311,7 +329,7 @@ Badly formed editable range will be ignored when the document is saved.
 
 **Returns:**
 [EditableRangeEnd](../../com.aspose.words/editablerangeend) - The editable range end node that was just created.
-### endRow() {#endRow--}
+### endRow() {#endRow}
 ```
 public Row endRow()
 ```
@@ -319,13 +337,13 @@ public Row endRow()
 
 Ends a table row in the document.
 
-Call **EndRow** to end a table row. If you call [insertCell()](../../com.aspose.words/documentbuilder\#insertCell--) immediately after that, then the table continues on a new row.
+Call [endRow()](../../com.aspose.words/documentbuilder\#endRow) to end a table row. If you call [insertCell()](../../com.aspose.words/documentbuilder\#insertCell) immediately after that, then the table continues on a new row.
 
-Use the [getRowFormat()](../../com.aspose.words/documentbuilder\#getRowFormat--) property to specify row formatting.
+Use the [getRowFormat()](../../com.aspose.words/documentbuilder\#getRowFormat) property to specify row formatting.
 
 **Returns:**
 [Row](../../com.aspose.words/row) - The row node that was just finished.
-### endTable() {#endTable--}
+### endTable() {#endTable}
 ```
 public Table endTable()
 ```
@@ -333,11 +351,11 @@ public Table endTable()
 
 Ends a table in the document.
 
-This method should be called only once after [endRow()](../../com.aspose.words/documentbuilder\#endRow--) was called. When called, **EndTable** moves the cursor out of the current cell to point just after the table.
+This method should be called only once after [endRow()](../../com.aspose.words/documentbuilder\#endRow) was called. When called, [endTable()](../../com.aspose.words/documentbuilder\#endTable) moves the cursor out of the current cell to point just after the table.
 
 **Returns:**
 [Table](../../com.aspose.words/table) - The table node that was just finished.
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -352,7 +370,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fetchCellAttr(int key) {#fetchCellAttr-int-}
+### fetchCellAttr(int key) {#fetchCellAttr-int}
 ```
 public Object fetchCellAttr(int key)
 ```
@@ -367,7 +385,7 @@ public Object fetchCellAttr(int key)
 
 **Returns:**
 java.lang.Object
-### fetchInheritedCellAttr(int key) {#fetchInheritedCellAttr-int-}
+### fetchInheritedCellAttr(int key) {#fetchInheritedCellAttr-int}
 ```
 public Object fetchInheritedCellAttr(int key)
 ```
@@ -382,7 +400,22 @@ public Object fetchInheritedCellAttr(int key)
 
 **Returns:**
 java.lang.Object
-### fetchInheritedRowAttr(int key) {#fetchInheritedRowAttr-int-}
+### fetchInheritedParaAttr(int key) {#fetchInheritedParaAttr-int}
+```
+public Object fetchInheritedParaAttr(int key)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+
+**Returns:**
+java.lang.Object
+### fetchInheritedRowAttr(int key) {#fetchInheritedRowAttr-int}
 ```
 public Object fetchInheritedRowAttr(int key)
 ```
@@ -397,7 +430,7 @@ public Object fetchInheritedRowAttr(int key)
 
 **Returns:**
 java.lang.Object
-### fetchInheritedRunAttr(int fontAttr) {#fetchInheritedRunAttr-int-}
+### fetchInheritedRunAttr(int fontAttr) {#fetchInheritedRunAttr-int}
 ```
 public Object fetchInheritedRunAttr(int fontAttr)
 ```
@@ -412,7 +445,22 @@ public Object fetchInheritedRunAttr(int fontAttr)
 
 **Returns:**
 java.lang.Object
-### fetchRowAttr(int key) {#fetchRowAttr-int-}
+### fetchParaAttr(int key) {#fetchParaAttr-int}
+```
+public Object fetchParaAttr(int key)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+
+**Returns:**
+java.lang.Object
+### fetchRowAttr(int key) {#fetchRowAttr-int}
 ```
 public Object fetchRowAttr(int key)
 ```
@@ -427,7 +475,7 @@ public Object fetchRowAttr(int key)
 
 **Returns:**
 java.lang.Object
-### getBold() {#getBold--}
+### getBold() {#getBold}
 ```
 public boolean getBold()
 ```
@@ -437,7 +485,7 @@ True if the font is formatted as bold.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getCellFormat() {#getCellFormat--}
+### getCellFormat() {#getCellFormat}
 ```
 public CellFormat getCellFormat()
 ```
@@ -447,7 +495,7 @@ Returns an object that represents current table cell formatting properties.
 
 **Returns:**
 [CellFormat](../../com.aspose.words/cellformat) - An object that represents current table cell formatting properties.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -457,7 +505,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCurrentNode() {#getCurrentNode--}
+### getCurrentNode() {#getCurrentNode}
 ```
 public Node getCurrentNode()
 ```
@@ -465,53 +513,53 @@ public Node getCurrentNode()
 
 Gets the node that is currently selected in this DocumentBuilder.
 
-**CurrentNode** is a cursor of **DocumentBuilder** and points to a **Node** that is a direct child of a **Paragraph**. Any insert operations you perform using **DocumentBuilder** will insert before the **CurrentNode**.
+[getCurrentNode()](../../com.aspose.words/documentbuilder\#getCurrentNode) is a cursor of [DocumentBuilder](../../com.aspose.words/documentbuilder) and points to a [Node](../../com.aspose.words/node) that is a direct child of a [Paragraph](../../com.aspose.words/paragraph). Any insert operations you perform using [DocumentBuilder](../../com.aspose.words/documentbuilder) will insert before the [getCurrentNode()](../../com.aspose.words/documentbuilder\#getCurrentNode).
 
-When the current paragraph is empty or the cursor is positioned just before the end of a paragraph or structured document tag, **CurrentNode** returns null.
+When the current paragraph is empty or the cursor is positioned just before the end of a paragraph or structured document tag, [getCurrentNode()](../../com.aspose.words/documentbuilder\#getCurrentNode) returns  null .
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The node that is currently selected in this DocumentBuilder.
-### getCurrentParagraph() {#getCurrentParagraph--}
+### getCurrentParagraph() {#getCurrentParagraph}
 ```
 public Paragraph getCurrentParagraph()
 ```
 
 
-Gets the paragraph that is currently selected in this DocumentBuilder. [getCurrentNode()](../../com.aspose.words/documentbuilder\#getCurrentNode--)
+Gets the paragraph that is currently selected in this [DocumentBuilder](../../com.aspose.words/documentbuilder). [getCurrentNode()](../../com.aspose.words/documentbuilder\#getCurrentNode)
 
 **Returns:**
-[Paragraph](../../com.aspose.words/paragraph) - The paragraph that is currently selected in this DocumentBuilder.
-### getCurrentSection() {#getCurrentSection--}
+[Paragraph](../../com.aspose.words/paragraph) - The paragraph that is currently selected in this [DocumentBuilder](../../com.aspose.words/documentbuilder).
+### getCurrentSection() {#getCurrentSection}
 ```
 public Section getCurrentSection()
 ```
 
 
-Gets the section that is currently selected in this DocumentBuilder.
+Gets the section that is currently selected in this [DocumentBuilder](../../com.aspose.words/documentbuilder).
 
 **Returns:**
-[Section](../../com.aspose.words/section) - The section that is currently selected in this DocumentBuilder.
-### getCurrentStory() {#getCurrentStory--}
+[Section](../../com.aspose.words/section) - The section that is currently selected in this [DocumentBuilder](../../com.aspose.words/documentbuilder).
+### getCurrentStory() {#getCurrentStory}
 ```
 public Story getCurrentStory()
 ```
 
 
-Gets the story that is currently selected in this DocumentBuilder.
+Gets the story that is currently selected in this [DocumentBuilder](../../com.aspose.words/documentbuilder).
 
 **Returns:**
-[Story](../../com.aspose.words/story) - The story that is currently selected in this DocumentBuilder.
-### getCurrentStructuredDocumentTag() {#getCurrentStructuredDocumentTag--}
+[Story](../../com.aspose.words/story) - The story that is currently selected in this [DocumentBuilder](../../com.aspose.words/documentbuilder).
+### getCurrentStructuredDocumentTag() {#getCurrentStructuredDocumentTag}
 ```
 public StructuredDocumentTag getCurrentStructuredDocumentTag()
 ```
 
 
-Gets the structured document tag that is currently selected in this DocumentBuilder.
+Gets the structured document tag that is currently selected in this [DocumentBuilder](../../com.aspose.words/documentbuilder).
 
 **Returns:**
-[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) - The structured document tag that is currently selected in this DocumentBuilder.
-### getDirectCellAttr(int key) {#getDirectCellAttr-int-}
+[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) - The structured document tag that is currently selected in this [DocumentBuilder](../../com.aspose.words/documentbuilder).
+### getDirectCellAttr(int key) {#getDirectCellAttr-int}
 ```
 public Object getDirectCellAttr(int key)
 ```
@@ -526,7 +574,38 @@ public Object getDirectCellAttr(int key)
 
 **Returns:**
 java.lang.Object
-### getDirectRowAttr(int key) {#getDirectRowAttr-int-}
+### getDirectParaAttr(int key) {#getDirectParaAttr-int}
+```
+public Object getDirectParaAttr(int key)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+
+**Returns:**
+java.lang.Object
+### getDirectParaAttr(int key, int revisionsView) {#getDirectParaAttr-int-int}
+```
+public Object getDirectParaAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| revisionsView | int |  |
+
+**Returns:**
+java.lang.Object
+### getDirectRowAttr(int key) {#getDirectRowAttr-int}
 ```
 public Object getDirectRowAttr(int key)
 ```
@@ -541,7 +620,7 @@ public Object getDirectRowAttr(int key)
 
 **Returns:**
 java.lang.Object
-### getDirectRunAttr(int fontAttr) {#getDirectRunAttr-int-}
+### getDirectRunAttr(int fontAttr) {#getDirectRunAttr-int}
 ```
 public Object getDirectRunAttr(int fontAttr)
 ```
@@ -556,17 +635,17 @@ public Object getDirectRunAttr(int fontAttr)
 
 **Returns:**
 java.lang.Object
-### getDocument() {#getDocument--}
+### getDocument() {#getDocument}
 ```
 public Document getDocument()
 ```
 
 
-Gets the [getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-) object that this object is attached to.
+Gets the [getDocument()](../../com.aspose.words/documentbuilder\#getDocument) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document) object that this object is attached to.
 
 **Returns:**
-[Document](../../com.aspose.words/document) - The [getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-) object that this object is attached to.
-### getFont() {#getFont--}
+[Document](../../com.aspose.words/document) - The [getDocument()](../../com.aspose.words/documentbuilder\#getDocument) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document) object that this object is attached to.
+### getFont() {#getFont}
 ```
 public Font getFont()
 ```
@@ -574,13 +653,13 @@ public Font getFont()
 
 Returns an object that represents current font formatting properties.
 
-Use **Font** to access and modify font formatting properties.
+Use [getFont()](../../com.aspose.words/documentbuilder\#getFont) to access and modify font formatting properties.
 
 Specify font formatting before inserting text.
 
 **Returns:**
 [Font](../../com.aspose.words/font) - An object that represents current font formatting properties.
-### getItalic() {#getItalic--}
+### getItalic() {#getItalic}
 ```
 public boolean getItalic()
 ```
@@ -590,7 +669,7 @@ True if the font is formatted as italic.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getListFormat() {#getListFormat--}
+### getListFormat() {#getListFormat}
 ```
 public ListFormat getListFormat()
 ```
@@ -600,7 +679,7 @@ Returns an object that represents current list formatting properties.
 
 **Returns:**
 [ListFormat](../../com.aspose.words/listformat) - An object that represents current list formatting properties.
-### getPageSetup() {#getPageSetup--}
+### getPageSetup() {#getPageSetup}
 ```
 public PageSetup getPageSetup()
 ```
@@ -610,7 +689,7 @@ Returns an object that represents current page setup and section properties.
 
 **Returns:**
 [PageSetup](../../com.aspose.words/pagesetup) - An object that represents current page setup and section properties.
-### getParagraphFormat() {#getParagraphFormat--}
+### getParagraphFormat() {#getParagraphFormat}
 ```
 public ParagraphFormat getParagraphFormat()
 ```
@@ -620,7 +699,7 @@ Returns an object that represents current paragraph formatting properties.
 
 **Returns:**
 [ParagraphFormat](../../com.aspose.words/paragraphformat) - An object that represents current paragraph formatting properties.
-### getRowFormat() {#getRowFormat--}
+### getRowFormat() {#getRowFormat}
 ```
 public RowFormat getRowFormat()
 ```
@@ -630,7 +709,7 @@ Returns an object that represents current table row formatting properties.
 
 **Returns:**
 [RowFormat](../../com.aspose.words/rowformat) - An object that represents current table row formatting properties.
-### getUnderline() {#getUnderline--}
+### getUnderline() {#getUnderline}
 ```
 public int getUnderline()
 ```
@@ -640,7 +719,7 @@ Gets/sets underline type for the current font.
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [Underline](../../com.aspose.words/underline) constants.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -650,7 +729,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### insertBreak(int breakType) {#insertBreak-int-}
+### insertBreak(int breakType) {#insertBreak-int}
 ```
 public void insertBreak(int breakType)
 ```
@@ -663,7 +742,7 @@ public void insertBreak(int breakType)
 | --- | --- | --- |
 | breakType | int |  |
 
-### insertCell() {#insertCell--}
+### insertCell() {#insertCell}
 ```
 public Cell insertCell()
 ```
@@ -671,17 +750,17 @@ public Cell insertCell()
 
 Inserts a table cell into the document.
 
-To start a table, just call **InsertCell**. After this, any content you add using other methods of the [DocumentBuilder](../../com.aspose.words/documentbuilder) class will be added to the current cell.
+To start a table, just call [insertCell()](../../com.aspose.words/documentbuilder\#insertCell). After this, any content you add using other methods of the [DocumentBuilder](../../com.aspose.words/documentbuilder) class will be added to the current cell.
 
-To start a new cell in the same row, call **InsertCell** again.
+To start a new cell in the same row, call [insertCell()](../../com.aspose.words/documentbuilder\#insertCell) again.
 
-To end a table row call [endRow()](../../com.aspose.words/documentbuilder\#endRow--).
+To end a table row call [endRow()](../../com.aspose.words/documentbuilder\#endRow).
 
-Use the [getCellFormat()](../../com.aspose.words/documentbuilder\#getCellFormat--) property to specify cell formatting.
+Use the [getCellFormat()](../../com.aspose.words/documentbuilder\#getCellFormat) property to specify cell formatting.
 
 **Returns:**
 [Cell](../../com.aspose.words/cell) - The cell node that was just inserted.
-### insertChart(int chartType, double width, double height) {#insertChart-int-double-double-}
+### insertChart(int chartType, double width, double height) {#insertChart-int-double-double}
 ```
 public Shape insertChart(int chartType, double width, double height)
 ```
@@ -698,7 +777,7 @@ public Shape insertChart(int chartType, double width, double height)
 
 **Returns:**
 [Shape](../../com.aspose.words/shape)
-### insertChart(int chartType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertChart-int-int-double-int-double-double-double-int-}
+### insertChart(int chartType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertChart-int-int-double-int-double-double-double-int}
 ```
 public Shape insertChart(int chartType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)
 ```
@@ -720,7 +799,7 @@ public Shape insertChart(int chartType, int horzPos, double left, int vertPos, d
 
 **Returns:**
 [Shape](../../com.aspose.words/shape)
-### insertCheckBox(String name, boolean defaultValue, boolean checkedValue, int size) {#insertCheckBox-java.lang.String-boolean-boolean-int-}
+### insertCheckBox(String name, boolean defaultValue, boolean checkedValue, int size) {#insertCheckBox-java.lang.String-boolean-boolean-int}
 ```
 public FormField insertCheckBox(String name, boolean defaultValue, boolean checkedValue, int size)
 ```
@@ -740,7 +819,7 @@ If you specify a name for the form field, then a bookmark is automatically creat
 
 **Returns:**
 [FormField](../../com.aspose.words/formfield) - The form field node that was just inserted.
-### insertCheckBox(String name, boolean checkedValue, int size) {#insertCheckBox-java.lang.String-boolean-int-}
+### insertCheckBox(String name, boolean checkedValue, int size) {#insertCheckBox-java.lang.String-boolean-int}
 ```
 public FormField insertCheckBox(String name, boolean checkedValue, int size)
 ```
@@ -759,7 +838,7 @@ If you specify a name for the form field, then a bookmark is automatically creat
 
 **Returns:**
 [FormField](../../com.aspose.words/formfield) - The form field node that was just inserted.
-### insertComboBox(String name, String[] items, int selectedIndex) {#insertComboBox-java.lang.String-java.lang.String---int-}
+### insertComboBox(String name, String[] items, int selectedIndex) {#insertComboBox-java.lang.String-java.lang.String---int}
 ```
 public FormField insertComboBox(String name, String[] items, int selectedIndex)
 ```
@@ -778,7 +857,7 @@ If you specify a name for the form field, then a bookmark is automatically creat
 
 **Returns:**
 [FormField](../../com.aspose.words/formfield) - The form field node that was just inserted.
-### insertDocument(Document srcDoc, int importFormatMode) {#insertDocument-com.aspose.words.Document-int-}
+### insertDocument(Document srcDoc, int importFormatMode) {#insertDocument-com.aspose.words.Document-int}
 ```
 public Node insertDocument(Document srcDoc, int importFormatMode)
 ```
@@ -794,7 +873,7 @@ public Node insertDocument(Document srcDoc, int importFormatMode)
 
 **Returns:**
 [Node](../../com.aspose.words/node)
-### insertDocument(Document srcDoc, int importFormatMode, ImportFormatOptions importFormatOptions) {#insertDocument-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions-}
+### insertDocument(Document srcDoc, int importFormatMode, ImportFormatOptions importFormatOptions) {#insertDocument-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions}
 ```
 public Node insertDocument(Document srcDoc, int importFormatMode, ImportFormatOptions importFormatOptions)
 ```
@@ -811,7 +890,7 @@ public Node insertDocument(Document srcDoc, int importFormatMode, ImportFormatOp
 
 **Returns:**
 [Node](../../com.aspose.words/node)
-### insertField(int fieldType, boolean updateField) {#insertField-int-boolean-}
+### insertField(int fieldType, boolean updateField) {#insertField-int-boolean}
 ```
 public Field insertField(int fieldType, boolean updateField)
 ```
@@ -827,15 +906,15 @@ public Field insertField(int fieldType, boolean updateField)
 
 **Returns:**
 [Field](../../com.aspose.words/field)
-### insertField(String fieldCode) {#insertField-java.lang.String-}
+### insertField(String fieldCode) {#insertField-java.lang.String}
 ```
 public Field insertField(String fieldCode)
 ```
 
 
-Inserts a Word field into a document.  Inserts a Word field into a document and updates the field result.
+Inserts a Word field into a document and updates the field result.
 
-This method inserts a field into a document and updates the field result immediately. Aspose.Words can update fields of most types, but not all. For more details see the [insertField(java.lang.String, java.lang.String)](../../com.aspose.words/documentbuilder\#insertField-java.lang.String--java.lang.String-) overload.
+This method inserts a field into a document and updates the field result immediately. Aspose.Words can update fields of most types, but not all. For more details see the [insertField(java.lang.String, java.lang.String)](../../com.aspose.words/documentbuilder\#insertField-java.lang.String--java.lang.String) overload.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -844,7 +923,7 @@ This method inserts a field into a document and updates the field result immedia
 
 **Returns:**
 [Field](../../com.aspose.words/field) - A [Field](../../com.aspose.words/field) object that represents the inserted field.
-### insertField(String fieldCode, String fieldValue) {#insertField-java.lang.String-java.lang.String-}
+### insertField(String fieldCode, String fieldValue) {#insertField-java.lang.String-java.lang.String}
 ```
 public Field insertField(String fieldCode, String fieldValue)
 ```
@@ -858,17 +937,17 @@ You can switch between displaying field codes and results in your document in Mi
 
 To create a field, you need to specify a field type, field code and a "placeholder" field value. If you are not sure about a particular field code syntax, create the field in Microsoft Word first and switch to see its field code.
 
-Aspose.Words can calculate field results for most of the field types, but this method does not update the field result automatically. Because the field result is not calculated automatically, you are expected to pass some string value (or even an empty string) that will be inserted into the field result. This value will remain in the field result as a placeholder until the field is updated. To update the field result you can call [Field.update()](../../com.aspose.words/field\#update--) on the field object returned to you or [Document.updateFields()](../../com.aspose.words/document\#updateFields--) to update fields in the whole document.
+Aspose.Words can calculate field results for most of the field types, but this method does not update the field result automatically. Because the field result is not calculated automatically, you are expected to pass some string value (or even an empty string) that will be inserted into the field result. This value will remain in the field result as a placeholder until the field is updated. To update the field result you can call [Field.update()](../../com.aspose.words/field\#update) on the field object returned to you or [Document.updateFields()](../../com.aspose.words/document\#updateFields) to update fields in the whole document.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldCode | java.lang.String | The field code to insert (without curly braces). |
-| fieldValue | java.lang.String | The field value to insert. Pass null for fields that do not have a value. |
+| fieldValue | java.lang.String | The field value to insert. Pass  null  for fields that do not have a value. |
 
 **Returns:**
 [Field](../../com.aspose.words/field) - A [Field](../../com.aspose.words/field) object that represents the inserted field.
-### insertFootnote(int footnoteType, String footnoteText) {#insertFootnote-int-java.lang.String-}
+### insertFootnote(int footnoteType, String footnoteText) {#insertFootnote-int-java.lang.String}
 ```
 public Footnote insertFootnote(int footnoteType, String footnoteText)
 ```
@@ -884,7 +963,7 @@ public Footnote insertFootnote(int footnoteType, String footnoteText)
 
 **Returns:**
 [Footnote](../../com.aspose.words/footnote)
-### insertFootnote(int footnoteType, String footnoteText, String referenceMark) {#insertFootnote-int-java.lang.String-java.lang.String-}
+### insertFootnote(int footnoteType, String footnoteText, String referenceMark) {#insertFootnote-int-java.lang.String-java.lang.String}
 ```
 public Footnote insertFootnote(int footnoteType, String footnoteText, String referenceMark)
 ```
@@ -901,7 +980,7 @@ public Footnote insertFootnote(int footnoteType, String footnoteText, String ref
 
 **Returns:**
 [Footnote](../../com.aspose.words/footnote)
-### insertHorizontalRule() {#insertHorizontalRule--}
+### insertHorizontalRule() {#insertHorizontalRule}
 ```
 public Shape insertHorizontalRule()
 ```
@@ -911,7 +990,7 @@ Inserts a horizontal rule shape into the document.
 
 **Returns:**
 [Shape](../../com.aspose.words/shape) - The shape that is a horizontal rule.
-### insertHtml(String html) {#insertHtml-java.lang.String-}
+### insertHtml(String html) {#insertHtml-java.lang.String}
 ```
 public void insertHtml(String html)
 ```
@@ -924,7 +1003,7 @@ Inserts an HTML string into the document.
 | --- | --- | --- |
 | html | java.lang.String | An HTML string to insert into the document. You can use this method to insert an HTML fragment or whole HTML document. |
 
-### insertHtml(String html, boolean useBuilderFormatting) {#insertHtml-java.lang.String-boolean-}
+### insertHtml(String html, boolean useBuilderFormatting) {#insertHtml-java.lang.String-boolean}
 ```
 public void insertHtml(String html, boolean useBuilderFormatting)
 ```
@@ -942,9 +1021,9 @@ You can use this method to insert an HTML fragment or whole HTML document.
 
 When  useBuilderFormatting  is  false , [DocumentBuilder](../../com.aspose.words/documentbuilder) formating is ignored and formatting of inserted text is based on default HTML formatting. As a result, the text looks as it is rendered in browsers.
 
-When  useBuilderFormatting  is  true , formatting of inserted text is based on [DocumentBuilder](../../com.aspose.words/documentbuilder) formatting, and the text looks as if it were inserted with [write(java.lang.String)](../../com.aspose.words/documentbuilder\#write-java.lang.String-). |
+When  useBuilderFormatting  is  true , formatting of inserted text is based on [DocumentBuilder](../../com.aspose.words/documentbuilder) formatting, and the text looks as if it were inserted with [write(java.lang.String)](../../com.aspose.words/documentbuilder\#write-java.lang.String). |
 
-### insertHtml(String html, int options) {#insertHtml-java.lang.String-int-}
+### insertHtml(String html, int options) {#insertHtml-java.lang.String-int}
 ```
 public void insertHtml(String html, int options)
 ```
@@ -958,7 +1037,7 @@ public void insertHtml(String html, int options)
 | html | java.lang.String |  |
 | options | int |  |
 
-### insertHyperlink(String displayText, String urlOrBookmark, boolean isBookmark) {#insertHyperlink-java.lang.String-java.lang.String-boolean-}
+### insertHyperlink(String displayText, String urlOrBookmark, boolean isBookmark) {#insertHyperlink-java.lang.String-java.lang.String-boolean}
 ```
 public Field insertHyperlink(String displayText, String urlOrBookmark, boolean isBookmark)
 ```
@@ -966,20 +1045,20 @@ public Field insertHyperlink(String displayText, String urlOrBookmark, boolean i
 
 Inserts a hyperlink into the document.
 
-Note that you need to specify font formatting for the hyperlink display text explicitly using the [getFont()](../../com.aspose.words/documentbuilder\#getFont--) property.
+Note that you need to specify font formatting for the hyperlink display text explicitly using the [getFont()](../../com.aspose.words/documentbuilder\#getFont) property.
 
-This methods internally calls [insertField(java.lang.String)](../../com.aspose.words/documentbuilder\#insertField-java.lang.String-) to insert an MS Word HYPERLINK field into the document.
+This methods internally calls [insertField(java.lang.String)](../../com.aspose.words/documentbuilder\#insertField-java.lang.String) to insert an MS Word HYPERLINK field into the document.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | displayText | java.lang.String | Text of the link to be displayed in the document. |
 | urlOrBookmark | java.lang.String | Link destination. Can be a url or a name of a bookmark inside the document. This method always adds apostrophes at the beginning and end of the url. |
-| isBookmark | boolean | True if the previous parameter is a name of a bookmark inside the document; false is the previous parameter is a URL. |
+| isBookmark | boolean | \{ true  if the previous parameter is a name of a bookmark inside the document;  false  is the previous parameter is a URL. |
 
 **Returns:**
 [Field](../../com.aspose.words/field) - A [Field](../../com.aspose.words/field) object that represents the inserted field.
-### insertImage(byte[] imageBytes) {#insertImage-byte---}
+### insertImage(byte[] imageBytes) {#insertImage-byte}
 ```
 public Shape insertImage(byte[] imageBytes)
 ```
@@ -996,7 +1075,7 @@ Inserts an image from a byte array into the document. The image is inserted inli
 [Shape](../../com.aspose.words/shape) - The image node that was just inserted.
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../com.aspose.words/shape) object returned by this method.
-### insertImage(byte[] imageBytes, double width, double height) {#insertImage-byte---double-double-}
+### insertImage(byte[] imageBytes, double width, double height) {#insertImage-byte---double-double}
 ```
 public Shape insertImage(byte[] imageBytes, double width, double height)
 ```
@@ -1015,7 +1094,7 @@ Inserts an inline image from a byte array into the document and scales it to the
 [Shape](../../com.aspose.words/shape) - The image node that was just inserted.
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../com.aspose.words/shape) object returned by this method.
-### insertImage(byte[] imageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertImage-byte---int-double-int-double-double-double-int-}
+### insertImage(byte[] imageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertImage-byte---int-double-int-double-double-double-int}
 ```
 public Shape insertImage(byte[] imageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)
 ```
@@ -1037,7 +1116,7 @@ public Shape insertImage(byte[] imageBytes, int horzPos, double left, int vertPo
 
 **Returns:**
 [Shape](../../com.aspose.words/shape)
-### insertImage(BufferedImage image) {#insertImage-java.awt.image.BufferedImage-}
+### insertImage(BufferedImage image) {#insertImage-java.awt.image.BufferedImage}
 ```
 public Shape insertImage(BufferedImage image)
 ```
@@ -1055,8 +1134,8 @@ Inserts an image into the document.  Inserts an image from a  object into the do
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../com.aspose.words/shape) object returned by this method.
 
-Aspose.Words will insert the image in the PNG format and with default settings. If you want to insert a  BufferedImage  in another format or with other settings, you need to save the image into a byte array and use [insertImage(byte[])](../../com.aspose.words/documentbuilder\#insertImage-byte---).
-### insertImage(BufferedImage image, double width, double height) {#insertImage-java.awt.image.BufferedImage-double-double-}
+Aspose.Words will insert the image in the PNG format and with default settings. If you want to insert a  BufferedImage  in another format or with other settings, you need to save the image into a byte array and use [insertImage(byte[])](../../com.aspose.words/documentbuilder\#insertImage-byte).
+### insertImage(BufferedImage image, double width, double height) {#insertImage-java.awt.image.BufferedImage-double-double}
 ```
 public Shape insertImage(BufferedImage image, double width, double height)
 ```
@@ -1076,8 +1155,8 @@ Inserts an inline image from a  object into the document and scales it to the sp
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../com.aspose.words/shape) object returned by this method.
 
-Aspose.Words will insert the image in the PNG format and with default settings. If you want to insert a  BufferedImage  in another format or with other settings, you need to save the image into a byte array and use [insertImage(byte[])](../../com.aspose.words/documentbuilder\#insertImage-byte---).
-### insertImage(BufferedImage image, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertImage-java.awt.image.BufferedImage-int-double-int-double-double-double-int-}
+Aspose.Words will insert the image in the PNG format and with default settings. If you want to insert a  BufferedImage  in another format or with other settings, you need to save the image into a byte array and use [insertImage(byte[])](../../com.aspose.words/documentbuilder\#insertImage-byte).
+### insertImage(BufferedImage image, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertImage-java.awt.image.BufferedImage-int-double-int-double-double-double-int}
 ```
 public Shape insertImage(BufferedImage image, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)
 ```
@@ -1099,7 +1178,7 @@ public Shape insertImage(BufferedImage image, int horzPos, double left, int vert
 
 **Returns:**
 [Shape](../../com.aspose.words/shape)
-### insertImage(InputStream stream) {#insertImage-java.io.InputStream-}
+### insertImage(InputStream stream) {#insertImage-java.io.InputStream}
 ```
 public Shape insertImage(InputStream stream)
 ```
@@ -1114,7 +1193,7 @@ public Shape insertImage(InputStream stream)
 
 **Returns:**
 [Shape](../../com.aspose.words/shape)
-### insertImage(InputStream stream, double width, double height) {#insertImage-java.io.InputStream-double-double-}
+### insertImage(InputStream stream, double width, double height) {#insertImage-java.io.InputStream-double-double}
 ```
 public Shape insertImage(InputStream stream, double width, double height)
 ```
@@ -1131,7 +1210,7 @@ public Shape insertImage(InputStream stream, double width, double height)
 
 **Returns:**
 [Shape](../../com.aspose.words/shape)
-### insertImage(InputStream stream, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertImage-java.io.InputStream-int-double-int-double-double-double-int-}
+### insertImage(InputStream stream, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertImage-java.io.InputStream-int-double-int-double-double-double-int}
 ```
 public Shape insertImage(InputStream stream, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)
 ```
@@ -1153,7 +1232,7 @@ public Shape insertImage(InputStream stream, int horzPos, double left, int vertP
 
 **Returns:**
 [Shape](../../com.aspose.words/shape)
-### insertImage(String fileName) {#insertImage-java.lang.String-}
+### insertImage(String fileName) {#insertImage-java.lang.String}
 ```
 public Shape insertImage(String fileName)
 ```
@@ -1172,7 +1251,7 @@ Inserts an image from a file or URL into the document. The image is inserted inl
 This overload will automatically download the image before inserting into the document if you specify a remote URI.
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../com.aspose.words/shape) object returned by this method.
-### insertImage(String fileName, double width, double height) {#insertImage-java.lang.String-double-double-}
+### insertImage(String fileName, double width, double height) {#insertImage-java.lang.String-double-double}
 ```
 public Shape insertImage(String fileName, double width, double height)
 ```
@@ -1191,7 +1270,7 @@ Inserts an inline image from a file or URL into the document and scales it to th
 [Shape](../../com.aspose.words/shape) - The image node that was just inserted.
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../com.aspose.words/shape) object returned by this method.
-### insertImage(String fileName, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertImage-java.lang.String-int-double-int-double-double-double-int-}
+### insertImage(String fileName, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertImage-java.lang.String-int-double-int-double-double-double-int}
 ```
 public Shape insertImage(String fileName, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)
 ```
@@ -1213,7 +1292,7 @@ public Shape insertImage(String fileName, int horzPos, double left, int vertPos,
 
 **Returns:**
 [Shape](../../com.aspose.words/shape)
-### insertNode(Node node) {#insertNode-com.aspose.words.Node-}
+### insertNode(Node node) {#insertNode-com.aspose.words.Node}
 ```
 public void insertNode(Node node)
 ```
@@ -1226,7 +1305,7 @@ Inserts a node before the cursor.
 | --- | --- | --- |
 | node | [Node](../../com.aspose.words/node) |  |
 
-### insertOleObject(InputStream stream, String progId, boolean asIcon, InputStream presentation) {#insertOleObject-java.io.InputStream-java.lang.String-boolean-java.io.InputStream-}
+### insertOleObject(InputStream stream, String progId, boolean asIcon, InputStream presentation) {#insertOleObject-java.io.InputStream-java.lang.String-boolean-java.io.InputStream}
 ```
 public Shape insertOleObject(InputStream stream, String progId, boolean asIcon, InputStream presentation)
 ```
@@ -1244,7 +1323,7 @@ public Shape insertOleObject(InputStream stream, String progId, boolean asIcon, 
 
 **Returns:**
 [Shape](../../com.aspose.words/shape)
-### insertOleObject(String fileName, boolean isLinked, boolean asIcon, InputStream presentation) {#insertOleObject-java.lang.String-boolean-boolean-java.io.InputStream-}
+### insertOleObject(String fileName, boolean isLinked, boolean asIcon, InputStream presentation) {#insertOleObject-java.lang.String-boolean-boolean-java.io.InputStream}
 ```
 public Shape insertOleObject(String fileName, boolean isLinked, boolean asIcon, InputStream presentation)
 ```
@@ -1262,7 +1341,7 @@ public Shape insertOleObject(String fileName, boolean isLinked, boolean asIcon, 
 
 **Returns:**
 [Shape](../../com.aspose.words/shape)
-### insertOleObject(String fileName, String progId, boolean isLinked, boolean asIcon, InputStream presentation) {#insertOleObject-java.lang.String-java.lang.String-boolean-boolean-java.io.InputStream-}
+### insertOleObject(String fileName, String progId, boolean isLinked, boolean asIcon, InputStream presentation) {#insertOleObject-java.lang.String-java.lang.String-boolean-boolean-java.io.InputStream}
 ```
 public Shape insertOleObject(String fileName, String progId, boolean isLinked, boolean asIcon, InputStream presentation)
 ```
@@ -1281,7 +1360,7 @@ public Shape insertOleObject(String fileName, String progId, boolean isLinked, b
 
 **Returns:**
 [Shape](../../com.aspose.words/shape)
-### insertOleObjectAsIcon(InputStream stream, String progId, String iconFile, String iconCaption) {#insertOleObjectAsIcon-java.io.InputStream-java.lang.String-java.lang.String-java.lang.String-}
+### insertOleObjectAsIcon(InputStream stream, String progId, String iconFile, String iconCaption) {#insertOleObjectAsIcon-java.io.InputStream-java.lang.String-java.lang.String-java.lang.String}
 ```
 public Shape insertOleObjectAsIcon(InputStream stream, String progId, String iconFile, String iconCaption)
 ```
@@ -1299,7 +1378,7 @@ public Shape insertOleObjectAsIcon(InputStream stream, String progId, String ico
 
 **Returns:**
 [Shape](../../com.aspose.words/shape)
-### insertOleObjectAsIcon(String fileName, boolean isLinked, String iconFile, String iconCaption) {#insertOleObjectAsIcon-java.lang.String-boolean-java.lang.String-java.lang.String-}
+### insertOleObjectAsIcon(String fileName, boolean isLinked, String iconFile, String iconCaption) {#insertOleObjectAsIcon-java.lang.String-boolean-java.lang.String-java.lang.String}
 ```
 public Shape insertOleObjectAsIcon(String fileName, boolean isLinked, String iconFile, String iconCaption)
 ```
@@ -1311,13 +1390,13 @@ Inserts an embedded or linked OLE object as icon into the document. Allows to sp
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | Full path to the file. |
-| isLinked | boolean | If true then linked OLE object is inserted otherwise embedded OLE object is inserted. |
-| iconFile | java.lang.String | Full path to the ICO file. If the value is null, Aspose.Words will use a predefined image. |
-| iconCaption | java.lang.String | Icon caption. If the value is null, Aspose.Words will use the file name. |
+| isLinked | boolean | If  true  then linked OLE object is inserted otherwise embedded OLE object is inserted. |
+| iconFile | java.lang.String | Full path to the ICO file. If the value is  null , Aspose.Words will use a predefined image. |
+| iconCaption | java.lang.String | Icon caption. If the value is  null , Aspose.Words will use the file name. |
 
 **Returns:**
 [Shape](../../com.aspose.words/shape) - Shape node containing Ole object and inserted at the current Builder position.
-### insertOleObjectAsIcon(String fileName, String progId, boolean isLinked, String iconFile, String iconCaption) {#insertOleObjectAsIcon-java.lang.String-java.lang.String-boolean-java.lang.String-java.lang.String-}
+### insertOleObjectAsIcon(String fileName, String progId, boolean isLinked, String iconFile, String iconCaption) {#insertOleObjectAsIcon-java.lang.String-java.lang.String-boolean-java.lang.String-java.lang.String}
 ```
 public Shape insertOleObjectAsIcon(String fileName, String progId, boolean isLinked, String iconFile, String iconCaption)
 ```
@@ -1330,13 +1409,13 @@ Inserts an embedded or linked OLE object as icon into the document. Allows to sp
 | --- | --- | --- |
 | fileName | java.lang.String | Full path to the file. |
 | progId | java.lang.String | ProgId of OLE object. |
-| isLinked | boolean | If true then linked OLE object is inserted otherwise embedded OLE object is inserted. |
-| iconFile | java.lang.String | Full path to the ICO file. If the value is null, Aspose.Words will use a predefined image. |
-| iconCaption | java.lang.String | Icon caption. If the value is null, Aspose.Words will use the file name. |
+| isLinked | boolean | If  true  then linked OLE object is inserted otherwise embedded OLE object is inserted. |
+| iconFile | java.lang.String | Full path to the ICO file. If the value is  null , Aspose.Words will use a predefined image. |
+| iconCaption | java.lang.String | Icon caption. If the value is  null , Aspose.Words will use the file name. |
 
 **Returns:**
 [Shape](../../com.aspose.words/shape) - Shape node containing Ole object and inserted at the current Builder position.
-### insertOnlineVideo(String videoUrl, double width, double height) {#insertOnlineVideo-java.lang.String-double-double-}
+### insertOnlineVideo(String videoUrl, double width, double height) {#insertOnlineVideo-java.lang.String-double-double}
 ```
 public Shape insertOnlineVideo(String videoUrl, double width, double height)
 ```
@@ -1361,10 +1440,10 @@ Insertion of online video from the following resources is supported:
  *  https://www.youtube.com/
  *  https://vimeo.com/
 
-If your online video is not displaying correctly, use [insertOnlineVideo(java.lang.String, java.lang.String, byte[], double, double)](../../com.aspose.words/documentbuilder\#insertOnlineVideo-java.lang.String--java.lang.String--byte----double--double-), which accepts custom embedded html code.
+If your online video is not displaying correctly, use [insertOnlineVideo(java.lang.String, java.lang.String, byte[], double, double)](../../com.aspose.words/documentbuilder\#insertOnlineVideo-java.lang.String--java.lang.String--byte----double--double), which accepts custom embedded html code.
 
 The code for embedding video can vary between providers, consult your corresponding provider of choice for details.
-### insertOnlineVideo(String videoUrl, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertOnlineVideo-java.lang.String-int-double-int-double-double-double-int-}
+### insertOnlineVideo(String videoUrl, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertOnlineVideo-java.lang.String-int-double-int-double-double-double-int}
 ```
 public Shape insertOnlineVideo(String videoUrl, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)
 ```
@@ -1386,7 +1465,7 @@ public Shape insertOnlineVideo(String videoUrl, int horzPos, double left, int ve
 
 **Returns:**
 [Shape](../../com.aspose.words/shape)
-### insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] thumbnailImageBytes, double width, double height) {#insertOnlineVideo-java.lang.String-java.lang.String-byte---double-double-}
+### insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] thumbnailImageBytes, double width, double height) {#insertOnlineVideo-java.lang.String-java.lang.String-byte---double-double}
 ```
 public Shape insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] thumbnailImageBytes, double width, double height)
 ```
@@ -1407,7 +1486,7 @@ Inserts an online video object into the document and scales it to the specified 
 [Shape](../../com.aspose.words/shape) - The image node that was just inserted.
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../com.aspose.words/shape) object returned by this method.
-### insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] thumbnailImageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertOnlineVideo-java.lang.String-java.lang.String-byte---int-double-int-double-double-double-int-}
+### insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] thumbnailImageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertOnlineVideo-java.lang.String-java.lang.String-byte---int-double-int-double-double-double-int}
 ```
 public Shape insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] thumbnailImageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)
 ```
@@ -1431,7 +1510,7 @@ public Shape insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] th
 
 **Returns:**
 [Shape](../../com.aspose.words/shape)
-### insertParagraph() {#insertParagraph--}
+### insertParagraph() {#insertParagraph}
 ```
 public Paragraph insertParagraph()
 ```
@@ -1439,13 +1518,13 @@ public Paragraph insertParagraph()
 
 Inserts a paragraph break into the document.
 
-Current paragraph formatting specified by the [getParagraphFormat()](../../com.aspose.words/documentbuilder\#getParagraphFormat--) property is used.
+Current paragraph formatting specified by the [getParagraphFormat()](../../com.aspose.words/documentbuilder\#getParagraphFormat) property is used.
 
 Breaks the current paragraph in two. After inserting the paragraph, the cursor is placed at the beginning of the new paragraph.
 
 **Returns:**
-[Paragraph](../../com.aspose.words/paragraph) - The paragraph node that was just inserted. It is the same node as [getCurrentParagraph()](../../com.aspose.words/documentbuilder\#getCurrentParagraph--).
-### insertShape(int shapeType, double width, double height) {#insertShape-int-double-double-}
+[Paragraph](../../com.aspose.words/paragraph) - The paragraph node that was just inserted. It is the same node as [getCurrentParagraph()](../../com.aspose.words/documentbuilder\#getCurrentParagraph).
+### insertShape(int shapeType, double width, double height) {#insertShape-int-double-double}
 ```
 public Shape insertShape(int shapeType, double width, double height)
 ```
@@ -1462,7 +1541,7 @@ public Shape insertShape(int shapeType, double width, double height)
 
 **Returns:**
 [Shape](../../com.aspose.words/shape)
-### insertShape(int shapeType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertShape-int-int-double-int-double-double-double-int-}
+### insertShape(int shapeType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertShape-int-int-double-int-double-double-double-int}
 ```
 public Shape insertShape(int shapeType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)
 ```
@@ -1484,7 +1563,7 @@ public Shape insertShape(int shapeType, int horzPos, double left, int vertPos, d
 
 **Returns:**
 [Shape](../../com.aspose.words/shape)
-### insertSignatureLine(SignatureLineOptions signatureLineOptions) {#insertSignatureLine-com.aspose.words.SignatureLineOptions-}
+### insertSignatureLine(SignatureLineOptions signatureLineOptions) {#insertSignatureLine-com.aspose.words.SignatureLineOptions}
 ```
 public Shape insertSignatureLine(SignatureLineOptions signatureLineOptions)
 ```
@@ -1499,7 +1578,7 @@ Inserts a signature line at the current position.
 
 **Returns:**
 [Shape](../../com.aspose.words/shape) - The signature line node that was just inserted.
-### insertSignatureLine(SignatureLineOptions signatureLineOptions, int horzPos, double left, int vertPos, double top, int wrapType) {#insertSignatureLine-com.aspose.words.SignatureLineOptions-int-double-int-double-int-}
+### insertSignatureLine(SignatureLineOptions signatureLineOptions, int horzPos, double left, int vertPos, double top, int wrapType) {#insertSignatureLine-com.aspose.words.SignatureLineOptions-int-double-int-double-int}
 ```
 public Shape insertSignatureLine(SignatureLineOptions signatureLineOptions, int horzPos, double left, int vertPos, double top, int wrapType)
 ```
@@ -1519,7 +1598,7 @@ public Shape insertSignatureLine(SignatureLineOptions signatureLineOptions, int 
 
 **Returns:**
 [Shape](../../com.aspose.words/shape)
-### insertStyleSeparator() {#insertStyleSeparator--}
+### insertStyleSeparator() {#insertStyleSeparator}
 ```
 public void insertStyleSeparator()
 ```
@@ -1527,7 +1606,7 @@ public void insertStyleSeparator()
 
 Inserts style separator into the document. This method allows to apply different paragraph styles to two different parts of a text line.
 
-### insertTableOfContents(String switches) {#insertTableOfContents-java.lang.String-}
+### insertTableOfContents(String switches) {#insertTableOfContents-java.lang.String}
 ```
 public Field insertTableOfContents(String switches)
 ```
@@ -1543,7 +1622,7 @@ The easiest way to specify the switches is to insert and configure a table of co
 
 For example, after creating a table of contents, the following field is inserted into the document: **\{ TOC \\o "1-3" \\h \\z \}**. You can copy **\\o "1-3" \\h \\z**  and use it as the switches parameter.
 
-Note that **InsertTableOfContents** will only insert a TOC field, but will not actually build the table of contents. The table of contents is built by Microsoft Word when the field is updated.
+Note that [insertTableOfContents(java.lang.String)](../../com.aspose.words/documentbuilder\#insertTableOfContents-java.lang.String) will only insert a TOC field, but will not actually build the table of contents. The table of contents is built by Microsoft Word when the field is updated.
 
 If you insert a table of contents using this method and then open the file in Microsoft Word, you will not see the table of contents because the TOC field has not yet been updated.
 
@@ -1556,7 +1635,7 @@ In Microsoft Word, fields are not automatically updated when a document is opene
 
 **Returns:**
 [Field](../../com.aspose.words/field)
-### insertTextInput(String name, int type, String format, String fieldValue, int maxLength) {#insertTextInput-java.lang.String-int-java.lang.String-java.lang.String-int-}
+### insertTextInput(String name, int type, String format, String fieldValue, int maxLength) {#insertTextInput-java.lang.String-int-java.lang.String-java.lang.String-int}
 ```
 public FormField insertTextInput(String name, int type, String format, String fieldValue, int maxLength)
 ```
@@ -1575,17 +1654,17 @@ public FormField insertTextInput(String name, int type, String format, String fi
 
 **Returns:**
 [FormField](../../com.aspose.words/formfield)
-### isAtEndOfParagraph() {#isAtEndOfParagraph--}
+### isAtEndOfParagraph() {#isAtEndOfParagraph}
 ```
 public boolean isAtEndOfParagraph()
 ```
 
 
-Returns true if the cursor is at the end of the current paragraph.
+Returns  true  if the cursor is at the end of the current paragraph.
 
 **Returns:**
-boolean - True if the cursor is at the end of the current paragraph.
-### isAtEndOfStructuredDocumentTag() {#isAtEndOfStructuredDocumentTag--}
+boolean - \{ true  if the cursor is at the end of the current paragraph.
+### isAtEndOfStructuredDocumentTag() {#isAtEndOfStructuredDocumentTag}
 ```
 public boolean isAtEndOfStructuredDocumentTag()
 ```
@@ -1595,17 +1674,17 @@ Returns **true** if the cursor is at the end of a structured document tag.
 
 **Returns:**
 boolean - **true** if the cursor is at the end of a structured document tag.
-### isAtStartOfParagraph() {#isAtStartOfParagraph--}
+### isAtStartOfParagraph() {#isAtStartOfParagraph}
 ```
 public boolean isAtStartOfParagraph()
 ```
 
 
-Returns true if the cursor is at the beginning of the current paragraph (no text before the cursor).
+Returns  true  if the cursor is at the beginning of the current paragraph (no text before the cursor).
 
 **Returns:**
-boolean - True if the cursor is at the beginning of the current paragraph (no text before the cursor).
-### moveTo(Node node) {#moveTo-com.aspose.words.Node-}
+boolean - \{ true  if the cursor is at the beginning of the current paragraph (no text before the cursor).
+### moveTo(Node node) {#moveTo-com.aspose.words.Node}
 ```
 public void moveTo(Node node)
 ```
@@ -1615,16 +1694,16 @@ Moves the cursor to an inline node or to the end of a paragraph.
 
 When *node* is an inline-level node, the cursor is moved to this node and further content will be inserted before that node.
 
-When *node* is a **Paragraph**, the cursor is moved to the end of the paragraph and further content will be inserted just before the paragraph break.
+When *node* is a [Paragraph](../../com.aspose.words/paragraph), the cursor is moved to the end of the paragraph and further content will be inserted just before the paragraph break.
 
-When *node* is a block-level node but not a Paragraph, the cursor is moved to the end of the first paragraph into block-level node and further content will be inserted just before the paragraph break.
+When *node* is a block-level node but not a [Paragraph](../../com.aspose.words/paragraph), the cursor is moved to the end of the first paragraph into block-level node and further content will be inserted just before the paragraph break.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.words/node) | The node must be a paragraph or a direct child of a paragraph. |
 
-### moveToBookmark(String bookmarkName) {#moveToBookmark-java.lang.String-}
+### moveToBookmark(String bookmarkName) {#moveToBookmark-java.lang.String}
 ```
 public boolean moveToBookmark(String bookmarkName)
 ```
@@ -1634,7 +1713,7 @@ Moves the cursor to a bookmark.
 
 Moves the cursor to a position just after the start of the bookmark with the specified name.
 
-The comparison is not case-sensitive. If the bookmark was not found, false is returned and the cursor is not moved.
+The comparison is not case-sensitive. If the bookmark was not found,  false  is returned and the cursor is not moved.
 
 Inserting new text does not replace existing text of the bookmark.
 
@@ -1646,8 +1725,8 @@ Note that some bookmarks in the document are assigned to form fields. Moving to 
 | bookmarkName | java.lang.String | The name of the bookmark to move the cursor to. |
 
 **Returns:**
-boolean - True if the bookmark was found; false otherwise.
-### moveToBookmark(String bookmarkName, boolean isStart, boolean isAfter) {#moveToBookmark-java.lang.String-boolean-boolean-}
+boolean - \{ true  if the bookmark was found;  false  otherwise.
+### moveToBookmark(String bookmarkName, boolean isStart, boolean isAfter) {#moveToBookmark-java.lang.String-boolean-boolean}
 ```
 public boolean moveToBookmark(String bookmarkName, boolean isStart, boolean isAfter)
 ```
@@ -1659,18 +1738,18 @@ Moves the cursor to a position before or after the bookmark start or end.
 
 If desired position is not at inline level, moves to the next paragraph.
 
-The comparison is not case-sensitive. If the bookmark was not found, false is returned and the cursor is not moved.
+The comparison is not case-sensitive. If the bookmark was not found,  false  is returned and the cursor is not moved.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | bookmarkName | java.lang.String | The name of the bookmark to move the cursor to. |
-| isStart | boolean | When true, moves the cursor to the beginning of the bookmark. When false, moves the cursor to the end of the bookmark. |
-| isAfter | boolean | When true, moves the cursor to be after the bookmark start or end position. When false, moves the cursor to be before the bookmark start or end position. |
+| isStart | boolean | When  true , moves the cursor to the beginning of the bookmark. When  false , moves the cursor to the end of the bookmark. |
+| isAfter | boolean | When  true , moves the cursor to be after the bookmark start or end position. When  false , moves the cursor to be before the bookmark start or end position. |
 
 **Returns:**
-boolean - True if the bookmark was found; false otherwise.
-### moveToCell(int tableIndex, int rowIndex, int columnIndex, int characterIndex) {#moveToCell-int-int-int-int-}
+boolean - \{ true  if the bookmark was found;  false  otherwise.
+### moveToCell(int tableIndex, int rowIndex, int columnIndex, int characterIndex) {#moveToCell-int-int-int-int}
 ```
 public void moveToCell(int tableIndex, int rowIndex, int columnIndex, int characterIndex)
 ```
@@ -1690,7 +1769,7 @@ For the index parameters, when index is greater than or equal to 0, it specifies
 | columnIndex | int | The index of the column in the table. |
 | characterIndex | int | The index of the character inside the cell. A negative value allows you to specify a position from the end of the cell. Use -1 to move to the end of the cell. |
 
-### moveToDocumentEnd() {#moveToDocumentEnd--}
+### moveToDocumentEnd() {#moveToDocumentEnd}
 ```
 public void moveToDocumentEnd()
 ```
@@ -1698,7 +1777,7 @@ public void moveToDocumentEnd()
 
 Moves the cursor to the end of the document.
 
-### moveToDocumentStart() {#moveToDocumentStart--}
+### moveToDocumentStart() {#moveToDocumentStart}
 ```
 public void moveToDocumentStart()
 ```
@@ -1706,7 +1785,7 @@ public void moveToDocumentStart()
 
 Moves the cursor to the beginning of the document.
 
-### moveToField(Field field, boolean isAfter) {#moveToField-com.aspose.words.Field-boolean-}
+### moveToField(Field field, boolean isAfter) {#moveToField-com.aspose.words.Field-boolean}
 ```
 public void moveToField(Field field, boolean isAfter)
 ```
@@ -1718,9 +1797,9 @@ Moves the cursor to a field in the document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | field | [Field](../../com.aspose.words/field) | The field to move the cursor to. |
-| isAfter | boolean | When true, moves the cursor to be after the field end. When false, moves the cursor to be before the field start. |
+| isAfter | boolean | When  true , moves the cursor to be after the field end. When  false , moves the cursor to be before the field start. |
 
-### moveToHeaderFooter(int headerFooterType) {#moveToHeaderFooter-int-}
+### moveToHeaderFooter(int headerFooterType) {#moveToHeaderFooter-int}
 ```
 public void moveToHeaderFooter(int headerFooterType)
 ```
@@ -1733,7 +1812,7 @@ public void moveToHeaderFooter(int headerFooterType)
 | --- | --- | --- |
 | headerFooterType | int |  |
 
-### moveToMergeField(String fieldName) {#moveToMergeField-java.lang.String-}
+### moveToMergeField(String fieldName) {#moveToMergeField-java.lang.String}
 ```
 public boolean moveToMergeField(String fieldName)
 ```
@@ -1749,8 +1828,8 @@ Note that this method deletes the merge field from the document after moving the
 | fieldName | java.lang.String | The case-insensitive name of the mail merge field. |
 
 **Returns:**
-boolean - True if the merge field was found and the cursor was moved; false otherwise.
-### moveToMergeField(String fieldName, boolean isAfter, boolean isDeleteField) {#moveToMergeField-java.lang.String-boolean-boolean-}
+boolean - \{ true  if the merge field was found and the cursor was moved;  false  otherwise.
+### moveToMergeField(String fieldName, boolean isAfter, boolean isDeleteField) {#moveToMergeField-java.lang.String-boolean-boolean}
 ```
 public boolean moveToMergeField(String fieldName, boolean isAfter, boolean isDeleteField)
 ```
@@ -1762,12 +1841,12 @@ Moves the merge field to the specified merge field.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldName | java.lang.String | The case-insensitive name of the mail merge field. |
-| isAfter | boolean | When true, moves the cursor to be after the field end. When false, moves the cursor to be before the field start. |
-| isDeleteField | boolean | When true, deletes the merge field. |
+| isAfter | boolean | When  true , moves the cursor to be after the field end. When  false , moves the cursor to be before the field start. |
+| isDeleteField | boolean | When  true , deletes the merge field. |
 
 **Returns:**
-boolean - True if the merge field was found and the cursor was moved; false otherwise.
-### moveToParagraph(int paragraphIndex, int characterIndex) {#moveToParagraph-int-int-}
+boolean - \{ true  if the merge field was found and the cursor was moved;  false  otherwise.
+### moveToParagraph(int paragraphIndex, int characterIndex) {#moveToParagraph-int-int}
 ```
 public void moveToParagraph(int paragraphIndex, int characterIndex)
 ```
@@ -1775,9 +1854,9 @@ public void moveToParagraph(int paragraphIndex, int characterIndex)
 
 Moves the cursor to a paragraph in the current section.
 
-The navigation is performed inside the current story of the current section. That is, if you moved the cursor to the primary header of the first section, then paragraphIndex specified the index of the paragraph inside that header of that section.
+The navigation is performed inside the current story of the current section. That is, if you moved the cursor to the primary header of the first section, then  paragraphIndex  specified the index of the paragraph inside that header of that section.
 
-When paragraphIndex is greater than or equal to 0, it specifies an index from the beginning of the section with 0 being the first paragraph. When paragraphIndex is less than 0, it specified an index from the end of the section with -1 being the last paragraph.
+When  paragraphIndex  is greater than or equal to 0, it specifies an index from the beginning of the section with 0 being the first paragraph. When  paragraphIndex  is less than 0, it specified an index from the end of the section with -1 being the last paragraph.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1785,7 +1864,7 @@ When paragraphIndex is greater than or equal to 0, it specifies an index from th
 | paragraphIndex | int | The index of the paragraph to move to. |
 | characterIndex | int | The index of the character inside the paragraph. A negative value allows you to specify a position from the end of the paragraph. Use -1 to move to the end of the paragraph. |
 
-### moveToSection(int sectionIndex) {#moveToSection-int-}
+### moveToSection(int sectionIndex) {#moveToSection-int}
 ```
 public void moveToSection(int sectionIndex)
 ```
@@ -1793,16 +1872,16 @@ public void moveToSection(int sectionIndex)
 
 Moves the cursor to the beginning of the body in a specified section.
 
-When sectionIndex is greater than or equal to 0, it specifies an index from the beginning of the document with 0 being the first section. When sectionIndex is less than 0, it specified an index from the end of the document with -1 being the last section.
+When  sectionIndex  is greater than or equal to 0, it specifies an index from the beginning of the document with 0 being the first section. When  sectionIndex  is less than 0, it specified an index from the end of the document with -1 being the last section.
 
-The cursor is moved to the first paragraph in the **Body** of the specified section.
+The cursor is moved to the first paragraph in the [Body](../../com.aspose.words/body) of the specified section.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sectionIndex | int | The index of the section to move to. |
 
-### moveToStructuredDocumentTag(StructuredDocumentTag structuredDocumentTag, int characterIndex) {#moveToStructuredDocumentTag-com.aspose.words.StructuredDocumentTag-int-}
+### moveToStructuredDocumentTag(StructuredDocumentTag structuredDocumentTag, int characterIndex) {#moveToStructuredDocumentTag-com.aspose.words.StructuredDocumentTag-int}
 ```
 public void moveToStructuredDocumentTag(StructuredDocumentTag structuredDocumentTag, int characterIndex)
 ```
@@ -1816,7 +1895,7 @@ Moves the cursor to the structured document tag.
 | structuredDocumentTag | [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) | The structured document tag to move to. |
 | characterIndex | int | The index of the character inside the structured document tag. A negative value allows you to specify a position from the end of the structured document tag. Use -1 to move to the end of the structured document tag. If the structured document tag is at the block level, and you want to move the cursor to the end of its last paragraph, specify -2. |
 
-### moveToStructuredDocumentTag(int structuredDocumentTagIndex, int characterIndex) {#moveToStructuredDocumentTag-int-int-}
+### moveToStructuredDocumentTag(int structuredDocumentTagIndex, int characterIndex) {#moveToStructuredDocumentTag-int-int}
 ```
 public void moveToStructuredDocumentTag(int structuredDocumentTagIndex, int characterIndex)
 ```
@@ -1834,7 +1913,7 @@ When  structuredDocumentTagIndex  is greater than or equal to 0, it specifies an
 | structuredDocumentTagIndex | int | The index of the structured document tag to move to. |
 | characterIndex | int | The index of the character inside the structured document tag. A negative value allows you to specify a position from the end of the structured document tag. Use -1 to move to the end of the structured document tag. If the structured document tag is at the block level, and you want to move the cursor to the end of its last paragraph, specify -2. |
 
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -1842,7 +1921,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -1850,7 +1929,7 @@ public final native void notifyAll()
 
 
 
-### popFont() {#popFont--}
+### popFont() {#popFont}
 ```
 public void popFont()
 ```
@@ -1858,7 +1937,7 @@ public void popFont()
 
 Retrieves character formatting previously saved on the stack.
 
-### pushFont() {#pushFont--}
+### pushFont() {#pushFont}
 ```
 public void pushFont()
 ```
@@ -1866,7 +1945,20 @@ public void pushFont()
 
 Saves current character formatting onto the stack.
 
-### removeRunAttr(int key) {#removeRunAttr-int-}
+### removeParaAttr(int key) {#removeParaAttr-int}
+```
+public void removeParaAttr(int key)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+
+### removeRunAttr(int key) {#removeRunAttr-int}
 ```
 public void removeRunAttr(int key)
 ```
@@ -1879,7 +1971,7 @@ public void removeRunAttr(int key)
 | --- | --- | --- |
 | key | int |  |
 
-### resetToDefaultAttrs() {#resetToDefaultAttrs--}
+### resetToDefaultAttrs() {#resetToDefaultAttrs}
 ```
 public void resetToDefaultAttrs()
 ```
@@ -1887,7 +1979,7 @@ public void resetToDefaultAttrs()
 
 
 
-### setBold(boolean value) {#setBold-boolean-}
+### setBold(boolean value) {#setBold-boolean}
 ```
 public void setBold(boolean value)
 ```
@@ -1900,7 +1992,7 @@ True if the font is formatted as bold.
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setCellAttr(int key, Object value) {#setCellAttr-int-java.lang.Object-}
+### setCellAttr(int key, Object value) {#setCellAttr-int-java.lang.Object}
 ```
 public void setCellAttr(int key, Object value)
 ```
@@ -1914,20 +2006,20 @@ public void setCellAttr(int key, Object value)
 | key | int |  |
 | value | java.lang.Object |  |
 
-### setDocument(Document value) {#setDocument-com.aspose.words.Document-}
+### setDocument(Document value) {#setDocument-com.aspose.words.Document}
 ```
 public void setDocument(Document value)
 ```
 
 
-Sets the [getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-) object that this object is attached to.
+Sets the [getDocument()](../../com.aspose.words/documentbuilder\#getDocument) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document) object that this object is attached to.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Document](../../com.aspose.words/document) | The [getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-) object that this object is attached to. |
+| value | [Document](../../com.aspose.words/document) | The [getDocument()](../../com.aspose.words/documentbuilder\#getDocument) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document) object that this object is attached to. |
 
-### setItalic(boolean value) {#setItalic-boolean-}
+### setItalic(boolean value) {#setItalic-boolean}
 ```
 public void setItalic(boolean value)
 ```
@@ -1940,7 +2032,21 @@ True if the font is formatted as italic.
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setRowAttr(int key, Object value) {#setRowAttr-int-java.lang.Object-}
+### setParaAttr(int key, Object value) {#setParaAttr-int-java.lang.Object}
+```
+public void setParaAttr(int key, Object value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| value | java.lang.Object |  |
+
+### setRowAttr(int key, Object value) {#setRowAttr-int-java.lang.Object}
 ```
 public void setRowAttr(int key, Object value)
 ```
@@ -1954,7 +2060,7 @@ public void setRowAttr(int key, Object value)
 | key | int |  |
 | value | java.lang.Object |  |
 
-### setRunAttr(int fontAttr, Object value) {#setRunAttr-int-java.lang.Object-}
+### setRunAttr(int fontAttr, Object value) {#setRunAttr-int-java.lang.Object}
 ```
 public void setRunAttr(int fontAttr, Object value)
 ```
@@ -1968,7 +2074,7 @@ public void setRunAttr(int fontAttr, Object value)
 | fontAttr | int |  |
 | value | java.lang.Object |  |
 
-### setUnderline(int value) {#setUnderline-int-}
+### setUnderline(int value) {#setUnderline-int}
 ```
 public void setUnderline(int value)
 ```
@@ -1981,7 +2087,7 @@ Gets/sets underline type for the current font.
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [Underline](../../com.aspose.words/underline) constants. |
 
-### startBookmark(String bookmarkName) {#startBookmark-java.lang.String-}
+### startBookmark(String bookmarkName) {#startBookmark-java.lang.String}
 ```
 public BookmarkStart startBookmark(String bookmarkName)
 ```
@@ -1989,7 +2095,7 @@ public BookmarkStart startBookmark(String bookmarkName)
 
 Marks the current position in the document as a bookmark start.
 
-Bookmarks in a document can overlap and span any range. To create a valid bookmark you need to call both [startBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#startBookmark-java.lang.String-) and [endBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#endBookmark-java.lang.String-) with the same **bookmarkName** parameter.
+Bookmarks in a document can overlap and span any range. To create a valid bookmark you need to call both [startBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#startBookmark-java.lang.String) and [endBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#endBookmark-java.lang.String) with the same  bookmarkName  parameter.
 
 Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 
@@ -2000,7 +2106,7 @@ Badly formed bookmarks or bookmarks with duplicate names will be ignored when th
 
 **Returns:**
 [BookmarkStart](../../com.aspose.words/bookmarkstart) - The bookmark start node that was just created.
-### startColumnBookmark(String bookmarkName) {#startColumnBookmark-java.lang.String-}
+### startColumnBookmark(String bookmarkName) {#startColumnBookmark-java.lang.String}
 ```
 public BookmarkStart startColumnBookmark(String bookmarkName)
 ```
@@ -2008,7 +2114,7 @@ public BookmarkStart startColumnBookmark(String bookmarkName)
 
 Marks the current position in the document as a column bookmark start. The position must be in a table cell.
 
-A column bookmark covers one or more columns in a range of rows. To create a valid bookmark you need to call both [startColumnBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#startColumnBookmark-java.lang.String-) and [endColumnBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#endColumnBookmark-java.lang.String-) with the same **bookmarkName** parameter.
+A column bookmark covers one or more columns in a range of rows. To create a valid bookmark you need to call both [startColumnBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#startColumnBookmark-java.lang.String) and [endColumnBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#endColumnBookmark-java.lang.String) with the same  bookmarkName  parameter.
 
 Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 
@@ -2021,7 +2127,7 @@ The actual position of the inserted [BookmarkStart](../../com.aspose.words/bookm
 
 **Returns:**
 [BookmarkStart](../../com.aspose.words/bookmarkstart) - The bookmark start node that was just created.
-### startEditableRange() {#startEditableRange--}
+### startEditableRange() {#startEditableRange}
 ```
 public EditableRangeStart startEditableRange()
 ```
@@ -2029,13 +2135,13 @@ public EditableRangeStart startEditableRange()
 
 Marks the current position in the document as an editable range start.
 
-Editable range in a document can overlap and span any range. To create a valid editable range you need to call both [startEditableRange()](../../com.aspose.words/documentbuilder\#startEditableRange--) and [endEditableRange()](../../com.aspose.words/documentbuilder\#endEditableRange--) or [endEditableRange(com.aspose.words.EditableRangeStart)](../../com.aspose.words/documentbuilder\#endEditableRange-com.aspose.words.EditableRangeStart-) methods.
+Editable range in a document can overlap and span any range. To create a valid editable range you need to call both [startEditableRange()](../../com.aspose.words/documentbuilder\#startEditableRange) and [endEditableRange()](../../com.aspose.words/documentbuilder\#endEditableRange) or [endEditableRange(com.aspose.words.EditableRangeStart)](../../com.aspose.words/documentbuilder\#endEditableRange-com.aspose.words.EditableRangeStart) methods.
 
 Badly formed editable range will be ignored when the document is saved.
 
 **Returns:**
 [EditableRangeStart](../../com.aspose.words/editablerangestart) - The editable range start node that was just created.
-### startTable() {#startTable--}
+### startTable() {#startTable}
 ```
 public Table startTable()
 ```
@@ -2043,13 +2149,13 @@ public Table startTable()
 
 Starts a table in the document.
 
-The next method to call is [insertCell()](../../com.aspose.words/documentbuilder\#insertCell--).
+The next method to call is [insertCell()](../../com.aspose.words/documentbuilder\#insertCell).
 
 This method starts a nested table when called inside a cell.
 
 **Returns:**
 [Table](../../com.aspose.words/table) - The table node that was just created.
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -2059,7 +2165,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -2067,7 +2173,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -2080,7 +2186,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```
@@ -2094,20 +2200,20 @@ public final void wait(long arg0, int arg1)
 | arg0 | long |  |
 | arg1 | int |  |
 
-### write(String text) {#write-java.lang.String-}
+### write(String text) {#write-java.lang.String}
 ```
 public void write(String text)
 ```
 
 
-Inserts a string into the document at the current insert position. Current font formatting specified by the [getFont()](../../com.aspose.words/documentbuilder\#getFont--) property is used.
+Inserts a string into the document at the current insert position. Current font formatting specified by the [getFont()](../../com.aspose.words/documentbuilder\#getFont) property is used.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | text | java.lang.String | The string to insert into the document. |
 
-### writeln() {#writeln--}
+### writeln() {#writeln}
 ```
 public void writeln()
 ```
@@ -2115,15 +2221,15 @@ public void writeln()
 
 Inserts a paragraph break into the document.
 
-Calls [insertParagraph()](../../com.aspose.words/documentbuilder\#insertParagraph--).
+Calls [insertParagraph()](../../com.aspose.words/documentbuilder\#insertParagraph).
 
-### writeln(String text) {#writeln-java.lang.String-}
+### writeln(String text) {#writeln-java.lang.String}
 ```
 public void writeln(String text)
 ```
 
 
-Inserts a string and a paragraph break into the document. Current font and paragraph formatting specified by the [getFont()](../../com.aspose.words/documentbuilder\#getFont--) and [getParagraphFormat()](../../com.aspose.words/documentbuilder\#getParagraphFormat--) properties are used.
+Inserts a string and a paragraph break into the document. Current font and paragraph formatting specified by the [getFont()](../../com.aspose.words/documentbuilder\#getFont) and [getParagraphFormat()](../../com.aspose.words/documentbuilder\#getParagraphFormat) properties are used.
 
 **Parameters:**
 | Parameter | Type | Description |

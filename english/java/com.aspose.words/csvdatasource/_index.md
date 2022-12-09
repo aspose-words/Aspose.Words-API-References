@@ -3,7 +3,7 @@ title: CsvDataSource
 second_title: Aspose.Words for Java API Reference
 description: Provides access to data of a CSV file or stream to be used within a report.
 type: docs
-weight: 99
+weight: 100
 url: /java/com.aspose.words/csvdatasource/
 ---
 
@@ -15,7 +15,7 @@ public class CsvDataSource
 
 Provides access to data of a CSV file or stream to be used within a report.
 
-To learn more, visit the **LINQ Reporting Engine** documentation article.
+To learn more, visit the [ LINQ Reporting Engine ][LINQ Reporting Engine] documentation article.
 
 To access data of the corresponding file or stream while generating a report, pass an instance of this class as a data source to one of [ReportingEngine](../../com.aspose.words/reportingengine). buildReport overloads.
 
@@ -32,28 +32,31 @@ Data types of comma-separated values are determined automatically upon their str
 Note that for automatic recognition of data types to work, string representations of comma-separated values should be formed using invariant culture settings.
 
 To override default behavior of CSV data loading, initialize and pass a [CsvDataLoadOptions](../../com.aspose.words/csvdataloadoptions) instance to a constructor of this class.
+
+
+[LINQ Reporting Engine]: https://docs.aspose.com/words/java/linq-reporting-engine/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [CsvDataSource(String csvPath)](#CsvDataSource-java.lang.String-) | Creates a new data source with data from a CSV file using default options for parsing CSV data. |
-| [CsvDataSource(String csvPath, CsvDataLoadOptions options)](#CsvDataSource-java.lang.String-com.aspose.words.CsvDataLoadOptions-) | Creates a new data source with data from a CSV file using the specified options for parsing CSV data. |
-| [CsvDataSource(InputStream csvStream)](#CsvDataSource-java.io.InputStream-) | Initializes a new instance of this class. |
-| [CsvDataSource(InputStream csvStream, CsvDataLoadOptions options)](#CsvDataSource-java.io.InputStream-com.aspose.words.CsvDataLoadOptions-) | Initializes a new instance of this class. |
+| [CsvDataSource(String csvPath)](#CsvDataSource-java.lang.String) | Creates a new data source with data from a CSV file using default options for parsing CSV data. |
+| [CsvDataSource(String csvPath, CsvDataLoadOptions options)](#CsvDataSource-java.lang.String-com.aspose.words.CsvDataLoadOptions) | Creates a new data source with data from a CSV file using the specified options for parsing CSV data. |
+| [CsvDataSource(InputStream csvStream)](#CsvDataSource-java.io.InputStream) | Initializes a new instance of this class. |
+| [CsvDataSource(InputStream csvStream, CsvDataLoadOptions options)](#CsvDataSource-java.io.InputStream-com.aspose.words.CsvDataLoadOptions) | Initializes a new instance of this class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### CsvDataSource(String csvPath) {#CsvDataSource-java.lang.String-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### CsvDataSource(String csvPath) {#CsvDataSource-java.lang.String}
 ```
 public CsvDataSource(String csvPath)
 ```
@@ -66,7 +69,7 @@ Creates a new data source with data from a CSV file using default options for pa
 | --- | --- | --- |
 | csvPath | java.lang.String | The path to the CSV file to be used as the data source. |
 
-### CsvDataSource(String csvPath, CsvDataLoadOptions options) {#CsvDataSource-java.lang.String-com.aspose.words.CsvDataLoadOptions-}
+### CsvDataSource(String csvPath, CsvDataLoadOptions options) {#CsvDataSource-java.lang.String-com.aspose.words.CsvDataLoadOptions}
 ```
 public CsvDataSource(String csvPath, CsvDataLoadOptions options)
 ```
@@ -80,7 +83,7 @@ Creates a new data source with data from a CSV file using the specified options 
 | csvPath | java.lang.String | The path to the CSV file to be used as the data source. |
 | options | [CsvDataLoadOptions](../../com.aspose.words/csvdataloadoptions) | Options for parsing the CSV data. |
 
-### CsvDataSource(InputStream csvStream) {#CsvDataSource-java.io.InputStream-}
+### CsvDataSource(InputStream csvStream) {#CsvDataSource-java.io.InputStream}
 ```
 public CsvDataSource(InputStream csvStream)
 ```
@@ -93,7 +96,7 @@ Initializes a new instance of this class.
 | --- | --- | --- |
 | csvStream | java.io.InputStream |  |
 
-### CsvDataSource(InputStream csvStream, CsvDataLoadOptions options) {#CsvDataSource-java.io.InputStream-com.aspose.words.CsvDataLoadOptions-}
+### CsvDataSource(InputStream csvStream, CsvDataLoadOptions options) {#CsvDataSource-java.io.InputStream-com.aspose.words.CsvDataLoadOptions}
 ```
 public CsvDataSource(InputStream csvStream, CsvDataLoadOptions options)
 ```
@@ -107,7 +110,7 @@ Initializes a new instance of this class.
 | csvStream | java.io.InputStream |  |
 | options | [CsvDataLoadOptions](../../com.aspose.words/csvdataloadoptions) |  |
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -122,7 +125,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -132,7 +135,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -142,7 +145,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -150,7 +153,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -158,7 +161,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -168,7 +171,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -176,7 +179,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -189,7 +192,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

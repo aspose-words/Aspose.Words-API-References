@@ -3,7 +3,7 @@ title: IDocumentSavingCallback
 second_title: Aspose.Words for Java API Reference
 description: Implement this interface if you want to have your own custom method called during saving a document.
 type: docs
-weight: 639
+weight: 642
 url: /java/com.aspose.words/idocumentsavingcallback/
 ---
 ```
@@ -15,8 +15,8 @@ Implement this interface if you want to have your own custom method called durin
 
 | Method | Description |
 | --- | --- |
-| [notify(DocumentSavingArgs args)](#notify-com.aspose.words.DocumentSavingArgs-) | This is called to notify of document saving progress. |
-### notify(DocumentSavingArgs args) {#notify-com.aspose.words.DocumentSavingArgs-}
+| [notify(DocumentSavingArgs args)](#notify-com.aspose.words.DocumentSavingArgs) | This is called to notify of document saving progress. |
+### notify(DocumentSavingArgs args) {#notify-com.aspose.words.DocumentSavingArgs}
 ```
 public abstract void notify(DocumentSavingArgs args)
 ```

@@ -3,7 +3,7 @@ title: FolderFontSource
 second_title: Aspose.Words for Java API Reference
 description: Represents the folder that contains TrueType font files.
 type: docs
-weight: 274
+weight: 276
 url: /java/com.aspose.words/folderfontsource/
 ---
 
@@ -15,36 +15,39 @@ public class FolderFontSource extends FontSourceBase
 
 Represents the folder that contains TrueType font files.
 
-To learn more, visit the **Working with Fonts** documentation article.
+To learn more, visit the [ Working with Fonts ][Working with Fonts] documentation article.
+
+
+[Working with Fonts]: https://docs.aspose.com/words/java/working-with-fonts/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [FolderFontSource(String folderPath, boolean scanSubfolders)](#FolderFontSource-java.lang.String-boolean-) | Ctor. |
-| [FolderFontSource(String folderPath, boolean scanSubfolders, int priority)](#FolderFontSource-java.lang.String-boolean-int-) | Ctor. |
+| [FolderFontSource(String folderPath, boolean scanSubfolders)](#FolderFontSource-java.lang.String-boolean) | Ctor. |
+| [FolderFontSource(String folderPath, boolean scanSubfolders, int priority)](#FolderFontSource-java.lang.String-boolean-int) | Ctor. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAvailableFonts()](#getAvailableFonts--) | Returns list of fonts available via this source. |
-| [getClass()](#getClass--) |  |
-| [getFolderPath()](#getFolderPath--) | Path to the folder. |
-| [getFontDataInternal()](#getFontDataInternal--) |  |
-| [getPriority()](#getPriority--) | Returns the font source priority. |
-| [getPriorityInternal()](#getPriorityInternal--) |  |
-| [getScanSubfolders()](#getScanSubfolders--) | Determines whether or not to scan the subfolders. |
-| [getType()](#getType--) | Returns the type of the font source. |
-| [getWarningCallback()](#getWarningCallback--) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### FolderFontSource(String folderPath, boolean scanSubfolders) {#FolderFontSource-java.lang.String-boolean-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getAvailableFonts()](#getAvailableFonts) | Returns list of fonts available via this source. |
+| [getClass()](#getClass) |  |
+| [getFolderPath()](#getFolderPath) | Path to the folder. |
+| [getFontDataInternal()](#getFontDataInternal) |  |
+| [getPriority()](#getPriority) | Returns the font source priority. |
+| [getPriorityInternal()](#getPriorityInternal) |  |
+| [getScanSubfolders()](#getScanSubfolders) | Determines whether or not to scan the subfolders. |
+| [getType()](#getType) | Returns the type of the font source. |
+| [getWarningCallback()](#getWarningCallback) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### FolderFontSource(String folderPath, boolean scanSubfolders) {#FolderFontSource-java.lang.String-boolean}
 ```
 public FolderFontSource(String folderPath, boolean scanSubfolders)
 ```
@@ -58,7 +61,7 @@ Ctor.
 | folderPath | java.lang.String | Path to folder. |
 | scanSubfolders | boolean | Determines whether or not to scan subfolders. |
 
-### FolderFontSource(String folderPath, boolean scanSubfolders, int priority) {#FolderFontSource-java.lang.String-boolean-int-}
+### FolderFontSource(String folderPath, boolean scanSubfolders, int priority) {#FolderFontSource-java.lang.String-boolean-int}
 ```
 public FolderFontSource(String folderPath, boolean scanSubfolders, int priority)
 ```
@@ -71,9 +74,9 @@ Ctor.
 | --- | --- | --- |
 | folderPath | java.lang.String | Path to folder. |
 | scanSubfolders | boolean | Determines whether or not to scan subfolders. |
-| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase\#getPriority--) property description for more information. |
+| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase\#getPriority) property description for more information. |
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -88,7 +91,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getAvailableFonts() {#getAvailableFonts--}
+### getAvailableFonts() {#getAvailableFonts}
 ```
 public ArrayList getAvailableFonts()
 ```
@@ -98,7 +101,7 @@ Returns list of fonts available via this source.
 
 **Returns:**
 java.util.ArrayList
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -108,7 +111,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getFolderPath() {#getFolderPath--}
+### getFolderPath() {#getFolderPath}
 ```
 public String getFolderPath()
 ```
@@ -118,7 +121,7 @@ Path to the folder.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### getFontDataInternal() {#getFontDataInternal--}
+### getFontDataInternal() {#getFontDataInternal}
 ```
 public Iterable getFontDataInternal()
 ```
@@ -128,7 +131,7 @@ public Iterable getFontDataInternal()
 
 **Returns:**
 java.lang.Iterable
-### getPriority() {#getPriority--}
+### getPriority() {#getPriority}
 ```
 public int getPriority()
 ```
@@ -142,7 +145,7 @@ The default value is 0.
 
 **Returns:**
 int - The font source priority.
-### getPriorityInternal() {#getPriorityInternal--}
+### getPriorityInternal() {#getPriorityInternal}
 ```
 public int getPriorityInternal()
 ```
@@ -152,7 +155,7 @@ public int getPriorityInternal()
 
 **Returns:**
 int
-### getScanSubfolders() {#getScanSubfolders--}
+### getScanSubfolders() {#getScanSubfolders}
 ```
 public boolean getScanSubfolders()
 ```
@@ -162,7 +165,7 @@ Determines whether or not to scan the subfolders.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getType() {#getType--}
+### getType() {#getType}
 ```
 public int getType()
 ```
@@ -172,7 +175,7 @@ Returns the type of the font source.
 
 **Returns:**
 int - The type of the font source. The returned value is one of [FontSourceType](../../com.aspose.words/fontsourcetype) constants.
-### getWarningCallback() {#getWarningCallback--}
+### getWarningCallback() {#getWarningCallback}
 ```
 public IWarningCallback getWarningCallback()
 ```
@@ -182,7 +185,7 @@ Called during processing of font source when an issue is detected that might res
 
 **Returns:**
 [IWarningCallback](../../com.aspose.words/iwarningcallback) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -192,7 +195,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -200,7 +203,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -208,7 +211,7 @@ public final native void notifyAll()
 
 
 
-### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback-}
+### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback}
 ```
 public void setWarningCallback(IWarningCallback value)
 ```
@@ -221,7 +224,7 @@ Called during processing of font source when an issue is detected that might res
 | --- | --- | --- |
 | value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -231,7 +234,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -239,7 +242,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -252,7 +255,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

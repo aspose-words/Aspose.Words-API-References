@@ -18,25 +18,25 @@ Map for .Net's System.Globalization.CultureInfo.
 
 | Constructor | Description |
 | --- | --- |
-| [CultureInfo(String cultureName)](#CultureInfo-java.lang.String-) | Constructor with .Net-style Culture Name. |
-| [CultureInfo(String cultureName, boolean useUserOverride)](#CultureInfo-java.lang.String-boolean-) | Constructor with .Net-style Culture Name. |
-| [CultureInfo(Locale locale)](#CultureInfo-java.util.Locale-) | Constructor with Java-style Locale. |
+| [CultureInfo(String cultureName)](#CultureInfo-java.lang.String) | Constructor with .Net-style Culture Name. |
+| [CultureInfo(String cultureName, boolean useUserOverride)](#CultureInfo-java.lang.String-boolean) | Constructor with .Net-style Culture Name. |
+| [CultureInfo(Locale locale)](#CultureInfo-java.util.Locale) | Constructor with Java-style Locale. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getDateTimeFormat()](#getDateTimeFormat--) | Gets .Net-style DateTimeFormatInfo |
-| [getLocale(System.Globalization.CultureInfo cultureInfo)](#getLocale-com.aspose.words.net.System.Globalization.CultureInfo-) | Gets java Locale from .Net-style CultureInfo |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### CultureInfo(String cultureName) {#CultureInfo-java.lang.String-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getDateTimeFormat()](#getDateTimeFormat) | Gets .Net-style DateTimeFormatInfo |
+| [getLocale(System.Globalization.CultureInfo cultureInfo)](#getLocale-com.aspose.words.net.System.Globalization.CultureInfo) | Gets java Locale from .Net-style CultureInfo |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### CultureInfo(String cultureName) {#CultureInfo-java.lang.String}
 ```
 public CultureInfo(String cultureName)
 ```
@@ -49,7 +49,7 @@ Constructor with .Net-style Culture Name.
 | --- | --- | --- |
 | cultureName | java.lang.String |  |
 
-### CultureInfo(String cultureName, boolean useUserOverride) {#CultureInfo-java.lang.String-boolean-}
+### CultureInfo(String cultureName, boolean useUserOverride) {#CultureInfo-java.lang.String-boolean}
 ```
 public CultureInfo(String cultureName, boolean useUserOverride)
 ```
@@ -63,7 +63,7 @@ Constructor with .Net-style Culture Name.
 | cultureName | java.lang.String |  |
 | useUserOverride | boolean |  |
 
-### CultureInfo(Locale locale) {#CultureInfo-java.util.Locale-}
+### CultureInfo(Locale locale) {#CultureInfo-java.util.Locale}
 ```
 public CultureInfo(Locale locale)
 ```
@@ -76,7 +76,7 @@ Constructor with Java-style Locale.
 | --- | --- | --- |
 | locale | java.util.Locale |  |
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -91,7 +91,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -101,7 +101,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDateTimeFormat() {#getDateTimeFormat--}
+### getDateTimeFormat() {#getDateTimeFormat}
 ```
 public System.Globalization.DateTimeFormatInfo getDateTimeFormat()
 ```
@@ -111,7 +111,7 @@ Gets .Net-style DateTimeFormatInfo
 
 **Returns:**
 [DateTimeFormatInfo](../../com.aspose.words.net.system.globalization/datetimeformatinfo)
-### getLocale(System.Globalization.CultureInfo cultureInfo) {#getLocale-com.aspose.words.net.System.Globalization.CultureInfo-}
+### getLocale(System.Globalization.CultureInfo cultureInfo) {#getLocale-com.aspose.words.net.System.Globalization.CultureInfo}
 ```
 public Locale getLocale(System.Globalization.CultureInfo cultureInfo)
 ```
@@ -126,7 +126,7 @@ Gets java Locale from .Net-style CultureInfo
 
 **Returns:**
 java.util.Locale
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -136,7 +136,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -144,7 +144,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -152,7 +152,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -162,7 +162,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -170,7 +170,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -183,7 +183,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

@@ -16,28 +16,28 @@ public class Cluster
 
 | Constructor | Description |
 | --- | --- |
-| [Cluster(int[] codepoints, Glyph[] glyphs)](#Cluster-int---com.aspose.words.Glyph---) | Initializes a new instance of this class. |
+| [Cluster(int[] codepoints, Glyph[] glyphs)](#Cluster-int---com.aspose.words.Glyph) | Initializes a new instance of this class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [deepClone()](#deepClone--) |  |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getCodepoints()](#getCodepoints--) |  |
-| [getCodepointsLength()](#getCodepointsLength--) |  |
-| [getGlyphs()](#getGlyphs--) |  |
-| [getString()](#getString--) |  |
-| [getString(Cluster[] clusters)](#getString-com.aspose.words.Cluster---) |  |
-| [getWidth(int em, float fontSize)](#getWidth-int-float-) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### Cluster(int[] codepoints, Glyph[] glyphs) {#Cluster-int---com.aspose.words.Glyph---}
+| [deepClone()](#deepClone) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getCodepoints()](#getCodepoints) |  |
+| [getCodepointsLength()](#getCodepointsLength) |  |
+| [getGlyphs()](#getGlyphs) |  |
+| [getString()](#getString) |  |
+| [getString(Cluster[] clusters)](#getString-com.aspose.words.Cluster) |  |
+| [getWidth(int em, float fontSize)](#getWidth-int-float) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### Cluster(int[] codepoints, Glyph[] glyphs) {#Cluster-int---com.aspose.words.Glyph}
 ```
 public Cluster(int[] codepoints, Glyph[] glyphs)
 ```
@@ -51,7 +51,7 @@ Initializes a new instance of this class.
 | codepoints | int[] |  |
 | glyphs | [Glyph\[\]](../../com.aspose.words/glyph) |  |
 
-### deepClone() {#deepClone--}
+### deepClone() {#deepClone}
 ```
 public Cluster deepClone()
 ```
@@ -61,7 +61,7 @@ public Cluster deepClone()
 
 **Returns:**
 [Cluster](../../com.aspose.words/cluster)
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -86,7 +86,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCodepoints() {#getCodepoints--}
+### getCodepoints() {#getCodepoints}
 ```
 public int[] getCodepoints()
 ```
@@ -96,7 +96,7 @@ public int[] getCodepoints()
 
 **Returns:**
 int[]
-### getCodepointsLength() {#getCodepointsLength--}
+### getCodepointsLength() {#getCodepointsLength}
 ```
 public int getCodepointsLength()
 ```
@@ -106,7 +106,7 @@ public int getCodepointsLength()
 
 **Returns:**
 int
-### getGlyphs() {#getGlyphs--}
+### getGlyphs() {#getGlyphs}
 ```
 public Glyph[] getGlyphs()
 ```
@@ -116,7 +116,7 @@ public Glyph[] getGlyphs()
 
 **Returns:**
 com.aspose.words.Glyph[]
-### getString() {#getString--}
+### getString() {#getString}
 ```
 public String getString()
 ```
@@ -126,7 +126,7 @@ public String getString()
 
 **Returns:**
 java.lang.String
-### getString(Cluster[] clusters) {#getString-com.aspose.words.Cluster---}
+### getString(Cluster[] clusters) {#getString-com.aspose.words.Cluster}
 ```
 public static String getString(Cluster[] clusters)
 ```
@@ -141,7 +141,7 @@ public static String getString(Cluster[] clusters)
 
 **Returns:**
 java.lang.String
-### getWidth(int em, float fontSize) {#getWidth-int-float-}
+### getWidth(int em, float fontSize) {#getWidth-int-float}
 ```
 public float getWidth(int em, float fontSize)
 ```
@@ -157,7 +157,7 @@ public float getWidth(int em, float fontSize)
 
 **Returns:**
 float
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -167,7 +167,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -175,7 +175,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -183,7 +183,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -193,7 +193,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -201,7 +201,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -214,7 +214,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

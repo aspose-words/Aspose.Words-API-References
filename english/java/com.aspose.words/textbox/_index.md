@@ -3,7 +3,7 @@ title: TextBox
 second_title: Aspose.Words for Java API Reference
 description: Defines attributes that specify how a text is displayed inside a shape.
 type: docs
-weight: 558
+weight: 561
 url: /java/com.aspose.words/textbox/
 ---
 
@@ -15,53 +15,56 @@ public class TextBox
 
 Defines attributes that specify how a text is displayed inside a shape.
 
-To learn more, visit the **Working with Shapes** documentation article.
+To learn more, visit the [ Working with Shapes ][Working with Shapes] documentation article.
 
-Use the [Shape.getTextBox()](../../com.aspose.words/shape\#getTextBox--) property to access text properties of a shape. You do not create instances of the [TextBox](../../com.aspose.words/textbox) class directly.
+Use the [Shape.getTextBox()](../../com.aspose.words/shape\#getTextBox) property to access text properties of a shape. You do not create instances of the [TextBox](../../com.aspose.words/textbox) class directly.
+
+
+[Working with Shapes]: https://docs.aspose.com/words/java/working-with-shapes/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [breakForwardLink()](#breakForwardLink--) | Breaks the link to the next TextBox. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getFitShapeToText()](#getFitShapeToText--) | Determines whether Microsoft Word will grow the shape to fit text. |
-| [getInternalMarginBottom()](#getInternalMarginBottom--) | Specifies the inner bottom margin in points for a shape. |
-| [getInternalMarginLeft()](#getInternalMarginLeft--) | Specifies the inner left margin in points for a shape. |
-| [getInternalMarginRight()](#getInternalMarginRight--) | Specifies the inner right margin in points for a shape. |
-| [getInternalMarginTop()](#getInternalMarginTop--) | Specifies the inner top margin in points for a shape. |
-| [getLayoutFlow()](#getLayoutFlow--) | Determines the flow of the text layout in a shape. |
-| [getNext()](#getNext--) | Gets a TextBox that represents the next TextBox in a sequence of shapes. |
-| [getParent()](#getParent--) | Gets a parent shape for the TextBox. |
-| [getPrevious()](#getPrevious--) | Returns a TextBox that represents the previous TextBox in a sequence of shapes. |
-| [getTextBoxWrapMode()](#getTextBoxWrapMode--) | Determines how text wraps inside a shape. |
-| [getVerticalAnchor()](#getVerticalAnchor--) | Specifies the vertical alignment of the text within a shape. |
-| [hashCode()](#hashCode--) |  |
-| [isValidLinkTarget(TextBox target)](#isValidLinkTarget-com.aspose.words.TextBox-) | Determines whether this TextBox can be linked to the target Textbox. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setFitShapeToText(boolean value)](#setFitShapeToText-boolean-) | Determines whether Microsoft Word will grow the shape to fit text. |
-| [setInternalMarginBottom(double value)](#setInternalMarginBottom-double-) | Specifies the inner bottom margin in points for a shape. |
-| [setInternalMarginLeft(double value)](#setInternalMarginLeft-double-) | Specifies the inner left margin in points for a shape. |
-| [setInternalMarginRight(double value)](#setInternalMarginRight-double-) | Specifies the inner right margin in points for a shape. |
-| [setInternalMarginTop(double value)](#setInternalMarginTop-double-) | Specifies the inner top margin in points for a shape. |
-| [setLayoutFlow(int value)](#setLayoutFlow-int-) | Determines the flow of the text layout in a shape. |
-| [setNext(TextBox value)](#setNext-com.aspose.words.TextBox-) | Sets a TextBox that represents the next TextBox in a sequence of shapes. |
-| [setTextBoxWrapMode(int value)](#setTextBoxWrapMode-int-) | Determines how text wraps inside a shape. |
-| [setVerticalAnchor(int value)](#setVerticalAnchor-int-) | Specifies the vertical alignment of the text within a shape. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### breakForwardLink() {#breakForwardLink--}
+| [breakForwardLink()](#breakForwardLink) | Breaks the link to the next [TextBox](../../com.aspose.words/textbox). |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getFitShapeToText()](#getFitShapeToText) | Determines whether Microsoft Word will grow the shape to fit text. |
+| [getInternalMarginBottom()](#getInternalMarginBottom) | Specifies the inner bottom margin in points for a shape. |
+| [getInternalMarginLeft()](#getInternalMarginLeft) | Specifies the inner left margin in points for a shape. |
+| [getInternalMarginRight()](#getInternalMarginRight) | Specifies the inner right margin in points for a shape. |
+| [getInternalMarginTop()](#getInternalMarginTop) | Specifies the inner top margin in points for a shape. |
+| [getLayoutFlow()](#getLayoutFlow) | Determines the flow of the text layout in a shape. |
+| [getNext()](#getNext) | Gets a [TextBox](../../com.aspose.words/textbox) that represents the next [TextBox](../../com.aspose.words/textbox) in a sequence of shapes. |
+| [getParent()](#getParent) | Gets a parent shape for the [TextBox](../../com.aspose.words/textbox). |
+| [getPrevious()](#getPrevious) | Returns a [TextBox](../../com.aspose.words/textbox) that represents the previous [TextBox](../../com.aspose.words/textbox) in a sequence of shapes. |
+| [getTextBoxWrapMode()](#getTextBoxWrapMode) | Determines how text wraps inside a shape. |
+| [getVerticalAnchor()](#getVerticalAnchor) | Specifies the vertical alignment of the text within a shape. |
+| [hashCode()](#hashCode) |  |
+| [isValidLinkTarget(TextBox target)](#isValidLinkTarget-com.aspose.words.TextBox) | Determines whether this [TextBox](../../com.aspose.words/textbox) can be linked to the target [TextBox](../../com.aspose.words/textbox). |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setFitShapeToText(boolean value)](#setFitShapeToText-boolean) | Determines whether Microsoft Word will grow the shape to fit text. |
+| [setInternalMarginBottom(double value)](#setInternalMarginBottom-double) | Specifies the inner bottom margin in points for a shape. |
+| [setInternalMarginLeft(double value)](#setInternalMarginLeft-double) | Specifies the inner left margin in points for a shape. |
+| [setInternalMarginRight(double value)](#setInternalMarginRight-double) | Specifies the inner right margin in points for a shape. |
+| [setInternalMarginTop(double value)](#setInternalMarginTop-double) | Specifies the inner top margin in points for a shape. |
+| [setLayoutFlow(int value)](#setLayoutFlow-int) | Determines the flow of the text layout in a shape. |
+| [setNext(TextBox value)](#setNext-com.aspose.words.TextBox) | Sets a [TextBox](../../com.aspose.words/textbox) that represents the next [TextBox](../../com.aspose.words/textbox) in a sequence of shapes. |
+| [setTextBoxWrapMode(int value)](#setTextBoxWrapMode-int) | Determines how text wraps inside a shape. |
+| [setVerticalAnchor(int value)](#setVerticalAnchor-int) | Specifies the vertical alignment of the text within a shape. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### breakForwardLink() {#breakForwardLink}
 ```
 public void breakForwardLink()
 ```
 
 
-Breaks the link to the next TextBox. BreakForwardLink() doesn't break all other links in the current sequence of shapes. For example: 1-2-3-4 sequence and BreakForwardLink at the 2-nd textbox will create two sequences 1-2, 3-4.
+Breaks the link to the next [TextBox](../../com.aspose.words/textbox). [breakForwardLink()](../../com.aspose.words/textbox\#breakForwardLink) doesn't break all other links in the current sequence of shapes. For example: 1-2-3-4 sequence and [breakForwardLink()](../../com.aspose.words/textbox\#breakForwardLink) at the 2-nd textbox will create two sequences 1-2, 3-4.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -76,7 +79,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -86,7 +89,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getFitShapeToText() {#getFitShapeToText--}
+### getFitShapeToText() {#getFitShapeToText}
 ```
 public boolean getFitShapeToText()
 ```
@@ -94,11 +97,11 @@ public boolean getFitShapeToText()
 
 Determines whether Microsoft Word will grow the shape to fit text.
 
-The default value is **false**.
+The default value is  false .
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getInternalMarginBottom() {#getInternalMarginBottom--}
+### getInternalMarginBottom() {#getInternalMarginBottom}
 ```
 public double getInternalMarginBottom()
 ```
@@ -110,7 +113,7 @@ The default value is 1/20 inch.
 
 **Returns:**
 double - The corresponding  double  value.
-### getInternalMarginLeft() {#getInternalMarginLeft--}
+### getInternalMarginLeft() {#getInternalMarginLeft}
 ```
 public double getInternalMarginLeft()
 ```
@@ -122,7 +125,7 @@ The default value is 1/10 inch.
 
 **Returns:**
 double - The corresponding  double  value.
-### getInternalMarginRight() {#getInternalMarginRight--}
+### getInternalMarginRight() {#getInternalMarginRight}
 ```
 public double getInternalMarginRight()
 ```
@@ -134,7 +137,7 @@ The default value is 1/10 inch.
 
 **Returns:**
 double - The corresponding  double  value.
-### getInternalMarginTop() {#getInternalMarginTop--}
+### getInternalMarginTop() {#getInternalMarginTop}
 ```
 public double getInternalMarginTop()
 ```
@@ -146,7 +149,7 @@ The default value is 1/20 inch.
 
 **Returns:**
 double - The corresponding  double  value.
-### getLayoutFlow() {#getLayoutFlow--}
+### getLayoutFlow() {#getLayoutFlow}
 ```
 public int getLayoutFlow()
 ```
@@ -158,37 +161,37 @@ The default value is [LayoutFlow.HORIZONTAL](../../com.aspose.words/layoutflow\#
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [LayoutFlow](../../com.aspose.words/layoutflow) constants.
-### getNext() {#getNext--}
+### getNext() {#getNext}
 ```
 public TextBox getNext()
 ```
 
 
-Gets a TextBox that represents the next TextBox in a sequence of shapes.
+Gets a [TextBox](../../com.aspose.words/textbox) that represents the next [TextBox](../../com.aspose.words/textbox) in a sequence of shapes.
 
 **Returns:**
-[TextBox](../../com.aspose.words/textbox) - A TextBox that represents the next TextBox in a sequence of shapes.
-### getParent() {#getParent--}
+[TextBox](../../com.aspose.words/textbox) - A [TextBox](../../com.aspose.words/textbox) that represents the next [TextBox](../../com.aspose.words/textbox) in a sequence of shapes.
+### getParent() {#getParent}
 ```
 public Shape getParent()
 ```
 
 
-Gets a parent shape for the TextBox.
+Gets a parent shape for the [TextBox](../../com.aspose.words/textbox).
 
 **Returns:**
-[Shape](../../com.aspose.words/shape) - A parent shape for the TextBox.
-### getPrevious() {#getPrevious--}
+[Shape](../../com.aspose.words/shape) - A parent shape for the [TextBox](../../com.aspose.words/textbox).
+### getPrevious() {#getPrevious}
 ```
 public TextBox getPrevious()
 ```
 
 
-Returns a TextBox that represents the previous TextBox in a sequence of shapes.
+Returns a [TextBox](../../com.aspose.words/textbox) that represents the previous [TextBox](../../com.aspose.words/textbox) in a sequence of shapes.
 
 **Returns:**
-[TextBox](../../com.aspose.words/textbox) - A TextBox that represents the previous TextBox in a sequence of shapes.
-### getTextBoxWrapMode() {#getTextBoxWrapMode--}
+[TextBox](../../com.aspose.words/textbox) - A [TextBox](../../com.aspose.words/textbox) that represents the previous [TextBox](../../com.aspose.words/textbox) in a sequence of shapes.
+### getTextBoxWrapMode() {#getTextBoxWrapMode}
 ```
 public int getTextBoxWrapMode()
 ```
@@ -200,7 +203,7 @@ The default value is [TextBoxWrapMode.SQUARE](../../com.aspose.words/textboxwrap
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [TextBoxWrapMode](../../com.aspose.words/textboxwrapmode) constants.
-### getVerticalAnchor() {#getVerticalAnchor--}
+### getVerticalAnchor() {#getVerticalAnchor}
 ```
 public int getVerticalAnchor()
 ```
@@ -212,7 +215,7 @@ The default value is [TextBoxAnchor.TOP](../../com.aspose.words/textboxanchor\#T
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [TextBoxAnchor](../../com.aspose.words/textboxanchor) constants.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -222,13 +225,13 @@ public native int hashCode()
 
 **Returns:**
 int
-### isValidLinkTarget(TextBox target) {#isValidLinkTarget-com.aspose.words.TextBox-}
+### isValidLinkTarget(TextBox target) {#isValidLinkTarget-com.aspose.words.TextBox}
 ```
 public boolean isValidLinkTarget(TextBox target)
 ```
 
 
-Determines whether this TextBox can be linked to the target Textbox.
+Determines whether this [TextBox](../../com.aspose.words/textbox) can be linked to the target [TextBox](../../com.aspose.words/textbox).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -237,7 +240,7 @@ Determines whether this TextBox can be linked to the target Textbox.
 
 **Returns:**
 boolean
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -245,7 +248,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -253,7 +256,7 @@ public final native void notifyAll()
 
 
 
-### setFitShapeToText(boolean value) {#setFitShapeToText-boolean-}
+### setFitShapeToText(boolean value) {#setFitShapeToText-boolean}
 ```
 public void setFitShapeToText(boolean value)
 ```
@@ -261,14 +264,14 @@ public void setFitShapeToText(boolean value)
 
 Determines whether Microsoft Word will grow the shape to fit text.
 
-The default value is **false**.
+The default value is  false .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setInternalMarginBottom(double value) {#setInternalMarginBottom-double-}
+### setInternalMarginBottom(double value) {#setInternalMarginBottom-double}
 ```
 public void setInternalMarginBottom(double value)
 ```
@@ -283,7 +286,7 @@ The default value is 1/20 inch.
 | --- | --- | --- |
 | value | double | The corresponding  double  value. |
 
-### setInternalMarginLeft(double value) {#setInternalMarginLeft-double-}
+### setInternalMarginLeft(double value) {#setInternalMarginLeft-double}
 ```
 public void setInternalMarginLeft(double value)
 ```
@@ -298,7 +301,7 @@ The default value is 1/10 inch.
 | --- | --- | --- |
 | value | double | The corresponding  double  value. |
 
-### setInternalMarginRight(double value) {#setInternalMarginRight-double-}
+### setInternalMarginRight(double value) {#setInternalMarginRight-double}
 ```
 public void setInternalMarginRight(double value)
 ```
@@ -313,7 +316,7 @@ The default value is 1/10 inch.
 | --- | --- | --- |
 | value | double | The corresponding  double  value. |
 
-### setInternalMarginTop(double value) {#setInternalMarginTop-double-}
+### setInternalMarginTop(double value) {#setInternalMarginTop-double}
 ```
 public void setInternalMarginTop(double value)
 ```
@@ -328,7 +331,7 @@ The default value is 1/20 inch.
 | --- | --- | --- |
 | value | double | The corresponding  double  value. |
 
-### setLayoutFlow(int value) {#setLayoutFlow-int-}
+### setLayoutFlow(int value) {#setLayoutFlow-int}
 ```
 public void setLayoutFlow(int value)
 ```
@@ -343,20 +346,20 @@ The default value is [LayoutFlow.HORIZONTAL](../../com.aspose.words/layoutflow\#
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [LayoutFlow](../../com.aspose.words/layoutflow) constants. |
 
-### setNext(TextBox value) {#setNext-com.aspose.words.TextBox-}
+### setNext(TextBox value) {#setNext-com.aspose.words.TextBox}
 ```
 public void setNext(TextBox value)
 ```
 
 
-Sets a TextBox that represents the next TextBox in a sequence of shapes.
+Sets a [TextBox](../../com.aspose.words/textbox) that represents the next [TextBox](../../com.aspose.words/textbox) in a sequence of shapes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextBox](../../com.aspose.words/textbox) | A TextBox that represents the next TextBox in a sequence of shapes. |
+| value | [TextBox](../../com.aspose.words/textbox) | A [TextBox](../../com.aspose.words/textbox) that represents the next [TextBox](../../com.aspose.words/textbox) in a sequence of shapes. |
 
-### setTextBoxWrapMode(int value) {#setTextBoxWrapMode-int-}
+### setTextBoxWrapMode(int value) {#setTextBoxWrapMode-int}
 ```
 public void setTextBoxWrapMode(int value)
 ```
@@ -371,7 +374,7 @@ The default value is [TextBoxWrapMode.SQUARE](../../com.aspose.words/textboxwrap
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [TextBoxWrapMode](../../com.aspose.words/textboxwrapmode) constants. |
 
-### setVerticalAnchor(int value) {#setVerticalAnchor-int-}
+### setVerticalAnchor(int value) {#setVerticalAnchor-int}
 ```
 public void setVerticalAnchor(int value)
 ```
@@ -386,7 +389,7 @@ The default value is [TextBoxAnchor.TOP](../../com.aspose.words/textboxanchor\#T
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [TextBoxAnchor](../../com.aspose.words/textboxanchor) constants. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -396,7 +399,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -404,7 +407,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -417,7 +420,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

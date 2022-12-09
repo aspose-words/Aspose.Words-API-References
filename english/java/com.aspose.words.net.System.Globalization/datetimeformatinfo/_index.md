@@ -18,40 +18,40 @@ Map for .Net's System.Globalization.DateTimeFormatInfo.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAMDesignator()](#getAMDesignator--) |  |
-| [getAbbreviatedDayNames()](#getAbbreviatedDayNames--) |  |
-| [getAbbreviatedMonthNames()](#getAbbreviatedMonthNames--) |  |
-| [getClass()](#getClass--) |  |
-| [getDayNames()](#getDayNames--) |  |
-| [getLongDatePattern()](#getLongDatePattern--) |  |
-| [getLongTimePattern()](#getLongTimePattern--) |  |
-| [getMonthNames()](#getMonthNames--) |  |
-| [getPMDesignator()](#getPMDesignator--) |  |
-| [getShortDatePattern()](#getShortDatePattern--) |  |
-| [getShortTimePattern()](#getShortTimePattern--) |  |
-| [getShortestDayNames()](#getShortestDayNames--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setAMDesignator(String amDesignator)](#setAMDesignator-java.lang.String-) |  |
-| [setAbbreviatedDayNames(String[] abbreviatedDayNames)](#setAbbreviatedDayNames-java.lang.String---) |  |
-| [setAbbreviatedMonthGenitiveNames(String[] abbreviatedMonthNames)](#setAbbreviatedMonthGenitiveNames-java.lang.String---) |  |
-| [setAbbreviatedMonthNames(String[] abbreviatedMonthNames)](#setAbbreviatedMonthNames-java.lang.String---) |  |
-| [setDayNames(String[] dayNames)](#setDayNames-java.lang.String---) |  |
-| [setLongDatePattern(String longDatePat)](#setLongDatePattern-java.lang.String-) |  |
-| [setLongTimePattern(String longTimePattern)](#setLongTimePattern-java.lang.String-) |  |
-| [setMonthGenitiveNames(String[] monthNames)](#setMonthGenitiveNames-java.lang.String---) |  |
-| [setMonthNames(String[] monthNames)](#setMonthNames-java.lang.String---) |  |
-| [setPMDesignator(String pmDesignator)](#setPMDesignator-java.lang.String-) |  |
-| [setShortDatePattern(String shortDatePattern)](#setShortDatePattern-java.lang.String-) |  |
-| [setShortTimePattern(String shortTimePatt)](#setShortTimePattern-java.lang.String-) |  |
-| [setShortestDayNames(String[] shortestDayNames)](#setShortestDayNames-java.lang.String---) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getAMDesignator()](#getAMDesignator) |  |
+| [getAbbreviatedDayNames()](#getAbbreviatedDayNames) |  |
+| [getAbbreviatedMonthNames()](#getAbbreviatedMonthNames) |  |
+| [getClass()](#getClass) |  |
+| [getDayNames()](#getDayNames) |  |
+| [getLongDatePattern()](#getLongDatePattern) |  |
+| [getLongTimePattern()](#getLongTimePattern) |  |
+| [getMonthNames()](#getMonthNames) |  |
+| [getPMDesignator()](#getPMDesignator) |  |
+| [getShortDatePattern()](#getShortDatePattern) |  |
+| [getShortTimePattern()](#getShortTimePattern) |  |
+| [getShortestDayNames()](#getShortestDayNames) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setAMDesignator(String amDesignator)](#setAMDesignator-java.lang.String) |  |
+| [setAbbreviatedDayNames(String[] abbreviatedDayNames)](#setAbbreviatedDayNames-java.lang.String) |  |
+| [setAbbreviatedMonthGenitiveNames(String[] abbreviatedMonthNames)](#setAbbreviatedMonthGenitiveNames-java.lang.String) |  |
+| [setAbbreviatedMonthNames(String[] abbreviatedMonthNames)](#setAbbreviatedMonthNames-java.lang.String) |  |
+| [setDayNames(String[] dayNames)](#setDayNames-java.lang.String) |  |
+| [setLongDatePattern(String longDatePat)](#setLongDatePattern-java.lang.String) |  |
+| [setLongTimePattern(String longTimePattern)](#setLongTimePattern-java.lang.String) |  |
+| [setMonthGenitiveNames(String[] monthNames)](#setMonthGenitiveNames-java.lang.String) |  |
+| [setMonthNames(String[] monthNames)](#setMonthNames-java.lang.String) |  |
+| [setPMDesignator(String pmDesignator)](#setPMDesignator-java.lang.String) |  |
+| [setShortDatePattern(String shortDatePattern)](#setShortDatePattern-java.lang.String) |  |
+| [setShortTimePattern(String shortTimePatt)](#setShortTimePattern-java.lang.String) |  |
+| [setShortestDayNames(String[] shortestDayNames)](#setShortestDayNames-java.lang.String) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -66,7 +66,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getAMDesignator() {#getAMDesignator--}
+### getAMDesignator() {#getAMDesignator}
 ```
 public String getAMDesignator()
 ```
@@ -76,7 +76,7 @@ public String getAMDesignator()
 
 **Returns:**
 java.lang.String
-### getAbbreviatedDayNames() {#getAbbreviatedDayNames--}
+### getAbbreviatedDayNames() {#getAbbreviatedDayNames}
 ```
 public String[] getAbbreviatedDayNames()
 ```
@@ -86,7 +86,7 @@ public String[] getAbbreviatedDayNames()
 
 **Returns:**
 java.lang.String[]
-### getAbbreviatedMonthNames() {#getAbbreviatedMonthNames--}
+### getAbbreviatedMonthNames() {#getAbbreviatedMonthNames}
 ```
 public String[] getAbbreviatedMonthNames()
 ```
@@ -96,7 +96,7 @@ public String[] getAbbreviatedMonthNames()
 
 **Returns:**
 java.lang.String[]
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -106,7 +106,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDayNames() {#getDayNames--}
+### getDayNames() {#getDayNames}
 ```
 public String[] getDayNames()
 ```
@@ -116,7 +116,7 @@ public String[] getDayNames()
 
 **Returns:**
 java.lang.String[]
-### getLongDatePattern() {#getLongDatePattern--}
+### getLongDatePattern() {#getLongDatePattern}
 ```
 public String getLongDatePattern()
 ```
@@ -126,7 +126,7 @@ public String getLongDatePattern()
 
 **Returns:**
 java.lang.String
-### getLongTimePattern() {#getLongTimePattern--}
+### getLongTimePattern() {#getLongTimePattern}
 ```
 public String getLongTimePattern()
 ```
@@ -136,7 +136,7 @@ public String getLongTimePattern()
 
 **Returns:**
 java.lang.String
-### getMonthNames() {#getMonthNames--}
+### getMonthNames() {#getMonthNames}
 ```
 public String[] getMonthNames()
 ```
@@ -146,7 +146,7 @@ public String[] getMonthNames()
 
 **Returns:**
 java.lang.String[]
-### getPMDesignator() {#getPMDesignator--}
+### getPMDesignator() {#getPMDesignator}
 ```
 public String getPMDesignator()
 ```
@@ -156,7 +156,7 @@ public String getPMDesignator()
 
 **Returns:**
 java.lang.String
-### getShortDatePattern() {#getShortDatePattern--}
+### getShortDatePattern() {#getShortDatePattern}
 ```
 public String getShortDatePattern()
 ```
@@ -166,7 +166,7 @@ public String getShortDatePattern()
 
 **Returns:**
 java.lang.String
-### getShortTimePattern() {#getShortTimePattern--}
+### getShortTimePattern() {#getShortTimePattern}
 ```
 public String getShortTimePattern()
 ```
@@ -176,7 +176,7 @@ public String getShortTimePattern()
 
 **Returns:**
 java.lang.String
-### getShortestDayNames() {#getShortestDayNames--}
+### getShortestDayNames() {#getShortestDayNames}
 ```
 public String[] getShortestDayNames()
 ```
@@ -186,7 +186,7 @@ public String[] getShortestDayNames()
 
 **Returns:**
 java.lang.String[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -196,7 +196,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -204,7 +204,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -212,7 +212,7 @@ public final native void notifyAll()
 
 
 
-### setAMDesignator(String amDesignator) {#setAMDesignator-java.lang.String-}
+### setAMDesignator(String amDesignator) {#setAMDesignator-java.lang.String}
 ```
 public void setAMDesignator(String amDesignator)
 ```
@@ -225,7 +225,7 @@ public void setAMDesignator(String amDesignator)
 | --- | --- | --- |
 | amDesignator | java.lang.String |  |
 
-### setAbbreviatedDayNames(String[] abbreviatedDayNames) {#setAbbreviatedDayNames-java.lang.String---}
+### setAbbreviatedDayNames(String[] abbreviatedDayNames) {#setAbbreviatedDayNames-java.lang.String}
 ```
 public void setAbbreviatedDayNames(String[] abbreviatedDayNames)
 ```
@@ -238,7 +238,7 @@ public void setAbbreviatedDayNames(String[] abbreviatedDayNames)
 | --- | --- | --- |
 | abbreviatedDayNames | java.lang.String[] |  |
 
-### setAbbreviatedMonthGenitiveNames(String[] abbreviatedMonthNames) {#setAbbreviatedMonthGenitiveNames-java.lang.String---}
+### setAbbreviatedMonthGenitiveNames(String[] abbreviatedMonthNames) {#setAbbreviatedMonthGenitiveNames-java.lang.String}
 ```
 public void setAbbreviatedMonthGenitiveNames(String[] abbreviatedMonthNames)
 ```
@@ -251,7 +251,7 @@ public void setAbbreviatedMonthGenitiveNames(String[] abbreviatedMonthNames)
 | --- | --- | --- |
 | abbreviatedMonthNames | java.lang.String[] |  |
 
-### setAbbreviatedMonthNames(String[] abbreviatedMonthNames) {#setAbbreviatedMonthNames-java.lang.String---}
+### setAbbreviatedMonthNames(String[] abbreviatedMonthNames) {#setAbbreviatedMonthNames-java.lang.String}
 ```
 public void setAbbreviatedMonthNames(String[] abbreviatedMonthNames)
 ```
@@ -264,7 +264,7 @@ public void setAbbreviatedMonthNames(String[] abbreviatedMonthNames)
 | --- | --- | --- |
 | abbreviatedMonthNames | java.lang.String[] |  |
 
-### setDayNames(String[] dayNames) {#setDayNames-java.lang.String---}
+### setDayNames(String[] dayNames) {#setDayNames-java.lang.String}
 ```
 public void setDayNames(String[] dayNames)
 ```
@@ -277,7 +277,7 @@ public void setDayNames(String[] dayNames)
 | --- | --- | --- |
 | dayNames | java.lang.String[] |  |
 
-### setLongDatePattern(String longDatePat) {#setLongDatePattern-java.lang.String-}
+### setLongDatePattern(String longDatePat) {#setLongDatePattern-java.lang.String}
 ```
 public void setLongDatePattern(String longDatePat)
 ```
@@ -290,7 +290,7 @@ public void setLongDatePattern(String longDatePat)
 | --- | --- | --- |
 | longDatePat | java.lang.String |  |
 
-### setLongTimePattern(String longTimePattern) {#setLongTimePattern-java.lang.String-}
+### setLongTimePattern(String longTimePattern) {#setLongTimePattern-java.lang.String}
 ```
 public void setLongTimePattern(String longTimePattern)
 ```
@@ -303,7 +303,7 @@ public void setLongTimePattern(String longTimePattern)
 | --- | --- | --- |
 | longTimePattern | java.lang.String |  |
 
-### setMonthGenitiveNames(String[] monthNames) {#setMonthGenitiveNames-java.lang.String---}
+### setMonthGenitiveNames(String[] monthNames) {#setMonthGenitiveNames-java.lang.String}
 ```
 public void setMonthGenitiveNames(String[] monthNames)
 ```
@@ -316,7 +316,7 @@ public void setMonthGenitiveNames(String[] monthNames)
 | --- | --- | --- |
 | monthNames | java.lang.String[] |  |
 
-### setMonthNames(String[] monthNames) {#setMonthNames-java.lang.String---}
+### setMonthNames(String[] monthNames) {#setMonthNames-java.lang.String}
 ```
 public void setMonthNames(String[] monthNames)
 ```
@@ -329,7 +329,7 @@ public void setMonthNames(String[] monthNames)
 | --- | --- | --- |
 | monthNames | java.lang.String[] |  |
 
-### setPMDesignator(String pmDesignator) {#setPMDesignator-java.lang.String-}
+### setPMDesignator(String pmDesignator) {#setPMDesignator-java.lang.String}
 ```
 public void setPMDesignator(String pmDesignator)
 ```
@@ -342,7 +342,7 @@ public void setPMDesignator(String pmDesignator)
 | --- | --- | --- |
 | pmDesignator | java.lang.String |  |
 
-### setShortDatePattern(String shortDatePattern) {#setShortDatePattern-java.lang.String-}
+### setShortDatePattern(String shortDatePattern) {#setShortDatePattern-java.lang.String}
 ```
 public void setShortDatePattern(String shortDatePattern)
 ```
@@ -355,7 +355,7 @@ public void setShortDatePattern(String shortDatePattern)
 | --- | --- | --- |
 | shortDatePattern | java.lang.String |  |
 
-### setShortTimePattern(String shortTimePatt) {#setShortTimePattern-java.lang.String-}
+### setShortTimePattern(String shortTimePatt) {#setShortTimePattern-java.lang.String}
 ```
 public void setShortTimePattern(String shortTimePatt)
 ```
@@ -368,7 +368,7 @@ public void setShortTimePattern(String shortTimePatt)
 | --- | --- | --- |
 | shortTimePatt | java.lang.String |  |
 
-### setShortestDayNames(String[] shortestDayNames) {#setShortestDayNames-java.lang.String---}
+### setShortestDayNames(String[] shortestDayNames) {#setShortestDayNames-java.lang.String}
 ```
 public void setShortestDayNames(String[] shortestDayNames)
 ```
@@ -381,7 +381,7 @@ public void setShortestDayNames(String[] shortestDayNames)
 | --- | --- | --- |
 | shortestDayNames | java.lang.String[] |  |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -391,7 +391,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -399,7 +399,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -412,7 +412,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

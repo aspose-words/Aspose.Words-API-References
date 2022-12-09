@@ -3,7 +3,7 @@ title: IResourceLoadingCallback
 second_title: Aspose.Words for Java API Reference
 description: Implement this interface if you want to control how Aspose.Words loads external resource when importing a document and inserting images using .
 type: docs
-weight: 656
+weight: 660
 url: /java/com.aspose.words/iresourceloadingcallback/
 ---
 ```
@@ -15,8 +15,8 @@ Implement this interface if you want to control how Aspose.Words loads external 
 
 | Method | Description |
 | --- | --- |
-| [resourceLoading(ResourceLoadingArgs args)](#resourceLoading-com.aspose.words.ResourceLoadingArgs-) | Called when Aspose.Words loads any external resource. |
-### resourceLoading(ResourceLoadingArgs args) {#resourceLoading-com.aspose.words.ResourceLoadingArgs-}
+| [resourceLoading(ResourceLoadingArgs args)](#resourceLoading-com.aspose.words.ResourceLoadingArgs) | Called when Aspose.Words loads any external resource. |
+### resourceLoading(ResourceLoadingArgs args) {#resourceLoading-com.aspose.words.ResourceLoadingArgs}
 ```
 public abstract int resourceLoading(ResourceLoadingArgs args)
 ```

@@ -3,7 +3,7 @@ title: TextColumn
 second_title: Aspose.Words for Java API Reference
 description: Represents a single text column.
 type: docs
-weight: 561
+weight: 564
 url: /java/com.aspose.words/textcolumn/
 ---
 
@@ -16,31 +16,34 @@ java.lang.Cloneable
 public class TextColumn implements Cloneable
 ```
 
-Represents a single text column. **TextColumn** is a member of the [TextColumnCollection](../../com.aspose.words/textcolumncollection) collection. The **TextColumns** collection includes all the columns in a section of a document.
+Represents a single text column. [TextColumn](../../com.aspose.words/textcolumn) is a member of the [TextColumnCollection](../../com.aspose.words/textcolumncollection) collection. The [TextColumn](../../com.aspose.words/textcolumn) collection includes all the columns in a section of a document.
 
-To learn more, visit the **Working with Sections** documentation article.
+To learn more, visit the [ Working with Sections ][Working with Sections] documentation article.
 
-**TextColumn** objects are only used to specify columns with custom width and spacing. If you want the columns in the document to be of equal width, set TextColumns. [TextColumnCollection.getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced--) / [TextColumnCollection.setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean-) to **true**.
+[TextColumn](../../com.aspose.words/textcolumn) objects are only used to specify columns with custom width and spacing. If you want the columns in the document to be of equal width, set TextColumns. [TextColumnCollection.getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced) / [TextColumnCollection.setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean) to  true .
 
-When a new **TextColumn** is created it has its width and spacing set to zero.
+When a new [TextColumn](../../com.aspose.words/textcolumn) is created it has its width and spacing set to zero.
+
+
+[Working with Sections]: https://docs.aspose.com/words/java/working-with-sections/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getSpaceAfter()](#getSpaceAfter--) | Gets the space between this column and the next column in points. |
-| [getWidth()](#getWidth--) | Gets the width of the text column in points. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setSpaceAfter(double value)](#setSpaceAfter-double-) | Sets the space between this column and the next column in points. |
-| [setWidth(double value)](#setWidth-double-) | Sets the width of the text column in points. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getSpaceAfter()](#getSpaceAfter) | Gets the space between this column and the next column in points. |
+| [getWidth()](#getWidth) | Gets the width of the text column in points. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setSpaceAfter(double value)](#setSpaceAfter-double) | Sets the space between this column and the next column in points. |
+| [setWidth(double value)](#setWidth-double) | Sets the width of the text column in points. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -55,7 +58,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -65,7 +68,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getSpaceAfter() {#getSpaceAfter--}
+### getSpaceAfter() {#getSpaceAfter}
 ```
 public double getSpaceAfter()
 ```
@@ -75,7 +78,7 @@ Gets the space between this column and the next column in points. Not required f
 
 **Returns:**
 double - The space between this column and the next column in points.
-### getWidth() {#getWidth--}
+### getWidth() {#getWidth}
 ```
 public double getWidth()
 ```
@@ -85,7 +88,7 @@ Gets the width of the text column in points.
 
 **Returns:**
 double - The width of the text column in points.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -95,7 +98,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -103,7 +106,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -111,7 +114,7 @@ public final native void notifyAll()
 
 
 
-### setSpaceAfter(double value) {#setSpaceAfter-double-}
+### setSpaceAfter(double value) {#setSpaceAfter-double}
 ```
 public void setSpaceAfter(double value)
 ```
@@ -124,7 +127,7 @@ Sets the space between this column and the next column in points. Not required f
 | --- | --- | --- |
 | value | double | The space between this column and the next column in points. |
 
-### setWidth(double value) {#setWidth-double-}
+### setWidth(double value) {#setWidth-double}
 ```
 public void setWidth(double value)
 ```
@@ -137,7 +140,7 @@ Sets the width of the text column in points.
 | --- | --- | --- |
 | value | double | The width of the text column in points. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -147,7 +150,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -155,7 +158,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -168,7 +171,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

@@ -3,7 +3,7 @@ title: TiffCompression
 second_title: Aspose.Words for Java API Reference
 description: Specifies what type of compression to apply when saving page images into a TIFF file.
 type: docs
-weight: 579
+weight: 582
 url: /java/com.aspose.words/tiffcompression/
 ---
 
@@ -28,19 +28,19 @@ Specifies what type of compression to apply when saving page images into a TIFF 
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String tiffCompressionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int tiffCompression)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int tiffCompression)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String tiffCompressionName)](#fromName-java.lang.String) |  |
+| [getClass()](#getClass) |  |
+| [getName(int tiffCompression)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int tiffCompression)](#toString-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### CCITT_3 {#CCITT-3}
 ```
 public static int CCITT_3
@@ -87,7 +87,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -102,7 +102,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String tiffCompressionName) {#fromName-java.lang.String-}
+### fromName(String tiffCompressionName) {#fromName-java.lang.String}
 ```
 public static int fromName(String tiffCompressionName)
 ```
@@ -117,7 +117,7 @@ public static int fromName(String tiffCompressionName)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -127,7 +127,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int tiffCompression) {#getName-int-}
+### getName(int tiffCompression) {#getName-int}
 ```
 public static String getName(int tiffCompression)
 ```
@@ -142,7 +142,7 @@ public static String getName(int tiffCompression)
 
 **Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -152,7 +152,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -162,7 +162,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -170,7 +170,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -178,7 +178,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -188,7 +188,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int tiffCompression) {#toString-int-}
+### toString(int tiffCompression) {#toString-int}
 ```
 public static String toString(int tiffCompression)
 ```
@@ -203,7 +203,7 @@ public static String toString(int tiffCompression)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -211,7 +211,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -224,7 +224,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

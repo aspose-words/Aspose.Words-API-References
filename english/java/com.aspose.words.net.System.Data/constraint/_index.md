@@ -18,29 +18,29 @@ Represents a constraint that can be enforced on one or more [DataColumn](../../c
 
 | Constructor | Description |
 | --- | --- |
-| [Constraint()](#Constraint--) |  |
+| [Constraint()](#Constraint) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getConstraintName()](#getConstraintName--) | The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setConstraintName(String value)](#setConstraintName-java.lang.String-) | The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### Constraint() {#Constraint--}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getConstraintName()](#getConstraintName) | The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setConstraintName(String value)](#setConstraintName-java.lang.String) | The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### Constraint() {#Constraint}
 ```
 public Constraint()
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -55,7 +55,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -65,7 +65,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getConstraintName() {#getConstraintName--}
+### getConstraintName() {#getConstraintName}
 ```
 public String getConstraintName()
 ```
@@ -75,7 +75,7 @@ The name of a constraint in the [ConstraintCollection](../../com.aspose.words.ne
 
 **Returns:**
 java.lang.String - The name of the [Constraint](../../com.aspose.words.net.system.data/constraint).
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -85,7 +85,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -93,7 +93,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -101,7 +101,7 @@ public final native void notifyAll()
 
 
 
-### setConstraintName(String value) {#setConstraintName-java.lang.String-}
+### setConstraintName(String value) {#setConstraintName-java.lang.String}
 ```
 public void setConstraintName(String value)
 ```
@@ -114,7 +114,7 @@ The name of a constraint in the [ConstraintCollection](../../com.aspose.words.ne
 | --- | --- | --- |
 | value | java.lang.String | The name of the [Constraint](../../com.aspose.words.net.system.data/constraint). |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -124,7 +124,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -132,7 +132,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -145,7 +145,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

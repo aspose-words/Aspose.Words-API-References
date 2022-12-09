@@ -3,7 +3,7 @@ title: FieldAddressBlock
 second_title: Aspose.Words for Java API Reference
 description: Implements the ADDRESSBLOCK field.
 type: docs
-weight: 153
+weight: 154
 url: /java/com.aspose.words/fieldaddressblock/
 ---
 
@@ -15,57 +15,60 @@ public class FieldAddressBlock extends Field
 
 Implements the ADDRESSBLOCK field.
 
-To learn more, visit the **Working with Fields** documentation article.
+To learn more, visit the [ Working with Fields ][Working with Fields] documentation article.
 
 Represents an address block. An *address block* is a block of text specifying information appropriate for a postal mailing address, in the order required by the destination country.
+
+
+[Working with Fields]: https://docs.aspose.com/words/java/working-with-fields/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getDisplayResult()](#getDisplayResult--) | Gets the text that represents the displayed field result. |
-| [getEnd()](#getEnd--) | Gets the node that represents the field end. |
-| [getExcludedCountryOrRegionName()](#getExcludedCountryOrRegionName--) | Gets the excluded country/region name. |
-| [getFieldCode()](#getFieldCode--) | Returns text between field start and field separator (or field end if there is no separator). |
-| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean-) | Returns text between field start and field separator (or field end if there is no separator). |
-| [getFieldNames()](#getFieldNames--) | Returns a collection of mail merge field names used by the field. |
-| [getFormat()](#getFormat--) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
-| [getFormatAddressOnCountryOrRegion()](#getFormatAddressOnCountryOrRegion--) | Gets whether to format the address according to the country/region of the recipient as defined by POST\*CODE (Universal Postal Union 2006). |
-| [getIncludeCountryOrRegionName()](#getIncludeCountryOrRegionName--) | Gets whether to include the name of the country/region. |
-| [getLanguageId()](#getLanguageId--) | Gets the language ID used to format the address. |
-| [getLocaleId()](#getLocaleId--) | Gets the LCID of the field. |
-| [getMergeFormat()](#getMergeFormat--) |  |
-| [getNameAndAddressFormat()](#getNameAndAddressFormat--) | Gets the name and address format. |
-| [getResult()](#getResult--) | Gets text that is between the field separator and field end. |
-| [getSeparator()](#getSeparator--) | Gets the node that represents the field separator. |
-| [getStart()](#getStart--) | Gets the node that represents the start of the field. |
-| [getSwitchType(String switchName)](#getSwitchType-java.lang.String-) |  |
-| [getType()](#getType--) | Gets the Microsoft Word field type. |
-| [hashCode()](#hashCode--) |  |
-| [iFormattableMergeField_FetchDocument()](#iFormattableMergeField-FetchDocument--) |  |
-| [isDirty()](#isDirty--) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [isDirty(boolean value)](#isDirty-boolean-) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [isLocked()](#isLocked--) | Gets whether the field is locked (should not recalculate its result). |
-| [isLocked(boolean value)](#isLocked-boolean-) | Sets whether the field is locked (should not recalculate its result). |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove()](#remove--) | Removes the field from the document. |
-| [setExcludedCountryOrRegionName(String value)](#setExcludedCountryOrRegionName-java.lang.String-) | Sets the excluded country/region name. |
-| [setFormatAddressOnCountryOrRegion(boolean value)](#setFormatAddressOnCountryOrRegion-boolean-) | Sets whether to format the address according to the country/region of the recipient as defined by POST\*CODE (Universal Postal Union 2006). |
-| [setIncludeCountryOrRegionName(String value)](#setIncludeCountryOrRegionName-java.lang.String-) | Sets whether to include the name of the country/region. |
-| [setLanguageId(String value)](#setLanguageId-java.lang.String-) | Sets the language ID used to format the address. |
-| [setLocaleId(int value)](#setLocaleId-int-) | Sets the LCID of the field. |
-| [setNameAndAddressFormat(String value)](#setNameAndAddressFormat-java.lang.String-) | Sets the name and address format. |
-| [setResult(String value)](#setResult-java.lang.String-) | Sets text that is between the field separator and field end. |
-| [toString()](#toString--) |  |
-| [unlink()](#unlink--) | Performs the field unlink. |
-| [update()](#update--) | Performs the field update. |
-| [update(boolean ignoreMergeFormat)](#update-boolean-) | Performs a field update. |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getDisplayResult()](#getDisplayResult) | Gets the text that represents the displayed field result. |
+| [getEnd()](#getEnd) | Gets the node that represents the field end. |
+| [getExcludedCountryOrRegionName()](#getExcludedCountryOrRegionName) | Gets the excluded country/region name. |
+| [getFieldCode()](#getFieldCode) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFieldNames()](#getFieldNames) | Returns a collection of mail merge field names used by the field. |
+| [getFormat()](#getFormat) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
+| [getFormatAddressOnCountryOrRegion()](#getFormatAddressOnCountryOrRegion) | Gets whether to format the address according to the country/region of the recipient as defined by POST\*CODE (Universal Postal Union 2006). |
+| [getIncludeCountryOrRegionName()](#getIncludeCountryOrRegionName) | Gets whether to include the name of the country/region. |
+| [getLanguageId()](#getLanguageId) | Gets the language ID used to format the address. |
+| [getLocaleId()](#getLocaleId) | Gets the LCID of the field. |
+| [getMergeFormat()](#getMergeFormat) |  |
+| [getNameAndAddressFormat()](#getNameAndAddressFormat) | Gets the name and address format. |
+| [getResult()](#getResult) | Gets text that is between the field separator and field end. |
+| [getSeparator()](#getSeparator) | Gets the node that represents the field separator. |
+| [getStart()](#getStart) | Gets the node that represents the start of the field. |
+| [getSwitchType(String switchName)](#getSwitchType-java.lang.String) |  |
+| [getType()](#getType) | Gets the Microsoft Word field type. |
+| [hashCode()](#hashCode) |  |
+| [iFormattableMergeField_FetchDocument()](#iFormattableMergeField-FetchDocument) |  |
+| [isDirty()](#isDirty) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isDirty(boolean value)](#isDirty-boolean) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isLocked()](#isLocked) | Gets whether the field is locked (should not recalculate its result). |
+| [isLocked(boolean value)](#isLocked-boolean) | Sets whether the field is locked (should not recalculate its result). |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [remove()](#remove) | Removes the field from the document. |
+| [setExcludedCountryOrRegionName(String value)](#setExcludedCountryOrRegionName-java.lang.String) | Sets the excluded country/region name. |
+| [setFormatAddressOnCountryOrRegion(boolean value)](#setFormatAddressOnCountryOrRegion-boolean) | Sets whether to format the address according to the country/region of the recipient as defined by POST\*CODE (Universal Postal Union 2006). |
+| [setIncludeCountryOrRegionName(String value)](#setIncludeCountryOrRegionName-java.lang.String) | Sets whether to include the name of the country/region. |
+| [setLanguageId(String value)](#setLanguageId-java.lang.String) | Sets the language ID used to format the address. |
+| [setLocaleId(int value)](#setLocaleId-int) | Sets the LCID of the field. |
+| [setNameAndAddressFormat(String value)](#setNameAndAddressFormat-java.lang.String) | Sets the name and address format. |
+| [setResult(String value)](#setResult-java.lang.String) | Sets text that is between the field separator and field end. |
+| [toString()](#toString) |  |
+| [unlink()](#unlink) | Performs the field unlink. |
+| [update()](#update) | Performs the field update. |
+| [update(boolean ignoreMergeFormat)](#update-boolean) | Performs a field update. |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -80,7 +83,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -90,17 +93,17 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDisplayResult() {#getDisplayResult--}
+### getDisplayResult() {#getDisplayResult}
 ```
 public String getDisplayResult()
 ```
 
 
-Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
+Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
 
 **Returns:**
 java.lang.String - The text that represents the displayed field result.
-### getEnd() {#getEnd--}
+### getEnd() {#getEnd}
 ```
 public FieldEnd getEnd()
 ```
@@ -110,7 +113,7 @@ Gets the node that represents the field end.
 
 **Returns:**
 [FieldEnd](../../com.aspose.words/fieldend) - The node that represents the field end.
-### getExcludedCountryOrRegionName() {#getExcludedCountryOrRegionName--}
+### getExcludedCountryOrRegionName() {#getExcludedCountryOrRegionName}
 ```
 public String getExcludedCountryOrRegionName()
 ```
@@ -120,7 +123,7 @@ Gets the excluded country/region name.
 
 **Returns:**
 java.lang.String - The excluded country/region name.
-### getFieldCode() {#getFieldCode--}
+### getFieldCode() {#getFieldCode}
 ```
 public String getFieldCode()
 ```
@@ -130,7 +133,7 @@ Returns text between field start and field separator (or field end if there is n
 
 **Returns:**
 java.lang.String
-### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean-}
+### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean}
 ```
 public String getFieldCode(boolean includeChildFieldCodes)
 ```
@@ -141,11 +144,11 @@ Returns text between field start and field separator (or field end if there is n
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| includeChildFieldCodes | boolean | \{ True  if child field codes should be included. |
+| includeChildFieldCodes | boolean | \{ true  if child field codes should be included. |
 
 **Returns:**
 java.lang.String
-### getFieldNames() {#getFieldNames--}
+### getFieldNames() {#getFieldNames}
 ```
 public String[] getFieldNames()
 ```
@@ -155,7 +158,7 @@ Returns a collection of mail merge field names used by the field.
 
 **Returns:**
 java.lang.String[]
-### getFormat() {#getFormat--}
+### getFormat() {#getFormat}
 ```
 public FieldFormat getFormat()
 ```
@@ -165,7 +168,7 @@ Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides ty
 
 **Returns:**
 [FieldFormat](../../com.aspose.words/fieldformat) - A [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
-### getFormatAddressOnCountryOrRegion() {#getFormatAddressOnCountryOrRegion--}
+### getFormatAddressOnCountryOrRegion() {#getFormatAddressOnCountryOrRegion}
 ```
 public boolean getFormatAddressOnCountryOrRegion()
 ```
@@ -175,7 +178,7 @@ Gets whether to format the address according to the country/region of the recipi
 
 **Returns:**
 boolean - Whether to format the address according to the country/region of the recipient as defined by POST\*CODE (Universal Postal Union 2006).
-### getIncludeCountryOrRegionName() {#getIncludeCountryOrRegionName--}
+### getIncludeCountryOrRegionName() {#getIncludeCountryOrRegionName}
 ```
 public String getIncludeCountryOrRegionName()
 ```
@@ -185,7 +188,7 @@ Gets whether to include the name of the country/region.
 
 **Returns:**
 java.lang.String - Whether to include the name of the country/region.
-### getLanguageId() {#getLanguageId--}
+### getLanguageId() {#getLanguageId}
 ```
 public String getLanguageId()
 ```
@@ -195,7 +198,7 @@ Gets the language ID used to format the address.
 
 **Returns:**
 java.lang.String - The language ID used to format the address.
-### getLocaleId() {#getLocaleId--}
+### getLocaleId() {#getLocaleId}
 ```
 public int getLocaleId()
 ```
@@ -205,7 +208,7 @@ Gets the LCID of the field.
 
 **Returns:**
 int - The LCID of the field.
-### getMergeFormat() {#getMergeFormat--}
+### getMergeFormat() {#getMergeFormat}
 ```
 public String getMergeFormat()
 ```
@@ -215,7 +218,7 @@ public String getMergeFormat()
 
 **Returns:**
 java.lang.String
-### getNameAndAddressFormat() {#getNameAndAddressFormat--}
+### getNameAndAddressFormat() {#getNameAndAddressFormat}
 ```
 public String getNameAndAddressFormat()
 ```
@@ -225,7 +228,7 @@ Gets the name and address format.
 
 **Returns:**
 java.lang.String - The name and address format.
-### getResult() {#getResult--}
+### getResult() {#getResult}
 ```
 public String getResult()
 ```
@@ -235,17 +238,17 @@ Gets text that is between the field separator and field end.
 
 **Returns:**
 java.lang.String - Text that is between the field separator and field end.
-### getSeparator() {#getSeparator--}
+### getSeparator() {#getSeparator}
 ```
 public FieldSeparator getSeparator()
 ```
 
 
-Gets the node that represents the field separator. Can be null.
+Gets the node that represents the field separator. Can be  null .
 
 **Returns:**
 [FieldSeparator](../../com.aspose.words/fieldseparator) - The node that represents the field separator.
-### getStart() {#getStart--}
+### getStart() {#getStart}
 ```
 public FieldStart getStart()
 ```
@@ -255,7 +258,7 @@ Gets the node that represents the start of the field.
 
 **Returns:**
 [FieldStart](../../com.aspose.words/fieldstart) - The node that represents the start of the field.
-### getSwitchType(String switchName) {#getSwitchType-java.lang.String-}
+### getSwitchType(String switchName) {#getSwitchType-java.lang.String}
 ```
 public int getSwitchType(String switchName)
 ```
@@ -270,7 +273,7 @@ public int getSwitchType(String switchName)
 
 **Returns:**
 int
-### getType() {#getType--}
+### getType() {#getType}
 ```
 public int getType()
 ```
@@ -280,7 +283,7 @@ Gets the Microsoft Word field type.
 
 **Returns:**
 int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -290,7 +293,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### iFormattableMergeField_FetchDocument() {#iFormattableMergeField-FetchDocument--}
+### iFormattableMergeField_FetchDocument() {#iFormattableMergeField-FetchDocument}
 ```
 public Document iFormattableMergeField_FetchDocument()
 ```
@@ -300,7 +303,7 @@ public Document iFormattableMergeField_FetchDocument()
 
 **Returns:**
 [Document](../../com.aspose.words/document)
-### isDirty() {#isDirty--}
+### isDirty() {#isDirty}
 ```
 public boolean isDirty()
 ```
@@ -310,7 +313,7 @@ Gets whether the current result of the field is no longer correct (stale) due to
 
 **Returns:**
 boolean - Whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
-### isDirty(boolean value) {#isDirty-boolean-}
+### isDirty(boolean value) {#isDirty-boolean}
 ```
 public void isDirty(boolean value)
 ```
@@ -323,7 +326,7 @@ Sets whether the current result of the field is no longer correct (stale) due to
 | --- | --- | --- |
 | value | boolean | Whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 
-### isLocked() {#isLocked--}
+### isLocked() {#isLocked}
 ```
 public boolean isLocked()
 ```
@@ -333,7 +336,7 @@ Gets whether the field is locked (should not recalculate its result).
 
 **Returns:**
 boolean - Whether the field is locked (should not recalculate its result).
-### isLocked(boolean value) {#isLocked-boolean-}
+### isLocked(boolean value) {#isLocked-boolean}
 ```
 public void isLocked(boolean value)
 ```
@@ -346,7 +349,7 @@ Sets whether the field is locked (should not recalculate its result).
 | --- | --- | --- |
 | value | boolean | Whether the field is locked (should not recalculate its result). |
 
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -354,7 +357,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -362,17 +365,17 @@ public final native void notifyAll()
 
 
 
-### remove() {#remove--}
+### remove() {#remove}
 ```
 public Node remove()
 ```
 
 
-Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**.
+Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns  null .
 
 **Returns:**
 [Node](../../com.aspose.words/node)
-### setExcludedCountryOrRegionName(String value) {#setExcludedCountryOrRegionName-java.lang.String-}
+### setExcludedCountryOrRegionName(String value) {#setExcludedCountryOrRegionName-java.lang.String}
 ```
 public void setExcludedCountryOrRegionName(String value)
 ```
@@ -385,7 +388,7 @@ Sets the excluded country/region name.
 | --- | --- | --- |
 | value | java.lang.String | The excluded country/region name. |
 
-### setFormatAddressOnCountryOrRegion(boolean value) {#setFormatAddressOnCountryOrRegion-boolean-}
+### setFormatAddressOnCountryOrRegion(boolean value) {#setFormatAddressOnCountryOrRegion-boolean}
 ```
 public void setFormatAddressOnCountryOrRegion(boolean value)
 ```
@@ -398,7 +401,7 @@ Sets whether to format the address according to the country/region of the recipi
 | --- | --- | --- |
 | value | boolean | Whether to format the address according to the country/region of the recipient as defined by POST\*CODE (Universal Postal Union 2006). |
 
-### setIncludeCountryOrRegionName(String value) {#setIncludeCountryOrRegionName-java.lang.String-}
+### setIncludeCountryOrRegionName(String value) {#setIncludeCountryOrRegionName-java.lang.String}
 ```
 public void setIncludeCountryOrRegionName(String value)
 ```
@@ -411,7 +414,7 @@ Sets whether to include the name of the country/region.
 | --- | --- | --- |
 | value | java.lang.String | Whether to include the name of the country/region. |
 
-### setLanguageId(String value) {#setLanguageId-java.lang.String-}
+### setLanguageId(String value) {#setLanguageId-java.lang.String}
 ```
 public void setLanguageId(String value)
 ```
@@ -424,7 +427,7 @@ Sets the language ID used to format the address.
 | --- | --- | --- |
 | value | java.lang.String | The language ID used to format the address. |
 
-### setLocaleId(int value) {#setLocaleId-int-}
+### setLocaleId(int value) {#setLocaleId-int}
 ```
 public void setLocaleId(int value)
 ```
@@ -437,7 +440,7 @@ Sets the LCID of the field.
 | --- | --- | --- |
 | value | int | The LCID of the field. |
 
-### setNameAndAddressFormat(String value) {#setNameAndAddressFormat-java.lang.String-}
+### setNameAndAddressFormat(String value) {#setNameAndAddressFormat-java.lang.String}
 ```
 public void setNameAndAddressFormat(String value)
 ```
@@ -450,7 +453,7 @@ Sets the name and address format.
 | --- | --- | --- |
 | value | java.lang.String | The name and address format. |
 
-### setResult(String value) {#setResult-java.lang.String-}
+### setResult(String value) {#setResult-java.lang.String}
 ```
 public void setResult(String value)
 ```
@@ -463,7 +466,7 @@ Sets text that is between the field separator and field end.
 | --- | --- | --- |
 | value | java.lang.String | Text that is between the field separator and field end. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -473,7 +476,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### unlink() {#unlink--}
+### unlink() {#unlink}
 ```
 public boolean unlink()
 ```
@@ -486,8 +489,8 @@ Replaces the field with its most recent result.
 Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot be unlinked.
 
 **Returns:**
-boolean - \{ True  if the field has been unlinked, otherwise  false .
-### update() {#update--}
+boolean - \{ true  if the field has been unlinked, otherwise  false .
+### update() {#update}
 ```
 public void update()
 ```
@@ -495,7 +498,7 @@ public void update()
 
 Performs the field update. Throws if the field is being updated already.
 
-### update(boolean ignoreMergeFormat) {#update-boolean-}
+### update(boolean ignoreMergeFormat) {#update-boolean}
 ```
 public void update(boolean ignoreMergeFormat)
 ```
@@ -508,7 +511,7 @@ Performs a field update. Throws if the field is being updated already.
 | --- | --- | --- |
 | ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
 
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -516,7 +519,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -529,7 +532,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

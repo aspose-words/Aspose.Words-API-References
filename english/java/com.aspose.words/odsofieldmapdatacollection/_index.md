@@ -3,7 +3,7 @@ title: OdsoFieldMapDataCollection
 second_title: Aspose.Words for Java API Reference
 description: A typed collection of the  objects.
 type: docs
-weight: 414
+weight: 417
 url: /java/com.aspose.words/odsofieldmapdatacollection/
 ---
 
@@ -18,28 +18,31 @@ public class OdsoFieldMapDataCollection implements Iterable
 
 A typed collection of the [OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata) objects.
 
-To learn more, visit the **Mail Merge and Reporting** documentation article.
+To learn more, visit the [ Mail Merge and Reporting ][Mail Merge and Reporting] documentation article.
+
+
+[Mail Merge and Reporting]: https://docs.aspose.com/words/java/mail-merge-and-reporting/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [add(OdsoFieldMapData value)](#add-com.aspose.words.OdsoFieldMapData-) | Adds an object to the end of this collection. |
-| [clear()](#clear--) | Removes all elements from this collection. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Gets an item in this collection. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Returns an iterator object that can be used to iterate over all items in the collection. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | Removes the element at the specified index. |
-| [set(int index, OdsoFieldMapData value)](#set-int-com.aspose.words.OdsoFieldMapData-) | Sets an item in this collection. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(OdsoFieldMapData value) {#add-com.aspose.words.OdsoFieldMapData-}
+| [add(OdsoFieldMapData value)](#add-com.aspose.words.OdsoFieldMapData) | Adds an object to the end of this collection. |
+| [clear()](#clear) | Removes all elements from this collection. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [get(int index)](#get-int) | Gets an item in this collection. |
+| [getClass()](#getClass) |  |
+| [getCount()](#getCount) | Gets the number of elements contained in the collection. |
+| [hashCode()](#hashCode) |  |
+| [iterator()](#iterator) | Returns an iterator object that can be used to iterate over all items in the collection. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [removeAt(int index)](#removeAt-int) | Removes the element at the specified index. |
+| [set(int index, OdsoFieldMapData value)](#set-int-com.aspose.words.OdsoFieldMapData) | Sets an item in this collection. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### add(OdsoFieldMapData value) {#add-com.aspose.words.OdsoFieldMapData}
 ```
 public int add(OdsoFieldMapData value)
 ```
@@ -50,11 +53,11 @@ Adds an object to the end of this collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata) | The object to add. Cannot be null. |
+| value | [OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata) | The object to add. Cannot be  null . |
 
 **Returns:**
 int
-### clear() {#clear--}
+### clear() {#clear}
 ```
 public void clear()
 ```
@@ -62,7 +65,7 @@ public void clear()
 
 Removes all elements from this collection.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -77,7 +80,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### get(int index) {#get-int-}
+### get(int index) {#get-int}
 ```
 public OdsoFieldMapData get(int index)
 ```
@@ -92,7 +95,7 @@ Gets an item in this collection.
 
 **Returns:**
 [OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata) - An item in this collection.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -102,7 +105,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCount() {#getCount--}
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -112,7 +115,7 @@ Gets the number of elements contained in the collection.
 
 **Returns:**
 int - The number of elements contained in the collection.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -122,7 +125,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### iterator() {#iterator--}
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -132,7 +135,7 @@ Returns an iterator object that can be used to iterate over all items in the col
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -140,7 +143,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -148,7 +151,7 @@ public final native void notifyAll()
 
 
 
-### removeAt(int index) {#removeAt-int-}
+### removeAt(int index) {#removeAt-int}
 ```
 public void removeAt(int index)
 ```
@@ -161,7 +164,7 @@ Removes the element at the specified index.
 | --- | --- | --- |
 | index | int | The zero-based index of the element. |
 
-### set(int index, OdsoFieldMapData value) {#set-int-com.aspose.words.OdsoFieldMapData-}
+### set(int index, OdsoFieldMapData value) {#set-int-com.aspose.words.OdsoFieldMapData}
 ```
 public void set(int index, OdsoFieldMapData value)
 ```
@@ -175,7 +178,7 @@ Sets an item in this collection.
 | index | int |  |
 | value | [OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata) | An item in this collection. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -185,7 +188,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -193,7 +196,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -206,7 +209,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

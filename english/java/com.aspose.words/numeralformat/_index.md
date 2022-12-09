@@ -3,7 +3,7 @@ title: NumeralFormat
 second_title: Aspose.Words for Java API Reference
 description: Indicates the symbol set that is used to represent numbers while rendering to fixed page formats.
 type: docs
-weight: 410
+weight: 413
 url: /java/com.aspose.words/numeralformat/
 ---
 
@@ -28,19 +28,19 @@ Indicates the symbol set that is used to represent numbers while rendering to fi
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String numeralFormatName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int numeralFormat)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int numeralFormat)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String numeralFormatName)](#fromName-java.lang.String) |  |
+| [getClass()](#getClass) |  |
+| [getName(int numeralFormat)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int numeralFormat)](#toString-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### ARABIC_INDIC {#ARABIC-INDIC}
 ```
 public static int ARABIC_INDIC
@@ -87,7 +87,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -102,7 +102,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String numeralFormatName) {#fromName-java.lang.String-}
+### fromName(String numeralFormatName) {#fromName-java.lang.String}
 ```
 public static int fromName(String numeralFormatName)
 ```
@@ -117,7 +117,7 @@ public static int fromName(String numeralFormatName)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -127,7 +127,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int numeralFormat) {#getName-int-}
+### getName(int numeralFormat) {#getName-int}
 ```
 public static String getName(int numeralFormat)
 ```
@@ -142,7 +142,7 @@ public static String getName(int numeralFormat)
 
 **Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -152,7 +152,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -162,7 +162,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -170,7 +170,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -178,7 +178,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -188,7 +188,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int numeralFormat) {#toString-int-}
+### toString(int numeralFormat) {#toString-int}
 ```
 public static String toString(int numeralFormat)
 ```
@@ -203,7 +203,7 @@ public static String toString(int numeralFormat)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -211,7 +211,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -224,7 +224,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

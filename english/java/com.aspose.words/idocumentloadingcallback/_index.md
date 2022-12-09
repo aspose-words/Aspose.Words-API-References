@@ -3,7 +3,7 @@ title: IDocumentLoadingCallback
 second_title: Aspose.Words for Java API Reference
 description: Implement this interface if you want to have your own custom method called during loading a document.
 type: docs
-weight: 636
+weight: 639
 url: /java/com.aspose.words/idocumentloadingcallback/
 ---
 ```
@@ -15,8 +15,8 @@ Implement this interface if you want to have your own custom method called durin
 
 | Method | Description |
 | --- | --- |
-| [notify(DocumentLoadingArgs args)](#notify-com.aspose.words.DocumentLoadingArgs-) | This is called to notify of document loading progress. |
-### notify(DocumentLoadingArgs args) {#notify-com.aspose.words.DocumentLoadingArgs-}
+| [notify(DocumentLoadingArgs args)](#notify-com.aspose.words.DocumentLoadingArgs) | This is called to notify of document loading progress. |
+### notify(DocumentLoadingArgs args) {#notify-com.aspose.words.DocumentLoadingArgs}
 ```
 public abstract void notify(DocumentLoadingArgs args)
 ```

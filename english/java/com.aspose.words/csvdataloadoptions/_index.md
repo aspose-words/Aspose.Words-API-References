@@ -3,7 +3,7 @@ title: CsvDataLoadOptions
 second_title: Aspose.Words for Java API Reference
 description: Represents options for parsing CSV data.
 type: docs
-weight: 98
+weight: 99
 url: /java/com.aspose.words/csvdataloadoptions/
 ---
 
@@ -15,37 +15,40 @@ public class CsvDataLoadOptions
 
 Represents options for parsing CSV data.
 
-To learn more, visit the **LINQ Reporting Engine** documentation article.
+To learn more, visit the [ LINQ Reporting Engine ][LINQ Reporting Engine] documentation article.
 
 An instance of this class can be passed into constructors of [CsvDataSource](../../com.aspose.words/csvdatasource).
+
+
+[LINQ Reporting Engine]: https://docs.aspose.com/words/java/linq-reporting-engine/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [CsvDataLoadOptions()](#CsvDataLoadOptions--) | Initializes a new instance of this class with default options. |
-| [CsvDataLoadOptions(boolean hasHeaders)](#CsvDataLoadOptions-boolean-) | Initializes a new instance of this class with specifying whether CSV data contains column names at the first line. |
+| [CsvDataLoadOptions()](#CsvDataLoadOptions) | Initializes a new instance of this class with default options. |
+| [CsvDataLoadOptions(boolean hasHeaders)](#CsvDataLoadOptions-boolean) | Initializes a new instance of this class with specifying whether CSV data contains column names at the first line. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getCommentChar()](#getCommentChar--) | Gets the character that is used to comment lines of CSV data. |
-| [getDelimiter()](#getDelimiter--) | Gets the character to be used as a column delimiter. |
-| [getQuoteChar()](#getQuoteChar--) | Gets the character that is used to quote field values. |
-| [hasHeaders()](#hasHeaders--) | Gets a value indicating whether the first record of CSV data contains column names. |
-| [hasHeaders(boolean value)](#hasHeaders-boolean-) | Sets a value indicating whether the first record of CSV data contains column names. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setCommentChar(char value)](#setCommentChar-char-) | Sets the character that is used to comment lines of CSV data. |
-| [setDelimiter(char value)](#setDelimiter-char-) | Sets the character to be used as a column delimiter. |
-| [setQuoteChar(char value)](#setQuoteChar-char-) | Sets the character that is used to quote field values. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### CsvDataLoadOptions() {#CsvDataLoadOptions--}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getCommentChar()](#getCommentChar) | Gets the character that is used to comment lines of CSV data. |
+| [getDelimiter()](#getDelimiter) | Gets the character to be used as a column delimiter. |
+| [getQuoteChar()](#getQuoteChar) | Gets the character that is used to quote field values. |
+| [hasHeaders()](#hasHeaders) | Gets a value indicating whether the first record of CSV data contains column names. |
+| [hasHeaders(boolean value)](#hasHeaders-boolean) | Sets a value indicating whether the first record of CSV data contains column names. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setCommentChar(char value)](#setCommentChar-char) | Sets the character that is used to comment lines of CSV data. |
+| [setDelimiter(char value)](#setDelimiter-char) | Sets the character to be used as a column delimiter. |
+| [setQuoteChar(char value)](#setQuoteChar-char) | Sets the character that is used to quote field values. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### CsvDataLoadOptions() {#CsvDataLoadOptions}
 ```
 public CsvDataLoadOptions()
 ```
@@ -53,7 +56,7 @@ public CsvDataLoadOptions()
 
 Initializes a new instance of this class with default options.
 
-### CsvDataLoadOptions(boolean hasHeaders) {#CsvDataLoadOptions-boolean-}
+### CsvDataLoadOptions(boolean hasHeaders) {#CsvDataLoadOptions-boolean}
 ```
 public CsvDataLoadOptions(boolean hasHeaders)
 ```
@@ -66,7 +69,7 @@ Initializes a new instance of this class with specifying whether CSV data contai
 | --- | --- | --- |
 | hasHeaders | boolean |  |
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -81,7 +84,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -91,7 +94,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCommentChar() {#getCommentChar--}
+### getCommentChar() {#getCommentChar}
 ```
 public char getCommentChar()
 ```
@@ -101,7 +104,7 @@ Gets the character that is used to comment lines of CSV data. The default value 
 
 **Returns:**
 char - The character that is used to comment lines of CSV data.
-### getDelimiter() {#getDelimiter--}
+### getDelimiter() {#getDelimiter}
 ```
 public char getDelimiter()
 ```
@@ -111,7 +114,7 @@ Gets the character to be used as a column delimiter. The default value is ',' (c
 
 **Returns:**
 char - The character to be used as a column delimiter.
-### getQuoteChar() {#getQuoteChar--}
+### getQuoteChar() {#getQuoteChar}
 ```
 public char getQuoteChar()
 ```
@@ -125,30 +128,30 @@ Double the character to place it into quoted text.
 
 **Returns:**
 char - The character that is used to quote field values.
-### hasHeaders() {#hasHeaders--}
+### hasHeaders() {#hasHeaders}
 ```
 public boolean hasHeaders()
 ```
 
 
-Gets a value indicating whether the first record of CSV data contains column names. The default value is **false**.
+Gets a value indicating whether the first record of CSV data contains column names. The default value is  false .
 
 **Returns:**
 boolean - A value indicating whether the first record of CSV data contains column names.
-### hasHeaders(boolean value) {#hasHeaders-boolean-}
+### hasHeaders(boolean value) {#hasHeaders-boolean}
 ```
 public void hasHeaders(boolean value)
 ```
 
 
-Sets a value indicating whether the first record of CSV data contains column names. The default value is **false**.
+Sets a value indicating whether the first record of CSV data contains column names. The default value is  false .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value indicating whether the first record of CSV data contains column names. |
 
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -158,7 +161,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -166,7 +169,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -174,7 +177,7 @@ public final native void notifyAll()
 
 
 
-### setCommentChar(char value) {#setCommentChar-char-}
+### setCommentChar(char value) {#setCommentChar-char}
 ```
 public void setCommentChar(char value)
 ```
@@ -187,7 +190,7 @@ Sets the character that is used to comment lines of CSV data. The default value 
 | --- | --- | --- |
 | value | char | The character that is used to comment lines of CSV data. |
 
-### setDelimiter(char value) {#setDelimiter-char-}
+### setDelimiter(char value) {#setDelimiter-char}
 ```
 public void setDelimiter(char value)
 ```
@@ -200,7 +203,7 @@ Sets the character to be used as a column delimiter. The default value is ',' (c
 | --- | --- | --- |
 | value | char | The character to be used as a column delimiter. |
 
-### setQuoteChar(char value) {#setQuoteChar-char-}
+### setQuoteChar(char value) {#setQuoteChar-char}
 ```
 public void setQuoteChar(char value)
 ```
@@ -217,7 +220,7 @@ Double the character to place it into quoted text.
 | --- | --- | --- |
 | value | char | The character that is used to quote field values. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -227,7 +230,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -235,7 +238,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -248,7 +251,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

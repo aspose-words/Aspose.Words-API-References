@@ -3,7 +3,7 @@ title: OdsoDataSourceType
 second_title: Aspose.Words for Java API Reference
 description: Specifies the type of the external data source to be connected to as part of the ODSO connection information.
 type: docs
-weight: 412
+weight: 415
 url: /java/com.aspose.words/odsodatasourcetype/
 ---
 
@@ -36,19 +36,19 @@ The OOXML specification is very vague for this enum. I guess it might correspond
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String odsoDataSourceTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int odsoDataSourceType)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int odsoDataSourceType)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String odsoDataSourceTypeName)](#fromName-java.lang.String) |  |
+| [getClass()](#getClass) |  |
+| [getName(int odsoDataSourceType)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int odsoDataSourceType)](#toString-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### ADDRESS_BOOK {#ADDRESS-BOOK}
 ```
 public static int ADDRESS_BOOK
@@ -143,7 +143,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -158,7 +158,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String odsoDataSourceTypeName) {#fromName-java.lang.String-}
+### fromName(String odsoDataSourceTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String odsoDataSourceTypeName)
 ```
@@ -173,7 +173,7 @@ public static int fromName(String odsoDataSourceTypeName)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -183,7 +183,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int odsoDataSourceType) {#getName-int-}
+### getName(int odsoDataSourceType) {#getName-int}
 ```
 public static String getName(int odsoDataSourceType)
 ```
@@ -198,7 +198,7 @@ public static String getName(int odsoDataSourceType)
 
 **Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -208,7 +208,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -218,7 +218,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -226,7 +226,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -234,7 +234,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -244,7 +244,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int odsoDataSourceType) {#toString-int-}
+### toString(int odsoDataSourceType) {#toString-int}
 ```
 public static String toString(int odsoDataSourceType)
 ```
@@ -259,7 +259,7 @@ public static String toString(int odsoDataSourceType)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -267,7 +267,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -280,7 +280,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

@@ -3,7 +3,7 @@ title: FileFontSource
 second_title: Aspose.Words for Java API Reference
 description: Represents the single TrueType font file stored in the file system.
 type: docs
-weight: 264
+weight: 266
 url: /java/com.aspose.words/filefontsource/
 ---
 
@@ -15,37 +15,40 @@ public class FileFontSource extends FontSourceBase
 
 Represents the single TrueType font file stored in the file system.
 
-To learn more, visit the **Working with Fonts** documentation article.
+To learn more, visit the [ Working with Fonts ][Working with Fonts] documentation article.
+
+
+[Working with Fonts]: https://docs.aspose.com/words/java/working-with-fonts/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [FileFontSource(String filePath)](#FileFontSource-java.lang.String-) | Ctor. |
-| [FileFontSource(String filePath, int priority)](#FileFontSource-java.lang.String-int-) | Ctor. |
-| [FileFontSource(String filePath, int priority, String cacheKey)](#FileFontSource-java.lang.String-int-java.lang.String-) | Ctor. |
+| [FileFontSource(String filePath)](#FileFontSource-java.lang.String) | Ctor. |
+| [FileFontSource(String filePath, int priority)](#FileFontSource-java.lang.String-int) | Ctor. |
+| [FileFontSource(String filePath, int priority, String cacheKey)](#FileFontSource-java.lang.String-int-java.lang.String) | Ctor. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAvailableFonts()](#getAvailableFonts--) | Returns list of fonts available via this source. |
-| [getCacheKey()](#getCacheKey--) | The key of this source in the cache. |
-| [getClass()](#getClass--) |  |
-| [getFilePath()](#getFilePath--) | Path to the font file. |
-| [getFontDataInternal()](#getFontDataInternal--) |  |
-| [getPriority()](#getPriority--) | Returns the font source priority. |
-| [getPriorityInternal()](#getPriorityInternal--) |  |
-| [getType()](#getType--) | Returns the type of the font source. |
-| [getWarningCallback()](#getWarningCallback--) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### FileFontSource(String filePath) {#FileFontSource-java.lang.String-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getAvailableFonts()](#getAvailableFonts) | Returns list of fonts available via this source. |
+| [getCacheKey()](#getCacheKey) | The key of this source in the cache. |
+| [getClass()](#getClass) |  |
+| [getFilePath()](#getFilePath) | Path to the font file. |
+| [getFontDataInternal()](#getFontDataInternal) |  |
+| [getPriority()](#getPriority) | Returns the font source priority. |
+| [getPriorityInternal()](#getPriorityInternal) |  |
+| [getType()](#getType) | Returns the type of the font source. |
+| [getWarningCallback()](#getWarningCallback) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### FileFontSource(String filePath) {#FileFontSource-java.lang.String}
 ```
 public FileFontSource(String filePath)
 ```
@@ -58,7 +61,7 @@ Ctor.
 | --- | --- | --- |
 | filePath | java.lang.String | Path to font file. |
 
-### FileFontSource(String filePath, int priority) {#FileFontSource-java.lang.String-int-}
+### FileFontSource(String filePath, int priority) {#FileFontSource-java.lang.String-int}
 ```
 public FileFontSource(String filePath, int priority)
 ```
@@ -70,9 +73,9 @@ Ctor.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filePath | java.lang.String | Path to font file. |
-| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase\#getPriority--) property description for more information. |
+| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase\#getPriority) property description for more information. |
 
-### FileFontSource(String filePath, int priority, String cacheKey) {#FileFontSource-java.lang.String-int-java.lang.String-}
+### FileFontSource(String filePath, int priority, String cacheKey) {#FileFontSource-java.lang.String-int-java.lang.String}
 ```
 public FileFontSource(String filePath, int priority, String cacheKey)
 ```
@@ -84,10 +87,10 @@ Ctor.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filePath | java.lang.String | Path to font file. |
-| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase\#getPriority--) property description for more information. |
-| cacheKey | java.lang.String | The key of this source in the cache. See [getCacheKey()](../../com.aspose.words/filefontsource\#getCacheKey--) property description for more information. |
+| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase\#getPriority) property description for more information. |
+| cacheKey | java.lang.String | The key of this source in the cache. See [getCacheKey()](../../com.aspose.words/filefontsource\#getCacheKey) property description for more information. |
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -102,7 +105,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getAvailableFonts() {#getAvailableFonts--}
+### getAvailableFonts() {#getAvailableFonts}
 ```
 public ArrayList getAvailableFonts()
 ```
@@ -112,7 +115,7 @@ Returns list of fonts available via this source.
 
 **Returns:**
 java.util.ArrayList
-### getCacheKey() {#getCacheKey--}
+### getCacheKey() {#getCacheKey}
 ```
 public String getCacheKey()
 ```
@@ -122,11 +125,11 @@ The key of this source in the cache.
 
 This key is used to identify cache item when saving/loading font search cache with  and  methods.
 
-If key is not specified then [getFilePath()](../../com.aspose.words/filefontsource\#getFilePath--) will be used as a key instead.
+If key is not specified then [getFilePath()](../../com.aspose.words/filefontsource\#getFilePath) will be used as a key instead.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -136,7 +139,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getFilePath() {#getFilePath--}
+### getFilePath() {#getFilePath}
 ```
 public String getFilePath()
 ```
@@ -146,7 +149,7 @@ Path to the font file.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### getFontDataInternal() {#getFontDataInternal--}
+### getFontDataInternal() {#getFontDataInternal}
 ```
 public Iterable getFontDataInternal()
 ```
@@ -156,7 +159,7 @@ public Iterable getFontDataInternal()
 
 **Returns:**
 java.lang.Iterable
-### getPriority() {#getPriority--}
+### getPriority() {#getPriority}
 ```
 public int getPriority()
 ```
@@ -170,7 +173,7 @@ The default value is 0.
 
 **Returns:**
 int - The font source priority.
-### getPriorityInternal() {#getPriorityInternal--}
+### getPriorityInternal() {#getPriorityInternal}
 ```
 public int getPriorityInternal()
 ```
@@ -180,7 +183,7 @@ public int getPriorityInternal()
 
 **Returns:**
 int
-### getType() {#getType--}
+### getType() {#getType}
 ```
 public int getType()
 ```
@@ -190,7 +193,7 @@ Returns the type of the font source.
 
 **Returns:**
 int - The type of the font source. The returned value is one of [FontSourceType](../../com.aspose.words/fontsourcetype) constants.
-### getWarningCallback() {#getWarningCallback--}
+### getWarningCallback() {#getWarningCallback}
 ```
 public IWarningCallback getWarningCallback()
 ```
@@ -200,7 +203,7 @@ Called during processing of font source when an issue is detected that might res
 
 **Returns:**
 [IWarningCallback](../../com.aspose.words/iwarningcallback) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -210,7 +213,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -218,7 +221,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -226,7 +229,7 @@ public final native void notifyAll()
 
 
 
-### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback-}
+### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback}
 ```
 public void setWarningCallback(IWarningCallback value)
 ```
@@ -239,7 +242,7 @@ Called during processing of font source when an issue is detected that might res
 | --- | --- | --- |
 | value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -249,7 +252,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -257,7 +260,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -270,7 +273,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

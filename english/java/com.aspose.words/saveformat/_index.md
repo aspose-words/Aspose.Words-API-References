@@ -3,7 +3,7 @@ title: SaveFormat
 second_title: Aspose.Words for Java API Reference
 description: Indicates the format in which the document is saved.
 type: docs
-weight: 499
+weight: 502
 url: /java/com.aspose.words/saveformat/
 ---
 
@@ -60,19 +60,19 @@ Indicates the format in which the document is saved. **M:Aspose.Words.Document.S
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String saveFormatName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int saveFormat)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int saveFormat)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String saveFormatName)](#fromName-java.lang.String) |  |
+| [getClass()](#getClass) |  |
+| [getName(int saveFormat)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int saveFormat)](#toString-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### AZW_3 {#AZW-3}
 ```
 public static int AZW_3
@@ -375,7 +375,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -390,7 +390,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String saveFormatName) {#fromName-java.lang.String-}
+### fromName(String saveFormatName) {#fromName-java.lang.String}
 ```
 public static int fromName(String saveFormatName)
 ```
@@ -405,7 +405,7 @@ public static int fromName(String saveFormatName)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -415,7 +415,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int saveFormat) {#getName-int-}
+### getName(int saveFormat) {#getName-int}
 ```
 public static String getName(int saveFormat)
 ```
@@ -430,7 +430,7 @@ public static String getName(int saveFormat)
 
 **Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -440,7 +440,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -450,7 +450,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -458,7 +458,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -466,7 +466,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -476,7 +476,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int saveFormat) {#toString-int-}
+### toString(int saveFormat) {#toString-int}
 ```
 public static String toString(int saveFormat)
 ```
@@ -491,7 +491,7 @@ public static String toString(int saveFormat)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -499,7 +499,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -512,7 +512,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

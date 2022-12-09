@@ -64,19 +64,19 @@ Corresponds to the **ST\_DocPartGallery** type in OOXML.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String buildingBlockGalleryName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int buildingBlockGallery)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int buildingBlockGallery)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String buildingBlockGalleryName)](#fromName-java.lang.String) |  |
+| [getClass()](#getClass) |  |
+| [getName(int buildingBlockGallery)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int buildingBlockGallery)](#toString-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### ALL {#ALL}
 ```
 public static int ALL
@@ -395,7 +395,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -410,7 +410,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String buildingBlockGalleryName) {#fromName-java.lang.String-}
+### fromName(String buildingBlockGalleryName) {#fromName-java.lang.String}
 ```
 public static int fromName(String buildingBlockGalleryName)
 ```
@@ -425,7 +425,7 @@ public static int fromName(String buildingBlockGalleryName)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -435,7 +435,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int buildingBlockGallery) {#getName-int-}
+### getName(int buildingBlockGallery) {#getName-int}
 ```
 public static String getName(int buildingBlockGallery)
 ```
@@ -450,7 +450,7 @@ public static String getName(int buildingBlockGallery)
 
 **Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -460,7 +460,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -470,7 +470,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -478,7 +478,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -486,7 +486,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -496,7 +496,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int buildingBlockGallery) {#toString-int-}
+### toString(int buildingBlockGallery) {#toString-int}
 ```
 public static String toString(int buildingBlockGallery)
 ```
@@ -511,7 +511,7 @@ public static String toString(int buildingBlockGallery)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -519,7 +519,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -532,7 +532,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

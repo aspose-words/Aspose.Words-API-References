@@ -18,29 +18,29 @@ Represents a restriction on a set of columns in which all values must be unique.
 
 | Constructor | Description |
 | --- | --- |
-| [UniqueConstraint(String name, System.Data.DataColumn[] columns, boolean isPrimaryKey)](#UniqueConstraint-java.lang.String-com.aspose.words.net.System.Data.DataColumn---boolean-) | Initializes a new instance of the [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) class with the specified name, an array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects to constrain, and a value specifying whether the constraint is a primary key. |
-| [UniqueConstraint(System.Data.DataColumn[] columns, boolean isPrimaryKey)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn---boolean-) | Initializes a new instance of the [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) class with an array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects to constrain, and a value specifying whether the constraint is a primary key. |
-| [UniqueConstraint(System.Data.DataColumn[] columns)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn---) | Initializes a new instance of the [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) class with the given array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects. |
-| [UniqueConstraint(System.Data.DataColumn column)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn-) | Initializes a new instance of the [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) class with the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
+| [UniqueConstraint(String name, System.Data.DataColumn[] columns, boolean isPrimaryKey)](#UniqueConstraint-java.lang.String-com.aspose.words.net.System.Data.DataColumn---boolean) | Initializes a new instance of the [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) class with the specified name, an array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects to constrain, and a value specifying whether the constraint is a primary key. |
+| [UniqueConstraint(System.Data.DataColumn[] columns, boolean isPrimaryKey)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn---boolean) | Initializes a new instance of the [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) class with an array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects to constrain, and a value specifying whether the constraint is a primary key. |
+| [UniqueConstraint(System.Data.DataColumn[] columns)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn) | Initializes a new instance of the [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) class with the given array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects. |
+| [UniqueConstraint(System.Data.DataColumn column)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn) | Initializes a new instance of the [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) class with the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object key2)](#equals-java.lang.Object-) | Compares this constraint to a second to determine if both are identical. |
-| [getClass()](#getClass--) |  |
-| [getColumns()](#getColumns--) | Gets the array of columns that this constraint affects. |
-| [getConstraintName()](#getConstraintName--) | The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
-| [getTable()](#getTable--) | Gets the table to which this constraint belongs. |
-| [hashCode()](#hashCode--) |  |
-| [isPrimaryKey()](#isPrimaryKey--) | Gets a value indicating whether or not the constraint is on a primary key. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setConstraintName(String value)](#setConstraintName-java.lang.String-) | The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### UniqueConstraint(String name, System.Data.DataColumn[] columns, boolean isPrimaryKey) {#UniqueConstraint-java.lang.String-com.aspose.words.net.System.Data.DataColumn---boolean-}
+| [equals(Object key2)](#equals-java.lang.Object) | Compares this constraint to a second to determine if both are identical. |
+| [getClass()](#getClass) |  |
+| [getColumns()](#getColumns) | Gets the array of columns that this constraint affects. |
+| [getConstraintName()](#getConstraintName) | The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
+| [getTable()](#getTable) | Gets the table to which this constraint belongs. |
+| [hashCode()](#hashCode) |  |
+| [isPrimaryKey()](#isPrimaryKey) | Gets a value indicating whether or not the constraint is on a primary key. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setConstraintName(String value)](#setConstraintName-java.lang.String) | The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### UniqueConstraint(String name, System.Data.DataColumn[] columns, boolean isPrimaryKey) {#UniqueConstraint-java.lang.String-com.aspose.words.net.System.Data.DataColumn---boolean}
 ```
 public UniqueConstraint(String name, System.Data.DataColumn[] columns, boolean isPrimaryKey)
 ```
@@ -55,7 +55,7 @@ Initializes a new instance of the [UniqueConstraint](../../com.aspose.words.net.
 | columns | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) | An array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects to constrain. |
 | isPrimaryKey | boolean | true to indicate that the constraint is a primary key; otherwise, false. |
 
-### UniqueConstraint(System.Data.DataColumn[] columns, boolean isPrimaryKey) {#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn---boolean-}
+### UniqueConstraint(System.Data.DataColumn[] columns, boolean isPrimaryKey) {#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn---boolean}
 ```
 public UniqueConstraint(System.Data.DataColumn[] columns, boolean isPrimaryKey)
 ```
@@ -69,7 +69,7 @@ Initializes a new instance of the [UniqueConstraint](../../com.aspose.words.net.
 | columns | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) | An array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects to constrain. |
 | isPrimaryKey | boolean | true to indicate that the constraint is a primary key; otherwise, false. |
 
-### UniqueConstraint(System.Data.DataColumn[] columns) {#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn---}
+### UniqueConstraint(System.Data.DataColumn[] columns) {#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn}
 ```
 public UniqueConstraint(System.Data.DataColumn[] columns)
 ```
@@ -82,7 +82,7 @@ Initializes a new instance of the [UniqueConstraint](../../com.aspose.words.net.
 | --- | --- | --- |
 | columns | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) | The array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects to constrain. |
 
-### UniqueConstraint(System.Data.DataColumn column) {#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn-}
+### UniqueConstraint(System.Data.DataColumn column) {#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn}
 ```
 public UniqueConstraint(System.Data.DataColumn column)
 ```
@@ -95,7 +95,7 @@ Initializes a new instance of the [UniqueConstraint](../../com.aspose.words.net.
 | --- | --- | --- |
 | column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | The [DataColumn](../../com.aspose.words.net.system.data/datacolumn) to constrain. |
 
-### equals(Object key2) {#equals-java.lang.Object-}
+### equals(Object key2) {#equals-java.lang.Object}
 ```
 public boolean equals(Object key2)
 ```
@@ -110,7 +110,7 @@ Compares this constraint to a second to determine if both are identical.
 
 **Returns:**
 boolean - true, if the contraints are equal; otherwise, false.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -120,7 +120,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getColumns() {#getColumns--}
+### getColumns() {#getColumns}
 ```
 public System.Data.DataColumn[] getColumns()
 ```
@@ -130,7 +130,7 @@ Gets the array of columns that this constraint affects.
 
 **Returns:**
 com.aspose.words.net.System.Data.DataColumn[] - An array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects.
-### getConstraintName() {#getConstraintName--}
+### getConstraintName() {#getConstraintName}
 ```
 public String getConstraintName()
 ```
@@ -140,7 +140,7 @@ The name of a constraint in the [ConstraintCollection](../../com.aspose.words.ne
 
 **Returns:**
 java.lang.String - The name of the [Constraint](../../com.aspose.words.net.system.data/constraint).
-### getTable() {#getTable--}
+### getTable() {#getTable}
 ```
 public System.Data.DataTable getTable()
 ```
@@ -150,7 +150,7 @@ Gets the table to which this constraint belongs.
 
 **Returns:**
 [DataTable](../../com.aspose.words.net.system.data/datatable) - The [DataTable](../../com.aspose.words.net.system.data/datatable) to which the constraint belongs.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public int hashCode()
 ```
@@ -160,7 +160,7 @@ public int hashCode()
 
 **Returns:**
 int
-### isPrimaryKey() {#isPrimaryKey--}
+### isPrimaryKey() {#isPrimaryKey}
 ```
 public boolean isPrimaryKey()
 ```
@@ -170,7 +170,7 @@ Gets a value indicating whether or not the constraint is on a primary key.
 
 **Returns:**
 boolean - true, if the constraint is on a primary key; otherwise, false.
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -178,7 +178,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -186,7 +186,7 @@ public final native void notifyAll()
 
 
 
-### setConstraintName(String value) {#setConstraintName-java.lang.String-}
+### setConstraintName(String value) {#setConstraintName-java.lang.String}
 ```
 public void setConstraintName(String value)
 ```
@@ -199,7 +199,7 @@ The name of a constraint in the [ConstraintCollection](../../com.aspose.words.ne
 | --- | --- | --- |
 | value | java.lang.String | The name of the [Constraint](../../com.aspose.words.net.system.data/constraint). |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -209,7 +209,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -217,7 +217,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -230,7 +230,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

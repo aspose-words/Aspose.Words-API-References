@@ -3,7 +3,7 @@ title: StyleIdentifier
 second_title: Aspose.Words for Java API Reference
 description: Locale independent style identifier.
 type: docs
-weight: 538
+weight: 541
 url: /java/com.aspose.words/styleidentifier/
 ---
 
@@ -17,7 +17,7 @@ Locale independent style identifier.
 
 The names of built-in styles in MS Word are localized for different languages. Using a style identifier you can find the correct style regardless of the document language.
 
-All user defined styles are assigned the StyleIdentifier.User value.
+All user defined styles are assigned the [USER](../../com.aspose.words/styleidentifier\#USER) value.
 ## Fields
 
 | Field | Description |
@@ -405,19 +405,19 @@ All user defined styles are assigned the StyleIdentifier.User value.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String styleIdentifierName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int styleIdentifier)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int styleIdentifier)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String styleIdentifierName)](#fromName-java.lang.String) |  |
+| [getClass()](#getClass) |  |
+| [getName(int styleIdentifier)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int styleIdentifier)](#toString-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### BALLOON_TEXT {#BALLOON-TEXT}
 ```
 public static int BALLOON_TEXT
@@ -3448,7 +3448,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -3463,7 +3463,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String styleIdentifierName) {#fromName-java.lang.String-}
+### fromName(String styleIdentifierName) {#fromName-java.lang.String}
 ```
 public static int fromName(String styleIdentifierName)
 ```
@@ -3478,7 +3478,7 @@ public static int fromName(String styleIdentifierName)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -3488,7 +3488,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int styleIdentifier) {#getName-int-}
+### getName(int styleIdentifier) {#getName-int}
 ```
 public static String getName(int styleIdentifier)
 ```
@@ -3503,7 +3503,7 @@ public static String getName(int styleIdentifier)
 
 **Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -3513,7 +3513,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -3523,7 +3523,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -3531,7 +3531,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -3539,7 +3539,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -3549,7 +3549,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int styleIdentifier) {#toString-int-}
+### toString(int styleIdentifier) {#toString-int}
 ```
 public static String toString(int styleIdentifier)
 ```
@@ -3564,7 +3564,7 @@ public static String toString(int styleIdentifier)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -3572,7 +3572,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -3585,7 +3585,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

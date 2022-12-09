@@ -3,7 +3,7 @@ title: XamlFlowSaveOptions
 second_title: Aspose.Words for Java API Reference
 description: Can be used to specify additional options when saving a document into the  or  format.
 type: docs
-weight: 626
+weight: 629
 url: /java/com.aspose.words/xamlflowsaveoptions/
 ---
 
@@ -15,73 +15,76 @@ public class XamlFlowSaveOptions extends SaveOptions
 
 Can be used to specify additional options when saving a document into the [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW) or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat\#XAML-FLOW-PACK) format.
 
-To learn more, visit the **Specify Save Options** documentation article.
+To learn more, visit the [ Specify Save Options ][Specify Save Options] documentation article.
+
+
+[Specify Save Options]: https://docs.aspose.com/words/java/specify-save-options/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [XamlFlowSaveOptions()](#XamlFlowSaveOptions--) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW) format. |
-| [XamlFlowSaveOptions(int saveFormat)](#XamlFlowSaveOptions-int-) | Initializes a new instance of this class. |
+| [XamlFlowSaveOptions()](#XamlFlowSaveOptions) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW) format. |
+| [XamlFlowSaveOptions(int saveFormat)](#XamlFlowSaveOptions-int) | Initializes a new instance of this class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [createSaveOptions(int saveFormat)](#createSaveOptions-int-) |  |
-| [createSaveOptions(String fileName)](#createSaveOptions-java.lang.String-) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts--) | Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
-| [getClass()](#getClass--) |  |
-| [getDefaultTemplate()](#getDefaultTemplate--) | Gets path to default template (including filename). |
-| [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode--) | Gets a value determining how 3D effects are rendered. |
-| [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode--) | Gets a value determining how DrawingML effects are rendered. |
-| [getDmlRenderingMode()](#getDmlRenderingMode--) | Gets a value determining how DrawingML shapes are rendered. |
-| [getExportGeneratorName()](#getExportGeneratorName--) | When true, causes the name and version of Aspose.Words to be embedded into produced files. |
-| [getImageSavingCallback()](#getImageSavingCallback--) | Allows to control how images are saved when a document is saved to XAML. |
-| [getImagesFolder()](#getImagesFolder--) | Specifies the physical folder where images are saved when exporting a document to XAML format. |
-| [getImagesFolderAlias()](#getImagesFolderAlias--) | Specifies the name of the folder used to construct image URIs written into an XAML document. |
-| [getImlRenderingMode()](#getImlRenderingMode--) | Gets a value determining how ink (InkML) objects are rendered. |
-| [getMemoryOptimization()](#getMemoryOptimization--) | Gets value determining if memory optimization should be performed before saving the document. |
-| [getPrettyFormat()](#getPrettyFormat--) | When  true , pretty formats output where applicable. |
-| [getProgressCallback()](#getProgressCallback--) | Called during saving a document and accepts data about saving progress. |
-| [getSaveFormat()](#getSaveFormat--) | Specifies the format in which the document will be saved if this save options object is used. |
-| [getTempFolder()](#getTempFolder--) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
-| [getUpdateCreatedTimeProperty()](#getUpdateCreatedTimeProperty--) | Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. |
-| [getUpdateFields()](#getUpdateFields--) | Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
-| [getUpdateLastPrintedProperty()](#getUpdateLastPrintedProperty--) | Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving. |
-| [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty--) | Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving. |
-| [getUpdateSdtContent()](#getUpdateSdtContent--) | Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. |
-| [getUseAntiAliasing()](#getUseAntiAliasing--) | Gets a value determining whether or not to use anti-aliasing for rendering. |
-| [getUseHighQualityRendering()](#getUseHighQualityRendering--) | Gets a value determining whether or not to use high quality (i.e. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean-) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
-| [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String-) | Sets path to default template (including filename). |
-| [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int-) | Sets a value determining how 3D effects are rendered. |
-| [setDmlEffectsRenderingMode(int value)](#setDmlEffectsRenderingMode-int-) | Sets a value determining how DrawingML effects are rendered. |
-| [setDmlRenderingMode(int value)](#setDmlRenderingMode-int-) | Sets a value determining how DrawingML shapes are rendered. |
-| [setExportGeneratorName(boolean value)](#setExportGeneratorName-boolean-) | When true, causes the name and version of Aspose.Words to be embedded into produced files. |
-| [setImageSavingCallback(IImageSavingCallback value)](#setImageSavingCallback-com.aspose.words.IImageSavingCallback-) | Allows to control how images are saved when a document is saved to XAML. |
-| [setImagesFolder(String value)](#setImagesFolder-java.lang.String-) | Specifies the physical folder where images are saved when exporting a document to XAML format. |
-| [setImagesFolderAlias(String value)](#setImagesFolderAlias-java.lang.String-) | Specifies the name of the folder used to construct image URIs written into an XAML document. |
-| [setImlRenderingMode(int value)](#setImlRenderingMode-int-) | Sets a value determining how ink (InkML) objects are rendered. |
-| [setMemoryOptimization(boolean value)](#setMemoryOptimization-boolean-) | Sets value determining if memory optimization should be performed before saving the document. |
-| [setPrettyFormat(boolean value)](#setPrettyFormat-boolean-) | When  true , pretty formats output where applicable. |
-| [setProgressCallback(IDocumentSavingCallback value)](#setProgressCallback-com.aspose.words.IDocumentSavingCallback-) | Called during saving a document and accepts data about saving progress. |
-| [setSaveFormat(int value)](#setSaveFormat-int-) | Specifies the format in which the document will be saved if this save options object is used. |
-| [setTempFolder(String value)](#setTempFolder-java.lang.String-) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
-| [setUpdateCreatedTimeProperty(boolean value)](#setUpdateCreatedTimeProperty-boolean-) | Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. |
-| [setUpdateFields(boolean value)](#setUpdateFields-boolean-) | Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
-| [setUpdateLastPrintedProperty(boolean value)](#setUpdateLastPrintedProperty-boolean-) | Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving. |
-| [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean-) | Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving. |
-| [setUpdateSdtContent(boolean value)](#setUpdateSdtContent-boolean-) | Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. |
-| [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean-) | Sets a value determining whether or not to use anti-aliasing for rendering. |
-| [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean-) | Sets a value determining whether or not to use high quality (i.e. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### XamlFlowSaveOptions() {#XamlFlowSaveOptions--}
+| [createSaveOptions(int saveFormat)](#createSaveOptions-int) |  |
+| [createSaveOptions(String fileName)](#createSaveOptions-java.lang.String) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts) | Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
+| [getClass()](#getClass) |  |
+| [getDefaultTemplate()](#getDefaultTemplate) | Gets path to default template (including filename). |
+| [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode) | Gets a value determining how 3D effects are rendered. |
+| [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode) | Gets a value determining how DrawingML effects are rendered. |
+| [getDmlRenderingMode()](#getDmlRenderingMode) | Gets a value determining how DrawingML shapes are rendered. |
+| [getExportGeneratorName()](#getExportGeneratorName) | When  true , causes the name and version of Aspose.Words to be embedded into produced files. |
+| [getImageSavingCallback()](#getImageSavingCallback) | Allows to control how images are saved when a document is saved to XAML. |
+| [getImagesFolder()](#getImagesFolder) | Specifies the physical folder where images are saved when exporting a document to XAML format. |
+| [getImagesFolderAlias()](#getImagesFolderAlias) | Specifies the name of the folder used to construct image URIs written into an XAML document. |
+| [getImlRenderingMode()](#getImlRenderingMode) | Gets a value determining how ink (InkML) objects are rendered. |
+| [getMemoryOptimization()](#getMemoryOptimization) | Gets value determining if memory optimization should be performed before saving the document. |
+| [getPrettyFormat()](#getPrettyFormat) | When  true , pretty formats output where applicable. |
+| [getProgressCallback()](#getProgressCallback) | Called during saving a document and accepts data about saving progress. |
+| [getSaveFormat()](#getSaveFormat) | Specifies the format in which the document will be saved if this save options object is used. |
+| [getTempFolder()](#getTempFolder) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
+| [getUpdateCreatedTimeProperty()](#getUpdateCreatedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date) property is updated before saving. |
+| [getUpdateFields()](#getUpdateFields) | Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
+| [getUpdateLastPrintedProperty()](#getUpdateLastPrintedProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date) property is updated before saving. |
+| [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date) property is updated before saving. |
+| [getUpdateSdtContent()](#getUpdateSdtContent) | Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. |
+| [getUseAntiAliasing()](#getUseAntiAliasing) | Gets a value determining whether or not to use anti-aliasing for rendering. |
+| [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
+| [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String) | Sets path to default template (including filename). |
+| [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int) | Sets a value determining how 3D effects are rendered. |
+| [setDmlEffectsRenderingMode(int value)](#setDmlEffectsRenderingMode-int) | Sets a value determining how DrawingML effects are rendered. |
+| [setDmlRenderingMode(int value)](#setDmlRenderingMode-int) | Sets a value determining how DrawingML shapes are rendered. |
+| [setExportGeneratorName(boolean value)](#setExportGeneratorName-boolean) | When  true , causes the name and version of Aspose.Words to be embedded into produced files. |
+| [setImageSavingCallback(IImageSavingCallback value)](#setImageSavingCallback-com.aspose.words.IImageSavingCallback) | Allows to control how images are saved when a document is saved to XAML. |
+| [setImagesFolder(String value)](#setImagesFolder-java.lang.String) | Specifies the physical folder where images are saved when exporting a document to XAML format. |
+| [setImagesFolderAlias(String value)](#setImagesFolderAlias-java.lang.String) | Specifies the name of the folder used to construct image URIs written into an XAML document. |
+| [setImlRenderingMode(int value)](#setImlRenderingMode-int) | Sets a value determining how ink (InkML) objects are rendered. |
+| [setMemoryOptimization(boolean value)](#setMemoryOptimization-boolean) | Sets value determining if memory optimization should be performed before saving the document. |
+| [setPrettyFormat(boolean value)](#setPrettyFormat-boolean) | When  true , pretty formats output where applicable. |
+| [setProgressCallback(IDocumentSavingCallback value)](#setProgressCallback-com.aspose.words.IDocumentSavingCallback) | Called during saving a document and accepts data about saving progress. |
+| [setSaveFormat(int value)](#setSaveFormat-int) | Specifies the format in which the document will be saved if this save options object is used. |
+| [setTempFolder(String value)](#setTempFolder-java.lang.String) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
+| [setUpdateCreatedTimeProperty(boolean value)](#setUpdateCreatedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date) property is updated before saving. |
+| [setUpdateFields(boolean value)](#setUpdateFields-boolean) | Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
+| [setUpdateLastPrintedProperty(boolean value)](#setUpdateLastPrintedProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date) property is updated before saving. |
+| [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date) property is updated before saving. |
+| [setUpdateSdtContent(boolean value)](#setUpdateSdtContent-boolean) | Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. |
+| [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean) | Sets a value determining whether or not to use anti-aliasing for rendering. |
+| [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean) | Sets a value determining whether or not to use high quality (i.e. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### XamlFlowSaveOptions() {#XamlFlowSaveOptions}
 ```
 public XamlFlowSaveOptions()
 ```
@@ -89,7 +92,7 @@ public XamlFlowSaveOptions()
 
 Initializes a new instance of this class that can be used to save a document in the [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW) format.
 
-### XamlFlowSaveOptions(int saveFormat) {#XamlFlowSaveOptions-int-}
+### XamlFlowSaveOptions(int saveFormat) {#XamlFlowSaveOptions-int}
 ```
 public XamlFlowSaveOptions(int saveFormat)
 ```
@@ -102,7 +105,7 @@ Initializes a new instance of this class.
 | --- | --- | --- |
 | saveFormat | int |  |
 
-### createSaveOptions(int saveFormat) {#createSaveOptions-int-}
+### createSaveOptions(int saveFormat) {#createSaveOptions-int}
 ```
 public static SaveOptions createSaveOptions(int saveFormat)
 ```
@@ -117,7 +120,7 @@ public static SaveOptions createSaveOptions(int saveFormat)
 
 **Returns:**
 [SaveOptions](../../com.aspose.words/saveoptions)
-### createSaveOptions(String fileName) {#createSaveOptions-java.lang.String-}
+### createSaveOptions(String fileName) {#createSaveOptions-java.lang.String}
 ```
 public static SaveOptions createSaveOptions(String fileName)
 ```
@@ -132,7 +135,7 @@ Creates a save options object of a class suitable for the file extension specifi
 
 **Returns:**
 [SaveOptions](../../com.aspose.words/saveoptions) - An object of a class that derives from [SaveOptions](../../com.aspose.words/saveoptions).
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -147,21 +150,21 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getAllowEmbeddingPostScriptFonts() {#getAllowEmbeddingPostScriptFonts--}
+### getAllowEmbeddingPostScriptFonts() {#getAllowEmbeddingPostScriptFonts}
 ```
 public boolean getAllowEmbeddingPostScriptFonts()
 ```
 
 
-Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**.
+Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is  false .
 
 Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
 
-This option only works when [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-) of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--) property is set to  true .
+This option only works when [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean) of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos) property is set to  true .
 
 **Returns:**
 boolean - A boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -171,17 +174,17 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDefaultTemplate() {#getDefaultTemplate--}
+### getDefaultTemplate() {#getDefaultTemplate}
 ```
 public String getDefaultTemplate()
 ```
 
 
-Gets path to default template (including filename). Default value for this property is **empty string**. If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles--) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean-) is true, but [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-) is empty.
+Gets path to default template (including filename). Default value for this property is **empty string**. If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean) is  true , but [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String) is empty.
 
 **Returns:**
 java.lang.String - Path to default template (including filename).
-### getDml3DEffectsRenderingMode() {#getDml3DEffectsRenderingMode--}
+### getDml3DEffectsRenderingMode() {#getDml3DEffectsRenderingMode}
 ```
 public int getDml3DEffectsRenderingMode()
 ```
@@ -191,7 +194,7 @@ Gets a value determining how 3D effects are rendered. The default value is [Dml3
 
 **Returns:**
 int - A value determining how 3D effects are rendered. The returned value is one of [Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode) constants.
-### getDmlEffectsRenderingMode() {#getDmlEffectsRenderingMode--}
+### getDmlEffectsRenderingMode() {#getDmlEffectsRenderingMode}
 ```
 public int getDmlEffectsRenderingMode()
 ```
@@ -203,7 +206,7 @@ This property is used when the document is exported to fixed page formats.
 
 **Returns:**
 int - A value determining how DrawingML effects are rendered. The returned value is one of [DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode) constants.
-### getDmlRenderingMode() {#getDmlRenderingMode--}
+### getDmlRenderingMode() {#getDmlRenderingMode}
 ```
 public int getDmlRenderingMode()
 ```
@@ -215,17 +218,17 @@ This property is used when the document is exported to fixed page formats.
 
 **Returns:**
 int - A value determining how DrawingML shapes are rendered. The returned value is one of [DmlRenderingMode](../../com.aspose.words/dmlrenderingmode) constants.
-### getExportGeneratorName() {#getExportGeneratorName--}
+### getExportGeneratorName() {#getExportGeneratorName}
 ```
 public boolean getExportGeneratorName()
 ```
 
 
-When true, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**.
+When  true , causes the name and version of Aspose.Words to be embedded into produced files. Default value is  true .
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getImageSavingCallback() {#getImageSavingCallback--}
+### getImageSavingCallback() {#getImageSavingCallback}
 ```
 public IImageSavingCallback getImageSavingCallback()
 ```
@@ -235,7 +238,7 @@ Allows to control how images are saved when a document is saved to XAML.
 
 **Returns:**
 [IImageSavingCallback](../../com.aspose.words/iimagesavingcallback) - The corresponding [IImageSavingCallback](../../com.aspose.words/iimagesavingcallback) value.
-### getImagesFolder() {#getImagesFolder--}
+### getImagesFolder() {#getImagesFolder}
 ```
 public String getImagesFolder()
 ```
@@ -243,15 +246,15 @@ public String getImagesFolder()
 
 Specifies the physical folder where images are saved when exporting a document to XAML format. Default is an empty string.
 
-When you save a [Document](../../com.aspose.words/document) in XAML format, Aspose.Words needs to save all images embedded in the document as standalone files. [getImagesFolder()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolder-java.lang.String-) allows you to specify where the images will be saved and [getImagesFolderAlias()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolderAlias-java.lang.String-) allows to specify how the image URIs will be constructed.
+When you save a [Document](../../com.aspose.words/document) in XAML format, Aspose.Words needs to save all images embedded in the document as standalone files. [getImagesFolder()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolder-java.lang.String) allows you to specify where the images will be saved and [getImagesFolderAlias()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolderAlias-java.lang.String) allows to specify how the image URIs will be constructed.
 
-If you save a document into a file and provide a file name, Aspose.Words, by default, saves the images in the same folder where the document file is saved. Use [getImagesFolder()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolder-java.lang.String-) to override this behavior.
+If you save a document into a file and provide a file name, Aspose.Words, by default, saves the images in the same folder where the document file is saved. Use [getImagesFolder()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolder-java.lang.String) to override this behavior.
 
-If you save a document into a stream, Aspose.Words does not have a folder where to save the images, but still needs to save the images somewhere. In this case, you need to specify an accessible folder in the [getImagesFolder()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolder-java.lang.String-) property or provide custom streams via the [getImageSavingCallback()](../../com.aspose.words/xamlflowsaveoptions\#getImageSavingCallback--) / [setImageSavingCallback(com.aspose.words.IImageSavingCallback)](../../com.aspose.words/xamlflowsaveoptions\#setImageSavingCallback-com.aspose.words.IImageSavingCallback-) event handler.
+If you save a document into a stream, Aspose.Words does not have a folder where to save the images, but still needs to save the images somewhere. In this case, you need to specify an accessible folder in the [getImagesFolder()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolder-java.lang.String) property or provide custom streams via the [getImageSavingCallback()](../../com.aspose.words/xamlflowsaveoptions\#getImageSavingCallback) / [setImageSavingCallback(com.aspose.words.IImageSavingCallback)](../../com.aspose.words/xamlflowsaveoptions\#setImageSavingCallback-com.aspose.words.IImageSavingCallback) event handler.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### getImagesFolderAlias() {#getImagesFolderAlias--}
+### getImagesFolderAlias() {#getImagesFolderAlias}
 ```
 public String getImagesFolderAlias()
 ```
@@ -259,20 +262,20 @@ public String getImagesFolderAlias()
 
 Specifies the name of the folder used to construct image URIs written into an XAML document. Default is an empty string.
 
-When you save a [Document](../../com.aspose.words/document) in XAML format, Aspose.Words needs to save all images embedded in the document as standalone files. [getImagesFolder()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolder-java.lang.String-) allows you to specify where the images will be saved and [getImagesFolderAlias()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolderAlias-java.lang.String-) allows to specify how the image URIs will be constructed.
+When you save a [Document](../../com.aspose.words/document) in XAML format, Aspose.Words needs to save all images embedded in the document as standalone files. [getImagesFolder()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolder-java.lang.String) allows you to specify where the images will be saved and [getImagesFolderAlias()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolderAlias-java.lang.String) allows to specify how the image URIs will be constructed.
 
-If [getImagesFolderAlias()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolderAlias-java.lang.String-) is not an empty string, then the image URI written to XAML will be *ImagesFolderAlias + ![Image 1][]*.
+If [getImagesFolderAlias()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolderAlias-java.lang.String) is not an empty string, then the image URI written to XAML will be *ImagesFolderAlias + ![Image 1][]*.
 
-If [getImagesFolderAlias()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolderAlias-java.lang.String-) is an empty string, then the image URI written to XAML will be *ImagesFolder + ![Image 1][]*.
+If [getImagesFolderAlias()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolderAlias-java.lang.String) is an empty string, then the image URI written to XAML will be *ImagesFolder + ![Image 1][]*.
 
-If [getImagesFolderAlias()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolderAlias-java.lang.String-) is set to '.' (dot), then the image file name will be written to XAML without path regardless of other options.
+If [getImagesFolderAlias()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolderAlias-java.lang.String) is set to '.' (dot), then the image file name will be written to XAML without path regardless of other options.
 
 
 [Image 1]: 
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### getImlRenderingMode() {#getImlRenderingMode--}
+### getImlRenderingMode() {#getImlRenderingMode}
 ```
 public int getImlRenderingMode()
 ```
@@ -284,29 +287,29 @@ This property is used when the document is exported to fixed page formats.
 
 **Returns:**
 int - A value determining how ink (InkML) objects are rendered. The returned value is one of [ImlRenderingMode](../../com.aspose.words/imlrenderingmode) constants.
-### getMemoryOptimization() {#getMemoryOptimization--}
+### getMemoryOptimization() {#getMemoryOptimization}
 ```
 public boolean getMemoryOptimization()
 ```
 
 
-Gets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**. Setting this option to true can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
+Gets value determining if memory optimization should be performed before saving the document. Default value for this property is  false . Setting this option to  true  can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
 
 **Returns:**
 boolean - Value determining if memory optimization should be performed before saving the document.
-### getPrettyFormat() {#getPrettyFormat--}
+### getPrettyFormat() {#getPrettyFormat}
 ```
 public boolean getPrettyFormat()
 ```
 
 
-When  true , pretty formats output where applicable. Default value is **false**.
+When  true , pretty formats output where applicable. Default value is  false .
 
-Set to **true** to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable. Useful for testing or debugging.
+Set to  true  to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable. Useful for testing or debugging.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getProgressCallback() {#getProgressCallback--}
+### getProgressCallback() {#getProgressCallback}
 ```
 public IDocumentSavingCallback getProgressCallback()
 ```
@@ -318,7 +321,7 @@ Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/sav
 
 **Returns:**
 [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) - The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) value.
-### getSaveFormat() {#getSaveFormat--}
+### getSaveFormat() {#getSaveFormat}
 ```
 public int getSaveFormat()
 ```
@@ -328,7 +331,7 @@ Specifies the format in which the document will be saved if this save options ob
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [SaveFormat](../../com.aspose.words/saveformat) constants.
-### getTempFolder() {#getTempFolder--}
+### getTempFolder() {#getTempFolder}
 ```
 public String getTempFolder()
 ```
@@ -338,7 +341,7 @@ Specifies the folder for temporary files used when saving to a DOC or DOCX file.
 
 When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
 
-If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions\#getTempFolder--) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions\#setTempFolder-java.lang.String-) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
+If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions\#getTempFolder) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions\#setTempFolder-java.lang.String) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
 
 The folder must exist and be writable, otherwise an exception will be thrown.
 
@@ -346,47 +349,47 @@ Aspose.Words automatically deletes all temporary files when saving is complete.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### getUpdateCreatedTimeProperty() {#getUpdateCreatedTimeProperty--}
+### getUpdateCreatedTimeProperty() {#getUpdateCreatedTimeProperty}
 ```
 public boolean getUpdateCreatedTimeProperty()
 ```
 
 
-Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. Default value is false;
+Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date) property is updated before saving. Default value is  false ;
 
 **Returns:**
-boolean - A value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving.
-### getUpdateFields() {#getUpdateFields--}
+boolean - A value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date) property is updated before saving.
+### getUpdateFields() {#getUpdateFields}
 ```
 public boolean getUpdateFields()
 ```
 
 
-Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. Allows to specify whether to mimic or not MS Word behavior.
+Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is  true . Allows to specify whether to mimic or not MS Word behavior.
 
 **Returns:**
 boolean - A value determining if fields of certain types should be updated before saving the document to a fixed page format.
-### getUpdateLastPrintedProperty() {#getUpdateLastPrintedProperty--}
+### getUpdateLastPrintedProperty() {#getUpdateLastPrintedProperty}
 ```
 public boolean getUpdateLastPrintedProperty()
 ```
 
 
-Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving.
+Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date) property is updated before saving.
 
 **Returns:**
-boolean - A value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving.
-### getUpdateLastSavedTimeProperty() {#getUpdateLastSavedTimeProperty--}
+boolean - A value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date) property is updated before saving.
+### getUpdateLastSavedTimeProperty() {#getUpdateLastSavedTimeProperty}
 ```
 public boolean getUpdateLastSavedTimeProperty()
 ```
 
 
-Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving.
+Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date) property is updated before saving.
 
 **Returns:**
-boolean - A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving.
-### getUpdateSdtContent() {#getUpdateSdtContent--}
+boolean - A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date) property is updated before saving.
+### getUpdateSdtContent() {#getUpdateSdtContent}
 ```
 public boolean getUpdateSdtContent()
 ```
@@ -396,7 +399,7 @@ Gets value determining whether content of [StructuredDocumentTag](../../com.aspo
 
 **Returns:**
 boolean - Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving.
-### getUseAntiAliasing() {#getUseAntiAliasing--}
+### getUseAntiAliasing() {#getUseAntiAliasing}
 ```
 public boolean getUseAntiAliasing()
 ```
@@ -410,7 +413,7 @@ This property is used when the document is exported to the following formats: [S
 
 **Returns:**
 boolean - A value determining whether or not to use anti-aliasing for rendering.
-### getUseHighQualityRendering() {#getUseHighQualityRendering--}
+### getUseHighQualityRendering() {#getUseHighQualityRendering}
 ```
 public boolean getUseHighQualityRendering()
 ```
@@ -422,7 +425,7 @@ This property is used when the document is exported to image formats: [SaveForma
 
 **Returns:**
 boolean - A value determining whether or not to use high quality (i.e.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -432,7 +435,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -440,7 +443,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -448,37 +451,37 @@ public final native void notifyAll()
 
 
 
-### setAllowEmbeddingPostScriptFonts(boolean value) {#setAllowEmbeddingPostScriptFonts-boolean-}
+### setAllowEmbeddingPostScriptFonts(boolean value) {#setAllowEmbeddingPostScriptFonts-boolean}
 ```
 public void setAllowEmbeddingPostScriptFonts(boolean value)
 ```
 
 
-Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**.
+Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is  false .
 
 Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
 
-This option only works when [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-) of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--) property is set to  true .
+This option only works when [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean) of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos) property is set to  true .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 
-### setDefaultTemplate(String value) {#setDefaultTemplate-java.lang.String-}
+### setDefaultTemplate(String value) {#setDefaultTemplate-java.lang.String}
 ```
 public void setDefaultTemplate(String value)
 ```
 
 
-Sets path to default template (including filename). Default value for this property is **empty string**. If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles--) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean-) is true, but [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-) is empty.
+Sets path to default template (including filename). Default value for this property is **empty string**. If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean) is  true , but [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String) is empty.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | Path to default template (including filename). |
 
-### setDml3DEffectsRenderingMode(int value) {#setDml3DEffectsRenderingMode-int-}
+### setDml3DEffectsRenderingMode(int value) {#setDml3DEffectsRenderingMode-int}
 ```
 public void setDml3DEffectsRenderingMode(int value)
 ```
@@ -491,7 +494,7 @@ Sets a value determining how 3D effects are rendered. The default value is [Dml3
 | --- | --- | --- |
 | value | int | A value determining how 3D effects are rendered. The value must be one of [Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode) constants. |
 
-### setDmlEffectsRenderingMode(int value) {#setDmlEffectsRenderingMode-int-}
+### setDmlEffectsRenderingMode(int value) {#setDmlEffectsRenderingMode-int}
 ```
 public void setDmlEffectsRenderingMode(int value)
 ```
@@ -506,7 +509,7 @@ This property is used when the document is exported to fixed page formats.
 | --- | --- | --- |
 | value | int | A value determining how DrawingML effects are rendered. The value must be one of [DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode) constants. |
 
-### setDmlRenderingMode(int value) {#setDmlRenderingMode-int-}
+### setDmlRenderingMode(int value) {#setDmlRenderingMode-int}
 ```
 public void setDmlRenderingMode(int value)
 ```
@@ -521,20 +524,20 @@ This property is used when the document is exported to fixed page formats.
 | --- | --- | --- |
 | value | int | A value determining how DrawingML shapes are rendered. The value must be one of [DmlRenderingMode](../../com.aspose.words/dmlrenderingmode) constants. |
 
-### setExportGeneratorName(boolean value) {#setExportGeneratorName-boolean-}
+### setExportGeneratorName(boolean value) {#setExportGeneratorName-boolean}
 ```
 public void setExportGeneratorName(boolean value)
 ```
 
 
-When true, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**.
+When  true , causes the name and version of Aspose.Words to be embedded into produced files. Default value is  true .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setImageSavingCallback(IImageSavingCallback value) {#setImageSavingCallback-com.aspose.words.IImageSavingCallback-}
+### setImageSavingCallback(IImageSavingCallback value) {#setImageSavingCallback-com.aspose.words.IImageSavingCallback}
 ```
 public void setImageSavingCallback(IImageSavingCallback value)
 ```
@@ -547,7 +550,7 @@ Allows to control how images are saved when a document is saved to XAML.
 | --- | --- | --- |
 | value | [IImageSavingCallback](../../com.aspose.words/iimagesavingcallback) | The corresponding [IImageSavingCallback](../../com.aspose.words/iimagesavingcallback) value. |
 
-### setImagesFolder(String value) {#setImagesFolder-java.lang.String-}
+### setImagesFolder(String value) {#setImagesFolder-java.lang.String}
 ```
 public void setImagesFolder(String value)
 ```
@@ -555,18 +558,18 @@ public void setImagesFolder(String value)
 
 Specifies the physical folder where images are saved when exporting a document to XAML format. Default is an empty string.
 
-When you save a [Document](../../com.aspose.words/document) in XAML format, Aspose.Words needs to save all images embedded in the document as standalone files. [getImagesFolder()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolder-java.lang.String-) allows you to specify where the images will be saved and [getImagesFolderAlias()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolderAlias-java.lang.String-) allows to specify how the image URIs will be constructed.
+When you save a [Document](../../com.aspose.words/document) in XAML format, Aspose.Words needs to save all images embedded in the document as standalone files. [getImagesFolder()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolder-java.lang.String) allows you to specify where the images will be saved and [getImagesFolderAlias()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolderAlias-java.lang.String) allows to specify how the image URIs will be constructed.
 
-If you save a document into a file and provide a file name, Aspose.Words, by default, saves the images in the same folder where the document file is saved. Use [getImagesFolder()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolder-java.lang.String-) to override this behavior.
+If you save a document into a file and provide a file name, Aspose.Words, by default, saves the images in the same folder where the document file is saved. Use [getImagesFolder()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolder-java.lang.String) to override this behavior.
 
-If you save a document into a stream, Aspose.Words does not have a folder where to save the images, but still needs to save the images somewhere. In this case, you need to specify an accessible folder in the [getImagesFolder()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolder-java.lang.String-) property or provide custom streams via the [getImageSavingCallback()](../../com.aspose.words/xamlflowsaveoptions\#getImageSavingCallback--) / [setImageSavingCallback(com.aspose.words.IImageSavingCallback)](../../com.aspose.words/xamlflowsaveoptions\#setImageSavingCallback-com.aspose.words.IImageSavingCallback-) event handler.
+If you save a document into a stream, Aspose.Words does not have a folder where to save the images, but still needs to save the images somewhere. In this case, you need to specify an accessible folder in the [getImagesFolder()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolder-java.lang.String) property or provide custom streams via the [getImageSavingCallback()](../../com.aspose.words/xamlflowsaveoptions\#getImageSavingCallback) / [setImageSavingCallback(com.aspose.words.IImageSavingCallback)](../../com.aspose.words/xamlflowsaveoptions\#setImageSavingCallback-com.aspose.words.IImageSavingCallback) event handler.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### setImagesFolderAlias(String value) {#setImagesFolderAlias-java.lang.String-}
+### setImagesFolderAlias(String value) {#setImagesFolderAlias-java.lang.String}
 ```
 public void setImagesFolderAlias(String value)
 ```
@@ -574,13 +577,13 @@ public void setImagesFolderAlias(String value)
 
 Specifies the name of the folder used to construct image URIs written into an XAML document. Default is an empty string.
 
-When you save a [Document](../../com.aspose.words/document) in XAML format, Aspose.Words needs to save all images embedded in the document as standalone files. [getImagesFolder()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolder-java.lang.String-) allows you to specify where the images will be saved and [getImagesFolderAlias()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolderAlias-java.lang.String-) allows to specify how the image URIs will be constructed.
+When you save a [Document](../../com.aspose.words/document) in XAML format, Aspose.Words needs to save all images embedded in the document as standalone files. [getImagesFolder()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolder-java.lang.String) allows you to specify where the images will be saved and [getImagesFolderAlias()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolderAlias-java.lang.String) allows to specify how the image URIs will be constructed.
 
-If [getImagesFolderAlias()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolderAlias-java.lang.String-) is not an empty string, then the image URI written to XAML will be *ImagesFolderAlias + ![Image 1][]*.
+If [getImagesFolderAlias()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolderAlias-java.lang.String) is not an empty string, then the image URI written to XAML will be *ImagesFolderAlias + ![Image 1][]*.
 
-If [getImagesFolderAlias()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolderAlias-java.lang.String-) is an empty string, then the image URI written to XAML will be *ImagesFolder + ![Image 1][]*.
+If [getImagesFolderAlias()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolderAlias-java.lang.String) is an empty string, then the image URI written to XAML will be *ImagesFolder + ![Image 1][]*.
 
-If [getImagesFolderAlias()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolderAlias-java.lang.String-) is set to '.' (dot), then the image file name will be written to XAML without path regardless of other options.
+If [getImagesFolderAlias()](../../com.aspose.words/xamlflowsaveoptions\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/xamlflowsaveoptions\#setImagesFolderAlias-java.lang.String) is set to '.' (dot), then the image file name will be written to XAML without path regardless of other options.
 
 
 [Image 1]: 
@@ -590,7 +593,7 @@ If [getImagesFolderAlias()](../../com.aspose.words/xamlflowsaveoptions\#getImage
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### setImlRenderingMode(int value) {#setImlRenderingMode-int-}
+### setImlRenderingMode(int value) {#setImlRenderingMode-int}
 ```
 public void setImlRenderingMode(int value)
 ```
@@ -605,35 +608,35 @@ This property is used when the document is exported to fixed page formats.
 | --- | --- | --- |
 | value | int | A value determining how ink (InkML) objects are rendered. The value must be one of [ImlRenderingMode](../../com.aspose.words/imlrenderingmode) constants. |
 
-### setMemoryOptimization(boolean value) {#setMemoryOptimization-boolean-}
+### setMemoryOptimization(boolean value) {#setMemoryOptimization-boolean}
 ```
 public void setMemoryOptimization(boolean value)
 ```
 
 
-Sets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**. Setting this option to true can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
+Sets value determining if memory optimization should be performed before saving the document. Default value for this property is  false . Setting this option to  true  can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | Value determining if memory optimization should be performed before saving the document. |
 
-### setPrettyFormat(boolean value) {#setPrettyFormat-boolean-}
+### setPrettyFormat(boolean value) {#setPrettyFormat-boolean}
 ```
 public void setPrettyFormat(boolean value)
 ```
 
 
-When  true , pretty formats output where applicable. Default value is **false**.
+When  true , pretty formats output where applicable. Default value is  false .
 
-Set to **true** to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable. Useful for testing or debugging.
+Set to  true  to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable. Useful for testing or debugging.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setProgressCallback(IDocumentSavingCallback value) {#setProgressCallback-com.aspose.words.IDocumentSavingCallback-}
+### setProgressCallback(IDocumentSavingCallback value) {#setProgressCallback-com.aspose.words.IDocumentSavingCallback}
 ```
 public void setProgressCallback(IDocumentSavingCallback value)
 ```
@@ -648,7 +651,7 @@ Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/sav
 | --- | --- | --- |
 | value | [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) | The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) value. |
 
-### setSaveFormat(int value) {#setSaveFormat-int-}
+### setSaveFormat(int value) {#setSaveFormat-int}
 ```
 public void setSaveFormat(int value)
 ```
@@ -661,7 +664,7 @@ Specifies the format in which the document will be saved if this save options ob
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [SaveFormat](../../com.aspose.words/saveformat) constants. |
 
-### setTempFolder(String value) {#setTempFolder-java.lang.String-}
+### setTempFolder(String value) {#setTempFolder-java.lang.String}
 ```
 public void setTempFolder(String value)
 ```
@@ -671,7 +674,7 @@ Specifies the folder for temporary files used when saving to a DOC or DOCX file.
 
 When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
 
-If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions\#getTempFolder--) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions\#setTempFolder-java.lang.String-) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
+If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions\#getTempFolder) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions\#setTempFolder-java.lang.String) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
 
 The folder must exist and be writable, otherwise an exception will be thrown.
 
@@ -682,59 +685,59 @@ Aspose.Words automatically deletes all temporary files when saving is complete.
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### setUpdateCreatedTimeProperty(boolean value) {#setUpdateCreatedTimeProperty-boolean-}
+### setUpdateCreatedTimeProperty(boolean value) {#setUpdateCreatedTimeProperty-boolean}
 ```
 public void setUpdateCreatedTimeProperty(boolean value)
 ```
 
 
-Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. Default value is false;
+Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date) property is updated before saving. Default value is  false ;
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | A value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. |
+| value | boolean | A value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date) property is updated before saving. |
 
-### setUpdateFields(boolean value) {#setUpdateFields-boolean-}
+### setUpdateFields(boolean value) {#setUpdateFields-boolean}
 ```
 public void setUpdateFields(boolean value)
 ```
 
 
-Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. Allows to specify whether to mimic or not MS Word behavior.
+Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is  true . Allows to specify whether to mimic or not MS Word behavior.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value determining if fields of certain types should be updated before saving the document to a fixed page format. |
 
-### setUpdateLastPrintedProperty(boolean value) {#setUpdateLastPrintedProperty-boolean-}
+### setUpdateLastPrintedProperty(boolean value) {#setUpdateLastPrintedProperty-boolean}
 ```
 public void setUpdateLastPrintedProperty(boolean value)
 ```
 
 
-Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving.
+Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date) property is updated before saving.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | A value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving. |
+| value | boolean | A value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date) property is updated before saving. |
 
-### setUpdateLastSavedTimeProperty(boolean value) {#setUpdateLastSavedTimeProperty-boolean-}
+### setUpdateLastSavedTimeProperty(boolean value) {#setUpdateLastSavedTimeProperty-boolean}
 ```
 public void setUpdateLastSavedTimeProperty(boolean value)
 ```
 
 
-Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving.
+Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date) property is updated before saving.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving. |
+| value | boolean | A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date) property is updated before saving. |
 
-### setUpdateSdtContent(boolean value) {#setUpdateSdtContent-boolean-}
+### setUpdateSdtContent(boolean value) {#setUpdateSdtContent-boolean}
 ```
 public void setUpdateSdtContent(boolean value)
 ```
@@ -747,7 +750,7 @@ Sets value determining whether content of [StructuredDocumentTag](../../com.aspo
 | --- | --- | --- |
 | value | boolean | Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. |
 
-### setUseAntiAliasing(boolean value) {#setUseAntiAliasing-boolean-}
+### setUseAntiAliasing(boolean value) {#setUseAntiAliasing-boolean}
 ```
 public void setUseAntiAliasing(boolean value)
 ```
@@ -764,7 +767,7 @@ This property is used when the document is exported to the following formats: [S
 | --- | --- | --- |
 | value | boolean | A value determining whether or not to use anti-aliasing for rendering. |
 
-### setUseHighQualityRendering(boolean value) {#setUseHighQualityRendering-boolean-}
+### setUseHighQualityRendering(boolean value) {#setUseHighQualityRendering-boolean}
 ```
 public void setUseHighQualityRendering(boolean value)
 ```
@@ -779,7 +782,7 @@ This property is used when the document is exported to image formats: [SaveForma
 | --- | --- | --- |
 | value | boolean | A value determining whether or not to use high quality (i.e. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -789,7 +792,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -797,7 +800,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -810,7 +813,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

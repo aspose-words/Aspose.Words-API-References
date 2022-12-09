@@ -3,7 +3,7 @@ title: WarningInfoCollection
 second_title: Aspose.Words for Java API Reference
 description: Represents a typed collection of  objects.
 type: docs
-weight: 605
+weight: 608
 url: /java/com.aspose.words/warninginfocollection/
 ---
 
@@ -18,28 +18,31 @@ public class WarningInfoCollection implements IWarningCallback, Iterable
 
 Represents a typed collection of [WarningInfo](../../com.aspose.words/warninginfo) objects.
 
-To learn more, visit the **Programming with Documents** documentation article.
+To learn more, visit the [ Programming with Documents ][Programming with Documents] documentation article.
 
-You can use this collection object as the simplest form of [IWarningCallback](../../com.aspose.words/iwarningcallback) implementation to gather all warnings that Aspose.Words generates during a load or save operation. Create an instance of this class and assign it to the [LoadOptions.getWarningCallback()](../../com.aspose.words/loadoptions\#getWarningCallback--) / [LoadOptions.setWarningCallback(com.aspose.words.IWarningCallback)](../../com.aspose.words/loadoptions\#setWarningCallback-com.aspose.words.IWarningCallback-) or [DocumentBase.getWarningCallback()](../../com.aspose.words/documentbase\#getWarningCallback--) / [DocumentBase.setWarningCallback(com.aspose.words.IWarningCallback)](../../com.aspose.words/documentbase\#setWarningCallback-com.aspose.words.IWarningCallback-) property.
+You can use this collection object as the simplest form of [IWarningCallback](../../com.aspose.words/iwarningcallback) implementation to gather all warnings that Aspose.Words generates during a load or save operation. Create an instance of this class and assign it to the [LoadOptions.getWarningCallback()](../../com.aspose.words/loadoptions\#getWarningCallback) / [LoadOptions.setWarningCallback(com.aspose.words.IWarningCallback)](../../com.aspose.words/loadoptions\#setWarningCallback-com.aspose.words.IWarningCallback) or [DocumentBase.getWarningCallback()](../../com.aspose.words/documentbase\#getWarningCallback) / [DocumentBase.setWarningCallback(com.aspose.words.IWarningCallback)](../../com.aspose.words/documentbase\#setWarningCallback-com.aspose.words.IWarningCallback) property.
+
+
+[Programming with Documents]: https://docs.aspose.com/words/java/programming-with-documents/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [clear()](#clear--) | Removes all elements from the collection. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Gets an item at the specified index. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Returns an iterator object that can be used to iterate over all items in the collection. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-| [warning(WarningInfo info)](#warning-com.aspose.words.WarningInfo-) | Implements the [IWarningCallback](../../com.aspose.words/iwarningcallback) interface. |
-### clear() {#clear--}
+| [clear()](#clear) | Removes all elements from the collection. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [get(int index)](#get-int) | Gets an item at the specified index. |
+| [getClass()](#getClass) |  |
+| [getCount()](#getCount) | Gets the number of elements contained in the collection. |
+| [hashCode()](#hashCode) |  |
+| [iterator()](#iterator) | Returns an iterator object that can be used to iterate over all items in the collection. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+| [warning(WarningInfo info)](#warning-com.aspose.words.WarningInfo) | Implements the [IWarningCallback](../../com.aspose.words/iwarningcallback) interface. |
+### clear() {#clear}
 ```
 public void clear()
 ```
@@ -47,7 +50,7 @@ public void clear()
 
 Removes all elements from the collection.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -62,7 +65,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### get(int index) {#get-int-}
+### get(int index) {#get-int}
 ```
 public WarningInfo get(int index)
 ```
@@ -77,7 +80,7 @@ Gets an item at the specified index.
 
 **Returns:**
 [WarningInfo](../../com.aspose.words/warninginfo) - An item at the specified index.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -87,7 +90,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCount() {#getCount--}
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -97,7 +100,7 @@ Gets the number of elements contained in the collection.
 
 **Returns:**
 int - The number of elements contained in the collection.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -107,7 +110,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### iterator() {#iterator--}
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -117,7 +120,7 @@ Returns an iterator object that can be used to iterate over all items in the col
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -125,7 +128,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -133,7 +136,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -143,7 +146,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -151,7 +154,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -164,7 +167,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```
@@ -178,7 +181,7 @@ public final void wait(long arg0, int arg1)
 | arg0 | long |  |
 | arg1 | int |  |
 
-### warning(WarningInfo info) {#warning-com.aspose.words.WarningInfo-}
+### warning(WarningInfo info) {#warning-com.aspose.words.WarningInfo}
 ```
 public void warning(WarningInfo info)
 ```

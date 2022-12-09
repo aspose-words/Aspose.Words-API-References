@@ -3,7 +3,7 @@ title: SdtListItem
 second_title: Aspose.Words for Java API Reference
 description: This element specifies a single list item within a parent  or  structured document tag.
 type: docs
-weight: 506
+weight: 509
 url: /java/com.aspose.words/sdtlistitem/
 ---
 
@@ -18,29 +18,32 @@ public class SdtListItem implements Cloneable
 
 This element specifies a single list item within a parent [SdtType.COMBO\_BOX](../../com.aspose.words/sdttype\#COMBO-BOX) or [SdtType.DROP\_DOWN\_LIST](../../com.aspose.words/sdttype\#DROP-DOWN-LIST) structured document tag.
 
-To learn more, visit the **Structured Document Tags or Content Control** documentation article.
+To learn more, visit the [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control] documentation article.
+
+
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/structured-document-tags-or-content-control/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [SdtListItem(String displayText, String value)](#SdtListItem-java.lang.String-java.lang.String-) | Initializes a new instance of this class. |
-| [SdtListItem(String value)](#SdtListItem-java.lang.String-) | Initializes a new instance of this class. |
+| [SdtListItem(String displayText, String value)](#SdtListItem-java.lang.String-java.lang.String) | Initializes a new instance of this class. |
+| [SdtListItem(String value)](#SdtListItem-java.lang.String) | Initializes a new instance of this class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getDisplayText()](#getDisplayText--) | Gets the text to display in the run content in place of the [getValue()](../../com.aspose.words/sdtlistitem\#getValue--) attribute contents for this list item. |
-| [getValue()](#getValue--) | Gets the value of this list item. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### SdtListItem(String displayText, String value) {#SdtListItem-java.lang.String-java.lang.String-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getDisplayText()](#getDisplayText) | Gets the text to display in the run content in place of the [getValue()](../../com.aspose.words/sdtlistitem\#getValue) attribute contents for this list item. |
+| [getValue()](#getValue) | Gets the value of this list item. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### SdtListItem(String displayText, String value) {#SdtListItem-java.lang.String-java.lang.String}
 ```
 public SdtListItem(String displayText, String value)
 ```
@@ -54,7 +57,7 @@ Initializes a new instance of this class.
 | displayText | java.lang.String |  |
 | value | java.lang.String |  |
 
-### SdtListItem(String value) {#SdtListItem-java.lang.String-}
+### SdtListItem(String value) {#SdtListItem-java.lang.String}
 ```
 public SdtListItem(String value)
 ```
@@ -67,7 +70,7 @@ Initializes a new instance of this class.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -82,7 +85,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -92,19 +95,19 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDisplayText() {#getDisplayText--}
+### getDisplayText() {#getDisplayText}
 ```
 public String getDisplayText()
 ```
 
 
-Gets the text to display in the run content in place of the [getValue()](../../com.aspose.words/sdtlistitem\#getValue--) attribute contents for this list item.
+Gets the text to display in the run content in place of the [getValue()](../../com.aspose.words/sdtlistitem\#getValue) attribute contents for this list item.
 
-Cannot be null and cannot be an empty string.
+Cannot be  null  and cannot be an empty string.
 
 **Returns:**
-java.lang.String - The text to display in the run content in place of the [getValue()](../../com.aspose.words/sdtlistitem\#getValue--) attribute contents for this list item.
-### getValue() {#getValue--}
+java.lang.String - The text to display in the run content in place of the [getValue()](../../com.aspose.words/sdtlistitem\#getValue) attribute contents for this list item.
+### getValue() {#getValue}
 ```
 public String getValue()
 ```
@@ -112,11 +115,11 @@ public String getValue()
 
 Gets the value of this list item.
 
-Cannot be null and cannot be an empty string.
+Cannot be  null  and cannot be an empty string.
 
 **Returns:**
 java.lang.String - The value of this list item.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -126,7 +129,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -134,7 +137,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -142,7 +145,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -152,7 +155,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -160,7 +163,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -173,7 +176,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

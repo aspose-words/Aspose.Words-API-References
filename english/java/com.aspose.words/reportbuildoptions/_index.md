@@ -3,7 +3,7 @@ title: ReportBuildOptions
 second_title: Aspose.Words for Java API Reference
 description: Specifies options controlling behavior of  while building a report.
 type: docs
-weight: 477
+weight: 480
 url: /java/com.aspose.words/reportbuildoptions/
 ---
 
@@ -29,22 +29,22 @@ Specifies options controlling behavior of [ReportingEngine](../../com.aspose.wor
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String reportBuildOptionsName)](#fromName-java.lang.String-) |  |
-| [fromNames(Set reportBuildOptionsNames)](#fromNames-java.util.Set-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int reportBuildOptions)](#getName-int-) |  |
-| [getNames(int reportBuildOptions)](#getNames-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int reportBuildOptions)](#toString-int-) |  |
-| [toStringSet(int attr)](#toStringSet-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String reportBuildOptionsName)](#fromName-java.lang.String) |  |
+| [fromNames(Set reportBuildOptionsNames)](#fromNames-java.util.Set) |  |
+| [getClass()](#getClass) |  |
+| [getName(int reportBuildOptions)](#getName-int) |  |
+| [getNames(int reportBuildOptions)](#getNames-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int reportBuildOptions)](#toString-int) |  |
+| [toStringSet(int attr)](#toStringSet-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### ALLOW_MISSING_MEMBERS {#ALLOW-MISSING-MEMBERS}
 ```
 public static int ALLOW_MISSING_MEMBERS
@@ -95,7 +95,7 @@ Specifies that the engine should visit section child nodes (headers, footers, bo
 
 By default, the engine treats headers and footers as if they were linked to section breaks. That is, when visiting section child nodes, a body is visited first and only then, headers and footers are visited. This agrees with Microsoft Word behavior when copy-pasting or removing multi-section contents and produces more correct results in most scenarios.
 
-Prior to Aspose.Words 21.9, the engine used another visiting order: Section child nodes were visited in an order they appear in a document. Apply this value to [ReportingEngine.getOptions()](../../com.aspose.words/reportingengine\#getOptions--) / [ReportingEngine.setOptions(int)](../../com.aspose.words/reportingengine\#setOptions-int-) if compatibility with older versions of Aspose.Words is required.
+Prior to Aspose.Words 21.9, the engine used another visiting order: Section child nodes were visited in an order they appear in a document. Apply this value to [ReportingEngine.getOptions()](../../com.aspose.words/reportingengine\#getOptions) / [ReportingEngine.setOptions(int)](../../com.aspose.words/reportingengine\#setOptions-int) if compatibility with older versions of Aspose.Words is required.
 
 ### length {#length}
 ```
@@ -103,7 +103,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -118,7 +118,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String reportBuildOptionsName) {#fromName-java.lang.String-}
+### fromName(String reportBuildOptionsName) {#fromName-java.lang.String}
 ```
 public static int fromName(String reportBuildOptionsName)
 ```
@@ -133,7 +133,7 @@ public static int fromName(String reportBuildOptionsName)
 
 **Returns:**
 int
-### fromNames(Set reportBuildOptionsNames) {#fromNames-java.util.Set-}
+### fromNames(Set reportBuildOptionsNames) {#fromNames-java.util.Set}
 ```
 public static int fromNames(Set reportBuildOptionsNames)
 ```
@@ -148,7 +148,7 @@ public static int fromNames(Set reportBuildOptionsNames)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -158,7 +158,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int reportBuildOptions) {#getName-int-}
+### getName(int reportBuildOptions) {#getName-int}
 ```
 public static String getName(int reportBuildOptions)
 ```
@@ -173,7 +173,7 @@ public static String getName(int reportBuildOptions)
 
 **Returns:**
 java.lang.String
-### getNames(int reportBuildOptions) {#getNames-int-}
+### getNames(int reportBuildOptions) {#getNames-int}
 ```
 public static Set getNames(int reportBuildOptions)
 ```
@@ -188,7 +188,7 @@ public static Set getNames(int reportBuildOptions)
 
 **Returns:**
 java.util.Set
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -198,7 +198,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -208,7 +208,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -216,7 +216,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -224,7 +224,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -234,7 +234,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int reportBuildOptions) {#toString-int-}
+### toString(int reportBuildOptions) {#toString-int}
 ```
 public static String toString(int reportBuildOptions)
 ```
@@ -249,7 +249,7 @@ public static String toString(int reportBuildOptions)
 
 **Returns:**
 java.lang.String
-### toStringSet(int attr) {#toStringSet-int-}
+### toStringSet(int attr) {#toStringSet-int}
 ```
 public static String toStringSet(int attr)
 ```
@@ -264,7 +264,7 @@ public static String toStringSet(int attr)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -272,7 +272,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -285,7 +285,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

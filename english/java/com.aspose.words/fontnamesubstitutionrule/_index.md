@@ -3,7 +3,7 @@ title: FontNameSubstitutionRule
 second_title: Aspose.Words for Java API Reference
 description: Font substitution rule for processing font name.
 type: docs
-weight: 283
+weight: 285
 url: /java/com.aspose.words/fontnamesubstitutionrule/
 ---
 
@@ -15,25 +15,28 @@ public class FontNameSubstitutionRule extends FontSubstitutionRule
 
 Font substitution rule for processing font name.
 
-To learn more, visit the **Working with Fonts** documentation article.
+To learn more, visit the [ Working with Fonts ][Working with Fonts] documentation article.
 
 According to this rule Aspose.Words tries to process the font name to get the substitution. Particularly Aspose.Words tries to removes suffixes with '-' and ',' separators like it does the MS Word.
+
+
+[Working with Fonts]: https://docs.aspose.com/words/java/working-with-fonts/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getEnabled()](#getEnabled--) | Specifies whether the rule is enabled or not. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | Specifies whether the rule is enabled or not. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getEnabled()](#getEnabled) | Specifies whether the rule is enabled or not. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setEnabled(boolean value)](#setEnabled-boolean) | Specifies whether the rule is enabled or not. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -48,7 +51,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -58,7 +61,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getEnabled() {#getEnabled--}
+### getEnabled() {#getEnabled}
 ```
 public boolean getEnabled()
 ```
@@ -68,7 +71,7 @@ Specifies whether the rule is enabled or not.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -78,7 +81,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -86,7 +89,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -94,7 +97,7 @@ public final native void notifyAll()
 
 
 
-### setEnabled(boolean value) {#setEnabled-boolean-}
+### setEnabled(boolean value) {#setEnabled-boolean}
 ```
 public void setEnabled(boolean value)
 ```
@@ -107,7 +110,7 @@ Specifies whether the rule is enabled or not.
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -117,7 +120,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -125,7 +128,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -138,7 +141,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

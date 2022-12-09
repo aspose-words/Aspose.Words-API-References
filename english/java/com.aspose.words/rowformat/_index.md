@@ -3,7 +3,7 @@ title: RowFormat
 second_title: Aspose.Words for Java API Reference
 description: Represents all formatting for a table row.
 type: docs
-weight: 494
+weight: 497
 url: /java/com.aspose.words/rowformat/
 ---
 
@@ -15,34 +15,37 @@ public class RowFormat
 
 Represents all formatting for a table row.
 
-To learn more, visit the **Working with Tables** documentation article.
+To learn more, visit the [ Working with Tables ][Working with Tables] documentation article.
+
+
+[Working with Tables]: https://docs.aspose.com/words/java/working-with-tables/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [clearFormatting()](#clearFormatting--) | Resets to default row formatting. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int-) |  |
-| [getAllowBreakAcrossPages()](#getAllowBreakAcrossPages--) | True if the text in a table row is allowed to split across a page break. |
-| [getBorders()](#getBorders--) | Gets the collection of default cell borders for the row. |
-| [getClass()](#getClass--) |  |
-| [getDirectBorderAttr(int key)](#getDirectBorderAttr-int-) |  |
-| [getHeadingFormat()](#getHeadingFormat--) | True if the row is repeated as a table heading on every page when the table spans more than one page. |
-| [getHeight()](#getHeight--) | Gets the height of the table row in points. |
-| [getHeightRule()](#getHeightRule--) | Gets the rule for determining the height of the table row. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setAllowBreakAcrossPages(boolean value)](#setAllowBreakAcrossPages-boolean-) | True if the text in a table row is allowed to split across a page break. |
-| [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object-) |  |
-| [setHeadingFormat(boolean value)](#setHeadingFormat-boolean-) | True if the row is repeated as a table heading on every page when the table spans more than one page. |
-| [setHeight(double value)](#setHeight-double-) | Sets the height of the table row in points. |
-| [setHeightRule(int value)](#setHeightRule-int-) | Sets the rule for determining the height of the table row. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### clearFormatting() {#clearFormatting--}
+| [clearFormatting()](#clearFormatting) | Resets to default row formatting. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int) |  |
+| [getAllowBreakAcrossPages()](#getAllowBreakAcrossPages) | True if the text in a table row is allowed to split across a page break. |
+| [getBorders()](#getBorders) | Gets the collection of default cell borders for the row. |
+| [getClass()](#getClass) |  |
+| [getDirectBorderAttr(int key)](#getDirectBorderAttr-int) |  |
+| [getHeadingFormat()](#getHeadingFormat) | True if the row is repeated as a table heading on every page when the table spans more than one page. |
+| [getHeight()](#getHeight) | Gets the height of the table row in points. |
+| [getHeightRule()](#getHeightRule) | Gets the rule for determining the height of the table row. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setAllowBreakAcrossPages(boolean value)](#setAllowBreakAcrossPages-boolean) | True if the text in a table row is allowed to split across a page break. |
+| [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object) |  |
+| [setHeadingFormat(boolean value)](#setHeadingFormat-boolean) | True if the row is repeated as a table heading on every page when the table spans more than one page. |
+| [setHeight(double value)](#setHeight-double) | Sets the height of the table row in points. |
+| [setHeightRule(int value)](#setHeightRule-int) | Sets the rule for determining the height of the table row. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### clearFormatting() {#clearFormatting}
 ```
 public void clearFormatting()
 ```
@@ -50,7 +53,7 @@ public void clearFormatting()
 
 Resets to default row formatting.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -65,7 +68,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int-}
+### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int}
 ```
 public Object fetchInheritedBorderAttr(int key)
 ```
@@ -80,7 +83,7 @@ public Object fetchInheritedBorderAttr(int key)
 
 **Returns:**
 java.lang.Object
-### getAllowBreakAcrossPages() {#getAllowBreakAcrossPages--}
+### getAllowBreakAcrossPages() {#getAllowBreakAcrossPages}
 ```
 public boolean getAllowBreakAcrossPages()
 ```
@@ -90,7 +93,7 @@ True if the text in a table row is allowed to split across a page break.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getBorders() {#getBorders--}
+### getBorders() {#getBorders}
 ```
 public BorderCollection getBorders()
 ```
@@ -100,7 +103,7 @@ Gets the collection of default cell borders for the row.
 
 **Returns:**
 [BorderCollection](../../com.aspose.words/bordercollection) - The collection of default cell borders for the row.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -110,7 +113,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDirectBorderAttr(int key) {#getDirectBorderAttr-int-}
+### getDirectBorderAttr(int key) {#getDirectBorderAttr-int}
 ```
 public Object getDirectBorderAttr(int key)
 ```
@@ -125,7 +128,7 @@ public Object getDirectBorderAttr(int key)
 
 **Returns:**
 java.lang.Object
-### getHeadingFormat() {#getHeadingFormat--}
+### getHeadingFormat() {#getHeadingFormat}
 ```
 public boolean getHeadingFormat()
 ```
@@ -135,7 +138,7 @@ True if the row is repeated as a table heading on every page when the table span
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getHeight() {#getHeight--}
+### getHeight() {#getHeight}
 ```
 public double getHeight()
 ```
@@ -145,7 +148,7 @@ Gets the height of the table row in points.
 
 **Returns:**
 double - The height of the table row in points.
-### getHeightRule() {#getHeightRule--}
+### getHeightRule() {#getHeightRule}
 ```
 public int getHeightRule()
 ```
@@ -155,7 +158,7 @@ Gets the rule for determining the height of the table row.
 
 **Returns:**
 int - The rule for determining the height of the table row. The returned value is one of [HeightRule](../../com.aspose.words/heightrule) constants.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -165,7 +168,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -173,7 +176,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -181,7 +184,7 @@ public final native void notifyAll()
 
 
 
-### setAllowBreakAcrossPages(boolean value) {#setAllowBreakAcrossPages-boolean-}
+### setAllowBreakAcrossPages(boolean value) {#setAllowBreakAcrossPages-boolean}
 ```
 public void setAllowBreakAcrossPages(boolean value)
 ```
@@ -194,7 +197,7 @@ True if the text in a table row is allowed to split across a page break.
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setBorderAttr(int key, Object value) {#setBorderAttr-int-java.lang.Object-}
+### setBorderAttr(int key, Object value) {#setBorderAttr-int-java.lang.Object}
 ```
 public void setBorderAttr(int key, Object value)
 ```
@@ -208,7 +211,7 @@ public void setBorderAttr(int key, Object value)
 | key | int |  |
 | value | java.lang.Object |  |
 
-### setHeadingFormat(boolean value) {#setHeadingFormat-boolean-}
+### setHeadingFormat(boolean value) {#setHeadingFormat-boolean}
 ```
 public void setHeadingFormat(boolean value)
 ```
@@ -221,7 +224,7 @@ True if the row is repeated as a table heading on every page when the table span
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setHeight(double value) {#setHeight-double-}
+### setHeight(double value) {#setHeight-double}
 ```
 public void setHeight(double value)
 ```
@@ -234,7 +237,7 @@ Sets the height of the table row in points.
 | --- | --- | --- |
 | value | double | The height of the table row in points. |
 
-### setHeightRule(int value) {#setHeightRule-int-}
+### setHeightRule(int value) {#setHeightRule-int}
 ```
 public void setHeightRule(int value)
 ```
@@ -247,7 +250,7 @@ Sets the rule for determining the height of the table row.
 | --- | --- | --- |
 | value | int | The rule for determining the height of the table row. The value must be one of [HeightRule](../../com.aspose.words/heightrule) constants. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -257,7 +260,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -265,7 +268,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -278,7 +281,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

@@ -3,7 +3,7 @@ title: ImageSavingArgs
 second_title: Aspose.Words for Java API Reference
 description: Provides data for the  event.
 type: docs
-weight: 341
+weight: 343
 url: /java/com.aspose.words/imagesavingargs/
 ---
 
@@ -13,40 +13,43 @@ java.lang.Object
 public class ImageSavingArgs
 ```
 
-Provides data for the [IImageSavingCallback.imageSaving(com.aspose.words.ImageSavingArgs)](../../com.aspose.words/iimagesavingcallback\#imageSaving-com.aspose.words.ImageSavingArgs-) event.
+Provides data for the [IImageSavingCallback.imageSaving(com.aspose.words.ImageSavingArgs)](../../com.aspose.words/iimagesavingcallback\#imageSaving-com.aspose.words.ImageSavingArgs) event.
 
-To learn more, visit the **Save a Document** documentation article.
+To learn more, visit the [ Save a Document ][Save a Document] documentation article.
 
 By default, when Aspose.Words saves a document to HTML, it saves each image into a separate file. Aspose.Words uses the document file name and a unique number to generate unique file name for each image found in the document.
 
 [ImageSavingArgs](../../com.aspose.words/imagesavingargs) allows to redefine how image file names are generated or to completely circumvent saving of images into files by providing your own stream objects.
 
-To apply your own logic for generating image file names use the [getImageFileName()](../../com.aspose.words/imagesavingargs\#getImageFileName--) / [setImageFileName(java.lang.String)](../../com.aspose.words/imagesavingargs\#setImageFileName-java.lang.String-), [getCurrentShape()](../../com.aspose.words/imagesavingargs\#getCurrentShape--) and [isImageAvailable()](../../com.aspose.words/imagesavingargs\#isImageAvailable--) properties.
+To apply your own logic for generating image file names use the [getImageFileName()](../../com.aspose.words/imagesavingargs\#getImageFileName) / [setImageFileName(java.lang.String)](../../com.aspose.words/imagesavingargs\#setImageFileName-java.lang.String), [getCurrentShape()](../../com.aspose.words/imagesavingargs\#getCurrentShape) and [isImageAvailable()](../../com.aspose.words/imagesavingargs\#isImageAvailable) properties.
 
 To save images into streams instead of files, use the **P:Aspose.Words.Saving.ImageSavingArgs.ImageStream** property.
+
+
+[Save a Document]: https://docs.aspose.com/words/java/save-a-document/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getCurrentShape()](#getCurrentShape--) | Gets the [ShapeBase](../../com.aspose.words/shapebase) object corresponding to the shape or group shape that is about to be saved. |
-| [getDocument()](#getDocument--) | Gets the document object that is currently being saved. |
-| [getImageFileName()](#getImageFileName--) | Gets the file name (without path) where the image will be saved to. |
-| [getImageStream()](#getImageStream--) |  |
-| [getKeepImageStreamOpen()](#getKeepImageStreamOpen--) | Specifies whether Aspose.Words should keep the stream open or close it after saving an image. |
-| [hashCode()](#hashCode--) |  |
-| [isImageAvailable()](#isImageAvailable--) | Returns  true  if the current image is available for export. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setImageFileName(String value)](#setImageFileName-java.lang.String-) | Sets the file name (without path) where the image will be saved to. |
-| [setImageStream(OutputStream value)](#setImageStream-java.io.OutputStream-) |  |
-| [setKeepImageStreamOpen(boolean value)](#setKeepImageStreamOpen-boolean-) | Specifies whether Aspose.Words should keep the stream open or close it after saving an image. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getCurrentShape()](#getCurrentShape) | Gets the [ShapeBase](../../com.aspose.words/shapebase) object corresponding to the shape or group shape that is about to be saved. |
+| [getDocument()](#getDocument) | Gets the document object that is currently being saved. |
+| [getImageFileName()](#getImageFileName) | Gets the file name (without path) where the image will be saved to. |
+| [getImageStream()](#getImageStream) |  |
+| [getKeepImageStreamOpen()](#getKeepImageStreamOpen) | Specifies whether Aspose.Words should keep the stream open or close it after saving an image. |
+| [hashCode()](#hashCode) |  |
+| [isImageAvailable()](#isImageAvailable) | Returns  true  if the current image is available for export. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setImageFileName(String value)](#setImageFileName-java.lang.String) | Sets the file name (without path) where the image will be saved to. |
+| [setImageStream(OutputStream value)](#setImageStream-java.io.OutputStream) |  |
+| [setKeepImageStreamOpen(boolean value)](#setKeepImageStreamOpen-boolean) | Specifies whether Aspose.Words should keep the stream open or close it after saving an image. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -61,7 +64,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -71,7 +74,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCurrentShape() {#getCurrentShape--}
+### getCurrentShape() {#getCurrentShape}
 ```
 public ShapeBase getCurrentShape()
 ```
@@ -79,15 +82,15 @@ public ShapeBase getCurrentShape()
 
 Gets the [ShapeBase](../../com.aspose.words/shapebase) object corresponding to the shape or group shape that is about to be saved.
 
-[IImageSavingCallback](../../com.aspose.words/iimagesavingcallback) can be fired while saving either a shape or a group shape. That's why the property has [ShapeBase](../../com.aspose.words/shapebase) type. You can check whether it's a group shape comparing [ShapeBase.getShapeType()](../../com.aspose.words/shapebase\#getShapeType--) with [ShapeType.GROUP](../../com.aspose.words/shapetype\#GROUP) or by casting it to one of derived classes: [Shape](../../com.aspose.words/shape) or [GroupShape](../../com.aspose.words/groupshape).
+[IImageSavingCallback](../../com.aspose.words/iimagesavingcallback) can be fired while saving either a shape or a group shape. That's why the property has [ShapeBase](../../com.aspose.words/shapebase) type. You can check whether it's a group shape comparing [ShapeBase.getShapeType()](../../com.aspose.words/shapebase\#getShapeType) with [ShapeType.GROUP](../../com.aspose.words/shapetype\#GROUP) or by casting it to one of derived classes: [Shape](../../com.aspose.words/shape) or [GroupShape](../../com.aspose.words/groupshape).
 
-Aspose.Words uses the document file name and a unique number to generate unique file name for each image found in the document. You can use the [getCurrentShape()](../../com.aspose.words/imagesavingargs\#getCurrentShape--) property to generate a "better" file name by examining shape properties such as [ImageData.getTitle()](../../com.aspose.words/imagedata\#getTitle--) / [ImageData.setTitle(java.lang.String)](../../com.aspose.words/imagedata\#setTitle-java.lang.String-)(Shape only), [ImageData.getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [ImageData.setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-) (Shape only) and [ShapeBase.getName()](../../com.aspose.words/shapebase\#getName--) / [ShapeBase.setName(java.lang.String)](../../com.aspose.words/shapebase\#setName-java.lang.String-). Of course you can build file names using any other properties or criteria but note that subsidiary file names must be unique within the export operation.
+Aspose.Words uses the document file name and a unique number to generate unique file name for each image found in the document. You can use the [getCurrentShape()](../../com.aspose.words/imagesavingargs\#getCurrentShape) property to generate a "better" file name by examining shape properties such as [ImageData.getTitle()](../../com.aspose.words/imagedata\#getTitle) / [ImageData.setTitle(java.lang.String)](../../com.aspose.words/imagedata\#setTitle-java.lang.String)(Shape only), [ImageData.getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName) / [ImageData.setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String) (Shape only) and [ShapeBase.getName()](../../com.aspose.words/shapebase\#getName) / [ShapeBase.setName(java.lang.String)](../../com.aspose.words/shapebase\#setName-java.lang.String). Of course you can build file names using any other properties or criteria but note that subsidiary file names must be unique within the export operation.
 
-Some images in the document can be unavailable. To check image availability use the [isImageAvailable()](../../com.aspose.words/imagesavingargs\#isImageAvailable--) property.
+Some images in the document can be unavailable. To check image availability use the [isImageAvailable()](../../com.aspose.words/imagesavingargs\#isImageAvailable) property.
 
 **Returns:**
 [ShapeBase](../../com.aspose.words/shapebase) - The [ShapeBase](../../com.aspose.words/shapebase) object corresponding to the shape or group shape that is about to be saved.
-### getDocument() {#getDocument--}
+### getDocument() {#getDocument}
 ```
 public Document getDocument()
 ```
@@ -97,7 +100,7 @@ Gets the document object that is currently being saved.
 
 **Returns:**
 [Document](../../com.aspose.words/document) - The document object that is currently being saved.
-### getImageFileName() {#getImageFileName--}
+### getImageFileName() {#getImageFileName}
 ```
 public String getImageFileName()
 ```
@@ -115,14 +118,14 @@ When saving a document to a file, the generated image file name looks like *.![I
 
 When saving a document to a stream, the generated image file name looks like *Aspose.Words..![Image 1][].*.
 
-[getImageFileName()](../../com.aspose.words/imagesavingargs\#getImageFileName--) / [setImageFileName(java.lang.String)](../../com.aspose.words/imagesavingargs\#setImageFileName-java.lang.String-) must contain only the file name without the path. Aspose.Words determines the path for saving and the value of the  src  attribute for writing to HTML using the document file name, the [HtmlSaveOptions.getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [HtmlSaveOptions.setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-) and [HtmlSaveOptions.getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [HtmlSaveOptions.setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-) properties.
+[getImageFileName()](../../com.aspose.words/imagesavingargs\#getImageFileName) / [setImageFileName(java.lang.String)](../../com.aspose.words/imagesavingargs\#setImageFileName-java.lang.String) must contain only the file name without the path. Aspose.Words determines the path for saving and the value of the  src  attribute for writing to HTML using the document file name, the [HtmlSaveOptions.getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder) / [HtmlSaveOptions.setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String) and [HtmlSaveOptions.getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias) / [HtmlSaveOptions.setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String) properties.
 
 
 [Image 1]: 
 
 **Returns:**
 java.lang.String - The file name (without path) where the image will be saved to.
-### getImageStream() {#getImageStream--}
+### getImageStream() {#getImageStream}
 ```
 public OutputStream getImageStream()
 ```
@@ -132,7 +135,7 @@ public OutputStream getImageStream()
 
 **Returns:**
 java.io.OutputStream
-### getKeepImageStreamOpen() {#getKeepImageStreamOpen--}
+### getKeepImageStreamOpen() {#getKeepImageStreamOpen}
 ```
 public boolean getKeepImageStreamOpen()
 ```
@@ -146,7 +149,7 @@ Default is  false  and Aspose.Words will close the stream you provided in the **
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -156,7 +159,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### isImageAvailable() {#isImageAvailable--}
+### isImageAvailable() {#isImageAvailable}
 ```
 public boolean isImageAvailable()
 ```
@@ -170,7 +173,7 @@ When saving a group shape or a shape that doesn't require any image this propert
 
 **Returns:**
 boolean - \{ true  if the current image is available for export.
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -178,7 +181,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -186,7 +189,7 @@ public final native void notifyAll()
 
 
 
-### setImageFileName(String value) {#setImageFileName-java.lang.String-}
+### setImageFileName(String value) {#setImageFileName-java.lang.String}
 ```
 public void setImageFileName(String value)
 ```
@@ -204,7 +207,7 @@ When saving a document to a file, the generated image file name looks like *.![I
 
 When saving a document to a stream, the generated image file name looks like *Aspose.Words..![Image 1][].*.
 
-[getImageFileName()](../../com.aspose.words/imagesavingargs\#getImageFileName--) / [setImageFileName(java.lang.String)](../../com.aspose.words/imagesavingargs\#setImageFileName-java.lang.String-) must contain only the file name without the path. Aspose.Words determines the path for saving and the value of the  src  attribute for writing to HTML using the document file name, the [HtmlSaveOptions.getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [HtmlSaveOptions.setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-) and [HtmlSaveOptions.getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [HtmlSaveOptions.setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-) properties.
+[getImageFileName()](../../com.aspose.words/imagesavingargs\#getImageFileName) / [setImageFileName(java.lang.String)](../../com.aspose.words/imagesavingargs\#setImageFileName-java.lang.String) must contain only the file name without the path. Aspose.Words determines the path for saving and the value of the  src  attribute for writing to HTML using the document file name, the [HtmlSaveOptions.getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder) / [HtmlSaveOptions.setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String) and [HtmlSaveOptions.getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias) / [HtmlSaveOptions.setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String) properties.
 
 
 [Image 1]: 
@@ -214,7 +217,7 @@ When saving a document to a stream, the generated image file name looks like *As
 | --- | --- | --- |
 | value | java.lang.String | The file name (without path) where the image will be saved to. |
 
-### setImageStream(OutputStream value) {#setImageStream-java.io.OutputStream-}
+### setImageStream(OutputStream value) {#setImageStream-java.io.OutputStream}
 ```
 public void setImageStream(OutputStream value)
 ```
@@ -227,7 +230,7 @@ public void setImageStream(OutputStream value)
 | --- | --- | --- |
 | value | java.io.OutputStream |  |
 
-### setKeepImageStreamOpen(boolean value) {#setKeepImageStreamOpen-boolean-}
+### setKeepImageStreamOpen(boolean value) {#setKeepImageStreamOpen-boolean}
 ```
 public void setKeepImageStreamOpen(boolean value)
 ```
@@ -244,7 +247,7 @@ Default is  false  and Aspose.Words will close the stream you provided in the **
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -254,7 +257,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -262,7 +265,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -275,7 +278,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

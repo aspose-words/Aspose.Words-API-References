@@ -3,7 +3,7 @@ title: TxtLoadOptions
 second_title: Aspose.Words for Java API Reference
 description: Allows to specify additional options when loading  document into a  object.
 type: docs
-weight: 584
+weight: 587
 url: /java/com.aspose.words/txtloadoptions/
 ---
 
@@ -15,65 +15,68 @@ public class TxtLoadOptions extends LoadOptions
 
 Allows to specify additional options when loading [LoadFormat.TEXT](../../com.aspose.words/loadformat\#TEXT) document into a [Document](../../com.aspose.words/document) object.
 
-To learn more, visit the **Specify Load Options** documentation article.
+To learn more, visit the [ Specify Load Options ][Specify Load Options] documentation article.
+
+
+[Specify Load Options]: https://docs.aspose.com/words/java/specify-load-options/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [TxtLoadOptions()](#TxtLoadOptions--) | Initializes a new instance of this class with default values. |
+| [TxtLoadOptions()](#TxtLoadOptions) | Initializes a new instance of this class with default values. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAutoNumberingDetection()](#getAutoNumberingDetection--) | Gets a boolean value indicating either automatic numbering detection will be performed while loading a document. |
-| [getBaseUri()](#getBaseUri--) | Gets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
-| [getClass()](#getClass--) |  |
-| [getConvertMetafilesToPng()](#getConvertMetafilesToPng--) | Gets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
-| [getConvertShapeToOfficeMath()](#getConvertShapeToOfficeMath--) | Gets whether to convert shapes with EquationXML to Office Math objects. |
-| [getDetectNumberingWithWhitespaces()](#getDetectNumberingWithWhitespaces--) | Allows to specify how numbered list items are recognized when document is imported from plain text format. |
-| [getDocumentDirection()](#getDocumentDirection--) | Gets a document direction. |
-| [getEncoding()](#getEncoding--) | Gets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
-| [getFontSettings()](#getFontSettings--) | Allows to specify document font settings. |
-| [getLanguagePreferences()](#getLanguagePreferences--) | Gets language preferences that will be used when document is loading. |
-| [getLeadingSpacesOptions()](#getLeadingSpacesOptions--) | Gets preferred option of a leading space handling. |
-| [getLoadFormat()](#getLoadFormat--) | Specifies the format of the document to be loaded. |
-| [getMswVersion()](#getMswVersion--) | Allows to specify that the document loading process should match a specific MS Word version. |
-| [getPassword()](#getPassword--) | Gets the password for opening an encrypted document. |
-| [getPreserveIncludePictureField()](#getPreserveIncludePictureField--) | Gets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
-| [getProgressCallback()](#getProgressCallback--) | Called during loading a document and accepts data about loading progress. |
-| [getResourceLoadingCallback()](#getResourceLoadingCallback--) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
-| [getTempFolder()](#getTempFolder--) | Allows to use temporary files when reading document. |
-| [getTrailingSpacesOptions()](#getTrailingSpacesOptions--) | Gets preferred option of a trailing space handling. |
-| [getUpdateDirtyFields()](#getUpdateDirtyFields--) | Specifies whether to update the fields with the  dirty  attribute. |
-| [getWarningCallback()](#getWarningCallback--) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setAutoNumberingDetection(boolean value)](#setAutoNumberingDetection-boolean-) | Sets a boolean value indicating either automatic numbering detection will be performed while loading a document. |
-| [setBaseUri(String value)](#setBaseUri-java.lang.String-) | Sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
-| [setConvertMetafilesToPng(boolean value)](#setConvertMetafilesToPng-boolean-) | Sets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
-| [setConvertShapeToOfficeMath(boolean value)](#setConvertShapeToOfficeMath-boolean-) | Sets whether to convert shapes with EquationXML to Office Math objects. |
-| [setDetectNumberingWithWhitespaces(boolean value)](#setDetectNumberingWithWhitespaces-boolean-) | Allows to specify how numbered list items are recognized when document is imported from plain text format. |
-| [setDocumentDirection(int value)](#setDocumentDirection-int-) | Sets a document direction. |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
-| [setFontSettings(FontSettings value)](#setFontSettings-com.aspose.words.FontSettings-) | Allows to specify document font settings. |
-| [setLeadingSpacesOptions(int value)](#setLeadingSpacesOptions-int-) | Sets preferred option of a leading space handling. |
-| [setLoadFormat(int value)](#setLoadFormat-int-) | Specifies the format of the document to be loaded. |
-| [setMswVersion(int value)](#setMswVersion-int-) | Allows to specify that the document loading process should match a specific MS Word version. |
-| [setPassword(String value)](#setPassword-java.lang.String-) | Sets the password for opening an encrypted document. |
-| [setPreserveIncludePictureField(boolean value)](#setPreserveIncludePictureField-boolean-) | Sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
-| [setProgressCallback(IDocumentLoadingCallback value)](#setProgressCallback-com.aspose.words.IDocumentLoadingCallback-) | Called during loading a document and accepts data about loading progress. |
-| [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback-) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
-| [setTempFolder(String value)](#setTempFolder-java.lang.String-) | Allows to use temporary files when reading document. |
-| [setTrailingSpacesOptions(int value)](#setTrailingSpacesOptions-int-) | Sets preferred option of a trailing space handling. |
-| [setUpdateDirtyFields(boolean value)](#setUpdateDirtyFields-boolean-) | Specifies whether to update the fields with the  dirty  attribute. |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### TxtLoadOptions() {#TxtLoadOptions--}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getAutoNumberingDetection()](#getAutoNumberingDetection) | Gets a boolean value indicating either automatic numbering detection will be performed while loading a document. |
+| [getBaseUri()](#getBaseUri) | Gets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
+| [getClass()](#getClass) |  |
+| [getConvertMetafilesToPng()](#getConvertMetafilesToPng) | Gets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
+| [getConvertShapeToOfficeMath()](#getConvertShapeToOfficeMath) | Gets whether to convert shapes with EquationXML to Office Math objects. |
+| [getDetectNumberingWithWhitespaces()](#getDetectNumberingWithWhitespaces) | Allows to specify how numbered list items are recognized when document is imported from plain text format. |
+| [getDocumentDirection()](#getDocumentDirection) | Gets a document direction. |
+| [getEncoding()](#getEncoding) | Gets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
+| [getFontSettings()](#getFontSettings) | Allows to specify document font settings. |
+| [getLanguagePreferences()](#getLanguagePreferences) | Gets language preferences that will be used when document is loading. |
+| [getLeadingSpacesOptions()](#getLeadingSpacesOptions) | Gets preferred option of a leading space handling. |
+| [getLoadFormat()](#getLoadFormat) | Specifies the format of the document to be loaded. |
+| [getMswVersion()](#getMswVersion) | Allows to specify that the document loading process should match a specific MS Word version. |
+| [getPassword()](#getPassword) | Gets the password for opening an encrypted document. |
+| [getPreserveIncludePictureField()](#getPreserveIncludePictureField) | Gets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
+| [getProgressCallback()](#getProgressCallback) | Called during loading a document and accepts data about loading progress. |
+| [getResourceLoadingCallback()](#getResourceLoadingCallback) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
+| [getTempFolder()](#getTempFolder) | Allows to use temporary files when reading document. |
+| [getTrailingSpacesOptions()](#getTrailingSpacesOptions) | Gets preferred option of a trailing space handling. |
+| [getUpdateDirtyFields()](#getUpdateDirtyFields) | Specifies whether to update the fields with the  dirty  attribute. |
+| [getWarningCallback()](#getWarningCallback) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setAutoNumberingDetection(boolean value)](#setAutoNumberingDetection-boolean) | Sets a boolean value indicating either automatic numbering detection will be performed while loading a document. |
+| [setBaseUri(String value)](#setBaseUri-java.lang.String) | Sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
+| [setConvertMetafilesToPng(boolean value)](#setConvertMetafilesToPng-boolean) | Sets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
+| [setConvertShapeToOfficeMath(boolean value)](#setConvertShapeToOfficeMath-boolean) | Sets whether to convert shapes with EquationXML to Office Math objects. |
+| [setDetectNumberingWithWhitespaces(boolean value)](#setDetectNumberingWithWhitespaces-boolean) | Allows to specify how numbered list items are recognized when document is imported from plain text format. |
+| [setDocumentDirection(int value)](#setDocumentDirection-int) | Sets a document direction. |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset) | Sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
+| [setFontSettings(FontSettings value)](#setFontSettings-com.aspose.words.FontSettings) | Allows to specify document font settings. |
+| [setLeadingSpacesOptions(int value)](#setLeadingSpacesOptions-int) | Sets preferred option of a leading space handling. |
+| [setLoadFormat(int value)](#setLoadFormat-int) | Specifies the format of the document to be loaded. |
+| [setMswVersion(int value)](#setMswVersion-int) | Allows to specify that the document loading process should match a specific MS Word version. |
+| [setPassword(String value)](#setPassword-java.lang.String) | Sets the password for opening an encrypted document. |
+| [setPreserveIncludePictureField(boolean value)](#setPreserveIncludePictureField-boolean) | Sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
+| [setProgressCallback(IDocumentLoadingCallback value)](#setProgressCallback-com.aspose.words.IDocumentLoadingCallback) | Called during loading a document and accepts data about loading progress. |
+| [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
+| [setTempFolder(String value)](#setTempFolder-java.lang.String) | Allows to use temporary files when reading document. |
+| [setTrailingSpacesOptions(int value)](#setTrailingSpacesOptions-int) | Sets preferred option of a trailing space handling. |
+| [setUpdateDirtyFields(boolean value)](#setUpdateDirtyFields-boolean) | Specifies whether to update the fields with the  dirty  attribute. |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### TxtLoadOptions() {#TxtLoadOptions}
 ```
 public TxtLoadOptions()
 ```
@@ -81,7 +84,7 @@ public TxtLoadOptions()
 
 Initializes a new instance of this class with default values.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -96,7 +99,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getAutoNumberingDetection() {#getAutoNumberingDetection--}
+### getAutoNumberingDetection() {#getAutoNumberingDetection}
 ```
 public boolean getAutoNumberingDetection()
 ```
@@ -106,13 +109,13 @@ Gets a boolean value indicating either automatic numbering detection will be per
 
 **Returns:**
 boolean - A boolean value indicating either automatic numbering detection will be performed while loading a document.
-### getBaseUri() {#getBaseUri--}
+### getBaseUri() {#getBaseUri}
 ```
 public String getBaseUri()
 ```
 
 
-Gets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be null or empty string. Default is null.
+Gets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be  null  or empty string. Default is  null .
 
 This property is used to resolve relative URIs into absolute in the following cases:
 
@@ -121,7 +124,7 @@ This property is used to resolve relative URIs into absolute in the following ca
 
 **Returns:**
 java.lang.String - The string that will be used to resolve relative URIs found in the document into absolute URIs when required.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -131,7 +134,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getConvertMetafilesToPng() {#getConvertMetafilesToPng--}
+### getConvertMetafilesToPng() {#getConvertMetafilesToPng}
 ```
 public boolean getConvertMetafilesToPng()
 ```
@@ -141,7 +144,7 @@ Gets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.Fil
 
 **Returns:**
 boolean - Whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format.
-### getConvertShapeToOfficeMath() {#getConvertShapeToOfficeMath--}
+### getConvertShapeToOfficeMath() {#getConvertShapeToOfficeMath}
 ```
 public boolean getConvertShapeToOfficeMath()
 ```
@@ -151,7 +154,7 @@ Gets whether to convert shapes with EquationXML to Office Math objects.
 
 **Returns:**
 boolean - Whether to convert shapes with EquationXML to Office Math objects.
-### getDetectNumberingWithWhitespaces() {#getDetectNumberingWithWhitespaces--}
+### getDetectNumberingWithWhitespaces() {#getDetectNumberingWithWhitespaces}
 ```
 public boolean getDetectNumberingWithWhitespaces()
 ```
@@ -159,13 +162,13 @@ public boolean getDetectNumberingWithWhitespaces()
 
 Allows to specify how numbered list items are recognized when document is imported from plain text format. The default value is  true .
 
-If this option is set to false, lists recognition algorithm detects list paragraphs, when list numbers ends with either dot, right bracket or bullet symbols (such as "\\u2022", "\*", "-" or "o").
+If this option is set to  false , lists recognition algorithm detects list paragraphs, when list numbers ends with either dot, right bracket or bullet symbols (such as "\\u2022", "\*", "-" or "o").
 
-If this option is set to true, whitespaces are also used as list number delimiters: list recognition algorithm for Arabic style numbering (1., 1.1.2.) uses both whitespaces and dot (".") symbols.
+If this option is set to  true , whitespaces are also used as list number delimiters: list recognition algorithm for Arabic style numbering (1., 1.1.2.) uses both whitespaces and dot (".") symbols.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getDocumentDirection() {#getDocumentDirection--}
+### getDocumentDirection() {#getDocumentDirection}
 ```
 public int getDocumentDirection()
 ```
@@ -175,13 +178,13 @@ Gets a document direction. The default value is [DocumentDirection.LEFT\_TO\_RIG
 
 **Returns:**
 int - A document direction. The returned value is one of [DocumentDirection](../../com.aspose.words/documentdirection) constants.
-### getEncoding() {#getEncoding--}
+### getEncoding() {#getEncoding}
 ```
 public Charset getEncoding()
 ```
 
 
-Gets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be null. Default is null.
+Gets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be  null . Default is  null .
 
 This property is used only when loading HTML, TXT, or CHM documents.
 
@@ -189,7 +192,7 @@ If encoding is not specified inside the document and this property is  null , th
 
 **Returns:**
 java.nio.charset.Charset - The encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document.
-### getFontSettings() {#getFontSettings--}
+### getFontSettings() {#getFontSettings}
 ```
 public FontSettings getFontSettings()
 ```
@@ -199,13 +202,13 @@ Allows to specify document font settings.
 
 When loading some formats, Aspose.Words may require to resolve the fonts. For example, when loading HTML documents Aspose.Words may resolve the fonts to perform font fallback.
 
-If set to null, default static font settings [FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance--) will be used.
+If set to  null , default static font settings [FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance) will be used.
 
-The default value is null.
+The default value is  null .
 
 **Returns:**
 [FontSettings](../../com.aspose.words/fontsettings) - The corresponding [FontSettings](../../com.aspose.words/fontsettings) value.
-### getLanguagePreferences() {#getLanguagePreferences--}
+### getLanguagePreferences() {#getLanguagePreferences}
 ```
 public LanguagePreferences getLanguagePreferences()
 ```
@@ -215,7 +218,7 @@ Gets language preferences that will be used when document is loading.
 
 **Returns:**
 [LanguagePreferences](../../com.aspose.words/languagepreferences) - Language preferences that will be used when document is loading.
-### getLeadingSpacesOptions() {#getLeadingSpacesOptions--}
+### getLeadingSpacesOptions() {#getLeadingSpacesOptions}
 ```
 public int getLeadingSpacesOptions()
 ```
@@ -225,7 +228,7 @@ Gets preferred option of a leading space handling. Default value is [TxtLeadingS
 
 **Returns:**
 int - Preferred option of a leading space handling. The returned value is one of [TxtLeadingSpacesOptions](../../com.aspose.words/txtleadingspacesoptions) constants.
-### getLoadFormat() {#getLoadFormat--}
+### getLoadFormat() {#getLoadFormat}
 ```
 public int getLoadFormat()
 ```
@@ -237,7 +240,7 @@ It is recommended that you specify the [LoadFormat.AUTO](../../com.aspose.words/
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [LoadFormat](../../com.aspose.words/loadformat) constants.
-### getMswVersion() {#getMswVersion--}
+### getMswVersion() {#getMswVersion}
 ```
 public int getMswVersion()
 ```
@@ -247,25 +250,25 @@ Allows to specify that the document loading process should match a specific MS W
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [MsWordVersion](../../com.aspose.words/mswordversion) constants.
-### getPassword() {#getPassword--}
+### getPassword() {#getPassword}
 ```
 public String getPassword()
 ```
 
 
-Gets the password for opening an encrypted document. Can be null or empty string. Default is null.
+Gets the password for opening an encrypted document. Can be  null  or empty string. Default is  null .
 
-You need to know the password to open an encrypted document. If the document is not encrypted, set this to null or empty string.
+You need to know the password to open an encrypted document. If the document is not encrypted, set this to  null  or empty string.
 
 **Returns:**
 java.lang.String - The password for opening an encrypted document.
-### getPreserveIncludePictureField() {#getPreserveIncludePictureField--}
+### getPreserveIncludePictureField() {#getPreserveIncludePictureField}
 ```
 public boolean getPreserveIncludePictureField()
 ```
 
 
-Gets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is false.
+Gets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is  false .
 
 By default, the INCLUDEPICTURE field is converted into a shape object. You can override that if you need the field to be preserved, for example, if you wish to update it programmatically. Note however that this approach is not common for Aspose.Words. Use it on your own risk.
 
@@ -273,7 +276,7 @@ One of the possible use cases may be using a MERGEFIELD as a child field to dyna
 
 **Returns:**
 boolean - Whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats.
-### getProgressCallback() {#getProgressCallback--}
+### getProgressCallback() {#getProgressCallback}
 ```
 public IDocumentLoadingCallback getProgressCallback()
 ```
@@ -285,7 +288,7 @@ Called during loading a document and accepts data about loading progress.
 
 **Returns:**
 [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) - The corresponding [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) value.
-### getResourceLoadingCallback() {#getResourceLoadingCallback--}
+### getResourceLoadingCallback() {#getResourceLoadingCallback}
 ```
 public IResourceLoadingCallback getResourceLoadingCallback()
 ```
@@ -295,7 +298,7 @@ Allows to control how external resources (images, style sheets) are loaded when 
 
 **Returns:**
 [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) - The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) value.
-### getTempFolder() {#getTempFolder--}
+### getTempFolder() {#getTempFolder}
 ```
 public String getTempFolder()
 ```
@@ -309,7 +312,7 @@ Aspose.Words automatically deletes all temporary files when reading is complete.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### getTrailingSpacesOptions() {#getTrailingSpacesOptions--}
+### getTrailingSpacesOptions() {#getTrailingSpacesOptions}
 ```
 public int getTrailingSpacesOptions()
 ```
@@ -319,7 +322,7 @@ Gets preferred option of a trailing space handling. Default value is [TxtTrailin
 
 **Returns:**
 int - Preferred option of a trailing space handling. The returned value is one of [TxtTrailingSpacesOptions](../../com.aspose.words/txttrailingspacesoptions) constants.
-### getUpdateDirtyFields() {#getUpdateDirtyFields--}
+### getUpdateDirtyFields() {#getUpdateDirtyFields}
 ```
 public boolean getUpdateDirtyFields()
 ```
@@ -329,7 +332,7 @@ Specifies whether to update the fields with the  dirty  attribute.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getWarningCallback() {#getWarningCallback--}
+### getWarningCallback() {#getWarningCallback}
 ```
 public IWarningCallback getWarningCallback()
 ```
@@ -339,7 +342,7 @@ Called during a load operation, when an issue is detected that might result in d
 
 **Returns:**
 [IWarningCallback](../../com.aspose.words/iwarningcallback) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -349,7 +352,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -357,7 +360,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -365,7 +368,7 @@ public final native void notifyAll()
 
 
 
-### setAutoNumberingDetection(boolean value) {#setAutoNumberingDetection-boolean-}
+### setAutoNumberingDetection(boolean value) {#setAutoNumberingDetection-boolean}
 ```
 public void setAutoNumberingDetection(boolean value)
 ```
@@ -378,13 +381,13 @@ Sets a boolean value indicating either automatic numbering detection will be per
 | --- | --- | --- |
 | value | boolean | A boolean value indicating either automatic numbering detection will be performed while loading a document. |
 
-### setBaseUri(String value) {#setBaseUri-java.lang.String-}
+### setBaseUri(String value) {#setBaseUri-java.lang.String}
 ```
 public void setBaseUri(String value)
 ```
 
 
-Sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be null or empty string. Default is null.
+Sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be  null  or empty string. Default is  null .
 
 This property is used to resolve relative URIs into absolute in the following cases:
 
@@ -396,7 +399,7 @@ This property is used to resolve relative URIs into absolute in the following ca
 | --- | --- | --- |
 | value | java.lang.String | The string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
 
-### setConvertMetafilesToPng(boolean value) {#setConvertMetafilesToPng-boolean-}
+### setConvertMetafilesToPng(boolean value) {#setConvertMetafilesToPng-boolean}
 ```
 public void setConvertMetafilesToPng(boolean value)
 ```
@@ -409,7 +412,7 @@ Sets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.Fil
 | --- | --- | --- |
 | value | boolean | Whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
 
-### setConvertShapeToOfficeMath(boolean value) {#setConvertShapeToOfficeMath-boolean-}
+### setConvertShapeToOfficeMath(boolean value) {#setConvertShapeToOfficeMath-boolean}
 ```
 public void setConvertShapeToOfficeMath(boolean value)
 ```
@@ -422,7 +425,7 @@ Sets whether to convert shapes with EquationXML to Office Math objects.
 | --- | --- | --- |
 | value | boolean | Whether to convert shapes with EquationXML to Office Math objects. |
 
-### setDetectNumberingWithWhitespaces(boolean value) {#setDetectNumberingWithWhitespaces-boolean-}
+### setDetectNumberingWithWhitespaces(boolean value) {#setDetectNumberingWithWhitespaces-boolean}
 ```
 public void setDetectNumberingWithWhitespaces(boolean value)
 ```
@@ -430,16 +433,16 @@ public void setDetectNumberingWithWhitespaces(boolean value)
 
 Allows to specify how numbered list items are recognized when document is imported from plain text format. The default value is  true .
 
-If this option is set to false, lists recognition algorithm detects list paragraphs, when list numbers ends with either dot, right bracket or bullet symbols (such as "\\u2022", "\*", "-" or "o").
+If this option is set to  false , lists recognition algorithm detects list paragraphs, when list numbers ends with either dot, right bracket or bullet symbols (such as "\\u2022", "\*", "-" or "o").
 
-If this option is set to true, whitespaces are also used as list number delimiters: list recognition algorithm for Arabic style numbering (1., 1.1.2.) uses both whitespaces and dot (".") symbols.
+If this option is set to  true , whitespaces are also used as list number delimiters: list recognition algorithm for Arabic style numbering (1., 1.1.2.) uses both whitespaces and dot (".") symbols.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setDocumentDirection(int value) {#setDocumentDirection-int-}
+### setDocumentDirection(int value) {#setDocumentDirection-int}
 ```
 public void setDocumentDirection(int value)
 ```
@@ -452,13 +455,13 @@ Sets a document direction. The default value is [DocumentDirection.LEFT\_TO\_RIG
 | --- | --- | --- |
 | value | int | A document direction. The value must be one of [DocumentDirection](../../com.aspose.words/documentdirection) constants. |
 
-### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
+### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset}
 ```
 public void setEncoding(Charset value)
 ```
 
 
-Sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be null. Default is null.
+Sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be  null . Default is  null .
 
 This property is used only when loading HTML, TXT, or CHM documents.
 
@@ -469,7 +472,7 @@ If encoding is not specified inside the document and this property is  null , th
 | --- | --- | --- |
 | value | java.nio.charset.Charset | The encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
 
-### setFontSettings(FontSettings value) {#setFontSettings-com.aspose.words.FontSettings-}
+### setFontSettings(FontSettings value) {#setFontSettings-com.aspose.words.FontSettings}
 ```
 public void setFontSettings(FontSettings value)
 ```
@@ -479,16 +482,16 @@ Allows to specify document font settings.
 
 When loading some formats, Aspose.Words may require to resolve the fonts. For example, when loading HTML documents Aspose.Words may resolve the fonts to perform font fallback.
 
-If set to null, default static font settings [FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance--) will be used.
+If set to  null , default static font settings [FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance) will be used.
 
-The default value is null.
+The default value is  null .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [FontSettings](../../com.aspose.words/fontsettings) | The corresponding [FontSettings](../../com.aspose.words/fontsettings) value. |
 
-### setLeadingSpacesOptions(int value) {#setLeadingSpacesOptions-int-}
+### setLeadingSpacesOptions(int value) {#setLeadingSpacesOptions-int}
 ```
 public void setLeadingSpacesOptions(int value)
 ```
@@ -501,7 +504,7 @@ Sets preferred option of a leading space handling. Default value is [TxtLeadingS
 | --- | --- | --- |
 | value | int | Preferred option of a leading space handling. The value must be one of [TxtLeadingSpacesOptions](../../com.aspose.words/txtleadingspacesoptions) constants. |
 
-### setLoadFormat(int value) {#setLoadFormat-int-}
+### setLoadFormat(int value) {#setLoadFormat-int}
 ```
 public void setLoadFormat(int value)
 ```
@@ -516,7 +519,7 @@ It is recommended that you specify the [LoadFormat.AUTO](../../com.aspose.words/
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [LoadFormat](../../com.aspose.words/loadformat) constants. |
 
-### setMswVersion(int value) {#setMswVersion-int-}
+### setMswVersion(int value) {#setMswVersion-int}
 ```
 public void setMswVersion(int value)
 ```
@@ -529,28 +532,28 @@ Allows to specify that the document loading process should match a specific MS W
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [MsWordVersion](../../com.aspose.words/mswordversion) constants. |
 
-### setPassword(String value) {#setPassword-java.lang.String-}
+### setPassword(String value) {#setPassword-java.lang.String}
 ```
 public void setPassword(String value)
 ```
 
 
-Sets the password for opening an encrypted document. Can be null or empty string. Default is null.
+Sets the password for opening an encrypted document. Can be  null  or empty string. Default is  null .
 
-You need to know the password to open an encrypted document. If the document is not encrypted, set this to null or empty string.
+You need to know the password to open an encrypted document. If the document is not encrypted, set this to  null  or empty string.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The password for opening an encrypted document. |
 
-### setPreserveIncludePictureField(boolean value) {#setPreserveIncludePictureField-boolean-}
+### setPreserveIncludePictureField(boolean value) {#setPreserveIncludePictureField-boolean}
 ```
 public void setPreserveIncludePictureField(boolean value)
 ```
 
 
-Sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is false.
+Sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is  false .
 
 By default, the INCLUDEPICTURE field is converted into a shape object. You can override that if you need the field to be preserved, for example, if you wish to update it programmatically. Note however that this approach is not common for Aspose.Words. Use it on your own risk.
 
@@ -561,7 +564,7 @@ One of the possible use cases may be using a MERGEFIELD as a child field to dyna
 | --- | --- | --- |
 | value | boolean | Whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
 
-### setProgressCallback(IDocumentLoadingCallback value) {#setProgressCallback-com.aspose.words.IDocumentLoadingCallback-}
+### setProgressCallback(IDocumentLoadingCallback value) {#setProgressCallback-com.aspose.words.IDocumentLoadingCallback}
 ```
 public void setProgressCallback(IDocumentLoadingCallback value)
 ```
@@ -576,7 +579,7 @@ Called during loading a document and accepts data about loading progress.
 | --- | --- | --- |
 | value | [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) | The corresponding [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) value. |
 
-### setResourceLoadingCallback(IResourceLoadingCallback value) {#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback-}
+### setResourceLoadingCallback(IResourceLoadingCallback value) {#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback}
 ```
 public void setResourceLoadingCallback(IResourceLoadingCallback value)
 ```
@@ -589,7 +592,7 @@ Allows to control how external resources (images, style sheets) are loaded when 
 | --- | --- | --- |
 | value | [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) | The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) value. |
 
-### setTempFolder(String value) {#setTempFolder-java.lang.String-}
+### setTempFolder(String value) {#setTempFolder-java.lang.String}
 ```
 public void setTempFolder(String value)
 ```
@@ -606,7 +609,7 @@ Aspose.Words automatically deletes all temporary files when reading is complete.
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### setTrailingSpacesOptions(int value) {#setTrailingSpacesOptions-int-}
+### setTrailingSpacesOptions(int value) {#setTrailingSpacesOptions-int}
 ```
 public void setTrailingSpacesOptions(int value)
 ```
@@ -619,7 +622,7 @@ Sets preferred option of a trailing space handling. Default value is [TxtTrailin
 | --- | --- | --- |
 | value | int | Preferred option of a trailing space handling. The value must be one of [TxtTrailingSpacesOptions](../../com.aspose.words/txttrailingspacesoptions) constants. |
 
-### setUpdateDirtyFields(boolean value) {#setUpdateDirtyFields-boolean-}
+### setUpdateDirtyFields(boolean value) {#setUpdateDirtyFields-boolean}
 ```
 public void setUpdateDirtyFields(boolean value)
 ```
@@ -632,7 +635,7 @@ Specifies whether to update the fields with the  dirty  attribute.
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback-}
+### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback}
 ```
 public void setWarningCallback(IWarningCallback value)
 ```
@@ -645,7 +648,7 @@ Called during a load operation, when an issue is detected that might result in d
 | --- | --- | --- |
 | value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -655,7 +658,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -663,7 +666,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -676,7 +679,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

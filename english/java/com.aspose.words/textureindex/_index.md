@@ -3,7 +3,7 @@ title: TextureIndex
 second_title: Aspose.Words for Java API Reference
 description: Specifies shading texture.
 type: docs
-weight: 572
+weight: 575
 url: /java/com.aspose.words/textureindex/
 ---
 
@@ -77,19 +77,19 @@ Specifies shading texture.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String textureIndexName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int textureIndex)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int textureIndex)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String textureIndexName)](#fromName-java.lang.String) |  |
+| [getClass()](#getClass) |  |
+| [getName(int textureIndex)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int textureIndex)](#toString-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### TEXTURE_10_PERCENT {#TEXTURE-10-PERCENT}
 ```
 public static int TEXTURE_10_PERCENT
@@ -528,7 +528,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -543,7 +543,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String textureIndexName) {#fromName-java.lang.String-}
+### fromName(String textureIndexName) {#fromName-java.lang.String}
 ```
 public static int fromName(String textureIndexName)
 ```
@@ -558,7 +558,7 @@ public static int fromName(String textureIndexName)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -568,7 +568,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int textureIndex) {#getName-int-}
+### getName(int textureIndex) {#getName-int}
 ```
 public static String getName(int textureIndex)
 ```
@@ -583,7 +583,7 @@ public static String getName(int textureIndex)
 
 **Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -593,7 +593,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -603,7 +603,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -611,7 +611,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -619,7 +619,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -629,7 +629,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int textureIndex) {#toString-int-}
+### toString(int textureIndex) {#toString-int}
 ```
 public static String toString(int textureIndex)
 ```
@@ -644,7 +644,7 @@ public static String toString(int textureIndex)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -652,7 +652,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -665,7 +665,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

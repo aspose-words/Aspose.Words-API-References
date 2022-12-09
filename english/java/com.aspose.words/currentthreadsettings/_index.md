@@ -3,7 +3,7 @@ title: CurrentThreadSettings
 second_title: Aspose.Words for Java API Reference
 description: This class helps to set thread-isolated Locale and Time Zone for a Aspose.Words application.
 type: docs
-weight: 100
+weight: 101
 url: /java/com.aspose.words/currentthreadsettings/
 ---
 
@@ -18,21 +18,21 @@ This class helps to set thread-isolated Locale and Time Zone for a Aspose.Words 
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getLocale()](#getLocale--) | Returns java.util.Locale that used by the current Aspose.Words thread. |
-| [getTimeZone()](#getTimeZone--) | Returns java.util.TimeZone that used by the current Aspose.Words thread. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setLocale(String localeName)](#setLocale-java.lang.String-) | Sets java.util.Locale for the current Aspose.Words thread using locale name. |
-| [setLocale(Locale locale)](#setLocale-java.util.Locale-) | Sets java.util.Locale for the current Aspose.Words thread. |
-| [setTimeZone(TimeZone timeZone)](#setTimeZone-java.util.TimeZone-) | Sets java.util.TimeZone for the current Aspose.Words thread. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getLocale()](#getLocale) | Returns java.util.Locale that used by the current Aspose.Words thread. |
+| [getTimeZone()](#getTimeZone) | Returns java.util.TimeZone that used by the current Aspose.Words thread. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setLocale(String localeName)](#setLocale-java.lang.String) | Sets java.util.Locale for the current Aspose.Words thread using locale name. |
+| [setLocale(Locale locale)](#setLocale-java.util.Locale) | Sets java.util.Locale for the current Aspose.Words thread. |
+| [setTimeZone(TimeZone timeZone)](#setTimeZone-java.util.TimeZone) | Sets java.util.TimeZone for the current Aspose.Words thread. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -47,7 +47,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -57,7 +57,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getLocale() {#getLocale--}
+### getLocale() {#getLocale}
 ```
 public static Locale getLocale()
 ```
@@ -67,7 +67,7 @@ Returns java.util.Locale that used by the current Aspose.Words thread.
 
 **Returns:**
 java.util.Locale
-### getTimeZone() {#getTimeZone--}
+### getTimeZone() {#getTimeZone}
 ```
 public static TimeZone getTimeZone()
 ```
@@ -77,7 +77,7 @@ Returns java.util.TimeZone that used by the current Aspose.Words thread.
 
 **Returns:**
 java.util.TimeZone
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -87,7 +87,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -95,7 +95,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -103,7 +103,7 @@ public final native void notifyAll()
 
 
 
-### setLocale(String localeName) {#setLocale-java.lang.String-}
+### setLocale(String localeName) {#setLocale-java.lang.String}
 ```
 public static void setLocale(String localeName)
 ```
@@ -116,7 +116,7 @@ Sets java.util.Locale for the current Aspose.Words thread using locale name.
 | --- | --- | --- |
 | localeName | java.lang.String |  |
 
-### setLocale(Locale locale) {#setLocale-java.util.Locale-}
+### setLocale(Locale locale) {#setLocale-java.util.Locale}
 ```
 public static void setLocale(Locale locale)
 ```
@@ -129,7 +129,7 @@ Sets java.util.Locale for the current Aspose.Words thread.
 | --- | --- | --- |
 | locale | java.util.Locale |  |
 
-### setTimeZone(TimeZone timeZone) {#setTimeZone-java.util.TimeZone-}
+### setTimeZone(TimeZone timeZone) {#setTimeZone-java.util.TimeZone}
 ```
 public static void setTimeZone(TimeZone timeZone)
 ```
@@ -142,7 +142,7 @@ Sets java.util.TimeZone for the current Aspose.Words thread.
 | --- | --- | --- |
 | timeZone | java.util.TimeZone |  |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -152,7 +152,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -160,7 +160,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -173,7 +173,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

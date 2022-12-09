@@ -3,7 +3,7 @@ title: FindReplaceOptions
 second_title: Aspose.Words for Java API Reference
 description: Specifies options for find/replace operations.
 type: docs
-weight: 270
+weight: 272
 url: /java/com.aspose.words/findreplaceoptions/
 ---
 
@@ -15,59 +15,62 @@ public class FindReplaceOptions
 
 Specifies options for find/replace operations.
 
-To learn more, visit the **Find and Replace** documentation article.
+To learn more, visit the [ Find and Replace ][Find and Replace] documentation article.
+
+
+[Find and Replace]: https://docs.aspose.com/words/java/find-and-replace/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [FindReplaceOptions()](#FindReplaceOptions--) | Initializes a new instance of this class. |
-| [FindReplaceOptions(int direction)](#FindReplaceOptions-int-) | Initializes a new instance of this class. |
-| [FindReplaceOptions(IReplacingCallback replacingCallback)](#FindReplaceOptions-com.aspose.words.IReplacingCallback-) | Initializes a new instance of this class. |
-| [FindReplaceOptions(int direction, IReplacingCallback replacingCallback)](#FindReplaceOptions-int-com.aspose.words.IReplacingCallback-) | Initializes a new instance of this class. |
+| [FindReplaceOptions()](#FindReplaceOptions) | Initializes a new instance of this class. |
+| [FindReplaceOptions(int direction)](#FindReplaceOptions-int) | Initializes a new instance of this class. |
+| [FindReplaceOptions(IReplacingCallback replacingCallback)](#FindReplaceOptions-com.aspose.words.IReplacingCallback) | Initializes a new instance of this class. |
+| [FindReplaceOptions(int direction, IReplacingCallback replacingCallback)](#FindReplaceOptions-int-com.aspose.words.IReplacingCallback) | Initializes a new instance of this class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getApplyFont()](#getApplyFont--) | Text formatting applied to new content. |
-| [getApplyParagraphFormat()](#getApplyParagraphFormat--) | Paragraph formatting applied to new content. |
-| [getClass()](#getClass--) |  |
-| [getDirection()](#getDirection--) | Selects direction for replace. |
-| [getFindWholeWordsOnly()](#getFindWholeWordsOnly--) | True indicates the oldValue must be a standalone word. |
-| [getIgnoreDeleted()](#getIgnoreDeleted--) | Gets a boolean value indicating either to ignore text inside delete revisions. |
-| [getIgnoreFieldCodes()](#getIgnoreFieldCodes--) | Gets a boolean value indicating either to ignore text inside field codes. |
-| [getIgnoreFields()](#getIgnoreFields--) | Gets a boolean value indicating either to ignore text inside fields. |
-| [getIgnoreFootnotes()](#getIgnoreFootnotes--) | Gets a boolean value indicating either to ignore footnotes. |
-| [getIgnoreInserted()](#getIgnoreInserted--) | Gets a boolean value indicating either to ignore text inside insert revisions. |
-| [getIgnoreStructuredDocumentTags()](#getIgnoreStructuredDocumentTags--) | Gets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag). |
-| [getLegacyMode()](#getLegacyMode--) | Gets a boolean value indicating that old find/replace algorithm is used. |
-| [getMatchCase()](#getMatchCase--) | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |
-| [getReplacingCallback()](#getReplacingCallback--) | The user-defined method which is called before every replace occurrence. |
-| [getSmartParagraphBreakReplacement()](#getSmartParagraphBreakReplacement--) | Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph. |
-| [getUseLegacyOrder()](#getUseLegacyOrder--) | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. |
-| [getUseSubstitutions()](#getUseSubstitutions--) | Gets a boolean value indicating whether to recognize and use substitutions within replacement patterns. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setDirection(int value)](#setDirection-int-) | Selects direction for replace. |
-| [setFindWholeWordsOnly(boolean value)](#setFindWholeWordsOnly-boolean-) | True indicates the oldValue must be a standalone word. |
-| [setIgnoreDeleted(boolean value)](#setIgnoreDeleted-boolean-) | Sets a boolean value indicating either to ignore text inside delete revisions. |
-| [setIgnoreFieldCodes(boolean value)](#setIgnoreFieldCodes-boolean-) | Sets a boolean value indicating either to ignore text inside field codes. |
-| [setIgnoreFields(boolean value)](#setIgnoreFields-boolean-) | Sets a boolean value indicating either to ignore text inside fields. |
-| [setIgnoreFootnotes(boolean value)](#setIgnoreFootnotes-boolean-) | Sets a boolean value indicating either to ignore footnotes. |
-| [setIgnoreInserted(boolean value)](#setIgnoreInserted-boolean-) | Sets a boolean value indicating either to ignore text inside insert revisions. |
-| [setIgnoreStructuredDocumentTags(boolean value)](#setIgnoreStructuredDocumentTags-boolean-) | Sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag). |
-| [setLegacyMode(boolean value)](#setLegacyMode-boolean-) | Sets a boolean value indicating that old find/replace algorithm is used. |
-| [setMatchCase(boolean value)](#setMatchCase-boolean-) | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |
-| [setReplacingCallback(IReplacingCallback value)](#setReplacingCallback-com.aspose.words.IReplacingCallback-) | The user-defined method which is called before every replace occurrence. |
-| [setSmartParagraphBreakReplacement(boolean value)](#setSmartParagraphBreakReplacement-boolean-) | Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph. |
-| [setUseLegacyOrder(boolean value)](#setUseLegacyOrder-boolean-) | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. |
-| [setUseSubstitutions(boolean value)](#setUseSubstitutions-boolean-) | Sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### FindReplaceOptions() {#FindReplaceOptions--}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getApplyFont()](#getApplyFont) | Text formatting applied to new content. |
+| [getApplyParagraphFormat()](#getApplyParagraphFormat) | Paragraph formatting applied to new content. |
+| [getClass()](#getClass) |  |
+| [getDirection()](#getDirection) | Selects direction for replace. |
+| [getFindWholeWordsOnly()](#getFindWholeWordsOnly) | True indicates the oldValue must be a standalone word. |
+| [getIgnoreDeleted()](#getIgnoreDeleted) | Gets a boolean value indicating either to ignore text inside delete revisions. |
+| [getIgnoreFieldCodes()](#getIgnoreFieldCodes) | Gets a boolean value indicating either to ignore text inside field codes. |
+| [getIgnoreFields()](#getIgnoreFields) | Gets a boolean value indicating either to ignore text inside fields. |
+| [getIgnoreFootnotes()](#getIgnoreFootnotes) | Gets a boolean value indicating either to ignore footnotes. |
+| [getIgnoreInserted()](#getIgnoreInserted) | Gets a boolean value indicating either to ignore text inside insert revisions. |
+| [getIgnoreStructuredDocumentTags()](#getIgnoreStructuredDocumentTags) | Gets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag). |
+| [getLegacyMode()](#getLegacyMode) | Gets a boolean value indicating that old find/replace algorithm is used. |
+| [getMatchCase()](#getMatchCase) | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |
+| [getReplacingCallback()](#getReplacingCallback) | The user-defined method which is called before every replace occurrence. |
+| [getSmartParagraphBreakReplacement()](#getSmartParagraphBreakReplacement) | Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph. |
+| [getUseLegacyOrder()](#getUseLegacyOrder) | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. |
+| [getUseSubstitutions()](#getUseSubstitutions) | Gets a boolean value indicating whether to recognize and use substitutions within replacement patterns. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setDirection(int value)](#setDirection-int) | Selects direction for replace. |
+| [setFindWholeWordsOnly(boolean value)](#setFindWholeWordsOnly-boolean) | True indicates the oldValue must be a standalone word. |
+| [setIgnoreDeleted(boolean value)](#setIgnoreDeleted-boolean) | Sets a boolean value indicating either to ignore text inside delete revisions. |
+| [setIgnoreFieldCodes(boolean value)](#setIgnoreFieldCodes-boolean) | Sets a boolean value indicating either to ignore text inside field codes. |
+| [setIgnoreFields(boolean value)](#setIgnoreFields-boolean) | Sets a boolean value indicating either to ignore text inside fields. |
+| [setIgnoreFootnotes(boolean value)](#setIgnoreFootnotes-boolean) | Sets a boolean value indicating either to ignore footnotes. |
+| [setIgnoreInserted(boolean value)](#setIgnoreInserted-boolean) | Sets a boolean value indicating either to ignore text inside insert revisions. |
+| [setIgnoreStructuredDocumentTags(boolean value)](#setIgnoreStructuredDocumentTags-boolean) | Sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag). |
+| [setLegacyMode(boolean value)](#setLegacyMode-boolean) | Sets a boolean value indicating that old find/replace algorithm is used. |
+| [setMatchCase(boolean value)](#setMatchCase-boolean) | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |
+| [setReplacingCallback(IReplacingCallback value)](#setReplacingCallback-com.aspose.words.IReplacingCallback) | The user-defined method which is called before every replace occurrence. |
+| [setSmartParagraphBreakReplacement(boolean value)](#setSmartParagraphBreakReplacement-boolean) | Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph. |
+| [setUseLegacyOrder(boolean value)](#setUseLegacyOrder-boolean) | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. |
+| [setUseSubstitutions(boolean value)](#setUseSubstitutions-boolean) | Sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### FindReplaceOptions() {#FindReplaceOptions}
 ```
 public FindReplaceOptions()
 ```
@@ -75,7 +78,7 @@ public FindReplaceOptions()
 
 Initializes a new instance of this class.
 
-### FindReplaceOptions(int direction) {#FindReplaceOptions-int-}
+### FindReplaceOptions(int direction) {#FindReplaceOptions-int}
 ```
 public FindReplaceOptions(int direction)
 ```
@@ -88,7 +91,7 @@ Initializes a new instance of this class.
 | --- | --- | --- |
 | direction | int |  |
 
-### FindReplaceOptions(IReplacingCallback replacingCallback) {#FindReplaceOptions-com.aspose.words.IReplacingCallback-}
+### FindReplaceOptions(IReplacingCallback replacingCallback) {#FindReplaceOptions-com.aspose.words.IReplacingCallback}
 ```
 public FindReplaceOptions(IReplacingCallback replacingCallback)
 ```
@@ -101,7 +104,7 @@ Initializes a new instance of this class.
 | --- | --- | --- |
 | replacingCallback | [IReplacingCallback](../../com.aspose.words/ireplacingcallback) |  |
 
-### FindReplaceOptions(int direction, IReplacingCallback replacingCallback) {#FindReplaceOptions-int-com.aspose.words.IReplacingCallback-}
+### FindReplaceOptions(int direction, IReplacingCallback replacingCallback) {#FindReplaceOptions-int-com.aspose.words.IReplacingCallback}
 ```
 public FindReplaceOptions(int direction, IReplacingCallback replacingCallback)
 ```
@@ -115,7 +118,7 @@ Initializes a new instance of this class.
 | direction | int |  |
 | replacingCallback | [IReplacingCallback](../../com.aspose.words/ireplacingcallback) |  |
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -130,7 +133,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getApplyFont() {#getApplyFont--}
+### getApplyFont() {#getApplyFont}
 ```
 public Font getApplyFont()
 ```
@@ -140,7 +143,7 @@ Text formatting applied to new content.
 
 **Returns:**
 [Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
-### getApplyParagraphFormat() {#getApplyParagraphFormat--}
+### getApplyParagraphFormat() {#getApplyParagraphFormat}
 ```
 public ParagraphFormat getApplyParagraphFormat()
 ```
@@ -150,7 +153,7 @@ Paragraph formatting applied to new content.
 
 **Returns:**
 [ParagraphFormat](../../com.aspose.words/paragraphformat) - The corresponding [ParagraphFormat](../../com.aspose.words/paragraphformat) value.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -160,7 +163,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDirection() {#getDirection--}
+### getDirection() {#getDirection}
 ```
 public int getDirection()
 ```
@@ -170,7 +173,7 @@ Selects direction for replace. Default value is [FindReplaceDirection.FORWARD](.
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [FindReplaceDirection](../../com.aspose.words/findreplacedirection) constants.
-### getFindWholeWordsOnly() {#getFindWholeWordsOnly--}
+### getFindWholeWordsOnly() {#getFindWholeWordsOnly}
 ```
 public boolean getFindWholeWordsOnly()
 ```
@@ -180,7 +183,7 @@ True indicates the oldValue must be a standalone word.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getIgnoreDeleted() {#getIgnoreDeleted--}
+### getIgnoreDeleted() {#getIgnoreDeleted}
 ```
 public boolean getIgnoreDeleted()
 ```
@@ -190,7 +193,7 @@ Gets a boolean value indicating either to ignore text inside delete revisions. T
 
 **Returns:**
 boolean - A boolean value indicating either to ignore text inside delete revisions.
-### getIgnoreFieldCodes() {#getIgnoreFieldCodes--}
+### getIgnoreFieldCodes() {#getIgnoreFieldCodes}
 ```
 public boolean getIgnoreFieldCodes()
 ```
@@ -200,11 +203,11 @@ Gets a boolean value indicating either to ignore text inside field codes. The de
 
 This option affects only field codes (it does not ignore nodes between [NodeType.FIELD\_SEPARATOR](../../com.aspose.words/nodetype\#FIELD-SEPARATOR) and [NodeType.FIELD\_END](../../com.aspose.words/nodetype\#FIELD-END)).
 
-To ignore whole field, please use corresponding option [getIgnoreFields()](../../com.aspose.words/findreplaceoptions\#getIgnoreFields--) / [setIgnoreFields(boolean)](../../com.aspose.words/findreplaceoptions\#setIgnoreFields-boolean-).
+To ignore whole field, please use corresponding option [getIgnoreFields()](../../com.aspose.words/findreplaceoptions\#getIgnoreFields) / [setIgnoreFields(boolean)](../../com.aspose.words/findreplaceoptions\#setIgnoreFields-boolean).
 
 **Returns:**
 boolean - A boolean value indicating either to ignore text inside field codes.
-### getIgnoreFields() {#getIgnoreFields--}
+### getIgnoreFields() {#getIgnoreFields}
 ```
 public boolean getIgnoreFields()
 ```
@@ -214,11 +217,11 @@ Gets a boolean value indicating either to ignore text inside fields. The default
 
 This option affects whole field (all nodes between [NodeType.FIELD\_START](../../com.aspose.words/nodetype\#FIELD-START) and [NodeType.FIELD\_END](../../com.aspose.words/nodetype\#FIELD-END)).
 
-To ignore only field codes, please use corresponding option [getIgnoreFieldCodes()](../../com.aspose.words/findreplaceoptions\#getIgnoreFieldCodes--) / [setIgnoreFieldCodes(boolean)](../../com.aspose.words/findreplaceoptions\#setIgnoreFieldCodes-boolean-).
+To ignore only field codes, please use corresponding option [getIgnoreFieldCodes()](../../com.aspose.words/findreplaceoptions\#getIgnoreFieldCodes) / [setIgnoreFieldCodes(boolean)](../../com.aspose.words/findreplaceoptions\#setIgnoreFieldCodes-boolean).
 
 **Returns:**
 boolean - A boolean value indicating either to ignore text inside fields.
-### getIgnoreFootnotes() {#getIgnoreFootnotes--}
+### getIgnoreFootnotes() {#getIgnoreFootnotes}
 ```
 public boolean getIgnoreFootnotes()
 ```
@@ -228,7 +231,7 @@ Gets a boolean value indicating either to ignore footnotes. The default value is
 
 **Returns:**
 boolean - A boolean value indicating either to ignore footnotes.
-### getIgnoreInserted() {#getIgnoreInserted--}
+### getIgnoreInserted() {#getIgnoreInserted}
 ```
 public boolean getIgnoreInserted()
 ```
@@ -238,7 +241,7 @@ Gets a boolean value indicating either to ignore text inside insert revisions. T
 
 **Returns:**
 boolean - A boolean value indicating either to ignore text inside insert revisions.
-### getIgnoreStructuredDocumentTags() {#getIgnoreStructuredDocumentTags--}
+### getIgnoreStructuredDocumentTags() {#getIgnoreStructuredDocumentTags}
 ```
 public boolean getIgnoreStructuredDocumentTags()
 ```
@@ -252,7 +255,7 @@ Otherwise, [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)
 
 **Returns:**
 boolean - A boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag).
-### getLegacyMode() {#getLegacyMode--}
+### getLegacyMode() {#getLegacyMode}
 ```
 public boolean getLegacyMode()
 ```
@@ -262,7 +265,7 @@ Gets a boolean value indicating that old find/replace algorithm is used. Use thi
 
 **Returns:**
 boolean - A boolean value indicating that old find/replace algorithm is used.
-### getMatchCase() {#getMatchCase--}
+### getMatchCase() {#getMatchCase}
 ```
 public boolean getMatchCase()
 ```
@@ -272,7 +275,7 @@ True indicates case-sensitive comparison, false indicates case-insensitive compa
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getReplacingCallback() {#getReplacingCallback--}
+### getReplacingCallback() {#getReplacingCallback}
 ```
 public IReplacingCallback getReplacingCallback()
 ```
@@ -282,7 +285,7 @@ The user-defined method which is called before every replace occurrence.
 
 **Returns:**
 [IReplacingCallback](../../com.aspose.words/ireplacingcallback) - The corresponding [IReplacingCallback](../../com.aspose.words/ireplacingcallback) value.
-### getSmartParagraphBreakReplacement() {#getSmartParagraphBreakReplacement--}
+### getSmartParagraphBreakReplacement() {#getSmartParagraphBreakReplacement}
 ```
 public boolean getSmartParagraphBreakReplacement()
 ```
@@ -296,17 +299,17 @@ This option allows to replace paragraph break when there is no next sibling para
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getUseLegacyOrder() {#getUseLegacyOrder--}
+### getUseLegacyOrder() {#getUseLegacyOrder}
 ```
 public boolean getUseLegacyOrder()
 ```
 
 
-True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is false.
+True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is  false .
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getUseSubstitutions() {#getUseSubstitutions--}
+### getUseSubstitutions() {#getUseSubstitutions}
 ```
 public boolean getUseSubstitutions()
 ```
@@ -316,7 +319,7 @@ Gets a boolean value indicating whether to recognize and use substitutions withi
 
 **Returns:**
 boolean - A boolean value indicating whether to recognize and use substitutions within replacement patterns.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -326,7 +329,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -334,7 +337,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -342,7 +345,7 @@ public final native void notifyAll()
 
 
 
-### setDirection(int value) {#setDirection-int-}
+### setDirection(int value) {#setDirection-int}
 ```
 public void setDirection(int value)
 ```
@@ -355,7 +358,7 @@ Selects direction for replace. Default value is [FindReplaceDirection.FORWARD](.
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [FindReplaceDirection](../../com.aspose.words/findreplacedirection) constants. |
 
-### setFindWholeWordsOnly(boolean value) {#setFindWholeWordsOnly-boolean-}
+### setFindWholeWordsOnly(boolean value) {#setFindWholeWordsOnly-boolean}
 ```
 public void setFindWholeWordsOnly(boolean value)
 ```
@@ -368,7 +371,7 @@ True indicates the oldValue must be a standalone word.
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setIgnoreDeleted(boolean value) {#setIgnoreDeleted-boolean-}
+### setIgnoreDeleted(boolean value) {#setIgnoreDeleted-boolean}
 ```
 public void setIgnoreDeleted(boolean value)
 ```
@@ -381,7 +384,7 @@ Sets a boolean value indicating either to ignore text inside delete revisions. T
 | --- | --- | --- |
 | value | boolean | A boolean value indicating either to ignore text inside delete revisions. |
 
-### setIgnoreFieldCodes(boolean value) {#setIgnoreFieldCodes-boolean-}
+### setIgnoreFieldCodes(boolean value) {#setIgnoreFieldCodes-boolean}
 ```
 public void setIgnoreFieldCodes(boolean value)
 ```
@@ -391,14 +394,14 @@ Sets a boolean value indicating either to ignore text inside field codes. The de
 
 This option affects only field codes (it does not ignore nodes between [NodeType.FIELD\_SEPARATOR](../../com.aspose.words/nodetype\#FIELD-SEPARATOR) and [NodeType.FIELD\_END](../../com.aspose.words/nodetype\#FIELD-END)).
 
-To ignore whole field, please use corresponding option [getIgnoreFields()](../../com.aspose.words/findreplaceoptions\#getIgnoreFields--) / [setIgnoreFields(boolean)](../../com.aspose.words/findreplaceoptions\#setIgnoreFields-boolean-).
+To ignore whole field, please use corresponding option [getIgnoreFields()](../../com.aspose.words/findreplaceoptions\#getIgnoreFields) / [setIgnoreFields(boolean)](../../com.aspose.words/findreplaceoptions\#setIgnoreFields-boolean).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A boolean value indicating either to ignore text inside field codes. |
 
-### setIgnoreFields(boolean value) {#setIgnoreFields-boolean-}
+### setIgnoreFields(boolean value) {#setIgnoreFields-boolean}
 ```
 public void setIgnoreFields(boolean value)
 ```
@@ -408,14 +411,14 @@ Sets a boolean value indicating either to ignore text inside fields. The default
 
 This option affects whole field (all nodes between [NodeType.FIELD\_START](../../com.aspose.words/nodetype\#FIELD-START) and [NodeType.FIELD\_END](../../com.aspose.words/nodetype\#FIELD-END)).
 
-To ignore only field codes, please use corresponding option [getIgnoreFieldCodes()](../../com.aspose.words/findreplaceoptions\#getIgnoreFieldCodes--) / [setIgnoreFieldCodes(boolean)](../../com.aspose.words/findreplaceoptions\#setIgnoreFieldCodes-boolean-).
+To ignore only field codes, please use corresponding option [getIgnoreFieldCodes()](../../com.aspose.words/findreplaceoptions\#getIgnoreFieldCodes) / [setIgnoreFieldCodes(boolean)](../../com.aspose.words/findreplaceoptions\#setIgnoreFieldCodes-boolean).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A boolean value indicating either to ignore text inside fields. |
 
-### setIgnoreFootnotes(boolean value) {#setIgnoreFootnotes-boolean-}
+### setIgnoreFootnotes(boolean value) {#setIgnoreFootnotes-boolean}
 ```
 public void setIgnoreFootnotes(boolean value)
 ```
@@ -428,7 +431,7 @@ Sets a boolean value indicating either to ignore footnotes. The default value is
 | --- | --- | --- |
 | value | boolean | A boolean value indicating either to ignore footnotes. |
 
-### setIgnoreInserted(boolean value) {#setIgnoreInserted-boolean-}
+### setIgnoreInserted(boolean value) {#setIgnoreInserted-boolean}
 ```
 public void setIgnoreInserted(boolean value)
 ```
@@ -441,7 +444,7 @@ Sets a boolean value indicating either to ignore text inside insert revisions. T
 | --- | --- | --- |
 | value | boolean | A boolean value indicating either to ignore text inside insert revisions. |
 
-### setIgnoreStructuredDocumentTags(boolean value) {#setIgnoreStructuredDocumentTags-boolean-}
+### setIgnoreStructuredDocumentTags(boolean value) {#setIgnoreStructuredDocumentTags-boolean}
 ```
 public void setIgnoreStructuredDocumentTags(boolean value)
 ```
@@ -458,7 +461,7 @@ Otherwise, [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)
 | --- | --- | --- |
 | value | boolean | A boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag). |
 
-### setLegacyMode(boolean value) {#setLegacyMode-boolean-}
+### setLegacyMode(boolean value) {#setLegacyMode-boolean}
 ```
 public void setLegacyMode(boolean value)
 ```
@@ -471,7 +474,7 @@ Sets a boolean value indicating that old find/replace algorithm is used. Use thi
 | --- | --- | --- |
 | value | boolean | A boolean value indicating that old find/replace algorithm is used. |
 
-### setMatchCase(boolean value) {#setMatchCase-boolean-}
+### setMatchCase(boolean value) {#setMatchCase-boolean}
 ```
 public void setMatchCase(boolean value)
 ```
@@ -484,7 +487,7 @@ True indicates case-sensitive comparison, false indicates case-insensitive compa
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setReplacingCallback(IReplacingCallback value) {#setReplacingCallback-com.aspose.words.IReplacingCallback-}
+### setReplacingCallback(IReplacingCallback value) {#setReplacingCallback-com.aspose.words.IReplacingCallback}
 ```
 public void setReplacingCallback(IReplacingCallback value)
 ```
@@ -497,7 +500,7 @@ The user-defined method which is called before every replace occurrence.
 | --- | --- | --- |
 | value | [IReplacingCallback](../../com.aspose.words/ireplacingcallback) | The corresponding [IReplacingCallback](../../com.aspose.words/ireplacingcallback) value. |
 
-### setSmartParagraphBreakReplacement(boolean value) {#setSmartParagraphBreakReplacement-boolean-}
+### setSmartParagraphBreakReplacement(boolean value) {#setSmartParagraphBreakReplacement-boolean}
 ```
 public void setSmartParagraphBreakReplacement(boolean value)
 ```
@@ -514,20 +517,20 @@ This option allows to replace paragraph break when there is no next sibling para
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setUseLegacyOrder(boolean value) {#setUseLegacyOrder-boolean-}
+### setUseLegacyOrder(boolean value) {#setUseLegacyOrder-boolean}
 ```
 public void setUseLegacyOrder(boolean value)
 ```
 
 
-True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is false.
+True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is  false .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setUseSubstitutions(boolean value) {#setUseSubstitutions-boolean-}
+### setUseSubstitutions(boolean value) {#setUseSubstitutions-boolean}
 ```
 public void setUseSubstitutions(boolean value)
 ```
@@ -540,7 +543,7 @@ Sets a boolean value indicating whether to recognize and use substitutions withi
 | --- | --- | --- |
 | value | boolean | A boolean value indicating whether to recognize and use substitutions within replacement patterns. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -550,7 +553,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -558,7 +561,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -571,7 +574,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

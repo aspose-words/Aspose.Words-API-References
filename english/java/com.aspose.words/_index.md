@@ -57,7 +57,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [BookmarkStart](../com.aspose.words/bookmarkstart) | Represents a start of a bookmark in a Word document. |
 | [BookmarksOutlineLevelCollection](../com.aspose.words/bookmarksoutlinelevelcollection) | A collection of individual bookmarks outline level. |
 | [Border](../com.aspose.words/border) | Represents a border of an object. |
-| [BorderCollection](../com.aspose.words/bordercollection) | A collection of Border objects. |
+| [BorderCollection](../com.aspose.words/bordercollection) | A collection of [Border](../com.aspose.words/border) objects. |
 | [BorderType](../com.aspose.words/bordertype) | Specifies sides of a border. |
 | [BreakType](../com.aspose.words/breaktype) | Specifies type of a break inside a document. |
 | [BuildVersionInfo](../com.aspose.words/buildversioninfo) | Provides information about the current product name and version. |
@@ -96,6 +96,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [CleanupOptions](../com.aspose.words/cleanupoptions) | Allows to specify options for document cleaning. |
 | [Cluster](../com.aspose.words/cluster) |  |
 | [ColorMode](../com.aspose.words/colormode) | Specifies how colors are rendered. |
+| [ColorPrintMode](../com.aspose.words/colorprintmode) | Specifies how non-colored pages are printed if the device supports color printing. |
 | [Comment](../com.aspose.words/comment) | Represents a container for text of a comment. |
 | [CommentCollection](../com.aspose.words/commentcollection) | Provides typed access to a collection of [Comment](../com.aspose.words/comment) nodes. |
 | [CommentDisplayMode](../com.aspose.words/commentdisplaymode) | Specifies the rendering mode for document comments. |
@@ -116,7 +117,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ContinuousSectionRestart](../com.aspose.words/continuoussectionrestart) | Represents different behaviors when computing page numbers in a continuous section that restarts page numbering. |
 | [ControlChar](../com.aspose.words/controlchar) | Control characters often encountered in documents. |
 | [ConvertUtil](../com.aspose.words/convertutil) | Provides helper functions to convert between various measurement units. |
-| [CssSavingArgs](../com.aspose.words/csssavingargs) | Provides data for the [ICssSavingCallback.\#cssSaving(com.aspose.words.CssSavingArgs)](../com.aspose.words/icsssavingcallback\#cssSaving-com.aspose.words.CssSavingArgs-) event. |
+| [CssSavingArgs](../com.aspose.words/csssavingargs) | Provides data for the [ICssSavingCallback.\#cssSaving(com.aspose.words.CssSavingArgs)](../com.aspose.words/icsssavingcallback\#cssSaving-com.aspose.words.CssSavingArgs) event. |
 | [CssStyleSheetType](../com.aspose.words/cssstylesheettype) | Specifies how CSS (Cascading Style Sheet) styles are exported to HTML. |
 | [CsvDataLoadOptions](../com.aspose.words/csvdataloadoptions) | Represents options for parsing CSV data. |
 | [CsvDataSource](../com.aspose.words/csvdatasource) | Provides access to data of a CSV file or stream to be used within a report. |
@@ -144,13 +145,13 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [DocumentBase](../com.aspose.words/documentbase) | Provides the abstract base class for a main document and a glossary document of a Word document. |
 | [DocumentBuilder](../com.aspose.words/documentbuilder) | Provides methods to insert text, images and other content, specify font, paragraph and section formatting. |
 | [DocumentDirection](../com.aspose.words/documentdirection) | Allows to specify the direction to flow the text in a document. |
-| [DocumentLoadingArgs](../com.aspose.words/documentloadingargs) | An argument passed into [IDocumentLoadingCallback.\#notify(com.aspose.words.DocumentLoadingArgs)](../com.aspose.words/idocumentloadingcallback\#notify-com.aspose.words.DocumentLoadingArgs-). |
-| [DocumentPartSavingArgs](../com.aspose.words/documentpartsavingargs) | Provides data for the [IDocumentPartSavingCallback.\#documentPartSaving(com.aspose.words.DocumentPartSavingArgs)](../com.aspose.words/idocumentpartsavingcallback\#documentPartSaving-com.aspose.words.DocumentPartSavingArgs-) callback. |
+| [DocumentLoadingArgs](../com.aspose.words/documentloadingargs) | An argument passed into [IDocumentLoadingCallback.\#notify(com.aspose.words.DocumentLoadingArgs)](../com.aspose.words/idocumentloadingcallback\#notify-com.aspose.words.DocumentLoadingArgs). |
+| [DocumentPartSavingArgs](../com.aspose.words/documentpartsavingargs) | Provides data for the [IDocumentPartSavingCallback.\#documentPartSaving(com.aspose.words.DocumentPartSavingArgs)](../com.aspose.words/idocumentpartsavingcallback\#documentPartSaving-com.aspose.words.DocumentPartSavingArgs) callback. |
 | [DocumentProperty](../com.aspose.words/documentproperty) | Represents a custom or built-in document property. |
 | [DocumentPropertyCollection](../com.aspose.words/documentpropertycollection) | Base class for [BuiltInDocumentProperties](../com.aspose.words/builtindocumentproperties) and [CustomDocumentProperties](../com.aspose.words/customdocumentproperties) collections. |
 | [DocumentReaderPluginLoadException](../com.aspose.words/documentreaderpluginloadexception) | Thrown during document load, when the plugin required for reading the document format cannot be loaded. |
-| [DocumentSavingArgs](../com.aspose.words/documentsavingargs) | An argument passed into [IDocumentSavingCallback.\#notify(com.aspose.words.DocumentSavingArgs)](../com.aspose.words/idocumentsavingcallback\#notify-com.aspose.words.DocumentSavingArgs-). |
-| [DocumentSecurity](../com.aspose.words/documentsecurity) | Used as a value for the [BuiltInDocumentProperties.\#getSecurity()](../com.aspose.words/builtindocumentproperties\#getSecurity--) / [BuiltInDocumentProperties.\#setSecurity(int)](../com.aspose.words/builtindocumentproperties\#setSecurity-int-) property. |
+| [DocumentSavingArgs](../com.aspose.words/documentsavingargs) | An argument passed into [IDocumentSavingCallback.\#notify(com.aspose.words.DocumentSavingArgs)](../com.aspose.words/idocumentsavingcallback\#notify-com.aspose.words.DocumentSavingArgs). |
+| [DocumentSecurity](../com.aspose.words/documentsecurity) | Used as a value for the [BuiltInDocumentProperties.\#getSecurity()](../com.aspose.words/builtindocumentproperties\#getSecurity) / [BuiltInDocumentProperties.\#setSecurity(int)](../com.aspose.words/builtindocumentproperties\#setSecurity-int) property. |
 | [DocumentSplitCriteria](../com.aspose.words/documentsplitcriteria) | Specifies how the document is split into parts when saving to [SaveFormat.\#HTML](../com.aspose.words/saveformat\#HTML), [SaveFormat.\#EPUB](../com.aspose.words/saveformat\#EPUB) or [SaveFormat.\#AZW\_3](../com.aspose.words/saveformat\#AZW-3) format. |
 | [DocumentVisitor](../com.aspose.words/documentvisitor) | Base class for custom document visitors. |
 | [DownsampleOptions](../com.aspose.words/downsampleoptions) | Allows to specify downsample options. |
@@ -279,6 +280,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [FieldType](../com.aspose.words/fieldtype) | Specifies Microsoft Word field types. |
 | [FieldUnknown](../com.aspose.words/fieldunknown) | Implements an unknown or unrecognized field. |
 | [FieldUpdateCultureSource](../com.aspose.words/fieldupdateculturesource) | Indicates what culture to use during field update. |
+| [FieldUpdatingProgressArgs](../com.aspose.words/fieldupdatingprogressargs) | Provides data for the field updating progress event. |
 | [FieldUserAddress](../com.aspose.words/fielduseraddress) | Implements the USERADDRESS field. |
 | [FieldUserInitials](../com.aspose.words/fielduserinitials) | Implements the USERINITIALS field. |
 | [FieldUserName](../com.aspose.words/fieldusername) | Implements the USERNAME field. |
@@ -305,7 +307,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [FontInfoSubstitutionRule](../com.aspose.words/fontinfosubstitutionrule) | Font info substitution rule. |
 | [FontNameSubstitutionRule](../com.aspose.words/fontnamesubstitutionrule) | Font substitution rule for processing font name. |
 | [FontPitch](../com.aspose.words/fontpitch) | Represents the font pitch. |
-| [FontSavingArgs](../com.aspose.words/fontsavingargs) | Provides data for the [IFontSavingCallback.\#fontSaving(com.aspose.words.FontSavingArgs)](../com.aspose.words/ifontsavingcallback\#fontSaving-com.aspose.words.FontSavingArgs-) event. |
+| [FontSavingArgs](../com.aspose.words/fontsavingargs) | Provides data for the [IFontSavingCallback.\#fontSaving(com.aspose.words.FontSavingArgs)](../com.aspose.words/ifontsavingcallback\#fontSaving-com.aspose.words.FontSavingArgs) event. |
 | [FontSettings](../com.aspose.words/fontsettings) | Specifies font settings for a document. |
 | [FontSourceBase](../com.aspose.words/fontsourcebase) | This is an abstract base class for the classes that allow the user to specify various font sources. |
 | [FontSourceType](../com.aspose.words/fontsourcetype) | Specifies the type of a font source. |
@@ -317,7 +319,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [FootnotePosition](../com.aspose.words/footnoteposition) | Defines the footnote position. |
 | [FootnoteType](../com.aspose.words/footnotetype) | Specifies whether this is a footnote or an endnote. |
 | [FormField](../com.aspose.words/formfield) | Represents a single form field. |
-| [FormFieldCollection](../com.aspose.words/formfieldcollection) | A collection of **FormField** objects that represent all the form fields in a range. |
+| [FormFieldCollection](../com.aspose.words/formfieldcollection) | A collection of [FormField](../com.aspose.words/formfield) objects that represent all the form fields in a range. |
 | [Forms2OleControl](../com.aspose.words/forms2olecontrol) | Represents Microsoft Forms 2.0 OLE control. |
 | [Forms2OleControlCollection](../com.aspose.words/forms2olecontrolcollection) | Represents collection of [Forms2OleControl](../com.aspose.words/forms2olecontrol) objects. |
 | [Forms2OleControlType](../com.aspose.words/forms2olecontroltype) |  |
@@ -337,7 +339,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [GroupShape](../com.aspose.words/groupshape) | Represents a group of shapes in a document. |
 | [HeaderFooter](../com.aspose.words/headerfooter) | Represents a container for the header or footer text of a section. |
 | [HeaderFooterBookmarksExportMode](../com.aspose.words/headerfooterbookmarksexportmode) | Specifies how bookmarks in headers/footers are exported. |
-| [HeaderFooterCollection](../com.aspose.words/headerfootercollection) | Provides typed access to [HeaderFooter](../com.aspose.words/headerfooter) nodes of a **Section**. |
+| [HeaderFooterCollection](../com.aspose.words/headerfootercollection) | Provides typed access to [HeaderFooter](../com.aspose.words/headerfooter) nodes of a [Section](../com.aspose.words/section). |
 | [HeaderFooterType](../com.aspose.words/headerfootertype) | Identifies the type of header or footer found in a Word file. |
 | [HeightRule](../com.aspose.words/heightrule) | Specifies the rule for determining the height of an object. |
 | [HorizontalAlignment](../com.aspose.words/horizontalalignment) | Specifies horizontal alignment of a floating shape, text frame or floating table. |
@@ -358,10 +360,10 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ImageBinarizationMethod](../com.aspose.words/imagebinarizationmethod) | Specifies the method used to binarize image. |
 | [ImageColorMode](../com.aspose.words/imagecolormode) | Specifies the color mode for the generated images of document pages. |
 | [ImageData](../com.aspose.words/imagedata) | Defines an image for a shape. |
-| [ImageFieldMergingArgs](../com.aspose.words/imagefieldmergingargs) | Provides data for the [IFieldMergingCallback.\#imageFieldMerging(com.aspose.words.ImageFieldMergingArgs)](../com.aspose.words/ifieldmergingcallback\#imageFieldMerging-com.aspose.words.ImageFieldMergingArgs-) event. |
+| [ImageFieldMergingArgs](../com.aspose.words/imagefieldmergingargs) | Provides data for the [IFieldMergingCallback.\#imageFieldMerging(com.aspose.words.ImageFieldMergingArgs)](../com.aspose.words/ifieldmergingcallback\#imageFieldMerging-com.aspose.words.ImageFieldMergingArgs) event. |
 | [ImagePixelFormat](../com.aspose.words/imagepixelformat) | Specifies the pixel format for the generated images of document pages. |
 | [ImageSaveOptions](../com.aspose.words/imagesaveoptions) | Allows to specify additional options when rendering document pages or shapes to images. |
-| [ImageSavingArgs](../com.aspose.words/imagesavingargs) | Provides data for the [IImageSavingCallback.\#imageSaving(com.aspose.words.ImageSavingArgs)](../com.aspose.words/iimagesavingcallback\#imageSaving-com.aspose.words.ImageSavingArgs-) event. |
+| [ImageSavingArgs](../com.aspose.words/imagesavingargs) | Provides data for the [IImageSavingCallback.\#imageSaving(com.aspose.words.ImageSavingArgs)](../com.aspose.words/iimagesavingcallback\#imageSaving-com.aspose.words.ImageSavingArgs) event. |
 | [ImageSize](../com.aspose.words/imagesize) | Contains information about image size and resolution. |
 | [ImageType](../com.aspose.words/imagetype) | Specifies the type (format) of an image in a Microsoft Word document. |
 | [ImageWatermarkOptions](../com.aspose.words/imagewatermarkoptions) | Contains options that can be specified when adding a watermark with image. |
@@ -408,6 +410,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [MailMergeRegionInfo](../com.aspose.words/mailmergeregioninfo) | Contains information about a mail merge region. |
 | [MailMergeSettings](../com.aspose.words/mailmergesettings) | Specifies all of the mail merge information for a document. |
 | [MappedDataFieldCollection](../com.aspose.words/mappeddatafieldcollection) | Allows to automatically map between names of fields in your data source and names of mail merge fields in the document. |
+| [Margins](../com.aspose.words/margins) | Specifies preset margins. |
 | [MarkdownSaveOptions](../com.aspose.words/markdownsaveoptions) | Class to specify additional options when saving a document into the [SaveFormat.\#MARKDOWN](../com.aspose.words/saveformat\#MARKDOWN) format. |
 | [MarkerSymbol](../com.aspose.words/markersymbol) | Specifies marker symbol style. |
 | [MarkupLevel](../com.aspose.words/markuplevel) | Specifies the level in the document tree where a particular [StructuredDocumentTag](../com.aspose.words/structureddocumenttag) can occur. |
@@ -426,7 +429,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [NodeChangingArgs](../com.aspose.words/nodechangingargs) | Provides data for methods of the [INodeChangingCallback](../com.aspose.words/inodechangingcallback) interface. |
 | [NodeCollection](../com.aspose.words/nodecollection) | Represents a collection of nodes of a specific type. |
 | [NodeImporter](../com.aspose.words/nodeimporter) | Allows to efficiently perform repeated import of nodes from one document to another. |
-| [NodeList](../com.aspose.words/nodelist) | Represents a collection of nodes matching an XPath query executed using the [CompositeNode.\#selectNodes(java.lang.String)](../com.aspose.words/compositenode\#selectNodes-java.lang.String-) method. |
+| [NodeList](../com.aspose.words/nodelist) | Represents a collection of nodes matching an XPath query executed using the [CompositeNode.\#selectNodes(java.lang.String)](../com.aspose.words/compositenode\#selectNodes-java.lang.String) method. |
 | [NodeRendererBase](../com.aspose.words/noderendererbase) | Base class for [ShapeRenderer](../com.aspose.words/shaperenderer) and [OfficeMathRenderer](../com.aspose.words/officemathrenderer). |
 | [NodeType](../com.aspose.words/nodetype) | Specifies the type of a Word document node. |
 | [NumberStyle](../com.aspose.words/numberstyle) | Specifies the number style for a list, footnotes and endnotes, page numbers. |
@@ -455,10 +458,10 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [PageBorderAppliesTo](../com.aspose.words/pageborderappliesto) | Specifies which pages the page border is printed on. |
 | [PageBorderDistanceFrom](../com.aspose.words/pageborderdistancefrom) | Specifies the positioning of the page border relative to the page margin. |
 | [PageInfo](../com.aspose.words/pageinfo) | Represents information about a particular document page. |
-| [PageLayoutCallbackArgs](../com.aspose.words/pagelayoutcallbackargs) | An argument passed into [IPageLayoutCallback.\#notify(com.aspose.words.PageLayoutCallbackArgs)](../com.aspose.words/ipagelayoutcallback\#notify-com.aspose.words.PageLayoutCallbackArgs-) |
+| [PageLayoutCallbackArgs](../com.aspose.words/pagelayoutcallbackargs) | An argument passed into [IPageLayoutCallback.\#notify(com.aspose.words.PageLayoutCallbackArgs)](../com.aspose.words/ipagelayoutcallback\#notify-com.aspose.words.PageLayoutCallbackArgs) |
 | [PageLayoutEvent](../com.aspose.words/pagelayoutevent) | A code of event raised during page layout model build and rendering. |
 | [PageRange](../com.aspose.words/pagerange) | Represents a continuous range of pages. |
-| [PageSavingArgs](../com.aspose.words/pagesavingargs) | Provides data for the [IPageSavingCallback.\#pageSaving(com.aspose.words.PageSavingArgs)](../com.aspose.words/ipagesavingcallback\#pageSaving-com.aspose.words.PageSavingArgs-) event. |
+| [PageSavingArgs](../com.aspose.words/pagesavingargs) | Provides data for the [IPageSavingCallback.\#pageSaving(com.aspose.words.PageSavingArgs)](../com.aspose.words/ipagesavingcallback\#pageSaving-com.aspose.words.PageSavingArgs) event. |
 | [PageSet](../com.aspose.words/pageset) | Describes a random set of pages. |
 | [PageSetup](../com.aspose.words/pagesetup) | Represents the page setup properties of a section. |
 | [PageVerticalAlignment](../com.aspose.words/pageverticalalignment) | Specifies vertical justification of text on each page. |
@@ -470,7 +473,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [PatternType](../com.aspose.words/patterntype) | Specifies the fill pattern to be used to fill a shape. |
 | [PclSaveOptions](../com.aspose.words/pclsaveoptions) | Can be used to specify additional options when saving a document into the [SaveFormat.\#PCL](../com.aspose.words/saveformat\#PCL) format. |
 | [PdfCompliance](../com.aspose.words/pdfcompliance) | Specifies the PDF standards compliance level. |
-| [PdfCustomPropertiesExport](../com.aspose.words/pdfcustompropertiesexport) | Specifies the way [Document.\#getCustomDocumentProperties()](../com.aspose.words/document\#getCustomDocumentProperties--) are exported to PDF file. |
+| [PdfCustomPropertiesExport](../com.aspose.words/pdfcustompropertiesexport) | Specifies the way [Document.\#getCustomDocumentProperties()](../com.aspose.words/document\#getCustomDocumentProperties) are exported to PDF file. |
 | [PdfDigitalSignatureDetails](../com.aspose.words/pdfdigitalsignaturedetails) | Contains details for signing a PDF document with a digital signature. |
 | [PdfDigitalSignatureHashAlgorithm](../com.aspose.words/pdfdigitalsignaturehashalgorithm) | Specifies a digital hash algorithm used by a digital signature. |
 | [PdfDigitalSignatureTimestampSettings](../com.aspose.words/pdfdigitalsignaturetimestampsettings) | Contains settings of the digital signature timestamp. |
@@ -500,8 +503,8 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ReportBuildOptions](../com.aspose.words/reportbuildoptions) | Specifies options controlling behavior of [ReportingEngine](../com.aspose.words/reportingengine) while building a report. |
 | [ReportingEngine](../com.aspose.words/reportingengine) | Provides routines to populate template documents with data and a set of settings to control these routines. |
 | [ResourceLoadingAction](../com.aspose.words/resourceloadingaction) | Specifies the mode of resource loading. |
-| [ResourceLoadingArgs](../com.aspose.words/resourceloadingargs) | Provides data for the [IResourceLoadingCallback.\#resourceLoading(com.aspose.words.ResourceLoadingArgs)](../com.aspose.words/iresourceloadingcallback\#resourceLoading-com.aspose.words.ResourceLoadingArgs-) method. |
-| [ResourceSavingArgs](../com.aspose.words/resourcesavingargs) | Provides data for the [IResourceSavingCallback.\#resourceSaving(com.aspose.words.ResourceSavingArgs)](../com.aspose.words/iresourcesavingcallback\#resourceSaving-com.aspose.words.ResourceSavingArgs-) event. |
+| [ResourceLoadingArgs](../com.aspose.words/resourceloadingargs) | Provides data for the [IResourceLoadingCallback.\#resourceLoading(com.aspose.words.ResourceLoadingArgs)](../com.aspose.words/iresourceloadingcallback\#resourceLoading-com.aspose.words.ResourceLoadingArgs) method. |
+| [ResourceSavingArgs](../com.aspose.words/resourcesavingargs) | Provides data for the [IResourceSavingCallback.\#resourceSaving(com.aspose.words.ResourceSavingArgs)](../com.aspose.words/iresourcesavingcallback\#resourceSaving-com.aspose.words.ResourceSavingArgs) event. |
 | [ResourceType](../com.aspose.words/resourcetype) | Type of loaded resource. |
 | [Revision](../com.aspose.words/revision) | Represents a revision (tracked change) in a document node or style. |
 | [RevisionCollection](../com.aspose.words/revisioncollection) | A collection of [Revision](../com.aspose.words/revision) objects that represent revisions in the document. |
@@ -524,13 +527,13 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [SaveOutputParameters](../com.aspose.words/saveoutputparameters) | This object is returned to the caller after a document is saved and contains additional information that has been generated or calculated during the save operation. |
 | [ScriptShapingLevel](../com.aspose.words/scriptshapinglevel) |  |
 | [SdtAppearance](../com.aspose.words/sdtappearance) | Specifies the appearance of a structured document tag. |
-| [SdtCalendarType](../com.aspose.words/sdtcalendartype) | Specifies the possible types of calendars which can be used to specify [StructuredDocumentTag.\#getCalendarType()](../com.aspose.words/structureddocumenttag\#getCalendarType--) / [StructuredDocumentTag.\#setCalendarType(int)](../com.aspose.words/structureddocumenttag\#setCalendarType-int-) in an Office Open XML document. |
+| [SdtCalendarType](../com.aspose.words/sdtcalendartype) | Specifies the possible types of calendars which can be used to specify [StructuredDocumentTag.\#getCalendarType()](../com.aspose.words/structureddocumenttag\#getCalendarType) / [StructuredDocumentTag.\#setCalendarType(int)](../com.aspose.words/structureddocumenttag\#setCalendarType-int) in an Office Open XML document. |
 | [SdtDateStorageFormat](../com.aspose.words/sdtdatestorageformat) | Specifies how the date for a date SDT is stored/retrieved when the SDT is bound to an XML node in the document's data store. |
 | [SdtListItem](../com.aspose.words/sdtlistitem) | This element specifies a single list item within a parent [SdtType.\#COMBO\_BOX](../com.aspose.words/sdttype\#COMBO-BOX) or [SdtType.\#DROP\_DOWN\_LIST](../com.aspose.words/sdttype\#DROP-DOWN-LIST) structured document tag. |
 | [SdtListItemCollection](../com.aspose.words/sdtlistitemcollection) | Provides access to [SdtListItem](../com.aspose.words/sdtlistitem) elements of a structured document tag. |
 | [SdtType](../com.aspose.words/sdttype) | Specifies the type of a structured document tag (SDT) node. |
 | [Section](../com.aspose.words/section) | Represents a single section in a document. |
-| [SectionCollection](../com.aspose.words/sectioncollection) | A collection of **Section** objects in the document. |
+| [SectionCollection](../com.aspose.words/sectioncollection) | A collection of [Section](../com.aspose.words/section) objects in the document. |
 | [SectionLayoutMode](../com.aspose.words/sectionlayoutmode) | Specifies the layout mode for a section allowing to define the document grid behavior. |
 | [SectionStart](../com.aspose.words/sectionstart) | The type of break at the beginning of the section. |
 | [Shading](../com.aspose.words/shading) | Contains shading attributes for an object. |
@@ -557,7 +560,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [StructuredDocumentTagRangeEnd](../com.aspose.words/structureddocumenttagrangeend) | Represents an end of **ranged** structured document tag which accepts multi-sections content. |
 | [StructuredDocumentTagRangeStart](../com.aspose.words/structureddocumenttagrangestart) | Represents a start of **ranged** structured document tag which accepts multi-sections content. |
 | [Style](../com.aspose.words/style) | Represents a single built-in or user-defined style. |
-| [StyleCollection](../com.aspose.words/stylecollection) | A collection of Style objects that represent both the built-in and user-defined styles in a document. |
+| [StyleCollection](../com.aspose.words/stylecollection) | A collection of [Style](../com.aspose.words/style) objects that represent both the built-in and user-defined styles in a document. |
 | [StyleIdentifier](../com.aspose.words/styleidentifier) | Locale independent style identifier. |
 | [StyleType](../com.aspose.words/styletype) | Represents type of the style. |
 | [SubDocument](../com.aspose.words/subdocument) | Represents a **SubDocument** \- which is a reference to an externally stored document. |
@@ -593,11 +596,11 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [TextWrapping](../com.aspose.words/textwrapping) | Specifies how text is wrapped around the table. |
 | [TextureAlignment](../com.aspose.words/texturealignment) | Specifies the alignment for the tiling of the texture fill. |
 | [TextureIndex](../com.aspose.words/textureindex) | Specifies shading texture. |
-| [Theme](../com.aspose.words/theme) | Represents document Theme, and provides access to main theme parts including [Theme.\#getMajorFonts()](../com.aspose.words/theme\#getMajorFonts--), [Theme.\#getMinorFonts()](../com.aspose.words/theme\#getMinorFonts--) and [Theme.\#getColors()](../com.aspose.words/theme\#getColors--) |
+| [Theme](../com.aspose.words/theme) | Represents document Theme, and provides access to main theme parts including [Theme.\#getMajorFonts()](../com.aspose.words/theme\#getMajorFonts), [Theme.\#getMinorFonts()](../com.aspose.words/theme\#getMinorFonts) and [Theme.\#getColors()](../com.aspose.words/theme\#getColors) |
 | [ThemeColor](../com.aspose.words/themecolor) | Specifies the theme colors for document themes. |
 | [ThemeColors](../com.aspose.words/themecolors) | Represents the color scheme of the document theme which contains twelve colors. |
 | [ThemeFont](../com.aspose.words/themefont) | Specifies the types of theme font names for document themes. |
-| [ThemeFonts](../com.aspose.words/themefonts) | Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages [ThemeFonts.\#getLatin()](../com.aspose.words/themefonts\#getLatin--) / [ThemeFonts.\#setLatin(java.lang.String)](../com.aspose.words/themefonts\#setLatin-java.lang.String-), [ThemeFonts.\#getEastAsian()](../com.aspose.words/themefonts\#getEastAsian--) / [ThemeFonts.\#setEastAsian(java.lang.String)](../com.aspose.words/themefonts\#setEastAsian-java.lang.String-) and [ThemeFonts.\#getComplexScript()](../com.aspose.words/themefonts\#getComplexScript--) / [ThemeFonts.\#setComplexScript(java.lang.String)](../com.aspose.words/themefonts\#setComplexScript-java.lang.String-). |
+| [ThemeFonts](../com.aspose.words/themefonts) | Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages [ThemeFonts.\#getLatin()](../com.aspose.words/themefonts\#getLatin) / [ThemeFonts.\#setLatin(java.lang.String)](../com.aspose.words/themefonts\#setLatin-java.lang.String), [ThemeFonts.\#getEastAsian()](../com.aspose.words/themefonts\#getEastAsian) / [ThemeFonts.\#setEastAsian(java.lang.String)](../com.aspose.words/themefonts\#setEastAsian-java.lang.String) and [ThemeFonts.\#getComplexScript()](../com.aspose.words/themefonts\#getComplexScript) / [ThemeFonts.\#setComplexScript(java.lang.String)](../com.aspose.words/themefonts\#setComplexScript-java.lang.String). |
 | [ThumbnailGeneratingOptions](../com.aspose.words/thumbnailgeneratingoptions) | Can be used to specify additional options when generating thumbnail for a document. |
 | [TiffCompression](../com.aspose.words/tiffcompression) | Specifies what type of compression to apply when saving page images into a TIFF file. |
 | [ToaCategories](../com.aspose.words/toacategories) | Represents a table of authorities categories. |
@@ -670,6 +673,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [IFieldResultFormatter](../com.aspose.words/ifieldresultformatter) | Implement this interface if you want to control how the field result is formatted. |
 | [IFieldUpdateCultureProvider](../com.aspose.words/ifieldupdatecultureprovider) | When implemented, provides a [CultureInfo](../com.aspose.words.net.system.globalization/cultureinfo) object that should be used during the update of a particular field. |
 | [IFieldUpdatingCallback](../com.aspose.words/ifieldupdatingcallback) | Implement this interface if you want to have your own custom methods called during a field update. |
+| [IFieldUpdatingProgressCallback](../com.aspose.words/ifieldupdatingprogresscallback) | Implement this interface if you want to track field updating progress. |
 | [IFieldUserPromptRespondent](../com.aspose.words/ifielduserpromptrespondent) | Represents the respondent to user prompts during field update. |
 | [IFontSavingCallback](../com.aspose.words/ifontsavingcallback) | Implement this interface if you want to receive notifications and control how Aspose.Words saves fonts when exporting a document to HTML format. |
 | [IHyphenationCallback](../com.aspose.words/ihyphenationcallback) | Implemented by classes which can register hyphenation dictionaries. |

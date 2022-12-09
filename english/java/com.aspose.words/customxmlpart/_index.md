@@ -3,7 +3,7 @@ title: CustomXmlPart
 second_title: Aspose.Words for Java API Reference
 description: Represents a Custom XML Data Storage Part custom XML data within a package.
 type: docs
-weight: 104
+weight: 105
 url: /java/com.aspose.words/customxmlpart/
 ---
 
@@ -18,40 +18,43 @@ public class CustomXmlPart implements Cloneable
 
 Represents a Custom XML Data Storage Part (custom XML data within a package).
 
-To learn more, visit the **Structured Document Tags or Content Control** documentation article.
+To learn more, visit the [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control] documentation article.
 
-A DOCX or DOC document can contain one or more Custom XML Data Storage parts. Aspose.Words preserves and allows to create and extract Custom XML Data via the [Document.getCustomXmlParts()](../../com.aspose.words/document\#getCustomXmlParts--) / [Document.setCustomXmlParts(com.aspose.words.CustomXmlPartCollection)](../../com.aspose.words/document\#setCustomXmlParts-com.aspose.words.CustomXmlPartCollection-) collection.
+A DOCX or DOC document can contain one or more Custom XML Data Storage parts. Aspose.Words preserves and allows to create and extract Custom XML Data via the [Document.getCustomXmlParts()](../../com.aspose.words/document\#getCustomXmlParts) / [Document.setCustomXmlParts(com.aspose.words.CustomXmlPartCollection)](../../com.aspose.words/document\#setCustomXmlParts-com.aspose.words.CustomXmlPartCollection) collection.
+
+
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/structured-document-tags-or-content-control/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [deepClone()](#deepClone--) | Makes a "deep enough" copy of the object. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getData()](#getData--) | Gets the XML content of this Custom XML Data Storage Part. |
-| [getDataChecksum()](#getDataChecksum--) | Specifies a cyclic redundancy check (CRC) checksum of the [getData()](../../com.aspose.words/customxmlpart\#getData--) / [setData(byte[])](../../com.aspose.words/customxmlpart\#setData-byte---) content. |
-| [getId()](#getId--) | Gets the string that identifies this custom XML part within an OOXML document. |
-| [getSchemas()](#getSchemas--) | Specifies the set of XML schemas that are associated with this custom XML part. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setData(byte[] value)](#setData-byte---) | Sets the XML content of this Custom XML Data Storage Part. |
-| [setId(String value)](#setId-java.lang.String-) | Sets the string that identifies this custom XML part within an OOXML document. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### deepClone() {#deepClone--}
+| [deepClone()](#deepClone) | Makes a "deep enough" copy of the object. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getData()](#getData) | Gets the XML content of this Custom XML Data Storage Part. |
+| [getDataChecksum()](#getDataChecksum) | Specifies a cyclic redundancy check (CRC) checksum of the [getData()](../../com.aspose.words/customxmlpart\#getData) / [setData(byte[])](../../com.aspose.words/customxmlpart\#setData-byte) content. |
+| [getId()](#getId) | Gets the string that identifies this custom XML part within an OOXML document. |
+| [getSchemas()](#getSchemas) | Specifies the set of XML schemas that are associated with this custom XML part. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setData(byte[] value)](#setData-byte) | Sets the XML content of this Custom XML Data Storage Part. |
+| [setId(String value)](#setId-java.lang.String) | Sets the string that identifies this custom XML part within an OOXML document. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### deepClone() {#deepClone}
 ```
 public CustomXmlPart deepClone()
 ```
 
 
-Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [getData()](../../com.aspose.words/customxmlpart\#getData--) / [setData(byte[])](../../com.aspose.words/customxmlpart\#setData-byte---) value.
+Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [getData()](../../com.aspose.words/customxmlpart\#getData) / [setData(byte[])](../../com.aspose.words/customxmlpart\#setData-byte) value.
 
 **Returns:**
 [CustomXmlPart](../../com.aspose.words/customxmlpart)
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -66,7 +69,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -76,7 +79,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getData() {#getData--}
+### getData() {#getData}
 ```
 public byte[] getData()
 ```
@@ -88,17 +91,17 @@ The default value is an empty byte array. The value cannot be  null .
 
 **Returns:**
 byte[] - The XML content of this Custom XML Data Storage Part.
-### getDataChecksum() {#getDataChecksum--}
+### getDataChecksum() {#getDataChecksum}
 ```
 public long getDataChecksum()
 ```
 
 
-Specifies a cyclic redundancy check (CRC) checksum of the [getData()](../../com.aspose.words/customxmlpart\#getData--) / [setData(byte[])](../../com.aspose.words/customxmlpart\#setData-byte---) content.
+Specifies a cyclic redundancy check (CRC) checksum of the [getData()](../../com.aspose.words/customxmlpart\#getData) / [setData(byte[])](../../com.aspose.words/customxmlpart\#setData-byte) content.
 
 **Returns:**
 long - The corresponding  long  value.
-### getId() {#getId--}
+### getId() {#getId}
 ```
 public String getId()
 ```
@@ -114,7 +117,7 @@ The default value is an empty string. The value cannot be  null .
 
 **Returns:**
 java.lang.String - The string that identifies this custom XML part within an OOXML document.
-### getSchemas() {#getSchemas--}
+### getSchemas() {#getSchemas}
 ```
 public CustomXmlSchemaCollection getSchemas()
 ```
@@ -124,7 +127,7 @@ Specifies the set of XML schemas that are associated with this custom XML part.
 
 **Returns:**
 [CustomXmlSchemaCollection](../../com.aspose.words/customxmlschemacollection) - The corresponding [CustomXmlSchemaCollection](../../com.aspose.words/customxmlschemacollection) value.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -134,7 +137,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -142,7 +145,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -150,7 +153,7 @@ public final native void notifyAll()
 
 
 
-### setData(byte[] value) {#setData-byte---}
+### setData(byte[] value) {#setData-byte}
 ```
 public void setData(byte[] value)
 ```
@@ -165,7 +168,7 @@ The default value is an empty byte array. The value cannot be  null .
 | --- | --- | --- |
 | value | byte[] | The XML content of this Custom XML Data Storage Part. |
 
-### setId(String value) {#setId-java.lang.String-}
+### setId(String value) {#setId-java.lang.String}
 ```
 public void setId(String value)
 ```
@@ -184,7 +187,7 @@ The default value is an empty string. The value cannot be  null .
 | --- | --- | --- |
 | value | java.lang.String | The string that identifies this custom XML part within an OOXML document. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -194,7 +197,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -202,7 +205,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -215,7 +218,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

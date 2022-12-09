@@ -3,7 +3,7 @@ title: IFieldDatabaseProvider
 second_title: Aspose.Words for Java API Reference
 description: Implement this interface to provide data for the  field when its updated.
 type: docs
-weight: 640
+weight: 643
 url: /java/com.aspose.words/ifielddatabaseprovider/
 ---
 ```
@@ -15,8 +15,8 @@ Implement this interface to provide data for the [FieldDatabase](../../com.aspos
 
 | Method | Description |
 | --- | --- |
-| [getQueryResult(String fileName, String connection, String query, FieldDatabase field)](#getQueryResult-java.lang.String-java.lang.String-java.lang.String-com.aspose.words.FieldDatabase-) | Returns query result. |
-### getQueryResult(String fileName, String connection, String query, FieldDatabase field) {#getQueryResult-java.lang.String-java.lang.String-java.lang.String-com.aspose.words.FieldDatabase-}
+| [getQueryResult(String fileName, String connection, String query, FieldDatabase field)](#getQueryResult-java.lang.String-java.lang.String-java.lang.String-com.aspose.words.FieldDatabase) | Returns query result. |
+### getQueryResult(String fileName, String connection, String query, FieldDatabase field) {#getQueryResult-java.lang.String-java.lang.String-java.lang.String-com.aspose.words.FieldDatabase}
 ```
 public abstract FieldDatabaseDataTable getQueryResult(String fileName, String connection, String query, FieldDatabase field)
 ```

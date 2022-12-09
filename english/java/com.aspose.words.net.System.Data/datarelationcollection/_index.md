@@ -21,30 +21,30 @@ Represents the collection of [DataRelation](../../com.aspose.words.net.system.da
 
 | Method | Description |
 | --- | --- |
-| [add(System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn)](#add-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-) | Creates a [DataRelation](../../com.aspose.words.net.system.data/datarelation) with a specified parent and child column, and adds it to the collection. |
-| [add(System.Data.DataRelation relation)](#add-com.aspose.words.net.System.Data.DataRelation-) | Adds a [DataRelation](../../com.aspose.words.net.system.data/datarelation) to the [DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection). |
-| [add(System.Data.DataTable parentTable, System.Data.DataTable childTable, String parentColumnName, String childColumnName)](#add-com.aspose.words.net.System.Data.DataTable-com.aspose.words.net.System.Data.DataTable-java.lang.String-java.lang.String-) | Adds a relation to the collection. |
-| [add(System.Data.DataTable parentTable, System.Data.DataTable childTable, String[] parentColumnNames, String[] childColumnNames)](#add-com.aspose.words.net.System.Data.DataTable-com.aspose.words.net.System.Data.DataTable-java.lang.String---java.lang.String---) | Adds a relation to the collection. |
-| [add(String name, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn)](#add-java.lang.String-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-) | Creates a [DataRelation](../../com.aspose.words.net.system.data/datarelation) with the specified name, and parent and child columns, and adds it to the collection. |
-| [add(String name, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn, boolean createConstraints)](#add-java.lang.String-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-boolean-) | Creates a [DataRelation](../../com.aspose.words.net.system.data/datarelation) with the specified name, parent and child columns, with optional constraints according to the value of the  createConstraints  parameter, and adds it to the collection. |
-| [clear()](#clear--) | Clears the collection of any relations. |
-| [contains(System.Data.DataRelation relation)](#contains-com.aspose.words.net.System.Data.DataRelation-) | Verifies whether a DataRelation with the specific name (case insensitive) exists in the collection. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Gets the [DataRelation](../../com.aspose.words.net.system.data/datarelation) object at the specified index. |
-| [get(String name)](#get-java.lang.String-) | Gets the [DataRelation](../../com.aspose.words.net.system.data/datarelation) object specified by name. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) |  |
-| [hashCode()](#hashCode--) |  |
-| [indexOf(System.Data.DataRelation relation)](#indexOf-com.aspose.words.net.System.Data.DataRelation-) | Gets the index of the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation) object. |
-| [iterator()](#iterator--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | Removes the relation at the specified index from the collection. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn) {#add-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-}
+| [add(System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn)](#add-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn) | Creates a [DataRelation](../../com.aspose.words.net.system.data/datarelation) with a specified parent and child column, and adds it to the collection. |
+| [add(System.Data.DataRelation relation)](#add-com.aspose.words.net.System.Data.DataRelation) | Adds a [DataRelation](../../com.aspose.words.net.system.data/datarelation) to the [DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection). |
+| [add(System.Data.DataTable parentTable, System.Data.DataTable childTable, String parentColumnName, String childColumnName)](#add-com.aspose.words.net.System.Data.DataTable-com.aspose.words.net.System.Data.DataTable-java.lang.String-java.lang.String) | Adds a relation to the collection. |
+| [add(System.Data.DataTable parentTable, System.Data.DataTable childTable, String[] parentColumnNames, String[] childColumnNames)](#add-com.aspose.words.net.System.Data.DataTable-com.aspose.words.net.System.Data.DataTable-java.lang.String---java.lang.String) | Adds a relation to the collection. |
+| [add(String name, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn)](#add-java.lang.String-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn) | Creates a [DataRelation](../../com.aspose.words.net.system.data/datarelation) with the specified name, and parent and child columns, and adds it to the collection. |
+| [add(String name, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn, boolean createConstraints)](#add-java.lang.String-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-boolean) | Creates a [DataRelation](../../com.aspose.words.net.system.data/datarelation) with the specified name, parent and child columns, with optional constraints according to the value of the  createConstraints  parameter, and adds it to the collection. |
+| [clear()](#clear) | Clears the collection of any relations. |
+| [contains(System.Data.DataRelation relation)](#contains-com.aspose.words.net.System.Data.DataRelation) | Verifies whether a DataRelation with the specific name (case insensitive) exists in the collection. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [get(int index)](#get-int) | Gets the [DataRelation](../../com.aspose.words.net.system.data/datarelation) object at the specified index. |
+| [get(String name)](#get-java.lang.String) | Gets the [DataRelation](../../com.aspose.words.net.system.data/datarelation) object specified by name. |
+| [getClass()](#getClass) |  |
+| [getCount()](#getCount) |  |
+| [hashCode()](#hashCode) |  |
+| [indexOf(System.Data.DataRelation relation)](#indexOf-com.aspose.words.net.System.Data.DataRelation) | Gets the index of the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation) object. |
+| [iterator()](#iterator) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [removeAt(int index)](#removeAt-int) | Removes the relation at the specified index from the collection. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### add(System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn) {#add-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn}
 ```
 public void add(System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn)
 ```
@@ -58,7 +58,7 @@ Creates a [DataRelation](../../com.aspose.words.net.system.data/datarelation) wi
 | parentColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | The parent column of the relation. |
 | childColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | The child column of the relation. |
 
-### add(System.Data.DataRelation relation) {#add-com.aspose.words.net.System.Data.DataRelation-}
+### add(System.Data.DataRelation relation) {#add-com.aspose.words.net.System.Data.DataRelation}
 ```
 public void add(System.Data.DataRelation relation)
 ```
@@ -71,7 +71,7 @@ Adds a [DataRelation](../../com.aspose.words.net.system.data/datarelation) to th
 | --- | --- | --- |
 | relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation) | The DataRelation to add to the collection. |
 
-### add(System.Data.DataTable parentTable, System.Data.DataTable childTable, String parentColumnName, String childColumnName) {#add-com.aspose.words.net.System.Data.DataTable-com.aspose.words.net.System.Data.DataTable-java.lang.String-java.lang.String-}
+### add(System.Data.DataTable parentTable, System.Data.DataTable childTable, String parentColumnName, String childColumnName) {#add-com.aspose.words.net.System.Data.DataTable-com.aspose.words.net.System.Data.DataTable-java.lang.String-java.lang.String}
 ```
 public void add(System.Data.DataTable parentTable, System.Data.DataTable childTable, String parentColumnName, String childColumnName)
 ```
@@ -87,7 +87,7 @@ Adds a relation to the collection. Performs no checks on the duplication etc.
 | parentColumnName | java.lang.String | The parent column's name of the relation. |
 | childColumnName | java.lang.String | The child column's name of the relation. |
 
-### add(System.Data.DataTable parentTable, System.Data.DataTable childTable, String[] parentColumnNames, String[] childColumnNames) {#add-com.aspose.words.net.System.Data.DataTable-com.aspose.words.net.System.Data.DataTable-java.lang.String---java.lang.String---}
+### add(System.Data.DataTable parentTable, System.Data.DataTable childTable, String[] parentColumnNames, String[] childColumnNames) {#add-com.aspose.words.net.System.Data.DataTable-com.aspose.words.net.System.Data.DataTable-java.lang.String---java.lang.String}
 ```
 public void add(System.Data.DataTable parentTable, System.Data.DataTable childTable, String[] parentColumnNames, String[] childColumnNames)
 ```
@@ -103,7 +103,7 @@ Adds a relation to the collection. Performs no checks on the duplication etc.
 | parentColumnNames | java.lang.String[] | The array of parent column's name of the relation. |
 | childColumnNames | java.lang.String[] | The array of child column's name of the relation. |
 
-### add(String name, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn) {#add-java.lang.String-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-}
+### add(String name, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn) {#add-java.lang.String-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn}
 ```
 public void add(String name, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn)
 ```
@@ -118,7 +118,7 @@ Creates a [DataRelation](../../com.aspose.words.net.system.data/datarelation) wi
 | parentColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | The parent column of the relation. |
 | childColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | The child column of the relation. |
 
-### add(String name, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn, boolean createConstraints) {#add-java.lang.String-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-boolean-}
+### add(String name, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn, boolean createConstraints) {#add-java.lang.String-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-boolean}
 ```
 public void add(String name, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn, boolean createConstraints)
 ```
@@ -134,7 +134,7 @@ Creates a [DataRelation](../../com.aspose.words.net.system.data/datarelation) wi
 | childColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | The child column of the relation. |
 | createConstraints | boolean | true to create constraints; otherwise false. (The default is true). |
 
-### clear() {#clear--}
+### clear() {#clear}
 ```
 public void clear()
 ```
@@ -142,7 +142,7 @@ public void clear()
 
 Clears the collection of any relations.
 
-### contains(System.Data.DataRelation relation) {#contains-com.aspose.words.net.System.Data.DataRelation-}
+### contains(System.Data.DataRelation relation) {#contains-com.aspose.words.net.System.Data.DataRelation}
 ```
 public boolean contains(System.Data.DataRelation relation)
 ```
@@ -157,7 +157,7 @@ Verifies whether a DataRelation with the specific name (case insensitive) exists
 
 **Returns:**
 boolean - true, if a relation with the specified name exists; otherwise false.
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -172,7 +172,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### get(int index) {#get-int-}
+### get(int index) {#get-int}
 ```
 public System.Data.DataRelation get(int index)
 ```
@@ -187,7 +187,7 @@ Gets the [DataRelation](../../com.aspose.words.net.system.data/datarelation) obj
 
 **Returns:**
 [DataRelation](../../com.aspose.words.net.system.data/datarelation) - The [DataRelation](../../com.aspose.words.net.system.data/datarelation), or a null value if the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation) does not exist.
-### get(String name) {#get-java.lang.String-}
+### get(String name) {#get-java.lang.String}
 ```
 public System.Data.DataRelation get(String name)
 ```
@@ -202,7 +202,7 @@ Gets the [DataRelation](../../com.aspose.words.net.system.data/datarelation) obj
 
 **Returns:**
 [DataRelation](../../com.aspose.words.net.system.data/datarelation) - The named [DataRelation](../../com.aspose.words.net.system.data/datarelation), or a null value if the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation) does not exist.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -212,7 +212,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCount() {#getCount--}
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -222,7 +222,7 @@ public int getCount()
 
 **Returns:**
 int - the total number of elements in a collection
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -232,7 +232,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### indexOf(System.Data.DataRelation relation) {#indexOf-com.aspose.words.net.System.Data.DataRelation-}
+### indexOf(System.Data.DataRelation relation) {#indexOf-com.aspose.words.net.System.Data.DataRelation}
 ```
 public int indexOf(System.Data.DataRelation relation)
 ```
@@ -247,7 +247,7 @@ Gets the index of the specified [DataRelation](../../com.aspose.words.net.system
 
 **Returns:**
 int - The 0-based index of the relation, or -1 if the relation is not found in the collection.
-### iterator() {#iterator--}
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -257,7 +257,7 @@ public Iterator iterator()
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -265,7 +265,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -273,7 +273,7 @@ public final native void notifyAll()
 
 
 
-### removeAt(int index) {#removeAt-int-}
+### removeAt(int index) {#removeAt-int}
 ```
 public void removeAt(int index)
 ```
@@ -286,7 +286,7 @@ Removes the relation at the specified index from the collection.
 | --- | --- | --- |
 | index | int | The index of the relation to remove. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -296,7 +296,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -304,7 +304,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -317,7 +317,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

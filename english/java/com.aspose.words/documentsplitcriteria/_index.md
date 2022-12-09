@@ -3,7 +3,7 @@ title: DocumentSplitCriteria
 second_title: Aspose.Words for Java API Reference
 description: Specifies how the document is split into parts when saving to   or  format.
 type: docs
-weight: 131
+weight: 132
 url: /java/com.aspose.words/documentsplitcriteria/
 ---
 
@@ -17,7 +17,7 @@ Specifies how the document is split into parts when saving to [SaveFormat.HTML](
 
 [DocumentSplitCriteria](../../com.aspose.words/documentsplitcriteria) is a set of flags which can be combined. For instance you can split the document at page breaks and heading paragraphs in the same export operation.
 
-Different criteria can partially overlap. For instance, **Heading 1** style is frequently given [ParagraphFormat.getPageBreakBefore()](../../com.aspose.words/paragraphformat\#getPageBreakBefore--) / [ParagraphFormat.setPageBreakBefore(boolean)](../../com.aspose.words/paragraphformat\#setPageBreakBefore-boolean-) property so it falls under two criteria: [PAGE\_BREAK](../../com.aspose.words/documentsplitcriteria\#PAGE-BREAK) and [HEADING\_PARAGRAPH](../../com.aspose.words/documentsplitcriteria\#HEADING-PARAGRAPH). Some section breaks can cause page breaks and so on. In typical cases specifying only one flag is the most practical option.
+Different criteria can partially overlap. For instance, **Heading 1** style is frequently given [ParagraphFormat.getPageBreakBefore()](../../com.aspose.words/paragraphformat\#getPageBreakBefore) / [ParagraphFormat.setPageBreakBefore(boolean)](../../com.aspose.words/paragraphformat\#setPageBreakBefore-boolean) property so it falls under two criteria: [PAGE\_BREAK](../../com.aspose.words/documentsplitcriteria\#PAGE-BREAK) and [HEADING\_PARAGRAPH](../../com.aspose.words/documentsplitcriteria\#HEADING-PARAGRAPH). Some section breaks can cause page breaks and so on. In typical cases specifying only one flag is the most practical option.
 ## Fields
 
 | Field | Description |
@@ -32,22 +32,22 @@ Different criteria can partially overlap. For instance, **Heading 1** style is f
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String documentSplitCriteriaName)](#fromName-java.lang.String-) |  |
-| [fromNames(Set documentSplitCriteriaNames)](#fromNames-java.util.Set-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int documentSplitCriteria)](#getName-int-) |  |
-| [getNames(int documentSplitCriteria)](#getNames-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int documentSplitCriteria)](#toString-int-) |  |
-| [toStringSet(int attr)](#toStringSet-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String documentSplitCriteriaName)](#fromName-java.lang.String) |  |
+| [fromNames(Set documentSplitCriteriaNames)](#fromNames-java.util.Set) |  |
+| [getClass()](#getClass) |  |
+| [getName(int documentSplitCriteria)](#getName-int) |  |
+| [getNames(int documentSplitCriteria)](#getNames-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int documentSplitCriteria)](#toString-int) |  |
+| [toStringSet(int attr)](#toStringSet-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### COLUMN_BREAK {#COLUMN-BREAK}
 ```
 public static int COLUMN_BREAK
@@ -62,7 +62,7 @@ public static int HEADING_PARAGRAPH
 ```
 
 
-The document is split into parts at a paragraph formatted using a heading style **Heading 1**, **Heading 2** etc. Use together with [HtmlSaveOptions.getDocumentSplitHeadingLevel()](../../com.aspose.words/htmlsaveoptions\#getDocumentSplitHeadingLevel--) / [HtmlSaveOptions.setDocumentSplitHeadingLevel(int)](../../com.aspose.words/htmlsaveoptions\#setDocumentSplitHeadingLevel-int-) to specify the heading levels (from 1 to the specified level) at which to split.
+The document is split into parts at a paragraph formatted using a heading style **Heading 1**, **Heading 2** etc. Use together with [HtmlSaveOptions.getDocumentSplitHeadingLevel()](../../com.aspose.words/htmlsaveoptions\#getDocumentSplitHeadingLevel) / [HtmlSaveOptions.setDocumentSplitHeadingLevel(int)](../../com.aspose.words/htmlsaveoptions\#setDocumentSplitHeadingLevel-int) to specify the heading levels (from 1 to the specified level) at which to split.
 
 ### NONE {#NONE}
 ```
@@ -78,7 +78,7 @@ public static int PAGE_BREAK
 ```
 
 
-The document is split into parts at explicit page breaks. A page break can be specified by a [ControlChar.PAGE\_BREAK](../../com.aspose.words/controlchar\#PAGE-BREAK) character, a section break specifying start of new section on a new page, or a paragraph that has its [ParagraphFormat.getPageBreakBefore()](../../com.aspose.words/paragraphformat\#getPageBreakBefore--) / [ParagraphFormat.setPageBreakBefore(boolean)](../../com.aspose.words/paragraphformat\#setPageBreakBefore-boolean-) property set to  true .
+The document is split into parts at explicit page breaks. A page break can be specified by a [ControlChar.PAGE\_BREAK](../../com.aspose.words/controlchar\#PAGE-BREAK) character, a section break specifying start of new section on a new page, or a paragraph that has its [ParagraphFormat.getPageBreakBefore()](../../com.aspose.words/paragraphformat\#getPageBreakBefore) / [ParagraphFormat.setPageBreakBefore(boolean)](../../com.aspose.words/paragraphformat\#setPageBreakBefore-boolean) property set to  true .
 
 ### SECTION_BREAK {#SECTION-BREAK}
 ```
@@ -94,7 +94,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -109,7 +109,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String documentSplitCriteriaName) {#fromName-java.lang.String-}
+### fromName(String documentSplitCriteriaName) {#fromName-java.lang.String}
 ```
 public static int fromName(String documentSplitCriteriaName)
 ```
@@ -124,7 +124,7 @@ public static int fromName(String documentSplitCriteriaName)
 
 **Returns:**
 int
-### fromNames(Set documentSplitCriteriaNames) {#fromNames-java.util.Set-}
+### fromNames(Set documentSplitCriteriaNames) {#fromNames-java.util.Set}
 ```
 public static int fromNames(Set documentSplitCriteriaNames)
 ```
@@ -139,7 +139,7 @@ public static int fromNames(Set documentSplitCriteriaNames)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -149,7 +149,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int documentSplitCriteria) {#getName-int-}
+### getName(int documentSplitCriteria) {#getName-int}
 ```
 public static String getName(int documentSplitCriteria)
 ```
@@ -164,7 +164,7 @@ public static String getName(int documentSplitCriteria)
 
 **Returns:**
 java.lang.String
-### getNames(int documentSplitCriteria) {#getNames-int-}
+### getNames(int documentSplitCriteria) {#getNames-int}
 ```
 public static Set getNames(int documentSplitCriteria)
 ```
@@ -179,7 +179,7 @@ public static Set getNames(int documentSplitCriteria)
 
 **Returns:**
 java.util.Set
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -189,7 +189,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -199,7 +199,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -207,7 +207,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -215,7 +215,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -225,7 +225,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int documentSplitCriteria) {#toString-int-}
+### toString(int documentSplitCriteria) {#toString-int}
 ```
 public static String toString(int documentSplitCriteria)
 ```
@@ -240,7 +240,7 @@ public static String toString(int documentSplitCriteria)
 
 **Returns:**
 java.lang.String
-### toStringSet(int attr) {#toStringSet-int-}
+### toStringSet(int attr) {#toStringSet-int}
 ```
 public static String toStringSet(int attr)
 ```
@@ -255,7 +255,7 @@ public static String toStringSet(int attr)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -263,7 +263,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -276,7 +276,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

@@ -3,7 +3,7 @@ title: ITextShaperFactory
 second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
-weight: 660
+weight: 664
 url: /java/com.aspose.words/itextshaperfactory/
 ---
 ```
@@ -13,9 +13,9 @@ public interface ITextShaperFactory
 
 | Method | Description |
 | --- | --- |
-| [getTextShaper(String fontId, byte[] fontBlob, int faceIndex)](#getTextShaper-java.lang.String-byte---int-) |  |
-| [getTextShaper(String fontPath, int faceIndex)](#getTextShaper-java.lang.String-int-) |  |
-### getTextShaper(String fontId, byte[] fontBlob, int faceIndex) {#getTextShaper-java.lang.String-byte---int-}
+| [getTextShaper(String fontId, byte[] fontBlob, int faceIndex)](#getTextShaper-java.lang.String-byte---int) |  |
+| [getTextShaper(String fontPath, int faceIndex)](#getTextShaper-java.lang.String-int) |  |
+### getTextShaper(String fontId, byte[] fontBlob, int faceIndex) {#getTextShaper-java.lang.String-byte---int}
 ```
 public abstract ITextShaper getTextShaper(String fontId, byte[] fontBlob, int faceIndex)
 ```
@@ -32,7 +32,7 @@ public abstract ITextShaper getTextShaper(String fontId, byte[] fontBlob, int fa
 
 **Returns:**
 [ITextShaper](../../com.aspose.words/itextshaper)
-### getTextShaper(String fontPath, int faceIndex) {#getTextShaper-java.lang.String-int-}
+### getTextShaper(String fontPath, int faceIndex) {#getTextShaper-java.lang.String-int}
 ```
 public abstract ITextShaper getTextShaper(String fontPath, int faceIndex)
 ```

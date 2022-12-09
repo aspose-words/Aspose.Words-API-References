@@ -3,7 +3,7 @@ title: FieldEnd
 second_title: Aspose.Words for Java API Reference
 description: Represents an end of a Word field in a document.
 type: docs
-weight: 186
+weight: 187
 url: /java/com.aspose.words/fieldend/
 ---
 
@@ -15,7 +15,7 @@ public class FieldEnd extends FieldChar
 
 Represents an end of a Word field in a document.
 
-To learn more, visit the **Working with Fields** documentation article.
+To learn more, visit the [ Working with Fields ][Working with Fields] documentation article.
 
 [FieldEnd](../../com.aspose.words/fieldend) is an inline-level node and represented by the [ControlChar.FIELD\_END\_CHAR](../../com.aspose.words/controlchar\#FIELD-END-CHAR) control character in the document.
 
@@ -23,64 +23,67 @@ To learn more, visit the **Working with Fields** documentation article.
 
 A complete field in a Microsoft Word document is a complex structure consisting of a field start character, field code, field separator character, field result and field end character. Some fields only have field start, field code and field end.
 
-To easily insert a new field into a document, use the [DocumentBuilder.insertField(java.lang.String)](../../com.aspose.words/documentbuilder\#insertField-java.lang.String-) method.
+To easily insert a new field into a document, use the [DocumentBuilder.insertField(java.lang.String)](../../com.aspose.words/documentbuilder\#insertField-java.lang.String) method.
+
+
+[Working with Fields]: https://docs.aspose.com/words/java/working-with-fields/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | Accepts a visitor. |
-| [clearRunAttrs()](#clearRunAttrs--) |  |
-| [dd()](#dd--) |  |
-| [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | Creates a duplicate of the node. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fetchInheritedRunAttr(int fontAttr)](#fetchInheritedRunAttr-int-) |  |
-| [getAncestor(int ancestorType)](#getAncestor-int-) |  |
-| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class-) | Gets the first ancestor of the specified object type. |
-| [getClass()](#getClass--) |  |
-| [getCustomNodeId()](#getCustomNodeId--) | Specifies custom node identifier. |
-| [getDirectRunAttr(int fontAttr)](#getDirectRunAttr-int-) |  |
-| [getDocument()](#getDocument--) | Gets the document to which this node belongs. |
-| [getDocument_IInline()](#getDocument-IInline--) |  |
-| [getField()](#getField--) | Returns a field for the field char. |
-| [getFieldType()](#getFieldType--) | Returns the type of the field. |
-| [getFont()](#getFont--) | Provides access to the font formatting of this object. |
-| [getNextSibling()](#getNextSibling--) | Gets the node immediately following this node. |
-| [getNodeType()](#getNodeType--) | Returns [NodeType.FIELD\_END](../../com.aspose.words/nodetype\#FIELD-END). |
-| [getParentNode()](#getParentNode--) | Gets the immediate parent of this node. |
-| [getParentParagraph()](#getParentParagraph--) | Retrieves the parent [Paragraph](../../com.aspose.words/paragraph) of this node. |
-| [getParentParagraph_IInline()](#getParentParagraph-IInline--) |  |
-| [getPreviousSibling()](#getPreviousSibling--) | Gets the node immediately preceding this node. |
-| [getRange()](#getRange--) | Returns a **Range** object that represents the portion of a document that is contained in this node. |
-| [getText()](#getText--) | Gets the special character that this node represents. |
-| [hasSeparator()](#hasSeparator--) | Returns **true** if this field has a separator. |
-| [hashCode()](#hashCode--) |  |
-| [isComposite()](#isComposite--) | Returns true if this node can contain other nodes. |
-| [isDeleteRevision()](#isDeleteRevision--) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
-| [isDirty()](#isDirty--) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [isDirty(boolean value)](#isDirty-boolean-) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [isFormatRevision()](#isFormatRevision--) | Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled. |
-| [isInsertRevision()](#isInsertRevision--) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
-| [isLocked()](#isLocked--) | Gets whether the parent field is locked (should not recalculate its result). |
-| [isLocked(boolean value)](#isLocked-boolean-) | Sets whether the parent field is locked (should not recalculate its result). |
-| [isMoveFromRevision()](#isMoveFromRevision--) | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
-| [isMoveToRevision()](#isMoveToRevision--) | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
-| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | Gets next node according to the pre-order tree traversal algorithm. |
-| [nodeTypeToString(int nodeType)](#nodeTypeToString-int-) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | Gets the previous node according to the pre-order tree traversal algorithm. |
-| [remove()](#remove--) | Removes itself from the parent. |
-| [removeMoveRevisions()](#removeMoveRevisions--) |  |
-| [removeRunAttr(int key)](#removeRunAttr-int-) |  |
-| [setCustomNodeId(int value)](#setCustomNodeId-int-) | Specifies custom node identifier. |
-| [setRunAttr(int fontAttr, Object value)](#setRunAttr-int-java.lang.Object-) |  |
-| [toString()](#toString--) |  |
-| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions-) | Exports the content of the node into a string using the specified save options. |
-| [toString(int saveFormat)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor-}
+| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor) | Accepts a visitor. |
+| [clearRunAttrs()](#clearRunAttrs) |  |
+| [dd()](#dd) |  |
+| [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fetchInheritedRunAttr(int fontAttr)](#fetchInheritedRunAttr-int) |  |
+| [getAncestor(int ancestorType)](#getAncestor-int) |  |
+| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
+| [getClass()](#getClass) |  |
+| [getCustomNodeId()](#getCustomNodeId) | Specifies custom node identifier. |
+| [getDirectRunAttr(int fontAttr)](#getDirectRunAttr-int) |  |
+| [getDocument()](#getDocument) | Gets the document to which this node belongs. |
+| [getDocument_IInline()](#getDocument-IInline) |  |
+| [getField()](#getField) | Returns a field for the field char. |
+| [getFieldType()](#getFieldType) | Returns the type of the field. |
+| [getFont()](#getFont) | Provides access to the font formatting of this object. |
+| [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
+| [getNodeType()](#getNodeType) | Returns [NodeType.FIELD\_END](../../com.aspose.words/nodetype\#FIELD-END). |
+| [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
+| [getParentParagraph()](#getParentParagraph) | Retrieves the parent [Paragraph](../../com.aspose.words/paragraph) of this node. |
+| [getParentParagraph_IInline()](#getParentParagraph-IInline) |  |
+| [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
+| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node. |
+| [getText()](#getText) | Gets the special character that this node represents. |
+| [hasSeparator()](#hasSeparator) | Returns  true  if this field has a separator. |
+| [hashCode()](#hashCode) |  |
+| [isComposite()](#isComposite) | Returns  true  if this node can contain other nodes. |
+| [isDeleteRevision()](#isDeleteRevision) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
+| [isDirty()](#isDirty) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isDirty(boolean value)](#isDirty-boolean) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isFormatRevision()](#isFormatRevision) | Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled. |
+| [isInsertRevision()](#isInsertRevision) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
+| [isLocked()](#isLocked) | Gets whether the parent field is locked (should not recalculate its result). |
+| [isLocked(boolean value)](#isLocked-boolean) | Sets whether the parent field is locked (should not recalculate its result). |
+| [isMoveFromRevision()](#isMoveFromRevision) | Returns  true  if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
+| [isMoveToRevision()](#isMoveToRevision) | Returns  true  if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node) | Gets next node according to the pre-order tree traversal algorithm. |
+| [nodeTypeToString(int nodeType)](#nodeTypeToString-int) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [remove()](#remove) | Removes itself from the parent. |
+| [removeMoveRevisions()](#removeMoveRevisions) |  |
+| [removeRunAttr(int key)](#removeRunAttr-int) |  |
+| [setCustomNodeId(int value)](#setCustomNodeId-int) | Specifies custom node identifier. |
+| [setRunAttr(int fontAttr, Object value)](#setRunAttr-int-java.lang.Object) |  |
+| [toString()](#toString) |  |
+| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions) | Exports the content of the node into a string using the specified save options. |
+| [toString(int saveFormat)](#toString-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor}
 ```
 public boolean accept(DocumentVisitor visitor)
 ```
@@ -88,7 +91,7 @@ public boolean accept(DocumentVisitor visitor)
 
 Accepts a visitor.
 
-Calls [DocumentVisitor.visitFieldEnd(com.aspose.words.FieldEnd)](../../com.aspose.words/documentvisitor\#visitFieldEnd-com.aspose.words.FieldEnd-).
+Calls [DocumentVisitor.visitFieldEnd(com.aspose.words.FieldEnd)](../../com.aspose.words/documentvisitor\#visitFieldEnd-com.aspose.words.FieldEnd).
 
 For more info see the Visitor design pattern.
 
@@ -99,7 +102,7 @@ For more info see the Visitor design pattern.
 
 **Returns:**
 boolean - **False** if the visitor requested the enumeration to stop.
-### clearRunAttrs() {#clearRunAttrs--}
+### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
 ```
@@ -107,7 +110,7 @@ public void clearRunAttrs()
 
 
 
-### dd() {#dd--}
+### dd() {#dd}
 ```
 public void dd()
 ```
@@ -115,7 +118,7 @@ public void dd()
 
 
 
-### deepClone(boolean isCloneChildren) {#deepClone-boolean-}
+### deepClone(boolean isCloneChildren) {#deepClone-boolean}
 ```
 public Node deepClone(boolean isCloneChildren)
 ```
@@ -125,7 +128,7 @@ Creates a duplicate of the node.
 
 This method serves as a copy constructor for nodes. The cloned node has no parent, but belongs to the same document as the original node.
 
-This method always performs a deep copy of the node. The *isCloneChildren* parameter specifies whether to perform copy all child nodes as well.
+This method always performs a deep copy of the node. The  isCloneChildren  parameter specifies whether to perform copy all child nodes as well.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -134,7 +137,7 @@ This method always performs a deep copy of the node. The *isCloneChildren* param
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The cloned node.
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -149,7 +152,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fetchInheritedRunAttr(int fontAttr) {#fetchInheritedRunAttr-int-}
+### fetchInheritedRunAttr(int fontAttr) {#fetchInheritedRunAttr-int}
 ```
 public Object fetchInheritedRunAttr(int fontAttr)
 ```
@@ -164,7 +167,7 @@ public Object fetchInheritedRunAttr(int fontAttr)
 
 **Returns:**
 java.lang.Object
-### getAncestor(int ancestorType) {#getAncestor-int-}
+### getAncestor(int ancestorType) {#getAncestor-int}
 ```
 public CompositeNode getAncestor(int ancestorType)
 ```
@@ -179,7 +182,7 @@ public CompositeNode getAncestor(int ancestorType)
 
 **Returns:**
 [CompositeNode](../../com.aspose.words/compositenode)
-### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
+### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class}
 ```
 public CompositeNode getAncestor(Class ancestorType)
 ```
@@ -193,10 +196,10 @@ Gets the first ancestor of the specified object type.
 | ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or null if no ancestor of this type was found.
+[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 
-The ancestor type matches if it is equal to ancestorType or derived from ancestorType.
-### getClass() {#getClass--}
+The ancestor type matches if it is equal to  ancestorType  or derived from  ancestorType .
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -206,7 +209,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCustomNodeId() {#getCustomNodeId--}
+### getCustomNodeId() {#getCustomNodeId}
 ```
 public int getCustomNodeId()
 ```
@@ -222,7 +225,7 @@ Important note, specified value is not saved to an output file and exists only d
 
 **Returns:**
 int - The corresponding  int  value.
-### getDirectRunAttr(int fontAttr) {#getDirectRunAttr-int-}
+### getDirectRunAttr(int fontAttr) {#getDirectRunAttr-int}
 ```
 public Object getDirectRunAttr(int fontAttr)
 ```
@@ -237,7 +240,7 @@ public Object getDirectRunAttr(int fontAttr)
 
 **Returns:**
 java.lang.Object
-### getDocument() {#getDocument--}
+### getDocument() {#getDocument}
 ```
 public DocumentBase getDocument()
 ```
@@ -249,7 +252,7 @@ The node always belongs to a document even if it has just been created and not y
 
 **Returns:**
 [DocumentBase](../../com.aspose.words/documentbase) - The document to which this node belongs.
-### getDocument_IInline() {#getDocument-IInline--}
+### getDocument_IInline() {#getDocument-IInline}
 ```
 public DocumentBase getDocument_IInline()
 ```
@@ -259,7 +262,7 @@ public DocumentBase getDocument_IInline()
 
 **Returns:**
 [DocumentBase](../../com.aspose.words/documentbase)
-### getField() {#getField--}
+### getField() {#getField}
 ```
 public Field getField()
 ```
@@ -269,7 +272,7 @@ Returns a field for the field char. A new [Field](../../com.aspose.words/field) 
 
 **Returns:**
 [Field](../../com.aspose.words/field) - A field for the field char.
-### getFieldType() {#getFieldType--}
+### getFieldType() {#getFieldType}
 ```
 public int getFieldType()
 ```
@@ -279,7 +282,7 @@ Returns the type of the field.
 
 **Returns:**
 int - The type of the field. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
-### getFont() {#getFont--}
+### getFont() {#getFont}
 ```
 public Font getFont()
 ```
@@ -289,17 +292,17 @@ Provides access to the font formatting of this object.
 
 **Returns:**
 [Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
-### getNextSibling() {#getNextSibling--}
+### getNextSibling() {#getNextSibling}
 ```
 public Node getNextSibling()
 ```
 
 
-Gets the node immediately following this node. If there is no next node, a null is returned.
+Gets the node immediately following this node. If there is no next node, a  null  is returned.
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The node immediately following this node.
-### getNodeType() {#getNodeType--}
+### getNodeType() {#getNodeType}
 ```
 public int getNodeType()
 ```
@@ -309,7 +312,7 @@ Returns [NodeType.FIELD\_END](../../com.aspose.words/nodetype\#FIELD-END).
 
 **Returns:**
 int - \{[NodeType.FIELD\_END](../../com.aspose.words/nodetype\#FIELD-END). The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
-### getParentNode() {#getParentNode--}
+### getParentNode() {#getParentNode}
 ```
 public CompositeNode getParentNode()
 ```
@@ -317,11 +320,11 @@ public CompositeNode getParentNode()
 
 Gets the immediate parent of this node.
 
-If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is null.
+If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is  null .
 
 **Returns:**
 [CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
-### getParentParagraph() {#getParentParagraph--}
+### getParentParagraph() {#getParentParagraph}
 ```
 public Paragraph getParentParagraph()
 ```
@@ -331,7 +334,7 @@ Retrieves the parent [Paragraph](../../com.aspose.words/paragraph) of this node.
 
 **Returns:**
 [Paragraph](../../com.aspose.words/paragraph) - The corresponding [Paragraph](../../com.aspose.words/paragraph) value.
-### getParentParagraph_IInline() {#getParentParagraph-IInline--}
+### getParentParagraph_IInline() {#getParentParagraph-IInline}
 ```
 public Paragraph getParentParagraph_IInline()
 ```
@@ -341,27 +344,27 @@ public Paragraph getParentParagraph_IInline()
 
 **Returns:**
 [Paragraph](../../com.aspose.words/paragraph)
-### getPreviousSibling() {#getPreviousSibling--}
+### getPreviousSibling() {#getPreviousSibling}
 ```
 public Node getPreviousSibling()
 ```
 
 
-Gets the node immediately preceding this node. If there is no preceding node, a null is returned.
+Gets the node immediately preceding this node. If there is no preceding node, a  null  is returned.
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The node immediately preceding this node.
-### getRange() {#getRange--}
+### getRange() {#getRange}
 ```
 public Range getRange()
 ```
 
 
-Returns a **Range** object that represents the portion of a document that is contained in this node.
+Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
 
 **Returns:**
-[Range](../../com.aspose.words/range) - A **Range** object that represents the portion of a document that is contained in this node.
-### getText() {#getText--}
+[Range](../../com.aspose.words/range) - A [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+### getText() {#getText}
 ```
 public String getText()
 ```
@@ -371,17 +374,17 @@ Gets the special character that this node represents.
 
 **Returns:**
 java.lang.String - The string that contains the character that this node represents.
-### hasSeparator() {#hasSeparator--}
+### hasSeparator() {#hasSeparator}
 ```
 public boolean hasSeparator()
 ```
 
 
-Returns **true** if this field has a separator.
+Returns  true  if this field has a separator.
 
 **Returns:**
-boolean - **true** if this field has a separator.
-### hashCode() {#hashCode--}
+boolean - \{ true  if this field has a separator.
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -391,17 +394,17 @@ public native int hashCode()
 
 **Returns:**
 int
-### isComposite() {#isComposite--}
+### isComposite() {#isComposite}
 ```
 public boolean isComposite()
 ```
 
 
-Returns true if this node can contain other nodes. (31110,6)
+Returns  true  if this node can contain other nodes. (31231,6)
 
 **Returns:**
-boolean - True if this node can contain other nodes.
-### isDeleteRevision() {#isDeleteRevision--}
+boolean - \{ true  if this node can contain other nodes.
+### isDeleteRevision() {#isDeleteRevision}
 ```
 public boolean isDeleteRevision()
 ```
@@ -411,7 +414,7 @@ Returns true if this object was deleted in Microsoft Word while change tracking 
 
 **Returns:**
 boolean - True if this object was deleted in Microsoft Word while change tracking was enabled.
-### isDirty() {#isDirty--}
+### isDirty() {#isDirty}
 ```
 public boolean isDirty()
 ```
@@ -421,7 +424,7 @@ Gets whether the current result of the field is no longer correct (stale) due to
 
 **Returns:**
 boolean - Whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
-### isDirty(boolean value) {#isDirty-boolean-}
+### isDirty(boolean value) {#isDirty-boolean}
 ```
 public void isDirty(boolean value)
 ```
@@ -434,7 +437,7 @@ Sets whether the current result of the field is no longer correct (stale) due to
 | --- | --- | --- |
 | value | boolean | Whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 
-### isFormatRevision() {#isFormatRevision--}
+### isFormatRevision() {#isFormatRevision}
 ```
 public boolean isFormatRevision()
 ```
@@ -444,7 +447,7 @@ Returns true if formatting of the object was changed in Microsoft Word while cha
 
 **Returns:**
 boolean - True if formatting of the object was changed in Microsoft Word while change tracking was enabled.
-### isInsertRevision() {#isInsertRevision--}
+### isInsertRevision() {#isInsertRevision}
 ```
 public boolean isInsertRevision()
 ```
@@ -454,7 +457,7 @@ Returns true if this object was inserted in Microsoft Word while change tracking
 
 **Returns:**
 boolean - True if this object was inserted in Microsoft Word while change tracking was enabled.
-### isLocked() {#isLocked--}
+### isLocked() {#isLocked}
 ```
 public boolean isLocked()
 ```
@@ -464,7 +467,7 @@ Gets whether the parent field is locked (should not recalculate its result).
 
 **Returns:**
 boolean - Whether the parent field is locked (should not recalculate its result).
-### isLocked(boolean value) {#isLocked-boolean-}
+### isLocked(boolean value) {#isLocked-boolean}
 ```
 public void isLocked(boolean value)
 ```
@@ -477,27 +480,27 @@ Sets whether the parent field is locked (should not recalculate its result).
 | --- | --- | --- |
 | value | boolean | Whether the parent field is locked (should not recalculate its result). |
 
-### isMoveFromRevision() {#isMoveFromRevision--}
+### isMoveFromRevision() {#isMoveFromRevision}
 ```
 public boolean isMoveFromRevision()
 ```
 
 
-Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
+Returns  true  if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
 
 **Returns:**
-boolean - **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
-### isMoveToRevision() {#isMoveToRevision--}
+boolean - \{ true  if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
+### isMoveToRevision() {#isMoveToRevision}
 ```
 public boolean isMoveToRevision()
 ```
 
 
-Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
+Returns  true  if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
 
 **Returns:**
-boolean - **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
-### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node-}
+boolean - \{ true  if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
+### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node}
 ```
 public Node nextPreOrder(Node rootNode)
 ```
@@ -511,8 +514,8 @@ Gets next node according to the pre-order tree traversal algorithm.
 | rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the rootNode.
-### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
+[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the  rootNode .
+### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
 ```
@@ -527,7 +530,7 @@ public static String nodeTypeToString(int nodeType)
 
 **Returns:**
 java.lang.String
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -535,7 +538,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -543,7 +546,7 @@ public final native void notifyAll()
 
 
 
-### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node-}
+### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node}
 ```
 public Node previousPreOrder(Node rootNode)
 ```
@@ -557,8 +560,8 @@ Gets the previous node according to the pre-order tree traversal algorithm.
 | rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the rootNode.
-### remove() {#remove--}
+[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the  rootNode .
+### remove() {#remove}
 ```
 public void remove()
 ```
@@ -566,7 +569,7 @@ public void remove()
 
 Removes itself from the parent.
 
-### removeMoveRevisions() {#removeMoveRevisions--}
+### removeMoveRevisions() {#removeMoveRevisions}
 ```
 public void removeMoveRevisions()
 ```
@@ -574,7 +577,7 @@ public void removeMoveRevisions()
 
 
 
-### removeRunAttr(int key) {#removeRunAttr-int-}
+### removeRunAttr(int key) {#removeRunAttr-int}
 ```
 public void removeRunAttr(int key)
 ```
@@ -587,7 +590,7 @@ public void removeRunAttr(int key)
 | --- | --- | --- |
 | key | int |  |
 
-### setCustomNodeId(int value) {#setCustomNodeId-int-}
+### setCustomNodeId(int value) {#setCustomNodeId-int}
 ```
 public void setCustomNodeId(int value)
 ```
@@ -606,7 +609,7 @@ Important note, specified value is not saved to an output file and exists only d
 | --- | --- | --- |
 | value | int | The corresponding  int  value. |
 
-### setRunAttr(int fontAttr, Object value) {#setRunAttr-int-java.lang.Object-}
+### setRunAttr(int fontAttr, Object value) {#setRunAttr-int-java.lang.Object}
 ```
 public void setRunAttr(int fontAttr, Object value)
 ```
@@ -620,7 +623,7 @@ public void setRunAttr(int fontAttr, Object value)
 | fontAttr | int |  |
 | value | java.lang.Object |  |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -630,7 +633,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(SaveOptions saveOptions) {#toString-com.aspose.words.SaveOptions-}
+### toString(SaveOptions saveOptions) {#toString-com.aspose.words.SaveOptions}
 ```
 public String toString(SaveOptions saveOptions)
 ```
@@ -645,7 +648,7 @@ Exports the content of the node into a string using the specified save options.
 
 **Returns:**
 java.lang.String - The content of the node in the specified format.
-### toString(int saveFormat) {#toString-int-}
+### toString(int saveFormat) {#toString-int}
 ```
 public String toString(int saveFormat)
 ```
@@ -660,7 +663,7 @@ public String toString(int saveFormat)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -668,7 +671,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -681,7 +684,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

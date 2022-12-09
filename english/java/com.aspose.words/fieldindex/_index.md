@@ -3,7 +3,7 @@ title: FieldIndex
 second_title: Aspose.Words for Java API Reference
 description: Implements the INDEX field.
 type: docs
-weight: 206
+weight: 207
 url: /java/com.aspose.words/fieldindex/
 ---
 
@@ -15,74 +15,77 @@ public class FieldIndex extends Field
 
 Implements the INDEX field.
 
-To learn more, visit the **Working with Fields** documentation article.
+To learn more, visit the [ Working with Fields ][Working with Fields] documentation article.
 
 Builds an index using the index entries specified by XE fields, and inserts that index at this place in the document.
+
+
+[Working with Fields]: https://docs.aspose.com/words/java/working-with-fields/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBookmarkName()](#getBookmarkName--) | Gets the name of the bookmark that marks the portion of the document used to build the index. |
-| [getClass()](#getClass--) |  |
-| [getCrossReferenceSeparator()](#getCrossReferenceSeparator--) | Gets the character sequence that is used to separate cross references and other entries. |
-| [getDisplayResult()](#getDisplayResult--) | Gets the text that represents the displayed field result. |
-| [getEnd()](#getEnd--) | Gets the node that represents the field end. |
-| [getEntryType()](#getEntryType--) | Gets an index entry type used to build the index. |
-| [getFieldCode()](#getFieldCode--) | Returns text between field start and field separator (or field end if there is no separator). |
-| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean-) | Returns text between field start and field separator (or field end if there is no separator). |
-| [getFormat()](#getFormat--) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
-| [getHeading()](#getHeading--) | Gets a heading that appears at the start of each set of entries for any given letter. |
-| [getLanguageId()](#getLanguageId--) | Gets the language ID used to generate the index. |
-| [getLetterRange()](#getLetterRange--) | Gets a range of letters to which limit the index. |
-| [getLocaleId()](#getLocaleId--) | Gets the LCID of the field. |
-| [getNumberOfColumns()](#getNumberOfColumns--) | Gets the number of columns per page used when building the index. |
-| [getPageNumberListSeparator()](#getPageNumberListSeparator--) | Gets the character sequence that is used to separate two page numbers in a page number list. |
-| [getPageNumberSeparator()](#getPageNumberSeparator--) | Gets the character sequence that is used to separate an index entry and its page number. |
-| [getPageRangeSeparator()](#getPageRangeSeparator--) | Gets the character sequence that is used to separate the start and end of a page range. |
-| [getResult()](#getResult--) | Gets text that is between the field separator and field end. |
-| [getRunSubentriesOnSameLine()](#getRunSubentriesOnSameLine--) | Gets whether run subentries into the same line as the main entry. |
-| [getSeparator()](#getSeparator--) | Gets the node that represents the field separator. |
-| [getSequenceName()](#getSequenceName--) | Gets the name of a sequence whose number is included with the page number. |
-| [getSequenceSeparator()](#getSequenceSeparator--) | Gets the character sequence that is used to separate sequence numbers and page numbers. |
-| [getStart()](#getStart--) | Gets the node that represents the start of the field. |
-| [getSwitchType(String switchName)](#getSwitchType-java.lang.String-) |  |
-| [getType()](#getType--) | Gets the Microsoft Word field type. |
-| [getUseYomi()](#getUseYomi--) | Gets whether to enable the use of yomi text for index entries. |
-| [hasPageNumberSeparator()](#hasPageNumberSeparator--) | Gets a value indicating whether a page number separator is overridden through the field's code. |
-| [hasSequenceName()](#hasSequenceName--) | Gets a value indicating whether a sequence should be used while the field's result building. |
-| [hashCode()](#hashCode--) |  |
-| [isDirty()](#isDirty--) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [isDirty(boolean value)](#isDirty-boolean-) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [isLocked()](#isLocked--) | Gets whether the field is locked (should not recalculate its result). |
-| [isLocked(boolean value)](#isLocked-boolean-) | Sets whether the field is locked (should not recalculate its result). |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove()](#remove--) | Removes the field from the document. |
-| [setBookmarkName(String value)](#setBookmarkName-java.lang.String-) | Sets the name of the bookmark that marks the portion of the document used to build the index. |
-| [setCrossReferenceSeparator(String value)](#setCrossReferenceSeparator-java.lang.String-) | Sets the character sequence that is used to separate cross references and other entries. |
-| [setEntryType(String value)](#setEntryType-java.lang.String-) | Sets an index entry type used to build the index. |
-| [setHeading(String value)](#setHeading-java.lang.String-) | Sets a heading that appears at the start of each set of entries for any given letter. |
-| [setLanguageId(String value)](#setLanguageId-java.lang.String-) | Sets the language ID used to generate the index. |
-| [setLetterRange(String value)](#setLetterRange-java.lang.String-) | Sets a range of letters to which limit the index. |
-| [setLocaleId(int value)](#setLocaleId-int-) | Sets the LCID of the field. |
-| [setNumberOfColumns(String value)](#setNumberOfColumns-java.lang.String-) | Sets the number of columns per page used when building the index. |
-| [setPageNumberListSeparator(String value)](#setPageNumberListSeparator-java.lang.String-) | Sets the character sequence that is used to separate two page numbers in a page number list. |
-| [setPageNumberSeparator(String value)](#setPageNumberSeparator-java.lang.String-) | Sets the character sequence that is used to separate an index entry and its page number. |
-| [setPageRangeSeparator(String value)](#setPageRangeSeparator-java.lang.String-) | Sets the character sequence that is used to separate the start and end of a page range. |
-| [setResult(String value)](#setResult-java.lang.String-) | Sets text that is between the field separator and field end. |
-| [setRunSubentriesOnSameLine(boolean value)](#setRunSubentriesOnSameLine-boolean-) | Sets whether run subentries into the same line as the main entry. |
-| [setSequenceName(String value)](#setSequenceName-java.lang.String-) | Sets the name of a sequence whose number is included with the page number. |
-| [setSequenceSeparator(String value)](#setSequenceSeparator-java.lang.String-) | Sets the character sequence that is used to separate sequence numbers and page numbers. |
-| [setUseYomi(boolean value)](#setUseYomi-boolean-) | Sets whether to enable the use of yomi text for index entries. |
-| [toString()](#toString--) |  |
-| [unlink()](#unlink--) | Performs the field unlink. |
-| [update()](#update--) | Performs the field update. |
-| [update(boolean ignoreMergeFormat)](#update-boolean-) | Performs a field update. |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getBookmarkName()](#getBookmarkName) | Gets the name of the bookmark that marks the portion of the document used to build the index. |
+| [getClass()](#getClass) |  |
+| [getCrossReferenceSeparator()](#getCrossReferenceSeparator) | Gets the character sequence that is used to separate cross references and other entries. |
+| [getDisplayResult()](#getDisplayResult) | Gets the text that represents the displayed field result. |
+| [getEnd()](#getEnd) | Gets the node that represents the field end. |
+| [getEntryType()](#getEntryType) | Gets an index entry type used to build the index. |
+| [getFieldCode()](#getFieldCode) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFormat()](#getFormat) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
+| [getHeading()](#getHeading) | Gets a heading that appears at the start of each set of entries for any given letter. |
+| [getLanguageId()](#getLanguageId) | Gets the language ID used to generate the index. |
+| [getLetterRange()](#getLetterRange) | Gets a range of letters to which limit the index. |
+| [getLocaleId()](#getLocaleId) | Gets the LCID of the field. |
+| [getNumberOfColumns()](#getNumberOfColumns) | Gets the number of columns per page used when building the index. |
+| [getPageNumberListSeparator()](#getPageNumberListSeparator) | Gets the character sequence that is used to separate two page numbers in a page number list. |
+| [getPageNumberSeparator()](#getPageNumberSeparator) | Gets the character sequence that is used to separate an index entry and its page number. |
+| [getPageRangeSeparator()](#getPageRangeSeparator) | Gets the character sequence that is used to separate the start and end of a page range. |
+| [getResult()](#getResult) | Gets text that is between the field separator and field end. |
+| [getRunSubentriesOnSameLine()](#getRunSubentriesOnSameLine) | Gets whether run subentries into the same line as the main entry. |
+| [getSeparator()](#getSeparator) | Gets the node that represents the field separator. |
+| [getSequenceName()](#getSequenceName) | Gets the name of a sequence whose number is included with the page number. |
+| [getSequenceSeparator()](#getSequenceSeparator) | Gets the character sequence that is used to separate sequence numbers and page numbers. |
+| [getStart()](#getStart) | Gets the node that represents the start of the field. |
+| [getSwitchType(String switchName)](#getSwitchType-java.lang.String) |  |
+| [getType()](#getType) | Gets the Microsoft Word field type. |
+| [getUseYomi()](#getUseYomi) | Gets whether to enable the use of yomi text for index entries. |
+| [hasPageNumberSeparator()](#hasPageNumberSeparator) | Gets a value indicating whether a page number separator is overridden through the field's code. |
+| [hasSequenceName()](#hasSequenceName) | Gets a value indicating whether a sequence should be used while the field's result building. |
+| [hashCode()](#hashCode) |  |
+| [isDirty()](#isDirty) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isDirty(boolean value)](#isDirty-boolean) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isLocked()](#isLocked) | Gets whether the field is locked (should not recalculate its result). |
+| [isLocked(boolean value)](#isLocked-boolean) | Sets whether the field is locked (should not recalculate its result). |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [remove()](#remove) | Removes the field from the document. |
+| [setBookmarkName(String value)](#setBookmarkName-java.lang.String) | Sets the name of the bookmark that marks the portion of the document used to build the index. |
+| [setCrossReferenceSeparator(String value)](#setCrossReferenceSeparator-java.lang.String) | Sets the character sequence that is used to separate cross references and other entries. |
+| [setEntryType(String value)](#setEntryType-java.lang.String) | Sets an index entry type used to build the index. |
+| [setHeading(String value)](#setHeading-java.lang.String) | Sets a heading that appears at the start of each set of entries for any given letter. |
+| [setLanguageId(String value)](#setLanguageId-java.lang.String) | Sets the language ID used to generate the index. |
+| [setLetterRange(String value)](#setLetterRange-java.lang.String) | Sets a range of letters to which limit the index. |
+| [setLocaleId(int value)](#setLocaleId-int) | Sets the LCID of the field. |
+| [setNumberOfColumns(String value)](#setNumberOfColumns-java.lang.String) | Sets the number of columns per page used when building the index. |
+| [setPageNumberListSeparator(String value)](#setPageNumberListSeparator-java.lang.String) | Sets the character sequence that is used to separate two page numbers in a page number list. |
+| [setPageNumberSeparator(String value)](#setPageNumberSeparator-java.lang.String) | Sets the character sequence that is used to separate an index entry and its page number. |
+| [setPageRangeSeparator(String value)](#setPageRangeSeparator-java.lang.String) | Sets the character sequence that is used to separate the start and end of a page range. |
+| [setResult(String value)](#setResult-java.lang.String) | Sets text that is between the field separator and field end. |
+| [setRunSubentriesOnSameLine(boolean value)](#setRunSubentriesOnSameLine-boolean) | Sets whether run subentries into the same line as the main entry. |
+| [setSequenceName(String value)](#setSequenceName-java.lang.String) | Sets the name of a sequence whose number is included with the page number. |
+| [setSequenceSeparator(String value)](#setSequenceSeparator-java.lang.String) | Sets the character sequence that is used to separate sequence numbers and page numbers. |
+| [setUseYomi(boolean value)](#setUseYomi-boolean) | Sets whether to enable the use of yomi text for index entries. |
+| [toString()](#toString) |  |
+| [unlink()](#unlink) | Performs the field unlink. |
+| [update()](#update) | Performs the field update. |
+| [update(boolean ignoreMergeFormat)](#update-boolean) | Performs a field update. |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -97,7 +100,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getBookmarkName() {#getBookmarkName--}
+### getBookmarkName() {#getBookmarkName}
 ```
 public String getBookmarkName()
 ```
@@ -107,7 +110,7 @@ Gets the name of the bookmark that marks the portion of the document used to bui
 
 **Returns:**
 java.lang.String - The name of the bookmark that marks the portion of the document used to build the index.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -117,7 +120,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCrossReferenceSeparator() {#getCrossReferenceSeparator--}
+### getCrossReferenceSeparator() {#getCrossReferenceSeparator}
 ```
 public String getCrossReferenceSeparator()
 ```
@@ -127,17 +130,17 @@ Gets the character sequence that is used to separate cross references and other 
 
 **Returns:**
 java.lang.String - The character sequence that is used to separate cross references and other entries.
-### getDisplayResult() {#getDisplayResult--}
+### getDisplayResult() {#getDisplayResult}
 ```
 public String getDisplayResult()
 ```
 
 
-Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
+Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
 
 **Returns:**
 java.lang.String - The text that represents the displayed field result.
-### getEnd() {#getEnd--}
+### getEnd() {#getEnd}
 ```
 public FieldEnd getEnd()
 ```
@@ -147,7 +150,7 @@ Gets the node that represents the field end.
 
 **Returns:**
 [FieldEnd](../../com.aspose.words/fieldend) - The node that represents the field end.
-### getEntryType() {#getEntryType--}
+### getEntryType() {#getEntryType}
 ```
 public String getEntryType()
 ```
@@ -157,7 +160,7 @@ Gets an index entry type used to build the index.
 
 **Returns:**
 java.lang.String - An index entry type used to build the index.
-### getFieldCode() {#getFieldCode--}
+### getFieldCode() {#getFieldCode}
 ```
 public String getFieldCode()
 ```
@@ -167,7 +170,7 @@ Returns text between field start and field separator (or field end if there is n
 
 **Returns:**
 java.lang.String
-### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean-}
+### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean}
 ```
 public String getFieldCode(boolean includeChildFieldCodes)
 ```
@@ -178,11 +181,11 @@ Returns text between field start and field separator (or field end if there is n
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| includeChildFieldCodes | boolean | \{ True  if child field codes should be included. |
+| includeChildFieldCodes | boolean | \{ true  if child field codes should be included. |
 
 **Returns:**
 java.lang.String
-### getFormat() {#getFormat--}
+### getFormat() {#getFormat}
 ```
 public FieldFormat getFormat()
 ```
@@ -192,7 +195,7 @@ Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides ty
 
 **Returns:**
 [FieldFormat](../../com.aspose.words/fieldformat) - A [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
-### getHeading() {#getHeading--}
+### getHeading() {#getHeading}
 ```
 public String getHeading()
 ```
@@ -202,7 +205,7 @@ Gets a heading that appears at the start of each set of entries for any given le
 
 **Returns:**
 java.lang.String - A heading that appears at the start of each set of entries for any given letter.
-### getLanguageId() {#getLanguageId--}
+### getLanguageId() {#getLanguageId}
 ```
 public String getLanguageId()
 ```
@@ -212,7 +215,7 @@ Gets the language ID used to generate the index.
 
 **Returns:**
 java.lang.String - The language ID used to generate the index.
-### getLetterRange() {#getLetterRange--}
+### getLetterRange() {#getLetterRange}
 ```
 public String getLetterRange()
 ```
@@ -222,7 +225,7 @@ Gets a range of letters to which limit the index.
 
 **Returns:**
 java.lang.String - A range of letters to which limit the index.
-### getLocaleId() {#getLocaleId--}
+### getLocaleId() {#getLocaleId}
 ```
 public int getLocaleId()
 ```
@@ -232,7 +235,7 @@ Gets the LCID of the field.
 
 **Returns:**
 int - The LCID of the field.
-### getNumberOfColumns() {#getNumberOfColumns--}
+### getNumberOfColumns() {#getNumberOfColumns}
 ```
 public String getNumberOfColumns()
 ```
@@ -242,7 +245,7 @@ Gets the number of columns per page used when building the index.
 
 **Returns:**
 java.lang.String - The number of columns per page used when building the index.
-### getPageNumberListSeparator() {#getPageNumberListSeparator--}
+### getPageNumberListSeparator() {#getPageNumberListSeparator}
 ```
 public String getPageNumberListSeparator()
 ```
@@ -252,7 +255,7 @@ Gets the character sequence that is used to separate two page numbers in a page 
 
 **Returns:**
 java.lang.String - The character sequence that is used to separate two page numbers in a page number list.
-### getPageNumberSeparator() {#getPageNumberSeparator--}
+### getPageNumberSeparator() {#getPageNumberSeparator}
 ```
 public String getPageNumberSeparator()
 ```
@@ -262,7 +265,7 @@ Gets the character sequence that is used to separate an index entry and its page
 
 **Returns:**
 java.lang.String - The character sequence that is used to separate an index entry and its page number.
-### getPageRangeSeparator() {#getPageRangeSeparator--}
+### getPageRangeSeparator() {#getPageRangeSeparator}
 ```
 public String getPageRangeSeparator()
 ```
@@ -272,7 +275,7 @@ Gets the character sequence that is used to separate the start and end of a page
 
 **Returns:**
 java.lang.String - The character sequence that is used to separate the start and end of a page range.
-### getResult() {#getResult--}
+### getResult() {#getResult}
 ```
 public String getResult()
 ```
@@ -282,7 +285,7 @@ Gets text that is between the field separator and field end.
 
 **Returns:**
 java.lang.String - Text that is between the field separator and field end.
-### getRunSubentriesOnSameLine() {#getRunSubentriesOnSameLine--}
+### getRunSubentriesOnSameLine() {#getRunSubentriesOnSameLine}
 ```
 public boolean getRunSubentriesOnSameLine()
 ```
@@ -292,17 +295,17 @@ Gets whether run subentries into the same line as the main entry.
 
 **Returns:**
 boolean - Whether run subentries into the same line as the main entry.
-### getSeparator() {#getSeparator--}
+### getSeparator() {#getSeparator}
 ```
 public FieldSeparator getSeparator()
 ```
 
 
-Gets the node that represents the field separator. Can be null.
+Gets the node that represents the field separator. Can be  null .
 
 **Returns:**
 [FieldSeparator](../../com.aspose.words/fieldseparator) - The node that represents the field separator.
-### getSequenceName() {#getSequenceName--}
+### getSequenceName() {#getSequenceName}
 ```
 public String getSequenceName()
 ```
@@ -312,7 +315,7 @@ Gets the name of a sequence whose number is included with the page number.
 
 **Returns:**
 java.lang.String - The name of a sequence whose number is included with the page number.
-### getSequenceSeparator() {#getSequenceSeparator--}
+### getSequenceSeparator() {#getSequenceSeparator}
 ```
 public String getSequenceSeparator()
 ```
@@ -322,7 +325,7 @@ Gets the character sequence that is used to separate sequence numbers and page n
 
 **Returns:**
 java.lang.String - The character sequence that is used to separate sequence numbers and page numbers.
-### getStart() {#getStart--}
+### getStart() {#getStart}
 ```
 public FieldStart getStart()
 ```
@@ -332,7 +335,7 @@ Gets the node that represents the start of the field.
 
 **Returns:**
 [FieldStart](../../com.aspose.words/fieldstart) - The node that represents the start of the field.
-### getSwitchType(String switchName) {#getSwitchType-java.lang.String-}
+### getSwitchType(String switchName) {#getSwitchType-java.lang.String}
 ```
 public int getSwitchType(String switchName)
 ```
@@ -347,7 +350,7 @@ public int getSwitchType(String switchName)
 
 **Returns:**
 int
-### getType() {#getType--}
+### getType() {#getType}
 ```
 public int getType()
 ```
@@ -357,7 +360,7 @@ Gets the Microsoft Word field type.
 
 **Returns:**
 int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
-### getUseYomi() {#getUseYomi--}
+### getUseYomi() {#getUseYomi}
 ```
 public boolean getUseYomi()
 ```
@@ -367,7 +370,7 @@ Gets whether to enable the use of yomi text for index entries.
 
 **Returns:**
 boolean - Whether to enable the use of yomi text for index entries.
-### hasPageNumberSeparator() {#hasPageNumberSeparator--}
+### hasPageNumberSeparator() {#hasPageNumberSeparator}
 ```
 public boolean hasPageNumberSeparator()
 ```
@@ -377,7 +380,7 @@ Gets a value indicating whether a page number separator is overridden through th
 
 **Returns:**
 boolean - A value indicating whether a page number separator is overridden through the field's code.
-### hasSequenceName() {#hasSequenceName--}
+### hasSequenceName() {#hasSequenceName}
 ```
 public boolean hasSequenceName()
 ```
@@ -387,7 +390,7 @@ Gets a value indicating whether a sequence should be used while the field's resu
 
 **Returns:**
 boolean - A value indicating whether a sequence should be used while the field's result building.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -397,7 +400,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### isDirty() {#isDirty--}
+### isDirty() {#isDirty}
 ```
 public boolean isDirty()
 ```
@@ -407,7 +410,7 @@ Gets whether the current result of the field is no longer correct (stale) due to
 
 **Returns:**
 boolean - Whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
-### isDirty(boolean value) {#isDirty-boolean-}
+### isDirty(boolean value) {#isDirty-boolean}
 ```
 public void isDirty(boolean value)
 ```
@@ -420,7 +423,7 @@ Sets whether the current result of the field is no longer correct (stale) due to
 | --- | --- | --- |
 | value | boolean | Whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 
-### isLocked() {#isLocked--}
+### isLocked() {#isLocked}
 ```
 public boolean isLocked()
 ```
@@ -430,7 +433,7 @@ Gets whether the field is locked (should not recalculate its result).
 
 **Returns:**
 boolean - Whether the field is locked (should not recalculate its result).
-### isLocked(boolean value) {#isLocked-boolean-}
+### isLocked(boolean value) {#isLocked-boolean}
 ```
 public void isLocked(boolean value)
 ```
@@ -443,7 +446,7 @@ Sets whether the field is locked (should not recalculate its result).
 | --- | --- | --- |
 | value | boolean | Whether the field is locked (should not recalculate its result). |
 
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -451,7 +454,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -459,17 +462,17 @@ public final native void notifyAll()
 
 
 
-### remove() {#remove--}
+### remove() {#remove}
 ```
 public Node remove()
 ```
 
 
-Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**.
+Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns  null .
 
 **Returns:**
 [Node](../../com.aspose.words/node)
-### setBookmarkName(String value) {#setBookmarkName-java.lang.String-}
+### setBookmarkName(String value) {#setBookmarkName-java.lang.String}
 ```
 public void setBookmarkName(String value)
 ```
@@ -482,7 +485,7 @@ Sets the name of the bookmark that marks the portion of the document used to bui
 | --- | --- | --- |
 | value | java.lang.String | The name of the bookmark that marks the portion of the document used to build the index. |
 
-### setCrossReferenceSeparator(String value) {#setCrossReferenceSeparator-java.lang.String-}
+### setCrossReferenceSeparator(String value) {#setCrossReferenceSeparator-java.lang.String}
 ```
 public void setCrossReferenceSeparator(String value)
 ```
@@ -495,7 +498,7 @@ Sets the character sequence that is used to separate cross references and other 
 | --- | --- | --- |
 | value | java.lang.String | The character sequence that is used to separate cross references and other entries. |
 
-### setEntryType(String value) {#setEntryType-java.lang.String-}
+### setEntryType(String value) {#setEntryType-java.lang.String}
 ```
 public void setEntryType(String value)
 ```
@@ -508,7 +511,7 @@ Sets an index entry type used to build the index.
 | --- | --- | --- |
 | value | java.lang.String | An index entry type used to build the index. |
 
-### setHeading(String value) {#setHeading-java.lang.String-}
+### setHeading(String value) {#setHeading-java.lang.String}
 ```
 public void setHeading(String value)
 ```
@@ -521,7 +524,7 @@ Sets a heading that appears at the start of each set of entries for any given le
 | --- | --- | --- |
 | value | java.lang.String | A heading that appears at the start of each set of entries for any given letter. |
 
-### setLanguageId(String value) {#setLanguageId-java.lang.String-}
+### setLanguageId(String value) {#setLanguageId-java.lang.String}
 ```
 public void setLanguageId(String value)
 ```
@@ -534,7 +537,7 @@ Sets the language ID used to generate the index.
 | --- | --- | --- |
 | value | java.lang.String | The language ID used to generate the index. |
 
-### setLetterRange(String value) {#setLetterRange-java.lang.String-}
+### setLetterRange(String value) {#setLetterRange-java.lang.String}
 ```
 public void setLetterRange(String value)
 ```
@@ -547,7 +550,7 @@ Sets a range of letters to which limit the index.
 | --- | --- | --- |
 | value | java.lang.String | A range of letters to which limit the index. |
 
-### setLocaleId(int value) {#setLocaleId-int-}
+### setLocaleId(int value) {#setLocaleId-int}
 ```
 public void setLocaleId(int value)
 ```
@@ -560,7 +563,7 @@ Sets the LCID of the field.
 | --- | --- | --- |
 | value | int | The LCID of the field. |
 
-### setNumberOfColumns(String value) {#setNumberOfColumns-java.lang.String-}
+### setNumberOfColumns(String value) {#setNumberOfColumns-java.lang.String}
 ```
 public void setNumberOfColumns(String value)
 ```
@@ -573,7 +576,7 @@ Sets the number of columns per page used when building the index.
 | --- | --- | --- |
 | value | java.lang.String | The number of columns per page used when building the index. |
 
-### setPageNumberListSeparator(String value) {#setPageNumberListSeparator-java.lang.String-}
+### setPageNumberListSeparator(String value) {#setPageNumberListSeparator-java.lang.String}
 ```
 public void setPageNumberListSeparator(String value)
 ```
@@ -586,7 +589,7 @@ Sets the character sequence that is used to separate two page numbers in a page 
 | --- | --- | --- |
 | value | java.lang.String | The character sequence that is used to separate two page numbers in a page number list. |
 
-### setPageNumberSeparator(String value) {#setPageNumberSeparator-java.lang.String-}
+### setPageNumberSeparator(String value) {#setPageNumberSeparator-java.lang.String}
 ```
 public void setPageNumberSeparator(String value)
 ```
@@ -599,7 +602,7 @@ Sets the character sequence that is used to separate an index entry and its page
 | --- | --- | --- |
 | value | java.lang.String | The character sequence that is used to separate an index entry and its page number. |
 
-### setPageRangeSeparator(String value) {#setPageRangeSeparator-java.lang.String-}
+### setPageRangeSeparator(String value) {#setPageRangeSeparator-java.lang.String}
 ```
 public void setPageRangeSeparator(String value)
 ```
@@ -612,7 +615,7 @@ Sets the character sequence that is used to separate the start and end of a page
 | --- | --- | --- |
 | value | java.lang.String | The character sequence that is used to separate the start and end of a page range. |
 
-### setResult(String value) {#setResult-java.lang.String-}
+### setResult(String value) {#setResult-java.lang.String}
 ```
 public void setResult(String value)
 ```
@@ -625,7 +628,7 @@ Sets text that is between the field separator and field end.
 | --- | --- | --- |
 | value | java.lang.String | Text that is between the field separator and field end. |
 
-### setRunSubentriesOnSameLine(boolean value) {#setRunSubentriesOnSameLine-boolean-}
+### setRunSubentriesOnSameLine(boolean value) {#setRunSubentriesOnSameLine-boolean}
 ```
 public void setRunSubentriesOnSameLine(boolean value)
 ```
@@ -638,7 +641,7 @@ Sets whether run subentries into the same line as the main entry.
 | --- | --- | --- |
 | value | boolean | Whether run subentries into the same line as the main entry. |
 
-### setSequenceName(String value) {#setSequenceName-java.lang.String-}
+### setSequenceName(String value) {#setSequenceName-java.lang.String}
 ```
 public void setSequenceName(String value)
 ```
@@ -651,7 +654,7 @@ Sets the name of a sequence whose number is included with the page number.
 | --- | --- | --- |
 | value | java.lang.String | The name of a sequence whose number is included with the page number. |
 
-### setSequenceSeparator(String value) {#setSequenceSeparator-java.lang.String-}
+### setSequenceSeparator(String value) {#setSequenceSeparator-java.lang.String}
 ```
 public void setSequenceSeparator(String value)
 ```
@@ -664,7 +667,7 @@ Sets the character sequence that is used to separate sequence numbers and page n
 | --- | --- | --- |
 | value | java.lang.String | The character sequence that is used to separate sequence numbers and page numbers. |
 
-### setUseYomi(boolean value) {#setUseYomi-boolean-}
+### setUseYomi(boolean value) {#setUseYomi-boolean}
 ```
 public void setUseYomi(boolean value)
 ```
@@ -677,7 +680,7 @@ Sets whether to enable the use of yomi text for index entries.
 | --- | --- | --- |
 | value | boolean | Whether to enable the use of yomi text for index entries. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -687,7 +690,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### unlink() {#unlink--}
+### unlink() {#unlink}
 ```
 public boolean unlink()
 ```
@@ -700,8 +703,8 @@ Replaces the field with its most recent result.
 Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot be unlinked.
 
 **Returns:**
-boolean - \{ True  if the field has been unlinked, otherwise  false .
-### update() {#update--}
+boolean - \{ true  if the field has been unlinked, otherwise  false .
+### update() {#update}
 ```
 public void update()
 ```
@@ -709,7 +712,7 @@ public void update()
 
 Performs the field update. Throws if the field is being updated already.
 
-### update(boolean ignoreMergeFormat) {#update-boolean-}
+### update(boolean ignoreMergeFormat) {#update-boolean}
 ```
 public void update(boolean ignoreMergeFormat)
 ```
@@ -722,7 +725,7 @@ Performs a field update. Throws if the field is being updated already.
 | --- | --- | --- |
 | ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
 
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -730,7 +733,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -743,7 +746,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

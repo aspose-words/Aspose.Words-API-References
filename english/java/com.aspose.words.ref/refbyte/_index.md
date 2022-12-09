@@ -18,23 +18,23 @@ Represents Out/Ref constructions for Byte primitive type
 
 | Constructor | Description |
 | --- | --- |
-| [RefByte(byte value)](#RefByte-byte-) | Mimics Out/Ref parameter initialisation with given Value. |
+| [RefByte(byte value)](#RefByte-byte) | Mimics Out/Ref parameter initialisation with given Value. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get()](#get--) | Gets Out/Ref parameter Value Should be used after calling the method with Out/Ref constructions |
-| [getClass()](#getClass--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [set(byte anotherValue)](#set-byte-) | Sets Out/Ref parameter Value Should be used inside the method with Out/Ref constructions |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### RefByte(byte value) {#RefByte-byte-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [get()](#get) | Gets Out/Ref parameter Value Should be used after calling the method with Out/Ref constructions |
+| [getClass()](#getClass) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [set(byte anotherValue)](#set-byte) | Sets Out/Ref parameter Value Should be used inside the method with Out/Ref constructions |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### RefByte(byte value) {#RefByte-byte}
 ```
 public RefByte(byte value)
 ```
@@ -47,7 +47,7 @@ Mimics Out/Ref parameter initialisation with given Value. Should be used before 
 | --- | --- | --- |
 | value | byte |  |
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -62,7 +62,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### get() {#get--}
+### get() {#get}
 ```
 public byte get()
 ```
@@ -72,7 +72,7 @@ Gets Out/Ref parameter Value Should be used after calling the method with Out/Re
 
 **Returns:**
 byte
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -82,7 +82,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -92,7 +92,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -100,7 +100,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -108,7 +108,7 @@ public final native void notifyAll()
 
 
 
-### set(byte anotherValue) {#set-byte-}
+### set(byte anotherValue) {#set-byte}
 ```
 public byte set(byte anotherValue)
 ```
@@ -123,7 +123,7 @@ Sets Out/Ref parameter Value Should be used inside the method with Out/Ref const
 
 **Returns:**
 byte
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -133,7 +133,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -141,7 +141,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -154,7 +154,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

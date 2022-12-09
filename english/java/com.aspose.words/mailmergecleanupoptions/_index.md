@@ -3,7 +3,7 @@ title: MailMergeCleanupOptions
 second_title: Aspose.Words for Java API Reference
 description: Specifies options that determine what items are removed during mail merge.
 type: docs
-weight: 381
+weight: 383
 url: /java/com.aspose.words/mailmergecleanupoptions/
 ---
 
@@ -30,22 +30,22 @@ Specifies options that determine what items are removed during mail merge.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String mailMergeCleanupOptionsName)](#fromName-java.lang.String-) |  |
-| [fromNames(Set mailMergeCleanupOptionsNames)](#fromNames-java.util.Set-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int mailMergeCleanupOptions)](#getName-int-) |  |
-| [getNames(int mailMergeCleanupOptions)](#getNames-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int mailMergeCleanupOptions)](#toString-int-) |  |
-| [toStringSet(int attr)](#toStringSet-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String mailMergeCleanupOptionsName)](#fromName-java.lang.String) |  |
+| [fromNames(Set mailMergeCleanupOptionsNames)](#fromNames-java.util.Set) |  |
+| [getClass()](#getClass) |  |
+| [getName(int mailMergeCleanupOptions)](#getName-int) |  |
+| [getNames(int mailMergeCleanupOptions)](#getNames-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int mailMergeCleanupOptions)](#toString-int) |  |
+| [toStringSet(int attr)](#toStringSet-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### NONE {#NONE}
 ```
 public static int NONE
@@ -142,7 +142,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -157,7 +157,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String mailMergeCleanupOptionsName) {#fromName-java.lang.String-}
+### fromName(String mailMergeCleanupOptionsName) {#fromName-java.lang.String}
 ```
 public static int fromName(String mailMergeCleanupOptionsName)
 ```
@@ -172,7 +172,7 @@ public static int fromName(String mailMergeCleanupOptionsName)
 
 **Returns:**
 int
-### fromNames(Set mailMergeCleanupOptionsNames) {#fromNames-java.util.Set-}
+### fromNames(Set mailMergeCleanupOptionsNames) {#fromNames-java.util.Set}
 ```
 public static int fromNames(Set mailMergeCleanupOptionsNames)
 ```
@@ -187,7 +187,7 @@ public static int fromNames(Set mailMergeCleanupOptionsNames)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -197,7 +197,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int mailMergeCleanupOptions) {#getName-int-}
+### getName(int mailMergeCleanupOptions) {#getName-int}
 ```
 public static String getName(int mailMergeCleanupOptions)
 ```
@@ -212,7 +212,7 @@ public static String getName(int mailMergeCleanupOptions)
 
 **Returns:**
 java.lang.String
-### getNames(int mailMergeCleanupOptions) {#getNames-int-}
+### getNames(int mailMergeCleanupOptions) {#getNames-int}
 ```
 public static Set getNames(int mailMergeCleanupOptions)
 ```
@@ -227,7 +227,7 @@ public static Set getNames(int mailMergeCleanupOptions)
 
 **Returns:**
 java.util.Set
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -237,7 +237,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -247,7 +247,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -255,7 +255,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -263,7 +263,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -273,7 +273,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int mailMergeCleanupOptions) {#toString-int-}
+### toString(int mailMergeCleanupOptions) {#toString-int}
 ```
 public static String toString(int mailMergeCleanupOptions)
 ```
@@ -288,7 +288,7 @@ public static String toString(int mailMergeCleanupOptions)
 
 **Returns:**
 java.lang.String
-### toStringSet(int attr) {#toStringSet-int-}
+### toStringSet(int attr) {#toStringSet-int}
 ```
 public static String toStringSet(int attr)
 ```
@@ -303,7 +303,7 @@ public static String toStringSet(int attr)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -311,7 +311,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -324,7 +324,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

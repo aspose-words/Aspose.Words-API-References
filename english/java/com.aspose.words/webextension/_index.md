@@ -3,7 +3,7 @@ title: WebExtension
 second_title: Aspose.Words for Java API Reference
 description: Represents a web extension object.
 type: docs
-weight: 611
+weight: 614
 url: /java/com.aspose.words/webextension/
 ---
 
@@ -15,29 +15,32 @@ public class WebExtension
 
 Represents a web extension object.
 
-To learn more, visit the **Work with Office Add-ins** documentation article.
+To learn more, visit the [ Work with Office Add-ins ][Work with Office Add-ins] documentation article.
+
+
+[Work with Office Add-ins]: https://docs.aspose.com/words/java/work-with-office-add-ins/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAlternateReferences()](#getAlternateReferences--) | Specifies alternate references to a web extension. |
-| [getBindings()](#getBindings--) | Specifies a list of web extension bindings. |
-| [getClass()](#getClass--) |  |
-| [getId()](#getId--) | Uniquely identifies the web extension instance in the current document. |
-| [getProperties()](#getProperties--) | Represents a set of web extension custom properties. |
-| [getReference()](#getReference--) | Specifies the primary reference to an web extension. |
-| [hashCode()](#hashCode--) |  |
-| [isFrozen()](#isFrozen--) | Specifies whether the user can interact with the web extension or not. |
-| [isFrozen(boolean value)](#isFrozen-boolean-) | Specifies whether the user can interact with the web extension or not. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setId(String value)](#setId-java.lang.String-) | Uniquely identifies the web extension instance in the current document. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getAlternateReferences()](#getAlternateReferences) | Specifies alternate references to a web extension. |
+| [getBindings()](#getBindings) | Specifies a list of web extension bindings. |
+| [getClass()](#getClass) |  |
+| [getId()](#getId) | Uniquely identifies the web extension instance in the current document. |
+| [getProperties()](#getProperties) | Represents a set of web extension custom properties. |
+| [getReference()](#getReference) | Specifies the primary reference to an web extension. |
+| [hashCode()](#hashCode) |  |
+| [isFrozen()](#isFrozen) | Specifies whether the user can interact with the web extension or not. |
+| [isFrozen(boolean value)](#isFrozen-boolean) | Specifies whether the user can interact with the web extension or not. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setId(String value)](#setId-java.lang.String) | Uniquely identifies the web extension instance in the current document. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -52,7 +55,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getAlternateReferences() {#getAlternateReferences--}
+### getAlternateReferences() {#getAlternateReferences}
 ```
 public WebExtensionReferenceCollection getAlternateReferences()
 ```
@@ -62,7 +65,7 @@ Specifies alternate references to a web extension.
 
 **Returns:**
 [WebExtensionReferenceCollection](../../com.aspose.words/webextensionreferencecollection) - The corresponding [WebExtensionReferenceCollection](../../com.aspose.words/webextensionreferencecollection) value.
-### getBindings() {#getBindings--}
+### getBindings() {#getBindings}
 ```
 public WebExtensionBindingCollection getBindings()
 ```
@@ -72,7 +75,7 @@ Specifies a list of web extension bindings.
 
 **Returns:**
 [WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection) - The corresponding [WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection) value.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -82,7 +85,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getId() {#getId--}
+### getId() {#getId}
 ```
 public String getId()
 ```
@@ -92,7 +95,7 @@ Uniquely identifies the web extension instance in the current document.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### getProperties() {#getProperties--}
+### getProperties() {#getProperties}
 ```
 public WebExtensionPropertyCollection getProperties()
 ```
@@ -102,7 +105,7 @@ Represents a set of web extension custom properties.
 
 **Returns:**
 [WebExtensionPropertyCollection](../../com.aspose.words/webextensionpropertycollection) - The corresponding [WebExtensionPropertyCollection](../../com.aspose.words/webextensionpropertycollection) value.
-### getReference() {#getReference--}
+### getReference() {#getReference}
 ```
 public WebExtensionReference getReference()
 ```
@@ -112,7 +115,7 @@ Specifies the primary reference to an web extension.
 
 **Returns:**
 [WebExtensionReference](../../com.aspose.words/webextensionreference) - The corresponding [WebExtensionReference](../../com.aspose.words/webextensionreference) value.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -122,7 +125,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### isFrozen() {#isFrozen--}
+### isFrozen() {#isFrozen}
 ```
 public boolean isFrozen()
 ```
@@ -132,7 +135,7 @@ Specifies whether the user can interact with the web extension or not.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### isFrozen(boolean value) {#isFrozen-boolean-}
+### isFrozen(boolean value) {#isFrozen-boolean}
 ```
 public void isFrozen(boolean value)
 ```
@@ -145,7 +148,7 @@ Specifies whether the user can interact with the web extension or not.
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -153,7 +156,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -161,7 +164,7 @@ public final native void notifyAll()
 
 
 
-### setId(String value) {#setId-java.lang.String-}
+### setId(String value) {#setId-java.lang.String}
 ```
 public void setId(String value)
 ```
@@ -174,7 +177,7 @@ Uniquely identifies the web extension instance in the current document.
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -184,7 +187,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -192,7 +195,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -205,7 +208,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

@@ -21,24 +21,24 @@ Represents the collection of tables for the [DataSet](../../com.aspose.words.net
 
 | Method | Description |
 | --- | --- |
-| [add(System.Data.DataTable table)](#add-com.aspose.words.net.System.Data.DataTable-) | Adds the specified DataTable to the collection. |
-| [add(String name)](#add-java.lang.String-) | Creates a [DataTable](../../com.aspose.words.net.system.data/datatable) object by using the specified name and adds it to the collection. |
-| [contains(String name)](#contains-java.lang.String-) | Gets a value that indicates whether a [DataTable](../../com.aspose.words.net.system.data/datatable) object with the specified name exists in the collection. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Gets the [DataTable](../../com.aspose.words.net.system.data/datatable) object at the specified index. |
-| [get(String name)](#get-java.lang.String-) | Gets the [DataTable](../../com.aspose.words.net.system.data/datatable) object with the specified name. |
-| [get(String name, String tableNamespace)](#get-java.lang.String-java.lang.String-) | Gets the [DataTable](../../com.aspose.words.net.system.data/datatable) object with the specified name in the specified namespace. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) |  |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(System.Data.DataTable table) {#add-com.aspose.words.net.System.Data.DataTable-}
+| [add(System.Data.DataTable table)](#add-com.aspose.words.net.System.Data.DataTable) | Adds the specified DataTable to the collection. |
+| [add(String name)](#add-java.lang.String) | Creates a [DataTable](../../com.aspose.words.net.system.data/datatable) object by using the specified name and adds it to the collection. |
+| [contains(String name)](#contains-java.lang.String) | Gets a value that indicates whether a [DataTable](../../com.aspose.words.net.system.data/datatable) object with the specified name exists in the collection. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [get(int index)](#get-int) | Gets the [DataTable](../../com.aspose.words.net.system.data/datatable) object at the specified index. |
+| [get(String name)](#get-java.lang.String) | Gets the [DataTable](../../com.aspose.words.net.system.data/datatable) object with the specified name. |
+| [get(String name, String tableNamespace)](#get-java.lang.String-java.lang.String) | Gets the [DataTable](../../com.aspose.words.net.system.data/datatable) object with the specified name in the specified namespace. |
+| [getClass()](#getClass) |  |
+| [getCount()](#getCount) |  |
+| [hashCode()](#hashCode) |  |
+| [iterator()](#iterator) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### add(System.Data.DataTable table) {#add-com.aspose.words.net.System.Data.DataTable}
 ```
 public void add(System.Data.DataTable table)
 ```
@@ -51,7 +51,7 @@ Adds the specified DataTable to the collection.
 | --- | --- | --- |
 | table | [DataTable](../../com.aspose.words.net.system.data/datatable) | The DataTable object to add. |
 
-### add(String name) {#add-java.lang.String-}
+### add(String name) {#add-java.lang.String}
 ```
 public System.Data.DataTable add(String name)
 ```
@@ -66,7 +66,7 @@ Creates a [DataTable](../../com.aspose.words.net.system.data/datatable) object b
 
 **Returns:**
 [DataTable](../../com.aspose.words.net.system.data/datatable) - The newly created [DataTable](../../com.aspose.words.net.system.data/datatable).
-### contains(String name) {#contains-java.lang.String-}
+### contains(String name) {#contains-java.lang.String}
 ```
 public boolean contains(String name)
 ```
@@ -81,7 +81,7 @@ Gets a value that indicates whether a [DataTable](../../com.aspose.words.net.sys
 
 **Returns:**
 boolean - true if the specified table exists; otherwise false.
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -96,7 +96,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### get(int index) {#get-int-}
+### get(int index) {#get-int}
 ```
 public System.Data.DataTable get(int index)
 ```
@@ -111,7 +111,7 @@ Gets the [DataTable](../../com.aspose.words.net.system.data/datatable) object at
 
 **Returns:**
 [DataTable](../../com.aspose.words.net.system.data/datatable) - A [DataTable](../../com.aspose.words.net.system.data/datatable).
-### get(String name) {#get-java.lang.String-}
+### get(String name) {#get-java.lang.String}
 ```
 public System.Data.DataTable get(String name)
 ```
@@ -126,7 +126,7 @@ Gets the [DataTable](../../com.aspose.words.net.system.data/datatable) object wi
 
 **Returns:**
 [DataTable](../../com.aspose.words.net.system.data/datatable) - A [DataTable](../../com.aspose.words.net.system.data/datatable) with the specified name; otherwise null if the [DataTable](../../com.aspose.words.net.system.data/datatable) does not exist.
-### get(String name, String tableNamespace) {#get-java.lang.String-java.lang.String-}
+### get(String name, String tableNamespace) {#get-java.lang.String-java.lang.String}
 ```
 public System.Data.DataTable get(String name, String tableNamespace)
 ```
@@ -142,7 +142,7 @@ Gets the [DataTable](../../com.aspose.words.net.system.data/datatable) object wi
 
 **Returns:**
 [DataTable](../../com.aspose.words.net.system.data/datatable) - A [DataTable](../../com.aspose.words.net.system.data/datatable) with the specified name; otherwise null if the [DataTable](../../com.aspose.words.net.system.data/datatable) does not exist.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -152,7 +152,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCount() {#getCount--}
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -162,7 +162,7 @@ public int getCount()
 
 **Returns:**
 int - total number of items in this collection.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -172,7 +172,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### iterator() {#iterator--}
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -182,7 +182,7 @@ public Iterator iterator()
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -190,7 +190,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -198,7 +198,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -208,7 +208,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -216,7 +216,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -229,7 +229,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

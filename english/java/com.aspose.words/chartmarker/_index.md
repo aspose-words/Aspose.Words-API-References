@@ -18,27 +18,30 @@ public class ChartMarker implements Cloneable
 
 Represents a chart data marker.
 
-To learn more, visit the **Working with Charts** documentation article.
+To learn more, visit the [ Working with Charts ][Working with Charts] documentation article.
+
+
+[Working with Charts]: https://docs.aspose.com/words/java/working-with-charts/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getFormat()](#getFormat--) | Provides access to fill and line formatting of this marker. |
-| [getSize()](#getSize--) | Gets chart marker size. |
-| [getSymbol()](#getSymbol--) | Gets chart marker symbol. |
-| [hashCode()](#hashCode--) |  |
-| [materializeSpPr()](#materializeSpPr--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setSize(int value)](#setSize-int-) | Sets chart marker size. |
-| [setSymbol(int value)](#setSymbol-int-) | Sets chart marker symbol. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getFormat()](#getFormat) | Provides access to fill and line formatting of this marker. |
+| [getSize()](#getSize) | Gets chart marker size. |
+| [getSymbol()](#getSymbol) | Gets chart marker symbol. |
+| [hashCode()](#hashCode) |  |
+| [materializeSpPr()](#materializeSpPr) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setSize(int value)](#setSize-int) | Sets chart marker size. |
+| [setSymbol(int value)](#setSymbol-int) | Sets chart marker symbol. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -53,7 +56,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -63,7 +66,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getFormat() {#getFormat--}
+### getFormat() {#getFormat}
 ```
 public ChartFormat getFormat()
 ```
@@ -73,7 +76,7 @@ Provides access to fill and line formatting of this marker.
 
 **Returns:**
 [ChartFormat](../../com.aspose.words/chartformat) - The corresponding [ChartFormat](../../com.aspose.words/chartformat) value.
-### getSize() {#getSize--}
+### getSize() {#getSize}
 ```
 public int getSize()
 ```
@@ -83,7 +86,7 @@ Gets chart marker size. Default value is 7.
 
 **Returns:**
 int - Chart marker size.
-### getSymbol() {#getSymbol--}
+### getSymbol() {#getSymbol}
 ```
 public int getSymbol()
 ```
@@ -93,7 +96,7 @@ Gets chart marker symbol.
 
 **Returns:**
 int - Chart marker symbol. The returned value is one of [MarkerSymbol](../../com.aspose.words/markersymbol) constants.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -103,7 +106,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### materializeSpPr() {#materializeSpPr--}
+### materializeSpPr() {#materializeSpPr}
 ```
 public void materializeSpPr()
 ```
@@ -111,7 +114,7 @@ public void materializeSpPr()
 
 
 
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -119,7 +122,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -127,7 +130,7 @@ public final native void notifyAll()
 
 
 
-### setSize(int value) {#setSize-int-}
+### setSize(int value) {#setSize-int}
 ```
 public void setSize(int value)
 ```
@@ -140,7 +143,7 @@ Sets chart marker size. Default value is 7.
 | --- | --- | --- |
 | value | int | Chart marker size. |
 
-### setSymbol(int value) {#setSymbol-int-}
+### setSymbol(int value) {#setSymbol-int}
 ```
 public void setSymbol(int value)
 ```
@@ -153,7 +156,7 @@ Sets chart marker symbol.
 | --- | --- | --- |
 | value | int | Chart marker symbol. The value must be one of [MarkerSymbol](../../com.aspose.words/markersymbol) constants. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -163,7 +166,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -171,7 +174,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -184,7 +187,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

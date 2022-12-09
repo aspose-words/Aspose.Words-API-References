@@ -3,7 +3,7 @@ title: HtmlInsertOptions
 second_title: Aspose.Words for Java API Reference
 description: Specifies options for the MAspose.Words.DocumentBuilder.InsertHtmlSystem.StringAspose.Words.HtmlInsertOptions method.
 type: docs
-weight: 327
+weight: 329
 url: /java/com.aspose.words/htmlinsertoptions/
 ---
 
@@ -27,22 +27,22 @@ Specifies options for the **M:Aspose.Words.DocumentBuilder.InsertHtml(System.Str
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String htmlInsertOptionsName)](#fromName-java.lang.String-) |  |
-| [fromNames(Set htmlInsertOptionsNames)](#fromNames-java.util.Set-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int htmlInsertOptions)](#getName-int-) |  |
-| [getNames(int htmlInsertOptions)](#getNames-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int htmlInsertOptions)](#toString-int-) |  |
-| [toStringSet(int attr)](#toStringSet-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String htmlInsertOptionsName)](#fromName-java.lang.String) |  |
+| [fromNames(Set htmlInsertOptionsNames)](#fromNames-java.util.Set) |  |
+| [getClass()](#getClass) |  |
+| [getName(int htmlInsertOptions)](#getName-int) |  |
+| [getNames(int htmlInsertOptions)](#getNames-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int htmlInsertOptions)](#toString-int) |  |
+| [toStringSet(int attr)](#toStringSet-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### NONE {#NONE}
 ```
 public static int NONE
@@ -83,7 +83,7 @@ Use font and paragraph formatting specified in [DocumentBuilder](../../com.aspos
 
 If this option is not specified, formatting of [DocumentBuilder](../../com.aspose.words/documentbuilder) is ignored and text is inserted with default HTML formatting. As a result, the text looks as it is rendered in browsers.
 
-If this option is specified, formatting of inserted text is based on formatting specified in [DocumentBuilder](../../com.aspose.words/documentbuilder), and the text looks as if it were inserted using [DocumentBuilder.write(java.lang.String)](../../com.aspose.words/documentbuilder\#write-java.lang.String-).
+If this option is specified, formatting of inserted text is based on formatting specified in [DocumentBuilder](../../com.aspose.words/documentbuilder), and the text looks as if it were inserted using [DocumentBuilder.write(java.lang.String)](../../com.aspose.words/documentbuilder\#write-java.lang.String).
 
 ### length {#length}
 ```
@@ -91,7 +91,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -106,7 +106,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String htmlInsertOptionsName) {#fromName-java.lang.String-}
+### fromName(String htmlInsertOptionsName) {#fromName-java.lang.String}
 ```
 public static int fromName(String htmlInsertOptionsName)
 ```
@@ -121,7 +121,7 @@ public static int fromName(String htmlInsertOptionsName)
 
 **Returns:**
 int
-### fromNames(Set htmlInsertOptionsNames) {#fromNames-java.util.Set-}
+### fromNames(Set htmlInsertOptionsNames) {#fromNames-java.util.Set}
 ```
 public static int fromNames(Set htmlInsertOptionsNames)
 ```
@@ -136,7 +136,7 @@ public static int fromNames(Set htmlInsertOptionsNames)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -146,7 +146,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int htmlInsertOptions) {#getName-int-}
+### getName(int htmlInsertOptions) {#getName-int}
 ```
 public static String getName(int htmlInsertOptions)
 ```
@@ -161,7 +161,7 @@ public static String getName(int htmlInsertOptions)
 
 **Returns:**
 java.lang.String
-### getNames(int htmlInsertOptions) {#getNames-int-}
+### getNames(int htmlInsertOptions) {#getNames-int}
 ```
 public static Set getNames(int htmlInsertOptions)
 ```
@@ -176,7 +176,7 @@ public static Set getNames(int htmlInsertOptions)
 
 **Returns:**
 java.util.Set
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -186,7 +186,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -196,7 +196,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -204,7 +204,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -212,7 +212,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -222,7 +222,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int htmlInsertOptions) {#toString-int-}
+### toString(int htmlInsertOptions) {#toString-int}
 ```
 public static String toString(int htmlInsertOptions)
 ```
@@ -237,7 +237,7 @@ public static String toString(int htmlInsertOptions)
 
 **Returns:**
 java.lang.String
-### toStringSet(int attr) {#toStringSet-int-}
+### toStringSet(int attr) {#toStringSet-int}
 ```
 public static String toStringSet(int attr)
 ```
@@ -252,7 +252,7 @@ public static String toStringSet(int attr)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -260,7 +260,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -273,7 +273,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

@@ -3,7 +3,7 @@ title: EditableRange
 second_title: Aspose.Words for Java API Reference
 description: Represents a single editable range.
 type: docs
-weight: 136
+weight: 137
 url: /java/com.aspose.words/editablerange/
 ---
 
@@ -15,31 +15,34 @@ public class EditableRange
 
 Represents a single editable range.
 
-To learn more, visit the **Aspose.Words Document Object Model (DOM)** documentation article.
+To learn more, visit the [ Aspose.Words Document Object Model (DOM) ][Aspose.Words Document Object Model _DOM_] documentation article.
 
-[EditableRange](../../com.aspose.words/editablerange) is a "facade" object that encapsulates two nodes [getEditableRangeStart()](../../com.aspose.words/editablerange\#getEditableRangeStart--) and [getEditableRangeEnd()](../../com.aspose.words/editablerange\#getEditableRangeEnd--) in a document tree and allows to work with an editable range as a single object.
+[EditableRange](../../com.aspose.words/editablerange) is a "facade" object that encapsulates two nodes [getEditableRangeStart()](../../com.aspose.words/editablerange\#getEditableRangeStart) and [getEditableRangeEnd()](../../com.aspose.words/editablerange\#getEditableRangeEnd) in a document tree and allows to work with an editable range as a single object.
+
+
+[Aspose.Words Document Object Model _DOM_]: https://docs.aspose.com/words/java/aspose-words-document-object-model/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getEditableRangeEnd()](#getEditableRangeEnd--) | Gets the node that represents the end of the editable range. |
-| [getEditableRangeStart()](#getEditableRangeStart--) | Gets the node that represents the start of the editable range. |
-| [getEditorGroup()](#getEditorGroup--) | Gets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. |
-| [getId()](#getId--) | Gets the editable range identifier. |
-| [getSingleUser()](#getSingleUser--) | Gets the single user for editable range. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove()](#remove--) | Removes the editable range from the document. |
-| [setEditorGroup(int value)](#setEditorGroup-int-) | Sets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. |
-| [setSingleUser(String value)](#setSingleUser-java.lang.String-) | Sets the single user for editable range. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getEditableRangeEnd()](#getEditableRangeEnd) | Gets the node that represents the end of the editable range. |
+| [getEditableRangeStart()](#getEditableRangeStart) | Gets the node that represents the start of the editable range. |
+| [getEditorGroup()](#getEditorGroup) | Gets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. |
+| [getId()](#getId) | Gets the editable range identifier. |
+| [getSingleUser()](#getSingleUser) | Gets the single user for editable range. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [remove()](#remove) | Removes the editable range from the document. |
+| [setEditorGroup(int value)](#setEditorGroup-int) | Sets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. |
+| [setSingleUser(String value)](#setSingleUser-java.lang.String) | Sets the single user for editable range. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -54,7 +57,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -64,7 +67,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getEditableRangeEnd() {#getEditableRangeEnd--}
+### getEditableRangeEnd() {#getEditableRangeEnd}
 ```
 public EditableRangeEnd getEditableRangeEnd()
 ```
@@ -74,7 +77,7 @@ Gets the node that represents the end of the editable range.
 
 **Returns:**
 [EditableRangeEnd](../../com.aspose.words/editablerangeend) - The node that represents the end of the editable range.
-### getEditableRangeStart() {#getEditableRangeStart--}
+### getEditableRangeStart() {#getEditableRangeStart}
 ```
 public EditableRangeStart getEditableRangeStart()
 ```
@@ -84,7 +87,7 @@ Gets the node that represents the start of the editable range.
 
 **Returns:**
 [EditableRangeStart](../../com.aspose.words/editablerangestart) - The node that represents the start of the editable range.
-### getEditorGroup() {#getEditorGroup--}
+### getEditorGroup() {#getEditorGroup}
 ```
 public int getEditorGroup()
 ```
@@ -96,7 +99,7 @@ Single user and editor group cannot be set simultaneously for the specific edita
 
 **Returns:**
 int - An alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. The returned value is one of [EditorType](../../com.aspose.words/editortype) constants.
-### getId() {#getId--}
+### getId() {#getId}
 ```
 public int getId()
 ```
@@ -104,13 +107,13 @@ public int getId()
 
 Gets the editable range identifier.
 
-The region must be demarcated using the [getEditableRangeStart()](../../com.aspose.words/editablerange\#getEditableRangeStart--) and [getEditableRangeEnd()](../../com.aspose.words/editablerange\#getEditableRangeEnd--)
+The region must be demarcated using the [getEditableRangeStart()](../../com.aspose.words/editablerange\#getEditableRangeStart) and [getEditableRangeEnd()](../../com.aspose.words/editablerange\#getEditableRangeEnd)
 
 Editable range identifiers are supposed to be unique across a document and Aspose.Words automatically maintains editable range identifiers when loading, saving and combining documents.
 
 **Returns:**
 int - The editable range identifier.
-### getSingleUser() {#getSingleUser--}
+### getSingleUser() {#getSingleUser}
 ```
 public String getSingleUser()
 ```
@@ -130,7 +133,7 @@ Single user and editor group cannot be set simultaneously for the specific edita
 
 **Returns:**
 java.lang.String - The single user for editable range.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -140,7 +143,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -148,7 +151,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -156,7 +159,7 @@ public final native void notifyAll()
 
 
 
-### remove() {#remove--}
+### remove() {#remove}
 ```
 public void remove()
 ```
@@ -164,7 +167,7 @@ public void remove()
 
 Removes the editable range from the document. Does not remove content inside the editable range.
 
-### setEditorGroup(int value) {#setEditorGroup-int-}
+### setEditorGroup(int value) {#setEditorGroup-int}
 ```
 public void setEditorGroup(int value)
 ```
@@ -179,7 +182,7 @@ Single user and editor group cannot be set simultaneously for the specific edita
 | --- | --- | --- |
 | value | int | An alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. The value must be one of [EditorType](../../com.aspose.words/editortype) constants. |
 
-### setSingleUser(String value) {#setSingleUser-java.lang.String-}
+### setSingleUser(String value) {#setSingleUser-java.lang.String}
 ```
 public void setSingleUser(String value)
 ```
@@ -202,7 +205,7 @@ Single user and editor group cannot be set simultaneously for the specific edita
 | --- | --- | --- |
 | value | java.lang.String | The single user for editable range. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -212,7 +215,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -220,7 +223,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -233,7 +236,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

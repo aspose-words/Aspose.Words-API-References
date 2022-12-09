@@ -3,7 +3,7 @@ title: NodeList
 second_title: Aspose.Words for Java API Reference
 description: Represents a collection of nodes matching an XPath query executed using the  method.
 type: docs
-weight: 406
+weight: 409
 url: /java/com.aspose.words/nodelist/
 ---
 
@@ -16,33 +16,36 @@ java.lang.Iterable
 public class NodeList implements Iterable
 ```
 
-Represents a collection of nodes matching an XPath query executed using the [CompositeNode.selectNodes(java.lang.String)](../../com.aspose.words/compositenode\#selectNodes-java.lang.String-) method.
+Represents a collection of nodes matching an XPath query executed using the [CompositeNode.selectNodes(java.lang.String)](../../com.aspose.words/compositenode\#selectNodes-java.lang.String) method.
 
-To learn more, visit the **Aspose.Words Document Object Model (DOM)** documentation article.
+To learn more, visit the [ Aspose.Words Document Object Model (DOM) ][Aspose.Words Document Object Model _DOM_] documentation article.
 
-**NodeList** is returned by [CompositeNode.selectNodes(java.lang.String)](../../com.aspose.words/compositenode\#selectNodes-java.lang.String-) and contains a collection of nodes matching the XPath query.
+[NodeList](../../com.aspose.words/nodelist) is returned by [CompositeNode.selectNodes(java.lang.String)](../../com.aspose.words/compositenode\#selectNodes-java.lang.String) and contains a collection of nodes matching the XPath query.
 
-**NodeList** supports indexed access and iteration.
+[NodeList](../../com.aspose.words/nodelist) supports indexed access and iteration.
 
-Treat the **NodeList** collection as a "snapshot" collection. **NodeList** starts as a "live" collection because the nodes are not actually retrieved when the XPath query is run. The nodes are only retrieved upon access and at this time the node and all nodes that precede it are cached forming a "snapshot" collection.
+Treat the [NodeList](../../com.aspose.words/nodelist) collection as a "snapshot" collection. [NodeList](../../com.aspose.words/nodelist) starts as a "live" collection because the nodes are not actually retrieved when the XPath query is run. The nodes are only retrieved upon access and at this time the node and all nodes that precede it are cached forming a "snapshot" collection.
+
+
+[Aspose.Words Document Object Model _DOM_]: https://docs.aspose.com/words/java/aspose-words-document-object-model/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Retrieves a node at the given index. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets the number of nodes in the list. |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Provides a simple "foreach" style iteration over the collection of nodes. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toArray()](#toArray--) | Copies all nodes from the collection to a new array of nodes. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [get(int index)](#get-int) | Retrieves a node at the given index. |
+| [getClass()](#getClass) |  |
+| [getCount()](#getCount) | Gets the number of nodes in the list. |
+| [hashCode()](#hashCode) |  |
+| [iterator()](#iterator) | Provides a simple "foreach" style iteration over the collection of nodes. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toArray()](#toArray) | Copies all nodes from the collection to a new array of nodes. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -57,7 +60,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### get(int index) {#get-int-}
+### get(int index) {#get-int}
 ```
 public Node get(int index)
 ```
@@ -80,7 +83,7 @@ If index is negative and its absolute value is greater than the number of items 
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The corresponding [Node](../../com.aspose.words/node) value.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -90,7 +93,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCount() {#getCount--}
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -100,7 +103,7 @@ Gets the number of nodes in the list.
 
 **Returns:**
 int - The number of nodes in the list.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -110,7 +113,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### iterator() {#iterator--}
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -120,7 +123,7 @@ Provides a simple "foreach" style iteration over the collection of nodes.
 
 **Returns:**
 java.util.Iterator - An Iterator.
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -128,7 +131,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -136,7 +139,7 @@ public final native void notifyAll()
 
 
 
-### toArray() {#toArray--}
+### toArray() {#toArray}
 ```
 public Node[] toArray()
 ```
@@ -150,7 +153,7 @@ To be able to add/remove nodes during iteration, use this method to copy nodes i
 
 **Returns:**
 com.aspose.words.Node[] - An array of nodes.
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -160,7 +163,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -168,7 +171,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -181,7 +184,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

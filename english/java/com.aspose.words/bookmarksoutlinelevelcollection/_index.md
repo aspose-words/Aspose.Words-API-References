@@ -18,37 +18,40 @@ public class BookmarksOutlineLevelCollection implements Iterable
 
 A collection of individual bookmarks outline level.
 
-To learn more, visit the **Working with Bookmarks** documentation article.
+To learn more, visit the [ Working with Bookmarks ][Working with Bookmarks] documentation article.
 
 Key is a case-insensitive string bookmark name. Value is a int bookmark outline level.
 
 Bookmark outline level may be a value from 0 to 9. Specify 0 and Word bookmark will not be displayed in the document outline. Specify 1 and Word bookmark will be displayed in the document outline at level 1; 2 for level 2 and so on.
+
+
+[Working with Bookmarks]: https://docs.aspose.com/words/java/working-with-bookmarks/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [add(String name, int outlineLevel)](#add-java.lang.String-int-) | Adds a bookmark to the collection. |
-| [clear()](#clear--) | Removes all elements from the collection. |
-| [contains(String name)](#contains-java.lang.String-) | Determines whether the collection contains a bookmark with the given name. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Gets a bookmark outline level at the specified index. |
-| [get(String name)](#get-java.lang.String-) | Provides access to the collection items. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
-| [hashCode()](#hashCode--) |  |
-| [indexOfKey(String name)](#indexOfKey-java.lang.String-) | Returns the zero-based index of the specified bookmark in the collection. |
-| [iterator()](#iterator--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove(String name)](#remove-java.lang.String-) | Removes a bookmark with the specified name from the collection. |
-| [removeAt(int index)](#removeAt-int-) | Removes a bookmark at the specified index. |
-| [set(int index, int value)](#set-int-int-) | Sets a bookmark outline level at the specified index. |
-| [set(String name, int value)](#set-java.lang.String-int-) | Provides access to the collection items. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(String name, int outlineLevel) {#add-java.lang.String-int-}
+| [add(String name, int outlineLevel)](#add-java.lang.String-int) | Adds a bookmark to the collection. |
+| [clear()](#clear) | Removes all elements from the collection. |
+| [contains(String name)](#contains-java.lang.String) | Determines whether the collection contains a bookmark with the given name. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [get(int index)](#get-int) | Gets a bookmark outline level at the specified index. |
+| [get(String name)](#get-java.lang.String) | Provides access to the collection items. |
+| [getClass()](#getClass) |  |
+| [getCount()](#getCount) | Gets the number of elements contained in the collection. |
+| [hashCode()](#hashCode) |  |
+| [indexOfKey(String name)](#indexOfKey-java.lang.String) | Returns the zero-based index of the specified bookmark in the collection. |
+| [iterator()](#iterator) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [remove(String name)](#remove-java.lang.String) | Removes a bookmark with the specified name from the collection. |
+| [removeAt(int index)](#removeAt-int) | Removes a bookmark at the specified index. |
+| [set(int index, int value)](#set-int-int) | Sets a bookmark outline level at the specified index. |
+| [set(String name, int value)](#set-java.lang.String-int) | Provides access to the collection items. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### add(String name, int outlineLevel) {#add-java.lang.String-int}
 ```
 public void add(String name, int outlineLevel)
 ```
@@ -62,7 +65,7 @@ Adds a bookmark to the collection.
 | name | java.lang.String | The case-insensitive name of the bookmark to add. |
 | outlineLevel | int | The outline level of the bookmark. Valid range is 0 to 9. |
 
-### clear() {#clear--}
+### clear() {#clear}
 ```
 public void clear()
 ```
@@ -70,7 +73,7 @@ public void clear()
 
 Removes all elements from the collection.
 
-### contains(String name) {#contains-java.lang.String-}
+### contains(String name) {#contains-java.lang.String}
 ```
 public boolean contains(String name)
 ```
@@ -84,8 +87,8 @@ Determines whether the collection contains a bookmark with the given name.
 | name | java.lang.String | Case-insensitive name of the bookmark to locate. |
 
 **Returns:**
-boolean - True if item is found in the collection; otherwise, false.
-### equals(Object arg0) {#equals-java.lang.Object-}
+boolean - \{ true  if item is found in the collection; otherwise,  false .
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -100,7 +103,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### get(int index) {#get-int-}
+### get(int index) {#get-int}
 ```
 public int get(int index)
 ```
@@ -115,7 +118,7 @@ Gets a bookmark outline level at the specified index.
 
 **Returns:**
 int - The outline level of the bookmark. Valid range is 0 to 9.
-### get(String name) {#get-java.lang.String-}
+### get(String name) {#get-java.lang.String}
 ```
 public int get(String name)
 ```
@@ -130,7 +133,7 @@ Provides access to the collection items.  Gets or a sets a bookmark outline leve
 
 **Returns:**
 int - The outline level of the bookmark. Valid range is 0 to 9.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -140,7 +143,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCount() {#getCount--}
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -150,7 +153,7 @@ Gets the number of elements contained in the collection.
 
 **Returns:**
 int - The number of elements contained in the collection.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -160,7 +163,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### indexOfKey(String name) {#indexOfKey-java.lang.String-}
+### indexOfKey(String name) {#indexOfKey-java.lang.String}
 ```
 public int indexOfKey(String name)
 ```
@@ -175,7 +178,7 @@ Returns the zero-based index of the specified bookmark in the collection.
 
 **Returns:**
 int - The zero based index. Negative value if not found.
-### iterator() {#iterator--}
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -185,7 +188,7 @@ public Iterator iterator()
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -193,7 +196,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -201,7 +204,7 @@ public final native void notifyAll()
 
 
 
-### remove(String name) {#remove-java.lang.String-}
+### remove(String name) {#remove-java.lang.String}
 ```
 public void remove(String name)
 ```
@@ -214,7 +217,7 @@ Removes a bookmark with the specified name from the collection.
 | --- | --- | --- |
 | name | java.lang.String | The case-insensitive name of the bookmark. |
 
-### removeAt(int index) {#removeAt-int-}
+### removeAt(int index) {#removeAt-int}
 ```
 public void removeAt(int index)
 ```
@@ -227,7 +230,7 @@ Removes a bookmark at the specified index.
 | --- | --- | --- |
 | index | int | The zero based index. |
 
-### set(int index, int value) {#set-int-int-}
+### set(int index, int value) {#set-int-int}
 ```
 public void set(int index, int value)
 ```
@@ -241,7 +244,7 @@ Sets a bookmark outline level at the specified index.
 | index | int | Zero-based index of the bookmark. |
 | value | int | The outline level of the bookmark. Valid range is 0 to 9. |
 
-### set(String name, int value) {#set-java.lang.String-int-}
+### set(String name, int value) {#set-java.lang.String-int}
 ```
 public void set(String name, int value)
 ```
@@ -255,7 +258,7 @@ Provides access to the collection items.  Gets or a sets a bookmark outline leve
 | name | java.lang.String | Case-insensitive name of the bookmark. |
 | value | int | The outline level of the bookmark. Valid range is 0 to 9. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -265,7 +268,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -273,7 +276,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -286,7 +289,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

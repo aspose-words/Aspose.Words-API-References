@@ -3,7 +3,7 @@ title: CommentRangeStart
 second_title: Aspose.Words for Java API Reference
 description: Denotes the start of a region of text that has a comment associated with it.
 type: docs
-weight: 80
+weight: 81
 url: /java/com.aspose.words/commentrangestart/
 ---
 
@@ -15,59 +15,62 @@ public class CommentRangeStart extends Node
 
 Denotes the start of a region of text that has a comment associated with it.
 
-To learn more, visit the **Working with Comments** documentation article.
+To learn more, visit the [ Working with Comments ][Working with Comments] documentation article.
 
-To create a comment anchored to a region of text, you need to create a [Comment](../../com.aspose.words/comment) and then create [CommentRangeStart](../../com.aspose.words/commentrangestart) and [CommentRangeEnd](../../com.aspose.words/commentrangeend) and set their identifiers to the same [Comment.getId()](../../com.aspose.words/comment\#getId--) value.
+To create a comment anchored to a region of text, you need to create a [Comment](../../com.aspose.words/comment) and then create [CommentRangeStart](../../com.aspose.words/commentrangestart) and [CommentRangeEnd](../../com.aspose.words/commentrangeend) and set their identifiers to the same [Comment.getId()](../../com.aspose.words/comment\#getId) value.
 
 [CommentRangeStart](../../com.aspose.words/commentrangestart) is an inline-level node and can only be a child of [Paragraph](../../com.aspose.words/paragraph).
+
+
+[Working with Comments]: https://docs.aspose.com/words/java/working-with-comments/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [CommentRangeStart(DocumentBase doc, int id)](#CommentRangeStart-com.aspose.words.DocumentBase-int-) | Initializes a new instance of this class. |
+| [CommentRangeStart(DocumentBase doc, int id)](#CommentRangeStart-com.aspose.words.DocumentBase-int) | Initializes a new instance of this class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | Accepts a visitor. |
-| [dd()](#dd--) |  |
-| [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | Creates a duplicate of the node. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAncestor(int ancestorType)](#getAncestor-int-) |  |
-| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class-) | Gets the first ancestor of the specified object type. |
-| [getClass()](#getClass--) |  |
-| [getCustomNodeId()](#getCustomNodeId--) | Specifies custom node identifier. |
-| [getDisplacedByCustomXml()](#getDisplacedByCustomXml--) |  |
-| [getDocument()](#getDocument--) | Gets the document to which this node belongs. |
-| [getId()](#getId--) | Specifies the identifier of the comment to which this region is linked. |
-| [getIdInternal()](#getIdInternal--) |  |
-| [getNextSibling()](#getNextSibling--) | Gets the node immediately following this node. |
-| [getNodeType()](#getNodeType--) | Returns [NodeType.COMMENT\_RANGE\_START](../../com.aspose.words/nodetype\#COMMENT-RANGE-START). |
-| [getParentIdInternal()](#getParentIdInternal--) |  |
-| [getParentNode()](#getParentNode--) | Gets the immediate parent of this node. |
-| [getPreviousSibling()](#getPreviousSibling--) | Gets the node immediately preceding this node. |
-| [getRange()](#getRange--) | Returns a **Range** object that represents the portion of a document that is contained in this node. |
-| [getText()](#getText--) | Gets the text of this node and of all its children. |
-| [hashCode()](#hashCode--) |  |
-| [isComposite()](#isComposite--) | Returns true if this node can contain other nodes. |
-| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | Gets next node according to the pre-order tree traversal algorithm. |
-| [nodeTypeToString(int nodeType)](#nodeTypeToString-int-) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | Gets the previous node according to the pre-order tree traversal algorithm. |
-| [remove()](#remove--) | Removes itself from the parent. |
-| [setCustomNodeId(int value)](#setCustomNodeId-int-) | Specifies custom node identifier. |
-| [setDisplacedByCustomXml(int value)](#setDisplacedByCustomXml-int-) |  |
-| [setId(int value)](#setId-int-) | Specifies the identifier of the comment to which this region is linked. |
-| [setIdInternal(int value)](#setIdInternal-int-) |  |
-| [setParentIdInternal(int value)](#setParentIdInternal-int-) |  |
-| [toString()](#toString--) |  |
-| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions-) | Exports the content of the node into a string using the specified save options. |
-| [toString(int saveFormat)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### CommentRangeStart(DocumentBase doc, int id) {#CommentRangeStart-com.aspose.words.DocumentBase-int-}
+| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor) | Accepts a visitor. |
+| [dd()](#dd) |  |
+| [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getAncestor(int ancestorType)](#getAncestor-int) |  |
+| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
+| [getClass()](#getClass) |  |
+| [getCustomNodeId()](#getCustomNodeId) | Specifies custom node identifier. |
+| [getDisplacedByCustomXml()](#getDisplacedByCustomXml) |  |
+| [getDocument()](#getDocument) | Gets the document to which this node belongs. |
+| [getId()](#getId) | Specifies the identifier of the comment to which this region is linked. |
+| [getIdInternal()](#getIdInternal) |  |
+| [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
+| [getNodeType()](#getNodeType) | Returns [NodeType.COMMENT\_RANGE\_START](../../com.aspose.words/nodetype\#COMMENT-RANGE-START). |
+| [getParentIdInternal()](#getParentIdInternal) |  |
+| [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
+| [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
+| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node. |
+| [getText()](#getText) | Gets the text of this node and of all its children. |
+| [hashCode()](#hashCode) |  |
+| [isComposite()](#isComposite) | Returns  true  if this node can contain other nodes. |
+| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node) | Gets next node according to the pre-order tree traversal algorithm. |
+| [nodeTypeToString(int nodeType)](#nodeTypeToString-int) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [remove()](#remove) | Removes itself from the parent. |
+| [setCustomNodeId(int value)](#setCustomNodeId-int) | Specifies custom node identifier. |
+| [setDisplacedByCustomXml(int value)](#setDisplacedByCustomXml-int) |  |
+| [setId(int value)](#setId-int) | Specifies the identifier of the comment to which this region is linked. |
+| [setIdInternal(int value)](#setIdInternal-int) |  |
+| [setParentIdInternal(int value)](#setParentIdInternal-int) |  |
+| [toString()](#toString) |  |
+| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions) | Exports the content of the node into a string using the specified save options. |
+| [toString(int saveFormat)](#toString-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### CommentRangeStart(DocumentBase doc, int id) {#CommentRangeStart-com.aspose.words.DocumentBase-int}
 ```
 public CommentRangeStart(DocumentBase doc, int id)
 ```
@@ -75,7 +78,7 @@ public CommentRangeStart(DocumentBase doc, int id)
 
 Initializes a new instance of this class.
 
-When [CommentRangeStart](../../com.aspose.words/commentrangestart) is created, it belongs to the specified document, but is not yet part of the document and [Node.getParentNode()](../../com.aspose.words/node\#getParentNode--) is null.
+When [CommentRangeStart](../../com.aspose.words/commentrangestart) is created, it belongs to the specified document, but is not yet part of the document and [Node.getParentNode()](../../com.aspose.words/node\#getParentNode) is  null .
 
 To append a [CommentRangeStart](../../com.aspose.words/commentrangestart) to the document use InsertAfter or InsertBefore on the paragraph where you want the comment inserted.
 
@@ -85,7 +88,7 @@ To append a [CommentRangeStart](../../com.aspose.words/commentrangestart) to the
 | doc | [DocumentBase](../../com.aspose.words/documentbase) | The owner document. |
 | id | int | The comment identifier to which this object is linked. |
 
-### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor-}
+### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor}
 ```
 public boolean accept(DocumentVisitor visitor)
 ```
@@ -93,7 +96,7 @@ public boolean accept(DocumentVisitor visitor)
 
 Accepts a visitor.
 
-Calls [DocumentVisitor.visitCommentRangeStart(com.aspose.words.CommentRangeStart)](../../com.aspose.words/documentvisitor\#visitCommentRangeStart-com.aspose.words.CommentRangeStart-).
+Calls [DocumentVisitor.visitCommentRangeStart(com.aspose.words.CommentRangeStart)](../../com.aspose.words/documentvisitor\#visitCommentRangeStart-com.aspose.words.CommentRangeStart).
 
 For more info see the Visitor design pattern.
 
@@ -103,8 +106,8 @@ For more info see the Visitor design pattern.
 | visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | The visitor that will visit the node. |
 
 **Returns:**
-boolean - False if the visitor requested the enumeration to stop.
-### dd() {#dd--}
+boolean - \{ false  if the visitor requested the enumeration to stop.
+### dd() {#dd}
 ```
 public void dd()
 ```
@@ -112,7 +115,7 @@ public void dd()
 
 
 
-### deepClone(boolean isCloneChildren) {#deepClone-boolean-}
+### deepClone(boolean isCloneChildren) {#deepClone-boolean}
 ```
 public Node deepClone(boolean isCloneChildren)
 ```
@@ -122,7 +125,7 @@ Creates a duplicate of the node.
 
 This method serves as a copy constructor for nodes. The cloned node has no parent, but belongs to the same document as the original node.
 
-This method always performs a deep copy of the node. The *isCloneChildren* parameter specifies whether to perform copy all child nodes as well.
+This method always performs a deep copy of the node. The  isCloneChildren  parameter specifies whether to perform copy all child nodes as well.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -131,7 +134,7 @@ This method always performs a deep copy of the node. The *isCloneChildren* param
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The cloned node.
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -146,7 +149,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getAncestor(int ancestorType) {#getAncestor-int-}
+### getAncestor(int ancestorType) {#getAncestor-int}
 ```
 public CompositeNode getAncestor(int ancestorType)
 ```
@@ -161,7 +164,7 @@ public CompositeNode getAncestor(int ancestorType)
 
 **Returns:**
 [CompositeNode](../../com.aspose.words/compositenode)
-### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
+### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class}
 ```
 public CompositeNode getAncestor(Class ancestorType)
 ```
@@ -175,10 +178,10 @@ Gets the first ancestor of the specified object type.
 | ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or null if no ancestor of this type was found.
+[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 
-The ancestor type matches if it is equal to ancestorType or derived from ancestorType.
-### getClass() {#getClass--}
+The ancestor type matches if it is equal to  ancestorType  or derived from  ancestorType .
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -188,7 +191,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCustomNodeId() {#getCustomNodeId--}
+### getCustomNodeId() {#getCustomNodeId}
 ```
 public int getCustomNodeId()
 ```
@@ -204,7 +207,7 @@ Important note, specified value is not saved to an output file and exists only d
 
 **Returns:**
 int - The corresponding  int  value.
-### getDisplacedByCustomXml() {#getDisplacedByCustomXml--}
+### getDisplacedByCustomXml() {#getDisplacedByCustomXml}
 ```
 public int getDisplacedByCustomXml()
 ```
@@ -214,7 +217,7 @@ public int getDisplacedByCustomXml()
 
 **Returns:**
 int
-### getDocument() {#getDocument--}
+### getDocument() {#getDocument}
 ```
 public DocumentBase getDocument()
 ```
@@ -226,7 +229,7 @@ The node always belongs to a document even if it has just been created and not y
 
 **Returns:**
 [DocumentBase](../../com.aspose.words/documentbase) - The document to which this node belongs.
-### getId() {#getId--}
+### getId() {#getId}
 ```
 public int getId()
 ```
@@ -236,7 +239,7 @@ Specifies the identifier of the comment to which this region is linked.
 
 **Returns:**
 int - The corresponding  int  value.
-### getIdInternal() {#getIdInternal--}
+### getIdInternal() {#getIdInternal}
 ```
 public int getIdInternal()
 ```
@@ -246,17 +249,17 @@ public int getIdInternal()
 
 **Returns:**
 int
-### getNextSibling() {#getNextSibling--}
+### getNextSibling() {#getNextSibling}
 ```
 public Node getNextSibling()
 ```
 
 
-Gets the node immediately following this node. If there is no next node, a null is returned.
+Gets the node immediately following this node. If there is no next node, a  null  is returned.
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The node immediately following this node.
-### getNodeType() {#getNodeType--}
+### getNodeType() {#getNodeType}
 ```
 public int getNodeType()
 ```
@@ -266,7 +269,7 @@ Returns [NodeType.COMMENT\_RANGE\_START](../../com.aspose.words/nodetype\#COMMEN
 
 **Returns:**
 int - \{[NodeType.COMMENT\_RANGE\_START](../../com.aspose.words/nodetype\#COMMENT-RANGE-START). The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
-### getParentIdInternal() {#getParentIdInternal--}
+### getParentIdInternal() {#getParentIdInternal}
 ```
 public int getParentIdInternal()
 ```
@@ -276,7 +279,7 @@ public int getParentIdInternal()
 
 **Returns:**
 int
-### getParentNode() {#getParentNode--}
+### getParentNode() {#getParentNode}
 ```
 public CompositeNode getParentNode()
 ```
@@ -284,31 +287,31 @@ public CompositeNode getParentNode()
 
 Gets the immediate parent of this node.
 
-If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is null.
+If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is  null .
 
 **Returns:**
 [CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
-### getPreviousSibling() {#getPreviousSibling--}
+### getPreviousSibling() {#getPreviousSibling}
 ```
 public Node getPreviousSibling()
 ```
 
 
-Gets the node immediately preceding this node. If there is no preceding node, a null is returned.
+Gets the node immediately preceding this node. If there is no preceding node, a  null  is returned.
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The node immediately preceding this node.
-### getRange() {#getRange--}
+### getRange() {#getRange}
 ```
 public Range getRange()
 ```
 
 
-Returns a **Range** object that represents the portion of a document that is contained in this node.
+Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
 
 **Returns:**
-[Range](../../com.aspose.words/range) - A **Range** object that represents the portion of a document that is contained in this node.
-### getText() {#getText--}
+[Range](../../com.aspose.words/range) - A [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+### getText() {#getText}
 ```
 public String getText()
 ```
@@ -320,7 +323,7 @@ The returned string includes all control and special characters as described in 
 
 **Returns:**
 java.lang.String
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -330,17 +333,17 @@ public native int hashCode()
 
 **Returns:**
 int
-### isComposite() {#isComposite--}
+### isComposite() {#isComposite}
 ```
 public boolean isComposite()
 ```
 
 
-Returns true if this node can contain other nodes. (31110,6)
+Returns  true  if this node can contain other nodes. (31231,6)
 
 **Returns:**
-boolean - True if this node can contain other nodes.
-### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node-}
+boolean - \{ true  if this node can contain other nodes.
+### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node}
 ```
 public Node nextPreOrder(Node rootNode)
 ```
@@ -354,8 +357,8 @@ Gets next node according to the pre-order tree traversal algorithm.
 | rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the rootNode.
-### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
+[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the  rootNode .
+### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
 ```
@@ -370,7 +373,7 @@ public static String nodeTypeToString(int nodeType)
 
 **Returns:**
 java.lang.String
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -378,7 +381,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -386,7 +389,7 @@ public final native void notifyAll()
 
 
 
-### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node-}
+### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node}
 ```
 public Node previousPreOrder(Node rootNode)
 ```
@@ -400,8 +403,8 @@ Gets the previous node according to the pre-order tree traversal algorithm.
 | rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the rootNode.
-### remove() {#remove--}
+[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the  rootNode .
+### remove() {#remove}
 ```
 public void remove()
 ```
@@ -409,7 +412,7 @@ public void remove()
 
 Removes itself from the parent.
 
-### setCustomNodeId(int value) {#setCustomNodeId-int-}
+### setCustomNodeId(int value) {#setCustomNodeId-int}
 ```
 public void setCustomNodeId(int value)
 ```
@@ -428,7 +431,7 @@ Important note, specified value is not saved to an output file and exists only d
 | --- | --- | --- |
 | value | int | The corresponding  int  value. |
 
-### setDisplacedByCustomXml(int value) {#setDisplacedByCustomXml-int-}
+### setDisplacedByCustomXml(int value) {#setDisplacedByCustomXml-int}
 ```
 public void setDisplacedByCustomXml(int value)
 ```
@@ -441,7 +444,7 @@ public void setDisplacedByCustomXml(int value)
 | --- | --- | --- |
 | value | int |  |
 
-### setId(int value) {#setId-int-}
+### setId(int value) {#setId-int}
 ```
 public void setId(int value)
 ```
@@ -454,7 +457,7 @@ Specifies the identifier of the comment to which this region is linked.
 | --- | --- | --- |
 | value | int | The corresponding  int  value. |
 
-### setIdInternal(int value) {#setIdInternal-int-}
+### setIdInternal(int value) {#setIdInternal-int}
 ```
 public void setIdInternal(int value)
 ```
@@ -467,7 +470,7 @@ public void setIdInternal(int value)
 | --- | --- | --- |
 | value | int |  |
 
-### setParentIdInternal(int value) {#setParentIdInternal-int-}
+### setParentIdInternal(int value) {#setParentIdInternal-int}
 ```
 public void setParentIdInternal(int value)
 ```
@@ -480,7 +483,7 @@ public void setParentIdInternal(int value)
 | --- | --- | --- |
 | value | int |  |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -490,7 +493,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(SaveOptions saveOptions) {#toString-com.aspose.words.SaveOptions-}
+### toString(SaveOptions saveOptions) {#toString-com.aspose.words.SaveOptions}
 ```
 public String toString(SaveOptions saveOptions)
 ```
@@ -505,7 +508,7 @@ Exports the content of the node into a string using the specified save options.
 
 **Returns:**
 java.lang.String - The content of the node in the specified format.
-### toString(int saveFormat) {#toString-int-}
+### toString(int saveFormat) {#toString-int}
 ```
 public String toString(int saveFormat)
 ```
@@ -520,7 +523,7 @@ public String toString(int saveFormat)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -528,7 +531,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -541,7 +544,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

@@ -18,29 +18,32 @@ public class BookmarkCollection implements Iterable
 
 A collection of [Bookmark](../../com.aspose.words/bookmark) objects that represent the bookmarks in the specified range.
 
-To learn more, visit the **Working with Bookmarks** documentation article.
+To learn more, visit the [ Working with Bookmarks ][Working with Bookmarks] documentation article.
+
+
+[Working with Bookmarks]: https://docs.aspose.com/words/java/working-with-bookmarks/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [clear()](#clear--) | Removes all bookmarks from this collection and from the document. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Returns a bookmark at the specified index. |
-| [get(String bookmarkName)](#get-java.lang.String-) | Returns a bookmark by name. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Returns the number of bookmarks in the collection. |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Returns an enumerator object. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove(Bookmark bookmark)](#remove-com.aspose.words.Bookmark-) | Removes the specified bookmark from the document. |
-| [remove(String bookmarkName)](#remove-java.lang.String-) | Removes a bookmark with the specified name. |
-| [removeAt(int index)](#removeAt-int-) | Removes a bookmark at the specified index. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### clear() {#clear--}
+| [clear()](#clear) | Removes all bookmarks from this collection and from the document. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [get(int index)](#get-int) | Returns a bookmark at the specified index. |
+| [get(String bookmarkName)](#get-java.lang.String) | Returns a bookmark by name. |
+| [getClass()](#getClass) |  |
+| [getCount()](#getCount) | Returns the number of bookmarks in the collection. |
+| [hashCode()](#hashCode) |  |
+| [iterator()](#iterator) | Returns an enumerator object. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [remove(Bookmark bookmark)](#remove-com.aspose.words.Bookmark) | Removes the specified bookmark from the document. |
+| [remove(String bookmarkName)](#remove-java.lang.String) | Removes a bookmark with the specified name. |
+| [removeAt(int index)](#removeAt-int) | Removes a bookmark at the specified index. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### clear() {#clear}
 ```
 public void clear()
 ```
@@ -48,7 +51,7 @@ public void clear()
 
 Removes all bookmarks from this collection and from the document.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -63,7 +66,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### get(int index) {#get-int-}
+### get(int index) {#get-int}
 ```
 public Bookmark get(int index)
 ```
@@ -86,7 +89,7 @@ If index is negative and its absolute value is greater than the number of items 
 
 **Returns:**
 [Bookmark](../../com.aspose.words/bookmark) - A bookmark at the specified index.
-### get(String bookmarkName) {#get-java.lang.String-}
+### get(String bookmarkName) {#get-java.lang.String}
 ```
 public Bookmark get(String bookmarkName)
 ```
@@ -94,7 +97,7 @@ public Bookmark get(String bookmarkName)
 
 Returns a bookmark by name.
 
-Returns null if the bookmark with the specified name cannot be found.
+Returns  null  if the bookmark with the specified name cannot be found.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -103,7 +106,7 @@ Returns null if the bookmark with the specified name cannot be found.
 
 **Returns:**
 [Bookmark](../../com.aspose.words/bookmark) - A bookmark by name.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -113,7 +116,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCount() {#getCount--}
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -123,7 +126,7 @@ Returns the number of bookmarks in the collection.
 
 **Returns:**
 int - The number of bookmarks in the collection.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -133,7 +136,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### iterator() {#iterator--}
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -143,7 +146,7 @@ Returns an enumerator object.
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -151,7 +154,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -159,7 +162,7 @@ public final native void notifyAll()
 
 
 
-### remove(Bookmark bookmark) {#remove-com.aspose.words.Bookmark-}
+### remove(Bookmark bookmark) {#remove-com.aspose.words.Bookmark}
 ```
 public void remove(Bookmark bookmark)
 ```
@@ -172,7 +175,7 @@ Removes the specified bookmark from the document.
 | --- | --- | --- |
 | bookmark | [Bookmark](../../com.aspose.words/bookmark) | The bookmark to remove. |
 
-### remove(String bookmarkName) {#remove-java.lang.String-}
+### remove(String bookmarkName) {#remove-java.lang.String}
 ```
 public void remove(String bookmarkName)
 ```
@@ -185,7 +188,7 @@ Removes a bookmark with the specified name.
 | --- | --- | --- |
 | bookmarkName | java.lang.String | The case-insensitive name of the bookmark to remove. |
 
-### removeAt(int index) {#removeAt-int-}
+### removeAt(int index) {#removeAt-int}
 ```
 public void removeAt(int index)
 ```
@@ -198,7 +201,7 @@ Removes a bookmark at the specified index.
 | --- | --- | --- |
 | index | int | The zero-based index of the bookmark to remove. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -208,7 +211,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -216,7 +219,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -229,7 +232,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

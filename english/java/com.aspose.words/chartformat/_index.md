@@ -15,85 +15,88 @@ public class ChartFormat
 
 Represents the formatting of a chart element.
 
-To learn more, visit the **Working with Charts** documentation article.
+To learn more, visit the [ Working with Charts ][Working with Charts] documentation article.
+
+
+[Working with Charts]: https://docs.aspose.com/words/java/working-with-charts/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getDashStyle()](#getDashStyle--) |  |
-| [getEndArrowLength()](#getEndArrowLength--) |  |
-| [getEndArrowType()](#getEndArrowType--) |  |
-| [getEndArrowWidth()](#getEndArrowWidth--) |  |
-| [getEndCap()](#getEndCap--) |  |
-| [getFill()](#getFill--) | Gets fill formatting for the parent chart element. |
-| [getFillType()](#getFillType--) |  |
-| [getFillableBackColor()](#getFillableBackColor--) |  |
-| [getFillableForeColor()](#getFillableForeColor--) |  |
-| [getFillableImageBytes()](#getFillableImageBytes--) |  |
-| [getFillableTransparency()](#getFillableTransparency--) |  |
-| [getFillableVisible()](#getFillableVisible--) |  |
-| [getFilledColor()](#getFilledColor--) |  |
-| [getGradientAngle()](#getGradientAngle--) |  |
-| [getGradientStops()](#getGradientStops--) |  |
-| [getGradientStyle()](#getGradientStyle--) |  |
-| [getGradientVariant()](#getGradientVariant--) |  |
-| [getJoinStyle()](#getJoinStyle--) |  |
-| [getLineFillType()](#getLineFillType--) |  |
-| [getLineStyle()](#getLineStyle--) |  |
-| [getOn()](#getOn--) |  |
-| [getOpacity()](#getOpacity--) |  |
-| [getPatternType()](#getPatternType--) |  |
-| [getPresetTexture()](#getPresetTexture--) |  |
-| [getRotateWithObject()](#getRotateWithObject--) |  |
-| [getStartArrowLength()](#getStartArrowLength--) |  |
-| [getStartArrowType()](#getStartArrowType--) |  |
-| [getStartArrowWidth()](#getStartArrowWidth--) |  |
-| [getStroke()](#getStroke--) | Gets line formatting for the parent chart element. |
-| [getStrokeImageBytes()](#getStrokeImageBytes--) |  |
-| [getStrokeTransparency()](#getStrokeTransparency--) |  |
-| [getStrokeVisible()](#getStrokeVisible--) |  |
-| [getTextureAlignment()](#getTextureAlignment--) |  |
-| [getWeight()](#getWeight--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [oneColorGradient(int style, int variant, double degree)](#oneColorGradient-int-int-double-) |  |
-| [patterned(int patternType)](#patterned-int-) |  |
-| [presetTextured(int presetTexture)](#presetTextured-int-) |  |
-| [setDashStyle(int value)](#setDashStyle-int-) |  |
-| [setEndArrowLength(int value)](#setEndArrowLength-int-) |  |
-| [setEndArrowType(int value)](#setEndArrowType-int-) |  |
-| [setEndArrowWidth(int value)](#setEndArrowWidth-int-) |  |
-| [setEndCap(int value)](#setEndCap-int-) |  |
-| [setFillableBackColor(Color value)](#setFillableBackColor-java.awt.Color-) |  |
-| [setFillableForeColor(Color value)](#setFillableForeColor-java.awt.Color-) |  |
-| [setFillableTransparency(double value)](#setFillableTransparency-double-) |  |
-| [setFillableVisible(boolean value)](#setFillableVisible-boolean-) |  |
-| [setFilledColor(Color value)](#setFilledColor-java.awt.Color-) |  |
-| [setGradientAngle(double value)](#setGradientAngle-double-) |  |
-| [setImage(byte[] imageBytes)](#setImage-byte---) |  |
-| [setJoinStyle(int value)](#setJoinStyle-int-) |  |
-| [setLineFillType(int value)](#setLineFillType-int-) |  |
-| [setLineStyle(int value)](#setLineStyle-int-) |  |
-| [setOn(boolean value)](#setOn-boolean-) |  |
-| [setOpacity(double value)](#setOpacity-double-) |  |
-| [setRotateWithObject(boolean value)](#setRotateWithObject-boolean-) |  |
-| [setStartArrowLength(int value)](#setStartArrowLength-int-) |  |
-| [setStartArrowType(int value)](#setStartArrowType-int-) |  |
-| [setStartArrowWidth(int value)](#setStartArrowWidth-int-) |  |
-| [setStrokeTransparency(double value)](#setStrokeTransparency-double-) |  |
-| [setStrokeVisible(boolean value)](#setStrokeVisible-boolean-) |  |
-| [setTextureAlignment(int value)](#setTextureAlignment-int-) |  |
-| [setWeight(double value)](#setWeight-double-) |  |
-| [solid()](#solid--) |  |
-| [toString()](#toString--) |  |
-| [twoColorGradient(int style, int variant)](#twoColorGradient-int-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getDashStyle()](#getDashStyle) |  |
+| [getEndArrowLength()](#getEndArrowLength) |  |
+| [getEndArrowType()](#getEndArrowType) |  |
+| [getEndArrowWidth()](#getEndArrowWidth) |  |
+| [getEndCap()](#getEndCap) |  |
+| [getFill()](#getFill) | Gets fill formatting for the parent chart element. |
+| [getFillType()](#getFillType) |  |
+| [getFillableBackColor()](#getFillableBackColor) |  |
+| [getFillableForeColor()](#getFillableForeColor) |  |
+| [getFillableImageBytes()](#getFillableImageBytes) |  |
+| [getFillableTransparency()](#getFillableTransparency) |  |
+| [getFillableVisible()](#getFillableVisible) |  |
+| [getFilledColor()](#getFilledColor) |  |
+| [getGradientAngle()](#getGradientAngle) |  |
+| [getGradientStops()](#getGradientStops) |  |
+| [getGradientStyle()](#getGradientStyle) |  |
+| [getGradientVariant()](#getGradientVariant) |  |
+| [getJoinStyle()](#getJoinStyle) |  |
+| [getLineFillType()](#getLineFillType) |  |
+| [getLineStyle()](#getLineStyle) |  |
+| [getOn()](#getOn) |  |
+| [getOpacity()](#getOpacity) |  |
+| [getPatternType()](#getPatternType) |  |
+| [getPresetTexture()](#getPresetTexture) |  |
+| [getRotateWithObject()](#getRotateWithObject) |  |
+| [getStartArrowLength()](#getStartArrowLength) |  |
+| [getStartArrowType()](#getStartArrowType) |  |
+| [getStartArrowWidth()](#getStartArrowWidth) |  |
+| [getStroke()](#getStroke) | Gets line formatting for the parent chart element. |
+| [getStrokeImageBytes()](#getStrokeImageBytes) |  |
+| [getStrokeTransparency()](#getStrokeTransparency) |  |
+| [getStrokeVisible()](#getStrokeVisible) |  |
+| [getTextureAlignment()](#getTextureAlignment) |  |
+| [getWeight()](#getWeight) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [oneColorGradient(int style, int variant, double degree)](#oneColorGradient-int-int-double) |  |
+| [patterned(int patternType)](#patterned-int) |  |
+| [presetTextured(int presetTexture)](#presetTextured-int) |  |
+| [setDashStyle(int value)](#setDashStyle-int) |  |
+| [setEndArrowLength(int value)](#setEndArrowLength-int) |  |
+| [setEndArrowType(int value)](#setEndArrowType-int) |  |
+| [setEndArrowWidth(int value)](#setEndArrowWidth-int) |  |
+| [setEndCap(int value)](#setEndCap-int) |  |
+| [setFillableBackColor(Color value)](#setFillableBackColor-java.awt.Color) |  |
+| [setFillableForeColor(Color value)](#setFillableForeColor-java.awt.Color) |  |
+| [setFillableTransparency(double value)](#setFillableTransparency-double) |  |
+| [setFillableVisible(boolean value)](#setFillableVisible-boolean) |  |
+| [setFilledColor(Color value)](#setFilledColor-java.awt.Color) |  |
+| [setGradientAngle(double value)](#setGradientAngle-double) |  |
+| [setImage(byte[] imageBytes)](#setImage-byte) |  |
+| [setJoinStyle(int value)](#setJoinStyle-int) |  |
+| [setLineFillType(int value)](#setLineFillType-int) |  |
+| [setLineStyle(int value)](#setLineStyle-int) |  |
+| [setOn(boolean value)](#setOn-boolean) |  |
+| [setOpacity(double value)](#setOpacity-double) |  |
+| [setRotateWithObject(boolean value)](#setRotateWithObject-boolean) |  |
+| [setStartArrowLength(int value)](#setStartArrowLength-int) |  |
+| [setStartArrowType(int value)](#setStartArrowType-int) |  |
+| [setStartArrowWidth(int value)](#setStartArrowWidth-int) |  |
+| [setStrokeTransparency(double value)](#setStrokeTransparency-double) |  |
+| [setStrokeVisible(boolean value)](#setStrokeVisible-boolean) |  |
+| [setTextureAlignment(int value)](#setTextureAlignment-int) |  |
+| [setWeight(double value)](#setWeight-double) |  |
+| [solid()](#solid) |  |
+| [toString()](#toString) |  |
+| [twoColorGradient(int style, int variant)](#twoColorGradient-int-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -108,7 +111,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -118,7 +121,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDashStyle() {#getDashStyle--}
+### getDashStyle() {#getDashStyle}
 ```
 public int getDashStyle()
 ```
@@ -128,7 +131,7 @@ public int getDashStyle()
 
 **Returns:**
 int
-### getEndArrowLength() {#getEndArrowLength--}
+### getEndArrowLength() {#getEndArrowLength}
 ```
 public int getEndArrowLength()
 ```
@@ -138,7 +141,7 @@ public int getEndArrowLength()
 
 **Returns:**
 int
-### getEndArrowType() {#getEndArrowType--}
+### getEndArrowType() {#getEndArrowType}
 ```
 public int getEndArrowType()
 ```
@@ -148,7 +151,7 @@ public int getEndArrowType()
 
 **Returns:**
 int
-### getEndArrowWidth() {#getEndArrowWidth--}
+### getEndArrowWidth() {#getEndArrowWidth}
 ```
 public int getEndArrowWidth()
 ```
@@ -158,7 +161,7 @@ public int getEndArrowWidth()
 
 **Returns:**
 int
-### getEndCap() {#getEndCap--}
+### getEndCap() {#getEndCap}
 ```
 public int getEndCap()
 ```
@@ -168,7 +171,7 @@ public int getEndCap()
 
 **Returns:**
 int
-### getFill() {#getFill--}
+### getFill() {#getFill}
 ```
 public Fill getFill()
 ```
@@ -178,7 +181,7 @@ Gets fill formatting for the parent chart element.
 
 **Returns:**
 [Fill](../../com.aspose.words/fill) - Fill formatting for the parent chart element.
-### getFillType() {#getFillType--}
+### getFillType() {#getFillType}
 ```
 public int getFillType()
 ```
@@ -188,7 +191,7 @@ public int getFillType()
 
 **Returns:**
 int
-### getFillableBackColor() {#getFillableBackColor--}
+### getFillableBackColor() {#getFillableBackColor}
 ```
 public Color getFillableBackColor()
 ```
@@ -198,7 +201,7 @@ public Color getFillableBackColor()
 
 **Returns:**
 java.awt.Color
-### getFillableForeColor() {#getFillableForeColor--}
+### getFillableForeColor() {#getFillableForeColor}
 ```
 public Color getFillableForeColor()
 ```
@@ -208,7 +211,7 @@ public Color getFillableForeColor()
 
 **Returns:**
 java.awt.Color
-### getFillableImageBytes() {#getFillableImageBytes--}
+### getFillableImageBytes() {#getFillableImageBytes}
 ```
 public byte[] getFillableImageBytes()
 ```
@@ -218,7 +221,7 @@ public byte[] getFillableImageBytes()
 
 **Returns:**
 byte[]
-### getFillableTransparency() {#getFillableTransparency--}
+### getFillableTransparency() {#getFillableTransparency}
 ```
 public double getFillableTransparency()
 ```
@@ -228,7 +231,7 @@ public double getFillableTransparency()
 
 **Returns:**
 double
-### getFillableVisible() {#getFillableVisible--}
+### getFillableVisible() {#getFillableVisible}
 ```
 public boolean getFillableVisible()
 ```
@@ -238,7 +241,7 @@ public boolean getFillableVisible()
 
 **Returns:**
 boolean
-### getFilledColor() {#getFilledColor--}
+### getFilledColor() {#getFilledColor}
 ```
 public Color getFilledColor()
 ```
@@ -248,7 +251,7 @@ public Color getFilledColor()
 
 **Returns:**
 java.awt.Color
-### getGradientAngle() {#getGradientAngle--}
+### getGradientAngle() {#getGradientAngle}
 ```
 public double getGradientAngle()
 ```
@@ -258,7 +261,7 @@ public double getGradientAngle()
 
 **Returns:**
 double
-### getGradientStops() {#getGradientStops--}
+### getGradientStops() {#getGradientStops}
 ```
 public GradientStopCollection getGradientStops()
 ```
@@ -268,7 +271,7 @@ public GradientStopCollection getGradientStops()
 
 **Returns:**
 [GradientStopCollection](../../com.aspose.words/gradientstopcollection)
-### getGradientStyle() {#getGradientStyle--}
+### getGradientStyle() {#getGradientStyle}
 ```
 public int getGradientStyle()
 ```
@@ -278,7 +281,7 @@ public int getGradientStyle()
 
 **Returns:**
 int
-### getGradientVariant() {#getGradientVariant--}
+### getGradientVariant() {#getGradientVariant}
 ```
 public int getGradientVariant()
 ```
@@ -288,7 +291,7 @@ public int getGradientVariant()
 
 **Returns:**
 int
-### getJoinStyle() {#getJoinStyle--}
+### getJoinStyle() {#getJoinStyle}
 ```
 public int getJoinStyle()
 ```
@@ -298,7 +301,7 @@ public int getJoinStyle()
 
 **Returns:**
 int
-### getLineFillType() {#getLineFillType--}
+### getLineFillType() {#getLineFillType}
 ```
 public int getLineFillType()
 ```
@@ -308,7 +311,7 @@ public int getLineFillType()
 
 **Returns:**
 int
-### getLineStyle() {#getLineStyle--}
+### getLineStyle() {#getLineStyle}
 ```
 public int getLineStyle()
 ```
@@ -318,7 +321,7 @@ public int getLineStyle()
 
 **Returns:**
 int
-### getOn() {#getOn--}
+### getOn() {#getOn}
 ```
 public boolean getOn()
 ```
@@ -328,7 +331,7 @@ public boolean getOn()
 
 **Returns:**
 boolean
-### getOpacity() {#getOpacity--}
+### getOpacity() {#getOpacity}
 ```
 public double getOpacity()
 ```
@@ -338,7 +341,7 @@ public double getOpacity()
 
 **Returns:**
 double
-### getPatternType() {#getPatternType--}
+### getPatternType() {#getPatternType}
 ```
 public int getPatternType()
 ```
@@ -348,7 +351,7 @@ public int getPatternType()
 
 **Returns:**
 int
-### getPresetTexture() {#getPresetTexture--}
+### getPresetTexture() {#getPresetTexture}
 ```
 public int getPresetTexture()
 ```
@@ -358,7 +361,7 @@ public int getPresetTexture()
 
 **Returns:**
 int
-### getRotateWithObject() {#getRotateWithObject--}
+### getRotateWithObject() {#getRotateWithObject}
 ```
 public boolean getRotateWithObject()
 ```
@@ -368,7 +371,7 @@ public boolean getRotateWithObject()
 
 **Returns:**
 boolean
-### getStartArrowLength() {#getStartArrowLength--}
+### getStartArrowLength() {#getStartArrowLength}
 ```
 public int getStartArrowLength()
 ```
@@ -378,7 +381,7 @@ public int getStartArrowLength()
 
 **Returns:**
 int
-### getStartArrowType() {#getStartArrowType--}
+### getStartArrowType() {#getStartArrowType}
 ```
 public int getStartArrowType()
 ```
@@ -388,7 +391,7 @@ public int getStartArrowType()
 
 **Returns:**
 int
-### getStartArrowWidth() {#getStartArrowWidth--}
+### getStartArrowWidth() {#getStartArrowWidth}
 ```
 public int getStartArrowWidth()
 ```
@@ -398,7 +401,7 @@ public int getStartArrowWidth()
 
 **Returns:**
 int
-### getStroke() {#getStroke--}
+### getStroke() {#getStroke}
 ```
 public Stroke getStroke()
 ```
@@ -408,7 +411,7 @@ Gets line formatting for the parent chart element.
 
 **Returns:**
 [Stroke](../../com.aspose.words/stroke) - Line formatting for the parent chart element.
-### getStrokeImageBytes() {#getStrokeImageBytes--}
+### getStrokeImageBytes() {#getStrokeImageBytes}
 ```
 public byte[] getStrokeImageBytes()
 ```
@@ -418,7 +421,7 @@ public byte[] getStrokeImageBytes()
 
 **Returns:**
 byte[]
-### getStrokeTransparency() {#getStrokeTransparency--}
+### getStrokeTransparency() {#getStrokeTransparency}
 ```
 public double getStrokeTransparency()
 ```
@@ -428,7 +431,7 @@ public double getStrokeTransparency()
 
 **Returns:**
 double
-### getStrokeVisible() {#getStrokeVisible--}
+### getStrokeVisible() {#getStrokeVisible}
 ```
 public boolean getStrokeVisible()
 ```
@@ -438,7 +441,7 @@ public boolean getStrokeVisible()
 
 **Returns:**
 boolean
-### getTextureAlignment() {#getTextureAlignment--}
+### getTextureAlignment() {#getTextureAlignment}
 ```
 public int getTextureAlignment()
 ```
@@ -448,7 +451,7 @@ public int getTextureAlignment()
 
 **Returns:**
 int
-### getWeight() {#getWeight--}
+### getWeight() {#getWeight}
 ```
 public double getWeight()
 ```
@@ -458,7 +461,7 @@ public double getWeight()
 
 **Returns:**
 double
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -468,7 +471,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -476,7 +479,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -484,7 +487,7 @@ public final native void notifyAll()
 
 
 
-### oneColorGradient(int style, int variant, double degree) {#oneColorGradient-int-int-double-}
+### oneColorGradient(int style, int variant, double degree) {#oneColorGradient-int-int-double}
 ```
 public void oneColorGradient(int style, int variant, double degree)
 ```
@@ -499,7 +502,7 @@ public void oneColorGradient(int style, int variant, double degree)
 | variant | int |  |
 | degree | double |  |
 
-### patterned(int patternType) {#patterned-int-}
+### patterned(int patternType) {#patterned-int}
 ```
 public void patterned(int patternType)
 ```
@@ -512,7 +515,7 @@ public void patterned(int patternType)
 | --- | --- | --- |
 | patternType | int |  |
 
-### presetTextured(int presetTexture) {#presetTextured-int-}
+### presetTextured(int presetTexture) {#presetTextured-int}
 ```
 public void presetTextured(int presetTexture)
 ```
@@ -525,7 +528,7 @@ public void presetTextured(int presetTexture)
 | --- | --- | --- |
 | presetTexture | int |  |
 
-### setDashStyle(int value) {#setDashStyle-int-}
+### setDashStyle(int value) {#setDashStyle-int}
 ```
 public void setDashStyle(int value)
 ```
@@ -538,7 +541,7 @@ public void setDashStyle(int value)
 | --- | --- | --- |
 | value | int |  |
 
-### setEndArrowLength(int value) {#setEndArrowLength-int-}
+### setEndArrowLength(int value) {#setEndArrowLength-int}
 ```
 public void setEndArrowLength(int value)
 ```
@@ -551,7 +554,7 @@ public void setEndArrowLength(int value)
 | --- | --- | --- |
 | value | int |  |
 
-### setEndArrowType(int value) {#setEndArrowType-int-}
+### setEndArrowType(int value) {#setEndArrowType-int}
 ```
 public void setEndArrowType(int value)
 ```
@@ -564,7 +567,7 @@ public void setEndArrowType(int value)
 | --- | --- | --- |
 | value | int |  |
 
-### setEndArrowWidth(int value) {#setEndArrowWidth-int-}
+### setEndArrowWidth(int value) {#setEndArrowWidth-int}
 ```
 public void setEndArrowWidth(int value)
 ```
@@ -577,7 +580,7 @@ public void setEndArrowWidth(int value)
 | --- | --- | --- |
 | value | int |  |
 
-### setEndCap(int value) {#setEndCap-int-}
+### setEndCap(int value) {#setEndCap-int}
 ```
 public void setEndCap(int value)
 ```
@@ -590,7 +593,7 @@ public void setEndCap(int value)
 | --- | --- | --- |
 | value | int |  |
 
-### setFillableBackColor(Color value) {#setFillableBackColor-java.awt.Color-}
+### setFillableBackColor(Color value) {#setFillableBackColor-java.awt.Color}
 ```
 public void setFillableBackColor(Color value)
 ```
@@ -603,7 +606,7 @@ public void setFillableBackColor(Color value)
 | --- | --- | --- |
 | value | java.awt.Color |  |
 
-### setFillableForeColor(Color value) {#setFillableForeColor-java.awt.Color-}
+### setFillableForeColor(Color value) {#setFillableForeColor-java.awt.Color}
 ```
 public void setFillableForeColor(Color value)
 ```
@@ -616,7 +619,7 @@ public void setFillableForeColor(Color value)
 | --- | --- | --- |
 | value | java.awt.Color |  |
 
-### setFillableTransparency(double value) {#setFillableTransparency-double-}
+### setFillableTransparency(double value) {#setFillableTransparency-double}
 ```
 public void setFillableTransparency(double value)
 ```
@@ -629,7 +632,7 @@ public void setFillableTransparency(double value)
 | --- | --- | --- |
 | value | double |  |
 
-### setFillableVisible(boolean value) {#setFillableVisible-boolean-}
+### setFillableVisible(boolean value) {#setFillableVisible-boolean}
 ```
 public void setFillableVisible(boolean value)
 ```
@@ -642,7 +645,7 @@ public void setFillableVisible(boolean value)
 | --- | --- | --- |
 | value | boolean |  |
 
-### setFilledColor(Color value) {#setFilledColor-java.awt.Color-}
+### setFilledColor(Color value) {#setFilledColor-java.awt.Color}
 ```
 public void setFilledColor(Color value)
 ```
@@ -655,7 +658,7 @@ public void setFilledColor(Color value)
 | --- | --- | --- |
 | value | java.awt.Color |  |
 
-### setGradientAngle(double value) {#setGradientAngle-double-}
+### setGradientAngle(double value) {#setGradientAngle-double}
 ```
 public void setGradientAngle(double value)
 ```
@@ -668,7 +671,7 @@ public void setGradientAngle(double value)
 | --- | --- | --- |
 | value | double |  |
 
-### setImage(byte[] imageBytes) {#setImage-byte---}
+### setImage(byte[] imageBytes) {#setImage-byte}
 ```
 public void setImage(byte[] imageBytes)
 ```
@@ -681,7 +684,7 @@ public void setImage(byte[] imageBytes)
 | --- | --- | --- |
 | imageBytes | byte[] |  |
 
-### setJoinStyle(int value) {#setJoinStyle-int-}
+### setJoinStyle(int value) {#setJoinStyle-int}
 ```
 public void setJoinStyle(int value)
 ```
@@ -694,7 +697,7 @@ public void setJoinStyle(int value)
 | --- | --- | --- |
 | value | int |  |
 
-### setLineFillType(int value) {#setLineFillType-int-}
+### setLineFillType(int value) {#setLineFillType-int}
 ```
 public void setLineFillType(int value)
 ```
@@ -707,7 +710,7 @@ public void setLineFillType(int value)
 | --- | --- | --- |
 | value | int |  |
 
-### setLineStyle(int value) {#setLineStyle-int-}
+### setLineStyle(int value) {#setLineStyle-int}
 ```
 public void setLineStyle(int value)
 ```
@@ -720,7 +723,7 @@ public void setLineStyle(int value)
 | --- | --- | --- |
 | value | int |  |
 
-### setOn(boolean value) {#setOn-boolean-}
+### setOn(boolean value) {#setOn-boolean}
 ```
 public void setOn(boolean value)
 ```
@@ -733,7 +736,7 @@ public void setOn(boolean value)
 | --- | --- | --- |
 | value | boolean |  |
 
-### setOpacity(double value) {#setOpacity-double-}
+### setOpacity(double value) {#setOpacity-double}
 ```
 public void setOpacity(double value)
 ```
@@ -746,7 +749,7 @@ public void setOpacity(double value)
 | --- | --- | --- |
 | value | double |  |
 
-### setRotateWithObject(boolean value) {#setRotateWithObject-boolean-}
+### setRotateWithObject(boolean value) {#setRotateWithObject-boolean}
 ```
 public void setRotateWithObject(boolean value)
 ```
@@ -759,7 +762,7 @@ public void setRotateWithObject(boolean value)
 | --- | --- | --- |
 | value | boolean |  |
 
-### setStartArrowLength(int value) {#setStartArrowLength-int-}
+### setStartArrowLength(int value) {#setStartArrowLength-int}
 ```
 public void setStartArrowLength(int value)
 ```
@@ -772,7 +775,7 @@ public void setStartArrowLength(int value)
 | --- | --- | --- |
 | value | int |  |
 
-### setStartArrowType(int value) {#setStartArrowType-int-}
+### setStartArrowType(int value) {#setStartArrowType-int}
 ```
 public void setStartArrowType(int value)
 ```
@@ -785,7 +788,7 @@ public void setStartArrowType(int value)
 | --- | --- | --- |
 | value | int |  |
 
-### setStartArrowWidth(int value) {#setStartArrowWidth-int-}
+### setStartArrowWidth(int value) {#setStartArrowWidth-int}
 ```
 public void setStartArrowWidth(int value)
 ```
@@ -798,7 +801,7 @@ public void setStartArrowWidth(int value)
 | --- | --- | --- |
 | value | int |  |
 
-### setStrokeTransparency(double value) {#setStrokeTransparency-double-}
+### setStrokeTransparency(double value) {#setStrokeTransparency-double}
 ```
 public void setStrokeTransparency(double value)
 ```
@@ -811,7 +814,7 @@ public void setStrokeTransparency(double value)
 | --- | --- | --- |
 | value | double |  |
 
-### setStrokeVisible(boolean value) {#setStrokeVisible-boolean-}
+### setStrokeVisible(boolean value) {#setStrokeVisible-boolean}
 ```
 public void setStrokeVisible(boolean value)
 ```
@@ -824,7 +827,7 @@ public void setStrokeVisible(boolean value)
 | --- | --- | --- |
 | value | boolean |  |
 
-### setTextureAlignment(int value) {#setTextureAlignment-int-}
+### setTextureAlignment(int value) {#setTextureAlignment-int}
 ```
 public void setTextureAlignment(int value)
 ```
@@ -837,7 +840,7 @@ public void setTextureAlignment(int value)
 | --- | --- | --- |
 | value | int |  |
 
-### setWeight(double value) {#setWeight-double-}
+### setWeight(double value) {#setWeight-double}
 ```
 public void setWeight(double value)
 ```
@@ -850,7 +853,7 @@ public void setWeight(double value)
 | --- | --- | --- |
 | value | double |  |
 
-### solid() {#solid--}
+### solid() {#solid}
 ```
 public void solid()
 ```
@@ -858,7 +861,7 @@ public void solid()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -868,7 +871,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### twoColorGradient(int style, int variant) {#twoColorGradient-int-int-}
+### twoColorGradient(int style, int variant) {#twoColorGradient-int-int}
 ```
 public void twoColorGradient(int style, int variant)
 ```
@@ -882,7 +885,7 @@ public void twoColorGradient(int style, int variant)
 | style | int |  |
 | variant | int |  |
 
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -890,7 +893,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -903,7 +906,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

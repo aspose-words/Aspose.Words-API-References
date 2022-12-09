@@ -3,7 +3,7 @@ title: DmlRenderingMode
 second_title: Aspose.Words for Java API Reference
 description: Specifies how DrawingML shapes are rendered to fixed page formats.
 type: docs
-weight: 118
+weight: 119
 url: /java/com.aspose.words/dmlrenderingmode/
 ---
 
@@ -25,19 +25,19 @@ Specifies how DrawingML shapes are rendered to fixed page formats.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String dmlRenderingModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int dmlRenderingMode)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int dmlRenderingMode)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fromName(String dmlRenderingModeName)](#fromName-java.lang.String) |  |
+| [getClass()](#getClass) |  |
+| [getName(int dmlRenderingMode)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [toString(int dmlRenderingMode)](#toString-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### DRAWING_ML {#DRAWING-ML}
 ```
 public static int DRAWING_ML
@@ -52,7 +52,7 @@ public static int FALLBACK
 ```
 
 
-If fall-back shape is available for DrawingML, Aspose.Words renders fall-back shape instead of the DrawingML. Please note that after saving a document to a fixed page format with fall-back DML rendering mode, DML shapes in the AW document model are permanently replaced with their fall-back counterparts. As a result, saving the same document again will always use fall-back shapes, even if DmlRenderingMode is set to DrawingML.
+If fall-back shape is available for DrawingML, Aspose.Words renders fall-back shape instead of the DrawingML. Please note that after saving a document to a fixed page format with fall-back DML rendering mode, DML shapes in the AW document model are permanently replaced with their fall-back counterparts. As a result, saving the same document again will always use fall-back shapes, even if [DmlRenderingMode](../../com.aspose.words/dmlrenderingmode) is set to [DRAWING\_ML](../../com.aspose.words/dmlrenderingmode\#DRAWING-ML).
 
 ### length {#length}
 ```
@@ -60,7 +60,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -75,7 +75,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String dmlRenderingModeName) {#fromName-java.lang.String-}
+### fromName(String dmlRenderingModeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String dmlRenderingModeName)
 ```
@@ -90,7 +90,7 @@ public static int fromName(String dmlRenderingModeName)
 
 **Returns:**
 int
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -100,7 +100,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int dmlRenderingMode) {#getName-int-}
+### getName(int dmlRenderingMode) {#getName-int}
 ```
 public static String getName(int dmlRenderingMode)
 ```
@@ -115,7 +115,7 @@ public static String getName(int dmlRenderingMode)
 
 **Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -125,7 +125,7 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -135,7 +135,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -143,7 +143,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -151,7 +151,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -161,7 +161,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int dmlRenderingMode) {#toString-int-}
+### toString(int dmlRenderingMode) {#toString-int}
 ```
 public static String toString(int dmlRenderingMode)
 ```
@@ -176,7 +176,7 @@ public static String toString(int dmlRenderingMode)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -184,7 +184,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -197,7 +197,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

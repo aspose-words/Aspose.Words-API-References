@@ -18,25 +18,28 @@ public class ChartDataPointCollection implements Iterable
 
 Represents collection of a [ChartDataPoint](../../com.aspose.words/chartdatapoint).
 
-To learn more, visit the **Working with Charts** documentation article.
+To learn more, visit the [ Working with Charts ][Working with Charts] documentation article.
+
+
+[Working with Charts]: https://docs.aspose.com/words/java/working-with-charts/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [clearFormat()](#clearFormat--) | Clears format of all [ChartDataPoint](../../com.aspose.words/chartdatapoint) in this collection. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Returns [ChartDataPoint](../../com.aspose.words/chartdatapoint) for the specified index. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Returns the number of [ChartDataPoint](../../com.aspose.words/chartdatapoint) in this collection. |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Returns an enumerator object. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### clearFormat() {#clearFormat--}
+| [clearFormat()](#clearFormat) | Clears format of all [ChartDataPoint](../../com.aspose.words/chartdatapoint) in this collection. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [get(int index)](#get-int) | Returns [ChartDataPoint](../../com.aspose.words/chartdatapoint) for the specified index. |
+| [getClass()](#getClass) |  |
+| [getCount()](#getCount) | Returns the number of [ChartDataPoint](../../com.aspose.words/chartdatapoint) in this collection. |
+| [hashCode()](#hashCode) |  |
+| [iterator()](#iterator) | Returns an enumerator object. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### clearFormat() {#clearFormat}
 ```
 public void clearFormat()
 ```
@@ -44,7 +47,7 @@ public void clearFormat()
 
 Clears format of all [ChartDataPoint](../../com.aspose.words/chartdatapoint) in this collection.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -59,7 +62,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### get(int index) {#get-int-}
+### get(int index) {#get-int}
 ```
 public ChartDataPoint get(int index)
 ```
@@ -74,7 +77,7 @@ Returns [ChartDataPoint](../../com.aspose.words/chartdatapoint) for the specifie
 
 **Returns:**
 [ChartDataPoint](../../com.aspose.words/chartdatapoint) - \{[ChartDataPoint](../../com.aspose.words/chartdatapoint) for the specified index.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -84,7 +87,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCount() {#getCount--}
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -94,7 +97,7 @@ Returns the number of [ChartDataPoint](../../com.aspose.words/chartdatapoint) in
 
 **Returns:**
 int - The number of [ChartDataPoint](../../com.aspose.words/chartdatapoint) in this collection.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -104,7 +107,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### iterator() {#iterator--}
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -114,7 +117,7 @@ Returns an enumerator object.
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -122,7 +125,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -130,7 +133,7 @@ public final native void notifyAll()
 
 
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -140,7 +143,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -148,7 +151,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -161,7 +164,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

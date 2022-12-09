@@ -3,7 +3,7 @@ title: INodeChangingCallback
 second_title: Aspose.Words for Java API Reference
 description: Implement this interface if you want to receive notifications when nodes are inserted or removed in the document.
 type: docs
-weight: 652
+weight: 656
 url: /java/com.aspose.words/inodechangingcallback/
 ---
 ```
@@ -15,11 +15,11 @@ Implement this interface if you want to receive notifications when nodes are ins
 
 | Method | Description |
 | --- | --- |
-| [nodeInserted(NodeChangingArgs args)](#nodeInserted-com.aspose.words.NodeChangingArgs-) | Called when a node belonging to this document has been inserted into another node. |
-| [nodeInserting(NodeChangingArgs args)](#nodeInserting-com.aspose.words.NodeChangingArgs-) | Called just before a node belonging to this document is about to be inserted into another node. |
-| [nodeRemoved(NodeChangingArgs args)](#nodeRemoved-com.aspose.words.NodeChangingArgs-) | Called when a node belonging to this document has been removed from its parent. |
-| [nodeRemoving(NodeChangingArgs args)](#nodeRemoving-com.aspose.words.NodeChangingArgs-) | Called just before a node belonging to this document is about to be removed from the document. |
-### nodeInserted(NodeChangingArgs args) {#nodeInserted-com.aspose.words.NodeChangingArgs-}
+| [nodeInserted(NodeChangingArgs args)](#nodeInserted-com.aspose.words.NodeChangingArgs) | Called when a node belonging to this document has been inserted into another node. |
+| [nodeInserting(NodeChangingArgs args)](#nodeInserting-com.aspose.words.NodeChangingArgs) | Called just before a node belonging to this document is about to be inserted into another node. |
+| [nodeRemoved(NodeChangingArgs args)](#nodeRemoved-com.aspose.words.NodeChangingArgs) | Called when a node belonging to this document has been removed from its parent. |
+| [nodeRemoving(NodeChangingArgs args)](#nodeRemoving-com.aspose.words.NodeChangingArgs) | Called just before a node belonging to this document is about to be removed from the document. |
+### nodeInserted(NodeChangingArgs args) {#nodeInserted-com.aspose.words.NodeChangingArgs}
 ```
 public abstract void nodeInserted(NodeChangingArgs args)
 ```
@@ -32,7 +32,7 @@ Called when a node belonging to this document has been inserted into another nod
 | --- | --- | --- |
 | args | [NodeChangingArgs](../../com.aspose.words/nodechangingargs) |  |
 
-### nodeInserting(NodeChangingArgs args) {#nodeInserting-com.aspose.words.NodeChangingArgs-}
+### nodeInserting(NodeChangingArgs args) {#nodeInserting-com.aspose.words.NodeChangingArgs}
 ```
 public abstract void nodeInserting(NodeChangingArgs args)
 ```
@@ -45,7 +45,7 @@ Called just before a node belonging to this document is about to be inserted int
 | --- | --- | --- |
 | args | [NodeChangingArgs](../../com.aspose.words/nodechangingargs) |  |
 
-### nodeRemoved(NodeChangingArgs args) {#nodeRemoved-com.aspose.words.NodeChangingArgs-}
+### nodeRemoved(NodeChangingArgs args) {#nodeRemoved-com.aspose.words.NodeChangingArgs}
 ```
 public abstract void nodeRemoved(NodeChangingArgs args)
 ```
@@ -58,7 +58,7 @@ Called when a node belonging to this document has been removed from its parent.
 | --- | --- | --- |
 | args | [NodeChangingArgs](../../com.aspose.words/nodechangingargs) |  |
 
-### nodeRemoving(NodeChangingArgs args) {#nodeRemoving-com.aspose.words.NodeChangingArgs-}
+### nodeRemoving(NodeChangingArgs args) {#nodeRemoving-com.aspose.words.NodeChangingArgs}
 ```
 public abstract void nodeRemoving(NodeChangingArgs args)
 ```

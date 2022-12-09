@@ -3,7 +3,7 @@ title: FieldGoToButton
 second_title: Aspose.Words for Java API Reference
 description: Implements the GOTOBUTTON field.
 type: docs
-weight: 197
+weight: 198
 url: /java/com.aspose.words/fieldgotobutton/
 ---
 
@@ -15,47 +15,50 @@ public class FieldGoToButton extends Field
 
 Implements the GOTOBUTTON field.
 
-To learn more, visit the **Working with Fields** documentation article.
+To learn more, visit the [ Working with Fields ][Working with Fields] documentation article.
 
 Inserts a jump command, such that when it is activated, the insertion point of the document is moved to the specified location.
+
+
+[Working with Fields]: https://docs.aspose.com/words/java/working-with-fields/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getDisplayResult()](#getDisplayResult--) | Gets the text that represents the displayed field result. |
-| [getDisplayText()](#getDisplayText--) | Gets the text of the "button" that appears in the document, such that it can be selected to activate the jump. |
-| [getEnd()](#getEnd--) | Gets the node that represents the field end. |
-| [getFieldCode()](#getFieldCode--) | Returns text between field start and field separator (or field end if there is no separator). |
-| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean-) | Returns text between field start and field separator (or field end if there is no separator). |
-| [getFormat()](#getFormat--) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
-| [getLocaleId()](#getLocaleId--) | Gets the LCID of the field. |
-| [getLocation()](#getLocation--) | Gets the name of a bookmark, a page number, or some other item to jump to. |
-| [getResult()](#getResult--) | Gets text that is between the field separator and field end. |
-| [getSeparator()](#getSeparator--) | Gets the node that represents the field separator. |
-| [getStart()](#getStart--) | Gets the node that represents the start of the field. |
-| [getType()](#getType--) | Gets the Microsoft Word field type. |
-| [hashCode()](#hashCode--) |  |
-| [isDirty()](#isDirty--) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [isDirty(boolean value)](#isDirty-boolean-) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [isLocked()](#isLocked--) | Gets whether the field is locked (should not recalculate its result). |
-| [isLocked(boolean value)](#isLocked-boolean-) | Sets whether the field is locked (should not recalculate its result). |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove()](#remove--) | Removes the field from the document. |
-| [setDisplayText(String value)](#setDisplayText-java.lang.String-) | Sets the text of the "button" that appears in the document, such that it can be selected to activate the jump. |
-| [setLocaleId(int value)](#setLocaleId-int-) | Sets the LCID of the field. |
-| [setLocation(String value)](#setLocation-java.lang.String-) | Sets the name of a bookmark, a page number, or some other item to jump to. |
-| [setResult(String value)](#setResult-java.lang.String-) | Sets text that is between the field separator and field end. |
-| [toString()](#toString--) |  |
-| [unlink()](#unlink--) | Performs the field unlink. |
-| [update()](#update--) | Performs the field update. |
-| [update(boolean ignoreMergeFormat)](#update-boolean-) | Performs a field update. |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getDisplayResult()](#getDisplayResult) | Gets the text that represents the displayed field result. |
+| [getDisplayText()](#getDisplayText) | Gets the text of the "button" that appears in the document, such that it can be selected to activate the jump. |
+| [getEnd()](#getEnd) | Gets the node that represents the field end. |
+| [getFieldCode()](#getFieldCode) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFormat()](#getFormat) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
+| [getLocaleId()](#getLocaleId) | Gets the LCID of the field. |
+| [getLocation()](#getLocation) | Gets the name of a bookmark, a page number, or some other item to jump to. |
+| [getResult()](#getResult) | Gets text that is between the field separator and field end. |
+| [getSeparator()](#getSeparator) | Gets the node that represents the field separator. |
+| [getStart()](#getStart) | Gets the node that represents the start of the field. |
+| [getType()](#getType) | Gets the Microsoft Word field type. |
+| [hashCode()](#hashCode) |  |
+| [isDirty()](#isDirty) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isDirty(boolean value)](#isDirty-boolean) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isLocked()](#isLocked) | Gets whether the field is locked (should not recalculate its result). |
+| [isLocked(boolean value)](#isLocked-boolean) | Sets whether the field is locked (should not recalculate its result). |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [remove()](#remove) | Removes the field from the document. |
+| [setDisplayText(String value)](#setDisplayText-java.lang.String) | Sets the text of the "button" that appears in the document, such that it can be selected to activate the jump. |
+| [setLocaleId(int value)](#setLocaleId-int) | Sets the LCID of the field. |
+| [setLocation(String value)](#setLocation-java.lang.String) | Sets the name of a bookmark, a page number, or some other item to jump to. |
+| [setResult(String value)](#setResult-java.lang.String) | Sets text that is between the field separator and field end. |
+| [toString()](#toString) |  |
+| [unlink()](#unlink) | Performs the field unlink. |
+| [update()](#update) | Performs the field update. |
+| [update(boolean ignoreMergeFormat)](#update-boolean) | Performs a field update. |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -70,7 +73,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -80,17 +83,17 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDisplayResult() {#getDisplayResult--}
+### getDisplayResult() {#getDisplayResult}
 ```
 public String getDisplayResult()
 ```
 
 
-Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
+Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
 
 **Returns:**
 java.lang.String - The text that represents the displayed field result.
-### getDisplayText() {#getDisplayText--}
+### getDisplayText() {#getDisplayText}
 ```
 public String getDisplayText()
 ```
@@ -100,7 +103,7 @@ Gets the text of the "button" that appears in the document, such that it can be 
 
 **Returns:**
 java.lang.String - The text of the "button" that appears in the document, such that it can be selected to activate the jump.
-### getEnd() {#getEnd--}
+### getEnd() {#getEnd}
 ```
 public FieldEnd getEnd()
 ```
@@ -110,7 +113,7 @@ Gets the node that represents the field end.
 
 **Returns:**
 [FieldEnd](../../com.aspose.words/fieldend) - The node that represents the field end.
-### getFieldCode() {#getFieldCode--}
+### getFieldCode() {#getFieldCode}
 ```
 public String getFieldCode()
 ```
@@ -120,7 +123,7 @@ Returns text between field start and field separator (or field end if there is n
 
 **Returns:**
 java.lang.String
-### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean-}
+### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean}
 ```
 public String getFieldCode(boolean includeChildFieldCodes)
 ```
@@ -131,11 +134,11 @@ Returns text between field start and field separator (or field end if there is n
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| includeChildFieldCodes | boolean | \{ True  if child field codes should be included. |
+| includeChildFieldCodes | boolean | \{ true  if child field codes should be included. |
 
 **Returns:**
 java.lang.String
-### getFormat() {#getFormat--}
+### getFormat() {#getFormat}
 ```
 public FieldFormat getFormat()
 ```
@@ -145,7 +148,7 @@ Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides ty
 
 **Returns:**
 [FieldFormat](../../com.aspose.words/fieldformat) - A [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
-### getLocaleId() {#getLocaleId--}
+### getLocaleId() {#getLocaleId}
 ```
 public int getLocaleId()
 ```
@@ -155,7 +158,7 @@ Gets the LCID of the field.
 
 **Returns:**
 int - The LCID of the field.
-### getLocation() {#getLocation--}
+### getLocation() {#getLocation}
 ```
 public String getLocation()
 ```
@@ -165,7 +168,7 @@ Gets the name of a bookmark, a page number, or some other item to jump to.
 
 **Returns:**
 java.lang.String - The name of a bookmark, a page number, or some other item to jump to.
-### getResult() {#getResult--}
+### getResult() {#getResult}
 ```
 public String getResult()
 ```
@@ -175,17 +178,17 @@ Gets text that is between the field separator and field end.
 
 **Returns:**
 java.lang.String - Text that is between the field separator and field end.
-### getSeparator() {#getSeparator--}
+### getSeparator() {#getSeparator}
 ```
 public FieldSeparator getSeparator()
 ```
 
 
-Gets the node that represents the field separator. Can be null.
+Gets the node that represents the field separator. Can be  null .
 
 **Returns:**
 [FieldSeparator](../../com.aspose.words/fieldseparator) - The node that represents the field separator.
-### getStart() {#getStart--}
+### getStart() {#getStart}
 ```
 public FieldStart getStart()
 ```
@@ -195,7 +198,7 @@ Gets the node that represents the start of the field.
 
 **Returns:**
 [FieldStart](../../com.aspose.words/fieldstart) - The node that represents the start of the field.
-### getType() {#getType--}
+### getType() {#getType}
 ```
 public int getType()
 ```
@@ -205,7 +208,7 @@ Gets the Microsoft Word field type.
 
 **Returns:**
 int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -215,7 +218,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### isDirty() {#isDirty--}
+### isDirty() {#isDirty}
 ```
 public boolean isDirty()
 ```
@@ -225,7 +228,7 @@ Gets whether the current result of the field is no longer correct (stale) due to
 
 **Returns:**
 boolean - Whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
-### isDirty(boolean value) {#isDirty-boolean-}
+### isDirty(boolean value) {#isDirty-boolean}
 ```
 public void isDirty(boolean value)
 ```
@@ -238,7 +241,7 @@ Sets whether the current result of the field is no longer correct (stale) due to
 | --- | --- | --- |
 | value | boolean | Whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 
-### isLocked() {#isLocked--}
+### isLocked() {#isLocked}
 ```
 public boolean isLocked()
 ```
@@ -248,7 +251,7 @@ Gets whether the field is locked (should not recalculate its result).
 
 **Returns:**
 boolean - Whether the field is locked (should not recalculate its result).
-### isLocked(boolean value) {#isLocked-boolean-}
+### isLocked(boolean value) {#isLocked-boolean}
 ```
 public void isLocked(boolean value)
 ```
@@ -261,7 +264,7 @@ Sets whether the field is locked (should not recalculate its result).
 | --- | --- | --- |
 | value | boolean | Whether the field is locked (should not recalculate its result). |
 
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -269,7 +272,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -277,17 +280,17 @@ public final native void notifyAll()
 
 
 
-### remove() {#remove--}
+### remove() {#remove}
 ```
 public Node remove()
 ```
 
 
-Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**.
+Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns  null .
 
 **Returns:**
 [Node](../../com.aspose.words/node)
-### setDisplayText(String value) {#setDisplayText-java.lang.String-}
+### setDisplayText(String value) {#setDisplayText-java.lang.String}
 ```
 public void setDisplayText(String value)
 ```
@@ -300,7 +303,7 @@ Sets the text of the "button" that appears in the document, such that it can be 
 | --- | --- | --- |
 | value | java.lang.String | The text of the "button" that appears in the document, such that it can be selected to activate the jump. |
 
-### setLocaleId(int value) {#setLocaleId-int-}
+### setLocaleId(int value) {#setLocaleId-int}
 ```
 public void setLocaleId(int value)
 ```
@@ -313,7 +316,7 @@ Sets the LCID of the field.
 | --- | --- | --- |
 | value | int | The LCID of the field. |
 
-### setLocation(String value) {#setLocation-java.lang.String-}
+### setLocation(String value) {#setLocation-java.lang.String}
 ```
 public void setLocation(String value)
 ```
@@ -326,7 +329,7 @@ Sets the name of a bookmark, a page number, or some other item to jump to.
 | --- | --- | --- |
 | value | java.lang.String | The name of a bookmark, a page number, or some other item to jump to. |
 
-### setResult(String value) {#setResult-java.lang.String-}
+### setResult(String value) {#setResult-java.lang.String}
 ```
 public void setResult(String value)
 ```
@@ -339,7 +342,7 @@ Sets text that is between the field separator and field end.
 | --- | --- | --- |
 | value | java.lang.String | Text that is between the field separator and field end. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -349,7 +352,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### unlink() {#unlink--}
+### unlink() {#unlink}
 ```
 public boolean unlink()
 ```
@@ -362,8 +365,8 @@ Replaces the field with its most recent result.
 Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot be unlinked.
 
 **Returns:**
-boolean - \{ True  if the field has been unlinked, otherwise  false .
-### update() {#update--}
+boolean - \{ true  if the field has been unlinked, otherwise  false .
+### update() {#update}
 ```
 public void update()
 ```
@@ -371,7 +374,7 @@ public void update()
 
 Performs the field update. Throws if the field is being updated already.
 
-### update(boolean ignoreMergeFormat) {#update-boolean-}
+### update(boolean ignoreMergeFormat) {#update-boolean}
 ```
 public void update(boolean ignoreMergeFormat)
 ```
@@ -384,7 +387,7 @@ Performs a field update. Throws if the field is being updated already.
 | --- | --- | --- |
 | ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
 
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -392,7 +395,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -405,7 +408,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

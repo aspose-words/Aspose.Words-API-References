@@ -3,7 +3,7 @@ title: ReplacingArgs
 second_title: Aspose.Words for Java API Reference
 description: Provides data for a custom replace operation.
 type: docs
-weight: 476
+weight: 479
 url: /java/com.aspose.words/replacingargs/
 ---
 
@@ -15,28 +15,31 @@ public class ReplacingArgs
 
 Provides data for a custom replace operation.
 
-To learn more, visit the **Find and Replace** documentation article.
+To learn more, visit the [ Find and Replace ][Find and Replace] documentation article.
+
+
+[Find and Replace]: https://docs.aspose.com/words/java/find-and-replace/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getGroupIndex()](#getGroupIndex--) | Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs\#getMatch--) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs\#getReplacement--) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs\#setReplacement-java.lang.String-) string. |
-| [getMatch()](#getMatch--) | The java.util.regex.Matcher resulting from a single regular expression match during a **Replace**. |
-| [getMatchNode()](#getMatchNode--) | Gets the node that contains the beginning of the match. |
-| [getMatchOffset()](#getMatchOffset--) | Gets the zero-based starting position of the match from the start of the node that contains the beginning of the match. |
-| [getReplacement()](#getReplacement--) | Gets the replacement string. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setGroupIndex(int value)](#setGroupIndex-int-) | Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs\#getMatch--) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs\#getReplacement--) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs\#setReplacement-java.lang.String-) string. |
-| [setReplacement(String value)](#setReplacement-java.lang.String-) | Sets the replacement string. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getGroupIndex()](#getGroupIndex) | Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs\#getMatch) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs\#getReplacement) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs\#setReplacement-java.lang.String) string. |
+| [getMatch()](#getMatch) | The java.util.regex.Matcher resulting from a single regular expression match during a **Replace**. |
+| [getMatchNode()](#getMatchNode) | Gets the node that contains the beginning of the match. |
+| [getMatchOffset()](#getMatchOffset) | Gets the zero-based starting position of the match from the start of the node that contains the beginning of the match. |
+| [getReplacement()](#getReplacement) | Gets the replacement string. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setGroupIndex(int value)](#setGroupIndex-int) | Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs\#getMatch) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs\#getReplacement) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs\#setReplacement-java.lang.String) string. |
+| [setReplacement(String value)](#setReplacement-java.lang.String) | Sets the replacement string. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -51,7 +54,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -61,19 +64,19 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getGroupIndex() {#getGroupIndex--}
+### getGroupIndex() {#getGroupIndex}
 ```
 public int getGroupIndex()
 ```
 
 
-Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs\#getMatch--) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs\#getReplacement--) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs\#setReplacement-java.lang.String-) string.
+Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs\#getMatch) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs\#getReplacement) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs\#setReplacement-java.lang.String) string.
 
 Default is zero.
 
 **Returns:**
 int - The corresponding  int  value.
-### getMatch() {#getMatch--}
+### getMatch() {#getMatch}
 ```
 public Matcher getMatch()
 ```
@@ -85,7 +88,7 @@ Matcher.start()  gets the zero-based starting position of the match from the sta
 
 **Returns:**
 java.util.regex.Matcher - The corresponding java.util.regex.Matcher value.
-### getMatchNode() {#getMatchNode--}
+### getMatchNode() {#getMatchNode}
 ```
 public Node getMatchNode()
 ```
@@ -95,7 +98,7 @@ Gets the node that contains the beginning of the match.
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The node that contains the beginning of the match.
-### getMatchOffset() {#getMatchOffset--}
+### getMatchOffset() {#getMatchOffset}
 ```
 public int getMatchOffset()
 ```
@@ -105,7 +108,7 @@ Gets the zero-based starting position of the match from the start of the node th
 
 **Returns:**
 int - The zero-based starting position of the match from the start of the node that contains the beginning of the match.
-### getReplacement() {#getReplacement--}
+### getReplacement() {#getReplacement}
 ```
 public String getReplacement()
 ```
@@ -115,7 +118,7 @@ Gets the replacement string.
 
 **Returns:**
 java.lang.String - The replacement string.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -125,7 +128,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -133,7 +136,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -141,13 +144,13 @@ public final native void notifyAll()
 
 
 
-### setGroupIndex(int value) {#setGroupIndex-int-}
+### setGroupIndex(int value) {#setGroupIndex-int}
 ```
 public void setGroupIndex(int value)
 ```
 
 
-Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs\#getMatch--) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs\#getReplacement--) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs\#setReplacement-java.lang.String-) string.
+Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs\#getMatch) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs\#getReplacement) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs\#setReplacement-java.lang.String) string.
 
 Default is zero.
 
@@ -156,7 +159,7 @@ Default is zero.
 | --- | --- | --- |
 | value | int | The corresponding  int  value. |
 
-### setReplacement(String value) {#setReplacement-java.lang.String-}
+### setReplacement(String value) {#setReplacement-java.lang.String}
 ```
 public void setReplacement(String value)
 ```
@@ -169,7 +172,7 @@ Sets the replacement string.
 | --- | --- | --- |
 | value | java.lang.String | The replacement string. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -179,7 +182,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -187,7 +190,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -200,7 +203,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

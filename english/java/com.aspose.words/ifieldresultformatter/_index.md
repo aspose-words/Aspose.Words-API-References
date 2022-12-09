@@ -3,7 +3,7 @@ title: IFieldResultFormatter
 second_title: Aspose.Words for Java API Reference
 description: Implement this interface if you want to control how the field result is formatted.
 type: docs
-weight: 642
+weight: 645
 url: /java/com.aspose.words/ifieldresultformatter/
 ---
 ```
@@ -15,11 +15,11 @@ Implement this interface if you want to control how the field result is formatte
 
 | Method | Description |
 | --- | --- |
-| [format(double value, int format)](#format-double-int-) |  |
-| [format(String value, int format)](#format-java.lang.String-int-) |  |
-| [formatDateTime(Date value, String format, int calendarType)](#formatDateTime-java.util.Date-java.lang.String-int-) |  |
-| [formatNumeric(double value, String format)](#formatNumeric-double-java.lang.String-) | Called when Aspose.Words applies a numeric format switch, i.e. |
-### format(double value, int format) {#format-double-int-}
+| [format(double value, int format)](#format-double-int) |  |
+| [format(String value, int format)](#format-java.lang.String-int) |  |
+| [formatDateTime(Date value, String format, int calendarType)](#formatDateTime-java.util.Date-java.lang.String-int) |  |
+| [formatNumeric(double value, String format)](#formatNumeric-double-java.lang.String) | Called when Aspose.Words applies a numeric format switch, i.e. |
+### format(double value, int format) {#format-double-int}
 ```
 public abstract String format(double value, int format)
 ```
@@ -35,7 +35,7 @@ public abstract String format(double value, int format)
 
 **Returns:**
 java.lang.String
-### format(String value, int format) {#format-java.lang.String-int-}
+### format(String value, int format) {#format-java.lang.String-int}
 ```
 public abstract String format(String value, int format)
 ```
@@ -51,7 +51,7 @@ public abstract String format(String value, int format)
 
 **Returns:**
 java.lang.String
-### formatDateTime(Date value, String format, int calendarType) {#formatDateTime-java.util.Date-java.lang.String-int-}
+### formatDateTime(Date value, String format, int calendarType) {#formatDateTime-java.util.Date-java.lang.String-int}
 ```
 public abstract String formatDateTime(Date value, String format, int calendarType)
 ```
@@ -68,13 +68,13 @@ public abstract String formatDateTime(Date value, String format, int calendarTyp
 
 **Returns:**
 java.lang.String
-### formatNumeric(double value, String format) {#formatNumeric-double-java.lang.String-}
+### formatNumeric(double value, String format) {#formatNumeric-double-java.lang.String}
 ```
 public abstract String formatNumeric(double value, String format)
 ```
 
 
-Called when Aspose.Words applies a numeric format switch, i.e. \\\# "\#.\#". The implementation should return **null** to indicate that the default formatting should be applied.
+Called when Aspose.Words applies a numeric format switch, i.e. \\\# "\#.\#". The implementation should return  null  to indicate that the default formatting should be applied.
 
 **Parameters:**
 | Parameter | Type | Description |

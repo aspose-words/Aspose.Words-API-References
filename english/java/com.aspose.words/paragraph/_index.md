@@ -3,7 +3,7 @@ title: Paragraph
 second_title: Aspose.Words for Java API Reference
 description: Represents a paragraph of text.
 type: docs
-weight: 443
+weight: 446
 url: /java/com.aspose.words/paragraph/
 ---
 
@@ -15,7 +15,7 @@ public class Paragraph extends CompositeNode
 
 Represents a paragraph of text.
 
-To learn more, visit the **Working with Paragraphs** documentation article.
+To learn more, visit the [ Working with Paragraphs ][Working with Paragraphs] documentation article.
 
 [Paragraph](../../com.aspose.words/paragraph) is a block-level node and can be a child of classes derived from [Story](../../com.aspose.words/story) or [InlineStory](../../com.aspose.words/inlinestory).
 
@@ -23,128 +23,131 @@ To learn more, visit the **Working with Paragraphs** documentation article.
 
 The complete list of child nodes that can occur inside a paragraph consists of [BookmarkStart](../../com.aspose.words/bookmarkstart), [BookmarkEnd](../../com.aspose.words/bookmarkend), [FieldStart](../../com.aspose.words/fieldstart), [FieldSeparator](../../com.aspose.words/fieldseparator), [FieldEnd](../../com.aspose.words/fieldend), [FormField](../../com.aspose.words/formfield), [Comment](../../com.aspose.words/comment), [Footnote](../../com.aspose.words/footnote), [Run](../../com.aspose.words/run), [SpecialChar](../../com.aspose.words/specialchar), [Shape](../../com.aspose.words/shape), [GroupShape](../../com.aspose.words/groupshape), [SmartTag](../../com.aspose.words/smarttag).
 
-A valid paragraph in Microsoft Word always ends with a paragraph break character and a minimal valid paragraph consists just of a paragraph break. The **Paragraph** class automatically appends the appropriate paragraph break character at the end and this character is not part of the child nodes of the **Paragraph**, therefore a **Paragraph** can be empty.
+A valid paragraph in Microsoft Word always ends with a paragraph break character and a minimal valid paragraph consists just of a paragraph break. The [Paragraph](../../com.aspose.words/paragraph) class automatically appends the appropriate paragraph break character at the end and this character is not part of the child nodes of the [Paragraph](../../com.aspose.words/paragraph), therefore a [Paragraph](../../com.aspose.words/paragraph) can be empty.
 
 Do not include the end of paragraph [ControlChar.PARAGRAPH\_BREAK](../../com.aspose.words/controlchar\#PARAGRAPH-BREAK) or end of cell [ControlChar.CELL](../../com.aspose.words/controlchar\#CELL) characters inside the text of the paragraph as it might make the paragraph invalid when the document is opened in Microsoft Word.
+
+
+[Working with Paragraphs]: https://docs.aspose.com/words/java/working-with-paragraphs/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [Paragraph(DocumentBase doc)](#Paragraph-com.aspose.words.DocumentBase-) | Initializes a new instance of the **Paragraph** class. |
+| [Paragraph(DocumentBase doc)](#Paragraph-com.aspose.words.DocumentBase) | Initializes a new instance of the [Paragraph](../../com.aspose.words/paragraph) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | Accepts a visitor. |
-| [appendChild(Node newChild)](#appendChild-com.aspose.words.Node-) | Adds the specified node to the end of the list of child nodes for this node. |
-| [appendField(int fieldType, boolean updateField)](#appendField-int-boolean-) |  |
-| [appendField(String fieldCode)](#appendField-java.lang.String-) | Appends a Word field to this paragraph. |
-| [appendField(String fieldCode, String fieldValue)](#appendField-java.lang.String-java.lang.String-) | Appends a Word field to this paragraph. |
-| [clearParaAttrs()](#clearParaAttrs--) |  |
-| [clearRunAttrs()](#clearRunAttrs--) |  |
-| [dd()](#dd--) |  |
-| [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | Creates a duplicate of the node. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fetchInheritedParaAttr(int key)](#fetchInheritedParaAttr-int-) |  |
-| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
-| [fetchParaAttr(int key)](#fetchParaAttr-int-) |  |
-| [getAncestor(int ancestorType)](#getAncestor-int-) |  |
-| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class-) | Gets the first ancestor of the specified object type. |
-| [getBreakIsStyleSeparator()](#getBreakIsStyleSeparator--) | True if this paragraph break is a Style Separator. |
-| [getChild(int nodeType, int index, boolean isDeep)](#getChild-int-int-boolean-) |  |
-| [getChildNodes()](#getChildNodes--) | Gets all immediate child nodes of this node. |
-| [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean-) |  |
-| [getClass()](#getClass--) |  |
-| [getContainer()](#getContainer--) |  |
-| [getCount()](#getCount--) | Gets the number of immediate children of this node. |
-| [getCurrentNode()](#getCurrentNode--) |  |
-| [getCustomNodeId()](#getCustomNodeId--) | Specifies custom node identifier. |
-| [getDirectParaAttr(int key)](#getDirectParaAttr-int-) |  |
-| [getDirectParaAttr(int key, int revisionsView)](#getDirectParaAttr-int-int-) |  |
-| [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
-| [getDocument()](#getDocument--) | Gets the document to which this node belongs. |
-| [getEffectiveTabStops()](#getEffectiveTabStops--) | Returns array of all tab stops applied to this paragraph, including applied indirectly by styles or lists. |
-| [getFirstChild()](#getFirstChild--) | Gets the first child of the node. |
-| [getFrameFormat()](#getFrameFormat--) | Provides access to the paragraph formatting properties. |
-| [getLastChild()](#getLastChild--) | Gets the last child of the node. |
-| [getListFormat()](#getListFormat--) | Provides access to the list formatting properties of the paragraph. |
-| [getListLabel()](#getListLabel--) | Gets a [getListLabel()](../../com.aspose.words/paragraph\#getListLabel--) object that provides access to list numbering value and formatting for this paragraph. |
-| [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node-) |  |
-| [getNextSibling()](#getNextSibling--) | Gets the node immediately following this node. |
-| [getNodeType()](#getNodeType--) | Returns **NodeType.Paragraph**. |
-| [getParagraphBreakFont()](#getParagraphBreakFont--) | Provides access to the font formatting of the paragraph break character. |
-| [getParagraphFormat()](#getParagraphFormat--) | Provides access to the paragraph formatting properties. |
-| [getParentNode()](#getParentNode--) | Gets the immediate parent of this node. |
-| [getParentSection()](#getParentSection--) | Retrieves the parent [Section](../../com.aspose.words/section) of the paragraph. |
-| [getParentStory()](#getParentStory--) | Retrieves the parent section-level story that can be [Body](../../com.aspose.words/body) or [HeaderFooter](../../com.aspose.words/headerfooter). |
-| [getPreviousSibling()](#getPreviousSibling--) | Gets the node immediately preceding this node. |
-| [getRange()](#getRange--) | Returns a **Range** object that represents the portion of a document that is contained in this node. |
-| [getRuns()](#getRuns--) | Provides access to the typed collection of pieces of text inside the paragraph. |
-| [getText()](#getText--) | Gets the text of this paragraph including the end of paragraph character. |
-| [hasChildNodes()](#hasChildNodes--) | Returns true if this node has any child nodes. |
-| [hashCode()](#hashCode--) |  |
-| [indexOf(Node child)](#indexOf-com.aspose.words.Node-) | Returns the index of the specified child node in the child node array. |
-| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node-) | Inserts the specified node immediately after the specified reference node. |
-| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node-) | Inserts the specified node immediately before the specified reference node. |
-| [insertField(int fieldType, boolean updateField, Node refNode, boolean isAfter)](#insertField-int-boolean-com.aspose.words.Node-boolean-) |  |
-| [insertField(String fieldCode, Node refNode, boolean isAfter)](#insertField-java.lang.String-com.aspose.words.Node-boolean-) | Inserts a Word field into this paragraph. |
-| [insertField(String fieldCode, String fieldValue, Node refNode, boolean isAfter)](#insertField-java.lang.String-java.lang.String-com.aspose.words.Node-boolean-) | Inserts a Word field into this paragraph. |
-| [isComposite()](#isComposite--) | Returns true as this node can have child nodes. |
-| [isDeleteRevision()](#isDeleteRevision--) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
-| [isEndOfCell()](#isEndOfCell--) | True if this paragraph is the last paragraph in a [Cell](../../com.aspose.words/cell); false otherwise. |
-| [isEndOfDocument()](#isEndOfDocument--) | True if this paragraph is the last paragraph in the last section of the document. |
-| [isEndOfHeaderFooter()](#isEndOfHeaderFooter--) | True if this paragraph is the last paragraph in the **HeaderFooter** (main text story) of a **Section**; false otherwise. |
-| [isEndOfSection()](#isEndOfSection--) | True if this paragraph is the last paragraph in the **Body** (main text story) of a **Section**; false otherwise. |
-| [isFormatRevision()](#isFormatRevision--) | Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled. |
-| [isInCell()](#isInCell--) | True if this paragraph is an immediate child of [Cell](../../com.aspose.words/cell); false otherwise. |
-| [isInsertRevision()](#isInsertRevision--) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
-| [isListItem()](#isListItem--) | True when the paragraph is an item in a bulleted or numbered list in original revision. |
-| [isMoveFromRevision()](#isMoveFromRevision--) | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
-| [isMoveToRevision()](#isMoveToRevision--) | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
-| [iterator()](#iterator--) | Provides support for the for each style iteration over the child nodes of this node. |
-| [joinRunsWithSameFormatting()](#joinRunsWithSameFormatting--) | Joins runs with the same formatting in the paragraph. |
-| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | Gets next node according to the pre-order tree traversal algorithm. |
-| [nodeTypeToString(int nodeType)](#nodeTypeToString-int-) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [prependChild(Node newChild)](#prependChild-com.aspose.words.Node-) | Adds the specified node to the beginning of the list of child nodes for this node. |
-| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | Gets the previous node according to the pre-order tree traversal algorithm. |
-| [remove()](#remove--) | Removes itself from the parent. |
-| [removeAllChildren()](#removeAllChildren--) | Removes all the child nodes of the current node. |
-| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node-) | Removes the specified child node. |
-| [removeMoveRevisions()](#removeMoveRevisions--) |  |
-| [removeParaAttr(int key)](#removeParaAttr-int-) |  |
-| [removeRunAttr(int key)](#removeRunAttr-int-) |  |
-| [removeSmartTags()](#removeSmartTags--) | Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. |
-| [selectNodes(String xpath)](#selectNodes-java.lang.String-) | Selects a list of nodes matching the XPath expression. |
-| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String-) | Selects the first Node that matches the XPath expression. |
-| [setCustomNodeId(int value)](#setCustomNodeId-int-) | Specifies custom node identifier. |
-| [setParaAttr(int key, Object value)](#setParaAttr-int-java.lang.Object-) |  |
-| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
-| [toString()](#toString--) |  |
-| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions-) | Exports the content of the node into a string using the specified save options. |
-| [toString(int saveFormat)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### Paragraph(DocumentBase doc) {#Paragraph-com.aspose.words.DocumentBase-}
+| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor) | Accepts a visitor. |
+| [appendChild(Node newChild)](#appendChild-com.aspose.words.Node) | Adds the specified node to the end of the list of child nodes for this node. |
+| [appendField(int fieldType, boolean updateField)](#appendField-int-boolean) |  |
+| [appendField(String fieldCode)](#appendField-java.lang.String) | Appends a field to this paragraph. |
+| [appendField(String fieldCode, String fieldValue)](#appendField-java.lang.String-java.lang.String) | Appends a field to this paragraph. |
+| [clearParaAttrs()](#clearParaAttrs) |  |
+| [clearRunAttrs()](#clearRunAttrs) |  |
+| [dd()](#dd) |  |
+| [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [fetchInheritedParaAttr(int key)](#fetchInheritedParaAttr-int) |  |
+| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int) |  |
+| [fetchParaAttr(int key)](#fetchParaAttr-int) |  |
+| [getAncestor(int ancestorType)](#getAncestor-int) |  |
+| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
+| [getBreakIsStyleSeparator()](#getBreakIsStyleSeparator) | True if this paragraph break is a Style Separator. |
+| [getChild(int nodeType, int index, boolean isDeep)](#getChild-int-int-boolean) |  |
+| [getChildNodes()](#getChildNodes) | Gets all immediate child nodes of this node. |
+| [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean) |  |
+| [getClass()](#getClass) |  |
+| [getContainer()](#getContainer) |  |
+| [getCount()](#getCount) | Gets the number of immediate children of this node. |
+| [getCurrentNode()](#getCurrentNode) |  |
+| [getCustomNodeId()](#getCustomNodeId) | Specifies custom node identifier. |
+| [getDirectParaAttr(int key)](#getDirectParaAttr-int) |  |
+| [getDirectParaAttr(int key, int revisionsView)](#getDirectParaAttr-int-int) |  |
+| [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
+| [getDocument()](#getDocument) | Gets the document to which this node belongs. |
+| [getEffectiveTabStops()](#getEffectiveTabStops) | Returns array of all tab stops applied to this paragraph, including applied indirectly by styles or lists. |
+| [getFirstChild()](#getFirstChild) | Gets the first child of the node. |
+| [getFrameFormat()](#getFrameFormat) | Provides access to the paragraph formatting properties. |
+| [getLastChild()](#getLastChild) | Gets the last child of the node. |
+| [getListFormat()](#getListFormat) | Provides access to the list formatting properties of the paragraph. |
+| [getListLabel()](#getListLabel) | Gets a [getListLabel()](../../com.aspose.words/paragraph\#getListLabel) object that provides access to list numbering value and formatting for this paragraph. |
+| [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node) |  |
+| [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
+| [getNodeType()](#getNodeType) | Returns [NodeType.PARAGRAPH](../../com.aspose.words/nodetype\#PARAGRAPH). |
+| [getParagraphBreakFont()](#getParagraphBreakFont) | Provides access to the font formatting of the paragraph break character. |
+| [getParagraphFormat()](#getParagraphFormat) | Provides access to the paragraph formatting properties. |
+| [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
+| [getParentSection()](#getParentSection) | Retrieves the parent [Section](../../com.aspose.words/section) of the paragraph. |
+| [getParentStory()](#getParentStory) | Retrieves the parent section-level story that can be [Body](../../com.aspose.words/body) or [HeaderFooter](../../com.aspose.words/headerfooter). |
+| [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
+| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node. |
+| [getRuns()](#getRuns) | Provides access to the typed collection of pieces of text inside the paragraph. |
+| [getText()](#getText) | Gets the text of this paragraph including the end of paragraph character. |
+| [hasChildNodes()](#hasChildNodes) | Returns  true  if this node has any child nodes. |
+| [hashCode()](#hashCode) |  |
+| [indexOf(Node child)](#indexOf-com.aspose.words.Node) | Returns the index of the specified child node in the child node array. |
+| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node) | Inserts the specified node immediately after the specified reference node. |
+| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node) | Inserts the specified node immediately before the specified reference node. |
+| [insertField(int fieldType, boolean updateField, Node refNode, boolean isAfter)](#insertField-int-boolean-com.aspose.words.Node-boolean) |  |
+| [insertField(String fieldCode, Node refNode, boolean isAfter)](#insertField-java.lang.String-com.aspose.words.Node-boolean) | Inserts a field into this paragraph. |
+| [insertField(String fieldCode, String fieldValue, Node refNode, boolean isAfter)](#insertField-java.lang.String-java.lang.String-com.aspose.words.Node-boolean) | Inserts a field into this paragraph. |
+| [isComposite()](#isComposite) | Returns  true  as this node can have child nodes. |
+| [isDeleteRevision()](#isDeleteRevision) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
+| [isEndOfCell()](#isEndOfCell) | True if this paragraph is the last paragraph in a [Cell](../../com.aspose.words/cell); false otherwise. |
+| [isEndOfDocument()](#isEndOfDocument) | True if this paragraph is the last paragraph in the last section of the document. |
+| [isEndOfHeaderFooter()](#isEndOfHeaderFooter) | True if this paragraph is the last paragraph in the [HeaderFooter](../../com.aspose.words/headerfooter) (main text story) of a [Section](../../com.aspose.words/section); false otherwise. |
+| [isEndOfSection()](#isEndOfSection) | True if this paragraph is the last paragraph in the [Body](../../com.aspose.words/body) (main text story) of a [Section](../../com.aspose.words/section); false otherwise. |
+| [isFormatRevision()](#isFormatRevision) | Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled. |
+| [isInCell()](#isInCell) | True if this paragraph is an immediate child of [Cell](../../com.aspose.words/cell); false otherwise. |
+| [isInsertRevision()](#isInsertRevision) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
+| [isListItem()](#isListItem) | True when the paragraph is an item in a bulleted or numbered list in original revision. |
+| [isMoveFromRevision()](#isMoveFromRevision) | Returns  true  if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
+| [isMoveToRevision()](#isMoveToRevision) | Returns  true  if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [iterator()](#iterator) | Provides support for the for each style iteration over the child nodes of this node. |
+| [joinRunsWithSameFormatting()](#joinRunsWithSameFormatting) | Joins runs with the same formatting in the paragraph. |
+| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node) | Gets next node according to the pre-order tree traversal algorithm. |
+| [nodeTypeToString(int nodeType)](#nodeTypeToString-int) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [prependChild(Node newChild)](#prependChild-com.aspose.words.Node) | Adds the specified node to the beginning of the list of child nodes for this node. |
+| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [remove()](#remove) | Removes itself from the parent. |
+| [removeAllChildren()](#removeAllChildren) | Removes all the child nodes of the current node. |
+| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node) | Removes the specified child node. |
+| [removeMoveRevisions()](#removeMoveRevisions) |  |
+| [removeParaAttr(int key)](#removeParaAttr-int) |  |
+| [removeRunAttr(int key)](#removeRunAttr-int) |  |
+| [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. |
+| [selectNodes(String xpath)](#selectNodes-java.lang.String) | Selects a list of nodes matching the XPath expression. |
+| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String) | Selects the first [Node](../../com.aspose.words/node) that matches the XPath expression. |
+| [setCustomNodeId(int value)](#setCustomNodeId-int) | Specifies custom node identifier. |
+| [setParaAttr(int key, Object value)](#setParaAttr-int-java.lang.Object) |  |
+| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object) |  |
+| [toString()](#toString) |  |
+| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions) | Exports the content of the node into a string using the specified save options. |
+| [toString(int saveFormat)](#toString-int) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### Paragraph(DocumentBase doc) {#Paragraph-com.aspose.words.DocumentBase}
 ```
 public Paragraph(DocumentBase doc)
 ```
 
 
-Initializes a new instance of the **Paragraph** class.
+Initializes a new instance of the [Paragraph](../../com.aspose.words/paragraph) class.
 
-When **Paragraph** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+When [Paragraph](../../com.aspose.words/paragraph) is created, it belongs to the specified document, but is not yet part of the document and [Node.getParentNode()](../../com.aspose.words/node\#getParentNode) is  null .
 
-To append **Paragraph** to the document use InsertAfter or InsertBefore on the story where you want the paragraph inserted.
+To append [Paragraph](../../com.aspose.words/paragraph) to the document use [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertAfter-com.aspose.words.Node--com.aspose.words.Node) or [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertBefore-com.aspose.words.Node--com.aspose.words.Node) on the story where you want the paragraph inserted.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | doc | [DocumentBase](../../com.aspose.words/documentbase) | The owner document. |
 
-### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor-}
+### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor}
 ```
 public boolean accept(DocumentVisitor visitor)
 ```
@@ -152,7 +155,7 @@ public boolean accept(DocumentVisitor visitor)
 
 Accepts a visitor.
 
-Enumerates over this node and all of its children. Each node calls a corresponding method on DocumentVisitor.
+Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../com.aspose.words/documentvisitor).
 
 For more info see the Visitor design pattern.
 
@@ -162,8 +165,8 @@ For more info see the Visitor design pattern.
 | visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | The visitor that will visit the nodes. |
 
 **Returns:**
-boolean - True if all nodes were visited; false if DocumentVisitor stopped the operation before visiting all nodes. Calls DocumentVisitor.VisitParagraphStart, then calls Accept for all child nodes of the paragraph and calls DocumentVisitor.VisitParagraphEnd at the end.
-### appendChild(Node newChild) {#appendChild-com.aspose.words.Node-}
+boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor) stopped the operation before visiting all nodes. Calls [DocumentVisitor.visitParagraphStart(com.aspose.words.Paragraph)](../../com.aspose.words/documentvisitor\#visitParagraphStart-com.aspose.words.Paragraph), then calls [Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node\#accept-com.aspose.words.DocumentVisitor) for all child nodes of the paragraph and calls [DocumentVisitor.visitParagraphEnd(com.aspose.words.Paragraph)](../../com.aspose.words/documentvisitor\#visitParagraphEnd-com.aspose.words.Paragraph) at the end.
+### appendChild(Node newChild) {#appendChild-com.aspose.words.Node}
 ```
 public Node appendChild(Node newChild)
 ```
@@ -171,7 +174,7 @@ public Node appendChild(Node newChild)
 
 Adds the specified node to the end of the list of child nodes for this node.
 
-If the newChild is already in the tree, it is first removed.
+If the  newChild  is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
@@ -182,7 +185,7 @@ If the node being inserted was created from another document, you should use **M
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The node added.
-### appendField(int fieldType, boolean updateField) {#appendField-int-boolean-}
+### appendField(int fieldType, boolean updateField) {#appendField-int-boolean}
 ```
 public Field appendField(int fieldType, boolean updateField)
 ```
@@ -198,13 +201,13 @@ public Field appendField(int fieldType, boolean updateField)
 
 **Returns:**
 [Field](../../com.aspose.words/field)
-### appendField(String fieldCode) {#appendField-java.lang.String-}
+### appendField(String fieldCode) {#appendField-java.lang.String}
 ```
 public Field appendField(String fieldCode)
 ```
 
 
-Appends a Word field to this paragraph.  Appends a field to this paragraph.
+Appends a field to this paragraph.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -213,23 +216,23 @@ Appends a Word field to this paragraph.  Appends a field to this paragraph.
 
 **Returns:**
 [Field](../../com.aspose.words/field) - A [Field](../../com.aspose.words/field) object that represents the appended field.
-### appendField(String fieldCode, String fieldValue) {#appendField-java.lang.String-java.lang.String-}
+### appendField(String fieldCode, String fieldValue) {#appendField-java.lang.String-java.lang.String}
 ```
 public Field appendField(String fieldCode, String fieldValue)
 ```
 
 
-Appends a Word field to this paragraph.  Appends a field to this paragraph.
+Appends a field to this paragraph.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldCode | java.lang.String | The field code to append (without curly braces). |
-| fieldValue | java.lang.String | The field value to append. Pass null for fields that do not have a value. |
+| fieldValue | java.lang.String | The field value to append. Pass  null  for fields that do not have a value. |
 
 **Returns:**
 [Field](../../com.aspose.words/field) - A [Field](../../com.aspose.words/field) object that represents the appended field.
-### clearParaAttrs() {#clearParaAttrs--}
+### clearParaAttrs() {#clearParaAttrs}
 ```
 public void clearParaAttrs()
 ```
@@ -237,7 +240,7 @@ public void clearParaAttrs()
 
 
 
-### clearRunAttrs() {#clearRunAttrs--}
+### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
 ```
@@ -245,7 +248,7 @@ public void clearRunAttrs()
 
 
 
-### dd() {#dd--}
+### dd() {#dd}
 ```
 public void dd()
 ```
@@ -253,7 +256,7 @@ public void dd()
 
 
 
-### deepClone(boolean isCloneChildren) {#deepClone-boolean-}
+### deepClone(boolean isCloneChildren) {#deepClone-boolean}
 ```
 public Node deepClone(boolean isCloneChildren)
 ```
@@ -263,7 +266,7 @@ Creates a duplicate of the node.
 
 This method serves as a copy constructor for nodes. The cloned node has no parent, but belongs to the same document as the original node.
 
-This method always performs a deep copy of the node. The *isCloneChildren* parameter specifies whether to perform copy all child nodes as well.
+This method always performs a deep copy of the node. The  isCloneChildren  parameter specifies whether to perform copy all child nodes as well.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -272,7 +275,7 @@ This method always performs a deep copy of the node. The *isCloneChildren* param
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The cloned node.
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -287,7 +290,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fetchInheritedParaAttr(int key) {#fetchInheritedParaAttr-int-}
+### fetchInheritedParaAttr(int key) {#fetchInheritedParaAttr-int}
 ```
 public Object fetchInheritedParaAttr(int key)
 ```
@@ -302,7 +305,7 @@ public Object fetchInheritedParaAttr(int key)
 
 **Returns:**
 java.lang.Object
-### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
+### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int}
 ```
 public Object fetchInheritedRunAttr(int key)
 ```
@@ -317,7 +320,7 @@ public Object fetchInheritedRunAttr(int key)
 
 **Returns:**
 java.lang.Object
-### fetchParaAttr(int key) {#fetchParaAttr-int-}
+### fetchParaAttr(int key) {#fetchParaAttr-int}
 ```
 public Object fetchParaAttr(int key)
 ```
@@ -332,7 +335,7 @@ public Object fetchParaAttr(int key)
 
 **Returns:**
 java.lang.Object
-### getAncestor(int ancestorType) {#getAncestor-int-}
+### getAncestor(int ancestorType) {#getAncestor-int}
 ```
 public CompositeNode getAncestor(int ancestorType)
 ```
@@ -347,7 +350,7 @@ public CompositeNode getAncestor(int ancestorType)
 
 **Returns:**
 [CompositeNode](../../com.aspose.words/compositenode)
-### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
+### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class}
 ```
 public CompositeNode getAncestor(Class ancestorType)
 ```
@@ -361,10 +364,10 @@ Gets the first ancestor of the specified object type.
 | ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or null if no ancestor of this type was found.
+[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 
-The ancestor type matches if it is equal to ancestorType or derived from ancestorType.
-### getBreakIsStyleSeparator() {#getBreakIsStyleSeparator--}
+The ancestor type matches if it is equal to  ancestorType  or derived from  ancestorType .
+### getBreakIsStyleSeparator() {#getBreakIsStyleSeparator}
 ```
 public boolean getBreakIsStyleSeparator()
 ```
@@ -374,7 +377,7 @@ True if this paragraph break is a Style Separator. A style separator allows one 
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getChild(int nodeType, int index, boolean isDeep) {#getChild-int-int-boolean-}
+### getChild(int nodeType, int index, boolean isDeep) {#getChild-int-int-boolean}
 ```
 public Node getChild(int nodeType, int index, boolean isDeep)
 ```
@@ -391,7 +394,7 @@ public Node getChild(int nodeType, int index, boolean isDeep)
 
 **Returns:**
 [Node](../../com.aspose.words/node)
-### getChildNodes() {#getChildNodes--}
+### getChildNodes() {#getChildNodes}
 ```
 public NodeCollection getChildNodes()
 ```
@@ -399,13 +402,13 @@ public NodeCollection getChildNodes()
 
 Gets all immediate child nodes of this node.
 
-Note, [getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes--) is equivalent to calling  GetChildNodes(NodeType.Any, false)  and creates and returns a new collection every time it is accessed.
+Note, [getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes) is equivalent to calling **M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)** with arguments ( [NodeType.ANY](../../com.aspose.words/nodetype\#ANY),  false ) and creates and returns a new collection every time it is accessed.
 
 If there are no child nodes, this property returns an empty collection.
 
 **Returns:**
 [NodeCollection](../../com.aspose.words/nodecollection) - All immediate child nodes of this node.
-### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean-}
+### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean}
 ```
 public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 ```
@@ -421,7 +424,7 @@ public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 
 **Returns:**
 [NodeCollection](../../com.aspose.words/nodecollection)
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -431,7 +434,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getContainer() {#getContainer--}
+### getContainer() {#getContainer}
 ```
 public CompositeNode getContainer()
 ```
@@ -441,7 +444,7 @@ public CompositeNode getContainer()
 
 **Returns:**
 [CompositeNode](../../com.aspose.words/compositenode)
-### getCount() {#getCount--}
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -451,7 +454,7 @@ Gets the number of immediate children of this node.
 
 **Returns:**
 int - The number of immediate children of this node.
-### getCurrentNode() {#getCurrentNode--}
+### getCurrentNode() {#getCurrentNode}
 ```
 public Node getCurrentNode()
 ```
@@ -461,7 +464,7 @@ public Node getCurrentNode()
 
 **Returns:**
 [Node](../../com.aspose.words/node)
-### getCustomNodeId() {#getCustomNodeId--}
+### getCustomNodeId() {#getCustomNodeId}
 ```
 public int getCustomNodeId()
 ```
@@ -477,7 +480,7 @@ Important note, specified value is not saved to an output file and exists only d
 
 **Returns:**
 int - The corresponding  int  value.
-### getDirectParaAttr(int key) {#getDirectParaAttr-int-}
+### getDirectParaAttr(int key) {#getDirectParaAttr-int}
 ```
 public Object getDirectParaAttr(int key)
 ```
@@ -492,7 +495,7 @@ public Object getDirectParaAttr(int key)
 
 **Returns:**
 java.lang.Object
-### getDirectParaAttr(int key, int revisionsView) {#getDirectParaAttr-int-int-}
+### getDirectParaAttr(int key, int revisionsView) {#getDirectParaAttr-int-int}
 ```
 public Object getDirectParaAttr(int key, int revisionsView)
 ```
@@ -508,7 +511,7 @@ public Object getDirectParaAttr(int key, int revisionsView)
 
 **Returns:**
 java.lang.Object
-### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
+### getDirectRunAttr(int key) {#getDirectRunAttr-int}
 ```
 public Object getDirectRunAttr(int key)
 ```
@@ -523,7 +526,7 @@ public Object getDirectRunAttr(int key)
 
 **Returns:**
 java.lang.Object
-### getDocument() {#getDocument--}
+### getDocument() {#getDocument}
 ```
 public DocumentBase getDocument()
 ```
@@ -535,7 +538,7 @@ The node always belongs to a document even if it has just been created and not y
 
 **Returns:**
 [DocumentBase](../../com.aspose.words/documentbase) - The document to which this node belongs.
-### getEffectiveTabStops() {#getEffectiveTabStops--}
+### getEffectiveTabStops() {#getEffectiveTabStops}
 ```
 public TabStop[] getEffectiveTabStops()
 ```
@@ -545,17 +548,17 @@ Returns array of all tab stops applied to this paragraph, including applied indi
 
 **Returns:**
 com.aspose.words.TabStop[]
-### getFirstChild() {#getFirstChild--}
+### getFirstChild() {#getFirstChild}
 ```
 public Node getFirstChild()
 ```
 
 
-Gets the first child of the node. If there is no first child node, a null is returned.
+Gets the first child of the node. If there is no first child node, a  null  is returned.
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The first child of the node.
-### getFrameFormat() {#getFrameFormat--}
+### getFrameFormat() {#getFrameFormat}
 ```
 public FrameFormat getFrameFormat()
 ```
@@ -565,17 +568,17 @@ Provides access to the paragraph formatting properties.
 
 **Returns:**
 [FrameFormat](../../com.aspose.words/frameformat) - The corresponding [FrameFormat](../../com.aspose.words/frameformat) value.
-### getLastChild() {#getLastChild--}
+### getLastChild() {#getLastChild}
 ```
 public Node getLastChild()
 ```
 
 
-Gets the last child of the node. If there is no last child node, a null is returned.
+Gets the last child of the node. If there is no last child node, a  null  is returned.
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The last child of the node.
-### getListFormat() {#getListFormat--}
+### getListFormat() {#getListFormat}
 ```
 public ListFormat getListFormat()
 ```
@@ -585,17 +588,17 @@ Provides access to the list formatting properties of the paragraph.
 
 **Returns:**
 [ListFormat](../../com.aspose.words/listformat) - The corresponding [ListFormat](../../com.aspose.words/listformat) value.
-### getListLabel() {#getListLabel--}
+### getListLabel() {#getListLabel}
 ```
 public ListLabel getListLabel()
 ```
 
 
-Gets a [getListLabel()](../../com.aspose.words/paragraph\#getListLabel--) object that provides access to list numbering value and formatting for this paragraph.
+Gets a [getListLabel()](../../com.aspose.words/paragraph\#getListLabel) object that provides access to list numbering value and formatting for this paragraph.
 
 **Returns:**
-[ListLabel](../../com.aspose.words/listlabel) - A [getListLabel()](../../com.aspose.words/paragraph\#getListLabel--) object that provides access to list numbering value and formatting for this paragraph.
-### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node-}
+[ListLabel](../../com.aspose.words/listlabel) - A [getListLabel()](../../com.aspose.words/paragraph\#getListLabel) object that provides access to list numbering value and formatting for this paragraph.
+### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node}
 ```
 public Node getNextMatchingNode(Node curNode)
 ```
@@ -610,27 +613,27 @@ public Node getNextMatchingNode(Node curNode)
 
 **Returns:**
 [Node](../../com.aspose.words/node)
-### getNextSibling() {#getNextSibling--}
+### getNextSibling() {#getNextSibling}
 ```
 public Node getNextSibling()
 ```
 
 
-Gets the node immediately following this node. If there is no next node, a null is returned.
+Gets the node immediately following this node. If there is no next node, a  null  is returned.
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The node immediately following this node.
-### getNodeType() {#getNodeType--}
+### getNodeType() {#getNodeType}
 ```
 public int getNodeType()
 ```
 
 
-Returns **NodeType.Paragraph**.
+Returns [NodeType.PARAGRAPH](../../com.aspose.words/nodetype\#PARAGRAPH).
 
 **Returns:**
-int - **NodeType.Paragraph**. The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
-### getParagraphBreakFont() {#getParagraphBreakFont--}
+int - \{[NodeType.PARAGRAPH](../../com.aspose.words/nodetype\#PARAGRAPH). The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
+### getParagraphBreakFont() {#getParagraphBreakFont}
 ```
 public Font getParagraphBreakFont()
 ```
@@ -640,7 +643,7 @@ Provides access to the font formatting of the paragraph break character.
 
 **Returns:**
 [Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
-### getParagraphFormat() {#getParagraphFormat--}
+### getParagraphFormat() {#getParagraphFormat}
 ```
 public ParagraphFormat getParagraphFormat()
 ```
@@ -650,7 +653,7 @@ Provides access to the paragraph formatting properties.
 
 **Returns:**
 [ParagraphFormat](../../com.aspose.words/paragraphformat) - The corresponding [ParagraphFormat](../../com.aspose.words/paragraphformat) value.
-### getParentNode() {#getParentNode--}
+### getParentNode() {#getParentNode}
 ```
 public CompositeNode getParentNode()
 ```
@@ -658,11 +661,11 @@ public CompositeNode getParentNode()
 
 Gets the immediate parent of this node.
 
-If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is null.
+If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is  null .
 
 **Returns:**
 [CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
-### getParentSection() {#getParentSection--}
+### getParentSection() {#getParentSection}
 ```
 public Section getParentSection()
 ```
@@ -672,7 +675,7 @@ Retrieves the parent [Section](../../com.aspose.words/section) of the paragraph.
 
 **Returns:**
 [Section](../../com.aspose.words/section) - The corresponding [Section](../../com.aspose.words/section) value.
-### getParentStory() {#getParentStory--}
+### getParentStory() {#getParentStory}
 ```
 public Story getParentStory()
 ```
@@ -682,27 +685,27 @@ Retrieves the parent section-level story that can be [Body](../../com.aspose.wor
 
 **Returns:**
 [Story](../../com.aspose.words/story) - The corresponding [Story](../../com.aspose.words/story) value.
-### getPreviousSibling() {#getPreviousSibling--}
+### getPreviousSibling() {#getPreviousSibling}
 ```
 public Node getPreviousSibling()
 ```
 
 
-Gets the node immediately preceding this node. If there is no preceding node, a null is returned.
+Gets the node immediately preceding this node. If there is no preceding node, a  null  is returned.
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The node immediately preceding this node.
-### getRange() {#getRange--}
+### getRange() {#getRange}
 ```
 public Range getRange()
 ```
 
 
-Returns a **Range** object that represents the portion of a document that is contained in this node.
+Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
 
 **Returns:**
-[Range](../../com.aspose.words/range) - A **Range** object that represents the portion of a document that is contained in this node.
-### getRuns() {#getRuns--}
+[Range](../../com.aspose.words/range) - A [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+### getRuns() {#getRuns}
 ```
 public RunCollection getRuns()
 ```
@@ -712,7 +715,7 @@ Provides access to the typed collection of pieces of text inside the paragraph.
 
 **Returns:**
 [RunCollection](../../com.aspose.words/runcollection) - The corresponding [RunCollection](../../com.aspose.words/runcollection) value.
-### getText() {#getText--}
+### getText() {#getText}
 ```
 public String getText()
 ```
@@ -730,17 +733,17 @@ The returned string includes all control and special characters as described in 
 
 **Returns:**
 java.lang.String
-### hasChildNodes() {#hasChildNodes--}
+### hasChildNodes() {#hasChildNodes}
 ```
 public boolean hasChildNodes()
 ```
 
 
-Returns true if this node has any child nodes.
+Returns  true  if this node has any child nodes.
 
 **Returns:**
-boolean - True if this node has any child nodes.
-### hashCode() {#hashCode--}
+boolean - \{ true  if this node has any child nodes.
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -750,7 +753,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### indexOf(Node child) {#indexOf-com.aspose.words.Node-}
+### indexOf(Node child) {#indexOf-com.aspose.words.Node}
 ```
 public int indexOf(Node child)
 ```
@@ -765,7 +768,7 @@ Returns the index of the specified child node in the child node array. Returns -
 
 **Returns:**
 int
-### insertAfter(Node newChild, Node refChild) {#insertAfter-com.aspose.words.Node-com.aspose.words.Node-}
+### insertAfter(Node newChild, Node refChild) {#insertAfter-com.aspose.words.Node-com.aspose.words.Node}
 ```
 public Node insertAfter(Node newChild, Node refChild)
 ```
@@ -773,21 +776,21 @@ public Node insertAfter(Node newChild, Node refChild)
 
 Inserts the specified node immediately after the specified reference node.
 
-If refChild is null, inserts newChild at the beginning of the list of child nodes.
+If  refChild  is  null , inserts  newChild  at the beginning of the list of child nodes.
 
-If the newChild is already in the tree, it is first removed.
+If the  newChild  is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The Node to insert. |
-| refChild | [Node](../../com.aspose.words/node) | The Node that is the reference node. The newNode is placed after the refNode. |
+| newChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) to insert. |
+| refChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) that is the reference node. The  newChild  is placed after the  refChild . |
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The inserted node.
-### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node-}
+### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node}
 ```
 public Node insertBefore(Node newChild, Node refChild)
 ```
@@ -795,21 +798,21 @@ public Node insertBefore(Node newChild, Node refChild)
 
 Inserts the specified node immediately before the specified reference node.
 
-If refChild is null, inserts newChild at the end of the list of child nodes.
+If  refChild  is  null , inserts  newChild  at the end of the list of child nodes.
 
-If the newChild is already in the tree, it is first removed.
+If the  newChild  is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The Node to insert. |
-| refChild | [Node](../../com.aspose.words/node) | The Node that is the reference node. The newChild is placed before this node. |
+| newChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) to insert. |
+| refChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) that is the reference node. The  newChild  is placed before this node. |
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The inserted node.
-### insertField(int fieldType, boolean updateField, Node refNode, boolean isAfter) {#insertField-int-boolean-com.aspose.words.Node-boolean-}
+### insertField(int fieldType, boolean updateField, Node refNode, boolean isAfter) {#insertField-int-boolean-com.aspose.words.Node-boolean}
 ```
 public Field insertField(int fieldType, boolean updateField, Node refNode, boolean isAfter)
 ```
@@ -827,52 +830,52 @@ public Field insertField(int fieldType, boolean updateField, Node refNode, boole
 
 **Returns:**
 [Field](../../com.aspose.words/field)
-### insertField(String fieldCode, Node refNode, boolean isAfter) {#insertField-java.lang.String-com.aspose.words.Node-boolean-}
+### insertField(String fieldCode, Node refNode, boolean isAfter) {#insertField-java.lang.String-com.aspose.words.Node-boolean}
 ```
 public Field insertField(String fieldCode, Node refNode, boolean isAfter)
 ```
 
 
-Inserts a Word field into this paragraph.  Inserts a field into this paragraph.
+Inserts a field into this paragraph.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldCode | java.lang.String | The field code to insert (without curly braces). |
-| refNode | [Node](../../com.aspose.words/node) | Reference node inside this paragraph (if refNode is null, then appends to the end of the paragraph). |
+| refNode | [Node](../../com.aspose.words/node) | Reference node inside this paragraph (if  refNode  is  null , then appends to the end of the paragraph). |
 | isAfter | boolean | Whether to insert the field after or before reference node. |
 
 **Returns:**
 [Field](../../com.aspose.words/field) - A [Field](../../com.aspose.words/field) object that represents the inserted field.
-### insertField(String fieldCode, String fieldValue, Node refNode, boolean isAfter) {#insertField-java.lang.String-java.lang.String-com.aspose.words.Node-boolean-}
+### insertField(String fieldCode, String fieldValue, Node refNode, boolean isAfter) {#insertField-java.lang.String-java.lang.String-com.aspose.words.Node-boolean}
 ```
 public Field insertField(String fieldCode, String fieldValue, Node refNode, boolean isAfter)
 ```
 
 
-Inserts a Word field into this paragraph.  Inserts a field into this paragraph.
+Inserts a field into this paragraph.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldCode | java.lang.String | The field code to insert (without curly braces). |
-| fieldValue | java.lang.String | The field value to insert. Pass null for fields that do not have a value. |
-| refNode | [Node](../../com.aspose.words/node) | Reference node inside this paragraph (if refNode is null, then appends to the end of the paragraph). |
+| fieldValue | java.lang.String | The field value to insert. Pass  null  for fields that do not have a value. |
+| refNode | [Node](../../com.aspose.words/node) | Reference node inside this paragraph (if  refNode  is  null , then appends to the end of the paragraph). |
 | isAfter | boolean | Whether to insert the field after or before reference node. |
 
 **Returns:**
 [Field](../../com.aspose.words/field) - A [Field](../../com.aspose.words/field) object that represents the inserted field.
-### isComposite() {#isComposite--}
+### isComposite() {#isComposite}
 ```
 public boolean isComposite()
 ```
 
 
-Returns true as this node can have child nodes.
+Returns  true  as this node can have child nodes.
 
 **Returns:**
-boolean - True as this node can have child nodes.
-### isDeleteRevision() {#isDeleteRevision--}
+boolean - \{ true  as this node can have child nodes.
+### isDeleteRevision() {#isDeleteRevision}
 ```
 public boolean isDeleteRevision()
 ```
@@ -882,7 +885,7 @@ Returns true if this object was deleted in Microsoft Word while change tracking 
 
 **Returns:**
 boolean - True if this object was deleted in Microsoft Word while change tracking was enabled.
-### isEndOfCell() {#isEndOfCell--}
+### isEndOfCell() {#isEndOfCell}
 ```
 public boolean isEndOfCell()
 ```
@@ -892,7 +895,7 @@ True if this paragraph is the last paragraph in a [Cell](../../com.aspose.words/
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### isEndOfDocument() {#isEndOfDocument--}
+### isEndOfDocument() {#isEndOfDocument}
 ```
 public boolean isEndOfDocument()
 ```
@@ -902,27 +905,27 @@ True if this paragraph is the last paragraph in the last section of the document
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### isEndOfHeaderFooter() {#isEndOfHeaderFooter--}
+### isEndOfHeaderFooter() {#isEndOfHeaderFooter}
 ```
 public boolean isEndOfHeaderFooter()
 ```
 
 
-True if this paragraph is the last paragraph in the **HeaderFooter** (main text story) of a **Section**; false otherwise.
+True if this paragraph is the last paragraph in the [HeaderFooter](../../com.aspose.words/headerfooter) (main text story) of a [Section](../../com.aspose.words/section); false otherwise.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### isEndOfSection() {#isEndOfSection--}
+### isEndOfSection() {#isEndOfSection}
 ```
 public boolean isEndOfSection()
 ```
 
 
-True if this paragraph is the last paragraph in the **Body** (main text story) of a **Section**; false otherwise.
+True if this paragraph is the last paragraph in the [Body](../../com.aspose.words/body) (main text story) of a [Section](../../com.aspose.words/section); false otherwise.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### isFormatRevision() {#isFormatRevision--}
+### isFormatRevision() {#isFormatRevision}
 ```
 public boolean isFormatRevision()
 ```
@@ -932,7 +935,7 @@ Returns true if formatting of the object was changed in Microsoft Word while cha
 
 **Returns:**
 boolean - True if formatting of the object was changed in Microsoft Word while change tracking was enabled.
-### isInCell() {#isInCell--}
+### isInCell() {#isInCell}
 ```
 public boolean isInCell()
 ```
@@ -942,7 +945,7 @@ True if this paragraph is an immediate child of [Cell](../../com.aspose.words/ce
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### isInsertRevision() {#isInsertRevision--}
+### isInsertRevision() {#isInsertRevision}
 ```
 public boolean isInsertRevision()
 ```
@@ -952,7 +955,7 @@ Returns true if this object was inserted in Microsoft Word while change tracking
 
 **Returns:**
 boolean - True if this object was inserted in Microsoft Word while change tracking was enabled.
-### isListItem() {#isListItem--}
+### isListItem() {#isListItem}
 ```
 public boolean isListItem()
 ```
@@ -962,27 +965,27 @@ True when the paragraph is an item in a bulleted or numbered list in original re
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### isMoveFromRevision() {#isMoveFromRevision--}
+### isMoveFromRevision() {#isMoveFromRevision}
 ```
 public boolean isMoveFromRevision()
 ```
 
 
-Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
+Returns  true  if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
 
 **Returns:**
-boolean - **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
-### isMoveToRevision() {#isMoveToRevision--}
+boolean - \{ true  if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
+### isMoveToRevision() {#isMoveToRevision}
 ```
 public boolean isMoveToRevision()
 ```
 
 
-Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
+Returns  true  if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
 
 **Returns:**
-boolean - **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
-### iterator() {#iterator--}
+boolean - \{ true  if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -992,7 +995,7 @@ Provides support for the for each style iteration over the child nodes of this n
 
 **Returns:**
 java.util.Iterator
-### joinRunsWithSameFormatting() {#joinRunsWithSameFormatting--}
+### joinRunsWithSameFormatting() {#joinRunsWithSameFormatting}
 ```
 public int joinRunsWithSameFormatting()
 ```
@@ -1002,7 +1005,7 @@ Joins runs with the same formatting in the paragraph.
 
 **Returns:**
 int - Number of joins performed. When **N** adjacent runs are being joined they count as **N - 1** joins.
-### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node-}
+### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node}
 ```
 public Node nextPreOrder(Node rootNode)
 ```
@@ -1016,8 +1019,8 @@ Gets next node according to the pre-order tree traversal algorithm.
 | rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the rootNode.
-### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
+[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the  rootNode .
+### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
 ```
@@ -1032,7 +1035,7 @@ public static String nodeTypeToString(int nodeType)
 
 **Returns:**
 java.lang.String
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -1040,7 +1043,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -1048,7 +1051,7 @@ public final native void notifyAll()
 
 
 
-### prependChild(Node newChild) {#prependChild-com.aspose.words.Node-}
+### prependChild(Node newChild) {#prependChild-com.aspose.words.Node}
 ```
 public Node prependChild(Node newChild)
 ```
@@ -1056,7 +1059,7 @@ public Node prependChild(Node newChild)
 
 Adds the specified node to the beginning of the list of child nodes for this node.
 
-If the newChild is already in the tree, it is first removed.
+If the  newChild  is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
@@ -1067,7 +1070,7 @@ If the node being inserted was created from another document, you should use **M
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The node added.
-### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node-}
+### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node}
 ```
 public Node previousPreOrder(Node rootNode)
 ```
@@ -1081,8 +1084,8 @@ Gets the previous node according to the pre-order tree traversal algorithm.
 | rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the rootNode.
-### remove() {#remove--}
+[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the  rootNode .
+### remove() {#remove}
 ```
 public void remove()
 ```
@@ -1090,7 +1093,7 @@ public void remove()
 
 Removes itself from the parent.
 
-### removeAllChildren() {#removeAllChildren--}
+### removeAllChildren() {#removeAllChildren}
 ```
 public void removeAllChildren()
 ```
@@ -1098,7 +1101,7 @@ public void removeAllChildren()
 
 Removes all the child nodes of the current node.
 
-### removeChild(Node oldChild) {#removeChild-com.aspose.words.Node-}
+### removeChild(Node oldChild) {#removeChild-com.aspose.words.Node}
 ```
 public Node removeChild(Node oldChild)
 ```
@@ -1106,7 +1109,7 @@ public Node removeChild(Node oldChild)
 
 Removes the specified child node.
 
-The parent of oldChild is set to null after the node is removed.
+The parent of  oldChild  is set to  null  after the node is removed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1115,7 +1118,7 @@ The parent of oldChild is set to null after the node is removed.
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The removed node.
-### removeMoveRevisions() {#removeMoveRevisions--}
+### removeMoveRevisions() {#removeMoveRevisions}
 ```
 public void removeMoveRevisions()
 ```
@@ -1123,7 +1126,7 @@ public void removeMoveRevisions()
 
 
 
-### removeParaAttr(int key) {#removeParaAttr-int-}
+### removeParaAttr(int key) {#removeParaAttr-int}
 ```
 public void removeParaAttr(int key)
 ```
@@ -1136,7 +1139,7 @@ public void removeParaAttr(int key)
 | --- | --- | --- |
 | key | int |  |
 
-### removeRunAttr(int key) {#removeRunAttr-int-}
+### removeRunAttr(int key) {#removeRunAttr-int}
 ```
 public void removeRunAttr(int key)
 ```
@@ -1149,7 +1152,7 @@ public void removeRunAttr(int key)
 | --- | --- | --- |
 | key | int |  |
 
-### removeSmartTags() {#removeSmartTags--}
+### removeSmartTags() {#removeSmartTags}
 ```
 public void removeSmartTags()
 ```
@@ -1157,7 +1160,7 @@ public void removeSmartTags()
 
 Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. This method does not remove the content of the smart tags.
 
-### selectNodes(String xpath) {#selectNodes-java.lang.String-}
+### selectNodes(String xpath) {#selectNodes-java.lang.String}
 ```
 public NodeList selectNodes(String xpath)
 ```
@@ -1174,13 +1177,13 @@ Only expressions with element names are supported at the moment. Expressions tha
 
 **Returns:**
 [NodeList](../../com.aspose.words/nodelist) - A list of nodes matching the XPath query.
-### selectSingleNode(String xpath) {#selectSingleNode-java.lang.String-}
+### selectSingleNode(String xpath) {#selectSingleNode-java.lang.String}
 ```
 public Node selectSingleNode(String xpath)
 ```
 
 
-Selects the first Node that matches the XPath expression.
+Selects the first [Node](../../com.aspose.words/node) that matches the XPath expression.
 
 Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
@@ -1190,8 +1193,8 @@ Only expressions with element names are supported at the moment. Expressions tha
 | xpath | java.lang.String | The XPath expression. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The first Node that matches the XPath query or null if no matching node is found.
-### setCustomNodeId(int value) {#setCustomNodeId-int-}
+[Node](../../com.aspose.words/node) - The first [Node](../../com.aspose.words/node) that matches the XPath query or  null  if no matching node is found.
+### setCustomNodeId(int value) {#setCustomNodeId-int}
 ```
 public void setCustomNodeId(int value)
 ```
@@ -1210,7 +1213,7 @@ Important note, specified value is not saved to an output file and exists only d
 | --- | --- | --- |
 | value | int | The corresponding  int  value. |
 
-### setParaAttr(int key, Object value) {#setParaAttr-int-java.lang.Object-}
+### setParaAttr(int key, Object value) {#setParaAttr-int-java.lang.Object}
 ```
 public void setParaAttr(int key, Object value)
 ```
@@ -1224,7 +1227,7 @@ public void setParaAttr(int key, Object value)
 | key | int |  |
 | value | java.lang.Object |  |
 
-### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object-}
+### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object}
 ```
 public void setRunAttr(int key, Object value)
 ```
@@ -1238,7 +1241,7 @@ public void setRunAttr(int key, Object value)
 | key | int |  |
 | value | java.lang.Object |  |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -1248,7 +1251,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(SaveOptions saveOptions) {#toString-com.aspose.words.SaveOptions-}
+### toString(SaveOptions saveOptions) {#toString-com.aspose.words.SaveOptions}
 ```
 public String toString(SaveOptions saveOptions)
 ```
@@ -1263,7 +1266,7 @@ Exports the content of the node into a string using the specified save options.
 
 **Returns:**
 java.lang.String - The content of the node in the specified format.
-### toString(int saveFormat) {#toString-int-}
+### toString(int saveFormat) {#toString-int}
 ```
 public String toString(int saveFormat)
 ```
@@ -1278,7 +1281,7 @@ public String toString(int saveFormat)
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -1286,7 +1289,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -1299,7 +1302,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

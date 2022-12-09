@@ -3,7 +3,7 @@ title: FontInfoCollection
 second_title: Aspose.Words for Java API Reference
 description: Represents a collection of fonts used in a document.
 type: docs
-weight: 281
+weight: 283
 url: /java/com.aspose.words/fontinfocollection/
 ---
 
@@ -18,36 +18,39 @@ public class FontInfoCollection implements Iterable
 
 Represents a collection of fonts used in a document.
 
-To learn more, visit the **Working with Fonts** documentation article.
+To learn more, visit the [ Working with Fonts ][Working with Fonts] documentation article.
 
 Items are [FontInfo](../../com.aspose.words/fontinfo) objects.
 
-You do not create instances of this class directly. Use the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--) property to access the collection of fonts defined in the document.
+You do not create instances of this class directly. Use the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos) property to access the collection of fonts defined in the document.
+
+
+[Working with Fonts]: https://docs.aspose.com/words/java/working-with-fonts/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [contains(String name)](#contains-java.lang.String-) | Determines whether the collection contains a font with the given name. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Gets a font at the specified index. |
-| [get(String name)](#get-java.lang.String-) | Provides access to the collection items. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
-| [getEmbedSystemFonts()](#getEmbedSystemFonts--) | Specifies whether or not to embed System fonts into the document. |
-| [getEmbedTrueTypeFonts()](#getEmbedTrueTypeFonts--) | Specifies whether or not to embed TrueType fonts in a document when it is saved. |
-| [getSaveSubsetFonts()](#getSaveSubsetFonts--) | Specifies whether or not to save a subset of the embedded TrueType fonts with the document. |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Returns an iterator object that can be used to iterate over all items in the collection. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setEmbedSystemFonts(boolean value)](#setEmbedSystemFonts-boolean-) | Specifies whether or not to embed System fonts into the document. |
-| [setEmbedTrueTypeFonts(boolean value)](#setEmbedTrueTypeFonts-boolean-) | Specifies whether or not to embed TrueType fonts in a document when it is saved. |
-| [setSaveSubsetFonts(boolean value)](#setSaveSubsetFonts-boolean-) | Specifies whether or not to save a subset of the embedded TrueType fonts with the document. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### contains(String name) {#contains-java.lang.String-}
+| [contains(String name)](#contains-java.lang.String) | Determines whether the collection contains a font with the given name. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [get(int index)](#get-int) | Gets a font at the specified index. |
+| [get(String name)](#get-java.lang.String) | Provides access to the collection items. |
+| [getClass()](#getClass) |  |
+| [getCount()](#getCount) | Gets the number of elements contained in the collection. |
+| [getEmbedSystemFonts()](#getEmbedSystemFonts) | Specifies whether or not to embed System fonts into the document. |
+| [getEmbedTrueTypeFonts()](#getEmbedTrueTypeFonts) | Specifies whether or not to embed TrueType fonts in a document when it is saved. |
+| [getSaveSubsetFonts()](#getSaveSubsetFonts) | Specifies whether or not to save a subset of the embedded TrueType fonts with the document. |
+| [hashCode()](#hashCode) |  |
+| [iterator()](#iterator) | Returns an iterator object that can be used to iterate over all items in the collection. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setEmbedSystemFonts(boolean value)](#setEmbedSystemFonts-boolean) | Specifies whether or not to embed System fonts into the document. |
+| [setEmbedTrueTypeFonts(boolean value)](#setEmbedTrueTypeFonts-boolean) | Specifies whether or not to embed TrueType fonts in a document when it is saved. |
+| [setSaveSubsetFonts(boolean value)](#setSaveSubsetFonts-boolean) | Specifies whether or not to save a subset of the embedded TrueType fonts with the document. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### contains(String name) {#contains-java.lang.String}
 ```
 public boolean contains(String name)
 ```
@@ -61,8 +64,8 @@ Determines whether the collection contains a font with the given name.
 | name | java.lang.String | Case-insensitive name of the font to locate. |
 
 **Returns:**
-boolean - True if the item is found in the collection; otherwise, false.
-### equals(Object arg0) {#equals-java.lang.Object-}
+boolean - \{ true  if the item is found in the collection; otherwise,  false .
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -77,7 +80,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### get(int index) {#get-int-}
+### get(int index) {#get-int}
 ```
 public FontInfo get(int index)
 ```
@@ -92,7 +95,7 @@ Gets a font at the specified index.
 
 **Returns:**
 [FontInfo](../../com.aspose.words/fontinfo) - A font at the specified index.
-### get(String name) {#get-java.lang.String-}
+### get(String name) {#get-java.lang.String}
 ```
 public FontInfo get(String name)
 ```
@@ -107,7 +110,7 @@ Provides access to the collection items.  Gets a font with the specified name.
 
 **Returns:**
 [FontInfo](../../com.aspose.words/fontinfo) - The corresponding [FontInfo](../../com.aspose.words/fontinfo) value.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -117,7 +120,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCount() {#getCount--}
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -127,29 +130,29 @@ Gets the number of elements contained in the collection.
 
 **Returns:**
 int - The number of elements contained in the collection.
-### getEmbedSystemFonts() {#getEmbedSystemFonts--}
+### getEmbedSystemFonts() {#getEmbedSystemFonts}
 ```
 public boolean getEmbedSystemFonts()
 ```
 
 
-Specifies whether or not to embed System fonts into the document. Default value for this property is **false**.
+Specifies whether or not to embed System fonts into the document. Default value for this property is  false .
 
-This option works only when [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-) option is set to **true**.
+This option works only when [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean) option is set to  true .
 
-Setting this property to  True  is useful if the user is on an East Asian system and wants to create a document that is readable by others who do not have fonts for that language on their system. For example, a user on a Japanese system could choose to embed the fonts in a document so that the Japanese document would be readable on all systems.
+Setting this property to  true  is useful if the user is on an East Asian system and wants to create a document that is readable by others who do not have fonts for that language on their system. For example, a user on a Japanese system could choose to embed the fonts in a document so that the Japanese document would be readable on all systems.
 
 This option works for DOC, DOCX and RTF formats only.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getEmbedTrueTypeFonts() {#getEmbedTrueTypeFonts--}
+### getEmbedTrueTypeFonts() {#getEmbedTrueTypeFonts}
 ```
 public boolean getEmbedTrueTypeFonts()
 ```
 
 
-Specifies whether or not to embed TrueType fonts in a document when it is saved. Default value for this property is **false**.
+Specifies whether or not to embed TrueType fonts in a document when it is saved. Default value for this property is  false .
 
 Embedding TrueType fonts allows others to view the document with the same fonts that were used to create it, but may substantially increase the document size.
 
@@ -157,21 +160,21 @@ This option works for DOC, DOCX and RTF formats only.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getSaveSubsetFonts() {#getSaveSubsetFonts--}
+### getSaveSubsetFonts() {#getSaveSubsetFonts}
 ```
 public boolean getSaveSubsetFonts()
 ```
 
 
-Specifies whether or not to save a subset of the embedded TrueType fonts with the document. Default value for this property is **false**.
+Specifies whether or not to save a subset of the embedded TrueType fonts with the document. Default value for this property is  false .
 
-This option works only when [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-) property is set to **true**.
+This option works only when [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean) property is set to  true .
 
 This option works for DOC, DOCX and RTF formats only.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -181,7 +184,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### iterator() {#iterator--}
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -191,7 +194,7 @@ Returns an iterator object that can be used to iterate over all items in the col
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -199,7 +202,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -207,17 +210,17 @@ public final native void notifyAll()
 
 
 
-### setEmbedSystemFonts(boolean value) {#setEmbedSystemFonts-boolean-}
+### setEmbedSystemFonts(boolean value) {#setEmbedSystemFonts-boolean}
 ```
 public void setEmbedSystemFonts(boolean value)
 ```
 
 
-Specifies whether or not to embed System fonts into the document. Default value for this property is **false**.
+Specifies whether or not to embed System fonts into the document. Default value for this property is  false .
 
-This option works only when [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-) option is set to **true**.
+This option works only when [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean) option is set to  true .
 
-Setting this property to  True  is useful if the user is on an East Asian system and wants to create a document that is readable by others who do not have fonts for that language on their system. For example, a user on a Japanese system could choose to embed the fonts in a document so that the Japanese document would be readable on all systems.
+Setting this property to  true  is useful if the user is on an East Asian system and wants to create a document that is readable by others who do not have fonts for that language on their system. For example, a user on a Japanese system could choose to embed the fonts in a document so that the Japanese document would be readable on all systems.
 
 This option works for DOC, DOCX and RTF formats only.
 
@@ -226,13 +229,13 @@ This option works for DOC, DOCX and RTF formats only.
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setEmbedTrueTypeFonts(boolean value) {#setEmbedTrueTypeFonts-boolean-}
+### setEmbedTrueTypeFonts(boolean value) {#setEmbedTrueTypeFonts-boolean}
 ```
 public void setEmbedTrueTypeFonts(boolean value)
 ```
 
 
-Specifies whether or not to embed TrueType fonts in a document when it is saved. Default value for this property is **false**.
+Specifies whether or not to embed TrueType fonts in a document when it is saved. Default value for this property is  false .
 
 Embedding TrueType fonts allows others to view the document with the same fonts that were used to create it, but may substantially increase the document size.
 
@@ -243,15 +246,15 @@ This option works for DOC, DOCX and RTF formats only.
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### setSaveSubsetFonts(boolean value) {#setSaveSubsetFonts-boolean-}
+### setSaveSubsetFonts(boolean value) {#setSaveSubsetFonts-boolean}
 ```
 public void setSaveSubsetFonts(boolean value)
 ```
 
 
-Specifies whether or not to save a subset of the embedded TrueType fonts with the document. Default value for this property is **false**.
+Specifies whether or not to save a subset of the embedded TrueType fonts with the document. Default value for this property is  false .
 
-This option works only when [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-) property is set to **true**.
+This option works only when [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean) property is set to  true .
 
 This option works for DOC, DOCX and RTF formats only.
 
@@ -260,7 +263,7 @@ This option works for DOC, DOCX and RTF formats only.
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -270,7 +273,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -278,7 +281,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -291,7 +294,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

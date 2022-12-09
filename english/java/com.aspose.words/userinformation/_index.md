@@ -3,7 +3,7 @@ title: UserInformation
 second_title: Aspose.Words for Java API Reference
 description: Specifies information about the user.
 type: docs
-weight: 591
+weight: 594
 url: /java/com.aspose.words/userinformation/
 ---
 
@@ -15,28 +15,31 @@ public class UserInformation
 
 Specifies information about the user.
 
-To learn more, visit the **Working with Fields** documentation article.
+To learn more, visit the [ Working with Fields ][Working with Fields] documentation article.
+
+
+[Working with Fields]: https://docs.aspose.com/words/java/working-with-fields/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAddress()](#getAddress--) | Gets the user's postal address. |
-| [getClass()](#getClass--) |  |
-| [getDefaultUser()](#getDefaultUser--) | Default user information. |
-| [getInitials()](#getInitials--) | Gets the user's initials. |
-| [getName()](#getName--) | Gets the user's name. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setAddress(String value)](#setAddress-java.lang.String-) | Sets the user's postal address. |
-| [setInitials(String value)](#setInitials-java.lang.String-) | Sets the user's initials. |
-| [setName(String value)](#setName-java.lang.String-) | Sets the user's name. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getAddress()](#getAddress) | Gets the user's postal address. |
+| [getClass()](#getClass) |  |
+| [getDefaultUser()](#getDefaultUser) | Default user information. |
+| [getInitials()](#getInitials) | Gets the user's initials. |
+| [getName()](#getName) | Gets the user's name. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setAddress(String value)](#setAddress-java.lang.String) | Sets the user's postal address. |
+| [setInitials(String value)](#setInitials-java.lang.String) | Sets the user's initials. |
+| [setName(String value)](#setName-java.lang.String) | Sets the user's name. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -51,7 +54,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getAddress() {#getAddress--}
+### getAddress() {#getAddress}
 ```
 public String getAddress()
 ```
@@ -61,7 +64,7 @@ Gets the user's postal address.
 
 **Returns:**
 java.lang.String - The user's postal address.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -71,17 +74,17 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDefaultUser() {#getDefaultUser--}
+### getDefaultUser() {#getDefaultUser}
 ```
 public static UserInformation getDefaultUser()
 ```
 
 
-Default user information. Use the [FieldOptions.getCurrentUser()](../../com.aspose.words/fieldoptions\#getCurrentUser--) / [FieldOptions.setCurrentUser(com.aspose.words.UserInformation)](../../com.aspose.words/fieldoptions\#setCurrentUser-com.aspose.words.UserInformation-) property to specify user information for single document.
+Default user information. Use the [FieldOptions.getCurrentUser()](../../com.aspose.words/fieldoptions\#getCurrentUser) / [FieldOptions.setCurrentUser(com.aspose.words.UserInformation)](../../com.aspose.words/fieldoptions\#setCurrentUser-com.aspose.words.UserInformation) property to specify user information for single document.
 
 **Returns:**
 [UserInformation](../../com.aspose.words/userinformation) - The corresponding [UserInformation](../../com.aspose.words/userinformation) value.
-### getInitials() {#getInitials--}
+### getInitials() {#getInitials}
 ```
 public String getInitials()
 ```
@@ -91,7 +94,7 @@ Gets the user's initials.
 
 **Returns:**
 java.lang.String - The user's initials.
-### getName() {#getName--}
+### getName() {#getName}
 ```
 public String getName()
 ```
@@ -101,7 +104,7 @@ Gets the user's name.
 
 **Returns:**
 java.lang.String - The user's name.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -111,7 +114,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -119,7 +122,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -127,7 +130,7 @@ public final native void notifyAll()
 
 
 
-### setAddress(String value) {#setAddress-java.lang.String-}
+### setAddress(String value) {#setAddress-java.lang.String}
 ```
 public void setAddress(String value)
 ```
@@ -140,7 +143,7 @@ Sets the user's postal address.
 | --- | --- | --- |
 | value | java.lang.String | The user's postal address. |
 
-### setInitials(String value) {#setInitials-java.lang.String-}
+### setInitials(String value) {#setInitials-java.lang.String}
 ```
 public void setInitials(String value)
 ```
@@ -153,7 +156,7 @@ Sets the user's initials.
 | --- | --- | --- |
 | value | java.lang.String | The user's initials. |
 
-### setName(String value) {#setName-java.lang.String-}
+### setName(String value) {#setName-java.lang.String}
 ```
 public void setName(String value)
 ```
@@ -166,7 +169,7 @@ Sets the user's name.
 | --- | --- | --- |
 | value | java.lang.String | The user's name. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -176,7 +179,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -184,7 +187,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -197,7 +200,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

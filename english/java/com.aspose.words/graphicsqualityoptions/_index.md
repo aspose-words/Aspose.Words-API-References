@@ -3,7 +3,7 @@ title: GraphicsQualityOptions
 second_title: Aspose.Words for Java API Reference
 description: Allows to specify additional .
 type: docs
-weight: 313
+weight: 315
 url: /java/com.aspose.words/graphicsqualityoptions/
 ---
 
@@ -15,27 +15,30 @@ public class GraphicsQualityOptions
 
 Allows to specify additional .
 
-To learn more, visit the **Save a Document** documentation article.
+To learn more, visit the [ Save a Document ][Save a Document] documentation article.
 
 Gets current  to view or to add new hints. Overwrites current .
+
+
+[Save a Document]: https://docs.aspose.com/words/java/save-a-document/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getRenderingHints()](#getRenderingHints--) |  |
-| [getUseTileFlipMode()](#getUseTileFlipMode--) | Gets a flag indicating whether WrapMode is TileFlipXY. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setRenderingHints(RenderingHints renderingHints)](#setRenderingHints-java.awt.RenderingHints-) |  |
-| [setUseTileFlipMode(boolean value)](#setUseTileFlipMode-boolean-) | Sets a flag indicating whether WrapMode is TileFlipXY. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getClass()](#getClass) |  |
+| [getRenderingHints()](#getRenderingHints) |  |
+| [getUseTileFlipMode()](#getUseTileFlipMode) | Gets a flag indicating whether WrapMode is TileFlipXY. |
+| [hashCode()](#hashCode) |  |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [setRenderingHints(RenderingHints renderingHints)](#setRenderingHints-java.awt.RenderingHints) |  |
+| [setUseTileFlipMode(boolean value)](#setUseTileFlipMode-boolean) | Sets a flag indicating whether WrapMode is TileFlipXY. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -50,7 +53,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -60,7 +63,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getRenderingHints() {#getRenderingHints--}
+### getRenderingHints() {#getRenderingHints}
 ```
 public RenderingHints getRenderingHints()
 ```
@@ -70,7 +73,7 @@ public RenderingHints getRenderingHints()
 
 **Returns:**
 java.awt.RenderingHints
-### getUseTileFlipMode() {#getUseTileFlipMode--}
+### getUseTileFlipMode() {#getUseTileFlipMode}
 ```
 public boolean getUseTileFlipMode()
 ```
@@ -86,7 +89,7 @@ This property allows to switch WrapMode to WrapMode\#TILE\_FLIP\_XY.TILE\_FLIP\_
 
 **Returns:**
 boolean - A flag indicating whether WrapMode is TileFlipXY.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -96,7 +99,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -104,7 +107,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -112,7 +115,7 @@ public final native void notifyAll()
 
 
 
-### setRenderingHints(RenderingHints renderingHints) {#setRenderingHints-java.awt.RenderingHints-}
+### setRenderingHints(RenderingHints renderingHints) {#setRenderingHints-java.awt.RenderingHints}
 ```
 public void setRenderingHints(RenderingHints renderingHints)
 ```
@@ -125,7 +128,7 @@ public void setRenderingHints(RenderingHints renderingHints)
 | --- | --- | --- |
 | renderingHints | java.awt.RenderingHints |  |
 
-### setUseTileFlipMode(boolean value) {#setUseTileFlipMode-boolean-}
+### setUseTileFlipMode(boolean value) {#setUseTileFlipMode-boolean}
 ```
 public void setUseTileFlipMode(boolean value)
 ```
@@ -144,7 +147,7 @@ This property allows to switch WrapMode to WrapMode\#TILE\_FLIP\_XY.TILE\_FLIP\_
 | --- | --- | --- |
 | value | boolean | A flag indicating whether WrapMode is TileFlipXY. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -154,7 +157,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -162,7 +165,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -175,7 +178,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```

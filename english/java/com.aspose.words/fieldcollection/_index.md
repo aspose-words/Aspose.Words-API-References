@@ -3,7 +3,7 @@ title: FieldCollection
 second_title: Aspose.Words for Java API Reference
 description: A collection of  objects that represents the fields in the specified range.
 type: docs
-weight: 169
+weight: 170
 url: /java/com.aspose.words/fieldcollection/
 ---
 
@@ -18,33 +18,36 @@ public class FieldCollection implements Iterable
 
 A collection of [Field](../../com.aspose.words/field) objects that represents the fields in the specified range.
 
-To learn more, visit the **Working with Fields** documentation article.
+To learn more, visit the [ Working with Fields ][Working with Fields] documentation article.
 
 An instance of this collection iterates fields which start fall within the specified range.
 
 The [FieldCollection](../../com.aspose.words/fieldcollection) collection does not own the fields it contains, rather, is just a selection of fields.
 
 The [FieldCollection](../../com.aspose.words/fieldcollection) collection is "live", i.e. changes to the children of the node object that it was created from are immediately reflected in the fields returned by the [FieldCollection](../../com.aspose.words/fieldcollection) properties and methods.
+
+
+[Working with Fields]: https://docs.aspose.com/words/java/working-with-fields/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [clear()](#clear--) | Removes all fields of this collection from the document and from this collection itself. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Returns a field at the specified index. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Returns the number of the fields in the collection. |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Returns an enumerator object. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove(Field field)](#remove-com.aspose.words.Field-) | Removes the specified field from this collection and from the document. |
-| [removeAt(int index)](#removeAt-int-) | Removes a field at the specified index from this collection and from the document. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### clear() {#clear--}
+| [clear()](#clear) | Removes all fields of this collection from the document and from this collection itself. |
+| [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [get(int index)](#get-int) | Returns a field at the specified index. |
+| [getClass()](#getClass) |  |
+| [getCount()](#getCount) | Returns the number of the fields in the collection. |
+| [hashCode()](#hashCode) |  |
+| [iterator()](#iterator) | Returns an enumerator object. |
+| [notify()](#notify) |  |
+| [notifyAll()](#notifyAll) |  |
+| [remove(Field field)](#remove-com.aspose.words.Field) | Removes the specified field from this collection and from the document. |
+| [removeAt(int index)](#removeAt-int) | Removes a field at the specified index from this collection and from the document. |
+| [toString()](#toString) |  |
+| [wait()](#wait) |  |
+| [wait(long arg0)](#wait-long) |  |
+| [wait(long arg0, int arg1)](#wait-long-int) |  |
+### clear() {#clear}
 ```
 public void clear()
 ```
@@ -52,7 +55,7 @@ public void clear()
 
 Removes all fields of this collection from the document and from this collection itself.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
 ```
@@ -67,7 +70,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### get(int index) {#get-int-}
+### get(int index) {#get-int}
 ```
 public Field get(int index)
 ```
@@ -90,7 +93,7 @@ If index is negative and its absolute value is greater than the number of items 
 
 **Returns:**
 [Field](../../com.aspose.words/field) - A field at the specified index.
-### getClass() {#getClass--}
+### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
 ```
@@ -100,7 +103,7 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCount() {#getCount--}
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -110,7 +113,7 @@ Returns the number of the fields in the collection.
 
 **Returns:**
 int - The number of the fields in the collection.
-### hashCode() {#hashCode--}
+### hashCode() {#hashCode}
 ```
 public native int hashCode()
 ```
@@ -120,7 +123,7 @@ public native int hashCode()
 
 **Returns:**
 int
-### iterator() {#iterator--}
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -130,7 +133,7 @@ Returns an enumerator object.
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify--}
+### notify() {#notify}
 ```
 public final native void notify()
 ```
@@ -138,7 +141,7 @@ public final native void notify()
 
 
 
-### notifyAll() {#notifyAll--}
+### notifyAll() {#notifyAll}
 ```
 public final native void notifyAll()
 ```
@@ -146,7 +149,7 @@ public final native void notifyAll()
 
 
 
-### remove(Field field) {#remove-com.aspose.words.Field-}
+### remove(Field field) {#remove-com.aspose.words.Field}
 ```
 public void remove(Field field)
 ```
@@ -159,7 +162,7 @@ Removes the specified field from this collection and from the document.
 | --- | --- | --- |
 | field | [Field](../../com.aspose.words/field) | A field to remove. |
 
-### removeAt(int index) {#removeAt-int-}
+### removeAt(int index) {#removeAt-int}
 ```
 public void removeAt(int index)
 ```
@@ -172,7 +175,7 @@ Removes a field at the specified index from this collection and from the documen
 | --- | --- | --- |
 | index | int | An index into the collection. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -182,7 +185,7 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait--}
+### wait() {#wait}
 ```
 public final void wait()
 ```
@@ -190,7 +193,7 @@ public final void wait()
 
 
 
-### wait(long arg0) {#wait-long-}
+### wait(long arg0) {#wait-long}
 ```
 public final native void wait(long arg0)
 ```
@@ -203,7 +206,7 @@ public final native void wait(long arg0)
 | --- | --- | --- |
 | arg0 | long |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### wait(long arg0, int arg1) {#wait-long-int}
 ```
 public final void wait(long arg0, int arg1)
 ```
