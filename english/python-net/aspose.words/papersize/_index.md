@@ -3,7 +3,7 @@ title: PaperSize enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies paper size."
 type: docs
-weight: 820
+weight: 830
 url: /python-net/aspose.words/papersize/
 ---
 

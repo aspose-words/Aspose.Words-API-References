@@ -3,7 +3,7 @@ title: vertical_alignment property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns or sets the vertical alignment of text on each page in a document or section."
 type: docs
-weight: 440
+weight: 450
 url: /python-net/aspose.words/pagesetup/vertical_alignment/
 ---
 

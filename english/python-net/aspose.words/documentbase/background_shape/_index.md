@@ -54,9 +54,11 @@ doc.background_shape = shape_rectangle
 
 self.assertTrue(doc.background_shape.has_image)
 
+save_options = aws.PdfSaveOptions()
+save_options.cache_background_graphics = False
 # Microsoft Word does not support shapes with images as backgrounds,
 # but we can still see these backgrounds in other save formats such as .pdf.
-doc.save(ARTIFACTS_DIR + "DocumentBase.background_shape.image.pdf")
+doc.save(ARTIFACTS_DIR + "DocumentBase.background_shape.image.pdf", save_options)
 ```
 
 ### See Also

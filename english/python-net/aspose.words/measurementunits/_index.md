@@ -3,7 +3,7 @@ title: MeasurementUnits enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the unit of measurement."
 type: docs
-weight: 660
+weight: 670
 url: /python-net/aspose.words/measurementunits/
 ---
 

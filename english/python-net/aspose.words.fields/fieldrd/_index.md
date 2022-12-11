@@ -72,10 +72,9 @@ builder.writeln("TOC entry from within this document")
 # Insert an RD field, which references another local file system document in its FileName property.
 # The TOC will also now accept all headings from the referenced document as entries for its table.
 field = builder.insert_field(aw.fields.FieldType.FIELD_REF_DOC, True).as_field_rd()
-field.file_name = "ReferencedDocument.docx"
-field.is_path_relative = True
+field.file_name = ARTIFACTS_DIR + "ReferencedDocument.docx"
 
-self.assertEqual(" RD  ReferencedDocument.docx \\f", field.get_field_code())
+self.assertEqual(r' RD  {ArtifactsDir.Replace(@"\",@"\\")}ReferencedDocument.docx', field.get_field_code())
 
 # Create the document that the RD field is referencing and insert a heading.
 # This heading will show up as an entry in the TOC field in our first document.

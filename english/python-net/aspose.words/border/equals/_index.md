@@ -3,7 +3,7 @@ title: equals method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Determines whether the specified border is equal in value to the current border."
 type: docs
-weight: 80
+weight: 100
 url: /python-net/aspose.words/border/equals/
 ---
 

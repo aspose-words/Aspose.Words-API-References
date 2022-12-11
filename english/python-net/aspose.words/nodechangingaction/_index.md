@@ -3,7 +3,7 @@ title: NodeChangingAction enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the type of node change."
 type: docs
-weight: 690
+weight: 700
 url: /python-net/aspose.words/nodechangingaction/
 ---
 

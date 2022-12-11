@@ -3,7 +3,7 @@ title: top_margin property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns or sets the distance (in points) between the top edge of the page and the top boundary of the body text."
 type: docs
-weight: 430
+weight: 440
 url: /python-net/aspose.words/pagesetup/top_margin/
 ---
 

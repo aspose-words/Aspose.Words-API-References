@@ -3,7 +3,7 @@ title: TabStop class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a single custom tab stop"
 type: docs
-weight: 1150
+weight: 1160
 url: /python-net/aspose.words/tabstop/
 ---
 

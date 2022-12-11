@@ -76,6 +76,7 @@ builder.insert_break(aw.BreakType.PAGE_BREAK)
 index_entry = builder.insert_field(aw.fields.FieldType.FIELD_INDEX_ENTRY, True).as_field_xe()
 index_entry.text = "Durian"
 
+doc.update_page_layout()
 doc.update_fields()
 doc.save(ARTIFACTS_DIR + "Field.field_index_formatting.docx")
 ```

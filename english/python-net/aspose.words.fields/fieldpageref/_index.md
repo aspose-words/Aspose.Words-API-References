@@ -89,6 +89,7 @@ def test_field_page_ref(self):
     builder.insert_break(aw.BreakType.PAGE_BREAK)
     ExField.insert_and_name_bookmark(builder, "MyBookmark3")
 
+    doc.update_page_layout()
     doc.update_fields()
     doc.save(ARTIFACTS_DIR + "Field.field_page_ref.docx")
 

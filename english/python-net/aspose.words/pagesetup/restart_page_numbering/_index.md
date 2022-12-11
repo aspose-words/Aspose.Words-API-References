@@ -3,7 +3,7 @@ title: restart_page_numbering property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "True if page numbering restarts at the beginning of the section."
 type: docs
-weight: 350
+weight: 360
 url: /python-net/aspose.words/pagesetup/restart_page_numbering/
 ---
 

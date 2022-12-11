@@ -3,7 +3,7 @@ title: RevisionsView enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to specify whether to work with the original or revised version of a document."
 type: docs
-weight: 950
+weight: 960
 url: /python-net/aspose.words/revisionsview/
 ---
 

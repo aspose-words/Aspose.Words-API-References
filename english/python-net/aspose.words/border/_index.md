@@ -33,6 +33,8 @@ run of text inside a paragraph or a table cell.
 | [line_style](./line_style/) | Gets or sets the border style. |
 | [line_width](./line_width/) | Gets or sets the border width in points. |
 | [shadow](./shadow/) | Gets or sets a value indicating whether the border has a shadow. |
+| [theme_color](./theme_color/) | Gets or sets the theme color in the applied color scheme that is associated with this Border object. |
+| [tint_and_shade](./tint_and_shade/) | Gets or sets a double value that lightens or darkens a color. |
 
 ### Methods
 

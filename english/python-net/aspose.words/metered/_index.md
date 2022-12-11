@@ -3,7 +3,7 @@ title: Metered class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides methods to set metered key"
 type: docs
-weight: 670
+weight: 680
 url: /python-net/aspose.words/metered/
 ---
 

@@ -3,7 +3,7 @@ title: ParagraphAlignment enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies text alignment in a paragraph."
 type: docs
-weight: 840
+weight: 850
 url: /python-net/aspose.words/paragraphalignment/
 ---
 

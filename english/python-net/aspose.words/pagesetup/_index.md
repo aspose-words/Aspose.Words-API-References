@@ -3,7 +3,7 @@ title: PageSetup class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents the page setup properties of a section"
 type: docs
-weight: 800
+weight: 810
 url: /python-net/aspose.words/pagesetup/
 ---
 
@@ -50,6 +50,7 @@ To learn more, visit the [Working with Sections](https://docs.aspose.com/words/n
 | [line_number_restart_mode](./line_number_restart_mode/) | Gets or sets the way line numbering runs  that is, whether it starts over at the beginning of a new page or section or runs continuously. |
 | [line_starting_number](./line_starting_number/) | Gets or sets the starting line number. |
 | [lines_per_page](./lines_per_page/) | Gets or sets the number of lines per page in the document grid. |
+| [margins](./margins/) | Returns or sets preset [Margins](../margins/) of the page. |
 | [multiple_pages](./multiple_pages/) | For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet. |
 | [odd_and_even_pages_header_footer](./odd_and_even_pages_header_footer/) | True if the document has different headers and footers for odd-numbered and even-numbered pages. |
 | [orientation](./orientation/) | Returns or sets the orientation of the page. |

@@ -43,6 +43,7 @@ def test_field_note_ref(self):
     builder.insert_break(aw.BreakType.PAGE_BREAK)
     ExField.insert_bookmark_with_footnote(builder, "MyBookmark2", "Contents of MyBookmark2", "Footnote from MyBookmark2")
 
+    doc.update_page_layout()
     doc.update_fields()
     doc.save(ARTIFACTS_DIR + "Field.field_note_ref.docx")
 

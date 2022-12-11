@@ -3,7 +3,7 @@ title: StyleCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "A collection of [Style](../style/) objects that represent both the built-in and user-defined styles in a document"
 type: docs
-weight: 1090
+weight: 1100
 url: /python-net/aspose.words/stylecollection/
 ---
 

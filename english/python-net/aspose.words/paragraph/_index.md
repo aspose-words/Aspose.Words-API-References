@@ -3,7 +3,7 @@ title: Paragraph class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a paragraph of text"
 type: docs
-weight: 830
+weight: 840
 url: /python-net/aspose.words/paragraph/
 ---
 

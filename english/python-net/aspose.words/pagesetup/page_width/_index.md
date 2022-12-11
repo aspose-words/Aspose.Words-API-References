@@ -3,7 +3,7 @@ title: page_width property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns or sets the width of the page in points."
 type: docs
-weight: 330
+weight: 340
 url: /python-net/aspose.words/pagesetup/page_width/
 ---
 

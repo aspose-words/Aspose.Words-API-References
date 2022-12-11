@@ -3,7 +3,7 @@ title: page_number_style property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets the page number format."
 type: docs
-weight: 310
+weight: 320
 url: /python-net/aspose.words/pagesetup/page_number_style/
 ---
 

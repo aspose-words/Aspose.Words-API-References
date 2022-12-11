@@ -3,7 +3,7 @@ title: PageVerticalAlignment enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies vertical justification of text on each page."
 type: docs
-weight: 810
+weight: 820
 url: /python-net/aspose.words/pageverticalalignment/
 ---
 

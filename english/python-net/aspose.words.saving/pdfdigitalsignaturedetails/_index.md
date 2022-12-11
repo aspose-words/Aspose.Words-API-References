@@ -59,8 +59,9 @@ options = aw.saving.PdfSaveOptions()
 # Configure the "digital_signature_details" object of the "SaveOptions" object to
 # digitally sign the document as we render it with the "save" method.
 signing_time = datetime.now()
+import aspose.words.saving as aws
 options.digital_signature_details = aw.saving.PdfDigitalSignatureDetails(certificate_holder, "Test Signing", "My Office", signing_time)
-options.digital_signature_details.hash_algorithm = aw.saving.PdfDigitalSignatureHashAlgorithm.SHA256
+options.digital_signature_details.hash_algorithm = aw.saving.PdfDigitalSignatureHashAlgorithm.RIPE_MD160
 
 self.assertEqual("Test Signing", options.digital_signature_details.reason)
 self.assertEqual("My Office", options.digital_signature_details.location)
