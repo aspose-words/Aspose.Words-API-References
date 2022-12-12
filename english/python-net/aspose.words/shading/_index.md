@@ -3,7 +3,7 @@ title: Shading class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Contains shading attributes for an object"
 type: docs
-weight: 1030
+weight: 1040
 url: /python-net/aspose.words/shading/
 ---
 

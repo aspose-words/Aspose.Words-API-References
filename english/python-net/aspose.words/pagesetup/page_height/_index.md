@@ -3,7 +3,7 @@ title: page_height property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns or sets the height of the page in points."
 type: docs
-weight: 300
+weight: 310
 url: /python-net/aspose.words/pagesetup/page_height/
 ---
 

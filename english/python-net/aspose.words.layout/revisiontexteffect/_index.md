@@ -50,7 +50,7 @@ revision_options.deleted_text_effect = aw.layout.RevisionTextEffect.BOLD
 # and double-underlined blue at the moved-to revision.
 revision_options.moved_from_text_color = aw.layout.RevisionColor.YELLOW
 revision_options.moved_from_text_effect = aw.layout.RevisionTextEffect.DOUBLE_STRIKE_THROUGH
-revision_options.moved_to_text_color = aw.layout.RevisionColor.BLUE
+revision_options.moved_to_text_color = aw.layout.RevisionColor.CLASSIC_BLUE
 revision_options.moved_from_text_effect = aw.layout.RevisionTextEffect.DOUBLE_UNDERLINE
 
 # Render format revisions in dark red and bold.

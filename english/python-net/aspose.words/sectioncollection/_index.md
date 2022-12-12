@@ -3,7 +3,7 @@ title: SectionCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "A collection of [Section](../section/) objects in the document"
 type: docs
-weight: 1000
+weight: 1010
 url: /python-net/aspose.words/sectioncollection/
 ---
 

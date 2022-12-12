@@ -3,7 +3,7 @@ title: sheets_per_booklet property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns or sets the number of pages to be included in each booklet."
 type: docs
-weight: 390
+weight: 400
 url: /python-net/aspose.words/pagesetup/sheets_per_booklet/
 ---
 

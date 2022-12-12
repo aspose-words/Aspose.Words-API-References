@@ -75,6 +75,7 @@ field.style_name = "Quote"
 field.insert_paragraph_number_in_full_context = True
 field.suppress_non_delimiters = True
 
+doc.update_page_layout()
 doc.update_fields()
 doc.save(ARTIFACTS_DIR + "Field.field_style_ref_paragraph_numbers.docx")
 ```

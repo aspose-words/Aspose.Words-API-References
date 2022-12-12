@@ -54,6 +54,7 @@ index_entry.page_number_replacement = "Tropical fruit"
 
 self.assertEqual(" XE  Banana \\t \"Tropical fruit\"", index_entry.get_field_code())
 
+doc.update_page_layout()
 doc.update_fields()
 doc.save(ARTIFACTS_DIR + "Field.field_index_cross_reference_separator.docx")
 ```

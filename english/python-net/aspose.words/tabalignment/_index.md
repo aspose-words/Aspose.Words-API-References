@@ -3,7 +3,7 @@ title: TabAlignment enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the alignment/type of a tab stop."
 type: docs
-weight: 1130
+weight: 1140
 url: /python-net/aspose.words/tabalignment/
 ---
 

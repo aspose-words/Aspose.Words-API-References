@@ -3,7 +3,7 @@ title: text_columns property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns a collection that represents the set of text columns."
 type: docs
-weight: 410
+weight: 420
 url: /python-net/aspose.words/pagesetup/text_columns/
 ---
 

@@ -3,7 +3,7 @@ title: WarningInfo class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Contains information about a warning that Aspose.Words issued during document loading or saving"
 type: docs
-weight: 1290
+weight: 1300
 url: /python-net/aspose.words/warninginfo/
 ---
 

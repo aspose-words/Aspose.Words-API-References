@@ -63,6 +63,7 @@ index_entry = builder.insert_field(aw.fields.FieldType.FIELD_INDEX_ENTRY, True).
 index_entry.text = "Index entry 3"
 index_entry.entry_type = "A"
 
+doc.update_page_layout()
 doc.update_fields()
 doc.save(ARTIFACTS_DIR + "Field.field_index_filter.docx")
 ```

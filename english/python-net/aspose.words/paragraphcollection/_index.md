@@ -3,7 +3,7 @@ title: ParagraphCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides typed access to a collection of [Paragraph](../paragraph/) nodes"
 type: docs
-weight: 850
+weight: 860
 url: /python-net/aspose.words/paragraphcollection/
 ---
 

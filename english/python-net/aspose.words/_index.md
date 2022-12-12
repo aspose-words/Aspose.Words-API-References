@@ -156,6 +156,7 @@ The main classes in this module are:
 | [LineSpacingRule](./linespacingrule/) | Specifies line spacing values for a paragraph. |
 | [LineStyle](./linestyle/) | Specifies line style of a [Border](./border/). |
 | [LoadFormat](./loadformat/) | Indicates the format of the document that is to be loaded. |
+| [Margins](./margins/) | Specifies preset margins. |
 | [MeasurementUnits](./measurementunits/) | Specifies the unit of measurement. |
 | [NodeChangingAction](./nodechangingaction/) | Specifies the type of node change. |
 | [NodeType](./nodetype/) | Specifies the type of a Word document node. |

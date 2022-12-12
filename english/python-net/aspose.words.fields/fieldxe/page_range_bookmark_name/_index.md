@@ -57,6 +57,7 @@ builder.insert_break(aw.BreakType.PAGE_BREAK)
 builder.write("End of MyBookmark")
 builder.end_bookmark("MyBookmark")
 
+doc.update_page_layout()
 doc.update_fields()
 doc.save(ARTIFACTS_DIR + "Field.field_index_page_range_bookmark.docx")
 ```

@@ -82,6 +82,7 @@ def test_field_include_text(self):
     field_include_text.namespace_mappings = "xmlns:n='myNamespace'"
     field_include_text.xpath = "/catalog/cd/title"
 
+    doc.update_fields()
     doc.save(ARTIFACTS_DIR + "Field.field_include_text.docx")
 
 @staticmethod

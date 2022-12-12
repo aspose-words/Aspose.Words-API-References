@@ -3,7 +3,7 @@ title: section_start property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns or sets the type of section break for the specified object."
 type: docs
-weight: 380
+weight: 390
 url: /python-net/aspose.words/pagesetup/section_start/
 ---
 

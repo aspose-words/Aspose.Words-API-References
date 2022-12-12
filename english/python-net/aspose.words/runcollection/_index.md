@@ -3,7 +3,7 @@ title: RunCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides typed access to a collection of [Run](../run/) nodes"
 type: docs
-weight: 970
+weight: 980
 url: /python-net/aspose.words/runcollection/
 ---
 
