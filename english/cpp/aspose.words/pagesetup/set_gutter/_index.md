@@ -3,7 +3,7 @@ title: set_Gutter
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::PageSetup::get_Gutter.'
 type: docs
-weight: 781
+weight: 794
 url: /cpp/aspose.words/pagesetup/set_gutter/
 ---
 ## PageSetup::set_Gutter method

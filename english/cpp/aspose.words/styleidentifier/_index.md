@@ -3,7 +3,7 @@ title: StyleIdentifier
 second_title: Aspose.Words for C++ API Reference
 description: Locale independent style identifier.
 type: docs
-weight: 1522
+weight: 1535
 url: /cpp/aspose.words/styleidentifier/
 ---
 ## StyleIdentifier enum

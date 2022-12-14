@@ -45,6 +45,7 @@ class PageSetup : public Aspose::Words::IBorderAttrSource
 | [get_LineNumberRestartMode](./get_linenumberrestartmode/)() | Gets or sets the way line numbering runs that is, whether it starts over at the beginning of a new page or section or runs continuously. |
 | [get_LinesPerPage](./get_linesperpage/)() | Gets or sets the number of lines per page in the document grid. |
 | [get_LineStartingNumber](./get_linestartingnumber/)() | Gets or sets the starting line number. |
+| [get_Margins](./get_margins/)() | Returns preset [Margins](../margins/) of the page. |
 | [get_MultiplePages](./get_multiplepages/)() const | For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet. |
 | [get_OddAndEvenPagesHeaderFooter](./get_oddandevenpagesheaderfooter/)() const | True if the document has different headers and footers for odd-numbered and even-numbered pages. |
 | [get_Orientation](./get_orientation/)() | Returns or sets the orientation of the page. |
@@ -88,6 +89,7 @@ class PageSetup : public Aspose::Words::IBorderAttrSource
 | [set_LineNumberRestartMode](./set_linenumberrestartmode/)(Aspose::Words::LineNumberRestartMode) | Setter for [Aspose::Words::PageSetup::get_LineNumberRestartMode](./get_linenumberrestartmode/). |
 | [set_LinesPerPage](./set_linesperpage/)(int32_t) | Setter for [Aspose::Words::PageSetup::get_LinesPerPage](./get_linesperpage/). |
 | [set_LineStartingNumber](./set_linestartingnumber/)(int32_t) | Setter for [Aspose::Words::PageSetup::get_LineStartingNumber](./get_linestartingnumber/). |
+| [set_Margins](./set_margins/)(Aspose::Words::Margins) | Sets preset [Margins](../margins/) of the page. |
 | [set_MultiplePages](./set_multiplepages/)(Aspose::Words::Settings::MultiplePagesType) | Setter for [Aspose::Words::PageSetup::get_MultiplePages](./get_multiplepages/). |
 | [set_OddAndEvenPagesHeaderFooter](./set_oddandevenpagesheaderfooter/)(bool) | Setter for [Aspose::Words::PageSetup::get_OddAndEvenPagesHeaderFooter](./get_oddandevenpagesheaderfooter/). |
 | [set_Orientation](./set_orientation/)(Aspose::Words::Orientation) | Setter for [Aspose::Words::PageSetup::get_Orientation](./get_orientation/). |

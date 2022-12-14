@@ -3,7 +3,7 @@ title: set_SectionStart
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::PageSetup::get_SectionStart.'
 type: docs
-weight: 1067
+weight: 1093
 url: /cpp/aspose.words/pagesetup/set_sectionstart/
 ---
 ## PageSetup::set_SectionStart method

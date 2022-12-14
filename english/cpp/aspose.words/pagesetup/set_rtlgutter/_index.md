@@ -3,7 +3,7 @@ title: set_RtlGutter
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::PageSetup::get_RtlGutter.'
 type: docs
-weight: 1054
+weight: 1080
 url: /cpp/aspose.words/pagesetup/set_rtlgutter/
 ---
 ## PageSetup::set_RtlGutter method

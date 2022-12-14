@@ -3,7 +3,7 @@ title: Is
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 144
+weight: 170
 url: /cpp/aspose.words/border/is/
 ---
 ## Border::Is method

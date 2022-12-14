@@ -3,7 +3,7 @@ title: set_BottomMargin
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::PageSetup::get_BottomMargin.'
 type: docs
-weight: 703
+weight: 716
 url: /cpp/aspose.words/pagesetup/set_bottommargin/
 ---
 ## PageSetup::set_BottomMargin method
