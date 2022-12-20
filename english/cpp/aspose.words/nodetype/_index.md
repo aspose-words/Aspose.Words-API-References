@@ -3,7 +3,7 @@ title: NodeType
 second_title: Aspose.Words for C++ API Reference
 description: Specifies the type of a Word document node.
 type: docs
-weight: 1314
+weight: 1327
 url: /cpp/aspose.words/nodetype/
 ---
 ## NodeType enum

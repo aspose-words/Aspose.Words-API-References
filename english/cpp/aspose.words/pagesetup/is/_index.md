@@ -3,7 +3,7 @@ title: Is
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 612
+weight: 625
 url: /cpp/aspose.words/pagesetup/is/
 ---
 ## PageSetup::Is method
