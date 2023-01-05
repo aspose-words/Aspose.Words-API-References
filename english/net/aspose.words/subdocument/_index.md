@@ -3,7 +3,7 @@ title: SubDocument
 second_title: Aspose.Words for .NET API Reference
 description: Represents a SubDocument  which is a reference to an externally stored document.
 type: docs
-weight: 5910
+weight: 5920
 url: /net/aspose.words/subdocument/
 ---
 ## SubDocument class

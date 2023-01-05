@@ -51,6 +51,20 @@ public class FieldEQ : Field
 
 ## Examples
 
+Shows how to replace the EQ field with Office Math.
+
+```csharp
+Document doc = new Document(MyDir + "Field sample - EQ.docx");
+FieldEQ fieldEQ = doc.Range.Fields.OfType<FieldEQ>().First();
+
+OfficeMath officeMath = fieldEQ.AsOfficeMath();
+
+fieldEQ.Start.ParentNode.InsertBefore(officeMath, fieldEQ.Start);
+fieldEQ.Remove();
+
+doc.Save(ArtifactsDir + "Field.EQAsOfficeMath.docx");
+```
+
 Shows how to use the EQ field to display a variety of mathematical equations.
 
 ```csharp

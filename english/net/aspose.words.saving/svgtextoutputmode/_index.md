@@ -3,7 +3,7 @@ title: SvgTextOutputMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5370
+weight: 5380
 url: /net/aspose.words.saving/svgtextoutputmode/
 ---
 ## SvgTextOutputMode enumeration

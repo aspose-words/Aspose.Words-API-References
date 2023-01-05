@@ -3,7 +3,7 @@ title: MetafileRenderingMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how Aspose.Words should render WMF and EMF metafiles.
 type: docs
-weight: 5050
+weight: 5060
 url: /net/aspose.words.saving/metafilerenderingmode/
 ---
 ## MetafileRenderingMode enumeration

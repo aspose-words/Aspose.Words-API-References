@@ -33,7 +33,6 @@ builder.Writeln("Numbered list item 3");
 builder.ListFormat.RemoveNumbers();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
-
 Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
 
 foreach (Paragraph paragraph in paras)

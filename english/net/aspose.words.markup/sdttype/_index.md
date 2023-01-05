@@ -38,6 +38,41 @@ public enum SdtType
 
 ## Examples
 
+Shows how to create group structured document tag at the Row level.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Table table = builder.StartTable();
+
+// Create a Group structured document tag at the Row level.
+StructuredDocumentTag groupSdt = new StructuredDocumentTag(doc, SdtType.Group, MarkupLevel.Row);
+table.AppendChild(groupSdt);
+groupSdt.IsShowingPlaceholderText = false;
+groupSdt.RemoveAllChildren();
+
+// Create a child row of the structured document tag.
+Row row = new Row(doc);
+groupSdt.AppendChild(row);
+
+Cell cell = new Cell(doc);
+row.AppendChild(cell);
+
+builder.EndTable();
+
+// Insert cell contents.
+cell.EnsureMinimum();
+builder.MoveTo(cell.LastParagraph);
+builder.Write("Lorem ipsum dolor.");
+
+// Insert text after the table.
+builder.MoveTo(table.NextSibling);
+builder.Write("Nulla blandit nisi.");
+
+doc.Save(ArtifactsDir + "StructuredDocumentTag.SdtAtRowLevel.docx");
+```
+
 Shows how to work with styles for content control elements.
 
 ```csharp

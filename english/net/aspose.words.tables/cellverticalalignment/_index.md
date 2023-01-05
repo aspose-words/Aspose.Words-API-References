@@ -3,7 +3,7 @@ title: CellVerticalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Specifies vertical justification of text inside a table cell.
 type: docs
-weight: 6020
+weight: 6030
 url: /net/aspose.words.tables/cellverticalalignment/
 ---
 ## CellVerticalAlignment enumeration

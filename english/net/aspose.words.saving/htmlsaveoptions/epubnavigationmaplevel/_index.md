@@ -1,14 +1,14 @@
 ---
 title: EpubNavigationMapLevel
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB format. Default value is 3.
+description: Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB or AZW3 formats. Default value is 3.
 type: docs
 weight: 110
 url: /net/aspose.words.saving/htmlsaveoptions/epubnavigationmaplevel/
 ---
 ## HtmlSaveOptions.EpubNavigationMapLevel property
 
-Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB format. Default value is `3`.
+Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB or AZW3 formats. Default value is `3`.
 
 ```csharp
 public int EpubNavigationMapLevel { get; set; }
@@ -16,7 +16,7 @@ public int EpubNavigationMapLevel { get; set; }
 
 ## Remarks
 
-Navigation map in IDPF EPUB format allows user agents to provide easy way of navigation through the document structure. Usually navigation points correspond to headings in the document. To populate headings up to level **N** assign this value to `EpubNavigationMapLevel`.
+Navigation map in IDPF EPUB or AZW3 formats allows user agents to provide easy way of navigation through the document structure. Usually navigation points correspond to headings in the document. To populate headings up to level **N** assign this value to `EpubNavigationMapLevel`.
 
 By default, three levels of headings are populated: paragraphs of styles **Heading 1**, **Heading 2** and **Heading 3**. You can set this property to a value from 1 to 9 to request corresponding maximum level. Setting it to zero will reduce navigation map to only document root or roots of document parts.
 

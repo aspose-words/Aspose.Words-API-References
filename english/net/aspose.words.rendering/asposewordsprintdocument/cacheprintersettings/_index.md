@@ -46,6 +46,9 @@ if (printDlg.ShowDialog() != DialogResult.OK)
 AsposeWordsPrintDocument awPrintDoc = new AsposeWordsPrintDocument(doc);
 awPrintDoc.PrinterSettings = printDlg.PrinterSettings;
 
+// Specify the new color print mode.
+awPrintDoc.ColorMode = ColorPrintMode.GrayscaleAuto;
+
 // Use the "CachePrinterSettings" method to reduce time of the first call of the "Print" method.
 awPrintDoc.CachePrinterSettings();
 
@@ -55,8 +58,10 @@ previewDlg.PrintPreviewControl.InvalidatePreview();
 
 // Pass the "Aspose.Words" print document to the .NET Print Preview dialog.
 previewDlg.Document = awPrintDoc;
-
 previewDlg.ShowDialog();
+
+awPrintDoc.Print();            
+Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPagesPrinted}.");
 ```
 
 ### See Also

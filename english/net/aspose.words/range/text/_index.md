@@ -3,7 +3,7 @@ title: Text
 second_title: Aspose.Words for .NET API Reference
 description: Gets the text of the range.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.words/range/text/
 ---
 ## Range.Text property

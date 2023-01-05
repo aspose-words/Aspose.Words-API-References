@@ -3,7 +3,7 @@ title: ToDocument
 second_title: Aspose.Words for .NET API Reference
 description: Constructs a new fully formed document that contains the range.
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.words/range/todocument/
 ---
 ## Range.ToDocument method

@@ -20,6 +20,23 @@ When this option is set to `true`, the content of [`StructuredDocumentTag`](../.
 
 Otherwise, [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) will be processed as standalone Story and replacing pattern will be searched separately for each [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/), so that if pattern crosses a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/), then replacement will not be performed for such pattern.
 
+## Examples
+
+Shows how to ignore content of tags from replacement.
+
+```csharp
+Document doc = new Document(MyDir + "Structured document tags.docx");
+
+// This paragraph contains SDT.
+Paragraph p = (Paragraph)doc.FirstSection.Body.GetChild(NodeType.Paragraph, 2, true);
+string textToSearch = p.ToString(SaveFormat.Text).Trim();
+
+FindReplaceOptions options = new FindReplaceOptions() { IgnoreStructuredDocumentTags = true };
+doc.Range.Replace(textToSearch, "replacement", options);
+
+doc.Save(ArtifactsDir + "StructuredDocumentTag.IgnoreStructuredDocumentTags.docx");
+```
+
 ### See Also
 
 * class [FindReplaceOptions](../)

@@ -3,7 +3,7 @@ title: ClearFormat
 second_title: Aspose.Words for .NET API Reference
 description: Clears format of this data label. The properties are set to the default values defined in the parent data label collection.
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.words.drawing.charts/chartdatalabel/clearformat/
 ---
 ## ChartDataLabel.ClearFormat method

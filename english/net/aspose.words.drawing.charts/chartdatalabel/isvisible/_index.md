@@ -3,7 +3,7 @@ title: IsVisible
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if this data label has something to display.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.words.drawing.charts/chartdatalabel/isvisible/
 ---
 ## ChartDataLabel.IsVisible property

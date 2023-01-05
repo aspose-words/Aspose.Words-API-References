@@ -11,7 +11,7 @@ url: /net/aspose.words.drawing.ole/olecontrol/isforms2olecontrol/
 Returns `true` if the control is a [`Forms2OleControl`](../../forms2olecontrol/).
 
 ```csharp
-public virtual bool IsForms2OleControl { get; }
+public bool IsForms2OleControl { get; }
 ```
 
 ## Examples

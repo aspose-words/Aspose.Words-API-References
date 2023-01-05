@@ -14,6 +14,15 @@ Gets or sets a boolean value indicating either automatic numbering detection wil
 public bool AutoNumberingDetection { get; set; }
 ```
 
+## Examples
+
+Shows how to disable automatic numbering detection.
+
+```csharp
+TxtLoadOptions options = new TxtLoadOptions { AutoNumberingDetection = false };
+Document doc = new Document(MyDir + "Number detection.txt", options);
+```
+
 ### See Also
 
 * class [TxtLoadOptions](../)

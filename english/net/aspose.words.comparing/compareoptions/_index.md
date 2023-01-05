@@ -26,6 +26,7 @@ public class CompareOptions
 
 | Name | Description |
 | --- | --- |
+| [CompareMoves](../../aspose.words.comparing/compareoptions/comparemoves/) { get; set; } | Specifies whether to compare differences in MoveRevision between the two documents. By default move revisions are not produced. |
 | [Granularity](../../aspose.words.comparing/compareoptions/granularity/) { get; set; } | Specifies whether changes are tracked by character or by word. Default value is WordLevel. |
 | [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges/) { get; set; } | True indicates that documents comparison is case insensitive. By default comparison is case sensitive. |
 | [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments/) { get; set; } | Specifies whether to compare differences in comments. By default comments are not ignored. |

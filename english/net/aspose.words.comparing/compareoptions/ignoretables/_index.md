@@ -3,7 +3,7 @@ title: IgnoreTables
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether to compare the differences in data contained in tables. By default tables are not ignored.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.words.comparing/compareoptions/ignoretables/
 ---
 ## CompareOptions.IgnoreTables property
