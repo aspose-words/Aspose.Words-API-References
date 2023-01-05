@@ -48,7 +48,7 @@ Shows how to use callback methods during a field update.
 /// <summary>
 /// Implement this interface if you want to have your own custom methods called during a field update.
 /// </summary>
-public class FieldUpdatingCallback : IFieldUpdatingCallback
+public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
     public FieldUpdatingCallback()
     {
@@ -73,6 +73,12 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {
         FieldUpdatedCalls.Add(field.Result);
+    }
+
+    void IFieldUpdatingProgressCallback.Notify(FieldUpdatingProgressArgs args)
+    {
+        Console.WriteLine($"{args.UpdateCompleted}/{args.TotalFieldsCount}");
+        Console.WriteLine($"{args.UpdatedFieldsCount}");
     }
 
     public IList<string> FieldUpdatedCalls { get; }

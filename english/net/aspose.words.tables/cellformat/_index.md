@@ -3,7 +3,7 @@ title: CellFormat
 second_title: Aspose.Words for .NET API Reference
 description: Represents all formatting for a table cell.
 type: docs
-weight: 6000
+weight: 6010
 url: /net/aspose.words.tables/cellformat/
 ---
 ## CellFormat class

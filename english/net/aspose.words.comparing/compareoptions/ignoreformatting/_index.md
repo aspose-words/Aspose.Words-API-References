@@ -3,7 +3,7 @@ title: IgnoreFormatting
 second_title: Aspose.Words for .NET API Reference
 description: True indicates that formatting is ignored. By default document formatting is not ignored.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.words.comparing/compareoptions/ignoreformatting/
 ---
 ## CompareOptions.IgnoreFormatting property

@@ -14,6 +14,17 @@ Returns true if the current list and the given list are created from the same te
 public bool HasSameTemplate(List other)
 ```
 
+## Examples
+
+Shows how to define lists with the same ListDefId.
+
+```csharp
+Document doc = new Document(MyDir + "Different lists.docx");
+
+Assert.True(doc.Lists[0].HasSameTemplate(doc.Lists[1]));
+Assert.False(doc.Lists[1].HasSameTemplate(doc.Lists[2]));
+```
+
 ### See Also
 
 * class [List](../)

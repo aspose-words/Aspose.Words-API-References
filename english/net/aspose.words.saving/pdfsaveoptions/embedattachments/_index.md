@@ -24,6 +24,22 @@ Embedding attachments is not supported when saving to PDF/A and PDF/UA complianc
 
 Embedding attachments is not supported when encryption is enabled. `false` value will be used automatically.
 
+## Examples
+
+Shows how to add embed attachments to the PDF document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", "Excel.Sheet", false, true, null);
+
+PdfSaveOptions options = new PdfSaveOptions();
+options.EmbedAttachments = true;
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.PdfEmbedAttachments.pdf", options);
+```
+
 ### See Also
 
 * class [PdfSaveOptions](../)

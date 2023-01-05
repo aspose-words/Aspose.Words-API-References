@@ -3,7 +3,7 @@ title: ShowLeaderLines
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify whether data label leader lines need be shown for the data labels of the entire series. Default value is false.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/
 ---
 ## ChartDataLabelCollection.ShowLeaderLines property

@@ -24,6 +24,24 @@ Some shapes are not supported for caching(shapes with fields, bookmarks, HRefs).
 
 Document background graphic is various shapes, charts, images placed in the footer or header, well as background and border of a page.
 
+## Examples
+
+Shows how to cache graphics placed in document's background.
+
+```csharp
+Document doc = new Document(MyDir + "Background images.docx");
+
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+saveOptions.CacheBackgroundGraphics = true;
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.CacheBackgroundGraphics.pdf", saveOptions);
+
+long asposeToPdfSize = new FileInfo(ArtifactsDir + "PdfSaveOptions.CacheBackgroundGraphics.pdf").Length;
+long wordToPdfSize = new FileInfo(MyDir + "Background images (word to pdf).pdf").Length;
+
+Assert.Less(asposeToPdfSize, wordToPdfSize);
+```
+
 ### See Also
 
 * class [PdfSaveOptions](../)

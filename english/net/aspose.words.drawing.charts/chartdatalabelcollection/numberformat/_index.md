@@ -3,7 +3,7 @@ title: NumberFormat
 second_title: Aspose.Words for .NET API Reference
 description: Gets an ChartNumberFormataspose.words.drawing.charts/chartnumberformat/ instance allowing to set number format for the data labels of the entire series.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/numberformat/
 ---
 ## ChartDataLabelCollection.NumberFormat property

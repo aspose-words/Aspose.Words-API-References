@@ -59,7 +59,6 @@ It is not possible to delete lists once they are created in the current version 
 Shows how to create a document with a sample of all the lists from another document.
 
 ```csharp
-public void PrintOutAllLists()
 {
     Document srcDoc = new Document(MyDir + "Rendering.docx");
 
@@ -73,7 +72,6 @@ public void PrintOutAllLists()
     }
 
     dstDoc.Save(ArtifactsDir + "Lists.PrintOutAllLists.docx");
-}
 
 private static void AddListSample(DocumentBuilder builder, List list)
 {

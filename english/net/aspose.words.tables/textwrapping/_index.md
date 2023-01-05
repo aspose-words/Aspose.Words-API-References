@@ -3,7 +3,7 @@ title: TextWrapping
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how text is wrapped around the table.
 type: docs
-weight: 6120
+weight: 6130
 url: /net/aspose.words.tables/textwrapping/
 ---
 ## TextWrapping enumeration

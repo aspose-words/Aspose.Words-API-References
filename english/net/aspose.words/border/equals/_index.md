@@ -29,7 +29,6 @@ builder.Write("Paragraph 2.");
 // these paragraphs, their border collections share the same elements.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -85,7 +84,6 @@ builder.Write("Paragraph 2.");
 // these paragraphs, their border collections share the same elements.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));

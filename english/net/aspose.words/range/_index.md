@@ -23,6 +23,7 @@ public class Range
 | [Bookmarks](../../aspose.words/range/bookmarks/) { get; } | Returns a [`Bookmarks`](./bookmarks/) collection that represents all bookmarks in the range. |
 | [Fields](../../aspose.words/range/fields/) { get; } | Returns a [`Fields`](./fields/) collection that represents all fields in the range. |
 | [FormFields](../../aspose.words/range/formfields/) { get; } | Returns a [`FormFields`](./formfields/) collection that represents all form fields in the range. |
+| [Revisions](../../aspose.words/range/revisions/) { get; } | Gets a collection of revisions (tracked changes) that exist in this range. |
 | [StructuredDocumentTags](../../aspose.words/range/structureddocumenttags/) { get; } | Returns a [`StructuredDocumentTags`](./structureddocumenttags/) collection that represents all structured document tags in the range. |
 | [Text](../../aspose.words/range/text/) { get; } | Gets the text of the range. |
 

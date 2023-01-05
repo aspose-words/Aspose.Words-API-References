@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: Gets Forms2OleControlaspose.words.drawing.ole/forms2olecontrol/ object at specified index.
+description: Gets Forms2OleControlaspose.words.drawing.ole/forms2olecontrol/ object at a specified index.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.ole/forms2olecontrolcollection/item/
 ---
 ## Forms2OleControlCollection indexer
 
-Gets [`Forms2OleControl`](../../forms2olecontrol/) object at specified index.
+Gets [`Forms2OleControl`](../../forms2olecontrol/) object at a specified index.
 
 ```csharp
 public Forms2OleControl this[int index] { get; }

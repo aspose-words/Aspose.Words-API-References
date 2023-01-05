@@ -3,7 +3,7 @@ title: Target
 second_title: Aspose.Words for .NET API Reference
 description: Specifies which document shall be used as a target during comparison.
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.words.comparing/compareoptions/target/
 ---
 ## CompareOptions.Target property

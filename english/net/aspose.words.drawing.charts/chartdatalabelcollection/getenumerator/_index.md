@@ -3,7 +3,7 @@ title: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: Returns an enumerator object.
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/getenumerator/
 ---
 ## ChartDataLabelCollection.GetEnumerator method

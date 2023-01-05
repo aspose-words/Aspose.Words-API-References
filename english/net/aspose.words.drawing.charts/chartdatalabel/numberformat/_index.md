@@ -3,7 +3,7 @@ title: NumberFormat
 second_title: Aspose.Words for .NET API Reference
 description: Returns number format of the parent element.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words.drawing.charts/chartdatalabel/numberformat/
 ---
 ## ChartDataLabel.NumberFormat property

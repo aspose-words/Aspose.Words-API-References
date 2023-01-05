@@ -36,12 +36,12 @@ for (int i = 0; i < structuredDocumentTags.Count; i++)
 sdt = structuredDocumentTags.GetById(1691867797);
 Assert.AreEqual(1691867797, sdt.Id);
 
-Assert.AreEqual(3, structuredDocumentTags.Count);
+Assert.AreEqual(5, structuredDocumentTags.Count);
 // Remove the structured document tag by Id.
 structuredDocumentTags.Remove(1691867797);
 // Remove the structured document tag at position 0.
 structuredDocumentTags.RemoveAt(0);
-Assert.AreEqual(1, structuredDocumentTags.Count);
+Assert.AreEqual(3, structuredDocumentTags.Count);
 ```
 
 ### See Also

@@ -11,7 +11,7 @@ url: /net/aspose.words.drawing.ole/forms2olecontrol/childnodes/
 Gets collection of immediate child controls.
 
 ```csharp
-public Forms2OleControlCollection ChildNodes { get; }
+public virtual Forms2OleControlCollection ChildNodes { get; }
 ```
 
 ## Remarks

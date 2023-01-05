@@ -3,7 +3,7 @@ title: HyphenationOptions
 second_title: Aspose.Words for .NET API Reference
 description: Allows to configure document hyphenation options.
 type: docs
-weight: 5540
+weight: 5550
 url: /net/aspose.words.settings/hyphenationoptions/
 ---
 ## HyphenationOptions class

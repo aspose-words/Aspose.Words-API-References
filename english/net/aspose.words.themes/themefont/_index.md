@@ -3,7 +3,7 @@ title: ThemeFont
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the types of theme font names for document themes.
 type: docs
-weight: 6230
+weight: 6240
 url: /net/aspose.words.themes/themefont/
 ---
 ## ThemeFont enumeration

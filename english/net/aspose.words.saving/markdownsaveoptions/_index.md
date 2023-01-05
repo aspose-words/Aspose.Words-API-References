@@ -3,7 +3,7 @@ title: MarkdownSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Class to specify additional options when saving a document into the Markdown format.
 type: docs
-weight: 5040
+weight: 5050
 url: /net/aspose.words.saving/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions class
@@ -35,11 +35,12 @@ public class MarkdownSaveOptions : TxtSaveOptionsBase
 | [Encoding](../../aspose.words.saving/txtsaveoptionsbase/encoding/) { get; set; } | Specifies the encoding to use when exporting in text formats. Default value is **Encoding.UTF8**. |
 | [ExportGeneratorName](../../aspose.words.saving/saveoptions/exportgeneratorname/) { get; set; } | When `true`, causes the name and version of Aspose.Words to be embedded into produced files. Default value is `true`. |
 | [ExportHeadersFootersMode](../../aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/) { get; set; } | Specifies the way headers and footers are exported to the text formats. Default value is PrimaryOnly. |
-| [ExportImagesAsBase64](../../aspose.words.saving/markdownsaveoptions/exportimagesasbase64/) { get; set; } | Specifies whether images are saved in Base64 format to the output file. Default is `false`. |
+| [ExportImagesAsBase64](../../aspose.words.saving/markdownsaveoptions/exportimagesasbase64/) { get; set; } | Specifies whether images are saved in Base64 format to the output file. Default value is `false`. |
 | [ForcePageBreaks](../../aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/) { get; set; } | Allows to specify whether the page breaks should be preserved during export. |
 | [ImageSavingCallback](../../aspose.words.saving/markdownsaveoptions/imagesavingcallback/) { get; set; } | Allows to control how images are saved when a document is saved to Markdown format. |
 | [ImagesFolder](../../aspose.words.saving/markdownsaveoptions/imagesfolder/) { get; set; } | Specifies the physical folder where images are saved when exporting a document to the Markdown format. Default is an empty string. |
 | [ImlRenderingMode](../../aspose.words.saving/saveoptions/imlrenderingmode/) { get; set; } | Gets or sets a value determining how ink (InkML) objects are rendered. |
+| [ListExportMode](../../aspose.words.saving/markdownsaveoptions/listexportmode/) { get; set; } | Specifies how list items will be written to the output file. Default value is MarkdownSyntax. |
 | [MemoryOptimization](../../aspose.words.saving/saveoptions/memoryoptimization/) { get; set; } | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is `false`. |
 | [ParagraphBreak](../../aspose.words.saving/txtsaveoptionsbase/paragraphbreak/) { get; set; } | Specifies the string to use as a paragraph break when exporting in text formats. |
 | [PrettyFormat](../../aspose.words.saving/saveoptions/prettyformat/) { get; set; } | When `true`, pretty formats output where applicable. Default value is `false`. |
