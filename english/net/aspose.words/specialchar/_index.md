@@ -3,7 +3,7 @@ title: SpecialChar
 second_title: Aspose.Words for .NET API Reference
 description: Base class for special characters in the document.
 type: docs
-weight: 5840
+weight: 5850
 url: /net/aspose.words/specialchar/
 ---
 ## SpecialChar class
@@ -72,7 +72,7 @@ Shows how to use a DocumentVisitor implementation to remove all hidden content f
     // Below are three types of fields which can accept a document visitor,
     // which will allow it to visit the accepting node, and then traverse its child nodes in a depth-first manner.
     // 1 -  Paragraph node:
-    Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 4, true);
+    Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
 
     // 2 -  Table node:

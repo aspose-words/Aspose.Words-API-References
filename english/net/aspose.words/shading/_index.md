@@ -3,7 +3,7 @@ title: Shading
 second_title: Aspose.Words for .NET API Reference
 description: Contains shading attributes for an object.
 type: docs
-weight: 5730
+weight: 5740
 url: /net/aspose.words/shading/
 ---
 ## Shading class
@@ -21,7 +21,11 @@ public class Shading : InternableComplexAttr
 | Name | Description |
 | --- | --- |
 | [BackgroundPatternColor](../../aspose.words/shading/backgroundpatterncolor/) { get; set; } | Gets or sets the color that's applied to the background of the [`Shading`](./shading/) object. |
+| [BackgroundPatternThemeColor](../../aspose.words/shading/backgroundpatternthemecolor/) { get; set; } | Gets or sets the background pattern theme color in the applied color scheme that is associated with this [`Shading`](./shading/) object. |
+| [BackgroundTintAndShade](../../aspose.words/shading/backgroundtintandshade/) { get; set; } | Gets or sets a double value that lightens or darkens a background theme color. |
 | [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor/) { get; set; } | Gets or sets the color that's applied to the foreground of the [`Shading`](./shading/) object. |
+| [ForegroundPatternThemeColor](../../aspose.words/shading/foregroundpatternthemecolor/) { get; set; } | Gets or sets the foreground pattern theme color in the applied color scheme that is associated with this [`Shading`](./shading/) object. |
+| [ForegroundTintAndShade](../../aspose.words/shading/foregroundtintandshade/) { get; set; } | Gets or sets a double value that lightens or darkens a foreground theme color. |
 | [Texture](../../aspose.words/shading/texture/) { get; set; } | Gets or sets the shading texture. |
 
 ## Methods

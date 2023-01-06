@@ -3,7 +3,7 @@ title: Node class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Base class for all nodes of a Word document"
 type: docs
-weight: 680
+weight: 690
 url: /python-net/aspose.words/node/
 ---
 

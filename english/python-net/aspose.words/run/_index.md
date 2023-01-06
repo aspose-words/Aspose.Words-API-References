@@ -3,7 +3,7 @@ title: Run class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a run of characters with the same font formatting"
 type: docs
-weight: 960
+weight: 970
 url: /python-net/aspose.words/run/
 ---
 

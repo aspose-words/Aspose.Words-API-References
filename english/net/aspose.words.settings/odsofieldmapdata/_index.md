@@ -3,7 +3,7 @@ title: OdsoFieldMapData
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how a column in the external data source shall be mapped to the predefined merge fields within the document.
 type: docs
-weight: 5640
+weight: 5650
 url: /net/aspose.words.settings/odsofieldmapdata/
 ---
 ## OdsoFieldMapData class

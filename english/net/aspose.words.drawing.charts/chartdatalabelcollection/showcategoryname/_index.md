@@ -3,7 +3,7 @@ title: ShowCategoryName
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify whether category name is to be displayed for the data labels of the entire series. Default value is false.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/
 ---
 ## ChartDataLabelCollection.ShowCategoryName property

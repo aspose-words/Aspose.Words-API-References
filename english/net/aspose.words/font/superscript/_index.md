@@ -20,7 +20,7 @@ Shows how to format text to offset its position.
 
 ```csharp
 Document doc = new Document();
-Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 0, true);
+Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
 // Raise this run of text 5 points above the baseline.
 Run run = new Run(doc, "Raised text. ");

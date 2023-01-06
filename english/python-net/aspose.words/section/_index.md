@@ -3,7 +3,7 @@ title: Section class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a single section in a document"
 type: docs
-weight: 990
+weight: 1000
 url: /python-net/aspose.words/section/
 ---
 

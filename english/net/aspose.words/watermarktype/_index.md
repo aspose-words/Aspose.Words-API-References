@@ -3,7 +3,7 @@ title: WatermarkType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the watermark type.
 type: docs
-weight: 6420
+weight: 6430
 url: /net/aspose.words/watermarktype/
 ---
 ## WatermarkType enumeration

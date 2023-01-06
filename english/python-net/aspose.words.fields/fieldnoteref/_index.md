@@ -86,6 +86,7 @@ def test_field_note_ref(self):
     builder.insert_break(aw.BreakType.PAGE_BREAK)
     ExField.insert_bookmark_with_footnote(builder, "MyBookmark2", "Contents of MyBookmark2", "Footnote from MyBookmark2")
 
+    doc.update_page_layout()
     doc.update_fields()
     doc.save(ARTIFACTS_DIR + "Field.field_note_ref.docx")
 
@@ -113,6 +114,34 @@ def insert_bookmark_with_footnote(builder: aw.DocumentBuilder, bookmark_name: st
     builder.insert_footnote(aw.notes.FootnoteType.FOOTNOTE, footnote_text)
     builder.end_bookmark(bookmark_name)
     builder.writeln()
+```
+
+Shows how to cross-reference footnotes with the NOTEREF field.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc)
+
+builder.write("CrossReference: ")
+
+# <--- don't update field
+field = builder.insert_field(awf.FieldType.FIELD_NOTE_REF, False)
+field.bookmark_name = "CrossRefBookmark"
+field.insert_hyperlink = True
+field.insert_reference_mark = True
+field.insert_relative_position = False
+builder.writeln()
+
+builder.start_bookmark("CrossRefBookmark")
+builder.write("Hello world!")
+builder.insert_footnote(aw.notes.FootnoteType.FOOTNOTE, "Cross referenced footnote.")
+builder.end_bookmark("CrossRefBookmark")
+builder.writeln()
+
+doc.update_fields()
+
+# This field works only in older versions of Microsoft Word.
+doc.save(ARTIFACTS_DIR + "Field.field_note_ref.doc")
 ```
 
 ### See Also

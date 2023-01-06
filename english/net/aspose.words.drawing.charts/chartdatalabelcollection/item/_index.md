@@ -3,7 +3,7 @@ title: Item
 second_title: Aspose.Words for .NET API Reference
 description: Returns ChartDataLabelaspose.words.drawing.charts/chartdatalabel/ for the specified index.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/item/
 ---
 ## ChartDataLabelCollection indexer

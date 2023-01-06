@@ -3,7 +3,7 @@ title: ParagraphFormat class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents all the formatting for a paragraph"
 type: docs
-weight: 860
+weight: 870
 url: /python-net/aspose.words/paragraphformat/
 ---
 

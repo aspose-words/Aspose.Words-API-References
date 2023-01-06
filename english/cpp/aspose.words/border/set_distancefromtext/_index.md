@@ -3,7 +3,7 @@ title: set_DistanceFromText
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Border::get_DistanceFromText.'
 type: docs
-weight: 170
+weight: 196
 url: /cpp/aspose.words/border/set_distancefromtext/
 ---
 ## Border::set_DistanceFromText method

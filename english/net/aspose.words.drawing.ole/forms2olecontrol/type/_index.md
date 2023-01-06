@@ -3,7 +3,7 @@ title: Type
 second_title: Aspose.Words for .NET API Reference
 description: Gets type of Forms 2.0 control.
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.words.drawing.ole/forms2olecontrol/type/
 ---
 ## Forms2OleControl.Type property
@@ -11,7 +11,7 @@ url: /net/aspose.words.drawing.ole/forms2olecontrol/type/
 Gets type of Forms 2.0 control.
 
 ```csharp
-public Forms2OleControlType Type { get; }
+public abstract Forms2OleControlType Type { get; }
 ```
 
 ## Examples

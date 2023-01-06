@@ -3,7 +3,7 @@ title: ShowPercentage
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify whether percentage value is to be displayed for the data labels of the entire series. Default value is false. Applies only to Pie charts.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/
 ---
 ## ChartDataLabelCollection.ShowPercentage property

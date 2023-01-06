@@ -3,7 +3,7 @@ title: VisitorAction enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows the visitor to control the enumeration of nodes."
 type: docs
-weight: 1280
+weight: 1290
 url: /python-net/aspose.words/visitoraction/
 ---
 

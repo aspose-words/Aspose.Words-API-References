@@ -11,7 +11,7 @@ url: /net/aspose.words.drawing.ole/olecontrol/name/
 Gets name of the ActiveX control.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ## Examples

@@ -3,7 +3,7 @@ title: WatermarkType
 second_title: Aspose.Words for C++ API Reference
 description: Specifies the watermark type.
 type: docs
-weight: 1691
+weight: 1704
 url: /cpp/aspose.words/watermarktype/
 ---
 ## WatermarkType enum

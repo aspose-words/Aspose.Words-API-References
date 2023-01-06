@@ -25,7 +25,6 @@ public class OfficeMath : CompositeNode
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | [DisplayType](../../aspose.words.math/officemath/displaytype/) { get; set; } | Gets/sets Office Math display format type which represents whether an equation is displayed inline with the text or displayed on its own line. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |
-| [EquationXmlEncoding](../../aspose.words.math/officemath/equationxmlencoding/) { get; set; } | Gets/sets an encoding that was used to encode equation XML, if this office math object is read from equation XML. We use the encoding on saving a document to write in same encoding that it was read. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Gets the first child of the node. |
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
 | override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |

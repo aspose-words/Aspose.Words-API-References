@@ -3,7 +3,7 @@ title: TextEffect enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Animation effect for text runs."
 type: docs
-weight: 1210
+weight: 1220
 url: /python-net/aspose.words/texteffect/
 ---
 

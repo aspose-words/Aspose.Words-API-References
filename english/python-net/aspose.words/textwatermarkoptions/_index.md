@@ -3,7 +3,7 @@ title: TextWatermarkOptions class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Contains options that can be specified when adding a watermark with text"
 type: docs
-weight: 1230
+weight: 1240
 url: /python-net/aspose.words/textwatermarkoptions/
 ---
 

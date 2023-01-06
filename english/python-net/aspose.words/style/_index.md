@@ -3,7 +3,7 @@ title: Style class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a single built-in or user-defined style"
 type: docs
-weight: 1080
+weight: 1090
 url: /python-net/aspose.words/style/
 ---
 

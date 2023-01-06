@@ -3,7 +3,7 @@ title: WarningInfoCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a typed collection of [WarningInfo](../warninginfo/) objects"
 type: docs
-weight: 1300
+weight: 1310
 url: /python-net/aspose.words/warninginfocollection/
 ---
 

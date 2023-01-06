@@ -3,7 +3,7 @@ title: Orientation enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies page orientation."
 type: docs
-weight: 760
+weight: 770
 url: /python-net/aspose.words/orientation/
 ---
 

@@ -3,7 +3,7 @@ title: Row
 second_title: Aspose.Words for .NET API Reference
 description: Represents a table row.
 type: docs
-weight: 6050
+weight: 6060
 url: /net/aspose.words.tables/row/
 ---
 ## Row class

@@ -3,7 +3,7 @@ title: NodeType enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the type of a Word document node."
 type: docs
-weight: 740
+weight: 750
 url: /python-net/aspose.words/nodetype/
 ---
 

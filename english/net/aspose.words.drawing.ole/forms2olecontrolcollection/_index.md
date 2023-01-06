@@ -13,7 +13,7 @@ Represents collection of [`Forms2OleControl`](../forms2olecontrol/) objects.
 To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/net/working-with-ole-objects-and-online-video/) documentation article.
 
 ```csharp
-public class Forms2OleControlCollection
+public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
 ```
 
 ## Constructors
@@ -27,7 +27,13 @@ public class Forms2OleControlCollection
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.words.drawing.ole/forms2olecontrolcollection/count/) { get; } | Gets count of objects in the collection. |
-| [Item](../../aspose.words.drawing.ole/forms2olecontrolcollection/item/) { get; } | Gets [`Forms2OleControl`](../forms2olecontrol/) object at specified index. |
+| [Item](../../aspose.words.drawing.ole/forms2olecontrolcollection/item/) { get; } | Gets [`Forms2OleControl`](../forms2olecontrol/) object at a specified index. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetEnumerator](../../aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/)() | Gets enumerator. |
 
 ## Examples
 
@@ -60,6 +66,7 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 
 ### See Also
 
+* class [Forms2OleControl](../forms2olecontrol/)
 * namespace [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * assembly [Aspose.Words](../../)
 

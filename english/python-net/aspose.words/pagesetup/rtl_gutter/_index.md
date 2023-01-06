@@ -3,7 +3,7 @@ title: rtl_gutter property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets whether Microsoft Word uses gutters for the section based on a right-to-left language or a left-to-right language."
 type: docs
-weight: 370
+weight: 380
 url: /python-net/aspose.words/pagesetup/rtl_gutter/
 ---
 

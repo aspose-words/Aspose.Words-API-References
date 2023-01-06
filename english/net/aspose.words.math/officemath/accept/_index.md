@@ -3,7 +3,7 @@ title: Accept
 second_title: Aspose.Words for .NET API Reference
 description: Accepts a visitor.
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.words.math/officemath/accept/
 ---
 ## OfficeMath.Accept method

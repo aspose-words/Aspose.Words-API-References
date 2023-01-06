@@ -3,7 +3,7 @@ title: MailMergeDataType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of an external mail merge data source.
 type: docs
-weight: 5560
+weight: 5570
 url: /net/aspose.words.settings/mailmergedatatype/
 ---
 ## MailMergeDataType enumeration

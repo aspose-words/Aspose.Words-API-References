@@ -29,6 +29,8 @@ class Border : public Aspose::Words::InternableComplexAttr,
 | [get_LineStyle](./get_linestyle/)() | Gets or sets the border style. |
 | [get_LineWidth](./get_linewidth/)() | Gets or sets the border width in points. |
 | [get_Shadow](./get_shadow/)() | Gets or sets a value indicating whether the border has a shadow. |
+| [get_ThemeColor](./get_themecolor/)() | Gets the theme color in the applied color scheme that is associated with this [Border](./) object. |
+| [get_TintAndShade](./get_tintandshade/)() | Gets or sets a double value that lightens or darkens a color. |
 | [GetHashCode](./gethashcode/)() const override | Serves as a hash function for this type. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
@@ -37,6 +39,8 @@ class Border : public Aspose::Words::InternableComplexAttr,
 | [set_LineStyle](./set_linestyle/)(Aspose::Words::LineStyle) | Setter for [Aspose::Words::Border::get_LineStyle](./get_linestyle/). |
 | [set_LineWidth](./set_linewidth/)(double) | Setter for [Aspose::Words::Border::get_LineWidth](./get_linewidth/). |
 | [set_Shadow](./set_shadow/)(bool) | Setter for [Aspose::Words::Border::get_Shadow](./get_shadow/). |
+| [set_ThemeColor](./set_themecolor/)(Aspose::Words::Themes::ThemeColor) | Sets the theme color in the applied color scheme that is associated with this [Border](./) object. |
+| [set_TintAndShade](./set_tintandshade/)(double) | Setter for [Aspose::Words::Border::get_TintAndShade](./get_tintandshade/). |
 | static [Type](./type/)() |  |
 ## Remarks
 

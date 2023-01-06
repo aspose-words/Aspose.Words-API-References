@@ -3,7 +3,7 @@ title: Texture
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the shading texture.
 type: docs
-weight: 30
+weight: 70
 url: /net/aspose.words/shading/texture/
 ---
 ## Shading.Texture property

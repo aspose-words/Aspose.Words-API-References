@@ -48,37 +48,6 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net
 |[ update()](../field/update/#default) | Performs the field update. Throws if the field is being updated already.<br>(Inherited from [Field](../field/)) |
 |[ update(ignore_merge_format)](../field/update/#bool) | Performs a field update. Throws if the field is being updated already.<br>(Inherited from [Field](../field/)) |
 
-### Examples
-
-Shows how to cross-reference footnotes with the FOOTNOTEREF field.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-
-builder.start_bookmark("CrossRefBookmark")
-builder.write("Hello world!")
-builder.insert_footnote(aw.notes.FootnoteType.FOOTNOTE, "Cross referenced footnote.")
-builder.end_bookmark("CrossRefBookmark")
-builder.insert_paragraph()
-
-# Insert a FOOTNOTEREF field, which lets us reference a footnote more than once while re-using the same footnote marker.
-builder.write("CrossReference: ")
-field = builder.insert_field(aw.fields.FieldType.FIELD_FOOTNOTE_REF, True).as_field_footnote_ref()
-
-# Reference the bookmark that we have created with the FOOTNOTEREF field. That bookmark contains a footnote marker
-# belonging to the footnote we inserted. The field will display that footnote marker.
-builder.move_to(field.separator)
-builder.write("CrossRefBookmark")
-
-self.assertEqual(" FOOTNOTEREF CrossRefBookmark", field.get_field_code())
-
-doc.update_fields()
-
-# This field works only in older versions of Microsoft Word.
-doc.save(ARTIFACTS_DIR + "Field.field_footnote_ref.doc")
-```
-
 ### See Also
 
 * module [aspose.words.fields](../)

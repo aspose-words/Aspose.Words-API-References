@@ -3,7 +3,7 @@ title: Equals
 second_title: Aspose.Words for .NET API Reference
 description: Determines whether the specified Shadingaspose.words/shading/ is equal in value to the current Shadingaspose.words/shading/.
 type: docs
-weight: 50
+weight: 90
 url: /net/aspose.words/shading/equals/
 ---
 ## Equals(Shading) {#equals}

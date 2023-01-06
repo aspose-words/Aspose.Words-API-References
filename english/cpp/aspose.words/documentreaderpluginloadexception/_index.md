@@ -3,7 +3,7 @@ title: DocumentReaderPluginLoadException
 second_title: Aspose.Words for C++ API Reference
 description: Thrown during document load, when the plugin required for reading the document format cannot be loaded.
 type: docs
-weight: 1704
+weight: 1717
 url: /cpp/aspose.words/documentreaderpluginloadexception/
 ---
 ## DocumentReaderPluginLoadException typedef

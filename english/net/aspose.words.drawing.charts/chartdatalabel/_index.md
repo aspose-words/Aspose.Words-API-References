@@ -20,6 +20,7 @@ public class ChartDataLabel
 
 | Name | Description |
 | --- | --- |
+| [Font](../../aspose.words.drawing.charts/chartdatalabel/font/) { get; } | Provides access to the font formatting of this data label. |
 | [Index](../../aspose.words.drawing.charts/chartdatalabel/index/) { get; } | Specifies the index of the containing element. This index shall determine which of the parent's children collection this element applies to. Default value is 0. |
 | [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden/) { get; set; } | Gets/sets a flag indicating whether this label is hidden. The default value is `false`. |
 | [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible/) { get; } | Returns `true` if this data label has something to display. |
