@@ -14,9 +14,10 @@ keywords: "Aspose.Words for .NET, Aspose Words, Aspose API Reference."
 
 ![Aspose.Words for .NET Product Logo](home_1.png)
 
-Aspose.Words for .NET is a class library that allows your programs to perform an amazing variety of document-processing jobs. Aspose.Words helps Doc, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB, and different formats. With Aspose.Words you may generate, modify, convert, render, and print documents without utilizing Microsoft Word®. 
+Aspose.Words for .NET is a class library for .NET based applications that provides advanced [document](/words/net/aspose.words/document/) processing features. Aspose.Words for .NET supports [creating](/words/net/aspose.words/document/document/), [modifying](/words/net/aspose.words/document/document/#constructor_3), [converting](/words/net/aspose.words/document/save/), rendering and [printing](/words/net/aspose.words/document/print/) document files without any dependencies of Microsoft Word and any other document processing application.
+     
+Aspose.Words for .NET helps to process and convert [Doc](/words/net/aspose.words.saving/docsaveoptions/), [DOCX](/words/net/aspose.words.saving/docsaveoptions/), [RTF](/words/net/aspose.words.saving/rtfsaveoptions/), [HTML](/words/net/aspose.words.saving/htmlsaveoptions/), [OpenDocument](/words/net/aspose.words.saving/odtsaveoptions/), [PDF](/words/net/aspose.words.saving/pdfsaveoptions/), [XPS](/words/net/aspose.words.saving/xpssaveoptions/), EPUB, and different [formats](/words/net/aspose.words.saving/). Aspose.Words API References contain documentation, examples, and code snippets to perform basic and advanced document-processing jobs. It includes C#, VB.NET, and other .NET-supported programming languages examples.
 
-Aspose.Words API References contain documentation, examples, and code snippets to perform basic and advanced document-processing jobs. It includes C#, VB.NET, and other .NET-supported programming languages examples. 
 
 {{% /alert %}}
 
