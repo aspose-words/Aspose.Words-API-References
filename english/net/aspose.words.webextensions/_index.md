@@ -12,7 +12,7 @@ The **Aspose.Words.WebExtensions** namespace provides classes that allow to cust
 
 | Class | Description |
 | --- | --- |
-| [BaseWebExtensionCollection&lt;T&gt;](./basewebextensioncollection-1/) | Base class for [`TaskPaneCollection`](../aspose.words.webextensions/taskpanecollection/), [`WebExtensionBindingCollection`](../aspose.words.webextensions/webextensionbindingcollection/), [`WebExtensionPropertyCollection`](../aspose.words.webextensions/webextensionpropertycollection/) and [`WebExtensionReferenceCollection`](../aspose.words.webextensions/webextensionreferencecollection/) collections. |
+| [BaseWebExtensionCollection&lt;T&gt;](./basewebextensioncollection1/) | Base class for [`TaskPaneCollection`](../aspose.words.webextensions/taskpanecollection/), [`WebExtensionBindingCollection`](../aspose.words.webextensions/webextensionbindingcollection/), [`WebExtensionPropertyCollection`](../aspose.words.webextensions/webextensionpropertycollection/) and [`WebExtensionReferenceCollection`](../aspose.words.webextensions/webextensionreferencecollection/) collections. |
 | [TaskPane](./taskpane/) | Represents an add-in task pane object. |
 | [TaskPaneCollection](./taskpanecollection/) | Specifies a list of persisted task pane objects. |
 | [WebExtension](./webextension/) | Represents a web extension object. |

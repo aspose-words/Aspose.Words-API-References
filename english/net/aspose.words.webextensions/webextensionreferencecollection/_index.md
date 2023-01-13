@@ -34,7 +34,7 @@ public class WebExtensionReferenceCollection : BaseWebExtensionCollection<WebExt
 
 ### See Also
 
-* class [BaseWebExtensionCollection&lt;T&gt;](../basewebextensioncollection-1/)
+* class [BaseWebExtensionCollection&lt;T&gt;](../basewebextensioncollection1/)
 * class [WebExtensionReference](../webextensionreference/)
 * namespace [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * assembly [Aspose.Words](../../)
