@@ -4,7 +4,7 @@ second_title: Aspose.Words for .NET API Reference
 description: Base class for TaskPaneCollection./taskpanecollection/ WebExtensionBindingCollection./webextensionbindingcollection/ WebExtensionPropertyCollection./webextensionpropertycollection/ and WebExtensionReferenceCollection./webextensionreferencecollection/ collections.
 type: docs
 weight: 6440
-url: /net/aspose.words.webextensions/basewebextensioncollection1/
+url: /net/aspose.words.webextensions/basewebextensioncollection-1/
 ---
 ## BaseWebExtensionCollection&lt;T&gt; class
 
@@ -25,17 +25,17 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.words.webextensions/basewebextensioncollection`1/count/) { get; } | Gets the number of elements contained in the collection. |
-| [Item](../../aspose.words.webextensions/basewebextensioncollection`1/item/) { get; set; } | Gets or sets an item at the specified index. |
+| [Count](../../aspose.words.webextensions/basewebextensioncollection-1/count/) { get; } | Gets the number of elements contained in the collection. |
+| [Item](../../aspose.words.webextensions/basewebextensioncollection-1/item/) { get; set; } | Gets or sets an item at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection`1/add/)(T) | Adds specified item to the collection. |
-| [Clear](../../aspose.words.webextensions/basewebextensioncollection`1/clear/)() | Removes all elements from the collection. |
-| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection`1/getenumerator/)() | Returns an enumerator that can iterate through a collection. |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection`1/remove/)(int) | Removes the item at the specified index from the collection. |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(T) | Adds specified item to the collection. |
+| [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() | Removes all elements from the collection. |
+| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | Returns an enumerator that can iterate through a collection. |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) | Removes the item at the specified index from the collection. |
 
 ## Examples
 
