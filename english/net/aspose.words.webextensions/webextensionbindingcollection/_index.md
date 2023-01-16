@@ -76,7 +76,7 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 ### See Also
 
-* class [BaseWebExtensionCollection&lt;T&gt;](../basewebextensioncollection1/)
+* class [BaseWebExtensionCollection&lt;T&gt;](../basewebextensioncollection-1/)
 * class [WebExtensionBinding](../webextensionbinding/)
 * namespace [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * assembly [Aspose.Words](../../)
