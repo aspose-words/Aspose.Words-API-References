@@ -24,7 +24,7 @@ To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/word
 
 | Name | Description |
 | --- | --- |
-| [``__getitem__(index)``](./__getitem__/#int) | Gets [Forms2OleControl](../forms2olecontrol/) object at specified index. |
+| [``__getitem__(index)``](./__getitem__/#int) | Gets [Forms2OleControl](../forms2olecontrol/) object at a specified index. |
 
 ### Properties
 

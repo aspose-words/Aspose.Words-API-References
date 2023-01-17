@@ -24,6 +24,22 @@ will be used automatically.
 
 
 
+### Examples
+
+Shows how to add embed attachments to the PDF document.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc);
+
+builder.insert_ole_object(MY_DIR + "Spreadsheet.xlsx", "Excel.Sheet", False, True, None)
+
+options = aw.saving.PdfSaveOptions()
+options.embed_attachments = True
+
+doc.save(ARTIFACTS_DIR + "PdfSaveOptions.PdfEmbedAttachments.pdf", options)
+```
+
 ### See Also
 
 * module [aspose.words.saving](../../)

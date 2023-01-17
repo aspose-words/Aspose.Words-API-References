@@ -3,7 +3,7 @@ title: show_legend_key property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to specify whether legend key is to be displayed for the data labels of the entire series"
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_legend_key/
 ---
 

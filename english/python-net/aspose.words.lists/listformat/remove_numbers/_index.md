@@ -117,7 +117,6 @@ builder.writeln("Numbered list item 3")
 builder.list_format.remove_numbers()
 
 paras = [node.as_paragraph() for node in doc.get_child_nodes(aw.NodeType.PARAGRAPH, True)]
-
 self.assertEqual(3, len([p for p in paras if p.list_format.is_list_item]))
 
 for paragraph in paras:

@@ -3,13 +3,13 @@ title: ignore_comments property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies whether to compare differences in comments"
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.comparing/compareoptions/ignore_comments/
 ---
 
 ## CompareOptions.ignore_comments property
 
-Specifies whether to compare differences in comments. 
+Specifies whether to compare differences in comments.
 By default comments are not ignored.
 
 

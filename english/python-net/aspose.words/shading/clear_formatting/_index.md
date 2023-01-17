@@ -3,7 +3,7 @@ title: clear_formatting method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Removes shading from the object."
 type: docs
-weight: 40
+weight: 80
 url: /python-net/aspose.words/shading/clear_formatting/
 ---
 

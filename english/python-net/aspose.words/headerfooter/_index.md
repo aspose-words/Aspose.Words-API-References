@@ -73,6 +73,7 @@ considered linked to previous in Microsoft Word.
 |[ append_paragraph(text)](../story/append_paragraph/#str) | A shortcut method that creates a [Paragraph](../paragraph/) object with optional text and appends it to the end of this object.<br>(Inherited from [Story](../story/)) |
 |[ clone(is_clone_children)](../node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../node/)) |
 |[ delete_shapes()](../story/delete_shapes/#default) | Deletes all shapes from the text of this story.<br>(Inherited from [Story](../story/)) |
+|[ get_ancestor(ancestor_type)](../node/get_ancestor/#unknown) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../node/)) |
 |[ get_ancestor(ancestor_type)](../node/get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../nodetype/).<br>(Inherited from [Node](../node/)) |
 |[ get_child(node_type, index, is_deep)](../compositenode/get_child/#nodetype_int_bool) | Returns an Nth child node that matches the specified type.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ get_child_nodes(node_type, is_deep)](../compositenode/get_child_nodes/#nodetype_bool) | Returns a live collection of child nodes that match the specified type.<br>(Inherited from [CompositeNode](../compositenode/)) |

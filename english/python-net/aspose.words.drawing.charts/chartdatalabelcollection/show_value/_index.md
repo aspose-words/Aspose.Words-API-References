@@ -3,7 +3,7 @@ title: show_value property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to specify whether values are to be displayed in the data labels of the entire series"
 type: docs
-weight: 120
+weight: 130
 url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_value/
 ---
 

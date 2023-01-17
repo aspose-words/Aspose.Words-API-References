@@ -3,7 +3,7 @@ title: show_series_name property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns or sets a Boolean to indicate the series name display behavior for the data labels of the entire series"
 type: docs
-weight: 110
+weight: 120
 url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_series_name/
 ---
 

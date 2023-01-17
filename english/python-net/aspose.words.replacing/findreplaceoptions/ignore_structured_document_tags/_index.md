@@ -26,6 +26,25 @@ be performed for such pattern.
 
 
 
+### Examples
+
+Shows how to ignore content of tags from replacement.
+
+```python
+doc = aw.Document(MY_DIR + "Structured document tags.docx")
+
+# This paragraph contains SDT.
+p = doc.first_section.body.get_child(aw.NodeType.PARAGRAPH, 2, True).as_paragraph()
+import aspose.words.saving as aws
+text_to_search = p.to_string(aw.SaveFormat.TEXT).strip()
+
+options = aw.replacing.FindReplaceOptions()
+options.ignore_structured_document_tags = True
+doc.range.replace(text_to_search, "replacement", options)
+
+doc.save(ARTIFACTS_DIR + "StructuredDocumentTag.IgnoreStructuredDocumentTags.docx");
+```
+
 ### See Also
 
 * module [aspose.words.replacing](../../)

@@ -9,7 +9,7 @@ url: /python-net/aspose.words.math/officemath/math_object_type/
 
 ## OfficeMath.math_object_type property
 
-Gets type [OfficeMath.math_object_type](./) of this Office Math object. 
+Gets type [OfficeMath.math_object_type](./) of this Office Math object.
 
 
 

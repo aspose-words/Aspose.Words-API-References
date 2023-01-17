@@ -11,7 +11,7 @@ url: /python-net/aspose.words.saving/metafilerenderingoptions/rendering_mode/
 
 Gets or sets a value determining how metafile images should be rendered.
 
-The default value depends on the save format. For images it is [MetafileRenderingMode.BITMAP](../../metafilerenderingmode/#BITMAP). 
+The default value depends on the save format. For images it is [MetafileRenderingMode.BITMAP](../../metafilerenderingmode/#BITMAP).
 For other formats it is [MetafileRenderingMode.VECTOR_WITH_FALLBACK](../../metafilerenderingmode/#VECTOR_WITH_FALLBACK).
 
 

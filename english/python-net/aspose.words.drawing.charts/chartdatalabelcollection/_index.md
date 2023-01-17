@@ -26,6 +26,7 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/net
 | Name | Description |
 | --- | --- |
 | [count](./count/) | Returns the number of [ChartDataLabel](../chartdatalabel/) in this collection. |
+| [font](./font/) | Provides access to the font formatting of the data labels of the entire series. |
 | [number_format](./number_format/) | Gets an [ChartNumberFormat](../chartnumberformat/) instance allowing to set number format for the data labels of the entire series. |
 | [separator](./separator/) | Gets or sets string separator used for the data labels of the entire series.  The default is a comma, except for pie charts showing only category name and percentage, when a line break  shall be used instead. |
 | [show_bubble_size](./show_bubble_size/) | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. Applies only to Bubble charts.  Default value is ``False``. |

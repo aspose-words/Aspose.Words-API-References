@@ -3,7 +3,7 @@ title: msw_version property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to specify that the document loading process should match a specific MS Word version"
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.words.loading/loadoptions/msw_version/
 ---
 

@@ -87,6 +87,7 @@ The [Node](./) class:
 |[ as_sub_document()](./as_sub_document/#default) | Cast node to [SubDocument](../subdocument/). |
 |[ as_table()](./as_table/#default) | Cast node to [Table](../../aspose.words.tables/table/). |
 |[ clone(is_clone_children)](./clone/#bool) | Creates a duplicate of the node. |
+|[ get_ancestor(ancestor_type)](./get_ancestor/#unknown) | Gets the first ancestor of the specified object type. |
 |[ get_ancestor(ancestor_type)](./get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../nodetype/). |
 |[ get_text()](./get_text/#default) | Gets the text of this node and of all its children. |
 |[ next_pre_order(root_node)](./next_pre_order/#node) | Gets next node according to the pre-order tree traversal algorithm. |

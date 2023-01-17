@@ -3,7 +3,7 @@ title: replace_regex method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "aspose.words.Range.replace_regex method"
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.words/range/replace_regex/
 ---
 

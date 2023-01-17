@@ -126,6 +126,25 @@ def insert_field_eq(builder: aw.DocumentBuilder, args: str) -> aw.fields.FieldEQ
     return field
 ```
 
+Shows how to replace the EQ field with Office Math.
+
+```python
+doc = aw.Document(MY_DIR + "Field sample - EQ.docx")
+import aspose.words.fields as awf
+field_eq = None
+for field in doc.range.fields:
+    if field.type == awf.FieldType.FIELD_EQUATION:
+        field_eq = field.as_field_eq()
+        break
+
+officeMath = field_eq.as_office_math()
+
+field_eq.start.parent_node.insert_before(officeMath, field_eq.start)
+field_eq.remove()
+
+doc.save(ARTIFACTS_DIR + "Field.EQAsOfficeMath.docx")
+```
+
 ### See Also
 
 * module [aspose.words.fields](../)

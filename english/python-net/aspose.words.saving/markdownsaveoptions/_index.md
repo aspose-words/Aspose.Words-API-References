@@ -3,7 +3,7 @@ title: MarkdownSaveOptions class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Class to specify additional options when saving a document into the [SaveFormat.MARKDOWN](../../aspose.words/saveformat/#MARKDOWN) format"
 type: docs
-weight: 410
+weight: 420
 url: /python-net/aspose.words.saving/markdownsaveoptions/
 ---
 
@@ -34,11 +34,12 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/ne
 | [encoding](../txtsaveoptionsbase/encoding/) | Specifies the encoding to use when exporting in text formats.  Default value is **Encoding.UTF8**.<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |
 | [export_generator_name](../saveoptions/export_generator_name/) | When ``True``, causes the name and version of Aspose.Words to be embedded into produced files. Default value is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [export_headers_footers_mode](../txtsaveoptionsbase/export_headers_footers_mode/) | Specifies the way headers and footers are exported to the text formats. Default value is [TxtExportHeadersFootersMode.PRIMARY_ONLY](../txtexportheadersfootersmode/#PRIMARY_ONLY).<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |
-| [export_images_as_base64](./export_images_as_base64/) | Specifies whether images are saved in Base64 format to the output file. Default is ``False``. |
+| [export_images_as_base64](./export_images_as_base64/) | Specifies whether images are saved in Base64 format to the output file. Default value is ``False``. |
 | [force_page_breaks](../txtsaveoptionsbase/force_page_breaks/) | Allows to specify whether the page breaks should be preserved during export.<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |
 | [image_saving_callback](./image_saving_callback/) | Allows to control how images are saved when a document is saved to [SaveFormat.MARKDOWN](../../aspose.words/saveformat/#MARKDOWN) format. |
 | [images_folder](./images_folder/) | Specifies the physical folder where images are saved when exporting a document to the [SaveFormat.MARKDOWN](../../aspose.words/saveformat/#MARKDOWN) format. Default is an empty string. |
 | [iml_rendering_mode](../saveoptions/iml_rendering_mode/) | Gets or sets a value determining how ink (InkML) objects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [list_export_mode](./list_export_mode/) | Specifies how list items will be written to the output file. Default value is [MarkdownListExportMode.MARKDOWN_SYNTAX](../markdownlistexportmode/#MARKDOWN_SYNTAX). |
 | [memory_optimization](../saveoptions/memory_optimization/) | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [paragraph_break](../txtsaveoptionsbase/paragraph_break/) | Specifies the string to use as a paragraph break when exporting in text formats.<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |
 | [pretty_format](../saveoptions/pretty_format/) | When ``True``, pretty formats output where applicable. Default value is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
