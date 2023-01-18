@@ -78,9 +78,9 @@ public class FormField : SpecialChar
 
 Microsoft Word provides the following form fields: checkbox, text input and dropdown (combobox).
 
-[`FormField`](./formfield/) is an inline-node and can only be a child of [`Paragraph`](../../aspose.words/paragraph/).
+`FormField` is an inline-node and can only be a child of [`Paragraph`](../../aspose.words/paragraph/).
 
-[`FormField`](./formfield/) is represented in a document by a special character and positioned as a character within a line of text.
+`FormField` is represented in a document by a special character and positioned as a character within a line of text.
 
 A complete form field in a Word document is a complex structure represented by several nodes: field start, field code such as FORMTEXT, form field data, field separator, field result, field end and a bookmark. To programmatically create form fields in a Word document use [`InsertCheckBox`](../../aspose.words/documentbuilder/insertcheckbox/), [`InsertTextInput`](../../aspose.words/documentbuilder/inserttextinput/) and [`InsertComboBox`](../../aspose.words/documentbuilder/insertcombobox/) which make sure all of the form field nodes are created in a correct order and in a suitable state.
 

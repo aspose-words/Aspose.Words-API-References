@@ -39,15 +39,15 @@ public class NodeCollection : IEnumerable<Node>
 
 ## Remarks
 
-[`NodeCollection`](./nodecollection/) does not own the nodes it contains, rather, is just a selection of nodes of the specified type, but the nodes are stored in the tree under their respective parent nodes.
+`NodeCollection` does not own the nodes it contains, rather, is just a selection of nodes of the specified type, but the nodes are stored in the tree under their respective parent nodes.
 
-[`NodeCollection`](./nodecollection/) supports indexed access, iteration and provides add and remove methods.
+`NodeCollection` supports indexed access, iteration and provides add and remove methods.
 
-The [`NodeCollection`](./nodecollection/) collection is "live", i.e. changes to the children of the node object that it was created from are immediately reflected in the nodes returned by the [`NodeCollection`](./nodecollection/) properties and methods.
+The `NodeCollection` collection is "live", i.e. changes to the children of the node object that it was created from are immediately reflected in the nodes returned by the `NodeCollection` properties and methods.
 
-[`NodeCollection`](./nodecollection/) is returned by [`GetChildNodes`](../compositenode/getchildnodes/) and also serves as a base class for typed node collections such as [`SectionCollection`](../sectioncollection/), [`ParagraphCollection`](../paragraphcollection/) etc.
+`NodeCollection` is returned by [`GetChildNodes`](../compositenode/getchildnodes/) and also serves as a base class for typed node collections such as [`SectionCollection`](../sectioncollection/), [`ParagraphCollection`](../paragraphcollection/) etc.
 
-[`NodeCollection`](./nodecollection/) can be "flat" and contain only immediate children of the node it was created from, or it can be "deep" and contain all descendant children.
+`NodeCollection` can be "flat" and contain only immediate children of the node it was created from, or it can be "deep" and contain all descendant children.
 
 ## Examples
 

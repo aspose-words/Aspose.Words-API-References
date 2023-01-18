@@ -37,9 +37,9 @@ public class AsposeWordsPrintDocument : PrintDocument
 
 ## Remarks
 
-[`AsposeWordsPrintDocument`](./asposewordsprintdocument/) overrides PrintEventArgs) to print the range of pages that is specified in PrinterSettings.
+`AsposeWordsPrintDocument` overrides PrintEventArgs) to print the range of pages that is specified in PrinterSettings.
 
-A single Word document can consist of multiple sections that specify pages with different sizes, orientation and paper trays. [`AsposeWordsPrintDocument`](./asposewordsprintdocument/) overrides QueryPageSettingsEventArgs) to properly select paper size, orientation and paper source when printing a Word document.
+A single Word document can consist of multiple sections that specify pages with different sizes, orientation and paper trays. `AsposeWordsPrintDocument` overrides QueryPageSettingsEventArgs) to properly select paper size, orientation and paper source when printing a Word document.
 
 Microsoft Word stores printer specific values for paper trays in a Word document and therefore, only printing on the same printer model as the one that was selected when the user specified the paper trays will result in printing from the correct trays. If you print a document on a different printer, then most likely the default paper tray will be used, not the trays specified in the document.
 

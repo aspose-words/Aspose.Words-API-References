@@ -8,7 +8,7 @@ url: /net/aspose.words.math/officemath/
 ---
 ## OfficeMath class
 
-Represents an Office Math object such as function, equation, matrix or alike. Can contain child elements including runs of mathematical text, bookmarks, comments, other [`OfficeMath`](./officemath/) instances and some other nodes.
+Represents an Office Math object such as function, equation, matrix or alike. Can contain child elements including runs of mathematical text, bookmarks, comments, other `OfficeMath` instances and some other nodes.
 
 To learn more, visit the [Working with OfficeMath](https://docs.aspose.com/words/net/working-with-officemath/) documentation article.
 
@@ -70,9 +70,9 @@ public class OfficeMath : CompositeNode
 
 ## Remarks
 
-In this version of Aspose.Words, [`OfficeMath`](./officemath/) nodes do not provide public methods and properties to create or modify a [`OfficeMath`](./officemath/) object. In this version you are not able to instantiate Math nodes or modify existing except deleting them.
+In this version of Aspose.Words, `OfficeMath` nodes do not provide public methods and properties to create or modify a `OfficeMath` object. In this version you are not able to instantiate Math nodes or modify existing except deleting them.
 
-[`OfficeMath`](./officemath/) can only be a child of [`Paragraph`](../../aspose.words/paragraph/).
+`OfficeMath` can only be a child of [`Paragraph`](../../aspose.words/paragraph/).
 
 ## Examples
 

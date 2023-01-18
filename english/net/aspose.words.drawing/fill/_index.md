@@ -55,7 +55,7 @@ public class Fill
 
 ## Remarks
 
-Use the [`Fill`](../shapebase/fill/) or [`Fill`](../../aspose.words/font/fill/) property to access fill properties of an object. You do not create instances of the [`Fill`](./fill/) class directly.
+Use the [`Fill`](../shapebase/fill/) or [`Fill`](../../aspose.words/font/fill/) property to access fill properties of an object. You do not create instances of the `Fill` class directly.
 
 ## Examples
 

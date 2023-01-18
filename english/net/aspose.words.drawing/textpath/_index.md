@@ -43,7 +43,7 @@ public class TextPath
 
 ## Remarks
 
-Use the [`TextPath`](../shape/textpath/) property to access WordArt properties of a shape. You do not create instances of the [`TextPath`](./textpath/) class directly.
+Use the [`TextPath`](../shape/textpath/) property to access WordArt properties of a shape. You do not create instances of the `TextPath` class directly.
 
 ## Examples
 

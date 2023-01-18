@@ -33,7 +33,7 @@ public class TabStopCollection : InternableComplexAttr
 | [Before](../../aspose.words/tabstopcollection/before/)(double) | Gets a first tab stop to the left of the specified position. |
 | [Clear](../../aspose.words/tabstopcollection/clear/)() | Deletes all tab stop positions. |
 | override [Equals](../../aspose.words/tabstopcollection/equals/#equals_1)(object) | Determines whether the specified object is equal in value to the current object. |
-| [Equals](../../aspose.words/tabstopcollection/equals/#equals)(TabStopCollection) | Determines whether the specified [`TabStopCollection`](./tabstopcollection/) is equal in value to the current [`TabStopCollection`](./tabstopcollection/). |
+| [Equals](../../aspose.words/tabstopcollection/equals/#equals)(TabStopCollection) | Determines whether the specified `TabStopCollection` is equal in value to the current `TabStopCollection`. |
 | override [GetHashCode](../../aspose.words/tabstopcollection/gethashcode/)() | Serves as a hash function for this type. |
 | [GetIndexByPosition](../../aspose.words/tabstopcollection/getindexbyposition/)(double) | Gets the index of a tab stop with the specified position in points. |
 | [GetPositionByIndex](../../aspose.words/tabstopcollection/getpositionbyindex/)(int) | Gets the position (in points) of the tab stop at the specified index. |
@@ -44,7 +44,7 @@ public class TabStopCollection : InternableComplexAttr
 
 In Microsoft Word documents, a tab stop can be defined in the properties of a paragraph style or directly in the properties of a paragraph. A style can be based on another style. Therefore, the complete set of tab stops for a given object is a combination of tab stops defined directly on this object and tab stops inherited from the parent styles.
 
-In Aspose.Words, when you obtain a [`TabStopCollection`](./tabstopcollection/) for a paragraph or a style, it contains only the custom tab stops defined directly for this paragraph or style. The collection does not include tab stops defined in the parent styles or default tab stops.
+In Aspose.Words, when you obtain a `TabStopCollection` for a paragraph or a style, it contains only the custom tab stops defined directly for this paragraph or style. The collection does not include tab stops defined in the parent styles or default tab stops.
 
 ## Examples
 

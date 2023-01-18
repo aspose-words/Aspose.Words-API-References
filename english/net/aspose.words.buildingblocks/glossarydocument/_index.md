@@ -89,7 +89,7 @@ Some documents, usually templates, can contain AutoText, AutoCorrect entries and
 
 To access building blocks, you need to load a document into a [`Document`](../../aspose.words/document/) object. Building blocks will be available via the [`GlossaryDocument`](../../aspose.words/document/glossarydocument/) property.
 
-[`GlossaryDocument`](./glossarydocument/) can contain any number of [`BuildingBlock`](../buildingblock/) objects. Each [`BuildingBlock`](../buildingblock/) represents one document part.
+`GlossaryDocument` can contain any number of [`BuildingBlock`](../buildingblock/) objects. Each [`BuildingBlock`](../buildingblock/) represents one document part.
 
 Corresponds to the **glossaryDocument** and **docParts** elements in OOXML.
 

@@ -45,7 +45,7 @@ public class OleFormat
 
 ## Remarks
 
-Use the [`OleFormat`](../shape/oleformat/) property to access the data of an OLE object. You do not create instances of the [`OleFormat`](./oleformat/) class directly.
+Use the [`OleFormat`](../shape/oleformat/) property to access the data of an OLE object. You do not create instances of the `OleFormat` class directly.
 
 ## Examples
 

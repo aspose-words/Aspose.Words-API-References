@@ -25,7 +25,7 @@ The number of replacements made.
 
 ## Remarks
 
-The pattern will not be used as regular expression. Please use [`Replace`](./replace/) if you need regular expressions.
+The pattern will not be used as regular expression. Please use `Replace` if you need regular expressions.
 
 Used case-insensitive comparison.
 
@@ -38,7 +38,7 @@ You should use special meta-characters if you need to work with breaks:
 * **&amp;m** - page break
 * **&amp;l** - manual line break
 
-Use method [`Replace`](./replace/) to have more flexible customization.
+Use method `Replace` to have more flexible customization.
 
 ## Examples
 
@@ -139,7 +139,7 @@ You should use special meta-characters if you need to work with breaks:
 * **&amp;m** - page break
 * **&amp;l** - manual line break
 
-Use method [`Replace`](./replace/) to have more flexible customization.
+Use method `Replace` to have more flexible customization.
 
 ## Examples
 
@@ -193,7 +193,7 @@ The number of replacements made.
 
 ## Remarks
 
-The pattern will not be used as regular expression. Please use [`Replace`](./replace/) if you need regular expressions.
+The pattern will not be used as regular expression. Please use `Replace` if you need regular expressions.
 
 Method is able to process breaks in both pattern and replacement strings.
 

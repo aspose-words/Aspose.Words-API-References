@@ -40,7 +40,7 @@ public class LayoutCollector
 
 ## Remarks
 
-When you create a [`LayoutCollector`](./layoutcollector/) and specify a [`Document`](../../aspose.words/document/) document object to attach to, the collector will record mapping of document nodes to layout objects when the document is formatted into pages.
+When you create a `LayoutCollector` and specify a [`Document`](../../aspose.words/document/) document object to attach to, the collector will record mapping of document nodes to layout objects when the document is formatted into pages.
 
 You will be able to find out on which page a particular document node (e.g. run, paragraph or table cell) is located by using the [`GetStartPageIndex`](./getstartpageindex/), [`GetEndPageIndex`](./getendpageindex/) and [`GetNumPagesSpanned`](./getnumpagesspanned/) methods. These methods automatically build page layout model of the document and update fields if required.
 

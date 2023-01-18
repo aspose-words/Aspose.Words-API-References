@@ -20,7 +20,7 @@ public class FieldBuilder
 
 | Name | Description |
 | --- | --- |
-| [FieldBuilder](fieldbuilder/)(FieldType) | Initializes an instance of the [`FieldBuilder`](./fieldbuilder/) class. |
+| [FieldBuilder](fieldbuilder/)(FieldType) | Initializes an instance of the `FieldBuilder` class. |
 
 ## Methods
 
@@ -28,7 +28,7 @@ public class FieldBuilder
 | --- | --- |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(double) | Adds a field's argument. |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(FieldArgumentBuilder) | Adds a field's argument represented by [`FieldArgumentBuilder`](../fieldargumentbuilder/) to the field's code. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | Adds a child field represented by another [`FieldBuilder`](./fieldbuilder/) to the field's code. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | Adds a child field represented by another `FieldBuilder` to the field's code. |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(int) | Adds a field's argument. |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(string) | Adds a field's argument. |
 | [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(string) | Adds a field's switch. |

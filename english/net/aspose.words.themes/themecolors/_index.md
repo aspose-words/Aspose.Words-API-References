@@ -10,7 +10,7 @@ url: /net/aspose.words.themes/themecolors/
 
 Represents the color scheme of the document theme which contains twelve colors.
 
-[`ThemeColors`](./themecolors/) object contains six accent colors, two dark colors, two light colors and a color for each of a hyperlink and followed hyperlink.
+`ThemeColors` object contains six accent colors, two dark colors, two light colors and a color for each of a hyperlink and followed hyperlink.
 
 ```csharp
 public class ThemeColors

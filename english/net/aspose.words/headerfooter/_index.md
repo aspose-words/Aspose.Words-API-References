@@ -35,7 +35,7 @@ public class HeaderFooter : Story
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
 | [HeaderFooterType](../../aspose.words/headerfooter/headerfootertype/) { get; } | Gets the type of this header/footer. |
 | override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |
-| [IsHeader](../../aspose.words/headerfooter/isheader/) { get; } | True if this [`HeaderFooter`](./headerfooter/) object is a header. |
+| [IsHeader](../../aspose.words/headerfooter/isheader/) { get; } | True if this `HeaderFooter` object is a header. |
 | [IsLinkedToPrevious](../../aspose.words/headerfooter/islinkedtoprevious/) { get; set; } | True if this header or footer is linked to the corresponding header or footer in the previous section. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Gets the last child of the node. |
 | [LastParagraph](../../aspose.words/story/lastparagraph/) { get; } | Gets the last paragraph in the story. |
@@ -82,13 +82,13 @@ public class HeaderFooter : Story
 
 ## Remarks
 
-[`HeaderFooter`](./headerfooter/) can contain [`Paragraph`](../paragraph/) and [`Table`](../../aspose.words.tables/table/) child nodes.
+`HeaderFooter` can contain [`Paragraph`](../paragraph/) and [`Table`](../../aspose.words.tables/table/) child nodes.
 
-[`HeaderFooter`](./headerfooter/) is a section-level node and can only be a child of [`Section`](../section/). There can only be one [`HeaderFooter`](./headerfooter/) of each [`HeaderFooterType`](./headerfootertype/) in a [`Section`](../section/).
+`HeaderFooter` is a section-level node and can only be a child of [`Section`](../section/). There can only be one `HeaderFooter` of each [`HeaderFooterType`](./headerfootertype/) in a [`Section`](../section/).
 
-If [`Section`](../section/) does not have a [`HeaderFooter`](./headerfooter/) of a specific type or the [`HeaderFooter`](./headerfooter/) has no child nodes, this header/footer is considered linked to the header/footer of the same type of the previous section in Microsoft Word.
+If [`Section`](../section/) does not have a `HeaderFooter` of a specific type or the `HeaderFooter` has no child nodes, this header/footer is considered linked to the header/footer of the same type of the previous section in Microsoft Word.
 
-When [`HeaderFooter`](./headerfooter/) contains at least one [`Paragraph`](../paragraph/), it is no longer considered linked to previous in Microsoft Word.
+When `HeaderFooter` contains at least one [`Paragraph`](../paragraph/), it is no longer considered linked to previous in Microsoft Word.
 
 ## Examples
 

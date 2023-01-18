@@ -106,15 +106,15 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 
 Structured document tags (SDTs) allow to embed customer-defined semantics as well as its behavior and appearance into a document.
 
-In this version Aspose.Words provides a number of public methods and properties to manipulate the behavior and content of [`StructuredDocumentTag`](./structureddocumenttag/). Mapping of SDT nodes to custom XML packages within a document can be performed with using the [`XmlMapping`](./xmlmapping/) property.
+In this version Aspose.Words provides a number of public methods and properties to manipulate the behavior and content of `StructuredDocumentTag`. Mapping of SDT nodes to custom XML packages within a document can be performed with using the [`XmlMapping`](./xmlmapping/) property.
 
-[`StructuredDocumentTag`](./structureddocumenttag/) can occur in a document in the following places:
+`StructuredDocumentTag` can occur in a document in the following places:
 
 * Block-level - Among paragraphs and tables, as a child of a [`Body`](../../aspose.words/body/), [`HeaderFooter`](../../aspose.words/headerfooter/), [`Comment`](../../aspose.words/comment/), [`Footnote`](../../aspose.words.notes/footnote/) or a [`Shape`](../../aspose.words.drawing/shape/) node.
 * Row-level - Among rows in a table, as a child of a [`Table`](../../aspose.words.tables/table/) node.
 * Cell-level - Among cells in a table row, as a child of a [`Row`](../../aspose.words.tables/row/) node.
 * Inline-level - Among inline content inside, as a child of a [`Paragraph`](../../aspose.words/paragraph/).
-* Nested inside another [`StructuredDocumentTag`](./structureddocumenttag/).
+* Nested inside another `StructuredDocumentTag`.
 
 ## Examples
 

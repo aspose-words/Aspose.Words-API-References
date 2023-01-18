@@ -55,9 +55,9 @@ public class SpecialChar : Inline
 
 A Microsoft Word document can include a number of special characters that represent fields, form fields, shapes, OLE objects, footnotes etc. For the list of special characters see [`ControlChar`](../controlchar/).
 
-[`SpecialChar`](./specialchar/) is an inline-node and can only be a child of [`Paragraph`](../paragraph/).
+`SpecialChar` is an inline-node and can only be a child of [`Paragraph`](../paragraph/).
 
-[`SpecialChar`](./specialchar/) char is used as a base class for more specific classes that represent special characters that Aspose.Words provides programmatic access for. The [`SpecialChar`](./specialchar/) class is also used itself to represent special character for which Aspose.Words does not provide detailed programmatic access.
+`SpecialChar` char is used as a base class for more specific classes that represent special characters that Aspose.Words provides programmatic access for. The `SpecialChar` class is also used itself to represent special character for which Aspose.Words does not provide detailed programmatic access.
 
 ## Examples
 

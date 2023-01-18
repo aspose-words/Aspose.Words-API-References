@@ -34,7 +34,7 @@ public class EditableRange
 
 ## Remarks
 
-[`EditableRange`](./editablerange/) is a "facade" object that encapsulates two nodes [`EditableRangeStart`](./editablerangestart/) and [`EditableRangeEnd`](./editablerangeend/) in a document tree and allows to work with an editable range as a single object.
+`EditableRange` is a "facade" object that encapsulates two nodes [`EditableRangeStart`](./editablerangestart/) and [`EditableRangeEnd`](./editablerangeend/) in a document tree and allows to work with an editable range as a single object.
 
 ## Examples
 

@@ -39,7 +39,7 @@ public class OdsoFieldMapData
 
 ## Remarks
 
-Microsoft Word provides some predefined merge field names that it allows to insert into a document as MERGEFIELD or use in the ADDRESSBLOCK or GREETINGLINE fields. The information specified in [`OdsoFieldMapData`](./odsofieldmapdata/) allows to map one column in the external data source to a single predefined merge field.
+Microsoft Word provides some predefined merge field names that it allows to insert into a document as MERGEFIELD or use in the ADDRESSBLOCK or GREETINGLINE fields. The information specified in `OdsoFieldMapData` allows to map one column in the external data source to a single predefined merge field.
 
 ## Examples
 

@@ -109,7 +109,7 @@ public class Document : DocumentBase
 | [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument_1)(Document, ImportFormatMode, ImportFormatOptions) | Appends the specified document to the end of this document. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup)() | Cleans unused styles and lists from the document. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup_1)(CleanupOptions) | Cleans unused styles and lists from the document depending on given [`CleanupOptions`](../cleanupoptions/). |
-| [Clone](../../aspose.words/document/clone/#clone)() | Performs a deep copy of the [`Document`](./document/). |
+| [Clone](../../aspose.words/document/clone/#clone)() | Performs a deep copy of the `Document`. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
 | [Compare](../../aspose.words/document/compare/#compare)(Document, string, DateTime) | Compares this document with another document producing changes as number of edit and format revisions [`Revision`](../revision/). |
 | [Compare](../../aspose.words/document/compare/#compare_1)(Document, string, DateTime, CompareOptions) | Compares this document with another document producing changes as a number of edit and format revisions [`Revision`](../revision/). Allows to specify comparison options using [`CompareOptions`](../../aspose.words.comparing/compareoptions/). |
@@ -118,7 +118,7 @@ public class Document : DocumentBase
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reserved for system use. IXPathNavigable. |
 | [EnsureMinimum](../../aspose.words/document/ensureminimum/)() | If the document contains no sections, creates one section with one paragraph. |
 | [ExpandTableStylesToDirectFormatting](../../aspose.words/document/expandtablestylestodirectformatting/)() | Converts formatting specified in table styles into direct formatting on tables in the document. |
-| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | Returns the [`Document`](./document/) object representing specified range of pages. |
+| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | Returns the `Document` object representing specified range of pages. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Gets the first ancestor of the specified object type. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Returns an Nth child node that matches the specified type. |
@@ -176,9 +176,9 @@ public class Document : DocumentBase
 
 ## Remarks
 
-The [`Document`](./document/) is a central object in the Aspose.Words library.
+The `Document` is a central object in the Aspose.Words library.
 
-To load an existing document in any of the [`LoadFormat`](../loadformat/) formats, pass a file name or a stream into one of the [`Document`](./document/) constructors. To create a blank document, call the constructor without parameters.
+To load an existing document in any of the [`LoadFormat`](../loadformat/) formats, pass a file name or a stream into one of the `Document` constructors. To create a blank document, call the constructor without parameters.
 
 Use one of the Save method overloads to save the document in any of the [`SaveFormat`](../saveformat/) formats.
 
@@ -188,9 +188,9 @@ To print the document, use one of the [`Print`](./print/) methods.
 
 [`MailMerge`](./mailmerge/) is the Aspose.Words's reporting engine that allows to populate reports designed in Microsoft Word with data from various data sources quickly and easily. The data can be from a DataSet, DataTable, DataView, IDataReader or an array of values. **MailMerge** will go through the records found in the data source and insert them into mail merge fields in the document growing it as necessary.
 
-[`Document`](./document/) stores document-wide information such as [`Styles`](../documentbase/styles/), [`BuiltInDocumentProperties`](./builtindocumentproperties/), [`CustomDocumentProperties`](./customdocumentproperties/), lists and macros. Most of these objects are accessible via the corresponding properties of the [`Document`](./document/).
+`Document` stores document-wide information such as [`Styles`](../documentbase/styles/), [`BuiltInDocumentProperties`](./builtindocumentproperties/), [`CustomDocumentProperties`](./customdocumentproperties/), lists and macros. Most of these objects are accessible via the corresponding properties of the `Document`.
 
-The [`Document`](./document/) is a root node of a tree that contains all other nodes of the document. The tree is a Composite design pattern and in many ways similar to XmlDocument. The content of the document can be manipulated freely programmatically:
+The `Document` is a root node of a tree that contains all other nodes of the document. The tree is a Composite design pattern and in many ways similar to XmlDocument. The content of the document can be manipulated freely programmatically:
 
 * The nodes of the document can be accessed via typed collections, for example [`Sections`](./sections/), [`ParagraphCollection`](../paragraphcollection/) etc.
 * The nodes of the document can be selected by their node type using [`GetChildNodes`](../compositenode/getchildnodes/) or using an XPath query with [`SelectNodes`](../compositenode/selectnodes/) or [`SelectSingleNode`](../compositenode/selectsinglenode/).
@@ -199,7 +199,7 @@ The [`Document`](./document/) is a root node of a tree that contains all other n
 
 Consider using [`DocumentBuilder`](../documentbuilder/) that simplifies the task of programmatically creating or populating the document tree.
 
-The [`Document`](./document/) can contain only [`Section`](../section/) objects.
+The `Document` can contain only [`Section`](../section/) objects.
 
 In Microsoft Word, a valid document needs to have at least one section.
 

@@ -68,9 +68,9 @@ For mail merge operation to work, the document should contain Word MERGEFIELD an
 
 There are two distinct ways to use mail merge: with mail merge regions and without.
 
-The simplest mail merge is without regions and it is very similar to how mail merge works in Word. Use Execute methods to merge information from some data source such as **DataTable**, **DataSet**, **DataView**, **IDataReader** or an array of objects into your document. The [`MailMerge`](./mailmerge/) object processes all records of the data source and copies and appends content of the whole document for each record.
+The simplest mail merge is without regions and it is very similar to how mail merge works in Word. Use Execute methods to merge information from some data source such as **DataTable**, **DataSet**, **DataView**, **IDataReader** or an array of objects into your document. The `MailMerge` object processes all records of the data source and copies and appends content of the whole document for each record.
 
-Note that when [`MailMerge`](./mailmerge/) object encounters a NEXT field, it selects next record in the data source and continues merging without copying any content.
+Note that when `MailMerge` object encounters a NEXT field, it selects next record in the data source and continues merging without copying any content.
 
 Use [`ExecuteWithRegions`](./executewithregions/) and other overloads to merge information into a document with mail merge regions defined. You can use **DataSet**, **DataTable**, **DataView** or **IDataReader** as data sources for this operation.
 

@@ -20,7 +20,7 @@ public class Run : Inline
 
 | Name | Description |
 | --- | --- |
-| [Run](run/#constructor)(DocumentBase) | Initializes a new instance of the [`Run`](./run/) class. |
+| [Run](run/#constructor)(DocumentBase) | Initializes a new instance of the `Run` class. |
 | [Run](run/#constructor_1)(DocumentBase, string) | Initializes a new instance of the **Run** class. |
 
 ## Properties
@@ -63,7 +63,7 @@ public class Run : Inline
 
 All text of the document is stored in runs of text.
 
-[`Run`](./run/) can only be a child of [`Paragraph`](../paragraph/) or inline [`StructuredDocumentTag`](../../aspose.words.markup/structureddocumenttag/).
+`Run` can only be a child of [`Paragraph`](../paragraph/) or inline [`StructuredDocumentTag`](../../aspose.words.markup/structureddocumenttag/).
 
 ## Examples
 

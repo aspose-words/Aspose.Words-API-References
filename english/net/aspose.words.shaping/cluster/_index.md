@@ -25,7 +25,7 @@ public class Cluster
 | Name | Description |
 | --- | --- |
 | [Codepoints](../../aspose.words.shaping/cluster/codepoints/) { get; } | Gets codepoints of the cluster. |
-| [CodepointsLength](../../aspose.words.shaping/cluster/codepointslength/) { get; } | Gets total number of codepoints in the [`Cluster`](./cluster/). |
+| [CodepointsLength](../../aspose.words.shaping/cluster/codepointslength/) { get; } | Gets total number of codepoints in the `Cluster`. |
 | [Glyphs](../../aspose.words.shaping/cluster/glyphs/) { get; } | Gets glyphs of the cluster. |
 
 ## Methods

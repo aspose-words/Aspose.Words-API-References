@@ -36,9 +36,9 @@ public class FieldCollection : IEnumerable<Field>
 
 An instance of this collection iterates fields which start fall within the specified range.
 
-The [`FieldCollection`](./fieldcollection/) collection does not own the fields it contains, rather, is just a selection of fields.
+The `FieldCollection` collection does not own the fields it contains, rather, is just a selection of fields.
 
-The [`FieldCollection`](./fieldcollection/) collection is "live", i.e. changes to the children of the node object that it was created from are immediately reflected in the fields returned by the [`FieldCollection`](./fieldcollection/) properties and methods.
+The `FieldCollection` collection is "live", i.e. changes to the children of the node object that it was created from are immediately reflected in the fields returned by the `FieldCollection` properties and methods.
 
 ## Examples
 

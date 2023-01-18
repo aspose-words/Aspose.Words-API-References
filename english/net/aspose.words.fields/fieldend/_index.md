@@ -58,9 +58,9 @@ public class FieldEnd : FieldChar
 
 ## Remarks
 
-[`FieldEnd`](./fieldend/) is an inline-level node and represented by the [`FieldEndChar`](../../aspose.words/controlchar/fieldendchar/) control character in the document.
+`FieldEnd` is an inline-level node and represented by the [`FieldEndChar`](../../aspose.words/controlchar/fieldendchar/) control character in the document.
 
-[`FieldEnd`](./fieldend/) can only be a child of [`Paragraph`](../../aspose.words/paragraph/).
+`FieldEnd` can only be a child of [`Paragraph`](../../aspose.words/paragraph/).
 
 A complete field in a Microsoft Word document is a complex structure consisting of a field start character, field code, field separator character, field result and field end character. Some fields only have field start, field code and field end.
 

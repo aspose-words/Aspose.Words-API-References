@@ -36,9 +36,9 @@ public class ListCollection : IEnumerable<List>
 
 ## Remarks
 
-A list in a Microsoft Word document is a set of list formatting properties. The formatting of the lists is stored in the [`ListCollection`](./listcollection/) collection separately from the paragraphs of text.
+A list in a Microsoft Word document is a set of list formatting properties. The formatting of the lists is stored in the `ListCollection` collection separately from the paragraphs of text.
 
-You do not create objects of this class. There is always only one [`ListCollection`](./listcollection/) object per document and it is accessible via the [`Lists`](../../aspose.words/documentbase/lists/) property.
+You do not create objects of this class. There is always only one `ListCollection` object per document and it is accessible via the [`Lists`](../../aspose.words/documentbase/lists/) property.
 
 To create a new list based on a predefined list template or based on a list style, use the [`Add`](./add/) method.
 

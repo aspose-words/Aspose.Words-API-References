@@ -20,7 +20,7 @@ public class Cell : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| [Cell](cell/)(DocumentBase) | Initializes a new instance of the [`Cell`](./cell/) class. |
+| [Cell](cell/)(DocumentBase) | Initializes a new instance of the `Cell` class. |
 
 ## Properties
 
@@ -80,9 +80,9 @@ public class Cell : CompositeNode
 
 ## Remarks
 
-[`Cell`](./cell/) can only be a child of a [`Row`](../row/).
+`Cell` can only be a child of a [`Row`](../row/).
 
-[`Cell`](./cell/) can contain block-level nodes [`Paragraph`](../../aspose.words/paragraph/) and [`Table`](../table/).
+`Cell` can contain block-level nodes [`Paragraph`](../../aspose.words/paragraph/) and [`Table`](../table/).
 
 A minimal valid cell needs to have at least one [`Paragraph`](../../aspose.words/paragraph/).
 

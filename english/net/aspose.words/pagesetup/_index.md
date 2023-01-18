@@ -74,7 +74,7 @@ public class PageSetup
 
 ## Remarks
 
-[`PageSetup`](./pagesetup/) object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties.
+`PageSetup` object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties.
 
 ## Examples
 

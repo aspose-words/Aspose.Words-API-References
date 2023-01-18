@@ -44,7 +44,7 @@ public class List : IComparable<List>
 
 A list in a Microsoft Word document is a set of list formatting properties. Each list can have up to 9 levels and formatting properties, such as number style, start value, indent, tab position etc are defined separately for each level.
 
-A [`List`](./list/) object always belongs to the [`ListCollection`](../listcollection/) collection.
+A `List` object always belongs to the [`ListCollection`](../listcollection/) collection.
 
 To create a new list, use the Add methods of the [`ListCollection`](../listcollection/) collection.
 

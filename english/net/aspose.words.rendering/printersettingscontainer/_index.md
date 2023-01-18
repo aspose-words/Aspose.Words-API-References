@@ -32,7 +32,7 @@ public class PrinterSettingsContainer
 
 ## Remarks
 
-Access to data of PrinterSettings takes long time. [`PrinterSettingsContainer`](./printersettingscontainer/) caches parameters from PrinterSettings, so printing works faster.
+Access to data of PrinterSettings takes long time. `PrinterSettingsContainer` caches parameters from PrinterSettings, so printing works faster.
 
 ## Examples
 
