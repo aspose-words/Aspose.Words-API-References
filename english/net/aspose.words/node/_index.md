@@ -51,7 +51,7 @@ A document is represented as a tree of nodes, similar to DOM or XmlDocument.
 
 For more info see the Composite design pattern.
 
-The [`Node`](./node/) class:
+The `Node` class:
 
 * Defines the child node interface.
 * Defines the interface for visiting nodes.

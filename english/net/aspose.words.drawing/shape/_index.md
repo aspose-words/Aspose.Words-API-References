@@ -55,10 +55,10 @@ public sealed class Shape : ShapeBase
 | [FirstParagraph](../../aspose.words.drawing/shape/firstparagraph/) { get; } | Gets the first paragraph in the shape. |
 | [FlipOrientation](../../aspose.words.drawing/shapebase/fliporientation/) { get; set; } | Switches the orientation of a shape. |
 | [Font](../../aspose.words.drawing/shapebase/font/) { get; } | Provides access to the font formatting of this object. |
-| [HasChart](../../aspose.words.drawing/shape/haschart/) { get; } | Returns `true` if this [`Shape`](./shape/) has a [`Chart`](../../aspose.words.drawing.charts/chart/). |
+| [HasChart](../../aspose.words.drawing/shape/haschart/) { get; } | Returns `true` if this `Shape` has a [`Chart`](../../aspose.words.drawing.charts/chart/). |
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
 | [HasImage](../../aspose.words.drawing/shape/hasimage/) { get; } | Returns `true` if the shape has image bytes or links an image. |
-| [HasSmartArt](../../aspose.words.drawing/shape/hassmartart/) { get; } | Returns `true` if this [`Shape`](./shape/) has a SmartArt object. |
+| [HasSmartArt](../../aspose.words.drawing/shape/hassmartart/) { get; } | Returns `true` if this `Shape` has a SmartArt object. |
 | [Height](../../aspose.words.drawing/shapebase/height/) { get; set; } | Gets or sets the height of the containing block of the shape. |
 | [HorizontalAlignment](../../aspose.words.drawing/shapebase/horizontalalignment/) { get; set; } | Specifies how the shape is positioned horizontally. |
 | [HorizontalRuleFormat](../../aspose.words.drawing/shape/horizontalruleformat/) { get; } | Provides access to the properties of the horizontal rule shape. For a shape that is not a horizontal rule, returns `null`. |
@@ -156,7 +156,7 @@ public sealed class Shape : ShapeBase
 
 ## Remarks
 
-Using the [`Shape`](./shape/) class you can create or modify shapes in a Microsoft Word document.
+Using the `Shape` class you can create or modify shapes in a Microsoft Word document.
 
 An important property of a shape is its [`ShapeType`](../shapebase/shapetype/). Shapes of different types can have different capabilities in a Word document. For example, only image and OLE shapes can have images inside them. Most of the shapes can have text, but not all.
 

@@ -20,7 +20,7 @@ public class Body : Story
 
 | Name | Description |
 | --- | --- |
-| [Body](body/)(DocumentBase) | Initializes a new instance of the [`Body`](./body/) class. |
+| [Body](body/)(DocumentBase) | Initializes a new instance of the `Body` class. |
 
 ## Properties
 
@@ -80,11 +80,11 @@ public class Body : Story
 
 ## Remarks
 
-[`Body`](./body/) can contain [`Paragraph`](../paragraph/) and [`Table`](../../aspose.words.tables/table/) child nodes.
+`Body` can contain [`Paragraph`](../paragraph/) and [`Table`](../../aspose.words.tables/table/) child nodes.
 
-[`Body`](./body/) is a section-level node and can only be a child of [`Section`](../section/). There can only be one [`Body`](./body/) in a [`Section`](../section/).
+`Body` is a section-level node and can only be a child of [`Section`](../section/). There can only be one `Body` in a [`Section`](../section/).
 
-A minimal valid [`Body`](./body/) needs to contain at least one [`Paragraph`](../paragraph/).
+A minimal valid `Body` needs to contain at least one [`Paragraph`](../paragraph/).
 
 ## Examples
 

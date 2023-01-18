@@ -53,7 +53,7 @@ public abstract class Inline : Node
 
 ## Remarks
 
-A class derived from [`Inline`](./inline/) can be a child of [`Paragraph`](../paragraph/).
+A class derived from `Inline` can be a child of [`Paragraph`](../paragraph/).
 
 ## Examples
 

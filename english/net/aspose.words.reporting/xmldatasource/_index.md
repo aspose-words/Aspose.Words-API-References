@@ -33,7 +33,7 @@ public class XmlDataSource
 
 To access data of the corresponding file or stream while generating a report, pass an instance of this class as a data source to one of [`ReportingEngine`](../reportingengine/).BuildReport overloads.
 
-In template documents, if a top-level XML element contains only a list of elements of the same type, an [`XmlDataSource`](./xmldatasource/) instance should be treated in the same way as if it was a DataTable instance. Otherwise, an [`XmlDataSource`](./xmldatasource/) instance should be treated in the same way as if it was a DataRow instance. For more information, see template syntax reference (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+In template documents, if a top-level XML element contains only a list of elements of the same type, an `XmlDataSource` instance should be treated in the same way as if it was a DataTable instance. Otherwise, an `XmlDataSource` instance should be treated in the same way as if it was a DataRow instance. For more information, see template syntax reference (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 When XML Schema Definition is passed to a constructor of this class, data types of values of simple XML elements and attributes are determined according to the schema. So in template documents, you can work with typed values rather than just strings.
 

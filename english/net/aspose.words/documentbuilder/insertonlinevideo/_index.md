@@ -33,7 +33,7 @@ Insertion of online video from the following resources is supported:
 * https://www.youtube.com/
 * https://vimeo.com/
 
-If your online video is not displaying correctly, use [`InsertOnlineVideo`](./insertonlinevideo/), which accepts custom embedded html code.
+If your online video is not displaying correctly, use `InsertOnlineVideo`, which accepts custom embedded html code.
 
 The code for embedding video can vary between providers, consult your corresponding provider of choice for details.
 
@@ -93,7 +93,7 @@ Insertion of online video from the following resources is supported:
 * https://www.youtube.com/
 * https://vimeo.com/
 
-If your online video is not displaying correctly, use [`InsertOnlineVideo`](./insertonlinevideo/), which accepts custom embedded html code.
+If your online video is not displaying correctly, use `InsertOnlineVideo`, which accepts custom embedded html code.
 
 The code for embedding video can vary between providers, consult your corresponding provider of choice for details.
 

@@ -20,7 +20,7 @@ public class FieldDatabaseDataRow
 
 | Name | Description |
 | --- | --- |
-| [FieldDatabaseDataRow](fielddatabasedatarow/)(params string[]) | Initializes a new instance of the [`FieldDatabaseDataRow`](./fielddatabasedatarow/) class. |
+| [FieldDatabaseDataRow](fielddatabasedatarow/)(params string[]) | Initializes a new instance of the `FieldDatabaseDataRow` class. |
 
 ## Properties
 
@@ -32,7 +32,7 @@ public class FieldDatabaseDataRow
 
 | Name | Description |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | Initializes a new instance of the [`FieldDatabaseDataRow`](./fielddatabasedatarow/) class from the DataRow instance. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | Initializes a new instance of the `FieldDatabaseDataRow` class from the DataRow instance. |
 
 ### See Also
 

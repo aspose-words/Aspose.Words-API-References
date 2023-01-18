@@ -20,14 +20,14 @@ public sealed class Comment : InlineStory
 
 | Name | Description |
 | --- | --- |
-| [Comment](comment/#constructor)(DocumentBase) | Initializes a new instance of the [`Comment`](./comment/) class. |
-| [Comment](comment/#constructor_1)(DocumentBase, string, string, DateTime) | Initializes a new instance of the [`Comment`](./comment/) class. |
+| [Comment](comment/#constructor)(DocumentBase) | Initializes a new instance of the `Comment` class. |
+| [Comment](comment/#constructor_1)(DocumentBase, string, string, DateTime) | Initializes a new instance of the `Comment` class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Ancestor](../../aspose.words/comment/ancestor/) { get; } | Returns the parent [`Comment`](./comment/) object. Returns `null` for top-level comments. |
+| [Ancestor](../../aspose.words/comment/ancestor/) { get; } | Returns the parent `Comment` object. Returns `null` for top-level comments. |
 | [Author](../../aspose.words/comment/author/) { get; set; } | Returns or sets the author name for a comment. |
 | [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Gets all immediate child nodes of this node. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |
@@ -55,7 +55,7 @@ public sealed class Comment : InlineStory
 | [ParentParagraph](../../aspose.words/inlinestory/parentparagraph/) { get; } | Retrieves the parent [`Paragraph`](../paragraph/) of this node. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
 | [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../range/) object that represents the portion of a document that is contained in this node. |
-| [Replies](../../aspose.words/comment/replies/) { get; } | Returns a collection of [`Comment`](./comment/) objects that are immediate children of the specified comment. |
+| [Replies](../../aspose.words/comment/replies/) { get; } | Returns a collection of `Comment` objects that are immediate children of the specified comment. |
 | override [StoryType](../../aspose.words/comment/storytype/) { get; } | Returns Comments. |
 | [Tables](../../aspose.words/inlinestory/tables/) { get; } | Gets a collection of tables that are immediate children of the story. |
 
@@ -97,13 +97,13 @@ public sealed class Comment : InlineStory
 
 A comment is an annotation which is anchored to a region of text or to a position in text. A comment can contain an arbitrary amount of block-level content.
 
-If a [`Comment`](./comment/) object occurs on its own, the comment is anchored to the position of the [`Comment`](./comment/) object.
+If a `Comment` object occurs on its own, the comment is anchored to the position of the `Comment` object.
 
-To anchor a comment to a region of text three objects are required: [`Comment`](./comment/), [`CommentRangeStart`](../commentrangestart/) and [`CommentRangeEnd`](../commentrangeend/). All three objects need to share the same [`Id`](./id/) value.
+To anchor a comment to a region of text three objects are required: `Comment`, [`CommentRangeStart`](../commentrangestart/) and [`CommentRangeEnd`](../commentrangeend/). All three objects need to share the same [`Id`](./id/) value.
 
-[`Comment`](./comment/) is an inline-level node and can only be a child of [`Paragraph`](../paragraph/).
+`Comment` is an inline-level node and can only be a child of [`Paragraph`](../paragraph/).
 
-[`Comment`](./comment/) can contain [`Paragraph`](../paragraph/) and [`Table`](../../aspose.words.tables/table/) child nodes.
+`Comment` can contain [`Paragraph`](../paragraph/) and [`Table`](../../aspose.words.tables/table/) child nodes.
 
 ## Examples
 

@@ -75,9 +75,9 @@ public abstract class DocumentBase : CompositeNode
 
 ## Remarks
 
-Aspose.Words represents a Word document as a tree of nodes. [`DocumentBase`](./documentbase/) is a root node of the tree that contains all other nodes of the document.
+Aspose.Words represents a Word document as a tree of nodes. `DocumentBase` is a root node of the tree that contains all other nodes of the document.
 
-[`DocumentBase`](./documentbase/) also stores document-wide information such as [`Styles`](./styles/) and [`Lists`](./lists/) that the tree nodes might refer to.
+`DocumentBase` also stores document-wide information such as [`Styles`](./styles/) and [`Lists`](./lists/) that the tree nodes might refer to.
 
 ## Examples
 

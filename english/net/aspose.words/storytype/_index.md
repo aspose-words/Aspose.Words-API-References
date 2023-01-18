@@ -8,7 +8,7 @@ url: /net/aspose.words/storytype/
 ---
 ## StoryType enumeration
 
-Text of a Word document is stored in stories. [`StoryType`](./storytype/) identifies a story.
+Text of a Word document is stored in stories. `StoryType` identifies a story.
 
 ```csharp
 public enum StoryType

@@ -20,7 +20,7 @@ public class Row : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| [Row](row/)(DocumentBase) | Initializes a new instance of the [`Row`](./row/) class. |
+| [Row](row/)(DocumentBase) | Initializes a new instance of the `Row` class. |
 
 ## Properties
 
@@ -55,7 +55,7 @@ public class Row : CompositeNode
 | [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reserved for system use. IXPathNavigable. |
-| [EnsureMinimum](../../aspose.words.tables/row/ensureminimum/)() | If the [`Row`](./row/) has no cells, creates and appends one [`Cell`](../cell/). |
+| [EnsureMinimum](../../aspose.words.tables/row/ensureminimum/)() | If the `Row` has no cells, creates and appends one [`Cell`](../cell/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Gets the first ancestor of the specified object type. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Returns an Nth child node that matches the specified type. |
@@ -79,9 +79,9 @@ public class Row : CompositeNode
 
 ## Remarks
 
-[`Row`](./row/) can only be a child of a [`Table`](../table/).
+`Row` can only be a child of a [`Table`](../table/).
 
-[`Row`](./row/) can contain one or more [`Cell`](../cell/) nodes.
+`Row` can contain one or more [`Cell`](../cell/) nodes.
 
 A minimal valid row needs to have at least one [`Cell`](../cell/).
 

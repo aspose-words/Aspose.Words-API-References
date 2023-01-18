@@ -20,11 +20,11 @@ public class Shading : InternableComplexAttr
 
 | Name | Description |
 | --- | --- |
-| [BackgroundPatternColor](../../aspose.words/shading/backgroundpatterncolor/) { get; set; } | Gets or sets the color that's applied to the background of the [`Shading`](./shading/) object. |
-| [BackgroundPatternThemeColor](../../aspose.words/shading/backgroundpatternthemecolor/) { get; set; } | Gets or sets the background pattern theme color in the applied color scheme that is associated with this [`Shading`](./shading/) object. |
+| [BackgroundPatternColor](../../aspose.words/shading/backgroundpatterncolor/) { get; set; } | Gets or sets the color that's applied to the background of the `Shading` object. |
+| [BackgroundPatternThemeColor](../../aspose.words/shading/backgroundpatternthemecolor/) { get; set; } | Gets or sets the background pattern theme color in the applied color scheme that is associated with this `Shading` object. |
 | [BackgroundTintAndShade](../../aspose.words/shading/backgroundtintandshade/) { get; set; } | Gets or sets a double value that lightens or darkens a background theme color. |
-| [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor/) { get; set; } | Gets or sets the color that's applied to the foreground of the [`Shading`](./shading/) object. |
-| [ForegroundPatternThemeColor](../../aspose.words/shading/foregroundpatternthemecolor/) { get; set; } | Gets or sets the foreground pattern theme color in the applied color scheme that is associated with this [`Shading`](./shading/) object. |
+| [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor/) { get; set; } | Gets or sets the color that's applied to the foreground of the `Shading` object. |
+| [ForegroundPatternThemeColor](../../aspose.words/shading/foregroundpatternthemecolor/) { get; set; } | Gets or sets the foreground pattern theme color in the applied color scheme that is associated with this `Shading` object. |
 | [ForegroundTintAndShade](../../aspose.words/shading/foregroundtintandshade/) { get; set; } | Gets or sets a double value that lightens or darkens a foreground theme color. |
 | [Texture](../../aspose.words/shading/texture/) { get; set; } | Gets or sets the shading texture. |
 
@@ -34,7 +34,7 @@ public class Shading : InternableComplexAttr
 | --- | --- |
 | [ClearFormatting](../../aspose.words/shading/clearformatting/)() | Removes shading from the object. |
 | override [Equals](../../aspose.words/shading/equals/#equals_1)(object) | Determines whether the specified object is equal in value to the current object. |
-| [Equals](../../aspose.words/shading/equals/#equals)(Shading) | Determines whether the specified [`Shading`](./shading/) is equal in value to the current [`Shading`](./shading/). |
+| [Equals](../../aspose.words/shading/equals/#equals)(Shading) | Determines whether the specified `Shading` is equal in value to the current `Shading`. |
 | override [GetHashCode](../../aspose.words/shading/gethashcode/)() | Serves as a hash function for this type. |
 
 ## Examples

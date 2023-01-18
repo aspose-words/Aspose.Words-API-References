@@ -69,7 +69,7 @@ A document is represented as a tree of nodes, similar to DOM or XmlDocument.
 
 For more info see the Composite design pattern.
 
-The [`CompositeNode`](./compositenode/) class:
+The `CompositeNode` class:
 
 * Provides access to the child nodes.
 * Implements Composite operations such as insert and remove children.

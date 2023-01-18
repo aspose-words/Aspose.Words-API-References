@@ -36,7 +36,7 @@ public class Bookmark
 
 ## Remarks
 
-[`Bookmark`](./bookmark/) is a "facade" object that encapsulates two nodes [`BookmarkStart`](./bookmarkstart/) and [`BookmarkEnd`](./bookmarkend/) in a document tree and allows to work with a bookmark as a single object.
+`Bookmark` is a "facade" object that encapsulates two nodes [`BookmarkStart`](./bookmarkstart/) and [`BookmarkEnd`](./bookmarkend/) in a document tree and allows to work with a bookmark as a single object.
 
 ## Examples
 

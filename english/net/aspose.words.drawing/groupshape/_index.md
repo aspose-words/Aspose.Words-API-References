@@ -134,9 +134,9 @@ public class GroupShape : ShapeBase
 
 ## Remarks
 
-A [`GroupShape`](./groupshape/) is a composite node and can have [`Shape`](../shape/) and [`GroupShape`](./groupshape/) nodes as children.
+A `GroupShape` is a composite node and can have [`Shape`](../shape/) and `GroupShape` nodes as children.
 
-Each [`GroupShape`](./groupshape/) defines a new coordinate system for its child shapes. The coordinate system is defined using the [`CoordSize`](../shapebase/coordsize/) and [`CoordOrigin`](../shapebase/coordorigin/) properties.
+Each `GroupShape` defines a new coordinate system for its child shapes. The coordinate system is defined using the [`CoordSize`](../shapebase/coordsize/) and [`CoordOrigin`](../shapebase/coordorigin/) properties.
 
 ## Examples
 

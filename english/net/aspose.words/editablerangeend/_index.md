@@ -48,9 +48,9 @@ public sealed class EditableRangeEnd : Node
 
 ## Remarks
 
-A complete editable range in a Word document consists of a [`EditableRangeStart`](./editablerangestart/) and a matching [`EditableRangeEnd`](./editablerangeend/) with the same Id.
+A complete editable range in a Word document consists of a [`EditableRangeStart`](./editablerangestart/) and a matching `EditableRangeEnd` with the same Id.
 
-[`EditableRangeStart`](./editablerangestart/) and [`EditableRangeEnd`](./editablerangeend/) are just markers inside a document that specify where the editable range starts and ends.
+[`EditableRangeStart`](./editablerangestart/) and `EditableRangeEnd` are just markers inside a document that specify where the editable range starts and ends.
 
 Use the [`EditableRange`](../editablerange/) class as a "facade" to work with an editable range as a single object.
 

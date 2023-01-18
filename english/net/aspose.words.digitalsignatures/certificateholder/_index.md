@@ -26,14 +26,14 @@ public class CertificateHolder
 
 | Name | Description |
 | --- | --- |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(byte[], SecureString) | Creates [`CertificateHolder`](./certificateholder/) object using byte array of PKCS12 store and its password. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(byte[], string) | Creates [`CertificateHolder`](./certificateholder/) object using byte array of PKCS12 store and its password. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(string, string) | Creates [`CertificateHolder`](./certificateholder/) object using path to PKCS12 store and its password. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(string, string, string) | Creates [`CertificateHolder`](./certificateholder/) object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(byte[], SecureString) | Creates `CertificateHolder` object using byte array of PKCS12 store and its password. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(byte[], string) | Creates `CertificateHolder` object using byte array of PKCS12 store and its password. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(string, string) | Creates `CertificateHolder` object using path to PKCS12 store and its password. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(string, string, string) | Creates `CertificateHolder` object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found. |
 
 ## Remarks
 
-[`CertificateHolder`](./certificateholder/) can be created by static factory methods only. It contains an instance of **X509Certificate2** which is used to introduce private, public keys and certificate chains into the system. This class is applied in [`DigitalSignatureUtil`](../digitalsignatureutil/) and [`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) instead of obsolete methods with X509Certificate2 as parameters.
+`CertificateHolder` can be created by static factory methods only. It contains an instance of **X509Certificate2** which is used to introduce private, public keys and certificate chains into the system. This class is applied in [`DigitalSignatureUtil`](../digitalsignatureutil/) and [`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) instead of obsolete methods with X509Certificate2 as parameters.
 
 ## Examples
 

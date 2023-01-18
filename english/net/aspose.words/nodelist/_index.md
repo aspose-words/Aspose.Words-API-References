@@ -32,11 +32,11 @@ public class NodeList : IEnumerable<Node>
 
 ## Remarks
 
-[`NodeList`](./nodelist/) is returned by [`SelectNodes`](../compositenode/selectnodes/) and contains a collection of nodes matching the XPath query.
+`NodeList` is returned by [`SelectNodes`](../compositenode/selectnodes/) and contains a collection of nodes matching the XPath query.
 
-[`NodeList`](./nodelist/) supports indexed access and iteration.
+`NodeList` supports indexed access and iteration.
 
-Treat the [`NodeList`](./nodelist/) collection as a "snapshot" collection. [`NodeList`](./nodelist/) starts as a "live" collection because the nodes are not actually retrieved when the XPath query is run. The nodes are only retrieved upon access and at this time the node and all nodes that precede it are cached forming a "snapshot" collection.
+Treat the `NodeList` collection as a "snapshot" collection. `NodeList` starts as a "live" collection because the nodes are not actually retrieved when the XPath query is run. The nodes are only retrieved upon access and at this time the node and all nodes that precede it are cached forming a "snapshot" collection.
 
 ## Examples
 

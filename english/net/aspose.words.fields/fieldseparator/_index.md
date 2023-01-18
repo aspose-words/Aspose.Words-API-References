@@ -57,9 +57,9 @@ public class FieldSeparator : FieldChar
 
 ## Remarks
 
-[`FieldSeparator`](./fieldseparator/) is an inline-level node and represented by the [`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar/) control character in the document.
+`FieldSeparator` is an inline-level node and represented by the [`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar/) control character in the document.
 
-[`FieldSeparator`](./fieldseparator/) can only be a child of [`Paragraph`](../../aspose.words/paragraph/).
+`FieldSeparator` can only be a child of [`Paragraph`](../../aspose.words/paragraph/).
 
 A complete field in a Microsoft Word document is a complex structure consisting of a field start character, field code, field separator character, field result and field end character. Some fields only have field start, field code and field end.
 

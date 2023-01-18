@@ -58,9 +58,9 @@ public class FieldStart : FieldChar
 
 ## Remarks
 
-[`FieldStart`](./fieldstart/) is an inline-level node and represented by the [`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) control character in the document.
+`FieldStart` is an inline-level node and represented by the [`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) control character in the document.
 
-[`FieldStart`](./fieldstart/) can only be a child of [`Paragraph`](../../aspose.words/paragraph/).
+`FieldStart` can only be a child of [`Paragraph`](../../aspose.words/paragraph/).
 
 A complete field in a Microsoft Word document is a complex structure consisting of a field start character, field code, field separator character, field result and field end character. Some fields only have field start, field code and field end.
 

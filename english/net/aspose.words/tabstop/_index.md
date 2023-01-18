@@ -8,7 +8,7 @@ url: /net/aspose.words/tabstop/
 ---
 ## TabStop class
 
-Represents a single custom tab stop. The [`TabStop`](./tabstop/) object is a member of the [`TabStopCollection`](../tabstopcollection/) collection.
+Represents a single custom tab stop. The `TabStop` object is a member of the [`TabStopCollection`](../tabstopcollection/) collection.
 
 To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
 
@@ -36,12 +36,12 @@ public sealed class TabStop
 
 | Name | Description |
 | --- | --- |
-| [Equals](../../aspose.words/tabstop/equals/#equals)(TabStop) | Compares with the specified [`TabStop`](./tabstop/). |
+| [Equals](../../aspose.words/tabstop/equals/#equals)(TabStop) | Compares with the specified `TabStop`. |
 | override [GetHashCode](../../aspose.words/tabstop/gethashcode/)() | Calculates hash code for this object. |
 
 ## Remarks
 
-Normally, a tab stop specifies a position where a tab stop exists. But because tab stops can be inherited from parent styles, it might be needed for the child object to define explicitly that there is no tab stop at a given position. To clear an inherited tab stop at a given position, create a [`TabStop`](./tabstop/) object and set [`Alignment`](./alignment/) to Clear.
+Normally, a tab stop specifies a position where a tab stop exists. But because tab stops can be inherited from parent styles, it might be needed for the child object to define explicitly that there is no tab stop at a given position. To clear an inherited tab stop at a given position, create a `TabStop` object and set [`Alignment`](./alignment/) to Clear.
 
 For more information see [`TabStopCollection`](../tabstopcollection/).
 

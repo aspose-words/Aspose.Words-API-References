@@ -8,7 +8,7 @@ url: /net/aspose.words/textcolumn/
 ---
 ## TextColumn class
 
-Represents a single text column. [`TextColumn`](./textcolumn/) is a member of the [`TextColumnCollection`](../textcolumncollection/) collection. The [`TextColumn`](./textcolumn/) collection includes all the columns in a section of a document.
+Represents a single text column. `TextColumn` is a member of the [`TextColumnCollection`](../textcolumncollection/) collection. The `TextColumn` collection includes all the columns in a section of a document.
 
 To learn more, visit the [Working with Sections](https://docs.aspose.com/words/net/working-with-sections/) documentation article.
 
@@ -25,9 +25,9 @@ public class TextColumn
 
 ## Remarks
 
-[`TextColumn`](./textcolumn/) objects are only used to specify columns with custom width and spacing. If you want the columns in the document to be of equal width, set TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) to `true`.
+`TextColumn` objects are only used to specify columns with custom width and spacing. If you want the columns in the document to be of equal width, set TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) to `true`.
 
-When a new [`TextColumn`](./textcolumn/) is created it has its width and spacing set to zero.
+When a new `TextColumn` is created it has its width and spacing set to zero.
 
 ## Examples
 

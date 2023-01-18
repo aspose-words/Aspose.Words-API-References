@@ -29,7 +29,7 @@ public class JsonDataSource
 
 To access data of the corresponding file or stream while generating a report, pass an instance of this class as a data source to one of [`ReportingEngine`](../reportingengine/).BuildReport overloads.
 
-In template documents, if a top-level JSON element is an array, a [`JsonDataSource`](./jsondatasource/) instance should be treated in the same way as if it was a DataTable instance. If a top-level JSON element is an object, a [`JsonDataSource`](./jsondatasource/) instance should be treated in the same way as if it was a DataRow instance. For more information, see template syntax reference (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+In template documents, if a top-level JSON element is an array, a `JsonDataSource` instance should be treated in the same way as if it was a DataTable instance. If a top-level JSON element is an object, a `JsonDataSource` instance should be treated in the same way as if it was a DataRow instance. For more information, see template syntax reference (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 In template documents, you can work with typed values of JSON elements. For convenience, the engine replaces the set of JSON simple types with the following one:
 

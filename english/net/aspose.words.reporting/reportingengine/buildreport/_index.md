@@ -25,7 +25,7 @@ A flag indicating whether parsing of the template document was successful. The r
 
 ## Remarks
 
-Using this overload you can reference the data source's members in the template document, but you cannot reference the data source object itself. You should use the [`BuildReport`](./buildreport/) overload to achieve this.
+Using this overload you can reference the data source's members in the template document, but you cannot reference the data source object itself. You should use the `BuildReport` overload to achieve this.
 
 A data source object can be of one of the following types:
 
@@ -72,7 +72,7 @@ A flag indicating whether parsing of the template document was successful. The r
 
 ## Remarks
 
-Using this overload you can reference the data source's members and the data source object itself in the template. If you are not going to reference the data source object itself, you can omit *dataSourceName* passing `null` or use the [`BuildReport`](./buildreport/) overload.
+Using this overload you can reference the data source's members and the data source object itself in the template. If you are not going to reference the data source object itself, you can omit *dataSourceName* passing `null` or use the `BuildReport` overload.
 
 A data source object can be of one of the following types:
 
@@ -121,7 +121,7 @@ A flag indicating whether parsing of the template document was successful. The r
 
 Using this overload you can reference multiple data source objects and their members in the template. The name of the first data source can be omitted (i.e. be an empty string or `null`) if you are going to reference the data source's members but not the data source object itself. Names of the other data sources must be specified and unique.
 
-If you are going to use a single data source, consider using of [`BuildReport`](./buildreport/) and [`BuildReport`](./buildreport/) overloads instead.
+If you are going to use a single data source, consider using of `BuildReport` and `BuildReport` overloads instead.
 
 A data source object can be of one of the following types:
 

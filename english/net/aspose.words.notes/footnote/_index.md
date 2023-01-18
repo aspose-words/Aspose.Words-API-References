@@ -20,7 +20,7 @@ public class Footnote : InlineStory
 
 | Name | Description |
 | --- | --- |
-| [Footnote](footnote/)(DocumentBase, FootnoteType) | Initializes an instance of the [`Footnote`](./footnote/) class. |
+| [Footnote](footnote/)(DocumentBase, FootnoteType) | Initializes an instance of the `Footnote` class. |
 
 ## Properties
 
@@ -86,11 +86,11 @@ public class Footnote : InlineStory
 
 ## Remarks
 
-The [`Footnote`](./footnote/) class is used to represent both footnotes and endnotes in a Word document.
+The `Footnote` class is used to represent both footnotes and endnotes in a Word document.
 
-[`Footnote`](./footnote/) is an inline-level node and can only be a child of [`Paragraph`](../../aspose.words/paragraph/).
+`Footnote` is an inline-level node and can only be a child of [`Paragraph`](../../aspose.words/paragraph/).
 
-[`Footnote`](./footnote/) can contain [`Paragraph`](../../aspose.words/paragraph/) and [`Table`](../../aspose.words.tables/table/) child nodes.
+`Footnote` can contain [`Paragraph`](../../aspose.words/paragraph/) and [`Table`](../../aspose.words.tables/table/) child nodes.
 
 ## Examples
 

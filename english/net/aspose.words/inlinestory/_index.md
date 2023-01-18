@@ -77,9 +77,9 @@ public abstract class InlineStory : CompositeNode
 
 ## Remarks
 
-[`InlineStory`](./inlinestory/) is a container for block-level nodes [`Paragraph`](../paragraph/) and [`Table`](../../aspose.words.tables/table/).
+`InlineStory` is a container for block-level nodes [`Paragraph`](../paragraph/) and [`Table`](../../aspose.words.tables/table/).
 
-The classes that derive from [`InlineStory`](./inlinestory/) are inline-level nodes that can contain their own text (paragraphs and tables). For example, a [`Comment`](../comment/) node contains text of a comment and a [`Footnote`](../../aspose.words.notes/footnote/) contains text of a footnote.
+The classes that derive from `InlineStory` are inline-level nodes that can contain their own text (paragraphs and tables). For example, a [`Comment`](../comment/) node contains text of a comment and a [`Footnote`](../../aspose.words.notes/footnote/) contains text of a footnote.
 
 ## Examples
 

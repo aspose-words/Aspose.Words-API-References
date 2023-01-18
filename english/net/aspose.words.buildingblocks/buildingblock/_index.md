@@ -81,9 +81,9 @@ public class BuildingBlock : CompositeNode
 
 ## Remarks
 
-[`BuildingBlock`](./buildingblock/) can contain only [`Section`](../../aspose.words/section/) nodes.
+`BuildingBlock` can contain only [`Section`](../../aspose.words/section/) nodes.
 
-[`BuildingBlock`](./buildingblock/) can only be a child of [`GlossaryDocument`](../glossarydocument/).
+`BuildingBlock` can only be a child of [`GlossaryDocument`](../glossarydocument/).
 
 You can create new building blocks and insert them into a glossary document. You can modify or delete existing building blocks. You can copy or move building blocks between documents. You can insert content of a building block into a document.
 

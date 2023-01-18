@@ -82,7 +82,7 @@ public sealed class Section : CompositeNode
 
 ## Remarks
 
-[`Section`](./section/) can have one [`Body`](../body/) and maximum one [`HeaderFooter`](../headerfooter/) of each [`HeaderFooterType`](../headerfootertype/). [`Body`](../body/) and [`HeaderFooter`](../headerfooter/) nodes can be in any order inside [`Section`](./section/).
+`Section` can have one [`Body`](../body/) and maximum one [`HeaderFooter`](../headerfooter/) of each [`HeaderFooterType`](../headerfootertype/). [`Body`](../body/) and [`HeaderFooter`](../headerfooter/) nodes can be in any order inside `Section`.
 
 A minimal valid section needs to have [`Body`](../body/) with one [`Paragraph`](../paragraph/).
 

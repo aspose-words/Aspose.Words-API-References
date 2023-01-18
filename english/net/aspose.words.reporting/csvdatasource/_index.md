@@ -29,7 +29,7 @@ public class CsvDataSource
 
 To access data of the corresponding file or stream while generating a report, pass an instance of this class as a data source to one of [`ReportingEngine`](../reportingengine/).BuildReport overloads.
 
-In template documents, a [`CsvDataSource`](./csvdatasource/) instance should be treated in the same way as if it was a DataTable instance. For more information, see template syntax reference (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+In template documents, a `CsvDataSource` instance should be treated in the same way as if it was a DataTable instance. For more information, see template syntax reference (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 Data types of comma-separated values are determined automatically upon their string representations. So in template documents, you can work with typed values rather than just strings. The engine is capable to automatically recognize values of the following types:
 

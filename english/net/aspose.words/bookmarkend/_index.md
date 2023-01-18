@@ -20,7 +20,7 @@ public class BookmarkEnd : Node
 
 | Name | Description |
 | --- | --- |
-| [BookmarkEnd](bookmarkend/)(DocumentBase, string) | Initializes a new instance of the [`BookmarkEnd`](./bookmarkend/) class. |
+| [BookmarkEnd](bookmarkend/)(DocumentBase, string) | Initializes a new instance of the `BookmarkEnd` class. |
 
 ## Properties
 
@@ -53,9 +53,9 @@ public class BookmarkEnd : Node
 
 ## Remarks
 
-A complete bookmark in a Word document consists of a [`BookmarkStart`](../bookmarkstart/) and a matching [`BookmarkEnd`](./bookmarkend/) with the same bookmark name.
+A complete bookmark in a Word document consists of a [`BookmarkStart`](../bookmarkstart/) and a matching `BookmarkEnd` with the same bookmark name.
 
-[`BookmarkStart`](../bookmarkstart/) and [`BookmarkEnd`](./bookmarkend/) are just markers inside a document that specify where the bookmark starts and ends.
+[`BookmarkStart`](../bookmarkstart/) and `BookmarkEnd` are just markers inside a document that specify where the bookmark starts and ends.
 
 Use the [`Bookmark`](../bookmark/) class as a "facade" to work with a bookmark as a single object.
 

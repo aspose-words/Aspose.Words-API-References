@@ -26,9 +26,9 @@ public class TextBox
 | [InternalMarginRight](../../aspose.words.drawing/textbox/internalmarginright/) { get; set; } | Specifies the inner right margin in points for a shape. |
 | [InternalMarginTop](../../aspose.words.drawing/textbox/internalmargintop/) { get; set; } | Specifies the inner top margin in points for a shape. |
 | [LayoutFlow](../../aspose.words.drawing/textbox/layoutflow/) { get; set; } | Determines the flow of the text layout in a shape. |
-| [Next](../../aspose.words.drawing/textbox/next/) { get; set; } | Returns or sets a [`TextBox`](./textbox/) that represents the next [`TextBox`](./textbox/) in a sequence of shapes. |
-| [Parent](../../aspose.words.drawing/textbox/parent/) { get; } | Gets a parent shape for the [`TextBox`](./textbox/). |
-| [Previous](../../aspose.words.drawing/textbox/previous/) { get; } | Returns a [`TextBox`](./textbox/) that represents the previous [`TextBox`](./textbox/) in a sequence of shapes. |
+| [Next](../../aspose.words.drawing/textbox/next/) { get; set; } | Returns or sets a `TextBox` that represents the next `TextBox` in a sequence of shapes. |
+| [Parent](../../aspose.words.drawing/textbox/parent/) { get; } | Gets a parent shape for the `TextBox`. |
+| [Previous](../../aspose.words.drawing/textbox/previous/) { get; } | Returns a `TextBox` that represents the previous `TextBox` in a sequence of shapes. |
 | [TextBoxWrapMode](../../aspose.words.drawing/textbox/textboxwrapmode/) { get; set; } | Determines how text wraps inside a shape. |
 | [VerticalAnchor](../../aspose.words.drawing/textbox/verticalanchor/) { get; set; } | Specifies the vertical alignment of the text within a shape. |
 
@@ -36,12 +36,12 @@ public class TextBox
 
 | Name | Description |
 | --- | --- |
-| [BreakForwardLink](../../aspose.words.drawing/textbox/breakforwardlink/)() | Breaks the link to the next [`TextBox`](./textbox/). |
-| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(TextBox) | Determines whether this [`TextBox`](./textbox/) can be linked to the target [`TextBox`](./textbox/). |
+| [BreakForwardLink](../../aspose.words.drawing/textbox/breakforwardlink/)() | Breaks the link to the next `TextBox`. |
+| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(TextBox) | Determines whether this `TextBox` can be linked to the target `TextBox`. |
 
 ## Remarks
 
-Use the [`TextBox`](../shape/textbox/) property to access text properties of a shape. You do not create instances of the [`TextBox`](./textbox/) class directly.
+Use the [`TextBox`](../shape/textbox/) property to access text properties of a shape. You do not create instances of the `TextBox` class directly.
 
 ## Examples
 

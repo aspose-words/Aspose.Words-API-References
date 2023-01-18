@@ -44,7 +44,7 @@ public class Field
 
 ## Remarks
 
-A field in a Word document is a complex structure consisting of multiple nodes that include field start, field code, field separator, field result and field end. Fields can be nested, contain rich content and span multiple paragraphs or sections in a document. The [`Field`](./field/) class is a "facade" object that provides properties and methods that allow to work with a field as a single object.
+A field in a Word document is a complex structure consisting of multiple nodes that include field start, field code, field separator, field result and field end. Fields can be nested, contain rich content and span multiple paragraphs or sections in a document. The `Field` class is a "facade" object that provides properties and methods that allow to work with a field as a single object.
 
 The [`Start`](./start/), [`Separator`](./separator/) and [`End`](./end/) properties point to the field start, separator and end nodes of the field respectively.
 
@@ -54,7 +54,7 @@ The process of calculating field results is called the field update. Aspose.Word
 
 You can get the plain text version of the field code using the [`GetFieldCode`](./getfieldcode/) method. You can get and set the plain text version of the field result using the [`Result`](./result/) property. Both the field code and field result can contain complex content, such as nested fields, paragraphs, shapes, tables and in this case you might want to work with the field nodes directly if you need more control.
 
-You do not create instances of the [`Field`](./field/) class directly. To create a new field use the [`InsertField`](../../aspose.words/documentbuilder/insertfield/) method.
+You do not create instances of the `Field` class directly. To create a new field use the [`InsertField`](../../aspose.words/documentbuilder/insertfield/) method.
 
 ## Examples
 

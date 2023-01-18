@@ -45,9 +45,9 @@ public class Range
 
 The document is represented by a tree of nodes and the nodes provide operations to work with the tree, but some operations are easier to perform if the document is treated as a contiguous sequence of text.
 
-[`Range`](./range/) is a "facade" interface that provide methods that treat the document or portions of the document as "flat" text regardless of the fact that the document nodes are stored in a tree-like object model.
+`Range` is a "facade" interface that provide methods that treat the document or portions of the document as "flat" text regardless of the fact that the document nodes are stored in a tree-like object model.
 
-[`Range`](./range/) does not contain any text or nodes, it is merely a view or "window" over a fragment of a document.
+`Range` does not contain any text or nodes, it is merely a view or "window" over a fragment of a document.
 
 ## Examples
 

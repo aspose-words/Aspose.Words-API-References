@@ -27,7 +27,7 @@ public class ReportingEngine
 | Name | Description |
 | --- | --- |
 | [KnownTypes](../../aspose.words.reporting/reportingengine/knowntypes/) { get; } | Gets an unordered set (i.e. a collection of unique items) containing Type objects which fully or partially qualified names can be used within report templates processed by this engine instance to invoke the corresponding types' static members, perform type casts, etc. |
-| [Options](../../aspose.words.reporting/reportingengine/options/) { get; set; } | Gets or sets a set of flags controlling behavior of this [`ReportingEngine`](./reportingengine/) instance while building a report. |
+| [Options](../../aspose.words.reporting/reportingengine/options/) { get; set; } | Gets or sets a set of flags controlling behavior of this `ReportingEngine` instance while building a report. |
 | static [UseReflectionOptimization](../../aspose.words.reporting/reportingengine/usereflectionoptimization/) { get; set; } | Gets or sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is `true`. |
 
 ## Methods

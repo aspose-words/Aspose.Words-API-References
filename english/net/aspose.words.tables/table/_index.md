@@ -20,7 +20,7 @@ public class Table : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| [Table](table/)(DocumentBase) | Initializes a new instance of the [`Table`](./table/) class. |
+| [Table](table/)(DocumentBase) | Initializes a new instance of the `Table` class. |
 
 ## Properties
 
@@ -111,9 +111,9 @@ public class Table : CompositeNode
 
 ## Remarks
 
-[`Table`](./table/) is a block-level node and can be a child of classes derived from [`Story`](../../aspose.words/story/) or [`InlineStory`](../../aspose.words/inlinestory/).
+`Table` is a block-level node and can be a child of classes derived from [`Story`](../../aspose.words/story/) or [`InlineStory`](../../aspose.words/inlinestory/).
 
-[`Table`](./table/) can contain one or more [`Row`](../row/) nodes.
+`Table` can contain one or more [`Row`](../row/) nodes.
 
 A minimal valid table needs to have at least one [`Row`](../row/).
 

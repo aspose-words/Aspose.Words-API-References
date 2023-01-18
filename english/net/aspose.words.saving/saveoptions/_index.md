@@ -49,7 +49,7 @@ public abstract class SaveOptions
 
 ## Remarks
 
-An instance of the [`SaveOptions`](./saveoptions/) class or any derived class is passed to the stream [`Save`](../../aspose.words/document/save/) or string [`Save`](../../aspose.words/document/save/) overloads for the user to define custom options when saving a document.
+An instance of the `SaveOptions` class or any derived class is passed to the stream [`Save`](../../aspose.words/document/save/) or string [`Save`](../../aspose.words/document/save/) overloads for the user to define custom options when saving a document.
 
 ## Examples
 

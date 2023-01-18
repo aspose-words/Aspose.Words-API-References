@@ -43,7 +43,7 @@ public class Stroke
 
 ## Remarks
 
-Use the [`Stroke`](../shape/stroke/) property to access stroke properties of a shape. You do not create instances of the [`Stroke`](./stroke/) class directly.
+Use the [`Stroke`](../shape/stroke/) property to access stroke properties of a shape. You do not create instances of the `Stroke` class directly.
 
 ## Examples
 

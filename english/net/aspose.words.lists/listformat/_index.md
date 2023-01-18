@@ -39,13 +39,13 @@ public class ListFormat
 
 A paragraph in a Microsoft Word document can be bulleted or numbered. When a paragraph is bulleted or numbered, it is said that list formatting is applied to the paragraph.
 
-You do not create objects of the [`ListFormat`](./listformat/) class directly. You access [`ListFormat`](./listformat/) as a property of another object that can have list formatting associated with it. At the moment the objects that can have list formatting are: [`Paragraph`](../../aspose.words/paragraph/), [`Style`](../../aspose.words/style/) and [`DocumentBuilder`](../../aspose.words/documentbuilder/).
+You do not create objects of the `ListFormat` class directly. You access `ListFormat` as a property of another object that can have list formatting associated with it. At the moment the objects that can have list formatting are: [`Paragraph`](../../aspose.words/paragraph/), [`Style`](../../aspose.words/style/) and [`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
-[`ListFormat`](./listformat/) of a [`Paragraph`](../../aspose.words/paragraph/) specifies what list formatting and list level is applied to that particular paragraph.
+`ListFormat` of a [`Paragraph`](../../aspose.words/paragraph/) specifies what list formatting and list level is applied to that particular paragraph.
 
-[`ListFormat`](./listformat/) of a [`Style`](../../aspose.words/style/) (applicable to paragraph styles only) allows to specify what list formatting and list level is applied to all paragraphs of that particular style.
+`ListFormat` of a [`Style`](../../aspose.words/style/) (applicable to paragraph styles only) allows to specify what list formatting and list level is applied to all paragraphs of that particular style.
 
-[`ListFormat`](./listformat/) of a [`DocumentBuilder`](../../aspose.words/documentbuilder/) provides access to the list formatting at the current cursor position inside the [`DocumentBuilder`](../../aspose.words/documentbuilder/).
+`ListFormat` of a [`DocumentBuilder`](../../aspose.words/documentbuilder/) provides access to the list formatting at the current cursor position inside the [`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
 The list formatting itself is stored inside a [`List`](../list/) object that is stored separately from the paragraphs. The list objects are stored inside a [`ListCollection`](../listcollection/) collection. There is a single [`ListCollection`](../listcollection/) collection per [`Document`](../../aspose.words/document/).
 

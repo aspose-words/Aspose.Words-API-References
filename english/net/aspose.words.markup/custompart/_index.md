@@ -44,7 +44,7 @@ This class represents an OOXML part that is a target of an "unknown relationship
 
 Microsoft Word preserves custom parts during open/save cycles. Some additional info can be found here http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
 
-Aspose.Words also roundtrips custom parts and in addition, allows to programmatically access such parts via the [`CustomPart`](./custompart/) and [`CustomPartCollection`](../custompartcollection/) objects.
+Aspose.Words also roundtrips custom parts and in addition, allows to programmatically access such parts via the `CustomPart` and [`CustomPartCollection`](../custompartcollection/) objects.
 
 Do not confuse custom parts with Custom XML Data. Use [`CustomXmlPart`](../customxmlpart/) if you need to access Custom XML Data.
 

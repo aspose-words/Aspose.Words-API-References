@@ -54,7 +54,7 @@ public class ImageData
 
 ## Remarks
 
-Use the [`ImageData`](../shape/imagedata/) property to access and modify the image inside a shape. You do not create instances of the [`ImageData`](./imagedata/) class directly.
+Use the [`ImageData`](../shape/imagedata/) property to access and modify the image inside a shape. You do not create instances of the `ImageData` class directly.
 
 An image can be stored inside a shape, linked to external file or both (linked and stored in the document).
 

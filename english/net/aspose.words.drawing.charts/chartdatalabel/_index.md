@@ -43,7 +43,7 @@ public class ChartDataLabel
 
 ## Remarks
 
-On a series, the [`ChartDataLabel`](./chartdatalabel/) object is a member of the [`ChartDataLabelCollection`](../chartdatalabelcollection/). The [`ChartDataLabelCollection`](../chartdatalabelcollection/) contains a [`ChartDataLabel`](./chartdatalabel/) object for each point.
+On a series, the `ChartDataLabel` object is a member of the [`ChartDataLabelCollection`](../chartdatalabelcollection/). The [`ChartDataLabelCollection`](../chartdatalabelcollection/) contains a `ChartDataLabel` object for each point.
 
 ## Examples
 

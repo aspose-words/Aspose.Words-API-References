@@ -35,7 +35,7 @@ public class ChartDataPoint : IChartDataPoint
 
 ## Remarks
 
-On a series, the [`ChartDataPoint`](./chartdatapoint/) object is a member of the [`ChartDataPointCollection`](../chartdatapointcollection/). The [`ChartDataPointCollection`](../chartdatapointcollection/) contains a [`ChartDataPoint`](./chartdatapoint/) object for each point.
+On a series, the `ChartDataPoint` object is a member of the [`ChartDataPointCollection`](../chartdatapointcollection/). The [`ChartDataPointCollection`](../chartdatapointcollection/) contains a `ChartDataPoint` object for each point.
 
 ## Examples
 
