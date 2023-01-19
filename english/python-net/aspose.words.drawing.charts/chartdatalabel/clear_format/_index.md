@@ -3,7 +3,7 @@ title: clear_format method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Clears format of this data label"
 type: docs
-weight: 140
+weight: 150
 url: /python-net/aspose.words.drawing.charts/chartdatalabel/clear_format/
 ---
 

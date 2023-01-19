@@ -3,7 +3,7 @@ title: target property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies which document shall be used as a target during comparison."
 type: docs
-weight: 120
+weight: 130
 url: /python-net/aspose.words.comparing/compareoptions/target/
 ---
 

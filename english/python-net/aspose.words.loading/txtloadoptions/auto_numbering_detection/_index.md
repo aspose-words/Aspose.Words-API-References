@@ -15,6 +15,16 @@ The default value is ``True``.
 
 
 
+### Examples
+
+Shows how to disable automatic numbering detection.
+
+```python
+options = aw.loading.TxtLoadOptions()
+options.auto_numbering_detection = False
+doc = aw.Document(MY_DIR + "Number detection.txt", options)
+```
+
 ### See Also
 
 * module [aspose.words.loading](../../)

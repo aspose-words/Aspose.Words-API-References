@@ -3,7 +3,7 @@ title: text property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets the text of the range."
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words/range/text/
 ---
 

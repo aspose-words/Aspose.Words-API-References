@@ -3,7 +3,7 @@ title: password property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets the password for opening an encrypted document"
 type: docs
-weight: 100
+weight: 110
 url: /python-net/aspose.words.loading/loadoptions/password/
 ---
 

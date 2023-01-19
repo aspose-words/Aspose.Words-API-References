@@ -3,7 +3,7 @@ title: clear method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Removes all items from the set."
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.reporting/knowntypeset/clear/
 ---
 

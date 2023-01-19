@@ -3,7 +3,7 @@ title: separator property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets string separator used for the data labels on a chart"
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.drawing.charts/chartdatalabel/separator/
 ---
 

@@ -3,7 +3,7 @@ title: PdfZoomBehavior enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the type of zoom applied to a PDF document when it is opened in a PDF viewer."
 type: docs
-weight: 670
+weight: 680
 url: /python-net/aspose.words.saving/pdfzoombehavior/
 ---
 

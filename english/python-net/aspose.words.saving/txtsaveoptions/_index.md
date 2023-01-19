@@ -3,7 +3,7 @@ title: TxtSaveOptions class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Can be used to specify additional options when saving a document into the [SaveFormat.TEXT](../../aspose.words/saveformat/#TEXT) format"
 type: docs
-weight: 790
+weight: 800
 url: /python-net/aspose.words.saving/txtsaveoptions/
 ---
 

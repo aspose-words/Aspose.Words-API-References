@@ -3,7 +3,7 @@ title: PdfDigitalSignatureDetails class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Contains details for signing a PDF document with a digital signature."
 type: docs
-weight: 560
+weight: 570
 url: /python-net/aspose.words.saving/pdfdigitalsignaturedetails/
 ---
 

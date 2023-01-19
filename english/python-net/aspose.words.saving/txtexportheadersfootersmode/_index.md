@@ -3,7 +3,7 @@ title: TxtExportHeadersFootersMode enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the way headers and footers are exported to plain text format."
 type: docs
-weight: 770
+weight: 780
 url: /python-net/aspose.words.saving/txtexportheadersfootersmode/
 ---
 

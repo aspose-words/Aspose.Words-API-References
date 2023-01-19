@@ -53,11 +53,9 @@ Shows how to verify owner document properties of lists.
 doc = aw.Document()
 
 lists = doc.lists
-
 self.assertEqual(doc, lists.document)
 
 list = lists.add(aw.lists.ListTemplate.BULLET_DEFAULT)
-
 self.assertEqual(doc, list.document)
 
 print("Current list count:", lists.count)

@@ -17,7 +17,7 @@ def get_math_renderer(self):
     ...
 ```
 
-This method just invokes the [OfficeMathRenderer](../../../aspose.words.rendering/officemathrenderer/) constructor and passes 
+This method just invokes the [OfficeMathRenderer](../../../aspose.words.rendering/officemathrenderer/) constructor and passes
 this object as a parameter.
 
 

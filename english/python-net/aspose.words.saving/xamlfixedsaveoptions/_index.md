@@ -3,7 +3,7 @@ title: XamlFixedSaveOptions class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Can be used to specify additional options when saving a document into the [SaveFormat.XAML_FIXED](../../aspose.words/saveformat/#XAML_FIXED) format"
 type: docs
-weight: 820
+weight: 830
 url: /python-net/aspose.words.saving/xamlfixedsaveoptions/
 ---
 

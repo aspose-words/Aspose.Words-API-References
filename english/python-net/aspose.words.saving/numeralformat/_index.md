@@ -3,7 +3,7 @@ title: NumeralFormat enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Indicates the symbol set that is used to represent numbers while rendering to fixed page formats."
 type: docs
-weight: 440
+weight: 450
 url: /python-net/aspose.words.saving/numeralformat/
 ---
 

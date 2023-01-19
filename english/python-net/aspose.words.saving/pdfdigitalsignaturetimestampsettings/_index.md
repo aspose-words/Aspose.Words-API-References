@@ -3,7 +3,7 @@ title: PdfDigitalSignatureTimestampSettings class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Contains settings of the digital signature timestamp"
 type: docs
-weight: 580
+weight: 590
 url: /python-net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/
 ---
 

@@ -34,6 +34,7 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/ne
 | [document_direction](./document_direction/) | Gets or sets a document direction. The default value is [DocumentDirection.LEFT_TO_RIGHT](../documentdirection/#LEFT_TO_RIGHT). |
 | [encoding](../loadoptions/encoding/) | Gets or sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be ``None``. Default is ``None``.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [font_settings](../loadoptions/font_settings/) | Allows to specify document font settings.<br>(Inherited from [LoadOptions](../loadoptions/)) |
+| [ignore_ole_data](../loadoptions/ignore_ole_data/) | Specifies whether to ignore the OLE data.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [language_preferences](../loadoptions/language_preferences/) | Gets language preferences that will be used when document is loading.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [leading_spaces_options](./leading_spaces_options/) | Gets or sets preferred option of a leading space handling. Default value is Aspose.Words.Loading.TxtLeadingSpacesOptions.ConvertToIndent. |
 | [load_format](../loadoptions/load_format/) | Specifies the format of the document to be loaded. Default is [LoadFormat.AUTO](../../aspose.words/loadformat/#AUTO).<br>(Inherited from [LoadOptions](../loadoptions/)) |

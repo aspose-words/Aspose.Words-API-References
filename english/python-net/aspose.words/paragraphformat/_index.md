@@ -46,7 +46,7 @@ To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words
 | [page_break_before](./page_break_before/) | True if a page break is forced before the paragraph. |
 | [right_indent](./right_indent/) | Gets or sets the value (in points) that represents the right indent for paragraph. |
 | [shading](./shading/) | Returns a [Shading](../shading/) object that refers to the shading formatting for the paragraph. |
-| [snap_to_grid](./snap_to_grid/) | Specifies whether the current paragraph should use the document grid lines per page settings  when laying out the contents in the paragraph. |
+| [snap_to_grid](./snap_to_grid/) | Specifies whether the current paragraph should use the document grid lines per page settings when laying out the contents in the paragraph. |
 | [space_after](./space_after/) | Gets or sets the amount of spacing (in points) after the paragraph. |
 | [space_after_auto](./space_after_auto/) | True if the amount of spacing after the paragraph is set automatically. |
 | [space_before](./space_before/) | Gets or sets the amount of spacing (in points) before the paragraph. |

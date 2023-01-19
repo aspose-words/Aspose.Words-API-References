@@ -3,7 +3,7 @@ title: is_hidden property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets/sets a flag indicating whether this label is hidden"
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.drawing.charts/chartdatalabel/is_hidden/
 ---
 

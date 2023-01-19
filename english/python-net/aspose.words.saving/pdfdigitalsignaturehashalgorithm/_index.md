@@ -3,7 +3,7 @@ title: PdfDigitalSignatureHashAlgorithm enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies a digital hash algorithm used by a digital signature."
 type: docs
-weight: 570
+weight: 580
 url: /python-net/aspose.words.saving/pdfdigitalsignaturehashalgorithm/
 ---
 

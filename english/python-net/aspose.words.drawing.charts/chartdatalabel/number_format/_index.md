@@ -3,7 +3,7 @@ title: number_format property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns number format of the parent element."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.drawing.charts/chartdatalabel/number_format/
 ---
 

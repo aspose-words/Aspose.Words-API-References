@@ -3,7 +3,7 @@ title: preserve_include_picture_field property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats"
 type: docs
-weight: 110
+weight: 120
 url: /python-net/aspose.words.loading/loadoptions/preserve_include_picture_field/
 ---
 

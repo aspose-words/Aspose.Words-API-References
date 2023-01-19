@@ -1,7 +1,7 @@
 ﻿---
 title: Forms2OleControlCollection indexer
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets [Forms2OleControl](../../forms2olecontrol/) object at specified index."
+description: "Gets [Forms2OleControl](../../forms2olecontrol/) object at a specified index."
 type: docs
 weight: 20
 url: /python-net/aspose.words.drawing.ole/forms2olecontrolcollection/__getitem__/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.drawing.ole/forms2olecontrolcollection/__getitem__
 
 ## \_\_getitem\_\_(index) {#int}
 
-Gets [Forms2OleControl](../../forms2olecontrol/) object at specified index.
+Gets [Forms2OleControl](../../forms2olecontrol/) object at a specified index.
 
 
 

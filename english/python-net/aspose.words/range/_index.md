@@ -36,6 +36,7 @@ over a fragment of a document.
 | [bookmarks](./bookmarks/) | Returns a [Range.bookmarks](./bookmarks/) collection that represents all bookmarks in the range. |
 | [fields](./fields/) | Returns a [Range.fields](./fields/) collection that represents all fields in the range. |
 | [form_fields](./form_fields/) | Returns a [Range.form_fields](./form_fields/) collection that represents all form fields in the range. |
+| [revisions](./revisions/) | Gets a collection of revisions (tracked changes) that exist in this range. |
 | [structured_document_tags](./structured_document_tags/) | Returns a [Range.structured_document_tags](./structured_document_tags/) collection that represents all structured document tags in the range. |
 | [text](./text/) | Gets the text of the range. |
 

@@ -3,7 +3,7 @@ title: WordML2003SaveOptions class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Can be used to specify additional options when saving a document into the [SaveFormat.WORD_ML](../../aspose.words/saveformat/#WORD_ML) format"
 type: docs
-weight: 810
+weight: 820
 url: /python-net/aspose.words.saving/wordml2003saveoptions/
 ---
 

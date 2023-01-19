@@ -123,6 +123,41 @@ row.append_child(author_sdt)
 doc.save(ARTIFACTS_DIR + "StructuredDocumentTag.fill_table_using_repeating_section_item.docx")
 ```
 
+Shows how to create group structured document tag at the Row level.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc)
+
+table = builder.start_table()
+
+# Create a Group structured document tag at the Row level.
+group_sdt = aw.markup.StructuredDocumentTag(doc, aw.markup.SdtType.GROUP, aw.markup.MarkupLevel.ROW)
+table.append_child(group_sdt)
+group_sdt.is_showing_placeholder_text = False
+group_sdt.remove_all_children()
+
+# Create a child row of the structured document tag.
+row = aw.tables.Row(doc)
+group_sdt.append_child(row)
+
+cell = aw.tables.Cell(doc)
+row.append_child(cell)
+
+builder.end_table()
+
+# Insert cell contents.
+cell.ensure_minimum()
+builder.move_to(cell.last_paragraph)
+builder.write("Lorem ipsum dolor.")
+
+# Insert text after the table.
+builder.move_to(table.next_sibling)
+builder.write("Nulla blandit nisi.")
+
+doc.save(ARTIFACTS_DIR + "StructuredDocumentTag.SdtAtRowLevel.docx")
+```
+
 ### See Also
 
 * module [aspose.words.markup](../)
