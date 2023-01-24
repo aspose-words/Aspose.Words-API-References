@@ -3,7 +3,7 @@ title: PdfFontEmbeddingMode enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies how Aspose.Words should embed fonts."
 type: docs
-weight: 600
+weight: 610
 url: /python-net/aspose.words.saving/pdffontembeddingmode/
 ---
 

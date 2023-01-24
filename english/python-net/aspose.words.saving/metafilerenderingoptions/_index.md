@@ -3,7 +3,7 @@ title: MetafileRenderingOptions class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to specify additional metafile rendering options"
 type: docs
-weight: 430
+weight: 440
 url: /python-net/aspose.words.saving/metafilerenderingoptions/
 ---
 
@@ -29,6 +29,7 @@ To learn more, visit the [Handling Windows Metafiles](https://docs.aspose.com/wo
 | [rendering_mode](./rendering_mode/) | Gets or sets a value determining how metafile images should be rendered. |
 | [scale_wmf_fonts_to_metafile_size](./scale_wmf_fonts_to_metafile_size/) | Gets or sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
 | [use_emf_embedded_to_wmf](./use_emf_embedded_to_wmf/) | Gets or sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
+| [use_gdi_raster_operations_emulation](./use_gdi_raster_operations_emulation/) | Gets or sets a value determining whether or not to use the GDI+ for raster operations emulation. |
 
 ### See Also
 

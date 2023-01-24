@@ -1,11 +1,35 @@
 ﻿---
 title: get_ancestor method
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the first ancestor of the specified [NodeType](../../nodetype/)."
+description: "aspose.words.Node.get_ancestor method"
 type: docs
 weight: 440
 url: /python-net/aspose.words/node/get_ancestor/
 ---
+
+## get_ancestor(ancestor_type) {#unknown}
+
+Gets the first ancestor of the specified object type.
+
+
+```python
+def get_ancestor(self, ancestor_type):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ancestor_type |  |  |
+
+The ancestor type matches if it is equal to  or derived from.
+
+
+
+
+### Returns
+
+The ancestor of the specified type or ``None`` if no ancestor of this type was found.
+
 
 ## get_ancestor(ancestor_type) {#nodetype}
 
@@ -27,7 +51,7 @@ def get_ancestor(self, ancestor_type: aspose.words.NodeType):
 The ancestor of the specified type or ``None`` if no ancestor of this type was found.
 
 
-### Examples
+## Examples
 
 Shows how to find out if a tables are nested.
 
@@ -94,7 +118,7 @@ def get_child_table_count(table: aw.tables.Table) -> int:
     return child_table_count
 ```
 
-### See Also
+## See Also
 
 * module [aspose.words](../../)
 * class [Node](../)

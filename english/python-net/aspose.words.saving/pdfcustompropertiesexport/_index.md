@@ -3,7 +3,7 @@ title: PdfCustomPropertiesExport enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the way [Document.custom_document_properties](../../aspose.words/document/custom_document_properties/) are exported to PDF file."
 type: docs
-weight: 550
+weight: 560
 url: /python-net/aspose.words.saving/pdfcustompropertiesexport/
 ---
 

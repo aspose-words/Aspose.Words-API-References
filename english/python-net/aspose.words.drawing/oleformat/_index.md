@@ -30,9 +30,9 @@ You do not create instances of the [OleFormat](./) class directly.
 | [icon_caption](./icon_caption/) | Gets icon caption of OLE object. In case of OLE object is not embedded as icon or caption couldn't be retrieved returns empty string. |
 | [is_link](./is_link/) | Returns ``True`` if the OLE object is linked (when [OleFormat.source_full_name](./source_full_name/) is specified). |
 | [is_locked](./is_locked/) | Specifies whether the link to the OLE object is locked from updates. |
-| [ole_control](./ole_control/) | Gets [OleFormat.ole_control](./ole_control/) objects if this OLE object is an ActiveX control. Otherwise this property is ``None``. |
-| [ole_icon](./ole_icon/) | Gets the draw aspect of the OLE object. When ``True``, the OLE object is displayed as an icon.  When ``False``, the OLE object is displayed as content. |
-| [ole_package](./ole_package/) | Provide access to [OlePackage](../olepackage/) if OLE object is an OLE Package.  Returns ``None`` otherwise. |
+| [ole_control](./ole_control/) | Gets [OleFormat.ole_control](./ole_control/) objects if this OLE object is an ActiveX control. Otherwise this property is null. |
+| [ole_icon](./ole_icon/) | Gets the draw aspect of the OLE object. When ``True``, the OLE object is displayed as an icon. When ``False``, the OLE object is displayed as content. |
+| [ole_package](./ole_package/) | Provide access to [OlePackage](../olepackage/) if OLE object is an OLE Package. Returns ``None`` otherwise. |
 | [prog_id](./prog_id/) | Gets or sets the ProgID of the OLE object. |
 | [source_full_name](./source_full_name/) | Gets or sets the path and name of the source file for the linked OLE object. |
 | [source_item](./source_item/) | Gets or sets a string that is used to identify the portion of the source file that is being linked. |

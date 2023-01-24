@@ -3,7 +3,7 @@ title: unlink_fields method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Unlinks fields in this range."
 type: docs
-weight: 110
+weight: 120
 url: /python-net/aspose.words/range/unlink_fields/
 ---
 

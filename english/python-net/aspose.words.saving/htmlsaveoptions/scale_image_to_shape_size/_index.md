@@ -30,6 +30,12 @@ In general, browsers do quick and poor quality scaling. As a result, you will no
 display quality in the browser and smaller file size when [HtmlSaveOptions.scale_image_to_shape_size](./) is ``True``, 
 but better printing quality and faster conversion when [HtmlSaveOptions.scale_image_to_shape_size](./) is ``False``.
 
+In addition to shapes containing individual raster images, this option also affects group shapes consisting
+of raster images. If [HtmlSaveOptions.scale_image_to_shape_size](./) is ``False`` and a group shape contains raster images
+whose intrinsic resolution is higher than the value specified in [HtmlSaveOptions.image_resolution](../image_resolution/), Aspose.Words will
+increase rendering resolution for that group. This allows to better preserve quality of grouped high resolution
+images when saving to HTML.
+
 
 
 

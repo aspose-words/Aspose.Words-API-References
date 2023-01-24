@@ -27,7 +27,9 @@ To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/n
 
 | Name | Description |
 | --- | --- |
+|[ add(type)](./add/#unknown) | Adds the specified System.Type object to the set. Throws System.ArgumentException in the following cases: |
 |[ clear()](./clear/#default) | Removes all items from the set. |
+|[ remove(type)](./remove/#unknown) | Removes the specified System.Type object from the set. Throws System.ArgumentException if  is``None``. |
 
 ### See Also
 

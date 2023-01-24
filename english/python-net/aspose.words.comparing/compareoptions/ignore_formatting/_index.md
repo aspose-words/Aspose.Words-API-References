@@ -3,13 +3,13 @@ title: ignore_formatting property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "True indicates that formatting is ignored"
 type: docs
-weight: 80
+weight: 90
 url: /python-net/aspose.words.comparing/compareoptions/ignore_formatting/
 ---
 
 ## CompareOptions.ignore_formatting property
 
-True indicates that formatting is ignored. 
+True indicates that formatting is ignored.
 By default document formatting is not ignored.
 
 

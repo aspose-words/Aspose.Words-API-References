@@ -3,7 +3,7 @@ title: PdfPageMode enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies how the PDF document should be displayed when opened in the PDF reader."
 type: docs
-weight: 630
+weight: 640
 url: /python-net/aspose.words.saving/pdfpagemode/
 ---
 

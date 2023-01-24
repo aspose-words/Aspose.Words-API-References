@@ -3,7 +3,7 @@ title: number_format property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets an [ChartNumberFormat](../../chartnumberformat/) instance allowing to set number format for the data labels of the entire series."
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/number_format/
 ---
 

@@ -3,7 +3,7 @@ title: ResourceSavingArgs class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides data for the [IResourceSavingCallback.resource_saving()](../iresourcesavingcallback/resource_saving/#resourcesavingargs) event"
 type: docs
-weight: 690
+weight: 700
 url: /python-net/aspose.words.saving/resourcesavingargs/
 ---
 

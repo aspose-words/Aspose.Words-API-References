@@ -3,13 +3,13 @@ title: ignore_tables property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies whether to compare the differences in data contained in tables"
 type: docs
-weight: 100
+weight: 110
 url: /python-net/aspose.words.comparing/compareoptions/ignore_tables/
 ---
 
 ## CompareOptions.ignore_tables property
 
-Specifies whether to compare the differences in data contained in tables. 
+Specifies whether to compare the differences in data contained in tables.
 By default tables are not ignored.
 
 

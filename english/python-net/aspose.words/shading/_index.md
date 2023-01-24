@@ -22,7 +22,11 @@ To learn more, visit the [Programming with Documents](https://docs.aspose.com/wo
 | Name | Description |
 | --- | --- |
 | [background_pattern_color](./background_pattern_color/) | Gets or sets the color that's applied to the background of the [Shading](./) object. |
+| [background_pattern_theme_color](./background_pattern_theme_color/) | Gets or sets the background pattern theme color in the applied color scheme that is associated with this [Shading](./) object. |
+| [background_tint_and_shade](./background_tint_and_shade/) | Gets or sets a double value that lightens or darkens a background theme color. |
 | [foreground_pattern_color](./foreground_pattern_color/) | Gets or sets the color that's applied to the foreground of the [Shading](./) object. |
+| [foreground_pattern_theme_color](./foreground_pattern_theme_color/) | Gets or sets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](./) object. |
+| [foreground_tint_and_shade](./foreground_tint_and_shade/) | Gets or sets a double value that lightens or darkens a foreground theme color. |
 | [texture](./texture/) | Gets or sets the shading texture. |
 
 ### Methods

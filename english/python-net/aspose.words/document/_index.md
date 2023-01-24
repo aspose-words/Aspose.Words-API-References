@@ -163,6 +163,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 |[ ensure_minimum()](./ensure_minimum/#default) | If the document contains no sections, creates one section with one paragraph. |
 |[ expand_table_styles_to_direct_formatting()](./expand_table_styles_to_direct_formatting/#default) | Converts formatting specified in table styles into direct formatting on tables in the document. |
 |[ extract_pages(index, count)](./extract_pages/#int_int) | Returns the [Document](./) object representing specified range of pages. |
+|[ get_ancestor(ancestor_type)](../node/get_ancestor/#unknown) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../node/)) |
 |[ get_ancestor(ancestor_type)](../node/get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../nodetype/).<br>(Inherited from [Node](../node/)) |
 |[ get_child(node_type, index, is_deep)](../compositenode/get_child/#nodetype_int_bool) | Returns an Nth child node that matches the specified type.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ get_child_nodes(node_type, is_deep)](../compositenode/get_child_nodes/#nodetype_bool) | Returns a live collection of child nodes that match the specified type.<br>(Inherited from [CompositeNode](../compositenode/)) |

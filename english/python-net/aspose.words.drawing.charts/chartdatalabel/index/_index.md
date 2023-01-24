@@ -3,7 +3,7 @@ title: index property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the index of the containing element"
 type: docs
-weight: 10
+weight: 20
 url: /python-net/aspose.words.drawing.charts/chartdatalabel/index/
 ---
 

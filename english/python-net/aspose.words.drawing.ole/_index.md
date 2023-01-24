@@ -24,5 +24,5 @@ Contains classes to work with OLE / ActiveX controls and forms in Microsoft Word
 
 | Enumeration | Description |
 | --- | --- |
-| [Forms2OleControlType](./forms2olecontroltype/) |  |
+| [Forms2OleControlType](./forms2olecontroltype/) | Enumerates types of Forms 2.0 controls. |
 

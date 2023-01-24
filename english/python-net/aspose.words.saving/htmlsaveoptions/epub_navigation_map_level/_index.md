@@ -1,7 +1,7 @@
 ﻿---
 title: epub_navigation_map_level property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB format"
+description: "Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB or AZW3 formats"
 type: docs
 weight: 110
 url: /python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/
@@ -9,11 +9,11 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/
 
 ## HtmlSaveOptions.epub_navigation_map_level property
 
-Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB format.
+Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB or AZW3 formats.
 Default value is ``3``.
 
 
-Navigation map in IDPF EPUB format allows user agents to provide easy way of navigation 
+Navigation map in IDPF EPUB or AZW3 formats allows user agents to provide easy way of navigation 
 through the document structure. Usually navigation points correspond to headings in the document. 
 To populate headings up to level **N** assign this value to [HtmlSaveOptions.epub_navigation_map_level](./).
 

@@ -3,7 +3,7 @@ title: OdtSaveMeasureUnit enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specified units of measure to apply to measurable document content such as shape, widths and other during saving."
 type: docs
-weight: 450
+weight: 460
 url: /python-net/aspose.words.saving/odtsavemeasureunit/
 ---
 
