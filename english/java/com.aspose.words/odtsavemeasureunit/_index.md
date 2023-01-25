@@ -3,7 +3,7 @@ title: OdtSaveMeasureUnit
 second_title: Aspose.Words for Java API Reference
 description: Specified units of measure to apply to measurable document content such as shape widths and other during saving.
 type: docs
-weight: 421
+weight: 422
 url: /java/com.aspose.words/odtsavemeasureunit/
 ---
 

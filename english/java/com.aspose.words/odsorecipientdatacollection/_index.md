@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection
 second_title: Aspose.Words for Java API Reference
 description: A typed collection of
 type: docs
-weight: 420
+weight: 421
 url: /java/com.aspose.words/odsorecipientdatacollection/
 ---
 

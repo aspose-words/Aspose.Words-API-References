@@ -3,7 +3,7 @@ title: TextBox
 second_title: Aspose.Words for Java API Reference
 description: Defines attributes that specify how a text is displayed inside a shape.
 type: docs
-weight: 561
+weight: 562
 url: /java/com.aspose.words/textbox/
 ---
 

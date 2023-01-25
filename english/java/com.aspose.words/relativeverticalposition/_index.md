@@ -3,7 +3,7 @@ title: RelativeVerticalPosition
 second_title: Aspose.Words for Java API Reference
 description: Specifies to what the vertical position of a shape or text frame is relative.
 type: docs
-weight: 477
+weight: 478
 url: /java/com.aspose.words/relativeverticalposition/
 ---
 

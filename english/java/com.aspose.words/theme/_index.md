@@ -3,7 +3,7 @@ title: Theme
 second_title: Aspose.Words for Java API Reference
 description: Represents document Theme and provides access to main theme parts including   and
 type: docs
-weight: 576
+weight: 577
 url: /java/com.aspose.words/theme/
 ---
 

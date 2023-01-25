@@ -3,7 +3,7 @@ title: SectionStart
 second_title: Aspose.Words for Java API Reference
 description: The type of break at the beginning of the section.
 type: docs
-weight: 515
+weight: 516
 url: /java/com.aspose.words/sectionstart/
 ---
 

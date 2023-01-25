@@ -3,7 +3,7 @@ title: NodeChangingArgs
 second_title: Aspose.Words for Java API Reference
 description: Provides data for methods of the  interface.
 type: docs
-weight: 406
+weight: 407
 url: /java/com.aspose.words/nodechangingargs/
 ---
 

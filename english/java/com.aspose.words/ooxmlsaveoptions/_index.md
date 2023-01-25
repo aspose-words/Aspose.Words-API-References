@@ -3,7 +3,7 @@ title: OoxmlSaveOptions
 second_title: Aspose.Words for Java API Reference
 description: Can be used to specify additional options when saving a document into the     or  format.
 type: docs
-weight: 431
+weight: 432
 url: /java/com.aspose.words/ooxmlsaveoptions/
 ---
 

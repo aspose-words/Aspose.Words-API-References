@@ -3,7 +3,7 @@ title: IStructuredDocumentTag
 second_title: Aspose.Words for Java API Reference
 description: Interface to define a common data for  and .
 type: docs
-weight: 662
+weight: 663
 url: /java/com.aspose.words/istructureddocumenttag/
 ---
 ```

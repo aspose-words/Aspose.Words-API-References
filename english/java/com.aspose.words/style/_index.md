@@ -3,7 +3,7 @@ title: Style
 second_title: Aspose.Words for Java API Reference
 description: Represents a single built-in or user-defined style.
 type: docs
-weight: 539
+weight: 540
 url: /java/com.aspose.words/style/
 ---
 
@@ -40,6 +40,7 @@ To learn more, visit the [ Working with Styles and Themes ][Working with Styles 
 | [getDirectParaAttr(int key)](#getDirectParaAttr-int) |  |
 | [getDirectParaAttr(int key, int revisionsView)](#getDirectParaAttr-int-int) |  |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
 | [getDocument()](#getDocument) | Gets the owner document. |
 | [getFont()](#getFont) | Gets the character formatting of the style. |
 | [getLinkedStyleName()](#getLinkedStyleName) | Gets the name of the [Style](../../com.aspose.words/style) linked to this one. |
@@ -243,6 +244,22 @@ public Object getDirectRunAttr(int key)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
+
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key, int revisionsView) {#getDirectRunAttr-int-int}
+```
+public Object getDirectRunAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| revisionsView | int |  |
 
 **Returns:**
 java.lang.Object

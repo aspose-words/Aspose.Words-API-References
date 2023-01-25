@@ -30,7 +30,9 @@ On a series, the [ChartDataLabel](../../com.aspose.words/chartdatalabel) object 
 | --- | --- |
 | [clearFormat()](#clearFormat) | Clears format of this data label. |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [generateItemText()](#generateItemText) |  |
 | [getClass()](#getClass) |  |
+| [getFont()](#getFont) | Provides access to the font formatting of this data label. |
 | [getIndex()](#getIndex) | Specifies the index of the containing element. |
 | [getNumberFormat()](#getNumberFormat) | Returns number format of the parent element. |
 | [getSeparator()](#getSeparator) | Gets string separator used for the data labels on a chart. |
@@ -85,6 +87,16 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### generateItemText() {#generateItemText}
+```
+public String generateItemText()
+```
+
+
+
+
+**Returns:**
+java.lang.String
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -95,6 +107,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getFont() {#getFont}
+```
+public Font getFont()
+```
+
+
+Provides access to the font formatting of this data label.
+
+**Returns:**
+[Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
 ### getIndex() {#getIndex}
 ```
 public int getIndex()

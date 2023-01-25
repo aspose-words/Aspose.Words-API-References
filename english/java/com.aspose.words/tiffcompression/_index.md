@@ -3,7 +3,7 @@ title: TiffCompression
 second_title: Aspose.Words for Java API Reference
 description: Specifies what type of compression to apply when saving page images into a TIFF file.
 type: docs
-weight: 582
+weight: 583
 url: /java/com.aspose.words/tiffcompression/
 ---
 

@@ -3,7 +3,7 @@ title: IComparisonExpressionEvaluator
 second_title: Aspose.Words for Java API Reference
 description: When implemented allows to override default comparison expressions evaluation for the  and  fields.
 type: docs
-weight: 637
+weight: 638
 url: /java/com.aspose.words/icomparisonexpressionevaluator/
 ---
 ```

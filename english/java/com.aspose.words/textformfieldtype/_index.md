@@ -3,7 +3,7 @@ title: TextFormFieldType
 second_title: Aspose.Words for Java API Reference
 description: Specifies the type of a text form field.
 type: docs
-weight: 568
+weight: 569
 url: /java/com.aspose.words/textformfieldtype/
 ---
 

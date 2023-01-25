@@ -3,7 +3,7 @@ title: OleControl
 second_title: Aspose.Words for Java API Reference
 description: Represents OLE ActiveX control.
 type: docs
-weight: 427
+weight: 428
 url: /java/com.aspose.words/olecontrol/
 ---
 
@@ -25,11 +25,17 @@ To learn more, visit the [ Working with Ole Objects ][Working with Ole Objects] 
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
+| [getClsid()](#getClsid) |  |
+| [getExtensionForUser(String progId)](#getExtensionForUser-java.lang.String) |  |
+| [getFileNameForUser()](#getFileNameForUser) |  |
+| [getId()](#getId) |  |
 | [getName()](#getName) | Gets name of the ActiveX control. |
 | [hashCode()](#hashCode) |  |
 | [isForms2OleControl()](#isForms2OleControl) | Returns  true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol). |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
+| [setId(int value)](#setId-int) |  |
+| [setName(String value)](#setName-java.lang.String) | Gets name of the ActiveX control. |
 | [toString()](#toString) |  |
 | [wait()](#wait) |  |
 | [wait(long arg0)](#wait-long) |  |
@@ -59,6 +65,51 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getClsid() {#getClsid}
+```
+public String getClsid()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### getExtensionForUser(String progId) {#getExtensionForUser-java.lang.String}
+```
+public String getExtensionForUser(String progId)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| progId | java.lang.String |  |
+
+**Returns:**
+java.lang.String
+### getFileNameForUser() {#getFileNameForUser}
+```
+public String getFileNameForUser()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### getId() {#getId}
+```
+public int getId()
+```
+
+
+
+
+**Returns:**
+int
 ### getName() {#getName}
 ```
 public String getName()
@@ -104,6 +155,32 @@ public final native void notifyAll()
 
 
 
+
+### setId(int value) {#setId-int}
+```
+public void setId(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setName(String value) {#setName-java.lang.String}
+```
+public void setName(String value)
+```
+
+
+Gets name of the ActiveX control.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | Name of the ActiveX control. |
 
 ### toString() {#toString}
 ```

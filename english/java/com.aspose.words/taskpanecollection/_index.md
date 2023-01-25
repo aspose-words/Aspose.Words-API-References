@@ -3,7 +3,7 @@ title: TaskPaneCollection
 second_title: Aspose.Words for Java API Reference
 description: Specifies a list of persisted task pane objects.
 type: docs
-weight: 559
+weight: 560
 url: /java/com.aspose.words/taskpanecollection/
 ---
 

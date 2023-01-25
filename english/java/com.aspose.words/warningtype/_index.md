@@ -3,7 +3,7 @@ title: WarningType
 second_title: Aspose.Words for Java API Reference
 description: Specifies the type of a warning that is issued by Aspose.Words during document loading or saving.
 type: docs
-weight: 610
+weight: 611
 url: /java/com.aspose.words/warningtype/
 ---
 

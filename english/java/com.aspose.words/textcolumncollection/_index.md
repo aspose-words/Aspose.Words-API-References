@@ -3,7 +3,7 @@ title: TextColumnCollection
 second_title: Aspose.Words for Java API Reference
 description: A collection of  objects that represent all the columns of text in a section of a document.
 type: docs
-weight: 565
+weight: 566
 url: /java/com.aspose.words/textcolumncollection/
 ---
 

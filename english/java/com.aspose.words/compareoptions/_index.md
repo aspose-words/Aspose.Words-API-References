@@ -25,6 +25,7 @@ To learn more, visit the [ Compare Documents ][Compare Documents] documentation 
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
+| [getCompareMoves()](#getCompareMoves) | Specifies whether to compare differences in **T:Aspose.Words.Revisions.MoveRevision** between the two documents. |
 | [getGranularity()](#getGranularity) | Specifies whether changes are tracked by character or by word. |
 | [getIgnoreCaseChanges()](#getIgnoreCaseChanges) | True indicates that documents comparison is case insensitive. |
 | [getIgnoreComments()](#getIgnoreComments) | Specifies whether to compare differences in comments. |
@@ -39,6 +40,7 @@ To learn more, visit the [ Compare Documents ][Compare Documents] documentation 
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
+| [setCompareMoves(boolean value)](#setCompareMoves-boolean) | Specifies whether to compare differences in **T:Aspose.Words.Revisions.MoveRevision** between the two documents. |
 | [setGranularity(int value)](#setGranularity-int) | Specifies whether changes are tracked by character or by word. |
 | [setIgnoreCaseChanges(boolean value)](#setIgnoreCaseChanges-boolean) | True indicates that documents comparison is case insensitive. |
 | [setIgnoreComments(boolean value)](#setIgnoreComments-boolean) | Specifies whether to compare differences in comments. |
@@ -79,6 +81,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getCompareMoves() {#getCompareMoves}
+```
+public boolean getCompareMoves()
+```
+
+
+Specifies whether to compare differences in **T:Aspose.Words.Revisions.MoveRevision** between the two documents. By default move revisions are not produced.
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getGranularity() {#getGranularity}
 ```
 public int getGranularity()
@@ -214,6 +226,19 @@ public final native void notifyAll()
 
 
 
+
+### setCompareMoves(boolean value) {#setCompareMoves-boolean}
+```
+public void setCompareMoves(boolean value)
+```
+
+
+Specifies whether to compare differences in **T:Aspose.Words.Revisions.MoveRevision** between the two documents. By default move revisions are not produced.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setGranularity(int value) {#setGranularity-int}
 ```

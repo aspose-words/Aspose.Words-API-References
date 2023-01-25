@@ -3,7 +3,7 @@ title: NodeCollection
 second_title: Aspose.Words for Java API Reference
 description: Represents a collection of nodes of a specific type.
 type: docs
-weight: 407
+weight: 408
 url: /java/com.aspose.words/nodecollection/
 ---
 

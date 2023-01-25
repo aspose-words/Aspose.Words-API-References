@@ -3,7 +3,7 @@ title: NodeList
 second_title: Aspose.Words for Java API Reference
 description: Represents a collection of nodes matching an XPath query executed using the  method.
 type: docs
-weight: 409
+weight: 410
 url: /java/com.aspose.words/nodelist/
 ---
 

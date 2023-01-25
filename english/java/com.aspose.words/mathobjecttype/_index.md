@@ -3,7 +3,7 @@ title: MathObjectType
 second_title: Aspose.Words for Java API Reference
 description: Specifies type of an Office Math object.
 type: docs
-weight: 394
+weight: 395
 url: /java/com.aspose.words/mathobjecttype/
 ---
 

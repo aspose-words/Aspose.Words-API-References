@@ -3,7 +3,7 @@ title: TextureAlignment
 second_title: Aspose.Words for Java API Reference
 description: Specifies the alignment for the tiling of the texture fill.
 type: docs
-weight: 574
+weight: 575
 url: /java/com.aspose.words/texturealignment/
 ---
 

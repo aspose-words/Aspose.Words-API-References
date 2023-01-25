@@ -3,7 +3,7 @@ title: Table
 second_title: Aspose.Words for Java API Reference
 description: Represents a table in a Word document.
 type: docs
-weight: 551
+weight: 552
 url: /java/com.aspose.words/table/
 ---
 

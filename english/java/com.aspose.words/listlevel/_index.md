@@ -40,6 +40,7 @@ Use the properties of [ListLevel](../../com.aspose.words/listlevel) to specify l
 | [getClass()](#getClass) |  |
 | [getCustomNumberStyleFormat()](#getCustomNumberStyleFormat) | Gets the custom number style format for this list level. |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
 | [getEffectiveValue(int index, int numberStyle, String customNumberStyleFormat)](#getEffectiveValue-int-int-java.lang.String) |  |
 | [getFont()](#getFont) | Specifies character formatting used for the list label. |
 | [getImageData()](#getImageData) | Returns image data of the picture bullet shape for the current list level. |
@@ -186,6 +187,22 @@ public Object getDirectRunAttr(int key)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
+
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key, int revisionsView) {#getDirectRunAttr-int-int}
+```
+public Object getDirectRunAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| revisionsView | int |  |
 
 **Returns:**
 java.lang.Object

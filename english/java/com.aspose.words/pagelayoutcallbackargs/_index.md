@@ -3,7 +3,7 @@ title: PageLayoutCallbackArgs
 second_title: Aspose.Words for Java API Reference
 description: An argument passed into
 type: docs
-weight: 438
+weight: 439
 url: /java/com.aspose.words/pagelayoutcallbackargs/
 ---
 

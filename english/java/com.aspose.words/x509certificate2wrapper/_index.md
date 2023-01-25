@@ -3,7 +3,7 @@ title: X509Certificate2Wrapper
 second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
-weight: 627
+weight: 628
 url: /java/com.aspose.words/x509certificate2wrapper/
 ---
 

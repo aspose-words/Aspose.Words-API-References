@@ -322,7 +322,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [FormFieldCollection](../com.aspose.words/formfieldcollection) | A collection of [FormField](../com.aspose.words/formfield) objects that represent all the form fields in a range. |
 | [Forms2OleControl](../com.aspose.words/forms2olecontrol) | Represents Microsoft Forms 2.0 OLE control. |
 | [Forms2OleControlCollection](../com.aspose.words/forms2olecontrolcollection) | Represents collection of [Forms2OleControl](../com.aspose.words/forms2olecontrol) objects. |
-| [Forms2OleControlType](../com.aspose.words/forms2olecontroltype) |  |
+| [Forms2OleControlType](../com.aspose.words/forms2olecontroltype) | Enumerates types of Forms 2.0 controls. |
 | [FrameFormat](../com.aspose.words/frameformat) | Represents frame related formatting for a paragraph. |
 | [Frameset](../com.aspose.words/frameset) |  |
 | [FramesetCollection](../com.aspose.words/framesetcollection) |  |
@@ -411,6 +411,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [MailMergeSettings](../com.aspose.words/mailmergesettings) | Specifies all of the mail merge information for a document. |
 | [MappedDataFieldCollection](../com.aspose.words/mappeddatafieldcollection) | Allows to automatically map between names of fields in your data source and names of mail merge fields in the document. |
 | [Margins](../com.aspose.words/margins) | Specifies preset margins. |
+| [MarkdownListExportMode](../com.aspose.words/markdownlistexportmode) | Specifies how lists are exported into Markdown. |
 | [MarkdownSaveOptions](../com.aspose.words/markdownsaveoptions) | Class to specify additional options when saving a document into the [SaveFormat.\#MARKDOWN](../com.aspose.words/saveformat\#MARKDOWN) format. |
 | [MarkerSymbol](../com.aspose.words/markersymbol) | Specifies marker symbol style. |
 | [MarkupLevel](../com.aspose.words/markuplevel) | Specifies the level in the document tree where a particular [StructuredDocumentTag](../com.aspose.words/structureddocumenttag) can occur. |

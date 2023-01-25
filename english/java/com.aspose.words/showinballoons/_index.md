@@ -3,7 +3,7 @@ title: ShowInBalloons
 second_title: Aspose.Words for Java API Reference
 description: Specifies which revisions are rendered in balloons.
 type: docs
-weight: 525
+weight: 526
 url: /java/com.aspose.words/showinballoons/
 ---
 

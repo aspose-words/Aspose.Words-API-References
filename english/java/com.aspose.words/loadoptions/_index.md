@@ -37,6 +37,7 @@ To learn more, visit the [ Specify Load Options ][Specify Load Options] document
 | [getConvertShapeToOfficeMath()](#getConvertShapeToOfficeMath) | Gets whether to convert shapes with EquationXML to Office Math objects. |
 | [getEncoding()](#getEncoding) | Gets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
 | [getFontSettings()](#getFontSettings) | Allows to specify document font settings. |
+| [getIgnoreOleData()](#getIgnoreOleData) | Specifies whether to ignore the OLE data. |
 | [getLanguagePreferences()](#getLanguagePreferences) | Gets language preferences that will be used when document is loading. |
 | [getLoadFormat()](#getLoadFormat) | Specifies the format of the document to be loaded. |
 | [getMswVersion()](#getMswVersion) | Allows to specify that the document loading process should match a specific MS Word version. |
@@ -55,6 +56,7 @@ To learn more, visit the [ Specify Load Options ][Specify Load Options] document
 | [setConvertShapeToOfficeMath(boolean value)](#setConvertShapeToOfficeMath-boolean) | Sets whether to convert shapes with EquationXML to Office Math objects. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset) | Sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
 | [setFontSettings(FontSettings value)](#setFontSettings-com.aspose.words.FontSettings) | Allows to specify document font settings. |
+| [setIgnoreOleData(boolean value)](#setIgnoreOleData-boolean) | Specifies whether to ignore the OLE data. |
 | [setLoadFormat(int value)](#setLoadFormat-int) | Specifies the format of the document to be loaded. |
 | [setMswVersion(int value)](#setMswVersion-int) | Allows to specify that the document loading process should match a specific MS Word version. |
 | [setPassword(String value)](#setPassword-java.lang.String) | Sets the password for opening an encrypted document. |
@@ -194,6 +196,20 @@ The default value is  null .
 
 **Returns:**
 [FontSettings](../../com.aspose.words/fontsettings) - The corresponding [FontSettings](../../com.aspose.words/fontsettings) value.
+### getIgnoreOleData() {#getIgnoreOleData}
+```
+public boolean getIgnoreOleData()
+```
+
+
+Specifies whether to ignore the OLE data.
+
+Ignoring OLE data may reduce memory consumption and increase performance without data lost in a case when destination format does not support OLE objects.
+
+The default value is  false .
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getLanguagePreferences() {#getLanguagePreferences}
 ```
 public LanguagePreferences getLanguagePreferences()
@@ -413,6 +429,23 @@ The default value is  null .
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [FontSettings](../../com.aspose.words/fontsettings) | The corresponding [FontSettings](../../com.aspose.words/fontsettings) value. |
+
+### setIgnoreOleData(boolean value) {#setIgnoreOleData-boolean}
+```
+public void setIgnoreOleData(boolean value)
+```
+
+
+Specifies whether to ignore the OLE data.
+
+Ignoring OLE data may reduce memory consumption and increase performance without data lost in a case when destination format does not support OLE objects.
+
+The default value is  false .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setLoadFormat(int value) {#setLoadFormat-int}
 ```

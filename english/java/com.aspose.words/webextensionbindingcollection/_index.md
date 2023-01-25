@@ -3,7 +3,7 @@ title: WebExtensionBindingCollection
 second_title: Aspose.Words for Java API Reference
 description: Specifies a list of web extension bindings.
 type: docs
-weight: 616
+weight: 617
 url: /java/com.aspose.words/webextensionbindingcollection/
 ---
 

@@ -3,7 +3,7 @@ title: VbaReferenceType
 second_title: Aspose.Words for Java API Reference
 description: Allows to specify the type of a  object.
 type: docs
-weight: 602
+weight: 603
 url: /java/com.aspose.words/vbareferencetype/
 ---
 

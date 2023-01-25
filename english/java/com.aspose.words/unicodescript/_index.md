@@ -3,7 +3,7 @@ title: UnicodeScript
 second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
-weight: 592
+weight: 593
 url: /java/com.aspose.words/unicodescript/
 ---
 

@@ -3,7 +3,7 @@ title: VbaModule
 second_title: Aspose.Words for Java API Reference
 description: Provides access to VBA project module.
 type: docs
-weight: 596
+weight: 597
 url: /java/com.aspose.words/vbamodule/
 ---
 

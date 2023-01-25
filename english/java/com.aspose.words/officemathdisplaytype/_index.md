@@ -3,7 +3,7 @@ title: OfficeMathDisplayType
 second_title: Aspose.Words for Java API Reference
 description: Specifies the display format type of the equation.
 type: docs
-weight: 424
+weight: 425
 url: /java/com.aspose.words/officemathdisplaytype/
 ---
 

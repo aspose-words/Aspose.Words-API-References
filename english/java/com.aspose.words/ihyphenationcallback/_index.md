@@ -3,7 +3,7 @@ title: IHyphenationCallback
 second_title: Aspose.Words for Java API Reference
 description: Implemented by classes which can register hyphenation dictionaries.
 type: docs
-weight: 651
+weight: 652
 url: /java/com.aspose.words/ihyphenationcallback/
 ---
 ```
