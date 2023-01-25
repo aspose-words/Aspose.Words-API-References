@@ -3,7 +3,7 @@ title: TableStyle
 second_title: Aspose.Words for Java API Reference
 description: Represents a table style.
 type: docs
-weight: 555
+weight: 556
 url: /java/com.aspose.words/tablestyle/
 ---
 
@@ -56,6 +56,7 @@ To learn more, visit the [ Working with Tables ][Working with Tables] documentat
 | [getDirectParaAttr(int key, int revisionsView)](#getDirectParaAttr-int-int) |  |
 | [getDirectRowAttr(int key)](#getDirectRowAttr-int) |  |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
 | [getDocument()](#getDocument) | Gets the owner document. |
 | [getFont()](#getFont) | Gets the character formatting of the style. |
 | [getLeftIndent()](#getLeftIndent) | Gets the value that represents the left indent of a table. |
@@ -517,6 +518,22 @@ public Object getDirectRunAttr(int key)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
+
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key, int revisionsView) {#getDirectRunAttr-int-int}
+```
+public Object getDirectRunAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| revisionsView | int |  |
 
 **Returns:**
 java.lang.Object

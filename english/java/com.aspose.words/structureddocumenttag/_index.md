@@ -3,7 +3,7 @@ title: StructuredDocumentTag
 second_title: Aspose.Words for Java API Reference
 description: Represents a structured document tag SDT or content control in a document.
 type: docs
-weight: 535
+weight: 536
 url: /java/com.aspose.words/structureddocumenttag/
 ---
 
@@ -72,6 +72,7 @@ In this version Aspose.Words provides a number of public methods and properties 
 | [getDateDisplayLocale()](#getDateDisplayLocale) | Allows to set/get the language format for the date displayed in this **SDT**. |
 | [getDateStorageFormat()](#getDateStorageFormat) | Gets/sets format in which the date for a date SDT is stored when the **SDT** is bound to an XML node in the document's data store. |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
 | [getDocument()](#getDocument) | Gets the document to which this node belongs. |
 | [getEndCharacterFont()](#getEndCharacterFont) | Font formatting that will be applied to the last character of text entered into **SDT**. |
 | [getFirstChild()](#getFirstChild) | Gets the first child of the node. |
@@ -561,6 +562,22 @@ public Object getDirectRunAttr(int key)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
+
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key, int revisionsView) {#getDirectRunAttr-int-int}
+```
+public Object getDirectRunAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| revisionsView | int |  |
 
 **Returns:**
 java.lang.Object

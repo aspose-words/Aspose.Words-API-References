@@ -3,7 +3,7 @@ title: StructuredDocumentTagCollection
 second_title: Aspose.Words for Java API Reference
 description: A collection of  instances that represent the structured document tags in the specified range.
 type: docs
-weight: 536
+weight: 537
 url: /java/com.aspose.words/structureddocumenttagcollection/
 ---
 

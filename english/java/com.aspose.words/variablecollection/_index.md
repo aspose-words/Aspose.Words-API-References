@@ -3,7 +3,7 @@ title: VariableCollection
 second_title: Aspose.Words for Java API Reference
 description: A collection of document variables.
 type: docs
-weight: 595
+weight: 596
 url: /java/com.aspose.words/variablecollection/
 ---
 

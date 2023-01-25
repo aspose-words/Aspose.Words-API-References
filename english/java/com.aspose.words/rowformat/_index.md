@@ -3,7 +3,7 @@ title: RowFormat
 second_title: Aspose.Words for Java API Reference
 description: Represents all formatting for a table row.
 type: docs
-weight: 497
+weight: 498
 url: /java/com.aspose.words/rowformat/
 ---
 

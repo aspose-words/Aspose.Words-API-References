@@ -3,7 +3,7 @@ title: VbaReferenceCollection
 second_title: Aspose.Words for Java API Reference
 description: Represents a collection of  objects.
 type: docs
-weight: 601
+weight: 602
 url: /java/com.aspose.words/vbareferencecollection/
 ---
 

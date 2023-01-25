@@ -3,7 +3,7 @@ title: OdtSaveOptions
 second_title: Aspose.Words for Java API Reference
 description: Can be used to specify additional options when saving a document into the  or  format.
 type: docs
-weight: 422
+weight: 423
 url: /java/com.aspose.words/odtsaveoptions/
 ---
 

@@ -3,7 +3,7 @@ title: OdsoFieldMappingType
 second_title: Aspose.Words for Java API Reference
 description: Specifies the possible types used to indicate if a given mail merge field has been mapped to a column in the given external data source.
 type: docs
-weight: 418
+weight: 419
 url: /java/com.aspose.words/odsofieldmappingtype/
 ---
 

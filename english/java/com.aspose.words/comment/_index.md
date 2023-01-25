@@ -61,7 +61,8 @@ To anchor a comment to a region of text three objects are required: [Comment](..
 | [getCurrentNode()](#getCurrentNode) |  |
 | [getCustomNodeId()](#getCustomNodeId) | Specifies custom node identifier. |
 | [getDateTime()](#getDateTime) | Gets the date and time that the comment was made. |
-| [getDirectRunAttr(int fontAttr)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
 | [getDocument()](#getDocument) | Gets the document to which this node belongs. |
 | [getDocument_IInline()](#getDocument-IInline) |  |
 | [getDone()](#getDone) | Gets flag indicating that the comment has been marked done. |
@@ -464,9 +465,9 @@ Default is 03.01.0001.
 
 **Returns:**
 java.util.Date - The date and time that the comment was made.
-### getDirectRunAttr(int fontAttr) {#getDirectRunAttr-int}
+### getDirectRunAttr(int key) {#getDirectRunAttr-int}
 ```
-public Object getDirectRunAttr(int fontAttr)
+public Object getDirectRunAttr(int key)
 ```
 
 
@@ -475,7 +476,23 @@ public Object getDirectRunAttr(int fontAttr)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fontAttr | int |  |
+| key | int |  |
+
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key, int revisionsView) {#getDirectRunAttr-int-int}
+```
+public Object getDirectRunAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| revisionsView | int |  |
 
 **Returns:**
 java.lang.Object

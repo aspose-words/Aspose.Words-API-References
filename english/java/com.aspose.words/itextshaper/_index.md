@@ -3,7 +3,7 @@ title: ITextShaper
 second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
-weight: 663
+weight: 664
 url: /java/com.aspose.words/itextshaper/
 ---
 ```

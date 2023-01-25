@@ -3,7 +3,7 @@ title: SdtListItem
 second_title: Aspose.Words for Java API Reference
 description: This element specifies a single list item within a parent  or  structured document tag.
 type: docs
-weight: 509
+weight: 510
 url: /java/com.aspose.words/sdtlistitem/
 ---
 

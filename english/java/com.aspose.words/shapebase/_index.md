@@ -3,7 +3,7 @@ title: ShapeBase
 second_title: Aspose.Words for Java API Reference
 description: Base class for objects in the drawing layer such as an AutoShape freeform OLE object ActiveX control or picture.
 type: docs
-weight: 520
+weight: 521
 url: /java/com.aspose.words/shapebase/
 ---
 
@@ -70,6 +70,7 @@ A floating shape be positioned explicitly using the [getLeft()](../../com.aspose
 | [getCurrentNode()](#getCurrentNode) |  |
 | [getCustomNodeId()](#getCustomNodeId) | Specifies custom node identifier. |
 | [getDirectRunAttr(int fontAttr)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
 | [getDirectShapeAttr(int key)](#getDirectShapeAttr-int) | Reserved for system use. |
 | [getDistanceBottom()](#getDistanceBottom) | Gets the distance (in points) between the document text and the bottom edge of the shape. |
 | [getDistanceLeft()](#getDistanceLeft) | Gets the distance (in points) between the document text and the left edge of the shape. |
@@ -677,6 +678,22 @@ public Object getDirectRunAttr(int fontAttr)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fontAttr | int |  |
+
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key, int revisionsView) {#getDirectRunAttr-int-int}
+```
+public Object getDirectRunAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| revisionsView | int |  |
 
 **Returns:**
 java.lang.Object

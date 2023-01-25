@@ -3,7 +3,7 @@ title: SectionCollection
 second_title: Aspose.Words for Java API Reference
 description: A collection of  objects in the document.
 type: docs
-weight: 513
+weight: 514
 url: /java/com.aspose.words/sectioncollection/
 ---
 

@@ -3,7 +3,7 @@ title: ToaCategories
 second_title: Aspose.Words for Java API Reference
 description: Represents a table of authorities categories.
 type: docs
-weight: 583
+weight: 584
 url: /java/com.aspose.words/toacategories/
 ---
 

@@ -3,7 +3,7 @@ title: OfficeMathJustification
 second_title: Aspose.Words for Java API Reference
 description: Specifies the justification of the equation.
 type: docs
-weight: 425
+weight: 426
 url: /java/com.aspose.words/officemathjustification/
 ---
 

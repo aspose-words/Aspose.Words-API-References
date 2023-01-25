@@ -3,7 +3,7 @@ title: Range
 second_title: Aspose.Words for Java API Reference
 description: Represents a contiguous area in a document.
 type: docs
-weight: 475
+weight: 476
 url: /java/com.aspose.words/range/
 ---
 
@@ -35,6 +35,7 @@ The document is represented by a tree of nodes and the nodes provide operations 
 | [getClass()](#getClass) |  |
 | [getFields()](#getFields) | Returns a [getFields()](../../com.aspose.words/range\#getFields) collection that represents all fields in the range. |
 | [getFormFields()](#getFormFields) | Returns a [getFormFields()](../../com.aspose.words/range\#getFormFields) collection that represents all form fields in the range. |
+| [getRevisions()](#getRevisions) | Gets a collection of revisions (tracked changes) that exist in this range. |
 | [getStructuredDocumentTags()](#getStructuredDocumentTags) | Returns a [getStructuredDocumentTags()](../../com.aspose.words/range\#getStructuredDocumentTags) collection that represents all structured document tags in the range. |
 | [getText()](#getText) | Gets the text of the range. |
 | [hashCode()](#hashCode) |  |
@@ -115,6 +116,18 @@ Returns a [getFormFields()](../../com.aspose.words/range\#getFormFields) collect
 
 **Returns:**
 [FormFieldCollection](../../com.aspose.words/formfieldcollection) - A [getFormFields()](../../com.aspose.words/range\#getFormFields) collection that represents all form fields in the range.
+### getRevisions() {#getRevisions}
+```
+public RevisionCollection getRevisions()
+```
+
+
+Gets a collection of revisions (tracked changes) that exist in this range.
+
+The returned collection is a "live" collection, which means if you remove parts of a document that contain revisions, the deleted revisions will automatically disappear from this collection.
+
+**Returns:**
+[RevisionCollection](../../com.aspose.words/revisioncollection) - A collection of revisions (tracked changes) that exist in this range.
 ### getStructuredDocumentTags() {#getStructuredDocumentTags}
 ```
 public StructuredDocumentTagCollection getStructuredDocumentTags()

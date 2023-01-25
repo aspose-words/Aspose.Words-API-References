@@ -3,7 +3,7 @@ title: TxtSaveOptions
 second_title: Aspose.Words for Java API Reference
 description: Can be used to specify additional options when saving a document into the  format.
 type: docs
-weight: 588
+weight: 589
 url: /java/com.aspose.words/txtsaveoptions/
 ---
 

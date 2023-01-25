@@ -3,7 +3,7 @@ title: ThemeFonts
 second_title: Aspose.Words for Java API Reference
 description: Represents a collection of fonts in the font scheme allowing to specify different fonts for different languages  /   /  and  / .
 type: docs
-weight: 580
+weight: 581
 url: /java/com.aspose.words/themefonts/
 ---
 

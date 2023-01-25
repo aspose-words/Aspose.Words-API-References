@@ -3,7 +3,7 @@ title: IMailMergeDataSource
 second_title: Aspose.Words for Java API Reference
 description: Implement this interface to allow mail merge from a custom data source such as a list of objects.
 type: docs
-weight: 654
+weight: 655
 url: /java/com.aspose.words/imailmergedatasource/
 ---
 ```

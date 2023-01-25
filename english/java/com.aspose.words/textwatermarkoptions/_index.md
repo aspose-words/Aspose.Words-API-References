@@ -3,7 +3,7 @@ title: TextWatermarkOptions
 second_title: Aspose.Words for Java API Reference
 description: Contains options that can be specified when adding a watermark with text.
 type: docs
-weight: 572
+weight: 573
 url: /java/com.aspose.words/textwatermarkoptions/
 ---
 

@@ -3,7 +3,7 @@ title: PlainTextDocument
 second_title: Aspose.Words for Java API Reference
 description: Allows to extract plain-text representation of the documents content.
 type: docs
-weight: 468
+weight: 469
 url: /java/com.aspose.words/plaintextdocument/
 ---
 

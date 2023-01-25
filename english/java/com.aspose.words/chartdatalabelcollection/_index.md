@@ -31,6 +31,7 @@ To learn more, visit the [ Working with Charts ][Working with Charts] documentat
 | [get(int index)](#get-int) | Returns [ChartDataLabel](../../com.aspose.words/chartdatalabel) for the specified index. |
 | [getClass()](#getClass) |  |
 | [getCount()](#getCount) | Returns the number of [ChartDataLabel](../../com.aspose.words/chartdatalabel) in this collection. |
+| [getFont()](#getFont) | Provides access to the font formatting of the data labels of the entire series. |
 | [getNumberFormat()](#getNumberFormat) | Gets an [ChartNumberFormat](../../com.aspose.words/chartnumberformat) instance allowing to set number format for the data labels of the entire series. |
 | [getSeparator()](#getSeparator) | Gets string separator used for the data labels of the entire series. |
 | [getShowBubbleSize()](#getShowBubbleSize) | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. |
@@ -117,6 +118,16 @@ Returns the number of [ChartDataLabel](../../com.aspose.words/chartdatalabel) in
 
 **Returns:**
 int - The number of [ChartDataLabel](../../com.aspose.words/chartdatalabel) in this collection.
+### getFont() {#getFont}
+```
+public Font getFont()
+```
+
+
+Provides access to the font formatting of the data labels of the entire series. Value defined for this property can be overridden for an individual data label with using the [ChartDataLabel.getFont()](../../com.aspose.words/chartdatalabel\#getFont) property.
+
+**Returns:**
+[Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
 ### getNumberFormat() {#getNumberFormat}
 ```
 public ChartNumberFormat getNumberFormat()

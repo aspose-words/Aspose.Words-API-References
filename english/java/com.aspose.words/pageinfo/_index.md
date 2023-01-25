@@ -3,7 +3,7 @@ title: PageInfo
 second_title: Aspose.Words for Java API Reference
 description: Represents information about a particular document page.
 type: docs
-weight: 437
+weight: 438
 url: /java/com.aspose.words/pageinfo/
 ---
 

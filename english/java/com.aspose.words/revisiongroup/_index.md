@@ -3,7 +3,7 @@ title: RevisionGroup
 second_title: Aspose.Words for Java API Reference
 description: Represents a group of sequential  objects.
 type: docs
-weight: 489
+weight: 490
 url: /java/com.aspose.words/revisiongroup/
 ---
 

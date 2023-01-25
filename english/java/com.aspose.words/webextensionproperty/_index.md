@@ -3,7 +3,7 @@ title: WebExtensionProperty
 second_title: Aspose.Words for Java API Reference
 description: Specifies a web extension custom property.
 type: docs
-weight: 618
+weight: 619
 url: /java/com.aspose.words/webextensionproperty/
 ---
 

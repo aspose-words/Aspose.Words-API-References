@@ -3,7 +3,7 @@ title: WatermarkLayout
 second_title: Aspose.Words for Java API Reference
 description: Defines layout of the watermark relative to the watermark center.
 type: docs
-weight: 612
+weight: 613
 url: /java/com.aspose.words/watermarklayout/
 ---
 

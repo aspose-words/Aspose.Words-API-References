@@ -28,6 +28,7 @@ To learn more, visit the [ Working with Lists ][Working with Lists] documentatio
 | [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int) |  |
 | [getClass()](#getClass) |  |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
 | [getFont()](#getFont) | Gets the list label font. |
 | [getLabelString()](#getLabelString) | Gets a string representation of list label. |
 | [getLabelValue()](#getLabelValue) | Gets a numeric value for this label. |
@@ -100,6 +101,22 @@ public Object getDirectRunAttr(int key)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
+
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key, int revisionsView) {#getDirectRunAttr-int-int}
+```
+public Object getDirectRunAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| revisionsView | int |  |
 
 **Returns:**
 java.lang.Object

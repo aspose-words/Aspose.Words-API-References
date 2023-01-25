@@ -31,6 +31,7 @@ To learn more, visit the [ Working with Charts ][Working with Charts] documentat
 | [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int) |  |
 | [getClass()](#getClass) |  |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
 | [getOverlay()](#getOverlay) | Determines whether other chart elements shall be allowed to overlap title. |
 | [getShow()](#getShow) | Determines whether the title shall be shown for this chart. |
 | [getText()](#getText) | Gets the text of the chart title. |
@@ -106,6 +107,22 @@ public Object getDirectRunAttr(int key)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
+
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key, int revisionsView) {#getDirectRunAttr-int-int}
+```
+public Object getDirectRunAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| revisionsView | int |  |
 
 **Returns:**
 java.lang.Object

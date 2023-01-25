@@ -3,7 +3,7 @@ title: Paragraph
 second_title: Aspose.Words for Java API Reference
 description: Represents a paragraph of text.
 type: docs
-weight: 446
+weight: 447
 url: /java/com.aspose.words/paragraph/
 ---
 
@@ -65,6 +65,7 @@ Do not include the end of paragraph [ControlChar.PARAGRAPH\_BREAK](../../com.asp
 | [getDirectParaAttr(int key)](#getDirectParaAttr-int) |  |
 | [getDirectParaAttr(int key, int revisionsView)](#getDirectParaAttr-int-int) |  |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
 | [getDocument()](#getDocument) | Gets the document to which this node belongs. |
 | [getEffectiveTabStops()](#getEffectiveTabStops) | Returns array of all tab stops applied to this paragraph, including applied indirectly by styles or lists. |
 | [getFirstChild()](#getFirstChild) | Gets the first child of the node. |
@@ -523,6 +524,22 @@ public Object getDirectRunAttr(int key)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
+
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key, int revisionsView) {#getDirectRunAttr-int-int}
+```
+public Object getDirectRunAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| revisionsView | int |  |
 
 **Returns:**
 java.lang.Object

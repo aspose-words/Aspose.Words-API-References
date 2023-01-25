@@ -3,7 +3,7 @@ title: StyleIdentifier
 second_title: Aspose.Words for Java API Reference
 description: Locale independent style identifier.
 type: docs
-weight: 541
+weight: 542
 url: /java/com.aspose.words/styleidentifier/
 ---
 

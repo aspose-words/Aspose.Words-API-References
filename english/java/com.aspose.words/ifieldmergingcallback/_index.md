@@ -3,7 +3,7 @@ title: IFieldMergingCallback
 second_title: Aspose.Words for Java API Reference
 description: Implement this interface if you want to control how data is inserted into merge fields during a mail merge operation.
 type: docs
-weight: 644
+weight: 645
 url: /java/com.aspose.words/ifieldmergingcallback/
 ---
 ```

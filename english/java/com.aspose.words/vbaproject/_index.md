@@ -3,7 +3,7 @@ title: VbaProject
 second_title: Aspose.Words for Java API Reference
 description: Provides access to VBA project information.
 type: docs
-weight: 599
+weight: 600
 url: /java/com.aspose.words/vbaproject/
 ---
 

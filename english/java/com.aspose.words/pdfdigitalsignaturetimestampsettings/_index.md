@@ -3,7 +3,7 @@ title: PdfDigitalSignatureTimestampSettings
 second_title: Aspose.Words for Java API Reference
 description: Contains settings of the digital signature timestamp.
 type: docs
-weight: 456
+weight: 457
 url: /java/com.aspose.words/pdfdigitalsignaturetimestampsettings/
 ---
 

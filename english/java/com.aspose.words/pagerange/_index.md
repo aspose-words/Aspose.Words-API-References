@@ -3,7 +3,7 @@ title: PageRange
 second_title: Aspose.Words for Java API Reference
 description: Represents a continuous range of pages.
 type: docs
-weight: 440
+weight: 441
 url: /java/com.aspose.words/pagerange/
 ---
 

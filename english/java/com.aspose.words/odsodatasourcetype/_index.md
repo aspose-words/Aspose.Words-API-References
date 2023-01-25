@@ -3,7 +3,7 @@ title: OdsoDataSourceType
 second_title: Aspose.Words for Java API Reference
 description: Specifies the type of the external data source to be connected to as part of the ODSO connection information.
 type: docs
-weight: 415
+weight: 416
 url: /java/com.aspose.words/odsodatasourcetype/
 ---
 

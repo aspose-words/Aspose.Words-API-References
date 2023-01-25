@@ -3,7 +3,7 @@ title: TextColumn
 second_title: Aspose.Words for Java API Reference
 description: Represents a single text column.
 type: docs
-weight: 564
+weight: 565
 url: /java/com.aspose.words/textcolumn/
 ---
 

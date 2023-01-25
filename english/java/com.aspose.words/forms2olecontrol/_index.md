@@ -32,14 +32,20 @@ To learn more, visit the [ Working with Ole Objects ][Working with Ole Objects] 
 | [getCaption()](#getCaption) | Gets Caption property of control. |
 | [getChildNodes()](#getChildNodes) | Gets collection of immediate child controls. |
 | [getClass()](#getClass) |  |
+| [getClsid()](#getClsid) |  |
 | [getEnabled()](#getEnabled) | Returns  true  if control is in enabled state. |
+| [getExtensionForUser(String progId)](#getExtensionForUser-java.lang.String) |  |
+| [getFileNameForUser()](#getFileNameForUser) |  |
+| [getId()](#getId) |  |
 | [getName()](#getName) | Gets name of the ActiveX control. |
 | [getType()](#getType) | Gets type of Forms 2.0 control. |
 | [getValue()](#getValue) | Gets underlying Value property which often represents control state. |
 | [hashCode()](#hashCode) |  |
-| [isForms2OleControl()](#isForms2OleControl) |  |
+| [isForms2OleControl()](#isForms2OleControl) | Returns  true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol). |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
+| [setId(int value)](#setId-int) |  |
+| [setName(String value)](#setName-java.lang.String) | Gets name of the ActiveX control. |
 | [toString()](#toString) |  |
 | [wait()](#wait) |  |
 | [wait(long arg0)](#wait-long) |  |
@@ -95,6 +101,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getClsid() {#getClsid}
+```
+public String getClsid()
+```
+
+
+
+
+**Returns:**
+java.lang.String
 ### getEnabled() {#getEnabled}
 ```
 public boolean getEnabled()
@@ -105,6 +121,41 @@ Returns  true  if control is in enabled state.
 
 **Returns:**
 boolean - \{ true  if control is in enabled state.
+### getExtensionForUser(String progId) {#getExtensionForUser-java.lang.String}
+```
+public String getExtensionForUser(String progId)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| progId | java.lang.String |  |
+
+**Returns:**
+java.lang.String
+### getFileNameForUser() {#getFileNameForUser}
+```
+public String getFileNameForUser()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### getId() {#getId}
+```
+public int getId()
+```
+
+
+
+
+**Returns:**
+int
 ### getName() {#getName}
 ```
 public String getName()
@@ -117,7 +168,7 @@ Gets name of the ActiveX control.
 java.lang.String - Name of the ActiveX control.
 ### getType() {#getType}
 ```
-public int getType()
+public abstract int getType()
 ```
 
 
@@ -154,7 +205,7 @@ public boolean isForms2OleControl()
 Returns  true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol).
 
 **Returns:**
-boolean
+boolean - \{ true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol).
 ### notify() {#notify}
 ```
 public final native void notify()
@@ -170,6 +221,32 @@ public final native void notifyAll()
 
 
 
+
+### setId(int value) {#setId-int}
+```
+public void setId(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setName(String value) {#setName-java.lang.String}
+```
+public void setName(String value)
+```
+
+
+Gets name of the ActiveX control.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | Name of the ActiveX control. |
 
 ### toString() {#toString}
 ```

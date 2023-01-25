@@ -3,7 +3,7 @@ title: MarkdownSaveOptions
 second_title: Aspose.Words for Java API Reference
 description: Class to specify additional options when saving a document into the  format.
 type: docs
-weight: 391
+weight: 392
 url: /java/com.aspose.words/markdownsaveoptions/
 ---
 
@@ -45,6 +45,7 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [getImageSavingCallback()](#getImageSavingCallback) | Allows to control how images are saved when a document is saved to [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat\#MARKDOWN) format. |
 | [getImagesFolder()](#getImagesFolder) | Specifies the physical folder where images are saved when exporting a document to the [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat\#MARKDOWN) format. |
 | [getImlRenderingMode()](#getImlRenderingMode) | Gets a value determining how ink (InkML) objects are rendered. |
+| [getListExportMode()](#getListExportMode) | Specifies how list items will be written to the output file. |
 | [getMemoryOptimization()](#getMemoryOptimization) | Gets value determining if memory optimization should be performed before saving the document. |
 | [getParagraphBreak()](#getParagraphBreak) | Specifies the string to use as a paragraph break when exporting in text formats. |
 | [getPrettyFormat()](#getPrettyFormat) | When  true , pretty formats output where applicable. |
@@ -75,6 +76,7 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [setImageSavingCallback(IImageSavingCallback value)](#setImageSavingCallback-com.aspose.words.IImageSavingCallback) | Allows to control how images are saved when a document is saved to [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat\#MARKDOWN) format. |
 | [setImagesFolder(String value)](#setImagesFolder-java.lang.String) | Specifies the physical folder where images are saved when exporting a document to the [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat\#MARKDOWN) format. |
 | [setImlRenderingMode(int value)](#setImlRenderingMode-int) | Sets a value determining how ink (InkML) objects are rendered. |
+| [setListExportMode(int value)](#setListExportMode-int) | Specifies how list items will be written to the output file. |
 | [setMemoryOptimization(boolean value)](#setMemoryOptimization-boolean) | Sets value determining if memory optimization should be performed before saving the document. |
 | [setParagraphBreak(String value)](#setParagraphBreak-java.lang.String) | Specifies the string to use as a paragraph break when exporting in text formats. |
 | [setPrettyFormat(boolean value)](#setPrettyFormat-boolean) | When  true , pretty formats output where applicable. |
@@ -250,7 +252,7 @@ public boolean getExportImagesAsBase64()
 ```
 
 
-Specifies whether images are saved in Base64 format to the output file. Default is  false .
+Specifies whether images are saved in Base64 format to the output file. Default value is  false .
 
 When this property is set to  true  images data are exported directly into the **img** elements and separate files are not created.
 
@@ -310,6 +312,20 @@ This property is used when the document is exported to fixed page formats.
 
 **Returns:**
 int - A value determining how ink (InkML) objects are rendered. The returned value is one of [ImlRenderingMode](../../com.aspose.words/imlrenderingmode) constants.
+### getListExportMode() {#getListExportMode}
+```
+public int getListExportMode()
+```
+
+
+Specifies how list items will be written to the output file. Default value is [MarkdownListExportMode.MARKDOWN\_SYNTAX](../../com.aspose.words/markdownlistexportmode\#MARKDOWN-SYNTAX).
+
+When this property is set to [MarkdownListExportMode.PLAIN\_TEXT](../../com.aspose.words/markdownlistexportmode\#PLAIN-TEXT) all list labels are updated using [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels) and exported with their actual values. Such lists can be non-compatible with Markdown format and will be recognized as plain text upon importing in this case.
+
+When this property is set to [MarkdownListExportMode.MARKDOWN\_SYNTAX](../../com.aspose.words/markdownlistexportmode\#MARKDOWN-SYNTAX), writer tries to export list items in manner that allows to numerate list items in automatic mode by Markdown.
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [MarkdownListExportMode](../../com.aspose.words/markdownlistexportmode) constants.
 ### getMemoryOptimization() {#getMemoryOptimization}
 ```
 public boolean getMemoryOptimization()
@@ -614,7 +630,7 @@ public void setExportImagesAsBase64(boolean value)
 ```
 
 
-Specifies whether images are saved in Base64 format to the output file. Default is  false .
+Specifies whether images are saved in Base64 format to the output file. Default value is  false .
 
 When this property is set to  true  images data are exported directly into the **img** elements and separate files are not created.
 
@@ -688,6 +704,23 @@ This property is used when the document is exported to fixed page formats.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | A value determining how ink (InkML) objects are rendered. The value must be one of [ImlRenderingMode](../../com.aspose.words/imlrenderingmode) constants. |
+
+### setListExportMode(int value) {#setListExportMode-int}
+```
+public void setListExportMode(int value)
+```
+
+
+Specifies how list items will be written to the output file. Default value is [MarkdownListExportMode.MARKDOWN\_SYNTAX](../../com.aspose.words/markdownlistexportmode\#MARKDOWN-SYNTAX).
+
+When this property is set to [MarkdownListExportMode.PLAIN\_TEXT](../../com.aspose.words/markdownlistexportmode\#PLAIN-TEXT) all list labels are updated using [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels) and exported with their actual values. Such lists can be non-compatible with Markdown format and will be recognized as plain text upon importing in this case.
+
+When this property is set to [MarkdownListExportMode.MARKDOWN\_SYNTAX](../../com.aspose.words/markdownlistexportmode\#MARKDOWN-SYNTAX), writer tries to export list items in manner that allows to numerate list items in automatic mode by Markdown.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. The value must be one of [MarkdownListExportMode](../../com.aspose.words/markdownlistexportmode) constants. |
 
 ### setMemoryOptimization(boolean value) {#setMemoryOptimization-boolean}
 ```

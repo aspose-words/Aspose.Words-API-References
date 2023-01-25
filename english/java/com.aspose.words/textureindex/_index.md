@@ -3,7 +3,7 @@ title: TextureIndex
 second_title: Aspose.Words for Java API Reference
 description: Specifies shading texture.
 type: docs
-weight: 575
+weight: 576
 url: /java/com.aspose.words/textureindex/
 ---
 

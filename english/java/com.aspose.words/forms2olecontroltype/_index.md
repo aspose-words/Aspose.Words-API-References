@@ -1,7 +1,7 @@
 ---
 title: Forms2OleControlType
 second_title: Aspose.Words for Java API Reference
-description: 
+description: Enumerates types of Forms 2.0 controls.
 type: docs
 weight: 302
 url: /java/com.aspose.words/forms2olecontroltype/
@@ -12,6 +12,8 @@ java.lang.Object
 ```
 public class Forms2OleControlType
 ```
+
+Enumerates types of Forms 2.0 controls.
 ## Fields
 
 | Field | Description |

@@ -3,7 +3,7 @@ title: Story
 second_title: Aspose.Words for Java API Reference
 description: Base class for elements that contain block-level nodes  and .
 type: docs
-weight: 531
+weight: 532
 url: /java/com.aspose.words/story/
 ---
 

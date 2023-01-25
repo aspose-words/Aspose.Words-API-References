@@ -3,7 +3,7 @@ title: MetafileRenderingOptions
 second_title: Aspose.Words for Java API Reference
 description: Allows to specify additional metafile rendering options.
 type: docs
-weight: 400
+weight: 401
 url: /java/com.aspose.words/metafilerenderingoptions/
 ---
 
@@ -30,6 +30,7 @@ To learn more, visit the [ Handling Windows Metafiles ][Handling Windows Metafil
 | [getRenderingMode()](#getRenderingMode) | Gets a value determining how metafile images should be rendered. |
 | [getScaleWmfFontsToMetafileSize()](#getScaleWmfFontsToMetafileSize) | Gets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
 | [getUseEmfEmbeddedToWmf()](#getUseEmfEmbeddedToWmf) | Gets a value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
+| [getUseGdiRasterOperationsEmulation()](#getUseGdiRasterOperationsEmulation) | Gets a value determining whether or not to use the GDI+ for raster operations emulation. |
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
@@ -38,6 +39,7 @@ To learn more, visit the [ Handling Windows Metafiles ][Handling Windows Metafil
 | [setRenderingMode(int value)](#setRenderingMode-int) | Sets a value determining how metafile images should be rendered. |
 | [setScaleWmfFontsToMetafileSize(boolean value)](#setScaleWmfFontsToMetafileSize-boolean) | Sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
 | [setUseEmfEmbeddedToWmf(boolean value)](#setUseEmfEmbeddedToWmf-boolean) | Sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
+| [setUseGdiRasterOperationsEmulation(boolean value)](#setUseGdiRasterOperationsEmulation-boolean) | Sets a value determining whether or not to use the GDI+ for raster operations emulation. |
 | [toString()](#toString) |  |
 | [wait()](#wait) |  |
 | [wait(long arg0)](#wait-long) |  |
@@ -155,6 +157,26 @@ The default value is  true .
 
 **Returns:**
 boolean - A value determining how WMF metafiles with embedded EMF metafiles should be rendered.
+### getUseGdiRasterOperationsEmulation() {#getUseGdiRasterOperationsEmulation}
+```
+public boolean getUseGdiRasterOperationsEmulation()
+```
+
+
+Gets a value determining whether or not to use the GDI+ for raster operations emulation.
+
+Windows GDI+ library could be used to emulate raster operations. It provides support for all raster operation comparing to Aspose.Words own emulation but performance may be slower in some cases.
+
+When this value is set to  true , Aspose.Words uses GDI+ for raster operations emulation.
+
+When this value is set to  false , Aspose.Words uses its own implementation of raster operations emulation.
+
+This option is used only when metafile is rendered as vector graphics.
+
+The default value is  false .
+
+**Returns:**
+boolean - A value determining whether or not to use the GDI+ for raster operations emulation.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -283,6 +305,29 @@ The default value is  true .
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
+
+### setUseGdiRasterOperationsEmulation(boolean value) {#setUseGdiRasterOperationsEmulation-boolean}
+```
+public void setUseGdiRasterOperationsEmulation(boolean value)
+```
+
+
+Sets a value determining whether or not to use the GDI+ for raster operations emulation.
+
+Windows GDI+ library could be used to emulate raster operations. It provides support for all raster operation comparing to Aspose.Words own emulation but performance may be slower in some cases.
+
+When this value is set to  true , Aspose.Words uses GDI+ for raster operations emulation.
+
+When this value is set to  false , Aspose.Words uses its own implementation of raster operations emulation.
+
+This option is used only when metafile is rendered as vector graphics.
+
+The default value is  false .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | A value determining whether or not to use the GDI+ for raster operations emulation. |
 
 ### toString() {#toString}
 ```

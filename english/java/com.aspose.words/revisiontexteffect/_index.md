@@ -3,7 +3,7 @@ title: RevisionTextEffect
 second_title: Aspose.Words for Java API Reference
 description: Allows to specify decoration effect for revisions of document text.
 type: docs
-weight: 492
+weight: 493
 url: /java/com.aspose.words/revisiontexteffect/
 ---
 
