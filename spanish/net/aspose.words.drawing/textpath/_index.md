@@ -41,7 +41,7 @@ public class TextPath
 
 ### Observaciones
 
-Utilizar el[`TextPath`](../shape/textpath/) propiedad para acceder a las propiedades de WordArt de una forma. No crea instancias de la[`TextPath`](./textpath/) clase directamente.
+Utilizar el[`TextPath`](../shape/textpath/) propiedad para acceder a las propiedades de WordArt de una forma. No crea instancias de la`TextPath` clase directamente.
 
 ### Ejemplos
 

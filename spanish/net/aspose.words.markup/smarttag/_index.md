@@ -18,7 +18,7 @@ public class SmartTag : CompositeNode
 
 | Nombre | Descripción |
 | --- | --- |
-| [SmartTag](smarttag/)(DocumentBase) | Inicializa una nueva instancia del[`SmartTag`](./smarttag/) clase. |
+| [SmartTag](smarttag/)(DocumentBase) | Inicializa una nueva instancia del`SmartTag` clase. |
 
 ## Propiedades
 
@@ -64,7 +64,7 @@ public class SmartTag : CompositeNode
 | [Remove](../../aspose.words/node/remove/)() | Se elimina a sí mismo del padre. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Elimina todos los nodos secundarios del nodo actual. |
 | [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Elimina el nodo secundario especificado. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Elimina todo[`SmartTag`](./smarttag/) nodos descendientes del nodo actual. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Elimina todo`SmartTag` nodos descendientes del nodo actual. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Selecciona una lista de nodos que coinciden con la expresión XPath. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selecciona el primer nodo que coincide con la expresión XPath. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporta el contenido del nodo a una cadena en el formato especificado. |
@@ -74,9 +74,9 @@ public class SmartTag : CompositeNode
 
 Las etiquetas inteligentes son un tipo de marcado XML personalizado. Las etiquetas inteligentes proporcionan una función para incrustar semántica definida por el cliente en el documento a través de la capacidad de proporcionar un espacio de nombres/nombre básico para una ejecución o un conjunto de ejecuciones dentro de un documento.
 
-[`SmartTag`](./smarttag/) puede ser un hijo de un[`Paragraph`](../../aspose.words/paragraph/) o otro[`SmartTag`](./smarttag/) nodo.
+`SmartTag` puede ser un hijo de un[`Paragraph`](../../aspose.words/paragraph/) o otro`SmartTag` nodo.
 
-La lista completa de nodos secundarios que pueden ocurrir dentro de una etiqueta inteligente consta de [`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , [`SmartTag`](./smarttag/).
+La lista completa de nodos secundarios que pueden ocurrir dentro de una etiqueta inteligente consta de [`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , `SmartTag`.
 
 ### Ejemplos
 

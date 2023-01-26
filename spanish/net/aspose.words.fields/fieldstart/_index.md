@@ -56,9 +56,9 @@ public class FieldStart : FieldChar
 
 ### Observaciones
 
-[`FieldStart`](./fieldstart/) es un nodo de nivel en línea y está representado por the [`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) carácter de control en el documento.
+`FieldStart` es un nodo de nivel en línea y está representado por the [`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) carácter de control en el documento.
 
-[`FieldStart`](./fieldstart/) solo puede ser hijo de[`Paragraph`](../../aspose.words/paragraph/).
+`FieldStart` solo puede ser hijo de[`Paragraph`](../../aspose.words/paragraph/).
 
 Un campo completo en un documento de Microsoft Word es una estructura compleja que consta de un carácter de inicio de campo, un código de campo, un carácter separador de campo, un resultado de campo y un carácter de fin de campo. Algunos campos solo tienen inicio de campo, código de campo y fin de campo.
 

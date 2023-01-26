@@ -43,7 +43,7 @@ public class OleFormat
 
 ### Observaciones
 
-Utilizar el[`OleFormat`](../shape/oleformat/) propiedad para acceder a los datos de un objeto OLE. No crea instancias de la[`OleFormat`](./oleformat/) clase directamente.
+Utilizar el[`OleFormat`](../shape/oleformat/) propiedad para acceder a los datos de un objeto OLE. No crea instancias de la`OleFormat` clase directamente.
 
 ### Ejemplos
 

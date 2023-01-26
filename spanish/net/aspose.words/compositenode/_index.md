@@ -67,7 +67,7 @@ Un documento se representa como un árbol de nodos, similar a DOM o XmlDocument.
 
 Para obtener más información, consulte el patrón de diseño compuesto.
 
-los[`CompositeNode`](./compositenode/)clase:
+los`CompositeNode`clase:
 
 * Proporciona acceso a los nodos secundarios.
 * Implementa operaciones compuestas como insertar y eliminar elementos secundarios.

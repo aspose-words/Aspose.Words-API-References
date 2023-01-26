@@ -53,7 +53,7 @@ public class Fill
 
 ### Observaciones
 
-Utilizar el[`Fill`](../shapebase/fill/) o[`Fill`](../../aspose.words/font/fill/) propiedad para acceder a las propiedades de relleno de un objeto. No crea instancias de la[`Fill`](./fill/) clase directamente.
+Utilizar el[`Fill`](../shapebase/fill/) o[`Fill`](../../aspose.words/font/fill/) propiedad para acceder a las propiedades de relleno de un objeto. No crea instancias de la`Fill` clase directamente.
 
 ### Ejemplos
 

@@ -32,7 +32,7 @@ public class EditableRange
 
 ### Observaciones
 
-[`EditableRange`](./editablerange/) es un objeto de "fachada" que encapsula dos nodos[`EditableRangeStart`](./editablerangestart/) y[`EditableRangeEnd`](./editablerangeend/) en un árbol de documentos y permite trabajar con un rango editable como un solo objeto.
+`EditableRange` es un objeto de "fachada" que encapsula dos nodos[`EditableRangeStart`](./editablerangestart/) y[`EditableRangeEnd`](./editablerangeend/) en un árbol de documentos y permite trabajar con un rango editable como un solo objeto.
 
 ### Ejemplos
 

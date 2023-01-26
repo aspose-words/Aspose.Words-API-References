@@ -25,7 +25,7 @@ Un indicador que indica si el análisis del documento de plantilla fue exitoso. 
 
 ### Observaciones
 
-Con esta sobrecarga, puede hacer referencia a los miembros del origen de datos en el documento de plantilla, pero no puede hacer referencia al objeto de origen de datos en sí. Deberías usar el[`BuildReport`](./buildreport/) sobrecarga para lograr esto.
+Con esta sobrecarga, puede hacer referencia a los miembros del origen de datos en el documento de plantilla, pero no puede hacer referencia al objeto de origen de datos en sí. Deberías usar el`BuildReport` sobrecarga para lograr esto.
 
 Un objeto de fuente de datos puede ser de uno de los siguientes tipos:
 
@@ -72,7 +72,7 @@ Un indicador que indica si el análisis del documento de plantilla fue exitoso. 
 
 ### Observaciones
 
-Con esta sobrecarga, puede hacer referencia a los miembros de la fuente de datos y al propio objeto de la fuente de datos en la plantilla. Si no va a hacer referencia al objeto de fuente de datos en sí, puede omitir*dataSourceName* pasando nulo o usa el[`BuildReport`](./buildreport/) sobrecarga.
+Con esta sobrecarga, puede hacer referencia a los miembros de la fuente de datos y al propio objeto de la fuente de datos en la plantilla. Si no va a hacer referencia al objeto de fuente de datos en sí, puede omitir*dataSourceName* pasando nulo o usa el`BuildReport` sobrecarga.
 
 Un objeto de fuente de datos puede ser de uno de los siguientes tipos:
 
@@ -121,7 +121,7 @@ Un indicador que indica si el análisis del documento de plantilla fue exitoso. 
 
 Con esta sobrecarga, puede hacer referencia a varios objetos de origen de datos y sus miembros en la plantilla. El nombre de la primera fuente de datos se puede omitir (es decir, puede ser una cadena vacía o nula) si va a hacer referencia a los miembros de la fuente de datos pero no al objeto de la fuente de datos en sí. Los nombres de las otras fuentes de datos deben especificarse y ser únicos.
 
-Si va a usar una sola fuente de datos, considere usar de[`BuildReport`](./buildreport/) y[`BuildReport`](./buildreport/) sobrecarga en su lugar.
+Si va a usar una sola fuente de datos, considere usar de`BuildReport` y`BuildReport` sobrecarga en su lugar.
 
 Un objeto de fuente de datos puede ser de uno de los siguientes tipos:
 

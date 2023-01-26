@@ -37,7 +37,7 @@ public class OdsoFieldMapData
 
 ### Observaciones
 
-Microsoft Word proporciona algunos nombres de campos de combinación predefinidos que permite insertar en un documento como MERGEFIELD o en los campos ADRESSBLOCK o GREETINGLINE. La información especificada en[`OdsoFieldMapData`](./odsofieldmapdata/) permite asignar una columna en la fuente de datos externa a un solo campo de combinación predefinido.
+Microsoft Word proporciona algunos nombres de campos de combinación predefinidos que permite insertar en un documento como MERGEFIELD o en los campos ADRESSBLOCK o GREETINGLINE. La información especificada en`OdsoFieldMapData` permite asignar una columna en la fuente de datos externa a un solo campo de combinación predefinido.
 
 ### Ejemplos
 

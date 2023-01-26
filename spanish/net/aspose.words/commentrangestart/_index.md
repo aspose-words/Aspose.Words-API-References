@@ -51,9 +51,9 @@ public sealed class CommentRangeStart : Node
 
 ### Observaciones
 
-Para crear un comentario anclado a una región de texto, debe crear un[`Comment`](../comment/) and luego crea[`CommentRangeStart`](./commentrangestart/) y[`CommentRangeEnd`](../commentrangeend/) establecer sus identificadores al mismo[`Id`](../comment/id/) valor.
+Para crear un comentario anclado a una región de texto, debe crear un[`Comment`](../comment/) and luego crea`CommentRangeStart` y[`CommentRangeEnd`](../commentrangeend/) establecer sus identificadores al mismo[`Id`](../comment/id/) valor.
 
-[`CommentRangeStart`](./commentrangestart/) es un nodo de nivel en línea y solo puede ser un elemento secundario de[`Paragraph`](../paragraph/).
+`CommentRangeStart` es un nodo de nivel en línea y solo puede ser un elemento secundario de[`Paragraph`](../paragraph/).
 
 ### Ejemplos
 

@@ -34,9 +34,9 @@ public class FieldCollection : IEnumerable<Field>
 
 Una instancia de esta colección itera los campos que comienzan dentro del rango especificado.
 
-los[`FieldCollection`](./fieldcollection/) La colección no es propietaria de los campos que contiene, sino que es solo una selección de campos.
+los`FieldCollection` La colección no es propietaria de los campos que contiene, sino que es solo una selección de campos.
 
-los[`FieldCollection`](./fieldcollection/) la colección está "viva", es decir, los cambios en los elementos secundarios del nodo object a partir del cual se creó se reflejan inmediatamente en los campos devueltos por el[`FieldCollection`](./fieldcollection/) propiedades y métodos.
+los`FieldCollection` la colección está "viva", es decir, los cambios en los elementos secundarios del nodo object a partir del cual se creó se reflejan inmediatamente en los campos devueltos por el`FieldCollection` propiedades y métodos.
 
 ### Ejemplos
 

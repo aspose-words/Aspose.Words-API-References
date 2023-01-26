@@ -46,9 +46,9 @@ public sealed class EditableRangeStart : Node
 
 ### Observaciones
 
-Un rango editable completo en un documento de Word consta de un[`EditableRangeStart`](./editablerangestart/) y una coincidencia[`EditableRangeEnd`](../editablerangeend/) con el mismo DNI.
+Un rango editable completo en un documento de Word consta de un`EditableRangeStart` y una coincidencia[`EditableRangeEnd`](../editablerangeend/) con el mismo DNI.
 
-[`EditableRangeStart`](./editablerangestart/) y[`EditableRangeEnd`](../editablerangeend/) son solo marcadores dentro de un documento que especifican dónde comienza y termina el rango editable.
+`EditableRangeStart` y[`EditableRangeEnd`](../editablerangeend/) son solo marcadores dentro de un documento que especifican dónde comienza y termina el rango editable.
 
 Utilizar el[`EditableRange`](./editablerange/)class como una "fachada" para trabajar con un range editable como un solo objeto.
 
