@@ -25,7 +25,7 @@ Die Anzahl der vorgenommenen Ersetzungen.
 
 ### Bemerkungen
 
-Das Muster wird nicht als regulärer Ausdruck verwendet. Bitte verwenden[`Replace`](./replace/) wenn Sie reguläre Ausdrücke benötigen.
+Das Muster wird nicht als regulärer Ausdruck verwendet. Bitte verwenden`Replace` wenn Sie reguläre Ausdrücke benötigen.
 
 Verwendeter Vergleich ohne Berücksichtigung der Groß-/Kleinschreibung.
 
@@ -38,7 +38,7 @@ Sie sollten spezielle Metazeichen verwenden, wenn Sie mit Umbrüchen arbeiten m�
 * **&amp;m** - Seitenumbruch
 * **&amp;l** - manueller Zeilenumbruch
 
-Methode verwenden[`Replace`](./replace/) um eine flexiblere Anpassung zu haben.
+Methode verwenden`Replace` um eine flexiblere Anpassung zu haben.
 
 ### Beispiele
 
@@ -139,7 +139,7 @@ Sie sollten spezielle Metazeichen verwenden, wenn Sie mit Umbrüchen arbeiten m�
 * **&amp;m** - Seitenumbruch
 * **&amp;l** - manueller Zeilenumbruch
 
-Methode verwenden[`Replace`](./replace/) um eine flexiblere Anpassung zu haben.
+Methode verwenden`Replace` um eine flexiblere Anpassung zu haben.
 
 ### Beispiele
 
@@ -193,7 +193,7 @@ Die Anzahl der vorgenommenen Ersetzungen.
 
 ### Bemerkungen
 
-Das Muster wird nicht als regulärer Ausdruck verwendet. Bitte verwenden[`Replace`](./replace/) wenn Sie reguläre Ausdrücke benötigen.
+Das Muster wird nicht als regulärer Ausdruck verwendet. Bitte verwenden`Replace` wenn Sie reguläre Ausdrücke benötigen.
 
 Die Methode kann Unterbrechungen sowohl in Muster- als auch in Ersatzzeichenfolgen verarbeiten.
 

@@ -27,7 +27,7 @@ public class CssSavingArgs
 
 Wenn Aspose.Words ein Dokument im HTML-Format speichert, speichert es standardmäßig CSS-Informationen inline (als Wert der **Stil** Attribut auf jedem Element).
 
-[`CssSavingArgs`](./csssavingargs/) ermöglicht das Speichern von CSS-Informationen in einer Datei, indem Sie Ihr eigenes Stream-Objekt bereitstellen.
+`CssSavingArgs` ermöglicht das Speichern von CSS-Informationen in einer Datei, indem Sie Ihr eigenes Stream-Objekt bereitstellen.
 
 Verwenden Sie zum Speichern von CSS im Stream die[`CssStream`](./cssstream/) Eigentum.
 

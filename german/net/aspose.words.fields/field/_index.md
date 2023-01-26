@@ -42,7 +42,7 @@ public class Field
 
 ### Bemerkungen
 
-Ein Feld in einem Word-Dokument ist eine komplexe Struktur, die aus mehreren Knoten besteht, die Feldanfang, Feldcode, Feldtrenner, Feldergebnis und Feldende enthalten. Felder können verschachtelt sein, umfangreiche Inhalte enthalten und mehrere Absätze oder Abschnitte in einem Dokument überspannen . Das[`Field`](./field/)Klasse ist ein "Fassaden"-Objekt, das Eigenschaften und Methoden bereitstellt, die es ermöglichen, mit einem Feld als einzelnes Objekt zu arbeiten.
+Ein Feld in einem Word-Dokument ist eine komplexe Struktur, die aus mehreren Knoten besteht, die Feldanfang, Feldcode, Feldtrenner, Feldergebnis und Feldende enthalten. Felder können verschachtelt sein, umfangreiche Inhalte enthalten und mehrere Absätze oder Abschnitte in einem Dokument überspannen . Das`Field`Klasse ist ein "Fassaden"-Objekt, das Eigenschaften und Methoden bereitstellt, die es ermöglichen, mit einem Feld als einzelnes Objekt zu arbeiten.
 
 Das[`Start`](./start/) ,[`Separator`](./separator/) und[`End`](./end/) -Eigenschaften zeigen jeweils auf den -Feldstart-, -separator- und -endknoten des Felds.
 
@@ -52,7 +52,7 @@ Der Prozess der Berechnung von Feldergebnissen wird als Feldaktualisierung bezei
 
 Sie können die Klartextversion des Feldcodes mit der abrufen[`GetFieldCode`](./getfieldcode/) method. Sie können die Nur-Text-Version des Feldergebnisses abrufen und festlegen, indem Sie die verwenden[`Result`](./result/) property. Sowohl der Feldcode als auch das Feldergebnis können komplexe Inhalte enthalten, wie z. B. verschachtelte Felder, Absätze, Formen, Tabellen, und in diesem Fall möchten Sie möglicherweise direkt mit den Feldknoten arbeiten, wenn Sie mehr Kontrolle benötigen.
 
-Sie erstellen keine Instanzen von[`Field`](./field/) Klasse direkt. Um ein neues Feld zu erstellen, verwenden Sie die[`InsertField`](../../aspose.words/documentbuilder/insertfield/) Methode.
+Sie erstellen keine Instanzen von`Field` Klasse direkt. Um ein neues Feld zu erstellen, verwenden Sie die[`InsertField`](../../aspose.words/documentbuilder/insertfield/) Methode.
 
 ### Beispiele
 

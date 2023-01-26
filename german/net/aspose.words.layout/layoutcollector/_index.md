@@ -38,7 +38,7 @@ public class LayoutCollector
 
 ### Bemerkungen
 
-Beim Erstellen eines[`LayoutCollector`](./layoutcollector/) und spezifizieren a[`Document`](../../aspose.words/document/)Dokumentobjekt, an das angehängt werden soll, der Kollektor zeichnet die Zuordnung von Dokumentknoten zu Layoutobjekten auf, wenn das Dokument in Seiten formatiert wird.
+Beim Erstellen eines`LayoutCollector` und spezifizieren a[`Document`](../../aspose.words/document/)Dokumentobjekt, an das angehängt werden soll, der Kollektor zeichnet die Zuordnung von Dokumentknoten zu Layoutobjekten auf, wenn das Dokument in Seiten formatiert wird.
 
 Auf welcher Seite sich ein bestimmter Dokumentknoten (z. B. Lauf, Absatz oder Tabellenzelle) befindet können Sie mit dem ermitteln[`GetStartPageIndex`](./getstartpageindex/) ,[`GetEndPageIndex`](./getendpageindex/) und[`GetNumPagesSpanned`](./getnumpagesspanned/) Methoden. Diese Methoden erstellen automatisch ein Seitenlayoutmodell des Dokuments und aktualisieren Felder, falls erforderlich.
 

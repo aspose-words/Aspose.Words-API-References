@@ -41,13 +41,13 @@ public class ListLevel
 | [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | Löscht Bildaufzählungszeichen für die aktuelle Listenebene. |
 | [Equals](../../aspose.words.lists/listlevel/equals/#equals)(ListLevel) | Vergleicht mit dem angegebenen ListLevel. |
 | override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | Berechnet Hashcode für dieses Objekt. |
-| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | Meldet die Zeichenfolgendarstellung der[`ListLevel`](./listlevel/) Objekt für den angegebenen Index des Listenelements. Parameter geben die an[`NumberStyle`](../../aspose.words/numberstyle/) und ein optionales Format string , das verwendet wird, wennCustom angegeben ist. |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | Meldet die Zeichenfolgendarstellung der`ListLevel` Objekt für den angegebenen Index des Listenelements. Parameter geben die an[`NumberStyle`](../../aspose.words/numberstyle/) und ein optionales Format string , das verwendet wird, wennCustom angegeben ist. |
 
 ### Bemerkungen
 
-Sie erstellen keine Objekte dieser Klasse. Objekte auf Listenebene werden automatisch erstellt, wenn eine Liste erstellt wird. Sie greifen zu[`ListLevel`](./listlevel/) Objekte über the [`ListLevelCollection`](../listlevelcollection/) Sammlung.
+Sie erstellen keine Objekte dieser Klasse. Objekte auf Listenebene werden automatisch erstellt, wenn eine Liste erstellt wird. Sie greifen zu`ListLevel` Objekte über the [`ListLevelCollection`](../listlevelcollection/) Sammlung.
 
-Verwenden Sie die Eigenschaften von[`ListLevel`](./listlevel/) Listenformatierung für einzelne Listenebenen festzulegen.
+Verwenden Sie die Eigenschaften von`ListLevel` Listenformatierung für einzelne Listenebenen festzulegen.
 
 ### Beispiele
 

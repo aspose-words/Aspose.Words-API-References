@@ -20,7 +20,7 @@ Der soeben erstellte bearbeitbare Bereichsendknoten.
 
 ### Bemerkungen
 
-Der bearbeitbare Bereich in einem Dokument kann jeden Bereich überlappen und überspannen. Um einen gültigen bearbeitbaren Bereich zu erstellen, müssen Sie beide aufrufen[`StartEditableRange`](../starteditablerange/) und`EndEditableRange` oder[`EndEditableRange`](./endeditablerange/)Methoden.
+Der bearbeitbare Bereich in einem Dokument kann jeden Bereich überlappen und überspannen. Um einen gültigen bearbeitbaren Bereich zu erstellen, müssen Sie beide aufrufen[`StartEditableRange`](../starteditablerange/) und`EndEditableRange` oder`EndEditableRange`Methoden.
 
 Ein schlecht formatierter bearbeitbarer Bereich wird beim Speichern des Dokuments ignoriert.
 
@@ -96,7 +96,7 @@ Der soeben erstellte bearbeitbare Bereichsendknoten.
 
 Verwenden Sie diese Überladung beim Erstellen verschachtelter bearbeitbarer Bereiche.
 
-Der bearbeitbare Bereich in einem Dokument kann jeden Bereich überlappen und überspannen. Um einen gültigen bearbeitbaren Bereich zu erstellen, müssen Sie beide aufrufen[`StartEditableRange`](../starteditablerange/) und[`EndEditableRange`](./endeditablerange/) oder`EndEditableRange`Methoden.
+Der bearbeitbare Bereich in einem Dokument kann jeden Bereich überlappen und überspannen. Um einen gültigen bearbeitbaren Bereich zu erstellen, müssen Sie beide aufrufen[`StartEditableRange`](../starteditablerange/) und`EndEditableRange` oder`EndEditableRange`Methoden.
 
 Ein schlecht formatierter bearbeitbarer Bereich wird beim Speichern des Dokuments ignoriert.
 

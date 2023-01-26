@@ -44,9 +44,9 @@ public class SubDocument : Node
 
 ### Bemerkungen
 
-In dieser Version von Aspose.Words,[`SubDocument`](./subdocument/) Knoten stellen keine öffentlichen Methoden und Eigenschaften zum Erstellen oder Ändern eines Filialdokuments bereit. In dieser Version können Sie SubDocument-Knoten nicht instanziieren oder vorhandene ändern, außer sie zu löschen.
+In dieser Version von Aspose.Words,`SubDocument` Knoten stellen keine öffentlichen Methoden und Eigenschaften zum Erstellen oder Ändern eines Filialdokuments bereit. In dieser Version können Sie SubDocument-Knoten nicht instanziieren oder vorhandene ändern, außer sie zu löschen.
 
-[`SubDocument`](./subdocument/) kann nur ein Kind von sein[`Paragraph`](../paragraph/).
+`SubDocument` kann nur ein Kind von sein[`Paragraph`](../paragraph/).
 
 ### Beispiele
 

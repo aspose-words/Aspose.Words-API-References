@@ -39,7 +39,7 @@ public class TextBox
 
 ### Bemerkungen
 
-Verwenden Sie die[`TextBox`](../shape/textbox/) -Eigenschaft, um auf die Texteigenschaften einer Form zuzugreifen. Sie erstellen keine Instanzen der[`TextBox`](./textbox/) Klasse direkt.
+Verwenden Sie die[`TextBox`](../shape/textbox/) -Eigenschaft, um auf die Texteigenschaften einer Form zuzugreifen. Sie erstellen keine Instanzen der`TextBox` Klasse direkt.
 
 ### Beispiele
 

@@ -28,9 +28,9 @@ public class AsposeWordsPrintDocument : PrintDocument
 
 ### Bemerkungen
 
-[`AsposeWordsPrintDocument`](./asposewordsprintdocument/) überschreibtPrintEventArgs) , um den Seitenbereich zu drucken, der in angegeben istPrinterSettings.
+`AsposeWordsPrintDocument` überschreibtPrintEventArgs) , um den Seitenbereich zu drucken, der in angegeben istPrinterSettings.
 
-Ein einzelnes Word-Dokument kann aus mehreren Abschnitten bestehen, die Seiten mit unterschiedlichen Größen, Ausrichtung und Papierfächern angeben.[`AsposeWordsPrintDocument`](./asposewordsprintdocument/) überschreibt QueryPageSettingsEventArgs) um Papiergröße, Ausrichtung und Papierquelle beim Drucken eines Word-Dokuments richtig auszuwählen.
+Ein einzelnes Word-Dokument kann aus mehreren Abschnitten bestehen, die Seiten mit unterschiedlichen Größen, Ausrichtung und Papierfächern angeben.`AsposeWordsPrintDocument` überschreibt QueryPageSettingsEventArgs) um Papiergröße, Ausrichtung und Papierquelle beim Drucken eines Word-Dokuments richtig auszuwählen.
 
 Microsoft Word speichert druckerspezifische Werte für Papierfächer in einem Word-Dokument und daher wird nur auf demselben Druckermodell gedruckt, das ausgewählt wurde, als der Benutzer die Papierfächer angab, zum Drucken aus den richtigen Fächern führen. Wenn Sie ein Dokument auf einem anderen Drucker drucken, wird höchstwahrscheinlich das Standardpapierfach verwendet, nicht die im Dokument angegebenen Fächer.
 

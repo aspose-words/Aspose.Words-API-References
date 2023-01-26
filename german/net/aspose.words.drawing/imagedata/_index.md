@@ -52,7 +52,7 @@ public class ImageData
 
 ### Bemerkungen
 
-Verwenden Sie die[`ImageData`](../shape/imagedata/) -Eigenschaft, um auf das Bild in einer Form zuzugreifen und es zu ändern. Sie erstellen keine Instanzen der[`ImageData`](./imagedata/) Klasse direkt.
+Verwenden Sie die[`ImageData`](../shape/imagedata/) -Eigenschaft, um auf das Bild in einer Form zuzugreifen und es zu ändern. Sie erstellen keine Instanzen der`ImageData` Klasse direkt.
 
 Ein Bild kann in einer Form gespeichert, mit einer externen Datei verknüpft oder beides (verknüpft und im Dokument gespeichert) werden.
 

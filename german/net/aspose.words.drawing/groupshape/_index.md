@@ -132,9 +132,9 @@ public class GroupShape : ShapeBase
 
 ### Bemerkungen
 
-EIN[`GroupShape`](./groupshape/) ist ein zusammengesetzter Knoten und kann haben[`Shape`](../shape/) and [`GroupShape`](./groupshape/) Knoten als Kinder.
+EIN`GroupShape` ist ein zusammengesetzter Knoten und kann haben[`Shape`](../shape/) and `GroupShape` Knoten als Kinder.
 
-Jeder[`GroupShape`](./groupshape/) definiert ein neues Koordinatensystem für seine untergeordneten Shapes. Das Koordinatensystem wird mithilfe von definiert[`CoordSize`](../shapebase/coordsize/) und [`CoordOrigin`](../shapebase/coordorigin/) Eigenschaften.
+Jeder`GroupShape` definiert ein neues Koordinatensystem für seine untergeordneten Shapes. Das Koordinatensystem wird mithilfe von definiert[`CoordSize`](../shapebase/coordsize/) und [`CoordOrigin`](../shapebase/coordorigin/) Eigenschaften.
 
 ### Beispiele
 

@@ -104,15 +104,15 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 
 Strukturierte Dokument-Tags (SDTs) ermöglichen es, kundendefinierte Semantik sowie deren -Verhalten und -Erscheinungsbild in ein Dokument einzubetten.
 
-In dieser Version bietet Aspose.Words eine Reihe von öffentlichen Methoden und Eigenschaften, um das Verhalten und den Inhalt von zu manipulieren[`StructuredDocumentTag`](./structureddocumenttag/) . Die Zuordnung von SDT-Knoten zu benutzerdefinierten XML-Paketen innerhalb eines Dokuments kann mit durchgeführt werden[`XmlMapping`](./xmlmapping/) Eigentum.
+In dieser Version bietet Aspose.Words eine Reihe von öffentlichen Methoden und Eigenschaften, um das Verhalten und den Inhalt von zu manipulieren`StructuredDocumentTag` . Die Zuordnung von SDT-Knoten zu benutzerdefinierten XML-Paketen innerhalb eines Dokuments kann mit durchgeführt werden[`XmlMapping`](./xmlmapping/) Eigentum.
 
-[`StructuredDocumentTag`](./structureddocumenttag/) kann in einem Dokument an folgenden Stellen vorkommen:
+`StructuredDocumentTag` kann in einem Dokument an folgenden Stellen vorkommen:
 
 * Blockebene - Zwischen Absätzen und Tabellen, als untergeordnetes Element von a[`Body`](../../aspose.words/body/) ,[`HeaderFooter`](../../aspose.words/headerfooter/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) oder ein[`Shape`](../../aspose.words.drawing/shape/) Knoten.
 * Zeilenebene - Zwischen Zeilen in einer Tabelle, als untergeordnetes Element von a[`Table`](../../aspose.words.tables/table/) Knoten.
 * Zellenebene - Zwischen Zellen in einer Tabellenzeile, als untergeordnetes Element von a[`Row`](../../aspose.words.tables/row/) Knoten.
 * Inline-Ebene - Unter Inline-Inhalten als untergeordnetes Element von a[`Paragraph`](../../aspose.words/paragraph/).
-* Verschachtelt in einem anderen[`StructuredDocumentTag`](./structureddocumenttag/).
+* Verschachtelt in einem anderen`StructuredDocumentTag`.
 
 ### Beispiele
 

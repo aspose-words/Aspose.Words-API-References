@@ -41,7 +41,7 @@ public class List : IComparable<List>
 
 Eine Liste in einem Microsoft Word-Dokument ist ein Satz von Listenformatierungseigenschaften. Jede Liste kann bis zu 9 Ebenen haben und Formatierungseigenschaften wie Zahlenstil, Startwert, Einzug, Tabulatorposition usw. werden für jede Ebene separat definiert.
 
-EIN[`List`](./list/) Objekt gehört immer zum[`ListCollection`](../listcollection/) Sammlung.
+EIN`List` Objekt gehört immer zum[`ListCollection`](../listcollection/) Sammlung.
 
 Um eine neue Liste zu erstellen, verwenden Sie die Add-Methoden der[`ListCollection`](../listcollection/) Sammlung.
 

@@ -25,7 +25,7 @@ EIN[`Field`](../../../aspose.words.fields/field/) Objekt, das das eingefügte Fe
 
 ### Bemerkungen
 
-Diese Methode fügt ein Feld in ein Dokument ein. Aspose.Words kann Felder der meisten Typen aktualisieren, aber nicht alle. Weitere Einzelheiten finden Sie unter the [`InsertField`](./insertfield/) Überlast.
+Diese Methode fügt ein Feld in ein Dokument ein. Aspose.Words kann Felder der meisten Typen aktualisieren, aber nicht alle. Weitere Einzelheiten finden Sie unter the `InsertField` Überlast.
 
 ### Beispiele
 
@@ -97,7 +97,7 @@ EIN[`Field`](../../../aspose.words.fields/field/) Objekt, das das eingefügte Fe
 
 ### Bemerkungen
 
-Diese Methode fügt ein Feld in ein Dokument ein und aktualisiert das Feldergebnis sofort. Aspose.Words kann Felder der meisten Typen aktualisieren, aber nicht alle. Weitere Einzelheiten finden Sie unter the [`InsertField`](./insertfield/) Überlast.
+Diese Methode fügt ein Feld in ein Dokument ein und aktualisiert das Feldergebnis sofort. Aspose.Words kann Felder der meisten Typen aktualisieren, aber nicht alle. Weitere Einzelheiten finden Sie unter the `InsertField` Überlast.
 
 ### Beispiele
 

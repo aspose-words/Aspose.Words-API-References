@@ -33,7 +33,7 @@ Das Einfügen von Onlinevideos aus den folgenden Ressourcen wird unterstützt:
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Wenn Ihr Online-Video nicht richtig angezeigt wird, verwenden Sie[`InsertOnlineVideo`](./insertonlinevideo/), die benutzerdefinierten eingebetteten HTML-Code akzeptiert.
+Wenn Ihr Online-Video nicht richtig angezeigt wird, verwenden Sie`InsertOnlineVideo`, die benutzerdefinierten eingebetteten HTML-Code akzeptiert.
 
 Der Code zum Einbetten von Videos kann je nach Anbieter variieren, wenden Sie sich für Einzelheiten an Ihren entsprechenden Anbieter Ihrer Wahl.
 
@@ -93,7 +93,7 @@ Das Einfügen von Onlinevideos aus den folgenden Ressourcen wird unterstützt:
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Wenn Ihr Online-Video nicht richtig angezeigt wird, verwenden Sie[`InsertOnlineVideo`](./insertonlinevideo/), die benutzerdefinierten eingebetteten HTML-Code akzeptiert.
+Wenn Ihr Online-Video nicht richtig angezeigt wird, verwenden Sie`InsertOnlineVideo`, die benutzerdefinierten eingebetteten HTML-Code akzeptiert.
 
 Der Code zum Einbetten von Videos kann je nach Anbieter variieren, wenden Sie sich für Einzelheiten an Ihren entsprechenden Anbieter Ihrer Wahl.
 

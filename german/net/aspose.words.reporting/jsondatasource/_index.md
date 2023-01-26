@@ -27,7 +27,7 @@ public class JsonDataSource
 
 Um beim Generieren eines Berichts auf Daten der entsprechenden Datei oder des Streams zuzugreifen, übergeben Sie eine Instanz dieser Klasse als an eine der Datenquellen[`ReportingEngine`](../reportingengine/) .BuildReport-Überladungen.
 
-Wenn in Vorlagendokumenten ein JSON-Element der obersten Ebene ein Array ist, a[`JsonDataSource`](./jsondatasource/) -Instanz sollte be genauso behandelt werden, als wäre sie eineDataTable Instanz. Wenn ein JSON-Element der obersten Ebene ein Objekt ist, a[`JsonDataSource`](./jsondatasource/) Beispiel sollte genauso behandelt werden, als wäre es aDataRow Instanz. Weitere Informationen finden Sie in der Referenz zur Vorlagensyntax (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+Wenn in Vorlagendokumenten ein JSON-Element der obersten Ebene ein Array ist, a`JsonDataSource` -Instanz sollte be genauso behandelt werden, als wäre sie eineDataTable Instanz. Wenn ein JSON-Element der obersten Ebene ein Objekt ist, a`JsonDataSource` Beispiel sollte genauso behandelt werden, als wäre es aDataRow Instanz. Weitere Informationen finden Sie in der Referenz zur Vorlagensyntax (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 In Vorlagendokumenten können Sie mit typisierten Werten von JSON-Elementen arbeiten. Der Einfachheit halber ersetzt die Engine den Satz der einfachen JSON-Typen durch den folgenden:
 

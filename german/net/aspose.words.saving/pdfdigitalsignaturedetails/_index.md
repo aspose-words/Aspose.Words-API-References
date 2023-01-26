@@ -36,7 +36,7 @@ public class PdfDigitalSignatureDetails
 
 Momentan ist das digitale Signieren von PDF-Dokumenten nur auf .NET 2.0 oder höher verfügbar.
 
-Um ein PDF-Dokument digital zu signieren, wenn es von Aspose.Words erstellt wird, legen Sie die[`DigitalSignatureDetails`](../pdfsaveoptions/digitalsignaturedetails/) -Eigenschaft in eine gültige[`PdfDigitalSignatureDetails`](./pdfdigitalsignaturedetails/) Objekt und speichern Sie dann das Dokument im PDF-Format, indem Sie übergeben[`PdfSaveOptions`](../pdfsaveoptions/)als Parameter in die[`Save`](../../aspose.words/document/save/) Methode.
+Um ein PDF-Dokument digital zu signieren, wenn es von Aspose.Words erstellt wird, legen Sie die[`DigitalSignatureDetails`](../pdfsaveoptions/digitalsignaturedetails/) -Eigenschaft in eine gültige`PdfDigitalSignatureDetails` Objekt und speichern Sie dann das Dokument im PDF-Format, indem Sie übergeben[`PdfSaveOptions`](../pdfsaveoptions/)als Parameter in die[`Save`](../../aspose.words/document/save/) Methode.
 
 Aspose.Words erstellt eine PKCS#7-Signatur über das gesamte PDF-Dokument und verwendet beim Erstellen einer digitalen Signatur den „Adobe.PPKMS“-Filter und den „adbe.pkcs7.sha1“-Subfilter.
 

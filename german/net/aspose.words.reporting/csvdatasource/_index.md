@@ -27,7 +27,7 @@ public class CsvDataSource
 
 Um beim Generieren eines Berichts auf Daten der entsprechenden Datei oder des Streams zuzugreifen, übergeben Sie eine Instanz dieser Klasse als an eine der Datenquellen[`ReportingEngine`](../reportingengine/) .BuildReport-Überladungen.
 
-In Vorlagendokumenten a[`CsvDataSource`](./csvdatasource/) Instanz sollte genauso behandelt werden, als wäre es aDataTable Instanz. Weitere Informationen finden Sie in der Referenz zur Vorlagensyntax (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+In Vorlagendokumenten a`CsvDataSource` Instanz sollte genauso behandelt werden, als wäre es aDataTable Instanz. Weitere Informationen finden Sie in der Referenz zur Vorlagensyntax (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 Datentypen von kommagetrennten Werten werden automatisch anhand ihrer Zeichenfolgendarstellung bestimmt. In template -Dokumenten können Sie also mit eingegebenen Werten statt nur mit Zeichenfolgen arbeiten. Die Engine kann automatisch -Werte der folgenden Typen erkennen:
 

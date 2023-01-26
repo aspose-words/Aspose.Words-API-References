@@ -67,7 +67,7 @@ Ein Dokument wird ähnlich wie DOM oder XmlDocument als Baum aus Knoten dargeste
 
 Weitere Informationen finden Sie im Composite-Designmuster.
 
-Das[`CompositeNode`](./compositenode/)Klasse:
+Das`CompositeNode`Klasse:
 
 * Bietet Zugriff auf die untergeordneten Knoten.
 * Implementiert zusammengesetzte Operationen wie das Einfügen und Entfernen von untergeordneten Elementen.

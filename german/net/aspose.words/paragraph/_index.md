@@ -97,9 +97,9 @@ public class Paragraph : CompositeNode
 
 ### Bemerkungen
 
-[`Paragraph`](./paragraph/) ist ein Knoten auf Blockebene und kann ein untergeordnetes Element von Klassen sein, die von abgeleitet sind[`Story`](../story/) oder[`InlineStory`](../inlinestory/).
+`Paragraph` ist ein Knoten auf Blockebene und kann ein untergeordnetes Element von Klassen sein, die von abgeleitet sind[`Story`](../story/) oder[`InlineStory`](../inlinestory/).
 
-[`Paragraph`](./paragraph/) kann eine beliebige Anzahl von Knoten und Lesezeichen auf Inline-Ebene enthalten.
+`Paragraph` kann eine beliebige Anzahl von Knoten und Lesezeichen auf Inline-Ebene enthalten.
 
 Die vollständige Liste der untergeordneten Knoten, die innerhalb eines Absatzes vorkommen können, besteht aus [`BookmarkStart`](../bookmarkstart/) ,[`BookmarkEnd`](../bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) , [`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../run/) ,[`SpecialChar`](../specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`SmartTag`](../../aspose.words.markup/smarttag/).
 

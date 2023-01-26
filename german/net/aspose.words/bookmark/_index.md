@@ -34,7 +34,7 @@ public class Bookmark
 
 ### Bemerkungen
 
-[`Bookmark`](./bookmark/) ist ein "Fassaden"-Objekt, das zwei Knoten kapselt[`BookmarkStart`](./bookmarkstart/) und[`BookmarkEnd`](./bookmarkend/) in einem Dokumentenbaum und ermöglicht es, mit einem Lesezeichen als einzelnes Objekt zu arbeiten.
+`Bookmark` ist ein "Fassaden"-Objekt, das zwei Knoten kapselt[`BookmarkStart`](./bookmarkstart/) und[`BookmarkEnd`](./bookmarkend/) in einem Dokumentenbaum und ermöglicht es, mit einem Lesezeichen als einzelnes Objekt zu arbeiten.
 
 ### Beispiele
 

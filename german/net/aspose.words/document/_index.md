@@ -107,7 +107,7 @@ public class Document : DocumentBase
 | [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument_1)(Document, ImportFormatMode, ImportFormatOptions) | Hängt das angegebene Dokument an das Ende dieses Dokuments an. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup)() | Entfernt ungenutzte Stile und Listen aus dem Dokument. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup_1)(CleanupOptions) | Entfernt ungenutzte Stile und Listen je nach Vorgabe aus dem Dokument[`CleanupOptions`](../cleanupoptions/) . |
-| [Clone](../../aspose.words/document/clone/#clone)() | Führt eine tiefe Kopie der[`Document`](./document/) . |
+| [Clone](../../aspose.words/document/clone/#clone)() | Führt eine tiefe Kopie der`Document` . |
 | [Clone](../../aspose.words/node/clone/)(bool) | Erstellt ein Duplikat des Knotens. |
 | [Compare](../../aspose.words/document/compare/#compare)(Document, string, DateTime) | Vergleicht dieses Dokument mit einem anderen Dokument, das Änderungen als Anzahl der Bearbeitungs- und Formatrevisionen erzeugt[`Revision`](../revision/) . |
 | [Compare](../../aspose.words/document/compare/#compare_1)(Document, string, DateTime, CompareOptions) | Vergleicht dieses Dokument mit einem anderen Dokument, das Änderungen als eine Reihe von Bearbeitungs- und Formatrevisionen hervorbringt[`Revision`](../revision/) . Ermöglicht die Angabe von Vergleichsoptionen mit[`CompareOptions`](../../aspose.words.comparing/compareoptions/) . |
@@ -116,7 +116,7 @@ public class Document : DocumentBase
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reserviert für Systemnutzung. IXPfadNavigierbar. |
 | [EnsureMinimum](../../aspose.words/document/ensureminimum/)() | Wenn das Dokument keine Abschnitte enthält, wird ein Abschnitt mit einem Absatz erstellt. |
 | [ExpandTableStylesToDirectFormatting](../../aspose.words/document/expandtablestylestodirectformatting/)() | Wandelt die in Tabellenstilen angegebene Formatierung in direkte Formatierung für Tabellen im Dokument um. |
-| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | Gibt die zurück[`Document`](./document/) Objekt, das einen bestimmten Seitenbereich darstellt. |
+| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | Gibt die zurück`Document` Objekt, das einen bestimmten Seitenbereich darstellt. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ruft den ersten Vorfahren der angegebenen ab[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Gibt einen N-ten untergeordneten Knoten zurück, der dem angegebenen Typ entspricht. |

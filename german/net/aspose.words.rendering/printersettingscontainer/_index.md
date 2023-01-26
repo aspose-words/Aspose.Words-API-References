@@ -30,7 +30,7 @@ public class PrinterSettingsContainer
 
 ### Bemerkungen
 
-Zugriff auf Daten vonPrinterSettings dauert lange. [`PrinterSettingsContainer`](./printersettingscontainer/) speichert Parameter vonPrinterSettings , damit das Drucken schneller funktioniert.
+Zugriff auf Daten vonPrinterSettings dauert lange. `PrinterSettingsContainer` speichert Parameter vonPrinterSettings , damit das Drucken schneller funktioniert.
 
 ### Beispiele
 

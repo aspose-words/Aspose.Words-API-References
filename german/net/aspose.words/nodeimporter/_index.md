@@ -18,8 +18,8 @@ public class NodeImporter
 
 | Name | Beschreibung |
 | --- | --- |
-| [NodeImporter](nodeimporter/#constructor)(DocumentBase, DocumentBase, ImportFormatMode) | Initialisiert eine neue Instanz von[`NodeImporter`](./nodeimporter/) Klasse. |
-| [NodeImporter](nodeimporter/#constructor_1)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | Initialisiert eine neue Instanz von[`NodeImporter`](./nodeimporter/) Klasse. |
+| [NodeImporter](nodeimporter/#constructor)(DocumentBase, DocumentBase, ImportFormatMode) | Initialisiert eine neue Instanz von`NodeImporter` Klasse. |
+| [NodeImporter](nodeimporter/#constructor_1)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | Initialisiert eine neue Instanz von`NodeImporter` Klasse. |
 
 ## Methoden
 
@@ -33,13 +33,13 @@ Aspose.Words bietet Funktionen zum einfachen Kopieren und Verschieben von fragme
 
 Der einfachste Weg, einen Knoten zu importieren, ist die Verwendung der[`ImportNode`](../documentbase/importnode/) method bereitgestellt von der[`DocumentBase`](../documentbase/) Objekt.
 
-Wenn Sie Knoten jedoch mehrmals von einem Dokument in ein anderes importieren müssen, ist es besser, die zu verwenden[`NodeImporter`](./nodeimporter/) Klasse. Das[`NodeImporter`](./nodeimporter/) Die Klasse ermöglicht es, die Anzahl der im Zieldokument erstellten Stile und Listen zu minimieren.
+Wenn Sie Knoten jedoch mehrmals von einem Dokument in ein anderes importieren müssen, ist es besser, die zu verwenden`NodeImporter` Klasse. Das`NodeImporter` Die Klasse ermöglicht es, die Anzahl der im Zieldokument erstellten Stile und Listen zu minimieren.
 
 Das Kopieren oder Verschieben von Fragmenten von einem Microsoft Word-Dokument in ein anderes stellt eine Reihe technischer Herausforderungen für Aspose.Words dar. In einem Word-Dokument werden Stile und Listenformatierungen zentral gespeichert, getrennt vom Text des Dokuments. Die Absätze und Textläufe referenzieren die Stile lediglich durch interne eindeutige Kennungen.
 
 Die Herausforderungen ergeben sich aus der Tatsache, dass Stile und Listen in verschiedenen Dokumenten unterschiedlich sind. Um beispielsweise einen Absatz, der mit dem Stil Überschrift 1 formatiert ist, von einem Dokument in ein anderes zu kopieren , müssen einige Dinge berücksichtigt werden: Entscheiden Sie, ob Sie das tun sollen Kopieren Sie die Überschrift 1-Formatvorlage aus dem Quelldokument in das Zieldokument, klonen Sie den Absatz, aktualisieren Sie den geklonten -Absatz so, dass er auf die richtige Überschrift 1-Formatvorlage im Zieldokument verweist. Wenn die Formatvorlage kopiert werden musste, alle Formatvorlagen, die sie enthält Verweise (basierend auf style und dem nächsten Absatzstil) sollten analysiert und möglicherweise auch kopiert werden usw. Ähnliche Probleme treten auf, wenn Aufzählungszeichen oder nummerierte Absätze kopiert werden, da Microsoft Word Listendefinitionen getrennt vom Text speichert.
 
-Das[`NodeImporter`](./nodeimporter/)class ist wie ein Kontext, der beim Import die "Übersetzungstabellen" hält. Es übersetzt korrekt zwischen Stilen und Listen in den Quell- und -Zieldokumenten.
+Das`NodeImporter`class ist wie ein Kontext, der beim Import die "Übersetzungstabellen" hält. Es übersetzt korrekt zwischen Stilen und Listen in den Quell- und -Zieldokumenten.
 
 ### Beispiele
 

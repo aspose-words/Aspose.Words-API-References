@@ -32,7 +32,7 @@ public class EditableRange
 
 ### Bemerkungen
 
-[`EditableRange`](./editablerange/) ist ein "Fassaden"-Objekt, das zwei Knoten kapselt[`EditableRangeStart`](./editablerangestart/) und[`EditableRangeEnd`](./editablerangeend/) in einem Dokumentbaum und ermöglicht es, mit einem bearbeitbaren Bereich als einzelnes Objekt zu arbeiten.
+`EditableRange` ist ein "Fassaden"-Objekt, das zwei Knoten kapselt[`EditableRangeStart`](./editablerangestart/) und[`EditableRangeEnd`](./editablerangeend/) in einem Dokumentbaum und ermöglicht es, mit einem bearbeitbaren Bereich als einzelnes Objekt zu arbeiten.
 
 ### Beispiele
 
