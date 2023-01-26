@@ -46,9 +46,9 @@ public sealed class EditableRangeEnd : Node
 
 ### Notlar
 
-Bir Word belgesindeki eksiksiz bir düzenlenebilir aralık, bir[`EditableRangeStart`](./editablerangestart/) ve eşleşen[`EditableRangeEnd`](./editablerangeend/) aynı kimlikle
+Bir Word belgesindeki eksiksiz bir düzenlenebilir aralık, bir[`EditableRangeStart`](./editablerangestart/) ve eşleşen`EditableRangeEnd` aynı kimlikle
 
-[`EditableRangeStart`](./editablerangestart/) ve[`EditableRangeEnd`](./editablerangeend/) yalnızca, düzenlenebilir aralığın nerede başlayıp nerede bittiğini belirten bir document içindeki işaretlerdir.
+[`EditableRangeStart`](./editablerangestart/) ve`EditableRangeEnd` yalnızca, düzenlenebilir aralığın nerede başlayıp nerede bittiğini belirten bir document içindeki işaretlerdir.
 
 Kullan[`EditableRange`](../editablerange/)tek bir nesne olarak düzenlenebilir bir aralığıyla çalışmak için "cephe" olarak sınıflandırın.
 

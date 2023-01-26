@@ -79,9 +79,9 @@ public class BuildingBlock : CompositeNode
 
 ### Notlar
 
-[`BuildingBlock`](./buildingblock/) sadece içerebilir[`Section`](../../aspose.words/section/) düğümler.
+`BuildingBlock` sadece içerebilir[`Section`](../../aspose.words/section/) düğümler.
 
-[`BuildingBlock`](./buildingblock/) sadece çocuğu olabilir[`GlossaryDocument`](../glossarydocument/).
+`BuildingBlock` sadece çocuğu olabilir[`GlossaryDocument`](../glossarydocument/).
 
 Yeni yapı taşları oluşturabilir ve bunları bir sözlük belgesine ekleyebilirsiniz. Mevcut yapı taşlarını değiştirebilir veya silebilirsiniz. Belgeler arasında yapı taşlarını kopyalayabilir veya taşıyabilirsiniz. Bir yapı taşının içeriğini bir belgeye ekleyebilirsiniz.
 

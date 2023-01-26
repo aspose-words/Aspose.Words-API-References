@@ -32,7 +32,7 @@ public class EditableRange
 
 ### Notlar
 
-[`EditableRange`](./editablerange/) iki düğümü içine alan bir "cephe" nesnesidir[`EditableRangeStart`](./editablerangestart/) ve[`EditableRangeEnd`](./editablerangeend/) bir belge ağacında ve düzenlenebilir bir aralıkla tek bir nesne olarak çalışmaya izin verir.
+`EditableRange` iki düğümü içine alan bir "cephe" nesnesidir[`EditableRangeStart`](./editablerangestart/) ve[`EditableRangeEnd`](./editablerangeend/) bir belge ağacında ve düzenlenebilir bir aralıkla tek bir nesne olarak çalışmaya izin verir.
 
 ### Örnekler
 

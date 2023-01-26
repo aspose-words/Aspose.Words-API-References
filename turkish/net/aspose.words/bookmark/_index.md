@@ -34,7 +34,7 @@ public class Bookmark
 
 ### Notlar
 
-[`Bookmark`](./bookmark/) iki düğümü içine alan bir "cephe" nesnesidir[`BookmarkStart`](./bookmarkstart/) ve[`BookmarkEnd`](./bookmarkend/) bir belge ağacında ve bir yer imi ile tek bir nesne olarak çalışmaya izin verir.
+`Bookmark` iki düğümü içine alan bir "cephe" nesnesidir[`BookmarkStart`](./bookmarkstart/) ve[`BookmarkEnd`](./bookmarkend/) bir belge ağacında ve bir yer imi ile tek bir nesne olarak çalışmaya izin verir.
 
 ### Örnekler
 

@@ -18,7 +18,7 @@ public class FieldDatabaseDataTable
 
 | İsim | Tanım |
 | --- | --- |
-| [FieldDatabaseDataTable](fielddatabasedatatable/)(params string[]) | Yeni bir örneğini başlatır[`FieldDatabaseDataTable`](./fielddatabasedatatable/) sınıf. |
+| [FieldDatabaseDataTable](fielddatabasedatatable/)(params string[]) | Yeni bir örneğini başlatır`FieldDatabaseDataTable` sınıf. |
 
 ## Özellikleri
 
@@ -31,7 +31,7 @@ public class FieldDatabaseDataTable
 
 | İsim | Tanım |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | Yeni bir örneğini başlatır[`FieldDatabaseDataTable`](./fielddatabasedatatable/) class DataTable örnek. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | Yeni bir örneğini başlatır`FieldDatabaseDataTable` class DataTable örnek. |
 
 ### Ayrıca bakınız
 

@@ -73,9 +73,9 @@ public abstract class DocumentBase : CompositeNode
 
 ### Notlar
 
-Aspose.Words bir Word belgesini bir düğüm ağacı olarak temsil eder.[`DocumentBase`](./documentbase/) belgenin diğer tüm düğümlerini içeren ağacın bir kök düğümüdür.
+Aspose.Words bir Word belgesini bir düğüm ağacı olarak temsil eder.`DocumentBase` belgenin diğer tüm düğümlerini içeren ağacın bir kök düğümüdür.
 
-[`DocumentBase`](./documentbase/) gibi belge çapındaki bilgileri de depolar.[`Styles`](./styles/) ve [`Lists`](./lists/) ağaç düğümlerinin başvurabileceği.
+`DocumentBase` gibi belge çapındaki bilgileri de depolar.[`Styles`](./styles/) ve [`Lists`](./lists/) ağaç düğümlerinin başvurabileceği.
 
 ### Örnekler
 

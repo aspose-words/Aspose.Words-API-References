@@ -44,9 +44,9 @@ public class SubDocument : Node
 
 ### Notlar
 
-Aspose.Words'ün bu sürümünde,[`SubDocument`](./subdocument/) düğümler, bir alt belge oluşturmak veya değiştirmek için genel yöntemler ve özellikler sağlamaz. Bu sürümde, subDocument SubDocument düğümlerini somutlaştıramaz veya silme dışında mevcut olanları değiştiremezsiniz.
+Aspose.Words'ün bu sürümünde,`SubDocument` düğümler, bir alt belge oluşturmak veya değiştirmek için genel yöntemler ve özellikler sağlamaz. Bu sürümde, subDocument SubDocument düğümlerini somutlaştıramaz veya silme dışında mevcut olanları değiştiremezsiniz.
 
-[`SubDocument`](./subdocument/) sadece çocuğu olabilir[`Paragraph`](../paragraph/).
+`SubDocument` sadece çocuğu olabilir[`Paragraph`](../paragraph/).
 
 ### Örnekler
 

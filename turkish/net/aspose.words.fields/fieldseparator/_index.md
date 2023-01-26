@@ -55,9 +55,9 @@ public class FieldSeparator : FieldChar
 
 ### Notlar
 
-[`FieldSeparator`](./fieldseparator/) satır içi düzeyde bir düğümdür ve tarafından temsil edilen [`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar/) belgedeki kontrol karakteri.
+`FieldSeparator` satır içi düzeyde bir düğümdür ve tarafından temsil edilen [`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar/) belgedeki kontrol karakteri.
 
-[`FieldSeparator`](./fieldseparator/) sadece çocuğu olabilir[`Paragraph`](../../aspose.words/paragraph/).
+`FieldSeparator` sadece çocuğu olabilir[`Paragraph`](../../aspose.words/paragraph/).
 
 Bir Microsoft Word belgesindeki tam alan, alan başlangıç karakteri, alan kodu, alan ayırıcı karakter, alan sonucu ve alan bitiş karakterinden oluşan karmaşık bir yapıdır. Bazı alanlarda yalnızca alan başlangıcı, alan kodu ve alan sonu bulunur.
 

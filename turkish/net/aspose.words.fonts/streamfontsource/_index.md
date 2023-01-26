@@ -32,11 +32,11 @@ public abstract class StreamFontSource : FontSourceBase
 
 ### Notlar
 
-Akış yazı tipi kaynağını kullanmak için, aşağıdakilerden türetilmiş bir sınıf oluşturmalısınız.[`StreamFontSource`](./streamfontsource/) ve aşağıdakilerin uygulanmasını sağlayın:[`OpenFontDataStream`](./openfontdatastream/) yöntem.
+Akış yazı tipi kaynağını kullanmak için, aşağıdakilerden türetilmiş bir sınıf oluşturmalısınız.`StreamFontSource` ve aşağıdakilerin uygulanmasını sağlayın:[`OpenFontDataStream`](./openfontdatastream/) yöntem.
 
 [`OpenFontDataStream`](./openfontdatastream/)yöntem birkaç kez çağrılabilir. Aspose.Words mevcut yazı tiplerinin listesini almak için sağlanan yazı tipi kaynaklarını taradığında ilk kez olarak adlandırılacaktır. Belgede font verilerini ayrıştırmak ve font verilerini bazı çıktı biçimlerine gömmek için the fontu kullanılıyorsa daha sonra çağrılabilir.
 
-[`StreamFontSource`](./streamfontsource/) yazı tipi verilerinin yalnızca gerekli olduğunda yüklenmesine izin verdiği için yararlı olabilir [`FontSettings`](../fontsettings/) ömür.
+`StreamFontSource` yazı tipi verilerinin yalnızca gerekli olduğunda yüklenmesine izin verdiği için yararlı olabilir [`FontSettings`](../fontsettings/) ömür.
 
 ### Örnekler
 

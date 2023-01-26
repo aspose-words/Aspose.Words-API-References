@@ -20,7 +20,7 @@ Yeni oluşturulan düzenlenebilir aralık bitiş düğümü.
 
 ### Notlar
 
-Bir belgedeki düzenlenebilir aralık, herhangi bir aralıkla örtüşebilir ve yayılabilir. Geçerli bir düzenlenebilir aralık oluşturmak için her ikisini de aramanız gerekir[`StartEditableRange`](../starteditablerange/) ve`EndEditableRange` veya[`EndEditableRange`](./endeditablerange/)yöntemler.
+Bir belgedeki düzenlenebilir aralık, herhangi bir aralıkla örtüşebilir ve yayılabilir. Geçerli bir düzenlenebilir aralık oluşturmak için her ikisini de aramanız gerekir[`StartEditableRange`](../starteditablerange/) ve`EndEditableRange` veya`EndEditableRange`yöntemler.
 
 Kötü biçimlendirilmiş düzenlenebilir aralık, belge kaydedildiğinde yok sayılır.
 
@@ -96,7 +96,7 @@ Yeni oluşturulan düzenlenebilir aralık bitiş düğümü.
 
 Bu aşırı yüklemeyi iç içe düzenlenebilir aralıklar oluştururken kullanın.
 
-Bir belgedeki düzenlenebilir aralık, herhangi bir aralıkla örtüşebilir ve yayılabilir. Geçerli bir düzenlenebilir aralık oluşturmak için her ikisini de aramanız gerekir[`StartEditableRange`](../starteditablerange/) ve[`EndEditableRange`](./endeditablerange/) veya`EndEditableRange`yöntemler.
+Bir belgedeki düzenlenebilir aralık, herhangi bir aralıkla örtüşebilir ve yayılabilir. Geçerli bir düzenlenebilir aralık oluşturmak için her ikisini de aramanız gerekir[`StartEditableRange`](../starteditablerange/) ve`EndEditableRange` veya`EndEditableRange`yöntemler.
 
 Kötü biçimlendirilmiş düzenlenebilir aralık, belge kaydedildiğinde yok sayılır.
 

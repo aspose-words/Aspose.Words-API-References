@@ -18,7 +18,7 @@ public class SmartTag : CompositeNode
 
 | İsim | Tanım |
 | --- | --- |
-| [SmartTag](smarttag/)(DocumentBase) | Yeni bir örneğini başlatır[`SmartTag`](./smarttag/) sınıf. |
+| [SmartTag](smarttag/)(DocumentBase) | Yeni bir örneğini başlatır`SmartTag` sınıf. |
 
 ## Özellikleri
 
@@ -64,7 +64,7 @@ public class SmartTag : CompositeNode
 | [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Geçerli düğümün tüm alt düğümlerini kaldırır. |
 | [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Belirtilen alt düğümü kaldırır. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tümünü kaldırır[`SmartTag`](./smarttag/) geçerli düğümün alt düğümleri. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tümünü kaldırır`SmartTag` geçerli düğümün alt düğümleri. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | XPath ifadesiyle eşleşen düğümlerin listesini seçer. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | XPath ifadesiyle eşleşen ilk Düğümü seçer. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen biçimde bir dizeye aktarır. |
@@ -74,9 +74,9 @@ public class SmartTag : CompositeNode
 
 Akıllı etiketler, bir tür özel XML işaretlemesidir. Akıllı etiketler, bir belge içindeki bir çalıştırma veya çalıştırma kümesi için temel bir ad alanı/ad sağlama yeteneği aracılığıyla belgeye müşteri tanımlı semantiği yerleştirmek için bir olanak sağlar.
 
-[`SmartTag`](./smarttag/) çocuğu olabilir[`Paragraph`](../../aspose.words/paragraph/) or başka[`SmartTag`](./smarttag/) düğüm.
+`SmartTag` çocuğu olabilir[`Paragraph`](../../aspose.words/paragraph/) or başka`SmartTag` düğüm.
 
-Bir akıllı etiket içinde oluşabilecek alt düğümlerin tam listesi, 'den oluşur.[`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , [`SmartTag`](./smarttag/).
+Bir akıllı etiket içinde oluşabilecek alt düğümlerin tam listesi, 'den oluşur.[`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , `SmartTag`.
 
 ### Örnekler
 

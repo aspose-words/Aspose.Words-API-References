@@ -25,7 +25,7 @@ public class ReportingEngine
 | İsim | Tanım |
 | --- | --- |
 | [KnownTypes](../../aspose.words.reporting/reportingengine/knowntypes/) { get; } | Aşağıdakileri içeren sırasız bir küme (yani benzersiz öğeler koleksiyonu) alır:TypeBu motor örneği tarafından işlenen rapor şablonlarında, ilgili türlerin statik üyelerini çağırmak, tür atamaları gerçekleştirmek vb. için tamamen veya kısmen nitelenmiş adlar kullanılabilen nesneler . |
-| [Options](../../aspose.words.reporting/reportingengine/options/) { get; set; } | Bunun davranışını kontrol eden bir dizi işaret alır veya ayarlar[`ReportingEngine`](./reportingengine/) bir rapor oluştururken örneği. |
+| [Options](../../aspose.words.reporting/reportingengine/options/) { get; set; } | Bunun davranışını kontrol eden bir dizi işaret alır veya ayarlar`ReportingEngine` bir rapor oluştururken örneği. |
 | static [UseReflectionOptimization](../../aspose.words.reporting/reportingengine/usereflectionoptimization/) { get; set; } | Yansıma API'si aracılığıyla gerçekleştirilen özel tür üyelerinin çağrılarının dinamik sınıf oluşturma kullanılarak optimize edilip edilmediğini gösteren bir değer alır veya ayarlar. Varsayılan değer true. |
 
 ## yöntemler

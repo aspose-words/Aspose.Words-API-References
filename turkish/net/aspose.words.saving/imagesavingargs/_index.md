@@ -29,7 +29,7 @@ public class ImageSavingArgs
 
 Aspose.Words varsayılan olarak bir belgeyi HTML'ye kaydettiğinde, her görüntüyü ayrı bir dosyasına kaydeder. Aspose.Words, belgede bulunan her görüntü için benzersiz dosya adı oluşturmak için belge dosya adını ve benzersiz bir numarayı kullanır.
 
-[`ImageSavingArgs`](./imagesavingargs/) görüntü dosyası adlarının nasıl oluşturulacağını yeniden tanımlamanıza veya kendi akış nesnelerinizi sağlayarak görüntülerin dosyalara kaydedilmesini tamamen engellemenize olanak tanır.
+`ImageSavingArgs` görüntü dosyası adlarının nasıl oluşturulacağını yeniden tanımlamanıza veya kendi akış nesnelerinizi sağlayarak görüntülerin dosyalara kaydedilmesini tamamen engellemenize olanak tanır.
 
 Görüntü dosyası adları oluşturmak için kendi mantığınızı uygulamak için [`ImageFileName`](./imagefilename/) ,[`CurrentShape`](./currentshape/) ve[`IsImageAvailable`](./isimageavailable/) özellikleri.
 

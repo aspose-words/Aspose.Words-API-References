@@ -34,9 +34,9 @@ public class ListCollection : IEnumerable<List>
 
 ### Notlar
 
-Microsoft Word belgesindeki bir liste, bir dizi liste biçimlendirme özelliğidir. Listelerin biçimlendirmesi,[`ListCollection`](./listcollection/) metin paragraflarından ayrı olarak toplama .
+Microsoft Word belgesindeki bir liste, bir dizi liste biçimlendirme özelliğidir. Listelerin biçimlendirmesi,`ListCollection` metin paragraflarından ayrı olarak toplama .
 
-Bu sınıfın nesnelerini oluşturmazsınız. her zaman sadece bir tane vardır[`ListCollection`](./listcollection/) Belge başına nesnesi ve şuradan erişilebilir:[`Lists`](../../aspose.words/documentbase/lists/) Emlak.
+Bu sınıfın nesnelerini oluşturmazsınız. her zaman sadece bir tane vardır`ListCollection` Belge başına nesnesi ve şuradan erişilebilir:[`Lists`](../../aspose.words/documentbase/lists/) Emlak.
 
 Önceden tanımlanmış bir liste şablonuna veya bir liste stiline dayalı olarak yeni bir liste oluşturmak için, [`Add`](./add/) yöntem.
 

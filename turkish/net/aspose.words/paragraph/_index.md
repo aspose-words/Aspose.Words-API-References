@@ -97,9 +97,9 @@ public class Paragraph : CompositeNode
 
 ### Notlar
 
-[`Paragraph`](./paragraph/) blok düzeyinde bir düğümdür ve öğesinden türetilen sınıfların alt öğesi olabilir[`Story`](../story/) veya[`InlineStory`](../inlinestory/).
+`Paragraph` blok düzeyinde bir düğümdür ve öğesinden türetilen sınıfların alt öğesi olabilir[`Story`](../story/) veya[`InlineStory`](../inlinestory/).
 
-[`Paragraph`](./paragraph/) herhangi bir sayıda satır içi düzey düğüm ve yer imi içerebilir.
+`Paragraph` herhangi bir sayıda satır içi düzey düğüm ve yer imi içerebilir.
 
 Bir paragraf içinde oluşabilecek alt düğümlerin tam listesi, 'den oluşur.[`BookmarkStart`](../bookmarkstart/) ,[`BookmarkEnd`](../bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) , [`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../run/) ,[`SpecialChar`](../specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`SmartTag`](../../aspose.words.markup/smarttag/).
 

@@ -30,7 +30,7 @@ public class PrinterSettingsContainer
 
 ### Notlar
 
-Şunun verilerine erişim:PrinterSettings uzun zaman alır. [`PrinterSettingsContainer`](./printersettingscontainer/) parametreleri önbelleğe alırPrinterSettings , böylece yazdırma daha hızlı çalışır.
+Şunun verilerine erişim:PrinterSettings uzun zaman alır. `PrinterSettingsContainer` parametreleri önbelleğe alırPrinterSettings , böylece yazdırma daha hızlı çalışır.
 
 ### Örnekler
 

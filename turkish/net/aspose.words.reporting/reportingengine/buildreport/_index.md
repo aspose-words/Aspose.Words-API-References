@@ -25,7 +25,7 @@ public bool BuildReport(Document document, object dataSource)
 
 ### Notlar
 
-Bu aşırı yüklemeyi kullanarak şablon belgesinde veri kaynağının üyelerine başvurabilirsiniz, ancak veri kaynağı nesnesinin kendisine başvuramazsınız. kullanmalısın[`BuildReport`](./buildreport/) bunu başarmak için aşırı yükleme.
+Bu aşırı yüklemeyi kullanarak şablon belgesinde veri kaynağının üyelerine başvurabilirsiniz, ancak veri kaynağı nesnesinin kendisine başvuramazsınız. kullanmalısın`BuildReport` bunu başarmak için aşırı yükleme.
 
 Bir veri kaynağı nesnesi aşağıdaki türlerden biri olabilir:
 
@@ -72,7 +72,7 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 ### Notlar
 
-Bu aşırı yüklemeyi kullanarak, şablonda veri kaynağının üyelerine ve veri kaynağı nesnesinin kendisine başvurabilirsiniz. Veri kaynağı nesnesinin kendisine başvurmayacaksanız, atlayabilirsiniz*dataSourceName* null değerini geçer veya[`BuildReport`](./buildreport/) aşırı yük.
+Bu aşırı yüklemeyi kullanarak, şablonda veri kaynağının üyelerine ve veri kaynağı nesnesinin kendisine başvurabilirsiniz. Veri kaynağı nesnesinin kendisine başvurmayacaksanız, atlayabilirsiniz*dataSourceName* null değerini geçer veya`BuildReport` aşırı yük.
 
 Bir veri kaynağı nesnesi aşağıdaki türlerden biri olabilir:
 
@@ -121,7 +121,7 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 Bu aşırı yüklemeyi kullanarak, şablonda birden çok veri kaynağı nesnesine ve bunların üyelerine başvurabilirsiniz. Veri kaynağının üyelerine başvuruda bulunacak ancak veri kaynağı nesnesinin kendisine değil başvuru yapacaksanız, ilk veri kaynağının adı atlanabilir (yani boş bir dize veya boş olabilir). Diğer veri kaynaklarının adları belirtilmiş ve benzersiz olmalıdır.
 
-Tek bir veri kaynağı kullanacaksanız, şunu kullanmayı düşünün:[`BuildReport`](./buildreport/) ve[`BuildReport`](./buildreport/) bunun yerine aşırı yükler.
+Tek bir veri kaynağı kullanacaksanız, şunu kullanmayı düşünün:`BuildReport` ve`BuildReport` bunun yerine aşırı yükler.
 
 Bir veri kaynağı nesnesi aşağıdaki türlerden biri olabilir:
 
