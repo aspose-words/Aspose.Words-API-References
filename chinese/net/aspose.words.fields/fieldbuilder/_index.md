@@ -18,7 +18,7 @@ public class FieldBuilder
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FieldBuilder](fieldbuilder/)(FieldType) | 初始化[`FieldBuilder`](./fieldbuilder/)类. |
+| [FieldBuilder](fieldbuilder/)(FieldType) | 初始化`FieldBuilder`类. |
 
 ## 方法
 
@@ -26,7 +26,7 @@ public class FieldBuilder
 | --- | --- |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(double) | 添加一个字段的参数。 |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(FieldArgumentBuilder) | 添加一个字段的参数，由[`FieldArgumentBuilder`](../fieldargumentbuilder/)到字段的代码。 |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | 添加另一个表示的子字段[`FieldBuilder`](./fieldbuilder/)到字段的代码。 |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | 添加另一个表示的子字段`FieldBuilder`到字段的代码。 |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(int) | 添加一个字段的参数。 |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(string) | 添加一个字段的参数。 |
 | [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(string) | 添加一个字段的开关。 |

@@ -42,7 +42,7 @@ public class Field
 
 ### 评论
 
-Word文档中的字段是一个复杂的结构，由多个节点组成，包括字段开始、 字段代码、字段分隔符、字段结果和字段结束。字段可以嵌套，包含丰富的内容和 span 文档中的多个段落或部分。这[`Field`](./field/)class 是一个“外观”对象，它提供 属性和方法，允许将字段作为单个对象使用。
+Word文档中的字段是一个复杂的结构，由多个节点组成，包括字段开始、 字段代码、字段分隔符、字段结果和字段结束。字段可以嵌套，包含丰富的内容和 span 文档中的多个段落或部分。这`Field`class 是一个“外观”对象，它提供 属性和方法，允许将字段作为单个对象使用。
 
 这[`Start`](./start/),[`Separator`](./separator/)和[`End`](./end/)属性分别指向字段的 字段开始、分隔符和结束节点。
 
@@ -52,7 +52,7 @@ Word文档中的字段是一个复杂的结构，由多个节点组成，包括�
 
 您可以使用以下方式获取字段代码的纯文本版本[`GetFieldCode`](./getfieldcode/)method. 您可以使用[`Result`](./result/)property. 字段代码和字段结果都可以包含复杂的内容，例如嵌套字段、段落、形状、 表，在这种情况下，如果您需要更多控制，您可能希望直接使用字段节点。
 
-您不创建的实例[`Field`](./field/)直接类。 要创建一个新字段，请使用[`InsertField`](../../aspose.words/documentbuilder/insertfield/)方法。
+您不创建的实例`Field`直接类。 要创建一个新字段，请使用[`InsertField`](../../aspose.words/documentbuilder/insertfield/)方法。
 
 ### 例子
 

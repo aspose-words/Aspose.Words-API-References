@@ -28,7 +28,7 @@ public class ResourceSavingArgs
 
 默认情况下，当 Aspose.Words 将文档保存到固定页面 HTML 或 SVG 时，它会将每个资源保存到 一个单独的文件中。 Aspose.Words 使用文档文件名和唯一编号为文档中找到的每个资源生成唯一的文件名 。
 
-[`ResourceSavingArgs`](./resourcesavingargs/)允许重新定义如何生成资源文件名或 通过提供您自己的流对象来完全避免将资源保存到文件中。
+`ResourceSavingArgs`允许重新定义如何生成资源文件名或 通过提供您自己的流对象来完全避免将资源保存到文件中。
 
 要应用您自己的逻辑来生成资源文件名，请使用 [`ResourceFileName`](./resourcefilename/)财产。
 

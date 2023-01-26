@@ -104,15 +104,15 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 
 结构化文档标签 (SDT) 允许将客户定义的语义及其 行为和外观嵌入到文档中。
 
-在这个版本中，Aspose.Words 提供了许多公共方法和属性来 操纵行为和内容[`StructuredDocumentTag`](./structureddocumenttag/) 可以使用 将 SDT 节点映射到文档中的自定义 XML 包[`XmlMapping`](./xmlmapping/)财产。
+在这个版本中，Aspose.Words 提供了许多公共方法和属性来 操纵行为和内容`StructuredDocumentTag` 可以使用 将 SDT 节点映射到文档中的自定义 XML 包[`XmlMapping`](./xmlmapping/)财产。
 
-[`StructuredDocumentTag`](./structureddocumenttag/)可能出现在文档中的以下位置：
+`StructuredDocumentTag`可能出现在文档中的以下位置：
 
 * 块级 - 在段落和表格中，作为 a 的子级[`Body`](../../aspose.words/body/),[`HeaderFooter`](../../aspose.words/headerfooter/)[`Comment`](../../aspose.words/comment/),[`Footnote`](../../aspose.words.notes/footnote/)或一个[`Shape`](../../aspose.words.drawing/shape/)节点。
 * 行级 - 在表中的行中，作为[`Table`](../../aspose.words.tables/table/)节点。
 * 单元格级别 - 在表格行中的单元格中，作为[`Row`](../../aspose.words.tables/row/)节点。
 * Inline-level - 在里面的内联内容中，作为一个子级[`Paragraph`](../../aspose.words/paragraph/).
-* 嵌套在另一个里面[`StructuredDocumentTag`](./structureddocumenttag/).
+* 嵌套在另一个里面`StructuredDocumentTag`.
 
 ### 例子
 

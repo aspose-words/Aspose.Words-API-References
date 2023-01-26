@@ -23,17 +23,17 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words.webextensions/basewebextensioncollection`1/count/) { get; } | 获取集合中包含的元素数。 |
-| [Item](../../aspose.words.webextensions/basewebextensioncollection`1/item/) { get; set; } | 获取或设置指定索引处的项目。 |
+| [Count](../../aspose.words.webextensions/basewebextensioncollection-1/count/) { get; } | 获取集合中包含的元素数。 |
+| [Item](../../aspose.words.webextensions/basewebextensioncollection-1/item/) { get; set; } | 获取或设置指定索引处的项目。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection`1/add/)(T) | 将指定项目添加到集合中。 |
-| [Clear](../../aspose.words.webextensions/basewebextensioncollection`1/clear/)() | 从集合中删除所有元素。 |
-| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection`1/getenumerator/)() | 返回一个可以遍历集合的枚举器。 |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection`1/remove/)(int) | 从集合中删除指定索引处的项目。 |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(T) | 将指定项目添加到集合中。 |
+| [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() | 从集合中删除所有元素。 |
+| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | 返回一个可以遍历集合的枚举器。 |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) | 从集合中删除指定索引处的项目。 |
 
 ### 例子
 

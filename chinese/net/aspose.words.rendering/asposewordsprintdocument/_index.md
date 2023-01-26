@@ -28,9 +28,9 @@ public class AsposeWordsPrintDocument : PrintDocument
 
 ### 评论
 
-[`AsposeWordsPrintDocument`](./asposewordsprintdocument/)覆盖PrintEventArgs) 打印指定的页面范围PrinterSettings.
+`AsposeWordsPrintDocument`覆盖PrintEventArgs) 打印指定的页面范围PrinterSettings.
 
-一个 Word 文档可以由多个部分组成，这些部分指定具有不同大小、 方向和纸盘的页面。[`AsposeWordsPrintDocument`](./asposewordsprintdocument/)覆盖 QueryPageSettingsEventArgs)在打印 Word 文档时正确选择纸张尺寸、orientation 和纸张来源。
+一个 Word 文档可以由多个部分组成，这些部分指定具有不同大小、 方向和纸盘的页面。`AsposeWordsPrintDocument`覆盖 QueryPageSettingsEventArgs)在打印 Word 文档时正确选择纸张尺寸、orientation 和纸张来源。
 
 Microsoft Word 将纸盘的打印机特定值存储在 Word 文档中，因此， 仅在与用户指定纸盘时选择的打印机型号相同的打印机型号上打印 将导致从正确的纸盘打印。如果您在不同的打印机上打印文档，则很可能 将使用默认纸盘，而不是文档中指定的纸盘。
 

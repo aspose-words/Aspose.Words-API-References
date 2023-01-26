@@ -18,8 +18,8 @@ public class GradientStop
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GradientStop](gradientstop/#constructor)(Color, double) | 初始化[`GradientStop`](./gradientstop/)类. |
-| [GradientStop](gradientstop/#constructor_1)(Color, double, double) | 初始化[`GradientStop`](./gradientstop/)类. |
+| [GradientStop](gradientstop/#constructor)(Color, double) | 初始化`GradientStop`类. |
+| [GradientStop](gradientstop/#constructor_1)(Color, double, double) | 初始化`GradientStop`类. |
 
 ## 特性
 

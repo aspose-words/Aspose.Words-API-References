@@ -20,7 +20,7 @@ public EditableRangeEnd EndEditableRange()
 
 ### 评论
 
-文档中的可编辑范围可以重叠并跨越任何范围。要创建有效的可编辑范围，您需要 to 调用两者[`StartEditableRange`](../starteditablerange/)和`EndEditableRange` 或[`EndEditableRange`](./endeditablerange/)方法。
+文档中的可编辑范围可以重叠并跨越任何范围。要创建有效的可编辑范围，您需要 to 调用两者[`StartEditableRange`](../starteditablerange/)和`EndEditableRange` 或`EndEditableRange`方法。
 
 保存文档时将忽略格式错误的可编辑范围。
 
@@ -96,7 +96,7 @@ public EditableRangeEnd EndEditableRange(EditableRangeStart start)
 
 在创建嵌套的可编辑范围时使用此重载。
 
-文档中的可编辑范围可以重叠并跨越任何范围。要创建有效的可编辑范围，您需要 to 调用两者[`StartEditableRange`](../starteditablerange/)和[`EndEditableRange`](./endeditablerange/) 或`EndEditableRange`方法。
+文档中的可编辑范围可以重叠并跨越任何范围。要创建有效的可编辑范围，您需要 to 调用两者[`StartEditableRange`](../starteditablerange/)和`EndEditableRange` 或`EndEditableRange`方法。
 
 保存文档时将忽略格式错误的可编辑范围。
 

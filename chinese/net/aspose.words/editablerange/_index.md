@@ -32,7 +32,7 @@ public class EditableRange
 
 ### 评论
 
-[`EditableRange`](./editablerange/)是一个封装了两个节点的“门面”对象[`EditableRangeStart`](./editablerangestart/) 和[`EditableRangeEnd`](./editablerangeend/)在文档树中，并允许将可编辑范围作为单个对象使用。
+`EditableRange`是一个封装了两个节点的“门面”对象[`EditableRangeStart`](./editablerangestart/) 和[`EditableRangeEnd`](./editablerangeend/)在文档树中，并允许将可编辑范围作为单个对象使用。
 
 ### 例子
 

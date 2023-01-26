@@ -38,7 +38,7 @@ public class LayoutCollector
 
 ### 评论
 
-当你创建一个[`LayoutCollector`](./layoutcollector/)并指定一个[`Document`](../../aspose.words/document/)要附加到的文档对象， 当文档格式化为页面时，收集器将记录文档节点到布局对象的映射。
+当你创建一个`LayoutCollector`并指定一个[`Document`](../../aspose.words/document/)要附加到的文档对象， 当文档格式化为页面时，收集器将记录文档节点到布局对象的映射。
 
 您将能够通过使用[`GetStartPageIndex`](./getstartpageindex/),[`GetEndPageIndex`](./getendpageindex/)和[`GetNumPagesSpanned`](./getnumpagesspanned/)方法。 这些方法自动构建文档的页面布局模型并在需要时更新字段。
 

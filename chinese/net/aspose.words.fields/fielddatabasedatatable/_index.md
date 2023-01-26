@@ -18,7 +18,7 @@ public class FieldDatabaseDataTable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FieldDatabaseDataTable](fielddatabasedatatable/)(params string[]) | 初始化[`FieldDatabaseDataTable`](./fielddatabasedatatable/)类. |
+| [FieldDatabaseDataTable](fielddatabasedatatable/)(params string[]) | 初始化`FieldDatabaseDataTable`类. |
 
 ## 特性
 
@@ -31,7 +31,7 @@ public class FieldDatabaseDataTable
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | 初始化[`FieldDatabaseDataTable`](./fielddatabasedatatable/) class 从DataTable实例. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | 初始化`FieldDatabaseDataTable` class 从DataTable实例. |
 
 ### 也可以看看
 

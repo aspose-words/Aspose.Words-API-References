@@ -42,7 +42,7 @@ public class CustomPart
 
 Microsoft Word 在打开/保存周期中保留自定义部分。一些额外的信息可以在这里找到 http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
 
-Aspose.Words 还往返自定义部件，此外，允许通过编程访问 这样的部件[`CustomPart`](./custompart/)和[`CustomPartCollection`](../custompartcollection/)对象。
+Aspose.Words 还往返自定义部件，此外，允许通过编程访问 这样的部件`CustomPart`和[`CustomPartCollection`](../custompartcollection/)对象。
 
 不要将自定义部件与自定义 XML 数据混淆。利用[`CustomXmlPart`](../customxmlpart/)如果您需要 来访问自定义 XML 数据。
 

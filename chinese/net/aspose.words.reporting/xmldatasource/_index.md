@@ -31,7 +31,7 @@ public class XmlDataSource
 
 要在生成报告时访问相应文件或流的数据，请将此类的实例作为 数据源传递给其中一个[`ReportingEngine`](../reportingengine/).BuildReport 重载.
 
-在模板文档中，如果顶级 XML 元素只包含相同类型的元素列表， [`XmlDataSource`](./xmldatasource/)实例应以与 a相同的方式处理DataTable 实例。否则，一个[`XmlDataSource`](./xmldatasource/)实例应以与 a相同的方式处理DataRow 实例。有关详细信息，请参阅模板语法参考 (https://docs.aspose.com/display/wordsnet/Template+Syntax)。
+在模板文档中，如果顶级 XML 元素只包含相同类型的元素列表， `XmlDataSource`实例应以与 a相同的方式处理DataTable 实例。否则，一个`XmlDataSource`实例应以与 a相同的方式处理DataRow 实例。有关详细信息，请参阅模板语法参考 (https://docs.aspose.com/display/wordsnet/Template+Syntax)。
 
 当XML Schema Definition 被传递给该类的构造函数时，简单XML 元素 的值的数据类型和属性是根据模式确定的。因此，在模板文档中，您可以使用类型值 而不仅仅是字符串。
 

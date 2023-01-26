@@ -27,7 +27,7 @@ public class JsonDataSource
 
 要在生成报告时访问相应文件或流的数据，请将此类的实例作为 数据源传递给其中一个[`ReportingEngine`](../reportingengine/).BuildReport 重载.
 
-在模板文档中，如果顶级 JSON 元素是一个数组，则[`JsonDataSource`](./jsondatasource/)实例应该被 对待，就像它是一个DataTable 实例。如果顶级 JSON 元素 是对象，则[`JsonDataSource`](./jsondatasource/)实例应以与 a相同的方式处理DataRow 实例。有关详细信息，请参阅模板语法参考 (https://docs.aspose.com/display/wordsnet/Template+Syntax)。
+在模板文档中，如果顶级 JSON 元素是一个数组，则`JsonDataSource`实例应该被 对待，就像它是一个DataTable 实例。如果顶级 JSON 元素 是对象，则`JsonDataSource`实例应以与 a相同的方式处理DataRow 实例。有关详细信息，请参阅模板语法参考 (https://docs.aspose.com/display/wordsnet/Template+Syntax)。
 
 在模板文档中，您可以使用 JSON 元素的类型值。为方便起见，引擎将 JSON 简单类型的集合 替换为以下一种：
 

@@ -56,9 +56,9 @@ public class FieldEnd : FieldChar
 
 ### 评论
 
-[`FieldEnd`](./fieldend/)是一个内联级节点并由 表示[`FieldEndChar`](../../aspose.words/controlchar/fieldendchar/)文档中的控制字符。
+`FieldEnd`是一个内联级节点并由 表示[`FieldEndChar`](../../aspose.words/controlchar/fieldendchar/)文档中的控制字符。
 
-[`FieldEnd`](./fieldend/)只能是[`Paragraph`](../../aspose.words/paragraph/).
+`FieldEnd`只能是[`Paragraph`](../../aspose.words/paragraph/).
 
 Microsoft Word 文档中的完整字段是一个复杂的结构，由 字段起始字符、字段代码、字段分隔符、字段结果 和字段结束字符组成。有些字段只有字段开始、字段代码和字段结束。
 

@@ -87,7 +87,7 @@ public class GlossaryDocument : DocumentBase
 
 要访问构建块，您需要将文档加载到[`Document`](../../aspose.words/document/) 对象。构建块将通过[`GlossaryDocument`](../../aspose.words/document/glossarydocument/)财产。
 
-[`GlossaryDocument`](./glossarydocument/)可以包含任意数量的[`BuildingBlock`](../buildingblock/)objects. 每个[`BuildingBlock`](../buildingblock/)代表一个文档部分。
+`GlossaryDocument`可以包含任意数量的[`BuildingBlock`](../buildingblock/)objects. 每个[`BuildingBlock`](../buildingblock/)代表一个文档部分。
 
 对应于 **词汇表文件**和 **文档零件**OOXML 中的元素。
 

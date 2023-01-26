@@ -33,7 +33,7 @@ public class ChartDataPoint : IChartDataPoint
 
 ### 评论
 
-在一个系列中，[`ChartDataPoint`](./chartdatapoint/)对象是[`ChartDataPointCollection`](../chartdatapointcollection/) 的[`ChartDataPointCollection`](../chartdatapointcollection/)包含一个[`ChartDataPoint`](./chartdatapoint/)每个点的对象。
+在一个系列中，`ChartDataPoint`对象是[`ChartDataPointCollection`](../chartdatapointcollection/) 的[`ChartDataPointCollection`](../chartdatapointcollection/)包含一个`ChartDataPoint`每个点的对象。
 
 ### 例子
 

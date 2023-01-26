@@ -25,7 +25,7 @@ public class ReportingEngine
 | 姓名 | 描述 |
 | --- | --- |
 | [KnownTypes](../../aspose.words.reporting/reportingengine/knowntypes/) { get; } | 获取一个无序集合（即唯一项的集合），其中包含Type对象 可以在此 engine 实例处理的报告模板中使用完全或部分限定名称来调用相应类型的静态成员、执行类型转换等。 |
-| [Options](../../aspose.words.reporting/reportingengine/options/) { get; set; } | 获取或设置一组控制此行为的标志[`ReportingEngine`](./reportingengine/)在构建报告时实例 。 |
+| [Options](../../aspose.words.reporting/reportingengine/options/) { get; set; } | 获取或设置一组控制此行为的标志`ReportingEngine`在构建报告时实例 。 |
 | static [UseReflectionOptimization](../../aspose.words.reporting/reportingengine/usereflectionoptimization/) { get; set; } | 获取或设置一个值，该值指示通过反射 API 执行的自定义类型成员的调用是否使用动态类生成进行了 优化。默认值为真。 |
 
 ## 方法

@@ -30,7 +30,7 @@ public class PrinterSettingsContainer
 
 ### 评论
 
-访问数据PrinterSettings需要很长时间。 [`PrinterSettingsContainer`](./printersettingscontainer/)缓存参数PrinterSettings, 所以打印速度更快。
+访问数据PrinterSettings需要很长时间。 `PrinterSettingsContainer`缓存参数PrinterSettings, 所以打印速度更快。
 
 ### 例子
 

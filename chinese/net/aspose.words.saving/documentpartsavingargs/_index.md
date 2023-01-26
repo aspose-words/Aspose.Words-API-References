@@ -27,7 +27,7 @@ public class DocumentPartSavingArgs
 
 当 Aspose.Words 将文档保存为 HTML 或相关格式时[`DocumentSplitCriteria`](../htmlsaveoptions/documentsplitcriteria/) 被指定，文档被分成几部分，默认情况下，每个文档部分保存到一个单独的文件中。
 
-班级[`DocumentPartSavingArgs`](./documentpartsavingargs/)允许您控制如何保存每个文档部分。 它允许重新定义文件名的生成方式或通过提供您自己的流对象来完全避免将文档部分保存到 文件中。
+班级`DocumentPartSavingArgs`允许您控制如何保存每个文档部分。 它允许重新定义文件名的生成方式或通过提供您自己的流对象来完全避免将文档部分保存到 文件中。
 
 要将文档部分保存到流而不是文件中，请使用[`DocumentPartStream`](./documentpartstream/)财产。
 

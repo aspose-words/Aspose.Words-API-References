@@ -40,7 +40,7 @@ public class ChartDataLabel
 
 ### 评论
 
-在一个系列中，[`ChartDataLabel`](./chartdatalabel/)对象是[`ChartDataLabelCollection`](../chartdatalabelcollection/) 的[`ChartDataLabelCollection`](../chartdatalabelcollection/)包含一个[`ChartDataLabel`](./chartdatalabel/)每个点的对象。
+在一个系列中，`ChartDataLabel`对象是[`ChartDataLabelCollection`](../chartdatalabelcollection/) 的[`ChartDataLabelCollection`](../chartdatalabelcollection/)包含一个`ChartDataLabel`每个点的对象。
 
 ### 例子
 

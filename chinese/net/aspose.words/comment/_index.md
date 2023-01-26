@@ -53,7 +53,7 @@ public sealed class Comment : InlineStory
 | [ParentParagraph](../../aspose.words/inlinestory/parentparagraph/) { get; } | 检索父级[`Paragraph`](../paragraph/)这个节点的. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | 获取紧接在此节点之前的节点。 |
 | [Range](../../aspose.words/node/range/) { get; } | 返回一个 **范围**表示此节点中包含的文档部分的对象。 |
-| [Replies](../../aspose.words/comment/replies/) { get; } | 返回一个集合[`Comment`](./comment/)作为指定注释的直接子级的对象。 |
+| [Replies](../../aspose.words/comment/replies/) { get; } | 返回一个集合`Comment`作为指定注释的直接子级的对象。 |
 | override [StoryType](../../aspose.words/comment/storytype/) { get; } | 返回 **StoryType.Comments**. |
 | [Tables](../../aspose.words/inlinestory/tables/) { get; } | 获取作为故事直接子级的表的集合。 |
 
@@ -95,13 +95,13 @@ public sealed class Comment : InlineStory
 
 注释是锚定到文本区域或文本位置的注释。 评论可以包含任意数量的块级内容。
 
-如果一个[`Comment`](./comment/)对象自行发生，注释锚定到 的位置[`Comment`](./comment/)目的。
+如果一个`Comment`对象自行发生，注释锚定到 的位置`Comment`目的。
 
-要将注释锚定到文本区域，需要三个对象：[`Comment`](./comment/), [`CommentRangeStart`](../commentrangestart/)和[`CommentRangeEnd`](../commentrangeend/).所有三个对象都需要共享相同的 [`Id`](./id/)价值。
+要将注释锚定到文本区域，需要三个对象：`Comment`, [`CommentRangeStart`](../commentrangestart/)和[`CommentRangeEnd`](../commentrangeend/).所有三个对象都需要共享相同的 [`Id`](./id/)价值。
 
-[`Comment`](./comment/)是一个内联级节点，只能是[`Paragraph`](../paragraph/).
+`Comment`是一个内联级节点，只能是[`Paragraph`](../paragraph/).
 
-[`Comment`](./comment/)可以包含[`Paragraph`](../paragraph/)和[`Table`](../../aspose.words.tables/table/)子节点。
+`Comment`可以包含[`Paragraph`](../paragraph/)和[`Table`](../../aspose.words.tables/table/)子节点。
 
 ### 例子
 

@@ -27,7 +27,7 @@ public class CssSavingArgs
 
 默认情况下，当 Aspose.Words 将文档保存为 HTML 时，它会将 CSS 信息保存为 inline （作为 **风格**每个元素的属性）.
 
-[`CssSavingArgs`](./csssavingargs/)允许通过提供您自己的流对象将 CSS 信息保存到文件中。
+`CssSavingArgs`允许通过提供您自己的流对象将 CSS 信息保存到文件中。
 
 要将 CSS 保存到流中，请使用[`CssStream`](./cssstream/)财产。
 

@@ -97,9 +97,9 @@ public class Paragraph : CompositeNode
 
 ### 评论
 
-[`Paragraph`](./paragraph/)是块级节点，可以是派生自 的类的子节点[`Story`](../story/)或者[`InlineStory`](../inlinestory/).
+`Paragraph`是块级节点，可以是派生自 的类的子节点[`Story`](../story/)或者[`InlineStory`](../inlinestory/).
 
-[`Paragraph`](./paragraph/)可以包含任意数量的内联级节点和书签。
+`Paragraph`可以包含任意数量的内联级节点和书签。
 
 段落中可能出现的子节点的完整列表包括 [`BookmarkStart`](../bookmarkstart/),[`BookmarkEnd`](../bookmarkend/), [`FieldStart`](../../aspose.words.fields/fieldstart/),[`FieldSeparator`](../../aspose.words.fields/fieldseparator/), [`FieldEnd`](../../aspose.words.fields/fieldend/),[`FormField`](../../aspose.words.fields/formfield/), [`Comment`](../comment/),[`Footnote`](../../aspose.words.notes/footnote/), [`Run`](../run/),[`SpecialChar`](../specialchar/), [`Shape`](../../aspose.words.drawing/shape/),[`GroupShape`](../../aspose.words.drawing/groupshape/), [`SmartTag`](../../aspose.words.markup/smarttag/).
 

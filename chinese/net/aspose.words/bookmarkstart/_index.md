@@ -18,7 +18,7 @@ public class BookmarkStart : Node
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BookmarkStart](bookmarkstart/)(DocumentBase, string) | 初始化[`BookmarkStart`](./bookmarkstart/)类. |
+| [BookmarkStart](bookmarkstart/)(DocumentBase, string) | 初始化`BookmarkStart`类. |
 
 ## 特性
 
@@ -52,9 +52,9 @@ public class BookmarkStart : Node
 
 ### 评论
 
-Word 文档中的完整书签由[`BookmarkStart`](./bookmarkstart/) 和一个匹配的[`BookmarkEnd`](../bookmarkend/)具有相同的书签名称。
+Word 文档中的完整书签由`BookmarkStart` 和一个匹配的[`BookmarkEnd`](../bookmarkend/)具有相同的书签名称。
 
-[`BookmarkStart`](./bookmarkstart/)和[`BookmarkEnd`](../bookmarkend/)只是 document 中的标记，用于指定书签的开始和结束位置。
+`BookmarkStart`和[`BookmarkEnd`](../bookmarkend/)只是 document 中的标记，用于指定书签的开始和结束位置。
 
 使用[`Bookmark`](./bookmark/)类作为“门面”以将 bookmark 作为单个对象使用。
 

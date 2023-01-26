@@ -154,7 +154,7 @@ public sealed class Shape : ShapeBase
 
 ### 评论
 
-使用[`Shape`](./shape/)类，您可以在 Microsoft Word 文档中创建或修改形状。
+使用`Shape`类，您可以在 Microsoft Word 文档中创建或修改形状。
 
 形状的一个重要属性是它的[`ShapeType`](../shapebase/shapetype/).在 Word 文档中，不同 类型的形状可以具有不同的功能。例如，只有图像和 OLE 形状 可以在其中包含图像。大多数形状都可以有文本，但不是全部。
 

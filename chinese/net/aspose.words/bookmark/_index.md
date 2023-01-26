@@ -34,7 +34,7 @@ public class Bookmark
 
 ### 评论
 
-[`Bookmark`](./bookmark/)是一个封装了两个节点的“门面”对象[`BookmarkStart`](./bookmarkstart/) 和[`BookmarkEnd`](./bookmarkend/)在文档树中，并允许将书签作为单个对象使用。
+`Bookmark`是一个封装了两个节点的“门面”对象[`BookmarkStart`](./bookmarkstart/) 和[`BookmarkEnd`](./bookmarkend/)在文档树中，并允许将书签作为单个对象使用。
 
 ### 例子
 
