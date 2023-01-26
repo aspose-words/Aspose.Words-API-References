@@ -1,7 +1,7 @@
 ---
 title: FramesetCollection
 second_title: Aspose.Words for Java API Reference
-description: 
+description: Represents a collection of instances of the  class.
 type: docs
 weight: 305
 url: /java/com.aspose.words/framesetcollection/
@@ -15,14 +15,21 @@ java.lang.Iterable
 ```
 public class FramesetCollection implements Iterable
 ```
+
+Represents a collection of instances of the [Frameset](../../com.aspose.words/frameset) class.
+
+To learn more, visit the [ Programming with Documents ][Programming with Documents] documentation article.
+
+
+[Programming with Documents]: https://docs.aspose.com/words/java/programming-with-documents/
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [get(int index)](#get-int) |  |
+| [get(int index)](#get-int) | Gets a frame or frames page at the specified index. |
 | [getClass()](#getClass) |  |
-| [getCount()](#getCount) |  |
+| [getCount()](#getCount) | Gets the number of frames or frames pages contained in the collection. |
 | [hashCode()](#hashCode) |  |
 | [iterator()](#iterator) |  |
 | [notify()](#notify) |  |
@@ -52,7 +59,7 @@ public Frameset get(int index)
 ```
 
 
-
+Gets a frame or frames page at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -60,7 +67,7 @@ public Frameset get(int index)
 | index | int |  |
 
 **Returns:**
-[Frameset](../../com.aspose.words/frameset)
+[Frameset](../../com.aspose.words/frameset) - A frame or frames page at the specified index.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -77,10 +84,10 @@ public int getCount()
 ```
 
 
-
+Gets the number of frames or frames pages contained in the collection.
 
 **Returns:**
-int
+int - The number of frames or frames pages contained in the collection.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

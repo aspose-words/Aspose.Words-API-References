@@ -324,8 +324,8 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [Forms2OleControlCollection](../com.aspose.words/forms2olecontrolcollection) | Represents collection of [Forms2OleControl](../com.aspose.words/forms2olecontrol) objects. |
 | [Forms2OleControlType](../com.aspose.words/forms2olecontroltype) | Enumerates types of Forms 2.0 controls. |
 | [FrameFormat](../com.aspose.words/frameformat) | Represents frame related formatting for a paragraph. |
-| [Frameset](../com.aspose.words/frameset) |  |
-| [FramesetCollection](../com.aspose.words/framesetcollection) |  |
+| [Frameset](../com.aspose.words/frameset) | Represents a frames page or a single frame on a frames page. |
+| [FramesetCollection](../com.aspose.words/framesetcollection) | Represents a collection of instances of the [Frameset](../com.aspose.words/frameset) class. |
 | [GeneralFormat](../com.aspose.words/generalformat) | Specifies a general format that is applied to a numeric, text, or any field result. |
 | [GeneralFormatCollection](../com.aspose.words/generalformatcollection) | Represents a typed collection of general formats. |
 | [GlossaryDocument](../com.aspose.words/glossarydocument) | Represents the root element for a glossary document within a Word document. |
