@@ -3,7 +3,7 @@ title: set_IsHidden
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Drawing::Charts::ChartDataLabel::get_IsHidden.'
 type: docs
-weight: 222
+weight: 235
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/set_ishidden/
 ---
 ## ChartDataLabel::set_IsHidden method

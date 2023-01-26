@@ -3,7 +3,7 @@ title: Is
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 209
+weight: 222
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/is/
 ---
 ## ChartDataLabelCollection::Is method

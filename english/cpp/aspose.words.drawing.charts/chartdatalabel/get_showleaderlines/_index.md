@@ -3,7 +3,7 @@ title: get_ShowLeaderLines
 second_title: Aspose.Words for C++ API Reference
 description: Allows to specify if data label leader lines need be shown. Default value is false.
 type: docs
-weight: 131
+weight: 144
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_showleaderlines/
 ---
 ## ChartDataLabel::get_ShowLeaderLines method

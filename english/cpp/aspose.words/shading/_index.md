@@ -24,13 +24,21 @@ class Shading : public Aspose::Words::InternableComplexAttr,
 | [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::Shading\>\&) | Determines whether the specified [Shading](./) is equal in value to the current [Shading](./). |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
 | [get_BackgroundPatternColor](./get_backgroundpatterncolor/)() | Gets or sets the color that's applied to the background of the [Shading](./) object. |
+| [get_BackgroundPatternThemeColor](./get_backgroundpatternthemecolor/)() | Gets the background pattern theme color in the applied color scheme that is associated with this [Shading](./) object. |
+| [get_BackgroundTintAndShade](./get_backgroundtintandshade/)() | Gets or sets a double value that lightens or darkens a background theme color. |
 | [get_ForegroundPatternColor](./get_foregroundpatterncolor/)() | Gets or sets the color that's applied to the foreground of the [Shading](./) object. |
+| [get_ForegroundPatternThemeColor](./get_foregroundpatternthemecolor/)() | Gets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](./) object. |
+| [get_ForegroundTintAndShade](./get_foregroundtintandshade/)() | Gets or sets a double value that lightens or darkens a foreground theme color. |
 | [get_Texture](./get_texture/)() | Gets or sets the shading texture. |
 | [GetHashCode](./gethashcode/)() const override | Serves as a hash function for this type. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_BackgroundPatternColor](./set_backgroundpatterncolor/)(System::Drawing::Color) | Setter for [Aspose::Words::Shading::get_BackgroundPatternColor](./get_backgroundpatterncolor/). |
+| [set_BackgroundPatternThemeColor](./set_backgroundpatternthemecolor/)(Aspose::Words::Themes::ThemeColor) | Sets the background pattern theme color in the applied color scheme that is associated with this [Shading](./) object. |
+| [set_BackgroundTintAndShade](./set_backgroundtintandshade/)(double) | Setter for [Aspose::Words::Shading::get_BackgroundTintAndShade](./get_backgroundtintandshade/). |
 | [set_ForegroundPatternColor](./set_foregroundpatterncolor/)(System::Drawing::Color) | Setter for [Aspose::Words::Shading::get_ForegroundPatternColor](./get_foregroundpatterncolor/). |
+| [set_ForegroundPatternThemeColor](./set_foregroundpatternthemecolor/)(Aspose::Words::Themes::ThemeColor) | Sets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](./) object. |
+| [set_ForegroundTintAndShade](./set_foregroundtintandshade/)(double) | Setter for [Aspose::Words::Shading::get_ForegroundTintAndShade](./get_foregroundtintandshade/). |
 | [set_Texture](./set_texture/)(Aspose::Words::TextureIndex) | Setter for [Aspose::Words::Shading::get_Texture](./get_texture/). |
 | static [Type](./type/)() |  |
 
