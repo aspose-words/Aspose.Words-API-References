@@ -51,9 +51,9 @@ public sealed class CommentRangeStart : Node
 
 ### Anmärkningar
 
-För att skapa en kommentar förankrad till en textregion måste du skapa en[`Comment`](../comment/) and skapa sedan[`CommentRangeStart`](./commentrangestart/) och[`CommentRangeEnd`](../commentrangeend/)och ställ in deras identifierare till samma[`Id`](../comment/id/) värde.
+För att skapa en kommentar förankrad till en textregion måste du skapa en[`Comment`](../comment/) and skapa sedan`CommentRangeStart` och[`CommentRangeEnd`](../commentrangeend/)och ställ in deras identifierare till samma[`Id`](../comment/id/) värde.
 
-[`CommentRangeStart`](./commentrangestart/) är en nod på inline-nivå och kan bara vara ett barn till[`Paragraph`](../paragraph/).
+`CommentRangeStart` är en nod på inline-nivå och kan bara vara ett barn till[`Paragraph`](../paragraph/).
 
 ### Exempel
 

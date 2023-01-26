@@ -44,9 +44,9 @@ public class SubDocument : Node
 
 ### Anmärkningar
 
-I den här versionen av Aspose.Words,[`SubDocument`](./subdocument/) noder tillhandahåller inte offentliga metoder och egenskaper för att skapa eller ändra ett underdokument. I den här versionen kan du inte instantiate SubDocument-noder eller modifiera befintliga förutom att ta bort dem.
+I den här versionen av Aspose.Words,`SubDocument` noder tillhandahåller inte offentliga metoder och egenskaper för att skapa eller ändra ett underdokument. I den här versionen kan du inte instantiate SubDocument-noder eller modifiera befintliga förutom att ta bort dem.
 
-[`SubDocument`](./subdocument/) kan bara vara ett barn av[`Paragraph`](../paragraph/).
+`SubDocument` kan bara vara ett barn av[`Paragraph`](../paragraph/).
 
 ### Exempel
 

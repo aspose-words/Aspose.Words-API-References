@@ -46,9 +46,9 @@ public sealed class EditableRangeStart : Node
 
 ### Anmärkningar
 
-Ett komplett redigerbart område i ett Word-dokument består av en[`EditableRangeStart`](./editablerangestart/) och en matchande[`EditableRangeEnd`](../editablerangeend/) med samma id.
+Ett komplett redigerbart område i ett Word-dokument består av en`EditableRangeStart` och en matchande[`EditableRangeEnd`](../editablerangeend/) med samma id.
 
-[`EditableRangeStart`](./editablerangestart/) och[`EditableRangeEnd`](../editablerangeend/) är bara markörer inuti en document som anger var det redigerbara intervallet börjar och slutar.
+`EditableRangeStart` och[`EditableRangeEnd`](../editablerangeend/) är bara markörer inuti en document som anger var det redigerbara intervallet börjar och slutar.
 
 Använd[`EditableRange`](./editablerange/)klass som en "fasad" för att arbeta med ett redigerbart område som ett enda objekt.
 

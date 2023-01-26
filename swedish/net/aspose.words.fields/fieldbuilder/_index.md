@@ -18,7 +18,7 @@ public class FieldBuilder
 
 | namn | Beskrivning |
 | --- | --- |
-| [FieldBuilder](fieldbuilder/)(FieldType) | Initierar en instans av[`FieldBuilder`](./fieldbuilder/) class. |
+| [FieldBuilder](fieldbuilder/)(FieldType) | Initierar en instans av`FieldBuilder` class. |
 
 ## Metoder
 
@@ -26,7 +26,7 @@ public class FieldBuilder
 | --- | --- |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(double) | Lägger till ett fälts argument. |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(FieldArgumentBuilder) | Lägger till ett fälts argument representerat av[`FieldArgumentBuilder`](../fieldargumentbuilder/) till fältets kod. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | Lägger till ett underordnat fält som representeras av ett annat[`FieldBuilder`](./fieldbuilder/) till fältets kod. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | Lägger till ett underordnat fält som representeras av ett annat`FieldBuilder` till fältets kod. |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(int) | Lägger till ett fälts argument. |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(string) | Lägger till ett fälts argument. |
 | [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(string) | Lägger till ett fälts switch. |

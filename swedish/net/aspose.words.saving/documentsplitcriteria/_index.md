@@ -27,7 +27,7 @@ public enum DocumentSplitCriteria
 
 ### Anmärkningar
 
-[`DocumentSplitCriteria`](./documentsplitcriteria/)är en uppsättning flaggor som kan kombineras. Du kan till exempel dela upp document vid sidbrytningar och rubrikstycken i samma exportoperation.
+`DocumentSplitCriteria`är en uppsättning flaggor som kan kombineras. Du kan till exempel dela upp document vid sidbrytningar och rubrikstycken i samma exportoperation.
 
 Olika kriterier kan delvis överlappa varandra. Till exempel, **Rubrik 1** stil ges ofta [`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/) egendom så den faller under två kriterier:PageBreak och HeadingParagraph. Vissa avsnittsbrytningar kan orsaka sidbrytningar och så vidare. I typiska fall är det mest praktiska alternativet att specificera endast en flagga.
 

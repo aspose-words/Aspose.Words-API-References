@@ -43,7 +43,7 @@ public class OleFormat
 
 ### Anmärkningar
 
-Använd[`OleFormat`](../shape/oleformat/) egenskap för att komma åt data för ett OLE-objekt. Du skapar inte instanser av[`OleFormat`](./oleformat/) klass direkt.
+Använd[`OleFormat`](../shape/oleformat/) egenskap för att komma åt data för ett OLE-objekt. Du skapar inte instanser av`OleFormat` klass direkt.
 
 ### Exempel
 

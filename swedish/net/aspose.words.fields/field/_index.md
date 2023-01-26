@@ -42,7 +42,7 @@ public class Field
 
 ### Anmärkningar
 
-Ett fält i ett Word-dokument är en komplex struktur som består av flera noder som inkluderar fältstart, fältkod, fältseparator, fältresultat och fältslut. Fält kan kapslas, innehålla rikt innehåll och span flera stycken eller avsnitt i ett dokument. De[`Field`](./field/)class är ett "fasad"-objekt som ger egenskaper och metoder som gör det möjligt att arbeta med ett fält som ett enda objekt.
+Ett fält i ett Word-dokument är en komplex struktur som består av flera noder som inkluderar fältstart, fältkod, fältseparator, fältresultat och fältslut. Fält kan kapslas, innehålla rikt innehåll och span flera stycken eller avsnitt i ett dokument. De`Field`class är ett "fasad"-objekt som ger egenskaper och metoder som gör det möjligt att arbeta med ett fält som ett enda objekt.
 
 De[`Start`](./start/) ,[`Separator`](./separator/) och[`End`](./end/) egenskaper pekar på fältets start-, separator- och slutnod för fältet.
 
@@ -52,7 +52,7 @@ Processen att beräkna fältresultat kallas fältuppdatering. Aspose.Words kan u
 
 Du kan få en vanlig textversion av fältkoden med hjälp av[`GetFieldCode`](./getfieldcode/) method. Du kan hämta och ställa in oformaterad textversion av fältresultatet med hjälp av[`Result`](./result/) property. Både fältkoden och fältresultatet kan innehålla komplext innehåll, såsom kapslade fält, stycken, former, tabeller och i det här fallet kanske du vill arbeta med fältnoderna direkt om du behöver mer kontroll.
 
-Du skapar inte instanser av[`Field`](./field/) class direct. För att skapa ett nytt fält använd[`InsertField`](../../aspose.words/documentbuilder/insertfield/) metod.
+Du skapar inte instanser av`Field` class direct. För att skapa ett nytt fält använd[`InsertField`](../../aspose.words/documentbuilder/insertfield/) metod.
 
 ### Exempel
 

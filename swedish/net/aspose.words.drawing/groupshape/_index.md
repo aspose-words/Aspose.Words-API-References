@@ -132,9 +132,9 @@ public class GroupShape : ShapeBase
 
 ### Anmärkningar
 
-A[`GroupShape`](./groupshape/) är en sammansatt nod och kan ha[`Shape`](../shape/) och [`GroupShape`](./groupshape/) noder som barn.
+A`GroupShape` är en sammansatt nod och kan ha[`Shape`](../shape/) och `GroupShape` noder som barn.
 
-Varje[`GroupShape`](./groupshape/) definierar ett nytt koordinatsystem för dess underordnade former. Koordinatsystemet definieras med hjälp av[`CoordSize`](../shapebase/coordsize/) och [`CoordOrigin`](../shapebase/coordorigin/) egenskaper.
+Varje`GroupShape` definierar ett nytt koordinatsystem för dess underordnade former. Koordinatsystemet definieras med hjälp av[`CoordSize`](../shapebase/coordsize/) och [`CoordOrigin`](../shapebase/coordorigin/) egenskaper.
 
 ### Exempel
 

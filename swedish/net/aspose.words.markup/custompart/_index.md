@@ -42,7 +42,7 @@ Den här klassen representerar en OOXML-del som är ett mål för en "okänd rel
 
 Microsoft Word bevarar anpassade delar under öppna/spara-cykler. Lite ytterligare information kan hittas här http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
 
-Aspose.Words gör även anpassade delar tur och retur och tillåter dessutom att programmässigt komma åt sådana delar via[`CustomPart`](./custompart/) och[`CustomPartCollection`](../custompartcollection/) objekt.
+Aspose.Words gör även anpassade delar tur och retur och tillåter dessutom att programmässigt komma åt sådana delar via`CustomPart` och[`CustomPartCollection`](../custompartcollection/) objekt.
 
 Blanda inte ihop anpassade delar med anpassade XML-data. Använda sig av[`CustomXmlPart`](../customxmlpart/) om du behöver för att komma åt anpassade XML-data.
 

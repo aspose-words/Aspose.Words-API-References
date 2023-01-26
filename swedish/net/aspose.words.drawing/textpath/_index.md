@@ -41,7 +41,7 @@ public class TextPath
 
 ### Anmärkningar
 
-Använd[`TextPath`](../shape/textpath/) egenskap för att komma åt WordArt-egenskaper för en shape. Du skapar inte instanser av[`TextPath`](./textpath/) klass direkt.
+Använd[`TextPath`](../shape/textpath/) egenskap för att komma åt WordArt-egenskaper för en shape. Du skapar inte instanser av`TextPath` klass direkt.
 
 ### Exempel
 

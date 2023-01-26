@@ -67,7 +67,7 @@ Ett dokument representeras som ett träd av noder, liknande DOM eller XmlDocumen
 
 För mer information se Composite design mönster.
 
-De[`CompositeNode`](./compositenode/)klass:
+De`CompositeNode`klass:
 
 * Ger åtkomst till barnnoderna.
 * Implementerar sammansatta operationer som att sätta in och ta bort barn.

@@ -56,9 +56,9 @@ public class FieldStart : FieldChar
 
 ### Anmärkningar
 
-[`FieldStart`](./fieldstart/) är en nod på inline-nivå och representeras av the [`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) kontrolltecken i dokumentet.
+`FieldStart` är en nod på inline-nivå och representeras av the [`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) kontrolltecken i dokumentet.
 
-[`FieldStart`](./fieldstart/) kan bara vara ett barn av[`Paragraph`](../../aspose.words/paragraph/).
+`FieldStart` kan bara vara ett barn av[`Paragraph`](../../aspose.words/paragraph/).
 
 Ett komplett fält i ett Microsoft Word-dokument är en komplex struktur som består av ett fältstarttecken, fältkod, fältseparatortecken, fältresultat och fältsluttecken. Vissa fält har bara fältstart, fältkod och fältslut.
 

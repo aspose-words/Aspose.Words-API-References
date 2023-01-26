@@ -25,7 +25,7 @@ Antalet byten som gjorts.
 
 ### Anmärkningar
 
-Mönstret kommer inte att användas som reguljärt uttryck. Vänligen använd[`Replace`](./replace/) om du behöver reguljära uttryck.
+Mönstret kommer inte att användas som reguljärt uttryck. Vänligen använd`Replace` om du behöver reguljära uttryck.
 
 Använde skiftlägesokänslig jämförelse.
 
@@ -38,7 +38,7 @@ Du bör använda speciella meta-tecken om du behöver arbeta med pauser:
 * **&amp;m** - sidbrytning
 * **&amp;l** - manuell radbrytning
 
-Använd metod[`Replace`](./replace/) för att få mer flexibel anpassning.
+Använd metod`Replace` för att få mer flexibel anpassning.
 
 ### Exempel
 
@@ -139,7 +139,7 @@ Du bör använda speciella meta-tecken om du behöver arbeta med pauser:
 * **&amp;m** - sidbrytning
 * **&amp;l** - manuell radbrytning
 
-Använd metod[`Replace`](./replace/) för att få mer flexibel anpassning.
+Använd metod`Replace` för att få mer flexibel anpassning.
 
 ### Exempel
 
@@ -193,7 +193,7 @@ Antalet byten som gjorts.
 
 ### Anmärkningar
 
-Mönstret kommer inte att användas som reguljärt uttryck. Vänligen använd[`Replace`](./replace/) om du behöver reguljära uttryck.
+Mönstret kommer inte att användas som reguljärt uttryck. Vänligen använd`Replace` om du behöver reguljära uttryck.
 
 Metoden kan bearbeta avbrott i både mönster- och ersättningssträngar.
 

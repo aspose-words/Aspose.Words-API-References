@@ -34,9 +34,9 @@ public class ListCollection : IEnumerable<List>
 
 ### Anmärkningar
 
-En lista i ett Microsoft Word-dokument är en uppsättning listformateringsegenskaper. Formateringen av listorna lagras i[`ListCollection`](./listcollection/) samling separat från textstyckena.
+En lista i ett Microsoft Word-dokument är en uppsättning listformateringsegenskaper. Formateringen av listorna lagras i`ListCollection` samling separat från textstyckena.
 
-Du skapar inte objekt av den här klassen. Det finns alltid bara en[`ListCollection`](./listcollection/) objekt per dokument och det är tillgängligt via[`Lists`](../../aspose.words/documentbase/lists/) fast egendom.
+Du skapar inte objekt av den här klassen. Det finns alltid bara en`ListCollection` objekt per dokument och det är tillgängligt via[`Lists`](../../aspose.words/documentbase/lists/) fast egendom.
 
 För att skapa en ny lista baserad på en fördefinierad listmall eller baserad på en liststil, använd[`Add`](./add/) metod.
 

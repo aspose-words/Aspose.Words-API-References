@@ -41,7 +41,7 @@ public class List : IComparable<List>
 
 En lista i ett Microsoft Word-dokument är en uppsättning listformateringsegenskaper. Varje lista kan ha upp till 9 nivåer och formateringsegenskaper, såsom talstil, startvärde, indrag, tabbposition etc definieras separat för varje nivå.
 
-A[`List`](./list/) objektet tillhör alltid[`ListCollection`](../listcollection/) samling.
+A`List` objektet tillhör alltid[`ListCollection`](../listcollection/) samling.
 
 För att skapa en ny lista, använd Lägg till metoder för[`ListCollection`](../listcollection/) samling.
 

@@ -25,7 +25,7 @@ A[`Field`](../../../aspose.words.fields/field/) objekt som representerar det inf
 
 ### Anmärkningar
 
-Denna metod infogar ett fält i ett dokument. Aspose.Words kan uppdatera fält av de flesta typer, men inte alla. För mer information se the [`InsertField`](./insertfield/) överbelastning.
+Denna metod infogar ett fält i ett dokument. Aspose.Words kan uppdatera fält av de flesta typer, men inte alla. För mer information se the `InsertField` överbelastning.
 
 ### Exempel
 
@@ -97,7 +97,7 @@ A[`Field`](../../../aspose.words.fields/field/) objekt som representerar det inf
 
 ### Anmärkningar
 
-Denna metod infogar ett fält i ett dokument och uppdaterar fältresultatet omedelbart. Aspose.Words kan uppdatera fält av de flesta typer, men inte alla. För mer information se the [`InsertField`](./insertfield/) överbelastning.
+Denna metod infogar ett fält i ett dokument och uppdaterar fältresultatet omedelbart. Aspose.Words kan uppdatera fält av de flesta typer, men inte alla. För mer information se the `InsertField` överbelastning.
 
 ### Exempel
 

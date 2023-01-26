@@ -97,9 +97,9 @@ public class Paragraph : CompositeNode
 
 ### Anmärkningar
 
-[`Paragraph`](./paragraph/) är en nod på blocknivå och kan vara ett barn av klasser härledda från [`Story`](../story/) eller[`InlineStory`](../inlinestory/).
+`Paragraph` är en nod på blocknivå och kan vara ett barn av klasser härledda från [`Story`](../story/) eller[`InlineStory`](../inlinestory/).
 
-[`Paragraph`](./paragraph/) kan innehålla valfritt antal noder och bokmärken på inline-nivå.
+`Paragraph` kan innehålla valfritt antal noder och bokmärken på inline-nivå.
 
 Den fullständiga listan över underordnade noder som kan förekomma i ett stycke består av [`BookmarkStart`](../bookmarkstart/) ,[`BookmarkEnd`](../bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) , [`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../run/) ,[`SpecialChar`](../specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`SmartTag`](../../aspose.words.markup/smarttag/).
 

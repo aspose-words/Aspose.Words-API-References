@@ -55,9 +55,9 @@ public class FieldSeparator : FieldChar
 
 ### Anmärkningar
 
-[`FieldSeparator`](./fieldseparator/) är en nod på inline-nivå och representeras av[`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar/) kontrolltecken i dokumentet.
+`FieldSeparator` är en nod på inline-nivå och representeras av[`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar/) kontrolltecken i dokumentet.
 
-[`FieldSeparator`](./fieldseparator/) kan bara vara ett barn av[`Paragraph`](../../aspose.words/paragraph/).
+`FieldSeparator` kan bara vara ett barn av[`Paragraph`](../../aspose.words/paragraph/).
 
 Ett komplett fält i ett Microsoft Word-dokument är en komplex struktur som består av ett fältstarttecken, fältkod, fältseparatortecken, fältresultat och fältsluttecken. Vissa fält har bara fältstart, fältkod och fältslut.
 

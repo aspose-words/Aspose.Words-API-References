@@ -25,7 +25,7 @@ public class ReportingEngine
 | namn | Beskrivning |
 | --- | --- |
 | [KnownTypes](../../aspose.words.reporting/reportingengine/knowntypes/) { get; } | Får en oordnad uppsättning (dvs. en samling unika föremål) som innehållerTypeobjekt vilka helt eller delvis kvalificerade namn kan användas i rapportmallar som bearbetas av denna engine -instans för att anropa motsvarande typers statiska medlemmar, utföra typcasts, etc. |
-| [Options](../../aspose.words.reporting/reportingengine/options/) { get; set; } | Hämtar eller ställer in en uppsättning flaggor som styr beteendet för detta[`ReportingEngine`](./reportingengine/) instans medan du bygger en rapport. |
+| [Options](../../aspose.words.reporting/reportingengine/options/) { get; set; } | Hämtar eller ställer in en uppsättning flaggor som styr beteendet för detta`ReportingEngine` instans medan du bygger en rapport. |
 | static [UseReflectionOptimization](../../aspose.words.reporting/reportingengine/usereflectionoptimization/) { get; set; } | Hämtar eller ställer in ett värde som indikerar om anrop av anpassade typmedlemmar som utförs via reflektions-API är optimerade med dynamisk klassgenerering eller inte. Standardvärdet är sant. |
 
 ## Metoder

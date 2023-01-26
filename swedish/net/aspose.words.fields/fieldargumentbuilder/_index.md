@@ -18,7 +18,7 @@ public class FieldArgumentBuilder
 
 | namn | Beskrivning |
 | --- | --- |
-| [FieldArgumentBuilder](fieldargumentbuilder/)() | Initierar en instans av[`FieldArgumentBuilder`](./fieldargumentbuilder/) class. |
+| [FieldArgumentBuilder](fieldargumentbuilder/)() | Initierar en instans av`FieldArgumentBuilder` class. |
 
 ## Metoder
 

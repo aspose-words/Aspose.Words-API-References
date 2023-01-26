@@ -33,7 +33,7 @@ public class ChartDataPoint : IChartDataPoint
 
 ### Anmärkningar
 
-På en serie[`ChartDataPoint`](./chartdatapoint/) objektet är medlem i[`ChartDataPointCollection`](../chartdatapointcollection/) . Den[`ChartDataPointCollection`](../chartdatapointcollection/) innehåller en[`ChartDataPoint`](./chartdatapoint/) objekt för varje punkt.
+På en serie`ChartDataPoint` objektet är medlem i[`ChartDataPointCollection`](../chartdatapointcollection/) . Den[`ChartDataPointCollection`](../chartdatapointcollection/) innehåller en`ChartDataPoint` objekt för varje punkt.
 
 ### Exempel
 

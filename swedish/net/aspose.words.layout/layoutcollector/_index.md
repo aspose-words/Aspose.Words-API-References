@@ -38,7 +38,7 @@ public class LayoutCollector
 
 ### Anmärkningar
 
-När du skapar en[`LayoutCollector`](./layoutcollector/) och ange a[`Document`](../../aspose.words/document/)dokumentobjekt att bifoga till, samlaren kommer att spela in mappning av dokumentnoder till layoutobjekt när dokumentet formateras till sidor.
+När du skapar en`LayoutCollector` och ange a[`Document`](../../aspose.words/document/)dokumentobjekt att bifoga till, samlaren kommer att spela in mappning av dokumentnoder till layoutobjekt när dokumentet formateras till sidor.
 
 Du kommer att kunna ta reda på vilken sida en viss dokumentnod (t.ex. körning, stycke eller tabellcell) finns genom att använda[`GetStartPageIndex`](./getstartpageindex/) ,[`GetEndPageIndex`](./getendpageindex/) och[`GetNumPagesSpanned`](./getnumpagesspanned/) metoder. Dessa metoder bygger automatiskt en sidlayoutmodell av dokumentet och uppdaterar fält om det behövs.
 

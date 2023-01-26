@@ -27,7 +27,7 @@ public class DocumentPartSavingArgs
 
 När Aspose.Words sparar ett dokument till HTML eller relaterade format och[`DocumentSplitCriteria`](../htmlsaveoptions/documentsplitcriteria/) anges, dokumentet delas upp i delar och som standard sparas varje dokumentdel i en separat fil.
 
-Klass[`DocumentPartSavingArgs`](./documentpartsavingargs/) låter dig styra hur varje dokumentdel ska sparas. Det gör det möjligt att omdefiniera hur filnamn genereras eller att helt kringgå lagring av dokumentdelar i -filer genom att tillhandahålla dina egna strömobjekt.
+Klass`DocumentPartSavingArgs` låter dig styra hur varje dokumentdel ska sparas. Det gör det möjligt att omdefiniera hur filnamn genereras eller att helt kringgå lagring av dokumentdelar i -filer genom att tillhandahålla dina egna strömobjekt.
 
 För att spara dokumentdelar i strömmar istället för filer, använd[`DocumentPartStream`](./documentpartstream/) fast egendom.
 

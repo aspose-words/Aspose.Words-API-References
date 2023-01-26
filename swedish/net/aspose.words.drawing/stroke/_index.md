@@ -41,7 +41,7 @@ public class Stroke
 
 ### Anmärkningar
 
-Använd[`Stroke`](../shape/stroke/)egenskap för att komma åt strokeegenskaper för en shape. Du skapar inte instanser av[`Stroke`](./stroke/) klass direkt.
+Använd[`Stroke`](../shape/stroke/)egenskap för att komma åt strokeegenskaper för en shape. Du skapar inte instanser av`Stroke` klass direkt.
 
 ### Exempel
 

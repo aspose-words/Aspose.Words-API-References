@@ -53,7 +53,7 @@ public sealed class Comment : InlineStory
 | [ParentParagraph](../../aspose.words/inlinestory/parentparagraph/) { get; } | Hämtar föräldern[`Paragraph`](../paragraph/) av denna nod. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
 | [Range](../../aspose.words/node/range/) { get; } | Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod. |
-| [Replies](../../aspose.words/comment/replies/) { get; } | Returnerar en samling av[`Comment`](./comment/) objekt som är omedelbara underordnade av den angivna kommentaren. |
+| [Replies](../../aspose.words/comment/replies/) { get; } | Returnerar en samling av`Comment` objekt som är omedelbara underordnade av den angivna kommentaren. |
 | override [StoryType](../../aspose.words/comment/storytype/) { get; } | Returnerar **StoryType.Comments** . |
 | [Tables](../../aspose.words/inlinestory/tables/) { get; } | Får en samling tabeller som är omedelbara barn till berättelsen. |
 
@@ -95,13 +95,13 @@ public sealed class Comment : InlineStory
 
 En kommentar är en anteckning som är förankrad till ett textområde eller till en position i text. En kommentar kan innehålla en godtycklig mängd innehåll på blocknivå.
 
-Om en[`Comment`](./comment/) objektet uppstår av sig självt, är kommentaren förankrad till positionen för[`Comment`](./comment/) objekt.
+Om en`Comment` objektet uppstår av sig självt, är kommentaren förankrad till positionen för`Comment` objekt.
 
-För att förankra en kommentar till en textregion krävs tre objekt:[`Comment`](./comment/) , [`CommentRangeStart`](../commentrangestart/) och[`CommentRangeEnd`](../commentrangeend/) Alla tre objekt måste dela same [`Id`](./id/) värde.
+För att förankra en kommentar till en textregion krävs tre objekt:`Comment` , [`CommentRangeStart`](../commentrangestart/) och[`CommentRangeEnd`](../commentrangeend/) Alla tre objekt måste dela same [`Id`](./id/) värde.
 
-[`Comment`](./comment/) är en nod på inline-nivå och kan bara vara ett barn till[`Paragraph`](../paragraph/).
+`Comment` är en nod på inline-nivå och kan bara vara ett barn till[`Paragraph`](../paragraph/).
 
-[`Comment`](./comment/) kan innehålla[`Paragraph`](../paragraph/) och[`Table`](../../aspose.words.tables/table/) barnnoder.
+`Comment` kan innehålla[`Paragraph`](../paragraph/) och[`Table`](../../aspose.words.tables/table/) barnnoder.
 
 ### Exempel
 

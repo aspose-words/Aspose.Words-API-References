@@ -27,7 +27,7 @@ public class CsvDataSource
 
 För att komma åt data för motsvarande fil eller ström medan du genererar en rapport, skicka en instans av den här klassen as en datakälla till en av[`ReportingEngine`](../reportingengine/) .BuildReport overloads.
 
-I malldokument, en[`CsvDataSource`](./csvdatasource/) instans bör behandlas på samma sätt som om den var aDataTable instans. För mer information, se mallsyntaxreferens (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+I malldokument, en`CsvDataSource` instans bör behandlas på samma sätt som om den var aDataTable instans. För mer information, se mallsyntaxreferens (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 Datatyper av kommaseparerade värden bestäms automatiskt efter deras strängrepresentationer. Så i template -dokument kan du arbeta med inskrivna värden snarare än bara strängar. Motorn kan automatiskt känna igen värden av följande typer:
 

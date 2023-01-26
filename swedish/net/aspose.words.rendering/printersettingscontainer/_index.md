@@ -30,7 +30,7 @@ public class PrinterSettingsContainer
 
 ### Anmärkningar
 
-Tillgång till data förPrinterSettings tar lång tid. [`PrinterSettingsContainer`](./printersettingscontainer/) cachar parametrar frånPrinterSettings , så utskriften fungerar snabbare.
+Tillgång till data förPrinterSettings tar lång tid. `PrinterSettingsContainer` cachar parametrar frånPrinterSettings , så utskriften fungerar snabbare.
 
 ### Exempel
 
