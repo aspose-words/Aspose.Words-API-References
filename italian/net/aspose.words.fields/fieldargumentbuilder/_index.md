@@ -18,7 +18,7 @@ public class FieldArgumentBuilder
 
 | Nome | Descrizione |
 | --- | --- |
-| [FieldArgumentBuilder](fieldargumentbuilder/)() | Inizializza un'istanza di[`FieldArgumentBuilder`](./fieldargumentbuilder/) classe. |
+| [FieldArgumentBuilder](fieldargumentbuilder/)() | Inizializza un'istanza di`FieldArgumentBuilder` classe. |
 
 ## Metodi
 

@@ -25,7 +25,7 @@ UN[`Field`](../../../aspose.words.fields/field/) oggetto che rappresenta il camp
 
 ### Osservazioni
 
-Questo metodo inserisce un campo in un documento. Aspose.Words può aggiornare i campi della maggior parte dei tipi, ma non di tutti. Per maggiori dettagli vedere il [`InsertField`](./insertfield/) sovraccarico.
+Questo metodo inserisce un campo in un documento. Aspose.Words può aggiornare i campi della maggior parte dei tipi, ma non di tutti. Per maggiori dettagli vedere il `InsertField` sovraccarico.
 
 ### Esempi
 
@@ -97,7 +97,7 @@ UN[`Field`](../../../aspose.words.fields/field/) oggetto che rappresenta il camp
 
 ### Osservazioni
 
-Questo metodo inserisce un campo in un documento e aggiorna immediatamente il risultato del campo. Aspose.Words può aggiornare i campi della maggior parte dei tipi, ma non di tutti. Per maggiori dettagli vedere il [`InsertField`](./insertfield/) sovraccarico.
+Questo metodo inserisce un campo in un documento e aggiorna immediatamente il risultato del campo. Aspose.Words può aggiornare i campi della maggior parte dei tipi, ma non di tutti. Per maggiori dettagli vedere il `InsertField` sovraccarico.
 
 ### Esempi
 

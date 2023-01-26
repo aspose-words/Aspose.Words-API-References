@@ -27,7 +27,7 @@ public class CsvDataSource
 
 Per accedere ai dati del file o del flusso corrispondente durante la generazione di un report, passare un'istanza di questa classe come un'origine dati a uno dei[`ReportingEngine`](../reportingengine/) .BuildReport sovraccarichi.
 
-Nei documenti modello, a[`CsvDataSource`](./csvdatasource/) l'istanza dovrebbe essere trattata come se fosse aDataTable istanza. Per ulteriori informazioni, vedere riferimento alla sintassi del modello (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+Nei documenti modello, a`CsvDataSource` l'istanza dovrebbe essere trattata come se fosse aDataTable istanza. Per ulteriori informazioni, vedere riferimento alla sintassi del modello (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 I tipi di dati dei valori separati da virgole vengono determinati automaticamente in base alle loro rappresentazioni di stringa. Quindi, nei documenti template , puoi lavorare con valori digitati anziché solo stringhe. Il motore è in grado di riconoscere automaticamente i valori dei seguenti tipi:
 

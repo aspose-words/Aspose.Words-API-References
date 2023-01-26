@@ -18,7 +18,7 @@ public class SmartTag : CompositeNode
 
 | Nome | Descrizione |
 | --- | --- |
-| [SmartTag](smarttag/)(DocumentBase) | Inizializza una nuova istanza di[`SmartTag`](./smarttag/) classe. |
+| [SmartTag](smarttag/)(DocumentBase) | Inizializza una nuova istanza di`SmartTag` classe. |
 
 ## Proprietà
 
@@ -64,7 +64,7 @@ public class SmartTag : CompositeNode
 | [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Rimuove tutti i nodi figlio del nodo corrente. |
 | [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Rimuove il nodo figlio specificato. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Rimuove tutto[`SmartTag`](./smarttag/) nodi discendenti del nodo corrente. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Rimuove tutto`SmartTag` nodi discendenti del nodo corrente. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Seleziona un elenco di nodi che corrispondono all'espressione XPath. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Seleziona il primo nodo che corrisponde all'espressione XPath. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
@@ -74,9 +74,9 @@ public class SmartTag : CompositeNode
 
 Gli smart tag sono una sorta di markup XML personalizzato. Gli smart tag forniscono una funzione per incorporare la semantica definita dal cliente nel documento tramite la capacità di fornire uno spazio dei nomi/nome di base per una corsa o un insieme di esecuzioni all'interno di un documento.
 
-[`SmartTag`](./smarttag/) può essere figlio di a[`Paragraph`](../../aspose.words/paragraph/) o un altro[`SmartTag`](./smarttag/) nodo.
+`SmartTag` può essere figlio di a[`Paragraph`](../../aspose.words/paragraph/) o un altro`SmartTag` nodo.
 
-L'elenco completo dei nodi figlio che possono verificarsi all'interno di uno smart tag è costituito da [`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , [`SmartTag`](./smarttag/).
+L'elenco completo dei nodi figlio che possono verificarsi all'interno di uno smart tag è costituito da [`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , `SmartTag`.
 
 ### Esempi
 

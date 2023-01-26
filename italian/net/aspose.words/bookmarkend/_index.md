@@ -18,7 +18,7 @@ public class BookmarkEnd : Node
 
 | Nome | Descrizione |
 | --- | --- |
-| [BookmarkEnd](bookmarkend/)(DocumentBase, string) | Inizializza una nuova istanza di[`BookmarkEnd`](./bookmarkend/) classe. |
+| [BookmarkEnd](bookmarkend/)(DocumentBase, string) | Inizializza una nuova istanza di`BookmarkEnd` classe. |
 
 ## Proprietà
 
@@ -51,9 +51,9 @@ public class BookmarkEnd : Node
 
 ### Osservazioni
 
-Un segnalibro completo in un documento di Word è costituito da a[`BookmarkStart`](../bookmarkstart/) e una corrispondenza[`BookmarkEnd`](./bookmarkend/) con lo stesso nome del segnalibro.
+Un segnalibro completo in un documento di Word è costituito da a[`BookmarkStart`](../bookmarkstart/) e una corrispondenza`BookmarkEnd` con lo stesso nome del segnalibro.
 
-[`BookmarkStart`](../bookmarkstart/) e[`BookmarkEnd`](./bookmarkend/) sono solo marcatori all'interno di un documento che specificano dove inizia e finisce il segnalibro.
+[`BookmarkStart`](../bookmarkstart/) e`BookmarkEnd` sono solo marcatori all'interno di un documento che specificano dove inizia e finisce il segnalibro.
 
 Utilizzare il[`Bookmark`](../bookmark/) class come una "facciata" per lavorare con un bookmark come un singolo oggetto.
 

@@ -41,7 +41,7 @@ public class List : IComparable<List>
 
 Un elenco in un documento di Microsoft Word è un insieme di proprietà di formattazione dell'elenco. Ogni elenco può avere fino a 9 livelli e le proprietà di formattazione, come lo stile del numero, il valore iniziale, il rientro , la posizione di tabulazione ecc. sono definite separatamente per ogni livello.
 
-UN[`List`](./list/) l'oggetto appartiene sempre al[`ListCollection`](../listcollection/) collezione.
+UN`List` l'oggetto appartiene sempre al[`ListCollection`](../listcollection/) collezione.
 
 Per creare un nuovo elenco, utilizzare i metodi Aggiungi di[`ListCollection`](../listcollection/) collezione.
 

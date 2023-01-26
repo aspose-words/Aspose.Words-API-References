@@ -28,7 +28,7 @@ public class ResourceSavingArgs
 
 Per impostazione predefinita, quando Aspose.Words salva un documento in HTML o SVG a pagina fissa, salva ogni risorsa in un file separato. Aspose.Words utilizza il nome del file del documento e un numero univoco per generare un nome file univoco per ciascuna risorsa trovata nel documento.
 
-[`ResourceSavingArgs`](./resourcesavingargs/) consente di ridefinire il modo in cui vengono generati i nomi dei file di risorse o di eludere completamente il salvataggio di risorse nei file fornendo i propri oggetti flusso.
+`ResourceSavingArgs` consente di ridefinire il modo in cui vengono generati i nomi dei file di risorse o di eludere completamente il salvataggio di risorse nei file fornendo i propri oggetti flusso.
 
 Per applicare la tua logica per la generazione di nomi di file di risorse, usa [`ResourceFileName`](./resourcefilename/) proprietà.
 

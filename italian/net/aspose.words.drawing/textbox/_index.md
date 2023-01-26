@@ -39,7 +39,7 @@ public class TextBox
 
 ### Osservazioni
 
-Utilizzare il[`TextBox`](../shape/textbox/) per accedere alle proprietà di testo di una forma. Non si creano istanze di[`TextBox`](./textbox/) classe direttamente.
+Utilizzare il[`TextBox`](../shape/textbox/) per accedere alle proprietà di testo di una forma. Non si creano istanze di`TextBox` classe direttamente.
 
 ### Esempi
 

@@ -56,9 +56,9 @@ public class FieldEnd : FieldChar
 
 ### Osservazioni
 
-[`FieldEnd`](./fieldend/) è un nodo inline e rappresentato da[`FieldEndChar`](../../aspose.words/controlchar/fieldendchar/) carattere di controllo nel documento.
+`FieldEnd` è un nodo inline e rappresentato da[`FieldEndChar`](../../aspose.words/controlchar/fieldendchar/) carattere di controllo nel documento.
 
-[`FieldEnd`](./fieldend/) può essere solo un figlio di[`Paragraph`](../../aspose.words/paragraph/).
+`FieldEnd` può essere solo un figlio di[`Paragraph`](../../aspose.words/paragraph/).
 
 Un campo completo in un documento di Microsoft Word è una struttura complessa composta da un carattere di inizio campo, codice campo, carattere separatore campo, risultato campo e carattere di fine campo. Alcuni campi hanno solo inizio campo, codice campo e fine campo.
 

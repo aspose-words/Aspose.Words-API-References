@@ -25,7 +25,7 @@ Il numero di sostituzioni effettuate.
 
 ### Osservazioni
 
-Il modello non verrà utilizzato come espressione regolare. Utilizzare[`Replace`](./replace/) se hai bisogno di espressioni regolari.
+Il modello non verrà utilizzato come espressione regolare. Utilizzare`Replace` se hai bisogno di espressioni regolari.
 
 Usato confronto senza distinzione tra maiuscole e minuscole.
 
@@ -38,7 +38,7 @@ Dovresti usare meta-caratteri speciali se devi lavorare con le interruzioni:
 * **&amp;m** - interruzione di pagina
 * **&amp;l** - interruzione di riga manuale
 
-Usa metodo[`Replace`](./replace/) per avere una personalizzazione più flessibile.
+Usa metodo`Replace` per avere una personalizzazione più flessibile.
 
 ### Esempi
 
@@ -139,7 +139,7 @@ Dovresti usare meta-caratteri speciali se devi lavorare con le interruzioni:
 * **&amp;m** - interruzione di pagina
 * **&amp;l** - interruzione di riga manuale
 
-Usa metodo[`Replace`](./replace/) per avere una personalizzazione più flessibile.
+Usa metodo`Replace` per avere una personalizzazione più flessibile.
 
 ### Esempi
 
@@ -193,7 +193,7 @@ Il numero di sostituzioni effettuate.
 
 ### Osservazioni
 
-Il modello non verrà utilizzato come espressione regolare. Utilizzare[`Replace`](./replace/) se hai bisogno di espressioni regolari.
+Il modello non verrà utilizzato come espressione regolare. Utilizzare`Replace` se hai bisogno di espressioni regolari.
 
 Il metodo è in grado di elaborare le interruzioni sia nel pattern che nelle stringhe di sostituzione.
 

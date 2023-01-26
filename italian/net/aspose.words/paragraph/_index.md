@@ -97,9 +97,9 @@ public class Paragraph : CompositeNode
 
 ### Osservazioni
 
-[`Paragraph`](./paragraph/) è un nodo a livello di blocco e può essere figlio di classi derivate da [`Story`](../story/) o[`InlineStory`](../inlinestory/).
+`Paragraph` è un nodo a livello di blocco e può essere figlio di classi derivate da [`Story`](../story/) o[`InlineStory`](../inlinestory/).
 
-[`Paragraph`](./paragraph/) può contenere un numero qualsiasi di nodi e segnalibri a livello di linea.
+`Paragraph` può contenere un numero qualsiasi di nodi e segnalibri a livello di linea.
 
 L'elenco completo dei nodi figlio che possono verificarsi all'interno di un paragrafo è composto da [`BookmarkStart`](../bookmarkstart/) ,[`BookmarkEnd`](../bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) , [`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../run/) ,[`SpecialChar`](../specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`SmartTag`](../../aspose.words.markup/smarttag/).
 

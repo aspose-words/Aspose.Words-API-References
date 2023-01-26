@@ -29,7 +29,7 @@ public class ImageSavingArgs
 
 Per impostazione predefinita, quando Aspose.Words salva un documento in HTML, salva ogni immagine in un file separato. Aspose.Words utilizza il nome del file del documento e un numero univoco per generare un nome file univoco per ogni immagine trovata nel documento.
 
-[`ImageSavingArgs`](./imagesavingargs/) consente di ridefinire il modo in cui vengono generati i nomi dei file di immagine o di eludere completamente il salvataggio delle immagini nei file fornendo i propri oggetti flusso.
+`ImageSavingArgs` consente di ridefinire il modo in cui vengono generati i nomi dei file di immagine o di eludere completamente il salvataggio delle immagini nei file fornendo i propri oggetti flusso.
 
 Per applicare la tua logica per la generazione di nomi di file immagine, usa [`ImageFileName`](./imagefilename/) ,[`CurrentShape`](./currentshape/) e[`IsImageAvailable`](./isimageavailable/) proprietà.
 

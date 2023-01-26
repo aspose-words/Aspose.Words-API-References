@@ -20,7 +20,7 @@ Il nodo finale dell'intervallo modificabile appena creato.
 
 ### Osservazioni
 
-L'intervallo modificabile in un documento può sovrapporsi e estendersi a qualsiasi intervallo. Per creare un intervallo modificabile valido devi chiamare entrambi[`StartEditableRange`](../starteditablerange/) e`EndEditableRange` o[`EndEditableRange`](./endeditablerange/)metodi.
+L'intervallo modificabile in un documento può sovrapporsi e estendersi a qualsiasi intervallo. Per creare un intervallo modificabile valido devi chiamare entrambi[`StartEditableRange`](../starteditablerange/) e`EndEditableRange` o`EndEditableRange`metodi.
 
 L'intervallo modificabile formato in modo errato verrà ignorato quando il documento viene salvato.
 
@@ -96,7 +96,7 @@ Il nodo finale dell'intervallo modificabile appena creato.
 
 Utilizzare questo sovraccarico durante la creazione di intervalli modificabili nidificati.
 
-L'intervallo modificabile in un documento può sovrapporsi e estendersi a qualsiasi intervallo. Per creare un intervallo modificabile valido devi chiamare entrambi[`StartEditableRange`](../starteditablerange/) e[`EndEditableRange`](./endeditablerange/) o`EndEditableRange`metodi.
+L'intervallo modificabile in un documento può sovrapporsi e estendersi a qualsiasi intervallo. Per creare un intervallo modificabile valido devi chiamare entrambi[`StartEditableRange`](../starteditablerange/) e`EndEditableRange` o`EndEditableRange`metodi.
 
 L'intervallo modificabile formato in modo errato verrà ignorato quando il documento viene salvato.
 

@@ -28,9 +28,9 @@ public class AsposeWordsPrintDocument : PrintDocument
 
 ### Osservazioni
 
-[`AsposeWordsPrintDocument`](./asposewordsprintdocument/) sovrascrivePrintEventArgs) per stampare l'intervallo di pagine specificato inPrinterSettings.
+`AsposeWordsPrintDocument` sovrascrivePrintEventArgs) per stampare l'intervallo di pagine specificato inPrinterSettings.
 
-Un singolo documento Word può essere costituito da più sezioni che specificano pagine con dimensioni diverse, orientamento e vassoi carta.[`AsposeWordsPrintDocument`](./asposewordsprintdocument/) sostituzioni QueryPageSettingsEventArgs) per selezionare correttamente il formato carta, l'orientamento e l'origine carta durante la stampa di un documento Word.
+Un singolo documento Word può essere costituito da più sezioni che specificano pagine con dimensioni diverse, orientamento e vassoi carta.`AsposeWordsPrintDocument` sostituzioni QueryPageSettingsEventArgs) per selezionare correttamente il formato carta, l'orientamento e l'origine carta durante la stampa di un documento Word.
 
 Microsoft Word memorizza i valori specifici della stampante per i vassoi carta in un documento Word e, pertanto, stampando solo sullo stesso modello di stampante di quello selezionato quando l'utente ha specificato i vassoi carta risulterà nella stampa dai vassoi corretti. Se si stampa un documento su una stampante diversa, molto probabilmente verrà utilizzato il vassoio carta predefinito, non i vassoi specificati nel documento.
 

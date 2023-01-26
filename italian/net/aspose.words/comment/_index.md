@@ -53,7 +53,7 @@ public sealed class Comment : InlineStory
 | [ParentParagraph](../../aspose.words/inlinestory/parentparagraph/) { get; } | Recupera il genitore[`Paragraph`](../paragraph/) di questo nodo. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ottiene il nodo immediatamente precedente a questo nodo. |
 | [Range](../../aspose.words/node/range/) { get; } | Restituisce a **Gamma** oggetto che rappresenta la parte di un documento contenuta in questo nodo. |
-| [Replies](../../aspose.words/comment/replies/) { get; } | Restituisce una raccolta di[`Comment`](./comment/) oggetti che sono figli immediati del commento specificato. |
+| [Replies](../../aspose.words/comment/replies/) { get; } | Restituisce una raccolta di`Comment` oggetti che sono figli immediati del commento specificato. |
 | override [StoryType](../../aspose.words/comment/storytype/) { get; } | Restituisce **StoryType.Commenti** . |
 | [Tables](../../aspose.words/inlinestory/tables/) { get; } | Ottiene una raccolta di tabelle che sono figli immediati della storia. |
 
@@ -95,13 +95,13 @@ public sealed class Comment : InlineStory
 
 Un commento è un'annotazione ancorata a un'area di testo oa una posizione nel testo. Un commento può contenere una quantità arbitraria di contenuto a livello di blocco.
 
-Se una[`Comment`](./comment/) l'oggetto si verifica da solo, il commento è ancorato a la posizione del[`Comment`](./comment/) oggetto.
+Se una`Comment` l'oggetto si verifica da solo, il commento è ancorato a la posizione del`Comment` oggetto.
 
-Per ancorare un commento a un'area di testo sono necessari tre oggetti:[`Comment`](./comment/) , [`CommentRangeStart`](../commentrangestart/) e[`CommentRangeEnd`](../commentrangeend/) Tutti e tre gli oggetti devono condividere lo stesso [`Id`](./id/) valore.
+Per ancorare un commento a un'area di testo sono necessari tre oggetti:`Comment` , [`CommentRangeStart`](../commentrangestart/) e[`CommentRangeEnd`](../commentrangeend/) Tutti e tre gli oggetti devono condividere lo stesso [`Id`](./id/) valore.
 
-[`Comment`](./comment/) è un nodo inline e può essere solo un figlio di[`Paragraph`](../paragraph/).
+`Comment` è un nodo inline e può essere solo un figlio di[`Paragraph`](../paragraph/).
 
-[`Comment`](./comment/) può contenere[`Paragraph`](../paragraph/) e[`Table`](../../aspose.words.tables/table/) nodi figli.
+`Comment` può contenere[`Paragraph`](../paragraph/) e[`Table`](../../aspose.words.tables/table/) nodi figli.
 
 ### Esempi
 

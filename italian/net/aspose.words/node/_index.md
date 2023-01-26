@@ -49,7 +49,7 @@ Un documento è rappresentato come un albero di nodi, simile a DOM o XmlDocument
 
 Per ulteriori informazioni, vedere il modello di progettazione Composite.
 
-Il[`Node`](./node/)classe:
+Il`Node`classe:
 
 * Definisce l'interfaccia del nodo figlio.
 * Definisce l'interfaccia per visitare i nodi.

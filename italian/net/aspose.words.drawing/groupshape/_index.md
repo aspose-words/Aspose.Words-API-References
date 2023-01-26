@@ -132,9 +132,9 @@ public class GroupShape : ShapeBase
 
 ### Osservazioni
 
-UN[`GroupShape`](./groupshape/) è un nodo composito e può avere[`Shape`](../shape/) e [`GroupShape`](./groupshape/) nodi da bambini.
+UN`GroupShape` è un nodo composito e può avere[`Shape`](../shape/) e `GroupShape` nodi da bambini.
 
-A testa[`GroupShape`](./groupshape/) definisce un nuovo sistema di coordinate per le sue forme figlie. Il sistema di coordinate viene definito utilizzando il[`CoordSize`](../shapebase/coordsize/) e [`CoordOrigin`](../shapebase/coordorigin/) proprietà.
+A testa`GroupShape` definisce un nuovo sistema di coordinate per le sue forme figlie. Il sistema di coordinate viene definito utilizzando il[`CoordSize`](../shapebase/coordsize/) e [`CoordOrigin`](../shapebase/coordorigin/) proprietà.
 
 ### Esempi
 

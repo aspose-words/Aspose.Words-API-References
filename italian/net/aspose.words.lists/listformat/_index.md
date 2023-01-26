@@ -37,13 +37,13 @@ public class ListFormat
 
 Un paragrafo in un documento di Microsoft Word può essere puntato o numerato. Quando un paragrafo è puntato o numerato, si dice che al paragrafo viene applicata la formattazione dell'elenco .
 
-Non crei oggetti del[`ListFormat`](./listformat/) classe direttamente. Si accede[`ListFormat`](./listformat/) come proprietà di un altro oggetto che può avere una formattazione elenco associata. Al momento gli oggetti che possono avere la formattazione della lista sono:[`Paragraph`](../../aspose.words/paragraph/) , [`Style`](../../aspose.words/style/) e[`DocumentBuilder`](../../aspose.words/documentbuilder/).
+Non crei oggetti del`ListFormat` classe direttamente. Si accede`ListFormat` come proprietà di un altro oggetto che può avere una formattazione elenco associata. Al momento gli oggetti che possono avere la formattazione della lista sono:[`Paragraph`](../../aspose.words/paragraph/) , [`Style`](../../aspose.words/style/) e[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
-[`ListFormat`](./listformat/) di un[`Paragraph`](../../aspose.words/paragraph/) specifica quale formattazione e livello di elenco viene applicato a quel particolare paragrafo.
+`ListFormat` di un[`Paragraph`](../../aspose.words/paragraph/) specifica quale formattazione e livello di elenco viene applicato a quel particolare paragrafo.
 
-[`ListFormat`](./listformat/) di un[`Style`](../../aspose.words/style/)(applicabile solo agli stili di paragrafo) consente di specificare la formattazione dell'elenco e il livello di elenco da applicare a tutti i paragrafi di quel particolare stile.
+`ListFormat` di un[`Style`](../../aspose.words/style/)(applicabile solo agli stili di paragrafo) consente di specificare la formattazione dell'elenco e il livello di elenco da applicare a tutti i paragrafi di quel particolare stile.
 
-[`ListFormat`](./listformat/) di un[`DocumentBuilder`](../../aspose.words/documentbuilder/) fornisce l'accesso alla formattazione dell'elenco nella posizione corrente del cursore all'interno del[`DocumentBuilder`](../../aspose.words/documentbuilder/).
+`ListFormat` di un[`DocumentBuilder`](../../aspose.words/documentbuilder/) fornisce l'accesso alla formattazione dell'elenco nella posizione corrente del cursore all'interno del[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
 La stessa formattazione dell'elenco è memorizzata all'interno di a[`List`](../list/) oggetto memorizzato separatamente dai paragrafi. L'elenco oggetti sono archiviati all'interno di a[`ListCollection`](../listcollection/) collezione. C'è un singolo [`ListCollection`](../listcollection/) raccolta per[`Document`](../../aspose.words/document/).
 

@@ -18,7 +18,7 @@ public class BookmarkStart : Node
 
 | Nome | Descrizione |
 | --- | --- |
-| [BookmarkStart](bookmarkstart/)(DocumentBase, string) | Inizializza una nuova istanza di[`BookmarkStart`](./bookmarkstart/) classe. |
+| [BookmarkStart](bookmarkstart/)(DocumentBase, string) | Inizializza una nuova istanza di`BookmarkStart` classe. |
 
 ## Proprietà
 
@@ -52,9 +52,9 @@ public class BookmarkStart : Node
 
 ### Osservazioni
 
-Un segnalibro completo in un documento di Word è costituito da a[`BookmarkStart`](./bookmarkstart/) e una corrispondenza[`BookmarkEnd`](../bookmarkend/) con lo stesso nome del segnalibro.
+Un segnalibro completo in un documento di Word è costituito da a`BookmarkStart` e una corrispondenza[`BookmarkEnd`](../bookmarkend/) con lo stesso nome del segnalibro.
 
-[`BookmarkStart`](./bookmarkstart/) e[`BookmarkEnd`](../bookmarkend/) sono solo marcatori all'interno di un documento che specificano dove inizia e finisce il segnalibro.
+`BookmarkStart` e[`BookmarkEnd`](../bookmarkend/) sono solo marcatori all'interno di un documento che specificano dove inizia e finisce il segnalibro.
 
 Utilizzare il[`Bookmark`](./bookmark/) class come una "facciata" per lavorare con un bookmark come un singolo oggetto.
 

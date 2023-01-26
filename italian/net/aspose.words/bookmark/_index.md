@@ -34,7 +34,7 @@ public class Bookmark
 
 ### Osservazioni
 
-[`Bookmark`](./bookmark/) è un oggetto "facciata" che incapsula due nodi[`BookmarkStart`](./bookmarkstart/) e[`BookmarkEnd`](./bookmarkend/) in un albero di documenti e permette di lavorare con un segnalibro come un singolo oggetto.
+`Bookmark` è un oggetto "facciata" che incapsula due nodi[`BookmarkStart`](./bookmarkstart/) e[`BookmarkEnd`](./bookmarkend/) in un albero di documenti e permette di lavorare con un segnalibro come un singolo oggetto.
 
 ### Esempi
 

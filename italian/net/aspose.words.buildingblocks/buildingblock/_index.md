@@ -79,9 +79,9 @@ public class BuildingBlock : CompositeNode
 
 ### Osservazioni
 
-[`BuildingBlock`](./buildingblock/) può contenere solo[`Section`](../../aspose.words/section/) nodi.
+`BuildingBlock` può contenere solo[`Section`](../../aspose.words/section/) nodi.
 
-[`BuildingBlock`](./buildingblock/) può essere solo un figlio di[`GlossaryDocument`](../glossarydocument/).
+`BuildingBlock` può essere solo un figlio di[`GlossaryDocument`](../glossarydocument/).
 
 È possibile creare nuovi blocchi predefiniti e inserirli in un documento di glossario. È possibile modificare o eliminare blocchi esistenti. Puoi copiare o spostare i building block tra i documenti. È possibile inserire il contenuto di un building block in un documento.
 
