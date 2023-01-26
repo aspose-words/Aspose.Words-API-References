@@ -18,7 +18,7 @@ public class SmartTag : CompositeNode
 
 | اسم | وصف |
 | --- | --- |
-| [SmartTag](smarttag/)(DocumentBase) | يقوم بتهيئة مثيل جديد لملف[`SmartTag`](./smarttag/) فئة . |
+| [SmartTag](smarttag/)(DocumentBase) | يقوم بتهيئة مثيل جديد لملف`SmartTag` فئة . |
 
 ## الخصائص
 
@@ -64,7 +64,7 @@ public class SmartTag : CompositeNode
 | [Remove](../../aspose.words/node/remove/)() | يزيل نفسه من الأصل. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | يزيل كافة العقد التابعة للعقدة الحالية. |
 | [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | يزيل العقدة الفرعية المحددة . |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | يزيل الكل[`SmartTag`](./smarttag/) العقد التابعة للعقدة الحالية. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | يزيل الكل`SmartTag` العقد التابعة للعقدة الحالية. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | تحديد قائمة بالعقد المطابقة لتعبير XPath. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | تحديد العقدة الأولى التي تطابق تعبير XPath. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | يصدر محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
@@ -74,9 +74,9 @@ public class SmartTag : CompositeNode
 
 العلامات الذكية هي نوع من ترميز XML المخصص. توفر العلامات الذكية وسيلة لتضمين الدلالات المعرفة من قبل العميل في المستند من خلال القدرة على توفير مساحة اسم أساسية / name لتشغيل أو مجموعة من عمليات التشغيل داخل المستند.
 
-[`SmartTag`](./smarttag/) يمكن أن يكون طفلًا من[`Paragraph`](../../aspose.words/paragraph/) or آخر[`SmartTag`](./smarttag/) العقدة.
+`SmartTag` يمكن أن يكون طفلًا من[`Paragraph`](../../aspose.words/paragraph/) or آخر`SmartTag` العقدة.
 
-تتكون القائمة الكاملة للعقد الفرعية التي يمكن أن تحدث داخل العلامة الذكية من [`BookmarkStart`](../../aspose.words/bookmarkstart/) و[`BookmarkEnd`](../../aspose.words/bookmarkend/) ، [`FieldStart`](../../aspose.words.fields/fieldstart/) و[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) و[`FieldEnd`](../../aspose.words.fields/fieldend/) و[`FormField`](../../aspose.words.fields/formfield/) ، [`Comment`](../../aspose.words/comment/) و[`Footnote`](../../aspose.words.notes/footnote/) ، [`Run`](../../aspose.words/run/) و[`SpecialChar`](../../aspose.words/specialchar/) ، [`Shape`](../../aspose.words.drawing/shape/) و[`GroupShape`](../../aspose.words.drawing/groupshape/) ، [`CommentRangeStart`](../../aspose.words/commentrangestart/) ، [`CommentRangeEnd`](../../aspose.words/commentrangeend/) ، [`SmartTag`](./smarttag/).
+تتكون القائمة الكاملة للعقد الفرعية التي يمكن أن تحدث داخل العلامة الذكية من [`BookmarkStart`](../../aspose.words/bookmarkstart/) و[`BookmarkEnd`](../../aspose.words/bookmarkend/) ، [`FieldStart`](../../aspose.words.fields/fieldstart/) و[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) و[`FieldEnd`](../../aspose.words.fields/fieldend/) و[`FormField`](../../aspose.words.fields/formfield/) ، [`Comment`](../../aspose.words/comment/) و[`Footnote`](../../aspose.words.notes/footnote/) ، [`Run`](../../aspose.words/run/) و[`SpecialChar`](../../aspose.words/specialchar/) ، [`Shape`](../../aspose.words.drawing/shape/) و[`GroupShape`](../../aspose.words.drawing/groupshape/) ، [`CommentRangeStart`](../../aspose.words/commentrangestart/) ، [`CommentRangeEnd`](../../aspose.words/commentrangeend/) ، `SmartTag`.
 
 ### أمثلة
 

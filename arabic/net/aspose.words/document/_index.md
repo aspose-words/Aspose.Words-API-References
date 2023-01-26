@@ -107,7 +107,7 @@ public class Document : DocumentBase
 | [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument_1)(Document, ImportFormatMode, ImportFormatOptions) | إلحاق المستند المحدد بنهاية هذا المستند. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup)() | ينظف الأنماط والقوائم غير المستخدمة من المستند. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup_1)(CleanupOptions) | ينظف الأنماط والقوائم غير المستخدمة من المستند حسب المعطى[`CleanupOptions`](../cleanupoptions/) . |
-| [Clone](../../aspose.words/document/clone/#clone)() | يقوم بإجراء نسخة عميقة من ملف[`Document`](./document/) . |
+| [Clone](../../aspose.words/document/clone/#clone)() | يقوم بإجراء نسخة عميقة من ملف`Document` . |
 | [Clone](../../aspose.words/node/clone/)(bool) | لإنشاء نسخة مكررة من العقدة . |
 | [Compare](../../aspose.words/document/compare/#compare)(Document, string, DateTime) | يقارن هذا المستند بمستند آخر ينتج عنه تغييرات كعدد مراجعات التحرير والتنسيق[`Revision`](../revision/) . |
 | [Compare](../../aspose.words/document/compare/#compare_1)(Document, string, DateTime, CompareOptions) | مقارنة هذا المستند بمستند آخر ينتج عنه تغييرات في صورة عدد من مراجعات التحرير والتنسيق[`Revision`](../revision/) . يسمح بتحديد خيارات المقارنة باستخدام[`CompareOptions`](../../aspose.words.comparing/compareoptions/) . |
@@ -116,7 +116,7 @@ public class Document : DocumentBase
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | محجوز لاستخدام النظام. IXPathNavigable. |
 | [EnsureMinimum](../../aspose.words/document/ensureminimum/)() | في حالة عدم احتواء المستند على أقسام ، يتم إنشاء قسم واحد به فقرة واحدة. |
 | [ExpandTableStylesToDirectFormatting](../../aspose.words/document/expandtablestylestodirectformatting/)() | تحويل التنسيق المحدد في أنماط الجدول إلى تنسيق مباشر على الجداول في المستند. |
-| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | إرجاع ملف[`Document`](./document/) كائن يمثل نطاقًا محددًا من الصفحات. |
+| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | إرجاع ملف`Document` كائن يمثل نطاقًا محددًا من الصفحات. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على أول سلف محدد[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | إرجاع العقدة الفرعية رقم N التي تطابق النوع المحدد. |

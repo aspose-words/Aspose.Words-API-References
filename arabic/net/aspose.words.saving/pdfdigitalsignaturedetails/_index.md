@@ -36,7 +36,7 @@ public class PdfDigitalSignatureDetails
 
 في الوقت الحالي ، لا يتوفر توقيع مستندات PDF رقميًا إلا على .NET 2.0 أو أعلى.
 
-للتوقيع رقميًا على مستند PDF عند إنشائه بواسطة Aspose.Words ، قم بتعيين[`DigitalSignatureDetails`](../pdfsaveoptions/digitalsignaturedetails/) إلى صالح[`PdfDigitalSignatureDetails`](./pdfdigitalsignaturedetails/) الكائن ثم احفظ المستند بتنسيق PDF ويمرر [`PdfSaveOptions`](../pdfsaveoptions/)كمعامل في[`Save`](../../aspose.words/document/save/) طريقة.
+للتوقيع رقميًا على مستند PDF عند إنشائه بواسطة Aspose.Words ، قم بتعيين[`DigitalSignatureDetails`](../pdfsaveoptions/digitalsignaturedetails/) إلى صالح`PdfDigitalSignatureDetails` الكائن ثم احفظ المستند بتنسيق PDF ويمرر [`PdfSaveOptions`](../pdfsaveoptions/)كمعامل في[`Save`](../../aspose.words/document/save/) طريقة.
 
 ينشئ Aspose.Words توقيع PKCS # 7 على مستند PDF بالكامل ويستخدم مرشح "Adobe.PPKMS" والمرشح الفرعي "adbe.pkcs7.sha1" عند إنشاء توقيع رقمي.
 

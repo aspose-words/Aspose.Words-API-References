@@ -73,9 +73,9 @@ public abstract class DocumentBase : CompositeNode
 
 ### ملاحظات
 
-Aspose. Words يمثل مستند Word كشجرة من العقد.[`DocumentBase`](./documentbase/) هي عقدة جذر للشجرة تحتوي على جميع العقد الأخرى للمستند.
+Aspose. Words يمثل مستند Word كشجرة من العقد.`DocumentBase` هي عقدة جذر للشجرة تحتوي على جميع العقد الأخرى للمستند.
 
-[`DocumentBase`](./documentbase/) يخزن أيضًا معلومات على مستوى المستند مثل[`Styles`](./styles/) و _ [`Lists`](./lists/) التي قد تشير إليها عُقد الشجرة.
+`DocumentBase` يخزن أيضًا معلومات على مستوى المستند مثل[`Styles`](./styles/) و _ [`Lists`](./lists/) التي قد تشير إليها عُقد الشجرة.
 
 ### أمثلة
 

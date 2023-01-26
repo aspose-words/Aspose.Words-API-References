@@ -37,13 +37,13 @@ public class ListFormat
 
 يمكن أن تكون الفقرة في مستند Microsoft Word ذات تعداد نقطي أو رقمي.
 
-لا تقوم بإنشاء كائنات من[`ListFormat`](./listformat/) فئة مباشرة. يمكنك الوصول إليها[`ListFormat`](./listformat/) كخاصية لكائن آخر يمكن أن يكون لها تنسيق قائمة مرتبط بها. في الوقت الحالي ، الكائنات التي يمكن أن يكون لها تنسيق قائمة هي:[`Paragraph`](../../aspose.words/paragraph/) ، [`Style`](../../aspose.words/style/) و[`DocumentBuilder`](../../aspose.words/documentbuilder/).
+لا تقوم بإنشاء كائنات من`ListFormat` فئة مباشرة. يمكنك الوصول إليها`ListFormat` كخاصية لكائن آخر يمكن أن يكون لها تنسيق قائمة مرتبط بها. في الوقت الحالي ، الكائنات التي يمكن أن يكون لها تنسيق قائمة هي:[`Paragraph`](../../aspose.words/paragraph/) ، [`Style`](../../aspose.words/style/) و[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
-[`ListFormat`](./listformat/) من أ[`Paragraph`](../../aspose.words/paragraph/) specified ما هو تنسيق القائمة ومستوى القائمة المطبقين على تلك الفقرة المعينة.
+`ListFormat` من أ[`Paragraph`](../../aspose.words/paragraph/) specified ما هو تنسيق القائمة ومستوى القائمة المطبقين على تلك الفقرة المعينة.
 
-[`ListFormat`](./listformat/) من أ[`Style`](../../aspose.words/style/)(ينطبق على أنماط الفقرة فقط) يسمح بتحديد تنسيق القائمة وقائمة المستوى المطبقة على جميع فقرات هذا النمط المعين.
+`ListFormat` من أ[`Style`](../../aspose.words/style/)(ينطبق على أنماط الفقرة فقط) يسمح بتحديد تنسيق القائمة وقائمة المستوى المطبقة على جميع فقرات هذا النمط المعين.
 
-[`ListFormat`](./listformat/) من أ[`DocumentBuilder`](../../aspose.words/documentbuilder/) يوفر الوصول إلى تنسيق القائمة في موضع المؤشر الحالي داخل ملف[`DocumentBuilder`](../../aspose.words/documentbuilder/).
+`ListFormat` من أ[`DocumentBuilder`](../../aspose.words/documentbuilder/) يوفر الوصول إلى تنسيق القائمة في موضع المؤشر الحالي داخل ملف[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
 يتم تخزين قائمة التنسيق نفسها داخل ملف[`List`](../list/) كائن مخزّن بشكل منفصل عن الفقرات. يتم تخزين كائنات القائمة داخل ملف[`ListCollection`](../listcollection/) مجموعة. هناك واحد [`ListCollection`](../listcollection/) جمع لكل[`Document`](../../aspose.words/document/).
 

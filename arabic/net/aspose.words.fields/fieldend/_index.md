@@ -56,9 +56,9 @@ public class FieldEnd : FieldChar
 
 ### ملاحظات
 
-[`FieldEnd`](./fieldend/) هي عقدة ذات مستوى مضمن ويتم تمثيلها بـ بواسطة ملف[`FieldEndChar`](../../aspose.words/controlchar/fieldendchar/) حرف التحكم في المستند.
+`FieldEnd` هي عقدة ذات مستوى مضمن ويتم تمثيلها بـ بواسطة ملف[`FieldEndChar`](../../aspose.words/controlchar/fieldendchar/) حرف التحكم في المستند.
 
-[`FieldEnd`](./fieldend/) يمكن أن يكون فقط تابعًا لـ[`Paragraph`](../../aspose.words/paragraph/).
+`FieldEnd` يمكن أن يكون فقط تابعًا لـ[`Paragraph`](../../aspose.words/paragraph/).
 
 الحقل الكامل في مستند Microsoft Word عبارة عن بنية معقدة تتكون من حرف بداية الحقل ، ورمز الحقل ، وحرف فاصل الحقل ، ونتائج الحقل وحرف نهاية الحقل. تحتوي بعض الحقول فقط على بداية الحقل ورمز الحقل ونهاية الحقل.
 

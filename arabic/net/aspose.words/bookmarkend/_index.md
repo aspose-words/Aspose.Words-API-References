@@ -18,7 +18,7 @@ public class BookmarkEnd : Node
 
 | اسم | وصف |
 | --- | --- |
-| [BookmarkEnd](bookmarkend/)(DocumentBase, string) | يقوم بتهيئة مثيل جديد لملف[`BookmarkEnd`](./bookmarkend/) فئة . |
+| [BookmarkEnd](bookmarkend/)(DocumentBase, string) | يقوم بتهيئة مثيل جديد لملف`BookmarkEnd` فئة . |
 
 ## الخصائص
 
@@ -51,9 +51,9 @@ public class BookmarkEnd : Node
 
 ### ملاحظات
 
-تتكون الإشارة المرجعية الكاملة في مستند Word من ملف[`BookmarkStart`](../bookmarkstart/) ومطابقة[`BookmarkEnd`](./bookmarkend/) بنفس اسم الإشارة المرجعية.
+تتكون الإشارة المرجعية الكاملة في مستند Word من ملف[`BookmarkStart`](../bookmarkstart/) ومطابقة`BookmarkEnd` بنفس اسم الإشارة المرجعية.
 
-[`BookmarkStart`](../bookmarkstart/) و[`BookmarkEnd`](./bookmarkend/) هي مجرد علامات داخل document تحدد مكان بدء الإشارة المرجعية ونهايتها.
+[`BookmarkStart`](../bookmarkstart/) و`BookmarkEnd` هي مجرد علامات داخل document تحدد مكان بدء الإشارة المرجعية ونهايتها.
 
 استخدم ال[`Bookmark`](../bookmark/) فئة كـ "واجهة" للعمل مع bookmark ككائن واحد.
 

@@ -43,7 +43,7 @@ public class OleFormat
 
 ### ملاحظات
 
-استخدم ال[`OleFormat`](../shape/oleformat/) الخاصية للوصول إلى بيانات كائن OLE . لا يمكنك إنشاء مثيلات من[`OleFormat`](./oleformat/) فئة مباشرة.
+استخدم ال[`OleFormat`](../shape/oleformat/) الخاصية للوصول إلى بيانات كائن OLE . لا يمكنك إنشاء مثيلات من`OleFormat` فئة مباشرة.
 
 ### أمثلة
 

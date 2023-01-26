@@ -37,7 +37,7 @@ public class OdsoFieldMapData
 
 ### ملاحظات
 
-يوفر Microsoft Word بعض أسماء حقول الدمج المعرفة مسبقًا التي تسمح بإدراجها في مستند مثل MERGEFIELD أو في حقول ADDRESSBLOCK أو GREETINGLINE. المعلومات المحددة في[`OdsoFieldMapData`](./odsofieldmapdata/) يسمح بتعيين عمود واحد في مصدر البيانات الخارجي إلى حقل دمج واحد محدد مسبقًا.
+يوفر Microsoft Word بعض أسماء حقول الدمج المعرفة مسبقًا التي تسمح بإدراجها في مستند مثل MERGEFIELD أو في حقول ADDRESSBLOCK أو GREETINGLINE. المعلومات المحددة في`OdsoFieldMapData` يسمح بتعيين عمود واحد في مصدر البيانات الخارجي إلى حقل دمج واحد محدد مسبقًا.
 
 ### أمثلة
 

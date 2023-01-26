@@ -27,7 +27,7 @@ public class CssSavingArgs
 
 بشكل افتراضي ، عندما يحفظ Aspose.Words مستند إلى HTML ، فإنه يحفظ معلومات CSS inline (كقيمة لـ **نمط** السمة على كل عنصر) .
 
-[`CssSavingArgs`](./csssavingargs/) يسمح بحفظ معلومات CSS في ملف من خلال توفير كائن البث الخاص بك.
+`CssSavingArgs` يسمح بحفظ معلومات CSS في ملف من خلال توفير كائن البث الخاص بك.
 
 لحفظ CSS في الدفق ، استخدم ملف[`CssStream`](./cssstream/) منشأه.
 

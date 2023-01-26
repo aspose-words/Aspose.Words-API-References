@@ -51,9 +51,9 @@ public sealed class CommentRangeStart : Node
 
 ### ملاحظات
 
-لإنشاء تعليق مرتبط بمنطقة من النص ، تحتاج إلى إنشاء ملف[`Comment`](../comment/) and ثم أنشئ[`CommentRangeStart`](./commentrangestart/) و[`CommentRangeEnd`](../commentrangeend/)وقم بتعيين معرفاتهم على نفس المعرف[`Id`](../comment/id/) القيمة.
+لإنشاء تعليق مرتبط بمنطقة من النص ، تحتاج إلى إنشاء ملف[`Comment`](../comment/) and ثم أنشئ`CommentRangeStart` و[`CommentRangeEnd`](../commentrangeend/)وقم بتعيين معرفاتهم على نفس المعرف[`Id`](../comment/id/) القيمة.
 
-[`CommentRangeStart`](./commentrangestart/) هي عقدة ذات مستوى مضمن ويمكن أن تكون تابعة فقط لـ[`Paragraph`](../paragraph/).
+`CommentRangeStart` هي عقدة ذات مستوى مضمن ويمكن أن تكون تابعة فقط لـ[`Paragraph`](../paragraph/).
 
 ### أمثلة
 

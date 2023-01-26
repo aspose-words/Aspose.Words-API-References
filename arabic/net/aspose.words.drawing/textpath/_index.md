@@ -41,7 +41,7 @@ public class TextPath
 
 ### ملاحظات
 
-استخدم ال[`TextPath`](../shape/textpath/) للوصول إلى خصائص WordArt لشكل . لا يمكنك إنشاء مثيلات من[`TextPath`](./textpath/) فئة مباشرة.
+استخدم ال[`TextPath`](../shape/textpath/) للوصول إلى خصائص WordArt لشكل . لا يمكنك إنشاء مثيلات من`TextPath` فئة مباشرة.
 
 ### أمثلة
 

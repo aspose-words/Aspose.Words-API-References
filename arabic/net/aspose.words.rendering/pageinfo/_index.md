@@ -29,10 +29,10 @@ public class PageInfo
 
 | اسم | وصف |
 | --- | --- |
-| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(PaperSizeCollection) | يحصل على ملفPaperSize كائن مناسب للطباعة الصفحة التي يمثلها هذا[`PageInfo`](./pageinfo/) . |
+| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(PaperSizeCollection) | يحصل على ملفPaperSize كائن مناسب للطباعة الصفحة التي يمثلها هذا`PageInfo` . |
 | [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels)(float, float) | حساب حجم الصفحة بالبكسل لعامل تكبير ودقة محددين. |
 | [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels_1)(float, float, float) | حساب حجم الصفحة بالبكسل لعامل تكبير ودقة محددين. |
-| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(PaperSourceCollection, PaperSource) | يحصل على ملفPaperSource كائن مناسب للطباعة الصفحة التي يمثلها هذا[`PageInfo`](./pageinfo/) . |
+| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(PaperSourceCollection, PaperSource) | يحصل على ملفPaperSource كائن مناسب للطباعة الصفحة التي يمثلها هذا`PageInfo` . |
 
 ### ملاحظات
 

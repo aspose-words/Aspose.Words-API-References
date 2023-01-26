@@ -42,7 +42,7 @@ public class CustomPart
 
 يحتفظ Microsoft Word بالأجزاء المخصصة أثناء دورات الفتح / الحفظ. يمكن العثور على بعض المعلومات الإضافية هنا http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
 
-Aspose.Words أيضًا رحلات ذهاب وعودة إلى أجزاء مخصصة ، بالإضافة إلى ذلك ، يسمح بالوصول برمجيًا إلى هذه الأجزاء عبر[`CustomPart`](./custompart/) و[`CustomPartCollection`](../custompartcollection/) أشياء.
+Aspose.Words أيضًا رحلات ذهاب وعودة إلى أجزاء مخصصة ، بالإضافة إلى ذلك ، يسمح بالوصول برمجيًا إلى هذه الأجزاء عبر`CustomPart` و[`CustomPartCollection`](../custompartcollection/) أشياء.
 
 لا تخلط بين الأجزاء المخصصة وبيانات XML المخصصة. يستخدم[`CustomXmlPart`](../customxmlpart/) إذا كنت بحاجة إلى للوصول إلى بيانات XML المخصصة.
 

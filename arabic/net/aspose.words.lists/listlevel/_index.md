@@ -41,13 +41,13 @@ public class ListLevel
 | [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | حذف رمز نقطي للصورة لمستوى القائمة الحالية. |
 | [Equals](../../aspose.words.lists/listlevel/equals/#equals)(ListLevel) | يقارن مع مستوى القائمة المحدد . |
 | override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | حساب كود التجزئة لهذا الكائن. |
-| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | يبين تمثيل السلسلة لملف[`ListLevel`](./listlevel/) كائن index المحدد لعنصر القائمة. تحدد المعلمات ملف[`NumberStyle`](../../aspose.words/numberstyle/) وتنسيق اختياري string يتم استخدامه عندCustom محدد . |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | يبين تمثيل السلسلة لملف`ListLevel` كائن index المحدد لعنصر القائمة. تحدد المعلمات ملف[`NumberStyle`](../../aspose.words/numberstyle/) وتنسيق اختياري string يتم استخدامه عندCustom محدد . |
 
 ### ملاحظات
 
-لا تقوم بإنشاء كائنات من هذه الفئة. يتم إنشاء كائنات مستوى القائمة تلقائيًا عند إنشاء قائمة. يمكنك الوصول[`ListLevel`](./listlevel/) الكائنات عبر the [`ListLevelCollection`](../listlevelcollection/) مجموعة.
+لا تقوم بإنشاء كائنات من هذه الفئة. يتم إنشاء كائنات مستوى القائمة تلقائيًا عند إنشاء قائمة. يمكنك الوصول`ListLevel` الكائنات عبر the [`ListLevelCollection`](../listlevelcollection/) مجموعة.
 
-استخدم خصائص[`ListLevel`](./listlevel/) لتحديد تنسيق القائمة لمستويات القائمة الفردية.
+استخدم خصائص`ListLevel` لتحديد تنسيق القائمة لمستويات القائمة الفردية.
 
 ### أمثلة
 

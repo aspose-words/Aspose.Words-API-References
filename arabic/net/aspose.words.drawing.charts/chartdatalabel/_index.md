@@ -40,7 +40,7 @@ public class ChartDataLabel
 
 ### ملاحظات
 
-في سلسلة ، ملف[`ChartDataLabel`](./chartdatalabel/) الكائن عضو في[`ChartDataLabelCollection`](../chartdatalabelcollection/) . ملف[`ChartDataLabelCollection`](../chartdatalabelcollection/) يحتوي على[`ChartDataLabel`](./chartdatalabel/) كائن لكل نقطة.
+في سلسلة ، ملف`ChartDataLabel` الكائن عضو في[`ChartDataLabelCollection`](../chartdatalabelcollection/) . ملف[`ChartDataLabelCollection`](../chartdatalabelcollection/) يحتوي على`ChartDataLabel` كائن لكل نقطة.
 
 ### أمثلة
 

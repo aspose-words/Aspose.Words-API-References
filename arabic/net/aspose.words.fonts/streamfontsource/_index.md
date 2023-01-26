@@ -32,11 +32,11 @@ public abstract class StreamFontSource : FontSourceBase
 
 ### ملاحظات
 
-من أجل استخدام مصدر خط الدفق ، يجب عليك إنشاء فئة مشتقة من ملف[`StreamFontSource`](./streamfontsource/) وتقديم تنفيذ[`OpenFontDataStream`](./openfontdatastream/) طريقة.
+من أجل استخدام مصدر خط الدفق ، يجب عليك إنشاء فئة مشتقة من ملف`StreamFontSource` وتقديم تنفيذ[`OpenFontDataStream`](./openfontdatastream/) طريقة.
 
 [`OpenFontDataStream`](./openfontdatastream/)يمكن استدعاء الطريقة عدة مرات. لأول مرة سيتم استدعاؤه عندما يقوم Aspose.Words بمسح مصادر الخطوط المتوفرة للحصول على قائمة الخطوط المتاحة. لاحقًا قد يتم استدعاؤه إذا تم استخدام الخط في المستند لتحليل بيانات الخط ولتضمين بيانات الخط في بعض تنسيقات الإخراج.
 
-[`StreamFontSource`](./streamfontsource/) قد يكون مفيدًا لأنه يسمح بتحميل بيانات الخط فقط عندما تكون مطلوبة وليس لتخزينها في الذاكرة من أجل[`FontSettings`](../fontsettings/) حياة.
+`StreamFontSource` قد يكون مفيدًا لأنه يسمح بتحميل بيانات الخط فقط عندما تكون مطلوبة وليس لتخزينها في الذاكرة من أجل[`FontSettings`](../fontsettings/) حياة.
 
 ### أمثلة
 

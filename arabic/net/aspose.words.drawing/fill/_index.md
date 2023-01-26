@@ -53,7 +53,7 @@ public class Fill
 
 ### ملاحظات
 
-استخدم ال[`Fill`](../shapebase/fill/) أو[`Fill`](../../aspose.words/font/fill/) الخاصية للوصول إلى خصائص التعبئة لكائن . لا يمكنك إنشاء مثيلات من[`Fill`](./fill/) فئة مباشرة.
+استخدم ال[`Fill`](../shapebase/fill/) أو[`Fill`](../../aspose.words/font/fill/) الخاصية للوصول إلى خصائص التعبئة لكائن . لا يمكنك إنشاء مثيلات من`Fill` فئة مباشرة.
 
 ### أمثلة
 
