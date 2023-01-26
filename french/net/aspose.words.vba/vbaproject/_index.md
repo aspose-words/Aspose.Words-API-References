@@ -34,7 +34,7 @@ public class VbaProject
 
 | Nom | La description |
 | --- | --- |
-| [Clone](../../aspose.words.vba/vbaproject/clone/)() | Effectue une copie du[`VbaProject`](./vbaproject/) . |
+| [Clone](../../aspose.words.vba/vbaproject/clone/)() | Effectue une copie du`VbaProject` . |
 
 ### Exemples
 

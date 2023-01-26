@@ -55,9 +55,9 @@ public class FieldSeparator : FieldChar
 
 ### Remarques
 
-[`FieldSeparator`](./fieldseparator/) est un nœud de niveau en ligne et représenté par le[`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar/) caractère de contrôle dans le document.
+`FieldSeparator` est un nœud de niveau en ligne et représenté par le[`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar/) caractère de contrôle dans le document.
 
-[`FieldSeparator`](./fieldseparator/) ne peut être qu'un enfant de[`Paragraph`](../../aspose.words/paragraph/).
+`FieldSeparator` ne peut être qu'un enfant de[`Paragraph`](../../aspose.words/paragraph/).
 
 Un champ complet dans un document Microsoft Word est une structure complexe composée de un caractère de début de champ, un code de champ, un caractère séparateur de champ, un résultat de champ et un caractère de fin de champ. Certains champs n'ont qu'un début de champ, un code de champ et une fin de champ.
 

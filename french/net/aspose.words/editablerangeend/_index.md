@@ -46,9 +46,9 @@ public sealed class EditableRangeEnd : Node
 
 ### Remarques
 
-Une plage modifiable complète dans un document Word se compose d'un[`EditableRangeStart`](./editablerangestart/) et une correspondance[`EditableRangeEnd`](./editablerangeend/) avec le même identifiant.
+Une plage modifiable complète dans un document Word se compose d'un[`EditableRangeStart`](./editablerangestart/) et une correspondance`EditableRangeEnd` avec le même identifiant.
 
-[`EditableRangeStart`](./editablerangestart/) et[`EditableRangeEnd`](./editablerangeend/) ne sont que des marqueurs à l'intérieur d'un document qui spécifient où commence et se termine la plage modifiable.
+[`EditableRangeStart`](./editablerangestart/) et`EditableRangeEnd` ne sont que des marqueurs à l'intérieur d'un document qui spécifient où commence et se termine la plage modifiable.
 
 Utilisez le[`EditableRange`](../editablerange/)classe en tant que "façade" pour travailler avec une plage modifiable en tant qu'objet unique.
 

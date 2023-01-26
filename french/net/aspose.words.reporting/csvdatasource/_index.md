@@ -27,7 +27,7 @@ public class CsvDataSource
 
 Pour accéder aux données du fichier ou du flux correspondant lors de la génération d'un rapport, transmettez une instance de cette classe en tant que une source de données à l'un des[`ReportingEngine`](../reportingengine/) .BuildReport surcharges.
 
-Dans les modèles de documents, un[`CsvDataSource`](./csvdatasource/) instance doit être traitée de la même manière que si elle était aDataTable instance . Pour plus d'informations, consultez la référence de syntaxe du modèle (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+Dans les modèles de documents, un`CsvDataSource` instance doit être traitée de la même manière que si elle était aDataTable instance . Pour plus d'informations, consultez la référence de syntaxe du modèle (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 Les types de données de valeurs séparées par des virgules sont déterminés automatiquement sur leurs représentations sous forme de chaîne. Ainsi, dans les documents template , vous pouvez travailler avec des valeurs typées plutôt qu'avec des chaînes. Le moteur est capable de reconnaître automatiquement les valeurs des types suivants :
 

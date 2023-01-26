@@ -27,7 +27,7 @@ public class CssSavingArgs
 
 Par défaut, quand Aspose.Words enregistre un document au format HTML, il enregistre les informations CSS inline (en tant que valeur du **style** attribut sur chaque élément).
 
-[`CssSavingArgs`](./csssavingargs/) permet d'enregistrer des informations CSS dans un fichier en fournissant votre propre objet de flux.
+`CssSavingArgs` permet d'enregistrer des informations CSS dans un fichier en fournissant votre propre objet de flux.
 
 Pour enregistrer le CSS dans le flux, utilisez le[`CssStream`](./cssstream/) propriété.
 

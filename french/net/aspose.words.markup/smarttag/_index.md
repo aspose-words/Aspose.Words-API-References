@@ -18,7 +18,7 @@ public class SmartTag : CompositeNode
 
 | Nom | La description |
 | --- | --- |
-| [SmartTag](smarttag/)(DocumentBase) | Initialise une nouvelle instance du[`SmartTag`](./smarttag/) classe. |
+| [SmartTag](smarttag/)(DocumentBase) | Initialise une nouvelle instance du`SmartTag` classe. |
 
 ## Propriétés
 
@@ -64,7 +64,7 @@ public class SmartTag : CompositeNode
 | [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Supprime tous les nœuds enfants du nœud actuel. |
 | [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Supprime le nœud enfant spécifié. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Supprime tout[`SmartTag`](./smarttag/) nœuds descendants du nœud actuel. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Supprime tout`SmartTag` nœuds descendants du nœud actuel. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Sélectionne une liste de nœuds correspondant à l'expression XPath. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Sélectionne le premier nœud qui correspond à l'expression XPath. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
@@ -74,9 +74,9 @@ public class SmartTag : CompositeNode
 
 Les balises actives sont une sorte de balisage XML personnalisé. Les balises actives permettent d'intégrer la sémantique définie par le client dans le document via la possibilité de fournir un espace de noms/nom de base pour une exécution ou un ensemble d'exécutions dans un document.
 
-[`SmartTag`](./smarttag/) peut être l'enfant d'un[`Paragraph`](../../aspose.words/paragraph/) ou un autre[`SmartTag`](./smarttag/) nœud.
+`SmartTag` peut être l'enfant d'un[`Paragraph`](../../aspose.words/paragraph/) ou un autre`SmartTag` nœud.
 
-La liste complète des nœuds enfants qui peuvent se produire à l'intérieur d'une balise active se compose de [`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , [`SmartTag`](./smarttag/).
+La liste complète des nœuds enfants qui peuvent se produire à l'intérieur d'une balise active se compose de [`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , `SmartTag`.
 
 ### Exemples
 

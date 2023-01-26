@@ -41,7 +41,7 @@ public class Stroke
 
 ### Remarques
 
-Utilisez le[`Stroke`](../shape/stroke/)pour accéder aux propriétés de trait d'une forme. Vous ne créez pas d'instances de la[`Stroke`](./stroke/) classe directement.
+Utilisez le[`Stroke`](../shape/stroke/)pour accéder aux propriétés de trait d'une forme. Vous ne créez pas d'instances de la`Stroke` classe directement.
 
 ### Exemples
 

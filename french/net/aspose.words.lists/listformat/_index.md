@@ -37,13 +37,13 @@ public class ListFormat
 
 Un paragraphe dans un document Microsoft Word peut être à puces ou numéroté. Lorsqu'un paragraphe est à puces ou numéroté, on dit que la mise en forme de liste est appliquée au paragraphe.
 
-Vous ne créez pas d'objets du[`ListFormat`](./listformat/) classe directement. Vous accédez[`ListFormat`](./listformat/) en tant que propriété d'un autre objet qui peut avoir un formatage de liste associé. Pour le moment, les objets qui peuvent avoir un format de liste sont :[`Paragraph`](../../aspose.words/paragraph/) , [`Style`](../../aspose.words/style/) et[`DocumentBuilder`](../../aspose.words/documentbuilder/).
+Vous ne créez pas d'objets du`ListFormat` classe directement. Vous accédez`ListFormat` en tant que propriété d'un autre objet qui peut avoir un formatage de liste associé. Pour le moment, les objets qui peuvent avoir un format de liste sont :[`Paragraph`](../../aspose.words/paragraph/) , [`Style`](../../aspose.words/style/) et[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
-[`ListFormat`](./listformat/) d'un[`Paragraph`](../../aspose.words/paragraph/) spécifie quel formatage de liste et quel niveau de liste sont appliqués à ce paragraphe particulier.
+`ListFormat` d'un[`Paragraph`](../../aspose.words/paragraph/) spécifie quel formatage de liste et quel niveau de liste sont appliqués à ce paragraphe particulier.
 
-[`ListFormat`](./listformat/) d'un[`Style`](../../aspose.words/style/)(applicable aux styles de paragraphe uniquement) permet de spécifier quel formatage de liste et quel niveau de liste sont appliqués à tous les paragraphes de ce style particulier.
+`ListFormat` d'un[`Style`](../../aspose.words/style/)(applicable aux styles de paragraphe uniquement) permet de spécifier quel formatage de liste et quel niveau de liste sont appliqués à tous les paragraphes de ce style particulier.
 
-[`ListFormat`](./listformat/) d'un[`DocumentBuilder`](../../aspose.words/documentbuilder/) permet d'accéder au formatage de la liste à la position actuelle du curseur à l'intérieur du[`DocumentBuilder`](../../aspose.words/documentbuilder/).
+`ListFormat` d'un[`DocumentBuilder`](../../aspose.words/documentbuilder/) permet d'accéder au formatage de la liste à la position actuelle du curseur à l'intérieur du[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
 La mise en forme de la liste elle-même est stockée dans un[`List`](../list/) objet stocké séparément des paragraphes. La liste objects est stockée dans un[`ListCollection`](../listcollection/) le recueil. Il y a un single [`ListCollection`](../listcollection/) collecte par[`Document`](../../aspose.words/document/).
 

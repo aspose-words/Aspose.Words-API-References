@@ -20,7 +20,7 @@ Le nœud de fin de plage modifiable qui vient d'être créé.
 
 ### Remarques
 
-La plage modifiable dans un document peut chevaucher et s'étendre sur n'importe quelle plage. Pour créer une plage modifiable valide, vous devez appeler les deux[`StartEditableRange`](../starteditablerange/) et`EndEditableRange` ou[`EndEditableRange`](./endeditablerange/)méthodes.
+La plage modifiable dans un document peut chevaucher et s'étendre sur n'importe quelle plage. Pour créer une plage modifiable valide, vous devez appeler les deux[`StartEditableRange`](../starteditablerange/) et`EndEditableRange` ou`EndEditableRange`méthodes.
 
 Une plage modifiable mal formée sera ignorée lors de l'enregistrement du document.
 
@@ -96,7 +96,7 @@ Le nœud de fin de plage modifiable qui vient d'être créé.
 
 Utilisez cette surcharge lors de la création de plages modifiables imbriquées.
 
-La plage modifiable dans un document peut chevaucher et s'étendre sur n'importe quelle plage. Pour créer une plage modifiable valide, vous devez appeler les deux[`StartEditableRange`](../starteditablerange/) et[`EndEditableRange`](./endeditablerange/) ou`EndEditableRange`méthodes.
+La plage modifiable dans un document peut chevaucher et s'étendre sur n'importe quelle plage. Pour créer une plage modifiable valide, vous devez appeler les deux[`StartEditableRange`](../starteditablerange/) et`EndEditableRange` ou`EndEditableRange`méthodes.
 
 Une plage modifiable mal formée sera ignorée lors de l'enregistrement du document.
 

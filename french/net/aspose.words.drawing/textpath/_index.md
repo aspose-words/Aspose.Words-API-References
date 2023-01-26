@@ -41,7 +41,7 @@ public class TextPath
 
 ### Remarques
 
-Utilisez le[`TextPath`](../shape/textpath/) pour accéder aux propriétés WordArt d'une forme. Vous ne créez pas d'instances de la[`TextPath`](./textpath/) classe directement.
+Utilisez le[`TextPath`](../shape/textpath/) pour accéder aux propriétés WordArt d'une forme. Vous ne créez pas d'instances de la`TextPath` classe directement.
 
 ### Exemples
 

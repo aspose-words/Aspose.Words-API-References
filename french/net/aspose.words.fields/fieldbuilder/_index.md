@@ -18,7 +18,7 @@ public class FieldBuilder
 
 | Nom | La description |
 | --- | --- |
-| [FieldBuilder](fieldbuilder/)(FieldType) | Initialise une instance du[`FieldBuilder`](./fieldbuilder/) classe. |
+| [FieldBuilder](fieldbuilder/)(FieldType) | Initialise une instance du`FieldBuilder` classe. |
 
 ## Méthodes
 
@@ -26,7 +26,7 @@ public class FieldBuilder
 | --- | --- |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(double) | Ajoute l'argument d'un champ. |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(FieldArgumentBuilder) | Ajoute un argument de champ représenté par[`FieldArgumentBuilder`](../fieldargumentbuilder/) au code du champ. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | Ajoute un champ enfant représenté par un autre[`FieldBuilder`](./fieldbuilder/) au code du champ. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | Ajoute un champ enfant représenté par un autre`FieldBuilder` au code du champ. |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(int) | Ajoute l'argument d'un champ. |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(string) | Ajoute l'argument d'un champ. |
 | [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(string) | Ajoute un commutateur de champ. |

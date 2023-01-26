@@ -25,7 +25,7 @@ UN[`Field`](../../../aspose.words.fields/field/) objet qui représente le champ 
 
 ### Remarques
 
-Cette méthode insère un champ dans un document. Aspose.Words peut mettre à jour les champs de la plupart des types, mais pas tous. Pour plus de détails, voir the [`InsertField`](./insertfield/) surcharge.
+Cette méthode insère un champ dans un document. Aspose.Words peut mettre à jour les champs de la plupart des types, mais pas tous. Pour plus de détails, voir the `InsertField` surcharge.
 
 ### Exemples
 
@@ -97,7 +97,7 @@ UN[`Field`](../../../aspose.words.fields/field/) objet qui représente le champ 
 
 ### Remarques
 
-Cette méthode insère un champ dans un document et met à jour le résultat du champ immédiatement. Aspose.Words peut mettre à jour les champs de la plupart des types, mais pas tous. Pour plus de détails, voir the [`InsertField`](./insertfield/) surcharge.
+Cette méthode insère un champ dans un document et met à jour le résultat du champ immédiatement. Aspose.Words peut mettre à jour les champs de la plupart des types, mais pas tous. Pour plus de détails, voir the `InsertField` surcharge.
 
 ### Exemples
 

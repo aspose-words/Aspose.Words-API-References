@@ -34,9 +34,9 @@ public class FontSavingArgs
 
 Lorsque Aspose.Words enregistre un document au format HTML ou aux formats associés et[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) est défini sur **vrai**, il enregistre chaque sujet de police pour l'exportation dans un fichier séparé.
 
-[`FontSavingArgs`](./fontsavingargs/) contrôle si une ressource de police particulière doit être exportée et comment.
+`FontSavingArgs` contrôle si une ressource de police particulière doit être exportée et comment.
 
-[`FontSavingArgs`](./fontsavingargs/)permet également de redéfinir la façon dont les noms de fichiers de polices sont générés ou de contourner complètement l'enregistrement des polices dans des fichiers en fournissant vos propres objets de flux.
+`FontSavingArgs`permet également de redéfinir la façon dont les noms de fichiers de polices sont générés ou de contourner complètement l'enregistrement des polices dans des fichiers en fournissant vos propres objets de flux.
 
 Pour décider d'enregistrer ou non une ressource de police particulière, utilisez la[`IsExportNeeded`](./isexportneeded/) propriété.
 

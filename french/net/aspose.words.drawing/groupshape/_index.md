@@ -132,9 +132,9 @@ public class GroupShape : ShapeBase
 
 ### Remarques
 
-UN[`GroupShape`](./groupshape/) est un nœud composite et peut avoir[`Shape`](../shape/) et [`GroupShape`](./groupshape/) nœuds en tant qu'enfants.
+UN`GroupShape` est un nœud composite et peut avoir[`Shape`](../shape/) et `GroupShape` nœuds en tant qu'enfants.
 
-Chaque[`GroupShape`](./groupshape/) définit un nouveau système de coordonnées pour ses formes enfants. Le système de coordonnées est défini à l'aide de la[`CoordSize`](../shapebase/coordsize/) et [`CoordOrigin`](../shapebase/coordorigin/) Propriétés.
+Chaque`GroupShape` définit un nouveau système de coordonnées pour ses formes enfants. Le système de coordonnées est défini à l'aide de la[`CoordSize`](../shapebase/coordsize/) et [`CoordOrigin`](../shapebase/coordorigin/) Propriétés.
 
 ### Exemples
 

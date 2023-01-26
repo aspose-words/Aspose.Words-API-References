@@ -27,7 +27,7 @@ public class DocumentPartSavingArgs
 
 Lorsque Aspose.Words enregistre un document au format HTML ou aux formats associés et[`DocumentSplitCriteria`](../htmlsaveoptions/documentsplitcriteria/) est spécifié, le document est divisé en parties et par défaut, chaque partie du document est enregistrée dans un fichier séparé.
 
-Classer[`DocumentPartSavingArgs`](./documentpartsavingargs/) vous permet de contrôler la manière dont chaque partie du document sera enregistrée. Il permet de redéfinir la façon dont les noms de fichiers sont générés ou de contourner complètement l'enregistrement de parties de document dans des fichiers en fournissant vos propres objets de flux.
+Classer`DocumentPartSavingArgs` vous permet de contrôler la manière dont chaque partie du document sera enregistrée. Il permet de redéfinir la façon dont les noms de fichiers sont générés ou de contourner complètement l'enregistrement de parties de document dans des fichiers en fournissant vos propres objets de flux.
 
 Pour enregistrer des parties de document dans des flux au lieu de fichiers, utilisez la[`DocumentPartStream`](./documentpartstream/) propriété.
 

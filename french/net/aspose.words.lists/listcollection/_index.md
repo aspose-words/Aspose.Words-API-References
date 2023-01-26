@@ -34,9 +34,9 @@ public class ListCollection : IEnumerable<List>
 
 ### Remarques
 
-Une liste dans un document Microsoft Word est un ensemble de propriétés de formatage de liste. Le formatage des listes est stocké dans le[`ListCollection`](./listcollection/) collection séparement des paragraphes de texte.
+Une liste dans un document Microsoft Word est un ensemble de propriétés de formatage de liste. Le formatage des listes est stocké dans le`ListCollection` collection séparement des paragraphes de texte.
 
-Vous ne créez pas d'objets de cette classe. Il n'y a toujours qu'un[`ListCollection`](./listcollection/) objet par document et il est accessible via le[`Lists`](../../aspose.words/documentbase/lists/) propriété.
+Vous ne créez pas d'objets de cette classe. Il n'y a toujours qu'un`ListCollection` objet par document et il est accessible via le[`Lists`](../../aspose.words/documentbase/lists/) propriété.
 
 Pour créer une nouvelle liste basée sur un modèle de liste prédéfini ou sur un style de liste, utilisez le[`Add`](./add/) méthode.
 

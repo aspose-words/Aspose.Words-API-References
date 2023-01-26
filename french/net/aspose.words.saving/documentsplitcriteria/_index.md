@@ -27,7 +27,7 @@ public enum DocumentSplitCriteria
 
 ### Remarques
 
-[`DocumentSplitCriteria`](./documentsplitcriteria/)est un ensemble de drapeaux qui peuvent être combinés. Par exemple, vous pouvez diviser le document au niveau des sauts de page et des paragraphes d'en-tête dans la même opération d'exportation.
+`DocumentSplitCriteria`est un ensemble de drapeaux qui peuvent être combinés. Par exemple, vous pouvez diviser le document au niveau des sauts de page et des paragraphes d'en-tête dans la même opération d'exportation.
 
 Différents critères peuvent partiellement se chevaucher. Par exemple, **Rubrique 1** le style est fréquemment donné [`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/) propriété donc elle relève de deux critères :PageBreak et HeadingParagraph. Certains sauts de section peuvent provoquer des sauts de page, etc. Dans les cas typiques, spécifier un seul indicateur est l'option la plus pratique.
 

@@ -42,7 +42,7 @@ Cette classe représente une partie OOXML qui est la cible d'une "relation incon
 
 Microsoft Word conserve les parties personnalisées pendant les cycles d'ouverture/d'enregistrement. Quelques informations supplémentaires peuvent être trouvées ici http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
 
-Aspose.Words effectue également des allers-retours avec des parties personnalisées et permet en outre d'accéder par programme à ces parties via le[`CustomPart`](./custompart/) et[`CustomPartCollection`](../custompartcollection/) objets.
+Aspose.Words effectue également des allers-retours avec des parties personnalisées et permet en outre d'accéder par programme à ces parties via le`CustomPart` et[`CustomPartCollection`](../custompartcollection/) objets.
 
 Ne confondez pas les parties personnalisées avec les données XML personnalisées. Utilisation[`CustomXmlPart`](../customxmlpart/) si vous avez besoin de pour accéder aux données XML personnalisées.
 

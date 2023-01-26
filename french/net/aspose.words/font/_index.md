@@ -82,7 +82,7 @@ public class Font
 
 ### Remarques
 
-Vous ne créez pas d'instances de[`Font`](./font/) classe directement. Vous venez d'utiliser [`Font`](./font/) pour accéder aux propriétés de la police des différents objets tels que[`Run`](../run/) , [`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
+Vous ne créez pas d'instances de`Font` classe directement. Vous venez d'utiliser `Font` pour accéder aux propriétés de la police des différents objets tels que[`Run`](../run/) , [`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
 
 ### Exemples
 
