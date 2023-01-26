@@ -25,7 +25,7 @@ public class ReportingEngine
 | Имя | Описание |
 | --- | --- |
 | [KnownTypes](../../aspose.words.reporting/reportingengine/knowntypes/) { get; } | Получает неупорядоченный набор (т. е. набор уникальных элементов), содержащийTypeобъекты , полные или частичные имена которых могут использоваться в шаблонах отчетов, обрабатываемых этим экземпляром engine , для вызова статических элементов соответствующих типов, выполнения приведения типов и т. д. |
-| [Options](../../aspose.words.reporting/reportingengine/options/) { get; set; } | Получает или устанавливает набор флагов, управляющих поведением этого[`ReportingEngine`](./reportingengine/) экземпляр при построении отчета. |
+| [Options](../../aspose.words.reporting/reportingengine/options/) { get; set; } | Получает или устанавливает набор флагов, управляющих поведением этого`ReportingEngine` экземпляр при построении отчета. |
 | static [UseReflectionOptimization](../../aspose.words.reporting/reportingengine/usereflectionoptimization/) { get; set; } | Получает или задает значение, указывающее, являются ли вызовы членов пользовательского типа, выполняемые через API отражения, оптимизированными с использованием динамического создания классов или нет. Значение по умолчанию — true. |
 
 ## Методы

@@ -107,7 +107,7 @@ public class Document : DocumentBase
 | [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument_1)(Document, ImportFormatMode, ImportFormatOptions) | Добавляет указанный документ в конец этого документа. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup)() | Удаляет неиспользуемые стили и списки из документа. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup_1)(CleanupOptions) | Удаляет из документа неиспользуемые стили и списки в зависимости от заданного[`CleanupOptions`](../cleanupoptions/) . |
-| [Clone](../../aspose.words/document/clone/#clone)() | Выполняет глубокую копию[`Document`](./document/) . |
+| [Clone](../../aspose.words/document/clone/#clone)() | Выполняет глубокую копию`Document` . |
 | [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
 | [Compare](../../aspose.words/document/compare/#compare)(Document, string, DateTime) | Сравнивает этот документ с другим документом, внося изменения в виде количества редакций и форматирования.[`Revision`](../revision/) . |
 | [Compare](../../aspose.words/document/compare/#compare_1)(Document, string, DateTime, CompareOptions) | Сравнивает этот документ с другим документом, внося изменения в виде количества редакций и форматирования.[`Revision`](../revision/) . Позволяет указать параметры сравнения, используя[`CompareOptions`](../../aspose.words.comparing/compareoptions/) . |
@@ -116,7 +116,7 @@ public class Document : DocumentBase
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Зарезервировано для системного использования. IXPathNavigable. |
 | [EnsureMinimum](../../aspose.words/document/ensureminimum/)() | Если документ не содержит разделов, создается один раздел с одним абзацем. |
 | [ExpandTableStylesToDirectFormatting](../../aspose.words/document/expandtablestylestodirectformatting/)() | Преобразует форматирование, указанное в стилях таблиц, в прямое форматирование таблиц в документе. |
-| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | Возвращает[`Document`](./document/) объект, представляющий указанный диапазон страниц. |
+| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | Возвращает`Document` объект, представляющий указанный диапазон страниц. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Возвращает N-й дочерний узел, соответствующий указанному типу. |

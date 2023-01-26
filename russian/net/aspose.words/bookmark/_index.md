@@ -34,7 +34,7 @@ public class Bookmark
 
 ### Примечания
 
-[`Bookmark`](./bookmark/) это объект «фасад», который инкапсулирует два узла[`BookmarkStart`](./bookmarkstart/) и[`BookmarkEnd`](./bookmarkend/) в дереве документа и позволяет работать с закладкой как с единым объектом.
+`Bookmark` это объект «фасад», который инкапсулирует два узла[`BookmarkStart`](./bookmarkstart/) и[`BookmarkEnd`](./bookmarkend/) в дереве документа и позволяет работать с закладкой как с единым объектом.
 
 ### Примеры
 

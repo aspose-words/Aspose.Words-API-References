@@ -97,9 +97,9 @@ public class Paragraph : CompositeNode
 
 ### Примечания
 
-[`Paragraph`](./paragraph/) является блочным узлом и может быть дочерним по отношению к классам, производным от [`Story`](../story/) или же[`InlineStory`](../inlinestory/).
+`Paragraph` является блочным узлом и может быть дочерним по отношению к классам, производным от [`Story`](../story/) или же[`InlineStory`](../inlinestory/).
 
-[`Paragraph`](./paragraph/) может содержать любое количество встроенных узлов и закладок.
+`Paragraph` может содержать любое количество встроенных узлов и закладок.
 
 Полный список дочерних узлов, которые могут находиться внутри абзаца, состоит из [`BookmarkStart`](../bookmarkstart/) ,[`BookmarkEnd`](../bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) , [`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../run/) ,[`SpecialChar`](../specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`SmartTag`](../../aspose.words.markup/smarttag/).
 

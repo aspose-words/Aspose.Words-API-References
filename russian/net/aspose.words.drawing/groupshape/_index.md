@@ -132,9 +132,9 @@ public class GroupShape : ShapeBase
 
 ### Примечания
 
-А[`GroupShape`](./groupshape/) является составным узлом и может иметь[`Shape`](../shape/) и [`GroupShape`](./groupshape/) узлы как дети.
+А`GroupShape` является составным узлом и может иметь[`Shape`](../shape/) и `GroupShape` узлы как дети.
 
-Каждый[`GroupShape`](./groupshape/) определяет новую систему координат для своих дочерних фигур. Система координат определяется с помощью[`CoordSize`](../shapebase/coordsize/) и [`CoordOrigin`](../shapebase/coordorigin/) характеристики.
+Каждый`GroupShape` определяет новую систему координат для своих дочерних фигур. Система координат определяется с помощью[`CoordSize`](../shapebase/coordsize/) и [`CoordOrigin`](../shapebase/coordorigin/) характеристики.
 
 ### Примеры
 

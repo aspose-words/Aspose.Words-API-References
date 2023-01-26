@@ -41,7 +41,7 @@ public class TextPath
 
 ### Примечания
 
-Использовать[`TextPath`](../shape/textpath/) для доступа к свойствам WordArt фигуры. Вы не создаете экземпляры[`TextPath`](./textpath/) класс напрямую.
+Использовать[`TextPath`](../shape/textpath/) для доступа к свойствам WordArt фигуры. Вы не создаете экземпляры`TextPath` класс напрямую.
 
 ### Примеры
 

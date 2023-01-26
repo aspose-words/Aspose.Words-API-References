@@ -55,9 +55,9 @@ public class FieldSeparator : FieldChar
 
 ### Примечания
 
-[`FieldSeparator`](./fieldseparator/) является узлом встроенного уровня и представлен [`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar/) управляющий символ в документе.
+`FieldSeparator` является узлом встроенного уровня и представлен [`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar/) управляющий символ в документе.
 
-[`FieldSeparator`](./fieldseparator/) может быть только ребенком[`Paragraph`](../../aspose.words/paragraph/).
+`FieldSeparator` может быть только ребенком[`Paragraph`](../../aspose.words/paragraph/).
 
 Полное поле в документе Microsoft Word представляет собой сложную структуру, состоящую из начального символа поля, кода поля, символа-разделителя поля, результата поля и конечного символа поля. Некоторые поля имеют только начало поля, код поля и конец поля.
 

@@ -18,7 +18,7 @@ public class FieldDatabaseDataRow
 
 | Имя | Описание |
 | --- | --- |
-| [FieldDatabaseDataRow](fielddatabasedatarow/)(params string[]) | Инициализирует новый экземпляр[`FieldDatabaseDataRow`](./fielddatabasedatarow/) класс. |
+| [FieldDatabaseDataRow](fielddatabasedatarow/)(params string[]) | Инициализирует новый экземпляр`FieldDatabaseDataRow` класс. |
 
 ## Характеристики
 
@@ -30,7 +30,7 @@ public class FieldDatabaseDataRow
 
 | Имя | Описание |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | Инициализирует новый экземпляр[`FieldDatabaseDataRow`](./fielddatabasedatarow/) class изDataRow экземпляр. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | Инициализирует новый экземпляр`FieldDatabaseDataRow` class изDataRow экземпляр. |
 
 ### Смотрите также
 

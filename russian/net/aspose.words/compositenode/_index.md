@@ -67,7 +67,7 @@ public abstract class CompositeNode : Node, IEnumerable<Node>, IXPathNavigable
 
 Дополнительные сведения см. в шаблоне проектирования Composite.
 
-[`CompositeNode`](./compositenode/)учебный класс:
+`CompositeNode`учебный класс:
 
 * Предоставляет доступ к дочерним узлам.
 * Реализует составные операции, такие как вставка и удаление дочерних элементов.

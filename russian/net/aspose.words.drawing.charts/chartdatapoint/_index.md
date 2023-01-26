@@ -33,7 +33,7 @@ public class ChartDataPoint : IChartDataPoint
 
 ### Примечания
 
-В сериале[`ChartDataPoint`](./chartdatapoint/) объект является членом[`ChartDataPointCollection`](../chartdatapointcollection/) . [`ChartDataPointCollection`](../chartdatapointcollection/) содержит[`ChartDataPoint`](./chartdatapoint/) объект для каждой точки.
+В сериале`ChartDataPoint` объект является членом[`ChartDataPointCollection`](../chartdatapointcollection/) . [`ChartDataPointCollection`](../chartdatapointcollection/) содержит`ChartDataPoint` объект для каждой точки.
 
 ### Примеры
 

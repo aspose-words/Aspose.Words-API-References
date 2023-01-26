@@ -79,9 +79,9 @@ public class BuildingBlock : CompositeNode
 
 ### Примечания
 
-[`BuildingBlock`](./buildingblock/) может содержать только[`Section`](../../aspose.words/section/) узлы.
+`BuildingBlock` может содержать только[`Section`](../../aspose.words/section/) узлы.
 
-[`BuildingBlock`](./buildingblock/) может быть только ребенком[`GlossaryDocument`](../glossarydocument/).
+`BuildingBlock` может быть только ребенком[`GlossaryDocument`](../glossarydocument/).
 
 Вы можете создавать новые стандартные блоки и вставлять их в глоссарий. Вы можете изменять или удалять существующие стандартные блоки. Вы можете копировать или перемещать стандартные блоки между документами. Вы можете вставить содержимое стандартного блока в документ.
 

@@ -30,7 +30,7 @@ public class PrinterSettingsContainer
 
 ### Примечания
 
-Доступ к даннымPrinterSettings занимает много времени. [`PrinterSettingsContainer`](./printersettingscontainer/) кэширует параметры изPrinterSettings , , чтобы печать работала быстрее.
+Доступ к даннымPrinterSettings занимает много времени. `PrinterSettingsContainer` кэширует параметры изPrinterSettings , , чтобы печать работала быстрее.
 
 ### Примеры
 

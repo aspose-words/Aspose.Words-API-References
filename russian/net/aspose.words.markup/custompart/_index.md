@@ -42,7 +42,7 @@ public class CustomPart
 
 Microsoft Word сохраняет пользовательские части во время циклов открытия/сохранения. Некоторую дополнительную информацию можно найти здесь http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
 
-Aspose.Words также передает пользовательские части и, кроме того, позволяет программно получить доступ к таким частям через[`CustomPart`](./custompart/) а также[`CustomPartCollection`](../custompartcollection/) объекты.
+Aspose.Words также передает пользовательские части и, кроме того, позволяет программно получить доступ к таким частям через`CustomPart` а также[`CustomPartCollection`](../custompartcollection/) объекты.
 
 Не путайте пользовательские части с пользовательскими XML-данными. Использовать[`CustomXmlPart`](../customxmlpart/) если вам нужно для доступа к пользовательским XML-данным.
 
