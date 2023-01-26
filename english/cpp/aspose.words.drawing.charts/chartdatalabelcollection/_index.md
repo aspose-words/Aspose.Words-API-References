@@ -22,6 +22,7 @@ class ChartDataLabelCollection : public System::Collections::Generic::IEnumerabl
 | --- | --- |
 | [ClearFormat](./clearformat/)() | Clears format of all [ChartDataLabel](../chartdatalabel/) in this collection. |
 | [get_Count](./get_count/)() | Returns the number of [ChartDataLabel](../chartdatalabel/) in this collection. |
+| [get_Font](./get_font/)() | Provides access to the font formatting of the data labels of the entire series. |
 | [get_NumberFormat](./get_numberformat/)() | Gets an [ChartNumberFormat](../chartnumberformat/) instance allowing to set number format for the data labels of the entire series. |
 | [get_Separator](./get_separator/)() | Gets or sets string separator used for the data labels of the entire series. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead. |
 | [get_ShowBubbleSize](./get_showbubblesize/)() | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. Applies only to Bubble charts. Default value is **false**. |

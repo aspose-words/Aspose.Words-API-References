@@ -3,7 +3,7 @@ title: set_IgnoreTables
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Comparing::CompareOptions::get_IgnoreTables.'
 type: docs
-weight: 300
+weight: 326
 url: /cpp/aspose.words.comparing/compareoptions/set_ignoretables/
 ---
 ## CompareOptions::set_IgnoreTables method

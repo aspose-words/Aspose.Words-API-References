@@ -3,7 +3,7 @@ title: set_ShowBubbleSize
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowBubbleSize.'
 type: docs
-weight: 235
+weight: 248
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/set_showbubblesize/
 ---
 ## ChartDataLabelCollection::set_ShowBubbleSize method

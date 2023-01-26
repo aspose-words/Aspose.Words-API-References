@@ -24,7 +24,7 @@ class OleFormat : public System::Object
 | [get_IconCaption](./get_iconcaption/)() | Gets icon caption of OLE object. In case of OLE object is not embedded as icon or caption couldn't be retrieved returns empty string. |
 | [get_IsLink](./get_islink/)() | Returns **true** if the OLE object is linked (when [SourceFullName](./get_sourcefullname/) is specified). |
 | [get_IsLocked](./get_islocked/)() | Specifies whether the link to the OLE object is locked from updates. |
-| [get_OleControl](./get_olecontrol/)() | Gets [OleControl](./get_olecontrol/) objects if this OLE object is an ActiveX control. Otherwise this property is **null**. |
+| [get_OleControl](./get_olecontrol/)() | Gets [OleControl](./get_olecontrol/) objects if this OLE object is an ActiveX control. Otherwise this property is null. |
 | [get_OleIcon](./get_oleicon/)() | Gets the draw aspect of the OLE object. When **true**, the OLE object is displayed as an icon. When **false**, the OLE object is displayed as content. |
 | [get_OlePackage](./get_olepackage/)() | Provide access to [OlePackage](../olepackage/) if OLE object is an OLE Package. Returns **null** otherwise. |
 | [get_ProgId](./get_progid/)() | Gets or sets the ProgID of the OLE object. |

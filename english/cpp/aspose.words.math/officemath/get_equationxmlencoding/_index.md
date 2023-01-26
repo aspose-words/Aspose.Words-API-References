@@ -1,7 +1,7 @@
 ---
 title: get_EquationXmlEncoding
 second_title: Aspose.Words for C++ API Reference
-description: Gets/sets an encoding that was used to encode equation XML, if this office math object is read from equation XML. We use the encoding on saving a document to write in same encoding that it was read.
+description: Gets/sets an encoding that was used to encode equation XML, if this office math object is read from equation XML.
 type: docs
 weight: 40
 url: /cpp/aspose.words.math/officemath/get_equationxmlencoding/
@@ -9,10 +9,10 @@ url: /cpp/aspose.words.math/officemath/get_equationxmlencoding/
 ## OfficeMath::get_EquationXmlEncoding method
 
 
-Gets/sets an encoding that was used to encode equation XML, if this office math object is read from equation XML. We use the encoding on saving a document to write in same encoding that it was read.
+Gets/sets an encoding that was used to encode equation XML, if this office math object is read from equation XML.
 
 ```cpp
-System::SharedPtr<System::Text::Encoding> Aspose::Words::Math::OfficeMath::get_EquationXmlEncoding() const
+System::SharedPtr<System::Text::Encoding> Aspose::Words::Math::OfficeMath::get_EquationXmlEncoding()
 ```
 
 

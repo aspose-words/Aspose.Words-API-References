@@ -3,7 +3,7 @@ title: PdfImageColorSpaceExportMode
 second_title: Aspose.Words for C++ API Reference
 description: Specifies how the color space will be selected for the images in PDF document.
 type: docs
-weight: 963
+weight: 976
 url: /cpp/aspose.words.saving/pdfimagecolorspaceexportmode/
 ---
 ## PdfImageColorSpaceExportMode enum

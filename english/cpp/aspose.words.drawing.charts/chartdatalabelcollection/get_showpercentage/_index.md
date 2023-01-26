@@ -3,7 +3,7 @@ title: get_ShowPercentage
 second_title: Aspose.Words for C++ API Reference
 description: Allows to specify whether percentage value is to be displayed for the data labels of the entire series. Default value is false. Applies only to Pie charts.
 type: docs
-weight: 131
+weight: 144
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_showpercentage/
 ---
 ## ChartDataLabelCollection::get_ShowPercentage method

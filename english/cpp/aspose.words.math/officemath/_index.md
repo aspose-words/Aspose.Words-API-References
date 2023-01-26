@@ -29,7 +29,7 @@ class OfficeMath : public Aspose::Words::CompositeNode,
 | [get_CustomNodeId](../../aspose.words/node/get_customnodeid/)() const | Specifies custom node identifier. |
 | [get_DisplayType](./get_displaytype/)() | Gets/sets Office [Math](../) display format type which represents whether an equation is displayed inline with the text or displayed on its own line. |
 | virtual [get_Document](../../aspose.words/node/get_document/)() const | Gets the document to which this node belongs. |
-| [get_EquationXmlEncoding](./get_equationxmlencoding/)() const | Gets/sets an encoding that was used to encode equation XML, if this office math object is read from equation XML. We use the encoding on saving a document to write in same encoding that it was read. |
+| [get_EquationXmlEncoding](./get_equationxmlencoding/)() | Gets/sets an encoding that was used to encode equation XML, if this office math object is read from equation XML. |
 | [get_FirstChild](../../aspose.words/compositenode/get_firstchild/)() const | Gets the first child of the node. |
 | [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
 | [get_IsComposite](../../aspose.words/compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
