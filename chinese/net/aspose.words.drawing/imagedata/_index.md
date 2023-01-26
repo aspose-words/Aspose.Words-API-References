@@ -52,7 +52,7 @@ public class ImageData
 
 ### 评论
 
-使用[`ImageData`](../shape/imagedata/)属性来访问和修改形状内的图像。 您不创建的实例[`ImageData`](./imagedata/)直接上课。
+使用[`ImageData`](../shape/imagedata/)属性来访问和修改形状内的图像。 您不创建的实例`ImageData`直接上课。
 
 图像可以存储在形状内，链接到外部文件或两者（链接并存储在文档中）。
 

@@ -18,8 +18,8 @@ public class GradientStop
 
 | namn | Beskrivning |
 | --- | --- |
-| [GradientStop](gradientstop/#constructor)(Color, double) | Initierar en ny instans av[`GradientStop`](./gradientstop/) class. |
-| [GradientStop](gradientstop/#constructor_1)(Color, double, double) | Initierar en ny instans av[`GradientStop`](./gradientstop/) class. |
+| [GradientStop](gradientstop/#constructor)(Color, double) | Initierar en ny instans av`GradientStop` class. |
+| [GradientStop](gradientstop/#constructor_1)(Color, double, double) | Initierar en ny instans av`GradientStop` class. |
 
 ## Egenskaper
 

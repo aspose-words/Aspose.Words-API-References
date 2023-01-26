@@ -132,9 +132,9 @@ public class GroupShape : ShapeBase
 
 ### ملاحظات
 
-أ[`GroupShape`](./groupshape/) هي عقدة مركبة ويمكن أن يكون لها[`Shape`](../shape/) و [`GroupShape`](./groupshape/) العقد كأطفال.
+أ`GroupShape` هي عقدة مركبة ويمكن أن يكون لها[`Shape`](../shape/) و `GroupShape` العقد كأطفال.
 
-كل[`GroupShape`](./groupshape/) يحدد نظام إحداثيات جديدًا لأشكاله الفرعية . يتم تعريف نظام الإحداثيات باستخدام[`CoordSize`](../shapebase/coordsize/) و [`CoordOrigin`](../shapebase/coordorigin/) الخصائص.
+كل`GroupShape` يحدد نظام إحداثيات جديدًا لأشكاله الفرعية . يتم تعريف نظام الإحداثيات باستخدام[`CoordSize`](../shapebase/coordsize/) و [`CoordOrigin`](../shapebase/coordorigin/) الخصائص.
 
 ### أمثلة
 

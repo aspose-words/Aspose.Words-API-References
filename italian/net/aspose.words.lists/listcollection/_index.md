@@ -34,9 +34,9 @@ public class ListCollection : IEnumerable<List>
 
 ### Osservazioni
 
-Un elenco in un documento Microsoft Word è un insieme di proprietà di formattazione degli elenchi. La formattazione degli elenchi è archiviata nel[`ListCollection`](./listcollection/) raccolta separata dai paragrafi di testo.
+Un elenco in un documento Microsoft Word è un insieme di proprietà di formattazione degli elenchi. La formattazione degli elenchi è archiviata nel`ListCollection` raccolta separata dai paragrafi di testo.
 
-Non crei oggetti di questa classe. Ce n'è sempre uno solo[`ListCollection`](./listcollection/) oggetto per documento ed è accessibile tramite il[`Lists`](../../aspose.words/documentbase/lists/) proprietà.
+Non crei oggetti di questa classe. Ce n'è sempre uno solo`ListCollection` oggetto per documento ed è accessibile tramite il[`Lists`](../../aspose.words/documentbase/lists/) proprietà.
 
 Per creare un nuovo elenco basato su un modello di elenco predefinito o basato su uno stile di elenco, utilizza[`Add`](./add/) metodo.
 

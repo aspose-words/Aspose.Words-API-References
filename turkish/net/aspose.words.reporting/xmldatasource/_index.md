@@ -31,7 +31,7 @@ public class XmlDataSource
 
 Bir rapor oluştururken ilgili dosyanın veya akışın verilerine erişmek için, bu sınıfın bir örneğini veri kaynağı olarak aşağıdakilerden birine iletin:[`ReportingEngine`](../reportingengine/) .BuildReport aşırı yükleniyor.
 
-Şablon belgelerinde, üst düzey bir XML öğesi yalnızca aynı türdeki öğelerin bir listesini içeriyorsa, an[`XmlDataSource`](./xmldatasource/) örneğe a olduğu gibi davranılmalıdırDataTable örneği. Aksi takdirde, bir[`XmlDataSource`](./xmldatasource/) örneğe a olduğu gibi davranılmalıdırDataRow örneği. Daha fazla bilgi için şablon sözdizimi referansına bakın (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+Şablon belgelerinde, üst düzey bir XML öğesi yalnızca aynı türdeki öğelerin bir listesini içeriyorsa, an`XmlDataSource` örneğe a olduğu gibi davranılmalıdırDataTable örneği. Aksi takdirde, bir`XmlDataSource` örneğe a olduğu gibi davranılmalıdırDataRow örneği. Daha fazla bilgi için şablon sözdizimi referansına bakın (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 Bu sınıfın bir yapıcısına XML Schema Definition geçirildiğinde, basit XML öğelerinin değerlerinin veri türleri ve öznitelikler şemaya göre belirlenir. Böylece şablon belgelerde, yalnızca dizeler yerine yazılan değerlerle çalışabilirsiniz.
 

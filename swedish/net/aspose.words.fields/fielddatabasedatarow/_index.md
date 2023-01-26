@@ -18,7 +18,7 @@ public class FieldDatabaseDataRow
 
 | namn | Beskrivning |
 | --- | --- |
-| [FieldDatabaseDataRow](fielddatabasedatarow/)(params string[]) | Initierar en ny instans av[`FieldDatabaseDataRow`](./fielddatabasedatarow/) class. |
+| [FieldDatabaseDataRow](fielddatabasedatarow/)(params string[]) | Initierar en ny instans av`FieldDatabaseDataRow` class. |
 
 ## Egenskaper
 
@@ -30,7 +30,7 @@ public class FieldDatabaseDataRow
 
 | namn | Beskrivning |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | Initierar en ny instans av[`FieldDatabaseDataRow`](./fielddatabasedatarow/) class frånDataRow instans. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | Initierar en ny instans av`FieldDatabaseDataRow` class frånDataRow instans. |
 
 ### Se även
 

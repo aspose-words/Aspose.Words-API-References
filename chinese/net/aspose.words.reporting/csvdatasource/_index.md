@@ -27,7 +27,7 @@ public class CsvDataSource
 
 要在生成报告时访问相应文件或流的数据，请将此类的实例作为 数据源传递给其中一个[`ReportingEngine`](../reportingengine/).BuildReport 重载.
 
-在模板文档中，一个[`CsvDataSource`](./csvdatasource/)实例应该以与 was a 相同的方式处理DataTable 实例。有关详细信息，请参阅模板语法参考 (https://docs.aspose.com/display/wordsnet/Template+Syntax)。
+在模板文档中，一个`CsvDataSource`实例应该以与 was a 相同的方式处理DataTable 实例。有关详细信息，请参阅模板语法参考 (https://docs.aspose.com/display/wordsnet/Template+Syntax)。
 
 逗号分隔值的数据类型根据其字符串表示形式自动确定。因此，在 template 文档中，您可以使用类型化的值而不仅仅是字符串。引擎能够自动识别以下类型的 值：
 

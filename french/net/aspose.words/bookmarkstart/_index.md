@@ -18,7 +18,7 @@ public class BookmarkStart : Node
 
 | Nom | La description |
 | --- | --- |
-| [BookmarkStart](bookmarkstart/)(DocumentBase, string) | Initialise une nouvelle instance du[`BookmarkStart`](./bookmarkstart/) classe. |
+| [BookmarkStart](bookmarkstart/)(DocumentBase, string) | Initialise une nouvelle instance du`BookmarkStart` classe. |
 
 ## Propriétés
 
@@ -52,9 +52,9 @@ public class BookmarkStart : Node
 
 ### Remarques
 
-Un signet complet dans un document Word consiste en un[`BookmarkStart`](./bookmarkstart/) et une correspondance[`BookmarkEnd`](../bookmarkend/) avec le même nom de signet.
+Un signet complet dans un document Word consiste en un`BookmarkStart` et une correspondance[`BookmarkEnd`](../bookmarkend/) avec le même nom de signet.
 
-[`BookmarkStart`](./bookmarkstart/) et[`BookmarkEnd`](../bookmarkend/) ne sont que des marqueurs à l'intérieur d'un document qui spécifient où le signet commence et se termine.
+`BookmarkStart` et[`BookmarkEnd`](../bookmarkend/) ne sont que des marqueurs à l'intérieur d'un document qui spécifient où le signet commence et se termine.
 
 Utilisez le[`Bookmark`](./bookmark/) classe comme une "façade" pour travailler avec un bookmark comme un seul objet.
 

@@ -27,7 +27,7 @@ public class DocumentPartSavingArgs
 
 Quando Aspose.Words salva un documento in HTML o formati correlati e[`DocumentSplitCriteria`](../htmlsaveoptions/documentsplitcriteria/) è specificato, il documento è suddiviso in parti e, per impostazione predefinita, ogni parte del documento viene salvata in un file separato.
 
-Classe[`DocumentPartSavingArgs`](./documentpartsavingargs/) consente di controllare come verrà salvata ogni parte del documento. Consente di ridefinire come vengono generati i nomi dei file o di aggirare completamente il salvataggio di parti di documenti in file fornendo i propri oggetti flusso.
+Classe`DocumentPartSavingArgs` consente di controllare come verrà salvata ogni parte del documento. Consente di ridefinire come vengono generati i nomi dei file o di aggirare completamente il salvataggio di parti di documenti in file fornendo i propri oggetti flusso.
 
 Per salvare parti del documento in flussi anziché in file, utilizzare il file[`DocumentPartStream`](./documentpartstream/) proprietà.
 

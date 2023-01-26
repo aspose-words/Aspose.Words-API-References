@@ -8,7 +8,7 @@ url: /ar/net/aspose.words.math/officemath/
 ---
 ## OfficeMath class
 
-يمثل كائن Office Math مثل الوظيفة أو المعادلة أو المصفوفة أو ما شابه. يمكن أن تحتوي على عناصر فرعية بما في ذلك مجموعة من النصوص الرياضية والإشارات المرجعية والتعليقات وغيرها[`OfficeMath`](./officemath/) مثيلات وبعض العقد الأخرى.
+يمثل كائن Office Math مثل الوظيفة أو المعادلة أو المصفوفة أو ما شابه. يمكن أن تحتوي على عناصر فرعية بما في ذلك مجموعة من النصوص الرياضية والإشارات المرجعية والتعليقات وغيرها`OfficeMath` مثيلات وبعض العقد الأخرى.
 
 ```csharp
 public class OfficeMath : CompositeNode
@@ -69,9 +69,9 @@ public class OfficeMath : CompositeNode
 
 ### ملاحظات
 
-في هذا الإصدار من Aspose.Words ،[`OfficeMath`](./officemath/) العقد لا توفر الأساليب العامة والخصائص لإنشاء أو تعديل كائن OfficeMath. في هذا الإصدار لا يمكنك إنشاء مثيل Math العقد أو تعديل الموجودة باستثناء حذفها.
+في هذا الإصدار من Aspose.Words ،`OfficeMath` العقد لا توفر الأساليب العامة والخصائص لإنشاء أو تعديل كائن OfficeMath. في هذا الإصدار لا يمكنك إنشاء مثيل Math العقد أو تعديل الموجودة باستثناء حذفها.
 
-[`OfficeMath`](./officemath/) يمكن أن يكون فقط تابعًا لـ[`Paragraph`](../../aspose.words/paragraph/).
+`OfficeMath` يمكن أن يكون فقط تابعًا لـ[`Paragraph`](../../aspose.words/paragraph/).
 
 ### أمثلة
 

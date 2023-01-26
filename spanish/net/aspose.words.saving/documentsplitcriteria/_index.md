@@ -27,7 +27,7 @@ public enum DocumentSplitCriteria
 
 ### Observaciones
 
-[`DocumentSplitCriteria`](./documentsplitcriteria/)es un conjunto de banderas que se pueden combinar. Por ejemplo, puede dividir el documento en saltos de página y párrafos de encabezado en la misma operación de exportación.
+`DocumentSplitCriteria`es un conjunto de banderas que se pueden combinar. Por ejemplo, puede dividir el documento en saltos de página y párrafos de encabezado en la misma operación de exportación.
 
 Diferentes criterios pueden superponerse parcialmente. Por ejemplo, **Título 1** el estilo se da con frecuencia [`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/) propiedad por lo que cae bajo dos criterios:PageBreak y HeadingParagraph. Algunos saltos de sección pueden provocar saltos de página, etc. En casos típicos, especificar solo una bandera es la opción más práctica.
 

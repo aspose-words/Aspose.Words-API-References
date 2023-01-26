@@ -30,7 +30,7 @@ public class ComHelper
 
 ### ملاحظات
 
-استخدم ال[`ComHelper`](./comhelper/) فئة لتحميل مستند من ملف أو دفق إلى [`Document`](../document/) كائن في تطبيق COM.
+استخدم ال`ComHelper` فئة لتحميل مستند من ملف أو دفق إلى [`Document`](../document/) كائن في تطبيق COM.
 
 ال[`Document`](../document/)توفر الفئة مُنشئًا افتراضيًا لإنشاء document جديدًا وتوفر أيضًا مُنشِئات محملة بشكل زائد لتحميل مستند من ملف أو دفق . إذا كنت تستخدم Aspose.Words من تطبيق .NET ، فيمكنك استخدام كل[`Document`](../document/) المنشئات مباشرةً ، ولكن إذا كنت تستخدم Aspose.Words من تطبيق COM ، فقط الافتراضي[`Document`](../document/) منشئ متاح.
 

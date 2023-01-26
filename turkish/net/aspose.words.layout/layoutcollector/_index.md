@@ -38,7 +38,7 @@ public class LayoutCollector
 
 ### Notlar
 
-oluşturduğunuzda[`LayoutCollector`](./layoutcollector/) ve bir belirtin[`Document`](../../aspose.words/document/)eklenecek belge nesnesi, toplayıcı, belge sayfalara biçimlendirildiğinde belge düğümlerinin yerleşim nesnelerine eşlenmesini kaydeder.
+oluşturduğunuzda`LayoutCollector` ve bir belirtin[`Document`](../../aspose.words/document/)eklenecek belge nesnesi, toplayıcı, belge sayfalara biçimlendirildiğinde belge düğümlerinin yerleşim nesnelerine eşlenmesini kaydeder.
 
 Belirli bir belge düğümünün (örneğin, çalışma, paragraf veya tablo hücresi) hangi sayfada olduğunu kullanarak bulabileceksiniz.[`GetStartPageIndex`](./getstartpageindex/) ,[`GetEndPageIndex`](./getendpageindex/) ve[`GetNumPagesSpanned`](./getnumpagesspanned/) yöntemler. Bu yöntemler, belgenin sayfa yerleşim modelini otomatik olarak oluşturur ve gerekirse alanları günceller.
 

@@ -104,15 +104,15 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 
 Yapılandırılmış belge etiketleri (SDT'ler), müşteri tanımlı semantiğin yanı sıra davranışını ve görünümünü bir belgeye yerleştirmeye izin verir.
 
-Bu sürümde Aspose.Words, davranış ve içeriği değiştirmek için bir dizi genel yöntem ve özellik sağlar.[`StructuredDocumentTag`](./structureddocumenttag/) . SDT düğümlerinin bir belge içindeki özel XML paketleriyle eşlenmesi, [`XmlMapping`](./xmlmapping/) Emlak.
+Bu sürümde Aspose.Words, davranış ve içeriği değiştirmek için bir dizi genel yöntem ve özellik sağlar.`StructuredDocumentTag` . SDT düğümlerinin bir belge içindeki özel XML paketleriyle eşlenmesi, [`XmlMapping`](./xmlmapping/) Emlak.
 
-[`StructuredDocumentTag`](./structureddocumenttag/) bir belgede aşağıdaki yerlerde ortaya çıkabilir:
+`StructuredDocumentTag` bir belgede aşağıdaki yerlerde ortaya çıkabilir:
 
 * Blok düzeyi - Paragraflar ve tablolar arasında, bir[`Body`](../../aspose.words/body/) ,[`HeaderFooter`](../../aspose.words/headerfooter/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) veya bir[`Shape`](../../aspose.words.drawing/shape/) düğüm.
 * Row-level - Bir tablonun alt öğesi olarak bir tablodaki satırlar arasında[`Table`](../../aspose.words.tables/table/) düğüm.
 * Hücre düzeyi - Bir tablo satırındaki hücreler arasında, bir[`Row`](../../aspose.words.tables/row/) düğüm.
 * Satır içi düzey - İçerideki satır içi içerik arasında, bir çocuğun çocuğu olarak[`Paragraph`](../../aspose.words/paragraph/).
-* Bir başkasının içine yuvalanmış[`StructuredDocumentTag`](./structureddocumenttag/).
+* Bir başkasının içine yuvalanmış`StructuredDocumentTag`.
 
 ### Örnekler
 

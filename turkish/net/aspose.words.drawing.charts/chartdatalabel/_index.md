@@ -40,7 +40,7 @@ public class ChartDataLabel
 
 ### Notlar
 
-Bir dizide,[`ChartDataLabel`](./chartdatalabel/) nesne üyedir[`ChartDataLabelCollection`](../chartdatalabelcollection/) . [`ChartDataLabelCollection`](../chartdatalabelcollection/) içerir[`ChartDataLabel`](./chartdatalabel/) Her nokta için nesne.
+Bir dizide,`ChartDataLabel` nesne üyedir[`ChartDataLabelCollection`](../chartdatalabelcollection/) . [`ChartDataLabelCollection`](../chartdatalabelcollection/) içerir`ChartDataLabel` Her nokta için nesne.
 
 ### Örnekler
 

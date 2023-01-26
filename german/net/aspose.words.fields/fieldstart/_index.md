@@ -56,9 +56,9 @@ public class FieldStart : FieldChar
 
 ### Bemerkungen
 
-[`FieldStart`](./fieldstart/) ist ein Knoten auf Inline-Ebene und wird durch the dargestellt.[`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) Steuerzeichen im Dokument.
+`FieldStart` ist ein Knoten auf Inline-Ebene und wird durch the dargestellt.[`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) Steuerzeichen im Dokument.
 
-[`FieldStart`](./fieldstart/) kann nur ein Kind von sein[`Paragraph`](../../aspose.words/paragraph/).
+`FieldStart` kann nur ein Kind von sein[`Paragraph`](../../aspose.words/paragraph/).
 
 Ein vollständiges Feld in einem Microsoft Word-Dokument ist eine komplexe Struktur, die aus einem Feldanfangszeichen, einem Feldcode, einem Feldtrennzeichen, einem Feldergebnis und einem Feldendezeichen besteht. Einige Felder haben nur Feldanfang, Feldcode und Feldende.
 

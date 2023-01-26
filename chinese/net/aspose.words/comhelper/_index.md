@@ -30,7 +30,7 @@ public class ComHelper
 
 ### 评论
 
-使用[`ComHelper`](./comhelper/)类将文档从文件或流加载到 [`Document`](../document/) COM 应用程序中的对象。
+使用`ComHelper`类将文档从文件或流加载到 [`Document`](../document/) COM 应用程序中的对象。
 
 这[`Document`](../document/)类提供了一个默认构造函数来创建一个新的 document 并且还提供了重载的构造函数来从一个文件或流中加载一个文档。 如果你在一个 .NET 应用程序中使用 Aspose.Words，你可以使用所有的[`Document`](../document/) 直接构造函数，但如果您从 COM 应用程序使用 Aspose.Words， 仅是默认值[`Document`](../document/)构造函数可用。
 

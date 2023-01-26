@@ -25,7 +25,7 @@ public int Replace(string pattern, string replacement)
 
 ### 评论
 
-该模式不会用作正则表达式。 请使用[`Replace`](./replace/)如果你需要正则表达式。
+该模式不会用作正则表达式。 请使用`Replace`如果你需要正则表达式。
 
 使用不区分大小写的比较。
 
@@ -38,7 +38,7 @@ public int Replace(string pattern, string replacement)
 * **&amp;m** - 分页符
 * **&amp;l** - 手动换行
 
-使用方法[`Replace`](./replace/)进行更灵活的定制。
+使用方法`Replace`进行更灵活的定制。
 
 ### 例子
 
@@ -139,7 +139,7 @@ public int Replace(Regex pattern, string replacement)
 * **&amp;m** - 分页符
 * **&amp;l** - 手动换行
 
-使用方法[`Replace`](./replace/)进行更灵活的定制。
+使用方法`Replace`进行更灵活的定制。
 
 ### 例子
 
@@ -193,7 +193,7 @@ public int Replace(string pattern, string replacement, FindReplaceOptions option
 
 ### 评论
 
-该模式不会用作正则表达式。 请使用[`Replace`](./replace/)如果你需要正则表达式。
+该模式不会用作正则表达式。 请使用`Replace`如果你需要正则表达式。
 
 方法能够处理模式和替换字符串中的中断。
 

@@ -18,17 +18,17 @@ public class WebExtensionReferenceCollection : BaseWebExtensionCollection<WebExt
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.words.webextensions/basewebextensioncollection`1/count/) { get; } |  |
-| [Item](../../aspose.words.webextensions/basewebextensioncollection`1/item/) { get; set; } |  |
+| [Count](../../aspose.words.webextensions/basewebextensioncollection-1/count/) { get; } |  |
+| [Item](../../aspose.words.webextensions/basewebextensioncollection-1/item/) { get; set; } |  |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection`1/add/)(WebExtensionReference) |  |
-| [Clear](../../aspose.words.webextensions/basewebextensioncollection`1/clear/)() |  |
-| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection`1/getenumerator/)() |  |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection`1/remove/)(int) |  |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(WebExtensionReference) |  |
+| [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() |  |
+| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() |  |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) |  |
 
 ### Смотрите также
 

@@ -34,7 +34,7 @@ public class Bookmark
 
 ### ملاحظات
 
-[`Bookmark`](./bookmark/) هو كائن "واجهة" يغلف عقدتين[`BookmarkStart`](./bookmarkstart/) و[`BookmarkEnd`](./bookmarkend/) في شجرة وثيقة ويسمح بالعمل مع إشارة مرجعية ككائن واحد.
+`Bookmark` هو كائن "واجهة" يغلف عقدتين[`BookmarkStart`](./bookmarkstart/) و[`BookmarkEnd`](./bookmarkend/) في شجرة وثيقة ويسمح بالعمل مع إشارة مرجعية ككائن واحد.
 
 ### أمثلة
 

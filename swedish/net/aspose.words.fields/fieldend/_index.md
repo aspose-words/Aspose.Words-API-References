@@ -56,9 +56,9 @@ public class FieldEnd : FieldChar
 
 ### Anmärkningar
 
-[`FieldEnd`](./fieldend/) är en nod på inline-nivå och representeras av[`FieldEndChar`](../../aspose.words/controlchar/fieldendchar/) kontrolltecken i dokumentet.
+`FieldEnd` är en nod på inline-nivå och representeras av[`FieldEndChar`](../../aspose.words/controlchar/fieldendchar/) kontrolltecken i dokumentet.
 
-[`FieldEnd`](./fieldend/) kan bara vara ett barn av[`Paragraph`](../../aspose.words/paragraph/).
+`FieldEnd` kan bara vara ett barn av[`Paragraph`](../../aspose.words/paragraph/).
 
 Ett komplett fält i ett Microsoft Word-dokument är en komplex struktur som består av ett fältstarttecken, fältkod, fältseparatortecken, fältresultat och fältsluttecken. Vissa fält har bara fältstart, fältkod och fältslut.
 

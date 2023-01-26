@@ -34,9 +34,9 @@ public class FieldCollection : IEnumerable<Field>
 
 En instans av denna samling itererar fält som börjar falla inom det angivna intervallet.
 
-De[`FieldCollection`](./fieldcollection/) samlingen äger inte fälten den innehåller, utan är bara ett urval av fält.
+De`FieldCollection` samlingen äger inte fälten den innehåller, utan är bara ett urval av fält.
 
-De[`FieldCollection`](./fieldcollection/) samlingen är "live", dvs. ändringar av underordnade noden objekt som den skapades från återspeglas omedelbart i fälten som returneras av[`FieldCollection`](./fieldcollection/) egenskaper och metoder.
+De`FieldCollection` samlingen är "live", dvs. ändringar av underordnade noden objekt som den skapades från återspeglas omedelbart i fälten som returneras av`FieldCollection` egenskaper och metoder.
 
 ### Exempel
 

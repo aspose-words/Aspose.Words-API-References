@@ -27,7 +27,7 @@ public class CsvDataSource
 
 Bir rapor oluştururken ilgili dosyanın veya akışın verilerine erişmek için, bu sınıfın bir örneğini veri kaynağı olarak aşağıdakilerden birine iletin:[`ReportingEngine`](../reportingengine/) .BuildReport aşırı yükleniyor.
 
-Şablon belgelerinde, bir[`CsvDataSource`](./csvdatasource/) örneğe, sanki o was a gibi davranılmalıdır.DataTable örneği. Daha fazla bilgi için şablon sözdizimi referansına bakın (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+Şablon belgelerinde, bir`CsvDataSource` örneğe, sanki o was a gibi davranılmalıdır.DataTable örneği. Daha fazla bilgi için şablon sözdizimi referansına bakın (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 Virgülle ayrılmış değerlerin veri türleri, dize gösterimlerine göre otomatik olarak belirlenir. Yani template belgelerinde sadece dizeler yerine yazılan değerlerle çalışabilirsiniz. Motor, aşağıdaki türlerin değerlerini otomatik olarak tanıyabilir:
 

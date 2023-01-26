@@ -41,7 +41,7 @@ public class TextPath
 
 ### 评论
 
-使用[`TextPath`](../shape/textpath/)属性来访问形状的艺术字属性。 您不创建[`TextPath`](./textpath/)直接上课。
+使用[`TextPath`](../shape/textpath/)属性来访问形状的艺术字属性。 您不创建`TextPath`直接上课。
 
 ### 例子
 

@@ -51,9 +51,9 @@ public sealed class CommentRangeEnd : Node
 
 ### Osservazioni
 
-Per creare un commento ancorato a un'area di testo, è necessario creare un[`Comment`](../comment/) e quindi crea[`CommentRangeStart`](../commentrangestart/) e[`CommentRangeEnd`](./commentrangeend/) imposta i loro identificatori sullo stesso[`Id`](../comment/id/) valore.
+Per creare un commento ancorato a un'area di testo, è necessario creare un[`Comment`](../comment/) e quindi crea[`CommentRangeStart`](../commentrangestart/) e`CommentRangeEnd` imposta i loro identificatori sullo stesso[`Id`](../comment/id/) valore.
 
-[`CommentRangeEnd`](./commentrangeend/) è un nodo inline e può essere solo un figlio di[`Paragraph`](../paragraph/).
+`CommentRangeEnd` è un nodo inline e può essere solo un figlio di[`Paragraph`](../paragraph/).
 
 ### Esempi
 

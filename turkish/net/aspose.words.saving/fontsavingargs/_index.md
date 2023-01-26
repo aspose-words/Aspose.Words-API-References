@@ -34,9 +34,9 @@ public class FontSavingArgs
 
 Aspose.Words bir belgeyi HTML veya ilgili formatlara kaydettiğinde ve[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) olarak ayarlandı **doğru**, her yazı tipi konusunu ayrı bir dosyaya dışa aktarmak için kaydeder.
 
-[`FontSavingArgs`](./fontsavingargs/) belirli bir yazı tipi kaynağının dışa aktarılıp aktarılmayacağını ve nasıl yapılacağını kontrol eder.
+`FontSavingArgs` belirli bir yazı tipi kaynağının dışa aktarılıp aktarılmayacağını ve nasıl yapılacağını kontrol eder.
 
-[`FontSavingArgs`](./fontsavingargs/)ayrıca yazı tipi dosya adlarının nasıl oluşturulduğunu yeniden tanımlamanıza veya kendi akış nesnelerinizi sağlayarak yazı tiplerinin dosyalara kaydedilmesini tamamen engellemenize olanak tanır.
+`FontSavingArgs`ayrıca yazı tipi dosya adlarının nasıl oluşturulduğunu yeniden tanımlamanıza veya kendi akış nesnelerinizi sağlayarak yazı tiplerinin dosyalara kaydedilmesini tamamen engellemenize olanak tanır.
 
 Belirli bir yazı tipi kaynağını kaydedip kaydetmemeye karar vermek için[`IsExportNeeded`](./isexportneeded/) Emlak.
 

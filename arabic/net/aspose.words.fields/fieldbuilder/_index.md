@@ -18,7 +18,7 @@ public class FieldBuilder
 
 | اسم | وصف |
 | --- | --- |
-| [FieldBuilder](fieldbuilder/)(FieldType) | يقوم بتهيئة مثيل لملف[`FieldBuilder`](./fieldbuilder/) فئة . |
+| [FieldBuilder](fieldbuilder/)(FieldType) | يقوم بتهيئة مثيل لملف`FieldBuilder` فئة . |
 
 ## طُرق
 
@@ -26,7 +26,7 @@ public class FieldBuilder
 | --- | --- |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(double) | إضافة وسيطة الحقل . |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(FieldArgumentBuilder) | إضافة وسيطة الحقل التي يمثلها[`FieldArgumentBuilder`](../fieldargumentbuilder/) إلى رمز الحقل. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | إضافة حقل فرعي يمثله حقل آخر[`FieldBuilder`](./fieldbuilder/) إلى رمز الحقل. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | إضافة حقل فرعي يمثله حقل آخر`FieldBuilder` إلى رمز الحقل. |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(int) | إضافة وسيطة الحقل . |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(string) | إضافة وسيطة الحقل . |
 | [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(string) | يضيف مفتاح تبديل الحقل . |

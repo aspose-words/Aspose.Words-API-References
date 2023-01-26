@@ -25,7 +25,7 @@ public Field InsertField(FieldType fieldType, bool updateField)
 
 ### ملاحظات
 
-تقوم هذه الطريقة بإدراج حقل في المستند. لمزيد من التفاصيل راجع the [`InsertField`](./insertfield/) الزائد.
+تقوم هذه الطريقة بإدراج حقل في المستند. لمزيد من التفاصيل راجع the `InsertField` الزائد.
 
 ### أمثلة
 
@@ -97,7 +97,7 @@ public Field InsertField(string fieldCode)
 
 ### ملاحظات
 
-تُدخل هذه الطريقة حقلاً في المستند وتقوم بتحديث نتيجة الحقل على الفور. لمزيد من التفاصيل راجع the [`InsertField`](./insertfield/) الزائد.
+تُدخل هذه الطريقة حقلاً في المستند وتقوم بتحديث نتيجة الحقل على الفور. لمزيد من التفاصيل راجع the `InsertField` الزائد.
 
 ### أمثلة
 

@@ -18,7 +18,7 @@ public class FieldBuilder
 
 | Имя | Описание |
 | --- | --- |
-| [FieldBuilder](fieldbuilder/)(FieldType) | Инициализирует экземпляр[`FieldBuilder`](./fieldbuilder/) класс. |
+| [FieldBuilder](fieldbuilder/)(FieldType) | Инициализирует экземпляр`FieldBuilder` класс. |
 
 ## Методы
 
@@ -26,7 +26,7 @@ public class FieldBuilder
 | --- | --- |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(double) | Добавляет аргумент поля. |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(FieldArgumentBuilder) | Добавляет аргумент поля, представленный[`FieldArgumentBuilder`](../fieldargumentbuilder/) к коду поля. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | Добавляет дочернее поле, представленное другим[`FieldBuilder`](./fieldbuilder/) к коду поля. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | Добавляет дочернее поле, представленное другим`FieldBuilder` к коду поля. |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(int) | Добавляет аргумент поля. |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(string) | Добавляет аргумент поля. |
 | [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(string) | Добавляет переключатель поля. |

@@ -82,7 +82,7 @@ public class Font
 
 ### Bemerkungen
 
-Sie erstellen keine Instanzen von[`Font`](./font/) Klasse direkt. Sie verwenden einfach [`Font`](./font/) um auf die Schrifteigenschaften der verschiedenen Objekte zuzugreifen, wie z[`Run`](../run/) , [`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
+Sie erstellen keine Instanzen von`Font` Klasse direkt. Sie verwenden einfach `Font` um auf die Schrifteigenschaften der verschiedenen Objekte zuzugreifen, wie z[`Run`](../run/) , [`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
 
 ### Beispiele
 

@@ -36,7 +36,7 @@ public class PdfDigitalSignatureDetails
 
 В настоящее время цифровая подпись PDF-документов доступна только в .NET 2.0 или более поздней версии.
 
-Чтобы подписать PDF-документ цифровой подписью при его создании с помощью Aspose.Words, установите[`DigitalSignatureDetails`](../pdfsaveoptions/digitalsignaturedetails/) на допустимое[`PdfDigitalSignatureDetails`](./pdfdigitalsignaturedetails/) объект, а затем сохраните документ в формате PDF, передав [`PdfSaveOptions`](../pdfsaveoptions/)как параметр в[`Save`](../../aspose.words/document/save/) метод.
+Чтобы подписать PDF-документ цифровой подписью при его создании с помощью Aspose.Words, установите[`DigitalSignatureDetails`](../pdfsaveoptions/digitalsignaturedetails/) на допустимое`PdfDigitalSignatureDetails` объект, а затем сохраните документ в формате PDF, передав [`PdfSaveOptions`](../pdfsaveoptions/)как параметр в[`Save`](../../aspose.words/document/save/) метод.
 
 Aspose.Words создает подпись PKCS#7 для всего документа PDF и использует фильтр «Adobe.PPKMS» и подфильтр «adbe.pkcs7.sha1» при создании цифровой подписи.
 

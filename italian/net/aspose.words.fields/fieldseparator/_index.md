@@ -55,9 +55,9 @@ public class FieldSeparator : FieldChar
 
 ### Osservazioni
 
-[`FieldSeparator`](./fieldseparator/) è un nodo inline e rappresentato da[`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar/) carattere di controllo nel documento.
+`FieldSeparator` è un nodo inline e rappresentato da[`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar/) carattere di controllo nel documento.
 
-[`FieldSeparator`](./fieldseparator/) può essere solo un figlio di[`Paragraph`](../../aspose.words/paragraph/).
+`FieldSeparator` può essere solo un figlio di[`Paragraph`](../../aspose.words/paragraph/).
 
 Un campo completo in un documento di Microsoft Word è una struttura complessa composta da un carattere di inizio campo, codice campo, carattere separatore campo, risultato campo e carattere di fine campo. Alcuni campi hanno solo inizio campo, codice campo e fine campo.
 

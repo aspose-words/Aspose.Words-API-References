@@ -38,7 +38,7 @@ public class LayoutCollector
 
 ### Remarques
 
-Lorsque vous créez un[`LayoutCollector`](./layoutcollector/) et indiquez un[`Document`](../../aspose.words/document/)objet de document auquel s'attacher, le collecteur enregistrera le mappage des nœuds de document aux objets de mise en page lorsque le document est formaté en pages.
+Lorsque vous créez un`LayoutCollector` et indiquez un[`Document`](../../aspose.words/document/)objet de document auquel s'attacher, le collecteur enregistrera le mappage des nœuds de document aux objets de mise en page lorsque le document est formaté en pages.
 
 Vous pourrez savoir sur quelle page se trouve un nœud de document particulier (par exemple, passage, paragraphe ou cellule de tableau) en utilisant la[`GetStartPageIndex`](./getstartpageindex/) ,[`GetEndPageIndex`](./getendpageindex/) et[`GetNumPagesSpanned`](./getnumpagesspanned/) méthodes. Ces méthodes créent automatiquement le modèle de mise en page du document et mettent à jour les champs si nécessaire.
 

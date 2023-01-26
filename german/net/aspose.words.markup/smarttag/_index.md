@@ -18,7 +18,7 @@ public class SmartTag : CompositeNode
 
 | Name | Beschreibung |
 | --- | --- |
-| [SmartTag](smarttag/)(DocumentBase) | Initialisiert eine neue Instanz von[`SmartTag`](./smarttag/) Klasse. |
+| [SmartTag](smarttag/)(DocumentBase) | Initialisiert eine neue Instanz von`SmartTag` Klasse. |
 
 ## Eigenschaften
 
@@ -64,7 +64,7 @@ public class SmartTag : CompositeNode
 | [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Entfernt alle untergeordneten Knoten des aktuellen Knotens. |
 | [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Entfernt den angegebenen untergeordneten Knoten. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Entfernt alle[`SmartTag`](./smarttag/) Nachkommenknoten des aktuellen Knotens. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Entfernt alle`SmartTag` Nachkommenknoten des aktuellen Knotens. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Wählt eine Liste von Knoten aus, die mit dem XPath-Ausdruck übereinstimmen. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Wählt den ersten Knoten aus, der mit dem XPath-Ausdruck übereinstimmt. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
@@ -74,9 +74,9 @@ public class SmartTag : CompositeNode
 
 Smarttags sind eine Art benutzerdefiniertes XML-Markup. Smart-Tags bieten eine Möglichkeit zum Einbetten einer kundendefinierten Semantik in das Dokument über die Fähigkeit, einen grundlegenden Namensraum/Namen für einen Lauf oder eine Reihe von Läufen innerhalb eines Dokuments bereitzustellen.
 
-[`SmartTag`](./smarttag/) kann ein Kind von a sein[`Paragraph`](../../aspose.words/paragraph/) or ein anderer[`SmartTag`](./smarttag/) Knoten.
+`SmartTag` kann ein Kind von a sein[`Paragraph`](../../aspose.words/paragraph/) or ein anderer`SmartTag` Knoten.
 
-Die vollständige Liste der untergeordneten Knoten, die in einem Smarttag vorkommen können, besteht aus [`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , [`SmartTag`](./smarttag/).
+Die vollständige Liste der untergeordneten Knoten, die in einem Smarttag vorkommen können, besteht aus [`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , `SmartTag`.
 
 ### Beispiele
 

@@ -41,7 +41,7 @@ public class Stroke
 
 ### Notlar
 
-Kullan[`Stroke`](../shape/stroke/)bir şeklin kontur özelliklerine erişme özelliği. [`Stroke`](./stroke/) doğrudan sınıf.
+Kullan[`Stroke`](../shape/stroke/)bir şeklin kontur özelliklerine erişme özelliği. `Stroke` doğrudan sınıf.
 
 ### Örnekler
 

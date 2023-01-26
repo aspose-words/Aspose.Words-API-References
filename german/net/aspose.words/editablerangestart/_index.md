@@ -46,9 +46,9 @@ public sealed class EditableRangeStart : Node
 
 ### Bemerkungen
 
-Ein vollständig bearbeitbarer Bereich in einem Word-Dokument besteht aus a[`EditableRangeStart`](./editablerangestart/) und ein passendes[`EditableRangeEnd`](../editablerangeend/) mit der gleichen ID.
+Ein vollständig bearbeitbarer Bereich in einem Word-Dokument besteht aus a`EditableRangeStart` und ein passendes[`EditableRangeEnd`](../editablerangeend/) mit der gleichen ID.
 
-[`EditableRangeStart`](./editablerangestart/) und[`EditableRangeEnd`](../editablerangeend/) sind nur Markierungen innerhalb eines document , die angeben, wo der bearbeitbare Bereich beginnt und endet.
+`EditableRangeStart` und[`EditableRangeEnd`](../editablerangeend/) sind nur Markierungen innerhalb eines document , die angeben, wo der bearbeitbare Bereich beginnt und endet.
 
 Verwenden Sie die[`EditableRange`](./editablerange/)Klasse als "Fassade", um mit einem bearbeitbaren Bereich als einzelnes Objekt zu arbeiten.
 

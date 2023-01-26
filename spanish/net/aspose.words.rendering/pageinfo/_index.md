@@ -29,10 +29,10 @@ public class PageInfo
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(PaperSizeCollection) | Obtiene elPaperSize objeto adecuado para imprimir la página representada por este[`PageInfo`](./pageinfo/) . |
+| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(PaperSizeCollection) | Obtiene elPaperSize objeto adecuado para imprimir la página representada por este`PageInfo` . |
 | [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels)(float, float) | Calcula el tamaño de la página en píxeles para un factor de zoom y una resolución específicos. |
 | [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels_1)(float, float, float) | Calcula el tamaño de la página en píxeles para un factor de zoom y una resolución específicos. |
-| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(PaperSourceCollection, PaperSource) | Obtiene elPaperSource objeto adecuado para imprimir la página representada por este[`PageInfo`](./pageinfo/) . |
+| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(PaperSourceCollection, PaperSource) | Obtiene elPaperSource objeto adecuado para imprimir la página representada por este`PageInfo` . |
 
 ### Observaciones
 

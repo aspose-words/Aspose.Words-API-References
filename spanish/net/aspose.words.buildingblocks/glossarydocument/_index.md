@@ -87,7 +87,7 @@ Algunos documentos, generalmente plantillas, pueden contener Autotexto, entradas
 
 Para acceder a los bloques de creación, debe cargar un documento en un[`Document`](../../aspose.words/document/) objeto . Los bloques de construcción estarán disponibles a través de la[`GlossaryDocument`](../../aspose.words/document/glossarydocument/) propiedad.
 
-[`GlossaryDocument`](./glossarydocument/) puede contener cualquier número de[`BuildingBlock`](../buildingblock/) objetos. Cada[`BuildingBlock`](../buildingblock/) representa una parte del documento.
+`GlossaryDocument` puede contener cualquier número de[`BuildingBlock`](../buildingblock/) objetos. Cada[`BuildingBlock`](../buildingblock/) representa una parte del documento.
 
 corresponde a la **glosarioDocumento** y **docParts**elementos en OOXML.
 

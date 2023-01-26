@@ -18,7 +18,7 @@ public class FieldDatabaseDataRow
 
 | اسم | وصف |
 | --- | --- |
-| [FieldDatabaseDataRow](fielddatabasedatarow/)(params string[]) | يقوم بتهيئة مثيل جديد لملف[`FieldDatabaseDataRow`](./fielddatabasedatarow/) فئة . |
+| [FieldDatabaseDataRow](fielddatabasedatarow/)(params string[]) | يقوم بتهيئة مثيل جديد لملف`FieldDatabaseDataRow` فئة . |
 
 ## الخصائص
 
@@ -30,7 +30,7 @@ public class FieldDatabaseDataRow
 
 | اسم | وصف |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | يقوم بتهيئة مثيل جديد لملف[`FieldDatabaseDataRow`](./fielddatabasedatarow/) class منDataRow المثال. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | يقوم بتهيئة مثيل جديد لملف`FieldDatabaseDataRow` class منDataRow المثال. |
 
 ### أنظر أيضا
 

@@ -18,7 +18,7 @@ public class FieldDatabaseDataRow
 
 | İsim | Tanım |
 | --- | --- |
-| [FieldDatabaseDataRow](fielddatabasedatarow/)(params string[]) | Yeni bir örneğini başlatır[`FieldDatabaseDataRow`](./fielddatabasedatarow/) sınıf. |
+| [FieldDatabaseDataRow](fielddatabasedatarow/)(params string[]) | Yeni bir örneğini başlatır`FieldDatabaseDataRow` sınıf. |
 
 ## Özellikleri
 
@@ -30,7 +30,7 @@ public class FieldDatabaseDataRow
 
 | İsim | Tanım |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | Yeni bir örneğini başlatır[`FieldDatabaseDataRow`](./fielddatabasedatarow/) class DataRow örnek. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | Yeni bir örneğini başlatır`FieldDatabaseDataRow` class DataRow örnek. |
 
 ### Ayrıca bakınız
 

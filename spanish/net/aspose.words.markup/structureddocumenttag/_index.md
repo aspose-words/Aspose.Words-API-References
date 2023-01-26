@@ -104,15 +104,15 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 
 Las etiquetas de documentos estructurados (SDT) permiten incorporar la semántica definida por el cliente, así como su comportamiento y apariencia en un documento.
 
-En esta versión, Aspose.Words proporciona una serie de métodos y propiedades públicos para manipular el comportamiento y el contenido de[`StructuredDocumentTag`](./structureddocumenttag/) . La asignación de nodos SDT a paquetes XML personalizados dentro de un documento se puede realizar usando el[`XmlMapping`](./xmlmapping/) propiedad.
+En esta versión, Aspose.Words proporciona una serie de métodos y propiedades públicos para manipular el comportamiento y el contenido de`StructuredDocumentTag` . La asignación de nodos SDT a paquetes XML personalizados dentro de un documento se puede realizar usando el[`XmlMapping`](./xmlmapping/) propiedad.
 
-[`StructuredDocumentTag`](./structureddocumenttag/) puede ocurrir en un documento en los siguientes lugares:
+`StructuredDocumentTag` puede ocurrir en un documento en los siguientes lugares:
 
 * Nivel de bloque: entre párrafos y tablas, como hijo de un[`Body`](../../aspose.words/body/) ,[`HeaderFooter`](../../aspose.words/headerfooter/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) o un[`Shape`](../../aspose.words.drawing/shape/) nodo.
 * Nivel de fila: entre las filas de una tabla, como hijo de una[`Table`](../../aspose.words.tables/table/) nodo.
 * Nivel de celda: entre las celdas de una fila de la tabla, como hijo de una[`Row`](../../aspose.words.tables/row/) nodo.
 * Nivel en línea: entre el contenido en línea dentro, como elemento secundario de un[`Paragraph`](../../aspose.words/paragraph/).
-* Anidado dentro de otro[`StructuredDocumentTag`](./structureddocumenttag/).
+* Anidado dentro de otro`StructuredDocumentTag`.
 
 ### Ejemplos
 

@@ -28,7 +28,7 @@ public class ResourceSavingArgs
 
 Wenn Aspose.Words ein Dokument als HTML oder SVG mit festen Seiten speichert, speichert es standardmäßig jede Ressource in einer separaten Datei. Aspose.Words verwendet den Dateinamen des Dokuments und eine eindeutige Nummer, um einen eindeutigen Dateinamen für jede im Dokument gefundene Ressource zu generieren.
 
-[`ResourceSavingArgs`](./resourcesavingargs/) ermöglicht es, neu zu definieren, wie Ressourcendateinamen generiert werden, oder das Speichern von Ressourcen in Dateien vollständig zu umgehen, indem eigene Stream-Objekte bereitgestellt werden.
+`ResourceSavingArgs` ermöglicht es, neu zu definieren, wie Ressourcendateinamen generiert werden, oder das Speichern von Ressourcen in Dateien vollständig zu umgehen, indem eigene Stream-Objekte bereitgestellt werden.
 
 Um Ihre eigene Logik zum Generieren von Ressourcendateinamen anzuwenden, verwenden Sie das [`ResourceFileName`](./resourcefilename/) Eigentum.
 

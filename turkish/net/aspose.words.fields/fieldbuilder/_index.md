@@ -18,7 +18,7 @@ public class FieldBuilder
 
 | İsim | Tanım |
 | --- | --- |
-| [FieldBuilder](fieldbuilder/)(FieldType) | Şunun bir örneğini başlatır:[`FieldBuilder`](./fieldbuilder/) sınıf. |
+| [FieldBuilder](fieldbuilder/)(FieldType) | Şunun bir örneğini başlatır:`FieldBuilder` sınıf. |
 
 ## yöntemler
 
@@ -26,7 +26,7 @@ public class FieldBuilder
 | --- | --- |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(double) | Bir alanın argümanını ekler. |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(FieldArgumentBuilder) | ile temsil edilen bir alanın argümanını ekler[`FieldArgumentBuilder`](../fieldargumentbuilder/) alanın koduna. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | Bir başkası tarafından temsil edilen bir alt alan ekler[`FieldBuilder`](./fieldbuilder/) alanın koduna. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | Bir başkası tarafından temsil edilen bir alt alan ekler`FieldBuilder` alanın koduna. |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(int) | Bir alanın argümanını ekler. |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(string) | Bir alanın argümanını ekler. |
 | [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(string) | Bir alanın anahtarını ekler. |

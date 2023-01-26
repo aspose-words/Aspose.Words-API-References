@@ -29,10 +29,10 @@ public class PageInfo
 
 | Имя | Описание |
 | --- | --- |
-| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(PaperSizeCollection) | ПолучаетPaperSize объект, подходящий для печати страницы, представленной этим[`PageInfo`](./pageinfo/) . |
+| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(PaperSizeCollection) | ПолучаетPaperSize объект, подходящий для печати страницы, представленной этим`PageInfo` . |
 | [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels)(float, float) | Вычисляет размер страницы в пикселях для указанного коэффициента масштабирования и разрешения. |
 | [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels_1)(float, float, float) | Вычисляет размер страницы в пикселях для указанного коэффициента масштабирования и разрешения. |
-| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(PaperSourceCollection, PaperSource) | ПолучаетPaperSource объект, подходящий для печати страницы, представленной этим[`PageInfo`](./pageinfo/) . |
+| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(PaperSourceCollection, PaperSource) | ПолучаетPaperSource объект, подходящий для печати страницы, представленной этим`PageInfo` . |
 
 ### Примечания
 

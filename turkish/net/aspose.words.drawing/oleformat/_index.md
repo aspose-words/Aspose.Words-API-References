@@ -43,7 +43,7 @@ public class OleFormat
 
 ### Notlar
 
-Kullan[`OleFormat`](../shape/oleformat/) bir OLE nesnesinin verilerine erişme özelliği. [`OleFormat`](./oleformat/) doğrudan sınıf.
+Kullan[`OleFormat`](../shape/oleformat/) bir OLE nesnesinin verilerine erişme özelliği. `OleFormat` doğrudan sınıf.
 
 ### Örnekler
 

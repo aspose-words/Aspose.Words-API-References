@@ -38,7 +38,7 @@ public class LayoutCollector
 
 ### Observaciones
 
-Cuando creas un[`LayoutCollector`](./layoutcollector/) y especificar un[`Document`](../../aspose.words/document/)objeto de documento al que adjuntar, el recopilador registrará la asignación de nodos de documento a objetos de diseño cuando el documento se formatee en páginas.
+Cuando creas un`LayoutCollector` y especificar un[`Document`](../../aspose.words/document/)objeto de documento al que adjuntar, el recopilador registrará la asignación de nodos de documento a objetos de diseño cuando el documento se formatee en páginas.
 
 Podrá averiguar en qué página se encuentra un nodo de documento en particular (p. ej., ejecución, párrafo o celda de tabla) utilizando el[`GetStartPageIndex`](./getstartpageindex/) ,[`GetEndPageIndex`](./getendpageindex/) y[`GetNumPagesSpanned`](./getnumpagesspanned/) métodos. Estos métodos crean automáticamente el modelo de diseño de página del documento y actualizan los campos si es necesario.
 

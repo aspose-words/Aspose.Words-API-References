@@ -82,7 +82,7 @@ public class Font
 
 ### Notlar
 
-Örneklerini oluşturmazsınız[`Font`](./font/) doğrudan sınıf. sen sadece kullan[`Font`](./font/) gibi çeşitli nesnelerin yazı tipi özelliklerine erişmek için[`Run`](../run/) , [`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
+Örneklerini oluşturmazsınız`Font` doğrudan sınıf. sen sadece kullan`Font` gibi çeşitli nesnelerin yazı tipi özelliklerine erişmek için[`Run`](../run/) , [`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
 
 ### Örnekler
 

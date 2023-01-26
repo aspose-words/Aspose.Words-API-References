@@ -51,9 +51,9 @@ public sealed class CommentRangeEnd : Node
 
 ### Примечания
 
-Чтобы создать комментарий, привязанный к области текста, необходимо создать[`Comment`](../comment/) and затем создайте[`CommentRangeStart`](../commentrangestart/) а также[`CommentRangeEnd`](./commentrangeend/)и установите их идентификаторы одинаковыми[`Id`](../comment/id/) ценность.
+Чтобы создать комментарий, привязанный к области текста, необходимо создать[`Comment`](../comment/) and затем создайте[`CommentRangeStart`](../commentrangestart/) а также`CommentRangeEnd`и установите их идентификаторы одинаковыми[`Id`](../comment/id/) ценность.
 
-[`CommentRangeEnd`](./commentrangeend/) является узлом встроенного уровня и может быть только потомком[`Paragraph`](../paragraph/).
+`CommentRangeEnd` является узлом встроенного уровня и может быть только потомком[`Paragraph`](../paragraph/).
 
 ### Примеры
 

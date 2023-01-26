@@ -25,7 +25,7 @@ public bool BuildReport(Document document, object dataSource)
 
 ### 评论
 
-使用此重载，您可以在模板文档中引用数据源的成员，但不能 引用数据源对象本身。你应该使用[`BuildReport`](./buildreport/) 重载来实现这个。
+使用此重载，您可以在模板文档中引用数据源的成员，但不能 引用数据源对象本身。你应该使用`BuildReport` 重载来实现这个。
 
 数据源对象可以是以下类型之一：
 
@@ -72,7 +72,7 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 ### 评论
 
-使用此重载，您可以在模板中引用数据源的成员和数据源对象本身。 如果不打算引用数据源对象本身，可以省略*dataSourceName* 传递 null 或使用[`BuildReport`](./buildreport/)过载.
+使用此重载，您可以在模板中引用数据源的成员和数据源对象本身。 如果不打算引用数据源对象本身，可以省略*dataSourceName* 传递 null 或使用`BuildReport`过载.
 
 数据源对象可以是以下类型之一：
 
@@ -121,7 +121,7 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 使用此重载，您可以在模板中引用多个数据源对象及其成员。 如果您要 引用数据源的成员而不是数据源对象本身，则可以省略第一个数据源的名称（即为空字符串或null）。其他数据源的名称 必须指定且唯一。
 
-如果要使用单个数据源，请考虑使用[`BuildReport`](./buildreport/) 和[`BuildReport`](./buildreport/)而是重载。
+如果要使用单个数据源，请考虑使用`BuildReport` 和`BuildReport`而是重载。
 
 数据源对象可以是以下类型之一：
 

@@ -39,7 +39,7 @@ public class TextBox
 
 ### Notlar
 
-Kullan[`TextBox`](../shape/textbox/) bir şeklin metin özelliklerine erişme özelliği. [`TextBox`](./textbox/) doğrudan sınıf.
+Kullan[`TextBox`](../shape/textbox/) bir şeklin metin özelliklerine erişme özelliği. `TextBox` doğrudan sınıf.
 
 ### Örnekler
 

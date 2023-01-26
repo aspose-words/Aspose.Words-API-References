@@ -154,7 +154,7 @@ public sealed class Shape : ShapeBase
 
 ### Bemerkungen
 
-Verwendung der[`Shape`](./shape/) Klasse können Sie Formen in einem Microsoft Word-Dokument erstellen oder ändern.
+Verwendung der`Shape` Klasse können Sie Formen in einem Microsoft Word-Dokument erstellen oder ändern.
 
 Eine wichtige Eigenschaft einer Form ist ihre[`ShapeType`](../shapebase/shapetype/). Formen verschiedener -Typen können in einem Word-Dokument unterschiedliche Funktionen haben. Beispielsweise können nur Bild und OLE-Formen Bilder enthalten. Die meisten Formen können Text enthalten, aber nicht alle.
 

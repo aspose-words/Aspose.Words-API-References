@@ -132,9 +132,9 @@ public class GroupShape : ShapeBase
 
 ### Observaciones
 
-A[`GroupShape`](./groupshape/) es un nodo compuesto y puede tener[`Shape`](../shape/) y [`GroupShape`](./groupshape/) nodos cuando eran niños.
+A`GroupShape` es un nodo compuesto y puede tener[`Shape`](../shape/) y `GroupShape` nodos cuando eran niños.
 
-Cada[`GroupShape`](./groupshape/) define un nuevo sistema de coordenadas para sus formas secundarias. El sistema de coordenadas se define mediante el[`CoordSize`](../shapebase/coordsize/) y [`CoordOrigin`](../shapebase/coordorigin/) propiedades.
+Cada`GroupShape` define un nuevo sistema de coordenadas para sus formas secundarias. El sistema de coordenadas se define mediante el[`CoordSize`](../shapebase/coordsize/) y [`CoordOrigin`](../shapebase/coordorigin/) propiedades.
 
 ### Ejemplos
 

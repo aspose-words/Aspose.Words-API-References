@@ -46,9 +46,9 @@ public sealed class EditableRangeStart : Node
 
 ### Osservazioni
 
-Un intervallo modificabile completo in un documento di Word è costituito da a[`EditableRangeStart`](./editablerangestart/) e una corrispondenza[`EditableRangeEnd`](../editablerangeend/) con lo stesso Id.
+Un intervallo modificabile completo in un documento di Word è costituito da a`EditableRangeStart` e una corrispondenza[`EditableRangeEnd`](../editablerangeend/) con lo stesso Id.
 
-[`EditableRangeStart`](./editablerangestart/) e[`EditableRangeEnd`](../editablerangeend/) sono solo indicatori all'interno di un documento che specificano dove inizia e finisce l'intervallo modificabile.
+`EditableRangeStart` e[`EditableRangeEnd`](../editablerangeend/) sono solo indicatori all'interno di un documento che specificano dove inizia e finisce l'intervallo modificabile.
 
 Utilizzare il[`EditableRange`](./editablerange/)class come una "facciata" per lavorare con un intervallo modificabile come un singolo oggetto.
 

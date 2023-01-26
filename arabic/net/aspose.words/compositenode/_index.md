@@ -67,7 +67,7 @@ public abstract class CompositeNode : Node, IEnumerable<Node>, IXPathNavigable
 
 لمزيد من المعلومات ، راجع نمط التصميم المركب.
 
-ال[`CompositeNode`](./compositenode/)صف دراسي:
+ال`CompositeNode`صف دراسي:
 
 * يوفر الوصول إلى العقد الفرعية.
 * تنفذ عمليات مركبة مثل إدراج وإزالة الأطفال.

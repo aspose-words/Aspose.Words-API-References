@@ -107,7 +107,7 @@ public class Document : DocumentBase
 | [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument_1)(Document, ImportFormatMode, ImportFormatOptions) | Ajoute le document spécifié à la fin de ce document. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup)() | Nettoie les styles et les listes inutilisés du document. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup_1)(CleanupOptions) | Nettoie les styles et les listes inutilisés du document en fonction de[`CleanupOptions`](../cleanupoptions/) . |
-| [Clone](../../aspose.words/document/clone/#clone)() | Effectue une copie complète du[`Document`](./document/) . |
+| [Clone](../../aspose.words/document/clone/#clone)() | Effectue une copie complète du`Document` . |
 | [Clone](../../aspose.words/node/clone/)(bool) | Crée un doublon du nœud. |
 | [Compare](../../aspose.words/document/compare/#compare)(Document, string, DateTime) | Compare ce document avec un autre document produisant des modifications en nombre de révisions d'édition et de format[`Revision`](../revision/) . |
 | [Compare](../../aspose.words/document/compare/#compare_1)(Document, string, DateTime, CompareOptions) | Compare ce document avec un autre document produisant des modifications sous la forme d'un certain nombre de révisions d'édition et de mise en forme[`Revision`](../revision/) . Permet de spécifier les options de comparaison à l'aide[`CompareOptions`](../../aspose.words.comparing/compareoptions/) . |
@@ -116,7 +116,7 @@ public class Document : DocumentBase
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Réservé à l'utilisation du système. IXPathNavigable. |
 | [EnsureMinimum](../../aspose.words/document/ensureminimum/)() | Si le document ne contient aucune section, crée une section avec un paragraphe. |
 | [ExpandTableStylesToDirectFormatting](../../aspose.words/document/expandtablestylestodirectformatting/)() | Convertit la mise en forme spécifiée dans les styles de tableau en mise en forme directe sur les tableaux du document. |
-| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | Renvoie le[`Document`](./document/) objet représentant une plage de pages spécifiée. |
+| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | Renvoie le`Document` objet représentant une plage de pages spécifiée. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtient le premier ancêtre du type d'objet spécifié. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Renvoie un Nième nœud enfant qui correspond au type spécifié. |

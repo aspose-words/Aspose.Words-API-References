@@ -87,7 +87,7 @@ Alcuni documenti, in genere modelli, possono contenere glossario, correzione aut
 
 Per accedere ai blocchi predefiniti, è necessario caricare un documento in a[`Document`](../../aspose.words/document/) oggetto. I blocchi costitutivi saranno disponibili tramite il[`GlossaryDocument`](../../aspose.words/document/glossarydocument/) proprietà.
 
-[`GlossaryDocument`](./glossarydocument/) può contenere un numero qualsiasi di[`BuildingBlock`](../buildingblock/) oggetti. Ciascuno[`BuildingBlock`](../buildingblock/) rappresenta una parte del documento.
+`GlossaryDocument` può contenere un numero qualsiasi di[`BuildingBlock`](../buildingblock/) oggetti. Ciascuno[`BuildingBlock`](../buildingblock/) rappresenta una parte del documento.
 
 Corrisponde al **glossarioDocumento** e **docParts**elementi in OOXML.
 

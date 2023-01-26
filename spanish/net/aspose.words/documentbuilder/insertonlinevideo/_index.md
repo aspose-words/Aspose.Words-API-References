@@ -33,7 +33,7 @@ Se admite la inserción de videos en línea de los siguientes recursos:
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Si su video en línea no se muestra correctamente, use[`InsertOnlineVideo`](./insertonlinevideo/), que acepta código html incrustado personalizado.
+Si su video en línea no se muestra correctamente, use`InsertOnlineVideo`, que acepta código html incrustado personalizado.
 
 El código para incrustar video puede variar entre proveedores, consulte a su proveedor de elección correspondiente para obtener más detalles.
 
@@ -93,7 +93,7 @@ Se admite la inserción de videos en línea de los siguientes recursos:
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Si su video en línea no se muestra correctamente, use[`InsertOnlineVideo`](./insertonlinevideo/), que acepta código html incrustado personalizado.
+Si su video en línea no se muestra correctamente, use`InsertOnlineVideo`, que acepta código html incrustado personalizado.
 
 El código para incrustar video puede variar entre proveedores, consulte a su proveedor de elección correspondiente para obtener más detalles.
 

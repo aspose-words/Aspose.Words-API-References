@@ -51,9 +51,9 @@ public sealed class CommentRangeEnd : Node
 
 ### 评论
 
-要创建锚定到文本区域的注释，您需要创建一个[`Comment`](../comment/)and 然后创建[`CommentRangeStart`](../commentrangestart/)和[`CommentRangeEnd`](./commentrangeend/)并将它们的标识符 设置为相同[`Id`](../comment/id/)价值。
+要创建锚定到文本区域的注释，您需要创建一个[`Comment`](../comment/)and 然后创建[`CommentRangeStart`](../commentrangestart/)和`CommentRangeEnd`并将它们的标识符 设置为相同[`Id`](../comment/id/)价值。
 
-[`CommentRangeEnd`](./commentrangeend/)是一个内联级节点，只能是[`Paragraph`](../paragraph/).
+`CommentRangeEnd`是一个内联级节点，只能是[`Paragraph`](../paragraph/).
 
 ### 例子
 

@@ -34,9 +34,9 @@ public class FieldCollection : IEnumerable<Field>
 
 此集合的一个实例迭代开始落在指定范围内的字段。
 
-这[`FieldCollection`](./fieldcollection/)集合不拥有它包含的字段，而只是字段的选择。
+这`FieldCollection`集合不拥有它包含的字段，而只是字段的选择。
 
-这[`FieldCollection`](./fieldcollection/)集合是“实时的”，即对创建它的节点 object 的子节点的更改会立即反映在由[`FieldCollection`](./fieldcollection/) 属性和方法。
+这`FieldCollection`集合是“实时的”，即对创建它的节点 object 的子节点的更改会立即反映在由`FieldCollection` 属性和方法。
 
 ### 例子
 

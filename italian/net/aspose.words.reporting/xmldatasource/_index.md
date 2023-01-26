@@ -31,7 +31,7 @@ public class XmlDataSource
 
 Per accedere ai dati del file o del flusso corrispondente durante la generazione di un report, passare un'istanza di questa classe come un'origine dati a uno dei[`ReportingEngine`](../reportingengine/) .BuildReport sovraccarichi.
 
-Nei documenti modello, se un elemento XML di primo livello contiene solo un elenco di elementi dello stesso tipo, an[`XmlDataSource`](./xmldatasource/) l'istanza dovrebbe essere trattata come se fosse aDataTable istanza. In caso contrario, un[`XmlDataSource`](./xmldatasource/) l'istanza dovrebbe essere trattata come se fosse aDataRow istanza. Per ulteriori informazioni, vedere riferimento alla sintassi del modello (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+Nei documenti modello, se un elemento XML di primo livello contiene solo un elenco di elementi dello stesso tipo, an`XmlDataSource` l'istanza dovrebbe essere trattata come se fosse aDataTable istanza. In caso contrario, un`XmlDataSource` l'istanza dovrebbe essere trattata come se fosse aDataRow istanza. Per ulteriori informazioni, vedere riferimento alla sintassi del modello (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 Quando XML Schema Definition viene passato a un costruttore di questa classe, i tipi di dati dei valori degli elementi XML semplici e degli attributi vengono determinati in base allo schema. Quindi, nei documenti modello, puoi lavorare con valori digitati anziché solo stringhe.
 

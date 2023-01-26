@@ -20,7 +20,7 @@ public EditableRangeEnd EndEditableRange()
 
 ### ملاحظات
 
-يمكن أن يتداخل النطاق القابل للتحرير في المستند ويمتد إلى أي نطاق. لإنشاء نطاق صالح قابل للتحرير ، تحتاج إلى الاتصال بكليهما[`StartEditableRange`](../starteditablerange/) و`EndEditableRange` أو[`EndEditableRange`](./endeditablerange/)طُرق.
+يمكن أن يتداخل النطاق القابل للتحرير في المستند ويمتد إلى أي نطاق. لإنشاء نطاق صالح قابل للتحرير ، تحتاج إلى الاتصال بكليهما[`StartEditableRange`](../starteditablerange/) و`EndEditableRange` أو`EndEditableRange`طُرق.
 
 سيتم تجاهل النطاق القابل للتحرير الذي تم تكوينه بشكل سيئ عند حفظ المستند.
 
@@ -96,7 +96,7 @@ public EditableRangeEnd EndEditableRange(EditableRangeStart start)
 
 استخدم هذا التحميل الزائد أثناء إنشاء نطاقات متداخلة قابلة للتحرير.
 
-يمكن أن يتداخل النطاق القابل للتحرير في المستند ويمتد إلى أي نطاق. لإنشاء نطاق صالح قابل للتحرير ، تحتاج إلى الاتصال بكليهما[`StartEditableRange`](../starteditablerange/) و[`EndEditableRange`](./endeditablerange/) أو`EndEditableRange`طُرق.
+يمكن أن يتداخل النطاق القابل للتحرير في المستند ويمتد إلى أي نطاق. لإنشاء نطاق صالح قابل للتحرير ، تحتاج إلى الاتصال بكليهما[`StartEditableRange`](../starteditablerange/) و`EndEditableRange` أو`EndEditableRange`طُرق.
 
 سيتم تجاهل النطاق القابل للتحرير الذي تم تكوينه بشكل سيئ عند حفظ المستند.
 

@@ -56,9 +56,9 @@ public class FieldStart : FieldChar
 
 ### Notlar
 
-[`FieldStart`](./fieldstart/) satır içi düzeyde bir düğümdür ve the ile temsil edilir[`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) belgedeki kontrol karakteri.
+`FieldStart` satır içi düzeyde bir düğümdür ve the ile temsil edilir[`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) belgedeki kontrol karakteri.
 
-[`FieldStart`](./fieldstart/) sadece çocuğu olabilir[`Paragraph`](../../aspose.words/paragraph/).
+`FieldStart` sadece çocuğu olabilir[`Paragraph`](../../aspose.words/paragraph/).
 
 Bir Microsoft Word belgesindeki tam alan, alan başlangıç karakteri, alan kodu, alan ayırıcı karakter, alan sonucu ve alan bitiş karakterinden oluşan karmaşık bir yapıdır. Bazı alanlarda yalnızca alan başlangıcı, alan kodu ve alan sonu bulunur.
 

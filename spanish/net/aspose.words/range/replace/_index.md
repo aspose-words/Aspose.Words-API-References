@@ -25,7 +25,7 @@ El número de reemplazos realizados.
 
 ### Observaciones
 
-El patrón no se utilizará como expresión regular. Utilice[`Replace`](./replace/) si necesita expresiones regulares.
+El patrón no se utilizará como expresión regular. Utilice`Replace` si necesita expresiones regulares.
 
 Comparación que no distingue entre mayúsculas y minúsculas.
 
@@ -38,7 +38,7 @@ Debe usar metacaracteres especiales si necesita trabajar con pausas:
 * **&amp;metro** - salto de página
 * **&amp;l** - salto de línea manual
 
-Usar método[`Replace`](./replace/) para tener una personalización más flexible.
+Usar método`Replace` para tener una personalización más flexible.
 
 ### Ejemplos
 
@@ -139,7 +139,7 @@ Debe usar metacaracteres especiales si necesita trabajar con pausas:
 * **&amp;metro** - salto de página
 * **&amp;l** - salto de línea manual
 
-Usar método[`Replace`](./replace/) para tener una personalización más flexible.
+Usar método`Replace` para tener una personalización más flexible.
 
 ### Ejemplos
 
@@ -193,7 +193,7 @@ El número de reemplazos realizados.
 
 ### Observaciones
 
-El patrón no se utilizará como expresión regular. Utilice[`Replace`](./replace/) si necesita expresiones regulares.
+El patrón no se utilizará como expresión regular. Utilice`Replace` si necesita expresiones regulares.
 
 El método puede procesar rupturas tanto en el patrón como en las cadenas de reemplazo.
 

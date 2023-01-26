@@ -44,9 +44,9 @@ public class SubDocument : Node
 
 ### Osservazioni
 
-In questa versione di Aspose.Words,[`SubDocument`](./subdocument/) i nodi non forniscono metodi pubblici e proprietà per creare o modificare un documento secondario. In questa versione non è possibile creare un'istanza di nodi SubDocument o modificare esistenti se non eliminandoli.
+In questa versione di Aspose.Words,`SubDocument` i nodi non forniscono metodi pubblici e proprietà per creare o modificare un documento secondario. In questa versione non è possibile creare un'istanza di nodi SubDocument o modificare esistenti se non eliminandoli.
 
-[`SubDocument`](./subdocument/) può essere solo un figlio di[`Paragraph`](../paragraph/).
+`SubDocument` può essere solo un figlio di[`Paragraph`](../paragraph/).
 
 ### Esempi
 

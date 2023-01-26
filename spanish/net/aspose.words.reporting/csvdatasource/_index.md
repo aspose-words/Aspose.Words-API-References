@@ -27,7 +27,7 @@ public class CsvDataSource
 
 Para acceder a los datos del archivo o secuencia correspondiente mientras genera un informe, pase una instancia de esta clase como una fuente de datos a uno de[`ReportingEngine`](../reportingengine/) .BuildReport sobrecargas.
 
-En los documentos de plantilla, un[`CsvDataSource`](./csvdatasource/) instancia debe tratarse de la misma manera que si fuera unDataTable instancia . Para obtener más información, consulte la referencia de sintaxis de plantilla (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+En los documentos de plantilla, un`CsvDataSource` instancia debe tratarse de la misma manera que si fuera unDataTable instancia . Para obtener más información, consulte la referencia de sintaxis de plantilla (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 Los tipos de datos de valores separados por comas se determinan automáticamente según sus representaciones de cadena. Entonces, en los documentos template , puede trabajar con valores escritos en lugar de solo cadenas. El motor es capaz de reconocer automáticamente valores de los siguientes tipos:
 

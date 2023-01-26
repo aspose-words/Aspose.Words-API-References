@@ -27,7 +27,7 @@ public enum DocumentSplitCriteria
 
 ### Bemerkungen
 
-[`DocumentSplitCriteria`](./documentsplitcriteria/)ist ein Satz von Flags, die kombiniert werden können. Beispielsweise können Sie das Dokument document an Seitenumbrüchen und Überschriftabsätzen im selben Exportvorgang aufteilen.
+`DocumentSplitCriteria`ist ein Satz von Flags, die kombiniert werden können. Beispielsweise können Sie das Dokument document an Seitenumbrüchen und Überschriftabsätzen im selben Exportvorgang aufteilen.
 
 Unterschiedliche Kriterien können sich teilweise überschneiden. Zum Beispiel, **Überschrift 1** Stil wird häufig angegeben [`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/) Eigentum, so dass es unter zwei Kriterien fällt:PageBreak und HeadingParagraph. Einige Abschnittsumbrüche können Seitenumbrüche usw. verursachen. In typischen Fällen ist die Angabe nur eines Flags die praktischste Option.
 

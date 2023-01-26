@@ -18,7 +18,7 @@ public class FieldDatabaseDataTable
 
 | Nombre | Descripción |
 | --- | --- |
-| [FieldDatabaseDataTable](fielddatabasedatatable/)(params string[]) | Inicializa una nueva instancia del[`FieldDatabaseDataTable`](./fielddatabasedatatable/) clase. |
+| [FieldDatabaseDataTable](fielddatabasedatatable/)(params string[]) | Inicializa una nueva instancia del`FieldDatabaseDataTable` clase. |
 
 ## Propiedades
 
@@ -31,7 +31,7 @@ public class FieldDatabaseDataTable
 
 | Nombre | Descripción |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | Inicializa una nueva instancia del[`FieldDatabaseDataTable`](./fielddatabasedatatable/) class de laDataTable instancia. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | Inicializa una nueva instancia del`FieldDatabaseDataTable` class de laDataTable instancia. |
 
 ### Ver también
 

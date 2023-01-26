@@ -49,7 +49,7 @@ Belge, DOM veya XmlDocument'e benzer şekilde bir düğüm ağacı olarak temsil
 
 Daha fazla bilgi için Bileşik tasarım desenine bakın.
 
-bu[`Node`](./node/)sınıf:
+bu`Node`sınıf:
 
 * Alt düğüm arabirimini tanımlar.
 * Düğümleri ziyaret etmek için arabirimi tanımlar.

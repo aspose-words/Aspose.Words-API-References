@@ -33,7 +33,7 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 * https://www.youtube.com/
 * https://vimeo.com/
 
-如果您的在线视频显示不正确，请使用[`InsertOnlineVideo`](./insertonlinevideo/)，它接受自定义嵌入的 html 代码。
+如果您的在线视频显示不正确，请使用`InsertOnlineVideo`，它接受自定义嵌入的 html 代码。
 
 嵌入视频的代码可能因提供商而异，详情请咨询您选择的相应提供商。
 
@@ -93,7 +93,7 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 * https://www.youtube.com/
 * https://vimeo.com/
 
-如果您的在线视频显示不正确，请使用[`InsertOnlineVideo`](./insertonlinevideo/)，它接受自定义嵌入的 html 代码。
+如果您的在线视频显示不正确，请使用`InsertOnlineVideo`，它接受自定义嵌入的 html 代码。
 
 嵌入视频的代码可能因提供商而异，详情请咨询您选择的相应提供商。
 

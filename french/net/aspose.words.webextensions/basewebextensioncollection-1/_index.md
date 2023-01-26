@@ -23,17 +23,17 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | Nom | La description |
 | --- | --- |
-| [Count](../../aspose.words.webextensions/basewebextensioncollection`1/count/) { get; } | Obtient le nombre d'éléments contenus dans la collection. |
-| [Item](../../aspose.words.webextensions/basewebextensioncollection`1/item/) { get; set; } | Obtient ou définit un élément à l'index spécifié. |
+| [Count](../../aspose.words.webextensions/basewebextensioncollection-1/count/) { get; } | Obtient le nombre d'éléments contenus dans la collection. |
+| [Item](../../aspose.words.webextensions/basewebextensioncollection-1/item/) { get; set; } | Obtient ou définit un élément à l'index spécifié. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection`1/add/)(T) | Ajoute l'élément spécifié à la collection. |
-| [Clear](../../aspose.words.webextensions/basewebextensioncollection`1/clear/)() | Supprime tous les éléments de la collection. |
-| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection`1/getenumerator/)() | Renvoie un énumérateur qui peut parcourir une collection. |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection`1/remove/)(int) | Supprime l'élément à l'index spécifié de la collection. |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(T) | Ajoute l'élément spécifié à la collection. |
+| [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() | Supprime tous les éléments de la collection. |
+| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | Renvoie un énumérateur qui peut parcourir une collection. |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) | Supprime l'élément à l'index spécifié de la collection. |
 
 ### Exemples
 

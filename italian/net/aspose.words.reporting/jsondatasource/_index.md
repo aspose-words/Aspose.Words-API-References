@@ -27,7 +27,7 @@ public class JsonDataSource
 
 Per accedere ai dati del file o del flusso corrispondente durante la generazione di un report, passare un'istanza di questa classe come un'origine dati a uno dei[`ReportingEngine`](../reportingengine/) .BuildReport sovraccarichi.
 
-Nei documenti modello, se un elemento JSON di primo livello è un array, a[`JsonDataSource`](./jsondatasource/) l'istanza dovrebbe essere trattata allo stesso modo come se fosse aDataTable istanza. Se un elemento JSON di primo livello è un oggetto, a[`JsonDataSource`](./jsondatasource/) l'istanza dovrebbe essere trattata come se fosse aDataRow istanza. Per ulteriori informazioni, vedere riferimento alla sintassi del modello (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+Nei documenti modello, se un elemento JSON di primo livello è un array, a`JsonDataSource` l'istanza dovrebbe essere trattata allo stesso modo come se fosse aDataTable istanza. Se un elemento JSON di primo livello è un oggetto, a`JsonDataSource` l'istanza dovrebbe essere trattata come se fosse aDataRow istanza. Per ulteriori informazioni, vedere riferimento alla sintassi del modello (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 Nei documenti modello, puoi lavorare con valori tipizzati di elementi JSON. Per comodità, il motore sostituisce l'insieme di tipi semplici JSON con il seguente:
 

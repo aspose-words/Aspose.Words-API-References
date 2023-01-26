@@ -37,13 +37,13 @@ public class ListFormat
 
 Microsoft Word 文档中的段落可以标有项目符号或编号。 当段落标有项目符号或编号时，表示该段落应用了列表格式 。
 
-您不创建对象[`ListFormat`](./listformat/)直接上课。 你访问[`ListFormat`](./listformat/)作为 can 具有与之关联的列表格式的另一个对象的属性。目前 can 具有列表格式的对象是：[`Paragraph`](../../aspose.words/paragraph/), [`Style`](../../aspose.words/style/)和[`DocumentBuilder`](../../aspose.words/documentbuilder/).
+您不创建对象`ListFormat`直接上课。 你访问`ListFormat`作为 can 具有与之关联的列表格式的另一个对象的属性。目前 can 具有列表格式的对象是：[`Paragraph`](../../aspose.words/paragraph/), [`Style`](../../aspose.words/style/)和[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
-[`ListFormat`](./listformat/)一个[`Paragraph`](../../aspose.words/paragraph/)指定 应用于该特定段落的列表格式和列表级别。
+`ListFormat`一个[`Paragraph`](../../aspose.words/paragraph/)指定 应用于该特定段落的列表格式和列表级别。
 
-[`ListFormat`](./listformat/)一个[`Style`](../../aspose.words/style/)（applicable 仅适用于段落样式）允许指定哪些列表格式和列表 level 应用于该特定样式的所有段落。
+`ListFormat`一个[`Style`](../../aspose.words/style/)（applicable 仅适用于段落样式）允许指定哪些列表格式和列表 level 应用于该特定样式的所有段落。
 
-[`ListFormat`](./listformat/)一个[`DocumentBuilder`](../../aspose.words/documentbuilder/) 提供对当前光标位置 内的列表格式的访问[`DocumentBuilder`](../../aspose.words/documentbuilder/).
+`ListFormat`一个[`DocumentBuilder`](../../aspose.words/documentbuilder/) 提供对当前光标位置 内的列表格式的访问[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
 列表格式本身存储在一个[`List`](../list/) 与段落分开存储的对象。列表 objects 存储在一个[`ListCollection`](../listcollection/)收藏。有一个single [`ListCollection`](../listcollection/)收集每[`Document`](../../aspose.words/document/).
 

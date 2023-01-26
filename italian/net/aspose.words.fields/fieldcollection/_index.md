@@ -34,9 +34,9 @@ public class FieldCollection : IEnumerable<Field>
 
 Un'istanza di questa raccolta itera i campi che iniziano all'interno dell'intervallo specificato.
 
-Il[`FieldCollection`](./fieldcollection/) raccolta non possiede i campi che contiene, piuttosto, è solo una selezione di campi.
+Il`FieldCollection` raccolta non possiede i campi che contiene, piuttosto, è solo una selezione di campi.
 
-Il[`FieldCollection`](./fieldcollection/) raccolta è "live", cioè le modifiche ai figli del nodo object da cui è stata creata si riflettono immediatamente nei campi restituiti dal[`FieldCollection`](./fieldcollection/) proprietà e metodi.
+Il`FieldCollection` raccolta è "live", cioè le modifiche ai figli del nodo object da cui è stata creata si riflettono immediatamente nei campi restituiti dal`FieldCollection` proprietà e metodi.
 
 ### Esempi
 

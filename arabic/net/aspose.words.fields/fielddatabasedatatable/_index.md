@@ -18,7 +18,7 @@ public class FieldDatabaseDataTable
 
 | اسم | وصف |
 | --- | --- |
-| [FieldDatabaseDataTable](fielddatabasedatatable/)(params string[]) | يقوم بتهيئة مثيل جديد لملف[`FieldDatabaseDataTable`](./fielddatabasedatatable/) فئة . |
+| [FieldDatabaseDataTable](fielddatabasedatatable/)(params string[]) | يقوم بتهيئة مثيل جديد لملف`FieldDatabaseDataTable` فئة . |
 
 ## الخصائص
 
@@ -31,7 +31,7 @@ public class FieldDatabaseDataTable
 
 | اسم | وصف |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | يقوم بتهيئة مثيل جديد لملف[`FieldDatabaseDataTable`](./fielddatabasedatatable/) class منDataTable المثال. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | يقوم بتهيئة مثيل جديد لملف`FieldDatabaseDataTable` class منDataTable المثال. |
 
 ### أنظر أيضا
 

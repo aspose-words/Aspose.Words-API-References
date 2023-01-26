@@ -25,7 +25,7 @@ Yapılan değiştirme sayısı.
 
 ### Notlar
 
-Kalıp normal ifade olarak kullanılmayacak. Lütfen kullanın[`Replace`](./replace/) düzenli ifadelere ihtiyacınız varsa.
+Kalıp normal ifade olarak kullanılmayacak. Lütfen kullanın`Replace` düzenli ifadelere ihtiyacınız varsa.
 
 Kullanılan büyük/küçük harfe duyarsız karşılaştırma.
 
@@ -38,7 +38,7 @@ Molalarla çalışmanız gerekiyorsa özel meta karakterler kullanmalısınız:
 * **&amp;m** - sayfa sonu
 * **&amp;l** - manuel satır sonu
 
-Yöntemi kullan[`Replace`](./replace/) daha esnek özelleştirmeye sahip olmak için.
+Yöntemi kullan`Replace` daha esnek özelleştirmeye sahip olmak için.
 
 ### Örnekler
 
@@ -139,7 +139,7 @@ Molalarla çalışmanız gerekiyorsa özel meta karakterler kullanmalısınız:
 * **&amp;m** - sayfa sonu
 * **&amp;l** - manuel satır sonu
 
-Yöntemi kullan[`Replace`](./replace/) daha esnek özelleştirmeye sahip olmak için.
+Yöntemi kullan`Replace` daha esnek özelleştirmeye sahip olmak için.
 
 ### Örnekler
 
@@ -193,7 +193,7 @@ Yapılan değiştirme sayısı.
 
 ### Notlar
 
-Kalıp normal ifade olarak kullanılmayacak. Lütfen kullanın[`Replace`](./replace/) düzenli ifadelere ihtiyacınız varsa.
+Kalıp normal ifade olarak kullanılmayacak. Lütfen kullanın`Replace` düzenli ifadelere ihtiyacınız varsa.
 
 Yöntem, hem desen hem de değiştirme dizelerindeki sonları işleyebilir.
 

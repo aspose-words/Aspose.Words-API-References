@@ -79,9 +79,9 @@ public class BuildingBlock : CompositeNode
 
 ### ملاحظات
 
-[`BuildingBlock`](./buildingblock/) يمكن أن تحتوي فقط[`Section`](../../aspose.words/section/) العقد.
+`BuildingBlock` يمكن أن تحتوي فقط[`Section`](../../aspose.words/section/) العقد.
 
-[`BuildingBlock`](./buildingblock/) يمكن أن يكون فقط تابعًا لـ[`GlossaryDocument`](../glossarydocument/).
+`BuildingBlock` يمكن أن يكون فقط تابعًا لـ[`GlossaryDocument`](../glossarydocument/).
 
 يمكنك إنشاء كتل إنشاء جديدة وإدراجها في مستند قاموس المصطلحات . يمكنك تعديل أو حذف الكتل البرمجية الإنشائية الموجودة. يمكنك نسخ أو نقل الكتل البرمجية الإنشائية بين المستندات. يمكنك إدراج محتوى الكتلة البرمجية الإنشائية في مستند.
 

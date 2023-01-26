@@ -104,15 +104,15 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 
 Strukturerade dokumenttaggar (SDT) gör det möjligt att bädda in kunddefinierad semantik såväl som dess beteende och utseende i ett dokument.
 
-denna version tillhandahåller Aspose.Words ett antal offentliga metoder och egenskaper för att manipulera beteendet och innehållet i[`StructuredDocumentTag`](./structureddocumenttag/) . Mappning av SDT-noder till anpassade XML-paket i ett dokument kan utföras med hjälp av [`XmlMapping`](./xmlmapping/) fast egendom.
+denna version tillhandahåller Aspose.Words ett antal offentliga metoder och egenskaper för att manipulera beteendet och innehållet i`StructuredDocumentTag` . Mappning av SDT-noder till anpassade XML-paket i ett dokument kan utföras med hjälp av [`XmlMapping`](./xmlmapping/) fast egendom.
 
-[`StructuredDocumentTag`](./structureddocumenttag/) kan förekomma i ett dokument på följande platser:
+`StructuredDocumentTag` kan förekomma i ett dokument på följande platser:
 
 * Blocknivå - Bland stycken och tabeller, som barn till en[`Body`](../../aspose.words/body/) ,[`HeaderFooter`](../../aspose.words/headerfooter/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) eller a[`Shape`](../../aspose.words.drawing/shape/) nod.
 * Radnivå - Bland rader i en tabell, som barn till en[`Table`](../../aspose.words.tables/table/) nod.
 * Cell-nivå - Bland celler i en tabellrad, som ett barn till en[`Row`](../../aspose.words.tables/row/) nod.
 * Inline-level - Bland inline-innehåll inuti, som barn till en[`Paragraph`](../../aspose.words/paragraph/).
-* Kapslad inuti en annan[`StructuredDocumentTag`](./structureddocumenttag/).
+* Kapslad inuti en annan`StructuredDocumentTag`.
 
 ### Exempel
 

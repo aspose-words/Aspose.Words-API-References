@@ -30,7 +30,7 @@ public class ComHelper
 
 ### Notlar
 
-Kullan[`ComHelper`](./comhelper/) bir dosyadan belge yüklemek veya bir dosyasına akış yapmak için sınıf[`Document`](../document/) COM uygulamasında nesne.
+Kullan`ComHelper` bir dosyadan belge yüklemek veya bir dosyasına akış yapmak için sınıf[`Document`](../document/) COM uygulamasında nesne.
 
 bu[`Document`](../document/)class, yeni bir document oluşturmak için varsayılan bir kurucu sağlar ve ayrıca bir dosyadan veya akıştan bir belge yüklemek için aşırı yüklenmiş kurucular sağlar. Bir .NET uygulamasından Aspose.Words kullanıyorsanız, tüm özellikleri kullanabilirsiniz.[`Document`](../document/) doğrudan yapılandırıcılar, ancak bir COM uygulamasından Aspose.Words kullanıyorsanız, yalnızca varsayılan[`Document`](../document/) yapıcı mevcuttur.
 

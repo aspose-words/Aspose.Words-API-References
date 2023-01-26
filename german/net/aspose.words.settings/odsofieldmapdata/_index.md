@@ -37,7 +37,7 @@ public class OdsoFieldMapData
 
 ### Bemerkungen
 
-Microsoft Word stellt einige vordefinierte Briefvorlagenfeldnamen bereit, die in ein Dokument als MERGEFIELD oder eingefügt werden können, die in den Feldern ADDRESSBLOCK oder GREETINGLINE verwendet werden. Die Angaben in[`OdsoFieldMapData`](./odsofieldmapdata/) ermöglicht die Zuordnung einer Spalte in der externen Datenquelle zu einem einzelnen vordefinierten Briefvorlagenfeld.
+Microsoft Word stellt einige vordefinierte Briefvorlagenfeldnamen bereit, die in ein Dokument als MERGEFIELD oder eingefügt werden können, die in den Feldern ADDRESSBLOCK oder GREETINGLINE verwendet werden. Die Angaben in`OdsoFieldMapData` ermöglicht die Zuordnung einer Spalte in der externen Datenquelle zu einem einzelnen vordefinierten Briefvorlagenfeld.
 
 ### Beispiele
 

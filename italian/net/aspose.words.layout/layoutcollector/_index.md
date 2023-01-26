@@ -38,7 +38,7 @@ public class LayoutCollector
 
 ### Osservazioni
 
-Quando crei un[`LayoutCollector`](./layoutcollector/) e specificare a[`Document`](../../aspose.words/document/)oggetto del documento a cui allegare, il raccoglitore registrerà la mappatura dei nodi del documento agli oggetti del layout quando il documento viene formattato in pagine.
+Quando crei un`LayoutCollector` e specificare a[`Document`](../../aspose.words/document/)oggetto del documento a cui allegare, il raccoglitore registrerà la mappatura dei nodi del documento agli oggetti del layout quando il documento viene formattato in pagine.
 
 Sarai in grado di scoprire su quale pagina si trova un particolare nodo del documento (ad es. esecuzione, paragrafo o cella di tabella) utilizzando il[`GetStartPageIndex`](./getstartpageindex/) ,[`GetEndPageIndex`](./getendpageindex/) e[`GetNumPagesSpanned`](./getnumpagesspanned/) metodi. Questi metodi creano automaticamente il modello di layout di pagina del documento e aggiornano i campi se necessario.
 

@@ -41,7 +41,7 @@ public class List : IComparable<List>
 
 Una lista en un documento de Microsoft Word es un conjunto de propiedades de formato de lista. Cada lista puede tener hasta 9 niveles y las propiedades de formato, como estilo de número, valor inicial, sangría, posición de tabulación, etc., se definen por separado para cada nivel.
 
-A[`List`](./list/) objeto siempre pertenece a la[`ListCollection`](../listcollection/) recopilación.
+A`List` objeto siempre pertenece a la[`ListCollection`](../listcollection/) recopilación.
 
 Para crear una nueva lista, use los métodos Agregar del[`ListCollection`](../listcollection/) recopilación.
 

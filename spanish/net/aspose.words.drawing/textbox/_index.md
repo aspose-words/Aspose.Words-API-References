@@ -39,7 +39,7 @@ public class TextBox
 
 ### Observaciones
 
-Utilizar el[`TextBox`](../shape/textbox/) propiedad para acceder a las propiedades de texto de una forma. No crea instancias de la[`TextBox`](./textbox/) clase directamente.
+Utilizar el[`TextBox`](../shape/textbox/) propiedad para acceder a las propiedades de texto de una forma. No crea instancias de la`TextBox` clase directamente.
 
 ### Ejemplos
 

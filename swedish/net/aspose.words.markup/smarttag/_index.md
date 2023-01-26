@@ -18,7 +18,7 @@ public class SmartTag : CompositeNode
 
 | namn | Beskrivning |
 | --- | --- |
-| [SmartTag](smarttag/)(DocumentBase) | Initierar en ny instans av[`SmartTag`](./smarttag/) class. |
+| [SmartTag](smarttag/)(DocumentBase) | Initierar en ny instans av`SmartTag` class. |
 
 ## Egenskaper
 
@@ -64,7 +64,7 @@ public class SmartTag : CompositeNode
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Tar bort alla undernoder för den aktuella noden. |
 | [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Tar bort den angivna underordnade noden. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tar bort alla[`SmartTag`](./smarttag/) underliggande noder till den aktuella noden. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tar bort alla`SmartTag` underliggande noder till den aktuella noden. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Väljer en lista med noder som matchar XPath-uttrycket. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Väljer den första noden som matchar XPath-uttrycket. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
@@ -74,9 +74,9 @@ public class SmartTag : CompositeNode
 
 Smarta taggar är en slags anpassad XML-uppmärkning. Smarta taggar ger en möjlighet att bädda in kunddefinierad semantik i dokumentet via möjligheten att tillhandahålla ett grundläggande namnområde/namn för en körning eller uppsättning körningar i ett dokument.
 
-[`SmartTag`](./smarttag/) kan vara ett barn till en[`Paragraph`](../../aspose.words/paragraph/) eller en annan[`SmartTag`](./smarttag/) nod.
+`SmartTag` kan vara ett barn till en[`Paragraph`](../../aspose.words/paragraph/) eller en annan`SmartTag` nod.
 
-Den kompletta listan över underordnade noder som kan förekomma inuti en smart tagg består av [`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , [`SmartTag`](./smarttag/).
+Den kompletta listan över underordnade noder som kan förekomma inuti en smart tagg består av [`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , `SmartTag`.
 
 ### Exempel
 

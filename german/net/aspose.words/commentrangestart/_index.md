@@ -51,9 +51,9 @@ public sealed class CommentRangeStart : Node
 
 ### Bemerkungen
 
-Um einen Kommentar zu erstellen, der mit einem Textbereich verankert ist, müssen Sie eine erstellen[`Comment`](../comment/) and dann erstellen[`CommentRangeStart`](./commentrangestart/) und[`CommentRangeEnd`](../commentrangeend/)und setzen Sie ihre Kennungen auf die gleichen[`Id`](../comment/id/) Wert.
+Um einen Kommentar zu erstellen, der mit einem Textbereich verankert ist, müssen Sie eine erstellen[`Comment`](../comment/) and dann erstellen`CommentRangeStart` und[`CommentRangeEnd`](../commentrangeend/)und setzen Sie ihre Kennungen auf die gleichen[`Id`](../comment/id/) Wert.
 
-[`CommentRangeStart`](./commentrangestart/) ist ein Knoten auf Inline-Ebene und kann nur ein Kind von sein[`Paragraph`](../paragraph/).
+`CommentRangeStart` ist ein Knoten auf Inline-Ebene und kann nur ein Kind von sein[`Paragraph`](../paragraph/).
 
 ### Beispiele
 

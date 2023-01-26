@@ -41,13 +41,13 @@ public class ListLevel
 | [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | Tar bort bildpunkt för den aktuella listnivån. |
 | [Equals](../../aspose.words.lists/listlevel/equals/#equals)(ListLevel) | Jämför med den angivna ListLevel. |
 | override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | Beräknar hashkod för detta objekt. |
-| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | Rapporterar strängrepresentationen av[`ListLevel`](./listlevel/) objekt för det angivna index för listobjektet. Parametrar anger[`NumberStyle`](../../aspose.words/numberstyle/) och ett valfritt format string används närCustom anges. |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | Rapporterar strängrepresentationen av`ListLevel` objekt för det angivna index för listobjektet. Parametrar anger[`NumberStyle`](../../aspose.words/numberstyle/) och ett valfritt format string används närCustom anges. |
 
 ### Anmärkningar
 
-Du skapar inte objekt av den här klassen. Objekt på listnivå skapas automatiskt när en lista skapas. Du kommer åt[`ListLevel`](./listlevel/) objekt via the [`ListLevelCollection`](../listlevelcollection/) samling.
+Du skapar inte objekt av den här klassen. Objekt på listnivå skapas automatiskt när en lista skapas. Du kommer åt`ListLevel` objekt via the [`ListLevelCollection`](../listlevelcollection/) samling.
 
-Använd egenskaperna för[`ListLevel`](./listlevel/) för att ange listformatering för individuella listnivåer.
+Använd egenskaperna för`ListLevel` för att ange listformatering för individuella listnivåer.
 
 ### Exempel
 

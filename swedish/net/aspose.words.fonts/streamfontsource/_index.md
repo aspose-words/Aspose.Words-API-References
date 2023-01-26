@@ -32,11 +32,11 @@ public abstract class StreamFontSource : FontSourceBase
 
 ### Anmärkningar
 
-För att använda strömfontkällan bör du skapa en härledd klass från[`StreamFontSource`](./streamfontsource/) och tillhandahålla implementering av[`OpenFontDataStream`](./openfontdatastream/) metod.
+För att använda strömfontkällan bör du skapa en härledd klass från`StreamFontSource` och tillhandahålla implementering av[`OpenFontDataStream`](./openfontdatastream/) metod.
 
 [`OpenFontDataStream`](./openfontdatastream/)metod kan kallas flera gånger. För första gången kommer det att kallas när Aspose.Words skannar de medföljande teckensnittskällorna för att få en lista över tillgängliga teckensnitt. Senare kan det kallas om teckensnittet används i dokumentet för att analysera teckensnittsdata och för att bädda in teckensnittsdata i vissa utdataformat.
 
-[`StreamFontSource`](./streamfontsource/) kan vara användbart eftersom det gör det möjligt att ladda teckensnittsdata endast när det krävs och inte lagra det i minnet för[`FontSettings`](../fontsettings/) livstid.
+`StreamFontSource` kan vara användbart eftersom det gör det möjligt att ladda teckensnittsdata endast när det krävs och inte lagra det i minnet för[`FontSettings`](../fontsettings/) livstid.
 
 ### Exempel
 

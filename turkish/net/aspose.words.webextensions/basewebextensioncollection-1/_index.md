@@ -23,17 +23,17 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words.webextensions/basewebextensioncollection`1/count/) { get; } | Koleksiyonda bulunan öğelerin sayısını alır. |
-| [Item](../../aspose.words.webextensions/basewebextensioncollection`1/item/) { get; set; } | Belirtilen dizindeki bir öğeyi alır veya ayarlar. |
+| [Count](../../aspose.words.webextensions/basewebextensioncollection-1/count/) { get; } | Koleksiyonda bulunan öğelerin sayısını alır. |
+| [Item](../../aspose.words.webextensions/basewebextensioncollection-1/item/) { get; set; } | Belirtilen dizindeki bir öğeyi alır veya ayarlar. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection`1/add/)(T) | Belirtilen öğeyi koleksiyona ekler. |
-| [Clear](../../aspose.words.webextensions/basewebextensioncollection`1/clear/)() | Koleksiyondaki tüm öğeleri kaldırır. |
-| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection`1/getenumerator/)() | Bir koleksiyon boyunca yinelenebilen bir Numaralandırıcı döndürür. |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection`1/remove/)(int) | Belirtilen dizindeki öğeyi koleksiyondan kaldırır. |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(T) | Belirtilen öğeyi koleksiyona ekler. |
+| [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() | Koleksiyondaki tüm öğeleri kaldırır. |
+| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | Bir koleksiyon boyunca yinelenebilen bir Numaralandırıcı döndürür. |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) | Belirtilen dizindeki öğeyi koleksiyondan kaldırır. |
 
 ### Örnekler
 

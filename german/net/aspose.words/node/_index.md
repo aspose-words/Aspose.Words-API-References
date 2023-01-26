@@ -49,7 +49,7 @@ Ein Dokument wird ähnlich wie DOM oder XmlDocument als Baum aus Knoten dargeste
 
 Weitere Informationen finden Sie im Composite-Designmuster.
 
-Das[`Node`](./node/)Klasse:
+Das`Node`Klasse:
 
 * Definiert die Schnittstelle des untergeordneten Knotens.
 * Definiert die Schnittstelle für den Besuch von Knoten.

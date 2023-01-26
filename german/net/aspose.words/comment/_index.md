@@ -53,7 +53,7 @@ public sealed class Comment : InlineStory
 | [ParentParagraph](../../aspose.words/inlinestory/parentparagraph/) { get; } | Ruft das übergeordnete Element ab[`Paragraph`](../paragraph/) dieses Knotens. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ruft den Knoten unmittelbar vor diesem Knoten ab. |
 | [Range](../../aspose.words/node/range/) { get; } | Gibt a zurück **Bereich** Objekt, das den Teil eines Dokuments darstellt, das in diesem Knoten enthalten ist. |
-| [Replies](../../aspose.words/comment/replies/) { get; } | Gibt eine Sammlung von zurück[`Comment`](./comment/) Objekte, die unmittelbar untergeordnete Elemente des angegebenen Kommentars sind. |
+| [Replies](../../aspose.words/comment/replies/) { get; } | Gibt eine Sammlung von zurück`Comment` Objekte, die unmittelbar untergeordnete Elemente des angegebenen Kommentars sind. |
 | override [StoryType](../../aspose.words/comment/storytype/) { get; } | gibt zurück **StoryType.Kommentare** . |
 | [Tables](../../aspose.words/inlinestory/tables/) { get; } | Ruft eine Sammlung von Tabellen ab, die unmittelbar untergeordnete Elemente der Story sind. |
 
@@ -95,13 +95,13 @@ public sealed class Comment : InlineStory
 
 Ein Kommentar ist eine Anmerkung, die an einem Textbereich oder an einer Stelle im Text verankert ist. Ein Kommentar kann beliebig viele Inhalte auf Blockebene enthalten.
 
-Wenn ein[`Comment`](./comment/) Objekt alleine auftritt, wird der Kommentar an der Position des verankert[`Comment`](./comment/) Objekt.
+Wenn ein`Comment` Objekt alleine auftritt, wird der Kommentar an der Position des verankert`Comment` Objekt.
 
-Um einen Kommentar in einem Textbereich zu verankern, sind drei Objekte erforderlich:[`Comment`](./comment/) , [`CommentRangeStart`](../commentrangestart/) und[`CommentRangeEnd`](../commentrangeend/) Alle drei Objekte müssen dasselbe teilen[`Id`](./id/) Wert.
+Um einen Kommentar in einem Textbereich zu verankern, sind drei Objekte erforderlich:`Comment` , [`CommentRangeStart`](../commentrangestart/) und[`CommentRangeEnd`](../commentrangeend/) Alle drei Objekte müssen dasselbe teilen[`Id`](./id/) Wert.
 
-[`Comment`](./comment/) ist ein Knoten auf Inline-Ebene und kann nur ein Kind von sein[`Paragraph`](../paragraph/).
+`Comment` ist ein Knoten auf Inline-Ebene und kann nur ein Kind von sein[`Paragraph`](../paragraph/).
 
-[`Comment`](./comment/) enthalten kann[`Paragraph`](../paragraph/) und[`Table`](../../aspose.words.tables/table/) untergeordnete Knoten.
+`Comment` enthalten kann[`Paragraph`](../paragraph/) und[`Table`](../../aspose.words.tables/table/) untergeordnete Knoten.
 
 ### Beispiele
 

@@ -34,9 +34,9 @@ public class FontSavingArgs
 
 När Aspose.Words sparar ett dokument till HTML eller relaterade format och[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) är inställd på **Sann**, sparar varje teckensnittsämne för export till en separat fil.
 
-[`FontSavingArgs`](./fontsavingargs/) styr om en viss typsnittsresurs ska exporteras och hur.
+`FontSavingArgs` styr om en viss typsnittsresurs ska exporteras och hur.
 
-[`FontSavingArgs`](./fontsavingargs/)tillåter också att omdefiniera hur teckensnittsfilnamn genereras eller att helt kringgå lagring av teckensnitt i filer genom att tillhandahålla dina egna strömobjekt.
+`FontSavingArgs`tillåter också att omdefiniera hur teckensnittsfilnamn genereras eller att helt kringgå lagring av teckensnitt i filer genom att tillhandahålla dina egna strömobjekt.
 
 För att bestämma om du vill spara en viss typsnittsresurs, använd[`IsExportNeeded`](./isexportneeded/) fast egendom.
 

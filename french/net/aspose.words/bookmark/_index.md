@@ -34,7 +34,7 @@ public class Bookmark
 
 ### Remarques
 
-[`Bookmark`](./bookmark/) est un objet "façade" qui encapsule deux nœuds[`BookmarkStart`](./bookmarkstart/) et[`BookmarkEnd`](./bookmarkend/) dans une arborescence de documents et permet de travailler avec un signet comme un seul objet.
+`Bookmark` est un objet "façade" qui encapsule deux nœuds[`BookmarkStart`](./bookmarkstart/) et[`BookmarkEnd`](./bookmarkend/) dans une arborescence de documents et permet de travailler avec un signet comme un seul objet.
 
 ### Exemples
 

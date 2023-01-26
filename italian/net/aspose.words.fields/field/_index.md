@@ -42,7 +42,7 @@ public class Field
 
 ### Osservazioni
 
-Un campo in un documento Word è una struttura complessa costituita da più nodi che includono inizio campo, codice campo , separatore campo, risultato campo e fine campo. I campi possono essere nidificati, contenere contenuti avanzati e includere più paragrafi o sezioni in un documento. Il[`Field`](./field/)class è un oggetto "facciata" che fornisce proprietà e metodi che consentono di lavorare con un campo come un singolo oggetto.
+Un campo in un documento Word è una struttura complessa costituita da più nodi che includono inizio campo, codice campo , separatore campo, risultato campo e fine campo. I campi possono essere nidificati, contenere contenuti avanzati e includere più paragrafi o sezioni in un documento. Il`Field`class è un oggetto "facciata" che fornisce proprietà e metodi che consentono di lavorare con un campo come un singolo oggetto.
 
 Il[`Start`](./start/) ,[`Separator`](./separator/) e[`End`](./end/) le proprietà puntano rispettivamente ai nodi di inizio, separatore e fine del campo .
 
@@ -52,7 +52,7 @@ Il processo di calcolo dei risultati del campo è chiamato aggiornamento del cam
 
 È possibile ottenere la versione in testo normale del codice di campo utilizzando il[`GetFieldCode`](./getfieldcode/) method. È possibile ottenere e impostare la versione in testo normale del risultato del campo utilizzando il[`Result`](./result/) property. Sia il codice del campo che il risultato del campo possono contenere contenuto complesso, come campi nidificati, paragrafi, forme, tabelle e in questo caso potresti voler lavorare direttamente con i nodi del campo se hai bisogno di maggiore controllo.
 
-Non crei istanze di[`Field`](./field/) class direttamente. Per creare un nuovo campo utilizzare il[`InsertField`](../../aspose.words/documentbuilder/insertfield/) metodo.
+Non crei istanze di`Field` class direttamente. Per creare un nuovo campo utilizzare il[`InsertField`](../../aspose.words/documentbuilder/insertfield/) metodo.
 
 ### Esempi
 

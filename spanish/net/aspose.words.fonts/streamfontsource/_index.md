@@ -32,11 +32,11 @@ public abstract class StreamFontSource : FontSourceBase
 
 ### Observaciones
 
-Para usar la fuente de fuente de flujo, debe crear una clase derivada del[`StreamFontSource`](./streamfontsource/) y proporcionar la implementación del[`OpenFontDataStream`](./openfontdatastream/) método.
+Para usar la fuente de fuente de flujo, debe crear una clase derivada del`StreamFontSource` y proporcionar la implementación del[`OpenFontDataStream`](./openfontdatastream/) método.
 
 [`OpenFontDataStream`](./openfontdatastream/)El método podría llamarse varias veces. Por primera vez, se llamará cuando Aspose.Words analice las fuentes de fuentes proporcionadas para obtener la lista de fuentes disponibles. Posteriormente se puede llamar si la fuente se usa en el documento para analizar los datos de la fuente y para incrustar los datos de la fuente en algunos formatos de salida.
 
-[`StreamFontSource`](./streamfontsource/) puede ser útil porque permite cargar los datos de la fuente solo cuando se requiere y no almacenarlos en la memoria para el[`FontSettings`](../fontsettings/) toda la vida.
+`StreamFontSource` puede ser útil porque permite cargar los datos de la fuente solo cuando se requiere y no almacenarlos en la memoria para el[`FontSettings`](../fontsettings/) toda la vida.
 
 ### Ejemplos
 

@@ -29,10 +29,10 @@ public class PageInfo
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(PaperSizeCollection) | FårPaperSize objekt som är lämpligt för utskrift sidan som representeras av detta[`PageInfo`](./pageinfo/) . |
+| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(PaperSizeCollection) | FårPaperSize objekt som är lämpligt för utskrift sidan som representeras av detta`PageInfo` . |
 | [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels)(float, float) | Beräknar sidstorleken i pixlar för en angiven zoomfaktor och upplösning. |
 | [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels_1)(float, float, float) | Beräknar sidstorleken i pixlar för en angiven zoomfaktor och upplösning. |
-| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(PaperSourceCollection, PaperSource) | FårPaperSource objekt som är lämpligt för utskrift sidan som representeras av detta[`PageInfo`](./pageinfo/) . |
+| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(PaperSourceCollection, PaperSource) | FårPaperSource objekt som är lämpligt för utskrift sidan som representeras av detta`PageInfo` . |
 
 ### Anmärkningar
 

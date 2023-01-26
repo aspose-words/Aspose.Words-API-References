@@ -132,9 +132,9 @@ public class GroupShape : ShapeBase
 
 ### 评论
 
-一个[`GroupShape`](./groupshape/)是一个复合节点，可以有[`Shape`](../shape/)和 [`GroupShape`](./groupshape/)节点作为子节点。
+一个`GroupShape`是一个复合节点，可以有[`Shape`](../shape/)和 `GroupShape`节点作为子节点。
 
-每个[`GroupShape`](./groupshape/)为其子形状定义一个新的坐标系。 坐标系是使用[`CoordSize`](../shapebase/coordsize/)和 [`CoordOrigin`](../shapebase/coordorigin/)特性。
+每个`GroupShape`为其子形状定义一个新的坐标系。 坐标系是使用[`CoordSize`](../shapebase/coordsize/)和 [`CoordOrigin`](../shapebase/coordorigin/)特性。
 
 ### 例子
 

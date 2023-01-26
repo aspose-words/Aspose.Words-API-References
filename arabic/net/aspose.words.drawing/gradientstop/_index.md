@@ -18,8 +18,8 @@ public class GradientStop
 
 | اسم | وصف |
 | --- | --- |
-| [GradientStop](gradientstop/#constructor)(Color, double) | يقوم بتهيئة مثيل جديد لملف[`GradientStop`](./gradientstop/) فئة . |
-| [GradientStop](gradientstop/#constructor_1)(Color, double, double) | يقوم بتهيئة مثيل جديد لملف[`GradientStop`](./gradientstop/) فئة . |
+| [GradientStop](gradientstop/#constructor)(Color, double) | يقوم بتهيئة مثيل جديد لملف`GradientStop` فئة . |
+| [GradientStop](gradientstop/#constructor_1)(Color, double, double) | يقوم بتهيئة مثيل جديد لملف`GradientStop` فئة . |
 
 ## الخصائص
 

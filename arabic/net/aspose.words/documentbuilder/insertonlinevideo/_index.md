@@ -33,7 +33,7 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 * https://www.youtube.com/
 * https://vimeo.com/
 
-إذا لم يتم عرض مقطع الفيديو الخاص بك على الإنترنت بشكل صحيح ، فاستخدم[`InsertOnlineVideo`](./insertonlinevideo/)، الذي يقبل كود html مضمن مخصص.
+إذا لم يتم عرض مقطع الفيديو الخاص بك على الإنترنت بشكل صحيح ، فاستخدم`InsertOnlineVideo`، الذي يقبل كود html مضمن مخصص.
 
 يمكن أن يختلف رمز تضمين الفيديو بين مقدمي الخدمة ، استشر المزود المناسب الذي تختاره للحصول على التفاصيل.
 
@@ -93,7 +93,7 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 * https://www.youtube.com/
 * https://vimeo.com/
 
-إذا لم يتم عرض مقطع الفيديو الخاص بك على الإنترنت بشكل صحيح ، فاستخدم[`InsertOnlineVideo`](./insertonlinevideo/)، الذي يقبل كود html مضمن مخصص.
+إذا لم يتم عرض مقطع الفيديو الخاص بك على الإنترنت بشكل صحيح ، فاستخدم`InsertOnlineVideo`، الذي يقبل كود html مضمن مخصص.
 
 يمكن أن يختلف رمز تضمين الفيديو بين مقدمي الخدمة ، استشر المزود المناسب الذي تختاره للحصول على التفاصيل.
 

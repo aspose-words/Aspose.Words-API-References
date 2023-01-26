@@ -31,7 +31,7 @@ public class XmlDataSource
 
 Pour accéder aux données du fichier ou du flux correspondant lors de la génération d'un rapport, transmettez une instance de cette classe en tant que une source de données à l'un des[`ReportingEngine`](../reportingengine/) .BuildReport surcharges.
 
-Dans les modèles de documents, si un élément XML de niveau supérieur ne contient qu'une liste d'éléments du même type, un[`XmlDataSource`](./xmldatasource/) instance doit être traitée de la même manière que si elle était aDataTable instance . Sinon, un[`XmlDataSource`](./xmldatasource/) instance doit être traitée de la même manière que si elle était aDataRow instance . Pour plus d'informations, consultez la référence de syntaxe du modèle (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+Dans les modèles de documents, si un élément XML de niveau supérieur ne contient qu'une liste d'éléments du même type, un`XmlDataSource` instance doit être traitée de la même manière que si elle était aDataTable instance . Sinon, un`XmlDataSource` instance doit être traitée de la même manière que si elle était aDataRow instance . Pour plus d'informations, consultez la référence de syntaxe du modèle (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 Lorsque la définition de schéma XML est transmise à un constructeur de cette classe, les types de données des valeurs des éléments XML simples et des attributs sont déterminés en fonction du schéma. Ainsi, dans les modèles de documents, vous pouvez travailler avec des valeurs typées plutôt qu'avec des chaînes.
 

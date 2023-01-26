@@ -36,7 +36,7 @@ public class PdfDigitalSignatureDetails
 
 目前，数字签名 PDF 文档仅适用于 .NET 2.0 或更高版本。
 
-要在 Aspose.Words 创建 PDF 文档时对其进行数字签名，请设置[`DigitalSignatureDetails`](../pdfsaveoptions/digitalsignaturedetails/) 属性为有效[`PdfDigitalSignatureDetails`](./pdfdigitalsignaturedetails/)对象，然后将文档保存为 PDF 格式并传递 [`PdfSaveOptions`](../pdfsaveoptions/)作为参数进入[`Save`](../../aspose.words/document/save/)方法。
+要在 Aspose.Words 创建 PDF 文档时对其进行数字签名，请设置[`DigitalSignatureDetails`](../pdfsaveoptions/digitalsignaturedetails/) 属性为有效`PdfDigitalSignatureDetails`对象，然后将文档保存为 PDF 格式并传递 [`PdfSaveOptions`](../pdfsaveoptions/)作为参数进入[`Save`](../../aspose.words/document/save/)方法。
 
 Aspose.Words 在整个 PDF 文档上创建一个 PKCS#7 签名，并在创建数字签名时使用“Adobe.PPKMS”过滤器和 “adbe.pkcs7.sha1”子过滤器。
 

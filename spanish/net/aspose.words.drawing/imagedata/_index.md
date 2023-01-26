@@ -52,7 +52,7 @@ public class ImageData
 
 ### Observaciones
 
-Utilizar el[`ImageData`](../shape/imagedata/) propiedad para acceder y modificar la imagen dentro de una forma. No crea instancias de la[`ImageData`](./imagedata/) clase directamente.
+Utilizar el[`ImageData`](../shape/imagedata/) propiedad para acceder y modificar la imagen dentro de una forma. No crea instancias de la`ImageData` clase directamente.
 
 Una imagen puede almacenarse dentro de una forma, vincularse a un archivo externo o ambos (vincularse y almacenarse en el documento).
 

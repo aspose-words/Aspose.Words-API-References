@@ -51,9 +51,9 @@ public sealed class CommentRangeEnd : Node
 
 ### Notlar
 
-Metnin bir bölgesine sabitlenmiş bir yorum oluşturmak için, bir[`Comment`](../comment/) and sonra oluştur[`CommentRangeStart`](../commentrangestart/) ve[`CommentRangeEnd`](./commentrangeend/)ve tanımlayıcılarını aynı şekilde ayarlayın[`Id`](../comment/id/) değer.
+Metnin bir bölgesine sabitlenmiş bir yorum oluşturmak için, bir[`Comment`](../comment/) and sonra oluştur[`CommentRangeStart`](../commentrangestart/) ve`CommentRangeEnd`ve tanımlayıcılarını aynı şekilde ayarlayın[`Id`](../comment/id/) değer.
 
-[`CommentRangeEnd`](./commentrangeend/) satır içi düzey bir düğümdür ve yalnızca alt öğesi olabilir[`Paragraph`](../paragraph/).
+`CommentRangeEnd` satır içi düzey bir düğümdür ve yalnızca alt öğesi olabilir[`Paragraph`](../paragraph/).
 
 ### Örnekler
 

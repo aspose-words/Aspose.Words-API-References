@@ -42,7 +42,7 @@ Bu sınıf, "bilinmeyen bir ilişkinin" hedefi olan bir OOXML parçasını temsi
 
 Microsoft Word, açma/kaydetme döngüleri sırasında özel parçaları korur. Bazı ek bilgiler burada bulunabilir: http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
 
-Aspose.Words ayrıca özel parçaların gidiş dönüşünü de yapar ve buna ek olarak, bu tür parçalara aracılığıyla programlı olarak erişmeye izin verir.[`CustomPart`](./custompart/) ve[`CustomPartCollection`](../custompartcollection/) nesneler.
+Aspose.Words ayrıca özel parçaların gidiş dönüşünü de yapar ve buna ek olarak, bu tür parçalara aracılığıyla programlı olarak erişmeye izin verir.`CustomPart` ve[`CustomPartCollection`](../custompartcollection/) nesneler.
 
 Özel parçaları Özel XML Verileri ile karıştırmayın. Kullanmak[`CustomXmlPart`](../customxmlpart/) Özel XML Verilerine erişmek için 'ye ihtiyacınız varsa.
 

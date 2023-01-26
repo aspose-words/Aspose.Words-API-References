@@ -41,7 +41,7 @@ public class TextPath
 
 ### Notlar
 
-Kullan[`TextPath`](../shape/textpath/) bir şeklin WordArt özelliklerine erişme özelliği. [`TextPath`](./textpath/) doğrudan sınıf.
+Kullan[`TextPath`](../shape/textpath/) bir şeklin WordArt özelliklerine erişme özelliği. `TextPath` doğrudan sınıf.
 
 ### Örnekler
 

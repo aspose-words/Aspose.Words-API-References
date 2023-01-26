@@ -87,7 +87,7 @@ public class GlossaryDocument : DocumentBase
 
 Чтобы получить доступ к стандартным блокам, вам необходимо загрузить документ в[`Document`](../../aspose.words/document/) объект. Строительные блоки будут доступны через[`GlossaryDocument`](../../aspose.words/document/glossarydocument/) имущество.
 
-[`GlossaryDocument`](./glossarydocument/) может содержать любое количество[`BuildingBlock`](../buildingblock/) объектов. Каждый[`BuildingBlock`](../buildingblock/) представляет собой часть документа.
+`GlossaryDocument` может содержать любое количество[`BuildingBlock`](../buildingblock/) объектов. Каждый[`BuildingBlock`](../buildingblock/) представляет собой часть документа.
 
 Соответствует **глоссарийДокумент** а также **docParts**элементы в OOXML.
 

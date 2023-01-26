@@ -34,9 +34,9 @@ public class FieldCollection : IEnumerable<Field>
 
 Bu koleksiyonun bir örneği, belirtilen aralıkta başlayan alanları yineler.
 
-bu[`FieldCollection`](./fieldcollection/) koleksiyon, içerdiği alanlara sahip değildir, yalnızca bir alan seçimidir.
+bu`FieldCollection` koleksiyon, içerdiği alanlara sahip değildir, yalnızca bir alan seçimidir.
 
-bu[`FieldCollection`](./fieldcollection/) koleksiyon "canlı"dır, yani, oluşturulduğu object düğümünün alt öğelerinde yapılan değişiklikler, tarafından döndürülen alanlara hemen yansıtılır.[`FieldCollection`](./fieldcollection/) özellikleri ve yöntemleri.
+bu`FieldCollection` koleksiyon "canlı"dır, yani, oluşturulduğu object düğümünün alt öğelerinde yapılan değişiklikler, tarafından döndürülen alanlara hemen yansıtılır.`FieldCollection` özellikleri ve yöntemleri.
 
 ### Örnekler
 

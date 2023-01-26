@@ -56,9 +56,9 @@ public class FieldStart : FieldChar
 
 ### Примечания
 
-[`FieldStart`](./fieldstart/) является узлом встроенного уровня и представлен как the [`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) управляющий символ в документе.
+`FieldStart` является узлом встроенного уровня и представлен как the [`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) управляющий символ в документе.
 
-[`FieldStart`](./fieldstart/) может быть только ребенком[`Paragraph`](../../aspose.words/paragraph/).
+`FieldStart` может быть только ребенком[`Paragraph`](../../aspose.words/paragraph/).
 
 Полное поле в документе Microsoft Word представляет собой сложную структуру, состоящую из начального символа поля, кода поля, символа-разделителя поля, результата поля и конечного символа поля. Некоторые поля имеют только начало поля, код поля и конец поля.
 

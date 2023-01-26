@@ -73,9 +73,9 @@ public abstract class DocumentBase : CompositeNode
 
 ### Bemerkungen
 
-Aspose.Words stellt ein Word-Dokument als Knotenbaum dar.[`DocumentBase`](./documentbase/) ist ein Wurzelknoten des Baums, der alle anderen Knoten des Dokuments enthält.
+Aspose.Words stellt ein Word-Dokument als Knotenbaum dar.`DocumentBase` ist ein Wurzelknoten des Baums, der alle anderen Knoten des Dokuments enthält.
 
-[`DocumentBase`](./documentbase/) speichert auch dokumentweite Informationen wie z[`Styles`](./styles/) und [`Lists`](./lists/) auf die sich die Baumknoten beziehen könnten.
+`DocumentBase` speichert auch dokumentweite Informationen wie z[`Styles`](./styles/) und [`Lists`](./lists/) auf die sich die Baumknoten beziehen könnten.
 
 ### Beispiele
 

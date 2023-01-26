@@ -51,9 +51,9 @@ public sealed class CommentRangeEnd : Node
 
 ### Remarques
 
-Pour créer un commentaire ancré à une zone de texte, vous devez créer un[`Comment`](../comment/) and puis créer[`CommentRangeStart`](../commentrangestart/) et[`CommentRangeEnd`](./commentrangeend/)et définissez leurs identifiants sur le même[`Id`](../comment/id/) évaluer.
+Pour créer un commentaire ancré à une zone de texte, vous devez créer un[`Comment`](../comment/) and puis créer[`CommentRangeStart`](../commentrangestart/) et`CommentRangeEnd`et définissez leurs identifiants sur le même[`Id`](../comment/id/) évaluer.
 
-[`CommentRangeEnd`](./commentrangeend/) est un nœud de niveau en ligne et ne peut être qu'un enfant de[`Paragraph`](../paragraph/).
+`CommentRangeEnd` est un nœud de niveau en ligne et ne peut être qu'un enfant de[`Paragraph`](../paragraph/).
 
 ### Exemples
 

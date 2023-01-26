@@ -87,7 +87,7 @@ Einige Dokumente, normalerweise Vorlagen, können AutoText, AutoKorrektur-Eintr�
 
 Um auf Bausteine zuzugreifen, müssen Sie ein Dokument in a laden[`Document`](../../aspose.words/document/) Objekt. Bausteine werden über verfügbar sein[`GlossaryDocument`](../../aspose.words/document/glossarydocument/) Eigentum.
 
-[`GlossaryDocument`](./glossarydocument/) kann beliebig viele enthalten[`BuildingBlock`](../buildingblock/) Objekte. Jeder[`BuildingBlock`](../buildingblock/) stellt einen Dokumententeil dar.
+`GlossaryDocument` kann beliebig viele enthalten[`BuildingBlock`](../buildingblock/) Objekte. Jeder[`BuildingBlock`](../buildingblock/) stellt einen Dokumententeil dar.
 
 Entspricht dem **GlossarDokument** und **docParts**Elemente in OOXML.
 

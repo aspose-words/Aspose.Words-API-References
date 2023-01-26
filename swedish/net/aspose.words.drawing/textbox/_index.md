@@ -39,7 +39,7 @@ public class TextBox
 
 ### Anmärkningar
 
-Använd[`TextBox`](../shape/textbox/) egenskap för att komma åt textegenskaper för en form. Du skapar inte instanser av[`TextBox`](./textbox/) klass direkt.
+Använd[`TextBox`](../shape/textbox/) egenskap för att komma åt textegenskaper för en form. Du skapar inte instanser av`TextBox` klass direkt.
 
 ### Exempel
 

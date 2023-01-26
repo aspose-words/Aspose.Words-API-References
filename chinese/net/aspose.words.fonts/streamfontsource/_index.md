@@ -32,11 +32,11 @@ public abstract class StreamFontSource : FontSourceBase
 
 ### 评论
 
-为了使用流字体源，您应该从[`StreamFontSource`](./streamfontsource/) 并提供[`OpenFontDataStream`](./openfontdatastream/)方法。
+为了使用流字体源，您应该从`StreamFontSource` 并提供[`OpenFontDataStream`](./openfontdatastream/)方法。
 
 [`OpenFontDataStream`](./openfontdatastream/)方法可以多次调用。当 Aspose.Words 扫描提供的字体源以获取可用字体列表时，它将第一次调用 。稍后，如果在文档中使用了 字体来解析字体数据并将字体数据嵌入到某些输出格式中，则可能会调用它。
 
-[`StreamFontSource`](./streamfontsource/)可能很有用，因为它只允许在需要时加载字体数据 ，而不是将其存储在内存中[`FontSettings`](../fontsettings/)寿命。
+`StreamFontSource`可能很有用，因为它只允许在需要时加载字体数据 ，而不是将其存储在内存中[`FontSettings`](../fontsettings/)寿命。
 
 ### 例子
 

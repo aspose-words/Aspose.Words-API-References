@@ -104,15 +104,15 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 
 Les balises de document structuré (SDT) permettent d'intégrer la sémantique définie par le client ainsi que son comportement et son apparence dans un document.
 
-Dans cette version, Aspose.Words fournit un certain nombre de méthodes et de propriétés publiques pour manipuler le comportement et le contenu de[`StructuredDocumentTag`](./structureddocumenttag/) . Le mappage des nœuds SDT vers des packages XML personnalisés dans un document peut être effectué en utilisant le[`XmlMapping`](./xmlmapping/) propriété.
+Dans cette version, Aspose.Words fournit un certain nombre de méthodes et de propriétés publiques pour manipuler le comportement et le contenu de`StructuredDocumentTag` . Le mappage des nœuds SDT vers des packages XML personnalisés dans un document peut être effectué en utilisant le[`XmlMapping`](./xmlmapping/) propriété.
 
-[`StructuredDocumentTag`](./structureddocumenttag/) peut apparaître dans un document aux endroits suivants :
+`StructuredDocumentTag` peut apparaître dans un document aux endroits suivants :
 
 * Niveau bloc - Parmi les paragraphes et les tableaux, en tant qu'enfant d'un[`Body`](../../aspose.words/body/) ,[`HeaderFooter`](../../aspose.words/headerfooter/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) ou un[`Shape`](../../aspose.words.drawing/shape/) nœud.
 * Niveau ligne - Parmi les lignes d'une table, en tant qu'enfant d'un[`Table`](../../aspose.words.tables/table/) nœud.
 * Au niveau de la cellule - Parmi les cellules d'une ligne de tableau, en tant qu'enfant d'un[`Row`](../../aspose.words.tables/row/) nœud.
 * Inline-level - Parmi le contenu en ligne à l'intérieur, en tant qu'enfant d'un[`Paragraph`](../../aspose.words/paragraph/).
-* Niché dans un autre[`StructuredDocumentTag`](./structureddocumenttag/).
+* Niché dans un autre`StructuredDocumentTag`.
 
 ### Exemples
 

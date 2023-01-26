@@ -44,9 +44,9 @@ public class SubDocument : Node
 
 ### 评论
 
-在这个版本的 Aspose.Words 中，[`SubDocument`](./subdocument/)节点不提供公共方法 和属性来创建或修改子文档。在此版本中，您无法实例化 SubDocument 节点或修改现有节点，除非删除它们。
+在这个版本的 Aspose.Words 中，`SubDocument`节点不提供公共方法 和属性来创建或修改子文档。在此版本中，您无法实例化 SubDocument 节点或修改现有节点，除非删除它们。
 
-[`SubDocument`](./subdocument/)只能是[`Paragraph`](../paragraph/).
+`SubDocument`只能是[`Paragraph`](../paragraph/).
 
 ### 例子
 

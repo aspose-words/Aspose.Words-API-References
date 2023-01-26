@@ -39,7 +39,7 @@ public class TextBox
 
 ### Remarques
 
-Utilisez le[`TextBox`](../shape/textbox/) pour accéder aux propriétés de texte d'une forme. Vous ne créez pas d'instances de la[`TextBox`](./textbox/) classe directement.
+Utilisez le[`TextBox`](../shape/textbox/) pour accéder aux propriétés de texte d'une forme. Vous ne créez pas d'instances de la`TextBox` classe directement.
 
 ### Exemples
 

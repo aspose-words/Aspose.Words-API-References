@@ -8,7 +8,7 @@ url: /it/net/aspose.words.math/officemath/
 ---
 ## OfficeMath class
 
-Rappresenta un oggetto Office Math come funzione, equazione, matrice o simili. Può contenere elementi figlio incluse sequenze di testo matematico, segnalibri, commenti e altro[`OfficeMath`](./officemath/) istanze e alcuni altri nodi.
+Rappresenta un oggetto Office Math come funzione, equazione, matrice o simili. Può contenere elementi figlio incluse sequenze di testo matematico, segnalibri, commenti e altro`OfficeMath` istanze e alcuni altri nodi.
 
 ```csharp
 public class OfficeMath : CompositeNode
@@ -69,9 +69,9 @@ public class OfficeMath : CompositeNode
 
 ### Osservazioni
 
-In questa versione di Aspose.Words,[`OfficeMath`](./officemath/) i nodi non forniscono metodi pubblici e proprietà per creare o modificare un oggetto OfficeMath. In questa versione non puoi istanziare Math nodi o modificare esistenti tranne che eliminandoli.
+In questa versione di Aspose.Words,`OfficeMath` i nodi non forniscono metodi pubblici e proprietà per creare o modificare un oggetto OfficeMath. In questa versione non puoi istanziare Math nodi o modificare esistenti tranne che eliminandoli.
 
-[`OfficeMath`](./officemath/) può essere solo un figlio di[`Paragraph`](../../aspose.words/paragraph/).
+`OfficeMath` può essere solo un figlio di[`Paragraph`](../../aspose.words/paragraph/).
 
 ### Esempi
 

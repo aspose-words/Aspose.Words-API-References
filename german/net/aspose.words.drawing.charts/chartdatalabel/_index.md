@@ -40,7 +40,7 @@ public class ChartDataLabel
 
 ### Bemerkungen
 
-Auf einer Reihe, die[`ChartDataLabel`](./chartdatalabel/) Objekt ist ein Mitglied von[`ChartDataLabelCollection`](../chartdatalabelcollection/) . Die[`ChartDataLabelCollection`](../chartdatalabelcollection/) enthält ein[`ChartDataLabel`](./chartdatalabel/) Objekt für jeden Punkt.
+Auf einer Reihe, die`ChartDataLabel` Objekt ist ein Mitglied von[`ChartDataLabelCollection`](../chartdatalabelcollection/) . Die[`ChartDataLabelCollection`](../chartdatalabelcollection/) enthält ein`ChartDataLabel` Objekt für jeden Punkt.
 
 ### Beispiele
 

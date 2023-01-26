@@ -27,7 +27,7 @@ public class JsonDataSource
 
 Pour accéder aux données du fichier ou du flux correspondant lors de la génération d'un rapport, transmettez une instance de cette classe en tant que une source de données à l'un des[`ReportingEngine`](../reportingengine/) .BuildReport surcharges.
 
-Dans les modèles de documents, si un élément JSON de niveau supérieur est un tableau, un[`JsonDataSource`](./jsondatasource/) instance doit être traitée de la même manière que s'il s'agissait d'unDataTable instance . Si un élément JSON de niveau supérieur est un objet, un[`JsonDataSource`](./jsondatasource/) instance doit être traitée de la même manière que si elle était aDataRow instance . Pour plus d'informations, consultez la référence de syntaxe du modèle (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+Dans les modèles de documents, si un élément JSON de niveau supérieur est un tableau, un`JsonDataSource` instance doit être traitée de la même manière que s'il s'agissait d'unDataTable instance . Si un élément JSON de niveau supérieur est un objet, un`JsonDataSource` instance doit être traitée de la même manière que si elle était aDataRow instance . Pour plus d'informations, consultez la référence de syntaxe du modèle (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 Dans les modèles de documents, vous pouvez travailler avec des valeurs typées d'éléments JSON. Par commodité, le moteur remplace l'ensemble de types simples JSON par le suivant :
 

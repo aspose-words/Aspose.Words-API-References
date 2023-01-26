@@ -27,7 +27,7 @@ public enum DocumentSplitCriteria
 
 ### Notlar
 
-[`DocumentSplitCriteria`](./documentsplitcriteria/)birleştirilebilen bir bayrak kümesidir. Örneğin, aynı dışa aktarma işleminde belge 'yi sayfa sonlarında ve başlık paragraflarında bölebilirsiniz.
+`DocumentSplitCriteria`birleştirilebilen bir bayrak kümesidir. Örneğin, aynı dışa aktarma işleminde belge 'yi sayfa sonlarında ve başlık paragraflarında bölebilirsiniz.
 
 Farklı kriterler kısmen örtüşebilir. Örneğin, **Başlık 1** stil sıklıkla verilir [`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/) mülk, bu nedenle iki kritere girer:PageBreak ve HeadingParagraph. Bazı bölüm sonları sayfa sonlarına vb. neden olabilir. Tipik durumlarda yalnızca bir bayrak belirtmek en pratik seçenektir.
 

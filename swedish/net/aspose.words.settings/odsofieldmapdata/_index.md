@@ -37,7 +37,7 @@ public class OdsoFieldMapData
 
 ### Anmärkningar
 
-Microsoft Word tillhandahåller några fördefinierade sammanslagningsfältnamn som det tillåter att infoga i ett dokument som MERGEFIELD eller använder i fälten ADDRESSBLOCK eller GREETINGLINE. Den information som anges i[`OdsoFieldMapData`](./odsofieldmapdata/) gör det möjligt att mappa en kolumn i den externa datakällan till ett enda fördefinierat sammanslagningsfält.
+Microsoft Word tillhandahåller några fördefinierade sammanslagningsfältnamn som det tillåter att infoga i ett dokument som MERGEFIELD eller använder i fälten ADDRESSBLOCK eller GREETINGLINE. Den information som anges i`OdsoFieldMapData` gör det möjligt att mappa en kolumn i den externa datakällan till ett enda fördefinierat sammanslagningsfält.
 
 ### Exempel
 

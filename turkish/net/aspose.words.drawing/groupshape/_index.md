@@ -132,9 +132,9 @@ public class GroupShape : ShapeBase
 
 ### Notlar
 
-A[`GroupShape`](./groupshape/) bileşik bir düğümdür ve sahip olabilir[`Shape`](../shape/) and [`GroupShape`](./groupshape/) çocuklar gibi düğümler.
+A`GroupShape` bileşik bir düğümdür ve sahip olabilir[`Shape`](../shape/) and `GroupShape` çocuklar gibi düğümler.
 
-Her biri[`GroupShape`](./groupshape/) alt şekilleri için yeni bir koordinat sistemi tanımlar. Koordinat sistemi,[`CoordSize`](../shapebase/coordsize/) ve [`CoordOrigin`](../shapebase/coordorigin/) özellikleri.
+Her biri`GroupShape` alt şekilleri için yeni bir koordinat sistemi tanımlar. Koordinat sistemi,[`CoordSize`](../shapebase/coordsize/) ve [`CoordOrigin`](../shapebase/coordorigin/) özellikleri.
 
 ### Örnekler
 

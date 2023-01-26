@@ -34,7 +34,7 @@ public class Bookmark
 
 ### Anmärkningar
 
-[`Bookmark`](./bookmark/) är ett "fasad"-objekt som kapslar in två noder[`BookmarkStart`](./bookmarkstart/) och[`BookmarkEnd`](./bookmarkend/) i ett dokumentträd och gör det möjligt att arbeta med ett bokmärke som ett enda objekt.
+`Bookmark` är ett "fasad"-objekt som kapslar in två noder[`BookmarkStart`](./bookmarkstart/) och[`BookmarkEnd`](./bookmarkend/) i ett dokumentträd och gör det möjligt att arbeta med ett bokmärke som ett enda objekt.
 
 ### Exempel
 

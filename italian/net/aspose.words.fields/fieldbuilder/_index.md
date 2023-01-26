@@ -18,7 +18,7 @@ public class FieldBuilder
 
 | Nome | Descrizione |
 | --- | --- |
-| [FieldBuilder](fieldbuilder/)(FieldType) | Inizializza un'istanza di[`FieldBuilder`](./fieldbuilder/) classe. |
+| [FieldBuilder](fieldbuilder/)(FieldType) | Inizializza un'istanza di`FieldBuilder` classe. |
 
 ## Metodi
 
@@ -26,7 +26,7 @@ public class FieldBuilder
 | --- | --- |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(double) | Aggiunge l'argomento di un campo. |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(FieldArgumentBuilder) | Aggiunge l'argomento di un campo rappresentato da[`FieldArgumentBuilder`](../fieldargumentbuilder/) al codice del campo. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | Aggiunge un campo figlio rappresentato da un altro[`FieldBuilder`](./fieldbuilder/) al codice del campo. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | Aggiunge un campo figlio rappresentato da un altro`FieldBuilder` al codice del campo. |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(int) | Aggiunge l'argomento di un campo. |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(string) | Aggiunge l'argomento di un campo. |
 | [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(string) | Aggiunge l'opzione di un campo. |

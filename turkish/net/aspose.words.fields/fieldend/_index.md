@@ -56,9 +56,9 @@ public class FieldEnd : FieldChar
 
 ### Notlar
 
-[`FieldEnd`](./fieldend/) satır içi düzeyde bir düğümdür ve tarafından temsil edilen [`FieldEndChar`](../../aspose.words/controlchar/fieldendchar/) belgedeki kontrol karakteri.
+`FieldEnd` satır içi düzeyde bir düğümdür ve tarafından temsil edilen [`FieldEndChar`](../../aspose.words/controlchar/fieldendchar/) belgedeki kontrol karakteri.
 
-[`FieldEnd`](./fieldend/) sadece çocuğu olabilir[`Paragraph`](../../aspose.words/paragraph/).
+`FieldEnd` sadece çocuğu olabilir[`Paragraph`](../../aspose.words/paragraph/).
 
 Bir Microsoft Word belgesindeki tam alan, alan başlangıç karakteri, alan kodu, alan ayırıcı karakter, alan sonucu ve alan bitiş karakterinden oluşan karmaşık bir yapıdır. Bazı alanlarda yalnızca alan başlangıcı, alan kodu ve alan sonu bulunur.
 

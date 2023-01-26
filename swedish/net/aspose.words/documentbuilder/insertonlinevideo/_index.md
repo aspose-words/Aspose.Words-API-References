@@ -33,7 +33,7 @@ Infogning av onlinevideo från följande resurser stöds:
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Om din onlinevideo inte visas korrekt, använd[`InsertOnlineVideo`](./insertonlinevideo/), som accepterar anpassad inbäddad html-kod.
+Om din onlinevideo inte visas korrekt, använd`InsertOnlineVideo`, som accepterar anpassad inbäddad html-kod.
 
 Koden för inbäddning av video kan variera mellan olika leverantörer, kontakta din motsvarande leverantör för mer information.
 
@@ -93,7 +93,7 @@ Infogning av onlinevideo från följande resurser stöds:
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Om din onlinevideo inte visas korrekt, använd[`InsertOnlineVideo`](./insertonlinevideo/), som accepterar anpassad inbäddad html-kod.
+Om din onlinevideo inte visas korrekt, använd`InsertOnlineVideo`, som accepterar anpassad inbäddad html-kod.
 
 Koden för inbäddning av video kan variera mellan olika leverantörer, kontakta din motsvarande leverantör för mer information.
 

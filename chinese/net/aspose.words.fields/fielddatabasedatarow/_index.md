@@ -18,7 +18,7 @@ public class FieldDatabaseDataRow
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FieldDatabaseDataRow](fielddatabasedatarow/)(params string[]) | 初始化[`FieldDatabaseDataRow`](./fielddatabasedatarow/)类. |
+| [FieldDatabaseDataRow](fielddatabasedatarow/)(params string[]) | 初始化`FieldDatabaseDataRow`类. |
 
 ## 特性
 
@@ -30,7 +30,7 @@ public class FieldDatabaseDataRow
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | 初始化[`FieldDatabaseDataRow`](./fielddatabasedatarow/) class 从DataRow实例. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | 初始化`FieldDatabaseDataRow` class 从DataRow实例. |
 
 ### 也可以看看
 

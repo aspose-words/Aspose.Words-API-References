@@ -107,7 +107,7 @@ public class Document : DocumentBase
 | [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument_1)(Document, ImportFormatMode, ImportFormatOptions) | Lägger till det angivna dokumentet i slutet av detta dokument. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup)() | Rensar oanvända stilar och listor från dokumentet. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup_1)(CleanupOptions) | Rensar oanvända stilar och listor från dokumentet beroende på givet[`CleanupOptions`](../cleanupoptions/) . |
-| [Clone](../../aspose.words/document/clone/#clone)() | Utför en djup kopia av[`Document`](./document/) . |
+| [Clone](../../aspose.words/document/clone/#clone)() | Utför en djup kopia av`Document` . |
 | [Clone](../../aspose.words/node/clone/)(bool) | Skapar en dubblett av noden. |
 | [Compare](../../aspose.words/document/compare/#compare)(Document, string, DateTime) | Jämför detta dokument med ett annat dokument som ger ändringar som antal redigeringar och formatrevisioner[`Revision`](../revision/) . |
 | [Compare](../../aspose.words/document/compare/#compare_1)(Document, string, DateTime, CompareOptions) | Jämför detta dokument med ett annat dokument som ger ändringar som ett antal redigerings- och formatrevisioner[`Revision`](../revision/) . Gör det möjligt att ange jämförelsealternativ med hjälp av[`CompareOptions`](../../aspose.words.comparing/compareoptions/) . |
@@ -116,7 +116,7 @@ public class Document : DocumentBase
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reserverad för systemanvändning. IXPathNavigable. |
 | [EnsureMinimum](../../aspose.words/document/ensureminimum/)() | Om dokumentet inte innehåller några avsnitt skapas ett avsnitt med ett stycke. |
 | [ExpandTableStylesToDirectFormatting](../../aspose.words/document/expandtablestylestodirectformatting/)() | Konverterar formatering som anges i tabellstilar till direkt formatering på tabeller i dokumentet. |
-| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | Returnerar[`Document`](./document/) objekt som representerar specificerat intervall av sidor. |
+| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | Returnerar`Document` objekt som representerar specificerat intervall av sidor. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Hämtar den första förfadern till den angivna objekttypen. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Returnerar en N:te underordnad nod som matchar den angivna typen. |

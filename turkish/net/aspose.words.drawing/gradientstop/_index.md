@@ -18,8 +18,8 @@ public class GradientStop
 
 | İsim | Tanım |
 | --- | --- |
-| [GradientStop](gradientstop/#constructor)(Color, double) | Yeni bir örneğini başlatır[`GradientStop`](./gradientstop/) sınıf. |
-| [GradientStop](gradientstop/#constructor_1)(Color, double, double) | Yeni bir örneğini başlatır[`GradientStop`](./gradientstop/) sınıf. |
+| [GradientStop](gradientstop/#constructor)(Color, double) | Yeni bir örneğini başlatır`GradientStop` sınıf. |
+| [GradientStop](gradientstop/#constructor_1)(Color, double, double) | Yeni bir örneğini başlatır`GradientStop` sınıf. |
 
 ## Özellikleri
 

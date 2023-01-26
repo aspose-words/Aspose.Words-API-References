@@ -33,7 +33,7 @@ public class ChartDataPoint : IChartDataPoint
 
 ### Osservazioni
 
-Su una serie, il[`ChartDataPoint`](./chartdatapoint/) oggetto è un membro del[`ChartDataPointCollection`](../chartdatapointcollection/) . Il[`ChartDataPointCollection`](../chartdatapointcollection/) contiene un[`ChartDataPoint`](./chartdatapoint/) oggetto per ogni punto.
+Su una serie, il`ChartDataPoint` oggetto è un membro del[`ChartDataPointCollection`](../chartdatapointcollection/) . Il[`ChartDataPointCollection`](../chartdatapointcollection/) contiene un`ChartDataPoint` oggetto per ogni punto.
 
 ### Esempi
 

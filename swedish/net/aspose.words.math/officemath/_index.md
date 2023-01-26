@@ -8,7 +8,7 @@ url: /sv/net/aspose.words.math/officemath/
 ---
 ## OfficeMath class
 
-Representerar ett Office Math-objekt som funktion, ekvation, matris eller liknande. Kan innehålla underordnade elements inklusive körningar av matematisk text, bokmärken, kommentarer, annat[`OfficeMath`](./officemath/) instanser och några andra noder.
+Representerar ett Office Math-objekt som funktion, ekvation, matris eller liknande. Kan innehålla underordnade elements inklusive körningar av matematisk text, bokmärken, kommentarer, annat`OfficeMath` instanser och några andra noder.
 
 ```csharp
 public class OfficeMath : CompositeNode
@@ -69,9 +69,9 @@ public class OfficeMath : CompositeNode
 
 ### Anmärkningar
 
-I den här versionen av Aspose.Words,[`OfficeMath`](./officemath/) noder tillhandahåller inte public methods och egenskaper för att skapa eller ändra ett OfficeMath-objekt. I den här versionen kan du inte instansiera Math noder eller ändra befintliga förutom att ta bort dem.
+I den här versionen av Aspose.Words,`OfficeMath` noder tillhandahåller inte public methods och egenskaper för att skapa eller ändra ett OfficeMath-objekt. I den här versionen kan du inte instansiera Math noder eller ändra befintliga förutom att ta bort dem.
 
-[`OfficeMath`](./officemath/) kan bara vara ett barn av[`Paragraph`](../../aspose.words/paragraph/).
+`OfficeMath` kan bara vara ett barn av[`Paragraph`](../../aspose.words/paragraph/).
 
 ### Exempel
 

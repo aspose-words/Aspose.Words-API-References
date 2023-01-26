@@ -23,17 +23,17 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.words.webextensions/basewebextensioncollection`1/count/) { get; } | Ottiene il numero di elementi contenuti nella raccolta. |
-| [Item](../../aspose.words.webextensions/basewebextensioncollection`1/item/) { get; set; } | Ottiene o imposta un elemento all'indice specificato. |
+| [Count](../../aspose.words.webextensions/basewebextensioncollection-1/count/) { get; } | Ottiene il numero di elementi contenuti nella raccolta. |
+| [Item](../../aspose.words.webextensions/basewebextensioncollection-1/item/) { get; set; } | Ottiene o imposta un elemento all'indice specificato. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection`1/add/)(T) | Aggiunge l'elemento specificato alla raccolta. |
-| [Clear](../../aspose.words.webextensions/basewebextensioncollection`1/clear/)() | Rimuove tutti gli elementi dalla raccolta. |
-| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection`1/getenumerator/)() | Restituisce un enumeratore in grado di scorrere una raccolta. |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection`1/remove/)(int) | Rimuove l'elemento in corrispondenza dell'indice specificato dalla raccolta. |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(T) | Aggiunge l'elemento specificato alla raccolta. |
+| [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() | Rimuove tutti gli elementi dalla raccolta. |
+| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | Restituisce un enumeratore in grado di scorrere una raccolta. |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) | Rimuove l'elemento in corrispondenza dell'indice specificato dalla raccolta. |
 
 ### Esempi
 

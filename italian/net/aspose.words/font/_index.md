@@ -82,7 +82,7 @@ public class Font
 
 ### Osservazioni
 
-Non crei istanze di[`Font`](./font/) classe direttamente. Tu usi solo [`Font`](./font/) per accedere alle proprietà dei caratteri dei vari oggetti come[`Run`](../run/) , [`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
+Non crei istanze di`Font` classe direttamente. Tu usi solo `Font` per accedere alle proprietà dei caratteri dei vari oggetti come[`Run`](../run/) , [`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
 
 ### Esempi
 

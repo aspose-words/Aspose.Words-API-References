@@ -53,7 +53,7 @@ public sealed class Comment : InlineStory
 | [ParentParagraph](../../aspose.words/inlinestory/parentparagraph/) { get; } | Извлекает родителя[`Paragraph`](../paragraph/) этого узла. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
 | [Range](../../aspose.words/node/range/) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
-| [Replies](../../aspose.words/comment/replies/) { get; } | Возвращает коллекцию[`Comment`](./comment/) объекты, которые являются непосредственными дочерними элементами указанного комментария. |
+| [Replies](../../aspose.words/comment/replies/) { get; } | Возвращает коллекцию`Comment` объекты, которые являются непосредственными дочерними элементами указанного комментария. |
 | override [StoryType](../../aspose.words/comment/storytype/) { get; } | Возвращает **StoryType.Comments** . |
 | [Tables](../../aspose.words/inlinestory/tables/) { get; } | Получает набор таблиц, которые являются непосредственными дочерними элементами истории. |
 
@@ -95,13 +95,13 @@ public sealed class Comment : InlineStory
 
 Комментарий — это аннотация, привязанная к области текста или позиции в тексте. Комментарий может содержать произвольное количество контента на уровне блоков.
 
-Если[`Comment`](./comment/) объект возникает сам по себе, комментарий привязывается к позиции[`Comment`](./comment/) объект.
+Если`Comment` объект возникает сам по себе, комментарий привязывается к позиции`Comment` объект.
 
-Для привязки комментария к области текста требуются три объекта:[`Comment`](./comment/) , [`CommentRangeStart`](../commentrangestart/) а также[`CommentRangeEnd`](../commentrangeend/) Все три объекта должны иметь одинаковый [`Id`](./id/) ценность.
+Для привязки комментария к области текста требуются три объекта:`Comment` , [`CommentRangeStart`](../commentrangestart/) а также[`CommentRangeEnd`](../commentrangeend/) Все три объекта должны иметь одинаковый [`Id`](./id/) ценность.
 
-[`Comment`](./comment/) является узлом встроенного уровня и может быть только потомком[`Paragraph`](../paragraph/).
+`Comment` является узлом встроенного уровня и может быть только потомком[`Paragraph`](../paragraph/).
 
-[`Comment`](./comment/) может содержать[`Paragraph`](../paragraph/) а также[`Table`](../../aspose.words.tables/table/) дочерние узлы.
+`Comment` может содержать[`Paragraph`](../paragraph/) а также[`Table`](../../aspose.words.tables/table/) дочерние узлы.
 
 ### Примеры
 

@@ -27,7 +27,7 @@ public class JsonDataSource
 
 Bir rapor oluştururken ilgili dosyanın veya akışın verilerine erişmek için, bu sınıfın bir örneğini veri kaynağı olarak aşağıdakilerden birine iletin:[`ReportingEngine`](../reportingengine/) .BuildReport aşırı yükleniyor.
 
-Şablon belgelerinde, bir üst düzey JSON öğesi bir diziyse,[`JsonDataSource`](./jsondatasource/) örneğine , sanki bir örnekmiş gibi davranılmalıdır.DataTable örneği. Bir üst düzey JSON öğesi bir nesneyse,[`JsonDataSource`](./jsondatasource/) örneğe a olduğu gibi davranılmalıdırDataRow örneği. Daha fazla bilgi için şablon sözdizimi referansına bakın (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+Şablon belgelerinde, bir üst düzey JSON öğesi bir diziyse,`JsonDataSource` örneğine , sanki bir örnekmiş gibi davranılmalıdır.DataTable örneği. Bir üst düzey JSON öğesi bir nesneyse,`JsonDataSource` örneğe a olduğu gibi davranılmalıdırDataRow örneği. Daha fazla bilgi için şablon sözdizimi referansına bakın (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 Şablon belgelerinde, JSON öğelerinin yazılan değerleriyle çalışabilirsiniz. Kolaylık sağlamak için motor, JSON basit türlerinin kümesini aşağıdakiyle değiştirir:
 

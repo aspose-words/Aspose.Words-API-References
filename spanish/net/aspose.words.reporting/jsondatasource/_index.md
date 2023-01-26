@@ -27,7 +27,7 @@ public class JsonDataSource
 
 Para acceder a los datos del archivo o secuencia correspondiente mientras genera un informe, pase una instancia de esta clase como una fuente de datos a uno de[`ReportingEngine`](../reportingengine/) .BuildReport sobrecargas.
 
-En los documentos de plantilla, si un elemento JSON de nivel superior es una matriz,[`JsonDataSource`](./jsondatasource/) instancia debe ser tratada de la misma manera que si fuera unaDataTable instancia . Si un elemento JSON de nivel superior es un objeto, un[`JsonDataSource`](./jsondatasource/) instancia debe tratarse de la misma manera que si fuera unDataRow instancia . Para obtener más información, consulte la referencia de sintaxis de plantilla (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+En los documentos de plantilla, si un elemento JSON de nivel superior es una matriz,`JsonDataSource` instancia debe ser tratada de la misma manera que si fuera unaDataTable instancia . Si un elemento JSON de nivel superior es un objeto, un`JsonDataSource` instancia debe tratarse de la misma manera que si fuera unDataRow instancia . Para obtener más información, consulte la referencia de sintaxis de plantilla (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 En documentos de plantilla, puede trabajar con valores escritos de elementos JSON. Para mayor comodidad, el motor reemplaza el conjunto de tipos simples JSON con el siguiente:
 

@@ -37,7 +37,7 @@ public class OdsoFieldMapData
 
 ### 评论
 
-Microsoft Word 提供了一些预定义的合并字段名称，它允许将其插入到文档中，作为 ADDRESSBLOCK 或 GREETINGLINE 字段中的 MERGEFIELD 或 使用。中指定的信息[`OdsoFieldMapData`](./odsofieldmapdata/) 允许将外部数据源中的一列映射到单个预定义的合并字段。
+Microsoft Word 提供了一些预定义的合并字段名称，它允许将其插入到文档中，作为 ADDRESSBLOCK 或 GREETINGLINE 字段中的 MERGEFIELD 或 使用。中指定的信息`OdsoFieldMapData` 允许将外部数据源中的一列映射到单个预定义的合并字段。
 
 ### 例子
 

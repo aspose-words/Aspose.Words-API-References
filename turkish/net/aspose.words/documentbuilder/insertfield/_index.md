@@ -25,7 +25,7 @@ A[`Field`](../../../aspose.words.fields/field/) eklenen alanı temsil eden nesne
 
 ### Notlar
 
-Bu yöntem, bir belgeye bir alan ekler. Aspose.Words, tüm alanları değil, çoğu türü güncelleyebilir. Daha fazla ayrıntı için bkz. the [`InsertField`](./insertfield/) aşırı yükleme.
+Bu yöntem, bir belgeye bir alan ekler. Aspose.Words, tüm alanları değil, çoğu türü güncelleyebilir. Daha fazla ayrıntı için bkz. the `InsertField` aşırı yükleme.
 
 ### Örnekler
 
@@ -97,7 +97,7 @@ A[`Field`](../../../aspose.words.fields/field/) eklenen alanı temsil eden nesne
 
 ### Notlar
 
-Bu yöntem, bir belgeye bir alan ekler ve alan sonucunu anında günceller. Aspose.Words, çoğu türün alanını güncelleyebilir, ancak hepsini değil. Daha fazla ayrıntı için bkz. the [`InsertField`](./insertfield/) aşırı yükleme.
+Bu yöntem, bir belgeye bir alan ekler ve alan sonucunu anında günceller. Aspose.Words, çoğu türün alanını güncelleyebilir, ancak hepsini değil. Daha fazla ayrıntı için bkz. the `InsertField` aşırı yükleme.
 
 ### Örnekler
 

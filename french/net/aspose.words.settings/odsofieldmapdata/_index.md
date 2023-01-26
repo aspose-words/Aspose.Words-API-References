@@ -37,7 +37,7 @@ public class OdsoFieldMapData
 
 ### Remarques
 
-Microsoft Word fournit des noms de champs de fusion prédéfinis qu'il permet d'insérer dans un document en tant que MERGEFIELD ou à utiliser dans les champs ADDRESSBLOCK ou GREETINGLINE. Les informations spécifiées dans[`OdsoFieldMapData`](./odsofieldmapdata/) permet de mapper une colonne de la source de données externe à un seul champ de fusion prédéfini.
+Microsoft Word fournit des noms de champs de fusion prédéfinis qu'il permet d'insérer dans un document en tant que MERGEFIELD ou à utiliser dans les champs ADDRESSBLOCK ou GREETINGLINE. Les informations spécifiées dans`OdsoFieldMapData` permet de mapper une colonne de la source de données externe à un seul champ de fusion prédéfini.
 
 ### Exemples
 

@@ -53,7 +53,7 @@ public class Fill
 
 ### 评论
 
-使用[`Fill`](../shapebase/fill/)或者[`Fill`](../../aspose.words/font/fill/)属性来访问对象的填充属性。 您不创建的实例[`Fill`](./fill/)直接上课。
+使用[`Fill`](../shapebase/fill/)或者[`Fill`](../../aspose.words/font/fill/)属性来访问对象的填充属性。 您不创建的实例`Fill`直接上课。
 
 ### 例子
 

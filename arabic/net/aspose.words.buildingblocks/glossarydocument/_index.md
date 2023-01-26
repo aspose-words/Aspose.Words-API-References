@@ -87,7 +87,7 @@ public class GlossaryDocument : DocumentBase
 
 للوصول إلى الكتل البرمجية الإنشائية ، تحتاج إلى تحميل مستند إلى ملف[`Document`](../../aspose.words/document/) كائن. اللبنات الأساسية ستكون متاحة عبر[`GlossaryDocument`](../../aspose.words/document/glossarydocument/) منشأه.
 
-[`GlossaryDocument`](./glossarydocument/) يمكن أن تحتوي على أي عدد من[`BuildingBlock`](../buildingblock/) الكائنات . لكل منهما[`BuildingBlock`](../buildingblock/) يمثل جزءًا واحدًا من المستند.
+`GlossaryDocument` يمكن أن تحتوي على أي عدد من[`BuildingBlock`](../buildingblock/) الكائنات . لكل منهما[`BuildingBlock`](../buildingblock/) يمثل جزءًا واحدًا من المستند.
 
 يتوافق مع **وثيقة** و **docParts**العناصر في OOXML.
 

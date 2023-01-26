@@ -41,7 +41,7 @@ public class List : IComparable<List>
 
 Microsoft Word 文档中的列表是一组列表格式属性。 每个列表最多可以有 9 个级别，并且为每个级别单独定义格式属性，例如数字样式、起始值、 缩进、制表位置等。
 
-一个[`List`](./list/)对象总是属于[`ListCollection`](../listcollection/)收藏。
+一个`List`对象总是属于[`ListCollection`](../listcollection/)收藏。
 
 要创建一个新列表，请使用[`ListCollection`](../listcollection/)收藏。
 
