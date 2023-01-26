@@ -27,7 +27,7 @@ public class JsonDataSource
 
 För att komma åt data för motsvarande fil eller ström medan du genererar en rapport, skicka en instans av den här klassen as en datakälla till en av[`ReportingEngine`](../reportingengine/) .BuildReport overloads.
 
-I malldokument, om ett JSON-element på toppnivå är en array,[`JsonDataSource`](./jsondatasource/) instans bör behandlas på samma sätt som om det vore enDataTable instans. Om ett JSON-element på toppnivå är ett objekt, en[`JsonDataSource`](./jsondatasource/) instans bör behandlas på samma sätt som om det vore aDataRow instans. För mer information, se mallsyntaxreferens (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+I malldokument, om ett JSON-element på toppnivå är en array,`JsonDataSource` instans bör behandlas på samma sätt som om det vore enDataTable instans. Om ett JSON-element på toppnivå är ett objekt, en`JsonDataSource` instans bör behandlas på samma sätt som om det vore aDataRow instans. För mer information, se mallsyntaxreferens (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 I malldokument kan du arbeta med inskrivna värden för JSON-element. För enkelhetens skull ersätter motorn uppsättningen av JSON enkla typer med följande:
 

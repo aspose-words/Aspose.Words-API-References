@@ -53,7 +53,7 @@ public sealed class Comment : InlineStory
 | [ParentParagraph](../../aspose.words/inlinestory/parentparagraph/) { get; } | استرداد الأصل[`Paragraph`](../paragraph/) من هذه العقدة. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | يحصل على العقدة التي تسبق هذه العقدة مباشرة. |
 | [Range](../../aspose.words/node/range/) { get; } | إرجاع أ **نطاق** الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
-| [Replies](../../aspose.words/comment/replies/) { get; } | إرجاع مجموعة من[`Comment`](./comment/) الكائنات التي هي تابعة مباشرة للتعليق المحدد. |
+| [Replies](../../aspose.words/comment/replies/) { get; } | إرجاع مجموعة من`Comment` الكائنات التي هي تابعة مباشرة للتعليق المحدد. |
 | override [StoryType](../../aspose.words/comment/storytype/) { get; } | عوائد **نوع القصة** . |
 | [Tables](../../aspose.words/inlinestory/tables/) { get; } | الحصول على مجموعة من الجداول التي تمثل الأطفال المباشرين للقصة. |
 
@@ -95,13 +95,13 @@ public sealed class Comment : InlineStory
 
 التعليق هو تعليق توضيحي يتم ربطه بمنطقة من النص أو إلى موضع في النص. يمكن أن يحتوي التعليق على كمية عشوائية من محتوى مستوى الحظر.
 
-اذا كان[`Comment`](./comment/) يحدث من تلقاء نفسه ، يتم ربط التعليق بـ موضع[`Comment`](./comment/) هدف.
+اذا كان`Comment` يحدث من تلقاء نفسه ، يتم ربط التعليق بـ موضع`Comment` هدف.
 
-لإرساء تعليق بمنطقة من النص ، يلزم وجود ثلاثة عناصر:[`Comment`](./comment/) ، [`CommentRangeStart`](../commentrangestart/) و[`CommentRangeEnd`](../commentrangeend/) تحتاج جميع الكائنات الثلاثة إلى مشاركة نفس [`Id`](./id/) القيمة.
+لإرساء تعليق بمنطقة من النص ، يلزم وجود ثلاثة عناصر:`Comment` ، [`CommentRangeStart`](../commentrangestart/) و[`CommentRangeEnd`](../commentrangeend/) تحتاج جميع الكائنات الثلاثة إلى مشاركة نفس [`Id`](./id/) القيمة.
 
-[`Comment`](./comment/) هي عقدة ذات مستوى مضمن ويمكن أن تكون تابعة فقط لـ[`Paragraph`](../paragraph/).
+`Comment` هي عقدة ذات مستوى مضمن ويمكن أن تكون تابعة فقط لـ[`Paragraph`](../paragraph/).
 
-[`Comment`](./comment/) يمكن أن تحتوي[`Paragraph`](../paragraph/) و[`Table`](../../aspose.words.tables/table/) العقد الفرعية.
+`Comment` يمكن أن تحتوي[`Paragraph`](../paragraph/) و[`Table`](../../aspose.words.tables/table/) العقد الفرعية.
 
 ### أمثلة
 

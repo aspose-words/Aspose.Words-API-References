@@ -52,7 +52,7 @@ public class ImageData
 
 ### Notlar
 
-Kullan[`ImageData`](../shape/imagedata/) bir şeklin içindeki resme erişme ve onu değiştirme özelliği. [`ImageData`](./imagedata/) doğrudan sınıf.
+Kullan[`ImageData`](../shape/imagedata/) bir şeklin içindeki resme erişme ve onu değiştirme özelliği. `ImageData` doğrudan sınıf.
 
 Bir görüntü, bir şeklin içinde, harici dosyaya bağlı olarak veya her ikisinde de saklanabilir (bağlantılı ve belgede saklanabilir).
 

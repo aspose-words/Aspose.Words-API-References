@@ -82,7 +82,7 @@ public class Font
 
 ### Примечания
 
-Вы не создаете экземпляры[`Font`](./font/) класс напрямую. Вы просто используете [`Font`](./font/) для доступа к свойствам шрифта различных объектов, таких как[`Run`](../run/) , [`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
+Вы не создаете экземпляры`Font` класс напрямую. Вы просто используете `Font` для доступа к свойствам шрифта различных объектов, таких как[`Run`](../run/) , [`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
 
 ### Примеры
 

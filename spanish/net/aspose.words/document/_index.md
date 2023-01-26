@@ -107,7 +107,7 @@ public class Document : DocumentBase
 | [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument_1)(Document, ImportFormatMode, ImportFormatOptions) | Agrega el documento especificado al final de este documento. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup)() | Limpia estilos y listas no utilizados del documento. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup_1)(CleanupOptions) | Limpia estilos y listas no utilizados del documento dependiendo de[`CleanupOptions`](../cleanupoptions/) . |
-| [Clone](../../aspose.words/document/clone/#clone)() | Realiza una copia profunda del[`Document`](./document/) . |
+| [Clone](../../aspose.words/document/clone/#clone)() | Realiza una copia profunda del`Document` . |
 | [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicado del nodo. |
 | [Compare](../../aspose.words/document/compare/#compare)(Document, string, DateTime) | Compara este documento con otro documento produciendo cambios como número de ediciones y revisiones de formato[`Revision`](../revision/) . |
 | [Compare](../../aspose.words/document/compare/#compare_1)(Document, string, DateTime, CompareOptions) | Compara este documento con otro documento produciendo cambios como una serie de revisiones de edición y formato[`Revision`](../revision/) . Permite especificar opciones de comparación mediante[`CompareOptions`](../../aspose.words.comparing/compareoptions/) . |
@@ -116,7 +116,7 @@ public class Document : DocumentBase
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reservado para uso del sistema. IXPathNavigable. |
 | [EnsureMinimum](../../aspose.words/document/ensureminimum/)() | Si el documento no contiene secciones, crea una sección con un párrafo. |
 | [ExpandTableStylesToDirectFormatting](../../aspose.words/document/expandtablestylestodirectformatting/)() | Convierte el formato especificado en los estilos de tabla en formato directo en las tablas del documento. |
-| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | Devuelve el[`Document`](./document/) objeto que representa el rango especificado de páginas. |
+| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | Devuelve el`Document` objeto que representa el rango especificado de páginas. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtiene el primer ancestro del tipo de objeto especificado. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Devuelve un enésimo nodo secundario que coincide con el tipo especificado. |

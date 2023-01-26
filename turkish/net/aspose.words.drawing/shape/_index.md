@@ -154,7 +154,7 @@ public sealed class Shape : ShapeBase
 
 ### Notlar
 
-Kullanmak[`Shape`](./shape/) bir Microsoft Word belgesinde şekiller oluşturabilir veya değiştirebilirsiniz.
+Kullanmak`Shape` bir Microsoft Word belgesinde şekiller oluşturabilir veya değiştirebilirsiniz.
 
 Bir şeklin önemli bir özelliği, onun[`ShapeType`](../shapebase/shapetype/). Farklı türlerindeki şekiller, bir Word belgesinde farklı yeteneklere sahip olabilir. Örneğin, yalnızca resim ve OLE shape içinde resimler olabilir. Şekillerin çoğunda metin olabilir, ancak hepsinde olmayabilir.
 

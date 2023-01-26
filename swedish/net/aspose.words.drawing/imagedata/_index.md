@@ -52,7 +52,7 @@ public class ImageData
 
 ### Anmärkningar
 
-Använd[`ImageData`](../shape/imagedata/) egenskap för att komma åt och ändra bilden i en form. Du skapar inte instanser av[`ImageData`](./imagedata/) klass direkt.
+Använd[`ImageData`](../shape/imagedata/) egenskap för att komma åt och ändra bilden i en form. Du skapar inte instanser av`ImageData` klass direkt.
 
 En bild kan lagras i en form, länkas till extern fil eller båda (länkas och lagras i dokumentet).
 

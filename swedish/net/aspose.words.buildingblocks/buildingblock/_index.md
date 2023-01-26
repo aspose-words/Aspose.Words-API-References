@@ -79,9 +79,9 @@ public class BuildingBlock : CompositeNode
 
 ### Anmärkningar
 
-[`BuildingBlock`](./buildingblock/) kan endast innehålla[`Section`](../../aspose.words/section/) knutpunkter.
+`BuildingBlock` kan endast innehålla[`Section`](../../aspose.words/section/) knutpunkter.
 
-[`BuildingBlock`](./buildingblock/) kan bara vara ett barn av[`GlossaryDocument`](../glossarydocument/).
+`BuildingBlock` kan bara vara ett barn av[`GlossaryDocument`](../glossarydocument/).
 
 Du kan skapa nya byggblock och infoga dem i ett ordlistadokument. Du kan ändra eller ta bort befintliga byggblock. Du kan kopiera eller flytta byggstenar mellan dokument. Du kan infoga innehållet i ett byggblock i ett dokument.
 

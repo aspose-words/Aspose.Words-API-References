@@ -18,8 +18,8 @@ public class NodeImporter
 
 | namn | Beskrivning |
 | --- | --- |
-| [NodeImporter](nodeimporter/#constructor)(DocumentBase, DocumentBase, ImportFormatMode) | Initierar en ny instans av[`NodeImporter`](./nodeimporter/) class. |
-| [NodeImporter](nodeimporter/#constructor_1)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | Initierar en ny instans av[`NodeImporter`](./nodeimporter/) class. |
+| [NodeImporter](nodeimporter/#constructor)(DocumentBase, DocumentBase, ImportFormatMode) | Initierar en ny instans av`NodeImporter` class. |
+| [NodeImporter](nodeimporter/#constructor_1)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | Initierar en ny instans av`NodeImporter` class. |
 
 ## Metoder
 
@@ -33,13 +33,13 @@ Aspose.Words tillhandahåller funktionalitet för enkel kopiering och flyttning 
 
 Det enklaste sättet att importera en nod är att använda[`ImportNode`](../documentbase/importnode/) method tillhandahålls av[`DocumentBase`](../documentbase/) objekt.
 
-Men när du behöver importera noder från ett dokument till ett annat flera gånger, är det bättre att använda[`NodeImporter`](./nodeimporter/) klass. De[`NodeImporter`](./nodeimporter/) class gör det möjligt att minimera antalet stilar och listor som skapas i måldokumentet.
+Men när du behöver importera noder från ett dokument till ett annat flera gånger, är det bättre att använda`NodeImporter` klass. De`NodeImporter` class gör det möjligt att minimera antalet stilar och listor som skapas i måldokumentet.
 
 Att kopiera eller flytta fragment från ett Microsoft Word-dokument till ett annat innebär ett antal tekniska utmaningar för Aspose.Words. I ett Word-dokument lagras stilar och listformatering centralt, separat från dokumentets text. Paragraferna och textserierna refererar bara till stilarna med interna unika identifierare.
 
 Utmaningarna beror på att stilar och listor är olika i olika dokument. För att till exempel kopiera ett stycke formaterat med stilen Rubrik 1 från ett dokument till ett annat måste ta hänsyn till ett antal saker: besluta om du ska kopiera stilen Rubrik 1 från källdokumentet till måldokumentet, klona stycket, uppdatera stycket cloned så att det hänvisar till rätt rubrik 1-format i måldokumentet. Om stilen var tvungen att kopieras, alla stilar som den referenser (baserat på stil och nästa styckestil) bör analyseras och eventuellt kopieras också och så vidare. Liknande problem finns vid kopiering av punkt- eller numrerade stycken eftersom Microsoft Word lagrar listdefinitioner separat från text.
 
-De[`NodeImporter`](./nodeimporter/)klass är som ett sammanhang, som innehåller "översättningstabellerna" under importen. Den översätter korrekt mellan stilar och listor i käll- och -destinationsdokumenten.
+De`NodeImporter`klass är som ett sammanhang, som innehåller "översättningstabellerna" under importen. Den översätter korrekt mellan stilar och listor i käll- och -destinationsdokumenten.
 
 ### Exempel
 

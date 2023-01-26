@@ -42,7 +42,7 @@ Diese Klasse stellt einen OOXML-Teil dar, der Ziel einer „unbekannten Beziehun
 
 Microsoft Word behält benutzerdefinierte Teile während des Öffnens/Speicherns bei. Einige zusätzliche Informationen finden Sie hier http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
 
-Aspose.Words rundet auch benutzerdefinierte Teile ab und ermöglicht zusätzlich den programmgesteuerten Zugriff auf solche Teile über die[`CustomPart`](./custompart/) und[`CustomPartCollection`](../custompartcollection/) Objekte.
+Aspose.Words rundet auch benutzerdefinierte Teile ab und ermöglicht zusätzlich den programmgesteuerten Zugriff auf solche Teile über die`CustomPart` und[`CustomPartCollection`](../custompartcollection/) Objekte.
 
 Verwechseln Sie benutzerdefinierte Teile nicht mit benutzerdefinierten XML-Daten. Verwenden[`CustomXmlPart`](../customxmlpart/) wenn Sie benötigen, um auf benutzerdefinierte XML-Daten zuzugreifen.
 

@@ -53,7 +53,7 @@ public class Fill
 
 ### Notlar
 
-Kullan[`Fill`](../shapebase/fill/) veya[`Fill`](../../aspose.words/font/fill/) bir nesnenin dolgu özelliklerine erişme özelliği. [`Fill`](./fill/) doğrudan sınıf.
+Kullan[`Fill`](../shapebase/fill/) veya[`Fill`](../../aspose.words/font/fill/) bir nesnenin dolgu özelliklerine erişme özelliği. `Fill` doğrudan sınıf.
 
 ### Örnekler
 

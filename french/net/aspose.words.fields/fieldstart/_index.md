@@ -56,9 +56,9 @@ public class FieldStart : FieldChar
 
 ### Remarques
 
-[`FieldStart`](./fieldstart/) est un nœud de niveau en ligne et représenté par the [`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) caractère de contrôle dans le document.
+`FieldStart` est un nœud de niveau en ligne et représenté par the [`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) caractère de contrôle dans le document.
 
-[`FieldStart`](./fieldstart/) ne peut être qu'un enfant de[`Paragraph`](../../aspose.words/paragraph/).
+`FieldStart` ne peut être qu'un enfant de[`Paragraph`](../../aspose.words/paragraph/).
 
 Un champ complet dans un document Microsoft Word est une structure complexe composée de un caractère de début de champ, un code de champ, un caractère séparateur de champ, un résultat de champ et un caractère de fin de champ. Certains champs n'ont qu'un début de champ, un code de champ et une fin de champ.
 

@@ -52,7 +52,7 @@ public class ImageData
 
 ### Osservazioni
 
-Utilizzare il[`ImageData`](../shape/imagedata/) per accedere e modificare l'immagine all'interno di una forma. Non si creano istanze di[`ImageData`](./imagedata/) classe direttamente.
+Utilizzare il[`ImageData`](../shape/imagedata/) per accedere e modificare l'immagine all'interno di una forma. Non si creano istanze di`ImageData` classe direttamente.
 
 Un'immagine può essere archiviata all'interno di una forma, collegata a un file esterno o entrambi (collegata e archiviata nel documento).
 

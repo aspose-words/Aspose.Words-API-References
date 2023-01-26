@@ -27,7 +27,7 @@ public enum DocumentSplitCriteria
 
 ### Osservazioni
 
-[`DocumentSplitCriteria`](./documentsplitcriteria/)è un insieme di flag che possono essere combinati. Ad esempio, puoi dividere il documento in corrispondenza di interruzioni di pagina e paragrafi di intestazione nella stessa operazione di esportazione.
+`DocumentSplitCriteria`è un insieme di flag che possono essere combinati. Ad esempio, puoi dividere il documento in corrispondenza di interruzioni di pagina e paragrafi di intestazione nella stessa operazione di esportazione.
 
 Criteri diversi possono parzialmente sovrapporsi. Per esempio, **Titolo 1** lo stile è spesso dato [`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/) proprietà quindi rientra in due criteri:PageBreak e HeadingParagraph. Alcune interruzioni di sezione possono causare interruzioni di pagina e così via. In casi tipici, specificare un solo flag è l'opzione più pratica.
 

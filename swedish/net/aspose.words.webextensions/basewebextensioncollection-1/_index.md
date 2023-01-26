@@ -23,17 +23,17 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.words.webextensions/basewebextensioncollection`1/count/) { get; } | Hämtar antalet element som finns i samlingen. |
-| [Item](../../aspose.words.webextensions/basewebextensioncollection`1/item/) { get; set; } | Hämtar eller ställer in ett objekt på angivet index. |
+| [Count](../../aspose.words.webextensions/basewebextensioncollection-1/count/) { get; } | Hämtar antalet element som finns i samlingen. |
+| [Item](../../aspose.words.webextensions/basewebextensioncollection-1/item/) { get; set; } | Hämtar eller ställer in ett objekt på angivet index. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection`1/add/)(T) | Lägger till angivet objekt till samlingen. |
-| [Clear](../../aspose.words.webextensions/basewebextensioncollection`1/clear/)() | Tar bort alla element från samlingen. |
-| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection`1/getenumerator/)() | Returnerar en uppräkning som kan iterera genom en samling. |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection`1/remove/)(int) | Tar bort objektet vid det angivna indexet från samlingen. |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(T) | Lägger till angivet objekt till samlingen. |
+| [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() | Tar bort alla element från samlingen. |
+| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | Returnerar en uppräkning som kan iterera genom en samling. |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) | Tar bort objektet vid det angivna indexet från samlingen. |
 
 ### Exempel
 

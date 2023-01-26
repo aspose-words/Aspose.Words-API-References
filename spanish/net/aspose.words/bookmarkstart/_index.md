@@ -18,7 +18,7 @@ public class BookmarkStart : Node
 
 | Nombre | Descripción |
 | --- | --- |
-| [BookmarkStart](bookmarkstart/)(DocumentBase, string) | Inicializa una nueva instancia del[`BookmarkStart`](./bookmarkstart/) clase. |
+| [BookmarkStart](bookmarkstart/)(DocumentBase, string) | Inicializa una nueva instancia del`BookmarkStart` clase. |
 
 ## Propiedades
 
@@ -52,9 +52,9 @@ public class BookmarkStart : Node
 
 ### Observaciones
 
-Un marcador completo en un documento de Word consta de un[`BookmarkStart`](./bookmarkstart/) y una coincidencia[`BookmarkEnd`](../bookmarkend/) con el mismo nombre de marcador.
+Un marcador completo en un documento de Word consta de un`BookmarkStart` y una coincidencia[`BookmarkEnd`](../bookmarkend/) con el mismo nombre de marcador.
 
-[`BookmarkStart`](./bookmarkstart/) y[`BookmarkEnd`](../bookmarkend/) son solo marcadores dentro de un documento que especifican dónde comienza y termina el marcador.
+`BookmarkStart` y[`BookmarkEnd`](../bookmarkend/) son solo marcadores dentro de un documento que especifican dónde comienza y termina el marcador.
 
 Utilizar el[`Bookmark`](./bookmark/) class como una "fachada" para trabajar con un marcador como un solo objeto.
 

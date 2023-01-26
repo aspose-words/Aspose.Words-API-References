@@ -49,7 +49,7 @@ Un document est représenté comme une arborescence de nœuds, similaire à DOM 
 
 Pour plus d'informations, consultez le modèle de conception Composite.
 
-La[`Node`](./node/)classer:
+La`Node`classer:
 
 * Définit l'interface du nœud enfant.
 * Définit l'interface pour visiter les nœuds.

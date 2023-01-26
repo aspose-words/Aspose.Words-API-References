@@ -28,7 +28,7 @@ public class ResourceSavingArgs
 
 Som standard, när Aspose.Words sparar ett dokument till fast sida HTML eller SVG, sparas varje resurs i en separat fil. Aspose.Words använder dokumentets filnamn och ett unikt nummer för att generera unikt filnamn för varje resurs som finns i dokumentet.
 
-[`ResourceSavingArgs`](./resourcesavingargs/) gör det möjligt att omdefiniera hur resursfilnamn genereras eller att helt kringgå besparing av resurser i filer genom att tillhandahålla dina egna strömobjekt.
+`ResourceSavingArgs` gör det möjligt att omdefiniera hur resursfilnamn genereras eller att helt kringgå besparing av resurser i filer genom att tillhandahålla dina egna strömobjekt.
 
 Använd för att använda din egen logik för att generera resursfilnamn[`ResourceFileName`](./resourcefilename/) fast egendom.
 

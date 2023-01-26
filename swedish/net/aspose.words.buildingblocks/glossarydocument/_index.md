@@ -87,7 +87,7 @@ Vissa dokument, vanligtvis mallar, kan innehålla AutoText, AutoCorrect entries 
 
 För att komma åt byggblock måste du ladda ett dokument i en[`Document`](../../aspose.words/document/) objekt. Byggklossar kommer att finnas tillgängliga via[`GlossaryDocument`](../../aspose.words/document/glossarydocument/) fast egendom.
 
-[`GlossaryDocument`](./glossarydocument/) kan innehålla valfritt antal[`BuildingBlock`](../buildingblock/) objekt. Varje[`BuildingBlock`](../buildingblock/) representerar en dokumentdel.
+`GlossaryDocument` kan innehålla valfritt antal[`BuildingBlock`](../buildingblock/) objekt. Varje[`BuildingBlock`](../buildingblock/) representerar en dokumentdel.
 
 Motsvarar **ordlistaDokument** och **docParts**element i OOXML.
 

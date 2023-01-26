@@ -28,7 +28,7 @@ public class ResourceSavingArgs
 
 Varsayılan olarak Aspose.Words bir belgeyi sabit sayfa HTML veya SVG'ye kaydettiğinde, her kaynağı ayrı bir dosyasına kaydeder. Aspose.Words, belgede bulunan her kaynak için benzersiz dosya adı oluşturmak için belge dosya adını ve benzersiz bir numarayı kullanır.
 
-[`ResourceSavingArgs`](./resourcesavingargs/) kaynak dosya adlarının nasıl oluşturulacağını yeniden tanımlamanıza veya kendi akış nesnelerinizi sağlayarak kaynakların dosyalara kaydedilmesini tamamen engellemenize olanak tanır.
+`ResourceSavingArgs` kaynak dosya adlarının nasıl oluşturulacağını yeniden tanımlamanıza veya kendi akış nesnelerinizi sağlayarak kaynakların dosyalara kaydedilmesini tamamen engellemenize olanak tanır.
 
 Kaynak dosya adları oluşturmak üzere kendi mantığınızı uygulamak için [`ResourceFileName`](./resourcefilename/) Emlak.
 

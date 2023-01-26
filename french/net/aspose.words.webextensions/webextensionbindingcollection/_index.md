@@ -18,17 +18,17 @@ public class WebExtensionBindingCollection : BaseWebExtensionCollection<WebExten
 
 | Nom | La description |
 | --- | --- |
-| [Count](../../aspose.words.webextensions/basewebextensioncollection`1/count/) { get; } |  |
-| [Item](../../aspose.words.webextensions/basewebextensioncollection`1/item/) { get; set; } |  |
+| [Count](../../aspose.words.webextensions/basewebextensioncollection-1/count/) { get; } |  |
+| [Item](../../aspose.words.webextensions/basewebextensioncollection-1/item/) { get; set; } |  |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection`1/add/)(WebExtensionBinding) |  |
-| [Clear](../../aspose.words.webextensions/basewebextensioncollection`1/clear/)() |  |
-| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection`1/getenumerator/)() |  |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection`1/remove/)(int) |  |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(WebExtensionBinding) |  |
+| [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() |  |
+| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() |  |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) |  |
 
 ### Exemples
 

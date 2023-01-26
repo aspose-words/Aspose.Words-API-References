@@ -46,9 +46,9 @@ public sealed class EditableRangeStart : Node
 
 ### 评论
 
-Word 文档中完整的可编辑范围包括[`EditableRangeStart`](./editablerangestart/) 和一个匹配的[`EditableRangeEnd`](../editablerangeend/)具有相同的 ID。
+Word 文档中完整的可编辑范围包括`EditableRangeStart` 和一个匹配的[`EditableRangeEnd`](../editablerangeend/)具有相同的 ID。
 
-[`EditableRangeStart`](./editablerangestart/)和[`EditableRangeEnd`](../editablerangeend/)只是 document 中的标记，用于指定可编辑范围的开始和结束位置。
+`EditableRangeStart`和[`EditableRangeEnd`](../editablerangeend/)只是 document 中的标记，用于指定可编辑范围的开始和结束位置。
 
 使用[`EditableRange`](./editablerange/)类作为“门面”以将可编辑的 range 作为单个对象使用。
 

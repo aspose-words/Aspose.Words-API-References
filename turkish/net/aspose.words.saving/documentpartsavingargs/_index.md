@@ -27,7 +27,7 @@ public class DocumentPartSavingArgs
 
 Aspose.Words bir belgeyi HTML veya ilgili formatlara kaydettiğinde ve[`DocumentSplitCriteria`](../htmlsaveoptions/documentsplitcriteria/) belirtilir, belge parçalara ayrılır ve varsayılan olarak her belge bölümü ayrı bir dosyaya kaydedilir.
 
-Sınıf[`DocumentPartSavingArgs`](./documentpartsavingargs/) her belge bölümünün nasıl kaydedileceğini kontrol etmenizi sağlar. Dosya adlarının nasıl oluşturulacağını yeniden tanımlamanıza veya kendi akış nesnelerinizi sağlayarak belge bölümlerinin dosyalarına kaydedilmesini tamamen engellemenize olanak tanır.
+Sınıf`DocumentPartSavingArgs` her belge bölümünün nasıl kaydedileceğini kontrol etmenizi sağlar. Dosya adlarının nasıl oluşturulacağını yeniden tanımlamanıza veya kendi akış nesnelerinizi sağlayarak belge bölümlerinin dosyalarına kaydedilmesini tamamen engellemenize olanak tanır.
 
 Belge parçalarını dosyalar yerine akışlara kaydetmek için[`DocumentPartStream`](./documentpartstream/) Emlak.
 

@@ -34,7 +34,7 @@ public class Bookmark
 
 ### Observaciones
 
-[`Bookmark`](./bookmark/) es un objeto de "fachada" que encapsula dos nodos[`BookmarkStart`](./bookmarkstart/) y[`BookmarkEnd`](./bookmarkend/) en un árbol de documentos y permite trabajar con un marcador como un solo objeto.
+`Bookmark` es un objeto de "fachada" que encapsula dos nodos[`BookmarkStart`](./bookmarkstart/) y[`BookmarkEnd`](./bookmarkend/) en un árbol de documentos y permite trabajar con un marcador como un solo objeto.
 
 ### Ejemplos
 

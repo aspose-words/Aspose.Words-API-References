@@ -44,9 +44,9 @@ public class SubDocument : Node
 
 ### Remarques
 
-Dans cette version d'Aspose.Words,[`SubDocument`](./subdocument/) Les nœuds ne fournissent pas de méthodes publiques et de propriétés pour créer ou modifier un sous-document. Dans cette version, vous ne pouvez pas instancier des nœuds SubDocument ou modifier des nœuds existants, sauf en les supprimant.
+Dans cette version d'Aspose.Words,`SubDocument` Les nœuds ne fournissent pas de méthodes publiques et de propriétés pour créer ou modifier un sous-document. Dans cette version, vous ne pouvez pas instancier des nœuds SubDocument ou modifier des nœuds existants, sauf en les supprimant.
 
-[`SubDocument`](./subdocument/) ne peut être qu'un enfant de[`Paragraph`](../paragraph/).
+`SubDocument` ne peut être qu'un enfant de[`Paragraph`](../paragraph/).
 
 ### Exemples
 

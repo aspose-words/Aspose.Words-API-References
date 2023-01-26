@@ -39,7 +39,7 @@ public class TextBox
 
 ### 评论
 
-使用[`TextBox`](../shape/textbox/)属性来访问形状的文本属性。 您不创建[`TextBox`](./textbox/)直接上课。
+使用[`TextBox`](../shape/textbox/)属性来访问形状的文本属性。 您不创建`TextBox`直接上课。
 
 ### 例子
 

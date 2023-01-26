@@ -34,9 +34,9 @@ public class FontSavingArgs
 
 Wenn Aspose.Words ein Dokument in HTML oder verwandten Formaten speichert und[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) ist eingestellt auf **Stimmt**, speichert es jedes Schriftartthema für den Export in einer separaten Datei.
 
-[`FontSavingArgs`](./fontsavingargs/) steuert, ob bestimmte Font-Ressourcen exportiert werden sollen und wie.
+`FontSavingArgs` steuert, ob bestimmte Font-Ressourcen exportiert werden sollen und wie.
 
-[`FontSavingArgs`](./fontsavingargs/)erlaubt auch, neu zu definieren, wie Schriftdateinamen generiert werden, oder das Speichern von Schriften in Dateien vollständig zu umgehen, indem eigene Stream-Objekte bereitgestellt werden.
+`FontSavingArgs`erlaubt auch, neu zu definieren, wie Schriftdateinamen generiert werden, oder das Speichern von Schriften in Dateien vollständig zu umgehen, indem eigene Stream-Objekte bereitgestellt werden.
 
 Um zu entscheiden, ob eine bestimmte Schriftartressource gespeichert werden soll, verwenden Sie die[`IsExportNeeded`](./isexportneeded/) Eigentum.
 

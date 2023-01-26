@@ -30,7 +30,7 @@ public class PrinterSettingsContainer
 
 ### Observaciones
 
-Acceso a datos dePrinterSettings lleva mucho tiempo. [`PrinterSettingsContainer`](./printersettingscontainer/) almacena en caché los parámetros dePrinterSettings , para que la impresión funcione más rápido.
+Acceso a datos dePrinterSettings lleva mucho tiempo. `PrinterSettingsContainer` almacena en caché los parámetros dePrinterSettings , para que la impresión funcione más rápido.
 
 ### Ejemplos
 

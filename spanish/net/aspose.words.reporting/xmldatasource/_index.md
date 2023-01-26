@@ -31,7 +31,7 @@ public class XmlDataSource
 
 Para acceder a los datos del archivo o secuencia correspondiente mientras genera un informe, pase una instancia de esta clase como una fuente de datos a uno de[`ReportingEngine`](../reportingengine/) .BuildReport sobrecargas.
 
-En documentos de plantilla, si un elemento XML de nivel superior contiene solo una lista de elementos del mismo tipo, un[`XmlDataSource`](./xmldatasource/) instancia debe tratarse de la misma manera que si fuera unDataTable instancia . De lo contrario, un[`XmlDataSource`](./xmldatasource/) instancia debe tratarse de la misma manera que si fuera unDataRow instancia . Para obtener más información, consulte la referencia de sintaxis de plantilla (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+En documentos de plantilla, si un elemento XML de nivel superior contiene solo una lista de elementos del mismo tipo, un`XmlDataSource` instancia debe tratarse de la misma manera que si fuera unDataTable instancia . De lo contrario, un`XmlDataSource` instancia debe tratarse de la misma manera que si fuera unDataRow instancia . Para obtener más información, consulte la referencia de sintaxis de plantilla (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 Cuando se pasa la definición de esquema XML a un constructor de esta clase, los tipos de datos de los valores de los elementos XML simples y los atributos se determinan de acuerdo con el esquema. Entonces, en los documentos de plantilla, puede trabajar con valores escritos en lugar de solo cadenas.
 

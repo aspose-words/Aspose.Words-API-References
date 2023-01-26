@@ -41,7 +41,7 @@ public class Stroke
 
 ### Observaciones
 
-Utilizar el[`Stroke`](../shape/stroke/)propiedad para acceder a las propiedades de trazo de una forma. No crea instancias de la[`Stroke`](./stroke/) clase directamente.
+Utilizar el[`Stroke`](../shape/stroke/)propiedad para acceder a las propiedades de trazo de una forma. No crea instancias de la`Stroke` clase directamente.
 
 ### Ejemplos
 

@@ -67,7 +67,7 @@ Belge, DOM veya XmlDocument'e benzer şekilde bir düğüm ağacı olarak temsil
 
 Daha fazla bilgi için Bileşik tasarım desenine bakın.
 
-bu[`CompositeNode`](./compositenode/)sınıf:
+bu`CompositeNode`sınıf:
 
 * Alt düğümlere erişim sağlar.
 * Alt öğeleri ekleme ve kaldırma gibi Bileşik işlemleri uygular.

@@ -49,7 +49,7 @@ Un documento se representa como un árbol de nodos, similar a DOM o XmlDocument.
 
 Para obtener más información, consulte el patrón de diseño compuesto.
 
-los[`Node`](./node/)clase:
+los`Node`clase:
 
 * Define la interfaz del nodo secundario.
 * Define la interfaz para los nodos visitantes.

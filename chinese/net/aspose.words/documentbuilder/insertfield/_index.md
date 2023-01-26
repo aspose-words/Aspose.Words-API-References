@@ -25,7 +25,7 @@ public Field InsertField(FieldType fieldType, bool updateField)
 
 ### 评论
 
-此方法将字段插入到文档中。 Aspose.Words 可以更新大多数类型的字段，但不是全部。有关详细信息，请参阅 [`InsertField`](./insertfield/)超载。
+此方法将字段插入到文档中。 Aspose.Words 可以更新大多数类型的字段，但不是全部。有关详细信息，请参阅 `InsertField`超载。
 
 ### 例子
 
@@ -97,7 +97,7 @@ public Field InsertField(string fieldCode)
 
 ### 评论
 
-此方法将字段插入文档并立即更新字段结果。 Aspose.Words 可以更新大多数类型的字段，但不是全部。有关详细信息，请参阅 [`InsertField`](./insertfield/)超载。
+此方法将字段插入文档并立即更新字段结果。 Aspose.Words 可以更新大多数类型的字段，但不是全部。有关详细信息，请参阅 `InsertField`超载。
 
 ### 例子
 

@@ -18,7 +18,7 @@ public class BookmarkEnd : Node
 
 | Name | Beschreibung |
 | --- | --- |
-| [BookmarkEnd](bookmarkend/)(DocumentBase, string) | Initialisiert eine neue Instanz von[`BookmarkEnd`](./bookmarkend/) Klasse. |
+| [BookmarkEnd](bookmarkend/)(DocumentBase, string) | Initialisiert eine neue Instanz von`BookmarkEnd` Klasse. |
 
 ## Eigenschaften
 
@@ -51,9 +51,9 @@ public class BookmarkEnd : Node
 
 ### Bemerkungen
 
-Ein vollständiges Lesezeichen in einem Word-Dokument besteht aus a[`BookmarkStart`](../bookmarkstart/) und ein passendes[`BookmarkEnd`](./bookmarkend/) mit demselben Lesezeichennamen.
+Ein vollständiges Lesezeichen in einem Word-Dokument besteht aus a[`BookmarkStart`](../bookmarkstart/) und ein passendes`BookmarkEnd` mit demselben Lesezeichennamen.
 
-[`BookmarkStart`](../bookmarkstart/) und[`BookmarkEnd`](./bookmarkend/) sind nur Markierungen innerhalb eines Dokuments , die angeben, wo das Lesezeichen beginnt und endet.
+[`BookmarkStart`](../bookmarkstart/) und`BookmarkEnd` sind nur Markierungen innerhalb eines Dokuments , die angeben, wo das Lesezeichen beginnt und endet.
 
 Verwenden Sie die[`Bookmark`](../bookmark/) Klasse als "Fassade", um mit einem Lesezeichen als einzelnes Objekt zu arbeiten.
 

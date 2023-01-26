@@ -41,13 +41,13 @@ public class ListLevel
 | [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | Удаляет маркер изображения для текущего уровня списка. |
 | [Equals](../../aspose.words.lists/listlevel/equals/#equals)(ListLevel) | Сравнивает с указанным ListLevel. |
 | override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | Вычисляет хеш-код для этого объекта. |
-| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | Сообщает строковое представление[`ListLevel`](./listlevel/) объект для указанного index элемента списка. Параметры определяют[`NumberStyle`](../../aspose.words/numberstyle/) и необязательный формат string , используемый, когдаCustom указан. |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | Сообщает строковое представление`ListLevel` объект для указанного index элемента списка. Параметры определяют[`NumberStyle`](../../aspose.words/numberstyle/) и необязательный формат string , используемый, когдаCustom указан. |
 
 ### Примечания
 
-Вы не создаете объекты этого класса. Объекты уровня списка создаются автоматически при создании списка. Вы получаете доступ[`ListLevel`](./listlevel/) объекты через the [`ListLevelCollection`](../listlevelcollection/) коллекция.
+Вы не создаете объекты этого класса. Объекты уровня списка создаются автоматически при создании списка. Вы получаете доступ`ListLevel` объекты через the [`ListLevelCollection`](../listlevelcollection/) коллекция.
 
-Используйте свойства[`ListLevel`](./listlevel/) чтобы указать форматирование списка для отдельных уровней списка.
+Используйте свойства`ListLevel` чтобы указать форматирование списка для отдельных уровней списка.
 
 ### Примеры
 

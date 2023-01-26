@@ -18,8 +18,8 @@ public class GradientStop
 
 | Имя | Описание |
 | --- | --- |
-| [GradientStop](gradientstop/#constructor)(Color, double) | Инициализирует новый экземпляр[`GradientStop`](./gradientstop/) класс. |
-| [GradientStop](gradientstop/#constructor_1)(Color, double, double) | Инициализирует новый экземпляр[`GradientStop`](./gradientstop/) класс. |
+| [GradientStop](gradientstop/#constructor)(Color, double) | Инициализирует новый экземпляр`GradientStop` класс. |
+| [GradientStop](gradientstop/#constructor_1)(Color, double, double) | Инициализирует новый экземпляр`GradientStop` класс. |
 
 ## Характеристики
 

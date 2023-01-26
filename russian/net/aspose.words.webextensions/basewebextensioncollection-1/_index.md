@@ -23,17 +23,17 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.words.webextensions/basewebextensioncollection`1/count/) { get; } | Получает количество элементов, содержащихся в коллекции. |
-| [Item](../../aspose.words.webextensions/basewebextensioncollection`1/item/) { get; set; } | Получает или задает элемент по указанному индексу. |
+| [Count](../../aspose.words.webextensions/basewebextensioncollection-1/count/) { get; } | Получает количество элементов, содержащихся в коллекции. |
+| [Item](../../aspose.words.webextensions/basewebextensioncollection-1/item/) { get; set; } | Получает или задает элемент по указанному индексу. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection`1/add/)(T) | Добавляет указанный элемент в коллекцию. |
-| [Clear](../../aspose.words.webextensions/basewebextensioncollection`1/clear/)() | Удаляет все элементы из коллекции. |
-| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection`1/getenumerator/)() | Возвращает перечислитель, который может выполнять итерацию по коллекции. |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection`1/remove/)(int) | Удаляет элемент с указанным индексом из коллекции. |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(T) | Добавляет указанный элемент в коллекцию. |
+| [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() | Удаляет все элементы из коллекции. |
+| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | Возвращает перечислитель, который может выполнять итерацию по коллекции. |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) | Удаляет элемент с указанным индексом из коллекции. |
 
 ### Примеры
 

@@ -41,7 +41,7 @@ public class Stroke
 
 ### 评论
 
-使用[`Stroke`](../shape/stroke/)属性来访问形状的笔触属性。 您不创建的实例[`Stroke`](./stroke/)直接上课。
+使用[`Stroke`](../shape/stroke/)属性来访问形状的笔触属性。 您不创建的实例`Stroke`直接上课。
 
 ### 例子
 

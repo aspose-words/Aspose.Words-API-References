@@ -73,9 +73,9 @@ public abstract class DocumentBase : CompositeNode
 
 ### Anmärkningar
 
-Aspose.Words representerar ett Word-dokument som ett träd av noder.[`DocumentBase`](./documentbase/) är en rotnod i trädet som innehåller alla andra noder i dokumentet.
+Aspose.Words representerar ett Word-dokument som ett träd av noder.`DocumentBase` är en rotnod i trädet som innehåller alla andra noder i dokumentet.
 
-[`DocumentBase`](./documentbase/) lagrar även dokumentövergripande information som t.ex[`Styles`](./styles/) och [`Lists`](./lists/) som trädnoderna kan referera till.
+`DocumentBase` lagrar även dokumentövergripande information som t.ex[`Styles`](./styles/) och [`Lists`](./lists/) som trädnoderna kan referera till.
 
 ### Exempel
 

@@ -34,9 +34,9 @@ public class FieldCollection : IEnumerable<Field>
 
 Eine Instanz dieser Sammlung iteriert Felder, die beginnen, in den angegebenen Bereich zu fallen.
 
-Das[`FieldCollection`](./fieldcollection/) Die Sammlung besitzt nicht die Felder, die sie enthält, sondern ist nur eine Auswahl von Feldern.
+Das`FieldCollection` Die Sammlung besitzt nicht die Felder, die sie enthält, sondern ist nur eine Auswahl von Feldern.
 
-Das[`FieldCollection`](./fieldcollection/) -Sammlung ist "live", dh Änderungen an den Kindern des Knotens object , aus dem sie erstellt wurde, werden sofort in den von zurückgegebenen Feldern widergespiegelt[`FieldCollection`](./fieldcollection/) Eigenschaften und Methoden.
+Das`FieldCollection` -Sammlung ist "live", dh Änderungen an den Kindern des Knotens object , aus dem sie erstellt wurde, werden sofort in den von zurückgegebenen Feldern widergespiegelt`FieldCollection` Eigenschaften und Methoden.
 
 ### Beispiele
 

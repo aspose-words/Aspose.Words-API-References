@@ -34,9 +34,9 @@ public class FieldCollection : IEnumerable<Field>
 
 Une instance de cette collection itère les champs qui commencent à se situer dans la plage spécifiée.
 
-La[`FieldCollection`](./fieldcollection/) collection ne possède pas les champs qu'elle contient, mais n'est qu'une sélection de champs.
+La`FieldCollection` collection ne possède pas les champs qu'elle contient, mais n'est qu'une sélection de champs.
 
-La[`FieldCollection`](./fieldcollection/) collection est "en direct", c'est-à-dire que les modifications apportées aux enfants du nœud object à partir duquel elle a été créée sont immédiatement reflétées dans les champs renvoyés par le[`FieldCollection`](./fieldcollection/) propriétés et méthodes.
+La`FieldCollection` collection est "en direct", c'est-à-dire que les modifications apportées aux enfants du nœud object à partir duquel elle a été créée sont immédiatement reflétées dans les champs renvoyés par le`FieldCollection` propriétés et méthodes.
 
 ### Exemples
 

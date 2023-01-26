@@ -32,7 +32,7 @@ public class EditableRange
 
 ### ملاحظات
 
-[`EditableRange`](./editablerange/) هو كائن "واجهة" يغلف عقدتين[`EditableRangeStart`](./editablerangestart/) و[`EditableRangeEnd`](./editablerangeend/) في شجرة المستندات ويسمح بالعمل مع نطاق قابل للتحرير ككائن واحد.
+`EditableRange` هو كائن "واجهة" يغلف عقدتين[`EditableRangeStart`](./editablerangestart/) و[`EditableRangeEnd`](./editablerangeend/) في شجرة المستندات ويسمح بالعمل مع نطاق قابل للتحرير ككائن واحد.
 
 ### أمثلة
 

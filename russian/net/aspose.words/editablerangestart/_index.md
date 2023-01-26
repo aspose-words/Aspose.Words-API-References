@@ -46,9 +46,9 @@ public sealed class EditableRangeStart : Node
 
 ### Примечания
 
-Полный редактируемый диапазон в документе Word состоит из[`EditableRangeStart`](./editablerangestart/) и соответствующий[`EditableRangeEnd`](../editablerangeend/) с тем же идентификатором.
+Полный редактируемый диапазон в документе Word состоит из`EditableRangeStart` и соответствующий[`EditableRangeEnd`](../editablerangeend/) с тем же идентификатором.
 
-[`EditableRangeStart`](./editablerangestart/) а также[`EditableRangeEnd`](../editablerangeend/) являются просто маркерами внутри document , которые указывают, где начинается и заканчивается редактируемый диапазон.
+`EditableRangeStart` а также[`EditableRangeEnd`](../editablerangeend/) являются просто маркерами внутри document , которые указывают, где начинается и заканчивается редактируемый диапазон.
 
 Использовать[`EditableRange`](./editablerange/)class как «фасад» для работы с редактируемым range как с единым объектом.
 

@@ -28,9 +28,9 @@ public class AsposeWordsPrintDocument : PrintDocument
 
 ### Notlar
 
-[`AsposeWordsPrintDocument`](./asposewordsprintdocument/) geçersiz kılarPrintEventArgs) içinde belirtilen sayfa aralığını yazdırmak içinPrinterSettings.
+`AsposeWordsPrintDocument` geçersiz kılarPrintEventArgs) içinde belirtilen sayfa aralığını yazdırmak içinPrinterSettings.
 
-Tek bir Word belgesi, farklı boyutlara, yönüne ve kağıt tepsilerine sahip sayfaları belirten birden çok bölümden oluşabilir.[`AsposeWordsPrintDocument`](./asposewordsprintdocument/) geçersiz kılar QueryPageSettingsEventArgs) Word belgesi yazdırırken kağıt boyutunu, oryantasyon ve kağıt kaynağını doğru şekilde seçmek için.
+Tek bir Word belgesi, farklı boyutlara, yönüne ve kağıt tepsilerine sahip sayfaları belirten birden çok bölümden oluşabilir.`AsposeWordsPrintDocument` geçersiz kılar QueryPageSettingsEventArgs) Word belgesi yazdırırken kağıt boyutunu, oryantasyon ve kağıt kaynağını doğru şekilde seçmek için.
 
 Microsoft Word, kağıt tepsileri için yazıcıya özgü değerleri bir Word belgesinde saklar ve bu nedenle, yalnızca kullanıcı kağıt tepsilerini belirttiğinde seçilen yazıcı modeliyle aynı yazıcı modelinde yazdırma, doğru tepsilerden yazdırmayla sonuçlanır. Bir belgeyi farklı bir yazıcıda yazdırırsanız, büyük olasılıkla belgede belirtilen tepsiler değil varsayılan kağıt tepsisi kullanılacaktır.
 

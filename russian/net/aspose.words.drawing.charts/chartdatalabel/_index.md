@@ -40,7 +40,7 @@ public class ChartDataLabel
 
 ### Примечания
 
-В сериале[`ChartDataLabel`](./chartdatalabel/) объект является членом[`ChartDataLabelCollection`](../chartdatalabelcollection/) . [`ChartDataLabelCollection`](../chartdatalabelcollection/) содержит[`ChartDataLabel`](./chartdatalabel/) объект для каждой точки.
+В сериале`ChartDataLabel` объект является членом[`ChartDataLabelCollection`](../chartdatalabelcollection/) . [`ChartDataLabelCollection`](../chartdatalabelcollection/) содержит`ChartDataLabel` объект для каждой точки.
 
 ### Примеры
 

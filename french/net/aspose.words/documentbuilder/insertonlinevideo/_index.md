@@ -33,7 +33,7 @@ L'insertion de vidéo en ligne à partir des ressources suivantes est prise en c
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Si votre vidéo en ligne ne s'affiche pas correctement, utilisez[`InsertOnlineVideo`](./insertonlinevideo/), qui accepte le code html intégré personnalisé.
+Si votre vidéo en ligne ne s'affiche pas correctement, utilisez`InsertOnlineVideo`, qui accepte le code html intégré personnalisé.
 
 Le code d'intégration de la vidéo peut varier d'un fournisseur à l'autre, consultez le fournisseur correspondant de votre choix pour plus de détails.
 
@@ -93,7 +93,7 @@ L'insertion de vidéo en ligne à partir des ressources suivantes est prise en c
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Si votre vidéo en ligne ne s'affiche pas correctement, utilisez[`InsertOnlineVideo`](./insertonlinevideo/), qui accepte le code html intégré personnalisé.
+Si votre vidéo en ligne ne s'affiche pas correctement, utilisez`InsertOnlineVideo`, qui accepte le code html intégré personnalisé.
 
 Le code d'intégration de la vidéo peut varier d'un fournisseur à l'autre, consultez le fournisseur correspondant de votre choix pour plus de détails.
 

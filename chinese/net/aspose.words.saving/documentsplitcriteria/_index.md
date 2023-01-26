@@ -27,7 +27,7 @@ public enum DocumentSplitCriteria
 
 ### 评论
 
-[`DocumentSplitCriteria`](./documentsplitcriteria/)是一组可以组合的标志。例如，您可以在同一导出操作中在分页符和标题段落处拆分 document 。
+`DocumentSplitCriteria`是一组可以组合的标志。例如，您可以在同一导出操作中在分页符和标题段落处拆分 document 。
 
 不同的标准可以部分重叠。例如， **标题 1**样式经常被赋予 [`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/)财产，因此它符合两个标准：PageBreak和 HeadingParagraph.某些分节符可能会导致分页符等。 在典型情况下，只指定一个标志是最实用的选项。
 

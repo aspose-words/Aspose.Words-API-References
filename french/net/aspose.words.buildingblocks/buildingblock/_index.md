@@ -79,9 +79,9 @@ public class BuildingBlock : CompositeNode
 
 ### Remarques
 
-[`BuildingBlock`](./buildingblock/) ne peut contenir que[`Section`](../../aspose.words/section/) nœuds.
+`BuildingBlock` ne peut contenir que[`Section`](../../aspose.words/section/) nœuds.
 
-[`BuildingBlock`](./buildingblock/) ne peut être qu'un enfant de[`GlossaryDocument`](../glossarydocument/).
+`BuildingBlock` ne peut être qu'un enfant de[`GlossaryDocument`](../glossarydocument/).
 
 Vous pouvez créer de nouveaux blocs de construction et les insérer dans un document de glossaire. Vous pouvez modifier ou supprimer des blocs de construction existants. Vous pouvez copier ou déplacer des blocs de construction entre les documents. Vous pouvez insérer le contenu d'un bloc de construction dans un document.
 

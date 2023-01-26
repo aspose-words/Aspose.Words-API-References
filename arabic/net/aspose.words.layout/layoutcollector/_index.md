@@ -38,7 +38,7 @@ public class LayoutCollector
 
 ### ملاحظات
 
-عندما تقوم بإنشاء ملف[`LayoutCollector`](./layoutcollector/) وتحديد أ[`Document`](../../aspose.words/document/)كائن المستند المراد إرفاقه ، سيقوم المُجمع بتسجيل تعيين عقد المستند لتخطيط الكائنات عند تنسيق المستند في صفحات.
+عندما تقوم بإنشاء ملف`LayoutCollector` وتحديد أ[`Document`](../../aspose.words/document/)كائن المستند المراد إرفاقه ، سيقوم المُجمع بتسجيل تعيين عقد المستند لتخطيط الكائنات عند تنسيق المستند في صفحات.
 
 سوف تكون قادرًا على معرفة الصفحة التي توجد بها عقدة مستند معينة (على سبيل المثال ، تشغيل أو فقرة أو خلية جدول) باستخدام[`GetStartPageIndex`](./getstartpageindex/) و[`GetEndPageIndex`](./getendpageindex/) و[`GetNumPagesSpanned`](./getnumpagesspanned/) طُرق. تقوم هذه الطرق تلقائيًا ببناء نموذج تخطيط الصفحة للمستند وتحديث الحقول إذا لزم الأمر.
 

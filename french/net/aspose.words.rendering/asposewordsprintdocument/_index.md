@@ -28,9 +28,9 @@ public class AsposeWordsPrintDocument : PrintDocument
 
 ### Remarques
 
-[`AsposeWordsPrintDocument`](./asposewordsprintdocument/) remplacePrintEventArgs) pour imprimer la plage de pages spécifiée dansPrinterSettings.
+`AsposeWordsPrintDocument` remplacePrintEventArgs) pour imprimer la plage de pages spécifiée dansPrinterSettings.
 
-Un seul document Word peut être composé de plusieurs sections qui spécifient des pages avec des tailles, des orientations et des bacs à papier différents.[`AsposeWordsPrintDocument`](./asposewordsprintdocument/) remplace QueryPageSettingsEventArgs) pour sélectionner correctement la taille du papier, l'orientation et la source du papier lors de l'impression d'un document Word.
+Un seul document Word peut être composé de plusieurs sections qui spécifient des pages avec des tailles, des orientations et des bacs à papier différents.`AsposeWordsPrintDocument` remplace QueryPageSettingsEventArgs) pour sélectionner correctement la taille du papier, l'orientation et la source du papier lors de l'impression d'un document Word.
 
 Microsoft Word stocke des valeurs spécifiques à l'imprimante pour les bacs à papier dans un document Word et, par conséquent, uniquement l'impression sur le même modèle d'imprimante que celui qui a été sélectionné lorsque l'utilisateur a spécifié les bacs à papier entraînera l'impression à partir des bacs corrects. Si vous imprimez un document sur une autre imprimante, alors très probablement le bac à papier par défaut sera utilisé, et non les bacs spécifiés dans le document.
 

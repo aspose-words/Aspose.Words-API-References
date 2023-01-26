@@ -25,7 +25,7 @@ A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo i
 
 ### Observaciones
 
-Este método inserta un campo en un documento. Aspose.Words puede actualizar campos de la mayoría de los tipos, pero no todos. Para más detalles ver the [`InsertField`](./insertfield/) sobrecarga.
+Este método inserta un campo en un documento. Aspose.Words puede actualizar campos de la mayoría de los tipos, pero no todos. Para más detalles ver the `InsertField` sobrecarga.
 
 ### Ejemplos
 
@@ -97,7 +97,7 @@ A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo i
 
 ### Observaciones
 
-Este método inserta un campo en un documento y actualiza el resultado del campo inmediatamente. Aspose.Words puede actualizar campos de la mayoría de los tipos, pero no todos. Para más detalles ver the [`InsertField`](./insertfield/) sobrecarga.
+Este método inserta un campo en un documento y actualiza el resultado del campo inmediatamente. Aspose.Words puede actualizar campos de la mayoría de los tipos, pero no todos. Para más detalles ver the `InsertField` sobrecarga.
 
 ### Ejemplos
 

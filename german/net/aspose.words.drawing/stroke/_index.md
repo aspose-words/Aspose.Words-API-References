@@ -41,7 +41,7 @@ public class Stroke
 
 ### Bemerkungen
 
-Verwenden Sie die[`Stroke`](../shape/stroke/)-Eigenschaft, um auf Stricheigenschaften einer Form zuzugreifen. Sie erstellen keine Instanzen von[`Stroke`](./stroke/) Klasse direkt.
+Verwenden Sie die[`Stroke`](../shape/stroke/)-Eigenschaft, um auf Stricheigenschaften einer Form zuzugreifen. Sie erstellen keine Instanzen von`Stroke` Klasse direkt.
 
 ### Beispiele
 

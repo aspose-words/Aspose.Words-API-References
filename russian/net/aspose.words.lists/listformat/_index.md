@@ -37,13 +37,13 @@ public class ListFormat
 
 Абзац в документе Microsoft Word может быть промаркирован или пронумерован. Когда абзац промаркирован или пронумерован, говорят, что форматирование списка применяется к абзацу.
 
-Вы не создаете объекты[`ListFormat`](./listformat/) класс напрямую. Вы получаете доступ[`ListFormat`](./listformat/) как свойство другого объекта, который может иметь связанное с ним форматирование списка. На данный момент объекты, которые can имеют форматирование списка:[`Paragraph`](../../aspose.words/paragraph/) , [`Style`](../../aspose.words/style/) а также[`DocumentBuilder`](../../aspose.words/documentbuilder/).
+Вы не создаете объекты`ListFormat` класс напрямую. Вы получаете доступ`ListFormat` как свойство другого объекта, который может иметь связанное с ним форматирование списка. На данный момент объекты, которые can имеют форматирование списка:[`Paragraph`](../../aspose.words/paragraph/) , [`Style`](../../aspose.words/style/) а также[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
-[`ListFormat`](./listformat/) из[`Paragraph`](../../aspose.words/paragraph/) указывает , какое форматирование списка и уровень списка применяются к этому конкретному абзацу.
+`ListFormat` из[`Paragraph`](../../aspose.words/paragraph/) указывает , какое форматирование списка и уровень списка применяются к этому конкретному абзацу.
 
-[`ListFormat`](./listformat/) из[`Style`](../../aspose.words/style/)(применимо только к стилям абзаца) позволяет указать, какое форматирование списка и уровень списка применяются ко всем абзацам этого конкретного стиля.
+`ListFormat` из[`Style`](../../aspose.words/style/)(применимо только к стилям абзаца) позволяет указать, какое форматирование списка и уровень списка применяются ко всем абзацам этого конкретного стиля.
 
-[`ListFormat`](./listformat/) из[`DocumentBuilder`](../../aspose.words/documentbuilder/) обеспечивает доступ к форматированию списка в текущей позиции курсора внутри[`DocumentBuilder`](../../aspose.words/documentbuilder/).
+`ListFormat` из[`DocumentBuilder`](../../aspose.words/documentbuilder/) обеспечивает доступ к форматированию списка в текущей позиции курсора внутри[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
 Само форматирование списка хранится внутри[`List`](../list/) объект, который хранится отдельно от абзацев. Список objects хранится внутри[`ListCollection`](../listcollection/) коллекция. Есть сингл [`ListCollection`](../listcollection/) сбор за[`Document`](../../aspose.words/document/).
 

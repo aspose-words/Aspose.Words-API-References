@@ -107,7 +107,7 @@ public class Document : DocumentBase
 | [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument_1)(Document, ImportFormatMode, ImportFormatOptions) | Belirtilen belgeyi bu belgenin sonuna ekler. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup)() | Belgedeki kullanılmayan stilleri ve listeleri temizler. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup_1)(CleanupOptions) | Verilenlere bağlı olarak kullanılmayan stilleri ve listeleri belgeden temizler[`CleanupOptions`](../cleanupoptions/) . |
-| [Clone](../../aspose.words/document/clone/#clone)() | [`Document`](./document/) . |
+| [Clone](../../aspose.words/document/clone/#clone)() | `Document` . |
 | [Clone](../../aspose.words/node/clone/)(bool) | Düğümün bir kopyasını oluşturur. |
 | [Compare](../../aspose.words/document/compare/#compare)(Document, string, DateTime) | Bu belgeyi, düzenleme ve biçim revizyonlarının sayısı olarak değişiklik üreten başka bir belgeyle karşılaştırır[`Revision`](../revision/) . |
 | [Compare](../../aspose.words/document/compare/#compare_1)(Document, string, DateTime, CompareOptions) | Bu belgeyi, bir dizi düzenleme ve biçim revizyonu olarak değişiklikler üreten başka bir belgeyle karşılaştırır[`Revision`](../revision/) . Şunu kullanarak karşılaştırma seçeneklerini belirlemeye izin verir:[`CompareOptions`](../../aspose.words.comparing/compareoptions/) . |
@@ -116,7 +116,7 @@ public class Document : DocumentBase
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Sistem kullanımı için ayrılmıştır. IXPathNavigable. |
 | [EnsureMinimum](../../aspose.words/document/ensureminimum/)() | Belge bölüm içermiyorsa, tek paragraflı bir bölüm oluşturur. |
 | [ExpandTableStylesToDirectFormatting](../../aspose.words/document/expandtablestylestodirectformatting/)() | Tablo stillerinde belirtilen biçimlendirmeyi, belgedeki tablolarda doğrudan biçimlendirmeye dönüştürür. |
-| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | [`Document`](./document/) belirtilen sayfa aralığını temsil eden nesne. |
+| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | `Document` belirtilen sayfa aralığını temsil eden nesne. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atasını alır[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk üst öğesini alır. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Belirtilen türle eşleşen N. alt düğümü döndürür. |

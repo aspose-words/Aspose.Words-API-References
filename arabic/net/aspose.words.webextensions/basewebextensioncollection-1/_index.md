@@ -23,17 +23,17 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | اسم | وصف |
 | --- | --- |
-| [Count](../../aspose.words.webextensions/basewebextensioncollection`1/count/) { get; } | الحصول على عدد العناصر الموجودة في المجموعة. |
-| [Item](../../aspose.words.webextensions/basewebextensioncollection`1/item/) { get; set; } | الحصول على أو تعيين عنصر في الفهرس المحدد. |
+| [Count](../../aspose.words.webextensions/basewebextensioncollection-1/count/) { get; } | الحصول على عدد العناصر الموجودة في المجموعة. |
+| [Item](../../aspose.words.webextensions/basewebextensioncollection-1/item/) { get; set; } | الحصول على أو تعيين عنصر في الفهرس المحدد. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection`1/add/)(T) | يضيف عنصرًا محددًا إلى المجموعة. |
-| [Clear](../../aspose.words.webextensions/basewebextensioncollection`1/clear/)() | يزيل كل العناصر من المجموعة. |
-| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection`1/getenumerator/)() | إرجاع عداد يمكنه التكرار من خلال مجموعة. |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection`1/remove/)(int) | يزيل العنصر في الفهرس المحدد من المجموعة. |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(T) | يضيف عنصرًا محددًا إلى المجموعة. |
+| [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() | يزيل كل العناصر من المجموعة. |
+| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | إرجاع عداد يمكنه التكرار من خلال مجموعة. |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) | يزيل العنصر في الفهرس المحدد من المجموعة. |
 
 ### أمثلة
 

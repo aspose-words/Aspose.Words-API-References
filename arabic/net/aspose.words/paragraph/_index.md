@@ -97,9 +97,9 @@ public class Paragraph : CompositeNode
 
 ### ملاحظات
 
-[`Paragraph`](./paragraph/) هي عقدة على مستوى الكتلة ويمكن أن تكون تابعة للفئات المشتقة من [`Story`](../story/) أو[`InlineStory`](../inlinestory/).
+`Paragraph` هي عقدة على مستوى الكتلة ويمكن أن تكون تابعة للفئات المشتقة من [`Story`](../story/) أو[`InlineStory`](../inlinestory/).
 
-[`Paragraph`](./paragraph/) يمكن أن يحتوي على أي عدد من العقد والإشارات المرجعية المضمنة.
+`Paragraph` يمكن أن يحتوي على أي عدد من العقد والإشارات المرجعية المضمنة.
 
 تتكون القائمة الكاملة للعقد الفرعية التي يمكن أن تحدث داخل فقرة من [`BookmarkStart`](../bookmarkstart/) و[`BookmarkEnd`](../bookmarkend/) ، [`FieldStart`](../../aspose.words.fields/fieldstart/) و[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ، [`FieldEnd`](../../aspose.words.fields/fieldend/) و[`FormField`](../../aspose.words.fields/formfield/) ، [`Comment`](../comment/) و[`Footnote`](../../aspose.words.notes/footnote/) ، [`Run`](../run/) و[`SpecialChar`](../specialchar/) ، [`Shape`](../../aspose.words.drawing/shape/) و[`GroupShape`](../../aspose.words.drawing/groupshape/) ، [`SmartTag`](../../aspose.words.markup/smarttag/).
 

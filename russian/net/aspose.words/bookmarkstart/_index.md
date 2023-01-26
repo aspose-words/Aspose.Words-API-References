@@ -18,7 +18,7 @@ public class BookmarkStart : Node
 
 | Имя | Описание |
 | --- | --- |
-| [BookmarkStart](bookmarkstart/)(DocumentBase, string) | Инициализирует новый экземпляр[`BookmarkStart`](./bookmarkstart/) класс. |
+| [BookmarkStart](bookmarkstart/)(DocumentBase, string) | Инициализирует новый экземпляр`BookmarkStart` класс. |
 
 ## Характеристики
 
@@ -52,9 +52,9 @@ public class BookmarkStart : Node
 
 ### Примечания
 
-Полная закладка в документе Word состоит из[`BookmarkStart`](./bookmarkstart/) и соответствующий[`BookmarkEnd`](../bookmarkend/) с тем же названием закладки.
+Полная закладка в документе Word состоит из`BookmarkStart` и соответствующий[`BookmarkEnd`](../bookmarkend/) с тем же названием закладки.
 
-[`BookmarkStart`](./bookmarkstart/) а также[`BookmarkEnd`](../bookmarkend/) являются просто маркерами внутри document , которые указывают, где закладка начинается и заканчивается.
+`BookmarkStart` а также[`BookmarkEnd`](../bookmarkend/) являются просто маркерами внутри document , которые указывают, где закладка начинается и заканчивается.
 
 Использовать[`Bookmark`](./bookmark/) class как «фасад» для работы с bookmark как с единым объектом.
 

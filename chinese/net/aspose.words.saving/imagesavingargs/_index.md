@@ -29,7 +29,7 @@ public class ImageSavingArgs
 
 默认情况下，当 Aspose.Words 将文档保存为 HTML 时，它会将每个图像保存到 一个单独的文件中。 Aspose.Words 使用文档文件名和唯一编号为文档中找到的每个图像生成唯一的文件名 。
 
-[`ImageSavingArgs`](./imagesavingargs/)允许重新定义图像文件名的生成方式或 通过提供您自己的流对象来完全避免将图像保存到文件中。
+`ImageSavingArgs`允许重新定义图像文件名的生成方式或 通过提供您自己的流对象来完全避免将图像保存到文件中。
 
 要应用您自己的逻辑来生成图像文件名，请使用 [`ImageFileName`](./imagefilename/),[`CurrentShape`](./currentshape/)和[`IsImageAvailable`](./isimageavailable/) 属性。
 

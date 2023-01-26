@@ -8,7 +8,7 @@ url: /tr/net/aspose.words.math/officemath/
 ---
 ## OfficeMath class
 
-İşlev, denklem, matris veya benzeri gibi bir Office Math nesnesini temsil eder. Matematiksel metin, yer imleri, yorumlar ve diğer diziler dahil olmak üzere alt elementler içerebilir[`OfficeMath`](./officemath/) örnekler ve diğer bazı düğümler.
+İşlev, denklem, matris veya benzeri gibi bir Office Math nesnesini temsil eder. Matematiksel metin, yer imleri, yorumlar ve diğer diziler dahil olmak üzere alt elementler içerebilir`OfficeMath` örnekler ve diğer bazı düğümler.
 
 ```csharp
 public class OfficeMath : CompositeNode
@@ -69,9 +69,9 @@ public class OfficeMath : CompositeNode
 
 ### Notlar
 
-Aspose.Words'ün bu sürümünde,[`OfficeMath`](./officemath/) düğümler, bir OfficeMath nesnesi oluşturmak veya değiştirmek için genel yöntemler ve özellikler sağlamaz. Bu sürümde, instantiate yapamazsınızMath düğümler veya mevcut olanları silmek dışında değiştirin.
+Aspose.Words'ün bu sürümünde,`OfficeMath` düğümler, bir OfficeMath nesnesi oluşturmak veya değiştirmek için genel yöntemler ve özellikler sağlamaz. Bu sürümde, instantiate yapamazsınızMath düğümler veya mevcut olanları silmek dışında değiştirin.
 
-[`OfficeMath`](./officemath/) sadece çocuğu olabilir[`Paragraph`](../../aspose.words/paragraph/).
+`OfficeMath` sadece çocuğu olabilir[`Paragraph`](../../aspose.words/paragraph/).
 
 ### Örnekler
 

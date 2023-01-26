@@ -42,7 +42,7 @@ public class Field
 
 ### Notlar
 
-Word belgesindeki bir alan, alan başlangıcı, alan kodu, alan ayırıcı, alan sonucu ve alan sonunu içeren birden çok düğümden oluşan karmaşık bir yapıdır. Alanlar iç içe yerleştirilebilir, zengin içerik ve bir belgede span birden çok paragraf veya bölüm içerebilir. bu[`Field`](./field/)class, bir alanla tek bir nesne olarak çalışmaya izin veren özelliklerini ve yöntemlerini sağlayan bir "cephe" nesnesidir.
+Word belgesindeki bir alan, alan başlangıcı, alan kodu, alan ayırıcı, alan sonucu ve alan sonunu içeren birden çok düğümden oluşan karmaşık bir yapıdır. Alanlar iç içe yerleştirilebilir, zengin içerik ve bir belgede span birden çok paragraf veya bölüm içerebilir. bu`Field`class, bir alanla tek bir nesne olarak çalışmaya izin veren özelliklerini ve yöntemlerini sağlayan bir "cephe" nesnesidir.
 
 bu[`Start`](./start/) ,[`Separator`](./separator/) ve[`End`](./end/) özellikler sırasıyla alanın the alanı başlangıç, ayırıcı ve bitiş düğümlerine işaret eder.
 
@@ -52,7 +52,7 @@ Alan sonuçlarını hesaplama işlemine alan güncelleme adı verilir. Aspose.Wo
 
 Alan kodunun düz metin sürümünü aşağıdakileri kullanarak alabilirsiniz:[`GetFieldCode`](./getfieldcode/) method. Alan sonucunun düz metin versiyonunu aşağıdaki komutu kullanarak alabilir ve ayarlayabilirsiniz.[`Result`](./result/) property. Hem alan kodu hem de alan sonucu, iç içe alanlar, paragraflar, şekiller, tablolar gibi karmaşık içerik içerebilir ve bu durumda, daha fazla kontrole ihtiyacınız varsa, doğrudan alan düğümleriyle çalışmak isteyebilirsiniz.
 
-Örneklerini oluşturmazsınız[`Field`](./field/) doğrudan sınıf. Yeni bir alan oluşturmak için[`InsertField`](../../aspose.words/documentbuilder/insertfield/) yöntem.
+Örneklerini oluşturmazsınız`Field` doğrudan sınıf. Yeni bir alan oluşturmak için[`InsertField`](../../aspose.words/documentbuilder/insertfield/) yöntem.
 
 ### Örnekler
 

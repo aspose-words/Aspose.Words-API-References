@@ -42,7 +42,7 @@ public class Field
 
 ### Observaciones
 
-Un campo en un documento de Word es una estructura compleja que consta de varios nodos que incluyen inicio de campo, código de campo , separador de campo, resultado de campo y fin de campo. Los campos se pueden anidar, contener contenido enriquecido y abarcar varios párrafos o secciones en un documento. los[`Field`](./field/)class es un objeto "fachada" que proporciona propiedades y métodos que permiten trabajar con un campo como un solo objeto.
+Un campo en un documento de Word es una estructura compleja que consta de varios nodos que incluyen inicio de campo, código de campo , separador de campo, resultado de campo y fin de campo. Los campos se pueden anidar, contener contenido enriquecido y abarcar varios párrafos o secciones en un documento. los`Field`class es un objeto "fachada" que proporciona propiedades y métodos que permiten trabajar con un campo como un solo objeto.
 
 los[`Start`](./start/) ,[`Separator`](./separator/) y[`End`](./end/) las propiedades apuntan a los nodos de inicio, separador y final del campo respectivamente.
 
@@ -52,7 +52,7 @@ El proceso de calcular los resultados de campo se denomina actualización de cam
 
 Puede obtener la versión de texto sin formato del código de campo utilizando el[`GetFieldCode`](./getfieldcode/) method. Puede obtener y configurar la versión de texto sin formato del resultado del campo utilizando el[`Result`](./result/) property. Tanto el código de campo como el resultado del campo pueden contener contenido complejo, como campos anidados, párrafos, formas, tablas y, en este caso, es posible que desee trabajar con los nodos de campo directamente si necesita más control.
 
-Usted no crea instancias del[`Field`](./field/) clase directamente. Para crear un nuevo campo use el[`InsertField`](../../aspose.words/documentbuilder/insertfield/) método.
+Usted no crea instancias del`Field` clase directamente. Para crear un nuevo campo use el[`InsertField`](../../aspose.words/documentbuilder/insertfield/) método.
 
 ### Ejemplos
 

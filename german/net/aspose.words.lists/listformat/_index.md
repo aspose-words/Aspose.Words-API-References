@@ -37,13 +37,13 @@ public class ListFormat
 
 Ein Absatz in einem Microsoft Word-Dokument kann mit Aufzählungszeichen oder Nummerierungen versehen werden. Wenn ein Absatz mit Aufzählungszeichen oder Nummerierungen versehen ist, wird die Listenformatierung auf den Absatz angewendet.
 
-Sie erstellen keine Objekte der[`ListFormat`](./listformat/) Klasse direkt. Du greifst zu[`ListFormat`](./listformat/) als Eigenschaft eines anderen Objekts, dem eine Listenformatierung zugeordnet werden kann. Im Moment sind die Objekte, die eine Listenformatierung haben können:[`Paragraph`](../../aspose.words/paragraph/) , [`Style`](../../aspose.words/style/) und[`DocumentBuilder`](../../aspose.words/documentbuilder/).
+Sie erstellen keine Objekte der`ListFormat` Klasse direkt. Du greifst zu`ListFormat` als Eigenschaft eines anderen Objekts, dem eine Listenformatierung zugeordnet werden kann. Im Moment sind die Objekte, die eine Listenformatierung haben können:[`Paragraph`](../../aspose.words/paragraph/) , [`Style`](../../aspose.words/style/) und[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
-[`ListFormat`](./listformat/) von a[`Paragraph`](../../aspose.words/paragraph/) gibt an, welche Listenformatierung und Listenebene auf diesen bestimmten Absatz angewendet wird.
+`ListFormat` von a[`Paragraph`](../../aspose.words/paragraph/) gibt an, welche Listenformatierung und Listenebene auf diesen bestimmten Absatz angewendet wird.
 
-[`ListFormat`](./listformat/) von a[`Style`](../../aspose.words/style/)(gilt nur für Absatzstile) ermöglicht die Angabe, welche Listenformatierung und Listenebene auf alle Absätze dieses bestimmten Stils angewendet wird.
+`ListFormat` von a[`Style`](../../aspose.words/style/)(gilt nur für Absatzstile) ermöglicht die Angabe, welche Listenformatierung und Listenebene auf alle Absätze dieses bestimmten Stils angewendet wird.
 
-[`ListFormat`](./listformat/) von a[`DocumentBuilder`](../../aspose.words/documentbuilder/) bietet Zugriff auf die Listenformatierung an der aktuellen Cursorposition innerhalb der[`DocumentBuilder`](../../aspose.words/documentbuilder/).
+`ListFormat` von a[`DocumentBuilder`](../../aspose.words/documentbuilder/) bietet Zugriff auf die Listenformatierung an der aktuellen Cursorposition innerhalb der[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
 Die Listenformatierung selbst wird in a gespeichert[`List`](../list/) Objekt, das getrennt von den Absätzen gespeichert wird. Die Listenobjekte werden in a gespeichert[`ListCollection`](../listcollection/) Sammlung. Es gibt einen einzigen [`ListCollection`](../listcollection/) Abholung pro[`Document`](../../aspose.words/document/).
 

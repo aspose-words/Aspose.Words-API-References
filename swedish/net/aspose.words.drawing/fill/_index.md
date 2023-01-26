@@ -53,7 +53,7 @@ public class Fill
 
 ### Anmärkningar
 
-Använd[`Fill`](../shapebase/fill/) eller[`Fill`](../../aspose.words/font/fill/) egenskap för att komma åt fyllegenskaper för ett objekt. Du skapar inte instanser av[`Fill`](./fill/) klass direkt.
+Använd[`Fill`](../shapebase/fill/) eller[`Fill`](../../aspose.words/font/fill/) egenskap för att komma åt fyllegenskaper för ett objekt. Du skapar inte instanser av`Fill` klass direkt.
 
 ### Exempel
 

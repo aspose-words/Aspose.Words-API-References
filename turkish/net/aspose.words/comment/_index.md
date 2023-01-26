@@ -53,7 +53,7 @@ public sealed class Comment : InlineStory
 | [ParentParagraph](../../aspose.words/inlinestory/parentparagraph/) { get; } | Üst öğeyi alır[`Paragraph`](../paragraph/) bu düğümün. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Bu düğümden hemen önceki düğümü alır. |
 | [Range](../../aspose.words/node/range/) { get; } | Bir döndürür **Menzil** belgenin bu düğümde bulunan bölümünü temsil eden nesne. |
-| [Replies](../../aspose.words/comment/replies/) { get; } | Bir koleksiyon döndürür[`Comment`](./comment/) belirtilen yorumun hemen alt öğeleri olan nesneler. |
+| [Replies](../../aspose.words/comment/replies/) { get; } | Bir koleksiyon döndürür`Comment` belirtilen yorumun hemen alt öğeleri olan nesneler. |
 | override [StoryType](../../aspose.words/comment/storytype/) { get; } | İade **StoryType.Yorumlar** . |
 | [Tables](../../aspose.words/inlinestory/tables/) { get; } | Öykünün doğrudan alt öğeleri olan tabloların bir koleksiyonunu alır. |
 
@@ -95,13 +95,13 @@ public sealed class Comment : InlineStory
 
 Yorum, metnin bir bölgesine veya metindeki bir konuma sabitlenmiş bir açıklamadır. Bir yorum, rastgele miktarda blok düzeyinde içerik içerebilir.
 
-Eğer bir[`Comment`](./comment/) nesne kendi kendine oluşur, yorum nesnenin konumuna sabitlenir.[`Comment`](./comment/) nesne.
+Eğer bir`Comment` nesne kendi kendine oluşur, yorum nesnenin konumuna sabitlenir.`Comment` nesne.
 
-Metnin bir bölgesine bir yorum tutturmak için üç nesne gereklidir:[`Comment`](./comment/) , [`CommentRangeStart`](../commentrangestart/) ve[`CommentRangeEnd`](../commentrangeend/) Her üç nesnenin de aynı öğesini paylaşması gerekir[`Id`](./id/) değer.
+Metnin bir bölgesine bir yorum tutturmak için üç nesne gereklidir:`Comment` , [`CommentRangeStart`](../commentrangestart/) ve[`CommentRangeEnd`](../commentrangeend/) Her üç nesnenin de aynı öğesini paylaşması gerekir[`Id`](./id/) değer.
 
-[`Comment`](./comment/) satır içi düzey bir düğümdür ve yalnızca alt öğesi olabilir[`Paragraph`](../paragraph/).
+`Comment` satır içi düzey bir düğümdür ve yalnızca alt öğesi olabilir[`Paragraph`](../paragraph/).
 
-[`Comment`](./comment/) içerebilir[`Paragraph`](../paragraph/) ve[`Table`](../../aspose.words.tables/table/) alt düğümler.
+`Comment` içerebilir[`Paragraph`](../paragraph/) ve[`Table`](../../aspose.words.tables/table/) alt düğümler.
 
 ### Örnekler
 

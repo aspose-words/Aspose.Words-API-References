@@ -37,13 +37,13 @@ public class ListFormat
 
 Ett stycke i ett Microsoft Word-dokument kan punkteras eller numreras. När ett stycke är punkterat eller numrerat, sägs det att listformatering tillämpas på stycket.
 
-Du skapar inte objekt av[`ListFormat`](./listformat/) klass direkt. Du kommer åt[`ListFormat`](./listformat/) som en egenskap för ett annat objekt som kan ha listformatering kopplad till sig. För tillfället är objekten som can har listformatering:[`Paragraph`](../../aspose.words/paragraph/) , [`Style`](../../aspose.words/style/) och[`DocumentBuilder`](../../aspose.words/documentbuilder/).
+Du skapar inte objekt av`ListFormat` klass direkt. Du kommer åt`ListFormat` som en egenskap för ett annat objekt som kan ha listformatering kopplad till sig. För tillfället är objekten som can har listformatering:[`Paragraph`](../../aspose.words/paragraph/) , [`Style`](../../aspose.words/style/) och[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
-[`ListFormat`](./listformat/) av en[`Paragraph`](../../aspose.words/paragraph/) anger vilken listformatering och listnivå som tillämpas på det specifika stycket.
+`ListFormat` av en[`Paragraph`](../../aspose.words/paragraph/) anger vilken listformatering och listnivå som tillämpas på det specifika stycket.
 
-[`ListFormat`](./listformat/) av en[`Style`](../../aspose.words/style/)(tillämplig endast för styckestilar) gör det möjligt att ange vilken listformatering och listnivå som tillämpas på alla stycken i den specifika stilen.
+`ListFormat` av en[`Style`](../../aspose.words/style/)(tillämplig endast för styckestilar) gör det möjligt att ange vilken listformatering och listnivå som tillämpas på alla stycken i den specifika stilen.
 
-[`ListFormat`](./listformat/) av en[`DocumentBuilder`](../../aspose.words/documentbuilder/) ger tillgång till listformateringen vid den aktuella markörpositionen inuti[`DocumentBuilder`](../../aspose.words/documentbuilder/).
+`ListFormat` av en[`DocumentBuilder`](../../aspose.words/documentbuilder/) ger tillgång till listformateringen vid den aktuella markörpositionen inuti[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
 Själva listformateringen lagras i en[`List`](../list/) objekt som lagras separat från styckena. Listobjekten lagras i en[`ListCollection`](../listcollection/) samling. Det finns en single [`ListCollection`](../listcollection/) insamling pr[`Document`](../../aspose.words/document/).
 

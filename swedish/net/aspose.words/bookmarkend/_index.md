@@ -18,7 +18,7 @@ public class BookmarkEnd : Node
 
 | namn | Beskrivning |
 | --- | --- |
-| [BookmarkEnd](bookmarkend/)(DocumentBase, string) | Initierar en ny instans av[`BookmarkEnd`](./bookmarkend/) class. |
+| [BookmarkEnd](bookmarkend/)(DocumentBase, string) | Initierar en ny instans av`BookmarkEnd` class. |
 
 ## Egenskaper
 
@@ -51,9 +51,9 @@ public class BookmarkEnd : Node
 
 ### Anmärkningar
 
-Ett komplett bokmärke i ett Word-dokument består av en[`BookmarkStart`](../bookmarkstart/) och en matchande[`BookmarkEnd`](./bookmarkend/) med samma bokmärkesnamn.
+Ett komplett bokmärke i ett Word-dokument består av en[`BookmarkStart`](../bookmarkstart/) och en matchande`BookmarkEnd` med samma bokmärkesnamn.
 
-[`BookmarkStart`](../bookmarkstart/) och[`BookmarkEnd`](./bookmarkend/) är bara markörer inuti en document som anger var bokmärket börjar och slutar.
+[`BookmarkStart`](../bookmarkstart/) och`BookmarkEnd` är bara markörer inuti en document som anger var bokmärket börjar och slutar.
 
 Använd[`Bookmark`](../bookmark/) klass som en "fasad" för att arbeta med ett bokmärke som ett enda objekt.
 

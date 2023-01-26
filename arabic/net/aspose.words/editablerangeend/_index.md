@@ -46,9 +46,9 @@ public sealed class EditableRangeEnd : Node
 
 ### ملاحظات
 
-يتكون النطاق الكامل القابل للتحرير في مستند Word من ملف[`EditableRangeStart`](./editablerangestart/) ومطابقة[`EditableRangeEnd`](./editablerangeend/) بنفس المعرف.
+يتكون النطاق الكامل القابل للتحرير في مستند Word من ملف[`EditableRangeStart`](./editablerangestart/) ومطابقة`EditableRangeEnd` بنفس المعرف.
 
-[`EditableRangeStart`](./editablerangestart/) و[`EditableRangeEnd`](./editablerangeend/) هي مجرد علامات داخل document تحدد أين يبدأ النطاق القابل للتحرير وينتهي.
+[`EditableRangeStart`](./editablerangestart/) و`EditableRangeEnd` هي مجرد علامات داخل document تحدد أين يبدأ النطاق القابل للتحرير وينتهي.
 
 استخدم ال[`EditableRange`](../editablerange/)فئة كـ "واجهة" للعمل مع نطاق قابل للتحرير ككائن واحد.
 

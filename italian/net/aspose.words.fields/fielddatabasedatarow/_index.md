@@ -18,7 +18,7 @@ public class FieldDatabaseDataRow
 
 | Nome | Descrizione |
 | --- | --- |
-| [FieldDatabaseDataRow](fielddatabasedatarow/)(params string[]) | Inizializza una nuova istanza di[`FieldDatabaseDataRow`](./fielddatabasedatarow/) classe. |
+| [FieldDatabaseDataRow](fielddatabasedatarow/)(params string[]) | Inizializza una nuova istanza di`FieldDatabaseDataRow` classe. |
 
 ## Proprietà
 
@@ -30,7 +30,7 @@ public class FieldDatabaseDataRow
 
 | Nome | Descrizione |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | Inizializza una nuova istanza di[`FieldDatabaseDataRow`](./fielddatabasedatarow/) class dalDataRow istanza. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | Inizializza una nuova istanza di`FieldDatabaseDataRow` class dalDataRow istanza. |
 
 ### Guarda anche
 

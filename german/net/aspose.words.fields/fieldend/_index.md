@@ -56,9 +56,9 @@ public class FieldEnd : FieldChar
 
 ### Bemerkungen
 
-[`FieldEnd`](./fieldend/) ist ein Inline-Level-Knoten und wird repräsentiert durch die[`FieldEndChar`](../../aspose.words/controlchar/fieldendchar/) Steuerzeichen im Dokument.
+`FieldEnd` ist ein Inline-Level-Knoten und wird repräsentiert durch die[`FieldEndChar`](../../aspose.words/controlchar/fieldendchar/) Steuerzeichen im Dokument.
 
-[`FieldEnd`](./fieldend/) kann nur ein Kind von sein[`Paragraph`](../../aspose.words/paragraph/).
+`FieldEnd` kann nur ein Kind von sein[`Paragraph`](../../aspose.words/paragraph/).
 
 Ein vollständiges Feld in einem Microsoft Word-Dokument ist eine komplexe Struktur, die aus einem Feldanfangszeichen, einem Feldcode, einem Feldtrennzeichen, einem Feldergebnis und einem Feldendezeichen besteht. Einige Felder haben nur Feldanfang, Feldcode und Feldende.
 

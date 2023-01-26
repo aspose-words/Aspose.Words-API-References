@@ -37,7 +37,7 @@ public class OdsoFieldMapData
 
 ### Notlar
 
-Microsoft Word, ADRESSBLOCK veya GREETINGLINE alanlarında MERGEFIELD veya kullanımı olarak bir belgeye eklenmesine izin verdiği bazı önceden tanımlanmış birleştirme alanı adları sağlar. Belirtilen bilgiler[`OdsoFieldMapData`](./odsofieldmapdata/) , harici veri kaynağındaki bir sütunun önceden tanımlanmış tek bir birleştirme alanıyla eşlenmesine olanak tanır.
+Microsoft Word, ADRESSBLOCK veya GREETINGLINE alanlarında MERGEFIELD veya kullanımı olarak bir belgeye eklenmesine izin verdiği bazı önceden tanımlanmış birleştirme alanı adları sağlar. Belirtilen bilgiler`OdsoFieldMapData` , harici veri kaynağındaki bir sütunun önceden tanımlanmış tek bir birleştirme alanıyla eşlenmesine olanak tanır.
 
 ### Örnekler
 

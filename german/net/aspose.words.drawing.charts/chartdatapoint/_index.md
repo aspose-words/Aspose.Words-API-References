@@ -33,7 +33,7 @@ public class ChartDataPoint : IChartDataPoint
 
 ### Bemerkungen
 
-Auf einer Reihe, die[`ChartDataPoint`](./chartdatapoint/) Objekt ist ein Mitglied von[`ChartDataPointCollection`](../chartdatapointcollection/) . Die[`ChartDataPointCollection`](../chartdatapointcollection/) enthält ein[`ChartDataPoint`](./chartdatapoint/) Objekt für jeden Punkt.
+Auf einer Reihe, die`ChartDataPoint` Objekt ist ein Mitglied von[`ChartDataPointCollection`](../chartdatapointcollection/) . Die[`ChartDataPointCollection`](../chartdatapointcollection/) enthält ein`ChartDataPoint` Objekt für jeden Punkt.
 
 ### Beispiele
 

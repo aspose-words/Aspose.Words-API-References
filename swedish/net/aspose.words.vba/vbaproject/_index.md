@@ -34,7 +34,7 @@ public class VbaProject
 
 | namn | Beskrivning |
 | --- | --- |
-| [Clone](../../aspose.words.vba/vbaproject/clone/)() | Utför en kopia av[`VbaProject`](./vbaproject/) . |
+| [Clone](../../aspose.words.vba/vbaproject/clone/)() | Utför en kopia av`VbaProject` . |
 
 ### Exempel
 

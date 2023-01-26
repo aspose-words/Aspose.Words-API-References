@@ -18,7 +18,7 @@ public class SmartTag : CompositeNode
 
 | Имя | Описание |
 | --- | --- |
-| [SmartTag](smarttag/)(DocumentBase) | Инициализирует новый экземпляр[`SmartTag`](./smarttag/) класс. |
+| [SmartTag](smarttag/)(DocumentBase) | Инициализирует новый экземпляр`SmartTag` класс. |
 
 ## Характеристики
 
@@ -64,7 +64,7 @@ public class SmartTag : CompositeNode
 | [Remove](../../aspose.words/node/remove/)() | Удаляет себя из родителя. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Удаляет все дочерние узлы текущего узла. |
 | [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Удаляет указанный дочерний узел. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Удаляет все[`SmartTag`](./smarttag/) узлы-потомки текущего узла. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Удаляет все`SmartTag` узлы-потомки текущего узла. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Выбирает список узлов, соответствующих выражению XPath. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Выбирает первый узел, соответствующий выражению XPath. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку в указанном формате. |
@@ -74,9 +74,9 @@ public class SmartTag : CompositeNode
 
 Смарт-теги — это своего рода пользовательская XML-разметка. Смарт-теги обеспечивают возможность встраивания определяемой пользователем семантики в документ посредством предоставления базового пространства имен/имени для запуска или набора запусков в документе.
 
-[`SmartTag`](./smarttag/) может быть ребенком[`Paragraph`](../../aspose.words/paragraph/) или другой[`SmartTag`](./smarttag/) узел.
+`SmartTag` может быть ребенком[`Paragraph`](../../aspose.words/paragraph/) или другой`SmartTag` узел.
 
-Полный список дочерних узлов, которые могут встречаться внутри смарт-тега, состоит из [`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , [`SmartTag`](./smarttag/).
+Полный список дочерних узлов, которые могут встречаться внутри смарт-тега, состоит из [`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , `SmartTag`.
 
 ### Примеры
 

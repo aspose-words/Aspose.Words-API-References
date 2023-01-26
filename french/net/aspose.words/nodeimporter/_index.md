@@ -18,8 +18,8 @@ public class NodeImporter
 
 | Nom | La description |
 | --- | --- |
-| [NodeImporter](nodeimporter/#constructor)(DocumentBase, DocumentBase, ImportFormatMode) | Initialise une nouvelle instance du[`NodeImporter`](./nodeimporter/) classe. |
-| [NodeImporter](nodeimporter/#constructor_1)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | Initialise une nouvelle instance du[`NodeImporter`](./nodeimporter/) classe. |
+| [NodeImporter](nodeimporter/#constructor)(DocumentBase, DocumentBase, ImportFormatMode) | Initialise une nouvelle instance du`NodeImporter` classe. |
+| [NodeImporter](nodeimporter/#constructor_1)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | Initialise une nouvelle instance du`NodeImporter` classe. |
 
 ## Méthodes
 
@@ -33,13 +33,13 @@ Aspose.Words fournit des fonctionnalités permettant de copier et de déplacer f
 
 La façon la plus simple d'importer un nœud est d'utiliser le[`ImportNode`](../documentbase/importnode/) method fourni par le[`DocumentBase`](../documentbase/) objet.
 
-Cependant, lorsque vous devez importer plusieurs fois des nœuds d'un document à un autre, il est préférable d'utiliser le[`NodeImporter`](./nodeimporter/) classer. La[`NodeImporter`](./nodeimporter/) La classe permet de minimiser le nombre de styles et de listes créés dans le document de destination.
+Cependant, lorsque vous devez importer plusieurs fois des nœuds d'un document à un autre, il est préférable d'utiliser le`NodeImporter` classer. La`NodeImporter` La classe permet de minimiser le nombre de styles et de listes créés dans le document de destination.
 
 Copier ou déplacer des fragments d'un document Microsoft Word à un autre présente un nombre de défis techniques pour Aspose.Words. Dans un document Word, les styles et le formatage de liste sont stockés de manière centralisée, séparément du texte du document. Les paragraphes et les séquences de texte font simplement référence aux styles par des identifiants internes uniques.
 
 Les défis proviennent du fait que les styles et les listes sont différents dans différents documents. Par exemple, pour copier un paragraphe formaté avec le style Titre 1 d'un document à un autre, un certain nombre de choses doivent être prises en compte : décider si copiez le style Titre 1 de du document source vers le document de destination, clonez le paragraphe, mettez à jour le paragraphe cloné afin qu'il fasse référence au style Titre 1 correct dans le document de destination. Si le style devait être copié, tous les styles qu'il les références (basées sur le style et le style de paragraphe suivant) doivent être analysées et éventuellement copiées également, etc. Des problèmes similaires existent lors de la copie de paragraphes à puces ou numérotés, car Microsoft Word stocke les définitions de liste séparément du texte.
 
-La[`NodeImporter`](./nodeimporter/)class est comme un contexte, qui contient les "tables de traduction" lors de l'importation. Il traduit correctement entre les styles et les listes dans les documents source et destination.
+La`NodeImporter`class est comme un contexte, qui contient les "tables de traduction" lors de l'importation. Il traduit correctement entre les styles et les listes dans les documents source et destination.
 
 ### Exemples
 

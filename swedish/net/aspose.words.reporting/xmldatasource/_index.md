@@ -31,7 +31,7 @@ public class XmlDataSource
 
 För att komma åt data för motsvarande fil eller ström medan du genererar en rapport, skicka en instans av den här klassen as en datakälla till en av[`ReportingEngine`](../reportingengine/) .BuildReport overloads.
 
-I malldokument, om ett XML-element på toppnivå endast innehåller en lista med element av samma typ, en[`XmlDataSource`](./xmldatasource/) instans bör behandlas på samma sätt som om det vore aDataTable instans. Annars, en[`XmlDataSource`](./xmldatasource/) instans bör behandlas på samma sätt som om det vore aDataRow instans. För mer information, se mallsyntaxreferens (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+I malldokument, om ett XML-element på toppnivå endast innehåller en lista med element av samma typ, en`XmlDataSource` instans bör behandlas på samma sätt som om det vore aDataTable instans. Annars, en`XmlDataSource` instans bör behandlas på samma sätt som om det vore aDataRow instans. För mer information, se mallsyntaxreferens (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 När XML Schema Definition skickas till en konstruktor av denna klass, bestäms datatyper av värden för enkla XML-element och attribut enligt schemat. Så i malldokument kan du arbeta med inskrivna värden snarare än bara strängar.
 

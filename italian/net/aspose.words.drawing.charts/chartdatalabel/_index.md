@@ -40,7 +40,7 @@ public class ChartDataLabel
 
 ### Osservazioni
 
-Su una serie, il[`ChartDataLabel`](./chartdatalabel/) oggetto è un membro del[`ChartDataLabelCollection`](../chartdatalabelcollection/) . Il[`ChartDataLabelCollection`](../chartdatalabelcollection/) contiene un[`ChartDataLabel`](./chartdatalabel/) oggetto per ogni punto.
+Su una serie, il`ChartDataLabel` oggetto è un membro del[`ChartDataLabelCollection`](../chartdatalabelcollection/) . Il[`ChartDataLabelCollection`](../chartdatalabelcollection/) contiene un`ChartDataLabel` oggetto per ogni punto.
 
 ### Esempi
 

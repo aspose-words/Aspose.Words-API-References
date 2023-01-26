@@ -53,7 +53,7 @@ public sealed class Comment : InlineStory
 | [ParentParagraph](../../aspose.words/inlinestory/parentparagraph/) { get; } | Recupera el padre[`Paragraph`](../paragraph/) de este nodo. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtiene el nodo inmediatamente anterior a este nodo. |
 | [Range](../../aspose.words/node/range/) { get; } | Devuelve un **Rango** objeto que representa la parte de un documento que está contenido en este nodo. |
-| [Replies](../../aspose.words/comment/replies/) { get; } | Devuelve una colección de[`Comment`](./comment/) objetos que son hijos inmediatos del comentario especificado. |
+| [Replies](../../aspose.words/comment/replies/) { get; } | Devuelve una colección de`Comment` objetos que son hijos inmediatos del comentario especificado. |
 | override [StoryType](../../aspose.words/comment/storytype/) { get; } | Devoluciones **StoryType.Comentarios** . |
 | [Tables](../../aspose.words/inlinestory/tables/) { get; } | Obtiene una colección de tablas que son elementos secundarios inmediatos de la historia. |
 
@@ -95,13 +95,13 @@ public sealed class Comment : InlineStory
 
 Un comentario es una anotación que está anclada a una región de texto oa una posición en el texto. Un comentario puede contener una cantidad arbitraria de contenido a nivel de bloque.
 
-si un[`Comment`](./comment/) el objeto ocurre por sí solo, el comentario está anclado a la posición del[`Comment`](./comment/) objeto.
+si un`Comment` el objeto ocurre por sí solo, el comentario está anclado a la posición del`Comment` objeto.
 
-Para anclar un comentario a una región de texto se requieren tres objetos:[`Comment`](./comment/) , [`CommentRangeStart`](../commentrangestart/) y[`CommentRangeEnd`](../commentrangeend/) Los tres objetos deben compartir el mismo [`Id`](./id/) valor.
+Para anclar un comentario a una región de texto se requieren tres objetos:`Comment` , [`CommentRangeStart`](../commentrangestart/) y[`CommentRangeEnd`](../commentrangeend/) Los tres objetos deben compartir el mismo [`Id`](./id/) valor.
 
-[`Comment`](./comment/) es un nodo de nivel en línea y solo puede ser un elemento secundario de[`Paragraph`](../paragraph/).
+`Comment` es un nodo de nivel en línea y solo puede ser un elemento secundario de[`Paragraph`](../paragraph/).
 
-[`Comment`](./comment/) puede contener[`Paragraph`](../paragraph/) y[`Table`](../../aspose.words.tables/table/) nodos secundarios.
+`Comment` puede contener[`Paragraph`](../paragraph/) y[`Table`](../../aspose.words.tables/table/) nodos secundarios.
 
 ### Ejemplos
 

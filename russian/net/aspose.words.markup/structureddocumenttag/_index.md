@@ -104,15 +104,15 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 
 Теги структурированного документа (SDT) позволяют встраивать в документ определяемую пользователем семантику, а также его поведение и внешний вид .
 
-В этой версии Aspose.Words предоставляет ряд общедоступных методов и свойств для управления поведением и содержимым[`StructuredDocumentTag`](./structureddocumenttag/) . Сопоставление узлов SDT с пользовательскими пакетами XML в документе можно выполнить с помощью [`XmlMapping`](./xmlmapping/) имущество.
+В этой версии Aspose.Words предоставляет ряд общедоступных методов и свойств для управления поведением и содержимым`StructuredDocumentTag` . Сопоставление узлов SDT с пользовательскими пакетами XML в документе можно выполнить с помощью [`XmlMapping`](./xmlmapping/) имущество.
 
-[`StructuredDocumentTag`](./structureddocumenttag/) может встречаться в документе в следующих местах:
+`StructuredDocumentTag` может встречаться в документе в следующих местах:
 
 * Блочный уровень — среди абзацев и таблиц, как дочерний элемент[`Body`](../../aspose.words/body/) ,[`HeaderFooter`](../../aspose.words/headerfooter/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) или[`Shape`](../../aspose.words.drawing/shape/) узел.
 * Уровень строки — среди строк в таблице, как дочерний элемент[`Table`](../../aspose.words.tables/table/) узел.
 * Уровень ячейки — среди ячеек в строке таблицы, как дочерний элемент[`Row`](../../aspose.words.tables/row/) узел.
 * Встроенный уровень — среди встроенного контента внутри, как дочерний элемент[`Paragraph`](../../aspose.words/paragraph/).
-* Вложенный в другой[`StructuredDocumentTag`](./structureddocumenttag/).
+* Вложенный в другой`StructuredDocumentTag`.
 
 ### Примеры
 

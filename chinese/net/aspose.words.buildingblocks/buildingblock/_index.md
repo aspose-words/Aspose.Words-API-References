@@ -79,9 +79,9 @@ public class BuildingBlock : CompositeNode
 
 ### 评论
 
-[`BuildingBlock`](./buildingblock/)只能包含[`Section`](../../aspose.words/section/)节点。
+`BuildingBlock`只能包含[`Section`](../../aspose.words/section/)节点。
 
-[`BuildingBlock`](./buildingblock/)只能是[`GlossaryDocument`](../glossarydocument/).
+`BuildingBlock`只能是[`GlossaryDocument`](../glossarydocument/).
 
 您可以创建新的构建块并将它们插入到词汇表文档中。 您可以修改或删除现有的构建块。您可以在文档之间复制或移动 building blocks 。您可以将构建块的内容插入到文档中。
 

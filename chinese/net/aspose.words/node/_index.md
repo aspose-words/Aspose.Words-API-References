@@ -49,7 +49,7 @@ public abstract class Node
 
 有关详细信息，请参阅复合设计模式。
 
-这[`Node`](./node/)班级：
+这`Node`班级：
 
 * 定义子节点接口。
 * 定义访问节点的接口。

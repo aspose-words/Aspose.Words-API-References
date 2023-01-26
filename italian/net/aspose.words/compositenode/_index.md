@@ -67,7 +67,7 @@ Un documento è rappresentato come un albero di nodi, simile a DOM o XmlDocument
 
 Per ulteriori informazioni, vedere il modello di progettazione Composite.
 
-Il[`CompositeNode`](./compositenode/)classe:
+Il`CompositeNode`classe:
 
 * Fornisce l'accesso ai nodi figlio.
 * Implementa operazioni composite come inserire e rimuovere figli.

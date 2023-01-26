@@ -18,7 +18,7 @@ public class FieldDatabaseDataTable
 
 | namn | Beskrivning |
 | --- | --- |
-| [FieldDatabaseDataTable](fielddatabasedatatable/)(params string[]) | Initierar en ny instans av[`FieldDatabaseDataTable`](./fielddatabasedatatable/) class. |
+| [FieldDatabaseDataTable](fielddatabasedatatable/)(params string[]) | Initierar en ny instans av`FieldDatabaseDataTable` class. |
 
 ## Egenskaper
 
@@ -31,7 +31,7 @@ public class FieldDatabaseDataTable
 
 | namn | Beskrivning |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | Initierar en ny instans av[`FieldDatabaseDataTable`](./fielddatabasedatatable/) class frånDataTable instans. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | Initierar en ny instans av`FieldDatabaseDataTable` class frånDataTable instans. |
 
 ### Se även
 

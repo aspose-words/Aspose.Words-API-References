@@ -33,7 +33,7 @@ Aşağıdaki kaynaklardan çevrimiçi video eklenmesi desteklenir:
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Çevrimiçi videonuz düzgün görüntülenmiyorsa, şunu kullanın:[`InsertOnlineVideo`](./insertonlinevideo/), özel gömülü html kodunu kabul eder.
+Çevrimiçi videonuz düzgün görüntülenmiyorsa, şunu kullanın:`InsertOnlineVideo`, özel gömülü html kodunu kabul eder.
 
 Video yerleştirme kodu sağlayıcılar arasında değişiklik gösterebilir, ayrıntılar için ilgili sağlayıcınıza danışın.
 
@@ -93,7 +93,7 @@ Aşağıdaki kaynaklardan çevrimiçi video eklenmesi desteklenir:
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Çevrimiçi videonuz düzgün görüntülenmiyorsa, şunu kullanın:[`InsertOnlineVideo`](./insertonlinevideo/), özel gömülü html kodunu kabul eder.
+Çevrimiçi videonuz düzgün görüntülenmiyorsa, şunu kullanın:`InsertOnlineVideo`, özel gömülü html kodunu kabul eder.
 
 Video yerleştirme kodu sağlayıcılar arasında değişiklik gösterebilir, ayrıntılar için ilgili sağlayıcınıza danışın.
 

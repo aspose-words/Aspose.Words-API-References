@@ -36,7 +36,7 @@ public class PdfDigitalSignatureDetails
 
 Şu anda PDF belgelerini dijital olarak imzalamak yalnızca .NET 2.0 veya üzeri sürümlerde mevcuttur.
 
-Aspose.Words tarafından oluşturulduğunda bir PDF belgesini dijital olarak imzalamak için,[`DigitalSignatureDetails`](../pdfsaveoptions/digitalsignaturedetails/) özelliği geçerli bir[`PdfDigitalSignatureDetails`](./pdfdigitalsignaturedetails/) nesneyi seçin ve ardından belgeyi geçen PDF formatında kaydedin.[`PdfSaveOptions`](../pdfsaveoptions/)parametre olarak[`Save`](../../aspose.words/document/save/) yöntem.
+Aspose.Words tarafından oluşturulduğunda bir PDF belgesini dijital olarak imzalamak için,[`DigitalSignatureDetails`](../pdfsaveoptions/digitalsignaturedetails/) özelliği geçerli bir`PdfDigitalSignatureDetails` nesneyi seçin ve ardından belgeyi geçen PDF formatında kaydedin.[`PdfSaveOptions`](../pdfsaveoptions/)parametre olarak[`Save`](../../aspose.words/document/save/) yöntem.
 
 Aspose.Words, tüm PDF belgesi üzerinde bir PKCS#7 imzası oluşturur ve dijital imza oluştururken "Adobe.PPKMS" filtresini ve "adbe.pkcs7.sha1" alt filtresini kullanır.
 

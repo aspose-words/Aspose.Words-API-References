@@ -25,7 +25,7 @@ Le nombre de remplacements effectués.
 
 ### Remarques
 
-Le modèle ne sera pas utilisé comme expression régulière. Veuillez utiliser[`Replace`](./replace/) si vous avez besoin d'expressions régulières.
+Le modèle ne sera pas utilisé comme expression régulière. Veuillez utiliser`Replace` si vous avez besoin d'expressions régulières.
 
 Comparaison insensible à la casse utilisée.
 
@@ -38,7 +38,7 @@ Vous devez utiliser des méta-caractères spéciaux si vous devez travailler ave
 * **&amp;m** - saut de page
 * **&amp;l** - saut de ligne manuel
 
-Utiliser la méthode[`Replace`](./replace/) pour avoir une personnalisation plus flexible.
+Utiliser la méthode`Replace` pour avoir une personnalisation plus flexible.
 
 ### Exemples
 
@@ -139,7 +139,7 @@ Vous devez utiliser des méta-caractères spéciaux si vous devez travailler ave
 * **&amp;m** - saut de page
 * **&amp;l** - saut de ligne manuel
 
-Utiliser la méthode[`Replace`](./replace/) pour avoir une personnalisation plus flexible.
+Utiliser la méthode`Replace` pour avoir une personnalisation plus flexible.
 
 ### Exemples
 
@@ -193,7 +193,7 @@ Le nombre de remplacements effectués.
 
 ### Remarques
 
-Le modèle ne sera pas utilisé comme expression régulière. Veuillez utiliser[`Replace`](./replace/) si vous avez besoin d'expressions régulières.
+Le modèle ne sera pas utilisé comme expression régulière. Veuillez utiliser`Replace` si vous avez besoin d'expressions régulières.
 
 La méthode est capable de traiter les ruptures dans les chaînes de modèle et de remplacement.
 

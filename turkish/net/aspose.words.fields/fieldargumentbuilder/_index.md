@@ -18,7 +18,7 @@ public class FieldArgumentBuilder
 
 | İsim | Tanım |
 | --- | --- |
-| [FieldArgumentBuilder](fieldargumentbuilder/)() | Şunun bir örneğini başlatır:[`FieldArgumentBuilder`](./fieldargumentbuilder/) sınıf. |
+| [FieldArgumentBuilder](fieldargumentbuilder/)() | Şunun bir örneğini başlatır:`FieldArgumentBuilder` sınıf. |
 
 ## yöntemler
 

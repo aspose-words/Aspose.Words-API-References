@@ -82,7 +82,7 @@ public class Font
 
 ### Anmärkningar
 
-Du skapar inte instanser av[`Font`](./font/) klass direkt. Du använder bara [`Font`](./font/) för att komma åt teckensnittsegenskaperna för de olika objekten som t.ex[`Run`](../run/) , [`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
+Du skapar inte instanser av`Font` klass direkt. Du använder bara `Font` för att komma åt teckensnittsegenskaperna för de olika objekten som t.ex[`Run`](../run/) , [`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
 
 ### Exempel
 

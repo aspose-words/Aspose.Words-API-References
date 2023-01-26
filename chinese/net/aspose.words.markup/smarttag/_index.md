@@ -18,7 +18,7 @@ public class SmartTag : CompositeNode
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SmartTag](smarttag/)(DocumentBase) | 初始化[`SmartTag`](./smarttag/)类. |
+| [SmartTag](smarttag/)(DocumentBase) | 初始化`SmartTag`类. |
 
 ## 特性
 
@@ -64,7 +64,7 @@ public class SmartTag : CompositeNode
 | [Remove](../../aspose.words/node/remove/)() | 从父级中移除自身。 |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | 移除当前节点的所有子节点。 |
 | [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | 移除指定的子节点。 |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | 删除所有[`SmartTag`](./smarttag/)当前节点的后代节点。 |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | 删除所有`SmartTag`当前节点的后代节点。 |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | 选择与 XPath 表达式匹配的节点列表。 |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | 选择与 XPath 表达式匹配的第一个节点。 |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | 将节点的内容导出为指定格式的字符串。 |
@@ -74,9 +74,9 @@ public class SmartTag : CompositeNode
 
 智能标记是一种自定义 XML 标记。智能标签通过为文档中的运行或一组运行提供基本命名空间/name 的能力，为将客户定义的语义嵌入到文档中提供了便利。
 
-[`SmartTag`](./smarttag/)可以是一个孩子[`Paragraph`](../../aspose.words/paragraph/)or 另一个[`SmartTag`](./smarttag/)节点。
+`SmartTag`可以是一个孩子[`Paragraph`](../../aspose.words/paragraph/)or 另一个`SmartTag`节点。
 
-可以出现在智能标记内的子节点的完整列表包括 [`BookmarkStart`](../../aspose.words/bookmarkstart/),[`BookmarkEnd`](../../aspose.words/bookmarkend/), [`FieldStart`](../../aspose.words.fields/fieldstart/),[`FieldSeparator`](../../aspose.words.fields/fieldseparator/),[`FieldEnd`](../../aspose.words.fields/fieldend/),[`FormField`](../../aspose.words.fields/formfield/), [`Comment`](../../aspose.words/comment/),[`Footnote`](../../aspose.words.notes/footnote/), [`Run`](../../aspose.words/run/),[`SpecialChar`](../../aspose.words/specialchar/), [`Shape`](../../aspose.words.drawing/shape/),[`GroupShape`](../../aspose.words.drawing/groupshape/), [`CommentRangeStart`](../../aspose.words/commentrangestart/), [`CommentRangeEnd`](../../aspose.words/commentrangeend/), [`SmartTag`](./smarttag/).
+可以出现在智能标记内的子节点的完整列表包括 [`BookmarkStart`](../../aspose.words/bookmarkstart/),[`BookmarkEnd`](../../aspose.words/bookmarkend/), [`FieldStart`](../../aspose.words.fields/fieldstart/),[`FieldSeparator`](../../aspose.words.fields/fieldseparator/),[`FieldEnd`](../../aspose.words.fields/fieldend/),[`FormField`](../../aspose.words.fields/formfield/), [`Comment`](../../aspose.words/comment/),[`Footnote`](../../aspose.words.notes/footnote/), [`Run`](../../aspose.words/run/),[`SpecialChar`](../../aspose.words/specialchar/), [`Shape`](../../aspose.words.drawing/shape/),[`GroupShape`](../../aspose.words.drawing/groupshape/), [`CommentRangeStart`](../../aspose.words/commentrangestart/), [`CommentRangeEnd`](../../aspose.words/commentrangeend/), `SmartTag`.
 
 ### 例子
 

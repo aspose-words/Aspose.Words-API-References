@@ -41,13 +41,13 @@ public class ListLevel
 | [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | 删除当前列表级别的图片项目符号。 |
 | [Equals](../../aspose.words.lists/listlevel/equals/#equals)(ListLevel) | 与指定的 ListLevel 比较。 |
 | override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | 计算此对象的哈希码。 |
-| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | 报告[`ListLevel`](./listlevel/)列表项的指定 index 的对象。参数指定[`NumberStyle`](../../aspose.words/numberstyle/)和一个可选的格式 string 使用时Custom已指定。 |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | 报告`ListLevel`列表项的指定 index 的对象。参数指定[`NumberStyle`](../../aspose.words/numberstyle/)和一个可选的格式 string 使用时Custom已指定。 |
 
 ### 评论
 
-您不创建此类的对象。创建列表时会自动创建列表级对象 。您访问[`ListLevel`](./listlevel/)对象通过 [`ListLevelCollection`](../listlevelcollection/)收藏。
+您不创建此类的对象。创建列表时会自动创建列表级对象 。您访问`ListLevel`对象通过 [`ListLevelCollection`](../listlevelcollection/)收藏。
 
-使用的属性[`ListLevel`](./listlevel/)为各个列表级别指定列表格式设置 。
+使用的属性`ListLevel`为各个列表级别指定列表格式设置 。
 
 ### 例子
 

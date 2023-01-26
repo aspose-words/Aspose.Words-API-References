@@ -33,7 +33,7 @@ Il nodo dell'immagine che è stato appena inserito.
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Se il tuo video online non viene visualizzato correttamente, utilizza[`InsertOnlineVideo`](./insertonlinevideo/), che accetta codice html incorporato personalizzato.
+Se il tuo video online non viene visualizzato correttamente, utilizza`InsertOnlineVideo`, che accetta codice html incorporato personalizzato.
 
 Il codice per l'incorporamento di video può variare a seconda del provider, per i dettagli consulta il provider di scelta corrispondente.
 
@@ -93,7 +93,7 @@ Il nodo dell'immagine che è stato appena inserito.
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Se il tuo video online non viene visualizzato correttamente, utilizza[`InsertOnlineVideo`](./insertonlinevideo/), che accetta codice html incorporato personalizzato.
+Se il tuo video online non viene visualizzato correttamente, utilizza`InsertOnlineVideo`, che accetta codice html incorporato personalizzato.
 
 Il codice per l'incorporamento di video può variare a seconda del provider, per i dettagli consulta il provider di scelta corrispondente.
 

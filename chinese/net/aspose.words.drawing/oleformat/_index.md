@@ -43,7 +43,7 @@ public class OleFormat
 
 ### 评论
 
-使用[`OleFormat`](../shape/oleformat/)属性来访问 OLE 对象的数据。 您不创建[`OleFormat`](./oleformat/)直接上课。
+使用[`OleFormat`](../shape/oleformat/)属性来访问 OLE 对象的数据。 您不创建`OleFormat`直接上课。
 
 ### 例子
 

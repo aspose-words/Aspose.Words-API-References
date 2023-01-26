@@ -30,7 +30,7 @@ public class PrinterSettingsContainer
 
 ### ملاحظات
 
-الوصول إلى بياناتPrinterSettings يستغرق وقتا طويلا.[`PrinterSettingsContainer`](./printersettingscontainer/) وتخزين المعلمات منPrinterSettings ، لذا تعمل الطباعة بشكل أسرع.
+الوصول إلى بياناتPrinterSettings يستغرق وقتا طويلا.`PrinterSettingsContainer` وتخزين المعلمات منPrinterSettings ، لذا تعمل الطباعة بشكل أسرع.
 
 ### أمثلة
 

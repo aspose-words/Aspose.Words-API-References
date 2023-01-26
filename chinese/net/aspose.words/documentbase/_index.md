@@ -73,9 +73,9 @@ public abstract class DocumentBase : CompositeNode
 
 ### 评论
 
-Aspose.Words 将 Word 文档表示为节点树。[`DocumentBase`](./documentbase/)是包含文档所有其他节点的树的 根节点。
+Aspose.Words 将 Word 文档表示为节点树。`DocumentBase`是包含文档所有其他节点的树的 根节点。
 
-[`DocumentBase`](./documentbase/)还存储文档范围的信息，例如[`Styles`](./styles/)和 [`Lists`](./lists/)树节点可能引用的。
+`DocumentBase`还存储文档范围的信息，例如[`Styles`](./styles/)和 [`Lists`](./lists/)树节点可能引用的。
 
 ### 例子
 

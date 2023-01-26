@@ -41,13 +41,13 @@ public class ListLevel
 | [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | Geçerli liste düzeyi için resim madde işaretini siler. |
 | [Equals](../../aspose.words.lists/listlevel/equals/#equals)(ListLevel) | Belirtilen ListLevel. ile karşılaştırır |
 | override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | Bu nesne için karma kodu hesaplar. |
-| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | [`ListLevel`](./listlevel/) liste öğesinin belirtilen index nesnesi. Parametreler şunları belirtir:[`NumberStyle`](../../aspose.words/numberstyle/) ve şu durumlarda kullanılan isteğe bağlı bir string biçimiCustom belirtildi. |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | `ListLevel` liste öğesinin belirtilen index nesnesi. Parametreler şunları belirtir:[`NumberStyle`](../../aspose.words/numberstyle/) ve şu durumlarda kullanılan isteğe bağlı bir string biçimiCustom belirtildi. |
 
 ### Notlar
 
-Bu sınıfın nesnelerini oluşturmazsınız. Liste düzeyi nesneleri, bir liste oluşturulduğunda otomatik olarak oluşturulur. erişirsiniz[`ListLevel`](./listlevel/) the aracılığıyla nesneler[`ListLevelCollection`](../listlevelcollection/) Toplamak.
+Bu sınıfın nesnelerini oluşturmazsınız. Liste düzeyi nesneleri, bir liste oluşturulduğunda otomatik olarak oluşturulur. erişirsiniz`ListLevel` the aracılığıyla nesneler[`ListLevelCollection`](../listlevelcollection/) Toplamak.
 
-özelliklerini kullanın[`ListLevel`](./listlevel/) tek tek liste düzeyleri için liste biçimlendirme belirtmek için.
+özelliklerini kullanın`ListLevel` tek tek liste düzeyleri için liste biçimlendirme belirtmek için.
 
 ### Örnekler
 

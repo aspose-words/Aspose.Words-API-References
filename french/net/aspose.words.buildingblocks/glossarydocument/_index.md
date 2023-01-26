@@ -87,7 +87,7 @@ Certains documents, généralement des modèles, peuvent contenir des insertions
 
 Pour accéder aux blocs de construction, vous devez charger un document dans un[`Document`](../../aspose.words/document/) objet. Les blocs de construction seront disponibles via le[`GlossaryDocument`](../../aspose.words/document/glossarydocument/) propriété.
 
-[`GlossaryDocument`](./glossarydocument/) peut contenir n'importe quel nombre de[`BuildingBlock`](../buildingblock/) objets. Chacun[`BuildingBlock`](../buildingblock/) représente une partie de document.
+`GlossaryDocument` peut contenir n'importe quel nombre de[`BuildingBlock`](../buildingblock/) objets. Chacun[`BuildingBlock`](../buildingblock/) représente une partie de document.
 
 Correspond à la **glossaireDocument** et **docParts**éléments en OOXML.
 

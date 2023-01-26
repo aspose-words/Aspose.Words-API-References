@@ -55,9 +55,9 @@ public class FieldSeparator : FieldChar
 
 ### Bemerkungen
 
-[`FieldSeparator`](./fieldseparator/) ist ein Inline-Level-Knoten und wird repräsentiert durch die[`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar/) Steuerzeichen im Dokument.
+`FieldSeparator` ist ein Inline-Level-Knoten und wird repräsentiert durch die[`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar/) Steuerzeichen im Dokument.
 
-[`FieldSeparator`](./fieldseparator/) kann nur ein Kind von sein[`Paragraph`](../../aspose.words/paragraph/).
+`FieldSeparator` kann nur ein Kind von sein[`Paragraph`](../../aspose.words/paragraph/).
 
 Ein vollständiges Feld in einem Microsoft Word-Dokument ist eine komplexe Struktur, die aus einem Feldanfangszeichen, einem Feldcode, einem Feldtrennzeichen, einem Feldergebnis und einem Feldendezeichen besteht. Einige Felder haben nur Feldanfang, Feldcode und Feldende.
 

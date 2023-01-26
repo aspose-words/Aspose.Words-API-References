@@ -18,7 +18,7 @@ public class FieldDatabaseDataTable
 
 | Имя | Описание |
 | --- | --- |
-| [FieldDatabaseDataTable](fielddatabasedatatable/)(params string[]) | Инициализирует новый экземпляр[`FieldDatabaseDataTable`](./fielddatabasedatatable/) класс. |
+| [FieldDatabaseDataTable](fielddatabasedatatable/)(params string[]) | Инициализирует новый экземпляр`FieldDatabaseDataTable` класс. |
 
 ## Характеристики
 
@@ -31,7 +31,7 @@ public class FieldDatabaseDataTable
 
 | Имя | Описание |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | Инициализирует новый экземпляр[`FieldDatabaseDataTable`](./fielddatabasedatatable/) class изDataTable экземпляр. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | Инициализирует новый экземпляр`FieldDatabaseDataTable` class изDataTable экземпляр. |
 
 ### Смотрите также
 

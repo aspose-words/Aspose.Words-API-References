@@ -30,7 +30,7 @@ public class ComHelper
 
 ### Osservazioni
 
-Utilizzare il[`ComHelper`](./comhelper/) classe per caricare un documento da un file o eseguire lo streaming in un [`Document`](../document/) oggetto in un'applicazione COM.
+Utilizzare il`ComHelper` classe per caricare un documento da un file o eseguire lo streaming in un [`Document`](../document/) oggetto in un'applicazione COM.
 
 Il[`Document`](../document/)class fornisce un costruttore predefinito per creare un nuovo documento e fornisce anche costruttori sovraccaricati per caricare un documento da un file o da un flusso. Se si utilizza Aspose.Words da un'applicazione .NET, è possibile utilizzare tutti i[`Document`](../document/) costruttori direttamente, ma se stai usando Aspose.Words da un'applicazione COM, solo l'impostazione predefinita[`Document`](../document/) costruttore è disponibile.
 

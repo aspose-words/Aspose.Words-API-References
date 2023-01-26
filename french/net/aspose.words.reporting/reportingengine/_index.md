@@ -25,7 +25,7 @@ public class ReportingEngine
 | Nom | La description |
 | --- | --- |
 | [KnownTypes](../../aspose.words.reporting/reportingengine/knowntypes/) { get; } | Obtient un ensemble non ordonné (c'est-à-dire une collection d'éléments uniques) contenantTypeobjets dont les noms entièrement ou partiellement qualifiés peuvent être utilisés dans les modèles de rapport traités par cette instance de moteur pour appeler les membres statiques des types correspondants, effectuer des conversions de type, etc. |
-| [Options](../../aspose.words.reporting/reportingengine/options/) { get; set; } | Obtient ou définit un ensemble d'indicateurs contrôlant le comportement de ce[`ReportingEngine`](./reportingengine/) instance lors de la création d'un rapport. |
+| [Options](../../aspose.words.reporting/reportingengine/options/) { get; set; } | Obtient ou définit un ensemble d'indicateurs contrôlant le comportement de ce`ReportingEngine` instance lors de la création d'un rapport. |
 | static [UseReflectionOptimization](../../aspose.words.reporting/reportingengine/usereflectionoptimization/) { get; set; } | Obtient ou définit une valeur indiquant si les appels de membres de type personnalisé effectués via l'API de réflexion sont optimisés à l'aide de la génération de classe dynamique ou non. La valeur par défaut est true. |
 
 ## Méthodes

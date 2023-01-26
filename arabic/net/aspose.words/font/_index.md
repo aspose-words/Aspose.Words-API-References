@@ -82,7 +82,7 @@ public class Font
 
 ### ملاحظات
 
-لا تقوم بإنشاء مثيلات من[`Font`](./font/) فئة مباشرة. أنت فقط use [`Font`](./font/) للوصول إلى خصائص الخط للعديد من الكائنات مثل[`Run`](../run/) ، [`Paragraph`](../paragraph/) و[`Style`](../style/) و[`DocumentBuilder`](../documentbuilder/).
+لا تقوم بإنشاء مثيلات من`Font` فئة مباشرة. أنت فقط use `Font` للوصول إلى خصائص الخط للعديد من الكائنات مثل[`Run`](../run/) ، [`Paragraph`](../paragraph/) و[`Style`](../style/) و[`DocumentBuilder`](../documentbuilder/).
 
 ### أمثلة
 

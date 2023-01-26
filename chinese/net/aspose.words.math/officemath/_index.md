@@ -8,7 +8,7 @@ url: /zh/net/aspose.words.math/officemath/
 ---
 ## OfficeMath class
 
-表示 Office Math 对象，例如函数、方程、矩阵等。可以包含子元素 ，包括数学文本、书签、评论、其他[`OfficeMath`](./officemath/)实例和其他一些节点。
+表示 Office Math 对象，例如函数、方程、矩阵等。可以包含子元素 ，包括数学文本、书签、评论、其他`OfficeMath`实例和其他一些节点。
 
 ```csharp
 public class OfficeMath : CompositeNode
@@ -69,9 +69,9 @@ public class OfficeMath : CompositeNode
 
 ### 评论
 
-在这个版本的 Aspose.Words 中，[`OfficeMath`](./officemath/)节点不提供公共方法 和属性来创建或修改 OfficeMath 对象。在此版本中，您无法实例化 Math节点或修改现有节点，但删除它们。
+在这个版本的 Aspose.Words 中，`OfficeMath`节点不提供公共方法 和属性来创建或修改 OfficeMath 对象。在此版本中，您无法实例化 Math节点或修改现有节点，但删除它们。
 
-[`OfficeMath`](./officemath/)只能是[`Paragraph`](../../aspose.words/paragraph/).
+`OfficeMath`只能是[`Paragraph`](../../aspose.words/paragraph/).
 
 ### 例子
 

@@ -25,7 +25,7 @@ Un flag che indica se l'analisi del documento modello è riuscita. Il flag resti
 
 ### Osservazioni
 
-Utilizzando questo overload è possibile fare riferimento ai membri dell'origine dati nel documento modello, ma non è possibile fare riferimento all'oggetto origine dati stesso. Dovresti usare il[`BuildReport`](./buildreport/) sovraccarico per raggiungere questo obiettivo.
+Utilizzando questo overload è possibile fare riferimento ai membri dell'origine dati nel documento modello, ma non è possibile fare riferimento all'oggetto origine dati stesso. Dovresti usare il`BuildReport` sovraccarico per raggiungere questo obiettivo.
 
 Un oggetto origine dati può essere di uno dei seguenti tipi:
 
@@ -72,7 +72,7 @@ Un flag che indica se l'analisi del documento modello è riuscita. Il flag resti
 
 ### Osservazioni
 
-Utilizzando questo overload è possibile fare riferimento ai membri dell'origine dati e all'oggetto origine dati stesso nel modello. Se non hai intenzione di fare riferimento all'oggetto origine dati stesso, puoi ometterlo*dataSourceName* passando null o usa il[`BuildReport`](./buildreport/) sovraccarico.
+Utilizzando questo overload è possibile fare riferimento ai membri dell'origine dati e all'oggetto origine dati stesso nel modello. Se non hai intenzione di fare riferimento all'oggetto origine dati stesso, puoi ometterlo*dataSourceName* passando null o usa il`BuildReport` sovraccarico.
 
 Un oggetto origine dati può essere di uno dei seguenti tipi:
 
@@ -121,7 +121,7 @@ Un flag che indica se l'analisi del documento modello è riuscita. Il flag resti
 
 Utilizzando questo overload è possibile fare riferimento a più oggetti origine dati e ai relativi membri nel modello. Il nome della prima origine dati può essere omesso (ovvero essere una stringa vuota o null) se si intende fare riferimento ai membri dell'origine dati ma non all'oggetto origine dati stesso. I nomi delle altre origini dati devono essere specificati e univoci.
 
-Se intendi utilizzare una singola origine dati, considera l'utilizzo di[`BuildReport`](./buildreport/) e[`BuildReport`](./buildreport/) sovraccarichi invece.
+Se intendi utilizzare una singola origine dati, considera l'utilizzo di`BuildReport` e`BuildReport` sovraccarichi invece.
 
 Un oggetto origine dati può essere di uno dei seguenti tipi:
 

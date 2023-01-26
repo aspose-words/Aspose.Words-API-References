@@ -18,7 +18,7 @@ public class FieldArgumentBuilder
 
 | Имя | Описание |
 | --- | --- |
-| [FieldArgumentBuilder](fieldargumentbuilder/)() | Инициализирует экземпляр[`FieldArgumentBuilder`](./fieldargumentbuilder/) класс. |
+| [FieldArgumentBuilder](fieldargumentbuilder/)() | Инициализирует экземпляр`FieldArgumentBuilder` класс. |
 
 ## Методы
 

@@ -67,7 +67,7 @@ public abstract class CompositeNode : Node, IEnumerable<Node>, IXPathNavigable
 
 有关详细信息，请参阅复合设计模式。
 
-这[`CompositeNode`](./compositenode/)班级：
+这`CompositeNode`班级：
 
 * 提供对子节点的访问。
 * 实现复合操作，例如插入和删除子项。

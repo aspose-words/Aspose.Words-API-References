@@ -56,9 +56,9 @@ public class FieldStart : FieldChar
 
 ### ملاحظات
 
-[`FieldStart`](./fieldstart/) هي عقدة ذات مستوى مضمن ويتم تمثيلها بواسطة [`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) حرف التحكم في المستند.
+`FieldStart` هي عقدة ذات مستوى مضمن ويتم تمثيلها بواسطة [`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) حرف التحكم في المستند.
 
-[`FieldStart`](./fieldstart/) يمكن أن يكون فقط تابعًا لـ[`Paragraph`](../../aspose.words/paragraph/).
+`FieldStart` يمكن أن يكون فقط تابعًا لـ[`Paragraph`](../../aspose.words/paragraph/).
 
 الحقل الكامل في مستند Microsoft Word عبارة عن بنية معقدة تتكون من حرف بداية الحقل ، ورمز الحقل ، وحرف فاصل الحقل ، ونتائج الحقل وحرف نهاية الحقل. تحتوي بعض الحقول فقط على بداية الحقل ورمز الحقل ونهاية الحقل.
 

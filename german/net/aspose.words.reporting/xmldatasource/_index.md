@@ -31,7 +31,7 @@ public class XmlDataSource
 
 Um beim Generieren eines Berichts auf Daten der entsprechenden Datei oder des Streams zuzugreifen, übergeben Sie eine Instanz dieser Klasse als an eine der Datenquellen[`ReportingEngine`](../reportingengine/) .BuildReport-Überladungen.
 
-In Vorlagendokumenten, wenn ein XML-Element der obersten Ebene nur eine Liste von Elementen desselben Typs enthält, an[`XmlDataSource`](./xmldatasource/) Beispiel sollte genauso behandelt werden, als wäre es aDataTable Instanz. Ansonsten ein[`XmlDataSource`](./xmldatasource/) Beispiel sollte genauso behandelt werden, als wäre es aDataRow Instanz. Weitere Informationen finden Sie in der Referenz zur Vorlagensyntax (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+In Vorlagendokumenten, wenn ein XML-Element der obersten Ebene nur eine Liste von Elementen desselben Typs enthält, an`XmlDataSource` Beispiel sollte genauso behandelt werden, als wäre es aDataTable Instanz. Ansonsten ein`XmlDataSource` Beispiel sollte genauso behandelt werden, als wäre es aDataRow Instanz. Weitere Informationen finden Sie in der Referenz zur Vorlagensyntax (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 Wenn die XML-Schema-Definition an einen Konstruktor dieser Klasse übergeben wird, werden Datentypen von Werten einfacher XML-Elemente und Attribute gemäß dem Schema bestimmt. In Vorlagendokumenten können Sie also mit eingegebenen Werten statt nur mit Zeichenfolgen arbeiten.
 

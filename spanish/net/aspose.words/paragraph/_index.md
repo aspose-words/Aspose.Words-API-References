@@ -97,9 +97,9 @@ public class Paragraph : CompositeNode
 
 ### Observaciones
 
-[`Paragraph`](./paragraph/) es un nodo a nivel de bloque y puede ser un hijo de clases derivadas de [`Story`](../story/) o[`InlineStory`](../inlinestory/).
+`Paragraph` es un nodo a nivel de bloque y puede ser un hijo de clases derivadas de [`Story`](../story/) o[`InlineStory`](../inlinestory/).
 
-[`Paragraph`](./paragraph/) puede contener cualquier número de nodos y marcadores de nivel en línea.
+`Paragraph` puede contener cualquier número de nodos y marcadores de nivel en línea.
 
 La lista completa de nodos secundarios que pueden aparecer dentro de un párrafo consta de [`BookmarkStart`](../bookmarkstart/) ,[`BookmarkEnd`](../bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) , [`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../run/) ,[`SpecialChar`](../specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`SmartTag`](../../aspose.words.markup/smarttag/).
 

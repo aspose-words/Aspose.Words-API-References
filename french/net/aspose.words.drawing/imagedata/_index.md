@@ -52,7 +52,7 @@ public class ImageData
 
 ### Remarques
 
-Utilisez le[`ImageData`](../shape/imagedata/) propriété pour accéder et modifier l'image à l'intérieur d'une forme. Vous ne créez pas d'instances de la[`ImageData`](./imagedata/) classe directement.
+Utilisez le[`ImageData`](../shape/imagedata/) propriété pour accéder et modifier l'image à l'intérieur d'une forme. Vous ne créez pas d'instances de la`ImageData` classe directement.
 
 Une image peut être stockée dans une forme, liée à un fichier externe ou les deux (liée et stockée dans le document).
 

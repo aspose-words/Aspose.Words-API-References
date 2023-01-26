@@ -33,7 +33,7 @@ public class ChartDataPoint : IChartDataPoint
 
 ### ملاحظات
 
-في سلسلة ، ملف[`ChartDataPoint`](./chartdatapoint/) الكائن عضو في[`ChartDataPointCollection`](../chartdatapointcollection/) . ملف[`ChartDataPointCollection`](../chartdatapointcollection/) يحتوي على[`ChartDataPoint`](./chartdatapoint/) كائن لكل نقطة.
+في سلسلة ، ملف`ChartDataPoint` الكائن عضو في[`ChartDataPointCollection`](../chartdatapointcollection/) . ملف[`ChartDataPointCollection`](../chartdatapointcollection/) يحتوي على`ChartDataPoint` كائن لكل نقطة.
 
 ### أمثلة
 

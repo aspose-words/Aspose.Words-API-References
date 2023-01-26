@@ -87,7 +87,7 @@ Bazı belgeler, genellikle şablonlar, Otomatik Metin, Otomatik Düzeltme girdil
 
 Yapı taşlarına erişmek için bir belgeyi bir[`Document`](../../aspose.words/document/) nesne. Yapı taşları,[`GlossaryDocument`](../../aspose.words/document/glossarydocument/) Emlak.
 
-[`GlossaryDocument`](./glossarydocument/) herhangi bir sayıda içerebilir[`BuildingBlock`](../buildingblock/) nesneler. Her biri[`BuildingBlock`](../buildingblock/) bir belge bölümünü temsil eder.
+`GlossaryDocument` herhangi bir sayıda içerebilir[`BuildingBlock`](../buildingblock/) nesneler. Her biri[`BuildingBlock`](../buildingblock/) bir belge bölümünü temsil eder.
 
 karşılık gelir **sözlükBelge** ve **docParts**OOXML'deki öğeler.
 

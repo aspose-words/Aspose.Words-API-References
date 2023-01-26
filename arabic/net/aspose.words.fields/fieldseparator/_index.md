@@ -55,9 +55,9 @@ public class FieldSeparator : FieldChar
 
 ### ملاحظات
 
-[`FieldSeparator`](./fieldseparator/) هي عقدة ذات مستوى مضمن ويتم تمثيلها بـ بواسطة ملف[`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar/) حرف التحكم في المستند.
+`FieldSeparator` هي عقدة ذات مستوى مضمن ويتم تمثيلها بـ بواسطة ملف[`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar/) حرف التحكم في المستند.
 
-[`FieldSeparator`](./fieldseparator/) يمكن أن يكون فقط تابعًا لـ[`Paragraph`](../../aspose.words/paragraph/).
+`FieldSeparator` يمكن أن يكون فقط تابعًا لـ[`Paragraph`](../../aspose.words/paragraph/).
 
 الحقل الكامل في مستند Microsoft Word عبارة عن بنية معقدة تتكون من حرف بداية الحقل ، ورمز الحقل ، وحرف فاصل الحقل ، ونتائج الحقل وحرف نهاية الحقل. تحتوي بعض الحقول فقط على بداية الحقل ورمز الحقل ونهاية الحقل.
 

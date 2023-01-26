@@ -32,7 +32,7 @@ public class EditableRange
 
 ### Anmärkningar
 
-[`EditableRange`](./editablerange/) är ett "fasad"-objekt som kapslar in två noder[`EditableRangeStart`](./editablerangestart/) och[`EditableRangeEnd`](./editablerangeend/) i ett dokumentträd och gör det möjligt att arbeta med ett redigerbart område som ett enda objekt.
+`EditableRange` är ett "fasad"-objekt som kapslar in två noder[`EditableRangeStart`](./editablerangestart/) och[`EditableRangeEnd`](./editablerangeend/) i ett dokumentträd och gör det möjligt att arbeta med ett redigerbart område som ett enda objekt.
 
 ### Exempel
 

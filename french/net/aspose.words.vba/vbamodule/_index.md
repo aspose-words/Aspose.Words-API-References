@@ -32,7 +32,7 @@ public class VbaModule
 
 | Nom | La description |
 | --- | --- |
-| [Clone](../../aspose.words.vba/vbamodule/clone/)() | Effectue une copie du[`VbaModule`](./vbamodule/) . |
+| [Clone](../../aspose.words.vba/vbamodule/clone/)() | Effectue une copie du`VbaModule` . |
 
 ### Exemples
 

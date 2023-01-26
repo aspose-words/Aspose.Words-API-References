@@ -29,10 +29,10 @@ public class PageInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(PaperSizeCollection) | 获取PaperSize适合打印的对象 这个代表的页面[`PageInfo`](./pageinfo/). |
+| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(PaperSizeCollection) | 获取PaperSize适合打印的对象 这个代表的页面`PageInfo`. |
 | [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels)(float, float) | 计算指定缩放因子和分辨率的页面大小（以像素为单位）。 |
 | [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels_1)(float, float, float) | 计算指定缩放因子和分辨率的页面大小（以像素为单位）。 |
-| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(PaperSourceCollection, PaperSource) | 获取PaperSource适合打印的对象 这个代表的页面[`PageInfo`](./pageinfo/). |
+| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(PaperSourceCollection, PaperSource) | 获取PaperSource适合打印的对象 这个代表的页面`PageInfo`. |
 
 ### 评论
 

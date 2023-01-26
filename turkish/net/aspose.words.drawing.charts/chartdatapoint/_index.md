@@ -33,7 +33,7 @@ public class ChartDataPoint : IChartDataPoint
 
 ### Notlar
 
-Bir dizide,[`ChartDataPoint`](./chartdatapoint/) nesne üyedir[`ChartDataPointCollection`](../chartdatapointcollection/) . [`ChartDataPointCollection`](../chartdatapointcollection/) içerir[`ChartDataPoint`](./chartdatapoint/) Her nokta için nesne.
+Bir dizide,`ChartDataPoint` nesne üyedir[`ChartDataPointCollection`](../chartdatapointcollection/) . [`ChartDataPointCollection`](../chartdatapointcollection/) içerir`ChartDataPoint` Her nokta için nesne.
 
 ### Örnekler
 

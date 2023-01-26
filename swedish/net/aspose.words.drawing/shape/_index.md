@@ -154,7 +154,7 @@ public sealed class Shape : ShapeBase
 
 ### Anmärkningar
 
-Använda[`Shape`](./shape/) klass kan du skapa eller ändra former i ett Microsoft Word-dokument.
+Använda`Shape` klass kan du skapa eller ändra former i ett Microsoft Word-dokument.
 
 En viktig egenskap hos en form är dess[`ShapeType`](../shapebase/shapetype/). Former av olika -typer kan ha olika möjligheter i ett Word-dokument. Till exempel kan endast bild och OLE shapes ha bilder inuti dem. De flesta formerna kan ha text, men inte alla.
 

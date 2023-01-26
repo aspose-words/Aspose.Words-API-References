@@ -41,7 +41,7 @@ public class List : IComparable<List>
 
 Microsoft Word belgesindeki bir liste, bir liste biçimlendirme özellikleri kümesidir. Her liste en fazla 9 düzeye sahip olabilir ve sayı stili, başlangıç değeri, girintisi, sekme konumu vb. gibi biçimlendirme özellikleri her düzey için ayrı olarak tanımlanır.
 
-A[`List`](./list/) nesne her zaman aittir[`ListCollection`](../listcollection/) Toplamak.
+A`List` nesne her zaman aittir[`ListCollection`](../listcollection/) Toplamak.
 
 Yeni bir liste oluşturmak için Ekleme yöntemlerini kullanın.[`ListCollection`](../listcollection/) Toplamak.
 

@@ -28,9 +28,9 @@ public class AsposeWordsPrintDocument : PrintDocument
 
 ### Anmärkningar
 
-[`AsposeWordsPrintDocument`](./asposewordsprintdocument/) åsidosätterPrintEventArgs) för att skriva ut det intervall av sidor som anges iPrinterSettings.
+`AsposeWordsPrintDocument` åsidosätterPrintEventArgs) för att skriva ut det intervall av sidor som anges iPrinterSettings.
 
-Ett enda Word-dokument kan bestå av flera sektioner som anger sidor med olika storlekar, orientering och pappersfack.[`AsposeWordsPrintDocument`](./asposewordsprintdocument/) åsidosätter QueryPageSettingsEventArgs) för att korrekt välja pappersstorlek, orientering och papperskälla när du skriver ut ett Word-dokument.
+Ett enda Word-dokument kan bestå av flera sektioner som anger sidor med olika storlekar, orientering och pappersfack.`AsposeWordsPrintDocument` åsidosätter QueryPageSettingsEventArgs) för att korrekt välja pappersstorlek, orientering och papperskälla när du skriver ut ett Word-dokument.
 
 Microsoft Word lagrar skrivarspecifika värden för pappersfack i ett Word-dokument och därför kommer endast utskrift på samma skrivarmodell som den som valdes när användaren angav pappersfack att resultera i utskrift från rätt fack. Om du skriver ut ett dokument på en annan skrivare, kommer troligen standardpappersfacket att användas, inte de fack som anges i dokumentet.
 

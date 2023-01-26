@@ -104,15 +104,15 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 
 I tag di documento strutturati (SDT) consentono di incorporare la semantica definita dal cliente, nonché il suo comportamento e aspetto in un documento.
 
-In questa versione Aspose.Words fornisce una serie di metodi e proprietà pubblici per manipolare il comportamento e il contenuto di[`StructuredDocumentTag`](./structureddocumenttag/) . È possibile eseguire la mappatura di nodi SDT su pacchetti XML personalizzati all'interno di un documento utilizzando [`XmlMapping`](./xmlmapping/) proprietà.
+In questa versione Aspose.Words fornisce una serie di metodi e proprietà pubblici per manipolare il comportamento e il contenuto di`StructuredDocumentTag` . È possibile eseguire la mappatura di nodi SDT su pacchetti XML personalizzati all'interno di un documento utilizzando [`XmlMapping`](./xmlmapping/) proprietà.
 
-[`StructuredDocumentTag`](./structureddocumenttag/) può verificarsi in un documento nei seguenti luoghi:
+`StructuredDocumentTag` può verificarsi in un documento nei seguenti luoghi:
 
 * Block-level - Tra paragrafi e tabelle, da figlio di a[`Body`](../../aspose.words/body/) ,[`HeaderFooter`](../../aspose.words/headerfooter/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) o a[`Shape`](../../aspose.words.drawing/shape/) nodo.
 * A livello di riga: tra le righe di una tabella, come figlio di a[`Table`](../../aspose.words.tables/table/) nodo.
 * A livello di cella: tra le celle in una riga di tabella, come figlio di a[`Row`](../../aspose.words.tables/row/) nodo.
 * Inline-level - Tra i contenuti inline all'interno, da figlio di a[`Paragraph`](../../aspose.words/paragraph/).
-* Nidificato dentro un altro[`StructuredDocumentTag`](./structureddocumenttag/).
+* Nidificato dentro un altro`StructuredDocumentTag`.
 
 ### Esempi
 

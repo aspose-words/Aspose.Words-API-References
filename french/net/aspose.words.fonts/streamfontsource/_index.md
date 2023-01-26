@@ -32,11 +32,11 @@ public abstract class StreamFontSource : FontSourceBase
 
 ### Remarques
 
-Pour utiliser la source de police de flux, vous devez créer une classe dérivée à partir de la[`StreamFontSource`](./streamfontsource/) et fournir la mise en œuvre du[`OpenFontDataStream`](./openfontdatastream/) méthode.
+Pour utiliser la source de police de flux, vous devez créer une classe dérivée à partir de la`StreamFontSource` et fournir la mise en œuvre du[`OpenFontDataStream`](./openfontdatastream/) méthode.
 
 [`OpenFontDataStream`](./openfontdatastream/)méthode peut être appelée plusieurs fois. Pour la première fois, il sera appelé lorsque Aspose.Words analysera les sources de polices fournies pour obtenir la liste des polices disponibles. Plus tard, il peut être appelé si la police est utilisée dans le document pour analyser les données de police et pour incorporer les données de police à certains formats de sortie.
 
-[`StreamFontSource`](./streamfontsource/) peut être utile car il permet de charger les données de la police uniquement lorsque cela est requis et de ne pas les stocker en mémoire pour le[`FontSettings`](../fontsettings/) durée de vie.
+`StreamFontSource` peut être utile car il permet de charger les données de la police uniquement lorsque cela est requis et de ne pas les stocker en mémoire pour le[`FontSettings`](../fontsettings/) durée de vie.
 
 ### Exemples
 

@@ -37,13 +37,13 @@ public class ListFormat
 
 Microsoft Word belgesindeki bir paragraf madde işaretli veya numaralandırılmış olabilir. Paragraf madde işaretli veya numaralandırılmışsa, paragrafa liste biçimlendirme uygulandığı söylenir.
 
-nesnelerini oluşturmazsınız.[`ListFormat`](./listformat/) doğrudan sınıf. Siz erişin[`ListFormat`](./listformat/) can ile ilişkili liste biçimlendirmesine sahip başka bir nesnenin özelliği olarak. Şu anda liste biçimlendirmesine sahip olan can nesneleri şunlardır:[`Paragraph`](../../aspose.words/paragraph/) , [`Style`](../../aspose.words/style/) ve[`DocumentBuilder`](../../aspose.words/documentbuilder/).
+nesnelerini oluşturmazsınız.`ListFormat` doğrudan sınıf. Siz erişin`ListFormat` can ile ilişkili liste biçimlendirmesine sahip başka bir nesnenin özelliği olarak. Şu anda liste biçimlendirmesine sahip olan can nesneleri şunlardır:[`Paragraph`](../../aspose.words/paragraph/) , [`Style`](../../aspose.words/style/) ve[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
-[`ListFormat`](./listformat/) bir[`Paragraph`](../../aspose.words/paragraph/) o paragrafa hangi liste biçimlendirmesinin ve liste düzeyinin uygulanacağını belirtir .
+`ListFormat` bir[`Paragraph`](../../aspose.words/paragraph/) o paragrafa hangi liste biçimlendirmesinin ve liste düzeyinin uygulanacağını belirtir .
 
-[`ListFormat`](./listformat/) bir[`Style`](../../aspose.words/style/)(applicable yalnızca paragraf stillerine), o belirli stilin tüm paragraflarına hangi liste biçimlendirmesinin ve list level uygulanacağını belirtmeye olanak tanır.
+`ListFormat` bir[`Style`](../../aspose.words/style/)(applicable yalnızca paragraf stillerine), o belirli stilin tüm paragraflarına hangi liste biçimlendirmesinin ve list level uygulanacağını belirtmeye olanak tanır.
 
-[`ListFormat`](./listformat/) bir[`DocumentBuilder`](../../aspose.words/documentbuilder/) , içindeki geçerli imleç konumunda liste biçimlendirmesine erişim sağlar.[`DocumentBuilder`](../../aspose.words/documentbuilder/).
+`ListFormat` bir[`DocumentBuilder`](../../aspose.words/documentbuilder/) , içindeki geçerli imleç konumunda liste biçimlendirmesine erişim sağlar.[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
 Liste biçimlendirmenin kendisi bir[`List`](../list/) Paragraflardan ayrı olarak depolanan nesnesi. object listesi, bir[`ListCollection`](../listcollection/) Toplamak. tek bir var[`ListCollection`](../listcollection/) başına toplama[`Document`](../../aspose.words/document/).
 

@@ -37,7 +37,7 @@ public class OdsoFieldMapData
 
 ### Osservazioni
 
-Microsoft Word fornisce alcuni nomi di campi di unione predefiniti che consente di inserire in un documento come MERGEFIELD o utilizzare nei campi ADDRESSBLOCK o GREETINGLINE. Le informazioni specificate in[`OdsoFieldMapData`](./odsofieldmapdata/) consente di mappare una colonna nell'origine dati esterna a un singolo campo di unione predefinito.
+Microsoft Word fornisce alcuni nomi di campi di unione predefiniti che consente di inserire in un documento come MERGEFIELD o utilizzare nei campi ADDRESSBLOCK o GREETINGLINE. Le informazioni specificate in`OdsoFieldMapData` consente di mappare una colonna nell'origine dati esterna a un singolo campo di unione predefinito.
 
 ### Esempi
 

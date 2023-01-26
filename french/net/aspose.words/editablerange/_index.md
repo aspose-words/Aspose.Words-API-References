@@ -32,7 +32,7 @@ public class EditableRange
 
 ### Remarques
 
-[`EditableRange`](./editablerange/) est un objet "façade" qui encapsule deux nœuds[`EditableRangeStart`](./editablerangestart/) et[`EditableRangeEnd`](./editablerangeend/) dans une arborescence de documents et permet de travailler avec une plage modifiable comme un seul objet.
+`EditableRange` est un objet "façade" qui encapsule deux nœuds[`EditableRangeStart`](./editablerangestart/) et[`EditableRangeEnd`](./editablerangeend/) dans une arborescence de documents et permet de travailler avec une plage modifiable comme un seul objet.
 
 ### Exemples
 

@@ -82,7 +82,7 @@ public class Font
 
 ### 评论
 
-您不创建的实例[`Font`](./font/)直接上课。你只需使用 [`Font`](./font/)访问各种对象的字体属性，例如[`Run`](../run/) , [`Paragraph`](../paragraph/),[`Style`](../style/),[`DocumentBuilder`](../documentbuilder/).
+您不创建的实例`Font`直接上课。你只需使用 `Font`访问各种对象的字体属性，例如[`Run`](../run/) , [`Paragraph`](../paragraph/),[`Style`](../style/),[`DocumentBuilder`](../documentbuilder/).
 
 ### 例子
 

@@ -40,7 +40,7 @@ public class ChartDataLabel
 
 ### Anmärkningar
 
-På en serie[`ChartDataLabel`](./chartdatalabel/) objektet är medlem i[`ChartDataLabelCollection`](../chartdatalabelcollection/) . Den[`ChartDataLabelCollection`](../chartdatalabelcollection/) innehåller en[`ChartDataLabel`](./chartdatalabel/) objekt för varje punkt.
+På en serie`ChartDataLabel` objektet är medlem i[`ChartDataLabelCollection`](../chartdatalabelcollection/) . Den[`ChartDataLabelCollection`](../chartdatalabelcollection/) innehåller en`ChartDataLabel` objekt för varje punkt.
 
 ### Exempel
 

@@ -53,7 +53,7 @@ public class Fill
 
 ### Osservazioni
 
-Utilizzare il[`Fill`](../shapebase/fill/) o[`Fill`](../../aspose.words/font/fill/) per accedere alle proprietà di riempimento di un oggetto. Non si creano istanze di[`Fill`](./fill/) classe direttamente.
+Utilizzare il[`Fill`](../shapebase/fill/) o[`Fill`](../../aspose.words/font/fill/) per accedere alle proprietà di riempimento di un oggetto. Non si creano istanze di`Fill` classe direttamente.
 
 ### Esempi
 

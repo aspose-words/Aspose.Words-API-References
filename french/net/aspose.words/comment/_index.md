@@ -53,7 +53,7 @@ public sealed class Comment : InlineStory
 | [ParentParagraph](../../aspose.words/inlinestory/parentparagraph/) { get; } | Récupère le parent[`Paragraph`](../paragraph/) de ce nœud. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtient le nœud précédant immédiatement ce nœud. |
 | [Range](../../aspose.words/node/range/) { get; } | Renvoie un **Intervalle** objet qui représente la partie d'un document contenue dans ce nœud. |
-| [Replies](../../aspose.words/comment/replies/) { get; } | Renvoie une collection de[`Comment`](./comment/) objets qui sont des enfants immédiats du commentaire spécifié. |
+| [Replies](../../aspose.words/comment/replies/) { get; } | Renvoie une collection de`Comment` objets qui sont des enfants immédiats du commentaire spécifié. |
 | override [StoryType](../../aspose.words/comment/storytype/) { get; } | Retours **StoryType.Comments** . |
 | [Tables](../../aspose.words/inlinestory/tables/) { get; } | Obtient une collection de tables qui sont des enfants immédiats de l'histoire. |
 
@@ -95,13 +95,13 @@ public sealed class Comment : InlineStory
 
 Un commentaire est une annotation ancrée à une zone de texte ou à une position dans le texte. Un commentaire peut contenir une quantité arbitraire de contenu au niveau du bloc.
 
-Si un[`Comment`](./comment/) objet se produit tout seul, le commentaire est ancré à la position du[`Comment`](./comment/) objet.
+Si un`Comment` objet se produit tout seul, le commentaire est ancré à la position du`Comment` objet.
 
-Pour ancrer un commentaire à une zone de texte, trois objets sont nécessaires :[`Comment`](./comment/) , [`CommentRangeStart`](../commentrangestart/) et[`CommentRangeEnd`](../commentrangeend/) Les trois objets doivent partager le même [`Id`](./id/) évaluer.
+Pour ancrer un commentaire à une zone de texte, trois objets sont nécessaires :`Comment` , [`CommentRangeStart`](../commentrangestart/) et[`CommentRangeEnd`](../commentrangeend/) Les trois objets doivent partager le même [`Id`](./id/) évaluer.
 
-[`Comment`](./comment/) est un nœud de niveau en ligne et ne peut être qu'un enfant de[`Paragraph`](../paragraph/).
+`Comment` est un nœud de niveau en ligne et ne peut être qu'un enfant de[`Paragraph`](../paragraph/).
 
-[`Comment`](./comment/) peut contenir[`Paragraph`](../paragraph/) et[`Table`](../../aspose.words.tables/table/) nœuds enfants.
+`Comment` peut contenir[`Paragraph`](../paragraph/) et[`Table`](../../aspose.words.tables/table/) nœuds enfants.
 
 ### Exemples
 

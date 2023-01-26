@@ -53,7 +53,7 @@ public class Fill
 
 ### Remarques
 
-Utilisez le[`Fill`](../shapebase/fill/) ou[`Fill`](../../aspose.words/font/fill/) pour accéder aux propriétés de remplissage d'un objet. Vous ne créez pas d'instances de la[`Fill`](./fill/) classe directement.
+Utilisez le[`Fill`](../shapebase/fill/) ou[`Fill`](../../aspose.words/font/fill/) pour accéder aux propriétés de remplissage d'un objet. Vous ne créez pas d'instances de la`Fill` classe directement.
 
 ### Exemples
 

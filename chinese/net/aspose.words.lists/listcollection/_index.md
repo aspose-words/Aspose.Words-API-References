@@ -34,9 +34,9 @@ public class ListCollection : IEnumerable<List>
 
 ### 评论
 
-Microsoft Word 文档中的列表是一组列表格式属性。 列表的格式存储在[`ListCollection`](./listcollection/)从文本段落中分别收集 。
+Microsoft Word 文档中的列表是一组列表格式属性。 列表的格式存储在`ListCollection`从文本段落中分别收集 。
 
-您不创建此类的对象。永远只有一个[`ListCollection`](./listcollection/)每个文档都有 对象，可以通过[`Lists`](../../aspose.words/documentbase/lists/)财产。
+您不创建此类的对象。永远只有一个`ListCollection`每个文档都有 对象，可以通过[`Lists`](../../aspose.words/documentbase/lists/)财产。
 
 要基于预定义的列表模板或基于列表样式创建新列表， 使用[`Add`](./add/)方法。
 

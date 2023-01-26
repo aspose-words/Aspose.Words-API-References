@@ -37,13 +37,13 @@ public class ListFormat
 
 Un párrafo en un documento de Microsoft Word puede tener viñetas o numerarse. Cuando un párrafo tiene viñetas o numerarse, se dice que el formato de lista se aplica al párrafo.
 
-No creas objetos de la[`ListFormat`](./listformat/) clase directamente. Accedes[`ListFormat`](./listformat/) como una propiedad de otro objeto que can tiene un formato de lista asociado. Por el momento los objetos que pueden tener formato de lista son:[`Paragraph`](../../aspose.words/paragraph/) , [`Style`](../../aspose.words/style/) y[`DocumentBuilder`](../../aspose.words/documentbuilder/).
+No creas objetos de la`ListFormat` clase directamente. Accedes`ListFormat` como una propiedad de otro objeto que can tiene un formato de lista asociado. Por el momento los objetos que pueden tener formato de lista son:[`Paragraph`](../../aspose.words/paragraph/) , [`Style`](../../aspose.words/style/) y[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
-[`ListFormat`](./listformat/) de un[`Paragraph`](../../aspose.words/paragraph/) especifica qué formato de lista y nivel de lista se aplica a ese párrafo en particular.
+`ListFormat` de un[`Paragraph`](../../aspose.words/paragraph/) especifica qué formato de lista y nivel de lista se aplica a ese párrafo en particular.
 
-[`ListFormat`](./listformat/) de un[`Style`](../../aspose.words/style/)(aplicable solo a estilos de párrafo) permite especificar qué formato de lista y qué nivel de lista se aplica a todos los párrafos de ese estilo en particular.
+`ListFormat` de un[`Style`](../../aspose.words/style/)(aplicable solo a estilos de párrafo) permite especificar qué formato de lista y qué nivel de lista se aplica a todos los párrafos de ese estilo en particular.
 
-[`ListFormat`](./listformat/) de un[`DocumentBuilder`](../../aspose.words/documentbuilder/) proporciona acceso al formato de la lista en la posición actual del cursor dentro del[`DocumentBuilder`](../../aspose.words/documentbuilder/).
+`ListFormat` de un[`DocumentBuilder`](../../aspose.words/documentbuilder/) proporciona acceso al formato de la lista en la posición actual del cursor dentro del[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
 El formato de la lista en sí se almacena dentro de un[`List`](../list/) objeto que se almacena por separado de los párrafos. La lista objects se almacenan dentro de un[`ListCollection`](../listcollection/) recopilación. Hay un solo [`ListCollection`](../listcollection/) colección por[`Document`](../../aspose.words/document/).
 

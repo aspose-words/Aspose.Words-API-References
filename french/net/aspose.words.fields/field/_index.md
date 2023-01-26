@@ -42,7 +42,7 @@ public class Field
 
 ### Remarques
 
-Un champ dans un document Word est une structure complexe composée de plusieurs nœuds qui incluent le début du champ, le code de champ , le séparateur de champ, le résultat du champ et la fin du champ. Les champs peuvent être imbriqués, contenir un contenu riche et s'étendre sur plusieurs paragraphes ou sections dans un document. La[`Field`](./field/)La classe est un objet "façade" qui fournit des propriétés et des méthodes qui permettent de travailler avec un champ comme un seul objet.
+Un champ dans un document Word est une structure complexe composée de plusieurs nœuds qui incluent le début du champ, le code de champ , le séparateur de champ, le résultat du champ et la fin du champ. Les champs peuvent être imbriqués, contenir un contenu riche et s'étendre sur plusieurs paragraphes ou sections dans un document. La`Field`La classe est un objet "façade" qui fournit des propriétés et des méthodes qui permettent de travailler avec un champ comme un seul objet.
 
 La[`Start`](./start/) ,[`Separator`](./separator/) et[`End`](./end/) Les propriétés pointent respectivement vers les nœuds de début, de séparation et de fin de champ du champ.
 
@@ -52,7 +52,7 @@ Le processus de calcul des résultats de champ s'appelle la mise à jour de cham
 
 Vous pouvez obtenir la version en texte brut du code de champ à l'aide de la[`GetFieldCode`](./getfieldcode/) method. Vous pouvez obtenir et définir la version en texte brut du résultat du champ à l'aide de la[`Result`](./result/) propriété. Le code de champ et le résultat du champ peuvent tous deux contenir un contenu complexe, tel que des champs imbriqués, des paragraphes, des formes, des tables et dans ce cas, vous souhaiterez peut-être travailler directement avec les nœuds de champ si vous avez besoin de plus de contrôle.
 
-Vous ne créez pas d'instances de[`Field`](./field/) classe directement. Pour créer un nouveau champ, utilisez le[`InsertField`](../../aspose.words/documentbuilder/insertfield/) méthode.
+Vous ne créez pas d'instances de`Field` classe directement. Pour créer un nouveau champ, utilisez le[`InsertField`](../../aspose.words/documentbuilder/insertfield/) méthode.
 
 ### Exemples
 

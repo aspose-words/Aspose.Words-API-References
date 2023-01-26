@@ -18,7 +18,7 @@ public class BookmarkEnd : Node
 
 | İsim | Tanım |
 | --- | --- |
-| [BookmarkEnd](bookmarkend/)(DocumentBase, string) | Yeni bir örneğini başlatır[`BookmarkEnd`](./bookmarkend/) sınıf. |
+| [BookmarkEnd](bookmarkend/)(DocumentBase, string) | Yeni bir örneğini başlatır`BookmarkEnd` sınıf. |
 
 ## Özellikleri
 
@@ -51,9 +51,9 @@ public class BookmarkEnd : Node
 
 ### Notlar
 
-Bir Word belgesindeki eksiksiz bir yer imi, bir[`BookmarkStart`](../bookmarkstart/) ve eşleşen[`BookmarkEnd`](./bookmarkend/) aynı yer imi adıyla.
+Bir Word belgesindeki eksiksiz bir yer imi, bir[`BookmarkStart`](../bookmarkstart/) ve eşleşen`BookmarkEnd` aynı yer imi adıyla.
 
-[`BookmarkStart`](../bookmarkstart/) ve[`BookmarkEnd`](./bookmarkend/) sadece yer iminin nerede başlayıp nerede bittiğini belirten bir document içindeki işaretlerdir.
+[`BookmarkStart`](../bookmarkstart/) ve`BookmarkEnd` sadece yer iminin nerede başlayıp nerede bittiğini belirten bir document içindeki işaretlerdir.
 
 Kullan[`Bookmark`](../bookmark/) bookmark ile tek bir nesne olarak çalışmak için "cephe" olarak sınıflandırın.
 

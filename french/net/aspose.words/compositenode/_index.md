@@ -67,7 +67,7 @@ Un document est représenté comme une arborescence de nœuds, similaire à DOM 
 
 Pour plus d'informations, consultez le modèle de conception Composite.
 
-La[`CompositeNode`](./compositenode/)classer:
+La`CompositeNode`classer:
 
 * Fournit l'accès aux nœuds enfants.
 * Implémente des opérations composites telles que l'insertion et la suppression d'enfants.

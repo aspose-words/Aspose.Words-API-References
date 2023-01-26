@@ -18,7 +18,7 @@ public class BookmarkStart : Node
 
 | İsim | Tanım |
 | --- | --- |
-| [BookmarkStart](bookmarkstart/)(DocumentBase, string) | Yeni bir örneğini başlatır[`BookmarkStart`](./bookmarkstart/) sınıf. |
+| [BookmarkStart](bookmarkstart/)(DocumentBase, string) | Yeni bir örneğini başlatır`BookmarkStart` sınıf. |
 
 ## Özellikleri
 
@@ -52,9 +52,9 @@ public class BookmarkStart : Node
 
 ### Notlar
 
-Bir Word belgesindeki eksiksiz bir yer imi, bir[`BookmarkStart`](./bookmarkstart/) ve eşleşen[`BookmarkEnd`](../bookmarkend/) aynı yer imi adıyla.
+Bir Word belgesindeki eksiksiz bir yer imi, bir`BookmarkStart` ve eşleşen[`BookmarkEnd`](../bookmarkend/) aynı yer imi adıyla.
 
-[`BookmarkStart`](./bookmarkstart/) ve[`BookmarkEnd`](../bookmarkend/) sadece yer iminin nerede başlayıp nerede bittiğini belirten bir document içindeki işaretlerdir.
+`BookmarkStart` ve[`BookmarkEnd`](../bookmarkend/) sadece yer iminin nerede başlayıp nerede bittiğini belirten bir document içindeki işaretlerdir.
 
 Kullan[`Bookmark`](./bookmark/) bookmark ile tek bir nesne olarak çalışmak için "cephe" olarak sınıflandırın.
 

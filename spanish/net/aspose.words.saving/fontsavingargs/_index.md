@@ -34,9 +34,9 @@ public class FontSavingArgs
 
 Cuando Aspose.Words guarda un documento en HTML o formatos relacionados y[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) se establece en **verdadero**, guarda cada tema de fuente para exportarlo en un archivo separado.
 
-[`FontSavingArgs`](./fontsavingargs/) controla si se debe exportar un recurso de fuente en particular y cómo.
+`FontSavingArgs` controla si se debe exportar un recurso de fuente en particular y cómo.
 
-[`FontSavingArgs`](./fontsavingargs/)también permite redefinir cómo se generan los nombres de los archivos de fuentes o eludir por completo el almacenamiento de fuentes en archivos proporcionando sus propios objetos de flujo.
+`FontSavingArgs`también permite redefinir cómo se generan los nombres de los archivos de fuentes o eludir por completo el almacenamiento de fuentes en archivos proporcionando sus propios objetos de flujo.
 
 Para decidir si desea guardar un recurso de fuente en particular, use el[`IsExportNeeded`](./isexportneeded/) propiedad.
 

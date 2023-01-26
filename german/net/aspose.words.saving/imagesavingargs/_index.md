@@ -29,7 +29,7 @@ public class ImageSavingArgs
 
 Wenn Aspose.Words ein Dokument im HTML-Format speichert, speichert es standardmäßig jedes Bild in einer separaten Datei. Aspose.Words verwendet den Dateinamen des Dokuments und eine eindeutige Nummer, um einen eindeutigen Dateinamen für jedes im Dokument gefundene Bild zu generieren.
 
-[`ImageSavingArgs`](./imagesavingargs/) ermöglicht es, neu zu definieren, wie Bilddateinamen generiert werden, oder das Speichern von Bildern in Dateien vollständig zu umgehen, indem eigene Stream-Objekte bereitgestellt werden.
+`ImageSavingArgs` ermöglicht es, neu zu definieren, wie Bilddateinamen generiert werden, oder das Speichern von Bildern in Dateien vollständig zu umgehen, indem eigene Stream-Objekte bereitgestellt werden.
 
 Um Ihre eigene Logik zum Generieren von Bilddateinamen anzuwenden, verwenden Sie das [`ImageFileName`](./imagefilename/) ,[`CurrentShape`](./currentshape/) und[`IsImageAvailable`](./isimageavailable/) Eigenschaften.
 

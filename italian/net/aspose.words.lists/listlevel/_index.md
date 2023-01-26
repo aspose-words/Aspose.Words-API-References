@@ -41,13 +41,13 @@ public class ListLevel
 | [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | Elimina il punto elenco dell'immagine per il livello di elenco corrente. |
 | [Equals](../../aspose.words.lists/listlevel/equals/#equals)(ListLevel) | Confronta con ListLevel specificato. |
 | override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | Calcola il codice hash per questo oggetto. |
-| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | Riporta la rappresentazione di stringa del[`ListLevel`](./listlevel/) oggetto per l'indice specificato della voce di elenco. I parametri specificano il[`NumberStyle`](../../aspose.words/numberstyle/) e un formato opzionale string utilizzato quandoCustom è specificato. |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | Riporta la rappresentazione di stringa del`ListLevel` oggetto per l'indice specificato della voce di elenco. I parametri specificano il[`NumberStyle`](../../aspose.words/numberstyle/) e un formato opzionale string utilizzato quandoCustom è specificato. |
 
 ### Osservazioni
 
-Non crei oggetti di questa classe. Gli oggetti a livello di elenco vengono creati automaticamente quando viene creato un elenco. Tu accedi[`ListLevel`](./listlevel/) oggetti tramite il [`ListLevelCollection`](../listlevelcollection/) collezione.
+Non crei oggetti di questa classe. Gli oggetti a livello di elenco vengono creati automaticamente quando viene creato un elenco. Tu accedi`ListLevel` oggetti tramite il [`ListLevelCollection`](../listlevelcollection/) collezione.
 
-Usa le proprietà di[`ListLevel`](./listlevel/) per specificare la formattazione dell'elenco per i livelli di elenco individuali.
+Usa le proprietà di`ListLevel` per specificare la formattazione dell'elenco per i livelli di elenco individuali.
 
 ### Esempi
 

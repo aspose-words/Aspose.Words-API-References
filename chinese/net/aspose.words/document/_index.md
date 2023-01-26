@@ -107,7 +107,7 @@ public class Document : DocumentBase
 | [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument_1)(Document, ImportFormatMode, ImportFormatOptions) | 将指定的文档附加到该文档的末尾。 |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup)() | 从文档中清除未使用的样式和列表。 |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup_1)(CleanupOptions) | 根据给定的内容从文档中清除未使用的样式和列表[`CleanupOptions`](../cleanupoptions/). |
-| [Clone](../../aspose.words/document/clone/#clone)() | 对[`Document`](./document/). |
+| [Clone](../../aspose.words/document/clone/#clone)() | 对`Document`. |
 | [Clone](../../aspose.words/node/clone/)(bool) | 创建节点的副本。 |
 | [Compare](../../aspose.words/document/compare/#compare)(Document, string, DateTime) | 将此文档与另一个文档进行比较，以产生编辑和格式修订的数量[`Revision`](../revision/). |
 | [Compare](../../aspose.words/document/compare/#compare_1)(Document, string, DateTime, CompareOptions) | 将此文档与另一个文档进行比较，从而产生大量编辑和格式修订[`Revision`](../revision/). 允许使用指定比较选项[`CompareOptions`](../../aspose.words.comparing/compareoptions/). |
@@ -116,7 +116,7 @@ public class Document : DocumentBase
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | 保留供系统使用。 IXPathNavigable. |
 | [EnsureMinimum](../../aspose.words/document/ensureminimum/)() | 如果文档不包含任何部分，则创建一个包含一个段落的部分。 |
 | [ExpandTableStylesToDirectFormatting](../../aspose.words/document/expandtablestylestodirectformatting/)() | 将表格样式中指定的格式转换为文档中表格的直接格式。 |
-| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | 返回[`Document`](./document/)表示指定页面范围的对象。 |
+| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | 返回`Document`表示指定页面范围的对象。 |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | 获取指定对象类型的第一个祖先。 |
 | [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | 返回与指定类型匹配的第 N 个子节点。 |

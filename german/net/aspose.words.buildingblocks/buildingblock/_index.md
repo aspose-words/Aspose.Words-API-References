@@ -79,9 +79,9 @@ public class BuildingBlock : CompositeNode
 
 ### Bemerkungen
 
-[`BuildingBlock`](./buildingblock/) kann nur enthalten[`Section`](../../aspose.words/section/) Knoten.
+`BuildingBlock` kann nur enthalten[`Section`](../../aspose.words/section/) Knoten.
 
-[`BuildingBlock`](./buildingblock/) kann nur ein Kind von sein[`GlossaryDocument`](../glossarydocument/).
+`BuildingBlock` kann nur ein Kind von sein[`GlossaryDocument`](../glossarydocument/).
 
 Sie können neue Bausteine erstellen und sie in ein Glossardokument einfügen. Sie können vorhandene Bausteine ändern oder löschen. Sie können Bausteine zwischen Dokumenten kopieren oder verschieben. Sie können Inhalte eines Bausteins in ein Dokument einfügen.
 

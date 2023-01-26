@@ -18,7 +18,7 @@ public class BookmarkStart : Node
 
 | اسم | وصف |
 | --- | --- |
-| [BookmarkStart](bookmarkstart/)(DocumentBase, string) | يقوم بتهيئة مثيل جديد لملف[`BookmarkStart`](./bookmarkstart/) فئة . |
+| [BookmarkStart](bookmarkstart/)(DocumentBase, string) | يقوم بتهيئة مثيل جديد لملف`BookmarkStart` فئة . |
 
 ## الخصائص
 
@@ -52,9 +52,9 @@ public class BookmarkStart : Node
 
 ### ملاحظات
 
-تتكون الإشارة المرجعية الكاملة في مستند Word من ملف[`BookmarkStart`](./bookmarkstart/) ومطابقة[`BookmarkEnd`](../bookmarkend/) بنفس اسم الإشارة المرجعية.
+تتكون الإشارة المرجعية الكاملة في مستند Word من ملف`BookmarkStart` ومطابقة[`BookmarkEnd`](../bookmarkend/) بنفس اسم الإشارة المرجعية.
 
-[`BookmarkStart`](./bookmarkstart/) و[`BookmarkEnd`](../bookmarkend/) هي مجرد علامات داخل document تحدد مكان بدء الإشارة المرجعية ونهايتها.
+`BookmarkStart` و[`BookmarkEnd`](../bookmarkend/) هي مجرد علامات داخل document تحدد مكان بدء الإشارة المرجعية ونهايتها.
 
 استخدم ال[`Bookmark`](./bookmark/) فئة كـ "واجهة" للعمل مع bookmark ككائن واحد.
 

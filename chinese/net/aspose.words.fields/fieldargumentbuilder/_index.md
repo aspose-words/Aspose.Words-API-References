@@ -18,7 +18,7 @@ public class FieldArgumentBuilder
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FieldArgumentBuilder](fieldargumentbuilder/)() | 初始化[`FieldArgumentBuilder`](./fieldargumentbuilder/)类. |
+| [FieldArgumentBuilder](fieldargumentbuilder/)() | 初始化`FieldArgumentBuilder`类. |
 
 ## 方法
 

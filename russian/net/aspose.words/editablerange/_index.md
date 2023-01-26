@@ -32,7 +32,7 @@ public class EditableRange
 
 ### Примечания
 
-[`EditableRange`](./editablerange/) это объект «фасад», который инкапсулирует два узла[`EditableRangeStart`](./editablerangestart/) и[`EditableRangeEnd`](./editablerangeend/) в дереве документа и позволяет работать с редактируемым диапазоном как с единым объектом.
+`EditableRange` это объект «фасад», который инкапсулирует два узла[`EditableRangeStart`](./editablerangestart/) и[`EditableRangeEnd`](./editablerangeend/) в дереве документа и позволяет работать с редактируемым диапазоном как с единым объектом.
 
 ### Примеры
 

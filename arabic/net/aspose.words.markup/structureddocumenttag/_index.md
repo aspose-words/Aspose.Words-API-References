@@ -104,15 +104,15 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 
 تسمح علامات المستندات المنظمة (SDTs) بتضمين دلالات محددة من قبل العميل بالإضافة إلى سلوكها ومظهرها في المستند.
 
-في هذا الإصدار يوفر Aspose.Words عددًا من الأساليب والخصائص العامة لـ للتلاعب بسلوك ومحتوى[`StructuredDocumentTag`](./structureddocumenttag/) . يمكن إجراء تعيين عقد SDT لحزم XML المخصصة داخل مستند باستخدام [`XmlMapping`](./xmlmapping/) منشأه.
+في هذا الإصدار يوفر Aspose.Words عددًا من الأساليب والخصائص العامة لـ للتلاعب بسلوك ومحتوى`StructuredDocumentTag` . يمكن إجراء تعيين عقد SDT لحزم XML المخصصة داخل مستند باستخدام [`XmlMapping`](./xmlmapping/) منشأه.
 
-[`StructuredDocumentTag`](./structureddocumenttag/) يمكن أن تحدث في مستند في الأماكن التالية:
+`StructuredDocumentTag` يمكن أن تحدث في مستند في الأماكن التالية:
 
 * مستوى الكتلة - بين الفقرات والجداول ، كطفل من أ[`Body`](../../aspose.words/body/) و[`HeaderFooter`](../../aspose.words/headerfooter/) ، [`Comment`](../../aspose.words/comment/) و[`Footnote`](../../aspose.words.notes/footnote/) أو أ[`Shape`](../../aspose.words.drawing/shape/) العقدة.
 * على مستوى الصفوف - بين الصفوف في الجدول ، كطفل لـ[`Table`](../../aspose.words.tables/table/) العقدة.
 * على مستوى الخلية - بين الخلايا في صف الجدول ، كطفل في ملف[`Row`](../../aspose.words.tables/row/) العقدة.
 * المستوى المضمن - من بين المحتوى المضمّن بالداخل ، بصفتك طفلًا في ملف[`Paragraph`](../../aspose.words/paragraph/).
-* متداخلة داخل أخرى[`StructuredDocumentTag`](./structureddocumenttag/).
+* متداخلة داخل أخرى`StructuredDocumentTag`.
 
 ### أمثلة
 

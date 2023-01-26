@@ -18,8 +18,8 @@ public class NodeImporter
 
 | Nombre | Descripción |
 | --- | --- |
-| [NodeImporter](nodeimporter/#constructor)(DocumentBase, DocumentBase, ImportFormatMode) | Inicializa una nueva instancia del[`NodeImporter`](./nodeimporter/) clase. |
-| [NodeImporter](nodeimporter/#constructor_1)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | Inicializa una nueva instancia del[`NodeImporter`](./nodeimporter/) clase. |
+| [NodeImporter](nodeimporter/#constructor)(DocumentBase, DocumentBase, ImportFormatMode) | Inicializa una nueva instancia del`NodeImporter` clase. |
+| [NodeImporter](nodeimporter/#constructor_1)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | Inicializa una nueva instancia del`NodeImporter` clase. |
 
 ## Métodos
 
@@ -33,13 +33,13 @@ Aspose.Words proporciona funcionalidad para copiar y mover fácilmente fragments
 
 La forma más sencilla de importar un nodo es utilizar el[`ImportNode`](../documentbase/importnode/) method proporcionado por el[`DocumentBase`](../documentbase/) objeto.
 
-Sin embargo, cuando necesite importar nodos de un documento a otro varias veces, es mejor usar el[`NodeImporter`](./nodeimporter/) clase. los[`NodeImporter`](./nodeimporter/) La clase permite minimizar la cantidad de estilos y listas creadas en el documento de destino.
+Sin embargo, cuando necesite importar nodos de un documento a otro varias veces, es mejor usar el`NodeImporter` clase. los`NodeImporter` La clase permite minimizar la cantidad de estilos y listas creadas en el documento de destino.
 
 Copiar o mover fragmentos de un documento de Microsoft Word a otro presenta un número de desafíos técnicos para Aspose.Words. En un documento de Word, los estilos y el formato de lista se almacenan de forma centralizada, separados del texto del documento. Los párrafos y las tiradas de texto simplemente hacen referencia a los estilos mediante identificadores únicos internos.
 
 Los desafíos surgen del hecho de que los estilos y las listas son diferentes en diferentes documentos. Por ejemplo, para copiar un párrafo formateado con el estilo Título 1 de un documento a otro, se deben tener en cuenta varias cosas: decidir si copie el estilo Título 1 de el documento de origen al documento de destino, clone el párrafo, actualice el párrafo clonado para que haga referencia al estilo Título 1 correcto en el documento de destino. Si el estilo tuvo que ser copiado, todos los estilos que las referencias (basadas en el estilo y el estilo del párrafo siguiente) deben analizarse y posiblemente copiarse también, etc.
 
-los[`NodeImporter`](./nodeimporter/)class es como un contexto, que contiene las "tablas de traducción" durante la importación. Traduce correctamente entre estilos y listas en los documentos de origen y de destino.
+los`NodeImporter`class es como un contexto, que contiene las "tablas de traducción" durante la importación. Traduce correctamente entre estilos y listas en los documentos de origen y de destino.
 
 ### Ejemplos
 

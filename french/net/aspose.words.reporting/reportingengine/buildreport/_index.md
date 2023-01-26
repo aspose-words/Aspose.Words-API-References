@@ -25,7 +25,7 @@ Un indicateur indiquant si l'analyse du modèle de document a réussi. L'indicat
 
 ### Remarques
 
-En utilisant cette surcharge, vous pouvez référencer les membres de la source de données dans le modèle de document, mais vous ne pouvez pas référencer l'objet de source de données lui-même. Vous devriez utiliser le[`BuildReport`](./buildreport/) surcharge pour y parvenir.
+En utilisant cette surcharge, vous pouvez référencer les membres de la source de données dans le modèle de document, mais vous ne pouvez pas référencer l'objet de source de données lui-même. Vous devriez utiliser le`BuildReport` surcharge pour y parvenir.
 
 Un objet de source de données peut être de l'un des types suivants :
 
@@ -72,7 +72,7 @@ Un indicateur indiquant si l'analyse du modèle de document a réussi. L'indicat
 
 ### Remarques
 
-À l'aide de cette surcharge, vous pouvez référencer les membres de la source de données et l'objet de la source de données lui-même dans le modèle. Si vous n'allez pas référencer l'objet source de données lui-même, vous pouvez omettre*dataSourceName* passant null ou utilisez le[`BuildReport`](./buildreport/) surcharge.
+À l'aide de cette surcharge, vous pouvez référencer les membres de la source de données et l'objet de la source de données lui-même dans le modèle. Si vous n'allez pas référencer l'objet source de données lui-même, vous pouvez omettre*dataSourceName* passant null ou utilisez le`BuildReport` surcharge.
 
 Un objet de source de données peut être de l'un des types suivants :
 
@@ -121,7 +121,7 @@ Un indicateur indiquant si l'analyse du modèle de document a réussi. L'indicat
 
 À l'aide de cette surcharge, vous pouvez référencer plusieurs objets de source de données et leurs membres dans le modèle. Le nom de la première source de données peut être omis (c'est-à-dire être une chaîne vide ou null) si vous allez référencer les membres de la source de données mais pas l'objet source de données lui-même. Les noms des autres sources de données doivent être spécifiés et uniques.
 
-Si vous prévoyez d'utiliser une seule source de données, envisagez d'utiliser[`BuildReport`](./buildreport/) et[`BuildReport`](./buildreport/) surcharges à la place.
+Si vous prévoyez d'utiliser une seule source de données, envisagez d'utiliser`BuildReport` et`BuildReport` surcharges à la place.
 
 Un objet de source de données peut être de l'un des types suivants :
 

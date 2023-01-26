@@ -56,9 +56,9 @@ public class FieldEnd : FieldChar
 
 ### Примечания
 
-[`FieldEnd`](./fieldend/) является узлом встроенного уровня и представлен [`FieldEndChar`](../../aspose.words/controlchar/fieldendchar/) управляющий символ в документе.
+`FieldEnd` является узлом встроенного уровня и представлен [`FieldEndChar`](../../aspose.words/controlchar/fieldendchar/) управляющий символ в документе.
 
-[`FieldEnd`](./fieldend/) может быть только ребенком[`Paragraph`](../../aspose.words/paragraph/).
+`FieldEnd` может быть только ребенком[`Paragraph`](../../aspose.words/paragraph/).
 
 Полное поле в документе Microsoft Word представляет собой сложную структуру, состоящую из начального символа поля, кода поля, символа-разделителя поля, результата поля и конечного символа поля. Некоторые поля имеют только начало поля, код поля и конец поля.
 

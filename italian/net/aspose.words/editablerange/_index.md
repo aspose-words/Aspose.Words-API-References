@@ -32,7 +32,7 @@ public class EditableRange
 
 ### Osservazioni
 
-[`EditableRange`](./editablerange/) è un oggetto "facciata" che incapsula due nodi[`EditableRangeStart`](./editablerangestart/) e[`EditableRangeEnd`](./editablerangeend/) in un albero di documenti e permette di lavorare con un intervallo modificabile come un singolo oggetto.
+`EditableRange` è un oggetto "facciata" che incapsula due nodi[`EditableRangeStart`](./editablerangestart/) e[`EditableRangeEnd`](./editablerangeend/) in un albero di documenti e permette di lavorare con un intervallo modificabile come un singolo oggetto.
 
 ### Esempi
 

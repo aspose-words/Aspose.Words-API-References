@@ -30,7 +30,7 @@ public class ComHelper
 
 ### Bemerkungen
 
-Verwenden Sie die[`ComHelper`](./comhelper/) Klasse zum Laden eines Dokuments aus einer Datei oder einem Stream in ein [`Document`](../document/) Objekt in einer COM-Anwendung.
+Verwenden Sie die`ComHelper` Klasse zum Laden eines Dokuments aus einer Datei oder einem Stream in ein [`Document`](../document/) Objekt in einer COM-Anwendung.
 
 Das[`Document`](../document/)-Klasse bietet einen Standardkonstruktor zum Erstellen eines neuen Dokuments sowie überladene Konstruktoren zum Laden eines Dokuments aus einer Datei oder einem Stream. Wenn Sie Aspose.Words aus einer .NET-Anwendung verwenden, können Sie alle verwenden[`Document`](../document/) Konstruktoren direkt, aber wenn Sie Aspose.Words aus einer COM-Anwendung verwenden, nur die Standardeinstellung[`Document`](../document/) Konstrukteur ist vorhanden.
 

@@ -32,7 +32,7 @@ public class VbaModule
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Clone](../../aspose.words.vba/vbamodule/clone/)() | 执行[`VbaModule`](./vbamodule/). |
+| [Clone](../../aspose.words.vba/vbamodule/clone/)() | 执行`VbaModule`. |
 
 ### 例子
 

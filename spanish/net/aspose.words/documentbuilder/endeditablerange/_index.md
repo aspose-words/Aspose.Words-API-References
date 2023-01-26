@@ -20,7 +20,7 @@ El nodo final del rango editable que se acaba de crear.
 
 ### Observaciones
 
-El rango editable en un documento puede superponerse y abarcar cualquier rango. Para crear un rango editable válido, debe llamar a ambos[`StartEditableRange`](../starteditablerange/) y`EndEditableRange` o[`EndEditableRange`](./endeditablerange/)métodos.
+El rango editable en un documento puede superponerse y abarcar cualquier rango. Para crear un rango editable válido, debe llamar a ambos[`StartEditableRange`](../starteditablerange/) y`EndEditableRange` o`EndEditableRange`métodos.
 
 El rango editable mal formado se ignorará cuando se guarde el documento.
 
@@ -96,7 +96,7 @@ El nodo final del rango editable que se acaba de crear.
 
 Utilice esta sobrecarga durante la creación de rangos editables anidados.
 
-El rango editable en un documento puede superponerse y abarcar cualquier rango. Para crear un rango editable válido, debe llamar a ambos[`StartEditableRange`](../starteditablerange/) y[`EndEditableRange`](./endeditablerange/) o`EndEditableRange`métodos.
+El rango editable en un documento puede superponerse y abarcar cualquier rango. Para crear un rango editable válido, debe llamar a ambos[`StartEditableRange`](../starteditablerange/) y`EndEditableRange` o`EndEditableRange`métodos.
 
 El rango editable mal formado se ignorará cuando se guarde el documento.
 

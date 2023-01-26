@@ -27,7 +27,7 @@ public class CssSavingArgs
 
 Aspose.Words varsayılan olarak bir belgeyi HTML'ye kaydettiğinde, CSS bilgisini inline (bir **stil** her öğede öznitelik).
 
-[`CssSavingArgs`](./csssavingargs/) kendi akış nesnenizi sağlayarak CSS bilgilerini dosyaya kaydetmenize izin verir.
+`CssSavingArgs` kendi akış nesnenizi sağlayarak CSS bilgilerini dosyaya kaydetmenize izin verir.
 
 CSS'yi akışa kaydetmek için[`CssStream`](./cssstream/) Emlak.
 

@@ -49,7 +49,7 @@ Ett dokument representeras som ett träd av noder, liknande DOM eller XmlDocumen
 
 För mer information se Composite design mönster.
 
-De[`Node`](./node/)klass:
+De`Node`klass:
 
 * Definierar gränssnittet för barnnoden.
 * Definierar gränssnittet för besökande noder.
