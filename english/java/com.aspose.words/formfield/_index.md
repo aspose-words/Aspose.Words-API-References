@@ -45,7 +45,8 @@ A complete form field in a Word document is a complex structure represented by s
 | [getClass()](#getClass) |  |
 | [getCustomNodeId()](#getCustomNodeId) | Specifies custom node identifier. |
 | [getDefault()](#getDefault) | Gets the default value of the check box form field. |
-| [getDirectRunAttr(int fontAttr)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
 | [getDocument()](#getDocument) | Gets the document to which this node belongs. |
 | [getDocument_IInline()](#getDocument-IInline) |  |
 | [getDropDownItems()](#getDropDownItems) | Provides access to the items of a dropdown form field. |
@@ -308,9 +309,9 @@ Applicable for a check box form field only.
 
 **Returns:**
 boolean - The default value of the check box form field.
-### getDirectRunAttr(int fontAttr) {#getDirectRunAttr-int}
+### getDirectRunAttr(int key) {#getDirectRunAttr-int}
 ```
-public Object getDirectRunAttr(int fontAttr)
+public Object getDirectRunAttr(int key)
 ```
 
 
@@ -319,7 +320,23 @@ public Object getDirectRunAttr(int fontAttr)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fontAttr | int |  |
+| key | int |  |
+
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key, int revisionsView) {#getDirectRunAttr-int-int}
+```
+public Object getDirectRunAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| revisionsView | int |  |
 
 **Returns:**
 java.lang.Object
@@ -688,7 +705,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (31231,6)
+Returns  true  if this node can contain other nodes. (31362,6)
 
 **Returns:**
 boolean - \{ true  if this node can contain other nodes.

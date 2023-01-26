@@ -1,7 +1,7 @@
 ---
 title: Frameset
 second_title: Aspose.Words for Java API Reference
-description: 
+description: Represents a frames page or a single frame on a frames page.
 type: docs
 weight: 304
 url: /java/com.aspose.words/frameset/
@@ -12,20 +12,29 @@ java.lang.Object
 ```
 public class Frameset
 ```
+
+Represents a frames page or a single frame on a frames page.
+
+To learn more, visit the [ Programming with Documents ][Programming with Documents] documentation article.
+
+If the [getChildFramesets()](../../com.aspose.words/frameset\#getChildFramesets) property contains items, this instance is a frames page, otherwise it is a single frame.
+
+
+[Programming with Documents]: https://docs.aspose.com/words/java/programming-with-documents/
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getChildFramesets()](#getChildFramesets) |  |
+| [getChildFramesets()](#getChildFramesets) | Gets the collection of child frames and frames pages. |
 | [getClass()](#getClass) |  |
-| [getFrameDefaultUrl()](#getFrameDefaultUrl) |  |
+| [getFrameDefaultUrl()](#getFrameDefaultUrl) | Gets the web page URL or document file name to display in this frame. |
 | [hashCode()](#hashCode) |  |
-| [isFrameLinkToFile()](#isFrameLinkToFile) |  |
-| [isFrameLinkToFile(boolean value)](#isFrameLinkToFile-boolean) |  |
+| [isFrameLinkToFile()](#isFrameLinkToFile) | Gets a value indicating whether the web page or document file name specified in the [getFrameDefaultUrl()](../../com.aspose.words/frameset\#getFrameDefaultUrl) / [setFrameDefaultUrl(java.lang.String)](../../com.aspose.words/frameset\#setFrameDefaultUrl-java.lang.String) property is an external resource the frame is linked with. |
+| [isFrameLinkToFile(boolean value)](#isFrameLinkToFile-boolean) | Sets a value indicating whether the web page or document file name specified in the [getFrameDefaultUrl()](../../com.aspose.words/frameset\#getFrameDefaultUrl) / [setFrameDefaultUrl(java.lang.String)](../../com.aspose.words/frameset\#setFrameDefaultUrl-java.lang.String) property is an external resource the frame is linked with. |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
-| [setFrameDefaultUrl(String value)](#setFrameDefaultUrl-java.lang.String) |  |
+| [setFrameDefaultUrl(String value)](#setFrameDefaultUrl-java.lang.String) | Sets the web page URL or document file name to display in this frame. |
 | [toString()](#toString) |  |
 | [wait()](#wait) |  |
 | [wait(long arg0)](#wait-long) |  |
@@ -51,10 +60,10 @@ public FramesetCollection getChildFramesets()
 ```
 
 
-
+Gets the collection of child frames and frames pages.
 
 **Returns:**
-[FramesetCollection](../../com.aspose.words/framesetcollection)
+[FramesetCollection](../../com.aspose.words/framesetcollection) - The collection of child frames and frames pages.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -71,10 +80,10 @@ public String getFrameDefaultUrl()
 ```
 
 
-
+Gets the web page URL or document file name to display in this frame.
 
 **Returns:**
-java.lang.String
+java.lang.String - The web page URL or document file name to display in this frame.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -91,22 +100,22 @@ public boolean isFrameLinkToFile()
 ```
 
 
-
+Gets a value indicating whether the web page or document file name specified in the [getFrameDefaultUrl()](../../com.aspose.words/frameset\#getFrameDefaultUrl) / [setFrameDefaultUrl(java.lang.String)](../../com.aspose.words/frameset\#setFrameDefaultUrl-java.lang.String) property is an external resource the frame is linked with.
 
 **Returns:**
-boolean
+boolean - A value indicating whether the web page or document file name specified in the [getFrameDefaultUrl()](../../com.aspose.words/frameset\#getFrameDefaultUrl) / [setFrameDefaultUrl(java.lang.String)](../../com.aspose.words/frameset\#setFrameDefaultUrl-java.lang.String) property is an external resource the frame is linked with.
 ### isFrameLinkToFile(boolean value) {#isFrameLinkToFile-boolean}
 ```
 public void isFrameLinkToFile(boolean value)
 ```
 
 
-
+Sets a value indicating whether the web page or document file name specified in the [getFrameDefaultUrl()](../../com.aspose.words/frameset\#getFrameDefaultUrl) / [setFrameDefaultUrl(java.lang.String)](../../com.aspose.words/frameset\#setFrameDefaultUrl-java.lang.String) property is an external resource the frame is linked with.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean | A value indicating whether the web page or document file name specified in the [getFrameDefaultUrl()](../../com.aspose.words/frameset\#getFrameDefaultUrl) / [setFrameDefaultUrl(java.lang.String)](../../com.aspose.words/frameset\#setFrameDefaultUrl-java.lang.String) property is an external resource the frame is linked with. |
 
 ### notify() {#notify}
 ```
@@ -130,12 +139,12 @@ public void setFrameDefaultUrl(String value)
 ```
 
 
-
+Sets the web page URL or document file name to display in this frame.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The web page URL or document file name to display in this frame. |
 
 ### toString() {#toString}
 ```

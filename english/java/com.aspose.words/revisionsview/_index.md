@@ -3,7 +3,7 @@ title: RevisionsView
 second_title: Aspose.Words for Java API Reference
 description: Allows to specify whether to work with the original or revised version of a document.
 type: docs
-weight: 494
+weight: 495
 url: /java/com.aspose.words/revisionsview/
 ---
 

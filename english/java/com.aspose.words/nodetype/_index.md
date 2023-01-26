@@ -3,7 +3,7 @@ title: NodeType
 second_title: Aspose.Words for Java API Reference
 description: Specifies the type of a Word document node.
 type: docs
-weight: 411
+weight: 412
 url: /java/com.aspose.words/nodetype/
 ---
 

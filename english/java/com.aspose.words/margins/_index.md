@@ -56,7 +56,7 @@ public static int MIRRORED
 ```
 
 
-Mirrored margins.
+Mirrored margins. Setting margins to Mirrored will set the appropriate value for [PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup\#getMultiplePages) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup\#setMultiplePages-int) property. This will affect the whole document, not just the current section.
 
 ### MODERATE {#MODERATE}
 ```

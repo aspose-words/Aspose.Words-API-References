@@ -52,7 +52,8 @@ The [Footnote](../../com.aspose.words/footnote) class is used to represent both 
 | [getCount()](#getCount) | Gets the number of immediate children of this node. |
 | [getCurrentNode()](#getCurrentNode) |  |
 | [getCustomNodeId()](#getCustomNodeId) | Specifies custom node identifier. |
-| [getDirectRunAttr(int fontAttr)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
 | [getDocument()](#getDocument) | Gets the document to which this node belongs. |
 | [getDocument_IInline()](#getDocument-IInline) |  |
 | [getFirstChild()](#getFirstChild) | Gets the first child of the node. |
@@ -370,9 +371,9 @@ Important note, specified value is not saved to an output file and exists only d
 
 **Returns:**
 int - The corresponding  int  value.
-### getDirectRunAttr(int fontAttr) {#getDirectRunAttr-int}
+### getDirectRunAttr(int key) {#getDirectRunAttr-int}
 ```
-public Object getDirectRunAttr(int fontAttr)
+public Object getDirectRunAttr(int key)
 ```
 
 
@@ -381,7 +382,23 @@ public Object getDirectRunAttr(int fontAttr)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fontAttr | int |  |
+| key | int |  |
+
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key, int revisionsView) {#getDirectRunAttr-int-int}
+```
+public Object getDirectRunAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| revisionsView | int |  |
 
 **Returns:**
 java.lang.Object

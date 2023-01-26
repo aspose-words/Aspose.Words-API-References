@@ -1,58 +1,58 @@
 ---
-title: PageBorderDistanceFrom
+title: MarkdownListExportMode
 second_title: Aspose.Words for Java API Reference
-description: Specifies the positioning of the page border relative to the page margin.
+description: Specifies how lists are exported into Markdown.
 type: docs
-weight: 437
-url: /java/com.aspose.words/pageborderdistancefrom/
+weight: 391
+url: /java/com.aspose.words/markdownlistexportmode/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public class PageBorderDistanceFrom
+public class MarkdownListExportMode
 ```
 
-Specifies the positioning of the page border relative to the page margin.
+Specifies how lists are exported into Markdown.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [PAGE_EDGE](#PAGE-EDGE) | Border position is measured from the page edge. |
-| [TEXT](#TEXT) | Border position is measured from the page margin. |
+| [MARKDOWN_SYNTAX](#MARKDOWN-SYNTAX) | Export list items compatible with Markdown syntax. |
+| [PLAIN_TEXT](#PLAIN-TEXT) | Export list items as plain text. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [fromName(String pageBorderDistanceFromName)](#fromName-java.lang.String) |  |
+| [fromName(String markdownListExportModeName)](#fromName-java.lang.String) |  |
 | [getClass()](#getClass) |  |
-| [getName(int pageBorderDistanceFrom)](#getName-int) |  |
+| [getName(int markdownListExportMode)](#getName-int) |  |
 | [getValues()](#getValues) |  |
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
 | [toString()](#toString) |  |
-| [toString(int pageBorderDistanceFrom)](#toString-int) |  |
+| [toString(int markdownListExportMode)](#toString-int) |  |
 | [wait()](#wait) |  |
 | [wait(long arg0)](#wait-long) |  |
 | [wait(long arg0, int arg1)](#wait-long-int) |  |
-### PAGE_EDGE {#PAGE-EDGE}
+### MARKDOWN_SYNTAX {#MARKDOWN-SYNTAX}
 ```
-public static int PAGE_EDGE
-```
-
-
-Border position is measured from the page edge.
-
-### TEXT {#TEXT}
-```
-public static int TEXT
+public static int MARKDOWN_SYNTAX
 ```
 
 
-Border position is measured from the page margin.
+Export list items compatible with Markdown syntax.
+
+### PLAIN_TEXT {#PLAIN-TEXT}
+```
+public static int PLAIN_TEXT
+```
+
+
+Export list items as plain text.
 
 ### length {#length}
 ```
@@ -75,9 +75,9 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromName(String pageBorderDistanceFromName) {#fromName-java.lang.String}
+### fromName(String markdownListExportModeName) {#fromName-java.lang.String}
 ```
-public static int fromName(String pageBorderDistanceFromName)
+public static int fromName(String markdownListExportModeName)
 ```
 
 
@@ -86,7 +86,7 @@ public static int fromName(String pageBorderDistanceFromName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageBorderDistanceFromName | java.lang.String |  |
+| markdownListExportModeName | java.lang.String |  |
 
 **Returns:**
 int
@@ -100,9 +100,9 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getName(int pageBorderDistanceFrom) {#getName-int}
+### getName(int markdownListExportMode) {#getName-int}
 ```
-public static String getName(int pageBorderDistanceFrom)
+public static String getName(int markdownListExportMode)
 ```
 
 
@@ -111,7 +111,7 @@ public static String getName(int pageBorderDistanceFrom)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageBorderDistanceFrom | int |  |
+| markdownListExportMode | int |  |
 
 **Returns:**
 java.lang.String
@@ -161,9 +161,9 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int pageBorderDistanceFrom) {#toString-int}
+### toString(int markdownListExportMode) {#toString-int}
 ```
-public static String toString(int pageBorderDistanceFrom)
+public static String toString(int markdownListExportMode)
 ```
 
 
@@ -172,7 +172,7 @@ public static String toString(int pageBorderDistanceFrom)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageBorderDistanceFrom | int |  |
+| markdownListExportMode | int |  |
 
 **Returns:**
 java.lang.String

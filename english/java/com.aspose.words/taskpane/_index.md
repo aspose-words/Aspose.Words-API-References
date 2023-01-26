@@ -3,7 +3,7 @@ title: TaskPane
 second_title: Aspose.Words for Java API Reference
 description: Represents an add-in task pane object.
 type: docs
-weight: 558
+weight: 559
 url: /java/com.aspose.words/taskpane/
 ---
 

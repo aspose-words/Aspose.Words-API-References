@@ -3,7 +3,7 @@ title: PageBorderAppliesTo
 second_title: Aspose.Words for Java API Reference
 description: Specifies which pages the page border is printed on.
 type: docs
-weight: 435
+weight: 436
 url: /java/com.aspose.words/pageborderappliesto/
 ---
 

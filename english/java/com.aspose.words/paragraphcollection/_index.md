@@ -3,7 +3,7 @@ title: ParagraphCollection
 second_title: Aspose.Words for Java API Reference
 description: Provides typed access to a collection of  nodes.
 type: docs
-weight: 448
+weight: 449
 url: /java/com.aspose.words/paragraphcollection/
 ---
 

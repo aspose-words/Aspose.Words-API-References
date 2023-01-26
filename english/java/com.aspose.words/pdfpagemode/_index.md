@@ -3,7 +3,7 @@ title: PdfPageMode
 second_title: Aspose.Words for Java API Reference
 description: Specifies how the PDF document should be displayed when opened in the PDF reader.
 type: docs
-weight: 462
+weight: 463
 url: /java/com.aspose.words/pdfpagemode/
 ---
 

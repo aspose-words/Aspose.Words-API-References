@@ -3,7 +3,7 @@ title: NodeImporter
 second_title: Aspose.Words for Java API Reference
 description: Allows to efficiently perform repeated import of nodes from one document to another.
 type: docs
-weight: 408
+weight: 409
 url: /java/com.aspose.words/nodeimporter/
 ---
 

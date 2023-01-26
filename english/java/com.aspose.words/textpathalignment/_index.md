@@ -3,7 +3,7 @@ title: TextPathAlignment
 second_title: Aspose.Words for Java API Reference
 description: WordArt alignment.
 type: docs
-weight: 571
+weight: 572
 url: /java/com.aspose.words/textpathalignment/
 ---
 

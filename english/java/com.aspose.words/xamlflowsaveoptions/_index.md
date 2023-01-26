@@ -3,7 +3,7 @@ title: XamlFlowSaveOptions
 second_title: Aspose.Words for Java API Reference
 description: Can be used to specify additional options when saving a document into the  or  format.
 type: docs
-weight: 629
+weight: 630
 url: /java/com.aspose.words/xamlflowsaveoptions/
 ---
 

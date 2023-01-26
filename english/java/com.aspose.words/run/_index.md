@@ -3,7 +3,7 @@ title: Run
 second_title: Aspose.Words for Java API Reference
 description: Represents a run of characters with the same font formatting.
 type: docs
-weight: 500
+weight: 501
 url: /java/com.aspose.words/run/
 ---
 
@@ -43,7 +43,8 @@ All text of the document is stored in runs of text.
 | [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
 | [getClass()](#getClass) |  |
 | [getCustomNodeId()](#getCustomNodeId) | Specifies custom node identifier. |
-| [getDirectRunAttr(int fontAttr)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
 | [getDocument()](#getDocument) | Gets the document to which this node belongs. |
 | [getDocument_IInline()](#getDocument-IInline) |  |
 | [getFont()](#getFont) | Provides access to the font formatting of this object. |
@@ -256,9 +257,9 @@ Important note, specified value is not saved to an output file and exists only d
 
 **Returns:**
 int - The corresponding  int  value.
-### getDirectRunAttr(int fontAttr) {#getDirectRunAttr-int}
+### getDirectRunAttr(int key) {#getDirectRunAttr-int}
 ```
-public Object getDirectRunAttr(int fontAttr)
+public Object getDirectRunAttr(int key)
 ```
 
 
@@ -267,7 +268,23 @@ public Object getDirectRunAttr(int fontAttr)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fontAttr | int |  |
+| key | int |  |
+
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key, int revisionsView) {#getDirectRunAttr-int-int}
+```
+public Object getDirectRunAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| revisionsView | int |  |
 
 **Returns:**
 java.lang.Object
@@ -401,7 +418,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (31231,6)
+Returns  true  if this node can contain other nodes. (31362,6)
 
 **Returns:**
 boolean - \{ true  if this node can contain other nodes.

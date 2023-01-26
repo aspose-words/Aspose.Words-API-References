@@ -3,7 +3,7 @@ title: ResourceLoadingArgs
 second_title: Aspose.Words for Java API Reference
 description: Provides data for the  method.
 type: docs
-weight: 483
+weight: 484
 url: /java/com.aspose.words/resourceloadingargs/
 ---
 

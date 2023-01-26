@@ -3,7 +3,7 @@ title: Revision
 second_title: Aspose.Words for Java API Reference
 description: Represents a revision tracked change in a document node or style.
 type: docs
-weight: 486
+weight: 487
 url: /java/com.aspose.words/revision/
 ---
 

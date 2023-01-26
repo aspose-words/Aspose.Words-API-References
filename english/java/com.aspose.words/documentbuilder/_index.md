@@ -77,6 +77,7 @@ Note that [getFont()](../../com.aspose.words/documentbuilder\#getFont), [getPara
 | [getDirectParaAttr(int key, int revisionsView)](#getDirectParaAttr-int-int) |  |
 | [getDirectRowAttr(int key)](#getDirectRowAttr-int) |  |
 | [getDirectRunAttr(int fontAttr)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
 | [getDocument()](#getDocument) | Gets the [getDocument()](../../com.aspose.words/documentbuilder\#getDocument) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document) object that this object is attached to. |
 | [getFont()](#getFont) | Returns an object that represents current font formatting properties. |
 | [getItalic()](#getItalic) | True if the font is formatted as italic. |
@@ -632,6 +633,22 @@ public Object getDirectRunAttr(int fontAttr)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fontAttr | int |  |
+
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key, int revisionsView) {#getDirectRunAttr-int-int}
+```
+public Object getDirectRunAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| revisionsView | int |  |
 
 **Returns:**
 java.lang.Object

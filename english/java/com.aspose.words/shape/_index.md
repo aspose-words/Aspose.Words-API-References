@@ -3,7 +3,7 @@ title: Shape
 second_title: Aspose.Words for Java API Reference
 description: Represents an object in the drawing layer such as an AutoShape textbox freeform OLE object ActiveX control or picture.
 type: docs
-weight: 519
+weight: 520
 url: /java/com.aspose.words/shape/
 ---
 
@@ -69,6 +69,7 @@ Shapes that can have text, can contain [Paragraph](../../com.aspose.words/paragr
 | [getCustomNodeId()](#getCustomNodeId) | Specifies custom node identifier. |
 | [getDashStyle()](#getDashStyle) |  |
 | [getDirectRunAttr(int fontAttr)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
 | [getDirectShapeAttr(int key)](#getDirectShapeAttr-int) | Reserved for system use. |
 | [getDistanceBottom()](#getDistanceBottom) | Gets the distance (in points) between the document text and the bottom edge of the shape. |
 | [getDistanceLeft()](#getDistanceLeft) | Gets the distance (in points) between the document text and the left edge of the shape. |
@@ -769,6 +770,22 @@ public Object getDirectRunAttr(int fontAttr)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fontAttr | int |  |
+
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key, int revisionsView) {#getDirectRunAttr-int-int}
+```
+public Object getDirectRunAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| revisionsView | int |  |
 
 **Returns:**
 java.lang.Object

@@ -3,7 +3,7 @@ title: OleFormat
 second_title: Aspose.Words for Java API Reference
 description: Provides access to the data of an OLE object or ActiveX control.
 type: docs
-weight: 428
+weight: 429
 url: /java/com.aspose.words/oleformat/
 ---
 
@@ -121,7 +121,7 @@ public OleControl getOleControl()
 ```
 
 
-Gets [getOleControl()](../../com.aspose.words/oleformat\#getOleControl) objects if this OLE object is an ActiveX control. Otherwise this property is  null .
+Gets [getOleControl()](../../com.aspose.words/oleformat\#getOleControl) objects if this OLE object is an ActiveX control. Otherwise this property is null.
 
 **Returns:**
 [OleControl](../../com.aspose.words/olecontrol) - \{[getOleControl()](../../com.aspose.words/oleformat\#getOleControl) objects if this OLE object is an ActiveX control.

@@ -3,7 +3,7 @@ title: NodeChangingAction
 second_title: Aspose.Words for Java API Reference
 description: Specifies the type of node change.
 type: docs
-weight: 405
+weight: 406
 url: /java/com.aspose.words/nodechangingaction/
 ---
 

@@ -3,7 +3,7 @@ title: OfficeMath
 second_title: Aspose.Words for Java API Reference
 description: Represents an Office Math object such as function equation matrix or alike.
 type: docs
-weight: 423
+weight: 424
 url: /java/com.aspose.words/officemath/
 ---
 
@@ -44,7 +44,8 @@ In this version of Aspose.Words, [OfficeMath](../../com.aspose.words/officemath)
 | [getCount()](#getCount) | Gets the number of immediate children of this node. |
 | [getCurrentNode()](#getCurrentNode) |  |
 | [getCustomNodeId()](#getCustomNodeId) | Specifies custom node identifier. |
-| [getDirectRunAttr(int fontAttr)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
 | [getDisplayType()](#getDisplayType) | Gets/sets Office Math display format type which represents whether an equation is displayed inline with the text or displayed on its own line. |
 | [getDocument()](#getDocument) | Gets the document to which this node belongs. |
 | [getDocument_IInline()](#getDocument-IInline) |  |
@@ -333,9 +334,9 @@ Important note, specified value is not saved to an output file and exists only d
 
 **Returns:**
 int - The corresponding  int  value.
-### getDirectRunAttr(int fontAttr) {#getDirectRunAttr-int}
+### getDirectRunAttr(int key) {#getDirectRunAttr-int}
 ```
-public Object getDirectRunAttr(int fontAttr)
+public Object getDirectRunAttr(int key)
 ```
 
 
@@ -344,7 +345,23 @@ public Object getDirectRunAttr(int fontAttr)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fontAttr | int |  |
+| key | int |  |
+
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key, int revisionsView) {#getDirectRunAttr-int-int}
+```
+public Object getDirectRunAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| revisionsView | int |  |
 
 **Returns:**
 java.lang.Object
@@ -390,7 +407,7 @@ public Charset getEquationXmlEncoding()
 ```
 
 
-Gets/sets an encoding that was used to encode equation XML, if this office math object is read from equation XML. We use the encoding on saving a document to write in same encoding that it was read.
+Gets/sets an encoding that was used to encode equation XML, if this office math object is read from equation XML.
 
 **Returns:**
 java.nio.charset.Charset - The corresponding java.nio.charset.Charset value.
@@ -868,7 +885,7 @@ public void setEquationXmlEncoding(Charset value)
 ```
 
 
-Gets/sets an encoding that was used to encode equation XML, if this office math object is read from equation XML. We use the encoding on saving a document to write in same encoding that it was read.
+Gets/sets an encoding that was used to encode equation XML, if this office math object is read from equation XML.
 
 **Parameters:**
 | Parameter | Type | Description |

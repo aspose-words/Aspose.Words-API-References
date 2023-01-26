@@ -30,31 +30,19 @@ The text of the entry is the name of the series or trendline. The text cannot be
 
 | Method | Description |
 | --- | --- |
-| [clearRunAttrs()](#clearRunAttrs) |  |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int) |  |
+| [generateItemText()](#generateItemText) |  |
 | [getClass()](#getClass) |  |
-| [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
 | [getFont()](#getFont) | Provides access to the font formatting of this legend entry. |
 | [hashCode()](#hashCode) |  |
 | [isHidden()](#isHidden) | Gets a value indicating whether this entry is hidden in the chart legend. |
 | [isHidden(boolean value)](#isHidden-boolean) | Sets a value indicating whether this entry is hidden in the chart legend. |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
-| [removeRunAttr(int key)](#removeRunAttr-int) |  |
-| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object) |  |
 | [toString()](#toString) |  |
 | [wait()](#wait) |  |
 | [wait(long arg0)](#wait-long) |  |
 | [wait(long arg0, int arg1)](#wait-long-int) |  |
-### clearRunAttrs() {#clearRunAttrs}
-```
-public void clearRunAttrs()
-```
-
-
-
-
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -70,21 +58,16 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int}
+### generateItemText() {#generateItemText}
 ```
-public Object fetchInheritedRunAttr(int key)
+public String generateItemText()
 ```
 
 
 
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| key | int |  |
 
 **Returns:**
-java.lang.Object
+java.lang.String
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -95,21 +78,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDirectRunAttr(int key) {#getDirectRunAttr-int}
-```
-public Object getDirectRunAttr(int key)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| key | int |  |
-
-**Returns:**
-java.lang.Object
 ### getFont() {#getFont}
 ```
 public Font getFont()
@@ -168,33 +136,6 @@ public final native void notifyAll()
 
 
 
-
-### removeRunAttr(int key) {#removeRunAttr-int}
-```
-public void removeRunAttr(int key)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| key | int |  |
-
-### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object}
-```
-public void setRunAttr(int key, Object value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| key | int |  |
-| value | java.lang.Object |  |
 
 ### toString() {#toString}
 ```

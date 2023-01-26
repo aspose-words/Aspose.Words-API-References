@@ -331,7 +331,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (31231,6)
+Returns  true  if this node can contain other nodes. (31362,6)
 
 **Returns:**
 boolean - \{ true  if this node can contain other nodes.

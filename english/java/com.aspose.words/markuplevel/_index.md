@@ -3,7 +3,7 @@ title: MarkupLevel
 second_title: Aspose.Words for Java API Reference
 description: Specifies the level in the document tree where a particular  can occur.
 type: docs
-weight: 393
+weight: 394
 url: /java/com.aspose.words/markuplevel/
 ---
 

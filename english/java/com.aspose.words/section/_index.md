@@ -3,7 +3,7 @@ title: Section
 second_title: Aspose.Words for Java API Reference
 description: Represents a single section in a document.
 type: docs
-weight: 512
+weight: 513
 url: /java/com.aspose.words/section/
 ---
 

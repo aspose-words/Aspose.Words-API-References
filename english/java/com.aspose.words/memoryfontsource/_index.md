@@ -3,7 +3,7 @@ title: MemoryFontSource
 second_title: Aspose.Words for Java API Reference
 description: Represents the single TrueType font file stored in memory.
 type: docs
-weight: 396
+weight: 397
 url: /java/com.aspose.words/memoryfontsource/
 ---
 

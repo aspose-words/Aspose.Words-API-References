@@ -3,7 +3,7 @@ title: IFieldUpdateCultureProvider
 second_title: Aspose.Words for Java API Reference
 description: When implemented provides a  object that should be used during the update of a particular field.
 type: docs
-weight: 646
+weight: 647
 url: /java/com.aspose.words/ifieldupdatecultureprovider/
 ---
 ```

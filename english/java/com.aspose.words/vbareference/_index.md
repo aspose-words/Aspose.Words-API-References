@@ -3,7 +3,7 @@ title: VbaReference
 second_title: Aspose.Words for Java API Reference
 description: Implements a reference to an Automation type library or VBA project.
 type: docs
-weight: 600
+weight: 601
 url: /java/com.aspose.words/vbareference/
 ---
 

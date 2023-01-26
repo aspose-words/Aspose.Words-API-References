@@ -3,7 +3,7 @@ title: StyleType
 second_title: Aspose.Words for Java API Reference
 description: Represents type of the style.
 type: docs
-weight: 542
+weight: 543
 url: /java/com.aspose.words/styletype/
 ---
 

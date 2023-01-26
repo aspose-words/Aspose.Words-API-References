@@ -3,7 +3,7 @@ title: WriteProtection
 second_title: Aspose.Words for Java API Reference
 description: Specifies write protection settings for a document.
 type: docs
-weight: 626
+weight: 627
 url: /java/com.aspose.words/writeprotection/
 ---
 

@@ -3,7 +3,7 @@ title: TextBoxWrapMode
 second_title: Aspose.Words for Java API Reference
 description: Specifies how text wraps inside a shape.
 type: docs
-weight: 563
+weight: 564
 url: /java/com.aspose.words/textboxwrapmode/
 ---
 

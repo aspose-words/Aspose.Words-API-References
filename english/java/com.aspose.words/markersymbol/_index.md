@@ -3,7 +3,7 @@ title: MarkerSymbol
 second_title: Aspose.Words for Java API Reference
 description: Specifies marker symbol style.
 type: docs
-weight: 392
+weight: 393
 url: /java/com.aspose.words/markersymbol/
 ---
 

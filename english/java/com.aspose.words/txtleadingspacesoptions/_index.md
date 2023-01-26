@@ -3,7 +3,7 @@ title: TxtLeadingSpacesOptions
 second_title: Aspose.Words for Java API Reference
 description: Specifies available options for leading space handling during import from  file.
 type: docs
-weight: 585
+weight: 586
 url: /java/com.aspose.words/txtleadingspacesoptions/
 ---
 

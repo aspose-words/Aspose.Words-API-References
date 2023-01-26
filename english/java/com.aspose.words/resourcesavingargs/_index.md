@@ -3,7 +3,7 @@ title: ResourceSavingArgs
 second_title: Aspose.Words for Java API Reference
 description: Provides data for the  event.
 type: docs
-weight: 484
+weight: 485
 url: /java/com.aspose.words/resourcesavingargs/
 ---
 

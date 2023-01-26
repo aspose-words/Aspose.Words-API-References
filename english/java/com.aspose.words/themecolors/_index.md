@@ -3,7 +3,7 @@ title: ThemeColors
 second_title: Aspose.Words for Java API Reference
 description: Represents the color scheme of the document theme which contains twelve colors.
 type: docs
-weight: 578
+weight: 579
 url: /java/com.aspose.words/themecolors/
 ---
 

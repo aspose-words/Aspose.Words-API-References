@@ -3,7 +3,7 @@ title: WarningInfoCollection
 second_title: Aspose.Words for Java API Reference
 description: Represents a typed collection of  objects.
 type: docs
-weight: 608
+weight: 609
 url: /java/com.aspose.words/warninginfocollection/
 ---
 

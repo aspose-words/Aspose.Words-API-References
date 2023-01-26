@@ -3,7 +3,7 @@ title: Stroke
 second_title: Aspose.Words for Java API Reference
 description: Defines a stroke for a shape.
 type: docs
-weight: 534
+weight: 535
 url: /java/com.aspose.words/stroke/
 ---
 

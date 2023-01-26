@@ -3,7 +3,7 @@ title: ShapeRenderer
 second_title: Aspose.Words for Java API Reference
 description: Provides methods to render an individual  or  to a raster or vector image or to a Graphics object.
 type: docs
-weight: 523
+weight: 524
 url: /java/com.aspose.words/shaperenderer/
 ---
 

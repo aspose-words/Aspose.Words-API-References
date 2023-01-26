@@ -3,7 +3,7 @@ title: TabStop
 second_title: Aspose.Words for Java API Reference
 description: Represents a single custom tab stop.
 type: docs
-weight: 549
+weight: 550
 url: /java/com.aspose.words/tabstop/
 ---
 

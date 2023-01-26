@@ -3,7 +3,7 @@ title: PageSet
 second_title: Aspose.Words for Java API Reference
 description: Describes a random set of pages.
 type: docs
-weight: 442
+weight: 443
 url: /java/com.aspose.words/pageset/
 ---
 

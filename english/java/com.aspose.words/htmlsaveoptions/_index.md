@@ -50,7 +50,7 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [getDocumentSplitCriteria()](#getDocumentSplitCriteria) | Specifies how the document should be split when saving to [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) or [SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3) format. |
 | [getDocumentSplitHeadingLevel()](#getDocumentSplitHeadingLevel) | Specifies the maximum level of headings at which to split the document. |
 | [getEncoding()](#getEncoding) |  |
-| [getEpubNavigationMapLevel()](#getEpubNavigationMapLevel) | Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB format. |
+| [getEpubNavigationMapLevel()](#getEpubNavigationMapLevel) | Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB or AZW3 formats. |
 | [getExportCidUrlsForMhtmlResources()](#getExportCidUrlsForMhtmlResources) | Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML documents. |
 | [getExportDocumentProperties()](#getExportDocumentProperties) | Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB. |
 | [getExportDropDownFormFieldAsText()](#getExportDropDownFormFieldAsText) | Controls how drop-down form fields are saved to HTML or MHTML. |
@@ -116,7 +116,7 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [setDocumentSplitCriteria(int value)](#setDocumentSplitCriteria-int) | Specifies how the document should be split when saving to [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) or [SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3) format. |
 | [setDocumentSplitHeadingLevel(int value)](#setDocumentSplitHeadingLevel-int) | Specifies the maximum level of headings at which to split the document. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset) |  |
-| [setEpubNavigationMapLevel(int value)](#setEpubNavigationMapLevel-int) | Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB format. |
+| [setEpubNavigationMapLevel(int value)](#setEpubNavigationMapLevel-int) | Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB or AZW3 formats. |
 | [setExportCidUrlsForMhtmlResources(boolean value)](#setExportCidUrlsForMhtmlResources-boolean) | Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML documents. |
 | [setExportDocumentProperties(boolean value)](#setExportDocumentProperties-boolean) | Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB. |
 | [setExportDropDownFormFieldAsText(boolean value)](#setExportDropDownFormFieldAsText-boolean) | Controls how drop-down form fields are saved to HTML or MHTML. |
@@ -425,9 +425,9 @@ public int getEpubNavigationMapLevel()
 ```
 
 
-Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB format. Default value is  3 .
+Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB or AZW3 formats. Default value is  3 .
 
-Navigation map in IDPF EPUB format allows user agents to provide easy way of navigation through the document structure. Usually navigation points correspond to headings in the document. To populate headings up to level **N** assign this value to [getEpubNavigationMapLevel()](../../com.aspose.words/htmlsaveoptions\#getEpubNavigationMapLevel) / [setEpubNavigationMapLevel(int)](../../com.aspose.words/htmlsaveoptions\#setEpubNavigationMapLevel-int).
+Navigation map in IDPF EPUB or AZW3 formats allows user agents to provide easy way of navigation through the document structure. Usually navigation points correspond to headings in the document. To populate headings up to level **N** assign this value to [getEpubNavigationMapLevel()](../../com.aspose.words/htmlsaveoptions\#getEpubNavigationMapLevel) / [setEpubNavigationMapLevel(int)](../../com.aspose.words/htmlsaveoptions\#setEpubNavigationMapLevel-int).
 
 By default, three levels of headings are populated: paragraphs of styles **Heading 1**, **Heading 2** and **Heading 3**. You can set this property to a value from 1 to 9 to request corresponding maximum level. Setting it to zero will reduce navigation map to only document root or roots of document parts.
 
@@ -989,6 +989,8 @@ When [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getSca
 
 In general, browsers do quick and poor quality scaling. As a result, you will normally get better display quality in the browser and smaller file size when [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean) is  true , but better printing quality and faster conversion when [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean) is  false .
 
+In addition to shapes containing individual raster images, this option also affects group shapes consisting of raster images. If [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean) is  false  and a group shape contains raster images whose intrinsic resolution is higher than the value specified in [getImageResolution()](../../com.aspose.words/htmlsaveoptions\#getImageResolution) / [setImageResolution(int)](../../com.aspose.words/htmlsaveoptions\#setImageResolution-int), Aspose.Words will increase rendering resolution for that group. This allows to better preserve quality of grouped high resolution images when saving to HTML.
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### getTableWidthOutputMode() {#getTableWidthOutputMode}
@@ -1348,9 +1350,9 @@ public void setEpubNavigationMapLevel(int value)
 ```
 
 
-Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB format. Default value is  3 .
+Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB or AZW3 formats. Default value is  3 .
 
-Navigation map in IDPF EPUB format allows user agents to provide easy way of navigation through the document structure. Usually navigation points correspond to headings in the document. To populate headings up to level **N** assign this value to [getEpubNavigationMapLevel()](../../com.aspose.words/htmlsaveoptions\#getEpubNavigationMapLevel) / [setEpubNavigationMapLevel(int)](../../com.aspose.words/htmlsaveoptions\#setEpubNavigationMapLevel-int).
+Navigation map in IDPF EPUB or AZW3 formats allows user agents to provide easy way of navigation through the document structure. Usually navigation points correspond to headings in the document. To populate headings up to level **N** assign this value to [getEpubNavigationMapLevel()](../../com.aspose.words/htmlsaveoptions\#getEpubNavigationMapLevel) / [setEpubNavigationMapLevel(int)](../../com.aspose.words/htmlsaveoptions\#setEpubNavigationMapLevel-int).
 
 By default, three levels of headings are populated: paragraphs of styles **Heading 1**, **Heading 2** and **Heading 3**. You can set this property to a value from 1 to 9 to request corresponding maximum level. Setting it to zero will reduce navigation map to only document root or roots of document parts.
 
@@ -2028,6 +2030,8 @@ In order to display an image in the browser, it must be scaled to the shape size
 When [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean) is  true , the image is scaled by Aspose.Words using high quality scaling during export to HTML. When [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean) is  false , the image is output with its original size and the browser has to scale it.
 
 In general, browsers do quick and poor quality scaling. As a result, you will normally get better display quality in the browser and smaller file size when [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean) is  true , but better printing quality and faster conversion when [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean) is  false .
+
+In addition to shapes containing individual raster images, this option also affects group shapes consisting of raster images. If [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean) is  false  and a group shape contains raster images whose intrinsic resolution is higher than the value specified in [getImageResolution()](../../com.aspose.words/htmlsaveoptions\#getImageResolution) / [setImageResolution(int)](../../com.aspose.words/htmlsaveoptions\#setImageResolution-int), Aspose.Words will increase rendering resolution for that group. This allows to better preserve quality of grouped high resolution images when saving to HTML.
 
 **Parameters:**
 | Parameter | Type | Description |

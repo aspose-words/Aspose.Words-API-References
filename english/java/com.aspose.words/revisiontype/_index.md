@@ -3,7 +3,7 @@ title: RevisionType
 second_title: Aspose.Words for Java API Reference
 description: Specifies the type of change being tracked in .
 type: docs
-weight: 493
+weight: 494
 url: /java/com.aspose.words/revisiontype/
 ---
 

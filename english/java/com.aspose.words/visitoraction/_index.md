@@ -3,7 +3,7 @@ title: VisitorAction
 second_title: Aspose.Words for Java API Reference
 description: Allows the visitor to control the enumeration of nodes.
 type: docs
-weight: 606
+weight: 607
 url: /java/com.aspose.words/visitoraction/
 ---
 

@@ -3,7 +3,7 @@ title: SaveFormat
 second_title: Aspose.Words for Java API Reference
 description: Indicates the format in which the document is saved.
 type: docs
-weight: 502
+weight: 503
 url: /java/com.aspose.words/saveformat/
 ---
 

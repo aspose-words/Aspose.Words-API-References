@@ -3,7 +3,7 @@ title: ReplaceAction
 second_title: Aspose.Words for Java API Reference
 description: Allows the user to specify what happens to the current match during a replace operation.
 type: docs
-weight: 478
+weight: 479
 url: /java/com.aspose.words/replaceaction/
 ---
 
