@@ -87,6 +87,7 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [ImageColorMode](./imagecolormode/) | Specifies the color mode for the generated images of document pages. |
 | [ImagePixelFormat](./imagepixelformat/) | Specifies the pixel format for the generated images of document pages. |
 | [ImlRenderingMode](./imlrenderingmode/) | Specifies how ink (InkML) objects are rendered to fixed page formats. |
+| [MarkdownListExportMode](./markdownlistexportmode/) | Specifies how lists are exported into Markdown. |
 | [MetafileRenderingMode](./metafilerenderingmode/) | Specifies how Aspose.Words should render WMF and EMF metafiles. |
 | [NumeralFormat](./numeralformat/) | Indicates the symbol set that is used to represent numbers while rendering to fixed page formats. |
 | [OdtSaveMeasureUnit](./odtsavemeasureunit/) | Specified units of measure to apply to measurable document content such as shape, widths and other during saving. |

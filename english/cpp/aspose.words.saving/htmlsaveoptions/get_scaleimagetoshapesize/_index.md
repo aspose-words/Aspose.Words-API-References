@@ -26,6 +26,8 @@ When [ScaleImageToShapeSize](./) is **true**, the image is scaled by [Aspose.Wor
 
 In general, browsers do quick and poor quality scaling. As a result, you will normally get better display quality in the browser and smaller file size when [ScaleImageToShapeSize](./) is **true**, but better printing quality and faster conversion when [ScaleImageToShapeSize](./) is **false**.
 
+In addition to shapes containing individual raster images, this option also affects group shapes consisting of raster images. If [ScaleImageToShapeSize](./) is **false** and a group shape contains raster images whose intrinsic resolution is higher than the value specified in [ImageResolution](../get_imageresolution/), Aspose.Words will increase rendering resolution for that group. This allows to better preserve quality of grouped high resolution images when saving to HTML.
+
 ## Examples
 
 

@@ -12,7 +12,8 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabel/
 Represents data label on a chart point or trendline. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
-class ChartDataLabel : public Aspose::Words::Drawing::Charts::Core::INumberFormatProvider
+class ChartDataLabel : public Aspose::Words::Drawing::Charts::Core::INumberFormatProvider,
+                       public Aspose::Words::Drawing::Charts::Core::IChartItemTextProperties
 ```
 
 ## Methods
@@ -20,6 +21,7 @@ class ChartDataLabel : public Aspose::Words::Drawing::Charts::Core::INumberForma
 | Method | Description |
 | --- | --- |
 | [ClearFormat](./clearformat/)() | Clears format of this data label. The properties are set to the default values defined in the parent data label collection. |
+| [get_Font](./get_font/)() | Provides access to the font formatting of this data label. |
 | [get_Index](./get_index/)() | Specifies the index of the containing element. This index shall determine which of the parent's children collection this element applies to. Default value is 0. |
 | [get_IsHidden](./get_ishidden/)() | Gets/sets a flag indicating whether this label is hidden. The default value is **false**. |
 | [get_IsVisible](./get_isvisible/)() | Returns **true** if this data label has something to display. |

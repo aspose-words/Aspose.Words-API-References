@@ -23,7 +23,6 @@ Default is `false` and Aspose.Words will close the stream you provided in the [`
 Shows how to split a document into parts and save them.
 
 ```csharp
-public void DocumentPartsFileNames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
     string outFileName = "SavingCallback.DocumentPartsFileNames.html";

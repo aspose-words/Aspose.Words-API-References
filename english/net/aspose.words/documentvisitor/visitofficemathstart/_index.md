@@ -27,7 +27,6 @@ A [`VisitorAction`](../../visitoraction/) value that specifies how to continue t
 Shows how to print the node structure of every office math node in a document.
 
 ```csharp
-public void OfficeMathToText()
 {
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
@@ -38,7 +37,6 @@ public void OfficeMathToText()
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
-}
 
 /// <summary>
 /// Traverses a node's non-binary tree of child nodes.

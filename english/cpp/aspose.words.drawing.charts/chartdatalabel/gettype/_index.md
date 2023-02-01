@@ -3,7 +3,7 @@ title: GetType
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 196
+weight: 209
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/gettype/
 ---
 ## ChartDataLabel::GetType method

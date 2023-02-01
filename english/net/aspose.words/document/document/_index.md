@@ -279,9 +279,9 @@ Shows how to load a document from a URL.
 const string url = "https://omextemplates.content.office.net/support/templates/en-us/tf16402488.dotx";
 
 // Download the document into a byte array, then load that array into a document using a memory stream.
-using (WebClient webClient = new WebClient())
+using (HttpClient webClient = new HttpClient())
 {
-    byte[] dataBytes = webClient.DownloadData(url);
+    byte[] dataBytes = await webClient.GetByteArrayAsync(url);
 
     using (MemoryStream byteStream = new MemoryStream(dataBytes))
     {
@@ -338,27 +338,6 @@ The document must be stored at the beginning of the stream. The stream must supp
 
 ## Examples
 
-Shows how save a web page as a .docx file.
-
-```csharp
-const string url = "http://www.aspose.com/";
-
-using (WebClient client = new WebClient()) 
-{ 
-    using (MemoryStream stream = new MemoryStream(client.DownloadData(url)))
-    {
-        // The URL is used again as a baseUri to ensure that any relative image paths are retrieved correctly.
-        LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
-
-        // Load the HTML document from stream and pass the LoadOptions object.
-        Document doc = new Document(stream, options);
-
-        // At this stage, we can read and edit the document's contents and then save it to the local file system.
-        doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
-    }
-}
-```
-
 Shows how to open an HTML document with images from a stream using a base URI.
 
 ```csharp
@@ -378,6 +357,28 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
     Assert.IsNotNull(shape.ImageData.ImageBytes);
     Assert.AreEqual(32.0, ConvertUtil.PointToPixel(shape.Width), 0.01);
     Assert.AreEqual(32.0, ConvertUtil.PointToPixel(shape.Height), 0.01);
+}
+```
+
+Shows how save a web page as a .docx file.
+
+```csharp
+const string url = "https://www.aspose.com/";
+
+using (HttpClient client = new HttpClient()) 
+{
+    var bytes = await client.GetByteArrayAsync(url);
+    using (MemoryStream stream = new MemoryStream(bytes))
+    {
+        // The URL is used again as a baseUri to ensure that any relative image paths are retrieved correctly.
+        LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
+
+        // Load the HTML document from stream and pass the LoadOptions object.
+        Document doc = new Document(stream, options);
+
+        // At this stage, we can read and edit the document's contents and then save it to the local file system.
+        doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
+    }
 }
 ```
 

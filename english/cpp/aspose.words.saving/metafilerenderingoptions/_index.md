@@ -24,6 +24,7 @@ class MetafileRenderingOptions : public System::Object
 | [get_RenderingMode](./get_renderingmode/)() const | Gets or sets a value determining how metafile images should be rendered. |
 | [get_ScaleWmfFontsToMetafileSize](./get_scalewmffontstometafilesize/)() const | Gets or sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
 | [get_UseEmfEmbeddedToWmf](./get_useemfembeddedtowmf/)() const | Gets or sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
+| [get_UseGdiRasterOperationsEmulation](./get_usegdirasteroperationsemulation/)() const | Gets or sets a value determining whether or not to use the GDI+ for raster operations emulation. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [MetafileRenderingOptions](./metafilerenderingoptions/)() |  |
@@ -32,6 +33,7 @@ class MetafileRenderingOptions : public System::Object
 | [set_RenderingMode](./set_renderingmode/)(Aspose::Words::Saving::MetafileRenderingMode) | Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_RenderingMode](./get_renderingmode/). |
 | [set_ScaleWmfFontsToMetafileSize](./set_scalewmffontstometafilesize/)(bool) | Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_ScaleWmfFontsToMetafileSize](./get_scalewmffontstometafilesize/). |
 | [set_UseEmfEmbeddedToWmf](./set_useemfembeddedtowmf/)(bool) | Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_UseEmfEmbeddedToWmf](./get_useemfembeddedtowmf/). |
+| [set_UseGdiRasterOperationsEmulation](./set_usegdirasteroperationsemulation/)(bool) | Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_UseGdiRasterOperationsEmulation](./get_usegdirasteroperationsemulation/). |
 | static [Type](./type/)() |  |
 
 ## Examples

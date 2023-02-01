@@ -3,7 +3,7 @@ title: ParagraphFormat
 second_title: Aspose.Words for .NET API Reference
 description: Gets the paragraph formatting of the style.
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.words/style/paragraphformat/
 ---
 ## Style.ParagraphFormat property

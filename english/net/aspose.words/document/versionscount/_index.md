@@ -3,7 +3,7 @@ title: VersionsCount
 second_title: Aspose.Words for .NET API Reference
 description: Gets the number of document versions that was stored in the DOC document.
 type: docs
-weight: 440
+weight: 460
 url: /net/aspose.words/document/versionscount/
 ---
 ## Document.VersionsCount property

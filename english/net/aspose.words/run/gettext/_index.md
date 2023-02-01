@@ -23,7 +23,6 @@ The text of the run.
 Shows how to print the node structure of every header and footer in a document.
 
 ```csharp
-public void HeaderFooterToText()
 {
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
@@ -38,7 +37,6 @@ public void HeaderFooterToText()
     // An alternative way of accessing a document's header/footers section-by-section is by accessing the collection.
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
-}
 
 /// <summary>
 /// Traverses a node's non-binary tree of child nodes.

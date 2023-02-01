@@ -29,7 +29,6 @@ You can use this method only when [`IsBidiTextSupportedOnUpdate`](../../../aspos
 Shows how to use mail merge regions to execute a nested mail merge.
 
 ```csharp
-public void CustomDataSource()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -75,7 +74,6 @@ public void CustomDataSource()
     doc.MailMerge.ExecuteWithRegions(customersDataSource);
 
     doc.Save(ArtifactsDir + "NestedMailMergeCustom.CustomDataSource.docx");
-}
 
 /// <summary>
 /// An example of a "data entity" class in your application.
@@ -299,7 +297,6 @@ You can use this method only when [`IsBidiTextSupportedOnUpdate`](../../../aspos
 Performs mail merge from a custom data source with master-detail data.
 
 ```csharp
-public void CustomDataSourceRoot()
 {
     // Create a document with two mail merge regions named "Washington" and "Seattle".
     string[] mailMergeRegions = { "Vancouver", "Seattle" };
@@ -327,7 +324,6 @@ public void CustomDataSourceRoot()
     doc.MailMerge.ExecuteWithRegions(sourceRoot);
 
     doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSourceRoot.docx");
-}
 
 /// <summary>
 /// Create a document that contains consecutive mail merge regions, with names designated by the input array,
@@ -571,7 +567,6 @@ public void ExecuteWithRegionsNested()
     doc.MailMerge.ExecuteWithRegions(customersAndOrders);
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsNested.docx");
-}
 
 /// <summary>
 /// Generates a data set that has two data tables named "Customers" and "Orders", with a one-to-many relationship on the "CustomerID" column.

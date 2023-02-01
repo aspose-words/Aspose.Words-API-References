@@ -22,7 +22,7 @@ Specific raster operations could be used in metafiles. They can not be rendered 
 
 When this value is set to **true**, Aspose.Words emulates the raster operations. The resulting output maybe partially rasterized and performance might be slower.
 
-When this value is set to **false**, Aspose.Words does not emulate the raster operations. When Aspose.Words encounters a raster operation in a metafile it fallbacks to rendering the metafile into a bitmap by using the operating system.
+When this value is set to **false**, Aspose.Words does not emulate the raster operations. When [Aspose.Words](../../../aspose.words/) encounters a raster operation in a metafile it fallbacks to rendering the metafile into a bitmap by using the operating system.
 
 This option is used only when metafile is rendered as vector graphics.
 

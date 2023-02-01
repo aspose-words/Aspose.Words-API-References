@@ -145,7 +145,6 @@ This method ignores the RemoveUnusedRegions option.
 Shows how to execute a mail merge with data from a DataTable.
 
 ```csharp
-public void ExecuteDataTable()
 {
     DataTable table = new DataTable("Test");
     table.Columns.Add("CustomerName");
@@ -167,7 +166,6 @@ public void ExecuteDataTable()
     doc.MailMerge.Execute(table.Rows[1]);
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.OneRow.docx");
-}
 
 /// <summary>
 /// Creates a mail merge source document.
@@ -353,7 +351,6 @@ This method ignores the RemoveUnusedRegions option.
 Shows how to execute a mail merge with data from a DataTable.
 
 ```csharp
-public void ExecuteDataTable()
 {
     DataTable table = new DataTable("Test");
     table.Columns.Add("CustomerName");
@@ -375,7 +372,6 @@ public void ExecuteDataTable()
     doc.MailMerge.Execute(table.Rows[1]);
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.OneRow.docx");
-}
 
 /// <summary>
 /// Creates a mail merge source document.

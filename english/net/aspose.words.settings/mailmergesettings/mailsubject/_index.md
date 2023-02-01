@@ -20,7 +20,6 @@ Shows how to execute a mail merge while connecting to an external data source.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
-MailMergeSettings settings = doc.MailMergeSettings;
 
 Console.WriteLine($"Connection string:\n\t{settings.ConnectString}");
 Console.WriteLine($"Mail merge docs as attachment:\n\t{settings.MailAsAttachment}");

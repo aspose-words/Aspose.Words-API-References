@@ -3,7 +3,7 @@ title: NextParagraphStyleName
 second_title: Aspose.Words for .NET API Reference
 description: Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style.
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.words/style/nextparagraphstylename/
 ---
 ## Style.NextParagraphStyleName property

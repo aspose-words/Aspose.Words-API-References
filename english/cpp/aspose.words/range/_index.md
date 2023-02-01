@@ -23,6 +23,7 @@ class Range : public System::Object
 | [get_Bookmarks](./get_bookmarks/)() | Returns a [Bookmarks](./get_bookmarks/) collection that represents all bookmarks in the range. |
 | [get_Fields](./get_fields/)() | Returns a [Fields](./get_fields/) collection that represents all fields in the range. |
 | [get_FormFields](./get_formfields/)() | Returns a [FormFields](./get_formfields/) collection that represents all form fields in the range. |
+| [get_Revisions](./get_revisions/)() | Gets a collection of revisions (tracked changes) that exist in this range. |
 | [get_StructuredDocumentTags](./get_structureddocumenttags/)() | Returns a [StructuredDocumentTags](./get_structureddocumenttags/) collection that represents all structured document tags in the range. |
 | [get_Text](./get_text/)() | Gets the text of the range. |
 | [GetType](./gettype/)() const override |  |

@@ -19,7 +19,6 @@ public override SaveFormat SaveFormat { get; set; }
 Shows how to manipulate and print the URIs of linked resources created while converting a document to .svg.
 
 ```csharp
-public void SvgResourceFolder()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 

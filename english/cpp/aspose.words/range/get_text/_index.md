@@ -3,7 +3,7 @@ title: get_Text
 second_title: Aspose.Words for C++ API Reference
 description: Gets the text of the range.
 type: docs
-weight: 79
+weight: 92
 url: /cpp/aspose.words/range/get_text/
 ---
 ## Range::get_Text method

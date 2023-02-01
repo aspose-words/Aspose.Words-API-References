@@ -3,7 +3,7 @@ title: GetType
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 92
+weight: 105
 url: /cpp/aspose.words.saving/markdownsaveoptions/gettype/
 ---
 ## MarkdownSaveOptions::GetType method

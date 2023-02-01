@@ -22,6 +22,17 @@ By default, three levels of headings are populated: paragraphs of styles **Headi
 
 ## Examples
 
+Shows how to generate table of contents for azw3 documents.
+
+```csharp
+Document doc = new Document(MyDir + "Big document.docx");
+
+HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Azw3);
+options.EpubNavigationMapLevel = 2;
+
+doc.Save(ArtifactsDir + "HtmlSaveOptions.CreateAZW3Toc.azw3", options);
+```
+
 Shows how to filter headings that appear in the navigation panel of a saved Epub document.
 
 ```csharp

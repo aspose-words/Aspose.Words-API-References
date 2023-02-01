@@ -13,7 +13,7 @@ Represents a chart legend entry. To learn more, visit the [Working with Charts](
 
 ```cpp
 class ChartLegendEntry : public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListSource,
-                         public Aspose::Words::IRunAttrSource
+                         public Aspose::Words::Drawing::Charts::Core::IChartItemTextProperties
 ```
 
 ## Methods

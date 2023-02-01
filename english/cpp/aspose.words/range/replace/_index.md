@@ -3,7 +3,7 @@ title: Replace
 second_title: Aspose.Words for C++ API Reference
 description: Replaces all occurrences of a character pattern specified by a regular expression with another string.
 type: docs
-weight: 131
+weight: 144
 url: /cpp/aspose.words/range/replace/
 ---
 ## Range::Replace(const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&) method

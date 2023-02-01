@@ -42,7 +42,6 @@ public void MergeWholeDocument(bool mergeWholeDocument)
     Assert.True(doc.GetText().Contains("This QUOTE field is inside the \"MyTable\" merge region."));
     Assert.AreEqual(mergeWholeDocument, 
         doc.GetText().Contains("This QUOTE field is outside of the \"MyTable\" merge region."));
-}
 
 /// <summary>
 /// Create a document with a mail merge region that belongs to a data source named "MyTable".

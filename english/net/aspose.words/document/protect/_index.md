@@ -3,7 +3,7 @@ title: Protect
 second_title: Aspose.Words for .NET API Reference
 description: Protects the document from changes without changing the existing password or assigns a random password.
 type: docs
-weight: 630
+weight: 650
 url: /net/aspose.words/document/protect/
 ---
 ## Protect(ProtectionType) {#protect}

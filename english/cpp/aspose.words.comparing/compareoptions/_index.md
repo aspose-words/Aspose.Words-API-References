@@ -20,6 +20,7 @@ class CompareOptions : public System::Object
 | Method | Description |
 | --- | --- |
 | [CompareOptions](./compareoptions/)() |  |
+| [get_CompareMoves](./get_comparemoves/)() const | Specifies whether to compare differences in [MoveRevision](../) between the two documents. By default move revisions are not produced. |
 | [get_Granularity](./get_granularity/)() const | Specifies whether changes are tracked by character or by word. Default value is [WordLevel](../granularity/). |
 | [get_IgnoreCaseChanges](./get_ignorecasechanges/)() const | True indicates that documents comparison is case insensitive. By default comparison is case sensitive. |
 | [get_IgnoreComments](./get_ignorecomments/)() const | Specifies whether to compare differences in comments. By default comments are not ignored. |
@@ -33,6 +34,7 @@ class CompareOptions : public System::Object
 | [get_Target](./get_target/)() const | Specifies which document shall be used as a target during comparison. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [set_CompareMoves](./set_comparemoves/)(bool) | Specifies whether to compare differences in [MoveRevision](../) between the two documents. By default move revisions are not produced. |
 | [set_Granularity](./set_granularity/)(Aspose::Words::Comparing::Granularity) | Setter for [Aspose::Words::Comparing::CompareOptions::get_Granularity](./get_granularity/). |
 | [set_IgnoreCaseChanges](./set_ignorecasechanges/)(bool) | Setter for [Aspose::Words::Comparing::CompareOptions::get_IgnoreCaseChanges](./get_ignorecasechanges/). |
 | [set_IgnoreComments](./set_ignorecomments/)(bool) | Setter for [Aspose::Words::Comparing::CompareOptions::get_IgnoreComments](./get_ignorecomments/). |

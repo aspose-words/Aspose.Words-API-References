@@ -43,6 +43,7 @@ public enum SaveFormat
 | Mhtml | `51` | Saves the document in the MHTML (Web archive) format. |
 | Epub | `52` | Saves the document in the EPUB format. |
 | Azw3 | `53` | Saves the document in the AZW3 format. |
+| Mobi | `54` | Saves the document in the MOBI format. |
 | Odt | `60` | Saves the document as an ODF Text Document. |
 | Ott | `61` | Saves the document as an ODF Text Document Template. |
 | Text | `70` | Saves the document in the plain text format. |

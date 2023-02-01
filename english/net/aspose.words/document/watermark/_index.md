@@ -3,7 +3,7 @@ title: Watermark
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to the document watermark.
 type: docs
-weight: 460
+weight: 480
 url: /net/aspose.words/document/watermark/
 ---
 ## Document.Watermark property

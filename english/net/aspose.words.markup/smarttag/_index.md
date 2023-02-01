@@ -10,7 +10,7 @@ url: /net/aspose.words.markup/smarttag/
 
 This element specifies the presence of a smart tag around one or more inline structures (runs, images, fields,etc.) within a paragraph.
 
-To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article.
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/working-with-content-control-sdt/) documentation article.
 
 ```csharp
 public class SmartTag : CompositeNode

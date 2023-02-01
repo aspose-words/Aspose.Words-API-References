@@ -3,7 +3,7 @@ title: WordML2003SaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the WordML format.
 type: docs
-weight: 5450
+weight: 5460
 url: /net/aspose.words.saving/wordml2003saveoptions/
 ---
 ## WordML2003SaveOptions class

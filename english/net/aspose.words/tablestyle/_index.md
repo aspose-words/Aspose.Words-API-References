@@ -3,7 +3,7 @@ title: TableStyle
 second_title: Aspose.Words for .NET API Reference
 description: Represents a table style.
 type: docs
-weight: 5970
+weight: 5990
 url: /net/aspose.words/tablestyle/
 ---
 ## TableStyle class
@@ -23,6 +23,7 @@ public class TableStyle : Style
 | [Aliases](../../aspose.words/style/aliases/) { get; } | Gets all aliases of this style. If style has no aliases then empty array of string is returned. |
 | [Alignment](../../aspose.words/tablestyle/alignment/) { get; set; } | Specifies the alignment for the table style. |
 | [AllowBreakAcrossPages](../../aspose.words/tablestyle/allowbreakacrosspages/) { get; set; } | Gets or sets a flag indicating whether text in a table row is allowed to split across a page break. |
+| [AutomaticallyUpdate](../../aspose.words/style/automaticallyupdate/) { get; set; } | Specifies whether this style is automatically redefined based on the appropriate value. |
 | [BaseStyleName](../../aspose.words/style/basestylename/) { get; set; } | Gets/sets the name of the style this style is based on. |
 | [Bidi](../../aspose.words/tablestyle/bidi/) { get; set; } | Gets or sets whether this is a style for a right-to-left table. |
 | [Borders](../../aspose.words/tablestyle/borders/) { get; } | Gets the collection of default cell borders for the style. |

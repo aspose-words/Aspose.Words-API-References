@@ -10,7 +10,7 @@ url: /net/aspose.words.markup/sdtlistitem/
 
 This element specifies a single list item within a parent ComboBox or DropDownList structured document tag.
 
-To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article.
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/working-with-content-control-sdt/) documentation article.
 
 ```csharp
 public class SdtListItem

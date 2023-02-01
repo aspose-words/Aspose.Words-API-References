@@ -3,7 +3,7 @@ title: GetType
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 170
+weight: 183
 url: /cpp/aspose.words.comparing/compareoptions/gettype/
 ---
 ## CompareOptions::GetType method

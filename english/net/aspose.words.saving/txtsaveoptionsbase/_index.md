@@ -3,7 +3,7 @@ title: TxtSaveOptionsBase
 second_title: Aspose.Words for .NET API Reference
 description: The base class for specifying additional options when saving a document into a text based formats.
 type: docs
-weight: 5440
+weight: 5450
 url: /net/aspose.words.saving/txtsaveoptionsbase/
 ---
 ## TxtSaveOptionsBase class
