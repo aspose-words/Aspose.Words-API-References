@@ -3,7 +3,7 @@ title: VbaProject
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a VbaProjectaspose.words/document/vbaproject/.
 type: docs
-weight: 430
+weight: 450
 url: /net/aspose.words/document/vbaproject/
 ---
 ## Document.VbaProject property

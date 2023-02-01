@@ -3,7 +3,7 @@ title: Remove
 second_title: Aspose.Words for .NET API Reference
 description: Removes the specified style from the document.
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.words/style/remove/
 ---
 ## Style.Remove method

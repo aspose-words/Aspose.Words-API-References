@@ -24,7 +24,6 @@ Shows how to create an image file from a shape's raw image data.
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
-
 Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);

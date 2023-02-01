@@ -19,7 +19,6 @@ public bool IsGroup { get; }
 Shows how to create a group of shapes, and print its contents using a document visitor.
 
 ```csharp
-public void GroupOfShapes()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -53,7 +52,6 @@ public void GroupOfShapes()
     group.Accept(printer);
 
     Console.WriteLine(printer.GetText());
-}
 
 /// <summary>
 /// Prints the contents of a visited shape group to the console.

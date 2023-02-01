@@ -39,7 +39,6 @@ If a table with the specified name does not exist, your implementation should re
 Shows how to execute a mail merge with a data source in the form of a custom object.
 
 ```csharp
-public void CustomDataSource()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -57,7 +56,6 @@ public void CustomDataSource()
     doc.MailMerge.Execute(dataSource);
 
     doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSource.docx");
-}
 
 /// <summary>
 /// An example of a "data entity" class in your application.

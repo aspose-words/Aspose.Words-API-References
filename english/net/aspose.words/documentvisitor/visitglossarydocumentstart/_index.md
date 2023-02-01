@@ -31,7 +31,6 @@ Note: A glossary document node and its children are not visited when you execute
 Shows ways of accessing building blocks in a glossary document.
 
 ```csharp
-public void GlossaryDocument()
 {
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
@@ -63,7 +62,6 @@ public void GlossaryDocument()
     // which will give every BuildingBlock in the GlossaryDocument a unique GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
     // In Microsoft Word, we can access the building blocks via "Insert" -> "Quick Parts" -> "Building Blocks Organizer".
@@ -107,7 +105,6 @@ public class GlossaryDocVisitor : DocumentVisitor
 
     public override VisitorAction VisitBuildingBlockStart(BuildingBlock block)
     {
-        block.Guid = Guid.NewGuid();
         mBlocksByGuid.Add(block.Guid, block);
         return VisitorAction.Continue;
     }

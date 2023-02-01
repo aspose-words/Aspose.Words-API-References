@@ -18,6 +18,24 @@ public RevisionCollection Revisions { get; }
 
 The returned collection is a "live" collection, which means if you remove parts of a document that contain revisions, the deleted revisions will automatically disappear from this collection.
 
+## Examples
+
+Shows how to work with revisions in range.
+
+```csharp
+Document doc = new Document(MyDir + "Revisions.docx");
+
+Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
+foreach (Revision revision in paragraph.Range.Revisions)
+{
+    if (revision.RevisionType == RevisionType.Deletion)
+        revision.Accept();
+}
+
+// Reject the first section revisions.
+doc.FirstSection.Range.Revisions.RejectAll();
+```
+
 ### See Also
 
 * class [RevisionCollection](../../revisioncollection/)

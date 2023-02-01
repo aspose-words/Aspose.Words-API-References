@@ -3,7 +3,7 @@ title: Styles
 second_title: Aspose.Words for .NET API Reference
 description: Gets the collection of styles this style belongs to.
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.words/style/styles/
 ---
 ## Style.Styles property

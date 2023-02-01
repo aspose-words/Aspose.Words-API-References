@@ -3,7 +3,7 @@ title: UpdateWordCount
 second_title: Aspose.Words for .NET API Reference
 description: Updates word count properties of the document.
 type: docs
-weight: 770
+weight: 790
 url: /net/aspose.words/document/updatewordcount/
 ---
 ## UpdateWordCount() {#updatewordcount}

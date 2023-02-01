@@ -3,7 +3,7 @@ title: PageSavingArgs
 second_title: Aspose.Words for .NET API Reference
 description: Provides data for the PageSaving./ipagesavingcallback/pagesaving/ event.
 type: docs
-weight: 5150
+weight: 5160
 url: /net/aspose.words.saving/pagesavingargs/
 ---
 ## PageSavingArgs class
@@ -36,7 +36,6 @@ public class PageSavingArgs
 Shows how to use a callback to save a document to HTML page by page.
 
 ```csharp
-public void PageFileNames()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

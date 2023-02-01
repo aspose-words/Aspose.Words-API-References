@@ -3,7 +3,7 @@ title: Style
 second_title: Aspose.Words for .NET API Reference
 description: Represents a single builtin or userdefined style.
 type: docs
-weight: 5880
+weight: 5900
 url: /net/aspose.words/style/
 ---
 ## Style class
@@ -21,6 +21,7 @@ public class Style
 | Name | Description |
 | --- | --- |
 | [Aliases](../../aspose.words/style/aliases/) { get; } | Gets all aliases of this style. If style has no aliases then empty array of string is returned. |
+| [AutomaticallyUpdate](../../aspose.words/style/automaticallyupdate/) { get; set; } | Specifies whether this style is automatically redefined based on the appropriate value. |
 | [BaseStyleName](../../aspose.words/style/basestylename/) { get; set; } | Gets/sets the name of the style this style is based on. |
 | [BuiltIn](../../aspose.words/style/builtin/) { get; } | True if this style is one of the built-in styles in MS Word. |
 | [Document](../../aspose.words/style/document/) { get; } | Gets the owner document. |

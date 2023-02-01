@@ -27,7 +27,6 @@ A [`VisitorAction`](../../visitoraction/) value that specifies how to continue t
 Shows how to print the node structure of every comment and comment range in a document.
 
 ```csharp
-public void CommentsToText()
 {
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     CommentStructurePrinter visitor = new CommentStructurePrinter();
@@ -38,7 +37,6 @@ public void CommentsToText()
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
-}
 
 /// <summary>
 /// Traverses a node's non-binary tree of child nodes.

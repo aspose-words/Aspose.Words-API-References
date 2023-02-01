@@ -3,7 +3,7 @@ title: WriteProtection
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to the document write protection options.
 type: docs
-weight: 480
+weight: 500
 url: /net/aspose.words/document/writeprotection/
 ---
 ## Document.WriteProtection property

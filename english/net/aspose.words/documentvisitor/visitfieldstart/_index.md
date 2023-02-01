@@ -39,7 +39,6 @@ Fields can be nested.
 Shows how to print the node structure of every field in a document.
 
 ```csharp
-public void FieldToText()
 {
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FieldStructurePrinter visitor = new FieldStructurePrinter();
@@ -50,7 +49,6 @@ public void FieldToText()
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
-}
 
 /// <summary>
 /// Traverses a node's non-binary tree of child nodes.

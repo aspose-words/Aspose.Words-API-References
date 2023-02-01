@@ -3,7 +3,7 @@ title: CellMerge
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how a cell in a table is merged with other cells.
 type: docs
-weight: 6020
+weight: 6040
 url: /net/aspose.words.tables/cellmerge/
 ---
 ## CellMerge enumeration

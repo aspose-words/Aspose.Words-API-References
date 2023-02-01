@@ -3,7 +3,7 @@ title: UnicodeScript
 second_title: Aspose.Words for .NET API Reference
 description: Unicode Character Database property Script sc.
 type: docs
-weight: 5830
+weight: 5850
 url: /net/aspose.words.shaping/unicodescript/
 ---
 ## UnicodeScript enumeration

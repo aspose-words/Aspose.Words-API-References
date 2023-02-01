@@ -20,6 +20,19 @@ Ignoring OLE data may reduce memory consumption and increase performance without
 
 The default value is `false`.
 
+## Examples
+
+Shows how to ingore OLE data while loading.
+
+```csharp
+// Ignoring OLE data may reduce memory consumption and increase performance
+// without data lost in a case when destination format does not support OLE objects.
+LoadOptions loadOptions = new LoadOptions() { IgnoreOleData = true };
+Document doc = new Document(MyDir + "OLE objects.docx", loadOptions);
+
+doc.Save(ArtifactsDir + "LoadOptions.IgnoreOleData.docx");
+```
+
 ### See Also
 
 * class [LoadOptions](../)

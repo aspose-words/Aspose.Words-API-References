@@ -50,7 +50,8 @@ CertificateHolder.Create(certBytes, password);
 // we can use the aliases to fetch their respective keys. First, we will check for valid aliases.
 using (FileStream certStream = new FileStream(MyDir + "morzal.pfx", FileMode.Open))
 {
-    Pkcs12Store pkcs12Store = new Pkcs12Store(certStream, "aw".ToCharArray());
+    Pkcs12Store pkcs12Store = new Pkcs12StoreBuilder().Build();
+    pkcs12Store.Load(certStream, "aw".ToCharArray());
     IEnumerator enumerator = pkcs12Store.Aliases.GetEnumerator();
 
     while (enumerator.MoveNext())
@@ -125,7 +126,8 @@ CertificateHolder.Create(certBytes, password);
 // we can use the aliases to fetch their respective keys. First, we will check for valid aliases.
 using (FileStream certStream = new FileStream(MyDir + "morzal.pfx", FileMode.Open))
 {
-    Pkcs12Store pkcs12Store = new Pkcs12Store(certStream, "aw".ToCharArray());
+    Pkcs12Store pkcs12Store = new Pkcs12StoreBuilder().Build();
+    pkcs12Store.Load(certStream, "aw".ToCharArray());
     IEnumerator enumerator = pkcs12Store.Aliases.GetEnumerator();
 
     while (enumerator.MoveNext())
@@ -262,7 +264,8 @@ CertificateHolder.Create(certBytes, password);
 // we can use the aliases to fetch their respective keys. First, we will check for valid aliases.
 using (FileStream certStream = new FileStream(MyDir + "morzal.pfx", FileMode.Open))
 {
-    Pkcs12Store pkcs12Store = new Pkcs12Store(certStream, "aw".ToCharArray());
+    Pkcs12Store pkcs12Store = new Pkcs12StoreBuilder().Build();
+    pkcs12Store.Load(certStream, "aw".ToCharArray());
     IEnumerator enumerator = pkcs12Store.Aliases.GetEnumerator();
 
     while (enumerator.MoveNext())

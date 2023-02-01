@@ -3,7 +3,7 @@ title: CompatibilityOptions
 second_title: Aspose.Words for .NET API Reference
 description: Contains compatibility options that is the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word.
 type: docs
-weight: 5540
+weight: 5550
 url: /net/aspose.words.settings/compatibilityoptions/
 ---
 ## CompatibilityOptions class
@@ -157,7 +157,6 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 Shows how to optimize the document for different versions of Microsoft Word.
 
 ```csharp
-public void OptimizeFor()
 {
     Document doc = new Document();
 

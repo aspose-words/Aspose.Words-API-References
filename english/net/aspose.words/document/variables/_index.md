@@ -3,7 +3,7 @@ title: Variables
 second_title: Aspose.Words for .NET API Reference
 description: Returns the collection of variables added to a document or template.
 type: docs
-weight: 420
+weight: 440
 url: /net/aspose.words/document/variables/
 ---
 ## Document.Variables property

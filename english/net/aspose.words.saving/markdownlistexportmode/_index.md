@@ -3,7 +3,7 @@ title: MarkdownListExportMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how lists are exported into Markdown.
 type: docs
-weight: 5040
+weight: 5050
 url: /net/aspose.words.saving/markdownlistexportmode/
 ---
 ## MarkdownListExportMode enumeration

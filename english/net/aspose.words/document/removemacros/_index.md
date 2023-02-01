@@ -3,7 +3,7 @@ title: RemoveMacros
 second_title: Aspose.Words for .NET API Reference
 description: Removes all macros the VBA project as well as toolbars and command customizations from the document.
 type: docs
-weight: 650
+weight: 670
 url: /net/aspose.words/document/removemacros/
 ---
 ## Document.RemoveMacros method

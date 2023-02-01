@@ -3,7 +3,7 @@ title: OriginalFileName
 second_title: Aspose.Words for .NET API Reference
 description: Gets the original file name of the document.
 type: docs
-weight: 270
+weight: 290
 url: /net/aspose.words/document/originalfilename/
 ---
 ## Document.OriginalFileName property

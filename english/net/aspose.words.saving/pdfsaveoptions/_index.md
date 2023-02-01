@@ -3,7 +3,7 @@ title: PdfSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the Pdf format.
 type: docs
-weight: 5290
+weight: 5300
 url: /net/aspose.words.saving/pdfsaveoptions/
 ---
 ## PdfSaveOptions class

@@ -25,7 +25,6 @@ public interface IMailMergeDataSourceRoot
 Performs mail merge from a custom data source with master-detail data.
 
 ```csharp
-public void CustomDataSourceRoot()
 {
     // Create a document with two mail merge regions named "Washington" and "Seattle".
     string[] mailMergeRegions = { "Vancouver", "Seattle" };
@@ -53,7 +52,6 @@ public void CustomDataSourceRoot()
     doc.MailMerge.ExecuteWithRegions(sourceRoot);
 
     doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSourceRoot.docx");
-}
 
 /// <summary>
 /// Create a document that contains consecutive mail merge regions, with names designated by the input array,

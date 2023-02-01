@@ -10,7 +10,7 @@ url: /net/aspose.words.drawing/oleformat/
 
 Provides access to the data of an OLE object or ActiveX control.
 
-To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/net/working-with-ole-objects-and-online-video/) documentation article.
+To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/net/working-with-ole-objects/) documentation article.
 
 ```csharp
 public class OleFormat

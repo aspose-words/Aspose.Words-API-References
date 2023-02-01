@@ -3,7 +3,7 @@ title: MailMerge
 second_title: Aspose.Words for .NET API Reference
 description: Returns a MailMergeaspose.words.mailmerging/mailmerge/ object that represents the mail merge functionality for the document.
 type: docs
-weight: 240
+weight: 260
 url: /net/aspose.words/document/mailmerge/
 ---
 ## Document.MailMerge property
@@ -19,7 +19,6 @@ public MailMerge MailMerge { get; }
 Shows how to execute a mail merge with data from a DataTable.
 
 ```csharp
-public void ExecuteDataTable()
 {
     DataTable table = new DataTable("Test");
     table.Columns.Add("CustomerName");
@@ -41,7 +40,6 @@ public void ExecuteDataTable()
     doc.MailMerge.Execute(table.Rows[1]);
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.OneRow.docx");
-}
 
 /// <summary>
 /// Creates a mail merge source document.

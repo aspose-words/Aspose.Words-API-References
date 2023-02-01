@@ -27,7 +27,6 @@ A [`VisitorAction`](../../visitoraction/) value that specifies how to continue t
 Shows how to print the node structure of every smart tag in a document.
 
 ```csharp
-public void SmartTagToText()
 {
     Document doc = new Document(MyDir + "Smart tags.doc");
     SmartTagStructurePrinter visitor = new SmartTagStructurePrinter();
@@ -38,7 +37,6 @@ public void SmartTagToText()
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
-}
 
 /// <summary>
 /// Traverses a node's non-binary tree of child nodes.

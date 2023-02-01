@@ -40,9 +40,6 @@ Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
 
-// OOXML and WML formats use the "EquationXmlEncoding" property.
-Assert.IsNull(officeMath.EquationXmlEncoding);
-
 // Change the location and display type of the OfficeMath node.
 officeMath.DisplayType = OfficeMathDisplayType.Display;
 officeMath.Justification = OfficeMathJustification.Left;

@@ -3,7 +3,7 @@ title: IsHeading
 second_title: Aspose.Words for .NET API Reference
 description: True when the style is one of the builtin Heading styles.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.words/style/isheading/
 ---
 ## Style.IsHeading property

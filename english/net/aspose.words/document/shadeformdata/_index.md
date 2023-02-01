@@ -3,7 +3,7 @@ title: ShadeFormData
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether to turn on the gray shading on form fields.
 type: docs
-weight: 360
+weight: 380
 url: /net/aspose.words/document/shadeformdata/
 ---
 ## Document.ShadeFormData property
