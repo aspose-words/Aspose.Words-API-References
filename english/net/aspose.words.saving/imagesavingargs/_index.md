@@ -42,7 +42,6 @@ To save images into streams instead of files, use the [`ImageStream`](./imagestr
 Shows how to split a document into parts and save them.
 
 ```csharp
-public void DocumentPartsFileNames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
     string outFileName = "SavingCallback.DocumentPartsFileNames.html";

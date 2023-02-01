@@ -49,7 +49,6 @@ Doc.Save "Invoice Out VBScript.doc"
 Shows how to run a mail merge with multiple regions, compiled with data from an ADO dataset.
 
 ```csharp
-public void ExecuteWithRegionsADO()
 {
     Document doc = CreateSourceDocADOMailMergeWithRegions();
 
@@ -83,7 +82,6 @@ public void ExecuteWithRegionsADO()
     doc.MailMerge.ExecuteWithRegionsADO(recordset, "MergeRegion2");
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsADO.docx");
-}
 
 /// <summary>
 /// Create a document with two mail merge regions.

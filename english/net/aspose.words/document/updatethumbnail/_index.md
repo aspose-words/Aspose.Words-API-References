@@ -3,7 +3,7 @@ title: UpdateThumbnail
 second_title: Aspose.Words for .NET API Reference
 description: Updates Thumbnailaspose.words.properties/builtindocumentproperties/thumbnail/ of the document according to the specified options.
 type: docs
-weight: 760
+weight: 780
 url: /net/aspose.words/document/updatethumbnail/
 ---
 ## UpdateThumbnail(ThumbnailGeneratingOptions) {#updatethumbnail_1}

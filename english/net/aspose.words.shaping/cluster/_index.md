@@ -3,7 +3,7 @@ title: Cluster
 second_title: Aspose.Words for .NET API Reference
 description: Encapsulates code points and glyphs composing a grapheme.
 type: docs
-weight: 5760
+weight: 5780
 url: /net/aspose.words.shaping/cluster/
 ---
 ## Cluster class

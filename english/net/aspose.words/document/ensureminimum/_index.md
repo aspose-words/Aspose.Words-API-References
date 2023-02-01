@@ -3,7 +3,7 @@ title: EnsureMinimum
 second_title: Aspose.Words for .NET API Reference
 description: If the document contains no sections creates one section with one paragraph.
 type: docs
-weight: 560
+weight: 580
 url: /net/aspose.words/document/ensureminimum/
 ---
 ## Document.EnsureMinimum method

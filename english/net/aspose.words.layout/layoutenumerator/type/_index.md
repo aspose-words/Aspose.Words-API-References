@@ -19,7 +19,6 @@ public LayoutEntityType Type { get; }
 Shows ways of traversing a document's layout entities.
 
 ```csharp
-public void LayoutEnumerator()
 {
     // Open a document that contains a variety of layout entities.
     // Layout entities are pages, cells, rows, lines, and other objects included in the LayoutEntityType enum.

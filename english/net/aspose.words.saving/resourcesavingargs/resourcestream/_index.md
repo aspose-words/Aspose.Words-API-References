@@ -27,7 +27,6 @@ Using [`IResourceSavingCallback`](../../iresourcesavingcallback/) you cannot sub
 Shows how to use a callback to print the URIs of external resources created while converting a document to HTML.
 
 ```csharp
-public void HtmlFixedResourceFolder()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -55,7 +54,6 @@ public void HtmlFixedResourceFolder()
 
     Assert.False(Directory.Exists(ArtifactsDir + "HtmlFixedResourceFolder"));
     Assert.AreEqual(6, resourceFiles.Count(f => f.EndsWith(".jpeg") || f.EndsWith(".png") || f.EndsWith(".css")));
-}
 
 /// <summary>
 /// Counts and prints URIs of resources contained by as they are converted to fixed HTML.

@@ -23,7 +23,6 @@ Saving CSS style sheet into an external file is only supported when saving to HT
 Shows how to work with CSS stylesheets that an HTML conversion creates.
 
 ```csharp
-public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 

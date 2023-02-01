@@ -22,7 +22,7 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [FontSavingArgs](./fontsavingargs/) | Provides data for the [`FontSaving`](../aspose.words.saving/ifontsavingcallback/fontsaving/) event. |
 | [GraphicsQualityOptions](./graphicsqualityoptions/) | Allows to specify additional Graphics quality options. |
 | [HtmlFixedSaveOptions](./htmlfixedsaveoptions/) | Can be used to specify additional options when saving a document into the HtmlFixed format. |
-| [HtmlSaveOptions](./htmlsaveoptions/) | Can be used to specify additional options when saving a document into the Html, Mhtml, Epub or Azw3 format. |
+| [HtmlSaveOptions](./htmlsaveoptions/) | Can be used to specify additional options when saving a document into the Html, Mhtml, Epub, Azw3 or Mobi format. |
 | [ImageSaveOptions](./imagesaveoptions/) | Allows to specify additional options when rendering document pages or shapes to images. |
 | [ImageSavingArgs](./imagesavingargs/) | Provides data for the [`ImageSaving`](../aspose.words.saving/iimagesavingcallback/imagesaving/) event. |
 | [MarkdownSaveOptions](./markdownsaveoptions/) | Class to specify additional options when saving a document into the Markdown format. |
@@ -87,6 +87,7 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [ImageColorMode](./imagecolormode/) | Specifies the color mode for the generated images of document pages. |
 | [ImagePixelFormat](./imagepixelformat/) | Specifies the pixel format for the generated images of document pages. |
 | [ImlRenderingMode](./imlrenderingmode/) | Specifies how ink (InkML) objects are rendered to fixed page formats. |
+| [MarkdownLinkExportMode](./markdownlinkexportmode/) | The mode of exporting links to a target document. |
 | [MarkdownListExportMode](./markdownlistexportmode/) | Specifies how lists are exported into Markdown. |
 | [MetafileRenderingMode](./metafilerenderingmode/) | Specifies how Aspose.Words should render WMF and EMF metafiles. |
 | [NumeralFormat](./numeralformat/) | Indicates the symbol set that is used to represent numbers while rendering to fixed page formats. |

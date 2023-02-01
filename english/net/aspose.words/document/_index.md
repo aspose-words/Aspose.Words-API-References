@@ -58,7 +58,9 @@ public class Document : DocumentBase
 | [HasMacros](../../aspose.words/document/hasmacros/) { get; } | Returns `true` if the document has a VBA project (macros). |
 | [HasRevisions](../../aspose.words/document/hasrevisions/) { get; } | Returns `true` if the document has any tracked changes. |
 | [HyphenationOptions](../../aspose.words/document/hyphenationoptions/) { get; } | Provides access to document hyphenation options. |
+| [IncludeTextboxesFootnotesEndnotesInStat](../../aspose.words/document/includetextboxesfootnotesendnotesinstat/) { get; set; } | Specifies whether to include textboxes, footnotes and endnotes in word count statistics. |
 | override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |
+| [JustificationMode](../../aspose.words/document/justificationmode/) { get; set; } | Gets or sets the character spacing adjustment of a document. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Gets the last child of the node. |
 | [LastSection](../../aspose.words/document/lastsection/) { get; } | Gets the last section in the document. |
 | [LayoutOptions](../../aspose.words/document/layoutoptions/) { get; } | Gets a [`LayoutOptions`](../../aspose.words.layout/layoutoptions/) object that represents options to control the layout process of this document. |
@@ -208,7 +210,6 @@ In Microsoft Word, a valid document needs to have at least one section.
 Shows how to execute a mail merge with data from a DataTable.
 
 ```csharp
-public void ExecuteDataTable()
 {
     DataTable table = new DataTable("Test");
     table.Columns.Add("CustomerName");
@@ -230,7 +231,6 @@ public void ExecuteDataTable()
     doc.MailMerge.Execute(table.Rows[1]);
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.OneRow.docx");
-}
 
 /// <summary>
 /// Creates a mail merge source document.

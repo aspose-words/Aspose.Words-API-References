@@ -33,7 +33,6 @@ For more info see the Visitor design pattern.
 Shows how to limit the editing rights of editable ranges to a specific group/user.
 
 ```csharp
-public void Visitor()
 {
     Document doc = new Document();
     doc.Protect(ProtectionType.ReadOnly, "MyPassword");

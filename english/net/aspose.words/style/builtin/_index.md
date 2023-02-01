@@ -3,7 +3,7 @@ title: BuiltIn
 second_title: Aspose.Words for .NET API Reference
 description: True if this style is one of the builtin styles in MS Word.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.words/style/builtin/
 ---
 ## Style.BuiltIn property

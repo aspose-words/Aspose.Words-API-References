@@ -37,7 +37,6 @@ public class FormFieldCollection : IEnumerable<FormField>
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation.
 
 ```csharp
-public void Visitor()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -100,7 +99,6 @@ public void Visitor()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "FormFields.Visitor.html");
-}
 
 /// <summary>
 /// Visitor implementation that prints details of form fields that it visits. 

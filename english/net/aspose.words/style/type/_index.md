@@ -3,7 +3,7 @@ title: Type
 second_title: Aspose.Words for .NET API Reference
 description: Gets the style type paragraph or character.
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.words/style/type/
 ---
 ## Style.Type property

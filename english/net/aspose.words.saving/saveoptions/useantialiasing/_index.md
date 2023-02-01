@@ -18,7 +18,7 @@ public bool UseAntiAliasing { get; set; }
 
 The default value is `false`. When this value is set to `true` anti-aliasing is used for rendering.
 
-This property is used when the document is exported to the following formats: Tiff, Png, Bmp, Jpeg, Emf. When the document is exported to the Html, Mhtml, Epub and Azw3 formats this option is used for raster images.
+This property is used when the document is exported to the following formats: Tiff, Png, Bmp, Jpeg, Emf. When the document is exported to the Html, Mhtml, Epub, Azw3 or Mobi formats this option is used for raster images.
 
 ## Examples
 

@@ -3,7 +3,7 @@ title: Font
 second_title: Aspose.Words for .NET API Reference
 description: Gets the character formatting of the style.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.words/style/font/
 ---
 ## Style.Font property

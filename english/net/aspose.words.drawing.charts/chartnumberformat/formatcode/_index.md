@@ -92,6 +92,7 @@ series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowValue = true;
 dataLabels.NumberFormat.FormatCode = "\"US$\" #,##0.000\"M\"";
+dataLabels.Font.Size = 12;            
 
 doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 ```

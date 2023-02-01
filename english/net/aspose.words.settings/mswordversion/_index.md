@@ -3,7 +3,7 @@ title: MsWordVersion
 second_title: Aspose.Words for .NET API Reference
 description: Allows Aspose.Wods to mimic MS Word versionspecific application behavior.
 type: docs
-weight: 5610
+weight: 5630
 url: /net/aspose.words.settings/mswordversion/
 ---
 ## MsWordVersion enumeration
@@ -32,7 +32,6 @@ public enum MsWordVersion
 Shows how to optimize the document for different versions of Microsoft Word.
 
 ```csharp
-public void OptimizeFor()
 {
     Document doc = new Document();
 

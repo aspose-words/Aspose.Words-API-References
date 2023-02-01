@@ -3,7 +3,7 @@ title: ResourceSavingArgs
 second_title: Aspose.Words for .NET API Reference
 description: Provides data for the ResourceSaving./iresourcesavingcallback/resourcesaving/ event.
 type: docs
-weight: 5330
+weight: 5340
 url: /net/aspose.words.saving/resourcesavingargs/
 ---
 ## ResourceSavingArgs class
@@ -41,7 +41,6 @@ To save resources into streams instead of files, use the [`ResourceStream`](./re
 Shows how to use a callback to track external resources created while converting a document to HTML.
 
 ```csharp
-public void ResourceSavingCallback()
 {
     Document doc = new Document(MyDir + "Bullet points with alternative font.docx");
 
@@ -55,7 +54,6 @@ public void ResourceSavingCallback()
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.UsingMachineFonts.html", saveOptions);
 
     Console.WriteLine(callback.GetText());
-}
 
 private class FontSavingCallback : IResourceSavingCallback
 {

@@ -27,7 +27,6 @@ A [`VisitorAction`](../../visitoraction/) value that specifies how to continue t
 Shows how to process absolute position tab characters with a document visitor.
 
 ```csharp
-public void DocumentToTxt()
 {
     Document doc = new Document(MyDir + "Absolute position tab.docx");
 

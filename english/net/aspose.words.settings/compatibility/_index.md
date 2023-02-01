@@ -3,7 +3,7 @@ title: Compatibility
 second_title: Aspose.Words for .NET API Reference
 description: Specifies names of compatibility options.
 type: docs
-weight: 5530
+weight: 5540
 url: /net/aspose.words.settings/compatibility/
 ---
 ## Compatibility enumeration
@@ -95,7 +95,6 @@ public enum Compatibility
 Shows how to optimize the document for different versions of Microsoft Word.
 
 ```csharp
-public void OptimizeFor()
 {
     Document doc = new Document();
 

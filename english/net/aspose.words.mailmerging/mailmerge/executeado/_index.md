@@ -53,7 +53,6 @@ Doc.Save "C:\MyPath\CustomerLabels Out VBScript.doc"
 Shows how to run a mail merge with data from an ADO dataset.
 
 ```csharp
-public void ExecuteADO()
 {
     Document doc = CreateSourceDocADOMailMerge();
 
@@ -77,7 +76,6 @@ public void ExecuteADO()
     // Execute the mail merge and save the document.
     doc.MailMerge.ExecuteADO(recordset);
     doc.Save(ArtifactsDir + "MailMerge.ExecuteADO.docx");
-}
 
 /// <summary>
 /// Create a blank document and populate it with MERGEFIELDS that will accept data when a mail merge is executed.

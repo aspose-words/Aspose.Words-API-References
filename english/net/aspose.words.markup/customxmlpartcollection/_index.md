@@ -10,7 +10,7 @@ url: /net/aspose.words.markup/customxmlpartcollection/
 
 Represents a collection of Custom XML Parts. The items are [`CustomXmlPart`](../customxmlpart/) objects.
 
-To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article.
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/working-with-content-control-sdt/) documentation article.
 
 ```csharp
 public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
