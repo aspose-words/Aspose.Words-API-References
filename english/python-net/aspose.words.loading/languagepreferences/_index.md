@@ -10,7 +10,7 @@ url: /python-net/aspose.words.loading/languagepreferences/
 ## LanguagePreferences class
 
 Allows to set up language preferences.
-To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/net/specify-load-options/) documentation article.
+To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/python-net/specify-load-options/) documentation article.
 
 
 

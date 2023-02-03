@@ -11,7 +11,7 @@ url: /python-net/aspose.words/absolutepositiontab/
 
 An absolute position tab is a character which is used to advance the position on 
 the current line of text when displaying this WordprocessingML content.
-To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/python-net/aspose-words-document-object-model/) documentation article.
 
 
 

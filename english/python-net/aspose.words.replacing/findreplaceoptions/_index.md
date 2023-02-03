@@ -10,7 +10,7 @@ url: /python-net/aspose.words.replacing/findreplaceoptions/
 ## FindReplaceOptions class
 
 Specifies options for find/replace operations.
-To learn more, visit the [Find and Replace](https://docs.aspose.com/words/net/find-and-replace/) documentation article.
+To learn more, visit the [Find and Replace](https://docs.aspose.com/words/python-net/find-and-replace/) documentation article.
 
 
 

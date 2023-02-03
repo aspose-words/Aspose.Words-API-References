@@ -10,7 +10,7 @@ url: /python-net/aspose.words.layout/layoutoptions/
 ## LayoutOptions class
 
 Holds the options that allow controlling the document layout process.
-To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) documentation article.
+To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/python-net/converting-to-fixed-page-format/) documentation article.
 
 
 

@@ -10,7 +10,7 @@ url: /python-net/aspose.words.properties/documentproperty/
 ## DocumentProperty class
 
 Represents a custom or built-in document property.
-To learn more, visit the [Work with Document Properties](https://docs.aspose.com/words/net/work-with-document-properties/) documentation article.
+To learn more, visit the [Work with Document Properties](https://docs.aspose.com/words/python-net/work-with-document-properties/) documentation article.
 
 
 

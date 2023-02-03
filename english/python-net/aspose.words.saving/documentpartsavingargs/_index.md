@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/documentpartsavingargs/
 ## DocumentPartSavingArgs class
 
 Provides data for the [IDocumentPartSavingCallback.document_part_saving()](../idocumentpartsavingcallback/document_part_saving/#documentpartsavingargs) callback.
-To learn more, visit the [Save a Document](https://docs.aspose.com/words/net/save-a-document/) documentation article.
+To learn more, visit the [Save a Document](https://docs.aspose.com/words/python-net/save-a-document/) documentation article.
 
 
 

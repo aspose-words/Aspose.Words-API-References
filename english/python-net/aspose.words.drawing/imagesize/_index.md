@@ -10,7 +10,7 @@ url: /python-net/aspose.words.drawing/imagesize/
 ## ImageSize class
 
 Contains information about image size and resolution.
-To learn more, visit the [Working with Images](https://docs.aspose.com/words/net/working-with-images/) documentation article.
+To learn more, visit the [Working with Images](https://docs.aspose.com/words/python-net/working-with-images/) documentation article.
 
 
 

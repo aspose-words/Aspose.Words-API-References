@@ -10,7 +10,7 @@ url: /python-net/aspose.words.framesets/frameset/
 ## Frameset class
 
 Represents a frames page or a single frame on a frames page.
-To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/net/programming-with-documents/) documentation article.
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/python-net/programming-with-documents/) documentation article.
 
 
 

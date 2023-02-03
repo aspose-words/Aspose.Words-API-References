@@ -10,7 +10,7 @@ url: /python-net/aspose.words.fields/fieldbuilder/
 ## FieldBuilder class
 
 Builds a field from field code tokens (arguments and switches).
-To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article.
 
 
 

@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/
 ## PdfDigitalSignatureTimestampSettings class
 
 Contains settings of the digital signature timestamp.
-To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/net/working-with-digital-signatures/) documentation article.
+To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/python-net/working-with-digital-signatures/) documentation article.
 
 
 

@@ -10,7 +10,7 @@ url: /python-net/aspose.words.lists/listlevelcollection/
 ## ListLevelCollection class
 
 A collection of list formatting for each level in a list.
-To learn more, visit the [Working with Lists](https://docs.aspose.com/words/net/working-with-lists/) documentation article.
+To learn more, visit the [Working with Lists](https://docs.aspose.com/words/python-net/working-with-lists/) documentation article.
 
 
 

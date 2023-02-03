@@ -17,7 +17,7 @@ The **aspose.words.math** module contains classes that represent Office Math ele
 
 | Class | Description |
 | --- | --- |
-| [OfficeMath](./officemath/) | Represents an Office Math object such as function, equation, matrix or alike. Can contain child elements including runs of mathematical text, bookmarks, comments, other [OfficeMath](./officemath/) instances and some other nodes. To learn more, visit the [Working with OfficeMath](https://docs.aspose.com/words/net/working-with-officemath/) documentation article. |
+| [OfficeMath](./officemath/) | Represents an Office Math object such as function, equation, matrix or alike. Can contain child elements including runs of mathematical text, bookmarks, comments, other [OfficeMath](./officemath/) instances and some other nodes. To learn more, visit the [Working with OfficeMath](https://docs.aspose.com/words/python-net/working-with-officemath/) documentation article. |
 
 ## Enumerations
 

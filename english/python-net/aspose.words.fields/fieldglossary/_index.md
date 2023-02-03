@@ -10,7 +10,7 @@ url: /python-net/aspose.words.fields/fieldglossary/
 ## FieldGlossary class
 
 Implements the GLOSSARY field.
-To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article.
 
 
 

@@ -10,7 +10,7 @@ url: /python-net/aspose.words.fonts/filefontsource/
 ## FileFontSource class
 
 Represents the single TrueType font file stored in the file system.
-To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/python-net/working-with-fonts/) documentation article.
 
 
 

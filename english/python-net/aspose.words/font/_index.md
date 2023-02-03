@@ -10,7 +10,7 @@ url: /python-net/aspose.words/font/
 ## Font class
 
 Contains font attributes (font name, font size, color, and so on) for an object.
-To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/python-net/working-with-fonts/) documentation article.
 
 
 

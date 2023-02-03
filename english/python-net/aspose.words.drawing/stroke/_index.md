@@ -10,7 +10,7 @@ url: /python-net/aspose.words.drawing/stroke/
 ## Stroke class
 
 Defines a stroke for a shape.
-To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article.
+To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/python-net/working-with-shapes/) documentation article.
 
 
 

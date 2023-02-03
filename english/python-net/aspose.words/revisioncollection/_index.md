@@ -10,7 +10,7 @@ url: /python-net/aspose.words/revisioncollection/
 ## RevisionCollection class
 
 A collection of [Revision](../revision/) objects that represent revisions in the document.
-To learn more, visit the [Track Changes in a Document](https://docs.aspose.com/words/net/track-changes-in-a-document/) documentation article.
+To learn more, visit the [Track Changes in a Document](https://docs.aspose.com/words/python-net/track-changes-in-a-document/) documentation article.
 
 
 

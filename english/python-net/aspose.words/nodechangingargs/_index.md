@@ -11,7 +11,7 @@ url: /python-net/aspose.words/nodechangingargs/
 
 Provides data for methods of the [INodeChangingCallback](../inodechangingcallback/) interface.
 
-To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/python-net/aspose-words-document-object-model/) documentation article.
 
 
 

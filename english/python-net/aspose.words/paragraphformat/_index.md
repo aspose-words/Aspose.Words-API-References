@@ -10,7 +10,7 @@ url: /python-net/aspose.words/paragraphformat/
 ## ParagraphFormat class
 
 Represents all the formatting for a paragraph.
-To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words/net/working-with-paragraphs/) documentation article.
+To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words/python-net/working-with-paragraphs/) documentation article.
 
 
 

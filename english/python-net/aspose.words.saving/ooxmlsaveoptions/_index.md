@@ -12,7 +12,7 @@ url: /python-net/aspose.words.saving/ooxmlsaveoptions/
 Can be used to specify additional options when saving a document into the [SaveFormat.DOCX](../../aspose.words/saveformat/#DOCX),
 [SaveFormat.DOCM](../../aspose.words/saveformat/#DOCM), [SaveFormat.DOTX](../../aspose.words/saveformat/#DOTX), [SaveFormat.DOTM](../../aspose.words/saveformat/#DOTM) or
 [SaveFormat.FLAT_OPC](../../aspose.words/saveformat/#FLAT_OPC) format.
-To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/net/specify-save-options/) documentation article.
+To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/python-net/specify-save-options/) documentation article.
 
 
 

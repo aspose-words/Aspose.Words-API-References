@@ -10,7 +10,7 @@ url: /python-net/aspose.words.settings/odsofieldmapdatacollection/
 ## OdsoFieldMapDataCollection class
 
 A typed collection of the [OdsoFieldMapData](../odsofieldmapdata/) objects.
-To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) documentation article.
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/python-net/mail-merge-and-reporting/) documentation article.
 
 
 

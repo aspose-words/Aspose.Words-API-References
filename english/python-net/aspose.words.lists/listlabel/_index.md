@@ -10,7 +10,7 @@ url: /python-net/aspose.words.lists/listlabel/
 ## ListLabel class
 
 Defines properties specific to a list label.
-To learn more, visit the [Working with Lists](https://docs.aspose.com/words/net/working-with-lists/) documentation article.
+To learn more, visit the [Working with Lists](https://docs.aspose.com/words/python-net/working-with-lists/) documentation article.
 
 
 

@@ -10,7 +10,7 @@ url: /python-net/aspose.words/imagewatermarkoptions/
 ## ImageWatermarkOptions class
 
 Contains options that can be specified when adding a watermark with image.
-To learn more, visit the [Working with Watermark](https://docs.aspose.com/words/net/working-with-watermark/) documentation article.
+To learn more, visit the [Working with Watermark](https://docs.aspose.com/words/python-net/working-with-watermark/) documentation article.
 
 
 

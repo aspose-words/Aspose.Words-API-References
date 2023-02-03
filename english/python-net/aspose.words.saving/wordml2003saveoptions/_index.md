@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/wordml2003saveoptions/
 ## WordML2003SaveOptions class
 
 Can be used to specify additional options when saving a document into the [SaveFormat.WORD_ML](../../aspose.words/saveformat/#WORD_ML) format.
-To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/net/specify-save-options/) documentation article.
+To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/python-net/specify-save-options/) documentation article.
 
 
 

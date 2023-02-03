@@ -10,7 +10,7 @@ url: /python-net/aspose.words.reporting/reportingengine/
 ## ReportingEngine class
 
 Provides routines to populate template documents with data and a set of settings to control these routines.
-To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) documentation article.
+To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/python-net/linq-reporting-engine/) documentation article.
 
 
 

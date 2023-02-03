@@ -10,7 +10,7 @@ url: /python-net/aspose.words.settings/odso/
 ## Odso class
 
 Specifies the Office Data Source Object (ODSO) settings for a mail merge data source.
-To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) documentation article.
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/python-net/mail-merge-and-reporting/) documentation article.
 
 
 

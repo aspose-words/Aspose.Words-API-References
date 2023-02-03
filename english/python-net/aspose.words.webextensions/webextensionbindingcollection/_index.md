@@ -10,7 +10,7 @@ url: /python-net/aspose.words.webextensions/webextensionbindingcollection/
 ## WebExtensionBindingCollection class
 
 Specifies a list of web extension bindings.
-To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) documentation article.
+To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/python-net/work-with-office-add-ins/) documentation article.
 
 
 

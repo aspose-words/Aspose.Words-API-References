@@ -10,7 +10,7 @@ url: /python-net/aspose.words.rendering/pageinfo/
 ## PageInfo class
 
 Represents information about a particular document page.
-To learn more, visit the [Rendering](https://docs.aspose.com/words/net/rendering/) documentation article.
+To learn more, visit the [Rendering](https://docs.aspose.com/words/python-net/rendering/) documentation article.
 
 
 

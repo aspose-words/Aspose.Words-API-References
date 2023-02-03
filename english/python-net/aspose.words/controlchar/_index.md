@@ -10,7 +10,7 @@ url: /python-net/aspose.words/controlchar/
 ## ControlChar class
 
 Control characters often encountered in documents.
-To learn more, visit the [Working With Control Characters](https://docs.aspose.com/words/net/working-with-control-characters/) documentation article.
+To learn more, visit the [Working With Control Characters](https://docs.aspose.com/words/python-net/working-with-control-characters/) documentation article.
 
 
 

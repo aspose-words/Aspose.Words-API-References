@@ -10,7 +10,7 @@ url: /python-net/aspose.words.markup/customxmlpart/
 ## CustomXmlPart class
 
 Represents a Custom XML Data Storage Part (custom XML data within a package).
-To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article.
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/python-net/structured-document-tags-or-content-control/) documentation article.
 
 
 

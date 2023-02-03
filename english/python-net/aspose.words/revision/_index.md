@@ -11,7 +11,7 @@ url: /python-net/aspose.words/revision/
 
 Represents a revision (tracked change) in a document node or style.
 Use [Revision.revision_type](./revision_type/) to check the type of this revision.
-To learn more, visit the [Track Changes in a Document](https://docs.aspose.com/words/net/track-changes-in-a-document/) documentation article.
+To learn more, visit the [Track Changes in a Document](https://docs.aspose.com/words/python-net/track-changes-in-a-document/) documentation article.
 
 
 

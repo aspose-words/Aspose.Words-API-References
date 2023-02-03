@@ -10,7 +10,7 @@ url: /python-net/aspose.words/sectioncollection/
 ## SectionCollection class
 
 A collection of [Section](../section/) objects in the document.
-To learn more, visit the [Working with Sections](https://docs.aspose.com/words/net/working-with-sections/) documentation article.
+To learn more, visit the [Working with Sections](https://docs.aspose.com/words/python-net/working-with-sections/) documentation article.
 
 
 

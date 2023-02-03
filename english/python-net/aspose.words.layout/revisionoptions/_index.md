@@ -10,7 +10,7 @@ url: /python-net/aspose.words.layout/revisionoptions/
 ## RevisionOptions class
 
 Allows to control how document revisions are handled during layout process.
-To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) documentation article.
+To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/python-net/converting-to-fixed-page-format/) documentation article.
 
 
 

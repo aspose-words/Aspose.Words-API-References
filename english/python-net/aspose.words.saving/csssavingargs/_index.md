@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/csssavingargs/
 ## CssSavingArgs class
 
 Provides data for the [ICssSavingCallback.css_saving()](../icsssavingcallback/css_saving/#csssavingargs) event.
-To learn more, visit the [Save a Document](https://docs.aspose.com/words/net/save-a-document/) documentation article.
+To learn more, visit the [Save a Document](https://docs.aspose.com/words/python-net/save-a-document/) documentation article.
 
 
 

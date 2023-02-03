@@ -10,7 +10,7 @@ url: /python-net/aspose.words.fonts/fontinfo/
 ## FontInfo class
 
 Specifies information about a font used in the document.
-To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/python-net/working-with-fonts/) documentation article.
 
 
 

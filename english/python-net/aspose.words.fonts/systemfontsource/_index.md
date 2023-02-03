@@ -10,7 +10,7 @@ url: /python-net/aspose.words.fonts/systemfontsource/
 ## SystemFontSource class
 
 Represents all TrueType fonts installed to the system.
-To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/python-net/working-with-fonts/) documentation article.
 
 
 
