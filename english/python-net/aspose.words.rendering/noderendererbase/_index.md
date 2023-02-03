@@ -10,7 +10,7 @@ url: /python-net/aspose.words.rendering/noderendererbase/
 ## NodeRendererBase class
 
 Base class for [ShapeRenderer](../shaperenderer/) and [OfficeMathRenderer](../officemathrenderer/).
-To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article.
+To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/python-net/working-with-shapes/) documentation article.
 
 
 

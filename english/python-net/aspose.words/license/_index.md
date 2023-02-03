@@ -10,7 +10,7 @@ url: /python-net/aspose.words/license/
 ## License class
 
 Provides methods to license the component.
-To learn more, visit the [Licensing and Subscription](https://docs.aspose.com/words/net/licensing/) documentation article.
+To learn more, visit the [Licensing and Subscription](https://docs.aspose.com/words/python-net/licensing/) documentation article.
 
 
 

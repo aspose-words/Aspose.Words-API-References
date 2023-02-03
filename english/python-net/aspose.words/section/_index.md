@@ -10,7 +10,7 @@ url: /python-net/aspose.words/section/
 ## Section class
 
 Represents a single section in a document.
-To learn more, visit the [Working with Sections](https://docs.aspose.com/words/net/working-with-sections/) documentation article.
+To learn more, visit the [Working with Sections](https://docs.aspose.com/words/python-net/working-with-sections/) documentation article.
 
 
 

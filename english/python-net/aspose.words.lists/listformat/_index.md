@@ -10,7 +10,7 @@ url: /python-net/aspose.words.lists/listformat/
 ## ListFormat class
 
 Allows to control what list formatting is applied to a paragraph.
-To learn more, visit the [Working with Lists](https://docs.aspose.com/words/net/working-with-lists/) documentation article.
+To learn more, visit the [Working with Lists](https://docs.aspose.com/words/python-net/working-with-lists/) documentation article.
 
 
 

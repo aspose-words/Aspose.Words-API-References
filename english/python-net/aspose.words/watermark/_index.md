@@ -10,7 +10,7 @@ url: /python-net/aspose.words/watermark/
 ## Watermark class
 
 Represents class to work with document watermark.
-To learn more, visit the [Working with Watermark](https://docs.aspose.com/words/net/working-with-watermark/) documentation article.
+To learn more, visit the [Working with Watermark](https://docs.aspose.com/words/python-net/working-with-watermark/) documentation article.
 
 
 

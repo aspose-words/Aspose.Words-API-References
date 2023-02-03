@@ -10,7 +10,7 @@ url: /python-net/aspose.words.drawing/textbox/
 ## TextBox class
 
 Defines attributes that specify how a text is displayed inside a shape.
-To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article.
+To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/python-net/working-with-shapes/) documentation article.
 
 
 

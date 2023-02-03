@@ -11,7 +11,7 @@ url: /python-net/aspose.words.rendering/officemathrenderer/
 
 Provides methods to render an individual [OfficeMath](../../aspose.words.math/officemath/)
 to a raster or vector image or to a Graphics object.
-To learn more, visit the [Working with OfficeMath](https://docs.aspose.com/words/net/working-with-officemath/) documentation article.
+To learn more, visit the [Working with OfficeMath](https://docs.aspose.com/words/python-net/working-with-officemath/) documentation article.
 
 
 

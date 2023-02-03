@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/outlineoptions/
 ## OutlineOptions class
 
 Allows to specify outline options.
-To learn more, visit the [Save a Document](https://docs.aspose.com/words/net/save-a-document/) documentation article.
+To learn more, visit the [Save a Document](https://docs.aspose.com/words/python-net/save-a-document/) documentation article.
 
 
 

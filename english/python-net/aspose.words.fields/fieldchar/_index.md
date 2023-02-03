@@ -10,7 +10,7 @@ url: /python-net/aspose.words.fields/fieldchar/
 ## FieldChar class
 
 Base class for nodes that represent field characters in a document.
-To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article.
 
 
 

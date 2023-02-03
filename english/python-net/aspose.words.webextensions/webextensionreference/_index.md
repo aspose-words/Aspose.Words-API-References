@@ -11,7 +11,7 @@ url: /python-net/aspose.words.webextensions/webextensionreference/
 
 Represents the reference to a web extension. The reference is used to identify the provider location and version of the
 extension.
-To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) documentation article.
+To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/python-net/work-with-office-add-ins/) documentation article.
 
 
 

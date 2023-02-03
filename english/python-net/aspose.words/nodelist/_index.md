@@ -10,7 +10,7 @@ url: /python-net/aspose.words/nodelist/
 ## NodeList class
 
 Represents a collection of nodes matching an XPath query executed using the [CompositeNode.select_nodes()](../compositenode/select_nodes/#str) method.
-To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/python-net/aspose-words-document-object-model/) documentation article.
 
 
 

@@ -10,7 +10,7 @@ url: /python-net/aspose.words.settings/hyphenationoptions/
 ## HyphenationOptions class
 
 Allows to configure document hyphenation options.
-To learn more, visit the [Working with Hyphenation](https://docs.aspose.com/words/net/working-with-hyphenation/) documentation article.
+To learn more, visit the [Working with Hyphenation](https://docs.aspose.com/words/python-net/working-with-hyphenation/) documentation article.
 
 
 

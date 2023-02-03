@@ -10,7 +10,7 @@ url: /python-net/aspose.words/comment/
 ## Comment class
 
 Represents a container for text of a comment.
-To learn more, visit the [Working with Comments](https://docs.aspose.com/words/net/working-with-comments/) documentation article.
+To learn more, visit the [Working with Comments](https://docs.aspose.com/words/python-net/working-with-comments/) documentation article.
 
 
 

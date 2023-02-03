@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/pagesavingargs/
 ## PageSavingArgs class
 
 Provides data for the [IPageSavingCallback.page_saving()](../ipagesavingcallback/page_saving/#pagesavingargs) event.
-To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/net/programming-with-documents/) documentation article.
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/python-net/programming-with-documents/) documentation article.
 
 
 

@@ -10,7 +10,7 @@ url: /python-net/aspose.words.fonts/streamfontsource/
 ## StreamFontSource class
 
 Base class for user-defined stream font source.
-To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/python-net/working-with-fonts/) documentation article.
 
 
 

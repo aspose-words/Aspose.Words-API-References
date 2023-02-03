@@ -22,9 +22,9 @@ are positioned, when the document is formatted into pages.
 | [IPageLayoutCallback](./ipagelayoutcallback/) | Implement this interface if you want to have your own custom method called during build and rendering of page layout model. |
 | [LayoutCollector](./layoutcollector/) | This class allows to compute page numbers of document nodes. |
 | [LayoutEnumerator](./layoutenumerator/) | Enumerates page layout entities of a document. |
-| [LayoutOptions](./layoutoptions/) | Holds the options that allow controlling the document layout process. To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) documentation article. |
-| [PageLayoutCallbackArgs](./pagelayoutcallbackargs/) | An argument passed into [IPageLayoutCallback.notify()](./ipagelayoutcallback/notify/#pagelayoutcallbackargs)To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) documentation article. |
-| [RevisionOptions](./revisionoptions/) | Allows to control how document revisions are handled during layout process. To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) documentation article. |
+| [LayoutOptions](./layoutoptions/) | Holds the options that allow controlling the document layout process. To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/python-net/converting-to-fixed-page-format/) documentation article. |
+| [PageLayoutCallbackArgs](./pagelayoutcallbackargs/) | An argument passed into [IPageLayoutCallback.notify()](./ipagelayoutcallback/notify/#pagelayoutcallbackargs)To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/python-net/converting-to-fixed-page-format/) documentation article. |
+| [RevisionOptions](./revisionoptions/) | Allows to control how document revisions are handled during layout process. To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/python-net/converting-to-fixed-page-format/) documentation article. |
 
 ## Enumerations
 

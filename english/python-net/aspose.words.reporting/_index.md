@@ -22,14 +22,14 @@ perform grouping, sorting, joining and interpret C# expressions.
 
 | Class | Description |
 | --- | --- |
-| [CsvDataLoadOptions](./csvdataloadoptions/) | Represents options for parsing CSV data. To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) documentation article. |
-| [CsvDataSource](./csvdatasource/) | Provides access to data of a CSV file or stream to be used within a report. To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) documentation article. |
-| [JsonDataLoadOptions](./jsondataloadoptions/) | Represents options for parsing JSON data. To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) documentation article. |
-| [JsonDataSource](./jsondatasource/) | Provides access to data of a JSON file or stream to be used within a report. To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) documentation article. |
-| [KnownTypeSet](./knowntypeset/) | Represents an unordered set (i.e. a collection of unique items) containing System.Type objects  which fully or partially qualified names can be used within report templates to invoke the corresponding  types' static members, perform type casts, etc. To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) documentation article. |
-| [ReportingEngine](./reportingengine/) | Provides routines to populate template documents with data and a set of settings to control these routines. To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) documentation article. |
-| [XmlDataLoadOptions](./xmldataloadoptions/) | Represents options for XML data loading. To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) documentation article. |
-| [XmlDataSource](./xmldatasource/) | Provides access to data of an XML file or stream to be used within a report. To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) documentation article. |
+| [CsvDataLoadOptions](./csvdataloadoptions/) | Represents options for parsing CSV data. To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/python-net/linq-reporting-engine/) documentation article. |
+| [CsvDataSource](./csvdatasource/) | Provides access to data of a CSV file or stream to be used within a report. To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/python-net/linq-reporting-engine/) documentation article. |
+| [JsonDataLoadOptions](./jsondataloadoptions/) | Represents options for parsing JSON data. To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/python-net/linq-reporting-engine/) documentation article. |
+| [JsonDataSource](./jsondatasource/) | Provides access to data of a JSON file or stream to be used within a report. To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/python-net/linq-reporting-engine/) documentation article. |
+| [KnownTypeSet](./knowntypeset/) | Represents an unordered set (i.e. a collection of unique items) containing System.Type objects  which fully or partially qualified names can be used within report templates to invoke the corresponding  types' static members, perform type casts, etc. To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/python-net/linq-reporting-engine/) documentation article. |
+| [ReportingEngine](./reportingengine/) | Provides routines to populate template documents with data and a set of settings to control these routines. To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/python-net/linq-reporting-engine/) documentation article. |
+| [XmlDataLoadOptions](./xmldataloadoptions/) | Represents options for XML data loading. To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/python-net/linq-reporting-engine/) documentation article. |
+| [XmlDataSource](./xmldatasource/) | Provides access to data of an XML file or stream to be used within a report. To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/python-net/linq-reporting-engine/) documentation article. |
 
 ## Enumerations
 

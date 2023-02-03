@@ -10,7 +10,7 @@ url: /python-net/aspose.words.drawing.charts/chartmarker/
 ## ChartMarker class
 
 Represents a chart data marker.
-To learn more, visit the [Working with Charts](https://docs.aspose.com/words/net/working-with-charts/) documentation article.
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/python-net/working-with-charts/) documentation article.
 
 
 

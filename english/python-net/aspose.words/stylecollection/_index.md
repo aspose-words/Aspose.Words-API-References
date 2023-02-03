@@ -10,7 +10,7 @@ url: /python-net/aspose.words/stylecollection/
 ## StyleCollection class
 
 A collection of [Style](../style/) objects that represent both the built-in and user-defined styles in a document.
-To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/net/working-with-styles-and-themes/) documentation article.
+To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/python-net/working-with-styles-and-themes/) documentation article.
 
 
 

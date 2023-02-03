@@ -10,7 +10,7 @@ url: /python-net/aspose.words.fields/fieldrd/
 ## FieldRD class
 
 Implements the RD field.
-To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article.
 
 
 

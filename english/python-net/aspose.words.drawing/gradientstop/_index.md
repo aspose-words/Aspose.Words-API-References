@@ -10,7 +10,7 @@ url: /python-net/aspose.words.drawing/gradientstop/
 ## GradientStop class
 
 Represents one gradient stop.
-To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/net/working-with-graphic-elements/) documentation article.
+To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/python-net/working-with-graphic-elements/) documentation article.
 
 
 

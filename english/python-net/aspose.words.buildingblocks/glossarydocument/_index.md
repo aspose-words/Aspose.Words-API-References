@@ -11,7 +11,7 @@ url: /python-net/aspose.words.buildingblocks/glossarydocument/
 
 Represents the root element for a glossary document within a Word document.
 A glossary document is a storage for AutoText, AutoCorrect entries and Building Blocks.
-To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/python-net/aspose-words-document-object-model/) documentation article.
 
 
 

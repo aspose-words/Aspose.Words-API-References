@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/pageset/
 ## PageSet class
 
 Describes a random set of pages.
-To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/net/programming-with-documents/) documentation article.
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/python-net/programming-with-documents/) documentation article.
 
 
 

@@ -10,7 +10,7 @@ url: /python-net/aspose.words.fields/fieldcitation/
 ## FieldCitation class
 
 Implements the CITATION field.
-To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article.
 
 
 

@@ -10,7 +10,7 @@ url: /python-net/aspose.words.webextensions/webextensionbinding/
 ## WebExtensionBinding class
 
 Specifies a binding relationship between a web extension and the data in the document.
-To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) documentation article.
+To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/python-net/work-with-office-add-ins/) documentation article.
 
 
 

@@ -10,7 +10,7 @@ url: /python-net/aspose.words.notes/endnoteoptions/
 ## EndnoteOptions class
 
 Represents the endnote numbering options for a document or section.
-To learn more, visit the [Working with Footnote and Endnote](https://docs.aspose.com/words/net/working-with-footnote-and-endnote/) documentation article.
+To learn more, visit the [Working with Footnote and Endnote](https://docs.aspose.com/words/python-net/working-with-footnote-and-endnote/) documentation article.
 
 
 

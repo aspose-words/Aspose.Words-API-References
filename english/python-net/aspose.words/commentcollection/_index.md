@@ -10,7 +10,7 @@ url: /python-net/aspose.words/commentcollection/
 ## CommentCollection class
 
 Provides typed access to a collection of [Comment](../comment/) nodes.
-To learn more, visit the [Working with Comments](https://docs.aspose.com/words/net/working-with-comments/) documentation article.
+To learn more, visit the [Working with Comments](https://docs.aspose.com/words/python-net/working-with-comments/) documentation article.
 
 
 

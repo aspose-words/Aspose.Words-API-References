@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/txtlistindentation/
 ## TxtListIndentation class
 
 Specifies how list levels are indented when document is exporting to [SaveFormat.TEXT](../../aspose.words/saveformat/#TEXT) format.
-To learn more, visit the [Save a Document](https://docs.aspose.com/words/net/save-a-document/) documentation article.
+To learn more, visit the [Save a Document](https://docs.aspose.com/words/python-net/save-a-document/) documentation article.
 
 
 

@@ -10,7 +10,7 @@ url: /python-net/aspose.words.drawing/signatureline/
 ## SignatureLine class
 
 Provides access to signature line properties.
-To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/net/working-with-digital-signatures/) documentation article.
+To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/python-net/working-with-digital-signatures/) documentation article.
 
 
 

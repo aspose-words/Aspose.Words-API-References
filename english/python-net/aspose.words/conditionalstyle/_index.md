@@ -10,7 +10,7 @@ url: /python-net/aspose.words/conditionalstyle/
 ## ConditionalStyle class
 
 Represents special formatting applied to some area of a table with assigned table style.
-To learn more, visit the [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/) documentation article.
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/python-net/working-with-tables/) documentation article.
 
 
 

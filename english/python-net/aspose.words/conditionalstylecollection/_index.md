@@ -10,7 +10,7 @@ url: /python-net/aspose.words/conditionalstylecollection/
 ## ConditionalStyleCollection class
 
 Represents a collection of [ConditionalStyle](../conditionalstyle/) objects.
-To learn more, visit the [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/) documentation article.
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/python-net/working-with-tables/) documentation article.
 
 
 

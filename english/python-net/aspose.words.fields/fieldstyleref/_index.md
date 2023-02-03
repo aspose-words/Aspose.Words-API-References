@@ -10,7 +10,7 @@ url: /python-net/aspose.words.fields/fieldstyleref/
 ## FieldStyleRef class
 
 Implements the STYLEREF field.
-To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article.
 
 
 

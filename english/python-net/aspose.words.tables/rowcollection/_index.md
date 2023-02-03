@@ -10,7 +10,7 @@ url: /python-net/aspose.words.tables/rowcollection/
 ## RowCollection class
 
 Provides typed access to a collection of [Row](../row/) nodes.
-To learn more, visit the [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/) documentation article.
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/python-net/working-with-tables/) documentation article.
 
 
 

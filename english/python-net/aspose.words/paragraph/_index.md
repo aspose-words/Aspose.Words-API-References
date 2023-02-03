@@ -10,7 +10,7 @@ url: /python-net/aspose.words/paragraph/
 ## Paragraph class
 
 Represents a paragraph of text.
-To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words/net/working-with-paragraphs/) documentation article.
+To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words/python-net/working-with-paragraphs/) documentation article.
 
 
 
