@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Words for .NET API Reference
-description: Removes the VbaReferenceaspose.words.vba/vbareference/ element at the specified index of the collection.
+description: Removes the VbaReference element at the specified index of the collection.
 type: docs
 weight: 40
 url: /net/aspose.words.vba/vbareferencecollection/removeat/

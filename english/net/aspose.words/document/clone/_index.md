@@ -1,7 +1,7 @@
 ---
 title: Clone
 second_title: Aspose.Words for .NET API Reference
-description: Performs a deep copy of the Documentaspose.words/document/.
+description: Performs a deep copy of the Document.
 type: docs
 weight: 550
 url: /net/aspose.words/document/clone/

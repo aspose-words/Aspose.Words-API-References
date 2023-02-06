@@ -1,7 +1,7 @@
 ---
 title: FormFields
 second_title: Aspose.Words for .NET API Reference
-description: Returns a FormFieldsaspose.words/range/formfields/ collection that represents all form fields in the range.
+description: Returns a FormFields collection that represents all form fields in the range.
 type: docs
 weight: 30
 url: /net/aspose.words/range/formfields/

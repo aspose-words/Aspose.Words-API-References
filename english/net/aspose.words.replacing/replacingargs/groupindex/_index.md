@@ -1,7 +1,7 @@
 ---
 title: GroupIndex
 second_title: Aspose.Words for .NET API Reference
-description: Identifies by index a captured group in the Matchaspose.words.replacing/replacingargs/match/ that is to be replaced with the Replacementaspose.words.replacing/replacingargs/replacement/ string.
+description: Identifies by index a captured group in the Match that is to be replaced with the Replacement string.
 type: docs
 weight: 10
 url: /net/aspose.words.replacing/replacingargs/groupindex/

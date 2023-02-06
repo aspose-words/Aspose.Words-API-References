@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/fontsavingargs/
 ## FontSavingArgs class
 
 Provides data for the [IFontSavingCallback.font_saving()](../ifontsavingcallback/font_saving/#fontsavingargs) event.
-To learn more, visit the [Save a Document](https://docs.aspose.com/words/net/save-a-document/) documentation article.
+To learn more, visit the [Save a Document](https://docs.aspose.com/words/python-net/save-a-document/) documentation article.
 
 
 

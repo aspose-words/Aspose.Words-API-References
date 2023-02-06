@@ -1,7 +1,7 @@
 ---
 title: StructuredDocumentTags
 second_title: Aspose.Words for .NET API Reference
-description: Returns a StructuredDocumentTagsaspose.words/range/structureddocumenttags/ collection that represents all structured document tags in the range.
+description: Returns a StructuredDocumentTags collection that represents all structured document tags in the range.
 type: docs
 weight: 50
 url: /net/aspose.words/range/structureddocumenttags/

@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Words for .NET API Reference
-description: Determines whether the specified PreferredWidthaspose.words.tables/preferredwidth/ is equal in value to the current PreferredWidthaspose.words.tables/preferredwidth/.
+description: Determines whether the specified PreferredWidth is equal in value to the current PreferredWidth.
 type: docs
 weight: 60
 url: /net/aspose.words.tables/preferredwidth/equals/

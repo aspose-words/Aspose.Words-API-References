@@ -10,7 +10,7 @@ url: /python-net/aspose.words.buildingblocks/buildingblock/
 ## BuildingBlock class
 
 Represents a glossary document entry such as a Building Block, AutoText or an AutoCorrect entry.
-To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/python-net/aspose-words-document-object-model/) documentation article.
 
 
 

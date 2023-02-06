@@ -10,7 +10,7 @@ url: /python-net/aspose.words.markup/customxmlschemacollection/
 ## CustomXmlSchemaCollection class
 
 A collection of strings that represent XML schemas that are associated with a custom XML part.
-To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article.
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/python-net/structured-document-tags-or-content-control/) documentation article.
 
 
 

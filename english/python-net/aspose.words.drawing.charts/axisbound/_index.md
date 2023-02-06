@@ -10,7 +10,7 @@ url: /python-net/aspose.words.drawing.charts/axisbound/
 ## AxisBound class
 
 Represents minimum or maximum bound of axis values.
-To learn more, visit the [Working with Charts](https://docs.aspose.com/words/net/working-with-charts/) documentation article.
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/python-net/working-with-charts/) documentation article.
 
 
 

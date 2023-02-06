@@ -1,7 +1,7 @@
 ---
 title: FontFormat
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets ExportFontFormataspose.words.saving/exportfontformat/ used for font exporting. Default value is Woff.
+description: Gets or sets ExportFontFormat used for font exporting. Default value is Woff.
 type: docs
 weight: 90
 url: /net/aspose.words.saving/htmlfixedsaveoptions/fontformat/

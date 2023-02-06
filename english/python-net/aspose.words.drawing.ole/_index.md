@@ -16,9 +16,9 @@ Contains classes to work with OLE / ActiveX controls and forms in Microsoft Word
 
 | Class | Description |
 | --- | --- |
-| [Forms2OleControl](./forms2olecontrol/) | Represents Microsoft Forms 2.0 OLE control. To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/net/working-with-ole-objects-and-online-video/) documentation article. |
-| [Forms2OleControlCollection](./forms2olecontrolcollection/) | Represents collection of [Forms2OleControl](./forms2olecontrol/) objects. To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/net/working-with-ole-objects-and-online-video/) documentation article. |
-| [OleControl](./olecontrol/) | Represents OLE ActiveX control. To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/net/working-with-ole-objects-and-online-video/) documentation article. |
+| [Forms2OleControl](./forms2olecontrol/) | Represents Microsoft Forms 2.0 OLE control. To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/python-net/working-with-ole-objects-and-online-video/) documentation article. |
+| [Forms2OleControlCollection](./forms2olecontrolcollection/) | Represents collection of [Forms2OleControl](./forms2olecontrol/) objects. To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/python-net/working-with-ole-objects-and-online-video/) documentation article. |
+| [OleControl](./olecontrol/) | Represents OLE ActiveX control. To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/python-net/working-with-ole-objects-and-online-video/) documentation article. |
 
 ## Enumerations
 

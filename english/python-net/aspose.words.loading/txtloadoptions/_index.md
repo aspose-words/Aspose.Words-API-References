@@ -10,7 +10,7 @@ url: /python-net/aspose.words.loading/txtloadoptions/
 ## TxtLoadOptions class
 
 Allows to specify additional options when loading [LoadFormat.TEXT](../../aspose.words/loadformat/#TEXT) document into a [Document](../../aspose.words/document/) object.
-To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/net/specify-load-options/) documentation article.
+To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/python-net/specify-load-options/) documentation article.
 
 
 

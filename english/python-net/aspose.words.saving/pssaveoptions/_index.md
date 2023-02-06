@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/pssaveoptions/
 ## PsSaveOptions class
 
 Can be used to specify additional options when saving a document into the [SaveFormat.PS](../../aspose.words/saveformat/#PS) format.
-To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/net/specify-save-options/) documentation article.
+To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/python-net/specify-save-options/) documentation article.
 
 
 

@@ -12,7 +12,7 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/
 Can be used to specify additional options when saving a document into the
 [SaveFormat.HTML](../../aspose.words/saveformat/#HTML), [SaveFormat.MHTML](../../aspose.words/saveformat/#MHTML),
 [SaveFormat.EPUB](../../aspose.words/saveformat/#EPUB) or [SaveFormat.AZW3](../../aspose.words/saveformat/#AZW3) format.
-To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/net/specify-save-options/) documentation article.
+To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/python-net/specify-save-options/) documentation article.
 
 
 

@@ -10,7 +10,7 @@ url: /python-net/aspose.words.comparing/compareoptions/
 ## CompareOptions class
 
 Allows to choose advanced options for document comparison operation.
-To learn more, visit the [Compare Documents](https://docs.aspose.com/words/net/compare-documents/) documentation article.
+To learn more, visit the [Compare Documents](https://docs.aspose.com/words/python-net/compare-documents/) documentation article.
 
 
 

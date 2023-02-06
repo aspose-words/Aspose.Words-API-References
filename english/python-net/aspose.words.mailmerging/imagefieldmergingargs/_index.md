@@ -10,7 +10,7 @@ url: /python-net/aspose.words.mailmerging/imagefieldmergingargs/
 ## ImageFieldMergingArgs class
 
 Provides data for the [IFieldMergingCallback.image_field_merging()](../ifieldmergingcallback/image_field_merging/#imagefieldmergingargs) event.
-To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) documentation article.
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/python-net/mail-merge-and-reporting/) documentation article.
 
 
 

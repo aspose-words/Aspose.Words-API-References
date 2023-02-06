@@ -10,7 +10,7 @@ url: /python-net/aspose.words/document/
 ## Document class
 
 Represents a Word document.
-To learn more, visit the [Working with Document](https://docs.aspose.com/words/net/working-with-document/) documentation article.
+To learn more, visit the [Working with Document](https://docs.aspose.com/words/python-net/working-with-document/) documentation article.
 
 
 

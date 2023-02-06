@@ -10,7 +10,7 @@ url: /python-net/aspose.words/tabstopcollection/
 ## TabStopCollection class
 
 A collection of [TabStop](../tabstop/) objects that represent custom tabs for a paragraph or a style.
-To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/python-net/aspose-words-document-object-model/) documentation article.
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: CreateFrom
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of the FieldDatabaseDataRowaspose.words.fields/fielddatabasedatarow/ class from the DataRow instance.
+description: Initializes a new instance of the FieldDatabaseDataRow class from the DataRow instance.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fielddatabasedatarow/createfrom/

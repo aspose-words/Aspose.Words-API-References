@@ -1,7 +1,7 @@
 ---
 title: Previous
 second_title: Aspose.Words for .NET API Reference
-description: Returns a TextBoxaspose.words.drawing/textbox/ that represents the previous TextBoxaspose.words.drawing/textbox/ in a sequence of shapes.
+description: Returns a TextBox that represents the previous TextBox in a sequence of shapes.
 type: docs
 weight: 90
 url: /net/aspose.words.drawing/textbox/previous/

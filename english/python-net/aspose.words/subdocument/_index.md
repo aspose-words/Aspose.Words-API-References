@@ -10,7 +10,7 @@ url: /python-net/aspose.words/subdocument/
 ## SubDocument class
 
 Represents a **SubDocument** - which is a reference to an externally stored document.
-To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/python-net/aspose-words-document-object-model/) documentation article.
 
 
 

@@ -10,7 +10,7 @@ url: /python-net/aspose.words.webextensions/webextensionpropertycollection/
 ## WebExtensionPropertyCollection class
 
 Specifies a set of web extension custom properties.
-To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) documentation article.
+To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/python-net/work-with-office-add-ins/) documentation article.
 
 
 

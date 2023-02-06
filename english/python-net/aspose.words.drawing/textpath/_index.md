@@ -10,7 +10,7 @@ url: /python-net/aspose.words.drawing/textpath/
 ## TextPath class
 
 Defines the text and formatting of the text path (of a WordArt object).
-To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article.
+To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/python-net/working-with-shapes/) documentation article.
 
 
 

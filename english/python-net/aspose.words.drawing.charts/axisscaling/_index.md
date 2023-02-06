@@ -10,7 +10,7 @@ url: /python-net/aspose.words.drawing.charts/axisscaling/
 ## AxisScaling class
 
 Represents the scaling options of the axis.
-To learn more, visit the [Working with Charts](https://docs.aspose.com/words/net/working-with-charts/) documentation article.
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/python-net/working-with-charts/) documentation article.
 
 
 

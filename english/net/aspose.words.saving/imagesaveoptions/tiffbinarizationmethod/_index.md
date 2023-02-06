@@ -1,7 +1,7 @@
 ---
 title: TiffBinarizationMethod
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets method used while converting images to 1 bpp format when SaveFormataspose.words.saving/imagesaveoptions/saveformat/ is Tiff and TiffCompressionaspose.words.saving/imagesaveoptions/tiffcompression/ is equal to Ccitt3 or Ccitt4.
+description: Gets or sets method used while converting images to 1 bpp format when SaveFormat is Tiff and TiffCompression is equal to Ccitt3 or Ccitt4.
 type: docs
 weight: 160
 url: /net/aspose.words.saving/imagesaveoptions/tiffbinarizationmethod/

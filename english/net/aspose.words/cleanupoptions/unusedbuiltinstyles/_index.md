@@ -1,7 +1,7 @@
 ---
 title: UnusedBuiltinStyles
 second_title: Aspose.Words for .NET API Reference
-description: Specifies that unused BuiltInaspose.words/style/builtin/ styles should be removed from document.
+description: Specifies that unused BuiltIn styles should be removed from document.
 type: docs
 weight: 30
 url: /net/aspose.words/cleanupoptions/unusedbuiltinstyles/

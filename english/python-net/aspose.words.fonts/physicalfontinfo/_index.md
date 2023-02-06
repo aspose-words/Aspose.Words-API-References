@@ -10,7 +10,7 @@ url: /python-net/aspose.words.fonts/physicalfontinfo/
 ## PhysicalFontInfo class
 
 Specifies information about physical font available to Aspose.Words font engine.
-To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/python-net/working-with-fonts/) documentation article.
 
 
 

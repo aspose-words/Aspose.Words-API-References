@@ -10,7 +10,7 @@ url: /python-net/aspose.words.digitalsignatures/digitalsignaturecollection/
 ## DigitalSignatureCollection class
 
 Provides a read-only collection of digital signatures attached to a document.
-To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/net/working-with-digital-signatures/) documentation article.
+To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/python-net/working-with-digital-signatures/) documentation article.
 
 
 

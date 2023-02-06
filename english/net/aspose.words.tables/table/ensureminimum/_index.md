@@ -1,7 +1,7 @@
 ---
 title: EnsureMinimum
 second_title: Aspose.Words for .NET API Reference
-description: If the table has no rows creates and appends one Rowaspose.words.tables/row/.
+description: If the table has no rows creates and appends one Row.
 type: docs
 weight: 400
 url: /net/aspose.words.tables/table/ensureminimum/

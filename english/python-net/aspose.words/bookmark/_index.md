@@ -10,7 +10,7 @@ url: /python-net/aspose.words/bookmark/
 ## Bookmark class
 
 Represents a single bookmark.
-To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/net/working-with-bookmarks/) documentation article.
+To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/python-net/working-with-bookmarks/) documentation article.
 
 
 

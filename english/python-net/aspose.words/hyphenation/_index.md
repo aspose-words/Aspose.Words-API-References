@@ -10,7 +10,7 @@ url: /python-net/aspose.words/hyphenation/
 ## Hyphenation class
 
 Provides methods for working with hyphenation dictionaries. These dictionaries prescribe where words of a specific language can be hyphenated.
-To learn more, visit the [Working with Hyphenation](https://docs.aspose.com/words/net/working-with-hyphenation/) documentation article.
+To learn more, visit the [Working with Hyphenation](https://docs.aspose.com/words/python-net/working-with-hyphenation/) documentation article.
 
 
 

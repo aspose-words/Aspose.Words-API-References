@@ -1,7 +1,7 @@
 ---
 title: CustomDocumentProperties
 second_title: Aspose.Words for .NET API Reference
-description: Gets CustomDocumentPropertiesaspose.words/plaintextdocument/customdocumentproperties/ of the document.
+description: Gets CustomDocumentProperties of the document.
 type: docs
 weight: 30
 url: /net/aspose.words/plaintextdocument/customdocumentproperties/

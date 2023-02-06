@@ -1,7 +1,7 @@
 ---
 title: Shading
 second_title: Aspose.Words for .NET API Reference
-description: Gets a Shadingaspose.words/shading/ object that refers to the shading formatting for table cells.
+description: Gets a Shading object that refers to the shading formatting for table cells.
 type: docs
 weight: 130
 url: /net/aspose.words/tablestyle/shading/

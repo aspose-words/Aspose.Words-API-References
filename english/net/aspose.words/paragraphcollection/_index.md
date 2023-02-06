@@ -1,7 +1,7 @@
 ---
 title: ParagraphCollection
 second_title: Aspose.Words for .NET API Reference
-description: Provides typed access to a collection of Paragraph./paragraph/ nodes.
+description: Provides typed access to a collection of Paragraph nodes.
 type: docs
 weight: 4200
 url: /net/aspose.words/paragraphcollection/

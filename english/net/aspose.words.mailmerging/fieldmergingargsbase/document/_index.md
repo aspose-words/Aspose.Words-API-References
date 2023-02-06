@@ -1,7 +1,7 @@
 ---
 title: Document
 second_title: Aspose.Words for .NET API Reference
-description: Returns the Documentaspose.words.mailmerging/fieldmergingargsbase/document/ object for which the mail merge is performed.
+description: Returns the Document object for which the mail merge is performed.
 type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/fieldmergingargsbase/document/

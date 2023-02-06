@@ -1,7 +1,7 @@
 ---
 title: ConvertToHorizontallyMergedCells
 second_title: Aspose.Words for .NET API Reference
-description: Converts cells horizontally merged by width to cells merged by HorizontalMergeaspose.words.tables/cellformat/horizontalmerge/.
+description: Converts cells horizontally merged by width to cells merged by HorizontalMerge.
 type: docs
 weight: 390
 url: /net/aspose.words.tables/table/converttohorizontallymergedcells/

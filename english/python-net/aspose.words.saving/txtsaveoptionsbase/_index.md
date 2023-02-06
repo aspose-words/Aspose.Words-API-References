@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/txtsaveoptionsbase/
 ## TxtSaveOptionsBase class
 
 The base class for specifying additional options when saving a document into a text based formats.
-To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/net/specify-save-options/) documentation article.
+To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/python-net/specify-save-options/) documentation article.
 
 
 

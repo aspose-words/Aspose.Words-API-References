@@ -1,7 +1,7 @@
 ---
 title: ChartDataPointCollection
 second_title: Aspose.Words for .NET API Reference
-description: Represents collection of a ChartDataPoint./chartdatapoint/.
+description: Represents collection of a ChartDataPoint.
 type: docs
 weight: 660
 url: /net/aspose.words.drawing.charts/chartdatapointcollection/

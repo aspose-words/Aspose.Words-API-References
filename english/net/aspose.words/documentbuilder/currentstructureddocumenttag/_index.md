@@ -1,7 +1,7 @@
 ---
 title: CurrentStructuredDocumentTag
 second_title: Aspose.Words for .NET API Reference
-description: Gets the structured document tag that is currently selected in this DocumentBuilderaspose.words/documentbuilder/.
+description: Gets the structured document tag that is currently selected in this DocumentBuilder.
 type: docs
 weight: 80
 url: /net/aspose.words/documentbuilder/currentstructureddocumenttag/

@@ -10,7 +10,7 @@ url: /python-net/aspose.words.settings/odsofieldmapdata/
 ## OdsoFieldMapData class
 
 Specifies how a column in the external data source shall be mapped to the predefined merge fields within the document.
-To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) documentation article.
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/python-net/mail-merge-and-reporting/) documentation article.
 
 
 

@@ -11,7 +11,7 @@ url: /python-net/aspose.words.saving/odtsaveoptions/
 
 Can be used to specify additional options when saving a document into the [SaveFormat.ODT](../../aspose.words/saveformat/#ODT) or
 [SaveFormat.OTT](../../aspose.words/saveformat/#OTT) format.
-To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/net/specify-save-options/) documentation article.
+To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/python-net/specify-save-options/) documentation article.
 
 
 

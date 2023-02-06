@@ -11,7 +11,7 @@ url: /python-net/aspose.words.math/officemath/
 
 Represents an Office Math object such as function, equation, matrix or alike. Can contain child elements
 including runs of mathematical text, bookmarks, comments, other [OfficeMath](./) instances and some other nodes.
-To learn more, visit the [Working with OfficeMath](https://docs.aspose.com/words/net/working-with-officemath/) documentation article.
+To learn more, visit the [Working with OfficeMath](https://docs.aspose.com/words/python-net/working-with-officemath/) documentation article.
 
 
 

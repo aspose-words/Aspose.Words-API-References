@@ -10,7 +10,7 @@ url: /python-net/aspose.words/inline/
 ## Inline class
 
 Base class for inline-level nodes that can have character formatting associated with them, but cannot have child nodes of their own.
-To learn more, visit the [Logical Levels of Nodes in a Document](https://docs.aspose.com/words/net/logical-levels-of-nodes-in-a-document/) documentation article.
+To learn more, visit the [Logical Levels of Nodes in a Document](https://docs.aspose.com/words/python-net/logical-levels-of-nodes-in-a-document/) documentation article.
 
 
 

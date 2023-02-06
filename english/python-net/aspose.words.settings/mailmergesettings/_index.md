@@ -10,7 +10,7 @@ url: /python-net/aspose.words.settings/mailmergesettings/
 ## MailMergeSettings class
 
 Specifies all of the mail merge information for a document.
-To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) documentation article.
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/python-net/mail-merge-and-reporting/) documentation article.
 
 
 

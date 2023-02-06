@@ -10,7 +10,7 @@ url: /python-net/aspose.words.drawing/imagedata/
 ## ImageData class
 
 Defines an image for a shape.
-To learn more, visit the [Working with Images](https://docs.aspose.com/words/net/working-with-images/) documentation article.
+To learn more, visit the [Working with Images](https://docs.aspose.com/words/python-net/working-with-images/) documentation article.
 
 
 

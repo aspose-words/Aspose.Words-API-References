@@ -10,7 +10,7 @@ url: /python-net/aspose.words/pagesetup/
 ## PageSetup class
 
 Represents the page setup properties of a section.
-To learn more, visit the [Working with Sections](https://docs.aspose.com/words/net/working-with-sections/) documentation article.
+To learn more, visit the [Working with Sections](https://docs.aspose.com/words/python-net/working-with-sections/) documentation article.
 
 
 

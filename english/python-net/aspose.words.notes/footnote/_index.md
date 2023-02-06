@@ -10,7 +10,7 @@ url: /python-net/aspose.words.notes/footnote/
 ## Footnote class
 
 Represents a container for text of a footnote or endnote.
-To learn more, visit the [Working with Footnote and Endnote](https://docs.aspose.com/words/net/working-with-footnote-and-endnote/) documentation article.
+To learn more, visit the [Working with Footnote and Endnote](https://docs.aspose.com/words/python-net/working-with-footnote-and-endnote/) documentation article.
 
 
 

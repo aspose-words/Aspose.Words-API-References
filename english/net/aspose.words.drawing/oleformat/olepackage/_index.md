@@ -1,7 +1,7 @@
 ---
 title: OlePackage
 second_title: Aspose.Words for .NET API Reference
-description: Provide access to OlePackageaspose.words.drawing/olepackage/ if OLE object is an OLE Package. Returns null otherwise.
+description: Provide access to OlePackage if OLE object is an OLE Package. Returns null otherwise.
 type: docs
 weight: 80
 url: /net/aspose.words.drawing/oleformat/olepackage/

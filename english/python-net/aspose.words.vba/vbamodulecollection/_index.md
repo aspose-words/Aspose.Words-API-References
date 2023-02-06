@@ -10,7 +10,7 @@ url: /python-net/aspose.words.vba/vbamodulecollection/
 ## VbaModuleCollection class
 
 Represents a collection of [VbaModule](../vbamodule/) objects.
-To learn more, visit the [Working with VBA Macros](https://docs.aspose.com/words/net/working-with-vba-macros/) documentation article.
+To learn more, visit the [Working with VBA Macros](https://docs.aspose.com/words/python-net/working-with-vba-macros/) documentation article.
 
 
 

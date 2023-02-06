@@ -1,7 +1,7 @@
 ---
 title: CreateFrom
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of the FieldDatabaseDataTableaspose.words.fields/fielddatabasedatatable/ class from the DataTable instance.
+description: Initializes a new instance of the FieldDatabaseDataTable class from the DataTable instance.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fielddatabasedatatable/createfrom/

@@ -1,7 +1,7 @@
 ---
 title: ThemeFonts
 second_title: Aspose.Words for .NET API Reference
-description: Represents a collection of fonts in the font scheme allowing to specify different fonts for different languages Latin./themefonts/latin/ EastAsian./themefonts/eastasian/ and ComplexScript./themefonts/complexscript/.
+description: Represents a collection of fonts in the font scheme allowing to specify different fonts for different languages Latin EastAsian and ComplexScript.
 type: docs
 weight: 6270
 url: /net/aspose.words.themes/themefonts/

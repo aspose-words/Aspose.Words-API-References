@@ -1,7 +1,7 @@
 ---
 title: CustomXmlPartCollection
 second_title: Aspose.Words for .NET API Reference
-description: Represents a collection of Custom XML Parts. The items are CustomXmlPart./customxmlpart/ objects.
+description: Represents a collection of Custom XML Parts. The items are CustomXmlPart objects.
 type: docs
 weight: 3720
 url: /net/aspose.words.markup/customxmlpartcollection/

@@ -1,7 +1,7 @@
 ---
 title: PlaceholderName
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets Name of the BuildingBlockaspose.words.buildingblocks/buildingblock/ containing placeholder text.
+description: Gets or sets Name of the BuildingBlock containing placeholder text.
 type: docs
 weight: 120
 url: /net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/

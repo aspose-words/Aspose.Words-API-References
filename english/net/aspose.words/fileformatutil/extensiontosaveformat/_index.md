@@ -1,7 +1,7 @@
 ---
 title: ExtensionToSaveFormat
 second_title: Aspose.Words for .NET API Reference
-description: Converts a file name extension into a SaveFormataspose.words/saveformat/ value.
+description: Converts a file name extension into a SaveFormat value.
 type: docs
 weight: 40
 url: /net/aspose.words/fileformatutil/extensiontosaveformat/

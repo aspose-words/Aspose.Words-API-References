@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: Returns ChartDataPointaspose.words.drawing.charts/chartdatapoint/ for the specified index.
+description: Returns ChartDataPoint for the specified index.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartdatapointcollection/item/

@@ -1,7 +1,7 @@
 ---
 title: Comment
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of the Commentaspose.words/comment/ class.
+description: Initializes a new instance of the Comment class.
 type: docs
 weight: 10
 url: /net/aspose.words/comment/comment/

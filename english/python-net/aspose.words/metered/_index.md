@@ -10,7 +10,7 @@ url: /python-net/aspose.words/metered/
 ## Metered class
 
 Provides methods to set metered key.
-To learn more, visit the [Licensing and Subscription](https://docs.aspose.com/words/net/licensing/) documentation article.
+To learn more, visit the [Licensing and Subscription](https://docs.aspose.com/words/python-net/licensing/) documentation article.
 
 
 

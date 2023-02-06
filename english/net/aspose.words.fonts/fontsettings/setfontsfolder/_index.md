@@ -1,7 +1,7 @@
 ---
 title: SetFontsFolder
 second_title: Aspose.Words for .NET API Reference
-description: Sets the folder where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. This is a shortcut to SetFontsFoldersaspose.words.fonts/fontsettings/setfontsfolders/ for setting only one font directory.
+description: Sets the folder where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. This is a shortcut to SetFontsFolders for setting only one font directory.
 type: docs
 weight: 80
 url: /net/aspose.words.fonts/fontsettings/setfontsfolder/

@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the specified ShadowTypeaspose.words.drawing/shadowtype/ for ShadowFormat.
+description: Gets or sets the specified ShadowType for ShadowFormat.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/shadowformat/type/

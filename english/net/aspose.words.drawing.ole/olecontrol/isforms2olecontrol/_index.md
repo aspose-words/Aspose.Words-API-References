@@ -1,7 +1,7 @@
 ---
 title: IsForms2OleControl
 second_title: Aspose.Words for .NET API Reference
-description: Returns true if the control is a Forms2OleControlaspose.words.drawing.ole/forms2olecontrol/.
+description: Returns true if the control is a Forms2OleControl.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.ole/olecontrol/isforms2olecontrol/

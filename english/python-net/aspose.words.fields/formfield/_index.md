@@ -10,7 +10,7 @@ url: /python-net/aspose.words.fields/formfield/
 ## FormField class
 
 Represents a single form field.
-To learn more, visit the [Working with Form Fields](https://docs.aspose.com/words/net/working-with-form-fields/) documentation article.
+To learn more, visit the [Working with Form Fields](https://docs.aspose.com/words/python-net/working-with-form-fields/) documentation article.
 
 
 

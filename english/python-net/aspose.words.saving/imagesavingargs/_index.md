@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/imagesavingargs/
 ## ImageSavingArgs class
 
 Provides data for the [IImageSavingCallback.image_saving()](../iimagesavingcallback/image_saving/#imagesavingargs) event.
-To learn more, visit the [Save a Document](https://docs.aspose.com/words/net/save-a-document/) documentation article.
+To learn more, visit the [Save a Document](https://docs.aspose.com/words/python-net/save-a-document/) documentation article.
 
 
 

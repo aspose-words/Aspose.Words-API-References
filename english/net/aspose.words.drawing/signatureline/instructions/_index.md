@@ -1,7 +1,7 @@
 ---
 title: Instructions
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets instructions to the signer that are displayed on signing the signature line. This property is ignored if DefaultInstructionsaspose.words.drawing/signatureline/defaultinstructions/ is set. Default value for this property is empty string Empty.
+description: Gets or sets instructions to the signer that are displayed on signing the signature line. This property is ignored if DefaultInstructions is set. Default value for this property is empty string Empty.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing/signatureline/instructions/

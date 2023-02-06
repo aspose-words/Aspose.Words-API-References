@@ -10,7 +10,7 @@ url: /python-net/aspose.words/headerfootercollection/
 ## HeaderFooterCollection class
 
 Provides typed access to [HeaderFooter](../headerfooter/) nodes of a [Section](../section/).
-To learn more, visit the [Working with Headers and Footers](https://docs.aspose.com/words/net/working-with-headers-and-footers/) documentation article.
+To learn more, visit the [Working with Headers and Footers](https://docs.aspose.com/words/python-net/working-with-headers-and-footers/) documentation article.
 
 
 

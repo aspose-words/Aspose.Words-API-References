@@ -10,7 +10,7 @@ url: /python-net/aspose.words.fields/fieldseparator/
 ## FieldSeparator class
 
 Represents a Word field separator that separates the field code from the field result.
-To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article.
 
 
 

@@ -10,7 +10,7 @@ url: /python-net/aspose.words.drawing/groupshape/
 ## GroupShape class
 
 Represents a group of shapes in a document.
-To learn more, visit the [How to Add Group Shape into a Word Document](https://docs.aspose.com/words/net/how-to-add-group-shape-into-a-word-document/) documentation article.
+To learn more, visit the [How to Add Group Shape into a Word Document](https://docs.aspose.com/words/python-net/how-to-add-group-shape-into-a-word-document/) documentation article.
 
 
 

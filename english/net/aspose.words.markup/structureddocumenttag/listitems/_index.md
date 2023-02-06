@@ -1,7 +1,7 @@
 ---
 title: ListItems
 second_title: Aspose.Words for .NET API Reference
-description: Gets SdtListItemCollectionaspose.words.markup/sdtlistitemcollection/ associated with this SDT.
+description: Gets SdtListItemCollection associated with this SDT.
 type: docs
 weight: 180
 url: /net/aspose.words.markup/structureddocumenttag/listitems/

@@ -1,7 +1,7 @@
 ---
 title: VisitSpecialChar
 second_title: Aspose.Words for .NET API Reference
-description: Called when a SpecialCharaspose.words/specialchar/ node is encountered in the document.
+description: Called when a SpecialChar node is encountered in the document.
 type: docs
 weight: 430
 url: /net/aspose.words/documentvisitor/visitspecialchar/

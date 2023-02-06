@@ -1,7 +1,7 @@
 ---
 title: CurrentSection
 second_title: Aspose.Words for .NET API Reference
-description: Gets the section that is currently selected in this DocumentBuilderaspose.words/documentbuilder/.
+description: Gets the section that is currently selected in this DocumentBuilder.
 type: docs
 weight: 60
 url: /net/aspose.words/documentbuilder/currentsection/

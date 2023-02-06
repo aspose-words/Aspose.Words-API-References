@@ -1,7 +1,7 @@
 ---
 title: CustomTocStyleSeparator
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets custom style separator for the t switch in FieldTocaspose.words.fields/fieldtoc/ field.
+description: Gets or sets custom style separator for the t switch in FieldToc field.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldoptions/customtocstyleseparator/

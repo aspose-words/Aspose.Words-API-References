@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/resourcesavingargs/
 ## ResourceSavingArgs class
 
 Provides data for the [IResourceSavingCallback.resource_saving()](../iresourcesavingcallback/resource_saving/#resourcesavingargs) event.
-To learn more, visit the [Save a Document](https://docs.aspose.com/words/net/save-a-document/) documentation article.
+To learn more, visit the [Save a Document](https://docs.aspose.com/words/python-net/save-a-document/) documentation article.
 
 
 

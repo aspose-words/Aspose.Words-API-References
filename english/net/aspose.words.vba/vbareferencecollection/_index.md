@@ -1,7 +1,7 @@
 ---
 title: VbaReferenceCollection
 second_title: Aspose.Words for .NET API Reference
-description: Represents a collection of VbaReference./vbareference/ objects.
+description: Represents a collection of VbaReference objects.
 type: docs
 weight: 6360
 url: /net/aspose.words.vba/vbareferencecollection/

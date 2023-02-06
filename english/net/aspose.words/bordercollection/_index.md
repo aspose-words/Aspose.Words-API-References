@@ -1,7 +1,7 @@
 ---
 title: BorderCollection
 second_title: Aspose.Words for .NET API Reference
-description: A collection of Border./border/ objects.
+description: A collection of Border objects.
 type: docs
 weight: 80
 url: /net/aspose.words/bordercollection/

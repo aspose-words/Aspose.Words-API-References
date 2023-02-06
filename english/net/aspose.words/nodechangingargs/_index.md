@@ -1,7 +1,7 @@
 ---
 title: NodeChangingArgs
 second_title: Aspose.Words for .NET API Reference
-description: Provides data for methods of the INodeChangingCallback./inodechangingcallback/ interface.
+description: Provides data for methods of the INodeChangingCallback interface.
 type: docs
 weight: 3980
 url: /net/aspose.words/nodechangingargs/

@@ -1,7 +1,7 @@
 ---
 title: RemoveSmartTags
 second_title: Aspose.Words for .NET API Reference
-description: Removes all SmartTagaspose.words.markup/smarttag/ descendant nodes of the current node.
+description: Removes all SmartTag descendant nodes of the current node.
 type: docs
 weight: 190
 url: /net/aspose.words/compositenode/removesmarttags/

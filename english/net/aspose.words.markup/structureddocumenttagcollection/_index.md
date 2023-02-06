@@ -1,7 +1,7 @@
 ---
 title: StructuredDocumentTagCollection
 second_title: Aspose.Words for .NET API Reference
-description: A collection of IStructuredDocumentTag./istructureddocumenttag/ instances that represent the structured document tags in the specified range.
+description: A collection of IStructuredDocumentTag instances that represent the structured document tags in the specified range.
 type: docs
 weight: 3860
 url: /net/aspose.words.markup/structureddocumenttagcollection/

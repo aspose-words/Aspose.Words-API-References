@@ -10,7 +10,7 @@ url: /python-net/aspose.words/convertutil/
 ## ConvertUtil class
 
 Provides helper functions to convert between various measurement units.
-To learn more, visit the [Convert Between Measurement Units](https://docs.aspose.com/words/net/convert-between-measurement-units/) documentation article.
+To learn more, visit the [Convert Between Measurement Units](https://docs.aspose.com/words/python-net/convert-between-measurement-units/) documentation article.
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: ThemeFontFarEast
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the East Asian theme font in the applied font scheme that is associated with this Fontaspose.words/font/ object.
+description: Gets or sets the East Asian theme font in the applied font scheme that is associated with this Font object.
 type: docs
 weight: 500
 url: /net/aspose.words/font/themefontfareast/

@@ -10,7 +10,7 @@ url: /python-net/aspose.words.reporting/xmldataloadoptions/
 ## XmlDataLoadOptions class
 
 Represents options for XML data loading.
-To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) documentation article.
+To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/python-net/linq-reporting-engine/) documentation article.
 
 
 

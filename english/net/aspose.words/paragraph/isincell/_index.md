@@ -1,7 +1,7 @@
 ---
 title: IsInCell
 second_title: Aspose.Words for .NET API Reference
-description: True if this paragraph is an immediate child of Cellaspose.words.tables/cell/ false otherwise.
+description: True if this paragraph is an immediate child of Cell false otherwise.
 type: docs
 weight: 100
 url: /net/aspose.words/paragraph/isincell/

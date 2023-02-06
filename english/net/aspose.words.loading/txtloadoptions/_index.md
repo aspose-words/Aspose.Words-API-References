@@ -1,7 +1,7 @@
 ---
 title: TxtLoadOptions
 second_title: Aspose.Words for .NET API Reference
-description: Allows to specify additional options when loading Text document into a Document../aspose.words/document/ object.
+description: Allows to specify additional options when loading Text document into a Document object.
 type: docs
 weight: 3550
 url: /net/aspose.words.loading/txtloadoptions/

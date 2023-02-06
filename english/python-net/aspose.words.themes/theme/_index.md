@@ -1,7 +1,7 @@
 ﻿---
 title: Theme class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents document Theme, and provides access to main theme parts including [Theme.major_fonts](./major_fonts/), [Theme.minor_fonts](./minor_fonts/) and [Theme.colors](./colors/)To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/net/working-with-styles-and-themes/) documentation article."
+description: "Represents document Theme, and provides access to main theme parts including [Theme.major_fonts](./major_fonts/), [Theme.minor_fonts](./minor_fonts/) and [Theme.colors](./colors/)To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/python-net/working-with-styles-and-themes/) documentation article."
 type: docs
 weight: 10
 url: /python-net/aspose.words.themes/theme/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.themes/theme/
 
 ## Theme class
 
-Represents document Theme, and provides access to main theme parts including [Theme.major_fonts](./major_fonts/), [Theme.minor_fonts](./minor_fonts/) and [Theme.colors](./colors/)To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/net/working-with-styles-and-themes/) documentation article.
+Represents document Theme, and provides access to main theme parts including [Theme.major_fonts](./major_fonts/), [Theme.minor_fonts](./minor_fonts/) and [Theme.colors](./colors/)To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/python-net/working-with-styles-and-themes/) documentation article.
 
 
 

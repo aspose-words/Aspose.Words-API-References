@@ -1,7 +1,7 @@
 ---
 title: ConditionalStyleCollection
 second_title: Aspose.Words for .NET API Reference
-description: Represents a collection of ConditionalStyle./conditionalstyle/ objects.
+description: Represents a collection of ConditionalStyle objects.
 type: docs
 weight: 310
 url: /net/aspose.words/conditionalstylecollection/

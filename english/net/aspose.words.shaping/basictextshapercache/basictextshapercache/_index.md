@@ -1,7 +1,7 @@
 ---
 title: BasicTextShaperCache
 second_title: Aspose.Words for .NET API Reference
-description: Wraps factory and caches GetTextShaperaspose.words.shaping/itextshaperfactory/gettextshaper/ results.
+description: Wraps factory and caches GetTextShaper results.
 type: docs
 weight: 10
 url: /net/aspose.words.shaping/basictextshapercache/basictextshapercache/

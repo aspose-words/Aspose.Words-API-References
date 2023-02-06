@@ -11,7 +11,7 @@ url: /python-net/aspose.words/textcolumn/
 
 Represents a single text column. [TextColumn](./) is a member of the [TextColumnCollection](../textcolumncollection/) collection.
 The [TextColumn](./) collection includes all the columns in a section of a document.
-To learn more, visit the [Working with Sections](https://docs.aspose.com/words/net/working-with-sections/) documentation article.
+To learn more, visit the [Working with Sections](https://docs.aspose.com/words/python-net/working-with-sections/) documentation article.
 
 
 

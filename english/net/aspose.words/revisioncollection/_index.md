@@ -1,7 +1,7 @@
 ---
 title: RevisionCollection
 second_title: Aspose.Words for .NET API Reference
-description: A collection of Revision./revision/ objects that represent revisions in the document.
+description: A collection of Revision objects that represent revisions in the document.
 type: docs
 weight: 4550
 url: /net/aspose.words/revisioncollection/

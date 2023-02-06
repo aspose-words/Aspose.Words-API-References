@@ -10,7 +10,7 @@ url: /python-net/aspose.words.fields/barcodeparameters/
 ## BarcodeParameters class
 
 Container class for barcode parameters to pass-through to BarcodeGenerator.
-To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article.
 
 
 

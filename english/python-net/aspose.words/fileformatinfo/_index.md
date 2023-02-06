@@ -10,7 +10,7 @@ url: /python-net/aspose.words/fileformatinfo/
 ## FileFormatInfo class
 
 Contains data returned by [FileFormatUtil](../fileformatutil/) document format detection methods.
-To learn more, visit the [Detect File Format and Check Format Compatibility](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) documentation article.
+To learn more, visit the [Detect File Format and Check Format Compatibility](https://docs.aspose.com/words/python-net/detect-file-format-and-check-format-compatibility/) documentation article.
 
 
 

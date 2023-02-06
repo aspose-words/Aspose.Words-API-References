@@ -10,7 +10,7 @@ url: /python-net/aspose.words.drawing.ole/olecontrol/
 ## OleControl class
 
 Represents OLE ActiveX control.
-To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/net/working-with-ole-objects-and-online-video/) documentation article.
+To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/python-net/working-with-ole-objects-and-online-video/) documentation article.
 
 
 
