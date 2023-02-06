@@ -1,7 +1,7 @@
 ---
 title: FieldUpdatingProgressCallback
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets IFieldUpdatingProgressCallbackaspose.words.fields/ifieldupdatingprogresscallback/ implementation.
+description: Gets or sets IFieldUpdatingProgressCallback implementation.
 type: docs
 weight: 120
 url: /net/aspose.words.fields/fieldoptions/fieldupdatingprogresscallback/

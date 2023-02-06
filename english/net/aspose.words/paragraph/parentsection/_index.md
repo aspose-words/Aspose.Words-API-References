@@ -1,7 +1,7 @@
 ---
 title: ParentSection
 second_title: Aspose.Words for .NET API Reference
-description: Retrieves the parent Sectionaspose.words/section/ of the paragraph.
+description: Retrieves the parent Section of the paragraph.
 type: docs
 weight: 200
 url: /net/aspose.words/paragraph/parentsection/

@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the column name within an external data source for the column whose index is specified by the Columnaspose.words.settings/odsofieldmapdata/column/ property. The default value is an empty string.
+description: Specifies the column name within an external data source for the column whose index is specified by the Column property. The default value is an empty string.
 type: docs
 weight: 40
 url: /net/aspose.words.settings/odsofieldmapdata/name/

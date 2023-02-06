@@ -1,7 +1,7 @@
 ---
 title: GetSpecifiedPrinterPaperSource
 second_title: Aspose.Words for .NET API Reference
-description: Gets the PaperSource object suitable for printing the page represented by this PageInfoaspose.words.rendering/pageinfo/.
+description: Gets the PaperSource object suitable for printing the page represented by this PageInfo.
 type: docs
 weight: 90
 url: /net/aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/

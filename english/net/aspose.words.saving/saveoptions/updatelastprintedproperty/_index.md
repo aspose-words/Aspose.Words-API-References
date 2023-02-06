@@ -1,7 +1,7 @@
 ---
 title: UpdateLastPrintedProperty
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a value determining whether the LastPrintedaspose.words.properties/builtindocumentproperties/lastprinted/ property is updated before saving.
+description: Gets or sets a value determining whether the LastPrinted property is updated before saving.
 type: docs
 weight: 170
 url: /net/aspose.words.saving/saveoptions/updatelastprintedproperty/

@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: Retrieves a Commentaspose.words/comment/ at the given index.
+description: Retrieves a Comment at the given index.
 type: docs
 weight: 10
 url: /net/aspose.words/commentcollection/item/

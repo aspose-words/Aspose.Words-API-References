@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Words for .NET API Reference
-description: Gets the preferred width value. The unit of measure is specified in the Typeaspose.words.tables/preferredwidth/type/ property.
+description: Gets the preferred width value. The unit of measure is specified in the Type property.
 type: docs
 weight: 50
 url: /net/aspose.words.tables/preferredwidth/value/

@@ -1,7 +1,7 @@
 ---
 title: ShapeLineStyle
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the compound line style of a Shape./shape/.
+description: Specifies the compound line style of a Shape.
 type: docs
 weight: 1120
 url: /net/aspose.words.drawing/shapelinestyle/

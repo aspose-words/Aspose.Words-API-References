@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: Retrieves a VbaModuleaspose.words.vba/vbamodule/ object by index.
+description: Retrieves a VbaModule object by index.
 type: docs
 weight: 20
 url: /net/aspose.words.vba/vbamodulecollection/item/

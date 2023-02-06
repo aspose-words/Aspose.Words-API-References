@@ -1,7 +1,7 @@
 ---
 title: VbaReferenceType
 second_title: Aspose.Words for .NET API Reference
-description: Allows to specify the type of a VbaReference./vbareference/ object.
+description: Allows to specify the type of a VbaReference object.
 type: docs
 weight: 6370
 url: /net/aspose.words.vba/vbareferencetype/

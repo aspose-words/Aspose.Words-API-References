@@ -1,7 +1,7 @@
 ---
 title: Clone
 second_title: Aspose.Words for .NET API Reference
-description: Makes a deep enough copy of the object. Does not duplicate the bytes of the Dataaspose.words.markup/customxmlpart/data/ value.
+description: Makes a deep enough copy of the object. Does not duplicate the bytes of the Data value.
 type: docs
 weight: 60
 url: /net/aspose.words.markup/customxmlpart/clone/

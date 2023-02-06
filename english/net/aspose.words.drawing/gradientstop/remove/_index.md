@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Words for .NET API Reference
-description: Removes the gradient stop from the parent GradientStopCollectionaspose.words.drawing/gradientstopcollection/.
+description: Removes the gradient stop from the parent GradientStopCollection.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing/gradientstop/remove/

@@ -1,7 +1,7 @@
 ---
 title: Shading
 second_title: Aspose.Words for .NET API Reference
-description: Returns a Shadingaspose.words/shading/ object that refers to the shading formatting for the paragraph.
+description: Returns a Shading object that refers to the shading formatting for the paragraph.
 type: docs
 weight: 270
 url: /net/aspose.words/paragraphformat/shading/

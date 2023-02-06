@@ -1,7 +1,7 @@
 ---
 title: Cell
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of the Cellaspose.words.tables/cell/ class.
+description: Initializes a new instance of the Cell class.
 type: docs
 weight: 10
 url: /net/aspose.words.tables/cell/cell/

@@ -1,7 +1,7 @@
 ---
 title: ParentStory
 second_title: Aspose.Words for .NET API Reference
-description: Retrieves the parent sectionlevel story that can be Bodyaspose.words/body/ or HeaderFooteraspose.words/headerfooter/.
+description: Retrieves the parent sectionlevel story that can be Body or HeaderFooter.
 type: docs
 weight: 210
 url: /net/aspose.words/paragraph/parentstory/

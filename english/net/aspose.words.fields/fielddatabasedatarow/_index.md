@@ -1,7 +1,7 @@
 ---
 title: FieldDatabaseDataRow
 second_title: Aspose.Words for .NET API Reference
-description: Provides data for the FieldDatabase./fielddatabase/ field result.
+description: Provides data for the FieldDatabase field result.
 type: docs
 weight: 1600
 url: /net/aspose.words.fields/fielddatabasedatarow/

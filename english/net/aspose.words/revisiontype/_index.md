@@ -1,7 +1,7 @@
 ---
 title: RevisionType
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the type of change being tracked in Revision./revision/.
+description: Specifies the type of change being tracked in Revision.
 type: docs
 weight: 4580
 url: /net/aspose.words/revisiontype/

@@ -1,7 +1,7 @@
 ---
 title: IsEndOfCell
 second_title: Aspose.Words for .NET API Reference
-description: True if this paragraph is the last paragraph in a Cellaspose.words.tables/cell/ false otherwise.
+description: True if this paragraph is the last paragraph in a Cell false otherwise.
 type: docs
 weight: 50
 url: /net/aspose.words/paragraph/isendofcell/

@@ -1,7 +1,7 @@
 ---
 title: Forms2OleControlCollection
 second_title: Aspose.Words for .NET API Reference
-description: Represents collection of Forms2OleControl./forms2olecontrol/ objects.
+description: Represents collection of Forms2OleControl objects.
 type: docs
 weight: 990
 url: /net/aspose.words.drawing.ole/forms2olecontrolcollection/

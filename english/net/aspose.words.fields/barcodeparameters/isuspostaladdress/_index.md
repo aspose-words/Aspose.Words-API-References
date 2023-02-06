@@ -1,7 +1,7 @@
 ---
 title: IsUSPostalAddress
 second_title: Aspose.Words for .NET API Reference
-description: Whether PostalAddressaspose.words.fields/barcodeparameters/postaladdress/ is a U.S. postal address.
+description: Whether PostalAddress is a U.S. postal address.
 type: docs
 weight: 130
 url: /net/aspose.words.fields/barcodeparameters/isuspostaladdress/

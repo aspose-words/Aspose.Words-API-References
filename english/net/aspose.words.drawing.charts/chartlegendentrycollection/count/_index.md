@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Words for .NET API Reference
-description: Returns the number of ChartLegendEntryaspose.words.drawing.charts/chartlegendentry/ in this collection.
+description: Returns the number of ChartLegendEntry in this collection.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartlegendentrycollection/count/

@@ -1,7 +1,7 @@
 ---
 title: ParagraphBreak
 second_title: Aspose.Words for .NET API Reference
-description: End of paragraph character x000d or r. Same as Craspose.words/controlchar/cr/
+description: End of paragraph character x000d or r. Same as Cr
 type: docs
 weight: 220
 url: /net/aspose.words/controlchar/paragraphbreak/

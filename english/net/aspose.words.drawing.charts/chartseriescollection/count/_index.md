@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Words for .NET API Reference
-description: Returns the number of ChartSeriesaspose.words.drawing.charts/chartseries/ in this collection.
+description: Returns the number of ChartSeries in this collection.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartseriescollection/count/

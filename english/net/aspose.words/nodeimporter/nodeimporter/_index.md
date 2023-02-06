@@ -1,7 +1,7 @@
 ---
 title: NodeImporter
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of the NodeImporteraspose.words/nodeimporter/ class.
+description: Initializes a new instance of the NodeImporter class.
 type: docs
 weight: 10
 url: /net/aspose.words/nodeimporter/nodeimporter/

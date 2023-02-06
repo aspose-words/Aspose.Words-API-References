@@ -1,7 +1,7 @@
 ---
 title: CaseCodeStyle
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the style of a Case Code for barcode type ITF14. The valid values are STDx7CEXTx7CADD
+description: Gets or sets the style of a Case Code for barcode type ITF14. The valid values are STDEXTADD
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldmergebarcode/casecodestyle/

@@ -1,7 +1,7 @@
 ---
 title: GetEffectiveValue
 second_title: Aspose.Words for .NET API Reference
-description: Reports the string representation of the ListLevelaspose.words.lists/listlevel/ object for the specified index of the list item. Parameters specify the NumberStyleaspose.words/numberstyle/ and an optional format string used when Custom is specified.
+description: Reports the string representation of the ListLevel object for the specified index of the list item. Parameters specify the NumberStyle and an optional format string used when Custom is specified.
 type: docs
 weight: 190
 url: /net/aspose.words.lists/listlevel/geteffectivevalue/

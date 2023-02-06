@@ -1,7 +1,7 @@
 ---
 title: Node
 second_title: Aspose.Words for .NET API Reference
-description: Gets the Nodeaspose.words/nodechangingargs/node/ that is being added or removed.
+description: Gets the Node that is being added or removed.
 type: docs
 weight: 30
 url: /net/aspose.words/nodechangingargs/node/

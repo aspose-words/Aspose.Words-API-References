@@ -1,7 +1,7 @@
 ---
 title: Body
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of the Bodyaspose.words/body/ class.
+description: Initializes a new instance of the Body class.
 type: docs
 weight: 10
 url: /net/aspose.words/body/body/

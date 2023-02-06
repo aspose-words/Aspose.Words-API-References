@@ -1,7 +1,7 @@
 ---
 title: IsValidLinkTarget
 second_title: Aspose.Words for .NET API Reference
-description: Determines whether this TextBoxaspose.words.drawing/textbox/ can be linked to the target TextBoxaspose.words.drawing/textbox/.
+description: Determines whether this TextBox can be linked to the target TextBox.
 type: docs
 weight: 130
 url: /net/aspose.words.drawing/textbox/isvalidlinktarget/

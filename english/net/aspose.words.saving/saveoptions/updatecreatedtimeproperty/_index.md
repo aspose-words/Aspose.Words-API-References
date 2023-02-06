@@ -1,7 +1,7 @@
 ---
 title: UpdateCreatedTimeProperty
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a value determining whether the CreatedTimeaspose.words.properties/builtindocumentproperties/createdtime/ property is updated before saving. Default value is false
+description: Gets or sets a value determining whether the CreatedTime property is updated before saving. Default value is false
 type: docs
 weight: 150
 url: /net/aspose.words.saving/saveoptions/updatecreatedtimeproperty/

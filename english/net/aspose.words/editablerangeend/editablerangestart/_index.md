@@ -1,7 +1,7 @@
 ---
 title: EditableRangeStart
 second_title: Aspose.Words for .NET API Reference
-description: Corresponding EditableRangeStartaspose.words/editablerangestart/ received by ID.
+description: Corresponding EditableRangeStart received by ID.
 type: docs
 weight: 10
 url: /net/aspose.words/editablerangeend/editablerangestart/

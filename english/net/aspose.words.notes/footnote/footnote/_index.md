@@ -1,7 +1,7 @@
 ---
 title: Footnote
 second_title: Aspose.Words for .NET API Reference
-description: Initializes an instance of the Footnoteaspose.words.notes/footnote/ class.
+description: Initializes an instance of the Footnote class.
 type: docs
 weight: 10
 url: /net/aspose.words.notes/footnote/footnote/

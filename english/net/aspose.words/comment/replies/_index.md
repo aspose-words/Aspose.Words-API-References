@@ -1,7 +1,7 @@
 ---
 title: Replies
 second_title: Aspose.Words for .NET API Reference
-description: Returns a collection of Commentaspose.words/comment/ objects that are immediate children of the specified comment.
+description: Returns a collection of Comment objects that are immediate children of the specified comment.
 type: docs
 weight: 90
 url: /net/aspose.words/comment/replies/

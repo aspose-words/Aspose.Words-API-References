@@ -1,7 +1,7 @@
 ---
 title: Margins
 second_title: Aspose.Words for .NET API Reference
-description: Returns or sets preset Marginsaspose.words/margins/ of the page.
+description: Returns or sets preset Margins of the page.
 type: docs
 weight: 260
 url: /net/aspose.words/pagesetup/margins/

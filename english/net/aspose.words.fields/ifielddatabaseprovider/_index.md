@@ -1,7 +1,7 @@
 ---
 title: IFieldDatabaseProvider
 second_title: Aspose.Words for .NET API Reference
-description: Implement this interface to provide data for the FieldDatabase./fielddatabase/ field when its updated.
+description: Implement this interface to provide data for the FieldDatabase field when its updated.
 type: docs
 weight: 2530
 url: /net/aspose.words.fields/ifielddatabaseprovider/

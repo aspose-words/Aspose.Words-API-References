@@ -1,7 +1,7 @@
 ---
 title: DocumentPartSavingArgs
 second_title: Aspose.Words for .NET API Reference
-description: Provides data for the DocumentPartSaving./idocumentpartsavingcallback/documentpartsaving/ callback.
+description: Provides data for the DocumentPartSaving callback.
 type: docs
 weight: 4720
 url: /net/aspose.words.saving/documentpartsavingargs/

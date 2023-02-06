@@ -1,7 +1,7 @@
 ---
 title: AddField
 second_title: Aspose.Words for .NET API Reference
-description: Adds a field represented by a FieldBuilderaspose.words.fields/fieldbuilder/ to the argument.
+description: Adds a field represented by a FieldBuilder to the argument.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldargumentbuilder/addfield/

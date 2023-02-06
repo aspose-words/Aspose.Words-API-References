@@ -1,7 +1,7 @@
 ---
 title: LineStyle
 second_title: Aspose.Words for .NET API Reference
-description: Specifies line style of a Border./border/.
+description: Specifies line style of a Border.
 type: docs
 weight: 3270
 url: /net/aspose.words/linestyle/

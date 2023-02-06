@@ -1,7 +1,7 @@
 ---
 title: AppendParagraph
 second_title: Aspose.Words for .NET API Reference
-description: A shortcut method that creates a Paragraphaspose.words/paragraph/ object with optional text and appends it to the end of this object.
+description: A shortcut method that creates a Paragraph object with optional text and appends it to the end of this object.
 type: docs
 weight: 60
 url: /net/aspose.words/story/appendparagraph/

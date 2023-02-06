@@ -1,7 +1,7 @@
 ---
 title: AutoFitBehavior
 second_title: Aspose.Words for .NET API Reference
-description: Determines how Aspose.Words resizes the table when you invoke the AutoFit./table/autofit/ method.
+description: Determines how Aspose.Words resizes the table when you invoke the AutoFit method.
 type: docs
 weight: 6000
 url: /net/aspose.words.tables/autofitbehavior/

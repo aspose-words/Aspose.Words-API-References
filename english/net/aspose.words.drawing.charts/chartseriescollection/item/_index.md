@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: Returns a ChartSeriesaspose.words.drawing.charts/chartseries/ at the specified index.
+description: Returns a ChartSeries at the specified index.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartseriescollection/item/

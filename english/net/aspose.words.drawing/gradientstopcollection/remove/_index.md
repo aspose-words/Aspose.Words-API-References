@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Words for .NET API Reference
-description: Removes a specified GradientStopaspose.words.drawing/gradientstop/ from the collection.
+description: Removes a specified GradientStop from the collection.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing/gradientstopcollection/remove/

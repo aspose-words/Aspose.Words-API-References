@@ -1,7 +1,7 @@
 ---
 title: LinkedStyleName
 second_title: Aspose.Words for .NET API Reference
-description: Gets the name of the Styleaspose.words/style/ linked to this one. Returns empty string if no styles are linked.
+description: Gets the name of the Style linked to this one. Returns empty string if no styles are linked.
 type: docs
 weight: 90
 url: /net/aspose.words/style/linkedstylename/

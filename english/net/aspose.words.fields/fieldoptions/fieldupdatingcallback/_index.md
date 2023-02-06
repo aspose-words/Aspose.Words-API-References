@@ -1,7 +1,7 @@
 ---
 title: FieldUpdatingCallback
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets IFieldUpdatingCallbackaspose.words.fields/ifieldupdatingcallback/ implementation
+description: Gets or sets IFieldUpdatingCallback implementation
 type: docs
 weight: 110
 url: /net/aspose.words.fields/fieldoptions/fieldupdatingcallback/

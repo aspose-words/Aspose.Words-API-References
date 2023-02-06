@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: Retrieves a Borderaspose.words/border/ object by border type.
+description: Retrieves a Border object by border type.
 type: docs
 weight: 60
 url: /net/aspose.words/bordercollection/item/
