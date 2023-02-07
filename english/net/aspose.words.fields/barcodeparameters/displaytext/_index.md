@@ -1,5 +1,5 @@
 ---
-title: DisplayText
+title: BarcodeParameters.DisplayText
 second_title: Aspose.Words for .NET API Reference
 description: Whether to display barcode data text along with image.
 type: docs

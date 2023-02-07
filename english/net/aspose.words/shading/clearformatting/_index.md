@@ -1,5 +1,5 @@
 ---
-title: ClearFormatting
+title: Shading.ClearFormatting
 second_title: Aspose.Words for .NET API Reference
 description: Removes shading from the object.
 type: docs

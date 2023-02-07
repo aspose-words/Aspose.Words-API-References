@@ -1,5 +1,5 @@
 ---
-title: VisitCellStart
+title: DocumentVisitor.VisitCellStart
 second_title: Aspose.Words for .NET API Reference
 description: Called when enumeration of a table cell has started.
 type: docs

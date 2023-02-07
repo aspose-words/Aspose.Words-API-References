@@ -1,5 +1,5 @@
 ---
-title: SourceFullName
+title: FieldInclude.SourceFullName
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the location of the document.
 type: docs

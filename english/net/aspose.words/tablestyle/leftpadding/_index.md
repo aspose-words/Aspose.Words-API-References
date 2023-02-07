@@ -1,5 +1,5 @@
 ---
-title: LeftPadding
+title: TableStyle.LeftPadding
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the amount of space in points to add to the left of the contents of table cells.
 type: docs

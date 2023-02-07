@@ -1,5 +1,5 @@
 ---
-title: Width
+title: TextColumn.Width
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the width of the text column in points.
 type: docs

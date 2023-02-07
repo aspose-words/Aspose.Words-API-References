@@ -1,5 +1,5 @@
 ---
-title: CompareOptions
+title: Class CompareOptions
 second_title: Aspose.Words for .NET API Reference
 description: Allows to choose advanced options for document comparison operation.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ChildFramesets
+title: Frameset.ChildFramesets
 second_title: Aspose.Words for .NET API Reference
 description: Gets the collection of child frames and frames pages.
 type: docs

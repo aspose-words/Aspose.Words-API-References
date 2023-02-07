@@ -1,5 +1,5 @@
 ---
-title: ResultFormatter
+title: FieldOptions.ResultFormatter
 second_title: Aspose.Words for .NET API Reference
 description: Allows to control how the field result is formatted.
 type: docs

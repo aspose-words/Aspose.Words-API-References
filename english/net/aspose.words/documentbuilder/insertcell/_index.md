@@ -1,5 +1,5 @@
 ---
-title: InsertCell
+title: DocumentBuilder.InsertCell
 second_title: Aspose.Words for .NET API Reference
 description: Inserts a table cell into the document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: NodeInserted
+title: INodeChangingCallback.NodeInserted
 second_title: Aspose.Words for .NET API Reference
 description: Called when a node belonging to this document has been inserted into another node.
 type: docs

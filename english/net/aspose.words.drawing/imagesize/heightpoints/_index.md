@@ -1,5 +1,5 @@
 ---
-title: HeightPoints
+title: ImageSize.HeightPoints
 second_title: Aspose.Words for .NET API Reference
 description: Gets the height of the image in points. 1 point is 1/72 inch.
 type: docs

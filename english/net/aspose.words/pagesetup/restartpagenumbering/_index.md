@@ -1,5 +1,5 @@
 ---
-title: RestartPageNumbering
+title: PageSetup.RestartPageNumbering
 second_title: Aspose.Words for .NET API Reference
 description: True if page numbering restarts at the beginning of the section.
 type: docs

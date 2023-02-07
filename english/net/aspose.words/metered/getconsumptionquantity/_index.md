@@ -1,5 +1,5 @@
 ---
-title: GetConsumptionQuantity
+title: Metered.GetConsumptionQuantity
 second_title: Aspose.Words for .NET API Reference
 description: Gets consumption file size
 type: docs

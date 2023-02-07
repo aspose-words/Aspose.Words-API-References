@@ -1,5 +1,5 @@
 ---
-title: FieldSkipIf
+title: Class FieldSkipIf
 second_title: Aspose.Words for .NET API Reference
 description: Implements the SKIPIF field.
 type: docs

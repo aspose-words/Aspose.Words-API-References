@@ -1,5 +1,5 @@
 ---
-title: FieldIndex
+title: FieldIndex.FieldIndex
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

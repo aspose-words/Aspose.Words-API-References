@@ -1,5 +1,5 @@
 ---
-title: BookmarkName
+title: FieldRef.BookmarkName
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the referenced bookmarks name.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ParentParagraph
+title: ShapeBase.ParentParagraph
 second_title: Aspose.Words for .NET API Reference
 description: Returns the immediate parent paragraph.
 type: docs

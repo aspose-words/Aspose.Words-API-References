@@ -1,5 +1,5 @@
 ---
-title: Bytes
+title: BuiltInDocumentProperties.Bytes
 second_title: Aspose.Words for .NET API Reference
 description: Represents an estimate of the number of bytes in the document.
 type: docs

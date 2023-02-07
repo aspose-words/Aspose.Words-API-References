@@ -1,5 +1,5 @@
 ---
-title: Revision
+title: Class Revision
 second_title: Aspose.Words for .NET API Reference
 description: Represents a revision tracked change in a document node or style. Use RevisionType to check the type of this revision.
 type: docs

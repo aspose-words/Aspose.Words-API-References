@@ -1,5 +1,5 @@
 ---
-title: FieldHyperlink
+title: Class FieldHyperlink
 second_title: Aspose.Words for .NET API Reference
 description: Implements the HYPERLINK field
 type: docs

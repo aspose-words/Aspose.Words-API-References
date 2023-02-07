@@ -1,5 +1,5 @@
 ---
-title: Watermark
+title: Document.Watermark
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to the document watermark.
 type: docs

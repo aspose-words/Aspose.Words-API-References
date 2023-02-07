@@ -1,5 +1,5 @@
 ---
-title: CommentCollection
+title: Class CommentCollection
 second_title: Aspose.Words for .NET API Reference
 description: Provides typed access to a collection of Comment nodes.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Bookmarks
+title: Range.Bookmarks
 second_title: Aspose.Words for .NET API Reference
 description: Returns a Bookmarks collection that represents all bookmarks in the range.
 type: docs

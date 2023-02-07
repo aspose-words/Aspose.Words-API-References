@@ -1,5 +1,5 @@
 ---
-title: HeadersFooters
+title: Section.HeadersFooters
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to the headers and footers nodes of the section.
 type: docs

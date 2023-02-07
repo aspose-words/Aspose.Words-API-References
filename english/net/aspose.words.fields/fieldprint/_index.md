@@ -1,5 +1,5 @@
 ---
-title: FieldPrint
+title: Class FieldPrint
 second_title: Aspose.Words for .NET API Reference
 description: Implements the PRINT field.
 type: docs

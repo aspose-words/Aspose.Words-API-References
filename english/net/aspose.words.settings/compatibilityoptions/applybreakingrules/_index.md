@@ -1,5 +1,5 @@
 ---
-title: ApplyBreakingRules
+title: CompatibilityOptions.ApplyBreakingRules
 second_title: Aspose.Words for .NET API Reference
 description: Use Legacy Ethiopic and Amharic Line Breaking Rules.
 type: docs

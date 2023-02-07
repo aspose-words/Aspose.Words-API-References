@@ -1,5 +1,5 @@
 ---
-title: Item
+title: ToaCategories.Item
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the category heading by category number.
 type: docs

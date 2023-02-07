@@ -1,5 +1,5 @@
 ---
-title: XmlDataSource
+title: XmlDataSource.XmlDataSource
 second_title: Aspose.Words for .NET API Reference
 description: Creates a new data source with data from an XML file using default options for XML data loading.
 type: docs

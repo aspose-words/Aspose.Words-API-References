@@ -1,5 +1,5 @@
 ---
-title: Data
+title: CustomPart.Data
 second_title: Aspose.Words for .NET API Reference
 description: Contains the data of this custom part.
 type: docs

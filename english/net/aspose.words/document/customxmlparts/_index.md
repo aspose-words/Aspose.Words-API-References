@@ -1,5 +1,5 @@
 ---
-title: CustomXmlParts
+title: Document.CustomXmlParts
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the collection of Custom XML Data Storage Parts.
 type: docs

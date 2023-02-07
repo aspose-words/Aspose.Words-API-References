@@ -1,5 +1,5 @@
 ---
-title: ReferenceMark
+title: Footnote.ReferenceMark
 second_title: Aspose.Words for .NET API Reference
 description: Gets/sets custom reference mark to be used for this footnote. Default value is empty string Empty meaning autonumbered footnotes are used.
 type: docs

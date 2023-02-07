@@ -1,5 +1,5 @@
 ---
-title: IsClear
+title: TabStop.IsClear
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if this tab stop clears any existing tab stops in this position.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: IgnoreNoscriptElements
+title: HtmlLoadOptions.IgnoreNoscriptElements
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value indicating whether to ignore noscript HTML elements. Default value is false.
 type: docs

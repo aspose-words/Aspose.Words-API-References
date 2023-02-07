@@ -1,5 +1,5 @@
 ---
-title: ClearFormatting
+title: ConditionalStyle.ClearFormatting
 second_title: Aspose.Words for .NET API Reference
 description: Clears formatting of this conditional style.
 type: docs

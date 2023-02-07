@@ -1,5 +1,5 @@
 ---
-title: ThemeColors
+title: Class ThemeColors
 second_title: Aspose.Words for .NET API Reference
 description: Represents the color scheme of the document theme which contains twelve colors.
 type: docs

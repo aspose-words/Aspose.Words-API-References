@@ -1,5 +1,5 @@
 ---
-title: HeightInPoints
+title: PageInfo.HeightInPoints
 second_title: Aspose.Words for .NET API Reference
 description: Gets the height of the page in points.
 type: docs

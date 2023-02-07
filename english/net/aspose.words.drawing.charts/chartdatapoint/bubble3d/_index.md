@@ -1,5 +1,5 @@
 ---
-title: Bubble3D
+title: ChartDataPoint.Bubble3D
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs

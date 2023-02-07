@@ -1,5 +1,5 @@
 ---
-title: ThemeColor
+title: Enum ThemeColor
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the theme colors for document themes.
 type: docs

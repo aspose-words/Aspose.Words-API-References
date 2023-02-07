@@ -1,5 +1,5 @@
 ---
-title: FootnoteOptions
+title: Class FootnoteOptions
 second_title: Aspose.Words for .NET API Reference
 description: Represents the footnote numbering options for a document or section.
 type: docs

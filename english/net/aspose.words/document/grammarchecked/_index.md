@@ -1,5 +1,5 @@
 ---
-title: GrammarChecked
+title: Document.GrammarChecked
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if the document has been checked for grammar.
 type: docs

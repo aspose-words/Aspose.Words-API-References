@@ -1,5 +1,5 @@
 ---
-title: Description
+title: Table.Description
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets description of this table. It provides an alternative text representation of the information contained in the table.
 type: docs

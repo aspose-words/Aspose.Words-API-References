@@ -1,5 +1,5 @@
 ---
-title: UpdateDirtyFields
+title: LoadOptions.UpdateDirtyFields
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether to update the fields with the dirty attribute.
 type: docs

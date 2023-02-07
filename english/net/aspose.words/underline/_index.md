@@ -1,5 +1,5 @@
 ---
-title: Underline
+title: Enum Underline
 second_title: Aspose.Words for .NET API Reference
 description: Indicates type of the underline applied to a font.
 type: docs

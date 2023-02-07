@@ -1,5 +1,5 @@
 ---
-title: TextRenderingHint
+title: GraphicsQualityOptions.TextRenderingHint
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the rendering mode for text associated with this Graphics.
 type: docs

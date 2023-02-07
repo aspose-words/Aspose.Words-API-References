@@ -1,5 +1,5 @@
 ---
-title: TickLabelAlignment
+title: ChartAxis.TickLabelAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets text alignment of axis tick labels.
 type: docs

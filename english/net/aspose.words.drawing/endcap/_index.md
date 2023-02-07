@@ -1,5 +1,5 @@
 ---
-title: EndCap
+title: Enum EndCap
 second_title: Aspose.Words for .NET API Reference
 description: Specifies line cap style.
 type: docs

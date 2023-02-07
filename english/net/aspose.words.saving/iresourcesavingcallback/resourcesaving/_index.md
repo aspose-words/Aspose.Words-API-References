@@ -1,5 +1,5 @@
 ---
-title: ResourceSaving
+title: IResourceSavingCallback.ResourceSaving
 second_title: Aspose.Words for .NET API Reference
 description: Called when Aspose.Words saves an external resource to fixed page HTML or SVG formats.
 type: docs

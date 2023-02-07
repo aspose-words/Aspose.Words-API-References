@@ -1,5 +1,5 @@
 ---
-title: Target
+title: CompareOptions.Target
 second_title: Aspose.Words for .NET API Reference
 description: Specifies which document shall be used as a target during comparison.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: DigitalSignatureType
+title: Enum DigitalSignatureType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of a digital signature.
 type: docs

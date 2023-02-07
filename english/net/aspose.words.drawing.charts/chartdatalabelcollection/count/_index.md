@@ -1,5 +1,5 @@
 ---
-title: Count
+title: ChartDataLabelCollection.Count
 second_title: Aspose.Words for .NET API Reference
 description: Returns the number of ChartDataLabel in this collection.
 type: docs

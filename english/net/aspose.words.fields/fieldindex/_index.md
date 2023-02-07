@@ -1,5 +1,5 @@
 ---
-title: FieldIndex
+title: Class FieldIndex
 second_title: Aspose.Words for .NET API Reference
 description: Implements the INDEX field.
 type: docs

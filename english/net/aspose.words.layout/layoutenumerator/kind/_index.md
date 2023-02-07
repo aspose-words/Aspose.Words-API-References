@@ -1,5 +1,5 @@
 ---
-title: Kind
+title: LayoutEnumerator.Kind
 second_title: Aspose.Words for .NET API Reference
 description: Gets the kind of the current entity. This can be an empty string but never null.
 type: docs

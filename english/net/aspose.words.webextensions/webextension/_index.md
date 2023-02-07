@@ -1,5 +1,5 @@
 ---
-title: WebExtension
+title: Class WebExtension
 second_title: Aspose.Words for .NET API Reference
 description: Represents a web extension object.
 type: docs

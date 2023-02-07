@@ -1,5 +1,5 @@
 ---
-title: IsVerticalFormatting
+title: FieldMergeField.IsVerticalFormatting
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to enable character conversion for vertical formatting.
 type: docs

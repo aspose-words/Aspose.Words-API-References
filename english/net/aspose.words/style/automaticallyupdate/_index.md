@@ -1,5 +1,5 @@
 ---
-title: AutomaticallyUpdate
+title: Style.AutomaticallyUpdate
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether this style is automatically redefined based on the appropriate value.
 type: docs

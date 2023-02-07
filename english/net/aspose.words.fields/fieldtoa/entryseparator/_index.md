@@ -1,5 +1,5 @@
 ---
-title: EntrySeparator
+title: FieldToa.EntrySeparator
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the character sequence that is used to separate a table of authorities entry and its page number.
 type: docs

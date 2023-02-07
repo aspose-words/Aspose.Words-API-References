@@ -1,5 +1,5 @@
 ---
-title: Count
+title: ChartLegendEntryCollection.Count
 second_title: Aspose.Words for .NET API Reference
 description: Returns the number of ChartLegendEntry in this collection.
 type: docs

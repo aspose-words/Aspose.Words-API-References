@@ -1,5 +1,5 @@
 ---
-title: CssSavingArgs
+title: Class CssSavingArgs
 second_title: Aspose.Words for .NET API Reference
 description: Provides data for the CssSaving event.
 type: docs

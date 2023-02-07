@@ -1,5 +1,5 @@
 ---
-title: Title
+title: StructuredDocumentTagRangeStart.Title
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the friendly name associated with this structured document tag. Can not be null.
 type: docs

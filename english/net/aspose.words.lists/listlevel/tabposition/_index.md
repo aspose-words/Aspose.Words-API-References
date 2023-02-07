@@ -1,5 +1,5 @@
 ---
-title: TabPosition
+title: ListLevel.TabPosition
 second_title: Aspose.Words for .NET API Reference
 description: Returns or sets the tab position in points for the list level.
 type: docs

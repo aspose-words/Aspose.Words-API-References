@@ -1,5 +1,5 @@
 ---
-title: EndEditableRange
+title: DocumentBuilder.EndEditableRange
 second_title: Aspose.Words for .NET API Reference
 description: Marks the current position in the document as an editable range end.
 type: docs

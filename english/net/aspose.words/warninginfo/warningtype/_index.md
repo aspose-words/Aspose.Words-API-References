@@ -1,5 +1,5 @@
 ---
-title: WarningType
+title: WarningInfo.WarningType
 second_title: Aspose.Words for .NET API Reference
 description: Returns the type of the warning.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: InsertChart
+title: DocumentBuilder.InsertChart
 second_title: Aspose.Words for .NET API Reference
 description: Inserts an chart object into the document and scales it to the specified size.
 type: docs

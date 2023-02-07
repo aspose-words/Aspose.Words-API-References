@@ -1,5 +1,5 @@
 ---
-title: UpdateWordCount
+title: Document.UpdateWordCount
 second_title: Aspose.Words for .NET API Reference
 description: Updates word count properties of the document.
 type: docs

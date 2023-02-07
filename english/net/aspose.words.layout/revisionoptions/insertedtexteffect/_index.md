@@ -1,5 +1,5 @@
 ---
-title: InsertedTextEffect
+title: RevisionOptions.InsertedTextEffect
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify the effect to be applied to the inserted content Insertion. Default value is Underline.
 type: docs

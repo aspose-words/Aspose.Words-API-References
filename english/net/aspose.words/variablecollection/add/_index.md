@@ -1,5 +1,5 @@
 ---
-title: Add
+title: VariableCollection.Add
 second_title: Aspose.Words for .NET API Reference
 description: Adds a document variable to the collection.
 type: docs

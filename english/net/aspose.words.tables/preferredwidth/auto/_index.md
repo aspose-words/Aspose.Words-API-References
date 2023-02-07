@@ -1,5 +1,5 @@
 ---
-title: Auto
+title: PreferredWidth.Auto
 second_title: Aspose.Words for .NET API Reference
 description: Returns an instance that represents the preferred width is not specified value.
 type: docs

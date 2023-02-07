@@ -1,5 +1,5 @@
 ---
-title: IsAuto
+title: Footnote.IsAuto
 second_title: Aspose.Words for .NET API Reference
 description: Holds a value that specifies whether this is a autonumbered footnote or footnote with user defined custom reference mark.
 type: docs

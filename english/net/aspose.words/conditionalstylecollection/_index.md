@@ -1,5 +1,5 @@
 ---
-title: ConditionalStyleCollection
+title: Class ConditionalStyleCollection
 second_title: Aspose.Words for .NET API Reference
 description: Represents a collection of ConditionalStyle objects.
 type: docs

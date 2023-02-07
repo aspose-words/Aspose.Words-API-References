@@ -1,5 +1,5 @@
 ---
-title: Count
+title: CompositeNode.Count
 second_title: Aspose.Words for .NET API Reference
 description: Gets the number of immediate children of this node.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: GetRegionsByName
+title: MailMerge.GetRegionsByName
 second_title: Aspose.Words for .NET API Reference
 description: Returns a collection of mail merge regions with the specified name.
 type: docs

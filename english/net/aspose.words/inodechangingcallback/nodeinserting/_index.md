@@ -1,5 +1,5 @@
 ---
-title: NodeInserting
+title: INodeChangingCallback.NodeInserting
 second_title: Aspose.Words for .NET API Reference
 description: Called just before a node belonging to this document is about to be inserted into another node.
 type: docs

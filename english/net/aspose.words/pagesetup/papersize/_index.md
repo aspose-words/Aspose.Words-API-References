@@ -1,5 +1,5 @@
 ---
-title: PaperSize
+title: PageSetup.PaperSize
 second_title: Aspose.Words for .NET API Reference
 description: Returns or sets the paper size.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ShapeMarkupLanguage
+title: Enum ShapeMarkupLanguage
 second_title: Aspose.Words for .NET API Reference
 description: Specifies Markup language used for the shape.
 type: docs

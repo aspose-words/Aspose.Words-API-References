@@ -1,5 +1,5 @@
 ---
-title: Title
+title: ImageData.Title
 second_title: Aspose.Words for .NET API Reference
 description: Defines the title of an image.
 type: docs

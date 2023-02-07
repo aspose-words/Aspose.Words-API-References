@@ -1,5 +1,5 @@
 ---
-title: CropTop
+title: ImageData.CropTop
 second_title: Aspose.Words for .NET API Reference
 description: Defines the fraction of picture removal from the top side.
 type: docs

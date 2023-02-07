@@ -1,5 +1,5 @@
 ---
-title: SourceTag
+title: FieldCitation.SourceTag
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value that mathes the Tag elements value of the source to insert.
 type: docs

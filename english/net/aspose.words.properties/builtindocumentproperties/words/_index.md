@@ -1,5 +1,5 @@
 ---
-title: Words
+title: BuiltInDocumentProperties.Words
 second_title: Aspose.Words for .NET API Reference
 description: Represents an estimate of the number of words in the document.
 type: docs

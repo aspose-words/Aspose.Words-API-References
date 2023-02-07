@@ -1,5 +1,5 @@
 ---
-title: Format
+title: ChartMarker.Format
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to fill and line formatting of this marker.
 type: docs

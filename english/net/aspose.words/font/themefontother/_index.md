@@ -1,5 +1,5 @@
 ---
-title: ThemeFontOther
+title: Font.ThemeFontOther
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the theme font used for characters with character codes from 128 through 255 in the applied font scheme that is associated with this Font object.
 type: docs

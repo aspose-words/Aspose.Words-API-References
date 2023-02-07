@@ -1,5 +1,5 @@
 ---
-title: Priority
+title: FontSourceBase.Priority
 second_title: Aspose.Words for .NET API Reference
 description: Returns the font source priority.
 type: docs

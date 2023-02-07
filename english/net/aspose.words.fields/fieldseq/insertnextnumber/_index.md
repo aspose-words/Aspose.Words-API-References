@@ -1,5 +1,5 @@
 ---
-title: InsertNextNumber
+title: FieldSeq.InsertNextNumber
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to insert the next sequence number for the specified item.
 type: docs

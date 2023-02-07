@@ -1,5 +1,5 @@
 ---
-title: LoadAndroidSettings
+title: TableSubstitutionRule.LoadAndroidSettings
 second_title: Aspose.Words for .NET API Reference
 description: Loads predefined table substitution settings for Linux platform.
 type: docs

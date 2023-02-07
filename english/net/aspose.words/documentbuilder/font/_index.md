@@ -1,5 +1,5 @@
 ---
-title: Font
+title: DocumentBuilder.Font
 second_title: Aspose.Words for .NET API Reference
 description: Returns an object that represents current font formatting properties.
 type: docs

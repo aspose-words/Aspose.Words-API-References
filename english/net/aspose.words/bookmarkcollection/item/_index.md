@@ -1,5 +1,5 @@
 ---
-title: Item
+title: BookmarkCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Returns a bookmark at the specified index.
 type: docs

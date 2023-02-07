@@ -1,5 +1,5 @@
 ---
-title: SetPassword
+title: WriteProtection.SetPassword
 second_title: Aspose.Words for .NET API Reference
 description: Sets the write protection password for the document.
 type: docs

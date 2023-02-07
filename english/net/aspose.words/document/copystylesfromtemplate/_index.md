@@ -1,5 +1,5 @@
 ---
-title: CopyStylesFromTemplate
+title: Document.CopyStylesFromTemplate
 second_title: Aspose.Words for .NET API Reference
 description: Copies styles from the specified template to a document.
 type: docs

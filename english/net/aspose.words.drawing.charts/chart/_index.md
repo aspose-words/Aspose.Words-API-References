@@ -1,5 +1,5 @@
 ---
-title: Chart
+title: Class Chart
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to the chart shape properties.
 type: docs

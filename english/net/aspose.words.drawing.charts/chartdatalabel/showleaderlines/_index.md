@@ -1,5 +1,5 @@
 ---
-title: ShowLeaderLines
+title: ChartDataLabel.ShowLeaderLines
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify if data label leader lines need be shown. Default value is false.
 type: docs

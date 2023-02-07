@@ -1,5 +1,5 @@
 ---
-title: TaskPane
+title: Class TaskPane
 second_title: Aspose.Words for .NET API Reference
 description: Represents an addin task pane object.
 type: docs

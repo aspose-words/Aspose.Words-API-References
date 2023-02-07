@@ -1,5 +1,5 @@
 ---
-title: Equals
+title: Border.Equals
 second_title: Aspose.Words for .NET API Reference
 description: Determines whether the specified border is equal in value to the current border.
 type: docs

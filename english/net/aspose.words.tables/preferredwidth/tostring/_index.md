@@ -1,5 +1,5 @@
 ---
-title: ToString
+title: PreferredWidth.ToString
 second_title: Aspose.Words for .NET API Reference
 description: Returns a userfriendly string that displays the value of this object.
 type: docs

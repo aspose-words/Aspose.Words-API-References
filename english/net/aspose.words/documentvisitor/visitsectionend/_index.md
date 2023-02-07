@@ -1,5 +1,5 @@
 ---
-title: VisitSectionEnd
+title: DocumentVisitor.VisitSectionEnd
 second_title: Aspose.Words for .NET API Reference
 description: Called when enumeration of a section has ended.
 type: docs

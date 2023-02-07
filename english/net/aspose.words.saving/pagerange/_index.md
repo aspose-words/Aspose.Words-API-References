@@ -1,5 +1,5 @@
 ---
-title: PageRange
+title: Class PageRange
 second_title: Aspose.Words for .NET API Reference
 description: Represents a continuous range of pages.
 type: docs

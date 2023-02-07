@@ -1,5 +1,5 @@
 ---
-title: FieldUpdateCultureSource
+title: FieldOptions.FieldUpdateCultureSource
 second_title: Aspose.Words for .NET API Reference
 description: Specifies what culture to use to format the field result.
 type: docs

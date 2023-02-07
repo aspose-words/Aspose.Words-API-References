@@ -1,5 +1,5 @@
 ---
-title: Color
+title: Stroke.Color
 second_title: Aspose.Words for .NET API Reference
 description: Defines the color of a stroke.
 type: docs

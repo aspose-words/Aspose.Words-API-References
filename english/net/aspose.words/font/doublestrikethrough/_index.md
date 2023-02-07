@@ -1,5 +1,5 @@
 ---
-title: DoubleStrikeThrough
+title: Font.DoubleStrikeThrough
 second_title: Aspose.Words for .NET API Reference
 description: True if the font is formatted as double strikethrough text.
 type: docs

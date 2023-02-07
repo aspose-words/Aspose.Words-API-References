@@ -1,5 +1,5 @@
 ---
-title: StyleName
+title: Table.StyleName
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the name of the table style applied to this table.
 type: docs

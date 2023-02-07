@@ -1,5 +1,5 @@
 ---
-title: TextWrapping
+title: Table.TextWrapping
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets TextWrapping for table.
 type: docs

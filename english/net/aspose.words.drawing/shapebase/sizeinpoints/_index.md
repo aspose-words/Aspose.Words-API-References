@@ -1,5 +1,5 @@
 ---
-title: SizeInPoints
+title: ShapeBase.SizeInPoints
 second_title: Aspose.Words for .NET API Reference
 description: Gets the size of the shape in points.
 type: docs

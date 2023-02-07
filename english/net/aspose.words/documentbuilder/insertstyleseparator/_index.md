@@ -1,5 +1,5 @@
 ---
-title: InsertStyleSeparator
+title: DocumentBuilder.InsertStyleSeparator
 second_title: Aspose.Words for .NET API Reference
 description: Inserts style separator into the document.
 type: docs

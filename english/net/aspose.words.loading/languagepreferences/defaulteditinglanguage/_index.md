@@ -1,5 +1,5 @@
 ---
-title: DefaultEditingLanguage
+title: LanguagePreferences.DefaultEditingLanguage
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets default editing language.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: RemoveReply
+title: Comment.RemoveReply
 second_title: Aspose.Words for .NET API Reference
 description: Removes the specified reply to this comment.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: MeasurementUnits
+title: Enum MeasurementUnits
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the unit of measurement.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: HeaderFooterBookmarksExportMode
+title: Enum HeaderFooterBookmarksExportMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how bookmarks in headers/footers are exported.
 type: docs

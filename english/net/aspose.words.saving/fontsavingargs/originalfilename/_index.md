@@ -1,5 +1,5 @@
 ---
-title: OriginalFileName
+title: FontSavingArgs.OriginalFileName
 second_title: Aspose.Words for .NET API Reference
 description: Gets the original font file name with an extension.
 type: docs

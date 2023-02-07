@@ -1,5 +1,5 @@
 ---
-title: VariableCollection
+title: Class VariableCollection
 second_title: Aspose.Words for .NET API Reference
 description: A collection of document variables.
 type: docs

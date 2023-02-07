@@ -1,5 +1,5 @@
 ---
-title: CalendarType
+title: Enum CalendarType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of a calendar.
 type: docs

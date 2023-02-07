@@ -1,5 +1,5 @@
 ---
-title: DateDisplayLocale
+title: StructuredDocumentTag.DateDisplayLocale
 second_title: Aspose.Words for .NET API Reference
 description: Allows to set/get the language format for the date displayed in this SDT.
 type: docs

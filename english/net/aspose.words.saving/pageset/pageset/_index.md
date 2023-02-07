@@ -1,5 +1,5 @@
 ---
-title: PageSet
+title: PageSet.PageSet
 second_title: Aspose.Words for .NET API Reference
 description: Creates an onepage set based on exact page index.
 type: docs

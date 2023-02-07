@@ -1,5 +1,5 @@
 ---
-title: WPSpaceWidth
+title: CompatibilityOptions.WPSpaceWidth
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether to set the width of a space as is done in WordPerfect 5.x.
 type: docs

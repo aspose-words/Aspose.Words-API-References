@@ -1,5 +1,5 @@
 ---
-title: FieldFormDropDown
+title: Class FieldFormDropDown
 second_title: Aspose.Words for .NET API Reference
 description: Implements the FORMDROPDOWN field.
 type: docs

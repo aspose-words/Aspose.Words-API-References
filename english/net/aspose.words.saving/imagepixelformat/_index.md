@@ -1,5 +1,5 @@
 ---
-title: ImagePixelFormat
+title: Enum ImagePixelFormat
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the pixel format for the generated images of document pages.
 type: docs

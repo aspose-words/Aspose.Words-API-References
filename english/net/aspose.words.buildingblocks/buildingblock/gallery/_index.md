@@ -1,5 +1,5 @@
 ---
-title: Gallery
+title: BuildingBlock.Gallery
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the firstlevel categorization for the building block for the purposes of classification or user interface sorting.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: BuildAndInsert
+title: FieldBuilder.BuildAndInsert
 second_title: Aspose.Words for .NET API Reference
 description: Builds and inserts a field into the document before the specified inline node.
 type: docs

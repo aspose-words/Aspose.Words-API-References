@@ -1,5 +1,5 @@
 ---
-title: IsColumn
+title: Bookmark.IsColumn
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if this bookmark is a table column bookmark.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: AxisScaleType
+title: Enum AxisScaleType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the possible scale types for an axis.
 type: docs

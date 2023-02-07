@@ -1,5 +1,5 @@
 ---
-title: Connection
+title: FieldDatabase.Connection
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a connection to the data.
 type: docs

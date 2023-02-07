@@ -1,5 +1,5 @@
 ---
-title: Clone
+title: CustomXmlPart.Clone
 second_title: Aspose.Words for .NET API Reference
 description: Makes a deep enough copy of the object. Does not duplicate the bytes of the Data value.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FarEastLineBreakControl
+title: ParagraphFormat.FarEastLineBreakControl
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a flag indicating whether East Asian linebreaking rules are applied to the current paragraph.
 type: docs

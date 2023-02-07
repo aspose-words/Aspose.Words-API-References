@@ -1,5 +1,5 @@
 ---
-title: HtmlInsertOptions
+title: Enum HtmlInsertOptions
 second_title: Aspose.Words for .NET API Reference
 description: Specifies options for the InsertHtml method.
 type: docs

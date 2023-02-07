@@ -1,5 +1,5 @@
 ---
-title: ToaCategories
+title: Class ToaCategories
 second_title: Aspose.Words for .NET API Reference
 description: Represents a table of authorities categories.
 type: docs

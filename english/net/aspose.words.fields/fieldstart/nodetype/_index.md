@@ -1,5 +1,5 @@
 ---
-title: NodeType
+title: FieldStart.NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Returns FieldStart.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: GetOpaqueBoundsInPixels
+title: NodeRendererBase.GetOpaqueBoundsInPixels
 second_title: Aspose.Words for .NET API Reference
 description: Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution.
 type: docs

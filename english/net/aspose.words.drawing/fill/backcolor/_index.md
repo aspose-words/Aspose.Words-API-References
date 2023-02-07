@@ -1,5 +1,5 @@
 ---
-title: BackColor
+title: Fill.BackColor
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a Color object that represents the background color for the fill.
 type: docs

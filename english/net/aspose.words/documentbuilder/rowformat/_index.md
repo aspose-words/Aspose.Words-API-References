@@ -1,5 +1,5 @@
 ---
-title: RowFormat
+title: DocumentBuilder.RowFormat
 second_title: Aspose.Words for .NET API Reference
 description: Returns an object that represents current table row formatting properties.
 type: docs

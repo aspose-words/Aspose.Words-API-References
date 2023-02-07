@@ -1,5 +1,5 @@
 ---
-title: SearchFromBottom
+title: FieldStyleRef.SearchFromBottom
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to search from the bottom of the current page rather from the top.
 type: docs

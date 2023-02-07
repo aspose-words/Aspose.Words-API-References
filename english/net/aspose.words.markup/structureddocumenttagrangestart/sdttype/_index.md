@@ -1,5 +1,5 @@
 ---
-title: SdtType
+title: StructuredDocumentTagRangeStart.SdtType
 second_title: Aspose.Words for .NET API Reference
 description: Gets type of this structured document tag.
 type: docs

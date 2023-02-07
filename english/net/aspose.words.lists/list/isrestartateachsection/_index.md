@@ -1,5 +1,5 @@
 ---
-title: IsRestartAtEachSection
+title: List.IsRestartAtEachSection
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether list should be restarted at each section. Default value is false.
 type: docs

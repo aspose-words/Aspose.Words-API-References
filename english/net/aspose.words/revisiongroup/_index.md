@@ -1,5 +1,5 @@
 ---
-title: RevisionGroup
+title: Class RevisionGroup
 second_title: Aspose.Words for .NET API Reference
 description: Represents a group of sequential Revision objects.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Borders
+title: CellFormat.Borders
 second_title: Aspose.Words for .NET API Reference
 description: Gets collection of borders of the cell.
 type: docs

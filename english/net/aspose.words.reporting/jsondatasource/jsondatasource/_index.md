@@ -1,5 +1,5 @@
 ---
-title: JsonDataSource
+title: JsonDataSource.JsonDataSource
 second_title: Aspose.Words for .NET API Reference
 description: Creates a new data source with data from a JSON file using default options for parsing JSON data.
 type: docs

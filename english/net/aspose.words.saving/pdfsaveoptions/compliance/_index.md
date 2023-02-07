@@ -1,5 +1,5 @@
 ---
-title: Compliance
+title: PdfSaveOptions.Compliance
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the PDF standards compliance level for output documents.
 type: docs

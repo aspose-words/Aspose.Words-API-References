@@ -1,5 +1,5 @@
 ---
-title: PageNumberListSeparator
+title: FieldIndex.PageNumberListSeparator
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the character sequence that is used to separate two page numbers in a page number list.
 type: docs

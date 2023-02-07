@@ -1,5 +1,5 @@
 ---
-title: GetDirectShapeAttr
+title: ShapeBase.GetDirectShapeAttr
 second_title: Aspose.Words for .NET API Reference
 description: Reserved for system use. IShapeAttrSource.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Rectangle
+title: LayoutEnumerator.Rectangle
 second_title: Aspose.Words for .NET API Reference
 description: Returns the bounding rectangle of the current entity relative to the page top left corner in points.
 type: docs

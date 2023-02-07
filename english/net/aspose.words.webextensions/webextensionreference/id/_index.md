@@ -1,5 +1,5 @@
 ---
-title: Id
+title: WebExtensionReference.Id
 second_title: Aspose.Words for .NET API Reference
 description: Identifier associated with the web extension within a catalog provider.
 type: docs

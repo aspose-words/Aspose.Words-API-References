@@ -1,5 +1,5 @@
 ---
-title: FieldUserAddress
+title: FieldUserAddress.FieldUserAddress
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

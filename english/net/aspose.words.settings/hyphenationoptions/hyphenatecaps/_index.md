@@ -1,5 +1,5 @@
 ---
-title: HyphenateCaps
+title: HyphenationOptions.HyphenateCaps
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets value determining whether words written in all capital letters are hyphenated. Default value for this property is true.
 type: docs

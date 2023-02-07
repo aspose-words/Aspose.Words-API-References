@@ -1,5 +1,5 @@
 ---
-title: StreamFontSource
+title: Class StreamFontSource
 second_title: Aspose.Words for .NET API Reference
 description: Base class for userdefined stream font source.
 type: docs

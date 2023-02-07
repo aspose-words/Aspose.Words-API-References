@@ -1,5 +1,5 @@
 ---
-title: DeletedTextEffect
+title: RevisionOptions.DeletedTextEffect
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify the effect to be applied to the deleted content Deletion. Default value is StrikeThrough
 type: docs

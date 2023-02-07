@@ -1,5 +1,5 @@
 ---
-title: BuildAutomatic
+title: FontFallbackSettings.BuildAutomatic
 second_title: Aspose.Words for .NET API Reference
 description: Automatically builds the fallback settings by scanning available fonts.
 type: docs

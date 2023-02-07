@@ -1,5 +1,5 @@
 ---
-title: FieldIncludeText
+title: Class FieldIncludeText
 second_title: Aspose.Words for .NET API Reference
 description: Implements the INCLUDETEXT field.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: RemoveAt
+title: StructuredDocumentTagCollection.RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: Removes a structured document tag at the specified index.
 type: docs

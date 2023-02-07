@@ -1,5 +1,5 @@
 ---
-title: GeneralFormats
+title: FieldFormat.GeneralFormats
 second_title: Aspose.Words for .NET API Reference
 description: Gets a collection of general formats that are applied to a numeric text or any field result. Corresponds to the  switches.
 type: docs

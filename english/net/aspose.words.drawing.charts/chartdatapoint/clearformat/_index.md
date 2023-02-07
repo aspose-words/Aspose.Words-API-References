@@ -1,5 +1,5 @@
 ---
-title: ClearFormat
+title: ChartDataPoint.ClearFormat
 second_title: Aspose.Words for .NET API Reference
 description: Clears format of this data point. The properties are set to the default values defined in the parent series.
 type: docs

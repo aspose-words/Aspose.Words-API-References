@@ -1,5 +1,5 @@
 ---
-title: FieldUserInitials
+title: Class FieldUserInitials
 second_title: Aspose.Words for .NET API Reference
 description: Implements the USERINITIALS field.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: MinorUnit
+title: ChartAxis.MinorUnit
 second_title: Aspose.Words for .NET API Reference
 description: Returns or sets the distance between minor tick marks.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: VisitEditableRangeEnd
+title: DocumentVisitor.VisitEditableRangeEnd
 second_title: Aspose.Words for .NET API Reference
 description: Called when an end of an editable range is encountered in the document.
 type: docs

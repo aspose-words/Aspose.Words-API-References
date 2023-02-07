@@ -1,5 +1,5 @@
 ---
-title: Item
+title: ChartSeriesCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Returns a ChartSeries at the specified index.
 type: docs

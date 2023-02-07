@@ -1,5 +1,5 @@
 ---
-title: RightPadding
+title: CellFormat.RightPadding
 second_title: Aspose.Words for .NET API Reference
 description: Returns or sets the amount of space in points to add to the right of the contents of cell.
 type: docs

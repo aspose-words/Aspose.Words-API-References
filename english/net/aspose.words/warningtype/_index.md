@@ -1,5 +1,5 @@
 ---
-title: WarningType
+title: Enum WarningType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of a warning that is issued by Aspose.Words during document loading or saving.
 type: docs

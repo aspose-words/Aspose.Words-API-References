@@ -1,5 +1,5 @@
 ---
-title: TableStyleOptions
+title: Enum TableStyleOptions
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how table style is applied to a table.
 type: docs

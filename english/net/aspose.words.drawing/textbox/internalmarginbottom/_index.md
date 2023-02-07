@@ -1,5 +1,5 @@
 ---
-title: InternalMarginBottom
+title: TextBox.InternalMarginBottom
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the inner bottom margin in points for a shape.
 type: docs

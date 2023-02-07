@@ -1,5 +1,5 @@
 ---
-title: TopMargin
+title: PageSetup.TopMargin
 second_title: Aspose.Words for .NET API Reference
 description: Returns or sets the distance in points between the top edge of the page and the top boundary of the body text.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Advance
+title: Glyph.Advance
 second_title: Aspose.Words for .NET API Reference
 description: Advance width indicating placement for the subsequent glyph.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Contains
+title: DropDownItemCollection.Contains
 second_title: Aspose.Words for .NET API Reference
 description: Determines whether the collection contains the specified value.
 type: docs

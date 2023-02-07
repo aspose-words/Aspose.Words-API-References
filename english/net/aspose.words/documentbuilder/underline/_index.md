@@ -1,5 +1,5 @@
 ---
-title: Underline
+title: DocumentBuilder.Underline
 second_title: Aspose.Words for .NET API Reference
 description: Gets/sets underline type for the current font.
 type: docs

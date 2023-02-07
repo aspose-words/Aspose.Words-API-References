@@ -1,5 +1,5 @@
 ---
-title: WatermarkType
+title: Enum WatermarkType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the watermark type.
 type: docs

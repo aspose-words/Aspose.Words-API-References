@@ -1,5 +1,5 @@
 ---
-title: Uri
+title: SmartTag.Uri
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the namespace URI of the smart tag.
 type: docs

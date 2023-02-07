@@ -1,5 +1,5 @@
 ---
-title: ContentsFont
+title: StructuredDocumentTag.ContentsFont
 second_title: Aspose.Words for .NET API Reference
 description: Font formatting that will be applied to text entered into SDT.
 type: docs

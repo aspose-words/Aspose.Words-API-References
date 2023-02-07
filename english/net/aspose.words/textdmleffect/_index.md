@@ -1,5 +1,5 @@
 ---
-title: TextDmlEffect
+title: Enum TextDmlEffect
 second_title: Aspose.Words for .NET API Reference
 description: Dml text effect for text runs.
 type: docs

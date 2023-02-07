@@ -1,5 +1,5 @@
 ---
-title: VbaReferenceType
+title: Enum VbaReferenceType
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify the type of a VbaReference object.
 type: docs

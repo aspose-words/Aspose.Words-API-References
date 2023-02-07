@@ -1,5 +1,5 @@
 ---
-title: LayoutFlow
+title: Enum LayoutFlow
 second_title: Aspose.Words for .NET API Reference
 description: Determines the flow of the text layout in a textbox.
 type: docs

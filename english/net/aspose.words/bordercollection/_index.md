@@ -1,5 +1,5 @@
 ---
-title: BorderCollection
+title: Class BorderCollection
 second_title: Aspose.Words for .NET API Reference
 description: A collection of Border objects.
 type: docs

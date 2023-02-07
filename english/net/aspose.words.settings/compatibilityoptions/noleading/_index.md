@@ -1,5 +1,5 @@
 ---
-title: NoLeading
+title: CompatibilityOptions.NoLeading
 second_title: Aspose.Words for .NET API Reference
 description: Do Not Add Leading Between Lines of Text.
 type: docs

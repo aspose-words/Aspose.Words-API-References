@@ -1,5 +1,5 @@
 ---
-title: FieldGoToButton
+title: Class FieldGoToButton
 second_title: Aspose.Words for .NET API Reference
 description: Implements the GOTOBUTTON field.
 type: docs

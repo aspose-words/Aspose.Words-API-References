@@ -1,5 +1,5 @@
 ---
-title: Item
+title: VbaModuleCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Retrieves a VbaModule object by index.
 type: docs

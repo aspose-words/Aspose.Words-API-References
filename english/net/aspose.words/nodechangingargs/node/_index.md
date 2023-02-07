@@ -1,5 +1,5 @@
 ---
-title: Node
+title: NodeChangingArgs.Node
 second_title: Aspose.Words for .NET API Reference
 description: Gets the Node that is being added or removed.
 type: docs

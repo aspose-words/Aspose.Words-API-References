@@ -1,5 +1,5 @@
 ---
-title: InsertCheckBox
+title: DocumentBuilder.InsertCheckBox
 second_title: Aspose.Words for .NET API Reference
 description: Inserts a checkbox form field at the current position.
 type: docs

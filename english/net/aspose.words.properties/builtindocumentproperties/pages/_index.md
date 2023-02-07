@@ -1,5 +1,5 @@
 ---
-title: Pages
+title: BuiltInDocumentProperties.Pages
 second_title: Aspose.Words for .NET API Reference
 description: Represents an estimate of the number of pages in the document.
 type: docs

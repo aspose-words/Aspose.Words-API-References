@@ -1,5 +1,5 @@
 ---
-title: PreferredWidthType
+title: Enum PreferredWidthType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the unit of measurement for the preferred width of a table or cell.
 type: docs

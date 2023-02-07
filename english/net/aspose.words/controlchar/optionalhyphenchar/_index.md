@@ -1,5 +1,5 @@
 ---
-title: OptionalHyphenChar
+title: ControlChar.OptionalHyphenChar
 second_title: Aspose.Words for .NET API Reference
 description: Optional Hyphen in Microsoft Word is char31.
 type: docs

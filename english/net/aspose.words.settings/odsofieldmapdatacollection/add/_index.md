@@ -1,5 +1,5 @@
 ---
-title: Add
+title: OdsoFieldMapDataCollection.Add
 second_title: Aspose.Words for .NET API Reference
 description: Adds an object to the end of this collection.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: AlignTablesRowByRow
+title: CompatibilityOptions.AlignTablesRowByRow
 second_title: Aspose.Words for .NET API Reference
 description: Align Table Rows Independently.
 type: docs

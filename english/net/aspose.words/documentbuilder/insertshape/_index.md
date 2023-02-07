@@ -1,5 +1,5 @@
 ---
-title: InsertShape
+title: DocumentBuilder.InsertShape
 second_title: Aspose.Words for .NET API Reference
 description: Inserts inline shape with specified type and size.
 type: docs

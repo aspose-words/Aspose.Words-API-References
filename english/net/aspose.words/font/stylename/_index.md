@@ -1,5 +1,5 @@
 ---
-title: StyleName
+title: Font.StyleName
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the name of the character style applied to this formatting.
 type: docs

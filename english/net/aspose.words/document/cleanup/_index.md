@@ -1,5 +1,5 @@
 ---
-title: Cleanup
+title: Document.Cleanup
 second_title: Aspose.Words for .NET API Reference
 description: Cleans unused styles and lists from the document.
 type: docs

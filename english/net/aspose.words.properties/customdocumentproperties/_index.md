@@ -1,5 +1,5 @@
 ---
-title: CustomDocumentProperties
+title: Class CustomDocumentProperties
 second_title: Aspose.Words for .NET API Reference
 description: A collection of custom document properties.
 type: docs

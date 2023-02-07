@@ -1,5 +1,5 @@
 ---
-title: FolderPath
+title: FolderFontSource.FolderPath
 second_title: Aspose.Words for .NET API Reference
 description: Path to the folder.
 type: docs

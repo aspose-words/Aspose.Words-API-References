@@ -1,5 +1,5 @@
 ---
-title: ValueAsDate
+title: AxisBound.ValueAsDate
 second_title: Aspose.Words for .NET API Reference
 description: Returns value of axis bound represented as datetime.
 type: docs

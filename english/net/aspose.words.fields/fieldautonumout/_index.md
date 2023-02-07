@@ -1,5 +1,5 @@
 ---
-title: FieldAutoNumOut
+title: Class FieldAutoNumOut
 second_title: Aspose.Words for .NET API Reference
 description: Implements the AUTONUMOUT field.
 type: docs

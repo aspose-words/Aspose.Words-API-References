@@ -1,5 +1,5 @@
 ---
-title: VisitBuildingBlockEnd
+title: DocumentVisitor.VisitBuildingBlockEnd
 second_title: Aspose.Words for .NET API Reference
 description: Called when enumeration of a building block has ended.
 type: docs

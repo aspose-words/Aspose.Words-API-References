@@ -1,5 +1,5 @@
 ---
-title: MarkerSymbol
+title: Enum MarkerSymbol
 second_title: Aspose.Words for .NET API Reference
 description: Specifies marker symbol style.
 type: docs

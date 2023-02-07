@@ -1,5 +1,5 @@
 ---
-title: InsertFootnote
+title: DocumentBuilder.InsertFootnote
 second_title: Aspose.Words for .NET API Reference
 description: Inserts a footnote or endnote into the document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: RestartRule
+title: EndnoteOptions.RestartRule
 second_title: Aspose.Words for .NET API Reference
 description: Determines when automatic numbering restarts.
 type: docs

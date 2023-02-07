@@ -1,5 +1,5 @@
 ---
-title: Italic
+title: FontSavingArgs.Italic
 second_title: Aspose.Words for .NET API Reference
 description: Indicates whether the current font is italic.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FieldAddressBlock
+title: FieldAddressBlock.FieldAddressBlock
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

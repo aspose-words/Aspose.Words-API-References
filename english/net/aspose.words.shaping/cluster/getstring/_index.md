@@ -1,5 +1,5 @@
 ---
-title: GetString
+title: Cluster.GetString
 second_title: Aspose.Words for .NET API Reference
 description: Creates String using codepoints from the specified clusters.
 type: docs

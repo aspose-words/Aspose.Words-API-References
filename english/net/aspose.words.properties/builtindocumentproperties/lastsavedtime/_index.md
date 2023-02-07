@@ -1,5 +1,5 @@
 ---
-title: LastSavedTime
+title: BuiltInDocumentProperties.LastSavedTime
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the time of the last save in UTC.
 type: docs

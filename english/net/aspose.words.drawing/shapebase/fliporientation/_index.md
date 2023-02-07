@@ -1,5 +1,5 @@
 ---
-title: FlipOrientation
+title: ShapeBase.FlipOrientation
 second_title: Aspose.Words for .NET API Reference
 description: Switches the orientation of a shape.
 type: docs

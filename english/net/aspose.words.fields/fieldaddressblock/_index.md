@@ -1,5 +1,5 @@
 ---
-title: FieldAddressBlock
+title: Class FieldAddressBlock
 second_title: Aspose.Words for .NET API Reference
 description: Implements the ADDRESSBLOCK field.
 type: docs

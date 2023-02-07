@@ -1,5 +1,5 @@
 ---
-title: PdfFontEmbeddingMode
+title: Enum PdfFontEmbeddingMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how Aspose.Words should embed fonts.
 type: docs

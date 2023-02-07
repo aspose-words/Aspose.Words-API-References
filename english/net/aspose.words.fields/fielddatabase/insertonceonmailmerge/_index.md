@@ -1,5 +1,5 @@
 ---
-title: InsertOnceOnMailMerge
+title: FieldDatabase.InsertOnceOnMailMerge
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to insert data at the beginning of a merge.
 type: docs

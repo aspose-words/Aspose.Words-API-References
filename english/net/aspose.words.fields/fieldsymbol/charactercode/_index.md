@@ -1,5 +1,5 @@
 ---
-title: CharacterCode
+title: FieldSymbol.CharacterCode
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the characters code point value in decimal or hexadecimal.
 type: docs

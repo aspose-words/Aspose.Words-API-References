@@ -1,5 +1,5 @@
 ---
-title: Border
+title: Font.Border
 second_title: Aspose.Words for .NET API Reference
 description: Returns a Border object that specifies border for the font.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Item
+title: TableCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Retrieves a Table at the given index.
 type: docs

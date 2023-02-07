@@ -1,5 +1,5 @@
 ---
-title: Suffix
+title: FieldCitation.Suffix
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a suffix that is appended to the citation.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: PaperSize
+title: Enum PaperSize
 second_title: Aspose.Words for .NET API Reference
 description: Specifies paper size.
 type: docs

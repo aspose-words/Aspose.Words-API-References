@@ -1,5 +1,5 @@
 ---
-title: AddLinkToContent
+title: CustomDocumentProperties.AddLinkToContent
 second_title: Aspose.Words for .NET API Reference
 description: Creates a new linked to content custom document property.
 type: docs

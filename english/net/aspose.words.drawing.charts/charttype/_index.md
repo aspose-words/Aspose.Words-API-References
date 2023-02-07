@@ -1,5 +1,5 @@
 ---
-title: ChartType
+title: Enum ChartType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies type of a chart.
 type: docs

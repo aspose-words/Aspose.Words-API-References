@@ -1,5 +1,5 @@
 ---
-title: RevisionType
+title: Revision.RevisionType
 second_title: Aspose.Words for .NET API Reference
 description: Gets the type of this revision.
 type: docs

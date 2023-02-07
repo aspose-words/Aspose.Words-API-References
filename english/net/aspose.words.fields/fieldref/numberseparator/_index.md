@@ -1,5 +1,5 @@
 ---
-title: NumberSeparator
+title: FieldRef.NumberSeparator
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the character sequence that is used to separate sequence numbers and page numbers.
 type: docs

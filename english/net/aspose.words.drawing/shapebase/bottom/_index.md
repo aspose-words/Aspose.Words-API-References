@@ -1,5 +1,5 @@
 ---
-title: Bottom
+title: ShapeBase.Bottom
 second_title: Aspose.Words for .NET API Reference
 description: Gets the position of the bottom edge of the containing block of the shape.
 type: docs

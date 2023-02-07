@@ -1,5 +1,5 @@
 ---
-title: SequenceName
+title: FieldIndex.SequenceName
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the name of a sequence whose number is included with the page number.
 type: docs

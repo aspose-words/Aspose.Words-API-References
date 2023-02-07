@@ -1,5 +1,5 @@
 ---
-title: Type
+title: DocumentProperty.Type
 second_title: Aspose.Words for .NET API Reference
 description: Gets the data type of the property.
 type: docs

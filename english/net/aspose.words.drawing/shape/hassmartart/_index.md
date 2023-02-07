@@ -1,5 +1,5 @@
 ---
-title: HasSmartArt
+title: Shape.HasSmartArt
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if this Shape has a SmartArt object.
 type: docs

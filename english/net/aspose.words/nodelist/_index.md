@@ -1,5 +1,5 @@
 ---
-title: NodeList
+title: Class NodeList
 second_title: Aspose.Words for .NET API Reference
 description: Represents a collection of nodes matching an XPath query executed using the SelectNodes method.
 type: docs

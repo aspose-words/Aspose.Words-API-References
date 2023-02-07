@@ -1,5 +1,5 @@
 ---
-title: GradientStopCollection
+title: Class GradientStopCollection
 second_title: Aspose.Words for .NET API Reference
 description: Contains a collection of GradientStop objects.
 type: docs

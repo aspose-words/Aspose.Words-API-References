@@ -1,5 +1,5 @@
 ---
-title: NodeRendererBase
+title: Class NodeRendererBase
 second_title: Aspose.Words for .NET API Reference
 description: Base class for ShapeRenderer and OfficeMathRenderer.
 type: docs

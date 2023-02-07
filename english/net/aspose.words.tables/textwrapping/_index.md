@@ -1,5 +1,5 @@
 ---
-title: TextWrapping
+title: Enum TextWrapping
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how text is wrapped around the table.
 type: docs

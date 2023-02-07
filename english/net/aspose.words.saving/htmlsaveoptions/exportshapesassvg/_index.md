@@ -1,5 +1,5 @@
 ---
-title: ExportShapesAsSvg
+title: HtmlSaveOptions.ExportShapesAsSvg
 second_title: Aspose.Words for .NET API Reference
 description: Controls whether Shape nodes are converted to SVG images when saving to HTML MHTML EPUB or AZW3. Default value is false.
 type: docs

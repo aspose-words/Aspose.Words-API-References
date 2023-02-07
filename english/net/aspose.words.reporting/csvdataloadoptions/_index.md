@@ -1,5 +1,5 @@
 ---
-title: CsvDataLoadOptions
+title: Class CsvDataLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: Represents options for parsing CSV data.
 type: docs

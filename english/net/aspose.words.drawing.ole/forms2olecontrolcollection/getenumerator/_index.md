@@ -1,5 +1,5 @@
 ---
-title: GetEnumerator
+title: Forms2OleControlCollection.GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: Gets enumerator.
 type: docs

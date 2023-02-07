@@ -1,5 +1,5 @@
 ---
-title: Orientation
+title: CellFormat.Orientation
 second_title: Aspose.Words for .NET API Reference
 description: Returns or sets the orientation of text in a table cell.
 type: docs

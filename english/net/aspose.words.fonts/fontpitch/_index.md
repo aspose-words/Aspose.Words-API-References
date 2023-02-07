@@ -1,5 +1,5 @@
 ---
-title: FontPitch
+title: Enum FontPitch
 second_title: Aspose.Words for .NET API Reference
 description: Represents the font pitch.
 type: docs

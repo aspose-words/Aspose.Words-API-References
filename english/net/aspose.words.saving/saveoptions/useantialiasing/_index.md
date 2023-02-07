@@ -1,5 +1,5 @@
 ---
-title: UseAntiAliasing
+title: SaveOptions.UseAntiAliasing
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value determining whether or not to use antialiasing for rendering.
 type: docs

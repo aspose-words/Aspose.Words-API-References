@@ -1,5 +1,5 @@
 ---
-title: AddressFieldName
+title: MailMergeSettings.AddressFieldName
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the column within the data source that contains email addresses. The default value is an empty string.
 type: docs

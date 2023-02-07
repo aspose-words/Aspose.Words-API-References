@@ -1,5 +1,5 @@
 ---
-title: Runs
+title: Paragraph.Runs
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to the typed collection of pieces of text inside the paragraph.
 type: docs

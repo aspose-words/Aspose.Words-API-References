@@ -1,5 +1,5 @@
 ---
-title: IsAnsi
+title: FieldSymbol.IsAnsi
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether the character code is interpreted as the value of an ANSI character.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Comment
+title: Class Comment
 second_title: Aspose.Words for .NET API Reference
 description: Represents a container for text of a comment.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: TextPath
+title: Class TextPath
 second_title: Aspose.Words for .NET API Reference
 description: Defines the text and formatting of the text path of a WordArt object.
 type: docs

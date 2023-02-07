@@ -1,5 +1,5 @@
 ---
-title: HasHeaders
+title: CsvDataLoadOptions.HasHeaders
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value indicating whether the first record of CSV data contains column names.
 type: docs

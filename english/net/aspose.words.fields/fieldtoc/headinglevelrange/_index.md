@@ -1,5 +1,5 @@
 ---
-title: HeadingLevelRange
+title: FieldToc.HeadingLevelRange
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a range of heading levels to include.
 type: docs

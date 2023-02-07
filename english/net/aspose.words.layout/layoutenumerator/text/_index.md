@@ -1,5 +1,5 @@
 ---
-title: Text
+title: LayoutEnumerator.Text
 second_title: Aspose.Words for .NET API Reference
 description: Gets text of the current span entity. Throws for other entity types.
 type: docs

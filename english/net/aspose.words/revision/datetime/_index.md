@@ -1,5 +1,5 @@
 ---
-title: DateTime
+title: Revision.DateTime
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the date/time of this revision.
 type: docs

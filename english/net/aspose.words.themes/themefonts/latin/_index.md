@@ -1,5 +1,5 @@
 ---
-title: Latin
+title: ThemeFonts.Latin
 second_title: Aspose.Words for .NET API Reference
 description: Specifies font name for Latin characters.
 type: docs

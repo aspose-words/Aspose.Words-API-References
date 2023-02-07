@@ -1,5 +1,5 @@
 ---
-title: RelativeVerticalAlignment
+title: Table.RelativeVerticalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets floating table relative vertical alignment.
 type: docs

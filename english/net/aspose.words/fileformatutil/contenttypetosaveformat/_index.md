@@ -1,5 +1,5 @@
 ---
-title: ContentTypeToSaveFormat
+title: FileFormatUtil.ContentTypeToSaveFormat
 second_title: Aspose.Words for .NET API Reference
 description: Converts IANA content type into a save format enumerated value.
 type: docs

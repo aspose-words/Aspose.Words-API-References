@@ -1,5 +1,5 @@
 ---
-title: AttachedTemplate
+title: Document.AttachedTemplate
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the full path of the template attached to the document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Texture
+title: Shading.Texture
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the shading texture.
 type: docs

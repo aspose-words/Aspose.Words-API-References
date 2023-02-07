@@ -1,5 +1,5 @@
 ---
-title: DockState
+title: TaskPane.DockState
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the lastdocked location of this task pane object.
 type: docs

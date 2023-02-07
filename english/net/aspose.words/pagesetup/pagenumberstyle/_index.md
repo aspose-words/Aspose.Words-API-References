@@ -1,5 +1,5 @@
 ---
-title: PageNumberStyle
+title: PageSetup.PageNumberStyle
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the page number format.
 type: docs

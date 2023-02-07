@@ -1,5 +1,5 @@
 ---
-title: DistanceLeft
+title: Table.DistanceLeft
 second_title: Aspose.Words for .NET API Reference
 description: Gets distance between table left and the surrounding text in points.
 type: docs

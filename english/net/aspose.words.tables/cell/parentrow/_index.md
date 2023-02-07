@@ -1,5 +1,5 @@
 ---
-title: ParentRow
+title: Cell.ParentRow
 second_title: Aspose.Words for .NET API Reference
 description: Returns the parent row of the cell.
 type: docs

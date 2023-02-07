@@ -1,5 +1,5 @@
 ---
-title: Author
+title: BuiltInDocumentProperties.Author
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the name of the documents author.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Reason
+title: PdfDigitalSignatureDetails.Reason
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the reason for the signing.
 type: docs

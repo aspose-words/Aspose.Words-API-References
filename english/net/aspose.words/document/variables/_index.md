@@ -1,5 +1,5 @@
 ---
-title: Variables
+title: Document.Variables
 second_title: Aspose.Words for .NET API Reference
 description: Returns the collection of variables added to a document or template.
 type: docs

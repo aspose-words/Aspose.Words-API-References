@@ -1,5 +1,5 @@
 ---
-title: SignTime
+title: DigitalSignature.SignTime
 second_title: Aspose.Words for .NET API Reference
 description: Gets the time the document was signed.
 type: docs

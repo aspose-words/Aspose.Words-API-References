@@ -1,5 +1,5 @@
 ---
-title: IMailMergeDataSourceRoot
+title: Interface IMailMergeDataSourceRoot
 second_title: Aspose.Words for .NET API Reference
 description: Implement this interface to allow mail merge from a custom data source with masterdetail data.
 type: docs

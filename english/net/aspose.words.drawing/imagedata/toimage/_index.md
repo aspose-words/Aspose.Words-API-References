@@ -1,5 +1,5 @@
 ---
-title: ToImage
+title: ImageData.ToImage
 second_title: Aspose.Words for .NET API Reference
 description: Gets the image stored in the shape as a Image object.
 type: docs

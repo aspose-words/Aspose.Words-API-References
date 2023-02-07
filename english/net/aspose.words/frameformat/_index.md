@@ -1,5 +1,5 @@
 ---
-title: FrameFormat
+title: Class FrameFormat
 second_title: Aspose.Words for .NET API Reference
 description: Represents frame related formatting for a paragraph.
 type: docs

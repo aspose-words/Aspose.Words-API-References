@@ -1,5 +1,5 @@
 ---
-title: ErrorMessage
+title: ComparisonEvaluationResult.ErrorMessage
 second_title: Aspose.Words for .NET API Reference
 description: Gets the failed comparison evaluation results error message.
 type: docs

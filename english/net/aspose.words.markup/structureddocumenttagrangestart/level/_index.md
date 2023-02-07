@@ -1,5 +1,5 @@
 ---
-title: Level
+title: StructuredDocumentTagRangeStart.Level
 second_title: Aspose.Words for .NET API Reference
 description: Gets the level at which this structured document tag range start occurs in the document tree.
 type: docs

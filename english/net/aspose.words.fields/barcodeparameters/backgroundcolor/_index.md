@@ -1,5 +1,5 @@
 ---
-title: BackgroundColor
+title: BarcodeParameters.BackgroundColor
 second_title: Aspose.Words for .NET API Reference
 description: Bar code background color 0x000000  0xFFFFFF
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ToArray
+title: HeaderFooterCollection.ToArray
 second_title: Aspose.Words for .NET API Reference
 description: Copies all HeaderFoorters from the collection to a new array of HeaderFoorters.
 type: docs

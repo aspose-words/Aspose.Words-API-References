@@ -1,5 +1,5 @@
 ---
-title: ResourceFileName
+title: ResourceSavingArgs.ResourceFileName
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the file name without path where the resource will be saved to.
 type: docs

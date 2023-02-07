@@ -1,5 +1,5 @@
 ---
-title: ChartFormat
+title: Class ChartFormat
 second_title: Aspose.Words for .NET API Reference
 description: Represents the formatting of a chart element.
 type: docs

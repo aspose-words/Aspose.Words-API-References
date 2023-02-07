@@ -1,5 +1,5 @@
 ---
-title: FindReplaceDirection
+title: Enum FindReplaceDirection
 second_title: Aspose.Words for .NET API Reference
 description: Specifies direction for replace operations.
 type: docs

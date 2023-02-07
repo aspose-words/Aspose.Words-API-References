@@ -1,5 +1,5 @@
 ---
-title: FieldAuthor
+title: Class FieldAuthor
 second_title: Aspose.Words for .NET API Reference
 description: Implements the AUTHOR field.
 type: docs

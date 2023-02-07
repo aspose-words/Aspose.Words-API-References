@@ -1,5 +1,5 @@
 ---
-title: Body
+title: Body.Body
 second_title: Aspose.Words for .NET API Reference
 description: Initializes a new instance of the Body class.
 type: docs

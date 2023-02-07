@@ -1,5 +1,5 @@
 ---
-title: StartingNumber
+title: FieldListNum.StartingNumber
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the starting value for this field.
 type: docs

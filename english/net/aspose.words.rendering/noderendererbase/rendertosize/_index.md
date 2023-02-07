@@ -1,5 +1,5 @@
 ---
-title: RenderToSize
+title: NodeRendererBase.RenderToSize
 second_title: Aspose.Words for .NET API Reference
 description: Renders the shape into a Graphics object to a specified size.
 type: docs

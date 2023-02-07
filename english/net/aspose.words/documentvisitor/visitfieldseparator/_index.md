@@ -1,5 +1,5 @@
 ---
-title: VisitFieldSeparator
+title: DocumentVisitor.VisitFieldSeparator
 second_title: Aspose.Words for .NET API Reference
 description: Called when a field separator is encountered in the document.
 type: docs

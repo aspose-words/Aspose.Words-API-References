@@ -1,5 +1,5 @@
 ---
-title: VisitorAction
+title: Enum VisitorAction
 second_title: Aspose.Words for .NET API Reference
 description: Allows the visitor to control the enumeration of nodes.
 type: docs

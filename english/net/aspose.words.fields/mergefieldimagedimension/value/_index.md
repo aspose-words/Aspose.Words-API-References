@@ -1,5 +1,5 @@
 ---
-title: Value
+title: MergeFieldImageDimension.Value
 second_title: Aspose.Words for .NET API Reference
 description: The value.
 type: docs

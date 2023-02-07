@@ -1,5 +1,5 @@
 ---
-title: PageCount
+title: Document.PageCount
 second_title: Aspose.Words for .NET API Reference
 description: Gets the number of pages in the document as calculated by the most recent page layout operation.
 type: docs

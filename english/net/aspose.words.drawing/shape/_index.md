@@ -1,5 +1,5 @@
 ---
-title: Shape
+title: Class Shape
 second_title: Aspose.Words for .NET API Reference
 description: Represents an object in the drawing layer such as an AutoShape textbox freeform OLE object ActiveX control or picture.
 type: docs

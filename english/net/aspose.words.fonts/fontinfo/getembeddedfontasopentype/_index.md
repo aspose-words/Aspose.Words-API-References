@@ -1,5 +1,5 @@
 ---
-title: GetEmbeddedFontAsOpenType
+title: FontInfo.GetEmbeddedFontAsOpenType
 second_title: Aspose.Words for .NET API Reference
 description: Gets an embedded font file in OpenType format. Fonts in Embedded OpenType format are converted to OpenType.
 type: docs

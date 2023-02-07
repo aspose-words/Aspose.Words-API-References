@@ -1,5 +1,5 @@
 ---
-title: ExportHeadersFootersMode
+title: TxtSaveOptionsBase.ExportHeadersFootersMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the way headers and footers are exported to the text formats. Default value is PrimaryOnly.
 type: docs

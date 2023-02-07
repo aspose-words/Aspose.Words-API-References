@@ -1,5 +1,5 @@
 ---
-title: VbaReference
+title: Class VbaReference
 second_title: Aspose.Words for .NET API Reference
 description: Implements a reference to an Automation type library or VBA project.
 type: docs

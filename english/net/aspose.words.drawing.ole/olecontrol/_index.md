@@ -1,5 +1,5 @@
 ---
-title: OleControl
+title: Class OleControl
 second_title: Aspose.Words for .NET API Reference
 description: Represents OLE ActiveX control.
 type: docs

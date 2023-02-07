@@ -1,5 +1,5 @@
 ---
-title: WebExtensionBindingType
+title: Enum WebExtensionBindingType
 second_title: Aspose.Words for .NET API Reference
 description: Enumerates available types of binding between a web extension and the data in the document.
 type: docs

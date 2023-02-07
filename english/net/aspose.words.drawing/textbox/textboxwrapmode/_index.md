@@ -1,5 +1,5 @@
 ---
-title: TextBoxWrapMode
+title: TextBox.TextBoxWrapMode
 second_title: Aspose.Words for .NET API Reference
 description: Determines how text wraps inside a shape.
 type: docs

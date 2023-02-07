@@ -1,5 +1,5 @@
 ---
-title: FontNameSubstitution
+title: FontSubstitutionSettings.FontNameSubstitution
 second_title: Aspose.Words for .NET API Reference
 description: Settings related to font name substitution rule.
 type: docs

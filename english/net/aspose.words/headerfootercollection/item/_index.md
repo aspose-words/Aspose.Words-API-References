@@ -1,5 +1,5 @@
 ---
-title: Item
+title: HeaderFooterCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Retrieves a HeaderFooter at the given index.
 type: docs

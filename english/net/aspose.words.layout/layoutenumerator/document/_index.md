@@ -1,5 +1,5 @@
 ---
-title: Document
+title: LayoutEnumerator.Document
 second_title: Aspose.Words for .NET API Reference
 description: Gets document this instance enumerates.
 type: docs

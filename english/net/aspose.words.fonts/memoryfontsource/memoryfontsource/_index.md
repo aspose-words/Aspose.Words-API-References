@@ -1,5 +1,5 @@
 ---
-title: MemoryFontSource
+title: MemoryFontSource.MemoryFontSource
 second_title: Aspose.Words for .NET API Reference
 description: Ctor.
 type: docs

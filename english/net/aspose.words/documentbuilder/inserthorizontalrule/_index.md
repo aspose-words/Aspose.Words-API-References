@@ -1,5 +1,5 @@
 ---
-title: InsertHorizontalRule
+title: DocumentBuilder.InsertHorizontalRule
 second_title: Aspose.Words for .NET API Reference
 description: Inserts a horizontal rule shape into the document.
 type: docs

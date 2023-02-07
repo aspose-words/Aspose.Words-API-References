@@ -1,5 +1,5 @@
 ---
-title: Count
+title: StyleCollection.Count
 second_title: Aspose.Words for .NET API Reference
 description: Gets the number of styles in the collection.
 type: docs

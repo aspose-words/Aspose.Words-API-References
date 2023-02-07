@@ -1,5 +1,5 @@
 ---
-title: PixelToNewDpi
+title: ConvertUtil.PixelToNewDpi
 second_title: Aspose.Words for .NET API Reference
 description: Converts pixels from one resolution to another.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: CharacterUnitFirstLineIndent
+title: ParagraphFormat.CharacterUnitFirstLineIndent
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the value in characters for the firstline or hanging indent.
 type: docs

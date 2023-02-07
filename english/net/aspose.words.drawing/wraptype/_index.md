@@ -1,5 +1,5 @@
 ---
-title: WrapType
+title: Enum WrapType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how text is wrapped around a shape or picture.
 type: docs

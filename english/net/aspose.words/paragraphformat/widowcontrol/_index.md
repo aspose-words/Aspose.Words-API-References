@@ -1,5 +1,5 @@
 ---
-title: WidowControl
+title: ParagraphFormat.WidowControl
 second_title: Aspose.Words for .NET API Reference
 description: True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph.
 type: docs

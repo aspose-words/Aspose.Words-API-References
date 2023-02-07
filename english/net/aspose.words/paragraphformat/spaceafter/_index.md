@@ -1,5 +1,5 @@
 ---
-title: SpaceAfter
+title: ParagraphFormat.SpaceAfter
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the amount of spacing in points after the paragraph.
 type: docs

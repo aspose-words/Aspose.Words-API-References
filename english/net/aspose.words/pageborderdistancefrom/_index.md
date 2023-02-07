@@ -1,5 +1,5 @@
 ---
-title: PageBorderDistanceFrom
+title: Enum PageBorderDistanceFrom
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the positioning of the page border relative to the page margin.
 type: docs

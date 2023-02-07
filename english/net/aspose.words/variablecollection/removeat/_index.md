@@ -1,5 +1,5 @@
 ---
-title: RemoveAt
+title: VariableCollection.RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: Removes a document variable at the specified index.
 type: docs

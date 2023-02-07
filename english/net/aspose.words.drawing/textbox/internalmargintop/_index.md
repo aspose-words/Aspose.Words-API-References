@@ -1,5 +1,5 @@
 ---
-title: InternalMarginTop
+title: TextBox.InternalMarginTop
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the inner top margin in points for a shape.
 type: docs

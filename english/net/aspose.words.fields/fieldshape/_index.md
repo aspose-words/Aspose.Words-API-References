@@ -1,5 +1,5 @@
 ---
-title: FieldShape
+title: Class FieldShape
 second_title: Aspose.Words for .NET API Reference
 description: Implements the SHAPE field.
 type: docs

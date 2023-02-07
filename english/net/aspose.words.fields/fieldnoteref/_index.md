@@ -1,5 +1,5 @@
 ---
-title: FieldNoteRef
+title: Class FieldNoteRef
 second_title: Aspose.Words for .NET API Reference
 description: Implements the NOTEREF field.
 type: docs

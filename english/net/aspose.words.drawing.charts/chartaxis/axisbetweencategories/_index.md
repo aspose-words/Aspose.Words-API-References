@@ -1,5 +1,5 @@
 ---
-title: AxisBetweenCategories
+title: ChartAxis.AxisBetweenCategories
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a flag indicating whether the value axis crosses the category axis between categories.
 type: docs

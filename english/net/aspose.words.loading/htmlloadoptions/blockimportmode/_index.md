@@ -1,5 +1,5 @@
 ---
-title: BlockImportMode
+title: HtmlLoadOptions.BlockImportMode
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value that specifies how properties of blocklevel elements are imported. Default value is Merge.
 type: docs

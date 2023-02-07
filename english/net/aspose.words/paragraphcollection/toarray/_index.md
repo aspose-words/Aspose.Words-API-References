@@ -1,5 +1,5 @@
 ---
-title: ToArray
+title: ParagraphCollection.ToArray
 second_title: Aspose.Words for .NET API Reference
 description: Copies all paragraphs from the collection to a new array of paragraphs.
 type: docs

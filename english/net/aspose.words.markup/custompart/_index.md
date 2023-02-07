@@ -1,5 +1,5 @@
 ---
-title: CustomPart
+title: Class CustomPart
 second_title: Aspose.Words for .NET API Reference
 description: Represents a custom arbitrary content part that is not defined by the ISO/IEC 29500 standard.
 type: docs

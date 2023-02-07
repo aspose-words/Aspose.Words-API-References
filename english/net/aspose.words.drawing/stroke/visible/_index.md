@@ -1,5 +1,5 @@
 ---
-title: Visible
+title: Stroke.Visible
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a flag indicating whether the stroke is visible.
 type: docs

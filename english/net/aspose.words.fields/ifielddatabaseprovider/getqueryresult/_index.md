@@ -1,5 +1,5 @@
 ---
-title: GetQueryResult
+title: IFieldDatabaseProvider.GetQueryResult
 second_title: Aspose.Words for .NET API Reference
 description: Returns query result.
 type: docs

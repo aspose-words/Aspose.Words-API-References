@@ -1,5 +1,5 @@
 ---
-title: FieldStyleRef
+title: Class FieldStyleRef
 second_title: Aspose.Words for .NET API Reference
 description: Implements the STYLEREF field.
 type: docs

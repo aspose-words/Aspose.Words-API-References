@@ -1,5 +1,5 @@
 ---
-title: InsertAfter
+title: CompositeNode.InsertAfter
 second_title: Aspose.Words for .NET API Reference
 description: Inserts the specified node immediately after the specified reference node.
 type: docs

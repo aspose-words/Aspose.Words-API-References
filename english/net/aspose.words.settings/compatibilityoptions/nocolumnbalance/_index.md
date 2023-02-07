@@ -1,5 +1,5 @@
 ---
-title: NoColumnBalance
+title: CompatibilityOptions.NoColumnBalance
 second_title: Aspose.Words for .NET API Reference
 description: Do Not Balance Text Columns within a Section.
 type: docs

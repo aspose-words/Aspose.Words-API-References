@@ -1,5 +1,5 @@
 ---
-title: Description
+title: BuildingBlock.Description
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the description associated with this building block.
 type: docs

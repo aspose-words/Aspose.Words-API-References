@@ -1,5 +1,5 @@
 ---
-title: FieldSet
+title: Class FieldSet
 second_title: Aspose.Words for .NET API Reference
 description: Implements the SET field.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: CommentDisplayMode
+title: Enum CommentDisplayMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the rendering mode for document comments.
 type: docs

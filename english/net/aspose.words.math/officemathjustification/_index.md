@@ -1,5 +1,5 @@
 ---
-title: OfficeMathJustification
+title: Enum OfficeMathJustification
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the justification of the equation.
 type: docs

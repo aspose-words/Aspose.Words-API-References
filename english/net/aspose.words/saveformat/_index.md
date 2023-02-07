@@ -1,5 +1,5 @@
 ---
-title: SaveFormat
+title: Enum SaveFormat
 second_title: Aspose.Words for .NET API Reference
 description: Indicates the format in which the document is saved.
 type: docs

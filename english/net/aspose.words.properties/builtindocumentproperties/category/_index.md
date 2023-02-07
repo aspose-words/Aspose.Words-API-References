@@ -1,5 +1,5 @@
 ---
-title: Category
+title: BuiltInDocumentProperties.Category
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the category of the document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: NodeType
+title: FieldEnd.NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Returns FieldEnd.
 type: docs

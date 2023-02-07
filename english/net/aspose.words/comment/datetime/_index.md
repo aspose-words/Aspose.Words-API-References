@@ -1,5 +1,5 @@
 ---
-title: DateTime
+title: Comment.DateTime
 second_title: Aspose.Words for .NET API Reference
 description: Gets the date and time that the comment was made.
 type: docs

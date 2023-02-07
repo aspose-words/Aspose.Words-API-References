@@ -1,5 +1,5 @@
 ---
-title: Query
+title: FieldDatabase.Query
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a set of SQL instructions that query the database.
 type: docs

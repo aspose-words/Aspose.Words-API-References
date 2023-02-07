@@ -1,5 +1,5 @@
 ---
-title: DefaultInstance
+title: FontSettings.DefaultInstance
 second_title: Aspose.Words for .NET API Reference
 description: Static default font settings.
 type: docs

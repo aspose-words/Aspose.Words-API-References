@@ -1,5 +1,5 @@
 ---
-title: Overlay
+title: ChartTitle.Overlay
 second_title: Aspose.Words for .NET API Reference
 description: Determines whether other chart elements shall be allowed to overlap title. By default overlay is false.
 type: docs

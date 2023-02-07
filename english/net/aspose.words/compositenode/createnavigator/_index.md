@@ -1,5 +1,5 @@
 ---
-title: CreateNavigator
+title: CompositeNode.CreateNavigator
 second_title: Aspose.Words for .NET API Reference
 description: Reserved for system use. IXPathNavigable.
 type: docs

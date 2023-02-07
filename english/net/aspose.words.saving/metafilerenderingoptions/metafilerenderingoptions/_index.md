@@ -1,5 +1,5 @@
 ---
-title: MetafileRenderingOptions
+title: MetafileRenderingOptions.MetafileRenderingOptions
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

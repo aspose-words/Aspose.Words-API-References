@@ -1,5 +1,5 @@
 ---
-title: Item
+title: SectionCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Retrieves a section at the given index.
 type: docs

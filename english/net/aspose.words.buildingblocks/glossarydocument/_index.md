@@ -1,5 +1,5 @@
 ---
-title: GlossaryDocument
+title: Class GlossaryDocument
 second_title: Aspose.Words for .NET API Reference
 description: Represents the root element for a glossary document within a Word document. A glossary document is a storage for AutoText AutoCorrect entries and Building Blocks.
 type: docs

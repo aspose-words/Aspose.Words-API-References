@@ -1,5 +1,5 @@
 ---
-title: NodeChangingArgs
+title: Class NodeChangingArgs
 second_title: Aspose.Words for .NET API Reference
 description: Provides data for methods of the INodeChangingCallback interface.
 type: docs

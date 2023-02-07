@@ -1,5 +1,5 @@
 ---
-title: ImageFileName
+title: ImageSavingArgs.ImageFileName
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the file name without path where the image will be saved to.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: SimplifyListLabels
+title: TxtSaveOptions.SimplifyListLabels
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text.
 type: docs

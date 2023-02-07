@@ -1,5 +1,5 @@
 ---
-title: Item
+title: FontInfoCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Gets a font with the specified name.
 type: docs

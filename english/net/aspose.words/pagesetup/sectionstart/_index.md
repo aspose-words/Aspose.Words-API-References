@@ -1,5 +1,5 @@
 ---
-title: SectionStart
+title: PageSetup.SectionStart
 second_title: Aspose.Words for .NET API Reference
 description: Returns or sets the type of section break for the specified object.
 type: docs

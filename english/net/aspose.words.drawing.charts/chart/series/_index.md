@@ -1,5 +1,5 @@
 ---
-title: Series
+title: Chart.Series
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to series collection.
 type: docs

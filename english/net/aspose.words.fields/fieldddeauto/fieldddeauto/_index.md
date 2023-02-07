@@ -1,5 +1,5 @@
 ---
-title: FieldDdeAuto
+title: FieldDdeAuto.FieldDdeAuto
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

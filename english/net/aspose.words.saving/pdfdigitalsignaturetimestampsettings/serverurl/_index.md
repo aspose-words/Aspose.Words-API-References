@@ -1,5 +1,5 @@
 ---
-title: ServerUrl
+title: PdfDigitalSignatureTimestampSettings.ServerUrl
 second_title: Aspose.Words for .NET API Reference
 description: Timestamp server URL.
 type: docs

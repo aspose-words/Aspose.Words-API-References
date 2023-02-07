@@ -1,5 +1,5 @@
 ---
-title: FontFormat
+title: HtmlFixedSaveOptions.FontFormat
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets ExportFontFormat used for font exporting. Default value is Woff.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: TxtLeadingSpacesOptions
+title: Enum TxtLeadingSpacesOptions
 second_title: Aspose.Words for .NET API Reference
 description: Specifies available options for leading space handling during import from Text file.
 type: docs

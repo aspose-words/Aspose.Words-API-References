@@ -1,5 +1,5 @@
 ---
-title: OleFormat
+title: Class OleFormat
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to the data of an OLE object or ActiveX control.
 type: docs

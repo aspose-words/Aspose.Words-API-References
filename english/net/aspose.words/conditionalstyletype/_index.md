@@ -1,5 +1,5 @@
 ---
-title: ConditionalStyleType
+title: Enum ConditionalStyleType
 second_title: Aspose.Words for .NET API Reference
 description: Represents possible table areas to which conditional formatting may be defined in a table style.
 type: docs

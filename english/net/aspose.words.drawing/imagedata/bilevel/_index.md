@@ -1,5 +1,5 @@
 ---
-title: BiLevel
+title: ImageData.BiLevel
 second_title: Aspose.Words for .NET API Reference
 description: Determines whether an image will be displayed in black and white.
 type: docs

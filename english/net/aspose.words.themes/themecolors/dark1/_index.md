@@ -1,5 +1,5 @@
 ---
-title: Dark1
+title: ThemeColors.Dark1
 second_title: Aspose.Words for .NET API Reference
 description: Specifies color Dark 1.
 type: docs

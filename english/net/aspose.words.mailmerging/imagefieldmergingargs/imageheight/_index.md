@@ -1,5 +1,5 @@
 ---
-title: ImageHeight
+title: ImageFieldMergingArgs.ImageHeight
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the image height for the image to insert into the document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: PreviousPreOrder
+title: Node.PreviousPreOrder
 second_title: Aspose.Words for .NET API Reference
 description: Gets the previous node according to the preorder tree traversal algorithm.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: GetStartPageIndex
+title: LayoutCollector.GetStartPageIndex
 second_title: Aspose.Words for .NET API Reference
 description: Gets 1based index of the page where node begins. Returns 0 if node cannot be mapped to a page.
 type: docs

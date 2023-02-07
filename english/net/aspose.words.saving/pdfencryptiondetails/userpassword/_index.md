@@ -1,5 +1,5 @@
 ---
-title: UserPassword
+title: PdfEncryptionDetails.UserPassword
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the user password required for opening the encrypted PDF document.
 type: docs

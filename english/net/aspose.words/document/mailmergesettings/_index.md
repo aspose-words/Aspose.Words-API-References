@@ -1,5 +1,5 @@
 ---
-title: MailMergeSettings
+title: Document.MailMergeSettings
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the object that contains all of the mail merge information for a document.
 type: docs

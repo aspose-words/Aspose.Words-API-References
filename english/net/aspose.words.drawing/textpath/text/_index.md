@@ -1,5 +1,5 @@
 ---
-title: Text
+title: TextPath.Text
 second_title: Aspose.Words for .NET API Reference
 description: Defines the text of the text path.
 type: docs

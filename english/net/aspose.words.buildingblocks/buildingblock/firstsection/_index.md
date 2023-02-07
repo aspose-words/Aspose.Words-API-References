@@ -1,5 +1,5 @@
 ---
-title: FirstSection
+title: BuildingBlock.FirstSection
 second_title: Aspose.Words for .NET API Reference
 description: Gets the first section in the building block.
 type: docs

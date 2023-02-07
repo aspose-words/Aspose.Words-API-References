@@ -1,5 +1,5 @@
 ---
-title: UpdatePageNumbers
+title: FieldToc.UpdatePageNumbers
 second_title: Aspose.Words for .NET API Reference
 description: Updates the page numbers for items in this table of contents.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: RecordIndex
+title: FieldMergingArgsBase.RecordIndex
 second_title: Aspose.Words for .NET API Reference
 description: Gets the zero based index of the record that is being merged.
 type: docs

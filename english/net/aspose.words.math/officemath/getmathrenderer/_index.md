@@ -1,5 +1,5 @@
 ---
-title: GetMathRenderer
+title: OfficeMath.GetMathRenderer
 second_title: Aspose.Words for .NET API Reference
 description: Creates and returns an object that can be used to render this equation into an image.
 type: docs

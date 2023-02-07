@@ -1,5 +1,5 @@
 ---
-title: Version
+title: WebExtensionReference.Version
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the version of the web extension.
 type: docs

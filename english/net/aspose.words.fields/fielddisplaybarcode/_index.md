@@ -1,5 +1,5 @@
 ---
-title: FieldDisplayBarcode
+title: Class FieldDisplayBarcode
 second_title: Aspose.Words for .NET API Reference
 description: Implements the DISPLAYBARCODE field.
 type: docs

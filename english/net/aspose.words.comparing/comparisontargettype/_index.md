@@ -1,5 +1,5 @@
 ---
-title: ComparisonTargetType
+title: Enum ComparisonTargetType
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify base document which will be used during comparison. Default value is Current.
 type: docs

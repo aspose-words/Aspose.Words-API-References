@@ -1,5 +1,5 @@
 ---
-title: Contains
+title: BookmarksOutlineLevelCollection.Contains
 second_title: Aspose.Words for .NET API Reference
 description: Determines whether the collection contains a bookmark with the given name.
 type: docs

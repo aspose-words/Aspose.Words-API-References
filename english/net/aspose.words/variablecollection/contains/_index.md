@@ -1,5 +1,5 @@
 ---
-title: Contains
+title: VariableCollection.Contains
 second_title: Aspose.Words for .NET API Reference
 description: Determines whether the collection contains a document variable with the given name.
 type: docs

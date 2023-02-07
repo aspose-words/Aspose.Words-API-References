@@ -1,5 +1,5 @@
 ---
-title: Clear
+title: TabStopCollection.Clear
 second_title: Aspose.Words for .NET API Reference
 description: Deletes all tab stop positions.
 type: docs

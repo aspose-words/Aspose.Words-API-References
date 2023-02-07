@@ -1,5 +1,5 @@
 ---
-title: BackgroundShape
+title: DocumentBase.BackgroundShape
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the background shape of the document. Can be null.
 type: docs

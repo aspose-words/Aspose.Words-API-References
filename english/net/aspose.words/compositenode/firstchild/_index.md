@@ -1,5 +1,5 @@
 ---
-title: FirstChild
+title: CompositeNode.FirstChild
 second_title: Aspose.Words for .NET API Reference
 description: Gets the first child of the node.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: CustomTimeZoneInfo
+title: SaveOptions.CustomTimeZoneInfo
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets custom local time zone used for date/time fields.
 type: docs

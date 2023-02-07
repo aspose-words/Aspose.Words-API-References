@@ -1,5 +1,5 @@
 ---
-title: StartArrowWidth
+title: Stroke.StartArrowWidth
 second_title: Aspose.Words for .NET API Reference
 description: Defines the arrowhead width for the start of a stroke.
 type: docs

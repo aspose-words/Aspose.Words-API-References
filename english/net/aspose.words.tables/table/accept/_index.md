@@ -1,5 +1,5 @@
 ---
-title: Accept
+title: Table.Accept
 second_title: Aspose.Words for .NET API Reference
 description: Accepts a visitor.
 type: docs

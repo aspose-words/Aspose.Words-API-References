@@ -1,5 +1,5 @@
 ---
-title: VisitTableStart
+title: DocumentVisitor.VisitTableStart
 second_title: Aspose.Words for .NET API Reference
 description: Called when enumeration of a table has started.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ParentSection
+title: Paragraph.ParentSection
 second_title: Aspose.Words for .NET API Reference
 description: Retrieves the parent Section of the paragraph.
 type: docs

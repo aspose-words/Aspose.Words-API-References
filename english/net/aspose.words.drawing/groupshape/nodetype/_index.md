@@ -1,5 +1,5 @@
 ---
-title: NodeType
+title: GroupShape.NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Returns GroupShape.
 type: docs

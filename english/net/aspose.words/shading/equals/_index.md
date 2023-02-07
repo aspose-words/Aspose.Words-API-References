@@ -1,5 +1,5 @@
 ---
-title: Equals
+title: Shading.Equals
 second_title: Aspose.Words for .NET API Reference
 description: Determines whether the specified Shading is equal in value to the current Shading.
 type: docs

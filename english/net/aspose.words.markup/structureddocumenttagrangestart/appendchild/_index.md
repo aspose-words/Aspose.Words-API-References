@@ -1,5 +1,5 @@
 ---
-title: AppendChild
+title: StructuredDocumentTagRangeStart.AppendChild
 second_title: Aspose.Words for .NET API Reference
 description: Adds the specified node to the end of the stdContent range.
 type: docs

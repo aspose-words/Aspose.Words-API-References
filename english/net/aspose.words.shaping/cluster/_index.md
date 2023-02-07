@@ -1,5 +1,5 @@
 ---
-title: Cluster
+title: Class Cluster
 second_title: Aspose.Words for .NET API Reference
 description: Encapsulates code points and glyphs composing a grapheme.
 type: docs

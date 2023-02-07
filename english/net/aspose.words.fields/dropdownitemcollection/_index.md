@@ -1,5 +1,5 @@
 ---
-title: DropDownItemCollection
+title: Class DropDownItemCollection
 second_title: Aspose.Words for .NET API Reference
 description: A collection of strings that represent all the items in a dropdown form field.
 type: docs

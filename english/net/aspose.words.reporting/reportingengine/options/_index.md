@@ -1,5 +1,5 @@
 ---
-title: Options
+title: ReportingEngine.Options
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a set of flags controlling behavior of this ReportingEngine instance while building a report.
 type: docs

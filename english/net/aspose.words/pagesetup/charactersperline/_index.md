@@ -1,5 +1,5 @@
 ---
-title: CharactersPerLine
+title: PageSetup.CharactersPerLine
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the number of characters per line in the document grid.
 type: docs

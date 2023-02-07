@@ -1,5 +1,5 @@
 ---
-title: FieldEQ
+title: Class FieldEQ
 second_title: Aspose.Words for .NET API Reference
 description: Implements the EQ field.
 type: docs

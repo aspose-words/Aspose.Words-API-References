@@ -1,5 +1,5 @@
 ---
-title: IsSemitrasparent
+title: TextWatermarkOptions.IsSemitrasparent
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a boolean value which is responsible for opacity of the watermark. The default value is true.
 type: docs

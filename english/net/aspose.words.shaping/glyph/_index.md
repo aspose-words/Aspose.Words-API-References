@@ -1,5 +1,5 @@
 ---
-title: Glyph
+title: Class Glyph
 second_title: Aspose.Words for .NET API Reference
 description: Represents a glyph
 type: docs

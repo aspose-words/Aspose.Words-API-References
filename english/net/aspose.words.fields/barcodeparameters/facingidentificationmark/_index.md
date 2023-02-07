@@ -1,5 +1,5 @@
 ---
-title: FacingIdentificationMark
+title: BarcodeParameters.FacingIdentificationMark
 second_title: Aspose.Words for .NET API Reference
 description: Type of a Facing Identification Mark FIM.
 type: docs

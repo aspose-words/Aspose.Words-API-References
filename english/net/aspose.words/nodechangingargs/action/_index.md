@@ -1,5 +1,5 @@
 ---
-title: Action
+title: NodeChangingArgs.Action
 second_title: Aspose.Words for .NET API Reference
 description: Gets a value indicating what type of node change event is occurring.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: GetFieldNames
+title: MailMerge.GetFieldNames
 second_title: Aspose.Words for .NET API Reference
 description: Returns a collection of mail merge field names available in the document.
 type: docs

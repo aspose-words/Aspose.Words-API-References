@@ -1,5 +1,5 @@
 ---
-title: EntryLevelRange
+title: FieldToc.EntryLevelRange
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a range of levels of the table of contents entries to be included.
 type: docs

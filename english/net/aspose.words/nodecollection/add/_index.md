@@ -1,5 +1,5 @@
 ---
-title: Add
+title: NodeCollection.Add
 second_title: Aspose.Words for .NET API Reference
 description: Adds a node to the end of the collection.
 type: docs

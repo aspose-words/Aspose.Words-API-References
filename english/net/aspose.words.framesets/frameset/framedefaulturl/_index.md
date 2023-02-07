@@ -1,5 +1,5 @@
 ---
-title: FrameDefaultUrl
+title: Frameset.FrameDefaultUrl
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the web page URL or document file name to display in this frame.
 type: docs

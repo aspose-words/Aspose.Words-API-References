@@ -1,5 +1,5 @@
 ---
-title: InsertDocument
+title: DocumentBuilder.InsertDocument
 second_title: Aspose.Words for .NET API Reference
 description: Inserts a document at the cursor position.
 type: docs

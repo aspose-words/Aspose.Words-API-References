@@ -1,5 +1,5 @@
 ---
-title: GetHashCode
+title: Border.GetHashCode
 second_title: Aspose.Words for .NET API Reference
 description: Serves as a hash function for this type.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Margins
+title: PageSetup.Margins
 second_title: Aspose.Words for .NET API Reference
 description: Returns or sets preset Margins of the page.
 type: docs

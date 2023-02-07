@@ -1,5 +1,5 @@
 ---
-title: Name
+title: OleControl.Name
 second_title: Aspose.Words for .NET API Reference
 description: Gets name of the ActiveX control.
 type: docs

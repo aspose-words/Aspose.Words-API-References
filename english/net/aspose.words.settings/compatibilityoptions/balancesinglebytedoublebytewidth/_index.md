@@ -1,5 +1,5 @@
 ---
-title: BalanceSingleByteDoubleByteWidth
+title: CompatibilityOptions.BalanceSingleByteDoubleByteWidth
 second_title: Aspose.Words for .NET API Reference
 description: Balance Single Byte and Double Byte Characters.
 type: docs

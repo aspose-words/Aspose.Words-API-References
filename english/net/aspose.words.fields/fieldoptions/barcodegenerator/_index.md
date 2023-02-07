@@ -1,5 +1,5 @@
 ---
-title: BarcodeGenerator
+title: FieldOptions.BarcodeGenerator
 second_title: Aspose.Words for .NET API Reference
 description: Gets or set custom barcode generator.
 type: docs

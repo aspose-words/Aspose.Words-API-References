@@ -1,5 +1,5 @@
 ---
-title: LinesToDrop
+title: ParagraphFormat.LinesToDrop
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the number of lines of the paragraph text used to calculate the drop cap height.
 type: docs

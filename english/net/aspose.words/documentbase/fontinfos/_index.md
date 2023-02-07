@@ -1,5 +1,5 @@
 ---
-title: FontInfos
+title: DocumentBase.FontInfos
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to properties of fonts used in this document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: BasicTextShaperCache
+title: BasicTextShaperCache.BasicTextShaperCache
 second_title: Aspose.Words for .NET API Reference
 description: Wraps factory and caches GetTextShaper results.
 type: docs

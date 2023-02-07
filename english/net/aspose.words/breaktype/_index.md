@@ -1,5 +1,5 @@
 ---
-title: BreakType
+title: Enum BreakType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies type of a break inside a document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: PageLayoutEvent
+title: Enum PageLayoutEvent
 second_title: Aspose.Words for .NET API Reference
 description: A code of event raised during page layout model build and rendering.
 type: docs

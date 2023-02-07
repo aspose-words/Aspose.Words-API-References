@@ -1,5 +1,5 @@
 ---
-title: StoryType
+title: Story.StoryType
 second_title: Aspose.Words for .NET API Reference
 description: Gets the type of this story.
 type: docs

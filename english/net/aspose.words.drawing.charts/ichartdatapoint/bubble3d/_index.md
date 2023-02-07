@@ -1,5 +1,5 @@
 ---
-title: Bubble3D
+title: IChartDataPoint.Bubble3D
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether the bubbles in Bubble chart should have a 3D effect applied to them.
 type: docs

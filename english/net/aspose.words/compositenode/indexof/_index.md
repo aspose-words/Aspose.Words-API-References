@@ -1,5 +1,5 @@
 ---
-title: IndexOf
+title: CompositeNode.IndexOf
 second_title: Aspose.Words for .NET API Reference
 description: Returns the index of the specified child node in the child node array.
 type: docs

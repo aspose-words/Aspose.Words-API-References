@@ -1,5 +1,5 @@
 ---
-title: EmbeddedFontFormat
+title: Enum EmbeddedFontFormat
 second_title: Aspose.Words for .NET API Reference
 description: Specifies format of particular embedded font inside FontInfo object.
 type: docs

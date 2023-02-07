@@ -1,5 +1,5 @@
 ---
-title: VisitCommentEnd
+title: DocumentVisitor.VisitCommentEnd
 second_title: Aspose.Words for .NET API Reference
 description: Called when enumeration of a comment text has ended.
 type: docs

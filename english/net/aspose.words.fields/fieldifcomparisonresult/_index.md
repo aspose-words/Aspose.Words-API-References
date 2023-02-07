@@ -1,5 +1,5 @@
 ---
-title: FieldIfComparisonResult
+title: Enum FieldIfComparisonResult
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the result of the IF field condition evaluation.
 type: docs

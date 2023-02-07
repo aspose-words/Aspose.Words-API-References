@@ -1,5 +1,5 @@
 ---
-title: OldParent
+title: NodeChangingArgs.OldParent
 second_title: Aspose.Words for .NET API Reference
 description: Gets the nodes parent before the operation began.
 type: docs

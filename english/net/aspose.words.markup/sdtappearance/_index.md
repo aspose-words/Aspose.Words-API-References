@@ -1,5 +1,5 @@
 ---
-title: SdtAppearance
+title: Enum SdtAppearance
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the appearance of a structured document tag.
 type: docs

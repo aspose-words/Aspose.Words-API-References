@@ -1,5 +1,5 @@
 ---
-title: SetShapeAttr
+title: ShapeBase.SetShapeAttr
 second_title: Aspose.Words for .NET API Reference
 description: Reserved for system use. IShapeAttrSource.
 type: docs

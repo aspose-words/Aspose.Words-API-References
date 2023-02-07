@@ -1,5 +1,5 @@
 ---
-title: OutlineLevel
+title: ParagraphFormat.OutlineLevel
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the outline level of the paragraph in the document.
 type: docs

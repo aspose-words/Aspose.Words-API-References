@@ -1,5 +1,5 @@
 ---
-title: FieldNameNoPrefix
+title: FieldMergeField.FieldNameNoPrefix
 second_title: Aspose.Words for .NET API Reference
 description: Returns just the name of the data field. Any prefix is stripped to the prefix property.
 type: docs

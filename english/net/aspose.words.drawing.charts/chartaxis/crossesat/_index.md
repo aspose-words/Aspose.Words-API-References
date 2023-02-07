@@ -1,5 +1,5 @@
 ---
-title: CrossesAt
+title: ChartAxis.CrossesAt
 second_title: Aspose.Words for .NET API Reference
 description: Specifies where on the perpendicular axis the axis crosses.
 type: docs

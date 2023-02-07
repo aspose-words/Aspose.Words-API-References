@@ -1,5 +1,5 @@
 ---
-title: FieldImport
+title: Class FieldImport
 second_title: Aspose.Words for .NET API Reference
 description: Implements the IMPORT field.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: VisitStructuredDocumentTagRangeStart
+title: DocumentVisitor.VisitStructuredDocumentTagRangeStart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: LoadFormatToSaveFormat
+title: FileFormatUtil.LoadFormatToSaveFormat
 second_title: Aspose.Words for .NET API Reference
 description: Converts a LoadFormat value to a SaveFormat value if possible.
 type: docs

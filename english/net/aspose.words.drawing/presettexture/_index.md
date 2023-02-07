@@ -1,5 +1,5 @@
 ---
-title: PresetTexture
+title: Enum PresetTexture
 second_title: Aspose.Words for .NET API Reference
 description: Specifies texture to be used to fill a shape.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FieldToc
+title: Class FieldToc
 second_title: Aspose.Words for .NET API Reference
 description: Implements the TOC field.
 type: docs

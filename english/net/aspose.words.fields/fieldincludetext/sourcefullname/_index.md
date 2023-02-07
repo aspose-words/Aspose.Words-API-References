@@ -1,5 +1,5 @@
 ---
-title: SourceFullName
+title: FieldIncludeText.SourceFullName
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the location of the document using an IRI.
 type: docs

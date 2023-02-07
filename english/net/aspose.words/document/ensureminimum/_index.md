@@ -1,5 +1,5 @@
 ---
-title: EnsureMinimum
+title: Document.EnsureMinimum
 second_title: Aspose.Words for .NET API Reference
 description: If the document contains no sections creates one section with one paragraph.
 type: docs

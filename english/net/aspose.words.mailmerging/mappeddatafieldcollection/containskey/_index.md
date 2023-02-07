@@ -1,5 +1,5 @@
 ---
-title: ContainsKey
+title: MappedDataFieldCollection.ContainsKey
 second_title: Aspose.Words for .NET API Reference
 description: Determines whether a mapping from the specified field in the document exists in the collection.
 type: docs

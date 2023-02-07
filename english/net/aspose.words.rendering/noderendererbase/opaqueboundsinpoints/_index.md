@@ -1,5 +1,5 @@
 ---
-title: OpaqueBoundsInPoints
+title: NodeRendererBase.OpaqueBoundsInPoints
 second_title: Aspose.Words for .NET API Reference
 description: Gets the opaque bounds of the shape in points.
 type: docs

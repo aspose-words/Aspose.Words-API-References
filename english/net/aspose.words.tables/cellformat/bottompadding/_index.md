@@ -1,5 +1,5 @@
 ---
-title: BottomPadding
+title: CellFormat.BottomPadding
 second_title: Aspose.Words for .NET API Reference
 description: Returns or sets the amount of space in points to add below the contents of cell.
 type: docs

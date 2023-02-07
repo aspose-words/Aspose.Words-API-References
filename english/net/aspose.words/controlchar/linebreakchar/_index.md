@@ -1,5 +1,5 @@
 ---
-title: LineBreakChar
+title: ControlChar.LineBreakChar
 second_title: Aspose.Words for .NET API Reference
 description: Line break character char11 or v.
 type: docs

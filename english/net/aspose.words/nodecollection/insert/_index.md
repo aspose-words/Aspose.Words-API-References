@@ -1,5 +1,5 @@
 ---
-title: Insert
+title: NodeCollection.Insert
 second_title: Aspose.Words for .NET API Reference
 description: Inserts a node into the collection at the specified index.
 type: docs

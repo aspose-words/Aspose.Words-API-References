@@ -1,5 +1,5 @@
 ---
-title: Forms2OleControlType
+title: Enum Forms2OleControlType
 second_title: Aspose.Words for .NET API Reference
 description: Enumerates types of Forms 2.0 controls.
 type: docs

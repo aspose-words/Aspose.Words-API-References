@@ -1,5 +1,5 @@
 ---
-title: CellFormat
+title: Class CellFormat
 second_title: Aspose.Words for .NET API Reference
 description: Represents all formatting for a table cell.
 type: docs

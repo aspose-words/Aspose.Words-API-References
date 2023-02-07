@@ -1,5 +1,5 @@
 ---
-title: FieldInfo
+title: FieldInfo.FieldInfo
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

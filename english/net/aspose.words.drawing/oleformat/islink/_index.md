@@ -1,5 +1,5 @@
 ---
-title: IsLink
+title: OleFormat.IsLink
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if the OLE object is linked when SourceFullName is specified.
 type: docs

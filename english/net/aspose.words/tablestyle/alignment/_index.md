@@ -1,5 +1,5 @@
 ---
-title: Alignment
+title: TableStyle.Alignment
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the alignment for the table style.
 type: docs

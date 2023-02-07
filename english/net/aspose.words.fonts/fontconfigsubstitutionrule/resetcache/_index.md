@@ -1,5 +1,5 @@
 ---
-title: ResetCache
+title: FontConfigSubstitutionRule.ResetCache
 second_title: Aspose.Words for .NET API Reference
 description: Resets the cache of fontconfig calling results.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ColorPagesPrinted
+title: AsposeWordsPrintDocument.ColorPagesPrinted
 second_title: Aspose.Words for .NET API Reference
 description: Gets the number of pages printed in color i.e. with Color set to true.
 type: docs

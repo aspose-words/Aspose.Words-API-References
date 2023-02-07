@@ -1,5 +1,5 @@
 ---
-title: AlternateReferences
+title: WebExtension.AlternateReferences
 second_title: Aspose.Words for .NET API Reference
 description: Specifies alternate references to a web extension.
 type: docs

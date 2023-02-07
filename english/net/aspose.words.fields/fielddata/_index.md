@@ -1,5 +1,5 @@
 ---
-title: FieldData
+title: Class FieldData
 second_title: Aspose.Words for .NET API Reference
 description: Implements the DATA field.
 type: docs

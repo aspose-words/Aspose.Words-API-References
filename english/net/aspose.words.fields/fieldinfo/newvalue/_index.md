@@ -1,5 +1,5 @@
 ---
-title: NewValue
+title: FieldInfo.NewValue
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets an optional value that updates the property.
 type: docs

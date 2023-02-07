@@ -1,5 +1,5 @@
 ---
-title: Replacement
+title: ReplacingArgs.Replacement
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the replacement string.
 type: docs

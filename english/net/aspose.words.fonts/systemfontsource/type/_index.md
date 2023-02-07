@@ -1,5 +1,5 @@
 ---
-title: Type
+title: SystemFontSource.Type
 second_title: Aspose.Words for .NET API Reference
 description: Returns the type of the font source.
 type: docs

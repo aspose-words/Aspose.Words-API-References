@@ -1,5 +1,5 @@
 ---
-title: Table
+title: Table.Table
 second_title: Aspose.Words for .NET API Reference
 description: Initializes a new instance of the Table class.
 type: docs

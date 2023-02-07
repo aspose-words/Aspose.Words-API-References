@@ -1,5 +1,5 @@
 ---
-title: FontSaving
+title: IFontSavingCallback.FontSaving
 second_title: Aspose.Words for .NET API Reference
 description: Called when Aspose.Words is about to save a font resource.
 type: docs

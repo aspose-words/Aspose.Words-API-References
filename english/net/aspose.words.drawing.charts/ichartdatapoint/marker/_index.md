@@ -1,5 +1,5 @@
 ---
-title: Marker
+title: IChartDataPoint.Marker
 second_title: Aspose.Words for .NET API Reference
 description: Specifies a data marker. Marker is automatically created when requested.
 type: docs

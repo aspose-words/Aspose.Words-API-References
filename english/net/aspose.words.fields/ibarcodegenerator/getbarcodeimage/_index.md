@@ -1,5 +1,5 @@
 ---
-title: GetBarcodeImage
+title: IBarcodeGenerator.GetBarcodeImage
 second_title: Aspose.Words for .NET API Reference
 description: Generate barcode image using the set of parameters for DisplayBarcode field.
 type: docs

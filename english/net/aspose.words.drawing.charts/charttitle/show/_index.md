@@ -1,5 +1,5 @@
 ---
-title: Show
+title: ChartTitle.Show
 second_title: Aspose.Words for .NET API Reference
 description: Determines whether the title shall be shown for this chart. Default value is true.
 type: docs

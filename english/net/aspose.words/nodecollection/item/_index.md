@@ -1,5 +1,5 @@
 ---
-title: Item
+title: NodeCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Retrieves a node at the given index.
 type: docs

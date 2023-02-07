@@ -1,5 +1,5 @@
 ---
-title: VerticalAlignment
+title: CellFormat.VerticalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Returns or sets the vertical alignment of text in the cell.
 type: docs

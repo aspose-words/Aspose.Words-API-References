@@ -1,5 +1,5 @@
 ---
-title: FieldTemplate
+title: Class FieldTemplate
 second_title: Aspose.Words for .NET API Reference
 description: Implements the TEMPLATE field.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: DetectNumberingWithWhitespaces
+title: TxtLoadOptions.DetectNumberingWithWhitespaces
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify how numbered list items are recognized when document is imported from plain text format. The default value is true.
 type: docs

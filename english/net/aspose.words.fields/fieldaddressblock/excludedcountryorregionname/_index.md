@@ -1,5 +1,5 @@
 ---
-title: ExcludedCountryOrRegionName
+title: FieldAddressBlock.ExcludedCountryOrRegionName
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the excluded country/region name.
 type: docs

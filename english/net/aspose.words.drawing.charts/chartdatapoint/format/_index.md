@@ -1,5 +1,5 @@
 ---
-title: Format
+title: ChartDataPoint.Format
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to fill and line formatting of this data point.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: BoundsInPoints
+title: NodeRendererBase.BoundsInPoints
 second_title: Aspose.Words for .NET API Reference
 description: Gets the actual bounds of the shape in points.
 type: docs

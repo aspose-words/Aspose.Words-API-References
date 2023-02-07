@@ -1,5 +1,5 @@
 ---
-title: TextureIndex
+title: Enum TextureIndex
 second_title: Aspose.Words for .NET API Reference
 description: Specifies shading texture.
 type: docs

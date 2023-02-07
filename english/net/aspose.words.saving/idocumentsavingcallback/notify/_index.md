@@ -1,5 +1,5 @@
 ---
-title: Notify
+title: IDocumentSavingCallback.Notify
 second_title: Aspose.Words for .NET API Reference
 description: This is called to notify of document saving progress.
 type: docs

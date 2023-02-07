@@ -1,5 +1,5 @@
 ---
-title: UseHighQualityRendering
+title: SaveOptions.UseHighQualityRendering
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value determining whether or not to use high quality i.e. slow rendering algorithms.
 type: docs

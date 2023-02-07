@@ -1,5 +1,5 @@
 ---
-title: ComplexScript
+title: ThemeFonts.ComplexScript
 second_title: Aspose.Words for .NET API Reference
 description: Specifies font name for ComplexScript characters.
 type: docs

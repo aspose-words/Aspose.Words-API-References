@@ -1,5 +1,5 @@
 ---
-title: Read
+title: IDocumentReaderPlugin.Read
 second_title: Aspose.Words for .NET API Reference
 description: Reads the data from the specified stream into the Document instance.
 type: docs

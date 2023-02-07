@@ -1,5 +1,5 @@
 ---
-title: Position
+title: ChartLegend.Position
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the position of the legend on a chart. Default value is Right.
 type: docs

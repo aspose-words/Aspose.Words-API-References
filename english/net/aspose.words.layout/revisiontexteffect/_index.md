@@ -1,5 +1,5 @@
 ---
-title: RevisionTextEffect
+title: Enum RevisionTextEffect
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify decoration effect for revisions of document text.
 type: docs

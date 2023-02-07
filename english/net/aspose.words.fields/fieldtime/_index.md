@@ -1,5 +1,5 @@
 ---
-title: FieldTime
+title: Class FieldTime
 second_title: Aspose.Words for .NET API Reference
 description: Implements the TIME field.
 type: docs

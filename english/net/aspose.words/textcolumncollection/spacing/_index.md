@@ -1,5 +1,5 @@
 ---
-title: Spacing
+title: TextColumnCollection.Spacing
 second_title: Aspose.Words for .NET API Reference
 description: When columns are evenly spaced gets or sets the amount of space between each column in points.
 type: docs

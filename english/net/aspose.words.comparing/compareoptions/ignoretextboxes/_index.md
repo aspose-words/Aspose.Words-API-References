@@ -1,5 +1,5 @@
 ---
-title: IgnoreTextboxes
+title: CompareOptions.IgnoreTextboxes
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether to compare differences in the data contained within text boxes. By default textboxes are not ignored.
 type: docs

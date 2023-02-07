@@ -1,5 +1,5 @@
 ---
-title: NameFormat
+title: FieldGreetingLine.NameFormat
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the format of the name included in the field.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: BorderType
+title: Enum BorderType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies sides of a border.
 type: docs

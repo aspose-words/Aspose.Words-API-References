@@ -1,5 +1,5 @@
 ---
-title: TextEffect
+title: Font.TextEffect
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the font animation effect.
 type: docs

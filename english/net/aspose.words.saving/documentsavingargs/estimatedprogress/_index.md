@@ -1,5 +1,5 @@
 ---
-title: EstimatedProgress
+title: DocumentSavingArgs.EstimatedProgress
 second_title: Aspose.Words for .NET API Reference
 description: Overall estimated percentage progress.
 type: docs

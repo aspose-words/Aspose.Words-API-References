@@ -1,5 +1,5 @@
 ---
-title: UseWord2010TableStyleRules
+title: CompatibilityOptions.UseWord2010TableStyleRules
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs

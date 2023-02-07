@@ -1,5 +1,5 @@
 ---
-title: SignTime
+title: SignOptions.SignTime
 second_title: Aspose.Words for .NET API Reference
 description: The date of signing. Default value is current time Now.
 type: docs

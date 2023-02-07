@@ -1,5 +1,5 @@
 ---
-title: FieldUpdatingCallback
+title: FieldOptions.FieldUpdatingCallback
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets IFieldUpdatingCallback implementation
 type: docs

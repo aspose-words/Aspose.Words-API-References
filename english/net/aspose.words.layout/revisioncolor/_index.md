@@ -1,5 +1,5 @@
 ---
-title: RevisionColor
+title: Enum RevisionColor
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify color of document revisions.
 type: docs

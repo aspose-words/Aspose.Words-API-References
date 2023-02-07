@@ -1,5 +1,5 @@
 ---
-title: RevisionBarsWidth
+title: RevisionOptions.RevisionBarsWidth
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets width of revision bars points.
 type: docs

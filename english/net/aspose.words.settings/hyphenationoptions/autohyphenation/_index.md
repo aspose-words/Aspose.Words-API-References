@@ -1,5 +1,5 @@
 ---
-title: AutoHyphenation
+title: HyphenationOptions.AutoHyphenation
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets value determining whether automatic hyphenation is turned on for the document. Default value for this property is false.
 type: docs

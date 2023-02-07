@@ -1,5 +1,5 @@
 ---
-title: Light1
+title: ThemeColors.Light1
 second_title: Aspose.Words for .NET API Reference
 description: Specifies color Light 1.
 type: docs

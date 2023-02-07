@@ -1,5 +1,5 @@
 ---
-title: Encoding
+title: FileFormatInfo.Encoding
 second_title: Aspose.Words for .NET API Reference
 description: Gets the detected encoding if applicable to the current document format. At the moment detects encoding only for HTML documents.
 type: docs

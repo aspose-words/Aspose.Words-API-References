@@ -1,5 +1,5 @@
 ---
-title: FieldArgumentBuilder
+title: FieldArgumentBuilder.FieldArgumentBuilder
 second_title: Aspose.Words for .NET API Reference
 description: Initializes an instance of the FieldArgumentBuilder class.
 type: docs

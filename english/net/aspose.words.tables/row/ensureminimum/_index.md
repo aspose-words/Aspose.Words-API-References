@@ -1,5 +1,5 @@
 ---
-title: EnsureMinimum
+title: Row.EnsureMinimum
 second_title: Aspose.Words for .NET API Reference
 description: If the Row has no cells creates and appends one Cell.
 type: docs

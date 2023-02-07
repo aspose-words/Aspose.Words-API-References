@@ -1,5 +1,5 @@
 ---
-title: UpdateListLabels
+title: Document.UpdateListLabels
 second_title: Aspose.Words for .NET API Reference
 description: Updates list labels for all list items in the document.
 type: docs

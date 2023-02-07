@@ -1,5 +1,5 @@
 ---
-title: Add
+title: MappedDataFieldCollection.Add
 second_title: Aspose.Words for .NET API Reference
 description: Adds a new field mapping.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ToBool
+title: DocumentProperty.ToBool
 second_title: Aspose.Words for .NET API Reference
 description: Returns the property value as bool.
 type: docs

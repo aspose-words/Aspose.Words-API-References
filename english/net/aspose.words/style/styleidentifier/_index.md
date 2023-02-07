@@ -1,5 +1,5 @@
 ---
-title: StyleIdentifier
+title: Style.StyleIdentifier
 second_title: Aspose.Words for .NET API Reference
 description: Gets the locale independent style identifier for a builtin style.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Cell
+title: ControlChar.Cell
 second_title: Aspose.Words for .NET API Reference
 description: End of a table cell or end of a table row character x0007 or a.
 type: docs

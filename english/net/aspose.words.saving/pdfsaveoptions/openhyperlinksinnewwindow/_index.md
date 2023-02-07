@@ -1,5 +1,5 @@
 ---
-title: OpenHyperlinksInNewWindow
+title: PdfSaveOptions.OpenHyperlinksInNewWindow
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window or tab of a browser.
 type: docs

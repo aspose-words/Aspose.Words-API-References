@@ -1,5 +1,5 @@
 ---
-title: FieldInfo
+title: Class FieldInfo
 second_title: Aspose.Words for .NET API Reference
 description: Implements the INFO field.
 type: docs

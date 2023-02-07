@@ -1,5 +1,5 @@
 ---
-title: TitlesOfParts
+title: BuiltInDocumentProperties.TitlesOfParts
 second_title: Aspose.Words for .NET API Reference
 description: Each string in the array specifies the name of a part in the document.
 type: docs

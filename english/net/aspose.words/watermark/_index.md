@@ -1,5 +1,5 @@
 ---
-title: Watermark
+title: Class Watermark
 second_title: Aspose.Words for .NET API Reference
 description: Represents class to work with document watermark.
 type: docs

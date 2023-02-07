@@ -1,5 +1,5 @@
 ---
-title: MatchCase
+title: FindReplaceOptions.MatchCase
 second_title: Aspose.Words for .NET API Reference
 description: True indicates casesensitive comparison false indicates caseinsensitive comparison.
 type: docs

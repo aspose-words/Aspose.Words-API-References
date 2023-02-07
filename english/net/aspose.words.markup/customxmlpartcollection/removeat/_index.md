@@ -1,5 +1,5 @@
 ---
-title: RemoveAt
+title: CustomXmlPartCollection.RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: Removes an item at the specified index.
 type: docs

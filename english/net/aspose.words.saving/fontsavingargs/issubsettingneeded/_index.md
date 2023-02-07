@@ -1,5 +1,5 @@
 ---
-title: IsSubsettingNeeded
+title: FontSavingArgs.IsSubsettingNeeded
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify whether the current font will be subsetted before exporting as a font resource.
 type: docs

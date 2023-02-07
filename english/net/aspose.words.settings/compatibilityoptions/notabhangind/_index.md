@@ -1,5 +1,5 @@
 ---
-title: NoTabHangInd
+title: CompatibilityOptions.NoTabHangInd
 second_title: Aspose.Words for .NET API Reference
 description: Do Not Create Custom Tab Stop for Hanging Indent.
 type: docs

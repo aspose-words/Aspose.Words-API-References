@@ -1,5 +1,5 @@
 ---
-title: DuplicateStyle
+title: CleanupOptions.DuplicateStyle
 second_title: Aspose.Words for .NET API Reference
 description: Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is false.
 type: docs

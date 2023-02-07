@@ -1,5 +1,5 @@
 ---
-title: Lists
+title: DocumentBase.Lists
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to the list formatting used in the document.
 type: docs

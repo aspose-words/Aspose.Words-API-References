@@ -1,5 +1,5 @@
 ---
-title: DoNotWrapTextWithPunct
+title: CompatibilityOptions.DoNotWrapTextWithPunct
 second_title: Aspose.Words for .NET API Reference
 description: Do Not Allow Hanging Punctuation With Character Grid.
 type: docs

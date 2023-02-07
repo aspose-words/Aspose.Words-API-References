@@ -1,5 +1,5 @@
 ---
-title: DownsampleOptions
+title: Class DownsampleOptions
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify downsample options.
 type: docs

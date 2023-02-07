@@ -1,5 +1,5 @@
 ---
-title: RemoveAt
+title: SdtListItemCollection.RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: Removes a list item at the specified index.
 type: docs

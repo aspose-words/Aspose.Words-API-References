@@ -1,5 +1,5 @@
 ---
-title: Font
+title: ListLabel.Font
 second_title: Aspose.Words for .NET API Reference
 description: Gets the list label font.
 type: docs

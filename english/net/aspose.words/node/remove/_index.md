@@ -1,5 +1,5 @@
 ---
-title: Remove
+title: Node.Remove
 second_title: Aspose.Words for .NET API Reference
 description: Removes itself from the parent.
 type: docs

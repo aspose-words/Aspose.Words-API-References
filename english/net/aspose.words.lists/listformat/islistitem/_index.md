@@ -1,5 +1,5 @@
 ---
-title: IsListItem
+title: ListFormat.IsListItem
 second_title: Aspose.Words for .NET API Reference
 description: True when the paragraph has bulleted or numbered formatting applied to it.
 type: docs

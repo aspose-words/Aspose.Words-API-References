@@ -1,5 +1,5 @@
 ---
-title: PlainTextDocument
+title: PlainTextDocument.PlainTextDocument
 second_title: Aspose.Words for .NET API Reference
 description: Creates a plain text document from a file. Automatically detects the file format.
 type: docs

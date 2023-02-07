@@ -1,5 +1,5 @@
 ---
-title: EvenColumnBanding
+title: ConditionalStyleCollection.EvenColumnBanding
 second_title: Aspose.Words for .NET API Reference
 description: Gets the even column banding style.
 type: docs

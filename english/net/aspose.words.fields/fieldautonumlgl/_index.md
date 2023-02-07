@@ -1,5 +1,5 @@
 ---
-title: FieldAutoNumLgl
+title: Class FieldAutoNumLgl
 second_title: Aspose.Words for .NET API Reference
 description: Implements the AUTONUMLGL field.
 type: docs

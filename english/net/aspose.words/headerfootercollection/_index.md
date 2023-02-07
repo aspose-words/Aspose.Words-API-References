@@ -1,5 +1,5 @@
 ---
-title: HeaderFooterCollection
+title: Class HeaderFooterCollection
 second_title: Aspose.Words for .NET API Reference
 description: Provides typed access to HeaderFooter nodes of a Section.
 type: docs

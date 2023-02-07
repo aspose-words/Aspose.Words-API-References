@@ -1,5 +1,5 @@
 ---
-title: DashStyle
+title: Stroke.DashStyle
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the dot and dash pattern for a stroke.
 type: docs

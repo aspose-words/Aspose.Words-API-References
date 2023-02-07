@@ -1,5 +1,5 @@
 ---
-title: Index
+title: ChartDataPoint.Index
 second_title: Aspose.Words for .NET API Reference
 description: Index of the data point this object applies formatting to.
 type: docs

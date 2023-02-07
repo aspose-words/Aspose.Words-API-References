@@ -1,5 +1,5 @@
 ---
-title: DisplayName
+title: OlePackage.DisplayName
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets OLE Package display name.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Version
+title: BuiltInDocumentProperties.Version
 second_title: Aspose.Words for .NET API Reference
 description: Represents the version number of the application that created the document.
 type: docs

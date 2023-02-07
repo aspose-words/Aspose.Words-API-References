@@ -1,5 +1,5 @@
 ---
-title: PromptOnceOnMailMerge
+title: FieldAsk.PromptOnceOnMailMerge
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether the user response should be recieved once per a mail merge operation.
 type: docs

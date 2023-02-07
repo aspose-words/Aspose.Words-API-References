@@ -1,5 +1,5 @@
 ---
-title: CustomUnit
+title: AxisDisplayUnit.CustomUnit
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a userdefined divisor to scale display units on the value axis.
 type: docs

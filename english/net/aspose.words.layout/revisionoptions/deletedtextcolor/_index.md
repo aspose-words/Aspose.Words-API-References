@@ -1,5 +1,5 @@
 ---
-title: DeletedTextColor
+title: RevisionOptions.DeletedTextColor
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify the color to be used for deleted content Deletion. Default value is ByAuthor.
 type: docs

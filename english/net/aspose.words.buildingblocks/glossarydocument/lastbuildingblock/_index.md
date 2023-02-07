@@ -1,5 +1,5 @@
 ---
-title: LastBuildingBlock
+title: GlossaryDocument.LastBuildingBlock
 second_title: Aspose.Words for .NET API Reference
 description: Gets the last building block in the glossary document.
 type: docs

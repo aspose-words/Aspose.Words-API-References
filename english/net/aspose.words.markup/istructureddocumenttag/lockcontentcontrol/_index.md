@@ -1,5 +1,5 @@
 ---
-title: LockContentControl
+title: IStructuredDocumentTag.LockContentControl
 second_title: Aspose.Words for .NET API Reference
 description: When set to true this property will prohibit a user from deleting this SDT.
 type: docs

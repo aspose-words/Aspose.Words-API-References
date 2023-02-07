@@ -1,5 +1,5 @@
 ---
-title: OdtSaveMeasureUnit
+title: Enum OdtSaveMeasureUnit
 second_title: Aspose.Words for .NET API Reference
 description: Specified units of measure to apply to measurable document content such as shape widths and other during saving.
 type: docs

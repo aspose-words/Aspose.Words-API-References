@@ -1,5 +1,5 @@
 ---
-title: Width
+title: TaskPane.Width
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the default width value for this task pane instance.
 type: docs

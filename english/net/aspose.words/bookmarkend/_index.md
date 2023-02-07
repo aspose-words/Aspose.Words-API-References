@@ -1,5 +1,5 @@
 ---
-title: BookmarkEnd
+title: Class BookmarkEnd
 second_title: Aspose.Words for .NET API Reference
 description: Represents an end of a bookmark in a Word document.
 type: docs

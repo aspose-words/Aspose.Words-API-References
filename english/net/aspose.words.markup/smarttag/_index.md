@@ -1,5 +1,5 @@
 ---
-title: SmartTag
+title: Class SmartTag
 second_title: Aspose.Words for .NET API Reference
 description: This element specifies the presence of a smart tag around one or more inline structures runs images fieldsetc. within a paragraph.
 type: docs

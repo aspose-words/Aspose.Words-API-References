@@ -1,5 +1,5 @@
 ---
-title: ImageBytes
+title: Stroke.ImageBytes
 second_title: Aspose.Words for .NET API Reference
 description: Defines the image for a stroke image or pattern fill.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Shading
+title: CellFormat.Shading
 second_title: Aspose.Words for .NET API Reference
 description: Returns a Shading object that refers to the shading formatting for the cell.
 type: docs

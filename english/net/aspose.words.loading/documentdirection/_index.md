@@ -1,5 +1,5 @@
 ---
-title: DocumentDirection
+title: Enum DocumentDirection
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify the direction to flow the text in a document.
 type: docs

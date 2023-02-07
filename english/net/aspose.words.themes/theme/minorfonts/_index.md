@@ -1,5 +1,5 @@
 ---
-title: MinorFonts
+title: Theme.MinorFonts
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify the set of minor fonts for different languages.
 type: docs

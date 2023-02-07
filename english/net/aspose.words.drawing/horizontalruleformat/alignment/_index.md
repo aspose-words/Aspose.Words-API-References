@@ -1,5 +1,5 @@
 ---
-title: Alignment
+title: HorizontalRuleFormat.Alignment
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the alignment of the horizontal rule.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: DataLabels
+title: ChartSeries.DataLabels
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the settings for the data labels for the entire series.
 type: docs

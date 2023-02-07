@@ -1,5 +1,5 @@
 ---
-title: DeleteShapes
+title: Story.DeleteShapes
 second_title: Aspose.Words for .NET API Reference
 description: Deletes all shapes from the text of this story.
 type: docs

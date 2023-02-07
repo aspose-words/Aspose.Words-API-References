@@ -1,5 +1,5 @@
 ---
-title: CoordOrigin
+title: ShapeBase.CoordOrigin
 second_title: Aspose.Words for .NET API Reference
 description: The coordinates at the topleft corner of the containing block of this shape.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Reset
+title: LayoutEnumerator.Reset
 second_title: Aspose.Words for .NET API Reference
 description: Moves the enumerator to the first page of the document.
 type: docs

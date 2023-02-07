@@ -1,5 +1,5 @@
 ---
-title: UseWord97LineBreakRules
+title: CompatibilityOptions.UseWord97LineBreakRules
 second_title: Aspose.Words for .NET API Reference
 description: Emulate Word 97 East Asian Line Breaking.
 type: docs

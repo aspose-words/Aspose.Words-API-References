@@ -1,5 +1,5 @@
 ---
-title: CustomXmlPartCollection
+title: Class CustomXmlPartCollection
 second_title: Aspose.Words for .NET API Reference
 description: Represents a collection of Custom XML Parts. The items are CustomXmlPart objects.
 type: docs

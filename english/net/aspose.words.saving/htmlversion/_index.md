@@ -1,5 +1,5 @@
 ---
-title: HtmlVersion
+title: Enum HtmlVersion
 second_title: Aspose.Words for .NET API Reference
 description: Indicates the version of HTML is used when saving the document to Html and Mhtml formats.
 type: docs

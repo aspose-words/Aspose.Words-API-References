@@ -1,5 +1,5 @@
 ---
-title: Remove
+title: Watermark.Remove
 second_title: Aspose.Words for .NET API Reference
 description: Removes the watermark.
 type: docs

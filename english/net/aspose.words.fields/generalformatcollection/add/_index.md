@@ -1,5 +1,5 @@
 ---
-title: Add
+title: GeneralFormatCollection.Add
 second_title: Aspose.Words for .NET API Reference
 description: Adds a general format to the collection.
 type: docs

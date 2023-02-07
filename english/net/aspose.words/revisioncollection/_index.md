@@ -1,5 +1,5 @@
 ---
-title: RevisionCollection
+title: Class RevisionCollection
 second_title: Aspose.Words for .NET API Reference
 description: A collection of Revision objects that represent revisions in the document.
 type: docs

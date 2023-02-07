@@ -1,5 +1,5 @@
 ---
-title: SetImage
+title: ImageData.SetImage
 second_title: Aspose.Words for .NET API Reference
 description: Sets the image that the shape displays.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FieldCollection
+title: Class FieldCollection
 second_title: Aspose.Words for .NET API Reference
 description: A collection of Field objects that represents the fields in the specified range.
 type: docs

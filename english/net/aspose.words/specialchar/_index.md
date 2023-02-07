@@ -1,5 +1,5 @@
 ---
-title: SpecialChar
+title: Class SpecialChar
 second_title: Aspose.Words for .NET API Reference
 description: Base class for special characters in the document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: GetSubstitutes
+title: TableSubstitutionRule.GetSubstitutes
 second_title: Aspose.Words for .NET API Reference
 description: Returns array containing substitute font names for the specified original font name.
 type: docs

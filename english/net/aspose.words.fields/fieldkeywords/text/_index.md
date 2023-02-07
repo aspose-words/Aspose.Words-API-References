@@ -1,5 +1,5 @@
 ---
-title: Text
+title: FieldKeywords.Text
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the text of the keywords.
 type: docs

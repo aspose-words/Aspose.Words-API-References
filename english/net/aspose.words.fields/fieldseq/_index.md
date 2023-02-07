@@ -1,5 +1,5 @@
 ---
-title: FieldSeq
+title: Class FieldSeq
 second_title: Aspose.Words for .NET API Reference
 description: Implements the SEQ field.
 type: docs

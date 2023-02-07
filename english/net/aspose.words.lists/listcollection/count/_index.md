@@ -1,5 +1,5 @@
 ---
-title: Count
+title: ListCollection.Count
 second_title: Aspose.Words for .NET API Reference
 description: Gets the count of numbered and bulleted lists in the document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: InsertHtml
+title: DocumentBuilder.InsertHtml
 second_title: Aspose.Words for .NET API Reference
 description: Inserts an HTML string into the document.
 type: docs

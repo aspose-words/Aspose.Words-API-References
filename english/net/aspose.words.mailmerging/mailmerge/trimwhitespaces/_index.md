@@ -1,5 +1,5 @@
 ---
-title: TrimWhitespaces
+title: MailMerge.TrimWhitespaces
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value indicating whether trailing and leading whitespaces are trimmed from mail merge values.
 type: docs

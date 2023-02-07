@@ -1,5 +1,5 @@
 ---
-title: SetUncheckedSymbol
+title: StructuredDocumentTag.SetUncheckedSymbol
 second_title: Aspose.Words for .NET API Reference
 description: Sets the symbol used to represent the unchecked state of a check box content control.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: NodeType
+title: Cell.NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Returns Cell.
 type: docs

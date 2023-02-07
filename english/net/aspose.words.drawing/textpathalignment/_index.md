@@ -1,5 +1,5 @@
 ---
-title: TextPathAlignment
+title: Enum TextPathAlignment
 second_title: Aspose.Words for .NET API Reference
 description: WordArt alignment.
 type: docs

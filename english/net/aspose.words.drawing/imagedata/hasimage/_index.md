@@ -1,5 +1,5 @@
 ---
-title: HasImage
+title: ImageData.HasImage
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if the shape has image bytes or links an image.
 type: docs

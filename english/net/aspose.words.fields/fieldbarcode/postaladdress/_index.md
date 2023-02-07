@@ -1,5 +1,5 @@
 ---
-title: PostalAddress
+title: FieldBarcode.PostalAddress
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the postal address used for generating a barcode or the name of the bookmark that refers to it.
 type: docs

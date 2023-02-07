@@ -1,5 +1,5 @@
 ---
-title: SelectSingleNode
+title: CompositeNode.SelectSingleNode
 second_title: Aspose.Words for .NET API Reference
 description: Selects the first Node that matches the XPath expression.
 type: docs

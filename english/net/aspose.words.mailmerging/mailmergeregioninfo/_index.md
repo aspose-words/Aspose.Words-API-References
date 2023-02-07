@@ -1,5 +1,5 @@
 ---
-title: MailMergeRegionInfo
+title: Class MailMergeRegionInfo
 second_title: Aspose.Words for .NET API Reference
 description: Contains information about a mail merge region.
 type: docs

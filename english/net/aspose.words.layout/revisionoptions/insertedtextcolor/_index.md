@@ -1,5 +1,5 @@
 ---
-title: InsertedTextColor
+title: RevisionOptions.InsertedTextColor
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify the color to be used for inserted content Insertion. Default value is ByAuthor.
 type: docs

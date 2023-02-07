@@ -1,5 +1,5 @@
 ---
-title: IsBold
+title: FieldXE.IsBold
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to apply bold formatting to the entrys page number.
 type: docs

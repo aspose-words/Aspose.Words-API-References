@@ -1,5 +1,5 @@
 ---
-title: RelativeVerticalPosition
+title: ShapeBase.RelativeVerticalPosition
 second_title: Aspose.Words for .NET API Reference
 description: Specifies relative to what the shape is positioned vertically.
 type: docs

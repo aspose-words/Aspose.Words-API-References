@@ -1,5 +1,5 @@
 ---
-title: SymbolHeight
+title: FieldMergeBarcode.SymbolHeight
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the height of the symbol. The units are in TWIPS 1/1440 inch.
 type: docs

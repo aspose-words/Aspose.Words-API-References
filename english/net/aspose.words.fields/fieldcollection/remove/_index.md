@@ -1,5 +1,5 @@
 ---
-title: Remove
+title: FieldCollection.Remove
 second_title: Aspose.Words for .NET API Reference
 description: Removes the specified field from this collection and from the document.
 type: docs

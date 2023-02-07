@@ -1,5 +1,5 @@
 ---
-title: TabStops
+title: ParagraphFormat.TabStops
 second_title: Aspose.Words for .NET API Reference
 description: Gets the collection of custom tab stops defined for this object.
 type: docs

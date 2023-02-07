@@ -1,5 +1,5 @@
 ---
-title: NumeralFormat
+title: FixedPageSaveOptions.NumeralFormat
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets NumeralFormat used for rendering of numerals. European numerals are used by default.
 type: docs

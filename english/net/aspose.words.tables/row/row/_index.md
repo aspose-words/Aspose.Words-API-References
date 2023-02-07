@@ -1,5 +1,5 @@
 ---
-title: Row
+title: Row.Row
 second_title: Aspose.Words for .NET API Reference
 description: Initializes a new instance of the Row class.
 type: docs

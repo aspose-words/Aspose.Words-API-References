@@ -1,5 +1,5 @@
 ---
-title: Tab
+title: ControlChar.Tab
 second_title: Aspose.Words for .NET API Reference
 description: Tab character x0009 or t.
 type: docs

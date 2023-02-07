@@ -1,5 +1,5 @@
 ---
-title: ResourceLoadingCallback
+title: LoadOptions.ResourceLoadingCallback
 second_title: Aspose.Words for .NET API Reference
 description: Allows to control how external resources images style sheets are loaded when a document is imported from HTML MHTML.
 type: docs

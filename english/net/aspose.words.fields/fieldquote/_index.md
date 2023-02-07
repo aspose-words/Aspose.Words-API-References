@@ -1,5 +1,5 @@
 ---
-title: FieldQuote
+title: Class FieldQuote
 second_title: Aspose.Words for .NET API Reference
 description: Implements the QUOTE field.
 type: docs

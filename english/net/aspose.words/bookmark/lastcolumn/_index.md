@@ -1,5 +1,5 @@
 ---
-title: LastColumn
+title: Bookmark.LastColumn
 second_title: Aspose.Words for .NET API Reference
 description: Gets the zerobased index of the last column of the table column range associated with the bookmark.
 type: docs

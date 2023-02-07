@@ -1,5 +1,5 @@
 ---
-title: Name
+title: FontInfo.Name
 second_title: Aspose.Words for .NET API Reference
 description: Gets the name of the font.
 type: docs

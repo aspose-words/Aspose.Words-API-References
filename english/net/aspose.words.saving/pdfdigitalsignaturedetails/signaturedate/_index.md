@@ -1,5 +1,5 @@
 ---
-title: SignatureDate
+title: PdfDigitalSignatureDetails.SignatureDate
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the date of the signing.
 type: docs

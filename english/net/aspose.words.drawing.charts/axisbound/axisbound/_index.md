@@ -1,5 +1,5 @@
 ---
-title: AxisBound
+title: AxisBound.AxisBound
 second_title: Aspose.Words for .NET API Reference
 description: Creates a new instance indicating that axis bound should be determined automatically by a wordprocessing application.
 type: docs

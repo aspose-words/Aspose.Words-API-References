@@ -1,5 +1,5 @@
 ---
-title: StartTable
+title: DocumentBuilder.StartTable
 second_title: Aspose.Words for .NET API Reference
 description: Starts a table in the document.
 type: docs

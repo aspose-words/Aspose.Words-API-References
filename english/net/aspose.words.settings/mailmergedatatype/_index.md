@@ -1,5 +1,5 @@
 ---
-title: MailMergeDataType
+title: Enum MailMergeDataType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of an external mail merge data source.
 type: docs

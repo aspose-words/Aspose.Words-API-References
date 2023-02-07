@@ -1,5 +1,5 @@
 ---
-title: StyleIdentifier
+title: Font.StyleIdentifier
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the locale independent style identifier of the character style applied to this formatting.
 type: docs

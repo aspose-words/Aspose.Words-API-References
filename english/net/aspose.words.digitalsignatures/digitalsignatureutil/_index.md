@@ -1,5 +1,5 @@
 ---
-title: DigitalSignatureUtil
+title: Class DigitalSignatureUtil
 second_title: Aspose.Words for .NET API Reference
 description: Provides methods for signing document.
 type: docs

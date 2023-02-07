@@ -1,5 +1,5 @@
 ---
-title: Item
+title: CommentCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Retrieves a Comment at the given index.
 type: docs

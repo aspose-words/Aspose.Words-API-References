@@ -1,5 +1,5 @@
 ---
-title: StopTrackRevisions
+title: Document.StopTrackRevisions
 second_title: Aspose.Words for .NET API Reference
 description: Stops automatic marking of document changes as revisions.
 type: docs

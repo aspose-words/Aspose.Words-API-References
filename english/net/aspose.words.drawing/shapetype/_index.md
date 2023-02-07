@@ -1,5 +1,5 @@
 ---
-title: ShapeType
+title: Enum ShapeType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of shape in a Microsoft Word document.
 type: docs

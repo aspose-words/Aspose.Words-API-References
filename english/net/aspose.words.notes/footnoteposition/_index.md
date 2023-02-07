@@ -1,5 +1,5 @@
 ---
-title: FootnotePosition
+title: Enum FootnotePosition
 second_title: Aspose.Words for .NET API Reference
 description: Defines the footnote position.
 type: docs

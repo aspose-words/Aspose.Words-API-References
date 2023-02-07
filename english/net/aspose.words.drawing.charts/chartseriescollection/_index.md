@@ -1,5 +1,5 @@
 ---
-title: ChartSeriesCollection
+title: Class ChartSeriesCollection
 second_title: Aspose.Words for .NET API Reference
 description: Represents collection of a ChartSeries.
 type: docs

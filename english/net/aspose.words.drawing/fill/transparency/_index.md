@@ -1,5 +1,5 @@
 ---
-title: Transparency
+title: Fill.Transparency
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the degree of transparency of the specified fill as a value between 0.0 opaque and 1.0 clear.
 type: docs

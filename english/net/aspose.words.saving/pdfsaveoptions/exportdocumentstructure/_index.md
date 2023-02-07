@@ -1,5 +1,5 @@
 ---
-title: ExportDocumentStructure
+title: PdfSaveOptions.ExportDocumentStructure
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value determining whether or not to export document structure.
 type: docs

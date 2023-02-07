@@ -1,5 +1,5 @@
 ---
-title: FieldFileSize
+title: FieldFileSize.FieldFileSize
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

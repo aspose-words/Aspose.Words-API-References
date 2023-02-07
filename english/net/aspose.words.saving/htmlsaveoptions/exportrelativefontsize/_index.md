@@ -1,5 +1,5 @@
 ---
-title: ExportRelativeFontSize
+title: HtmlSaveOptions.ExportRelativeFontSize
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether font sizes should be output in relative units when saving to HTML MHTML or EPUB. Default is false.
 type: docs

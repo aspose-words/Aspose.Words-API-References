@@ -1,5 +1,5 @@
 ---
-title: Document
+title: LayoutCollector.Document
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the document this collector instance is attached to.
 type: docs

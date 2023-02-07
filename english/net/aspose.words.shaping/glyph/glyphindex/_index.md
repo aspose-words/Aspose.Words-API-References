@@ -1,5 +1,5 @@
 ---
-title: GlyphIndex
+title: Glyph.GlyphIndex
 second_title: Aspose.Words for .NET API Reference
 description: Index of the glyph GID in the physical font.
 type: docs

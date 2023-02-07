@@ -1,5 +1,5 @@
 ---
-title: NodeType
+title: Comment.NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Returns Comment.
 type: docs

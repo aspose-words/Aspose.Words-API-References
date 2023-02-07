@@ -1,5 +1,5 @@
 ---
-title: EntryMacro
+title: FormField.EntryMacro
 second_title: Aspose.Words for .NET API Reference
 description: Returns or sets an entry macro name for the form field.
 type: docs

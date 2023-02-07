@@ -1,5 +1,5 @@
 ---
-title: GeneralFormat
+title: Enum GeneralFormat
 second_title: Aspose.Words for .NET API Reference
 description: Specifies a general format that is applied to a numeric text or any field result. A field may have a combination of general formats.
 type: docs

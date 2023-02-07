@@ -1,5 +1,5 @@
 ---
-title: VisitEditableRangeStart
+title: DocumentVisitor.VisitEditableRangeStart
 second_title: Aspose.Words for .NET API Reference
 description: Called when a start of an editable range is encountered in the document.
 type: docs

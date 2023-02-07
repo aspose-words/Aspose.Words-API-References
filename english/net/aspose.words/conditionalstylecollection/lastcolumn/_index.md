@@ -1,5 +1,5 @@
 ---
-title: LastColumn
+title: ConditionalStyleCollection.LastColumn
 second_title: Aspose.Words for .NET API Reference
 description: Gets the last column style.
 type: docs

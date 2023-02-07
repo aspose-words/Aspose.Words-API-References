@@ -1,5 +1,5 @@
 ---
-title: Delete
+title: Range.Delete
 second_title: Aspose.Words for .NET API Reference
 description: Deletes all characters of the range.
 type: docs

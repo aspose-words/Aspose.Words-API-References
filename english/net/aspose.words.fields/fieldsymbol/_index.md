@@ -1,5 +1,5 @@
 ---
-title: FieldSymbol
+title: Class FieldSymbol
 second_title: Aspose.Words for .NET API Reference
 description: Implements a SYMBOL field.
 type: docs

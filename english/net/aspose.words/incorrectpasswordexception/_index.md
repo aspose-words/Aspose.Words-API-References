@@ -1,5 +1,5 @@
 ---
-title: IncorrectPasswordException
+title: Class IncorrectPasswordException
 second_title: Aspose.Words for .NET API Reference
 description: Thrown if a document is encrypted with a password and the password specified when opening the document is incorrect or missing.
 type: docs

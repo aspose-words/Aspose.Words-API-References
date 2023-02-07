@@ -1,5 +1,5 @@
 ---
-title: Document
+title: Document.Document
 second_title: Aspose.Words for .NET API Reference
 description: Creates a blank Word document.
 type: docs

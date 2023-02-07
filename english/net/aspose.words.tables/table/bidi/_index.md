@@ -1,5 +1,5 @@
 ---
-title: Bidi
+title: Table.Bidi
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether this is a righttoleft table.
 type: docs

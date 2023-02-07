@@ -1,5 +1,5 @@
 ---
-title: Event
+title: PageLayoutCallbackArgs.Event
 second_title: Aspose.Words for .NET API Reference
 description: Gets event.
 type: docs

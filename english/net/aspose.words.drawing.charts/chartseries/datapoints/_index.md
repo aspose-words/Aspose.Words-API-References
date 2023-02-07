@@ -1,5 +1,5 @@
 ---
-title: DataPoints
+title: ChartSeries.DataPoints
 second_title: Aspose.Words for .NET API Reference
 description: Returns a collection of formatting objects for all data points in this series.
 type: docs

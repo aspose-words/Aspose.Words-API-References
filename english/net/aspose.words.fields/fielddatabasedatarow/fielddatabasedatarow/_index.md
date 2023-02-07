@@ -1,5 +1,5 @@
 ---
-title: FieldDatabaseDataRow
+title: FieldDatabaseDataRow.FieldDatabaseDataRow
 second_title: Aspose.Words for .NET API Reference
 description: Initializes a new instance of the FieldDatabaseDataRow class.
 type: docs

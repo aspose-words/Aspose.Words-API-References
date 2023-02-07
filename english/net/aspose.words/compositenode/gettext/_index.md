@@ -1,5 +1,5 @@
 ---
-title: GetText
+title: CompositeNode.GetText
 second_title: Aspose.Words for .NET API Reference
 description: Gets the text of this node and of all its children.
 type: docs

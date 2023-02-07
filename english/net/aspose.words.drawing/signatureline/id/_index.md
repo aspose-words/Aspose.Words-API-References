@@ -1,5 +1,5 @@
 ---
-title: Id
+title: SignatureLine.Id
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets identifier for this signature line.
 type: docs

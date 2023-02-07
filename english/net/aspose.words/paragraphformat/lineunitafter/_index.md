@@ -1,5 +1,5 @@
 ---
-title: LineUnitAfter
+title: ParagraphFormat.LineUnitAfter
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the amount of spacing in gridlines after the paragraphs.
 type: docs

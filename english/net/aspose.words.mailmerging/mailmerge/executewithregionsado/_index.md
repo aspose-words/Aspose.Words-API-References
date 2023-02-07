@@ -1,5 +1,5 @@
 ---
-title: ExecuteWithRegionsADO
+title: MailMerge.ExecuteWithRegionsADO
 second_title: Aspose.Words for .NET API Reference
 description: Performs mail merge from an ADO Recordset object into the document with mail merge regions.
 type: docs

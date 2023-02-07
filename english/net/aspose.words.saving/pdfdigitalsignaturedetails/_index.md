@@ -1,5 +1,5 @@
 ---
-title: PdfDigitalSignatureDetails
+title: Class PdfDigitalSignatureDetails
 second_title: Aspose.Words for .NET API Reference
 description: Contains details for signing a PDF document with a digital signature.
 type: docs

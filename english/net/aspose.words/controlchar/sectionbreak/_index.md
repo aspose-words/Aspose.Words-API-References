@@ -1,5 +1,5 @@
 ---
-title: SectionBreak
+title: ControlChar.SectionBreak
 second_title: Aspose.Words for .NET API Reference
 description: End of section character x000c or f. Note it has the same value as PageBreak.
 type: docs

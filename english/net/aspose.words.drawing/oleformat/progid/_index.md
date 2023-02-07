@@ -1,5 +1,5 @@
 ---
-title: ProgId
+title: OleFormat.ProgId
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the ProgID of the OLE object.
 type: docs

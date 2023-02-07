@@ -1,5 +1,5 @@
 ---
-title: BarcodeType
+title: FieldDisplayBarcode.BarcodeType
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the barcode type QR etc.
 type: docs

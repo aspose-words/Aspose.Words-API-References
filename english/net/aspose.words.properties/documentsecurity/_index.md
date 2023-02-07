@@ -1,5 +1,5 @@
 ---
-title: DocumentSecurity
+title: Enum DocumentSecurity
 second_title: Aspose.Words for .NET API Reference
 description: Used as a value for the Security property. Specifies the security level of a document as a numeric value.
 type: docs

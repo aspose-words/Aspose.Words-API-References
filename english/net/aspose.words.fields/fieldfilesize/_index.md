@@ -1,5 +1,5 @@
 ---
-title: FieldFileSize
+title: Class FieldFileSize
 second_title: Aspose.Words for .NET API Reference
 description: Implements the FILESIZE field.
 type: docs

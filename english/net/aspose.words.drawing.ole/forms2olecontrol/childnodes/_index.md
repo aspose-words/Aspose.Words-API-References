@@ -1,5 +1,5 @@
 ---
-title: ChildNodes
+title: Forms2OleControl.ChildNodes
 second_title: Aspose.Words for .NET API Reference
 description: Gets collection of immediate child controls.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Add
+title: BaseWebExtensionCollection1.Add
 second_title: Aspose.Words for .NET API Reference
 description: Adds specified item to the collection.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ExportEmbeddedImages
+title: HtmlFixedSaveOptions.ExportEmbeddedImages
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether images should be embedded into Html document in Base64 format. Note setting this flag can significantly increase size of output Html file.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FullDate
+title: StructuredDocumentTag.FullDate
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the full date and time last entered into this SDT.
 type: docs

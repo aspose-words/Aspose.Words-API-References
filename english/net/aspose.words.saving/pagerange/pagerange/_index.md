@@ -1,5 +1,5 @@
 ---
-title: PageRange
+title: PageRange.PageRange
 second_title: Aspose.Words for .NET API Reference
 description: Creates a new page range object.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: AxisCrosses
+title: Enum AxisCrosses
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the possible crossing points for an axis.
 type: docs

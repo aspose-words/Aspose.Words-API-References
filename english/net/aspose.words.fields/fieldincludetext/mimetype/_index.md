@@ -1,5 +1,5 @@
 ---
-title: MimeType
+title: FieldIncludeText.MimeType
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the MIME type of the referenced file.
 type: docs

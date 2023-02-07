@@ -1,5 +1,5 @@
 ---
-title: DigitalSignature
+title: Class DigitalSignature
 second_title: Aspose.Words for .NET API Reference
 description: Represents a digital signature on a document and the result of its verification.
 type: docs

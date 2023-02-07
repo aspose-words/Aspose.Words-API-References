@@ -1,5 +1,5 @@
 ---
-title: Checked
+title: FormField.Checked
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the checked status of the check box form field. Default value for this property is false.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ImageBytes
+title: Fill.ImageBytes
 second_title: Aspose.Words for .NET API Reference
 description: Gets the raw bytes of the fill texture or pattern.
 type: docs

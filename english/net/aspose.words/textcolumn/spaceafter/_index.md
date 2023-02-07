@@ -1,5 +1,5 @@
 ---
-title: SpaceAfter
+title: TextColumn.SpaceAfter
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the space between this column and the next column in points. Not required for the last column.
 type: docs

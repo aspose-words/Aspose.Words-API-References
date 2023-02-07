@@ -1,5 +1,5 @@
 ---
-title: ShowRevisionBars
+title: RevisionOptions.ShowRevisionBars
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify whether revision bars should be rendered near lines containing revised content. Default value is true.
 type: docs

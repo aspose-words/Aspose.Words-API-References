@@ -1,5 +1,5 @@
 ---
-title: DeleteFields
+title: MailMerge.DeleteFields
 second_title: Aspose.Words for .NET API Reference
 description: Removes mail merge related fields from the document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FollowedHyperlink
+title: ThemeColors.FollowedHyperlink
 second_title: Aspose.Words for .NET API Reference
 description: Specifies color for a clicked hyperlink.
 type: docs

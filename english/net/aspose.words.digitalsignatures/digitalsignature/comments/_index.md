@@ -1,5 +1,5 @@
 ---
-title: Comments
+title: DigitalSignature.Comments
 second_title: Aspose.Words for .NET API Reference
 description: Gets the signing purpose comment.
 type: docs

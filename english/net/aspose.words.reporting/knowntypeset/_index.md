@@ -1,5 +1,5 @@
 ---
-title: KnownTypeSet
+title: Class KnownTypeSet
 second_title: Aspose.Words for .NET API Reference
 description: Represents an unordered set i.e. a collection of unique items containing Type objects which fully or partially qualified names can be used within report templates to invoke the corresponding types static members perform type casts etc.
 type: docs

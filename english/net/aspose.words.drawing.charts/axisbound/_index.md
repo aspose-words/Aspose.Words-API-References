@@ -1,5 +1,5 @@
 ---
-title: AxisBound
+title: Class AxisBound
 second_title: Aspose.Words for .NET API Reference
 description: Represents minimum or maximum bound of axis values.
 type: docs

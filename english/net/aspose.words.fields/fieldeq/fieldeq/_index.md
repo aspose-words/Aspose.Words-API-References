@@ -1,5 +1,5 @@
 ---
-title: FieldEQ
+title: FieldEQ.FieldEQ
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: BreakForwardLink
+title: TextBox.BreakForwardLink
 second_title: Aspose.Words for .NET API Reference
 description: Breaks the link to the next TextBox.
 type: docs

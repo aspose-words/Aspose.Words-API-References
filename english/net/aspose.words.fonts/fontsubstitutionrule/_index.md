@@ -1,5 +1,5 @@
 ---
-title: FontSubstitutionRule
+title: Class FontSubstitutionRule
 second_title: Aspose.Words for .NET API Reference
 description: This is an abstract base class for the font substitution rule.
 type: docs

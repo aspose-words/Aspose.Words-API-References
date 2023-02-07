@@ -1,5 +1,5 @@
 ---
-title: FontSettings
+title: FontSettings.FontSettings
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

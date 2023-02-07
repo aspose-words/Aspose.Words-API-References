@@ -1,5 +1,5 @@
 ---
-title: ClearFormat
+title: ChartDataLabelCollection.ClearFormat
 second_title: Aspose.Words for .NET API Reference
 description: Clears format of all ChartDataLabel in this collection.
 type: docs

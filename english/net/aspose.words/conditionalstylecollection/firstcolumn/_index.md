@@ -1,5 +1,5 @@
 ---
-title: FirstColumn
+title: ConditionalStyleCollection.FirstColumn
 second_title: Aspose.Words for .NET API Reference
 description: Gets the first column style.
 type: docs

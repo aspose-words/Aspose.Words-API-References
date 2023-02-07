@@ -1,5 +1,5 @@
 ---
-title: Clone
+title: Document.Clone
 second_title: Aspose.Words for .NET API Reference
 description: Performs a deep copy of the Document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FootnoteType
+title: Footnote.FootnoteType
 second_title: Aspose.Words for .NET API Reference
 description: Returns a value that specifies whether this is a footnote or endnote.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: DoNotSuppressIndentation
+title: CompatibilityOptions.DoNotSuppressIndentation
 second_title: Aspose.Words for .NET API Reference
 description: Do Not Ignore Floating Objects When Calculating Paragraph Indentation.
 type: docs

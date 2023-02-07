@@ -1,5 +1,5 @@
 ---
-title: TextureAlignment
+title: Enum TextureAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the alignment for the tiling of the texture fill.
 type: docs

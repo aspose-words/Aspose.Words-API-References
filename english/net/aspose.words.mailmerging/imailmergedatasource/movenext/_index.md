@@ -1,5 +1,5 @@
 ---
-title: MoveNext
+title: IMailMergeDataSource.MoveNext
 second_title: Aspose.Words for .NET API Reference
 description: Advances to the next record in the data source.
 type: docs

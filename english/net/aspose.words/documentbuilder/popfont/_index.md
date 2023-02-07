@@ -1,5 +1,5 @@
 ---
-title: PopFont
+title: DocumentBuilder.PopFont
 second_title: Aspose.Words for .NET API Reference
 description: Retrieves character formatting previously saved on the stack.
 type: docs

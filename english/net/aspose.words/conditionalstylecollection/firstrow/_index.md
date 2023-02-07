@@ -1,5 +1,5 @@
 ---
-title: FirstRow
+title: ConditionalStyleCollection.FirstRow
 second_title: Aspose.Words for .NET API Reference
 description: Gets the first row style.
 type: docs

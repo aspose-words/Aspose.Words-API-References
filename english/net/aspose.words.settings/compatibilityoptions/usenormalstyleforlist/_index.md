@@ -1,5 +1,5 @@
 ---
-title: UseNormalStyleForList
+title: CompatibilityOptions.UseNormalStyleForList
 second_title: Aspose.Words for .NET API Reference
 description: Do Not Automatically Apply List Paragraph Style To Bulleted/Numbered Text.
 type: docs

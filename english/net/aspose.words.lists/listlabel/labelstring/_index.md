@@ -1,5 +1,5 @@
 ---
-title: LabelString
+title: ListLabel.LabelString
 second_title: Aspose.Words for .NET API Reference
 description: Gets a string representation of list label.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: NodeType
+title: StructuredDocumentTagRangeEnd.NodeType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs

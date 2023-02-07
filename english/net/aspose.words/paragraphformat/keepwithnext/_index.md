@@ -1,5 +1,5 @@
 ---
-title: KeepWithNext
+title: ParagraphFormat.KeepWithNext
 second_title: Aspose.Words for .NET API Reference
 description: True if the paragraph is to remains on the same page as the paragraph that follows it.
 type: docs

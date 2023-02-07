@@ -1,5 +1,5 @@
 ---
-title: Font
+title: ConditionalStyle.Font
 second_title: Aspose.Words for .NET API Reference
 description: Gets the character formatting of the conditional style.
 type: docs

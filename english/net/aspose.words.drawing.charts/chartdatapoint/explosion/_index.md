@@ -1,5 +1,5 @@
 ---
-title: Explosion
+title: ChartDataPoint.Explosion
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs

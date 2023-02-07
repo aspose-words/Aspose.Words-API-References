@@ -1,5 +1,5 @@
 ---
-title: GetEnumerator
+title: ListLevelCollection.GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: Gets the enumerator object that will enumerate levels in this list.
 type: docs

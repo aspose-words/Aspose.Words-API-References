@@ -1,5 +1,5 @@
 ---
-title: Replace
+title: Range.Replace
 second_title: Aspose.Words for .NET API Reference
 description: Replaces all occurrences of a specified character string pattern with a replacement string.
 type: docs

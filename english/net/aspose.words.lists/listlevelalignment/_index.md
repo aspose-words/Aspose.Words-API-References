@@ -1,5 +1,5 @@
 ---
-title: ListLevelAlignment
+title: Enum ListLevelAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Specifies alignment for the list number or bullet.
 type: docs

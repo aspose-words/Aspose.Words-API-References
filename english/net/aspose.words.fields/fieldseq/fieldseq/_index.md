@@ -1,5 +1,5 @@
 ---
-title: FieldSeq
+title: FieldSeq.FieldSeq
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

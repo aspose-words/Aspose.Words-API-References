@@ -1,5 +1,5 @@
 ---
-title: ColumnNames
+title: FieldDatabaseDataTable.ColumnNames
 second_title: Aspose.Words for .NET API Reference
 description: Gets columns that belong to this table.
 type: docs

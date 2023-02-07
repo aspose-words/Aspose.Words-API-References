@@ -1,5 +1,5 @@
 ---
-title: BottomMargin
+title: PageSetup.BottomMargin
 second_title: Aspose.Words for .NET API Reference
 description: Returns or sets the distance in points between the bottom edge of the page and the bottom boundary of the body text.
 type: docs

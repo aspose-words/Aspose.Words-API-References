@@ -1,5 +1,5 @@
 ---
-title: IgnoreOleData
+title: LoadOptions.IgnoreOleData
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether to ignore the OLE data.
 type: docs

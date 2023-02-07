@@ -1,5 +1,5 @@
 ---
-title: FieldCreateDate
+title: Class FieldCreateDate
 second_title: Aspose.Words for .NET API Reference
 description: Implements the CREATEDATE field.
 type: docs

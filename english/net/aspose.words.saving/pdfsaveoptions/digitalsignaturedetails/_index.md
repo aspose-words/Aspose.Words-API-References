@@ -1,5 +1,5 @@
 ---
-title: DigitalSignatureDetails
+title: PdfSaveOptions.DigitalSignatureDetails
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the details for signing the output PDF document.
 type: docs

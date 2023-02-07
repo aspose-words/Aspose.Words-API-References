@@ -1,5 +1,5 @@
 ---
-title: CropLeft
+title: ImageData.CropLeft
 second_title: Aspose.Words for .NET API Reference
 description: Defines the fraction of picture removal from the left side.
 type: docs

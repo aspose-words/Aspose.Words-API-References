@@ -1,5 +1,5 @@
 ---
-title: TxtExportHeadersFootersMode
+title: Enum TxtExportHeadersFootersMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the way headers and footers are exported to plain text format.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: OmitPageNumber
+title: FieldTC.OmitPageNumber
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether page number in TOC should be omitted for this field.
 type: docs

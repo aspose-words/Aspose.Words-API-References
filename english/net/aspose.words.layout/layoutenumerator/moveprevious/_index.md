@@ -1,5 +1,5 @@
 ---
-title: MovePrevious
+title: LayoutEnumerator.MovePrevious
 second_title: Aspose.Words for .NET API Reference
 description: Moves to the previous sibling entity.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: GroupName
+title: ReplacingArgs.GroupName
 second_title: Aspose.Words for .NET API Reference
 description: Identifies by name a captured group in the Match that is to be replaced with the Replacement string.
 type: docs

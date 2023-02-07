@@ -1,5 +1,5 @@
 ---
-title: CurrentStructuredDocumentTag
+title: DocumentBuilder.CurrentStructuredDocumentTag
 second_title: Aspose.Words for .NET API Reference
 description: Gets the structured document tag that is currently selected in this DocumentBuilder.
 type: docs

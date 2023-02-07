@@ -1,5 +1,5 @@
 ---
-title: PreferredWidth
+title: Table.PreferredWidth
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the table preferred width.
 type: docs

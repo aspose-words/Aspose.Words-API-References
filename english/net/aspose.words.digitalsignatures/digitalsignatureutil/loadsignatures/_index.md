@@ -1,5 +1,5 @@
 ---
-title: LoadSignatures
+title: DigitalSignatureUtil.LoadSignatures
 second_title: Aspose.Words for .NET API Reference
 description: Loads digital signatures from document.
 type: docs

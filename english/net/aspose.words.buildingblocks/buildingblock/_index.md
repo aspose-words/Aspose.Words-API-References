@@ -1,5 +1,5 @@
 ---
-title: BuildingBlock
+title: Class BuildingBlock
 second_title: Aspose.Words for .NET API Reference
 description: Represents a glossary document entry such as a Building Block AutoText or an AutoCorrect entry.
 type: docs

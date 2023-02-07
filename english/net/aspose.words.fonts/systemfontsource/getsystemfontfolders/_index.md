@@ -1,5 +1,5 @@
 ---
-title: GetSystemFontFolders
+title: SystemFontSource.GetSystemFontFolders
 second_title: Aspose.Words for .NET API Reference
 description: Returns system font folders or empty array if folders are not accessible.
 type: docs

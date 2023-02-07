@@ -1,5 +1,5 @@
 ---
-title: Tables
+title: Story.Tables
 second_title: Aspose.Words for .NET API Reference
 description: Gets a collection of tables that are immediate children of the story.
 type: docs

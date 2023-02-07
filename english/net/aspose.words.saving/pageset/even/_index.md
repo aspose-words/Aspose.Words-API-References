@@ -1,5 +1,5 @@
 ---
-title: Even
+title: PageSet.Even
 second_title: Aspose.Words for .NET API Reference
 description: Gets a set with all the even pages of the document in their original order.
 type: docs

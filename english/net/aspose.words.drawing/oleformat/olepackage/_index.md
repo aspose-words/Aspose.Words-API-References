@@ -1,5 +1,5 @@
 ---
-title: OlePackage
+title: OleFormat.OlePackage
 second_title: Aspose.Words for .NET API Reference
 description: Provide access to OlePackage if OLE object is an OLE Package. Returns null otherwise.
 type: docs

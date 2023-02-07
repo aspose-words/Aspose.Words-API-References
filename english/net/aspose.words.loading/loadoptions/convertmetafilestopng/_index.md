@@ -1,5 +1,5 @@
 ---
-title: ConvertMetafilesToPng
+title: LoadOptions.ConvertMetafilesToPng
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to convert metafile Wmf or Emf images to Png image format.
 type: docs

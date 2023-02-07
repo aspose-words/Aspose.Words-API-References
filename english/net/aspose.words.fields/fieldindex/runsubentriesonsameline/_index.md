@@ -1,5 +1,5 @@
 ---
-title: RunSubentriesOnSameLine
+title: FieldIndex.RunSubentriesOnSameLine
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether run subentries into the same line as the main entry.
 type: docs

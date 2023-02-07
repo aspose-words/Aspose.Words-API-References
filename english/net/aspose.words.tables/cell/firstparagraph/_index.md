@@ -1,5 +1,5 @@
 ---
-title: FirstParagraph
+title: Cell.FirstParagraph
 second_title: Aspose.Words for .NET API Reference
 description: Gets the first paragraph among the immediate children.
 type: docs

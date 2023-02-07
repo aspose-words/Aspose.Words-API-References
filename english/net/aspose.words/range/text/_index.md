@@ -1,5 +1,5 @@
 ---
-title: Text
+title: Range.Text
 second_title: Aspose.Words for .NET API Reference
 description: Gets the text of the range.
 type: docs

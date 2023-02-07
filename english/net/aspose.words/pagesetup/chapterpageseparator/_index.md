@@ -1,5 +1,5 @@
 ---
-title: ChapterPageSeparator
+title: PageSetup.ChapterPageSeparator
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the separator character that appears between the chapter number and the page number.
 type: docs

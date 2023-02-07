@@ -1,5 +1,5 @@
 ---
-title: HtmlSaveOptions
+title: Class HtmlSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the Html Mhtml Epub Azw3 or Mobi format.
 type: docs

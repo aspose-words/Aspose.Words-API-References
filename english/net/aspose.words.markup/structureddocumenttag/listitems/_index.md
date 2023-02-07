@@ -1,5 +1,5 @@
 ---
-title: ListItems
+title: StructuredDocumentTag.ListItems
 second_title: Aspose.Words for .NET API Reference
 description: Gets SdtListItemCollection associated with this SDT.
 type: docs

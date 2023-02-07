@@ -1,5 +1,5 @@
 ---
-title: GetEnumerator
+title: BorderCollection.GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: Returns an enumerator object that can be used to iterate over all borders in the collection.
 type: docs

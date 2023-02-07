@@ -1,5 +1,5 @@
 ---
-title: Opacity
+title: Stroke.Opacity
 second_title: Aspose.Words for .NET API Reference
 description: Defines the amount of transparency of a stroke. Valid range is from 0 to 1.
 type: docs

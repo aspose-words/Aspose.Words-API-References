@@ -1,5 +1,5 @@
 ---
-title: UseParagraphOutlineLevel
+title: FieldToc.UseParagraphOutlineLevel
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to use the applied paragraph outline level.
 type: docs

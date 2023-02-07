@@ -1,5 +1,5 @@
 ---
-title: EndBookmark
+title: DocumentBuilder.EndBookmark
 second_title: Aspose.Words for .NET API Reference
 description: Marks the current position in the document as a bookmark end.
 type: docs

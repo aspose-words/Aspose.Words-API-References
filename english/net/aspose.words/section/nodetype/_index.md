@@ -1,5 +1,5 @@
 ---
-title: NodeType
+title: Section.NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Returns Section.
 type: docs

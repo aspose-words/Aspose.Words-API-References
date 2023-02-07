@@ -1,5 +1,5 @@
 ---
-title: RejectAll
+title: RevisionCollection.RejectAll
 second_title: Aspose.Words for .NET API Reference
 description: Rejects all revisions in this collection.
 type: docs

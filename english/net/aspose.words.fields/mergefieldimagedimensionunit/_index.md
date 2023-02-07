@@ -1,5 +1,5 @@
 ---
-title: MergeFieldImageDimensionUnit
+title: Enum MergeFieldImageDimensionUnit
 second_title: Aspose.Words for .NET API Reference
 description: Specifies an unit of an image dimension i.e. the width or the height used across a mail merge process.
 type: docs

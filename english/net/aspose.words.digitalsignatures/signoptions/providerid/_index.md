@@ -1,5 +1,5 @@
 ---
-title: ProviderId
+title: SignOptions.ProviderId
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the class ID of the signature provider. Default value is Empty all zeroes Guid.
 type: docs

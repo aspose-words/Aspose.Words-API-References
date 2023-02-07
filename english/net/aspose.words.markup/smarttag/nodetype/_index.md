@@ -1,5 +1,5 @@
 ---
-title: NodeType
+title: SmartTag.NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Returns SmartTag.
 type: docs

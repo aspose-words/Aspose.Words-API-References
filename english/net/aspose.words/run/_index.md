@@ -1,5 +1,5 @@
 ---
-title: Run
+title: Class Run
 second_title: Aspose.Words for .NET API Reference
 description: Represents a run of characters with the same font formatting.
 type: docs

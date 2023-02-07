@@ -1,5 +1,5 @@
 ---
-title: Panose
+title: FontInfo.Panose
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the PANOSE typeface classification number.
 type: docs

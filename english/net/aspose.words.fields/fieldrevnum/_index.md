@@ -1,5 +1,5 @@
 ---
-title: FieldRevNum
+title: Class FieldRevNum
 second_title: Aspose.Words for .NET API Reference
 description: Implements the REVNUM field.
 type: docs

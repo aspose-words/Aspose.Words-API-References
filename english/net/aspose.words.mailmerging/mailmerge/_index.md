@@ -1,5 +1,5 @@
 ---
-title: MailMerge
+title: Class MailMerge
 second_title: Aspose.Words for .NET API Reference
 description: Represents the mail merge functionality.
 type: docs

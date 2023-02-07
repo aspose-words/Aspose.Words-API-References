@@ -1,5 +1,5 @@
 ---
-title: Open
+title: ComHelper.Open
 second_title: Aspose.Words for .NET API Reference
 description: Allows a COM application to load a Document from a file.
 type: docs

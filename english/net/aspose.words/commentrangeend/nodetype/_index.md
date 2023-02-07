@@ -1,5 +1,5 @@
 ---
-title: NodeType
+title: CommentRangeEnd.NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Returns CommentRangeEnd.
 type: docs

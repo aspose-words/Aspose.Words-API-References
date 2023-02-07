@@ -1,5 +1,5 @@
 ---
-title: CreatedTime
+title: BuiltInDocumentProperties.CreatedTime
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets date of the document creation in UTC.
 type: docs

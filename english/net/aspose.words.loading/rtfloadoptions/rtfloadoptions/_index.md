@@ -1,5 +1,5 @@
 ---
-title: RtfLoadOptions
+title: RtfLoadOptions.RtfLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: Initializes a new instance of this class with default values.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: SectionCollection
+title: Class SectionCollection
 second_title: Aspose.Words for .NET API Reference
 description: A collection of Section objects in the document.
 type: docs

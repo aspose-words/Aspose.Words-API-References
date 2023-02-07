@@ -1,5 +1,5 @@
 ---
-title: Document
+title: AxisDisplayUnit.Document
 second_title: Aspose.Words for .NET API Reference
 description: Returns the Document the title holder belongs.
 type: docs

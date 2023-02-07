@@ -1,5 +1,5 @@
 ---
-title: RenderToScale
+title: Document.RenderToScale
 second_title: Aspose.Words for .NET API Reference
 description: Renders a document page into a Graphics object to a specified scale.
 type: docs

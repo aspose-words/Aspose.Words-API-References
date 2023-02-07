@@ -1,5 +1,5 @@
 ---
-title: ShowDataLabelsRange
+title: ChartDataLabelCollection.ShowDataLabelsRange
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify whether values from data labels range to be displayed in the data labels of the entire series. Default value is false.
 type: docs

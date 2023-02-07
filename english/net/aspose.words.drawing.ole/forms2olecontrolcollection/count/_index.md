@@ -1,5 +1,5 @@
 ---
-title: Count
+title: Forms2OleControlCollection.Count
 second_title: Aspose.Words for .NET API Reference
 description: Gets count of objects in the collection.
 type: docs

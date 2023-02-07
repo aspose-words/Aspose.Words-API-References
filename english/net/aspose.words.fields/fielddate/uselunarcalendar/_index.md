@@ -1,5 +1,5 @@
 ---
-title: UseLunarCalendar
+title: FieldDate.UseLunarCalendar
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar.
 type: docs

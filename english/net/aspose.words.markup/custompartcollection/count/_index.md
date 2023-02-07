@@ -1,5 +1,5 @@
 ---
-title: Count
+title: CustomPartCollection.Count
 second_title: Aspose.Words for .NET API Reference
 description: Gets the number of elements contained in the collection.
 type: docs

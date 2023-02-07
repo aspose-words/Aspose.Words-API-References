@@ -1,5 +1,5 @@
 ---
-title: Parent
+title: TextBox.Parent
 second_title: Aspose.Words for .NET API Reference
 description: Gets a parent shape for the TextBox.
 type: docs

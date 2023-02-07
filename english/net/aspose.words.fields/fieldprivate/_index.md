@@ -1,5 +1,5 @@
 ---
-title: FieldPrivate
+title: Class FieldPrivate
 second_title: Aspose.Words for .NET API Reference
 description: Implements the PRIVATE field.
 type: docs

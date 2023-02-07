@@ -1,5 +1,5 @@
 ---
-title: MatchOffset
+title: ReplacingArgs.MatchOffset
 second_title: Aspose.Words for .NET API Reference
 description: Gets the zerobased starting position of the match from the start of the node that contains the beginning of the match.
 type: docs

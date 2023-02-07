@@ -1,5 +1,5 @@
 ---
-title: RotateLetters
+title: TextPath.RotateLetters
 second_title: Aspose.Words for .NET API Reference
 description: Determines whether the letters of the text are rotated.
 type: docs

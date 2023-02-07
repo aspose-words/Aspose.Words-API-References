@@ -1,5 +1,5 @@
 ---
-title: WarningInfoCollection
+title: WarningInfoCollection.WarningInfoCollection
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

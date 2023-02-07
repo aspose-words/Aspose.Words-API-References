@@ -1,5 +1,5 @@
 ---
-title: CommentColor
+title: RevisionOptions.CommentColor
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify the color to be used for comments. Default value is Red.
 type: docs

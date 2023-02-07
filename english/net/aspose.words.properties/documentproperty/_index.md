@@ -1,5 +1,5 @@
 ---
-title: DocumentProperty
+title: Class DocumentProperty
 second_title: Aspose.Words for .NET API Reference
 description: Represents a custom or builtin document property.
 type: docs

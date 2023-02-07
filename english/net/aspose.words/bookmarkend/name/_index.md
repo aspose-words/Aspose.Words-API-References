@@ -1,5 +1,5 @@
 ---
-title: Name
+title: BookmarkEnd.Name
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the bookmark name.
 type: docs

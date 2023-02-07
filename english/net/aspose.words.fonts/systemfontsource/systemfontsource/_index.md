@@ -1,5 +1,5 @@
 ---
-title: SystemFontSource
+title: SystemFontSource.SystemFontSource
 second_title: Aspose.Words for .NET API Reference
 description: Ctor.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: LabelValue
+title: ListLabel.LabelValue
 second_title: Aspose.Words for .NET API Reference
 description: Gets a numeric value for this label.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: EntryType
+title: FieldXE.EntryType
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets an index entry type.
 type: docs

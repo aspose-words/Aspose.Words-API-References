@@ -1,5 +1,5 @@
 ---
-title: IndexOfKey
+title: BookmarksOutlineLevelCollection.IndexOfKey
 second_title: Aspose.Words for .NET API Reference
 description: Returns the zerobased index of the specified bookmark in the collection.
 type: docs

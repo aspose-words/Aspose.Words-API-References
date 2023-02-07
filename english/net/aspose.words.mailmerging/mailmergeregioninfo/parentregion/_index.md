@@ -1,5 +1,5 @@
 ---
-title: ParentRegion
+title: MailMergeRegionInfo.ParentRegion
 second_title: Aspose.Words for .NET API Reference
 description: Returns parent region info null for toplevel region.
 type: docs

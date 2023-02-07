@@ -1,5 +1,5 @@
 ---
-title: CertificateHolder
+title: PdfDigitalSignatureDetails.CertificateHolder
 second_title: Aspose.Words for .NET API Reference
 description: Returns the certificate holder object that contains the certificate was used to sign the document.
 type: docs

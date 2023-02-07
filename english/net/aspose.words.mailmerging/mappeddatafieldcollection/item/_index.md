@@ -1,5 +1,5 @@
 ---
-title: Item
+title: MappedDataFieldCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the name of the field in the data source associated with the specified mail merge field.
 type: docs

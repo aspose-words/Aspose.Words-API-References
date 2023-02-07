@@ -1,5 +1,5 @@
 ---
-title: DisplayText
+title: SdtListItem.DisplayText
 second_title: Aspose.Words for .NET API Reference
 description: Gets the text to display in the run content in place of the Value attribute contents for this list item.
 type: docs

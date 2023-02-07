@@ -1,5 +1,5 @@
 ---
-title: Image
+title: ImageFieldMergingArgs.Image
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the image that the mail merge engine must insert into the document.
 type: docs

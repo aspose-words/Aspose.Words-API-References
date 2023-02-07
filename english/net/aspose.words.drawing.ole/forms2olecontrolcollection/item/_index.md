@@ -1,5 +1,5 @@
 ---
-title: Item
+title: Forms2OleControlCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Gets Forms2OleControl object at a specified index.
 type: docs

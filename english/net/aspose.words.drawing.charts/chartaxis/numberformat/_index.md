@@ -1,5 +1,5 @@
 ---
-title: NumberFormat
+title: ChartAxis.NumberFormat
 second_title: Aspose.Words for .NET API Reference
 description: Returns a ChartNumberFormat object that allows defining number formats for the axis.
 type: docs

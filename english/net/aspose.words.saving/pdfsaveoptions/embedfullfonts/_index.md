@@ -1,5 +1,5 @@
 ---
-title: EmbedFullFonts
+title: PdfSaveOptions.EmbedFullFonts
 second_title: Aspose.Words for .NET API Reference
 description: Controls how fonts are embedded into the resulting PDF documents.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: StructuredDocumentTagRangeStart
+title: Class StructuredDocumentTagRangeStart
 second_title: Aspose.Words for .NET API Reference
 description: Represents a start of ranged structured document tag which accepts multisections content. See also StructuredDocumentTagRangeEnd.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Result
+title: Field.Result
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets text that is between the field separator and field end.
 type: docs

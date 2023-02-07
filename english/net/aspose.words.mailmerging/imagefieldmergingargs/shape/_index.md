@@ -1,5 +1,5 @@
 ---
-title: Shape
+title: ImageFieldMergingArgs.Shape
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the shape that the mail merge engine must insert into the document.
 type: docs

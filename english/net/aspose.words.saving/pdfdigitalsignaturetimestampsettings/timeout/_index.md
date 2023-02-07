@@ -1,5 +1,5 @@
 ---
-title: Timeout
+title: PdfDigitalSignatureTimestampSettings.Timeout
 second_title: Aspose.Words for .NET API Reference
 description: Timeout value for accessing timestamp server.
 type: docs

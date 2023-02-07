@@ -1,5 +1,5 @@
 ---
-title: GetShapeRenderer
+title: ShapeBase.GetShapeRenderer
 second_title: Aspose.Words for .NET API Reference
 description: Creates and returns an object that can be used to render this shape into an image.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: VisitParagraphStart
+title: DocumentVisitor.VisitParagraphStart
 second_title: Aspose.Words for .NET API Reference
 description: Called when enumeration of a paragraph has started.
 type: docs

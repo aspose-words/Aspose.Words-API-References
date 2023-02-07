@@ -1,5 +1,5 @@
 ---
-title: WordOpenXML
+title: IStructuredDocumentTag.WordOpenXML
 second_title: Aspose.Words for .NET API Reference
 description: Gets a string that represents the XML contained within the node in the FlatOpc format.
 type: docs

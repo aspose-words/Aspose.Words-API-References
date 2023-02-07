@@ -1,5 +1,5 @@
 ---
-title: PageLayoutCallbackArgs
+title: Class PageLayoutCallbackArgs
 second_title: Aspose.Words for .NET API Reference
 description: An argument passed into Notify
 type: docs

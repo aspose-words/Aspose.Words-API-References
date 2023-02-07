@@ -1,5 +1,5 @@
 ---
-title: Add
+title: DropDownItemCollection.Add
 second_title: Aspose.Words for .NET API Reference
 description: Adds a string to the end of the collection.
 type: docs

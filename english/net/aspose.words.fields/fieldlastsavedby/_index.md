@@ -1,5 +1,5 @@
 ---
-title: FieldLastSavedBy
+title: Class FieldLastSavedBy
 second_title: Aspose.Words for .NET API Reference
 description: Implements the LASTSAVEDBY field.
 type: docs

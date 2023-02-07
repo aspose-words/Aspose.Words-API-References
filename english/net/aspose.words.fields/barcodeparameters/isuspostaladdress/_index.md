@@ -1,5 +1,5 @@
 ---
-title: IsUSPostalAddress
+title: BarcodeParameters.IsUSPostalAddress
 second_title: Aspose.Words for .NET API Reference
 description: Whether PostalAddress is a U.S. postal address.
 type: docs

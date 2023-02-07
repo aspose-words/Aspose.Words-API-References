@@ -1,5 +1,5 @@
 ---
-title: Underline
+title: Font.Underline
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the type of underline applied to the font.
 type: docs

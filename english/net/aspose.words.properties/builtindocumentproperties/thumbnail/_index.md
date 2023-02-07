@@ -1,5 +1,5 @@
 ---
-title: Thumbnail
+title: BuiltInDocumentProperties.Thumbnail
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the thumbnail of the document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: DefaultFontSubstitutionRule
+title: Class DefaultFontSubstitutionRule
 second_title: Aspose.Words for .NET API Reference
 description: Default font substitution rule.
 type: docs

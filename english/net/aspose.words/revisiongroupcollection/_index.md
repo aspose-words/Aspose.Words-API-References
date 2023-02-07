@@ -1,5 +1,5 @@
 ---
-title: RevisionGroupCollection
+title: Class RevisionGroupCollection
 second_title: Aspose.Words for .NET API Reference
 description: A collection of RevisionGroup objects that represent revision groups in the document.
 type: docs

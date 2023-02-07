@@ -1,5 +1,5 @@
 ---
-title: NodeType
+title: Node.NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Gets the type of this node.
 type: docs

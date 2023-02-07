@@ -1,5 +1,5 @@
 ---
-title: Bidi
+title: Font.Bidi
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether the contents of this run shall have righttoleft characteristics.
 type: docs

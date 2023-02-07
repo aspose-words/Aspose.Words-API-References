@@ -1,5 +1,5 @@
 ---
-title: AxisX
+title: Chart.AxisX
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to properties of the X axis of the chart.
 type: docs

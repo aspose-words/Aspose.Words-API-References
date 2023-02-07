@@ -1,5 +1,5 @@
 ---
-title: ImageData
+title: Class ImageData
 second_title: Aspose.Words for .NET API Reference
 description: Defines an image for a shape.
 type: docs

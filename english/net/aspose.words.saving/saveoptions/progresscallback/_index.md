@@ -1,5 +1,5 @@
 ---
-title: ProgressCallback
+title: SaveOptions.ProgressCallback
 second_title: Aspose.Words for .NET API Reference
 description: Called during saving a document and accepts data about saving progress.
 type: docs

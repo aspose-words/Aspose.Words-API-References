@@ -1,5 +1,5 @@
 ---
-title: LongCitation
+title: FieldTA.LongCitation
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the long citation for the entry.
 type: docs

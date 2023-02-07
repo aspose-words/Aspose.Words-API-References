@@ -1,5 +1,5 @@
 ---
-title: HideInWebLayout
+title: FieldToc.HideInWebLayout
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to hide tab leader and page numbers in Web layout view.
 type: docs

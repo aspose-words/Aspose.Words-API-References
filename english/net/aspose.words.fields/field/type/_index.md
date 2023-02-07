@@ -1,5 +1,5 @@
 ---
-title: Type
+title: Field.Type
 second_title: Aspose.Words for .NET API Reference
 description: Gets the Microsoft Word field type.
 type: docs

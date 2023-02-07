@@ -1,5 +1,5 @@
 ---
-title: CurrentParagraph
+title: DocumentBuilder.CurrentParagraph
 second_title: Aspose.Words for .NET API Reference
 description: Gets the paragraph that is currently selected in this DocumentBuilder.
 type: docs

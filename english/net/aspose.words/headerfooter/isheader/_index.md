@@ -1,5 +1,5 @@
 ---
-title: IsHeader
+title: HeaderFooter.IsHeader
 second_title: Aspose.Words for .NET API Reference
 description: True if this HeaderFooter object is a header.
 type: docs

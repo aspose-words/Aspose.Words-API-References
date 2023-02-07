@@ -1,5 +1,5 @@
 ---
-title: UnconditionalMergeFieldsAndRegions
+title: MailMerge.UnconditionalMergeFieldsAndRegions
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value indicating whether merge fields and merge regions are merged regardless of the parent IF fields condition.
 type: docs

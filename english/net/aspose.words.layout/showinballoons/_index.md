@@ -1,5 +1,5 @@
 ---
-title: ShowInBalloons
+title: Enum ShowInBalloons
 second_title: Aspose.Words for .NET API Reference
 description: Specifies which revisions are rendered in balloons.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: CanHaveImage
+title: ShapeBase.CanHaveImage
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if the shape type allows the shape to have an image.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FieldChar
+title: Class FieldChar
 second_title: Aspose.Words for .NET API Reference
 description: Base class for nodes that represent field characters in a document.
 type: docs

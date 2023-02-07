@@ -1,5 +1,5 @@
 ---
-title: ForeColor
+title: Fill.ForeColor
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a Color object that represents the foreground color for the fill.
 type: docs

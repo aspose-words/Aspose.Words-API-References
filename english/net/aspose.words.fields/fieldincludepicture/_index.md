@@ -1,5 +1,5 @@
 ---
-title: FieldIncludePicture
+title: Class FieldIncludePicture
 second_title: Aspose.Words for .NET API Reference
 description: Implements the INCLUDEPICTURE field.
 type: docs

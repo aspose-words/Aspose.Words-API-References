@@ -1,5 +1,5 @@
 ---
-title: IndexOfKey
+title: VariableCollection.IndexOfKey
 second_title: Aspose.Words for .NET API Reference
 description: Returns the zerobased index of the specified document variable in the collection.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ImageBytes
+title: ImageData.ImageBytes
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the raw bytes of the image stored in the shape.
 type: docs

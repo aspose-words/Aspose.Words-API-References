@@ -1,5 +1,5 @@
 ---
-title: FieldGlossary
+title: Class FieldGlossary
 second_title: Aspose.Words for .NET API Reference
 description: Implements the GLOSSARY field.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: DocumentPropertyCollection
+title: Class DocumentPropertyCollection
 second_title: Aspose.Words for .NET API Reference
 description: Base class for BuiltInDocumentProperties and CustomDocumentProperties collections.
 type: docs

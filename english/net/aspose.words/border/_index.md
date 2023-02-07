@@ -1,5 +1,5 @@
 ---
-title: Border
+title: Class Border
 second_title: Aspose.Words for .NET API Reference
 description: Represents a border of an object.
 type: docs

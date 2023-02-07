@@ -1,5 +1,5 @@
 ---
-title: SourceCode
+title: VbaModule.SourceCode
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets VBA project module source code.
 type: docs

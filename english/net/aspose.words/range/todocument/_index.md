@@ -1,5 +1,5 @@
 ---
-title: ToDocument
+title: Range.ToDocument
 second_title: Aspose.Words for .NET API Reference
 description: Constructs a new fully formed document that contains the range.
 type: docs

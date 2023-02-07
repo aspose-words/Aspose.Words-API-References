@@ -1,5 +1,5 @@
 ---
-title: VbaModule
+title: VbaModule.VbaModule
 second_title: Aspose.Words for .NET API Reference
 description: Creates an empty module.
 type: docs

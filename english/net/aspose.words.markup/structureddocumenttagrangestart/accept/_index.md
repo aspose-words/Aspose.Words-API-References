@@ -1,5 +1,5 @@
 ---
-title: Accept
+title: StructuredDocumentTagRangeStart.Accept
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs

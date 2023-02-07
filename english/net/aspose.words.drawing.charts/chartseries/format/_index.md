@@ -1,5 +1,5 @@
 ---
-title: Format
+title: ChartSeries.Format
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to fill and line formatting of the series.
 type: docs

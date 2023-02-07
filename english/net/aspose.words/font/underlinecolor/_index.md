@@ -1,5 +1,5 @@
 ---
-title: UnderlineColor
+title: Font.UnderlineColor
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the color of the underline applied to the font.
 type: docs

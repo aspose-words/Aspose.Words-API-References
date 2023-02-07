@@ -1,5 +1,5 @@
 ---
-title: PageNumber
+title: FieldCitation.PageNumber
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a page number associated with the citation.
 type: docs

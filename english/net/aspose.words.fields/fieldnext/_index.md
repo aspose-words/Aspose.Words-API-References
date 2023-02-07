@@ -1,5 +1,5 @@
 ---
-title: FieldNext
+title: Class FieldNext
 second_title: Aspose.Words for .NET API Reference
 description: Implements the NEXT field.
 type: docs

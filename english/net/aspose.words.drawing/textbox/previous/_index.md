@@ -1,5 +1,5 @@
 ---
-title: Previous
+title: TextBox.Previous
 second_title: Aspose.Words for .NET API Reference
 description: Returns a TextBox that represents the previous TextBox in a sequence of shapes.
 type: docs

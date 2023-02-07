@@ -1,5 +1,5 @@
 ---
-title: FirstLineIndent
+title: ParagraphFormat.FirstLineIndent
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the value in points for a first line or hanging indent.
 type: docs

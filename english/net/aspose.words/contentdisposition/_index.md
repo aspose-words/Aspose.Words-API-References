@@ -1,5 +1,5 @@
 ---
-title: ContentDisposition
+title: Enum ContentDisposition
 second_title: Aspose.Words for .NET API Reference
 description: Enumerates different ways of presenting the document at the client browser.
 type: docs

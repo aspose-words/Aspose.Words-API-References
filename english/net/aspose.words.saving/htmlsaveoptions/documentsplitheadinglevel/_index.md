@@ -1,5 +1,5 @@
 ---
-title: DocumentSplitHeadingLevel
+title: HtmlSaveOptions.DocumentSplitHeadingLevel
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the maximum level of headings at which to split the document. Default value is 2.
 type: docs

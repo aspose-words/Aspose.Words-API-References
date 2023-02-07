@@ -1,5 +1,5 @@
 ---
-title: Encoding
+title: FieldIncludeText.Encoding
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the encoding applied to the data within the referenced file.
 type: docs

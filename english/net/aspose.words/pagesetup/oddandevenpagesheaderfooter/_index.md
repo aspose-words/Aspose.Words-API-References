@@ -1,5 +1,5 @@
 ---
-title: OddAndEvenPagesHeaderFooter
+title: PageSetup.OddAndEvenPagesHeaderFooter
 second_title: Aspose.Words for .NET API Reference
 description: True if the document has different headers and footers for oddnumbered and evennumbered pages.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: PageMode
+title: PdfSaveOptions.PageMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how the PDF document should be displayed when opened in the PDF reader.
 type: docs

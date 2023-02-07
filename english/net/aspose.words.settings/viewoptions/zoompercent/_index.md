@@ -1,5 +1,5 @@
 ---
-title: ZoomPercent
+title: ViewOptions.ZoomPercent
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the percentage between 10 and 500 at which you want to view your document.
 type: docs

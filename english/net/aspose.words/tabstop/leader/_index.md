@@ -1,5 +1,5 @@
 ---
-title: Leader
+title: TabStop.Leader
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the type of the leader line displayed under the tab character.
 type: docs

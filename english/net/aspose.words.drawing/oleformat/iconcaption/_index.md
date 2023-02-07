@@ -1,5 +1,5 @@
 ---
-title: IconCaption
+title: OleFormat.IconCaption
 second_title: Aspose.Words for .NET API Reference
 description: Gets icon caption of OLE object.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: IgnoreFormatting
+title: CompareOptions.IgnoreFormatting
 second_title: Aspose.Words for .NET API Reference
 description: True indicates that formatting is ignored. By default document formatting is not ignored.
 type: docs

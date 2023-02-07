@@ -1,5 +1,5 @@
 ---
-title: Add
+title: GradientStopCollection.Add
 second_title: Aspose.Words for .NET API Reference
 description: Adds a specified GradientStop to a gradient.
 type: docs

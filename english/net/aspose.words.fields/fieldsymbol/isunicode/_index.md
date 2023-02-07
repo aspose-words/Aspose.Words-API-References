@@ -1,5 +1,5 @@
 ---
-title: IsUnicode
+title: FieldSymbol.IsUnicode
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether the character code is interpreted as the value of a Unicode character.
 type: docs

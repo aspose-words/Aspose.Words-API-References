@@ -1,5 +1,5 @@
 ---
-title: IsVisible
+title: ChartDataLabel.IsVisible
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if this data label has something to display.
 type: docs

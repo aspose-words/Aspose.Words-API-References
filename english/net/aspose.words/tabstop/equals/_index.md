@@ -1,5 +1,5 @@
 ---
-title: Equals
+title: TabStop.Equals
 second_title: Aspose.Words for .NET API Reference
 description: Compares with the specified TabStop.
 type: docs

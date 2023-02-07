@@ -1,5 +1,5 @@
 ---
-title: JustificationMode
+title: Enum JustificationMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the character spacing adjustment for a document. The default value is Expand.
 type: docs

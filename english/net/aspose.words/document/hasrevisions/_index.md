@@ -1,5 +1,5 @@
 ---
-title: HasRevisions
+title: Document.HasRevisions
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if the document has any tracked changes.
 type: docs

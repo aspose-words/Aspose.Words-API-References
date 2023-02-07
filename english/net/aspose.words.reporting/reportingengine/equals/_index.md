@@ -1,5 +1,5 @@
 ---
-title: Equals
+title: ReportingEngine.Equals
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs

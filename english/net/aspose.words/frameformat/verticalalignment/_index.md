@@ -1,5 +1,5 @@
 ---
-title: VerticalAlignment
+title: FrameFormat.VerticalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Gets vertical alignment of the specified frame.
 type: docs

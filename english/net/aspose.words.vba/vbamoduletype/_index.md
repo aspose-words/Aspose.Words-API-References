@@ -1,5 +1,5 @@
 ---
-title: VbaModuleType
+title: Enum VbaModuleType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of a model in a VBA project.
 type: docs

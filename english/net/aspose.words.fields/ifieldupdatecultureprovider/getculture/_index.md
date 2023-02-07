@@ -1,5 +1,5 @@
 ---
-title: GetCulture
+title: IFieldUpdateCultureProvider.GetCulture
 second_title: Aspose.Words for .NET API Reference
 description: Returns a CultureInfo object to be used during the fields update.
 type: docs

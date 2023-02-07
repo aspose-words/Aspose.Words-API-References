@@ -1,5 +1,5 @@
 ---
-title: StyleType
+title: Enum StyleType
 second_title: Aspose.Words for .NET API Reference
 description: Represents type of the style.
 type: docs

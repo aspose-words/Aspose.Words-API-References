@@ -1,5 +1,5 @@
 ---
-title: FieldMergingArgs
+title: Class FieldMergingArgs
 second_title: Aspose.Words for .NET API Reference
 description: Provides data for the MergeField event.
 type: docs

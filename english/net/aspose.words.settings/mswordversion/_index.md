@@ -1,5 +1,5 @@
 ---
-title: MsWordVersion
+title: Enum MsWordVersion
 second_title: Aspose.Words for .NET API Reference
 description: Allows Aspose.Wods to mimic MS Word versionspecific application behavior.
 type: docs

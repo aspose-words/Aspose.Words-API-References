@@ -1,5 +1,5 @@
 ---
-title: Styles
+title: Style.Styles
 second_title: Aspose.Words for .NET API Reference
 description: Gets the collection of styles this style belongs to.
 type: docs

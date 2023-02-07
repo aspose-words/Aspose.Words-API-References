@@ -1,5 +1,5 @@
 ---
-title: OdsoFieldMapDataCollection
+title: Class OdsoFieldMapDataCollection
 second_title: Aspose.Words for .NET API Reference
 description: A typed collection of the OdsoFieldMapData objects.
 type: docs

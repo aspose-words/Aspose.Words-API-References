@@ -1,5 +1,5 @@
 ---
-title: VisitSpecialChar
+title: DocumentVisitor.VisitSpecialChar
 second_title: Aspose.Words for .NET API Reference
 description: Called when a SpecialChar node is encountered in the document.
 type: docs

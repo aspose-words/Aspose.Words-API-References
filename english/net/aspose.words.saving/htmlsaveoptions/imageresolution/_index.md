@@ -1,5 +1,5 @@
 ---
-title: ImageResolution
+title: HtmlSaveOptions.ImageResolution
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the output resolution for images when exporting to HTML MHTML or EPUB. Default is 96 dpi.
 type: docs

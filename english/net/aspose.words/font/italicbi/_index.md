@@ -1,5 +1,5 @@
 ---
-title: ItalicBi
+title: Font.ItalicBi
 second_title: Aspose.Words for .NET API Reference
 description: True if the righttoleft text is formatted as italic.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: PaperColor
+title: ImageSaveOptions.PaperColor
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the background paper color for the generated images.
 type: docs

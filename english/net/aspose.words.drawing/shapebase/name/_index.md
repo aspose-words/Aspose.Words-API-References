@@ -1,5 +1,5 @@
 ---
-title: Name
+title: ShapeBase.Name
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the optional shape name.
 type: docs

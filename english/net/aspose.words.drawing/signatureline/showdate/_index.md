@@ -1,5 +1,5 @@
 ---
-title: ShowDate
+title: SignatureLine.ShowDate
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value indicating that sign date is shown in the signature line. Default value for this property is true.
 type: docs

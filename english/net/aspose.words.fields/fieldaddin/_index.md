@@ -1,5 +1,5 @@
 ---
-title: FieldAddIn
+title: Class FieldAddIn
 second_title: Aspose.Words for .NET API Reference
 description: Implements the ADDIN field.
 type: docs

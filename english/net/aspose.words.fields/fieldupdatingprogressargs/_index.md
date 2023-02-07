@@ -1,5 +1,5 @@
 ---
-title: FieldUpdatingProgressArgs
+title: Class FieldUpdatingProgressArgs
 second_title: Aspose.Words for .NET API Reference
 description: Provides data for the field updating progress event.
 type: docs

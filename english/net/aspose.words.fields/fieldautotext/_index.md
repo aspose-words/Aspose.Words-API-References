@@ -1,5 +1,5 @@
 ---
-title: FieldAutoText
+title: Class FieldAutoText
 second_title: Aspose.Words for .NET API Reference
 description: Implements the AUTOTEXT field.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: OverrideTableStyleFontSizeAndJustification
+title: CompatibilityOptions.OverrideTableStyleFontSizeAndJustification
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how the style hierarchy of the document is evaluated.
 type: docs

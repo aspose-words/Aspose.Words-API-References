@@ -1,5 +1,5 @@
 ---
-title: Dark2
+title: ThemeColors.Dark2
 second_title: Aspose.Words for .NET API Reference
 description: Specifies color Dark 2.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: DocumentVisitor
+title: Class DocumentVisitor
 second_title: Aspose.Words for .NET API Reference
 description: Base class for custom document visitors.
 type: docs

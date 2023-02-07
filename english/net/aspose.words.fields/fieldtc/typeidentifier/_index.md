@@ -1,5 +1,5 @@
 ---
-title: TypeIdentifier
+title: FieldTC.TypeIdentifier
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a type identifier for this field which is typically a letter.
 type: docs

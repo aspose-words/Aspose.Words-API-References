@@ -1,5 +1,5 @@
 ---
-title: PageBreakBefore
+title: ParagraphFormat.PageBreakBefore
 second_title: Aspose.Words for .NET API Reference
 description: True if a page break is forced before the paragraph.
 type: docs

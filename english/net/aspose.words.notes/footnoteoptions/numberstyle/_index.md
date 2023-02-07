@@ -1,5 +1,5 @@
 ---
-title: NumberStyle
+title: FootnoteOptions.NumberStyle
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the number format for automatically numbered footnotes.
 type: docs

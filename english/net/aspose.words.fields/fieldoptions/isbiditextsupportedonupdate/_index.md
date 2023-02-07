@@ -1,5 +1,5 @@
 ---
-title: IsBidiTextSupportedOnUpdate
+title: FieldOptions.IsBidiTextSupportedOnUpdate
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the value indicating whether bidirectional text is fully supported during field update or not.
 type: docs

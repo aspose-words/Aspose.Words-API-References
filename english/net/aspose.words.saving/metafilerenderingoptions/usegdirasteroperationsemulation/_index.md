@@ -1,5 +1,5 @@
 ---
-title: UseGdiRasterOperationsEmulation
+title: MetafileRenderingOptions.UseGdiRasterOperationsEmulation
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value determining whether or not to use the GDI for raster operations emulation.
 type: docs

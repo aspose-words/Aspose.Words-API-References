@@ -1,5 +1,5 @@
 ---
-title: SelectFldWithFirstOrLastChar
+title: CompatibilityOptions.SelectFldWithFirstOrLastChar
 second_title: Aspose.Words for .NET API Reference
 description: Select Field When First or Last Character Is Selected.
 type: docs

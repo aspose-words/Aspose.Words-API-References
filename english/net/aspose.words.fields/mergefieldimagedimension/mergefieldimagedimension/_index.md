@@ -1,5 +1,5 @@
 ---
-title: MergeFieldImageDimension
+title: MergeFieldImageDimension.MergeFieldImageDimension
 second_title: Aspose.Words for .NET API Reference
 description: Creates an image dimension instance with the given value in points.
 type: docs

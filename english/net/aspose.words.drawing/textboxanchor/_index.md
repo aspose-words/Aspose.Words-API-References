@@ -1,5 +1,5 @@
 ---
-title: TextBoxAnchor
+title: Enum TextBoxAnchor
 second_title: Aspose.Words for .NET API Reference
 description: Specifies values used for shape text vertical alignment.
 type: docs

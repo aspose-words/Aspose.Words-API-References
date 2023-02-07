@@ -1,5 +1,5 @@
 ---
-title: FieldMacroButton
+title: Class FieldMacroButton
 second_title: Aspose.Words for .NET API Reference
 description: Implements the MACROBUTTON field.
 type: docs

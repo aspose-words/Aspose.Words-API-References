@@ -1,5 +1,5 @@
 ---
-title: Remove
+title: DropDownItemCollection.Remove
 second_title: Aspose.Words for .NET API Reference
 description: Removes the specified value from the collection.
 type: docs

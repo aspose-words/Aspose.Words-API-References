@@ -1,5 +1,5 @@
 ---
-title: Shading
+title: TableStyle.Shading
 second_title: Aspose.Words for .NET API Reference
 description: Gets a Shading object that refers to the shading formatting for table cells.
 type: docs

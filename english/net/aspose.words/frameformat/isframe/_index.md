@@ -1,5 +1,5 @@
 ---
-title: IsFrame
+title: FrameFormat.IsFrame
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if the paragraph is a frame.
 type: docs

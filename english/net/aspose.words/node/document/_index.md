@@ -1,5 +1,5 @@
 ---
-title: Document
+title: Node.Document
 second_title: Aspose.Words for .NET API Reference
 description: Gets the document to which this node belongs.
 type: docs

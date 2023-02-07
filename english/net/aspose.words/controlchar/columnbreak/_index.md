@@ -1,5 +1,5 @@
 ---
-title: ColumnBreak
+title: ControlChar.ColumnBreak
 second_title: Aspose.Words for .NET API Reference
 description: End of column character x000e.
 type: docs

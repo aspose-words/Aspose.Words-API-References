@@ -1,5 +1,5 @@
 ---
-title: Tag
+title: StructuredDocumentTagRangeStart.Tag
 second_title: Aspose.Words for .NET API Reference
 description: Specifies a tag associated with the current structured document tag node. Can not be null.
 type: docs

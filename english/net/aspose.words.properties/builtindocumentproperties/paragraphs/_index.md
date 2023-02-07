@@ -1,5 +1,5 @@
 ---
-title: Paragraphs
+title: BuiltInDocumentProperties.Paragraphs
 second_title: Aspose.Words for .NET API Reference
 description: Represents an estimate of the number of paragraphs in the document.
 type: docs

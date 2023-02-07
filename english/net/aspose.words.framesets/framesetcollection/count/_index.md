@@ -1,5 +1,5 @@
 ---
-title: Count
+title: FramesetCollection.Count
 second_title: Aspose.Words for .NET API Reference
 description: Gets the number of frames or frames pages contained in the collection.
 type: docs

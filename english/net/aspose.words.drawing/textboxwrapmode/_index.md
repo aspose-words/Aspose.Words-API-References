@@ -1,5 +1,5 @@
 ---
-title: TextBoxWrapMode
+title: Enum TextBoxWrapMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how text wraps inside a shape.
 type: docs

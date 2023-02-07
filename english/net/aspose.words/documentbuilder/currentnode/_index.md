@@ -1,5 +1,5 @@
 ---
-title: CurrentNode
+title: DocumentBuilder.CurrentNode
 second_title: Aspose.Words for .NET API Reference
 description: Gets the node that is currently selected in this DocumentBuilder.
 type: docs

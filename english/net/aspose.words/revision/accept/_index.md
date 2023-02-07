@@ -1,5 +1,5 @@
 ---
-title: Accept
+title: Revision.Accept
 second_title: Aspose.Words for .NET API Reference
 description: Accepts this revision.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Delete
+title: XmlMapping.Delete
 second_title: Aspose.Words for .NET API Reference
 description: Deletes mapping of the parent structured document to XML data.
 type: docs

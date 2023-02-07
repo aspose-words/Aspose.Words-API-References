@@ -1,5 +1,5 @@
 ---
-title: Underline
+title: TextPath.Underline
 second_title: Aspose.Words for .NET API Reference
 description: True if the font is underlined.
 type: docs

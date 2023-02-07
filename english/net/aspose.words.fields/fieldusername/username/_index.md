@@ -1,5 +1,5 @@
 ---
-title: UserName
+title: FieldUserName.UserName
 second_title: Aspose.Words for .NET API Reference
 description: Gest or sets the current users name.
 type: docs

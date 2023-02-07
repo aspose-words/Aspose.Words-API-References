@@ -1,5 +1,5 @@
 ---
-title: Name
+title: UserInformation.Name
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the users name.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Glyphs
+title: Cluster.Glyphs
 second_title: Aspose.Words for .NET API Reference
 description: Gets glyphs of the cluster.
 type: docs

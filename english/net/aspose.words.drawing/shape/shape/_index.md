@@ -1,5 +1,5 @@
 ---
-title: Shape
+title: Shape.Shape
 second_title: Aspose.Words for .NET API Reference
 description: Creates a new shape object.
 type: docs
