@@ -1,7 +1,7 @@
 ---
 title: Enum MarkupLevel
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the level in the document tree where a particular StructuredDocumentTag can occur.
+description: Specifies the level in the document tree where a particular StructuredDocumentTag can occur in C#
 type: docs
 weight: 3770
 url: /net/aspose.words.markup/markuplevel/

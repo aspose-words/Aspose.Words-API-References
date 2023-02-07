@@ -1,7 +1,7 @@
 ---
 title: InlineStory.IsMoveToRevision
 second_title: Aspose.Words for .NET API Reference
-description: Returns true if this object was moved inserted in Microsoft Word while change tracking was enabled.
+description: Returns true if this object was moved inserted in Microsoft Word while change tracking was enabled in C#
 type: docs
 weight: 60
 url: /net/aspose.words/inlinestory/ismovetorevision/

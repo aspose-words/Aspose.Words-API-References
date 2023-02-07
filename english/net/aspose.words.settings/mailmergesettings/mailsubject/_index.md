@@ -1,7 +1,7 @@
 ---
 title: MailMergeSettings.MailSubject
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the text which shall appear in the subject line of the emails or faxes produced during mail merge. The default value is an empty string.
+description: Specifies the text which shall appear in the subject line of the emails or faxes produced during mail merge. The default value is an empty string in C#
 type: docs
 weight: 130
 url: /net/aspose.words.settings/mailmergesettings/mailsubject/

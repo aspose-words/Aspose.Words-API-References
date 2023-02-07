@@ -1,7 +1,7 @@
 ---
 title: GradientStop.GradientStop
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of the GradientStop class.
+description: Initializes a new instance of the GradientStop class in C#
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/gradientstop/gradientstop/

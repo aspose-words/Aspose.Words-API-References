@@ -1,7 +1,7 @@
 ---
 title: Enum ArrowWidth
 second_title: Aspose.Words for .NET API Reference
-description: Width of the arrow at the end of a line.
+description: Width of the arrow at the end of a line in C#
 type: docs
 weight: 490
 url: /net/aspose.words.drawing/arrowwidth/

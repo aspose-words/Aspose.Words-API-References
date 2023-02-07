@@ -1,7 +1,7 @@
 ---
 title: DocumentVisitor.VisitFootnoteEnd
 second_title: Aspose.Words for .NET API Reference
-description: Called when enumeration of a footnote or endnote text has ended.
+description: Called when enumeration of a footnote or endnote text has ended in C#
 type: docs
 weight: 210
 url: /net/aspose.words/documentvisitor/visitfootnoteend/

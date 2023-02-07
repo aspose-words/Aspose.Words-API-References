@@ -1,7 +1,7 @@
 ---
 title: TextColumnCollection.Item
 second_title: Aspose.Words for .NET API Reference
-description: Returns a text column at the specified index.
+description: Returns a text column at the specified index in C#
 type: docs
 weight: 30
 url: /net/aspose.words/textcolumncollection/item/

@@ -1,7 +1,7 @@
 ---
 title: ChartSeriesCollection.RemoveAt
 second_title: Aspose.Words for .NET API Reference
-description: Removes a ChartSeries at the specified index.
+description: Removes a ChartSeries at the specified index in C#
 type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/chartseriescollection/removeat/

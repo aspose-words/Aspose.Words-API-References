@@ -1,7 +1,7 @@
 ---
 title: Border.Shadow
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a value indicating whether the border has a shadow.
+description: Gets or sets a value indicating whether the border has a shadow in C#
 type: docs
 weight: 60
 url: /net/aspose.words/border/shadow/

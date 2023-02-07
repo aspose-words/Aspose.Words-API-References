@@ -1,7 +1,7 @@
 ---
 title: MailMerge.UseNonMergeFields
 second_title: Aspose.Words for .NET API Reference
-description: When true specifies that in addition to MERGEFIELD fields mail merge is performed into some other types of fields and also into fieldName tags.
+description: When true specifies that in addition to MERGEFIELD fields mail merge is performed into some other types of fields and also into fieldName tags in C#
 type: docs
 weight: 150
 url: /net/aspose.words.mailmerging/mailmerge/usenonmergefields/

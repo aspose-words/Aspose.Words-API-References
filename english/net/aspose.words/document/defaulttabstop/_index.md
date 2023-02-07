@@ -1,7 +1,7 @@
 ---
 title: Document.DefaultTabStop
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the interval in points between the default tab stops.
+description: Gets or sets the interval in points between the default tab stops in C#
 type: docs
 weight: 90
 url: /net/aspose.words/document/defaulttabstop/

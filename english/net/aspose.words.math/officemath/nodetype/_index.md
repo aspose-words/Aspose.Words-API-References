@@ -1,7 +1,7 @@
 ---
 title: OfficeMath.NodeType
 second_title: Aspose.Words for .NET API Reference
-description: Returns OfficeMath.
+description: Returns OfficeMath in C#
 type: docs
 weight: 40
 url: /net/aspose.words.math/officemath/nodetype/

@@ -1,7 +1,7 @@
 ---
 title: DocumentBuilder.InsertDocument
 second_title: Aspose.Words for .NET API Reference
-description: Inserts a document at the cursor position.
+description: Inserts a document at the cursor position in C#
 type: docs
 weight: 310
 url: /net/aspose.words/documentbuilder/insertdocument/

@@ -1,7 +1,7 @@
 ---
 title: StructuredDocumentTagRangeEnd.StructuredDocumentTagRangeEnd
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of the Structured document tag range end class.
+description: Initializes a new instance of the Structured document tag range end class in C#
 type: docs
 weight: 10
 url: /net/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/

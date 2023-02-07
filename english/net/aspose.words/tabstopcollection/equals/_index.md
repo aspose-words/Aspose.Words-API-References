@@ -1,7 +1,7 @@
 ---
 title: TabStopCollection.Equals
 second_title: Aspose.Words for .NET API Reference
-description: Determines whether the specified TabStopCollection is equal in value to the current TabStopCollection.
+description: Determines whether the specified TabStopCollection is equal in value to the current TabStopCollection in C#
 type: docs
 weight: 70
 url: /net/aspose.words/tabstopcollection/equals/

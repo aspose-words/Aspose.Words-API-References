@@ -1,7 +1,7 @@
 ---
 title: Class WebExtensionPropertyCollection
 second_title: Aspose.Words for .NET API Reference
-description: Specifies a set of web extension custom properties.
+description: Specifies a set of web extension custom properties in C#
 type: docs
 weight: 6550
 url: /net/aspose.words.webextensions/webextensionpropertycollection/

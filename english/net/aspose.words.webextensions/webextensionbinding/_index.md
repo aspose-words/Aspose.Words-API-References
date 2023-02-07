@@ -1,7 +1,7 @@
 ---
 title: Class WebExtensionBinding
 second_title: Aspose.Words for .NET API Reference
-description: Specifies a binding relationship between a web extension and the data in the document.
+description: Specifies a binding relationship between a web extension and the data in the document in C#
 type: docs
 weight: 6510
 url: /net/aspose.words.webextensions/webextensionbinding/

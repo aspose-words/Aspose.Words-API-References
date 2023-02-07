@@ -1,7 +1,7 @@
 ---
 title: ConvertUtil.PixelToNewDpi
 second_title: Aspose.Words for .NET API Reference
-description: Converts pixels from one resolution to another.
+description: Converts pixels from one resolution to another in C#
 type: docs
 weight: 30
 url: /net/aspose.words/convertutil/pixeltonewdpi/

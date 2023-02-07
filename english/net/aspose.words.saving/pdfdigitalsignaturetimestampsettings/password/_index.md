@@ -1,7 +1,7 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.Password
 second_title: Aspose.Words for .NET API Reference
-description: Timestamp server password.
+description: Timestamp server password in C#
 type: docs
 weight: 20
 url: /net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/password/

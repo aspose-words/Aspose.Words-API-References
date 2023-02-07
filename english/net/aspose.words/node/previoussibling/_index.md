@@ -1,7 +1,7 @@
 ---
 title: Node.PreviousSibling
 second_title: Aspose.Words for .NET API Reference
-description: Gets the node immediately preceding this node.
+description: Gets the node immediately preceding this node in C#
 type: docs
 weight: 70
 url: /net/aspose.words/node/previoussibling/

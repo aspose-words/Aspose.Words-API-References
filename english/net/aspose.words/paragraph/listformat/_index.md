@@ -1,7 +1,7 @@
 ---
 title: Paragraph.ListFormat
 second_title: Aspose.Words for .NET API Reference
-description: Provides access to the list formatting properties of the paragraph.
+description: Provides access to the list formatting properties of the paragraph in C#
 type: docs
 weight: 150
 url: /net/aspose.words/paragraph/listformat/

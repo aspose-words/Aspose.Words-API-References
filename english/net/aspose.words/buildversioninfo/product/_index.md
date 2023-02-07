@@ -1,7 +1,7 @@
 ---
 title: BuildVersionInfo.Product
 second_title: Aspose.Words for .NET API Reference
-description: Gets the full name of the product.
+description: Gets the full name of the product in C#
 type: docs
 weight: 10
 url: /net/aspose.words/buildversioninfo/product/

@@ -1,7 +1,7 @@
 ---
 title: Fill.PresetTexture
 second_title: Aspose.Words for .NET API Reference
-description: Gets a PresetTexture for the fill.
+description: Gets a PresetTexture for the fill in C#
 type: docs
 weight: 110
 url: /net/aspose.words.drawing/fill/presettexture/

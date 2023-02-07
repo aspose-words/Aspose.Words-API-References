@@ -1,7 +1,7 @@
 ---
 title: Class ReplacingArgs
 second_title: Aspose.Words for .NET API Reference
-description: Provides data for a custom replace operation.
+description: Provides data for a custom replace operation in C#
 type: docs
 weight: 4430
 url: /net/aspose.words.replacing/replacingargs/

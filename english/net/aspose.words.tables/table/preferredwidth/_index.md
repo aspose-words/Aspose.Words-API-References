@@ -1,7 +1,7 @@
 ---
 title: Table.PreferredWidth
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the table preferred width.
+description: Gets or sets the table preferred width in C#
 type: docs
 weight: 220
 url: /net/aspose.words.tables/table/preferredwidth/

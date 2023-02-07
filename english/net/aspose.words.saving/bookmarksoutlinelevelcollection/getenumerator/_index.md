@@ -1,7 +1,7 @@
 ---
 title: BookmarksOutlineLevelCollection.GetEnumerator
 second_title: Aspose.Words for .NET API Reference
-description: 
+description:  in C#
 type: docs
 weight: 70
 url: /net/aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/

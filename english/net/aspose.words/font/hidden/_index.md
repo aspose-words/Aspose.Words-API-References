@@ -1,7 +1,7 @@
 ---
 title: Font.Hidden
 second_title: Aspose.Words for .NET API Reference
-description: True if the font is formatted as hidden text.
+description: True if the font is formatted as hidden text in C#
 type: docs
 weight: 140
 url: /net/aspose.words/font/hidden/

@@ -1,7 +1,7 @@
 ---
 title: Class CellFormat
 second_title: Aspose.Words for .NET API Reference
-description: Represents all formatting for a table cell.
+description: Represents all formatting for a table cell in C#
 type: docs
 weight: 6030
 url: /net/aspose.words.tables/cellformat/

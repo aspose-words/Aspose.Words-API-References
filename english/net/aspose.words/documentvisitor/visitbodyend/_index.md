@@ -1,7 +1,7 @@
 ---
 title: DocumentVisitor.VisitBodyEnd
 second_title: Aspose.Words for .NET API Reference
-description: Called when enumeration of the main text story in a section has ended.
+description: Called when enumeration of the main text story in a section has ended in C#
 type: docs
 weight: 20
 url: /net/aspose.words/documentvisitor/visitbodyend/

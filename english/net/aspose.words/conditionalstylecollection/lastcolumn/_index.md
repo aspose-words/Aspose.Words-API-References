@@ -1,7 +1,7 @@
 ---
 title: ConditionalStyleCollection.LastColumn
 second_title: Aspose.Words for .NET API Reference
-description: Gets the last column style.
+description: Gets the last column style in C#
 type: docs
 weight: 90
 url: /net/aspose.words/conditionalstylecollection/lastcolumn/

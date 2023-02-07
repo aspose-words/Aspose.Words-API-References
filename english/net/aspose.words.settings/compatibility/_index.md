@@ -1,7 +1,7 @@
 ---
 title: Enum Compatibility
 second_title: Aspose.Words for .NET API Reference
-description: Specifies names of compatibility options.
+description: Specifies names of compatibility options in C#
 type: docs
 weight: 5540
 url: /net/aspose.words.settings/compatibility/

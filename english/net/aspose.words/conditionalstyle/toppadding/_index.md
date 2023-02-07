@@ -1,7 +1,7 @@
 ---
 title: ConditionalStyle.TopPadding
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the amount of space in points to add above the contents of table cells.
+description: Gets or sets the amount of space in points to add above the contents of table cells in C#
 type: docs
 weight: 80
 url: /net/aspose.words/conditionalstyle/toppadding/

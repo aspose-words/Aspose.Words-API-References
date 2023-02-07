@@ -1,7 +1,7 @@
 ---
 title: NodeList.Count
 second_title: Aspose.Words for .NET API Reference
-description: Gets the number of nodes in the list.
+description: Gets the number of nodes in the list in C#
 type: docs
 weight: 10
 url: /net/aspose.words/nodelist/count/

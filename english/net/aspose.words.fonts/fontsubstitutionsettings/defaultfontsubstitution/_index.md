@@ -1,7 +1,7 @@
 ---
 title: FontSubstitutionSettings.DefaultFontSubstitution
 second_title: Aspose.Words for .NET API Reference
-description: Settings related to default font substitution rule.
+description: Settings related to default font substitution rule in C#
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/

@@ -1,7 +1,7 @@
 ---
 title: EditableRangeEnd.NodeType
 second_title: Aspose.Words for .NET API Reference
-description: Returns EditableRangeEnd.
+description: Returns EditableRangeEnd in C#
 type: docs
 weight: 30
 url: /net/aspose.words/editablerangeend/nodetype/

@@ -1,7 +1,7 @@
 ---
 title: Class FieldTime
 second_title: Aspose.Words for .NET API Reference
-description: Implements the TIME field.
+description: Implements the TIME field in C#
 type: docs
 weight: 2350
 url: /net/aspose.words.fields/fieldtime/

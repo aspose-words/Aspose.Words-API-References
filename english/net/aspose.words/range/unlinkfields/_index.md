@@ -1,7 +1,7 @@
 ---
 title: Range.UnlinkFields
 second_title: Aspose.Words for .NET API Reference
-description: Unlinks fields in this range.
+description: Unlinks fields in this range in C#
 type: docs
 weight: 110
 url: /net/aspose.words/range/unlinkfields/

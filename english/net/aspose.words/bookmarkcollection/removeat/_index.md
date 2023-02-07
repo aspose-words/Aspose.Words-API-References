@@ -1,7 +1,7 @@
 ---
 title: BookmarkCollection.RemoveAt
 second_title: Aspose.Words for .NET API Reference
-description: Removes a bookmark at the specified index.
+description: Removes a bookmark at the specified index in C#
 type: docs
 weight: 60
 url: /net/aspose.words/bookmarkcollection/removeat/

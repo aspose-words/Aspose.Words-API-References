@@ -1,7 +1,7 @@
 ---
 title: Enum DmlRenderingMode
 second_title: Aspose.Words for .NET API Reference
-description: Specifies how DrawingML shapes are rendered to fixed page formats.
+description: Specifies how DrawingML shapes are rendered to fixed page formats in C#
 type: docs
 weight: 4700
 url: /net/aspose.words.saving/dmlrenderingmode/

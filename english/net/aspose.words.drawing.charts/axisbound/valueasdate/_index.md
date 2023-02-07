@@ -1,7 +1,7 @@
 ---
 title: AxisBound.ValueAsDate
 second_title: Aspose.Words for .NET API Reference
-description: Returns value of axis bound represented as datetime.
+description: Returns value of axis bound represented as datetime in C#
 type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/axisbound/valueasdate/

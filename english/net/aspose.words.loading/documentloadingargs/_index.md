@@ -1,7 +1,7 @@
 ---
 title: Class DocumentLoadingArgs
 second_title: Aspose.Words for .NET API Reference
-description: An argument passed into Notify.
+description: An argument passed into Notify in C#
 type: docs
 weight: 3410
 url: /net/aspose.words.loading/documentloadingargs/

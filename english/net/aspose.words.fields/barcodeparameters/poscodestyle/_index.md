@@ -1,7 +1,7 @@
 ---
 title: BarcodeParameters.PosCodeStyle
 second_title: Aspose.Words for .NET API Reference
-description: Style of a Point of Sale barcode barcode types UPCAUPCEEAN13EAN8. The valid values case insensitive are STDSUP2SUP5CASE.
+description: Style of a Point of Sale barcode barcode types UPCAUPCEEAN13EAN8. The valid values case insensitive are STDSUP2SUP5CASE in C#
 type: docs
 weight: 140
 url: /net/aspose.words.fields/barcodeparameters/poscodestyle/

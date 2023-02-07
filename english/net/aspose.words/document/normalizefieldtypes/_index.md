@@ -1,7 +1,7 @@
 ---
 title: Document.NormalizeFieldTypes
 second_title: Aspose.Words for .NET API Reference
-description: Changes field type values FieldType of FieldStart FieldSeparator FieldEnd in the whole document so that they correspond to the field types contained in the field codes.
+description: Changes field type values FieldType of FieldStart FieldSeparator FieldEnd in the whole document so that they correspond to the field types contained in the field codes in C#
 type: docs
 weight: 630
 url: /net/aspose.words/document/normalizefieldtypes/

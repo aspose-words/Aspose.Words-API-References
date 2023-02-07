@@ -1,7 +1,7 @@
 ---
 title: MappedDataFieldCollection.Add
 second_title: Aspose.Words for .NET API Reference
-description: Adds a new field mapping.
+description: Adds a new field mapping in C#
 type: docs
 weight: 30
 url: /net/aspose.words.mailmerging/mappeddatafieldcollection/add/

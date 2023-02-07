@@ -1,7 +1,7 @@
 ---
 title: DocumentBuilder.CellFormat
 second_title: Aspose.Words for .NET API Reference
-description: Returns an object that represents current table cell formatting properties.
+description: Returns an object that represents current table cell formatting properties in C#
 type: docs
 weight: 30
 url: /net/aspose.words/documentbuilder/cellformat/

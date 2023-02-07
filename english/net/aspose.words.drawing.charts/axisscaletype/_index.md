@@ -1,7 +1,7 @@
 ---
 title: Enum AxisScaleType
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the possible scale types for an axis.
+description: Specifies the possible scale types for an axis in C#
 type: docs
 weight: 550
 url: /net/aspose.words.drawing.charts/axisscaletype/

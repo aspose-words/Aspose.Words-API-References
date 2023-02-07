@@ -1,7 +1,7 @@
 ---
 title: ComparisonExpression.ComparisonOperator
 second_title: Aspose.Words for .NET API Reference
-description: Gets the comparison operator.
+description: Gets the comparison operator in C#
 type: docs
 weight: 10
 url: /net/aspose.words.fields/comparisonexpression/comparisonoperator/

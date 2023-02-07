@@ -1,7 +1,7 @@
 ---
 title: Stroke.Color
 second_title: Aspose.Words for .NET API Reference
-description: Defines the color of a stroke.
+description: Defines the color of a stroke in C#
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/stroke/color/

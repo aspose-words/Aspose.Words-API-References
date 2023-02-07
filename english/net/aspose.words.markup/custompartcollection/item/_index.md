@@ -1,7 +1,7 @@
 ---
 title: CustomPartCollection.Item
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets an item at the specified index.
+description: Gets or sets an item at the specified index in C#
 type: docs
 weight: 30
 url: /net/aspose.words.markup/custompartcollection/item/

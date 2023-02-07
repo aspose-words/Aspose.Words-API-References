@@ -1,7 +1,7 @@
 ---
 title: AxisDisplayUnit.CustomUnit
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a userdefined divisor to scale display units on the value axis.
+description: Gets or sets a userdefined divisor to scale display units on the value axis in C#
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/axisdisplayunit/customunit/

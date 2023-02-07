@@ -1,7 +1,7 @@
 ---
 title: Enum AxisTickLabelPosition
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the possible positions for tick labels.
+description: Specifies the possible positions for tick labels in C#
 type: docs
 weight: 570
 url: /net/aspose.words.drawing.charts/axisticklabelposition/

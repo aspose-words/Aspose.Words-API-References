@@ -1,7 +1,7 @@
 ---
 title: License.SetLicense
 second_title: Aspose.Words for .NET API Reference
-description: Licenses the component.
+description: Licenses the component in C#
 type: docs
 weight: 20
 url: /net/aspose.words/license/setlicense/

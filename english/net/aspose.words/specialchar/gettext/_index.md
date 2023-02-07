@@ -1,7 +1,7 @@
 ---
 title: SpecialChar.GetText
 second_title: Aspose.Words for .NET API Reference
-description: Gets the special character that this node represents.
+description: Gets the special character that this node represents in C#
 type: docs
 weight: 30
 url: /net/aspose.words/specialchar/gettext/

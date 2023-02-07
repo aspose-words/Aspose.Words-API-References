@@ -1,7 +1,7 @@
 ---
 title: MappedDataFieldCollection.Remove
 second_title: Aspose.Words for .NET API Reference
-description: Removes a field mapping.
+description: Removes a field mapping in C#
 type: docs
 weight: 80
 url: /net/aspose.words.mailmerging/mappeddatafieldcollection/remove/

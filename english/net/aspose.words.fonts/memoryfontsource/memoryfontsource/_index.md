@@ -1,7 +1,7 @@
 ---
 title: MemoryFontSource.MemoryFontSource
 second_title: Aspose.Words for .NET API Reference
-description: Ctor.
+description: Ctor in C#
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/memoryfontsource/memoryfontsource/

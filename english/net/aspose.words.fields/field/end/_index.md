@@ -1,7 +1,7 @@
 ---
 title: Field.End
 second_title: Aspose.Words for .NET API Reference
-description: Gets the node that represents the field end.
+description: Gets the node that represents the field end in C#
 type: docs
 weight: 20
 url: /net/aspose.words.fields/field/end/

@@ -1,7 +1,7 @@
 ---
 title: FieldSeq.BookmarkName
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a bookmark name that refers to an item elsewhere in the document rather than in the current location.
+description: Gets or sets a bookmark name that refers to an item elsewhere in the document rather than in the current location in C#
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldseq/bookmarkname/

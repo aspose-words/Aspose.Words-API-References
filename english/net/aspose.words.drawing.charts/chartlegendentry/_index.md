@@ -1,7 +1,7 @@
 ---
 title: Class ChartLegendEntry
 second_title: Aspose.Words for .NET API Reference
-description: Represents a chart legend entry.
+description: Represents a chart legend entry in C#
 type: docs
 weight: 690
 url: /net/aspose.words.drawing.charts/chartlegendentry/

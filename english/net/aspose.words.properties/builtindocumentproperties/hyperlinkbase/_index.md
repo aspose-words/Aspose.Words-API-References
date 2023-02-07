@@ -1,7 +1,7 @@
 ---
 title: BuiltInDocumentProperties.HyperlinkBase
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the base string used for evaluating relative hyperlinks in this document.
+description: Specifies the base string used for evaluating relative hyperlinks in this document in C#
 type: docs
 weight: 120
 url: /net/aspose.words.properties/builtindocumentproperties/hyperlinkbase/

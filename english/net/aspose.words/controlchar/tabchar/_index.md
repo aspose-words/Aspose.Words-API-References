@@ -1,7 +1,7 @@
 ---
 title: ControlChar.TabChar
 second_title: Aspose.Words for .NET API Reference
-description: Tab character char9 or t.
+description: Tab character char9 or t in C#
 type: docs
 weight: 280
 url: /net/aspose.words/controlchar/tabchar/

@@ -1,7 +1,7 @@
 ---
 title: ChartSeries.Bubble3D
 second_title: Aspose.Words for .NET API Reference
-description: 
+description:  in C#
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartseries/bubble3d/

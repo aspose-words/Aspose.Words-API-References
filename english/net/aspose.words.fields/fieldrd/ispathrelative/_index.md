@@ -1,7 +1,7 @@
 ---
 title: FieldRD.IsPathRelative
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets whether the path is relative to the current document.
+description: Gets or sets whether the path is relative to the current document in C#
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldrd/ispathrelative/

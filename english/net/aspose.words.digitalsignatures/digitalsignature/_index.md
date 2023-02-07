@@ -1,7 +1,7 @@
 ---
 title: Class DigitalSignature
 second_title: Aspose.Words for .NET API Reference
-description: Represents a digital signature on a document and the result of its verification.
+description: Represents a digital signature on a document and the result of its verification in C#
 type: docs
 weight: 370
 url: /net/aspose.words.digitalsignatures/digitalsignature/

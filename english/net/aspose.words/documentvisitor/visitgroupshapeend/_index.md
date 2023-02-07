@@ -1,7 +1,7 @@
 ---
 title: DocumentVisitor.VisitGroupShapeEnd
 second_title: Aspose.Words for .NET API Reference
-description: Called when enumeration of a group shape has ended.
+description: Called when enumeration of a group shape has ended in C#
 type: docs
 weight: 260
 url: /net/aspose.words/documentvisitor/visitgroupshapeend/

@@ -1,7 +1,7 @@
 ---
 title: ChartSeries.HasDataLabels
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a flag indicating whether data labels are displayed for the series.
+description: Gets or sets a flag indicating whether data labels are displayed for the series in C#
 type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/chartseries/hasdatalabels/

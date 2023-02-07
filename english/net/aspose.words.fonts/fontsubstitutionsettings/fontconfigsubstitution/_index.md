@@ -1,7 +1,7 @@
 ---
 title: FontSubstitutionSettings.FontConfigSubstitution
 second_title: Aspose.Words for .NET API Reference
-description: Settings related to font config substitution rule.
+description: Settings related to font config substitution rule in C#
 type: docs
 weight: 20
 url: /net/aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/

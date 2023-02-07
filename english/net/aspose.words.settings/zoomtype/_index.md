@@ -1,7 +1,7 @@
 ---
 title: Enum ZoomType
 second_title: Aspose.Words for .NET API Reference
-description: Possible values for how large or small the document appears on the screen in Microsoft Word.
+description: Possible values for how large or small the document appears on the screen in Microsoft Word in C#
 type: docs
 weight: 5750
 url: /net/aspose.words.settings/zoomtype/

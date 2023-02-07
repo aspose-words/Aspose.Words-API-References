@@ -1,7 +1,7 @@
 ---
 title: TextBox.InternalMarginLeft
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the inner left margin in points for a shape.
+description: Specifies the inner left margin in points for a shape in C#
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/textbox/internalmarginleft/

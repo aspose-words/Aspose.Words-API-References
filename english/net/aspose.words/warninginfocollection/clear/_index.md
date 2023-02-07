@@ -1,7 +1,7 @@
 ---
 title: WarningInfoCollection.Clear
 second_title: Aspose.Words for .NET API Reference
-description: Removes all elements from the collection.
+description: Removes all elements from the collection in C#
 type: docs
 weight: 40
 url: /net/aspose.words/warninginfocollection/clear/

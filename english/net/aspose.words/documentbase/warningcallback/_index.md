@@ -1,7 +1,7 @@
 ---
 title: DocumentBase.WarningCallback
 second_title: Aspose.Words for .NET API Reference
-description: Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss.
+description: Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss in C#
 type: docs
 weight: 90
 url: /net/aspose.words/documentbase/warningcallback/

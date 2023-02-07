@@ -1,7 +1,7 @@
 ---
 title: DocumentProperty.ToBool
 second_title: Aspose.Words for .NET API Reference
-description: Returns the property value as bool.
+description: Returns the property value as bool in C#
 type: docs
 weight: 60
 url: /net/aspose.words.properties/documentproperty/tobool/

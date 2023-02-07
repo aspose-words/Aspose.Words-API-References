@@ -1,7 +1,7 @@
 ---
 title: FieldDocVariable.VariableName
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the name of the document variable to retrieve.
+description: Gets or sets the name of the document variable to retrieve in C#
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fielddocvariable/variablename/

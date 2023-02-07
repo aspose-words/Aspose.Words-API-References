@@ -1,7 +1,7 @@
 ---
 title: FieldDatabaseDataRow.Values
 second_title: Aspose.Words for .NET API Reference
-description: Gets values that belong to this row.
+description: Gets values that belong to this row in C#
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fielddatabasedatarow/values/

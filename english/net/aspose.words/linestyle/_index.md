@@ -1,7 +1,7 @@
 ---
 title: Enum LineStyle
 second_title: Aspose.Words for .NET API Reference
-description: Specifies line style of a Border.
+description: Specifies line style of a Border in C#
 type: docs
 weight: 3270
 url: /net/aspose.words/linestyle/

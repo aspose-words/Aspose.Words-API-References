@@ -1,7 +1,7 @@
 ---
 title: WordML2003SaveOptions.SaveFormat
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the format in which the document will be saved if this save options object is used. Can only be WordML.
+description: Specifies the format in which the document will be saved if this save options object is used. Can only be WordML in C#
 type: docs
 weight: 20
 url: /net/aspose.words.saving/wordml2003saveoptions/saveformat/

@@ -1,7 +1,7 @@
 ---
 title: FieldArgumentBuilder.AddText
 second_title: Aspose.Words for .NET API Reference
-description: Adds a plain text to the argument.
+description: Adds a plain text to the argument in C#
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldargumentbuilder/addtext/

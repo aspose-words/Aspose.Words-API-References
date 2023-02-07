@@ -1,7 +1,7 @@
 ---
 title: Stroke.EndArrowWidth
 second_title: Aspose.Words for .NET API Reference
-description: Defines the arrowhead width for the end of a stroke.
+description: Defines the arrowhead width for the end of a stroke in C#
 type: docs
 weight: 70
 url: /net/aspose.words.drawing/stroke/endarrowwidth/

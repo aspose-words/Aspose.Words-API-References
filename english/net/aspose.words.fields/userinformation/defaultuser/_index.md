@@ -1,7 +1,7 @@
 ---
 title: UserInformation.DefaultUser
 second_title: Aspose.Words for .NET API Reference
-description: Default user information.
+description: Default user information in C#
 type: docs
 weight: 20
 url: /net/aspose.words.fields/userinformation/defaultuser/

@@ -1,7 +1,7 @@
 ---
 title: Enum ShowInBalloons
 second_title: Aspose.Words for .NET API Reference
-description: Specifies which revisions are rendered in balloons.
+description: Specifies which revisions are rendered in balloons in C#
 type: docs
 weight: 3230
 url: /net/aspose.words.layout/showinballoons/

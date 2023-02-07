@@ -1,7 +1,7 @@
 ---
 title: Class RtfSaveOptions
 second_title: Aspose.Words for .NET API Reference
-description: Can be used to specify additional options when saving a document into the Rtf format.
+description: Can be used to specify additional options when saving a document into the Rtf format in C#
 type: docs
 weight: 5350
 url: /net/aspose.words.saving/rtfsaveoptions/

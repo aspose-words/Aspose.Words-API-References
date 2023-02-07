@@ -1,7 +1,7 @@
 ---
 title: MailMergeSettings.MainDocumentType
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the mailmerge main document type. The default value is Default.
+description: Specifies the mailmerge main document type. The default value is Default in C#
 type: docs
 weight: 140
 url: /net/aspose.words.settings/mailmergesettings/maindocumenttype/

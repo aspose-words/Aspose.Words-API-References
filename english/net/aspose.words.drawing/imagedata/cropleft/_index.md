@@ -1,7 +1,7 @@
 ---
 title: ImageData.CropLeft
 second_title: Aspose.Words for .NET API Reference
-description: Defines the fraction of picture removal from the left side.
+description: Defines the fraction of picture removal from the left side in C#
 type: docs
 weight: 70
 url: /net/aspose.words.drawing/imagedata/cropleft/

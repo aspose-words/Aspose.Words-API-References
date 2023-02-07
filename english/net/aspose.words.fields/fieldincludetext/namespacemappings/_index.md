@@ -1,7 +1,7 @@
 ---
 title: FieldIncludeText.NamespaceMappings
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the namespace mappings for XPath queries.
+description: Gets or sets the namespace mappings for XPath queries in C#
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldincludetext/namespacemappings/

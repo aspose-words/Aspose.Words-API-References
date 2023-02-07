@@ -1,7 +1,7 @@
 ---
 title: StructuredDocumentTag.RemoveSelfOnly
 second_title: Aspose.Words for .NET API Reference
-description: Removes just this SDT node itself but keeps the content of it inside the document tree.
+description: Removes just this SDT node itself but keeps the content of it inside the document tree in C#
 type: docs
 weight: 340
 url: /net/aspose.words.markup/structureddocumenttag/removeselfonly/

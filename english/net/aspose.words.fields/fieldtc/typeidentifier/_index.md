@@ -1,7 +1,7 @@
 ---
 title: FieldTC.TypeIdentifier
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a type identifier for this field which is typically a letter.
+description: Gets or sets a type identifier for this field which is typically a letter in C#
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldtc/typeidentifier/

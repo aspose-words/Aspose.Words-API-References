@@ -1,7 +1,7 @@
 ---
 title: BuiltInDocumentProperties.NameOfApplication
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the name of the application.
+description: Gets or sets the name of the application in C#
 type: docs
 weight: 210
 url: /net/aspose.words.properties/builtindocumentproperties/nameofapplication/

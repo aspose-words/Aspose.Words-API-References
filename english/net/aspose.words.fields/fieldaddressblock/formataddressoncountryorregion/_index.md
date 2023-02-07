@@ -1,7 +1,7 @@
 ---
 title: FieldAddressBlock.FormatAddressOnCountryOrRegion
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets whether to format the address according to the country/region of the recipient as defined by POSTCODE Universal Postal Union 2006.
+description: Gets or sets whether to format the address according to the country/region of the recipient as defined by POSTCODE Universal Postal Union 2006 in C#
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldaddressblock/formataddressoncountryorregion/

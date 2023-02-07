@@ -1,7 +1,7 @@
 ---
 title: RevisionCollection.GetEnumerator
 second_title: Aspose.Words for .NET API Reference
-description: Returns an enumerator object.
+description: Returns an enumerator object in C#
 type: docs
 weight: 50
 url: /net/aspose.words/revisioncollection/getenumerator/

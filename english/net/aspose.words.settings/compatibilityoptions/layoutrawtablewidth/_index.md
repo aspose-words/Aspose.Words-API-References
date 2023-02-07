@@ -1,7 +1,7 @@
 ---
 title: CompatibilityOptions.LayoutRawTableWidth
 second_title: Aspose.Words for .NET API Reference
-description: Ignore Space Before Table When Deciding If Table Should Wrap Floating Object.
+description: Ignore Space Before Table When Deciding If Table Should Wrap Floating Object in C#
 type: docs
 weight: 290
 url: /net/aspose.words.settings/compatibilityoptions/layoutrawtablewidth/

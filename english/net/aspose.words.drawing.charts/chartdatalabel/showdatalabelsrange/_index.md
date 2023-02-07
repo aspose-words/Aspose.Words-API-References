@@ -1,7 +1,7 @@
 ---
 title: ChartDataLabel.ShowDataLabelsRange
 second_title: Aspose.Words for .NET API Reference
-description: Allows to specify if values from data labels range to be displayed in the data labels. Default value is false.
+description: Allows to specify if values from data labels range to be displayed in the data labels. Default value is false in C#
 type: docs
 weight: 90
 url: /net/aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/

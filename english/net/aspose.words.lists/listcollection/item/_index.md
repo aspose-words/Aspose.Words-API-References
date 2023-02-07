@@ -1,7 +1,7 @@
 ---
 title: ListCollection.Item
 second_title: Aspose.Words for .NET API Reference
-description: Gets a list by index.
+description: Gets a list by index in C#
 type: docs
 weight: 30
 url: /net/aspose.words.lists/listcollection/item/

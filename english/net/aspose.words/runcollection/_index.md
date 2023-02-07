@@ -1,7 +1,7 @@
 ---
 title: Class RunCollection
 second_title: Aspose.Words for .NET API Reference
-description: Provides typed access to a collection of Run nodes.
+description: Provides typed access to a collection of Run nodes in C#
 type: docs
 weight: 4610
 url: /net/aspose.words/runcollection/

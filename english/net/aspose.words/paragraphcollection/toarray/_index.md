@@ -1,7 +1,7 @@
 ---
 title: ParagraphCollection.ToArray
 second_title: Aspose.Words for .NET API Reference
-description: Copies all paragraphs from the collection to a new array of paragraphs.
+description: Copies all paragraphs from the collection to a new array of paragraphs in C#
 type: docs
 weight: 20
 url: /net/aspose.words/paragraphcollection/toarray/

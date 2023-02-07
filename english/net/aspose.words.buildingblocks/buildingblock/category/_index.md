@@ -1,7 +1,7 @@
 ---
 title: BuildingBlock.Category
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the secondlevel categorization for the building block.
+description: Specifies the secondlevel categorization for the building block in C#
 type: docs
 weight: 30
 url: /net/aspose.words.buildingblocks/buildingblock/category/

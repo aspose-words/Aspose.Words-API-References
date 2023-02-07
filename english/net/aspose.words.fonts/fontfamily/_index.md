@@ -1,7 +1,7 @@
 ---
 title: Enum FontFamily
 second_title: Aspose.Words for .NET API Reference
-description: Represents the font family.
+description: Represents the font family in C#
 type: docs
 weight: 2750
 url: /net/aspose.words.fonts/fontfamily/

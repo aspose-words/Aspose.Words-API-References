@@ -1,7 +1,7 @@
 ---
 title: Class FieldAsk
 second_title: Aspose.Words for .NET API Reference
-description: Implements the ASK field.
+description: Implements the ASK field in C#
 type: docs
 weight: 1410
 url: /net/aspose.words.fields/fieldask/

@@ -1,7 +1,7 @@
 ---
 title: CssSavingArgs.CssStream
 second_title: Aspose.Words for .NET API Reference
-description: Allows to specify the stream where the CSS information will be saved to.
+description: Allows to specify the stream where the CSS information will be saved to in C#
 type: docs
 weight: 10
 url: /net/aspose.words.saving/csssavingargs/cssstream/

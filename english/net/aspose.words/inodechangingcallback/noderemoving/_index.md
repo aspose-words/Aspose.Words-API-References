@@ -1,7 +1,7 @@
 ---
 title: INodeChangingCallback.NodeRemoving
 second_title: Aspose.Words for .NET API Reference
-description: Called just before a node belonging to this document is about to be removed from the document.
+description: Called just before a node belonging to this document is about to be removed from the document in C#
 type: docs
 weight: 40
 url: /net/aspose.words/inodechangingcallback/noderemoving/

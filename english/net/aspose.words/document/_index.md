@@ -1,7 +1,7 @@
 ---
 title: Class Document
 second_title: Aspose.Words for .NET API Reference
-description: Represents a Word document.
+description: Represents a Word document in C#
 type: docs
 weight: 420
 url: /net/aspose.words/document/

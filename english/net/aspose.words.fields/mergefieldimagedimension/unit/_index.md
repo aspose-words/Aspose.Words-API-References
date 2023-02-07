@@ -1,7 +1,7 @@
 ---
 title: MergeFieldImageDimension.Unit
 second_title: Aspose.Words for .NET API Reference
-description: The unit.
+description: The unit in C#
 type: docs
 weight: 20
 url: /net/aspose.words.fields/mergefieldimagedimension/unit/

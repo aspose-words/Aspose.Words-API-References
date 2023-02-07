@@ -1,7 +1,7 @@
 ---
 title: DocumentVisitor.VisitStructuredDocumentTagStart
 second_title: Aspose.Words for .NET API Reference
-description: Called when enumeration of a structured document tag has started.
+description: Called when enumeration of a structured document tag has started in C#
 type: docs
 weight: 470
 url: /net/aspose.words/documentvisitor/visitstructureddocumenttagstart/

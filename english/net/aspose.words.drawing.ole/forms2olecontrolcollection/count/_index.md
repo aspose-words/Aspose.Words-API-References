@@ -1,7 +1,7 @@
 ---
 title: Forms2OleControlCollection.Count
 second_title: Aspose.Words for .NET API Reference
-description: Gets count of objects in the collection.
+description: Gets count of objects in the collection in C#
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.ole/forms2olecontrolcollection/count/

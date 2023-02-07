@@ -1,7 +1,7 @@
 ---
 title: CompatibilityOptions.NoLeading
 second_title: Aspose.Words for .NET API Reference
-description: Do Not Add Leading Between Lines of Text.
+description: Do Not Add Leading Between Lines of Text in C#
 type: docs
 weight: 350
 url: /net/aspose.words.settings/compatibilityoptions/noleading/

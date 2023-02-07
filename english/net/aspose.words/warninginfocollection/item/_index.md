@@ -1,7 +1,7 @@
 ---
 title: WarningInfoCollection.Item
 second_title: Aspose.Words for .NET API Reference
-description: Gets an item at the specified index.
+description: Gets an item at the specified index in C#
 type: docs
 weight: 30
 url: /net/aspose.words/warninginfocollection/item/

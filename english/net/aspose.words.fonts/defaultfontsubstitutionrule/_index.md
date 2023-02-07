@@ -1,7 +1,7 @@
 ---
 title: Class DefaultFontSubstitutionRule
 second_title: Aspose.Words for .NET API Reference
-description: Default font substitution rule.
+description: Default font substitution rule in C#
 type: docs
 weight: 2680
 url: /net/aspose.words.fonts/defaultfontsubstitutionrule/

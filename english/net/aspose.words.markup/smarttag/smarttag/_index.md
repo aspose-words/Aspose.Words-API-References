@@ -1,7 +1,7 @@
 ---
 title: SmartTag.SmartTag
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of the SmartTag class.
+description: Initializes a new instance of the SmartTag class in C#
 type: docs
 weight: 10
 url: /net/aspose.words.markup/smarttag/smarttag/

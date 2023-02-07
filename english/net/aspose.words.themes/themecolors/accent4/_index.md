@@ -1,7 +1,7 @@
 ---
 title: ThemeColors.Accent4
 second_title: Aspose.Words for .NET API Reference
-description: Specifies color Accent 4.
+description: Specifies color Accent 4 in C#
 type: docs
 weight: 40
 url: /net/aspose.words.themes/themecolors/accent4/

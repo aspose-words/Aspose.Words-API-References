@@ -1,7 +1,7 @@
 ---
 title: OlePackage.FileName
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets OLE Package file name.
+description: Gets or sets OLE Package file name in C#
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/olepackage/filename/

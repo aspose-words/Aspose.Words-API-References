@@ -1,7 +1,7 @@
 ---
 title: CompatibilityOptions.UseWord2010TableStyleRules
 second_title: Aspose.Words for .NET API Reference
-description: 
+description:  in C#
 type: docs
 weight: 670
 url: /net/aspose.words.settings/compatibilityoptions/useword2010tablestylerules/

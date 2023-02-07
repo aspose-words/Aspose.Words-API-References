@@ -1,7 +1,7 @@
 ---
 title: WebExtensionReference.Id
 second_title: Aspose.Words for .NET API Reference
-description: Identifier associated with the web extension within a catalog provider.
+description: Identifier associated with the web extension within a catalog provider in C#
 type: docs
 weight: 20
 url: /net/aspose.words.webextensions/webextensionreference/id/

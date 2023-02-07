@@ -1,7 +1,7 @@
 ---
 title: BuildingBlock.LastSection
 second_title: Aspose.Words for .NET API Reference
-description: Gets the last section in the building block.
+description: Gets the last section in the building block in C#
 type: docs
 weight: 80
 url: /net/aspose.words.buildingblocks/buildingblock/lastsection/

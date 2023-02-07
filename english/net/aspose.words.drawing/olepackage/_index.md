@@ -1,7 +1,7 @@
 ---
 title: Class OlePackage
 second_title: Aspose.Words for .NET API Reference
-description: Allows to access OLE Package properties.
+description: Allows to access OLE Package properties in C#
 type: docs
 weight: 1030
 url: /net/aspose.words.drawing/olepackage/

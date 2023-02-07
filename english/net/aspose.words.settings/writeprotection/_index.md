@@ -1,7 +1,7 @@
 ---
 title: Class WriteProtection
 second_title: Aspose.Words for .NET API Reference
-description: Specifies write protection settings for a document.
+description: Specifies write protection settings for a document in C#
 type: docs
 weight: 5740
 url: /net/aspose.words.settings/writeprotection/

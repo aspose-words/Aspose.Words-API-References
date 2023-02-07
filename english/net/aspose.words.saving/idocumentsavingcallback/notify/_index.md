@@ -1,7 +1,7 @@
 ---
 title: IDocumentSavingCallback.Notify
 second_title: Aspose.Words for .NET API Reference
-description: This is called to notify of document saving progress.
+description: This is called to notify of document saving progress in C#
 type: docs
 weight: 10
 url: /net/aspose.words.saving/idocumentsavingcallback/notify/

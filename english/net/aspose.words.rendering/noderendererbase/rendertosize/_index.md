@@ -1,7 +1,7 @@
 ---
 title: NodeRendererBase.RenderToSize
 second_title: Aspose.Words for .NET API Reference
-description: Renders the shape into a Graphics object to a specified size.
+description: Renders the shape into a Graphics object to a specified size in C#
 type: docs
 weight: 80
 url: /net/aspose.words.rendering/noderendererbase/rendertosize/

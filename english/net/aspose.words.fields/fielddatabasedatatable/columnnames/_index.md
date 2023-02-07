@@ -1,7 +1,7 @@
 ---
 title: FieldDatabaseDataTable.ColumnNames
 second_title: Aspose.Words for .NET API Reference
-description: Gets columns that belong to this table.
+description: Gets columns that belong to this table in C#
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fielddatabasedatatable/columnnames/

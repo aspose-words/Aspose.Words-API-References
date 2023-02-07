@@ -1,7 +1,7 @@
 ---
 title: FieldCitation.SourceTag
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a value that mathes the Tag elements value of the source to insert.
+description: Gets or sets a value that mathes the Tag elements value of the source to insert in C#
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldcitation/sourcetag/

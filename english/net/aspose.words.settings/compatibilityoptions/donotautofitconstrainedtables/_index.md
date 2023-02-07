@@ -1,7 +1,7 @@
 ---
 title: CompatibilityOptions.DoNotAutofitConstrainedTables
 second_title: Aspose.Words for .NET API Reference
-description: Do Not AutoFit Tables To Fit Next To Wrapped Objects.
+description: Do Not AutoFit Tables To Fit Next To Wrapped Objects in C#
 type: docs
 weight: 120
 url: /net/aspose.words.settings/compatibilityoptions/donotautofitconstrainedtables/

@@ -1,7 +1,7 @@
 ---
 title: DocumentBuilder.DeleteRow
 second_title: Aspose.Words for .NET API Reference
-description: Deletes a row from a table.
+description: Deletes a row from a table in C#
 type: docs
 weight: 200
 url: /net/aspose.words/documentbuilder/deleterow/

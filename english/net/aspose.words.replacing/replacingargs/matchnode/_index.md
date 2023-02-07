@@ -1,7 +1,7 @@
 ---
 title: ReplacingArgs.MatchNode
 second_title: Aspose.Words for .NET API Reference
-description: Gets the node that contains the beginning of the match.
+description: Gets the node that contains the beginning of the match in C#
 type: docs
 weight: 40
 url: /net/aspose.words.replacing/replacingargs/matchnode/

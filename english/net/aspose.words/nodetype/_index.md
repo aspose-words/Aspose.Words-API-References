@@ -1,7 +1,7 @@
 ---
 title: Enum NodeType
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the type of a Word document node.
+description: Specifies the type of a Word document node in C#
 type: docs
 weight: 4020
 url: /net/aspose.words/nodetype/

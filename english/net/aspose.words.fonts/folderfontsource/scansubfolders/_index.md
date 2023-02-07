@@ -1,7 +1,7 @@
 ---
 title: FolderFontSource.ScanSubfolders
 second_title: Aspose.Words for .NET API Reference
-description: Determines whether or not to scan the subfolders.
+description: Determines whether or not to scan the subfolders in C#
 type: docs
 weight: 30
 url: /net/aspose.words.fonts/folderfontsource/scansubfolders/

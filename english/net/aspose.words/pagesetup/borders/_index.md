@@ -1,7 +1,7 @@
 ---
 title: PageSetup.Borders
 second_title: Aspose.Words for .NET API Reference
-description: Gets a collection of the page borders.
+description: Gets a collection of the page borders in C#
 type: docs
 weight: 50
 url: /net/aspose.words/pagesetup/borders/

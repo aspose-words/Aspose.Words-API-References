@@ -1,7 +1,7 @@
 ---
 title: FieldDisplayBarcode.AddStartStopChar
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets whether to add Start/Stop characters for barcode types NW7 and CODE39.
+description: Gets or sets whether to add Start/Stop characters for barcode types NW7 and CODE39 in C#
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fielddisplaybarcode/addstartstopchar/

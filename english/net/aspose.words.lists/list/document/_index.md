@@ -1,7 +1,7 @@
 ---
 title: List.Document
 second_title: Aspose.Words for .NET API Reference
-description: Gets the owner document.
+description: Gets the owner document in C#
 type: docs
 weight: 10
 url: /net/aspose.words.lists/list/document/

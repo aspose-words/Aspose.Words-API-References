@@ -1,7 +1,7 @@
 ---
 title: Class GroupShape
 second_title: Aspose.Words for .NET API Reference
-description: Represents a group of shapes in a document.
+description: Represents a group of shapes in a document in C#
 type: docs
 weight: 890
 url: /net/aspose.words.drawing/groupshape/

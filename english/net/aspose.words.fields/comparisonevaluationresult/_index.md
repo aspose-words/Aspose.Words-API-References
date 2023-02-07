@@ -1,7 +1,7 @@
 ---
 title: Class ComparisonEvaluationResult
 second_title: Aspose.Words for .NET API Reference
-description: The comparison evaluation result.
+description: The comparison evaluation result in C#
 type: docs
 weight: 1330
 url: /net/aspose.words.fields/comparisonevaluationresult/

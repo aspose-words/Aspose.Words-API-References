@@ -1,7 +1,7 @@
 ---
 title: TextPath.Bold
 second_title: Aspose.Words for .NET API Reference
-description: True if the font is formatted as bold.
+description: True if the font is formatted as bold in C#
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/textpath/bold/

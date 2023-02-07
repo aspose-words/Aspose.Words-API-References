@@ -1,7 +1,7 @@
 ---
 title: DocumentVisitor.VisitCommentRangeStart
 second_title: Aspose.Words for .NET API Reference
-description: Called when the start of a commented range of text is encountered.
+description: Called when the start of a commented range of text is encountered in C#
 type: docs
 weight: 120
 url: /net/aspose.words/documentvisitor/visitcommentrangestart/

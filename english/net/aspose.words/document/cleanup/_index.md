@@ -1,7 +1,7 @@
 ---
 title: Document.Cleanup
 second_title: Aspose.Words for .NET API Reference
-description: Cleans unused styles and lists from the document.
+description: Cleans unused styles and lists from the document in C#
 type: docs
 weight: 540
 url: /net/aspose.words/document/cleanup/

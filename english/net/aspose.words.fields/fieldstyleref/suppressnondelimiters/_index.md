@@ -1,7 +1,7 @@
 ---
 title: FieldStyleRef.SuppressNonDelimiters
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets whether to suppress nondelimiter characters.
+description: Gets or sets whether to suppress nondelimiter characters in C#
 type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldstyleref/suppressnondelimiters/

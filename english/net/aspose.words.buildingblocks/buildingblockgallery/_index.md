@@ -1,7 +1,7 @@
 ---
 title: Enum BuildingBlockGallery
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the predefined gallery into which a building block is classified.
+description: Specifies the predefined gallery into which a building block is classified in C#
 type: docs
 weight: 150
 url: /net/aspose.words.buildingblocks/buildingblockgallery/

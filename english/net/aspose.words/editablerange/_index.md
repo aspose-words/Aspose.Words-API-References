@@ -1,7 +1,7 @@
 ---
 title: Class EditableRange
 second_title: Aspose.Words for .NET API Reference
-description: Represents a single editable range.
+description: Represents a single editable range in C#
 type: docs
 weight: 1270
 url: /net/aspose.words/editablerange/

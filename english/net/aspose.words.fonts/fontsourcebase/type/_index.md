@@ -1,7 +1,7 @@
 ---
 title: FontSourceBase.Type
 second_title: Aspose.Words for .NET API Reference
-description: Returns the type of the font source.
+description: Returns the type of the font source in C#
 type: docs
 weight: 20
 url: /net/aspose.words.fonts/fontsourcebase/type/

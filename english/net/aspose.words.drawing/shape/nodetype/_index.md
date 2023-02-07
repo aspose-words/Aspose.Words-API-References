@@ -1,7 +1,7 @@
 ---
 title: Shape.NodeType
 second_title: Aspose.Words for .NET API Reference
-description: Returns Shape.
+description: Returns Shape in C#
 type: docs
 weight: 130
 url: /net/aspose.words.drawing/shape/nodetype/

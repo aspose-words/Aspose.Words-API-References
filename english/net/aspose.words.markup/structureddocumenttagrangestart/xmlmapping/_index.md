@@ -1,7 +1,7 @@
 ---
 title: StructuredDocumentTagRangeStart.XmlMapping
 second_title: Aspose.Words for .NET API Reference
-description: Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document.
+description: Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document in C#
 type: docs
 weight: 180
 url: /net/aspose.words.markup/structureddocumenttagrangestart/xmlmapping/

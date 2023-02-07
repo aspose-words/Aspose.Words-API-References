@@ -1,7 +1,7 @@
 ---
 title: Stroke.Color2
 second_title: Aspose.Words for .NET API Reference
-description: Defines a second color for a stroke.
+description: Defines a second color for a stroke in C#
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/stroke/color2/

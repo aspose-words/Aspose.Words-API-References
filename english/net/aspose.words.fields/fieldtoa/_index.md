@@ -1,7 +1,7 @@
 ---
 title: Class FieldToa
 second_title: Aspose.Words for .NET API Reference
-description: Implements the TOA field.
+description: Implements the TOA field in C#
 type: docs
 weight: 2370
 url: /net/aspose.words.fields/fieldtoa/

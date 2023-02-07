@@ -1,7 +1,7 @@
 ---
 title: AxisScaling.Minimum
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets minimum value of the axis.
+description: Gets or sets minimum value of the axis in C#
 type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/axisscaling/minimum/

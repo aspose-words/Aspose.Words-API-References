@@ -1,7 +1,7 @@
 ---
 title: HtmlFixedSaveOptions.ShowPageBorder
 second_title: Aspose.Words for .NET API Reference
-description: Specifies whether border around pages should be shown. Default is true.
+description: Specifies whether border around pages should be shown. Default is true in C#
 type: docs
 weight: 180
 url: /net/aspose.words.saving/htmlfixedsaveoptions/showpageborder/

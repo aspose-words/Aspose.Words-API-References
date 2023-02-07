@@ -1,7 +1,7 @@
 ---
 title: Enum DocumentSplitCriteria
 second_title: Aspose.Words for .NET API Reference
-description: Specifies how the document is split into parts when saving to Html Epub or Azw3 format.
+description: Specifies how the document is split into parts when saving to Html Epub or Azw3 format in C#
 type: docs
 weight: 4740
 url: /net/aspose.words.saving/documentsplitcriteria/

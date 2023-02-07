@@ -1,7 +1,7 @@
 ---
 title: FieldCitation.FormatLanguageId
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the language ID that is used in conjunction with the specified bibliographic style to format the citation in the document.
+description: Gets or sets the language ID that is used in conjunction with the specified bibliographic style to format the citation in the document in C#
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldcitation/formatlanguageid/

@@ -1,7 +1,7 @@
 ---
 title: ReportingEngine.Options
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a set of flags controlling behavior of this ReportingEngine instance while building a report.
+description: Gets or sets a set of flags controlling behavior of this ReportingEngine instance while building a report in C#
 type: docs
 weight: 30
 url: /net/aspose.words.reporting/reportingengine/options/

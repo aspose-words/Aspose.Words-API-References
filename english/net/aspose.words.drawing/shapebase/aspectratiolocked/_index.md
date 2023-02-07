@@ -1,7 +1,7 @@
 ---
 title: ShapeBase.AspectRatioLocked
 second_title: Aspose.Words for .NET API Reference
-description: Specifies whether the shapes aspect ratio is locked.
+description: Specifies whether the shapes aspect ratio is locked in C#
 type: docs
 weight: 40
 url: /net/aspose.words.drawing/shapebase/aspectratiolocked/

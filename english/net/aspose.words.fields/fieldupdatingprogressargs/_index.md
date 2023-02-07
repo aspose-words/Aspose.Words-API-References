@@ -1,7 +1,7 @@
 ---
 title: Class FieldUpdatingProgressArgs
 second_title: Aspose.Words for .NET API Reference
-description: Provides data for the field updating progress event.
+description: Provides data for the field updating progress event in C#
 type: docs
 weight: 2420
 url: /net/aspose.words.fields/fieldupdatingprogressargs/

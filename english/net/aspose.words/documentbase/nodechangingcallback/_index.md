@@ -1,7 +1,7 @@
 ---
 title: DocumentBase.NodeChangingCallback
 second_title: Aspose.Words for .NET API Reference
-description: Called when a node is inserted or removed in the document.
+description: Called when a node is inserted or removed in the document in C#
 type: docs
 weight: 50
 url: /net/aspose.words/documentbase/nodechangingcallback/

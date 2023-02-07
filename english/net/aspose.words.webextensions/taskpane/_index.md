@@ -1,7 +1,7 @@
 ---
 title: Class TaskPane
 second_title: Aspose.Words for .NET API Reference
-description: Represents an addin task pane object.
+description: Represents an addin task pane object in C#
 type: docs
 weight: 6470
 url: /net/aspose.words.webextensions/taskpane/

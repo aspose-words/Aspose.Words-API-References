@@ -1,7 +1,7 @@
 ---
 title: ReportingEngine.KnownTypes
 second_title: Aspose.Words for .NET API Reference
-description: Gets an unordered set i.e. a collection of unique items containing Type objects which fully or partially qualified names can be used within report templates processed by this engine instance to invoke the corresponding types static members perform type casts etc.
+description: Gets an unordered set i.e. a collection of unique items containing Type objects which fully or partially qualified names can be used within report templates processed by this engine instance to invoke the corresponding types static members perform type casts etc in C#
 type: docs
 weight: 20
 url: /net/aspose.words.reporting/reportingengine/knowntypes/

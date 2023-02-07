@@ -1,7 +1,7 @@
 ---
 title: ShapeBase.VerticalAlignment
 second_title: Aspose.Words for .NET API Reference
-description: Specifies how the shape is positioned vertically.
+description: Specifies how the shape is positioned vertically in C#
 type: docs
 weight: 510
 url: /net/aspose.words.drawing/shapebase/verticalalignment/

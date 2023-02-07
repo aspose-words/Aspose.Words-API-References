@@ -1,7 +1,7 @@
 ---
 title: ChartDataPoint.Bubble3D
 second_title: Aspose.Words for .NET API Reference
-description: 
+description:  in C#
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartdatapoint/bubble3d/

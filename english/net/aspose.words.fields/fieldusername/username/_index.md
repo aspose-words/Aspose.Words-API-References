@@ -1,7 +1,7 @@
 ---
 title: FieldUserName.UserName
 second_title: Aspose.Words for .NET API Reference
-description: Gest or sets the current users name.
+description: Gest or sets the current users name in C#
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldusername/username/

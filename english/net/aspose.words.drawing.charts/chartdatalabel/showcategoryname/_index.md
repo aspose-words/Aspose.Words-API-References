@@ -1,7 +1,7 @@
 ---
 title: ChartDataLabel.ShowCategoryName
 second_title: Aspose.Words for .NET API Reference
-description: Allows to specify if category name is to be displayed for the data labels on a chart. Default value is false.
+description: Allows to specify if category name is to be displayed for the data labels on a chart. Default value is false in C#
 type: docs
 weight: 80
 url: /net/aspose.words.drawing.charts/chartdatalabel/showcategoryname/

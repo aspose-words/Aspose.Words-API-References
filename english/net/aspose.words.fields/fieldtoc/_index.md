@@ -1,7 +1,7 @@
 ---
 title: Class FieldToc
 second_title: Aspose.Words for .NET API Reference
-description: Implements the TOC field.
+description: Implements the TOC field in C#
 type: docs
 weight: 2380
 url: /net/aspose.words.fields/fieldtoc/

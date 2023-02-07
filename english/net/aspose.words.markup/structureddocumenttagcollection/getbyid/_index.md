@@ -1,7 +1,7 @@
 ---
 title: StructuredDocumentTagCollection.GetById
 second_title: Aspose.Words for .NET API Reference
-description: Returns the structured document tag by identifier.
+description: Returns the structured document tag by identifier in C#
 type: docs
 weight: 30
 url: /net/aspose.words.markup/structureddocumenttagcollection/getbyid/

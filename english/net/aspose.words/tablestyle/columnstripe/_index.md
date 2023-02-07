@@ -1,7 +1,7 @@
 ---
 title: TableStyle.ColumnStripe
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a number of columns to include in the banding when the style specifies odd/even columns banding.
+description: Gets or sets a number of columns to include in the banding when the style specifies odd/even columns banding in C#
 type: docs
 weight: 70
 url: /net/aspose.words/tablestyle/columnstripe/

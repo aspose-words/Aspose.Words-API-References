@@ -1,7 +1,7 @@
 ---
 title: Document.CopyStylesFromTemplate
 second_title: Aspose.Words for .NET API Reference
-description: Copies styles from the specified template to a document.
+description: Copies styles from the specified template to a document in C#
 type: docs
 weight: 570
 url: /net/aspose.words/document/copystylesfromtemplate/

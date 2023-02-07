@@ -1,7 +1,7 @@
 ---
 title: Class SpecialChar
 second_title: Aspose.Words for .NET API Reference
-description: Base class for special characters in the document.
+description: Base class for special characters in the document in C#
 type: docs
 weight: 5870
 url: /net/aspose.words/specialchar/

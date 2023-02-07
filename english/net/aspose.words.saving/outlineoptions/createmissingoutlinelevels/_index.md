@@ -1,7 +1,7 @@
 ---
 title: OutlineOptions.CreateMissingOutlineLevels
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a value determining whether or not to create missing outline levels when the document is exported.
+description: Gets or sets a value determining whether or not to create missing outline levels when the document is exported in C#
 type: docs
 weight: 30
 url: /net/aspose.words.saving/outlineoptions/createmissingoutlinelevels/

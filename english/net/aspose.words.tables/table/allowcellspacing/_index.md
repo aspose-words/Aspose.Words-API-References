@@ -1,7 +1,7 @@
 ---
 title: Table.AllowCellSpacing
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the Allow spacing between cells option.
+description: Gets or sets the Allow spacing between cells option in C#
 type: docs
 weight: 60
 url: /net/aspose.words.tables/table/allowcellspacing/

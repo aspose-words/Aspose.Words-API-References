@@ -1,7 +1,7 @@
 ---
 title: Enum SvgTextOutputMode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description:  in C#
 type: docs
 weight: 5390
 url: /net/aspose.words.saving/svgtextoutputmode/

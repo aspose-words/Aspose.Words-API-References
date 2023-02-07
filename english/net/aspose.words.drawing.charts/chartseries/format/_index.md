@@ -1,7 +1,7 @@
 ---
 title: ChartSeries.Format
 second_title: Aspose.Words for .NET API Reference
-description: Provides access to fill and line formatting of the series.
+description: Provides access to fill and line formatting of the series in C#
 type: docs
 weight: 50
 url: /net/aspose.words.drawing.charts/chartseries/format/
