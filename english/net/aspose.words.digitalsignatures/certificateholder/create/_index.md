@@ -1,7 +1,7 @@
 ---
 title: CertificateHolder.Create
 second_title: Aspose.Words for .NET API Reference
-description: Creates CertificateHolder object using byte array of PKCS12 store and its password in C#
+description: CertificateHolder method. Creates CertificateHolder object using byte array of PKCS12 store and its password in C#
 type: docs
 weight: 10
 url: /net/aspose.words.digitalsignatures/certificateholder/create/

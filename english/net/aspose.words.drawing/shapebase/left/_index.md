@@ -1,7 +1,7 @@
 ---
 title: ShapeBase.Left
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the position of the left edge of the containing block of the shape in C#
+description: ShapeBase property. Gets or sets the position of the left edge of the containing block of the shape in C#
 type: docs
 weight: 360
 url: /net/aspose.words.drawing/shapebase/left/

@@ -1,7 +1,7 @@
 ---
 title: Table.Accept
 second_title: Aspose.Words for .NET API Reference
-description: Accepts a visitor in C#
+description: Table method. Accepts a visitor in C#
 type: docs
 weight: 350
 url: /net/aspose.words.tables/table/accept/

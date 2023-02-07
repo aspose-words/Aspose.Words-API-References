@@ -1,7 +1,7 @@
 ---
 title: Section.Accept
 second_title: Aspose.Words for .NET API Reference
-description: Accepts a visitor in C#
+description: Section method. Accepts a visitor in C#
 type: docs
 weight: 70
 url: /net/aspose.words/section/accept/

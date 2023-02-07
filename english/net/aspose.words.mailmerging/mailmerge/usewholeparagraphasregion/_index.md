@@ -1,7 +1,7 @@
 ---
 title: MailMerge.UseWholeParagraphAsRegion
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a value indicating whether whole paragraph with TableStart or TableEnd field or particular range between TableStart and TableEnd fields should be included into mail merge region in C#
+description: MailMerge property. Gets or sets a value indicating whether whole paragraph with TableStart or TableEnd field or particular range between TableStart and TableEnd fields should be included into mail merge region in C#
 type: docs
 weight: 160
 url: /net/aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/

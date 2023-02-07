@@ -1,7 +1,7 @@
 ---
 title: Document.Save
 second_title: Aspose.Words for .NET API Reference
-description: Saves the document to a file. Automatically determines the save format from the extension in C#
+description: Document method. Saves the document to a file. Automatically determines the save format from the extension in C#
 type: docs
 weight: 700
 url: /net/aspose.words/document/save/

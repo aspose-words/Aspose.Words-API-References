@@ -1,7 +1,7 @@
 ---
 title: HorizontalRuleFormat.NoShade
 second_title: Aspose.Words for .NET API Reference
-description: Indicates the presence of 3D shading for the horizontal rule. If true then the horizontal rule is without 3D shading and solid color is used in C#
+description: HorizontalRuleFormat property. Indicates the presence of 3D shading for the horizontal rule. If true then the horizontal rule is without 3D shading and solid color is used in C#
 type: docs
 weight: 40
 url: /net/aspose.words.drawing/horizontalruleformat/noshade/

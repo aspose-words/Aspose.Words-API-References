@@ -1,7 +1,7 @@
 ---
 title: TabStop.TabStop
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of this class in C#
+description: TabStop constructor. Initializes a new instance of this class in C#
 type: docs
 weight: 10
 url: /net/aspose.words/tabstop/tabstop/

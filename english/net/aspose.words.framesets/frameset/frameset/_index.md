@@ -1,7 +1,7 @@
 ---
 title: Frameset.Frameset
 second_title: Aspose.Words for .NET API Reference
-description: The default constructor in C#
+description: Frameset constructor. The default constructor in C#
 type: docs
 weight: 10
 url: /net/aspose.words.framesets/frameset/frameset/

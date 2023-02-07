@@ -1,7 +1,7 @@
 ---
 title: TableStyle.RightPadding
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the amount of space in points to add to the right of the contents of table cells in C#
+description: TableStyle property. Gets or sets the amount of space in points to add to the right of the contents of table cells in C#
 type: docs
 weight: 110
 url: /net/aspose.words/tablestyle/rightpadding/

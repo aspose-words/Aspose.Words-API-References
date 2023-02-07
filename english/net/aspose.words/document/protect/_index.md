@@ -1,7 +1,7 @@
 ---
 title: Document.Protect
 second_title: Aspose.Words for .NET API Reference
-description: Protects the document from changes without changing the existing password or assigns a random password in C#
+description: Document method. Protects the document from changes without changing the existing password or assigns a random password in C#
 type: docs
 weight: 650
 url: /net/aspose.words/document/protect/

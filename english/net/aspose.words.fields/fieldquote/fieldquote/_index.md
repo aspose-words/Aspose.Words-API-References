@@ -1,7 +1,7 @@
 ---
 title: FieldQuote.FieldQuote
 second_title: Aspose.Words for .NET API Reference
-description: The default constructor in C#
+description: FieldQuote constructor. The default constructor in C#
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldquote/fieldquote/

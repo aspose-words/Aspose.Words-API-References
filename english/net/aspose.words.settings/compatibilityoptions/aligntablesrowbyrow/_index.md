@@ -1,7 +1,7 @@
 ---
 title: CompatibilityOptions.AlignTablesRowByRow
 second_title: Aspose.Words for .NET API Reference
-description: Align Table Rows Independently in C#
+description: CompatibilityOptions property. Align Table Rows Independently in C#
 type: docs
 weight: 20
 url: /net/aspose.words.settings/compatibilityoptions/aligntablesrowbyrow/

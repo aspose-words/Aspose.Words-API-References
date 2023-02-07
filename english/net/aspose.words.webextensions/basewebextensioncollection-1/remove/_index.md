@@ -1,7 +1,7 @@
 ---
 title: BaseWebExtensionCollection1.Remove
 second_title: Aspose.Words for .NET API Reference
-description: Removes the item at the specified index from the collection in C#
+description: BaseWebExtensionCollection method. Removes the item at the specified index from the collection in C#
 type: docs
 weight: 60
 url: /net/aspose.words.webextensions/basewebextensioncollection-1/remove/

@@ -1,7 +1,7 @@
 ---
 title: Cell.EnsureMinimum
 second_title: Aspose.Words for .NET API Reference
-description: If the last child is not a paragraph creates and appends one empty paragraph in C#
+description: Cell method. If the last child is not a paragraph creates and appends one empty paragraph in C#
 type: docs
 weight: 120
 url: /net/aspose.words.tables/cell/ensureminimum/

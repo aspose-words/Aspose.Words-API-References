@@ -1,7 +1,7 @@
 ---
 title: Shape.Shape
 second_title: Aspose.Words for .NET API Reference
-description: Creates a new shape object in C#
+description: Shape constructor. Creates a new shape object in C#
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/shape/shape/

@@ -1,7 +1,7 @@
 ---
 title: TextPath.Size
 second_title: Aspose.Words for .NET API Reference
-description: Defines the size of the font in points in C#
+description: TextPath property. Defines the size of the font in points in C#
 type: docs
 weight: 120
 url: /net/aspose.words.drawing/textpath/size/

@@ -1,7 +1,7 @@
 ---
 title: Glyph.Clone
 second_title: Aspose.Words for .NET API Reference
-description: Returns a clone of this instance in C#
+description: Glyph method. Returns a clone of this instance in C#
 type: docs
 weight: 60
 url: /net/aspose.words.shaping/glyph/clone/

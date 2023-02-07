@@ -1,7 +1,7 @@
 ---
 title: GroupShape.NodeType
 second_title: Aspose.Words for .NET API Reference
-description: Returns GroupShape in C#
+description: GroupShape property. Returns GroupShape in C#
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/groupshape/nodetype/

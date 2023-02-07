@@ -1,7 +1,7 @@
 ---
 title: StructuredDocumentTag.SdtType
 second_title: Aspose.Words for .NET API Reference
-description: Gets type of this Structured document tag in C#
+description: StructuredDocumentTag property. Gets type of this Structured document tag in C#
 type: docs
 weight: 250
 url: /net/aspose.words.markup/structureddocumenttag/sdttype/

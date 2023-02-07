@@ -1,7 +1,7 @@
 ---
 title: AsposeWordsPrintDocument.AsposeWordsPrintDocument
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of this class in C#
+description: AsposeWordsPrintDocument constructor. Initializes a new instance of this class in C#
 type: docs
 weight: 10
 url: /net/aspose.words.rendering/asposewordsprintdocument/asposewordsprintdocument/

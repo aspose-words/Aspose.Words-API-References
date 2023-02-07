@@ -1,7 +1,7 @@
 ---
 title: Cluster.CodepointsLength
 second_title: Aspose.Words for .NET API Reference
-description: Gets total number of codepoints in the Cluster in C#
+description: Cluster property. Gets total number of codepoints in the Cluster in C#
 type: docs
 weight: 30
 url: /net/aspose.words.shaping/cluster/codepointslength/

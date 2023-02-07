@@ -1,7 +1,7 @@
 ---
 title: Shape.UpdateSmartArtDrawing
 second_title: Aspose.Words for .NET API Reference
-description: Updates SmartArt prerendered drawing by using Aspose.Wordss SmartArt cold rendering engine in C#
+description: Shape method. Updates SmartArt prerendered drawing by using Aspose.Wordss SmartArt cold rendering engine in C#
 type: docs
 weight: 250
 url: /net/aspose.words.drawing/shape/updatesmartartdrawing/

@@ -1,7 +1,7 @@
 ---
 title: StructuredDocumentTagRangeStart.PlaceholderName
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets Name of the BuildingBlock containing placeholder text in C#
+description: StructuredDocumentTagRangeStart property. Gets or sets Name of the BuildingBlock containing placeholder text in C#
 type: docs
 weight: 120
 url: /net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/

@@ -1,7 +1,7 @@
 ---
 title: GraphicsQualityOptions.TextRenderingHint
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the rendering mode for text associated with this Graphics in C#
+description: GraphicsQualityOptions property. Gets or sets the rendering mode for text associated with this Graphics in C#
 type: docs
 weight: 70
 url: /net/aspose.words.saving/graphicsqualityoptions/textrenderinghint/

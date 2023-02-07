@@ -1,7 +1,7 @@
 ---
 title: PdfEncryptionDetails.OwnerPassword
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the owner password for the encrypted PDF document in C#
+description: PdfEncryptionDetails property. Specifies the owner password for the encrypted PDF document in C#
 type: docs
 weight: 20
 url: /net/aspose.words.saving/pdfencryptiondetails/ownerpassword/

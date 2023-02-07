@@ -1,7 +1,7 @@
 ---
 title: HtmlLoadOptions.HtmlLoadOptions
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of this class with default values in C#
+description: HtmlLoadOptions constructor. Initializes a new instance of this class with default values in C#
 type: docs
 weight: 10
 url: /net/aspose.words.loading/htmlloadoptions/htmlloadoptions/

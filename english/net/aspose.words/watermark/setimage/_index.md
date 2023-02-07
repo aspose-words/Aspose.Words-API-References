@@ -1,7 +1,7 @@
 ---
 title: Watermark.SetImage
 second_title: Aspose.Words for .NET API Reference
-description: Adds Image watermark into the document in C#
+description: Watermark method. Adds Image watermark into the document in C#
 type: docs
 weight: 30
 url: /net/aspose.words/watermark/setimage/

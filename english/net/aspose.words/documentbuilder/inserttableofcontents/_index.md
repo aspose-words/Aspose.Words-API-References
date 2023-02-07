@@ -1,7 +1,7 @@
 ---
 title: DocumentBuilder.InsertTableOfContents
 second_title: Aspose.Words for .NET API Reference
-description: Inserts a TOC table of contents field into the document in C#
+description: DocumentBuilder method. Inserts a TOC table of contents field into the document in C#
 type: docs
 weight: 460
 url: /net/aspose.words/documentbuilder/inserttableofcontents/

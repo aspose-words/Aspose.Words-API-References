@@ -1,7 +1,7 @@
 ---
 title: FontInfo.GetEmbeddedFont
 second_title: Aspose.Words for .NET API Reference
-description: Gets a specific embedded font file in C#
+description: FontInfo method. Gets a specific embedded font file in C#
 type: docs
 weight: 80
 url: /net/aspose.words.fonts/fontinfo/getembeddedfont/

@@ -1,7 +1,7 @@
 ---
 title: SectionCollection.ToArray
 second_title: Aspose.Words for .NET API Reference
-description: Copies all sections from the collection to a new array of sections in C#
+description: SectionCollection method. Copies all sections from the collection to a new array of sections in C#
 type: docs
 weight: 20
 url: /net/aspose.words/sectioncollection/toarray/

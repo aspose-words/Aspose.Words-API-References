@@ -1,7 +1,7 @@
 ---
 title: PageInfo.GetSpecifiedPrinterPaperSource
 second_title: Aspose.Words for .NET API Reference
-description: Gets the PaperSource object suitable for printing the page represented by this PageInfo in C#
+description: PageInfo method. Gets the PaperSource object suitable for printing the page represented by this PageInfo in C#
 type: docs
 weight: 90
 url: /net/aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/

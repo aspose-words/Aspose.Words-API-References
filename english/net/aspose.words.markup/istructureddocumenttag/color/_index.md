@@ -1,7 +1,7 @@
 ---
 title: IStructuredDocumentTag.Color
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the color of the structured document tag in C#
+description: IStructuredDocumentTag property. Gets or sets the color of the structured document tag in C#
 type: docs
 weight: 10
 url: /net/aspose.words.markup/istructureddocumenttag/color/

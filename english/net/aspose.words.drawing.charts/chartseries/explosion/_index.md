@@ -1,7 +1,7 @@
 ---
 title: ChartSeries.Explosion
 second_title: Aspose.Words for .NET API Reference
-description:  in C#
+description: ChartSeries property.  in C#
 type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chartseries/explosion/

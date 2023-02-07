@@ -1,7 +1,7 @@
 ---
 title: FieldOptions.ToaCategories
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the table of authorities categories in C#
+description: FieldOptions property. Gets or sets the table of authorities categories in C#
 type: docs
 weight: 190
 url: /net/aspose.words.fields/fieldoptions/toacategories/

@@ -1,7 +1,7 @@
 ---
 title: ConditionalStyle.Equals
 second_title: Aspose.Words for .NET API Reference
-description:  in C#
+description: ConditionalStyle method.  in C#
 type: docs
 weight: 110
 url: /net/aspose.words/conditionalstyle/equals/

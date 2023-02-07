@@ -1,7 +1,7 @@
 ---
 title: Run.GetText
 second_title: Aspose.Words for .NET API Reference
-description: Gets the text of the run in C#
+description: Run method. Gets the text of the run in C#
 type: docs
 weight: 50
 url: /net/aspose.words/run/gettext/

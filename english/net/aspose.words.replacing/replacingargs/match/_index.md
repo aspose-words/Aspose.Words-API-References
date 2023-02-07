@@ -1,7 +1,7 @@
 ---
 title: ReplacingArgs.Match
 second_title: Aspose.Words for .NET API Reference
-description: The Match resulting from a single regular expression match during a Replace in C#
+description: ReplacingArgs property. The Match resulting from a single regular expression match during a Replace in C#
 type: docs
 weight: 30
 url: /net/aspose.words.replacing/replacingargs/match/

@@ -1,7 +1,7 @@
 ---
 title: TableSubstitutionRule.Save
 second_title: Aspose.Words for .NET API Reference
-description: Saves the current table substitution settings to file in C#
+description: TableSubstitutionRule method. Saves the current table substitution settings to file in C#
 type: docs
 weight: 70
 url: /net/aspose.words.fonts/tablesubstitutionrule/save/

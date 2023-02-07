@@ -1,7 +1,7 @@
 ---
 title: ShapeRenderer.ShapeRenderer
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of this class in C#
+description: ShapeRenderer constructor. Initializes a new instance of this class in C#
 type: docs
 weight: 10
 url: /net/aspose.words.rendering/shaperenderer/shaperenderer/

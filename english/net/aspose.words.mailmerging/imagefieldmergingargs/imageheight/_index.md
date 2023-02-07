@@ -1,7 +1,7 @@
 ---
 title: ImageFieldMergingArgs.ImageHeight
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the image height for the image to insert into the document in C#
+description: ImageFieldMergingArgs property. Specifies the image height for the image to insert into the document in C#
 type: docs
 weight: 30
 url: /net/aspose.words.mailmerging/imagefieldmergingargs/imageheight/

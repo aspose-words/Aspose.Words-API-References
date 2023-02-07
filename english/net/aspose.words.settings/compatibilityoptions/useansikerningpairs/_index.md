@@ -1,7 +1,7 @@
 ---
 title: CompatibilityOptions.UseAnsiKerningPairs
 second_title: Aspose.Words for .NET API Reference
-description: Use ANSI Kerning Pairs from Fonts in C#
+description: CompatibilityOptions property. Use ANSI Kerning Pairs from Fonts in C#
 type: docs
 weight: 610
 url: /net/aspose.words.settings/compatibilityoptions/useansikerningpairs/

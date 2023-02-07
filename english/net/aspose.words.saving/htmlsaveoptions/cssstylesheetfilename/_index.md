@@ -1,7 +1,7 @@
 ---
 title: HtmlSaveOptions.CssStyleSheetFileName
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the path and the name of the Cascading Style Sheet CSS file written when a document is exported to HTML. Default is an empty string in C#
+description: HtmlSaveOptions property. Specifies the path and the name of the Cascading Style Sheet CSS file written when a document is exported to HTML. Default is an empty string in C#
 type: docs
 weight: 50
 url: /net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/

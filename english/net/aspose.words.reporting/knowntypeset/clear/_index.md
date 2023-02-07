@@ -1,7 +1,7 @@
 ---
 title: KnownTypeSet.Clear
 second_title: Aspose.Words for .NET API Reference
-description: Removes all items from the set in C#
+description: KnownTypeSet method. Removes all items from the set in C#
 type: docs
 weight: 30
 url: /net/aspose.words.reporting/knowntypeset/clear/

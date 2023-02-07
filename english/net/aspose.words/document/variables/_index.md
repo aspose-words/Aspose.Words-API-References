@@ -1,7 +1,7 @@
 ---
 title: Document.Variables
 second_title: Aspose.Words for .NET API Reference
-description: Returns the collection of variables added to a document or template in C#
+description: Document property. Returns the collection of variables added to a document or template in C#
 type: docs
 weight: 440
 url: /net/aspose.words/document/variables/

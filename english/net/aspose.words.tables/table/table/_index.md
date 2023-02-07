@@ -1,7 +1,7 @@
 ---
 title: Table.Table
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of the Table class in C#
+description: Table constructor. Initializes a new instance of the Table class in C#
 type: docs
 weight: 10
 url: /net/aspose.words.tables/table/table/

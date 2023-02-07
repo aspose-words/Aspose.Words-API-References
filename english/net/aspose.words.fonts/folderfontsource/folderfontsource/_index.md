@@ -1,7 +1,7 @@
 ---
 title: FolderFontSource.FolderFontSource
 second_title: Aspose.Words for .NET API Reference
-description: Ctor in C#
+description: FolderFontSource constructor. Ctor in C#
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/folderfontsource/folderfontsource/

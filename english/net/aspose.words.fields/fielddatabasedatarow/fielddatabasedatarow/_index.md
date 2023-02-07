@@ -1,7 +1,7 @@
 ---
 title: FieldDatabaseDataRow.FieldDatabaseDataRow
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of the FieldDatabaseDataRow class in C#
+description: FieldDatabaseDataRow constructor. Initializes a new instance of the FieldDatabaseDataRow class in C#
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fielddatabasedatarow/fielddatabasedatarow/

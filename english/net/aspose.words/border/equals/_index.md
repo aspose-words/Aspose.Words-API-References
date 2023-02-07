@@ -1,7 +1,7 @@
 ---
 title: Border.Equals
 second_title: Aspose.Words for .NET API Reference
-description: Determines whether the specified border is equal in value to the current border in C#
+description: Border method. Determines whether the specified border is equal in value to the current border in C#
 type: docs
 weight: 100
 url: /net/aspose.words/border/equals/

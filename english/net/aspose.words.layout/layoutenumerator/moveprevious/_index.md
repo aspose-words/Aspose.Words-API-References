@@ -1,7 +1,7 @@
 ---
 title: LayoutEnumerator.MovePrevious
 second_title: Aspose.Words for .NET API Reference
-description: Moves to the previous sibling entity in C#
+description: LayoutEnumerator method. Moves to the previous sibling entity in C#
 type: docs
 weight: 150
 url: /net/aspose.words.layout/layoutenumerator/moveprevious/

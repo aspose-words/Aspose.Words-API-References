@@ -1,7 +1,7 @@
 ---
 title: RowCollection.Item
 second_title: Aspose.Words for .NET API Reference
-description: Retrieves a Row at the given index in C#
+description: RowCollection property. Retrieves a Row at the given index in C#
 type: docs
 weight: 10
 url: /net/aspose.words.tables/rowcollection/item/

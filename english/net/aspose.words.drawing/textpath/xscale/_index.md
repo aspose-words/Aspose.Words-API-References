@@ -1,7 +1,7 @@
 ---
 title: TextPath.XScale
 second_title: Aspose.Words for .NET API Reference
-description: Determines whether a straight textpath will be used instead of the shape path in C#
+description: TextPath property. Determines whether a straight textpath will be used instead of the shape path in C#
 type: docs
 weight: 200
 url: /net/aspose.words.drawing/textpath/xscale/

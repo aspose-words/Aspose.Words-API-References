@@ -1,7 +1,7 @@
 ---
 title: FieldListNum.ListName
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the name of the abstract numbering definition used for the numbering in C#
+description: FieldListNum property. Gets or sets the name of the abstract numbering definition used for the numbering in C#
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldlistnum/listname/

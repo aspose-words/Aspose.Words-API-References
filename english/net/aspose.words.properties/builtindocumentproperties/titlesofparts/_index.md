@@ -1,7 +1,7 @@
 ---
 title: BuiltInDocumentProperties.TitlesOfParts
 second_title: Aspose.Words for .NET API Reference
-description: Each string in the array specifies the name of a part in the document in C#
+description: BuiltInDocumentProperties property. Each string in the array specifies the name of a part in the document in C#
 type: docs
 weight: 300
 url: /net/aspose.words.properties/builtindocumentproperties/titlesofparts/

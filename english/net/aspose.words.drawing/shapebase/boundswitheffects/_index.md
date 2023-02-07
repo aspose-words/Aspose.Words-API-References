@@ -1,7 +1,7 @@
 ---
 title: ShapeBase.BoundsWithEffects
 second_title: Aspose.Words for .NET API Reference
-description: Gets final extent that this shape object has after applying drawing effects. Value is measured in points in C#
+description: ShapeBase property. Gets final extent that this shape object has after applying drawing effects. Value is measured in points in C#
 type: docs
 weight: 90
 url: /net/aspose.words.drawing/shapebase/boundswitheffects/

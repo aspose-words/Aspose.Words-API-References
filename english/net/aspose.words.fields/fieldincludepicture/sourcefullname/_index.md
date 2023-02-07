@@ -1,7 +1,7 @@
 ---
 title: FieldIncludePicture.SourceFullName
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the location of the picture using an IRI in C#
+description: FieldIncludePicture property. Gets or sets the location of the picture using an IRI in C#
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldincludepicture/sourcefullname/

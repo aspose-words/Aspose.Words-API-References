@@ -1,7 +1,7 @@
 ---
 title: LayoutOptions.Callback
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets IPageLayoutCallback implementation used by page layout model in C#
+description: LayoutOptions property. Gets or sets IPageLayoutCallback implementation used by page layout model in C#
 type: docs
 weight: 20
 url: /net/aspose.words.layout/layoutoptions/callback/

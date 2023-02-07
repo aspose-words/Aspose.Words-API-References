@@ -1,7 +1,7 @@
 ---
 title: PageSet.Odd
 second_title: Aspose.Words for .NET API Reference
-description: Gets a set with all the odd pages of the document in their original order in C#
+description: PageSet property. Gets a set with all the odd pages of the document in their original order in C#
 type: docs
 weight: 40
 url: /net/aspose.words.saving/pageset/odd/

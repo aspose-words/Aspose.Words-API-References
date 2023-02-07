@@ -1,7 +1,7 @@
 ---
 title: FieldSet.BookmarkName
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the name of the bookmark in C#
+description: FieldSet property. Gets or sets the name of the bookmark in C#
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldset/bookmarkname/

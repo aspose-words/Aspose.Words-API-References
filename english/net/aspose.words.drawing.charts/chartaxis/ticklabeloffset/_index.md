@@ -1,7 +1,7 @@
 ---
 title: ChartAxis.TickLabelOffset
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the distance of labels from the axis in C#
+description: ChartAxis property. Gets or sets the distance of labels from the axis in C#
 type: docs
 weight: 210
 url: /net/aspose.words.drawing.charts/chartaxis/ticklabeloffset/

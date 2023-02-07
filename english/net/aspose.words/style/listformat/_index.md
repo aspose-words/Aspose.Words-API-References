@@ -1,7 +1,7 @@
 ---
 title: Style.ListFormat
 second_title: Aspose.Words for .NET API Reference
-description: Provides access to the list formatting properties of a paragraph style in C#
+description: Style property. Provides access to the list formatting properties of a paragraph style in C#
 type: docs
 weight: 110
 url: /net/aspose.words/style/listformat/

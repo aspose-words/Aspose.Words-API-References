@@ -1,7 +1,7 @@
 ---
 title: PhysicalFontInfo.Version
 second_title: Aspose.Words for .NET API Reference
-description: Version string of the font in C#
+description: PhysicalFontInfo property. Version string of the font in C#
 type: docs
 weight: 40
 url: /net/aspose.words.fonts/physicalfontinfo/version/

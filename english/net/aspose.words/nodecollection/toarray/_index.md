@@ -1,7 +1,7 @@
 ---
 title: NodeCollection.ToArray
 second_title: Aspose.Words for .NET API Reference
-description: Copies all nodes from the collection to a new array of nodes in C#
+description: NodeCollection method. Copies all nodes from the collection to a new array of nodes in C#
 type: docs
 weight: 110
 url: /net/aspose.words/nodecollection/toarray/

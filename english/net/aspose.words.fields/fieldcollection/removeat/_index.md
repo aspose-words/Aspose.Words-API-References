@@ -1,7 +1,7 @@
 ---
 title: FieldCollection.RemoveAt
 second_title: Aspose.Words for .NET API Reference
-description: Removes a field at the specified index from this collection and from the document in C#
+description: FieldCollection method. Removes a field at the specified index from this collection and from the document in C#
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldcollection/removeat/

@@ -1,7 +1,7 @@
 ---
 title: DocumentBuilder.Document
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the Document object that this object is attached to in C#
+description: DocumentBuilder property. Gets or sets the Document object that this object is attached to in C#
 type: docs
 weight: 90
 url: /net/aspose.words/documentbuilder/document/

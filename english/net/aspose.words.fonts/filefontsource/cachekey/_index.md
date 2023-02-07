@@ -1,7 +1,7 @@
 ---
 title: FileFontSource.CacheKey
 second_title: Aspose.Words for .NET API Reference
-description: The key of this source in the cache in C#
+description: FileFontSource property. The key of this source in the cache in C#
 type: docs
 weight: 20
 url: /net/aspose.words.fonts/filefontsource/cachekey/

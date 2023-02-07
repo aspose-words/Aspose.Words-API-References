@@ -1,7 +1,7 @@
 ---
 title: Fill.GradientVariant
 second_title: Aspose.Words for .NET API Reference
-description: Gets the gradient variant GradientVariant for the fill in C#
+description: Fill property. Gets the gradient variant GradientVariant for the fill in C#
 type: docs
 weight: 70
 url: /net/aspose.words.drawing/fill/gradientvariant/

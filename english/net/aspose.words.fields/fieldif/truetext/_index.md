@@ -1,7 +1,7 @@
 ---
 title: FieldIf.TrueText
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the text displayed if the comparison expression is true in C#
+description: FieldIf property. Gets or sets the text displayed if the comparison expression is true in C#
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldif/truetext/

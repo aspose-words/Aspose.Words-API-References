@@ -1,7 +1,7 @@
 ---
 title: UserInformation.UserInformation
 second_title: Aspose.Words for .NET API Reference
-description: The default constructor in C#
+description: UserInformation constructor. The default constructor in C#
 type: docs
 weight: 10
 url: /net/aspose.words.fields/userinformation/userinformation/

@@ -1,7 +1,7 @@
 ---
 title: DocumentBuilder.ParagraphFormat
 second_title: Aspose.Words for .NET API Reference
-description: Returns an object that represents current paragraph formatting properties in C#
+description: DocumentBuilder property. Returns an object that represents current paragraph formatting properties in C#
 type: docs
 weight: 170
 url: /net/aspose.words/documentbuilder/paragraphformat/

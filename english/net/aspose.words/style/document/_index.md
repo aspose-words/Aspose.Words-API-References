@@ -1,7 +1,7 @@
 ---
 title: Style.Document
 second_title: Aspose.Words for .NET API Reference
-description: Gets the owner document in C#
+description: Style property. Gets the owner document in C#
 type: docs
 weight: 50
 url: /net/aspose.words/style/document/

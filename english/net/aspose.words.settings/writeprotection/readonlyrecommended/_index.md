@@ -1,7 +1,7 @@
 ---
 title: WriteProtection.ReadOnlyRecommended
 second_title: Aspose.Words for .NET API Reference
-description: Specifies whether the document author has recommended that the document be opened as readonly in C#
+description: WriteProtection property. Specifies whether the document author has recommended that the document be opened as readonly in C#
 type: docs
 weight: 20
 url: /net/aspose.words.settings/writeprotection/readonlyrecommended/

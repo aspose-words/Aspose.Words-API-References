@@ -1,7 +1,7 @@
 ---
 title: IStructuredDocumentTag.StructuredDocumentTagNode
 second_title: Aspose.Words for .NET API Reference
-description: Returns Node object that implements this interface in C#
+description: IStructuredDocumentTag method. Returns Node object that implements this interface in C#
 type: docs
 weight: 150
 url: /net/aspose.words.markup/istructureddocumenttag/structureddocumenttagnode/

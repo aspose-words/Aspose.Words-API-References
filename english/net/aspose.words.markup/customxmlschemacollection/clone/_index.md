@@ -1,7 +1,7 @@
 ---
 title: CustomXmlSchemaCollection.Clone
 second_title: Aspose.Words for .NET API Reference
-description: Makes a deep clone of this object in C#
+description: CustomXmlSchemaCollection method. Makes a deep clone of this object in C#
 type: docs
 weight: 50
 url: /net/aspose.words.markup/customxmlschemacollection/clone/

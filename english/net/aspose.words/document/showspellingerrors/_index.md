@@ -1,7 +1,7 @@
 ---
 title: Document.ShowSpellingErrors
 second_title: Aspose.Words for .NET API Reference
-description: Specifies whether to display spelling errors in this document in C#
+description: Document property. Specifies whether to display spelling errors in this document in C#
 type: docs
 weight: 400
 url: /net/aspose.words/document/showspellingerrors/

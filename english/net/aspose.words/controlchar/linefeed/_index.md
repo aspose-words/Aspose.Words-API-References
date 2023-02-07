@@ -1,7 +1,7 @@
 ---
 title: ControlChar.LineFeed
 second_title: Aspose.Words for .NET API Reference
-description: Line feed character x000a or n. Same as Lf in C#
+description: ControlChar field. Line feed character x000a or n. Same as Lf in C#
 type: docs
 weight: 140
 url: /net/aspose.words/controlchar/linefeed/

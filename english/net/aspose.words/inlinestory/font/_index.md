@@ -1,7 +1,7 @@
 ---
 title: InlineStory.Font
 second_title: Aspose.Words for .NET API Reference
-description: Provides access to the font formatting of the anchor character of this object in C#
+description: InlineStory property. Provides access to the font formatting of the anchor character of this object in C#
 type: docs
 weight: 20
 url: /net/aspose.words/inlinestory/font/

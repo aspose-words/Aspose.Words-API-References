@@ -1,7 +1,7 @@
 ---
 title: BuiltInDocumentProperties.Subject
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the subject of the document in C#
+description: BuiltInDocumentProperties property. Gets or sets the subject of the document in C#
 type: docs
 weight: 260
 url: /net/aspose.words.properties/builtindocumentproperties/subject/

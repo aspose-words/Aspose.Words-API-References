@@ -1,7 +1,7 @@
 ---
 title: GradientStopCollection.Item
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a GradientStop object in the collection in C#
+description: GradientStopCollection property. Gets or sets a GradientStop object in the collection in C#
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/gradientstopcollection/item/

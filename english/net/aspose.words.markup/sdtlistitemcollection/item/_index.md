@@ -1,7 +1,7 @@
 ---
 title: SdtListItemCollection.Item
 second_title: Aspose.Words for .NET API Reference
-description: Returns a SdtListItem object given its zerobased index in the collection in C#
+description: SdtListItemCollection property. Returns a SdtListItem object given its zerobased index in the collection in C#
 type: docs
 weight: 20
 url: /net/aspose.words.markup/sdtlistitemcollection/item/

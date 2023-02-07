@@ -1,7 +1,7 @@
 ---
 title: FieldLink.FormatUpdateType
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a way the linked object updates its formatting in C#
+description: FieldLink property. Gets or sets a way the linked object updates its formatting in C#
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldlink/formatupdatetype/

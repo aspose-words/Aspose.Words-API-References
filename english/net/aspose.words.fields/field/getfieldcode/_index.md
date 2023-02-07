@@ -1,7 +1,7 @@
 ---
 title: Field.GetFieldCode
 second_title: Aspose.Words for .NET API Reference
-description: Returns text between field start and field separator or field end if there is no separator. Both field code and field result of child fields are included in C#
+description: Field method. Returns text between field start and field separator or field end if there is no separator. Both field code and field result of child fields are included in C#
 type: docs
 weight: 110
 url: /net/aspose.words.fields/field/getfieldcode/

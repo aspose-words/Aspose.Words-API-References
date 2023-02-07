@@ -1,7 +1,7 @@
 ---
 title: Footnote.Footnote
 second_title: Aspose.Words for .NET API Reference
-description: Initializes an instance of the Footnote class in C#
+description: Footnote constructor. Initializes an instance of the Footnote class in C#
 type: docs
 weight: 10
 url: /net/aspose.words.notes/footnote/footnote/
