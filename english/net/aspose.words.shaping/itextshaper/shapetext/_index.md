@@ -1,7 +1,7 @@
 ---
 title: ITextShaper.ShapeText
 second_title: Aspose.Words for .NET API Reference
-description: Returns Cluster objects generated from a sequence of text fragments. Length of the returned array is equal to length of runs. If run at an index has corresponding clusters then result at the same index will have them recorded in C#
+description: ITextShaper method. Returns Cluster objects generated from a sequence of text fragments. Length of the returned array is equal to length of runs. If run at an index has corresponding clusters then result at the same index will have them recorded in C#
 type: docs
 weight: 10
 url: /net/aspose.words.shaping/itextshaper/shapetext/

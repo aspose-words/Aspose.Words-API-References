@@ -1,7 +1,7 @@
 ---
 title: Table.NodeType
 second_title: Aspose.Words for .NET API Reference
-description: Returns Table in C#
+description: Table property. Returns Table in C#
 type: docs
 weight: 210
 url: /net/aspose.words.tables/table/nodetype/

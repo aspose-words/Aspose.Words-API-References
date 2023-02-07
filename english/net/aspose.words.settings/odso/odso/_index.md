@@ -1,7 +1,7 @@
 ---
 title: Odso.Odso
 second_title: Aspose.Words for .NET API Reference
-description: The default constructor in C#
+description: Odso constructor. The default constructor in C#
 type: docs
 weight: 10
 url: /net/aspose.words.settings/odso/odso/

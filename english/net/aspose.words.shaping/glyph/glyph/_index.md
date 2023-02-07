@@ -1,7 +1,7 @@
 ---
 title: Glyph.Glyph
 second_title: Aspose.Words for .NET API Reference
-description: Initializes new instance of this class in C#
+description: Glyph constructor. Initializes new instance of this class in C#
 type: docs
 weight: 10
 url: /net/aspose.words.shaping/glyph/glyph/

@@ -1,7 +1,7 @@
 ---
 title: FieldUpdatingProgressArgs.TotalFieldsCount
 second_title: Aspose.Words for .NET API Reference
-description: Gets the total fields count to be updated in C#
+description: FieldUpdatingProgressArgs property. Gets the total fields count to be updated in C#
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldupdatingprogressargs/totalfieldscount/

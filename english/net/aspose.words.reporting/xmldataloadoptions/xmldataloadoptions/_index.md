@@ -1,7 +1,7 @@
 ---
 title: XmlDataLoadOptions.XmlDataLoadOptions
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of this class with default options in C#
+description: XmlDataLoadOptions constructor. Initializes a new instance of this class with default options in C#
 type: docs
 weight: 10
 url: /net/aspose.words.reporting/xmldataloadoptions/xmldataloadoptions/

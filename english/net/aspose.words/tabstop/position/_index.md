@@ -1,7 +1,7 @@
 ---
 title: TabStop.Position
 second_title: Aspose.Words for .NET API Reference
-description: Gets the position of the tab stop in points in C#
+description: TabStop property. Gets the position of the tab stop in points in C#
 type: docs
 weight: 50
 url: /net/aspose.words/tabstop/position/

@@ -1,7 +1,7 @@
 ---
 title: FieldInclude.LockFields
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets whether to prevent fields in the included document from being updated in C#
+description: FieldInclude property. Gets or sets whether to prevent fields in the included document from being updated in C#
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldinclude/lockfields/

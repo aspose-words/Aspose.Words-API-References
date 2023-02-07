@@ -1,7 +1,7 @@
 ---
 title: ChartSeries.DataPoints
 second_title: Aspose.Words for .NET API Reference
-description: Returns a collection of formatting objects for all data points in this series in C#
+description: ChartSeries property. Returns a collection of formatting objects for all data points in this series in C#
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartseries/datapoints/

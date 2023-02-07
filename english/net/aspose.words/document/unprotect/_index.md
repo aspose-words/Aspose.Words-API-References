@@ -1,7 +1,7 @@
 ---
 title: Document.Unprotect
 second_title: Aspose.Words for .NET API Reference
-description: Removes protection from the document regardless of the password in C#
+description: Document method. Removes protection from the document regardless of the password in C#
 type: docs
 weight: 740
 url: /net/aspose.words/document/unprotect/

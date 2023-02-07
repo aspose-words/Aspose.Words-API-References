@@ -1,7 +1,7 @@
 ---
 title: Row.LastCell
 second_title: Aspose.Words for .NET API Reference
-description: Returns the last Cell in the row in C#
+description: Row property. Returns the last Cell in the row in C#
 type: docs
 weight: 60
 url: /net/aspose.words.tables/row/lastcell/

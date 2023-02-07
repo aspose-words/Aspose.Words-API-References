@@ -1,7 +1,7 @@
 ---
 title: DocumentBuilder.MoveToBookmark
 second_title: Aspose.Words for .NET API Reference
-description: Moves the cursor to a bookmark in C#
+description: DocumentBuilder method. Moves the cursor to a bookmark in C#
 type: docs
 weight: 490
 url: /net/aspose.words/documentbuilder/movetobookmark/

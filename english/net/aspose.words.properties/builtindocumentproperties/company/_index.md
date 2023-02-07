@@ -1,7 +1,7 @@
 ---
 title: BuiltInDocumentProperties.Company
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the company property in C#
+description: BuiltInDocumentProperties property. Gets or sets the company property in C#
 type: docs
 weight: 70
 url: /net/aspose.words.properties/builtindocumentproperties/company/

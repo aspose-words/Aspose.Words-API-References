@@ -1,7 +1,7 @@
 ---
 title: CompositeNode.IndexOf
 second_title: Aspose.Words for .NET API Reference
-description: Returns the index of the specified child node in the child node array in C#
+description: CompositeNode method. Returns the index of the specified child node in the child node array in C#
 type: docs
 weight: 130
 url: /net/aspose.words/compositenode/indexof/

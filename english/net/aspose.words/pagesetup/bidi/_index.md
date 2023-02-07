@@ -1,7 +1,7 @@
 ---
 title: PageSetup.Bidi
 second_title: Aspose.Words for .NET API Reference
-description: Specifies that this section contains bidirectional complex scripts text in C#
+description: PageSetup property. Specifies that this section contains bidirectional complex scripts text in C#
 type: docs
 weight: 10
 url: /net/aspose.words/pagesetup/bidi/

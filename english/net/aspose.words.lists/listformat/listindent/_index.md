@@ -1,7 +1,7 @@
 ---
 title: ListFormat.ListIndent
 second_title: Aspose.Words for .NET API Reference
-description: Increases the list level of the current paragraph by one level in C#
+description: ListFormat method. Increases the list level of the current paragraph by one level in C#
 type: docs
 weight: 70
 url: /net/aspose.words.lists/listformat/listindent/

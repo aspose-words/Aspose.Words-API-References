@@ -1,7 +1,7 @@
 ---
 title: ImageSaveOptions.Resolution
 second_title: Aspose.Words for .NET API Reference
-description: Sets both horizontal and vertical resolution for the generated images in dots per inch in C#
+description: ImageSaveOptions property. Sets both horizontal and vertical resolution for the generated images in dots per inch in C#
 type: docs
 weight: 120
 url: /net/aspose.words.saving/imagesaveoptions/resolution/

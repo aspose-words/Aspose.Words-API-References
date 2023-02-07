@@ -1,7 +1,7 @@
 ---
 title: CustomPart.Name
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets this parts absolute name within the OOXML package or the target URL in C#
+description: CustomPart property. Gets or sets this parts absolute name within the OOXML package or the target URL in C#
 type: docs
 weight: 50
 url: /net/aspose.words.markup/custompart/name/

@@ -1,7 +1,7 @@
 ---
 title: NodeCollection.Insert
 second_title: Aspose.Words for .NET API Reference
-description: Inserts a node into the collection at the specified index in C#
+description: NodeCollection method. Inserts a node into the collection at the specified index in C#
 type: docs
 weight: 80
 url: /net/aspose.words/nodecollection/insert/

@@ -1,7 +1,7 @@
 ---
 title: Table.TextWrapping
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets TextWrapping for table in C#
+description: Table property. Gets or sets TextWrapping for table in C#
 type: docs
 weight: 310
 url: /net/aspose.words.tables/table/textwrapping/

@@ -1,7 +1,7 @@
 ---
 title: FixedPageSaveOptions.PageSet
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the pages to render. Default is all the pages in the document in C#
+description: FixedPageSaveOptions property. Gets or sets the pages to render. Default is all the pages in the document in C#
 type: docs
 weight: 70
 url: /net/aspose.words.saving/fixedpagesaveoptions/pageset/

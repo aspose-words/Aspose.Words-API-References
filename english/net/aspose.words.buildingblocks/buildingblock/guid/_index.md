@@ -1,7 +1,7 @@
 ---
 title: BuildingBlock.Guid
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets an identifier a 128bit GUID that uniquely identifies this building block in C#
+description: BuildingBlock property. Gets or sets an identifier a 128bit GUID that uniquely identifies this building block in C#
 type: docs
 weight: 70
 url: /net/aspose.words.buildingblocks/buildingblock/guid/

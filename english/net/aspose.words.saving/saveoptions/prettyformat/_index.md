@@ -1,7 +1,7 @@
 ---
 title: SaveOptions.PrettyFormat
 second_title: Aspose.Words for .NET API Reference
-description: When true pretty formats output where applicable. Default value is false in C#
+description: SaveOptions property. When true pretty formats output where applicable. Default value is false in C#
 type: docs
 weight: 110
 url: /net/aspose.words.saving/saveoptions/prettyformat/

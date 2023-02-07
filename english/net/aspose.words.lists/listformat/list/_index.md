@@ -1,7 +1,7 @@
 ---
 title: ListFormat.List
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the list this paragraph is a member of in C#
+description: ListFormat property. Gets or sets the list this paragraph is a member of in C#
 type: docs
 weight: 20
 url: /net/aspose.words.lists/listformat/list/

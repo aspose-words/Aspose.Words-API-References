@@ -1,7 +1,7 @@
 ---
 title: SmartTag.NodeType
 second_title: Aspose.Words for .NET API Reference
-description: Returns SmartTag in C#
+description: SmartTag property. Returns SmartTag in C#
 type: docs
 weight: 30
 url: /net/aspose.words.markup/smarttag/nodetype/

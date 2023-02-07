@@ -1,7 +1,7 @@
 ---
 title: VariableCollection.Contains
 second_title: Aspose.Words for .NET API Reference
-description: Determines whether the collection contains a document variable with the given name in C#
+description: VariableCollection method. Determines whether the collection contains a document variable with the given name in C#
 type: docs
 weight: 50
 url: /net/aspose.words/variablecollection/contains/

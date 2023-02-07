@@ -1,7 +1,7 @@
 ---
 title: ShapeBase.IsDecorative
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the flag that specifies whether the shape is decorative in the document in C#
+description: ShapeBase property. Gets or sets the flag that specifies whether the shape is decorative in the document in C#
 type: docs
 weight: 230
 url: /net/aspose.words.drawing/shapebase/isdecorative/

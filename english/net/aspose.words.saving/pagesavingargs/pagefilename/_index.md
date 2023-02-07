@@ -1,7 +1,7 @@
 ---
 title: PageSavingArgs.PageFileName
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the file name where the document page will be saved to in C#
+description: PageSavingArgs property. Gets or sets the file name where the document page will be saved to in C#
 type: docs
 weight: 30
 url: /net/aspose.words.saving/pagesavingargs/pagefilename/

@@ -1,7 +1,7 @@
 ---
 title: ResourceLoadingArgs.Uri
 second_title: Aspose.Words for .NET API Reference
-description: URI of the resource which is used for downloading if ResourceLoading returns Default in C#
+description: ResourceLoadingArgs property. URI of the resource which is used for downloading if ResourceLoading returns Default in C#
 type: docs
 weight: 30
 url: /net/aspose.words.loading/resourceloadingargs/uri/

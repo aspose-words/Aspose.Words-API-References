@@ -1,7 +1,7 @@
 ---
 title: ChartAxis.DisplayUnit
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the scaling value of the display units for the value axis in C#
+description: ChartAxis property. Specifies the scaling value of the display units for the value axis in C#
 type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/chartaxis/displayunit/

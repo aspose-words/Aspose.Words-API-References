@@ -1,7 +1,7 @@
 ---
 title: PageSetup.DifferentFirstPageHeaderFooter
 second_title: Aspose.Words for .NET API Reference
-description: True if a different header or footer is used on the first page in C#
+description: PageSetup property. True if a different header or footer is used on the first page in C#
 type: docs
 weight: 110
 url: /net/aspose.words/pagesetup/differentfirstpageheaderfooter/

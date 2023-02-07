@@ -1,7 +1,7 @@
 ---
 title: ThemeFonts.Latin
 second_title: Aspose.Words for .NET API Reference
-description: Specifies font name for Latin characters in C#
+description: ThemeFonts property. Specifies font name for Latin characters in C#
 type: docs
 weight: 30
 url: /net/aspose.words.themes/themefonts/latin/

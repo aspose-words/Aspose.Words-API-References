@@ -1,7 +1,7 @@
 ---
 title: DocumentBuilder.InsertStyleSeparator
 second_title: Aspose.Words for .NET API Reference
-description: Inserts style separator into the document in C#
+description: DocumentBuilder method. Inserts style separator into the document in C#
 type: docs
 weight: 450
 url: /net/aspose.words/documentbuilder/insertstyleseparator/

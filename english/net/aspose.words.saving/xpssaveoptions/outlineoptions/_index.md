@@ -1,7 +1,7 @@
 ---
 title: XpsSaveOptions.OutlineOptions
 second_title: Aspose.Words for .NET API Reference
-description: Allows to specify outline options in C#
+description: XpsSaveOptions property. Allows to specify outline options in C#
 type: docs
 weight: 20
 url: /net/aspose.words.saving/xpssaveoptions/outlineoptions/

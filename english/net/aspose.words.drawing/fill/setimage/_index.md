@@ -1,7 +1,7 @@
 ---
 title: Fill.SetImage
 second_title: Aspose.Words for .NET API Reference
-description: Changes the fill type to single image in C#
+description: Fill method. Changes the fill type to single image in C#
 type: docs
 weight: 190
 url: /net/aspose.words.drawing/fill/setimage/

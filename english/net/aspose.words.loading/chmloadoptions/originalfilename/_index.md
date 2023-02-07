@@ -1,7 +1,7 @@
 ---
 title: ChmLoadOptions.OriginalFileName
 second_title: Aspose.Words for .NET API Reference
-description: The name of the CHM file. Default value is null in C#
+description: ChmLoadOptions property. The name of the CHM file. Default value is null in C#
 type: docs
 weight: 20
 url: /net/aspose.words.loading/chmloadoptions/originalfilename/

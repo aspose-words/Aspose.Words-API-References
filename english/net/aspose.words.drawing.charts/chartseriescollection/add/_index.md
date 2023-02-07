@@ -1,7 +1,7 @@
 ---
 title: ChartSeriesCollection.Add
 second_title: Aspose.Words for .NET API Reference
-description: Adds new ChartSeries to this collection. Use this method to add series to any type of Bar Column Line and Surface charts in C#
+description: ChartSeriesCollection method. Adds new ChartSeries to this collection. Use this method to add series to any type of Bar Column Line and Surface charts in C#
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartseriescollection/add/

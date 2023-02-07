@@ -1,7 +1,7 @@
 ---
 title: Inline.IsFormatRevision
 second_title: Aspose.Words for .NET API Reference
-description: Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled in C#
+description: Inline property. Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled in C#
 type: docs
 weight: 30
 url: /net/aspose.words/inline/isformatrevision/

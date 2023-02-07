@@ -1,7 +1,7 @@
 ---
 title: FieldCreateDate.FieldCreateDate
 second_title: Aspose.Words for .NET API Reference
-description: The default constructor in C#
+description: FieldCreateDate constructor. The default constructor in C#
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldcreatedate/fieldcreatedate/

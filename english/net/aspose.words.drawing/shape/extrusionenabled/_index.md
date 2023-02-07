@@ -1,7 +1,7 @@
 ---
 title: Shape.ExtrusionEnabled
 second_title: Aspose.Words for .NET API Reference
-description: Returns true if an extrusion effect is enabled in C#
+description: Shape property. Returns true if an extrusion effect is enabled in C#
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/shape/extrusionenabled/

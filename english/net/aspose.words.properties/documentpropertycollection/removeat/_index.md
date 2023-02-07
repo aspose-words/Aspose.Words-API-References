@@ -1,7 +1,7 @@
 ---
 title: DocumentPropertyCollection.RemoveAt
 second_title: Aspose.Words for .NET API Reference
-description: Removes a property at the specified index in C#
+description: DocumentPropertyCollection method. Removes a property at the specified index in C#
 type: docs
 weight: 80
 url: /net/aspose.words.properties/documentpropertycollection/removeat/

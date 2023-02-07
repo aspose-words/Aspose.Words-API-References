@@ -1,7 +1,7 @@
 ---
 title: PageSet.PageSet
 second_title: Aspose.Words for .NET API Reference
-description: Creates an onepage set based on exact page index in C#
+description: PageSet constructor. Creates an onepage set based on exact page index in C#
 type: docs
 weight: 10
 url: /net/aspose.words.saving/pageset/pageset/

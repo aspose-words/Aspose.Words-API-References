@@ -1,7 +1,7 @@
 ---
 title: Node.NextPreOrder
 second_title: Aspose.Words for .NET API Reference
-description: Gets next node according to the preorder tree traversal algorithm in C#
+description: Node method. Gets next node according to the preorder tree traversal algorithm in C#
 type: docs
 weight: 130
 url: /net/aspose.words/node/nextpreorder/

@@ -1,7 +1,7 @@
 ---
 title: Comment.SetText
 second_title: Aspose.Words for .NET API Reference
-description: This is a convenience method that allows to easily set text of the comment in C#
+description: Comment method. This is a convenience method that allows to easily set text of the comment in C#
 type: docs
 weight: 150
 url: /net/aspose.words/comment/settext/

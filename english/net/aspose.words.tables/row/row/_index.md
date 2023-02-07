@@ -1,7 +1,7 @@
 ---
 title: Row.Row
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of the Row class in C#
+description: Row constructor. Initializes a new instance of the Row class in C#
 type: docs
 weight: 10
 url: /net/aspose.words.tables/row/row/

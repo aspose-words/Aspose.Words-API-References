@@ -1,7 +1,7 @@
 ---
 title: List.ListId
 second_title: Aspose.Words for .NET API Reference
-description: Gets the unique identifier of the list in C#
+description: List property. Gets the unique identifier of the list in C#
 type: docs
 weight: 60
 url: /net/aspose.words.lists/list/listid/

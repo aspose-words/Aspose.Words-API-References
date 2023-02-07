@@ -1,7 +1,7 @@
 ---
 title: ReportingEngine.Equals
 second_title: Aspose.Words for .NET API Reference
-description:  in C#
+description: ReportingEngine method.  in C#
 type: docs
 weight: 50
 url: /net/aspose.words.reporting/reportingengine/equals/

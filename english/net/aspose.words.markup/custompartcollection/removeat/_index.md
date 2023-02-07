@@ -1,7 +1,7 @@
 ---
 title: CustomPartCollection.RemoveAt
 second_title: Aspose.Words for .NET API Reference
-description: Removes an item at the specified index in C#
+description: CustomPartCollection method. Removes an item at the specified index in C#
 type: docs
 weight: 80
 url: /net/aspose.words.markup/custompartcollection/removeat/

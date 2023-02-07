@@ -1,7 +1,7 @@
 ---
 title: ListCollection.Add
 second_title: Aspose.Words for .NET API Reference
-description: Creates a new list based on a predefined template and adds it to the collection of lists in the document in C#
+description: ListCollection method. Creates a new list based on a predefined template and adds it to the collection of lists in the document in C#
 type: docs
 weight: 40
 url: /net/aspose.words.lists/listcollection/add/

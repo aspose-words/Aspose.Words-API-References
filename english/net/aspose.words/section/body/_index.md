@@ -1,7 +1,7 @@
 ---
 title: Section.Body
 second_title: Aspose.Words for .NET API Reference
-description: Returns the Body child node of the section in C#
+description: Section property. Returns the Body child node of the section in C#
 type: docs
 weight: 20
 url: /net/aspose.words/section/body/

@@ -1,7 +1,7 @@
 ---
 title: ShadowFormat.Visible
 second_title: Aspose.Words for .NET API Reference
-description: Returns true if the formatting applied to this instance is visible in C#
+description: ShadowFormat property. Returns true if the formatting applied to this instance is visible in C#
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/shadowformat/visible/

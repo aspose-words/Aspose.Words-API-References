@@ -1,7 +1,7 @@
 ---
 title: ControlChar.Cell
 second_title: Aspose.Words for .NET API Reference
-description: End of a table cell or end of a table row character x0007 or a in C#
+description: ControlChar field. End of a table cell or end of a table row character x0007 or a in C#
 type: docs
 weight: 10
 url: /net/aspose.words/controlchar/cell/

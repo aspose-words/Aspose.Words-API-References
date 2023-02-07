@@ -1,7 +1,7 @@
 ---
 title: GraphicsQualityOptions.CompositingQuality
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the rendering quality of composited images drawn to this Graphics in C#
+description: GraphicsQualityOptions property. Gets or sets the rendering quality of composited images drawn to this Graphics in C#
 type: docs
 weight: 30
 url: /net/aspose.words.saving/graphicsqualityoptions/compositingquality/

@@ -1,7 +1,7 @@
 ---
 title: OfficeMathRenderer.OfficeMathRenderer
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of this class in C#
+description: OfficeMathRenderer constructor. Initializes a new instance of this class in C#
 type: docs
 weight: 10
 url: /net/aspose.words.rendering/officemathrenderer/officemathrenderer/

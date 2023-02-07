@@ -1,7 +1,7 @@
 ---
 title: FieldIndex.PageNumberSeparator
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the character sequence that is used to separate an index entry and its page number in C#
+description: FieldIndex property. Gets or sets the character sequence that is used to separate an index entry and its page number in C#
 type: docs
 weight: 120
 url: /net/aspose.words.fields/fieldindex/pagenumberseparator/

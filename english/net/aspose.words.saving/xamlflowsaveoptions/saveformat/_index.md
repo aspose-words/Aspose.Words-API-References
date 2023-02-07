@@ -1,7 +1,7 @@
 ---
 title: XamlFlowSaveOptions.SaveFormat
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the format in which the document will be saved if this save options object is used. Can only be XamlFlow in C#
+description: XamlFlowSaveOptions property. Specifies the format in which the document will be saved if this save options object is used. Can only be XamlFlow in C#
 type: docs
 weight: 50
 url: /net/aspose.words.saving/xamlflowsaveoptions/saveformat/

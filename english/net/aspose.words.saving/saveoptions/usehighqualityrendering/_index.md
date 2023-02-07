@@ -1,7 +1,7 @@
 ---
 title: SaveOptions.UseHighQualityRendering
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a value determining whether or not to use high quality i.e. slow rendering algorithms in C#
+description: SaveOptions property. Gets or sets a value determining whether or not to use high quality i.e. slow rendering algorithms in C#
 type: docs
 weight: 200
 url: /net/aspose.words.saving/saveoptions/usehighqualityrendering/

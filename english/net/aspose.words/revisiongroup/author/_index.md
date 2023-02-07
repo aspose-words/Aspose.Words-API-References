@@ -1,7 +1,7 @@
 ---
 title: RevisionGroup.Author
 second_title: Aspose.Words for .NET API Reference
-description: Gets the author of this revision group in C#
+description: RevisionGroup property. Gets the author of this revision group in C#
 type: docs
 weight: 10
 url: /net/aspose.words/revisiongroup/author/

@@ -1,7 +1,7 @@
 ---
 title: Revision.Author
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the author of this revision. Can not be empty string or null in C#
+description: Revision property. Gets or sets the author of this revision. Can not be empty string or null in C#
 type: docs
 weight: 10
 url: /net/aspose.words/revision/author/

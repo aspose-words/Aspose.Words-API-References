@@ -1,7 +1,7 @@
 ---
 title: FieldTemplate.IncludeFullPath
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets whether to include the full file path name in C#
+description: FieldTemplate property. Gets or sets whether to include the full file path name in C#
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldtemplate/includefullpath/

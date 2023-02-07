@@ -1,7 +1,7 @@
 ---
 title: PageSetup.TextColumns
 second_title: Aspose.Words for .NET API Reference
-description: Returns a collection that represents the set of text columns in C#
+description: PageSetup property. Returns a collection that represents the set of text columns in C#
 type: docs
 weight: 420
 url: /net/aspose.words/pagesetup/textcolumns/

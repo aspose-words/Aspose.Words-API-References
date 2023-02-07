@@ -1,7 +1,7 @@
 ---
 title: PageSetup.Orientation
 second_title: Aspose.Words for .NET API Reference
-description: Returns or sets the orientation of the page in C#
+description: PageSetup property. Returns or sets the orientation of the page in C#
 type: docs
 weight: 290
 url: /net/aspose.words/pagesetup/orientation/

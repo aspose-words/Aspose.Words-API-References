@@ -1,7 +1,7 @@
 ---
 title: FontInfo.Name
 second_title: Aspose.Words for .NET API Reference
-description: Gets the name of the font in C#
+description: FontInfo property. Gets the name of the font in C#
 type: docs
 weight: 50
 url: /net/aspose.words.fonts/fontinfo/name/

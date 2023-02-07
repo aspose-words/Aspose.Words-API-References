@@ -1,7 +1,7 @@
 ---
 title: CompatibilityOptions.ShowBreaksInFrames
 second_title: Aspose.Words for .NET API Reference
-description: Display Page/Column Breaks Present in Frames in C#
+description: CompatibilityOptions property. Display Page/Column Breaks Present in Frames in C#
 type: docs
 weight: 430
 url: /net/aspose.words.settings/compatibilityoptions/showbreaksinframes/

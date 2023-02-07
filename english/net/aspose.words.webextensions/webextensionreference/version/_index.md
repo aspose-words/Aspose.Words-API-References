@@ -1,7 +1,7 @@
 ---
 title: WebExtensionReference.Version
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the version of the web extension in C#
+description: WebExtensionReference property. Specifies the version of the web extension in C#
 type: docs
 weight: 50
 url: /net/aspose.words.webextensions/webextensionreference/version/

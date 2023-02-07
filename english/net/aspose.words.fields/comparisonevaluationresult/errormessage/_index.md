@@ -1,7 +1,7 @@
 ---
 title: ComparisonEvaluationResult.ErrorMessage
 second_title: Aspose.Words for .NET API Reference
-description: Gets the failed comparison evaluation results error message in C#
+description: ComparisonEvaluationResult property. Gets the failed comparison evaluation results error message in C#
 type: docs
 weight: 20
 url: /net/aspose.words.fields/comparisonevaluationresult/errormessage/

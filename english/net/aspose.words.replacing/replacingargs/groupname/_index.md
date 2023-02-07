@@ -1,7 +1,7 @@
 ---
 title: ReplacingArgs.GroupName
 second_title: Aspose.Words for .NET API Reference
-description: Identifies by name a captured group in the Match that is to be replaced with the Replacement string in C#
+description: ReplacingArgs property. Identifies by name a captured group in the Match that is to be replaced with the Replacement string in C#
 type: docs
 weight: 20
 url: /net/aspose.words.replacing/replacingargs/groupname/

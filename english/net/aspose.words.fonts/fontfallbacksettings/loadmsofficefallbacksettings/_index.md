@@ -1,7 +1,7 @@
 ---
 title: FontFallbackSettings.LoadMsOfficeFallbackSettings
 second_title: Aspose.Words for .NET API Reference
-description: Loads predefined fallback settings which mimics the Microsoft Word fallback and uses Microsoft office fonts in C#
+description: FontFallbackSettings method. Loads predefined fallback settings which mimics the Microsoft Word fallback and uses Microsoft office fonts in C#
 type: docs
 weight: 30
 url: /net/aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/

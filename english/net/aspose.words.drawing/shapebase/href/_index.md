@@ -1,7 +1,7 @@
 ---
 title: ShapeBase.HRef
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the full hyperlink address for a shape in C#
+description: ShapeBase property. Gets or sets the full hyperlink address for a shape in C#
 type: docs
 weight: 220
 url: /net/aspose.words.drawing/shapebase/href/

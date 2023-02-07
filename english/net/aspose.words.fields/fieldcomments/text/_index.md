@@ -1,7 +1,7 @@
 ---
 title: FieldComments.Text
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the text of the comments in C#
+description: FieldComments property. Gets or sets the text of the comments in C#
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldcomments/text/

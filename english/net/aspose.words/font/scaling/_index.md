@@ -1,7 +1,7 @@
 ---
 title: Font.Scaling
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets character width scaling in percent in C#
+description: Font property. Gets or sets character width scaling in percent in C#
 type: docs
 weight: 310
 url: /net/aspose.words/font/scaling/

@@ -1,7 +1,7 @@
 ---
 title: CompatibilityOptions.UseFELayout
 second_title: Aspose.Words for .NET API Reference
-description: Do Not Bypass East Asian/Complex Script Layout Code in C#
+description: CompatibilityOptions property. Do Not Bypass East Asian/Complex Script Layout Code in C#
 type: docs
 weight: 620
 url: /net/aspose.words.settings/compatibilityoptions/usefelayout/

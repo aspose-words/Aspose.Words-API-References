@@ -1,7 +1,7 @@
 ---
 title: LayoutCollector.Clear
 second_title: Aspose.Words for .NET API Reference
-description: Clears all collected layout data. Call this method after document was manually updated or layout was rebuilt in C#
+description: LayoutCollector method. Clears all collected layout data. Call this method after document was manually updated or layout was rebuilt in C#
 type: docs
 weight: 30
 url: /net/aspose.words.layout/layoutcollector/clear/

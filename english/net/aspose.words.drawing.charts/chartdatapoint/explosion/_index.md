@@ -1,7 +1,7 @@
 ---
 title: ChartDataPoint.Explosion
 second_title: Aspose.Words for .NET API Reference
-description:  in C#
+description: ChartDataPoint property.  in C#
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartdatapoint/explosion/

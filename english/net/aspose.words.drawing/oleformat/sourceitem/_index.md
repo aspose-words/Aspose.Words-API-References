@@ -1,7 +1,7 @@
 ---
 title: OleFormat.SourceItem
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a string that is used to identify the portion of the source file that is being linked in C#
+description: OleFormat property. Gets or sets a string that is used to identify the portion of the source file that is being linked in C#
 type: docs
 weight: 110
 url: /net/aspose.words.drawing/oleformat/sourceitem/

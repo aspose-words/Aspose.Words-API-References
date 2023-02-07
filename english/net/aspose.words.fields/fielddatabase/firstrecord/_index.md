@@ -1,7 +1,7 @@
 ---
 title: FieldDatabase.FirstRecord
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the integral record number of the first data record to insert in C#
+description: FieldDatabase property. Gets or sets the integral record number of the first data record to insert in C#
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fielddatabase/firstrecord/

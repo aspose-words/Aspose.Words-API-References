@@ -1,7 +1,7 @@
 ---
 title: Revision.ParentNode
 second_title: Aspose.Words for .NET API Reference
-description: Gets the immediate parent node owner of this revision. This property will work for any revision type other than StyleDefinitionChange in C#
+description: Revision property. Gets the immediate parent node owner of this revision. This property will work for any revision type other than StyleDefinitionChange in C#
 type: docs
 weight: 40
 url: /net/aspose.words/revision/parentnode/

@@ -1,7 +1,7 @@
 ---
 title: NodeCollection.Item
 second_title: Aspose.Words for .NET API Reference
-description: Retrieves a node at the given index in C#
+description: NodeCollection property. Retrieves a node at the given index in C#
 type: docs
 weight: 20
 url: /net/aspose.words/nodecollection/item/

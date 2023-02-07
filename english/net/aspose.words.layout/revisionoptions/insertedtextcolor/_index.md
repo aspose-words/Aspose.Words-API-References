@@ -1,7 +1,7 @@
 ---
 title: RevisionOptions.InsertedTextColor
 second_title: Aspose.Words for .NET API Reference
-description: Allows to specify the color to be used for inserted content Insertion. Default value is ByAuthor in C#
+description: RevisionOptions property. Allows to specify the color to be used for inserted content Insertion. Default value is ByAuthor in C#
 type: docs
 weight: 40
 url: /net/aspose.words.layout/revisionoptions/insertedtextcolor/

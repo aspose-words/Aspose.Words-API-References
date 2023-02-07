@@ -1,7 +1,7 @@
 ---
 title: DocumentVisitor.VisitStructuredDocumentTagRangeEnd
 second_title: Aspose.Words for .NET API Reference
-description:  in C#
+description: DocumentVisitor method.  in C#
 type: docs
 weight: 450
 url: /net/aspose.words/documentvisitor/visitstructureddocumenttagrangeend/

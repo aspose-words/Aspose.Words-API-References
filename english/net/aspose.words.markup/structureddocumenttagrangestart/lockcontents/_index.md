@@ -1,7 +1,7 @@
 ---
 title: StructuredDocumentTagRangeStart.LockContents
 second_title: Aspose.Words for .NET API Reference
-description: When set to true this property will prohibit a user from editing the contents of this structured document tag in C#
+description: StructuredDocumentTagRangeStart property. When set to true this property will prohibit a user from editing the contents of this structured document tag in C#
 type: docs
 weight: 90
 url: /net/aspose.words.markup/structureddocumenttagrangestart/lockcontents/

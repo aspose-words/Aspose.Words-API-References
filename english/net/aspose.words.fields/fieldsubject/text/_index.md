@@ -1,7 +1,7 @@
 ---
 title: FieldSubject.Text
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the text of the subject in C#
+description: FieldSubject property. Gets or sets the text of the subject in C#
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldsubject/text/

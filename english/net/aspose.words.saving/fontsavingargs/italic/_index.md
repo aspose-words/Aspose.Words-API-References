@@ -1,7 +1,7 @@
 ---
 title: FontSavingArgs.Italic
 second_title: Aspose.Words for .NET API Reference
-description: Indicates whether the current font is italic in C#
+description: FontSavingArgs property. Indicates whether the current font is italic in C#
 type: docs
 weight: 80
 url: /net/aspose.words.saving/fontsavingargs/italic/

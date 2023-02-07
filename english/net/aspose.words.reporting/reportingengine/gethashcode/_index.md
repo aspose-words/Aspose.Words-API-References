@@ -1,7 +1,7 @@
 ---
 title: ReportingEngine.GetHashCode
 second_title: Aspose.Words for .NET API Reference
-description:  in C#
+description: ReportingEngine method.  in C#
 type: docs
 weight: 60
 url: /net/aspose.words.reporting/reportingengine/gethashcode/

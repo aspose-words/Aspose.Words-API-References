@@ -1,7 +1,7 @@
 ---
 title: FontSettings.GetFontsSources
 second_title: Aspose.Words for .NET API Reference
-description: Gets a copy of the array that contains the list of sources where Aspose.Words looks for TrueType fonts in C#
+description: FontSettings method. Gets a copy of the array that contains the list of sources where Aspose.Words looks for TrueType fonts in C#
 type: docs
 weight: 50
 url: /net/aspose.words.fonts/fontsettings/getfontssources/

@@ -1,7 +1,7 @@
 ---
 title: Document.IncludeTextboxesFootnotesEndnotesInStat
 second_title: Aspose.Words for .NET API Reference
-description: Specifies whether to include textboxes footnotes and endnotes in word count statistics in C#
+description: Document property. Specifies whether to include textboxes footnotes and endnotes in word count statistics in C#
 type: docs
 weight: 220
 url: /net/aspose.words/document/includetextboxesfootnotesendnotesinstat/

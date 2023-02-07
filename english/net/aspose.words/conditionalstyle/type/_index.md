@@ -1,7 +1,7 @@
 ---
 title: ConditionalStyle.Type
 second_title: Aspose.Words for .NET API Reference
-description: Gets table area to which this conditional style relates in C#
+description: ConditionalStyle property. Gets table area to which this conditional style relates in C#
 type: docs
 weight: 90
 url: /net/aspose.words/conditionalstyle/type/

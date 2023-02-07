@@ -1,7 +1,7 @@
 ---
 title: LayoutEnumerator.MoveNextLogical
 second_title: Aspose.Words for .NET API Reference
-description: Moves to the next sibling entity in a logical order. When iterating lines of a paragraph broken across pages this method will move to the next line even if it resides on another page in C#
+description: LayoutEnumerator method. Moves to the next sibling entity in a logical order. When iterating lines of a paragraph broken across pages this method will move to the next line even if it resides on another page in C#
 type: docs
 weight: 130
 url: /net/aspose.words.layout/layoutenumerator/movenextlogical/

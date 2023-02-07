@@ -1,7 +1,7 @@
 ---
 title: FieldBuilder.BuildAndInsert
 second_title: Aspose.Words for .NET API Reference
-description: Builds and inserts a field into the document before the specified inline node in C#
+description: FieldBuilder method. Builds and inserts a field into the document before the specified inline node in C#
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldbuilder/buildandinsert/

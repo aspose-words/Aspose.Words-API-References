@@ -1,7 +1,7 @@
 ---
 title: Section.Section
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of the Section class in C#
+description: Section constructor. Initializes a new instance of the Section class in C#
 type: docs
 weight: 10
 url: /net/aspose.words/section/section/

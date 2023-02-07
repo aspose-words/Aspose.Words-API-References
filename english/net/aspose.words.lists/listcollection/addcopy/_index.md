@@ -1,7 +1,7 @@
 ---
 title: ListCollection.AddCopy
 second_title: Aspose.Words for .NET API Reference
-description: Creates a new list by copying the specified list and adding it to the collection of lists in the document in C#
+description: ListCollection method. Creates a new list by copying the specified list and adding it to the collection of lists in the document in C#
 type: docs
 weight: 50
 url: /net/aspose.words.lists/listcollection/addcopy/

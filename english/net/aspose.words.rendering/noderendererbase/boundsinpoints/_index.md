@@ -1,7 +1,7 @@
 ---
 title: NodeRendererBase.BoundsInPoints
 second_title: Aspose.Words for .NET API Reference
-description: Gets the actual bounds of the shape in points in C#
+description: NodeRendererBase property. Gets the actual bounds of the shape in points in C#
 type: docs
 weight: 10
 url: /net/aspose.words.rendering/noderendererbase/boundsinpoints/

@@ -1,7 +1,7 @@
 ---
 title: ShapeBase.CoordSize
 second_title: Aspose.Words for .NET API Reference
-description: The width and height of the coordinate space inside the containing block of this shape in C#
+description: ShapeBase property. The width and height of the coordinate space inside the containing block of this shape in C#
 type: docs
 weight: 120
 url: /net/aspose.words.drawing/shapebase/coordsize/

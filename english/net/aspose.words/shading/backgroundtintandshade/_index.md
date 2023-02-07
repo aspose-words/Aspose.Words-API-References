@@ -1,7 +1,7 @@
 ---
 title: Shading.BackgroundTintAndShade
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a double value that lightens or darkens a background theme color in C#
+description: Shading property. Gets or sets a double value that lightens or darkens a background theme color in C#
 type: docs
 weight: 30
 url: /net/aspose.words/shading/backgroundtintandshade/
