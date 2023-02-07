@@ -1,7 +1,7 @@
 ---
 title: Class FieldDatabaseDataTable
 second_title: Aspose.Words for .NET API Reference
-description: Provides data for the FieldDatabase field result.
+description: Provides data for the FieldDatabase field result in C#
 type: docs
 weight: 1610
 url: /net/aspose.words.fields/fielddatabasedatatable/

@@ -1,7 +1,7 @@
 ---
 title: SignatureLineOptions.Signer
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets suggested signer of the signature line. Default value for this property is empty string Empty.
+description: Gets or sets suggested signer of the signature line. Default value for this property is empty string Empty in C#
 type: docs
 weight: 70
 url: /net/aspose.words/signaturelineoptions/signer/

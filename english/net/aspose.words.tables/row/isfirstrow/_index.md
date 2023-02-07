@@ -1,7 +1,7 @@
 ---
 title: Row.IsFirstRow
 second_title: Aspose.Words for .NET API Reference
-description: True if this is the first row in a table false otherwise.
+description: True if this is the first row in a table false otherwise in C#
 type: docs
 weight: 40
 url: /net/aspose.words.tables/row/isfirstrow/

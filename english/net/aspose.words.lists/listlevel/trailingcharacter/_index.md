@@ -1,7 +1,7 @@
 ---
 title: ListLevel.TrailingCharacter
 second_title: Aspose.Words for .NET API Reference
-description: Returns or sets the character inserted after the number for the list level.
+description: Returns or sets the character inserted after the number for the list level in C#
 type: docs
 weight: 140
 url: /net/aspose.words.lists/listlevel/trailingcharacter/

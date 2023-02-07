@@ -1,7 +1,7 @@
 ---
 title: ImageData.CropBottom
 second_title: Aspose.Words for .NET API Reference
-description: Defines the fraction of picture removal from the bottom side.
+description: Defines the fraction of picture removal from the bottom side in C#
 type: docs
 weight: 60
 url: /net/aspose.words.drawing/imagedata/cropbottom/

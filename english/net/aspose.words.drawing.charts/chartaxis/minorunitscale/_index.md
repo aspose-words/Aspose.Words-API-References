@@ -1,7 +1,7 @@
 ---
 title: ChartAxis.MinorUnitScale
 second_title: Aspose.Words for .NET API Reference
-description: Returns or sets the scale value for minor tick marks on the time category axis.
+description: Returns or sets the scale value for minor tick marks on the time category axis in C#
 type: docs
 weight: 160
 url: /net/aspose.words.drawing.charts/chartaxis/minorunitscale/

@@ -1,7 +1,7 @@
 ---
 title: SmartTag.Accept
 second_title: Aspose.Words for .NET API Reference
-description: Accepts a visitor.
+description: Accepts a visitor in C#
 type: docs
 weight: 60
 url: /net/aspose.words.markup/smarttag/accept/

@@ -1,7 +1,7 @@
 ---
 title: Class Glyph
 second_title: Aspose.Words for .NET API Reference
-description: Represents a glyph
+description: Represents a glyph in C#
 type: docs
 weight: 5810
 url: /net/aspose.words.shaping/glyph/

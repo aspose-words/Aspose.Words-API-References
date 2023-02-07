@@ -1,7 +1,7 @@
 ---
 title: FieldOptions.FieldUpdateCultureProvider
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a provider that returns a culture object specific for each particular field.
+description: Gets or sets a provider that returns a culture object specific for each particular field in C#
 type: docs
 weight: 90
 url: /net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/

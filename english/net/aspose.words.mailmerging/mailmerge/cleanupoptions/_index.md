@@ -1,7 +1,7 @@
 ---
 title: MailMerge.CleanupOptions
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a set of flags that specify what items should be removed during mail merge.
+description: Gets or sets a set of flags that specify what items should be removed during mail merge in C#
 type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/mailmerge/cleanupoptions/

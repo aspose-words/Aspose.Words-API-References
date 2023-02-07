@@ -1,7 +1,7 @@
 ---
 title: ResourceLoadingArgs.ResourceType
 second_title: Aspose.Words for .NET API Reference
-description: Type of resource.
+description: Type of resource in C#
 type: docs
 weight: 20
 url: /net/aspose.words.loading/resourceloadingargs/resourcetype/

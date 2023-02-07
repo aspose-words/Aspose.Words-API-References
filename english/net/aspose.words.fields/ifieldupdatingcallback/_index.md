@@ -1,7 +1,7 @@
 ---
 title: Interface IFieldUpdatingCallback
 second_title: Aspose.Words for .NET API Reference
-description: Implement this interface if you want to have your own custom methods called during a field update.
+description: Implement this interface if you want to have your own custom methods called during a field update in C#
 type: docs
 weight: 2560
 url: /net/aspose.words.fields/ifieldupdatingcallback/

@@ -1,7 +1,7 @@
 ---
 title: Fill.RotateWithObject
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets whether the fill rotates with the specified object.
+description: Gets or sets whether the fill rotates with the specified object in C#
 type: docs
 weight: 120
 url: /net/aspose.words.drawing/fill/rotatewithobject/

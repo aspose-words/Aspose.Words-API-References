@@ -1,7 +1,7 @@
 ---
 title: FieldToc.PreserveLineBreaks
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets whether to preserve newline characters within table entries.
+description: Gets or sets whether to preserve newline characters within table entries in C#
 type: docs
 weight: 130
 url: /net/aspose.words.fields/fieldtoc/preservelinebreaks/

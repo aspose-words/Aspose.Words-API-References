@@ -1,7 +1,7 @@
 ---
 title: Enum MarkerSymbol
 second_title: Aspose.Words for .NET API Reference
-description: Specifies marker symbol style.
+description: Specifies marker symbol style in C#
 type: docs
 weight: 790
 url: /net/aspose.words.drawing.charts/markersymbol/

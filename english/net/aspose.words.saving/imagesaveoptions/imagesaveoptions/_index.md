@@ -1,7 +1,7 @@
 ---
 title: ImageSaveOptions.ImageSaveOptions
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of this class that can be used to save rendered images in the Tiff Png Bmp Emf Jpeg or Svg format. Png Bmp Jpeg or Svg format.
+description: Initializes a new instance of this class that can be used to save rendered images in the Tiff Png Bmp Emf Jpeg or Svg format. Png Bmp Jpeg or Svg format in C#
 type: docs
 weight: 10
 url: /net/aspose.words.saving/imagesaveoptions/imagesaveoptions/

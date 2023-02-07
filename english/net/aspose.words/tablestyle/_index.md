@@ -1,7 +1,7 @@
 ---
 title: Class TableStyle
 second_title: Aspose.Words for .NET API Reference
-description: Represents a table style.
+description: Represents a table style in C#
 type: docs
 weight: 5990
 url: /net/aspose.words/tablestyle/

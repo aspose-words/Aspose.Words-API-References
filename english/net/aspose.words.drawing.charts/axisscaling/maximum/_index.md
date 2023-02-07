@@ -1,7 +1,7 @@
 ---
 title: AxisScaling.Maximum
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the maximum value of the axis.
+description: Gets or sets the maximum value of the axis in C#
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/axisscaling/maximum/

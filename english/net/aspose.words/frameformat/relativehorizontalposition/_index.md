@@ -1,7 +1,7 @@
 ---
 title: FrameFormat.RelativeHorizontalPosition
 second_title: Aspose.Words for .NET API Reference
-description: Gets the relative horizontal position of a frame.
+description: Gets the relative horizontal position of a frame in C#
 type: docs
 weight: 70
 url: /net/aspose.words/frameformat/relativehorizontalposition/

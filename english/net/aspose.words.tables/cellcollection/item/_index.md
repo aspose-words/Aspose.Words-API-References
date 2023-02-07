@@ -1,7 +1,7 @@
 ---
 title: CellCollection.Item
 second_title: Aspose.Words for .NET API Reference
-description: Retrieves a Cell at the given index.
+description: Retrieves a Cell at the given index in C#
 type: docs
 weight: 10
 url: /net/aspose.words.tables/cellcollection/item/

@@ -1,7 +1,7 @@
 ---
 title: PdfLoadOptions.PdfLoadOptions
 second_title: Aspose.Words for .NET API Reference
-description: The default constructor.
+description: The default constructor in C#
 type: docs
 weight: 10
 url: /net/aspose.words.loading/pdfloadoptions/pdfloadoptions/

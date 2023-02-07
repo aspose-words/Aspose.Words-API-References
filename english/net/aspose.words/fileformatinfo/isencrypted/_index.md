@@ -1,7 +1,7 @@
 ---
 title: FileFormatInfo.IsEncrypted
 second_title: Aspose.Words for .NET API Reference
-description: Returns true if the document is encrypted and requires a password to open.
+description: Returns true if the document is encrypted and requires a password to open in C#
 type: docs
 weight: 30
 url: /net/aspose.words/fileformatinfo/isencrypted/

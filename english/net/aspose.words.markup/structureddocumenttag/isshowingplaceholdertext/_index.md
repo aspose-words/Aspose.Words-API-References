@@ -1,7 +1,7 @@
 ---
 title: StructuredDocumentTag.IsShowingPlaceholderText
 second_title: Aspose.Words for .NET API Reference
-description: Specifies whether the content of this SDT shall be interpreted to contain placeholder text as opposed to regular text contents within the SDT.
+description: Specifies whether the content of this SDT shall be interpreted to contain placeholder text as opposed to regular text contents within the SDT in C#
 type: docs
 weight: 150
 url: /net/aspose.words.markup/structureddocumenttag/isshowingplaceholdertext/

@@ -1,7 +1,7 @@
 ---
 title: Class DocumentSavingArgs
 second_title: Aspose.Words for .NET API Reference
-description: An argument passed into Notify.
+description: An argument passed into Notify in C#
 type: docs
 weight: 4730
 url: /net/aspose.words.saving/documentsavingargs/

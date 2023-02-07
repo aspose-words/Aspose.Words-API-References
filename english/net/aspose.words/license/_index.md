@@ -1,7 +1,7 @@
 ---
 title: Class License
 second_title: Aspose.Words for .NET API Reference
-description: Provides methods to license the component.
+description: Provides methods to license the component in C#
 type: docs
 weight: 3240
 url: /net/aspose.words/license/

@@ -1,7 +1,7 @@
 ---
 title: JsonDataLoadOptions.AlwaysGenerateRootObject
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a flag indicating whether a generated data source will always contain an object for a JSON root element. If a JSON root element contains a single complex property such an object is not created by default.
+description: Gets or sets a flag indicating whether a generated data source will always contain an object for a JSON root element. If a JSON root element contains a single complex property such an object is not created by default in C#
 type: docs
 weight: 20
 url: /net/aspose.words.reporting/jsondataloadoptions/alwaysgeneraterootobject/

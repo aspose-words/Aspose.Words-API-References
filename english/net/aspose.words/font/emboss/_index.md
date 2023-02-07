@@ -1,7 +1,7 @@
 ---
 title: Font.Emboss
 second_title: Aspose.Words for .NET API Reference
-description: True if the font is formatted as embossed.
+description: True if the font is formatted as embossed in C#
 type: docs
 weight: 100
 url: /net/aspose.words/font/emboss/

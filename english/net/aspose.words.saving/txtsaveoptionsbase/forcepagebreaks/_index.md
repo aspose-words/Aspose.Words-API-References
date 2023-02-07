@@ -1,7 +1,7 @@
 ---
 title: TxtSaveOptionsBase.ForcePageBreaks
 second_title: Aspose.Words for .NET API Reference
-description: Allows to specify whether the page breaks should be preserved during export.
+description: Allows to specify whether the page breaks should be preserved during export in C#
 type: docs
 weight: 30
 url: /net/aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/

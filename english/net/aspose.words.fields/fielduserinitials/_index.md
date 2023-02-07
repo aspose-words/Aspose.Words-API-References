@@ -1,7 +1,7 @@
 ---
 title: Class FieldUserInitials
 second_title: Aspose.Words for .NET API Reference
-description: Implements the USERINITIALS field.
+description: Implements the USERINITIALS field in C#
 type: docs
 weight: 2440
 url: /net/aspose.words.fields/fielduserinitials/

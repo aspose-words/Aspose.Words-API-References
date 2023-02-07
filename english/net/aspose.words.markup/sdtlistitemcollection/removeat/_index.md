@@ -1,7 +1,7 @@
 ---
 title: SdtListItemCollection.RemoveAt
 second_title: Aspose.Words for .NET API Reference
-description: Removes a list item at the specified index.
+description: Removes a list item at the specified index in C#
 type: docs
 weight: 70
 url: /net/aspose.words.markup/sdtlistitemcollection/removeat/

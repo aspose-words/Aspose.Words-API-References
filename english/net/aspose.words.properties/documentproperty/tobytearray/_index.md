@@ -1,7 +1,7 @@
 ---
 title: DocumentProperty.ToByteArray
 second_title: Aspose.Words for .NET API Reference
-description: Returns the property value as byte array.
+description: Returns the property value as byte array in C#
 type: docs
 weight: 70
 url: /net/aspose.words.properties/documentproperty/tobytearray/

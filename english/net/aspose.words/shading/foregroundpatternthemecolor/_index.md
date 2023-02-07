@@ -1,7 +1,7 @@
 ---
 title: Shading.ForegroundPatternThemeColor
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the foreground pattern theme color in the applied color scheme that is associated with this Shading object.
+description: Gets or sets the foreground pattern theme color in the applied color scheme that is associated with this Shading object in C#
 type: docs
 weight: 50
 url: /net/aspose.words/shading/foregroundpatternthemecolor/

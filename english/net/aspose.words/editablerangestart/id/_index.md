@@ -1,7 +1,7 @@
 ---
 title: EditableRangeStart.Id
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the identifier of the editable range.
+description: Specifies the identifier of the editable range in C#
 type: docs
 weight: 20
 url: /net/aspose.words/editablerangestart/id/

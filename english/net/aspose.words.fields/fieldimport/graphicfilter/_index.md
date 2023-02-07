@@ -1,7 +1,7 @@
 ---
 title: FieldImport.GraphicFilter
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the name of the filter for the format of the graphic that is to be inserted.
+description: Gets or sets the name of the filter for the format of the graphic that is to be inserted in C#
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldimport/graphicfilter/

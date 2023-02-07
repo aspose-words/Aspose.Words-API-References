@@ -1,7 +1,7 @@
 ---
 title: OleFormat.IconCaption
 second_title: Aspose.Words for .NET API Reference
-description: Gets icon caption of OLE object.
+description: Gets icon caption of OLE object in C#
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/oleformat/iconcaption/

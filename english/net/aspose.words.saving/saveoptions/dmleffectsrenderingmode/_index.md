@@ -1,7 +1,7 @@
 ---
 title: SaveOptions.DmlEffectsRenderingMode
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a value determining how DrawingML effects are rendered.
+description: Gets or sets a value determining how DrawingML effects are rendered in C#
 type: docs
 weight: 60
 url: /net/aspose.words.saving/saveoptions/dmleffectsrenderingmode/

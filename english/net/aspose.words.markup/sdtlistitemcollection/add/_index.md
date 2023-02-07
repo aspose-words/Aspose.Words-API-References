@@ -1,7 +1,7 @@
 ---
 title: SdtListItemCollection.Add
 second_title: Aspose.Words for .NET API Reference
-description: Adds an item to this collection.
+description: Adds an item to this collection in C#
 type: docs
 weight: 40
 url: /net/aspose.words.markup/sdtlistitemcollection/add/

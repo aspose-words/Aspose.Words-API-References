@@ -1,7 +1,7 @@
 ---
 title: NodeChangingArgs.NewParent
 second_title: Aspose.Words for .NET API Reference
-description: Gets the nodes parent that will be set after the operation completes.
+description: Gets the nodes parent that will be set after the operation completes in C#
 type: docs
 weight: 20
 url: /net/aspose.words/nodechangingargs/newparent/

@@ -1,7 +1,7 @@
 ---
 title: FieldTA.ShortCitation
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the short citation for the entry.
+description: Gets or sets the short citation for the entry in C#
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldta/shortcitation/

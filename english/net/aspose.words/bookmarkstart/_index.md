@@ -1,7 +1,7 @@
 ---
 title: Class BookmarkStart
 second_title: Aspose.Words for .NET API Reference
-description: Represents a start of a bookmark in a Word document.
+description: Represents a start of a bookmark in a Word document in C#
 type: docs
 weight: 60
 url: /net/aspose.words/bookmarkstart/

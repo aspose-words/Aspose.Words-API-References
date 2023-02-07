@@ -1,7 +1,7 @@
 ---
 title: FieldGoToButton.DisplayText
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the text of the button that appears in the document such that it can be selected to activate the jump.
+description: Gets or sets the text of the button that appears in the document such that it can be selected to activate the jump in C#
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldgotobutton/displaytext/

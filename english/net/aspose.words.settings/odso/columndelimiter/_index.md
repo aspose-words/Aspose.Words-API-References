@@ -1,7 +1,7 @@
 ---
 title: Odso.ColumnDelimiter
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources. The default value is 0 which means there is no column delimiter defined.
+description: Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources. The default value is 0 which means there is no column delimiter defined in C#
 type: docs
 weight: 20
 url: /net/aspose.words.settings/odso/columndelimiter/

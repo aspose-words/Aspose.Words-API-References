@@ -1,7 +1,7 @@
 ---
 title: CustomXmlPart.DataChecksum
 second_title: Aspose.Words for .NET API Reference
-description: Specifies a cyclic redundancy check CRC checksum of the Data content.
+description: Specifies a cyclic redundancy check CRC checksum of the Data content in C#
 type: docs
 weight: 30
 url: /net/aspose.words.markup/customxmlpart/datachecksum/

@@ -1,7 +1,7 @@
 ---
 title: FieldBuilder.FieldBuilder
 second_title: Aspose.Words for .NET API Reference
-description: Initializes an instance of the FieldBuilder class.
+description: Initializes an instance of the FieldBuilder class in C#
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldbuilder/fieldbuilder/

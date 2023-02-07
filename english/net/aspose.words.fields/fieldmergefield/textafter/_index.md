@@ -1,7 +1,7 @@
 ---
 title: FieldMergeField.TextAfter
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the text to be inserted after the field if the field is not blank.
+description: Gets or sets the text to be inserted after the field if the field is not blank in C#
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldmergefield/textafter/

@@ -1,7 +1,7 @@
 ---
 title: FontSettings.SaveSearchCache
 second_title: Aspose.Words for .NET API Reference
-description: Saves the font search cache to the stream.
+description: Saves the font search cache to the stream in C#
 type: docs
 weight: 70
 url: /net/aspose.words.fonts/fontsettings/savesearchcache/

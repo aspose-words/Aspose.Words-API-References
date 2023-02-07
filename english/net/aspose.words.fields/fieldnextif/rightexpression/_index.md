@@ -1,7 +1,7 @@
 ---
 title: FieldNextIf.RightExpression
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the right part of the comparison expression.
+description: Gets or sets the right part of the comparison expression in C#
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldnextif/rightexpression/

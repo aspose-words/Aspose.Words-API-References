@@ -1,7 +1,7 @@
 ---
 title: Enum ListTemplate
 second_title: Aspose.Words for .NET API Reference
-description: Specifies one of the predefined list formats available in Microsoft Word.
+description: Specifies one of the predefined list formats available in Microsoft Word in C#
 type: docs
 weight: 3350
 url: /net/aspose.words.lists/listtemplate/

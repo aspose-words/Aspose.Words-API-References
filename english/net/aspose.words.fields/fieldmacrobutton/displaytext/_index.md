@@ -1,7 +1,7 @@
 ---
 title: FieldMacroButton.DisplayText
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the text to appear as the button that is selected to run the macro or command.
+description: Gets or sets the text to appear as the button that is selected to run the macro or command in C#
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldmacrobutton/displaytext/

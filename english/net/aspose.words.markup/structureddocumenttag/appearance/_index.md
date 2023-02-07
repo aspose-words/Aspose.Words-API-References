@@ -1,7 +1,7 @@
 ---
 title: StructuredDocumentTag.Appearance
 second_title: Aspose.Words for .NET API Reference
-description: Gets/sets the appearance of a structured document tag.
+description: Gets/sets the appearance of a structured document tag in C#
 type: docs
 weight: 20
 url: /net/aspose.words.markup/structureddocumenttag/appearance/

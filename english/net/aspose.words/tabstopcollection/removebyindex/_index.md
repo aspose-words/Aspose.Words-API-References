@@ -1,7 +1,7 @@
 ---
 title: TabStopCollection.RemoveByIndex
 second_title: Aspose.Words for .NET API Reference
-description: Removes a tab stop at the specified index from the collection.
+description: Removes a tab stop at the specified index from the collection in C#
 type: docs
 weight: 110
 url: /net/aspose.words/tabstopcollection/removebyindex/

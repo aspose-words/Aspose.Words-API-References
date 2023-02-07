@@ -1,7 +1,7 @@
 ---
 title: TextPath.Trim
 second_title: Aspose.Words for .NET API Reference
-description: Determines whether extra space is removed above and below the text.
+description: Determines whether extra space is removed above and below the text in C#
 type: docs
 weight: 180
 url: /net/aspose.words.drawing/textpath/trim/

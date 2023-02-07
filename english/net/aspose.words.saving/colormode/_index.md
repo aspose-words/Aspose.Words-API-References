@@ -1,7 +1,7 @@
 ---
 title: Enum ColorMode
 second_title: Aspose.Words for .NET API Reference
-description: Specifies how colors are rendered.
+description: Specifies how colors are rendered in C#
 type: docs
 weight: 4640
 url: /net/aspose.words.saving/colormode/

@@ -1,7 +1,7 @@
 ---
 title: Class RowFormat
 second_title: Aspose.Words for .NET API Reference
-description: Represents all formatting for a table row.
+description: Represents all formatting for a table row in C#
 type: docs
 weight: 6100
 url: /net/aspose.words.tables/rowformat/

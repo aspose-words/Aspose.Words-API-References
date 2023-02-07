@@ -1,7 +1,7 @@
 ---
 title: Class MailMergeSettings
 second_title: Aspose.Words for .NET API Reference
-description: Specifies all of the mail merge information for a document.
+description: Specifies all of the mail merge information for a document in C#
 type: docs
 weight: 5620
 url: /net/aspose.words.settings/mailmergesettings/

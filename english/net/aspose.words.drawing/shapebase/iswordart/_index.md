@@ -1,7 +1,7 @@
 ---
 title: ShapeBase.IsWordArt
 second_title: Aspose.Words for .NET API Reference
-description: Returns true if this shape is a WordArt object.
+description: Returns true if this shape is a WordArt object in C#
 type: docs
 weight: 350
 url: /net/aspose.words.drawing/shapebase/iswordart/

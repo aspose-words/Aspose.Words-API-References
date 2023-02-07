@@ -1,7 +1,7 @@
 ---
 title: StructuredDocumentTag.BuildingBlockCategory
 second_title: Aspose.Words for .NET API Reference
-description: Specifies category of building block for this SDT node. Can not be null.
+description: Specifies category of building block for this SDT node. Can not be null in C#
 type: docs
 weight: 30
 url: /net/aspose.words.markup/structureddocumenttag/buildingblockcategory/

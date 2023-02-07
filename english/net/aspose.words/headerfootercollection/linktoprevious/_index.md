@@ -1,7 +1,7 @@
 ---
 title: HeaderFooterCollection.LinkToPrevious
 second_title: Aspose.Words for .NET API Reference
-description: Links or unlinks all headers and footers to the corresponding headers and footers in the previous section.
+description: Links or unlinks all headers and footers to the corresponding headers and footers in the previous section in C#
 type: docs
 weight: 20
 url: /net/aspose.words/headerfootercollection/linktoprevious/

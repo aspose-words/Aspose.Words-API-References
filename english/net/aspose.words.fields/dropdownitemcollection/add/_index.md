@@ -1,7 +1,7 @@
 ---
 title: DropDownItemCollection.Add
 second_title: Aspose.Words for .NET API Reference
-description: Adds a string to the end of the collection.
+description: Adds a string to the end of the collection in C#
 type: docs
 weight: 30
 url: /net/aspose.words.fields/dropdownitemcollection/add/

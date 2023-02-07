@@ -1,7 +1,7 @@
 ---
 title: ListFormat.IsListItem
 second_title: Aspose.Words for .NET API Reference
-description: True when the paragraph has bulleted or numbered formatting applied to it.
+description: True when the paragraph has bulleted or numbered formatting applied to it in C#
 type: docs
 weight: 10
 url: /net/aspose.words.lists/listformat/islistitem/

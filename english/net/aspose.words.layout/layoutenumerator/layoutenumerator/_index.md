@@ -1,7 +1,7 @@
 ---
 title: LayoutEnumerator.LayoutEnumerator
 second_title: Aspose.Words for .NET API Reference
-description: Initializes new instance of this class.
+description: Initializes new instance of this class in C#
 type: docs
 weight: 10
 url: /net/aspose.words.layout/layoutenumerator/layoutenumerator/

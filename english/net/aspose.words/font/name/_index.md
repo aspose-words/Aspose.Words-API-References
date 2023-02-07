@@ -1,7 +1,7 @@
 ---
 title: Font.Name
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the name of the font.
+description: Gets or sets the name of the font in C#
 type: docs
 weight: 230
 url: /net/aspose.words/font/name/

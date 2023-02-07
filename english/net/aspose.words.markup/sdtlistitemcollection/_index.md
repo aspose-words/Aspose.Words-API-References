@@ -1,7 +1,7 @@
 ---
 title: Class SdtListItemCollection
 second_title: Aspose.Words for .NET API Reference
-description: Provides access to SdtListItem elements of a structured document tag.
+description: Provides access to SdtListItem elements of a structured document tag in C#
 type: docs
 weight: 3820
 url: /net/aspose.words.markup/sdtlistitemcollection/

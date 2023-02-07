@@ -1,7 +1,7 @@
 ---
 title: CompatibilityOptions.DoNotSuppressIndentation
 second_title: Aspose.Words for .NET API Reference
-description: Do Not Ignore Floating Objects When Calculating Paragraph Indentation.
+description: Do Not Ignore Floating Objects When Calculating Paragraph Indentation in C#
 type: docs
 weight: 180
 url: /net/aspose.words.settings/compatibilityoptions/donotsuppressindentation/

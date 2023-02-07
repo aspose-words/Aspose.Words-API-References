@@ -1,7 +1,7 @@
 ---
 title: VariableCollection.GetEnumerator
 second_title: Aspose.Words for .NET API Reference
-description: Returns an enumerator object that can be used to iterate over all variable in the collection.
+description: Returns an enumerator object that can be used to iterate over all variable in the collection in C#
 type: docs
 weight: 60
 url: /net/aspose.words/variablecollection/getenumerator/

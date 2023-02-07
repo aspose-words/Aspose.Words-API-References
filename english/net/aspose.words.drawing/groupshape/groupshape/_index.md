@@ -1,7 +1,7 @@
 ---
 title: GroupShape.GroupShape
 second_title: Aspose.Words for .NET API Reference
-description: Creates a new group shape.
+description: Creates a new group shape in C#
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/groupshape/groupshape/

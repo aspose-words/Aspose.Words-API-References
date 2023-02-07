@@ -1,7 +1,7 @@
 ---
 title: FieldAutoTextList.ScreenTip
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the text of the ScreenTip to show.
+description: Gets or sets the text of the ScreenTip to show in C#
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldautotextlist/screentip/

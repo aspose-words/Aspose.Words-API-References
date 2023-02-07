@@ -1,7 +1,7 @@
 ---
 title: Body.EnsureMinimum
 second_title: Aspose.Words for .NET API Reference
-description: If the last child is not a paragraph creates and appends one empty paragraph.
+description: If the last child is not a paragraph creates and appends one empty paragraph in C#
 type: docs
 weight: 50
 url: /net/aspose.words/body/ensureminimum/

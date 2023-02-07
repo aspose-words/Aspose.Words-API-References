@@ -1,7 +1,7 @@
 ---
 title: Class BuildingBlockCollection
 second_title: Aspose.Words for .NET API Reference
-description: A collection of BuildingBlock objects in the document.
+description: A collection of BuildingBlock objects in the document in C#
 type: docs
 weight: 140
 url: /net/aspose.words.buildingblocks/buildingblockcollection/

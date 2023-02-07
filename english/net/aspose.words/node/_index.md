@@ -1,7 +1,7 @@
 ---
 title: Class Node
 second_title: Aspose.Words for .NET API Reference
-description: Base class for all nodes of a Word document.
+description: Base class for all nodes of a Word document in C#
 type: docs
 weight: 3960
 url: /net/aspose.words/node/

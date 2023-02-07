@@ -1,7 +1,7 @@
 ---
 title: VariableCollection.Remove
 second_title: Aspose.Words for .NET API Reference
-description: Removes a document variable with the specified name from the collection.
+description: Removes a document variable with the specified name from the collection in C#
 type: docs
 weight: 80
 url: /net/aspose.words/variablecollection/remove/

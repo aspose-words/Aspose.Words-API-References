@@ -1,7 +1,7 @@
 ---
 title: OdsoFieldMapData.Type
 second_title: Aspose.Words for .NET API Reference
-description: Specifies if a given mail merge field has been mapped to a column in the given external data source or not. The default value is Default.
+description: Specifies if a given mail merge field has been mapped to a column in the given external data source or not. The default value is Default in C#
 type: docs
 weight: 50
 url: /net/aspose.words.settings/odsofieldmapdata/type/

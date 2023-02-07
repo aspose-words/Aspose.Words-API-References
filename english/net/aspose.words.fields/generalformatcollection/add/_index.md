@@ -1,7 +1,7 @@
 ---
 title: GeneralFormatCollection.Add
 second_title: Aspose.Words for .NET API Reference
-description: Adds a general format to the collection.
+description: Adds a general format to the collection in C#
 type: docs
 weight: 30
 url: /net/aspose.words.fields/generalformatcollection/add/

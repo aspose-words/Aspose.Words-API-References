@@ -1,7 +1,7 @@
 ---
 title: FieldDde.InsertAsText
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets whether to insert the linked object in textonly format.
+description: Gets or sets whether to insert the linked object in textonly format in C#
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fielddde/insertastext/

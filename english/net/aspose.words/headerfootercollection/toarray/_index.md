@@ -1,7 +1,7 @@
 ---
 title: HeaderFooterCollection.ToArray
 second_title: Aspose.Words for .NET API Reference
-description: Copies all HeaderFoorters from the collection to a new array of HeaderFoorters.
+description: Copies all HeaderFoorters from the collection to a new array of HeaderFoorters in C#
 type: docs
 weight: 30
 url: /net/aspose.words/headerfootercollection/toarray/

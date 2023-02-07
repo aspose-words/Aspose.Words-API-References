@@ -1,7 +1,7 @@
 ---
 title: ImageSaveOptions.SaveFormat
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster Tiff Png Bmp Jpeg or vector Emf Svg.
+description: Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster Tiff Png Bmp Jpeg or vector Emf Svg in C#
 type: docs
 weight: 130
 url: /net/aspose.words.saving/imagesaveoptions/saveformat/

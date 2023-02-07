@@ -1,7 +1,7 @@
 ---
 title: Class Body
 second_title: Aspose.Words for .NET API Reference
-description: Represents a container for the main text of a section.
+description: Represents a container for the main text of a section in C#
 type: docs
 weight: 20
 url: /net/aspose.words/body/

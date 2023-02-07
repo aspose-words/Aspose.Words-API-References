@@ -1,7 +1,7 @@
 ---
 title: Class FontInfoSubstitutionRule
 second_title: Aspose.Words for .NET API Reference
-description: Font info substitution rule.
+description: Font info substitution rule in C#
 type: docs
 weight: 2780
 url: /net/aspose.words.fonts/fontinfosubstitutionrule/

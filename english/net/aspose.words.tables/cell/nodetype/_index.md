@@ -1,7 +1,7 @@
 ---
 title: Cell.NodeType
 second_title: Aspose.Words for .NET API Reference
-description: Returns Cell.
+description: Returns Cell in C#
 type: docs
 weight: 70
 url: /net/aspose.words.tables/cell/nodetype/

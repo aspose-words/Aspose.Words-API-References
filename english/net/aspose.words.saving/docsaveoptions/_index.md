@@ -1,7 +1,7 @@
 ---
 title: Class DocSaveOptions
 second_title: Aspose.Words for .NET API Reference
-description: Can be used to specify additional options when saving a document into the Doc or Dot format.
+description: Can be used to specify additional options when saving a document into the Doc or Dot format in C#
 type: docs
 weight: 4710
 url: /net/aspose.words.saving/docsaveoptions/

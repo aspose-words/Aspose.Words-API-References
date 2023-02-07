@@ -1,7 +1,7 @@
 ---
 title: Class SaveOutputParameters
 second_title: Aspose.Words for .NET API Reference
-description: This object is returned to the caller after a document is saved and contains additional information that has been generated or calculated during the save operation. The caller can use or ignore this object.
+description: This object is returned to the caller after a document is saved and contains additional information that has been generated or calculated during the save operation. The caller can use or ignore this object in C#
 type: docs
 weight: 5370
 url: /net/aspose.words.saving/saveoutputparameters/

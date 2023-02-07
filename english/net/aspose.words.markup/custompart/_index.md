@@ -1,7 +1,7 @@
 ---
 title: Class CustomPart
 second_title: Aspose.Words for .NET API Reference
-description: Represents a custom arbitrary content part that is not defined by the ISO/IEC 29500 standard.
+description: Represents a custom arbitrary content part that is not defined by the ISO/IEC 29500 standard in C#
 type: docs
 weight: 3690
 url: /net/aspose.words.markup/custompart/

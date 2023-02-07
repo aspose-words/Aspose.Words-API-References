@@ -1,7 +1,7 @@
 ---
 title: JsonDataLoadOptions.ExactDateTimeParseFormats
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets exact formats for parsing JSON datetime values while loading JSON. The default is null.
+description: Gets or sets exact formats for parsing JSON datetime values while loading JSON. The default is null in C#
 type: docs
 weight: 30
 url: /net/aspose.words.reporting/jsondataloadoptions/exactdatetimeparseformats/

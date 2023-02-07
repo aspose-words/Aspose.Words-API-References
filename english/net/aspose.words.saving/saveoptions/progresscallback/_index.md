@@ -1,7 +1,7 @@
 ---
 title: SaveOptions.ProgressCallback
 second_title: Aspose.Words for .NET API Reference
-description: Called during saving a document and accepts data about saving progress.
+description: Called during saving a document and accepts data about saving progress in C#
 type: docs
 weight: 120
 url: /net/aspose.words.saving/saveoptions/progresscallback/

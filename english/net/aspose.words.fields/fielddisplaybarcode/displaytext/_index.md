@@ -1,7 +1,7 @@
 ---
 title: FieldDisplayBarcode.DisplayText
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets whether to display barcode data text along with image.
+description: Gets or sets whether to display barcode data text along with image in C#
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fielddisplaybarcode/displaytext/

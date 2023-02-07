@@ -1,7 +1,7 @@
 ---
 title: List.Equals
 second_title: Aspose.Words for .NET API Reference
-description: Compares with the specified list.
+description: Compares with the specified list in C#
 type: docs
 weight: 100
 url: /net/aspose.words.lists/list/equals/

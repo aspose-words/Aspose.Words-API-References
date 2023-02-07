@@ -1,7 +1,7 @@
 ---
 title: Section.Clone
 second_title: Aspose.Words for .NET API Reference
-description: Creates a duplicate of this section.
+description: Creates a duplicate of this section in C#
 type: docs
 weight: 110
 url: /net/aspose.words/section/clone/

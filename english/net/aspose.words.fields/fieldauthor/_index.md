@@ -1,7 +1,7 @@
 ---
 title: Class FieldAuthor
 second_title: Aspose.Words for .NET API Reference
-description: Implements the AUTHOR field.
+description: Implements the AUTHOR field in C#
 type: docs
 weight: 1420
 url: /net/aspose.words.fields/fieldauthor/

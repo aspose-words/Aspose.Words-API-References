@@ -1,7 +1,7 @@
 ---
 title: Class Row
 second_title: Aspose.Words for .NET API Reference
-description: Represents a table row.
+description: Represents a table row in C#
 type: docs
 weight: 6080
 url: /net/aspose.words.tables/row/

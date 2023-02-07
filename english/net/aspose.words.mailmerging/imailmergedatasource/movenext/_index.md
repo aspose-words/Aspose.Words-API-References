@@ -1,7 +1,7 @@
 ---
 title: IMailMergeDataSource.MoveNext
 second_title: Aspose.Words for .NET API Reference
-description: Advances to the next record in the data source.
+description: Advances to the next record in the data source in C#
 type: docs
 weight: 40
 url: /net/aspose.words.mailmerging/imailmergedatasource/movenext/

@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words.Lists
 second_title: Aspose.Words for .NET API Reference
-description: The Aspose.Words.Lists namespace contains classes for working with bulleted and numbered lists defined in a document.
+description: The Aspose.Words.Lists namespace contains classes for working with bulleted and numbered lists defined in a document in C#
 type: docs
 weight: 120
 url: /net/aspose.words.lists/

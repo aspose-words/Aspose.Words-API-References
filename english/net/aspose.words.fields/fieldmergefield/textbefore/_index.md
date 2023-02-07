@@ -1,7 +1,7 @@
 ---
 title: FieldMergeField.TextBefore
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the text to be inserted before the field if the field is not blank.
+description: Gets or sets the text to be inserted before the field if the field is not blank in C#
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldmergefield/textbefore/

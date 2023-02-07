@@ -1,7 +1,7 @@
 ---
 title: Stroke.Visible
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a flag indicating whether the stroke is visible.
+description: Gets or sets a flag indicating whether the stroke is visible in C#
 type: docs
 weight: 190
 url: /net/aspose.words.drawing/stroke/visible/

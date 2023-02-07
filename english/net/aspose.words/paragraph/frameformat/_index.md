@@ -1,7 +1,7 @@
 ---
 title: Paragraph.FrameFormat
 second_title: Aspose.Words for .NET API Reference
-description: Provides access to the paragraph formatting properties.
+description: Provides access to the paragraph formatting properties in C#
 type: docs
 weight: 30
 url: /net/aspose.words/paragraph/frameformat/

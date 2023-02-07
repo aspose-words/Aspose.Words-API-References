@@ -1,7 +1,7 @@
 ---
 title: Font.StyleName
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the name of the character style applied to this formatting.
+description: Gets or sets the name of the character style applied to this formatting in C#
 type: docs
 weight: 420
 url: /net/aspose.words/font/stylename/

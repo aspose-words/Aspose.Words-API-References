@@ -1,7 +1,7 @@
 ---
 title: Forms2OleControl.Enabled
 second_title: Aspose.Words for .NET API Reference
-description: Returns true if control is in enabled state.
+description: Returns true if control is in enabled state in C#
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.ole/forms2olecontrol/enabled/

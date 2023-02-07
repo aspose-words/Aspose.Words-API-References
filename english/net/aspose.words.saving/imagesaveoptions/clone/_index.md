@@ -1,7 +1,7 @@
 ---
 title: ImageSaveOptions.Clone
 second_title: Aspose.Words for .NET API Reference
-description: Creates a deep clone of this object.
+description: Creates a deep clone of this object in C#
 type: docs
 weight: 200
 url: /net/aspose.words.saving/imagesaveoptions/clone/

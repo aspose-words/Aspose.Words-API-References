@@ -1,7 +1,7 @@
 ---
 title: FieldIndex.HasPageNumberSeparator
 second_title: Aspose.Words for .NET API Reference
-description: Gets a value indicating whether a page number separator is overridden through the fields code.
+description: Gets a value indicating whether a page number separator is overridden through the fields code in C#
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldindex/haspagenumberseparator/

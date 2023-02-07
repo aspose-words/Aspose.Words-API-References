@@ -1,7 +1,7 @@
 ---
 title: SignOptions.SignatureLineId
 second_title: Aspose.Words for .NET API Reference
-description: Signature line identifier. Default value is Empty all zeroes Guid.
+description: Signature line identifier. Default value is Empty all zeroes Guid in C#
 type: docs
 weight: 50
 url: /net/aspose.words.digitalsignatures/signoptions/signaturelineid/

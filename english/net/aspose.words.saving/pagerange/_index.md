@@ -1,7 +1,7 @@
 ---
 title: Class PageRange
 second_title: Aspose.Words for .NET API Reference
-description: Represents a continuous range of pages.
+description: Represents a continuous range of pages in C#
 type: docs
 weight: 5150
 url: /net/aspose.words.saving/pagerange/

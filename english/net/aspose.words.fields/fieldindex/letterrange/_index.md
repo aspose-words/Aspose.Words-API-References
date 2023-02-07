@@ -1,7 +1,7 @@
 ---
 title: FieldIndex.LetterRange
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a range of letters to which limit the index.
+description: Gets or sets a range of letters to which limit the index in C#
 type: docs
 weight: 90
 url: /net/aspose.words.fields/fieldindex/letterrange/

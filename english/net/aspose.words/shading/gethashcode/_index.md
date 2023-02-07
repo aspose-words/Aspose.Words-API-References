@@ -1,7 +1,7 @@
 ---
 title: Shading.GetHashCode
 second_title: Aspose.Words for .NET API Reference
-description: Serves as a hash function for this type.
+description: Serves as a hash function for this type in C#
 type: docs
 weight: 100
 url: /net/aspose.words/shading/gethashcode/

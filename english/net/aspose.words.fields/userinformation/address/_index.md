@@ -1,7 +1,7 @@
 ---
 title: UserInformation.Address
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the users postal address.
+description: Gets or sets the users postal address in C#
 type: docs
 weight: 30
 url: /net/aspose.words.fields/userinformation/address/

@@ -1,7 +1,7 @@
 ---
 title: Class FieldTA
 second_title: Aspose.Words for .NET API Reference
-description: Implements the TA field.
+description: Implements the TA field in C#
 type: docs
 weight: 2320
 url: /net/aspose.words.fields/fieldta/

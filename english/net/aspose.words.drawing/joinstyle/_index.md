@@ -1,7 +1,7 @@
 ---
 title: Enum JoinStyle
 second_title: Aspose.Words for .NET API Reference
-description: Line join style.
+description: Line join style in C#
 type: docs
 weight: 960
 url: /net/aspose.words.drawing/joinstyle/

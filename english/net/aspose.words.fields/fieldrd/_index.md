@@ -1,7 +1,7 @@
 ---
 title: Class FieldRD
 second_title: Aspose.Words for .NET API Reference
-description: Implements the RD field.
+description: Implements the RD field in C#
 type: docs
 weight: 2170
 url: /net/aspose.words.fields/fieldrd/

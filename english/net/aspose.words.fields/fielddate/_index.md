@@ -1,7 +1,7 @@
 ---
 title: Class FieldDate
 second_title: Aspose.Words for .NET API Reference
-description: Implements the DATE field.
+description: Implements the DATE field in C#
 type: docs
 weight: 1620
 url: /net/aspose.words.fields/fielddate/

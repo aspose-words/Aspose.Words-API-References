@@ -1,7 +1,7 @@
 ---
 title: WebExtension.Id
 second_title: Aspose.Words for .NET API Reference
-description: Uniquely identifies the web extension instance in the current document.
+description: Uniquely identifies the web extension instance in the current document in C#
 type: docs
 weight: 30
 url: /net/aspose.words.webextensions/webextension/id/

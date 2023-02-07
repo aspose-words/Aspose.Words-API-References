@@ -1,7 +1,7 @@
 ---
 title: SystemFontSource.GetSystemFontFolders
 second_title: Aspose.Words for .NET API Reference
-description: Returns system font folders or empty array if folders are not accessible.
+description: Returns system font folders or empty array if folders are not accessible in C#
 type: docs
 weight: 30
 url: /net/aspose.words.fonts/systemfontsource/getsystemfontfolders/

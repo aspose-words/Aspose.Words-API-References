@@ -1,7 +1,7 @@
 ---
 title: FieldLink.InsertAsPicture
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets whether to insert the linked object as a picture.
+description: Gets or sets whether to insert the linked object as a picture in C#
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldlink/insertaspicture/

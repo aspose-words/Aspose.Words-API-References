@@ -1,7 +1,7 @@
 ---
 title: OoxmlSaveOptions.KeepLegacyControlChars
 second_title: Aspose.Words for .NET API Reference
-description: Keeps original representation of legacy control characters.
+description: Keeps original representation of legacy control characters in C#
 type: docs
 weight: 40
 url: /net/aspose.words.saving/ooxmlsaveoptions/keeplegacycontrolchars/

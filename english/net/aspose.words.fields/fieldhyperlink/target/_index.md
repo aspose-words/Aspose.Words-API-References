@@ -1,7 +1,7 @@
 ---
 title: FieldHyperlink.Target
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the target to which the link should be redirected.
+description: Gets or sets the target to which the link should be redirected in C#
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldhyperlink/target/

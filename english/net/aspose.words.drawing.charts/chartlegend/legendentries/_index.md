@@ -1,7 +1,7 @@
 ---
 title: ChartLegend.LegendEntries
 second_title: Aspose.Words for .NET API Reference
-description: Returns a collection of legend entries for all series and trendlines of the parent chart.
+description: Returns a collection of legend entries for all series and trendlines of the parent chart in C#
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartlegend/legendentries/

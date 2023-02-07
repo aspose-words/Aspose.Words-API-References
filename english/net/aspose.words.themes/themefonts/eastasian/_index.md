@@ -1,7 +1,7 @@
 ---
 title: ThemeFonts.EastAsian
 second_title: Aspose.Words for .NET API Reference
-description: Specifies font name for EastAsian characters.
+description: Specifies font name for EastAsian characters in C#
 type: docs
 weight: 20
 url: /net/aspose.words.themes/themefonts/eastasian/

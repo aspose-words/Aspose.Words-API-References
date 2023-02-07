@@ -1,7 +1,7 @@
 ---
 title: Run.NodeType
 second_title: Aspose.Words for .NET API Reference
-description: Returns Run.
+description: Returns Run in C#
 type: docs
 weight: 20
 url: /net/aspose.words/run/nodetype/

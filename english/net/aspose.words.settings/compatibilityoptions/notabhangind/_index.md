@@ -1,7 +1,7 @@
 ---
 title: CompatibilityOptions.NoTabHangInd
 second_title: Aspose.Words for .NET API Reference
-description: Do Not Create Custom Tab Stop for Hanging Indent.
+description: Do Not Create Custom Tab Stop for Hanging Indent in C#
 type: docs
 weight: 370
 url: /net/aspose.words.settings/compatibilityoptions/notabhangind/

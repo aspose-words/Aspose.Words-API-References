@@ -1,7 +1,7 @@
 ---
 title: BuiltInDocumentProperties.Category
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the category of the document.
+description: Gets or sets the category of the document in C#
 type: docs
 weight: 30
 url: /net/aspose.words.properties/builtindocumentproperties/category/

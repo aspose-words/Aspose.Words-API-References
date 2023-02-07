@@ -1,7 +1,7 @@
 ---
 title: DocumentVisitor.VisitBuildingBlockEnd
 second_title: Aspose.Words for .NET API Reference
-description: Called when enumeration of a building block has ended.
+description: Called when enumeration of a building block has ended in C#
 type: docs
 weight: 60
 url: /net/aspose.words/documentvisitor/visitbuildingblockend/

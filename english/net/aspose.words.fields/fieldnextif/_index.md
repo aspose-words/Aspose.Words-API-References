@@ -1,7 +1,7 @@
 ---
 title: Class FieldNextIf
 second_title: Aspose.Words for .NET API Reference
-description: Implements the NEXTIF field.
+description: Implements the NEXTIF field in C#
 type: docs
 weight: 2040
 url: /net/aspose.words.fields/fieldnextif/

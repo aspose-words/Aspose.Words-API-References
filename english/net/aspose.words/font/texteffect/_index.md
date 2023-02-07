@@ -1,7 +1,7 @@
 ---
 title: Font.TextEffect
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the font animation effect.
+description: Gets or sets the font animation effect in C#
 type: docs
 weight: 450
 url: /net/aspose.words/font/texteffect/

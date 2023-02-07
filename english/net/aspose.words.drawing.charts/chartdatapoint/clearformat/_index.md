@@ -1,7 +1,7 @@
 ---
 title: ChartDataPoint.ClearFormat
 second_title: Aspose.Words for .NET API Reference
-description: Clears format of this data point. The properties are set to the default values defined in the parent series.
+description: Clears format of this data point. The properties are set to the default values defined in the parent series in C#
 type: docs
 weight: 70
 url: /net/aspose.words.drawing.charts/chartdatapoint/clearformat/

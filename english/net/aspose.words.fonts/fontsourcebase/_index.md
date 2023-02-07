@@ -1,7 +1,7 @@
 ---
 title: Class FontSourceBase
 second_title: Aspose.Words for .NET API Reference
-description: This is an abstract base class for the classes that allow the user to specify various font sources.
+description: This is an abstract base class for the classes that allow the user to specify various font sources in C#
 type: docs
 weight: 2820
 url: /net/aspose.words.fonts/fontsourcebase/

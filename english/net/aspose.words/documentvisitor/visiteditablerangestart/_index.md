@@ -1,7 +1,7 @@
 ---
 title: DocumentVisitor.VisitEditableRangeStart
 second_title: Aspose.Words for .NET API Reference
-description: Called when a start of an editable range is encountered in the document.
+description: Called when a start of an editable range is encountered in the document in C#
 type: docs
 weight: 170
 url: /net/aspose.words/documentvisitor/visiteditablerangestart/

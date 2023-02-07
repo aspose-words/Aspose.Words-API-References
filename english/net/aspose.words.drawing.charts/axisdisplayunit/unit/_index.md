@@ -1,7 +1,7 @@
 ---
 title: AxisDisplayUnit.Unit
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the scaling value of the display units as one of the predefined values.
+description: Gets or sets the scaling value of the display units as one of the predefined values in C#
 type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/axisdisplayunit/unit/

@@ -1,7 +1,7 @@
 ---
 title: Class FieldGlossary
 second_title: Aspose.Words for .NET API Reference
-description: Implements the GLOSSARY field.
+description: Implements the GLOSSARY field in C#
 type: docs
 weight: 1810
 url: /net/aspose.words.fields/fieldglossary/

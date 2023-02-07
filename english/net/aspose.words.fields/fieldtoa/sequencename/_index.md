@@ -1,7 +1,7 @@
 ---
 title: FieldToa.SequenceName
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the name of a sequence whose number is included with the page number.
+description: Gets or sets the name of a sequence whose number is included with the page number in C#
 type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldtoa/sequencename/

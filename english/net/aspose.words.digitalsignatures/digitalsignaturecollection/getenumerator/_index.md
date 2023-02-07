@@ -1,7 +1,7 @@
 ---
 title: DigitalSignatureCollection.GetEnumerator
 second_title: Aspose.Words for .NET API Reference
-description: Returns a dictionary enumerator object that can be used to iterate over all items in the collection.
+description: Returns a dictionary enumerator object that can be used to iterate over all items in the collection in C#
 type: docs
 weight: 50
 url: /net/aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/

@@ -1,7 +1,7 @@
 ---
 title: CellCollection.ToArray
 second_title: Aspose.Words for .NET API Reference
-description: Copies all cells from the collection to a new array of cells.
+description: Copies all cells from the collection to a new array of cells in C#
 type: docs
 weight: 20
 url: /net/aspose.words.tables/cellcollection/toarray/

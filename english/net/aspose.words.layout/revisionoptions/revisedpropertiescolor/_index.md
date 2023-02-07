@@ -1,7 +1,7 @@
 ---
 title: RevisionOptions.RevisedPropertiesColor
 second_title: Aspose.Words for .NET API Reference
-description: Allows to specify the color to be used for content with changes of formatting properties FormatChange Default value is NoHighlight.
+description: Allows to specify the color to be used for content with changes of formatting properties FormatChange Default value is NoHighlight in C#
 type: docs
 weight: 110
 url: /net/aspose.words.layout/revisionoptions/revisedpropertiescolor/

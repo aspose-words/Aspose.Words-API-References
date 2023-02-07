@@ -1,7 +1,7 @@
 ---
 title: DocumentBuilder.MoveToStructuredDocumentTag
 second_title: Aspose.Words for .NET API Reference
-description: Moves the cursor to a structured document tag in the current section.
+description: Moves the cursor to a structured document tag in the current section in C#
 type: docs
 weight: 580
 url: /net/aspose.words/documentbuilder/movetostructureddocumenttag/

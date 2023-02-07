@@ -1,7 +1,7 @@
 ---
 title: FieldGreetingLine.AlternateText
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the text to include in the field if the name is blank.
+description: Gets or sets the text to include in the field if the name is blank in C#
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldgreetingline/alternatetext/

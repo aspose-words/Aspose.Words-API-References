@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words
 second_title: Aspose.Words for .NET API Reference
-description: The Aspose.Words namespace provides classes for generating converting modifying rendering and printing Microsoft Word documents without utilizing Microsoft Word.
+description: The Aspose.Words namespace provides classes for generating converting modifying rendering and printing Microsoft Word documents without utilizing Microsoft Word in C#
 type: docs
 weight: 10
 url: /net/aspose.words/

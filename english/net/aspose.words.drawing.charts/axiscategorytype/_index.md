@@ -1,7 +1,7 @@
 ---
 title: Enum AxisCategoryType
 second_title: Aspose.Words for .NET API Reference
-description: Specifies type of a category axis.
+description: Specifies type of a category axis in C#
 type: docs
 weight: 520
 url: /net/aspose.words.drawing.charts/axiscategorytype/

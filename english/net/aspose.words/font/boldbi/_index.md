@@ -1,7 +1,7 @@
 ---
 title: Font.BoldBi
 second_title: Aspose.Words for .NET API Reference
-description: True if the righttoleft text is formatted as bold.
+description: True if the righttoleft text is formatted as bold in C#
 type: docs
 weight: 50
 url: /net/aspose.words/font/boldbi/

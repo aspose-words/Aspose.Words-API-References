@@ -1,7 +1,7 @@
 ---
 title: CustomXmlPropertyCollection.Add
 second_title: Aspose.Words for .NET API Reference
-description: Adds a property to the collection.
+description: Adds a property to the collection in C#
 type: docs
 weight: 30
 url: /net/aspose.words.markup/customxmlpropertycollection/add/

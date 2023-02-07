@@ -1,7 +1,7 @@
 ---
 title: TextBox.Parent
 second_title: Aspose.Words for .NET API Reference
-description: Gets a parent shape for the TextBox.
+description: Gets a parent shape for the TextBox in C#
 type: docs
 weight: 80
 url: /net/aspose.words.drawing/textbox/parent/

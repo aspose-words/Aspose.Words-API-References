@@ -1,7 +1,7 @@
 ---
 title: CompatibilityOptions.NoSpaceRaiseLower
 second_title: Aspose.Words for .NET API Reference
-description: Do Not Increase Line Height for Raised/Lowered Text.
+description: Do Not Increase Line Height for Raised/Lowered Text in C#
 type: docs
 weight: 360
 url: /net/aspose.words.settings/compatibilityoptions/nospaceraiselower/

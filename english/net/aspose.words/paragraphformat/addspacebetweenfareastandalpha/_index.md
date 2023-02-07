@@ -1,7 +1,7 @@
 ---
 title: ParagraphFormat.AddSpaceBetweenFarEastAndAlpha
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a flag indicating whether intercharacter spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph.
+description: Gets or sets a flag indicating whether intercharacter spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph in C#
 type: docs
 weight: 10
 url: /net/aspose.words/paragraphformat/addspacebetweenfareastandalpha/

@@ -1,7 +1,7 @@
 ---
 title: TextBox.TextBoxWrapMode
 second_title: Aspose.Words for .NET API Reference
-description: Determines how text wraps inside a shape.
+description: Determines how text wraps inside a shape in C#
 type: docs
 weight: 100
 url: /net/aspose.words.drawing/textbox/textboxwrapmode/

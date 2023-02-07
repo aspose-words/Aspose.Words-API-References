@@ -1,7 +1,7 @@
 ---
 title: Enum OoxmlCompliance
 second_title: Aspose.Words for .NET API Reference
-description: Allows to specify which OOXML specification will be used when saving in the DOCX format.
+description: Allows to specify which OOXML specification will be used when saving in the DOCX format in C#
 type: docs
 weight: 5120
 url: /net/aspose.words.saving/ooxmlcompliance/

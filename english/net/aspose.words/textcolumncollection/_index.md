@@ -1,7 +1,7 @@
 ---
 title: Class TextColumnCollection
 second_title: Aspose.Words for .NET API Reference
-description: A collection of TextColumn objects that represent all the columns of text in a section of a document.
+description: A collection of TextColumn objects that represent all the columns of text in a section of a document in C#
 type: docs
 weight: 6170
 url: /net/aspose.words/textcolumncollection/

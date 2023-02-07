@@ -1,7 +1,7 @@
 ---
 title: PdfSaveOptions.ImageCompression
 second_title: Aspose.Words for .NET API Reference
-description: Specifies compression type to be used for all images in the document.
+description: Specifies compression type to be used for all images in the document in C#
 type: docs
 weight: 190
 url: /net/aspose.words.saving/pdfsaveoptions/imagecompression/

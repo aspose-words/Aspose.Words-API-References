@@ -1,7 +1,7 @@
 ---
 title: FieldIndex.EntryType
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets an index entry type used to build the index.
+description: Gets or sets an index entry type used to build the index in C#
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldindex/entrytype/

@@ -1,7 +1,7 @@
 ---
 title: CustomXmlPart.Schemas
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the set of XML schemas that are associated with this custom XML part.
+description: Specifies the set of XML schemas that are associated with this custom XML part in C#
 type: docs
 weight: 50
 url: /net/aspose.words.markup/customxmlpart/schemas/

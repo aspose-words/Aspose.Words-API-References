@@ -1,7 +1,7 @@
 ---
 title: RevisionGroupCollection.Item
 second_title: Aspose.Words for .NET API Reference
-description: Returns a revision group at the specified index.
+description: Returns a revision group at the specified index in C#
 type: docs
 weight: 20
 url: /net/aspose.words/revisiongroupcollection/item/

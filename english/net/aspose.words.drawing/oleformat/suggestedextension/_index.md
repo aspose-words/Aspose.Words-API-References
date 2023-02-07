@@ -1,7 +1,7 @@
 ---
 title: OleFormat.SuggestedExtension
 second_title: Aspose.Words for .NET API Reference
-description: Gets the file extension suggested for the current embedded object if you want to save it into a file.
+description: Gets the file extension suggested for the current embedded object if you want to save it into a file in C#
 type: docs
 weight: 120
 url: /net/aspose.words.drawing/oleformat/suggestedextension/

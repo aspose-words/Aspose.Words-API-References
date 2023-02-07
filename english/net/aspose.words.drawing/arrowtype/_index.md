@@ -1,7 +1,7 @@
 ---
 title: Enum ArrowType
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the type of an arrow at a line end.
+description: Specifies the type of an arrow at a line end in C#
 type: docs
 weight: 480
 url: /net/aspose.words.drawing/arrowtype/

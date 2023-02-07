@@ -1,7 +1,7 @@
 ---
 title: XmlMapping.Delete
 second_title: Aspose.Words for .NET API Reference
-description: Deletes mapping of the parent structured document to XML data.
+description: Deletes mapping of the parent structured document to XML data in C#
 type: docs
 weight: 60
 url: /net/aspose.words.markup/xmlmapping/delete/

@@ -1,7 +1,7 @@
 ---
 title: BookmarkCollection.Remove
 second_title: Aspose.Words for .NET API Reference
-description: Removes the specified bookmark from the document.
+description: Removes the specified bookmark from the document in C#
 type: docs
 weight: 50
 url: /net/aspose.words/bookmarkcollection/remove/

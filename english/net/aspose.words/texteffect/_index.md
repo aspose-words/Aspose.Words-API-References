@@ -1,7 +1,7 @@
 ---
 title: Enum TextEffect
 second_title: Aspose.Words for .NET API Reference
-description: Animation effect for text runs.
+description: Animation effect for text runs in C#
 type: docs
 weight: 6190
 url: /net/aspose.words/texteffect/

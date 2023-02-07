@@ -1,7 +1,7 @@
 ---
 title: ListLevel.Font
 second_title: Aspose.Words for .NET API Reference
-description: Specifies character formatting used for the list label.
+description: Specifies character formatting used for the list label in C#
 type: docs
 weight: 30
 url: /net/aspose.words.lists/listlevel/font/

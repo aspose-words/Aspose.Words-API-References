@@ -1,7 +1,7 @@
 ---
 title: Class CommentRangeEnd
 second_title: Aspose.Words for .NET API Reference
-description: Denotes the end of a region of text that has a comment associated with it.
+description: Denotes the end of a region of text that has a comment associated with it in C#
 type: docs
 weight: 240
 url: /net/aspose.words/commentrangeend/

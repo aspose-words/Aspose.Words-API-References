@@ -1,7 +1,7 @@
 ---
 title: ResourceLoadingArgs.OriginalUri
 second_title: Aspose.Words for .NET API Reference
-description: Original URI of the resource as specified in imported document.
+description: Original URI of the resource as specified in imported document in C#
 type: docs
 weight: 10
 url: /net/aspose.words.loading/resourceloadingargs/originaluri/

@@ -1,7 +1,7 @@
 ---
 title: ShapeBase.BehindText
 second_title: Aspose.Words for .NET API Reference
-description: Specifies whether the shape is below or above text.
+description: Specifies whether the shape is below or above text in C#
 type: docs
 weight: 50
 url: /net/aspose.words.drawing/shapebase/behindtext/

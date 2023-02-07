@@ -1,7 +1,7 @@
 ---
 title: Class FieldSeq
 second_title: Aspose.Words for .NET API Reference
-description: Implements the SEQ field.
+description: Implements the SEQ field in C#
 type: docs
 weight: 2240
 url: /net/aspose.words.fields/fieldseq/
