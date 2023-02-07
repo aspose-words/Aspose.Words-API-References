@@ -1,5 +1,5 @@
 ---
-title: Count
+title: BorderCollection.Count
 second_title: Aspose.Words for .NET API Reference
 description: Gets the number of borders in the collection.
 type: docs

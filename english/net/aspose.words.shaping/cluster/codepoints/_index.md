@@ -1,5 +1,5 @@
 ---
-title: Codepoints
+title: Cluster.Codepoints
 second_title: Aspose.Words for .NET API Reference
 description: Gets codepoints of the cluster.
 type: docs

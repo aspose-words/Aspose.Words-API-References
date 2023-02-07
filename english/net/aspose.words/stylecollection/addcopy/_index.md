@@ -1,5 +1,5 @@
 ---
-title: AddCopy
+title: StyleCollection.AddCopy
 second_title: Aspose.Words for .NET API Reference
 description: Copies a style into this collection.
 type: docs

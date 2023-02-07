@@ -1,5 +1,5 @@
 ---
-title: Color
+title: GradientStop.Color
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value representing the color of the gradient stop.
 type: docs

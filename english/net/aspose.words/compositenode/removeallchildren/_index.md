@@ -1,5 +1,5 @@
 ---
-title: RemoveAllChildren
+title: CompositeNode.RemoveAllChildren
 second_title: Aspose.Words for .NET API Reference
 description: Removes all the child nodes of the current node.
 type: docs

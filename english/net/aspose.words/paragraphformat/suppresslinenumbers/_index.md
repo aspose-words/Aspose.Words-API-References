@@ -1,5 +1,5 @@
 ---
-title: SuppressLineNumbers
+title: ParagraphFormat.SuppressLineNumbers
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether the current paragraphs lines should be exempted from line numbering which is applied in the parent section.
 type: docs

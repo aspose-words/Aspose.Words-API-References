@@ -1,5 +1,5 @@
 ---
-title: IndexOf
+title: DocumentPropertyCollection.IndexOf
 second_title: Aspose.Words for .NET API Reference
 description: Gets the index of a property by name.
 type: docs

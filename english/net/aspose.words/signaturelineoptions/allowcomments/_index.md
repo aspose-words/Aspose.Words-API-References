@@ -1,5 +1,5 @@
 ---
-title: AllowComments
+title: SignatureLineOptions.AllowComments
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is false.
 type: docs

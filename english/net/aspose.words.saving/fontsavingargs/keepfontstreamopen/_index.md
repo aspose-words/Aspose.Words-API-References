@@ -1,5 +1,5 @@
 ---
-title: KeepFontStreamOpen
+title: FontSavingArgs.KeepFontStreamOpen
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether Aspose.Words should keep the stream open or close it after saving a font.
 type: docs

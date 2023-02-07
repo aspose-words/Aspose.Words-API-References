@@ -1,5 +1,5 @@
 ---
-title: ShowSpellingErrors
+title: Document.ShowSpellingErrors
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether to display spelling errors in this document.
 type: docs

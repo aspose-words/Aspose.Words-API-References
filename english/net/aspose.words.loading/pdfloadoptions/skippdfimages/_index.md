@@ -1,5 +1,5 @@
 ---
-title: SkipPdfImages
+title: PdfLoadOptions.SkipPdfImages
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the flag indicating whether images must be skipped while loading PDF document. Default is false.
 type: docs

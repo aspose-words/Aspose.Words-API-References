@@ -1,5 +1,5 @@
 ---
-title: FieldPrintDate
+title: Class FieldPrintDate
 second_title: Aspose.Words for .NET API Reference
 description: Implements the PRINTDATE field.
 type: docs

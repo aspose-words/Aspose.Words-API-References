@@ -1,5 +1,5 @@
 ---
-title: UnderlineTabInNumList
+title: CompatibilityOptions.UnderlineTabInNumList
 second_title: Aspose.Words for .NET API Reference
 description: Underline Following Character Following Numbering.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: OptimizeFor
+title: CompatibilityOptions.OptimizeFor
 second_title: Aspose.Words for .NET API Reference
 description: Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word.
 type: docs

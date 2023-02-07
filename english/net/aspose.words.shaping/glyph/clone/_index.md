@@ -1,5 +1,5 @@
 ---
-title: Clone
+title: Glyph.Clone
 second_title: Aspose.Words for .NET API Reference
 description: Returns a clone of this instance.
 type: docs

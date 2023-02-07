@@ -1,5 +1,5 @@
 ---
-title: ListIndent
+title: ListFormat.ListIndent
 second_title: Aspose.Words for .NET API Reference
 description: Increases the list level of the current paragraph by one level.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: IsGroup
+title: ShapeBase.IsGroup
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if this is a group shape.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: InsertTableOfContents
+title: DocumentBuilder.InsertTableOfContents
 second_title: Aspose.Words for .NET API Reference
 description: Inserts a TOC table of contents field into the document.
 type: docs

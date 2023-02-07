@@ -1,5 +1,5 @@
 ---
-title: UserAddress
+title: FieldUserAddress.UserAddress
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the current users postal address.
 type: docs

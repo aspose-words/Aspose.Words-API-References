@@ -1,5 +1,5 @@
 ---
-title: FieldDocProperty
+title: Class FieldDocProperty
 second_title: Aspose.Words for .NET API Reference
 description: Implements the DOCPROPERTY field.
 type: docs

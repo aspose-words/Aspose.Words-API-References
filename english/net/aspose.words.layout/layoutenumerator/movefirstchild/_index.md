@@ -1,5 +1,5 @@
 ---
-title: MoveFirstChild
+title: LayoutEnumerator.MoveFirstChild
 second_title: Aspose.Words for .NET API Reference
 description: Moves to the first child entity.
 type: docs

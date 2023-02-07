@@ -1,5 +1,5 @@
 ---
-title: BuildingBlockCollection
+title: Class BuildingBlockCollection
 second_title: Aspose.Words for .NET API Reference
 description: A collection of BuildingBlock objects in the document.
 type: docs

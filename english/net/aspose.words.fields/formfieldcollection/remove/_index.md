@@ -1,5 +1,5 @@
 ---
-title: Remove
+title: FormFieldCollection.Remove
 second_title: Aspose.Words for .NET API Reference
 description: Removes a form field with the specified name.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: IsMapped
+title: FieldMergeField.IsMapped
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether this field is a mapped field.
 type: docs

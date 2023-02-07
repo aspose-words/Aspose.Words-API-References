@@ -1,5 +1,5 @@
 ---
-title: BorderDistanceFrom
+title: PageSetup.BorderDistanceFrom
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value that indicates whether the specified page border is measured from the edge of the page or from the text it surrounds.
 type: docs

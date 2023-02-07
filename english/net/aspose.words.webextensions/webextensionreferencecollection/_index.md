@@ -1,5 +1,5 @@
 ---
-title: WebExtensionReferenceCollection
+title: Class WebExtensionReferenceCollection
 second_title: Aspose.Words for .NET API Reference
 description: Specifies a list of web extension references.
 type: docs

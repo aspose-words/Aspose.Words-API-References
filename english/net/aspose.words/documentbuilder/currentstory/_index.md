@@ -1,5 +1,5 @@
 ---
-title: CurrentStory
+title: DocumentBuilder.CurrentStory
 second_title: Aspose.Words for .NET API Reference
 description: Gets the story that is currently selected in this DocumentBuilder.
 type: docs

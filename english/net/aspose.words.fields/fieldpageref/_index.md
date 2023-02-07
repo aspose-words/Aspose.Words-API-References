@@ -1,5 +1,5 @@
 ---
-title: FieldPageRef
+title: Class FieldPageRef
 second_title: Aspose.Words for .NET API Reference
 description: Implements the PAGEREF field.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: UseYomi
+title: FieldIndex.UseYomi
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to enable the use of yomi text for index entries.
 type: docs

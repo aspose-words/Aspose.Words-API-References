@@ -1,5 +1,5 @@
 ---
-title: Remove
+title: KnownTypeSet.Remove
 second_title: Aspose.Words for .NET API Reference
 description: Removes the specified Type object from the set. Throws ArgumentException if type is null.
 type: docs

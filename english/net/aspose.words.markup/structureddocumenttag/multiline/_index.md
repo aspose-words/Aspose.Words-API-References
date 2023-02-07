@@ -1,5 +1,5 @@
 ---
-title: Multiline
+title: StructuredDocumentTag.Multiline
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether this SDT allows multiple lines of text.
 type: docs

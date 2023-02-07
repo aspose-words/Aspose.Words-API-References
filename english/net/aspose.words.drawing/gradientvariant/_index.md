@@ -1,5 +1,5 @@
 ---
-title: GradientVariant
+title: Enum GradientVariant
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the variant for a gradient fill.
 type: docs

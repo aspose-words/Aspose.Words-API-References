@@ -1,5 +1,5 @@
 ---
-title: DisplayResult
+title: Field.DisplayResult
 second_title: Aspose.Words for .NET API Reference
 description: Gets the text that represents the displayed field result.
 type: docs

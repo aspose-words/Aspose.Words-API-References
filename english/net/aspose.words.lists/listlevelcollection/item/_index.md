@@ -1,5 +1,5 @@
 ---
-title: Item
+title: ListLevelCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Gets a list level by index.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ComHelper
+title: Class ComHelper
 second_title: Aspose.Words for .NET API Reference
 description: Provides methods for COM clients to load a document into Aspose.Words.
 type: docs

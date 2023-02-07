@@ -1,5 +1,5 @@
 ---
-title: PrintBodyTextBeforeHeader
+title: CompatibilityOptions.PrintBodyTextBeforeHeader
 second_title: Aspose.Words for .NET API Reference
 description: Print Body Text before Header/Footer Contents.
 type: docs

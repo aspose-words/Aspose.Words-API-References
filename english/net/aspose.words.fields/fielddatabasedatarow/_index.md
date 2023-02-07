@@ -1,5 +1,5 @@
 ---
-title: FieldDatabaseDataRow
+title: Class FieldDatabaseDataRow
 second_title: Aspose.Words for .NET API Reference
 description: Provides data for the FieldDatabase field result.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ValidatePassword
+title: WriteProtection.ValidatePassword
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if the specified password is the same as the writeprotection password the document was protected with. If document is not writeprotected with password then returns false.
 type: docs

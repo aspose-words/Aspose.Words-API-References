@@ -1,5 +1,5 @@
 ---
-title: Style
+title: List.Style
 second_title: Aspose.Words for .NET API Reference
 description: Gets the list style that this list references or defines.
 type: docs

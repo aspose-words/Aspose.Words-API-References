@@ -1,5 +1,5 @@
 ---
-title: HasDataLabels
+title: ChartSeries.HasDataLabels
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a flag indicating whether data labels are displayed for the series.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: EnsureMinimum
+title: Section.EnsureMinimum
 second_title: Aspose.Words for .NET API Reference
 description: Ensures that the section has Body with one Paragraph.
 type: docs

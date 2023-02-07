@@ -1,5 +1,5 @@
 ---
-title: Margins
+title: Enum Margins
 second_title: Aspose.Words for .NET API Reference
 description: Specifies preset margins.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ComparisonOperator
+title: FieldSkipIf.ComparisonOperator
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the comparison operator.
 type: docs

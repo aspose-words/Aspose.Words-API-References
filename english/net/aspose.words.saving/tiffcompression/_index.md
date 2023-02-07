@@ -1,5 +1,5 @@
 ---
-title: TiffCompression
+title: Enum TiffCompression
 second_title: Aspose.Words for .NET API Reference
 description: Specifies what type of compression to apply when saving page images into a TIFF file.
 type: docs

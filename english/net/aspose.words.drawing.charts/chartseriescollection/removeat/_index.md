@@ -1,5 +1,5 @@
 ---
-title: RemoveAt
+title: ChartSeriesCollection.RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: Removes a ChartSeries at the specified index.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ArrowWidth
+title: Enum ArrowWidth
 second_title: Aspose.Words for .NET API Reference
 description: Width of the arrow at the end of a line.
 type: docs

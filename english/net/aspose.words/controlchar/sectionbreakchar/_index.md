@@ -1,5 +1,5 @@
 ---
-title: SectionBreakChar
+title: ControlChar.SectionBreakChar
 second_title: Aspose.Words for .NET API Reference
 description: End of section character char12 or f.
 type: docs

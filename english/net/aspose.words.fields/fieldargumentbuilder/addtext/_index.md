@@ -1,5 +1,5 @@
 ---
-title: AddText
+title: FieldArgumentBuilder.AddText
 second_title: Aspose.Words for .NET API Reference
 description: Adds a plain text to the argument.
 type: docs

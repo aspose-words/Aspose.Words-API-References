@@ -1,5 +1,5 @@
 ---
-title: GetEnumerator
+title: NodeList.GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: Provides a simple foreach style iteration over the collection of nodes.
 type: docs

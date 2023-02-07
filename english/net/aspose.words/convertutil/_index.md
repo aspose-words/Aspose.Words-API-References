@@ -1,5 +1,5 @@
 ---
-title: ConvertUtil
+title: Class ConvertUtil
 second_title: Aspose.Words for .NET API Reference
 description: Provides helper functions to convert between various measurement units.
 type: docs

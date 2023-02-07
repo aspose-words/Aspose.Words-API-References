@@ -1,5 +1,5 @@
 ---
-title: BarcodeParameters
+title: BarcodeParameters.BarcodeParameters
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

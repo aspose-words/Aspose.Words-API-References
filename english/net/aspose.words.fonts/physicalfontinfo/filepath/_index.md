@@ -1,5 +1,5 @@
 ---
-title: FilePath
+title: PhysicalFontInfo.FilePath
 second_title: Aspose.Words for .NET API Reference
 description: Path to the font file if any.
 type: docs

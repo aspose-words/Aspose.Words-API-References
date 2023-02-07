@@ -1,5 +1,5 @@
 ---
-title: FillType
+title: Enum FillType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies fill type for a fillable object.
 type: docs

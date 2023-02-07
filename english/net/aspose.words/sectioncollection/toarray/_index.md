@@ -1,5 +1,5 @@
 ---
-title: ToArray
+title: SectionCollection.ToArray
 second_title: Aspose.Words for .NET API Reference
 description: Copies all sections from the collection to a new array of sections.
 type: docs

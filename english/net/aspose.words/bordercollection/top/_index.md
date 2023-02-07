@@ -1,5 +1,5 @@
 ---
-title: Top
+title: BorderCollection.Top
 second_title: Aspose.Words for .NET API Reference
 description: Gets the top border.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: VisitFieldEnd
+title: DocumentVisitor.VisitFieldEnd
 second_title: Aspose.Words for .NET API Reference
 description: Called when a field ends in the document.
 type: docs

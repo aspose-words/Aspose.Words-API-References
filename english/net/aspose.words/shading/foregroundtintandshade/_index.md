@@ -1,5 +1,5 @@
 ---
-title: ForegroundTintAndShade
+title: Shading.ForegroundTintAndShade
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a double value that lightens or darkens a foreground theme color.
 type: docs

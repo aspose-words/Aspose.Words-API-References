@@ -1,5 +1,5 @@
 ---
-title: PrinterSettingsContainer
+title: PrinterSettingsContainer.PrinterSettingsContainer
 second_title: Aspose.Words for .NET API Reference
 description: Creates a container for PrinterSettings.
 type: docs

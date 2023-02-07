@@ -1,5 +1,5 @@
 ---
-title: CurrentUser
+title: FieldOptions.CurrentUser
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the current user information.
 type: docs

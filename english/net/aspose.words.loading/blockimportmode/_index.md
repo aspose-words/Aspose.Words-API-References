@@ -1,5 +1,5 @@
 ---
-title: BlockImportMode
+title: Enum BlockImportMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how properties of blocklevel elements are imported from HTMLbased documents.
 type: docs

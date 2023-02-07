@@ -1,5 +1,5 @@
 ---
-title: ExportFontResources
+title: HtmlSaveOptions.ExportFontResources
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether font resources should be exported to HTML MHTML or EPUB. Default is false.
 type: docs

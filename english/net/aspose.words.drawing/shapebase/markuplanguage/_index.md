@@ -1,5 +1,5 @@
 ---
-title: MarkupLanguage
+title: ShapeBase.MarkupLanguage
 second_title: Aspose.Words for .NET API Reference
 description: Gets MarkupLanguage used for this graphic object.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ClearFormatting
+title: ConditionalStyleCollection.ClearFormatting
 second_title: Aspose.Words for .NET API Reference
 description: Clears all conditional styles of the table style.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: AdvanceOffset
+title: Glyph.AdvanceOffset
 second_title: Aspose.Words for .NET API Reference
 description: Horizontal x offset relative to glyph position. Mostly used to attach marks like diacritics to base characters.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ChartLegend
+title: Class ChartLegend
 second_title: Aspose.Words for .NET API Reference
 description: Represents chart legend properties.
 type: docs

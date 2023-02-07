@@ -1,5 +1,5 @@
 ---
-title: IsLinkToContent
+title: DocumentProperty.IsLinkToContent
 second_title: Aspose.Words for .NET API Reference
 description: Shows whether this property is linked to content or not.
 type: docs

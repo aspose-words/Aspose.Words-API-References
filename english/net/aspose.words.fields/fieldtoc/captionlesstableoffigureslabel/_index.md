@@ -1,5 +1,5 @@
 ---
-title: CaptionlessTableOfFiguresLabel
+title: FieldToc.CaptionlessTableOfFiguresLabel
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the name of the sequence identifier used when building a table of figures that does not include captions label and number.
 type: docs

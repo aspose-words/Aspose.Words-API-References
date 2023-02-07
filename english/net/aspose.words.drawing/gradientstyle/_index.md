@@ -1,5 +1,5 @@
 ---
-title: GradientStyle
+title: Enum GradientStyle
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the style for a gradient fill.
 type: docs

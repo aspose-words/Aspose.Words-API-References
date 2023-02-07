@@ -1,5 +1,5 @@
 ---
-title: TableCollection
+title: Class TableCollection
 second_title: Aspose.Words for .NET API Reference
 description: Provides typed access to a collection of Table nodes.
 type: docs

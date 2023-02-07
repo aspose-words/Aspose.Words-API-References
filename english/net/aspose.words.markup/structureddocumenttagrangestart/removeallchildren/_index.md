@@ -1,5 +1,5 @@
 ---
-title: RemoveAllChildren
+title: StructuredDocumentTagRangeStart.RemoveAllChildren
 second_title: Aspose.Words for .NET API Reference
 description: Removes all the nodes between this range start node and the range end node.
 type: docs

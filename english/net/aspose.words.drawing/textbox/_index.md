@@ -1,5 +1,5 @@
 ---
-title: TextBox
+title: Class TextBox
 second_title: Aspose.Words for .NET API Reference
 description: Defines attributes that specify how a text is displayed inside a shape.
 type: docs

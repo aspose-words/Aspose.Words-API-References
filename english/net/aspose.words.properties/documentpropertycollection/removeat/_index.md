@@ -1,5 +1,5 @@
 ---
-title: RemoveAt
+title: DocumentPropertyCollection.RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: Removes a property at the specified index.
 type: docs

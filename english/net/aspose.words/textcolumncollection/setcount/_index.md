@@ -1,5 +1,5 @@
 ---
-title: SetCount
+title: TextColumnCollection.SetCount
 second_title: Aspose.Words for .NET API Reference
 description: Arranges text into the specified number of text columns.
 type: docs

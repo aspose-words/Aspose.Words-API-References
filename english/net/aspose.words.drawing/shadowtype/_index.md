@@ -1,5 +1,5 @@
 ---
-title: ShadowType
+title: Enum ShadowType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of a shape shadow.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Table
+title: Class Table
 second_title: Aspose.Words for .NET API Reference
 description: Represents a table in a Word document.
 type: docs

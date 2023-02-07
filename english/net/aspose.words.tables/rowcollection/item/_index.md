@@ -1,5 +1,5 @@
 ---
-title: Item
+title: RowCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Retrieves a Row at the given index.
 type: docs

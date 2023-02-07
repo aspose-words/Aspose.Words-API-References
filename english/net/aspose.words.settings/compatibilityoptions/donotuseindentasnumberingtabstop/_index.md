@@ -1,5 +1,5 @@
 ---
-title: DoNotUseIndentAsNumberingTabStop
+title: CompatibilityOptions.DoNotUseIndentAsNumberingTabStop
 second_title: Aspose.Words for .NET API Reference
 description: Ignore Hanging Indent When Creating Tab Stop After Numbering.
 type: docs

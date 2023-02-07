@@ -1,5 +1,5 @@
 ---
-title: WrapText
+title: CellFormat.WrapText
 second_title: Aspose.Words for .NET API Reference
 description: If true wrap text for the cell.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: VbaProject
+title: VbaProject.VbaProject
 second_title: Aspose.Words for .NET API Reference
 description: Creates a blank VbaProject.
 type: docs

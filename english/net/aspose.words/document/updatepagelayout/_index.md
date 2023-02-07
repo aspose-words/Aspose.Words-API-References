@@ -1,5 +1,5 @@
 ---
-title: UpdatePageLayout
+title: Document.UpdatePageLayout
 second_title: Aspose.Words for .NET API Reference
 description: Rebuilds the page layout of the document.
 type: docs

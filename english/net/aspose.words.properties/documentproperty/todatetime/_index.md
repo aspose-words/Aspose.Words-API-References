@@ -1,5 +1,5 @@
 ---
-title: ToDateTime
+title: DocumentProperty.ToDateTime
 second_title: Aspose.Words for .NET API Reference
 description: Returns the property value as DateTime in UTC.
 type: docs

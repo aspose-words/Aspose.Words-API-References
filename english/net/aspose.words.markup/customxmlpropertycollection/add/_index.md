@@ -1,5 +1,5 @@
 ---
-title: Add
+title: CustomXmlPropertyCollection.Add
 second_title: Aspose.Words for .NET API Reference
 description: Adds a property to the collection.
 type: docs

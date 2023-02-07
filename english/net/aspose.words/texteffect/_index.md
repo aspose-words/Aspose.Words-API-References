@@ -1,5 +1,5 @@
 ---
-title: TextEffect
+title: Enum TextEffect
 second_title: Aspose.Words for .NET API Reference
 description: Animation effect for text runs.
 type: docs

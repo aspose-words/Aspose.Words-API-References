@@ -1,5 +1,5 @@
 ---
-title: AutoFit
+title: Table.AutoFit
 second_title: Aspose.Words for .NET API Reference
 description: Resizes the table and cells according to the specified auto fit behavior.
 type: docs

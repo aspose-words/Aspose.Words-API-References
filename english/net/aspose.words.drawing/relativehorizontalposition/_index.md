@@ -1,5 +1,5 @@
 ---
-title: RelativeHorizontalPosition
+title: Enum RelativeHorizontalPosition
 second_title: Aspose.Words for .NET API Reference
 description: Specifies to what the horizontal position of a shape or text frame is relative.
 type: docs

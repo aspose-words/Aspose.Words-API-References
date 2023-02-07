@@ -1,5 +1,5 @@
 ---
-title: SetData
+title: ResourceLoadingArgs.SetData
 second_title: Aspose.Words for .NET API Reference
 description: Sets user provided data of the resource which is used if ResourceLoading returns UserProvided.
 type: docs

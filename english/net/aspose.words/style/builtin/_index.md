@@ -1,5 +1,5 @@
 ---
-title: BuiltIn
+title: Style.BuiltIn
 second_title: Aspose.Words for .NET API Reference
 description: True if this style is one of the builtin styles in MS Word.
 type: docs

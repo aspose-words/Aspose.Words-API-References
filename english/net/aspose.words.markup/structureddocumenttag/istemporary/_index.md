@@ -1,5 +1,5 @@
 ---
-title: IsTemporary
+title: StructuredDocumentTag.IsTemporary
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether this SDT shall be removed from the WordProcessingML document when its contents are modified.
 type: docs

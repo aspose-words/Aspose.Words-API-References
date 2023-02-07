@@ -1,5 +1,5 @@
 ---
-title: NumberFormat
+title: ChartDataLabelCollection.NumberFormat
 second_title: Aspose.Words for .NET API Reference
 description: Gets an ChartNumberFormat instance allowing to set number format for the data labels of the entire series.
 type: docs

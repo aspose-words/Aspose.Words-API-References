@@ -1,5 +1,5 @@
 ---
-title: FieldIndexFormat
+title: Enum FieldIndexFormat
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the formatting for the FieldIndex fields in a document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: TextConverter
+title: FieldIncludeText.TextConverter
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the name of the text converter for the format of the included file.
 type: docs

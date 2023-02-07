@@ -1,5 +1,5 @@
 ---
-title: IsImageAvailable
+title: ImageSavingArgs.IsImageAvailable
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if the current image is available for export.
 type: docs

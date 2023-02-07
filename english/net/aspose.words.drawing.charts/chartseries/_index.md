@@ -1,5 +1,5 @@
 ---
-title: ChartSeries
+title: Class ChartSeries
 second_title: Aspose.Words for .NET API Reference
 description: Represents chart series properties.
 type: docs

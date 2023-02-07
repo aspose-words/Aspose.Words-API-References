@@ -1,5 +1,5 @@
 ---
-title: FormatLanguageId
+title: FieldBibliography.FormatLanguageId
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the language ID that is used to format the bibliographic sources in the document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Add
+title: SdtListItemCollection.Add
 second_title: Aspose.Words for .NET API Reference
 description: Adds an item to this collection.
 type: docs

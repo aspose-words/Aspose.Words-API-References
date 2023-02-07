@@ -1,5 +1,5 @@
 ---
-title: Horizontal
+title: BorderCollection.Horizontal
 second_title: Aspose.Words for .NET API Reference
 description: Gets the horizontal border that is used between cells or conforming paragraphs.
 type: docs

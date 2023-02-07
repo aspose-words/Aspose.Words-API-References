@@ -1,5 +1,5 @@
 ---
-title: IsValid
+title: SignatureLine.IsValid
 second_title: Aspose.Words for .NET API Reference
 description: Indicates that signature line is signed by digital signature and this digital signature is valid.
 type: docs

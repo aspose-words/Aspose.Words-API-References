@@ -1,5 +1,5 @@
 ---
-title: ToArray
+title: NodeList.ToArray
 second_title: Aspose.Words for .NET API Reference
 description: Copies all nodes from the collection to a new array of nodes.
 type: docs

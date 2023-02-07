@@ -1,5 +1,5 @@
 ---
-title: Item
+title: ChartDataPointCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Returns ChartDataPoint for the specified index.
 type: docs

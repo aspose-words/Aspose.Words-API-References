@@ -1,5 +1,5 @@
 ---
-title: GetOleEntry
+title: OleFormat.GetOleEntry
 second_title: Aspose.Words for .NET API Reference
 description: Gets OLE object data entry.
 type: docs

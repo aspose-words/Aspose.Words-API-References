@@ -1,5 +1,5 @@
 ---
-title: SystemFontSource
+title: Class SystemFontSource
 second_title: Aspose.Words for .NET API Reference
 description: Represents all TrueType fonts installed to the system.
 type: docs

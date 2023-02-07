@@ -1,5 +1,5 @@
 ---
-title: StyleIdentifier
+title: Table.StyleIdentifier
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the locale independent style identifier of the table style applied to this table.
 type: docs

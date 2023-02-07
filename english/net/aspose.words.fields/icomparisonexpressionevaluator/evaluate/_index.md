@@ -1,5 +1,5 @@
 ---
-title: Evaluate
+title: IComparisonExpressionEvaluator.Evaluate
 second_title: Aspose.Words for .NET API Reference
 description: Evaluates comparison expression.
 type: docs

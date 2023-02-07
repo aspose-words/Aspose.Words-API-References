@@ -1,5 +1,5 @@
 ---
-title: GetHashCode
+title: ReportingEngine.GetHashCode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Type
+title: AxisScaling.Type
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets scaling type of the axis.
 type: docs

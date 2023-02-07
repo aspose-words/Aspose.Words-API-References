@@ -1,5 +1,5 @@
 ---
-title: ResourceLoadingArgs
+title: Class ResourceLoadingArgs
 second_title: Aspose.Words for .NET API Reference
 description: Provides data for the ResourceLoading method.
 type: docs

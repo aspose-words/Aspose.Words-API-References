@@ -1,5 +1,5 @@
 ---
-title: RightExpression
+title: FieldNextIf.RightExpression
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the right part of the comparison expression.
 type: docs

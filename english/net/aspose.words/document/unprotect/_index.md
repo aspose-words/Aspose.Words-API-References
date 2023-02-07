@@ -1,5 +1,5 @@
 ---
-title: Unprotect
+title: Document.Unprotect
 second_title: Aspose.Words for .NET API Reference
 description: Removes protection from the document regardless of the password.
 type: docs

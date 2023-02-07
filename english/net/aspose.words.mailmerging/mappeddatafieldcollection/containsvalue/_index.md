@@ -1,5 +1,5 @@
 ---
-title: ContainsValue
+title: MappedDataFieldCollection.ContainsValue
 second_title: Aspose.Words for .NET API Reference
 description: Determines whether a mapping from the specified field in the data source exists in the collection.
 type: docs

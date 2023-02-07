@@ -1,5 +1,5 @@
 ---
-title: FillColor
+title: Shape.FillColor
 second_title: Aspose.Words for .NET API Reference
 description: Defines the brush color that fills the closed path of the shape.
 type: docs

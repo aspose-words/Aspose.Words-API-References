@@ -1,5 +1,5 @@
 ---
-title: GraphicFilter
+title: FieldIncludePicture.GraphicFilter
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the name of the filter for the format of the graphic that is to be inserted.
 type: docs

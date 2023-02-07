@@ -1,5 +1,5 @@
 ---
-title: ImportFormatOptions
+title: Class ImportFormatOptions
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify various import options to format output.
 type: docs

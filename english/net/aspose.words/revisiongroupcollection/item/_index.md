@@ -1,5 +1,5 @@
 ---
-title: Item
+title: RevisionGroupCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Returns a revision group at the specified index.
 type: docs

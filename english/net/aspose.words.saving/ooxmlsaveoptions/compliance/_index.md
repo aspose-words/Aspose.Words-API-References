@@ -1,5 +1,5 @@
 ---
-title: Compliance
+title: OoxmlSaveOptions.Compliance
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the OOXML version for the output document. The default value is Ecma376_2006.
 type: docs

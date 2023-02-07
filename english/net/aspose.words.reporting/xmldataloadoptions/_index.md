@@ -1,5 +1,5 @@
 ---
-title: XmlDataLoadOptions
+title: Class XmlDataLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: Represents options for XML data loading.
 type: docs

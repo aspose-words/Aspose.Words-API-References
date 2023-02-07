@@ -1,5 +1,5 @@
 ---
-title: ViewType
+title: ViewOptions.ViewType
 second_title: Aspose.Words for .NET API Reference
 description: Controls the view mode in Microsoft Word.
 type: docs

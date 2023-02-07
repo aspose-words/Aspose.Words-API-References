@@ -1,5 +1,5 @@
 ---
-title: ResourceSavingArgs
+title: Class ResourceSavingArgs
 second_title: Aspose.Words for .NET API Reference
 description: Provides data for the ResourceSaving event.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: TextOrientation
+title: Enum TextOrientation
 second_title: Aspose.Words for .NET API Reference
 description: Specifies orientation of text on a page in a table cell or a text frame.
 type: docs

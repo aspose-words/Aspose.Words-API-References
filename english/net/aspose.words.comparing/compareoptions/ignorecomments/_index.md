@@ -1,5 +1,5 @@
 ---
-title: IgnoreComments
+title: CompareOptions.IgnoreComments
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether to compare differences in comments. By default comments are not ignored.
 type: docs

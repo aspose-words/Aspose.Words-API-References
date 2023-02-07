@@ -1,5 +1,5 @@
 ---
-title: FirstRow
+title: Table.FirstRow
 second_title: Aspose.Words for .NET API Reference
 description: Returns the first Row node in the table.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Item
+title: CellCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Retrieves a Cell at the given index.
 type: docs

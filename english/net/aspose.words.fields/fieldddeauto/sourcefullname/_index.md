@@ -1,5 +1,5 @@
 ---
-title: SourceFullName
+title: FieldDdeAuto.SourceFullName
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the name and location of the source file.
 type: docs

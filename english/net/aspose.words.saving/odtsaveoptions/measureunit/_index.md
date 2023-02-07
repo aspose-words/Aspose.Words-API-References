@@ -1,5 +1,5 @@
 ---
-title: MeasureUnit
+title: OdtSaveOptions.MeasureUnit
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify units of measure to apply to document content. The default value is Centimeters
 type: docs

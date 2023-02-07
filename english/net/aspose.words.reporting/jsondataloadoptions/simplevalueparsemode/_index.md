@@ -1,5 +1,5 @@
 ---
-title: SimpleValueParseMode
+title: JsonDataLoadOptions.SimpleValueParseMode
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a mode for parsing JSON simple values null boolean number integer and string while loading JSON. Such a mode does not affect parsing of datetime values. The default is Loose.
 type: docs

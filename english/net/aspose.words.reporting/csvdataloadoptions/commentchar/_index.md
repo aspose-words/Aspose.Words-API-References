@@ -1,5 +1,5 @@
 ---
-title: CommentChar
+title: CsvDataLoadOptions.CommentChar
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the character that is used to comment lines of CSV data.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: AppendDocument
+title: Document.AppendDocument
 second_title: Aspose.Words for .NET API Reference
 description: Appends the specified document to the end of this document.
 type: docs

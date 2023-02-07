@@ -1,5 +1,5 @@
 ---
-title: AllowBreakAcrossPages
+title: RowFormat.AllowBreakAcrossPages
 second_title: Aspose.Words for .NET API Reference
 description: True if the text in a table row is allowed to split across a page break.
 type: docs

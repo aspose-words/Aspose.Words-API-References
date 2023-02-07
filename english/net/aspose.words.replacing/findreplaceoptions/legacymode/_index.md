@@ -1,5 +1,5 @@
 ---
-title: LegacyMode
+title: FindReplaceOptions.LegacyMode
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a boolean value indicating that old find/replace algorithm is used.
 type: docs

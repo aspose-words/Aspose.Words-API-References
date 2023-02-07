@@ -1,5 +1,5 @@
 ---
-title: LineStyle
+title: Stroke.LineStyle
 second_title: Aspose.Words for .NET API Reference
 description: Defines the line style of the stroke.
 type: docs

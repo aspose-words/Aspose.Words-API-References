@@ -1,5 +1,5 @@
 ---
-title: IsLinked
+title: FieldImport.IsLinked
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to reduce the file size by not storing graphics data with the document.
 type: docs

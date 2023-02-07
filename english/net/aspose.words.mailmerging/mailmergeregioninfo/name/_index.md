@@ -1,5 +1,5 @@
 ---
-title: Name
+title: MailMergeRegionInfo.Name
 second_title: Aspose.Words for .NET API Reference
 description: Returns the name of region.
 type: docs

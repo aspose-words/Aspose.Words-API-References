@@ -1,5 +1,5 @@
 ---
-title: FieldTC
+title: Class FieldTC
 second_title: Aspose.Words for .NET API Reference
 description: Implements the TC field.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FieldStart
+title: Class FieldStart
 second_title: Aspose.Words for .NET API Reference
 description: Represents a start of a Word field in a document.
 type: docs

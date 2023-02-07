@@ -1,5 +1,5 @@
 ---
-title: PrinterSettingsContainer
+title: Class PrinterSettingsContainer
 second_title: Aspose.Words for .NET API Reference
 description: Represent a storage for some parameters of PrinterSettings object.
 type: docs

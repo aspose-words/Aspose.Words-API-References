@@ -1,5 +1,5 @@
 ---
-title: LastRow
+title: Table.LastRow
 second_title: Aspose.Words for .NET API Reference
 description: Returns the last Row node in the table.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FieldFormula
+title: Class FieldFormula
 second_title: Aspose.Words for .NET API Reference
 description: Implements the  formula field.
 type: docs

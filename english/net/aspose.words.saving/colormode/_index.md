@@ -1,5 +1,5 @@
 ---
-title: ColorMode
+title: Enum ColorMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how colors are rendered.
 type: docs

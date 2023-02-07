@@ -1,5 +1,5 @@
 ---
-title: GetConsumptionCredit
+title: Metered.GetConsumptionCredit
 second_title: Aspose.Words for .NET API Reference
 description: Gets consumption credit
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ContentType
+title: CustomPart.ContentType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the content type of this custom part.
 type: docs

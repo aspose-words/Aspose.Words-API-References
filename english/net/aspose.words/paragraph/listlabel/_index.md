@@ -1,5 +1,5 @@
 ---
-title: ListLabel
+title: Paragraph.ListLabel
 second_title: Aspose.Words for .NET API Reference
 description: Gets a ListLabel object that provides access to list numbering value and formatting for this paragraph.
 type: docs

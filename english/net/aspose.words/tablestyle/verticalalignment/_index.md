@@ -1,5 +1,5 @@
 ---
-title: VerticalAlignment
+title: TableStyle.VerticalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the vertical alignment for the cells.
 type: docs

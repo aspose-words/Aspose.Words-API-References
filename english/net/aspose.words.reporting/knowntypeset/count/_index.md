@@ -1,5 +1,5 @@
 ---
-title: Count
+title: KnownTypeSet.Count
 second_title: Aspose.Words for .NET API Reference
 description: Gets the count of items in the set.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Encoding
+title: HtmlFixedSaveOptions.Encoding
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the encoding to use when exporting to HTML. Default value is new UTF8Encodingtrue UTF8 with BOM.
 type: docs

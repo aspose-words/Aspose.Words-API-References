@@ -1,5 +1,5 @@
 ---
-title: HeightRule
+title: FrameFormat.HeightRule
 second_title: Aspose.Words for .NET API Reference
 description: Gets the rule for determining the height of the specified frame.
 type: docs

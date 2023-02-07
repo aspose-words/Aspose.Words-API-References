@@ -1,5 +1,5 @@
 ---
-title: JustificationMode
+title: Document.JustificationMode
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the character spacing adjustment of a document.
 type: docs

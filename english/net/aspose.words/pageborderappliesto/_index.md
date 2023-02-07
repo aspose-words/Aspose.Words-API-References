@@ -1,5 +1,5 @@
 ---
-title: PageBorderAppliesTo
+title: Enum PageBorderAppliesTo
 second_title: Aspose.Words for .NET API Reference
 description: Specifies which pages the page border is printed on.
 type: docs

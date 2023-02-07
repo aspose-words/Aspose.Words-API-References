@@ -1,5 +1,5 @@
 ---
-title: FieldBuilder
+title: Class FieldBuilder
 second_title: Aspose.Words for .NET API Reference
 description: Builds a field from field code tokens arguments and switches.
 type: docs

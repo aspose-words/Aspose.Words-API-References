@@ -1,5 +1,5 @@
 ---
-title: Family
+title: FontInfo.Family
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the font family this font belongs to.
 type: docs

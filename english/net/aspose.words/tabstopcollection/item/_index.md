@@ -1,5 +1,5 @@
 ---
-title: Item
+title: TabStopCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Gets a tab stop at the given index.
 type: docs

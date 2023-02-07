@@ -1,5 +1,5 @@
 ---
-title: FieldDde
+title: Class FieldDde
 second_title: Aspose.Words for .NET API Reference
 description: Implements the DDE field.
 type: docs

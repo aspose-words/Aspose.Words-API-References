@@ -1,5 +1,5 @@
 ---
-title: Comment
+title: Comment.Comment
 second_title: Aspose.Words for .NET API Reference
 description: Initializes a new instance of the Comment class.
 type: docs

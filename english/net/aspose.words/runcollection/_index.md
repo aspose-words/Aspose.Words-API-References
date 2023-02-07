@@ -1,5 +1,5 @@
 ---
-title: RunCollection
+title: Class RunCollection
 second_title: Aspose.Words for .NET API Reference
 description: Provides typed access to a collection of Run nodes.
 type: docs

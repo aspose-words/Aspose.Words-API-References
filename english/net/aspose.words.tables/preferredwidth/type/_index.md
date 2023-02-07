@@ -1,5 +1,5 @@
 ---
-title: Type
+title: PreferredWidth.Type
 second_title: Aspose.Words for .NET API Reference
 description: Gets the unit of measure used for this preferred width value.
 type: docs

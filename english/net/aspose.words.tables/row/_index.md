@@ -1,5 +1,5 @@
 ---
-title: Row
+title: Class Row
 second_title: Aspose.Words for .NET API Reference
 description: Represents a table row.
 type: docs

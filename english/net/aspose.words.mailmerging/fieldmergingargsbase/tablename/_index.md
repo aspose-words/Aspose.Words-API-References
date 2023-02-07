@@ -1,5 +1,5 @@
 ---
-title: TableName
+title: FieldMergingArgsBase.TableName
 second_title: Aspose.Words for .NET API Reference
 description: Gets the name of the data table for the current merge operation or empty string if the name is not available.
 type: docs

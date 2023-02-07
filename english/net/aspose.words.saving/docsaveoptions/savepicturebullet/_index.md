@@ -1,5 +1,5 @@
 ---
-title: SavePictureBullet
+title: DocSaveOptions.SavePictureBullet
 second_title: Aspose.Words for .NET API Reference
 description: When false PictureBullet data is not saved to output document. Default value is true.
 type: docs

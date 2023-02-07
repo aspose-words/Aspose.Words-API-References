@@ -1,5 +1,5 @@
 ---
-title: IgnoreDeleted
+title: FindReplaceOptions.IgnoreDeleted
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a boolean value indicating either to ignore text inside delete revisions. The default value is false.
 type: docs

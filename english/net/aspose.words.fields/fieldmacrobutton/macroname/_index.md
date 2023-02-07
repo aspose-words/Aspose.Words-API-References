@@ -1,5 +1,5 @@
 ---
-title: MacroName
+title: FieldMacroButton.MacroName
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the name of the macro or command to run.
 type: docs

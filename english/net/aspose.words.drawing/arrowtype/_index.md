@@ -1,5 +1,5 @@
 ---
-title: ArrowType
+title: Enum ArrowType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of an arrow at a line end.
 type: docs

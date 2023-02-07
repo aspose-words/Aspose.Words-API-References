@@ -1,5 +1,5 @@
 ---
-title: Styles
+title: DocumentBase.Styles
 second_title: Aspose.Words for .NET API Reference
 description: Returns a collection of styles defined in the document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: HorizontalAnchor
+title: Table.HorizontalAnchor
 second_title: Aspose.Words for .NET API Reference
 description: Gets the base object from which the horizontal positioning of floating table should be calculated. Default value is Column.
 type: docs

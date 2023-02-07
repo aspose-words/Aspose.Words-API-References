@@ -1,5 +1,5 @@
 ---
-title: FormatCode
+title: ChartNumberFormat.FormatCode
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the format code applied to a data label.
 type: docs

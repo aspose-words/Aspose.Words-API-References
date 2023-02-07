@@ -1,5 +1,5 @@
 ---
-title: LastParagraph
+title: Shape.LastParagraph
 second_title: Aspose.Words for .NET API Reference
 description: Gets the last paragraph in the shape.
 type: docs

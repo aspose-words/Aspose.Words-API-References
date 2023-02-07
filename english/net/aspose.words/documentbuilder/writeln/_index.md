@@ -1,5 +1,5 @@
 ---
-title: Writeln
+title: DocumentBuilder.Writeln
 second_title: Aspose.Words for .NET API Reference
 description: Inserts a string and a paragraph break into the document.
 type: docs

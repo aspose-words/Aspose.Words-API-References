@@ -1,5 +1,5 @@
 ---
-title: IsInKilobytes
+title: FieldFileSize.IsInKilobytes
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to display the file size in kilobytes.
 type: docs

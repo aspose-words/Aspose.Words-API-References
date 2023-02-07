@@ -1,5 +1,5 @@
 ---
-title: Item
+title: ListCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Gets a list by index.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Template
+title: BuiltInDocumentProperties.Template
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the informational name of the document template.
 type: docs

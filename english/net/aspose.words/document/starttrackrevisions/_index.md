@@ -1,5 +1,5 @@
 ---
-title: StartTrackRevisions
+title: Document.StartTrackRevisions
 second_title: Aspose.Words for .NET API Reference
 description: Starts automatically marking all further changes you make to the document programmatically as revision changes.
 type: docs

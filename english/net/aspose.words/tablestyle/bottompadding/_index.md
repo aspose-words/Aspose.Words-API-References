@@ -1,5 +1,5 @@
 ---
-title: BottomPadding
+title: TableStyle.BottomPadding
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the amount of space in points to add below the contents of table cells.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: SnapToGrid
+title: ParagraphFormat.SnapToGrid
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether the current paragraph should use the document grid lines per page settings when laying out the contents in the paragraph.
 type: docs

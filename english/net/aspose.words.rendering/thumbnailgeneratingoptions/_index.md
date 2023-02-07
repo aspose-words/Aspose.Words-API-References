@@ -1,5 +1,5 @@
 ---
-title: ThumbnailGeneratingOptions
+title: Class ThumbnailGeneratingOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when generating thumbnail for a document.
 type: docs

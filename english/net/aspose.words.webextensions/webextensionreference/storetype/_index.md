@@ -1,5 +1,5 @@
 ---
-title: StoreType
+title: WebExtensionReference.StoreType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of marketplace.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: IFieldDatabaseProvider
+title: Interface IFieldDatabaseProvider
 second_title: Aspose.Words for .NET API Reference
 description: Implement this interface to provide data for the FieldDatabase field when its updated.
 type: docs

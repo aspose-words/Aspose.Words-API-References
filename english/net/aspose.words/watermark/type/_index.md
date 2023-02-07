@@ -1,5 +1,5 @@
 ---
-title: Type
+title: Watermark.Type
 second_title: Aspose.Words for .NET API Reference
 description: Gets the watermark type.
 type: docs

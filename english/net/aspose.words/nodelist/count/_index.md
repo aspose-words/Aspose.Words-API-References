@@ -1,5 +1,5 @@
 ---
-title: Count
+title: NodeList.Count
 second_title: Aspose.Words for .NET API Reference
 description: Gets the number of nodes in the list.
 type: docs

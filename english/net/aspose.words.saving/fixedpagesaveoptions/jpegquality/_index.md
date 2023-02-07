@@ -1,5 +1,5 @@
 ---
-title: JpegQuality
+title: FixedPageSaveOptions.JpegQuality
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value determining the quality of the JPEG images inside Html document.
 type: docs

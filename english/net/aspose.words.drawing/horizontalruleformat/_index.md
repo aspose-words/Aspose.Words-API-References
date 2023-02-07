@@ -1,5 +1,5 @@
 ---
-title: HorizontalRuleFormat
+title: Class HorizontalRuleFormat
 second_title: Aspose.Words for .NET API Reference
 description: Represents horizontal rule formatting.
 type: docs

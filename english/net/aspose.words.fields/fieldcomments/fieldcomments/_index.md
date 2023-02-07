@@ -1,5 +1,5 @@
 ---
-title: FieldComments
+title: FieldComments.FieldComments
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

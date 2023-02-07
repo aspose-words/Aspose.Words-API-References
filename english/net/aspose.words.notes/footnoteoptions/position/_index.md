@@ -1,5 +1,5 @@
 ---
-title: Position
+title: FootnoteOptions.Position
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the footnotes position.
 type: docs

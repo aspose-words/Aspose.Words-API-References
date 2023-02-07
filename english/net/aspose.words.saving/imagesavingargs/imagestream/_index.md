@@ -1,5 +1,5 @@
 ---
-title: ImageStream
+title: ImageSavingArgs.ImageStream
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify the stream where the image will be saved to.
 type: docs

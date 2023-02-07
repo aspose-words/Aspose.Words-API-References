@@ -1,5 +1,5 @@
 ---
-title: Equals
+title: PreferredWidth.Equals
 second_title: Aspose.Words for .NET API Reference
 description: Determines whether the specified PreferredWidth is equal in value to the current PreferredWidth.
 type: docs

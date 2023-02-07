@@ -1,5 +1,5 @@
 ---
-title: DocumentBuilder
+title: DocumentBuilder.DocumentBuilder
 second_title: Aspose.Words for .NET API Reference
 description: Initializes a new instance of this class.
 type: docs

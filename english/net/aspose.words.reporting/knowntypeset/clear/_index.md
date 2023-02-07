@@ -1,5 +1,5 @@
 ---
-title: Clear
+title: KnownTypeSet.Clear
 second_title: Aspose.Words for .NET API Reference
 description: Removes all items from the set.
 type: docs

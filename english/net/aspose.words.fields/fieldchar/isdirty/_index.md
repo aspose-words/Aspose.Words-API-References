@@ -1,5 +1,5 @@
 ---
-title: IsDirty
+title: FieldChar.IsDirty
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether the current result of the field is no longer correct stale due to other modifications made to the document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ClearFormatting
+title: Border.ClearFormatting
 second_title: Aspose.Words for .NET API Reference
 description: Resets border properties to default values.
 type: docs

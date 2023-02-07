@@ -1,5 +1,5 @@
 ---
-title: ContentType
+title: BuiltInDocumentProperties.ContentType
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the ContentType of the document.
 type: docs

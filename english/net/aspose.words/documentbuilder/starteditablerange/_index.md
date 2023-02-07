@@ -1,5 +1,5 @@
 ---
-title: StartEditableRange
+title: DocumentBuilder.StartEditableRange
 second_title: Aspose.Words for .NET API Reference
 description: Marks the current position in the document as an editable range start.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: AxisTickMark
+title: Enum AxisTickMark
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the possible positions for tick marks.
 type: docs

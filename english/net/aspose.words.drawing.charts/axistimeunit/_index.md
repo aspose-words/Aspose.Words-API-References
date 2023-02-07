@@ -1,5 +1,5 @@
 ---
-title: AxisTimeUnit
+title: Enum AxisTimeUnit
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the unit of time for axes.
 type: docs

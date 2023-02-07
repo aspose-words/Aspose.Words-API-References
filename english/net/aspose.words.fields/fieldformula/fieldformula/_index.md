@@ -1,5 +1,5 @@
 ---
-title: FieldFormula
+title: FieldFormula.FieldFormula
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: AddEditingLanguage
+title: LanguagePreferences.AddEditingLanguage
 second_title: Aspose.Words for .NET API Reference
 description: Adds additional editing language.
 type: docs

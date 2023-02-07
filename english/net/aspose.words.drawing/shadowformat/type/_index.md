@@ -1,5 +1,5 @@
 ---
-title: Type
+title: ShadowFormat.Type
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the specified ShadowType for ShadowFormat.
 type: docs

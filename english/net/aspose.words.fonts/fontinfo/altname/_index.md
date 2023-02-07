@@ -1,5 +1,5 @@
 ---
-title: AltName
+title: FontInfo.AltName
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the alternate name for the font.
 type: docs

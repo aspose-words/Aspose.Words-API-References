@@ -1,5 +1,5 @@
 ---
-title: SuppressNonDelimiters
+title: FieldStyleRef.SuppressNonDelimiters
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to suppress nondelimiter characters.
 type: docs

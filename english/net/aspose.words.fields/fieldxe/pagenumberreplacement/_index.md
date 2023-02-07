@@ -1,5 +1,5 @@
 ---
-title: PageNumberReplacement
+title: FieldXE.PageNumberReplacement
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets text used in place of a page number.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: TextPathAlignment
+title: TextPath.TextPathAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Defines the alignment of text.
 type: docs

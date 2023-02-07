@@ -1,5 +1,5 @@
 ---
-title: FirstParagraph
+title: Shape.FirstParagraph
 second_title: Aspose.Words for .NET API Reference
 description: Gets the first paragraph in the shape.
 type: docs

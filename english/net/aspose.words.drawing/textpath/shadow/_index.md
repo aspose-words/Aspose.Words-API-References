@@ -1,5 +1,5 @@
 ---
-title: Shadow
+title: TextPath.Shadow
 second_title: Aspose.Words for .NET API Reference
 description: Defines whether a shadow is applied to the text on a text path.
 type: docs

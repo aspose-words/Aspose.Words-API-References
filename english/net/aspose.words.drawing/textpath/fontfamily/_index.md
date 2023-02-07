@@ -1,5 +1,5 @@
 ---
-title: FontFamily
+title: TextPath.FontFamily
 second_title: Aspose.Words for .NET API Reference
 description: Defines the family of the textpath font.
 type: docs

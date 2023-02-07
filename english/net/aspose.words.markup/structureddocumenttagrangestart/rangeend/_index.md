@@ -1,5 +1,5 @@
 ---
-title: RangeEnd
+title: StructuredDocumentTagRangeStart.RangeEnd
 second_title: Aspose.Words for .NET API Reference
 description: Specifies end of range if the StructuredDocumentTag is a ranged structured document tag. Otherwise returns null.
 type: docs

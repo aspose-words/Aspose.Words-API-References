@@ -1,5 +1,5 @@
 ---
-title: ShowCategoryName
+title: ChartDataLabelCollection.ShowCategoryName
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify whether category name is to be displayed for the data labels of the entire series. Default value is false.
 type: docs

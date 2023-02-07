@@ -1,5 +1,5 @@
 ---
-title: CreatePictureBullet
+title: ListLevel.CreatePictureBullet
 second_title: Aspose.Words for .NET API Reference
 description: Creates picture bullet shape for the current list level.
 type: docs

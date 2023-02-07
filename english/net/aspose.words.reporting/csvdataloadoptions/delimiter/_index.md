@@ -1,5 +1,5 @@
 ---
-title: Delimiter
+title: CsvDataLoadOptions.Delimiter
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the character to be used as a column delimiter.
 type: docs

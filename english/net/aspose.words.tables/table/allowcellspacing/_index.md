@@ -1,5 +1,5 @@
 ---
-title: AllowCellSpacing
+title: Table.AllowCellSpacing
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the Allow spacing between cells option.
 type: docs

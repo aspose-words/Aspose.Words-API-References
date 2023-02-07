@@ -1,5 +1,5 @@
 ---
-title: Id
+title: EditableRange.Id
 second_title: Aspose.Words for .NET API Reference
 description: Gets the editable range identifier.
 type: docs

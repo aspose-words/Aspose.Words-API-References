@@ -1,5 +1,5 @@
 ---
-title: HorizontalAlignment
+title: ShapeBase.HorizontalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how the shape is positioned horizontally.
 type: docs

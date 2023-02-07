@@ -1,5 +1,5 @@
 ---
-title: DefaultParagraphFormat
+title: StyleCollection.DefaultParagraphFormat
 second_title: Aspose.Words for .NET API Reference
 description: Gets document default paragraph formatting.
 type: docs

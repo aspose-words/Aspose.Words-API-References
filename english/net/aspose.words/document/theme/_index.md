@@ -1,5 +1,5 @@
 ---
-title: Theme
+title: Document.Theme
 second_title: Aspose.Words for .NET API Reference
 description: Gets the Theme object for this document.
 type: docs

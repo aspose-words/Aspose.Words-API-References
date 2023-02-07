@@ -1,5 +1,5 @@
 ---
-title: OfficeMathRenderer
+title: OfficeMathRenderer.OfficeMathRenderer
 second_title: Aspose.Words for .NET API Reference
 description: Initializes a new instance of this class.
 type: docs

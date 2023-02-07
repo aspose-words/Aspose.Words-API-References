@@ -1,5 +1,5 @@
 ---
-title: LoadOptions
+title: Class LoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify additional options such as password or base URI when loading a document into a Document object.
 type: docs

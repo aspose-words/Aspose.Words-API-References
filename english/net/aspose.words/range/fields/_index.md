@@ -1,5 +1,5 @@
 ---
-title: Fields
+title: Range.Fields
 second_title: Aspose.Words for .NET API Reference
 description: Returns a Fields collection that represents all fields in the range.
 type: docs

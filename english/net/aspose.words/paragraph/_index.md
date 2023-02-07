@@ -1,5 +1,5 @@
 ---
-title: Paragraph
+title: Class Paragraph
 second_title: Aspose.Words for .NET API Reference
 description: Represents a paragraph of text.
 type: docs

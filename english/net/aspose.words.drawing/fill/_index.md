@@ -1,5 +1,5 @@
 ---
-title: Fill
+title: Class Fill
 second_title: Aspose.Words for .NET API Reference
 description: Represents fill formatting for an object.
 type: docs

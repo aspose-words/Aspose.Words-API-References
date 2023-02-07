@@ -1,5 +1,5 @@
 ---
-title: FieldData
+title: FieldData.FieldData
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

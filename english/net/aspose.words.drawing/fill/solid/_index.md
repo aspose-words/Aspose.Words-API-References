@@ -1,5 +1,5 @@
 ---
-title: Solid
+title: Fill.Solid
 second_title: Aspose.Words for .NET API Reference
 description: Sets the fill to a uniform color.
 type: docs

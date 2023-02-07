@@ -1,5 +1,5 @@
 ---
-title: ImageWidth
+title: ImageFieldMergingArgs.ImageWidth
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the image width for the image to insert into the document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: AxisBuiltInUnit
+title: Enum AxisBuiltInUnit
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the display units for an axis.
 type: docs

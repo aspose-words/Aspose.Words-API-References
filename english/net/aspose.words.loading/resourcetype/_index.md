@@ -1,5 +1,5 @@
 ---
-title: ResourceType
+title: Enum ResourceType
 second_title: Aspose.Words for .NET API Reference
 description: Type of loaded resource.
 type: docs

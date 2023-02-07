@@ -1,5 +1,5 @@
 ---
-title: SuppressTopSpacing
+title: CompatibilityOptions.SuppressTopSpacing
 second_title: Aspose.Words for .NET API Reference
 description: Ignore Minimum and Exact Line Height for First Line on Page.
 type: docs

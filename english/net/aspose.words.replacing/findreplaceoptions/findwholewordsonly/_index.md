@@ -1,5 +1,5 @@
 ---
-title: FindWholeWordsOnly
+title: FindReplaceOptions.FindWholeWordsOnly
 second_title: Aspose.Words for .NET API Reference
 description: True indicates the oldValue must be a standalone word.
 type: docs

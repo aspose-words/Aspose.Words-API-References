@@ -1,5 +1,5 @@
 ---
-title: LayoutMode
+title: PageSetup.LayoutMode
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the layout mode of this section.
 type: docs

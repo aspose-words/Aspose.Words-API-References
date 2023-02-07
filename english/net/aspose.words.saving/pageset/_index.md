@@ -1,5 +1,5 @@
 ---
-title: PageSet
+title: Class PageSet
 second_title: Aspose.Words for .NET API Reference
 description: Describes a random set of pages.
 type: docs

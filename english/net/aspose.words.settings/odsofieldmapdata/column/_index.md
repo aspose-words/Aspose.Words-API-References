@@ -1,5 +1,5 @@
 ---
-title: Column
+title: OdsoFieldMapData.Column
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the zerobased index of the column within an external data source which shall be mapped to the local name of a specific MERGEFIELD field. The default value is 0.
 type: docs

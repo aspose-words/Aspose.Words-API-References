@@ -1,5 +1,5 @@
 ---
-title: UlTrailSpace
+title: CompatibilityOptions.UlTrailSpace
 second_title: Aspose.Words for .NET API Reference
 description: Underline All Trailing Spaces.
 type: docs

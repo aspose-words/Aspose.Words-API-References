@@ -1,5 +1,5 @@
 ---
-title: FieldDatabase
+title: Class FieldDatabase
 second_title: Aspose.Words for .NET API Reference
 description: Implements the DATABASE field.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: DistanceBottom
+title: ShapeBase.DistanceBottom
 second_title: Aspose.Words for .NET API Reference
 description: Returns or sets the distance in points between the document text and the bottom edge of the shape.
 type: docs

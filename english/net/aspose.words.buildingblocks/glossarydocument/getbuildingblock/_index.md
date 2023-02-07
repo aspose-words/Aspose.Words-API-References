@@ -1,5 +1,5 @@
 ---
-title: GetBuildingBlock
+title: GlossaryDocument.GetBuildingBlock
 second_title: Aspose.Words for .NET API Reference
 description: Finds a building block using the specified gallery category and name.
 type: docs

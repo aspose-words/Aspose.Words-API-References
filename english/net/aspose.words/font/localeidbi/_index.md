@@ -1,5 +1,5 @@
 ---
-title: LocaleIdBi
+title: Font.LocaleIdBi
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the locale identifier language of the formatted righttoleft characters.
 type: docs

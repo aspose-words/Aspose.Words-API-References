@@ -1,5 +1,5 @@
 ---
-title: ImportNode
+title: NodeImporter.ImportNode
 second_title: Aspose.Words for .NET API Reference
 description: Imports a node from one document into another.
 type: docs

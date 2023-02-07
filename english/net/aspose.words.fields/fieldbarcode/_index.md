@@ -1,5 +1,5 @@
 ---
-title: FieldBarcode
+title: Class FieldBarcode
 second_title: Aspose.Words for .NET API Reference
 description: Implements the BARCODE field.
 type: docs

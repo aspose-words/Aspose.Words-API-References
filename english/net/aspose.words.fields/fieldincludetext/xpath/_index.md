@@ -1,5 +1,5 @@
 ---
-title: XPath
+title: FieldIncludeText.XPath
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets XPath for the desired portion of the XML file.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: IsInsertRevision
+title: InlineStory.IsInsertRevision
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if this object was inserted in Microsoft Word while change tracking was enabled.
 type: docs

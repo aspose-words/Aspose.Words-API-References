@@ -1,5 +1,5 @@
 ---
-title: RowCollection
+title: Class RowCollection
 second_title: Aspose.Words for .NET API Reference
 description: Provides typed access to a collection of Row nodes.
 type: docs

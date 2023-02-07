@@ -1,5 +1,5 @@
 ---
-title: ReplacingCallback
+title: FindReplaceOptions.ReplacingCallback
 second_title: Aspose.Words for .NET API Reference
 description: The userdefined method which is called before every replace occurrence.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FieldComments
+title: Class FieldComments
 second_title: Aspose.Words for .NET API Reference
 description: Implements the COMMENTS field.
 type: docs

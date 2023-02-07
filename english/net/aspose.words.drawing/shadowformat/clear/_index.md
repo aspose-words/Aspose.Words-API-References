@@ -1,5 +1,5 @@
 ---
-title: Clear
+title: ShadowFormat.Clear
 second_title: Aspose.Words for .NET API Reference
 description: Clears shadow format.
 type: docs

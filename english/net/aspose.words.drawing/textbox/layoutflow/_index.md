@@ -1,5 +1,5 @@
 ---
-title: LayoutFlow
+title: TextBox.LayoutFlow
 second_title: Aspose.Words for .NET API Reference
 description: Determines the flow of the text layout in a shape.
 type: docs

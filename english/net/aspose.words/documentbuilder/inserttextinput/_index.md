@@ -1,5 +1,5 @@
 ---
-title: InsertTextInput
+title: DocumentBuilder.InsertTextInput
 second_title: Aspose.Words for .NET API Reference
 description: Inserts a text form field at the current position.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: WarningCallback
+title: LoadOptions.WarningCallback
 second_title: Aspose.Words for .NET API Reference
 description: Called during a load operation when an issue is detected that might result in data or formatting fidelity loss.
 type: docs

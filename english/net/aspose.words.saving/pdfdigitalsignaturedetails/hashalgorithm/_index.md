@@ -1,5 +1,5 @@
 ---
-title: HashAlgorithm
+title: PdfDigitalSignatureDetails.HashAlgorithm
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the hash algorithm.
 type: docs

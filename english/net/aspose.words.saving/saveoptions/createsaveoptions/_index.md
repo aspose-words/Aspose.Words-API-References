@@ -1,5 +1,5 @@
 ---
-title: CreateSaveOptions
+title: SaveOptions.CreateSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Creates a save options object of a class suitable for the specified save format.
 type: docs

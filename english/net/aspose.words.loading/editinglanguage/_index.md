@@ -1,5 +1,5 @@
 ---
-title: EditingLanguage
+title: Enum EditingLanguage
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the editing language.
 type: docs

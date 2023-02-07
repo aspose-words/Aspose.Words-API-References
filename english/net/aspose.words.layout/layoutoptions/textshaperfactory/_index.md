@@ -1,5 +1,5 @@
 ---
-title: TextShaperFactory
+title: LayoutOptions.TextShaperFactory
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets ITextShaperFactory implementation used for Advanced Typography rendering features.
 type: docs

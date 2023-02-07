@@ -1,5 +1,5 @@
 ---
-title: FontSourceType
+title: Enum FontSourceType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of a font source.
 type: docs

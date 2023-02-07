@@ -1,5 +1,5 @@
 ---
-title: TextColumns
+title: PageSetup.TextColumns
 second_title: Aspose.Words for .NET API Reference
 description: Returns a collection that represents the set of text columns.
 type: docs

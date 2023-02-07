@@ -1,5 +1,5 @@
 ---
-title: LinkedStyleName
+title: Style.LinkedStyleName
 second_title: Aspose.Words for .NET API Reference
 description: Gets the name of the Style linked to this one. Returns empty string if no styles are linked.
 type: docs

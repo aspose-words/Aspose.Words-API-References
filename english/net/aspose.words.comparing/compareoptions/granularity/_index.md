@@ -1,5 +1,5 @@
 ---
-title: Granularity
+title: CompareOptions.Granularity
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether changes are tracked by character or by word. Default value is WordLevel.
 type: docs

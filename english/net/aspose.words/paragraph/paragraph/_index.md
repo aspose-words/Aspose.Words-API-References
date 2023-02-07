@@ -1,5 +1,5 @@
 ---
-title: Paragraph
+title: Paragraph.Paragraph
 second_title: Aspose.Words for .NET API Reference
 description: Initializes a new instance of the Paragraph class.
 type: docs

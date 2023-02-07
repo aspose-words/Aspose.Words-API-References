@@ -1,5 +1,5 @@
 ---
-title: ParagraphBreak
+title: ControlChar.ParagraphBreak
 second_title: Aspose.Words for .NET API Reference
 description: End of paragraph character x000d or r. Same as Cr
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FindReplaceOptions
+title: Class FindReplaceOptions
 second_title: Aspose.Words for .NET API Reference
 description: Specifies options for find/replace operations.
 type: docs

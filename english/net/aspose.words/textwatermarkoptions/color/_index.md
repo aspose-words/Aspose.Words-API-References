@@ -1,5 +1,5 @@
 ---
-title: Color
+title: TextWatermarkOptions.Color
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets font color. The default value is Silver.
 type: docs

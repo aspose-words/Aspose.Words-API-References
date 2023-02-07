@@ -1,5 +1,5 @@
 ---
-title: WriteProtection
+title: Class WriteProtection
 second_title: Aspose.Words for .NET API Reference
 description: Specifies write protection settings for a document.
 type: docs

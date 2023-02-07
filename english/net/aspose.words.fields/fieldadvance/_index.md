@@ -1,5 +1,5 @@
 ---
-title: FieldAdvance
+title: Class FieldAdvance
 second_title: Aspose.Words for .NET API Reference
 description: Implements the ADVANCE field.
 type: docs

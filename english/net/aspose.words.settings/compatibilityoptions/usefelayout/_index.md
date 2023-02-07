@@ -1,5 +1,5 @@
 ---
-title: UseFELayout
+title: CompatibilityOptions.UseFELayout
 second_title: Aspose.Words for .NET API Reference
 description: Do Not Bypass East Asian/Complex Script Layout Code.
 type: docs

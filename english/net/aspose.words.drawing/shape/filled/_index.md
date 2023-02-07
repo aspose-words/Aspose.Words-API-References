@@ -1,5 +1,5 @@
 ---
-title: Filled
+title: Shape.Filled
 second_title: Aspose.Words for .NET API Reference
 description: Determines whether the closed path of the shape will be filled.
 type: docs

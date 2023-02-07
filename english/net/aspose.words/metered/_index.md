@@ -1,5 +1,5 @@
 ---
-title: Metered
+title: Class Metered
 second_title: Aspose.Words for .NET API Reference
 description: Provides methods to set metered key.
 type: docs

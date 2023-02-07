@@ -1,5 +1,5 @@
 ---
-title: GraphicsQualityOptions
+title: Class GraphicsQualityOptions
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify additional Graphics quality options.
 type: docs

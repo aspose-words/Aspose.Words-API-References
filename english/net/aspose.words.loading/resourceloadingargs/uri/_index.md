@@ -1,5 +1,5 @@
 ---
-title: Uri
+title: ResourceLoadingArgs.Uri
 second_title: Aspose.Words for .NET API Reference
 description: URI of the resource which is used for downloading if ResourceLoading returns Default.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: TrailingSpacesOptions
+title: TxtLoadOptions.TrailingSpacesOptions
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets preferred option of a trailing space handling. Default value is Trim.
 type: docs

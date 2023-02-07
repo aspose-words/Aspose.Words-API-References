@@ -1,5 +1,5 @@
 ---
-title: Add
+title: CustomDocumentProperties.Add
 second_title: Aspose.Words for .NET API Reference
 description: Creates a new custom document property of the String data type.
 type: docs

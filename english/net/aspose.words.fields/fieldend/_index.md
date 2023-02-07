@@ -1,5 +1,5 @@
 ---
-title: FieldEnd
+title: Class FieldEnd
 second_title: Aspose.Words for .NET API Reference
 description: Represents an end of a Word field in a document.
 type: docs

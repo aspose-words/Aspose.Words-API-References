@@ -1,5 +1,5 @@
 ---
-title: RemoveAt
+title: OdsoRecipientDataCollection.RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: Removes the element at the specified index.
 type: docs

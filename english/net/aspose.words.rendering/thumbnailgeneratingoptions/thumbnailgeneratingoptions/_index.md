@@ -1,5 +1,5 @@
 ---
-title: ThumbnailGeneratingOptions
+title: ThumbnailGeneratingOptions.ThumbnailGeneratingOptions
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

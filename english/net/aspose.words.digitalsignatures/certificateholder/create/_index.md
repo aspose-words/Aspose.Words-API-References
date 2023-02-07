@@ -1,5 +1,5 @@
 ---
-title: Create
+title: CertificateHolder.Create
 second_title: Aspose.Words for .NET API Reference
 description: Creates CertificateHolder object using byte array of PKCS12 store and its password.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: BottomLeftCell
+title: ConditionalStyleCollection.BottomLeftCell
 second_title: Aspose.Words for .NET API Reference
 description: Gets the bottom left cell style.
 type: docs

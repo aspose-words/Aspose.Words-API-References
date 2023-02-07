@@ -1,5 +1,5 @@
 ---
-title: OoxmlCompliance
+title: Enum OoxmlCompliance
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify which OOXML specification will be used when saving in the DOCX format.
 type: docs

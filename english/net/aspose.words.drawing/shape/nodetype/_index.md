@@ -1,5 +1,5 @@
 ---
-title: NodeType
+title: Shape.NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Returns Shape.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FieldRD
+title: FieldRD.FieldRD
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

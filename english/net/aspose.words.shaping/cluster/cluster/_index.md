@@ -1,5 +1,5 @@
 ---
-title: Cluster
+title: Cluster.Cluster
 second_title: Aspose.Words for .NET API Reference
 description: Initializes new instance of this class.
 type: docs

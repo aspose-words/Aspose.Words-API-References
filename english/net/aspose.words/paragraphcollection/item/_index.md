@@ -1,5 +1,5 @@
 ---
-title: Item
+title: ParagraphCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Retrieves a Paragraph at the given index.
 type: docs

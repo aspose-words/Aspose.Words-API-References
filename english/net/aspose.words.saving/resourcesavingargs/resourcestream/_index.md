@@ -1,5 +1,5 @@
 ---
-title: ResourceStream
+title: ResourceSavingArgs.ResourceStream
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify the stream where the resource will be saved to.
 type: docs

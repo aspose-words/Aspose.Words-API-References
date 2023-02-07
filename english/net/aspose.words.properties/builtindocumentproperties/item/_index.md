@@ -1,5 +1,5 @@
 ---
-title: Item
+title: BuiltInDocumentProperties.Item
 second_title: Aspose.Words for .NET API Reference
 description: Returns a DocumentProperty object by the name of the property.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ApplyBulletDefault
+title: ListFormat.ApplyBulletDefault
 second_title: Aspose.Words for .NET API Reference
 description: Starts a new default bulleted list and applies it to the paragraph.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Cell
+title: Class Cell
 second_title: Aspose.Words for .NET API Reference
 description: Represents a table cell.
 type: docs

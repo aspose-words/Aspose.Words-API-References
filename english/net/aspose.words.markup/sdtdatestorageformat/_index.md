@@ -1,5 +1,5 @@
 ---
-title: SdtDateStorageFormat
+title: Enum SdtDateStorageFormat
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how the date for a date SDT is stored/retrieved when the SDT is bound to an XML node in the documents data store.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ProgressCallback
+title: LoadOptions.ProgressCallback
 second_title: Aspose.Words for .NET API Reference
 description: Called during loading a document and accepts data about loading progress.
 type: docs

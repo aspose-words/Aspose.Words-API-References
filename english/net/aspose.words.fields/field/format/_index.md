@@ -1,5 +1,5 @@
 ---
-title: Format
+title: Field.Format
 second_title: Aspose.Words for .NET API Reference
 description: Gets a FieldFormat object that provides typed access to fields formatting.
 type: docs

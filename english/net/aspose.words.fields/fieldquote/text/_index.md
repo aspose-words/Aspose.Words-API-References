@@ -1,5 +1,5 @@
 ---
-title: Text
+title: FieldQuote.Text
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the text to retrieve.
 type: docs

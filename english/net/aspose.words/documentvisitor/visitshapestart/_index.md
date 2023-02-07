@@ -1,5 +1,5 @@
 ---
-title: VisitShapeStart
+title: DocumentVisitor.VisitShapeStart
 second_title: Aspose.Words for .NET API Reference
 description: Called when enumeration of a shape has started.
 type: docs

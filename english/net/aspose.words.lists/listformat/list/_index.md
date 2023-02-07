@@ -1,5 +1,5 @@
 ---
-title: List
+title: ListFormat.List
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the list this paragraph is a member of.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ChartLegendEntry
+title: Class ChartLegendEntry
 second_title: Aspose.Words for .NET API Reference
 description: Represents a chart legend entry.
 type: docs

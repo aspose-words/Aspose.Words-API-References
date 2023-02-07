@@ -1,5 +1,5 @@
 ---
-title: Add
+title: CustomXmlPartCollection.Add
 second_title: Aspose.Words for .NET API Reference
 description: Adds an item to the collection.
 type: docs

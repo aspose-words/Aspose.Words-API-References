@@ -1,5 +1,5 @@
 ---
-title: IChartDataPoint
+title: Interface IChartDataPoint
 second_title: Aspose.Words for .NET API Reference
 description: Contains properties of a single data point on the chart.
 type: docs

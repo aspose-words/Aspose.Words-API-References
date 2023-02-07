@@ -1,5 +1,5 @@
 ---
-title: FieldUserName
+title: Class FieldUserName
 second_title: Aspose.Words for .NET API Reference
 description: Implements the USERNAME field.
 type: docs

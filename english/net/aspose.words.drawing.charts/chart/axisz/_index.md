@@ -1,5 +1,5 @@
 ---
-title: AxisZ
+title: Chart.AxisZ
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to properties of the Z axis of the chart.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Item
+title: GradientStopCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a GradientStop object in the collection.
 type: docs

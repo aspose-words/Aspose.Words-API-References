@@ -1,5 +1,5 @@
 ---
-title: GetWidth
+title: Cluster.GetWidth
 second_title: Aspose.Words for .NET API Reference
 description: Returns width of the cluster.
 type: docs

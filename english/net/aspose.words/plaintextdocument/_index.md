@@ -1,5 +1,5 @@
 ---
-title: PlainTextDocument
+title: Class PlainTextDocument
 second_title: Aspose.Words for .NET API Reference
 description: Allows to extract plaintext representation of the documents content.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: LineStartingNumber
+title: PageSetup.LineStartingNumber
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the starting line number.
 type: docs

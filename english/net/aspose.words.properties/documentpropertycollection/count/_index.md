@@ -1,5 +1,5 @@
 ---
-title: Count
+title: DocumentPropertyCollection.Count
 second_title: Aspose.Words for .NET API Reference
 description: Gets number of items in the collection.
 type: docs

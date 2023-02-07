@@ -1,5 +1,5 @@
 ---
-title: SourceItem
+title: FieldDde.SourceItem
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the portion of the source file thats being linked.
 type: docs

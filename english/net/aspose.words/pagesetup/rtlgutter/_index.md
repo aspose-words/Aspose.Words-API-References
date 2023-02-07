@@ -1,5 +1,5 @@
 ---
-title: RtlGutter
+title: PageSetup.RtlGutter
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether Microsoft Word uses gutters for the section based on a righttoleft language or a lefttoright language.
 type: docs

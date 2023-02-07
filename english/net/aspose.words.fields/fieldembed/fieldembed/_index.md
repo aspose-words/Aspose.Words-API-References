@@ -1,5 +1,5 @@
 ---
-title: FieldEmbed
+title: FieldEmbed.FieldEmbed
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

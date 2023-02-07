@@ -1,5 +1,5 @@
 ---
-title: DataSource
+title: MailMergeSettings.DataSource
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the path to the mailmerge data source. The default value is an empty string.
 type: docs

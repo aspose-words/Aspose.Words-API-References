@@ -1,5 +1,5 @@
 ---
-title: EntryCategory
+title: FieldTA.EntryCategory
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the integral entry category which is a number that corresponds to the order of categories.
 type: docs

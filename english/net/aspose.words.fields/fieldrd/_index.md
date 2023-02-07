@@ -1,5 +1,5 @@
 ---
-title: FieldRD
+title: Class FieldRD
 second_title: Aspose.Words for .NET API Reference
 description: Implements the RD field.
 type: docs

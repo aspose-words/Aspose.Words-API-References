@@ -1,5 +1,5 @@
 ---
-title: Clone
+title: VbaModule.Clone
 second_title: Aspose.Words for .NET API Reference
 description: Performs a copy of the VbaModule.
 type: docs

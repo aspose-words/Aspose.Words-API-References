@@ -1,5 +1,5 @@
 ---
-title: Frameset
+title: Class Frameset
 second_title: Aspose.Words for .NET API Reference
 description: Represents a frames page or a single frame on a frames page.
 type: docs

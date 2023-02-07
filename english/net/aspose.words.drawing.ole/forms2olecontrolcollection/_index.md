@@ -1,5 +1,5 @@
 ---
-title: Forms2OleControlCollection
+title: Class Forms2OleControlCollection
 second_title: Aspose.Words for .NET API Reference
 description: Represents collection of Forms2OleControl objects.
 type: docs

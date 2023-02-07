@@ -1,5 +1,5 @@
 ---
-title: PlaceholderName
+title: StructuredDocumentTag.PlaceholderName
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets Name of the BuildingBlock containing placeholder text.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ListLevel
+title: Class ListLevel
 second_title: Aspose.Words for .NET API Reference
 description: Defines formatting for a list level.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: IgnoreHeadersAndFooters
+title: CompareOptions.IgnoreHeadersAndFooters
 second_title: Aspose.Words for .NET API Reference
 description: True indicates that headers and footers content is ignored. By default headers and footers are not ignored.
 type: docs

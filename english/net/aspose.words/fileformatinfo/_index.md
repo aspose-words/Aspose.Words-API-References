@@ -1,5 +1,5 @@
 ---
-title: FileFormatInfo
+title: Class FileFormatInfo
 second_title: Aspose.Words for .NET API Reference
 description: Contains data returned by FileFormatUtil document format detection methods.
 type: docs

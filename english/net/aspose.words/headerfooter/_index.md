@@ -1,5 +1,5 @@
 ---
-title: HeaderFooter
+title: Class HeaderFooter
 second_title: Aspose.Words for .NET API Reference
 description: Represents a container for the header or footer text of a section.
 type: docs

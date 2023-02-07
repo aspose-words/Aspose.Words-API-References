@@ -1,5 +1,5 @@
 ---
-title: GetEnumerator
+title: FormFieldCollection.GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: Returns an enumerator object.
 type: docs

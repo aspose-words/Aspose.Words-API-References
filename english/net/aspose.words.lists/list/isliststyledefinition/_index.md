@@ -1,5 +1,5 @@
 ---
-title: IsListStyleDefinition
+title: List.IsListStyleDefinition
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if this list is a definition of a list style.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Caption
+title: Forms2OleControl.Caption
 second_title: Aspose.Words for .NET API Reference
 description: Gets Caption property of control. Default value is an empty string.
 type: docs

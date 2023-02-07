@@ -1,5 +1,5 @@
 ---
-title: IncludeCountryOrRegionName
+title: FieldAddressBlock.IncludeCountryOrRegionName
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to include the name of the country/region.
 type: docs

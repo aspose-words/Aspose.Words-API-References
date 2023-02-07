@@ -1,5 +1,5 @@
 ---
-title: ImageBrightness
+title: ImageSaveOptions.ImageBrightness
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the brightness for the generated images.
 type: docs

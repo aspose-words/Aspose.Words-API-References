@@ -1,5 +1,5 @@
 ---
-title: UseWord2002TableStyleRules
+title: CompatibilityOptions.UseWord2002TableStyleRules
 second_title: Aspose.Words for .NET API Reference
 description: Emulate Word 2002 Table Style Rules.
 type: docs

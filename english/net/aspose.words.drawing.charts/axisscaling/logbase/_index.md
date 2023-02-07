@@ -1,5 +1,5 @@
 ---
-title: LogBase
+title: AxisScaling.LogBase
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the logarithmic base for a logarithmic axis.
 type: docs

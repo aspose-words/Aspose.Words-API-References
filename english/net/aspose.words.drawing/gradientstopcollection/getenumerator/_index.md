@@ -1,5 +1,5 @@
 ---
-title: GetEnumerator
+title: GradientStopCollection.GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: Returns an enumerator that iterates through the collection.
 type: docs

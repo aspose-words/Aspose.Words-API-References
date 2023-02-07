@@ -1,5 +1,5 @@
 ---
-title: Marker
+title: ChartSeries.Marker
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs

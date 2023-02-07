@@ -1,5 +1,5 @@
 ---
-title: UnusedLists
+title: CleanupOptions.UnusedLists
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether unused list and list definitions should be removed from document. Default value is true.
 type: docs

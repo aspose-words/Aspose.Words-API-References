@@ -1,5 +1,5 @@
 ---
-title: Fields
+title: MailMergeRegionInfo.Fields
 second_title: Aspose.Words for .NET API Reference
 description: Returns a list of child fields.
 type: docs

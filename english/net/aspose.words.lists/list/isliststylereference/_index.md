@@ -1,5 +1,5 @@
 ---
-title: IsListStyleReference
+title: List.IsListStyleReference
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if this list is a reference to a list style.
 type: docs

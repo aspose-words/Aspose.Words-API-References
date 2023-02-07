@@ -1,5 +1,5 @@
 ---
-title: Spacing
+title: TextPath.Spacing
 second_title: Aspose.Words for .NET API Reference
 description: Defines the amount of spacing for text. 1 means 100.
 type: docs

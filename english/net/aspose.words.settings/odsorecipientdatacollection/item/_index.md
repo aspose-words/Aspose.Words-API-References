@@ -1,5 +1,5 @@
 ---
-title: Item
+title: OdsoRecipientDataCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets an item in this collection.
 type: docs

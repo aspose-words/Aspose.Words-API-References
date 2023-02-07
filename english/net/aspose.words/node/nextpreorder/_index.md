@@ -1,5 +1,5 @@
 ---
-title: NextPreOrder
+title: Node.NextPreOrder
 second_title: Aspose.Words for .NET API Reference
 description: Gets next node according to the preorder tree traversal algorithm.
 type: docs

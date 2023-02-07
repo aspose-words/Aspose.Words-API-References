@@ -1,5 +1,5 @@
 ---
-title: Range
+title: Class Range
 second_title: Aspose.Words for .NET API Reference
 description: Represents a contiguous area in a document.
 type: docs

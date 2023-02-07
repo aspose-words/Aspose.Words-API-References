@@ -1,5 +1,5 @@
 ---
-title: CompositingQuality
+title: GraphicsQualityOptions.CompositingQuality
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the rendering quality of composited images drawn to this Graphics.
 type: docs

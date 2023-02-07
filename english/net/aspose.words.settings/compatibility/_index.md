@@ -1,5 +1,5 @@
 ---
-title: Compatibility
+title: Enum Compatibility
 second_title: Aspose.Words for .NET API Reference
 description: Specifies names of compatibility options.
 type: docs

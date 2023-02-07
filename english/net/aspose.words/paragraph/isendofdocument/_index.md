@@ -1,5 +1,5 @@
 ---
-title: IsEndOfDocument
+title: Paragraph.IsEndOfDocument
 second_title: Aspose.Words for .NET API Reference
 description: True if this paragraph is the last paragraph in the last section of the document.
 type: docs

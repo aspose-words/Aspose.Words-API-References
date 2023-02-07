@@ -1,5 +1,5 @@
 ---
-title: Odd
+title: PageSet.Odd
 second_title: Aspose.Words for .NET API Reference
 description: Gets a set with all the odd pages of the document in their original order.
 type: docs

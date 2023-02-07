@@ -1,5 +1,5 @@
 ---
-title: GroupShape
+title: Class GroupShape
 second_title: Aspose.Words for .NET API Reference
 description: Represents a group of shapes in a document.
 type: docs

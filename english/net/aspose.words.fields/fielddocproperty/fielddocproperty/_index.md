@@ -1,5 +1,5 @@
 ---
-title: FieldDocProperty
+title: FieldDocProperty.FieldDocProperty
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

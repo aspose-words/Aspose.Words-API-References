@@ -1,5 +1,5 @@
 ---
-title: LoadNotoFallbackSettings
+title: FontFallbackSettings.LoadNotoFallbackSettings
 second_title: Aspose.Words for .NET API Reference
 description: Loads predefined fallback settings which uses Google Noto fonts.
 type: docs

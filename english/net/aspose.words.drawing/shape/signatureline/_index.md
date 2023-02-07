@@ -1,5 +1,5 @@
 ---
-title: SignatureLine
+title: Shape.SignatureLine
 second_title: Aspose.Words for .NET API Reference
 description: Gets SignatureLine object if the shape is a signature line. Returns null otherwise.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: PrependChild
+title: CompositeNode.PrependChild
 second_title: Aspose.Words for .NET API Reference
 description: Adds the specified node to the beginning of the list of child nodes for this node.
 type: docs

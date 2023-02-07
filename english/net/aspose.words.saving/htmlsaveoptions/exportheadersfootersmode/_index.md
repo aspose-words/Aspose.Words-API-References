@@ -1,5 +1,5 @@
 ---
-title: ExportHeadersFootersMode
+title: HtmlSaveOptions.ExportHeadersFootersMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how headers and footers are output to HTML MHTML or EPUB. Default value is PerSection for HTML/MHTML and None for EPUB.
 type: docs

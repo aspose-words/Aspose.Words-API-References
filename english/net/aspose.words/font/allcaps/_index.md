@@ -1,5 +1,5 @@
 ---
-title: AllCaps
+title: Font.AllCaps
 second_title: Aspose.Words for .NET API Reference
 description: True if the font is formatted as all capital letters.
 type: docs

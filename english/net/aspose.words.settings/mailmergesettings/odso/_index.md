@@ -1,5 +1,5 @@
 ---
-title: Odso
+title: MailMergeSettings.Odso
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the object that specifies the Office Data Source Object ODSO settings.
 type: docs

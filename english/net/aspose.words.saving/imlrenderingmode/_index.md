@@ -1,5 +1,5 @@
 ---
-title: ImlRenderingMode
+title: Enum ImlRenderingMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how ink InkML objects are rendered to fixed page formats.
 type: docs

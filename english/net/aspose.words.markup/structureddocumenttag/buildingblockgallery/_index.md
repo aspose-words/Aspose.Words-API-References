@@ -1,5 +1,5 @@
 ---
-title: BuildingBlockGallery
+title: StructuredDocumentTag.BuildingBlockGallery
 second_title: Aspose.Words for .NET API Reference
 description: Specifies type of building block for this SDT. Can not be null.
 type: docs

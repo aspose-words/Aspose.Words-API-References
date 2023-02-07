@@ -1,5 +1,5 @@
 ---
-title: Count
+title: NodeCollection.Count
 second_title: Aspose.Words for .NET API Reference
 description: Gets the number of nodes in the collection.
 type: docs

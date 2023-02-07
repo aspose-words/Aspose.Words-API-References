@@ -1,5 +1,5 @@
 ---
-title: LastSavedBy
+title: BuiltInDocumentProperties.LastSavedBy
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the name of the last author.
 type: docs

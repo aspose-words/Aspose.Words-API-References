@@ -1,5 +1,5 @@
 ---
-title: LanguagePreferences
+title: LanguagePreferences.LanguagePreferences
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

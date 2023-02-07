@@ -1,5 +1,5 @@
 ---
-title: ChildNodes
+title: StructuredDocumentTagRangeStart.ChildNodes
 second_title: Aspose.Words for .NET API Reference
 description: Gets all nodes between this range start node and the range end node.
 type: docs

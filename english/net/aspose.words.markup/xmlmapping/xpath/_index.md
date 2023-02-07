@@ -1,5 +1,5 @@
 ---
-title: XPath
+title: XmlMapping.XPath
 second_title: Aspose.Words for .NET API Reference
 description: Returns the XPath expression which is evaluated to find the custom XML node that is mapped to the parent structured document tag.
 type: docs

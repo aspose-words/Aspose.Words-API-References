@@ -1,5 +1,5 @@
 ---
-title: InvertIfNegative
+title: ChartSeries.InvertIfNegative
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs

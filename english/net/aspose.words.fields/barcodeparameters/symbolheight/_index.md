@@ -1,5 +1,5 @@
 ---
-title: SymbolHeight
+title: BarcodeParameters.SymbolHeight
 second_title: Aspose.Words for .NET API Reference
 description: Bar code image height in twips  1/1440 inches
 type: docs

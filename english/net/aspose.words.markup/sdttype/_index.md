@@ -1,5 +1,5 @@
 ---
-title: SdtType
+title: Enum SdtType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of a structured document tag SDT node.
 type: docs

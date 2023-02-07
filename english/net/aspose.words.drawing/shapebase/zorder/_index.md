@@ -1,5 +1,5 @@
 ---
-title: ZOrder
+title: ShapeBase.ZOrder
 second_title: Aspose.Words for .NET API Reference
 description: Determines the display order of overlapping shapes.
 type: docs

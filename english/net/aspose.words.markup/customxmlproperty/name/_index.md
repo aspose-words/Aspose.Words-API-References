@@ -1,5 +1,5 @@
 ---
-title: Name
+title: CustomXmlProperty.Name
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the name of the custom XML attribute or smart tag property.
 type: docs

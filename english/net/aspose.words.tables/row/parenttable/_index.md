@@ -1,5 +1,5 @@
 ---
-title: ParentTable
+title: Row.ParentTable
 second_title: Aspose.Words for .NET API Reference
 description: Returns the immediate parent table of the row.
 type: docs

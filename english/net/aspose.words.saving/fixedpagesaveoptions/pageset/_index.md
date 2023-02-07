@@ -1,5 +1,5 @@
 ---
-title: PageSet
+title: FixedPageSaveOptions.PageSet
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the pages to render. Default is all the pages in the document.
 type: docs

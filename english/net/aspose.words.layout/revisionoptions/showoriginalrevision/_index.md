@@ -1,5 +1,5 @@
 ---
-title: ShowOriginalRevision
+title: RevisionOptions.ShowOriginalRevision
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify whether the original text should be shown instead of revised one. Default value is false.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Overlay
+title: ChartLegend.Overlay
 second_title: Aspose.Words for .NET API Reference
 description: Determines whether other chart elements shall be allowed to overlap legend. Default value is false.
 type: docs

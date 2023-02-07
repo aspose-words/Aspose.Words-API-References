@@ -1,5 +1,5 @@
 ---
-title: ChmLoadOptions
+title: Class ChmLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify additional options when loading CHM document into a Document object.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Description
+title: WarningInfo.Description
 second_title: Aspose.Words for .NET API Reference
 description: Returns the description of the warning.
 type: docs

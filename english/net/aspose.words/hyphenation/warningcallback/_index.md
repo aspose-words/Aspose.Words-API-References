@@ -1,5 +1,5 @@
 ---
-title: WarningCallback
+title: Hyphenation.WarningCallback
 second_title: Aspose.Words for .NET API Reference
 description: Called during a load hyphenation patterns when an issue is detected that might result in formatting fidelity loss.
 type: docs

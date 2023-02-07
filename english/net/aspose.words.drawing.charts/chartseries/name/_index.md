@@ -1,5 +1,5 @@
 ---
-title: Name
+title: ChartSeries.Name
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the name of the series if name is not set explicitly it is generated using index. By default returns Series plus one based index.
 type: docs

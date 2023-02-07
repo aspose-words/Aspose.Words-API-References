@@ -1,5 +1,5 @@
 ---
-title: IsLastCell
+title: Cell.IsLastCell
 second_title: Aspose.Words for .NET API Reference
 description: True if this is the last cell inside a row false otherwise.
 type: docs

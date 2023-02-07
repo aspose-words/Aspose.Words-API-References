@@ -1,5 +1,5 @@
 ---
-title: InsertComboBox
+title: DocumentBuilder.InsertComboBox
 second_title: Aspose.Words for .NET API Reference
 description: Inserts a combobox form field at the current position.
 type: docs

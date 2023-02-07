@@ -1,5 +1,5 @@
 ---
-title: FirstSection
+title: Document.FirstSection
 second_title: Aspose.Words for .NET API Reference
 description: Gets the first section in the document.
 type: docs

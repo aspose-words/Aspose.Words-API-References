@@ -1,5 +1,5 @@
 ---
-title: Clone
+title: VbaProject.Clone
 second_title: Aspose.Words for .NET API Reference
 description: Performs a copy of the VbaProject.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FileName
+title: FieldDatabase.FileName
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the complete path and file name of the database
 type: docs

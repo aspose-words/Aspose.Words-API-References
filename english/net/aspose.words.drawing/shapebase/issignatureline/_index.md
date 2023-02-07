@@ -1,5 +1,5 @@
 ---
-title: IsSignatureLine
+title: ShapeBase.IsSignatureLine
 second_title: Aspose.Words for .NET API Reference
 description: Indicates that shape is a SignatureLine.
 type: docs

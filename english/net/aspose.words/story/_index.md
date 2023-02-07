@@ -1,5 +1,5 @@
 ---
-title: Story
+title: Class Story
 second_title: Aspose.Words for .NET API Reference
 description: Base class for elements that contain blocklevel nodes Paragraph and Table.
 type: docs

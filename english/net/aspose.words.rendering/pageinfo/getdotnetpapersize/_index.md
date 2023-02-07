@@ -1,5 +1,5 @@
 ---
-title: GetDotNetPaperSize
+title: PageInfo.GetDotNetPaperSize
 second_title: Aspose.Words for .NET API Reference
 description: Gets the PaperSize object suitable for printing the page represented by this PageInfo.
 type: docs

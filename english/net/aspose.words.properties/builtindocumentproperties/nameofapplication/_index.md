@@ -1,5 +1,5 @@
 ---
-title: NameOfApplication
+title: BuiltInDocumentProperties.NameOfApplication
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the name of the application.
 type: docs

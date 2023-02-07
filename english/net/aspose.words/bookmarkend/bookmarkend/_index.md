@@ -1,5 +1,5 @@
 ---
-title: BookmarkEnd
+title: BookmarkEnd.BookmarkEnd
 second_title: Aspose.Words for .NET API Reference
 description: Initializes a new instance of the BookmarkEnd class.
 type: docs

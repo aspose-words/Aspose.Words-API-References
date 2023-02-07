@@ -1,5 +1,5 @@
 ---
-title: LeftExpression
+title: ComparisonExpression.LeftExpression
 second_title: Aspose.Words for .NET API Reference
 description: Gets the left expression.
 type: docs

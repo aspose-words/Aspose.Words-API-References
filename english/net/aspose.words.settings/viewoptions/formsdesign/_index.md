@@ -1,5 +1,5 @@
 ---
-title: FormsDesign
+title: ViewOptions.FormsDesign
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether the document is in forms design mode.
 type: docs

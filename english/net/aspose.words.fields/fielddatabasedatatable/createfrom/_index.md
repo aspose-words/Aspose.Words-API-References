@@ -1,5 +1,5 @@
 ---
-title: CreateFrom
+title: FieldDatabaseDataTable.CreateFrom
 second_title: Aspose.Words for .NET API Reference
 description: Initializes a new instance of the FieldDatabaseDataTable class from the DataTable instance.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: WebExtensionBinding
+title: WebExtensionBinding.WebExtensionBinding
 second_title: Aspose.Words for .NET API Reference
 description: Creates web extension binding with specified parameters.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Color
+title: Font.Color
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the color of the font.
 type: docs

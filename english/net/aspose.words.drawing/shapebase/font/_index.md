@@ -1,5 +1,5 @@
 ---
-title: Font
+title: ShapeBase.Font
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to the font formatting of this object.
 type: docs

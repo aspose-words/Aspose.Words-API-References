@@ -1,5 +1,5 @@
 ---
-title: Clear
+title: StructuredDocumentTag.Clear
 second_title: Aspose.Words for .NET API Reference
 description: Clears contents of this structured document tag and displays a placeholder if it is defined.
 type: docs

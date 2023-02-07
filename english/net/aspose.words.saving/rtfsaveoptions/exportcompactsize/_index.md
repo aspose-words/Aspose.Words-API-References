@@ -1,5 +1,5 @@
 ---
-title: ExportCompactSize
+title: RtfSaveOptions.ExportCompactSize
 second_title: Aspose.Words for .NET API Reference
 description: Allows to make output RTF documents smaller in size but if they contain RTL righttoleft text it will not be displayed correctly. Default value is false.
 type: docs

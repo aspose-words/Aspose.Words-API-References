@@ -1,5 +1,5 @@
 ---
-title: PrefixedSequenceIdentifier
+title: FieldToc.PrefixedSequenceIdentifier
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the identifier of a sequence for which a prefix should be added to the entrys page number.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FieldQuote
+title: FieldQuote.FieldQuote
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: HorizontalRuleAlignment
+title: Enum HorizontalRuleAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Represents the alignment for the specified horizontal rule.
 type: docs

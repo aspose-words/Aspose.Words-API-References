@@ -1,5 +1,5 @@
 ---
-title: Location
+title: PdfDigitalSignatureDetails.Location
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the location of the signing.
 type: docs

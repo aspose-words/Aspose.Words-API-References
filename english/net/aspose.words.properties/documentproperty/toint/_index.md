@@ -1,5 +1,5 @@
 ---
-title: ToInt
+title: DocumentProperty.ToInt
 second_title: Aspose.Words for .NET API Reference
 description: Returns the property value as integer.
 type: docs

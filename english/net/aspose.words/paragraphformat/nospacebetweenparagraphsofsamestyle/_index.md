@@ -1,5 +1,5 @@
 ---
-title: NoSpaceBetweenParagraphsOfSameStyle
+title: ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle
 second_title: Aspose.Words for .NET API Reference
 description: When true SpaceBefore and SpaceAfter will be ignored between the paragraphs of the same style.
 type: docs

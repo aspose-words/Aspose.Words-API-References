@@ -1,5 +1,5 @@
 ---
-title: SpaceBefore
+title: ParagraphFormat.SpaceBefore
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the amount of spacing in points before the paragraph.
 type: docs

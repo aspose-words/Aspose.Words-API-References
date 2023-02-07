@@ -1,5 +1,5 @@
 ---
-title: IsRanged
+title: IStructuredDocumentTag.IsRanged
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if this instance is a ranged structured document tag.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FieldSection
+title: Class FieldSection
 second_title: Aspose.Words for .NET API Reference
 description: Implements the SECTION field.
 type: docs

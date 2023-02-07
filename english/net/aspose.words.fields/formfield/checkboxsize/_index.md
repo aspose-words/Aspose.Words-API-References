@@ -1,5 +1,5 @@
 ---
-title: CheckBoxSize
+title: FormField.CheckBoxSize
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the size of the checkbox in points. Has effect only when IsCheckBoxExactSize is true.
 type: docs

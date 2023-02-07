@@ -1,5 +1,5 @@
 ---
-title: ExportOriginalUrlForLinkedImages
+title: HtmlSaveOptions.ExportOriginalUrlForLinkedImages
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether original URL should be used as the URL of the linked images. Default value is false.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: InsertRelativePosition
+title: FieldStyleRef.InsertRelativePosition
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to insert the relative position of the referenced paragraph.
 type: docs

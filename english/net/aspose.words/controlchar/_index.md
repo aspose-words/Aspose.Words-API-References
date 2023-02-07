@@ -1,5 +1,5 @@
 ---
-title: ControlChar
+title: Class ControlChar
 second_title: Aspose.Words for .NET API Reference
 description: Control characters often encountered in documents.
 type: docs

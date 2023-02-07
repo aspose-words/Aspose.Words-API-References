@@ -1,5 +1,5 @@
 ---
-title: NodeRemoving
+title: INodeChangingCallback.NodeRemoving
 second_title: Aspose.Words for .NET API Reference
 description: Called just before a node belonging to this document is about to be removed from the document.
 type: docs

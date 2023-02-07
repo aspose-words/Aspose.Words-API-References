@@ -1,5 +1,5 @@
 ---
-title: InsertOleObject
+title: DocumentBuilder.InsertOleObject
 second_title: Aspose.Words for .NET API Reference
 description: Inserts an embedded OLE object from a stream into the document.
 type: docs

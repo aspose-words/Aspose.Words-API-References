@@ -1,5 +1,5 @@
 ---
-title: GetById
+title: CustomXmlPartCollection.GetById
 second_title: Aspose.Words for .NET API Reference
 description: Finds and returns a custom XML part by its identifier.
 type: docs

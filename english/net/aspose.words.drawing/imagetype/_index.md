@@ -1,5 +1,5 @@
 ---
-title: ImageType
+title: Enum ImageType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type format of an image in a Microsoft Word document.
 type: docs

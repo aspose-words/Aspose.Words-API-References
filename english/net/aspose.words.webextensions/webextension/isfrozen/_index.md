@@ -1,5 +1,5 @@
 ---
-title: IsFrozen
+title: WebExtension.IsFrozen
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether the user can interact with the web extension or not.
 type: docs

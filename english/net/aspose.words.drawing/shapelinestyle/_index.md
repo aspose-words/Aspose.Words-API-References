@@ -1,5 +1,5 @@
 ---
-title: ShapeLineStyle
+title: Enum ShapeLineStyle
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the compound line style of a Shape.
 type: docs

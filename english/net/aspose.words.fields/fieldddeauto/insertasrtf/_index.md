@@ -1,5 +1,5 @@
 ---
-title: InsertAsRtf
+title: FieldDdeAuto.InsertAsRtf
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to insert the linked object in richtext format RTF.
 type: docs

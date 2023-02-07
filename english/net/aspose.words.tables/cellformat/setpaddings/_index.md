@@ -1,5 +1,5 @@
 ---
-title: SetPaddings
+title: CellFormat.SetPaddings
 second_title: Aspose.Words for .NET API Reference
 description: Sets the amount of space in points to add to the left/top/right/bottom of the contents of cell.
 type: docs

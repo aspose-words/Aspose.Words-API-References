@@ -1,5 +1,5 @@
 ---
-title: JoinStyle
+title: Enum JoinStyle
 second_title: Aspose.Words for .NET API Reference
 description: Line join style.
 type: docs

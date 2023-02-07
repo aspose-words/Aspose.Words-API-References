@@ -1,5 +1,5 @@
 ---
-title: IsImage
+title: ShapeBase.IsImage
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if this shape is an image shape.
 type: docs

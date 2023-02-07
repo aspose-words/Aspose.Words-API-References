@@ -1,5 +1,5 @@
 ---
-title: NodeType
+title: HeaderFooter.NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Returns HeaderFooter.
 type: docs

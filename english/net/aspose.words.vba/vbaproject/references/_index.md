@@ -1,5 +1,5 @@
 ---
-title: References
+title: VbaProject.References
 second_title: Aspose.Words for .NET API Reference
 description: Gets a collection of VBA project references.
 type: docs

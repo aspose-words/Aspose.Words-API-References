@@ -1,5 +1,5 @@
 ---
-title: Warning
+title: WarningInfoCollection.Warning
 second_title: Aspose.Words for .NET API Reference
 description: Implements the IWarningCallback interface. Adds a warning to this collection.
 type: docs

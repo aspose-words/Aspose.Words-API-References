@@ -1,5 +1,5 @@
 ---
-title: FieldAutoTextList
+title: FieldAutoTextList.FieldAutoTextList
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

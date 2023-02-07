@@ -1,5 +1,5 @@
 ---
-title: IsLink
+title: ImageData.IsLink
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if the image is linked to the shape when SourceFullName is specified.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Groups
+title: RevisionCollection.Groups
 second_title: Aspose.Words for .NET API Reference
 description: Collection of revision groups.
 type: docs

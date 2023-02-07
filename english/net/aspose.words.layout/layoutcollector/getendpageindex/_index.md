@@ -1,5 +1,5 @@
 ---
-title: GetEndPageIndex
+title: LayoutCollector.GetEndPageIndex
 second_title: Aspose.Words for .NET API Reference
 description: Gets 1based index of the page where node ends. Returns 0 if node cannot be mapped to a page.
 type: docs

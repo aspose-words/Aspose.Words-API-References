@@ -1,5 +1,5 @@
 ---
-title: RemoveSelfOnly
+title: StructuredDocumentTagRangeStart.RemoveSelfOnly
 second_title: Aspose.Words for .NET API Reference
 description: Removes this range start and appropriate range end nodes of the structured document tag but keeps its content inside the document tree.
 type: docs

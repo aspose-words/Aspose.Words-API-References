@@ -1,5 +1,5 @@
 ---
-title: StartArrowLength
+title: Stroke.StartArrowLength
 second_title: Aspose.Words for .NET API Reference
 description: Defines the arrowhead length for the start of a stroke.
 type: docs

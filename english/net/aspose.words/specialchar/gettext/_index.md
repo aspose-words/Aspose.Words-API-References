@@ -1,5 +1,5 @@
 ---
-title: GetText
+title: SpecialChar.GetText
 second_title: Aspose.Words for .NET API Reference
 description: Gets the special character that this node represents.
 type: docs

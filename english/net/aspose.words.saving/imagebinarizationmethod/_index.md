@@ -1,5 +1,5 @@
 ---
-title: ImageBinarizationMethod
+title: Enum ImageBinarizationMethod
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the method used to binarize image.
 type: docs

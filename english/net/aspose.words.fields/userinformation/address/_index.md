@@ -1,5 +1,5 @@
 ---
-title: Address
+title: UserInformation.Address
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the users postal address.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: StyleIdentifier
+title: ParagraphFormat.StyleIdentifier
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the locale independent style identifier of the paragraph style applied to this formatting.
 type: docs

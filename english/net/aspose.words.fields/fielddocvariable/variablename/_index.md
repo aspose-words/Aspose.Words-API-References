@@ -1,5 +1,5 @@
 ---
-title: VariableName
+title: FieldDocVariable.VariableName
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the name of the document variable to retrieve.
 type: docs

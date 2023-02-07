@@ -1,5 +1,5 @@
 ---
-title: Scale
+title: ImageSaveOptions.Scale
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the zoom factor for the generated images.
 type: docs

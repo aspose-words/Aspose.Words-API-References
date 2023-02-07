@@ -1,5 +1,5 @@
 ---
-title: Shading
+title: ConditionalStyle.Shading
 second_title: Aspose.Words for .NET API Reference
 description: Gets a Shading object that refers to the shading formatting for this conditional style.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Current
+title: LayoutEnumerator.Current
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets current position in the page layout model. This property returns an opaque object which corresponds to the current layout entity.
 type: docs

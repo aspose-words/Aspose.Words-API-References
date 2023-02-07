@@ -1,5 +1,5 @@
 ---
-title: DifferentFirstPageHeaderFooter
+title: PageSetup.DifferentFirstPageHeaderFooter
 second_title: Aspose.Words for .NET API Reference
 description: True if a different header or footer is used on the first page.
 type: docs

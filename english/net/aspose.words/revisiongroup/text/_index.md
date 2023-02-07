@@ -1,5 +1,5 @@
 ---
-title: Text
+title: RevisionGroup.Text
 second_title: Aspose.Words for .NET API Reference
 description: Returns inserted/deleted/moved text or description of format change.
 type: docs

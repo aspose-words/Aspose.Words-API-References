@@ -1,5 +1,5 @@
 ---
-title: TimestampSettings
+title: PdfDigitalSignatureDetails.TimestampSettings
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the digital signature timestamp settings.
 type: docs

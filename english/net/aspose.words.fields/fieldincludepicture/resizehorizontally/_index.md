@@ -1,5 +1,5 @@
 ---
-title: ResizeHorizontally
+title: FieldIncludePicture.ResizeHorizontally
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to resize the picture horizontally from the source.
 type: docs

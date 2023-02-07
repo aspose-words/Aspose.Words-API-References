@@ -1,5 +1,5 @@
 ---
-title: Body
+title: Class Body
 second_title: Aspose.Words for .NET API Reference
 description: Represents a container for the main text of a section.
 type: docs

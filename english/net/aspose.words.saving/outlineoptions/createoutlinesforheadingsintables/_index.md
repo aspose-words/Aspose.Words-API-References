@@ -1,5 +1,5 @@
 ---
-title: CreateOutlinesForHeadingsInTables
+title: OutlineOptions.CreateOutlinesForHeadingsInTables
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether or not to create outlines for headings paragraphs formatted with the Heading styles inside tables.
 type: docs

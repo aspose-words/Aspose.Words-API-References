@@ -1,5 +1,5 @@
 ---
-title: ProviderId
+title: SignatureLine.ProviderId
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets signature provider identifier for this signature line. Default value is 00000000000000000000000000000000.
 type: docs

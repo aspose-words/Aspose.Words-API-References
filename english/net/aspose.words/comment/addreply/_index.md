@@ -1,5 +1,5 @@
 ---
-title: AddReply
+title: Comment.AddReply
 second_title: Aspose.Words for .NET API Reference
 description: Adds a reply to this comment.
 type: docs

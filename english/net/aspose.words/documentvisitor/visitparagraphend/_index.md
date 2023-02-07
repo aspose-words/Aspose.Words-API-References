@@ -1,5 +1,5 @@
 ---
-title: VisitParagraphEnd
+title: DocumentVisitor.VisitParagraphEnd
 second_title: Aspose.Words for .NET API Reference
 description: Called when enumeration of a paragraph has ended.
 type: docs

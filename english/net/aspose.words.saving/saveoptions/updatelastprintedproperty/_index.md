@@ -1,5 +1,5 @@
 ---
-title: UpdateLastPrintedProperty
+title: SaveOptions.UpdateLastPrintedProperty
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value determining whether the LastPrinted property is updated before saving.
 type: docs

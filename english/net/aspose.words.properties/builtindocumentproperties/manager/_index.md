@@ -1,5 +1,5 @@
 ---
-title: Manager
+title: BuiltInDocumentProperties.Manager
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the manager property.
 type: docs

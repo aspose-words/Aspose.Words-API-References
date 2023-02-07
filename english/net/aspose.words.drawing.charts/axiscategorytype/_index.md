@@ -1,5 +1,5 @@
 ---
-title: AxisCategoryType
+title: Enum AxisCategoryType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies type of a category axis.
 type: docs

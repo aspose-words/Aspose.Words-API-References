@@ -1,5 +1,5 @@
 ---
-title: Type
+title: ChartAxis.Type
 second_title: Aspose.Words for .NET API Reference
 description: Returns type of the axis.
 type: docs

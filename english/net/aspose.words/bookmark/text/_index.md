@@ -1,5 +1,5 @@
 ---
-title: Text
+title: Bookmark.Text
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the text enclosed in the bookmark.
 type: docs

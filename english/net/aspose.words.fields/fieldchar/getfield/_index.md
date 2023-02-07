@@ -1,5 +1,5 @@
 ---
-title: GetField
+title: FieldChar.GetField
 second_title: Aspose.Words for .NET API Reference
 description: Returns a field for the field char.
 type: docs

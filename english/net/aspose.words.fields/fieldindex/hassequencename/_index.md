@@ -1,5 +1,5 @@
 ---
-title: HasSequenceName
+title: FieldIndex.HasSequenceName
 second_title: Aspose.Words for .NET API Reference
 description: Gets a value indicating whether a sequence should be used while the fields result building.
 type: docs

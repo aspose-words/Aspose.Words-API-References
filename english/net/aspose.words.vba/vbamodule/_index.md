@@ -1,5 +1,5 @@
 ---
-title: VbaModule
+title: Class VbaModule
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to VBA project module.
 type: docs

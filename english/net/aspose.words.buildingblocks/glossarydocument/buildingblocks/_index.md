@@ -1,5 +1,5 @@
 ---
-title: BuildingBlocks
+title: GlossaryDocument.BuildingBlocks
 second_title: Aspose.Words for .NET API Reference
 description: Returns a typed collection that represents all building blocks in the glossary document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: PatternType
+title: Enum PatternType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the fill pattern to be used to fill a shape.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Visible
+title: ShadowFormat.Visible
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if the formatting applied to this instance is visible.
 type: docs

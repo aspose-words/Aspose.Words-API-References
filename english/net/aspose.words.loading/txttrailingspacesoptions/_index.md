@@ -1,5 +1,5 @@
 ---
-title: TxtTrailingSpacesOptions
+title: Enum TxtTrailingSpacesOptions
 second_title: Aspose.Words for .NET API Reference
 description: Specifies available options for trailing spaces handling during import from Text file.
 type: docs

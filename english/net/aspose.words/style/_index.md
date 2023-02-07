@@ -1,5 +1,5 @@
 ---
-title: Style
+title: Class Style
 second_title: Aspose.Words for .NET API Reference
 description: Represents a single builtin or userdefined style.
 type: docs

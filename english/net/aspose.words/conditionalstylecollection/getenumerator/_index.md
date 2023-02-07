@@ -1,5 +1,5 @@
 ---
-title: GetEnumerator
+title: ConditionalStyleCollection.GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: Returns an enumerator object that can be used to iterate over all conditional styles in the collection.
 type: docs

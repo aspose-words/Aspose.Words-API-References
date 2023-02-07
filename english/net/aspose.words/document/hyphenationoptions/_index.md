@@ -1,5 +1,5 @@
 ---
-title: HyphenationOptions
+title: Document.HyphenationOptions
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to document hyphenation options.
 type: docs

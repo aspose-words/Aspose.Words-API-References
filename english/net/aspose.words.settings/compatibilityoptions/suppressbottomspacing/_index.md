@@ -1,5 +1,5 @@
 ---
-title: SuppressBottomSpacing
+title: CompatibilityOptions.SuppressBottomSpacing
 second_title: Aspose.Words for .NET API Reference
 description: Ignore Exact Line Height for Last Line on Page.
 type: docs

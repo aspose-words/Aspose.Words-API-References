@@ -1,5 +1,5 @@
 ---
-title: Accept
+title: AbsolutePositionTab.Accept
 second_title: Aspose.Words for .NET API Reference
 description: Accepts a visitor.
 type: docs

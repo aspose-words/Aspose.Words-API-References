@@ -1,5 +1,5 @@
 ---
-title: OleFormat
+title: Shape.OleFormat
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to the OLE data of a shape. For a shape that is not an OLE object or ActiveX control returns null.
 type: docs

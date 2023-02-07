@@ -1,5 +1,5 @@
 ---
-title: ExportFontsAsBase64
+title: HtmlSaveOptions.ExportFontsAsBase64
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether fonts resources should be embedded to HTML in Base64 encoding. Default is false.
 type: docs

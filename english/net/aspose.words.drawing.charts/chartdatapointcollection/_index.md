@@ -1,5 +1,5 @@
 ---
-title: ChartDataPointCollection
+title: Class ChartDataPointCollection
 second_title: Aspose.Words for .NET API Reference
 description: Represents collection of a ChartDataPoint.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Superscript
+title: Font.Superscript
 second_title: Aspose.Words for .NET API Reference
 description: True if the font is formatted as superscript.
 type: docs

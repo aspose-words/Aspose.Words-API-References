@@ -1,5 +1,5 @@
 ---
-title: List
+title: Class List
 second_title: Aspose.Words for .NET API Reference
 description: Represents formatting of a list.
 type: docs

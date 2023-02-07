@@ -1,5 +1,5 @@
 ---
-title: TabAlignment
+title: Enum TabAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the alignment/type of a tab stop.
 type: docs

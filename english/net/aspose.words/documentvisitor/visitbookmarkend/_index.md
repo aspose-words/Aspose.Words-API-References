@@ -1,5 +1,5 @@
 ---
-title: VisitBookmarkEnd
+title: DocumentVisitor.VisitBookmarkEnd
 second_title: Aspose.Words for .NET API Reference
 description: Called when an end of a bookmark is encountered in the document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: InsertRelativePosition
+title: FieldNoteRef.InsertRelativePosition
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to insert a relative position of the bookmarked paragraph.
 type: docs

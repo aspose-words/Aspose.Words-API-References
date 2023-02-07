@@ -1,5 +1,5 @@
 ---
-title: Characters
+title: BuiltInDocumentProperties.Characters
 second_title: Aspose.Words for .NET API Reference
 description: Represents an estimate of the number of characters in the document.
 type: docs

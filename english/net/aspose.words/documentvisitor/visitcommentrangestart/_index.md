@@ -1,5 +1,5 @@
 ---
-title: VisitCommentRangeStart
+title: DocumentVisitor.VisitCommentRangeStart
 second_title: Aspose.Words for .NET API Reference
 description: Called when the start of a commented range of text is encountered.
 type: docs

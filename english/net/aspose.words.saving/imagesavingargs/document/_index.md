@@ -1,5 +1,5 @@
 ---
-title: Document
+title: ImageSavingArgs.Document
 second_title: Aspose.Words for .NET API Reference
 description: Gets the document object that is currently being saved.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: HeaderFooter
+title: HeaderFooter.HeaderFooter
 second_title: Aspose.Words for .NET API Reference
 description: Creates a new header or footer of the specified type.
 type: docs

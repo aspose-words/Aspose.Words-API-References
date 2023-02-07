@@ -1,5 +1,5 @@
 ---
-title: DeleteRow
+title: DocumentBuilder.DeleteRow
 second_title: Aspose.Words for .NET API Reference
 description: Deletes a row from a table.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Gutter
+title: PageSetup.Gutter
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the amount of extra space added to the margin for document binding.
 type: docs

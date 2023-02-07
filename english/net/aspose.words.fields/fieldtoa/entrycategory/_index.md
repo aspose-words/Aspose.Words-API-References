@@ -1,5 +1,5 @@
 ---
-title: EntryCategory
+title: FieldToa.EntryCategory
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the integral category for entries included in the table.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: TableName
+title: IMailMergeDataSource.TableName
 second_title: Aspose.Words for .NET API Reference
 description: Returns the name of the data source.
 type: docs

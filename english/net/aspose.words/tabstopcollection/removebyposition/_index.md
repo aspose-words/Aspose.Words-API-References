@@ -1,5 +1,5 @@
 ---
-title: RemoveByPosition
+title: TabStopCollection.RemoveByPosition
 second_title: Aspose.Words for .NET API Reference
 description: Removes a tab stop at the specified position from the collection.
 type: docs

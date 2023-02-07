@@ -1,5 +1,5 @@
 ---
-title: PageIndex
+title: PageSavingArgs.PageIndex
 second_title: Aspose.Words for .NET API Reference
 description: Current page index.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Remove
+title: BaseWebExtensionCollection1.Remove
 second_title: Aspose.Words for .NET API Reference
 description: Removes the item at the specified index from the collection.
 type: docs

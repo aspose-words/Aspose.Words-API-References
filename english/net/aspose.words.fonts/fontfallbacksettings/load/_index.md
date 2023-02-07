@@ -1,5 +1,5 @@
 ---
-title: Load
+title: FontFallbackSettings.Load
 second_title: Aspose.Words for .NET API Reference
 description: Loads font fallback settings from XML file.
 type: docs

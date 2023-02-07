@@ -1,5 +1,5 @@
 ---
-title: Notify
+title: IPageLayoutCallback.Notify
 second_title: Aspose.Words for .NET API Reference
 description: This is called to notify of layout build and rendering progress.
 type: docs

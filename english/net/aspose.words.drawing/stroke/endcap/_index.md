@@ -1,5 +1,5 @@
 ---
-title: EndCap
+title: Stroke.EndCap
 second_title: Aspose.Words for .NET API Reference
 description: Defines the cap style for the end of a stroke.
 type: docs

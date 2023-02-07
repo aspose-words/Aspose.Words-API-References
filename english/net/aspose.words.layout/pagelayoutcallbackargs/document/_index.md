@@ -1,5 +1,5 @@
 ---
-title: Document
+title: PageLayoutCallbackArgs.Document
 second_title: Aspose.Words for .NET API Reference
 description: Gets document.
 type: docs

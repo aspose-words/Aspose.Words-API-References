@@ -1,5 +1,5 @@
 ---
-title: LayoutTableRowsApart
+title: CompatibilityOptions.LayoutTableRowsApart
 second_title: Aspose.Words for .NET API Reference
 description: Allow Table Rows to Wrap Inline Objects Independently.
 type: docs

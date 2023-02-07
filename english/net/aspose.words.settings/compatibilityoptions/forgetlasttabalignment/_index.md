@@ -1,5 +1,5 @@
 ---
-title: ForgetLastTabAlignment
+title: CompatibilityOptions.ForgetLastTabAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Ignore Width of Last Tab Stop When Aligning Paragraph If It Is Not Left Aligned.
 type: docs

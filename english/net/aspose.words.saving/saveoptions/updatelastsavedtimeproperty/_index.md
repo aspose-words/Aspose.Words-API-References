@@ -1,5 +1,5 @@
 ---
-title: UpdateLastSavedTimeProperty
+title: SaveOptions.UpdateLastSavedTimeProperty
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value determining whether the LastSavedTime property is updated before saving.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FontFamily
+title: Enum FontFamily
 second_title: Aspose.Words for .NET API Reference
 description: Represents the font family.
 type: docs

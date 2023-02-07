@@ -1,5 +1,5 @@
 ---
-title: Shadow
+title: Border.Shadow
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value indicating whether the border has a shadow.
 type: docs

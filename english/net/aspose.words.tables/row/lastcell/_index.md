@@ -1,5 +1,5 @@
 ---
-title: LastCell
+title: Row.LastCell
 second_title: Aspose.Words for .NET API Reference
 description: Returns the last Cell in the row.
 type: docs

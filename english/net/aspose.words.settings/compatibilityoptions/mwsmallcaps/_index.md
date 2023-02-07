@@ -1,5 +1,5 @@
 ---
-title: MWSmallCaps
+title: CompatibilityOptions.MWSmallCaps
 second_title: Aspose.Words for .NET API Reference
 description: Emulate Word 5.x for the Macintosh Small Caps Formatting.
 type: docs

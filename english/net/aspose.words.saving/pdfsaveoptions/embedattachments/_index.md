@@ -1,5 +1,5 @@
 ---
-title: EmbedAttachments
+title: PdfSaveOptions.EmbedAttachments
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value determining whether or not to embed attachments to the PDF document.
 type: docs

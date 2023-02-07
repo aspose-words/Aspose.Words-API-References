@@ -1,5 +1,5 @@
 ---
-title: WebExtensionStoreType
+title: Enum WebExtensionStoreType
 second_title: Aspose.Words for .NET API Reference
 description: Enumerates available types of a web extension store.
 type: docs

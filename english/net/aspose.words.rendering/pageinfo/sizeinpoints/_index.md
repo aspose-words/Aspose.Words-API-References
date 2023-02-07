@@ -1,5 +1,5 @@
 ---
-title: SizeInPoints
+title: PageInfo.SizeInPoints
 second_title: Aspose.Words for .NET API Reference
 description: Gets the page size in points.
 type: docs

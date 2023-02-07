@@ -1,5 +1,5 @@
 ---
-title: CalculateOnExit
+title: FormField.CalculateOnExit
 second_title: Aspose.Words for .NET API Reference
 description: True if references to the specified form field are automatically updated whenever the field is exited.
 type: docs

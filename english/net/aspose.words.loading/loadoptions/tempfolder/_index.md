@@ -1,5 +1,5 @@
 ---
-title: TempFolder
+title: LoadOptions.TempFolder
 second_title: Aspose.Words for .NET API Reference
 description: Allows to use temporary files when reading document. By default this property is null and no temporary files are used.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: CssSaving
+title: ICssSavingCallback.CssSaving
 second_title: Aspose.Words for .NET API Reference
 description: Called when Aspose.Words saves an CSS Cascading Style Sheet.
 type: docs

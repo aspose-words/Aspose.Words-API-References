@@ -1,5 +1,5 @@
 ---
-title: CategoryType
+title: ChartAxis.CategoryType
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets type of the category axis.
 type: docs

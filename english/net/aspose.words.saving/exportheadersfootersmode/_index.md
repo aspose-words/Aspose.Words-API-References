@@ -1,5 +1,5 @@
 ---
-title: ExportHeadersFootersMode
+title: Enum ExportHeadersFootersMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how headers and footers are exported to HTML MHTML or EPUB.
 type: docs

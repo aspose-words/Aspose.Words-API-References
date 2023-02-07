@@ -1,5 +1,5 @@
 ---
-title: Sections
+title: BuildingBlock.Sections
 second_title: Aspose.Words for .NET API Reference
 description: Returns a collection that represents all sections in the building block.
 type: docs

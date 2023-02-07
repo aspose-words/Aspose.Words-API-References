@@ -1,5 +1,5 @@
 ---
-title: MailMergeCallback
+title: MailMerge.MailMergeCallback
 second_title: Aspose.Words for .NET API Reference
 description: Allows to handle particular events during mail merge.
 type: docs

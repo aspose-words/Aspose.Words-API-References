@@ -1,5 +1,5 @@
 ---
-title: CleanupOptions
+title: MailMerge.CleanupOptions
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a set of flags that specify what items should be removed during mail merge.
 type: docs

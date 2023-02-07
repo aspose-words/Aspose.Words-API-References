@@ -1,5 +1,5 @@
 ---
-title: SetImage
+title: Watermark.SetImage
 second_title: Aspose.Words for .NET API Reference
 description: Adds Image watermark into the document.
 type: docs

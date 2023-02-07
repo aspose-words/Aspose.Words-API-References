@@ -1,5 +1,5 @@
 ---
-title: TaskPaneCollection
+title: Class TaskPaneCollection
 second_title: Aspose.Words for .NET API Reference
 description: Specifies a list of persisted task pane objects.
 type: docs

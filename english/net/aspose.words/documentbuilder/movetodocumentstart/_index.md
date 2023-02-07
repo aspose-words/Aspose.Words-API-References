@@ -1,5 +1,5 @@
 ---
-title: MoveToDocumentStart
+title: DocumentBuilder.MoveToDocumentStart
 second_title: Aspose.Words for .NET API Reference
 description: Moves the cursor to the beginning of the document.
 type: docs

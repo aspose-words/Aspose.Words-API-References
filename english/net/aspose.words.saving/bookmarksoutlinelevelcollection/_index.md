@@ -1,5 +1,5 @@
 ---
-title: BookmarksOutlineLevelCollection
+title: Class BookmarksOutlineLevelCollection
 second_title: Aspose.Words for .NET API Reference
 description: A collection of individual bookmarks outline level.
 type: docs

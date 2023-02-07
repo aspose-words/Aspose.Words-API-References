@@ -1,5 +1,5 @@
 ---
-title: Item
+title: StyleCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Gets a style by name or alias.
 type: docs

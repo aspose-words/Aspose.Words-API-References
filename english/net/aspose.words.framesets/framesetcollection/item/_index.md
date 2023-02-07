@@ -1,5 +1,5 @@
 ---
-title: Item
+title: FramesetCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Gets a frame or frames page at the specified index.
 type: docs

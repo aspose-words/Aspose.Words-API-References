@@ -1,5 +1,5 @@
 ---
-title: HtmlVersion
+title: HtmlSaveOptions.HtmlVersion
 second_title: Aspose.Words for .NET API Reference
 description: Specifies version of HTML standard that should be used when saving the document to HTML or MHTML. Default value is Xhtml.
 type: docs

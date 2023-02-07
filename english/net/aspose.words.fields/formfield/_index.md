@@ -1,5 +1,5 @@
 ---
-title: FormField
+title: Class FormField
 second_title: Aspose.Words for .NET API Reference
 description: Represents a single form field.
 type: docs

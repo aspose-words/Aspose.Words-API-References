@@ -1,5 +1,5 @@
 ---
-title: Title
+title: BuiltInDocumentProperties.Title
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the title of the document.
 type: docs

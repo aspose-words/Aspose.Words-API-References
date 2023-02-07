@@ -1,5 +1,5 @@
 ---
-title: UserInformation
+title: Class UserInformation
 second_title: Aspose.Words for .NET API Reference
 description: Specifies information about the user.
 type: docs

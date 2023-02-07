@@ -1,5 +1,5 @@
 ---
-title: FieldBarcode
+title: FieldBarcode.FieldBarcode
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

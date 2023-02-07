@@ -1,5 +1,5 @@
 ---
-title: SingleUser
+title: EditableRange.SingleUser
 second_title: Aspose.Words for .NET API Reference
 description: Returns or sets the single user for editable range.
 type: docs

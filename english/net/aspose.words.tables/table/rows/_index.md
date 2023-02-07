@@ -1,5 +1,5 @@
 ---
-title: Rows
+title: Table.Rows
 second_title: Aspose.Words for .NET API Reference
 description: Provides typed access to the rows of the table.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: SameLetterHeights
+title: TextPath.SameLetterHeights
 second_title: Aspose.Words for .NET API Reference
 description: Determines whether all letters will be the same height regardless of initial case.
 type: docs

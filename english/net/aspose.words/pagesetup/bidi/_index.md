@@ -1,5 +1,5 @@
 ---
-title: Bidi
+title: PageSetup.Bidi
 second_title: Aspose.Words for .NET API Reference
 description: Specifies that this section contains bidirectional complex scripts text.
 type: docs

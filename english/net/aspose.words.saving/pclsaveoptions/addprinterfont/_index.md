@@ -1,5 +1,5 @@
 ---
-title: AddPrinterFont
+title: PclSaveOptions.AddPrinterFont
 second_title: Aspose.Words for .NET API Reference
 description: Adds information about font that is uploaded to the printer by manufacturer.
 type: docs

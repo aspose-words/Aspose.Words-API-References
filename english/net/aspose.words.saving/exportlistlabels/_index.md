@@ -1,5 +1,5 @@
 ---
-title: ExportListLabels
+title: Enum ExportListLabels
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how list labels are exported to HTML MHTML and EPUB.
 type: docs

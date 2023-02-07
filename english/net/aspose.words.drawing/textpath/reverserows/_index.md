@@ -1,5 +1,5 @@
 ---
-title: ReverseRows
+title: TextPath.ReverseRows
 second_title: Aspose.Words for .NET API Reference
 description: Determines whether the layout order of rows is reversed.
 type: docs

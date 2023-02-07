@@ -1,5 +1,5 @@
 ---
-title: Document
+title: DocumentBase.Document
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs

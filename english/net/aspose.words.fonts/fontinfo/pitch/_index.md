@@ -1,5 +1,5 @@
 ---
-title: Pitch
+title: FontInfo.Pitch
 second_title: Aspose.Words for .NET API Reference
 description: The pitch indicates if the font is fixed pitch proportionally spaced or relies on a default setting.
 type: docs

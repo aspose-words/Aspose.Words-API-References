@@ -1,5 +1,5 @@
 ---
-title: ViewType
+title: Enum ViewType
 second_title: Aspose.Words for .NET API Reference
 description: Possible values for the view mode in Microsoft Word.
 type: docs

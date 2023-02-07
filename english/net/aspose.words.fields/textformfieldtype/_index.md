@@ -1,5 +1,5 @@
 ---
-title: TextFormFieldType
+title: Enum TextFormFieldType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of a text form field.
 type: docs

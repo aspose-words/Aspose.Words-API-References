@@ -1,5 +1,5 @@
 ---
-title: ChartDataLabel
+title: Class ChartDataLabel
 second_title: Aspose.Words for .NET API Reference
 description: Represents data label on a chart point or trendline.
 type: docs

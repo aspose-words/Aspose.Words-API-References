@@ -1,5 +1,5 @@
 ---
-title: PageIndex
+title: PageLayoutCallbackArgs.PageIndex
 second_title: Aspose.Words for .NET API Reference
 description: Gets 0based index of the page in the document this event relates to. Returns negative value if there is no associated page or if page was removed during reflow.
 type: docs

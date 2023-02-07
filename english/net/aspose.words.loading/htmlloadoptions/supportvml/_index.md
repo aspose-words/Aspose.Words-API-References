@@ -1,5 +1,5 @@
 ---
-title: SupportVml
+title: HtmlLoadOptions.SupportVml
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value indicating whether to support VML images.
 type: docs

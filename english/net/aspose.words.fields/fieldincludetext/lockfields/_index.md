@@ -1,5 +1,5 @@
 ---
-title: LockFields
+title: FieldIncludeText.LockFields
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to prevent fields in the included document from being updated.
 type: docs

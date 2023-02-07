@@ -1,5 +1,5 @@
 ---
-title: Hyperlink
+title: ThemeColors.Hyperlink
 second_title: Aspose.Words for .NET API Reference
 description: Specifies color for a hyperlink.
 type: docs

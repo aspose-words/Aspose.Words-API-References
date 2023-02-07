@@ -1,5 +1,5 @@
 ---
-title: FieldTA
+title: Class FieldTA
 second_title: Aspose.Words for .NET API Reference
 description: Implements the TA field.
 type: docs

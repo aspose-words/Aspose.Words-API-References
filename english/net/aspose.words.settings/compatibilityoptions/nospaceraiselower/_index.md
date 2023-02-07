@@ -1,5 +1,5 @@
 ---
-title: NoSpaceRaiseLower
+title: CompatibilityOptions.NoSpaceRaiseLower
 second_title: Aspose.Words for .NET API Reference
 description: Do Not Increase Line Height for Raised/Lowered Text.
 type: docs

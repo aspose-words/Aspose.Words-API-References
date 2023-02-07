@@ -1,5 +1,5 @@
 ---
-title: SetShading
+title: Table.SetShading
 second_title: Aspose.Words for .NET API Reference
 description: Sets shading to the specified values on whole table.
 type: docs

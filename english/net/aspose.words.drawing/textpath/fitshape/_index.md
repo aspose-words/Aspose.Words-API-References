@@ -1,5 +1,5 @@
 ---
-title: FitShape
+title: TextPath.FitShape
 second_title: Aspose.Words for .NET API Reference
 description: Defines whether the text fits bounding box of a shape.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Id
+title: WebExtensionBinding.Id
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the binding identifier.
 type: docs

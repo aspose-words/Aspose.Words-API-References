@@ -1,5 +1,5 @@
 ---
-title: Cell
+title: Cell.Cell
 second_title: Aspose.Words for .NET API Reference
 description: Initializes a new instance of the Cell class.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: LineStyle
+title: Border.LineStyle
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the border style.
 type: docs

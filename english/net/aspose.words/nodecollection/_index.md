@@ -1,5 +1,5 @@
 ---
-title: NodeCollection
+title: Class NodeCollection
 second_title: Aspose.Words for .NET API Reference
 description: Represents a collection of nodes of a specific type.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: SectionStart
+title: Enum SectionStart
 second_title: Aspose.Words for .NET API Reference
 description: The type of break at the beginning of the section.
 type: docs

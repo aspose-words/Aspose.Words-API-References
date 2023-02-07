@@ -1,5 +1,5 @@
 ---
-title: Title
+title: IStructuredDocumentTag.Title
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the friendly name associated with this SDT. Can not be null.
 type: docs

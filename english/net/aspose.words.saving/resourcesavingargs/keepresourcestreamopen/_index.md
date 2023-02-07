@@ -1,5 +1,5 @@
 ---
-title: KeepResourceStreamOpen
+title: ResourceSavingArgs.KeepResourceStreamOpen
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether Aspose.Words should keep the stream open or close it after saving a resource.
 type: docs

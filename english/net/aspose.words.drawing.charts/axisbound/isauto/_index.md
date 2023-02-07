@@ -1,5 +1,5 @@
 ---
-title: IsAuto
+title: AxisBound.IsAuto
 second_title: Aspose.Words for .NET API Reference
 description: Returns a flag indicating that axis bound should be determined automatically.
 type: docs

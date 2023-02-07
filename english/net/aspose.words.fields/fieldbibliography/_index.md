@@ -1,5 +1,5 @@
 ---
-title: FieldBibliography
+title: Class FieldBibliography
 second_title: Aspose.Words for .NET API Reference
 description: Implements the BIBLIOGRAPHY field.
 type: docs

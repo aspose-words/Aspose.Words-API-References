@@ -1,5 +1,5 @@
 ---
-title: AcceptAllRevisions
+title: Document.AcceptAllRevisions
 second_title: Aspose.Words for .NET API Reference
 description: Accepts all tracked changes in the document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: SuppressAuthor
+title: FieldCitation.SuppressAuthor
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether the author information is suppressed from the citation.
 type: docs

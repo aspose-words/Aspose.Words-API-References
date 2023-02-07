@@ -1,5 +1,5 @@
 ---
-title: PageInfo
+title: Class PageInfo
 second_title: Aspose.Words for .NET API Reference
 description: Represents information about a particular document page.
 type: docs

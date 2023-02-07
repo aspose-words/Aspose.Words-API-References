@@ -1,5 +1,5 @@
 ---
-title: PageStartingNumber
+title: PageSetup.PageStartingNumber
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the starting page number of the section.
 type: docs

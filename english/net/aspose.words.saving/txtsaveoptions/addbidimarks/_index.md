@@ -1,5 +1,5 @@
 ---
-title: AddBidiMarks
+title: TxtSaveOptions.AddBidiMarks
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether to add bidirectional marks before each BiDi run when exporting in plain text format.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ExportPageSetup
+title: HtmlSaveOptions.ExportPageSetup
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether page setup is exported to HTML MHTML or EPUB. Default is false.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: InternalMarginRight
+title: TextBox.InternalMarginRight
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the inner right margin in points for a shape.
 type: docs

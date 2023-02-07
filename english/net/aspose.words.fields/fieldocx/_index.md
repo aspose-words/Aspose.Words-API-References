@@ -1,5 +1,5 @@
 ---
-title: FieldOcx
+title: Class FieldOcx
 second_title: Aspose.Words for .NET API Reference
 description: Implements the OCX field.
 type: docs

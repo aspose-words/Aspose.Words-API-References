@@ -1,5 +1,5 @@
 ---
-title: Comments
+title: SignOptions.Comments
 second_title: Aspose.Words for .NET API Reference
 description: Specifies comments on the digital signature. Default value is empty string Empty.
 type: docs

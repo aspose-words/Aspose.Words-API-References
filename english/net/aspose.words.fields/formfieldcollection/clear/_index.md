@@ -1,5 +1,5 @@
 ---
-title: Clear
+title: FormFieldCollection.Clear
 second_title: Aspose.Words for .NET API Reference
 description: Removes all form fields from this collection and from the document.
 type: docs

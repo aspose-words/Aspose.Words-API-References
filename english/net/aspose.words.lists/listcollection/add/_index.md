@@ -1,5 +1,5 @@
 ---
-title: Add
+title: ListCollection.Add
 second_title: Aspose.Words for .NET API Reference
 description: Creates a new list based on a predefined template and adds it to the collection of lists in the document.
 type: docs

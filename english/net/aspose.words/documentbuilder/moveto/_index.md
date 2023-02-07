@@ -1,5 +1,5 @@
 ---
-title: MoveTo
+title: DocumentBuilder.MoveTo
 second_title: Aspose.Words for .NET API Reference
 description: Moves the cursor to an inline node or to the end of a paragraph.
 type: docs

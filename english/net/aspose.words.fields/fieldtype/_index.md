@@ -1,5 +1,5 @@
 ---
-title: FieldType
+title: Enum FieldType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies Microsoft Word field types.
 type: docs

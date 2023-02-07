@@ -1,5 +1,5 @@
 ---
-title: FixCheckDigit
+title: BarcodeParameters.FixCheckDigit
 second_title: Aspose.Words for .NET API Reference
 description: Whether to fix the check digit if its invalid.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Item
+title: BuildingBlockCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Retrieves a building block at the given index.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: HasSeparator
+title: FieldEnd.HasSeparator
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if this field has a separator.
 type: docs

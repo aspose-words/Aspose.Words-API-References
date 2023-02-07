@@ -1,5 +1,5 @@
 ---
-title: DocSaveOptions
+title: Class DocSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the Doc or Dot format.
 type: docs

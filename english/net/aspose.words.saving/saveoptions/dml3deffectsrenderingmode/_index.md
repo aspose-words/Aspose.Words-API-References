@@ -1,5 +1,5 @@
 ---
-title: Dml3DEffectsRenderingMode
+title: SaveOptions.Dml3DEffectsRenderingMode
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value determining how 3D effects are rendered.
 type: docs

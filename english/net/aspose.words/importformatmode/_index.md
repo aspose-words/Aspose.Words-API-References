@@ -1,5 +1,5 @@
 ---
-title: ImportFormatMode
+title: Enum ImportFormatMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how formatting is merged when importing content from another document.
 type: docs

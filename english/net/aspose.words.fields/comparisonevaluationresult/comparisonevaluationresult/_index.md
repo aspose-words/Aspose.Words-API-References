@@ -1,5 +1,5 @@
 ---
-title: ComparisonEvaluationResult
+title: ComparisonEvaluationResult.ComparisonEvaluationResult
 second_title: Aspose.Words for .NET API Reference
 description: Creates a comparison evaluation result.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: DistanceFromText
+title: BorderCollection.DistanceFromText
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets distance of the border from text in points.
 type: docs

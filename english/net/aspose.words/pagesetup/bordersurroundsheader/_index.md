@@ -1,5 +1,5 @@
 ---
-title: BorderSurroundsHeader
+title: PageSetup.BorderSurroundsHeader
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether the page border includes or excludes the header.
 type: docs

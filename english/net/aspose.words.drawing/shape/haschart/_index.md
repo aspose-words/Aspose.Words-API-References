@@ -1,5 +1,5 @@
 ---
-title: HasChart
+title: Shape.HasChart
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if this Shape has a Chart.
 type: docs

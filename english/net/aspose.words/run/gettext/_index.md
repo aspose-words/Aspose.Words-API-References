@@ -1,5 +1,5 @@
 ---
-title: GetText
+title: Run.GetText
 second_title: Aspose.Words for .NET API Reference
 description: Gets the text of the run.
 type: docs

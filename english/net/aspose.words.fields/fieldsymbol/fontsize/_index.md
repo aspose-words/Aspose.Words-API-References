@@ -1,5 +1,5 @@
 ---
-title: FontSize
+title: FieldSymbol.FontSize
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the size in points of the font of the character retrieved by the field.
 type: docs

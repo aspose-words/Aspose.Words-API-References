@@ -1,5 +1,5 @@
 ---
-title: InsertParagraphNumberInFullContext
+title: FieldStyleRef.InsertParagraphNumberInFullContext
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to insert the paragraph number of the referenced paragraph in full context.
 type: docs

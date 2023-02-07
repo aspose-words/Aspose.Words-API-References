@@ -1,5 +1,5 @@
 ---
-title: Charset
+title: FontInfo.Charset
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the character set for the font.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: GrayScale
+title: ImageData.GrayScale
 second_title: Aspose.Words for .NET API Reference
 description: Determines whether a picture will display in grayscale mode.
 type: docs

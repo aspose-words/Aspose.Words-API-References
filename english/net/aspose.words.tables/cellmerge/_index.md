@@ -1,5 +1,5 @@
 ---
-title: CellMerge
+title: Enum CellMerge
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how a cell in a table is merged with other cells.
 type: docs

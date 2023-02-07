@@ -1,5 +1,5 @@
 ---
-title: NodeImporter
+title: Class NodeImporter
 second_title: Aspose.Words for .NET API Reference
 description: Allows to efficiently perform repeated import of nodes from one document to another.
 type: docs

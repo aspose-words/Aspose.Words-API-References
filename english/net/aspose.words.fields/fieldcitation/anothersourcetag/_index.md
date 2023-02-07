@@ -1,5 +1,5 @@
 ---
-title: AnotherSourceTag
+title: FieldCitation.AnotherSourceTag
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value that mathes the Tag elements value of another source to be included in the citation.
 type: docs

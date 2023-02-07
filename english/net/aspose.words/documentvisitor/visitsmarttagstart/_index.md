@@ -1,5 +1,5 @@
 ---
-title: VisitSmartTagStart
+title: DocumentVisitor.VisitSmartTagStart
 second_title: Aspose.Words for .NET API Reference
 description: Called when enumeration of a smart tag has started.
 type: docs

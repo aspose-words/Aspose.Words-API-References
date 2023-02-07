@@ -1,5 +1,5 @@
 ---
-title: PromptText
+title: FieldAsk.PromptText
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the prompt text the title of the prompt window.
 type: docs

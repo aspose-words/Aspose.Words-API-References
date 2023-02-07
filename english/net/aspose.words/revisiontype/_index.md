@@ -1,5 +1,5 @@
 ---
-title: RevisionType
+title: Enum RevisionType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of change being tracked in Revision.
 type: docs

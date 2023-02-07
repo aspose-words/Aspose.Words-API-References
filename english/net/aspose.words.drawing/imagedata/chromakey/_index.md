@@ -1,5 +1,5 @@
 ---
-title: ChromaKey
+title: ImageData.ChromaKey
 second_title: Aspose.Words for .NET API Reference
 description: Defines the color value of the image that will be treated as transparent.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FieldFormCheckBox
+title: Class FieldFormCheckBox
 second_title: Aspose.Words for .NET API Reference
 description: Implements the FORMCHECKBOX field.
 type: docs

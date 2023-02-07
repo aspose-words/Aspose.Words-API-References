@@ -1,5 +1,5 @@
 ---
-title: LegendPosition
+title: Enum LegendPosition
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the possible positions for a chart legend.
 type: docs

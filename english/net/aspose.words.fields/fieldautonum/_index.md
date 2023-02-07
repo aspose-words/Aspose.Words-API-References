@@ -1,5 +1,5 @@
 ---
-title: FieldAutoNum
+title: Class FieldAutoNum
 second_title: Aspose.Words for .NET API Reference
 description: Implements the AUTONUM field.
 type: docs

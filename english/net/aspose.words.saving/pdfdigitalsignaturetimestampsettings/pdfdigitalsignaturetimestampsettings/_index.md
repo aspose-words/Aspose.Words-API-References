@@ -1,5 +1,5 @@
 ---
-title: PdfDigitalSignatureTimestampSettings
+title: PdfDigitalSignatureTimestampSettings.PdfDigitalSignatureTimestampSettings
 second_title: Aspose.Words for .NET API Reference
 description: Initializes an instance of this class.
 type: docs

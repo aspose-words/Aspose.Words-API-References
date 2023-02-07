@@ -1,5 +1,5 @@
 ---
-title: WarningSource
+title: Enum WarningSource
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the module that produces a warning during document loading or saving.
 type: docs

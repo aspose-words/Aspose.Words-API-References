@@ -1,5 +1,5 @@
 ---
-title: FieldMergeBarcode
+title: Class FieldMergeBarcode
 second_title: Aspose.Words for .NET API Reference
 description: Implements the MERGEBARCODE field.
 type: docs

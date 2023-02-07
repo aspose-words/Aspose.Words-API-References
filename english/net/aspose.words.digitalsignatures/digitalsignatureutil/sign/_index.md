@@ -1,5 +1,5 @@
 ---
-title: Sign
+title: DigitalSignatureUtil.Sign
 second_title: Aspose.Words for .NET API Reference
 description: Signs source document using given CertificateHolder and SignOptions with digital signature and writes signed document to destination stream.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: DashStyle
+title: Enum DashStyle
 second_title: Aspose.Words for .NET API Reference
 description: Dashed line style.
 type: docs

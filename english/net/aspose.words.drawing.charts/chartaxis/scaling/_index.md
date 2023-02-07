@@ -1,5 +1,5 @@
 ---
-title: Scaling
+title: ChartAxis.Scaling
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to the scaling options of the axis.
 type: docs

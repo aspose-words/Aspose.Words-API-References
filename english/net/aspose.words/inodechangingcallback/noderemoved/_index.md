@@ -1,5 +1,5 @@
 ---
-title: NodeRemoved
+title: INodeChangingCallback.NodeRemoved
 second_title: Aspose.Words for .NET API Reference
 description: Called when a node belonging to this document has been removed from its parent.
 type: docs

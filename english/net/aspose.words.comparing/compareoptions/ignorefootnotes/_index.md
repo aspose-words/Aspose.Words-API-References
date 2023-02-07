@@ -1,5 +1,5 @@
 ---
-title: IgnoreFootnotes
+title: CompareOptions.IgnoreFootnotes
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether to compare differences in footnotes and endnotes. By default footnotes are not ignored.
 type: docs

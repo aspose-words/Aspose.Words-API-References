@@ -1,5 +1,5 @@
 ---
-title: MajorFonts
+title: Theme.MajorFonts
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify the set of major fonts for different languages.
 type: docs

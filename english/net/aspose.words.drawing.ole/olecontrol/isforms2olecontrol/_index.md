@@ -1,5 +1,5 @@
 ---
-title: IsForms2OleControl
+title: OleControl.IsForms2OleControl
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if the control is a Forms2OleControl.
 type: docs

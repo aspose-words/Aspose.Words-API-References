@@ -1,5 +1,5 @@
 ---
-title: ChartAxis
+title: Class ChartAxis
 second_title: Aspose.Words for .NET API Reference
 description: Represents the axis options of the chart.
 type: docs

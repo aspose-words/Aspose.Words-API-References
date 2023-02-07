@@ -1,5 +1,5 @@
 ---
-title: EditableRange
+title: Class EditableRange
 second_title: Aspose.Words for .NET API Reference
 description: Represents a single editable range.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FontInfo
+title: Class FontInfo
 second_title: Aspose.Words for .NET API Reference
 description: Specifies information about a font used in the document.
 type: docs

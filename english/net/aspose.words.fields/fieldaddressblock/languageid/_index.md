@@ -1,5 +1,5 @@
 ---
-title: LanguageId
+title: FieldAddressBlock.LanguageId
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the language ID used to format the address.
 type: docs

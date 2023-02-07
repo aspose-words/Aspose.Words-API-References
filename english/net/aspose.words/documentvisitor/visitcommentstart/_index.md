@@ -1,5 +1,5 @@
 ---
-title: VisitCommentStart
+title: DocumentVisitor.VisitCommentStart
 second_title: Aspose.Words for .NET API Reference
 description: Called when enumeration of a comment text has started.
 type: docs

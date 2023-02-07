@@ -1,5 +1,5 @@
 ---
-title: SymbolRotation
+title: BarcodeParameters.SymbolRotation
 second_title: Aspose.Words for .NET API Reference
 description: Rotation of the barcode symbol. Valid values are 0 3.
 type: docs

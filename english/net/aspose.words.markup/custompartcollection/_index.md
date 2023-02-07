@@ -1,5 +1,5 @@
 ---
-title: CustomPartCollection
+title: Class CustomPartCollection
 second_title: Aspose.Words for .NET API Reference
 description: Represents a collection of CustomPart objects.
 type: docs

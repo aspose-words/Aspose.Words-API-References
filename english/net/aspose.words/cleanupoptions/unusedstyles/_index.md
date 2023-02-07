@@ -1,5 +1,5 @@
 ---
-title: UnusedStyles
+title: CleanupOptions.UnusedStyles
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether unused styles should be removed from document. Default value is true.
 type: docs

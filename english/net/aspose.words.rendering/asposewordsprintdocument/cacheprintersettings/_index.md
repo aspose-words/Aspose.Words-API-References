@@ -1,5 +1,5 @@
 ---
-title: CachePrinterSettings
+title: AsposeWordsPrintDocument.CachePrinterSettings
 second_title: Aspose.Words for .NET API Reference
 description: Reads and caches some fields of PrinterSettings to reduce printing time.
 type: docs

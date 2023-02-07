@@ -1,5 +1,5 @@
 ---
-title: UseInvariantCultureNumberFormat
+title: FieldOptions.UseInvariantCultureNumberFormat
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the value indicating that number format is parsed using invariant culture or not
 type: docs

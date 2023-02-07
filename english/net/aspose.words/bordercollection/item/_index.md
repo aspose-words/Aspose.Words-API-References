@@ -1,5 +1,5 @@
 ---
-title: Item
+title: BorderCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Retrieves a Border object by border type.
 type: docs

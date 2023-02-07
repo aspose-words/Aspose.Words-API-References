@@ -1,5 +1,5 @@
 ---
-title: Clsid
+title: OleFormat.Clsid
 second_title: Aspose.Words for .NET API Reference
 description: Gets the CLSID of the OLE object.
 type: docs

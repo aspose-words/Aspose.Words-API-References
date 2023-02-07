@@ -1,5 +1,5 @@
 ---
-title: BuildVersionInfo
+title: Class BuildVersionInfo
 second_title: Aspose.Words for .NET API Reference
 description: Provides information about the current product name and version.
 type: docs

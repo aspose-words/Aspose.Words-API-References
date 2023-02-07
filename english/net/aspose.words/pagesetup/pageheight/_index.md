@@ -1,5 +1,5 @@
 ---
-title: PageHeight
+title: PageSetup.PageHeight
 second_title: Aspose.Words for .NET API Reference
 description: Returns or sets the height of the page in points.
 type: docs

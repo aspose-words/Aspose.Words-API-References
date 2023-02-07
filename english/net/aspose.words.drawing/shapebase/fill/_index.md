@@ -1,5 +1,5 @@
 ---
-title: Fill
+title: ShapeBase.Fill
 second_title: Aspose.Words for .NET API Reference
 description: Gets fill formatting for the shape.
 type: docs

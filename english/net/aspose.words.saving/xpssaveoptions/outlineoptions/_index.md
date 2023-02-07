@@ -1,5 +1,5 @@
 ---
-title: OutlineOptions
+title: XpsSaveOptions.OutlineOptions
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify outline options.
 type: docs

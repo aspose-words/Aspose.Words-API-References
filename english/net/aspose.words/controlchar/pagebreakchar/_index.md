@@ -1,5 +1,5 @@
 ---
-title: PageBreakChar
+title: ControlChar.PageBreakChar
 second_title: Aspose.Words for .NET API Reference
 description: Page break character char12 or f.
 type: docs

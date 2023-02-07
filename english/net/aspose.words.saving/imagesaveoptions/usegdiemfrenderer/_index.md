@@ -1,5 +1,5 @@
 ---
-title: UseGdiEmfRenderer
+title: ImageSaveOptions.UseGdiEmfRenderer
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value determining whether to use GDI or Aspose.Words metafile renderer when saving to EMF.
 type: docs

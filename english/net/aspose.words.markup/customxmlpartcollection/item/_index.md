@@ -1,5 +1,5 @@
 ---
-title: Item
+title: CustomXmlPartCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets an item at the specified index.
 type: docs

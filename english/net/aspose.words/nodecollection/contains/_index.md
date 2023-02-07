@@ -1,5 +1,5 @@
 ---
-title: Contains
+title: NodeCollection.Contains
 second_title: Aspose.Words for .NET API Reference
 description: Determines whether a node is in the collection.
 type: docs

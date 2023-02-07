@@ -1,5 +1,5 @@
 ---
-title: DropCapPosition
+title: Enum DropCapPosition
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the position for a drop cap text.
 type: docs

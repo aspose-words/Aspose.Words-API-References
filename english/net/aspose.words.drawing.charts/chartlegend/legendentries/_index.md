@@ -1,5 +1,5 @@
 ---
-title: LegendEntries
+title: ChartLegend.LegendEntries
 second_title: Aspose.Words for .NET API Reference
 description: Returns a collection of legend entries for all series and trendlines of the parent chart.
 type: docs

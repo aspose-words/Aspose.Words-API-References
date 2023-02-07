@@ -1,5 +1,5 @@
 ---
-title: ResourcesFolder
+title: SvgSaveOptions.ResourcesFolder
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the physical folder where resources images are saved when exporting a document to Svg format. Default is null.
 type: docs

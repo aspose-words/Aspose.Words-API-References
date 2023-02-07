@@ -1,5 +1,5 @@
 ---
-title: AdjustWithEffects
+title: ShapeBase.AdjustWithEffects
 second_title: Aspose.Words for .NET API Reference
 description: Adds to the source rectangle values of the effect extent and returns the final rectangle.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Author
+title: Comment.Author
 second_title: Aspose.Words for .NET API Reference
 description: Returns or sets the author name for a comment.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ResourcesFolderAlias
+title: HtmlFixedSaveOptions.ResourcesFolderAlias
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the name of the folder used to construct image URIs written into an Html document. Default is null.
 type: docs

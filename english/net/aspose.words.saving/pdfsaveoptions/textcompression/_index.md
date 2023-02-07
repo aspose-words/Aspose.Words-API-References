@@ -1,5 +1,5 @@
 ---
-title: TextCompression
+title: PdfSaveOptions.TextCompression
 second_title: Aspose.Words for .NET API Reference
 description: Specifies compression type to be used for all textual content in the document.
 type: docs

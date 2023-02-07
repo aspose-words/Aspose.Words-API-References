@@ -1,5 +1,5 @@
 ---
-title: SpaceForUL
+title: CompatibilityOptions.SpaceForUL
 second_title: Aspose.Words for .NET API Reference
 description: Add Additional Space Below Baseline For Underlined East Asian Text.
 type: docs

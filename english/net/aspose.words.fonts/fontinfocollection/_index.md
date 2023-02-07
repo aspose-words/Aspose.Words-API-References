@@ -1,5 +1,5 @@
 ---
-title: FontInfoCollection
+title: Class FontInfoCollection
 second_title: Aspose.Words for .NET API Reference
 description: Represents a collection of fonts used in a document.
 type: docs

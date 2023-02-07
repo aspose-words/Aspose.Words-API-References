@@ -1,5 +1,5 @@
 ---
-title: MoveToSection
+title: DocumentBuilder.MoveToSection
 second_title: Aspose.Words for .NET API Reference
 description: Moves the cursor to the beginning of the body in a specified section.
 type: docs

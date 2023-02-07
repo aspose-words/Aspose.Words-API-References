@@ -1,5 +1,5 @@
 ---
-title: BuiltInDocumentProperties
+title: PlainTextDocument.BuiltInDocumentProperties
 second_title: Aspose.Words for .NET API Reference
 description: Gets BuiltInDocumentProperties of the document.
 type: docs

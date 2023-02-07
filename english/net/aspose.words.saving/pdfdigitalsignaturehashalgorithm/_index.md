@@ -1,5 +1,5 @@
 ---
-title: PdfDigitalSignatureHashAlgorithm
+title: Enum PdfDigitalSignatureHashAlgorithm
 second_title: Aspose.Words for .NET API Reference
 description: Specifies a digital hash algorithm used by a digital signature.
 type: docs

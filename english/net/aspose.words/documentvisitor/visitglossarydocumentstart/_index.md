@@ -1,5 +1,5 @@
 ---
-title: VisitGlossaryDocumentStart
+title: DocumentVisitor.VisitGlossaryDocumentStart
 second_title: Aspose.Words for .NET API Reference
 description: Called when enumeration of a glossary document has started.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: AxisDisplayUnit
+title: AxisDisplayUnit.AxisDisplayUnit
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

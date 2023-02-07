@@ -1,5 +1,5 @@
 ---
-title: MoveLastChild
+title: LayoutEnumerator.MoveLastChild
 second_title: Aspose.Words for .NET API Reference
 description: Moves to the last child entity.
 type: docs

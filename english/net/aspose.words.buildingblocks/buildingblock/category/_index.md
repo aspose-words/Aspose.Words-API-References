@@ -1,5 +1,5 @@
 ---
-title: Category
+title: BuildingBlock.Category
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the secondlevel categorization for the building block.
 type: docs

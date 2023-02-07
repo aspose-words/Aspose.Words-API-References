@@ -1,5 +1,5 @@
 ---
-title: IndexOf
+title: NodeCollection.IndexOf
 second_title: Aspose.Words for .NET API Reference
 description: Returns the zerobased index of the specified node.
 type: docs

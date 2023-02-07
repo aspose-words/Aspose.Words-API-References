@@ -1,5 +1,5 @@
 ---
-title: SaveImagesAsWmf
+title: RtfSaveOptions.SaveImagesAsWmf
 second_title: Aspose.Words for .NET API Reference
 description: When true all images will be saved as WMF.
 type: docs

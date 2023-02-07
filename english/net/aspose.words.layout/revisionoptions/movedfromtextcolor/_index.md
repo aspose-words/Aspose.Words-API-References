@@ -1,5 +1,5 @@
 ---
-title: MovedFromTextColor
+title: RevisionOptions.MovedFromTextColor
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify the color to be used for areas where content was moved from Moving. Default value is ByAuthor.
 type: docs

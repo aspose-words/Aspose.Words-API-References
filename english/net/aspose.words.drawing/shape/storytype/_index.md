@@ -1,5 +1,5 @@
 ---
-title: StoryType
+title: Shape.StoryType
 second_title: Aspose.Words for .NET API Reference
 description: Returns Textbox.
 type: docs

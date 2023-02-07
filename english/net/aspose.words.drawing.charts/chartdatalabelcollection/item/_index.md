@@ -1,5 +1,5 @@
 ---
-title: Item
+title: ChartDataLabelCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Returns ChartDataLabel for the specified index.
 type: docs

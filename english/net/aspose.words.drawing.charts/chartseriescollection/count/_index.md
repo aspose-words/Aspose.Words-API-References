@@ -1,5 +1,5 @@
 ---
-title: Count
+title: ChartSeriesCollection.Count
 second_title: Aspose.Words for .NET API Reference
 description: Returns the number of ChartSeries in this collection.
 type: docs

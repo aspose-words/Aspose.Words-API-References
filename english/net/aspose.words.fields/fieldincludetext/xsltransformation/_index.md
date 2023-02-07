@@ -1,5 +1,5 @@
 ---
-title: XslTransformation
+title: FieldIncludeText.XslTransformation
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the location of XSL Transformation to format XML data.
 type: docs

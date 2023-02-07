@@ -1,5 +1,5 @@
 ---
-title: InsertAsBitmap
+title: FieldLink.InsertAsBitmap
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to insert the linked object as a bitmap.
 type: docs

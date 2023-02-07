@@ -1,5 +1,5 @@
 ---
-title: AllowBreakAcrossPages
+title: TableStyle.AllowBreakAcrossPages
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a flag indicating whether text in a table row is allowed to split across a page break.
 type: docs

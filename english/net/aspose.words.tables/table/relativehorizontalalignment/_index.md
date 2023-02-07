@@ -1,5 +1,5 @@
 ---
-title: RelativeHorizontalAlignment
+title: Table.RelativeHorizontalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets floating table relative horizontal alignment.
 type: docs

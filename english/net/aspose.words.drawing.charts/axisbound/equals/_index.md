@@ -1,5 +1,5 @@
 ---
-title: Equals
+title: AxisBound.Equals
 second_title: Aspose.Words for .NET API Reference
 description: Determines whether the specified object is equal in value to the current object.
 type: docs

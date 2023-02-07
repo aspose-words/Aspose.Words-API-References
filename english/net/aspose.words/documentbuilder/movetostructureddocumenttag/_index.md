@@ -1,5 +1,5 @@
 ---
-title: MoveToStructuredDocumentTag
+title: DocumentBuilder.MoveToStructuredDocumentTag
 second_title: Aspose.Words for .NET API Reference
 description: Moves the cursor to a structured document tag in the current section.
 type: docs

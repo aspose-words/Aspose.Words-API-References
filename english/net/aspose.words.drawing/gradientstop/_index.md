@@ -1,5 +1,5 @@
 ---
-title: GradientStop
+title: Class GradientStop
 second_title: Aspose.Words for .NET API Reference
 description: Represents one gradient stop.
 type: docs

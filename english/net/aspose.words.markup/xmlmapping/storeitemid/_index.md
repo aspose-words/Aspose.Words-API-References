@@ -1,5 +1,5 @@
 ---
-title: StoreItemId
+title: XmlMapping.StoreItemId
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the custom XML data identifier for the custom XML data part which shall be used to evaluate the XPath expression.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: RightExpression
+title: ComparisonExpression.RightExpression
 second_title: Aspose.Words for .NET API Reference
 description: Gets the right expression.
 type: docs

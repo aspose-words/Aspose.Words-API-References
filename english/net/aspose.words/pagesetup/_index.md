@@ -1,5 +1,5 @@
 ---
-title: PageSetup
+title: Class PageSetup
 second_title: Aspose.Words for .NET API Reference
 description: Represents the page setup properties of a section.
 type: docs

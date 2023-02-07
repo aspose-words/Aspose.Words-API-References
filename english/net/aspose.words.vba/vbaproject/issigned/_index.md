@@ -1,5 +1,5 @@
 ---
-title: IsSigned
+title: VbaProject.IsSigned
 second_title: Aspose.Words for .NET API Reference
 description: Shows whether the VbaProject is signed or not.
 type: docs

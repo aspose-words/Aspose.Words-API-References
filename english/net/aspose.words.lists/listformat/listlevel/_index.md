@@ -1,5 +1,5 @@
 ---
-title: ListLevel
+title: ListFormat.ListLevel
 second_title: Aspose.Words for .NET API Reference
 description: Returns the list level formatting plus any formatting overrides applied to the current paragraph.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FieldOptions
+title: Document.FieldOptions
 second_title: Aspose.Words for .NET API Reference
 description: Gets a FieldOptions object that represents options to control field handling in the document.
 type: docs

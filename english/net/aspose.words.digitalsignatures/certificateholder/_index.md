@@ -1,5 +1,5 @@
 ---
-title: CertificateHolder
+title: Class CertificateHolder
 second_title: Aspose.Words for .NET API Reference
 description: Represents a holder of X509Certificate2 instance.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: RemoveNumbers
+title: ListFormat.RemoveNumbers
 second_title: Aspose.Words for .NET API Reference
 description: Removes numbers or bullets from the current paragraph and sets list level to zero.
 type: docs

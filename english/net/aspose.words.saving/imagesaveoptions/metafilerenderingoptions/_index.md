@@ -1,5 +1,5 @@
 ---
-title: MetafileRenderingOptions
+title: ImageSaveOptions.MetafileRenderingOptions
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify how metafiles are treated in the rendered output.
 type: docs

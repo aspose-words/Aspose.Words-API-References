@@ -1,5 +1,5 @@
 ---
-title: ProgId
+title: FieldLink.ProgId
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the application type of the link information.
 type: docs

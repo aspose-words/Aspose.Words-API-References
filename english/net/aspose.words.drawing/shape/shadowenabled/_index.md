@@ -1,5 +1,5 @@
 ---
-title: ShadowEnabled
+title: Shape.ShadowEnabled
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if a shadow effect is enabled.
 type: docs

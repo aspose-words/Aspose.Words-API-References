@@ -1,5 +1,5 @@
 ---
-title: OriginalUri
+title: ResourceLoadingArgs.OriginalUri
 second_title: Aspose.Words for .NET API Reference
 description: Original URI of the resource as specified in imported document.
 type: docs

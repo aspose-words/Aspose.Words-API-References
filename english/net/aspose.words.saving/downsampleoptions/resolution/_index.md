@@ -1,5 +1,5 @@
 ---
-title: Resolution
+title: DownsampleOptions.Resolution
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the resolution in pixels per inch which the images should be downsampled to.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: GetEnumerator
+title: MappedDataFieldCollection.GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: Returns a dictionary enumerator object that can be used to iterate over all items in the collection.
 type: docs

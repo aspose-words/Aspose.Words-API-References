@@ -1,5 +1,5 @@
 ---
-title: FieldUpdating
+title: IFieldUpdatingCallback.FieldUpdating
 second_title: Aspose.Words for .NET API Reference
 description: A user defined method that is called just before a field is updated.
 type: docs

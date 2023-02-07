@@ -1,5 +1,5 @@
 ---
-title: OdsoRecipientDataCollection
+title: Class OdsoRecipientDataCollection
 second_title: Aspose.Words for .NET API Reference
 description: A typed collection of OdsoRecipientData
 type: docs

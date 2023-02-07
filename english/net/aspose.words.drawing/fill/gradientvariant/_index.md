@@ -1,5 +1,5 @@
 ---
-title: GradientVariant
+title: Fill.GradientVariant
 second_title: Aspose.Words for .NET API Reference
 description: Gets the gradient variant GradientVariant for the fill.
 type: docs

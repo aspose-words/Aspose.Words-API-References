@@ -1,5 +1,5 @@
 ---
-title: SpaceBeforeAuto
+title: ParagraphFormat.SpaceBeforeAuto
 second_title: Aspose.Words for .NET API Reference
 description: True if the amount of spacing before the paragraph is set automatically.
 type: docs

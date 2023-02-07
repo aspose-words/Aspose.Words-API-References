@@ -1,5 +1,5 @@
 ---
-title: ProtectionType
+title: Document.ProtectionType
 second_title: Aspose.Words for .NET API Reference
 description: Gets the currently active document protection type.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: LineSpacingRule
+title: ParagraphFormat.LineSpacingRule
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the line spacing for the paragraph.
 type: docs

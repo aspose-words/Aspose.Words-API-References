@@ -1,5 +1,5 @@
 ---
-title: Save
+title: OleFormat.Save
 second_title: Aspose.Words for .NET API Reference
 description: Saves the data of the embedded object into the specified stream.
 type: docs

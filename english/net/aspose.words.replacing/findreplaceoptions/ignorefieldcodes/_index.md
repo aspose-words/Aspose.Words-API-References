@@ -1,5 +1,5 @@
 ---
-title: IgnoreFieldCodes
+title: FindReplaceOptions.IgnoreFieldCodes
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a boolean value indicating either to ignore text inside field codes. The default value is false.
 type: docs

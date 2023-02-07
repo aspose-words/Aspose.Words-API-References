@@ -1,5 +1,5 @@
 ---
-title: Node
+title: Class Node
 second_title: Aspose.Words for .NET API Reference
 description: Base class for all nodes of a Word document.
 type: docs

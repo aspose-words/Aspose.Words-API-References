@@ -1,5 +1,5 @@
 ---
-title: UsePrinterMetrics
+title: CompatibilityOptions.UsePrinterMetrics
 second_title: Aspose.Words for .NET API Reference
 description: Use Printer Metrics To Display Documents.
 type: docs

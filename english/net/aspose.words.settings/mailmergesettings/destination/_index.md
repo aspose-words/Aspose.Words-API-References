@@ -1,5 +1,5 @@
 ---
-title: Destination
+title: MailMergeSettings.Destination
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how Microsoft Word will output the results of a mail merge. The default value is Default.
 type: docs

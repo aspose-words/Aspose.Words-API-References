@@ -1,5 +1,5 @@
 ---
-title: DateTimeFormat
+title: FieldFormat.DateTimeFormat
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a formatting that is applied to a date and time field result. Corresponds to the  switch.
 type: docs

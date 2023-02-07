@@ -1,5 +1,5 @@
 ---
-title: UserPromptRespondent
+title: FieldOptions.UserPromptRespondent
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the respondent to user prompts during field update.
 type: docs

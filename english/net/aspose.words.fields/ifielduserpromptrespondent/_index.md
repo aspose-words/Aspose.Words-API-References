@@ -1,5 +1,5 @@
 ---
-title: IFieldUserPromptRespondent
+title: Interface IFieldUserPromptRespondent
 second_title: Aspose.Words for .NET API Reference
 description: Represents the respondent to user prompts during field update.
 type: docs

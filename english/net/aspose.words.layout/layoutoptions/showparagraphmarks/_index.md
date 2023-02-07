@@ -1,5 +1,5 @@
 ---
-title: ShowParagraphMarks
+title: LayoutOptions.ShowParagraphMarks
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets indication of whether paragraph marks are rendered. Default is false.
 type: docs

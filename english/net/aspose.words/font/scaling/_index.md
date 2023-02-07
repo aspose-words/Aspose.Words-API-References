@@ -1,5 +1,5 @@
 ---
-title: Scaling
+title: Font.Scaling
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets character width scaling in percent.
 type: docs

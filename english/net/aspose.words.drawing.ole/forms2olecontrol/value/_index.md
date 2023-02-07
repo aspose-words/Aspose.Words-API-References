@@ -1,5 +1,5 @@
 ---
-title: Value
+title: Forms2OleControl.Value
 second_title: Aspose.Words for .NET API Reference
 description: Gets underlying Value property which often represents control state. For example checked option button has 1 value while unchecked has 0. Default value is an empty string.
 type: docs

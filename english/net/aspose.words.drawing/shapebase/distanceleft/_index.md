@@ -1,5 +1,5 @@
 ---
-title: DistanceLeft
+title: ShapeBase.DistanceLeft
 second_title: Aspose.Words for .NET API Reference
 description: Returns or sets the distance in points between the document text and the left edge of the shape.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: AutoUpdate
+title: FieldLink.AutoUpdate
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to update this field automatically.
 type: docs

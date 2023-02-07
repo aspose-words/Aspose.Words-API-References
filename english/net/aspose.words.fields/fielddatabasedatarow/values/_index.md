@@ -1,5 +1,5 @@
 ---
-title: Values
+title: FieldDatabaseDataRow.Values
 second_title: Aspose.Words for .NET API Reference
 description: Gets values that belong to this row.
 type: docs

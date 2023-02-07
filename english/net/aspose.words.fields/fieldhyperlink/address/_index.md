@@ -1,5 +1,5 @@
 ---
-title: Address
+title: FieldHyperlink.Address
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a location where this hyperlink jumps.
 type: docs

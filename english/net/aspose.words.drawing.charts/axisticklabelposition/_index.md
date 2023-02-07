@@ -1,5 +1,5 @@
 ---
-title: AxisTickLabelPosition
+title: Enum AxisTickLabelPosition
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the possible positions for tick labels.
 type: docs

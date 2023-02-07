@@ -1,5 +1,5 @@
 ---
-title: Hidden
+title: Font.Hidden
 second_title: Aspose.Words for .NET API Reference
 description: True if the font is formatted as hidden text.
 type: docs

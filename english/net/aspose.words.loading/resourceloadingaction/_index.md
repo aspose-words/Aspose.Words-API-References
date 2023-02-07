@@ -1,5 +1,5 @@
 ---
-title: ResourceLoadingAction
+title: Enum ResourceLoadingAction
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the mode of resource loading.
 type: docs

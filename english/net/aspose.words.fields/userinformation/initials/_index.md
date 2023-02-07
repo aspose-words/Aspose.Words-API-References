@@ -1,5 +1,5 @@
 ---
-title: Initials
+title: UserInformation.Initials
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the users initials.
 type: docs

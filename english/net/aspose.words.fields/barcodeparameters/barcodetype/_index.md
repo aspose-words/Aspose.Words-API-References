@@ -1,5 +1,5 @@
 ---
-title: BarcodeType
+title: BarcodeParameters.BarcodeType
 second_title: Aspose.Words for .NET API Reference
 description: Bar code type.
 type: docs

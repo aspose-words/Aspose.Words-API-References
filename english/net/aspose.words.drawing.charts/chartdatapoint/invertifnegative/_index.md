@@ -1,5 +1,5 @@
 ---
-title: InvertIfNegative
+title: ChartDataPoint.InvertIfNegative
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: TopPadding
+title: CellFormat.TopPadding
 second_title: Aspose.Words for .NET API Reference
 description: Returns or sets the amount of space in points to add above the contents of cell.
 type: docs

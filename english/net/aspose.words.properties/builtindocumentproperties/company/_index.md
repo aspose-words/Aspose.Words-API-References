@@ -1,5 +1,5 @@
 ---
-title: Company
+title: BuiltInDocumentProperties.Company
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the company property.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Subscript
+title: Font.Subscript
 second_title: Aspose.Words for .NET API Reference
 description: True if the font is formatted as subscript.
 type: docs

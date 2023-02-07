@@ -1,5 +1,5 @@
 ---
-title: Load
+title: TableSubstitutionRule.Load
 second_title: Aspose.Words for .NET API Reference
 description: Loads table substitution settings from XML file.
 type: docs

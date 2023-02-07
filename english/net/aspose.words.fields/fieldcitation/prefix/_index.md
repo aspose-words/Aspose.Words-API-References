@@ -1,5 +1,5 @@
 ---
-title: Prefix
+title: FieldCitation.Prefix
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a prefix that is prepended to the citation.
 type: docs

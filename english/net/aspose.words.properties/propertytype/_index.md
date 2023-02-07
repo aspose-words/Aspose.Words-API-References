@@ -1,5 +1,5 @@
 ---
-title: PropertyType
+title: Enum PropertyType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies data type of a document property.
 type: docs

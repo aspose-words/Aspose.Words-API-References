@@ -1,5 +1,5 @@
 ---
-title: RevisionBarsPosition
+title: RevisionOptions.RevisionBarsPosition
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets rendering position of revision bars. Default value is Outside.
 type: docs

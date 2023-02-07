@@ -1,5 +1,5 @@
 ---
-title: BuildReport
+title: ReportingEngine.BuildReport
 second_title: Aspose.Words for .NET API Reference
 description: Populates the specified template document with data from the specified source making it a ready report.
 type: docs

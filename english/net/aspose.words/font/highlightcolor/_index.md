@@ -1,5 +1,5 @@
 ---
-title: HighlightColor
+title: Font.HighlightColor
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the highlight marker color.
 type: docs

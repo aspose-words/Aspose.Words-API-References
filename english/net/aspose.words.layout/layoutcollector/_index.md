@@ -1,5 +1,5 @@
 ---
-title: LayoutCollector
+title: Class LayoutCollector
 second_title: Aspose.Words for .NET API Reference
 description: This class allows to compute page numbers of document nodes.
 type: docs

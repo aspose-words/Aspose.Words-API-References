@@ -1,5 +1,5 @@
 ---
-title: CompareMoves
+title: CompareOptions.CompareMoves
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether to compare differences in MoveRevision between the two documents. By default move revisions are not produced.
 type: docs

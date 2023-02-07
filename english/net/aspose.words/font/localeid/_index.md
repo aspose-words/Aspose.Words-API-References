@@ -1,5 +1,5 @@
 ---
-title: LocaleId
+title: Font.LocaleId
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the locale identifier language of the formatted characters.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: SignatureLine
+title: Class SignatureLine
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to signature line properties.
 type: docs

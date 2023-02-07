@@ -1,5 +1,5 @@
 ---
-title: LanguagePreferences
+title: Class LanguagePreferences
 second_title: Aspose.Words for .NET API Reference
 description: Allows to set up language preferences.
 type: docs

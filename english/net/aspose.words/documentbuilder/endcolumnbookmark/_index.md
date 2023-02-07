@@ -1,5 +1,5 @@
 ---
-title: EndColumnBookmark
+title: DocumentBuilder.EndColumnBookmark
 second_title: Aspose.Words for .NET API Reference
 description: Marks the current position in the document as a column bookmark end. The position must be in a table cell.
 type: docs

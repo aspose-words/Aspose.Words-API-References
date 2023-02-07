@@ -1,5 +1,5 @@
 ---
-title: Save
+title: ImageData.Save
 second_title: Aspose.Words for .NET API Reference
 description: Saves the image into the specified stream.
 type: docs

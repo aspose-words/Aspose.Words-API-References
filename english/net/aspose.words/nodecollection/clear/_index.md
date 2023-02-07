@@ -1,5 +1,5 @@
 ---
-title: Clear
+title: NodeCollection.Clear
 second_title: Aspose.Words for .NET API Reference
 description: Removes all nodes from this collection and from the document.
 type: docs

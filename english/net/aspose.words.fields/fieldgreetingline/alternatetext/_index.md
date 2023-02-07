@@ -1,5 +1,5 @@
 ---
-title: AlternateText
+title: FieldGreetingLine.AlternateText
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the text to include in the field if the name is blank.
 type: docs

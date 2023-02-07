@@ -1,5 +1,5 @@
 ---
-title: SetFontsSources
+title: FontSettings.SetFontsSources
 second_title: Aspose.Words for .NET API Reference
 description: Sets the sources where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts.
 type: docs

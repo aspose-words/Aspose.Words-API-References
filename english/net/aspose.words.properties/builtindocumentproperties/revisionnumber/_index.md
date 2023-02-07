@@ -1,5 +1,5 @@
 ---
-title: RevisionNumber
+title: BuiltInDocumentProperties.RevisionNumber
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the document revision number.
 type: docs

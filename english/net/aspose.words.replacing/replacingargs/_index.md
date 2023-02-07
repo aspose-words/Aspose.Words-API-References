@@ -1,5 +1,5 @@
 ---
-title: ReplacingArgs
+title: Class ReplacingArgs
 second_title: Aspose.Words for .NET API Reference
 description: Provides data for a custom replace operation.
 type: docs

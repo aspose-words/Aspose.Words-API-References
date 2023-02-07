@@ -1,5 +1,5 @@
 ---
-title: ConvMailMergeEsc
+title: CompatibilityOptions.ConvMailMergeEsc
 second_title: Aspose.Words for .NET API Reference
 description: Treat Backslash Quotation Delimiter as Two Quotation Marks.
 type: docs

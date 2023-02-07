@@ -1,5 +1,5 @@
 ---
-title: All
+title: PageSet.All
 second_title: Aspose.Words for .NET API Reference
 description: Gets a set with all the pages of the document in their original order.
 type: docs

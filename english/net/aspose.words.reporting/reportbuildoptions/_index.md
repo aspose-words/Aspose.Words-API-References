@@ -1,5 +1,5 @@
 ---
-title: ReportBuildOptions
+title: Enum ReportBuildOptions
 second_title: Aspose.Words for .NET API Reference
 description: Specifies options controlling behavior of ReportingEngine while building a report.
 type: docs

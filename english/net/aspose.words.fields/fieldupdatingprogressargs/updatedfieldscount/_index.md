@@ -1,5 +1,5 @@
 ---
-title: UpdatedFieldsCount
+title: FieldUpdatingProgressArgs.UpdatedFieldsCount
 second_title: Aspose.Words for .NET API Reference
 description: Gets the number of updated fields.
 type: docs

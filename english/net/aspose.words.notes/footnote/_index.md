@@ -1,5 +1,5 @@
 ---
-title: Footnote
+title: Class Footnote
 second_title: Aspose.Words for .NET API Reference
 description: Represents a container for text of a footnote or endnote.
 type: docs

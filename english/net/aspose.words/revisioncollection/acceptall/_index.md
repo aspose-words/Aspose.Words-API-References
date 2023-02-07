@@ -1,5 +1,5 @@
 ---
-title: AcceptAll
+title: RevisionCollection.AcceptAll
 second_title: Aspose.Words for .NET API Reference
 description: Accepts all revisions in this collection.
 type: docs

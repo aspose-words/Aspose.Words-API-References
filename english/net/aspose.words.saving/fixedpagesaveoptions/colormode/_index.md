@@ -1,5 +1,5 @@
 ---
-title: ColorMode
+title: FixedPageSaveOptions.ColorMode
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value determining how colors are rendered.
 type: docs

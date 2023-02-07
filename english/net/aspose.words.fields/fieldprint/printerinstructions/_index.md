@@ -1,5 +1,5 @@
 ---
-title: PrinterInstructions
+title: FieldPrint.PrinterInstructions
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the printerspecific control code characters or PostScript instructions.
 type: docs

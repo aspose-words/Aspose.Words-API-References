@@ -1,5 +1,5 @@
 ---
-title: EntryLevel
+title: FieldTC.EntryLevel
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the level of the entry.
 type: docs

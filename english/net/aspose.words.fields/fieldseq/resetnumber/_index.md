@@ -1,5 +1,5 @@
 ---
-title: ResetNumber
+title: FieldSeq.ResetNumber
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets an integer number to reset the sequence number to. Returns 1 if the number is absent.
 type: docs

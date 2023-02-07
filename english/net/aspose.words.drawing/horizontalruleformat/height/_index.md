@@ -1,5 +1,5 @@
 ---
-title: Height
+title: HorizontalRuleFormat.Height
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the height of the horizontal rule.
 type: docs

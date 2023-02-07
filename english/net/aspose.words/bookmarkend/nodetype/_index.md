@@ -1,5 +1,5 @@
 ---
-title: NodeType
+title: BookmarkEnd.NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Returns BookmarkEnd.
 type: docs

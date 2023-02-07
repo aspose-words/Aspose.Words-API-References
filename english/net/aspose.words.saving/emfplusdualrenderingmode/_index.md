@@ -1,5 +1,5 @@
 ---
-title: EmfPlusDualRenderingMode
+title: Enum EmfPlusDualRenderingMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how Aspose.Words should render EMF Dual metafiles.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: LeftExpression
+title: FieldCompare.LeftExpression
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the left part of the comparison expression.
 type: docs

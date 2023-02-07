@@ -1,5 +1,5 @@
 ---
-title: SdtCalendarType
+title: Enum SdtCalendarType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the possible types of calendars which can be used to specify CalendarType in an Office Open XML document.
 type: docs

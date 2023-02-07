@@ -1,5 +1,5 @@
 ---
-title: BackgroundTintAndShade
+title: Shading.BackgroundTintAndShade
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a double value that lightens or darkens a background theme color.
 type: docs

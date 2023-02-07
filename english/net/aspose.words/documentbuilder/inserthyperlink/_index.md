@@ -1,5 +1,5 @@
 ---
-title: InsertHyperlink
+title: DocumentBuilder.InsertHyperlink
 second_title: Aspose.Words for .NET API Reference
 description: Inserts a hyperlink into the document.
 type: docs

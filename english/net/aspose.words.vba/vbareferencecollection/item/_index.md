@@ -1,5 +1,5 @@
 ---
-title: Item
+title: VbaReferenceCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Gets VbaReference object at the specified index.
 type: docs

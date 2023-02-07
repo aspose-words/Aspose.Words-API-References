@@ -1,5 +1,5 @@
 ---
-title: Remove
+title: Style.Remove
 second_title: Aspose.Words for .NET API Reference
 description: Removes the specified style from the document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ColumnBreakChar
+title: ControlChar.ColumnBreakChar
 second_title: Aspose.Words for .NET API Reference
 description: End of column character char14.
 type: docs

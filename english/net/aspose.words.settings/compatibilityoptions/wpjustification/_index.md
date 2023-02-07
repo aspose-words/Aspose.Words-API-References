@@ -1,5 +1,5 @@
 ---
-title: WPJustification
+title: CompatibilityOptions.WPJustification
 second_title: Aspose.Words for .NET API Reference
 description: Emulate WordPerfect 6.x Paragraph Justification.
 type: docs

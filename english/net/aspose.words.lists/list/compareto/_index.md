@@ -1,5 +1,5 @@
 ---
-title: CompareTo
+title: List.CompareTo
 second_title: Aspose.Words for .NET API Reference
 description: Compares the specified object to the current object.
 type: docs

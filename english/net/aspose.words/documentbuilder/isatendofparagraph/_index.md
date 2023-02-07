@@ -1,5 +1,5 @@
 ---
-title: IsAtEndOfParagraph
+title: DocumentBuilder.IsAtEndOfParagraph
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if the cursor is at the end of the current paragraph.
 type: docs

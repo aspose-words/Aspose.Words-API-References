@@ -1,5 +1,5 @@
 ---
-title: JpegQuality
+title: ImageSaveOptions.JpegQuality
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value determining the quality of the generated JPEG images.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: TickMarkSpacing
+title: ChartAxis.TickMarkSpacing
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the interval at which tick marks are drawn.
 type: docs

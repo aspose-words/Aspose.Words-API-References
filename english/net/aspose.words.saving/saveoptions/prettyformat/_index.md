@@ -1,5 +1,5 @@
 ---
-title: PrettyFormat
+title: SaveOptions.PrettyFormat
 second_title: Aspose.Words for .NET API Reference
 description: When true pretty formats output where applicable. Default value is false.
 type: docs

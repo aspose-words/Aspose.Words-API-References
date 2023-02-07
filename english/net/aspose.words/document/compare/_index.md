@@ -1,5 +1,5 @@
 ---
-title: Compare
+title: Document.Compare
 second_title: Aspose.Words for .NET API Reference
 description: Compares this document with another document producing changes as number of edit and format revisions Revision.
 type: docs

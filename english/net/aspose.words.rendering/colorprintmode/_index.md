@@ -1,5 +1,5 @@
 ---
-title: ColorPrintMode
+title: Enum ColorPrintMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how noncolored pages are printed if the device supports color printing.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ZoomFactor
+title: PdfSaveOptions.ZoomFactor
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value determining zoom factor in percentages for a document.
 type: docs

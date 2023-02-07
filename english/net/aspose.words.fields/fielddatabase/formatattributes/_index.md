@@ -1,5 +1,5 @@
 ---
-title: FormatAttributes
+title: FieldDatabase.FormatAttributes
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets which attributes of the format are to be applied to the table.
 type: docs

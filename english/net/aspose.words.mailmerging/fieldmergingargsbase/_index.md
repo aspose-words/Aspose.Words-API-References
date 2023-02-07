@@ -1,5 +1,5 @@
 ---
-title: FieldMergingArgsBase
+title: Class FieldMergingArgsBase
 second_title: Aspose.Words for .NET API Reference
 description: Base class for FieldMergingArgs and ImageFieldMergingArgs.
 type: docs

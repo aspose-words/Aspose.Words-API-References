@@ -1,5 +1,5 @@
 ---
-title: FlipOrientation
+title: Enum FlipOrientation
 second_title: Aspose.Words for .NET API Reference
 description: Possible values for the orientation of a shape.
 type: docs

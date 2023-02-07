@@ -1,5 +1,5 @@
 ---
-title: CellSpacing
+title: Table.CellSpacing
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the amount of space in points between the cells.
 type: docs

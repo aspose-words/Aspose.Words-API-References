@@ -1,5 +1,5 @@
 ---
-title: Clone
+title: CustomXmlSchemaCollection.Clone
 second_title: Aspose.Words for .NET API Reference
 description: Makes a deep clone of this object.
 type: docs

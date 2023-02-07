@@ -1,5 +1,5 @@
 ---
-title: NodeType
+title: Table.NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Returns Table.
 type: docs

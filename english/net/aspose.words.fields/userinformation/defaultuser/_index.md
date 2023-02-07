@@ -1,5 +1,5 @@
 ---
-title: DefaultUser
+title: UserInformation.DefaultUser
 second_title: Aspose.Words for .NET API Reference
 description: Default user information.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FieldTitle
+title: Class FieldTitle
 second_title: Aspose.Words for .NET API Reference
 description: Implements the TITLE field.
 type: docs

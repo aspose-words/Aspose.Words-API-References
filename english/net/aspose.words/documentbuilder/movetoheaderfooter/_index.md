@@ -1,5 +1,5 @@
 ---
-title: MoveToHeaderFooter
+title: DocumentBuilder.MoveToHeaderFooter
 second_title: Aspose.Words for .NET API Reference
 description: Moves the cursor to the beginning of a header or footer in the current section.
 type: docs

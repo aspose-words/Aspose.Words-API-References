@@ -1,5 +1,5 @@
 ---
-title: BorderAppliesTo
+title: PageSetup.BorderAppliesTo
 second_title: Aspose.Words for .NET API Reference
 description: Specifies which pages the page border is printed on.
 type: docs

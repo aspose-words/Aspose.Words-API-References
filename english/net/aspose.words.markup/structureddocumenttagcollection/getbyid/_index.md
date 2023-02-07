@@ -1,5 +1,5 @@
 ---
-title: GetById
+title: StructuredDocumentTagCollection.GetById
 second_title: Aspose.Words for .NET API Reference
 description: Returns the structured document tag by identifier.
 type: docs

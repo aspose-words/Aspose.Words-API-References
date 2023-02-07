@@ -1,5 +1,5 @@
 ---
-title: IsValid
+title: DigitalSignature.IsValid
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if this digital signature is valid and the document has not been tampered with.
 type: docs

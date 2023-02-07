@@ -1,5 +1,5 @@
 ---
-title: On
+title: TextPath.On
 second_title: Aspose.Words for .NET API Reference
 description: Defines whether the text is displayed.
 type: docs

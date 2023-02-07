@@ -1,5 +1,5 @@
 ---
-title: ImageCompression
+title: PdfSaveOptions.ImageCompression
 second_title: Aspose.Words for .NET API Reference
 description: Specifies compression type to be used for all images in the document.
 type: docs

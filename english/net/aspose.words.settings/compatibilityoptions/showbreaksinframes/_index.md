@@ -1,5 +1,5 @@
 ---
-title: ShowBreaksInFrames
+title: CompatibilityOptions.ShowBreaksInFrames
 second_title: Aspose.Words for .NET API Reference
 description: Display Page/Column Breaks Present in Frames.
 type: docs

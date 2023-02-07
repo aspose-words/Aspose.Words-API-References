@@ -1,5 +1,5 @@
 ---
-title: LegendEntry
+title: ChartSeries.LegendEntry
 second_title: Aspose.Words for .NET API Reference
 description: Gets a legend entry for this chart series.
 type: docs

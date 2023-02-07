@@ -1,5 +1,5 @@
 ---
-title: HeadingPairs
+title: BuiltInDocumentProperties.HeadingPairs
 second_title: Aspose.Words for .NET API Reference
 description: Specifies document headings and their names.
 type: docs

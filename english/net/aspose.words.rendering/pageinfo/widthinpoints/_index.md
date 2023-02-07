@@ -1,5 +1,5 @@
 ---
-title: WidthInPoints
+title: PageInfo.WidthInPoints
 second_title: Aspose.Words for .NET API Reference
 description: Gets the width of the page in points.
 type: docs

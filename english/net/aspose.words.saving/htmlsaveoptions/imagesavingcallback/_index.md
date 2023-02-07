@@ -1,5 +1,5 @@
 ---
-title: ImageSavingCallback
+title: HtmlSaveOptions.ImageSavingCallback
 second_title: Aspose.Words for .NET API Reference
 description: Allows to control how images are saved when a document is saved to HTML MHTML or EPUB.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Count
+title: GradientStopCollection.Count
 second_title: Aspose.Words for .NET API Reference
 description: Gets an integer value indicating the number of items in the collection.
 type: docs

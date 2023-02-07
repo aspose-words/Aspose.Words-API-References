@@ -1,5 +1,5 @@
 ---
-title: CurrentSection
+title: DocumentBuilder.CurrentSection
 second_title: Aspose.Words for .NET API Reference
 description: Gets the section that is currently selected in this DocumentBuilder.
 type: docs

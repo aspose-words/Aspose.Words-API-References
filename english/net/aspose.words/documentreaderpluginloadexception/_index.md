@@ -1,5 +1,5 @@
 ---
-title: DocumentReaderPluginLoadException
+title: Class DocumentReaderPluginLoadException
 second_title: Aspose.Words for .NET API Reference
 description: Thrown during document load when the plugin required for reading the document format cannot be loaded.
 type: docs

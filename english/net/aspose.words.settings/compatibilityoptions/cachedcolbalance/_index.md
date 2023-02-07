@@ -1,5 +1,5 @@
 ---
-title: CachedColBalance
+title: CompatibilityOptions.CachedColBalance
 second_title: Aspose.Words for .NET API Reference
 description: Use Cached Paragraph Information for Column Balancing.
 type: docs

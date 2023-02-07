@@ -1,5 +1,5 @@
 ---
-title: FieldUpdateCultureSource
+title: Enum FieldUpdateCultureSource
 second_title: Aspose.Words for .NET API Reference
 description: Indicates what culture to use during field update.
 type: docs

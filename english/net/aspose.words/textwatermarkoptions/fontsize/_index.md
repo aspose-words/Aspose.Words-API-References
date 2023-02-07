@@ -1,5 +1,5 @@
 ---
-title: FontSize
+title: TextWatermarkOptions.FontSize
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a font size. The default value is 0  auto.
 type: docs

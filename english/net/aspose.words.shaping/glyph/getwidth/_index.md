@@ -1,5 +1,5 @@
 ---
-title: GetWidth
+title: Glyph.GetWidth
 second_title: Aspose.Words for .NET API Reference
 description: Returns width advance of the glyph in points.
 type: docs

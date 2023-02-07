@@ -1,5 +1,5 @@
 ---
-title: FieldCompare
+title: Class FieldCompare
 second_title: Aspose.Words for .NET API Reference
 description: Implements the COMPARE field.
 type: docs

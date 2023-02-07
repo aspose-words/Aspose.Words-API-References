@@ -1,5 +1,5 @@
 ---
-title: RtfLoadOptions
+title: Class RtfLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify additional options when loading Rtf document into a Document object.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: DeletePictureBullet
+title: ListLevel.DeletePictureBullet
 second_title: Aspose.Words for .NET API Reference
 description: Deletes picture bullet for the current list level.
 type: docs

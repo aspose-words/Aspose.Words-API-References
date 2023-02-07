@@ -1,5 +1,5 @@
 ---
-title: VisitRowStart
+title: DocumentVisitor.VisitRowStart
 second_title: Aspose.Words for .NET API Reference
 description: Called when enumeration of a table row has started.
 type: docs

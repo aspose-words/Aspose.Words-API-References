@@ -1,5 +1,5 @@
 ---
-title: VisitSectionStart
+title: DocumentVisitor.VisitSectionStart
 second_title: Aspose.Words for .NET API Reference
 description: Called when enumeration of a section has started.
 type: docs

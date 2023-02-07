@@ -1,5 +1,5 @@
 ---
-title: SourceFullName
+title: ImageData.SourceFullName
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the path and name of the source file for the linked image.
 type: docs

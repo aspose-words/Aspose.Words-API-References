@@ -1,5 +1,5 @@
 ---
-title: RelativeHorizontalPosition
+title: ShapeBase.RelativeHorizontalPosition
 second_title: Aspose.Words for .NET API Reference
 description: Specifies relative to what the shape is positioned horizontally.
 type: docs

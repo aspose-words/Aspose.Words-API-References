@@ -1,5 +1,5 @@
 ---
-title: Schemas
+title: CustomXmlPart.Schemas
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the set of XML schemas that are associated with this custom XML part.
 type: docs

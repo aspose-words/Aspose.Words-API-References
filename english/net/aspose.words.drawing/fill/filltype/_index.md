@@ -1,5 +1,5 @@
 ---
-title: FillType
+title: Fill.FillType
 second_title: Aspose.Words for .NET API Reference
 description: Gets a fill type.
 type: docs

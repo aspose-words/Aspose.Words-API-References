@@ -1,5 +1,5 @@
 ---
-title: SpaceChar
+title: ControlChar.SpaceChar
 second_title: Aspose.Words for .NET API Reference
 description: Space character char32.
 type: docs

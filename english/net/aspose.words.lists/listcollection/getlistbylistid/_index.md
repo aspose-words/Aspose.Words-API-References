@@ -1,5 +1,5 @@
 ---
-title: GetListByListId
+title: ListCollection.GetListByListId
 second_title: Aspose.Words for .NET API Reference
 description: Gets a list by a list identifier.
 type: docs

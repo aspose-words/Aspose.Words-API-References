@@ -1,5 +1,5 @@
 ---
-title: ListTemplate
+title: Enum ListTemplate
 second_title: Aspose.Words for .NET API Reference
 description: Specifies one of the predefined list formats available in Microsoft Word.
 type: docs

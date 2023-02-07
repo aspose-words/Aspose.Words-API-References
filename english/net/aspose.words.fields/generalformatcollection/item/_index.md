@@ -1,5 +1,5 @@
 ---
-title: Item
+title: GeneralFormatCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Gets a general format at the specified index.
 type: docs

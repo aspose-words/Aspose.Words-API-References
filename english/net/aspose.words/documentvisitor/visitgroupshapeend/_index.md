@@ -1,5 +1,5 @@
 ---
-title: VisitGroupShapeEnd
+title: DocumentVisitor.VisitGroupShapeEnd
 second_title: Aspose.Words for .NET API Reference
 description: Called when enumeration of a group shape has ended.
 type: docs

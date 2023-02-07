@@ -1,5 +1,5 @@
 ---
-title: ArrowLength
+title: Enum ArrowLength
 second_title: Aspose.Words for .NET API Reference
 description: Length of the arrow at the end of a line.
 type: docs

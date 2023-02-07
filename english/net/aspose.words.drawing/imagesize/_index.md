@@ -1,5 +1,5 @@
 ---
-title: ImageSize
+title: Class ImageSize
 second_title: Aspose.Words for .NET API Reference
 description: Contains information about image size and resolution.
 type: docs

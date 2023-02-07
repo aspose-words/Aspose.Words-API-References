@@ -1,5 +1,5 @@
 ---
-title: OfficeMathDisplayType
+title: Enum OfficeMathDisplayType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the display format type of the equation.
 type: docs

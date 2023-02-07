@@ -1,5 +1,5 @@
 ---
-title: DefaultFont
+title: StyleCollection.DefaultFont
 second_title: Aspose.Words for .NET API Reference
 description: Gets document default text formatting.
 type: docs

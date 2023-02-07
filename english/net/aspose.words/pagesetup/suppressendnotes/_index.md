@@ -1,5 +1,5 @@
 ---
-title: SuppressEndnotes
+title: PageSetup.SuppressEndnotes
 second_title: Aspose.Words for .NET API Reference
 description: True if endnotes are printed at the end of the next section that doesnt suppress endnotes. Suppressed endnotes are printed before the endnotes in that section.
 type: docs

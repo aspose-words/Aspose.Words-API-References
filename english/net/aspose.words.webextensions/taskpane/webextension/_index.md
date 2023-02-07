@@ -1,5 +1,5 @@
 ---
-title: WebExtension
+title: TaskPane.WebExtension
 second_title: Aspose.Words for .NET API Reference
 description: Represents an web extension object.
 type: docs

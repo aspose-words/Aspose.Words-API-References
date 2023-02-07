@@ -1,5 +1,5 @@
 ---
-title: UnsupportedFileFormatException
+title: Class UnsupportedFileFormatException
 second_title: Aspose.Words for .NET API Reference
 description: Thrown during document load when the document format is not recognized or not supported by Aspose.Words.
 type: docs

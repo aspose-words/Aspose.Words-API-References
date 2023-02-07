@@ -1,5 +1,5 @@
 ---
-title: Heading
+title: FieldIndex.Heading
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a heading that appears at the start of each set of entries for any given letter.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FieldDocVariable
+title: Class FieldDocVariable
 second_title: Aspose.Words for .NET API Reference
 description: Implements DOCVARIABLE field.
 type: docs

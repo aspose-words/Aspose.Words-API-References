@@ -1,5 +1,5 @@
 ---
-title: FieldMergeSeq
+title: Class FieldMergeSeq
 second_title: Aspose.Words for .NET API Reference
 description: Implements the MERGESEQ field.
 type: docs

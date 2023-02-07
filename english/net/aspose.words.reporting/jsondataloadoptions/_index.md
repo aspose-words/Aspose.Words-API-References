@@ -1,5 +1,5 @@
 ---
-title: JsonDataLoadOptions
+title: Class JsonDataLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: Represents options for parsing JSON data.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Add
+title: ChartSeriesCollection.Add
 second_title: Aspose.Words for .NET API Reference
 description: Adds new ChartSeries to this collection. Use this method to add series to any type of Bar Column Line and Surface charts.
 type: docs

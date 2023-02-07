@@ -1,5 +1,5 @@
 ---
-title: BookmarksOutlineLevels
+title: OutlineOptions.BookmarksOutlineLevels
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify individual bookmarks outline level.
 type: docs

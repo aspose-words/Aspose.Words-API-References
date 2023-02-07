@@ -1,5 +1,5 @@
 ---
-title: BackColor
+title: Stroke.BackColor
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the background color of the stroke.
 type: docs

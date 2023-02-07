@@ -1,5 +1,5 @@
 ---
-title: MathObjectType
+title: Enum MathObjectType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies type of an Office Math object.
 type: docs

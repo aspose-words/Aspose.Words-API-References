@@ -1,5 +1,5 @@
 ---
-title: RemoveAllReplies
+title: Comment.RemoveAllReplies
 second_title: Aspose.Words for .NET API Reference
 description: Removes all replies to this comment.
 type: docs

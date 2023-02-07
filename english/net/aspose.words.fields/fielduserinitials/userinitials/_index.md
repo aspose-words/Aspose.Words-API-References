@@ -1,5 +1,5 @@
 ---
-title: UserInitials
+title: FieldUserInitials.UserInitials
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the current users initials.
 type: docs

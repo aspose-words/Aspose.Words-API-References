@@ -1,5 +1,5 @@
 ---
-title: SourceItem
+title: OleFormat.SourceItem
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a string that is used to identify the portion of the source file that is being linked.
 type: docs

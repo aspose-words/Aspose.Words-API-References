@@ -1,5 +1,5 @@
 ---
-title: ShowValue
+title: ChartDataLabel.ShowValue
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify if values are to be displayed in the data labels. Default value is false.
 type: docs

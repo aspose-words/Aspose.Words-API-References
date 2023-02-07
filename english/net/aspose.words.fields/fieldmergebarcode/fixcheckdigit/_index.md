@@ -1,5 +1,5 @@
 ---
-title: FixCheckDigit
+title: FieldMergeBarcode.FixCheckDigit
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to fix the check digit if its invalid.
 type: docs

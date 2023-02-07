@@ -1,5 +1,5 @@
 ---
-title: ToArray
+title: BuildingBlockCollection.ToArray
 second_title: Aspose.Words for .NET API Reference
 description: Copies all building blocks from the collection to a new array of building blocks.
 type: docs

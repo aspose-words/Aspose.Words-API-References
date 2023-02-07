@@ -1,5 +1,5 @@
 ---
-title: NonBreakingSpaceChar
+title: ControlChar.NonBreakingSpaceChar
 second_title: Aspose.Words for .NET API Reference
 description: Nonbreaking space character char160.
 type: docs

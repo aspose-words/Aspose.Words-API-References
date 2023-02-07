@@ -1,5 +1,5 @@
 ---
-title: OddRowBanding
+title: ConditionalStyleCollection.OddRowBanding
 second_title: Aspose.Words for .NET API Reference
 description: Gets the odd row banding style.
 type: docs

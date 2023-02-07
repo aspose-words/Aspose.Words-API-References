@@ -1,5 +1,5 @@
 ---
-title: EndTable
+title: DocumentBuilder.EndTable
 second_title: Aspose.Words for .NET API Reference
 description: Ends a table in the document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Font
+title: ListLevel.Font
 second_title: Aspose.Words for .NET API Reference
 description: Specifies character formatting used for the list label.
 type: docs

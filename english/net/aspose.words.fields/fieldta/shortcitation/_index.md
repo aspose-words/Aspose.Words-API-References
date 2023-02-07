@@ -1,5 +1,5 @@
 ---
-title: ShortCitation
+title: FieldTA.ShortCitation
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the short citation for the entry.
 type: docs

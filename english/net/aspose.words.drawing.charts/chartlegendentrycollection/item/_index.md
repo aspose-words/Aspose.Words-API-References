@@ -1,5 +1,5 @@
 ---
-title: Item
+title: ChartLegendEntryCollection.Item
 second_title: Aspose.Words for .NET API Reference
 description: Returns ChartLegendEntry for the specified index.
 type: docs

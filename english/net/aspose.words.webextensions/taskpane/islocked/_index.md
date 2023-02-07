@@ -1,5 +1,5 @@
 ---
-title: IsLocked
+title: TaskPane.IsLocked
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether the task pane is locked to the document in the UI and cannot be closed by the user.
 type: docs

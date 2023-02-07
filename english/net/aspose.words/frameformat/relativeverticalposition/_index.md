@@ -1,5 +1,5 @@
 ---
-title: RelativeVerticalPosition
+title: FrameFormat.RelativeVerticalPosition
 second_title: Aspose.Words for .NET API Reference
 description: Gets the relative vertical position of a frame.
 type: docs

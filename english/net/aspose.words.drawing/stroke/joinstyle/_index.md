@@ -1,5 +1,5 @@
 ---
-title: JoinStyle
+title: Stroke.JoinStyle
 second_title: Aspose.Words for .NET API Reference
 description: Defines the join style of a polyline.
 type: docs

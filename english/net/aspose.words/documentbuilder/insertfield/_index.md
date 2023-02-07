@@ -1,5 +1,5 @@
 ---
-title: InsertField
+title: DocumentBuilder.InsertField
 second_title: Aspose.Words for .NET API Reference
 description: Inserts a Word field into a document and optionally updates the field result.
 type: docs

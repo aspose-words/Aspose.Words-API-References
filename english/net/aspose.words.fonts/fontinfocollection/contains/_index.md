@@ -1,5 +1,5 @@
 ---
-title: Contains
+title: FontInfoCollection.Contains
 second_title: Aspose.Words for .NET API Reference
 description: Determines whether the collection contains a font with the given name.
 type: docs

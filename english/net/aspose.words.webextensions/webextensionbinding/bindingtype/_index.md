@@ -1,5 +1,5 @@
 ---
-title: BindingType
+title: WebExtensionBinding.BindingType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the binding type.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ToString
+title: DocumentProperty.ToString
 second_title: Aspose.Words for .NET API Reference
 description: Returns the property value as a string formatted according to the current locale.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: MajorTickMark
+title: ChartAxis.MajorTickMark
 second_title: Aspose.Words for .NET API Reference
 description: Returns or sets the major tick marks.
 type: docs

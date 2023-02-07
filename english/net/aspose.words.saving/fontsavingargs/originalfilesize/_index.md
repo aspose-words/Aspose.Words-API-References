@@ -1,5 +1,5 @@
 ---
-title: OriginalFileSize
+title: FontSavingArgs.OriginalFileSize
 second_title: Aspose.Words for .NET API Reference
 description: Gets the original font file size.
 type: docs

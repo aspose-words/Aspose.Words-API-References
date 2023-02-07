@@ -1,5 +1,5 @@
 ---
-title: InsertHyperlink
+title: FieldNoteRef.InsertHyperlink
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets whether to insert a hyperlink to the bookmarked paragraph.
 type: docs

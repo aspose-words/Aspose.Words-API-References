@@ -1,5 +1,5 @@
 ---
-title: Count
+title: TxtListIndentation.Count
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets how many Character to use as indentation per one list level. The default value is 0 that means no indentation.
 type: docs

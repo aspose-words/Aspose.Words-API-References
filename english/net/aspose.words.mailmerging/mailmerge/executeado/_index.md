@@ -1,5 +1,5 @@
 ---
-title: ExecuteADO
+title: MailMerge.ExecuteADO
 second_title: Aspose.Words for .NET API Reference
 description: Performs mail merge from an ADO Recordset object into the document.
 type: docs

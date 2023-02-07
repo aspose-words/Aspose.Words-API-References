@@ -1,5 +1,5 @@
 ---
-title: Paragraphs
+title: Cell.Paragraphs
 second_title: Aspose.Words for .NET API Reference
 description: Gets a collection of paragraphs that are immediate children of the cell.
 type: docs

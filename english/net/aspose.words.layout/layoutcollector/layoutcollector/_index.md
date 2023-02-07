@@ -1,5 +1,5 @@
 ---
-title: LayoutCollector
+title: LayoutCollector.LayoutCollector
 second_title: Aspose.Words for .NET API Reference
 description: Initializes an instance of this class.
 type: docs

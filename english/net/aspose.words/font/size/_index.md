@@ -1,5 +1,5 @@
 ---
-title: Size
+title: Font.Size
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the font size in points.
 type: docs

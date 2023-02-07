@@ -1,5 +1,5 @@
 ---
-title: SetText
+title: Watermark.SetText
 second_title: Aspose.Words for .NET API Reference
 description: Adds Text watermark into the document.
 type: docs

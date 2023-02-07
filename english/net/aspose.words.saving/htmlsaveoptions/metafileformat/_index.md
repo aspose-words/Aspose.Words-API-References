@@ -1,5 +1,5 @@
 ---
-title: MetafileFormat
+title: HtmlSaveOptions.MetafileFormat
 second_title: Aspose.Words for .NET API Reference
 description: Specifies in what format metafiles are saved when exporting to HTML MHTML or EPUB. Default value is Png meaning that metafiles are rendered to raster PNG images.
 type: docs

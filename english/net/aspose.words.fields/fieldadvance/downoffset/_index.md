@@ -1,5 +1,5 @@
 ---
-title: DownOffset
+title: FieldAdvance.DownOffset
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the number of points by which the text that follows the field should be moved down.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Alignment
+title: TabStop.Alignment
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the alignment of text at this tab stop.
 type: docs

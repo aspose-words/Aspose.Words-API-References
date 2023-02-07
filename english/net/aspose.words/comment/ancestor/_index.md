@@ -1,5 +1,5 @@
 ---
-title: Ancestor
+title: Comment.Ancestor
 second_title: Aspose.Words for .NET API Reference
 description: Returns the parent Comment object. Returns null for toplevel comments.
 type: docs

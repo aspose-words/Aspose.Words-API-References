@@ -1,5 +1,5 @@
 ---
-title: CleanupOptions
+title: CleanupOptions.CleanupOptions
 second_title: Aspose.Words for .NET API Reference
 description: The default constructor.
 type: docs

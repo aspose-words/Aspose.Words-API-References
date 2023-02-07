@@ -1,5 +1,5 @@
 ---
-title: Id
+title: CustomXmlPart.Id
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the string that identifies this custom XML part within an OOXML document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: MinorUnitIsAuto
+title: ChartAxis.MinorUnitIsAuto
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a flag indicating whether default distance between minor tick marks shall be used.
 type: docs

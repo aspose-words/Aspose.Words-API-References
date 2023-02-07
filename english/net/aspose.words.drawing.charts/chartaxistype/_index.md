@@ -1,5 +1,5 @@
 ---
-title: ChartAxisType
+title: Enum ChartAxisType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies type of chart axis.
 type: docs

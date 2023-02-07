@@ -1,5 +1,5 @@
 ---
-title: MappedDataFields
+title: MailMerge.MappedDataFields
 second_title: Aspose.Words for .NET API Reference
 description: Returns a collection that represents mapped data fields for the mail merge operation.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: SuppressAutoHyphens
+title: ParagraphFormat.SuppressAutoHyphens
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether the current paragraph should be exempted from any hyphenation which is applied in the document settings.
 type: docs

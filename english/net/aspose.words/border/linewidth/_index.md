@@ -1,5 +1,5 @@
 ---
-title: LineWidth
+title: Border.LineWidth
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the border width in points.
 type: docs

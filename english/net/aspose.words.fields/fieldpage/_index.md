@@ -1,5 +1,5 @@
 ---
-title: FieldPage
+title: Class FieldPage
 second_title: Aspose.Words for .NET API Reference
 description: Implements the PAGE field.
 type: docs

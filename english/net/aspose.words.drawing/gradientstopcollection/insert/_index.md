@@ -1,5 +1,5 @@
 ---
-title: Insert
+title: GradientStopCollection.Insert
 second_title: Aspose.Words for .NET API Reference
 description: Inserts a GradientStop to the collection at a specified index.
 type: docs

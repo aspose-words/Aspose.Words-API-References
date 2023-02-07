@@ -1,5 +1,5 @@
 ---
-title: Password
+title: DocSaveOptions.Password
 second_title: Aspose.Words for .NET API Reference
 description: Gets/sets a password to encrypt document using RC4 encryption method.
 type: docs

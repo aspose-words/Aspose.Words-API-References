@@ -1,5 +1,5 @@
 ---
-title: ImageData
+title: Shape.ImageData
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to the image of the shape. Returns null if the shape cannot have an image.
 type: docs

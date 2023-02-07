@@ -1,5 +1,5 @@
 ---
-title: FieldNextIf
+title: Class FieldNextIf
 second_title: Aspose.Words for .NET API Reference
 description: Implements the NEXTIF field.
 type: docs

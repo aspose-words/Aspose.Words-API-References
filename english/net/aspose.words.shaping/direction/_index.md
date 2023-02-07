@@ -1,5 +1,5 @@
 ---
-title: Direction
+title: Enum Direction
 second_title: Aspose.Words for .NET API Reference
 description: Text direction.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: VisitCellEnd
+title: DocumentVisitor.VisitCellEnd
 second_title: Aspose.Words for .NET API Reference
 description: Called when enumeration of a table cell has ended.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FieldCitation
+title: Class FieldCitation
 second_title: Aspose.Words for .NET API Reference
 description: Implements the CITATION field.
 type: docs

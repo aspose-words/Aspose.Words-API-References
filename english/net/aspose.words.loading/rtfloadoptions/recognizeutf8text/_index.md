@@ -1,5 +1,5 @@
 ---
-title: RecognizeUtf8Text
+title: RtfLoadOptions.RecognizeUtf8Text
 second_title: Aspose.Words for .NET API Reference
 description: When set to true CharsetDetector will try to detect UTF8 characters they will be preserved during import.
 type: docs

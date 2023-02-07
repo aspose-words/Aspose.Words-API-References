@@ -1,5 +1,5 @@
 ---
-title: Stroke
+title: ChartFormat.Stroke
 second_title: Aspose.Words for .NET API Reference
 description: Gets line formatting for the parent chart element.
 type: docs

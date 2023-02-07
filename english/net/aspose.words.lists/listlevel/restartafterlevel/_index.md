@@ -1,5 +1,5 @@
 ---
-title: RestartAfterLevel
+title: ListLevel.RestartAfterLevel
 second_title: Aspose.Words for .NET API Reference
 description: Sets or returns the list level that must appear before the specified list level restarts numbering.
 type: docs

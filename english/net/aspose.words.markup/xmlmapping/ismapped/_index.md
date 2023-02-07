@@ -1,5 +1,5 @@
 ---
-title: IsMapped
+title: XmlMapping.IsMapped
 second_title: Aspose.Words for .NET API Reference
 description: Returns true if the parent structured document tag is successfully mapped to XML data.
 type: docs

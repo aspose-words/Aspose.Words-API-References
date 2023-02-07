@@ -1,5 +1,5 @@
 ---
-title: NextSibling
+title: Node.NextSibling
 second_title: Aspose.Words for .NET API Reference
 description: Gets the node immediately following this node.
 type: docs

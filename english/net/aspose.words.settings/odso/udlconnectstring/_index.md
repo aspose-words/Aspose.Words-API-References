@@ -1,5 +1,5 @@
 ---
-title: UdlConnectString
+title: Odso.UdlConnectString
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the Universal Data Link UDL connection string used to connect to an external data source. The default value is an empty string.
 type: docs

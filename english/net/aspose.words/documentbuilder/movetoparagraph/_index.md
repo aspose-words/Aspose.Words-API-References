@@ -1,5 +1,5 @@
 ---
-title: MoveToParagraph
+title: DocumentBuilder.MoveToParagraph
 second_title: Aspose.Words for .NET API Reference
 description: Moves the cursor to a paragraph in the current section.
 type: docs

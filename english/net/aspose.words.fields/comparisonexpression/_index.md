@@ -1,5 +1,5 @@
 ---
-title: ComparisonExpression
+title: Class ComparisonExpression
 second_title: Aspose.Words for .NET API Reference
 description: The comparison expression.
 type: docs

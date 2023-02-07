@@ -1,5 +1,5 @@
 ---
-title: FieldRef
+title: Class FieldRef
 second_title: Aspose.Words for .NET API Reference
 description: Implements the REF field.
 type: docs

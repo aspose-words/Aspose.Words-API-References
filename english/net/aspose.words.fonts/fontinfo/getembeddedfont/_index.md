@@ -1,5 +1,5 @@
 ---
-title: GetEmbeddedFont
+title: FontInfo.GetEmbeddedFont
 second_title: Aspose.Words for .NET API Reference
 description: Gets a specific embedded font file.
 type: docs

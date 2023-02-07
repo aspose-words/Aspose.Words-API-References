@@ -1,5 +1,5 @@
 ---
-title: FieldSubject
+title: Class FieldSubject
 second_title: Aspose.Words for .NET API Reference
 description: Implements the SUBJECT field.
 type: docs

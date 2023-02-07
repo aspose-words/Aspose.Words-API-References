@@ -1,5 +1,5 @@
 ---
-title: StoryType
+title: Footnote.StoryType
 second_title: Aspose.Words for .NET API Reference
 description: Returns Footnotes or Endnotes.
 type: docs

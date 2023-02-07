@@ -1,5 +1,5 @@
 ---
-title: ListLevelCollection
+title: Class ListLevelCollection
 second_title: Aspose.Words for .NET API Reference
 description: A collection of list formatting for each level in a list.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Result
+title: FormField.Result
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a string that represents the result of this form field.
 type: docs

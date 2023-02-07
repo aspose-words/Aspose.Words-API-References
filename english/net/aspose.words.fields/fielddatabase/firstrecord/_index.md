@@ -1,5 +1,5 @@
 ---
-title: FirstRecord
+title: FieldDatabase.FirstRecord
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the integral record number of the first data record to insert.
 type: docs

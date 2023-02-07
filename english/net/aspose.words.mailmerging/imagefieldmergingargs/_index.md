@@ -1,5 +1,5 @@
 ---
-title: ImageFieldMergingArgs
+title: Class ImageFieldMergingArgs
 second_title: Aspose.Words for .NET API Reference
 description: Provides data for the ImageFieldMerging event.
 type: docs

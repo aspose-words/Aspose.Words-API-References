@@ -1,5 +1,5 @@
 ---
-title: SdtListItemCollection
+title: Class SdtListItemCollection
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to SdtListItem elements of a structured document tag.
 type: docs

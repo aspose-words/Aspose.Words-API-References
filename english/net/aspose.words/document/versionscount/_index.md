@@ -1,5 +1,5 @@
 ---
-title: VersionsCount
+title: Document.VersionsCount
 second_title: Aspose.Words for .NET API Reference
 description: Gets the number of document versions that was stored in the DOC document.
 type: docs

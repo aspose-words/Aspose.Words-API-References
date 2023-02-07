@@ -1,5 +1,5 @@
 ---
-title: AddSubstitutes
+title: TableSubstitutionRule.AddSubstitutes
 second_title: Aspose.Words for .NET API Reference
 description: Adds substitute font names for given original font name.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ClearContent
+title: Section.ClearContent
 second_title: Aspose.Words for .NET API Reference
 description: Clears the section.
 type: docs

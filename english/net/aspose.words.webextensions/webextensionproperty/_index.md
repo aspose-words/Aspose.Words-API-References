@@ -1,5 +1,5 @@
 ---
-title: WebExtensionProperty
+title: Class WebExtensionProperty
 second_title: Aspose.Words for .NET API Reference
 description: Specifies a web extension custom property.
 type: docs

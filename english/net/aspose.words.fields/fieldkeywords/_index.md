@@ -1,5 +1,5 @@
 ---
-title: FieldKeywords
+title: Class FieldKeywords
 second_title: Aspose.Words for .NET API Reference
 description: Implements the KEYWORDS field.
 type: docs

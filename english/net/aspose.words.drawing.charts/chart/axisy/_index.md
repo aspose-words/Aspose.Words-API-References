@@ -1,5 +1,5 @@
 ---
-title: AxisY
+title: Chart.AxisY
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to properties of the Y axis of the chart.
 type: docs

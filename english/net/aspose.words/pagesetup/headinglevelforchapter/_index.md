@@ -1,5 +1,5 @@
 ---
-title: HeadingLevelForChapter
+title: PageSetup.HeadingLevelForChapter
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the heading level style that is applied to the chapter titles in the document.
 type: docs

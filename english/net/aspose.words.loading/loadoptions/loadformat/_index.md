@@ -1,5 +1,5 @@
 ---
-title: LoadFormat
+title: LoadOptions.LoadFormat
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the format of the document to be loaded. Default is Auto.
 type: docs

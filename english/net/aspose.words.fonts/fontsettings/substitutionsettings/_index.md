@@ -1,5 +1,5 @@
 ---
-title: SubstitutionSettings
+title: FontSettings.SubstitutionSettings
 second_title: Aspose.Words for .NET API Reference
 description: Settings related to font substitution mechanism.
 type: docs

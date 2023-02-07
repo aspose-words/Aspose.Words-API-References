@@ -1,5 +1,5 @@
 ---
-title: Behavior
+title: BuildingBlock.Behavior
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the behavior that shall be applied when the contents of the building block is inserted into the main document.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: StoryType
+title: Comment.StoryType
 second_title: Aspose.Words for .NET API Reference
 description: Returns Comments.
 type: docs
