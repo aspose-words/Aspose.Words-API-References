@@ -1,12 +1,14 @@
 ---
 title: ChartDataPoint.Marker
 second_title: Aspose.Words for .NET API Reference
-description: ChartDataPoint property.  in C#
+description: ChartDataPoint property. Specifies chart data marker in C#
 type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/chartdatapoint/marker/
 ---
 ## ChartDataPoint.Marker property
+
+Specifies chart data marker.
 
 ```csharp
 public ChartMarker Marker { get; }

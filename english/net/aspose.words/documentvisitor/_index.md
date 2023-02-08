@@ -64,8 +64,8 @@ public abstract class DocumentVisitor
 | virtual [VisitSmartTagStart](../../aspose.words/documentvisitor/visitsmarttagstart/)(SmartTag) | Called when enumeration of a smart tag has started. |
 | virtual [VisitSpecialChar](../../aspose.words/documentvisitor/visitspecialchar/)(SpecialChar) | Called when a [`SpecialChar`](../specialchar/) node is encountered in the document. |
 | virtual [VisitStructuredDocumentTagEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagend/)(StructuredDocumentTag) | Called when enumeration of a structured document tag has ended. |
-| virtual [VisitStructuredDocumentTagRangeEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagrangeend/)(StructuredDocumentTagRangeEnd) |  |
-| virtual [VisitStructuredDocumentTagRangeStart](../../aspose.words/documentvisitor/visitstructureddocumenttagrangestart/)(StructuredDocumentTagRangeStart) |  |
+| virtual [VisitStructuredDocumentTagRangeEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagrangeend/)(StructuredDocumentTagRangeEnd) | Called when a StructuredDocumentTagRangeEnd is encountered. |
+| virtual [VisitStructuredDocumentTagRangeStart](../../aspose.words/documentvisitor/visitstructureddocumenttagrangestart/)(StructuredDocumentTagRangeStart) | Called when a StructuredDocumentTagRangeStart is encountered. |
 | virtual [VisitStructuredDocumentTagStart](../../aspose.words/documentvisitor/visitstructureddocumenttagstart/)(StructuredDocumentTag) | Called when enumeration of a structured document tag has started. |
 | virtual [VisitSubDocument](../../aspose.words/documentvisitor/visitsubdocument/)(SubDocument) | Called when a sub-document is encountered. |
 | virtual [VisitTableEnd](../../aspose.words/documentvisitor/visittableend/)(Table) | Called when enumeration of a table has ended. |

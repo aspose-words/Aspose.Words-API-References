@@ -20,12 +20,12 @@ public class ChartDataPoint : IChartDataPoint
 
 | Name | Description |
 | --- | --- |
-| [Bubble3D](../../aspose.words.drawing.charts/chartdatapoint/bubble3d/) { get; set; } |  |
-| [Explosion](../../aspose.words.drawing.charts/chartdatapoint/explosion/) { get; set; } |  |
+| [Bubble3D](../../aspose.words.drawing.charts/chartdatapoint/bubble3d/) { get; set; } | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
+| [Explosion](../../aspose.words.drawing.charts/chartdatapoint/explosion/) { get; set; } | Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts. |
 | [Format](../../aspose.words.drawing.charts/chartdatapoint/format/) { get; } | Provides access to fill and line formatting of this data point. |
 | [Index](../../aspose.words.drawing.charts/chartdatapoint/index/) { get; } | Index of the data point this object applies formatting to. |
-| [InvertIfNegative](../../aspose.words.drawing.charts/chartdatapoint/invertifnegative/) { get; set; } |  |
-| [Marker](../../aspose.words.drawing.charts/chartdatapoint/marker/) { get; } |  |
+| [InvertIfNegative](../../aspose.words.drawing.charts/chartdatapoint/invertifnegative/) { get; set; } | Specifies whether the parent element shall inverts its colors if the value is negative. |
+| [Marker](../../aspose.words.drawing.charts/chartdatapoint/marker/) { get; } | Specifies chart data marker. |
 
 ## Methods
 

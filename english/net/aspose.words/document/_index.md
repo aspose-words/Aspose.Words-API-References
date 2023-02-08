@@ -43,7 +43,7 @@ public class Document : DocumentBase
 | [CustomXmlParts](../../aspose.words/document/customxmlparts/) { get; set; } | Gets or sets the collection of Custom XML Data Storage Parts. |
 | [DefaultTabStop](../../aspose.words/document/defaulttabstop/) { get; set; } | Gets or sets the interval (in points) between the default tab stops. |
 | [DigitalSignatures](../../aspose.words/document/digitalsignatures/) { get; } | Gets the collection of digital signatures for this document and their validation results. |
-| override [Document](../../aspose.words/documentbase/document/) { get; } |  |
+| override [Document](../../aspose.words/documentbase/document/) { get; } | Gets this instance. |
 | [EndnoteOptions](../../aspose.words/document/endnoteoptions/) { get; } | Provides options that control numbering and positioning of endnotes in this document. |
 | [FieldOptions](../../aspose.words/document/fieldoptions/) { get; } | Gets a [`FieldOptions`](../../aspose.words.fields/fieldoptions/) object that represents options to control field handling in the document. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Gets the first child of the node. |

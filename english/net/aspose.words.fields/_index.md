@@ -40,8 +40,8 @@ The **Aspose.Words.Fields** namespace contains classes that represent Microsoft 
 | [FieldCreateDate](./fieldcreatedate/) | Implements the CREATEDATE field. |
 | [FieldData](./fielddata/) | Implements the DATA field. |
 | [FieldDatabase](./fielddatabase/) | Implements the DATABASE field. |
-| [FieldDatabaseDataRow](./fielddatabasedatarow/) | Provides data for the [`FieldDatabase`](../aspose.words.fields/fielddatabase/) field result. |
-| [FieldDatabaseDataTable](./fielddatabasedatatable/) | Provides data for the [`FieldDatabase`](../aspose.words.fields/fielddatabase/) field result. |
+| [FieldDatabaseDataRow](./fielddatabasedatarow/) | Provides data for the [`FieldDatabase`](../aspose.words.fields/fielddatabase/) field result. Please see DataRow instance. |
+| [FieldDatabaseDataTable](./fielddatabasedatatable/) | Provides data for the [`FieldDatabase`](../aspose.words.fields/fielddatabase/) field result. Please see DataTable instance. |
 | [FieldDate](./fielddate/) | Implements the DATE field. |
 | [FieldDde](./fielddde/) | Implements the DDE field. |
 | [FieldDdeAuto](./fieldddeauto/) | Implements the DDEAUTO field. |

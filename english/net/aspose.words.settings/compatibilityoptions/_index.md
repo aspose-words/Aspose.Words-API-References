@@ -29,7 +29,7 @@ public class CompatibilityOptions
 | [BalanceSingleByteDoubleByteWidth](../../aspose.words.settings/compatibilityoptions/balancesinglebytedoublebytewidth/) { get; set; } | Balance Single Byte and Double Byte Characters. |
 | [CachedColBalance](../../aspose.words.settings/compatibilityoptions/cachedcolbalance/) { get; set; } | Use Cached Paragraph Information for Column Balancing. |
 | [ConvMailMergeEsc](../../aspose.words.settings/compatibilityoptions/convmailmergeesc/) { get; set; } | Treat Backslash Quotation Delimiter as Two Quotation Marks. |
-| [DisableOpenTypeFontFormattingFeatures](../../aspose.words.settings/compatibilityoptions/disableopentypefontformattingfeatures/) { get; set; } |  |
+| [DisableOpenTypeFontFormattingFeatures](../../aspose.words.settings/compatibilityoptions/disableopentypefontformattingfeatures/) { get; set; } | Specifies to disable OpenType font formatting features. |
 | [DisplayHangulFixedWidth](../../aspose.words.settings/compatibilityoptions/displayhangulfixedwidth/) { get; set; } | Always Use Fixed Width for Hangul Characters. |
 | [DoNotAutofitConstrainedTables](../../aspose.words.settings/compatibilityoptions/donotautofitconstrainedtables/) { get; set; } | Do Not AutoFit Tables To Fit Next To Wrapped Objects. |
 | [DoNotBreakConstrainedForcedTable](../../aspose.words.settings/compatibilityoptions/donotbreakconstrainedforcedtable/) { get; set; } | Don't Break Table Rows Around Floating Tables. |
@@ -73,7 +73,7 @@ public class CompatibilityOptions
 | [SuppressTopSpacing](../../aspose.words.settings/compatibilityoptions/suppresstopspacing/) { get; set; } | Ignore Minimum and Exact Line Height for First Line on Page. |
 | [SuppressTopSpacingWP](../../aspose.words.settings/compatibilityoptions/suppresstopspacingwp/) { get; set; } | Emulate WordPerfect 5.x Line Spacing. |
 | [SwapBordersFacingPgs](../../aspose.words.settings/compatibilityoptions/swapbordersfacingpgs/) { get; set; } | Swap Paragraph Borders on Odd Numbered Pages. |
-| [SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning](../../aspose.words.settings/compatibilityoptions/swapinsideandoutsideformirrorindentsandrelativepositioning/) { get; set; } |  |
+| [SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning](../../aspose.words.settings/compatibilityoptions/swapinsideandoutsideformirrorindentsandrelativepositioning/) { get; set; } | Specifies to swap inside and outside for mirror indents and relative positioning. |
 | [TransparentMetafiles](../../aspose.words.settings/compatibilityoptions/transparentmetafiles/) { get; set; } | Specifies not to blank the area behind metafile pictures. |
 | [TruncateFontHeightsLikeWP6](../../aspose.words.settings/compatibilityoptions/truncatefontheightslikewp6/) { get; set; } | Emulate WordPerfect 6.x Font Height Calculation. |
 | [UICompat97To2003](../../aspose.words.settings/compatibilityoptions/uicompat97to2003/) { get; set; } | True to disable UI functionality which is not compatible with Word97-2003. Default value is `false`. |
@@ -86,7 +86,7 @@ public class CompatibilityOptions
 | [UsePrinterMetrics](../../aspose.words.settings/compatibilityoptions/useprintermetrics/) { get; set; } | Use Printer Metrics To Display Documents. |
 | [UseSingleBorderforContiguousCells](../../aspose.words.settings/compatibilityoptions/usesingleborderforcontiguouscells/) { get; set; } | Use Simplified Rules For Table Border Conflicts. |
 | [UseWord2002TableStyleRules](../../aspose.words.settings/compatibilityoptions/useword2002tablestylerules/) { get; set; } | Emulate Word 2002 Table Style Rules. |
-| [UseWord2010TableStyleRules](../../aspose.words.settings/compatibilityoptions/useword2010tablestylerules/) { get; set; } |  |
+| [UseWord2010TableStyleRules](../../aspose.words.settings/compatibilityoptions/useword2010tablestylerules/) { get; set; } | Specifies to use Word2010 table style rules. |
 | [UseWord97LineBreakRules](../../aspose.words.settings/compatibilityoptions/useword97linebreakrules/) { get; set; } | Emulate Word 97 East Asian Line Breaking. |
 | [WPJustification](../../aspose.words.settings/compatibilityoptions/wpjustification/) { get; set; } | Emulate WordPerfect 6.x Paragraph Justification. |
 | [WPSpaceWidth](../../aspose.words.settings/compatibilityoptions/wpspacewidth/) { get; set; } | Specifies whether to set the width of a space as is done in WordPerfect 5.x. |

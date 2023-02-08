@@ -33,7 +33,7 @@ public class FramesetCollection : IEnumerable<Frameset>
 
 | Name | Description |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.framesets/framesetcollection/getenumerator/)() |  |
+| [GetEnumerator](../../aspose.words.framesets/framesetcollection/getenumerator/)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also
 

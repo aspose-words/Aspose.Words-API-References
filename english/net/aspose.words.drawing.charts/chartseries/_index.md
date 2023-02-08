@@ -20,15 +20,15 @@ public class ChartSeries : IChartDataPoint
 
 | Name | Description |
 | --- | --- |
-| [Bubble3D](../../aspose.words.drawing.charts/chartseries/bubble3d/) { get; set; } |  |
+| [Bubble3D](../../aspose.words.drawing.charts/chartseries/bubble3d/) { get; set; } | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
 | [DataLabels](../../aspose.words.drawing.charts/chartseries/datalabels/) { get; } | Specifies the settings for the data labels for the entire series. |
 | [DataPoints](../../aspose.words.drawing.charts/chartseries/datapoints/) { get; } | Returns a collection of formatting objects for all data points in this series. |
-| [Explosion](../../aspose.words.drawing.charts/chartseries/explosion/) { get; set; } |  |
+| [Explosion](../../aspose.words.drawing.charts/chartseries/explosion/) { get; set; } | Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts. |
 | [Format](../../aspose.words.drawing.charts/chartseries/format/) { get; } | Provides access to fill and line formatting of the series. |
 | [HasDataLabels](../../aspose.words.drawing.charts/chartseries/hasdatalabels/) { get; set; } | Gets or sets a flag indicating whether data labels are displayed for the series. |
-| [InvertIfNegative](../../aspose.words.drawing.charts/chartseries/invertifnegative/) { get; set; } |  |
+| [InvertIfNegative](../../aspose.words.drawing.charts/chartseries/invertifnegative/) { get; set; } | Specifies whether the parent element shall inverts its colors if the value is negative. |
 | [LegendEntry](../../aspose.words.drawing.charts/chartseries/legendentry/) { get; } | Gets a legend entry for this chart series. |
-| [Marker](../../aspose.words.drawing.charts/chartseries/marker/) { get; } |  |
+| [Marker](../../aspose.words.drawing.charts/chartseries/marker/) { get; } | Specifies a data marker. Marker is automatically created when requested. |
 | [Name](../../aspose.words.drawing.charts/chartseries/name/) { get; set; } | Gets or sets the name of the series, if name is not set explicitly it is generated using index. By default returns Series plus one based index. |
 | [Smooth](../../aspose.words.drawing.charts/chartseries/smooth/) { get; set; } | Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines. |
 

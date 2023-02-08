@@ -38,7 +38,7 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 | [LockContentControl](../../aspose.words.markup/structureddocumenttagrangestart/lockcontentcontrol/) { get; set; } | When set to `true`, this property will prohibit a user from deleting this structured document tag. |
 | [LockContents](../../aspose.words.markup/structureddocumenttagrangestart/lockcontents/) { get; set; } | When set to `true`, this property will prohibit a user from editing the contents of this structured document tag. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
-| override [NodeType](../../aspose.words.markup/structureddocumenttagrangestart/nodetype/) { get; } |  |
+| override [NodeType](../../aspose.words.markup/structureddocumenttagrangestart/nodetype/) { get; } | Returns StructuredDocumentTagRangeStart. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [Placeholder](../../aspose.words.markup/structureddocumenttagrangestart/placeholder/) { get; } | Gets the [`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this structured document tag run contents are empty, the associated mapped XML element is empty as specified via the [`XmlMapping`](./xmlmapping/) element or the [`IsShowingPlaceholderText`](./isshowingplaceholdertext/) element is `true`. |
 | [PlaceholderName](../../aspose.words.markup/structureddocumenttagrangestart/placeholdername/) { get; set; } | Gets or sets Name of the [`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text. |
@@ -55,7 +55,7 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 
 | Name | Description |
 | --- | --- |
-| override [Accept](../../aspose.words.markup/structureddocumenttagrangestart/accept/)(DocumentVisitor) |  |
+| override [Accept](../../aspose.words.markup/structureddocumenttagrangestart/accept/)(DocumentVisitor) | Accepts a visitor. |
 | [AppendChild](../../aspose.words.markup/structureddocumenttagrangestart/appendchild/)(Node) | Adds the specified node to the end of the stdContent range. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
