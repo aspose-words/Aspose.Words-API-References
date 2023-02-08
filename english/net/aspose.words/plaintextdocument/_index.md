@@ -1,7 +1,7 @@
 ---
 title: Class PlainTextDocument
 second_title: Aspose.Words for .NET API Reference
-description: Allows to extract plaintext representation of the documents content in C#
+description: Aspose.Words.PlainTextDocument class. Allows to extract plaintext representation of the documents content in C#
 type: docs
 weight: 4220
 url: /net/aspose.words/plaintextdocument/

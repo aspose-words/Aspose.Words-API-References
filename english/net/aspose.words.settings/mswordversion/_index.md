@@ -1,7 +1,7 @@
 ---
 title: Enum MsWordVersion
 second_title: Aspose.Words for .NET API Reference
-description: Allows Aspose.Wods to mimic MS Word versionspecific application behavior in C#
+description: Aspose.Words.Settings.MsWordVersion enum. Allows Aspose.Wods to mimic MS Word versionspecific application behavior in C#
 type: docs
 weight: 5630
 url: /net/aspose.words.settings/mswordversion/

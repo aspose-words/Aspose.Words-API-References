@@ -1,7 +1,7 @@
 ---
 title: Class FieldSet
 second_title: Aspose.Words for .NET API Reference
-description: Implements the SET field in C#
+description: Aspose.Words.Fields.FieldSet class. Implements the SET field in C#
 type: docs
 weight: 2250
 url: /net/aspose.words.fields/fieldset/

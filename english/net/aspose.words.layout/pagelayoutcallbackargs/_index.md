@@ -1,7 +1,7 @@
 ---
 title: Class PageLayoutCallbackArgs
 second_title: Aspose.Words for .NET API Reference
-description: An argument passed into Notify in C#
+description: Aspose.Words.Layout.PageLayoutCallbackArgs class. An argument passed into Notify in C#
 type: docs
 weight: 3180
 url: /net/aspose.words.layout/pagelayoutcallbackargs/

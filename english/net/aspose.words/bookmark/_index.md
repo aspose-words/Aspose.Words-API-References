@@ -1,7 +1,7 @@
 ---
 title: Class Bookmark
 second_title: Aspose.Words for .NET API Reference
-description: Represents a single bookmark in C#
+description: Aspose.Words.Bookmark class. Represents a single bookmark in C#
 type: docs
 weight: 30
 url: /net/aspose.words/bookmark/

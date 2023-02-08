@@ -1,7 +1,7 @@
 ---
 title: Enum TextDmlEffect
 second_title: Aspose.Words for .NET API Reference
-description: Dml text effect for text runs in C#
+description: Aspose.Words.TextDmlEffect enum. Dml text effect for text runs in C#
 type: docs
 weight: 6180
 url: /net/aspose.words/textdmleffect/

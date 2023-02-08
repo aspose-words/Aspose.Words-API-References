@@ -1,7 +1,7 @@
 ---
 title: Class RevisionGroupCollection
 second_title: Aspose.Words for .NET API Reference
-description: A collection of RevisionGroup objects that represent revision groups in the document in C#
+description: Aspose.Words.RevisionGroupCollection class. A collection of RevisionGroup objects that represent revision groups in the document in C#
 type: docs
 weight: 4570
 url: /net/aspose.words/revisiongroupcollection/

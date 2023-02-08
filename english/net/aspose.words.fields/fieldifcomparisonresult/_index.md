@@ -1,7 +1,7 @@
 ---
 title: Enum FieldIfComparisonResult
 second_title: Aspose.Words for .NET API Reference
-description: Specifies the result of the IF field condition evaluation in C#
+description: Aspose.Words.Fields.FieldIfComparisonResult enum. Specifies the result of the IF field condition evaluation in C#
 type: docs
 weight: 1860
 url: /net/aspose.words.fields/fieldifcomparisonresult/

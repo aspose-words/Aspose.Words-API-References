@@ -1,7 +1,7 @@
 ---
 title: Class SvgSaveOptions
 second_title: Aspose.Words for .NET API Reference
-description: Can be used to specify additional options when saving a document into the Svg format in C#
+description: Aspose.Words.Saving.SvgSaveOptions class. Can be used to specify additional options when saving a document into the Svg format in C#
 type: docs
 weight: 5380
 url: /net/aspose.words.saving/svgsaveoptions/

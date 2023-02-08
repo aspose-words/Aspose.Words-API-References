@@ -1,7 +1,7 @@
 ---
 title: Class TextWatermarkOptions
 second_title: Aspose.Words for .NET API Reference
-description: Contains options that can be specified when adding a watermark with text in C#
+description: Aspose.Words.TextWatermarkOptions class. Contains options that can be specified when adding a watermark with text in C#
 type: docs
 weight: 6210
 url: /net/aspose.words/textwatermarkoptions/

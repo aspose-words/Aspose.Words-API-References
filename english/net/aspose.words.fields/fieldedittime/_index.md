@@ -1,7 +1,7 @@
 ---
 title: Class FieldEditTime
 second_title: Aspose.Words for .NET API Reference
-description: Implements the EDITTIME field in C#
+description: Aspose.Words.Fields.FieldEditTime class. Implements the EDITTIME field in C#
 type: docs
 weight: 1690
 url: /net/aspose.words.fields/fieldedittime/

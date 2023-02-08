@@ -1,7 +1,7 @@
 ---
 title: Enum BuildingBlockType
 second_title: Aspose.Words for .NET API Reference
-description: Specifies a building block type. The type might affect the visibility and behavior of the building block in Microsoft Word in C#
+description: Aspose.Words.BuildingBlocks.BuildingBlockType enum. Specifies a building block type. The type might affect the visibility and behavior of the building block in Microsoft Word in C#
 type: docs
 weight: 160
 url: /net/aspose.words.buildingblocks/buildingblocktype/

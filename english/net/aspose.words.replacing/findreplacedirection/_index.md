@@ -1,7 +1,7 @@
 ---
 title: Enum FindReplaceDirection
 second_title: Aspose.Words for .NET API Reference
-description: Specifies direction for replace operations in C#
+description: Aspose.Words.Replacing.FindReplaceDirection enum. Specifies direction for replace operations in C#
 type: docs
 weight: 4390
 url: /net/aspose.words.replacing/findreplacedirection/

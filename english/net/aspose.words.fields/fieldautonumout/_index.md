@@ -1,7 +1,7 @@
 ---
 title: Class FieldAutoNumOut
 second_title: Aspose.Words for .NET API Reference
-description: Implements the AUTONUMOUT field in C#
+description: Aspose.Words.Fields.FieldAutoNumOut class. Implements the AUTONUMOUT field in C#
 type: docs
 weight: 1450
 url: /net/aspose.words.fields/fieldautonumout/

@@ -1,7 +1,7 @@
 ---
 title: Class ImageFieldMergingArgs
 second_title: Aspose.Words for .NET API Reference
-description: Provides data for the ImageFieldMerging event in C#
+description: Aspose.Words.MailMerging.ImageFieldMergingArgs class. Provides data for the ImageFieldMerging event in C#
 type: docs
 weight: 3630
 url: /net/aspose.words.mailmerging/imagefieldmergingargs/

@@ -1,7 +1,7 @@
 ---
 title: Class ImageSize
 second_title: Aspose.Words for .NET API Reference
-description: Contains information about image size and resolution in C#
+description: Aspose.Words.Drawing.ImageSize class. Contains information about image size and resolution in C#
 type: docs
 weight: 940
 url: /net/aspose.words.drawing/imagesize/

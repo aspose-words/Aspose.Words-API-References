@@ -1,7 +1,7 @@
 ---
 title: Enum StyleIdentifier
 second_title: Aspose.Words for .NET API Reference
-description: Locale independent style identifier in C#
+description: Aspose.Words.StyleIdentifier enum. Locale independent style identifier in C#
 type: docs
 weight: 5920
 url: /net/aspose.words/styleidentifier/
