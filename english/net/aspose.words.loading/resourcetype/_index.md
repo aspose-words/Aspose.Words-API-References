@@ -1,7 +1,7 @@
 ---
 title: Enum ResourceType
 second_title: Aspose.Words for .NET API Reference
-description: Type of loaded resource in C#
+description: Aspose.Words.Loading.ResourceType enum. Type of loaded resource in C#
 type: docs
 weight: 3520
 url: /net/aspose.words.loading/resourcetype/

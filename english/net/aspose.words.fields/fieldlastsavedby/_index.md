@@ -1,7 +1,7 @@
 ---
 title: Class FieldLastSavedBy
 second_title: Aspose.Words for .NET API Reference
-description: Implements the LASTSAVEDBY field in C#
+description: Aspose.Words.Fields.FieldLastSavedBy class. Implements the LASTSAVEDBY field in C#
 type: docs
 weight: 1950
 url: /net/aspose.words.fields/fieldlastsavedby/

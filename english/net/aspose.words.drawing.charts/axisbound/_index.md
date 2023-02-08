@@ -1,7 +1,7 @@
 ---
 title: Class AxisBound
 second_title: Aspose.Words for .NET API Reference
-description: Represents minimum or maximum bound of axis values in C#
+description: Aspose.Words.Drawing.Charts.AxisBound class. Represents minimum or maximum bound of axis values in C#
 type: docs
 weight: 500
 url: /net/aspose.words.drawing.charts/axisbound/

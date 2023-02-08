@@ -1,7 +1,7 @@
 ---
 title: Class PdfDigitalSignatureDetails
 second_title: Aspose.Words for .NET API Reference
-description: Contains details for signing a PDF document with a digital signature in C#
+description: Aspose.Words.Saving.PdfDigitalSignatureDetails class. Contains details for signing a PDF document with a digital signature in C#
 type: docs
 weight: 5210
 url: /net/aspose.words.saving/pdfdigitalsignaturedetails/

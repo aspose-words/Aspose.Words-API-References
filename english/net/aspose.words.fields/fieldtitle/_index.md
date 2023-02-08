@@ -1,7 +1,7 @@
 ---
 title: Class FieldTitle
 second_title: Aspose.Words for .NET API Reference
-description: Implements the TITLE field in C#
+description: Aspose.Words.Fields.FieldTitle class. Implements the TITLE field in C#
 type: docs
 weight: 2360
 url: /net/aspose.words.fields/fieldtitle/

@@ -1,7 +1,7 @@
 ---
 title: Class ResourceLoadingArgs
 second_title: Aspose.Words for .NET API Reference
-description: Provides data for the ResourceLoading method in C#
+description: Aspose.Words.Loading.ResourceLoadingArgs class. Provides data for the ResourceLoading method in C#
 type: docs
 weight: 3510
 url: /net/aspose.words.loading/resourceloadingargs/

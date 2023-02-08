@@ -1,7 +1,7 @@
 ---
 title: Class AbsolutePositionTab
 second_title: Aspose.Words for .NET API Reference
-description: An absolute position tab is a character which is used to advance the position on the current line of text when displaying this WordprocessingML content in C#
+description: Aspose.Words.AbsolutePositionTab class. An absolute position tab is a character which is used to advance the position on the current line of text when displaying this WordprocessingML content in C#
 type: docs
 weight: 10
 url: /net/aspose.words/absolutepositiontab/

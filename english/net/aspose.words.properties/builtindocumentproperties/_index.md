@@ -1,7 +1,7 @@
 ---
 title: Class BuiltInDocumentProperties
 second_title: Aspose.Words for .NET API Reference
-description: A collection of builtin document properties in C#
+description: Aspose.Words.Properties.BuiltInDocumentProperties class. A collection of builtin document properties in C#
 type: docs
 weight: 4230
 url: /net/aspose.words.properties/builtindocumentproperties/

@@ -1,7 +1,7 @@
 ---
 title: Class FieldMergeSeq
 second_title: Aspose.Words for .NET API Reference
-description: Implements the MERGESEQ field in C#
+description: Aspose.Words.Fields.FieldMergeSeq class. Implements the MERGESEQ field in C#
 type: docs
 weight: 2020
 url: /net/aspose.words.fields/fieldmergeseq/
