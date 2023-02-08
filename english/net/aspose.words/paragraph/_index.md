@@ -32,7 +32,7 @@ public class Paragraph : CompositeNode
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Gets the first child of the node. |
-| [FrameFormat](../../aspose.words/paragraph/frameformat/) { get; } | Provides access to the paragraph formatting properties. |
+| [FrameFormat](../../aspose.words/paragraph/frameformat/) { get; } | Provides access to the frame formatting properties. |
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
 | override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |
 | [IsDeleteRevision](../../aspose.words/paragraph/isdeleterevision/) { get; } | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |

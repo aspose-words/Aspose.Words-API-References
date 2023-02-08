@@ -1,12 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.NodeType
 second_title: Aspose.Words for .NET API Reference
-description: StructuredDocumentTagRangeStart property.  in C#
+description: StructuredDocumentTagRangeStart property. Returns StructuredDocumentTagRangeStart in C#
 type: docs
 weight: 100
 url: /net/aspose.words.markup/structureddocumenttagrangestart/nodetype/
 ---
 ## StructuredDocumentTagRangeStart.NodeType property
+
+Returns StructuredDocumentTagRangeStart.
 
 ```csharp
 public override NodeType NodeType { get; }

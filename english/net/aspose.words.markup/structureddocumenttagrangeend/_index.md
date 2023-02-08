@@ -31,7 +31,7 @@ public class StructuredDocumentTagRangeEnd : Node
 | [Id](../../aspose.words.markup/structureddocumenttagrangeend/id/) { get; } | Specifies a unique read-only persistent numerical Id for this **StructuredDocumentTagRange** node. Corresponding [`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) node has the same [`Id`](../structureddocumenttagrangestart/id/). |
 | virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returns `true` if this node can contain other nodes. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
-| override [NodeType](../../aspose.words.markup/structureddocumenttagrangeend/nodetype/) { get; } |  |
+| override [NodeType](../../aspose.words.markup/structureddocumenttagrangeend/nodetype/) { get; } | Returns StructuredDocumentTagRangeEnd. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
 | [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
@@ -40,7 +40,7 @@ public class StructuredDocumentTagRangeEnd : Node
 
 | Name | Description |
 | --- | --- |
-| override [Accept](../../aspose.words.markup/structureddocumenttagrangeend/accept/)(DocumentVisitor) |  |
+| override [Accept](../../aspose.words.markup/structureddocumenttagrangeend/accept/)(DocumentVisitor) | Accepts a visitor. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Gets the first ancestor of the specified object type. |
