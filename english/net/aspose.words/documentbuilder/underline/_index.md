@@ -1,7 +1,7 @@
 ---
 title: DocumentBuilder.Underline
 second_title: Aspose.Words for .NET API Reference
-description: DocumentBuilder property. Gets/sets underline type for the current font in C#
+description: DocumentBuilder property. Gets/sets underline type for the current font in C#.
 type: docs
 weight: 190
 url: /net/aspose.words/documentbuilder/underline/

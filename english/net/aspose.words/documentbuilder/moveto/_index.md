@@ -1,7 +1,7 @@
 ---
 title: DocumentBuilder.MoveTo
 second_title: Aspose.Words for .NET API Reference
-description: DocumentBuilder method. Moves the cursor to an inline node or to the end of a paragraph in C#
+description: DocumentBuilder method. Moves the cursor to an inline node or to the end of a paragraph in C#.
 type: docs
 weight: 480
 url: /net/aspose.words/documentbuilder/moveto/

@@ -1,7 +1,7 @@
 ---
 title: Class FieldFileName
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Fields.FieldFileName class. Implements the FILENAME field in C#
+description: Aspose.Words.Fields.FieldFileName class. Implements the FILENAME field in C#.
 type: docs
 weight: 1720
 url: /net/aspose.words.fields/fieldfilename/

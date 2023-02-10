@@ -1,7 +1,7 @@
 ---
 title: DocumentBuilder.InsertCheckBox
 second_title: Aspose.Words for .NET API Reference
-description: DocumentBuilder method. Inserts a checkbox form field at the current position in C#
+description: DocumentBuilder method. Inserts a checkbox form field at the current position in C#.
 type: docs
 weight: 290
 url: /net/aspose.words/documentbuilder/insertcheckbox/

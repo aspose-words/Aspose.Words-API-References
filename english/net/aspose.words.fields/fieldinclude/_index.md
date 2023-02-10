@@ -1,7 +1,7 @@
 ---
 title: Class FieldInclude
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Fields.FieldInclude class. Implements the INCLUDE field in C#
+description: Aspose.Words.Fields.FieldInclude class. Implements the INCLUDE field in C#.
 type: docs
 weight: 1880
 url: /net/aspose.words.fields/fieldinclude/

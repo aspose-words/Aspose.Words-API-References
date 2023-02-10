@@ -1,7 +1,7 @@
 ---
 title: IMailMergeDataSource.GetChildDataSource
 second_title: Aspose.Words for .NET API Reference
-description: IMailMergeDataSource method. The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a nested mail merge region in C#
+description: IMailMergeDataSource method. The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a nested mail merge region in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/

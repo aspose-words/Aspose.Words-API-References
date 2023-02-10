@@ -1,7 +1,7 @@
 ---
 title: FieldRef.IncludeNoteOrComment
 second_title: Aspose.Words for .NET API Reference
-description: FieldRef property. Gets or sets whether to increment footnote endnote and annotation numbers that are marked by the bookmark and insert the corresponding footnote endnote and comment text in C#
+description: FieldRef property. Gets or sets whether to increment footnote endnote and annotation numbers that are marked by the bookmark and insert the corresponding footnote endnote and comment text in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldref/includenoteorcomment/

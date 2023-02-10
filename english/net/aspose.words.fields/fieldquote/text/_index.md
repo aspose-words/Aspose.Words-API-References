@@ -1,7 +1,7 @@
 ---
 title: FieldQuote.Text
 second_title: Aspose.Words for .NET API Reference
-description: FieldQuote property. Gets or sets the text to retrieve in C#
+description: FieldQuote property. Gets or sets the text to retrieve in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldquote/text/

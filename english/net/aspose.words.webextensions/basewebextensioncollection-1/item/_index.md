@@ -1,7 +1,7 @@
 ---
 title: BaseWebExtensionCollection1.Item
 second_title: Aspose.Words for .NET API Reference
-description: BaseWebExtensionCollection property. Gets or sets an item at the specified index in C#
+description: BaseWebExtensionCollection property. Gets or sets an item at the specified index in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.webextensions/basewebextensioncollection-1/item/

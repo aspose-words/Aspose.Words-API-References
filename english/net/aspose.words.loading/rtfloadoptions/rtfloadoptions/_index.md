@@ -1,7 +1,7 @@
 ---
 title: RtfLoadOptions.RtfLoadOptions
 second_title: Aspose.Words for .NET API Reference
-description: RtfLoadOptions constructor. Initializes a new instance of this class with default values in C#
+description: RtfLoadOptions constructor. Initializes a new instance of this class with default values in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.loading/rtfloadoptions/rtfloadoptions/

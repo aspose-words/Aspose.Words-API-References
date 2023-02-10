@@ -1,7 +1,7 @@
 ---
 title: Class FontSubstitutionSettings
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Fonts.FontSubstitutionSettings class. Specifies font substitution mechanism settings in C#
+description: Aspose.Words.Fonts.FontSubstitutionSettings class. Specifies font substitution mechanism settings in C#.
 type: docs
 weight: 2850
 url: /net/aspose.words.fonts/fontsubstitutionsettings/

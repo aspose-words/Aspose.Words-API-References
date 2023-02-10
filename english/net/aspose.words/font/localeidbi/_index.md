@@ -1,7 +1,7 @@
 ---
 title: Font.LocaleIdBi
 second_title: Aspose.Words for .NET API Reference
-description: Font property. Gets or sets the locale identifier language of the formatted righttoleft characters in C#
+description: Font property. Gets or sets the locale identifier language of the formatted righttoleft characters in C#.
 type: docs
 weight: 210
 url: /net/aspose.words/font/localeidbi/

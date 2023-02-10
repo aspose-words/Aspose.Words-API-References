@@ -1,7 +1,7 @@
 ---
 title: RevisionGroup.Text
 second_title: Aspose.Words for .NET API Reference
-description: RevisionGroup property. Returns inserted/deleted/moved text or description of format change in C#
+description: RevisionGroup property. Returns inserted/deleted/moved text or description of format change in C#.
 type: docs
 weight: 30
 url: /net/aspose.words/revisiongroup/text/

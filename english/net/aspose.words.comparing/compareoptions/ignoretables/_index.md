@@ -1,7 +1,7 @@
 ---
 title: CompareOptions.IgnoreTables
 second_title: Aspose.Words for .NET API Reference
-description: CompareOptions property. Specifies whether to compare the differences in data contained in tables. By default tables are not ignored in C#
+description: CompareOptions property. Specifies whether to compare the differences in data contained in tables. By default tables are not ignored in C#.
 type: docs
 weight: 110
 url: /net/aspose.words.comparing/compareoptions/ignoretables/

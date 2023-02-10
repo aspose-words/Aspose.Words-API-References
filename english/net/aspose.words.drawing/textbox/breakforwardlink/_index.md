@@ -1,7 +1,7 @@
 ---
 title: TextBox.BreakForwardLink
 second_title: Aspose.Words for .NET API Reference
-description: TextBox method. Breaks the link to the next TextBox in C#
+description: TextBox method. Breaks the link to the next TextBox in C#.
 type: docs
 weight: 120
 url: /net/aspose.words.drawing/textbox/breakforwardlink/

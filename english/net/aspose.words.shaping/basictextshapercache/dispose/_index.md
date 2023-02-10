@@ -1,7 +1,7 @@
 ---
 title: BasicTextShaperCache.Dispose
 second_title: Aspose.Words for .NET API Reference
-description: BasicTextShaperCache method.  in C#
+description: BasicTextShaperCache method.  in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.shaping/basictextshapercache/dispose/

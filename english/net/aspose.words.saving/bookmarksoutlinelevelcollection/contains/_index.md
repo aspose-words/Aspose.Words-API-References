@@ -1,7 +1,7 @@
 ---
 title: BookmarksOutlineLevelCollection.Contains
 second_title: Aspose.Words for .NET API Reference
-description: BookmarksOutlineLevelCollection method. Determines whether the collection contains a bookmark with the given name in C#
+description: BookmarksOutlineLevelCollection method. Determines whether the collection contains a bookmark with the given name in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.saving/bookmarksoutlinelevelcollection/contains/

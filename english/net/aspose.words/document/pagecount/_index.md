@@ -1,7 +1,7 @@
 ---
 title: Document.PageCount
 second_title: Aspose.Words for .NET API Reference
-description: Document property. Gets the number of pages in the document as calculated by the most recent page layout operation in C#
+description: Document property. Gets the number of pages in the document as calculated by the most recent page layout operation in C#.
 type: docs
 weight: 320
 url: /net/aspose.words/document/pagecount/

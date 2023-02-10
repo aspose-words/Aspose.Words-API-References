@@ -1,7 +1,7 @@
 ---
 title: OleControl.Name
 second_title: Aspose.Words for .NET API Reference
-description: OleControl property. Gets name of the ActiveX control in C#
+description: OleControl property. Gets name of the ActiveX control in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.ole/olecontrol/name/

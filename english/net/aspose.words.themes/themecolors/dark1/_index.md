@@ -1,7 +1,7 @@
 ---
 title: ThemeColors.Dark1
 second_title: Aspose.Words for .NET API Reference
-description: ThemeColors property. Specifies color Dark 1 in C#
+description: ThemeColors property. Specifies color Dark 1 in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.themes/themecolors/dark1/

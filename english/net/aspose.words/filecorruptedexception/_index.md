@@ -1,7 +1,7 @@
 ---
 title: Class FileCorruptedException
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.FileCorruptedException class. Thrown during document load when the document appears to be corrupted and impossible to load in C#
+description: Aspose.Words.FileCorruptedException class. Thrown during document load when the document appears to be corrupted and impossible to load in C#.
 type: docs
 weight: 2640
 url: /net/aspose.words/filecorruptedexception/

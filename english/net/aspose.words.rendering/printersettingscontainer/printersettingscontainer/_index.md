@@ -1,7 +1,7 @@
 ---
 title: PrinterSettingsContainer.PrinterSettingsContainer
 second_title: Aspose.Words for .NET API Reference
-description: PrinterSettingsContainer constructor. Creates a container for PrinterSettings in C#
+description: PrinterSettingsContainer constructor. Creates a container for PrinterSettings in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.rendering/printersettingscontainer/printersettingscontainer/

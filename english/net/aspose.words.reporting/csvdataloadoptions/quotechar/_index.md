@@ -1,7 +1,7 @@
 ---
 title: CsvDataLoadOptions.QuoteChar
 second_title: Aspose.Words for .NET API Reference
-description: CsvDataLoadOptions property. Gets or sets the character that is used to quote field values in C#
+description: CsvDataLoadOptions property. Gets or sets the character that is used to quote field values in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.reporting/csvdataloadoptions/quotechar/

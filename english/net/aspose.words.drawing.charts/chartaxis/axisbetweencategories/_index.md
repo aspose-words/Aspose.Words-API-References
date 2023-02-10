@@ -1,7 +1,7 @@
 ---
 title: ChartAxis.AxisBetweenCategories
 second_title: Aspose.Words for .NET API Reference
-description: ChartAxis property. Gets or sets a flag indicating whether the value axis crosses the category axis between categories in C#
+description: ChartAxis property. Gets or sets a flag indicating whether the value axis crosses the category axis between categories in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/

@@ -1,7 +1,7 @@
 ---
 title: TextWatermarkOptions.FontFamily
 second_title: Aspose.Words for .NET API Reference
-description: TextWatermarkOptions property. Gets or sets font family name. The default value is Calibri in C#
+description: TextWatermarkOptions property. Gets or sets font family name. The default value is Calibri in C#.
 type: docs
 weight: 30
 url: /net/aspose.words/textwatermarkoptions/fontfamily/

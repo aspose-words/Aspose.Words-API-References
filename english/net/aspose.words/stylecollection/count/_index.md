@@ -1,7 +1,7 @@
 ---
 title: StyleCollection.Count
 second_title: Aspose.Words for .NET API Reference
-description: StyleCollection property. Gets the number of styles in the collection in C#
+description: StyleCollection property. Gets the number of styles in the collection in C#.
 type: docs
 weight: 10
 url: /net/aspose.words/stylecollection/count/

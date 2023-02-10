@@ -1,7 +1,7 @@
 ---
 title: KnownTypeSet.GetEnumerator
 second_title: Aspose.Words for .NET API Reference
-description: KnownTypeSet method. Returns An IEnumerator object to iterate over items of the set in C#
+description: KnownTypeSet method. Returns An IEnumerator object to iterate over items of the set in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.reporting/knowntypeset/getenumerator/

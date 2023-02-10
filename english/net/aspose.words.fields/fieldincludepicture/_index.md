@@ -1,7 +1,7 @@
 ---
 title: Class FieldIncludePicture
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Fields.FieldIncludePicture class. Implements the INCLUDEPICTURE field in C#
+description: Aspose.Words.Fields.FieldIncludePicture class. Implements the INCLUDEPICTURE field in C#.
 type: docs
 weight: 1890
 url: /net/aspose.words.fields/fieldincludepicture/

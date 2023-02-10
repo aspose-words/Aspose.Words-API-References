@@ -1,7 +1,7 @@
 ---
 title: Class ChartSeriesCollection
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Drawing.Charts.ChartSeriesCollection class. Represents collection of a ChartSeries in C#
+description: Aspose.Words.Drawing.Charts.ChartSeriesCollection class. Represents collection of a ChartSeries in C#.
 type: docs
 weight: 740
 url: /net/aspose.words.drawing.charts/chartseriescollection/

@@ -1,7 +1,7 @@
 ---
 title: PdfEncryptionDetails.UserPassword
 second_title: Aspose.Words for .NET API Reference
-description: PdfEncryptionDetails property. Specifies the user password required for opening the encrypted PDF document in C#
+description: PdfEncryptionDetails property. Specifies the user password required for opening the encrypted PDF document in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/pdfencryptiondetails/userpassword/

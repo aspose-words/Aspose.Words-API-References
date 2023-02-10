@@ -1,7 +1,7 @@
 ---
 title: BarcodeParameters.DisplayText
 second_title: Aspose.Words for .NET API Reference
-description: BarcodeParameters property. Whether to display barcode data text along with image in C#
+description: BarcodeParameters property. Whether to display barcode data text along with image in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/barcodeparameters/displaytext/

@@ -1,7 +1,7 @@
 ---
 title: MailMergeRegionInfo.ParentRegion
 second_title: Aspose.Words for .NET API Reference
-description: MailMergeRegionInfo property. Returns parent region info null for toplevel region in C#
+description: MailMergeRegionInfo property. Returns parent region info null for toplevel region in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/parentregion/

@@ -1,7 +1,7 @@
 ---
 title: Enum EditingLanguage
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Loading.EditingLanguage enum. Specifies the editing language in C#
+description: Aspose.Words.Loading.EditingLanguage enum. Specifies the editing language in C#.
 type: docs
 weight: 3420
 url: /net/aspose.words.loading/editinglanguage/

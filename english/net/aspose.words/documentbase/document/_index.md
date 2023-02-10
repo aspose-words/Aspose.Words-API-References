@@ -1,7 +1,7 @@
 ---
 title: DocumentBase.Document
 second_title: Aspose.Words for .NET API Reference
-description: DocumentBase property. Gets this instance in C#
+description: DocumentBase property. Gets this instance in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/documentbase/document/

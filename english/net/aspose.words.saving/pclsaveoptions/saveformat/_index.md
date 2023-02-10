@@ -1,7 +1,7 @@
 ---
 title: PclSaveOptions.SaveFormat
 second_title: Aspose.Words for .NET API Reference
-description: PclSaveOptions property. Specifies the format in which the document will be saved if this save options object is used. Can only be Pcl in C#
+description: PclSaveOptions property. Specifies the format in which the document will be saved if this save options object is used. Can only be Pcl in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/pclsaveoptions/saveformat/

@@ -1,7 +1,7 @@
 ---
 title: PdfDigitalSignatureDetails.TimestampSettings
 second_title: Aspose.Words for .NET API Reference
-description: PdfDigitalSignatureDetails property. Gets or sets the digital signature timestamp settings in C#
+description: PdfDigitalSignatureDetails property. Gets or sets the digital signature timestamp settings in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/

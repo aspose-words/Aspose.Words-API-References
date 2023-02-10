@@ -1,7 +1,7 @@
 ---
 title: ChartAxis.NumberFormat
 second_title: Aspose.Words for .NET API Reference
-description: ChartAxis property. Returns a ChartNumberFormat object that allows defining number formats for the axis in C#
+description: ChartAxis property. Returns a ChartNumberFormat object that allows defining number formats for the axis in C#.
 type: docs
 weight: 170
 url: /net/aspose.words.drawing.charts/chartaxis/numberformat/

@@ -1,7 +1,7 @@
 ---
 title: Class Hyphenation
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Hyphenation class. Provides methods for working with hyphenation dictionaries. These dictionaries prescribe where words of a specific language can be hyphenated in C#
+description: Aspose.Words.Hyphenation class. Provides methods for working with hyphenation dictionaries. These dictionaries prescribe where words of a specific language can be hyphenated in C#.
 type: docs
 weight: 2990
 url: /net/aspose.words/hyphenation/

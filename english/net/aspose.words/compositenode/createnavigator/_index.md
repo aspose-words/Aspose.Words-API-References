@@ -1,7 +1,7 @@
 ---
 title: CompositeNode.CreateNavigator
 second_title: Aspose.Words for .NET API Reference
-description: CompositeNode method. Reserved for system use. IXPathNavigable in C#
+description: CompositeNode method. Reserved for system use. IXPathNavigable in C#.
 type: docs
 weight: 80
 url: /net/aspose.words/compositenode/createnavigator/

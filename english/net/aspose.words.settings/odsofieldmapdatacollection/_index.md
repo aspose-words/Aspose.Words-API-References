@@ -1,7 +1,7 @@
 ---
 title: Class OdsoFieldMapDataCollection
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Settings.OdsoFieldMapDataCollection class. A typed collection of the OdsoFieldMapData objects in C#
+description: Aspose.Words.Settings.OdsoFieldMapDataCollection class. A typed collection of the OdsoFieldMapData objects in C#.
 type: docs
 weight: 5680
 url: /net/aspose.words.settings/odsofieldmapdatacollection/

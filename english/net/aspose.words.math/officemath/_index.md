@@ -1,7 +1,7 @@
 ---
 title: Class OfficeMath
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Math.OfficeMath class. Represents an Office Math object such as function equation matrix or alike. Can contain child elements including runs of mathematical text bookmarks comments other OfficeMath instances and some other nodes in C#
+description: Aspose.Words.Math.OfficeMath class. Represents an Office Math object such as function equation matrix or alike. Can contain child elements including runs of mathematical text bookmarks comments other OfficeMath instances and some other nodes in C#.
 type: docs
 weight: 3910
 url: /net/aspose.words.math/officemath/

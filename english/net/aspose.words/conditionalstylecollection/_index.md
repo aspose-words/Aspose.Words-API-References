@@ -1,7 +1,7 @@
 ---
 title: Class ConditionalStyleCollection
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.ConditionalStyleCollection class. Represents a collection of ConditionalStyle objects in C#
+description: Aspose.Words.ConditionalStyleCollection class. Represents a collection of ConditionalStyle objects in C#.
 type: docs
 weight: 310
 url: /net/aspose.words/conditionalstylecollection/

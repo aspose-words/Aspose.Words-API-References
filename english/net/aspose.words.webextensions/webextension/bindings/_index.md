@@ -1,7 +1,7 @@
 ---
 title: WebExtension.Bindings
 second_title: Aspose.Words for .NET API Reference
-description: WebExtension property. Specifies a list of web extension bindings in C#
+description: WebExtension property. Specifies a list of web extension bindings in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.webextensions/webextension/bindings/

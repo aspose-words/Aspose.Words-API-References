@@ -1,7 +1,7 @@
 ---
 title: ShapeBase.DistanceTop
 second_title: Aspose.Words for .NET API Reference
-description: ShapeBase property. Returns or sets the distance in points between the document text and the top edge of the shape in C#
+description: ShapeBase property. Returns or sets the distance in points between the document text and the top edge of the shape in C#.
 type: docs
 weight: 160
 url: /net/aspose.words.drawing/shapebase/distancetop/

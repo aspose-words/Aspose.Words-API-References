@@ -1,7 +1,7 @@
 ---
 title: CsvDataLoadOptions.CsvDataLoadOptions
 second_title: Aspose.Words for .NET API Reference
-description: CsvDataLoadOptions constructor. Initializes a new instance of this class with default options in C#
+description: CsvDataLoadOptions constructor. Initializes a new instance of this class with default options in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.reporting/csvdataloadoptions/csvdataloadoptions/

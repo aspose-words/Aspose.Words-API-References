@@ -1,7 +1,7 @@
 ---
 title: DocumentBuilder.IsAtStartOfParagraph
 second_title: Aspose.Words for .NET API Reference
-description: DocumentBuilder property. Returns true if the cursor is at the beginning of the current paragraph no text before the cursor in C#
+description: DocumentBuilder property. Returns true if the cursor is at the beginning of the current paragraph no text before the cursor in C#.
 type: docs
 weight: 130
 url: /net/aspose.words/documentbuilder/isatstartofparagraph/

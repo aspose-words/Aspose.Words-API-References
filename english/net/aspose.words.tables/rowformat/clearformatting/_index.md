@@ -1,7 +1,7 @@
 ---
 title: RowFormat.ClearFormatting
 second_title: Aspose.Words for .NET API Reference
-description: RowFormat method. Resets to default row formatting in C#
+description: RowFormat method. Resets to default row formatting in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.tables/rowformat/clearformatting/

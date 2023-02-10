@@ -1,7 +1,7 @@
 ---
 title: SvgSaveOptions.SvgSaveOptions
 second_title: Aspose.Words for .NET API Reference
-description: SvgSaveOptions constructor. The default constructor in C#
+description: SvgSaveOptions constructor. The default constructor in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/svgsaveoptions/svgsaveoptions/

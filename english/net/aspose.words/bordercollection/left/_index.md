@@ -1,7 +1,7 @@
 ---
 title: BorderCollection.Left
 second_title: Aspose.Words for .NET API Reference
-description: BorderCollection property. Gets the left border in C#
+description: BorderCollection property. Gets the left border in C#.
 type: docs
 weight: 70
 url: /net/aspose.words/bordercollection/left/

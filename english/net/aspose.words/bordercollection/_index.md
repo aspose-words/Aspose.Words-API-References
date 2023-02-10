@@ -1,7 +1,7 @@
 ---
 title: Class BorderCollection
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.BorderCollection class. A collection of Border objects in C#
+description: Aspose.Words.BorderCollection class. A collection of Border objects in C#.
 type: docs
 weight: 80
 url: /net/aspose.words/bordercollection/

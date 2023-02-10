@@ -1,7 +1,7 @@
 ---
 title: Class FieldSection
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Fields.FieldSection class. Implements the SECTION field in C#
+description: Aspose.Words.Fields.FieldSection class. Implements the SECTION field in C#.
 type: docs
 weight: 2210
 url: /net/aspose.words.fields/fieldsection/

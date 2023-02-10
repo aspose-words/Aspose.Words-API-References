@@ -1,7 +1,7 @@
 ---
 title: CommentRangeEnd.Id
 second_title: Aspose.Words for .NET API Reference
-description: CommentRangeEnd property. Specifies the identifier of the comment to which this region is linked to in C#
+description: CommentRangeEnd property. Specifies the identifier of the comment to which this region is linked to in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/commentrangeend/id/

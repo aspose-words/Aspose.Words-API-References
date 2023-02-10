@@ -1,7 +1,7 @@
 ---
 title: DocumentVisitor.VisitOfficeMathEnd
 second_title: Aspose.Words for .NET API Reference
-description: DocumentVisitor method. Called when enumeration of a Office Math object has ended in C#
+description: DocumentVisitor method. Called when enumeration of a Office Math object has ended in C#.
 type: docs
 weight: 300
 url: /net/aspose.words/documentvisitor/visitofficemathend/

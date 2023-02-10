@@ -1,7 +1,7 @@
 ---
 title: ComparisonEvaluationResult.ComparisonEvaluationResult
 second_title: Aspose.Words for .NET API Reference
-description: ComparisonEvaluationResult constructor. Creates a comparison evaluation result in C#
+description: ComparisonEvaluationResult constructor. Creates a comparison evaluation result in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/comparisonevaluationresult/comparisonevaluationresult/

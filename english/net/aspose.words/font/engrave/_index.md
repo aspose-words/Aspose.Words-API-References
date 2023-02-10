@@ -1,7 +1,7 @@
 ---
 title: Font.Engrave
 second_title: Aspose.Words for .NET API Reference
-description: Font property. True if the font is formatted as engraved in C#
+description: Font property. True if the font is formatted as engraved in C#.
 type: docs
 weight: 120
 url: /net/aspose.words/font/engrave/

@@ -1,7 +1,7 @@
 ---
 title: OdsoFieldMapDataCollection.RemoveAt
 second_title: Aspose.Words for .NET API Reference
-description: OdsoFieldMapDataCollection method. Removes the element at the specified index in C#
+description: OdsoFieldMapDataCollection method. Removes the element at the specified index in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.settings/odsofieldmapdatacollection/removeat/

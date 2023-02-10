@@ -1,7 +1,7 @@
 ---
 title: FieldIndex.FieldIndex
 second_title: Aspose.Words for .NET API Reference
-description: FieldIndex constructor. The default constructor in C#
+description: FieldIndex constructor. The default constructor in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldindex/fieldindex/

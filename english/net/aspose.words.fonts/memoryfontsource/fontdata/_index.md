@@ -1,7 +1,7 @@
 ---
 title: MemoryFontSource.FontData
 second_title: Aspose.Words for .NET API Reference
-description: MemoryFontSource property. Binary font data in C#
+description: MemoryFontSource property. Binary font data in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fonts/memoryfontsource/fontdata/

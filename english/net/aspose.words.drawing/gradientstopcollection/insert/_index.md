@@ -1,7 +1,7 @@
 ---
 title: GradientStopCollection.Insert
 second_title: Aspose.Words for .NET API Reference
-description: GradientStopCollection method. Inserts a GradientStop to the collection at a specified index in C#
+description: GradientStopCollection method. Inserts a GradientStop to the collection at a specified index in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing/gradientstopcollection/insert/

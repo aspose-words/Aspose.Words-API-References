@@ -1,7 +1,7 @@
 ---
 title: GeneralFormatCollection.Item
 second_title: Aspose.Words for .NET API Reference
-description: GeneralFormatCollection property. Gets a general format at the specified index in C#
+description: GeneralFormatCollection property. Gets a general format at the specified index in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/generalformatcollection/item/

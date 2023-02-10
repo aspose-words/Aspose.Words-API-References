@@ -1,7 +1,7 @@
 ---
 title: Class FieldNumPages
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Fields.FieldNumPages class. Implements the NUMPAGES field in C#
+description: Aspose.Words.Fields.FieldNumPages class. Implements the NUMPAGES field in C#.
 type: docs
 weight: 2070
 url: /net/aspose.words.fields/fieldnumpages/

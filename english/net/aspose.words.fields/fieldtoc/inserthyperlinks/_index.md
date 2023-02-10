@@ -1,7 +1,7 @@
 ---
 title: FieldToc.InsertHyperlinks
 second_title: Aspose.Words for .NET API Reference
-description: FieldToc property. Gets or sets whether to make the table of contents entries hyperlinks in C#
+description: FieldToc property. Gets or sets whether to make the table of contents entries hyperlinks in C#.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/fieldtoc/inserthyperlinks/

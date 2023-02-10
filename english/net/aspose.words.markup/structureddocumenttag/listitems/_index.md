@@ -1,7 +1,7 @@
 ---
 title: StructuredDocumentTag.ListItems
 second_title: Aspose.Words for .NET API Reference
-description: StructuredDocumentTag property. Gets SdtListItemCollection associated with this SDT in C#
+description: StructuredDocumentTag property. Gets SdtListItemCollection associated with this SDT in C#.
 type: docs
 weight: 180
 url: /net/aspose.words.markup/structureddocumenttag/listitems/

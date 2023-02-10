@@ -1,7 +1,7 @@
 ---
 title: PdfSaveOptions.PdfSaveOptions
 second_title: Aspose.Words for .NET API Reference
-description: PdfSaveOptions constructor. Initializes a new instance of this class that can be used to save a document in the Pdf format in C#
+description: PdfSaveOptions constructor. Initializes a new instance of this class that can be used to save a document in the Pdf format in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/pdfsaveoptions/pdfsaveoptions/

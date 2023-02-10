@@ -1,7 +1,7 @@
 ---
 title: Class EditableRange
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.EditableRange class. Represents a single editable range in C#
+description: Aspose.Words.EditableRange class. Represents a single editable range in C#.
 type: docs
 weight: 1270
 url: /net/aspose.words/editablerange/

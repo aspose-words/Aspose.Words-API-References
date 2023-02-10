@@ -1,7 +1,7 @@
 ---
 title: CompatibilityOptions.DisplayHangulFixedWidth
 second_title: Aspose.Words for .NET API Reference
-description: CompatibilityOptions property. Always Use Fixed Width for Hangul Characters in C#
+description: CompatibilityOptions property. Always Use Fixed Width for Hangul Characters in C#.
 type: docs
 weight: 110
 url: /net/aspose.words.settings/compatibilityoptions/displayhangulfixedwidth/

@@ -1,7 +1,7 @@
 ---
 title: FormField.NodeType
 second_title: Aspose.Words for .NET API Reference
-description: FormField property. Returns FormField in C#
+description: FormField property. Returns FormField in C#.
 type: docs
 weight: 140
 url: /net/aspose.words.fields/formfield/nodetype/

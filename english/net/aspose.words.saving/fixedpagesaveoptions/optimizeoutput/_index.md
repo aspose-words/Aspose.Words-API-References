@@ -1,7 +1,7 @@
 ---
 title: FixedPageSaveOptions.OptimizeOutput
 second_title: Aspose.Words for .NET API Reference
-description: FixedPageSaveOptions property. Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed also neighbor glyphs with the same formatting are concatenated. Note The accuracy of the content display may be affected if this property is set to true. Default is false in C#
+description: FixedPageSaveOptions property. Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed also neighbor glyphs with the same formatting are concatenated. Note The accuracy of the content display may be affected if this property is set to true. Default is false in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/

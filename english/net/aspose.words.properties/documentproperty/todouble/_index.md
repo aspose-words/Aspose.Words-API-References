@@ -1,7 +1,7 @@
 ---
 title: DocumentProperty.ToDouble
 second_title: Aspose.Words for .NET API Reference
-description: DocumentProperty method. Returns the property value as double in C#
+description: DocumentProperty method. Returns the property value as double in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.properties/documentproperty/todouble/

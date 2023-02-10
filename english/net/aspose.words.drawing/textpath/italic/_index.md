@@ -1,7 +1,7 @@
 ---
 title: TextPath.Italic
 second_title: Aspose.Words for .NET API Reference
-description: TextPath property. True if the font is formatted as italic in C#
+description: TextPath property. True if the font is formatted as italic in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing/textpath/italic/

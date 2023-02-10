@@ -1,7 +1,7 @@
 ---
 title: Document.FirstSection
 second_title: Aspose.Words for .NET API Reference
-description: Document property. Gets the first section in the document in C#
+description: Document property. Gets the first section in the document in C#.
 type: docs
 weight: 130
 url: /net/aspose.words/document/firstsection/

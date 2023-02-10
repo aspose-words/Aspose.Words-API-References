@@ -1,7 +1,7 @@
 ---
 title: TabStopCollection.GetHashCode
 second_title: Aspose.Words for .NET API Reference
-description: TabStopCollection method. Serves as a hash function for this type in C#
+description: TabStopCollection method. Serves as a hash function for this type in C#.
 type: docs
 weight: 80
 url: /net/aspose.words/tabstopcollection/gethashcode/

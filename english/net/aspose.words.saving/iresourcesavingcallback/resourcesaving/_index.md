@@ -1,7 +1,7 @@
 ---
 title: IResourceSavingCallback.ResourceSaving
 second_title: Aspose.Words for .NET API Reference
-description: IResourceSavingCallback method. Called when Aspose.Words saves an external resource to fixed page HTML or SVG formats in C#
+description: IResourceSavingCallback method. Called when Aspose.Words saves an external resource to fixed page HTML or SVG formats in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/iresourcesavingcallback/resourcesaving/

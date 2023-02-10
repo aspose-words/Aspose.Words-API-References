@@ -1,7 +1,7 @@
 ---
 title: GlossaryDocument.LastBuildingBlock
 second_title: Aspose.Words for .NET API Reference
-description: GlossaryDocument property. Gets the last building block in the glossary document in C#
+description: GlossaryDocument property. Gets the last building block in the glossary document in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.buildingblocks/glossarydocument/lastbuildingblock/

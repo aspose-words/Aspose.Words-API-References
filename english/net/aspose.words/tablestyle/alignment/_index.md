@@ -1,7 +1,7 @@
 ---
 title: TableStyle.Alignment
 second_title: Aspose.Words for .NET API Reference
-description: TableStyle property. Specifies the alignment for the table style in C#
+description: TableStyle property. Specifies the alignment for the table style in C#.
 type: docs
 weight: 10
 url: /net/aspose.words/tablestyle/alignment/

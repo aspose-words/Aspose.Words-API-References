@@ -1,7 +1,7 @@
 ---
 title: ComparisonExpression.LeftExpression
 second_title: Aspose.Words for .NET API Reference
-description: ComparisonExpression property. Gets the left expression in C#
+description: ComparisonExpression property. Gets the left expression in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/comparisonexpression/leftexpression/

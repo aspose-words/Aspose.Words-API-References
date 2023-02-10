@@ -1,7 +1,7 @@
 ---
 title: Class FileFormatInfo
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.FileFormatInfo class. Contains data returned by FileFormatUtil document format detection methods in C#
+description: Aspose.Words.FileFormatInfo class. Contains data returned by FileFormatUtil document format detection methods in C#.
 type: docs
 weight: 2650
 url: /net/aspose.words/fileformatinfo/

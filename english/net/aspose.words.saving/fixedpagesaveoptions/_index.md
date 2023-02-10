@@ -1,7 +1,7 @@
 ---
 title: Class FixedPageSaveOptions
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Saving.FixedPageSaveOptions class. Contains common options that can be specified when saving a document into fixed page formats PDF XPS images etc in C#
+description: Aspose.Words.Saving.FixedPageSaveOptions class. Contains common options that can be specified when saving a document into fixed page formats PDF XPS images etc in C#.
 type: docs
 weight: 4800
 url: /net/aspose.words.saving/fixedpagesaveoptions/

@@ -1,7 +1,7 @@
 ---
 title: HtmlSaveOptions.ImageResolution
 second_title: Aspose.Words for .NET API Reference
-description: HtmlSaveOptions property. Specifies the output resolution for images when exporting to HTML MHTML or EPUB. Default is 96 dpi in C#
+description: HtmlSaveOptions property. Specifies the output resolution for images when exporting to HTML MHTML or EPUB. Default is 96 dpi in C#.
 type: docs
 weight: 350
 url: /net/aspose.words.saving/htmlsaveoptions/imageresolution/

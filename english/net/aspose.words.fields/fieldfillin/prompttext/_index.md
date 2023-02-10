@@ -1,7 +1,7 @@
 ---
 title: FieldFillIn.PromptText
 second_title: Aspose.Words for .NET API Reference
-description: FieldFillIn property. Gets or sets the prompt text the title of the prompt window in C#
+description: FieldFillIn property. Gets or sets the prompt text the title of the prompt window in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldfillin/prompttext/

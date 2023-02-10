@@ -1,7 +1,7 @@
 ---
 title: FontSavingArgs.IsSubsettingNeeded
 second_title: Aspose.Words for .NET API Reference
-description: FontSavingArgs property. Allows to specify whether the current font will be subsetted before exporting as a font resource in C#
+description: FontSavingArgs property. Allows to specify whether the current font will be subsetted before exporting as a font resource in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.saving/fontsavingargs/issubsettingneeded/

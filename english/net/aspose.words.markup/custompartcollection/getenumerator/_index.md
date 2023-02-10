@@ -1,7 +1,7 @@
 ---
 title: CustomPartCollection.GetEnumerator
 second_title: Aspose.Words for .NET API Reference
-description: CustomPartCollection method. Returns an enumerator object that can be used to iterate over all items in the collection in C#
+description: CustomPartCollection method. Returns an enumerator object that can be used to iterate over all items in the collection in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.markup/custompartcollection/getenumerator/

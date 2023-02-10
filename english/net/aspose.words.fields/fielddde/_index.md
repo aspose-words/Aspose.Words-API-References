@@ -1,7 +1,7 @@
 ---
 title: Class FieldDde
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Fields.FieldDde class. Implements the DDE field in C#
+description: Aspose.Words.Fields.FieldDde class. Implements the DDE field in C#.
 type: docs
 weight: 1630
 url: /net/aspose.words.fields/fielddde/

@@ -1,7 +1,7 @@
 ---
 title: Section.DeleteHeaderFooterShapes
 second_title: Aspose.Words for .NET API Reference
-description: Section method. Deletes all shapes drawing objects from the headers and footers of this section in C#
+description: Section method. Deletes all shapes drawing objects from the headers and footers of this section in C#.
 type: docs
 weight: 120
 url: /net/aspose.words/section/deleteheaderfootershapes/

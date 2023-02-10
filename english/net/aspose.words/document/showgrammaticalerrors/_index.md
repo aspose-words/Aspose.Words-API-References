@@ -1,7 +1,7 @@
 ---
 title: Document.ShowGrammaticalErrors
 second_title: Aspose.Words for .NET API Reference
-description: Document property. Specifies whether to display grammar errors in this document in C#
+description: Document property. Specifies whether to display grammar errors in this document in C#.
 type: docs
 weight: 390
 url: /net/aspose.words/document/showgrammaticalerrors/

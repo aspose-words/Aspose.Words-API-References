@@ -1,7 +1,7 @@
 ---
 title: Shading.ForegroundPatternColor
 second_title: Aspose.Words for .NET API Reference
-description: Shading property. Gets or sets the color thats applied to the foreground of the Shading object in C#
+description: Shading property. Gets or sets the color thats applied to the foreground of the Shading object in C#.
 type: docs
 weight: 40
 url: /net/aspose.words/shading/foregroundpatterncolor/

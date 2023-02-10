@@ -1,7 +1,7 @@
 ---
 title: FieldToc.EntrySeparator
 second_title: Aspose.Words for .NET API Reference
-description: FieldToc property. Gets or sets a sequence of characters that separate an entry and its page number in C#
+description: FieldToc property. Gets or sets a sequence of characters that separate an entry and its page number in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldtoc/entryseparator/

@@ -1,7 +1,7 @@
 ---
 title: StructuredDocumentTag.IsTemporary
 second_title: Aspose.Words for .NET API Reference
-description: StructuredDocumentTag property. Specifies whether this SDT shall be removed from the WordProcessingML document when its contents are modified in C#
+description: StructuredDocumentTag property. Specifies whether this SDT shall be removed from the WordProcessingML document when its contents are modified in C#.
 type: docs
 weight: 160
 url: /net/aspose.words.markup/structureddocumenttag/istemporary/

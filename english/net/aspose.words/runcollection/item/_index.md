@@ -1,7 +1,7 @@
 ---
 title: RunCollection.Item
 second_title: Aspose.Words for .NET API Reference
-description: RunCollection property. Retrieves a Run at the given index in C#
+description: RunCollection property. Retrieves a Run at the given index in C#.
 type: docs
 weight: 10
 url: /net/aspose.words/runcollection/item/
