@@ -1,7 +1,7 @@
 ---
 title: ChartAxis.CategoryType
 second_title: Aspose.Words for .NET API Reference
-description: ChartAxis property. Gets or sets type of the category axis in C#
+description: ChartAxis property. Gets or sets type of the category axis in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartaxis/categorytype/

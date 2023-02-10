@@ -1,7 +1,7 @@
 ---
 title: FieldCitation.SuppressTitle
 second_title: Aspose.Words for .NET API Reference
-description: FieldCitation property. Gets or sets whether the title information is suppressed from the citation in C#
+description: FieldCitation property. Gets or sets whether the title information is suppressed from the citation in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.fields/fieldcitation/suppresstitle/

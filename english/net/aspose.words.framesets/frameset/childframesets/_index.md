@@ -1,7 +1,7 @@
 ---
 title: Frameset.ChildFramesets
 second_title: Aspose.Words for .NET API Reference
-description: Frameset property. Gets the collection of child frames and frames pages in C#
+description: Frameset property. Gets the collection of child frames and frames pages in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.framesets/frameset/childframesets/

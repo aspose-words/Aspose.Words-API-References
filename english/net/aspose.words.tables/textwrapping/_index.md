@@ -1,7 +1,7 @@
 ---
 title: Enum TextWrapping
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Tables.TextWrapping enum. Specifies how text is wrapped around the table in C#
+description: Aspose.Words.Tables.TextWrapping enum. Specifies how text is wrapped around the table in C#.
 type: docs
 weight: 6150
 url: /net/aspose.words.tables/textwrapping/

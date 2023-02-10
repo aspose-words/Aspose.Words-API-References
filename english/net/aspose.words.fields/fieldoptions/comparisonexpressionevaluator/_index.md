@@ -1,7 +1,7 @@
 ---
 title: FieldOptions.ComparisonExpressionEvaluator
 second_title: Aspose.Words for .NET API Reference
-description: FieldOptions property. Gets or sets the field comparison expressions evaluator in C#
+description: FieldOptions property. Gets or sets the field comparison expressions evaluator in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldoptions/comparisonexpressionevaluator/

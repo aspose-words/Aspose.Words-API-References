@@ -1,7 +1,7 @@
 ---
 title: Enum GradientVariant
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Drawing.GradientVariant enum. Specifies the variant for a gradient fill in C#
+description: Aspose.Words.Drawing.GradientVariant enum. Specifies the variant for a gradient fill in C#.
 type: docs
 weight: 880
 url: /net/aspose.words.drawing/gradientvariant/

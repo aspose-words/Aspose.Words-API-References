@@ -1,7 +1,7 @@
 ---
 title: Enum PageVerticalAlignment
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.PageVerticalAlignment enum. Specifies vertical justification of text on each page in C#
+description: Aspose.Words.PageVerticalAlignment enum. Specifies vertical justification of text on each page in C#.
 type: docs
 weight: 4160
 url: /net/aspose.words/pageverticalalignment/

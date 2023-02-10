@@ -1,7 +1,7 @@
 ---
 title: Run.Run
 second_title: Aspose.Words for .NET API Reference
-description: Run constructor. Initializes a new instance of the Run class in C#
+description: Run constructor. Initializes a new instance of the Run class in C#.
 type: docs
 weight: 10
 url: /net/aspose.words/run/run/

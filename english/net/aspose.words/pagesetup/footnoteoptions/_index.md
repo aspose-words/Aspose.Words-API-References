@@ -1,7 +1,7 @@
 ---
 title: PageSetup.FootnoteOptions
 second_title: Aspose.Words for .NET API Reference
-description: PageSetup property. Provides options that control numbering and positioning of footnotes in this section in C#
+description: PageSetup property. Provides options that control numbering and positioning of footnotes in this section in C#.
 type: docs
 weight: 150
 url: /net/aspose.words/pagesetup/footnoteoptions/

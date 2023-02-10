@@ -1,7 +1,7 @@
 ---
 title: ControlChar.SpaceChar
 second_title: Aspose.Words for .NET API Reference
-description: ControlChar field. Space character char32 in C#
+description: ControlChar field. Space character char32 in C#.
 type: docs
 weight: 260
 url: /net/aspose.words/controlchar/spacechar/

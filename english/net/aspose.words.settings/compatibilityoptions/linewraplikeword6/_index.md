@@ -1,7 +1,7 @@
 ---
 title: CompatibilityOptions.LineWrapLikeWord6
 second_title: Aspose.Words for .NET API Reference
-description: CompatibilityOptions property. Emulate Word 6.0 Line Wrapping for East Asian Text in C#
+description: CompatibilityOptions property. Emulate Word 6.0 Line Wrapping for East Asian Text in C#.
 type: docs
 weight: 310
 url: /net/aspose.words.settings/compatibilityoptions/linewraplikeword6/

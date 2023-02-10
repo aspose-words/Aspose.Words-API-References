@@ -1,7 +1,7 @@
 ---
 title: Glyph.Advance
 second_title: Aspose.Words for .NET API Reference
-description: Glyph property. Advance width indicating placement for the subsequent glyph in C#
+description: Glyph property. Advance width indicating placement for the subsequent glyph in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.shaping/glyph/advance/

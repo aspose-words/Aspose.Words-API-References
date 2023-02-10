@@ -1,7 +1,7 @@
 ---
 title: Bookmark.FirstColumn
 second_title: Aspose.Words for .NET API Reference
-description: Bookmark property. Gets the zerobased index of the first column of the table column range associated with the bookmark in C#
+description: Bookmark property. Gets the zerobased index of the first column of the table column range associated with the bookmark in C#.
 type: docs
 weight: 30
 url: /net/aspose.words/bookmark/firstcolumn/

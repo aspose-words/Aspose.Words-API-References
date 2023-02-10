@@ -1,7 +1,7 @@
 ---
 title: Comment.StoryType
 second_title: Aspose.Words for .NET API Reference
-description: Comment property. Returns Comments in C#
+description: Comment property. Returns Comments in C#.
 type: docs
 weight: 100
 url: /net/aspose.words/comment/storytype/

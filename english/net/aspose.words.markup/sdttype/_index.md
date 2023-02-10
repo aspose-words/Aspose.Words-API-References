@@ -1,7 +1,7 @@
 ---
 title: Enum SdtType
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Markup.SdtType enum. Specifies the type of a structured document tag SDT node in C#
+description: Aspose.Words.Markup.SdtType enum. Specifies the type of a structured document tag SDT node in C#.
 type: docs
 weight: 3830
 url: /net/aspose.words.markup/sdttype/

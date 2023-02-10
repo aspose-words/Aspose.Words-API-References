@@ -1,7 +1,7 @@
 ---
 title: Enum JustificationMode
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Settings.JustificationMode enum. Specifies the character spacing adjustment for a document. The default value is Expand in C#
+description: Aspose.Words.Settings.JustificationMode enum. Specifies the character spacing adjustment for a document. The default value is Expand in C#.
 type: docs
 weight: 5570
 url: /net/aspose.words.settings/justificationmode/

@@ -1,7 +1,7 @@
 ---
 title: OdsoFieldMapData.Name
 second_title: Aspose.Words for .NET API Reference
-description: OdsoFieldMapData property. Specifies the column name within an external data source for the column whose index is specified by the Column property. The default value is an empty string in C#
+description: OdsoFieldMapData property. Specifies the column name within an external data source for the column whose index is specified by the Column property. The default value is an empty string in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.settings/odsofieldmapdata/name/

@@ -1,7 +1,7 @@
 ---
 title: Range.Fields
 second_title: Aspose.Words for .NET API Reference
-description: Range property. Returns a Fields collection that represents all fields in the range in C#
+description: Range property. Returns a Fields collection that represents all fields in the range in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/range/fields/

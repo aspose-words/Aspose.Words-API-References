@@ -1,7 +1,7 @@
 ---
 title: Enum MailMergeCheckErrors
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Settings.MailMergeCheckErrors enum. Specifies how Microsoft Word will report errors detected during mail merge in C#
+description: Aspose.Words.Settings.MailMergeCheckErrors enum. Specifies how Microsoft Word will report errors detected during mail merge in C#.
 type: docs
 weight: 5580
 url: /net/aspose.words.settings/mailmergecheckerrors/

@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words.DigitalSignatures
 second_title: Aspose.Words for .NET API Reference
-description: The Aspose.Words.DigitalSignatures namespace provides classes to sign documents and verify signatures in C#
+description: The Aspose.Words.DigitalSignatures namespace provides classes to sign documents and verify signatures in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.digitalsignatures/

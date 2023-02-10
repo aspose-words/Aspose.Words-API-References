@@ -1,7 +1,7 @@
 ---
 title: GlossaryDocument.BuildingBlocks
 second_title: Aspose.Words for .NET API Reference
-description: GlossaryDocument property. Returns a typed collection that represents all building blocks in the glossary document in C#
+description: GlossaryDocument property. Returns a typed collection that represents all building blocks in the glossary document in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.buildingblocks/glossarydocument/buildingblocks/

@@ -1,7 +1,7 @@
 ---
 title: CompatibilityOptions.GrowAutofit
 second_title: Aspose.Words for .NET API Reference
-description: CompatibilityOptions property. Allow Tables to AutoFit Into Page Margins in C#
+description: CompatibilityOptions property. Allow Tables to AutoFit Into Page Margins in C#.
 type: docs
 weight: 280
 url: /net/aspose.words.settings/compatibilityoptions/growautofit/

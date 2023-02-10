@@ -1,7 +1,7 @@
 ---
 title: MarkdownSaveOptions.ListExportMode
 second_title: Aspose.Words for .NET API Reference
-description: MarkdownSaveOptions property. Specifies how list items will be written to the output file. Default value is MarkdownSyntax in C#
+description: MarkdownSaveOptions property. Specifies how list items will be written to the output file. Default value is MarkdownSyntax in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.saving/markdownsaveoptions/listexportmode/

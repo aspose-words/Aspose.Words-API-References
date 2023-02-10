@@ -1,7 +1,7 @@
 ---
 title: PdfSaveOptions.DownsampleOptions
 second_title: Aspose.Words for .NET API Reference
-description: PdfSaveOptions property. Allows to specify downsample options in C#
+description: PdfSaveOptions property. Allows to specify downsample options in C#.
 type: docs
 weight: 100
 url: /net/aspose.words.saving/pdfsaveoptions/downsampleoptions/

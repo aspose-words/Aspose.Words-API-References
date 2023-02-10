@@ -1,7 +1,7 @@
 ---
 title: Class CertificateHolder
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.DigitalSignatures.CertificateHolder class. Represents a holder of X509Certificate2 instance in C#
+description: Aspose.Words.DigitalSignatures.CertificateHolder class. Represents a holder of X509Certificate2 instance in C#.
 type: docs
 weight: 360
 url: /net/aspose.words.digitalsignatures/certificateholder/

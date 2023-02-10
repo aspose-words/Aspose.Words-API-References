@@ -1,7 +1,7 @@
 ---
 title: DocumentBuilder.InsertOleObjectAsIcon
 second_title: Aspose.Words for .NET API Reference
-description: DocumentBuilder method. Inserts an embedded or linked OLE object as icon into the document. Allows to specify icon file and caption. Detects OLE object type using file extension in C#
+description: DocumentBuilder method. Inserts an embedded or linked OLE object as icon into the document. Allows to specify icon file and caption. Detects OLE object type using file extension in C#.
 type: docs
 weight: 400
 url: /net/aspose.words/documentbuilder/insertoleobjectasicon/

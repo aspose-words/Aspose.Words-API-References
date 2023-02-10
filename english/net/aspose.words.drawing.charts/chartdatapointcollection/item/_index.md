@@ -1,7 +1,7 @@
 ---
 title: ChartDataPointCollection.Item
 second_title: Aspose.Words for .NET API Reference
-description: ChartDataPointCollection property. Returns ChartDataPoint for the specified index in C#
+description: ChartDataPointCollection property. Returns ChartDataPoint for the specified index in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartdatapointcollection/item/

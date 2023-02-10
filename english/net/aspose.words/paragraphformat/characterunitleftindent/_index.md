@@ -1,7 +1,7 @@
 ---
 title: ParagraphFormat.CharacterUnitLeftIndent
 second_title: Aspose.Words for .NET API Reference
-description: ParagraphFormat property. Gets or sets the left indent value in characters for the specified paragraphs in C#
+description: ParagraphFormat property. Gets or sets the left indent value in characters for the specified paragraphs in C#.
 type: docs
 weight: 70
 url: /net/aspose.words/paragraphformat/characterunitleftindent/

@@ -1,7 +1,7 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedFonts
 second_title: Aspose.Words for .NET API Reference
-description: HtmlFixedSaveOptions property. Specifies whether fonts should be embedded into Html document in Base64 format. Note setting this flag can significantly increase size of output Html file in C#
+description: HtmlFixedSaveOptions property. Specifies whether fonts should be embedded into Html document in Base64 format. Note setting this flag can significantly increase size of output Html file in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedfonts/

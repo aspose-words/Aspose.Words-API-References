@@ -1,7 +1,7 @@
 ---
 title: ControlChar.FieldEndChar
 second_title: Aspose.Words for .NET API Reference
-description: ControlChar field. End of MS Word field character char21 in C#
+description: ControlChar field. End of MS Word field character char21 in C#.
 type: docs
 weight: 80
 url: /net/aspose.words/controlchar/fieldendchar/

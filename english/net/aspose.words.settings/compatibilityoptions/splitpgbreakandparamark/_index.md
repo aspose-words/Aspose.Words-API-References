@@ -1,7 +1,7 @@
 ---
 title: CompatibilityOptions.SplitPgBreakAndParaMark
 second_title: Aspose.Words for .NET API Reference
-description: CompatibilityOptions property. Always Move Paragraph Mark to Page after a Page Break in C#
+description: CompatibilityOptions property. Always Move Paragraph Mark to Page after a Page Break in C#.
 type: docs
 weight: 460
 url: /net/aspose.words.settings/compatibilityoptions/splitpgbreakandparamark/

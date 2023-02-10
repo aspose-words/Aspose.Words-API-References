@@ -1,7 +1,7 @@
 ---
 title: HtmlFixedSaveOptions.Encoding
 second_title: Aspose.Words for .NET API Reference
-description: HtmlFixedSaveOptions property. Specifies the encoding to use when exporting to HTML. Default value is new UTF8Encodingtrue UTF8 with BOM in C#
+description: HtmlFixedSaveOptions property. Specifies the encoding to use when exporting to HTML. Default value is new UTF8Encodingtrue UTF8 with BOM in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/htmlfixedsaveoptions/encoding/

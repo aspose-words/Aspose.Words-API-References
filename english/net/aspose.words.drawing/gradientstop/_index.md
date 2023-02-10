@@ -1,7 +1,7 @@
 ---
 title: Class GradientStop
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Drawing.GradientStop class. Represents one gradient stop in C#
+description: Aspose.Words.Drawing.GradientStop class. Represents one gradient stop in C#.
 type: docs
 weight: 850
 url: /net/aspose.words.drawing/gradientstop/

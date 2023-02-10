@@ -1,7 +1,7 @@
 ---
 title: FieldDde.InsertAsBitmap
 second_title: Aspose.Words for .NET API Reference
-description: FieldDde property. Gets or sets whether to insert the linked object as a bitmap in C#
+description: FieldDde property. Gets or sets whether to insert the linked object as a bitmap in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fielddde/insertasbitmap/

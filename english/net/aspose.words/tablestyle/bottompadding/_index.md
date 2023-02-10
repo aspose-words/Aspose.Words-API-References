@@ -1,7 +1,7 @@
 ---
 title: TableStyle.BottomPadding
 second_title: Aspose.Words for .NET API Reference
-description: TableStyle property. Gets or sets the amount of space in points to add below the contents of table cells in C#
+description: TableStyle property. Gets or sets the amount of space in points to add below the contents of table cells in C#.
 type: docs
 weight: 50
 url: /net/aspose.words/tablestyle/bottompadding/

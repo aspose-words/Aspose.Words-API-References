@@ -1,7 +1,7 @@
 ---
 title: Class FieldTC
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Fields.FieldTC class. Implements the TC field in C#
+description: Aspose.Words.Fields.FieldTC class. Implements the TC field in C#.
 type: docs
 weight: 2330
 url: /net/aspose.words.fields/fieldtc/

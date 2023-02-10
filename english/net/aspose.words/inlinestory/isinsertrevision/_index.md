@@ -1,7 +1,7 @@
 ---
 title: InlineStory.IsInsertRevision
 second_title: Aspose.Words for .NET API Reference
-description: InlineStory property. Returns true if this object was inserted in Microsoft Word while change tracking was enabled in C#
+description: InlineStory property. Returns true if this object was inserted in Microsoft Word while change tracking was enabled in C#.
 type: docs
 weight: 40
 url: /net/aspose.words/inlinestory/isinsertrevision/

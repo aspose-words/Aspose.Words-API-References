@@ -1,7 +1,7 @@
 ---
 title: FieldAuthor.AuthorName
 second_title: Aspose.Words for .NET API Reference
-description: FieldAuthor property. Gets or sets the document authors name in C#
+description: FieldAuthor property. Gets or sets the document authors name in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldauthor/authorname/

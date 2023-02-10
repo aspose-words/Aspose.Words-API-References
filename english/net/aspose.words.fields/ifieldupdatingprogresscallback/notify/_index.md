@@ -1,7 +1,7 @@
 ---
 title: IFieldUpdatingProgressCallback.Notify
 second_title: Aspose.Words for .NET API Reference
-description: IFieldUpdatingProgressCallback method. A user defined method that is called when updating progress is changed in C#
+description: IFieldUpdatingProgressCallback method. A user defined method that is called when updating progress is changed in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/ifieldupdatingprogresscallback/notify/

@@ -1,7 +1,7 @@
 ---
 title: Table.CellSpacing
 second_title: Aspose.Words for .NET API Reference
-description: Table property. Gets or sets the amount of space in points between the cells in C#
+description: Table property. Gets or sets the amount of space in points between the cells in C#.
 type: docs
 weight: 100
 url: /net/aspose.words.tables/table/cellspacing/

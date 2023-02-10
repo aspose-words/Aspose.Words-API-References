@@ -1,7 +1,7 @@
 ---
 title: Section.PrependContent
 second_title: Aspose.Words for .NET API Reference
-description: Section method. Inserts a copy of content of the source section at the beginning of this section in C#
+description: Section method. Inserts a copy of content of the source section at the beginning of this section in C#.
 type: docs
 weight: 140
 url: /net/aspose.words/section/prependcontent/

@@ -1,7 +1,7 @@
 ---
 title: Document.RenderToSize
 second_title: Aspose.Words for .NET API Reference
-description: Document method. Renders a document page into a Graphics object to a specified size in C#
+description: Document method. Renders a document page into a Graphics object to a specified size in C#.
 type: docs
 weight: 690
 url: /net/aspose.words/document/rendertosize/

@@ -1,7 +1,7 @@
 ---
 title: OfficeMath.GetMathRenderer
 second_title: Aspose.Words for .NET API Reference
-description: OfficeMath method. Creates and returns an object that can be used to render this equation into an image in C#
+description: OfficeMath method. Creates and returns an object that can be used to render this equation into an image in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.math/officemath/getmathrenderer/

@@ -1,7 +1,7 @@
 ---
 title: ChartAxis.MinorTickMark
 second_title: Aspose.Words for .NET API Reference
-description: ChartAxis property. Returns or sets the minor tick marks for the axis in C#
+description: ChartAxis property. Returns or sets the minor tick marks for the axis in C#.
 type: docs
 weight: 130
 url: /net/aspose.words.drawing.charts/chartaxis/minortickmark/

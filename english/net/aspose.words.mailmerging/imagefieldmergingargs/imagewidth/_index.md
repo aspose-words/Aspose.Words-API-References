@@ -1,7 +1,7 @@
 ---
 title: ImageFieldMergingArgs.ImageWidth
 second_title: Aspose.Words for .NET API Reference
-description: ImageFieldMergingArgs property. Specifies the image width for the image to insert into the document in C#
+description: ImageFieldMergingArgs property. Specifies the image width for the image to insert into the document in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.mailmerging/imagefieldmergingargs/imagewidth/

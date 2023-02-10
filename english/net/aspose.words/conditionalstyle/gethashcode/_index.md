@@ -1,7 +1,7 @@
 ---
 title: ConditionalStyle.GetHashCode
 second_title: Aspose.Words for .NET API Reference
-description: ConditionalStyle method. Calculates hash code for this object in C#
+description: ConditionalStyle method. Calculates hash code for this object in C#.
 type: docs
 weight: 120
 url: /net/aspose.words/conditionalstyle/gethashcode/

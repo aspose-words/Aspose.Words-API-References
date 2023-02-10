@@ -1,7 +1,7 @@
 ---
 title: PreferredWidth.FromPercent
 second_title: Aspose.Words for .NET API Reference
-description: PreferredWidth method. A creation method that returns a new instance that represents a preferred width specified as a percentage in C#
+description: PreferredWidth method. A creation method that returns a new instance that represents a preferred width specified as a percentage in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.tables/preferredwidth/frompercent/

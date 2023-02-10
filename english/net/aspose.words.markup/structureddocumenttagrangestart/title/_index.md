@@ -1,7 +1,7 @@
 ---
 title: StructuredDocumentTagRangeStart.Title
 second_title: Aspose.Words for .NET API Reference
-description: StructuredDocumentTagRangeStart property. Specifies the friendly name associated with this structured document tag. Can not be null in C#
+description: StructuredDocumentTagRangeStart property. Specifies the friendly name associated with this structured document tag. Can not be null in C#.
 type: docs
 weight: 160
 url: /net/aspose.words.markup/structureddocumenttagrangestart/title/

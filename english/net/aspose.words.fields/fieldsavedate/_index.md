@@ -1,7 +1,7 @@
 ---
 title: Class FieldSaveDate
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Fields.FieldSaveDate class. Implements the SAVEDATE field in C#
+description: Aspose.Words.Fields.FieldSaveDate class. Implements the SAVEDATE field in C#.
 type: docs
 weight: 2200
 url: /net/aspose.words.fields/fieldsavedate/

@@ -1,7 +1,7 @@
 ---
 title: Class ListCollection
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Lists.ListCollection class. Stores and manages formatting of bulleted and numbered lists used in a document in C#
+description: Aspose.Words.Lists.ListCollection class. Stores and manages formatting of bulleted and numbered lists used in a document in C#.
 type: docs
 weight: 3290
 url: /net/aspose.words.lists/listcollection/

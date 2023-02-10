@@ -1,7 +1,7 @@
 ---
 title: FormField.TextInputDefault
 second_title: Aspose.Words for .NET API Reference
-description: FormField property. Gets or sets the default string or a calculation expression of a text form field in C#
+description: FormField property. Gets or sets the default string or a calculation expression of a text form field in C#.
 type: docs
 weight: 190
 url: /net/aspose.words.fields/formfield/textinputdefault/

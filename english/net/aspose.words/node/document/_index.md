@@ -1,7 +1,7 @@
 ---
 title: Node.Document
 second_title: Aspose.Words for .NET API Reference
-description: Node property. Gets the document to which this node belongs in C#
+description: Node property. Gets the document to which this node belongs in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/node/document/

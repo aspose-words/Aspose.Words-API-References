@@ -1,7 +1,7 @@
 ---
 title: Document.UpdateFields
 second_title: Aspose.Words for .NET API Reference
-description: Document method. Updates the values of fields in the whole document in C#
+description: Document method. Updates the values of fields in the whole document in C#.
 type: docs
 weight: 750
 url: /net/aspose.words/document/updatefields/

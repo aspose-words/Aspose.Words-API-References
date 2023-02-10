@@ -1,7 +1,7 @@
 ---
 title: ConditionalStyleCollection.ClearFormatting
 second_title: Aspose.Words for .NET API Reference
-description: ConditionalStyleCollection method. Clears all conditional styles of the table style in C#
+description: ConditionalStyleCollection method. Clears all conditional styles of the table style in C#.
 type: docs
 weight: 150
 url: /net/aspose.words/conditionalstylecollection/clearformatting/

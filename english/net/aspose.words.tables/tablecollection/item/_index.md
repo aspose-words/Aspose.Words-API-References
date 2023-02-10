@@ -1,7 +1,7 @@
 ---
 title: TableCollection.Item
 second_title: Aspose.Words for .NET API Reference
-description: TableCollection property. Retrieves a Table at the given index in C#
+description: TableCollection property. Retrieves a Table at the given index in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.tables/tablecollection/item/

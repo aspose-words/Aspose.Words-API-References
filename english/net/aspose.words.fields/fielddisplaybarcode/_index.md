@@ -1,7 +1,7 @@
 ---
 title: Class FieldDisplayBarcode
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Fields.FieldDisplayBarcode class. Implements the DISPLAYBARCODE field in C#
+description: Aspose.Words.Fields.FieldDisplayBarcode class. Implements the DISPLAYBARCODE field in C#.
 type: docs
 weight: 1650
 url: /net/aspose.words.fields/fielddisplaybarcode/

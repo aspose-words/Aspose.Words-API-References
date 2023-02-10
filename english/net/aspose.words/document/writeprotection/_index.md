@@ -1,7 +1,7 @@
 ---
 title: Document.WriteProtection
 second_title: Aspose.Words for .NET API Reference
-description: Document property. Provides access to the document write protection options in C#
+description: Document property. Provides access to the document write protection options in C#.
 type: docs
 weight: 500
 url: /net/aspose.words/document/writeprotection/

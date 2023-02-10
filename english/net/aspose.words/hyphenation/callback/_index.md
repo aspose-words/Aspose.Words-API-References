@@ -1,7 +1,7 @@
 ---
 title: Hyphenation.Callback
 second_title: Aspose.Words for .NET API Reference
-description: Hyphenation property. Gets or sets callback interface used to request dictionaries when page layout of the document is built. This allows delay loading of dictionaries which may be useful when processing documents in many languages in C#
+description: Hyphenation property. Gets or sets callback interface used to request dictionaries when page layout of the document is built. This allows delay loading of dictionaries which may be useful when processing documents in many languages in C#.
 type: docs
 weight: 10
 url: /net/aspose.words/hyphenation/callback/

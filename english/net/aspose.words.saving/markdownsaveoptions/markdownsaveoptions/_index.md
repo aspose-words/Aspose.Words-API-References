@@ -1,7 +1,7 @@
 ---
 title: MarkdownSaveOptions.MarkdownSaveOptions
 second_title: Aspose.Words for .NET API Reference
-description: MarkdownSaveOptions constructor. Initializes a new instance of this class that can be used to save a document in the Markdown format in C#
+description: MarkdownSaveOptions constructor. Initializes a new instance of this class that can be used to save a document in the Markdown format in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/markdownsaveoptions/markdownsaveoptions/

@@ -1,7 +1,7 @@
 ---
 title: Enum FontPitch
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Fonts.FontPitch enum. Represents the font pitch in C#
+description: Aspose.Words.Fonts.FontPitch enum. Represents the font pitch in C#.
 type: docs
 weight: 2800
 url: /net/aspose.words.fonts/fontpitch/

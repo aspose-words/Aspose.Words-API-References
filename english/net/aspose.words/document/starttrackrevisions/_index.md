@@ -1,7 +1,7 @@
 ---
 title: Document.StartTrackRevisions
 second_title: Aspose.Words for .NET API Reference
-description: Document method. Starts automatically marking all further changes you make to the document programmatically as revision changes in C#
+description: Document method. Starts automatically marking all further changes you make to the document programmatically as revision changes in C#.
 type: docs
 weight: 710
 url: /net/aspose.words/document/starttrackrevisions/

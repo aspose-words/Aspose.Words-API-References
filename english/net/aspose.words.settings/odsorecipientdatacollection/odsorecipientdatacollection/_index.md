@@ -1,7 +1,7 @@
 ---
 title: OdsoRecipientDataCollection.OdsoRecipientDataCollection
 second_title: Aspose.Words for .NET API Reference
-description: OdsoRecipientDataCollection constructor. The default constructor in C#
+description: OdsoRecipientDataCollection constructor. The default constructor in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.settings/odsorecipientdatacollection/odsorecipientdatacollection/

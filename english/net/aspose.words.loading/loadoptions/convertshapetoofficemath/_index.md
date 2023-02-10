@@ -1,7 +1,7 @@
 ---
 title: LoadOptions.ConvertShapeToOfficeMath
 second_title: Aspose.Words for .NET API Reference
-description: LoadOptions property. Gets or sets whether to convert shapes with EquationXML to Office Math objects in C#
+description: LoadOptions property. Gets or sets whether to convert shapes with EquationXML to Office Math objects in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.loading/loadoptions/convertshapetoofficemath/

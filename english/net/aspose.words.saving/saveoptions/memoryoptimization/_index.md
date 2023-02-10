@@ -1,7 +1,7 @@
 ---
 title: SaveOptions.MemoryOptimization
 second_title: Aspose.Words for .NET API Reference
-description: SaveOptions property. Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is false in C#
+description: SaveOptions property. Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is false in C#.
 type: docs
 weight: 100
 url: /net/aspose.words.saving/saveoptions/memoryoptimization/

@@ -1,7 +1,7 @@
 ---
 title: Class FieldFootnoteRef
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Fields.FieldFootnoteRef class. Implements the FOOTNOTEREF field in C#
+description: Aspose.Words.Fields.FieldFootnoteRef class. Implements the FOOTNOTEREF field in C#.
 type: docs
 weight: 1750
 url: /net/aspose.words.fields/fieldfootnoteref/

@@ -1,7 +1,7 @@
 ---
 title: Class Footnote
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Notes.Footnote class. Represents a container for text of a footnote or endnote in C#
+description: Aspose.Words.Notes.Footnote class. Represents a container for text of a footnote or endnote in C#.
 type: docs
 weight: 4050
 url: /net/aspose.words.notes/footnote/

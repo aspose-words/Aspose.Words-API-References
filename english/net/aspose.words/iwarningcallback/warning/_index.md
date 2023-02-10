@@ -1,7 +1,7 @@
 ---
 title: IWarningCallback.Warning
 second_title: Aspose.Words for .NET API Reference
-description: IWarningCallback method. Aspose.Words invokes this method when it encounters some issue during document loading or saving that might result in loss of formatting or data fidelity in C#
+description: IWarningCallback method. Aspose.Words invokes this method when it encounters some issue during document loading or saving that might result in loss of formatting or data fidelity in C#.
 type: docs
 weight: 10
 url: /net/aspose.words/iwarningcallback/warning/

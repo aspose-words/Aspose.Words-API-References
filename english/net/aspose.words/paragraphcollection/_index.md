@@ -1,7 +1,7 @@
 ---
 title: Class ParagraphCollection
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.ParagraphCollection class. Provides typed access to a collection of Paragraph nodes in C#
+description: Aspose.Words.ParagraphCollection class. Provides typed access to a collection of Paragraph nodes in C#.
 type: docs
 weight: 4200
 url: /net/aspose.words/paragraphcollection/

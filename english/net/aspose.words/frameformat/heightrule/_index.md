@@ -1,7 +1,7 @@
 ---
 title: FrameFormat.HeightRule
 second_title: Aspose.Words for .NET API Reference
-description: FrameFormat property. Gets the rule for determining the height of the specified frame in C#
+description: FrameFormat property. Gets the rule for determining the height of the specified frame in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/frameformat/heightrule/

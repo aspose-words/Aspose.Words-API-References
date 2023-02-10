@@ -1,7 +1,7 @@
 ---
 title: Class Section
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Section class. Represents a single section in a document in C#
+description: Aspose.Words.Section class. Represents a single section in a document in C#.
 type: docs
 weight: 5500
 url: /net/aspose.words/section/

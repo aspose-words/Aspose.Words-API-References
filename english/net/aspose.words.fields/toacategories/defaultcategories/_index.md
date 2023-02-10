@@ -1,7 +1,7 @@
 ---
 title: ToaCategories.DefaultCategories
 second_title: Aspose.Words for .NET API Reference
-description: ToaCategories property. Gets the default table of authorities categories in C#
+description: ToaCategories property. Gets the default table of authorities categories in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/toacategories/defaultcategories/

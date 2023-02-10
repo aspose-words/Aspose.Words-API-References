@@ -1,7 +1,7 @@
 ---
 title: Font.Color
 second_title: Aspose.Words for .NET API Reference
-description: Font property. Gets or sets the color of the font in C#
+description: Font property. Gets or sets the color of the font in C#.
 type: docs
 weight: 70
 url: /net/aspose.words/font/color/

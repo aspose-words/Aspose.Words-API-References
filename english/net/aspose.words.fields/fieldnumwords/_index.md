@@ -1,7 +1,7 @@
 ---
 title: Class FieldNumWords
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Fields.FieldNumWords class. Implements the NUMWORDS field in C#
+description: Aspose.Words.Fields.FieldNumWords class. Implements the NUMWORDS field in C#.
 type: docs
 weight: 2080
 url: /net/aspose.words.fields/fieldnumwords/

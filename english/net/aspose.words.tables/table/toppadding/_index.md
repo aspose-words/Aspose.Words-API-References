@@ -1,7 +1,7 @@
 ---
 title: Table.TopPadding
 second_title: Aspose.Words for .NET API Reference
-description: Table property. Gets or sets the amount of space in points to add above the contents of cells in C#
+description: Table property. Gets or sets the amount of space in points to add above the contents of cells in C#.
 type: docs
 weight: 330
 url: /net/aspose.words.tables/table/toppadding/

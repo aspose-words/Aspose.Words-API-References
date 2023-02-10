@@ -1,7 +1,7 @@
 ---
 title: Font.LocaleId
 second_title: Aspose.Words for .NET API Reference
-description: Font property. Gets or sets the locale identifier language of the formatted characters in C#
+description: Font property. Gets or sets the locale identifier language of the formatted characters in C#.
 type: docs
 weight: 200
 url: /net/aspose.words/font/localeid/

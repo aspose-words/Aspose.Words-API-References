@@ -1,7 +1,7 @@
 ---
 title: FieldAddressBlock.LanguageId
 second_title: Aspose.Words for .NET API Reference
-description: FieldAddressBlock property. Gets or sets the language ID used to format the address in C#
+description: FieldAddressBlock property. Gets or sets the language ID used to format the address in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldaddressblock/languageid/

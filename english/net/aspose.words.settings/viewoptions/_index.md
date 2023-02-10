@@ -1,7 +1,7 @@
 ---
 title: Class ViewOptions
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Settings.ViewOptions class. Provides various options that control how a document is shown in Microsoft Word in C#
+description: Aspose.Words.Settings.ViewOptions class. Provides various options that control how a document is shown in Microsoft Word in C#.
 type: docs
 weight: 5720
 url: /net/aspose.words.settings/viewoptions/

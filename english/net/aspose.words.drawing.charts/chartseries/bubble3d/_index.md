@@ -1,7 +1,7 @@
 ---
 title: ChartSeries.Bubble3D
 second_title: Aspose.Words for .NET API Reference
-description: ChartSeries property. Specifies whether the bubbles in Bubble chart should have a 3D effect applied to them in C#
+description: ChartSeries property. Specifies whether the bubbles in Bubble chart should have a 3D effect applied to them in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartseries/bubble3d/

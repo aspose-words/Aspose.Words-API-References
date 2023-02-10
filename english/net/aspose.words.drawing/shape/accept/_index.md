@@ -1,7 +1,7 @@
 ---
 title: Shape.Accept
 second_title: Aspose.Words for .NET API Reference
-description: Shape method. Accepts a visitor in C#
+description: Shape method. Accepts a visitor in C#.
 type: docs
 weight: 240
 url: /net/aspose.words.drawing/shape/accept/

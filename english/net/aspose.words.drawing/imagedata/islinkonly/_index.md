@@ -1,7 +1,7 @@
 ---
 title: ImageData.IsLinkOnly
 second_title: Aspose.Words for .NET API Reference
-description: ImageData property. Returns true if the image is linked and not stored in the document in C#
+description: ImageData property. Returns true if the image is linked and not stored in the document in C#.
 type: docs
 weight: 160
 url: /net/aspose.words.drawing/imagedata/islinkonly/

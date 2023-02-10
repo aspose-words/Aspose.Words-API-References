@@ -1,7 +1,7 @@
 ---
 title: GradientStop.Remove
 second_title: Aspose.Words for .NET API Reference
-description: GradientStop method. Removes the gradient stop from the parent GradientStopCollection in C#
+description: GradientStop method. Removes the gradient stop from the parent GradientStopCollection in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing/gradientstop/remove/

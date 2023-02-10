@@ -1,7 +1,7 @@
 ---
 title: Shape.StrokeColor
 second_title: Aspose.Words for .NET API Reference
-description: Shape property. Defines the color of a stroke in C#
+description: Shape property. Defines the color of a stroke in C#.
 type: docs
 weight: 190
 url: /net/aspose.words.drawing/shape/strokecolor/

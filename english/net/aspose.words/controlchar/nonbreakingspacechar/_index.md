@@ -1,7 +1,7 @@
 ---
 title: ControlChar.NonBreakingSpaceChar
 second_title: Aspose.Words for .NET API Reference
-description: ControlChar field. Nonbreaking space character char160 in C#
+description: ControlChar field. Nonbreaking space character char160 in C#.
 type: docs
 weight: 180
 url: /net/aspose.words/controlchar/nonbreakingspacechar/

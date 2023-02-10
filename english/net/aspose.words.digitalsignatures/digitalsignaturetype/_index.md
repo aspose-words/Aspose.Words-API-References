@@ -1,7 +1,7 @@
 ---
 title: Enum DigitalSignatureType
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.DigitalSignatures.DigitalSignatureType enum. Specifies the type of a digital signature in C#
+description: Aspose.Words.DigitalSignatures.DigitalSignatureType enum. Specifies the type of a digital signature in C#.
 type: docs
 weight: 390
 url: /net/aspose.words.digitalsignatures/digitalsignaturetype/

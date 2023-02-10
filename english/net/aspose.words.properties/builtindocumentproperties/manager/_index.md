@@ -1,7 +1,7 @@
 ---
 title: BuiltInDocumentProperties.Manager
 second_title: Aspose.Words for .NET API Reference
-description: BuiltInDocumentProperties property. Gets or sets the manager property in C#
+description: BuiltInDocumentProperties property. Gets or sets the manager property in C#.
 type: docs
 weight: 200
 url: /net/aspose.words.properties/builtindocumentproperties/manager/

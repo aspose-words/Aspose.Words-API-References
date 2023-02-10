@@ -1,7 +1,7 @@
 ---
 title: ControlChar.DefaultTextInputChar
 second_title: Aspose.Words for .NET API Reference
-description: ControlChar field. This is the o character used as a default value in text input form fields in C#
+description: ControlChar field. This is the o character used as a default value in text input form fields in C#.
 type: docs
 weight: 70
 url: /net/aspose.words/controlchar/defaulttextinputchar/
