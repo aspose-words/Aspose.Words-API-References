@@ -3,7 +3,7 @@ title: OoxmlCompliance enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to specify which OOXML specification will be used when saving in the DOCX format."
 type: docs
-weight: 480
+weight: 490
 url: /python-net/aspose.words.saving/ooxmlcompliance/
 ---
 

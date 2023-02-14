@@ -3,7 +3,7 @@ title: ZoomType enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Possible values for how large or small the document appears on the screen in Microsoft Word."
 type: docs
-weight: 210
+weight: 220
 url: /python-net/aspose.words.settings/zoomtype/
 ---
 

@@ -3,7 +3,7 @@ title: SaveOutputParameters class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "This object is returned to the caller after a document is saved and contains additional information that  has been generated or calculated during the save operation"
 type: docs
-weight: 730
+weight: 740
 url: /python-net/aspose.words.saving/saveoutputparameters/
 ---
 

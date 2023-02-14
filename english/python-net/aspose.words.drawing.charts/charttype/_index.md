@@ -92,7 +92,7 @@ def test_chart_series_collection(self):
     # Insert a series with a decimal value for each respective date.
     # The dates will be distributed along a linear X-axis,
     # and the values added to this series will create data points.
-    chart.series.add("Series 1", dates, [15.8, 21.5, 22.9, 28.7, 33.1])
+    chart.series.add("Series 1", dates=dates, values=[15.8, 21.5, 22.9, 28.7, 33.1])
 
     self.assertEqual(aw.drawing.charts.ChartAxisType.CATEGORY, chart.axis_x.type)
     self.assertEqual(aw.drawing.charts.ChartAxisType.VALUE, chart.axis_y.type)
@@ -104,11 +104,11 @@ def test_chart_series_collection(self):
     # The first array contains X-values, and the second contains corresponding Y-values
     # of data points on the chart's graph.
     chart.series.add("Series 1",
-        [3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6],
-        [3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9])
+        x_values=[3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6],
+        y_values=[3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9])
     chart.series.add("Series 2",
-        [2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3],
-        [7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6])
+        x_values=[2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3],
+        y_values=[7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6])
 
     self.assertEqual(aw.drawing.charts.ChartAxisType.VALUE, chart.axis_x.type)
     self.assertEqual(aw.drawing.charts.ChartAxisType.VALUE, chart.axis_y.type)

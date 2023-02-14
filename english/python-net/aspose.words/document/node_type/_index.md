@@ -3,7 +3,7 @@ title: node_type property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns [NodeType.DOCUMENT](../../nodetype/#DOCUMENT)."
 type: docs
-weight: 260
+weight: 280
 url: /python-net/aspose.words/document/node_type/
 ---
 

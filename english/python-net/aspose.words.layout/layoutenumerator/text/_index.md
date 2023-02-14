@@ -3,7 +3,7 @@ title: text property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets text of the current span entity"
 type: docs
-weight: 70
+weight: 60
 url: /python-net/aspose.words.layout/layoutenumerator/text/
 ---
 

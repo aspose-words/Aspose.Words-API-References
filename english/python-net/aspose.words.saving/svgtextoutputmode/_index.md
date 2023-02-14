@@ -2,7 +2,7 @@
 title: SvgTextOutputMode enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 type: docs
-weight: 750
+weight: 760
 url: /python-net/aspose.words.saving/svgtextoutputmode/
 ---
 

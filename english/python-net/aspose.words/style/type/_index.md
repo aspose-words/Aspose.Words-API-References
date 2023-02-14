@@ -3,7 +3,7 @@ title: type property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets the style type (paragraph or character)."
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.words/style/type/
 ---
 

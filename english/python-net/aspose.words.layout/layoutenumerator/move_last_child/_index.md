@@ -3,7 +3,7 @@ title: move_last_child method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Moves to the last child entity."
 type: docs
-weight: 100
+weight: 90
 url: /python-net/aspose.words.layout/layoutenumerator/move_last_child/
 ---
 

@@ -3,7 +3,7 @@ title: show_spelling_errors property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies whether to display spelling errors in this document."
 type: docs
-weight: 380
+weight: 400
 url: /python-net/aspose.words/document/show_spelling_errors/
 ---
 

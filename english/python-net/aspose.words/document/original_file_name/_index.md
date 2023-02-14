@@ -3,7 +3,7 @@ title: original_file_name property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets the original file name of the document."
 type: docs
-weight: 270
+weight: 290
 url: /python-net/aspose.words/document/original_file_name/
 ---
 

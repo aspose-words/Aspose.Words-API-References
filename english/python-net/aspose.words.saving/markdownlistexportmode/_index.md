@@ -3,7 +3,7 @@ title: MarkdownListExportMode enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies how lists are exported into Markdown."
 type: docs
-weight: 410
+weight: 420
 url: /python-net/aspose.words.saving/markdownlistexportmode/
 ---
 

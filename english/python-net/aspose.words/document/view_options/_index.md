@@ -3,7 +3,7 @@ title: view_options property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides options to control how the document is displayed in Microsoft Word."
 type: docs
-weight: 450
+weight: 470
 url: /python-net/aspose.words/document/view_options/
 ---
 

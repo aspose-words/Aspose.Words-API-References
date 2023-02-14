@@ -3,7 +3,7 @@ title: PdfSaveOptions class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Can be used to specify additional options when saving a document into the [SaveFormat.PDF](../../aspose.words/saveformat/#PDF) format"
 type: docs
-weight: 660
+weight: 670
 url: /python-net/aspose.words.saving/pdfsaveoptions/
 ---
 

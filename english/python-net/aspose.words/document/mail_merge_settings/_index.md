@@ -3,7 +3,7 @@ title: mail_merge_settings property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets the object that contains all of the mail merge information for a document."
 type: docs
-weight: 250
+weight: 270
 url: /python-net/aspose.words/document/mail_merge_settings/
 ---
 

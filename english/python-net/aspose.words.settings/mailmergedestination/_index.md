@@ -3,7 +3,7 @@ title: MailMergeDestination enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the possible results which may be generated when a mail merge is carried out on a document."
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words.settings/mailmergedestination/
 ---
 

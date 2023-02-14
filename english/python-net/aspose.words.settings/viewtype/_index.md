@@ -3,7 +3,7 @@ title: ViewType enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Possible values for the view mode in Microsoft Word."
 type: docs
-weight: 190
+weight: 200
 url: /python-net/aspose.words.settings/viewtype/
 ---
 

@@ -3,7 +3,7 @@ title: clone method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "aspose.words.Document.clone method"
 type: docs
-weight: 530
+weight: 550
 url: /python-net/aspose.words/document/clone/
 ---
 

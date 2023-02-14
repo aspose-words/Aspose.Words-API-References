@@ -2,7 +2,7 @@
 title: as_table_style method
 second_title: Aspose.Words for Python via .NET API Reference
 type: docs
-weight: 170
+weight: 180
 url: /python-net/aspose.words/style/as_table_style/
 ---
 

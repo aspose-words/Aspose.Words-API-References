@@ -103,7 +103,9 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [has_macros](./has_macros/) | Returns ``True`` if the document has a VBA project (macros). |
 | [has_revisions](./has_revisions/) | Returns ``True`` if the document has any tracked changes. |
 | [hyphenation_options](./hyphenation_options/) | Provides access to document hyphenation options. |
+| [include_textboxes_footnotes_endnotes_in_stat](./include_textboxes_footnotes_endnotes_in_stat/) | Specifies whether to include textboxes, footnotes and endnotes in word count statistics. |
 | [is_composite](../node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [justification_mode](./justification_mode/) | Gets or sets the character spacing adjustment of a document. |
 | [last_child](../compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [last_section](./last_section/) | Gets the last section in the document. |
 | [layout_options](./layout_options/) | Gets a [LayoutOptions](../../aspose.words.layout/layoutoptions/) object that represents options to control the layout process of this document. |

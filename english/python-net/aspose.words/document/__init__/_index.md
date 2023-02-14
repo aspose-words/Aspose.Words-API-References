@@ -306,11 +306,9 @@ with open(MY_DIR + "Document.html", "rb") as stream:
 Shows how save a web page as a .docx file.
 
 ```python
-url = "http://www.aspose.com/"
+url = "https://www.aspose.com/"
 
-client = WebClient()
-
-with io.BytesIO(client.download_data(url)) as stream:
+with io.BytesIO(urlopen(url).read()) as stream:
 
     # The URL is used again as a "base_uri" to ensure that any relative image paths are retrieved correctly.
     options = aw.loading.LoadOptions(aw.LoadFormat.HTML, "", url)
@@ -319,6 +317,7 @@ with io.BytesIO(client.download_data(url)) as stream:
     doc = aw.Document(stream, options)
 
     # At this stage, we can read and edit the document's contents and then save it to the local file system.
+    self.assertEqual("HYPERLINK \"https://products.aspose.com/words/family/\" \\o \"Aspose.Words\"",
 
     doc.save(ARTIFACTS_DIR + "Document.insert_html_from_web_page.docx")
 ```

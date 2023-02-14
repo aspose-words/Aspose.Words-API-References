@@ -61,12 +61,15 @@ chart = shape.chart
 chart.series.clear()
 
 # Add a custom series containing date/time values for the X-axis, and respective decimal values for the Y-axis.
-chart.series.add("Aspose Test Series",
-    [
-        date(2017, 11, 6), date(2017, 11, 9), date(2017, 11, 15),
-        date(2017, 11, 21), date(2017, 11, 25), date(2017, 11, 29)
-    ],
-    [1.2, 0.3, 2.1, 2.9, 4.2, 5.3])
+dates = [
+    date(2017, 11, 6),
+    date(2017, 11, 9),
+    date(2017, 11, 15),
+    date(2017, 11, 21),
+    date(2017, 11, 25),
+    date(2017, 11, 29)
+    ]
+chart.series.add("Aspose Test Series", dates=dates, values=[1.2, 0.3, 2.1, 2.9, 4.2, 5.3])
 
 # Set lower and upper bounds for the X-axis.
 x_axis = chart.axis_x
@@ -107,8 +110,8 @@ chart.series.clear()
 # Add a series with two decimal arrays. The first array contains the X-values,
 # and the second contains corresponding Y-values for points in the scatter chart.
 chart.series.add("Series 1",
-    [1.1, 5.4, 7.9, 3.5, 2.1, 9.7],
-    [2.1, 0.3, 0.6, 3.3, 1.4, 1.9])
+    x_values = [1.1, 5.4, 7.9, 3.5, 2.1, 9.7],
+    y_values = [2.1, 0.3, 0.6, 3.3, 1.4, 1.9])
 
 # By default, default scaling is applied to the graph's X and Y-axes,
 # so that both their ranges are big enough to encompass every X and Y-value of every series.
@@ -137,7 +140,7 @@ dates = [
     date(1994, 12, 15)
     ]
 
-chart.series.add("Series 1", dates, [3.0, 4.7, 5.9, 7.1, 8.9])
+chart.series.add("Series 1", dates=dates, values=[3.0, 4.7, 5.9, 7.1, 8.9])
 
 # We can set axis bounds in the form of dates as well, limiting the chart to a period.
 # Setting the range to 1980-1990 will omit the two of the series values

@@ -3,7 +3,7 @@ title: cleanup method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "aspose.words.Document.cleanup method"
 type: docs
-weight: 520
+weight: 540
 url: /python-net/aspose.words/document/cleanup/
 ---
 

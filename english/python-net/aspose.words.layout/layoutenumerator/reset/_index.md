@@ -3,7 +3,7 @@ title: reset method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Moves the enumerator to the first page of the document."
 type: docs
-weight: 160
+weight: 150
 url: /python-net/aspose.words.layout/layoutenumerator/reset/
 ---
 

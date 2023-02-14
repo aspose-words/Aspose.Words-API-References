@@ -3,7 +3,7 @@ title: stop_track_revisions method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Stops automatic marking of document changes as revisions."
 type: docs
-weight: 670
+weight: 690
 url: /python-net/aspose.words/document/stop_track_revisions/
 ---
 

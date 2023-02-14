@@ -31,6 +31,7 @@ self.assertTrue(chart.series[0].bubble_3d)
 for i in range(3):
     chart.series[0].has_data_labels = True
     chart.series[0].data_labels[i].show_bubble_size = True
+    chart.series[0].data_labels[i].font.size = 12
 
 doc.save(ARTIFACTS_DIR + "Charts.bubble_3d.docx")
 ```

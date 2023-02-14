@@ -41,6 +41,7 @@ Indicates the format in which the document is saved.
 | MHTML | Saves the document in the MHTML (Web archive) format. |
 | EPUB | Saves the document in the EPUB format. |
 | AZW3 | Saves the document in the AZW3 format. |
+| MOBI | Saves the document in the MOBI format. |
 | ODT | Saves the document as an ODF Text Document. |
 | OTT | Saves the document as an ODF Text Document Template. |
 | TEXT | Saves the document in the plain text format. |
