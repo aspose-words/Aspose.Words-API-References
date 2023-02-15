@@ -3,7 +3,7 @@ title: OdsoFieldMappingType enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the possible types used to indicate if a given mail merge field has been mapped to a column in the given external data source."
 type: docs
-weight: 150
+weight: 160
 url: /python-net/aspose.words.settings/odsofieldmappingtype/
 ---
 

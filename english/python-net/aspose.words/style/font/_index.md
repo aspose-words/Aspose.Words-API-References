@@ -3,7 +3,7 @@ title: font property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets the character formatting of the style."
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words/style/font/
 ---
 

@@ -3,7 +3,7 @@ title: theme property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets the [Document.theme](./) object for this document."
 type: docs
-weight: 400
+weight: 420
 url: /python-net/aspose.words/document/theme/
 ---
 

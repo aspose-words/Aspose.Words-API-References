@@ -10,7 +10,7 @@ url: /python-net/aspose.words.markup/customxmlpropertycollection/
 ## CustomXmlPropertyCollection class
 
 Represents a collection of custom XML attributes or smart tag properties.
-To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/python-net/structured-document-tags-or-content-control/) documentation article.
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/python-net/working-with-content-control-sdt/) documentation article.
 
 
 

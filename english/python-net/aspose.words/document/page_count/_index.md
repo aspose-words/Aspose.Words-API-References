@@ -3,7 +3,7 @@ title: page_count property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets the number of pages in the document as calculated by the most recent page layout operation."
 type: docs
-weight: 300
+weight: 320
 url: /python-net/aspose.words/document/page_count/
 ---
 

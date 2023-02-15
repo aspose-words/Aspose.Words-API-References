@@ -3,7 +3,7 @@ title: watermark property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides access to the document watermark."
 type: docs
-weight: 460
+weight: 480
 url: /python-net/aspose.words/document/watermark/
 ---
 

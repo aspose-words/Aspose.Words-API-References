@@ -3,7 +3,7 @@ title: built_in property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "True if this style is one of the built-in styles in MS Word."
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words/style/built_in/
 ---
 

@@ -3,7 +3,7 @@ title: TxtListIndentation class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies how list levels are indented when document is exporting to [SaveFormat.TEXT](../../aspose.words/saveformat/#TEXT) format"
 type: docs
-weight: 790
+weight: 800
 url: /python-net/aspose.words.saving/txtlistindentation/
 ---
 

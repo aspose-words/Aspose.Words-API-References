@@ -3,7 +3,7 @@ title: remove_macros method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Removes all macros (the VBA project) as well as toolbars and command customizations from the document."
 type: docs
-weight: 640
+weight: 660
 url: /python-net/aspose.words/document/remove_macros/
 ---
 

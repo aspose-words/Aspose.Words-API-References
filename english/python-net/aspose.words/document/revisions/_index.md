@@ -3,7 +3,7 @@ title: revisions property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets a collection of revisions (tracked changes) that exist in this document."
 type: docs
-weight: 330
+weight: 350
 url: /python-net/aspose.words/document/revisions/
 ---
 

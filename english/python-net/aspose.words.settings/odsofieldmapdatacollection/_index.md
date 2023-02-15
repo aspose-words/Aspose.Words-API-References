@@ -3,7 +3,7 @@ title: OdsoFieldMapDataCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "A typed collection of the [OdsoFieldMapData](../odsofieldmapdata/) objects"
 type: docs
-weight: 140
+weight: 150
 url: /python-net/aspose.words.settings/odsofieldmapdatacollection/
 ---
 

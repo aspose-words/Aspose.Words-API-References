@@ -3,7 +3,7 @@ title: equals method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Compares with the specified style"
 type: docs
-weight: 180
+weight: 190
 url: /python-net/aspose.words/style/equals/
 ---
 

@@ -1,7 +1,7 @@
 ﻿---
 title: HtmlSaveOptions class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Can be used to specify additional options when saving a document into the [SaveFormat.HTML](../../aspose.words/saveformat/#HTML), [SaveFormat.MHTML](../../aspose.words/saveformat/#MHTML), [SaveFormat.EPUB](../../aspose.words/saveformat/#EPUB) or [SaveFormat.AZW3](../../aspose.words/saveformat/#AZW3) format"
+description: "Can be used to specify additional options when saving a document into the [SaveFormat.HTML](../../aspose.words/saveformat/#HTML), [SaveFormat.MHTML](../../aspose.words/saveformat/#MHTML), [SaveFormat.EPUB](../../aspose.words/saveformat/#EPUB), [SaveFormat.AZW3](../../aspose.words/saveformat/#AZW3) or [SaveFormat.MOBI](../../aspose.words/saveformat/#MOBI) format"
 type: docs
 weight: 260
 url: /python-net/aspose.words.saving/htmlsaveoptions/
@@ -10,8 +10,8 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/
 ## HtmlSaveOptions class
 
 Can be used to specify additional options when saving a document into the
-[SaveFormat.HTML](../../aspose.words/saveformat/#HTML), [SaveFormat.MHTML](../../aspose.words/saveformat/#MHTML),
-[SaveFormat.EPUB](../../aspose.words/saveformat/#EPUB) or [SaveFormat.AZW3](../../aspose.words/saveformat/#AZW3) format.
+[SaveFormat.HTML](../../aspose.words/saveformat/#HTML), [SaveFormat.MHTML](../../aspose.words/saveformat/#MHTML), [SaveFormat.EPUB](../../aspose.words/saveformat/#EPUB),
+[SaveFormat.AZW3](../../aspose.words/saveformat/#AZW3) or [SaveFormat.MOBI](../../aspose.words/saveformat/#MOBI) format.
 To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/python-net/specify-save-options/) documentation article.
 
 
@@ -23,7 +23,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | Name | Description |
 | --- | --- |
 | [HtmlSaveOptions()](./__init__/#default) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.HTML](../../aspose.words/saveformat/#HTML) format. |
-| [HtmlSaveOptions(save_format)](./__init__/#saveformat) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.HTML](../../aspose.words/saveformat/#HTML), [SaveFormat.MHTML](../../aspose.words/saveformat/#MHTML), [SaveFormat.EPUB](../../aspose.words/saveformat/#EPUB) or [SaveFormat.AZW3](../../aspose.words/saveformat/#AZW3) format. |
+| [HtmlSaveOptions(save_format)](./__init__/#saveformat) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.HTML](../../aspose.words/saveformat/#HTML), [SaveFormat.MHTML](../../aspose.words/saveformat/#MHTML), [SaveFormat.EPUB](../../aspose.words/saveformat/#EPUB), [SaveFormat.AZW3](../../aspose.words/saveformat/#AZW3) or [SaveFormat.MOBI](../../aspose.words/saveformat/#MOBI) format. |
 
 ### Properties
 
@@ -81,7 +81,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [resolve_font_names](./resolve_font_names/) | Specifies whether font family names used in the document are resolved and substituted according to [Document.font_settings](../../aspose.words/document/font_settings/) when being written into HTML-based formats. |
 | [resource_folder](./resource_folder/) | Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML. Default is an empty string. |
 | [resource_folder_alias](./resource_folder_alias/) | Specifies the name of the folder used to construct URIs of all resources written into an HTML document. Default is an empty string. |
-| [save_format](./save_format/) | Specifies the format in which the document will be saved if this save options object is used. Can be [SaveFormat.HTML](../../aspose.words/saveformat/#HTML), [SaveFormat.MHTML](../../aspose.words/saveformat/#MHTML), [SaveFormat.EPUB](../../aspose.words/saveformat/#EPUB) or [SaveFormat.AZW3](../../aspose.words/saveformat/#AZW3). |
+| [save_format](./save_format/) | Specifies the format in which the document will be saved if this save options object is used. Can be [SaveFormat.HTML](../../aspose.words/saveformat/#HTML), [SaveFormat.MHTML](../../aspose.words/saveformat/#MHTML), [SaveFormat.EPUB](../../aspose.words/saveformat/#EPUB), [SaveFormat.AZW3](../../aspose.words/saveformat/#AZW3) or [SaveFormat.MOBI](../../aspose.words/saveformat/#MOBI). |
 | [scale_image_to_shape_size](./scale_image_to_shape_size/) | Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB. Default value is ``True``. |
 | [table_width_output_mode](./table_width_output_mode/) | Controls how table, row and cell widths are exported to HTML, MHTML or EPUB. Default value is [HtmlElementSizeOutputMode.ALL](../htmlelementsizeoutputmode/#ALL). |
 | [temp_folder](../saveoptions/temp_folder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |

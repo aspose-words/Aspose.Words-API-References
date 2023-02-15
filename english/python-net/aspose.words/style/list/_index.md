@@ -3,7 +3,7 @@ title: list property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets the list that defines formatting of this list style."
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.words/style/list/
 ---
 

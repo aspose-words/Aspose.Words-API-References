@@ -3,7 +3,7 @@ title: remove method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Removes the specified style from the document."
 type: docs
-weight: 190
+weight: 200
 url: /python-net/aspose.words/style/remove/
 ---
 

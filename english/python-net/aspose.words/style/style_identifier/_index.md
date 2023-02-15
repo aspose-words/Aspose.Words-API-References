@@ -3,7 +3,7 @@ title: style_identifier property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets the locale independent style identifier for a built-in style."
 type: docs
-weight: 140
+weight: 150
 url: /python-net/aspose.words/style/style_identifier/
 ---
 

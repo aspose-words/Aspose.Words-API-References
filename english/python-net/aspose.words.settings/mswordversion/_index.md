@@ -3,7 +3,7 @@ title: MsWordVersion enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows Aspose.Wods to mimic MS Word version-specific application behavior."
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.words.settings/mswordversion/
 ---
 

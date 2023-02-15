@@ -3,7 +3,7 @@ title: vba_project property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets a [Document.vba_project](./)."
 type: docs
-weight: 430
+weight: 450
 url: /python-net/aspose.words/document/vba_project/
 ---
 

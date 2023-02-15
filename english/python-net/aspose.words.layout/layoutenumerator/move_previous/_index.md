@@ -3,7 +3,7 @@ title: move_previous method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Moves to the previous sibling entity."
 type: docs
-weight: 140
+weight: 130
 url: /python-net/aspose.words.layout/layoutenumerator/move_previous/
 ---
 

@@ -3,7 +3,7 @@ title: compare method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "aspose.words.Document.compare method"
 type: docs
-weight: 540
+weight: 560
 url: /python-net/aspose.words/document/compare/
 ---
 

@@ -3,7 +3,7 @@ title: Odso class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the Office Data Source Object (ODSO) settings for a mail merge data source"
 type: docs
-weight: 110
+weight: 120
 url: /python-net/aspose.words.settings/odso/
 ---
 

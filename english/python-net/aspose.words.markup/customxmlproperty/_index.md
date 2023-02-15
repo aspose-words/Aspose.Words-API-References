@@ -10,7 +10,7 @@ url: /python-net/aspose.words.markup/customxmlproperty/
 ## CustomXmlProperty class
 
 Represents a single custom XML attribute or a smart tag property.
-To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/python-net/structured-document-tags-or-content-control/) documentation article.
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/python-net/working-with-content-control-sdt/) documentation article.
 
 
 

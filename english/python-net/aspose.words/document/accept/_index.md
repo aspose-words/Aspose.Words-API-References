@@ -3,7 +3,7 @@ title: accept method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Accepts a visitor."
 type: docs
-weight: 490
+weight: 510
 url: /python-net/aspose.words/document/accept/
 ---
 

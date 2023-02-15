@@ -3,7 +3,7 @@ title: unlink_fields method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Unlinks fields in the whole document."
 type: docs
-weight: 680
+weight: 700
 url: /python-net/aspose.words/document/unlink_fields/
 ---
 

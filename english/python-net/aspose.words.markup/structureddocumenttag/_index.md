@@ -10,7 +10,7 @@ url: /python-net/aspose.words.markup/structureddocumenttag/
 ## StructuredDocumentTag class
 
 Represents a structured document tag (SDT or content control) in a document.
-To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/python-net/structured-document-tags-or-content-control/) documentation article.
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/python-net/working-with-content-control-sdt/) documentation article.
 
 
 

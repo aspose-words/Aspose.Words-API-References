@@ -18,6 +18,20 @@ The default value is ``False``.
 
 
 
+### Examples
+
+Shows how to ingore OLE data while loading.
+
+```python
+# Ignoring OLE data may reduce memory consumption and increase performance
+# without data lost in a case when destination format does not support OLE objects.
+load_options = aw.loading.LoadOptions()
+load_options.ignore_ole_data = True
+doc = aw.Document(MY_DIR + "OLE objects.docx", load_options)
+
+doc.save(ARTIFACTS_DIR + "LoadOptions.IgnoreOleData.docx")
+```
+
 ### See Also
 
 * module [aspose.words.loading](../../)
