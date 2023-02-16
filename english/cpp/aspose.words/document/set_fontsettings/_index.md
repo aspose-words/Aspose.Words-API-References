@@ -3,7 +3,7 @@ title: set_FontSettings
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Document::get_FontSettings.'
 type: docs
-weight: 963
+weight: 989
 url: /cpp/aspose.words/document/set_fontsettings/
 ---
 ## Document::set_FontSettings method

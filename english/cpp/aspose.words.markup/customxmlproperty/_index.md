@@ -9,7 +9,7 @@ url: /cpp/aspose.words.markup/customxmlproperty/
 ## CustomXmlProperty class
 
 
-Represents a single custom XML attribute or a smart tag property. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/structured-document-tags-or-content-control/) documentation article.
+Represents a single custom XML attribute or a smart tag property. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) documentation article.
 
 ```cpp
 class CustomXmlProperty : public System::Object

@@ -3,7 +3,7 @@ title: JoinRunsWithSameFormatting
 second_title: Aspose.Words for C++ API Reference
 description: Joins runs with same formatting in all paragraphs of the document.
 type: docs
-weight: 807
+weight: 833
 url: /cpp/aspose.words/document/joinrunswithsameformatting/
 ---
 ## Document::JoinRunsWithSameFormatting method

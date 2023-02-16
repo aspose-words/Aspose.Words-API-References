@@ -9,7 +9,7 @@ url: /cpp/aspose.words.markup/structureddocumenttag/
 ## StructuredDocumentTag class
 
 
-Represents a structured document tag (SDT or content control) in a document. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/structured-document-tags-or-content-control/) documentation article.
+Represents a structured document tag (SDT or content control) in a document. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) documentation article.
 
 ```cpp
 class StructuredDocumentTag : public Aspose::Words::CompositeNode,

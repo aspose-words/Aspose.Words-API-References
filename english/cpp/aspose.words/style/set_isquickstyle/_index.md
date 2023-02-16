@@ -3,7 +3,7 @@ title: set_IsQuickStyle
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Style::get_IsQuickStyle.'
 type: docs
-weight: 287
+weight: 313
 url: /cpp/aspose.words/style/set_isquickstyle/
 ---
 ## Style::set_IsQuickStyle method

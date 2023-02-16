@@ -3,7 +3,7 @@ title: set_BaseStyleName
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Style::get_BaseStyleName.'
 type: docs
-weight: 274
+weight: 300
 url: /cpp/aspose.words/style/set_basestylename/
 ---
 ## Style::set_BaseStyleName method

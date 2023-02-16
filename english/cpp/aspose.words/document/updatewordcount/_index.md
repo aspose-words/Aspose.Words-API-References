@@ -3,7 +3,7 @@ title: UpdateWordCount
 second_title: Aspose.Words for C++ API Reference
 description: Updates word count properties of the document.
 type: docs
-weight: 1249
+weight: 1301
 url: /cpp/aspose.words/document/updatewordcount/
 ---
 ## Document::UpdateWordCount() method

@@ -1,7 +1,7 @@
 ---
 title: HtmlSaveOptions
 second_title: Aspose.Words for C++ API Reference
-description: Can be used to specify additional options when saving a document into the Html, Mhtml, Epub or Azw3 format. To learn more, visit the  documentation article.
+description: Can be used to specify additional options when saving a document into the Html, Mhtml, Epub, Azw3 or Mobi format. To learn more, visit the  documentation article.
 type: docs
 weight: 118
 url: /cpp/aspose.words.saving/htmlsaveoptions/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/
 ## HtmlSaveOptions class
 
 
-Can be used to specify additional options when saving a document into the [Html](../../aspose.words/saveformat/), [Mhtml](../../aspose.words/saveformat/), [Epub](../../aspose.words/saveformat/) or [Azw3](../../aspose.words/saveformat/) format. To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/cpp/specify-save-options/) documentation article.
+Can be used to specify additional options when saving a document into the [Html](../../aspose.words/saveformat/), [Mhtml](../../aspose.words/saveformat/), [Epub](../../aspose.words/saveformat/), [Azw3](../../aspose.words/saveformat/) or [Mobi](../../aspose.words/saveformat/) format. To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/cpp/specify-save-options/) documentation article.
 
 ```cpp
 class HtmlSaveOptions : public Aspose::Words::Saving::SaveOptions
@@ -74,7 +74,7 @@ class HtmlSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [get_ResolveFontNames](./get_resolvefontnames/)() const | Specifies whether font family names used in the document are resolved and substituted according to [FontSettings](../../aspose.words/document/get_fontsettings/) when being written into HTML-based formats. |
 | [get_ResourceFolder](./get_resourcefolder/)() const | Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML. Default is an empty string. |
 | [get_ResourceFolderAlias](./get_resourcefolderalias/)() const | Specifies the name of the folder used to construct URIs of all resources written into an HTML document. Default is an empty string. |
-| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can be [Html](../../aspose.words/saveformat/), [Mhtml](../../aspose.words/saveformat/), [Epub](../../aspose.words/saveformat/) or [Azw3](../../aspose.words/saveformat/). |
+| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can be [Html](../../aspose.words/saveformat/), [Mhtml](../../aspose.words/saveformat/), [Epub](../../aspose.words/saveformat/), [Azw3](../../aspose.words/saveformat/) or [Mobi](../../aspose.words/saveformat/). |
 | [get_ScaleImageToShapeSize](./get_scaleimagetoshapesize/)() const | Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB. Default value is **true**. |
 | [get_TableWidthOutputMode](./get_tablewidthoutputmode/)() const | Controls how table, row and cell widths are exported to HTML, MHTML or EPUB. Default value is [All](../htmlelementsizeoutputmode/). |
 | [get_TempFolder](../saveoptions/get_tempfolder/)() const | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is **null** and no temporary files are used. |
@@ -87,7 +87,7 @@ class HtmlSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [get_UseHighQualityRendering](../saveoptions/get_usehighqualityrendering/)() const | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
 | [GetType](./gettype/)() const override |  |
 | [HtmlSaveOptions](./htmlsaveoptions/)() | Initializes a new instance of this class that can be used to save a document in the [Html](../../aspose.words/saveformat/) format. |
-| [HtmlSaveOptions](./htmlsaveoptions/)(Aspose::Words::SaveFormat) | Initializes a new instance of this class that can be used to save a document in the [Html](../../aspose.words/saveformat/), [Mhtml](../../aspose.words/saveformat/), [Epub](../../aspose.words/saveformat/) or [Azw3](../../aspose.words/saveformat/) format. |
+| [HtmlSaveOptions](./htmlsaveoptions/)(Aspose::Words::SaveFormat) | Initializes a new instance of this class that can be used to save a document in the [Html](../../aspose.words/saveformat/), [Mhtml](../../aspose.words/saveformat/), [Epub](../../aspose.words/saveformat/), [Azw3](../../aspose.words/saveformat/) or [Mobi](../../aspose.words/saveformat/) format. |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_AllowEmbeddingPostScriptFonts](../saveoptions/set_allowembeddingpostscriptfonts/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_AllowEmbeddingPostScriptFonts](../saveoptions/get_allowembeddingpostscriptfonts/). |
 | [set_AllowNegativeIndent](./set_allownegativeindent/)(bool) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_AllowNegativeIndent](./get_allownegativeindent/). |

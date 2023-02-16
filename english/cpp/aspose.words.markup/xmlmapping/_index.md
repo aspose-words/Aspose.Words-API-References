@@ -9,7 +9,7 @@ url: /cpp/aspose.words.markup/xmlmapping/
 ## XmlMapping class
 
 
-Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/structured-document-tags-or-content-control/) documentation article.
+Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) documentation article.
 
 ```cpp
 class XmlMapping : public System::Object

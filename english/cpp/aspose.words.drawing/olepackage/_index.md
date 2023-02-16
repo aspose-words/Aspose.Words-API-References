@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing/olepackage/
 ## OlePackage class
 
 
-Allows to access OLE Package properties. To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/cpp/working-with-ole-objects-and-online-video/) documentation article.
+Allows to access OLE Package properties. To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/cpp/working-with-ole-objects/) documentation article.
 
 ```cpp
 class OlePackage : public System::Object
