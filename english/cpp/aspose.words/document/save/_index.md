@@ -3,7 +3,7 @@ title: Save
 second_title: Aspose.Words for C++ API Reference
 description: Saves the document to a stream using the specified format.
 type: docs
-weight: 898
+weight: 924
 url: /cpp/aspose.words/document/save/
 ---
 ## Document::Save(const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::SaveFormat) method

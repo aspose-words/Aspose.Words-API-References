@@ -3,7 +3,7 @@ title: get_VbaProject
 second_title: Aspose.Words for C++ API Reference
 description: Gets or sets a VbaProject.
 type: docs
-weight: 690
+weight: 716
 url: /cpp/aspose.words/document/get_vbaproject/
 ---
 ## Document::get_VbaProject method

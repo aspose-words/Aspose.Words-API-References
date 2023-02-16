@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing/oleformat/
 ## OleFormat class
 
 
-Provides access to the data of an OLE object or ActiveX control. To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/cpp/working-with-ole-objects-and-online-video/) documentation article.
+Provides access to the data of an OLE object or ActiveX control. To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/cpp/working-with-ole-objects/) documentation article.
 
 ```cpp
 class OleFormat : public System::Object

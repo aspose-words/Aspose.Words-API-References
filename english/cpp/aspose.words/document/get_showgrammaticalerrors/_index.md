@@ -3,7 +3,7 @@ title: get_ShowGrammaticalErrors
 second_title: Aspose.Words for C++ API Reference
 description: Specifies whether to display grammar errors in this document.
 type: docs
-weight: 612
+weight: 638
 url: /cpp/aspose.words/document/get_showgrammaticalerrors/
 ---
 ## Document::get_ShowGrammaticalErrors method

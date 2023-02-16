@@ -3,7 +3,7 @@ title: Is
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 794
+weight: 820
 url: /cpp/aspose.words/document/is/
 ---
 ## Document::Is method

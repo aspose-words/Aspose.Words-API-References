@@ -3,7 +3,7 @@ title: get_BuiltIn
 second_title: Aspose.Words for C++ API Reference
 description: True if this style is one of the built-in styles in MS Word.
 type: docs
-weight: 53
+weight: 66
 url: /cpp/aspose.words/style/get_builtin/
 ---
 ## Style::get_BuiltIn method

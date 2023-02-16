@@ -72,7 +72,9 @@ class Document : public Aspose::Words::DocumentBase,
 | [get_HasMacros](./get_hasmacros/)() | Returns **true** if the document has a VBA project (macros). |
 | [get_HasRevisions](./get_hasrevisions/)() | Returns **true** if the document has any tracked changes. |
 | [get_HyphenationOptions](./get_hyphenationoptions/)() | Provides access to document hyphenation options. |
+| [get_IncludeTextboxesFootnotesEndnotesInStat](./get_includetextboxesfootnotesendnotesinstat/)() | Specifies whether to include textboxes, footnotes and endnotes in word count statistics. |
 | [get_IsComposite](../compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
+| [get_JustificationMode](./get_justificationmode/)() | Gets the character spacing adjustment of a document. |
 | [get_LastChild](../compositenode/get_lastchild/)() const | Gets the last child of the node. |
 | [get_LastSection](./get_lastsection/)() | Gets the last section in the document. |
 | [get_LayoutOptions](./get_layoutoptions/)() const | Gets a [LayoutOptions](../../aspose.words.layout/layoutoptions/) object that represents options to control the layout process of this document. |
@@ -158,6 +160,8 @@ class Document : public Aspose::Words::DocumentBase,
 | [set_FontSettings](./set_fontsettings/)(const System::SharedPtr\<Aspose::Words::Fonts::FontSettings\>\&) | Setter for [Aspose::Words::Document::get_FontSettings](./get_fontsettings/). |
 | [set_GlossaryDocument](./set_glossarydocument/)(const System::SharedPtr\<Aspose::Words::BuildingBlocks::GlossaryDocument\>\&) | Setter for [Aspose::Words::Document::get_GlossaryDocument](./get_glossarydocument/). |
 | [set_GrammarChecked](./set_grammarchecked/)(bool) | Setter for [Aspose::Words::Document::get_GrammarChecked](./get_grammarchecked/). |
+| [set_IncludeTextboxesFootnotesEndnotesInStat](./set_includetextboxesfootnotesendnotesinstat/)(bool) | Specifies whether to include textboxes, footnotes and endnotes in word count statistics. |
+| [set_JustificationMode](./set_justificationmode/)(Aspose::Words::Settings::JustificationMode) | Sets the character spacing adjustment of a document. |
 | [set_MailMergeSettings](./set_mailmergesettings/)(const System::SharedPtr\<Aspose::Words::Settings::MailMergeSettings\>\&) | Setter for [Aspose::Words::Document::get_MailMergeSettings](./get_mailmergesettings/). |
 | [set_NodeChangingCallback](../documentbase/set_nodechangingcallback/)(const System::SharedPtr\<Aspose::Words::INodeChangingCallback\>\&) | Setter for [Aspose::Words::DocumentBase::get_NodeChangingCallback](../documentbase/get_nodechangingcallback/). |
 | [set_PackageCustomParts](./set_packagecustomparts/)(const System::SharedPtr\<Aspose::Words::Markup::CustomPartCollection\>\&) | Setter for [Aspose::Words::Document::get_PackageCustomParts](./get_packagecustomparts/). |

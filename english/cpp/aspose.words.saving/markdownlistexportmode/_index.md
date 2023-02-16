@@ -3,7 +3,7 @@ title: MarkdownListExportMode
 second_title: Aspose.Words for C++ API Reference
 description: Specifies how lists are exported into Markdown.
 type: docs
-weight: 859
+weight: 872
 url: /cpp/aspose.words.saving/markdownlistexportmode/
 ---
 ## MarkdownListExportMode enum

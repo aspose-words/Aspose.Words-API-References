@@ -3,7 +3,7 @@ title: Protect
 second_title: Aspose.Words for C++ API Reference
 description: Protects the document from changes without changing the existing password or assigns a random password.
 type: docs
-weight: 833
+weight: 859
 url: /cpp/aspose.words/document/protect/
 ---
 ## Document::Protect(Aspose::Words::ProtectionType) method

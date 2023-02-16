@@ -3,7 +3,7 @@ title: GetType
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 781
+weight: 807
 url: /cpp/aspose.words/document/gettype/
 ---
 ## Document::GetType method

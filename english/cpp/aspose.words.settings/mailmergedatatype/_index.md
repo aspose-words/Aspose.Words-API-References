@@ -3,7 +3,7 @@ title: MailMergeDataType
 second_title: Aspose.Words for C++ API Reference
 description: Specifies the type of an external mail merge data source.
 type: docs
-weight: 157
+weight: 170
 url: /cpp/aspose.words.settings/mailmergedatatype/
 ---
 ## MailMergeDataType enum

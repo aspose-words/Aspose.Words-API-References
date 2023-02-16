@@ -3,7 +3,7 @@ title: set_Name
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Style::get_Name.'
 type: docs
-weight: 300
+weight: 326
 url: /cpp/aspose.words/style/set_name/
 ---
 ## Style::set_Name method
