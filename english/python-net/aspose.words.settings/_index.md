@@ -35,6 +35,7 @@ These are mail merge, write protection, compatibility and other settings.
 | Enumeration | Description |
 | --- | --- |
 | [Compatibility](./compatibility/) | Specifies names of compatibility options. |
+| [JustificationMode](./justificationmode/) | Specifies the character spacing adjustment for a document. The default value is ``Expand``. |
 | [MailMergeCheckErrors](./mailmergecheckerrors/) | Specifies how Microsoft Word will report errors detected during mail merge. |
 | [MailMergeDataType](./mailmergedatatype/) | Specifies the type of an external mail merge data source. |
 | [MailMergeDestination](./mailmergedestination/) | Specifies the possible results which may be generated when a mail merge is carried out on a document. |

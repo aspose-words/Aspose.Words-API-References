@@ -3,7 +3,7 @@ title: revisions_view property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets a value indicating whether to work with the original or revised version of a document."
 type: docs
-weight: 340
+weight: 360
 url: /python-net/aspose.words/document/revisions_view/
 ---
 

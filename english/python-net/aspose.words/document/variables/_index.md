@@ -3,7 +3,7 @@ title: variables property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns the collection of variables added to a document or template."
 type: docs
-weight: 420
+weight: 440
 url: /python-net/aspose.words/document/variables/
 ---
 

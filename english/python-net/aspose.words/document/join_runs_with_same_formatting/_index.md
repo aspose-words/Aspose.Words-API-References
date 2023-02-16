@@ -3,7 +3,7 @@ title: join_runs_with_same_formatting method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Joins runs with same formatting in all paragraphs of the document."
 type: docs
-weight: 600
+weight: 620
 url: /python-net/aspose.words/document/join_runs_with_same_formatting/
 ---
 

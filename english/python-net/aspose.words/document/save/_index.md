@@ -3,7 +3,7 @@ title: save method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "aspose.words.Document.save method"
 type: docs
-weight: 650
+weight: 670
 url: /python-net/aspose.words/document/save/
 ---
 

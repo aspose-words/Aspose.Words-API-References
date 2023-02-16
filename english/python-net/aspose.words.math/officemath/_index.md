@@ -94,9 +94,6 @@ self.assertEqual(aw.math.MathObjectType.O_MATH_PARA, office_math.math_object_typ
 self.assertEqual(aw.NodeType.OFFICE_MATH, office_math.node_type)
 self.assertEqual(office_math.parent_node, office_math.parent_paragraph)
 
-# OOXML and WML formats use the "equation_xml_encoding" property.
-self.assertIsNone(office_math.equation_xml_encoding)
-
 # Change the location and display type of the OfficeMath node.
 office_math.display_type = aw.math.OfficeMathDisplayType.DISPLAY
 office_math.justification = aw.math.OfficeMathJustification.LEFT

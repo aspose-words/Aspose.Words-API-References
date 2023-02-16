@@ -20,6 +20,7 @@ To learn more, visit the [Working with Styles and Themes](https://docs.aspose.co
 | Name | Description |
 | --- | --- |
 | [aliases](./aliases/) | Gets all aliases of this style. If style has no aliases then empty array of string is returned. |
+| [automatically_update](./automatically_update/) | Specifies whether this style is automatically redefined based on the appropriate value. |
 | [base_style_name](./base_style_name/) | Gets/sets the name of the style this style is based on. |
 | [built_in](./built_in/) | True if this style is one of the built-in styles in MS Word. |
 | [document](./document/) | Gets the owner document. |

@@ -10,7 +10,7 @@ url: /python-net/aspose.words.drawing.ole/forms2olecontrol/
 ## Forms2OleControl class
 
 Represents Microsoft Forms 2.0 OLE control.
-To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/python-net/working-with-ole-objects-and-online-video/) documentation article.
+To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/python-net/working-with-ole-objects/) documentation article.
 
 
 

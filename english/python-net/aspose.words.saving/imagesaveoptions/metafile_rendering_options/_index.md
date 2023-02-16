@@ -45,6 +45,8 @@ builder.insert_image(drawing.Image.from_file(IMAGE_DIR + "Windows MetaFile.wmf")
 # If we set the "rendering_mode" property to "MetafileRenderingMode.BITMAP", we will render all metafiles as bitmaps.
 options = aw.saving.ImageSaveOptions(aw.SaveFormat.PNG)
 options.metafile_rendering_options.rendering_mode = metafile_rendering_mode
+# Aspose.Words uses GDI+ for raster operations emulation, when value is set to true.
+options.metafile_rendering_options.use_gdi_raster_operations_emulation = True
 
 doc.save(ARTIFACTS_DIR + "ImageSaveOptions.windows_meta_file.png", options)
 ```

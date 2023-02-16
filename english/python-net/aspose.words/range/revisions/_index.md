@@ -17,6 +17,22 @@ revisions, the deleted revisions will automatically disappear from this collecti
 
 
 
+### Examples
+
+Shows how to work with revisions in range.
+
+```python
+doc = aw.Document(MY_DIR + "Revisions.docx")
+
+paragraph = doc.first_section.body.first_paragraph
+for revision in paragraph.range.revisions:
+    if revision.revision_type == aw.RevisionType.DELETION:
+        revision.accept()
+
+# Reject the first section revisions.
+doc.first_section.range.revisions.reject_all()
+```
+
 ### See Also
 
 * module [aspose.words](../../)

@@ -3,7 +3,7 @@ title: is_quick_style property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies whether this style is shown in the Quick Style gallery inside MS Word UI."
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words/style/is_quick_style/
 ---
 

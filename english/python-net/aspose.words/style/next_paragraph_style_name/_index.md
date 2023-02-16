@@ -3,7 +3,7 @@ title: next_paragraph_style_name property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style."
 type: docs
-weight: 120
+weight: 130
 url: /python-net/aspose.words/style/next_paragraph_style_name/
 ---
 

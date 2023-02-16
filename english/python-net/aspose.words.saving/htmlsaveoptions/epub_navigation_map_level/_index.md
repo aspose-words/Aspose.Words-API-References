@@ -27,6 +27,17 @@ Setting it to zero will reduce navigation map to only document root or roots of 
 
 ### Examples
 
+Shows how to generate table of contents for azw3 documents.
+
+```python
+doc = aw.Document(MY_DIR + "Big document.docx")
+
+options = aw.saving.HtmlSaveOptions(aw.SaveFormat.AZW3)
+options.epub_navigation_map_level = 2
+
+doc.save(ARTIFACTS_DIR + "HtmlSaveOptions.CreateAZW3Toc.azw3", options)
+```
+
 Shows how to filter headings that appear in the navigation panel of a saved Epub document.
 
 ```python

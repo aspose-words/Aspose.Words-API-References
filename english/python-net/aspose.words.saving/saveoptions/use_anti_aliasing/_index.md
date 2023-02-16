@@ -18,8 +18,9 @@ used for rendering.
 This property is used when the document is exported to the following formats:
 [SaveFormat.TIFF](../../../aspose.words/saveformat/#TIFF), [SaveFormat.PNG](../../../aspose.words/saveformat/#PNG), [SaveFormat.BMP](../../../aspose.words/saveformat/#BMP),
 [SaveFormat.JPEG](../../../aspose.words/saveformat/#JPEG), [SaveFormat.EMF](../../../aspose.words/saveformat/#EMF). When the document is exported to the
-[SaveFormat.HTML](../../../aspose.words/saveformat/#HTML), [SaveFormat.MHTML](../../../aspose.words/saveformat/#MHTML), [SaveFormat.EPUB](../../../aspose.words/saveformat/#EPUB)
-and [SaveFormat.AZW3](../../../aspose.words/saveformat/#AZW3) formats this option is used for raster images.
+[SaveFormat.HTML](../../../aspose.words/saveformat/#HTML), [SaveFormat.MHTML](../../../aspose.words/saveformat/#MHTML),
+[SaveFormat.EPUB](../../../aspose.words/saveformat/#EPUB), [SaveFormat.AZW3](../../../aspose.words/saveformat/#AZW3)
+or [SaveFormat.MOBI](../../../aspose.words/saveformat/#MOBI) formats this option is used for raster images.
 
 
 

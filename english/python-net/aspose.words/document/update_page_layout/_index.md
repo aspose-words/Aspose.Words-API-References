@@ -3,7 +3,7 @@ title: update_page_layout method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Rebuilds the page layout of the document."
 type: docs
-weight: 720
+weight: 740
 url: /python-net/aspose.words/document/update_page_layout/
 ---
 

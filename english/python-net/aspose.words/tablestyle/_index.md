@@ -24,6 +24,7 @@ To learn more, visit the [Working with Tables](https://docs.aspose.com/words/pyt
 | [aliases](../style/aliases/) | Gets all aliases of this style. If style has no aliases then empty array of string is returned.<br>(Inherited from [Style](../style/)) |
 | [alignment](./alignment/) | Specifies the alignment for the table style. |
 | [allow_break_across_pages](./allow_break_across_pages/) | Gets or sets a flag indicating whether text in a table row is allowed to split across a page break. |
+| [automatically_update](../style/automatically_update/) | Specifies whether this style is automatically redefined based on the appropriate value.<br>(Inherited from [Style](../style/)) |
 | [base_style_name](../style/base_style_name/) | Gets/sets the name of the style this style is based on.<br>(Inherited from [Style](../style/)) |
 | [bidi](./bidi/) | Gets or sets whether this is a style for a right-to-left table. |
 | [borders](./borders/) | Gets the collection of default cell borders for the style. |

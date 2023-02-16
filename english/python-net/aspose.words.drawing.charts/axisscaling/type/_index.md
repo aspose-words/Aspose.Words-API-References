@@ -31,8 +31,8 @@ chart.series.clear()
 
 # Insert a series with X/Y coordinates for five points.
 chart.series.add("Series 1",
-    [1.0, 2.0, 3.0, 4.0, 5.0],
-    [1.0, 20.0, 400.0, 8000.0, 160000.0])
+    x_values=[1.0, 2.0, 3.0, 4.0, 5.0],
+    y_values=[1.0, 20.0, 400.0, 8000.0, 160000.0])
 
 # The scaling of the X-axis is linear by default,
 # displaying evenly incrementing values that cover our X-value range (0, 1, 2, 3...).

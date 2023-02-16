@@ -10,7 +10,7 @@ url: /python-net/aspose.words.drawing.ole/forms2olecontrolcollection/
 ## Forms2OleControlCollection class
 
 Represents collection of [Forms2OleControl](../forms2olecontrol/) objects.
-To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/python-net/working-with-ole-objects-and-online-video/) documentation article.
+To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/python-net/working-with-ole-objects/) documentation article.
 
 
 

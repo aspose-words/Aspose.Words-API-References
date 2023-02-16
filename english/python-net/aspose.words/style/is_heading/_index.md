@@ -3,7 +3,7 @@ title: is_heading property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "True when the style is one of the built-in Heading styles."
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words/style/is_heading/
 ---
 

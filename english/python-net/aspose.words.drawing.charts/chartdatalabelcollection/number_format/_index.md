@@ -39,6 +39,7 @@ series.has_data_labels = True
 data_labels = series.data_labels
 data_labels.show_value = True
 data_labels.number_format.format_code = "\"US$\" #,##0.000\"M\""
+data_labels.font.size = 12
 
 doc.save(ARTIFACTS_DIR + "Charts.data_label_number_format.docx")
 ```

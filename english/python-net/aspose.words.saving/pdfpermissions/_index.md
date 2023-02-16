@@ -3,7 +3,7 @@ title: PdfPermissions enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the operations that are allowed to a user on an encrypted PDF document."
 type: docs
-weight: 650
+weight: 660
 url: /python-net/aspose.words.saving/pdfpermissions/
 ---
 

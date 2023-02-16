@@ -3,7 +3,7 @@ title: mail_merge property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns a [MailMerge](../../../aspose.words.mailmerging/mailmerge/) object that represents the mail merge functionality for the document."
 type: docs
-weight: 240
+weight: 260
 url: /python-net/aspose.words/document/mail_merge/
 ---
 
