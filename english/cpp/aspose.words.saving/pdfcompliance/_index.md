@@ -3,7 +3,7 @@ title: PdfCompliance
 second_title: Aspose.Words for C++ API Reference
 description: Specifies the PDF standards compliance level.
 type: docs
-weight: 924
+weight: 937
 url: /cpp/aspose.words.saving/pdfcompliance/
 ---
 ## PdfCompliance enum

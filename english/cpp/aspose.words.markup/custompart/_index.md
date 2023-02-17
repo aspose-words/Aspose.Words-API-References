@@ -9,7 +9,7 @@ url: /cpp/aspose.words.markup/custompart/
 ## CustomPart class
 
 
-Represents a custom (arbitrary content) part, that is not defined by the ISO/IEC 29500 standard. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/structured-document-tags-or-content-control/) documentation article.
+Represents a custom (arbitrary content) part, that is not defined by the ISO/IEC 29500 standard. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) documentation article.
 
 ```cpp
 class CustomPart : public System::Object

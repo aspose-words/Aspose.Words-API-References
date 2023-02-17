@@ -9,7 +9,7 @@ url: /cpp/aspose.words.markup/customxmlpart/
 ## CustomXmlPart class
 
 
-Represents a Custom XML Data Storage Part (custom XML data within a package). To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/structured-document-tags-or-content-control/) documentation article.
+Represents a Custom XML Data Storage Part (custom XML data within a package). To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) documentation article.
 
 ```cpp
 class CustomXmlPart : public System::Object

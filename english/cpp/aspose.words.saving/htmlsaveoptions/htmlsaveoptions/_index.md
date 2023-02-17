@@ -49,7 +49,7 @@ doc->Save(ArtifactsDir + u"HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOption
 ## HtmlSaveOptions::HtmlSaveOptions(Aspose::Words::SaveFormat) constructor
 
 
-Initializes a new instance of this class that can be used to save a document in the [Html](../../../aspose.words/saveformat/), [Mhtml](../../../aspose.words/saveformat/), [Epub](../../../aspose.words/saveformat/) or [Azw3](../../../aspose.words/saveformat/) format.
+Initializes a new instance of this class that can be used to save a document in the [Html](../../../aspose.words/saveformat/), [Mhtml](../../../aspose.words/saveformat/), [Epub](../../../aspose.words/saveformat/), [Azw3](../../../aspose.words/saveformat/) or [Mobi](../../../aspose.words/saveformat/) format.
 
 ```cpp
 Aspose::Words::Saving::HtmlSaveOptions::HtmlSaveOptions(Aspose::Words::SaveFormat saveFormat)
@@ -58,7 +58,7 @@ Aspose::Words::Saving::HtmlSaveOptions::HtmlSaveOptions(Aspose::Words::SaveForma
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | Aspose::Words::SaveFormat | Can be [Html](../../../aspose.words/saveformat/), [Mhtml](../../../aspose.words/saveformat/), [Epub](../../../aspose.words/saveformat/) or [Azw3](../../../aspose.words/saveformat/). |
+| saveFormat | Aspose::Words::SaveFormat | Can be [Html](../../../aspose.words/saveformat/), [Mhtml](../../../aspose.words/saveformat/), [Epub](../../../aspose.words/saveformat/), [Azw3](../../../aspose.words/saveformat/) or [Mobi](../../../aspose.words/saveformat/). |
 
 ## Examples
 

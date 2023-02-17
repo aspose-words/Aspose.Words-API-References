@@ -27,6 +27,7 @@ class TableStyle : public Aspose::Words::Style,
 | [get_Aliases](../style/get_aliases/)() | Gets all aliases of this style. If style has no aliases then empty array of string is returned. |
 | [get_Alignment](./get_alignment/)() | Specifies the alignment for the table style. |
 | [get_AllowBreakAcrossPages](./get_allowbreakacrosspages/)() | Gets or sets a flag indicating whether text in a table row is allowed to split across a page break. |
+| [get_AutomaticallyUpdate](../style/get_automaticallyupdate/)() const | Specifies whether this style is automatically redefined based on the appropriate value. |
 | [get_BaseStyleName](../style/get_basestylename/)() | Gets/sets the name of the style this style is based on. |
 | [get_Bidi](./get_bidi/)() | Gets or sets whether this is a style for a right-to-left table. |
 | [get_Borders](./get_borders/)() | Gets the collection of default cell borders for the style. |
@@ -60,6 +61,7 @@ class TableStyle : public Aspose::Words::Style,
 | [Remove](../style/remove/)() | Removes the specified style from the document. |
 | [set_Alignment](./set_alignment/)(Aspose::Words::Tables::TableAlignment) | Setter for [Aspose::Words::TableStyle::get_Alignment](./get_alignment/). |
 | [set_AllowBreakAcrossPages](./set_allowbreakacrosspages/)(bool) | Setter for [Aspose::Words::TableStyle::get_AllowBreakAcrossPages](./get_allowbreakacrosspages/). |
+| [set_AutomaticallyUpdate](../style/set_automaticallyupdate/)(bool) | Setter for [Aspose::Words::Style::get_AutomaticallyUpdate](../style/get_automaticallyupdate/). |
 | [set_BaseStyleName](../style/set_basestylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_BaseStyleName](../style/get_basestylename/). |
 | [set_Bidi](./set_bidi/)(bool) | Setter for [Aspose::Words::TableStyle::get_Bidi](./get_bidi/). |
 | [set_BottomPadding](./set_bottompadding/)(double) | Setter for [Aspose::Words::TableStyle::get_BottomPadding](./get_bottompadding/). |

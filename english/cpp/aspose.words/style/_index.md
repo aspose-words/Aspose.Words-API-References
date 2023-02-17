@@ -22,6 +22,7 @@ class Style : public Aspose::Words::IParaAttrSource,
 | --- | --- |
 | [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::Style\>\&) | Compares with the specified style. Styles Istds are compared for built-in styles only. Styles defaults are not included in comparison. Base style, linked style and next paragraph style are recursively compared. |
 | [get_Aliases](./get_aliases/)() | Gets all aliases of this style. If style has no aliases then empty array of string is returned. |
+| [get_AutomaticallyUpdate](./get_automaticallyupdate/)() const | Specifies whether this style is automatically redefined based on the appropriate value. |
 | [get_BaseStyleName](./get_basestylename/)() | Gets/sets the name of the style this style is based on. |
 | [get_BuiltIn](./get_builtin/)() | True if this style is one of the built-in styles in MS Word. |
 | [get_Document](./get_document/)() | Gets the owner document. |
@@ -40,6 +41,7 @@ class Style : public Aspose::Words::IParaAttrSource,
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](./remove/)() | Removes the specified style from the document. |
+| [set_AutomaticallyUpdate](./set_automaticallyupdate/)(bool) | Setter for [Aspose::Words::Style::get_AutomaticallyUpdate](./get_automaticallyupdate/). |
 | [set_BaseStyleName](./set_basestylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_BaseStyleName](./get_basestylename/). |
 | [set_IsQuickStyle](./set_isquickstyle/)(bool) | Setter for [Aspose::Words::Style::get_IsQuickStyle](./get_isquickstyle/). |
 | [set_Name](./set_name/)(const System::String\&) | Setter for [Aspose::Words::Style::get_Name](./get_name/). |

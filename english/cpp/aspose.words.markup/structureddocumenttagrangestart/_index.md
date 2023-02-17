@@ -9,7 +9,7 @@ url: /cpp/aspose.words.markup/structureddocumenttagrangestart/
 ## StructuredDocumentTagRangeStart class
 
 
-Represents a start of **ranged** structured document tag which accepts multi-sections content. See also [StructuredDocumentTagRangeEnd](../structureddocumenttagrangeend/). To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/structured-document-tags-or-content-control/) documentation article.
+Represents a start of **ranged** structured document tag which accepts multi-sections content. See also [StructuredDocumentTagRangeEnd](../structureddocumenttagrangeend/). To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) documentation article.
 
 ```cpp
 class StructuredDocumentTagRangeStart : public Aspose::Words::Node,

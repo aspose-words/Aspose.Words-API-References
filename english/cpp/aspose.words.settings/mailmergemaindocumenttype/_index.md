@@ -3,7 +3,7 @@ title: MailMergeMainDocumentType
 second_title: Aspose.Words for C++ API Reference
 description: Specifies the possible types for a mail merge source document.
 type: docs
-weight: 183
+weight: 196
 url: /cpp/aspose.words.settings/mailmergemaindocumenttype/
 ---
 ## MailMergeMainDocumentType enum

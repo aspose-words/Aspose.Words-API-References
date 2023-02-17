@@ -9,7 +9,7 @@ url: /cpp/aspose.words.markup/customxmlpartcollection/
 ## CustomXmlPartCollection class
 
 
-Represents a collection of Custom XML Parts. The items are [CustomXmlPart](../customxmlpart/) objects. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/structured-document-tags-or-content-control/) documentation article.
+Represents a collection of Custom XML Parts. The items are [CustomXmlPart](../customxmlpart/) objects. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) documentation article.
 
 ```cpp
 class CustomXmlPartCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Markup::CustomXmlPart>>

@@ -9,7 +9,7 @@ url: /cpp/aspose.words.markup/smarttag/
 ## SmartTag class
 
 
-This element specifies the presence of a smart tag around one or more inline structures (runs, images, fields,etc.) within a paragraph. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/structured-document-tags-or-content-control/) documentation article.
+This element specifies the presence of a smart tag around one or more inline structures (runs, images, fields,etc.) within a paragraph. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) documentation article.
 
 ```cpp
 class SmartTag : public Aspose::Words::CompositeNode,
