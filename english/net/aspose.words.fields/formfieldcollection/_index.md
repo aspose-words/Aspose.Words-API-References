@@ -1,5 +1,5 @@
 ---
-title: Class FormFieldCollection
+title: FormFieldCollection Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FormFieldCollection class. A collection of FormField objects that represent all the form fields in a range in C#.
 type: docs

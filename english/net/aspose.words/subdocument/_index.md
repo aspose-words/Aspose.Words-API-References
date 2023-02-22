@@ -1,5 +1,5 @@
 ---
-title: Class SubDocument
+title: SubDocument Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.SubDocument class. Represents a SubDocument  which is a reference to an externally stored document in C#.
 type: docs

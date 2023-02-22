@@ -1,5 +1,5 @@
 ---
-title: Class ChartMarker
+title: ChartMarker Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.Charts.ChartMarker class. Represents a chart data marker in C#.
 type: docs

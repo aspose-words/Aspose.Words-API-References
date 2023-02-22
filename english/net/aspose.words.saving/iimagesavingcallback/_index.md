@@ -1,5 +1,5 @@
 ---
-title: Interface IImageSavingCallback
+title: IImageSavingCallback Interface
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.IImageSavingCallback interface. Implement this interface if you want to control how Aspose.Words saves images when saving a document to HTML. May be used by other formats in C#.
 type: docs

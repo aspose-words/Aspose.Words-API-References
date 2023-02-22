@@ -1,5 +1,5 @@
 ---
-title: Class ListLevel
+title: ListLevel Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Lists.ListLevel class. Defines formatting for a list level in C#.
 type: docs

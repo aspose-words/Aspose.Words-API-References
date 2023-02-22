@@ -1,5 +1,5 @@
 ---
-title: Enum CssStyleSheetType
+title: CssStyleSheetType Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.CssStyleSheetType enum. Specifies how CSS Cascading Style Sheet styles are exported to HTML in C#.
 type: docs

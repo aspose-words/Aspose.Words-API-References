@@ -1,5 +1,5 @@
 ---
-title: Interface IStructuredDocumentTag
+title: IStructuredDocumentTag Interface
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Markup.IStructuredDocumentTag interface. Interface to define a common data for StructuredDocumentTag and StructuredDocumentTagRangeStart in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Class BarcodeParameters
+title: BarcodeParameters Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.BarcodeParameters class. Container class for barcode parameters to passthrough to BarcodeGenerator in C#.
 type: docs

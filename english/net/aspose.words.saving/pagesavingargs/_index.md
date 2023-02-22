@@ -1,5 +1,5 @@
 ---
-title: Class PageSavingArgs
+title: PageSavingArgs Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.PageSavingArgs class. Provides data for the PageSaving event in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Class Forms2OleControl
+title: Forms2OleControl Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.Ole.Forms2OleControl class. Represents Microsoft Forms 2.0 OLE control in C#.
 type: docs

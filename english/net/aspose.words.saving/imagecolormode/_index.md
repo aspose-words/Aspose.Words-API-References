@@ -1,5 +1,5 @@
 ---
-title: Enum ImageColorMode
+title: ImageColorMode Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.ImageColorMode enum. Specifies the color mode for the generated images of document pages in C#.
 type: docs

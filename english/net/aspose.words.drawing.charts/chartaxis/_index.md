@@ -1,5 +1,5 @@
 ---
-title: Class ChartAxis
+title: ChartAxis Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.Charts.ChartAxis class. Represents the axis options of the chart in C#.
 type: docs
@@ -27,6 +27,8 @@ public class ChartAxis
 | [CrossesAt](../../aspose.words.drawing.charts/chartaxis/crossesat/) { get; set; } | Specifies where on the perpendicular axis the axis crosses. |
 | [DisplayUnit](../../aspose.words.drawing.charts/chartaxis/displayunit/) { get; } | Specifies the scaling value of the display units for the value axis. |
 | [Document](../../aspose.words.drawing.charts/chartaxis/document/) { get; } | Returns the Document the title holder belongs. |
+| [HasMajorGridlines](../../aspose.words.drawing.charts/chartaxis/hasmajorgridlines/) { get; set; } | Gets or sets a flag indicating whether the axis has major gridlines. |
+| [HasMinorGridlines](../../aspose.words.drawing.charts/chartaxis/hasminorgridlines/) { get; set; } | Gets or sets a flag indicating whether the axis has minor gridlines. |
 | [Hidden](../../aspose.words.drawing.charts/chartaxis/hidden/) { get; set; } | Gets or sets a flag indicating whether this axis is hidden or not. |
 | [MajorTickMark](../../aspose.words.drawing.charts/chartaxis/majortickmark/) { get; set; } | Returns or sets the major tick marks. |
 | [MajorUnit](../../aspose.words.drawing.charts/chartaxis/majorunit/) { get; set; } | Returns or sets the distance between major tick marks. |

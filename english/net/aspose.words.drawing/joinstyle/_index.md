@@ -1,5 +1,5 @@
 ---
-title: Enum JoinStyle
+title: JoinStyle Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.JoinStyle enum. Line join style in C#.
 type: docs

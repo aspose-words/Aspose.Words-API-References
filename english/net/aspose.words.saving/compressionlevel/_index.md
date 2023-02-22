@@ -1,5 +1,5 @@
 ---
-title: Enum CompressionLevel
+title: CompressionLevel Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.CompressionLevel enum. Compression level for OOXML files in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Interface IMailMergeCallback
+title: IMailMergeCallback Interface
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.MailMerging.IMailMergeCallback interface. Implement this interface if you want to receive notifications while mail merge is performed in C#.
 type: docs

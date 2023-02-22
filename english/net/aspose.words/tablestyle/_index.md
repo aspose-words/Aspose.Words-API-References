@@ -1,5 +1,5 @@
 ---
-title: Class TableStyle
+title: TableStyle Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.TableStyle class. Represents a table style in C#.
 type: docs

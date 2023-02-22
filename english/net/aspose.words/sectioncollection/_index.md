@@ -1,5 +1,5 @@
 ---
-title: Class SectionCollection
+title: SectionCollection Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.SectionCollection class. A collection of Section objects in the document in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Enum PdfFontEmbeddingMode
+title: PdfFontEmbeddingMode Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.PdfFontEmbeddingMode enum. Specifies how Aspose.Words should embed fonts in C#.
 type: docs

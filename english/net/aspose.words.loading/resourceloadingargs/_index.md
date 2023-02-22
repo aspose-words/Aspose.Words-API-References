@@ -1,5 +1,5 @@
 ---
-title: Class ResourceLoadingArgs
+title: ResourceLoadingArgs Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Loading.ResourceLoadingArgs class. Provides data for the ResourceLoading method in C#.
 type: docs

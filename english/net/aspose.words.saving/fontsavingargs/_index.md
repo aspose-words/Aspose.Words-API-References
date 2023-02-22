@@ -1,5 +1,5 @@
 ---
-title: Class FontSavingArgs
+title: FontSavingArgs Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.FontSavingArgs class. Provides data for the FontSaving event in C#.
 type: docs

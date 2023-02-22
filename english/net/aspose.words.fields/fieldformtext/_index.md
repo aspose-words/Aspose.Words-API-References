@@ -1,5 +1,5 @@
 ---
-title: Class FieldFormText
+title: FieldFormText Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldFormText class. Implements the FORMTEXT field in C#.
 type: docs

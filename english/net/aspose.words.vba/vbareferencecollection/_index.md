@@ -1,5 +1,5 @@
 ---
-title: Class VbaReferenceCollection
+title: VbaReferenceCollection Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Vba.VbaReferenceCollection class. Represents a collection of VbaReference objects in C#.
 type: docs

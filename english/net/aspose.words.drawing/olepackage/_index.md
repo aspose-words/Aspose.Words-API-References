@@ -1,5 +1,5 @@
 ---
-title: Class OlePackage
+title: OlePackage Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.OlePackage class. Allows to access OLE Package properties in C#.
 type: docs

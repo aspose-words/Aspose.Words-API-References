@@ -1,5 +1,5 @@
 ---
-title: Enum DocumentDirection
+title: DocumentDirection Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Loading.DocumentDirection enum. Allows to specify the direction to flow the text in a document in C#.
 type: docs

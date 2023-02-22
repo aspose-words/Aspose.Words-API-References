@@ -1,5 +1,5 @@
 ---
-title: Enum HtmlInsertOptions
+title: HtmlInsertOptions Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.HtmlInsertOptions enum. Specifies options for the InsertHtml method in C#.
 type: docs

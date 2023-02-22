@@ -1,5 +1,5 @@
 ---
-title: Class FieldToa
+title: FieldToa Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldToa class. Implements the TOA field in C#.
 type: docs

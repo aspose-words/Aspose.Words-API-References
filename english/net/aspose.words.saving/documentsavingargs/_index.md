@@ -1,5 +1,5 @@
 ---
-title: Class DocumentSavingArgs
+title: DocumentSavingArgs Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.DocumentSavingArgs class. An argument passed into Notify in C#.
 type: docs

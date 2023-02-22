@@ -1,5 +1,5 @@
 ---
-title: Enum StyleIdentifier
+title: StyleIdentifier Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.StyleIdentifier enum. Locale independent style identifier in C#.
 type: docs

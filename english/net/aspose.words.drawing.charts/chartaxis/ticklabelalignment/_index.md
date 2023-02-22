@@ -3,7 +3,7 @@ title: ChartAxis.TickLabelAlignment
 second_title: Aspose.Words for .NET API Reference
 description: ChartAxis property. Gets or sets text alignment of axis tick labels in C#.
 type: docs
-weight: 200
+weight: 220
 url: /net/aspose.words.drawing.charts/chartaxis/ticklabelalignment/
 ---
 ## ChartAxis.TickLabelAlignment property

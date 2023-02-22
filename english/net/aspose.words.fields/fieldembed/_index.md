@@ -1,5 +1,5 @@
 ---
-title: Class FieldEmbed
+title: FieldEmbed Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldEmbed class. Implements the EMBED field in C#.
 type: docs

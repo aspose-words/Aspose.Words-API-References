@@ -1,5 +1,5 @@
 ---
-title: Class FieldDdeAuto
+title: FieldDdeAuto Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldDdeAuto class. Implements the DDEAUTO field in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Enum TiffCompression
+title: TiffCompression Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.TiffCompression enum. Specifies what type of compression to apply when saving page images into a TIFF file in C#.
 type: docs

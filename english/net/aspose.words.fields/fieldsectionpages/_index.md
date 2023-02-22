@@ -1,5 +1,5 @@
 ---
-title: Class FieldSectionPages
+title: FieldSectionPages Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldSectionPages class. Implements the SECTIONPAGES field in C#.
 type: docs

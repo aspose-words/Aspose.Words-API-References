@@ -1,5 +1,5 @@
 ---
-title: Class MemoryFontSource
+title: MemoryFontSource Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fonts.MemoryFontSource class. Represents the single TrueType font file stored in memory in C#.
 type: docs

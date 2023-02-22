@@ -1,5 +1,5 @@
 ---
-title: Enum CellVerticalAlignment
+title: CellVerticalAlignment Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Tables.CellVerticalAlignment enum. Specifies vertical justification of text inside a table cell in C#.
 type: docs

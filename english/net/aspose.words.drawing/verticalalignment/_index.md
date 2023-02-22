@@ -1,5 +1,5 @@
 ---
-title: Enum VerticalAlignment
+title: VerticalAlignment Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.VerticalAlignment enum. Specifies vertical alignment of a floating shape text frame or a floating table in C#.
 type: docs

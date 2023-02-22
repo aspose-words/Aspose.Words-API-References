@@ -1,5 +1,5 @@
 ---
-title: Enum NodeChangingAction
+title: NodeChangingAction Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.NodeChangingAction enum. Specifies the type of node change in C#.
 type: docs

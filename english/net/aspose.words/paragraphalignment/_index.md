@@ -1,5 +1,5 @@
 ---
-title: Enum ParagraphAlignment
+title: ParagraphAlignment Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.ParagraphAlignment enum. Specifies text alignment in a paragraph in C#.
 type: docs

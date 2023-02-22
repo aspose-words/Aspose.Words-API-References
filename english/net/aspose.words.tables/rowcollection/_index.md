@@ -1,5 +1,5 @@
 ---
-title: Class RowCollection
+title: RowCollection Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Tables.RowCollection class. Provides typed access to a collection of Row nodes in C#.
 type: docs

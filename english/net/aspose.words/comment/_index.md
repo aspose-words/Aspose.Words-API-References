@@ -1,5 +1,5 @@
 ---
-title: Class Comment
+title: Comment Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Comment class. Represents a container for text of a comment in C#.
 type: docs

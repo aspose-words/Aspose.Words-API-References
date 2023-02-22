@@ -1,5 +1,5 @@
 ---
-title: Class CompatibilityOptions
+title: CompatibilityOptions Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Settings.CompatibilityOptions class. Contains compatibility options that is the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word in C#.
 type: docs

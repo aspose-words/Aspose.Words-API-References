@@ -1,5 +1,5 @@
 ---
-title: Class FontSettings
+title: FontSettings Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fonts.FontSettings class. Specifies font settings for a document in C#.
 type: docs

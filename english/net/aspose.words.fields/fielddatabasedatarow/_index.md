@@ -1,5 +1,5 @@
 ---
-title: Class FieldDatabaseDataRow
+title: FieldDatabaseDataRow Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldDatabaseDataRow class. Provides data for the FieldDatabase field result. Please see DataRow instance in C#.
 type: docs

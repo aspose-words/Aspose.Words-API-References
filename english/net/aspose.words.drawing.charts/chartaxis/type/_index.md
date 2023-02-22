@@ -3,7 +3,7 @@ title: ChartAxis.Type
 second_title: Aspose.Words for .NET API Reference
 description: ChartAxis property. Returns type of the axis in C#.
 type: docs
-weight: 260
+weight: 280
 url: /net/aspose.words.drawing.charts/chartaxis/type/
 ---
 ## ChartAxis.Type property

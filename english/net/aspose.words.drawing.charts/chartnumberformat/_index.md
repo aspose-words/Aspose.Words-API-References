@@ -1,5 +1,5 @@
 ---
-title: Class ChartNumberFormat
+title: ChartNumberFormat Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.Charts.ChartNumberFormat class. Represents number formatting of the parent element in C#.
 type: docs

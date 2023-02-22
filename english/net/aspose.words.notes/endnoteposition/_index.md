@@ -1,5 +1,5 @@
 ---
-title: Enum EndnotePosition
+title: EndnotePosition Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Notes.EndnotePosition enum. Defines the endnote position in C#.
 type: docs
