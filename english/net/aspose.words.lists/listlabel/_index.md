@@ -1,5 +1,5 @@
 ---
-title: Class ListLabel
+title: ListLabel Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Lists.ListLabel class. Defines properties specific to a list label in C#.
 type: docs

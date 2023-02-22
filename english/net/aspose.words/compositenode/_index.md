@@ -1,5 +1,5 @@
 ---
-title: Class CompositeNode
+title: CompositeNode Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.CompositeNode class. Base class for nodes that can contain other nodes in C#.
 type: docs

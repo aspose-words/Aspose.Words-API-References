@@ -1,5 +1,5 @@
 ---
-title: Class Shading
+title: Shading Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Shading class. Contains shading attributes for an object in C#.
 type: docs

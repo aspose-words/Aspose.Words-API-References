@@ -1,5 +1,5 @@
 ---
-title: Class ComparisonExpression
+title: ComparisonExpression Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.ComparisonExpression class. The comparison expression in C#.
 type: docs

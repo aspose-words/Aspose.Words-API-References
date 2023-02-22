@@ -1,5 +1,5 @@
 ---
-title: Enum PdfImageCompression
+title: PdfImageCompression Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.PdfImageCompression enum. Specifies the type of compression applied to images in the PDF file in C#.
 type: docs

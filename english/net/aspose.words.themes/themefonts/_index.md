@@ -1,5 +1,5 @@
 ---
-title: Class ThemeFonts
+title: ThemeFonts Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Themes.ThemeFonts class. Represents a collection of fonts in the font scheme allowing to specify different fonts for different languages Latin EastAsian and ComplexScript in C#.
 type: docs

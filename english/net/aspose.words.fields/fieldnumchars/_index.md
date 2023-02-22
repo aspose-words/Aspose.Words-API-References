@@ -1,5 +1,5 @@
 ---
-title: Class FieldNumChars
+title: FieldNumChars Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldNumChars class. Implements the NUMCHARS field in C#.
 type: docs

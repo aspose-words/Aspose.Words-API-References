@@ -1,5 +1,5 @@
 ---
-title: Class FileFontSource
+title: FileFontSource Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fonts.FileFontSource class. Represents the single TrueType font file stored in the file system in C#.
 type: docs

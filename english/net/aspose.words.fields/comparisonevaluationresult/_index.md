@@ -1,5 +1,5 @@
 ---
-title: Class ComparisonEvaluationResult
+title: ComparisonEvaluationResult Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.ComparisonEvaluationResult class. The comparison evaluation result in C#.
 type: docs

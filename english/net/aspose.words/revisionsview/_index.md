@@ -1,5 +1,5 @@
 ---
-title: Enum RevisionsView
+title: RevisionsView Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.RevisionsView enum. Allows to specify whether to work with the original or revised version of a document in C#.
 type: docs

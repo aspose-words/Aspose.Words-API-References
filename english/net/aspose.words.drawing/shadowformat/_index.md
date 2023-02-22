@@ -1,5 +1,5 @@
 ---
-title: Class ShadowFormat
+title: ShadowFormat Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.ShadowFormat class. Represents shadow formatting for an object in C#.
 type: docs

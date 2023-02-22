@@ -1,5 +1,5 @@
 ---
-title: Enum BuildingBlockBehavior
+title: BuildingBlockBehavior Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.BuildingBlocks.BuildingBlockBehavior enum. Specifies the behavior that shall be applied to the contents of the building block when it is inserted into the main document in C#.
 type: docs

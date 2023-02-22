@@ -1,5 +1,5 @@
 ---
-title: Enum ReplaceAction
+title: ReplaceAction Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Replacing.ReplaceAction enum. Allows the user to specify what happens to the current match during a replace operation in C#.
 type: docs

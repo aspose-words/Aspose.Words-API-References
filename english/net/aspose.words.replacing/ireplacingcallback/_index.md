@@ -1,5 +1,5 @@
 ---
-title: Interface IReplacingCallback
+title: IReplacingCallback Interface
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Replacing.IReplacingCallback interface. Implement this interface if you want to have your own custom method called during a find and replace operation in C#.
 type: docs

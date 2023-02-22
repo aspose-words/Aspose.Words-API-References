@@ -1,5 +1,5 @@
 ---
-title: Enum MarkdownListExportMode
+title: MarkdownListExportMode Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.MarkdownListExportMode enum. Specifies how lists are exported into Markdown in C#.
 type: docs

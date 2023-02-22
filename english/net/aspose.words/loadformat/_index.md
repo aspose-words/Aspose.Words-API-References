@@ -1,5 +1,5 @@
 ---
-title: Enum LoadFormat
+title: LoadFormat Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.LoadFormat enum. Indicates the format of the document that is to be loaded in C#.
 type: docs

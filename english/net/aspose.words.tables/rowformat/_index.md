@@ -1,5 +1,5 @@
 ---
-title: Class RowFormat
+title: RowFormat Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Tables.RowFormat class. Represents all formatting for a table row in C#.
 type: docs

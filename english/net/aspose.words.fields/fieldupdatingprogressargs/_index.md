@@ -1,5 +1,5 @@
 ---
-title: Class FieldUpdatingProgressArgs
+title: FieldUpdatingProgressArgs Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldUpdatingProgressArgs class. Provides data for the field updating progress event in C#.
 type: docs

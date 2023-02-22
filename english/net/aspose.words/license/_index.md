@@ -1,5 +1,5 @@
 ---
-title: Class License
+title: License Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.License class. Provides methods to license the component in C#.
 type: docs

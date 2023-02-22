@@ -1,5 +1,5 @@
 ---
-title: Enum Orientation
+title: Orientation Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Orientation enum. Specifies page orientation in C#.
 type: docs

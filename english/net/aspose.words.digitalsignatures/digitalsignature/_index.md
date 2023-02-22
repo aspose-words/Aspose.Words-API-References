@@ -1,5 +1,5 @@
 ---
-title: Class DigitalSignature
+title: DigitalSignature Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.DigitalSignatures.DigitalSignature class. Represents a digital signature on a document and the result of its verification in C#.
 type: docs

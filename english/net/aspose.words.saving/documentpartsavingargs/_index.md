@@ -1,5 +1,5 @@
 ---
-title: Class DocumentPartSavingArgs
+title: DocumentPartSavingArgs Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.DocumentPartSavingArgs class. Provides data for the DocumentPartSaving callback in C#.
 type: docs

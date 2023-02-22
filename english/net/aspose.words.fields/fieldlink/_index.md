@@ -1,5 +1,5 @@
 ---
-title: Class FieldLink
+title: FieldLink Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldLink class. Implements the LINK field in C#.
 type: docs

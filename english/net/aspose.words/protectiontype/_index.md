@@ -1,5 +1,5 @@
 ---
-title: Enum ProtectionType
+title: ProtectionType Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.ProtectionType enum. Protection type for a document in C#.
 type: docs

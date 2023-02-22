@@ -1,5 +1,5 @@
 ---
-title: Class ParagraphFormat
+title: ParagraphFormat Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.ParagraphFormat class. Represents all the formatting for a paragraph in C#.
 type: docs

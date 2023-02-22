@@ -1,5 +1,5 @@
 ---
-title: Class Table
+title: Table Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Tables.Table class. Represents a table in a Word document in C#.
 type: docs

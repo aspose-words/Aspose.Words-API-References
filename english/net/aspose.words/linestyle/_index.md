@@ -1,5 +1,5 @@
 ---
-title: Enum LineStyle
+title: LineStyle Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.LineStyle enum. Specifies line style of a Border in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Class AsposeWordsPrintDocument
+title: AsposeWordsPrintDocument Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Rendering.AsposeWordsPrintDocument class. Provides a default implementation for printing of a Document within the .NET printing framework in C#.
 type: docs

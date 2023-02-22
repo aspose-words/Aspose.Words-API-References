@@ -1,5 +1,5 @@
 ---
-title: Class WebExtensionBindingCollection
+title: WebExtensionBindingCollection Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.WebExtensions.WebExtensionBindingCollection class. Specifies a list of web extension bindings in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Class CustomXmlPropertyCollection
+title: CustomXmlPropertyCollection Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Markup.CustomXmlPropertyCollection class. Represents a collection of custom XML attributes or smart tag properties in C#.
 type: docs

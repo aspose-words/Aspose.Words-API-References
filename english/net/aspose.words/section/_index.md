@@ -1,5 +1,5 @@
 ---
-title: Class Section
+title: Section Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Section class. Represents a single section in a document in C#.
 type: docs

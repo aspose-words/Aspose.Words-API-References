@@ -1,5 +1,5 @@
 ---
-title: Enum MultiplePagesType
+title: MultiplePagesType Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Settings.MultiplePagesType enum. Specifies how document is printed out in C#.
 type: docs

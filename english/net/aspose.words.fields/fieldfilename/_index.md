@@ -1,5 +1,5 @@
 ---
-title: Class FieldFileName
+title: FieldFileName Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldFileName class. Implements the FILENAME field in C#.
 type: docs

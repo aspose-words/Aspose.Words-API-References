@@ -1,5 +1,5 @@
 ---
-title: Enum SectionStart
+title: SectionStart Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.SectionStart enum. The type of break at the beginning of the section in C#.
 type: docs

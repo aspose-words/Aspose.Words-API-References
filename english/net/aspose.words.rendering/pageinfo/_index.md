@@ -1,5 +1,5 @@
 ---
-title: Class PageInfo
+title: PageInfo Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Rendering.PageInfo class. Represents information about a particular document page in C#.
 type: docs

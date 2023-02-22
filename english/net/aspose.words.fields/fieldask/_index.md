@@ -1,5 +1,5 @@
 ---
-title: Class FieldAsk
+title: FieldAsk Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldAsk class. Implements the ASK field in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Class Cell
+title: Cell Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Tables.Cell class. Represents a table cell in C#.
 type: docs

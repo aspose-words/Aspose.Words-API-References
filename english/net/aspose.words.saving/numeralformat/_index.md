@@ -1,5 +1,5 @@
 ---
-title: Enum NumeralFormat
+title: NumeralFormat Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.NumeralFormat enum. Indicates the symbol set that is used to represent numbers while rendering to fixed page formats in C#.
 type: docs

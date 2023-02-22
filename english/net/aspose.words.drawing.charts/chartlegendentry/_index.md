@@ -1,5 +1,5 @@
 ---
-title: Class ChartLegendEntry
+title: ChartLegendEntry Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.Charts.ChartLegendEntry class. Represents a chart legend entry in C#.
 type: docs

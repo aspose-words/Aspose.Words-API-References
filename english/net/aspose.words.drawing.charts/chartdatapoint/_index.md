@@ -1,5 +1,5 @@
 ---
-title: Class ChartDataPoint
+title: ChartDataPoint Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.Charts.ChartDataPoint class. Allows to specify formatting of a single data point on the chart in C#.
 type: docs

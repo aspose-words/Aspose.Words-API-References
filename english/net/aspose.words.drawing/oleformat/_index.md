@@ -1,5 +1,5 @@
 ---
-title: Class OleFormat
+title: OleFormat Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.OleFormat class. Provides access to the data of an OLE object or ActiveX control in C#.
 type: docs

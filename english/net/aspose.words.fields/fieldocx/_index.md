@@ -1,5 +1,5 @@
 ---
-title: Class FieldOcx
+title: FieldOcx Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldOcx class. Implements the OCX field in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Class PdfLoadOptions
+title: PdfLoadOptions Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Loading.PdfLoadOptions class. Allows to specify additional options when loading Pdf document into a Document object in C#.
 type: docs

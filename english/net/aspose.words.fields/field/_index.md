@@ -1,5 +1,5 @@
 ---
-title: Class Field
+title: Field Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.Field class. Represents a Microsoft Word document field in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Class CleanupOptions
+title: CleanupOptions Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.CleanupOptions class. Allows to specify options for document cleaning in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Enum Granularity
+title: Granularity Enum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Comparing.Granularity enum. Specifies the granularity of changes to track when comparing two documents in C#.
 type: docs

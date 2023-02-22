@@ -1,5 +1,5 @@
 ---
-title: Class ImageSaveOptions
+title: ImageSaveOptions Class
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.ImageSaveOptions class. Allows to specify additional options when rendering document pages or shapes to images in C#.
 type: docs
