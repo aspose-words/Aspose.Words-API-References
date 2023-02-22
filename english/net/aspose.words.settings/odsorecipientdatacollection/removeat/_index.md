@@ -1,5 +1,5 @@
 ---
-title: OdsoRecipientDataCollection.RemoveAt
+title: RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: OdsoRecipientDataCollection method. Removes the element at the specified index in C#.
 type: docs

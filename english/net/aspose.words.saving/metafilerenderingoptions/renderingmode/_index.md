@@ -1,5 +1,5 @@
 ---
-title: MetafileRenderingOptions.RenderingMode
+title: RenderingMode
 second_title: Aspose.Words for .NET API Reference
 description: MetafileRenderingOptions property. Gets or sets a value determining how metafile images should be rendered in C#.
 type: docs

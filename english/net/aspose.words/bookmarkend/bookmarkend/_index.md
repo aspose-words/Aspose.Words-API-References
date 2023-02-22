@@ -1,5 +1,5 @@
 ---
-title: BookmarkEnd.BookmarkEnd
+title: BookmarkEnd
 second_title: Aspose.Words for .NET API Reference
 description: BookmarkEnd constructor. Initializes a new instance of the BookmarkEnd class in C#.
 type: docs

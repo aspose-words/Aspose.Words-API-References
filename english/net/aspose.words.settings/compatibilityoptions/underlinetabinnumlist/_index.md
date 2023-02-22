@@ -1,5 +1,5 @@
 ---
-title: CompatibilityOptions.UnderlineTabInNumList
+title: UnderlineTabInNumList
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions property. Underline Following Character Following Numbering in C#.
 type: docs

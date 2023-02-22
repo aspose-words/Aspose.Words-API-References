@@ -1,5 +1,5 @@
 ---
-title: Table.VerticalAnchor
+title: VerticalAnchor
 second_title: Aspose.Words for .NET API Reference
 description: Table property. Gets the base object from which the vertical positioning of floating table should be calculated. Default value is Margin in C#.
 type: docs

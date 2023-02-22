@@ -1,5 +1,5 @@
 ---
-title: SignatureLine.SignerTitle
+title: SignerTitle
 second_title: Aspose.Words for .NET API Reference
 description: SignatureLine property. Gets or sets suggested signers title for example Manager. Default value for this property is empty string Empty in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FootnoteOptions.StartNumber
+title: StartNumber
 second_title: Aspose.Words for .NET API Reference
 description: FootnoteOptions property. Specifies the starting number or character for the first automatically numbered footnotes in C#.
 type: docs

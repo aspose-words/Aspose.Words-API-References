@@ -1,5 +1,5 @@
 ---
-title: Range.StructuredDocumentTags
+title: StructuredDocumentTags
 second_title: Aspose.Words for .NET API Reference
 description: Range property. Returns a StructuredDocumentTags collection that represents all structured document tags in the range in C#.
 type: docs

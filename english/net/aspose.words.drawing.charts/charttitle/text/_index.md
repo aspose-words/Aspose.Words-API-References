@@ -1,5 +1,5 @@
 ---
-title: ChartTitle.Text
+title: Text
 second_title: Aspose.Words for .NET API Reference
 description: ChartTitle property. Gets or sets the text of the chart title. If null or empty value is specified auto generated title will be shown in C#.
 type: docs

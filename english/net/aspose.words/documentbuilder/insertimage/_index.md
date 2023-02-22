@@ -1,5 +1,5 @@
 ---
-title: DocumentBuilder.InsertImage
+title: InsertImage
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder method. Inserts an image from a .NET Image object into the document. The image is inserted inline and at 100 scale in C#.
 type: docs

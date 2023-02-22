@@ -1,5 +1,5 @@
 ---
-title: ChartAxis.MajorUnit
+title: MajorUnit
 second_title: Aspose.Words for .NET API Reference
 description: ChartAxis property. Returns or sets the distance between major tick marks in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: SignatureLineOptions.DefaultInstructions
+title: DefaultInstructions
 second_title: Aspose.Words for .NET API Reference
 description: SignatureLineOptions property. Gets or sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is true in C#.
 type: docs

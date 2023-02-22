@@ -1,5 +1,5 @@
 ---
-title: SmartTag.Properties
+title: Properties
 second_title: Aspose.Words for .NET API Reference
 description: SmartTag property. A collection of the smart tag properties in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Row.Cells
+title: Cells
 second_title: Aspose.Words for .NET API Reference
 description: Row property. Provides typed access to the Cell child nodes of the row in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Document.RevisionsView
+title: RevisionsView
 second_title: Aspose.Words for .NET API Reference
 description: Document property. Gets or sets a value indicating whether to work with the original or revised version of a document in C#.
 type: docs

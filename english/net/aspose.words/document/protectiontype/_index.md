@@ -1,5 +1,5 @@
 ---
-title: Document.ProtectionType
+title: ProtectionType
 second_title: Aspose.Words for .NET API Reference
 description: Document property. Gets the currently active document protection type in C#.
 type: docs

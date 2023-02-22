@@ -1,5 +1,5 @@
 ---
-title: XmlMapping.CustomXmlPart
+title: CustomXmlPart
 second_title: Aspose.Words for .NET API Reference
 description: XmlMapping property. Returns the custom XML data part to which the parent structured document tag is mapped in C#.
 type: docs

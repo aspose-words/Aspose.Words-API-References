@@ -1,5 +1,5 @@
 ---
-title: Paragraph.IsEndOfSection
+title: IsEndOfSection
 second_title: Aspose.Words for .NET API Reference
 description: Paragraph property. True if this paragraph is the last paragraph in the Body main text story of a Section false otherwise in C#.
 type: docs

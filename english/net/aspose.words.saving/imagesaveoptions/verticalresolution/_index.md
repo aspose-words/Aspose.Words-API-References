@@ -1,5 +1,5 @@
 ---
-title: ImageSaveOptions.VerticalResolution
+title: VerticalResolution
 second_title: Aspose.Words for .NET API Reference
 description: ImageSaveOptions property. Gets or sets the vertical resolution for the generated images in dots per inch in C#.
 type: docs

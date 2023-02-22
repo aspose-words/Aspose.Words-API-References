@@ -1,5 +1,5 @@
 ---
-title: VbaProject.VbaProject
+title: VbaProject
 second_title: Aspose.Words for .NET API Reference
 description: VbaProject constructor. Creates a blank VbaProject in C#.
 type: docs

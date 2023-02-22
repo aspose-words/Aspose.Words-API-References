@@ -1,5 +1,5 @@
 ---
-title: ReportingEngine.KnownTypes
+title: KnownTypes
 second_title: Aspose.Words for .NET API Reference
 description: ReportingEngine property. Gets an unordered set i.e. a collection of unique items containing Type objects which fully or partially qualified names can be used within report templates processed by this engine instance to invoke the corresponding types static members perform type casts etc in C#.
 type: docs

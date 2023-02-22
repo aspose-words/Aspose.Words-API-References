@@ -1,5 +1,5 @@
 ---
-title: DocumentBuilder.ParagraphFormat
+title: ParagraphFormat
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder property. Returns an object that represents current paragraph formatting properties in C#.
 type: docs

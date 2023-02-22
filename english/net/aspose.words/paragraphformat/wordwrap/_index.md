@@ -1,5 +1,5 @@
 ---
-title: ParagraphFormat.WordWrap
+title: WordWrap
 second_title: Aspose.Words for .NET API Reference
 description: ParagraphFormat property. If this property is false Latin text in the middle of a word can be wrapped for the current paragraph. Otherwise Latin text is wrapped by whole words in C#.
 type: docs

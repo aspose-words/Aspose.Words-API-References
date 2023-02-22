@@ -1,5 +1,5 @@
 ---
-title: FieldNumWords.FieldNumWords
+title: FieldNumWords
 second_title: Aspose.Words for .NET API Reference
 description: FieldNumWords constructor. The default constructor in C#.
 type: docs

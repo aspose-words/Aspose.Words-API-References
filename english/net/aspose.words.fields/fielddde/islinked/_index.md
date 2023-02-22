@@ -1,5 +1,5 @@
 ---
-title: FieldDde.IsLinked
+title: IsLinked
 second_title: Aspose.Words for .NET API Reference
 description: FieldDde property. Gets or sets whether to reduce the file size by not storing graphics data with the document in C#.
 type: docs

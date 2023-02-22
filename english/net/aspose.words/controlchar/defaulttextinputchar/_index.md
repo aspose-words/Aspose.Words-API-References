@@ -1,5 +1,5 @@
 ---
-title: ControlChar.DefaultTextInputChar
+title: DefaultTextInputChar
 second_title: Aspose.Words for .NET API Reference
 description: ControlChar field. This is the o character used as a default value in text input form fields in C#.
 type: docs

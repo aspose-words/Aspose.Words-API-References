@@ -1,5 +1,5 @@
 ---
-title: CellFormat.FitText
+title: FitText
 second_title: Aspose.Words for .NET API Reference
 description: CellFormat property. If true fits text in the cell compressing each paragraph to the width of the cell in C#.
 type: docs

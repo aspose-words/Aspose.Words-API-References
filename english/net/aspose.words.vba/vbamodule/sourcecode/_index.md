@@ -1,5 +1,5 @@
 ---
-title: VbaModule.SourceCode
+title: SourceCode
 second_title: Aspose.Words for .NET API Reference
 description: VbaModule property. Gets or sets VBA project module source code in C#.
 type: docs

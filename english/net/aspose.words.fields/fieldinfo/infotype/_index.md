@@ -1,5 +1,5 @@
 ---
-title: FieldInfo.InfoType
+title: InfoType
 second_title: Aspose.Words for .NET API Reference
 description: FieldInfo property. Gets or sets the type of the document property to insert in C#.
 type: docs

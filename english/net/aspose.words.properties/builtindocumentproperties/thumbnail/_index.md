@@ -1,5 +1,5 @@
 ---
-title: BuiltInDocumentProperties.Thumbnail
+title: Thumbnail
 second_title: Aspose.Words for .NET API Reference
 description: BuiltInDocumentProperties property. Gets or sets the thumbnail of the document in C#.
 type: docs

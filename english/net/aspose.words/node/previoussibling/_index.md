@@ -1,5 +1,5 @@
 ---
-title: Node.PreviousSibling
+title: PreviousSibling
 second_title: Aspose.Words for .NET API Reference
 description: Node property. Gets the node immediately preceding this node in C#.
 type: docs

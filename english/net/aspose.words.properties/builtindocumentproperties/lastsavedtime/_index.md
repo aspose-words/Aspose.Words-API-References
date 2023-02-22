@@ -1,5 +1,5 @@
 ---
-title: BuiltInDocumentProperties.LastSavedTime
+title: LastSavedTime
 second_title: Aspose.Words for .NET API Reference
 description: BuiltInDocumentProperties property. Gets or sets the time of the last save in UTC in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: MailMerge.RestartListsAtEachSection
+title: RestartListsAtEachSection
 second_title: Aspose.Words for .NET API Reference
 description: MailMerge property. Gets or sets a value indicating whether lists are restarted at each section after executing of a mail merge in C#.
 type: docs

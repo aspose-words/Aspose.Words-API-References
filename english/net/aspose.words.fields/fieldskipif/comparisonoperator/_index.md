@@ -1,5 +1,5 @@
 ---
-title: FieldSkipIf.ComparisonOperator
+title: ComparisonOperator
 second_title: Aspose.Words for .NET API Reference
 description: FieldSkipIf property. Gets or sets the comparison operator in C#.
 type: docs

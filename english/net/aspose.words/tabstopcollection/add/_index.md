@@ -1,5 +1,5 @@
 ---
-title: TabStopCollection.Add
+title: Add
 second_title: Aspose.Words for .NET API Reference
 description: TabStopCollection method. Adds or replaces a tab stop in the collection in C#.
 type: docs

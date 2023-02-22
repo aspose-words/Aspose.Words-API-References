@@ -1,5 +1,5 @@
 ---
-title: DocumentBuilder.InsertNode
+title: InsertNode
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder method. Inserts a node before the cursor in C#.
 type: docs

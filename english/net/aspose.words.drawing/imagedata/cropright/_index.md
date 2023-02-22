@@ -1,5 +1,5 @@
 ---
-title: ImageData.CropRight
+title: CropRight
 second_title: Aspose.Words for .NET API Reference
 description: ImageData property. Defines the fraction of picture removal from the right side in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: DigitalSignature.CertificateHolder
+title: CertificateHolder
 second_title: Aspose.Words for .NET API Reference
 description: DigitalSignature property. Returns the certificate holder object that contains the certificate was used to sign the document in C#.
 type: docs

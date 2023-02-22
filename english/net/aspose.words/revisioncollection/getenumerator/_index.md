@@ -1,5 +1,5 @@
 ---
-title: RevisionCollection.GetEnumerator
+title: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: RevisionCollection method. Returns an enumerator object in C#.
 type: docs

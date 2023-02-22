@@ -1,5 +1,5 @@
 ---
-title: DocumentBuilder.MoveToMergeField
+title: MoveToMergeField
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder method. Moves the cursor to a position just beyond the specified merge field and removes the merge field in C#.
 type: docs

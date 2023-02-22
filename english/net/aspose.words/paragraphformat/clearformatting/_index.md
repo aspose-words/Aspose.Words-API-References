@@ -1,5 +1,5 @@
 ---
-title: ParagraphFormat.ClearFormatting
+title: ClearFormatting
 second_title: Aspose.Words for .NET API Reference
 description: ParagraphFormat method. Resets to default paragraph formatting in C#.
 type: docs

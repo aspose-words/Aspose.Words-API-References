@@ -1,5 +1,5 @@
 ---
-title: NodeCollection.Contains
+title: Contains
 second_title: Aspose.Words for .NET API Reference
 description: NodeCollection method. Determines whether a node is in the collection in C#.
 type: docs

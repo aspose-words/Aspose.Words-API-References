@@ -1,5 +1,5 @@
 ---
-title: IStructuredDocumentTag.StructuredDocumentTagNode
+title: StructuredDocumentTagNode
 second_title: Aspose.Words for .NET API Reference
 description: IStructuredDocumentTag method. Returns Node object that implements this interface in C#.
 type: docs

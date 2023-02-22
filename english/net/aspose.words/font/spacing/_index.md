@@ -1,5 +1,5 @@
 ---
-title: Font.Spacing
+title: Spacing
 second_title: Aspose.Words for .NET API Reference
 description: Font property. Returns or sets the spacing in points between characters  in C#.
 type: docs

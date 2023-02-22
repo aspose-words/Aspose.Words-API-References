@@ -1,5 +1,5 @@
 ---
-title: PdfSaveOptions.Clone
+title: Clone
 second_title: Aspose.Words for .NET API Reference
 description: PdfSaveOptions method. Creates a deep clone of this object in C#.
 type: docs

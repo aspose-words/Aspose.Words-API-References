@@ -1,5 +1,5 @@
 ---
-title: FieldTA.PageRangeBookmarkName
+title: PageRangeBookmarkName
 second_title: Aspose.Words for .NET API Reference
 description: FieldTA property. Gets or sets the name of the bookmark that marks a range of pages that is inserted as the entrys page number in C#.
 type: docs

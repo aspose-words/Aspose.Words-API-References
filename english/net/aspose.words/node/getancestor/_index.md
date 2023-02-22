@@ -1,5 +1,5 @@
 ---
-title: Node.GetAncestor
+title: GetAncestor
 second_title: Aspose.Words for .NET API Reference
 description: Node method. Gets the first ancestor of the specified object type in C#.
 type: docs

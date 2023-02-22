@@ -1,5 +1,5 @@
 ---
-title: FieldBarcode.IsBookmark
+title: IsBookmark
 second_title: Aspose.Words for .NET API Reference
 description: FieldBarcode property. Gets or sets whether PostalAddress is the name of a bookmark in C#.
 type: docs

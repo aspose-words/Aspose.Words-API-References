@@ -1,5 +1,5 @@
 ---
-title: FieldIncludeText.XPath
+title: XPath
 second_title: Aspose.Words for .NET API Reference
 description: FieldIncludeText property. Gets or sets XPath for the desired portion of the XML file in C#.
 type: docs

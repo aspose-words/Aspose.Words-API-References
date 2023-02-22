@@ -1,5 +1,5 @@
 ---
-title: DigitalSignatureCollection.DigitalSignatureCollection
+title: DigitalSignatureCollection
 second_title: Aspose.Words for .NET API Reference
 description: DigitalSignatureCollection constructor. The default constructor in C#.
 type: docs

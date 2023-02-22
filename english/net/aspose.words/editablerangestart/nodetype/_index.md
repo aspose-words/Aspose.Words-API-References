@@ -1,5 +1,5 @@
 ---
-title: EditableRangeStart.NodeType
+title: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: EditableRangeStart property. Returns EditableRangeStart in C#.
 type: docs

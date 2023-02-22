@@ -1,5 +1,5 @@
 ---
-title: StructuredDocumentTagCollection.GetByTitle
+title: GetByTitle
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTagCollection method. Returns the first structured document tag encountered in the collection with the specified title in C#.
 type: docs

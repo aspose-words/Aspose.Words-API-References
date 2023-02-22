@@ -1,5 +1,5 @@
 ---
-title: EditableRangeEnd.EditableRangeStart
+title: EditableRangeStart
 second_title: Aspose.Words for .NET API Reference
 description: EditableRangeEnd property. Corresponding EditableRangeStart received by ID in C#.
 type: docs

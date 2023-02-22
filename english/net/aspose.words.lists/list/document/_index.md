@@ -1,5 +1,5 @@
 ---
-title: List.Document
+title: Document
 second_title: Aspose.Words for .NET API Reference
 description: List property. Gets the owner document in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ParagraphFormat.KeepTogether
+title: KeepTogether
 second_title: Aspose.Words for .NET API Reference
 description: ParagraphFormat property. True if all lines in the paragraph are to remain on the same page in C#.
 type: docs

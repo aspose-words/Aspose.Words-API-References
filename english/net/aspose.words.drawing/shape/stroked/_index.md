@@ -1,5 +1,5 @@
 ---
-title: Shape.Stroked
+title: Stroked
 second_title: Aspose.Words for .NET API Reference
 description: Shape property. Defines whether the path will be stroked in C#.
 type: docs

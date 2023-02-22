@@ -1,5 +1,5 @@
 ---
-title: StructuredDocumentTag.CalendarType
+title: CalendarType
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTag property. Specifies the type of calendar for this SDT. Default is Default in C#.
 type: docs

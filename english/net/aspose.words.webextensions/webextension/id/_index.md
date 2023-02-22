@@ -1,5 +1,5 @@
 ---
-title: WebExtension.Id
+title: Id
 second_title: Aspose.Words for .NET API Reference
 description: WebExtension property. Uniquely identifies the web extension instance in the current document in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: TextColumnCollection.Count
+title: Count
 second_title: Aspose.Words for .NET API Reference
 description: TextColumnCollection property. Gets the number of columns in the section of a document in C#.
 type: docs

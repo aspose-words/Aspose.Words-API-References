@@ -1,5 +1,5 @@
 ---
-title: List.ListId
+title: ListId
 second_title: Aspose.Words for .NET API Reference
 description: List property. Gets the unique identifier of the list in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: InlineStory.LastParagraph
+title: LastParagraph
 second_title: Aspose.Words for .NET API Reference
 description: InlineStory property. Gets the last paragraph in the story in C#.
 type: docs

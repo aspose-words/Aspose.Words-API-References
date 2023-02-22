@@ -1,5 +1,5 @@
 ---
-title: ParagraphFormat.HangingPunctuation
+title: HangingPunctuation
 second_title: Aspose.Words for .NET API Reference
 description: ParagraphFormat property. Gets or sets a flag indicating whether hanging punctuation is enabled for the current paragraph in C#.
 type: docs

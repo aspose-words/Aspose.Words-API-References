@@ -1,5 +1,5 @@
 ---
-title: CompatibilityOptions.UseSingleBorderforContiguousCells
+title: UseSingleBorderforContiguousCells
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions property. Use Simplified Rules For Table Border Conflicts in C#.
 type: docs

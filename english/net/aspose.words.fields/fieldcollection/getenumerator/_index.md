@@ -1,5 +1,5 @@
 ---
-title: FieldCollection.GetEnumerator
+title: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: FieldCollection method. Returns an enumerator object in C#.
 type: docs

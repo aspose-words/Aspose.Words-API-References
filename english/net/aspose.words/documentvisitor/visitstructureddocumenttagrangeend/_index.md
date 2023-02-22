@@ -1,5 +1,5 @@
 ---
-title: DocumentVisitor.VisitStructuredDocumentTagRangeEnd
+title: VisitStructuredDocumentTagRangeEnd
 second_title: Aspose.Words for .NET API Reference
 description: DocumentVisitor method. Called when a StructuredDocumentTagRangeEnd is encountered in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: CustomPartCollection.Clone
+title: Clone
 second_title: Aspose.Words for .NET API Reference
 description: CustomPartCollection method. Makes a deep copy of this collection and its items in C#.
 type: docs

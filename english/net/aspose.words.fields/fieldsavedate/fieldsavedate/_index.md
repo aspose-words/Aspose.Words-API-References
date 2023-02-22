@@ -1,5 +1,5 @@
 ---
-title: FieldSaveDate.FieldSaveDate
+title: FieldSaveDate
 second_title: Aspose.Words for .NET API Reference
 description: FieldSaveDate constructor. The default constructor in C#.
 type: docs

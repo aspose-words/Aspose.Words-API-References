@@ -1,5 +1,5 @@
 ---
-title: ListLevel.Alignment
+title: Alignment
 second_title: Aspose.Words for .NET API Reference
 description: ListLevel property. Gets or sets the justification of the actual number of the list item in C#.
 type: docs

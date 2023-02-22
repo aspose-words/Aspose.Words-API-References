@@ -1,5 +1,5 @@
 ---
-title: Table.DistanceTop
+title: DistanceTop
 second_title: Aspose.Words for .NET API Reference
 description: Table property. Gets distance between table top and the surrounding text in points in C#.
 type: docs

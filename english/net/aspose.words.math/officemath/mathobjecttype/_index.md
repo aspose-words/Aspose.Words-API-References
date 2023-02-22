@@ -1,5 +1,5 @@
 ---
-title: OfficeMath.MathObjectType
+title: MathObjectType
 second_title: Aspose.Words for .NET API Reference
 description: OfficeMath property. Gets type MathObjectType of this Office Math object in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ShapeBase.BehindText
+title: BehindText
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase property. Specifies whether the shape is below or above text in C#.
 type: docs

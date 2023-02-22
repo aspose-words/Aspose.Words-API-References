@@ -1,5 +1,5 @@
 ---
-title: ListCollection.Document
+title: Document
 second_title: Aspose.Words for .NET API Reference
 description: ListCollection property. Gets the owner document in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: CleanupOptions.UnusedLists
+title: UnusedLists
 second_title: Aspose.Words for .NET API Reference
 description: CleanupOptions property. Specifies whether unused list and list definitions should be removed from document. Default value is true in C#.
 type: docs

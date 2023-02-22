@@ -1,5 +1,5 @@
 ---
-title: DocumentPropertyCollection.Contains
+title: Contains
 second_title: Aspose.Words for .NET API Reference
 description: DocumentPropertyCollection method. Returns true if a property with the specified name exists in the collection in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: IMailMergeDataSource.GetValue
+title: GetValue
 second_title: Aspose.Words for .NET API Reference
 description: IMailMergeDataSource method. Returns a value for the specified field name or false if the field is not found in C#.
 type: docs

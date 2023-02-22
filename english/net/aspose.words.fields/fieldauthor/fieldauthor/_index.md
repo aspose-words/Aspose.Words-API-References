@@ -1,5 +1,5 @@
 ---
-title: FieldAuthor.FieldAuthor
+title: FieldAuthor
 second_title: Aspose.Words for .NET API Reference
 description: FieldAuthor constructor. The default constructor in C#.
 type: docs

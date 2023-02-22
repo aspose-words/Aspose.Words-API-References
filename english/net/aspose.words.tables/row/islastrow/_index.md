@@ -1,5 +1,5 @@
 ---
-title: Row.IsLastRow
+title: IsLastRow
 second_title: Aspose.Words for .NET API Reference
 description: Row property. True if this is the last row in a table false otherwise in C#.
 type: docs

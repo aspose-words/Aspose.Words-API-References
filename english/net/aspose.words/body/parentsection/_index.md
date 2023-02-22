@@ -1,5 +1,5 @@
 ---
-title: Body.ParentSection
+title: ParentSection
 second_title: Aspose.Words for .NET API Reference
 description: Body property. Gets the parent section of this story in C#.
 type: docs

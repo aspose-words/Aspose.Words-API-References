@@ -1,5 +1,5 @@
 ---
-title: FieldAutoNum.FieldAutoNum
+title: FieldAutoNum
 second_title: Aspose.Words for .NET API Reference
 description: FieldAutoNum constructor. The default constructor in C#.
 type: docs

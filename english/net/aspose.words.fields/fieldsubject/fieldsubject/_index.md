@@ -1,5 +1,5 @@
 ---
-title: FieldSubject.FieldSubject
+title: FieldSubject
 second_title: Aspose.Words for .NET API Reference
 description: FieldSubject constructor. The default constructor in C#.
 type: docs

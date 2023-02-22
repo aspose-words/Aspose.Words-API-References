@@ -1,5 +1,5 @@
 ---
-title: SaveOptions.ImlRenderingMode
+title: ImlRenderingMode
 second_title: Aspose.Words for .NET API Reference
 description: SaveOptions property. Gets or sets a value determining how ink InkML objects are rendered in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Document.SpellingChecked
+title: SpellingChecked
 second_title: Aspose.Words for .NET API Reference
 description: Document property. Returns true if the document has been checked for spelling in C#.
 type: docs

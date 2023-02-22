@@ -1,5 +1,5 @@
 ---
-title: BasicTextShaperCache.Dispose
+title: Dispose
 second_title: Aspose.Words for .NET API Reference
 description: BasicTextShaperCache method.  in C#.
 type: docs

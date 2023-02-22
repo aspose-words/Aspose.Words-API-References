@@ -1,5 +1,5 @@
 ---
-title: ChartAxis.BaseTimeUnit
+title: BaseTimeUnit
 second_title: Aspose.Words for .NET API Reference
 description: ChartAxis property. Returns or sets the smallest time unit that is represented on the time category axis in C#.
 type: docs

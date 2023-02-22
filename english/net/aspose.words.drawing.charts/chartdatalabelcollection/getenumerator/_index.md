@@ -1,5 +1,5 @@
 ---
-title: ChartDataLabelCollection.GetEnumerator
+title: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: ChartDataLabelCollection method. Returns an enumerator object in C#.
 type: docs

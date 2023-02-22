@@ -1,5 +1,5 @@
 ---
-title: ControlChar.Lf
+title: Lf
 second_title: Aspose.Words for .NET API Reference
 description: ControlChar field. Line feed character x000a or n. Same as LineFeed in C#.
 type: docs

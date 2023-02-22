@@ -1,5 +1,5 @@
 ---
-title: DigitalSignatureUtil.RemoveAllSignatures
+title: RemoveAllSignatures
 second_title: Aspose.Words for .NET API Reference
 description: DigitalSignatureUtil method. Removes all digital signatures from source file and writes unsigned file to destination file in C#.
 type: docs

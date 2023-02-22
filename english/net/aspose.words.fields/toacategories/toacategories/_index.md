@@ -1,5 +1,5 @@
 ---
-title: ToaCategories.ToaCategories
+title: ToaCategories
 second_title: Aspose.Words for .NET API Reference
 description: ToaCategories constructor. The default constructor in C#.
 type: docs

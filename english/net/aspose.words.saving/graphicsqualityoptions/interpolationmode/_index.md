@@ -1,5 +1,5 @@
 ---
-title: GraphicsQualityOptions.InterpolationMode
+title: InterpolationMode
 second_title: Aspose.Words for .NET API Reference
 description: GraphicsQualityOptions property. Gets or sets the interpolation mode associated with this Graphics in C#.
 type: docs

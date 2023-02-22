@@ -1,5 +1,5 @@
 ---
-title: Shape.ShadowEnabled
+title: ShadowEnabled
 second_title: Aspose.Words for .NET API Reference
 description: Shape property. Returns true if a shadow effect is enabled in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: OfficeMath.Justification
+title: Justification
 second_title: Aspose.Words for .NET API Reference
 description: OfficeMath property. Gets/sets Office Math justification in C#.
 type: docs

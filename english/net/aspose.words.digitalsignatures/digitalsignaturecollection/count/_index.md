@@ -1,5 +1,5 @@
 ---
-title: DigitalSignatureCollection.Count
+title: Count
 second_title: Aspose.Words for .NET API Reference
 description: DigitalSignatureCollection property. Gets the number of elements contained in the collection in C#.
 type: docs

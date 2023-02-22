@@ -1,5 +1,5 @@
 ---
-title: MetafileRenderingOptions.ScaleWmfFontsToMetafileSize
+title: ScaleWmfFontsToMetafileSize
 second_title: Aspose.Words for .NET API Reference
 description: MetafileRenderingOptions property. Gets or sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page in C#.
 type: docs

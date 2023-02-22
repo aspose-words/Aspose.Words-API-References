@@ -1,5 +1,5 @@
 ---
-title: ListLevel.TextPosition
+title: TextPosition
 second_title: Aspose.Words for .NET API Reference
 description: ListLevel property. Returns or sets the position in points for the second line of wrapping text for the list level in C#.
 type: docs

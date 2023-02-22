@@ -1,5 +1,5 @@
 ---
-title: MailMergeSettings.DataType
+title: DataType
 second_title: Aspose.Words for .NET API Reference
 description: MailMergeSettings property. Specifies the type of the mailmerge data source and the method of data access. The default value is Default in C#.
 type: docs

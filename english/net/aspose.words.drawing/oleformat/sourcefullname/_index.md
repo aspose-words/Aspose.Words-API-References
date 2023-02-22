@@ -1,5 +1,5 @@
 ---
-title: OleFormat.SourceFullName
+title: SourceFullName
 second_title: Aspose.Words for .NET API Reference
 description: OleFormat property. Gets or sets the path and name of the source file for the linked OLE object in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: BuildingBlock.Accept
+title: Accept
 second_title: Aspose.Words for .NET API Reference
 description: BuildingBlock method. Accepts a visitor in C#.
 type: docs

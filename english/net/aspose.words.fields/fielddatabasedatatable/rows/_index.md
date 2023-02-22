@@ -1,5 +1,5 @@
 ---
-title: FieldDatabaseDataTable.Rows
+title: Rows
 second_title: Aspose.Words for .NET API Reference
 description: FieldDatabaseDataTable property. Gets rows that belong to this table in C#.
 type: docs

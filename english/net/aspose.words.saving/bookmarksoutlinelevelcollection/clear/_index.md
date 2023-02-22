@@ -1,5 +1,5 @@
 ---
-title: BookmarksOutlineLevelCollection.Clear
+title: Clear
 second_title: Aspose.Words for .NET API Reference
 description: BookmarksOutlineLevelCollection method. Removes all elements from the collection in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Range.Text
+title: Text
 second_title: Aspose.Words for .NET API Reference
 description: Range property. Gets the text of the range in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: SvgSaveOptions.SaveFormat
+title: SaveFormat
 second_title: Aspose.Words for .NET API Reference
 description: SvgSaveOptions property. Specifies the format in which the document will be saved if this save options object is used. Can only be Svg in C#.
 type: docs

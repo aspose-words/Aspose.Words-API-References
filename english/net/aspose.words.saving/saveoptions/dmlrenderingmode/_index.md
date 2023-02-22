@@ -1,5 +1,5 @@
 ---
-title: SaveOptions.DmlRenderingMode
+title: DmlRenderingMode
 second_title: Aspose.Words for .NET API Reference
 description: SaveOptions property. Gets or sets a value determining how DrawingML shapes are rendered in C#.
 type: docs

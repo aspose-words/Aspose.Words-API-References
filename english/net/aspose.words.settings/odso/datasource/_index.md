@@ -1,5 +1,5 @@
 ---
-title: Odso.DataSource
+title: DataSource
 second_title: Aspose.Words for .NET API Reference
 description: Odso property. Specifies the location of the external data source to be connected to a document to perform the mail merge. The default value is an empty string in C#.
 type: docs

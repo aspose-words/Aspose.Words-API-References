@@ -1,5 +1,5 @@
 ---
-title: AbsolutePositionTab.Accept
+title: Accept
 second_title: Aspose.Words for .NET API Reference
 description: AbsolutePositionTab method. Accepts a visitor in C#.
 type: docs

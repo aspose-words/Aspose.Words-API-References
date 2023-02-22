@@ -1,5 +1,5 @@
 ---
-title: ParagraphFormat.Shading
+title: Shading
 second_title: Aspose.Words for .NET API Reference
 description: ParagraphFormat property. Returns a Shading object that refers to the shading formatting for the paragraph in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: CustomXmlPartCollection.Clear
+title: Clear
 second_title: Aspose.Words for .NET API Reference
 description: CustomXmlPartCollection method. Removes all elements from the collection in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Row.NodeType
+title: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Row property. Returns Row in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: MailMerge.UnconditionalMergeFieldsAndRegions
+title: UnconditionalMergeFieldsAndRegions
 second_title: Aspose.Words for .NET API Reference
 description: MailMerge property. Gets or sets a value indicating whether merge fields and merge regions are merged regardless of the parent IF fields condition in C#.
 type: docs

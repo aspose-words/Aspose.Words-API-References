@@ -1,5 +1,5 @@
 ---
-title: Metered.GetConsumptionQuantity
+title: GetConsumptionQuantity
 second_title: Aspose.Words for .NET API Reference
 description: Metered method. Gets consumption file size in C#.
 type: docs

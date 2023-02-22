@@ -1,5 +1,5 @@
 ---
-title: DropDownItemCollection.Insert
+title: Insert
 second_title: Aspose.Words for .NET API Reference
 description: DropDownItemCollection method. Inserts a string into the collection at the specified index in C#.
 type: docs

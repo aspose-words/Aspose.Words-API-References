@@ -1,5 +1,5 @@
 ---
-title: CertificateHolder.Certificate
+title: Certificate
 second_title: Aspose.Words for .NET API Reference
 description: CertificateHolder property. Returns the instance of X509Certificate2 which holds private public keys and certificate chain in C#.
 type: docs

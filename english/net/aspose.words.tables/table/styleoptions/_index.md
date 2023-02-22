@@ -1,5 +1,5 @@
 ---
-title: Table.StyleOptions
+title: StyleOptions
 second_title: Aspose.Words for .NET API Reference
 description: Table property. Gets or sets bit flags that specify how a table style is applied to this table in C#.
 type: docs

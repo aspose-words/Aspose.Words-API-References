@@ -1,5 +1,5 @@
 ---
-title: TextPath.StrikeThrough
+title: StrikeThrough
 second_title: Aspose.Words for .NET API Reference
 description: TextPath property. True if the font is formatted as strikethrough text in C#.
 type: docs

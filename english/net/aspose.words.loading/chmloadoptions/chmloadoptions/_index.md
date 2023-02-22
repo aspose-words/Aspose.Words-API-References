@@ -1,5 +1,5 @@
 ---
-title: ChmLoadOptions.ChmLoadOptions
+title: ChmLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: ChmLoadOptions constructor. Initializes a new instance of this class with default values in C#.
 type: docs

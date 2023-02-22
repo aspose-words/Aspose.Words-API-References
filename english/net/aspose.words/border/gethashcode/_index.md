@@ -1,5 +1,5 @@
 ---
-title: Border.GetHashCode
+title: GetHashCode
 second_title: Aspose.Words for .NET API Reference
 description: Border method. Serves as a hash function for this type in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: CustomXmlSchemaCollection.RemoveAt
+title: RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: CustomXmlSchemaCollection method. Removes a value at the specified index in C#.
 type: docs

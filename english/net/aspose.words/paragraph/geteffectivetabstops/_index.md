@@ -1,5 +1,5 @@
 ---
-title: Paragraph.GetEffectiveTabStops
+title: GetEffectiveTabStops
 second_title: Aspose.Words for .NET API Reference
 description: Paragraph method. Returns array of all tab stops applied to this paragraph including applied indirectly by styles or lists in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: DocSaveOptions.SaveFormat
+title: SaveFormat
 second_title: Aspose.Words for .NET API Reference
 description: DocSaveOptions property. Specifies the format in which the document will be saved if this save options object is used. Can be Doc or Dot in C#.
 type: docs

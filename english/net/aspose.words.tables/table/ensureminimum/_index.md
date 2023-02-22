@@ -1,5 +1,5 @@
 ---
-title: Table.EnsureMinimum
+title: EnsureMinimum
 second_title: Aspose.Words for .NET API Reference
 description: Table method. If the table has no rows creates and appends one Row in C#.
 type: docs

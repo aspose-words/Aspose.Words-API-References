@@ -1,5 +1,5 @@
 ---
-title: ListLevelCollection.Count
+title: Count
 second_title: Aspose.Words for .NET API Reference
 description: ListLevelCollection property. Gets the number of levels in this list in C#.
 type: docs

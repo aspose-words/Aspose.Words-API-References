@@ -1,5 +1,5 @@
 ---
-title: CellFormat.Shading
+title: Shading
 second_title: Aspose.Words for .NET API Reference
 description: CellFormat property. Returns a Shading object that refers to the shading formatting for the cell in C#.
 type: docs

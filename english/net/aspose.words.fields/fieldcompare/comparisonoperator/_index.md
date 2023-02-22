@@ -1,5 +1,5 @@
 ---
-title: FieldCompare.ComparisonOperator
+title: ComparisonOperator
 second_title: Aspose.Words for .NET API Reference
 description: FieldCompare property. Gets or sets the comparison operator in C#.
 type: docs

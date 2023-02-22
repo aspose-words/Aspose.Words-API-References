@@ -1,5 +1,5 @@
 ---
-title: Chart.Series
+title: Series
 second_title: Aspose.Words for .NET API Reference
 description: Chart property. Provides access to series collection in C#.
 type: docs

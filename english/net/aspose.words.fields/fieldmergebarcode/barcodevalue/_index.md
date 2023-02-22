@@ -1,5 +1,5 @@
 ---
-title: FieldMergeBarcode.BarcodeValue
+title: BarcodeValue
 second_title: Aspose.Words for .NET API Reference
 description: FieldMergeBarcode property. Gets or sets the barcode value in C#.
 type: docs

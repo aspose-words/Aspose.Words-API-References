@@ -1,5 +1,5 @@
 ---
-title: PlainTextDocument.CustomDocumentProperties
+title: CustomDocumentProperties
 second_title: Aspose.Words for .NET API Reference
 description: PlainTextDocument property. Gets CustomDocumentProperties of the document in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: TableCollection.ToArray
+title: ToArray
 second_title: Aspose.Words for .NET API Reference
 description: TableCollection method. Copies all tables from the collection to a new array of tables in C#.
 type: docs

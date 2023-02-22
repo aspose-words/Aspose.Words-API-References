@@ -1,5 +1,5 @@
 ---
-title: FieldTime.FieldTime
+title: FieldTime
 second_title: Aspose.Words for .NET API Reference
 description: FieldTime constructor. The default constructor in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Frameset.IsFrameLinkToFile
+title: IsFrameLinkToFile
 second_title: Aspose.Words for .NET API Reference
 description: Frameset property. Gets or sets a value indicating whether the web page or document file name specified in the FrameDefaultUrl property is an external resource the frame is linked with in C#.
 type: docs

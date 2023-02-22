@@ -1,5 +1,5 @@
 ---
-title: FieldIndex.EntryType
+title: EntryType
 second_title: Aspose.Words for .NET API Reference
 description: FieldIndex property. Gets or sets an index entry type used to build the index in C#.
 type: docs

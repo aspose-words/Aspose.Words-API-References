@@ -1,5 +1,5 @@
 ---
-title: ThemeFonts.EastAsian
+title: EastAsian
 second_title: Aspose.Words for .NET API Reference
 description: ThemeFonts property. Specifies font name for EastAsian characters in C#.
 type: docs

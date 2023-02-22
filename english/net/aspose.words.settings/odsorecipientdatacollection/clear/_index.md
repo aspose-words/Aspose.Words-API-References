@@ -1,5 +1,5 @@
 ---
-title: OdsoRecipientDataCollection.Clear
+title: Clear
 second_title: Aspose.Words for .NET API Reference
 description: OdsoRecipientDataCollection method. Removes all elements from this collection in C#.
 type: docs

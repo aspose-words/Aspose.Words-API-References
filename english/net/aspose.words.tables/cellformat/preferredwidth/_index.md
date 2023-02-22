@@ -1,5 +1,5 @@
 ---
-title: CellFormat.PreferredWidth
+title: PreferredWidth
 second_title: Aspose.Words for .NET API Reference
 description: CellFormat property. Returns or sets the preferred width of the cell in C#.
 type: docs

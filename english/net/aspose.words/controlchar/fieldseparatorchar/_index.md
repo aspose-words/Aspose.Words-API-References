@@ -1,5 +1,5 @@
 ---
-title: ControlChar.FieldSeparatorChar
+title: FieldSeparatorChar
 second_title: Aspose.Words for .NET API Reference
 description: ControlChar field. Field separator character separates field code from field value. Optional in some fields. Value char20 in C#.
 type: docs

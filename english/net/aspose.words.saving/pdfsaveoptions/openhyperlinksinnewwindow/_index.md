@@ -1,5 +1,5 @@
 ---
-title: PdfSaveOptions.OpenHyperlinksInNewWindow
+title: OpenHyperlinksInNewWindow
 second_title: Aspose.Words for .NET API Reference
 description: PdfSaveOptions property. Gets or sets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window or tab of a browser in C#.
 type: docs

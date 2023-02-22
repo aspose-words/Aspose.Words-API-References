@@ -1,5 +1,5 @@
 ---
-title: ChartLegendEntry.Font
+title: Font
 second_title: Aspose.Words for .NET API Reference
 description: ChartLegendEntry property. Provides access to the font formatting of this legend entry in C#.
 type: docs

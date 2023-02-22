@@ -1,5 +1,5 @@
 ---
-title: Shape.HorizontalRuleFormat
+title: HorizontalRuleFormat
 second_title: Aspose.Words for .NET API Reference
 description: Shape property. Provides access to the properties of the horizontal rule shape. For a shape that is not a horizontal rule returns null in C#.
 type: docs

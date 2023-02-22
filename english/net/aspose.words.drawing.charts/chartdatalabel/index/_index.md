@@ -1,5 +1,5 @@
 ---
-title: ChartDataLabel.Index
+title: Index
 second_title: Aspose.Words for .NET API Reference
 description: ChartDataLabel property. Specifies the index of the containing element. This index shall determine which of the parents children collection this element applies to. Default value is 0 in C#.
 type: docs

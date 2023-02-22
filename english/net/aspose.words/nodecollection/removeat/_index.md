@@ -1,5 +1,5 @@
 ---
-title: NodeCollection.RemoveAt
+title: RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: NodeCollection method. Removes the node at the specified index from the collection and from the document in C#.
 type: docs

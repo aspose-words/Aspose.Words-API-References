@@ -1,5 +1,5 @@
 ---
-title: ChartSeriesCollection.RemoveAt
+title: RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: ChartSeriesCollection method. Removes a ChartSeries at the specified index in C#.
 type: docs

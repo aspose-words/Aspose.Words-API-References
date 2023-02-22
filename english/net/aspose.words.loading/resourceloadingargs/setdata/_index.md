@@ -1,5 +1,5 @@
 ---
-title: ResourceLoadingArgs.SetData
+title: SetData
 second_title: Aspose.Words for .NET API Reference
 description: ResourceLoadingArgs method. Sets user provided data of the resource which is used if ResourceLoading returns UserProvided in C#.
 type: docs

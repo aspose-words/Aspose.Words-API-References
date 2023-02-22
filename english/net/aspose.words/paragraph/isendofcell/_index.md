@@ -1,5 +1,5 @@
 ---
-title: Paragraph.IsEndOfCell
+title: IsEndOfCell
 second_title: Aspose.Words for .NET API Reference
 description: Paragraph property. True if this paragraph is the last paragraph in a Cell false otherwise in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: InlineStory.Tables
+title: Tables
 second_title: Aspose.Words for .NET API Reference
 description: InlineStory property. Gets a collection of tables that are immediate children of the story in C#.
 type: docs

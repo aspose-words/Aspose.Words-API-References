@@ -1,5 +1,5 @@
 ---
-title: BookmarkStart.Bookmark
+title: Bookmark
 second_title: Aspose.Words for .NET API Reference
 description: BookmarkStart property. Gets the facade object that encapsulates this bookmark start and end in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: BuildingBlock.Guid
+title: Guid
 second_title: Aspose.Words for .NET API Reference
 description: BuildingBlock property. Gets or sets an identifier a 128bit GUID that uniquely identifies this building block in C#.
 type: docs

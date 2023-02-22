@@ -1,5 +1,5 @@
 ---
-title: MemoryFontSource.FontData
+title: FontData
 second_title: Aspose.Words for .NET API Reference
 description: MemoryFontSource property. Binary font data in C#.
 type: docs

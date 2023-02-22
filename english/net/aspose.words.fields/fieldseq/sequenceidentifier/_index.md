@@ -1,5 +1,5 @@
 ---
-title: FieldSeq.SequenceIdentifier
+title: SequenceIdentifier
 second_title: Aspose.Words for .NET API Reference
 description: FieldSeq property. Gets or sets the name assigned to the series of items that are to be numbered in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FieldFormCheckBox.FieldFormCheckBox
+title: FieldFormCheckBox
 second_title: Aspose.Words for .NET API Reference
 description: FieldFormCheckBox constructor. The default constructor in C#.
 type: docs

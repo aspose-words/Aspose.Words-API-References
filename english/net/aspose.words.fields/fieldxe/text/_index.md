@@ -1,5 +1,5 @@
 ---
-title: FieldXE.Text
+title: Text
 second_title: Aspose.Words for .NET API Reference
 description: FieldXE property. Gets or sets the text of the entry in C#.
 type: docs

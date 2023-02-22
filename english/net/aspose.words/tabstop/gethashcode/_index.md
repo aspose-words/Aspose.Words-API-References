@@ -1,5 +1,5 @@
 ---
-title: TabStop.GetHashCode
+title: GetHashCode
 second_title: Aspose.Words for .NET API Reference
 description: TabStop method. Calculates hash code for this object in C#.
 type: docs

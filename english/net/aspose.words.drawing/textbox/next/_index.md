@@ -1,5 +1,5 @@
 ---
-title: TextBox.Next
+title: Next
 second_title: Aspose.Words for .NET API Reference
 description: TextBox property. Returns or sets a TextBox that represents the next TextBox in a sequence of shapes in C#.
 type: docs

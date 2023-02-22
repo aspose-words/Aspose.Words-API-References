@@ -1,5 +1,5 @@
 ---
-title: Row.EnsureMinimum
+title: EnsureMinimum
 second_title: Aspose.Words for .NET API Reference
 description: Row method. If the Row has no cells creates and appends one Cell in C#.
 type: docs

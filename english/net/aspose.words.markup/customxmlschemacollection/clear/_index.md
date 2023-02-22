@@ -1,5 +1,5 @@
 ---
-title: CustomXmlSchemaCollection.Clear
+title: Clear
 second_title: Aspose.Words for .NET API Reference
 description: CustomXmlSchemaCollection method. Removes all elements from the collection in C#.
 type: docs

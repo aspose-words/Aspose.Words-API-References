@@ -1,5 +1,5 @@
 ---
-title: CompatibilityOptions.FootnoteLayoutLikeWW8
+title: FootnoteLayoutLikeWW8
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions property. Emulate Word 6.x/95/97 Footnote Placement in C#.
 type: docs

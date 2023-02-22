@@ -1,5 +1,5 @@
 ---
-title: Style.Font
+title: Font
 second_title: Aspose.Words for .NET API Reference
 description: Style property. Gets the character formatting of the style in C#.
 type: docs

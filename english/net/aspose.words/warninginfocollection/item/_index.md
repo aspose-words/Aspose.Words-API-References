@@ -1,5 +1,5 @@
 ---
-title: WarningInfoCollection.Item
+title: Item
 second_title: Aspose.Words for .NET API Reference
 description: WarningInfoCollection property. Gets an item at the specified index in C#.
 type: docs

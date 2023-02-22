@@ -1,5 +1,5 @@
 ---
-title: Cluster.CodepointsLength
+title: CodepointsLength
 second_title: Aspose.Words for .NET API Reference
 description: Cluster property. Gets total number of codepoints in the Cluster in C#.
 type: docs

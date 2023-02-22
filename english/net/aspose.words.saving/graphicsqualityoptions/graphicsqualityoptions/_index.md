@@ -1,5 +1,5 @@
 ---
-title: GraphicsQualityOptions.GraphicsQualityOptions
+title: GraphicsQualityOptions
 second_title: Aspose.Words for .NET API Reference
 description: GraphicsQualityOptions constructor. The default constructor in C#.
 type: docs

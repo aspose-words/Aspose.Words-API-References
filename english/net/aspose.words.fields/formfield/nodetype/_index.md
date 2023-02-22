@@ -1,5 +1,5 @@
 ---
-title: FormField.NodeType
+title: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: FormField property. Returns FormField in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: HtmlFixedSaveOptions.ShowPageBorder
+title: ShowPageBorder
 second_title: Aspose.Words for .NET API Reference
 description: HtmlFixedSaveOptions property. Specifies whether border around pages should be shown. Default is true in C#.
 type: docs

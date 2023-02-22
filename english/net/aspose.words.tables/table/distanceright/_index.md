@@ -1,5 +1,5 @@
 ---
-title: Table.DistanceRight
+title: DistanceRight
 second_title: Aspose.Words for .NET API Reference
 description: Table property. Gets distance between table right and the surrounding text in points in C#.
 type: docs

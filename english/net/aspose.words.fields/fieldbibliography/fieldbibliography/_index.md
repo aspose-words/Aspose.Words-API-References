@@ -1,5 +1,5 @@
 ---
-title: FieldBibliography.FieldBibliography
+title: FieldBibliography
 second_title: Aspose.Words for .NET API Reference
 description: FieldBibliography constructor. The default constructor in C#.
 type: docs

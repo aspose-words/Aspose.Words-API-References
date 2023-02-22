@@ -1,5 +1,5 @@
 ---
-title: SaveOptions.CreateSaveOptions
+title: CreateSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: SaveOptions method. Creates a save options object of a class suitable for the specified save format in C#.
 type: docs

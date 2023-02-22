@@ -1,5 +1,5 @@
 ---
-title: Font.NameFarEast
+title: NameFarEast
 second_title: Aspose.Words for .NET API Reference
 description: Font property. Returns or sets an East Asian font name in C#.
 type: docs

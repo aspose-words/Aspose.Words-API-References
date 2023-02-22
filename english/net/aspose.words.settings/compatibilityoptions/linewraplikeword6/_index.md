@@ -1,5 +1,5 @@
 ---
-title: CompatibilityOptions.LineWrapLikeWord6
+title: LineWrapLikeWord6
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions property. Emulate Word 6.0 Line Wrapping for East Asian Text in C#.
 type: docs

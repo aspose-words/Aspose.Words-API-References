@@ -1,5 +1,5 @@
 ---
-title: GeneralFormatCollection.Count
+title: Count
 second_title: Aspose.Words for .NET API Reference
 description: GeneralFormatCollection property. Gets the total number of the items in the collection in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Document.GetPageInfo
+title: GetPageInfo
 second_title: Aspose.Words for .NET API Reference
 description: Document method. Gets the page size orientation and other information about a page that might be useful for printing or rendering in C#.
 type: docs

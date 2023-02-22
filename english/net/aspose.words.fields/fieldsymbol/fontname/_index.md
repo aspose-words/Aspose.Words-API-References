@@ -1,5 +1,5 @@
 ---
-title: FieldSymbol.FontName
+title: FontName
 second_title: Aspose.Words for .NET API Reference
 description: FieldSymbol property. Gets or sets the name of the font of the character retrieved by the field in C#.
 type: docs

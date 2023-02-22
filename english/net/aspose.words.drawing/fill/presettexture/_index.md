@@ -1,5 +1,5 @@
 ---
-title: Fill.PresetTexture
+title: PresetTexture
 second_title: Aspose.Words for .NET API Reference
 description: Fill property. Gets a PresetTexture for the fill in C#.
 type: docs

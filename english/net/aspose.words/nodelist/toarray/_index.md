@@ -1,5 +1,5 @@
 ---
-title: NodeList.ToArray
+title: ToArray
 second_title: Aspose.Words for .NET API Reference
 description: NodeList method. Copies all nodes from the collection to a new array of nodes in C#.
 type: docs

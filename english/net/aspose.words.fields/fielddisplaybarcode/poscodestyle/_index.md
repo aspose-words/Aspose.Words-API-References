@@ -1,5 +1,5 @@
 ---
-title: FieldDisplayBarcode.PosCodeStyle
+title: PosCodeStyle
 second_title: Aspose.Words for .NET API Reference
 description: FieldDisplayBarcode property. Gets or sets the style of a Point of Sale barcode barcode types UPCAUPCEEAN13EAN8. The valid values case insensitive are STDSUP2SUP5CASE in C#.
 type: docs

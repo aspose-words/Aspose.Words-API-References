@@ -1,5 +1,5 @@
 ---
-title: ShapeBase.Name
+title: Name
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase property. Gets or sets the optional shape name in C#.
 type: docs

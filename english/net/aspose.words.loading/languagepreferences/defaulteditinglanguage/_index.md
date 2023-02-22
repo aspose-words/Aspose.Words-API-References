@@ -1,5 +1,5 @@
 ---
-title: LanguagePreferences.DefaultEditingLanguage
+title: DefaultEditingLanguage
 second_title: Aspose.Words for .NET API Reference
 description: LanguagePreferences property. Gets or sets default editing language in C#.
 type: docs

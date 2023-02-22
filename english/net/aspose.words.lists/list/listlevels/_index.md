@@ -1,5 +1,5 @@
 ---
-title: List.ListLevels
+title: ListLevels
 second_title: Aspose.Words for .NET API Reference
 description: List property. Gets the collection of list levels for this list in C#.
 type: docs

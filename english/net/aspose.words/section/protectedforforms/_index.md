@@ -1,5 +1,5 @@
 ---
-title: Section.ProtectedForForms
+title: ProtectedForForms
 second_title: Aspose.Words for .NET API Reference
 description: Section property. True if the section is protected for forms. When a section is protected for forms users can select and modify text only in form fields in Microsoft Word in C#.
 type: docs

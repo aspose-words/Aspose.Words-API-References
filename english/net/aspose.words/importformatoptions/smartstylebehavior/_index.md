@@ -1,5 +1,5 @@
 ---
-title: ImportFormatOptions.SmartStyleBehavior
+title: SmartStyleBehavior
 second_title: Aspose.Words for .NET API Reference
 description: ImportFormatOptions property. Gets or sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. The default value is false in C#.
 type: docs

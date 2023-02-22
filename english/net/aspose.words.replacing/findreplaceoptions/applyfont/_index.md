@@ -1,5 +1,5 @@
 ---
-title: FindReplaceOptions.ApplyFont
+title: ApplyFont
 second_title: Aspose.Words for .NET API Reference
 description: FindReplaceOptions property. Text formatting applied to new content in C#.
 type: docs

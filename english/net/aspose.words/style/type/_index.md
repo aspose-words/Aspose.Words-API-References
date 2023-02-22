@@ -1,5 +1,5 @@
 ---
-title: Style.Type
+title: Type
 second_title: Aspose.Words for .NET API Reference
 description: Style property. Gets the style type paragraph or character in C#.
 type: docs

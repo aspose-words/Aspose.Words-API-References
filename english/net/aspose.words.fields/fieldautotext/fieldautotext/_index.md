@@ -1,5 +1,5 @@
 ---
-title: FieldAutoText.FieldAutoText
+title: FieldAutoText
 second_title: Aspose.Words for .NET API Reference
 description: FieldAutoText constructor. The default constructor in C#.
 type: docs

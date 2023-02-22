@@ -1,5 +1,5 @@
 ---
-title: OdsoRecipientData.UniqueTag
+title: UniqueTag
 second_title: Aspose.Words for .NET API Reference
 description: OdsoRecipientData property. Specifies the contents of a given record in the column containing unique data. The default value is null in C#.
 type: docs

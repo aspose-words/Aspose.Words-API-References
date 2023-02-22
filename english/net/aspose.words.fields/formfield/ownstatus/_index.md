@@ -1,5 +1,5 @@
 ---
-title: FormField.OwnStatus
+title: OwnStatus
 second_title: Aspose.Words for .NET API Reference
 description: FormField property. Specifies the source of the text thats displayed in the status bar when a form field has the focus in C#.
 type: docs

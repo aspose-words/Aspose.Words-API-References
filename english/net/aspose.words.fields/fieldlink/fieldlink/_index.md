@@ -1,5 +1,5 @@
 ---
-title: FieldLink.FieldLink
+title: FieldLink
 second_title: Aspose.Words for .NET API Reference
 description: FieldLink constructor. The default constructor in C#.
 type: docs

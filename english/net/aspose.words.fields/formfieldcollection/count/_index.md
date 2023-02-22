@@ -1,5 +1,5 @@
 ---
-title: FormFieldCollection.Count
+title: Count
 second_title: Aspose.Words for .NET API Reference
 description: FormFieldCollection property. Returns the number of form fields in the collection in C#.
 type: docs

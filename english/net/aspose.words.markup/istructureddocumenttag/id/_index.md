@@ -1,5 +1,5 @@
 ---
-title: IStructuredDocumentTag.Id
+title: Id
 second_title: Aspose.Words for .NET API Reference
 description: IStructuredDocumentTag property. Specifies a unique readonly persistent numerical Id for this SDT in C#.
 type: docs

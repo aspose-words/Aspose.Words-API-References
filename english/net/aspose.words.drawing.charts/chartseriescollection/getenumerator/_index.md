@@ -1,5 +1,5 @@
 ---
-title: ChartSeriesCollection.GetEnumerator
+title: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: ChartSeriesCollection method. Returns an enumerator object in C#.
 type: docs

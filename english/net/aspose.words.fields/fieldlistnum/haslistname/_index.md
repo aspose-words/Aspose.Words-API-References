@@ -1,5 +1,5 @@
 ---
-title: FieldListNum.HasListName
+title: HasListName
 second_title: Aspose.Words for .NET API Reference
 description: FieldListNum property. Returns a value indicating whether the name of an abstract numbering definition is provided by the fields code in C#.
 type: docs

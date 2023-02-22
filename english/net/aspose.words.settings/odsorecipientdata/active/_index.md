@@ -1,5 +1,5 @@
 ---
-title: OdsoRecipientData.Active
+title: Active
 second_title: Aspose.Words for .NET API Reference
 description: OdsoRecipientData property. Specifies whether the record from the data source shall be imported into a document when the mail merge is performed. The default value is true in C#.
 type: docs

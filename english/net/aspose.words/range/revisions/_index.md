@@ -1,5 +1,5 @@
 ---
-title: Range.Revisions
+title: Revisions
 second_title: Aspose.Words for .NET API Reference
 description: Range property. Gets a collection of revisions tracked changes that exist in this range in C#.
 type: docs

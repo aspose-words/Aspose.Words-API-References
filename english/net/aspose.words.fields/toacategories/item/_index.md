@@ -1,5 +1,5 @@
 ---
-title: ToaCategories.Item
+title: Item
 second_title: Aspose.Words for .NET API Reference
 description: ToaCategories property. Gets or sets the category heading by category number in C#.
 type: docs

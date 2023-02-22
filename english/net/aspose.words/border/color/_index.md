@@ -1,5 +1,5 @@
 ---
-title: Border.Color
+title: Color
 second_title: Aspose.Words for .NET API Reference
 description: Border property. Gets or sets the border color in C#.
 type: docs

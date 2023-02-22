@@ -1,5 +1,5 @@
 ---
-title: FixedPageSaveOptions.ColorMode
+title: ColorMode
 second_title: Aspose.Words for .NET API Reference
 description: FixedPageSaveOptions property. Gets or sets a value determining how colors are rendered in C#.
 type: docs

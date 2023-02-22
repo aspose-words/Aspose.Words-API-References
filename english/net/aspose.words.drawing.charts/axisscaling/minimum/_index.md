@@ -1,5 +1,5 @@
 ---
-title: AxisScaling.Minimum
+title: Minimum
 second_title: Aspose.Words for .NET API Reference
 description: AxisScaling property. Gets or sets minimum value of the axis in C#.
 type: docs

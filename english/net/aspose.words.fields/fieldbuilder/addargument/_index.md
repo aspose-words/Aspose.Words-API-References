@@ -1,5 +1,5 @@
 ---
-title: FieldBuilder.AddArgument
+title: AddArgument
 second_title: Aspose.Words for .NET API Reference
 description: FieldBuilder method. Adds a fields argument in C#.
 type: docs

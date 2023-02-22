@@ -1,5 +1,5 @@
 ---
-title: FormField.ExitMacro
+title: ExitMacro
 second_title: Aspose.Words for .NET API Reference
 description: FormField property. Returns or sets an exit macro name for the form field in C#.
 type: docs

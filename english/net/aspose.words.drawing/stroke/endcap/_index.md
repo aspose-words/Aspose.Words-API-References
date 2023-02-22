@@ -1,5 +1,5 @@
 ---
-title: Stroke.EndCap
+title: EndCap
 second_title: Aspose.Words for .NET API Reference
 description: Stroke property. Defines the cap style for the end of a stroke in C#.
 type: docs

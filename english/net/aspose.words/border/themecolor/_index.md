@@ -1,5 +1,5 @@
 ---
-title: Border.ThemeColor
+title: ThemeColor
 second_title: Aspose.Words for .NET API Reference
 description: Border property. Gets or sets the theme color in the applied color scheme that is associated with this Border object in C#.
 type: docs

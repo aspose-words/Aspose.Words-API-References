@@ -1,5 +1,5 @@
 ---
-title: OleFormat.OleControl
+title: OleControl
 second_title: Aspose.Words for .NET API Reference
 description: OleFormat property. Gets OleControl objects if this OLE object is an ActiveX control. Otherwise this property is null in C#.
 type: docs

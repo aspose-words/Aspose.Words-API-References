@@ -1,5 +1,5 @@
 ---
-title: FieldPrintDate.UseUmAlQuraCalendar
+title: UseUmAlQuraCalendar
 second_title: Aspose.Words for .NET API Reference
 description: FieldPrintDate property. Gets or sets whether to use the UmalQura calendar in C#.
 type: docs

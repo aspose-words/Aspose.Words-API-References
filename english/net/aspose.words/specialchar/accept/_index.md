@@ -1,5 +1,5 @@
 ---
-title: SpecialChar.Accept
+title: Accept
 second_title: Aspose.Words for .NET API Reference
 description: SpecialChar method. Accepts a visitor in C#.
 type: docs

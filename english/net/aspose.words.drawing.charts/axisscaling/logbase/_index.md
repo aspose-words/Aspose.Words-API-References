@@ -1,5 +1,5 @@
 ---
-title: AxisScaling.LogBase
+title: LogBase
 second_title: Aspose.Words for .NET API Reference
 description: AxisScaling property. Gets or sets the logarithmic base for a logarithmic axis in C#.
 type: docs

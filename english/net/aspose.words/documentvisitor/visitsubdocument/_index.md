@@ -1,5 +1,5 @@
 ---
-title: DocumentVisitor.VisitSubDocument
+title: VisitSubDocument
 second_title: Aspose.Words for .NET API Reference
 description: DocumentVisitor method. Called when a subdocument is encountered in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: GraphicsQualityOptions.SmoothingMode
+title: SmoothingMode
 second_title: Aspose.Words for .NET API Reference
 description: GraphicsQualityOptions property. Gets or sets the rendering quality for this Graphics in C#.
 type: docs

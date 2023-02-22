@@ -1,5 +1,5 @@
 ---
-title: Style.Aliases
+title: Aliases
 second_title: Aspose.Words for .NET API Reference
 description: Style property. Gets all aliases of this style. If style has no aliases then empty array of string is returned in C#.
 type: docs

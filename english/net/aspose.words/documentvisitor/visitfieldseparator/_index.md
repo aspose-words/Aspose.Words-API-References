@@ -1,5 +1,5 @@
 ---
-title: DocumentVisitor.VisitFieldSeparator
+title: VisitFieldSeparator
 second_title: Aspose.Words for .NET API Reference
 description: DocumentVisitor method. Called when a field separator is encountered in the document in C#.
 type: docs

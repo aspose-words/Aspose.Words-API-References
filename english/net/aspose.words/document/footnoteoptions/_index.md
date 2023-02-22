@@ -1,5 +1,5 @@
 ---
-title: Document.FootnoteOptions
+title: FootnoteOptions
 second_title: Aspose.Words for .NET API Reference
 description: Document property. Provides options that control numbering and positioning of footnotes in this document in C#.
 type: docs

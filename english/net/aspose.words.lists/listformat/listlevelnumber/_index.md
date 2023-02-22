@@ -1,5 +1,5 @@
 ---
-title: ListFormat.ListLevelNumber
+title: ListLevelNumber
 second_title: Aspose.Words for .NET API Reference
 description: ListFormat property. Gets or sets the list level number 0 to 8 for the paragraph in C#.
 type: docs

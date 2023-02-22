@@ -1,5 +1,5 @@
 ---
-title: BuiltInDocumentProperties.LinksUpToDate
+title: LinksUpToDate
 second_title: Aspose.Words for .NET API Reference
 description: BuiltInDocumentProperties property. Indicates whether hyperlinks in a document are uptodate in C#.
 type: docs

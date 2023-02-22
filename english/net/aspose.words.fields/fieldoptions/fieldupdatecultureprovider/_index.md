@@ -1,5 +1,5 @@
 ---
-title: FieldOptions.FieldUpdateCultureProvider
+title: FieldUpdateCultureProvider
 second_title: Aspose.Words for .NET API Reference
 description: FieldOptions property. Gets or sets a provider that returns a culture object specific for each particular field in C#.
 type: docs

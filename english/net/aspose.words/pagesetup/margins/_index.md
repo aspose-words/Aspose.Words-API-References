@@ -1,5 +1,5 @@
 ---
-title: PageSetup.Margins
+title: Margins
 second_title: Aspose.Words for .NET API Reference
 description: PageSetup property. Returns or sets preset Margins of the page in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: BookmarksOutlineLevelCollection.Add
+title: Add
 second_title: Aspose.Words for .NET API Reference
 description: BookmarksOutlineLevelCollection method. Adds a bookmark to the collection in C#.
 type: docs

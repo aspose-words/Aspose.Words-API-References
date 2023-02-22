@@ -1,5 +1,5 @@
 ---
-title: VbaProject.Clone
+title: Clone
 second_title: Aspose.Words for .NET API Reference
 description: VbaProject method. Performs a copy of the VbaProject in C#.
 type: docs

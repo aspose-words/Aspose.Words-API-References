@@ -1,5 +1,5 @@
 ---
-title: FieldDatabase.InsertOnceOnMailMerge
+title: InsertOnceOnMailMerge
 second_title: Aspose.Words for .NET API Reference
 description: FieldDatabase property. Gets or sets whether to insert data at the beginning of a merge in C#.
 type: docs

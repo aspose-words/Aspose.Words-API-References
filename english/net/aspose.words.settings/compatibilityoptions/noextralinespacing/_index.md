@@ -1,5 +1,5 @@
 ---
-title: CompatibilityOptions.NoExtraLineSpacing
+title: NoExtraLineSpacing
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions property. Do Not Center Content on Lines With Exact Line Height in C#.
 type: docs

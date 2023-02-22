@@ -1,5 +1,5 @@
 ---
-title: Font.Name
+title: Name
 second_title: Aspose.Words for .NET API Reference
 description: Font property. Gets or sets the name of the font in C#.
 type: docs

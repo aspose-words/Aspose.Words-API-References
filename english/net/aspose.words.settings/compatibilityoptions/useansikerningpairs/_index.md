@@ -1,5 +1,5 @@
 ---
-title: CompatibilityOptions.UseAnsiKerningPairs
+title: UseAnsiKerningPairs
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions property. Use ANSI Kerning Pairs from Fonts in C#.
 type: docs

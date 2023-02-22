@@ -1,5 +1,5 @@
 ---
-title: FieldBidiOutline.FieldBidiOutline
+title: FieldBidiOutline
 second_title: Aspose.Words for .NET API Reference
 description: FieldBidiOutline constructor. The default constructor in C#.
 type: docs

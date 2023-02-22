@@ -1,5 +1,5 @@
 ---
-title: StructuredDocumentTagRangeEnd.NodeType
+title: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTagRangeEnd property. Returns StructuredDocumentTagRangeEnd in C#.
 type: docs

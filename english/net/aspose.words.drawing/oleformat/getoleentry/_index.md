@@ -1,5 +1,5 @@
 ---
-title: OleFormat.GetOleEntry
+title: GetOleEntry
 second_title: Aspose.Words for .NET API Reference
 description: OleFormat method. Gets OLE object data entry in C#.
 type: docs

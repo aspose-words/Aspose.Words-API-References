@@ -1,5 +1,5 @@
 ---
-title: FieldBarcode.FacingIdentificationMark
+title: FacingIdentificationMark
 second_title: Aspose.Words for .NET API Reference
 description: FieldBarcode property. Gets or sets the type of a Facing Identification Mark FIM to insert in C#.
 type: docs

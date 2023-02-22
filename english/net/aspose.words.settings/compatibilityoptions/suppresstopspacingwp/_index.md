@@ -1,5 +1,5 @@
 ---
-title: CompatibilityOptions.SuppressTopSpacingWP
+title: SuppressTopSpacingWP
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions property. Emulate WordPerfect 5.x Line Spacing in C#.
 type: docs

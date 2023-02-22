@@ -1,5 +1,5 @@
 ---
-title: Field.Update
+title: Update
 second_title: Aspose.Words for .NET API Reference
 description: Field method. Performs the field update. Throws if the field is being updated already in C#.
 type: docs

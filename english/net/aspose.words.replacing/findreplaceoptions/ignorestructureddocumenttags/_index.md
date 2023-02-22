@@ -1,5 +1,5 @@
 ---
-title: FindReplaceOptions.IgnoreStructuredDocumentTags
+title: IgnoreStructuredDocumentTags
 second_title: Aspose.Words for .NET API Reference
 description: FindReplaceOptions property. Gets or sets a boolean value indicating either to ignore content of StructuredDocumentTag. The default value is false in C#.
 type: docs

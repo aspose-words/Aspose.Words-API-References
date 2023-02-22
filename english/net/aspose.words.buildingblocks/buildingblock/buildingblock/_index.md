@@ -1,5 +1,5 @@
 ---
-title: BuildingBlock.BuildingBlock
+title: BuildingBlock
 second_title: Aspose.Words for .NET API Reference
 description: BuildingBlock constructor. Initializes a new instance of this class in C#.
 type: docs

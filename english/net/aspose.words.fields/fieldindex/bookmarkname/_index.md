@@ -1,5 +1,5 @@
 ---
-title: FieldIndex.BookmarkName
+title: BookmarkName
 second_title: Aspose.Words for .NET API Reference
 description: FieldIndex property. Gets or sets the name of the bookmark that marks the portion of the document used to build the index in C#.
 type: docs

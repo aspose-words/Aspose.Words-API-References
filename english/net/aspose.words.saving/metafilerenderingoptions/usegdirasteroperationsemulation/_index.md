@@ -1,5 +1,5 @@
 ---
-title: MetafileRenderingOptions.UseGdiRasterOperationsEmulation
+title: UseGdiRasterOperationsEmulation
 second_title: Aspose.Words for .NET API Reference
 description: MetafileRenderingOptions property. Gets or sets a value determining whether or not to use the GDI for raster operations emulation in C#.
 type: docs
