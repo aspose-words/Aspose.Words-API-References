@@ -1,5 +1,5 @@
 ---
-title: AxisDisplayUnit.Unit
+title: Unit
 second_title: Aspose.Words for .NET API Reference
 description: AxisDisplayUnit property. Gets or sets the scaling value of the display units as one of the predefined values in C#.
 type: docs

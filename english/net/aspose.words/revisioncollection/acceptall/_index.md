@@ -1,5 +1,5 @@
 ---
-title: RevisionCollection.AcceptAll
+title: AcceptAll
 second_title: Aspose.Words for .NET API Reference
 description: RevisionCollection method. Accepts all revisions in this collection in C#.
 type: docs

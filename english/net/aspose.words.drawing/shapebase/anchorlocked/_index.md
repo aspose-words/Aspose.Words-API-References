@@ -1,5 +1,5 @@
 ---
-title: ShapeBase.AnchorLocked
+title: AnchorLocked
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase property. Specifies whether the shapes anchor is locked in C#.
 type: docs

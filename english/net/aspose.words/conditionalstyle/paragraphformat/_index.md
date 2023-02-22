@@ -1,5 +1,5 @@
 ---
-title: ConditionalStyle.ParagraphFormat
+title: ParagraphFormat
 second_title: Aspose.Words for .NET API Reference
 description: ConditionalStyle property. Gets the paragraph formatting of the conditional style in C#.
 type: docs

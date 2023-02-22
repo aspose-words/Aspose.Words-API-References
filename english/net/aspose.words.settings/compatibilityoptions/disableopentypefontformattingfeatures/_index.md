@@ -1,5 +1,5 @@
 ---
-title: CompatibilityOptions.DisableOpenTypeFontFormattingFeatures
+title: DisableOpenTypeFontFormattingFeatures
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions property. Specifies to disable OpenType font formatting features in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FieldQuote.FieldQuote
+title: FieldQuote
 second_title: Aspose.Words for .NET API Reference
 description: FieldQuote constructor. The default constructor in C#.
 type: docs

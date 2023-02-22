@@ -1,5 +1,5 @@
 ---
-title: DocumentBuilder.Bold
+title: Bold
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder property. True if the font is formatted as bold in C#.
 type: docs

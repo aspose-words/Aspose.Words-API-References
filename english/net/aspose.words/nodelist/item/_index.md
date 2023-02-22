@@ -1,5 +1,5 @@
 ---
-title: NodeList.Item
+title: Item
 second_title: Aspose.Words for .NET API Reference
 description: NodeList property. Retrieves a node at the given index in C#.
 type: docs

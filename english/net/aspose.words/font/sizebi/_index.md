@@ -1,5 +1,5 @@
 ---
-title: Font.SizeBi
+title: SizeBi
 second_title: Aspose.Words for .NET API Reference
 description: Font property. Gets or sets the font size in points used in a righttoleft document in C#.
 type: docs

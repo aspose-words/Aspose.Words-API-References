@@ -1,5 +1,5 @@
 ---
-title: Document.Revisions
+title: Revisions
 second_title: Aspose.Words for .NET API Reference
 description: Document property. Gets a collection of revisions tracked changes that exist in this document in C#.
 type: docs

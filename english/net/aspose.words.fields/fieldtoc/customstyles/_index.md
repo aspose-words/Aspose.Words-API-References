@@ -1,5 +1,5 @@
 ---
-title: FieldToc.CustomStyles
+title: CustomStyles
 second_title: Aspose.Words for .NET API Reference
 description: FieldToc property. Gets or sets a list of styles other than the builtin heading styles to include in the table of contents in C#.
 type: docs

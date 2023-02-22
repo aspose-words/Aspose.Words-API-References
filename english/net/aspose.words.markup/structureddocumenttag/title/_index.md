@@ -1,5 +1,5 @@
 ---
-title: StructuredDocumentTag.Title
+title: Title
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTag property. Specifies the friendly name associated with this SDT. Can not be null in C#.
 type: docs

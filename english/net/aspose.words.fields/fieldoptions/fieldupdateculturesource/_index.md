@@ -1,5 +1,5 @@
 ---
-title: FieldOptions.FieldUpdateCultureSource
+title: FieldUpdateCultureSource
 second_title: Aspose.Words for .NET API Reference
 description: FieldOptions property. Specifies what culture to use to format the field result in C#.
 type: docs

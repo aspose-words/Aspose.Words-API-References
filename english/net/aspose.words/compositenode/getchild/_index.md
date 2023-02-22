@@ -1,5 +1,5 @@
 ---
-title: CompositeNode.GetChild
+title: GetChild
 second_title: Aspose.Words for .NET API Reference
 description: CompositeNode method. Returns an Nth child node that matches the specified type in C#.
 type: docs

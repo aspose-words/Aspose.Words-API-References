@@ -1,5 +1,5 @@
 ---
-title: OdsoFieldMapData.Clone
+title: Clone
 second_title: Aspose.Words for .NET API Reference
 description: OdsoFieldMapData method. Returns a deep clone of this object in C#.
 type: docs

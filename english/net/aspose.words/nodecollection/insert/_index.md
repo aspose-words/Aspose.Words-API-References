@@ -1,5 +1,5 @@
 ---
-title: NodeCollection.Insert
+title: Insert
 second_title: Aspose.Words for .NET API Reference
 description: NodeCollection method. Inserts a node into the collection at the specified index in C#.
 type: docs

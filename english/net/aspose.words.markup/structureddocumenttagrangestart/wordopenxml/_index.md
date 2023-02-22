@@ -1,5 +1,5 @@
 ---
-title: StructuredDocumentTagRangeStart.WordOpenXML
+title: WordOpenXML
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTagRangeStart property. Gets a string that represents the XML contained within the node in the FlatOpc format in C#.
 type: docs

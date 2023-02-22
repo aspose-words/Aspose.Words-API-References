@@ -1,5 +1,5 @@
 ---
-title: PageSavingArgs.PageStream
+title: PageStream
 second_title: Aspose.Words for .NET API Reference
 description: PageSavingArgs property. Allows to specify the stream where the document page will be saved to in C#.
 type: docs

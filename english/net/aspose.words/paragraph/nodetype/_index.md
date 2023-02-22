@@ -1,5 +1,5 @@
 ---
-title: Paragraph.NodeType
+title: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Paragraph property. Returns Paragraph in C#.
 type: docs

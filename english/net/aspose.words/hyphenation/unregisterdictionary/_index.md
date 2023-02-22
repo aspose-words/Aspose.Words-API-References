@@ -1,5 +1,5 @@
 ---
-title: Hyphenation.UnregisterDictionary
+title: UnregisterDictionary
 second_title: Aspose.Words for .NET API Reference
 description: Hyphenation method. Unregisters a hyphenation dictionary for the specified language in C#.
 type: docs

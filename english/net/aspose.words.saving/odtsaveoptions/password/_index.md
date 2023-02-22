@@ -1,5 +1,5 @@
 ---
-title: OdtSaveOptions.Password
+title: Password
 second_title: Aspose.Words for .NET API Reference
 description: OdtSaveOptions property. Gets or sets a password to encrypt document in C#.
 type: docs

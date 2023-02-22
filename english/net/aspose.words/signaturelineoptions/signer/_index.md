@@ -1,5 +1,5 @@
 ---
-title: SignatureLineOptions.Signer
+title: Signer
 second_title: Aspose.Words for .NET API Reference
 description: SignatureLineOptions property. Gets or sets suggested signer of the signature line. Default value for this property is empty string Empty in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: LoadOptions.MswVersion
+title: MswVersion
 second_title: Aspose.Words for .NET API Reference
 description: LoadOptions property. Allows to specify that the document loading process should match a specific MS Word version. Default value is Word2019 in C#.
 type: docs

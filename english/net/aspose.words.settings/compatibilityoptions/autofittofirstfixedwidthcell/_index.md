@@ -1,5 +1,5 @@
 ---
-title: CompatibilityOptions.AutofitToFirstFixedWidthCell
+title: AutofitToFirstFixedWidthCell
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions property. Allow Table Columns To Exceed Preferred Widths of Constituent Cells in C#.
 type: docs

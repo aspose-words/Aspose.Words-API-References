@@ -1,5 +1,5 @@
 ---
-title: MarkdownSaveOptions.ExportImagesAsBase64
+title: ExportImagesAsBase64
 second_title: Aspose.Words for .NET API Reference
 description: MarkdownSaveOptions property. Specifies whether images are saved in Base64 format to the output file. Default value is false in C#.
 type: docs

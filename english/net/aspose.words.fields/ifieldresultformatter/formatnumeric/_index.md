@@ -1,5 +1,5 @@
 ---
-title: IFieldResultFormatter.FormatNumeric
+title: FormatNumeric
 second_title: Aspose.Words for .NET API Reference
 description: IFieldResultFormatter method. Called when Aspose.Words applies a numeric format switch i.e.   in C#.
 type: docs

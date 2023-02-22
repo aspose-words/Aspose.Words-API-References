@@ -1,5 +1,5 @@
 ---
-title: FontSettings.FallbackSettings
+title: FallbackSettings
 second_title: Aspose.Words for .NET API Reference
 description: FontSettings property. Settings related to font fallback mechanism in C#.
 type: docs

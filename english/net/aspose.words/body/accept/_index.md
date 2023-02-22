@@ -1,5 +1,5 @@
 ---
-title: Body.Accept
+title: Accept
 second_title: Aspose.Words for .NET API Reference
 description: Body method. Accepts a visitor in C#.
 type: docs

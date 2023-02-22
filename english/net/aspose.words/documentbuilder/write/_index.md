@@ -1,5 +1,5 @@
 ---
-title: DocumentBuilder.Write
+title: Write
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder method. Inserts a string into the document at the current insert position in C#.
 type: docs

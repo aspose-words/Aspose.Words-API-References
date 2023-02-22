@@ -1,5 +1,5 @@
 ---
-title: OdsoRecipientDataCollection.Count
+title: Count
 second_title: Aspose.Words for .NET API Reference
 description: OdsoRecipientDataCollection property. Gets the number of elements contained in the collection in C#.
 type: docs

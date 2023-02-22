@@ -1,5 +1,5 @@
 ---
-title: ITextShaperFactory.GetTextShaper
+title: GetTextShaper
 second_title: Aspose.Words for .NET API Reference
 description: ITextShaperFactory method. Returns new instance of a text shaper for the font specified by fontPath and faceIndex in C#.
 type: docs

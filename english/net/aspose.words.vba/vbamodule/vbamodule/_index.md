@@ -1,5 +1,5 @@
 ---
-title: VbaModule.VbaModule
+title: VbaModule
 second_title: Aspose.Words for .NET API Reference
 description: VbaModule constructor. Creates an empty module in C#.
 type: docs

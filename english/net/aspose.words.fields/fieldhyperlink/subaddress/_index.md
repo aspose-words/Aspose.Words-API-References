@@ -1,5 +1,5 @@
 ---
-title: FieldHyperlink.SubAddress
+title: SubAddress
 second_title: Aspose.Words for .NET API Reference
 description: FieldHyperlink property. Gets or sets a location in the file such as a bookmark where this hyperlink jumps in C#.
 type: docs

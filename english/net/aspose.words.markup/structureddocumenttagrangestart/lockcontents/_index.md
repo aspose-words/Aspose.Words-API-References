@@ -1,5 +1,5 @@
 ---
-title: StructuredDocumentTagRangeStart.LockContents
+title: LockContents
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTagRangeStart property. When set to true this property will prohibit a user from editing the contents of this structured document tag in C#.
 type: docs

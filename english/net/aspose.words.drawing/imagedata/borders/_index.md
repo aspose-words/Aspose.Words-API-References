@@ -1,5 +1,5 @@
 ---
-title: ImageData.Borders
+title: Borders
 second_title: Aspose.Words for .NET API Reference
 description: ImageData property. Gets the collection of borders of the image. Borders only have effect for inline images in C#.
 type: docs

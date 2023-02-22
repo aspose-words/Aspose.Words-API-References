@@ -1,5 +1,5 @@
 ---
-title: ChartDataLabelCollection.ShowLeaderLines
+title: ShowLeaderLines
 second_title: Aspose.Words for .NET API Reference
 description: ChartDataLabelCollection property. Allows to specify whether data label leader lines need be shown for the data labels of the entire series. Default value is false in C#.
 type: docs

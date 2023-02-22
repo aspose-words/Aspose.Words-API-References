@@ -1,5 +1,5 @@
 ---
-title: XamlFlowSaveOptions.ImagesFolder
+title: ImagesFolder
 second_title: Aspose.Words for .NET API Reference
 description: XamlFlowSaveOptions property. Specifies the physical folder where images are saved when exporting a document to XAML format. Default is an empty string in C#.
 type: docs

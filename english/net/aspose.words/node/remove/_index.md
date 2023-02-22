@@ -1,5 +1,5 @@
 ---
-title: Node.Remove
+title: Remove
 second_title: Aspose.Words for .NET API Reference
 description: Node method. Removes itself from the parent in C#.
 type: docs

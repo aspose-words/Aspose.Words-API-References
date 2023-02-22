@@ -1,5 +1,5 @@
 ---
-title: TextBox.VerticalAnchor
+title: VerticalAnchor
 second_title: Aspose.Words for .NET API Reference
 description: TextBox property. Specifies the vertical alignment of the text within a shape in C#.
 type: docs

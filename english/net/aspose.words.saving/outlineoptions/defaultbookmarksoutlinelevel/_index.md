@@ -1,5 +1,5 @@
 ---
-title: OutlineOptions.DefaultBookmarksOutlineLevel
+title: DefaultBookmarksOutlineLevel
 second_title: Aspose.Words for .NET API Reference
 description: OutlineOptions property. Specifies the default level in the document outline at which to display Word bookmarks in C#.
 type: docs

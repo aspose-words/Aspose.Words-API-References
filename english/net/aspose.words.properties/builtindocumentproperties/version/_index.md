@@ -1,5 +1,5 @@
 ---
-title: BuiltInDocumentProperties.Version
+title: Version
 second_title: Aspose.Words for .NET API Reference
 description: BuiltInDocumentProperties property. Represents the version number of the application that created the document in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: StructuredDocumentTag.Checked
+title: Checked
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTag property. Gets/Sets current state of the Checkbox SDT. Default value for this property is false in C#.
 type: docs

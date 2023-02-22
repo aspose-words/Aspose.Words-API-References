@@ -1,5 +1,5 @@
 ---
-title: BuiltInDocumentProperties.Category
+title: Category
 second_title: Aspose.Words for .NET API Reference
 description: BuiltInDocumentProperties property. Gets or sets the category of the document in C#.
 type: docs

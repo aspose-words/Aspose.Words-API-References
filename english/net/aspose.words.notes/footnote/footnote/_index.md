@@ -1,5 +1,5 @@
 ---
-title: Footnote.Footnote
+title: Footnote
 second_title: Aspose.Words for .NET API Reference
 description: Footnote constructor. Initializes an instance of the Footnote class in C#.
 type: docs

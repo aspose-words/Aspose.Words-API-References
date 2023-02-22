@@ -1,5 +1,5 @@
 ---
-title: Shading.BackgroundPatternThemeColor
+title: BackgroundPatternThemeColor
 second_title: Aspose.Words for .NET API Reference
 description: Shading property. Gets or sets the background pattern theme color in the applied color scheme that is associated with this Shading object in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: PageSetup.TextOrientation
+title: TextOrientation
 second_title: Aspose.Words for .NET API Reference
 description: PageSetup property. Allows to specify TextOrientation for the whole page. Default value is Horizontal in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Comment.Initial
+title: Initial
 second_title: Aspose.Words for .NET API Reference
 description: Comment property. Returns or sets the initials of the user associated with a specific comment in C#.
 type: docs

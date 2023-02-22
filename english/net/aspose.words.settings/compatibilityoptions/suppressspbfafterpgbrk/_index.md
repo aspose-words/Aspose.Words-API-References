@@ -1,5 +1,5 @@
 ---
-title: CompatibilityOptions.SuppressSpBfAfterPgBrk
+title: SuppressSpBfAfterPgBrk
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions property. Do Not Use Space Before On First Line After a Page Break in C#.
 type: docs

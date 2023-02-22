@@ -1,5 +1,5 @@
 ---
-title: StructuredDocumentTagRangeStart.ChildNodes
+title: ChildNodes
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTagRangeStart property. Gets all nodes between this range start node and the range end node in C#.
 type: docs

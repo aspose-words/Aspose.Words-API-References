@@ -1,5 +1,5 @@
 ---
-title: FieldDdeAuto.InsertAsHtml
+title: InsertAsHtml
 second_title: Aspose.Words for .NET API Reference
 description: FieldDdeAuto property. Gets or sets whether to insert the linked object as HTML format text in C#.
 type: docs

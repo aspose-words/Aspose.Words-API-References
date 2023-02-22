@@ -1,5 +1,5 @@
 ---
-title: LayoutOptions.LayoutOptions
+title: LayoutOptions
 second_title: Aspose.Words for .NET API Reference
 description: LayoutOptions constructor. The default constructor in C#.
 type: docs

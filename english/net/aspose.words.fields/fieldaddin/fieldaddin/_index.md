@@ -1,5 +1,5 @@
 ---
-title: FieldAddIn.FieldAddIn
+title: FieldAddIn
 second_title: Aspose.Words for .NET API Reference
 description: FieldAddIn constructor. The default constructor in C#.
 type: docs

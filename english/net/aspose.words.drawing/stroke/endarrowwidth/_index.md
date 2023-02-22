@@ -1,5 +1,5 @@
 ---
-title: Stroke.EndArrowWidth
+title: EndArrowWidth
 second_title: Aspose.Words for .NET API Reference
 description: Stroke property. Defines the arrowhead width for the end of a stroke in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: AxisDisplayUnit.AxisDisplayUnit
+title: AxisDisplayUnit
 second_title: Aspose.Words for .NET API Reference
 description: AxisDisplayUnit constructor. The default constructor in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: TabStopCollection.After
+title: After
 second_title: Aspose.Words for .NET API Reference
 description: TabStopCollection method. Gets a first tab stop to the right of the specified position in C#.
 type: docs

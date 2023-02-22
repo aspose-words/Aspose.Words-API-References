@@ -1,5 +1,5 @@
 ---
-title: DocumentProperty.Name
+title: Name
 second_title: Aspose.Words for .NET API Reference
 description: DocumentProperty property. Returns the name of the property in C#.
 type: docs

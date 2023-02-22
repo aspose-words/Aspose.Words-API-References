@@ -1,5 +1,5 @@
 ---
-title: Document.OriginalFileName
+title: OriginalFileName
 second_title: Aspose.Words for .NET API Reference
 description: Document property. Gets the original file name of the document in C#.
 type: docs

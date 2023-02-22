@@ -1,5 +1,5 @@
 ---
-title: RevisionOptions.MovedFromTextEffect
+title: MovedFromTextEffect
 second_title: Aspose.Words for .NET API Reference
 description: RevisionOptions property. Allows to specify the effect to be applied to the areas where content was moved from Moving. Default value is DoubleStrikeThrough in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: RowCollection.Item
+title: Item
 second_title: Aspose.Words for .NET API Reference
 description: RowCollection property. Retrieves a Row at the given index in C#.
 type: docs

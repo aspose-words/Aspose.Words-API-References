@@ -1,5 +1,5 @@
 ---
-title: Fill.RotateWithObject
+title: RotateWithObject
 second_title: Aspose.Words for .NET API Reference
 description: Fill property. Gets or sets whether the fill rotates with the specified object in C#.
 type: docs

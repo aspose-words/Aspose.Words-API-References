@@ -1,5 +1,5 @@
 ---
-title: FileFormatUtil.LoadFormatToExtension
+title: LoadFormatToExtension
 second_title: Aspose.Words for .NET API Reference
 description: FileFormatUtil method. Converts a load format enumerated value into a file extension. The returned extension is a lowercase string with a leading dot in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: BuildingBlock.Name
+title: Name
 second_title: Aspose.Words for .NET API Reference
 description: BuildingBlock property. Gets or sets the name of this building block in C#.
 type: docs

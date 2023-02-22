@@ -1,5 +1,5 @@
 ---
-title: ConditionalStyle.Equals
+title: Equals
 second_title: Aspose.Words for .NET API Reference
 description: ConditionalStyle method. Compares this conditional style with the specified object in C#.
 type: docs

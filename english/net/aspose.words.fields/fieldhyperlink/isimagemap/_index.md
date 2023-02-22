@@ -1,5 +1,5 @@
 ---
-title: FieldHyperlink.IsImageMap
+title: IsImageMap
 second_title: Aspose.Words for .NET API Reference
 description: FieldHyperlink property. Gets or sets whether to append coordinates to the hyperlink for a serverside image map in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: HeaderFooterCollection.LinkToPrevious
+title: LinkToPrevious
 second_title: Aspose.Words for .NET API Reference
 description: HeaderFooterCollection method. Links or unlinks all headers and footers to the corresponding headers and footers in the previous section in C#.
 type: docs

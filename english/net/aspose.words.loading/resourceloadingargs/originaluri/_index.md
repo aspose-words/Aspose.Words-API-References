@@ -1,5 +1,5 @@
 ---
-title: ResourceLoadingArgs.OriginalUri
+title: OriginalUri
 second_title: Aspose.Words for .NET API Reference
 description: ResourceLoadingArgs property. Original URI of the resource as specified in imported document in C#.
 type: docs

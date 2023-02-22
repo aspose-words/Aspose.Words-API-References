@@ -1,5 +1,5 @@
 ---
-title: FieldOptions.DefaultDocumentAuthor
+title: DefaultDocumentAuthor
 second_title: Aspose.Words for .NET API Reference
 description: FieldOptions property. Gets or sets default document authors name. If authors name is already specified in builtin document properties this option is not considered in C#.
 type: docs

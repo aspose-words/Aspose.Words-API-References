@@ -1,5 +1,5 @@
 ---
-title: CompatibilityOptions.DoNotSuppressParagraphBorders
+title: DoNotSuppressParagraphBorders
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions property. Do Not Suppress Paragraph Borders Next To Frames in C#.
 type: docs

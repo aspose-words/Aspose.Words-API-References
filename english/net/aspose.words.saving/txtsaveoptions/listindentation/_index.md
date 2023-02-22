@@ -1,5 +1,5 @@
 ---
-title: TxtSaveOptions.ListIndentation
+title: ListIndentation
 second_title: Aspose.Words for .NET API Reference
 description: TxtSaveOptions property. Gets a TxtListIndentation object that specifies how many and which character to use for indentation of list levels. By default it is zero count of character 0 that means no indentation in C#.
 type: docs

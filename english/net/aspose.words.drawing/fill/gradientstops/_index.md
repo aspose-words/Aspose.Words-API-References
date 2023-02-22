@@ -1,5 +1,5 @@
 ---
-title: Fill.GradientStops
+title: GradientStops
 second_title: Aspose.Words for .NET API Reference
 description: Fill property. Gets a collection of GradientStop objects for the fill in C#.
 type: docs

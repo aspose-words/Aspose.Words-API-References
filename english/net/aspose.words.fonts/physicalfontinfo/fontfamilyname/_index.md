@@ -1,5 +1,5 @@
 ---
-title: PhysicalFontInfo.FontFamilyName
+title: FontFamilyName
 second_title: Aspose.Words for .NET API Reference
 description: PhysicalFontInfo property. Family name of the font in C#.
 type: docs

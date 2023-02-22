@@ -1,5 +1,5 @@
 ---
-title: Cluster.DeepClone
+title: DeepClone
 second_title: Aspose.Words for .NET API Reference
 description: Cluster method. Returns a deep clone of this instance in C#.
 type: docs

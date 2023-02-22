@@ -1,5 +1,5 @@
 ---
-title: ImageSize.HorizontalResolution
+title: HorizontalResolution
 second_title: Aspose.Words for .NET API Reference
 description: ImageSize property. Gets the horizontal resolution in DPI in C#.
 type: docs

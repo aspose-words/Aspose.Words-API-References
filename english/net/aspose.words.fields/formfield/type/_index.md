@@ -1,5 +1,5 @@
 ---
-title: FormField.Type
+title: Type
 second_title: Aspose.Words for .NET API Reference
 description: FormField property. Returns the form field type in C#.
 type: docs

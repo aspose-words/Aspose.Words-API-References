@@ -1,5 +1,5 @@
 ---
-title: Font.EmphasisMark
+title: EmphasisMark
 second_title: Aspose.Words for .NET API Reference
 description: Font property. Gets or sets the emphasis mark applied to this formatting in C#.
 type: docs

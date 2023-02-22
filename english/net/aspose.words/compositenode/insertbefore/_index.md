@@ -1,5 +1,5 @@
 ---
-title: CompositeNode.InsertBefore
+title: InsertBefore
 second_title: Aspose.Words for .NET API Reference
 description: CompositeNode method. Inserts the specified node immediately before the specified reference node in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: DocumentVisitor.VisitTableStart
+title: VisitTableStart
 second_title: Aspose.Words for .NET API Reference
 description: DocumentVisitor method. Called when enumeration of a table has started in C#.
 type: docs

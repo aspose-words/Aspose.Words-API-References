@@ -1,5 +1,5 @@
 ---
-title: DocumentBuilder.EndRow
+title: EndRow
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder method. Ends a table row in the document in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: BookmarkStart.NodeType
+title: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: BookmarkStart property. Returns BookmarkStart in C#.
 type: docs

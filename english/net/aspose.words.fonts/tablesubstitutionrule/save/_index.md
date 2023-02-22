@@ -1,5 +1,5 @@
 ---
-title: TableSubstitutionRule.Save
+title: Save
 second_title: Aspose.Words for .NET API Reference
 description: TableSubstitutionRule method. Saves the current table substitution settings to file in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: VariableCollection.Item
+title: Item
 second_title: Aspose.Words for .NET API Reference
 description: VariableCollection property. Gets or a sets a document variable by the caseinsensitive name. null values are not allowed as a right hand side of the assignment and will be replaced by empty string in C#.
 type: docs

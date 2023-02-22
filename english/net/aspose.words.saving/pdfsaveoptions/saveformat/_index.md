@@ -1,5 +1,5 @@
 ---
-title: PdfSaveOptions.SaveFormat
+title: SaveFormat
 second_title: Aspose.Words for .NET API Reference
 description: PdfSaveOptions property. Specifies the format in which the document will be saved if this save options object is used. Can only be Pdf in C#.
 type: docs

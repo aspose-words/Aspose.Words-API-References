@@ -1,5 +1,5 @@
 ---
-title: ChartAxis.HasMinorGridlines
+title: HasMinorGridlines
 second_title: Aspose.Words for .NET API Reference
 description: ChartAxis property. Gets or sets a flag indicating whether the axis has minor gridlines in C#.
 type: docs

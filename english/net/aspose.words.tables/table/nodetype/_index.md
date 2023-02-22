@@ -1,5 +1,5 @@
 ---
-title: Table.NodeType
+title: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Table property. Returns Table in C#.
 type: docs

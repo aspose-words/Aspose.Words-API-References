@@ -1,5 +1,5 @@
 ---
-title: ListLevel.NumberPosition
+title: NumberPosition
 second_title: Aspose.Words for .NET API Reference
 description: ListLevel property. Returns or sets the position in points of the number or bullet for the list level in C#.
 type: docs

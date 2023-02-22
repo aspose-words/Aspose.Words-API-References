@@ -1,5 +1,5 @@
 ---
-title: FieldDatabase.Connection
+title: Connection
 second_title: Aspose.Words for .NET API Reference
 description: FieldDatabase property. Gets or sets a connection to the data in C#.
 type: docs

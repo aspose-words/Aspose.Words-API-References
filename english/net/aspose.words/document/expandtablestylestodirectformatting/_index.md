@@ -1,5 +1,5 @@
 ---
-title: Document.ExpandTableStylesToDirectFormatting
+title: ExpandTableStylesToDirectFormatting
 second_title: Aspose.Words for .NET API Reference
 description: Document method. Converts formatting specified in table styles into direct formatting on tables in the document in C#.
 type: docs

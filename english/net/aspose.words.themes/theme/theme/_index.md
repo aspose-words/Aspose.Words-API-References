@@ -1,5 +1,5 @@
 ---
-title: Theme.Theme
+title: Theme
 second_title: Aspose.Words for .NET API Reference
 description: Theme constructor. The default constructor in C#.
 type: docs

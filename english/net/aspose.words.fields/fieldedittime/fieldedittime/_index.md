@@ -1,5 +1,5 @@
 ---
-title: FieldEditTime.FieldEditTime
+title: FieldEditTime
 second_title: Aspose.Words for .NET API Reference
 description: FieldEditTime constructor. The default constructor in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ControlChar.TabChar
+title: TabChar
 second_title: Aspose.Words for .NET API Reference
 description: ControlChar field. Tab character char9 or t in C#.
 type: docs

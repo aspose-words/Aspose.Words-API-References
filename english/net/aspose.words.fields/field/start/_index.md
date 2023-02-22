@@ -1,5 +1,5 @@
 ---
-title: Field.Start
+title: Start
 second_title: Aspose.Words for .NET API Reference
 description: Field property. Gets the node that represents the start of the field in C#.
 type: docs

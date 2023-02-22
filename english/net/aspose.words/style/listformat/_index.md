@@ -1,5 +1,5 @@
 ---
-title: Style.ListFormat
+title: ListFormat
 second_title: Aspose.Words for .NET API Reference
 description: Style property. Provides access to the list formatting properties of a paragraph style in C#.
 type: docs

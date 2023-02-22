@@ -1,5 +1,5 @@
 ---
-title: DocumentBuilder.InsertHyperlink
+title: InsertHyperlink
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder method. Inserts a hyperlink into the document in C#.
 type: docs

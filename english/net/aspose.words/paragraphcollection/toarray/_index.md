@@ -1,5 +1,5 @@
 ---
-title: ParagraphCollection.ToArray
+title: ToArray
 second_title: Aspose.Words for .NET API Reference
 description: ParagraphCollection method. Copies all paragraphs from the collection to a new array of paragraphs in C#.
 type: docs

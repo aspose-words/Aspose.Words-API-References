@@ -1,5 +1,5 @@
 ---
-title: MailMergeSettings.ActiveRecord
+title: ActiveRecord
 second_title: Aspose.Words for .NET API Reference
 description: MailMergeSettings property. Specifies the onebased index of the record from the data source which shall be displayed in Microsoft Word. The default value is 1 in C#.
 type: docs

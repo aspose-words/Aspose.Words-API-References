@@ -1,5 +1,5 @@
 ---
-title: PhysicalFontInfo.FullFontName
+title: FullFontName
 second_title: Aspose.Words for .NET API Reference
 description: PhysicalFontInfo property. Full name of the font in C#.
 type: docs

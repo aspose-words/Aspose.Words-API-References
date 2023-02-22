@@ -1,5 +1,5 @@
 ---
-title: FieldDatabase.TableFormat
+title: TableFormat
 second_title: Aspose.Words for .NET API Reference
 description: FieldDatabase property. Gets or sets the format that is to be applied to the result of the database query in C#.
 type: docs

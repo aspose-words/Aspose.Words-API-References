@@ -1,5 +1,5 @@
 ---
-title: PageSetup.HeadingLevelForChapter
+title: HeadingLevelForChapter
 second_title: Aspose.Words for .NET API Reference
 description: PageSetup property. Gets or sets the heading level style that is applied to the chapter titles in the document in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: DocumentPartSavingArgs.DocumentPartStream
+title: DocumentPartStream
 second_title: Aspose.Words for .NET API Reference
 description: DocumentPartSavingArgs property. Allows to specify the stream where the document part will be saved to in C#.
 type: docs

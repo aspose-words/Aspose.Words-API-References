@@ -1,5 +1,5 @@
 ---
-title: Document.Print
+title: Print
 second_title: Aspose.Words for .NET API Reference
 description: Document method. Prints the whole document to the default printer in C#.
 type: docs

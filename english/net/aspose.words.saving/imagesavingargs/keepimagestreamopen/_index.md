@@ -1,5 +1,5 @@
 ---
-title: ImageSavingArgs.KeepImageStreamOpen
+title: KeepImageStreamOpen
 second_title: Aspose.Words for .NET API Reference
 description: ImageSavingArgs property. Specifies whether Aspose.Words should keep the stream open or close it after saving an image in C#.
 type: docs

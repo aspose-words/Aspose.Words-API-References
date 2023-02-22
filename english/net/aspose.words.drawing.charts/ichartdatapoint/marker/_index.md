@@ -1,5 +1,5 @@
 ---
-title: IChartDataPoint.Marker
+title: Marker
 second_title: Aspose.Words for .NET API Reference
 description: IChartDataPoint property. Specifies a data marker. Marker is automatically created when requested in C#.
 type: docs

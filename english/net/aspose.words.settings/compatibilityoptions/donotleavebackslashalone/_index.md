@@ -1,5 +1,5 @@
 ---
-title: CompatibilityOptions.DoNotLeaveBackslashAlone
+title: DoNotLeaveBackslashAlone
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions property. Convert Backslash To Yen Sign When Entered in C#.
 type: docs

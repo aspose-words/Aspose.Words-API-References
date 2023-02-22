@@ -1,5 +1,5 @@
 ---
-title: CompareOptions.IgnoreFields
+title: IgnoreFields
 second_title: Aspose.Words for .NET API Reference
 description: CompareOptions property. Specifies whether to compare differences in fields. By default fields are not ignored in C#.
 type: docs

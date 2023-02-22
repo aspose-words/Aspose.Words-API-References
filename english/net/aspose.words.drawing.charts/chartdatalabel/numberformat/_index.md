@@ -1,5 +1,5 @@
 ---
-title: ChartDataLabel.NumberFormat
+title: NumberFormat
 second_title: Aspose.Words for .NET API Reference
 description: ChartDataLabel property. Returns number format of the parent element in C#.
 type: docs

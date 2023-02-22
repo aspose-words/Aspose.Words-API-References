@@ -1,5 +1,5 @@
 ---
-title: FontSavingArgs.Document
+title: Document
 second_title: Aspose.Words for .NET API Reference
 description: FontSavingArgs property. Gets the document object that is being saved in C#.
 type: docs

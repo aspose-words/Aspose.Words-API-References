@@ -1,5 +1,5 @@
 ---
-title: FieldCitation.VolumeNumber
+title: VolumeNumber
 second_title: Aspose.Words for .NET API Reference
 description: FieldCitation property. Gets or sets a volume number associated with the citation in C#.
 type: docs

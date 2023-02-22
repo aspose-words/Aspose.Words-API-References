@@ -1,5 +1,5 @@
 ---
-title: AxisBound.Value
+title: Value
 second_title: Aspose.Words for .NET API Reference
 description: AxisBound property. Returns numeric value of axis bound in C#.
 type: docs

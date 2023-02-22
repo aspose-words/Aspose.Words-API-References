@@ -1,5 +1,5 @@
 ---
-title: Stroke.StartArrowType
+title: StartArrowType
 second_title: Aspose.Words for .NET API Reference
 description: Stroke property. Defines the arrowhead for the start of a stroke in C#.
 type: docs

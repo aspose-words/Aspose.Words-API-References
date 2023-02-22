@@ -1,5 +1,5 @@
 ---
-title: MappedDataFieldCollection.Clear
+title: Clear
 second_title: Aspose.Words for .NET API Reference
 description: MappedDataFieldCollection method. Removes all elements from the collection in C#.
 type: docs

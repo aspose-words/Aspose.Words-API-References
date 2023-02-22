@@ -1,5 +1,5 @@
 ---
-title: ConditionalStyleCollection.OddColumnBanding
+title: OddColumnBanding
 second_title: Aspose.Words for .NET API Reference
 description: ConditionalStyleCollection property. Gets the odd column banding style in C#.
 type: docs

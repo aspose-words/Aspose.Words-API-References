@@ -1,5 +1,5 @@
 ---
-title: NodeCollection.GetEnumerator
+title: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: NodeCollection method. Provides a simple foreach style iteration over the collection of nodes in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: CustomPart.IsExternal
+title: IsExternal
 second_title: Aspose.Words for .NET API Reference
 description: CustomPart property. False if this custom part is stored inside the OOXML package. True if this custom part is an external target in C#.
 type: docs

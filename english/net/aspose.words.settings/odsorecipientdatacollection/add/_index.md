@@ -1,5 +1,5 @@
 ---
-title: OdsoRecipientDataCollection.Add
+title: Add
 second_title: Aspose.Words for .NET API Reference
 description: OdsoRecipientDataCollection method. Adds an object to the end of this collection in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: CompatibilityOptions.DoNotUseHTMLParagraphAutoSpacing
+title: DoNotUseHTMLParagraphAutoSpacing
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions property. Use Fixed Paragraph Spacing for HTML Auto Setting in C#.
 type: docs

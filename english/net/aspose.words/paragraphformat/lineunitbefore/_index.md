@@ -1,5 +1,5 @@
 ---
-title: ParagraphFormat.LineUnitBefore
+title: LineUnitBefore
 second_title: Aspose.Words for .NET API Reference
 description: ParagraphFormat property. Gets or sets the amount of spacing in gridlines before the paragraphs in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ShapeBase.FlipOrientation
+title: FlipOrientation
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase property. Switches the orientation of a shape in C#.
 type: docs

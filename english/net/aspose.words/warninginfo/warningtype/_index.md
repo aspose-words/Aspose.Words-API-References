@@ -1,5 +1,5 @@
 ---
-title: WarningInfo.WarningType
+title: WarningType
 second_title: Aspose.Words for .NET API Reference
 description: WarningInfo property. Returns the type of the warning in C#.
 type: docs

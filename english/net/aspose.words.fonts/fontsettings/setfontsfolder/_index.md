@@ -1,5 +1,5 @@
 ---
-title: FontSettings.SetFontsFolder
+title: SetFontsFolder
 second_title: Aspose.Words for .NET API Reference
 description: FontSettings method. Sets the folder where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. This is a shortcut to SetFontsFolders for setting only one font directory in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: EndnoteOptions.StartNumber
+title: StartNumber
 second_title: Aspose.Words for .NET API Reference
 description: EndnoteOptions property. Specifies the starting number or character for the first automatically numbered endnotes in C#.
 type: docs

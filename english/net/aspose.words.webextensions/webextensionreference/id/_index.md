@@ -1,5 +1,5 @@
 ---
-title: WebExtensionReference.Id
+title: Id
 second_title: Aspose.Words for .NET API Reference
 description: WebExtensionReference property. Identifier associated with the web extension within a catalog provider in C#.
 type: docs

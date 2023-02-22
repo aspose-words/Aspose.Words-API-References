@@ -1,5 +1,5 @@
 ---
-title: OdsoRecipientData.OdsoRecipientData
+title: OdsoRecipientData
 second_title: Aspose.Words for .NET API Reference
 description: OdsoRecipientData constructor. The default constructor in C#.
 type: docs

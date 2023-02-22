@@ -1,5 +1,5 @@
 ---
-title: Paragraph.Runs
+title: Runs
 second_title: Aspose.Words for .NET API Reference
 description: Paragraph property. Provides access to the typed collection of pieces of text inside the paragraph in C#.
 type: docs

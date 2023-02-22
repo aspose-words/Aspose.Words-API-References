@@ -1,5 +1,5 @@
 ---
-title: Font.NoProofing
+title: NoProofing
 second_title: Aspose.Words for .NET API Reference
 description: Font property. True when the formatted characters are not to be spell checked in C#.
 type: docs

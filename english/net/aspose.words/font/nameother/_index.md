@@ -1,5 +1,5 @@
 ---
-title: Font.NameOther
+title: NameOther
 second_title: Aspose.Words for .NET API Reference
 description: Font property. Returns or sets the font used for characters with character codes from 128 through 255 in C#.
 type: docs

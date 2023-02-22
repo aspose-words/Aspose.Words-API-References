@@ -1,5 +1,5 @@
 ---
-title: CompositeNode.HasChildNodes
+title: HasChildNodes
 second_title: Aspose.Words for .NET API Reference
 description: CompositeNode property. Returns true if this node has any child nodes in C#.
 type: docs

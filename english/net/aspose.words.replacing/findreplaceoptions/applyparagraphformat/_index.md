@@ -1,5 +1,5 @@
 ---
-title: FindReplaceOptions.ApplyParagraphFormat
+title: ApplyParagraphFormat
 second_title: Aspose.Words for .NET API Reference
 description: FindReplaceOptions property. Paragraph formatting applied to new content in C#.
 type: docs

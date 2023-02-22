@@ -1,5 +1,5 @@
 ---
-title: DocumentBuilder.Italic
+title: Italic
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder property. True if the font is formatted as italic in C#.
 type: docs

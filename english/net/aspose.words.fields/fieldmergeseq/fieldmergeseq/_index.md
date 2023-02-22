@@ -1,5 +1,5 @@
 ---
-title: FieldMergeSeq.FieldMergeSeq
+title: FieldMergeSeq
 second_title: Aspose.Words for .NET API Reference
 description: FieldMergeSeq constructor. The default constructor in C#.
 type: docs

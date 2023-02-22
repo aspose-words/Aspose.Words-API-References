@@ -1,5 +1,5 @@
 ---
-title: FormField.Accept
+title: Accept
 second_title: Aspose.Words for .NET API Reference
 description: FormField method. Accepts a visitor in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ChartMarker.Symbol
+title: Symbol
 second_title: Aspose.Words for .NET API Reference
 description: ChartMarker property. Gets or sets chart marker symbol in C#.
 type: docs

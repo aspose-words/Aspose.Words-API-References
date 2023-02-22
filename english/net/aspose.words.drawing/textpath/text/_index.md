@@ -1,5 +1,5 @@
 ---
-title: TextPath.Text
+title: Text
 second_title: Aspose.Words for .NET API Reference
 description: TextPath property. Defines the text of the text path in C#.
 type: docs

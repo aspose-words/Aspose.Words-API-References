@@ -1,5 +1,5 @@
 ---
-title: Paragraph.JoinRunsWithSameFormatting
+title: JoinRunsWithSameFormatting
 second_title: Aspose.Words for .NET API Reference
 description: Paragraph method. Joins runs with the same formatting in the paragraph in C#.
 type: docs

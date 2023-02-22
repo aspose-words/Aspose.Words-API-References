@@ -1,5 +1,5 @@
 ---
-title: FieldMergeRec.FieldMergeRec
+title: FieldMergeRec
 second_title: Aspose.Words for .NET API Reference
 description: FieldMergeRec constructor. The default constructor in C#.
 type: docs

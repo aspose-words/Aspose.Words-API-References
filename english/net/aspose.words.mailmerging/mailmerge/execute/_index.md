@@ -1,5 +1,5 @@
 ---
-title: MailMerge.Execute
+title: Execute
 second_title: Aspose.Words for .NET API Reference
 description: MailMerge method. Performs a mail merge from a custom data source in C#.
 type: docs

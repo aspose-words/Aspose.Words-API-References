@@ -1,5 +1,5 @@
 ---
-title: ImageData.ImageType
+title: ImageType
 second_title: Aspose.Words for .NET API Reference
 description: ImageData property. Gets the type of the image in C#.
 type: docs

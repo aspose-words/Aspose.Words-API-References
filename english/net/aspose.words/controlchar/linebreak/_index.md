@@ -1,5 +1,5 @@
 ---
-title: ControlChar.LineBreak
+title: LineBreak
 second_title: Aspose.Words for .NET API Reference
 description: ControlChar field. Line break character x000b or v in C#.
 type: docs

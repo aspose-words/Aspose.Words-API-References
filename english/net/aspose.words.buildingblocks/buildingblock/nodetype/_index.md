@@ -1,5 +1,5 @@
 ---
-title: BuildingBlock.NodeType
+title: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: BuildingBlock property. Returns the BuildingBlock value in C#.
 type: docs

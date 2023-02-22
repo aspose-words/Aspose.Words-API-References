@@ -1,5 +1,5 @@
 ---
-title: DocumentBase.Document
+title: Document
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBase property. Gets this instance in C#.
 type: docs

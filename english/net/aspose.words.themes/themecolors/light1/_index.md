@@ -1,5 +1,5 @@
 ---
-title: ThemeColors.Light1
+title: Light1
 second_title: Aspose.Words for .NET API Reference
 description: ThemeColors property. Specifies color Light 1 in C#.
 type: docs

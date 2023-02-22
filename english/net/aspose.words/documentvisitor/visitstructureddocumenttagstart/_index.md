@@ -1,5 +1,5 @@
 ---
-title: DocumentVisitor.VisitStructuredDocumentTagStart
+title: VisitStructuredDocumentTagStart
 second_title: Aspose.Words for .NET API Reference
 description: DocumentVisitor method. Called when enumeration of a structured document tag has started in C#.
 type: docs

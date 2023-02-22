@@ -1,5 +1,5 @@
 ---
-title: Section.AppendContent
+title: AppendContent
 second_title: Aspose.Words for .NET API Reference
 description: Section method. Inserts a copy of content of the source section at the end of this section in C#.
 type: docs

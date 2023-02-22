@@ -1,5 +1,5 @@
 ---
-title: PreferredWidth.FromPercent
+title: FromPercent
 second_title: Aspose.Words for .NET API Reference
 description: PreferredWidth method. A creation method that returns a new instance that represents a preferred width specified as a percentage in C#.
 type: docs

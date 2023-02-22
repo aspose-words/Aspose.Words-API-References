@@ -1,5 +1,5 @@
 ---
-title: Run.Text
+title: Text
 second_title: Aspose.Words for .NET API Reference
 description: Run property. Gets or sets the text of the run in C#.
 type: docs

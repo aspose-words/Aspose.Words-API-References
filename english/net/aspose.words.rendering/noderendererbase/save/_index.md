@@ -1,5 +1,5 @@
 ---
-title: NodeRendererBase.Save
+title: Save
 second_title: Aspose.Words for .NET API Reference
 description: NodeRendererBase method. Renders the shape into an image and saves into a file in C#.
 type: docs

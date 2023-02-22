@@ -1,5 +1,5 @@
 ---
-title: FolderFontSource.Type
+title: Type
 second_title: Aspose.Words for .NET API Reference
 description: FolderFontSource property. Returns the type of the font source in C#.
 type: docs

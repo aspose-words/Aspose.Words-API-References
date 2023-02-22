@@ -1,5 +1,5 @@
 ---
-title: ListLevel.DeletePictureBullet
+title: DeletePictureBullet
 second_title: Aspose.Words for .NET API Reference
 description: ListLevel method. Deletes picture bullet for the current list level in C#.
 type: docs

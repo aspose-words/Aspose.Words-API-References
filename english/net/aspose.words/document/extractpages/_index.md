@@ -1,5 +1,5 @@
 ---
-title: Document.ExtractPages
+title: ExtractPages
 second_title: Aspose.Words for .NET API Reference
 description: Document method. Returns the Document object representing specified range of pages in C#.
 type: docs

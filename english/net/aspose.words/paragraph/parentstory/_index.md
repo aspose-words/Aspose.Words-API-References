@@ -1,5 +1,5 @@
 ---
-title: Paragraph.ParentStory
+title: ParentStory
 second_title: Aspose.Words for .NET API Reference
 description: Paragraph property. Retrieves the parent sectionlevel story that can be Body or HeaderFooter in C#.
 type: docs

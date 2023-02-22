@@ -1,5 +1,5 @@
 ---
-title: Watermark.Remove
+title: Remove
 second_title: Aspose.Words for .NET API Reference
 description: Watermark method. Removes the watermark in C#.
 type: docs

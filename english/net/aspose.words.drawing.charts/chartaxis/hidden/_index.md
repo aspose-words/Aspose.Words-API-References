@@ -1,5 +1,5 @@
 ---
-title: ChartAxis.Hidden
+title: Hidden
 second_title: Aspose.Words for .NET API Reference
 description: ChartAxis property. Gets or sets a flag indicating whether this axis is hidden or not in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: CellCollection.Item
+title: Item
 second_title: Aspose.Words for .NET API Reference
 description: CellCollection property. Retrieves a Cell at the given index in C#.
 type: docs

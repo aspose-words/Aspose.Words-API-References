@@ -1,5 +1,5 @@
 ---
-title: LayoutCollector.LayoutCollector
+title: LayoutCollector
 second_title: Aspose.Words for .NET API Reference
 description: LayoutCollector constructor. Initializes an instance of this class in C#.
 type: docs

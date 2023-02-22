@@ -1,5 +1,5 @@
 ---
-title: Comment.StoryType
+title: StoryType
 second_title: Aspose.Words for .NET API Reference
 description: Comment property. Returns Comments in C#.
 type: docs

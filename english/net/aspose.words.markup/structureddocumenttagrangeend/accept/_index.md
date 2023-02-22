@@ -1,5 +1,5 @@
 ---
-title: StructuredDocumentTagRangeEnd.Accept
+title: Accept
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTagRangeEnd method. Accepts a visitor in C#.
 type: docs

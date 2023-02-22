@@ -1,5 +1,5 @@
 ---
-title: OdsoFieldMapDataCollection.Item
+title: Item
 second_title: Aspose.Words for .NET API Reference
 description: OdsoFieldMapDataCollection property. Gets or sets an item in this collection in C#.
 type: docs

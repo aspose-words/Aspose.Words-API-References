@@ -1,5 +1,5 @@
 ---
-title: FieldMergingArgsBase.FieldValue
+title: FieldValue
 second_title: Aspose.Words for .NET API Reference
 description: FieldMergingArgsBase property. Gets or sets the value of the field from the data source in C#.
 type: docs

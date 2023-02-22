@@ -1,5 +1,5 @@
 ---
-title: SystemFontSource.GetSystemFontFolders
+title: GetSystemFontFolders
 second_title: Aspose.Words for .NET API Reference
 description: SystemFontSource method. Returns system font folders or empty array if folders are not accessible in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FieldCompare.RightExpression
+title: RightExpression
 second_title: Aspose.Words for .NET API Reference
 description: FieldCompare property. Gets or sets the right part of the comparison expression in C#.
 type: docs

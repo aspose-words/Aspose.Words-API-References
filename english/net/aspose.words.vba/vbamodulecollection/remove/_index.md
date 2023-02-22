@@ -1,5 +1,5 @@
 ---
-title: VbaModuleCollection.Remove
+title: Remove
 second_title: Aspose.Words for .NET API Reference
 description: VbaModuleCollection method. Removes the specified module from the collection in C#.
 type: docs

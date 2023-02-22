@@ -1,5 +1,5 @@
 ---
-title: ListLevel.IsLegal
+title: IsLegal
 second_title: Aspose.Words for .NET API Reference
 description: ListLevel property. True if the level turns all inherited numbers to Arabic false if it preserves their number style in C#.
 type: docs

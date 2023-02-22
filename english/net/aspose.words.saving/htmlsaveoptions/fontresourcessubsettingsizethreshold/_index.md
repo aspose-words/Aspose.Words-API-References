@@ -1,5 +1,5 @@
 ---
-title: HtmlSaveOptions.FontResourcesSubsettingSizeThreshold
+title: FontResourcesSubsettingSizeThreshold
 second_title: Aspose.Words for .NET API Reference
 description: HtmlSaveOptions property. Controls which font resources need subsetting when saving to HTML MHTML or EPUB. Default is 0 in C#.
 type: docs

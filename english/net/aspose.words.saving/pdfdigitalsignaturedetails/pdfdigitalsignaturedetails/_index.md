@@ -1,5 +1,5 @@
 ---
-title: PdfDigitalSignatureDetails.PdfDigitalSignatureDetails
+title: PdfDigitalSignatureDetails
 second_title: Aspose.Words for .NET API Reference
 description: PdfDigitalSignatureDetails constructor. Initializes an instance of this class in C#.
 type: docs

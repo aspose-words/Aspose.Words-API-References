@@ -1,5 +1,5 @@
 ---
-title: HeaderFooter.ParentSection
+title: ParentSection
 second_title: Aspose.Words for .NET API Reference
 description: HeaderFooter property. Gets the parent section of this story in C#.
 type: docs

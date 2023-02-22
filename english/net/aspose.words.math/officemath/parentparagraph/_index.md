@@ -1,5 +1,5 @@
 ---
-title: OfficeMath.ParentParagraph
+title: ParentParagraph
 second_title: Aspose.Words for .NET API Reference
 description: OfficeMath property. Retrieves the parent Paragraph of this node in C#.
 type: docs

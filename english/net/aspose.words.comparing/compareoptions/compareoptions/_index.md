@@ -1,5 +1,5 @@
 ---
-title: CompareOptions.CompareOptions
+title: CompareOptions
 second_title: Aspose.Words for .NET API Reference
 description: CompareOptions constructor. The default constructor in C#.
 type: docs

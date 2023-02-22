@@ -1,5 +1,5 @@
 ---
-title: ImageSavingArgs.ImageFileName
+title: ImageFileName
 second_title: Aspose.Words for .NET API Reference
 description: ImageSavingArgs property. Gets or sets the file name without path where the image will be saved to in C#.
 type: docs

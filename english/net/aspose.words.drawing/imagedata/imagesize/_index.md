@@ -1,5 +1,5 @@
 ---
-title: ImageData.ImageSize
+title: ImageSize
 second_title: Aspose.Words for .NET API Reference
 description: ImageData property. Gets the information about image size and resolution in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: List.HasSameTemplate
+title: HasSameTemplate
 second_title: Aspose.Words for .NET API Reference
 description: List method. Returns true if the current list and the given list are created from the same template in C#.
 type: docs

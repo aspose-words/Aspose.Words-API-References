@@ -1,5 +1,5 @@
 ---
-title: Revision.Group
+title: Group
 second_title: Aspose.Words for .NET API Reference
 description: Revision property. Gets the revision group. Returns null if the revision does not belong to any group in C#.
 type: docs

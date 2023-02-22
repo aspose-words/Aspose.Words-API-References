@@ -1,5 +1,5 @@
 ---
-title: DocumentBase.Styles
+title: Styles
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBase property. Returns a collection of styles defined in the document in C#.
 type: docs

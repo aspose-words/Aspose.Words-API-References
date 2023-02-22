@@ -1,5 +1,5 @@
 ---
-title: BuiltInDocumentProperties.TotalEditingTime
+title: TotalEditingTime
 second_title: Aspose.Words for .NET API Reference
 description: BuiltInDocumentProperties property. Gets or sets the total editing time in minutes in C#.
 type: docs

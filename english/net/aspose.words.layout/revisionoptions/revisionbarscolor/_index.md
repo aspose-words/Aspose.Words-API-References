@@ -1,5 +1,5 @@
 ---
-title: RevisionOptions.RevisionBarsColor
+title: RevisionBarsColor
 second_title: Aspose.Words for .NET API Reference
 description: RevisionOptions property. Allows to specify the color to be used for side bars that identify document lines containing revised information. Default value is Red in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: CustomXmlProperty.Value
+title: Value
 second_title: Aspose.Words for .NET API Reference
 description: CustomXmlProperty property. Gets or sets the value of the custom XML attribute or smart tag property in C#.
 type: docs

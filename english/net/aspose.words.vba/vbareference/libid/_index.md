@@ -1,5 +1,5 @@
 ---
-title: VbaReference.LibId
+title: LibId
 second_title: Aspose.Words for .NET API Reference
 description: VbaReference property. Gets a string value containing the identifier of an Automation type library in C#.
 type: docs

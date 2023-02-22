@@ -1,5 +1,5 @@
 ---
-title: DocumentBuilder.EndBookmark
+title: EndBookmark
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder method. Marks the current position in the document as a bookmark end in C#.
 type: docs

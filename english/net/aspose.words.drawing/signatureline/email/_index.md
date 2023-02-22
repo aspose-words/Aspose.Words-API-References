@@ -1,5 +1,5 @@
 ---
-title: SignatureLine.Email
+title: Email
 second_title: Aspose.Words for .NET API Reference
 description: SignatureLine property. Gets or sets suggested signers email address. Default value for this property is empty string Empty in C#.
 type: docs

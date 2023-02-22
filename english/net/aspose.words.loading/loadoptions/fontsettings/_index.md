@@ -1,5 +1,5 @@
 ---
-title: LoadOptions.FontSettings
+title: FontSettings
 second_title: Aspose.Words for .NET API Reference
 description: LoadOptions property. Allows to specify document font settings in C#.
 type: docs

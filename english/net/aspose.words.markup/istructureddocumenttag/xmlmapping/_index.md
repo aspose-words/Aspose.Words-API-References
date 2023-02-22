@@ -1,5 +1,5 @@
 ---
-title: IStructuredDocumentTag.XmlMapping
+title: XmlMapping
 second_title: Aspose.Words for .NET API Reference
 description: IStructuredDocumentTag property. Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ShapeBase.IsTopLevel
+title: IsTopLevel
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase property. Returns true if this shape is not a child of a group shape in C#.
 type: docs

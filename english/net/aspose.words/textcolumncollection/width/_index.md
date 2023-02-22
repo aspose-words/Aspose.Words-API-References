@@ -1,5 +1,5 @@
 ---
-title: TextColumnCollection.Width
+title: Width
 second_title: Aspose.Words for .NET API Reference
 description: TextColumnCollection property. When columns are evenly spaced gets the width of the columns in C#.
 type: docs

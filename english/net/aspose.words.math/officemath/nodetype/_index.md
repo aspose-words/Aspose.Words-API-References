@@ -1,5 +1,5 @@
 ---
-title: OfficeMath.NodeType
+title: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: OfficeMath property. Returns OfficeMath in C#.
 type: docs

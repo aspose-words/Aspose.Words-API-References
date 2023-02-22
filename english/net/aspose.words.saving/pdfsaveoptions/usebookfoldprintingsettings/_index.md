@@ -1,5 +1,5 @@
 ---
-title: PdfSaveOptions.UseBookFoldPrintingSettings
+title: UseBookFoldPrintingSettings
 second_title: Aspose.Words for .NET API Reference
 description: PdfSaveOptions property. Gets or sets a boolean value indicating whether the document should be saved using a booklet printing layout if it is specified via MultiplePages in C#.
 type: docs

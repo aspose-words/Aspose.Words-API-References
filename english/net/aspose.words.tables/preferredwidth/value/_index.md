@@ -1,5 +1,5 @@
 ---
-title: PreferredWidth.Value
+title: Value
 second_title: Aspose.Words for .NET API Reference
 description: PreferredWidth property. Gets the preferred width value. The unit of measure is specified in the Type property in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Table.Rows
+title: Rows
 second_title: Aspose.Words for .NET API Reference
 description: Table property. Provides typed access to the rows of the table in C#.
 type: docs

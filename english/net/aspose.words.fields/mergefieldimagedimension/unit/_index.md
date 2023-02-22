@@ -1,5 +1,5 @@
 ---
-title: MergeFieldImageDimension.Unit
+title: Unit
 second_title: Aspose.Words for .NET API Reference
 description: MergeFieldImageDimension property. The unit in C#.
 type: docs

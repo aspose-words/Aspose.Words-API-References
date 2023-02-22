@@ -1,5 +1,5 @@
 ---
-title: FieldChar.IsLocked
+title: IsLocked
 second_title: Aspose.Words for .NET API Reference
 description: FieldChar property. Gets or sets whether the parent field is locked should not recalculate its result in C#.
 type: docs

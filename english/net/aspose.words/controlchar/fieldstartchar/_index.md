@@ -1,5 +1,5 @@
 ---
-title: ControlChar.FieldStartChar
+title: FieldStartChar
 second_title: Aspose.Words for .NET API Reference
 description: ControlChar field. Start of MS Word field character char19 in C#.
 type: docs

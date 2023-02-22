@@ -1,5 +1,5 @@
 ---
-title: PageSetup.SheetsPerBooklet
+title: SheetsPerBooklet
 second_title: Aspose.Words for .NET API Reference
 description: PageSetup property. Returns or sets the number of pages to be included in each booklet in C#.
 type: docs

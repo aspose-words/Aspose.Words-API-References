@@ -1,5 +1,5 @@
 ---
-title: ViewOptions.DisplayBackgroundShape
+title: DisplayBackgroundShape
 second_title: Aspose.Words for .NET API Reference
 description: ViewOptions property. Controls display of the background shape in print layout view in C#.
 type: docs

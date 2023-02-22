@@ -1,5 +1,5 @@
 ---
-title: Fill.OneColorGradient
+title: OneColorGradient
 second_title: Aspose.Words for .NET API Reference
 description: Fill method. Sets the specified fill to a onecolor gradient in C#.
 type: docs

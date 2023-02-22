@@ -1,5 +1,5 @@
 ---
-title: BuiltInDocumentProperties.Bytes
+title: Bytes
 second_title: Aspose.Words for .NET API Reference
 description: BuiltInDocumentProperties property. Represents an estimate of the number of bytes in the document in C#.
 type: docs

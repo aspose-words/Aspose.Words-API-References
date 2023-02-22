@@ -1,5 +1,5 @@
 ---
-title: FieldEmbed.FieldEmbed
+title: FieldEmbed
 second_title: Aspose.Words for .NET API Reference
 description: FieldEmbed constructor. The default constructor in C#.
 type: docs

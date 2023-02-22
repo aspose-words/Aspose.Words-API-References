@@ -1,5 +1,5 @@
 ---
-title: CustomXmlSchemaCollection.IndexOf
+title: IndexOf
 second_title: Aspose.Words for .NET API Reference
 description: CustomXmlSchemaCollection method. Returns the zerobased index of the specified value in the collection in C#.
 type: docs

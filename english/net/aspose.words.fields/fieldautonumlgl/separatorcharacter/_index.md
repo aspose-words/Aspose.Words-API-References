@@ -1,5 +1,5 @@
 ---
-title: FieldAutoNumLgl.SeparatorCharacter
+title: SeparatorCharacter
 second_title: Aspose.Words for .NET API Reference
 description: FieldAutoNumLgl property. Gets or sets the separator character to be used in C#.
 type: docs

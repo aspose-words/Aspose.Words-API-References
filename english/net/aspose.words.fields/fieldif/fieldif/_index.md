@@ -1,5 +1,5 @@
 ---
-title: FieldIf.FieldIf
+title: FieldIf
 second_title: Aspose.Words for .NET API Reference
 description: FieldIf constructor. The default constructor in C#.
 type: docs

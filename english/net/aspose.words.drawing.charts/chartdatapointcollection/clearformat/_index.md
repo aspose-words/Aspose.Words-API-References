@@ -1,5 +1,5 @@
 ---
-title: ChartDataPointCollection.ClearFormat
+title: ClearFormat
 second_title: Aspose.Words for .NET API Reference
 description: ChartDataPointCollection method. Clears format of all ChartDataPoint in this collection in C#.
 type: docs

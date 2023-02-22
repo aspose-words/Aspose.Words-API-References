@@ -1,5 +1,5 @@
 ---
-title: FieldMergeBarcode.DisplayText
+title: DisplayText
 second_title: Aspose.Words for .NET API Reference
 description: FieldMergeBarcode property. Gets or sets whether to display barcode data text along with image in C#.
 type: docs

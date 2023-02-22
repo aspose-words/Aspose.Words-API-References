@@ -1,5 +1,5 @@
 ---
-title: PrinterSettingsContainer.DefaultPageSettingsPaperSource
+title: DefaultPageSettingsPaperSource
 second_title: Aspose.Words for .NET API Reference
 description: PrinterSettingsContainer property. See PaperSource of DefaultPageSettings in C#.
 type: docs

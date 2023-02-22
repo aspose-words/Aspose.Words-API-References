@@ -1,5 +1,5 @@
 ---
-title: FieldToc.SequenceSeparator
+title: SequenceSeparator
 second_title: Aspose.Words for .NET API Reference
 description: FieldToc property. Gets or sets the character sequence that is used to separate sequence numbers and page numbers in C#.
 type: docs

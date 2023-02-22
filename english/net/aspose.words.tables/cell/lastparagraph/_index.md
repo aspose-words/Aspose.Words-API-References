@@ -1,5 +1,5 @@
 ---
-title: Cell.LastParagraph
+title: LastParagraph
 second_title: Aspose.Words for .NET API Reference
 description: Cell property. Gets the last paragraph among the immediate children in C#.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FormField.TextInputType
+title: TextInputType
 second_title: Aspose.Words for .NET API Reference
 description: FormField property. Gets or sets the type of a text form field in C#.
 type: docs

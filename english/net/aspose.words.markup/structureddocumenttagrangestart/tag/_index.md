@@ -1,5 +1,5 @@
 ---
-title: StructuredDocumentTagRangeStart.Tag
+title: Tag
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTagRangeStart property. Specifies a tag associated with the current structured document tag node. Can not be null in C#.
 type: docs

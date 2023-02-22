@@ -1,5 +1,5 @@
 ---
-title: ShapeBase.IsHorizontalRule
+title: IsHorizontalRule
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase property. Returns true if this shape is a horizontal rule in C#.
 type: docs

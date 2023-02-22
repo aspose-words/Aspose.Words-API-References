@@ -1,5 +1,5 @@
 ---
-title: Document.LayoutOptions
+title: LayoutOptions
 second_title: Aspose.Words for .NET API Reference
 description: Document property. Gets a LayoutOptions object that represents options to control the layout process of this document in C#.
 type: docs

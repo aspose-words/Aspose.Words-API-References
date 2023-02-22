@@ -1,5 +1,5 @@
 ---
-title: TabStopCollection.Before
+title: Before
 second_title: Aspose.Words for .NET API Reference
 description: TabStopCollection method. Gets a first tab stop to the left of the specified position in C#.
 type: docs

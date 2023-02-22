@@ -1,5 +1,5 @@
 ---
-title: DocumentBuilder.MoveToField
+title: MoveToField
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder method. Moves the cursor to a field in the document in C#.
 type: docs

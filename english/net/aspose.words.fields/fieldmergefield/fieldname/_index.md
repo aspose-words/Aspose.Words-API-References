@@ -1,5 +1,5 @@
 ---
-title: FieldMergeField.FieldName
+title: FieldName
 second_title: Aspose.Words for .NET API Reference
 description: FieldMergeField property. Gets or sets the name of a data field in C#.
 type: docs

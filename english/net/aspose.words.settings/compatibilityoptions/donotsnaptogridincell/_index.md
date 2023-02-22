@@ -1,5 +1,5 @@
 ---
-title: CompatibilityOptions.DoNotSnapToGridInCell
+title: DoNotSnapToGridInCell
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions property. Do Not Snap to Document Grid in Table Cells with Objects in C#.
 type: docs

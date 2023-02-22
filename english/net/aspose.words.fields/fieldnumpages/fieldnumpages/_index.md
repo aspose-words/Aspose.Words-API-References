@@ -1,5 +1,5 @@
 ---
-title: FieldNumPages.FieldNumPages
+title: FieldNumPages
 second_title: Aspose.Words for .NET API Reference
 description: FieldNumPages constructor. The default constructor in C#.
 type: docs

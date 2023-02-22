@@ -1,5 +1,5 @@
 ---
-title: ReplacingArgs.GroupIndex
+title: GroupIndex
 second_title: Aspose.Words for .NET API Reference
 description: ReplacingArgs property. Identifies by index a captured group in the Match that is to be replaced with the Replacement string in C#.
 type: docs

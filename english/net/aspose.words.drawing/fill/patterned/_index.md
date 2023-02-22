@@ -1,5 +1,5 @@
 ---
-title: Fill.Patterned
+title: Patterned
 second_title: Aspose.Words for .NET API Reference
 description: Fill method. Sets the specified fill to a pattern in C#.
 type: docs

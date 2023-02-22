@@ -1,5 +1,5 @@
 ---
-title: BookmarkStart.GetText
+title: GetText
 second_title: Aspose.Words for .NET API Reference
 description: BookmarkStart method. Returns an empty string in C#.
 type: docs

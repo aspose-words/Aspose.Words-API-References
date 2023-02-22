@@ -1,5 +1,5 @@
 ---
-title: JsonDataLoadOptions.ExactDateTimeParseFormats
+title: ExactDateTimeParseFormats
 second_title: Aspose.Words for .NET API Reference
 description: JsonDataLoadOptions property. Gets or sets exact formats for parsing JSON datetime values while loading JSON. The default is null in C#.
 type: docs

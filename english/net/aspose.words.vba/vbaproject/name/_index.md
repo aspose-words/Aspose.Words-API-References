@@ -1,5 +1,5 @@
 ---
-title: VbaProject.Name
+title: Name
 second_title: Aspose.Words for .NET API Reference
 description: VbaProject property. Gets or sets VBA project name in C#.
 type: docs

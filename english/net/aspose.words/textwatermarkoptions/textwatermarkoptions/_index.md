@@ -1,5 +1,5 @@
 ---
-title: TextWatermarkOptions.TextWatermarkOptions
+title: TextWatermarkOptions
 second_title: Aspose.Words for .NET API Reference
 description: TextWatermarkOptions constructor. The default constructor in C#.
 type: docs

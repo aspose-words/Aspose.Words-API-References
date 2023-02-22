@@ -1,5 +1,5 @@
 ---
-title: ImageData.SourceFullName
+title: SourceFullName
 second_title: Aspose.Words for .NET API Reference
 description: ImageData property. Gets or sets the path and name of the source file for the linked image in C#.
 type: docs

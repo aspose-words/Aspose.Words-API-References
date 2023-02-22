@@ -1,5 +1,5 @@
 ---
-title: Table.RightPadding
+title: RightPadding
 second_title: Aspose.Words for .NET API Reference
 description: Table property. Gets or sets the amount of space in points to add to the right of the contents of cells in C#.
 type: docs

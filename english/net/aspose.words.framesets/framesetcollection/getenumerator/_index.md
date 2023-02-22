@@ -1,5 +1,5 @@
 ---
-title: FramesetCollection.GetEnumerator
+title: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: FramesetCollection method. Returns an enumerator that iterates through the collection in C#.
 type: docs

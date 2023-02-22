@@ -1,5 +1,5 @@
 ---
-title: Section.Body
+title: Body
 second_title: Aspose.Words for .NET API Reference
 description: Section property. Returns the Body child node of the section in C#.
 type: docs

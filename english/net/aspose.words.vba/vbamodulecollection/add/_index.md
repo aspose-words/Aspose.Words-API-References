@@ -1,5 +1,5 @@
 ---
-title: VbaModuleCollection.Add
+title: Add
 second_title: Aspose.Words for .NET API Reference
 description: VbaModuleCollection method. Adds a module to the collection in C#.
 type: docs

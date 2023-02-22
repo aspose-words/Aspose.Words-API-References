@@ -1,5 +1,5 @@
 ---
-title: Cell.NodeType
+title: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Cell property. Returns Cell in C#.
 type: docs

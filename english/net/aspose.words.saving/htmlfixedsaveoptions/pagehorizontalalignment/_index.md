@@ -1,5 +1,5 @@
 ---
-title: HtmlFixedSaveOptions.PageHorizontalAlignment
+title: PageHorizontalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: HtmlFixedSaveOptions property. Specifies the horizontal alignment of pages in an HTML document. Default value is Center in C#.
 type: docs

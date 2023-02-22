@@ -1,5 +1,5 @@
 ---
-title: CompareOptions.IgnoreDmlUniqueId
+title: IgnoreDmlUniqueId
 second_title: Aspose.Words for .NET API Reference
 description: CompareOptions property. Specifies whether to ignore difference in DrawingML unique Id. Default value is false in C#.
 type: docs

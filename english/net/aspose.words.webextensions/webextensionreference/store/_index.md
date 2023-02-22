@@ -1,5 +1,5 @@
 ---
-title: WebExtensionReference.Store
+title: Store
 second_title: Aspose.Words for .NET API Reference
 description: WebExtensionReference property. Specifies the instance of the marketplace where the web extension is stored in C#.
 type: docs

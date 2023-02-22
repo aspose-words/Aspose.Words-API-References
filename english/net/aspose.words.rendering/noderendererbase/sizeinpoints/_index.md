@@ -1,5 +1,5 @@
 ---
-title: NodeRendererBase.SizeInPoints
+title: SizeInPoints
 second_title: Aspose.Words for .NET API Reference
 description: NodeRendererBase property. Gets the actual size of the shape in points in C#.
 type: docs

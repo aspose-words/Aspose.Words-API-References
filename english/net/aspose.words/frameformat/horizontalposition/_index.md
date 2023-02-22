@@ -1,5 +1,5 @@
 ---
-title: FrameFormat.HorizontalPosition
+title: HorizontalPosition
 second_title: Aspose.Words for .NET API Reference
 description: FrameFormat property. Gets horizontal distance between the edge of the frame and the item specified by the RelativeHorizontalPosition property in C#.
 type: docs

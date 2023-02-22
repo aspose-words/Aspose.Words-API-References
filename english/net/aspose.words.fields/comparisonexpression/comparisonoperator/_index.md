@@ -1,5 +1,5 @@
 ---
-title: ComparisonExpression.ComparisonOperator
+title: ComparisonOperator
 second_title: Aspose.Words for .NET API Reference
 description: ComparisonExpression property. Gets the comparison operator in C#.
 type: docs

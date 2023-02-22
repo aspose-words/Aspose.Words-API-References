@@ -1,5 +1,5 @@
 ---
-title: ChartFormat.Fill
+title: Fill
 second_title: Aspose.Words for .NET API Reference
 description: ChartFormat property. Gets fill formatting for the parent chart element in C#.
 type: docs

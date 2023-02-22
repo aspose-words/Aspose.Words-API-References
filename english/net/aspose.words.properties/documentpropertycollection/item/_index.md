@@ -1,5 +1,5 @@
 ---
-title: DocumentPropertyCollection.Item
+title: Item
 second_title: Aspose.Words for .NET API Reference
 description: DocumentPropertyCollection property. Returns a DocumentProperty object by the name of the property in C#.
 type: docs

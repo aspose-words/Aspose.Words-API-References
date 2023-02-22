@@ -1,5 +1,5 @@
 ---
-title: HeaderFooter.HeaderFooterType
+title: HeaderFooterType
 second_title: Aspose.Words for .NET API Reference
 description: HeaderFooter property. Gets the type of this header/footer in C#.
 type: docs

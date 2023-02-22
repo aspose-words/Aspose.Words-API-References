@@ -1,5 +1,5 @@
 ---
-title: MarkdownSaveOptions.ImagesFolder
+title: ImagesFolder
 second_title: Aspose.Words for .NET API Reference
 description: MarkdownSaveOptions property. Specifies the physical folder where images are saved when exporting a document to the Markdown format. Default is an empty string in C#.
 type: docs
