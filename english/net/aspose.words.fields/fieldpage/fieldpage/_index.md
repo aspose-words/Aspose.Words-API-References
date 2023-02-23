@@ -1,5 +1,5 @@
 ---
-title: FieldPage.FieldPage
+title: FieldPage
 linktitle: FieldPage
 second_title: Aspose.Words for .NET API Reference
 description: FieldPage constructor. The default constructor in C#.

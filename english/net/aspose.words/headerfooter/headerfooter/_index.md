@@ -1,5 +1,5 @@
 ---
-title: HeaderFooter.HeaderFooter
+title: HeaderFooter
 linktitle: HeaderFooter
 second_title: Aspose.Words for .NET API Reference
 description: HeaderFooter constructor. Creates a new header or footer of the specified type in C#.

@@ -1,5 +1,5 @@
 ---
-title: FieldImport.FieldImport
+title: FieldImport
 linktitle: FieldImport
 second_title: Aspose.Words for .NET API Reference
 description: FieldImport constructor. The default constructor in C#.

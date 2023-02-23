@@ -1,5 +1,5 @@
 ---
-title: SmartTag.SmartTag
+title: SmartTag
 linktitle: SmartTag
 second_title: Aspose.Words for .NET API Reference
 description: SmartTag constructor. Initializes a new instance of the SmartTag class in C#.

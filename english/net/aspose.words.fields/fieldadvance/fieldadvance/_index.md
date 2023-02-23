@@ -1,5 +1,5 @@
 ---
-title: FieldAdvance.FieldAdvance
+title: FieldAdvance
 linktitle: FieldAdvance
 second_title: Aspose.Words for .NET API Reference
 description: FieldAdvance constructor. The default constructor in C#.

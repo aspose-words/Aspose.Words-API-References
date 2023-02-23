@@ -1,5 +1,5 @@
 ---
-title: OdsoRecipientDataCollection.OdsoRecipientDataCollection
+title: OdsoRecipientDataCollection
 linktitle: OdsoRecipientDataCollection
 second_title: Aspose.Words for .NET API Reference
 description: OdsoRecipientDataCollection constructor. The default constructor in C#.

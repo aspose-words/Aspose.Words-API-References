@@ -1,5 +1,5 @@
 ---
-title: FindReplaceOptions.FindReplaceOptions
+title: FindReplaceOptions
 linktitle: FindReplaceOptions
 second_title: Aspose.Words for .NET API Reference
 description: FindReplaceOptions constructor. The default constructor in C#.

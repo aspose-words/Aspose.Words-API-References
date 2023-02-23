@@ -1,5 +1,5 @@
 ---
-title: FramesetCollection.FramesetCollection
+title: FramesetCollection
 linktitle: FramesetCollection
 second_title: Aspose.Words for .NET API Reference
 description: FramesetCollection constructor. The default constructor in C#.

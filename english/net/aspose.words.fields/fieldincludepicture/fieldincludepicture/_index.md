@@ -1,5 +1,5 @@
 ---
-title: FieldIncludePicture.FieldIncludePicture
+title: FieldIncludePicture
 linktitle: FieldIncludePicture
 second_title: Aspose.Words for .NET API Reference
 description: FieldIncludePicture constructor. The default constructor in C#.

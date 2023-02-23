@@ -1,5 +1,5 @@
 ---
-title: FieldSectionPages.FieldSectionPages
+title: FieldSectionPages
 linktitle: FieldSectionPages
 second_title: Aspose.Words for .NET API Reference
 description: FieldSectionPages constructor. The default constructor in C#.

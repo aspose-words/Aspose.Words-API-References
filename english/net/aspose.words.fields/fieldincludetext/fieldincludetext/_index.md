@@ -1,5 +1,5 @@
 ---
-title: FieldIncludeText.FieldIncludeText
+title: FieldIncludeText
 linktitle: FieldIncludeText
 second_title: Aspose.Words for .NET API Reference
 description: FieldIncludeText constructor. The default constructor in C#.

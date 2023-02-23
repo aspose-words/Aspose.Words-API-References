@@ -1,5 +1,5 @@
 ---
-title: FieldNext.FieldNext
+title: FieldNext
 linktitle: FieldNext
 second_title: Aspose.Words for .NET API Reference
 description: FieldNext constructor. The default constructor in C#.

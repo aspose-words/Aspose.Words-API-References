@@ -1,5 +1,5 @@
 ---
-title: Forms2OleControlCollection.Forms2OleControlCollection
+title: Forms2OleControlCollection
 linktitle: Forms2OleControlCollection
 second_title: Aspose.Words for .NET API Reference
 description: Forms2OleControlCollection constructor. The default constructor in C#.

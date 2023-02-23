@@ -1,5 +1,5 @@
 ---
-title: Shape.Shape
+title: Shape
 linktitle: Shape
 second_title: Aspose.Words for .NET API Reference
 description: Shape constructor. Creates a new shape object in C#.

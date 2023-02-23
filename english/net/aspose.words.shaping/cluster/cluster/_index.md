@@ -1,5 +1,5 @@
 ---
-title: Cluster.Cluster
+title: Cluster
 linktitle: Cluster
 second_title: Aspose.Words for .NET API Reference
 description: Cluster constructor. Initializes new instance of this class in C#.

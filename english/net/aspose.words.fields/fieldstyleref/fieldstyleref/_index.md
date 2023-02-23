@@ -1,5 +1,5 @@
 ---
-title: FieldStyleRef.FieldStyleRef
+title: FieldStyleRef
 linktitle: FieldStyleRef
 second_title: Aspose.Words for .NET API Reference
 description: FieldStyleRef constructor. The default constructor in C#.

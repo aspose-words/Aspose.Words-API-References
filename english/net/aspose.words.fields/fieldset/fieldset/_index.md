@@ -1,5 +1,5 @@
 ---
-title: FieldSet.FieldSet
+title: FieldSet
 linktitle: FieldSet
 second_title: Aspose.Words for .NET API Reference
 description: FieldSet constructor. The default constructor in C#.

@@ -1,5 +1,5 @@
 ---
-title: AsposeWordsPrintDocument.AsposeWordsPrintDocument
+title: AsposeWordsPrintDocument
 linktitle: AsposeWordsPrintDocument
 second_title: Aspose.Words for .NET API Reference
 description: AsposeWordsPrintDocument constructor. Initializes a new instance of this class in C#.

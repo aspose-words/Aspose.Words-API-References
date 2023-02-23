@@ -1,5 +1,5 @@
 ---
-title: PdfEncryptionDetails.PdfEncryptionDetails
+title: PdfEncryptionDetails
 linktitle: PdfEncryptionDetails
 second_title: Aspose.Words for .NET API Reference
 description: PdfEncryptionDetails constructor. Initializes an instance of this class in C#.

@@ -1,5 +1,5 @@
 ---
-title: FieldAutoNumLgl.FieldAutoNumLgl
+title: FieldAutoNumLgl
 linktitle: FieldAutoNumLgl
 second_title: Aspose.Words for .NET API Reference
 description: FieldAutoNumLgl constructor. The default constructor in C#.

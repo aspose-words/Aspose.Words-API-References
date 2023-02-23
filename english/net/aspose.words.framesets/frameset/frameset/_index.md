@@ -1,5 +1,5 @@
 ---
-title: Frameset.Frameset
+title: Frameset
 linktitle: Frameset
 second_title: Aspose.Words for .NET API Reference
 description: Frameset constructor. The default constructor in C#.

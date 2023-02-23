@@ -1,5 +1,5 @@
 ---
-title: WordML2003SaveOptions.WordML2003SaveOptions
+title: WordML2003SaveOptions
 linktitle: WordML2003SaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: WordML2003SaveOptions constructor. The default constructor in C#.

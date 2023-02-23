@@ -1,5 +1,5 @@
 ---
-title: FieldPrint.FieldPrint
+title: FieldPrint
 linktitle: FieldPrint
 second_title: Aspose.Words for .NET API Reference
 description: FieldPrint constructor. The default constructor in C#.

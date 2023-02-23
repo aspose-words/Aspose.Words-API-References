@@ -1,5 +1,5 @@
 ---
-title: TaskPane.TaskPane
+title: TaskPane
 linktitle: TaskPane
 second_title: Aspose.Words for .NET API Reference
 description: TaskPane constructor. The default constructor in C#.

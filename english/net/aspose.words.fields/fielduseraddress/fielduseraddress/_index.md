@@ -1,5 +1,5 @@
 ---
-title: FieldUserAddress.FieldUserAddress
+title: FieldUserAddress
 linktitle: FieldUserAddress
 second_title: Aspose.Words for .NET API Reference
 description: FieldUserAddress constructor. The default constructor in C#.

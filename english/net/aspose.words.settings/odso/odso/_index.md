@@ -1,5 +1,5 @@
 ---
-title: Odso.Odso
+title: Odso
 linktitle: Odso
 second_title: Aspose.Words for .NET API Reference
 description: Odso constructor. The default constructor in C#.

@@ -1,5 +1,5 @@
 ---
-title: PclSaveOptions.PclSaveOptions
+title: PclSaveOptions
 linktitle: PclSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: PclSaveOptions constructor. The default constructor in C#.

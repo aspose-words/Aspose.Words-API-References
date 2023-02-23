@@ -1,5 +1,5 @@
 ---
-title: FieldFormText.FieldFormText
+title: FieldFormText
 linktitle: FieldFormText
 second_title: Aspose.Words for .NET API Reference
 description: FieldFormText constructor. The default constructor in C#.

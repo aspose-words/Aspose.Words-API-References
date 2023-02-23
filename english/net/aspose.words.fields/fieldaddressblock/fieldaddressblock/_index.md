@@ -1,5 +1,5 @@
 ---
-title: FieldAddressBlock.FieldAddressBlock
+title: FieldAddressBlock
 linktitle: FieldAddressBlock
 second_title: Aspose.Words for .NET API Reference
 description: FieldAddressBlock constructor. The default constructor in C#.

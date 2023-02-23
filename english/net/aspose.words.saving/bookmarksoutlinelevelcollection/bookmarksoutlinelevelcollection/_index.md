@@ -1,5 +1,5 @@
 ---
-title: BookmarksOutlineLevelCollection.BookmarksOutlineLevelCollection
+title: BookmarksOutlineLevelCollection
 linktitle: BookmarksOutlineLevelCollection
 second_title: Aspose.Words for .NET API Reference
 description: BookmarksOutlineLevelCollection constructor. The default constructor in C#.

@@ -1,5 +1,5 @@
 ---
-title: TxtSaveOptions.TxtSaveOptions
+title: TxtSaveOptions
 linktitle: TxtSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: TxtSaveOptions constructor. The default constructor in C#.

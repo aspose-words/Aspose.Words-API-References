@@ -1,5 +1,5 @@
 ---
-title: FieldFileSize.FieldFileSize
+title: FieldFileSize
 linktitle: FieldFileSize
 second_title: Aspose.Words for .NET API Reference
 description: FieldFileSize constructor. The default constructor in C#.
