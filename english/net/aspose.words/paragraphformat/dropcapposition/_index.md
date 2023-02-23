@@ -1,5 +1,6 @@
 ---
-title: DropCapPosition
+title: ParagraphFormat.DropCapPosition
+linktitle: DropCapPosition
 second_title: Aspose.Words for .NET API Reference
 description: ParagraphFormat property. Gets or sets the position for a drop cap text in C#.
 type: docs

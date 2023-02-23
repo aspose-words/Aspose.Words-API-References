@@ -1,5 +1,6 @@
 ---
-title: Reject
+title: Revision.Reject
+linktitle: Reject
 second_title: Aspose.Words for .NET API Reference
 description: Revision method. Reject this revision in C#.
 type: docs

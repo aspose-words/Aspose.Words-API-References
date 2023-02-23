@@ -1,5 +1,6 @@
 ---
-title: UnderlineColor
+title: Font.UnderlineColor
+linktitle: UnderlineColor
 second_title: Aspose.Words for .NET API Reference
 description: Font property. Gets or sets the color of the underline applied to the font in C#.
 type: docs

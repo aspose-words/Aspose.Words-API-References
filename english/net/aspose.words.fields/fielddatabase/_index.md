@@ -1,5 +1,6 @@
 ---
 title: FieldDatabase Class
+linktitle: FieldDatabase
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldDatabase class. Implements the DATABASE field in C#.
 type: docs

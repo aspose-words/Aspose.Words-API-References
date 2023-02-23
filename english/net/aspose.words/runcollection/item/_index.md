@@ -1,5 +1,6 @@
 ---
-title: Item
+title: RunCollection.Item
+linktitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: RunCollection property. Retrieves a Run at the given index in C#.
 type: docs

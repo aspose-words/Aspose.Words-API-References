@@ -1,5 +1,6 @@
 ---
-title: CustomDocumentProperties
+title: Document.CustomDocumentProperties
+linktitle: CustomDocumentProperties
 second_title: Aspose.Words for .NET API Reference
 description: Document property. Returns a collection that represents all the custom document properties of the document in C#.
 type: docs

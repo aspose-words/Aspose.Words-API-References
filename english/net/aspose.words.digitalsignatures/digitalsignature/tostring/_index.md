@@ -1,5 +1,6 @@
 ---
-title: ToString
+title: DigitalSignature.ToString
+linktitle: ToString
 second_title: Aspose.Words for .NET API Reference
 description: DigitalSignature method. Returns a userfriendly string that displays the value of this object in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: ContentType
+title: SaveOutputParameters.ContentType
+linktitle: ContentType
 second_title: Aspose.Words for .NET API Reference
 description: SaveOutputParameters property. Returns the ContentType string Internet Media Type that identifies the type of the saved document in C#.
 type: docs

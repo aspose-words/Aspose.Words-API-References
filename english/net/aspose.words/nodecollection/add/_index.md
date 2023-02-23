@@ -1,5 +1,6 @@
 ---
-title: Add
+title: NodeCollection.Add
+linktitle: Add
 second_title: Aspose.Words for .NET API Reference
 description: NodeCollection method. Adds a node to the end of the collection in C#.
 type: docs

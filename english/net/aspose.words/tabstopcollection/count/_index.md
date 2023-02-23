@@ -1,5 +1,6 @@
 ---
-title: Count
+title: TabStopCollection.Count
+linktitle: Count
 second_title: Aspose.Words for .NET API Reference
 description: TabStopCollection property. Gets the number of tab stops in the collection in C#.
 type: docs

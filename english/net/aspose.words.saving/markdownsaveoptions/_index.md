@@ -1,5 +1,6 @@
 ---
 title: MarkdownSaveOptions Class
+linktitle: MarkdownSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.MarkdownSaveOptions class. Class to specify additional options when saving a document into the Markdown format in C#.
 type: docs

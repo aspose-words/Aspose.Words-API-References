@@ -1,5 +1,6 @@
 ---
-title: EmbedSystemFonts
+title: FontInfoCollection.EmbedSystemFonts
+linktitle: EmbedSystemFonts
 second_title: Aspose.Words for .NET API Reference
 description: FontInfoCollection property. Specifies whether or not to embed System fonts into the document. Default value for this property is false in C#.
 type: docs

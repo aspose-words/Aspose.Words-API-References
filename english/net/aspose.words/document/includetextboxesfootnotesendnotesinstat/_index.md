@@ -1,5 +1,6 @@
 ---
-title: IncludeTextboxesFootnotesEndnotesInStat
+title: Document.IncludeTextboxesFootnotesEndnotesInStat
+linktitle: IncludeTextboxesFootnotesEndnotesInStat
 second_title: Aspose.Words for .NET API Reference
 description: Document property. Specifies whether to include textboxes footnotes and endnotes in word count statistics in C#.
 type: docs

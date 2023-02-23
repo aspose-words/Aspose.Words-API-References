@@ -1,5 +1,6 @@
 ---
-title: FieldGreetingLine
+title: FieldGreetingLine.FieldGreetingLine
+linktitle: FieldGreetingLine
 second_title: Aspose.Words for .NET API Reference
 description: FieldGreetingLine constructor. The default constructor in C#.
 type: docs

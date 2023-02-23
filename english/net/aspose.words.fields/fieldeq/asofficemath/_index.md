@@ -1,5 +1,6 @@
 ---
-title: AsOfficeMath
+title: FieldEQ.AsOfficeMath
+linktitle: AsOfficeMath
 second_title: Aspose.Words for .NET API Reference
 description: FieldEQ method. Returns Office Math object corresponded to the EQ field in C#.
 type: docs

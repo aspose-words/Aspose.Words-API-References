@@ -1,5 +1,6 @@
 ---
 title: TableAlignment Enum
+linktitle: TableAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Tables.TableAlignment enum. Specifies alignment for an inline table in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: Dark2
+title: ThemeColors.Dark2
+linktitle: Dark2
 second_title: Aspose.Words for .NET API Reference
 description: ThemeColors property. Specifies color Dark 2 in C#.
 type: docs

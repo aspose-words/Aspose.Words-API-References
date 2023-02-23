@@ -1,5 +1,6 @@
 ---
-title: Visible
+title: Fill.Visible
+linktitle: Visible
 second_title: Aspose.Words for .NET API Reference
 description: Fill property. Gets or sets value that is true if the formatting applied to this instance is visible in C#.
 type: docs

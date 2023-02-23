@@ -1,5 +1,6 @@
 ---
-title: Accent1
+title: ThemeColors.Accent1
+linktitle: Accent1
 second_title: Aspose.Words for .NET API Reference
 description: ThemeColors property. Specifies color Accent 1 in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: Clear
+title: OdsoFieldMapDataCollection.Clear
+linktitle: Clear
 second_title: Aspose.Words for .NET API Reference
 description: OdsoFieldMapDataCollection method. Removes all elements from this collection in C#.
 type: docs

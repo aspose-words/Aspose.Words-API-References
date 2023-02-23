@@ -1,5 +1,6 @@
 ---
-title: OutlineOptions
+title: PdfSaveOptions.OutlineOptions
+linktitle: OutlineOptions
 second_title: Aspose.Words for .NET API Reference
 description: PdfSaveOptions property. Allows to specify outline options in C#.
 type: docs

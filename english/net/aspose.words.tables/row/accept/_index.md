@@ -1,5 +1,6 @@
 ---
-title: Accept
+title: Row.Accept
+linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
 description: Row method. Accepts a visitor in C#.
 type: docs

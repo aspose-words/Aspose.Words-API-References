@@ -1,5 +1,6 @@
 ---
-title: FieldSection
+title: FieldSection.FieldSection
+linktitle: FieldSection
 second_title: Aspose.Words for .NET API Reference
 description: FieldSection constructor. The default constructor in C#.
 type: docs

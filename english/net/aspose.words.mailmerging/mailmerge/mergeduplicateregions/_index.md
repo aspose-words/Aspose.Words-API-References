@@ -1,5 +1,6 @@
 ---
-title: MergeDuplicateRegions
+title: MailMerge.MergeDuplicateRegions
+linktitle: MergeDuplicateRegions
 second_title: Aspose.Words for .NET API Reference
 description: MailMerge property. Gets or sets a value indicating whether all of the document mail merge regions with the name of a data source should be merged while executing of a mail merge with regions against the data source or just the first one in C#.
 type: docs

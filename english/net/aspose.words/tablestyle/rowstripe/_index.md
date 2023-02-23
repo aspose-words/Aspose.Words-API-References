@@ -1,5 +1,6 @@
 ---
-title: RowStripe
+title: TableStyle.RowStripe
+linktitle: RowStripe
 second_title: Aspose.Words for .NET API Reference
 description: TableStyle property. Gets or sets a number of rows to include in the banding when the style specifies odd/even row banding in C#.
 type: docs

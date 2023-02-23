@@ -1,5 +1,6 @@
 ---
-title: Color
+title: Stroke.Color
+linktitle: Color
 second_title: Aspose.Words for .NET API Reference
 description: Stroke property. Defines the color of a stroke in C#.
 type: docs

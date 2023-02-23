@@ -1,5 +1,6 @@
 ---
-title: ListFormat
+title: DocumentBuilder.ListFormat
+linktitle: ListFormat
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder property. Returns an object that represents current list formatting properties in C#.
 type: docs

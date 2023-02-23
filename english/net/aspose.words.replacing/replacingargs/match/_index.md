@@ -1,5 +1,6 @@
 ---
-title: Match
+title: ReplacingArgs.Match
+linktitle: Match
 second_title: Aspose.Words for .NET API Reference
 description: ReplacingArgs property. The Match resulting from a single regular expression match during a Replace in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: DocumentPartSaving
+title: IDocumentPartSavingCallback.DocumentPartSaving
+linktitle: DocumentPartSaving
 second_title: Aspose.Words for .NET API Reference
 description: IDocumentPartSavingCallback method. Called when Aspose.Words is about to save a document part in C#.
 type: docs

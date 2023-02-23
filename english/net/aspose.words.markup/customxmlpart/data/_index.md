@@ -1,5 +1,6 @@
 ---
-title: Data
+title: CustomXmlPart.Data
+linktitle: Data
 second_title: Aspose.Words for .NET API Reference
 description: CustomXmlPart property. Gets or sets the XML content of this Custom XML Data Storage Part in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: AxisBound
+title: AxisBound.AxisBound
+linktitle: AxisBound
 second_title: Aspose.Words for .NET API Reference
 description: AxisBound constructor. Creates a new instance indicating that axis bound should be determined automatically by a wordprocessing application in C#.
 type: docs

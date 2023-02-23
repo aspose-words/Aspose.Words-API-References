@@ -1,5 +1,6 @@
 ---
-title: SetLicense
+title: License.SetLicense
+linktitle: SetLicense
 second_title: Aspose.Words for .NET API Reference
 description: License method. Licenses the component in C#.
 type: docs

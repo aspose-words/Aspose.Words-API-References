@@ -1,5 +1,6 @@
 ---
-title: Count
+title: VbaModuleCollection.Count
+linktitle: Count
 second_title: Aspose.Words for .NET API Reference
 description: VbaModuleCollection property. Returns the number of VBA modules in the collection in C#.
 type: docs

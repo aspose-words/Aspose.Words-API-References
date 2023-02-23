@@ -1,5 +1,6 @@
 ---
-title: Id
+title: Comment.Id
+linktitle: Id
 second_title: Aspose.Words for .NET API Reference
 description: Comment property. Gets the comment identifier in C#.
 type: docs

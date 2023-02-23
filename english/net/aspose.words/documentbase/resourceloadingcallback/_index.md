@@ -1,5 +1,6 @@
 ---
-title: ResourceLoadingCallback
+title: DocumentBase.ResourceLoadingCallback
+linktitle: ResourceLoadingCallback
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBase property. Allows to control how external resources are loaded in C#.
 type: docs

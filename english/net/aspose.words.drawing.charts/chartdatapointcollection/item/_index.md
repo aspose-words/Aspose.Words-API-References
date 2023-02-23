@@ -1,5 +1,6 @@
 ---
-title: Item
+title: ChartDataPointCollection.Item
+linktitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: ChartDataPointCollection property. Returns ChartDataPoint for the specified index in C#.
 type: docs

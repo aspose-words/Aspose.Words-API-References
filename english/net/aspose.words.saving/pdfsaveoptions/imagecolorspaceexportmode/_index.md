@@ -1,5 +1,6 @@
 ---
-title: ImageColorSpaceExportMode
+title: PdfSaveOptions.ImageColorSpaceExportMode
+linktitle: ImageColorSpaceExportMode
 second_title: Aspose.Words for .NET API Reference
 description: PdfSaveOptions property. Specifies how the color space will be selected for the images in PDF document in C#.
 type: docs

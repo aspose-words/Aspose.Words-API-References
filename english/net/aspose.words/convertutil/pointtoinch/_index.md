@@ -1,5 +1,6 @@
 ---
-title: PointToInch
+title: ConvertUtil.PointToInch
+linktitle: PointToInch
 second_title: Aspose.Words for .NET API Reference
 description: ConvertUtil method. Converts points to inches in C#.
 type: docs

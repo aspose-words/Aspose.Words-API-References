@@ -1,5 +1,6 @@
 ---
-title: FileName
+title: FieldDatabase.FileName
+linktitle: FileName
 second_title: Aspose.Words for .NET API Reference
 description: FieldDatabase property. Gets or sets the complete path and file name of the database in C#.
 type: docs

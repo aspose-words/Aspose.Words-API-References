@@ -1,5 +1,6 @@
 ---
-title: BarcodeType
+title: FieldDisplayBarcode.BarcodeType
+linktitle: BarcodeType
 second_title: Aspose.Words for .NET API Reference
 description: FieldDisplayBarcode property. Gets or sets the barcode type QR etc in C#.
 type: docs

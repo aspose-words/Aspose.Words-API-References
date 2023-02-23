@@ -1,5 +1,6 @@
 ---
-title: FrameDefaultUrl
+title: Frameset.FrameDefaultUrl
+linktitle: FrameDefaultUrl
 second_title: Aspose.Words for .NET API Reference
 description: Frameset property. Gets or sets the web page URL or document file name to display in this frame in C#.
 type: docs

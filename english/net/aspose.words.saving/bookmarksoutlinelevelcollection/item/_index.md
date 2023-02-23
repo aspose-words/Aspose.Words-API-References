@@ -1,5 +1,6 @@
 ---
-title: Item
+title: BookmarksOutlineLevelCollection.Item
+linktitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: BookmarksOutlineLevelCollection property. Gets or a sets a bookmark outline level by the bookmark name in C#.
 type: docs

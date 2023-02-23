@@ -1,5 +1,6 @@
 ---
-title: EndArrowType
+title: Stroke.EndArrowType
+linktitle: EndArrowType
 second_title: Aspose.Words for .NET API Reference
 description: Stroke property. Defines the arrowhead for the end of a stroke in C#.
 type: docs

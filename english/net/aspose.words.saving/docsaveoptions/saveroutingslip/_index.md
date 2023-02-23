@@ -1,5 +1,6 @@
 ---
-title: SaveRoutingSlip
+title: DocSaveOptions.SaveRoutingSlip
+linktitle: SaveRoutingSlip
 second_title: Aspose.Words for .NET API Reference
 description: DocSaveOptions property. When false RoutingSlip data is not saved to output document. Default value is true in C#.
 type: docs

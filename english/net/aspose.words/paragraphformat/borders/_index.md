@@ -1,5 +1,6 @@
 ---
-title: Borders
+title: ParagraphFormat.Borders
+linktitle: Borders
 second_title: Aspose.Words for .NET API Reference
 description: ParagraphFormat property. Gets collection of borders of the paragraph in C#.
 type: docs

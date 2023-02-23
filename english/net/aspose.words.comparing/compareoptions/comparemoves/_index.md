@@ -1,5 +1,6 @@
 ---
-title: CompareMoves
+title: CompareOptions.CompareMoves
+linktitle: CompareMoves
 second_title: Aspose.Words for .NET API Reference
 description: CompareOptions property. Specifies whether to compare differences in MoveRevision between the two documents. By default move revisions are not produced in C#.
 type: docs

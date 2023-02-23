@@ -1,5 +1,6 @@
 ---
-title: Action
+title: NodeChangingArgs.Action
+linktitle: Action
 second_title: Aspose.Words for .NET API Reference
 description: NodeChangingArgs property. Gets a value indicating what type of node change event is occurring in C#.
 type: docs

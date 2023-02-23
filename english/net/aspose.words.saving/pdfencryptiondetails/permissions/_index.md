@@ -1,5 +1,6 @@
 ---
-title: Permissions
+title: PdfEncryptionDetails.Permissions
+linktitle: Permissions
 second_title: Aspose.Words for .NET API Reference
 description: PdfEncryptionDetails property. Specifies the operations that are allowed to a user on an encrypted PDF document. The default value is DisallowAll in C#.
 type: docs

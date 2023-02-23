@@ -1,5 +1,6 @@
 ---
-title: Accept
+title: BookmarkStart.Accept
+linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
 description: BookmarkStart method. Accepts a visitor in C#.
 type: docs

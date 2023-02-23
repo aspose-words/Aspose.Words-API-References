@@ -1,5 +1,6 @@
 ---
-title: ForcePageBreaks
+title: TxtSaveOptionsBase.ForcePageBreaks
+linktitle: ForcePageBreaks
 second_title: Aspose.Words for .NET API Reference
 description: TxtSaveOptionsBase property. Allows to specify whether the page breaks should be preserved during export in C#.
 type: docs

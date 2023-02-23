@@ -1,5 +1,6 @@
 ---
-title: PresetTextured
+title: Fill.PresetTextured
+linktitle: PresetTextured
 second_title: Aspose.Words for .NET API Reference
 description: Fill method. Sets the fill to a preset texture in C#.
 type: docs

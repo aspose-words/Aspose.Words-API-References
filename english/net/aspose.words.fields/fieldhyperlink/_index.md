@@ -1,5 +1,6 @@
 ---
 title: FieldHyperlink Class
+linktitle: FieldHyperlink
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldHyperlink class. Implements the HYPERLINK field in C#.
 type: docs

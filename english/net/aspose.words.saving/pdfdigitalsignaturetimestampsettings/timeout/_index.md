@@ -1,5 +1,6 @@
 ---
-title: Timeout
+title: PdfDigitalSignatureTimestampSettings.Timeout
+linktitle: Timeout
 second_title: Aspose.Words for .NET API Reference
 description: PdfDigitalSignatureTimestampSettings property. Timeout value for accessing timestamp server in C#.
 type: docs

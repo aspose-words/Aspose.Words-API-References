@@ -1,5 +1,6 @@
 ---
-title: NamespaceMappings
+title: FieldIncludeText.NamespaceMappings
+linktitle: NamespaceMappings
 second_title: Aspose.Words for .NET API Reference
 description: FieldIncludeText property. Gets or sets the namespace mappings for XPath queries in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: RightExpression
+title: ComparisonExpression.RightExpression
+linktitle: RightExpression
 second_title: Aspose.Words for .NET API Reference
 description: ComparisonExpression property. Gets the right expression in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: Remove
+title: MappedDataFieldCollection.Remove
+linktitle: Remove
 second_title: Aspose.Words for .NET API Reference
 description: MappedDataFieldCollection method. Removes a field mapping in C#.
 type: docs

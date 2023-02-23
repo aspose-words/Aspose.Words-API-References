@@ -1,5 +1,6 @@
 ---
-title: FieldTC
+title: FieldTC.FieldTC
+linktitle: FieldTC
 second_title: Aspose.Words for .NET API Reference
 description: FieldTC constructor. The default constructor in C#.
 type: docs

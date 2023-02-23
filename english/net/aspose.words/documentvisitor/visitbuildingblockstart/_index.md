@@ -1,5 +1,6 @@
 ---
-title: VisitBuildingBlockStart
+title: DocumentVisitor.VisitBuildingBlockStart
+linktitle: VisitBuildingBlockStart
 second_title: Aspose.Words for .NET API Reference
 description: DocumentVisitor method. Called when enumeration of a building block has started in C#.
 type: docs

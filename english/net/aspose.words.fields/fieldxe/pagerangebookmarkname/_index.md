@@ -1,5 +1,6 @@
 ---
-title: PageRangeBookmarkName
+title: FieldXE.PageRangeBookmarkName
+linktitle: PageRangeBookmarkName
 second_title: Aspose.Words for .NET API Reference
 description: FieldXE property. Gets or sets the name of the bookmark that marks a range of pages that is inserted as the entrys page number in C#.
 type: docs

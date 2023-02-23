@@ -1,5 +1,6 @@
 ---
-title: InsertOnlineVideo
+title: DocumentBuilder.InsertOnlineVideo
+linktitle: InsertOnlineVideo
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder method. Inserts an online video object into the document and scales it to the specified size in C#.
 type: docs

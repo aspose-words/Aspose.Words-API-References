@@ -1,5 +1,6 @@
 ---
-title: EntryIdentifier
+title: FieldToc.EntryIdentifier
+linktitle: EntryIdentifier
 second_title: Aspose.Words for .NET API Reference
 description: FieldToc property. Gets or sets a string that should match type identifiers of TC fields being included in C#.
 type: docs

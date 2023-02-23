@@ -1,5 +1,6 @@
 ---
 title: MetafileRenderingOptions Class
+linktitle: MetafileRenderingOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.MetafileRenderingOptions class. Allows to specify additional metafile rendering options in C#.
 type: docs

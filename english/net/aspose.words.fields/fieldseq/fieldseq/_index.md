@@ -1,5 +1,6 @@
 ---
-title: FieldSeq
+title: FieldSeq.FieldSeq
+linktitle: FieldSeq
 second_title: Aspose.Words for .NET API Reference
 description: FieldSeq constructor. The default constructor in C#.
 type: docs

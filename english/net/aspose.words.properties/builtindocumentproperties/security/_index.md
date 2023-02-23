@@ -1,5 +1,6 @@
 ---
-title: Security
+title: BuiltInDocumentProperties.Security
+linktitle: Security
 second_title: Aspose.Words for .NET API Reference
 description: BuiltInDocumentProperties property. Specifies the security level of a document as a numeric value in C#.
 type: docs

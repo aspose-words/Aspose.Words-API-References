@@ -1,5 +1,6 @@
 ---
-title: LeftExpression
+title: ComparisonExpression.LeftExpression
+linktitle: LeftExpression
 second_title: Aspose.Words for .NET API Reference
 description: ComparisonExpression property. Gets the left expression in C#.
 type: docs

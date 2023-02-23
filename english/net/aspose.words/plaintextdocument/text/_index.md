@@ -1,5 +1,6 @@
 ---
-title: Text
+title: PlainTextDocument.Text
+linktitle: Text
 second_title: Aspose.Words for .NET API Reference
 description: PlainTextDocument property. Gets textual content of the document concatenated as a string in C#.
 type: docs

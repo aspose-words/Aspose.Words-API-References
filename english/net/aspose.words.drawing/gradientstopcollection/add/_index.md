@@ -1,5 +1,6 @@
 ---
-title: Add
+title: GradientStopCollection.Add
+linktitle: Add
 second_title: Aspose.Words for .NET API Reference
 description: GradientStopCollection method. Adds a specified GradientStop to a gradient in C#.
 type: docs

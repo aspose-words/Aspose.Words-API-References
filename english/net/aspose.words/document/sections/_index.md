@@ -1,5 +1,6 @@
 ---
-title: Sections
+title: Document.Sections
+linktitle: Sections
 second_title: Aspose.Words for .NET API Reference
 description: Document property. Returns a collection that represents all sections in the document in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: VisitSectionEnd
+title: DocumentVisitor.VisitSectionEnd
+linktitle: VisitSectionEnd
 second_title: Aspose.Words for .NET API Reference
 description: DocumentVisitor method. Called when enumeration of a section has ended in C#.
 type: docs

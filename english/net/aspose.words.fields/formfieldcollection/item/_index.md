@@ -1,5 +1,6 @@
 ---
-title: Item
+title: FormFieldCollection.Item
+linktitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: FormFieldCollection property. Returns a form field at the specified index in C#.
 type: docs

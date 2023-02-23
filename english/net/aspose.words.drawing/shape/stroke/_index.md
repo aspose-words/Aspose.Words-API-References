@@ -1,5 +1,6 @@
 ---
-title: Stroke
+title: Shape.Stroke
+linktitle: Stroke
 second_title: Aspose.Words for .NET API Reference
 description: Shape property. Defines a stroke for a shape in C#.
 type: docs

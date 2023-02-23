@@ -1,5 +1,6 @@
 ---
-title: PlainTextDocument
+title: PlainTextDocument.PlainTextDocument
+linktitle: PlainTextDocument
 second_title: Aspose.Words for .NET API Reference
 description: PlainTextDocument constructor. Creates a plain text document from a file. Automatically detects the file format in C#.
 type: docs

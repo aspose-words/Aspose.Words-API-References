@@ -1,5 +1,6 @@
 ---
 title: Row Class
+linktitle: Row
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Tables.Row class. Represents a table row in C#.
 type: docs

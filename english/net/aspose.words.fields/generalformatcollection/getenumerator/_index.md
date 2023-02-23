@@ -1,5 +1,6 @@
 ---
-title: GetEnumerator
+title: GeneralFormatCollection.GetEnumerator
+linktitle: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: GeneralFormatCollection method. Returns an enumerator object in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: AutoUpdate
+title: OleFormat.AutoUpdate
+linktitle: AutoUpdate
 second_title: Aspose.Words for .NET API Reference
 description: OleFormat property. Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: Item
+title: ParagraphCollection.Item
+linktitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: ParagraphCollection property. Retrieves a Paragraph at the given index in C#.
 type: docs

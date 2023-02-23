@@ -1,5 +1,6 @@
 ---
-title: MoveParent
+title: LayoutEnumerator.MoveParent
+linktitle: MoveParent
 second_title: Aspose.Words for .NET API Reference
 description: LayoutEnumerator method. Moves to the parent entity in C#.
 type: docs

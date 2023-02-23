@@ -1,5 +1,6 @@
 ---
-title: BackgroundColor
+title: FieldMergeBarcode.BackgroundColor
+linktitle: BackgroundColor
 second_title: Aspose.Words for .NET API Reference
 description: FieldMergeBarcode property. Gets or sets the background color of the barcode symbol. Valid values are in the range 0 0xFFFFFF in C#.
 type: docs

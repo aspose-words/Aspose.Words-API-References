@@ -1,5 +1,6 @@
 ---
-title: Type
+title: FieldMergeField.Type
+linktitle: Type
 second_title: Aspose.Words for .NET API Reference
 description: FieldMergeField property. Gets the Microsoft Word field type in C#.
 type: docs

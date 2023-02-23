@@ -1,5 +1,6 @@
 ---
-title: Document
+title: Style.Document
+linktitle: Document
 second_title: Aspose.Words for .NET API Reference
 description: Style property. Gets the owner document in C#.
 type: docs

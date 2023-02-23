@@ -1,5 +1,6 @@
 ---
-title: Accept
+title: Revision.Accept
+linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
 description: Revision method. Accepts this revision in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: EntryType
+title: FieldXE.EntryType
+linktitle: EntryType
 second_title: Aspose.Words for .NET API Reference
 description: FieldXE property. Gets or sets an index entry type in C#.
 type: docs

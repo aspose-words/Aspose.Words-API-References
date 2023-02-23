@@ -1,5 +1,6 @@
 ---
-title: CreateFrom
+title: FieldDatabaseDataTable.CreateFrom
+linktitle: CreateFrom
 second_title: Aspose.Words for .NET API Reference
 description: FieldDatabaseDataTable method. Initializes a new instance of the FieldDatabaseDataTable class from the DataTable instance in C#.
 type: docs

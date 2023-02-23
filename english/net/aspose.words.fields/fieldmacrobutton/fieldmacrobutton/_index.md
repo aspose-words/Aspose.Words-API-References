@@ -1,5 +1,6 @@
 ---
-title: FieldMacroButton
+title: FieldMacroButton.FieldMacroButton
+linktitle: FieldMacroButton
 second_title: Aspose.Words for .NET API Reference
 description: FieldMacroButton constructor. The default constructor in C#.
 type: docs

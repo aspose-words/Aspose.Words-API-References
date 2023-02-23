@@ -1,5 +1,6 @@
 ---
-title: PreserveLineBreaks
+title: FieldToc.PreserveLineBreaks
+linktitle: PreserveLineBreaks
 second_title: Aspose.Words for .NET API Reference
 description: FieldToc property. Gets or sets whether to preserve newline characters within table entries in C#.
 type: docs

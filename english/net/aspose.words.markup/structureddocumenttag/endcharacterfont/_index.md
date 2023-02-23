@@ -1,5 +1,6 @@
 ---
-title: EndCharacterFont
+title: StructuredDocumentTag.EndCharacterFont
+linktitle: EndCharacterFont
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTag property. Font formatting that will be applied to the last character of text entered into SDT in C#.
 type: docs

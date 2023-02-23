@@ -1,5 +1,6 @@
 ---
-title: RegisterDictionary
+title: Hyphenation.RegisterDictionary
+linktitle: RegisterDictionary
 second_title: Aspose.Words for .NET API Reference
 description: Hyphenation method. Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format in C#.
 type: docs

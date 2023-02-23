@@ -1,5 +1,6 @@
 ---
-title: PageSavingCallback
+title: FixedPageSaveOptions.PageSavingCallback
+linktitle: PageSavingCallback
 second_title: Aspose.Words for .NET API Reference
 description: FixedPageSaveOptions property. Allows to control how separate pages are saved when a document is exported to fixed page format in C#.
 type: docs

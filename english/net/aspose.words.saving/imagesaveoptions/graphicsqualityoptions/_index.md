@@ -1,5 +1,6 @@
 ---
-title: GraphicsQualityOptions
+title: ImageSaveOptions.GraphicsQualityOptions
+linktitle: GraphicsQualityOptions
 second_title: Aspose.Words for .NET API Reference
 description: ImageSaveOptions property. Allows to specify rendering mode and quality for the Graphics object in C#.
 type: docs

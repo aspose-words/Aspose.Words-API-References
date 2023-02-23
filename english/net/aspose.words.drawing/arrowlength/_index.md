@@ -1,5 +1,6 @@
 ---
 title: ArrowLength Enum
+linktitle: ArrowLength
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.ArrowLength enum. Length of the arrow at the end of a line in C#.
 type: docs

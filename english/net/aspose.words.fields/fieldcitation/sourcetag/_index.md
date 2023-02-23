@@ -1,5 +1,6 @@
 ---
-title: SourceTag
+title: FieldCitation.SourceTag
+linktitle: SourceTag
 second_title: Aspose.Words for .NET API Reference
 description: FieldCitation property. Gets or sets a value that mathes the Tag elements value of the source to insert in C#.
 type: docs

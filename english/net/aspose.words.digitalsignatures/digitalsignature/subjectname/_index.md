@@ -1,5 +1,6 @@
 ---
-title: SubjectName
+title: DigitalSignature.SubjectName
+linktitle: SubjectName
 second_title: Aspose.Words for .NET API Reference
 description: DigitalSignature property. Returns the subject distinguished name of the certificate that was used to sign the document in C#.
 type: docs

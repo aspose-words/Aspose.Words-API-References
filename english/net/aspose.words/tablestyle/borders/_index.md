@@ -1,5 +1,6 @@
 ---
-title: Borders
+title: TableStyle.Borders
+linktitle: Borders
 second_title: Aspose.Words for .NET API Reference
 description: TableStyle property. Gets the collection of default cell borders for the style in C#.
 type: docs

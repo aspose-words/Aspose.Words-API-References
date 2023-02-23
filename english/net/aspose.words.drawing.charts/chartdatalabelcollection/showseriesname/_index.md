@@ -1,5 +1,6 @@
 ---
-title: ShowSeriesName
+title: ChartDataLabelCollection.ShowSeriesName
+linktitle: ShowSeriesName
 second_title: Aspose.Words for .NET API Reference
 description: ChartDataLabelCollection property. Returns or sets a Boolean to indicate the series name display behavior for the data labels of the entire series. true to show the series name false to hide. By default false in C#.
 type: docs

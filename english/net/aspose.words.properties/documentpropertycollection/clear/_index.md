@@ -1,5 +1,6 @@
 ---
-title: Clear
+title: DocumentPropertyCollection.Clear
+linktitle: Clear
 second_title: Aspose.Words for .NET API Reference
 description: DocumentPropertyCollection method. Removes all properties from the collection in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: IsFirstRow
+title: Row.IsFirstRow
+linktitle: IsFirstRow
 second_title: Aspose.Words for .NET API Reference
 description: Row property. True if this is the first row in a table false otherwise in C#.
 type: docs

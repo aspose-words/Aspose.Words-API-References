@@ -1,5 +1,6 @@
 ---
-title: ParentTable
+title: Row.ParentTable
+linktitle: ParentTable
 second_title: Aspose.Words for .NET API Reference
 description: Row property. Returns the immediate parent table of the row in C#.
 type: docs

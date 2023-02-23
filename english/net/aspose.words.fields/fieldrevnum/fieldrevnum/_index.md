@@ -1,5 +1,6 @@
 ---
-title: FieldRevNum
+title: FieldRevNum.FieldRevNum
+linktitle: FieldRevNum
 second_title: Aspose.Words for .NET API Reference
 description: FieldRevNum constructor. The default constructor in C#.
 type: docs

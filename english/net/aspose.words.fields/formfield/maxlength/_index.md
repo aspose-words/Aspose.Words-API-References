@@ -1,5 +1,6 @@
 ---
-title: MaxLength
+title: FormField.MaxLength
+linktitle: MaxLength
 second_title: Aspose.Words for .NET API Reference
 description: FormField property. Maximum length for the text field. Zero when the length is not limited in C#.
 type: docs

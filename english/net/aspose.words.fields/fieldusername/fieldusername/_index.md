@@ -1,5 +1,6 @@
 ---
-title: FieldUserName
+title: FieldUserName.FieldUserName
+linktitle: FieldUserName
 second_title: Aspose.Words for .NET API Reference
 description: FieldUserName constructor. The default constructor in C#.
 type: docs

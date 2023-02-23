@@ -1,5 +1,6 @@
 ---
-title: CodePage
+title: VbaProject.CodePage
+linktitle: CodePage
 second_title: Aspose.Words for .NET API Reference
 description: VbaProject property. Returns the VBA projects code page in C#.
 type: docs

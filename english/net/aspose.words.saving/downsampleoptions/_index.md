@@ -1,5 +1,6 @@
 ---
 title: DownsampleOptions Class
+linktitle: DownsampleOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.DownsampleOptions class. Allows to specify downsample options in C#.
 type: docs

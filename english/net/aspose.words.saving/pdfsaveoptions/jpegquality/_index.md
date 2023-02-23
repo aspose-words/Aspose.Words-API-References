@@ -1,5 +1,6 @@
 ---
-title: JpegQuality
+title: PdfSaveOptions.JpegQuality
+linktitle: JpegQuality
 second_title: Aspose.Words for .NET API Reference
 description: PdfSaveOptions property. Gets or sets a value determining the quality of the JPEG images inside PDF document in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: TextCompression
+title: PdfSaveOptions.TextCompression
+linktitle: TextCompression
 second_title: Aspose.Words for .NET API Reference
 description: PdfSaveOptions property. Specifies compression type to be used for all textual content in the document in C#.
 type: docs

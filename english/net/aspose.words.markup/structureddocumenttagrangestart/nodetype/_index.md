@@ -1,5 +1,6 @@
 ---
-title: NodeType
+title: StructuredDocumentTagRangeStart.NodeType
+linktitle: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTagRangeStart property. Returns StructuredDocumentTagRangeStart in C#.
 type: docs

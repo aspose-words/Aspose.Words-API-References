@@ -1,5 +1,6 @@
 ---
 title: Frameset Class
+linktitle: Frameset
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Framesets.Frameset class. Represents a frames page or a single frame on a frames page in C#.
 type: docs

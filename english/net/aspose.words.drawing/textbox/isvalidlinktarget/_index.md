@@ -1,5 +1,6 @@
 ---
-title: IsValidLinkTarget
+title: TextBox.IsValidLinkTarget
+linktitle: IsValidLinkTarget
 second_title: Aspose.Words for .NET API Reference
 description: TextBox method. Determines whether this TextBox can be linked to the target TextBox in C#.
 type: docs

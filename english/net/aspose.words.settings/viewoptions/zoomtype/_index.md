@@ -1,5 +1,6 @@
 ---
-title: ZoomType
+title: ViewOptions.ZoomType
+linktitle: ZoomType
 second_title: Aspose.Words for .NET API Reference
 description: ViewOptions property. Gets or sets a zoom value based on the size of the window in C#.
 type: docs

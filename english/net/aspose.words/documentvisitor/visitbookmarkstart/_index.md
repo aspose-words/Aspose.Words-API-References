@@ -1,5 +1,6 @@
 ---
-title: VisitBookmarkStart
+title: DocumentVisitor.VisitBookmarkStart
+linktitle: VisitBookmarkStart
 second_title: Aspose.Words for .NET API Reference
 description: DocumentVisitor method. Called when a start of a bookmark is encountered in the document in C#.
 type: docs

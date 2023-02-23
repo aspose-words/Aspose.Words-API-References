@@ -1,5 +1,6 @@
 ---
-title: TransparentMetafiles
+title: CompatibilityOptions.TransparentMetafiles
+linktitle: TransparentMetafiles
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions property. Specifies not to blank the area behind metafile pictures in C#.
 type: docs

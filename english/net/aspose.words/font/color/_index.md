@@ -1,5 +1,6 @@
 ---
-title: Color
+title: Font.Color
+linktitle: Color
 second_title: Aspose.Words for .NET API Reference
 description: Font property. Gets or sets the color of the font in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
 title: EmphasisMark Enum
+linktitle: EmphasisMark
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.EmphasisMark enum. Specifies possible types of emphasis mark in C#.
 type: docs

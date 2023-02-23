@@ -1,5 +1,6 @@
 ---
-title: Item
+title: BaseWebExtensionCollection1.Item
+linktitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: BaseWebExtensionCollection property. Gets or sets an item at the specified index in C#.
 type: docs

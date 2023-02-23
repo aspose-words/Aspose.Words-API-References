@@ -1,5 +1,6 @@
 ---
-title: JpegQuality
+title: ImageSaveOptions.JpegQuality
+linktitle: JpegQuality
 second_title: Aspose.Words for .NET API Reference
 description: ImageSaveOptions property. Gets or sets a value determining the quality of the generated JPEG images in C#.
 type: docs

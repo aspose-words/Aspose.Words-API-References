@@ -1,5 +1,6 @@
 ---
-title: OutlineOptions
+title: OutlineOptions.OutlineOptions
+linktitle: OutlineOptions
 second_title: Aspose.Words for .NET API Reference
 description: OutlineOptions constructor. The default constructor in C#.
 type: docs

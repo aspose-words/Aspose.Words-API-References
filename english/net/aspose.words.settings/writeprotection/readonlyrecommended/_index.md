@@ -1,5 +1,6 @@
 ---
-title: ReadOnlyRecommended
+title: WriteProtection.ReadOnlyRecommended
+linktitle: ReadOnlyRecommended
 second_title: Aspose.Words for .NET API Reference
 description: WriteProtection property. Specifies whether the document author has recommended that the document be opened as readonly in C#.
 type: docs

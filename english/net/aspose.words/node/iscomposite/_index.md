@@ -1,5 +1,6 @@
 ---
-title: IsComposite
+title: Node.IsComposite
+linktitle: IsComposite
 second_title: Aspose.Words for .NET API Reference
 description: Node property. Returns true if this node can contain other nodes in C#.
 type: docs

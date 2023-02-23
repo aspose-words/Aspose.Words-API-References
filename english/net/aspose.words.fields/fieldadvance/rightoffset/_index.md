@@ -1,5 +1,6 @@
 ---
-title: RightOffset
+title: FieldAdvance.RightOffset
+linktitle: RightOffset
 second_title: Aspose.Words for .NET API Reference
 description: FieldAdvance property. Gets or sets the number of points by which the text that follows the field should be moved right in C#.
 type: docs

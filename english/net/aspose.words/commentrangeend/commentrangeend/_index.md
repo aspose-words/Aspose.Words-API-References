@@ -1,5 +1,6 @@
 ---
-title: CommentRangeEnd
+title: CommentRangeEnd.CommentRangeEnd
+linktitle: CommentRangeEnd
 second_title: Aspose.Words for .NET API Reference
 description: CommentRangeEnd constructor. Initializes a new instance of this class in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: FieldFileName
+title: FieldFileName.FieldFileName
+linktitle: FieldFileName
 second_title: Aspose.Words for .NET API Reference
 description: FieldFileName constructor. The default constructor in C#.
 type: docs

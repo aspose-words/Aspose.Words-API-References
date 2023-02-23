@@ -1,5 +1,6 @@
 ---
-title: FieldNoteRef
+title: FieldNoteRef.FieldNoteRef
+linktitle: FieldNoteRef
 second_title: Aspose.Words for .NET API Reference
 description: FieldNoteRef constructor. The default constructor in C#.
 type: docs

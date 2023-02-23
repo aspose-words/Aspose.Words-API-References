@@ -1,5 +1,6 @@
 ---
-title: UseSakaEraCalendar
+title: FieldPrintDate.UseSakaEraCalendar
+linktitle: UseSakaEraCalendar
 second_title: Aspose.Words for .NET API Reference
 description: FieldPrintDate property. Gets or sets whether to use the Saka Era calendar in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: TagsReplaced
+title: IMailMergeCallback.TagsReplaced
+linktitle: TagsReplaced
 second_title: Aspose.Words for .NET API Reference
 description: IMailMergeCallback method. Called when mustache text tags are replaced with MERGEFIELD fields in C#.
 type: docs

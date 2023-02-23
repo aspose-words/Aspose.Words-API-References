@@ -1,5 +1,6 @@
 ---
-title: GetIndexByPosition
+title: TabStopCollection.GetIndexByPosition
+linktitle: GetIndexByPosition
 second_title: Aspose.Words for .NET API Reference
 description: TabStopCollection method. Gets the index of a tab stop with the specified position in points in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
 title: PageSet Class
+linktitle: PageSet
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.PageSet class. Describes a random set of pages in C#.
 type: docs

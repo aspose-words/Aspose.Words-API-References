@@ -1,5 +1,6 @@
 ---
-title: ListFormat
+title: Paragraph.ListFormat
+linktitle: ListFormat
 second_title: Aspose.Words for .NET API Reference
 description: Paragraph property. Provides access to the list formatting properties of the paragraph in C#.
 type: docs

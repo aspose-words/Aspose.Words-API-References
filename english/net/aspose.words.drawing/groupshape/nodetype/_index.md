@@ -1,5 +1,6 @@
 ---
-title: NodeType
+title: GroupShape.NodeType
+linktitle: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: GroupShape property. Returns GroupShape in C#.
 type: docs

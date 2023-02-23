@@ -1,5 +1,6 @@
 ---
-title: Shading
+title: Font.Shading
+linktitle: Shading
 second_title: Aspose.Words for .NET API Reference
 description: Font property. Returns a Shading object that refers to the shading formatting for the font in C#.
 type: docs

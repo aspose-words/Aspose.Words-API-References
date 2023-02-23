@@ -1,5 +1,6 @@
 ---
-title: ShowLegendKey
+title: ChartDataLabel.ShowLegendKey
+linktitle: ShowLegendKey
 second_title: Aspose.Words for .NET API Reference
 description: ChartDataLabel property. Allows to specify if legend key is to be displayed for the data labels on a chart. Default value is false in C#.
 type: docs

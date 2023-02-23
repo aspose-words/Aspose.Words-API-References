@@ -1,5 +1,6 @@
 ---
-title: On
+title: Stroke.On
+linktitle: On
 second_title: Aspose.Words for .NET API Reference
 description: Stroke property. Defines whether the path will be stroked in C#.
 type: docs

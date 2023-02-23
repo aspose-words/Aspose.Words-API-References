@@ -1,5 +1,6 @@
 ---
-title: EntryLevel
+title: FieldTC.EntryLevel
+linktitle: EntryLevel
 second_title: Aspose.Words for .NET API Reference
 description: FieldTC property. Gets or sets the level of the entry in C#.
 type: docs

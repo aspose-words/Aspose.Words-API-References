@@ -1,5 +1,6 @@
 ---
 title: WarningInfoCollection Class
+linktitle: WarningInfoCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.WarningInfoCollection class. Represents a typed collection of WarningInfo objects in C#.
 type: docs

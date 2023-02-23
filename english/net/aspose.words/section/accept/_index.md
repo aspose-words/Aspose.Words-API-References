@@ -1,5 +1,6 @@
 ---
-title: Accept
+title: Section.Accept
+linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
 description: Section method. Accepts a visitor in C#.
 type: docs

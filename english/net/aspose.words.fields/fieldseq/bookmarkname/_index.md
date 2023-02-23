@@ -1,5 +1,6 @@
 ---
-title: BookmarkName
+title: FieldSeq.BookmarkName
+linktitle: BookmarkName
 second_title: Aspose.Words for .NET API Reference
 description: FieldSeq property. Gets or sets a bookmark name that refers to an item elsewhere in the document rather than in the current location in C#.
 type: docs

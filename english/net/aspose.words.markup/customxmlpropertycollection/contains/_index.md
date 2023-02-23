@@ -1,5 +1,6 @@
 ---
-title: Contains
+title: CustomXmlPropertyCollection.Contains
+linktitle: Contains
 second_title: Aspose.Words for .NET API Reference
 description: CustomXmlPropertyCollection method. Determines whether the collection contains a property with the given name in C#.
 type: docs

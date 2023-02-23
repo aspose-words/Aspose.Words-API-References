@@ -1,5 +1,6 @@
 ---
-title: LastBuildingBlock
+title: GlossaryDocument.LastBuildingBlock
+linktitle: LastBuildingBlock
 second_title: Aspose.Words for .NET API Reference
 description: GlossaryDocument property. Gets the last building block in the glossary document in C#.
 type: docs

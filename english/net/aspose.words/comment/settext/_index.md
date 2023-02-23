@@ -1,5 +1,6 @@
 ---
-title: SetText
+title: Comment.SetText
+linktitle: SetText
 second_title: Aspose.Words for .NET API Reference
 description: Comment method. This is a convenience method that allows to easily set text of the comment in C#.
 type: docs

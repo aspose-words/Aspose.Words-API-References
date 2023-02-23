@@ -1,5 +1,6 @@
 ---
-title: LinkSource
+title: DocumentProperty.LinkSource
+linktitle: LinkSource
 second_title: Aspose.Words for .NET API Reference
 description: DocumentProperty property. Gets the source of a linked custom document property in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: BarcodeGenerator
+title: FieldOptions.BarcodeGenerator
+linktitle: BarcodeGenerator
 second_title: Aspose.Words for .NET API Reference
 description: FieldOptions property. Gets or set custom barcode generator in C#.
 type: docs

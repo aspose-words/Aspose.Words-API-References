@@ -1,5 +1,6 @@
 ---
-title: NodeType
+title: Node.NodeType
+linktitle: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Node property. Gets the type of this node in C#.
 type: docs

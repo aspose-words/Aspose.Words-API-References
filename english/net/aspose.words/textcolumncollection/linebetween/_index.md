@@ -1,5 +1,6 @@
 ---
-title: LineBetween
+title: TextColumnCollection.LineBetween
+linktitle: LineBetween
 second_title: Aspose.Words for .NET API Reference
 description: TextColumnCollection property. When true adds a vertical line between columns in C#.
 type: docs

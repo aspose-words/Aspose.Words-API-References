@@ -1,5 +1,6 @@
 ---
-title: FieldPrintDate
+title: FieldPrintDate.FieldPrintDate
+linktitle: FieldPrintDate
 second_title: Aspose.Words for .NET API Reference
 description: FieldPrintDate constructor. The default constructor in C#.
 type: docs

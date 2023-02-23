@@ -1,5 +1,6 @@
 ---
-title: ImageSize
+title: ImageSize.ImageSize
+linktitle: ImageSize
 second_title: Aspose.Words for .NET API Reference
 description: ImageSize constructor. Initializes width and height to the given values in pixels. Initializes resolution to 96 dpi in C#.
 type: docs

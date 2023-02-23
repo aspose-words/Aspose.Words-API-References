@@ -1,5 +1,6 @@
 ---
-title: ToStream
+title: ImageData.ToStream
+linktitle: ToStream
 second_title: Aspose.Words for .NET API Reference
 description: ImageData method. Creates and returns a stream that contains the image bytes in C#.
 type: docs

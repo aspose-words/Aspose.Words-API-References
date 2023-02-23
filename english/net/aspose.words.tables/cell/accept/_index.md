@@ -1,5 +1,6 @@
 ---
-title: Accept
+title: Cell.Accept
+linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
 description: Cell method. Accepts a visitor in C#.
 type: docs

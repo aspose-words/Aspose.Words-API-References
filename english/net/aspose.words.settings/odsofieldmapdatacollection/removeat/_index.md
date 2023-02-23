@@ -1,5 +1,6 @@
 ---
-title: RemoveAt
+title: OdsoFieldMapDataCollection.RemoveAt
+linktitle: RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: OdsoFieldMapDataCollection method. Removes the element at the specified index in C#.
 type: docs

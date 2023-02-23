@@ -1,5 +1,6 @@
 ---
-title: Name
+title: FormField.Name
+linktitle: Name
 second_title: Aspose.Words for .NET API Reference
 description: FormField property. Gets or sets the form field name in C#.
 type: docs

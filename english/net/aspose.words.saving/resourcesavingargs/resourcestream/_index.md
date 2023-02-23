@@ -1,5 +1,6 @@
 ---
-title: ResourceStream
+title: ResourceSavingArgs.ResourceStream
+linktitle: ResourceStream
 second_title: Aspose.Words for .NET API Reference
 description: ResourceSavingArgs property. Allows to specify the stream where the resource will be saved to in C#.
 type: docs

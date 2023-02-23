@@ -1,5 +1,6 @@
 ---
-title: Read
+title: IDocumentReaderPlugin.Read
+linktitle: Read
 second_title: Aspose.Words for .NET API Reference
 description: IDocumentReaderPlugin method. Reads the data from the specified stream into the Document instance in C#.
 type: docs

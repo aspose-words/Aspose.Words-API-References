@@ -1,5 +1,6 @@
 ---
-title: Text
+title: RevisionGroup.Text
+linktitle: Text
 second_title: Aspose.Words for .NET API Reference
 description: RevisionGroup property. Returns inserted/deleted/moved text or description of format change in C#.
 type: docs

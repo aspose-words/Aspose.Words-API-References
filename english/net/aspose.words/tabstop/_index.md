@@ -1,5 +1,6 @@
 ---
 title: TabStop Class
+linktitle: TabStop
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.TabStop class. Represents a single custom tab stop. The TabStop object is a member of the TabStopCollection collection in C#.
 type: docs

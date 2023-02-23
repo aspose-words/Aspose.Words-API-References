@@ -1,5 +1,6 @@
 ---
-title: UnlinkFields
+title: Document.UnlinkFields
+linktitle: UnlinkFields
 second_title: Aspose.Words for .NET API Reference
 description: Document method. Unlinks fields in the whole document in C#.
 type: docs

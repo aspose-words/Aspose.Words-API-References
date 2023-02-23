@@ -1,5 +1,6 @@
 ---
-title: Bidi
+title: ParagraphFormat.Bidi
+linktitle: Bidi
 second_title: Aspose.Words for .NET API Reference
 description: ParagraphFormat property. Gets or sets whether this is a righttoleft paragraph in C#.
 type: docs

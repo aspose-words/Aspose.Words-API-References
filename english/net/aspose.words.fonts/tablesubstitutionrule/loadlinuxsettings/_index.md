@@ -1,5 +1,6 @@
 ---
-title: LoadLinuxSettings
+title: TableSubstitutionRule.LoadLinuxSettings
+linktitle: LoadLinuxSettings
 second_title: Aspose.Words for .NET API Reference
 description: TableSubstitutionRule method. Loads predefined table substitution settings for Linux platform in C#.
 type: docs

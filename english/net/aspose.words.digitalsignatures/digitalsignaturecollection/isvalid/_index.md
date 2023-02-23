@@ -1,5 +1,6 @@
 ---
-title: IsValid
+title: DigitalSignatureCollection.IsValid
+linktitle: IsValid
 second_title: Aspose.Words for .NET API Reference
 description: DigitalSignatureCollection property. Returns true if all digital signatures in this collection are valid and the document has not been tampered with Also returns true if there are no digital signatures. Returns false if at least one digital signature is invalid in C#.
 type: docs

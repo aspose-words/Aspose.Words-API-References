@@ -1,5 +1,6 @@
 ---
-title: BuildAndInsert
+title: FieldBuilder.BuildAndInsert
+linktitle: BuildAndInsert
 second_title: Aspose.Words for .NET API Reference
 description: FieldBuilder method. Builds and inserts a field into the document before the specified inline node in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: Accept
+title: Node.Accept
+linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
 description: Node method. Accepts a visitor in C#.
 type: docs

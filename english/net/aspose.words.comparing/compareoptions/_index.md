@@ -1,5 +1,6 @@
 ---
 title: CompareOptions Class
+linktitle: CompareOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Comparing.CompareOptions class. Allows to choose advanced options for document comparison operation in C#.
 type: docs

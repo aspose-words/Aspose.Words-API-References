@@ -1,5 +1,6 @@
 ---
-title: FirstCell
+title: Row.FirstCell
+linktitle: FirstCell
 second_title: Aspose.Words for .NET API Reference
 description: Row property. Returns the first Cell in the row in C#.
 type: docs

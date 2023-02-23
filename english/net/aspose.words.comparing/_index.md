@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words.Comparing
+linktitle: Aspose.Words.Comparing
 second_title: Aspose.Words for .NET API Reference
 description: The Aspose.Words.Comparing namespace provides classes and enumerations that allow to specify additional options when comparing documents in C#.
 type: docs

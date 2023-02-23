@@ -1,5 +1,6 @@
 ---
-title: RemoveEntryFormatting
+title: FieldToa.RemoveEntryFormatting
+linktitle: RemoveEntryFormatting
 second_title: Aspose.Words for .NET API Reference
 description: FieldToa property. Gets or sets whether to remove the formatting of the entry text in the document from the entry in the table of authorities in C#.
 type: docs

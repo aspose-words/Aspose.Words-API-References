@@ -1,5 +1,6 @@
 ---
-title: CompareTo
+title: List.CompareTo
+linktitle: CompareTo
 second_title: Aspose.Words for .NET API Reference
 description: List method. Compares the specified object to the current object in C#.
 type: docs

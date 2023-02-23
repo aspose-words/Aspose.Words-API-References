@@ -1,5 +1,6 @@
 ---
-title: ToArray
+title: BuildingBlockCollection.ToArray
+linktitle: ToArray
 second_title: Aspose.Words for .NET API Reference
 description: BuildingBlockCollection method. Copies all building blocks from the collection to a new array of building blocks in C#.
 type: docs

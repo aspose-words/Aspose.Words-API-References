@@ -1,5 +1,6 @@
 ---
-title: ImageData
+title: Shape.ImageData
+linktitle: ImageData
 second_title: Aspose.Words for .NET API Reference
 description: Shape property. Provides access to the image of the shape. Returns null if the shape cannot have an image in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: RevisionOptions
+title: LayoutOptions.RevisionOptions
+linktitle: RevisionOptions
 second_title: Aspose.Words for .NET API Reference
 description: LayoutOptions property. Gets revision options in C#.
 type: docs

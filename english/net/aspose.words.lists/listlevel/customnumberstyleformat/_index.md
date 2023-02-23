@@ -1,5 +1,6 @@
 ---
-title: CustomNumberStyleFormat
+title: ListLevel.CustomNumberStyleFormat
+linktitle: CustomNumberStyleFormat
 second_title: Aspose.Words for .NET API Reference
 description: ListLevel property. Gets the custom number style format for this list level. For example a ç ĝ  in C#.
 type: docs

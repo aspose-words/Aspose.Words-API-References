@@ -1,5 +1,6 @@
 ---
-title: CssClassNamePrefix
+title: HtmlSaveOptions.CssClassNamePrefix
+linktitle: CssClassNamePrefix
 second_title: Aspose.Words for .NET API Reference
 description: HtmlSaveOptions property. Specifies a prefix which is added to all CSS class names. Default value is an empty string and generated CSS class names have no common prefix in C#.
 type: docs

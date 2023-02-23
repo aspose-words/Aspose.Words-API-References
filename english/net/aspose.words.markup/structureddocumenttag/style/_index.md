@@ -1,5 +1,6 @@
 ---
-title: Style
+title: StructuredDocumentTag.Style
+linktitle: Style
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTag property. Gets or sets the Style of the structured document tag in C#.
 type: docs

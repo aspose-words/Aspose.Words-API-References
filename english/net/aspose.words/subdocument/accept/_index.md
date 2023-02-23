@@ -1,5 +1,6 @@
 ---
-title: Accept
+title: SubDocument.Accept
+linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
 description: SubDocument method. Accepts a visitor in C#.
 type: docs

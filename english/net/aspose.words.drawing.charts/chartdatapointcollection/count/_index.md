@@ -1,5 +1,6 @@
 ---
-title: Count
+title: ChartDataPointCollection.Count
+linktitle: Count
 second_title: Aspose.Words for .NET API Reference
 description: ChartDataPointCollection property. Returns the number of ChartDataPoint in this collection in C#.
 type: docs

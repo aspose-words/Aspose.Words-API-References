@@ -1,5 +1,6 @@
 ---
-title: SourceFullName
+title: Chart.SourceFullName
+linktitle: SourceFullName
 second_title: Aspose.Words for .NET API Reference
 description: Chart property. Gets the path and name of an xls/xlsx file this chart is linked to in C#.
 type: docs

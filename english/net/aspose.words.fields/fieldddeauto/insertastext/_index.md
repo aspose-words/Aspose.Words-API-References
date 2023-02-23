@@ -1,5 +1,6 @@
 ---
-title: InsertAsText
+title: FieldDdeAuto.InsertAsText
+linktitle: InsertAsText
 second_title: Aspose.Words for .NET API Reference
 description: FieldDdeAuto property. Gets or sets whether to insert the linked object in textonly format in C#.
 type: docs

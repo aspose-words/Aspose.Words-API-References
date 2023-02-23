@@ -1,5 +1,6 @@
 ---
-title: DataSource
+title: MailMergeSettings.DataSource
+linktitle: DataSource
 second_title: Aspose.Words for .NET API Reference
 description: MailMergeSettings property. Specifies the path to the mailmerge data source. The default value is an empty string in C#.
 type: docs

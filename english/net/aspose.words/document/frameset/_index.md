@@ -1,5 +1,6 @@
 ---
-title: Frameset
+title: Document.Frameset
+linktitle: Frameset
 second_title: Aspose.Words for .NET API Reference
 description: Document property. Returns a Frameset instance if this document represents a frames page in C#.
 type: docs

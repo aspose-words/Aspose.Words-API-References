@@ -1,5 +1,6 @@
 ---
-title: Groups
+title: RevisionCollection.Groups
+linktitle: Groups
 second_title: Aspose.Words for .NET API Reference
 description: RevisionCollection property. Collection of revision groups in C#.
 type: docs

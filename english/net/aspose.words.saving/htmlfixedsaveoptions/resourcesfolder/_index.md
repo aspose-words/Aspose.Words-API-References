@@ -1,5 +1,6 @@
 ---
-title: ResourcesFolder
+title: HtmlFixedSaveOptions.ResourcesFolder
+linktitle: ResourcesFolder
 second_title: Aspose.Words for .NET API Reference
 description: HtmlFixedSaveOptions property. Specifies the physical folder where resources images fonts css are saved when exporting a document to Html format. Default is null in C#.
 type: docs

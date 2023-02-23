@@ -1,5 +1,6 @@
 ---
-title: IsEndOfDocument
+title: Paragraph.IsEndOfDocument
+linktitle: IsEndOfDocument
 second_title: Aspose.Words for .NET API Reference
 description: Paragraph property. True if this paragraph is the last paragraph in the last section of the document in C#.
 type: docs

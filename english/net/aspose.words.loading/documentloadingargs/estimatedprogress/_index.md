@@ -1,5 +1,6 @@
 ---
-title: EstimatedProgress
+title: DocumentLoadingArgs.EstimatedProgress
+linktitle: EstimatedProgress
 second_title: Aspose.Words for .NET API Reference
 description: DocumentLoadingArgs property. Overall estimated percentage progress in C#.
 type: docs

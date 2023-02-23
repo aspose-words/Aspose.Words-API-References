@@ -1,5 +1,6 @@
 ---
-title: GetField
+title: FieldChar.GetField
+linktitle: GetField
 second_title: Aspose.Words for .NET API Reference
 description: FieldChar method. Returns a field for the field char in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: GetQueryResult
+title: IFieldDatabaseProvider.GetQueryResult
+linktitle: GetQueryResult
 second_title: Aspose.Words for .NET API Reference
 description: IFieldDatabaseProvider method. Returns query result in C#.
 type: docs

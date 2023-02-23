@@ -1,5 +1,6 @@
 ---
-title: FormatDateTime
+title: IFieldResultFormatter.FormatDateTime
+linktitle: FormatDateTime
 second_title: Aspose.Words for .NET API Reference
 description: IFieldResultFormatter method. Called when Aspose.Words applies a date/time format switch i.e.  dd.MM.yyyy in C#.
 type: docs

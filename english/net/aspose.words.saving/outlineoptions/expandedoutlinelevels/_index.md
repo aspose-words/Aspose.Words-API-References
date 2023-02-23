@@ -1,5 +1,6 @@
 ---
-title: ExpandedOutlineLevels
+title: OutlineOptions.ExpandedOutlineLevels
+linktitle: ExpandedOutlineLevels
 second_title: Aspose.Words for .NET API Reference
 description: OutlineOptions property. Specifies how many levels in the document outline to show expanded when the file is viewed in C#.
 type: docs

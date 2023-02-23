@@ -1,5 +1,6 @@
 ---
-title: CacheKey
+title: MemoryFontSource.CacheKey
+linktitle: CacheKey
 second_title: Aspose.Words for .NET API Reference
 description: MemoryFontSource property. The key of this source in the cache in C#.
 type: docs

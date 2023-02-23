@@ -1,5 +1,6 @@
 ---
 title: FontNameSubstitutionRule Class
+linktitle: FontNameSubstitutionRule
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fonts.FontNameSubstitutionRule class. Font substitution rule for processing font name in C#.
 type: docs

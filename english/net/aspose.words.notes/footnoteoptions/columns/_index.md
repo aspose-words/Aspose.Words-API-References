@@ -1,5 +1,6 @@
 ---
-title: Columns
+title: FootnoteOptions.Columns
+linktitle: Columns
 second_title: Aspose.Words for .NET API Reference
 description: FootnoteOptions property. Specifies the number of columns with which the footnotes area is formatted in C#.
 type: docs

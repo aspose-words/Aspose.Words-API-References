@@ -1,5 +1,6 @@
 ---
-title: EndField
+title: MailMergeRegionInfo.EndField
+linktitle: EndField
 second_title: Aspose.Words for .NET API Reference
 description: MailMergeRegionInfo property. Returns an end field for the region in C#.
 type: docs

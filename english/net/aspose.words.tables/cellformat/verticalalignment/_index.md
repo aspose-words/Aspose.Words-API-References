@@ -1,5 +1,6 @@
 ---
-title: VerticalAlignment
+title: CellFormat.VerticalAlignment
+linktitle: VerticalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: CellFormat property. Returns or sets the vertical alignment of text in the cell in C#.
 type: docs

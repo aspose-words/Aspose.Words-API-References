@@ -1,5 +1,6 @@
 ---
-title: FieldSymbol
+title: FieldSymbol.FieldSymbol
+linktitle: FieldSymbol
 second_title: Aspose.Words for .NET API Reference
 description: FieldSymbol constructor. The default constructor in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: UserName
+title: FieldUserName.UserName
+linktitle: UserName
 second_title: Aspose.Words for .NET API Reference
 description: FieldUserName property. Gest or sets the current users name in C#.
 type: docs

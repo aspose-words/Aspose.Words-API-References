@@ -1,5 +1,6 @@
 ---
-title: Add
+title: KnownTypeSet.Add
+linktitle: Add
 second_title: Aspose.Words for .NET API Reference
 description: KnownTypeSet method. Adds the specified Type object to the set. Throws ArgumentException in the following cases in C#.
 type: docs

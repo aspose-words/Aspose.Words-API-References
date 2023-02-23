@@ -1,5 +1,6 @@
 ---
-title: AttachedTemplate
+title: Document.AttachedTemplate
+linktitle: AttachedTemplate
 second_title: Aspose.Words for .NET API Reference
 description: Document property. Gets or sets the full path of the template attached to the document in C#.
 type: docs

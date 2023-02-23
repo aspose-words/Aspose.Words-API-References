@@ -1,5 +1,6 @@
 ---
-title: CustomPropertiesExport
+title: PdfSaveOptions.CustomPropertiesExport
+linktitle: CustomPropertiesExport
 second_title: Aspose.Words for .NET API Reference
 description: PdfSaveOptions property. Gets or sets a value determining the way CustomDocumentProperties are exported to PDF file in C#.
 type: docs

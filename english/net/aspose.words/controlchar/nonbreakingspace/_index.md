@@ -1,5 +1,6 @@
 ---
-title: NonBreakingSpace
+title: ControlChar.NonBreakingSpace
+linktitle: NonBreakingSpace
 second_title: Aspose.Words for .NET API Reference
 description: ControlChar field. Nonbreaking space character x00a0 in C#.
 type: docs

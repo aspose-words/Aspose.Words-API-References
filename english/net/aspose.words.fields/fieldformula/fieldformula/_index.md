@@ -1,5 +1,6 @@
 ---
-title: FieldFormula
+title: FieldFormula.FieldFormula
+linktitle: FieldFormula
 second_title: Aspose.Words for .NET API Reference
 description: FieldFormula constructor. The default constructor in C#.
 type: docs

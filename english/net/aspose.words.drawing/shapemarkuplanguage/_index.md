@@ -1,5 +1,6 @@
 ---
 title: ShapeMarkupLanguage Enum
+linktitle: ShapeMarkupLanguage
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.ShapeMarkupLanguage enum. Specifies Markup language used for the shape in C#.
 type: docs

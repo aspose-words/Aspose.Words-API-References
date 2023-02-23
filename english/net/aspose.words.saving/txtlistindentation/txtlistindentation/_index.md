@@ -1,5 +1,6 @@
 ---
-title: TxtListIndentation
+title: TxtListIndentation.TxtListIndentation
+linktitle: TxtListIndentation
 second_title: Aspose.Words for .NET API Reference
 description: TxtListIndentation constructor. The default constructor in C#.
 type: docs

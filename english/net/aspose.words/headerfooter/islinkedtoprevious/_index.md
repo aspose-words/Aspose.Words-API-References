@@ -1,5 +1,6 @@
 ---
-title: IsLinkedToPrevious
+title: HeaderFooter.IsLinkedToPrevious
+linktitle: IsLinkedToPrevious
 second_title: Aspose.Words for .NET API Reference
 description: HeaderFooter property. True if this header or footer is linked to the corresponding header or footer in the previous section in C#.
 type: docs

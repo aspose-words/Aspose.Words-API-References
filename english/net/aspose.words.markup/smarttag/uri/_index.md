@@ -1,5 +1,6 @@
 ---
-title: Uri
+title: SmartTag.Uri
+linktitle: Uri
 second_title: Aspose.Words for .NET API Reference
 description: SmartTag property. Specifies the namespace URI of the smart tag in C#.
 type: docs

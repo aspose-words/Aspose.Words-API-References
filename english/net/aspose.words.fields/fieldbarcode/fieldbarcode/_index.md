@@ -1,5 +1,6 @@
 ---
-title: FieldBarcode
+title: FieldBarcode.FieldBarcode
+linktitle: FieldBarcode
 second_title: Aspose.Words for .NET API Reference
 description: FieldBarcode constructor. The default constructor in C#.
 type: docs

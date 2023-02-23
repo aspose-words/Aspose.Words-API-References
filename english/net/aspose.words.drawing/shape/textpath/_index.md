@@ -1,5 +1,6 @@
 ---
-title: TextPath
+title: Shape.TextPath
+linktitle: TextPath
 second_title: Aspose.Words for .NET API Reference
 description: Shape property. Defines the text of the text path of a WordArt object in C#.
 type: docs

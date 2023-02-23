@@ -1,5 +1,6 @@
 ---
-title: Borders
+title: PageSetup.Borders
+linktitle: Borders
 second_title: Aspose.Words for .NET API Reference
 description: PageSetup property. Gets a collection of the page borders in C#.
 type: docs

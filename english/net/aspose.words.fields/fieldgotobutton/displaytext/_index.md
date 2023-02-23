@@ -1,5 +1,6 @@
 ---
-title: DisplayText
+title: FieldGoToButton.DisplayText
+linktitle: DisplayText
 second_title: Aspose.Words for .NET API Reference
 description: FieldGoToButton property. Gets or sets the text of the button that appears in the document such that it can be selected to activate the jump in C#.
 type: docs

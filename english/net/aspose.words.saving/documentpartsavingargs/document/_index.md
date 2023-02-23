@@ -1,5 +1,6 @@
 ---
-title: Document
+title: DocumentPartSavingArgs.Document
+linktitle: Document
 second_title: Aspose.Words for .NET API Reference
 description: DocumentPartSavingArgs property. Gets the document object that is being saved in C#.
 type: docs

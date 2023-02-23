@@ -1,5 +1,6 @@
 ---
-title: RemoveAt
+title: FieldCollection.RemoveAt
+linktitle: RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: FieldCollection method. Removes a field at the specified index from this collection and from the document in C#.
 type: docs

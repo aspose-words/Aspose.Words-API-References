@@ -1,5 +1,6 @@
 ---
-title: Target
+title: FieldHyperlink.Target
+linktitle: Target
 second_title: Aspose.Words for .NET API Reference
 description: FieldHyperlink property. Gets or sets the target to which the link should be redirected in C#.
 type: docs

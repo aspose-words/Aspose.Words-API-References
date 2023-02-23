@@ -1,5 +1,6 @@
 ---
 title: AxisDisplayUnit Class
+linktitle: AxisDisplayUnit
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.Charts.AxisDisplayUnit class. Provides access to the scaling options of the display units for the value axis in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: ClearShading
+title: Table.ClearShading
+linktitle: ClearShading
 second_title: Aspose.Words for .NET API Reference
 description: Table method. Removes all shading on the table in C#.
 type: docs

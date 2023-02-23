@@ -1,5 +1,6 @@
 ---
-title: Color
+title: HorizontalRuleFormat.Color
+linktitle: Color
 second_title: Aspose.Words for .NET API Reference
 description: HorizontalRuleFormat property. Gets or sets the brush color that fills the horizontal rule in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: UpdateCreatedTimeProperty
+title: SaveOptions.UpdateCreatedTimeProperty
+linktitle: UpdateCreatedTimeProperty
 second_title: Aspose.Words for .NET API Reference
 description: SaveOptions property. Gets or sets a value determining whether the CreatedTime property is updated before saving. Default value is false in C#.
 type: docs

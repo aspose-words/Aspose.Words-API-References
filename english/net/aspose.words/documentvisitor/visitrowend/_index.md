@@ -1,5 +1,6 @@
 ---
-title: VisitRowEnd
+title: DocumentVisitor.VisitRowEnd
+linktitle: VisitRowEnd
 second_title: Aspose.Words for .NET API Reference
 description: DocumentVisitor method. Called when enumeration of a table row has ended in C#.
 type: docs

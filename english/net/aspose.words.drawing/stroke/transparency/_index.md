@@ -1,5 +1,6 @@
 ---
-title: Transparency
+title: Stroke.Transparency
+linktitle: Transparency
 second_title: Aspose.Words for .NET API Reference
 description: Stroke property. Gets or sets a value between 0.0 opaque and 1.0 clear representing the degree of transparency of the stroke in C#.
 type: docs

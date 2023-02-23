@@ -1,5 +1,6 @@
 ---
 title: FieldBidiOutline Class
+linktitle: FieldBidiOutline
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldBidiOutline class. Implements the BIDIOUTLINE field in C#.
 type: docs

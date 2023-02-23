@@ -1,5 +1,6 @@
 ---
-title: IsFontConfigAvailable
+title: FontConfigSubstitutionRule.IsFontConfigAvailable
+linktitle: IsFontConfigAvailable
 second_title: Aspose.Words for .NET API Reference
 description: FontConfigSubstitutionRule method. Check if fontconfig utility is available or not in C#.
 type: docs

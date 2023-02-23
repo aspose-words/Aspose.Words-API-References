@@ -1,5 +1,6 @@
 ---
 title: FieldToc Class
+linktitle: FieldToc
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldToc class. Implements the TOC field in C#.
 type: docs

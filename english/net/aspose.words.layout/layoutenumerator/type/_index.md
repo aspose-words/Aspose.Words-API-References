@@ -1,5 +1,6 @@
 ---
-title: Type
+title: LayoutEnumerator.Type
+linktitle: Type
 second_title: Aspose.Words for .NET API Reference
 description: LayoutEnumerator property. Gets the type of the current entity in C#.
 type: docs

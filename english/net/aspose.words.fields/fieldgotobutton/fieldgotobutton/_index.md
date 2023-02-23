@@ -1,5 +1,6 @@
 ---
-title: FieldGoToButton
+title: FieldGoToButton.FieldGoToButton
+linktitle: FieldGoToButton
 second_title: Aspose.Words for .NET API Reference
 description: FieldGoToButton constructor. The default constructor in C#.
 type: docs

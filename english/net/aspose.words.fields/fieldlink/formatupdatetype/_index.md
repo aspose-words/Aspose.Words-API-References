@@ -1,5 +1,6 @@
 ---
-title: FormatUpdateType
+title: FieldLink.FormatUpdateType
+linktitle: FormatUpdateType
 second_title: Aspose.Words for .NET API Reference
 description: FieldLink property. Gets or sets a way the linked object updates its formatting in C#.
 type: docs

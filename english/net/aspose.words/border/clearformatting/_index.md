@@ -1,5 +1,6 @@
 ---
-title: ClearFormatting
+title: Border.ClearFormatting
+linktitle: ClearFormatting
 second_title: Aspose.Words for .NET API Reference
 description: Border method. Resets border properties to default values in C#.
 type: docs

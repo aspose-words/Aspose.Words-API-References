@@ -1,5 +1,6 @@
 ---
-title: RemoveAt
+title: CustomXmlPartCollection.RemoveAt
+linktitle: RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: CustomXmlPartCollection method. Removes an item at the specified index in C#.
 type: docs

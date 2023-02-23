@@ -1,5 +1,6 @@
 ---
-title: Name
+title: CustomPart.Name
+linktitle: Name
 second_title: Aspose.Words for .NET API Reference
 description: CustomPart property. Gets or sets this parts absolute name within the OOXML package or the target URL in C#.
 type: docs

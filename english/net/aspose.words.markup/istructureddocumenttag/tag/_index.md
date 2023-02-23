@@ -1,5 +1,6 @@
 ---
-title: Tag
+title: IStructuredDocumentTag.Tag
+linktitle: Tag
 second_title: Aspose.Words for .NET API Reference
 description: IStructuredDocumentTag property. Specifies a tag associated with the current SDT node. Can not be null in C#.
 type: docs

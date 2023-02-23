@@ -1,5 +1,6 @@
 ---
-title: ShowInBalloons
+title: RevisionOptions.ShowInBalloons
+linktitle: ShowInBalloons
 second_title: Aspose.Words for .NET API Reference
 description: RevisionOptions property. Allows to specify whether the revisions are rendered in the balloons. Default value is None in C#.
 type: docs

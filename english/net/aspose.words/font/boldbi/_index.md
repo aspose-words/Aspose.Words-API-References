@@ -1,5 +1,6 @@
 ---
-title: BoldBi
+title: Font.BoldBi
+linktitle: BoldBi
 second_title: Aspose.Words for .NET API Reference
 description: Font property. True if the righttoleft text is formatted as bold in C#.
 type: docs

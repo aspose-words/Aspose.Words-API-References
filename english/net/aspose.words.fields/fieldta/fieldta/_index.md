@@ -1,5 +1,6 @@
 ---
-title: FieldTA
+title: FieldTA.FieldTA
+linktitle: FieldTA
 second_title: Aspose.Words for .NET API Reference
 description: FieldTA constructor. The default constructor in C#.
 type: docs

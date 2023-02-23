@@ -1,5 +1,6 @@
 ---
-title: AddStartStopChar
+title: FieldMergeBarcode.AddStartStopChar
+linktitle: AddStartStopChar
 second_title: Aspose.Words for .NET API Reference
 description: FieldMergeBarcode property. Gets or sets whether to add Start/Stop characters for barcode types NW7 and CODE39 in C#.
 type: docs

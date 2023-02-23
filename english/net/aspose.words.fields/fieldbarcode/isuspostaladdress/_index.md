@@ -1,5 +1,6 @@
 ---
-title: IsUSPostalAddress
+title: FieldBarcode.IsUSPostalAddress
+linktitle: IsUSPostalAddress
 second_title: Aspose.Words for .NET API Reference
 description: FieldBarcode property. Gets or sets whether PostalAddress is a U.S. postal address in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: Equals
+title: AxisBound.Equals
+linktitle: Equals
 second_title: Aspose.Words for .NET API Reference
 description: AxisBound method. Determines whether the specified object is equal in value to the current object in C#.
 type: docs

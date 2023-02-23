@@ -1,5 +1,6 @@
 ---
 title: Run Class
+linktitle: Run
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Run class. Represents a run of characters with the same font formatting in C#.
 type: docs
