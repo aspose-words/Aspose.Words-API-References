@@ -1,5 +1,6 @@
 ---
-title: ScalingFactor
+title: FieldMergeBarcode.ScalingFactor
+linktitle: ScalingFactor
 second_title: Aspose.Words for .NET API Reference
 description: FieldMergeBarcode property. Gets or sets a scaling factor for the symbol. The value is in whole percentage points and the valid values are 10 1000 in C#.
 type: docs

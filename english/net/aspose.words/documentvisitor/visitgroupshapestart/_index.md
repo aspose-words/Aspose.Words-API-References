@@ -1,5 +1,6 @@
 ---
-title: VisitGroupShapeStart
+title: DocumentVisitor.VisitGroupShapeStart
+linktitle: VisitGroupShapeStart
 second_title: Aspose.Words for .NET API Reference
 description: DocumentVisitor method. Called when enumeration of a group shape has started in C#.
 type: docs

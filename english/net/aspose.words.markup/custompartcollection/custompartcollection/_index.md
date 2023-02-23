@@ -1,5 +1,6 @@
 ---
-title: CustomPartCollection
+title: CustomPartCollection.CustomPartCollection
+linktitle: CustomPartCollection
 second_title: Aspose.Words for .NET API Reference
 description: CustomPartCollection constructor. The default constructor in C#.
 type: docs

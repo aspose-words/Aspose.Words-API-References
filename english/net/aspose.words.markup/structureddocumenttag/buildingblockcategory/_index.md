@@ -1,5 +1,6 @@
 ---
-title: BuildingBlockCategory
+title: StructuredDocumentTag.BuildingBlockCategory
+linktitle: BuildingBlockCategory
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTag property. Specifies category of building block for this SDT node. Can not be null in C#.
 type: docs

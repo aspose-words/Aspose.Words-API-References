@@ -1,5 +1,6 @@
 ---
-title: PageSavingArgs
+title: PageSavingArgs.PageSavingArgs
+linktitle: PageSavingArgs
 second_title: Aspose.Words for .NET API Reference
 description: PageSavingArgs constructor. The default constructor in C#.
 type: docs

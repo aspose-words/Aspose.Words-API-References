@@ -1,5 +1,6 @@
 ---
-title: EditableRange
+title: EditableRangeStart.EditableRange
+linktitle: EditableRange
 second_title: Aspose.Words for .NET API Reference
 description: EditableRangeStart property. Gets the facade object that encapsulates this editable range start and end in C#.
 type: docs

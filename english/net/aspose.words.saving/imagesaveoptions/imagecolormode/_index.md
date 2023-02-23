@@ -1,5 +1,6 @@
 ---
-title: ImageColorMode
+title: ImageSaveOptions.ImageColorMode
+linktitle: ImageColorMode
 second_title: Aspose.Words for .NET API Reference
 description: ImageSaveOptions property. Gets or sets the color mode for the generated images in C#.
 type: docs

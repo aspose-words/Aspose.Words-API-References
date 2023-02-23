@@ -1,5 +1,6 @@
 ---
-title: LanguagePreferences
+title: LanguagePreferences.LanguagePreferences
+linktitle: LanguagePreferences
 second_title: Aspose.Words for .NET API Reference
 description: LanguagePreferences constructor. The default constructor in C#.
 type: docs

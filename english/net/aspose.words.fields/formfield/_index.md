@@ -1,5 +1,6 @@
 ---
 title: FormField Class
+linktitle: FormField
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FormField class. Represents a single form field in C#.
 type: docs

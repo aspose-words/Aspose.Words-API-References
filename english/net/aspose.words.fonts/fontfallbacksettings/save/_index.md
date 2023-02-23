@@ -1,5 +1,6 @@
 ---
-title: Save
+title: FontFallbackSettings.Save
+linktitle: Save
 second_title: Aspose.Words for .NET API Reference
 description: FontFallbackSettings method. Saves the current fallback settings to stream in C#.
 type: docs

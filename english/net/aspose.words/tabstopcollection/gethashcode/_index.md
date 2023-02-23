@@ -1,5 +1,6 @@
 ---
-title: GetHashCode
+title: TabStopCollection.GetHashCode
+linktitle: GetHashCode
 second_title: Aspose.Words for .NET API Reference
 description: TabStopCollection method. Serves as a hash function for this type in C#.
 type: docs

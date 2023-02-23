@@ -1,5 +1,6 @@
 ---
-title: GetText
+title: Paragraph.GetText
+linktitle: GetText
 second_title: Aspose.Words for .NET API Reference
 description: Paragraph method. Gets the text of this paragraph including the end of paragraph character in C#.
 type: docs

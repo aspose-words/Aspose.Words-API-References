@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words.Properties
+linktitle: Aspose.Words.Properties
 second_title: Aspose.Words for .NET API Reference
 description: The Aspose.Words.Properties namespace provides classes to work with custom and builtin document properties such as title keywords company etc in C#.
 type: docs

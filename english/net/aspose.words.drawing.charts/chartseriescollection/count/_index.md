@@ -1,5 +1,6 @@
 ---
-title: Count
+title: ChartSeriesCollection.Count
+linktitle: Count
 second_title: Aspose.Words for .NET API Reference
 description: ChartSeriesCollection property. Returns the number of ChartSeries in this collection in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: Remove
+title: CustomXmlSchemaCollection.Remove
+linktitle: Remove
 second_title: Aspose.Words for .NET API Reference
 description: CustomXmlSchemaCollection method. Removes the specified value from the collection in C#.
 type: docs

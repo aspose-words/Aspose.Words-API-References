@@ -1,5 +1,6 @@
 ---
-title: IndexOfKey
+title: BookmarksOutlineLevelCollection.IndexOfKey
+linktitle: IndexOfKey
 second_title: Aspose.Words for .NET API Reference
 description: BookmarksOutlineLevelCollection method. Returns the zerobased index of the specified bookmark in the collection in C#.
 type: docs

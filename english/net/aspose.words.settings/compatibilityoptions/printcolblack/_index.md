@@ -1,5 +1,6 @@
 ---
-title: PrintColBlack
+title: CompatibilityOptions.PrintColBlack
+linktitle: PrintColBlack
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions property. Print Colors as Black And White without Dithering in C#.
 type: docs

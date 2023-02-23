@@ -1,5 +1,6 @@
 ---
 title: PdfCompliance Enum
+linktitle: PdfCompliance
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.PdfCompliance enum. Specifies the PDF standards compliance level in C#.
 type: docs

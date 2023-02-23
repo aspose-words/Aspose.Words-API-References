@@ -1,5 +1,6 @@
 ---
-title: BaseStyleName
+title: Style.BaseStyleName
+linktitle: BaseStyleName
 second_title: Aspose.Words for .NET API Reference
 description: Style property. Gets/sets the name of the style this style is based on in C#.
 type: docs

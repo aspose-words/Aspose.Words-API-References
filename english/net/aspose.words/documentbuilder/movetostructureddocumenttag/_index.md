@@ -1,5 +1,6 @@
 ---
-title: MoveToStructuredDocumentTag
+title: DocumentBuilder.MoveToStructuredDocumentTag
+linktitle: MoveToStructuredDocumentTag
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder method. Moves the cursor to a structured document tag in the current section in C#.
 type: docs

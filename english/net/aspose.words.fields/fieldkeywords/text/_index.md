@@ -1,5 +1,6 @@
 ---
-title: Text
+title: FieldKeywords.Text
+linktitle: Text
 second_title: Aspose.Words for .NET API Reference
 description: FieldKeywords property. Gets or sets the text of the keywords in C#.
 type: docs

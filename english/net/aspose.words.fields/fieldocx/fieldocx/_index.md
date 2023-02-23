@@ -1,5 +1,6 @@
 ---
-title: FieldOcx
+title: FieldOcx.FieldOcx
+linktitle: FieldOcx
 second_title: Aspose.Words for .NET API Reference
 description: FieldOcx constructor. The default constructor in C#.
 type: docs

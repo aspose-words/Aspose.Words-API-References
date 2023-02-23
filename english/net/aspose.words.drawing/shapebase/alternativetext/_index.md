@@ -1,5 +1,6 @@
 ---
-title: AlternativeText
+title: ShapeBase.AlternativeText
+linktitle: AlternativeText
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase property. Defines alternative text to be displayed instead of a graphic in C#.
 type: docs

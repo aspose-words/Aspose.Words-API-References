@@ -1,5 +1,6 @@
 ---
-title: IsListItem
+title: ParagraphFormat.IsListItem
+linktitle: IsListItem
 second_title: Aspose.Words for .NET API Reference
 description: ParagraphFormat property. True when the paragraph is an item in a bulleted or numbered list in C#.
 type: docs

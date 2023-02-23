@@ -1,5 +1,6 @@
 ---
-title: CacheBackgroundGraphics
+title: PdfSaveOptions.CacheBackgroundGraphics
+linktitle: CacheBackgroundGraphics
 second_title: Aspose.Words for .NET API Reference
 description: PdfSaveOptions property. Gets or sets a value determining whether or not to cache graphics placed in documents background in C#.
 type: docs

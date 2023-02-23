@@ -1,5 +1,6 @@
 ---
-title: NumberStyle
+title: ListLevel.NumberStyle
+linktitle: NumberStyle
 second_title: Aspose.Words for .NET API Reference
 description: ListLevel property. Returns or sets the number style for this list level in C#.
 type: docs

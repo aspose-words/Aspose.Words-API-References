@@ -1,5 +1,6 @@
 ---
-title: FieldMergeBarcode
+title: FieldMergeBarcode.FieldMergeBarcode
+linktitle: FieldMergeBarcode
 second_title: Aspose.Words for .NET API Reference
 description: FieldMergeBarcode constructor. The default constructor in C#.
 type: docs

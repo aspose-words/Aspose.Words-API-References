@@ -1,5 +1,6 @@
 ---
-title: Item
+title: ListCollection.Item
+linktitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: ListCollection property. Gets a list by index in C#.
 type: docs

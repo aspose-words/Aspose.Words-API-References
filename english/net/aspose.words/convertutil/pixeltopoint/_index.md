@@ -1,5 +1,6 @@
 ---
-title: PixelToPoint
+title: ConvertUtil.PixelToPoint
+linktitle: PixelToPoint
 second_title: Aspose.Words for .NET API Reference
 description: ConvertUtil method. Converts pixels to points at 96 dpi in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: GetEnumerator
+title: NodeList.GetEnumerator
+linktitle: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: NodeList method. Provides a simple foreach style iteration over the collection of nodes in C#.
 type: docs

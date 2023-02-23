@@ -1,5 +1,6 @@
 ---
-title: Accept
+title: Table.Accept
+linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
 description: Table method. Accepts a visitor in C#.
 type: docs

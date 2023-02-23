@@ -1,5 +1,6 @@
 ---
-title: HasMacros
+title: Document.HasMacros
+linktitle: HasMacros
 second_title: Aspose.Words for .NET API Reference
 description: Document property. Returns true if the document has a VBA project macros in C#.
 type: docs

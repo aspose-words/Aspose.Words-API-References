@@ -1,5 +1,6 @@
 ---
-title: InsertSignatureLine
+title: DocumentBuilder.InsertSignatureLine
+linktitle: InsertSignatureLine
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder method. Inserts a signature line at the current position in C#.
 type: docs

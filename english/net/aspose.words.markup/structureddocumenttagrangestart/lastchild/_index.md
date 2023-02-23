@@ -1,5 +1,6 @@
 ---
-title: LastChild
+title: StructuredDocumentTagRangeStart.LastChild
+linktitle: LastChild
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTagRangeStart property. Gets the last child in the stdContent range in C#.
 type: docs

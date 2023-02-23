@@ -1,5 +1,6 @@
 ---
-title: GetEnumerator
+title: StructuredDocumentTagRangeStart.GetEnumerator
+linktitle: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTagRangeStart method. Provides support for the for each style iteration over the child nodes of this node in C#.
 type: docs

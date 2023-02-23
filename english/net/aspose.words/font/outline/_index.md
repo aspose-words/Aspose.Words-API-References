@@ -1,5 +1,6 @@
 ---
-title: Outline
+title: Font.Outline
+linktitle: Outline
 second_title: Aspose.Words for .NET API Reference
 description: Font property. True if the font is formatted as outline in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: HorizontalAlignment
+title: FrameFormat.HorizontalAlignment
+linktitle: HorizontalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: FrameFormat property. Gets horizontal alignment of the specified frame in C#.
 type: docs

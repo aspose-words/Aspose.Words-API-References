@@ -1,5 +1,6 @@
 ---
-title: DecryptionPassword
+title: SignOptions.DecryptionPassword
+linktitle: DecryptionPassword
 second_title: Aspose.Words for .NET API Reference
 description: SignOptions property. The password to decrypt source document. Default value is empty string Empty in C#.
 type: docs

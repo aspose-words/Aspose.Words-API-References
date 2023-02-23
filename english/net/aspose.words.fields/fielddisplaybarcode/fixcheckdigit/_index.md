@@ -1,5 +1,6 @@
 ---
-title: FixCheckDigit
+title: FieldDisplayBarcode.FixCheckDigit
+linktitle: FixCheckDigit
 second_title: Aspose.Words for .NET API Reference
 description: FieldDisplayBarcode property. Gets or sets whether to fix the check digit if its invalid in C#.
 type: docs

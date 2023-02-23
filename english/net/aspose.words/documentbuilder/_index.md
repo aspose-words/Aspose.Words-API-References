@@ -1,5 +1,6 @@
 ---
 title: DocumentBuilder Class
+linktitle: DocumentBuilder
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.DocumentBuilder class. Provides methods to insert text images and other content specify font paragraph and section formatting in C#.
 type: docs

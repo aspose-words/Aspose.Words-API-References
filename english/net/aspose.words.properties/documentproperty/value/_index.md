@@ -1,5 +1,6 @@
 ---
-title: Value
+title: DocumentProperty.Value
+linktitle: Value
 second_title: Aspose.Words for .NET API Reference
 description: DocumentProperty property. Gets or sets the value of the property in C#.
 type: docs

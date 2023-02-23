@@ -1,5 +1,6 @@
 ---
-title: GetDirectShapeAttr
+title: ShapeBase.GetDirectShapeAttr
+linktitle: GetDirectShapeAttr
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase method. Reserved for system use. IShapeAttrSource in C#.
 type: docs

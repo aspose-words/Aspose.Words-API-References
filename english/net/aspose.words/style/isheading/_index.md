@@ -1,5 +1,6 @@
 ---
-title: IsHeading
+title: Style.IsHeading
+linktitle: IsHeading
 second_title: Aspose.Words for .NET API Reference
 description: Style property. True when the style is one of the builtin Heading styles in C#.
 type: docs

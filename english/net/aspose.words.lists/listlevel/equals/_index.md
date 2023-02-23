@@ -1,5 +1,6 @@
 ---
-title: Equals
+title: ListLevel.Equals
+linktitle: Equals
 second_title: Aspose.Words for .NET API Reference
 description: ListLevel method. Compares with the specified ListLevel in C#.
 type: docs

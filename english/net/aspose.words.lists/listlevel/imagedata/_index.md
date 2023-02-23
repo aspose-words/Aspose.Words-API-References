@@ -1,5 +1,6 @@
 ---
-title: ImageData
+title: ListLevel.ImageData
+linktitle: ImageData
 second_title: Aspose.Words for .NET API Reference
 description: ListLevel property. Returns image data of the picture bullet shape for the current list level in C#.
 type: docs

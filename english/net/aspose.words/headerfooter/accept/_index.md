@@ -1,5 +1,6 @@
 ---
-title: Accept
+title: HeaderFooter.Accept
+linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
 description: HeaderFooter method. Accepts a visitor in C#.
 type: docs

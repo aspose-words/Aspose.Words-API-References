@@ -1,5 +1,6 @@
 ---
-title: ImageStream
+title: ImageSavingArgs.ImageStream
+linktitle: ImageStream
 second_title: Aspose.Words for .NET API Reference
 description: ImageSavingArgs property. Allows to specify the stream where the image will be saved to in C#.
 type: docs

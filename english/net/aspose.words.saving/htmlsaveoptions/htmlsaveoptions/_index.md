@@ -1,5 +1,6 @@
 ---
-title: HtmlSaveOptions
+title: HtmlSaveOptions.HtmlSaveOptions
+linktitle: HtmlSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: HtmlSaveOptions constructor. Initializes a new instance of this class that can be used to save a document in the Html format in C#.
 type: docs

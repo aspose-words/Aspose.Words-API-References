@@ -1,5 +1,6 @@
 ---
-title: DefaultTemplate
+title: SaveOptions.DefaultTemplate
+linktitle: DefaultTemplate
 second_title: Aspose.Words for .NET API Reference
 description: SaveOptions property. Gets or sets path to default template including filename. Default value for this property is empty string Empty in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: Clone
+title: ImageSaveOptions.Clone
+linktitle: Clone
 second_title: Aspose.Words for .NET API Reference
 description: ImageSaveOptions method. Creates a deep clone of this object in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: Name
+title: Style.Name
+linktitle: Name
 second_title: Aspose.Words for .NET API Reference
 description: Style property. Gets or sets the name of the style in C#.
 type: docs

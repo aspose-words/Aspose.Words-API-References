@@ -1,5 +1,6 @@
 ---
-title: Equals
+title: Shading.Equals
+linktitle: Equals
 second_title: Aspose.Words for .NET API Reference
 description: Shading method. Determines whether the specified Shading is equal in value to the current Shading in C#.
 type: docs

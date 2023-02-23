@@ -1,5 +1,6 @@
 ---
 title: FieldTemplate Class
+linktitle: FieldTemplate
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldTemplate class. Implements the TEMPLATE field in C#.
 type: docs

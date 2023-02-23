@@ -1,5 +1,6 @@
 ---
-title: Enabled
+title: FormField.Enabled
+linktitle: Enabled
 second_title: Aspose.Words for .NET API Reference
 description: FormField property. True if a form field is enabled in C#.
 type: docs

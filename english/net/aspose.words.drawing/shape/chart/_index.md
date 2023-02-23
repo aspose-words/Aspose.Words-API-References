@@ -1,5 +1,6 @@
 ---
-title: Chart
+title: Shape.Chart
+linktitle: Chart
 second_title: Aspose.Words for .NET API Reference
 description: Shape property. Provides access to the chart properties if this shape has a Chart in C#.
 type: docs

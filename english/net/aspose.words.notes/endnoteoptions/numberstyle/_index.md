@@ -1,5 +1,6 @@
 ---
-title: NumberStyle
+title: EndnoteOptions.NumberStyle
+linktitle: NumberStyle
 second_title: Aspose.Words for .NET API Reference
 description: EndnoteOptions property. Specifies the number format for automatically numbered endnotes in C#.
 type: docs

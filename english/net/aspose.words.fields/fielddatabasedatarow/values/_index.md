@@ -1,5 +1,6 @@
 ---
-title: Values
+title: FieldDatabaseDataRow.Values
+linktitle: Values
 second_title: Aspose.Words for .NET API Reference
 description: FieldDatabaseDataRow property. Gets values that belong to this row in C#.
 type: docs

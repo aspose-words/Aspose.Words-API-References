@@ -1,5 +1,6 @@
 ---
-title: WebExtensionBinding
+title: WebExtensionBinding.WebExtensionBinding
+linktitle: WebExtensionBinding
 second_title: Aspose.Words for .NET API Reference
 description: WebExtensionBinding constructor. Creates web extension binding with specified parameters in C#.
 type: docs

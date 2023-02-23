@@ -1,5 +1,6 @@
 ---
-title: Save
+title: Document.Save
+linktitle: Save
 second_title: Aspose.Words for .NET API Reference
 description: Document method. Saves the document to a file. Automatically determines the save format from the extension in C#.
 type: docs

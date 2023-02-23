@@ -1,5 +1,6 @@
 ---
 title: PatternType Enum
+linktitle: PatternType
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.PatternType enum. Specifies the fill pattern to be used to fill a shape in C#.
 type: docs

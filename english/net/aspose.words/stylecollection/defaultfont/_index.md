@@ -1,5 +1,6 @@
 ---
-title: DefaultFont
+title: StyleCollection.DefaultFont
+linktitle: DefaultFont
 second_title: Aspose.Words for .NET API Reference
 description: StyleCollection property. Gets document default text formatting in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: PaperSizes
+title: PrinterSettingsContainer.PaperSizes
+linktitle: PaperSizes
 second_title: Aspose.Words for .NET API Reference
 description: PrinterSettingsContainer property. See PaperSizes in C#.
 type: docs

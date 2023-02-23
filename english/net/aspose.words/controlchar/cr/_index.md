@@ -1,5 +1,6 @@
 ---
-title: Cr
+title: ControlChar.Cr
+linktitle: Cr
 second_title: Aspose.Words for .NET API Reference
 description: ControlChar field. Carriage return character x000d or r. Same as ParagraphBreak in C#.
 type: docs

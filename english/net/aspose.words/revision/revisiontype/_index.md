@@ -1,5 +1,6 @@
 ---
-title: RevisionType
+title: Revision.RevisionType
+linktitle: RevisionType
 second_title: Aspose.Words for .NET API Reference
 description: Revision property. Gets the type of this revision in C#.
 type: docs

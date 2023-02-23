@@ -1,5 +1,6 @@
 ---
-title: AddStartStopChar
+title: BarcodeParameters.AddStartStopChar
+linktitle: AddStartStopChar
 second_title: Aspose.Words for .NET API Reference
 description: BarcodeParameters property. Whether to add Start/Stop characters for barcode types NW7 and CODE39 in C#.
 type: docs

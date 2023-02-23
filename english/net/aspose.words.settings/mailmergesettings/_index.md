@@ -1,5 +1,6 @@
 ---
 title: MailMergeSettings Class
+linktitle: MailMergeSettings
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Settings.MailMergeSettings class. Specifies all of the mail merge information for a document in C#.
 type: docs

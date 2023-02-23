@@ -1,5 +1,6 @@
 ---
-title: Characters
+title: BuiltInDocumentProperties.Characters
+linktitle: Characters
 second_title: Aspose.Words for .NET API Reference
 description: BuiltInDocumentProperties property. Represents an estimate of the number of characters in the document in C#.
 type: docs

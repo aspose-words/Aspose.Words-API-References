@@ -1,5 +1,6 @@
 ---
-title: Contains
+title: DropDownItemCollection.Contains
+linktitle: Contains
 second_title: Aspose.Words for .NET API Reference
 description: DropDownItemCollection method. Determines whether the collection contains the specified value in C#.
 type: docs

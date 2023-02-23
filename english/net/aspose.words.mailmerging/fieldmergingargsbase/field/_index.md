@@ -1,5 +1,6 @@
 ---
-title: Field
+title: FieldMergingArgsBase.Field
+linktitle: Field
 second_title: Aspose.Words for .NET API Reference
 description: FieldMergingArgsBase property. Gets the object that represents the current merge field in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: NameBi
+title: Font.NameBi
+linktitle: NameBi
 second_title: Aspose.Words for .NET API Reference
 description: Font property. Returns or sets the name of the font in a righttoleft language document in C#.
 type: docs

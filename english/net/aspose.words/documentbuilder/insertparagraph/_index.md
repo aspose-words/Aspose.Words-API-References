@@ -1,5 +1,6 @@
 ---
-title: InsertParagraph
+title: DocumentBuilder.InsertParagraph
+linktitle: InsertParagraph
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder method. Inserts a paragraph break into the document in C#.
 type: docs

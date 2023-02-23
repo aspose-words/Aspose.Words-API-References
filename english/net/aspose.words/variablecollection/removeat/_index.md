@@ -1,5 +1,6 @@
 ---
-title: RemoveAt
+title: VariableCollection.RemoveAt
+linktitle: RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: VariableCollection method. Removes a document variable at the specified index in C#.
 type: docs

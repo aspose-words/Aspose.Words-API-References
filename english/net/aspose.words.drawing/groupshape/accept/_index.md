@@ -1,5 +1,6 @@
 ---
-title: Accept
+title: GroupShape.Accept
+linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
 description: GroupShape method. Accepts a visitor in C#.
 type: docs

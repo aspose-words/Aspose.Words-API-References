@@ -1,5 +1,6 @@
 ---
 title: FolderFontSource Class
+linktitle: FolderFontSource
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fonts.FolderFontSource class. Represents the folder that contains TrueType font files in C#.
 type: docs

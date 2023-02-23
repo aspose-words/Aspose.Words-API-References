@@ -1,5 +1,6 @@
 ---
-title: FontStream
+title: FontSavingArgs.FontStream
+linktitle: FontStream
 second_title: Aspose.Words for .NET API Reference
 description: FontSavingArgs property. Allows to specify the stream where the font will be saved to in C#.
 type: docs

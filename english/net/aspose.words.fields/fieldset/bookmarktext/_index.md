@@ -1,5 +1,6 @@
 ---
-title: BookmarkText
+title: FieldSet.BookmarkText
+linktitle: BookmarkText
 second_title: Aspose.Words for .NET API Reference
 description: FieldSet property. Gets or sets the new text of the bookmark in C#.
 type: docs

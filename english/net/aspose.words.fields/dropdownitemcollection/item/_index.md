@@ -1,5 +1,6 @@
 ---
-title: Item
+title: DropDownItemCollection.Item
+linktitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: DropDownItemCollection property. Gets or sets the element at the specified index in C#.
 type: docs

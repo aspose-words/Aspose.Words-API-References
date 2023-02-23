@@ -1,5 +1,6 @@
 ---
-title: EmfPlusDualRenderingMode
+title: MetafileRenderingOptions.EmfPlusDualRenderingMode
+linktitle: EmfPlusDualRenderingMode
 second_title: Aspose.Words for .NET API Reference
 description: MetafileRenderingOptions property. Gets or sets a value determining how EMF Dual metafiles should be rendered in C#.
 type: docs

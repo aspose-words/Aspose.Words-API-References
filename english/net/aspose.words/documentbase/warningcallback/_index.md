@@ -1,5 +1,6 @@
 ---
-title: WarningCallback
+title: DocumentBase.WarningCallback
+linktitle: WarningCallback
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBase property. Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss in C#.
 type: docs

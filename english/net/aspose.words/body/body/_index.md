@@ -1,5 +1,6 @@
 ---
-title: Body
+title: Body.Body
+linktitle: Body
 second_title: Aspose.Words for .NET API Reference
 description: Body constructor. Initializes a new instance of the Body class in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: SmallCaps
+title: Font.SmallCaps
+linktitle: SmallCaps
 second_title: Aspose.Words for .NET API Reference
 description: Font property. True if the font is formatted as small capital letters in C#.
 type: docs

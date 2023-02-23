@@ -1,5 +1,6 @@
 ---
-title: VisitBodyEnd
+title: DocumentVisitor.VisitBodyEnd
+linktitle: VisitBodyEnd
 second_title: Aspose.Words for .NET API Reference
 description: DocumentVisitor method. Called when enumeration of the main text story in a section has ended in C#.
 type: docs

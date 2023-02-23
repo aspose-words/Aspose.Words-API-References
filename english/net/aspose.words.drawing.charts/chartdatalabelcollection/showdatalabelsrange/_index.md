@@ -1,5 +1,6 @@
 ---
-title: ShowDataLabelsRange
+title: ChartDataLabelCollection.ShowDataLabelsRange
+linktitle: ShowDataLabelsRange
 second_title: Aspose.Words for .NET API Reference
 description: ChartDataLabelCollection property. Allows to specify whether values from data labels range to be displayed in the data labels of the entire series. Default value is false in C#.
 type: docs

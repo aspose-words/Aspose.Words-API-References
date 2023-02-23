@@ -1,5 +1,6 @@
 ---
 title: SignOptions Class
+linktitle: SignOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.DigitalSignatures.SignOptions class. Allows to specify options for document signing in C#.
 type: docs

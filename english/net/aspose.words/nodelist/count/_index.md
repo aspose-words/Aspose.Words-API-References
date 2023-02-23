@@ -1,5 +1,6 @@
 ---
-title: Count
+title: NodeList.Count
+linktitle: Count
 second_title: Aspose.Words for .NET API Reference
 description: NodeList property. Gets the number of nodes in the list in C#.
 type: docs

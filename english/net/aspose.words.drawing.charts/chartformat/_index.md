@@ -1,5 +1,6 @@
 ---
 title: ChartFormat Class
+linktitle: ChartFormat
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.Charts.ChartFormat class. Represents the formatting of a chart element in C#.
 type: docs

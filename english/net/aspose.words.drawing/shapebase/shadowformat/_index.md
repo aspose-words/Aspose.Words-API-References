@@ -1,5 +1,6 @@
 ---
-title: ShadowFormat
+title: ShapeBase.ShadowFormat
+linktitle: ShadowFormat
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase property. Gets shadow formatting for the shape in C#.
 type: docs

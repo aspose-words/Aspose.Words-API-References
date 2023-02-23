@@ -1,5 +1,6 @@
 ---
 title: ControlChar Class
+linktitle: ControlChar
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.ControlChar class. Control characters often encountered in documents in C#.
 type: docs

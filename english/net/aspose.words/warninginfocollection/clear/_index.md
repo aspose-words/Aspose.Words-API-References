@@ -1,5 +1,6 @@
 ---
-title: Clear
+title: WarningInfoCollection.Clear
+linktitle: Clear
 second_title: Aspose.Words for .NET API Reference
 description: WarningInfoCollection method. Removes all elements from the collection in C#.
 type: docs

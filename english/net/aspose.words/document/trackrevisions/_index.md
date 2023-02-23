@@ -1,5 +1,6 @@
 ---
-title: TrackRevisions
+title: Document.TrackRevisions
+linktitle: TrackRevisions
 second_title: Aspose.Words for .NET API Reference
 description: Document property. True if changes are tracked when this document is edited in Microsoft Word in C#.
 type: docs

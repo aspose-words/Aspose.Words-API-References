@@ -1,5 +1,6 @@
 ---
-title: UpdateDirtyFields
+title: LoadOptions.UpdateDirtyFields
+linktitle: UpdateDirtyFields
 second_title: Aspose.Words for .NET API Reference
 description: LoadOptions property. Specifies whether to update the fields with the dirty attribute in C#.
 type: docs

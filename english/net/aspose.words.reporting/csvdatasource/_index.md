@@ -1,5 +1,6 @@
 ---
 title: CsvDataSource Class
+linktitle: CsvDataSource
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Reporting.CsvDataSource class. Provides access to data of a CSV file or stream to be used within a report in C#.
 type: docs

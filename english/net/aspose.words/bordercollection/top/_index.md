@@ -1,5 +1,6 @@
 ---
-title: Top
+title: BorderCollection.Top
+linktitle: Top
 second_title: Aspose.Words for .NET API Reference
 description: BorderCollection property. Gets the top border in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: Remove
+title: DropDownItemCollection.Remove
+linktitle: Remove
 second_title: Aspose.Words for .NET API Reference
 description: DropDownItemCollection method. Removes the specified value from the collection in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: IsShowingPlaceholderText
+title: StructuredDocumentTagRangeStart.IsShowingPlaceholderText
+linktitle: IsShowingPlaceholderText
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTagRangeStart property. Specifies whether the content of this structured document tag shall be interpreted to contain placeholder text as opposed to regular text contents within the structured document tag in C#.
 type: docs

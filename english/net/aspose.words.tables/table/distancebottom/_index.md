@@ -1,5 +1,6 @@
 ---
-title: DistanceBottom
+title: Table.DistanceBottom
+linktitle: DistanceBottom
 second_title: Aspose.Words for .NET API Reference
 description: Table property. Gets distance between table bottom and the surrounding text in points in C#.
 type: docs

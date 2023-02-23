@@ -1,5 +1,6 @@
 ---
 title: OdsoRecipientData Class
+linktitle: OdsoRecipientData
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Settings.OdsoRecipientData class. Represents information about a single record within an external data source that is to be excluded from the mail merge in C#.
 type: docs

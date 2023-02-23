@@ -1,5 +1,6 @@
 ---
-title: SequenceName
+title: FieldToa.SequenceName
+linktitle: SequenceName
 second_title: Aspose.Words for .NET API Reference
 description: FieldToa property. Gets or sets the name of a sequence whose number is included with the page number in C#.
 type: docs

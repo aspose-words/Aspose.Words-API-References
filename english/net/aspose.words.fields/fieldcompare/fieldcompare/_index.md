@@ -1,5 +1,6 @@
 ---
-title: FieldCompare
+title: FieldCompare.FieldCompare
+linktitle: FieldCompare
 second_title: Aspose.Words for .NET API Reference
 description: FieldCompare constructor. The default constructor in C#.
 type: docs

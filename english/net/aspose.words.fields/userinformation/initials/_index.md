@@ -1,5 +1,6 @@
 ---
-title: Initials
+title: UserInformation.Initials
+linktitle: Initials
 second_title: Aspose.Words for .NET API Reference
 description: UserInformation property. Gets or sets the users initials in C#.
 type: docs

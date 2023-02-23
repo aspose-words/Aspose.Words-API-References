@@ -1,5 +1,6 @@
 ---
-title: TextInputFormat
+title: FormField.TextInputFormat
+linktitle: TextInputFormat
 second_title: Aspose.Words for .NET API Reference
 description: FormField property. Returns or sets the text formatting for a text form field in C#.
 type: docs

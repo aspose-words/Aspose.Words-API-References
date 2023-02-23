@@ -1,5 +1,6 @@
 ---
-title: XScale
+title: TextPath.XScale
+linktitle: XScale
 second_title: Aspose.Words for .NET API Reference
 description: TextPath property. Determines whether a straight textpath will be used instead of the shape path in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: UseAltKinsokuLineBreakRules
+title: CompatibilityOptions.UseAltKinsokuLineBreakRules
+linktitle: UseAltKinsokuLineBreakRules
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions property. Use Alternate Set of East Asian Line Breaking Rules in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: Height
+title: FrameFormat.Height
+linktitle: Height
 second_title: Aspose.Words for .NET API Reference
 description: FrameFormat property. Gets the height of the specified frame in C#.
 type: docs

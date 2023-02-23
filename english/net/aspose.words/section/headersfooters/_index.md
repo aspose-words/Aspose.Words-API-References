@@ -1,5 +1,6 @@
 ---
-title: HeadersFooters
+title: Section.HeadersFooters
+linktitle: HeadersFooters
 second_title: Aspose.Words for .NET API Reference
 description: Section property. Provides access to the headers and footers nodes of the section in C#.
 type: docs

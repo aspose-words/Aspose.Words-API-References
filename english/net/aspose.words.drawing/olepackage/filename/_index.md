@@ -1,5 +1,6 @@
 ---
-title: FileName
+title: OlePackage.FileName
+linktitle: FileName
 second_title: Aspose.Words for .NET API Reference
 description: OlePackage property. Gets or sets OLE Package file name in C#.
 type: docs

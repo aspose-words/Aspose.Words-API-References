@@ -1,5 +1,6 @@
 ---
-title: Name
+title: WebExtensionProperty.Name
+linktitle: Name
 second_title: Aspose.Words for .NET API Reference
 description: WebExtensionProperty property. Specifies a custom property name in C#.
 type: docs

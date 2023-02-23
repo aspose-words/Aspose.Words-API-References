@@ -1,5 +1,6 @@
 ---
-title: ToString
+title: Node.ToString
+linktitle: ToString
 second_title: Aspose.Words for .NET API Reference
 description: Node method. Exports the content of the node into a string in the specified format in C#.
 type: docs

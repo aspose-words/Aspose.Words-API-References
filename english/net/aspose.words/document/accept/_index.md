@@ -1,5 +1,6 @@
 ---
-title: Accept
+title: Document.Accept
+linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
 description: Document method. Accepts a visitor in C#.
 type: docs

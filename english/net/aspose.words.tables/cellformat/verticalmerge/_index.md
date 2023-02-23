@@ -1,5 +1,6 @@
 ---
-title: VerticalMerge
+title: CellFormat.VerticalMerge
+linktitle: VerticalMerge
 second_title: Aspose.Words for .NET API Reference
 description: CellFormat property. Specifies how the cell is merged with other cells vertically in C#.
 type: docs

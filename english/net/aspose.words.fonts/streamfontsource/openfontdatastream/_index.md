@@ -1,5 +1,6 @@
 ---
-title: OpenFontDataStream
+title: StreamFontSource.OpenFontDataStream
+linktitle: OpenFontDataStream
 second_title: Aspose.Words for .NET API Reference
 description: StreamFontSource method. This method should open the stream with font data on demand in C#.
 type: docs

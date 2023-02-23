@@ -1,5 +1,6 @@
 ---
-title: SetImage
+title: ImageData.SetImage
+linktitle: SetImage
 second_title: Aspose.Words for .NET API Reference
 description: ImageData method. Sets the image that the shape displays in C#.
 type: docs

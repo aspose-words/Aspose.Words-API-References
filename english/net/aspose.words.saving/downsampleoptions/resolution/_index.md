@@ -1,5 +1,6 @@
 ---
-title: Resolution
+title: DownsampleOptions.Resolution
+linktitle: Resolution
 second_title: Aspose.Words for .NET API Reference
 description: DownsampleOptions property. Specifies the resolution in pixels per inch which the images should be downsampled to in C#.
 type: docs

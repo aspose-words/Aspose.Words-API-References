@@ -1,5 +1,6 @@
 ---
-title: Underline
+title: TextPath.Underline
+linktitle: Underline
 second_title: Aspose.Words for .NET API Reference
 description: TextPath property. True if the font is underlined in C#.
 type: docs

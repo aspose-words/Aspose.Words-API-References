@@ -1,5 +1,6 @@
 ---
-title: Add
+title: DropDownItemCollection.Add
+linktitle: Add
 second_title: Aspose.Words for .NET API Reference
 description: DropDownItemCollection method. Adds a string to the end of the collection in C#.
 type: docs

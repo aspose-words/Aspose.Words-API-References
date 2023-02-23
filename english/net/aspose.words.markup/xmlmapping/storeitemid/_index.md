@@ -1,5 +1,6 @@
 ---
-title: StoreItemId
+title: XmlMapping.StoreItemId
+linktitle: StoreItemId
 second_title: Aspose.Words for .NET API Reference
 description: XmlMapping property. Specifies the custom XML data identifier for the custom XML data part which shall be used to evaluate the XPath expression in C#.
 type: docs

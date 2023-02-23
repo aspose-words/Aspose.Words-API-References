@@ -1,5 +1,6 @@
 ---
-title: Count
+title: RevisionCollection.Count
+linktitle: Count
 second_title: Aspose.Words for .NET API Reference
 description: RevisionCollection property. Returns the number of revisions in the collection in C#.
 type: docs

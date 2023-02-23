@@ -1,5 +1,6 @@
 ---
-title: Bubble3D
+title: IChartDataPoint.Bubble3D
+linktitle: Bubble3D
 second_title: Aspose.Words for .NET API Reference
 description: IChartDataPoint property. Specifies whether the bubbles in Bubble chart should have a 3D effect applied to them in C#.
 type: docs

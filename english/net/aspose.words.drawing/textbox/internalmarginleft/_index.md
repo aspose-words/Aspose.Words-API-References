@@ -1,5 +1,6 @@
 ---
-title: InternalMarginLeft
+title: TextBox.InternalMarginLeft
+linktitle: InternalMarginLeft
 second_title: Aspose.Words for .NET API Reference
 description: TextBox property. Specifies the inner left margin in points for a shape in C#.
 type: docs

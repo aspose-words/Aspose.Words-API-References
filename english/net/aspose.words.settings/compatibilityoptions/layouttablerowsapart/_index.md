@@ -1,5 +1,6 @@
 ---
-title: LayoutTableRowsApart
+title: CompatibilityOptions.LayoutTableRowsApart
+linktitle: LayoutTableRowsApart
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions property. Allow Table Rows to Wrap Inline Objects Independently in C#.
 type: docs

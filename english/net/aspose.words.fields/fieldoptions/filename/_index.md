@@ -1,5 +1,6 @@
 ---
-title: FileName
+title: FieldOptions.FileName
+linktitle: FileName
 second_title: Aspose.Words for .NET API Reference
 description: FieldOptions property. Gets or sets the file name of the document in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: Type
+title: AxisScaling.Type
+linktitle: Type
 second_title: Aspose.Words for .NET API Reference
 description: AxisScaling property. Gets or sets scaling type of the axis in C#.
 type: docs

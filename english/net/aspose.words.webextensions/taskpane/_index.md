@@ -1,5 +1,6 @@
 ---
 title: TaskPane Class
+linktitle: TaskPane
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.WebExtensions.TaskPane class. Represents an addin task pane object in C#.
 type: docs

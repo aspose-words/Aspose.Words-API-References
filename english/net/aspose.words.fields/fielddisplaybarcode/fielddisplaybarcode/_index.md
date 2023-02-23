@@ -1,5 +1,6 @@
 ---
-title: FieldDisplayBarcode
+title: FieldDisplayBarcode.FieldDisplayBarcode
+linktitle: FieldDisplayBarcode
 second_title: Aspose.Words for .NET API Reference
 description: FieldDisplayBarcode constructor. The default constructor in C#.
 type: docs

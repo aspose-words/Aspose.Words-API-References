@@ -1,5 +1,6 @@
 ---
-title: InsertBreak
+title: DocumentBuilder.InsertBreak
+linktitle: InsertBreak
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder method. Inserts a break of the specified type into the document in C#.
 type: docs

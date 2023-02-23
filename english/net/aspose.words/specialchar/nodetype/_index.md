@@ -1,5 +1,6 @@
 ---
-title: NodeType
+title: SpecialChar.NodeType
+linktitle: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: SpecialChar property. Returns SpecialChar in C#.
 type: docs

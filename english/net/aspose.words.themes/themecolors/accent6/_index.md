@@ -1,5 +1,6 @@
 ---
-title: Accent6
+title: ThemeColors.Accent6
+linktitle: Accent6
 second_title: Aspose.Words for .NET API Reference
 description: ThemeColors property. Specifies color Accent 6 in C#.
 type: docs

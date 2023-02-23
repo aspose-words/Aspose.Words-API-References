@@ -1,5 +1,6 @@
 ---
-title: GetEnumerator
+title: ChartDataPointCollection.GetEnumerator
+linktitle: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: ChartDataPointCollection method. Returns an enumerator object in C#.
 type: docs

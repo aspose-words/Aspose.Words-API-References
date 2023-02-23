@@ -1,5 +1,6 @@
 ---
-title: HasDmlEffect
+title: Font.HasDmlEffect
+linktitle: HasDmlEffect
 second_title: Aspose.Words for .NET API Reference
 description: Font method. Checks if particular DrawingML text effect is applied in C#.
 type: docs

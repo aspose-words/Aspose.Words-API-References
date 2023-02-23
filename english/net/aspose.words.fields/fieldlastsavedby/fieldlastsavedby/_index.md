@@ -1,5 +1,6 @@
 ---
-title: FieldLastSavedBy
+title: FieldLastSavedBy.FieldLastSavedBy
+linktitle: FieldLastSavedBy
 second_title: Aspose.Words for .NET API Reference
 description: FieldLastSavedBy constructor. The default constructor in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
 title: PaperSize Enum
+linktitle: PaperSize
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.PaperSize enum. Specifies paper size in C#.
 type: docs

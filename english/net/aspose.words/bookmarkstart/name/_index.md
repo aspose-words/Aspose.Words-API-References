@@ -1,5 +1,6 @@
 ---
-title: Name
+title: BookmarkStart.Name
+linktitle: Name
 second_title: Aspose.Words for .NET API Reference
 description: BookmarkStart property. Gets or sets the bookmark name in C#.
 type: docs

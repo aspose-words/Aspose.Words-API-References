@@ -1,5 +1,6 @@
 ---
-title: NodeType
+title: SubDocument.NodeType
+linktitle: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: SubDocument property. Returns SubDocument in C#.
 type: docs

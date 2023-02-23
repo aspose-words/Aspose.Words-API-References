@@ -1,5 +1,6 @@
 ---
-title: Dml3DEffectsRenderingMode
+title: SaveOptions.Dml3DEffectsRenderingMode
+linktitle: Dml3DEffectsRenderingMode
 second_title: Aspose.Words for .NET API Reference
 description: SaveOptions property. Gets or sets a value determining how 3D effects are rendered in C#.
 type: docs

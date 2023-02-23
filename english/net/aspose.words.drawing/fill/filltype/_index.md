@@ -1,5 +1,6 @@
 ---
-title: FillType
+title: Fill.FillType
+linktitle: FillType
 second_title: Aspose.Words for .NET API Reference
 description: Fill property. Gets a fill type in C#.
 type: docs

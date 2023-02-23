@@ -1,5 +1,6 @@
 ---
-title: FrameFormat
+title: Paragraph.FrameFormat
+linktitle: FrameFormat
 second_title: Aspose.Words for .NET API Reference
 description: Paragraph property. Provides access to the frame formatting properties in C#.
 type: docs

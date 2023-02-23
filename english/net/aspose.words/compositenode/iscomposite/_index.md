@@ -1,5 +1,6 @@
 ---
-title: IsComposite
+title: CompositeNode.IsComposite
+linktitle: IsComposite
 second_title: Aspose.Words for .NET API Reference
 description: CompositeNode property. Returns true as this node can have child nodes in C#.
 type: docs

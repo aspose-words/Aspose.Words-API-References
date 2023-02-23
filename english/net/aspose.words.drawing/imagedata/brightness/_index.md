@@ -1,5 +1,6 @@
 ---
-title: Brightness
+title: ImageData.Brightness
+linktitle: Brightness
 second_title: Aspose.Words for .NET API Reference
 description: ImageData property. Gets or sets the brightness of the picture. The value for this property must be a number from 0.0 dimmest to 1.0 brightest in C#.
 type: docs

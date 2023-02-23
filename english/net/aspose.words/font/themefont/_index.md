@@ -1,5 +1,6 @@
 ---
-title: ThemeFont
+title: Font.ThemeFont
+linktitle: ThemeFont
 second_title: Aspose.Words for .NET API Reference
 description: Font property. Gets or sets the theme font in the applied font scheme that is associated with this Font object in C#.
 type: docs

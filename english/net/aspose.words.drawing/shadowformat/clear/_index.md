@@ -1,5 +1,6 @@
 ---
-title: Clear
+title: ShadowFormat.Clear
+linktitle: Clear
 second_title: Aspose.Words for .NET API Reference
 description: ShadowFormat method. Clears shadow format in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: HorizontalAlignment
+title: ShapeBase.HorizontalAlignment
+linktitle: HorizontalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase property. Specifies how the shape is positioned horizontally in C#.
 type: docs

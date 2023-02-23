@@ -1,5 +1,6 @@
 ---
-title: BasicTextShaperCache
+title: BasicTextShaperCache.BasicTextShaperCache
+linktitle: BasicTextShaperCache
 second_title: Aspose.Words for .NET API Reference
 description: BasicTextShaperCache constructor. Wraps factory and caches GetTextShaper results in C#.
 type: docs

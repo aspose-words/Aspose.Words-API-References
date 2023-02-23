@@ -1,5 +1,6 @@
 ---
-title: ForeColor
+title: Stroke.ForeColor
+linktitle: ForeColor
 second_title: Aspose.Words for .NET API Reference
 description: Stroke property. Gets or sets the foreground color of the stroke in C#.
 type: docs

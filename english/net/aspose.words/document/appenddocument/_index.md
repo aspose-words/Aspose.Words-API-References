@@ -1,5 +1,6 @@
 ---
-title: AppendDocument
+title: Document.AppendDocument
+linktitle: AppendDocument
 second_title: Aspose.Words for .NET API Reference
 description: Document method. Appends the specified document to the end of this document in C#.
 type: docs

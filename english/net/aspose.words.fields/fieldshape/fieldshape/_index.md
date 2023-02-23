@@ -1,5 +1,6 @@
 ---
-title: FieldShape
+title: FieldShape.FieldShape
+linktitle: FieldShape
 second_title: Aspose.Words for .NET API Reference
 description: FieldShape constructor. The default constructor in C#.
 type: docs

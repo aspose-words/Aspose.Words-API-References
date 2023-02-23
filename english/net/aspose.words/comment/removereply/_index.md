@@ -1,5 +1,6 @@
 ---
-title: RemoveReply
+title: Comment.RemoveReply
+linktitle: RemoveReply
 second_title: Aspose.Words for .NET API Reference
 description: Comment method. Removes the specified reply to this comment in C#.
 type: docs

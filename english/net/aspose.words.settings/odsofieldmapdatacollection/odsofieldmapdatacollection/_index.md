@@ -1,5 +1,6 @@
 ---
-title: OdsoFieldMapDataCollection
+title: OdsoFieldMapDataCollection.OdsoFieldMapDataCollection
+linktitle: OdsoFieldMapDataCollection
 second_title: Aspose.Words for .NET API Reference
 description: OdsoFieldMapDataCollection constructor. The default constructor in C#.
 type: docs

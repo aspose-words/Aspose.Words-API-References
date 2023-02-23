@@ -1,5 +1,6 @@
 ---
-title: LastRow
+title: ConditionalStyleCollection.LastRow
+linktitle: LastRow
 second_title: Aspose.Words for .NET API Reference
 description: ConditionalStyleCollection property. Gets the last row style in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: FieldNextIf
+title: FieldNextIf.FieldNextIf
+linktitle: FieldNextIf
 second_title: Aspose.Words for .NET API Reference
 description: FieldNextIf constructor. The default constructor in C#.
 type: docs

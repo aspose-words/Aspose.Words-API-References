@@ -1,5 +1,6 @@
 ---
-title: BookmarkName
+title: FieldPageRef.BookmarkName
+linktitle: BookmarkName
 second_title: Aspose.Words for .NET API Reference
 description: FieldPageRef property. Gets or sets the name of the bookmark in C#.
 type: docs

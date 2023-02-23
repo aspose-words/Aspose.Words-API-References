@@ -1,5 +1,6 @@
 ---
-title: Bold
+title: TextPath.Bold
+linktitle: Bold
 second_title: Aspose.Words for .NET API Reference
 description: TextPath property. True if the font is formatted as bold in C#.
 type: docs

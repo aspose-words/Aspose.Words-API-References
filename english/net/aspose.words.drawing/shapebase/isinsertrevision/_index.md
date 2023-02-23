@@ -1,5 +1,6 @@
 ---
-title: IsInsertRevision
+title: ShapeBase.IsInsertRevision
+linktitle: IsInsertRevision
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase property. Returns true if this object was inserted in Microsoft Word while change tracking was enabled in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: Clear
+title: SdtListItemCollection.Clear
+linktitle: Clear
 second_title: Aspose.Words for .NET API Reference
 description: SdtListItemCollection method. Clears all items from this collection in C#.
 type: docs

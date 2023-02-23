@@ -1,5 +1,6 @@
 ---
-title: Clone
+title: Document.Clone
+linktitle: Clone
 second_title: Aspose.Words for .NET API Reference
 description: Document method. Performs a deep copy of the Document in C#.
 type: docs

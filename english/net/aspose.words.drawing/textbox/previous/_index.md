@@ -1,5 +1,6 @@
 ---
-title: Previous
+title: TextBox.Previous
+linktitle: Previous
 second_title: Aspose.Words for .NET API Reference
 description: TextBox property. Returns a TextBox that represents the previous TextBox in a sequence of shapes in C#.
 type: docs

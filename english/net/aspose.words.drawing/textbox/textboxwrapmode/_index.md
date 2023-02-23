@@ -1,5 +1,6 @@
 ---
-title: TextBoxWrapMode
+title: TextBox.TextBoxWrapMode
+linktitle: TextBoxWrapMode
 second_title: Aspose.Words for .NET API Reference
 description: TextBox property. Determines how text wraps inside a shape in C#.
 type: docs

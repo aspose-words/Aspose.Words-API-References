@@ -1,5 +1,6 @@
 ---
-title: Shadow
+title: Border.Shadow
+linktitle: Shadow
 second_title: Aspose.Words for .NET API Reference
 description: Border property. Gets or sets a value indicating whether the border has a shadow in C#.
 type: docs

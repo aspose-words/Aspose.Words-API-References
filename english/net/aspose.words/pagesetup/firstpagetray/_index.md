@@ -1,5 +1,6 @@
 ---
-title: FirstPageTray
+title: PageSetup.FirstPageTray
+linktitle: FirstPageTray
 second_title: Aspose.Words for .NET API Reference
 description: PageSetup property. Gets or sets the paper tray bin to use for the first page of a section. The value is implementation printer specific in C#.
 type: docs

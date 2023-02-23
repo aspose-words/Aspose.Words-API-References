@@ -1,5 +1,6 @@
 ---
 title: ShowInBalloons Enum
+linktitle: ShowInBalloons
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Layout.ShowInBalloons enum. Specifies which revisions are rendered in balloons in C#.
 type: docs

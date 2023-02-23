@@ -1,5 +1,6 @@
 ---
-title: ClearFormat
+title: ChartDataLabelCollection.ClearFormat
+linktitle: ClearFormat
 second_title: Aspose.Words for .NET API Reference
 description: ChartDataLabelCollection method. Clears format of all ChartDataLabel in this collection in C#.
 type: docs

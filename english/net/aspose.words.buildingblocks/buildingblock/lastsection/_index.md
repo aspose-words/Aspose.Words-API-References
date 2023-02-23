@@ -1,5 +1,6 @@
 ---
-title: LastSection
+title: BuildingBlock.LastSection
+linktitle: LastSection
 second_title: Aspose.Words for .NET API Reference
 description: BuildingBlock property. Gets the last section in the building block in C#.
 type: docs

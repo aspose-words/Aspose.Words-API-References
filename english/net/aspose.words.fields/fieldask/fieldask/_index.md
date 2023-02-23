@@ -1,5 +1,6 @@
 ---
-title: FieldAsk
+title: FieldAsk.FieldAsk
+linktitle: FieldAsk
 second_title: Aspose.Words for .NET API Reference
 description: FieldAsk constructor. The default constructor in C#.
 type: docs

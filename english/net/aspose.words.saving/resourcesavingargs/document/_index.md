@@ -1,5 +1,6 @@
 ---
-title: Document
+title: ResourceSavingArgs.Document
+linktitle: Document
 second_title: Aspose.Words for .NET API Reference
 description: ResourceSavingArgs property. Gets the document object that is currently being saved in C#.
 type: docs

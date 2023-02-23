@@ -1,5 +1,6 @@
 ---
-title: InsertFootnote
+title: DocumentBuilder.InsertFootnote
+linktitle: InsertFootnote
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder method. Inserts a footnote or endnote into the document in C#.
 type: docs

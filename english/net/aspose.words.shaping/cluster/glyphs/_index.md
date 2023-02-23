@@ -1,5 +1,6 @@
 ---
-title: Glyphs
+title: Cluster.Glyphs
+linktitle: Glyphs
 second_title: Aspose.Words for .NET API Reference
 description: Cluster property. Gets glyphs of the cluster in C#.
 type: docs

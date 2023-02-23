@@ -1,5 +1,6 @@
 ---
-title: InsertAsPicture
+title: FieldLink.InsertAsPicture
+linktitle: InsertAsPicture
 second_title: Aspose.Words for .NET API Reference
 description: FieldLink property. Gets or sets whether to insert the linked object as a picture in C#.
 type: docs

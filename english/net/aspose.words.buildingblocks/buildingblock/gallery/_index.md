@@ -1,5 +1,6 @@
 ---
-title: Gallery
+title: BuildingBlock.Gallery
+linktitle: Gallery
 second_title: Aspose.Words for .NET API Reference
 description: BuildingBlock property. Specifies the firstlevel categorization for the building block for the purposes of classification or user interface sorting in C#.
 type: docs

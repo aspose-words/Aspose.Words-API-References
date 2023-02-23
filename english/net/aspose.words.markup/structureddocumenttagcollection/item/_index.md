@@ -1,5 +1,6 @@
 ---
-title: Item
+title: StructuredDocumentTagCollection.Item
+linktitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTagCollection property. Returns the structured document tag at the specified index in C#.
 type: docs

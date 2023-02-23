@@ -1,5 +1,6 @@
 ---
-title: FieldDatabaseDataTable
+title: FieldDatabaseDataTable.FieldDatabaseDataTable
+linktitle: FieldDatabaseDataTable
 second_title: Aspose.Words for .NET API Reference
 description: FieldDatabaseDataTable constructor. Initializes a new instance of the FieldDatabaseDataTable class in C#.
 type: docs

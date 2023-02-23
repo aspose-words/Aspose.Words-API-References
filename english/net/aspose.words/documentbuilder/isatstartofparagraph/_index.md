@@ -1,5 +1,6 @@
 ---
-title: IsAtStartOfParagraph
+title: DocumentBuilder.IsAtStartOfParagraph
+linktitle: IsAtStartOfParagraph
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder property. Returns true if the cursor is at the beginning of the current paragraph no text before the cursor in C#.
 type: docs

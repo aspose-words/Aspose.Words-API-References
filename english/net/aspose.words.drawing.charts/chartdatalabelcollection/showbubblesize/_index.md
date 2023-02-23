@@ -1,5 +1,6 @@
 ---
-title: ShowBubbleSize
+title: ChartDataLabelCollection.ShowBubbleSize
+linktitle: ShowBubbleSize
 second_title: Aspose.Words for .NET API Reference
 description: ChartDataLabelCollection property. Allows to specify whether bubble size is to be displayed for the data labels of the entire series. Applies only to Bubble charts. Default value is false in C#.
 type: docs

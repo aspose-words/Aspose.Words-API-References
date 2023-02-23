@@ -1,5 +1,6 @@
 ---
 title: AxisTickMark Enum
+linktitle: AxisTickMark
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.Charts.AxisTickMark enum. Specifies the possible positions for tick marks in C#.
 type: docs

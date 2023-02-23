@@ -1,5 +1,6 @@
 ---
-title: JsonDataSource
+title: JsonDataSource.JsonDataSource
+linktitle: JsonDataSource
 second_title: Aspose.Words for .NET API Reference
 description: JsonDataSource constructor. Creates a new data source with data from a JSON file using default options for parsing JSON data in C#.
 type: docs

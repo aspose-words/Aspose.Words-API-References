@@ -1,5 +1,6 @@
 ---
-title: Color
+title: StructuredDocumentTag.Color
+linktitle: Color
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTag property. Gets or sets the color of the structured document tag in C#.
 type: docs

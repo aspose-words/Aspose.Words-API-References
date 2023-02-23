@@ -1,5 +1,6 @@
 ---
-title: StringFormat
+title: GraphicsQualityOptions.StringFormat
+linktitle: StringFormat
 second_title: Aspose.Words for .NET API Reference
 description: GraphicsQualityOptions property. Gets or sets text layout information such as alignment orientation and tab stops display manipulations such as ellipsis insertion and national digit substitution and OpenType features in C#.
 type: docs

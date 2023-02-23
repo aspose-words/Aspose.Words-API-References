@@ -1,5 +1,6 @@
 ---
-title: Item
+title: BookmarkCollection.Item
+linktitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: BookmarkCollection property. Returns a bookmark at the specified index in C#.
 type: docs

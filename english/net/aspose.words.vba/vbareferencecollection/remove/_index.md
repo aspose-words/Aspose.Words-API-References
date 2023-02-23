@@ -1,5 +1,6 @@
 ---
-title: Remove
+title: VbaReferenceCollection.Remove
+linktitle: Remove
 second_title: Aspose.Words for .NET API Reference
 description: VbaReferenceCollection method. Removes the first occurrence of a specified VbaReference item from the collection in C#.
 type: docs

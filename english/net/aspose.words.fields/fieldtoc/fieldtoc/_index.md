@@ -1,5 +1,6 @@
 ---
-title: FieldToc
+title: FieldToc.FieldToc
+linktitle: FieldToc
 second_title: Aspose.Words for .NET API Reference
 description: FieldToc constructor. The default constructor in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: CaseCodeStyle
+title: BarcodeParameters.CaseCodeStyle
+linktitle: CaseCodeStyle
 second_title: Aspose.Words for .NET API Reference
 description: BarcodeParameters property. Style of a Case Code for barcode type ITF14. The valid values are STDEXTADD in C#.
 type: docs

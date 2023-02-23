@@ -1,5 +1,6 @@
 ---
-title: Properties
+title: WebExtension.Properties
+linktitle: Properties
 second_title: Aspose.Words for .NET API Reference
 description: WebExtension property. Represents a set of web extension custom properties in C#.
 type: docs

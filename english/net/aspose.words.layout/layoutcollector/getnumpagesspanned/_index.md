@@ -1,5 +1,6 @@
 ---
-title: GetNumPagesSpanned
+title: LayoutCollector.GetNumPagesSpanned
+linktitle: GetNumPagesSpanned
 second_title: Aspose.Words for .NET API Reference
 description: LayoutCollector method. Gets number of pages the specified node spans. 0 if node is within a single page. This is the same as GetEndPageIndex  GetStartPageIndex in C#.
 type: docs

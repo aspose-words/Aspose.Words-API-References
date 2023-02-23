@@ -1,5 +1,6 @@
 ---
-title: EndEditableRange
+title: DocumentBuilder.EndEditableRange
+linktitle: EndEditableRange
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder method. Marks the current position in the document as an editable range end in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: Id
+title: EditableRangeEnd.Id
+linktitle: Id
 second_title: Aspose.Words for .NET API Reference
 description: EditableRangeEnd property. Specifies the identifier of the editable range in C#.
 type: docs

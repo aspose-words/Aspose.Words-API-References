@@ -1,5 +1,6 @@
 ---
-title: Section
+title: Section.Section
+linktitle: Section
 second_title: Aspose.Words for .NET API Reference
 description: Section constructor. Initializes a new instance of the Section class in C#.
 type: docs

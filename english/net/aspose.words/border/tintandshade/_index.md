@@ -1,5 +1,6 @@
 ---
-title: TintAndShade
+title: Border.TintAndShade
+linktitle: TintAndShade
 second_title: Aspose.Words for .NET API Reference
 description: Border property. Gets or sets a double value that lightens or darkens a color in C#.
 type: docs

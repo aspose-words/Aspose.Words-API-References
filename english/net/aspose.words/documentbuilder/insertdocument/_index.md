@@ -1,5 +1,6 @@
 ---
-title: InsertDocument
+title: DocumentBuilder.InsertDocument
+linktitle: InsertDocument
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder method. Inserts a document at the cursor position in C#.
 type: docs

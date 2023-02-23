@@ -1,5 +1,6 @@
 ---
-title: ParagraphBreakChar
+title: ControlChar.ParagraphBreakChar
+linktitle: ParagraphBreakChar
 second_title: Aspose.Words for .NET API Reference
 description: ControlChar field. End of paragraph character char13 or r in C#.
 type: docs

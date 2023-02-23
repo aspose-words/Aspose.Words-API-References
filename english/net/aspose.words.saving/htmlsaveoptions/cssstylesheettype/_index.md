@@ -1,5 +1,6 @@
 ---
-title: CssStyleSheetType
+title: HtmlSaveOptions.CssStyleSheetType
+linktitle: CssStyleSheetType
 second_title: Aspose.Words for .NET API Reference
 description: HtmlSaveOptions property. Specifies how CSS Cascading Style Sheet styles are exported to HTML MHTML or EPUB. Default value is Inline for HTML/MHTML and External for EPUB in C#.
 type: docs

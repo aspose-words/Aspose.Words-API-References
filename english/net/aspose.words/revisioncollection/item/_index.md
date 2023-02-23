@@ -1,5 +1,6 @@
 ---
-title: Item
+title: RevisionCollection.Item
+linktitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: RevisionCollection property. Returns a Revision at the specified index in C#.
 type: docs

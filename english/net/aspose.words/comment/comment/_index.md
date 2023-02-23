@@ -1,5 +1,6 @@
 ---
-title: Comment
+title: Comment.Comment
+linktitle: Comment
 second_title: Aspose.Words for .NET API Reference
 description: Comment constructor. Initializes a new instance of the Comment class in C#.
 type: docs

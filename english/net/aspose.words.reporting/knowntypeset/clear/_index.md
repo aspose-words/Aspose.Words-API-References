@@ -1,5 +1,6 @@
 ---
-title: Clear
+title: KnownTypeSet.Clear
+linktitle: Clear
 second_title: Aspose.Words for .NET API Reference
 description: KnownTypeSet method. Removes all items from the set in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: Item
+title: HeaderFooterCollection.Item
+linktitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: HeaderFooterCollection property. Retrieves a HeaderFooter at the given index in C#.
 type: docs

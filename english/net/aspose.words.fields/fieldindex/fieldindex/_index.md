@@ -1,5 +1,6 @@
 ---
-title: FieldIndex
+title: FieldIndex.FieldIndex
+linktitle: FieldIndex
 second_title: Aspose.Words for .NET API Reference
 description: FieldIndex constructor. The default constructor in C#.
 type: docs

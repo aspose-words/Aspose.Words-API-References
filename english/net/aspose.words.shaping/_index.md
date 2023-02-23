@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words.Shaping
+linktitle: Aspose.Words.Shaping
 second_title: Aspose.Words for .NET API Reference
 description: The Aspose.Words.Shaping namespace contains classes to provide support for OpenType features using external text shaping engines in C#.
 type: docs

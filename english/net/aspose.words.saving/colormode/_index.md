@@ -1,5 +1,6 @@
 ---
 title: ColorMode Enum
+linktitle: ColorMode
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.ColorMode enum. Specifies how colors are rendered in C#.
 type: docs

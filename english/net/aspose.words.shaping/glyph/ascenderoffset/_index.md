@@ -1,5 +1,6 @@
 ---
-title: AscenderOffset
+title: Glyph.AscenderOffset
+linktitle: AscenderOffset
 second_title: Aspose.Words for .NET API Reference
 description: Glyph property. Vertical y offset relative to glyph position. Mostly used to attach marks like diacritics to base characters in C#.
 type: docs

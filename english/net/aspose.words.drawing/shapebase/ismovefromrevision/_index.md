@@ -1,5 +1,6 @@
 ---
-title: IsMoveFromRevision
+title: ShapeBase.IsMoveFromRevision
+linktitle: IsMoveFromRevision
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase property. Returns true if this object was moved deleted in Microsoft Word while change tracking was enabled in C#.
 type: docs

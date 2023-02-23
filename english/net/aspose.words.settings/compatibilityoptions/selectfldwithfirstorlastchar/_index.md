@@ -1,5 +1,6 @@
 ---
-title: SelectFldWithFirstOrLastChar
+title: CompatibilityOptions.SelectFldWithFirstOrLastChar
+linktitle: SelectFldWithFirstOrLastChar
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions property. Select Field When First or Last Character Is Selected in C#.
 type: docs

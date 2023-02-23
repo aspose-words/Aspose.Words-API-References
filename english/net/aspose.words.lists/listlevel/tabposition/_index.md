@@ -1,5 +1,6 @@
 ---
-title: TabPosition
+title: ListLevel.TabPosition
+linktitle: TabPosition
 second_title: Aspose.Words for .NET API Reference
 description: ListLevel property. Returns or sets the tab position in points for the list level in C#.
 type: docs

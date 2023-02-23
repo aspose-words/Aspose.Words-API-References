@@ -1,5 +1,6 @@
 ---
-title: Accept
+title: OfficeMath.Accept
+linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
 description: OfficeMath method. Accepts a visitor in C#.
 type: docs

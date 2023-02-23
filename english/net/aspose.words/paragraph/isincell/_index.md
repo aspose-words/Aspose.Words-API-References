@@ -1,5 +1,6 @@
 ---
-title: IsInCell
+title: Paragraph.IsInCell
+linktitle: IsInCell
 second_title: Aspose.Words for .NET API Reference
 description: Paragraph property. True if this paragraph is an immediate child of Cell false otherwise in C#.
 type: docs

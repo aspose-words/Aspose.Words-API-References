@@ -1,5 +1,6 @@
 ---
-title: VisitOfficeMathStart
+title: DocumentVisitor.VisitOfficeMathStart
+linktitle: VisitOfficeMathStart
 second_title: Aspose.Words for .NET API Reference
 description: DocumentVisitor method. Called when enumeration of a Office Math object has started in C#.
 type: docs

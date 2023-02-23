@@ -1,5 +1,6 @@
 ---
-title: FieldUserInitials
+title: FieldUserInitials.FieldUserInitials
+linktitle: FieldUserInitials
 second_title: Aspose.Words for .NET API Reference
 description: FieldUserInitials constructor. The default constructor in C#.
 type: docs

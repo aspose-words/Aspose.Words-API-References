@@ -1,5 +1,6 @@
 ---
-title: Clear
+title: ChartSeriesCollection.Clear
+linktitle: Clear
 second_title: Aspose.Words for .NET API Reference
 description: ChartSeriesCollection method. Removes all ChartSeries from this collection in C#.
 type: docs

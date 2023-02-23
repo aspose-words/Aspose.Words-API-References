@@ -1,5 +1,6 @@
 ---
-title: Remove
+title: KnownTypeSet.Remove
+linktitle: Remove
 second_title: Aspose.Words for .NET API Reference
 description: KnownTypeSet method. Removes the specified Type object from the set. Throws ArgumentException if type is null in C#.
 type: docs

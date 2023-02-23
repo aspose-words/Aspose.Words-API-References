@@ -1,5 +1,6 @@
 ---
-title: Document
+title: FieldMergingArgsBase.Document
+linktitle: Document
 second_title: Aspose.Words for .NET API Reference
 description: FieldMergingArgsBase property. Returns the Document object for which the mail merge is performed in C#.
 type: docs

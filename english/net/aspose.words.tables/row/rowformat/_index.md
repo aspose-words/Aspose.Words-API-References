@@ -1,5 +1,6 @@
 ---
-title: RowFormat
+title: Row.RowFormat
+linktitle: RowFormat
 second_title: Aspose.Words for .NET API Reference
 description: Row property. Provides access to the formatting properties of the row in C#.
 type: docs

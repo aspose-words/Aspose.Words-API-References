@@ -1,5 +1,6 @@
 ---
-title: Format
+title: IFieldResultFormatter.Format
+linktitle: Format
 second_title: Aspose.Words for .NET API Reference
 description: IFieldResultFormatter method. Called when Aspose.Words applies a capitalization format switch i.e.  Upper in C#.
 type: docs

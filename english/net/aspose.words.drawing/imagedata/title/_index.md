@@ -1,5 +1,6 @@
 ---
-title: Title
+title: ImageData.Title
+linktitle: Title
 second_title: Aspose.Words for .NET API Reference
 description: ImageData property. Defines the title of an image in C#.
 type: docs

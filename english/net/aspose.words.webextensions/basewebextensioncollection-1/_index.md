@@ -1,5 +1,6 @@
 ---
 title: BaseWebExtensionCollectionT Class
+linktitle: BaseWebExtensionCollectionT
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T class. Base class for TaskPaneCollection WebExtensionBindingCollection WebExtensionPropertyCollection and WebExtensionReferenceCollection collections in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
-title: ShowRevisionMarks
+title: RevisionOptions.ShowRevisionMarks
+linktitle: ShowRevisionMarks
 second_title: Aspose.Words for .NET API Reference
 description: RevisionOptions property. Allow to specify whether revision text should be marked with special formatting markup. Default value is true in C#.
 type: docs

@@ -1,5 +1,6 @@
 ---
 title: ListTrailingCharacter Enum
+linktitle: ListTrailingCharacter
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Lists.ListTrailingCharacter enum. Specifies the character that separates the list label from the text of the paragraph in C#.
 type: docs
