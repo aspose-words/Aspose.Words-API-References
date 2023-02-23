@@ -1,5 +1,5 @@
 ---
-title: OdtSaveOptions.OdtSaveOptions
+title: OdtSaveOptions
 linktitle: OdtSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: OdtSaveOptions constructor. Initializes a new instance of this class that can be used to save a document in the Odt format in C#.

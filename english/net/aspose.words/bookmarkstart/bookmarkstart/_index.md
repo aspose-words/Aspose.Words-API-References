@@ -1,5 +1,5 @@
 ---
-title: BookmarkStart.BookmarkStart
+title: BookmarkStart
 linktitle: BookmarkStart
 second_title: Aspose.Words for .NET API Reference
 description: BookmarkStart constructor. Initializes a new instance of the BookmarkStart class in C#.

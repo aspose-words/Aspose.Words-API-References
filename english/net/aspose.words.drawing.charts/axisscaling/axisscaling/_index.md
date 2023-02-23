@@ -1,5 +1,5 @@
 ---
-title: AxisScaling.AxisScaling
+title: AxisScaling
 linktitle: AxisScaling
 second_title: Aspose.Words for .NET API Reference
 description: AxisScaling constructor. The default constructor in C#.

@@ -1,5 +1,5 @@
 ---
-title: XmlDataLoadOptions.XmlDataLoadOptions
+title: XmlDataLoadOptions
 linktitle: XmlDataLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: XmlDataLoadOptions constructor. Initializes a new instance of this class with default options in C#.

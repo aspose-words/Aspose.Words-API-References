@@ -1,5 +1,5 @@
 ---
-title: CustomXmlPartCollection.CustomXmlPartCollection
+title: CustomXmlPartCollection
 linktitle: CustomXmlPartCollection
 second_title: Aspose.Words for .NET API Reference
 description: CustomXmlPartCollection constructor. The default constructor in C#.

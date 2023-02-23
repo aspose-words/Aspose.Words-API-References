@@ -1,5 +1,5 @@
 ---
-title: LoadOptions.LoadOptions
+title: LoadOptions
 linktitle: LoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: LoadOptions constructor. Initializes a new instance of this class with default values in C#.

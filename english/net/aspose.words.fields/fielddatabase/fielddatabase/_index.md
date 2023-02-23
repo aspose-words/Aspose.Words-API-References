@@ -1,5 +1,5 @@
 ---
-title: FieldDatabase.FieldDatabase
+title: FieldDatabase
 linktitle: FieldDatabase
 second_title: Aspose.Words for .NET API Reference
 description: FieldDatabase constructor. The default constructor in C#.

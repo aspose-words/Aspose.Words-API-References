@@ -1,5 +1,5 @@
 ---
-title: FieldTemplate.FieldTemplate
+title: FieldTemplate
 linktitle: FieldTemplate
 second_title: Aspose.Words for .NET API Reference
 description: FieldTemplate constructor. The default constructor in C#.

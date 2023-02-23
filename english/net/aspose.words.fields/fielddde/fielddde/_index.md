@@ -1,5 +1,5 @@
 ---
-title: FieldDde.FieldDde
+title: FieldDde
 linktitle: FieldDde
 second_title: Aspose.Words for .NET API Reference
 description: FieldDde constructor. The default constructor in C#.

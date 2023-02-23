@@ -1,5 +1,5 @@
 ---
-title: FieldRD.FieldRD
+title: FieldRD
 linktitle: FieldRD
 second_title: Aspose.Words for .NET API Reference
 description: FieldRD constructor. The default constructor in C#.

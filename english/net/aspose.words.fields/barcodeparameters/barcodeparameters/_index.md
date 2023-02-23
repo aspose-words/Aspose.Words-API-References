@@ -1,5 +1,5 @@
 ---
-title: BarcodeParameters.BarcodeParameters
+title: BarcodeParameters
 linktitle: BarcodeParameters
 second_title: Aspose.Words for .NET API Reference
 description: BarcodeParameters constructor. The default constructor in C#.

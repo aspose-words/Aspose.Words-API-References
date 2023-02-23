@@ -1,5 +1,5 @@
 ---
-title: FolderFontSource.FolderFontSource
+title: FolderFontSource
 linktitle: FolderFontSource
 second_title: Aspose.Words for .NET API Reference
 description: FolderFontSource constructor. Ctor in C#.

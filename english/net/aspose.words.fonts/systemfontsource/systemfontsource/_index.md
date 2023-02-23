@@ -1,5 +1,5 @@
 ---
-title: SystemFontSource.SystemFontSource
+title: SystemFontSource
 linktitle: SystemFontSource
 second_title: Aspose.Words for .NET API Reference
 description: SystemFontSource constructor. Ctor in C#.

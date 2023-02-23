@@ -1,5 +1,5 @@
 ---
-title: SignatureLineOptions.SignatureLineOptions
+title: SignatureLineOptions
 linktitle: SignatureLineOptions
 second_title: Aspose.Words for .NET API Reference
 description: SignatureLineOptions constructor. The default constructor in C#.

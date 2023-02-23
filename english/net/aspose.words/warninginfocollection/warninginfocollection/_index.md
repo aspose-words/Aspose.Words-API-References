@@ -1,5 +1,5 @@
 ---
-title: WarningInfoCollection.WarningInfoCollection
+title: WarningInfoCollection
 linktitle: WarningInfoCollection
 second_title: Aspose.Words for .NET API Reference
 description: WarningInfoCollection constructor. The default constructor in C#.

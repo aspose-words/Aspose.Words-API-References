@@ -1,5 +1,5 @@
 ---
-title: FieldFootnoteRef.FieldFootnoteRef
+title: FieldFootnoteRef
 linktitle: FieldFootnoteRef
 second_title: Aspose.Words for .NET API Reference
 description: FieldFootnoteRef constructor. The default constructor in C#.

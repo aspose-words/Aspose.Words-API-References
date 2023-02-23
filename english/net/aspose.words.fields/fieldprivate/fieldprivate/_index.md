@@ -1,5 +1,5 @@
 ---
-title: FieldPrivate.FieldPrivate
+title: FieldPrivate
 linktitle: FieldPrivate
 second_title: Aspose.Words for .NET API Reference
 description: FieldPrivate constructor. The default constructor in C#.

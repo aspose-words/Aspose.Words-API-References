@@ -1,5 +1,5 @@
 ---
-title: FontSettings.FontSettings
+title: FontSettings
 linktitle: FontSettings
 second_title: Aspose.Words for .NET API Reference
 description: FontSettings constructor. The default constructor in C#.

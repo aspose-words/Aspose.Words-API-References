@@ -1,5 +1,5 @@
 ---
-title: FieldTitle.FieldTitle
+title: FieldTitle
 linktitle: FieldTitle
 second_title: Aspose.Words for .NET API Reference
 description: FieldTitle constructor. The default constructor in C#.

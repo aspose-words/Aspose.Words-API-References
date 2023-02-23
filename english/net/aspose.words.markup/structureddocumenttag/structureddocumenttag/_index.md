@@ -1,5 +1,5 @@
 ---
-title: StructuredDocumentTag.StructuredDocumentTag
+title: StructuredDocumentTag
 linktitle: StructuredDocumentTag
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTag constructor. Initializes a new instance of the Structured document tag class in C#.

@@ -1,5 +1,5 @@
 ---
-title: CustomPart.CustomPart
+title: CustomPart
 linktitle: CustomPart
 second_title: Aspose.Words for .NET API Reference
 description: CustomPart constructor. The default constructor in C#.

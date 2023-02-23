@@ -1,5 +1,5 @@
 ---
-title: OfficeMathRenderer.OfficeMathRenderer
+title: OfficeMathRenderer
 linktitle: OfficeMathRenderer
 second_title: Aspose.Words for .NET API Reference
 description: OfficeMathRenderer constructor. Initializes a new instance of this class in C#.
